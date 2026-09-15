@@ -9,7 +9,8 @@ import {
   Layers,
   HelpCircle,
   Eye,
-  Bookmark
+  Bookmark,
+  MapPin
 } from 'lucide-react';
 import { PieceData, ObservationChallengeItem, PieceSpecsObject, SpecItem } from '../types';
 import { AudioPlayer } from './AudioPlayer';
@@ -126,6 +127,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             alt={piece.identification.title}
             fallbackTitle={piece.identification.title}
             fallbackSubtitle={piece.identification.culture_period}
+            loading="eager"
             className="w-full h-full cursor-pointer"
             imgClassName="w-full h-full object-cover object-center cursor-pointer transition-transform duration-500 group-hover:scale-[1.02]"
             onClick={() => setIsZoomOpen(true)}
@@ -330,6 +332,47 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                   </div>
                 </div>
               )}
+
+              {/* Ubicación en el Museo / Sala */}
+              <div
+                id="piece-room-location-card"
+                className={`p-4 rounded-xl border flex items-center justify-between gap-3 ${
+                  isSunMode
+                    ? 'bg-stone-100/70 border-stone-200'
+                    : 'bg-stone-900/60 border-stone-800'
+                }`}
+              >
+                <div className="flex items-center gap-3 min-w-0">
+                  <div
+                    className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 ${
+                      isSunMode
+                        ? 'bg-[#C05638]/10 text-[#C05638]'
+                        : 'bg-[#D96B47]/20 text-[#D96B47]'
+                    }`}
+                  >
+                    <MapPin className="w-5 h-5" />
+                  </div>
+                  <div className="min-w-0">
+                    <span className="text-[10px] uppercase font-bold tracking-wider text-stone-500 dark:text-stone-400 block">
+                      Ubicación en el Museo
+                    </span>
+                    <span className="text-sm font-semibold truncate block text-stone-900 dark:text-stone-100">
+                      {roomName || piece.location.room_name || 'Sala Mexica'}
+                    </span>
+                  </div>
+                </div>
+
+                {piece.location.case_number && (
+                  <div className="text-right shrink-0">
+                    <span className="text-[10px] uppercase font-bold tracking-wider text-stone-400 block">
+                      Cédula / Vitrina
+                    </span>
+                    <span className="text-xs font-mono font-medium text-stone-700 dark:text-stone-300">
+                      {piece.location.case_number}
+                    </span>
+                  </div>
+                )}
+              </div>
             </div>
           )}
 

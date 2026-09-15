@@ -254,7 +254,7 @@ export default function App() {
     setActiveRoute(updatedRoute);
   };
 
-  // Handle next stop button
+  // Handle next stop button or finish route
   const handleNextStop = async () => {
     if (!activeRoute) return;
     const nextIdx = currentStopIndex + 1;
@@ -262,7 +262,19 @@ export default function App() {
       setCurrentStopIndex(nextIdx);
       setSpontaneousDetour(null);
       await loadPieceData(activeRoute.stops[nextIdx].file);
+    } else {
+      // Reached the end: open route completion / manager modal
+      setIsLiveRouteManagerOpen(true);
     }
+  };
+
+  // Handle previous stop button
+  const handlePreviousStop = async () => {
+    if (!activeRoute || currentStopIndex <= 0) return;
+    const prevIdx = currentStopIndex - 1;
+    setCurrentStopIndex(prevIdx);
+    setSpontaneousDetour(null);
+    await loadPieceData(activeRoute.stops[prevIdx].file);
   };
 
   // Restart route
@@ -513,6 +525,7 @@ export default function App() {
                     : null
                 }
                 onNextStop={handleNextStop}
+                onPreviousStop={handlePreviousStop}
                 onRestartRoute={handleRestartRoute}
                 onOpenRouteModal={() => setIsLiveRouteManagerOpen(true)}
                 onOpenMapModal={() => setIsMapModalOpen(true)}

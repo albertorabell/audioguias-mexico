@@ -12,6 +12,7 @@ export interface SafeImageProps {
   fallbackTitle?: string;
   fallbackSubtitle?: string;
   iconType?: 'museum' | 'pyramid' | 'castle' | 'monolith';
+  loading?: 'eager' | 'lazy';
 }
 
 export const SafeImage: React.FC<SafeImageProps> = ({
@@ -23,9 +24,9 @@ export const SafeImage: React.FC<SafeImageProps> = ({
   draggable = false,
   fallbackTitle,
   fallbackSubtitle,
+  loading = 'lazy',
 }) => {
   const [hasError, setHasError] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
   const { isSunMode } = useTheme();
 
   // Compute optimized URL through proxy to eliminate 403 Forbidden Wikimedia errors
@@ -37,7 +38,6 @@ export const SafeImage: React.FC<SafeImageProps> = ({
   // Reset states when input URL changes
   useEffect(() => {
     setHasError(false);
-    setIsLoading(true);
   }, [src]);
 
   const displayName = fallbackTitle || alt || 'Obra del Acervo';
@@ -47,13 +47,23 @@ export const SafeImage: React.FC<SafeImageProps> = ({
       <div
         className={`relative flex flex-col items-center justify-center p-6 text-center select-none overflow-hidden ${
           isSunMode
-            ? 'bg-[#F2ECE4] text-stone-800'
-            : 'bg-[#1C1A18] text-stone-200'
+            ? 'bg-gradient-to-br from-[#F5EFEB] via-[#EFE7DD] to-[#E3D9CC] text-stone-800'
+            : 'bg-gradient-to-br from-[#241E1C] via-[#1A1816] to-[#121110] text-stone-200'
         } ${className}`}
         onClick={onClick}
       >
-        {/* Archival border framing with cultural graphic */}
+        {/* Archival border framing with cultural graphic fallback */}
         <div className="border border-stone-400/20 dark:border-stone-700/30 p-5 rounded-xl w-full h-full flex flex-col items-center justify-center">
+          <div className="w-10 h-10 rounded-full flex items-center justify-center mb-2 bg-stone-500/10 text-[#C05638] dark:text-[#D96B47]">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 3v4" />
+              <path d="M12 17v4" />
+              <path d="M3 12h4" />
+              <path d="M17 12h4" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+          </div>
           <p
             className={`font-serif text-sm font-medium tracking-tight max-w-[90%] truncate ${
               isSunMode ? 'text-stone-900' : 'text-stone-100'
@@ -75,22 +85,13 @@ export const SafeImage: React.FC<SafeImageProps> = ({
 
   return (
     <div className={`relative overflow-hidden ${className}`}>
-      {isLoading && (
-        <div
-          className={`absolute inset-0 animate-pulse z-10 ${
-            isSunMode ? 'bg-stone-200' : 'bg-stone-900'
-          }`}
-        />
-      )}
       <img
         src={resolvedUrl}
         alt={alt}
         referrerPolicy="no-referrer"
-        loading="lazy"
+        loading={loading}
         draggable={draggable}
-        onLoad={() => setIsLoading(false)}
         onError={(e) => {
-          setIsLoading(false);
           // Fallback to cultural SVG if proxy or network fails
           if (e.currentTarget.src !== CULTURAL_FALLBACK_SVG) {
             e.currentTarget.src = CULTURAL_FALLBACK_SVG;
@@ -99,9 +100,7 @@ export const SafeImage: React.FC<SafeImageProps> = ({
           }
         }}
         onClick={onClick}
-        className={`w-full h-full object-cover transition duration-300 ${
-          isLoading ? 'opacity-0' : 'opacity-100'
-        } ${imgClassName}`}
+        className={`w-full h-full object-cover ${imgClassName}`}
       />
     </div>
   );

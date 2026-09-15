@@ -117,6 +117,8 @@ export interface PieceData {
   is_premium: boolean;
   estimated_minutes?: number;
   tags?: string[];
+  map_coords?: MapCoords;
+  map?: { x: number; y: number } | MapCoords;
   summary_30s?: string;
   observation_challenges?: ObservationChallengeItem[];
   did_you_know?: string[];

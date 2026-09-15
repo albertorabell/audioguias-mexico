@@ -14,6 +14,7 @@ interface VenueFloorplanProps {
 
 export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
   siteId,
+  rooms = [],
   selectedRoomId,
   onSelectRoom,
   stops = [],
@@ -73,13 +74,86 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
         activePinBg: '#FBBF24',
       };
 
+  // Helper to count pieces in a given room
+  const getRoomPieceCount = (roomId: string): number => {
+    const room = rooms.find((r) => r.id === roomId);
+    return room?.pieces_info?.length || 0;
+  };
+
+  // Coordenadas fijas de salas para el plano arquitectónico del MNA (viewBox 800 x 600)
+  const MNA_ROOM_CENTERS: Record<string, { x: number; y: number }> = {
+    // Ala derecha (recorrido cronológico)
+    'sala-1': { x: 645, y: 417 },
+    'sala-introduccion_antropologia': { x: 645, y: 417 },
+    'sala-2': { x: 645, y: 357 },
+    'sala-poblamiento': { x: 645, y: 357 },
+    'sala-3': { x: 645, y: 297 },
+    'sala-preclasico': { x: 645, y: 297 },
+    'sala-4': { x: 645, y: 237 },
+    'sala-teotihuacan': { x: 645, y: 237 },
+    'sala-5': { x: 645, y: 177 },
+    'sala-tolteca': { x: 645, y: 177 },
+
+    // Cabecera monumental (Norte)
+    'sala-6': { x: 400, y: 85 },
+    'sala-mexica': { x: 400, y: 85 },
+
+    // Ala izquierda (recorrido geográfico)
+    'sala-7': { x: 155, y: 177 },
+    'sala-oaxaca': { x: 155, y: 177 },
+    'sala-8': { x: 155, y: 237 },
+    'sala-costa_del_golfo': { x: 155, y: 237 },
+    'sala-9': { x: 155, y: 297 },
+    'sala-maya': { x: 155, y: 297 },
+    'sala-10': { x: 155, y: 357 },
+    'sala-occidente': { x: 155, y: 357 },
+    'sala-11': { x: 155, y: 417 },
+    'sala-norte': { x: 155, y: 417 },
+
+    // Espacios comunes
+    'patio-central': { x: 400, y: 245 },
+    'vestibulo': { x: 400, y: 512 },
+  };
+
+  // Helper para resolver coordenadas SVG reales (cx, cy) para una parada o pieza
+  const getStopSvgCoords = (stop: RouteStop): { x: number; y: number } => {
+    // Si es el MNA, intentar ubicar por la sala correspondiente
+    if (siteId === 'MNA') {
+      const roomIdKey = stop.room_id ? stop.room_id.toLowerCase().trim() : '';
+      if (roomIdKey && MNA_ROOM_CENTERS[roomIdKey]) {
+        return MNA_ROOM_CENTERS[roomIdKey];
+      }
+
+      // Si room_zone tiene texto como "Mexica" o "Maya", resolver
+      const zone = (stop.room_zone || '').toLowerCase();
+      if (zone.includes('mexica')) return MNA_ROOM_CENTERS['sala-mexica'];
+      if (zone.includes('maya')) return MNA_ROOM_CENTERS['sala-maya'];
+      if (zone.includes('teotihuac')) return MNA_ROOM_CENTERS['sala-teotihuacan'];
+      if (zone.includes('tolteca')) return MNA_ROOM_CENTERS['sala-tolteca'];
+      if (zone.includes('oaxaca')) return MNA_ROOM_CENTERS['sala-oaxaca'];
+      if (zone.includes('golfo') || zone.includes('costa')) return MNA_ROOM_CENTERS['sala-costa_del_golfo'];
+      if (zone.includes('occidente')) return MNA_ROOM_CENTERS['sala-occidente'];
+      if (zone.includes('norte')) return MNA_ROOM_CENTERS['sala-norte'];
+      if (zone.includes('precl')) return MNA_ROOM_CENTERS['sala-preclasico'];
+      if (zone.includes('pobla')) return MNA_ROOM_CENTERS['sala-poblamiento'];
+      if (zone.includes('intro') || zone.includes('antrop')) return MNA_ROOM_CENTERS['sala-introduccion_antropologia'];
+    }
+
+    // Coordenadas directas (0 a 100 escaladas al viewBox 800 x 600)
+    const coords = stop.map_coords || (stop as any).map || { x: 50, y: 50 };
+    return {
+      x: (coords.x ?? 50) * 8,
+      y: (coords.y ?? 50) * 6,
+    };
+  };
+
   // Helper to render dynamic route connecting polyline
   const renderRouteTrail = () => {
     if (!stops || stops.length < 2) return null;
     const pointsStr = stops
       .map((s) => {
-        const coords = s.map_coords || { x: 50, y: 50 };
-        return `${coords.x * 8},${coords.y * 6}`;
+        const pt = getStopSvgCoords(s);
+        return `${pt.x},${pt.y}`;
       })
       .join(' ');
 
@@ -113,9 +187,9 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
   const renderPins = () => {
     if (!stops) return null;
     return stops.map((stop, idx) => {
-      const coords = stop.map_coords || { x: 50, y: 50 };
-      const cx = coords.x * 8;
-      const cy = coords.y * 6;
+      const pt = getStopSvgCoords(stop);
+      const cx = pt.x;
+      const cy = pt.y;
       const isActive = idx === currentStopIndex;
 
       return (
@@ -206,24 +280,24 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
       {/* ============================================================ */}
       {siteId === 'MNA' && (
         <g id="mna-floorplan">
-          {/* Main Museum Outer Perimeter Wall */}
+          {/* Main Museum Outer Perimeter Wall in classic U-shape */}
           <rect
-            x="90"
-            y="30"
-            width="620"
-            height="540"
+            x="70"
+            y="25"
+            width="660"
+            height="550"
             rx="14"
             fill={theme.wallFill}
             stroke={theme.wallStroke}
             strokeWidth="3"
           />
 
-          {/* Patio Central (Open Courtyard) */}
+          {/* Gran Patio Central (Courtyard surrounded by the U-shaped wings) */}
           <rect
-            x="220"
+            x="240"
             y="170"
-            width="360"
-            height="270"
+            width="320"
+            height="275"
             rx="8"
             fill={theme.courtyard}
             stroke={theme.courtyardStroke}
@@ -232,38 +306,72 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
             className="cursor-pointer"
           />
 
-          {/* El Paraguas (Iconic Bronze Column & Fountain in Central Patio) */}
+          {/* Estanque Lirios y Espejo de Agua en el Patio Central */}
+          <g
+            id="estanque-central"
+            onClick={() => onSelectRoom && onSelectRoom('patio-central')}
+            className="cursor-pointer"
+          >
+            <rect
+              x="260"
+              y="320"
+              width="280"
+              height="105"
+              rx="6"
+              fill={theme.water}
+              fillOpacity="0.22"
+              stroke={theme.waterBorder}
+              strokeWidth="1.5"
+              strokeDasharray="4 2"
+            />
+            <text
+              x="400"
+              y="380"
+              fill={theme.waterBorder}
+              fontSize="9"
+              fontWeight="700"
+              textAnchor="middle"
+              className="pointer-events-none tracking-wider"
+            >
+              ESTANQUE Y ESPEJO DE AGUA
+            </text>
+          </g>
+
+          {/* El Paraguas (Monumental Bronze Column & Waterfall by Pedro Ramírez Vázquez) */}
           <g
             id="patio-central"
             onClick={() => onSelectRoom && onSelectRoom('patio-central')}
             className="cursor-pointer group"
           >
+            {/* Outer water fountain ripple */}
             <circle
               cx="400"
-              cy="305"
-              r="48"
+              cy="245"
+              r="46"
               fill={theme.water}
-              fillOpacity="0.25"
+              fillOpacity="0.3"
               stroke={theme.waterBorder}
               strokeWidth="1.5"
-              strokeDasharray="4 2"
+              strokeDasharray="5 3"
             />
+            {/* Column umbrella canopy ring */}
             <circle
               cx="400"
-              cy="305"
+              cy="245"
               r="24"
               fill={theme.accent}
               fillOpacity="0.3"
               stroke={theme.accent}
               strokeWidth="1.5"
             />
-            <circle cx="400" cy="305" r="7" fill={theme.accentLight} />
+            {/* Monumental bronze central column */}
+            <circle cx="400" cy="245" r="8" fill={theme.accentLight} />
             <text
               x="400"
-              y="326"
+              y="266"
               fill={theme.textMain}
               fontSize="10"
-              fontWeight="800"
+              fontWeight="900"
               textAnchor="middle"
               className="pointer-events-none tracking-wide"
             >
@@ -271,56 +379,262 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
             </text>
             <text
               x="400"
-              y="338"
+              y="278"
               fill={theme.textMuted}
               fontSize="8"
               fontWeight="600"
               textAnchor="middle"
               className="pointer-events-none"
             >
-              Fuente Monumental
+              Columna y Fuente Monumental
             </text>
           </g>
 
-          {/* SALA MEXICA (North Monumental Wing - Focal Room) */}
+          {/* ============================================================ */}
+          {/* ALA DERECHA (ESTE): RECORRIDO CRONOLÓGICO (SALAS 1 A 5)       */}
+          {/* ============================================================ */}
+
+          {/* SALA 1: Introducción a la Antropología */}
           <g
-            id="sala-mexica"
-            onClick={() => onSelectRoom && onSelectRoom('sala-mexica')}
+            id="sala-1"
+            onClick={() => onSelectRoom && onSelectRoom('sala-1')}
+            className="cursor-pointer group"
+          >
+            <rect
+              x="570"
+              y="390"
+              width="150"
+              height="55"
+              rx="5"
+              fill={selectedRoomId === 'sala-1' ? theme.selectedFill : theme.roomDefault}
+              stroke={selectedRoomId === 'sala-1' ? theme.selectedStroke : theme.roomStroke}
+              strokeWidth={selectedRoomId === 'sala-1' ? '3' : '1.5'}
+              filter={selectedRoomId === 'sala-1' ? 'url(#room-glow)' : undefined}
+              className="transition-all duration-200"
+            />
+            <text
+              x="645"
+              y="412"
+              fill={selectedRoomId === 'sala-1' ? theme.selectedStroke : theme.textMain}
+              fontSize="10"
+              fontWeight="800"
+              textAnchor="middle"
+            >
+              SALA 1: INTRODUCCIÓN
+            </text>
+            <text
+              x="645"
+              y="426"
+              fill={theme.textMuted}
+              fontSize="8"
+              fontWeight="600"
+              textAnchor="middle"
+            >
+              Antropología {getRoomPieceCount('sala-1') > 0 ? `• (${getRoomPieceCount('sala-1')} piezas)` : ''}
+            </text>
+          </g>
+
+          {/* SALA 2: Poblamiento de América */}
+          <g
+            id="sala-2"
+            onClick={() => onSelectRoom && onSelectRoom('sala-2')}
+            className="cursor-pointer group"
+          >
+            <rect
+              x="570"
+              y="330"
+              width="150"
+              height="55"
+              rx="5"
+              fill={selectedRoomId === 'sala-2' ? theme.selectedFill : theme.roomDefault}
+              stroke={selectedRoomId === 'sala-2' ? theme.selectedStroke : theme.roomStroke}
+              strokeWidth={selectedRoomId === 'sala-2' ? '3' : '1.5'}
+              filter={selectedRoomId === 'sala-2' ? 'url(#room-glow)' : undefined}
+              className="transition-all duration-200"
+            />
+            <text
+              x="645"
+              y="352"
+              fill={selectedRoomId === 'sala-2' ? theme.selectedStroke : theme.textMain}
+              fontSize="10"
+              fontWeight="800"
+              textAnchor="middle"
+            >
+              SALA 2: POBLAMIENTO
+            </text>
+            <text
+              x="645"
+              y="366"
+              fill={theme.textMuted}
+              fontSize="8"
+              fontWeight="600"
+              textAnchor="middle"
+            >
+              América {getRoomPieceCount('sala-2') > 0 ? `• (${getRoomPieceCount('sala-2')} piezas)` : ''}
+            </text>
+          </g>
+
+          {/* SALA 3: Preclásico en el Altiplano Central */}
+          <g
+            id="sala-3"
+            onClick={() => onSelectRoom && onSelectRoom('sala-3')}
+            className="cursor-pointer group"
+          >
+            <rect
+              x="570"
+              y="270"
+              width="150"
+              height="55"
+              rx="5"
+              fill={selectedRoomId === 'sala-3' ? theme.selectedFill : theme.roomDefault}
+              stroke={selectedRoomId === 'sala-3' ? theme.selectedStroke : theme.roomStroke}
+              strokeWidth={selectedRoomId === 'sala-3' ? '3' : '1.5'}
+              filter={selectedRoomId === 'sala-3' ? 'url(#room-glow)' : undefined}
+              className="transition-all duration-200"
+            />
+            <text
+              x="645"
+              y="292"
+              fill={selectedRoomId === 'sala-3' ? theme.selectedStroke : theme.textMain}
+              fontSize="10"
+              fontWeight="800"
+              textAnchor="middle"
+            >
+              SALA 3: PRECLÁSICO
+            </text>
+            <text
+              x="645"
+              y="306"
+              fill={theme.textMuted}
+              fontSize="8"
+              fontWeight="600"
+              textAnchor="middle"
+            >
+              Altiplano Central {getRoomPieceCount('sala-3') > 0 ? `• (${getRoomPieceCount('sala-3')} piezas)` : ''}
+            </text>
+          </g>
+
+          {/* SALA 4: Teotihuacán */}
+          <g
+            id="sala-4"
+            onClick={() => onSelectRoom && onSelectRoom('sala-4')}
+            className="cursor-pointer group"
+          >
+            <rect
+              x="570"
+              y="210"
+              width="150"
+              height="55"
+              rx="5"
+              fill={selectedRoomId === 'sala-4' ? theme.selectedFill : theme.roomDefault}
+              stroke={selectedRoomId === 'sala-4' ? theme.selectedStroke : theme.roomStroke}
+              strokeWidth={selectedRoomId === 'sala-4' ? '3' : '1.5'}
+              filter={selectedRoomId === 'sala-4' ? 'url(#room-glow)' : undefined}
+              className="transition-all duration-200"
+            />
+            <text
+              x="645"
+              y="232"
+              fill={selectedRoomId === 'sala-4' ? theme.selectedStroke : theme.textMain}
+              fontSize="10"
+              fontWeight="800"
+              textAnchor="middle"
+            >
+              SALA 4: TEOTIHUACÁN
+            </text>
+            <text
+              x="645"
+              y="246"
+              fill={theme.textMuted}
+              fontSize="8"
+              fontWeight="600"
+              textAnchor="middle"
+            >
+              Chalchiuhtlicue {getRoomPieceCount('sala-4') > 0 ? `• (${getRoomPieceCount('sala-4')} piezas)` : ''}
+            </text>
+          </g>
+
+          {/* SALA 5: Los Toltecas y el Epiclásico */}
+          <g
+            id="sala-5"
+            onClick={() => onSelectRoom && onSelectRoom('sala-5')}
+            className="cursor-pointer group"
+          >
+            <rect
+              x="570"
+              y="150"
+              width="150"
+              height="55"
+              rx="5"
+              fill={selectedRoomId === 'sala-5' ? theme.selectedFill : theme.roomDefault}
+              stroke={selectedRoomId === 'sala-5' ? theme.selectedStroke : theme.roomStroke}
+              strokeWidth={selectedRoomId === 'sala-5' ? '3' : '1.5'}
+              filter={selectedRoomId === 'sala-5' ? 'url(#room-glow)' : undefined}
+              className="transition-all duration-200"
+            />
+            <text
+              x="645"
+              y="172"
+              fill={selectedRoomId === 'sala-5' ? theme.selectedStroke : theme.textMain}
+              fontSize="10"
+              fontWeight="800"
+              textAnchor="middle"
+            >
+              SALA 5: TOLTECAS
+            </text>
+            <text
+              x="645"
+              y="186"
+              fill={theme.textMuted}
+              fontSize="8"
+              fontWeight="600"
+              textAnchor="middle"
+            >
+              Tula & Epiclásico {getRoomPieceCount('sala-5') > 0 ? `• (${getRoomPieceCount('sala-5')} piezas)` : ''}
+            </text>
+          </g>
+
+          {/* ============================================================ */}
+          {/* CABECERA MONUMENTAL (NORTE): SALA 6 MEXICA                  */}
+          {/* ============================================================ */}
+          <g
+            id="sala-6"
+            onClick={() => onSelectRoom && onSelectRoom('sala-6')}
             className="cursor-pointer group"
           >
             <path
-              d="M210,40 L590,40 L590,165 L210,165 Z"
-              fill={selectedRoomId === 'sala-mexica' ? theme.selectedFill : theme.roomDefault}
-              stroke={selectedRoomId === 'sala-mexica' ? theme.selectedStroke : theme.roomStroke}
-              strokeWidth={selectedRoomId === 'sala-mexica' ? '3.5' : '1.5'}
-              filter={selectedRoomId === 'sala-mexica' ? 'url(#room-glow)' : undefined}
+              d="M80,35 L720,35 L720,140 L80,140 Z"
+              fill={selectedRoomId === 'sala-6' ? theme.selectedFill : theme.roomDefault}
+              stroke={selectedRoomId === 'sala-6' ? theme.selectedStroke : theme.roomStroke}
+              strokeWidth={selectedRoomId === 'sala-6' ? '3.5' : '2'}
+              filter={selectedRoomId === 'sala-6' ? 'url(#room-glow)' : undefined}
               className="transition-all duration-200"
             />
-            {/* Piedra del Sol Dais Altar */}
+            {/* Altar central para la Piedra del Sol */}
             <circle
               cx="400"
-              cy="100"
-              r="24"
+              cy="85"
+              r="25"
               fill={theme.accent}
-              fillOpacity="0.2"
+              fillOpacity="0.25"
               stroke={theme.accent}
               strokeWidth="1.5"
-              strokeDasharray="2 2"
+              strokeDasharray="3 2"
             />
             <text
               x="400"
-              y="74"
-              fill={selectedRoomId === 'sala-mexica' ? theme.selectedStroke : theme.textMain}
+              y="62"
+              fill={selectedRoomId === 'sala-6' ? theme.selectedStroke : theme.textMain}
               fontSize="14"
               fontWeight="900"
               textAnchor="middle"
-              letterSpacing="1"
+              letterSpacing="1.5"
             >
-              SALA MEXICA
+              SALA 6: MEXICA
             </text>
             <text
               x="400"
-              y="104"
+              y="89"
               fill={theme.accentLight}
               fontSize="9"
               fontWeight="800"
@@ -330,208 +644,266 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
             </text>
             <text
               x="400"
-              y="136"
+              y="120"
               fill={theme.textMuted}
               fontSize="9"
               fontWeight="600"
               textAnchor="middle"
             >
-              Coatlicue • Coyolxauhqui • Tenochtitlan
+              Coatlicue • Coyolxauhqui • Monolito de Tlaltecuhtli {getRoomPieceCount('sala-6') > 0 ? `• (${getRoomPieceCount('sala-6')} piezas)` : ''}
             </text>
           </g>
 
-          {/* SALA MAYA (East Wing - Lower Right) */}
+          {/* ============================================================ */}
+          {/* ALA IZQUIERDA (OESTE): RECORRIDO GEOGRÁFICO (SALAS 7 A 11)   */}
+          {/* ============================================================ */}
+
+          {/* SALA 7: Culturas de Oaxaca */}
           <g
-            id="sala-maya"
-            onClick={() => onSelectRoom && onSelectRoom('sala-maya')}
+            id="sala-7"
+            onClick={() => onSelectRoom && onSelectRoom('sala-7')}
             className="cursor-pointer group"
           >
             <rect
-              x="595"
-              y="280"
-              width="105"
-              height="180"
-              rx="6"
-              fill={selectedRoomId === 'sala-maya' ? theme.selectedFill : theme.roomDefault}
-              stroke={selectedRoomId === 'sala-maya' ? theme.selectedStroke : theme.roomStroke}
-              strokeWidth={selectedRoomId === 'sala-maya' ? '3.5' : '1.5'}
-              filter={selectedRoomId === 'sala-maya' ? 'url(#room-glow)' : undefined}
+              x="80"
+              y="150"
+              width="150"
+              height="55"
+              rx="5"
+              fill={selectedRoomId === 'sala-7' ? theme.selectedFill : theme.roomDefault}
+              stroke={selectedRoomId === 'sala-7' ? theme.selectedStroke : theme.roomStroke}
+              strokeWidth={selectedRoomId === 'sala-7' ? '3' : '1.5'}
+              filter={selectedRoomId === 'sala-7' ? 'url(#room-glow)' : undefined}
               className="transition-all duration-200"
             />
             <text
-              x="647"
-              y="340"
-              fill={selectedRoomId === 'sala-maya' ? theme.selectedStroke : theme.textMain}
-              fontSize="12"
-              fontWeight="900"
+              x="155"
+              y="172"
+              fill={selectedRoomId === 'sala-7' ? theme.selectedStroke : theme.textMain}
+              fontSize="10"
+              fontWeight="800"
               textAnchor="middle"
             >
-              SALA MAYA
+              SALA 7: OAXACA
             </text>
             <text
-              x="647"
-              y="358"
+              x="155"
+              y="186"
               fill={theme.textMuted}
               fontSize="8"
               fontWeight="600"
               textAnchor="middle"
             >
-              Calakmul • Pakal
+              Monte Albán {getRoomPieceCount('sala-7') > 0 ? `• (${getRoomPieceCount('sala-7')} piezas)` : ''}
             </text>
           </g>
 
-          {/* SALA OAXACA (East Wing - Upper Right) */}
+          {/* SALA 8: Culturas de la Costa del Golfo */}
           <g
-            id="sala-oaxaca"
-            onClick={() => onSelectRoom && onSelectRoom('sala-oaxaca')}
+            id="sala-8"
+            onClick={() => onSelectRoom && onSelectRoom('sala-8')}
             className="cursor-pointer group"
           >
             <rect
-              x="595"
-              y="120"
-              width="105"
-              height="150"
-              rx="6"
-              fill={selectedRoomId === 'sala-oaxaca' ? theme.selectedFill : theme.roomDefault}
-              stroke={selectedRoomId === 'sala-oaxaca' ? theme.selectedStroke : theme.roomStroke}
-              strokeWidth={selectedRoomId === 'sala-oaxaca' ? '3.5' : '1.5'}
-              filter={selectedRoomId === 'sala-oaxaca' ? 'url(#room-glow)' : undefined}
+              x="80"
+              y="210"
+              width="150"
+              height="55"
+              rx="5"
+              fill={selectedRoomId === 'sala-8' ? theme.selectedFill : theme.roomDefault}
+              stroke={selectedRoomId === 'sala-8' ? theme.selectedStroke : theme.roomStroke}
+              strokeWidth={selectedRoomId === 'sala-8' ? '3' : '1.5'}
+              filter={selectedRoomId === 'sala-8' ? 'url(#room-glow)' : undefined}
               className="transition-all duration-200"
             />
             <text
-              x="647"
-              y="190"
-              fill={selectedRoomId === 'sala-oaxaca' ? theme.selectedStroke : theme.textMain}
-              fontSize="12"
-              fontWeight="900"
+              x="155"
+              y="232"
+              fill={selectedRoomId === 'sala-8' ? theme.selectedStroke : theme.textMain}
+              fontSize="10"
+              fontWeight="800"
               textAnchor="middle"
             >
-              SALA OAXACA
+              SALA 8: COSTA DEL GOLFO
             </text>
             <text
-              x="647"
-              y="208"
+              x="155"
+              y="246"
               fill={theme.textMuted}
               fontSize="8"
               fontWeight="600"
               textAnchor="middle"
             >
-              Monte Albán • Tumba 7
+              Olmecas & Huastecos {getRoomPieceCount('sala-8') > 0 ? `• (${getRoomPieceCount('sala-8')} piezas)` : ''}
             </text>
           </g>
 
-          {/* SALA INTRODUCCIÓN Y ORÍGENES / OLMECA (West Wing - Lower Left) */}
+          {/* SALA 9: Maya */}
           <g
-            id="sala-origenes"
-            onClick={() => onSelectRoom && onSelectRoom('sala-origenes')}
+            id="sala-9"
+            onClick={() => onSelectRoom && onSelectRoom('sala-9')}
             className="cursor-pointer group"
           >
             <rect
-              x="100"
-              y="280"
-              width="110"
-              height="180"
-              rx="6"
-              fill={selectedRoomId === 'sala-origenes' ? theme.selectedFill : theme.roomDefault}
-              stroke={selectedRoomId === 'sala-origenes' ? theme.selectedStroke : theme.roomStroke}
-              strokeWidth={selectedRoomId === 'sala-origenes' ? '3.5' : '1.5'}
-              filter={selectedRoomId === 'sala-origenes' ? 'url(#room-glow)' : undefined}
+              x="80"
+              y="270"
+              width="150"
+              height="55"
+              rx="5"
+              fill={selectedRoomId === 'sala-9' ? theme.selectedFill : theme.roomDefault}
+              stroke={selectedRoomId === 'sala-9' ? theme.selectedStroke : theme.roomStroke}
+              strokeWidth={selectedRoomId === 'sala-9' ? '3' : '1.5'}
+              filter={selectedRoomId === 'sala-9' ? 'url(#room-glow)' : undefined}
               className="transition-all duration-200"
             />
             <text
               x="155"
-              y="340"
-              fill={selectedRoomId === 'sala-origenes' ? theme.selectedStroke : theme.textMain}
-              fontSize="11"
-              fontWeight="900"
+              y="292"
+              fill={selectedRoomId === 'sala-9' ? theme.selectedStroke : theme.textMain}
+              fontSize="10"
+              fontWeight="800"
               textAnchor="middle"
             >
-              ORÍGENES & OLMECA
+              SALA 9: MAYA
             </text>
             <text
               x="155"
-              y="358"
+              y="306"
               fill={theme.textMuted}
               fontSize="8"
               fontWeight="600"
               textAnchor="middle"
             >
-              Cabeza Colosal
+              Pakal & Calakmul {getRoomPieceCount('sala-9') > 0 ? `• (${getRoomPieceCount('sala-9')} piezas)` : ''}
             </text>
           </g>
 
-          {/* SALA TOLTECA (West Wing - Upper Left) */}
+          {/* SALA 10: Culturas del Occidente */}
           <g
-            id="sala-tolteca"
-            onClick={() => onSelectRoom && onSelectRoom('sala-tolteca')}
+            id="sala-10"
+            onClick={() => onSelectRoom && onSelectRoom('sala-10')}
             className="cursor-pointer group"
           >
             <rect
-              x="100"
-              y="120"
-              width="110"
-              height="150"
-              rx="6"
-              fill={selectedRoomId === 'sala-tolteca' ? theme.selectedFill : theme.roomDefault}
-              stroke={selectedRoomId === 'sala-tolteca' ? theme.selectedStroke : theme.roomStroke}
-              strokeWidth={selectedRoomId === 'sala-tolteca' ? '3.5' : '1.5'}
-              filter={selectedRoomId === 'sala-tolteca' ? 'url(#room-glow)' : undefined}
+              x="80"
+              y="330"
+              width="150"
+              height="55"
+              rx="5"
+              fill={selectedRoomId === 'sala-10' ? theme.selectedFill : theme.roomDefault}
+              stroke={selectedRoomId === 'sala-10' ? theme.selectedStroke : theme.roomStroke}
+              strokeWidth={selectedRoomId === 'sala-10' ? '3' : '1.5'}
+              filter={selectedRoomId === 'sala-10' ? 'url(#room-glow)' : undefined}
               className="transition-all duration-200"
             />
             <text
               x="155"
-              y="190"
-              fill={selectedRoomId === 'sala-tolteca' ? theme.selectedStroke : theme.textMain}
-              fontSize="12"
-              fontWeight="900"
+              y="352"
+              fill={selectedRoomId === 'sala-10' ? theme.selectedStroke : theme.textMain}
+              fontSize="10"
+              fontWeight="800"
               textAnchor="middle"
             >
-              SALA TOLTECA
+              SALA 10: OCCIDENTE
             </text>
             <text
               x="155"
-              y="208"
+              y="366"
               fill={theme.textMuted}
               fontSize="8"
               fontWeight="600"
               textAnchor="middle"
             >
-              Atlantes de Tula
+              Tumbas de tiro {getRoomPieceCount('sala-10') > 0 ? `• (${getRoomPieceCount('sala-10')} piezas)` : ''}
             </text>
           </g>
 
-          {/* VESTÍBULO Y ENTRADA PRINCIPAL (South Wing) */}
-          <rect
-            x="220"
-            y="450"
-            width="360"
-            height="110"
-            rx="6"
-            fill={theme.roomDefault}
-            stroke={theme.roomStroke}
-            strokeWidth="1.5"
-          />
-          <text
-            x="400"
-            y="500"
-            fill={theme.textMain}
-            fontSize="12"
-            fontWeight="900"
-            textAnchor="middle"
-            letterSpacing="1"
+          {/* SALA 11: Culturas del Norte */}
+          <g
+            id="sala-11"
+            onClick={() => onSelectRoom && onSelectRoom('sala-11')}
+            className="cursor-pointer group"
           >
-            VESTÍBULO PRINCIPAL & ACCESO
-          </text>
-          <text
-            x="400"
-            y="520"
-            fill={theme.textMuted}
-            fontSize="9"
-            fontWeight="600"
-            textAnchor="middle"
-          >
-            Mural Rufino Tamayo • Taquillas • Salida
-          </text>
+            <rect
+              x="80"
+              y="390"
+              width="150"
+              height="55"
+              rx="5"
+              fill={selectedRoomId === 'sala-11' ? theme.selectedFill : theme.roomDefault}
+              stroke={selectedRoomId === 'sala-11' ? theme.selectedStroke : theme.roomStroke}
+              strokeWidth={selectedRoomId === 'sala-11' ? '3' : '1.5'}
+              filter={selectedRoomId === 'sala-11' ? 'url(#room-glow)' : undefined}
+              className="transition-all duration-200"
+            />
+            <text
+              x="155"
+              y="412"
+              fill={selectedRoomId === 'sala-11' ? theme.selectedStroke : theme.textMain}
+              fontSize="10"
+              fontWeight="800"
+              textAnchor="middle"
+            >
+              SALA 11: NORTE
+            </text>
+            <text
+              x="155"
+              y="426"
+              fill={theme.textMuted}
+              fontSize="8"
+              fontWeight="600"
+              textAnchor="middle"
+            >
+              Paquimé {getRoomPieceCount('sala-11') > 0 ? `• (${getRoomPieceCount('sala-11')} piezas)` : ''}
+            </text>
+          </g>
+
+          {/* ============================================================ */}
+          {/* CENTRO INFERIOR (SUR): ACCESO GENERAL Y VESTÍBULO            */}
+          {/* ============================================================ */}
+          <g id="vestibulo-acceso">
+            <rect
+              x="240"
+              y="460"
+              width="320"
+              height="105"
+              rx="8"
+              fill={theme.roomDefault}
+              stroke={theme.roomStroke}
+              strokeWidth="2"
+            />
+            <text
+              x="400"
+              y="500"
+              fill={theme.textMain}
+              fontSize="13"
+              fontWeight="900"
+              textAnchor="middle"
+              letterSpacing="1"
+            >
+              ACCESO GENERAL Y VESTÍBULO
+            </text>
+            <text
+              x="400"
+              y="522"
+              fill={theme.textMuted}
+              fontSize="9"
+              fontWeight="600"
+              textAnchor="middle"
+            >
+              Taquillas • Entrada Principal • Tienda • Salida
+            </text>
+            <text
+              x="400"
+              y="538"
+              fill={theme.accentLight}
+              fontSize="8"
+              fontWeight="700"
+              textAnchor="middle"
+            >
+              Mural Rufino Tamayo: El Día y la Noche
+            </text>
+          </g>
         </g>
       )}
 
