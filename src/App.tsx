@@ -30,10 +30,12 @@ export default function App() {
   const [isLoadingPiece, setIsLoadingPiece] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  // Format fetch URL cleanly
+  // Format fetch URL cleanly with import.meta.env.BASE_URL
   const normalizeUrl = (url: string) => {
-    const clean = url.replace(/^\/+/, '');
-    return `/${clean}`;
+    const base = import.meta.env.BASE_URL || '/';
+    const cleanBase = base.endsWith('/') ? base : `${base}/`;
+    const cleanPath = url.replace(/^\/+/, '');
+    return `${cleanBase}${cleanPath}`;
   };
 
   // 1. Fetch sites catalog on mount
@@ -41,7 +43,7 @@ export default function App() {
     async function loadSites() {
       setIsLoadingSites(true);
       try {
-        const res = await fetch('/data/sites.json');
+        const res = await fetch(`${import.meta.env.BASE_URL}data/sites.json`);
         if (!res.ok) throw new Error(`Error ${res.status} al cargar catálogo de sitios`);
         const data: SiteSummary[] = await res.json();
         setSites(data);
