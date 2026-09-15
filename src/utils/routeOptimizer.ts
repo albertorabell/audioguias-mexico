@@ -1,9 +1,33 @@
 import { SiteManifest, SiteRoute, RouteStop, Room } from '../types';
 
 export interface RoutePreferences {
-  timeLimitMinutes: number; // 30, 60, 120, or 999 (sin prisa)
+  timeLimitMinutes: number; // 45, 90, 180, or 999 (sin límite)
   selectedInterestKeys: string[];
   pace: 'highlights' | 'expert';
+}
+
+const INTEREST_KEYWORDS: Record<string, string[]> = {
+  // MNA
+  'cosmogonia-mexica': ['mexica', 'sol', 'tenochtitlan', 'monolito', 'coatlicue', 'coyolxauhqui', 'azteca'],
+  'mundo-maya': ['maya', 'calakmul', 'jade', 'mascara', 'funeraria'],
+  'arte-monumental': ['monumental', 'colosal', 'cabeza', 'olmeca', 'origenes', 'escultura'],
+  'vida-cotidiana-tumbas': ['tumbas', 'misticismo', 'oaxaca', 'funeraria', 'ajuar', 'calakmul', 'dioses'],
+  // Teotihuacán
+  'eje-piramides': ['piramides', 'sol', 'luna', 'calzada', 'astronomia'],
+  'pintura-palacios': ['murales', 'palacios', 'quetzalpapalotl', 'quetzal', 'patio'],
+  'mitologia-dioses': ['sacerdotes', 'serpiente', 'dioses', 'ciudadela', 'misticismo', 'quetzalcoatl', 'tlaloc'],
+  // Chapultepec
+  'epoca-imperial': ['imperial', 'maximiliano', 'carlota', 'alcazar', 'habitacion'],
+  'independencia-revolucion': ['republica', 'juarez', 'batallas', 'historia', 'muralismo', 'revolucion', 'siqueiros'],
+  'miradores-alcazar': ['miradores', 'alcazar', 'jardin', 'torre', 'terraza', 'paisaje'],
+};
+
+export function formatRouteDuration(minutes: number): string {
+  if (minutes < 60) return `${minutes} min`;
+  const hours = Math.floor(minutes / 60);
+  const remainingMinutes = minutes % 60;
+  if (remainingMinutes === 0) return `${hours}h`;
+  return `${hours}h ${remainingMinutes} min`;
 }
 
 /**
@@ -74,33 +98,40 @@ export function generateOptimizedRoute(
   const scoredStops = allStops.map((stop) => {
     let score = 10;
     const stopTags = (stop.tags || []).map((t) => t.toLowerCase());
+    const stopTitleLower = stop.title.toLowerCase();
+    const stopZoneLower = stop.room_zone.toLowerCase();
 
-    // Check overlap with selected interests
+    // Check overlap with selected interests using both key and synonym keywords
     let matchCount = 0;
     selectedInterestKeys.forEach((key) => {
       const lowerKey = key.toLowerCase();
-      if (
-        stopTags.some(
-          (t) => t.includes(lowerKey) || lowerKey.includes(t)
-        ) ||
-        stop.title.toLowerCase().includes(lowerKey) ||
-        stop.room_zone.toLowerCase().includes(lowerKey)
-      ) {
+      const synonyms = INTEREST_KEYWORDS[lowerKey] || [lowerKey];
+
+      const matches = synonyms.some((syn) => {
+        const s = syn.toLowerCase();
+        return (
+          stopTags.some((t) => t.includes(s) || s.includes(t)) ||
+          stopTitleLower.includes(s) ||
+          stopZoneLower.includes(s)
+        );
+      });
+
+      if (matches) {
         matchCount++;
       }
     });
 
-    score += matchCount * 25;
+    score += matchCount * 30;
 
     // Pace weight
     if (pace === 'highlights') {
-      if (stop.ranking === 1) score += 30;
+      if (stop.ranking === 1) score += 35;
       else if (stop.ranking === 2) score += 10;
-      else score -= 10;
+      else score -= 15;
     } else {
       // Expert: values deep dives and variety across rooms
-      score += 15;
-      if (stop.ranking === 2) score += 15;
+      score += 20;
+      if (stop.ranking === 2) score += 20;
     }
 
     return { stop, score };
@@ -134,13 +165,8 @@ export function generateOptimizedRoute(
   }
 
   // 4. Order stops by logical spatial room adjacency (architectural walkthrough flow)
-  // We sort them based on site-specific physical flow:
-  // For MNA: entrance -> Orígenes -> Tolteca -> Mexica -> Oaxaca -> Maya
-  // For Teotihuacán: North (Luna) -> Quetzalpapálotl -> Sol -> South (Ciudadela)
-  // For Chapultepec: Carruajes -> Muralismo -> Alcázar Poniente -> Terraza
   const orderedStops = sortStopsByAdjacency(manifest.site_id, chosenStops);
-
-  const durationStr = `${accumulatedMinutes} min`;
+  const durationStr = formatRouteDuration(accumulatedMinutes);
 
   return {
     id: `custom-route-${Date.now()}`,
