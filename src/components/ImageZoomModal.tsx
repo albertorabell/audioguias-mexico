@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { X, ZoomIn, ZoomOut, RotateCcw, Landmark, ImageOff } from 'lucide-react';
+import { getOptimizedImageUrl, CULTURAL_FALLBACK_SVG } from '../utils/imageOptimizer';
 
 interface ImageZoomModalProps {
   isOpen: boolean;
@@ -18,6 +19,10 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
 }) => {
   const [scale, setScale] = useState(1);
   const [hasError, setHasError] = useState(false);
+
+  const optimizedSrc = useMemo(() => {
+    return getOptimizedImageUrl(imageUrl);
+  }, [imageUrl]);
 
   if (!isOpen) return null;
 
@@ -64,11 +69,17 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
             </div>
           ) : (
             <img
-              src={imageUrl}
+              src={optimizedSrc}
               alt={title}
               referrerPolicy="no-referrer"
               loading="lazy"
-              onError={() => setHasError(true)}
+              onError={(e) => {
+                if (e.currentTarget.src !== CULTURAL_FALLBACK_SVG) {
+                  e.currentTarget.src = CULTURAL_FALLBACK_SVG;
+                } else {
+                  setHasError(true);
+                }
+              }}
               className="max-w-full max-h-[72vh] object-contain rounded-lg shadow-2xl select-none"
               draggable={false}
             />

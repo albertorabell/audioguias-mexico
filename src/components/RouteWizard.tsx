@@ -50,8 +50,8 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
   const { isSunMode } = useTheme();
 
   // Pregunta 1: Tiempo disponible
-  // Opciones: "45 min (Relámpago)", "1h 30m (Esencial)", "3 horas (Completo)", "Sin límite"
-  const [timeMinutes, setTimeMinutes] = useState<number>(90);
+  // Opciones: "30 min (Rápida)", "60 min (Estándar)", "90 min (Completa)", "Sin límite"
+  const [timeMinutes, setTimeMinutes] = useState<number>(60);
 
   // Pregunta 2: Enfoque e intereses temáticos
   const getSiteTags = (): InterestTag[] => {
@@ -252,10 +252,10 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
             {[
-              { mins: 45, label: '45 min', badge: 'Relámpago', desc: 'Directo a obras cumbres' },
-              { mins: 90, label: '1h 30m', badge: 'Esencial', desc: 'El balance ideal recomendado' },
-              { mins: 180, label: '3 horas', badge: 'Completo', desc: 'Recorrido exhaustivo y profundo' },
-              { mins: 999, label: 'Sin límite', badge: 'Sin prisa', desc: 'Todas las obras y salas' },
+              { mins: 30, label: '30 min', badge: 'Rápida', desc: '8-10 piezas clave · 2 salas' },
+              { mins: 60, label: '60 min', badge: 'Estándar', desc: '15-18 piezas · 3-4 salas' },
+              { mins: 90, label: '90 min', badge: 'Completa', desc: '25-35 piezas · Recorrido amplio' },
+              { mins: 999, label: 'Sin límite', badge: 'Sin prisa', desc: 'Recorrido exhaustivo total' },
             ].map((opt) => {
               const isSelected = timeMinutes === opt.mins;
               return (
@@ -522,7 +522,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                     <span className="text-[10px] opacity-70 block truncate">{stop.room_zone}</span>
                   </div>
                   <span className="text-[10px] font-mono opacity-80 shrink-0">
-                    ~{stop.estimated_minutes || 8} min
+                    ~1.5 min
                   </span>
                 </div>
               ))}

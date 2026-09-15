@@ -49,6 +49,7 @@ export interface RouteStop {
   tags?: string[];
   room_id?: string;
   ranking?: number;
+  orden_sala?: number;
 }
 
 export interface SiteRoute {

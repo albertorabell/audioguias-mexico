@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { Landmark, Compass, Sparkles, ImageOff } from 'lucide-react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useTheme } from '../utils/ThemeContext';
+import { getOptimizedImageUrl, CULTURAL_FALLBACK_SVG } from '../utils/imageOptimizer';
 
 export interface SafeImageProps {
   src?: string;
@@ -23,13 +23,18 @@ export const SafeImage: React.FC<SafeImageProps> = ({
   draggable = false,
   fallbackTitle,
   fallbackSubtitle,
-  iconType = 'museum',
 }) => {
   const [hasError, setHasError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const { isSunMode } = useTheme();
 
-  // Reset error state when src changes
+  // Compute optimized URL through proxy to eliminate 403 Forbidden Wikimedia errors
+  // and handle incompatible file formats (.pdf, .djvu)
+  const resolvedUrl = useMemo(() => {
+    return getOptimizedImageUrl(src);
+  }, [src]);
+
+  // Reset states when input URL changes
   useEffect(() => {
     setHasError(false);
     setIsLoading(true);
@@ -47,7 +52,7 @@ export const SafeImage: React.FC<SafeImageProps> = ({
         } ${className}`}
         onClick={onClick}
       >
-        {/* Archival border framing */}
+        {/* Archival border framing with cultural graphic */}
         <div className="border border-stone-400/20 dark:border-stone-700/30 p-5 rounded-xl w-full h-full flex flex-col items-center justify-center">
           <p
             className={`font-serif text-sm font-medium tracking-tight max-w-[90%] truncate ${
@@ -78,15 +83,20 @@ export const SafeImage: React.FC<SafeImageProps> = ({
         />
       )}
       <img
-        src={src}
+        src={resolvedUrl}
         alt={alt}
         referrerPolicy="no-referrer"
         loading="lazy"
         draggable={draggable}
         onLoad={() => setIsLoading(false)}
-        onError={() => {
+        onError={(e) => {
           setIsLoading(false);
-          setHasError(true);
+          // Fallback to cultural SVG if proxy or network fails
+          if (e.currentTarget.src !== CULTURAL_FALLBACK_SVG) {
+            e.currentTarget.src = CULTURAL_FALLBACK_SVG;
+          } else {
+            setHasError(true);
+          }
         }}
         onClick={onClick}
         className={`w-full h-full object-cover transition duration-300 ${
