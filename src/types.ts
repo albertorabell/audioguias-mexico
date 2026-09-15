@@ -24,6 +24,7 @@ export interface RoomPieceSummary {
   estimated_minutes: number;
   thumbnail: string;
   file: string;
+  ranking?: number;
 }
 
 export interface Room {
@@ -90,11 +91,36 @@ export interface FaqItem {
   answer: string;
 }
 
+export interface ObservationChallengeItem {
+  titulo: string;
+  descripcion: string;
+}
+
+export interface PieceSpecsObject {
+  material?: string;
+  provenance?: string;
+  weight?: string;
+  age?: string;
+}
+
+export interface PieceFaqItem {
+  question: string;
+  answer: string;
+}
+
 export interface PieceData {
   poi_id: string;
+  room_id?: string;
+  site_id?: string;
+  orden_sala?: number;
   is_premium: boolean;
   estimated_minutes?: number;
   tags?: string[];
+  summary_30s?: string;
+  observation_challenges?: ObservationChallengeItem[];
+  did_you_know?: string[];
+  specs?: PieceSpecsObject | SpecItem[];
+  faq?: PieceFaqItem[];
   identification: {
     title: string;
     culture_period: string;
@@ -111,10 +137,9 @@ export interface PieceData {
     audio_script: string;
     audio_file_url: string;
   };
-  visual_challenge: VisualChallengeItem[];
-  curiosities: CuriosityItem[];
-  specs: SpecItem[];
-  faqs: FaqItem[];
+  visual_challenge?: VisualChallengeItem[];
+  curiosities?: CuriosityItem[];
+  faqs?: FaqItem[];
 }
 
 export interface SiteLicense {
