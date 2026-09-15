@@ -34,8 +34,8 @@ export const Navbar: React.FC<NavbarProps> = ({
     <header
       className={`sticky top-0 z-30 px-3 py-2 flex items-center justify-between gap-1.5 backdrop-blur-md transition-colors duration-200 border-b ${
         isSunMode
-          ? 'bg-white/95 border-stone-300 shadow-xs text-stone-900'
-          : 'bg-stone-950/95 border-stone-800/80 text-stone-100'
+          ? 'bg-[#FAF8F5]/92 border-stone-200/80 text-[#1C1917]'
+          : 'bg-[#141414]/92 border-stone-800/80 text-[#F5F5F4]'
       }`}
     >
       {/* Botón Atrás (mínimo 48px de altura táctil) */}

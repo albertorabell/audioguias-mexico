@@ -7,6 +7,9 @@ interface PieceViewProps {
   hasPass: boolean;
   passPriceMxn: number;
   onOpenPaywall: () => void;
+  currentStopIndex?: number;
+  totalStops?: number;
+  roomName?: string;
 }
 
 export const PieceView: React.FC<PieceViewProps> = (props) => {

@@ -315,7 +315,7 @@ export default function App() {
   return (
     <div
       className={`min-h-screen flex justify-center font-sans transition-colors duration-200 ${
-        isSunMode ? 'bg-[#F9F6F0] text-stone-900' : 'bg-stone-950 text-stone-100'
+        isSunMode ? 'bg-[#FAF8F5] text-[#1C1917]' : 'bg-[#141414] text-[#F5F5F4]'
       }`}
     >
       {/* Offline Banner indicator */}
@@ -325,8 +325,8 @@ export default function App() {
       <div
         className={`w-full max-w-[480px] min-h-screen shadow-2xl relative flex flex-col transition-colors duration-200 border-x ${
           isSunMode
-            ? 'bg-[#F9F6F0] border-stone-300 text-stone-900'
-            : 'bg-stone-950 border-stone-800/80 text-stone-100'
+            ? 'bg-[#FAF8F5] border-stone-200/80 text-[#1C1917]'
+            : 'bg-[#141414] border-stone-800/80 text-[#F5F5F4]'
         }`}
       >
         {/* Error message alert if any */}
@@ -492,6 +492,9 @@ export default function App() {
                 hasPass={hasPass}
                 passPriceMxn={manifest ? manifest.pass_price_mxn : 79}
                 onOpenPaywall={() => setIsPaywallModalOpen(true)}
+                currentStopIndex={activeRoute ? currentStopIndex : undefined}
+                totalStops={activeRoute ? activeRoute.stops.length : undefined}
+                roomName={activeRoute?.stops[currentStopIndex]?.room_zone}
               />
             ) : (
               <div className="p-8 text-center text-stone-500 text-sm">

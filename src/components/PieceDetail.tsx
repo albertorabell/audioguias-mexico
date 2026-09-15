@@ -1,20 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import {
   Maximize2,
-  BookOpen,
-  GraduationCap,
   Lock,
   Sparkles,
-  MapPin,
   Clock,
-  CheckCircle2,
-  HelpCircle,
+  Check,
   ChevronDown,
   Layers,
-  Scale,
-  Calendar,
-  Compass,
-  Lightbulb
+  HelpCircle,
+  Eye,
+  Bookmark
 } from 'lucide-react';
 import { PieceData, ObservationChallengeItem, PieceSpecsObject, SpecItem } from '../types';
 import { AudioPlayer } from './AudioPlayer';
@@ -27,6 +22,9 @@ interface PieceDetailProps {
   hasPass: boolean;
   passPriceMxn: number;
   onOpenPaywall: () => void;
+  currentStopIndex?: number;
+  totalStops?: number;
+  roomName?: string;
 }
 
 export const PieceDetail: React.FC<PieceDetailProps> = ({
@@ -34,17 +32,20 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   hasPass,
   passPriceMxn,
   onOpenPaywall,
+  currentStopIndex,
+  totalStops,
+  roomName,
 }) => {
   const [activeTab, setActiveTab] = useState<'quick' | 'expert'>('quick');
   const [isZoomOpen, setIsZoomOpen] = useState(false);
   const [completedChallenges, setCompletedChallenges] = useState<Record<number, boolean>>({});
-  const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
+  const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
   const { isSunMode } = useTheme();
 
   const isLocked = piece.is_premium && !hasPass;
 
-  // Normalizar Retos de Observación (Requisito 3 & 5)
-  const challenges: ObservationChallengeItem[] = React.useMemo(() => {
+  // Normalización de Retos de Observación
+  const challenges: ObservationChallengeItem[] = useMemo(() => {
     if (piece.observation_challenges && piece.observation_challenges.length > 0) {
       return piece.observation_challenges;
     }
@@ -57,8 +58,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     return [];
   }, [piece.observation_challenges, piece.visual_challenge]);
 
-  // Normalizar ¿Sabías qué? (Requisito 3 & 5)
-  const didYouKnowList: string[] = React.useMemo(() => {
+  // Normalización de ¿Sabías qué?
+  const didYouKnowList: string[] = useMemo(() => {
     if (piece.did_you_know && piece.did_you_know.length > 0) {
       return piece.did_you_know;
     }
@@ -68,8 +69,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     return [];
   }, [piece.did_you_know, piece.curiosities]);
 
-  // Normalizar Ficha Técnica (Requisito 3 & 5: specs con material, provenance, weight y age)
-  const normalizedSpecs = React.useMemo(() => {
+  // Normalización de Ficha Técnica Arqueológica
+  const normalizedSpecs = useMemo(() => {
     if (!piece.specs) return null;
     if (Array.isArray(piece.specs)) {
       const arraySpecs = piece.specs as SpecItem[];
@@ -83,14 +84,14 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     return piece.specs as PieceSpecsObject;
   }, [piece.specs]);
 
-  // Normalizar FAQ (Requisito 3 & 5)
-  const faqList = React.useMemo(() => {
+  // Normalización de Preguntas Frecuentes
+  const faqList = useMemo(() => {
     if (piece.faq && piece.faq.length > 0) return piece.faq;
     if (piece.faqs && piece.faqs.length > 0) return piece.faqs;
     return [];
   }, [piece.faq, piece.faqs]);
 
-  // Toggle challenge completion
+  // Toggle de Retos de Observación
   const toggleChallenge = (index: number) => {
     setCompletedChallenges((prev) => ({
       ...prev,
@@ -102,115 +103,78 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const summaryText = piece.summary_30s || piece.narrative.short_desc;
   const deepText = piece.narrative.deep_desc || piece.audioguide.audio_script;
 
+  // Formato del badge de ubicación / parada
+  const stopBadgeText = useMemo(() => {
+    const sala = roomName || piece.identification.room_zone || 'Sala';
+    if (typeof currentStopIndex === 'number' && typeof totalStops === 'number' && totalStops > 0) {
+      return `Parada ${currentStopIndex + 1} de ${totalStops} · ${sala}`;
+    }
+    return sala;
+  }, [currentStopIndex, totalStops, roomName, piece.identification.room_zone]);
+
   return (
-    <div className={`pb-32 transition-colors duration-200 ${isSunMode ? 'text-stone-900' : 'text-stone-100'}`}>
-      {/* 1. Hero Image Section */}
-      <div className="relative w-full h-72 bg-stone-950 overflow-hidden group">
-        <SafeImage
-          src={piece.identification.hero_image}
-          alt={piece.identification.title}
-          fallbackTitle={piece.identification.title}
-          fallbackSubtitle={piece.identification.culture_period}
-          className="w-full h-full cursor-pointer"
-          imgClassName="object-cover object-center cursor-pointer transition duration-300 group-hover:scale-102"
-          onClick={() => setIsZoomOpen(true)}
-        />
-        <div
-          className={`absolute inset-0 pointer-events-none ${
-            isSunMode
-              ? 'bg-gradient-to-t from-stone-900/80 via-transparent to-transparent'
-              : 'bg-gradient-to-t from-stone-950 via-stone-950/30 to-transparent'
-          }`}
-        />
+    <article
+      className={`pb-28 transition-colors duration-200 ${
+        isSunMode ? 'text-[#1C1917]' : 'text-[#F5F5F4]'
+      }`}
+    >
+      {/* 1. HERO E IMAGEN PRINCIPAL */}
+      <section className="px-4 pt-3 pb-1">
+        <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] rounded-2xl sm:rounded-3xl overflow-hidden bg-stone-200 dark:bg-stone-900 border border-stone-200/60 dark:border-stone-800/60 shadow-xs group">
+          <SafeImage
+            src={piece.identification.hero_image}
+            alt={piece.identification.title}
+            fallbackTitle={piece.identification.title}
+            fallbackSubtitle={piece.identification.culture_period}
+            className="w-full h-full cursor-pointer"
+            imgClassName="w-full h-full object-cover object-center cursor-pointer transition-transform duration-500 group-hover:scale-[1.02]"
+            onClick={() => setIsZoomOpen(true)}
+          />
 
-        {/* Floating Zoom Button */}
-        <button
-          type="button"
-          id="btn-open-zoom-hero"
-          onClick={() => setIsZoomOpen(true)}
-          className={`absolute bottom-4 right-4 min-h-[48px] px-3.5 flex items-center gap-1.5 rounded-full backdrop-blur-md text-xs font-bold shadow-lg transition active:scale-95 border ${
-            isSunMode
-              ? 'bg-white/95 text-stone-950 border-stone-300 hover:bg-white'
-              : 'bg-stone-900/90 text-stone-200 border-stone-700/80 hover:bg-stone-800'
-          }`}
-        >
-          <Maximize2 className={`w-4 h-4 ${isSunMode ? 'text-amber-800' : 'text-amber-400'}`} />
-          <span>Zoom HD</span>
-        </button>
+          {/* Badge de estado flotante y sutil */}
+          <div className="absolute top-3.5 left-3.5 z-10 flex items-center gap-2 pointer-events-none">
+            <div className="flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-medium tracking-wide backdrop-blur-md bg-black/60 text-white border border-white/15 shadow-xs">
+              <span>{stopBadgeText}</span>
+            </div>
 
-        {/* Premium / Free Pill on Hero */}
-        <div className="absolute top-4 left-4 flex items-center gap-2">
-          {piece.is_premium ? (
-            <span
-              className={`px-3 py-1 rounded-full text-[11px] font-extrabold shadow-md flex items-center gap-1.5 ${
-                isSunMode ? 'bg-amber-600 text-white' : 'bg-amber-500 text-stone-950'
-              }`}
-            >
-              <Sparkles className="w-3.5 h-3.5 fill-current" />
-              Pieza Exclusiva
-            </span>
-          ) : (
-            <span className="px-3 py-1 rounded-full text-[11px] font-extrabold bg-emerald-700 text-white shadow-md">
-              Parada Destacada
-            </span>
-          )}
+            {piece.is_premium && (
+              <div className="flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-semibold tracking-wider uppercase backdrop-blur-md bg-[#C05638]/90 text-white border border-white/20 shadow-xs">
+                <Sparkles className="w-3 h-3" />
+                <span>Exclusivo</span>
+              </div>
+            )}
+          </div>
+
+          {/* Botón flotante Zoom HD */}
+          <button
+            type="button"
+            id="btn-open-zoom-hero"
+            onClick={() => setIsZoomOpen(true)}
+            aria-label="Abrir imagen en alta definición"
+            className="absolute bottom-3.5 right-3.5 z-10 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-medium tracking-wide backdrop-blur-md bg-black/60 text-white border border-white/20 hover:bg-black/75 active:scale-95 transition-all shadow-xs"
+          >
+            <Maximize2 className="w-3.5 h-3.5 text-stone-200" />
+            <span>Zoom HD</span>
+          </button>
         </div>
-      </div>
+      </section>
 
-      {/* 2. Main Title & Identification */}
-      <div className="px-4 pt-4 pb-4">
-        <div
-          className={`flex items-center gap-1.5 text-xs font-bold mb-1.5 ${
-            isSunMode ? 'text-amber-800' : 'text-amber-400'
-          }`}
-        >
-          <MapPin className="w-4 h-4 shrink-0" />
-          <span className="truncate">{piece.identification.room_zone}</span>
-        </div>
-
-        <h1
-          className={`text-xl font-extrabold tracking-tight leading-snug mb-1.5 ${
-            isSunMode ? 'text-stone-950' : 'text-white'
-          }`}
-        >
+      {/* 2. TIPOGRAFÍA Y METADATOS EDITORIALES */}
+      <section className="px-5 pt-4 pb-2">
+        {/* Título de la obra con tipografía refinada */}
+        <h1 className="font-serif text-2xl sm:text-3xl font-medium tracking-tight text-stone-900 dark:text-stone-100 leading-tight">
           {piece.identification.title}
         </h1>
 
-        <p className={`text-xs font-bold mb-3 ${isSunMode ? 'text-stone-600' : 'text-stone-400'}`}>
-          {piece.identification.culture_period}
-        </p>
-
-        {/* Tags */}
-        <div className="flex flex-wrap gap-1.5 mb-4">
-          {piece.identification.tags.map((tag) => (
-            <span
-              key={tag}
-              className={`px-2.5 py-1 rounded-md text-[10px] font-bold border ${
-                isSunMode
-                  ? 'bg-white border-stone-300 text-stone-800'
-                  : 'bg-stone-900 border-stone-800 text-stone-300'
-              }`}
-            >
-              #{tag}
-            </span>
-          ))}
-        </div>
-
-        {/* One-liner synthesis quote */}
-        {piece.narrative.one_liner && (
-          <div
-            className={`p-3.5 rounded-xl text-xs leading-relaxed italic mb-5 border font-medium ${
-              isSunMode
-                ? 'bg-[#F9F6F0] border-amber-300/80 text-amber-950 shadow-xs'
-                : 'bg-amber-500/10 border-amber-500/30 text-amber-200'
-            }`}
-          >
-            "{piece.narrative.one_liner}"
-          </div>
+        {/* Subtítulo sobrio: Cultura · Período */}
+        {piece.identification.culture_period && (
+          <p className="text-xs sm:text-sm font-sans tracking-wide text-stone-600 dark:text-stone-400 font-medium mt-1.5">
+            {piece.identification.culture_period}
+          </p>
         )}
 
-        {/* 3. Tarjeta de Audioguía Interactiva */}
-        <div className="mb-6">
+        {/* 3. REPRODUCTOR DE AUDIO MINIMALISTA */}
+        <div className="mt-5 mb-5">
           <AudioPlayer
             script={piece.audioguide.audio_script || summaryText}
             audioFileUrl={piece.audioguide.audio_file_url}
@@ -222,115 +186,91 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
           />
         </div>
 
-        {/* 4. Selector de Pestañas: Vistazo Rápido vs Para Expertos (min 48px de altura táctil) */}
+        {/* 4. SELECTOR DE PESTAÑAS: VISITA EN SALA vs. PARA EXPERTOS */}
         <div className="mb-6">
           <div
-            className={`grid grid-cols-2 p-1 rounded-2xl border mb-4 ${
+            className={`grid grid-cols-2 p-1 rounded-xl border mb-5 ${
               isSunMode
-                ? 'bg-stone-200/80 border-stone-300'
-                : 'bg-stone-900 border-stone-800'
+                ? 'bg-stone-200/50 border-stone-200'
+                : 'bg-stone-900/60 border-stone-800'
             }`}
           >
             <button
               type="button"
               id="tab-quick-view"
               onClick={() => setActiveTab('quick')}
-              className={`min-h-[48px] flex items-center justify-center gap-1.5 py-2.5 rounded-xl text-xs font-extrabold transition active:scale-98 ${
+              className={`min-h-[44px] flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all ${
                 activeTab === 'quick'
                   ? isSunMode
-                    ? 'bg-white text-stone-950 shadow-sm border border-stone-300'
-                    : 'bg-stone-800 text-amber-400 shadow-xs'
-                  : isSunMode
-                  ? 'text-stone-700 hover:text-stone-950'
-                  : 'text-stone-400 hover:text-stone-200'
+                    ? 'bg-white text-stone-900 shadow-xs'
+                    : 'bg-stone-800 text-stone-100 shadow-xs'
+                  : 'text-stone-500 hover:text-stone-900 dark:hover:text-stone-200'
               }`}
             >
-              <BookOpen className="w-4 h-4" />
-              <span>Vistazo rápido</span>
+              <Eye className="w-4 h-4" />
+              <span>Visita en Sala</span>
             </button>
+
             <button
               type="button"
               id="tab-expert-view"
               onClick={() => setActiveTab('expert')}
-              className={`min-h-[48px] flex items-center justify-center gap-1.5 py-2.5 rounded-xl text-xs font-extrabold transition active:scale-98 relative ${
+              className={`min-h-[44px] flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all relative ${
                 activeTab === 'expert'
                   ? isSunMode
-                    ? 'bg-white text-stone-950 shadow-sm border border-stone-300'
-                    : 'bg-stone-800 text-amber-400 shadow-xs'
-                  : isSunMode
-                  ? 'text-stone-700 hover:text-stone-950'
-                  : 'text-stone-400 hover:text-stone-200'
+                    ? 'bg-white text-stone-900 shadow-xs'
+                    : 'bg-stone-800 text-stone-100 shadow-xs'
+                  : 'text-stone-500 hover:text-stone-900 dark:hover:text-stone-200'
               }`}
             >
-              <GraduationCap className="w-4 h-4" />
-              <span>Para expertos</span>
+              <Bookmark className="w-4 h-4" />
+              <span>Para Expertos</span>
               {isLocked && (
                 <Lock
-                  className={`w-3.5 h-3.5 ml-0.5 ${
-                    isSunMode ? 'text-amber-800' : 'text-amber-400'
+                  className={`w-3 h-3 ml-0.5 ${
+                    isSunMode ? 'text-[#C05638]' : 'text-[#D96B47]'
                   }`}
                 />
               )}
             </button>
           </div>
 
-          {/* ================= PESTAÑA 1: VISTAZO RÁPIDO ================= */}
+          {/* ================= PESTAÑA 1: VISITA EN SALA ================= */}
           {activeTab === 'quick' && (
-            <div className="space-y-4">
-              {/* Resumen de 30 Segundos (Requisito 3 & 5: summary_30s) */}
-              <div
-                className={`p-4 rounded-2xl border ${
-                  isSunMode
-                    ? 'bg-white border-stone-300 text-stone-900 shadow-xs'
-                    : 'bg-stone-900/60 border-stone-800 text-stone-200'
-                }`}
-              >
-                <div className="flex items-center justify-between mb-2">
-                  <h3
-                    className={`text-xs font-extrabold uppercase tracking-wider flex items-center gap-1.5 ${
-                      isSunMode ? 'text-amber-800' : 'text-amber-400'
-                    }`}
-                  >
-                    <Clock className="w-3.5 h-3.5" />
-                    Resumen de 30 Segundos
+            <div className="space-y-6">
+              {/* Frase gancho como cita tipográfica elegante */}
+              {piece.narrative.one_liner && (
+                <blockquote className="pl-4 border-l-2 border-[#C05638] dark:border-[#D96B47] italic font-serif text-base sm:text-lg text-stone-800 dark:text-stone-200 leading-relaxed">
+                  “{piece.narrative.one_liner}”
+                </blockquote>
+              )}
+
+              {/* Resumen de 30 segundos */}
+              <div className="space-y-2">
+                <div className="flex items-center gap-2">
+                  <Clock className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
+                  <h3 className="text-xs font-semibold tracking-wider uppercase text-stone-500 dark:text-stone-400">
+                    En 30 segundos
                   </h3>
-                  <span
-                    className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
-                      isSunMode ? 'bg-amber-100 text-amber-900' : 'bg-amber-950 text-amber-300'
-                    }`}
-                  >
-                    Lectura rápida
-                  </span>
                 </div>
-                <p className={`text-xs leading-relaxed font-medium ${isSunMode ? 'text-stone-800' : 'text-stone-200'}`}>
+                <p className="text-sm leading-relaxed text-stone-800 dark:text-stone-200 font-sans font-normal">
                   {summaryText}
                 </p>
               </div>
 
-              {/* Retos de Observación (Requisito 3 & 5: observation_challenges { titulo, descripcion }) */}
+              {/* Retos de Observación interactivos */}
               {challenges.length > 0 && (
-                <div
-                  className={`p-4 rounded-2xl border ${
-                    isSunMode
-                      ? 'bg-white border-stone-300 text-stone-900 shadow-xs'
-                      : 'bg-stone-900/60 border-stone-800 text-stone-200'
-                  }`}
-                >
-                  <div className="flex items-center justify-between mb-2.5">
-                    <h3
-                      className={`text-xs font-extrabold uppercase tracking-wider flex items-center gap-1.5 ${
-                        isSunMode ? 'text-amber-800' : 'text-amber-400'
-                      }`}
-                    >
-                      <Compass className="w-4 h-4" />
-                      Retos de Observación
+                <div className="space-y-3 pt-2">
+                  <div className="flex items-center justify-between">
+                    <h3 className="text-xs font-semibold tracking-wider uppercase text-stone-500 dark:text-stone-400">
+                      Reto de Observación
                     </h3>
-                    <span className="text-[10px] font-mono font-bold opacity-75">
-                      {completedCount} de {challenges.length} encontrados
+                    <span className="text-[11px] font-mono text-stone-500 dark:text-stone-400">
+                      {completedCount} de {challenges.length} observados
                     </span>
                   </div>
-                  <p className="text-[11px] text-stone-500 mb-3">
-                    Párate frente a la pieza original en la sala y busca los siguientes detalles:
+                  <p className="text-xs text-stone-500 dark:text-stone-400">
+                    Examina los detalles de la obra frente a ti:
                   </p>
 
                   <div className="space-y-2.5">
@@ -340,35 +280,47 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                         <div
                           key={idx}
                           onClick={() => toggleChallenge(idx)}
-                          className={`p-3 rounded-xl border transition-all cursor-pointer flex items-start gap-3 select-none ${
+                          role="checkbox"
+                          aria-checked={isFound}
+                          tabIndex={0}
+                          onKeyDown={(e) => {
+                            if (e.key === ' ' || e.key === 'Enter') {
+                              e.preventDefault();
+                              toggleChallenge(idx);
+                            }
+                          }}
+                          className={`p-3.5 rounded-xl border transition-all cursor-pointer flex items-start gap-3 select-none ${
                             isFound
                               ? isSunMode
-                                ? 'bg-emerald-50 border-emerald-300 text-emerald-950'
-                                : 'bg-emerald-950/40 border-emerald-700/60 text-emerald-200'
+                                ? 'bg-stone-50 border-stone-300/80 text-stone-900'
+                                : 'bg-stone-900/60 border-stone-800 text-stone-100'
                               : isSunMode
-                              ? 'bg-stone-50 border-stone-200 hover:border-amber-300'
-                              : 'bg-stone-800/60 border-stone-700 hover:border-amber-500/40'
+                              ? 'bg-transparent border-stone-200 hover:border-stone-300'
+                              : 'bg-transparent border-stone-800/80 hover:border-stone-700'
                           }`}
                         >
-                          <div className="pt-0.5 shrink-0">
-                            <CheckCircle2
-                              className={`w-4 h-4 transition-colors ${
-                                isFound
-                                  ? 'text-emerald-600 fill-emerald-100 dark:fill-emerald-900'
-                                  : 'text-stone-400'
-                              }`}
-                            />
+                          {/* Minimalist custom round checkbox */}
+                          <div
+                            className={`w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 transition-all ${
+                              isFound
+                                ? 'bg-[#C05638] dark:bg-[#D96B47] text-white shadow-xs'
+                                : 'border border-stone-300 dark:border-stone-600 bg-transparent'
+                            }`}
+                          >
+                            {isFound && <Check className="w-3 h-3 stroke-[2.5]" />}
                           </div>
+
                           <div className="min-w-0 flex-1">
-                            <div className="text-xs font-bold mb-0.5 flex items-center gap-2">
-                              <span>{challenge.titulo}</span>
-                              {isFound && (
-                                <span className="text-[9px] font-black uppercase px-1.5 py-0.2 bg-emerald-600 text-white rounded">
-                                  ¡Encontrado!
-                                </span>
-                              )}
-                            </div>
-                            <p className="text-xs leading-relaxed opacity-90">
+                            <h4
+                              className={`text-xs font-semibold tracking-tight ${
+                                isFound
+                                  ? 'text-stone-900 dark:text-stone-100'
+                                  : 'text-stone-800 dark:text-stone-200'
+                              }`}
+                            >
+                              {challenge.titulo}
+                            </h4>
+                            <p className="text-xs leading-relaxed text-stone-600 dark:text-stone-400 mt-0.5">
                               {challenge.descripcion}
                             </p>
                           </div>
@@ -378,39 +330,144 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                   </div>
                 </div>
               )}
+            </div>
+          )}
 
-              {/* ¿Sabías qué? (Requisito 3 & 5: did_you_know) */}
-              {didYouKnowList.length > 0 && (
-                <div
-                  className={`p-4 rounded-2xl border ${
-                    isSunMode
-                      ? 'bg-white border-stone-300 text-stone-900 shadow-xs'
-                      : 'bg-stone-900/60 border-stone-800 text-stone-200'
-                  }`}
-                >
-                  <h3
-                    className={`text-xs font-extrabold uppercase tracking-wider mb-2.5 flex items-center gap-1.5 ${
-                      isSunMode ? 'text-amber-800' : 'text-amber-400'
+          {/* ================= PESTAÑA 2: PARA EXPERTOS ================= */}
+          {activeTab === 'expert' && (
+            <div className="space-y-6">
+              {/* Análisis Arqueológico Profundo con Paywall sobrio */}
+              <div className="space-y-2">
+                <h3 className="text-xs font-semibold tracking-wider uppercase text-stone-500 dark:text-stone-400">
+                  Análisis Arqueológico Profundo
+                </h3>
+
+                {isLocked ? (
+                  <div
+                    className={`relative rounded-2xl border p-5 overflow-hidden ${
+                      isSunMode
+                        ? 'bg-stone-50/70 border-stone-200'
+                        : 'bg-stone-900/50 border-stone-800'
                     }`}
                   >
-                    <Lightbulb className="w-4 h-4" />
+                    {/* Blurred text sample */}
+                    <div className="blur-xs select-none pointer-events-none opacity-30 text-xs leading-relaxed line-clamp-4">
+                      {deepText}
+                    </div>
+
+                    {/* Clean Paywall CTA */}
+                    <div className="relative pt-2 text-center flex flex-col items-center">
+                      <div
+                        className={`w-10 h-10 rounded-full flex items-center justify-center mb-2.5 ${
+                          isSunMode
+                            ? 'bg-[#C05638]/10 text-[#C05638]'
+                            : 'bg-[#D96B47]/20 text-[#D96B47]'
+                        }`}
+                      >
+                        <Lock className="w-4 h-4" />
+                      </div>
+                      <h4 className="text-xs font-semibold text-stone-900 dark:text-stone-100 mb-1">
+                        Acceso para Investigadores y Expertos
+                      </h4>
+                      <p className="text-xs text-stone-500 dark:text-stone-400 max-w-[280px] mb-4">
+                        Desbloquea el análisis iconográfico, la bibliografía y la interpretación histórica detallada.
+                      </p>
+                      <button
+                        type="button"
+                        id="btn-unlock-expert-tab"
+                        onClick={onOpenPaywall}
+                        className="w-full sm:w-auto min-h-[44px] px-5 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all bg-[#C05638] hover:bg-[#A9482E] dark:bg-[#D96B47] dark:hover:bg-[#C05638] text-white active:scale-98 shadow-sm flex items-center justify-center gap-2"
+                      >
+                        <Sparkles className="w-3.5 h-3.5" />
+                        <span>Desbloquear Recorrido (${passPriceMxn} MXN)</span>
+                      </button>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="pt-1">
+                    <p className="text-sm leading-relaxed text-stone-800 dark:text-stone-200 font-sans font-normal text-justify">
+                      {deepText}
+                    </p>
+                  </div>
+                )}
+              </div>
+
+              {/* Ficha Técnica Arqueológica en Tabla de 2 Columnas con Líneas Divisorias Suaves */}
+              {normalizedSpecs && (
+                <div className="space-y-2 pt-1">
+                  <div className="flex items-center gap-2">
+                    <Layers className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
+                    <h3 className="text-xs font-semibold tracking-wider uppercase text-stone-500 dark:text-stone-400">
+                      Ficha Técnica
+                    </h3>
+                  </div>
+
+                  <div className="divide-y divide-stone-200/70 dark:divide-stone-800/70 pt-1">
+                    {/* Material */}
+                    {normalizedSpecs.material && (
+                      <div className="py-2.5 flex items-baseline justify-between gap-4">
+                        <span className="text-xs text-stone-500 dark:text-stone-400 font-medium">
+                          Material
+                        </span>
+                        <span className="text-xs sm:text-sm font-semibold text-stone-900 dark:text-stone-100 text-right">
+                          {normalizedSpecs.material}
+                        </span>
+                      </div>
+                    )}
+
+                    {/* Procedencia / Hallazgo */}
+                    {normalizedSpecs.provenance && (
+                      <div className="py-2.5 flex items-baseline justify-between gap-4">
+                        <span className="text-xs text-stone-500 dark:text-stone-400 font-medium">
+                          Procedencia / Hallazgo
+                        </span>
+                        <span className="text-xs sm:text-sm font-semibold text-stone-900 dark:text-stone-100 text-right">
+                          {normalizedSpecs.provenance}
+                        </span>
+                      </div>
+                    )}
+
+                    {/* Dimensiones y Peso */}
+                    {normalizedSpecs.weight && (
+                      <div className="py-2.5 flex items-baseline justify-between gap-4">
+                        <span className="text-xs text-stone-500 dark:text-stone-400 font-medium">
+                          Dimensiones / Peso
+                        </span>
+                        <span className="text-xs sm:text-sm font-semibold text-stone-900 dark:text-stone-100 text-right">
+                          {normalizedSpecs.weight}
+                        </span>
+                      </div>
+                    )}
+
+                    {/* Cronología / Datación */}
+                    {normalizedSpecs.age && (
+                      <div className="py-2.5 flex items-baseline justify-between gap-4">
+                        <span className="text-xs text-stone-500 dark:text-stone-400 font-medium">
+                          Cronología
+                        </span>
+                        <span className="text-xs sm:text-sm font-semibold text-stone-900 dark:text-stone-100 text-right">
+                          {normalizedSpecs.age}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+
+              {/* Sección "¿Sabías qué?" con Viñetas Numeradas Estilizadas */}
+              {didYouKnowList.length > 0 && (
+                <div className="space-y-3 pt-2">
+                  <h3 className="text-xs font-semibold tracking-wider uppercase text-stone-500 dark:text-stone-400">
                     ¿Sabías qué?
                   </h3>
 
-                  <div className="space-y-2">
+                  <div className="divide-y divide-stone-200/70 dark:divide-stone-800/70">
                     {didYouKnowList.map((fact, idx) => (
-                      <div
-                        key={idx}
-                        className={`p-3 rounded-xl border flex items-start gap-2.5 ${
-                          isSunMode
-                            ? 'bg-amber-50/50 border-amber-200/80 text-amber-950'
-                            : 'bg-stone-800/50 border-stone-700/80 text-stone-200'
-                        }`}
-                      >
-                        <span className="w-5 h-5 rounded-full bg-amber-500 text-black text-[10px] font-black flex items-center justify-center shrink-0 mt-0.5">
-                          {idx + 1}
+                      <div key={idx} className="py-3 flex items-start gap-3">
+                        <span className="font-serif text-sm font-semibold text-[#C05638] dark:text-[#D96B47] shrink-0 mt-0.5">
+                          {String(idx + 1).padStart(2, '0')}
                         </span>
-                        <p className="text-xs leading-relaxed font-medium flex-1">
+                        <p className="text-xs sm:text-sm leading-relaxed text-stone-700 dark:text-stone-300 font-normal flex-1">
                           {fact}
                         </p>
                       </div>
@@ -418,229 +475,40 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                   </div>
                 </div>
               )}
-            </div>
-          )}
 
-          {/* ================= PESTAÑA 2: PARA EXPERTOS ================= */}
-          {activeTab === 'expert' && (
-            <div className="space-y-4">
-              {/* Análisis Arqueológico Profundo con Paywall */}
-              <div
-                className={`relative rounded-2xl border overflow-hidden ${
-                  isSunMode
-                    ? 'bg-white border-stone-300 shadow-xs'
-                    : 'bg-stone-900/60 border-stone-800'
-                }`}
-              >
-                {isLocked ? (
-                  <div className="relative p-4">
-                    <div className="blur-xs select-none pointer-events-none opacity-40 space-y-2">
-                      <h3
-                        className={`text-xs font-extrabold uppercase tracking-wider mb-2 ${
-                          isSunMode ? 'text-amber-800' : 'text-amber-400'
-                        }`}
-                      >
-                        Análisis Arqueológico Profundo
-                      </h3>
-                      <p className="text-xs leading-relaxed font-medium">
-                        {deepText}
-                      </p>
-                    </div>
-
-                    {/* Lock Overlay */}
-                    <div
-                      className={`absolute inset-0 flex flex-col items-center justify-center p-5 text-center z-10 backdrop-blur-xs ${
-                        isSunMode
-                          ? 'bg-white/85 text-stone-950'
-                          : 'bg-stone-950/75 text-white'
-                      }`}
-                    >
-                      <div
-                        className={`w-10 h-10 rounded-xl flex items-center justify-center mb-2.5 ${
-                          isSunMode
-                            ? 'bg-amber-100 border border-amber-300 text-amber-800'
-                            : 'bg-amber-500/20 border border-amber-500/40 text-amber-400'
-                        }`}
-                      >
-                        <Lock className="w-5 h-5" />
-                      </div>
-                      <p className="text-xs font-extrabold mb-1">
-                        Contenido Exclusivo para Expertos
-                      </p>
-                      <p
-                        className={`text-[11px] max-w-[270px] mb-3.5 font-medium ${
-                          isSunMode ? 'text-stone-700' : 'text-stone-400'
-                        }`}
-                      >
-                        Desbloquea el análisis iconográfico completo, ficha arqueológica y fuentes académicas.
-                      </p>
-                      <button
-                        type="button"
-                        id="btn-unlock-expert-tab"
-                        onClick={onOpenPaywall}
-                        className={`min-h-[48px] px-5 py-3 rounded-xl text-xs font-extrabold transition active:scale-95 shadow-md ${
-                          isSunMode
-                            ? 'bg-amber-700 hover:bg-amber-800 text-white shadow-amber-800/20'
-                            : 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-amber-500/20'
-                        }`}
-                      >
-                        Desbloquear recorrido completo (${passPriceMxn} MXN)
-                      </button>
-                    </div>
-                  </div>
-                ) : (
-                  <div className="p-4">
-                    <h3
-                      className={`text-xs font-extrabold uppercase tracking-wider mb-2 flex items-center gap-1.5 ${
-                        isSunMode ? 'text-amber-800' : 'text-amber-400'
-                      }`}
-                    >
-                      <GraduationCap className="w-4 h-4" />
-                      Análisis Arqueológico Profundo
-                    </h3>
-                    <p
-                      className={`text-xs leading-relaxed text-justify font-medium ${
-                        isSunMode ? 'text-stone-800' : 'text-stone-200'
-                      }`}
-                    >
-                      {deepText}
-                    </p>
-                  </div>
-                )}
-              </div>
-
-              {/* Ficha Técnica Arqueológica Estructurada (Requisito 3 & 5: specs { material, provenance, weight, age }) */}
-              {normalizedSpecs && (
-                <div
-                  className={`p-4 rounded-2xl border ${
-                    isSunMode
-                      ? 'bg-white border-stone-300 text-stone-900 shadow-xs'
-                      : 'bg-stone-900/60 border-stone-800 text-stone-200'
-                  }`}
-                >
-                  <h3
-                    className={`text-xs font-extrabold uppercase tracking-wider mb-3 flex items-center gap-1.5 ${
-                      isSunMode ? 'text-amber-800' : 'text-amber-400'
-                    }`}
-                  >
-                    <Layers className="w-4 h-4" />
-                    Ficha Arqueológica Oficial
-                  </h3>
-
-                  <div className="grid grid-cols-1 gap-2.5 text-xs">
-                    {/* Material */}
-                    {normalizedSpecs.material && (
-                      <div
-                        className={`p-2.5 rounded-xl border flex items-center gap-3 ${
-                          isSunMode ? 'bg-stone-50 border-stone-200' : 'bg-stone-800/60 border-stone-700'
-                        }`}
-                      >
-                        <div className="w-8 h-8 rounded-lg bg-amber-500/15 text-amber-500 flex items-center justify-center shrink-0">
-                          <Layers className="w-4 h-4" />
-                        </div>
-                        <div>
-                          <div className="text-[10px] font-bold uppercase tracking-wider opacity-60">Material</div>
-                          <div className="font-semibold">{normalizedSpecs.material}</div>
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Procedencia / Hallazgo */}
-                    {normalizedSpecs.provenance && (
-                      <div
-                        className={`p-2.5 rounded-xl border flex items-center gap-3 ${
-                          isSunMode ? 'bg-stone-50 border-stone-200' : 'bg-stone-800/60 border-stone-700'
-                        }`}
-                      >
-                        <div className="w-8 h-8 rounded-lg bg-amber-500/15 text-amber-500 flex items-center justify-center shrink-0">
-                          <MapPin className="w-4 h-4" />
-                        </div>
-                        <div>
-                          <div className="text-[10px] font-bold uppercase tracking-wider opacity-60">Procedencia / Hallazgo</div>
-                          <div className="font-semibold">{normalizedSpecs.provenance}</div>
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Peso y Dimensiones */}
-                    {normalizedSpecs.weight && (
-                      <div
-                        className={`p-2.5 rounded-xl border flex items-center gap-3 ${
-                          isSunMode ? 'bg-stone-50 border-stone-200' : 'bg-stone-800/60 border-stone-700'
-                        }`}
-                      >
-                        <div className="w-8 h-8 rounded-lg bg-amber-500/15 text-amber-500 flex items-center justify-center shrink-0">
-                          <Scale className="w-4 h-4" />
-                        </div>
-                        <div>
-                          <div className="text-[10px] font-bold uppercase tracking-wider opacity-60">Dimensiones y Peso</div>
-                          <div className="font-semibold">{normalizedSpecs.weight}</div>
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Antigüedad / Período */}
-                    {normalizedSpecs.age && (
-                      <div
-                        className={`p-2.5 rounded-xl border flex items-center gap-3 ${
-                          isSunMode ? 'bg-stone-50 border-stone-200' : 'bg-stone-800/60 border-stone-700'
-                        }`}
-                      >
-                        <div className="w-8 h-8 rounded-lg bg-amber-500/15 text-amber-500 flex items-center justify-center shrink-0">
-                          <Calendar className="w-4 h-4" />
-                        </div>
-                        <div>
-                          <div className="text-[10px] font-bold uppercase tracking-wider opacity-60">Cronología / Datación</div>
-                          <div className="font-semibold">{normalizedSpecs.age}</div>
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              )}
-
-              {/* Preguntas Frecuentes y Debate Arqueológico (Requisito 3 & 5: faq { question, answer }) */}
+              {/* Acordeones Fluidos para Preguntas Frecuentes (FAQ) */}
               {faqList.length > 0 && (
-                <div
-                  className={`p-4 rounded-2xl border ${
-                    isSunMode
-                      ? 'bg-white border-stone-300 text-stone-900 shadow-xs'
-                      : 'bg-stone-900/60 border-stone-800 text-stone-200'
-                  }`}
-                >
-                  <h3
-                    className={`text-xs font-extrabold uppercase tracking-wider mb-3 flex items-center gap-1.5 ${
-                      isSunMode ? 'text-amber-800' : 'text-amber-400'
-                    }`}
-                  >
-                    <HelpCircle className="w-4 h-4" />
-                    Preguntas Frecuentes y Debate
-                  </h3>
+                <div className="space-y-3 pt-2">
+                  <div className="flex items-center gap-2">
+                    <HelpCircle className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
+                    <h3 className="text-xs font-semibold tracking-wider uppercase text-stone-500 dark:text-stone-400">
+                      Preguntas y Debate
+                    </h3>
+                  </div>
 
-                  <div className="space-y-2">
+                  <div className="divide-y divide-stone-200/70 dark:divide-stone-800/70 border-y border-stone-200/70 dark:border-stone-800/70">
                     {faqList.map((item, idx) => {
                       const isOpen = openFaqIndex === idx;
                       return (
-                        <div
-                          key={idx}
-                          className={`rounded-xl border transition-all overflow-hidden ${
-                            isSunMode ? 'border-stone-200 bg-stone-50' : 'border-stone-800 bg-stone-800/40'
-                          }`}
-                        >
+                        <div key={idx} className="py-1">
                           <button
                             type="button"
                             onClick={() => setOpenFaqIndex(isOpen ? null : idx)}
-                            className="w-full text-left p-3 flex items-center justify-between gap-3"
+                            className="w-full text-left py-3 flex items-center justify-between gap-3 group transition-colors"
                           >
-                            <span className="text-xs font-bold">{item.question}</span>
+                            <span className="text-xs sm:text-sm font-semibold text-stone-900 dark:text-stone-100 group-hover:text-[#C05638] dark:group-hover:text-[#D96B47]">
+                              {item.question}
+                            </span>
                             <ChevronDown
                               className={`w-4 h-4 shrink-0 transition-transform duration-200 ${
-                                isOpen ? 'rotate-180 text-amber-500' : 'text-stone-400'
+                                isOpen
+                                  ? 'rotate-180 text-[#C05638] dark:text-[#D96B47]'
+                                  : 'text-stone-400'
                               }`}
                             />
                           </button>
                           {isOpen && (
-                            <div className="px-3 pb-3 pt-1 text-xs leading-relaxed opacity-90 border-t border-dashed border-stone-200 dark:border-stone-700">
+                            <div className="pb-3 text-xs sm:text-sm leading-relaxed text-stone-600 dark:text-stone-300 animate-in fade-in duration-200">
                               {item.answer}
                             </div>
                           )}
@@ -653,7 +521,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             </div>
           )}
         </div>
-      </div>
+      </section>
 
       {/* Fullscreen Image Zoom Modal */}
       <ImageZoomModal
@@ -663,6 +531,6 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         title={piece.identification.title}
         subtitle={piece.identification.culture_period}
       />
-    </div>
+    </article>
   );
 };

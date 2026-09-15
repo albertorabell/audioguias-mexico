@@ -27,10 +27,10 @@ export const BottomNav: React.FC<BottomNavProps> = ({
 
   return (
     <nav
-      className={`fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[480px] z-40 p-3 shadow-2xl backdrop-blur-md border-t transition-colors duration-200 ${
+      className={`fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[480px] z-40 px-4 py-3 shadow-xl backdrop-blur-md border-t transition-colors duration-200 ${
         isSunMode
-          ? 'bg-white/95 border-stone-300 text-stone-900'
-          : 'bg-stone-950/95 border-stone-800 text-stone-100'
+          ? 'bg-[#FAF8F5]/92 border-stone-200/90 text-stone-900'
+          : 'bg-[#141414]/92 border-stone-800/90 text-stone-100'
       }`}
     >
       {isLastStop ? (
@@ -40,21 +40,21 @@ export const BottomNav: React.FC<BottomNavProps> = ({
             <div
               className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 ${
                 isSunMode
-                  ? 'bg-amber-100 border border-amber-300 text-amber-800'
-                  : 'bg-amber-500/20 border border-amber-500/40 text-amber-400'
+                  ? 'bg-[#C05638]/10 text-[#C05638]'
+                  : 'bg-[#D96B47]/20 text-[#D96B47]'
               }`}
             >
               <PartyPopper className="w-5 h-5" />
             </div>
             <div className="truncate">
               <p
-                className={`text-xs font-extrabold truncate ${
-                  isSunMode ? 'text-amber-800' : 'text-amber-400'
+                className={`text-xs font-semibold truncate ${
+                  isSunMode ? 'text-[#C05638]' : 'text-[#D96B47]'
                 }`}
               >
-                ¡Ruta completada! 🎉
+                ¡Ruta completada!
               </p>
-              <p className={`text-[10px] font-medium ${isSunMode ? 'text-stone-600' : 'text-stone-400'}`}>
+              <p className="text-[11px] text-stone-500 dark:text-stone-400 font-normal">
                 Has visitado todos los puntos del recorrido
               </p>
             </div>
@@ -65,10 +65,10 @@ export const BottomNav: React.FC<BottomNavProps> = ({
               <button
                 id="btn-open-map-bottom-completed"
                 onClick={onOpenMapModal}
-                className={`min-h-[48px] min-w-[48px] flex items-center justify-center rounded-xl border transition active:scale-95 ${
+                className={`min-h-[44px] min-w-[44px] flex items-center justify-center rounded-xl border transition active:scale-95 ${
                   isSunMode
-                    ? 'bg-amber-50 border-stone-300 text-amber-900 hover:bg-amber-100'
-                    : 'bg-stone-900 border-stone-700 text-amber-400 hover:bg-stone-800'
+                    ? 'bg-white border-stone-200 text-stone-700 hover:text-stone-900 hover:bg-stone-50'
+                    : 'bg-stone-900 border-stone-800 text-stone-300 hover:text-white hover:bg-stone-800'
                 }`}
                 title="Ver plano del recinto"
               >
@@ -78,10 +78,10 @@ export const BottomNav: React.FC<BottomNavProps> = ({
             <button
               id="btn-restart-route"
               onClick={onRestartRoute}
-              className={`min-h-[48px] min-w-[48px] flex items-center justify-center rounded-xl border transition active:scale-95 ${
+              className={`min-h-[44px] min-w-[44px] flex items-center justify-center rounded-xl border transition active:scale-95 ${
                 isSunMode
-                  ? 'bg-stone-100 border-stone-300 text-stone-800 hover:bg-stone-200'
-                  : 'bg-stone-900 border-stone-700 text-stone-300 hover:text-white'
+                  ? 'bg-white border-stone-200 text-stone-700 hover:text-stone-900 hover:bg-stone-50'
+                  : 'bg-stone-900 border-stone-800 text-stone-300 hover:text-white hover:bg-stone-800'
               }`}
               title="Reiniciar ruta"
             >
@@ -90,11 +90,7 @@ export const BottomNav: React.FC<BottomNavProps> = ({
             <button
               id="btn-change-route-completed"
               onClick={onOpenRouteModal}
-              className={`min-h-[48px] flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl text-xs font-extrabold transition active:scale-95 shadow-md ${
-                isSunMode
-                  ? 'bg-amber-700 hover:bg-amber-800 text-white shadow-amber-800/20'
-                  : 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-amber-500/20'
-              }`}
+              className="min-h-[44px] flex items-center gap-1.5 px-3.5 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition active:scale-95 shadow-sm bg-[#C05638] hover:bg-[#A9482E] dark:bg-[#D96B47] dark:hover:bg-[#C05638] text-white"
             >
               <Route className="w-4 h-4" />
               <span>Cambiar ruta</span>
@@ -102,19 +98,15 @@ export const BottomNav: React.FC<BottomNavProps> = ({
           </div>
         </div>
       ) : (
-        // Standard Next Stop navigation (ampliado a mínimo 48px de altura táctil)
+        // Standard Next Stop navigation
         <div className="flex items-center justify-between gap-3">
-          <div className="flex-1 truncate">
-            <p
-              className={`text-[10px] uppercase font-extrabold tracking-wider ${
-                isSunMode ? 'text-stone-600' : 'text-stone-400'
-              }`}
-            >
+          <div className="flex-1 min-w-0 pr-1">
+            <p className="text-[10px] uppercase font-semibold tracking-wider text-stone-500 dark:text-stone-400">
               Siguiente parada ({currentStopIndex + 2}/{totalStops})
             </p>
             <p
-              className={`text-xs font-extrabold truncate mt-0.5 ${
-                isSunMode ? 'text-stone-950' : 'text-stone-100'
+              className={`text-xs font-semibold truncate mt-0.5 ${
+                isSunMode ? 'text-stone-900' : 'text-stone-100'
               }`}
             >
               {nextStop ? nextStop.title : 'Siguiente pieza'}
@@ -126,10 +118,10 @@ export const BottomNav: React.FC<BottomNavProps> = ({
               <button
                 id="btn-open-map-bottom"
                 onClick={onOpenMapModal}
-                className={`min-h-[48px] px-3 py-2.5 rounded-xl text-xs font-extrabold flex items-center gap-1.5 border transition active:scale-95 ${
+                className={`min-h-[44px] px-3.5 py-2 rounded-xl text-xs font-medium flex items-center gap-1.5 border transition active:scale-95 ${
                   isSunMode
-                    ? 'bg-amber-50 border-stone-300 text-amber-900 hover:bg-amber-100 hover:border-amber-600'
-                    : 'bg-stone-900 border-stone-700 text-amber-400 hover:bg-stone-800 hover:border-amber-500'
+                    ? 'bg-white border-stone-200 text-stone-700 hover:text-stone-900 hover:bg-stone-50'
+                    : 'bg-stone-900 border-stone-800 text-stone-300 hover:text-white hover:bg-stone-800'
                 }`}
                 title="Ver plano interactivo"
               >
@@ -141,11 +133,7 @@ export const BottomNav: React.FC<BottomNavProps> = ({
             <button
               id="btn-next-stop"
               onClick={onNextStop}
-              className={`min-h-[48px] flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-extrabold transition active:scale-95 shadow-md ${
-                isSunMode
-                  ? 'bg-amber-700 hover:bg-amber-800 text-white shadow-amber-800/20'
-                  : 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-amber-500/20'
-              }`}
+              className="min-h-[44px] flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold tracking-wide transition active:scale-95 shadow-sm bg-[#C05638] hover:bg-[#A9482E] dark:bg-[#D96B47] dark:hover:bg-[#C05638] text-white"
             >
               <span>Avanzar</span>
               <ChevronRight className="w-4 h-4" />

@@ -42,7 +42,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   useEffect(() => {
     const metaThemeColor = document.querySelector("meta[name='theme-color']");
     if (metaThemeColor) {
-      metaThemeColor.setAttribute('content', theme === 'sun' ? '#F9F6F0' : '#0c0a09');
+      metaThemeColor.setAttribute('content', theme === 'sun' ? '#FAF8F5' : '#141414');
     }
   }, [theme]);
 
