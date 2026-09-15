@@ -1,0 +1,60 @@
+{
+  "poi_id": "piramide-de-la-luna",
+  "is_premium": false,
+  "estimated_minutes": 10,
+  "tags": ["piramides", "astronomia", "calzada", "monumental"],
+  "identification": {
+    "title": "Pirámide de la Luna y Plaza Ceremonial",
+    "culture_period": "Teotihuacana / Clásico Temprano (150–250 d.C.)",
+    "room_zone": "Plaza de la Luna, Zona Arqueológica Teotihuacán",
+    "tags": ["piramides", "astronomia", "calzada", "Gran Diosa", "Plaza de la Luna"],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pyramid_of_the_Moon%2C_Teotihuacan%2C_Mexico%2C_2013-10-12%2C_DD_26.JPG/1280px-Pyramid_of_the_Moon%2C_Teotihuacan%2C_Mexico%2C_2013-10-12%2C_DD_26.JPG"
+  },
+  "narrative": {
+    "one_liner": "La majestuosa cumbre que remata la Calzada de los Muertos, consagrada a las aguas subterráneas y al poder femenino.",
+    "short_desc": "Ubicada al extremo norte de la Calzada de los Muertos y enmarcada por la silueta del Cerro Gordo, esta pirámide presidía rituales cívicos y sacrificios dedicados a la Gran Diosa del agua y la fertilidad.",
+    "deep_desc": "La Pirámide de la Luna esconde siete etapas constructivas superpuestas como muñecas rusas. En sus entrañas se han descubierto ofrendas fúnebres de extraordinaria riqueza: jaulas con pumas y águilas sacrificados, miles de cuentas de concha y obsidiana verde, y dignatarios extranjeros enterrados sentados en postura de loto con adornos de jade maya. Su plaza ceremonial, bordeada por doce basamentos piramidales que representan los meses o constelaciones astrales, creaba una acústica hipnótica donde el eco de las conchas de caracol resonaba en todo el valle."
+  },
+  "audioguide": {
+    "audio_script": "Párate en el centro de la gran Plaza de la Luna y mira hacia el norte. Observa cómo la cima de la pirámide imita con exactitud la curva montañosa del Cerro Gordo que se alza detrás de ella. Para los teotihuacanos, este monumento era el espejo arquitectónico de la montaña sagrada proveedora de nubes y lluvias. A diferencia del Sol, asociado a la energía masculina y el fuego cósmico, la Pirámide de la Luna honraba a la Gran Diosa, señora de los manantiales, cuevas y ríos subterráneos que daban vida a la ciudad más poblada de la América prehispánica.",
+    "audio_file_url": ""
+  },
+  "visual_challenge": [
+    {
+      "id": "ch-luna-1",
+      "title": "Mimetismo con el Cerro Gordo",
+      "clue": "Alínea tu vista con la cima de la pirámide: nota cómo se funde perfectamente con el contorno de la montaña al fondo."
+    },
+    {
+      "id": "ch-luna-2",
+      "title": "El Altar Cuadrangular",
+      "clue": "Encuentra la plataforma con cuatro escalinatas al centro de la plaza que dividía el espacio en los cuatro rumbos cósmicos."
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-luna-1",
+      "fact": "Aunque parece de menor estatura que la Pirámide del Sol, ambas cimas están al mismo nivel sobre el mar porque el terreno norte es más elevado."
+    }
+  ],
+  "specs": [
+    {
+      "label": "Altura",
+      "value": "43 metros"
+    },
+    {
+      "label": "Base",
+      "value": "140 x 150 metros"
+    },
+    {
+      "label": "Etapas constructivas",
+      "value": "7 fases superpuestas identificadas"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Quién era la deidad tutelar de este templo?",
+      "answer": "La Gran Diosa teotihuacana de las aguas celestes y terrestres, frecuentemente representada con un tocado de lechuza y manos que derraman líquido sagrado."
+    }
+  ]
+}

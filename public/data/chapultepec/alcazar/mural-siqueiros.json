@@ -1,0 +1,60 @@
+{
+  "poi_id": "mural-siqueiros",
+  "is_premium": false,
+  "estimated_minutes": 10,
+  "tags": ["muralismo", "batallas", "republica"],
+  "identification": {
+    "title": "Mural 'Del Porfirismo a la Revolución' de Siqueiros",
+    "culture_period": "Escuela Muralista Mexicana / Vanguardia del Siglo XX (1957–1966)",
+    "room_zone": "Salas de Historia y Muralismo, Museo Nacional de Historia Castillo de Chapultepec",
+    "tags": ["muralismo", "batallas", "David Alfaro Siqueiros", "Revolución Mexicana"],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Mural_de_Siqueiros_en_el_Castillo_de_Chapultepec.jpg/1280px-Mural_de_Siqueiros_en_el_Castillo_de_Chapultepec.jpg"
+  },
+  "narrative": {
+    "one_liner": "El torbellino cinético y revolucionario de David Alfaro Siqueiros que retrata la caída del dictador Porfirio Díaz y el levantamiento popular.",
+    "short_desc": "Pintado al piroxilina sobre masonite y tela, este monumental mural de más de 400 metros cuadrados sacude al espectador con perspectivas poliangulares y los rostros de huelguistas, campesinos y caudillos revolucionarios.",
+    "deep_desc": "Ubicado en la Sala de la Revolución del Castillo, el mural plasma con violencia plástica y genialidad técnica las contradicciones de la sociedad porfiriana. En el ala izquierda, un anciano Porfirio Díaz aparece rodeado de su gabinete positivista pisoteando la Constitución de 1857. Al centro, estalla la marcha obrera de los mártires de Cananea y Río Blanco, con William C. Greene forcejeando por la bandera nacional. Hacia la derecha se desata el huracán campesino liderado por Emiliano Zapata y Francisco Villa a caballo. Siqueiros utilizó aerógrafo y teorías de poliangularidad para que las figuras parezcan abalanzarse físicamente sobre el visitante conforme camina frente al muro."
+  },
+  "audioguide": {
+    "audio_script": "Párate a unos metros del muro curvo. Nota la fuerza implacable de las líneas de fuga que inventó David Alfaro Siqueiros. A tu izquierda, observa la decadencia: damas de la aristocracia vestidas a la moda parisina ignoran a los peones encadenados. Al centro, mira las manos crispadas que sostienen la bandera mexicana ensangrentada. Siqueiros no pintó figuras estáticas: pintó el movimiento mismo de la historia. Camina lentamente de izquierda a derecha y siente cómo los cañones de los rifles y las miradas de los soldados revolucionarios parecen seguir tus pasos.",
+    "audio_file_url": ""
+  },
+  "visual_challenge": [
+    {
+      "id": "ch-siq-1",
+      "title": "La Constitución pisoteada",
+      "clue": "Localiza los pies de la comitiva porfirista pisando un libro abierto con la inscripción 'Constitución de 1857'."
+    },
+    {
+      "id": "ch-siq-2",
+      "title": "El puño del minero",
+      "clue": "Busca el puño crispado del huelguista de Cananea en primer plano enfrentando a los guardias armados."
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-siq-1",
+      "fact": "La pintura fue interrumpida durante cuatro años cuando Siqueiros fue encarcelado en Lecumberri por su activismo político, reanudándola en 1964 tras ser indultado."
+    }
+  ],
+  "specs": [
+    {
+      "label": "Técnica",
+      "value": "Acrílico y piroxilina sobre tela y triplay"
+    },
+    {
+      "label": "Área",
+      "value": "419.41 metros cuadrados"
+    },
+    {
+      "label": "Período de ejecución",
+      "value": "1957 a 1966"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es la perspectiva poliangular?",
+      "answer": "Una técnica inventada por Siqueiros donde la composición considera múltiples puntos de fuga sincronizados con el espectador en movimiento."
+    }
+  ]
+}

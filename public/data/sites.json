@@ -9,8 +9,8 @@
     "path": "data/mna/mna.json",
     "stripe_link": "https://buy.stripe.com/demo_mna",
     "description": "El recinto arqueológico y etnográfico más importante de México y América Latina, con más de 22 salas temáticas.",
-    "highlights_count": 2,
-    "total_stops": 2
+    "highlights_count": 4,
+    "total_stops": 4
   },
   {
     "id": "TEOTIHUACAN",
@@ -22,8 +22,8 @@
     "path": "data/teotihuacan/teotihuacan.json",
     "stripe_link": "https://buy.stripe.com/demo_teotihuacan",
     "description": "La legendaria 'Ciudad de los Dioses', epicentro ceremonial y una de las mayores urbes prehispánicas de Mesoamérica.",
-    "highlights_count": 2,
-    "total_stops": 2
+    "highlights_count": 4,
+    "total_stops": 4
   },
   {
     "id": "CHAPULTEPEC",
@@ -35,7 +35,7 @@
     "path": "data/chapultepec/chapultepec.json",
     "stripe_link": "https://buy.stripe.com/demo_chapultepec",
     "description": "El emblemático alcázar virreinal y residencia imperial sobre el cerro del Chapulín, testigo de hitos históricos cruciales.",
-    "highlights_count": 2,
-    "total_stops": 2
+    "highlights_count": 4,
+    "total_stops": 4
   }
 ]

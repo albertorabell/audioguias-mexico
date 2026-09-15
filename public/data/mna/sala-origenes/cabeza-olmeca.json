@@ -1,0 +1,68 @@
+{
+  "poi_id": "cabeza-olmeca",
+  "is_premium": false,
+  "estimated_minutes": 8,
+  "tags": ["origenes", "olmeca", "monumental", "obras maestras"],
+  "identification": {
+    "title": "Cabeza Colosal Olmeca (San Lorenzo)",
+    "culture_period": "Olmeca / Preclásico Medio (1200–900 a.C.)",
+    "room_zone": "Sala Introducción y Orígenes, Museo Nacional de Antropología",
+    "tags": ["olmeca", "origenes", "monumental", "Preclásico", "Cultura Madre"],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cabeza_Colosal_n.%C2%BA_6_de_San_Lorenzo.jpg/1200px-Cabeza_Colosal_n.%C2%BA_6_de_San_Lorenzo.jpg"
+  },
+  "narrative": {
+    "one_liner": "El monumental retrato en basalto de los primeros gobernantes y jugadores de pelota de la civilización madre de Mesoamérica.",
+    "short_desc": "Tallada en un monolito volcánico de basalto de más de 20 toneladas transportado a través de pantanos hace tres mil años, esta cabeza colosal personifica la fuerza telúrica y la soberanía dinástica olmeca.",
+    "deep_desc": "Los olmecas ('habitantes de la región del hule') florecieron en las selvas de Veracruz y Tabasco. Sus cabezas colosales no representan deidades abstractas, sino retratos individuales hiperrealistas de sus jefes y chamanes de la realeza. Cada cabeza luce un casco o tocado único con distintivos heráldicos, posiblemente cascos de protección para el juego de pelota ritual o insignias de linaje dinástico. Para tallarlas, los olmecas transportaron los inmensos bloques de piedra volcánica desde la sierra de Los Tuxtlas a lo largo de más de 80 kilómetros mediante balsas por ríos caudalosos y rodillos de madera a través del denso lodo de la selva tropical."
+  },
+  "audioguide": {
+    "audio_script": "Bienvenido ante la raíz misma de las civilizaciones mesoamericanas. Contempla los rasgos contundentes de esta cabeza colosal tallada hace más de tres mil años: labios gruesos, nariz ancha y una mirada penetrante que transmite autoridad soberana. Observa el casco protector que desciende sobre las sienes: era la armadura de los guerreros y jugadores del sagrado juego de pelota, donde la pelota de hule representaba el movimiento de los astros celestes. Para mover esta roca de casi veinte toneladas sin animales de carga ni carretas, cientos de hombres unieron su esfuerzo a través de ríos y pantanos, dejando una huella imborrable que aún nos asombra.",
+    "audio_file_url": ""
+  },
+  "visual_challenge": [
+    {
+      "id": "ch-olm-1",
+      "title": "El casco dinástico",
+      "clue": "Observa el borde superior de la frente para identificar las bandas protectoras y las hendiduras grabadas en el casco."
+    },
+    {
+      "id": "ch-olm-2",
+      "title": "Las orejeras tubulares",
+      "clue": "Localiza los pendientes cilíndricos que cuelgan a ambos lados del rostro, símbolos de nobleza."
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-olm-1",
+      "fact": "Muchas cabezas colosales fueron talladas reciclando antiguos tronos o altares de piedra monumentales cuando un gobernante moría."
+    },
+    {
+      "id": "cur-olm-2",
+      "fact": "Hasta el momento sólo se conocen 17 cabezas colosales olmecas en todo el mundo, la mayoría halladas en San Lorenzo y La Venta."
+    }
+  ],
+  "specs": [
+    {
+      "label": "Material",
+      "value": "Basalto volcánico de Los Tuxtlas"
+    },
+    {
+      "label": "Procedencia",
+      "value": "San Lorenzo Tenochtitlán, Veracruz"
+    },
+    {
+      "label": "Peso",
+      "value": "11.6 toneladas"
+    },
+    {
+      "label": "Antigüedad",
+      "value": "Aprox. 1200 a.C."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Tenían rasgos africanos como se pensaba antiguamente?",
+      "answer": "No; los estudios genéticos y comparativos demuestran que sus rasgos corresponden fielmente a los pueblos originarios de la costa del Golfo de México."
+    }
+  ]
+}

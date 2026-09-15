@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Clock, Check, Route } from 'lucide-react';
+import { X, Clock, Check, Route, Sparkles, ChevronRight } from 'lucide-react';
 import { SiteRoute } from '../types';
 import { useTheme } from '../utils/ThemeContext';
 
@@ -11,6 +11,7 @@ interface RouteModalProps {
   onSelectRoute: (routeId: string) => void;
   onSelectStop?: (stopIndex: number) => void;
   currentStopIndex: number;
+  onOpenWizard?: () => void;
 }
 
 export const RouteModal: React.FC<RouteModalProps> = ({
@@ -21,6 +22,7 @@ export const RouteModal: React.FC<RouteModalProps> = ({
   onSelectRoute,
   onSelectStop,
   currentStopIndex,
+  onOpenWizard,
 }) => {
   const { isSunMode } = useTheme();
 
@@ -74,8 +76,33 @@ export const RouteModal: React.FC<RouteModalProps> = ({
           </button>
         </div>
 
+        {/* Wizard button */}
+        {onOpenWizard && (
+          <button
+            type="button"
+            onClick={() => {
+              onClose();
+              onOpenWizard();
+            }}
+            className={`mt-4 p-3 rounded-xl border flex items-center justify-between transition-all active:scale-[0.98] ${
+              isSunMode
+                ? 'bg-amber-50 border-amber-300 text-amber-950 hover:bg-amber-100'
+                : 'bg-amber-950/40 border-amber-500/40 text-amber-300 hover:bg-amber-950/60'
+            }`}
+          >
+            <div className="flex items-center gap-2.5">
+              <Sparkles className="w-4 h-4 text-amber-500" />
+              <div className="text-left">
+                <span className="text-xs font-black block">Diseñar Ruta Personalizada</span>
+                <span className="text-[10px] opacity-80 block">Asistente por tiempo, salas e intereses</span>
+              </div>
+            </div>
+            <ChevronRight className="w-4 h-4 text-amber-500" />
+          </button>
+        )}
+
         {/* Routes List */}
-        <div className="overflow-y-auto py-4 space-y-4 flex-1">
+        <div className="overflow-y-auto py-3 space-y-4 flex-1">
           {routes.map((route) => {
             const isActive = route.id === activeRouteId;
             return (

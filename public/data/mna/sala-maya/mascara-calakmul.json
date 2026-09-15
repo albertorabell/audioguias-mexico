@@ -1,0 +1,68 @@
+{
+  "poi_id": "mascara-calakmul",
+  "is_premium": true,
+  "estimated_minutes": 8,
+  "tags": ["maya", "monumental", "misticismo", "obras maestras"],
+  "identification": {
+    "title": "Máscara Funeraria de Calakmul",
+    "culture_period": "Maya / Clásico Tardío (660–750 d.C.)",
+    "room_zone": "Sala Maya, Museo Nacional de Antropología",
+    "tags": ["maya", "jade", "misticismo", "ajuar funerario", "Calakmul"],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/M%C3%A1scara_de_Calakmul.jpg/800px-M%C3%A1scara_de_Calakmul.jpg"
+  },
+  "narrative": {
+    "one_liner": "El divino rostro de jade verde esmeralda que confería inmortalidad al soberano maya en el inframundo.",
+    "short_desc": "Elaborada con teselas de jadeíta pulida, concha nácar y obsidiana gris, esta máscara fúnebre cubría el rostro del gobernante maya para garantizar su renacimiento como el joven dios del maíz.",
+    "deep_desc": "Para la civilización maya, el jade verde no era solamente la sustancia más preciosa del mundo terrenal, sino el aliento vital condensado ('ik'), la savia vegetal de la selva y el símbolo de la resurrección perenne. Descubierta en la Tumba 1 de la Estructura VII de Calakmul (Campeche), la máscara está compuesta por decenas de mosaicos milimétricamente facetados que reproducen los rasgos del gobernante divinizado. Al morir, el señor de la Serpiente (dinastía Kaan) descendía a las aguas oscuras de Xibalbá; portando esta máscara, los Señores de la Muerte lo reconocían no como un simple mortal, sino como la encarnación viviente de Hun Nal Ye, el dios del maíz que brota triunfante de la tierra fértil."
+  },
+  "audioguide": {
+    "audio_script": "Acércate a la vitrina iluminada de la Sala Maya. Estás ante una de las obras cumbres del arte fúnebre mesoamericano: la Máscara de Calakmul. Fíjate en los tonos esmeralda y manzana del jade, pulido a mano sin herramientas de hierro hace más de trece siglos. En los ojos, la esclerótica está hecha de concha nácar y las pupilas de obsidiana gris. Fíjate también en las grandes orejeras circulares que representan la flor del loto acuático emergiendo de las aguas primordiales. Al colocarse esta máscara sobre el rostro del difunto gobernante, los sacerdotes mayas aseguraban que su alma renaciera eternamente como una mazorca tierna en el ciclo de las cosechas.",
+    "audio_file_url": ""
+  },
+  "visual_challenge": [
+    {
+      "id": "ch-cal-1",
+      "title": "Pupilas de obsidiana",
+      "clue": "Observa cómo la pupila mira levemente al centro, manifestando el estrabismo ritual venerado por la nobleza maya."
+    },
+    {
+      "id": "ch-cal-2",
+      "title": "Orejeras en flor de loto",
+      "clue": "Examina los discos a los costados de las orejas que emulan flores sagradas flotando en lagunas sagradas."
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-cal-1",
+      "fact": "Fue descubierta en 1984 por el arqueólogo William J. Folan en la tumba de un monarca de la poderosa dinastía de la Cabeza de Serpiente."
+    },
+    {
+      "id": "cur-cal-2",
+      "fact": "El jade procedía de las lejanas canteras del valle del río Motagua en Guatemala, transportado cientos de kilómetros por rutas fluviales."
+    }
+  ],
+  "specs": [
+    {
+      "label": "Material",
+      "value": "Mosaico de jadeíta, concha marina y obsidiana"
+    },
+    {
+      "label": "Procedencia",
+      "value": "Estructura VII, Calakmul, Campeche"
+    },
+    {
+      "label": "Período",
+      "value": "Clásico Tardío Maya (ca. 700 d.C.)"
+    },
+    {
+      "label": "Dimensiones",
+      "value": "24.5 cm x 19.5 cm"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué el jade era más valioso que el oro para los mayas?",
+      "answer": "Porque el oro no tenía valor sagrado intrínseco, mientras que el jade verde representaba el agua, el maíz tierno y el aliento del alma eterna."
+    }
+  ]
+}

@@ -4,48 +4,178 @@
   "pass_price_mxn": 79,
   "pass_price_usd": 4.99,
   "floorplan_url": "data/chapultepec/chapultepec-map.svg",
+  "rooms": [
+    {
+      "id": "salas-carruaje",
+      "name": "Salas del Carruaje",
+      "culture": "República y Segundo Imperio • Siglo XIX",
+      "tags": ["carruajes", "batallas", "republica"],
+      "short_description": "Los legendarios vehículos de transporte de Juárez y la opulenta carroza de gala de Maximiliano.",
+      "floor": 1,
+      "featured_pieces": ["carruaje-juarez", "carruaje-maximiliano"],
+      "coords": { "x": 26, "y": 68 },
+      "pieces_info": [
+        {
+          "poi_id": "carruaje-juarez",
+          "title": "Carruaje de Gala de Benito Juárez",
+          "is_premium": false,
+          "estimated_minutes": 8,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Carruaje_de_Benito_Ju%C3%A1rez_-_Castillo_de_Chapultepec.jpg/1280px-Carruaje_de_Benito_Ju%C3%A1rez_-_Castillo_de_Chapultepec.jpg",
+          "file": "data/chapultepec/alcazar/carruaje-juarez.json"
+        },
+        {
+          "poi_id": "carruaje-maximiliano",
+          "title": "Carruaje de Gala de Maximiliano y Carlota",
+          "is_premium": true,
+          "estimated_minutes": 8,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Carruaje_de_gala_de_Maximiliano.JPG/1280px-Carruaje_de_gala_de_Maximiliano.JPG",
+          "file": "data/chapultepec/alcazar/carruaje-maximiliano.json"
+        }
+      ]
+    },
+    {
+      "id": "alcazar-imperial",
+      "name": "Alcázar Imperial y Habitaciones",
+      "culture": "Segundo Imperio Mexicano • Neoclásico",
+      "tags": ["alcazar", "imperial"],
+      "short_description": "La alcoba de Carlota, salones de recepción y el lujo aristocrático de la corte imperial.",
+      "floor": 2,
+      "featured_pieces": ["habitacion-carlota"],
+      "coords": { "x": 74, "y": 34 },
+      "pieces_info": [
+        {
+          "poi_id": "habitacion-carlota",
+          "title": "Habitación de la Emperatriz Carlota",
+          "is_premium": true,
+          "estimated_minutes": 10,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Recamara_de_Carlota_Castillo_de_Chapultepec.jpg/1280px-Recamara_de_Carlota_Castillo_de_Chapultepec.jpg",
+          "file": "data/chapultepec/alcazar/habitacion-carlota.json"
+        }
+      ]
+    },
+    {
+      "id": "salon-murales",
+      "name": "Salas de Historia y Muralismo",
+      "culture": "Revolución Mexicana • Siglo XX",
+      "tags": ["muralismo", "batallas", "republica"],
+      "short_description": "La epopeya de la Revolución y el imponente mural poliangular de David Alfaro Siqueiros.",
+      "floor": 1,
+      "featured_pieces": ["mural-siqueiros"],
+      "coords": { "x": 30, "y": 35 },
+      "pieces_info": [
+        {
+          "poi_id": "mural-siqueiros",
+          "title": "Mural 'Del Porfirismo a la Revolución' de Siqueiros",
+          "is_premium": false,
+          "estimated_minutes": 10,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Mural_de_Siqueiros_en_el_Castillo_de_Chapultepec.jpg/1280px-Mural_de_Siqueiros_en_el_Castillo_de_Chapultepec.jpg",
+          "file": "data/chapultepec/alcazar/mural-siqueiros.json"
+        }
+      ]
+    },
+    {
+      "id": "jardin-alcazar",
+      "name": "Jardín del Alcázar y Mirador",
+      "culture": "Paisajismo del Segundo Imperio",
+      "tags": ["alcazar", "imperial"],
+      "short_description": "Terraza ajardinada en la cumbre con la fuente de mármol y panorámica a Reforma.",
+      "floor": 2,
+      "featured_pieces": [],
+      "coords": { "x": 58, "y": 34 },
+      "pieces_info": []
+    },
+    {
+      "id": "torre-caballero-alto",
+      "name": "Torre del Caballero Alto",
+      "culture": "Defensa Militar y Colegio Militar",
+      "tags": ["batallas", "alcazar"],
+      "short_description": "El punto más elevado del cerro de Chapultepec y vestigio del antiguo Colegio Militar.",
+      "floor": 2,
+      "featured_pieces": [],
+      "coords": { "x": 50, "y": 20 },
+      "pieces_info": []
+    }
+  ],
   "routes": [
     {
       "id": "esplendor-alcazar",
-      "name": "Esplendor del Alcázar Imperial",
+      "name": "Esplendor del Alcázar y Revolución",
       "duration": "45 min",
-      "description": "Viaje a través de la pugna entre Imperio y República en las salas aristocráticas del Castillo.",
+      "description": "El choque entre Imperio, República y la Revolución a través de carruajes, habitaciones imperiales y murales.",
       "stops": [
         {
           "poi_id": "carruaje-juarez",
           "title": "Carruaje de Gala de Benito Juárez",
           "room_zone": "Salas del Carruaje",
           "file": "data/chapultepec/alcazar/carruaje-juarez.json",
-          "map_coords": { "x": 28, "y": 68 }
+          "map_coords": { "x": 26, "y": 68 },
+          "estimated_minutes": 8,
+          "tags": ["carruajes", "batallas", "republica"],
+          "room_id": "salas-carruaje",
+          "ranking": 1
+        },
+        {
+          "poi_id": "carruaje-maximiliano",
+          "title": "Carruaje de Gala de Maximiliano",
+          "room_zone": "Salas del Carruaje",
+          "file": "data/chapultepec/alcazar/carruaje-maximiliano.json",
+          "map_coords": { "x": 34, "y": 68 },
+          "estimated_minutes": 8,
+          "tags": ["carruajes", "imperial"],
+          "room_id": "salas-carruaje",
+          "ranking": 2
+        },
+        {
+          "poi_id": "mural-siqueiros",
+          "title": "Mural de Siqueiros",
+          "room_zone": "Salas de Historia y Muralismo",
+          "file": "data/chapultepec/alcazar/mural-siqueiros.json",
+          "map_coords": { "x": 30, "y": 35 },
+          "estimated_minutes": 10,
+          "tags": ["muralismo", "batallas"],
+          "room_id": "salon-murales",
+          "ranking": 1
         },
         {
           "poi_id": "habitacion-carlota",
-          "title": "Habitación de la Emperatriz Carlota",
+          "title": "Habitación de Carlota",
           "room_zone": "Alcázar Poniente",
           "file": "data/chapultepec/alcazar/habitacion-carlota.json",
-          "map_coords": { "x": 72, "y": 36 }
+          "map_coords": { "x": 74, "y": 34 },
+          "estimated_minutes": 10,
+          "tags": ["alcazar", "imperial"],
+          "room_id": "alcazar-imperial",
+          "ranking": 1
         }
       ]
     },
     {
       "id": "visita-relampago",
-      "name": "Visita Relámpago",
-      "duration": "20 min",
-      "description": "Los dos objetos y estancias más representativos de la soberanía e intimidad decimonónica.",
+      "name": "Visita Relámpago (Top Highlights)",
+      "duration": "25 min",
+      "description": "Los dos contrastes supremos: el carruaje de Juárez y la alcoba de la emperatriz.",
       "stops": [
         {
           "poi_id": "carruaje-juarez",
           "title": "Carruaje de Gala de Benito Juárez",
           "room_zone": "Salas del Carruaje",
           "file": "data/chapultepec/alcazar/carruaje-juarez.json",
-          "map_coords": { "x": 28, "y": 68 }
+          "map_coords": { "x": 26, "y": 68 },
+          "estimated_minutes": 8,
+          "tags": ["carruajes", "batallas", "republica"],
+          "room_id": "salas-carruaje",
+          "ranking": 1
         },
         {
           "poi_id": "habitacion-carlota",
           "title": "Habitación de la Emperatriz Carlota",
           "room_zone": "Alcázar Poniente",
           "file": "data/chapultepec/alcazar/habitacion-carlota.json",
-          "map_coords": { "x": 72, "y": 36 }
+          "map_coords": { "x": 74, "y": 34 },
+          "estimated_minutes": 10,
+          "tags": ["alcazar", "imperial"],
+          "room_id": "alcazar-imperial",
+          "ranking": 1
         }
       ]
     }

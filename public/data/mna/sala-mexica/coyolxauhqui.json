@@ -1,0 +1,72 @@
+{
+  "poi_id": "coyolxauhqui",
+  "is_premium": true,
+  "estimated_minutes": 9,
+  "tags": ["mexica", "misticismo", "monumental", "dioses", "tenochtitlan"],
+  "identification": {
+    "title": "Monolito de Coyolxauhqui",
+    "culture_period": "Mexica / Posclásico Tardío (1469–1481 d.C.)",
+    "room_zone": "Sala Mexica, Museo Nacional de Antropología",
+    "tags": ["mexica", "misticismo", "monumental", "Luna", "Templo Mayor"],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Monolito_de_Coyolxauhqui_%28MNA%29.jpg/1200px-Monolito_de_Coyolxauhqui_%28MNA%29.jpg"
+  },
+  "narrative": {
+    "one_liner": "La diosa lunar desmembrada por su hermano Huitzilopochtli al pie del cerro sagrado de Coatepec.",
+    "short_desc": "Descubierta en 1978 por trabajadores de la compañía de luz, este colosal disco de piedra volcánica de más de 3 metros marcó el redescubrimiento arqueológico del Templo Mayor de Tenochtitlan.",
+    "deep_desc": "El monolito de Coyolxauhqui retrata el clímax trágico del mito fundacional mexica. Al intentar decapitar a su madre Coatlicue, su hermano nonato Huitzilopochtli nació armado con la serpiente de fuego Xiuhcóatl, degolló a Coyolxauhqui y arrojó su cuerpo rodando cuesta abajo por el cerro de Coatepec. La escultura la muestra desmembrada: cabeza, brazos y piernas cercenados con huesos expuestos, cascabeles en sus mejillas ('Coyolxauhqui' significa 'La de los cascabeles en el rostro') y un tocado de plumas de águila. El monolito yacía exactamente al pie de la escalinata de Huitzilopochtli, recordando a los pueblos tributarios el destino fatal de quienes osaran desafiar al imperio solar azteca."
+  },
+  "audioguide": {
+    "audio_script": "Párate frente a este imponente disco circular de más de tres metros de diámetro. Estás ante Coyolxauhqui, diosa de la luna. Observa detenidamente sus extremidades: sus brazos y piernas han sido cortados por la espada solar de su hermano Huitzilopochtli, dejando ver las articulaciones y los huesos expuestos. En sus mejillas, nota los discos labrados que representan cascabeles dorados de metal. En la época mexica, los cautivos de guerra eran arrojados escaleras abajo en el Templo Mayor, cayendo sobre este mismo relieve como recreación ritual de la victoria cósmica del Sol contra la oscuridad de la noche.",
+    "audio_file_url": ""
+  },
+  "visual_challenge": [
+    {
+      "id": "ch-coy-1",
+      "title": "Cascabeles en las mejillas",
+      "clue": "Encuentra en el rostro de perfil los círculos que simbolizan los cascabeles mágicos ('coyolli')."
+    },
+    {
+      "id": "ch-coy-2",
+      "title": "Articulaciones de cráneo",
+      "clue": "Observa los codos y rodillas: están decorados con mascarones grotescos y nudos serpentinos."
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-coy-1",
+      "fact": "Fue descubierta de forma accidental el 21 de febrero de 1978 por obreros de Luz y Fuerza que excavaban cables en la esquina de Guatemala y Argentina."
+    },
+    {
+      "id": "cur-coy-2",
+      "fact": "Originalmente estaba pintada con brillantes pigmentos minerales: rojo óxido, amarillo ocre, azul maya, blanco calizo y negro humo."
+    }
+  ],
+  "specs": [
+    {
+      "label": "Material",
+      "value": "Cantera andesita volcánica rosada"
+    },
+    {
+      "label": "Diámetro",
+      "value": "3.25 metros"
+    },
+    {
+      "label": "Peso aproximado",
+      "value": "8 toneladas"
+    },
+    {
+      "label": "Ubicación original",
+      "value": "Base del adoratorio de Huitzilopochtli, Templo Mayor"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué sus pechos y abdomen lucen pliegues?",
+      "answer": "Los pliegues en su vientre aluden a su condición de mujer madura que ha dado a luz, vinculándola con la fecundidad lunar y nocturna."
+    },
+    {
+      "question": "¿Qué simbolizan las sandalias?",
+      "answer": "Porta sandalias atadas con nudos de doble lazo, vestimenta propia de la nobleza guerrera mexica."
+    }
+  ]
+}

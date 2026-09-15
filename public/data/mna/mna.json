@@ -4,48 +4,197 @@
   "pass_price_mxn": 79,
   "pass_price_usd": 4.99,
   "floorplan_url": "data/mna/mna-map.svg",
+  "rooms": [
+    {
+      "id": "sala-mexica",
+      "name": "Sala Mexica",
+      "culture": "Mexica • Posclásico Tardío",
+      "tags": ["mexica", "monumental", "misticismo", "tenochtitlan"],
+      "short_description": "El poder militar, los monolitos colosales y la cosmología solar de la gran Tenochtitlan.",
+      "floor": 1,
+      "featured_pieces": ["piedra-del-sol", "coatlicue", "coyolxauhqui"],
+      "coords": { "x": 50, "y": 18 },
+      "pieces_info": [
+        {
+          "poi_id": "piedra-del-sol",
+          "title": "Piedra del Sol (Calendario Azteca)",
+          "is_premium": false,
+          "estimated_minutes": 8,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Piedra_del_Sol_en_el_MNA.jpg/1200px-Piedra_del_Sol_en_el_MNA.jpg",
+          "file": "data/mna/sala-mexica/piedra-del-sol.json"
+        },
+        {
+          "poi_id": "coatlicue",
+          "title": "Monolito de Coatlicue",
+          "is_premium": true,
+          "estimated_minutes": 10,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Coatlicue_de_frente.jpg/900px-Coatlicue_de_frente.jpg",
+          "file": "data/mna/sala-mexica/coatlicue.json"
+        },
+        {
+          "poi_id": "coyolxauhqui",
+          "title": "Monolito de Coyolxauhqui",
+          "is_premium": true,
+          "estimated_minutes": 9,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Monolito_de_Coyolxauhqui_%28MNA%29.jpg/1200px-Monolito_de_Coyolxauhqui_%28MNA%29.jpg",
+          "file": "data/mna/sala-mexica/coyolxauhqui.json"
+        }
+      ]
+    },
+    {
+      "id": "sala-maya",
+      "name": "Sala Maya",
+      "culture": "Maya • Clásico y Posclásico",
+      "tags": ["maya", "misticismo", "monumental"],
+      "short_description": "La sublime sabiduría astronómica, el tallado de jadeíta y los ajuares funerarios reales de la selva.",
+      "floor": 1,
+      "featured_pieces": ["mascara-calakmul"],
+      "coords": { "x": 78, "y": 60 },
+      "pieces_info": [
+        {
+          "poi_id": "mascara-calakmul",
+          "title": "Máscara Funeraria de Calakmul",
+          "is_premium": true,
+          "estimated_minutes": 8,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/M%C3%A1scara_de_Calakmul.jpg/800px-M%C3%A1scara_de_Calakmul.jpg",
+          "file": "data/mna/sala-maya/mascara-calakmul.json"
+        }
+      ]
+    },
+    {
+      "id": "sala-origenes",
+      "name": "Sala Introducción y Orígenes",
+      "culture": "Olmeca y Culturas Preclásicas",
+      "tags": ["origenes", "olmeca", "monumental"],
+      "short_description": "La cultura madre mesoamericana y las imponentes cabezas colosales de basalto.",
+      "floor": 1,
+      "featured_pieces": ["cabeza-olmeca"],
+      "coords": { "x": 22, "y": 60 },
+      "pieces_info": [
+        {
+          "poi_id": "cabeza-olmeca",
+          "title": "Cabeza Colosal Olmeca (San Lorenzo)",
+          "is_premium": false,
+          "estimated_minutes": 8,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cabeza_Colosal_n.%C2%BA_6_de_San_Lorenzo.jpg/1200px-Cabeza_Colosal_n.%C2%BA_6_de_San_Lorenzo.jpg",
+          "file": "data/mna/sala-origenes/cabeza-olmeca.json"
+        }
+      ]
+    },
+    {
+      "id": "patio-central",
+      "name": "Patio Central y Fuente El Paraguas",
+      "culture": "Arquitectura Mexicana Contemporánea",
+      "tags": ["monumental", "obras maestras"],
+      "short_description": "La imponente columna de bronce labrado y cascada invertida diseñada por Pedro Ramírez Vázquez.",
+      "floor": 1,
+      "featured_pieces": [],
+      "coords": { "x": 50, "y": 52 },
+      "pieces_info": []
+    },
+    {
+      "id": "sala-tolteca",
+      "name": "Sala Tolteca y Epiclásico",
+      "culture": "Tolteca • Altiplano Central",
+      "tags": ["monumental", "mexica"],
+      "short_description": "Los atlantes colosales de Tula y el arte bélico que inspiró la estética mexica.",
+      "floor": 1,
+      "featured_pieces": [],
+      "coords": { "x": 22, "y": 38 },
+      "pieces_info": []
+    },
+    {
+      "id": "sala-oaxaca",
+      "name": "Sala Oaxaca (Zapoteca y Mixteca)",
+      "culture": "Zapoteca y Mixteca",
+      "tags": ["misticismo", "origenes"],
+      "short_description": "Las urnas funerarias de Monte Albán y la prodigiosa orfebrería mixteca.",
+      "floor": 1,
+      "featured_pieces": [],
+      "coords": { "x": 78, "y": 38 },
+      "pieces_info": []
+    }
+  ],
   "routes": [
     {
       "id": "ruta-monumental",
-      "name": "Obras Monumentales",
+      "name": "Obras Monumentales del MNA",
       "duration": "45 min",
-      "description": "Recorrido por las piezas cumbre de la escultura y cosmogonía mexica en el corazón del museo.",
+      "description": "Recorrido por las piezas cumbre de la escultura y cosmogonía mesoamericana en las salas principales.",
       "stops": [
+        {
+          "poi_id": "cabeza-olmeca",
+          "title": "Cabeza Colosal Olmeca",
+          "room_zone": "Sala Introducción y Orígenes",
+          "file": "data/mna/sala-origenes/cabeza-olmeca.json",
+          "map_coords": { "x": 22, "y": 60 },
+          "estimated_minutes": 8,
+          "tags": ["origenes", "olmeca", "monumental"],
+          "room_id": "sala-origenes",
+          "ranking": 1
+        },
         {
           "poi_id": "piedra-del-sol",
           "title": "Piedra del Sol (Calendario Azteca)",
           "room_zone": "Sala Mexica",
           "file": "data/mna/sala-mexica/piedra-del-sol.json",
-          "map_coords": { "x": 50, "y": 24 }
+          "map_coords": { "x": 50, "y": 18 },
+          "estimated_minutes": 8,
+          "tags": ["mexica", "monumental", "tenochtitlan", "misticismo"],
+          "room_id": "sala-mexica",
+          "ranking": 1
         },
         {
           "poi_id": "coatlicue",
           "title": "Monolito de Coatlicue",
           "room_zone": "Sala Mexica",
           "file": "data/mna/sala-mexica/coatlicue.json",
-          "map_coords": { "x": 38, "y": 38 }
+          "map_coords": { "x": 42, "y": 24 },
+          "estimated_minutes": 10,
+          "tags": ["mexica", "monumental", "misticismo", "dioses"],
+          "room_id": "sala-mexica",
+          "ranking": 2
+        },
+        {
+          "poi_id": "mascara-calakmul",
+          "title": "Máscara Funeraria de Calakmul",
+          "room_zone": "Sala Maya",
+          "file": "data/mna/sala-maya/mascara-calakmul.json",
+          "map_coords": { "x": 78, "y": 60 },
+          "estimated_minutes": 8,
+          "tags": ["maya", "misticismo", "monumental"],
+          "room_id": "sala-maya",
+          "ranking": 2
         }
       ]
     },
     {
       "id": "visita-relampago",
-      "name": "Visita Relámpago",
-      "duration": "20 min",
-      "description": "Itinerario exprés con los hitos imprescindibles que no te puedes perder si tienes poco tiempo.",
+      "name": "Visita Relámpago (Top Highlights)",
+      "duration": "25 min",
+      "description": "Itinerario exprés con los dos tesoros indiscutibles que todo visitante debe conocer.",
       "stops": [
         {
           "poi_id": "piedra-del-sol",
           "title": "Piedra del Sol (Calendario Azteca)",
           "room_zone": "Sala Mexica",
           "file": "data/mna/sala-mexica/piedra-del-sol.json",
-          "map_coords": { "x": 50, "y": 24 }
+          "map_coords": { "x": 50, "y": 18 },
+          "estimated_minutes": 8,
+          "tags": ["mexica", "monumental", "tenochtitlan"],
+          "room_id": "sala-mexica",
+          "ranking": 1
         },
         {
           "poi_id": "coatlicue",
           "title": "Monolito de Coatlicue",
           "room_zone": "Sala Mexica",
           "file": "data/mna/sala-mexica/coatlicue.json",
-          "map_coords": { "x": 38, "y": 38 }
+          "map_coords": { "x": 42, "y": 24 },
+          "estimated_minutes": 10,
+          "tags": ["mexica", "monumental", "misticismo"],
+          "room_id": "sala-mexica",
+          "ranking": 2
         }
       ]
     }

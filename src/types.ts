@@ -17,12 +17,37 @@ export interface MapCoords {
   y: number; // 0 to 100 percentage
 }
 
+export interface RoomPieceSummary {
+  poi_id: string;
+  title: string;
+  is_premium: boolean;
+  estimated_minutes: number;
+  thumbnail: string;
+  file: string;
+}
+
+export interface Room {
+  id: string;
+  name: string;
+  culture: string;
+  tags: string[];
+  short_description: string;
+  floor: number;
+  featured_pieces: string[];
+  coords?: MapCoords;
+  pieces_info?: RoomPieceSummary[];
+}
+
 export interface RouteStop {
   poi_id: string;
   title: string;
   room_zone: string;
   file: string;
   map_coords?: MapCoords;
+  estimated_minutes?: number;
+  tags?: string[];
+  room_id?: string;
+  ranking?: number;
 }
 
 export interface SiteRoute {
@@ -31,6 +56,7 @@ export interface SiteRoute {
   duration: string;
   description: string;
   stops: RouteStop[];
+  is_custom?: boolean;
 }
 
 export interface SiteManifest {
@@ -39,6 +65,7 @@ export interface SiteManifest {
   pass_price_mxn: number;
   pass_price_usd: number;
   floorplan_url?: string;
+  rooms?: Room[];
   routes: SiteRoute[];
 }
 
@@ -66,6 +93,8 @@ export interface FaqItem {
 export interface PieceData {
   poi_id: string;
   is_premium: boolean;
+  estimated_minutes?: number;
+  tags?: string[];
   identification: {
     title: string;
     culture_period: string;

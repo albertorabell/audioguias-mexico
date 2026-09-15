@@ -4,48 +4,179 @@
   "pass_price_mxn": 79,
   "pass_price_usd": 4.99,
   "floorplan_url": "data/teotihuacan/teotihuacan-map.svg",
+  "rooms": [
+    {
+      "id": "piramide-sol",
+      "name": "Pirámide del Sol",
+      "culture": "Teotihuacana • Clásico",
+      "tags": ["piramides", "astronomia", "monumental", "calzada"],
+      "short_description": "La montaña artificial colosal de 65 metros erigida sobre cuevas míticas sagradas.",
+      "floor": 1,
+      "featured_pieces": ["piramide-del-sol"],
+      "coords": { "x": 68, "y": 42 },
+      "pieces_info": [
+        {
+          "poi_id": "piramide-del-sol",
+          "title": "Pirámide del Sol",
+          "is_premium": false,
+          "estimated_minutes": 12,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pir%C3%A1mide_del_Sol%2C_Teotihuac%C3%A1n%2C_M%C3%A9xico%2C_2013-10-12%2C_DD_14.JPG/1280px-Pir%C3%A1mide_del_Sol%2C_Teotihuac%C3%A1n%2C_M%C3%A9xico%2C_2013-10-12%2C_DD_14.JPG",
+          "file": "data/teotihuacan/calzada-muertos/piramide-del-sol.json"
+        }
+      ]
+    },
+    {
+      "id": "la-ciudadela",
+      "name": "La Ciudadela y Templo de Quetzalcóatl",
+      "culture": "Teotihuacana • Clásico",
+      "tags": ["murales", "sacerdotes", "piramides", "misticismo"],
+      "short_description": "El templo donde la Serpiente Emplumada emerge entre olas marinas y sacrificios sagrados.",
+      "floor": 1,
+      "featured_pieces": ["templo-serpiente"],
+      "coords": { "x": 50, "y": 84 },
+      "pieces_info": [
+        {
+          "poi_id": "templo-serpiente",
+          "title": "Templo de la Serpiente Emplumada",
+          "is_premium": true,
+          "estimated_minutes": 10,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Temple_of_the_Feathered_Serpent%2C_Teotihuacan_2.jpg/1280px-Temple_of_the_Feathered_Serpent%2C_Teotihuacan_2.jpg",
+          "file": "data/teotihuacan/calzada-muertos/templo-serpiente.json"
+        }
+      ]
+    },
+    {
+      "id": "piramide-luna",
+      "name": "Pirámide de la Luna y Plaza Ceremonial",
+      "culture": "Teotihuacana • Clásico",
+      "tags": ["piramides", "astronomia", "calzada"],
+      "short_description": "El vértice norte de la metrópoli consagrado a las lluvias y la Gran Diosa.",
+      "floor": 1,
+      "featured_pieces": ["piramide-de-la-luna"],
+      "coords": { "x": 50, "y": 14 },
+      "pieces_info": [
+        {
+          "poi_id": "piramide-de-la-luna",
+          "title": "Pirámide de la Luna y Plaza Ceremonial",
+          "is_premium": false,
+          "estimated_minutes": 10,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pyramid_of_the_Moon%2C_Teotihuacan%2C_Mexico%2C_2013-10-12%2C_DD_26.JPG/1280px-Pyramid_of_the_Moon%2C_Teotihuacan%2C_Mexico%2C_2013-10-12%2C_DD_26.JPG",
+          "file": "data/teotihuacan/calzada-muertos/piramide-de-la-luna.json"
+        }
+      ]
+    },
+    {
+      "id": "palacio-quetzalpapalotl",
+      "name": "Palacio de Quetzalpapálotl",
+      "culture": "Teotihuacana • Clásico Tardío",
+      "tags": ["murales", "sacerdotes", "astronomia"],
+      "short_description": "El palacio sacerdotal con columnas talladas de mariposas y murales polícromos.",
+      "floor": 1,
+      "featured_pieces": ["palacio-quetzalpapalotl"],
+      "coords": { "x": 34, "y": 24 },
+      "pieces_info": [
+        {
+          "poi_id": "palacio-quetzalpapalotl",
+          "title": "Palacio de Quetzalpapálotl y Murales",
+          "is_premium": true,
+          "estimated_minutes": 8,
+          "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Palacio_de_Quetzalpap%C3%A1lotl_01.jpg/1280px-Palacio_de_Quetzalpap%C3%A1lotl_01.jpg",
+          "file": "data/teotihuacan/calzada-muertos/palacio-quetzalpapalotl.json"
+        }
+      ]
+    },
+    {
+      "id": "calzada-muertos",
+      "name": "Calzada de los Muertos",
+      "culture": "Teotihuacana • Clásico",
+      "tags": ["calzada", "astronomia", "monumental"],
+      "short_description": "La gran avenida procesional de 4 kilómetros que vertebra la cosmogonía de la urbe.",
+      "floor": 1,
+      "featured_pieces": [],
+      "coords": { "x": 50, "y": 48 },
+      "pieces_info": []
+    }
+  ],
   "routes": [
     {
       "id": "eje-sagrado",
       "name": "Eje Sagrado y Cosmología",
-      "duration": "45 min",
-      "description": "Una inmersión espiritual y arquitectónica recorriendo los monumentos colosales del Valle de Teotihuacán.",
+      "duration": "50 min",
+      "description": "Una inmersión espiritual y astronómica recorriendo los cuatro grandes monumentos de la metrópoli.",
       "stops": [
+        {
+          "poi_id": "piramide-de-la-luna",
+          "title": "Pirámide de la Luna",
+          "room_zone": "Plaza de la Luna",
+          "file": "data/teotihuacan/calzada-muertos/piramide-de-la-luna.json",
+          "map_coords": { "x": 50, "y": 14 },
+          "estimated_minutes": 10,
+          "tags": ["piramides", "astronomia", "calzada"],
+          "room_id": "piramide-luna",
+          "ranking": 1
+        },
+        {
+          "poi_id": "palacio-quetzalpapalotl",
+          "title": "Palacio de Quetzalpapálotl",
+          "room_zone": "Oeste de Plaza de la Luna",
+          "file": "data/teotihuacan/calzada-muertos/palacio-quetzalpapalotl.json",
+          "map_coords": { "x": 34, "y": 24 },
+          "estimated_minutes": 8,
+          "tags": ["murales", "sacerdotes"],
+          "room_id": "palacio-quetzalpapalotl",
+          "ranking": 2
+        },
         {
           "poi_id": "piramide-del-sol",
           "title": "Pirámide del Sol",
           "room_zone": "Calzada de los Muertos",
           "file": "data/teotihuacan/calzada-muertos/piramide-del-sol.json",
-          "map_coords": { "x": 68, "y": 45 }
+          "map_coords": { "x": 68, "y": 42 },
+          "estimated_minutes": 12,
+          "tags": ["piramides", "astronomia", "calzada", "monumental"],
+          "room_id": "piramide-sol",
+          "ranking": 1
         },
         {
           "poi_id": "templo-serpiente",
           "title": "Templo de la Serpiente Emplumada",
           "room_zone": "La Ciudadela",
           "file": "data/teotihuacan/calzada-muertos/templo-serpiente.json",
-          "map_coords": { "x": 50, "y": 84 }
+          "map_coords": { "x": 50, "y": 84 },
+          "estimated_minutes": 10,
+          "tags": ["murales", "sacerdotes", "piramides"],
+          "room_id": "la-ciudadela",
+          "ranking": 2
         }
       ]
     },
     {
       "id": "visita-relampago",
-      "name": "Visita Relámpago",
-      "duration": "20 min",
-      "description": "Puntos clave de la Calzada de los Muertos y la Ciudadela para una exploración concisa.",
+      "name": "Visita Relámpago (Top Highlights)",
+      "duration": "25 min",
+      "description": "Los dos colosos imprescindibles: la Pirámide del Sol y el Templo de Quetzalcóatl.",
       "stops": [
         {
           "poi_id": "piramide-del-sol",
           "title": "Pirámide del Sol",
           "room_zone": "Calzada de los Muertos",
           "file": "data/teotihuacan/calzada-muertos/piramide-del-sol.json",
-          "map_coords": { "x": 68, "y": 45 }
+          "map_coords": { "x": 68, "y": 42 },
+          "estimated_minutes": 12,
+          "tags": ["piramides", "astronomia", "calzada"],
+          "room_id": "piramide-sol",
+          "ranking": 1
         },
         {
           "poi_id": "templo-serpiente",
           "title": "Templo de la Serpiente Emplumada",
           "room_zone": "La Ciudadela",
           "file": "data/teotihuacan/calzada-muertos/templo-serpiente.json",
-          "map_coords": { "x": 50, "y": 84 }
+          "map_coords": { "x": 50, "y": 84 },
+          "estimated_minutes": 10,
+          "tags": ["murales", "sacerdotes", "piramides"],
+          "room_id": "la-ciudadela",
+          "ranking": 2
         }
       ]
     }

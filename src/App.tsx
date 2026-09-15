@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { SiteSummary, SiteManifest, SiteRoute, PieceData, SiteLicense } from './types';
+import { SiteSummary, SiteManifest, SiteRoute, RouteStop, PieceData, SiteLicense } from './types';
 import { getSiteLicense, activatePass, revokePass, hasActivePass } from './utils/license';
 import { SiteSelector } from './components/SiteSelector';
+import { RouteWizard } from './components/RouteWizard';
 import { Navbar } from './components/Navbar';
 import { PieceView } from './components/PieceView';
 import { BottomNav } from './components/BottomNav';
@@ -14,7 +15,8 @@ import { useTheme } from './utils/ThemeContext';
 export default function App() {
   const { isSunMode } = useTheme();
 
-  // Navigation State
+  // Navigation & View State
+  const [viewMode, setViewMode] = useState<'sites' | 'wizard' | 'tour'>('sites');
   const [sites, setSites] = useState<SiteSummary[]>([]);
   const [selectedSite, setSelectedSite] = useState<SiteSummary | null>(null);
   const [manifest, setManifest] = useState<SiteManifest | null>(null);
@@ -72,7 +74,7 @@ export default function App() {
     }
   }, [selectedSite]);
 
-  // 2. When a site is selected, load its manifest
+  // 2. When a site is selected, load its manifest and launch Wizard (Diseña tu Recorrido)
   const handleSelectSite = async (site: SiteSummary) => {
     setSelectedSite(site);
     setIsLoadingPiece(true);
@@ -89,22 +91,35 @@ export default function App() {
       const manifestData: SiteManifest = await res.json();
       setManifest(manifestData);
 
-      // Default to first route and first stop
-      if (manifestData.routes && manifestData.routes.length > 0) {
-        const initialRoute = manifestData.routes[0];
-        setActiveRoute(initialRoute);
-        setCurrentStopIndex(0);
-
-        if (initialRoute.stops && initialRoute.stops.length > 0) {
-          await loadPieceData(initialRoute.stops[0].file);
-        }
-      }
+      // Open the Route Wizard intermediate screen
+      setViewMode('wizard');
     } catch (err) {
       console.error('Error loading site manifest:', err);
       setErrorMessage('No se pudo cargar el recorrido de este sitio.');
+      setSelectedSite(null);
+      setViewMode('sites');
     } finally {
       setIsLoadingPiece(false);
     }
+  };
+
+  // Start tour from generated or selected route in Wizard
+  const handleStartRouteFromWizard = async (chosenRoute: SiteRoute) => {
+    setActiveRoute(chosenRoute);
+    setCurrentStopIndex(0);
+    setViewMode('tour');
+
+    if (chosenRoute.stops && chosenRoute.stops.length > 0) {
+      await loadPieceData(chosenRoute.stops[0].file);
+    }
+  };
+
+  // Helper to re-open Wizard from within the tour
+  const handleOpenWizard = () => {
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+    setViewMode('wizard');
   };
 
   // Helper to load piece data
@@ -127,7 +142,7 @@ export default function App() {
     }
   };
 
-  // Handle route change
+  // Handle route change from classic modal
   const handleSelectRoute = async (routeId: string) => {
     if (!manifest) return;
     const foundRoute = manifest.routes.find((r) => r.id === routeId);
@@ -140,11 +155,23 @@ export default function App() {
     }
   };
 
-  // Handle selecting a specific stop in modal
+  // Handle selecting a specific stop in modal or map
   const handleSelectStop = async (stopIndex: number) => {
     if (!activeRoute || stopIndex < 0 || stopIndex >= activeRoute.stops.length) return;
     setCurrentStopIndex(stopIndex);
     await loadPieceData(activeRoute.stops[stopIndex].file);
+  };
+
+  // Add a piece stop to current route
+  const handleAddStopToRoute = (newStop: RouteStop) => {
+    if (!activeRoute) return;
+    if (activeRoute.stops.some((s) => s.poi_id === newStop.poi_id)) return;
+
+    const updatedRoute: SiteRoute = {
+      ...activeRoute,
+      stops: [...activeRoute.stops, newStop],
+    };
+    setActiveRoute(updatedRoute);
   };
 
   // Handle next stop button
@@ -174,6 +201,7 @@ export default function App() {
     setActiveRoute(null);
     setCurrentPiece(null);
     setCurrentStopIndex(0);
+    setViewMode('sites');
   };
 
   // Pass simulation testing
@@ -228,14 +256,22 @@ export default function App() {
         )}
 
         {/* View 1: Site Selector (Home screen) */}
-        {!selectedSite ? (
+        {!selectedSite || viewMode === 'sites' ? (
           <SiteSelector
             sites={sites}
             onSelectSite={handleSelectSite}
             isLoading={isLoadingSites}
           />
+        ) : viewMode === 'wizard' && manifest ? (
+          /* View 2: Asistente Inteligente de Recorrido Personalizado */
+          <RouteWizard
+            site={selectedSite}
+            manifest={manifest}
+            onBack={handleBackToSites}
+            onStartRoute={handleStartRouteFromWizard}
+          />
         ) : (
-          /* View 2: Sala / Route Tour view */
+          /* View 3: Sala / Route Tour view */
           <div className="flex-1 flex flex-col relative">
             {/* Top Navbar */}
             <Navbar
@@ -317,6 +353,7 @@ export default function App() {
             onSelectRoute={handleSelectRoute}
             onSelectStop={handleSelectStop}
             currentStopIndex={currentStopIndex}
+            onOpenWizard={handleOpenWizard}
           />
         )}
 
@@ -337,7 +374,7 @@ export default function App() {
           />
         )}
 
-        {/* Interactive Map & Floorplan Modal */}
+        {/* Interactive Architectural Map & Floorplan Modal (Mapa Pro) */}
         {selectedSite && activeRoute && (
           <MapViewModal
             isOpen={isMapModalOpen}
@@ -347,12 +384,22 @@ export default function App() {
             routeName={activeRoute.name}
             stops={activeRoute.stops}
             currentStopIndex={currentStopIndex}
+            rooms={manifest?.rooms || []}
             onSelectStop={(stopIdx) => {
               handleSelectStop(stopIdx);
             }}
+            onOpenPieceFile={async (filePath) => {
+              const idx = activeRoute.stops.findIndex((s) => s.file === filePath);
+              if (idx !== -1) {
+                setCurrentStopIndex(idx);
+              }
+              await loadPieceData(filePath);
+            }}
+            onAddStopToRoute={handleAddStopToRoute}
           />
         )}
       </div>
     </div>
   );
 }
+

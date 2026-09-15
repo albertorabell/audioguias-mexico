@@ -1,0 +1,51 @@
+{
+  "poi_id": "palacio-quetzalpapalotl",
+  "is_premium": true,
+  "estimated_minutes": 8,
+  "tags": ["murales", "sacerdotes", "astronomia"],
+  "identification": {
+    "title": "Palacio de Quetzalpapálotl y Murales",
+    "culture_period": "Teotihuacana / Clásico Tardío (450–550 d.C.)",
+    "room_zone": "Suroeste de la Plaza de la Luna, Zona Arqueológica Teotihuacán",
+    "tags": ["murales", "sacerdotes", "Quetzalpapálotl", "Palacio"],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Palacio_de_Quetzalpap%C3%A1lotl_01.jpg/1280px-Palacio_de_Quetzalpap%C3%A1lotl_01.jpg"
+  },
+  "narrative": {
+    "one_liner": "El fastuoso laberinto de columnas talladas y patios porticados donde residía la élite sacerdotal de Teotihuacán.",
+    "short_desc": "Conocido como 'Mariposa Preciosa' o 'Mariposa Emplumada', este palacio techado preserva pilastras de piedra con bajorrelieves policromados e incrustaciones de obsidiana en los ojos de las aves míticas.",
+    "deep_desc": "El Palacio de Quetzalpapálotl era la residencia y tribunal de justicia de los supremos sacerdotes que gobernaban la metrópoli. Organizado en torno a un patio interior o 'impluvium' que captaba la luz cenital y el agua de lluvia a través de canales de drenaje subterráneos, el palacio destaca por sus columnas de piedra talladas con la figura de una criatura híbrida: cuerpo de quetzal y alas de mariposa, símbolo del alma guerrera ascendiendo al cielo solar. En las cámaras contiguas se hallan frescos murales intactos como el Palacio de los Jaguares y el Subterráneo de los Caracoles Emplumados con trompetas marinas labradas."
+  },
+  "audioguide": {
+    "audio_script": "Ingresa bajo las vigas de madera restauradas al patio interior de Quetzalpapálotl. Nota el silencio y la sombra fresca que contrasta con el calor exterior de la Calzada. Mira las pilastras de piedra que rodean el patio: están talladas de perfil con la mítica 'mariposa-quetzal'. Fíjate en los pequeños orificios en sus ojos: originalmente albergaban pupilas de brillante obsidiana negra pulida que destellaban con la luz del mediodía. En los almenajes del techo, discos de piedra con símbolos de agua y fuego coronaban las residencias de los sacerdotes astrónomos que interpretaban el movimiento de las estrellas.",
+    "audio_file_url": ""
+  },
+  "visual_challenge": [
+    {
+      "id": "ch-qp-1",
+      "title": "Ojos de obsidiana",
+      "clue": "Encuentra las pilastras donde aún se conservan las incrustaciones de vidrio volcánico negro en los ojos del ave."
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-qp-1",
+      "fact": "Debajo del palacio los arqueólogos encontraron un templo anterior completamente decorado con trompetas de caracol con boquilla musical."
+    }
+  ],
+  "specs": [
+    {
+      "label": "Función",
+      "value": "Residencia palaciega y centro ritual de la élite"
+    },
+    {
+      "label": "Iconografía",
+      "value": "Mariposa-Quetzal, agua preciosa, discos solares"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué significa Quetzalpapálotl?",
+      "answer": "Proviene de las raíces náhuatl 'quetzalli' (pluma verde preciosa) y 'papálotl' (mariposa)."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "poi_id": "carruaje-maximiliano",
+  "is_premium": true,
+  "estimated_minutes": 8,
+  "tags": ["carruajes", "alcazar", "imperial", "batallas"],
+  "identification": {
+    "title": "Carruaje de Gala de Maximiliano y Carlota",
+    "culture_period": "Segundo Imperio Mexicano / Barroco Tardío Imperial (1864)",
+    "room_zone": "Salas del Carruaje, Museo Nacional de Historia Castillo de Chapultepec",
+    "tags": ["carruajes", "imperial", "Maximiliano", "oro", "Cesare Scala"],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Carruaje_de_gala_de_Maximiliano.JPG/1280px-Carruaje_de_gala_de_Maximiliano.JPG"
+  },
+  "narrative": {
+    "one_liner": "La deslumbrante carroza de cuento de hadas bañada en oro de 24 quilates mandada fabricar en Milán para los emperadores.",
+    "short_desc": "Diseñada por el afamado ebanista italiano Cesare Scala en Milán, esta opulenta carroza rococó con querubines tallados y terciopelo carmesí personifica el fausto de las cortes reales europeas en suelo americano.",
+    "deep_desc": "Mientras Benito Juárez recorría el país en una austera carroza negra defendiendo la República, Maximiliano de Habsburgo encargó este vehículo triunfal que competía en esplendor con las carrozas de los zares de Rusia o los reyes de Inglaterra. La carroza está completamente cubierta por hojas de pan de oro, con querubines de madera tallada que sostienen guirnaldas de flores en las esquinas, y el escudo imperial con la leyenda 'Equidad en la Justicia' esmaltado en las portezuelas. Su interior está forrado en fino terciopelo de seda carmesí bordado con hilos de plata y oro."
+  },
+  "audioguide": {
+    "audio_script": "Asómbrate ante el brillo dorado de la carroza más suntuosa de América Latina. Fíjate en los cuatro querubines de madera tallada en las esquinas superiores: parecen sostener en el aire el techo tapizado. Este carruaje fue construido en Milán por orden del emperador Maximiliano para recorrer el Paseo de la Reforma. El contraste entre este carruaje y el sobrio carruaje negro de Benito Juárez resume en dos objetos la profunda batalla ideológica del siglo diecinueve mexicano entre el boato imperial europeo y la austeridad republicana.",
+    "audio_file_url": ""
+  },
+  "visual_challenge": [
+    {
+      "id": "ch-max-1",
+      "title": "El escudo imperial",
+      "clue": "Busca en la portezuela central el águila bicéfala y el lema 'Equidad en la Justicia' bordado en plata."
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-max-1",
+      "fact": "A pesar de su inmenso costo, sólo fue utilizada en un par de ocasiones oficiales debido a su enorme peso y la fragilidad del relieve de oro."
+    }
+  ],
+  "specs": [
+    {
+      "label": "Fabricante",
+      "value": "Cesare Scala, Milán, Italia"
+    },
+    {
+      "label": "Acabado",
+      "value": "Pan de oro de 24k, seda, bronce cincelado"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Quién tiraba de esta carroza?",
+      "answer": "Un tiro ceremonial de seis caballos blancos de pura sangre con arneses de cuero y plata."
+    }
+  ]
+}

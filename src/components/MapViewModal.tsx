@@ -1,6 +1,19 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { X, ZoomIn, ZoomOut, RotateCcw, MapPin, Check, Navigation, Sparkles, ChevronRight } from 'lucide-react';
-import { RouteStop } from '../types';
+import {
+  X,
+  ZoomIn,
+  ZoomOut,
+  RotateCcw,
+  Navigation,
+  Sparkles,
+  ChevronRight,
+  Headphones,
+  Plus,
+  Check,
+  Clock,
+  Layers,
+} from 'lucide-react';
+import { RouteStop, Room, RoomPieceSummary } from '../types';
 import { VenueFloorplan } from './VenueFloorplan';
 import { SafeImage } from './SafeImage';
 import { useTheme } from '../utils/ThemeContext';
@@ -14,6 +27,9 @@ interface MapViewModalProps {
   stops: RouteStop[];
   currentStopIndex: number;
   onSelectStop: (stopIndex: number) => void;
+  rooms?: Room[];
+  onOpenPieceFile?: (filePath: string) => void;
+  onAddStopToRoute?: (stop: RouteStop) => void;
 }
 
 export const MapViewModal: React.FC<MapViewModalProps> = ({
@@ -25,6 +41,9 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
   stops,
   currentStopIndex,
   onSelectStop,
+  rooms = [],
+  onOpenPieceFile,
+  onAddStopToRoute,
 }) => {
   const { isSunMode } = useTheme();
 
@@ -36,14 +55,23 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
   const dragStartRef = useRef({ x: 0, y: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Sync selected pin with active stop when modal opens
+  // Room Inspection Bottom Sheet Drawer State
+  const [selectedRoomId, setSelectedRoomId] = useState<string | null>(null);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+  const [addedPoiMap, setAddedPoiMap] = useState<Record<string, boolean>>({});
+
+  // When modal opens, match selected pin and room to active stop
   useEffect(() => {
     if (isOpen) {
       setSelectedPinIndex(currentStopIndex);
       setScale(1);
       setPan({ x: 0, y: 0 });
+      const activeStop = stops[currentStopIndex];
+      if (activeStop?.room_id) {
+        setSelectedRoomId(activeStop.room_id);
+      }
     }
-  }, [isOpen, currentStopIndex]);
+  }, [isOpen, currentStopIndex, stops]);
 
   if (!isOpen) return null;
 
@@ -54,10 +82,9 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
     setPan({ x: 0, y: 0 });
   };
 
-  // Mouse drag handlers
+  // Drag handlers
   const handleMouseDown = (e: React.MouseEvent) => {
-    // Only drag if not clicking a button/pin
-    if ((e.target as HTMLElement).closest('button')) return;
+    if ((e.target as HTMLElement).closest('button, .group, input')) return;
     setIsDragging(true);
     dragStartRef.current = { x: e.clientX - pan.x, y: e.clientY - pan.y };
   };
@@ -72,9 +99,8 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
 
   const handleMouseUp = () => setIsDragging(false);
 
-  // Touch drag handlers
   const handleTouchStart = (e: React.TouchEvent) => {
-    if ((e.target as HTMLElement).closest('button')) return;
+    if ((e.target as HTMLElement).closest('button, .group, input')) return;
     if (e.touches.length === 1) {
       setIsDragging(true);
       dragStartRef.current = {
@@ -94,18 +120,70 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
 
   const handleTouchEnd = () => setIsDragging(false);
 
+  // Room selection handler (Click to Inspect)
+  const handleSelectRoom = (roomId: string) => {
+    setSelectedRoomId(roomId);
+    setIsDrawerOpen(true);
+
+    // Also see if any stop in route is in this room
+    const matchingStopIdx = stops.findIndex(
+      (s) => s.room_id === roomId || s.room_zone.toLowerCase().includes(roomId.replace('sala-', ''))
+    );
+    if (matchingStopIdx !== -1) {
+      setSelectedPinIndex(matchingStopIdx);
+    }
+  };
+
+  // Pin click handler
+  const handleSelectPin = (stopIndex: number) => {
+    setSelectedPinIndex(stopIndex);
+    const stop = stops[stopIndex];
+    if (stop?.room_id) {
+      setSelectedRoomId(stop.room_id);
+      setIsDrawerOpen(true);
+    }
+  };
+
+  // Get inspected room details
+  const inspectedRoom = rooms.find((r) => r.id === selectedRoomId);
   const selectedStop = stops[selectedPinIndex] || stops[currentStopIndex] || null;
+
+  // Handle adding piece to route
+  const handleAddPiece = (piece: RoomPieceSummary, room: Room) => {
+    if (onAddStopToRoute) {
+      const newStop: RouteStop = {
+        poi_id: piece.poi_id,
+        title: piece.title,
+        room_zone: room.name,
+        file: piece.file,
+        map_coords: room.coords || { x: 50, y: 50 },
+        estimated_minutes: piece.estimated_minutes || 8,
+        room_id: room.id,
+        ranking: piece.is_premium ? 2 : 1,
+      };
+      onAddStopToRoute(newStop);
+      setAddedPoiMap((prev) => ({ ...prev, [piece.poi_id]: true }));
+    }
+  };
+
+  // Handle opening a piece in tour
+  const handleStartPieceAudio = (pieceFile: string) => {
+    if (onOpenPieceFile) {
+      onOpenPieceFile(pieceFile);
+      onClose();
+    }
+  };
 
   return (
     <div
       id="modal-interactive-map"
-      className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex flex-col justify-between animate-in fade-in duration-200 select-none overflow-hidden"
+      className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex flex-col justify-between select-none overflow-hidden"
     >
       {/* Top Bar */}
       <header
         className={`px-4 py-3 border-b flex items-center justify-between gap-3 z-30 transition-colors duration-200 ${
           isSunMode
-            ? 'bg-white/95 border-stone-300 text-stone-900 shadow-xs'
+            ? 'bg-white/95 border-stone-300 text-stone-900 shadow-sm'
             : 'bg-stone-950/95 border-stone-800 text-stone-100'
         }`}
       >
@@ -121,10 +199,10 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
           </div>
           <div className="truncate">
             <h3 className={`text-sm font-extrabold truncate ${isSunMode ? 'text-stone-950' : 'text-white'}`}>
-              Plano de {siteName}
+              Plano Arquitectónico • {siteName}
             </h3>
             <p className={`text-[11px] font-medium truncate ${isSunMode ? 'text-stone-600' : 'text-stone-400'}`}>
-              {routeName} • {stops.length} paradas en mapa
+              {routeName} • {stops.length} paradas • Toca cualquier sala para inspeccionar
             </p>
           </div>
         </div>
@@ -151,7 +229,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
         className={`flex-1 relative overflow-hidden flex items-center justify-center cursor-grab active:cursor-grabbing ${
-          isSunMode ? 'bg-[#ECE5DB]' : 'bg-[#0E0E10]'
+          isSunMode ? 'bg-[#ECE5DB]' : 'bg-[#0B0D12]'
         }`}
       >
         {/* Floating Zoom Controls Top-Right */}
@@ -200,175 +278,267 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
           </div>
         </div>
 
-        {/* Map Legend Floating Pill Top-Left */}
-        <div className="absolute top-4 left-4 z-20 hidden xs:flex items-center gap-3 px-3 py-1.5 rounded-full backdrop-blur-md text-[11px] font-bold border shadow-md bg-stone-900/80 text-stone-200 border-stone-800">
+        {/* Map Legend Top-Left */}
+        <div className="absolute top-4 left-4 z-20 flex items-center gap-2 px-3 py-1.5 rounded-full backdrop-blur-md text-[11px] font-bold border shadow-md bg-stone-900/85 text-stone-200 border-stone-800">
           <span className="flex items-center gap-1 text-amber-400">
             <span className="w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse" />
-            Actual
+            Paradas de ruta
           </span>
-          <span className="flex items-center gap-1 text-emerald-400">
-            <span className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
-            Completada
-          </span>
-          <span className="flex items-center gap-1 text-stone-400">
-            <span className="w-2.5 h-2.5 rounded-full bg-stone-600" />
-            Pendiente
+          <span className="text-stone-500">•</span>
+          <span className="text-stone-300">
+            {isSunMode ? 'Modo Cantera' : 'Modo Blueprint'}
           </span>
         </div>
 
-        {/* Zoomable / Pannable Floorplan Container */}
+        {/* Interactive Floorplan Container */}
         <div
-          className="relative max-w-[760px] w-[92vw] aspect-[4/3] max-h-[62vh] transition-transform duration-150 ease-out"
+          className="relative max-w-[800px] w-[94vw] aspect-[4/3] max-h-[64vh] transition-transform duration-150 ease-out"
           style={{
             transform: `translate(${pan.x}px, ${pan.y}px) scale(${scale})`,
             transformOrigin: 'center center',
           }}
         >
-          {/* Architectural Floorplan Vector */}
-          <VenueFloorplan siteId={siteId} />
-
-          {/* Interactive Route Stop Pins */}
-          {stops.map((stop, idx) => {
-            const coords = stop.map_coords || { x: 50, y: 50 };
-            const isActive = idx === currentStopIndex;
-            const isCompleted = idx < currentStopIndex;
-            const isSelected = idx === selectedPinIndex;
-
-            return (
-              <div
-                key={stop.poi_id}
-                style={{
-                  position: 'absolute',
-                  left: `${coords.x}%`,
-                  top: `${coords.y}%`,
-                  transform: 'translate(-50%, -50%)',
-                }}
-                className="z-20"
-              >
-                {/* Concentric Pulse Rings for Active Stop */}
-                {isActive && (
-                  <>
-                    <span className="absolute -inset-2.5 rounded-full bg-amber-500 opacity-60 animate-ping pointer-events-none" />
-                    <span className="absolute -inset-4 rounded-full bg-amber-500/25 animate-pulse pointer-events-none" />
-                  </>
-                )}
-
-                {/* Pin Button (min 44px tap target) */}
-                <button
-                  id={`btn-pin-${stop.poi_id}`}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setSelectedPinIndex(idx);
-                  }}
-                  className={`min-h-[44px] min-w-[44px] flex items-center justify-center rounded-full shadow-2xl transition duration-200 active:scale-95 ${
-                    isActive
-                      ? 'bg-amber-500 text-stone-950 ring-4 ring-amber-400/50 scale-110'
-                      : isCompleted
-                      ? 'bg-emerald-600 text-white ring-2 ring-emerald-400/40 hover:scale-105'
-                      : 'bg-stone-800 text-stone-200 ring-2 ring-stone-600 hover:scale-105'
-                  } ${isSelected ? 'ring-4 ring-white shadow-amber-500/50 scale-115 z-30' : ''}`}
-                  title={`${idx + 1}. ${stop.title}`}
-                >
-                  {isCompleted ? (
-                    <Check className="w-5 h-5 stroke-[3]" />
-                  ) : (
-                    <span className="text-xs font-mono font-extrabold">{idx + 1}</span>
-                  )}
-                </button>
-
-                {/* Inline mini badge showing title on desktop/tablet */}
-                <div
-                  className={`absolute top-full left-1/2 -translate-x-1/2 mt-1 px-2 py-0.5 rounded-md text-[9px] font-bold whitespace-nowrap shadow-md pointer-events-none hidden sm:block ${
-                    isActive
-                      ? 'bg-amber-500 text-stone-950'
-                      : 'bg-stone-900/90 text-stone-200 border border-stone-800'
-                  }`}
-                >
-                  {stop.title.split('(')[0]}
-                </div>
-              </div>
-            );
-          })}
+          <VenueFloorplan
+            siteId={siteId}
+            rooms={rooms}
+            selectedRoomId={selectedRoomId}
+            onSelectRoom={handleSelectRoom}
+            stops={stops}
+            currentStopIndex={selectedPinIndex}
+            onSelectStop={handleSelectPin}
+          />
         </div>
       </div>
 
-      {/* Bottom Tooltip / Stop Preview Card (Tap to Navigate) */}
-      {selectedStop && (
-        <footer
-          className={`p-3.5 border-t z-30 transition-colors duration-200 ${
+      {/* ============================================================ */}
+      {/* BOTTOM SHEET / DRAWER: INSPECCIÓN DE SALA (CLICK TO INSPECT) */}
+      {/* ============================================================ */}
+      {isDrawerOpen && inspectedRoom ? (
+        <section
+          id="drawer-room-inspection"
+          className={`border-t z-30 transition-all duration-300 max-h-[55vh] flex flex-col shadow-2xl animate-in slide-in-from-bottom ${
             isSunMode
-              ? 'bg-white border-stone-300 text-stone-900 shadow-2xl'
-              : 'bg-stone-950 border-stone-800 text-stone-100 shadow-2xl'
+              ? 'bg-white border-stone-300 text-stone-900'
+              : 'bg-stone-950 border-stone-800 text-stone-100'
           }`}
         >
-          <div className="flex items-center justify-between gap-3 max-w-[600px] mx-auto">
-            {/* Thumbnail */}
-            <div className="w-14 h-14 rounded-xl overflow-hidden shrink-0 shadow-md">
-              <SafeImage
-                src={`data/${siteId.toLowerCase()}/${selectedStop.file.split('/').slice(-2).join('/')}`.replace(
-                  '.json',
-                  '.jpg'
-                )}
-                alt={selectedStop.title}
-                fallbackTitle={selectedStop.title}
-                className="w-full h-full"
-              />
-            </div>
-
-            {/* Info */}
-            <div className="flex-1 truncate">
-              <div className="flex items-center gap-1.5 mb-1">
-                <span
-                  className={`text-[10px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded-full border ${
-                    selectedPinIndex === currentStopIndex
-                      ? isSunMode
-                        ? 'bg-amber-100 text-amber-900 border-amber-300'
-                        : 'bg-amber-500/20 text-amber-400 border-amber-500/40'
-                      : selectedPinIndex < currentStopIndex
-                      ? 'bg-emerald-100 text-emerald-900 border-emerald-300'
-                      : isSunMode
-                      ? 'bg-stone-100 text-stone-700 border-stone-300'
-                      : 'bg-stone-900 text-stone-400 border-stone-800'
-                  }`}
-                >
-                  {selectedPinIndex === currentStopIndex
-                    ? 'Parada Actual'
-                    : selectedPinIndex < currentStopIndex
-                    ? 'Completada ✓'
-                    : `Parada ${selectedPinIndex + 1}`}
-                </span>
-                <span className={`text-[10px] truncate font-semibold ${isSunMode ? 'text-stone-600' : 'text-stone-400'}`}>
-                  {selectedStop.room_zone}
+          {/* Drawer Handle & Header */}
+          <div className="px-4 pt-3 pb-2 border-b flex items-start justify-between">
+            <div className="flex-1 pr-3">
+              <div className="w-10 h-1 rounded-full bg-stone-400/40 mx-auto mb-2.5" />
+              <div className="flex items-center gap-2">
+                <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-amber-500/10 text-amber-500 border border-amber-500/20">
+                  {inspectedRoom.culture} • {inspectedRoom.period}
                 </span>
               </div>
-
-              <h4 className={`text-xs font-extrabold truncate ${isSunMode ? 'text-stone-950' : 'text-white'}`}>
-                {selectedStop.title}
-              </h4>
+              <h4 className="text-base font-black mt-1 leading-snug">{inspectedRoom.name}</h4>
+              <p
+                className={`text-xs mt-0.5 leading-relaxed line-clamp-2 ${
+                  isSunMode ? 'text-stone-600' : 'text-stone-400'
+                }`}
+              >
+                {inspectedRoom.short_description}
+              </p>
             </div>
 
-            {/* Action Button (min 48px de altura táctil) */}
             <button
-              id={`btn-go-to-stop-${selectedStop.poi_id}`}
-              onClick={() => {
-                onSelectStop(selectedPinIndex);
-                onClose();
-              }}
-              className={`min-h-[48px] px-4 py-2.5 rounded-xl text-xs font-extrabold flex items-center gap-1.5 transition active:scale-95 shadow-md shrink-0 ${
-                selectedPinIndex === currentStopIndex
-                  ? isSunMode
-                    ? 'bg-stone-800 hover:bg-stone-900 text-white'
-                    : 'bg-stone-800 hover:bg-stone-700 text-stone-200'
-                  : isSunMode
-                  ? 'bg-amber-700 hover:bg-amber-800 text-white shadow-amber-800/20'
-                  : 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-amber-500/20'
-              }`}
+              onClick={() => setIsDrawerOpen(false)}
+              className="p-1 rounded-lg text-stone-400 hover:text-stone-200"
+              aria-label="Cerrar cajón"
             >
-              <span>{selectedPinIndex === currentStopIndex ? 'Ver detalles' : 'Ir a esta parada'}</span>
-              <ChevronRight className="w-4 h-4" />
+              <X className="w-5 h-5" />
             </button>
           </div>
-        </footer>
+
+          {/* Featured Pieces in this Room */}
+          <div className="p-4 overflow-y-auto space-y-2.5 flex-1">
+            <h5 className="text-[11px] font-black uppercase tracking-wider text-amber-500 flex items-center gap-1.5">
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>Obras destacadas en esta sala ({inspectedRoom.pieces_info?.length || 0})</span>
+            </h5>
+
+            {inspectedRoom.pieces_info && inspectedRoom.pieces_info.length > 0 ? (
+              <div className="space-y-2">
+                {inspectedRoom.pieces_info.map((piece) => {
+                  const isAlreadyInRoute = stops.some((s) => s.poi_id === piece.poi_id);
+                  const isAdded = addedPoiMap[piece.poi_id] || isAlreadyInRoute;
+
+                  return (
+                    <div
+                      key={piece.poi_id}
+                      className={`p-2.5 rounded-xl border flex items-center justify-between gap-3 transition-colors ${
+                        isSunMode
+                          ? 'bg-stone-50 border-stone-200/90 hover:border-amber-400'
+                          : 'bg-stone-900/70 border-stone-800/90 hover:border-amber-500/60'
+                      }`}
+                    >
+                      {/* Thumbnail */}
+                      <div className="w-12 h-12 rounded-lg overflow-hidden shrink-0 border border-stone-700/20 shadow-xs">
+                        <SafeImage
+                          src={piece.thumbnail}
+                          alt={piece.title}
+                          fallbackTitle={piece.title}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+
+                      {/* Info */}
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2">
+                          <span
+                            className={`text-[9px] font-extrabold uppercase px-1.5 py-0.2 rounded ${
+                              piece.is_premium
+                                ? 'bg-amber-500/20 text-amber-400'
+                                : 'bg-emerald-500/20 text-emerald-400'
+                            }`}
+                          >
+                            {piece.is_premium ? 'Premium' : 'Gratis'}
+                          </span>
+                          <span
+                            className={`text-[10px] font-medium flex items-center gap-1 ${
+                              isSunMode ? 'text-stone-500' : 'text-stone-400'
+                            }`}
+                          >
+                            <Clock className="w-3 h-3" />
+                            {piece.estimated_minutes || 8} min
+                          </span>
+                        </div>
+                        <h6 className="text-xs font-bold truncate mt-0.5">{piece.title}</h6>
+                      </div>
+
+                      {/* Actions */}
+                      <div className="flex items-center gap-1.5 shrink-0">
+                        {/* Play piece audio */}
+                        <button
+                          type="button"
+                          onClick={() => handleStartPieceAudio(piece.file)}
+                          className="px-2.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-bold flex items-center gap-1 transition active:scale-95 shadow-xs"
+                          title="Escuchar audio de esta obra"
+                        >
+                          <Headphones className="w-3.5 h-3.5" />
+                          <span>Escuchar</span>
+                        </button>
+
+                        {/* Add to route */}
+                        {!isAdded ? (
+                          <button
+                            type="button"
+                            onClick={() => handleAddPiece(piece, inspectedRoom)}
+                            className={`p-1.5 rounded-lg border text-xs font-semibold transition active:scale-95 ${
+                              isSunMode
+                                ? 'bg-white border-stone-300 text-stone-800 hover:bg-stone-100'
+                                : 'bg-stone-800 border-stone-700 text-stone-200 hover:bg-stone-700'
+                            }`}
+                            title="Agregar a mi ruta"
+                          >
+                            <Plus className="w-4 h-4" />
+                          </button>
+                        ) : (
+                          <span
+                            className="p-1.5 rounded-lg text-emerald-500 bg-emerald-500/10"
+                            title="En tu ruta"
+                          >
+                            <Check className="w-4 h-4 stroke-[3]" />
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <p
+                className={`text-xs p-3 rounded-xl border text-center ${
+                  isSunMode
+                    ? 'bg-stone-100 border-stone-200 text-stone-600'
+                    : 'bg-stone-900 border-stone-800 text-stone-400'
+                }`}
+              >
+                No hay piezas individuales registradas para esta sala.
+              </p>
+            )}
+          </div>
+        </section>
+      ) : (
+        /* Fallback: Default Active Stop Preview Footer if no room is inspected */
+        selectedStop && (
+          <footer
+            className={`p-3.5 border-t z-30 transition-colors duration-200 ${
+              isSunMode
+                ? 'bg-white border-stone-300 text-stone-900 shadow-2xl'
+                : 'bg-stone-950 border-stone-800 text-stone-100 shadow-2xl'
+            }`}
+          >
+            <div className="flex items-center justify-between gap-3 max-w-[600px] mx-auto">
+              <div className="w-14 h-14 rounded-xl overflow-hidden shrink-0 shadow-md">
+                <SafeImage
+                  src={`data/${siteId.toLowerCase()}/${selectedStop.file.split('/').slice(-2).join('/')}`.replace(
+                    '.json',
+                    '.jpg'
+                  )}
+                  alt={selectedStop.title}
+                  fallbackTitle={selectedStop.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <div className="flex-1 truncate">
+                <div className="flex items-center gap-1.5 mb-1">
+                  <span
+                    className={`text-[10px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded-full border ${
+                      selectedPinIndex === currentStopIndex
+                        ? isSunMode
+                          ? 'bg-amber-100 text-amber-900 border-amber-300'
+                          : 'bg-amber-500/20 text-amber-400 border-amber-500/40'
+                        : selectedPinIndex < currentStopIndex
+                        ? 'bg-emerald-100 text-emerald-900 border-emerald-300'
+                        : isSunMode
+                        ? 'bg-stone-100 text-stone-700 border-stone-300'
+                        : 'bg-stone-900 text-stone-400 border-stone-800'
+                    }`}
+                  >
+                    {selectedPinIndex === currentStopIndex
+                      ? 'Parada Actual'
+                      : selectedPinIndex < currentStopIndex
+                      ? 'Completada ✓'
+                      : `Parada ${selectedPinIndex + 1}`}
+                  </span>
+                  <span
+                    className={`text-[10px] truncate font-semibold ${
+                      isSunMode ? 'text-stone-600' : 'text-stone-400'
+                    }`}
+                  >
+                    {selectedStop.room_zone}
+                  </span>
+                </div>
+
+                <h4 className={`text-xs font-extrabold truncate ${isSunMode ? 'text-stone-950' : 'text-white'}`}>
+                  {selectedStop.title}
+                </h4>
+              </div>
+
+              <button
+                id={`btn-go-to-stop-${selectedStop.poi_id}`}
+                onClick={() => {
+                  onSelectStop(selectedPinIndex);
+                  onClose();
+                }}
+                className={`min-h-[48px] px-4 py-2.5 rounded-xl text-xs font-extrabold flex items-center gap-1.5 transition active:scale-95 shadow-md shrink-0 ${
+                  selectedPinIndex === currentStopIndex
+                    ? isSunMode
+                      ? 'bg-stone-800 hover:bg-stone-900 text-white'
+                      : 'bg-stone-800 hover:bg-stone-700 text-stone-200'
+                    : isSunMode
+                    ? 'bg-amber-700 hover:bg-amber-800 text-white shadow-amber-800/20'
+                    : 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-amber-500/20'
+                }`}
+              >
+                <span>{selectedPinIndex === currentStopIndex ? 'Ver detalles' : 'Ir a esta parada'}</span>
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            </div>
+          </footer>
+        )
       )}
     </div>
   );
