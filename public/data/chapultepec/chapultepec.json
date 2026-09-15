@@ -1,0 +1,48 @@
+{
+  "site_id": "CHAPULTEPEC",
+  "name": "Museo Nacional de Historia Castillo de Chapultepec",
+  "pass_price_mxn": 79,
+  "pass_price_usd": 4.99,
+  "routes": [
+    {
+      "id": "esplendor-alcazar",
+      "name": "Esplendor del Alcázar Imperial",
+      "duration": "45 min",
+      "description": "Viaje a través de la pugna entre Imperio y República en las salas aristocráticas del Castillo.",
+      "stops": [
+        {
+          "poi_id": "carruaje-juarez",
+          "title": "Carruaje de Gala de Benito Juárez",
+          "room_zone": "Salas del Carruaje",
+          "file": "data/chapultepec/alcazar/carruaje-juarez.json"
+        },
+        {
+          "poi_id": "habitacion-carlota",
+          "title": "Habitación de la Emperatriz Carlota",
+          "room_zone": "Alcázar Poniente",
+          "file": "data/chapultepec/alcazar/habitacion-carlota.json"
+        }
+      ]
+    },
+    {
+      "id": "visita-relampago",
+      "name": "Visita Relámpago",
+      "duration": "20 min",
+      "description": "Los dos objetos y estancias más representativos de la soberanía e intimidad decimonónica.",
+      "stops": [
+        {
+          "poi_id": "carruaje-juarez",
+          "title": "Carruaje de Gala de Benito Juárez",
+          "room_zone": "Salas del Carruaje",
+          "file": "data/chapultepec/alcazar/carruaje-juarez.json"
+        },
+        {
+          "poi_id": "habitacion-carlota",
+          "title": "Habitación de la Emperatriz Carlota",
+          "room_zone": "Alcázar Poniente",
+          "file": "data/chapultepec/alcazar/habitacion-carlota.json"
+        }
+      ]
+    }
+  ]
+}

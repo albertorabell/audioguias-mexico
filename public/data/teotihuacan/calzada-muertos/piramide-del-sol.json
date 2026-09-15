@@ -1,0 +1,67 @@
+{
+  "poi_id": "piramide-del-sol",
+  "is_premium": false,
+  "identification": {
+    "title": "Pirámide del Sol",
+    "culture_period": "Teotihuacana / Clásico Temprano (100–200 d.C.)",
+    "room_zone": "Calzada de los Muertos, Zona Arqueológica Teotihuacán",
+    "tags": ["Pirámide Monumental", "Arqueoastronomía", "Cueva Sagrada", "Clásico"],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Pir%C3%A1mide_del_Sol%2C_Teotihuac%C3%A1n%2C_M%C3%A9xico%2C_2013-10-12%2C_DD_14.JPG/1280px-Pir%C3%A1mide_del_Sol%2C_Teotihuac%C3%A1n%2C_M%C3%A9xico%2C_2013-10-12%2C_DD_14.JPG"
+  },
+  "narrative": {
+    "one_liner": "La tercera pirámide más grande de la Tierra, montaña artificial erigida sobre una cueva mítica primordial.",
+    "short_desc": "Con una altura de 65 metros y un volumen colosal de un millón de metros cúbicos, este monumento marcaba el axis mundi de la gran metrópoli de Teotihuacán.",
+    "deep_desc": "La Pirámide del Sol no fue erigida como una tumba real solitaria, sino como la recreación terrenal del 'Tamoanchan' o cerro cósmico nutricio donde brotan el maíz y el agua de la creación. Su orientación arqueoastronómica (desviada 15 grados y 25 minutos al este del norte geográfico) está matemáticamente sincronizada con la puesta del sol en los días 19 de mayo y 25 de julio, delimitando el ciclo agrícola mesoamericano de 260 días. En 1971 se descubrió directamente bajo su escalinata principal una cueva túnel de más de 100 metros de longitud que remata en cuatro cámaras lobuladas en forma de trébol, considerada el útero sagrado o 'Chicomóztoc' donde nació la humanidad teotihuacana según los relatos fundacionales."
+  },
+  "audioguide": {
+    "audio_script": "Dirige la vista hacia la cima de la Pirámide del Sol. Esta descomunal montaña artificial de más de un millón de metros cúbicos de piedra fue construida casi por completo entre el año 100 y 200 de nuestra era, sin ayuda de bestias de carga ni herramientas de metal. Bajo tus pies, escondido a varios metros de profundidad, corre un túnel que conduce a una caverna natural en forma de flor sagrada: para los teotihuacanos, ese era el vientre del inframundo de donde emergió la primera humanidad. Su fachada poniente está alineada milimétricamente con el ocaso del sol en los días cenitales de mayo y julio. Imagina la pirámide en su apogeo: revocada completamente de estuco blanco reluciente y pintura carmín, visible a decenas de kilómetros a la redonda en el valle.",
+    "audio_file_url": ""
+  },
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "La plataforma adosada",
+      "clue": "Observa el cuerpo escalonado inferior que se proyecta hacia la Calzada: es la plataforma adosada añadida en fases constructivas posteriores."
+    },
+    {
+      "id": "ch-2",
+      "title": "Los cuatro cuerpos escalonados",
+      "clue": "Cuenta visualmente los niveles piramidales inclinados (talud) que ascienden hasta la meseta donde se ubicaba el templo superior."
+    },
+    {
+      "id": "ch-3",
+      "title": "Alineación con el Cerro Gordo",
+      "clue": "Gira la vista hacia el fondo norte y compara el perfil piramidal con la silueta natural de la montaña sagrada que enmarca el horizonte."
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Leopoldo Batres la restauró entre 1905 y 1910 para el Centenario de la Independencia, destruyendo por error una capa superficial exterior al dinamitar partes deterioradas."
+    },
+    {
+      "id": "cur-2",
+      "fact": "El nombre 'Pirámide del Sol' fue otorgado por los mexicas siglos después de que Teotihuacán fuera abandonada; su nombre original se desconoce."
+    },
+    {
+      "id": "cur-3",
+      "fact": "Su base cuadrada de 225 metros por lado es casi idéntica a la base de la Gran Pirámide de Guiza en Egipto (230 metros)."
+    }
+  ],
+  "specs": [
+    { "label": "Material", "value": "Núcleo de adobe y tepetate con revestimiento de tezontle y cantera" },
+    { "label": "Dimensiones", "value": "Altura: 65.5 m | Base: 225 m x 222 m | Volumen: ~1,000,000 m³" },
+    { "label": "Datación", "value": "Fase Tzacualli / Miccaotli (100–250 d.C.)" },
+    { "label": "Hallazgo", "value": "Explorada formalmente desde el siglo XIX; cueva sagrada hallada en 1971" }
+  ],
+  "faqs": [
+    {
+      "question": "¿Se puede subir a la cima actualmente?",
+      "answer": "El INAH restringió el ascenso de visitantes a la cúspide desde 2020 para preservar la estructura del desgaste erosivo y garantizar la seguridad."
+    },
+    {
+      "question": "¿Había oro o tesoros dentro de la pirámide?",
+      "answer": "No contenía metales preciosos. Las ofrendas incluían máscaras de serpentina verde jade, caracoles marinos del Golfo y figurillas antropomorfas dedicadas a deidades de la lluvia."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "MNA",
+    "name": "Museo Nacional de Antropología",
+    "short_name": "MNA",
+    "location": "Bosque de Chapultepec, Ciudad de México",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Museo_Nacional_de_Antropolog%C3%ADa_-_MNA_01.jpg/1200px-Museo_Nacional_de_Antropolog%C3%ADa_-_MNA_01.jpg",
+    "badge": "Top 10 Museos del Mundo",
+    "path": "data/mna/mna.json",
+    "stripe_link": "https://buy.stripe.com/demo_mna",
+    "description": "El recinto arqueológico y etnográfico más importante de México y América Latina, con más de 22 salas temáticas.",
+    "highlights_count": 2,
+    "total_stops": 2
+  },
+  {
+    "id": "TEOTIHUACAN",
+    "name": "Zona Arqueológica de Teotihuacán",
+    "short_name": "Teotihuacán",
+    "location": "Valle de Teotihuacán, Estado de México",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Teotihuacan_pyramids.jpg/1280px-Teotihuacan_pyramids.jpg",
+    "badge": "Patrimonio de la Humanidad UNESCO",
+    "path": "data/teotihuacan/teotihuacan.json",
+    "stripe_link": "https://buy.stripe.com/demo_teotihuacan",
+    "description": "La legendaria 'Ciudad de los Dioses', epicentro ceremonial y una de las mayores urbes prehispánicas de Mesoamérica.",
+    "highlights_count": 2,
+    "total_stops": 2
+  },
+  {
+    "id": "CHAPULTEPEC",
+    "name": "Museo Nacional de Historia Castillo de Chapultepec",
+    "short_name": "Castillo Chapultepec",
+    "location": "Primera Sección Bosque de Chapultepec, CDMX",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Castillo_de_Chapultepec%2C_Ciudad_de_M%C3%A9xico%2C_M%C3%A9xico%2C_2013-10-16%2C_DD_02.JPG/1280px-Castillo_de_Chapultepec%2C_Ciudad_de_M%C3%A9xico%2C_M%C3%A9xico%2C_2013-10-16%2C_DD_02.JPG",
+    "badge": "Único Castillo Real en América",
+    "path": "data/chapultepec/chapultepec.json",
+    "stripe_link": "https://buy.stripe.com/demo_chapultepec",
+    "description": "El emblemático alcázar virreinal y residencia imperial sobre el cerro del Chapulín, testigo de hitos históricos cruciales.",
+    "highlights_count": 2,
+    "total_stops": 2
+  }
+]

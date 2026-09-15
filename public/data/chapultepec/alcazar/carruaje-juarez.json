@@ -1,0 +1,67 @@
+{
+  "poi_id": "carruaje-juarez",
+  "is_premium": false,
+  "identification": {
+    "title": "Carruaje de Gala de Benito Juárez",
+    "culture_period": "México Republicano / Reforma e Intervención Francesa (1867)",
+    "room_zone": "Salas del Carruaje, Museo Nacional de Historia Castillo de Chapultepec",
+    "tags": ["Benito Juárez", "República Restaurada", "Carruajes Históricos", "Siglo XIX"],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Carruaje_de_Benito_Ju%C3%A1rez_-_Castillo_de_Chapultepec.jpg/1280px-Carruaje_de_Benito_Ju%C3%A1rez_-_Castillo_de_Chapultepec.jpg"
+  },
+  "narrative": {
+    "one_liner": "El elegante landó de triunfo en el que Benito Juárez hizo su entrada triunfal a la capital tras restaurar la República.",
+    "short_desc": "Construido en París, este sobrio y majestuoso carruaje negro de dos plazas simboliza el triunfo de la legalidad constitucional y el retorno triunfante del gobierno civil en julio de 1867.",
+    "deep_desc": "El 15 de julio de 1867, tras el colapso del Segundo Imperio de Maximiliano y el fusilamiento en el Cerro de las Campanas, el presidente Benito Juárez García ingresó por la garita de San Cosme hacia la Plaza de la Constitución de la Ciudad de México. Lo hizo a bordo de este landó cerrado con vivos dorados discretos y tapicería de seda, recibido por multitudes ondeando banderas tricolores. Aunque Juárez es popularmente recordado por la humilde 'carreta negra' en la que peregrinó durante años por el desierto del norte con los archivos de la nación, este carruaje de gala parisino representó la dignidad republicana frente al boato desmedido de la corte imperial austríaca."
+  },
+  "audioguide": {
+    "audio_script": "Acércate a este magnífico carruaje negro. Es el landó en el que Benito Juárez entró a la Ciudad de México el 15 de julio de 1867, sellando el renacimiento definitivo de la República mexicana. Durante cuatro largos años de guerra contra el ejército invasor de Napoleón Tercero, el gobierno republicano no tuvo palacio fijo: la República viajaba sobre ruedas en el carruaje de Juárez. Este vehículo, fabricado con finos herrajes en París, contrasta con el oro recargado de los carruajes imperiales de Maximiliano. Aquí no hay coronas ni terciopelos monárquicos: solo la elegancia digna de un estadista que defendió las leyes y la soberanía de una patria libre.",
+    "audio_file_url": ""
+  },
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "El escudo nacional en la puerta",
+      "clue": "Examina la puerta lateral: localiza el escudo republicano del águila sobre el nopal devorando a la serpiente sin corona imperial."
+    },
+    {
+      "id": "ch-2",
+      "title": "Las ruedas de madera y forja",
+      "clue": "Mira la estructura inferior: observa el grosor de los radios de fresno reforzados con aros continuos de hierro templado."
+    },
+    {
+      "id": "ch-3",
+      "title": "Los faroles de latón y cristal",
+      "clue": "En los laterales superiores, localiza los faroles de aceite diseñados para alumbrar los caminos empedrados de la época."
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "La tapicería interior original de seda y paño fino fue restaurada minuciosamente respetando los patrones textiles franceses de 1860."
+    },
+    {
+      "id": "cur-2",
+      "fact": "Frecuentemente se confunde con la 'carroza de viaje' de Juárez, un vehículo más tosco de campaña que se conserva en el Museo de las Intervenciones."
+    },
+    {
+      "id": "cur-3",
+      "fact": "Tras la muerte de Juárez en 1872, el carruaje fue preservado como reliquia patriótica por orden directa del presidente Sebastián Lerdo de Tejada."
+    }
+  ],
+  "specs": [
+    { "label": "Material", "value": "Madera de fresno, forja de acero, cristal biselado y seda adamascada" },
+    { "label": "Dimensiones", "value": "Largo: 3.80 m | Ancho: 1.85 m | Alto: 2.10 m" },
+    { "label": "Datación", "value": "Fabricado hacia 1865 en París por la carrocera Belvalette Frères" },
+    { "label": "Hallazgo", "value": "Colección Histórica de la Presidencia de la República (donado a Chapultepec)" }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuántos caballos tiraban de este carruaje?",
+      "answer": "Habitualmente era tirado por cuatro o dos caballos percherones oscuros con arneses de gala para actos solemnes oficiales."
+    },
+    {
+      "question": "¿Por qué Juárez no utilizó los carruajes de oro que dejó Maximiliano?",
+      "answer": "Por convicción ideológica: Juárez consideraba que el boato monárquico y las carrozas barrocas bañadas en oro contradecían la austeridad republicana del pueblo mexicano."
+    }
+  ]
+}

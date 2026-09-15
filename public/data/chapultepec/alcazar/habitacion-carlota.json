@@ -1,0 +1,67 @@
+{
+  "poi_id": "habitacion-carlota",
+  "is_premium": true,
+  "identification": {
+    "title": "Habitación de la Emperatriz Carlota",
+    "culture_period": "Segundo Imperio Mexicano / Historicismo Neoclásico (1864–1867)",
+    "room_zone": "Alcázar Poniente, Museo Nacional de Historia Castillo de Chapultepec",
+    "tags": ["Segundo Imperio", "Carlota de Bélgica", "Mobiliario Francés", "Alcázar"],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Recamara_de_Carlota_Castillo_de_Chapultepec.jpg/1280px-Recamara_de_Carlota_Castillo_de_Chapultepec.jpg"
+  },
+  "narrative": {
+    "one_liner": "La intimidad melancólica de la princesa europea que soñó un imperio ilustrado en la cima del bosque.",
+    "short_desc": "La alcoba de María Carlota Amalia de Bélgica conserva el lecho de latón dorado, candelabros de cristal de Baccarat y tapices que atestiguan los días de esplendor y soledad de la única emperatriz de México.",
+    "deep_desc": "Cuando Maximiliano de Habsburgo y Carlota de Bélgica llegaron a la Ciudad de México en 1864, encontraron el Castillo de Chapultepec descuidado y ordenaron al arquitecto Ramón Rodríguez Arangoiti remodelar el antiguo colegio militar en un 'palazzo' europeo neoclásico. Esta estancia íntima fue decorada según el gusto del Segundo Imperio Francés con mobiliario Boulle, marquetería de maderas finas y una cama de bronce con guirnaldas de laurel y querubines. Desde sus balcones, Carlota contemplaba el trazado recién inaugurado del Paseo de la Emperatriz (hoy Paseo de la Reforma). Carlota no fue una consorte pasiva: gobernó México con plenos poderes ejecutivos durante los prolongados viajes de Maximiliano al interior del país, promulgando leyes para prohibir castigos corporales a peones y regular jornadas laborales agrícolas antes de su trágico viaje a Europa en busca de auxilio diplomático."
+  },
+  "audioguide": {
+    "audio_script": "Ingresa a la habitación de la emperatriz Carlota. Respira la atmósfera suspendida en el siglo diecinueve. Aquí, rodeada de sedas adamascadas y cristales finos, habitó una de las mujeres más brillantes y trágicas de su tiempo: hija del rey de los belgas, políglota y decidida reformista. Observa la cama de latón dorado y el tocador con espejos biselados traídos desde Europa. En este mismo escritorio, Carlota redactaba cartas febriles a Napoleón Tercero y firmaba decretos cuando quedaba como regente suprema del imperio. Desde la ventana se divisan los jardines colgantes del castillo, el mismo balcón desde el que miraba con zozobra la lejanía del valle antes de abordar el barco a Europa, donde la locura y el encierro la apartarían para siempre del suelo mexicano.",
+    "audio_file_url": ""
+  },
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "El monograma imperial",
+      "clue": "Busca en el mobiliario de madera dorada los tallados con las iniciales 'M' y 'C' entrelazadas bajo una corona imperial."
+    },
+    {
+      "id": "ch-2",
+      "title": "La cama con cabecera de guirnaldas",
+      "clue": "Observa el lecho central: contempla los motivos de laurel fundidos en bronce que rematan las columnas de la cabecera."
+    },
+    {
+      "id": "ch-3",
+      "title": "El tocador con espejo de tres caras",
+      "clue": "Ubica el tocador esquinero con cajones de caoba y espejo articulado donde la emperatriz se acicalaba con doncellas."
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Carlota dormía sola en esta habitación; Maximiliano tenía su propia alcoba separada al otro extremo del pasillo debido a costumbres de la realeza austríaca y divergencias maritales."
+    },
+    {
+      "id": "cur-2",
+      "fact": "Muchos muebles fueron vendidos en subasta pública tras la caída del Imperio; décadas más tarde, el presidente Porfirio Díaz los recuperó para la nación."
+    },
+    {
+      "id": "cur-3",
+      "fact": "Carlota sobrevivió a Maximiliano por 60 años, recluida en castillos de Bélgica e Italia hasta su muerte en 1927 a los 86 años, recordando siempre su estancia en Chapultepec."
+    }
+  ],
+  "specs": [
+    { "label": "Material", "value": "Madera de palisandro y caoba con marquetería, bronce dorado al fuego y mármol de Carrara" },
+    { "label": "Dimensiones", "value": "Habitación de 36 m² | Cama matrimonial de 2.15 m x 1.60 m" },
+    { "label": "Datación", "value": "Época del Segundo Imperio (1864–1866)" },
+    { "label": "Hallazgo", "value": "Colección Histórica del Museo Nacional de Historia (preservada in situ)" }
+  ],
+  "faqs": [
+    {
+      "question": "¿Son todos los objetos de la habitación los originales que usó Carlota?",
+      "answer": "La gran mayoría son piezas auténticas catalogadas del menaje imperial de 1864–1867, complementadas con piezas de época recuperadas por el presidente Porfirio Díaz."
+    },
+    {
+      "question": "¿Por qué construyeron el Paseo de la Reforma desde el Castillo?",
+      "answer": "Carlota y Maximiliano ordenaron trazar el bulevar en línea recta directa hacia el Palacio Nacional para reducir tiempos de traslado y poder vigilar visualmente el carruaje imperial."
+    }
+  ]
+}

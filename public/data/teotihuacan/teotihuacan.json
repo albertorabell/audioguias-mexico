@@ -1,0 +1,48 @@
+{
+  "site_id": "TEOTIHUACAN",
+  "name": "Zona Arqueológica de Teotihuacán",
+  "pass_price_mxn": 79,
+  "pass_price_usd": 4.99,
+  "routes": [
+    {
+      "id": "eje-sagrado",
+      "name": "Eje Sagrado y Cosmología",
+      "duration": "45 min",
+      "description": "Una inmersión espiritual y arquitectónica recorriendo los monumentos colosales del Valle de Teotihuacán.",
+      "stops": [
+        {
+          "poi_id": "piramide-del-sol",
+          "title": "Pirámide del Sol",
+          "room_zone": "Calzada de los Muertos",
+          "file": "data/teotihuacan/calzada-muertos/piramide-del-sol.json"
+        },
+        {
+          "poi_id": "templo-serpiente",
+          "title": "Templo de la Serpiente Emplumada",
+          "room_zone": "La Ciudadela",
+          "file": "data/teotihuacan/calzada-muertos/templo-serpiente.json"
+        }
+      ]
+    },
+    {
+      "id": "visita-relampago",
+      "name": "Visita Relámpago",
+      "duration": "20 min",
+      "description": "Puntos clave de la Calzada de los Muertos y la Ciudadela para una exploración concisa.",
+      "stops": [
+        {
+          "poi_id": "piramide-del-sol",
+          "title": "Pirámide del Sol",
+          "room_zone": "Calzada de los Muertos",
+          "file": "data/teotihuacan/calzada-muertos/piramide-del-sol.json"
+        },
+        {
+          "poi_id": "templo-serpiente",
+          "title": "Templo de la Serpiente Emplumada",
+          "room_zone": "La Ciudadela",
+          "file": "data/teotihuacan/calzada-muertos/templo-serpiente.json"
+        }
+      ]
+    }
+  ]
+}

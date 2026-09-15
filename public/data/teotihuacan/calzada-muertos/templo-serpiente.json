@@ -1,0 +1,67 @@
+{
+  "poi_id": "templo-serpiente",
+  "is_premium": true,
+  "identification": {
+    "title": "Templo de la Serpiente Emplumada",
+    "culture_period": "Teotihuacana / Clásico Temprano (200–250 d.C.)",
+    "room_zone": "La Ciudadela, Zona Arqueológica Teotihuacán",
+    "tags": ["Quetzalcóatl", "Tláloc", "Talud-Tablero", "Sacrificios Masivos"],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Temple_of_the_Feathered_Serpent%2C_Teotihuacan_2.jpg/1280px-Temple_of_the_Feathered_Serpent%2C_Teotihuacan_2.jpg"
+  },
+  "narrative": {
+    "one_liner": "La joya escultórica de Teotihuacán donde la Serpiente Emplumada emerge de un collar de plumas marinas.",
+    "short_desc": "Ubicado dentro del recinto cuadrangular de La Ciudadela, este templo ostenta más de 360 cabezas colosales de Quetzalcóatl alternadas con el monstruo del tiempo primordial cipactli/Tláloc.",
+    "deep_desc": "El Templo de la Serpiente Emplumada representa una drástica ruptura política y militar en la historia de Teotihuacán. Construido alrededor del 200 d.C., su edificación estuvo sellada por el sacrificio masivo de más de doscientos guerreros cautivos, enterrados con las manos atadas a la espalda y collares hechos con maxilares humanos de imitación o hueso real. En sus tableros escultóricos, la serpiente ondulante con plumas de quetzal surca un mar primordial repleto de conchas de gasterópodos y bivalvos marinos importados de las costas pacífica y caribeña. Alterna con una criatura de ojos con anteojeras y colmillos, identificada diversamente como el dios de la lluvia primordial o la corona solar del lagarto cósmico. Poco tiempo después de su inauguración, el templo fue deliberadamente profanado y sepultado bajo una enorme plataforma adosada, evidenciando una feroz pugna ideológica de facciones teotihuacanas."
+  },
+  "audioguide": {
+    "audio_script": "Párate en la explanada de La Ciudadela y admira la fachada tallada más rica de toda la metrópoli teotihuacana. Ante tus ojos surgen, esculpidas en bulto redondo, las cabezas de la Serpiente Emplumada que parecen salir vivas de los muros. Fíjate en los detalles: sus ojos tenían incrustaciones de obsidiana negra pulida que brillaban con los rayos del sol matutino. Entre serpiente y serpiente, una misteriosa figura con anteojeras y mandíbula escamosa te mira fijamente. Pero este templo guarda un secreto estremecedor: en sus cimientos, los arqueólogos descubrieron los esqueletos de más de doscientos soldados de élite ofrendados simultáneamente a los dioses, convirtiendo a este edificio en el más sangriento y fascinante monumento de la época dorada teotihuacana.",
+    "audio_file_url": ""
+  },
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Las plumas de la serpiente",
+      "clue": "Observa el cuello de las cabezas serpentinas: descubre los pétalos circulares de plumas de ave quetzal que forman una gorguera regia."
+    },
+    {
+      "id": "ch-2",
+      "title": "Conchas y caracoles marinos",
+      "clue": "En el fondo plano del relieve, busca las siluetas labradas de conchas bivalvas y caracoles espiralados nadando en aguas primordiales."
+    },
+    {
+      "id": "ch-3",
+      "title": "La cabeza con anteojeras",
+      "clue": "Ubica la escultura rectangular que alterna con la serpiente: nota las dos grandes cavidades oculares circulares."
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Debajo del templo corre un túnel subterráneo de 103 metros descubierto en 2003, donde se hallaron más de 100,000 objetos rituales y mercurio líquido que simulaba un río subterráneo."
+    },
+    {
+      "id": "cur-2",
+      "fact": "Originalmente contenía 366 cabezas talladas, una por cada día del año solar tropical mesoamericano más el día de ajuste bisiesto."
+    },
+    {
+      "id": "cur-3",
+      "fact": "La plataforma posterior que tapa la fachada se construyó hacia el 300 d.C., en un intento intencional de ocultar y desacralizar el culto a Quetzalcóatl."
+    }
+  ],
+  "specs": [
+    { "label": "Material", "value": "Sillares de toba volcánica tallada con recubrimiento de estuco policromado" },
+    { "label": "Dimensiones", "value": "Base: 65 m x 65 m | Tableros de 7 niveles escalonados originales" },
+    { "label": "Datación", "value": "Fase Miccaotli tardía a Tlamimilolpa temprana (150–250 d.C.)" },
+    { "label": "Hallazgo", "value": "Descubierto y explorado por Manuel Gamio en 1917–1920" }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué hay caracoles marinos en una ciudad en medio de valles montañosos?",
+      "answer": "Porque el templo recreaba el mito del origen del tiempo en las aguas sagradas del océano cósmico, y Teotihuacán controlaba rutas de comercio interoceánico de miles de kilómetros."
+    },
+    {
+      "question": "¿Quiénes fueron los guerreros enterrados en sus cimientos?",
+      "answer": "Estudios isotópicos de estroncio revelaron que muchos soldados procedían de regiones lejanas como Michoacán, Oaxaca y la Costa del Golfo, capturados en batallas de conquista."
+    }
+  ]
+}

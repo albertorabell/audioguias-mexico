@@ -1,0 +1,48 @@
+{
+  "site_id": "MNA",
+  "name": "Museo Nacional de Antropología",
+  "pass_price_mxn": 79,
+  "pass_price_usd": 4.99,
+  "routes": [
+    {
+      "id": "ruta-monumental",
+      "name": "Obras Monumentales",
+      "duration": "45 min",
+      "description": "Recorrido por las piezas cumbre de la escultura y cosmogonía mexica en el corazón del museo.",
+      "stops": [
+        {
+          "poi_id": "piedra-del-sol",
+          "title": "Piedra del Sol (Calendario Azteca)",
+          "room_zone": "Sala Mexica",
+          "file": "data/mna/sala-mexica/piedra-del-sol.json"
+        },
+        {
+          "poi_id": "coatlicue",
+          "title": "Monolito de Coatlicue",
+          "room_zone": "Sala Mexica",
+          "file": "data/mna/sala-mexica/coatlicue.json"
+        }
+      ]
+    },
+    {
+      "id": "visita-relampago",
+      "name": "Visita Relámpago",
+      "duration": "20 min",
+      "description": "Itinerario exprés con los hitos imprescindibles que no te puedes perder si tienes poco tiempo.",
+      "stops": [
+        {
+          "poi_id": "piedra-del-sol",
+          "title": "Piedra del Sol (Calendario Azteca)",
+          "room_zone": "Sala Mexica",
+          "file": "data/mna/sala-mexica/piedra-del-sol.json"
+        },
+        {
+          "poi_id": "coatlicue",
+          "title": "Monolito de Coatlicue",
+          "room_zone": "Sala Mexica",
+          "file": "data/mna/sala-mexica/coatlicue.json"
+        }
+      ]
+    }
+  ]
+}
