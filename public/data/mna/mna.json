@@ -3,6 +3,7 @@
   "name": "Museo Nacional de Antropología",
   "pass_price_mxn": 79,
   "pass_price_usd": 4.99,
+  "floorplan_url": "data/mna/mna-map.svg",
   "routes": [
     {
       "id": "ruta-monumental",
@@ -14,13 +15,15 @@
           "poi_id": "piedra-del-sol",
           "title": "Piedra del Sol (Calendario Azteca)",
           "room_zone": "Sala Mexica",
-          "file": "data/mna/sala-mexica/piedra-del-sol.json"
+          "file": "data/mna/sala-mexica/piedra-del-sol.json",
+          "map_coords": { "x": 50, "y": 24 }
         },
         {
           "poi_id": "coatlicue",
           "title": "Monolito de Coatlicue",
           "room_zone": "Sala Mexica",
-          "file": "data/mna/sala-mexica/coatlicue.json"
+          "file": "data/mna/sala-mexica/coatlicue.json",
+          "map_coords": { "x": 38, "y": 38 }
         }
       ]
     },
@@ -34,13 +37,15 @@
           "poi_id": "piedra-del-sol",
           "title": "Piedra del Sol (Calendario Azteca)",
           "room_zone": "Sala Mexica",
-          "file": "data/mna/sala-mexica/piedra-del-sol.json"
+          "file": "data/mna/sala-mexica/piedra-del-sol.json",
+          "map_coords": { "x": 50, "y": 24 }
         },
         {
           "poi_id": "coatlicue",
           "title": "Monolito de Coatlicue",
           "room_zone": "Sala Mexica",
-          "file": "data/mna/sala-mexica/coatlicue.json"
+          "file": "data/mna/sala-mexica/coatlicue.json",
+          "map_coords": { "x": 38, "y": 38 }
         }
       ]
     }

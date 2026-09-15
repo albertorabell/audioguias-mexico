@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronRight, RotateCcw, PartyPopper, Route } from 'lucide-react';
+import { ChevronRight, RotateCcw, PartyPopper, Route, Map } from 'lucide-react';
 import { RouteStop } from '../types';
 import { useTheme } from '../utils/ThemeContext';
 
@@ -10,6 +10,7 @@ interface BottomNavProps {
   onNextStop: () => void;
   onRestartRoute: () => void;
   onOpenRouteModal: () => void;
+  onOpenMapModal?: () => void;
 }
 
 export const BottomNav: React.FC<BottomNavProps> = ({
@@ -19,6 +20,7 @@ export const BottomNav: React.FC<BottomNavProps> = ({
   onNextStop,
   onRestartRoute,
   onOpenRouteModal,
+  onOpenMapModal,
 }) => {
   const isLastStop = currentStopIndex >= totalStops - 1;
   const { isSunMode } = useTheme();
@@ -59,6 +61,20 @@ export const BottomNav: React.FC<BottomNavProps> = ({
           </div>
 
           <div className="flex items-center gap-2 shrink-0">
+            {onOpenMapModal && (
+              <button
+                id="btn-open-map-bottom-completed"
+                onClick={onOpenMapModal}
+                className={`min-h-[48px] min-w-[48px] flex items-center justify-center rounded-xl border transition active:scale-95 ${
+                  isSunMode
+                    ? 'bg-amber-50 border-stone-300 text-amber-900 hover:bg-amber-100'
+                    : 'bg-stone-900 border-stone-700 text-amber-400 hover:bg-stone-800'
+                }`}
+                title="Ver plano del recinto"
+              >
+                <Map className="w-4 h-4" />
+              </button>
+            )}
             <button
               id="btn-restart-route"
               onClick={onRestartRoute}
@@ -105,18 +121,36 @@ export const BottomNav: React.FC<BottomNavProps> = ({
             </p>
           </div>
 
-          <button
-            id="btn-next-stop"
-            onClick={onNextStop}
-            className={`min-h-[48px] flex items-center gap-1.5 px-5 py-2.5 rounded-xl text-xs font-extrabold transition active:scale-95 shadow-md shrink-0 ${
-              isSunMode
-                ? 'bg-amber-700 hover:bg-amber-800 text-white shadow-amber-800/20'
-                : 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-amber-500/20'
-            }`}
-          >
-            <span>Avanzar</span>
-            <ChevronRight className="w-4 h-4" />
-          </button>
+          <div className="flex items-center gap-2 shrink-0">
+            {onOpenMapModal && (
+              <button
+                id="btn-open-map-bottom"
+                onClick={onOpenMapModal}
+                className={`min-h-[48px] px-3 py-2.5 rounded-xl text-xs font-extrabold flex items-center gap-1.5 border transition active:scale-95 ${
+                  isSunMode
+                    ? 'bg-amber-50 border-stone-300 text-amber-900 hover:bg-amber-100 hover:border-amber-600'
+                    : 'bg-stone-900 border-stone-700 text-amber-400 hover:bg-stone-800 hover:border-amber-500'
+                }`}
+                title="Ver plano interactivo"
+              >
+                <Map className="w-4 h-4" />
+                <span>Mapa</span>
+              </button>
+            )}
+
+            <button
+              id="btn-next-stop"
+              onClick={onNextStop}
+              className={`min-h-[48px] flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs font-extrabold transition active:scale-95 shadow-md ${
+                isSunMode
+                  ? 'bg-amber-700 hover:bg-amber-800 text-white shadow-amber-800/20'
+                  : 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-amber-500/20'
+              }`}
+            >
+              <span>Avanzar</span>
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          </div>
         </div>
       )}
     </nav>

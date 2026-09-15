@@ -4,6 +4,7 @@ import { SiteSummary } from '../types';
 import { hasActivePass } from '../utils/license';
 import { PWAInstallButton } from './PWAInstallButton';
 import { ThemeToggle } from './ThemeToggle';
+import { SafeImage } from './SafeImage';
 import { useTheme } from '../utils/ThemeContext';
 
 interface SiteSelectorProps {
@@ -131,15 +132,17 @@ export const SiteSelector: React.FC<SiteSelectorProps> = ({
                 >
                   {/* Image container with badges */}
                   <div className="relative h-44 w-full overflow-hidden bg-stone-950">
-                    <img
+                    <SafeImage
                       src={site.thumbnail}
                       alt={site.name}
-                      referrerPolicy="no-referrer"
-                      className="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500"
-                      loading="lazy"
+                      fallbackTitle={site.name}
+                      fallbackSubtitle={site.location}
+                      iconType={site.id === 'TEOTIHUACAN' ? 'pyramid' : site.id === 'CHAPULTEPEC' ? 'castle' : 'museum'}
+                      className="w-full h-full"
+                      imgClassName="group-hover:scale-105 transition duration-500"
                     />
                     <div
-                      className={`absolute inset-0 ${
+                      className={`absolute inset-0 pointer-events-none ${
                         isSunMode
                           ? 'bg-gradient-to-t from-stone-900/80 via-transparent to-transparent'
                           : 'bg-gradient-to-t from-stone-950 via-stone-950/40 to-transparent'

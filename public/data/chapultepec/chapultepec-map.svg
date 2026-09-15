@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #1c1917; }
+      .hill { fill: #142015; stroke: #2d4530; stroke-width: 2; }
+      .castle-wall { fill: #292524; stroke: #78716c; stroke-width: 2; }
+      .terrace { fill: #1f2937; stroke: #374151; stroke-width: 1.5; }
+      .garden { fill: #14351a; stroke: #22c55e; stroke-width: 1; stroke-dasharray: 2 2; }
+      .room-juarez { fill: #2d2417; stroke: #d97706; stroke-width: 2; }
+      .room-carlota { fill: #382414; stroke: #f59e0b; stroke-width: 2; }
+      .tower { fill: #44403c; stroke: #d97706; stroke-width: 2; }
+      .text-label { font-family: system-ui, sans-serif; font-size: 13px; font-weight: 700; fill: #a8a29e; text-anchor: middle; }
+      .text-highlight { font-family: system-ui, sans-serif; font-size: 15px; font-weight: 800; fill: #f59e0b; text-anchor: middle; }
+      .walking-trail { stroke: #f59e0b; stroke-width: 2; stroke-dasharray: 4 4; fill: none; opacity: 0.6; }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect class="bg" width="800" height="600" rx="16" />
+
+  <!-- Cerro del Chapulín (Contorno Geográfico Natural) -->
+  <ellipse class="hill" cx="400" cy="300" rx="360" ry="260" />
+
+  <!-- Complejo Arquitectónico del Alcázar -->
+  <rect class="castle-wall" x="140" y="100" width="520" height="400" rx="16" />
+
+  <!-- Jardines Colgantes del Alcázar (Nivel Terraza Superior) -->
+  <rect class="garden" x="320" y="140" width="310" height="150" rx="8" />
+  <circle cx="475" cy="215" r="25" fill="#0284c7" opacity="0.3" stroke="#38bdf8" stroke-width="1.5" />
+  <text class="text-label" x="475" y="220" font-size="11" fill="#86efac">Jardín de la Emperatriz</text>
+
+  <!-- Torre del Caballero Alto (Observatorio Histórico) -->
+  <!-- 800 * 0.50 = 400, 600 * 0.22 = 132 -->
+  <circle class="tower" cx="400" cy="132" r="32" />
+  <circle cx="400" cy="132" r="16" fill="#1c1917" stroke="#f59e0b" stroke-width="1.5" />
+  <text class="text-highlight" x="400" y="85" font-size="12">TORRE DEL CABALLERO ALTO</text>
+
+  <!-- Patio de Armas / Explanada Central -->
+  <rect class="terrace" x="270" y="310" width="260" height="160" rx="6" />
+  <text class="text-label" x="400" y="390" font-size="13">Patio de Armas del Castillo</text>
+
+  <!-- Ala Poniente: Salas del Carruaje (Planta Baja, x: 28%, y: 68%) -->
+  <!-- 800 * 0.28 = 224, 600 * 0.68 = 408 -->
+  <g transform="translate(160, 350)">
+    <rect class="room-juarez" x="0" y="0" width="130" height="120" rx="8" />
+    <text class="text-highlight" x="65" y="45" font-size="11">SALAS DE CARRUAJES</text>
+    <text class="text-label" x="65" y="65" font-size="10">Carruaje de Benito Juárez</text>
+    <text class="text-label" x="65" y="80" font-size="9" fill="#d97706">Planta Baja Histórica</text>
+  </g>
+
+  <!-- Ala Oriente / Alcázar Alto: Habitación de Carlota (x: 72%, y: 36%) -->
+  <!-- 800 * 0.72 = 576, 600 * 0.36 = 216 -->
+  <g transform="translate(510, 160)">
+    <rect class="room-carlota" x="0" y="0" width="130" height="110" rx="8" />
+    <text class="text-highlight" x="65" y="45" font-size="11">ALCÁZAR IMPERIAL</text>
+    <text class="text-label" x="65" y="65" font-size="10">Habitación de Carlota</text>
+    <text class="text-label" x="65" y="80" font-size="9" fill="#f59e0b">Alcázar Poniente</text>
+  </g>
+
+  <!-- Terraza de la Reina con vista a Reforma -->
+  <path d="M640,120 L640,480" stroke="#f59e0b" stroke-width="3" stroke-dasharray="8 4" opacity="0.5" />
+  <text class="text-label" x="650" y="320" transform="rotate(90 650 320)" font-size="10" fill="#f59e0b">
+    TERRAZA MIRADOR • PASEO DE LA REFORMA
+  </text>
+
+  <!-- Walking path connecting carruajes to alcazar -->
+  <path class="walking-trail" d="M224,408 L400,390 L475,215 L576,216" />
+
+  <!-- Compass Rose -->
+  <g transform="translate(720, 80)">
+    <circle cx="0" cy="0" r="22" fill="#292524" stroke="#78716c" stroke-width="1.5" />
+    <polygon points="0,-18 5,-4 0,0 -5,-4" fill="#ef4444" />
+    <polygon points="0,18 5,4 0,0 -5,4" fill="#78716c" />
+    <text x="0" y="-22" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#ef4444" text-anchor="middle">N</text>
+  </g>
+</svg>

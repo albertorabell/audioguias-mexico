@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronLeft, ChevronDown, Lock, ShieldCheck } from 'lucide-react';
+import { ChevronLeft, ChevronDown, Lock, ShieldCheck, Map } from 'lucide-react';
 import { SiteRoute } from '../types';
 import { formatRemainingHours } from '../utils/license';
 import { useTheme } from '../utils/ThemeContext';
@@ -14,6 +14,7 @@ interface NavbarProps {
   passExpiresAt?: number;
   onOpenRouteModal: () => void;
   onOpenPaywallModal: () => void;
+  onOpenMapModal: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -25,6 +26,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   passExpiresAt,
   onOpenRouteModal,
   onOpenPaywallModal,
+  onOpenMapModal,
 }) => {
   const { isSunMode } = useTheme();
 
@@ -82,6 +84,21 @@ export const Navbar: React.FC<NavbarProps> = ({
             isSunMode ? 'text-stone-600 group-hover:text-amber-800' : 'text-stone-400 group-hover:text-amber-400'
           }`}
         />
+      </button>
+
+      {/* Botón Ver Mapa Interactivo (mínimo 48px de altura táctil) */}
+      <button
+        id="btn-open-map-nav"
+        onClick={onOpenMapModal}
+        className={`min-h-[48px] px-2.5 flex items-center justify-center gap-1 rounded-xl border text-xs font-bold transition active:scale-95 ${
+          isSunMode
+            ? 'bg-amber-50 border-stone-300 text-amber-900 hover:bg-amber-100 hover:border-amber-600'
+            : 'bg-stone-900 border-stone-700/80 text-amber-400 hover:bg-stone-800 hover:border-amber-500'
+        }`}
+        title="Ver plano y mapa interactivo de paradas"
+      >
+        <Map className="w-4 h-4" />
+        <span className="hidden xs:inline">Mapa</span>
       </button>
 
       {/* Switch de Tema Adaptativo (☀️ / 🌙) */}

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #1c1917; }
+      .calzada { fill: #292524; stroke: #44403c; stroke-width: 2; }
+      .pyramid { fill: #44403c; stroke: #78716c; stroke-width: 2; }
+      .pyramid-sun { fill: #38240f; stroke: #f59e0b; stroke-width: 2.5; }
+      .ciudadela { fill: #262626; stroke: #d97706; stroke-width: 2; }
+      .text-label { font-family: system-ui, sans-serif; font-size: 13px; font-weight: 700; fill: #a8a29e; text-anchor: middle; }
+      .text-highlight { font-family: system-ui, sans-serif; font-size: 15px; font-weight: 800; fill: #f59e0b; text-anchor: middle; }
+      .walking-trail { stroke: #f59e0b; stroke-width: 2.5; stroke-dasharray: 6 4; fill: none; opacity: 0.7; }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect class="bg" width="800" height="600" rx="16" />
+
+  <!-- Calzada de los Muertos (Avenida Central) -->
+  <rect class="calzada" x="350" y="50" width="100" height="500" rx="4" />
+  <text class="text-label" x="400" y="320" transform="rotate(-90 400 320)" letter-spacing="4" fill="#78716c">
+    CALZADA DE LOS MUERTOS (4 KM)
+  </text>
+
+  <!-- Pirámide de la Luna (Norte) -->
+  <rect class="pyramid" x="330" y="55" width="140" height="70" rx="6" />
+  <rect x="355" y="65" width="90" height="50" fill="#1c1917" stroke="#78716c" stroke-width="1.5" />
+  <text class="text-label" x="400" y="95" font-size="12">Pirámide de la Luna</text>
+
+  <!-- Pirámide del Sol (Oriente, parada x: 68%, y: 45%) -->
+  <!-- 800 * 0.68 = 544, 600 * 0.45 = 270 -->
+  <g transform="translate(470, 200)">
+    <rect class="pyramid-sun" x="0" y="0" width="150" height="140" rx="8" />
+    <rect x="20" y="20" width="110" height="100" fill="#291807" stroke="#d97706" stroke-width="1.5" />
+    <rect x="40" y="40" width="70" height="60" fill="#3f260a" stroke="#f59e0b" stroke-width="1.5" />
+    <!-- Cúspide -->
+    <rect x="58" y="55" width="34" height="30" fill="#f59e0b" opacity="0.3" stroke="#f59e0b" stroke-width="1" />
+    <text class="text-highlight" x="75" y="75" font-size="12">SOL</text>
+    <text class="text-highlight" x="75" y="162" font-size="13">PIRÁMIDE DEL SOL</text>
+    <text class="text-label" x="75" y="178" font-size="10">Altura: 65m • Base 225m</text>
+  </g>
+
+  <!-- Plataforma adosada del Sol -->
+  <rect class="calzada" x="450" y="240" width="30" height="60" rx="2" />
+
+  <!-- La Ciudadela & Templo de Quetzalcóatl (Sur, x: 50%, y: 84%) -->
+  <!-- 800 * 0.50 = 400, 600 * 0.84 = 504 -->
+  <g transform="translate(290, 440)">
+    <rect class="ciudadela" x="0" y="0" width="220" height="130" rx="8" />
+    <!-- Explanada interior -->
+    <rect x="20" y="15" width="180" height="100" fill="#171717" stroke="#525252" stroke-width="1" />
+    <!-- Templo de la Serpiente Emplumada -->
+    <rect x="70" y="40" width="80" height="55" fill="#3a2510" stroke="#f59e0b" stroke-width="2" rx="4" />
+    <text class="text-highlight" x="110" y="65" font-size="10">TEMPLO QUETZALCÓATL</text>
+    <text class="text-label" x="110" y="78" font-size="9">Serpiente Emplumada</text>
+    <text class="text-label" x="110" y="138" font-size="11" fill="#f59e0b">GRAN RECINTO LA CIUDADELA</text>
+  </g>
+
+  <!-- Rio San Juan Canalizado -->
+  <line x1="100" y1="410" x2="700" y2="410" stroke="#0284c7" stroke-width="3" stroke-dasharray="8 4" opacity="0.4" />
+  <text class="text-label" x="650" y="400" font-size="10" fill="#38bdf8">Río San Juan</text>
+
+  <!-- Walking path connecting both stops -->
+  <path class="walking-trail" d="M544,270 L400,270 L400,504" />
+
+  <!-- Compass Rose -->
+  <g transform="translate(720, 80)">
+    <circle cx="0" cy="0" r="22" fill="#292524" stroke="#78716c" stroke-width="1.5" />
+    <polygon points="0,-18 5,-4 0,0 -5,-4" fill="#ef4444" />
+    <polygon points="0,18 5,4 0,0 -5,4" fill="#78716c" />
+    <text x="0" y="-22" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#ef4444" text-anchor="middle">N</text>
+  </g>
+</svg>

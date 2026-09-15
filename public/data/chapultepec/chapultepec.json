@@ -3,6 +3,7 @@
   "name": "Museo Nacional de Historia Castillo de Chapultepec",
   "pass_price_mxn": 79,
   "pass_price_usd": 4.99,
+  "floorplan_url": "data/chapultepec/chapultepec-map.svg",
   "routes": [
     {
       "id": "esplendor-alcazar",
@@ -14,13 +15,15 @@
           "poi_id": "carruaje-juarez",
           "title": "Carruaje de Gala de Benito Juárez",
           "room_zone": "Salas del Carruaje",
-          "file": "data/chapultepec/alcazar/carruaje-juarez.json"
+          "file": "data/chapultepec/alcazar/carruaje-juarez.json",
+          "map_coords": { "x": 28, "y": 68 }
         },
         {
           "poi_id": "habitacion-carlota",
           "title": "Habitación de la Emperatriz Carlota",
           "room_zone": "Alcázar Poniente",
-          "file": "data/chapultepec/alcazar/habitacion-carlota.json"
+          "file": "data/chapultepec/alcazar/habitacion-carlota.json",
+          "map_coords": { "x": 72, "y": 36 }
         }
       ]
     },
@@ -34,13 +37,15 @@
           "poi_id": "carruaje-juarez",
           "title": "Carruaje de Gala de Benito Juárez",
           "room_zone": "Salas del Carruaje",
-          "file": "data/chapultepec/alcazar/carruaje-juarez.json"
+          "file": "data/chapultepec/alcazar/carruaje-juarez.json",
+          "map_coords": { "x": 28, "y": 68 }
         },
         {
           "poi_id": "habitacion-carlota",
           "title": "Habitación de la Emperatriz Carlota",
           "room_zone": "Alcázar Poniente",
-          "file": "data/chapultepec/alcazar/habitacion-carlota.json"
+          "file": "data/chapultepec/alcazar/habitacion-carlota.json",
+          "map_coords": { "x": 72, "y": 36 }
         }
       ]
     }

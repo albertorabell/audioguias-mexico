@@ -3,6 +3,7 @@
   "name": "Zona Arqueológica de Teotihuacán",
   "pass_price_mxn": 79,
   "pass_price_usd": 4.99,
+  "floorplan_url": "data/teotihuacan/teotihuacan-map.svg",
   "routes": [
     {
       "id": "eje-sagrado",
@@ -14,13 +15,15 @@
           "poi_id": "piramide-del-sol",
           "title": "Pirámide del Sol",
           "room_zone": "Calzada de los Muertos",
-          "file": "data/teotihuacan/calzada-muertos/piramide-del-sol.json"
+          "file": "data/teotihuacan/calzada-muertos/piramide-del-sol.json",
+          "map_coords": { "x": 68, "y": 45 }
         },
         {
           "poi_id": "templo-serpiente",
           "title": "Templo de la Serpiente Emplumada",
           "room_zone": "La Ciudadela",
-          "file": "data/teotihuacan/calzada-muertos/templo-serpiente.json"
+          "file": "data/teotihuacan/calzada-muertos/templo-serpiente.json",
+          "map_coords": { "x": 50, "y": 84 }
         }
       ]
     },
@@ -34,13 +37,15 @@
           "poi_id": "piramide-del-sol",
           "title": "Pirámide del Sol",
           "room_zone": "Calzada de los Muertos",
-          "file": "data/teotihuacan/calzada-muertos/piramide-del-sol.json"
+          "file": "data/teotihuacan/calzada-muertos/piramide-del-sol.json",
+          "map_coords": { "x": 68, "y": 45 }
         },
         {
           "poi_id": "templo-serpiente",
           "title": "Templo de la Serpiente Emplumada",
           "room_zone": "La Ciudadela",
-          "file": "data/teotihuacan/calzada-muertos/templo-serpiente.json"
+          "file": "data/teotihuacan/calzada-muertos/templo-serpiente.json",
+          "map_coords": { "x": 50, "y": 84 }
         }
       ]
     }

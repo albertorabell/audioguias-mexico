@@ -7,6 +7,7 @@ import { PieceView } from './components/PieceView';
 import { BottomNav } from './components/BottomNav';
 import { RouteModal } from './components/RouteModal';
 import { PaywallModal } from './components/PaywallModal';
+import { MapViewModal } from './components/MapViewModal';
 import { OfflineIndicator } from './components/OfflineIndicator';
 import { useTheme } from './utils/ThemeContext';
 
@@ -27,6 +28,7 @@ export default function App() {
   // Modal State
   const [isRouteModalOpen, setIsRouteModalOpen] = useState(false);
   const [isPaywallModalOpen, setIsPaywallModalOpen] = useState(false);
+  const [isMapModalOpen, setIsMapModalOpen] = useState(false);
 
   // Loading & Error states
   const [isLoadingSites, setIsLoadingSites] = useState(true);
@@ -245,6 +247,7 @@ export default function App() {
               passExpiresAt={currentLicense?.expires_at}
               onOpenRouteModal={() => setIsRouteModalOpen(true)}
               onOpenPaywallModal={() => setIsPaywallModalOpen(true)}
+              onOpenMapModal={() => setIsMapModalOpen(true)}
             />
 
             {/* Content loading state */}
@@ -298,6 +301,7 @@ export default function App() {
                 onNextStop={handleNextStop}
                 onRestartRoute={handleRestartRoute}
                 onOpenRouteModal={() => setIsRouteModalOpen(true)}
+                onOpenMapModal={() => setIsMapModalOpen(true)}
               />
             )}
           </div>
@@ -330,6 +334,22 @@ export default function App() {
             passExpiresAt={currentLicense?.expires_at}
             onSimulatePurchase={handleSimulatePurchase}
             onRevokePass={handleRevokePass}
+          />
+        )}
+
+        {/* Interactive Map & Floorplan Modal */}
+        {selectedSite && activeRoute && (
+          <MapViewModal
+            isOpen={isMapModalOpen}
+            onClose={() => setIsMapModalOpen(false)}
+            siteId={selectedSite.id}
+            siteName={selectedSite.short_name || selectedSite.name}
+            routeName={activeRoute.name}
+            stops={activeRoute.stops}
+            currentStopIndex={currentStopIndex}
+            onSelectStop={(stopIdx) => {
+              handleSelectStop(stopIdx);
+            }}
           />
         )}
       </div>

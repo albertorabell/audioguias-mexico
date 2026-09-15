@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, ZoomIn, ZoomOut, RotateCcw, Maximize2 } from 'lucide-react';
+import { X, ZoomIn, ZoomOut, RotateCcw, Landmark, ImageOff } from 'lucide-react';
 
 interface ImageZoomModalProps {
   isOpen: boolean;
@@ -17,6 +17,7 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
   subtitle,
 }) => {
   const [scale, setScale] = useState(1);
+  const [hasError, setHasError] = useState(false);
 
   if (!isOpen) return null;
 
@@ -50,13 +51,28 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
           className="transition-transform duration-200 ease-out cursor-grab active:cursor-grabbing max-w-full max-h-full flex items-center justify-center"
           style={{ transform: `scale(${scale})` }}
         >
-          <img
-            src={imageUrl}
-            alt={title}
-            referrerPolicy="no-referrer"
-            className="max-w-full max-h-[72vh] object-contain rounded-lg shadow-2xl select-none"
-            draggable={false}
-          />
+          {hasError ? (
+            <div className="flex flex-col items-center justify-center p-8 bg-stone-900 border border-stone-800 rounded-2xl text-center max-w-sm">
+              <div className="w-14 h-14 rounded-2xl bg-stone-800 flex items-center justify-center text-amber-400 mb-3">
+                <Landmark className="w-7 h-7" />
+              </div>
+              <h4 className="text-sm font-extrabold text-stone-100 mb-1">{title}</h4>
+              <p className="text-xs text-stone-400 flex items-center gap-1">
+                <ImageOff className="w-3.5 h-3.5" />
+                Fotografía del acervo en resguardo
+              </p>
+            </div>
+          ) : (
+            <img
+              src={imageUrl}
+              alt={title}
+              referrerPolicy="no-referrer"
+              loading="lazy"
+              onError={() => setHasError(true)}
+              className="max-w-full max-h-[72vh] object-contain rounded-lg shadow-2xl select-none"
+              draggable={false}
+            />
+          )}
         </div>
       </div>
 

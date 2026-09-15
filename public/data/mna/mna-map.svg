@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #171513; }
+      .wall { fill: #292524; stroke: #44403c; stroke-width: 2; }
+      .room { fill: #1c1917; stroke: #57534e; stroke-width: 1.5; }
+      .room-mexica { fill: #291c10; stroke: #d97706; stroke-width: 2; }
+      .courtyard { fill: #0c0a09; stroke: #292524; stroke-width: 1; }
+      .water { fill: #0284c7; opacity: 0.25; }
+      .paraguas { fill: #d97706; opacity: 0.4; }
+      .text-label { font-family: system-ui, sans-serif; font-size: 13px; font-weight: 700; fill: #a8a29e; text-anchor: middle; }
+      .text-highlight { font-family: system-ui, sans-serif; font-size: 15px; font-weight: 800; fill: #f59e0b; text-anchor: middle; }
+      .corridor { stroke: #d97706; stroke-width: 2; stroke-dasharray: 4 4; fill: none; opacity: 0.6; }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect class="bg" width="800" height="600" rx="16" />
+
+  <!-- Outer Museum Boundary -->
+  <rect class="wall" x="120" y="40" width="560" height="520" rx="12" />
+
+  <!-- Central Courtyard (Patio Central) -->
+  <rect class="courtyard" x="220" y="190" width="360" height="260" rx="8" />
+
+  <!-- Sala Mexica (North Main Hall) -->
+  <path class="room-mexica" d="M220,50 L580,50 L580,180 L220,180 Z" />
+  <text class="text-highlight" x="400" y="85">SALA MEXICA (SALA CENTRAL)</text>
+  <text class="text-label" x="400" y="110" font-size="11">Monolitos Cósmicos y Piedra del Sol</text>
+
+  <!-- Sub-alcove for Piedra del Sol -->
+  <circle cx="400" cy="144" r="28" fill="#d97706" opacity="0.15" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="3 3" />
+  <text x="400" y="148" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#f59e0b" text-anchor: middle; text-anchor="middle">Área Altar Sol</text>
+
+  <!-- El Paraguas (Iconic Umbrella Column & Fountain) -->
+  <circle class="water" cx="400" cy="320" r="42" />
+  <circle class="paraguas" cx="400" cy="320" r="24" stroke="#f59e0b" stroke-width="2" />
+  <circle cx="400" cy="320" r="6" fill="#f59e0b" />
+  <text class="text-label" x="400" y="360" font-size="11">Fuente El Paraguas</text>
+
+  <!-- West Wings (Salas Poniente) -->
+  <!-- Sala Teotihuacán -->
+  <rect class="room" x="130" y="190" width="80" height="120" rx="4" />
+  <text class="text-label" x="170" y="255" font-size="11">Teotihuacán</text>
+
+  <!-- Sala Tolteca -->
+  <rect class="room" x="130" y="320" width="80" height="130" rx="4" />
+  <text class="text-label" x="170" y="390" font-size="11">Tolteca</text>
+
+  <!-- East Wings (Salas Oriente) -->
+  <!-- Sala Oaxaca -->
+  <rect class="room" x="590" y="190" width="80" height="120" rx="4" />
+  <text class="text-label" x="630" y="255" font-size="11">Oaxaca</text>
+
+  <!-- Sala Maya -->
+  <rect class="room" x="590" y="320" width="80" height="130" rx="4" />
+  <text class="text-label" x="630" y="390" font-size="11">Maya</text>
+
+  <!-- South Entrance & Vestibule (Acceso Principal) -->
+  <rect class="room" x="220" y="460" width="360" height="90" rx="6" />
+  <text class="text-label" x="400" y="505" font-size="13" font-weight="800">VESTÍBULO PRINCIPAL Y ACCESO</text>
+  <text class="text-label" x="400" y="525" font-size="11">Taquillas • Guardarropa • Salida</text>
+
+  <!-- Guided Tour Walking Line -->
+  <path class="corridor" d="M400,470 L400,380 L350,320 L304,228 L400,144" />
+
+  <!-- Compass Rose -->
+  <g transform="translate(720, 80)">
+    <circle cx="0" cy="0" r="22" fill="#292524" stroke="#78716c" stroke-width="1.5" />
+    <polygon points="0,-18 5,-4 0,0 -5,-4" fill="#ef4444" />
+    <polygon points="0,18 5,4 0,0 -5,4" fill="#78716c" />
+    <text x="0" y="-22" font-family="system-ui, sans-serif" font-size="11" font-weight="900" fill="#ef4444" text-anchor="middle">N</text>
+  </g>
+</svg>

@@ -6,6 +6,7 @@ import { VisualChallenge } from './VisualChallenge';
 import { CuriositiesSection } from './CuriositiesSection';
 import { AccordionsSection } from './AccordionsSection';
 import { ImageZoomModal } from './ImageZoomModal';
+import { SafeImage } from './SafeImage';
 import { useTheme } from '../utils/ThemeContext';
 
 interface PieceViewProps {
@@ -31,11 +32,13 @@ export const PieceView: React.FC<PieceViewProps> = ({
     <div className={`pb-32 transition-colors duration-200 ${isSunMode ? 'text-stone-900' : 'text-stone-100'}`}>
       {/* 1. Hero Image Section */}
       <div className="relative w-full h-72 bg-stone-950 overflow-hidden group">
-        <img
+        <SafeImage
           src={piece.identification.hero_image}
           alt={piece.identification.title}
-          referrerPolicy="no-referrer"
-          className="w-full h-full object-cover object-center cursor-pointer transition duration-300 group-hover:scale-102"
+          fallbackTitle={piece.identification.title}
+          fallbackSubtitle={piece.identification.culture_period}
+          className="w-full h-full cursor-pointer"
+          imgClassName="object-cover object-center cursor-pointer transition duration-300 group-hover:scale-102"
           onClick={() => setIsZoomOpen(true)}
         />
         <div

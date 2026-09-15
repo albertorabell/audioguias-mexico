@@ -12,11 +12,17 @@ export interface SiteSummary {
   total_stops: number;
 }
 
+export interface MapCoords {
+  x: number; // 0 to 100 percentage
+  y: number; // 0 to 100 percentage
+}
+
 export interface RouteStop {
   poi_id: string;
   title: string;
   room_zone: string;
   file: string;
+  map_coords?: MapCoords;
 }
 
 export interface SiteRoute {
@@ -32,6 +38,7 @@ export interface SiteManifest {
   name: string;
   pass_price_mxn: number;
   pass_price_usd: number;
+  floorplan_url?: string;
   routes: SiteRoute[];
 }
 
