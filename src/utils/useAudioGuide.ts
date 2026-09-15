@@ -10,7 +10,66 @@ export interface AudioGuideState {
   voiceName: string;
 }
 
-export function useAudioGuide(text: string, audioFileUrl?: string) {
+/**
+ * Filter available voices for the target language, prioritizing high quality neural/natural voices
+ * and explicitly excluding obsolete synthesizers like eSpeak.
+ */
+export function selectBestVoice(
+  voices: SpeechSynthesisVoice[],
+  langCode: string = 'es-MX'
+): SpeechSynthesisVoice | null {
+  if (!voices || voices.length === 0) return null;
+
+  // 1. Exclude obsolete synthesizers like eSpeak
+  const validVoices = voices.filter((v) => {
+    const name = (v.name || '').toLowerCase();
+    return !name.includes('espeak');
+  });
+
+  const target = langCode.toLowerCase().replace('_', '-');
+  const primaryLang = target.split('-')[0]; // e.g. 'es'
+
+  // Quality descriptors to prioritize natural, human-like guide voices
+  const qualityKeywords = ['natural', 'enhanced', 'google', 'premium', 'neural'];
+
+  const matchesQuality = (v: SpeechSynthesisVoice) => {
+    const name = (v.name || '').toLowerCase();
+    return qualityKeywords.some((kw) => name.includes(kw));
+  };
+
+  // Exact language match (e.g. es-mx)
+  const exactVoices = validVoices.filter(
+    (v) => v.lang.toLowerCase().replace('_', '-') === target
+  );
+  const exactQuality = exactVoices.find(matchesQuality);
+  if (exactQuality) return exactQuality;
+  if (exactVoices.length > 0) return exactVoices[0];
+
+  // Regional language match (e.g. es-419, es-us)
+  const regionalVoices = validVoices.filter((v) => {
+    const l = v.lang.toLowerCase().replace('_', '-');
+    return l.startsWith(primaryLang) && (l.includes('419') || l.includes('us') || l.includes('la'));
+  });
+  const regionalQuality = regionalVoices.find(matchesQuality);
+  if (regionalQuality) return regionalQuality;
+  if (regionalVoices.length > 0) return regionalVoices[0];
+
+  // Any voice of the primary language family (e.g. es-ES, es-CO, etc.)
+  const primaryVoices = validVoices.filter((v) =>
+    v.lang.toLowerCase().startsWith(primaryLang)
+  );
+  const primaryQuality = primaryVoices.find(matchesQuality);
+  if (primaryQuality) return primaryQuality;
+  if (primaryVoices.length > 0) return primaryVoices[0];
+
+  return validVoices[0] || null;
+}
+
+export function useAudioGuide(
+  text: string,
+  audioFileUrl?: string,
+  langCode: string = 'es-MX'
+) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [playbackRate, setPlaybackRate] = useState<number>(1);
   const [progress, setProgress] = useState<number>(0);
@@ -24,12 +83,16 @@ export function useAudioGuide(text: string, audioFileUrl?: string) {
   const startTimeRef = useRef<number>(0);
   const pausedAtRef = useRef<number>(0);
 
-  // Estimate duration based on word count (~140 words per minute at 1x)
+  // Touristic cadence baseline acoustic parameters
+  const BASE_RATE = 0.93; // Calm, intelligible guide pacing
+  const BASE_PITCH = 0.96; // Warmer, deeper timbre, avoiding metallic distortion
+
+  // Estimate duration based on word count (~130 words per minute at 0.93x rate)
   const wordCount = text ? text.split(/\s+/).filter(Boolean).length : 60;
-  const estimatedSeconds = Math.max(20, Math.round((wordCount / 140) * 60));
+  const estimatedSeconds = Math.max(20, Math.round((wordCount / (130 * BASE_RATE)) * 60));
   const effectiveDuration = Math.round(estimatedSeconds / playbackRate);
 
-  // Detect and select best Spanish voice
+  // Asynchronously detect and load natural voices via onvoiceschanged
   useEffect(() => {
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
       setIsSupported(false);
@@ -39,26 +102,21 @@ export function useAudioGuide(text: string, audioFileUrl?: string) {
     const updateVoices = () => {
       const voices = window.speechSynthesis.getVoices();
       if (!voices || voices.length === 0) return;
-
-      // Priority: es-MX, then other Latin American es-419, then es-ES, then any es
-      const esMx = voices.find(v => v.lang.toLowerCase().includes('es-mx'));
-      const esLa = voices.find(v => v.lang.toLowerCase().includes('es-419') || v.lang.toLowerCase().includes('es-us'));
-      const esEs = voices.find(v => v.lang.toLowerCase().startsWith('es'));
-      const chosen = esMx || esLa || esEs || voices[0];
-      setSelectedVoice(chosen);
+      const best = selectBestVoice(voices, langCode);
+      setSelectedVoice(best);
     };
 
     updateVoices();
     window.speechSynthesis.onvoiceschanged = updateVoices;
 
     return () => {
-      if (window.speechSynthesis) {
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
         window.speechSynthesis.onvoiceschanged = null;
       }
     };
-  }, []);
+  }, [langCode]);
 
-  // Stop playback when unmounting or when piece text changes
+  // Stop playback when unmounting or changing piece
   const stop = useCallback(() => {
     if (progressTimerRef.current) {
       clearInterval(progressTimerRef.current);
@@ -88,38 +146,41 @@ export function useAudioGuide(text: string, audioFileUrl?: string) {
   }, [text, audioFileUrl, stop]);
 
   // Handle Playback Rate change
-  const setRate = useCallback((rate: number) => {
-    setPlaybackRate(rate);
-    if (audioRef.current) {
-      audioRef.current.playbackRate = rate;
-    }
-    // If speaking with synthesis, restart speech at new rate from current relative offset if playing
-    if (isPlaying && (!audioFileUrl || audioFileUrl.trim() === '')) {
-      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
-        // Calculate remaining text or start fresh
-        const words = text.split(/\s+/);
-        const currentWordIndex = Math.floor(progress * words.length);
-        const remainingText = words.slice(currentWordIndex).join(' ');
-
-        const utterance = new SpeechSynthesisUtterance(remainingText || text);
-        utterance.rate = rate;
-        utterance.pitch = 1.0;
-        utterance.lang = selectedVoice?.lang || 'es-MX';
-        if (selectedVoice) utterance.voice = selectedVoice;
-
-        utterance.onend = () => {
-          stop();
-        };
-        utterance.onerror = () => {
-          stop();
-        };
-
-        utteranceRef.current = utterance;
-        window.speechSynthesis.speak(utterance);
+  const setRate = useCallback(
+    (rate: number) => {
+      setPlaybackRate(rate);
+      if (audioRef.current) {
+        audioRef.current.playbackRate = rate;
       }
-    }
-  }, [audioFileUrl, isPlaying, progress, selectedVoice, stop, text]);
+
+      // If speaking via synthesis, restart speech at new scaled rate
+      if (isPlaying && (!audioFileUrl || audioFileUrl.trim() === '')) {
+        if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+          const words = text.split(/\s+/);
+          const currentWordIndex = Math.floor(progress * words.length);
+          const remainingText = words.slice(currentWordIndex).join(' ');
+
+          const utterance = new SpeechSynthesisUtterance(remainingText || text);
+          utterance.rate = BASE_RATE * rate;
+          utterance.pitch = BASE_PITCH;
+          utterance.lang = selectedVoice?.lang || langCode;
+          if (selectedVoice) utterance.voice = selectedVoice;
+
+          utterance.onend = () => {
+            stop();
+          };
+          utterance.onerror = () => {
+            stop();
+          };
+
+          utteranceRef.current = utterance;
+          window.speechSynthesis.speak(utterance);
+        }
+      }
+    },
+    [audioFileUrl, isPlaying, langCode, progress, selectedVoice, stop, text]
+  );
 
   const pause = useCallback(() => {
     if (progressTimerRef.current) {
@@ -142,7 +203,7 @@ export function useAudioGuide(text: string, audioFileUrl?: string) {
   const play = useCallback(() => {
     if (!text && (!audioFileUrl || audioFileUrl.trim() === '')) return;
 
-    // Case 1: Audio file URL provided and non-empty
+    // Case 1: Real audio file URL
     if (audioFileUrl && audioFileUrl.trim() !== '') {
       if (!audioRef.current) {
         const audio = new Audio(audioFileUrl);
@@ -168,13 +229,13 @@ export function useAudioGuide(text: string, audioFileUrl?: string) {
       return;
     }
 
-    // Case 2: Speech Synthesis fallback
+    // Case 2: Natural Speech Synthesis
     if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
       setIsSupported(false);
       return;
     }
 
-    // If currently paused in speech synthesis, resume it
+    // Resume if paused
     if (window.speechSynthesis.paused && utteranceRef.current) {
       window.speechSynthesis.resume();
       setIsPlaying(true);
@@ -192,13 +253,13 @@ export function useAudioGuide(text: string, audioFileUrl?: string) {
       return;
     }
 
-    // Start fresh speech synthesis
+    // Start fresh speech synthesis with calm acoustic parameters
     window.speechSynthesis.cancel();
 
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.rate = playbackRate;
-    utterance.pitch = 1.0;
-    utterance.lang = selectedVoice?.lang || 'es-MX';
+    utterance.rate = BASE_RATE * playbackRate;
+    utterance.pitch = BASE_PITCH;
+    utterance.lang = selectedVoice?.lang || langCode;
     if (selectedVoice) utterance.voice = selectedVoice;
 
     utterance.onend = () => {
@@ -206,7 +267,7 @@ export function useAudioGuide(text: string, audioFileUrl?: string) {
     };
 
     utterance.onerror = (e) => {
-      console.warn('Speech synthesis error or cancelled', e);
+      console.warn('Speech synthesis ended or interrupted', e);
       stop();
     };
 
@@ -214,7 +275,7 @@ export function useAudioGuide(text: string, audioFileUrl?: string) {
     window.speechSynthesis.speak(utterance);
     setIsPlaying(true);
 
-    startTimeRef.current = Date.now() - (progress * effectiveDuration * 1000);
+    startTimeRef.current = Date.now() - progress * effectiveDuration * 1000;
 
     progressTimerRef.current = window.setInterval(() => {
       const elapsed = (Date.now() - startTimeRef.current) / 1000;
@@ -226,7 +287,7 @@ export function useAudioGuide(text: string, audioFileUrl?: string) {
         stop();
       }
     }, 250);
-  }, [audioFileUrl, effectiveDuration, playbackRate, progress, selectedVoice, stop, text]);
+  }, [audioFileUrl, effectiveDuration, langCode, playbackRate, progress, selectedVoice, stop, text]);
 
   const togglePlay = useCallback(() => {
     if (isPlaying) {
@@ -236,6 +297,15 @@ export function useAudioGuide(text: string, audioFileUrl?: string) {
     }
   }, [isPlaying, pause, play]);
 
+  // Clean, human-readable voice label
+  const cleanVoiceName = selectedVoice
+    ? selectedVoice.name
+        .replace(/Microsoft /i, '')
+        .replace(/Google /i, '')
+        .replace(/Desktop/i, '')
+        .trim()
+    : 'Guía en Español';
+
   return {
     isPlaying,
     playbackRate,
@@ -243,7 +313,7 @@ export function useAudioGuide(text: string, audioFileUrl?: string) {
     currentTime,
     duration: effectiveDuration,
     isSupported,
-    voiceName: selectedVoice ? `${selectedVoice.name} (${selectedVoice.lang})` : 'Español Nativo',
+    voiceName: cleanVoiceName,
     play,
     pause,
     stop,

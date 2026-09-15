@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { SiteSummary, SiteManifest, SiteRoute, PieceData, SiteLicense } from './types';
 import { getSiteLicense, activatePass, revokePass, hasActivePass } from './utils/license';
 import { SiteSelector } from './components/SiteSelector';
@@ -8,8 +8,11 @@ import { BottomNav } from './components/BottomNav';
 import { RouteModal } from './components/RouteModal';
 import { PaywallModal } from './components/PaywallModal';
 import { OfflineIndicator } from './components/OfflineIndicator';
+import { useTheme } from './utils/ThemeContext';
 
 export default function App() {
+  const { isSunMode } = useTheme();
+
   // Navigation State
   const [sites, setSites] = useState<SiteSummary[]>([]);
   const [selectedSite, setSelectedSite] = useState<SiteSummary | null>(null);
@@ -187,19 +190,35 @@ export default function App() {
   const hasPass = selectedSite ? hasActivePass(selectedSite.id) : false;
 
   return (
-    <div className="min-h-screen bg-stone-950 flex justify-center text-stone-100 font-sans">
+    <div
+      className={`min-h-screen flex justify-center font-sans transition-colors duration-200 ${
+        isSunMode ? 'bg-[#F9F6F0] text-stone-900' : 'bg-stone-950 text-stone-100'
+      }`}
+    >
       {/* Offline Banner indicator */}
       <OfflineIndicator />
 
       {/* Main mobile viewport container (max-w-[480px] centered) */}
-      <div className="w-full max-w-[480px] min-h-screen bg-stone-950 border-x border-stone-800/80 shadow-2xl relative flex flex-col">
+      <div
+        className={`w-full max-w-[480px] min-h-screen shadow-2xl relative flex flex-col transition-colors duration-200 border-x ${
+          isSunMode
+            ? 'bg-[#F9F6F0] border-stone-300 text-stone-900'
+            : 'bg-stone-950 border-stone-800/80 text-stone-100'
+        }`}
+      >
         {/* Error message alert if any */}
         {errorMessage && (
-          <div className="p-3 m-3 rounded-xl bg-rose-950/80 border border-rose-800 text-xs text-rose-200 flex justify-between items-center">
-            <span>{errorMessage}</span>
+          <div
+            className={`p-3.5 m-3 rounded-2xl border text-xs flex justify-between items-center shadow-md ${
+              isSunMode
+                ? 'bg-rose-50 border-rose-300 text-rose-950'
+                : 'bg-rose-950/80 border-rose-800 text-rose-200'
+            }`}
+          >
+            <span className="font-semibold">{errorMessage}</span>
             <button
               onClick={() => setErrorMessage(null)}
-              className="text-stone-400 hover:text-white text-sm font-bold ml-2"
+              className="text-stone-500 hover:text-stone-900 text-sm font-bold ml-2 p-1"
             >
               ✕
             </button>
@@ -231,10 +250,26 @@ export default function App() {
             {/* Content loading state */}
             {isLoadingPiece ? (
               <div className="p-6 space-y-4">
-                <div className="w-full h-64 rounded-2xl bg-stone-900 animate-pulse" />
-                <div className="h-6 w-3/4 bg-stone-900 rounded animate-pulse" />
-                <div className="h-4 w-1/2 bg-stone-900 rounded animate-pulse" />
-                <div className="h-32 rounded-2xl bg-stone-900 animate-pulse" />
+                <div
+                  className={`w-full h-64 rounded-2xl animate-pulse ${
+                    isSunMode ? 'bg-stone-200' : 'bg-stone-900'
+                  }`}
+                />
+                <div
+                  className={`h-6 w-3/4 rounded animate-pulse ${
+                    isSunMode ? 'bg-stone-200' : 'bg-stone-900'
+                  }`}
+                />
+                <div
+                  className={`h-4 w-1/2 rounded animate-pulse ${
+                    isSunMode ? 'bg-stone-200' : 'bg-stone-900'
+                  }`}
+                />
+                <div
+                  className={`h-32 rounded-2xl animate-pulse ${
+                    isSunMode ? 'bg-stone-200' : 'bg-stone-900'
+                  }`}
+                />
               </div>
             ) : currentPiece ? (
               /* Dynamic Piece View */
@@ -245,7 +280,7 @@ export default function App() {
                 onOpenPaywall={() => setIsPaywallModalOpen(true)}
               />
             ) : (
-              <div className="p-8 text-center text-stone-400 text-sm">
+              <div className="p-8 text-center text-stone-500 text-sm">
                 No se encontró información para esta pieza.
               </div>
             )}
