@@ -1,0 +1,99 @@
+{
+  "id": "dintel-26-de-yaxchilan",
+  "poi_id": "dintel-26-de-yaxchilan",
+  "room_id": "sala-maya",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-maya",
+    "room_name": "Sala Maya",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 3,
+  "is_premium": false,
+  "estimated_minutes": 4,
+  "tags": [
+    "rituales",
+    "auto_sacrificio",
+    "realeza"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Dintel 26 de Yaxchilán",
+    "culture_period": "Maya / Clásico Tardío (600–900 d.C.)",
+    "room_zone": "Sala Maya, Museo Nacional de Antropología",
+    "tags": [
+      "rituales",
+      "auto_sacrificio",
+      "realeza"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Dintel_26_de_Yachil%C3%A1n_2.jpg"
+  },
+  "narrative": {
+    "one_liner": "En la penumbra del ritual, la sangre real convoca la visión sagrada del jaguar y el poder de los ancestros.",
+    "short_desc": "Obra maestra del relieve maya donde la Señora K’ab’al Xook entrega un yelmo felino a Escudo Jaguar II, consagrando la preparación militar y el autosacrificio dinástico para invocar la protección de sus antepasados.",
+    "deep_desc": "En este relieve tallado en piedra caliza con finura extraordinaria observamos el poder ritual de la dinastía de Yaxchilán. El gobernante Escudo Jaguar II recibe un yelmo ceremonial en forma de cabeza de jaguar de manos de su esposa principal, la Señora K’ab’al Xook. La escena plasma el preludio a la guerra y los rituales de autosacrificio de sangre que la nobleza realizaba para invocar visiones de sus ancestros protectores."
+  },
+  "audioguide": {
+    "audio_script": "En este relieve tallado en piedra caliza con finura extraordinaria observamos el poder ritual de la dinastía de Yaxchilán. El gobernante Escudo Jaguar II recibe un yelmo ceremonial en forma de cabeza de jaguar de manos de su esposa principal, la Señora K’ab’al Xook. La escena plasma el preludio a la guerra y los rituales de autosacrificio de sangre que la nobleza realizaba para invocar visiones de sus ancestros protectores.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Obra maestra del relieve maya donde la Señora K’ab’al Xook entrega un yelmo felino a Escudo Jaguar II, consagrando la preparación militar y el autosacrificio dinástico para invocar la protección de sus antepasados.",
+  "observation_challenges": [
+    {
+      "titulo": "El yelmo ceremonial",
+      "descripcion": "localiza la cabeza de jaguar tocada con plumas que sostiene la reina"
+    },
+    {
+      "titulo": "La vestimenta ritual",
+      "descripcion": "observa el minucioso tejido de malla y las incrustaciones del pectoral que porta el gobernante"
+    }
+  ],
+  "did_you_know": [
+    "Los textos jeroglíficos que enmarcan la escena están tallados en espejo (de derecha a izquierda), indicando que es un evento que ocurre en el plano sagrado.",
+    "La Señora K’ab’al Xook fue una de las mujeres más poderosas e influyentes de la civilización maya, inmortalizada por su rol crucial en los ritos místicos del reino."
+  ],
+  "specs": {
+    "material": "Piedra caliza esculpida en bajorrelieve",
+    "provenance": "Yaxchilán (Estructura 23), Chiapas, México",
+    "weight": "109 cm x 88 cm x 9 cm (Aproximadamente 160 kg)",
+    "age": "Ca. 724 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Por qué los gobernantes mayas realizaban ritos de autosacrificio de sangre antes de la guerra?",
+      "answer": "Los mayas consideraban la sangre de la nobleza como la sustancia vital más sagrada. Al derramarla en ritos solemnes, abrían portales hacia el inframundo y el plano divino para comunicarse con sus ancestros y obtener su bendición y fortaleza táctica en el combate."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "El yelmo ceremonial",
+      "clue": "localiza la cabeza de jaguar tocada con plumas que sostiene la reina"
+    },
+    {
+      "id": "ch-2",
+      "title": "La vestimenta ritual",
+      "clue": "observa el minucioso tejido de malla y las incrustaciones del pectoral que porta el gobernante"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Los textos jeroglíficos que enmarcan la escena están tallados en espejo (de derecha a izquierda), indicando que es un evento que ocurre en el plano sagrado."
+    },
+    {
+      "id": "cur-2",
+      "fact": "La Señora K’ab’al Xook fue una de las mujeres más poderosas e influyentes de la civilización maya, inmortalizada por su rol crucial en los ritos místicos del reino."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué los gobernantes mayas realizaban ritos de autosacrificio de sangre antes de la guerra?",
+      "answer": "Los mayas consideraban la sangre de la nobleza como la sustancia vital más sagrada. Al derramarla en ritos solemnes, abrían portales hacia el inframundo y el plano divino para comunicarse con sus ancestros y obtener su bendición y fortaleza táctica en el combate."
+    }
+  ]
+}

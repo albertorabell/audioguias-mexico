@@ -1,7 +1,14 @@
 {
+  "id": "cabeza-colosal-olmeca-de-san-lorenzo-el-rey",
   "poi_id": "cabeza-colosal-olmeca-de-san-lorenzo-el-rey",
   "room_id": "sala-costa_del_golfo",
   "site_id": "MNA",
+  "location": {
+    "room_id": "sala-costa_del_golfo",
+    "room_name": "Sala Costa del Golfo",
+    "case_number": ""
+  },
+  "case_number": "",
   "orden_sala": 1,
   "is_premium": false,
   "estimated_minutes": 5,
@@ -16,7 +23,7 @@
   },
   "identification": {
     "title": "Cabeza Colosal Olmeca de San Lorenzo (El Rey)",
-    "culture_period": "Mesoamérica",
+    "culture_period": "Olmeca / Preclásico Medio (1200–900 a.C.)",
     "room_zone": "Sala Costa del Golfo, Museo Nacional de Antropología",
     "tags": [
       "origen",
@@ -26,32 +33,67 @@
     "hero_image": "https://upload.wikimedia.org/wikipedia/commons/0/00/Cabeza_Colosal_n%C2%BA1_del_Museo_Xalapa.jpg"
   },
   "narrative": {
-    "one_liner": "Nos encontramos en la cuna de la civilización mesoamericana frente a la Cabeza Colosal No.",
-    "short_desc": "Nos encontramos en la cuna de la civilización mesoamericana frente a la Cabeza Colosal No.",
+    "one_liner": "El rostro inmortal de basalto que contempla la eternidad desde la cuna de Mesoamérica.",
+    "short_desc": "Monolito de basalto de más de 25 toneladas que retrata a un soberano olmeca con rasgos individualizados. Fue movilizado 60 kilómetros sin animales ni ruedas para legitimar su poder divino hace tres mil años.",
     "deep_desc": "Nos encontramos en la cuna de la civilización mesoamericana frente a la Cabeza Colosal No. 1 de San Lorenzo, conocida como 'El Rey'. Esculpida en un monolito de basalto volcánico traído desde la Sierra de los Tuxtlas a más de 60 kilómetros sin ruedas ni bestias de carga, retrata a un soberano olmeca con su tocado distintivo de cuero, orejeras y rasgos fisonómicos individualizados que legitimaban su poder divino hace tres mil años."
   },
   "audioguide": {
     "audio_script": "Nos encontramos en la cuna de la civilización mesoamericana frente a la Cabeza Colosal No. 1 de San Lorenzo, conocida como 'El Rey'. Esculpida en un monolito de basalto volcánico traído desde la Sierra de los Tuxtlas a más de 60 kilómetros sin ruedas ni bestias de carga, retrata a un soberano olmeca con su tocado distintivo de cuero, orejeras y rasgos fisonómicos individualizados que legitimaban su poder divino hace tres mil años.",
     "audio_file_url": ""
   },
-  "summary_30s": "Nos encontramos en la cuna de la civilización mesoamericana frente a la Cabeza Colosal No.",
-  "observation_challenges": [],
+  "summary_30s": "Monolito de basalto de más de 25 toneladas que retrata a un soberano olmeca con rasgos individualizados. Fue movilizado 60 kilómetros sin animales ni ruedas para legitimar su poder divino hace tres mil años.",
+  "observation_challenges": [
+    {
+      "titulo": "Tocado distintivo",
+      "descripcion": "observa los relieves grabados sobre la frente que identifican al gobernante"
+    },
+    {
+      "titulo": "Orejeras",
+      "descripcion": "busca los adornos a los costados del rostro que simbolizan su estatus divino"
+    }
+  ],
   "did_you_know": [
-    "Pesa más de 25 toneladas y se cree que las cabezas eran retratos conmemorativos tallados a partir de los tronos de piedra de los gobernantes fallecidos."
+    "Pesa más de 25 toneladas y se cree que las cabezas eran retratos conmemorativos tallados a partir de los tronos de piedra de los gobernantes fallecidos.",
+    "El monolito de basalto fue transportado desde la Sierra de los Tuxtlas a más de 60 kilómetros de distancia, empleando únicamente fuerza humana, rodillos de madera y balsas fluviales."
   ],
   "specs": {
-    "material": "",
-    "provenance": "",
-    "weight": "",
-    "age": ""
+    "material": "Basalto volcánico",
+    "provenance": "San Lorenzo Tenochtitlán, Veracruz",
+    "weight": "Más de 25 toneladas",
+    "age": "Aproximadamente 3,000 años (1200–900 a.C.)"
   },
-  "faq": [],
-  "visual_challenge": [],
+  "faq": [
+    {
+      "question": "¿Cómo lograron mover una escultura tan pesada sin tecnología moderna?",
+      "answer": "Los olmecas trasladaron el bloque de basalto a lo largo de más de 60 kilómetros mediante trabajo comunitario masivo, arrastrándolo por tierra sobre troncos de madera y navegando por cauces de ríos en grandes balsas."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Tocado distintivo",
+      "clue": "observa los relieves grabados sobre la frente que identifican al gobernante"
+    },
+    {
+      "id": "ch-2",
+      "title": "Orejeras",
+      "clue": "busca los adornos a los costados del rostro que simbolizan su estatus divino"
+    }
+  ],
   "curiosities": [
     {
       "id": "cur-1",
       "fact": "Pesa más de 25 toneladas y se cree que las cabezas eran retratos conmemorativos tallados a partir de los tronos de piedra de los gobernantes fallecidos."
+    },
+    {
+      "id": "cur-2",
+      "fact": "El monolito de basalto fue transportado desde la Sierra de los Tuxtlas a más de 60 kilómetros de distancia, empleando únicamente fuerza humana, rodillos de madera y balsas fluviales."
     }
   ],
-  "faqs": []
+  "faqs": [
+    {
+      "question": "¿Cómo lograron mover una escultura tan pesada sin tecnología moderna?",
+      "answer": "Los olmecas trasladaron el bloque de basalto a lo largo de más de 60 kilómetros mediante trabajo comunitario masivo, arrastrándolo por tierra sobre troncos de madera y navegando por cauces de ríos en grandes balsas."
+    }
+  ]
 }

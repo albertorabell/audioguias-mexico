@@ -1,0 +1,64 @@
+{
+  "id": "el-chaman-o-guerrero-de-jalisco",
+  "poi_id": "el-chaman-o-guerrero-de-jalisco",
+  "room_id": "sala-occidente",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-occidente",
+    "room_name": "Sala Occidente de México",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 2,
+  "is_premium": false,
+  "estimated_minutes": 4,
+  "tags": [
+    "chamanismo",
+    "tumbas_tiro",
+    "estatus"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "El Chamán o Guerrero de Jalisco",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Occidente de México, Museo Nacional de Antropología",
+    "tags": [
+      "chamanismo",
+      "tumbas_tiro",
+      "estatus"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Esta vigorosa escultura hueca de barro cocido procede de la tradición de Tumbas de Tiro.",
+    "short_desc": "Esta vigorosa escultura hueca de barro cocido procede de la tradición de Tumbas de Tiro.",
+    "deep_desc": "Esta vigorosa escultura hueca de barro cocido procede de la tradición de Tumbas de Tiro. Representa a un personaje de alto estatus portando una armadura corporal acolchada de algodón, un casco cónico defensivo y una macana o bastón de mando. Con sus ojos rasgados y orejas profusamente perforadas con aros rituales, servía como custodio espiritual para resguardar la cámara funeraria de espíritus malignos o profanadores."
+  },
+  "audioguide": {
+    "audio_script": "Esta vigorosa escultura hueca de barro cocido procede de la tradición de Tumbas de Tiro. Representa a un personaje de alto estatus portando una armadura corporal acolchada de algodón, un casco cónico defensivo y una macana o bastón de mando. Con sus ojos rasgados y orejas profusamente perforadas con aros rituales, servía como custodio espiritual para resguardar la cámara funeraria de espíritus malignos o profanadores.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Esta vigorosa escultura hueca de barro cocido procede de la tradición de Tumbas de Tiro.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Las tumbas de tiro consistían en un pozo vertical de hasta 15 metros de profundidad que remataba en cámaras abovedadas excavadas en el tepetate."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Las tumbas de tiro consistían en un pozo vertical de hasta 15 metros de profundidad que remataba en cámaras abovedadas excavadas en el tepetate."
+    }
+  ],
+  "faqs": []
+}

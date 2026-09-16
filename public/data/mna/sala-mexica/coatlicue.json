@@ -1,69 +1,99 @@
 {
+  "id": "coatlicue",
   "poi_id": "coatlicue",
-  "is_premium": true,
-  "estimated_minutes": 10,
-  "tags": ["mexica", "monumental", "misticismo", "dioses"],
+  "room_id": "sala-mexica",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-mexica",
+    "room_name": "Sala Mexica",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 2,
+  "is_premium": false,
+  "estimated_minutes": 4,
+  "tags": [
+    "cosmovision",
+    "dioses",
+    "muerte"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
   "identification": {
-    "title": "Monolito de Coatlicue",
-    "culture_period": "Mexica / Posclásico Tardío (1430–1502 d.C.)",
+    "title": "Coatlicue",
+    "culture_period": "Mexica / Posclásico Tardío (1325–1521 d.C.)",
     "room_zone": "Sala Mexica, Museo Nacional de Antropología",
-    "tags": ["Diosa Madre", "Tierra", "Escultura Monumental", "Mito de Coatepec"],
-    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Coatlicue_de_frente.jpg/900px-Coatlicue_de_frente.jpg"
+    "tags": [
+      "cosmovision",
+      "dioses",
+      "muerte"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Escultura_de_Coatlicue_-_Museo_Nacional_de_Antropolog%C3%ADa_-_Sala_6_-_Mexicas.jpg"
   },
   "narrative": {
-    "one_liner": "La sobrecogedora personificación telúrica de la vida y la muerte, madre de los dioses y de los astros.",
-    "short_desc": "Coatlicue, 'La de la falda de serpientes', encarna las fuerzas germinadoras y devoradoras de la Tierra. Fue decapitada y de su cuello brotan dos torrentes de sangre que forman cabezas serpentinas encontradas.",
-    "deep_desc": "Coatlicue representa una de las cumbres estéticas y conceptuales más complejas del arte universal. De acuerdo con el mito mexica del cerro Coatepec, Coatlicue quedó encinta de Huitzilopochtli al guardar una bola de plumas finas en su seno. Sus hijos, la luna Coyolxauhqui y las estrellas Centzon Huitznahua, celosos del prodigio, intentaron matarla. En la escultura, su cabeza ha sido degollada y reemplazada por dos serpientes erguidas que simbolizan la sangre vital fluyendo a borbotones. Viste un collar trenzado con manos y corazones humanos palpitantes, rematado al centro por un cráneo descarnado. Sus extremidades culminan en garras de águila y jaguar dispuestas para desgarrar los cadáveres que retornan al vientre de la tierra. Incluso bajo su base oculta, invisible para el espectador ordinario, se esculpió al dios Tlaltecuhtli agazapado recibiendo los sacrificios."
+    "one_liner": "Devoradora de hombres y paridora de soles: la madre sagrada que abraza la vida y la muerte en un solo bloque de piedra.",
+    "short_desc": "Coatlicue es la deidad mexica de la tierra, la maternidad y la muerte. Esculpida en un solo bloque, encarna la dualidad cósmica con su rostro de serpientes y falda de ofidios entrelazados.",
+    "deep_desc": "Avanzando hacia el centro espiritual, nos encontramos con Coatlicue, la de la falda de serpientes. Esta imponente deidad representa a la madre tierra en su dualidad absoluta: es la creadora de la vida y devoradora de los muertos. Su cabeza decapitada ha sido reemplazada por dos serpientes encontradas que forman un rostro monstruoso, símbolo del sacrificio fundacional."
   },
   "audioguide": {
-    "audio_script": "Estás frente a la impactante presencia de Coatlicue, la madre tierra en su dualidad absoluta: la creadora que da a luz y la tumba que todo lo devora. Observa su cuello cercenado: de allí brotan dos cabezas de serpiente que se miran frente a frente, recreando un rostro monstruoso a partir de la misma sangre derramada. Sobre su pecho cuelga un pectoral de manos y corazones humanos, ofrendas vitales para mantener el pulso del cosmos. Su falda es un tejido vivo de víboras entrelazadas, y sus pies terminan en poderosas garras rapaces. Cuando los frailes la desenterraron en 1790, su poder fue tan aterrador para los indígenas que ordenaron sepultarla de nuevo en la universidad durante décadas.",
+    "audio_script": "Avanzando hacia el centro espiritual, nos encontramos con Coatlicue, la de la falda de serpientes. Esta imponente deidad representa a la madre tierra en su dualidad absoluta: es la creadora de la vida y devoradora de los muertos. Su cabeza decapitada ha sido reemplazada por dos serpientes encontradas que forman un rostro monstruoso, símbolo del sacrificio fundacional.",
     "audio_file_url": ""
   },
+  "summary_30s": "Coatlicue es la deidad mexica de la tierra, la maternidad y la muerte. Esculpida en un solo bloque, encarna la dualidad cósmica con su rostro de serpientes y falda de ofidios entrelazados.",
+  "observation_challenges": [
+    {
+      "titulo": "Rostro sagrado",
+      "descripcion": "Observa cómo dos serpientes enfrentadas de perfil forman un solo rostro monstruoso de frente"
+    },
+    {
+      "titulo": "Collar de sacrificios",
+      "descripcion": "Busca las manos y corazones humanos esculpidos que cuelgan sobre un cráneo central"
+    }
+  ],
+  "did_you_know": [
+    "Tras su descubrimiento en 1790, las autoridades coloniales volvieron a enterrarla porque los indígenas acudían en secreto a rendirle culto y llevarle ofrendas.",
+    "La base inferior de la escultura tiene grabado en relieve al dios Tlaltecuhtli, a pesar de ser una cara oculta que queda completamente apoyada contra el suelo."
+  ],
+  "specs": {
+    "material": "Andesita (roca volcánica de grano fino)",
+    "provenance": "Plaza Mayor de Tenochtitlan (actual Zócalo de la Ciudad de México)",
+    "weight": "2.52 metros de altura, 1.24 metros de ancho y 12 toneladas de peso",
+    "age": "Aprox. 1450–1521 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Por qué esta diosa no tiene una cabeza ni un rostro humano?",
+      "answer": "Coatlicue fue decapitada según el mito del nacimiento de Huitzilopochtli; la escultura representa ese instante sagrado donde dos chorros de sangre brotan de su cuello en forma de serpientes para crear una entidad cósmica nueva."
+    }
+  ],
   "visual_challenge": [
     {
       "id": "ch-1",
-      "title": "Las dos serpientes degolladas",
-      "clue": "Mira detenidamente la cabeza: no es un cráneo humano, sino dos serpientes que brotan del cuello y se juntan morro a morro."
+      "title": "Rostro sagrado",
+      "clue": "Observa cómo dos serpientes enfrentadas de perfil forman un solo rostro monstruoso de frente"
     },
     {
       "id": "ch-2",
-      "title": "Pectoral de manos y corazones",
-      "clue": "Localiza el collar sobre su pecho: alterna manos abiertas y corazones humanos, con un cráneo tallado en el centro."
-    },
-    {
-      "id": "ch-3",
-      "title": "Falda de víboras anudadas",
-      "clue": "Examina la cintura hacia abajo: cascabeles y cuerpos de serpiente trenzados forman su falda sagrada."
+      "title": "Collar de sacrificios",
+      "clue": "Busca las manos y corazones humanos esculpidos que cuelgan sobre un cráneo central"
     }
   ],
   "curiosities": [
     {
       "id": "cur-1",
-      "fact": "En 1804, Alexander von Humboldt solicitó que la desenterraran por unos días para poder dibujarla y estudiarla antes de volver a cubrirla de tierra."
+      "fact": "Tras su descubrimiento en 1790, las autoridades coloniales volvieron a enterrarla porque los indígenas acudían en secreto a rendirle culto y llevarle ofrendas."
     },
     {
       "id": "cur-2",
-      "fact": "La base inferior de la escultura tiene tallado al monstruo de la tierra Tlaltecuhtli, destinado a descansar directamente sobre el suelo y jamás ser visto por humanos vivos."
-    },
-    {
-      "id": "cur-3",
-      "fact": "Fue descubierta el 13 de agosto de 1790 en la Plaza Mayor de la Ciudad de México, cuatro meses antes que el Calendario Azteca."
+      "fact": "La base inferior de la escultura tiene grabado en relieve al dios Tlaltecuhtli, a pesar de ser una cara oculta que queda completamente apoyada contra el suelo."
     }
-  ],
-  "specs": [
-    { "label": "Material", "value": "Andesita volcánica con restos de policromía" },
-    { "label": "Dimensiones", "value": "Altura: 2.57 m | Ancho: 1.30 m | Peso: 3,000 kg" },
-    { "label": "Datación", "value": "Aprox. 1480-1502 d.C. (Época de Ahuízotl)" },
-    { "label": "Hallazgo", "value": "Plaza Mayor de la Ciudad de México, agosto de 1790" }
   ],
   "faqs": [
     {
-      "question": "¿Por qué tiene garras en lugar de pies humanos?",
-      "answer": "Porque personifica al monstruo telúrico que devora los cuerpos al morir. En la cosmovisión mexica, la tierra es una devoradora insaciable que transforma los despojos mortales en nueva vida fértil."
-    },
-    {
-      "question": "¿Por qué fue enterrada dos veces por las autoridades virreinales?",
-      "answer": "Porque los indígenas de la Nueva España acudían clandestinamente con flores y velas para venerarla en secreto, alarmando a la inquisición y frailes dominicos."
+      "question": "¿Por qué esta diosa no tiene una cabeza ni un rostro humano?",
+      "answer": "Coatlicue fue decapitada según el mito del nacimiento de Huitzilopochtli; la escultura representa ese instante sagrado donde dos chorros de sangre brotan de su cuello en forma de serpientes para crear una entidad cósmica nueva."
     }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "id": "entierro-de-shanidar-homo-neanderthalensis",
+  "poi_id": "entierro-de-shanidar-homo-neanderthalensis",
+  "room_id": "sala-introduccion_antropologia",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-introduccion_antropologia",
+    "room_name": "Sala Introducción a la Antropología",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 6,
+  "is_premium": false,
+  "estimated_minutes": 4,
+  "tags": [
+    "ritos_funerarios",
+    "espiritualidad",
+    "compasion"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Entierro de Shanidar (Homo neanderthalensis)",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Introducción a la Antropología, Museo Nacional de Antropología",
+    "tags": [
+      "ritos_funerarios",
+      "espiritualidad",
+      "compasion"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Esta reproducción a escala 1:1 traslada al visitante al abrigo rocoso de Shanidar, en las montañas de Irak.",
+    "short_desc": "Esta reproducción a escala 1:1 traslada al visitante al abrigo rocoso de Shanidar, en las montañas de Irak.",
+    "deep_desc": "Esta reproducción a escala 1:1 traslada al visitante al abrigo rocoso de Shanidar, en las montañas de Irak. Muestra el entierro de un individuo neandertal adulto depositado en posición fetal hace unos sesenta mil años; el análisis palinológico de los sedimentos reveló concentraciones extraordinarias de polen de milenrama, aciano y malva, sugiriendo una ceremonia floral de duelo y evidenciando el nacimiento de la empatía comunitaria y la conciencia fúnebre ante la muerte."
+  },
+  "audioguide": {
+    "audio_script": "Esta reproducción a escala 1:1 traslada al visitante al abrigo rocoso de Shanidar, en las montañas de Irak. Muestra el entierro de un individuo neandertal adulto depositado en posición fetal hace unos sesenta mil años; el análisis palinológico de los sedimentos reveló concentraciones extraordinarias de polen de milenrama, aciano y malva, sugiriendo una ceremonia floral de duelo y evidenciando el nacimiento de la empatía comunitaria y la conciencia fúnebre ante la muerte.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Esta reproducción a escala 1:1 traslada al visitante al abrigo rocoso de Shanidar, en las montañas de Irak.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "El esqueleto presentaba una lesión ósea grave y ceguera en un ojo ocurrida años antes de su deceso, lo que demuestra que el grupo protegió y alimentó a un miembro discapacitado."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "El esqueleto presentaba una lesión ósea grave y ceguera en un ojo ocurrida años antes de su deceso, lo que demuestra que el grupo protegió y alimentó a un miembro discapacitado."
+    }
+  ],
+  "faqs": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "mura-kame-y-vara-de-mando-wixarika",
+  "poi_id": "mura-kame-y-vara-de-mando-wixarika",
+  "room_id": "sala-gran_nayar",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-gran_nayar",
+    "room_name": "Sala Gran Nayar",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 3,
+  "is_premium": false,
+  "estimated_minutes": 3,
+  "tags": [
+    "gobierno_tradicional",
+    "autoridad",
+    "rito"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Mura'kame y Vara de Mando Wixárika",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Gran Nayar, Museo Nacional de Antropología",
+    "tags": [
+      "gobierno_tradicional",
+      "autoridad",
+      "rito"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Esta vara ceremonial labrada en madera de brasil y rematada con listones sagrados y plumas de águila real es el emblema máximo del poder cívico y religioso en las comunidades serranas.",
+    "short_desc": "Esta vara ceremonial labrada en madera de brasil y rematada con listones sagrados y plumas de águila real es el emblema máximo del poder cívico y religioso en las comunidades serranas.",
+    "deep_desc": "Esta vara ceremonial labrada en madera de brasil y rematada con listones sagrados y plumas de águila real es el emblema máximo del poder cívico y religioso en las comunidades serranas. Entregada cada año en ceremonias de cambio de gobierno tradicional, simboliza que la autoridad no emana de la imposición, sino del servicio comunitario (tequio) y de la armonía con los ancestros tutelares que vigilan el bienestar de la sierra."
+  },
+  "audioguide": {
+    "audio_script": "Esta vara ceremonial labrada en madera de brasil y rematada con listones sagrados y plumas de águila real es el emblema máximo del poder cívico y religioso en las comunidades serranas. Entregada cada año en ceremonias de cambio de gobierno tradicional, simboliza que la autoridad no emana de la imposición, sino del servicio comunitario (tequio) y de la armonía con los ancestros tutelares que vigilan el bienestar de la sierra.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Esta vara ceremonial labrada en madera de brasil y rematada con listones sagrados y plumas de águila real es el emblema máximo del poder cívico y religioso en las comunidades serranas.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Al asumir el cargo, las autoridades tradicionales realizan ayunos rigurosos y peregrinaciones a los puntos cardinales para consagrar su vara de mando."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Al asumir el cargo, las autoridades tradicionales realizan ayunos rigurosos y peregrinaciones a los puntos cardinales para consagrar su vara de mando."
+    }
+  ],
+  "faqs": []
+}

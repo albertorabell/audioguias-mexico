@@ -1,0 +1,64 @@
+{
+  "id": "lapida-de-noriega",
+  "poi_id": "lapida-de-noriega",
+  "room_id": "sala-oaxaca",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-oaxaca",
+    "room_name": "Sala Oaxaca",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 7,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "cronologia",
+    "genealogia",
+    "escritura"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Lápida de Noriega",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Oaxaca, Museo Nacional de Antropología",
+    "tags": [
+      "cronologia",
+      "genealogia",
+      "escritura"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Asturias_monumental%2C_epigr%C3%A1fica_y_diplom%C3%A1tica%2C_datos_para_la_historia_de_la_provincia_%28IA_asturiasmonument01migu%29.pdf"
+  },
+  "narrative": {
+    "one_liner": "Esculpida en piedra arenisca, esta estela rectangular funcionaba como el registro civil y político de la nobleza zapoteca.",
+    "short_desc": "Esculpida en piedra arenisca, esta estela rectangular funcionaba como el registro civil y político de la nobleza zapoteca.",
+    "deep_desc": "Esculpida en piedra arenisca, esta estela rectangular funcionaba como el registro civil y político de la nobleza zapoteca. En ella se observa a una pareja de dignatarios sentados frente a frente celebrando una alianza matrimonial dinástica, acompañados de sus nombres calendáricos grabados en jeroglíficos zapotecos que fijaban la legitimidad de sus descendientes sobre los valles."
+  },
+  "audioguide": {
+    "audio_script": "Esculpida en piedra arenisca, esta estela rectangular funcionaba como el registro civil y político de la nobleza zapoteca. En ella se observa a una pareja de dignatarios sentados frente a frente celebrando una alianza matrimonial dinástica, acompañados de sus nombres calendáricos grabados en jeroglíficos zapotecos que fijaban la legitimidad de sus descendientes sobre los valles.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Esculpida en piedra arenisca, esta estela rectangular funcionaba como el registro civil y político de la nobleza zapoteca.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Las lápidas genealógicas solían sellar la entrada de las tumbas palaciegas para recordar a los vivos los títulos nobiliarios de la familia enterrada."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Las lápidas genealógicas solían sellar la entrada de las tumbas palaciegas para recordar a los vivos los títulos nobiliarios de la familia enterrada."
+    }
+  ],
+  "faqs": []
+}

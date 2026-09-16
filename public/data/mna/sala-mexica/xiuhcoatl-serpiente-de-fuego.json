@@ -1,0 +1,97 @@
+{
+  "id": "xiuhcoatl-serpiente-de-fuego",
+  "poi_id": "xiuhcoatl-serpiente-de-fuego",
+  "room_id": "sala-mexica",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-mexica",
+    "room_name": "Sala Mexica",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 9,
+  "is_premium": true,
+  "estimated_minutes": 2,
+  "tags": [
+    "cosmovision",
+    "mito_fundacional"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Xiuhcóatl (Serpiente de Fuego)",
+    "culture_period": "Mexica / Posclásico Tardío (1325–1521 d.C.)",
+    "room_zone": "Sala Mexica, Museo Nacional de Antropología",
+    "tags": [
+      "cosmovision",
+      "mito_fundacional"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Xiuhc%C3%B3atl_o_%22Serpiente_de_fuego%22.jpg"
+  },
+  "narrative": {
+    "one_liner": "El rayo solar hecho piedra, guardián del límite entre lo terrenal y lo divino.",
+    "short_desc": "Arma mítica de Huitzilopochtli, la Xiuhcóatl es la serpiente de fuego que delimitaba recintos sagrados y guiaba al sol, encarnando el poder del rayo solar tallado en piedra.",
+    "deep_desc": "Esta fiera cabeza de serpiente con escamas y cuernos estilizados representa a la Xiuhcóatl, el arma mítica y rayo solar de Huitzilopochtli. Arquitectónicamente, estas serpientes de fuego flanqueaban los recintos sagrados, marcando los límites entre el mundo de los humanos y el espacio divino."
+  },
+  "audioguide": {
+    "audio_script": "Esta fiera cabeza de serpiente con escamas y cuernos estilizados representa a la Xiuhcóatl, el arma mítica y rayo solar de Huitzilopochtli. Arquitectónicamente, estas serpientes de fuego flanqueaban los recintos sagrados, marcando los límites entre el mundo de los humanos y el espacio divino.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Arma mítica de Huitzilopochtli, la Xiuhcóatl es la serpiente de fuego que delimitaba recintos sagrados y guiaba al sol, encarnando el poder del rayo solar tallado en piedra.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa los cuernos estilizados y escamas trapezoidales en la cabeza"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca las fauces abiertas de donde emerge la fuerza del fuego solar"
+    }
+  ],
+  "did_you_know": [
+    "Los aztecas creían que estas serpientes guiaban al sol durante su viaje diario.",
+    "La Xiuhcóatl fue el arma mítica con la que Huitzilopochtli nació para vencer a la diosa lunar Coyolxauhqui en el mito del cerro Coatepec."
+  ],
+  "specs": {
+    "material": "Basalto esculpido",
+    "provenance": "Templo Mayor, Tenochtitlan, Ciudad de México",
+    "weight": "115 x 75 x 90 cm; aprox. 650 kg",
+    "age": "Ca. 1480–1521 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Por qué las serpientes de fuego flanqueaban los recintos sagrados?",
+      "answer": "Funcionaban como límites simbólicos y protectores espirituales que separaban el plano terrenal del espacio puramente divino."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa los cuernos estilizados y escamas trapezoidales en la cabeza"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca las fauces abiertas de donde emerge la fuerza del fuego solar"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Los aztecas creían que estas serpientes guiaban al sol durante su viaje diario."
+    },
+    {
+      "id": "cur-2",
+      "fact": "La Xiuhcóatl fue el arma mítica con la que Huitzilopochtli nació para vencer a la diosa lunar Coyolxauhqui en el mito del cerro Coatepec."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué las serpientes de fuego flanqueaban los recintos sagrados?",
+      "answer": "Funcionaban como límites simbólicos y protectores espirituales que separaban el plano terrenal del espacio puramente divino."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "flecha-sagrada-ceremonial-urukame",
+  "poi_id": "flecha-sagrada-ceremonial-urukame",
+  "room_id": "sala-gran_nayar",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-gran_nayar",
+    "room_name": "Sala Gran Nayar",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 7,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "chamanismo",
+    "ancestros",
+    "proteccion"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Flecha Sagrada Ceremonial (Urukame)",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Gran Nayar, Museo Nacional de Antropología",
+    "tags": [
+      "chamanismo",
+      "ancestros",
+      "proteccion"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Esta larga flecha votiva de carrizo seco lleva atadas en su extremo plumas de halcón, mechones de estambre y una pequeña tablilla votiva pintada.",
+    "short_desc": "Esta larga flecha votiva de carrizo seco lleva atadas en su extremo plumas de halcón, mechones de estambre y una pequeña tablilla votiva pintada.",
+    "deep_desc": "Esta larga flecha votiva de carrizo seco lleva atadas en su extremo plumas de halcón, mechones de estambre y una pequeña tablilla votiva pintada. Para los pueblos de la sierra occidental, las flechas no son armas de combate, sino vehículos de comunicación espiritual: se clavan en los cerros sagrados, cuevas y manantiales para 'fijar' una plegaria y canalizar las bendiciones de las deidades hacia la comunidad."
+  },
+  "audioguide": {
+    "audio_script": "Esta larga flecha votiva de carrizo seco lleva atadas en su extremo plumas de halcón, mechones de estambre y una pequeña tablilla votiva pintada. Para los pueblos de la sierra occidental, las flechas no son armas de combate, sino vehículos de comunicación espiritual: se clavan en los cerros sagrados, cuevas y manantiales para 'fijar' una plegaria y canalizar las bendiciones de las deidades hacia la comunidad.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Esta larga flecha votiva de carrizo seco lleva atadas en su extremo plumas de halcón, mechones de estambre y una pequeña tablilla votiva pintada.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Cada tipo de pluma utilizada corresponde a una deidad específica: plumas de águila para el sol y de gavilán o guacamaya para los espíritus del fuego."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Cada tipo de pluma utilizada corresponde a una deidad específica: plumas de águila para el sol y de gavilán o guacamaya para los espíritus del fuego."
+    }
+  ],
+  "faqs": []
+}

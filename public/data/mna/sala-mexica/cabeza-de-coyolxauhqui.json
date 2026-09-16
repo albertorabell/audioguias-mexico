@@ -1,0 +1,97 @@
+{
+  "id": "cabeza-de-coyolxauhqui",
+  "poi_id": "cabeza-de-coyolxauhqui",
+  "room_id": "sala-mexica",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-mexica",
+    "room_name": "Sala Mexica",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 7,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "mito_fundacional",
+    "dioses"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Cabeza de Coyolxauhqui",
+    "culture_period": "Mexica / Posclásico Tardío (1325–1521 d.C.)",
+    "room_zone": "Sala Mexica, Museo Nacional de Antropología",
+    "tags": [
+      "mito_fundacional",
+      "dioses"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cabeza_de_la_diosa_Coyolxauhqui.jpg"
+  },
+  "narrative": {
+    "one_liner": "El rostro inerte de la noche, esculpido en la eternidad de su derrota ante el sol.",
+    "short_desc": "Monumental retrato en diorita de la diosa lunar mexica, vencida por Huitzilopochtli. Sus ojos cerrados y cascabeles grabados inmortalizan el mito cosmogónico del triunfo diario del sol sobre la oscuridad.",
+    "deep_desc": "Mirando de cerca esta escultura monumental de diorita, contemplamos el rostro inerte de Coyolxauhqui, la diosa lunar. Lleva cascabeles en las mejillas y los ojos cerrados como símbolo de su muerte a manos de su hermano Huitzilopochtli, el dios sol, representando la eterna victoria del día sobre la noche."
+  },
+  "audioguide": {
+    "audio_script": "Mirando de cerca esta escultura monumental de diorita, contemplamos el rostro inerte de Coyolxauhqui, la diosa lunar. Lleva cascabeles en las mejillas y los ojos cerrados como símbolo de su muerte a manos de su hermano Huitzilopochtli, el dios sol, representando la eterna victoria del día sobre la noche.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Monumental retrato en diorita de la diosa lunar mexica, vencida por Huitzilopochtli. Sus ojos cerrados y cascabeles grabados inmortalizan el mito cosmogónico del triunfo diario del sol sobre la oscuridad.",
+  "observation_challenges": [
+    {
+      "titulo": "Cascabeles mejillares",
+      "descripcion": "observa el relieve con forma de cascabeles (coyolli) sobre sus pómulos"
+    },
+    {
+      "titulo": "Rastros de policromía",
+      "descripcion": "busca sutiles huellas de pigmento rojo y ocre conservadas en su tocado y orejeras"
+    }
+  ],
+  "did_you_know": [
+    "Es una de las pocas esculturas mexicas monumental donde aún se conservan trazos visibles de la pintura policromada original.",
+    "A diferencia del famoso gran disco completo del Templo Mayor hallado en 1978, esta majestuosa cabeza exenta fue encontrada desde el siglo XIX."
+  ],
+  "specs": {
+    "material": "Diorita",
+    "provenance": "Templo Mayor, Tenochtitlan, Ciudad de México",
+    "weight": "95 cm de alto x 80 cm de ancho; aprox. 1.2 toneladas",
+    "age": "Aprox. 1469–1502 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Esta cabeza fue desprendida violentamente de un cuerpo completo durante la Conquista?",
+      "answer": "No, fue concebida intencionalmente por los escultores mexicas como un bloque exento que representa únicamente la cabeza cercenada para simbolizar el mito del desmembramiento lunar a manos de Huitzilopochtli."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Cascabeles mejillares",
+      "clue": "observa el relieve con forma de cascabeles (coyolli) sobre sus pómulos"
+    },
+    {
+      "id": "ch-2",
+      "title": "Rastros de policromía",
+      "clue": "busca sutiles huellas de pigmento rojo y ocre conservadas en su tocado y orejeras"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Es una de las pocas esculturas mexicas monumental donde aún se conservan trazos visibles de la pintura policromada original."
+    },
+    {
+      "id": "cur-2",
+      "fact": "A diferencia del famoso gran disco completo del Templo Mayor hallado en 1978, esta majestuosa cabeza exenta fue encontrada desde el siglo XIX."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Esta cabeza fue desprendida violentamente de un cuerpo completo durante la Conquista?",
+      "answer": "No, fue concebida intencionalmente por los escultores mexicas como un bloque exento que representa únicamente la cabeza cercenada para simbolizar el mito del desmembramiento lunar a manos de Huitzilopochtli."
+    }
+  ]
+}

@@ -1,7 +1,14 @@
 {
+  "id": "recreacion-del-altar-maya-del-ch-a-chaak-peticion-de-lluvia",
   "poi_id": "recreacion-del-altar-maya-del-ch-a-chaak-peticion-de-lluvia",
   "room_id": "sala-etno_maya",
   "site_id": "MNA",
+  "location": {
+    "room_id": "sala-etno_maya",
+    "room_name": "Sala Pueblos Mayas",
+    "case_number": ""
+  },
+  "case_number": "",
   "orden_sala": 10,
   "is_premium": false,
   "estimated_minutes": 4,

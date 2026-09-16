@@ -1,0 +1,64 @@
+{
+  "id": "maqueta-del-complejo-urbano-de-paquime",
+  "poi_id": "maqueta-del-complejo-urbano-de-paquime",
+  "room_id": "sala-norte",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-norte",
+    "room_name": "Sala del Norte de México",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 10,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "arquitectura",
+    "adobe",
+    "urbanismo"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Maqueta del Complejo Urbano de Paquimé",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala del Norte de México, Museo Nacional de Antropología",
+    "tags": [
+      "arquitectura",
+      "adobe",
+      "urbanismo"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Para cerrar la sala, esta maqueta a detalle plasma la singularidad arquitectónica de Paquimé.",
+    "short_desc": "Para cerrar la sala, esta maqueta a detalle plasma la singularidad arquitectónica de Paquimé.",
+    "deep_desc": "Para cerrar la sala, esta maqueta a detalle plasma la singularidad arquitectónica de Paquimé. Edificada íntegramente con muros de tierra apisonada y adobe vaciado de hasta cuatro pisos de altura, la ciudad integraba complejos multifamiliares interconectados por puertas en forma de 'T', acequias y aljibes para agua potable, canchas de juego de pelota en forma de 'I' y montículos ceremoniales con forma de serpiente y cruz astronómica."
+  },
+  "audioguide": {
+    "audio_script": "Para cerrar la sala, esta maqueta a detalle plasma la singularidad arquitectónica de Paquimé. Edificada íntegramente con muros de tierra apisonada y adobe vaciado de hasta cuatro pisos de altura, la ciudad integraba complejos multifamiliares interconectados por puertas en forma de 'T', acequias y aljibes para agua potable, canchas de juego de pelota en forma de 'I' y montículos ceremoniales con forma de serpiente y cruz astronómica.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Para cerrar la sala, esta maqueta a detalle plasma la singularidad arquitectónica de Paquimé.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Las puertas en forma de 'T' eran un rasgo arquitectónico compartido con las culturas Pueblo de Chaco Canyon y Mesa Verde en Estados Unidos."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Las puertas en forma de 'T' eran un rasgo arquitectónico compartido con las culturas Pueblo de Chaco Canyon y Mesa Verde en Estados Unidos."
+    }
+  ],
+  "faqs": []
+}

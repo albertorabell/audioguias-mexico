@@ -1,0 +1,99 @@
+{
+  "id": "lapida-del-sarcofago-de-pakal-reconstruccion",
+  "poi_id": "lapida-del-sarcofago-de-pakal-reconstruccion",
+  "room_id": "sala-maya",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-maya",
+    "room_name": "Sala Maya",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 2,
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "cosmovision",
+    "inframundo",
+    "reyes"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Lápida del Sarcófago de Pakal (Reconstrucción)",
+    "culture_period": "Maya / Clásico Tardío (600–900 d.C.)",
+    "room_zone": "Sala Maya, Museo Nacional de Antropología",
+    "tags": [
+      "cosmovision",
+      "inframundo",
+      "reyes"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Entre el inframundo y el cosmos, la piedra inmortaliza el viaje eterno del gran señor de Palenque.",
+    "short_desc": "Obra cumbre del arte maya que plasma la muerte y renacimiento de K'inich Janaab' Pakal, quien asciende al cosmos desde las fauces del inframundo a través del árbol sagrado.",
+    "deep_desc": "Descendiendo a la recreación de la tumba subterránea del Templo de las Inscripciones, contemplamos esta colosal lápida esculpida de siete toneladas. Pakal aparece en el momento exacto de su muerte, suspendido sobre las fauces abiertas del Monstruo de la Tierra o Xibalbá. De su cuerpo brota el Árbol Cósmico (la Ceiba sagrada), eje que conecta los nueve niveles del inframundo con los trece cielos, asegurando su ascenso cósmico."
+  },
+  "audioguide": {
+    "audio_script": "Descendiendo a la recreación de la tumba subterránea del Templo de las Inscripciones, contemplamos esta colosal lápida esculpida de siete toneladas. Pakal aparece en el momento exacto de su muerte, suspendido sobre las fauces abiertas del Monstruo de la Tierra o Xibalbá. De su cuerpo brota el Árbol Cósmico (la Ceiba sagrada), eje que conecta los nueve niveles del inframundo con los trece cielos, asegurando su ascenso cósmico.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Obra cumbre del arte maya que plasma la muerte y renacimiento de K'inich Janaab' Pakal, quien asciende al cosmos desde las fauces del inframundo a través del árbol sagrado.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Encuentra la gran cruz central que representa la Ceiba sagrada o Árbol Cósmico"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca las fauces abiertas del Monstruo de la Tierra en la parte inferior sobre las que yace Pakal"
+    }
+  ],
+  "did_you_know": [
+    "El arqueólogo Alberto Ruz Lhuillier tardó cuatro años en retirar toneladas de escombros de la escalera interior antes de descubrir la cámara intacta en 1952.",
+    "Aunque teorizaciones del siglo XX sugerían erróneamente la figura de un astronauta, los glifos e iconografía confirman la visión teológica maya del tránsito del rey hacia la inmortalidad."
+  ],
+  "specs": {
+    "material": "Piedra caliza esculpida",
+    "provenance": "Templo de las Inscripciones, Palenque, Chiapas",
+    "weight": "7 toneladas (Aproximadamente 3.80 m x 2.20 m x 0.25 m)",
+    "age": "Ca. 683 d.C. (Siglo VII d.C.)"
+  },
+  "faq": [
+    {
+      "question": "¿Por qué la figura aparenta estar manejando una máquina o nave espacial?",
+      "answer": "Es un mito popular. En la cosmovisión maya, las supuestas 'palancas' y 'pedales' son la mazorca del maíz sagrado, las fauces del inframundo Xibalbá y las ramas de la Ceiba cosmogónica que guía su alma a los cielos."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Encuentra la gran cruz central que representa la Ceiba sagrada o Árbol Cósmico"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca las fauces abiertas del Monstruo de la Tierra en la parte inferior sobre las que yace Pakal"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "El arqueólogo Alberto Ruz Lhuillier tardó cuatro años en retirar toneladas de escombros de la escalera interior antes de descubrir la cámara intacta en 1952."
+    },
+    {
+      "id": "cur-2",
+      "fact": "Aunque teorizaciones del siglo XX sugerían erróneamente la figura de un astronauta, los glifos e iconografía confirman la visión teológica maya del tránsito del rey hacia la inmortalidad."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué la figura aparenta estar manejando una máquina o nave espacial?",
+      "answer": "Es un mito popular. En la cosmovisión maya, las supuestas 'palancas' y 'pedales' son la mazorca del maíz sagrado, las fauces del inframundo Xibalbá y las ramas de la Ceiba cosmogónica que guía su alma a los cielos."
+    }
+  ]
+}

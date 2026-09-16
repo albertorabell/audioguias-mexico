@@ -1,0 +1,99 @@
+{
+  "id": "xochipilli",
+  "poi_id": "xochipilli",
+  "room_id": "sala-mexica",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-mexica",
+    "room_name": "Sala Mexica",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 5,
+  "is_premium": false,
+  "estimated_minutes": 3,
+  "tags": [
+    "arte",
+    "ritual",
+    "vida_cotidiana"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Xochipilli",
+    "culture_period": "Mexica / Posclásico Tardío (1325–1521 d.C.)",
+    "room_zone": "Sala Mexica, Museo Nacional de Antropología",
+    "tags": [
+      "arte",
+      "ritual",
+      "vida_cotidiana"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Statue_of_Xochipilli_%28From_the_National_Museum_of_Anthropology%2C_Mexico_City%29.jpg"
+  },
+  "narrative": {
+    "one_liner": "En el silencio de la piedra habita el aliento divino de la flor, el canto y el trance.",
+    "short_desc": "Xochipilli, 'El Príncipe de las Flores', encarna la poesía, el arte y el éxtasis místico. Esta escultura mexica reclinada está cubierta de plantas sagradas alucinógenas que vinculaban al hombre con los dioses.",
+    "deep_desc": "En contraste con las deidades de la guerra, aquí nos recibe Xochipilli, el príncipe de las flores, el canto y la poesía. Sentado en éxtasis místico, su cuerpo y pedestal están tallados con plantas enteógenas (alucinógenas) como el peyote y los hongos sagrados, que los sacerdotes usaban para comunicarse con lo divino."
+  },
+  "audioguide": {
+    "audio_script": "En contraste con las deidades de la guerra, aquí nos recibe Xochipilli, el príncipe de las flores, el canto y la poesía. Sentado en éxtasis místico, su cuerpo y pedestal están tallados con plantas enteógenas (alucinógenas) como el peyote y los hongos sagrados, que los sacerdotes usaban para comunicarse con lo divino.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Xochipilli, 'El Príncipe de las Flores', encarna la poesía, el arte y el éxtasis místico. Esta escultura mexica reclinada está cubierta de plantas sagradas alucinógenas que vinculaban al hombre con los dioses.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "La boca entreabierta y mirada elevada que reflejan el éxtasis ritual"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Las flores esculpidas en piernas y pedestal con formas botánicas de plantas enteógenas"
+    }
+  ],
+  "did_you_know": [
+    "La estatua fue encontrada en las faldas del volcán Popocatépetl, en Tlalmanalco, Estado de México.",
+    "Botánicos han identificado en sus relieved especies reales como el floripondio, el tabaco silvestre, la majagua y hongos sagrados Psilocybe."
+  ],
+  "specs": {
+    "material": "Andesita (piedra volcánica)",
+    "provenance": "Tlalmanalco, Estado de México",
+    "weight": "1.2 metros de altura",
+    "age": "Aprox. 1450–1521 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Representa esta figura el consumo recreativo de drogas en el México prehispánico?",
+      "answer": "No. El uso de plantas enteógenas tenía un carácter estrictamente sagrado, sacerdotal y medicinal; eran consideradas herramientas sagradas para cruzar el umbral terrenal y comunicarse con las deidades."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "La boca entreabierta y mirada elevada que reflejan el éxtasis ritual"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Las flores esculpidas en piernas y pedestal con formas botánicas de plantas enteógenas"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "La estatua fue encontrada en las faldas del volcán Popocatépetl, en Tlalmanalco, Estado de México."
+    },
+    {
+      "id": "cur-2",
+      "fact": "Botánicos han identificado en sus relieved especies reales como el floripondio, el tabaco silvestre, la majagua y hongos sagrados Psilocybe."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Representa esta figura el consumo recreativo de drogas en el México prehispánico?",
+      "answer": "No. El uso de plantas enteógenas tenía un carácter estrictamente sagrado, sacerdotal y medicinal; eran consideradas herramientas sagradas para cruzar el umbral terrenal y comunicarse con las deidades."
+    }
+  ]
+}

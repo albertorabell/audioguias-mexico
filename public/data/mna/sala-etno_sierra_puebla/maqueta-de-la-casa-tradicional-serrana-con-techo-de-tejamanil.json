@@ -1,7 +1,14 @@
 {
+  "id": "maqueta-de-la-casa-tradicional-serrana-con-techo-de-tejamanil",
   "poi_id": "maqueta-de-la-casa-tradicional-serrana-con-techo-de-tejamanil",
   "room_id": "sala-etno_sierra_puebla",
   "site_id": "MNA",
+  "location": {
+    "room_id": "sala-etno_sierra_puebla",
+    "room_name": "Sala Sierra de Puebla",
+    "case_number": ""
+  },
+  "case_number": "",
   "orden_sala": 10,
   "is_premium": false,
   "estimated_minutes": 4,

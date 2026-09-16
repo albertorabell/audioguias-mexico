@@ -1,0 +1,97 @@
+{
+  "id": "replica-del-penacho",
+  "poi_id": "replica-del-penacho",
+  "room_id": "sala-mexica",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-mexica",
+    "room_name": "Sala Mexica",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 8,
+  "is_premium": false,
+  "estimated_minutes": 3,
+  "tags": [
+    "indumentaria",
+    "poder"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Réplica del Penacho",
+    "culture_period": "Mexica / Posclásico Tardío (1325–1521 d.C.)",
+    "room_zone": "Sala Mexica, Museo Nacional de Antropología",
+    "tags": [
+      "indumentaria",
+      "poder"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/El_filibusterismo_por_Jos%C3%A9_Rizal_%28JRNCC%2C_1961%29.djvu"
+  },
+  "narrative": {
+    "one_liner": "Un resplandor verde y de oro donde el arte de los amantecas transforma el plumaje en la presencia viva de lo divino.",
+    "short_desc": "Obra maestra del arte plumario mexica creada por los amantecas. Este tocado ceremonial de plumas de quetzal y oro no era una corona, sino una insignia sagrada que encarnaba a los dioses.",
+    "deep_desc": "Ante nosotros brilla el trabajo de los amantecas o maestros del arte plumario. Este quetzalapanecáyotl, compuesto por cientos de plumas de quetzal y oro, no era una corona, sino un tocado ceremonial usado por sacerdotes o gobernantes en danzas rituales que los convertían en deidades vivientes."
+  },
+  "audioguide": {
+    "audio_script": "Ante nosotros brilla el trabajo de los amantecas o maestros del arte plumario. Este quetzalapanecáyotl, compuesto por cientos de plumas de quetzal y oro, no era una corona, sino un tocado ceremonial usado por sacerdotes o gobernantes en danzas rituales que los convertían en deidades vivientes.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Obra maestra del arte plumario mexica creada por los amantecas. Este tocado ceremonial de plumas de quetzal y oro no era una corona, sino una insignia sagrada que encarnaba a los dioses.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Busca los pequeños discos de oro que rematan la base simulando escamas solares"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Observa el contraste de color entre las plumas azules de cotinga y las verdes del quetzal"
+    }
+  ],
+  "did_you_know": [
+    "El original se encuentra en el Weltmuseum de Viena, Austria; esta réplica exacta fue realizada a mediados del siglo XX por el artesano Francisco Moctezuma.",
+    "Para confeccionar el original se recolectaron más de 450 plumas de quetzal macho, extraídas sin matar a las aves para permitir la regeneración de su plumaje."
+  ],
+  "specs": {
+    "material": "Plumas de quetzal, cotinga, espátula rosada, lúnulas y discos de oro, red de hilo de algodón y varillas de madera",
+    "provenance": "Tenochtitlan, Ciudad de México",
+    "weight": "116 cm de altura por 175 cm de ancho",
+    "age": "Original: Aprox. 1500–1520 d.C. / Réplica: 1940 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Fue este penacho realmente la corona personal del emperador Moctezuma?",
+      "answer": "No. Los gobernantes mexicas no usaban coronas; el quetzalapanecáyotl era una insignia ritual de alto rango usada por sacerdotes y reyes para encarnar divinidades en ceremonias. Su atribución exclusiva a Moctezuma es un mito romántico surgido en el siglo XIX."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Busca los pequeños discos de oro que rematan la base simulando escamas solares"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Observa el contraste de color entre las plumas azules de cotinga y las verdes del quetzal"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "El original se encuentra en el Weltmuseum de Viena, Austria; esta réplica exacta fue realizada a mediados del siglo XX por el artesano Francisco Moctezuma."
+    },
+    {
+      "id": "cur-2",
+      "fact": "Para confeccionar el original se recolectaron más de 450 plumas de quetzal macho, extraídas sin matar a las aves para permitir la regeneración de su plumaje."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Fue este penacho realmente la corona personal del emperador Moctezuma?",
+      "answer": "No. Los gobernantes mexicas no usaban coronas; el quetzalapanecáyotl era una insignia ritual de alto rango usada por sacerdotes y reyes para encarnar divinidades en ceremonias. Su atribución exclusiva a Moctezuma es un mito romántico surgido en el siglo XIX."
+    }
+  ]
+}

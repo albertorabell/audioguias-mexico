@@ -1,0 +1,99 @@
+{
+  "id": "mascara-funeraria-de-pakal",
+  "poi_id": "mascara-funeraria-de-pakal",
+  "room_id": "sala-maya",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-maya",
+    "room_name": "Sala Maya",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 1,
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "ritos_funerarios",
+    "jade",
+    "poder"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Máscara Funeraria de Pakal",
+    "culture_period": "Maya / Clásico Tardío (600–900 d.C.)",
+    "room_zone": "Sala Maya, Museo Nacional de Antropología",
+    "tags": [
+      "ritos_funerarios",
+      "jade",
+      "poder"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Maya_Jade_Mask_of_Kinich_Hanab_Pakal%2C_Ruler_of_Palenque%2C_615-683_AD.jpg"
+  },
+  "narrative": {
+    "one_liner": "El rostro verde de la eternidad donde un rey renace convertido en maíz divino.",
+    "short_desc": "Obra cumbre del arte maya ensamblada con más de 340 teselas de jade. Retrata a Pakal transfigurado en el Dios del Maíz, simbolizando la fertilidad, el aliento vital y su renacimiento eterno.",
+    "deep_desc": "Llegamos a la cumbre del arte funerario maya frente a la máscara de K’inich Janaab’ Pakal, el gran señor de Palenque. Ensamblada con más de 340 teselas de jade verde, obsidiana y concha nácar sobre el rostro del monarca fallecido, no solo retrata su dignidad real, sino que lo transfigura en el Dios del Maíz. Para los mayas, el jade simbolizaba la fertilidad, el aliento vital y la promesa de renacimiento eterno tras cruzar el inframundo."
+  },
+  "audioguide": {
+    "audio_script": "Llegamos a la cumbre del arte funerario maya frente a la máscara de K’inich Janaab’ Pakal, el gran señor de Palenque. Ensamblada con más de 340 teselas de jade verde, obsidiana y concha nácar sobre el rostro del monarca fallecido, no solo retrata su dignidad real, sino que lo transfigura en el Dios del Maíz. Para los mayas, el jade simbolizaba la fertilidad, el aliento vital y la promesa de renacimiento eterno tras cruzar el inframundo.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Obra cumbre del arte maya ensamblada con más de 340 teselas de jade. Retrata a Pakal transfigurado en el Dios del Maíz, simbolizando la fertilidad, el aliento vital y su renacimiento eterno.",
+  "observation_challenges": [
+    {
+      "titulo": "Mirada divina",
+      "descripcion": "observa las pupilas de obsidiana sobre concha nácar que evocan el estrabismo ritual"
+    },
+    {
+      "titulo": "Mosaico perfecto",
+      "descripcion": "busca las finas teselas de jade verde que perfilan la barbilla y boca del soberano"
+    }
+  ],
+  "did_you_know": [
+    "Fue sustraída del museo durante el célebre robo de la Nochebuena de 1985 y afortunadamente recuperada intacta cuatro años más tarde.",
+    "El jade era considerado por los mayas el material más sagrado, con mayor valor sagrado y ritual que el propio oro."
+  ],
+  "specs": {
+    "material": "Jadeíta verde, obsidiana y concha nácar",
+    "provenance": "Templo de las Inscripciones, Palenque, Chiapas",
+    "weight": "24.0 cm × 19.0 cm (aprox.)",
+    "age": "683 d.C. (Siglo VII d.C.)"
+  },
+  "faq": [
+    {
+      "question": "¿Por qué colocaron una máscara de jade sobre el rostro de Pakal al morir?",
+      "answer": "Porque el jade simbolizaba el agua, la vegetación y el aliento vital; la máscara congelaba las facciones del monarca y lo transfiguraba en el Dios del Maíz para asegurar su resurrección divina."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Mirada divina",
+      "clue": "observa las pupilas de obsidiana sobre concha nácar que evocan el estrabismo ritual"
+    },
+    {
+      "id": "ch-2",
+      "title": "Mosaico perfecto",
+      "clue": "busca las finas teselas de jade verde que perfilan la barbilla y boca del soberano"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Fue sustraída del museo durante el célebre robo de la Nochebuena de 1985 y afortunadamente recuperada intacta cuatro años más tarde."
+    },
+    {
+      "id": "cur-2",
+      "fact": "El jade era considerado por los mayas el material más sagrado, con mayor valor sagrado y ritual que el propio oro."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué colocaron una máscara de jade sobre el rostro de Pakal al morir?",
+      "answer": "Porque el jade simbolizaba el agua, la vegetación y el aliento vital; la máscara congelaba las facciones del monarca y lo transfiguraba en el Dios del Maíz para asegurar su resurrección divina."
+    }
+  ]
+}

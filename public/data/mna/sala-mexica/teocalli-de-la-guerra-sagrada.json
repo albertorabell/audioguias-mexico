@@ -1,0 +1,97 @@
+{
+  "id": "teocalli-de-la-guerra-sagrada",
+  "poi_id": "teocalli-de-la-guerra-sagrada",
+  "room_id": "sala-mexica",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-mexica",
+    "room_name": "Sala Mexica",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 3,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "mito_fundacional",
+    "poder"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Teocalli de la Guerra Sagrada",
+    "culture_period": "Mexica / Posclásico Tardío (1507 d.C.)",
+    "room_zone": "Sala Mexica, Museo Nacional de Antropología",
+    "tags": [
+      "mito_fundacional",
+      "poder"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Teocalli_de_la_Guerra_Sagrada_-_3.jpg"
+  },
+  "narrative": {
+    "one_liner": "El trono sagrado donde la piedra inmortalizó la fundación del cosmos y el destino divino de un imperio.",
+    "short_desc": "Monolito tallado como templo ceremonial que sirvió de trono imperial. Resguarda la escultura más antigua del águila sobre el nopal, consagrando la alianza divina entre la guerra sagrada y el poder imperial mexica.",
+    "deep_desc": "Siguiendo el rastro del poder imperial, llegamos a este trono tallado con la forma de un templo. En su respaldo se encuentra el grabado más antiguo que representa el mito fundacional de Tenochtitlan: el águila posada sobre el nopal, que hoy es el escudo nacional de México, unificando la guerra y el triunfo cósmico."
+  },
+  "audioguide": {
+    "audio_script": "Siguiendo el rastro del poder imperial, llegamos a este trono tallado con la forma de un templo. En su respaldo se encuentra el grabado más antiguo que representa el mito fundacional de Tenochtitlan: el águila posada sobre el nopal, que hoy es el escudo nacional de México, unificando la guerra y el triunfo cósmico.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Monolito tallado como templo ceremonial que sirvió de trono imperial. Resguarda la escultura más antigua del águila sobre el nopal, consagrando la alianza divina entre la guerra sagrada y el poder imperial mexica.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa en el respaldo la figura del águila posada sobre el nopal emitiendo el glifo sagrado"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca en los peldaños escalonados los glifos calendáricos vinculados al Fuego Nuevo"
+    }
+  ],
+  "did_you_know": [
+    "Moctezuma II utilizaba este trono durante las ceremonias del Fuego Nuevo para legitimar su poder",
+    "El elemento que brota del pico del águila no es una serpiente, sino el 'atl-tlachinolli', glifo nahua del agua quemada o la guerra sagrada"
+  ],
+  "specs": {
+    "material": "Andesita volcánica",
+    "provenance": "Cimientos del Palacio Nacional, Ciudad de México",
+    "weight": "1.23 metros de altura, 92 cm de ancho y 1.00 metro de profundidad",
+    "age": "Aprox. 1507 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿El águila esculpida en la pieza realmente está devorando a una serpiente?",
+      "answer": "No. En la escultura mexica original brota de su pico el símbolo del 'atl-tlachinolli' (unión de agua y fuego). La serpiente fue una reinterpreteación de los cronistas coloniales españoles."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa en el respaldo la figura del águila posada sobre el nopal emitiendo el glifo sagrado"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca en los peldaños escalonados los glifos calendáricos vinculados al Fuego Nuevo"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Moctezuma II utilizaba este trono durante las ceremonias del Fuego Nuevo para legitimar su poder"
+    },
+    {
+      "id": "cur-2",
+      "fact": "El elemento que brota del pico del águila no es una serpiente, sino el 'atl-tlachinolli', glifo nahua del agua quemada o la guerra sagrada"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿El águila esculpida en la pieza realmente está devorando a una serpiente?",
+      "answer": "No. En la escultura mexica original brota de su pico el símbolo del 'atl-tlachinolli' (unión de agua y fuego). La serpiente fue una reinterpreteación de los cronistas coloniales españoles."
+    }
+  ]
+}

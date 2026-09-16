@@ -1,0 +1,99 @@
+{
+  "id": "estela-de-madrid-o-estela-51-de-calakmul",
+  "poi_id": "estela-de-madrid-o-estela-51-de-calakmul",
+  "room_id": "sala-maya",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-maya",
+    "room_name": "Sala Maya",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 7,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "escritura",
+    "cronologia",
+    "reyes"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Estela de Madrid o Estela 51 de Calakmul",
+    "culture_period": "Maya / Clásico Tardío (600–900 d.C.)",
+    "room_zone": "Sala Maya, Museo Nacional de Antropología",
+    "tags": [
+      "escritura",
+      "cronologia",
+      "reyes"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Piedra sagrada donde el tiempo maya inmortalizó la gloria divina de un rey.",
+    "short_desc": "Monolito maya del 731 d.C. que retrata al gobernante Yuknoom Took' K'awiil sosteniendo el cetro divino de K'awiil. Sus inscripciones laterales registran con precisión astronómica triunfos militares y aniversarios dinásticos.",
+    "deep_desc": "Este imponente monumento monolítico conmemora el ascenso al trono de Yuknoom Took' K'awiil en el año 731 d.C. En el frente, el soberano aparece de pie sosteniendo el cetro del dios K'awiil (símbolo del rayo y la soberanía), mientras que sus costados están cubiertos de inscripciones calendáricas en Cuenta Larga que registraban con precisión astronómica las victorias y aniversarios dinásticos."
+  },
+  "audioguide": {
+    "audio_script": "Este imponente monumento monolítico conmemora el ascenso al trono de Yuknoom Took' K'awiil en el año 731 d.C. En el frente, el soberano aparece de pie sosteniendo el cetro del dios K'awiil (símbolo del rayo y la soberanía), mientras que sus costados están cubiertos de inscripciones calendáricas en Cuenta Larga que registraban con precisión astronómica las victorias y aniversarios dinásticos.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Monolito maya del 731 d.C. que retrata al gobernante Yuknoom Took' K'awiil sosteniendo el cetro divino de K'awiil. Sus inscripciones laterales registran con precisión astronómica triunfos militares y aniversarios dinásticos.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa en el frente al soberano sosteniendo el cetro del dios K'awiil"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca en los costados los jeroglíficos calendáricos en Cuenta Larga"
+    }
+  ],
+  "did_you_know": [
+    "Calakmul es el sitio arqueológico con el mayor número de estelas registradas en toda el área maya (más de 120 monumentos).",
+    "El cetro del dios K'awiil encarna el poder del rayo, utilizado por los reyes mayas como el símbolo supremo de su linaje y soberanía."
+  ],
+  "specs": {
+    "material": "Piedra caliza esculpida",
+    "provenance": "Zona Arqueológica de Calakmul, Campeche, México",
+    "weight": "Aproximadamente 2.80 m de altura y 1.5 toneladas",
+    "age": "Año 731 d.C. (siglo VIII d.C.)"
+  },
+  "faq": [
+    {
+      "question": "¿Qué función cumplían las inscripciones en Cuenta Larga esculpidas a los costados?",
+      "answer": "Registraban fechas precisas basadas en la astronomía para vincular los eventos del rey, como su entronización o victorias militares, con ciclos cósmicos y calendáricos sagrados."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa en el frente al soberano sosteniendo el cetro del dios K'awiil"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca en los costados los jeroglíficos calendáricos en Cuenta Larga"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Calakmul es el sitio arqueológico con el mayor número de estelas registradas en toda el área maya (más de 120 monumentos)."
+    },
+    {
+      "id": "cur-2",
+      "fact": "El cetro del dios K'awiil encarna el poder del rayo, utilizado por los reyes mayas como el símbolo supremo de su linaje y soberanía."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué función cumplían las inscripciones en Cuenta Larga esculpidas a los costados?",
+      "answer": "Registraban fechas precisas basadas en la astronomía para vincular los eventos del rey, como su entronización o victorias militares, con ciclos cósmicos y calendáricos sagrados."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "mascara-de-calakmul",
+  "poi_id": "mascara-de-calakmul",
+  "room_id": "sala-maya",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-maya",
+    "room_name": "Sala Maya",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 5,
+  "is_premium": false,
+  "estimated_minutes": 4,
+  "tags": [
+    "jade",
+    "estatus",
+    "señores_serpiente"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Máscara de Calakmul",
+    "culture_period": "Maya / Clásico Tardío (600–900 d.C.)",
+    "room_zone": "Sala Maya, Museo Nacional de Antropología",
+    "tags": [
+      "jade",
+      "estatus",
+      "señores_serpiente"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Funerary_jade_mask%2C_Calakmul%2C_Mexico_%28m%C3%A1scara_funeraria%29.jpg"
+  },
+  "narrative": {
+    "one_liner": "Rostro verde de eternidad que guarda el aliento divino del señor de la Cabeza de Serpiente.",
+    "short_desc": "Símbolo supremo de poder maya: mosaico funerario de jade que divinizó a un gobernante de Calakmul, asegurando su aliento de vida y su renacimiento en el cosmos sagrado.",
+    "deep_desc": "Procedente de la gran superpotencia rival de Tikal, la dinastía de la Cabeza de Serpiente (Kaanu'l), esta máscara de mosaico de jade verde brillante cubrió los restos de un dignatario real en la Estructura VII de Calakmul. Sus orejeras de flor de cuatro pétalos aluden al cosmos ordenado y sus ojos de caracol y obsidiana otorgan una mirada viva y eterna al monarca deificado."
+  },
+  "audioguide": {
+    "audio_script": "Procedente de la gran superpotencia rival de Tikal, la dinastía de la Cabeza de Serpiente (Kaanu'l), esta máscara de mosaico de jade verde brillante cubrió los restos de un dignatario real en la Estructura VII de Calakmul. Sus orejeras de flor de cuatro pétalos aluden al cosmos ordenado y sus ojos de caracol y obsidiana otorgan una mirada viva y eterna al monarca deificado.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Símbolo supremo de poder maya: mosaico funerario de jade que divinizó a un gobernante de Calakmul, asegurando su aliento de vida y su renacimiento en el cosmos sagrado.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Las orejeras en forma de flor de cuatro pétalos que representan el cosmos ordenado"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "La mirada viva y eterna lograda con pupilas de obsidiana sobre incrustaciones de caracol"
+    }
+  ],
+  "did_you_know": [
+    "Fue descubierta en 1984 en una de las tumbas más ricas de las Tierras Bajas mayas de Campeche.",
+    "Perteneció a la dinastía Kaanu'l (Cabeza de Serpiente), la superpotencia militar que dominó gran parte del área maya y rivalizó con Tikal."
+  ],
+  "specs": {
+    "material": "Jadeíta verde, concha de caracol marino, obsidiana y concha de Spondylus",
+    "provenance": "Estructura VII, Zona Arqueológica de Calakmul, Campeche",
+    "weight": "35 cm x 20 cm x 12 cm aprox.",
+    "age": "Siglos VII – VIII d.C. (ca. 660–750 d.C.)"
+  },
+  "faq": [
+    {
+      "question": "¿Por qué se cubría el rostro del rey con una máscara de jade al morir?",
+      "answer": "Porque los mayas creían que el jade conservaba el aliento vital y otorgaba un rostro divino inalterable al monarca para permitirle renacer en el Inframundo."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Las orejeras en forma de flor de cuatro pétalos que representan el cosmos ordenado"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "La mirada viva y eterna lograda con pupilas de obsidiana sobre incrustaciones de caracol"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Fue descubierta en 1984 en una de las tumbas más ricas de las Tierras Bajas mayas de Campeche."
+    },
+    {
+      "id": "cur-2",
+      "fact": "Perteneció a la dinastía Kaanu'l (Cabeza de Serpiente), la superpotencia militar que dominó gran parte del área maya y rivalizó con Tikal."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué se cubría el rostro del rey con una máscara de jade al morir?",
+      "answer": "Porque los mayas creían que el jade conservaba el aliento vital y otorgaba un rostro divino inalterable al monarca para permitirle renacer en el Inframundo."
+    }
+  ]
+}

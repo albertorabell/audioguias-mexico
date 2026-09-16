@@ -1,7 +1,14 @@
 {
+  "id": "palma-esculpida-con-vuelo-de-aves",
   "poi_id": "palma-esculpida-con-vuelo-de-aves",
   "room_id": "sala-costa_del_golfo",
   "site_id": "MNA",
+  "location": {
+    "room_id": "sala-costa_del_golfo",
+    "room_name": "Sala Costa del Golfo",
+    "case_number": ""
+  },
+  "case_number": "",
   "orden_sala": 8,
   "is_premium": true,
   "estimated_minutes": 3,
@@ -16,7 +23,7 @@
   },
   "identification": {
     "title": "Palma Esculpida con Vuelo de Aves",
-    "culture_period": "Mesoamérica",
+    "culture_period": "Cultura del Centro de Veracruz / Clásico Tardío (600–900 d.C.)",
     "room_zone": "Sala Costa del Golfo, Museo Nacional de Antropología",
     "tags": [
       "escultura",
@@ -26,32 +33,67 @@
     "hero_image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/El_huerto_armonioso_-_Angel_de_Estrada.pdf"
   },
   "narrative": {
-    "one_liner": "Junto con los yugos y las hachas, las 'palmas' completan la tríada del ajuar ceremonial del juego de pelota en el centro de Veracruz.",
-    "short_desc": "Junto con los yugos y las hachas, las 'palmas' completan la tríada del ajuar ceremonial del juego de pelota en el centro de Veracruz.",
+    "one_liner": "El vuelo de piedra que perpetúa el sagrado sacrificio y el renacer de la vida.",
+    "short_desc": "Pieza ceremonial de arenisca que completa la tríada sagrada del juego de pelota. Sus siluetas aladas evocan el vuelo aviar, el autosacrificio y la regeneración vegetal del centro de Veracruz.",
     "deep_desc": "Junto con los yugos y las hachas, las 'palmas' completan la tríada del ajuar ceremonial del juego de pelota en el centro de Veracruz. Esta esbelta pieza vertical de piedra arenisca se ensancha hacia arriba culminando en siluetas aladas, diseñada para encajar verticalmente sobre el frente de los yugos ceremoniales. Su iconografía solía representar escenas de autosacrificio y decapitación vinculadas al renacer vegetal."
   },
   "audioguide": {
     "audio_script": "Junto con los yugos y las hachas, las 'palmas' completan la tríada del ajuar ceremonial del juego de pelota en el centro de Veracruz. Esta esbelta pieza vertical de piedra arenisca se ensancha hacia arriba culminando en siluetas aladas, diseñada para encajar verticalmente sobre el frente de los yugos ceremoniales. Su iconografía solía representar escenas de autosacrificio y decapitación vinculadas al renacer vegetal.",
     "audio_file_url": ""
   },
-  "summary_30s": "Junto con los yugos y las hachas, las 'palmas' completan la tríada del ajuar ceremonial del juego de pelota en el centro de Veracruz.",
-  "observation_challenges": [],
+  "summary_30s": "Pieza ceremonial de arenisca que completa la tríada sagrada del juego de pelota. Sus siluetas aladas evocan el vuelo aviar, el autosacrificio y la regeneración vegetal del centro de Veracruz.",
+  "observation_challenges": [
+    {
+      "titulo": "Remate superior",
+      "descripcion": "observe las siluetas aladas que simulan el plumaje de aves en vuelo"
+    },
+    {
+      "titulo": "Base de la pieza",
+      "descripcion": "busque el corte cóncavo diseñado para embonar perfectamente sobre el yugo"
+    }
+  ],
   "did_you_know": [
-    "Eran colocadas como estelas en miniatura sobre las tumbas de los guerreros caídos o jugadores consagrados a las divinidades del agua."
+    "Eran colocadas como estelas en miniatura sobre las tumbas de los guerreros caídos o jugadores consagrados a las divinidades del agua.",
+    "Aunque replicaban los protectores de cuero o madera usados en el juego ritual, estas esculturas de piedra tenían una función estrictamente funeraria y votiva."
   ],
   "specs": {
-    "material": "",
-    "provenance": "",
-    "weight": "",
-    "age": ""
+    "material": "Piedra arenisca esculpida",
+    "provenance": "Centro de Veracruz, México",
+    "weight": "45 cm de alto x 18 cm de ancho; 14 kg aprox.",
+    "age": "Aproximadamente 1,200 a 1,400 años (600–900 d.C.)"
   },
-  "faq": [],
-  "visual_challenge": [],
+  "faq": [
+    {
+      "question": "¿Los atletas utilizaban estas palmas de piedra durante los partidos del juego de pelota?",
+      "answer": "No, las piezas de piedra eran elementos votivos y funerarios. En el juego activo se empleaban accesorios ligeros fabricados con madera, cuero o cestería para no impedir el movimiento."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Remate superior",
+      "clue": "observe las siluetas aladas que simulan el plumaje de aves en vuelo"
+    },
+    {
+      "id": "ch-2",
+      "title": "Base de la pieza",
+      "clue": "busque el corte cóncavo diseñado para embonar perfectamente sobre el yugo"
+    }
+  ],
   "curiosities": [
     {
       "id": "cur-1",
       "fact": "Eran colocadas como estelas en miniatura sobre las tumbas de los guerreros caídos o jugadores consagrados a las divinidades del agua."
+    },
+    {
+      "id": "cur-2",
+      "fact": "Aunque replicaban los protectores de cuero o madera usados en el juego ritual, estas esculturas de piedra tenían una función estrictamente funeraria y votiva."
     }
   ],
-  "faqs": []
+  "faqs": [
+    {
+      "question": "¿Los atletas utilizaban estas palmas de piedra durante los partidos del juego de pelota?",
+      "answer": "No, las piezas de piedra eran elementos votivos y funerarios. En el juego activo se empleaban accesorios ligeros fabricados con madera, cuero o cestería para no impedir el movimiento."
+    }
+  ]
 }

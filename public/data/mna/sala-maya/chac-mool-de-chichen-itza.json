@@ -1,0 +1,99 @@
+{
+  "id": "chac-mool-de-chichen-itza",
+  "poi_id": "chac-mool-de-chichen-itza",
+  "room_id": "sala-maya",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-maya",
+    "room_name": "Sala Maya",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 4,
+  "is_premium": false,
+  "estimated_minutes": 4,
+  "tags": [
+    "escultura",
+    "sacrificio",
+    "tolteca_maya"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Chac Mool de Chichén Itzá",
+    "culture_period": "Maya / Posclásico Temprano (900–1200 d.C.)",
+    "room_zone": "Sala Maya, Museo Nacional de Antropología",
+    "tags": [
+      "escultura",
+      "sacrificio",
+      "tolteca_maya"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Breve_gu%C3%ADa_descriptiva_del_Museo_Nacional_de_M%C3%A9xico_%28IA_breveguiadescrip00museiala%29.pdf"
+  },
+  "narrative": {
+    "one_liner": "El guardián silente que sostiene la frontera entre lo terrenal y lo divino.",
+    "short_desc": "Escultura enigmática del Posclásico maya que representa a un intermediario divino. Recostado, sostiene en su vientre un plato ritual para recibir sangre, corazones e incienso quemados en las cumbres piramidales.",
+    "deep_desc": "Esta enigmática figura recostada sobre la espalda, con las rodillas dobladas y la cabeza girada 90 grados hacia el observador, es la obra más representativa del periodo Posclásico maya en Yucatán. Sobre su vientre sostiene un plato circular plano destinado a recibir las ofrendas rituales, corazones e incienso quemado durante las ceremonias en la cúspide de las pirámides, mediando entre sacerdotes y deidades celestes."
+  },
+  "audioguide": {
+    "audio_script": "Esta enigmática figura recostada sobre la espalda, con las rodillas dobladas y la cabeza girada 90 grados hacia el observador, es la obra más representativa del periodo Posclásico maya en Yucatán. Sobre su vientre sostiene un plato circular plano destinado a recibir las ofrendas rituales, corazones e incienso quemado durante las ceremonias en la cúspide de las pirámides, mediando entre sacerdotes y deidades celestes.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Escultura enigmática del Posclásico maya que representa a un intermediario divino. Recostado, sostiene en su vientre un plato ritual para recibir sangre, corazones e incienso quemados en las cumbres piramidales.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa la torsión de la cabeza girada exactamente a 90 grados hacia ti"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca el plato circular plano sobre su vientre diseñado para contener las ofrendas"
+    }
+  ],
+  "did_you_know": [
+    "Augustus Le Plongeon lo descubrió en 1875 y le asignó el nombre 'Chac Mool' (Garra Roja de Tigre), creyendo erróneamente que era la tumba de un príncipe guerrero.",
+    "Aunque su nombre prehispánico real se desconoce, la denominación dada por Le Plongeon se convirtió en el término arqueológico estándar para este tipo de esculturas mesoamericanas."
+  ],
+  "specs": {
+    "material": "Piedra caliza policromada",
+    "provenance": "Zona Arqueológica de Chichén Itzá, Yucatán",
+    "weight": "105 cm de alto x 148 cm de largo; aprox. 1,200 kg",
+    "age": "900–1200 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Cuál era la función ritual exacta del plato sobre su vientre?",
+      "answer": "Funcionaba como receptáculo sagrado (cuauhxicalli o altar) para colocar las ofrendas vitales, como corazones humanos e incienso copal, sirviendo como vínculo directo entre las plegarias humanas y los dioses celestes."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa la torsión de la cabeza girada exactamente a 90 grados hacia ti"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca el plato circular plano sobre su vientre diseñado para contener las ofrendas"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Augustus Le Plongeon lo descubrió en 1875 y le asignó el nombre 'Chac Mool' (Garra Roja de Tigre), creyendo erróneamente que era la tumba de un príncipe guerrero."
+    },
+    {
+      "id": "cur-2",
+      "fact": "Aunque su nombre prehispánico real se desconoce, la denominación dada por Le Plongeon se convirtió en el término arqueológico estándar para este tipo de esculturas mesoamericanas."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuál era la función ritual exacta del plato sobre su vientre?",
+      "answer": "Funcionaba como receptáculo sagrado (cuauhxicalli o altar) para colocar las ofrendas vitales, como corazones humanos e incienso copal, sirviendo como vínculo directo entre las plegarias humanas y los dioses celestes."
+    }
+  ]
+}

@@ -1,7 +1,14 @@
 {
+  "id": "hacha-votiva-de-guerrero",
   "poi_id": "hacha-votiva-de-guerrero",
   "room_id": "sala-costa_del_golfo",
   "site_id": "MNA",
+  "location": {
+    "room_id": "sala-costa_del_golfo",
+    "room_name": "Sala Costa del Golfo",
+    "case_number": ""
+  },
+  "case_number": "",
   "orden_sala": 6,
   "is_premium": true,
   "estimated_minutes": 3,
@@ -16,7 +23,7 @@
   },
   "identification": {
     "title": "Hacha Votiva de Guerrero",
-    "culture_period": "Mesoamérica",
+    "culture_period": "Cultura Totonaca / Clásico Tardío (600–900 d.C.)",
     "room_zone": "Sala Costa del Golfo, Museo Nacional de Antropología",
     "tags": [
       "juego_pelota",
@@ -26,32 +33,67 @@
     "hero_image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Pr%C3%B3logos_de_la_trilog%C3%ADa._Nutall.pdf"
   },
   "narrative": {
-    "one_liner": "Tallada con precisión quirúrgica en piedra dura pulida, esta pieza perfilada y plana es un hacha ceremonial totonaca asociada al juego de pelota sagrado.",
-    "short_desc": "Tallada con precisión quirúrgica en piedra dura pulida, esta pieza perfilada y plana es un hacha ceremonial totonaca asociada al juego de pelota sagrado.",
+    "one_liner": "Esculpida para la eternidad, el hacha ritual inmortaliza el rostro del jugador sagrado.",
+    "short_desc": "Hacha ceremonial totonaca en piedra pulida que muestra el perfil de un dignatario con tocado aviar. Funcionaba como insignia ritual y ofrenda mortuoria asociada al juego de pelota sagrado.",
     "deep_desc": "Tallada con precisión quirúrgica en piedra dura pulida, esta pieza perfilada y plana es un hacha ceremonial totonaca asociada al juego de pelota sagrado. El perfil muestra el rostro estilizado de un dignatario con casco y tocado de ave marina. Aunque las piezas reales de juego eran de madera o cuero para soportar el golpeo, las versiones en piedra se labraban como insignias rituales y ofrendas mortuorias para jugadores de alto linaje."
   },
   "audioguide": {
     "audio_script": "Tallada con precisión quirúrgica en piedra dura pulida, esta pieza perfilada y plana es un hacha ceremonial totonaca asociada al juego de pelota sagrado. El perfil muestra el rostro estilizado de un dignatario con casco y tocado de ave marina. Aunque las piezas reales de juego eran de madera o cuero para soportar el golpeo, las versiones en piedra se labraban como insignias rituales y ofrendas mortuorias para jugadores de alto linaje.",
     "audio_file_url": ""
   },
-  "summary_30s": "Tallada con precisión quirúrgica en piedra dura pulida, esta pieza perfilada y plana es un hacha ceremonial totonaca asociada al juego de pelota sagrado.",
-  "observation_challenges": [],
+  "summary_30s": "Hacha ceremonial totonaca en piedra pulida que muestra el perfil de un dignatario con tocado aviar. Funcionaba como insignia ritual y ofrenda mortuoria asociada al juego de pelota sagrado.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa el perfil estilizado del rostro del dignatario labrado en la piedra"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca las formas del casco que simulan el plumaje de un ave marina"
+    }
+  ],
   "did_you_know": [
-    "Las hachas ceremoniales servían como marcadores en las canchas de pelota o se embonaban directamente en los cinturones de juego ritual de los sacerdotes."
+    "Las hachas ceremoniales servían como marcadores en las canchas de pelota o se embonaban directamente en los cinturones de juego ritual de los sacerdotes.",
+    "Aunque el equipamiento de juego real era de madera o cuero para amortiguar golpes, las piezas de piedra se labraban exclusivamente para entierros e insignias de la élite."
   ],
   "specs": {
-    "material": "",
-    "provenance": "",
-    "weight": "",
-    "age": ""
+    "material": "Piedra dura pulida (basalto/andesita)",
+    "provenance": "Guerrero / Costa del Golfo, México",
+    "weight": "28 x 18 x 4 cm (est.); 1.8 kg",
+    "age": "Aproximadamente 1,200–1,400 años"
   },
-  "faq": [],
-  "visual_challenge": [],
+  "faq": [
+    {
+      "question": "¿Se utilizaban estas hachas de piedra durante los partidos de pelota?",
+      "answer": "No. Eran demasiado pesadas y frágiles para el juego real; se usaban únicamente como marcadores de cancha, insignias de prestigio o atavíos funerarios para sacerdotes y jugadores de alto linaje."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa el perfil estilizado del rostro del dignatario labrado en la piedra"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca las formas del casco que simulan el plumaje de un ave marina"
+    }
+  ],
   "curiosities": [
     {
       "id": "cur-1",
       "fact": "Las hachas ceremoniales servían como marcadores en las canchas de pelota o se embonaban directamente en los cinturones de juego ritual de los sacerdotes."
+    },
+    {
+      "id": "cur-2",
+      "fact": "Aunque el equipamiento de juego real era de madera o cuero para amortiguar golpes, las piezas de piedra se labraban exclusivamente para entierros e insignias de la élite."
     }
   ],
-  "faqs": []
+  "faqs": [
+    {
+      "question": "¿Se utilizaban estas hachas de piedra durante los partidos de pelota?",
+      "answer": "No. Eran demasiado pesadas y frágiles para el juego real; se usaban únicamente como marcadores de cancha, insignias de prestigio o atavíos funerarios para sacerdotes y jugadores de alto linaje."
+    }
+  ]
 }

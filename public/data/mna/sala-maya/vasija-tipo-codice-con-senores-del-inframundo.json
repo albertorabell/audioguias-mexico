@@ -1,0 +1,99 @@
+{
+  "id": "vasija-tipo-codice-con-senores-del-inframundo",
+  "poi_id": "vasija-tipo-codice-con-senores-del-inframundo",
+  "room_id": "sala-maya",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-maya",
+    "room_name": "Sala Maya",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 8,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "ceramica",
+    "mito_popol_vuh",
+    "pintura"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Vasija tipo Códice con Señores del Inframundo",
+    "culture_period": "Maya / Clásico Tardío (600–900 d.C.)",
+    "room_zone": "Sala Maya, Museo Nacional de Antropología",
+    "tags": [
+      "ceramica",
+      "mito_popol_vuh",
+      "pintura"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Tinta del inframundo plasmada en barro para la eternidad de los dioses y el cacao.",
+    "short_desc": "Obra maestra caligráfica maya. Este vaso estilizado emula los códices perdidos, narrando mitos ancestrales del inframundo y del Popol Vuh mediante deidades y rituales dedicados al consumo de cacao divino.",
+    "deep_desc": "Pintado con finas líneas negras y marrones sobre fondo crema que emulan los códices de papel amate, este vaso cilíndrico ilustra pasajes míticos cercanos a las narraciones del Popol Vuh. Dioses ancianos del inframundo, escribas zoomorfos y deidades del agua discuten y celebran rituales, demostrando la maestría del trazo caligráfico de los maestros pintores mayas."
+  },
+  "audioguide": {
+    "audio_script": "Pintado con finas líneas negras y marrones sobre fondo crema que emulan los códices de papel amate, este vaso cilíndrico ilustra pasajes míticos cercanos a las narraciones del Popol Vuh. Dioses ancianos del inframundo, escribas zoomorfos y deidades del agua discuten y celebran rituales, demostrando la maestría del trazo caligráfico de los maestros pintores mayas.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Obra maestra caligráfica maya. Este vaso estilizado emula los códices perdidos, narrando mitos ancestrales del inframundo y del Popol Vuh mediante deidades y rituales dedicados al consumo de cacao divino.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa los trazos finos que definen a los escribas zoomorfos y dioses ancianos"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca la banda jeroglífica que recorre el borde superior de la vasija"
+    }
+  ],
+  "did_you_know": [
+    "Los textos que rodean el borde superior de estas vasijas suelen ser fórmulas dedicatorias que indican el dueño del vaso y que estaba destinado a beber cacao espumoso",
+    "Se le llama 'tipo Códice' porque los pintores usaron la misma técnica caligráfica de pincel fino empleada para ilustrar los libros sagrados en papel de amate"
+  ],
+  "specs": {
+    "material": "Cerámica modelada con pintura en engobe negro y marrón sobre fondo crema",
+    "provenance": "Región del Petén / Tierras Bajas Mayas",
+    "weight": "Alto: 20.5 cm, Diámetro: 11.2 cm; Peso aprox: 680 g",
+    "age": "Aproximadamente 1,300 años (680–750 d.C.)"
+  },
+  "faq": [
+    {
+      "question": "¿Por qué se vincula esta vasija con el libro del Popol Vuh?",
+      "answer": "Aunque el Popol Vuh se redactó en la época colonial, las escenas pictóricas de estas vasijas clásicas muestran a los mismos dioses del inframundo (Xibalbá) y pasajes míticos que sobrevivieron en la tradición oral maya durante siglos."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa los trazos finos que definen a los escribas zoomorfos y dioses ancianos"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca la banda jeroglífica que recorre el borde superior de la vasija"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Los textos que rodean el borde superior de estas vasijas suelen ser fórmulas dedicatorias que indican el dueño del vaso y que estaba destinado a beber cacao espumoso"
+    },
+    {
+      "id": "cur-2",
+      "fact": "Se le llama 'tipo Códice' porque los pintores usaron la misma técnica caligráfica de pincel fino empleada para ilustrar los libros sagrados en papel de amate"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué se vincula esta vasija con el libro del Popol Vuh?",
+      "answer": "Aunque el Popol Vuh se redactó en la época colonial, las escenas pictóricas de estas vasijas clásicas muestran a los mismos dioses del inframundo (Xibalbá) y pasajes míticos que sobrevivieron en la tradición oral maya durante siglos."
+    }
+  ]
+}

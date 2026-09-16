@@ -1,0 +1,99 @@
+{
+  "id": "friso-de-placeres-de-oro",
+  "poi_id": "friso-de-placeres-de-oro",
+  "room_id": "sala-maya",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-maya",
+    "room_name": "Sala Maya",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 10,
+  "is_premium": true,
+  "estimated_minutes": 4,
+  "tags": [
+    "arquitectura",
+    "estuco",
+    "mitologia"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Friso de Placeres de Oro",
+    "culture_period": "Maya / Clásico Temprano (250–600 d.C.)",
+    "room_zone": "Sala Maya, Museo Nacional de Antropología",
+    "tags": [
+      "arquitectura",
+      "estuco",
+      "mitologia"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Las_siete_l%C3%A1mparas_de_la_arquitectura_-_bdh0000190784.pdf"
+  },
+  "narrative": {
+    "one_liner": "Rostros divinos que desafiaron al tiempo y a la selva para mostrarnos el verdadero color del cosmos maya.",
+    "short_desc": "Monumental friso maya de estuco policromado que decoraba un palacio en Campeche. Muestra deidades solares y felinas emergiendo de la tierra, conservando sus vibrantes pigmentos rojos y amarillos originales sobre su fachada ceremonial.",
+    "deep_desc": "Este gigantesco friso arquitectónico de estuco policromado decoraba la parte superior de un palacio en Campeche. Presenta deidades solares y felinas emergiendo de las fauces abiertas de la tierra, preservando tonos originales rojos y amarillos que ilustran cómo lucían realmente las fachadas de las urbes mayas antes de que la selva disolviera su pintura ceremonial."
+  },
+  "audioguide": {
+    "audio_script": "Este gigantesco friso arquitectónico de estuco policromado decoraba la parte superior de un palacio en Campeche. Presenta deidades solares y felinas emergiendo de las fauces abiertas de la tierra, preservando tonos originales rojos y amarillos que ilustran cómo lucían realmente las fachadas de las urbes mayas antes de que la selva disolviera su pintura ceremonial.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Monumental friso maya de estuco policromado que decoraba un palacio en Campeche. Muestra deidades solares y felinas emergiendo de la tierra, conservando sus vibrantes pigmentos rojos y amarillos originales sobre su fachada ceremonial.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa los vestigios de pigmento rojo y amarillo original en la superficie"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca los rasgos felinos de la deidad emergiendo de las fauces terrestres"
+    }
+  ],
+  "did_you_know": [
+    "Fue rescatado de saqueadores en los años 60 en un operativo conjunto de arqueólogos y autoridades para evitar que fuera cortado en pedazos para el mercado negro",
+    "Este friso demuestra que las ciudades mayas no eran de piedra gris, sino deslumbrantes monumentos totalmente pintados con pigmentos minerales"
+  ],
+  "specs": {
+    "material": "Estuco policromado con pigmentos minerales sobre núcleo de piedra caliza",
+    "provenance": "Placeres, Campeche, México",
+    "weight": "8.45 m de largo x 2.35 m de alto (Aproximadamente 11 toneladas)",
+    "age": "Aproximadamente 1,500 años (450–600 d.C.)"
+  },
+  "faq": [
+    {
+      "question": "¿Por qué se conserva tan bien su color original a pesar del clima tropical?",
+      "answer": "Porque los propios mayas sepultaron la fachada intacta bajo una nueva construcción para ampliar el palacio, protegida de la intemperie hasta su hallazgo."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa los vestigios de pigmento rojo y amarillo original en la superficie"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca los rasgos felinos de la deidad emergiendo de las fauces terrestres"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Fue rescatado de saqueadores en los años 60 en un operativo conjunto de arqueólogos y autoridades para evitar que fuera cortado en pedazos para el mercado negro"
+    },
+    {
+      "id": "cur-2",
+      "fact": "Este friso demuestra que las ciudades mayas no eran de piedra gris, sino deslumbrantes monumentos totalmente pintados con pigmentos minerales"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué se conserva tan bien su color original a pesar del clima tropical?",
+      "answer": "Porque los propios mayas sepultaron la fachada intacta bajo una nueva construcción para ampliar el palacio, protegida de la intemperie hasta su hallazgo."
+    }
+  ]
+}

@@ -253,12 +253,20 @@ async function syncSheets() {
     // Obtener información de la sala asignada
     const room = roomsMap.get(roomId);
     const roomName = room ? room.name : roomId;
+    const caseNumber = (row[piezasHeaderMap['case_number']] || row[piezasHeaderMap['vitrina']] || row[piezasHeaderMap['cedula']] || '').trim();
 
     // Crear objeto completo de la pieza
     const pieceData = {
+      id: pieceId,
       poi_id: pieceId,
       room_id: roomId,
       site_id: siteId.toUpperCase(),
+      location: {
+        room_id: roomId,
+        room_name: roomName,
+        case_number: caseNumber
+      },
+      case_number: caseNumber,
       orden_sala: ordenSala,
       is_premium: esPremium,
       estimated_minutes: duracionMin,

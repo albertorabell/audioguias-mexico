@@ -1,0 +1,64 @@
+{
+  "id": "pintura-rupestre-de-la-cueva-de-lascaux-replica-de-panel",
+  "poi_id": "pintura-rupestre-de-la-cueva-de-lascaux-replica-de-panel",
+  "room_id": "sala-introduccion_antropologia",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-introduccion_antropologia",
+    "room_name": "Sala Introducción a la Antropología",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 8,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "arte_rupestre",
+    "chamanismo",
+    "fauna"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Pintura Rupestre de la Cueva de Lascaux (Réplica de Panel)",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Introducción a la Antropología, Museo Nacional de Antropología",
+    "tags": [
+      "arte_rupestre",
+      "chamanismo",
+      "fauna"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Este facsímil reproduce las majestuosas siluetas de uros, caballos salvajes y ciervos al galope pintadas con óxido de hierro y carbón vegetal en los techos de la célebre caverna francesa.",
+    "short_desc": "Este facsímil reproduce las majestuosas siluetas de uros, caballos salvajes y ciervos al galope pintadas con óxido de hierro y carbón vegetal en los techos de la célebre caverna francesa.",
+    "deep_desc": "Este facsímil reproduce las majestuosas siluetas de uros, caballos salvajes y ciervos al galope pintadas con óxido de hierro y carbón vegetal en los techos de la célebre caverna francesa. Más que decoración estética, el arte rupestre paleolítico constituía un dispositivo mágico-religioso donde los cazadores, auxiliados por antorchas en la penumbra profunda de las cuevas, ejecutaban ritos chamánicos para capturar espiritualmente la fuerza vital de las manadas antes de salir al acecho."
+  },
+  "audioguide": {
+    "audio_script": "Este facsímil reproduce las majestuosas siluetas de uros, caballos salvajes y ciervos al galope pintadas con óxido de hierro y carbón vegetal en los techos de la célebre caverna francesa. Más que decoración estética, el arte rupestre paleolítico constituía un dispositivo mágico-religioso donde los cazadores, auxiliados por antorchas en la penumbra profunda de las cuevas, ejecutaban ritos chamánicos para capturar espiritualmente la fuerza vital de las manadas antes de salir al acecho.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Este facsímil reproduce las majestuosas siluetas de uros, caballos salvajes y ciervos al galope pintadas con óxido de hierro y carbón vegetal en los techos de la célebre caverna francesa.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Los artistas paleolíticos aprovechaban los relieves, grietas y abultamientos naturales de la roca para dotar de musculatura y volumen tridimensional a los animales."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Los artistas paleolíticos aprovechaban los relieves, grietas y abultamientos naturales de la roca para dotar de musculatura y volumen tridimensional a los animales."
+    }
+  ],
+  "faqs": []
+}

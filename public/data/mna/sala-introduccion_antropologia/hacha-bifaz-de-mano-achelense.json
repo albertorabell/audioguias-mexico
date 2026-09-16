@@ -1,0 +1,64 @@
+{
+  "id": "hacha-bifaz-de-mano-achelense",
+  "poi_id": "hacha-bifaz-de-mano-achelense",
+  "room_id": "sala-introduccion_antropologia",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-introduccion_antropologia",
+    "room_name": "Sala Introducción a la Antropología",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 4,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "tecnologia_litica",
+    "diseno",
+    "inteligencia"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Hacha Bifaz de Mano Achelense",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Introducción a la Antropología, Museo Nacional de Antropología",
+    "tags": [
+      "tecnologia_litica",
+      "diseno",
+      "inteligencia"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Esta pieza de sílex tallada simétricamente por ambas caras es considerada la 'navaja suiza' del Paleolítico Inferior.",
+    "short_desc": "Esta pieza de sílex tallada simétricamente por ambas caras es considerada la 'navaja suiza' del Paleolítico Inferior.",
+    "deep_desc": "Esta pieza de sílex tallada simétricamente por ambas caras es considerada la 'navaja suiza' del Paleolítico Inferior. Más que una simple piedra con filo, el bifaz refleja la capacidad de abstracción mental del Homo erectus para proyectar en su mente una forma geométrica estandarizada y ejecutarla mediante golpes sucesivos sobre el nódulo mineral, sirviendo como raspador, cuchillo de caza y perforador multiusos a lo largo de más de un millón de años."
+  },
+  "audioguide": {
+    "audio_script": "Esta pieza de sílex tallada simétricamente por ambas caras es considerada la 'navaja suiza' del Paleolítico Inferior. Más que una simple piedra con filo, el bifaz refleja la capacidad de abstracción mental del Homo erectus para proyectar en su mente una forma geométrica estandarizada y ejecutarla mediante golpes sucesivos sobre el nódulo mineral, sirviendo como raspador, cuchillo de caza y perforador multiusos a lo largo de más de un millón de años.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Esta pieza de sílex tallada simétricamente por ambas caras es considerada la 'navaja suiza' del Paleolítico Inferior.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Es la herramienta tecnológica que más tiempo ha permanecido vigente y sin variaciones formales drásticas en la historia humana."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Es la herramienta tecnológica que más tiempo ha permanecido vigente y sin variaciones formales drásticas en la historia humana."
+    }
+  ],
+  "faqs": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "escultura-de-anciano-o-sabio-de-colima",
+  "poi_id": "escultura-de-anciano-o-sabio-de-colima",
+  "room_id": "sala-occidente",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-occidente",
+    "room_name": "Sala Occidente de México",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 9,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "vejez",
+    "sabiduria",
+    "cuerpo_humano"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Escultura de Anciano o Sabio de Colima",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Occidente de México, Museo Nacional de Antropología",
+    "tags": [
+      "vejez",
+      "sabiduria",
+      "cuerpo_humano"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Informe_que_la_Comisi%C3%B3n_para_el_estudio_de_los_medios_m%C3%A1s_adecuados_para_la_destrucci%C3%B3n_de_la_langosta_rinde_a_la_Secretar%C3%ADa_de_Fomento_%28IA_informequelacom00comi%29.pdf"
+  },
+  "narrative": {
+    "one_liner": "Con un realismo conmovedor, esta figura de barro plasma la vejez en el México antiguo.",
+    "short_desc": "Con un realismo conmovedor, esta figura de barro plasma la vejez en el México antiguo.",
+    "deep_desc": "Con un realismo conmovedor, esta figura de barro plasma la vejez en el México antiguo. Se aprecia a un hombre encorvado, con costillas marcadas por la pérdida de masa corporal y arrugas faciales pronunciadas. En la cosmovisión mesoamericana, los ancianos eran considerados depositarios de la memoria histórica, la medicina tradicional y los lazos espirituales con los ancestros primordiales."
+  },
+  "audioguide": {
+    "audio_script": "Con un realismo conmovedor, esta figura de barro plasma la vejez en el México antiguo. Se aprecia a un hombre encorvado, con costillas marcadas por la pérdida de masa corporal y arrugas faciales pronunciadas. En la cosmovisión mesoamericana, los ancianos eran considerados depositarios de la memoria histórica, la medicina tradicional y los lazos espirituales con los ancestros primordiales.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Con un realismo conmovedor, esta figura de barro plasma la vejez en el México antiguo.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Los alfareros de Colima evitaron la abstracción geométrica del Altiplano, prefiriendo un retrato naturalista de enfermedades, fauna y etapas de la vida humana."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Los alfareros de Colima evitaron la abstracción geométrica del Altiplano, prefiriendo un retrato naturalista de enfermedades, fauna y etapas de la vida humana."
+    }
+  ],
+  "faqs": []
+}

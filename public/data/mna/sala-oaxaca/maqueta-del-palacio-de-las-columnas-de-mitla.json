@@ -1,0 +1,64 @@
+{
+  "id": "maqueta-del-palacio-de-las-columnas-de-mitla",
+  "poi_id": "maqueta-del-palacio-de-las-columnas-de-mitla",
+  "room_id": "sala-oaxaca",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-oaxaca",
+    "room_name": "Sala Oaxaca",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 10,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "arquitectura",
+    "grecas",
+    "palacios"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Maqueta del Palacio de las Columnas de Mitla",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Oaxaca, Museo Nacional de Antropología",
+    "tags": [
+      "arquitectura",
+      "grecas",
+      "palacios"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Para cerrar la sala, esta reproducción arquitectónica detalla la singularidad de Mitla, la 'Ciudad de los Muertos'.",
+    "short_desc": "Para cerrar la sala, esta reproducción arquitectónica detalla la singularidad de Mitla, la 'Ciudad de los Muertos'.",
+    "deep_desc": "Para cerrar la sala, esta reproducción arquitectónica detalla la singularidad de Mitla, la 'Ciudad de los Muertos'. Sus muros están decorados con intrincados mosaicos de grecas geométricas de piedra ensambladas sin mortero que crean juegos de luces y sombras rítmicos, sirviendo de residencia al sumo sacerdote zapoteco (el Uija-tào) y centro ceremonial fúnebre del Posclásico."
+  },
+  "audioguide": {
+    "audio_script": "Para cerrar la sala, esta reproducción arquitectónica detalla la singularidad de Mitla, la 'Ciudad de los Muertos'. Sus muros están decorados con intrincados mosaicos de grecas geométricas de piedra ensambladas sin mortero que crean juegos de luces y sombras rítmicos, sirviendo de residencia al sumo sacerdote zapoteco (el Uija-tào) y centro ceremonial fúnebre del Posclásico.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Para cerrar la sala, esta reproducción arquitectónica detalla la singularidad de Mitla, la 'Ciudad de los Muertos'.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Cada paño de grecas en Mitla está compuesto por miles de pequeñas piedras talladas individualmente e incrustadas como un rompecabezas tridimensional en el muro."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Cada paño de grecas en Mitla está compuesto por miles de pequeñas piedras talladas individualmente e incrustadas como un rompecabezas tridimensional en el muro."
+    }
+  ],
+  "faqs": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "craneo-fosil-de-nino-de-taung-australopithecus-africanus",
+  "poi_id": "craneo-fosil-de-nino-de-taung-australopithecus-africanus",
+  "room_id": "sala-introduccion_antropologia",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-introduccion_antropologia",
+    "room_name": "Sala Introducción a la Antropología",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 2,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "paleoantropologia",
+    "fosiles",
+    "infancia"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Cráneo Fósil de Niño de Taung (Australopithecus africanus)",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Introducción a la Antropología, Museo Nacional de Antropología",
+    "tags": [
+      "paleoantropologia",
+      "fosiles",
+      "infancia"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Taung_child_%28Frankfurt_am_Main%29_1-EditMylius.jpg"
+  },
+  "narrative": {
+    "one_liner": "Esta copia científica reproduce el célebre cráneo fósil recuperado en Sudáfrica en 1924 por Raymond Dart.",
+    "short_desc": "Esta copia científica reproduce el célebre cráneo fósil recuperado en Sudáfrica en 1924 por Raymond Dart.",
+    "deep_desc": "Esta copia científica reproduce el célebre cráneo fósil recuperado en Sudáfrica en 1924 por Raymond Dart. Perteneciente a un infante de unos tres años que vivió hace 2.5 millones de años, conserva el molde endocraneal natural y la posición adelantada del foramen magnum (el orificio de inserción de la columna vertebral), demostrando que caminaba bípedo y confirmando la hipótesis evolutiva de Charles Darwin de que África fue la cuna indiscutible de los primeros homínidos."
+  },
+  "audioguide": {
+    "audio_script": "Esta copia científica reproduce el célebre cráneo fósil recuperado en Sudáfrica en 1924 por Raymond Dart. Perteneciente a un infante de unos tres años que vivió hace 2.5 millones de años, conserva el molde endocraneal natural y la posición adelantada del foramen magnum (el orificio de inserción de la columna vertebral), demostrando que caminaba bípedo y confirmando la hipótesis evolutiva de Charles Darwin de que África fue la cuna indiscutible de los primeros homínidos.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Esta copia científica reproduce el célebre cráneo fósil recuperado en Sudáfrica en 1924 por Raymond Dart.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Las marcas observadas en la base de las cuencas oculares revelan que el infante probablemente fue víctima de las garras de una gran ave rapaz paleolítica."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Las marcas observadas en la base de las cuencas oculares revelan que el infante probablemente fue víctima de las garras de una gran ave rapaz paleolítica."
+    }
+  ],
+  "faqs": []
+}

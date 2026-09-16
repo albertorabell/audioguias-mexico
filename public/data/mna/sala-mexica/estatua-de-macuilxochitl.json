@@ -1,0 +1,97 @@
+{
+  "id": "estatua-de-macuilxochitl",
+  "poi_id": "estatua-de-macuilxochitl",
+  "room_id": "sala-mexica",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-mexica",
+    "room_name": "Sala Mexica",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 10,
+  "is_premium": true,
+  "estimated_minutes": 2,
+  "tags": [
+    "vida_cotidiana",
+    "dioses"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Estatua de Macuilxóchitl",
+    "culture_period": "Mexica / Posclásico Tardío (1325–1521 d.C.)",
+    "room_zone": "Sala Mexica, Museo Nacional de Antropología",
+    "tags": [
+      "vida_cotidiana",
+      "dioses"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Entre el azar y la danza, la flor de la vida celebra el gozo efímero de la existencia.",
+    "short_desc": "Escultura mexica de Macuilxóchitl, dios de la danza, el placer y los juegos de azar. Destaca por su postura relajada y la impronta de una mano humana esculpida alrededor de su boca.",
+    "deep_desc": "Para cerrar la sala, encontramos a Macuilxóchitl (Cinco Flor), dios de la danza, el placer y los juegos de azar. Destaca su postura relajada y el tatuaje facial de una mano humana alrededor de su boca. A este dios se encomendaban los jugadores del patolli, el juego de mesa más popular de Mesoamérica."
+  },
+  "audioguide": {
+    "audio_script": "Para cerrar la sala, encontramos a Macuilxóchitl (Cinco Flor), dios de la danza, el placer y los juegos de azar. Destaca su postura relajada y el tatuaje facial de una mano humana alrededor de su boca. A este dios se encomendaban los jugadores del patolli, el juego de mesa más popular de Mesoamérica.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Escultura mexica de Macuilxóchitl, dios de la danza, el placer y los juegos de azar. Destaca por su postura relajada y la impronta de una mano humana esculpida alrededor de su boca.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa el relieve en forma de mano humana que enmarca su boca"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca su postura sedente y relajada, asociada con la serenidad del gozo"
+    }
+  ],
+  "did_you_know": [
+    "Las apuestas en los juegos dedicados a él podían incluir ropa, tierras e incluso la libertad personal",
+    "Su nombre significa 'Cinco Flor', un día del calendario ritual asociado al exceso, las artes y las festividades nobles"
+  ],
+  "specs": {
+    "material": "Piedra volcánica (basalto)",
+    "provenance": "Templo Mayor, Tenochtitlan, Ciudad de México",
+    "weight": "58 x 30 x 28 cm (aprox. 35 kg)",
+    "age": "Ca. 1450–1521 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Qué era el patolli y cómo se jugaba en Mesoamérica?",
+      "answer": "Era un juego de mesa ritual en un tablero en forma de cruz; se usaban frijoles marcados como dados y los jugadores invocaban a Macuilxóchitl para tener suerte en sus tiradas."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa el relieve en forma de mano humana que enmarca su boca"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca su postura sedente y relajada, asociada con la serenidad del gozo"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Las apuestas en los juegos dedicados a él podían incluir ropa, tierras e incluso la libertad personal"
+    },
+    {
+      "id": "cur-2",
+      "fact": "Su nombre significa 'Cinco Flor', un día del calendario ritual asociado al exceso, las artes y las festividades nobles"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué era el patolli y cómo se jugaba en Mesoamérica?",
+      "answer": "Era un juego de mesa ritual en un tablero en forma de cruz; se usaban frijoles marcados como dados y los jugadores invocaban a Macuilxóchitl para tener suerte en sus tiradas."
+    }
+  ]
+}

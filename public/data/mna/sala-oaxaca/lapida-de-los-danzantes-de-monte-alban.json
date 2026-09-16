@@ -1,0 +1,99 @@
+{
+  "id": "lapida-de-los-danzantes-de-monte-alban",
+  "poi_id": "lapida-de-los-danzantes-de-monte-alban",
+  "room_id": "sala-oaxaca",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-oaxaca",
+    "room_name": "Sala Oaxaca",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 2,
+  "is_premium": false,
+  "estimated_minutes": 4,
+  "tags": [
+    "escritura",
+    "guerra",
+    "primeros_glifos"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Lápida de Los Danzantes de Monte Albán",
+    "culture_period": "Zapoteca / Preclásico Tardío (500–200 a.C.)",
+    "room_zone": "Sala Oaxaca, Museo Nacional de Antropología",
+    "tags": [
+      "escritura",
+      "guerra",
+      "primeros_glifos"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Cuerpos contorsionados en piedra, silogismo eterno del poder, la derrota y el nacimiento de la escritura.",
+    "short_desc": "Relieve en caliza que muestra cautivos de guerra sometidos. Pese a su nombre, no bailan: representan la propaganda bélica y las primeras inscripciones calendáricas y glíficas de Monte Albán.",
+    "deep_desc": "En este relieve en piedra caliza observamos una de las primeras manifestaciones de escritura calendárica y poder bélico del continente. Aunque los primeros exploradores los llamaron erróneamente 'danzantes' por sus posturas contorsionadas, en realidad representan a cautivos y gobernantes enemigos derrotados, mostrados desnudos, castrados o muertos para exhibir públicamente el sometimiento militar de Monte Albán."
+  },
+  "audioguide": {
+    "audio_script": "En este relieve en piedra caliza observamos una de las primeras manifestaciones de escritura calendárica y poder bélico del continente. Aunque los primeros exploradores los llamaron erróneamente 'danzantes' por sus posturas contorsionadas, en realidad representan a cautivos y gobernantes enemigos derrotados, mostrados desnudos, castrados o muertos para exhibir públicamente el sometimiento militar de Monte Albán.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Relieve en caliza que muestra cautivos de guerra sometidos. Pese a su nombre, no bailan: representan la propaganda bélica y las primeras inscripciones calendáricas y glíficas de Monte Albán.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "busca los primeros glifos calendáricos grabados junto al cuerpo"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "observa la mutilación o castración representada en la zona pélvica"
+    }
+  ],
+  "did_you_know": [
+    "Son de los monumentos más antiguos de la urbe (datados entre el 500 y el 200 a.C.) y decoraban la base del edificio principal para intimidar a embajadores extranjeros",
+    "El nombre 'Danzantes' fue un error de los primeros exploradores al malinterpretar las contorsiones del dolor y sometimiento como pasos de baile"
+  ],
+  "specs": {
+    "material": "Piedra caliza esculpida en bajorrelieve",
+    "provenance": "Monte Albán, Valles Centrales de Oaxaca",
+    "weight": "150 x 90 cm aproximadamente",
+    "age": "500 a.C. – 200 a.C."
+  },
+  "faq": [
+    {
+      "question": "¿Por qué se creyó inicialmente que estas figuras estaban bailando?",
+      "answer": "Por sus posturas contorsionadas y extremidades flexionadas. Sin embargo, la desnudez, los ojos cerrados y las mutilaciones confirman que representan prisioneros de guerra sometidos, torturados o muertos."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "busca los primeros glifos calendáricos grabados junto al cuerpo"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "observa la mutilación o castración representada en la zona pélvica"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Son de los monumentos más antiguos de la urbe (datados entre el 500 y el 200 a.C.) y decoraban la base del edificio principal para intimidar a embajadores extranjeros"
+    },
+    {
+      "id": "cur-2",
+      "fact": "El nombre 'Danzantes' fue un error de los primeros exploradores al malinterpretar las contorsiones del dolor y sometimiento como pasos de baile"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué se creyó inicialmente que estas figuras estaban bailando?",
+      "answer": "Por sus posturas contorsionadas y extremidades flexionadas. Sin embargo, la desnudez, los ojos cerrados y las mutilaciones confirman que representan prisioneros de guerra sometidos, torturados o muertos."
+    }
+  ]
+}

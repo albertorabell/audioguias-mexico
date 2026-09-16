@@ -1,0 +1,97 @@
+{
+  "id": "piedra-de-tizoc",
+  "poi_id": "piedra-de-tizoc",
+  "room_id": "sala-mexica",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-mexica",
+    "room_name": "Sala Mexica",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 6,
+  "is_premium": true,
+  "estimated_minutes": 4,
+  "tags": [
+    "poder",
+    "conquista"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Piedra de Tízoc",
+    "culture_period": "Mexica / Posclásico Tardío (1481–1486 d.C.)",
+    "room_zone": "Sala Mexica, Museo Nacional de Antropología",
+    "tags": [
+      "poder",
+      "conquista"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Piedra_de_Tizoc_-_Matlatzinco.jpg"
+  },
+  "narrative": {
+    "one_liner": "Memoria de piedra donde el imperio inmortalizó sus victorias bajo la mirada vigilante del sol.",
+    "short_desc": "Monumento gladiatorio mexica donde el tlatoani Tízoc legitima su sagrado poder imperial mediante quince relieves de conquistas militares, labrados bajo una rica simbología solar y terrenal.",
+    "deep_desc": "Este gran cilindro tallado es un monumento a las conquistas militares. En su perímetro exterior podemos ver al tlatoani Tízoc sometiendo a guerreros de diferentes pueblos, representados por sus deidades tutelares. Es un documento de piedra que legitimaba el expansionismo y el poder del imperio sobre Mesoamérica."
+  },
+  "audioguide": {
+    "audio_script": "Este gran cilindro tallado es un monumento a las conquistas militares. En su perímetro exterior podemos ver al tlatoani Tízoc sometiendo a guerreros de diferentes pueblos, representados por sus deidades tutelares. Es un documento de piedra que legitimaba el expansionismo y el poder del imperio sobre Mesoamérica.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Monumento gladiatorio mexica donde el tlatoani Tízoc legitima su sagrado poder imperial mediante quince relieves de conquistas militares, labrados bajo una rica simbología solar y terrenal.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa al tlatoani Tízoc ataviado como Huitzilopochtli sujetando del cabello a un guerrero vencido"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca en la parte superior el disco solar con sus rayos y en la base las fauces del monstruo terrestre Tlaltecuhtli"
+    }
+  ],
+  "did_you_know": [
+    "Tiene un canal profundo cortado desde el centro hasta el borde, hecho muchos años después durante la época colonial con fines desconocidos o para mutilar el monumento.",
+    "Aunque la pieza ostenta 15 victorias, el gobierno de Tízoc fue militarmente ineficaz, por lo que la obra funcionó como una intensa campaña de propaganda política para legitimarlo."
+  ],
+  "specs": {
+    "material": "Basalto andesítico",
+    "provenance": "Plaza Mayor (Zócalo), Ciudad de México",
+    "weight": "Aprox. 9.5 toneladas y 2.67 metros de diámetro",
+    "age": "Aprox. 1481–1486 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Esta piedra era una mesa de sacrificios donde se extraían corazones?",
+      "answer": "No, se trata de un temalácatl o plataforma para el combate gladiatorio ritual. El canal no encauzaba sangre sacrificial, sino que fue tallado en la época colonial probablemente para destruirla o convertirla en piedra de molienda."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa al tlatoani Tízoc ataviado como Huitzilopochtli sujetando del cabello a un guerrero vencido"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca en la parte superior el disco solar con sus rayos y en la base las fauces del monstruo terrestre Tlaltecuhtli"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Tiene un canal profundo cortado desde el centro hasta el borde, hecho muchos años después durante la época colonial con fines desconocidos o para mutilar el monumento."
+    },
+    {
+      "id": "cur-2",
+      "fact": "Aunque la pieza ostenta 15 victorias, el gobierno de Tízoc fue militarmente ineficaz, por lo que la obra funcionó como una intensa campaña de propaganda política para legitimarlo."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Esta piedra era una mesa de sacrificios donde se extraían corazones?",
+      "answer": "No, se trata de un temalácatl o plataforma para el combate gladiatorio ritual. El canal no encauzaba sangre sacrificial, sino que fue tallado en la época colonial probablemente para destruirla o convertirla en piedra de molienda."
+    }
+  ]
+}

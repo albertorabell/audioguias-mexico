@@ -1,7 +1,14 @@
 {
+  "id": "escultura-de-palo-fierro-seri-de-borrego-cimarron",
   "poi_id": "escultura-de-palo-fierro-seri-de-borrego-cimarron",
   "room_id": "sala-etno_noroeste",
   "site_id": "MNA",
+  "location": {
+    "room_id": "sala-etno_noroeste",
+    "room_name": "Sala El Noroeste",
+    "case_number": ""
+  },
+  "case_number": "",
   "orden_sala": 6,
   "is_premium": true,
   "estimated_minutes": 3,

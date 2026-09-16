@@ -1,0 +1,97 @@
+{
+  "id": "ocelocuauhxicalli",
+  "poi_id": "ocelocuauhxicalli",
+  "room_id": "sala-mexica",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-mexica",
+    "room_name": "Sala Mexica",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 4,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "sacrificio",
+    "ritual"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Ocelocuauhxicalli",
+    "culture_period": "Mexica / Posclásico Tardío (1325–1521 d.C.)",
+    "room_zone": "Sala Mexica, Museo Nacional de Antropología",
+    "tags": [
+      "sacrificio",
+      "ritual"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Jaguar_cuauhxicalli.jpg"
+  },
+  "narrative": {
+    "one_liner": "El felino petrificado que custodia el alimento sagrado del astro solar.",
+    "short_desc": "Monumental vasija sagrada tallada como jaguar. Su cavidad dorsal recibía sangre y corazones humanos en rituales mexicas, alimentando al Sol para mantener el orden cósmico y evitar el fin del mundo.",
+    "deep_desc": "Deteniéndonos ante este enorme jaguar de piedra, observamos un cuauhxicalli o vaso sagrado. Su lomo cóncavo estaba destinado a recibir la sangre y los corazones humanos de los sacrificios, alimento indispensable para que el sol continuara su viaje diario por el firmamento y evitara el fin del mundo."
+  },
+  "audioguide": {
+    "audio_script": "Deteniéndonos ante este enorme jaguar de piedra, observamos un cuauhxicalli o vaso sagrado. Su lomo cóncavo estaba destinado a recibir la sangre y los corazones humanos de los sacrificios, alimento indispensable para que el sol continuara su viaje diario por el firmamento y evitara el fin del mundo.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Monumental vasija sagrada tallada como jaguar. Su cavidad dorsal recibía sangre y corazones humanos en rituales mexicas, alimentando al Sol para mantener el orden cósmico y evitar el fin del mundo.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "observa la finura esculpida de las rosetas del pelaje y las garras retráctiles"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "busca la cavidad circular tallada en el lomo destinada al depósito del alimento divino"
+    }
+  ],
+  "did_you_know": [
+    "En el fondo de la cavidad del jaguar hay un relieve esculpido de los dioses del inframundo realizando autosacrificio ritual",
+    "Su nombre combina las palabras nahuas 'ocelotl' (jaguar) y 'cuauhxicalli' (vaso de águila), uniendo la fuerza terrenal con la energía del cielo"
+  ],
+  "specs": {
+    "material": "Basalto volcánico",
+    "provenance": "Centro Histórico de la Ciudad de México (antigua Tenochtitlan)",
+    "weight": "Aprox. 5 toneladas; 2.27 m de largo por 1.28 m de alto",
+    "age": "Aprox. 1470–1500 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Los sacrificios humanos se realizaban directamente sobre el lomo de este jaguar?",
+      "answer": "No. La extracción del corazón ocurría sobre una piedra ceremonial llamada techcatl. El ocelocuauhxicalli servía exclusivamente como contenedor sagrado donde se depositaban los corazones y la sangre ya extraídos."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "observa la finura esculpida de las rosetas del pelaje y las garras retráctiles"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "busca la cavidad circular tallada en el lomo destinada al depósito del alimento divino"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "En el fondo de la cavidad del jaguar hay un relieve esculpido de los dioses del inframundo realizando autosacrificio ritual"
+    },
+    {
+      "id": "cur-2",
+      "fact": "Su nombre combina las palabras nahuas 'ocelotl' (jaguar) y 'cuauhxicalli' (vaso de águila), uniendo la fuerza terrenal con la energía del cielo"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Los sacrificios humanos se realizaban directamente sobre el lomo de este jaguar?",
+      "answer": "No. La extracción del corazón ocurría sobre una piedra ceremonial llamada techcatl. El ocelocuauhxicalli servía exclusivamente como contenedor sagrado donde se depositaban los corazones y la sangre ya extraídos."
+    }
+  ]
+}

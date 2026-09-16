@@ -1,0 +1,64 @@
+{
+  "id": "campanas-y-hachas-moneda-de-cobre-purepecha",
+  "poi_id": "campanas-y-hachas-moneda-de-cobre-purepecha",
+  "room_id": "sala-occidente",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-occidente",
+    "room_name": "Sala Occidente de México",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 7,
+  "is_premium": false,
+  "estimated_minutes": 3,
+  "tags": [
+    "metalurgia",
+    "cobre",
+    "comercio"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Campanas y Hachas Moneda de Cobre Purépecha",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Occidente de México, Museo Nacional de Antropología",
+    "tags": [
+      "metalurgia",
+      "cobre",
+      "comercio"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Mitos_y_fantas%C3%ADas_de_los_aztecas.djvu"
+  },
+  "narrative": {
+    "one_liner": "El Occidente de México fue la cuna indiscutible de la metalurgia en Mesoamérica, tecnología introducida gracias a rutas marítimas con Sudamérica.",
+    "short_desc": "El Occidente de México fue la cuna indiscutible de la metalurgia en Mesoamérica, tecnología introducida gracias a rutas marítimas con Sudamérica.",
+    "deep_desc": "El Occidente de México fue la cuna indiscutible de la metalurgia en Mesoamérica, tecnología introducida gracias a rutas marítimas con Sudamérica. Este conjunto de hachas delgadas en forma de 'T' y cascabeles de bronce y cobre no solo servían para la guerra o el adorno sonoro ceremonial, sino que funcionaban como unidades de valor y moneda de intercambio a larga distancia por todo el occidente y centro de México."
+  },
+  "audioguide": {
+    "audio_script": "El Occidente de México fue la cuna indiscutible de la metalurgia en Mesoamérica, tecnología introducida gracias a rutas marítimas con Sudamérica. Este conjunto de hachas delgadas en forma de 'T' y cascabeles de bronce y cobre no solo servían para la guerra o el adorno sonoro ceremonial, sino que funcionaban como unidades de valor y moneda de intercambio a larga distancia por todo el occidente y centro de México.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "El Occidente de México fue la cuna indiscutible de la metalurgia en Mesoamérica, tecnología introducida gracias a rutas marítimas con Sudamérica.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Los metalurgistas purépechas dominaban la aleación de cobre con estaño y arsénico para endurecer las herramientas de corte."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Los metalurgistas purépechas dominaban la aleación de cobre con estaño y arsénico para endurecer las herramientas de corte."
+    }
+  ],
+  "faqs": []
+}

@@ -1,7 +1,14 @@
 {
+  "id": "diosa-de-la-fertilidad-las-caritas-sonrientes",
   "poi_id": "diosa-de-la-fertilidad-las-caritas-sonrientes",
   "room_id": "sala-costa_del_golfo",
   "site_id": "MNA",
+  "location": {
+    "room_id": "sala-costa_del_golfo",
+    "room_name": "Sala Costa del Golfo",
+    "case_number": ""
+  },
+  "case_number": "",
   "orden_sala": 5,
   "is_premium": true,
   "estimated_minutes": 3,
@@ -16,7 +23,7 @@
   },
   "identification": {
     "title": "Diosa de la Fertilidad (Las Caritas Sonrientes)",
-    "culture_period": "Mesoamérica",
+    "culture_period": "Cultura Remojadas / Totonaca - Clásico Tardío (600–900 d.C.)",
     "room_zone": "Sala Costa del Golfo, Museo Nacional de Antropología",
     "tags": [
       "alegria",
@@ -26,32 +33,67 @@
     "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
   },
   "narrative": {
-    "one_liner": "Procedente del sitio totonaco de Remojadas en el centro de Veracruz, esta figura de arcilla cocida muestra una amplia sonrisa con dientes limados, algo sumamente raro en el arte mesoamericano donde predomina la solemnidad hierática.",
-    "short_desc": "Procedente del sitio totonaco de Remojadas en el centro de Veracruz, esta figura de arcilla cocida muestra una amplia sonrisa con dientes limados, algo sumamente raro en el arte mesoamericano donde predomina la solemnidad hierática.",
+    "one_liner": "Una sonrisa eterna esculpida en barro para celebrar el gozo ritual y la regeneración de la vida.",
+    "short_desc": "Esta singular escultura rompe la solemnidad mesoamericana con una franca sonrisa y dientes limados. Asociada a rituales de fertilidad, música y trance, celebra la abundancia y la renovación agrícola en Veracruz.",
     "deep_desc": "Procedente del sitio totonaco de Remojadas en el centro de Veracruz, esta figura de arcilla cocida muestra una amplia sonrisa con dientes limados, algo sumamente raro en el arte mesoamericano donde predomina la solemnidad hierática. Con un tocado decorado con grecas entrelazadas y sonajas en las manos, formaba parte de rituales asociados a la música, la fertilidad de la tierra, la danza y el consumo ceremonial de bebidas alcohólicas o plantas sagradas."
   },
   "audioguide": {
     "audio_script": "Procedente del sitio totonaco de Remojadas en el centro de Veracruz, esta figura de arcilla cocida muestra una amplia sonrisa con dientes limados, algo sumamente raro en el arte mesoamericano donde predomina la solemnidad hierática. Con un tocado decorado con grecas entrelazadas y sonajas en las manos, formaba parte de rituales asociados a la música, la fertilidad de la tierra, la danza y el consumo ceremonial de bebidas alcohólicas o plantas sagradas.",
     "audio_file_url": ""
   },
-  "summary_30s": "Procedente del sitio totonaco de Remojadas en el centro de Veracruz, esta figura de arcilla cocida muestra una amplia sonrisa con dientes limados, algo sumamente raro en el arte mesoamericano donde predomina la solemnidad hierática.",
-  "observation_challenges": [],
+  "summary_30s": "Esta singular escultura rompe la solemnidad mesoamericana con una franca sonrisa y dientes limados. Asociada a rituales de fertilidad, música y trance, celebra la abundancia y la renovación agrícola en Veracruz.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa los dientes intencionalmente limados que se revelan en la amplia sonrisa"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca las grecas entrelazadas en su tocado y las sonajas ceremoniales sujetas en sus manos"
+    }
+  ],
   "did_you_know": [
-    "Muchas de estas figuras fueron depositadas en entierros ceremoniales deliberadamente rotas para liberar la energía espiritual del objeto tras el rito fúnebre."
+    "Muchas de estas figuras fueron depositadas en entierros ceremoniales deliberadamente rotas para liberar la energía espiritual del objeto tras el rito fúnebre.",
+    "La gesticulación sonriente es un rasgo casi exclusivo de la Costa del Golfo, rompiendo con el hieratismo y la rigidez característicos del resto del arte prehispánico."
   ],
   "specs": {
-    "material": "",
-    "provenance": "",
-    "weight": "",
-    "age": ""
+    "material": "Arcilla cocida (terracota) moldeada y modelada a mano",
+    "provenance": "Sitio arqueológico de Remojadas, centro de Veracruz, México",
+    "weight": "48 cm x 28 cm x 15 cm / 2.5 kg (estimados)",
+    "age": "Aproximadamente 1,200 - 1,400 años de antigüedad"
   },
-  "faq": [],
-  "visual_challenge": [],
+  "faq": [
+    {
+      "question": "¿Por qué esta escultura sonríe si el arte prehispánico suele ser muy serio?",
+      "answer": "La sonrisa no refleja simple alegría cotidiana, sino un estado de trance, júbilo sagrado o éxtasis ritual inducido por la música, la danza y el consumo ceremonial de bebidas o plantas sagradas en honor a la fertilidad."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa los dientes intencionalmente limados que se revelan en la amplia sonrisa"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca las grecas entrelazadas en su tocado y las sonajas ceremoniales sujetas en sus manos"
+    }
+  ],
   "curiosities": [
     {
       "id": "cur-1",
       "fact": "Muchas de estas figuras fueron depositadas en entierros ceremoniales deliberadamente rotas para liberar la energía espiritual del objeto tras el rito fúnebre."
+    },
+    {
+      "id": "cur-2",
+      "fact": "La gesticulación sonriente es un rasgo casi exclusivo de la Costa del Golfo, rompiendo con el hieratismo y la rigidez característicos del resto del arte prehispánico."
     }
   ],
-  "faqs": []
+  "faqs": [
+    {
+      "question": "¿Por qué esta escultura sonríe si el arte prehispánico suele ser muy serio?",
+      "answer": "La sonrisa no refleja simple alegría cotidiana, sino un estado de trance, júbilo sagrado o éxtasis ritual inducido por la música, la danza y el consumo ceremonial de bebidas o plantas sagradas en honor a la fertilidad."
+    }
+  ]
 }

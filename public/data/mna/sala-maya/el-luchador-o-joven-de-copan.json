@@ -1,0 +1,99 @@
+{
+  "id": "el-luchador-o-joven-de-copan",
+  "poi_id": "el-luchador-o-joven-de-copan",
+  "room_id": "sala-maya",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-maya",
+    "room_name": "Sala Maya",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 6,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "escultura",
+    "cuerpo_humano",
+    "arte"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "El Luchador o Joven de Copán",
+    "culture_period": "Maya / Clásico Tardío (600–900 d.C.)",
+    "room_zone": "Sala Maya, Museo Nacional de Antropología",
+    "tags": [
+      "escultura",
+      "cuerpo_humano",
+      "arte"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "La encarnación viva del Dios del Maíz: movimiento, belleza y sacralidad tallados en la piedra de Copán.",
+    "short_desc": "Escultura maya de dinamismo único que representa a un joven aristócrata encarnando al Dios del Maíz tierno, luciendo torso atlético y modificaciones corporales rituales de la nobleza.",
+    "deep_desc": "Esta excepcional escultura de estuco y piedra volcánica destaca por su inusual dinamismo y realismo anatómico dentro del canon maya. Muestra a un joven de linaje aristocrático con torso atlético y rasgos faciales con la deformación craneana y estrabismo rituales característicos de la élite de Copán, representando la belleza idealizada del Dios del Maíz tierno."
+  },
+  "audioguide": {
+    "audio_script": "Esta excepcional escultura de estuco y piedra volcánica destaca por su inusual dinamismo y realismo anatómico dentro del canon maya. Muestra a un joven de linaje aristocrático con torso atlético y rasgos faciales con la deformación craneana y estrabismo rituales característicos de la élite de Copán, representando la belleza idealizada del Dios del Maíz tierno.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Escultura maya de dinamismo único que representa a un joven aristócrata encarnando al Dios del Maíz tierno, luciendo torso atlético y modificaciones corporales rituales de la nobleza.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa la marcada deformación craneana y los ojos modelados para simular estrabismo ritual"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca la rotación orgánica del torso que le confiere un realismo anatómico sin precedentes"
+    }
+  ],
+  "did_you_know": [
+    "Copán fue apodada la 'Atenas del Nuevo Mundo' por la exuberancia tridimensional y el barroquismo de sus esculturas en relieve exento.",
+    "El estrabismo y la deformación cefálica eran modificaciones corporales estéticas para emular la apariencia divina del Dios del Maíz tierno."
+  ],
+  "specs": {
+    "material": "Piedra volcánica (toba) y modelado fino en estuco",
+    "provenance": "Sitio Arqueológico de Copán, Departamento de Copán, Honduras",
+    "weight": "Alto: 82 cm, Ancho: 45 cm, Peso est.: 40 kg",
+    "age": "Ca. 700–750 d.C. (Aproximadamente 1,300 años)"
+  },
+  "faq": [
+    {
+      "question": "¿Por qué se le conoce popularmente como 'El Luchador'?",
+      "answer": "Debido a la flexión de sus extremidades y la tensión muscular de su torso, cuya postura sugiere el movimiento dinámico de un atleta o luchador en plena acción."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa la marcada deformación craneana y los ojos modelados para simular estrabismo ritual"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca la rotación orgánica del torso que le confiere un realismo anatómico sin precedentes"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Copán fue apodada la 'Atenas del Nuevo Mundo' por la exuberancia tridimensional y el barroquismo de sus esculturas en relieve exento."
+    },
+    {
+      "id": "cur-2",
+      "fact": "El estrabismo y la deformación cefálica eran modificaciones corporales estéticas para emular la apariencia divina del Dios del Maíz tierno."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué se le conoce popularmente como 'El Luchador'?",
+      "answer": "Debido a la flexión de sus extremidades y la tensión muscular de su torso, cuya postura sugiere el movimiento dinámico de un atleta o luchador en plena acción."
+    }
+  ]
+}

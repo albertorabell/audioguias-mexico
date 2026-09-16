@@ -1,0 +1,64 @@
+{
+  "id": "maqueta-de-fiesta-en-la-plaza-colima",
+  "poi_id": "maqueta-de-fiesta-en-la-plaza-colima",
+  "room_id": "sala-occidente",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-occidente",
+    "room_name": "Sala Occidente de México",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 4,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "arquitectura",
+    "rito_comunitario",
+    "musica"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Maqueta de Fiesta en la Plaza (Colima)",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Occidente de México, Museo Nacional de Antropología",
+    "tags": [
+      "arquitectura",
+      "rito_comunitario",
+      "musica"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Esta asombrosa maqueta circular de terracota ofrece una ventana directa al urbanismo y la vida comunitaria del Occidente.",
+    "short_desc": "Esta asombrosa maqueta circular de terracota ofrece una ventana directa al urbanismo y la vida comunitaria del Occidente.",
+    "deep_desc": "Esta asombrosa maqueta circular de terracota ofrece una ventana directa al urbanismo y la vida comunitaria del Occidente. Decenas de figuras humanas aparecen congregadas alrededor de una plataforma central: músicos tocando tambores, danzantes tomados de los brazos y espectadores asomados desde las techumbres cónicas de paja, capturando la algarabía de un festejo agrícola o una ceremonia calendárica en miniatura."
+  },
+  "audioguide": {
+    "audio_script": "Esta asombrosa maqueta circular de terracota ofrece una ventana directa al urbanismo y la vida comunitaria del Occidente. Decenas de figuras humanas aparecen congregadas alrededor de una plataforma central: músicos tocando tambores, danzantes tomados de los brazos y espectadores asomados desde las techumbres cónicas de paja, capturando la algarabía de un festejo agrícola o una ceremonia calendárica en miniatura.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Esta asombrosa maqueta circular de terracota ofrece una ventana directa al urbanismo y la vida comunitaria del Occidente.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Estas maquetas permitieron a los arqueólogos reconstruir el aspecto real de las aldeas prehispánicas, cuyas estructuras de madera y paja no sobrevivieron al tiempo."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Estas maquetas permitieron a los arqueólogos reconstruir el aspecto real de las aldeas prehispánicas, cuyas estructuras de madera y paja no sobrevivieron al tiempo."
+    }
+  ],
+  "faqs": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "pintura-rupestre-de-la-cueva-de-san-borjita-reproduccion",
+  "poi_id": "pintura-rupestre-de-la-cueva-de-san-borjita-reproduccion",
+  "room_id": "sala-norte",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-norte",
+    "room_name": "Sala del Norte de México",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 9,
+  "is_premium": false,
+  "estimated_minutes": 4,
+  "tags": [
+    "arte_rupestre",
+    "gran_mural",
+    "chamanismo"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Pintura Rupestre de la Cueva de San Borjita (Reproducción)",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala del Norte de México, Museo Nacional de Antropología",
+    "tags": [
+      "arte_rupestre",
+      "gran_mural",
+      "chamanismo"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Esta recreación monumental traslada al visitante a las profundidades de la Sierra de San Francisco, Baja California Sur.",
+    "short_desc": "Esta recreación monumental traslada al visitante a las profundidades de la Sierra de San Francisco, Baja California Sur.",
+    "deep_desc": "Esta recreación monumental traslada al visitante a las profundidades de la Sierra de San Francisco, Baja California Sur. Los imponentes personajes de más de dos metros de altura aparecen bicolores (mitad rojos, mitad negros), atravesados por flechas o con los brazos en alto, rodeados de fauna marina y terrestre como ballenas, venados y aves. Esta tradición pictórica del Gran Mural es una de las concentraciones de arte rupestre al aire libre más espectaculares del planeta."
+  },
+  "audioguide": {
+    "audio_script": "Esta recreación monumental traslada al visitante a las profundidades de la Sierra de San Francisco, Baja California Sur. Los imponentes personajes de más de dos metros de altura aparecen bicolores (mitad rojos, mitad negros), atravesados por flechas o con los brazos en alto, rodeados de fauna marina y terrestre como ballenas, venados y aves. Esta tradición pictórica del Gran Mural es una de las concentraciones de arte rupestre al aire libre más espectaculares del planeta.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Esta recreación monumental traslada al visitante a las profundidades de la Sierra de San Francisco, Baja California Sur.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Muchas figuras fueron pintadas a más de diez metros de altura en abrigos rocosos casi inaccesibles, requiriendo andamios de troncos de palma entrelazados con cuerdas."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Muchas figuras fueron pintadas a más de diez metros de altura en abrigos rocosos casi inaccesibles, requiriendo andamios de troncos de palma entrelazados con cuerdas."
+    }
+  ],
+  "faqs": []
+}

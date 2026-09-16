@@ -1,0 +1,64 @@
+{
+  "id": "arco-musical-de-boca-cora-tupil",
+  "poi_id": "arco-musical-de-boca-cora-tupil",
+  "room_id": "sala-gran_nayar",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-gran_nayar",
+    "room_name": "Sala Gran Nayar",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 8,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "musica_ancestral",
+    "rito",
+    "instrumentos"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Arco Musical de Boca Cora (Tupil)",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Gran Nayar, Museo Nacional de Antropología",
+    "tags": [
+      "musica_ancestral",
+      "rito",
+      "instrumentos"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Este arcaico instrumento sonoro consiste en una vara flexible de madera tensada con una sola cuerda de tripa vegetal o alambre.",
+    "short_desc": "Este arcaico instrumento sonoro consiste en una vara flexible de madera tensada con una sola cuerda de tripa vegetal o alambre.",
+    "deep_desc": "Este arcaico instrumento sonoro consiste en una vara flexible de madera tensada con una sola cuerda de tripa vegetal o alambre. El músico apoya un extremo de la madera sobre su cavidad bucal, la cual actúa como caja de resonancia acústica natural mientras golpea la cuerda con dos varitas delgadas. Sus notas sutiles y armónicas acompañan exclusivamente las ceremonias agrícolas nocturnas y los cantos de creación en las rancherías del Nayar."
+  },
+  "audioguide": {
+    "audio_script": "Este arcaico instrumento sonoro consiste en una vara flexible de madera tensada con una sola cuerda de tripa vegetal o alambre. El músico apoya un extremo de la madera sobre su cavidad bucal, la cual actúa como caja de resonancia acústica natural mientras golpea la cuerda con dos varitas delgadas. Sus notas sutiles y armónicas acompañan exclusivamente las ceremonias agrícolas nocturnas y los cantos de creación en las rancherías del Nayar.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Este arcaico instrumento sonoro consiste en una vara flexible de madera tensada con una sola cuerda de tripa vegetal o alambre.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Es uno de los pocos instrumentos de cuerda genuinamente prehispánicos que sobrevivieron a la introducción de la guitarra y el violín colonial."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Es uno de los pocos instrumentos de cuerda genuinamente prehispánicos que sobrevivieron a la introducción de la guitarra y el violín colonial."
+    }
+  ],
+  "faqs": []
+}

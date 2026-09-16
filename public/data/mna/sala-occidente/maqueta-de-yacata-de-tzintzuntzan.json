@@ -1,0 +1,64 @@
+{
+  "id": "maqueta-de-yacata-de-tzintzuntzan",
+  "poi_id": "maqueta-de-yacata-de-tzintzuntzan",
+  "room_id": "sala-occidente",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-occidente",
+    "room_name": "Sala Occidente de México",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 10,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "arquitectura",
+    "piramides_mixtas",
+    "purepechas"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Maqueta de Yácata de Tzintzuntzan",
+    "culture_period": "Mesoamérica",
+    "room_zone": "Sala Occidente de México, Museo Nacional de Antropología",
+    "tags": [
+      "arquitectura",
+      "piramides_mixtas",
+      "purepechas"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
+  },
+  "narrative": {
+    "one_liner": "Para cerrar la sala, esta maqueta ilustra la singularidad arquitectónica de las capitales tarascas: las yácatas.",
+    "short_desc": "Para cerrar la sala, esta maqueta ilustra la singularidad arquitectónica de las capitales tarascas: las yácatas.",
+    "deep_desc": "Para cerrar la sala, esta maqueta ilustra la singularidad arquitectónica de las capitales tarascas: las yácatas. Estos monumentales basamentos combinaban un cuerpo rectangular escalonado con una torre semicircular adosada, recubiertos con lajas de piedra volcánica volcadas sin mortero. Servían de cimiento a los templos de madera donde ardía el fuego perpetuo dedicado al dios sol Curicaueri frente al Lago de Pátzcuaro."
+  },
+  "audioguide": {
+    "audio_script": "Para cerrar la sala, esta maqueta ilustra la singularidad arquitectónica de las capitales tarascas: las yácatas. Estos monumentales basamentos combinaban un cuerpo rectangular escalonado con una torre semicircular adosada, recubiertos con lajas de piedra volcánica volcadas sin mortero. Servían de cimiento a los templos de madera donde ardía el fuego perpetuo dedicado al dios sol Curicaueri frente al Lago de Pátzcuaro.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Para cerrar la sala, esta maqueta ilustra la singularidad arquitectónica de las capitales tarascas: las yácatas.",
+  "observation_challenges": [],
+  "did_you_know": [
+    "Sobre estas plataformas se consumaban las cremaciones de los reyes o 'cazonci', cuyas cenizas se depositaban en ricas urnas funerarias al pie de la estructura."
+  ],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [],
+  "visual_challenge": [],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Sobre estas plataformas se consumaban las cremaciones de los reyes o 'cazonci', cuyas cenizas se depositaban en ricas urnas funerarias al pie de la estructura."
+    }
+  ],
+  "faqs": []
+}

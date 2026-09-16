@@ -1,69 +1,99 @@
 {
+  "id": "piedra-del-sol",
   "poi_id": "piedra-del-sol",
+  "room_id": "sala-mexica",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-mexica",
+    "room_name": "Sala Mexica",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 1,
   "is_premium": false,
-  "estimated_minutes": 8,
-  "tags": ["mexica", "monumental", "tenochtitlan", "misticismo", "obras maestras"],
+  "estimated_minutes": 5,
+  "tags": [
+    "cosmovision",
+    "calendario",
+    "poder"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
   "identification": {
-    "title": "Piedra del Sol (Calendario Azteca)",
-    "culture_period": "Mexica / Posclásico Tardío (1502–1520 d.C.)",
+    "title": "Piedra del Sol",
+    "culture_period": "Mexica / Posclásico Tardío (1250–1521 d.C.)",
     "room_zone": "Sala Mexica, Museo Nacional de Antropología",
-    "tags": ["Cosmogonía", "Sol", "Monolito", "Imperio Mexica"],
-    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Piedra_del_Sol_en_el_MNA.jpg/1200px-Piedra_del_Sol_en_el_MNA.jpg"
+    "tags": [
+      "cosmovision",
+      "calendario",
+      "poder"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Piedra_del_Sol_%28Aztec_Sun_Stone%29_-_M%C3%A9xico.jpg"
   },
   "narrative": {
-    "one_liner": "El colosal corazón astronómico y cosmogónico que regía el destino y los ciclos del universo mexica.",
-    "short_desc": "Tallada en un gigantesco bloque de basalto de más de 24 toneladas, la Piedra del Sol sintetiza la concepción del tiempo cósmico, los cuatro soles anteriores y el Quinto Sol regido por Tonatiuh.",
-    "deep_desc": "La Piedra del Sol no era un calendario de uso civil ordinario, sino un altar de consagración cósmica ('cuauhxicalli' o 'temalacatl'). En su centro resplandece Tonatiuh o Yohualtecuhtli emergiendo de las fauces terrestres, portando cuchillos de pedernal como lengua solar. A su alrededor se inscriben los glifos Nahui Ollin (4 Movimiento), Nahui Océlotl (4 Jaguar), Nahui Ehécatl (4 Viento), Nahui Quiáhuitl (4 Lluvia de Fuego) y Nahui Atl (4 Agua), representando los cataclismos que concluyeron las cuatro edades cosmogónicas precedentes. Los anillos concéntricos externos detallan los veinte días del tonalpohualli, rayos solares de pedernal y dos gigantescas Xiuhcóatl (serpientes de fuego) que envuelven el perímetro celeste, transportando el calor del astro rey a través de la bóveda infinita."
+    "one_liner": "El corazón pétreo de un imperio que petrificó el tiempo y el destino del universo.",
+    "short_desc": "Monolito colosal mexica usado como plataforma gladiatoria. En su centro reluce el quinto sol rodeado de eras pasadas, reafirmando el compromiso ritual azteca de mantener con sacrificios la vida en el universo.",
+    "deep_desc": "Nuestra ruta comienza frente a la obra cumbre del museo. Más que un calendario, este monolito colosal era una piedra gladiatoria que resume la cosmovisión azteca. En su centro, el rostro del sol exige sacrificio, rodeado por los cuatro soles o eras anteriores que terminaron en cataclismos, recordándonos el papel del imperio mexica en mantener el equilibrio del universo."
   },
   "audioguide": {
-    "audio_script": "Bienvenido ante la Piedra del Sol, el monolito más emblemático de México. Respira hondo y contempla las 24 toneladas de basalto labradas hace más de cinco siglos. En el centro exacto, fíjate en el rostro de Tonatiuh: su lengua es un cuchillo de pedernal que demanda el sacrificio sagrado para mantener vivo el Quinto Sol. A su alrededor, los cuatro rectángulos narran el fin trágico de las cuatro eras anteriores: destruidas por jaguares, huracanes, lluvia de fuego e inundaciones. Dos colosales serpientes de fuego se encuentran frente a frente en la base exterior, custodiando el tránsito del sol a través del cosmos. Esta piedra no medía únicamente las horas, era el testamento de un pueblo que se consideraba guardián del universo.",
+    "audio_script": "Nuestra ruta comienza frente a la obra cumbre del museo. Más que un calendario, este monolito colosal era una piedra gladiatoria que resume la cosmovisión azteca. En su centro, el rostro del sol exige sacrificio, rodeado por los cuatro soles o eras anteriores que terminaron en cataclismos, recordándonos el papel del imperio mexica en mantener el equilibrio del universo.",
     "audio_file_url": ""
   },
+  "summary_30s": "Monolito colosal mexica usado como plataforma gladiatoria. En su centro reluce el quinto sol rodeado de eras pasadas, reafirmando el compromiso ritual azteca de mantener con sacrificios la vida en el universo.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Localiza los cuatro cuadrantes rodeando al sol central que representan las cuatro eras destruidas por jaguares, viento, fuego y agua"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Encuentra en el borde inferior los rostros de dos serpientes de fuego (Xiuhcóatl) que se encuentran de frente"
+    }
+  ],
+  "did_you_know": [
+    "Pesa 24 toneladas y fue descubierta enterrada boca abajo en el Zócalo de la CDMX en 1790.",
+    "Estuvo expuesta públicamente en la torre poniente de la Catedral Metropolitana durante casi 100 años antes de ser trasladada al museo."
+  ],
+  "specs": {
+    "material": "Basalto de olivino",
+    "provenance": "Templo Mayor, Tenochtitlan, Ciudad de México",
+    "weight": "24.5 toneladas, 3.60 metros de diámetro y 122 cm de grosor",
+    "age": "Aprox. 1502–1520 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Es la Piedra del Sol realmente el 'Calendario Azteca' como se le conoce comúnmente?",
+      "answer": "No, aunque contiene glifos calendáricos, no funcionaba como un calendario de uso diario; era una plataforma gladiatoria ritual (temalácatl) y un altar de sacrificios con una compleja representación del cosmos."
+    }
+  ],
   "visual_challenge": [
     {
       "id": "ch-1",
-      "title": "La lengua de pedernal",
-      "clue": "Observa el rostro central. Nota cómo su lengua sale como una afilada hoja de cuchillo ritual ('técpatl')."
+      "title": "Detalle 1",
+      "clue": "Localiza los cuatro cuadrantes rodeando al sol central que representan las cuatro eras destruidas por jaguares, viento, fuego y agua"
     },
     {
       "id": "ch-2",
-      "title": "Garras que atrapan corazones",
-      "clue": "A los costados de la cara central, busca dos extremidades con garras curvas que aprisionan corazones humanos."
-    },
-    {
-      "id": "ch-3",
-      "title": "Encuentro de las serpientes",
-      "clue": "Baja la vista a la base inferior del círculo: dos cabezas de Xiuhcóatl con fauces abiertas se tocan morro con morro."
+      "title": "Detalle 2",
+      "clue": "Encuentra en el borde inferior los rostros de dos serpientes de fuego (Xiuhcóatl) que se encuentran de frente"
     }
   ],
   "curiosities": [
     {
       "id": "cur-1",
-      "fact": "Estuvo enterrada bajo el Zócalo durante más de 270 años para evitar que los indígenas continuaran rindiéndole culto secreto."
+      "fact": "Pesa 24 toneladas y fue descubierta enterrada boca abajo en el Zócalo de la CDMX en 1790."
     },
     {
       "id": "cur-2",
-      "fact": "Durante la invasión estadounidense de 1847, soldados norteamericanos la usaron como blanco de tiro en la torre poniente de la Catedral."
-    },
-    {
-      "id": "cur-3",
-      "fact": "Pesa 24.5 toneladas y fue transportada rodando sobre troncos desde San Ángel o Xochimilco cruzando calzadas lacustres prehispánicas."
+      "fact": "Estuvo expuesta públicamente en la torre poniente de la Catedral Metropolitana durante casi 100 años antes de ser trasladada al museo."
     }
-  ],
-  "specs": [
-    { "label": "Material", "value": "Basalto de olivino volcánico" },
-    { "label": "Dimensiones", "value": "Diámetro: 3.60 m | Espesor: 1.22 m | Peso: 24,590 kg" },
-    { "label": "Datación", "value": "Hacia 1502-1520 d.C. (Reinado de Moctezuma Xocoyotzin)" },
-    { "label": "Hallazgo", "value": "17 de diciembre de 1790 en la Plaza Mayor (Zócalo), CDMX" }
   ],
   "faqs": [
     {
-      "question": "¿Es realmente un calendario que predice el futuro?",
-      "answer": "No. No es una herramienta adivinatoria ni predice el fin del mundo. Es un mapa teológico e ideológico que legitima el poder mexica como sustentador del universo solar."
-    },
-    {
-      "question": "¿Estaba originalmente pintada de colores vivos?",
-      "answer": "Sí, estudios microscópicos de pigmentos revelaron restos de rojo ocre, azul maya, blanco y negro brillante que decoraban toda su superficie en el Templo Mayor."
+      "question": "¿Es la Piedra del Sol realmente el 'Calendario Azteca' como se le conoce comúnmente?",
+      "answer": "No, aunque contiene glifos calendáricos, no funcionaba como un calendario de uso diario; era una plataforma gladiatoria ritual (temalácatl) y un altar de sacrificios con una compleja representación del cosmos."
     }
   ]
 }

@@ -1,0 +1,99 @@
+{
+  "id": "incensario-efigie-de-palenque",
+  "poi_id": "incensario-efigie-de-palenque",
+  "room_id": "sala-maya",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-maya",
+    "room_name": "Sala Maya",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 9,
+  "is_premium": true,
+  "estimated_minutes": 3,
+  "tags": [
+    "ceramica",
+    "ancestros",
+    "sacerdotes"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Incensario Efigie de Palenque",
+    "culture_period": "Maya / Clásico Tardío (600–900 d.C.)",
+    "room_zone": "Sala Maya, Museo Nacional de Antropología",
+    "tags": [
+      "ceramica",
+      "ancestros",
+      "sacerdotes"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Incensario_maya._Palenque._20260227a.jpg"
+  },
+  "narrative": {
+    "one_liner": "Eje sagrado donde el barro cobra vida y el humo conecta el inframundo con las estrellas.",
+    "short_desc": "Soporte ceremonial de arcilla con mascarones del Sol Nocturno. Utilizado en Palenque para quemar resinas sagradas durante el traspaso de poder y rituales agrícolas, canalizando la energía divina.",
+    "deep_desc": "Este soporte ceremonial de arcilla modelada a mano muestra una intrincada columna vertical de mascarones superpuestos que personifican al Sol Nocturno y a las deidades del inframundo. Utilizados en templos como el Templo de la Cruz Foliada, servían para quemar resinas aromáticas durante el traspaso de poderes o ceremonias agrícolas, canalizando la energía divina a través del humo."
+  },
+  "audioguide": {
+    "audio_script": "Este soporte ceremonial de arcilla modelada a mano muestra una intrincada columna vertical de mascarones superpuestos que personifican al Sol Nocturno y a las deidades del inframundo. Utilizados en templos como el Templo de la Cruz Foliada, servían para quemar resinas aromáticas durante el traspaso de poderes o ceremonias agrícolas, canalizando la energía divina a través del humo.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Soporte ceremonial de arcilla con mascarones del Sol Nocturno. Utilizado en Palenque para quemar resinas sagradas durante el traspaso de poder y rituales agrícolas, canalizando la energía divina.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa la columna vertical para identificar los rostros superpuestos de las deidades del inframundo"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca los rasgos felinos del Sol Nocturno en las facciones centrales del mascarón"
+    }
+  ],
+  "did_you_know": [
+    "Cada incensario era modelado específicamente para un ciclo ritual y ritualmente 'desactivado' o roto al concluir el ciclo calendárico de su templo",
+    "El humo denso del copal que salía de estas piezas representaba el aliento vivo de los ancestros y la sangre purificada de los dioses"
+  ],
+  "specs": {
+    "material": "Arcilla modelada a mano con restos de pigmentos minerales",
+    "provenance": "Templo de la Cruz Foliada, Palenque, Chiapas",
+    "weight": "Alto: 108 cm, Ancho: 42 cm / Peso: 18 kg aprox.",
+    "age": "Aprox. 680–750 d.C. (1,300 años de antigüedad)"
+  },
+  "faq": [
+    {
+      "question": "¿Por qué los mayas destruían piezas tan elaboradas al finalizar un ciclo?",
+      "answer": "Para los mayas, los objetos rituales tenían una 'fuerza vital' (ch'ulel); al terminar su ciclo calendárico, la pieza debía ser 'desactivada' para liberar su energía antes de crear un nuevo soporte para el siguiente periodo."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa la columna vertical para identificar los rostros superpuestos de las deidades del inframundo"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca los rasgos felinos del Sol Nocturno en las facciones centrales del mascarón"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Cada incensario era modelado específicamente para un ciclo ritual y ritualmente 'desactivado' o roto al concluir el ciclo calendárico de su templo"
+    },
+    {
+      "id": "cur-2",
+      "fact": "El humo denso del copal que salía de estas piezas representaba el aliento vivo de los ancestros y la sangre purificada de los dioses"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué los mayas destruían piezas tan elaboradas al finalizar un ciclo?",
+      "answer": "Para los mayas, los objetos rituales tenían una 'fuerza vital' (ch'ulel); al terminar su ciclo calendárico, la pieza debía ser 'desactivada' para liberar su energía antes de crear un nuevo soporte para el siguiente periodo."
+    }
+  ]
+}

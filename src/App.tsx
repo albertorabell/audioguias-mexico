@@ -225,8 +225,8 @@ export default function App() {
     if (!activeRoute || !spontaneousDetour || !currentPiece) return;
     const newStop: RouteStop = {
       poi_id: currentPiece.poi_id,
-      title: currentPiece.identification.title,
-      room_zone: currentPiece.identification.location_room || 'Sala',
+      title: currentPiece.identification?.title || currentPiece.poi_id,
+      room_zone: currentPiece.identification?.room_zone || (currentPiece.identification as any)?.location_room || currentPiece?.room_id || 'Sala',
       file: spontaneousDetour.pieceFile,
       estimated_minutes: currentPiece.estimated_minutes || 8,
       map_coords: { x: 50, y: 50 },

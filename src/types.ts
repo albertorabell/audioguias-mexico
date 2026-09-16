@@ -117,6 +117,12 @@ export interface PieceData {
   is_premium: boolean;
   estimated_minutes?: number;
   tags?: string[];
+  location?: {
+    room_id?: string;
+    room_name?: string;
+    case_number?: string;
+  };
+  case_number?: string;
   map_coords?: MapCoords;
   map?: { x: number; y: number } | MapCoords;
   summary_30s?: string;

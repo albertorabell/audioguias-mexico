@@ -1,0 +1,99 @@
+{
+  "id": "mascara-del-dios-murcielago",
+  "poi_id": "mascara-del-dios-murcielago",
+  "room_id": "sala-oaxaca",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-oaxaca",
+    "room_name": "Sala Oaxaca",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 1,
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "lapidaria",
+    "inframundo",
+    "deidades"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Máscara del Dios Murciélago",
+    "culture_period": "Cultura Zapoteca / Clásico Temprano (200–600 d.C.)",
+    "room_zone": "Sala Oaxaca, Museo Nacional de Antropología",
+    "tags": [
+      "lapidaria",
+      "inframundo",
+      "deidades"
+    ],
+    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/5/56/El_murci%C3%A9lago_alevoso_-_zarzuela_en_un_acto_y_en_prosa_%28IA_elmurcilagoalevo2545este%29.pdf"
+  },
+  "narrative": {
+    "one_liner": "Desde la penumbra sagrada de las cuevas, el rostro de jade resguarda la vida que germina en la tierra.",
+    "short_desc": "Obra maestra zapoteca ensamblada con 25 placas de jadeíta y concha marina. Encarna a la deidad nocturna del inframundo, vinculada a la fertilidad, las cuevas sagradas y el maíz que germina desde la penumbra.",
+    "deep_desc": "Iniciamos en el corazón zapoteco frente a una de las cumbres mundiales de la lapidaria mesoamericana. Esta máscara pectoral está armada con 25 placas de jadeíta verde oscura primorosamente ensambladas, con ojos y colmillos tallados en concha marina. Encarna a Pitao Cozobi o al dios murciélago, deidad nocturna vinculada al inframundo, las cuevas sagradas, la fertilidad de la tierra y el maíz en germinación que brota desde la oscuridad."
+  },
+  "audioguide": {
+    "audio_script": "Iniciamos en el corazón zapoteco frente a una de las cumbres mundiales de la lapidaria mesoamericana. Esta máscara pectoral está armada con 25 placas de jadeíta verde oscura primorosamente ensambladas, con ojos y colmillos tallados en concha marina. Encarna a Pitao Cozobi o al dios murciélago, deidad nocturna vinculada al inframundo, las cuevas sagradas, la fertilidad de la tierra y el maíz en germinación que brota desde la oscuridad.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Obra maestra zapoteca ensamblada con 25 placas de jadeíta y concha marina. Encarna a la deidad nocturna del inframundo, vinculada a la fertilidad, las cuevas sagradas y el maíz que germina desde la penumbra.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Observa las 25 placas de jadeíta verde ensambladas con precisión de mosaico"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Busca los colmillos y ojos tallados en concha marina que destacan sobre la piedra verde"
+    }
+  ],
+  "did_you_know": [
+    "Fue descubierta en 1932 en el adoratorio del Montículo H de Monte Albán junto a un entierro múltiple ofrendado a la deidad.",
+    "Para los zapotecas, el jade era considerado un material sagrado de mayor valor que el oro, pues simbolizaba la humedad, la vegetación y la vida eterna."
+  ],
+  "specs": {
+    "material": "Jadeíta verde oscura (25 placas ensambladas) y concha marina",
+    "provenance": "Montículo H, Monte Albán, Oaxaca, México",
+    "weight": "28 x 17.2 x 12.5 cm",
+    "age": "c. 100 a.C. – 200 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Por qué un animal nocturno como el murciélago se asociaba con el maíz y la agricultura?",
+      "answer": "Los zapotecas veían a las cuevas —hábitat del murciélago— como vientres sagrados del inframundo donde nacían las nubes, la lluvia y la humedad. De la misma forma en que el murciélago emerge de la penumbra, la semilla del maíz debe germinar en la oscuridad de la tierra para dar vida."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Observa las 25 placas de jadeíta verde ensambladas con precisión de mosaico"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Busca los colmillos y ojos tallados en concha marina que destacan sobre la piedra verde"
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "cur-1",
+      "fact": "Fue descubierta en 1932 en el adoratorio del Montículo H de Monte Albán junto a un entierro múltiple ofrendado a la deidad."
+    },
+    {
+      "id": "cur-2",
+      "fact": "Para los zapotecas, el jade era considerado un material sagrado de mayor valor que el oro, pues simbolizaba la humedad, la vegetación y la vida eterna."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Por qué un animal nocturno como el murciélago se asociaba con el maíz y la agricultura?",
+      "answer": "Los zapotecas veían a las cuevas —hábitat del murciélago— como vientres sagrados del inframundo donde nacían las nubes, la lluvia y la humedad. De la misma forma en que el murciélago emerge de la penumbra, la semilla del maíz debe germinar en la oscuridad de la tierra para dar vida."
+    }
+  ]
+}
