@@ -61,7 +61,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
   return (
     <div
       className={`min-h-screen flex flex-col transition-colors duration-200 ${
-        isSunMode ? 'bg-[#F9F6F0] text-stone-900' : 'bg-stone-950 text-stone-100'
+        isSunMode ? 'bg-[#FAF8F5] text-[#111827]' : 'bg-stone-950 text-stone-100'
       }`}
     >
       {/* Sticky Top Bar */}
@@ -184,12 +184,12 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
             </span>
           </div>
 
-          <h1 className="text-2xl sm:text-3xl font-black tracking-tight leading-tight mb-2">
+          <h1 className="text-2xl sm:text-3xl font-black tracking-tight leading-tight mb-2 text-[#111827] dark:text-stone-100">
             {overviewData.officialTitle}
           </h1>
           <p
             className={`text-sm sm:text-base leading-relaxed ${
-              isSunMode ? 'text-stone-600' : 'text-stone-400'
+              isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
             }`}
           >
             {overviewData.tagline}
@@ -212,15 +212,15 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
                 {idx === 1 && <Layers className="w-3.5 h-3.5" />}
                 {idx === 2 && <Calendar className="w-3.5 h-3.5" />}
                 {idx === 3 && <Sparkles className="w-3.5 h-3.5" />}
-                <span className="text-[10px] font-bold uppercase tracking-wider text-stone-500">
+                <span className={`text-[10px] font-bold uppercase tracking-wider ${isSunMode ? 'text-[#4B5563]' : 'text-stone-500'}`}>
                   {fact.label}
                 </span>
               </div>
-              <p className="text-sm font-extrabold tracking-tight">{fact.value}</p>
+              <p className="text-sm font-extrabold tracking-tight text-[#111827] dark:text-stone-100">{fact.value}</p>
               {fact.subtext && (
                 <p
                   className={`text-[10px] mt-0.5 ${
-                    isSunMode ? 'text-stone-500' : 'text-stone-400'
+                    isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
                   }`}
                 >
                   {fact.subtext}
@@ -234,7 +234,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
         <section
           className={`p-4 rounded-2xl border mb-6 text-xs flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between ${
             isSunMode
-              ? 'bg-amber-50/70 border-amber-200/80 text-amber-950'
+              ? 'bg-amber-50/70 border-amber-200/80 text-[#111827]'
               : 'bg-amber-950/25 border-amber-800/40 text-amber-200'
           }`}
         >
@@ -264,14 +264,14 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
         >
           <div className="flex items-center gap-2 mb-4">
             <BookOpen className="w-4 h-4 text-amber-500" />
-            <h2 className="text-sm font-black uppercase tracking-wider">
+            <h2 className="text-sm font-black uppercase tracking-wider text-[#111827] dark:text-stone-100">
               Importancia Histórica y Arquitectónica
             </h2>
           </div>
 
           <div
             className={`space-y-3.5 text-xs sm:text-sm leading-relaxed text-justify ${
-              isSunMode ? 'text-stone-700' : 'text-stone-300'
+              isSunMode ? 'text-[#111827]' : 'text-stone-300'
             }`}
           >
             {overviewData.narrativeParagraphs.map((paragraph, idx) => (
@@ -301,7 +301,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
                     </span>
                     <p
                       className={`text-[11px] leading-snug ${
-                        isSunMode ? 'text-stone-600' : 'text-stone-400'
+                        isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
                       }`}
                     >
                       {arch.description}
@@ -317,7 +317,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
         {manifest.rooms && manifest.rooms.length > 0 && (
           <section className="mb-6">
             <div className="flex items-center justify-between mb-3">
-              <h2 className="text-xs font-black uppercase tracking-wider text-stone-500 flex items-center gap-1.5">
+              <h2 className="text-xs font-black uppercase tracking-wider text-[#4B5563] dark:text-stone-400 flex items-center gap-1.5">
                 <Layers className="w-3.5 h-3.5 text-amber-500" />
                 Salas y Espacios Principales ({manifest.rooms.length})
               </h2>
@@ -336,7 +336,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
                     }`}
                   >
                     <div className="flex items-start justify-between gap-2 mb-1">
-                      <h3 className="text-xs font-bold">{room.name}</h3>
+                      <h3 className="text-xs font-bold text-[#111827] dark:text-stone-100">{room.name}</h3>
                       <span
                         className={`text-[9px] font-bold px-1.5 py-0.5 rounded border shrink-0 ${
                           isSunMode
@@ -349,7 +349,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
                     </div>
                     <p
                       className={`text-[11px] line-clamp-2 leading-relaxed ${
-                        isSunMode ? 'text-stone-600' : 'text-stone-400'
+                        isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
                       }`}
                     >
                       {room.short_description}

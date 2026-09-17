@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import {
   ArrowLeft,
   Clock,
@@ -48,6 +48,13 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
   onStartRoute,
 }) => {
   const { isSunMode } = useTheme();
+
+  // Reset de scroll al inicio absoluto de la página
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    const mainContainer = document.querySelector('main') || document.getElementById('root');
+    if (mainContainer) mainContainer.scrollTop = 0;
+  }, []);
 
   // Pregunta 1: Tiempo disponible
   // Opciones: "30 min (Rápida)", "60 min (Estándar)", "90 min (Completa)", "Sin límite"
@@ -175,34 +182,34 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
   return (
     <div
       className={`min-h-screen flex flex-col transition-colors duration-200 ${
-        isSunMode ? 'bg-[#F9F6F0] text-stone-900' : 'bg-stone-950 text-stone-100'
+        isSunMode ? 'bg-[#FAF8F5] text-[#111827]' : 'bg-stone-950 text-stone-100'
       }`}
     >
       {/* Top Header Bar */}
       <header
         className={`sticky top-0 z-30 px-4 py-3 border-b flex items-center justify-between backdrop-blur-md transition-colors ${
           isSunMode
-            ? 'bg-[#F9F6F0]/95 border-stone-300 shadow-sm'
+            ? 'bg-[#FAF8F5]/95 border-stone-300 shadow-sm'
             : 'bg-stone-950/95 border-stone-800 shadow-md'
         }`}
       >
         <button
           type="button"
           onClick={onBack}
-          className={`flex items-center gap-2 text-xs font-semibold px-3 py-1.5 rounded-xl border transition-all active:scale-95 ${
+          className={`flex items-center gap-2 text-xs font-bold px-3 py-1.5 rounded-xl border transition-all active:scale-95 ${
             isSunMode
-              ? 'bg-stone-200/80 border-stone-300 text-stone-800 hover:bg-stone-300'
+              ? 'bg-white border-stone-300 text-[#111827] hover:bg-stone-100'
               : 'bg-stone-900 border-stone-800 text-stone-200 hover:bg-stone-800'
           }`}
         >
-          <ArrowLeft className="w-4 h-4 text-amber-500" />
+          <ArrowLeft className="w-4 h-4 text-amber-600" />
           <span>Información del recinto</span>
         </button>
 
         <span
-          className={`text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full border ${
+          className={`text-[11px] font-black uppercase tracking-wider px-2.5 py-1 rounded-full border ${
             isSunMode
-              ? 'bg-amber-100 text-amber-900 border-amber-300'
+              ? 'bg-amber-100 text-amber-950 border-amber-300'
               : 'bg-amber-950/60 text-amber-300 border-amber-800/60'
           }`}
         >
@@ -214,16 +221,16 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
       <main className="flex-1 max-w-3xl mx-auto w-full px-4 pt-5 pb-44 space-y-6">
         {/* Header Title */}
         <div>
-          <div className="flex items-center gap-1.5 text-xs font-bold text-amber-500 uppercase tracking-widest mb-1">
+          <div className="flex items-center gap-1.5 text-xs font-bold text-amber-600 uppercase tracking-widest mb-1">
             <Compass className="w-4 h-4" />
             <span>Curaduría Personalizada</span>
           </div>
-          <h1 className="text-xl sm:text-2xl font-black tracking-tight">
+          <h1 className="text-xl sm:text-2xl font-black tracking-tight text-neutral-900 dark:text-stone-100">
             Diseña tu Recorrido en {site.short_name}
           </h1>
           <p
             className={`text-xs sm:text-sm mt-1 leading-relaxed ${
-              isSunMode ? 'text-stone-600' : 'text-stone-400'
+              isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
             }`}
           >
             Configura tu tiempo, salas predilectas y ritmo de visita. Nuestro algoritmo ordenará las paradas en una secuencia espacial continua.

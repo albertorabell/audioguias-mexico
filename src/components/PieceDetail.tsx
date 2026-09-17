@@ -174,13 +174,13 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
       {/* 2. TIPOGRAFÍA Y METADATOS EDITORIALES */}
       <section className="px-5 pt-4 pb-2">
         {/* Título de la obra con tipografía refinada */}
-        <h1 className="font-serif text-2xl sm:text-3xl font-medium tracking-tight text-stone-900 dark:text-stone-100 leading-tight">
+        <h1 className="font-serif text-2xl sm:text-3xl font-medium tracking-tight text-[#111827] dark:text-stone-100 leading-tight">
           {piece.identification.title}
         </h1>
 
         {/* Subtítulo sobrio: Cultura · Período */}
         {piece.identification.culture_period && (
-          <p className="text-xs sm:text-sm font-sans tracking-wide text-stone-600 dark:text-stone-400 font-medium mt-1.5">
+          <p className="text-xs sm:text-sm font-sans tracking-wide text-[#4B5563] dark:text-stone-400 font-medium mt-1.5">
             {piece.identification.culture_period}
           </p>
         )}
@@ -218,9 +218,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               className={`min-h-[44px] flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all ${
                 activeTab === 'quick'
                   ? isSunMode
-                    ? 'bg-white text-stone-900 shadow-xs'
+                    ? 'bg-white text-[#111827] shadow-xs'
                     : 'bg-stone-800 text-stone-100 shadow-xs'
-                  : 'text-stone-500 hover:text-stone-900 dark:hover:text-stone-200'
+                  : 'text-[#4B5563] hover:text-[#111827] dark:text-stone-400 dark:hover:text-stone-200'
               }`}
             >
               <Eye className="w-4 h-4" />
@@ -234,9 +234,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               className={`min-h-[44px] flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all relative ${
                 activeTab === 'expert'
                   ? isSunMode
-                    ? 'bg-white text-stone-900 shadow-xs'
+                    ? 'bg-white text-[#111827] shadow-xs'
                     : 'bg-stone-800 text-stone-100 shadow-xs'
-                  : 'text-stone-500 hover:text-stone-900 dark:hover:text-stone-200'
+                  : 'text-[#4B5563] hover:text-[#111827] dark:text-stone-400 dark:hover:text-stone-200'
               }`}
             >
               <Bookmark className="w-4 h-4" />
@@ -256,7 +256,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             <div className="space-y-6">
               {/* Frase gancho como cita tipográfica elegante */}
               {piece.narrative.one_liner && (
-                <blockquote className="pl-4 border-l-2 border-[#C05638] dark:border-[#D96B47] italic font-serif text-base sm:text-lg text-stone-800 dark:text-stone-200 leading-relaxed">
+                <blockquote className="pl-4 border-l-2 border-[#C05638] dark:border-[#D96B47] italic font-serif text-base sm:text-lg text-[#111827] dark:text-stone-200 leading-relaxed">
                   “{piece.narrative.one_liner}”
                 </blockquote>
               )}
@@ -265,11 +265,11 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <Clock className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
-                  <h3 className="text-xs font-semibold tracking-wider uppercase text-stone-500 dark:text-stone-400">
+                  <h3 className="text-xs font-semibold tracking-wider uppercase text-[#4B5563] dark:text-stone-400">
                     En 30 segundos
                   </h3>
                 </div>
-                <p className="text-sm leading-relaxed text-stone-800 dark:text-stone-200 font-sans font-normal">
+                <p className="text-sm leading-relaxed text-[#111827] dark:text-stone-200 font-sans font-normal">
                   {summaryText}
                 </p>
               </div>
@@ -450,7 +450,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             <div className="space-y-6">
               {/* Análisis Arqueológico Profundo con Paywall sobrio */}
               <div className="space-y-2">
-                <h3 className="text-xs font-semibold tracking-wider uppercase text-stone-500 dark:text-stone-400">
+                <h3 className="text-xs font-semibold tracking-wider uppercase text-[#4B5563] dark:text-stone-400">
                   Análisis Arqueológico Profundo
                 </h3>
 
@@ -478,10 +478,10 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                       >
                         <Lock className="w-4 h-4" />
                       </div>
-                      <h4 className="text-xs font-semibold text-stone-900 dark:text-stone-100 mb-1">
+                      <h4 className="text-xs font-semibold text-[#111827] dark:text-stone-100 mb-1">
                         Acceso para Investigadores y Expertos
                       </h4>
-                      <p className="text-xs text-stone-500 dark:text-stone-400 max-w-[280px] mb-4">
+                      <p className="text-xs text-[#4B5563] dark:text-stone-400 max-w-[280px] mb-4">
                         Desbloquea el análisis iconográfico, la bibliografía y la interpretación histórica detallada.
                       </p>
                       <button
@@ -497,7 +497,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                   </div>
                 ) : (
                   <div className="pt-1">
-                    <p className="text-sm leading-relaxed text-stone-800 dark:text-stone-200 font-sans font-normal text-justify">
+                    <p className="text-sm leading-relaxed text-[#111827] dark:text-stone-200 font-sans font-normal text-justify">
                       {deepText}
                     </p>
                   </div>
@@ -509,7 +509,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                 <div className="space-y-2 pt-1">
                   <div className="flex items-center gap-2">
                     <Layers className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
-                    <h3 className="text-xs font-semibold tracking-wider uppercase text-stone-500 dark:text-stone-400">
+                    <h3 className="text-xs font-semibold tracking-wider uppercase text-[#4B5563] dark:text-stone-400">
                       Ficha Técnica
                     </h3>
                   </div>
@@ -518,10 +518,10 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                     {/* Material */}
                     {normalizedSpecs.material && (
                       <div className="py-2.5 flex items-baseline justify-between gap-4">
-                        <span className="text-xs text-stone-500 dark:text-stone-400 font-medium">
+                        <span className="text-xs text-[#4B5563] dark:text-stone-400 font-medium">
                           Material
                         </span>
-                        <span className="text-xs sm:text-sm font-semibold text-stone-900 dark:text-stone-100 text-right">
+                        <span className="text-xs sm:text-sm font-semibold text-[#111827] dark:text-stone-100 text-right">
                           {normalizedSpecs.material}
                         </span>
                       </div>
@@ -530,10 +530,10 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                     {/* Procedencia / Hallazgo */}
                     {normalizedSpecs.provenance && (
                       <div className="py-2.5 flex items-baseline justify-between gap-4">
-                        <span className="text-xs text-stone-500 dark:text-stone-400 font-medium">
+                        <span className="text-xs text-[#4B5563] dark:text-stone-400 font-medium">
                           Procedencia / Hallazgo
                         </span>
-                        <span className="text-xs sm:text-sm font-semibold text-stone-900 dark:text-stone-100 text-right">
+                        <span className="text-xs sm:text-sm font-semibold text-[#111827] dark:text-stone-100 text-right">
                           {normalizedSpecs.provenance}
                         </span>
                       </div>
@@ -542,10 +542,10 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                     {/* Dimensiones y Peso */}
                     {normalizedSpecs.weight && (
                       <div className="py-2.5 flex items-baseline justify-between gap-4">
-                        <span className="text-xs text-stone-500 dark:text-stone-400 font-medium">
+                        <span className="text-xs text-[#4B5563] dark:text-stone-400 font-medium">
                           Dimensiones / Peso
                         </span>
-                        <span className="text-xs sm:text-sm font-semibold text-stone-900 dark:text-stone-100 text-right">
+                        <span className="text-xs sm:text-sm font-semibold text-[#111827] dark:text-stone-100 text-right">
                           {normalizedSpecs.weight}
                         </span>
                       </div>
@@ -554,10 +554,10 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                     {/* Cronología / Datación */}
                     {normalizedSpecs.age && (
                       <div className="py-2.5 flex items-baseline justify-between gap-4">
-                        <span className="text-xs text-stone-500 dark:text-stone-400 font-medium">
+                        <span className="text-xs text-[#4B5563] dark:text-stone-400 font-medium">
                           Cronología
                         </span>
-                        <span className="text-xs sm:text-sm font-semibold text-stone-900 dark:text-stone-100 text-right">
+                        <span className="text-xs sm:text-sm font-semibold text-[#111827] dark:text-stone-100 text-right">
                           {normalizedSpecs.age}
                         </span>
                       </div>
@@ -569,7 +569,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               {/* Sección "¿Sabías qué?" con Viñetas Numeradas Estilizadas */}
               {didYouKnowList.length > 0 && (
                 <div className="space-y-3 pt-2">
-                  <h3 className="text-xs font-semibold tracking-wider uppercase text-stone-500 dark:text-stone-400">
+                  <h3 className="text-xs font-semibold tracking-wider uppercase text-[#4B5563] dark:text-stone-400">
                     ¿Sabías qué?
                   </h3>
 
@@ -579,7 +579,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                         <span className="font-serif text-sm font-semibold text-[#C05638] dark:text-[#D96B47] shrink-0 mt-0.5">
                           {String(idx + 1).padStart(2, '0')}
                         </span>
-                        <p className="text-xs sm:text-sm leading-relaxed text-stone-700 dark:text-stone-300 font-normal flex-1">
+                        <p className="text-xs sm:text-sm leading-relaxed text-[#111827] dark:text-stone-300 font-normal flex-1">
                           {fact}
                         </p>
                       </div>
@@ -593,7 +593,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                 <div className="space-y-3 pt-2">
                   <div className="flex items-center gap-2">
                     <HelpCircle className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
-                    <h3 className="text-xs font-semibold tracking-wider uppercase text-stone-500 dark:text-stone-400">
+                    <h3 className="text-xs font-semibold tracking-wider uppercase text-[#4B5563] dark:text-stone-400">
                       Preguntas y Debate
                     </h3>
                   </div>
@@ -608,19 +608,19 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                             onClick={() => setOpenFaqIndex(isOpen ? null : idx)}
                             className="w-full text-left py-3 flex items-center justify-between gap-3 group transition-colors"
                           >
-                            <span className="text-xs sm:text-sm font-semibold text-stone-900 dark:text-stone-100 group-hover:text-[#C05638] dark:group-hover:text-[#D96B47]">
+                            <span className="text-xs sm:text-sm font-semibold text-[#111827] dark:text-stone-100 group-hover:text-[#C05638] dark:group-hover:text-[#D96B47]">
                               {item.question}
                             </span>
                             <ChevronDown
                               className={`w-4 h-4 shrink-0 transition-transform duration-200 ${
                                 isOpen
                                   ? 'rotate-180 text-[#C05638] dark:text-[#D96B47]'
-                                  : 'text-stone-400'
+                                  : 'text-[#4B5563]'
                               }`}
                             />
                           </button>
                           {isOpen && (
-                            <div className="pb-3 text-xs sm:text-sm leading-relaxed text-stone-600 dark:text-stone-300 animate-in fade-in duration-200">
+                            <div className="pb-3 text-xs sm:text-sm leading-relaxed text-[#111827] dark:text-stone-300 animate-in fade-in duration-200">
                               {item.answer}
                             </div>
                           )}

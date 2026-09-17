@@ -405,7 +405,10 @@ export function useAudioGuide(
       const artwork = artworkSrc
         ? [
             { src: artworkSrc, sizes: '96x96', type: 'image/webp' },
+            { src: artworkSrc, sizes: '128x128', type: 'image/webp' },
             { src: artworkSrc, sizes: '192x192', type: 'image/webp' },
+            { src: artworkSrc, sizes: '256x256', type: 'image/webp' },
+            { src: artworkSrc, sizes: '384x384', type: 'image/webp' },
             { src: artworkSrc, sizes: '512x512', type: 'image/webp' },
           ]
         : [];
@@ -429,6 +432,16 @@ export function useAudioGuide(
       navigator.mediaSession.setActionHandler('pause', () => {
         pause();
       });
+      navigator.mediaSession.setActionHandler('seekto', (details) => {
+        if (typeof details.seekTime === 'number' && !isNaN(details.seekTime)) {
+          const targetTime = Math.max(0, Math.min(details.seekTime, effectiveDuration));
+          if (audioRef.current) {
+            audioRef.current.currentTime = targetTime;
+          }
+          setCurrentTime(targetTime);
+          setProgress(targetTime / (effectiveDuration || 1));
+        }
+      });
       if (onPreviousTrack) {
         navigator.mediaSession.setActionHandler('previoustrack', onPreviousTrack);
       } else {
@@ -442,14 +455,26 @@ export function useAudioGuide(
     } catch (err) {
       console.warn('MediaSession action handler notice:', err);
     }
-  }, [title, artist, album, artworkUrl, onNextTrack, onPreviousTrack, play, pause]);
+  }, [title, artist, album, artworkUrl, onNextTrack, onPreviousTrack, play, pause, effectiveDuration]);
 
-  // Sync mediaSession playbackState
+  // Sync mediaSession playbackState and positionState
   useEffect(() => {
     if (typeof navigator !== 'undefined' && 'mediaSession' in navigator) {
       navigator.mediaSession.playbackState = isPlaying ? 'playing' : 'paused';
+
+      if ('setPositionState' in navigator.mediaSession && effectiveDuration > 0) {
+        try {
+          navigator.mediaSession.setPositionState({
+            duration: effectiveDuration,
+            playbackRate: playbackRate,
+            position: Math.min(currentTime, effectiveDuration),
+          });
+        } catch {
+          // Ignore unsupported position state updates
+        }
+      }
     }
-  }, [isPlaying]);
+  }, [isPlaying, currentTime, effectiveDuration, playbackRate]);
 
   // Clean, human-readable voice label
   const cleanVoiceName = selectedVoice

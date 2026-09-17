@@ -115,10 +115,10 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
             }`}
           />
           <div className="min-w-0">
-            <span className="text-[11px] font-semibold tracking-wide uppercase block truncate text-stone-800 dark:text-stone-200">
+            <span className="text-[11px] font-semibold tracking-wide uppercase block truncate text-[#111827] dark:text-stone-200">
               {isLocked ? 'Muestra de Audio (Teaser)' : 'Audioguía de Sala'}
             </span>
-            <span className="text-[10px] text-stone-500 dark:text-stone-400 block truncate">
+            <span className="text-[10px] text-[#4B5563] dark:text-stone-400 block truncate">
               {audioFileUrl ? 'Audio de estudio' : voiceName ? `Voz: ${voiceName}` : 'Locución asistida'}
             </span>
           </div>
@@ -158,7 +158,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
             style={{ width: `${Math.min(100, Math.max(0, effectiveProgress * 100))}%` }}
           />
         </div>
-        <div className="flex justify-between items-center text-[10px] font-mono font-medium mt-1.5 text-stone-500 dark:text-stone-400">
+        <div className="flex justify-between items-center text-[10px] font-mono font-medium mt-1.5 text-[#4B5563] dark:text-stone-400">
           <span>{formatSeconds(currentTime)}</span>
           <span>{formatSeconds(effectiveDuration)}</span>
         </div>
@@ -170,7 +170,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
         <div
           className={`flex items-center p-0.5 rounded-full border ${
             isSunMode
-              ? 'bg-white/80 border-stone-200 text-stone-600'
+              ? 'bg-white/80 border-stone-200 text-[#4B5563]'
               : 'bg-stone-900 border-stone-800 text-stone-400'
           }`}
         >
@@ -185,7 +185,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
                   ? isSunMode
                     ? 'bg-[#C05638] text-white shadow-xs'
                     : 'bg-[#D96B47] text-white shadow-xs'
-                  : 'hover:text-stone-900 dark:hover:text-stone-200'
+                  : 'hover:text-[#111827] dark:hover:text-stone-200'
               }`}
             >
               {r}x
@@ -202,7 +202,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
             title="Reiniciar reproducción"
             className={`w-10 h-10 flex items-center justify-center rounded-full transition-all active:scale-95 border ${
               isSunMode
-                ? 'border-stone-200 text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+                ? 'border-stone-200 text-[#4B5563] hover:text-[#111827] hover:bg-stone-100'
                 : 'border-stone-800 text-stone-400 hover:text-stone-200 hover:bg-stone-900'
             }`}
           >

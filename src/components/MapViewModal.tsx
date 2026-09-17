@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { RouteStop, Room, RoomPieceSummary } from '../types';
 import { VenueFloorplan } from './VenueFloorplan';
+import { MuseumMapSvg } from './MuseumMapSvg';
 import { SafeImage } from './SafeImage';
 import { useTheme } from '../utils/ThemeContext';
 
@@ -292,21 +293,32 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
 
         {/* Interactive Floorplan Container */}
         <div
-          className="relative max-w-[800px] w-[94vw] aspect-[4/3] max-h-[64vh] transition-transform duration-150 ease-out"
+          className="relative max-w-[900px] w-[95vw] aspect-[5/4] max-h-[72vh] transition-transform duration-150 ease-out"
           style={{
             transform: `translate(${pan.x}px, ${pan.y}px) scale(${scale})`,
             transformOrigin: 'center center',
           }}
         >
-          <VenueFloorplan
-            siteId={siteId}
-            rooms={rooms}
-            selectedRoomId={selectedRoomId}
-            onSelectRoom={handleSelectRoom}
-            stops={stops}
-            currentStopIndex={selectedPinIndex}
-            onSelectStop={handleSelectPin}
-          />
+          {siteId === 'MNA' ? (
+            <MuseumMapSvg
+              rooms={rooms}
+              selectedRoomId={selectedRoomId}
+              onSelectRoom={handleSelectRoom}
+              stops={stops}
+              currentStopIndex={selectedPinIndex}
+              onSelectStop={handleSelectPin}
+            />
+          ) : (
+            <VenueFloorplan
+              siteId={siteId}
+              rooms={rooms}
+              selectedRoomId={selectedRoomId}
+              onSelectRoom={handleSelectRoom}
+              stops={stops}
+              currentStopIndex={selectedPinIndex}
+              onSelectStop={handleSelectPin}
+            />
+          )}
         </div>
       </div>
 
@@ -318,7 +330,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
           id="drawer-room-inspection"
           className={`border-t z-30 transition-all duration-300 max-h-[55vh] flex flex-col shadow-2xl animate-in slide-in-from-bottom ${
             isSunMode
-              ? 'bg-white border-stone-300 text-stone-900'
+              ? 'bg-[#FAF8F5] border-stone-300 text-[#111827]'
               : 'bg-stone-950 border-stone-800 text-stone-100'
           }`}
         >
@@ -327,14 +339,14 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
             <div className="flex-1 pr-3">
               <div className="w-10 h-1 rounded-full bg-stone-400/40 mx-auto mb-2.5" />
               <div className="flex items-center gap-2">
-                <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-amber-500/10 text-amber-500 border border-amber-500/20">
+                <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/20">
                   {inspectedRoom.culture} • {inspectedRoom.period}
                 </span>
               </div>
-              <h4 className="text-base font-black mt-1 leading-snug">{inspectedRoom.name}</h4>
+              <h4 className="text-base font-black mt-1 leading-snug text-[#111827] dark:text-stone-100">{inspectedRoom.name}</h4>
               <p
                 className={`text-xs mt-0.5 leading-relaxed line-clamp-2 ${
-                  isSunMode ? 'text-stone-600' : 'text-stone-400'
+                  isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
                 }`}
               >
                 {inspectedRoom.short_description}

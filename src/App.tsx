@@ -427,8 +427,8 @@ export default function App() {
 
   return (
     <div
-      className={`min-h-screen flex justify-center font-sans transition-colors duration-200 ${
-        isSunMode ? 'bg-[#FAF8F5] text-[#1C1917]' : 'bg-[#141414] text-[#F5F5F4]'
+      className={`min-h-screen w-full max-w-full overflow-x-hidden flex justify-center font-sans transition-colors duration-200 ${
+        isSunMode ? 'bg-[#FAF8F5] text-[#111827]' : 'bg-[#141414] text-[#F5F5F4]'
       }`}
     >
       {/* Offline Banner indicator */}
@@ -436,9 +436,9 @@ export default function App() {
 
       {/* Main mobile/tablet viewport container */}
       <div
-        className={`w-full max-w-[480px] min-h-screen shadow-2xl relative flex flex-col transition-colors duration-200 border-x ${
+        className={`w-full max-w-[480px] min-h-screen shadow-2xl relative flex flex-col transition-colors duration-200 border-x overflow-x-hidden ${
           isSunMode
-            ? 'bg-[#FAF8F5] border-stone-200/80 text-[#1C1917]'
+            ? 'bg-[#FAF8F5] border-stone-200/80 text-[#111827]'
             : 'bg-[#141414] border-stone-800/80 text-[#F5F5F4]'
         }`}
       >

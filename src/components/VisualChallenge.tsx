@@ -95,7 +95,7 @@ export const VisualChallenge: React.FC<VisualChallengeProps> = ({
           </div>
           <h3
             className={`text-xs font-extrabold uppercase tracking-wider ${
-              isSunMode ? 'text-stone-900' : 'text-stone-200'
+              isSunMode ? 'text-[#111827]' : 'text-stone-200'
             }`}
           >
             Reto de Observación
@@ -108,7 +108,7 @@ export const VisualChallenge: React.FC<VisualChallengeProps> = ({
                 ? 'bg-emerald-100 text-emerald-900 border-emerald-400'
                 : 'bg-emerald-950 text-emerald-300 border-emerald-700'
               : isSunMode
-              ? 'bg-stone-100 text-stone-700 border-stone-300'
+              ? 'bg-stone-100 text-[#4B5563] border-stone-300'
               : 'bg-stone-900 text-stone-400 border-stone-800'
           }`}
         >
@@ -116,7 +116,7 @@ export const VisualChallenge: React.FC<VisualChallengeProps> = ({
         </span>
       </div>
 
-      <p className={`text-xs italic font-medium ${isSunMode ? 'text-stone-600' : 'text-stone-400'}`}>
+      <p className={`text-xs italic font-medium ${isSunMode ? 'text-[#4B5563]' : 'text-stone-400'}`}>
         "Párate frente a la pieza y busca los siguientes detalles con la vista:"
       </p>
 
@@ -135,7 +135,7 @@ export const VisualChallenge: React.FC<VisualChallengeProps> = ({
                     ? 'bg-emerald-50 border-emerald-300 text-emerald-950'
                     : 'bg-teal-950/40 border-teal-500/40 text-stone-200'
                   : isSunMode
-                  ? 'bg-white border-stone-300 hover:border-amber-700 text-stone-900'
+                  ? 'bg-white border-stone-300 hover:border-amber-700 text-[#111827]'
                   : 'bg-stone-900/70 border-stone-800 hover:border-stone-700 text-stone-300'
               }`}
             >
@@ -162,7 +162,7 @@ export const VisualChallenge: React.FC<VisualChallengeProps> = ({
                         ? 'line-through text-emerald-900/70'
                         : 'line-through text-teal-300/70'
                       : isSunMode
-                      ? 'text-stone-950'
+                      ? 'text-[#111827]'
                       : 'text-stone-100'
                   }`}
                 >
@@ -175,7 +175,7 @@ export const VisualChallenge: React.FC<VisualChallengeProps> = ({
                         ? 'text-emerald-800/80'
                         : 'text-stone-400'
                       : isSunMode
-                      ? 'text-stone-700'
+                      ? 'text-[#4B5563]'
                       : 'text-stone-400'
                   }`}
                 >

@@ -46,7 +46,7 @@ export const AccordionsSection: React.FC<AccordionsSectionProps> = ({
             </div>
             <span
               className={`text-xs font-extrabold uppercase tracking-wider ${
-                isSunMode ? 'text-stone-950' : 'text-stone-200'
+                isSunMode ? 'text-[#111827]' : 'text-stone-200'
               }`}
             >
               Ficha Técnica
@@ -59,7 +59,7 @@ export const AccordionsSection: React.FC<AccordionsSectionProps> = ({
                   ? 'rotate-180 text-amber-800'
                   : 'rotate-180 text-amber-400'
                 : isSunMode
-                ? 'text-stone-500'
+                ? 'text-[#4B5563]'
                 : 'text-stone-400'
             }`}
           />
@@ -77,14 +77,14 @@ export const AccordionsSection: React.FC<AccordionsSectionProps> = ({
               <div key={idx} className="py-2.5 flex flex-col xs:flex-row xs:items-baseline justify-between gap-1">
                 <span
                   className={`font-bold text-[11px] uppercase tracking-wider ${
-                    isSunMode ? 'text-stone-600' : 'text-stone-400'
+                    isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
                   }`}
                 >
                   {item.label}
                 </span>
                 <span
                   className={`font-semibold text-xs text-right ${
-                    isSunMode ? 'text-stone-950' : 'text-stone-200'
+                    isSunMode ? 'text-[#111827]' : 'text-stone-200'
                   }`}
                 >
                   {item.value}
@@ -122,7 +122,7 @@ export const AccordionsSection: React.FC<AccordionsSectionProps> = ({
             </div>
             <span
               className={`text-xs font-extrabold uppercase tracking-wider ${
-                isSunMode ? 'text-stone-950' : 'text-stone-200'
+                isSunMode ? 'text-[#111827]' : 'text-stone-200'
               }`}
             >
               Preguntas Frecuentes
@@ -135,7 +135,7 @@ export const AccordionsSection: React.FC<AccordionsSectionProps> = ({
                   ? 'rotate-180 text-amber-800'
                   : 'rotate-180 text-amber-400'
                 : isSunMode
-                ? 'text-stone-500'
+                ? 'text-[#4B5563]'
                 : 'text-stone-400'
             }`}
           />
@@ -170,7 +170,7 @@ export const AccordionsSection: React.FC<AccordionsSectionProps> = ({
                       isSunMode
                         ? isItemOpen
                           ? 'text-amber-950'
-                          : 'text-stone-900 hover:text-amber-800'
+                          : 'text-[#111827] hover:text-amber-800'
                         : isItemOpen
                         ? 'text-amber-300'
                         : 'text-stone-200 hover:text-amber-400'
@@ -184,7 +184,7 @@ export const AccordionsSection: React.FC<AccordionsSectionProps> = ({
                             ? 'rotate-180 text-amber-800'
                             : 'rotate-180 text-amber-400'
                           : isSunMode
-                          ? 'text-stone-400'
+                          ? 'text-[#4B5563]'
                           : 'text-stone-500'
                       }`}
                     />
@@ -193,7 +193,7 @@ export const AccordionsSection: React.FC<AccordionsSectionProps> = ({
                     <div
                       className={`px-3 pb-3 pt-0 text-xs leading-relaxed border-t mt-1 font-medium ${
                         isSunMode
-                          ? 'text-stone-800 border-stone-100'
+                          ? 'text-[#111827] border-stone-100'
                           : 'text-stone-300 border-stone-800/40'
                       }`}
                     >

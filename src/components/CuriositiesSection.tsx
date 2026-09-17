@@ -28,7 +28,7 @@ export const CuriositiesSection: React.FC<CuriositiesSectionProps> = ({
         </div>
         <h3
           className={`text-xs font-extrabold uppercase tracking-wider ${
-            isSunMode ? 'text-stone-900' : 'text-stone-200'
+            isSunMode ? 'text-[#111827]' : 'text-stone-200'
           }`}
         >
           ¿Sabías qué?
@@ -42,7 +42,7 @@ export const CuriositiesSection: React.FC<CuriositiesSectionProps> = ({
             id={`curiosity-card-${idx + 1}`}
             className={`p-3.5 rounded-xl border transition flex items-start gap-3 shadow-xs ${
               isSunMode
-                ? 'bg-white border-stone-300 text-stone-900 hover:border-amber-700'
+                ? 'bg-white border-stone-300 text-[#111827] hover:border-amber-700'
                 : 'bg-gradient-to-r from-stone-900 to-stone-900/60 border-stone-800 text-stone-300 hover:border-amber-500/30'
             }`}
           >
@@ -55,7 +55,7 @@ export const CuriositiesSection: React.FC<CuriositiesSectionProps> = ({
             >
               {idx + 1}
             </div>
-            <p className={`text-xs leading-relaxed font-medium ${isSunMode ? 'text-stone-800' : 'text-stone-300'}`}>
+            <p className={`text-xs leading-relaxed font-medium ${isSunMode ? 'text-[#111827]' : 'text-stone-300'}`}>
               {item.fact}
             </p>
           </div>
