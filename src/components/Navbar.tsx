@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronLeft, ChevronDown, Lock, ShieldCheck, Map } from 'lucide-react';
+import { ChevronLeft, ChevronDown, Lock, ShieldCheck, Map, Search } from 'lucide-react';
 import { SiteRoute } from '../types';
 import { formatRemainingHours } from '../utils/license';
 import { useTheme } from '../utils/ThemeContext';
@@ -15,6 +15,7 @@ interface NavbarProps {
   onOpenRouteModal: () => void;
   onOpenPaywallModal: () => void;
   onOpenMapModal: () => void;
+  onOpenSearchModal?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -27,6 +28,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenRouteModal,
   onOpenPaywallModal,
   onOpenMapModal,
+  onOpenSearchModal,
 }) => {
   const { isSunMode } = useTheme();
 
@@ -85,6 +87,24 @@ export const Navbar: React.FC<NavbarProps> = ({
           }`}
         />
       </button>
+
+      {/* Botón Buscador Directo (Teclado + Predictivo) */}
+      {onOpenSearchModal && (
+        <button
+          id="btn-open-search-nav"
+          onClick={onOpenSearchModal}
+          className={`min-h-[48px] px-2.5 flex items-center justify-center gap-1 rounded-xl border text-xs font-bold transition active:scale-95 ${
+            isSunMode
+              ? 'bg-stone-50 border-stone-300 text-stone-700 hover:bg-stone-100 hover:border-stone-400'
+              : 'bg-stone-900 border-stone-700/80 text-stone-300 hover:bg-stone-800 hover:border-stone-600'
+          }`}
+          title="Buscador por número de vitrina o nombre"
+          aria-label="Buscar pieza por número o texto"
+        >
+          <Search className="w-4 h-4" />
+          <span className="hidden sm:inline">Buscar</span>
+        </button>
+      )}
 
       {/* Botón Ver Mapa Interactivo (mínimo 48px de altura táctil) */}
       <button

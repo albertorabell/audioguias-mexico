@@ -10,9 +10,11 @@ import {
   HelpCircle,
   Eye,
   Bookmark,
-  MapPin
+  MapPin,
+  Compass,
+  ChevronRight
 } from 'lucide-react';
-import { PieceData, ObservationChallengeItem, PieceSpecsObject, SpecItem } from '../types';
+import { PieceData, ObservationChallengeItem, PieceSpecsObject, SpecItem, RouteStop } from '../types';
 import { AudioPlayer } from './AudioPlayer';
 import { ImageZoomModal } from './ImageZoomModal';
 import { SafeImage } from './SafeImage';
@@ -26,6 +28,10 @@ interface PieceDetailProps {
   currentStopIndex?: number;
   totalStops?: number;
   roomName?: string;
+  nextStop?: RouteStop | null;
+  onNextStop?: () => void;
+  onPreviousStop?: () => void;
+  onOpenMapModal?: () => void;
 }
 
 export const PieceDetail: React.FC<PieceDetailProps> = ({
@@ -36,6 +42,10 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   currentStopIndex,
   totalStops,
   roomName,
+  nextStop,
+  onNextStop,
+  onPreviousStop,
+  onOpenMapModal,
 }) => {
   const [activeTab, setActiveTab] = useState<'quick' | 'expert'>('quick');
   const [isZoomOpen, setIsZoomOpen] = useState(false);
@@ -185,6 +195,10 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             passPriceMxn={passPriceMxn}
             onUnlockClick={onOpenPaywall}
             title={piece.identification.title}
+            album={roomName || piece.identification?.room_zone || 'Museo Nacional de Antropología'}
+            artworkUrl={piece.identification?.hero_image}
+            onNextTrack={onNextStop}
+            onPreviousTrack={onPreviousStop}
           />
         </div>
 
@@ -386,6 +400,48 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                   </div>
                 );
               })()}
+
+              {/* Micro-indicador de proximidad a la siguiente parada */}
+              {nextStop && (
+                <div
+                  id="micro-proximity-next-stop-card"
+                  onClick={onOpenMapModal}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      if (onOpenMapModal) onOpenMapModal();
+                    }
+                  }}
+                  className={`p-3.5 rounded-xl border transition-all cursor-pointer flex items-center justify-between gap-3 shadow-xs active:scale-98 ${
+                    isSunMode
+                      ? 'bg-amber-50/70 border-amber-200/80 hover:bg-amber-100/60 text-stone-900'
+                      : 'bg-amber-950/20 border-amber-800/40 hover:bg-amber-900/30 text-stone-100'
+                  }`}
+                  title="Abrir mapa de sala interactivo"
+                >
+                  <div className="flex items-center gap-2.5 min-w-0">
+                    <div className="w-8 h-8 rounded-lg bg-[#C05638]/15 dark:bg-[#D96B47]/20 flex items-center justify-center shrink-0">
+                      <Compass className="w-4 h-4 text-[#C05638] dark:text-[#D96B47]" />
+                    </div>
+                    <div className="min-w-0">
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-[#C05638] dark:text-[#D96B47] block">
+                        Micro-orientación de Sala
+                      </span>
+                      <p className="text-xs font-semibold truncate text-stone-900 dark:text-stone-100">
+                        Siguiente parada:{' '}
+                        <span className="font-bold">{nextStop.title}</span>{' '}
+                        <span className="opacity-70 text-[11px]">· {nextStop.room_zone || 'Sala'}</span>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-1 text-[11px] font-bold text-[#C05638] dark:text-[#D96B47] shrink-0">
+                    <span className="hidden sm:inline">Ver en mapa</span>
+                    <ChevronRight className="w-4 h-4" />
+                  </div>
+                </div>
+              )}
             </div>
           )}
 

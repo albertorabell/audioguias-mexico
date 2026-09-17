@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
+import { getOptimizedImageUrl } from './imageOptimizer';
 
 export interface AudioGuideState {
   isPlaying: boolean;
@@ -8,6 +9,17 @@ export interface AudioGuideState {
   duration: number; // estimated or real seconds
   isSupported: boolean;
   voiceName: string;
+}
+
+export interface AudioGuideOptions {
+  title?: string;
+  artist?: string;
+  album?: string;
+  artworkUrl?: string;
+  onNextTrack?: () => void;
+  onPreviousTrack?: () => void;
+  maxDurationSeconds?: number;
+  onDurationLimitReached?: () => void;
 }
 
 /**
@@ -68,7 +80,8 @@ export function selectBestVoice(
 export function useAudioGuide(
   text: string,
   audioFileUrl?: string,
-  langCode: string = 'es-MX'
+  langCode: string = 'es-MX',
+  options?: AudioGuideOptions
 ) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [playbackRate, setPlaybackRate] = useState<number>(1);
@@ -82,6 +95,16 @@ export function useAudioGuide(
   const progressTimerRef = useRef<number | null>(null);
   const startTimeRef = useRef<number>(0);
   const pausedAtRef = useRef<number>(0);
+  const wakeLockRef = useRef<any>(null);
+
+  const title = options?.title;
+  const artist = options?.artist || 'Museo Nacional de Antropología';
+  const album = options?.album || 'Museo Nacional de Antropología · CDMX';
+  const artworkUrl = options?.artworkUrl;
+  const onNextTrack = options?.onNextTrack;
+  const onPreviousTrack = options?.onPreviousTrack;
+  const maxDurationSeconds = options?.maxDurationSeconds;
+  const onDurationLimitReached = options?.onDurationLimitReached;
 
   // Touristic cadence baseline acoustic parameters
   const BASE_RATE = 0.93; // Calm, intelligible guide pacing
@@ -91,6 +114,59 @@ export function useAudioGuide(
   const wordCount = text ? text.split(/\s+/).filter(Boolean).length : 60;
   const estimatedSeconds = Math.max(20, Math.round((wordCount / (130 * BASE_RATE)) * 60));
   const effectiveDuration = Math.round(estimatedSeconds / playbackRate);
+
+  // --- 1. SCREEN WAKE LOCK API ---
+  const requestWakeLock = useCallback(async () => {
+    if (typeof navigator !== 'undefined' && 'wakeLock' in navigator) {
+      try {
+        if (!wakeLockRef.current) {
+          wakeLockRef.current = await (navigator as any).wakeLock.request('screen');
+          wakeLockRef.current.addEventListener?.('release', () => {
+            wakeLockRef.current = null;
+          });
+        }
+      } catch (err) {
+        // Not permitted or low battery mode
+        console.warn('Screen Wake Lock request non-blocking notice:', err);
+      }
+    }
+  }, []);
+
+  const releaseWakeLock = useCallback(async () => {
+    if (wakeLockRef.current) {
+      try {
+        await wakeLockRef.current.release();
+      } catch (err) {
+        console.warn('Screen Wake Lock release non-blocking notice:', err);
+      }
+      wakeLockRef.current = null;
+    }
+  }, []);
+
+  // Sync wake lock with playback state
+  useEffect(() => {
+    if (isPlaying) {
+      requestWakeLock();
+    } else {
+      releaseWakeLock();
+    }
+    return () => {
+      releaseWakeLock();
+    };
+  }, [isPlaying, requestWakeLock, releaseWakeLock]);
+
+  // Handle visibility change (re-request wake lock when returning to foreground while playing)
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'visible' && isPlaying) {
+        requestWakeLock();
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, [isPlaying, requestWakeLock]);
 
   // Asynchronously detect and load natural voices via onvoiceschanged
   useEffect(() => {
@@ -132,11 +208,12 @@ export function useAudioGuide(
       window.speechSynthesis.cancel();
     }
 
+    releaseWakeLock();
     setIsPlaying(false);
     setProgress(0);
     setCurrentTime(0);
     pausedAtRef.current = 0;
-  }, []);
+  }, [releaseWakeLock]);
 
   useEffect(() => {
     stop();
@@ -196,9 +273,10 @@ export function useAudioGuide(
       window.speechSynthesis.pause();
     }
 
+    releaseWakeLock();
     pausedAtRef.current = currentTime;
     setIsPlaying(false);
-  }, [currentTime]);
+  }, [currentTime, releaseWakeLock]);
 
   const play = useCallback(() => {
     if (!text && (!audioFileUrl || audioFileUrl.trim() === '')) return;
@@ -219,6 +297,12 @@ export function useAudioGuide(
         if (audio.duration) {
           setCurrentTime(audio.currentTime);
           setProgress(audio.currentTime / audio.duration);
+
+          // Check teaser limit
+          if (maxDurationSeconds && audio.currentTime >= maxDurationSeconds) {
+            pause();
+            if (onDurationLimitReached) onDurationLimitReached();
+          }
         }
       };
 
@@ -246,6 +330,14 @@ export function useAudioGuide(
         const boundedTime = Math.min(elapsed, effectiveDuration);
         setCurrentTime(boundedTime);
         setProgress(Math.min(1, boundedTime / effectiveDuration));
+
+        // Check teaser limit
+        if (maxDurationSeconds && boundedTime >= maxDurationSeconds) {
+          pause();
+          if (onDurationLimitReached) onDurationLimitReached();
+          return;
+        }
+
         if (boundedTime >= effectiveDuration) {
           stop();
         }
@@ -283,11 +375,18 @@ export function useAudioGuide(
       setCurrentTime(boundedTime);
       setProgress(Math.min(1, boundedTime / effectiveDuration));
 
+      // Check teaser limit
+      if (maxDurationSeconds && boundedTime >= maxDurationSeconds) {
+        pause();
+        if (onDurationLimitReached) onDurationLimitReached();
+        return;
+      }
+
       if (boundedTime >= effectiveDuration) {
         stop();
       }
     }, 250);
-  }, [audioFileUrl, effectiveDuration, langCode, playbackRate, progress, selectedVoice, stop, text]);
+  }, [audioFileUrl, effectiveDuration, langCode, maxDurationSeconds, onDurationLimitReached, pause, playbackRate, progress, selectedVoice, stop, text]);
 
   const togglePlay = useCallback(() => {
     if (isPlaying) {
@@ -296,6 +395,61 @@ export function useAudioGuide(
       play();
     }
   }, [isPlaying, pause, play]);
+
+  // --- 2. MEDIASESSION API INTEGRATION ---
+  useEffect(() => {
+    if (typeof navigator === 'undefined' || !('mediaSession' in navigator)) return;
+
+    if (title) {
+      const artworkSrc = artworkUrl ? getOptimizedImageUrl(artworkUrl) : '';
+      const artwork = artworkSrc
+        ? [
+            { src: artworkSrc, sizes: '96x96', type: 'image/webp' },
+            { src: artworkSrc, sizes: '192x192', type: 'image/webp' },
+            { src: artworkSrc, sizes: '512x512', type: 'image/webp' },
+          ]
+        : [];
+
+      try {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: title,
+          artist: artist,
+          album: album,
+          artwork,
+        });
+      } catch (err) {
+        console.warn('MediaMetadata creation notice:', err);
+      }
+    }
+
+    try {
+      navigator.mediaSession.setActionHandler('play', () => {
+        play();
+      });
+      navigator.mediaSession.setActionHandler('pause', () => {
+        pause();
+      });
+      if (onPreviousTrack) {
+        navigator.mediaSession.setActionHandler('previoustrack', onPreviousTrack);
+      } else {
+        navigator.mediaSession.setActionHandler('previoustrack', null);
+      }
+      if (onNextTrack) {
+        navigator.mediaSession.setActionHandler('nexttrack', onNextTrack);
+      } else {
+        navigator.mediaSession.setActionHandler('nexttrack', null);
+      }
+    } catch (err) {
+      console.warn('MediaSession action handler notice:', err);
+    }
+  }, [title, artist, album, artworkUrl, onNextTrack, onPreviousTrack, play, pause]);
+
+  // Sync mediaSession playbackState
+  useEffect(() => {
+    if (typeof navigator !== 'undefined' && 'mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = isPlaying ? 'playing' : 'paused';
+    }
+  }, [isPlaying]);
 
   // Clean, human-readable voice label
   const cleanVoiceName = selectedVoice

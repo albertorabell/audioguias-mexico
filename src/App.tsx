@@ -11,6 +11,8 @@ import { RouteModal } from './components/RouteModal';
 import { LiveRouteManagerModal } from './components/LiveRouteManagerModal';
 import { PaywallModal } from './components/PaywallModal';
 import { MapViewModal } from './components/MapViewModal';
+import { SearchModal } from './components/SearchModal';
+import { OfflineTourBanner } from './components/OfflineTourBanner';
 import { OfflineIndicator } from './components/OfflineIndicator';
 import { useTheme } from './utils/ThemeContext';
 import { formatRouteDuration } from './utils/routeOptimizer';
@@ -33,6 +35,7 @@ export default function App() {
   const [activeRoute, setActiveRoute] = useState<SiteRoute | null>(null);
   const [currentStopIndex, setCurrentStopIndex] = useState<number>(0);
   const [currentPiece, setCurrentPiece] = useState<PieceData | null>(null);
+  const [tourPieces, setTourPieces] = useState<PieceData[]>([]);
 
   // Spontaneous Detour State
   const [spontaneousDetour, setSpontaneousDetour] = useState<SpontaneousDetour | null>(null);
@@ -45,6 +48,7 @@ export default function App() {
   const [isRouteModalOpen, setIsRouteModalOpen] = useState(false);
   const [isPaywallModalOpen, setIsPaywallModalOpen] = useState(false);
   const [isMapModalOpen, setIsMapModalOpen] = useState(false);
+  const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
 
   // Loading & Error states
   const [isLoadingSites, setIsLoadingSites] = useState(true);
@@ -314,6 +318,103 @@ export default function App() {
 
   const hasPass = selectedSite ? hasActivePass(selectedSite.id) : false;
 
+  // Preload pieces whenever activeRoute changes or manifest changes
+  useEffect(() => {
+    let isMounted = true;
+    async function preloadRoutePieces() {
+      if (!activeRoute || activeRoute.stops.length === 0) {
+        if (manifest?.rooms) {
+          const roomPieces: PieceData[] = manifest.rooms.flatMap((r) =>
+            (r.pieces_info || []).map((pi) => ({
+              id: pi.poi_id,
+              poi_id: pi.poi_id,
+              site_id: manifest.site_id,
+              room_id: r.id,
+              case_number: '',
+              identification: {
+                title: pi.title,
+                hero_image: pi.thumbnail,
+                room_zone: r.name,
+              },
+              summary_30s: pi.title,
+              is_premium: !!pi.is_premium,
+              audioguide: {
+                audio_script: '',
+              },
+            } as unknown as PieceData))
+          );
+          if (isMounted) setTourPieces(roomPieces);
+        }
+        return;
+      }
+
+      try {
+        const piecePromises = activeRoute.stops.map(async (stop) => {
+          try {
+            const res = await fetch(normalizeUrl(stop.file));
+            if (res.ok) {
+              const data: PieceData = await res.json();
+              return data;
+            }
+          } catch {}
+          return {
+            id: stop.poi_id,
+            poi_id: stop.poi_id,
+            site_id: selectedSite?.id || 'MNA',
+            room_id: stop.room_id || '',
+            case_number: stop.case_number || '',
+            identification: {
+              title: stop.title,
+              hero_image: stop.thumbnail,
+              room_zone: stop.room_zone,
+            },
+            summary_30s: stop.description || '',
+            is_premium: !!stop.is_premium,
+            audioguide: {
+              audio_script: '',
+            },
+          } as unknown as PieceData;
+        });
+
+        const loaded = await Promise.all(piecePromises);
+        if (isMounted) {
+          setTourPieces(loaded);
+        }
+      } catch (err) {
+        console.warn('Could not preload pieces:', err);
+      }
+    }
+
+    preloadRoutePieces();
+    return () => {
+      isMounted = false;
+    };
+  }, [activeRoute, manifest]);
+
+  // Jump to piece from SearchModal (Keypad or Predictive Search)
+  const handleSelectPieceById = async (pieceId: string) => {
+    if (!activeRoute) return;
+
+    const stopIdx = activeRoute.stops.findIndex(
+      (s) => s.poi_id === pieceId || s.file.includes(pieceId) || s.poi_id.toLowerCase() === pieceId.toLowerCase()
+    );
+
+    if (stopIdx !== -1) {
+      await handleSelectStop(stopIdx);
+      return;
+    }
+
+    if (manifest?.rooms) {
+      for (const room of manifest.rooms) {
+        const found = room.pieces_info?.find((p) => p.poi_id === pieceId || p.file.includes(pieceId));
+        if (found) {
+          await handleStartSpontaneousDetour(found.file, found.title);
+          return;
+        }
+      }
+    }
+  };
+
   // Remaining minutes in route for persistent pill
   const remainingRouteMinutes = useMemo(() => {
     if (!activeRoute?.stops) return 0;
@@ -398,7 +499,15 @@ export default function App() {
               onOpenRouteModal={() => setIsLiveRouteManagerOpen(true)}
               onOpenPaywallModal={() => setIsPaywallModalOpen(true)}
               onOpenMapModal={() => setIsMapModalOpen(true)}
+              onOpenSearchModal={() => setIsSearchModalOpen(true)}
             />
+
+            {/* Banner de Descarga Offline */}
+            <div className="px-3 pt-2">
+              <OfflineTourBanner
+                pieces={tourPieces.length > 0 ? tourPieces : (currentPiece ? [currentPiece] : [])}
+              />
+            </div>
 
             {/* PÍLDORA FLOTANTE PERSISTENTE: "🧭 Mi Ruta (Parada X de Y)" */}
             {activeRoute && !spontaneousDetour && (
@@ -507,6 +616,14 @@ export default function App() {
                 currentStopIndex={activeRoute ? currentStopIndex : undefined}
                 totalStops={activeRoute ? activeRoute.stops.length : undefined}
                 roomName={activeRoute?.stops[currentStopIndex]?.room_zone}
+                nextStop={
+                  activeRoute && currentStopIndex + 1 < activeRoute.stops.length
+                    ? activeRoute.stops[currentStopIndex + 1]
+                    : null
+                }
+                onNextStop={handleNextStop}
+                onPreviousStop={handlePreviousStop}
+                onOpenMapModal={() => setIsMapModalOpen(true)}
               />
             ) : (
               <div className="p-8 text-center text-stone-500 text-sm">
@@ -605,6 +722,14 @@ export default function App() {
             onAddStopToRoute={handleAddStopToRoute}
           />
         )}
+
+        {/* 5. Modal de Búsqueda Directa (Teclado Numérico + Predictivo) */}
+        <SearchModal
+          isOpen={isSearchModalOpen}
+          onClose={() => setIsSearchModalOpen(false)}
+          pieces={tourPieces.length > 0 ? tourPieces : (currentPiece ? [currentPiece] : [])}
+          onSelectPiece={handleSelectPieceById}
+        />
       </div>
     </div>
   );

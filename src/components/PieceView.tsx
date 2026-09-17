@@ -1,6 +1,6 @@
 import React from 'react';
 import { PieceDetail } from './PieceDetail';
-import { PieceData } from '../types';
+import { PieceData, RouteStop } from '../types';
 
 interface PieceViewProps {
   piece: PieceData;
@@ -10,6 +10,10 @@ interface PieceViewProps {
   currentStopIndex?: number;
   totalStops?: number;
   roomName?: string;
+  nextStop?: RouteStop | null;
+  onNextStop?: () => void;
+  onPreviousStop?: () => void;
+  onOpenMapModal?: () => void;
 }
 
 export const PieceView: React.FC<PieceViewProps> = (props) => {

@@ -11,6 +11,10 @@ interface AudioPlayerProps {
   passPriceMxn: number;
   onUnlockClick: () => void;
   title: string;
+  album?: string;
+  artworkUrl?: string;
+  onNextTrack?: () => void;
+  onPreviousTrack?: () => void;
 }
 
 export const AudioPlayer: React.FC<AudioPlayerProps> = ({
@@ -21,6 +25,10 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
   passPriceMxn,
   onUnlockClick,
   title,
+  album,
+  artworkUrl,
+  onNextTrack,
+  onPreviousTrack,
 }) => {
   const isLocked = isPremium && !hasPass;
   const { isSunMode } = useTheme();
@@ -35,7 +43,16 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
     stop,
     setRate,
     voiceName,
-  } = useAudioGuide(script, audioFileUrl, 'es-MX');
+  } = useAudioGuide(script, audioFileUrl, 'es-MX', {
+    title,
+    artist: 'Museo Nacional de Antropología',
+    album: album || 'Museo Nacional de Antropología · CDMX',
+    artworkUrl,
+    onNextTrack,
+    onPreviousTrack,
+    maxDurationSeconds: isLocked ? 15 : undefined,
+    onDurationLimitReached: isLocked ? onUnlockClick : undefined,
+  });
 
   const formatSeconds = (sec: number) => {
     const m = Math.floor(sec / 60);
@@ -44,54 +61,9 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
   };
 
   const rates = [1, 1.25, 1.5];
-
-  if (isLocked) {
-    return (
-      <div
-        id="audioguide-locked-card"
-        className={`rounded-2xl p-5 border transition-all ${
-          isSunMode
-            ? 'bg-[#FAF8F5] border-stone-200 text-stone-900'
-            : 'bg-[#1A1816] border-stone-800 text-stone-100'
-        }`}
-      >
-        <div className="flex items-start gap-3.5">
-          <div
-            className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 ${
-              isSunMode
-                ? 'bg-[#C05638]/10 text-[#C05638]'
-                : 'bg-[#D96B47]/20 text-[#D96B47]'
-            }`}
-          >
-            <Lock className="w-5 h-5" />
-          </div>
-          <div className="flex-1 min-w-0">
-            <span
-              className={`inline-block text-[10px] font-bold tracking-wider uppercase mb-1 ${
-                isSunMode ? 'text-[#C05638]' : 'text-[#D96B47]'
-              }`}
-            >
-              Audioguía Exclusiva
-            </span>
-            <h4 className="text-sm font-semibold text-stone-900 dark:text-stone-100 mb-1">
-              Contenido para Visitantes con Pase
-            </h4>
-            <p className="text-xs leading-relaxed text-stone-600 dark:text-stone-400 mb-4 font-normal">
-              Accede a la narración de sala en alta definición, análisis arqueológico detallado y contexto curatorial completo.
-            </p>
-            <button
-              id="btn-unlock-audio-card"
-              onClick={onUnlockClick}
-              className="w-full min-h-[46px] flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all bg-[#C05638] hover:bg-[#A9482E] dark:bg-[#D96B47] dark:hover:bg-[#C05638] text-white active:scale-98 shadow-sm"
-            >
-              <Sparkles className="w-4 h-4" />
-              <span>Desbloquear Pase Completo (${passPriceMxn} MXN)</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    );
-  }
+  const effectiveDuration = isLocked ? Math.min(15, duration) : duration;
+  const effectiveProgress = isLocked ? Math.min(1, currentTime / 15) : progress;
+  const isTeaserFinished = isLocked && currentTime >= 15;
 
   return (
     <div
@@ -102,6 +74,38 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
           : 'bg-[#181614] border-stone-800 text-stone-100'
       }`}
     >
+      {/* Freemium Teaser Indicator if Premium & No Pass */}
+      {isLocked && (
+        <div
+          className={`mb-3.5 p-3 rounded-xl border flex items-center justify-between gap-2.5 transition-all ${
+            isSunMode
+              ? 'bg-amber-50/90 border-amber-300 text-amber-950'
+              : 'bg-amber-950/40 border-amber-500/40 text-amber-300'
+          }`}
+        >
+          <div className="flex items-center gap-2 min-w-0">
+            <Sparkles className="w-4 h-4 text-amber-500 shrink-0" />
+            <div className="min-w-0">
+              <span className="text-[11px] font-bold block truncate">
+                {isTeaserFinished
+                  ? 'Muestra de 15s finalizada'
+                  : 'Muestra gratuita de 15 segundos'}
+              </span>
+              <span className="text-[10px] opacity-80 block truncate">
+                Obra Premium • Desbloquea para escuchar completo
+              </span>
+            </div>
+          </div>
+          <button
+            type="button"
+            onClick={onUnlockClick}
+            className="px-2.5 py-1 rounded-lg text-[10px] font-extrabold uppercase tracking-wide bg-amber-500 text-stone-950 hover:bg-amber-400 active:scale-95 transition shrink-0"
+          >
+            Pase 72h
+          </button>
+        </div>
+      )}
+
       {/* Top info bar: Voice metadata & Equalizer */}
       <div className="flex items-center justify-between gap-3 mb-3.5">
         <div className="flex items-center gap-2 min-w-0">
@@ -112,7 +116,7 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
           />
           <div className="min-w-0">
             <span className="text-[11px] font-semibold tracking-wide uppercase block truncate text-stone-800 dark:text-stone-200">
-              Audioguía de Sala
+              {isLocked ? 'Muestra de Audio (Teaser)' : 'Audioguía de Sala'}
             </span>
             <span className="text-[10px] text-stone-500 dark:text-stone-400 block truncate">
               {audioFileUrl ? 'Audio de estudio' : voiceName ? `Voz: ${voiceName}` : 'Locución asistida'}
@@ -151,12 +155,12 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
             className={`h-full rounded-full transition-all duration-200 ${
               isSunMode ? 'bg-[#C05638]' : 'bg-[#D96B47]'
             }`}
-            style={{ width: `${Math.min(100, Math.max(0, progress * 100))}%` }}
+            style={{ width: `${Math.min(100, Math.max(0, effectiveProgress * 100))}%` }}
           />
         </div>
         <div className="flex justify-between items-center text-[10px] font-mono font-medium mt-1.5 text-stone-500 dark:text-stone-400">
           <span>{formatSeconds(currentTime)}</span>
-          <span>{formatSeconds(duration)}</span>
+          <span>{formatSeconds(effectiveDuration)}</span>
         </div>
       </div>
 
@@ -208,11 +212,13 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
           <button
             id="btn-audio-toggle-play"
             type="button"
-            onClick={togglePlay}
+            onClick={isTeaserFinished ? onUnlockClick : togglePlay}
             aria-label={isPlaying ? 'Pausar audio' : 'Reproducir audio'}
             className="w-13 h-13 sm:w-14 sm:h-14 flex items-center justify-center rounded-full transition-all active:scale-95 shadow-md bg-[#C05638] hover:bg-[#A9482E] dark:bg-[#D96B47] dark:hover:bg-[#C05638] text-white"
           >
-            {isPlaying ? (
+            {isTeaserFinished ? (
+              <Lock className="w-5 h-5 fill-current" />
+            ) : isPlaying ? (
               <Pause className="w-5 h-5 fill-current" />
             ) : (
               <Play className="w-5 h-5 fill-current ml-0.5" />
@@ -220,6 +226,20 @@ export const AudioPlayer: React.FC<AudioPlayerProps> = ({
           </button>
         </div>
       </div>
+
+      {/* Finished Teaser Call-To-Action */}
+      {isTeaserFinished && (
+        <div className="mt-4 pt-3 border-t border-stone-200 dark:border-stone-800 text-center animate-fadeIn">
+          <button
+            id="btn-unlock-audio-card"
+            onClick={onUnlockClick}
+            className="w-full min-h-[46px] flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all bg-[#C05638] hover:bg-[#A9482E] dark:bg-[#D96B47] dark:hover:bg-[#C05638] text-white active:scale-98 shadow-sm"
+          >
+            <Sparkles className="w-4 h-4" />
+            <span>👑 Desbloquear por $49 MXN / $2.99 USD</span>
+          </button>
+        </div>
+      )}
     </div>
   );
 };

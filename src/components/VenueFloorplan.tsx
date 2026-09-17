@@ -183,7 +183,66 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
     );
   };
 
-  // Helper to render dynamic numbered pins
+  // Helper to render high-contrast terracotta guide path between current stop and next stop
+  const renderNextStepGuide = () => {
+    if (!stops || currentStopIndex >= stops.length - 1) return null;
+    const fromStop = stops[currentStopIndex];
+    const toStop = stops[currentStopIndex + 1];
+    if (!fromStop || !toStop) return null;
+
+    const fromPt = getStopSvgCoords(fromStop);
+    const toPt = getStopSvgCoords(toStop);
+
+    // Midpoint for direction indicator
+    const midX = (fromPt.x + toPt.x) / 2;
+    const midY = (fromPt.y + toPt.y) / 2;
+
+    return (
+      <g className="next-step-guideline pointer-events-none" id="mna-spatial-guide-vector">
+        {/* Pulsing terracotta wide halo */}
+        <line
+          x1={fromPt.x}
+          y1={fromPt.y}
+          x2={toPt.x}
+          y2={toPt.y}
+          stroke="#C05638"
+          strokeWidth="8"
+          strokeOpacity="0.35"
+          strokeLinecap="round"
+          className="animate-pulse"
+        />
+        {/* Vivid animated dashed connection */}
+        <line
+          x1={fromPt.x}
+          y1={fromPt.y}
+          x2={toPt.x}
+          y2={toPt.y}
+          stroke="#C05638"
+          strokeWidth="3.5"
+          strokeDasharray="8 6"
+          strokeLinecap="round"
+        />
+        {/* Moving direction wave dot at midpoint */}
+        <circle
+          cx={midX}
+          cy={midY}
+          r="5"
+          fill="#FFFFFF"
+          stroke="#C05638"
+          strokeWidth="2"
+          className="animate-ping origin-center"
+        />
+        <circle
+          cx={midX}
+          cy={midY}
+          r="4"
+          fill="#C05638"
+        />
+      </g>
+    );
+  };
+
+  // Helper to render dynamic numbered pins with spatial micro-orientation
   const renderPins = () => {
     if (!stops) return null;
     return stops.map((stop, idx) => {
@@ -191,6 +250,7 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
       const cx = pt.x;
       const cy = pt.y;
       const isActive = idx === currentStopIndex;
+      const isNext = idx === currentStopIndex + 1;
 
       return (
         <g
@@ -202,15 +262,41 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
             if (stop.room_id && onSelectRoom) onSelectRoom(stop.room_id);
           }}
         >
-          {/* Active stop pulse wave */}
+          {/* Active stop terracotta pulse wave */}
           {isActive && (
+            <>
+              <circle
+                cx={cx}
+                cy={cy}
+                r="28"
+                fill="#C05638"
+                fillOpacity="0.25"
+                className="animate-ping origin-center"
+              />
+              <circle
+                cx={cx}
+                cy={cy}
+                r="19"
+                fill="none"
+                stroke="#C05638"
+                strokeWidth="2.5"
+                strokeDasharray="4 3"
+                className="animate-spin-slow origin-center"
+              />
+            </>
+          )}
+
+          {/* Next stop subtle guide pulse */}
+          {isNext && (
             <circle
               cx={cx}
               cy={cy}
-              r="22"
-              fill={theme.accentLight}
-              fillOpacity="0.25"
-              className="animate-ping origin-center"
+              r="20"
+              fill="none"
+              stroke="#D97706"
+              strokeWidth="2"
+              strokeDasharray="3 3"
+              className="animate-pulse origin-center"
             />
           )}
 
@@ -224,14 +310,14 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
             fillOpacity="0.35"
           />
 
-          {/* Pin Body */}
+          {/* Pin Body: Terracotta for active, Amber for next, Default for others */}
           <circle
             cx={cx}
             cy={cy}
-            r={isActive ? '14' : '11'}
-            fill={isActive ? theme.activePinBg : theme.pinBg}
-            stroke={isActive ? '#FFFFFF' : theme.wallStroke}
-            strokeWidth={isActive ? '2.5' : '1.5'}
+            r={isActive ? '15' : isNext ? '13' : '11'}
+            fill={isActive ? '#C05638' : isNext ? '#D97706' : theme.pinBg}
+            stroke={isActive ? '#FFFFFF' : isNext ? '#FFFFFF' : theme.wallStroke}
+            strokeWidth={isActive ? '3' : isNext ? '2' : '1.5'}
             className="transition-all duration-200 group-hover:scale-110 shadow-lg"
           />
 
@@ -239,7 +325,7 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
           <text
             x={cx}
             y={cy + 4}
-            fill={theme.pinText}
+            fill={isActive || isNext ? '#FFFFFF' : theme.pinText}
             fontSize={isActive ? '12' : '10'}
             fontWeight="900"
             textAnchor="middle"
@@ -247,6 +333,58 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
           >
             {idx + 1}
           </text>
+
+          {/* Subtle text badge: Estás aquí */}
+          {isActive && (
+            <g transform={`translate(${cx}, ${cy - 24})`} className="pointer-events-none select-none">
+              <rect
+                x="-36"
+                y="-10"
+                width="72"
+                height="16"
+                rx="8"
+                fill="#C05638"
+                stroke="#FFFFFF"
+                strokeWidth="1"
+              />
+              <text
+                x="0"
+                y="1.5"
+                fill="#FFFFFF"
+                fontSize="8.5"
+                fontWeight="800"
+                textAnchor="middle"
+              >
+                ESTÁS AQUÍ
+              </text>
+            </g>
+          )}
+
+          {/* Next stop label */}
+          {isNext && (
+            <g transform={`translate(${cx}, ${cy - 21})`} className="pointer-events-none select-none">
+              <rect
+                x="-28"
+                y="-9"
+                width="56"
+                height="14"
+                rx="7"
+                fill="#D97706"
+                stroke="#FFFFFF"
+                strokeWidth="1"
+              />
+              <text
+                x="0"
+                y="1.5"
+                fill="#FFFFFF"
+                fontSize="8"
+                fontWeight="800"
+                textAnchor="middle"
+              >
+                SIGUIENTE
+              </text>
+            </g>
+          )}
         </g>
       );
     });
@@ -1415,6 +1553,9 @@ export const VenueFloorplan: React.FC<VenueFloorplanProps> = ({
 
       {/* Dynamic Walking Route Trail Polyline */}
       {renderRouteTrail()}
+
+      {/* Dynamic Terracotta Next-Step Spatial Guide Vector */}
+      {renderNextStepGuide()}
 
       {/* Dynamic Numbered Route Pins */}
       {renderPins()}

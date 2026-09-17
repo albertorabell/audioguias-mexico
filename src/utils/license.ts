@@ -2,6 +2,8 @@ import { SiteLicense } from '../types';
 
 const STORAGE_KEY_PREFIX = 'audioguias_pass_';
 const DEVICE_ID_KEY = 'audioguias_device_id';
+export const MNA_TOUR_PASS_KEY = 'mna_tour_pass_active';
+export const MNA_TOUR_EXPIRES_KEY = 'mna_tour_pass_expires';
 
 export function getOrCreateDeviceId(): string {
   try {
@@ -18,6 +20,20 @@ export function getOrCreateDeviceId(): string {
 
 export function getSiteLicense(siteId: string): SiteLicense | null {
   try {
+    // Check mna_tour_pass_active first if it's MNA
+    if (siteId.toLowerCase() === 'mna') {
+      const isActive = localStorage.getItem(MNA_TOUR_PASS_KEY);
+      const rawExp = localStorage.getItem(MNA_TOUR_EXPIRES_KEY);
+      const expiresAt = rawExp ? parseInt(rawExp, 10) : 0;
+      if (isActive === 'true' && expiresAt > Date.now()) {
+        return {
+          site_id: 'mna',
+          expires_at: expiresAt,
+          device_id: getOrCreateDeviceId(),
+        };
+      }
+    }
+
     const raw = localStorage.getItem(`${STORAGE_KEY_PREFIX}${siteId.toLowerCase()}`);
     if (!raw) return null;
     const license: SiteLicense = JSON.parse(raw);
@@ -26,6 +42,10 @@ export function getSiteLicense(siteId: string): SiteLicense | null {
     }
     // Expired
     localStorage.removeItem(`${STORAGE_KEY_PREFIX}${siteId.toLowerCase()}`);
+    if (siteId.toLowerCase() === 'mna') {
+      localStorage.removeItem(MNA_TOUR_PASS_KEY);
+      localStorage.removeItem(MNA_TOUR_EXPIRES_KEY);
+    }
     return null;
   } catch {
     return null;
@@ -47,6 +67,10 @@ export function activatePass(siteId: string, hours = 72): SiteLicense {
   };
   try {
     localStorage.setItem(`${STORAGE_KEY_PREFIX}${siteId.toLowerCase()}`, JSON.stringify(license));
+    if (siteId.toLowerCase() === 'mna') {
+      localStorage.setItem(MNA_TOUR_PASS_KEY, 'true');
+      localStorage.setItem(MNA_TOUR_EXPIRES_KEY, String(expiresAt));
+    }
   } catch (err) {
     console.warn('Unable to persist pass in localStorage', err);
   }
@@ -56,6 +80,10 @@ export function activatePass(siteId: string, hours = 72): SiteLicense {
 export function revokePass(siteId: string): void {
   try {
     localStorage.removeItem(`${STORAGE_KEY_PREFIX}${siteId.toLowerCase()}`);
+    if (siteId.toLowerCase() === 'mna') {
+      localStorage.removeItem(MNA_TOUR_PASS_KEY);
+      localStorage.removeItem(MNA_TOUR_EXPIRES_KEY);
+    }
   } catch (err) {
     console.warn('Unable to remove pass from localStorage', err);
   }

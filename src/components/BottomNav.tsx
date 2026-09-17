@@ -71,20 +71,42 @@ export const BottomNav: React.FC<BottomNavProps> = ({
                 className={`p-1 rounded-lg border text-stone-500 hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100 transition ${
                   isSunMode ? 'border-stone-200 bg-stone-100/80' : 'border-stone-800 bg-stone-900/80'
                 }`}
-                title="Abrir mapa del museo"
-                aria-label="Abrir mapa del museo"
+                title="Abrir mapa con guía a la siguiente vitrina"
+                aria-label="Abrir mapa con guía a la siguiente vitrina"
               >
                 <Map className="w-3 h-3" />
               </button>
             )}
           </div>
-          <p
-            className={`text-xs font-semibold truncate mt-0.5 ${
-              isSunMode ? 'text-stone-900' : 'text-stone-100'
-            }`}
-          >
-            {isLastStop ? 'Última parada' : (nextStop ? `Sig: ${nextStop.title}` : 'Siguiente pieza')}
-          </p>
+          {isLastStop ? (
+            <p
+              className={`text-xs font-semibold truncate mt-0.5 ${
+                isSunMode ? 'text-stone-900' : 'text-stone-100'
+              }`}
+            >
+              🏁 Última parada de la ruta
+            </p>
+          ) : nextStop ? (
+            <p
+              id="micro-indicator-bottom-nav"
+              className={`text-xs font-medium truncate mt-0.5 ${
+                isSunMode ? 'text-stone-800' : 'text-stone-200'
+              }`}
+              title={`Siguiente parada: ${nextStop.title} · ${nextStop.room_zone || 'Sala'}`}
+            >
+              <span className="font-bold text-[#C05638] dark:text-[#D96B47]">Siguiente parada:</span>{' '}
+              <span className="font-semibold">{nextStop.title}</span>{' '}
+              <span className="opacity-70 text-[11px]">· {nextStop.room_zone || 'Sala'}</span>
+            </p>
+          ) : (
+            <p
+              className={`text-xs font-semibold truncate mt-0.5 ${
+                isSunMode ? 'text-stone-900' : 'text-stone-100'
+              }`}
+            >
+              Siguiente pieza
+            </p>
+          )}
         </div>
 
         {/* Botón Avanzar / Finalizar Recorrido */}
