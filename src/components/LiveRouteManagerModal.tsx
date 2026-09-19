@@ -113,7 +113,8 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
 
   // Add piece to end of route
   const handleAddPieceToEnd = (stopToAdd: RouteStop) => {
-    if (activeRoute.stops.some((s) => s.poi_id === stopToAdd.poi_id)) return;
+    const stopId = (stopToAdd as any).piece_id || (stopToAdd as any).id || stopToAdd.poi_id;
+    if (activeRoute.stops.some((s: any) => s.piece_id === stopId || s.id === stopId || s.poi_id === stopId)) return;
     const newStops = [...activeRoute.stops, stopToAdd];
     onUpdateRoute({
       ...activeRoute,
@@ -123,7 +124,8 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
 
   // Insert piece right after current stop
   const handleInsertPieceNext = (stopToAdd: RouteStop) => {
-    if (activeRoute.stops.some((s) => s.poi_id === stopToAdd.poi_id)) return;
+    const stopId = (stopToAdd as any).piece_id || (stopToAdd as any).id || stopToAdd.poi_id;
+    if (activeRoute.stops.some((s: any) => s.piece_id === stopId || s.id === stopId || s.poi_id === stopId)) return;
     const newStops = [...activeRoute.stops];
     newStops.splice(currentStopIndex + 1, 0, stopToAdd);
     onUpdateRoute({
@@ -138,19 +140,22 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
     const seen = new Set<string>();
 
     if (manifest.rooms) {
-      manifest.rooms.forEach((room) => {
+      manifest.rooms.forEach((room: any) => {
+        const roomId = room.room_id || room.id;
+        const roomName = room.nombre_oficial || room.name || roomId;
         if (room.pieces_info) {
-          room.pieces_info.forEach((piece) => {
-            if (!seen.has(piece.poi_id)) {
-              seen.add(piece.poi_id);
+          room.pieces_info.forEach((piece: any) => {
+            const pieceId = piece.piece_id || piece.id || piece.poi_id;
+            if (!seen.has(pieceId)) {
+              seen.add(pieceId);
               list.push({
-                poi_id: piece.poi_id,
+                poi_id: pieceId,
                 title: piece.title,
-                room_zone: room.name,
+                room_zone: roomName,
                 file: piece.file,
                 map_coords: room.coords || { x: 50, y: 50 },
                 estimated_minutes: piece.estimated_minutes || 8,
-                room_id: room.id,
+                room_id: roomId,
                 ranking: piece.is_premium ? 2 : 1,
                 tags: room.tags || [],
               });
@@ -163,9 +168,10 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
     // Also check any route stops not yet added
     if (manifest.routes) {
       manifest.routes.forEach((r) => {
-        r.stops.forEach((s) => {
-          if (!seen.has(s.poi_id)) {
-            seen.add(s.poi_id);
+        r.stops.forEach((s: any) => {
+          const stopId = s.piece_id || s.id || s.poi_id;
+          if (!seen.has(stopId)) {
+            seen.add(stopId);
             list.push(s);
           }
         });
@@ -211,16 +217,16 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h2 className="text-sm sm:text-base font-black tracking-tight">
+                <h2 className="text-sm sm:text-base font-black tracking-tight text-[#111827] dark:text-stone-100">
                   Gestor de Ruta en Vivo
                 </h2>
-                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-600 dark:text-amber-400 border border-amber-500/30">
+                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-800 dark:text-amber-400 border border-amber-500/30">
                   Parada {currentStopIndex + 1} de {activeRoute.stops.length}
                 </span>
               </div>
               <p
                 className={`text-xs ${
-                  isSunMode ? 'text-stone-600' : 'text-stone-400'
+                  isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
                 }`}
               >
                 {activeRoute.name}
@@ -233,7 +239,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
             onClick={onClose}
             className={`p-2 rounded-xl border transition-colors ${
               isSunMode
-                ? 'border-stone-300 text-stone-600 hover:bg-stone-100'
+                ? 'border-stone-300 text-[#111827] hover:bg-stone-100'
                 : 'border-stone-800 text-stone-300 hover:bg-stone-900'
             }`}
           >
@@ -312,14 +318,15 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
 
               {/* Pieces Grid */}
               <div className="space-y-2 max-h-96 overflow-y-auto pr-1">
-                {filteredCatalogPieces.map((piece) => {
+                {filteredCatalogPieces.map((piece: any) => {
+                  const pieceId = piece.piece_id || piece.id || piece.poi_id;
                   const isAlreadyInRoute = activeRoute.stops.some(
-                    (s) => s.poi_id === piece.poi_id
+                    (s: any) => s.piece_id === pieceId || s.id === pieceId || s.poi_id === pieceId
                   );
 
                   return (
                     <div
-                      key={piece.poi_id}
+                      key={pieceId}
                       className={`p-3 rounded-2xl border transition-all ${
                         isAlreadyInRoute
                           ? isSunMode
@@ -407,12 +414,12 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
             /* ================= STOPS SEQUENCE LIST ================= */
             <div className="space-y-2.5">
               <div className="flex items-center justify-between mb-1">
-                <span className="text-[11px] font-bold uppercase tracking-wider text-stone-500">
+                <span className={`text-[11px] font-bold uppercase tracking-wider ${isSunMode ? 'text-[#4B5563]' : 'text-stone-400'}`}>
                   Secuencia de tu recorrido ({activeRoute.stops.length} paradas)
                 </span>
                 <span
                   className={`text-[10px] ${
-                    isSunMode ? 'text-stone-500' : 'text-stone-400'
+                    isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
                   }`}
                 >
                   Puedes reordenar o quitar paradas pendientes
@@ -432,15 +439,15 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                     className={`p-3 rounded-2xl border transition-all ${
                       isCurrent
                         ? isSunMode
-                          ? 'bg-amber-50/90 border-amber-500 ring-2 ring-amber-500/50 shadow-md'
-                          : 'bg-amber-950/40 border-amber-500 ring-2 ring-amber-500/40 shadow-md'
+                          ? 'bg-amber-50/90 border-amber-500 ring-2 ring-amber-500/50 shadow-md text-[#111827]'
+                          : 'bg-amber-950/40 border-amber-500 ring-2 ring-amber-500/40 shadow-md text-stone-100'
                         : isCompleted
                         ? isSunMode
-                          ? 'bg-stone-100/70 border-stone-200 opacity-75'
-                          : 'bg-stone-900/40 border-stone-800/80 opacity-75'
+                          ? 'bg-stone-100/70 border-stone-200 opacity-75 text-[#111827]'
+                          : 'bg-stone-900/40 border-stone-800/80 opacity-75 text-stone-300'
                         : isSunMode
-                        ? 'bg-white border-stone-200 shadow-sm'
-                        : 'bg-stone-900/70 border-stone-800'
+                        ? 'bg-white border-stone-200 shadow-sm text-[#111827]'
+                        : 'bg-stone-900/70 border-stone-800 text-stone-100'
                     }`}
                   >
                     <div className="flex items-center justify-between gap-2">
@@ -451,9 +458,9 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                             isCurrent
                               ? 'bg-amber-500 text-black animate-pulse'
                               : isCompleted
-                              ? 'bg-emerald-500/20 text-emerald-500 border border-emerald-500/30'
+                              ? 'bg-emerald-500/20 text-emerald-700 dark:text-emerald-400 border border-emerald-500/30'
                               : isSunMode
-                              ? 'bg-stone-200 text-stone-700'
+                              ? 'bg-stone-200 text-[#111827]'
                               : 'bg-stone-800 text-stone-300'
                           }`}
                         >
@@ -463,7 +470,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                         {/* Title & Info */}
                         <div className="min-w-0">
                           <div className="flex items-center gap-2">
-                            <span className="font-extrabold text-xs sm:text-sm block truncate">
+                            <span className="font-extrabold text-xs sm:text-sm block truncate text-[#111827] dark:text-stone-100">
                               {stop.title}
                             </span>
                             {isCurrent && (
@@ -473,8 +480,8 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                             )}
                           </div>
                           <span
-                            className={`text-[10px] block truncate ${
-                              isSunMode ? 'text-stone-500' : 'text-stone-400'
+                            className={`text-[10px] block truncate font-medium ${
+                              isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
                             }`}
                           >
                             {stop.room_zone} • ~{stop.estimated_minutes || 8} min
@@ -495,7 +502,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                               className={`p-1.5 rounded-lg border transition-colors ${
                                 canMoveUp
                                   ? isSunMode
-                                    ? 'border-stone-300 hover:bg-stone-100 text-stone-700'
+                                    ? 'border-stone-300 hover:bg-stone-100 text-[#111827]'
                                     : 'border-stone-700 hover:bg-stone-800 text-stone-200'
                                   : 'opacity-30 cursor-not-allowed border-transparent'
                               }`}
@@ -512,7 +519,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                               className={`p-1.5 rounded-lg border transition-colors ${
                                 canMoveDown
                                   ? isSunMode
-                                    ? 'border-stone-300 hover:bg-stone-100 text-stone-700'
+                                    ? 'border-stone-300 hover:bg-stone-100 text-[#111827]'
                                     : 'border-stone-700 hover:bg-stone-800 text-stone-200'
                                   : 'opacity-30 cursor-not-allowed border-transparent'
                               }`}

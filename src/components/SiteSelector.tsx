@@ -44,7 +44,7 @@ export const SiteSelector: React.FC<SiteSelectorProps> = ({
             <div>
               <h1
                 className={`text-base font-extrabold tracking-tight flex items-center gap-1.5 ${
-                  isSunMode ? 'text-stone-950' : 'text-white'
+                  isSunMode ? 'text-[#111827]' : 'text-white'
                 }`}
               >
                 Audioguías México
@@ -58,7 +58,7 @@ export const SiteSelector: React.FC<SiteSelectorProps> = ({
                   PWA
                 </span>
               </h1>
-              <p className={`text-[11px] font-medium ${isSunMode ? 'text-stone-600' : 'text-stone-400'}`}>
+              <p className={`text-[11px] font-medium ${isSunMode ? 'text-[#4B5563]' : 'text-stone-400'}`}>
                 Patrimonio arqueológico e histórico
               </p>
             </div>
@@ -74,7 +74,7 @@ export const SiteSelector: React.FC<SiteSelectorProps> = ({
         <div
           className={`flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl text-xs border ${
             isSunMode
-              ? 'bg-amber-50/80 border-amber-200 text-stone-800 font-medium'
+              ? 'bg-amber-50/80 border-amber-200 text-[#111827] font-medium'
               : 'bg-stone-900/80 border-stone-800 text-stone-300'
           }`}
         >
@@ -90,7 +90,7 @@ export const SiteSelector: React.FC<SiteSelectorProps> = ({
         <div className="flex items-center justify-between">
           <h2
             className={`text-xs font-extrabold uppercase tracking-widest flex items-center gap-1.5 ${
-              isSunMode ? 'text-stone-700' : 'text-stone-400'
+              isSunMode ? 'text-[#111827]' : 'text-stone-400'
             }`}
           >
             <Sparkles className={`w-3.5 h-3.5 ${isSunMode ? 'text-amber-700' : 'text-amber-400'}`} />
@@ -174,7 +174,7 @@ export const SiteSelector: React.FC<SiteSelectorProps> = ({
                     <div>
                       <div
                         className={`flex items-center gap-1.5 text-xs mb-1.5 font-semibold ${
-                          isSunMode ? 'text-stone-600' : 'text-stone-400'
+                          isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
                         }`}
                       >
                         <MapPin className={`w-3.5 h-3.5 shrink-0 ${isSunMode ? 'text-amber-700' : 'text-amber-400'}`} />
@@ -184,7 +184,7 @@ export const SiteSelector: React.FC<SiteSelectorProps> = ({
                       <h3
                         className={`text-base font-extrabold leading-snug transition mb-2 ${
                           isSunMode
-                            ? 'text-stone-950 group-hover:text-amber-800'
+                            ? 'text-[#111827] group-hover:text-amber-800'
                             : 'text-white group-hover:text-amber-400'
                         }`}
                       >
@@ -193,7 +193,7 @@ export const SiteSelector: React.FC<SiteSelectorProps> = ({
 
                       <p
                         className={`text-xs line-clamp-2 leading-relaxed mb-3 font-medium ${
-                          isSunMode ? 'text-stone-700' : 'text-stone-300'
+                          isSunMode ? 'text-[#4B5563]' : 'text-stone-300'
                         }`}
                       >
                         {site.description}
@@ -208,7 +208,7 @@ export const SiteSelector: React.FC<SiteSelectorProps> = ({
                     >
                       <div
                         className={`flex items-center gap-3 text-xs font-semibold ${
-                          isSunMode ? 'text-stone-700' : 'text-stone-400'
+                          isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
                         }`}
                       >
                         <span className="flex items-center gap-1">

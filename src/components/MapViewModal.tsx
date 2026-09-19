@@ -128,7 +128,10 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
 
     // Also see if any stop in route is in this room
     const matchingStopIdx = stops.findIndex(
-      (s) => s.room_id === roomId || s.room_zone.toLowerCase().includes(roomId.replace('sala-', ''))
+      (s: any) =>
+        s.room_id === roomId ||
+        s.roomId === roomId ||
+        (s.room_zone && s.room_zone.toLowerCase().includes(roomId.replace('sala-', '')))
     );
     if (matchingStopIdx !== -1) {
       setSelectedPinIndex(matchingStopIdx);
@@ -139,31 +142,34 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
   const handleSelectPin = (stopIndex: number) => {
     setSelectedPinIndex(stopIndex);
     const stop = stops[stopIndex];
-    if (stop?.room_id) {
-      setSelectedRoomId(stop.room_id);
+    const roomId = (stop as any)?.room_id || (stop as any)?.roomId;
+    if (roomId) {
+      setSelectedRoomId(roomId);
       setIsDrawerOpen(true);
     }
   };
 
-  // Get inspected room details
-  const inspectedRoom = rooms.find((r) => r.id === selectedRoomId);
+  // Get inspected room details with full compatibility
+  const inspectedRoom = rooms.find((r: any) => r.room_id === selectedRoomId || r.id === selectedRoomId);
   const selectedStop = stops[selectedPinIndex] || stops[currentStopIndex] || null;
 
   // Handle adding piece to route
   const handleAddPiece = (piece: RoomPieceSummary, room: Room) => {
     if (onAddStopToRoute) {
+      const pieceId = (piece as any).piece_id || (piece as any).id || piece.poi_id;
+      const roomId = room.room_id || room.id;
       const newStop: RouteStop = {
-        poi_id: piece.poi_id,
+        poi_id: pieceId,
         title: piece.title,
-        room_zone: room.name,
+        room_zone: room.nombre_oficial || room.name || roomId,
         file: piece.file,
         map_coords: room.coords || { x: 50, y: 50 },
         estimated_minutes: piece.estimated_minutes || 8,
-        room_id: room.id,
+        room_id: roomId,
         ranking: piece.is_premium ? 2 : 1,
       };
       onAddStopToRoute(newStop);
-      setAddedPoiMap((prev) => ({ ...prev, [piece.poi_id]: true }));
+      setAddedPoiMap((prev) => ({ ...prev, [pieceId]: true }));
     }
   };
 
@@ -371,13 +377,14 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
 
             {inspectedRoom.pieces_info && inspectedRoom.pieces_info.length > 0 ? (
               <div className="space-y-2">
-                {inspectedRoom.pieces_info.map((piece) => {
-                  const isAlreadyInRoute = stops.some((s) => s.poi_id === piece.poi_id);
-                  const isAdded = addedPoiMap[piece.poi_id] || isAlreadyInRoute;
+                {inspectedRoom.pieces_info.map((piece: any) => {
+                  const pieceId = piece.piece_id || piece.id || piece.poi_id;
+                  const isAlreadyInRoute = stops.some((s: any) => s.piece_id === pieceId || s.id === pieceId || s.poi_id === pieceId);
+                  const isAdded = addedPoiMap[pieceId] || isAlreadyInRoute;
 
                   return (
                     <div
-                      key={piece.poi_id}
+                      key={pieceId}
                       className={`p-2.5 rounded-xl border flex items-center justify-between gap-3 transition-colors ${
                         isSunMode
                           ? 'bg-stone-50 border-stone-200/90 hover:border-amber-400'

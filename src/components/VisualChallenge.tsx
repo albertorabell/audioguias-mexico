@@ -149,7 +149,7 @@ export const VisualChallenge: React.FC<VisualChallengeProps> = ({
                 ) : (
                   <Circle
                     className={`w-5 h-5 ${
-                      isSunMode ? 'text-stone-400' : 'text-stone-500'
+                      isSunMode ? 'text-[#4B5563]' : 'text-stone-500'
                     }`}
                   />
                 )}

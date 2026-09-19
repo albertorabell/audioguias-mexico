@@ -46,10 +46,10 @@ export const BottomNav: React.FC<BottomNavProps> = ({
           disabled={isFirstStop}
           aria-label="Ir a la parada anterior"
           className={`min-h-[44px] px-3 sm:px-3.5 py-2 rounded-xl text-xs font-semibold flex items-center gap-1 border transition-all active:scale-95 shrink-0 ${
-            isFirstStop
+              isFirstStop
               ? 'opacity-40 cursor-not-allowed border-stone-300 dark:border-stone-800 text-stone-400 dark:text-stone-600 bg-stone-100 dark:bg-stone-900'
               : isSunMode
-              ? 'bg-white border-stone-200 hover:bg-stone-100 text-stone-800 shadow-xs'
+              ? 'bg-white border-stone-200 hover:bg-stone-100 text-[#111827] shadow-xs'
               : 'bg-stone-900 border-stone-800 hover:bg-stone-800 text-stone-200 shadow-xs'
           }`}
         >
@@ -81,7 +81,7 @@ export const BottomNav: React.FC<BottomNavProps> = ({
           {isLastStop ? (
             <p
               className={`text-xs font-semibold truncate mt-0.5 ${
-                isSunMode ? 'text-stone-900' : 'text-stone-100'
+                isSunMode ? 'text-[#111827]' : 'text-stone-100'
               }`}
             >
               🏁 Última parada de la ruta
@@ -90,18 +90,18 @@ export const BottomNav: React.FC<BottomNavProps> = ({
             <p
               id="micro-indicator-bottom-nav"
               className={`text-xs font-medium truncate mt-0.5 ${
-                isSunMode ? 'text-stone-800' : 'text-stone-200'
+                isSunMode ? 'text-[#111827]' : 'text-stone-200'
               }`}
               title={`Siguiente parada: ${nextStop.title} · ${nextStop.room_zone || 'Sala'}`}
             >
               <span className="font-bold text-[#C05638] dark:text-[#D96B47]">Siguiente parada:</span>{' '}
               <span className="font-semibold">{nextStop.title}</span>{' '}
-              <span className="opacity-70 text-[11px]">· {nextStop.room_zone || 'Sala'}</span>
+              <span className="text-[#4B5563] dark:text-stone-400 text-[11px] font-medium">· {nextStop.room_zone || 'Sala'}</span>
             </p>
           ) : (
             <p
               className={`text-xs font-semibold truncate mt-0.5 ${
-                isSunMode ? 'text-stone-900' : 'text-stone-100'
+                isSunMode ? 'text-[#111827]' : 'text-stone-100'
               }`}
             >
               Siguiente pieza

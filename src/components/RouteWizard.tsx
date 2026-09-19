@@ -52,8 +52,14 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
   // Reset de scroll al inicio absoluto de la página
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
     const mainContainer = document.querySelector('main') || document.getElementById('root');
     if (mainContainer) mainContainer.scrollTop = 0;
+    const allElements = document.querySelectorAll('div');
+    allElements.forEach((el) => {
+      if (el.scrollTop > 0) el.scrollTop = 0;
+    });
   }, []);
 
   // Pregunta 1: Tiempo disponible
@@ -276,7 +282,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                         ? 'bg-amber-50 border-amber-600 text-amber-950 ring-2 ring-amber-500 shadow-sm'
                         : 'bg-amber-950/40 border-amber-500 text-amber-100 ring-2 ring-amber-500 shadow-sm'
                       : isSunMode
-                      ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-stone-800'
+                      ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-[#111827]'
                       : 'bg-stone-950/60 border-stone-800 hover:border-stone-700 text-stone-300'
                   }`}
                 >
@@ -287,7 +293,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                         isSelected
                           ? 'bg-amber-500 text-black'
                           : isSunMode
-                          ? 'bg-stone-200 text-stone-700'
+                          ? 'bg-stone-200 text-[#111827] font-bold'
                           : 'bg-stone-800 text-stone-400'
                       }`}
                     >
@@ -298,10 +304,10 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                     className={`text-[10px] leading-snug line-clamp-2 ${
                       isSelected
                         ? isSunMode
-                          ? 'text-amber-900 font-medium'
+                          ? 'text-amber-900 font-semibold'
                           : 'text-amber-200/90 font-medium'
                         : isSunMode
-                        ? 'text-stone-500'
+                        ? 'text-[#4B5563] font-medium'
                         : 'text-stone-400'
                     }`}
                   >
@@ -326,7 +332,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
             </h2>
             <span
               className={`text-[10px] font-bold uppercase tracking-wider ${
-                isSunMode ? 'text-stone-500' : 'text-stone-400'
+                isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
               }`}
             >
               Multiselección ({selectedTags.length})
@@ -347,7 +353,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                         ? 'bg-amber-50/90 border-amber-600 text-amber-950 ring-1 ring-amber-500'
                         : 'bg-amber-950/35 border-amber-500 text-amber-100 ring-1 ring-amber-500'
                       : isSunMode
-                      ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-stone-700'
+                      ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-[#111827]'
                       : 'bg-stone-950/60 border-stone-800 hover:border-stone-700 text-stone-300'
                   }`}
                 >
@@ -357,7 +363,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                         isChecked
                           ? 'bg-amber-500 text-black'
                           : isSunMode
-                          ? 'bg-stone-200 text-stone-600'
+                          ? 'bg-stone-200 text-[#111827]'
                           : 'bg-stone-800 text-stone-400'
                       }`}
                     >
@@ -369,10 +375,10 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                         className={`text-[11px] block mt-0.5 line-clamp-1 ${
                           isChecked
                             ? isSunMode
-                              ? 'text-amber-900/90'
-                              : 'text-amber-200/80'
+                              ? 'text-amber-900 font-semibold'
+                              : 'text-amber-200/80 font-medium'
                             : isSunMode
-                            ? 'text-stone-500'
+                            ? 'text-[#4B5563] font-medium'
                             : 'text-stone-400'
                         }`}
                       >
@@ -421,7 +427,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                     ? 'bg-amber-50 border-amber-600 text-amber-950 ring-2 ring-amber-500 shadow-sm'
                     : 'bg-amber-950/40 border-amber-500 text-amber-100 ring-2 ring-amber-500 shadow-sm'
                   : isSunMode
-                  ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-stone-700'
+                  ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-[#111827]'
                   : 'bg-stone-950/60 border-stone-800 hover:border-stone-700 text-stone-300'
               }`}
             >
@@ -435,10 +441,10 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                 className={`text-[11px] leading-relaxed ${
                   pace === 'highlights'
                     ? isSunMode
-                      ? 'text-amber-900'
-                      : 'text-amber-200'
+                      ? 'text-amber-900 font-semibold'
+                      : 'text-amber-200 font-medium'
                     : isSunMode
-                    ? 'text-stone-500'
+                    ? 'text-[#4B5563] font-medium'
                     : 'text-stone-400'
                 }`}
               >
@@ -455,7 +461,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                     ? 'bg-amber-50 border-amber-600 text-amber-950 ring-2 ring-amber-500 shadow-sm'
                     : 'bg-amber-950/40 border-amber-500 text-amber-100 ring-2 ring-amber-500 shadow-sm'
                   : isSunMode
-                  ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-stone-700'
+                  ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-[#111827]'
                   : 'bg-stone-950/60 border-stone-800 hover:border-stone-700 text-stone-300'
               }`}
             >
@@ -469,10 +475,10 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                 className={`text-[11px] leading-relaxed ${
                   pace === 'expert'
                     ? isSunMode
-                      ? 'text-amber-900'
-                      : 'text-amber-200'
+                      ? 'text-amber-900 font-semibold'
+                      : 'text-amber-200 font-medium'
                     : isSunMode
-                    ? 'text-stone-500'
+                    ? 'text-[#4B5563] font-medium'
                     : 'text-stone-400'
                 }`}
               >
@@ -517,7 +523,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                   key={stop.poi_id}
                   className={`p-2.5 rounded-xl border flex items-center gap-2.5 text-xs ${
                     isSunMode
-                      ? 'bg-white/90 border-amber-200 text-stone-800'
+                      ? 'bg-white/95 border-amber-200 text-[#111827]'
                       : 'bg-stone-950/80 border-stone-800 text-stone-200'
                   }`}
                 >
@@ -526,9 +532,9 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                   </span>
                   <div className="min-w-0 flex-1">
                     <span className="font-bold block truncate">{stop.title}</span>
-                    <span className="text-[10px] opacity-70 block truncate">{stop.room_zone}</span>
+                    <span className="text-[10px] text-[#4B5563] dark:text-stone-400 block truncate">{stop.room_zone}</span>
                   </div>
-                  <span className="text-[10px] font-mono opacity-80 shrink-0">
+                  <span className="text-[10px] font-mono text-[#4B5563] dark:text-stone-300 shrink-0">
                     ~1.5 min
                   </span>
                 </div>
@@ -543,7 +549,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
             type="button"
             onClick={() => setShowClassicRoutes(!showClassicRoutes)}
             className={`text-xs font-semibold underline underline-offset-4 transition-colors ${
-              isSunMode ? 'text-stone-600 hover:text-stone-900' : 'text-stone-400 hover:text-stone-200'
+              isSunMode ? 'text-[#4B5563] hover:text-[#111827]' : 'text-stone-400 hover:text-stone-200'
             }`}
           >
             {showClassicRoutes
@@ -566,14 +572,14 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                 >
                   <div>
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-black">{route.name}</span>
+                      <span className="text-xs font-black text-[#111827] dark:text-stone-100">{route.name}</span>
                       <span className="text-[10px] font-bold text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded">
                         {route.duration}
                       </span>
                     </div>
                     <p
                       className={`text-[11px] mt-0.5 line-clamp-1 ${
-                        isSunMode ? 'text-stone-500' : 'text-stone-400'
+                        isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
                       }`}
                     >
                       {route.description}

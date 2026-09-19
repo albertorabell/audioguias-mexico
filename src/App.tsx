@@ -153,16 +153,88 @@ export default function App() {
     setViewMode('wizard');
   };
 
-  // Helper to load piece data
-  const loadPieceData = async (filePath: string) => {
+  // Helper to load piece data (supports both file paths and piece IDs with robust fallbacks)
+  const loadPieceData = async (filePathOrId: string) => {
     setIsLoadingPiece(true);
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       window.speechSynthesis.cancel();
     }
     try {
-      const res = await fetch(normalizeUrl(filePath));
-      if (!res.ok) throw new Error(`Error ${res.status} al cargar pieza ${filePath}`);
-      const piece: PieceData = await res.json();
+      let resolvedPath = filePathOrId;
+
+      // If it looks like a simple ID (no slash or .json), attempt resolving from tourPieces or manifest
+      if (!filePathOrId.includes('/') && !filePathOrId.endsWith('.json')) {
+        const id = filePathOrId;
+        const found = tourPieces.find(
+          (p: any) => p.piece_id === id || p.id === id || p.poi_id === id
+        );
+        if (found && (found as any).file) {
+          resolvedPath = (found as any).file;
+        } else if (manifest?.rooms) {
+          for (const room of manifest.rooms) {
+            const pi = room.pieces_info?.find(
+              (p: any) => p.piece_id === id || p.id === id || p.poi_id === id
+            );
+            if (pi && pi.file) {
+              resolvedPath = pi.file;
+              break;
+            }
+          }
+        }
+      }
+
+      let piece: PieceData | null = null;
+
+      // 1. Try direct fetch
+      try {
+        const res = await fetch(normalizeUrl(resolvedPath));
+        if (res.ok) {
+          piece = await res.json();
+        }
+      } catch (err) {
+        console.warn('Direct piece fetch failed:', err);
+      }
+
+      // 2. If not found, try fallback in public/data/pieces.json
+      if (!piece) {
+        try {
+          const piecesRes = await fetch(normalizeUrl('data/pieces.json'));
+          if (piecesRes.ok) {
+            const allPieces: PieceData[] = await piecesRes.json();
+            const target = allPieces.find(
+              (p: any) =>
+                p.piece_id === filePathOrId ||
+                p.id === filePathOrId ||
+                p.poi_id === filePathOrId ||
+                resolvedPath.includes(p.piece_id || p.id)
+            );
+            if (target) {
+              piece = target;
+            }
+          }
+        } catch (err) {
+          console.warn('Fallback fetch from data/pieces.json failed:', err);
+        }
+      }
+
+      // 3. If still not found, check memory in tourPieces
+      if (!piece) {
+        const localMatch = tourPieces.find(
+          (p: any) =>
+            p.piece_id === filePathOrId ||
+            p.id === filePathOrId ||
+            p.poi_id === filePathOrId ||
+            resolvedPath.includes(p.piece_id || p.id)
+        );
+        if (localMatch) {
+          piece = localMatch;
+        }
+      }
+
+      if (!piece) {
+        throw new Error(`No se pudo resolver la pieza ${filePathOrId}`);
+      }
+
       setCurrentPiece(piece);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } catch (err) {
@@ -176,7 +248,7 @@ export default function App() {
   // Handle route change from modal
   const handleSelectRoute = async (routeId: string) => {
     if (!manifest) return;
-    const foundRoute = manifest.routes.find((r) => r.id === routeId);
+    const foundRoute = manifest.routes.find((r: any) => r.id === routeId || r.route_id === routeId);
     if (foundRoute) {
       setActiveRoute(foundRoute);
       setCurrentStopIndex(0);
@@ -227,14 +299,17 @@ export default function App() {
 
   const handleKeepDetourInRoute = () => {
     if (!activeRoute || !spontaneousDetour || !currentPiece) return;
+    const pieceId = currentPiece.piece_id || currentPiece.id || currentPiece.poi_id;
+    const roomId = currentPiece.room_id || (currentPiece as any).roomId || currentPiece.location?.room_id || 'Sala';
     const newStop: RouteStop = {
-      poi_id: currentPiece.poi_id,
-      title: currentPiece.identification?.title || currentPiece.poi_id,
-      room_zone: currentPiece.identification?.room_zone || (currentPiece.identification as any)?.location_room || currentPiece?.room_id || 'Sala',
+      poi_id: pieceId,
+      title: currentPiece.titulo || currentPiece.identification?.title || pieceId,
+      room_zone: currentPiece.identification?.room_zone || (currentPiece.identification as any)?.location_room || roomId,
       file: spontaneousDetour.pieceFile,
       estimated_minutes: currentPiece.estimated_minutes || 8,
-      map_coords: { x: 50, y: 50 },
+      map_coords: { x: currentPiece.map_x || 50, y: currentPiece.map_y || 50 },
       ranking: currentPiece.is_premium ? 2 : 1,
+      room_id: roomId,
     };
     const newStops = [...activeRoute.stops];
     newStops.splice(spontaneousDetour.originalStopIndex + 1, 0, newStop);
@@ -249,7 +324,8 @@ export default function App() {
   // Add a piece stop to current route
   const handleAddStopToRoute = (newStop: RouteStop) => {
     if (!activeRoute) return;
-    if (activeRoute.stops.some((s) => s.poi_id === newStop.poi_id)) return;
+    const stopId = (newStop as any).piece_id || (newStop as any).id || newStop.poi_id;
+    if (activeRoute.stops.some((s: any) => s.piece_id === stopId || s.id === stopId || s.poi_id === stopId)) return;
 
     const updatedRoute: SiteRoute = {
       ...activeRoute,
@@ -322,26 +398,46 @@ export default function App() {
   useEffect(() => {
     let isMounted = true;
     async function preloadRoutePieces() {
+      // 1. Intentar cargar primero la base de datos completa de public/data/pieces.json
+      try {
+        const fullRes = await fetch(normalizeUrl('data/pieces.json'));
+        if (fullRes.ok) {
+          const fullData: PieceData[] = await fullRes.json();
+          if (isMounted && fullData && fullData.length > 0) {
+            setTourPieces(fullData);
+            return;
+          }
+        }
+      } catch (err) {
+        console.warn('Could not load data/pieces.json:', err);
+      }
+
       if (!activeRoute || activeRoute.stops.length === 0) {
         if (manifest?.rooms) {
           const roomPieces: PieceData[] = manifest.rooms.flatMap((r) =>
-            (r.pieces_info || []).map((pi) => ({
-              id: pi.poi_id,
-              poi_id: pi.poi_id,
-              site_id: manifest.site_id,
-              room_id: r.id,
-              case_number: '',
-              identification: {
-                title: pi.title,
-                hero_image: pi.thumbnail,
-                room_zone: r.name,
-              },
-              summary_30s: pi.title,
-              is_premium: !!pi.is_premium,
-              audioguide: {
-                audio_script: '',
-              },
-            } as unknown as PieceData))
+            (r.pieces_info || []).map((pi) => {
+              const pieceId = (pi as any).piece_id || (pi as any).id || pi.poi_id;
+              const roomId = r.room_id || r.id;
+              return {
+                id: pieceId,
+                piece_id: pieceId,
+                poi_id: pieceId,
+                site_id: manifest.site_id,
+                room_id: roomId,
+                roomId: roomId,
+                case_number: '',
+                identification: {
+                  title: pi.title,
+                  hero_image: pi.thumbnail,
+                  room_zone: r.nombre_oficial || r.name,
+                },
+                summary_30s: pi.title,
+                is_premium: !!pi.is_premium,
+                audioguide: {
+                  audio_script: '',
+                },
+              } as unknown as PieceData;
+            })
           );
           if (isMounted) setTourPieces(roomPieces);
         }
@@ -350,6 +446,8 @@ export default function App() {
 
       try {
         const piecePromises = activeRoute.stops.map(async (stop) => {
+          const pieceId = (stop as any).piece_id || (stop as any).id || stop.poi_id;
+          const roomId = stop.room_id || (stop as any).roomId || '';
           try {
             const res = await fetch(normalizeUrl(stop.file));
             if (res.ok) {
@@ -358,10 +456,12 @@ export default function App() {
             }
           } catch {}
           return {
-            id: stop.poi_id,
-            poi_id: stop.poi_id,
+            id: pieceId,
+            piece_id: pieceId,
+            poi_id: pieceId,
             site_id: selectedSite?.id || 'MNA',
-            room_id: stop.room_id || '',
+            room_id: roomId,
+            roomId: roomId,
             case_number: stop.case_number || '',
             identification: {
               title: stop.title,
@@ -391,29 +491,92 @@ export default function App() {
     };
   }, [activeRoute, manifest]);
 
-  // Jump to piece from SearchModal (Keypad or Predictive Search)
-  const handleSelectPieceById = async (pieceId: string) => {
-    if (!activeRoute) return;
+  // Jump to piece from SearchModal or URL query parameter with full compatibility
+  const handleSelectPieceById = async (id: string) => {
+    if (!id) return;
 
-    const stopIdx = activeRoute.stops.findIndex(
-      (s) => s.poi_id === pieceId || s.file.includes(pieceId) || s.poi_id.toLowerCase() === pieceId.toLowerCase()
-    );
-
-    if (stopIdx !== -1) {
-      await handleSelectStop(stopIdx);
-      return;
+    // Auto-activar primera ruta si aún no hay activa
+    let currentRoute = activeRoute;
+    if (!currentRoute && manifest?.routes && manifest.routes.length > 0) {
+      currentRoute = manifest.routes[0];
+      setActiveRoute(currentRoute);
     }
 
+    // 1. Buscar en paradas de la ruta activa
+    if (currentRoute) {
+      const stopIdx = currentRoute.stops.findIndex(
+        (s: any) =>
+          s.piece_id === id ||
+          s.id === id ||
+          s.poi_id === id ||
+          (s.file && s.file.includes(id)) ||
+          (s.poi_id && s.poi_id.toLowerCase() === id.toLowerCase())
+      );
+
+      if (stopIdx !== -1) {
+        setViewMode('tour');
+        await handleSelectStop(stopIdx);
+        return;
+      }
+    }
+
+    // 2. Buscar en salas del catálogo del recinto
     if (manifest?.rooms) {
       for (const room of manifest.rooms) {
-        const found = room.pieces_info?.find((p) => p.poi_id === pieceId || p.file.includes(pieceId));
+        const found = room.pieces_info?.find(
+          (p: any) =>
+            p.piece_id === id ||
+            p.id === id ||
+            p.poi_id === id ||
+            (p.file && p.file.includes(id))
+        );
         if (found) {
+          setViewMode('tour');
           await handleStartSpontaneousDetour(found.file, found.title);
           return;
         }
       }
     }
+
+    // 3. Buscar en piezas precargadas (tourPieces)
+    const tourMatch = tourPieces.find(
+      (p: any) => p.piece_id === id || p.id === id || p.poi_id === id
+    );
+    if (tourMatch) {
+      setViewMode('tour');
+      setCurrentPiece(tourMatch);
+      return;
+    }
+
+    // 4. Carga directa por resolved ID / File
+    setViewMode('tour');
+    await loadPieceData(id);
   };
+
+  // Escuchar parámetros de URL para navegación directa a pieza o sala (?piece=, ?piece_id=, ?id=, ?room=, ?room_id=, ?sala=)
+  useEffect(() => {
+    if (!manifest) return;
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const targetPieceId = params.get('piece') || params.get('piece_id') || params.get('id') || params.get('poi_id');
+      const targetRoomId = params.get('room') || params.get('room_id') || params.get('sala');
+
+      if (targetPieceId) {
+        handleSelectPieceById(targetPieceId);
+      } else if (targetRoomId) {
+        const room = manifest.rooms?.find(
+          (r: any) => r.room_id === targetRoomId || r.id === targetRoomId
+        );
+        if (room && room.pieces_info && room.pieces_info.length > 0) {
+          const firstPiece = room.pieces_info[0];
+          const pId = (firstPiece as any).piece_id || (firstPiece as any).id || firstPiece.poi_id;
+          handleSelectPieceById(pId);
+        }
+      }
+    } catch (e) {
+      console.warn('Error reading URL search params:', e);
+    }
+  }, [manifest]);
 
   // Remaining minutes in route for persistent pill
   const remainingRouteMinutes = useMemo(() => {
@@ -474,7 +637,12 @@ export default function App() {
             site={selectedSite}
             manifest={manifest}
             onBack={handleBackToSites}
-            onCustomizeRoute={() => setViewMode('wizard')}
+            onCustomizeRoute={() => {
+              window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+              document.documentElement.scrollTop = 0;
+              document.body.scrollTop = 0;
+              setViewMode('wizard');
+            }}
             onDirectStartRoute={handleStartRouteFromOverview}
           />
         ) : viewMode === 'wizard' && manifest ? (
@@ -626,8 +794,35 @@ export default function App() {
                 onOpenMapModal={() => setIsMapModalOpen(true)}
               />
             ) : (
-              <div className="p-8 text-center text-stone-500 text-sm">
-                No se encontró información para esta pieza.
+              <div className="p-12 text-center text-stone-600 dark:text-stone-400 text-sm flex flex-col items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-500 text-xl font-bold">
+                  🏛️
+                </div>
+                <p className="font-medium">No se encontró información para esta pieza.</p>
+                <div className="flex gap-2">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      if (activeRoute && activeRoute.stops.length > 0) {
+                        loadPieceData(activeRoute.stops[0].file);
+                      } else if (tourPieces.length > 0) {
+                        setCurrentPiece(tourPieces[0]);
+                      } else {
+                        setViewMode('overview');
+                      }
+                    }}
+                    className="px-4 py-2 rounded-xl text-xs font-bold bg-amber-500 text-stone-950 transition active:scale-95 shadow-md"
+                  >
+                    Ver obras maestras
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setViewMode('overview')}
+                    className="px-4 py-2 rounded-xl text-xs font-semibold border border-stone-300 dark:border-stone-700 hover:bg-stone-100 dark:hover:bg-stone-800 transition"
+                  >
+                    Volver a salas
+                  </button>
+                </div>
               </div>
             )}
 

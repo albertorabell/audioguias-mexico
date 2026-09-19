@@ -436,7 +436,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
                 ? 'bg-[#C05638] text-white border-[#C05638] ring-2 ring-[#C05638]/20 shadow-sm'
                 : 'bg-[#D96B47] text-white border-[#D96B47] ring-2 ring-[#D96B47]/30 shadow-sm'
               : isSunMode
-              ? 'bg-white text-stone-700 border-stone-200 hover:border-stone-300 hover:bg-stone-50'
+              ? 'bg-white text-[#111827] border-stone-200 hover:border-stone-300 hover:bg-stone-50'
               : 'bg-stone-900 text-stone-300 border-stone-800 hover:border-stone-700 hover:bg-stone-800/80'
           }`}
         >
@@ -447,7 +447,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
               selectedFloor === 'PB'
                 ? 'bg-white/20 text-white'
                 : isSunMode
-                ? 'bg-stone-100 text-stone-600'
+                ? 'bg-stone-100 text-[#4B5563]'
                 : 'bg-stone-800 text-stone-400'
             }`}
           >
@@ -464,7 +464,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
                 ? 'bg-[#C05638] text-white border-[#C05638] ring-2 ring-[#C05638]/20 shadow-sm'
                 : 'bg-[#D96B47] text-white border-[#D96B47] ring-2 ring-[#D96B47]/30 shadow-sm'
               : isSunMode
-              ? 'bg-white text-stone-700 border-stone-200 hover:border-stone-300 hover:bg-stone-50'
+              ? 'bg-white text-[#111827] border-stone-200 hover:border-stone-300 hover:bg-stone-50'
               : 'bg-stone-900 text-stone-300 border-stone-800 hover:border-stone-700 hover:bg-stone-800/80'
           }`}
         >
@@ -475,7 +475,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
               selectedFloor === 'PA'
                 ? 'bg-white/20 text-white'
                 : isSunMode
-                ? 'bg-stone-100 text-stone-600'
+                ? 'bg-stone-100 text-[#4B5563]'
                 : 'bg-stone-800 text-stone-400'
             }`}
           >
@@ -659,9 +659,9 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
             let fillColor = isSunMode ? '#FFFFFF' : '#292524'; // stone-800 equiv
             let strokeColor = isSunMode ? '#D6D3D1' : '#57534E'; // stone-600 equiv
             let strokeWidth = 1.5;
-            let textColor = isSunMode ? '#1C1917' : '#F5F5F4';
+            let textColor = isSunMode ? '#111827' : '#F5F5F4';
             let badgeBg = isSunMode ? '#E7E5E4' : '#44403C';
-            let badgeText = isSunMode ? '#44403C' : '#E7E5E4';
+            let badgeText = isSunMode ? '#111827' : '#E7E5E4';
 
             if (active) {
               fillColor = isSunMode ? '#FEF3C7' : '#451A03'; // ámbar / naranja suave
@@ -735,7 +735,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
                 <text
                   x={room.x + 10}
                   y={room.y + (room.h > 80 ? 44 : 38)}
-                  fill={active ? textColor : isSunMode ? '#78716C' : '#A8A29E'}
+                  fill={active ? textColor : isSunMode ? '#4B5563' : '#A8A29E'}
                   fontSize={room.h > 80 ? 10.5 : 9.5}
                   fontWeight="400"
                   fontFamily="sans-serif"
@@ -751,19 +751,19 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
         <div
           className={`absolute bottom-2 left-3 right-3 px-3 py-1.5 rounded-lg flex items-center justify-between text-[11px] backdrop-blur-md border ${
             isSunMode
-              ? 'bg-white/90 border-stone-200 text-stone-600'
+              ? 'bg-white/90 border-stone-200 text-[#4B5563]'
               : 'bg-stone-900/90 border-stone-800 text-stone-300'
           }`}
         >
           <div className="flex items-center gap-2">
             <span className="w-2.5 h-2.5 rounded-full bg-[#F59E0B] shadow-xs" />
-            <span className="font-semibold">
+            <span className="font-semibold text-[#111827] dark:text-stone-200">
               {selectedFloor === 'PB'
                 ? 'Planta Baja · 12 Salas de Arqueología'
                 : 'Planta Alta · 10 Salas de Etnografía'}
             </span>
           </div>
-          <span className="text-[10px] text-stone-500">Toca cualquier sala para explorar</span>
+          <span className="text-[10px] text-[#4B5563] dark:text-stone-400 font-medium">Toca cualquier sala para explorar</span>
         </div>
       </div>
     </div>

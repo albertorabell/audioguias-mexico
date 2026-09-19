@@ -60,7 +60,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({
         } else if (e.key === 'Enter') {
           e.preventDefault();
           if (matchedPieceByKeypad) {
-            onSelectPiece(matchedPieceByKeypad.id);
+            const pieceId = matchedPieceByKeypad.piece_id || matchedPieceByKeypad.id || (matchedPieceByKeypad as any).poi_id;
+            onSelectPiece(pieceId);
             onClose();
           }
         }
@@ -90,7 +91,10 @@ export const SearchModal: React.FC<SearchModalProps> = ({
     if (matchCase) return matchCase;
 
     // Try ID ending in number
-    const matchId = pieces.find((p) => p.id === keypadInput || p.id.endsWith(keypadInput));
+    const matchId = pieces.find((p: any) => {
+      const pId = p.piece_id || p.id || p.poi_id || '';
+      return pId === keypadInput || pId.endsWith(keypadInput);
+    });
     return matchId || null;
   }, [keypadInput, pieces]);
 
@@ -99,19 +103,21 @@ export const SearchModal: React.FC<SearchModalProps> = ({
     const q = searchQuery.trim().toLowerCase();
     if (!q) return pieces.slice(0, 8);
 
-    return pieces.filter((piece) => {
-      const title = piece.identification?.title?.toLowerCase() || '';
-      const altTitle = piece.identification?.original_name?.toLowerCase() || '';
-      const culture = piece.identification?.culture_period?.toLowerCase() || '';
+    return pieces.filter((piece: any) => {
+      const title = (piece.titulo || piece.identification?.title || '').toLowerCase();
+      const altTitle = (piece.identification?.original_name || '').toLowerCase();
+      const culture = (piece.especificaciones?.cultura || piece.identification?.culture_period || '').toLowerCase();
       const room = (
         piece?.location?.room_name ||
         piece?.location?.room_id ||
         piece?.room_id ||
+        piece?.roomId ||
         piece.identification?.room_zone ||
         ''
       ).toLowerCase();
       const caseNum = (piece?.location?.case_number || piece?.case_number || '').toLowerCase();
-      const summary = (piece.summary_30s || '').toLowerCase();
+      const summary = (piece.guion_corto || piece.frase_gancho || piece.summary_30s || '').toLowerCase();
+      const idStr = (piece.piece_id || piece.id || piece.poi_id || '').toLowerCase();
 
       return (
         title.includes(q) ||
@@ -119,7 +125,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({
         culture.includes(q) ||
         room.includes(q) ||
         caseNum.includes(q) ||
-        summary.includes(q)
+        summary.includes(q) ||
+        idStr.includes(q)
       );
     });
   }, [searchQuery, pieces]);
@@ -142,7 +149,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({
 
   const handleGoToMatchedPiece = () => {
     if (matchedPieceByKeypad) {
-      onSelectPiece(matchedPieceByKeypad.id);
+      const pieceId = matchedPieceByKeypad.piece_id || matchedPieceByKeypad.id || (matchedPieceByKeypad as any).poi_id;
+      onSelectPiece(pieceId);
       onClose();
     }
   };
@@ -216,7 +224,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
         {/* ================= MODE 1: NUMERIC KEYPAD ================= */}
         {activeTab === 'keypad' && (
           <div className="p-5 flex flex-col items-center">
-            <p className="text-xs text-stone-500 dark:text-stone-400 mb-3 text-center">
+            <p className="text-xs text-[#4B5563] dark:text-stone-400 mb-3 text-center font-medium">
               Ingresa el número de parada o vitrina física (ej. 1 a {pieces.length}):
             </p>
 
@@ -226,7 +234,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                 isSunMode ? 'bg-white border-stone-200' : 'bg-stone-900 border-stone-800'
               }`}
             >
-              <span className="text-xs font-mono uppercase tracking-widest text-stone-400">
+              <span className="text-xs font-mono uppercase tracking-widest text-[#4B5563] dark:text-stone-400 font-semibold">
                 PARADA #
               </span>
               <span className="text-3xl font-mono font-bold tracking-widest text-[#C05638] dark:text-[#D96B47]">
@@ -250,7 +258,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                   onClick={handleGoToMatchedPiece}
                   className={`p-2.5 rounded-xl border flex items-center justify-between gap-3 cursor-pointer transition shadow-xs hover:scale-[1.01] active:scale-[0.99] ${
                     isSunMode
-                      ? 'bg-amber-50/80 border-amber-300/80 text-stone-900'
+                      ? 'bg-amber-50/80 border-amber-300/80 text-[#111827]'
                       : 'bg-amber-950/30 border-amber-800/60 text-stone-100'
                   }`}
                 >
@@ -264,7 +272,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                       <span className="text-[10px] uppercase font-bold text-[#C05638] dark:text-[#D96B47] block truncate">
                         {matchedPieceByKeypad.location?.room_name || 'Sala Mexica'}
                       </span>
-                      <h5 className="text-xs font-bold truncate text-stone-900 dark:text-stone-100">
+                      <h5 className="text-xs font-bold truncate text-[#111827] dark:text-stone-100">
                         {matchedPieceByKeypad.identification.title}
                       </h5>
                     </div>
@@ -279,11 +287,11 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                   </button>
                 </div>
               ) : keypadInput ? (
-                <div className="p-3 rounded-xl border border-dashed border-stone-300 dark:border-stone-700 text-center text-xs text-stone-500 dark:text-stone-400">
+                <div className="p-3 rounded-xl border border-dashed border-stone-300 dark:border-stone-700 text-center text-xs text-[#4B5563] dark:text-stone-400 font-medium">
                   No hay pieza registrada con el #{keypadInput}. Prueba con 1 a {pieces.length}.
                 </div>
               ) : (
-                <div className="p-3 rounded-xl border border-dashed border-stone-200 dark:border-stone-800 text-center text-xs text-stone-400 dark:text-stone-500">
+                <div className="p-3 rounded-xl border border-dashed border-stone-300 dark:border-stone-800 text-center text-xs text-[#4B5563] dark:text-stone-400 font-medium">
                   Digita el número de la cédula para escuchar de inmediato
                 </div>
               )}
@@ -299,7 +307,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                   onClick={() => handleKeypadPress(digit)}
                   className={`h-12 rounded-xl text-lg font-bold font-mono border transition active:scale-95 shadow-xs flex items-center justify-center ${
                     isSunMode
-                      ? 'bg-white hover:bg-stone-50 border-stone-200 text-stone-900'
+                      ? 'bg-white hover:bg-stone-50 border-stone-200 text-[#111827]'
                       : 'bg-stone-800/80 hover:bg-stone-700 border-stone-700 text-stone-100'
                   }`}
                 >
@@ -312,7 +320,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                 onClick={handleKeypadClear}
                 className={`h-12 rounded-xl text-xs font-semibold uppercase tracking-wider border transition active:scale-95 ${
                   isSunMode
-                    ? 'bg-stone-100 hover:bg-stone-200 border-stone-200 text-stone-600'
+                    ? 'bg-stone-100 hover:bg-stone-200 border-stone-200 text-[#111827]'
                     : 'bg-stone-900 hover:bg-stone-800 border-stone-800 text-stone-400'
                 }`}
               >
@@ -325,7 +333,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                 onClick={() => handleKeypadPress('0')}
                 className={`h-12 rounded-xl text-lg font-bold font-mono border transition active:scale-95 shadow-xs flex items-center justify-center ${
                   isSunMode
-                    ? 'bg-white hover:bg-stone-50 border-stone-200 text-stone-900'
+                    ? 'bg-white hover:bg-stone-50 border-stone-200 text-[#111827]'
                     : 'bg-stone-800/80 hover:bg-stone-700 border-stone-700 text-stone-100'
                 }`}
               >
@@ -361,7 +369,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Buscar por obra, sala o cultura (ej. Coatlicue, Mexica)..."
-                className="w-full text-xs sm:text-sm bg-transparent border-none outline-hidden text-stone-900 dark:text-stone-100 placeholder:text-stone-400"
+                className="w-full text-xs sm:text-sm bg-transparent border-none outline-hidden text-[#111827] dark:text-stone-100 placeholder:text-[#4B5563]/70 font-medium"
                 autoFocus
               />
               {searchQuery && (
@@ -376,7 +384,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
             </div>
 
             {/* Results counter */}
-            <div className="flex justify-between items-center text-[10px] font-mono text-stone-500 dark:text-stone-400 px-1 mb-2">
+            <div className="flex justify-between items-center text-[10px] font-mono text-[#4B5563] dark:text-stone-400 px-1 mb-2 font-medium">
               <span>{filteredPieces.length} resultados encontrados</span>
               <span>Toca una pieza para escucharla</span>
             </div>
@@ -392,32 +400,37 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                   'Sala Mexica';
                 const caseNum = piece?.location?.case_number || piece?.case_number || '';
 
+                const pieceId = piece.piece_id || piece.id || (piece as any).poi_id;
+                const pieceTitle = piece.titulo || piece.identification?.title || 'Pieza';
+                const pieceImage = piece.image_filename || piece.identification?.hero_image || '';
+                const pieceCulture = piece.especificaciones?.cultura || piece.identification?.culture_period || '';
+
                 return (
                   <div
-                    key={piece.id || idx}
-                    id={`search-result-item-${piece.id}`}
+                    key={pieceId || idx}
+                    id={`search-result-item-${pieceId}`}
                     onClick={() => {
-                      onSelectPiece(piece.id);
+                      onSelectPiece(pieceId);
                       onClose();
                     }}
                     role="button"
                     tabIndex={0}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter') {
-                        onSelectPiece(piece.id);
+                        onSelectPiece(pieceId);
                         onClose();
                       }
                     }}
                     className={`p-2.5 rounded-xl border flex items-center justify-between gap-3 cursor-pointer transition shadow-xs active:scale-[0.99] ${
                       isSunMode
-                        ? 'bg-white hover:bg-stone-50 border-stone-200 text-stone-900'
+                        ? 'bg-white hover:bg-stone-50 border-stone-200 text-[#111827]'
                         : 'bg-stone-900/70 hover:bg-stone-800 border-stone-800 text-stone-100'
                     }`}
                   >
                     <div className="flex items-center gap-3 min-w-0">
                       <SafeImage
-                        src={piece.identification.hero_image}
-                        alt={piece.identification.title}
+                        src={pieceImage}
+                        alt={pieceTitle}
                         className="w-12 h-12 rounded-lg object-cover shrink-0 border border-stone-200 dark:border-stone-800"
                       />
                       <div className="min-w-0">
@@ -426,17 +439,17 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                             {room}
                           </span>
                           {caseNum && (
-                            <span className="text-[9px] px-1.5 py-0.2 rounded-sm bg-stone-200 dark:bg-stone-800 text-stone-600 dark:text-stone-300 font-mono">
+                            <span className="text-[9px] px-1.5 py-0.2 rounded-sm bg-stone-200 dark:bg-stone-800 text-[#111827] dark:text-stone-300 font-mono font-bold">
                               {caseNum}
                             </span>
                           )}
                         </div>
-                        <h5 className="text-xs sm:text-sm font-semibold truncate text-stone-900 dark:text-stone-100">
-                          {piece.identification.title}
+                        <h5 className="text-xs sm:text-sm font-bold truncate text-[#111827] dark:text-stone-100">
+                          {pieceTitle}
                         </h5>
-                        {piece.identification.culture_period && (
-                          <p className="text-[11px] text-stone-500 dark:text-stone-400 truncate">
-                            {piece.identification.culture_period}
+                        {pieceCulture && (
+                          <p className="text-[11px] text-[#4B5563] dark:text-stone-400 truncate font-medium">
+                            {pieceCulture}
                           </p>
                         )}
                       </div>
@@ -448,7 +461,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
               })}
 
               {filteredPieces.length === 0 && (
-                <div className="p-8 text-center text-xs text-stone-500 dark:text-stone-400">
+                <div className="p-8 text-center text-xs text-[#4B5563] dark:text-stone-400 font-medium">
                   No se encontraron piezas con el término &quot;{searchQuery}&quot;. Intenta con otro nombre o cultura.
                 </div>
               )}

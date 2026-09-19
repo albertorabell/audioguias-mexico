@@ -77,7 +77,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
           onClick={onBack}
           className={`flex items-center gap-2 text-xs font-semibold px-3 py-1.5 rounded-xl border transition-all active:scale-95 ${
             isSunMode
-              ? 'bg-stone-200/80 border-stone-300 text-stone-800 hover:bg-stone-300'
+              ? 'bg-stone-200/80 border-stone-300 text-[#111827] hover:bg-stone-300'
               : 'bg-stone-900 border-stone-800 text-stone-200 hover:bg-stone-800'
           }`}
         >
@@ -324,11 +324,14 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {manifest.rooms.map((room) => {
+              {manifest.rooms.map((room: any) => {
                 const piecesCount = room.pieces_info?.length || room.featured_pieces?.length || 0;
+                const roomId = room.room_id || room.id;
+                const roomName = room.nombre_oficial || room.name || roomId;
+                const roomDesc = room.frase_gancho || room.short_description || room.introduccion_narrativa;
                 return (
                   <div
-                    key={room.id}
+                    key={roomId}
                     className={`p-3.5 rounded-2xl border transition-all ${
                       isSunMode
                         ? 'bg-stone-50 border-stone-200 hover:border-amber-400'
@@ -336,7 +339,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
                     }`}
                   >
                     <div className="flex items-start justify-between gap-2 mb-1">
-                      <h3 className="text-xs font-bold text-[#111827] dark:text-stone-100">{room.name}</h3>
+                      <h3 className="text-xs font-bold text-[#111827] dark:text-stone-100">{roomName}</h3>
                       <span
                         className={`text-[9px] font-bold px-1.5 py-0.5 rounded border shrink-0 ${
                           isSunMode
@@ -347,13 +350,15 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
                         {piecesCount} {piecesCount === 1 ? 'obra' : 'obras'}
                       </span>
                     </div>
-                    <p
-                      className={`text-[11px] line-clamp-2 leading-relaxed ${
-                        isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
-                      }`}
-                    >
-                      {room.short_description}
-                    </p>
+                    {roomDesc && (
+                      <p
+                        className={`text-[11px] line-clamp-2 leading-relaxed ${
+                          isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
+                        }`}
+                      >
+                        {roomDesc}
+                      </p>
+                    )}
                   </div>
                 );
               })}
@@ -368,7 +373,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
             onClick={() => setShowPredefinedRoutes(!showPredefinedRoutes)}
             className={`w-full text-xs font-bold py-2.5 px-4 rounded-xl border flex items-center justify-between transition-colors ${
               isSunMode
-                ? 'bg-stone-100 border-stone-300 text-stone-700 hover:bg-stone-200'
+                ? 'bg-stone-100 border-stone-300 text-[#111827] hover:bg-stone-200'
                 : 'bg-stone-900 border-stone-800 text-stone-300 hover:bg-stone-800'
             }`}
           >
@@ -376,7 +381,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
               <Route className="w-4 h-4 text-amber-500" />
               <span>O ver rutas clásicas predeterminadas ({manifest.routes.length})</span>
             </div>
-            <span className="text-[11px] text-amber-500 underline">
+            <span className="text-[11px] text-amber-500 underline font-extrabold">
               {showPredefinedRoutes ? 'Ocultar' : 'Explorar'}
             </span>
           </button>
@@ -394,14 +399,14 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
                 >
                   <div>
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-bold">{route.name}</span>
-                      <span className="text-[10px] font-mono text-amber-500 bg-amber-500/10 px-1.5 py-0.5 rounded">
+                      <span className="text-xs font-bold text-[#111827] dark:text-stone-100">{route.name}</span>
+                      <span className="text-[10px] font-mono text-amber-500 bg-amber-500/10 px-1.5 py-0.5 rounded font-bold">
                         {route.duration}
                       </span>
                     </div>
                     <p
                       className={`text-[11px] mt-0.5 ${
-                        isSunMode ? 'text-stone-600' : 'text-stone-400'
+                        isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
                       }`}
                     >
                       {route.description}
