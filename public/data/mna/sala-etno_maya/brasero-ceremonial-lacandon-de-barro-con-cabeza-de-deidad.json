@@ -1,64 +1,59 @@
 {
+  "piece_id": "brasero-ceremonial-lacandon-de-barro-con-cabeza-de-deidad",
+  "room_id": "sala-etno_maya",
+  "piso": "PB",
+  "orden_sugerido": 7,
+  "titulo": "Brasero Ceremonial Lacandón de Barro con Cabeza de Deidad",
+  "frase_gancho": "",
+  "puente_narrativo": "",
+  "guion_corto": "",
+  "guion_largo": "Modelado rústicamente en arcilla cruda y cocido a fuego abierto, este incensario de ofrenda presenta en el borde una cabeza humana estilizada que personifica a una deidad tutelar de la selva (K'ak'och o Sukunkyum). Los ancianos de Lacanjá depositaban en su interior resina de copal aromatizada y gotas de fermento de balché durante ceremonias nocturnas en sus casas de oración comunales para calmar las enfermedades y tormentas de la selva.",
+  "retos_observacion": [],
+  "especificaciones": {},
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
+  "is_free": false,
   "id": "brasero-ceremonial-lacandon-de-barro-con-cabeza-de-deidad",
   "poi_id": "brasero-ceremonial-lacandon-de-barro-con-cabeza-de-deidad",
-  "room_id": "sala-etno_maya",
-  "site_id": "MNA",
+  "is_premium": true,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-etno_maya",
     "room_name": "Sala Pueblos Mayas",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 7,
-  "is_premium": true,
-  "estimated_minutes": 3,
-  "tags": [
-    "selva",
-    "sahumerios",
-    "dioses_antiguos"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "",
+  "observation_challenges": [],
+  "did_you_know": [],
+  "specs": {},
+  "faq": [],
   "identification": {
     "title": "Brasero Ceremonial Lacandón de Barro con Cabeza de Deidad",
     "culture_period": "Mesoamérica",
     "room_zone": "Sala Pueblos Mayas, Museo Nacional de Antropología",
     "tags": [
-      "selva",
-      "sahumerios",
-      "dioses_antiguos"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
   },
   "narrative": {
-    "one_liner": "Modelado rústicamente en arcilla cruda y cocido a fuego abierto, este incensario de ofrenda presenta en el borde una cabeza humana estilizada que personifica a una deidad tutelar de la selva (K'ak'och o Sukunkyum).",
-    "short_desc": "Modelado rústicamente en arcilla cruda y cocido a fuego abierto, este incensario de ofrenda presenta en el borde una cabeza humana estilizada que personifica a una deidad tutelar de la selva (K'ak'och o Sukunkyum).",
+    "one_liner": "",
+    "short_desc": "",
     "deep_desc": "Modelado rústicamente en arcilla cruda y cocido a fuego abierto, este incensario de ofrenda presenta en el borde una cabeza humana estilizada que personifica a una deidad tutelar de la selva (K'ak'och o Sukunkyum). Los ancianos de Lacanjá depositaban en su interior resina de copal aromatizada y gotas de fermento de balché durante ceremonias nocturnas en sus casas de oración comunales para calmar las enfermedades y tormentas de la selva."
   },
   "audioguide": {
     "audio_script": "Modelado rústicamente en arcilla cruda y cocido a fuego abierto, este incensario de ofrenda presenta en el borde una cabeza humana estilizada que personifica a una deidad tutelar de la selva (K'ak'och o Sukunkyum). Los ancianos de Lacanjá depositaban en su interior resina de copal aromatizada y gotas de fermento de balché durante ceremonias nocturnas en sus casas de oración comunales para calmar las enfermedades y tormentas de la selva.",
     "audio_file_url": ""
-  },
-  "summary_30s": "Modelado rústicamente en arcilla cruda y cocido a fuego abierto, este incensario de ofrenda presenta en el borde una cabeza humana estilizada que personifica a una deidad tutelar de la selva (K'ak'och o Sukunkyum).",
-  "observation_challenges": [],
-  "did_you_know": [
-    "Cada familia lacandona renovaba periódicamente sus braseros sagrados rompiendo ceremonialmente los viejos para enterrarlos en cuevas apartadas."
-  ],
-  "specs": {
-    "material": "",
-    "provenance": "",
-    "weight": "",
-    "age": ""
-  },
-  "faq": [],
-  "visual_challenge": [],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "Cada familia lacandona renovaba periódicamente sus braseros sagrados rompiendo ceremonialmente los viejos para enterrarlos en cuevas apartadas."
-    }
-  ],
-  "faqs": []
+  }
 }

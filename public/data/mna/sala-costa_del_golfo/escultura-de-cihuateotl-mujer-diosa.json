@@ -1,64 +1,90 @@
 {
+  "piece_id": "escultura-de-cihuateotl-mujer-diosa",
+  "room_id": "sala-costa_del_golfo",
+  "piso": "PB",
+  "orden_sugerido": 10,
+  "titulo": "Escultura de Cihuatéotl (Mujer Diosa)",
+  "frase_gancho": "Guerrera sagrada del parto que escolta al Sol poniente hacia el reino de las sombras.",
+  "puente_narrativo": "",
+  "guion_corto": "Escultura de terracota a tamaño natural que rinde homenaje a las mujeres fallecidas en el parto. Divinizadas como guerreras, estas figuras de mirada fiera guiaban al sol en su descenso diario al inframundo.",
+  "guion_largo": "Procedente del santuario totonaco de El Zapotal, esta imponente escultura de terracota a tamaño natural representa a una mujer deificada fallecida durante el parto (considerado el equivalente femenino a morir en combate). Lleva el torso desnudo, falda ceñida con cinturón de serpientes y un tocado ceremonial; con los ojos desorbitados y garras extendidas, acompañaba al sol en su tránsito diario desde el cenit hacia el inframundo.",
+  "retos_observacion": [
+    "Detalle 1: Observa la mirada desencajada y las manos transformadas en garras extendidas que reflejan su trance divino",
+    "Detalle 2: Busca el cinturón de serpientes entrelazadas que ciñe su falda ceremonial"
+  ],
+  "especificaciones": {
+    "Material": "Terracota (barro modelado a mano y cocido)",
+    "Procedencia": "El Zapotal, Veracruz, México",
+    "Dimensiones": "Alto: 1.45 m aprox. (tamaño natural)",
+    "Periodo": "Aproximadamente 1,200 a 1,400 años de antigüedad"
+  },
+  "faq_mito": {
+    "pregunta": "¿Por qué se representa a la diosa con garras y rostro temible?",
+    "respuesta": "Al fallecer durante el parto, la mujer se transformaba en una divinidad fiera y poderosa (Cihuatéotl), capaz de escoltar al Sol en su peligroso recorrido nocturno por el inframundo y defenderlo de las fuerzas de la oscuridad."
+  },
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
+  "is_free": false,
   "id": "escultura-de-cihuateotl-mujer-diosa",
   "poi_id": "escultura-de-cihuateotl-mujer-diosa",
-  "room_id": "sala-costa_del_golfo",
-  "site_id": "MNA",
+  "is_premium": true,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-costa_del_golfo",
     "room_name": "Sala Costa del Golfo",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 10,
-  "is_premium": true,
-  "estimated_minutes": 3,
-  "tags": [
-    "mujeres",
-    "parto",
-    "inframundo"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "Escultura de terracota a tamaño natural que rinde homenaje a las mujeres fallecidas en el parto. Divinizadas como guerreras, estas figuras de mirada fiera guiaban al sol en su descenso diario al inframundo.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Detalle 1: Observa la mirada desencajada y las manos transformadas en garras extendidas que reflejan su trance divino"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Detalle 2: Busca el cinturón de serpientes entrelazadas que ciñe su falda ceremonial"
+    }
+  ],
+  "did_you_know": [],
+  "specs": {
+    "Material": "Terracota (barro modelado a mano y cocido)",
+    "Procedencia": "El Zapotal, Veracruz, México",
+    "Dimensiones": "Alto: 1.45 m aprox. (tamaño natural)",
+    "Periodo": "Aproximadamente 1,200 a 1,400 años de antigüedad"
+  },
+  "faq": [
+    {
+      "question": "¿Por qué se representa a la diosa con garras y rostro temible?",
+      "answer": "Al fallecer durante el parto, la mujer se transformaba en una divinidad fiera y poderosa (Cihuatéotl), capaz de escoltar al Sol en su peligroso recorrido nocturno por el inframundo y defenderlo de las fuerzas de la oscuridad."
+    }
+  ],
   "identification": {
     "title": "Escultura de Cihuatéotl (Mujer Diosa)",
-    "culture_period": "Mesoamérica",
+    "culture_period": "Aproximadamente 1,200 a 1,400 años de antigüedad",
     "room_zone": "Sala Costa del Golfo, Museo Nacional de Antropología",
     "tags": [
-      "mujeres",
-      "parto",
-      "inframundo"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
   },
   "narrative": {
-    "one_liner": "Procedente del santuario totonaco de El Zapotal, esta imponente escultura de terracota a tamaño natural representa a una mujer deificada fallecida durante el parto (considerado el equivalente femenino a morir en combate).",
-    "short_desc": "Procedente del santuario totonaco de El Zapotal, esta imponente escultura de terracota a tamaño natural representa a una mujer deificada fallecida durante el parto (considerado el equivalente femenino a morir en combate).",
+    "one_liner": "Guerrera sagrada del parto que escolta al Sol poniente hacia el reino de las sombras.",
+    "short_desc": "Escultura de terracota a tamaño natural que rinde homenaje a las mujeres fallecidas en el parto. Divinizadas como guerreras, estas figuras de mirada fiera guiaban al sol en su descenso diario al inframundo.",
     "deep_desc": "Procedente del santuario totonaco de El Zapotal, esta imponente escultura de terracota a tamaño natural representa a una mujer deificada fallecida durante el parto (considerado el equivalente femenino a morir en combate). Lleva el torso desnudo, falda ceñida con cinturón de serpientes y un tocado ceremonial; con los ojos desorbitados y garras extendidas, acompañaba al sol en su tránsito diario desde el cenit hacia el inframundo."
   },
   "audioguide": {
     "audio_script": "Procedente del santuario totonaco de El Zapotal, esta imponente escultura de terracota a tamaño natural representa a una mujer deificada fallecida durante el parto (considerado el equivalente femenino a morir en combate). Lleva el torso desnudo, falda ceñida con cinturón de serpientes y un tocado ceremonial; con los ojos desorbitados y garras extendidas, acompañaba al sol en su tránsito diario desde el cenit hacia el inframundo.",
     "audio_file_url": ""
-  },
-  "summary_30s": "Procedente del santuario totonaco de El Zapotal, esta imponente escultura de terracota a tamaño natural representa a una mujer deificada fallecida durante el parto (considerado el equivalente femenino a morir en combate).",
-  "observation_challenges": [],
-  "did_you_know": [
-    "Fue descubierta junto a un santuario fúnebre intacto modelado completamente en barro que incluía un altar dedicado al dios de la muerte Mictlantecuhtli."
-  ],
-  "specs": {
-    "material": "",
-    "provenance": "",
-    "weight": "",
-    "age": ""
-  },
-  "faq": [],
-  "visual_challenge": [],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "Fue descubierta junto a un santuario fúnebre intacto modelado completamente en barro que incluía un altar dedicado al dios de la muerte Mictlantecuhtli."
-    }
-  ],
-  "faqs": []
+  }
 }

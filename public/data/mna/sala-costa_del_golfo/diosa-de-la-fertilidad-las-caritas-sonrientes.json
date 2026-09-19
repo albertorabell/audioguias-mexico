@@ -1,34 +1,80 @@
 {
+  "piece_id": "diosa-de-la-fertilidad-las-caritas-sonrientes",
+  "room_id": "sala-costa_del_golfo",
+  "piso": "PB",
+  "orden_sugerido": 5,
+  "titulo": "Diosa de la Fertilidad (Las Caritas Sonrientes)",
+  "frase_gancho": "Una sonrisa eterna esculpida en barro para celebrar el gozo ritual y la regeneración de la vida.",
+  "puente_narrativo": "",
+  "guion_corto": "Esta singular escultura rompe la solemnidad mesoamericana con una franca sonrisa y dientes limados. Asociada a rituales de fertilidad, música y trance, celebra la abundancia y la renovación agrícola en Veracruz.",
+  "guion_largo": "Procedente del sitio totonaco de Remojadas en el centro de Veracruz, esta figura de arcilla cocida muestra una amplia sonrisa con dientes limados, algo sumamente raro en el arte mesoamericano donde predomina la solemnidad hierática. Con un tocado decorado con grecas entrelazadas y sonajas en las manos, formaba parte de rituales asociados a la música, la fertilidad de la tierra, la danza y el consumo ceremonial de bebidas alcohólicas o plantas sagradas.",
+  "retos_observacion": [
+    "Detalle 1: Observa los dientes intencionalmente limados que se revelan en la amplia sonrisa",
+    "Detalle 2: Busca las grecas entrelazadas en su tocado y las sonajas ceremoniales sujetas en sus manos"
+  ],
+  "especificaciones": {
+    "Material": "Arcilla cocida (terracota) moldeada y modelada a mano",
+    "Procedencia": "Sitio arqueológico de Remojadas, centro de Veracruz, México",
+    "Dimensiones": "48 cm x 28 cm x 15 cm / 2.5 kg (estimados)",
+    "Periodo": "Aproximadamente 1,200 - 1,400 años de antigüedad"
+  },
+  "faq_mito": {
+    "pregunta": "¿Por qué esta escultura sonríe si el arte prehispánico suele ser muy serio?",
+    "respuesta": "La sonrisa no refleja simple alegría cotidiana, sino un estado de trance, júbilo sagrado o éxtasis ritual inducido por la música, la danza y el consumo ceremonial de bebidas o plantas sagradas en honor a la fertilidad."
+  },
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
+  "is_free": false,
   "id": "diosa-de-la-fertilidad-las-caritas-sonrientes",
   "poi_id": "diosa-de-la-fertilidad-las-caritas-sonrientes",
-  "room_id": "sala-costa_del_golfo",
-  "site_id": "MNA",
+  "is_premium": true,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-costa_del_golfo",
     "room_name": "Sala Costa del Golfo",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 5,
-  "is_premium": true,
-  "estimated_minutes": 3,
-  "tags": [
-    "alegria",
-    "rituales",
-    "ceramica"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "Esta singular escultura rompe la solemnidad mesoamericana con una franca sonrisa y dientes limados. Asociada a rituales de fertilidad, música y trance, celebra la abundancia y la renovación agrícola en Veracruz.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Detalle 1: Observa los dientes intencionalmente limados que se revelan en la amplia sonrisa"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Detalle 2: Busca las grecas entrelazadas en su tocado y las sonajas ceremoniales sujetas en sus manos"
+    }
+  ],
+  "did_you_know": [],
+  "specs": {
+    "Material": "Arcilla cocida (terracota) moldeada y modelada a mano",
+    "Procedencia": "Sitio arqueológico de Remojadas, centro de Veracruz, México",
+    "Dimensiones": "48 cm x 28 cm x 15 cm / 2.5 kg (estimados)",
+    "Periodo": "Aproximadamente 1,200 - 1,400 años de antigüedad"
+  },
+  "faq": [
+    {
+      "question": "¿Por qué esta escultura sonríe si el arte prehispánico suele ser muy serio?",
+      "answer": "La sonrisa no refleja simple alegría cotidiana, sino un estado de trance, júbilo sagrado o éxtasis ritual inducido por la música, la danza y el consumo ceremonial de bebidas o plantas sagradas en honor a la fertilidad."
+    }
+  ],
   "identification": {
     "title": "Diosa de la Fertilidad (Las Caritas Sonrientes)",
-    "culture_period": "Cultura Remojadas / Totonaca - Clásico Tardío (600–900 d.C.)",
+    "culture_period": "Aproximadamente 1,200 - 1,400 años de antigüedad",
     "room_zone": "Sala Costa del Golfo, Museo Nacional de Antropología",
     "tags": [
-      "alegria",
-      "rituales",
-      "ceramica"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
   },
@@ -40,60 +86,5 @@
   "audioguide": {
     "audio_script": "Procedente del sitio totonaco de Remojadas en el centro de Veracruz, esta figura de arcilla cocida muestra una amplia sonrisa con dientes limados, algo sumamente raro en el arte mesoamericano donde predomina la solemnidad hierática. Con un tocado decorado con grecas entrelazadas y sonajas en las manos, formaba parte de rituales asociados a la música, la fertilidad de la tierra, la danza y el consumo ceremonial de bebidas alcohólicas o plantas sagradas.",
     "audio_file_url": ""
-  },
-  "summary_30s": "Esta singular escultura rompe la solemnidad mesoamericana con una franca sonrisa y dientes limados. Asociada a rituales de fertilidad, música y trance, celebra la abundancia y la renovación agrícola en Veracruz.",
-  "observation_challenges": [
-    {
-      "titulo": "Detalle 1",
-      "descripcion": "Observa los dientes intencionalmente limados que se revelan en la amplia sonrisa"
-    },
-    {
-      "titulo": "Detalle 2",
-      "descripcion": "Busca las grecas entrelazadas en su tocado y las sonajas ceremoniales sujetas en sus manos"
-    }
-  ],
-  "did_you_know": [
-    "Muchas de estas figuras fueron depositadas en entierros ceremoniales deliberadamente rotas para liberar la energía espiritual del objeto tras el rito fúnebre.",
-    "La gesticulación sonriente es un rasgo casi exclusivo de la Costa del Golfo, rompiendo con el hieratismo y la rigidez característicos del resto del arte prehispánico."
-  ],
-  "specs": {
-    "material": "Arcilla cocida (terracota) moldeada y modelada a mano",
-    "provenance": "Sitio arqueológico de Remojadas, centro de Veracruz, México",
-    "weight": "48 cm x 28 cm x 15 cm / 2.5 kg (estimados)",
-    "age": "Aproximadamente 1,200 - 1,400 años de antigüedad"
-  },
-  "faq": [
-    {
-      "question": "¿Por qué esta escultura sonríe si el arte prehispánico suele ser muy serio?",
-      "answer": "La sonrisa no refleja simple alegría cotidiana, sino un estado de trance, júbilo sagrado o éxtasis ritual inducido por la música, la danza y el consumo ceremonial de bebidas o plantas sagradas en honor a la fertilidad."
-    }
-  ],
-  "visual_challenge": [
-    {
-      "id": "ch-1",
-      "title": "Detalle 1",
-      "clue": "Observa los dientes intencionalmente limados que se revelan en la amplia sonrisa"
-    },
-    {
-      "id": "ch-2",
-      "title": "Detalle 2",
-      "clue": "Busca las grecas entrelazadas en su tocado y las sonajas ceremoniales sujetas en sus manos"
-    }
-  ],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "Muchas de estas figuras fueron depositadas en entierros ceremoniales deliberadamente rotas para liberar la energía espiritual del objeto tras el rito fúnebre."
-    },
-    {
-      "id": "cur-2",
-      "fact": "La gesticulación sonriente es un rasgo casi exclusivo de la Costa del Golfo, rompiendo con el hieratismo y la rigidez característicos del resto del arte prehispánico."
-    }
-  ],
-  "faqs": [
-    {
-      "question": "¿Por qué esta escultura sonríe si el arte prehispánico suele ser muy serio?",
-      "answer": "La sonrisa no refleja simple alegría cotidiana, sino un estado de trance, júbilo sagrado o éxtasis ritual inducido por la música, la danza y el consumo ceremonial de bebidas o plantas sagradas en honor a la fertilidad."
-    }
-  ]
+  }
 }

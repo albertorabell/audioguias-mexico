@@ -1,34 +1,80 @@
 {
+  "piece_id": "monolito-del-monumento-19-de-la-venta",
+  "room_id": "sala-costa_del_golfo",
+  "piso": "PB",
+  "orden_sugerido": 9,
+  "titulo": "Monolito del Monumento 19 de La Venta",
+  "frase_gancho": "El refugio primigenio donde la piel de la cascabel se vistió con plumas celestiales.",
+  "puente_narrativo": "",
+  "guion_corto": "Solemne relieve olmeca en basalto (~900 a.C.) que exhibe la representación más antigua conocida de la Serpiente Emplumada en Mesoamérica, envolviendo a un chamán o gobernante provisto de yelmo e incienso.",
+  "guion_largo": "Este relieve en bloque de basalto es histórico: es la representación más antigua conocida de la Serpiente Emplumada en toda Mesoamérica, datada cerca del año 900 a.C. En la escena, un sacerdote o chamán de linaje gobernante aparece sentado llevando una bolsa de incienso y un tocado de yelmo, completamente envuelto y protegido por el cuerpo ondeante de una enorme serpiente de cascabel provista de cresta plumaria.",
+  "retos_observacion": [
+    "Detalle 1: Observa la mano del personaje sosteniendo la bolsa ritual de incienso",
+    "Detalle 2: Busca la cresta de plumas situada sobre la cabeza del reptil"
+  ],
+  "especificaciones": {
+    "Material": "Basalto",
+    "Procedencia": "La Venta, Tabasco, México",
+    "Dimensiones": "95 cm de alto × 88 cm de ancho; peso estimado de 600 kg",
+    "Periodo": "Cerca del año 900 a.C."
+  },
+  "faq_mito": {
+    "pregunta": "¿Qué representa la figura humana que aparece rodeada por la serpiente?",
+    "respuesta": "Representa a un gobernante o chamán portando atuendos rituales, cuya autoridad y poder espiritual son legitimados al mostrarse bajo la protección directa de la divinidad ofidia."
+  },
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Cat%C3%A1logo_de_la_Secci%C3%B3n_de_M%C3%A9xico_-_IA_catbalogosecc02mexirich.djvu",
+  "is_free": false,
   "id": "monolito-del-monumento-19-de-la-venta",
   "poi_id": "monolito-del-monumento-19-de-la-venta",
-  "room_id": "sala-costa_del_golfo",
-  "site_id": "MNA",
+  "is_premium": true,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-costa_del_golfo",
     "room_name": "Sala Costa del Golfo",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 9,
-  "is_premium": true,
-  "estimated_minutes": 3,
-  "tags": [
-    "serpiente_emplumada",
-    "mito",
-    "origen"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "Solemne relieve olmeca en basalto (~900 a.C.) que exhibe la representación más antigua conocida de la Serpiente Emplumada en Mesoamérica, envolviendo a un chamán o gobernante provisto de yelmo e incienso.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Detalle 1: Observa la mano del personaje sosteniendo la bolsa ritual de incienso"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Detalle 2: Busca la cresta de plumas situada sobre la cabeza del reptil"
+    }
+  ],
+  "did_you_know": [],
+  "specs": {
+    "Material": "Basalto",
+    "Procedencia": "La Venta, Tabasco, México",
+    "Dimensiones": "95 cm de alto × 88 cm de ancho; peso estimado de 600 kg",
+    "Periodo": "Cerca del año 900 a.C."
+  },
+  "faq": [
+    {
+      "question": "¿Qué representa la figura humana que aparece rodeada por la serpiente?",
+      "answer": "Representa a un gobernante o chamán portando atuendos rituales, cuya autoridad y poder espiritual son legitimados al mostrarse bajo la protección directa de la divinidad ofidia."
+    }
+  ],
   "identification": {
     "title": "Monolito del Monumento 19 de La Venta",
-    "culture_period": "Olmeca / Preclásico Medio (1200–400 a.C., ca. 900 a.C.)",
+    "culture_period": "Cerca del año 900 a.C.",
     "room_zone": "Sala Costa del Golfo, Museo Nacional de Antropología",
     "tags": [
-      "serpiente_emplumada",
-      "mito",
-      "origen"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Cat%C3%A1logo_de_la_Secci%C3%B3n_de_M%C3%A9xico_-_IA_catbalogosecc02mexirich.djvu"
   },
@@ -40,60 +86,5 @@
   "audioguide": {
     "audio_script": "Este relieve en bloque de basalto es histórico: es la representación más antigua conocida de la Serpiente Emplumada en toda Mesoamérica, datada cerca del año 900 a.C. En la escena, un sacerdote o chamán de linaje gobernante aparece sentado llevando una bolsa de incienso y un tocado de yelmo, completamente envuelto y protegido por el cuerpo ondeante de una enorme serpiente de cascabel provista de cresta plumaria.",
     "audio_file_url": ""
-  },
-  "summary_30s": "Solemne relieve olmeca en basalto (~900 a.C.) que exhibe la representación más antigua conocida de la Serpiente Emplumada en Mesoamérica, envolviendo a un chamán o gobernante provisto de yelmo e incienso.",
-  "observation_challenges": [
-    {
-      "titulo": "Detalle 1",
-      "descripcion": "Observa la mano del personaje sosteniendo la bolsa ritual de incienso"
-    },
-    {
-      "titulo": "Detalle 2",
-      "descripcion": "Busca la cresta de plumas situada sobre la cabeza del reptil"
-    }
-  ],
-  "did_you_know": [
-    "Anticipa por casi mil años el culto a Quetzalcóatl que siglos más tarde florecería en Teotihuacán, Tula y Tenochtitlan.",
-    "Es la primera manifestación iconográfica en Mesoamérica que une la letalidad terrenal de la cascabel con el ámbito celeste de las aves."
-  ],
-  "specs": {
-    "material": "Basalto",
-    "provenance": "La Venta, Tabasco, México",
-    "weight": "95 cm de alto × 88 cm de ancho; peso estimado de 600 kg",
-    "age": "Cerca del año 900 a.C."
-  },
-  "faq": [
-    {
-      "question": "¿Qué representa la figura humana que aparece rodeada por la serpiente?",
-      "answer": "Representa a un gobernante o chamán portando atuendos rituales, cuya autoridad y poder espiritual son legitimados al mostrarse bajo la protección directa de la divinidad ofidia."
-    }
-  ],
-  "visual_challenge": [
-    {
-      "id": "ch-1",
-      "title": "Detalle 1",
-      "clue": "Observa la mano del personaje sosteniendo la bolsa ritual de incienso"
-    },
-    {
-      "id": "ch-2",
-      "title": "Detalle 2",
-      "clue": "Busca la cresta de plumas situada sobre la cabeza del reptil"
-    }
-  ],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "Anticipa por casi mil años el culto a Quetzalcóatl que siglos más tarde florecería en Teotihuacán, Tula y Tenochtitlan."
-    },
-    {
-      "id": "cur-2",
-      "fact": "Es la primera manifestación iconográfica en Mesoamérica que une la letalidad terrenal de la cascabel con el ámbito celeste de las aves."
-    }
-  ],
-  "faqs": [
-    {
-      "question": "¿Qué representa la figura humana que aparece rodeada por la serpiente?",
-      "answer": "Representa a un gobernante o chamán portando atuendos rituales, cuya autoridad y poder espiritual son legitimados al mostrarse bajo la protección directa de la divinidad ofidia."
-    }
-  ]
+  }
 }

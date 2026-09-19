@@ -1,64 +1,59 @@
 {
+  "piece_id": "huipil-ceremonial-de-zinacantan-con-motivos-de-aves",
+  "room_id": "sala-etno_maya",
+  "piso": "PB",
+  "orden_sugerido": 8,
+  "titulo": "Huipil Ceremonial de Zinacantán con Motivos de Aves",
+  "frase_gancho": "",
+  "puente_narrativo": "",
+  "guion_corto": "",
+  "guion_largo": "Procedente del pueblo tsotsil de Zinacantán ('lugar de murciélagos'), este huipil femenino ilustra la fascinante evolución contemporánea del textil maya. Si bien a mediados del siglo XX predominaba el algodón blanco con sutiles bordados rojos, en las últimas décadas las artesanas zinacantecas transformaron su indumentaria en una fiesta botánica de terciopelo morado y azul oscuro tapizado con flores tridimensionales y aves silvestres bordadas a máquina y a mano, reflejando su economía basada en el cultivo comercial de flores de invernadero.",
+  "retos_observacion": [],
+  "especificaciones": {},
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
+  "is_free": false,
   "id": "huipil-ceremonial-de-zinacantan-con-motivos-de-aves",
   "poi_id": "huipil-ceremonial-de-zinacantan-con-motivos-de-aves",
-  "room_id": "sala-etno_maya",
-  "site_id": "MNA",
+  "is_premium": true,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-etno_maya",
     "room_name": "Sala Pueblos Mayas",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 8,
-  "is_premium": true,
-  "estimated_minutes": 3,
-  "tags": [
-    "flores",
-    "bordado_moderno",
-    "tsotsiles"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "",
+  "observation_challenges": [],
+  "did_you_know": [],
+  "specs": {},
+  "faq": [],
   "identification": {
     "title": "Huipil Ceremonial de Zinacantán con Motivos de Aves",
     "culture_period": "Mesoamérica",
     "room_zone": "Sala Pueblos Mayas, Museo Nacional de Antropología",
     "tags": [
-      "flores",
-      "bordado_moderno",
-      "tsotsiles"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
   },
   "narrative": {
-    "one_liner": "Procedente del pueblo tsotsil de Zinacantán ('lugar de murciélagos'), este huipil femenino ilustra la fascinante evolución contemporánea del textil maya.",
-    "short_desc": "Procedente del pueblo tsotsil de Zinacantán ('lugar de murciélagos'), este huipil femenino ilustra la fascinante evolución contemporánea del textil maya.",
+    "one_liner": "",
+    "short_desc": "",
     "deep_desc": "Procedente del pueblo tsotsil de Zinacantán ('lugar de murciélagos'), este huipil femenino ilustra la fascinante evolución contemporánea del textil maya. Si bien a mediados del siglo XX predominaba el algodón blanco con sutiles bordados rojos, en las últimas décadas las artesanas zinacantecas transformaron su indumentaria en una fiesta botánica de terciopelo morado y azul oscuro tapizado con flores tridimensionales y aves silvestres bordadas a máquina y a mano, reflejando su economía basada en el cultivo comercial de flores de invernadero."
   },
   "audioguide": {
     "audio_script": "Procedente del pueblo tsotsil de Zinacantán ('lugar de murciélagos'), este huipil femenino ilustra la fascinante evolución contemporánea del textil maya. Si bien a mediados del siglo XX predominaba el algodón blanco con sutiles bordados rojos, en las últimas décadas las artesanas zinacantecas transformaron su indumentaria en una fiesta botánica de terciopelo morado y azul oscuro tapizado con flores tridimensionales y aves silvestres bordadas a máquina y a mano, reflejando su economía basada en el cultivo comercial de flores de invernadero.",
     "audio_file_url": ""
-  },
-  "summary_30s": "Procedente del pueblo tsotsil de Zinacantán ('lugar de murciélagos'), este huipil femenino ilustra la fascinante evolución contemporánea del textil maya.",
-  "observation_challenges": [],
-  "did_you_know": [
-    "Zinacantán es uno de los mayores centros productores y exportadores de flores ornamentales en el sureste mexicano."
-  ],
-  "specs": {
-    "material": "",
-    "provenance": "",
-    "weight": "",
-    "age": ""
-  },
-  "faq": [],
-  "visual_challenge": [],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "Zinacantán es uno de los mayores centros productores y exportadores de flores ornamentales en el sureste mexicano."
-    }
-  ],
-  "faqs": []
+  }
 }

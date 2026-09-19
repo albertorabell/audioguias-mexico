@@ -1,10 +1,12 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import {
   Maximize2,
   Lock,
   Sparkles,
   Clock,
-  Check,
+  Play,
+  Square,
+  Volume2,
   ChevronDown,
   Layers,
   HelpCircle,
@@ -12,16 +14,18 @@ import {
   Bookmark,
   MapPin,
   Compass,
-  ChevronRight
+  ChevronRight,
+  Headphones,
+  Zap,
 } from 'lucide-react';
-import { PieceData, ObservationChallengeItem, PieceSpecsObject, SpecItem, RouteStop } from '../types';
-import { AudioPlayer } from './AudioPlayer';
+import { Piece, RouteStop, SpecItem, PieceSpecsObject } from '../types';
+import { PieceImage } from './PieceImage';
 import { ImageZoomModal } from './ImageZoomModal';
-import { SafeImage } from './SafeImage';
+import { ttsPlayer } from '../utils/ttsPlayer';
 import { useTheme } from '../utils/ThemeContext';
 
 interface PieceDetailProps {
-  piece: PieceData;
+  piece: Piece;
   hasPass: boolean;
   passPriceMxn: number;
   onOpenPaywall: () => void;
@@ -47,602 +51,573 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   onPreviousStop,
   onOpenMapModal,
 }) => {
-  const [activeTab, setActiveTab] = useState<'quick' | 'expert'>('quick');
-  const [isZoomOpen, setIsZoomOpen] = useState(false);
-  const [completedChallenges, setCompletedChallenges] = useState<Record<number, boolean>>({});
-  const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
   const { isSunMode } = useTheme();
 
-  const isLocked = piece.is_premium && !hasPass;
+  // 1. Estados de Audio y Modo de Locución (Exprés vs Inmersión)
+  const [audioMode, setAudioMode] = useState<'expres' | 'inmersion'>('expres');
+  const [isPlayingTTS, setIsPlayingTTS] = useState<boolean>(false);
 
-  // Normalización de Retos de Observación
-  const challenges: ObservationChallengeItem[] = useMemo(() => {
+  // 2. Modales e interacción
+  const [isZoomOpen, setIsZoomOpen] = useState(false);
+  const [isMitoOpen, setIsMitoOpen] = useState(true);
+  const [completedChallenges, setCompletedChallenges] = useState<Record<number, boolean>>({});
+
+  // Suscribirse a cambios en ttsPlayer
+  useEffect(() => {
+    const unsubscribe = ttsPlayer.subscribe((playing) => {
+      setIsPlayingTTS(playing);
+    });
+    return () => {
+      ttsPlayer.stop();
+      unsubscribe();
+    };
+  }, [piece.piece_id || piece.id]);
+
+  // Detener audio si cambia de pieza
+  useEffect(() => {
+    ttsPlayer.stop();
+    setIsPlayingTTS(false);
+  }, [piece.piece_id || piece.id]);
+
+  // Normalización de propiedades entre el nuevo esquema de 16 columnas y datos previos
+  const titulo = piece.titulo || piece.identification?.title || 'Pieza del Museo';
+  const fraseGancho = piece.frase_gancho || piece.narrative?.one_liner || '';
+  const puenteNarrativo = piece.puente_narrativo || '';
+  const guionCorto =
+    piece.guion_corto ||
+    piece.summary_30s ||
+    piece.narrative?.short_desc ||
+    fraseGancho ||
+    'Pieza arqueológica fundamental del acervo nacional.';
+  const guionLargo =
+    piece.guion_largo ||
+    piece.audioguide?.audio_script ||
+    piece.narrative?.deep_desc ||
+    guionCorto;
+
+  const imageFilename = piece.image_filename || piece.identification?.hero_image || '';
+  const isFree = piece.is_free !== undefined ? piece.is_free : !piece.is_premium;
+  const isLocked = !isFree && !hasPass;
+
+  // Normalización de Retos de Observación (lista de strings)
+  const retosList: string[] = useMemo(() => {
+    if (piece.retos_observacion && piece.retos_observacion.length > 0) {
+      return piece.retos_observacion;
+    }
     if (piece.observation_challenges && piece.observation_challenges.length > 0) {
-      return piece.observation_challenges;
+      return piece.observation_challenges.map((oc) =>
+        oc.titulo ? `${oc.titulo}: ${oc.descripcion}` : oc.descripcion
+      );
     }
     if (piece.visual_challenge && piece.visual_challenge.length > 0) {
-      return piece.visual_challenge.map((vc) => ({
-        titulo: vc.title,
-        descripcion: vc.clue,
-      }));
+      return piece.visual_challenge.map((vc) => `${vc.title}: ${vc.clue}`);
     }
     return [];
-  }, [piece.observation_challenges, piece.visual_challenge]);
+  }, [piece.retos_observacion, piece.observation_challenges, piece.visual_challenge]);
 
-  // Normalización de ¿Sabías qué?
-  const didYouKnowList: string[] = useMemo(() => {
-    if (piece.did_you_know && piece.did_you_know.length > 0) {
-      return piece.did_you_know;
+  // Normalización de Especificaciones (clave -> valor)
+  const especificacionesEntries = useMemo<[string, string][]>(() => {
+    if (piece.especificaciones && typeof piece.especificaciones === 'object') {
+      const entries: [string, string][] = Object.entries(piece.especificaciones)
+        .filter(([k, v]) => k && v !== undefined && v !== null && String(v).trim() !== '')
+        .map(([k, v]) => [k, String(v)]);
+      if (entries.length > 0) return entries;
     }
-    if (piece.curiosities && piece.curiosities.length > 0) {
-      return piece.curiosities.map((c) => c.fact);
+    if (piece.specs) {
+      if (Array.isArray(piece.specs)) {
+        return (piece.specs as SpecItem[])
+          .filter((s) => s.label && s.value)
+          .map((s) => [s.label, s.value]);
+      }
+      const sObj = piece.specs as PieceSpecsObject;
+      const res: [string, string][] = [];
+      if (sObj.material) res.push(['Material', sObj.material]);
+      if (sObj.provenance) res.push(['Procedencia', sObj.provenance]);
+      if (sObj.age) res.push(['Periodo / Datación', sObj.age]);
+      if (sObj.weight) res.push(['Dimensiones / Peso', sObj.weight]);
+      return res;
     }
     return [];
-  }, [piece.did_you_know, piece.curiosities]);
+  }, [piece.especificaciones, piece.specs]);
 
-  // Normalización de Ficha Técnica Arqueológica
-  const normalizedSpecs = useMemo(() => {
-    if (!piece.specs) return null;
-    if (Array.isArray(piece.specs)) {
-      const arraySpecs = piece.specs as SpecItem[];
+  // Normalización de FAQ / Mito
+  const faqMito = useMemo(() => {
+    if (piece.faq_mito && piece.faq_mito.pregunta && piece.faq_mito.respuesta) {
+      return piece.faq_mito;
+    }
+    if (piece.faq && piece.faq.length > 0) {
       return {
-        material: arraySpecs.find((s) => /material/i.test(s.label))?.value || '',
-        provenance: arraySpecs.find((s) => /procedencia|hallazgo|origen/i.test(s.label))?.value || '',
-        weight: arraySpecs.find((s) => /peso|dimensión|dimensiones/i.test(s.label))?.value || '',
-        age: arraySpecs.find((s) => /antigüedad|datación|periodo|fecha/i.test(s.label))?.value || '',
+        pregunta: piece.faq[0].question,
+        respuesta: piece.faq[0].answer,
       };
     }
-    return piece.specs as PieceSpecsObject;
-  }, [piece.specs]);
+    if (piece.faqs && piece.faqs.length > 0) {
+      return {
+        pregunta: piece.faqs[0].question,
+        respuesta: piece.faqs[0].answer,
+      };
+    }
+    return null;
+  }, [piece.faq_mito, piece.faq, piece.faqs]);
 
-  // Normalización de Preguntas Frecuentes
-  const faqList = useMemo(() => {
-    if (piece.faq && piece.faq.length > 0) return piece.faq;
-    if (piece.faqs && piece.faqs.length > 0) return piece.faqs;
-    return [];
-  }, [piece.faq, piece.faqs]);
+  // Manejador del botón Play / Stop con ttsPlayer
+  const handleToggleAudio = () => {
+    if (isLocked) {
+      onOpenPaywall();
+      return;
+    }
 
-  // Toggle de Retos de Observación
-  const toggleChallenge = (index: number) => {
+    if (isPlayingTTS) {
+      ttsPlayer.stop();
+      setIsPlayingTTS(false);
+    } else {
+      const scriptToSpeak = audioMode === 'expres' ? guionCorto : guionLargo;
+      ttsPlayer.play(scriptToSpeak, titulo, () => {
+        setIsPlayingTTS(false);
+      });
+      setIsPlayingTTS(true);
+    }
+  };
+
+  const toggleChallenge = (idx: number) => {
     setCompletedChallenges((prev) => ({
       ...prev,
-      [index]: !prev[index],
+      [idx]: !prev[idx],
     }));
   };
 
   const completedCount = Object.values(completedChallenges).filter(Boolean).length;
-  const summaryText = piece.summary_30s || piece.narrative.short_desc;
-  const deepText = piece.narrative.deep_desc || piece.audioguide.audio_script;
-
-  // Formato del badge de ubicación / parada
-  const stopBadgeText = useMemo(() => {
-    const sala = roomName || piece.identification.room_zone || 'Sala';
-    if (typeof currentStopIndex === 'number' && typeof totalStops === 'number' && totalStops > 0) {
-      return `Parada ${currentStopIndex + 1} de ${totalStops} · ${sala}`;
-    }
-    return sala;
-  }, [currentStopIndex, totalStops, roomName, piece.identification.room_zone]);
 
   return (
     <article
-      className={`pb-28 transition-colors duration-200 ${
-        isSunMode ? 'text-[#1C1917]' : 'text-[#F5F5F4]'
+      id="piece-detail-container"
+      className={`pb-32 transition-colors duration-200 ${
+        isSunMode ? 'text-[#111827]' : 'text-[#F5F5F4]'
       }`}
     >
-      {/* 1. HERO E IMAGEN PRINCIPAL */}
-      <section className="px-4 pt-3 pb-1">
+      {/* 1. HERO CON COMPONENTE PieceImage Y FALLBACK ELEGANTE */}
+      <section className="px-4 pt-3 pb-2">
         <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] rounded-2xl sm:rounded-3xl overflow-hidden bg-stone-200 dark:bg-stone-900 border border-stone-200/60 dark:border-stone-800/60 shadow-xs group">
-          <SafeImage
-            src={piece.identification.hero_image}
-            alt={piece.identification.title}
-            fallbackTitle={piece.identification.title}
-            fallbackSubtitle={piece.identification.culture_period}
-            loading="eager"
-            className="w-full h-full cursor-pointer"
-            imgClassName="w-full h-full object-cover object-center cursor-pointer transition-transform duration-500 group-hover:scale-[1.02]"
+          <PieceImage
+            filename={imageFilename}
+            alt={titulo}
             onClick={() => setIsZoomOpen(true)}
+            className="w-full h-full cursor-zoom-in"
           />
 
-          {/* Badge de estado flotante y sutil */}
-          <div className="absolute top-3.5 left-3.5 z-10 flex items-center gap-2 pointer-events-none">
-            <div className="flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-medium tracking-wide backdrop-blur-md bg-black/60 text-white border border-white/15 shadow-xs">
-              <span>{stopBadgeText}</span>
-            </div>
-
-            {piece.is_premium && (
-              <div className="flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-semibold tracking-wider uppercase backdrop-blur-md bg-[#C05638]/90 text-white border border-white/20 shadow-xs">
-                <Sparkles className="w-3 h-3" />
-                <span>Exclusivo</span>
-              </div>
-            )}
+          {/* Badge superior de parada o ubicación */}
+          <div className="absolute top-3 left-3 z-10">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-semibold tracking-wide bg-black/60 text-white backdrop-blur-md border border-white/10 shadow-xs">
+              <MapPin className="w-3 h-3 text-[#D96B47]" />
+              <span>
+                {roomName || piece.location?.room_name || piece.room_id || 'Sala Oficial'}
+              </span>
+            </span>
           </div>
 
-          {/* Botón flotante Zoom HD */}
+          {/* Botón de Zoom Pantalla Completa */}
           <button
             type="button"
-            id="btn-open-zoom-hero"
             onClick={() => setIsZoomOpen(true)}
-            aria-label="Abrir imagen en alta definición"
-            className="absolute bottom-3.5 right-3.5 z-10 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-medium tracking-wide backdrop-blur-md bg-black/60 text-white border border-white/20 hover:bg-black/75 active:scale-95 transition-all shadow-xs"
+            className="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-black/60 text-white backdrop-blur-md flex items-center justify-center hover:bg-black/80 transition-all active:scale-95 shadow-xs border border-white/10"
+            title="Ampliar imagen de alta resolución"
           >
-            <Maximize2 className="w-3.5 h-3.5 text-stone-200" />
-            <span>Zoom HD</span>
+            <Maximize2 className="w-4 h-4" />
           </button>
+
+          {/* Badge de contenido Premium / Gratuito */}
+          <div className="absolute bottom-3 right-3 z-10">
+            {isLocked ? (
+              <button
+                type="button"
+                onClick={onOpenPaywall}
+                className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-amber-500 text-stone-950 shadow-md transition-transform hover:scale-105 active:scale-95 cursor-pointer"
+              >
+                <Lock className="w-3.5 h-3.5" />
+                <span>Audio Premium</span>
+              </button>
+            ) : (
+              <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-600/90 text-white backdrop-blur-xs">
+                Acceso Incluido
+              </span>
+            )}
+          </div>
         </div>
       </section>
 
-      {/* 2. TIPOGRAFÍA Y METADATOS EDITORIALES */}
-      <section className="px-5 pt-4 pb-2">
-        {/* Título de la obra con tipografía refinada */}
-        <h1 className="font-serif text-2xl sm:text-3xl font-medium tracking-tight text-[#111827] dark:text-stone-100 leading-tight">
-          {piece.identification.title}
+      {/* 2. ENCABEZADO DE LA PIEZA: TÍTULO Y FRASE GANCHO */}
+      <section className="px-4 pt-3 pb-2">
+        <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif font-bold tracking-tight text-[#111827] dark:text-stone-100">
+          {titulo}
         </h1>
-
-        {/* Subtítulo sobrio: Cultura · Período */}
-        {piece.identification.culture_period && (
-          <p className="text-xs sm:text-sm font-sans tracking-wide text-[#4B5563] dark:text-stone-400 font-medium mt-1.5">
-            {piece.identification.culture_period}
+        {fraseGancho && (
+          <p className="mt-1.5 text-sm sm:text-base font-serif italic text-[#4B5563] dark:text-stone-300 leading-snug">
+            «{fraseGancho}»
           </p>
         )}
+      </section>
 
-        {/* 3. REPRODUCTOR DE AUDIO MINIMALISTA */}
-        <div className="mt-5 mb-5">
-          <AudioPlayer
-            script={piece.audioguide.audio_script || summaryText}
-            audioFileUrl={piece.audioguide.audio_file_url}
-            isPremium={piece.is_premium}
-            hasPass={hasPass}
-            passPriceMxn={passPriceMxn}
-            onUnlockClick={onOpenPaywall}
-            title={piece.identification.title}
-            album={roomName || piece.identification?.room_zone || 'Museo Nacional de Antropología'}
-            artworkUrl={piece.identification?.hero_image}
-            onNextTrack={onNextStop}
-            onPreviousTrack={onPreviousStop}
-          />
-        </div>
+      {/* 3. REPRODUCTOR DUAL DE AUDIO: EXPRÉS (60s) vs INMERSIÓN (2-3 min) */}
+      <section className="px-4 py-3">
+        <div
+          id="dual-audio-card"
+          className={`p-4 sm:p-5 rounded-2xl border transition-all ${
+            isSunMode
+              ? 'bg-stone-50/90 border-stone-200/80 shadow-xs'
+              : 'bg-stone-900/60 border-stone-800 shadow-inner'
+          }`}
+        >
+          {/* Selector de tipo de audio */}
+          <div className="flex items-center justify-between gap-2 mb-4">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400">
+              Modalidad de Locución
+            </span>
+            <div className="flex items-center gap-1 text-[11px] text-stone-500 dark:text-stone-400 font-medium">
+              <Volume2 className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
+              <span>Voz Neuronal IA</span>
+            </div>
+          </div>
 
-        {/* 4. SELECTOR DE PESTAÑAS: VISITA EN SALA vs. PARA EXPERTOS */}
-        <div className="mb-6">
           <div
-            className={`grid grid-cols-2 p-1 rounded-xl border mb-5 ${
+            className={`grid grid-cols-2 p-1 rounded-xl border mb-4 ${
               isSunMode
-                ? 'bg-stone-200/50 border-stone-200'
-                : 'bg-stone-900/60 border-stone-800'
+                ? 'bg-stone-200/60 border-stone-200'
+                : 'bg-stone-950/60 border-stone-800'
             }`}
           >
             <button
               type="button"
-              id="tab-quick-view"
-              onClick={() => setActiveTab('quick')}
-              className={`min-h-[44px] flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all ${
-                activeTab === 'quick'
+              onClick={() => {
+                if (isPlayingTTS) ttsPlayer.stop();
+                setAudioMode('expres');
+              }}
+              className={`py-2 px-3 rounded-lg text-xs font-semibold tracking-tight transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
+                audioMode === 'expres'
                   ? isSunMode
                     ? 'bg-white text-[#111827] shadow-xs'
                     : 'bg-stone-800 text-stone-100 shadow-xs'
-                  : 'text-[#4B5563] hover:text-[#111827] dark:text-stone-400 dark:hover:text-stone-200'
+                  : 'text-[#4B5563] dark:text-stone-400 hover:text-[#111827] dark:hover:text-stone-200'
               }`}
             >
-              <Eye className="w-4 h-4" />
-              <span>Visita en Sala</span>
+              <Zap className="w-3.5 h-3.5 text-amber-500" />
+              <span>⏱️ Audio Exprés (60s)</span>
             </button>
 
             <button
               type="button"
-              id="tab-expert-view"
-              onClick={() => setActiveTab('expert')}
-              className={`min-h-[44px] flex items-center justify-center gap-1.5 py-2 px-3 rounded-lg text-xs font-semibold tracking-wide transition-all relative ${
-                activeTab === 'expert'
+              onClick={() => {
+                if (isPlayingTTS) ttsPlayer.stop();
+                setAudioMode('inmersion');
+              }}
+              className={`py-2 px-3 rounded-lg text-xs font-semibold tracking-tight transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
+                audioMode === 'inmersion'
                   ? isSunMode
                     ? 'bg-white text-[#111827] shadow-xs'
                     : 'bg-stone-800 text-stone-100 shadow-xs'
-                  : 'text-[#4B5563] hover:text-[#111827] dark:text-stone-400 dark:hover:text-stone-200'
+                  : 'text-[#4B5563] dark:text-stone-400 hover:text-[#111827] dark:hover:text-stone-200'
               }`}
             >
-              <Bookmark className="w-4 h-4" />
-              <span>Para Expertos</span>
-              {isLocked && (
-                <Lock
-                  className={`w-3 h-3 ml-0.5 ${
-                    isSunMode ? 'text-[#C05638]' : 'text-[#D96B47]'
-                  }`}
-                />
+              <Headphones className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
+              <span>🎧 Inmersión (2-3 min)</span>
+            </button>
+          </div>
+
+          {/* Botón de reproducción interactivo y estado */}
+          <div className="flex items-center justify-between gap-3 pt-1">
+            <button
+              type="button"
+              onClick={handleToggleAudio}
+              className={`flex-1 py-3 px-4 rounded-xl font-semibold text-sm flex items-center justify-center gap-2.5 transition-all active:scale-98 shadow-sm cursor-pointer ${
+                isPlayingTTS
+                  ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 ring-2 ring-[#C05638]/40'
+                  : isSunMode
+                  ? 'bg-[#C05638] hover:bg-[#A84A30] text-white shadow-xs'
+                  : 'bg-[#D96B47] hover:bg-[#C05638] text-white shadow-xs'
+              }`}
+            >
+              {isPlayingTTS ? (
+                <>
+                  <Square className="w-4 h-4 fill-current animate-pulse text-red-400" />
+                  <span>Detener Narración</span>
+                </>
+              ) : (
+                <>
+                  <Play className="w-4 h-4 fill-current" />
+                  <span>
+                    {isLocked
+                      ? 'Desbloquear Audioguía'
+                      : audioMode === 'expres'
+                      ? 'Escuchar Guion Exprés (60s)'
+                      : 'Escuchar Recorrido Inmersivo'}
+                  </span>
+                </>
               )}
             </button>
           </div>
 
-          {/* ================= PESTAÑA 1: VISITA EN SALA ================= */}
-          {activeTab === 'quick' && (
-            <div className="space-y-6">
-              {/* Frase gancho como cita tipográfica elegante */}
-              {piece.narrative.one_liner && (
-                <blockquote className="pl-4 border-l-2 border-[#C05638] dark:border-[#D96B47] italic font-serif text-base sm:text-lg text-[#111827] dark:text-stone-200 leading-relaxed">
-                  “{piece.narrative.one_liner}”
-                </blockquote>
-              )}
-
-              {/* Resumen de 30 segundos */}
-              <div className="space-y-2">
-                <div className="flex items-center gap-2">
-                  <Clock className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
-                  <h3 className="text-xs font-semibold tracking-wider uppercase text-[#4B5563] dark:text-stone-400">
-                    En 30 segundos
-                  </h3>
-                </div>
-                <p className="text-sm leading-relaxed text-[#111827] dark:text-stone-200 font-sans font-normal">
-                  {summaryText}
-                </p>
-              </div>
-
-              {/* Retos de Observación interactivos */}
-              {challenges.length > 0 && (
-                <div className="space-y-3 pt-2">
-                  <div className="flex items-center justify-between">
-                    <h3 className="text-xs font-semibold tracking-wider uppercase text-stone-500 dark:text-stone-400">
-                      Reto de Observación
-                    </h3>
-                    <span className="text-[11px] font-mono text-stone-500 dark:text-stone-400">
-                      {completedCount} de {challenges.length} observados
-                    </span>
-                  </div>
-                  <p className="text-xs text-stone-500 dark:text-stone-400">
-                    Examina los detalles de la obra frente a ti:
-                  </p>
-
-                  <div className="space-y-2.5">
-                    {challenges.map((challenge, idx) => {
-                      const isFound = !!completedChallenges[idx];
-                      return (
-                        <div
-                          key={idx}
-                          onClick={() => toggleChallenge(idx)}
-                          role="checkbox"
-                          aria-checked={isFound}
-                          tabIndex={0}
-                          onKeyDown={(e) => {
-                            if (e.key === ' ' || e.key === 'Enter') {
-                              e.preventDefault();
-                              toggleChallenge(idx);
-                            }
-                          }}
-                          className={`p-3.5 rounded-xl border transition-all cursor-pointer flex items-start gap-3 select-none ${
-                            isFound
-                              ? isSunMode
-                                ? 'bg-stone-50 border-stone-300/80 text-stone-900'
-                                : 'bg-stone-900/60 border-stone-800 text-stone-100'
-                              : isSunMode
-                              ? 'bg-transparent border-stone-200 hover:border-stone-300'
-                              : 'bg-transparent border-stone-800/80 hover:border-stone-700'
-                          }`}
-                        >
-                          {/* Minimalist custom round checkbox */}
-                          <div
-                            className={`w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 transition-all ${
-                              isFound
-                                ? 'bg-[#C05638] dark:bg-[#D96B47] text-white shadow-xs'
-                                : 'border border-stone-300 dark:border-stone-600 bg-transparent'
-                            }`}
-                          >
-                            {isFound && <Check className="w-3 h-3 stroke-[2.5]" />}
-                          </div>
-
-                          <div className="min-w-0 flex-1">
-                            <h4
-                              className={`text-xs font-semibold tracking-tight ${
-                                isFound
-                                  ? 'text-stone-900 dark:text-stone-100'
-                                  : 'text-stone-800 dark:text-stone-200'
-                              }`}
-                            >
-                              {challenge.titulo}
-                            </h4>
-                            <p className="text-xs leading-relaxed text-stone-600 dark:text-stone-400 mt-0.5">
-                              {challenge.descripcion}
-                            </p>
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              )}
-
-              {/* Ubicación en el Museo / Sala */}
-              {(() => {
-                const caseNumber = piece?.location?.case_number || piece?.case_number || '';
-                const displayRoom =
-                  roomName ||
-                  piece?.location?.room_name ||
-                  piece?.location?.room_id ||
-                  piece?.room_id ||
-                  piece?.identification?.room_zone ||
-                  'Sala Mexica';
-
-                return (
-                  <div
-                    id="piece-room-location-card"
-                    className={`p-4 rounded-xl border flex items-center justify-between gap-3 ${
-                      isSunMode
-                        ? 'bg-stone-100/70 border-stone-200'
-                        : 'bg-stone-900/60 border-stone-800'
-                    }`}
-                  >
-                    <div className="flex items-center gap-3 min-w-0">
-                      <div
-                        className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 ${
-                          isSunMode
-                            ? 'bg-[#C05638]/10 text-[#C05638]'
-                            : 'bg-[#D96B47]/20 text-[#D96B47]'
-                        }`}
-                      >
-                        <MapPin className="w-5 h-5" />
-                      </div>
-                      <div className="min-w-0">
-                        <span className="text-[10px] uppercase font-bold tracking-wider text-stone-500 dark:text-stone-400 block">
-                          Ubicación en el Museo
-                        </span>
-                        <span className="text-sm font-semibold truncate block text-stone-900 dark:text-stone-100">
-                          {displayRoom}
-                        </span>
-                      </div>
-                    </div>
-
-                    {caseNumber ? (
-                      <div className="text-right shrink-0">
-                        <span className="text-[10px] uppercase font-bold tracking-wider text-stone-400 block">
-                          Cédula / Vitrina
-                        </span>
-                        <span className="text-xs font-mono font-medium text-stone-700 dark:text-stone-300">
-                          {caseNumber}
-                        </span>
-                      </div>
-                    ) : null}
-                  </div>
-                );
-              })()}
-
-              {/* Micro-indicador de proximidad a la siguiente parada */}
-              {nextStop && (
-                <div
-                  id="micro-proximity-next-stop-card"
-                  onClick={onOpenMapModal}
-                  role="button"
-                  tabIndex={0}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                      e.preventDefault();
-                      if (onOpenMapModal) onOpenMapModal();
-                    }
-                  }}
-                  className={`p-3.5 rounded-xl border transition-all cursor-pointer flex items-center justify-between gap-3 shadow-xs active:scale-98 ${
-                    isSunMode
-                      ? 'bg-amber-50/70 border-amber-200/80 hover:bg-amber-100/60 text-stone-900'
-                      : 'bg-amber-950/20 border-amber-800/40 hover:bg-amber-900/30 text-stone-100'
-                  }`}
-                  title="Abrir mapa de sala interactivo"
-                >
-                  <div className="flex items-center gap-2.5 min-w-0">
-                    <div className="w-8 h-8 rounded-lg bg-[#C05638]/15 dark:bg-[#D96B47]/20 flex items-center justify-center shrink-0">
-                      <Compass className="w-4 h-4 text-[#C05638] dark:text-[#D96B47]" />
-                    </div>
-                    <div className="min-w-0">
-                      <span className="text-[10px] font-bold uppercase tracking-wider text-[#C05638] dark:text-[#D96B47] block">
-                        Micro-orientación de Sala
-                      </span>
-                      <p className="text-xs font-semibold truncate text-stone-900 dark:text-stone-100">
-                        Siguiente parada:{' '}
-                        <span className="font-bold">{nextStop.title}</span>{' '}
-                        <span className="opacity-70 text-[11px]">· {nextStop.room_zone || 'Sala'}</span>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-1 text-[11px] font-bold text-[#C05638] dark:text-[#D96B47] shrink-0">
-                    <span className="hidden sm:inline">Ver en mapa</span>
-                    <ChevronRight className="w-4 h-4" />
-                  </div>
-                </div>
-              )}
-            </div>
-          )}
-
-          {/* ================= PESTAÑA 2: PARA EXPERTOS ================= */}
-          {activeTab === 'expert' && (
-            <div className="space-y-6">
-              {/* Análisis Arqueológico Profundo con Paywall sobrio */}
-              <div className="space-y-2">
-                <h3 className="text-xs font-semibold tracking-wider uppercase text-[#4B5563] dark:text-stone-400">
-                  Análisis Arqueológico Profundo
-                </h3>
-
-                {isLocked ? (
-                  <div
-                    className={`relative rounded-2xl border p-5 overflow-hidden ${
-                      isSunMode
-                        ? 'bg-stone-50/70 border-stone-200'
-                        : 'bg-stone-900/50 border-stone-800'
-                    }`}
-                  >
-                    {/* Blurred text sample */}
-                    <div className="blur-xs select-none pointer-events-none opacity-30 text-xs leading-relaxed line-clamp-4">
-                      {deepText}
-                    </div>
-
-                    {/* Clean Paywall CTA */}
-                    <div className="relative pt-2 text-center flex flex-col items-center">
-                      <div
-                        className={`w-10 h-10 rounded-full flex items-center justify-center mb-2.5 ${
-                          isSunMode
-                            ? 'bg-[#C05638]/10 text-[#C05638]'
-                            : 'bg-[#D96B47]/20 text-[#D96B47]'
-                        }`}
-                      >
-                        <Lock className="w-4 h-4" />
-                      </div>
-                      <h4 className="text-xs font-semibold text-[#111827] dark:text-stone-100 mb-1">
-                        Acceso para Investigadores y Expertos
-                      </h4>
-                      <p className="text-xs text-[#4B5563] dark:text-stone-400 max-w-[280px] mb-4">
-                        Desbloquea el análisis iconográfico, la bibliografía y la interpretación histórica detallada.
-                      </p>
-                      <button
-                        type="button"
-                        id="btn-unlock-expert-tab"
-                        onClick={onOpenPaywall}
-                        className="w-full sm:w-auto min-h-[44px] px-5 py-2.5 rounded-xl text-xs font-semibold tracking-wide transition-all bg-[#C05638] hover:bg-[#A9482E] dark:bg-[#D96B47] dark:hover:bg-[#C05638] text-white active:scale-98 shadow-sm flex items-center justify-center gap-2"
-                      >
-                        <Sparkles className="w-3.5 h-3.5" />
-                        <span>Desbloquear Recorrido (${passPriceMxn} MXN)</span>
-                      </button>
-                    </div>
-                  </div>
-                ) : (
-                  <div className="pt-1">
-                    <p className="text-sm leading-relaxed text-[#111827] dark:text-stone-200 font-sans font-normal text-justify">
-                      {deepText}
-                    </p>
-                  </div>
-                )}
-              </div>
-
-              {/* Ficha Técnica Arqueológica en Tabla de 2 Columnas con Líneas Divisorias Suaves */}
-              {normalizedSpecs && (
-                <div className="space-y-2 pt-1">
-                  <div className="flex items-center gap-2">
-                    <Layers className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
-                    <h3 className="text-xs font-semibold tracking-wider uppercase text-[#4B5563] dark:text-stone-400">
-                      Ficha Técnica
-                    </h3>
-                  </div>
-
-                  <div className="divide-y divide-stone-200/70 dark:divide-stone-800/70 pt-1">
-                    {/* Material */}
-                    {normalizedSpecs.material && (
-                      <div className="py-2.5 flex items-baseline justify-between gap-4">
-                        <span className="text-xs text-[#4B5563] dark:text-stone-400 font-medium">
-                          Material
-                        </span>
-                        <span className="text-xs sm:text-sm font-semibold text-[#111827] dark:text-stone-100 text-right">
-                          {normalizedSpecs.material}
-                        </span>
-                      </div>
-                    )}
-
-                    {/* Procedencia / Hallazgo */}
-                    {normalizedSpecs.provenance && (
-                      <div className="py-2.5 flex items-baseline justify-between gap-4">
-                        <span className="text-xs text-[#4B5563] dark:text-stone-400 font-medium">
-                          Procedencia / Hallazgo
-                        </span>
-                        <span className="text-xs sm:text-sm font-semibold text-[#111827] dark:text-stone-100 text-right">
-                          {normalizedSpecs.provenance}
-                        </span>
-                      </div>
-                    )}
-
-                    {/* Dimensiones y Peso */}
-                    {normalizedSpecs.weight && (
-                      <div className="py-2.5 flex items-baseline justify-between gap-4">
-                        <span className="text-xs text-[#4B5563] dark:text-stone-400 font-medium">
-                          Dimensiones / Peso
-                        </span>
-                        <span className="text-xs sm:text-sm font-semibold text-[#111827] dark:text-stone-100 text-right">
-                          {normalizedSpecs.weight}
-                        </span>
-                      </div>
-                    )}
-
-                    {/* Cronología / Datación */}
-                    {normalizedSpecs.age && (
-                      <div className="py-2.5 flex items-baseline justify-between gap-4">
-                        <span className="text-xs text-[#4B5563] dark:text-stone-400 font-medium">
-                          Cronología
-                        </span>
-                        <span className="text-xs sm:text-sm font-semibold text-[#111827] dark:text-stone-100 text-right">
-                          {normalizedSpecs.age}
-                        </span>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              )}
-
-              {/* Sección "¿Sabías qué?" con Viñetas Numeradas Estilizadas */}
-              {didYouKnowList.length > 0 && (
-                <div className="space-y-3 pt-2">
-                  <h3 className="text-xs font-semibold tracking-wider uppercase text-[#4B5563] dark:text-stone-400">
-                    ¿Sabías qué?
-                  </h3>
-
-                  <div className="divide-y divide-stone-200/70 dark:divide-stone-800/70">
-                    {didYouKnowList.map((fact, idx) => (
-                      <div key={idx} className="py-3 flex items-start gap-3">
-                        <span className="font-serif text-sm font-semibold text-[#C05638] dark:text-[#D96B47] shrink-0 mt-0.5">
-                          {String(idx + 1).padStart(2, '0')}
-                        </span>
-                        <p className="text-xs sm:text-sm leading-relaxed text-[#111827] dark:text-stone-300 font-normal flex-1">
-                          {fact}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Acordeones Fluidos para Preguntas Frecuentes (FAQ) */}
-              {faqList.length > 0 && (
-                <div className="space-y-3 pt-2">
-                  <div className="flex items-center gap-2">
-                    <HelpCircle className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
-                    <h3 className="text-xs font-semibold tracking-wider uppercase text-[#4B5563] dark:text-stone-400">
-                      Preguntas y Debate
-                    </h3>
-                  </div>
-
-                  <div className="divide-y divide-stone-200/70 dark:divide-stone-800/70 border-y border-stone-200/70 dark:border-stone-800/70">
-                    {faqList.map((item, idx) => {
-                      const isOpen = openFaqIndex === idx;
-                      return (
-                        <div key={idx} className="py-1">
-                          <button
-                            type="button"
-                            onClick={() => setOpenFaqIndex(isOpen ? null : idx)}
-                            className="w-full text-left py-3 flex items-center justify-between gap-3 group transition-colors"
-                          >
-                            <span className="text-xs sm:text-sm font-semibold text-[#111827] dark:text-stone-100 group-hover:text-[#C05638] dark:group-hover:text-[#D96B47]">
-                              {item.question}
-                            </span>
-                            <ChevronDown
-                              className={`w-4 h-4 shrink-0 transition-transform duration-200 ${
-                                isOpen
-                                  ? 'rotate-180 text-[#C05638] dark:text-[#D96B47]'
-                                  : 'text-[#4B5563]'
-                              }`}
-                            />
-                          </button>
-                          {isOpen && (
-                            <div className="pb-3 text-xs sm:text-sm leading-relaxed text-[#111827] dark:text-stone-300 animate-in fade-in duration-200">
-                              {item.answer}
-                            </div>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              )}
+          {/* Indicador de texto en reproducción */}
+          {isPlayingTTS && (
+            <div className="mt-3 p-3 rounded-lg bg-amber-500/10 border border-amber-500/20 text-xs text-amber-900 dark:text-amber-200 flex items-center gap-2 animate-fadeIn">
+              <span className="w-2 h-2 rounded-full bg-amber-500 animate-ping" />
+              <span className="truncate">
+                Reproduciendo: {audioMode === 'expres' ? 'Guion Exprés' : 'Guion de Inmersión'} · Manteniendo pantalla activa
+              </span>
             </div>
           )}
         </div>
       </section>
 
-      {/* Fullscreen Image Zoom Modal */}
+      {/* 4. PUENTE NARRATIVO: INTRODUCCIÓN CONTEXTUAL DESTACADA */}
+      {puenteNarrativo && (
+        <section className="px-4 py-2">
+          <div
+            id="puente-narrativo-card"
+            className={`p-4 sm:p-5 rounded-2xl border transition-all ${
+              isSunMode
+                ? 'bg-[#FAF3EB] border-[#E8D7C8] text-[#3D2817]'
+                : 'bg-amber-950/20 border-amber-800/40 text-amber-100'
+            }`}
+          >
+            <div className="flex items-center gap-2 mb-2">
+              <Sparkles className="w-4 h-4 text-[#C05638] dark:text-[#D96B47]" />
+              <span className="text-[11px] font-bold uppercase tracking-wider text-[#C05638] dark:text-[#D96B47]">
+                Puente Narrativo · Hilo Conductor
+              </span>
+            </div>
+            <p className="text-sm sm:text-base font-serif italic leading-relaxed">
+              «{puenteNarrativo}»
+            </p>
+          </div>
+        </section>
+      )}
+
+      {/* 5. CUERPO PRINCIPAL: GUION EXPRÉS / NARRATIVA EN SALA */}
+      <section className="px-4 py-2">
+        <div
+          className={`p-4 sm:p-5 rounded-2xl border ${
+            isSunMode
+              ? 'bg-white border-stone-200/80'
+              : 'bg-stone-900/50 border-stone-800'
+          }`}
+        >
+          <div className="flex items-center justify-between mb-3">
+            <h2 className="text-xs font-bold tracking-wider uppercase text-stone-500 dark:text-stone-400">
+              {audioMode === 'expres' ? 'Guion Sintético (Visita Rápida)' : 'Narrativa Inmersiva'}
+            </h2>
+            <span className="text-[11px] font-mono text-stone-400">
+              {audioMode === 'expres' ? '60 seg' : '3 min'}
+            </span>
+          </div>
+          <p className="text-sm sm:text-base leading-relaxed text-[#111827] dark:text-stone-200 font-sans">
+            {audioMode === 'expres' ? guionCorto : guionLargo}
+          </p>
+        </div>
+      </section>
+
+      {/* 6. RETOS DE OBSERVACIÓN: TARJETA DE DESAFÍOS VISUALES CON VIÑETAS */}
+      {retosList.length > 0 && (
+        <section className="px-4 py-2">
+          <div
+            id="retos-observacion-card"
+            className={`p-4 sm:p-5 rounded-2xl border ${
+              isSunMode
+                ? 'bg-white border-stone-200/80'
+                : 'bg-stone-900/50 border-stone-800'
+            }`}
+          >
+            <div className="flex items-center justify-between mb-2">
+              <div className="flex items-center gap-2">
+                <Eye className="w-4 h-4 text-[#C05638] dark:text-[#D96B47]" />
+                <h3 className="text-xs font-bold tracking-wider uppercase text-stone-700 dark:text-stone-300">
+                  Retos de Observación en Vitrina
+                </h3>
+              </div>
+              <span className="text-[11px] font-mono text-stone-500 dark:text-stone-400">
+                {completedCount} de {retosList.length} localizados
+              </span>
+            </div>
+            <p className="text-xs text-stone-500 dark:text-stone-400 mb-3">
+              Descubre los detalles ocultos grabados directamente en la pieza:
+            </p>
+
+            <ul className="space-y-2.5">
+              {retosList.map((reto, idx) => {
+                const isFound = !!completedChallenges[idx];
+                return (
+                  <li
+                    key={idx}
+                    onClick={() => toggleChallenge(idx)}
+                    role="checkbox"
+                    aria-checked={isFound}
+                    tabIndex={0}
+                    onKeyDown={(e) => {
+                      if (e.key === ' ' || e.key === 'Enter') {
+                        e.preventDefault();
+                        toggleChallenge(idx);
+                      }
+                    }}
+                    className={`p-3 rounded-xl border transition-all cursor-pointer flex items-start gap-3 select-none ${
+                      isFound
+                        ? isSunMode
+                          ? 'bg-stone-50 border-stone-300/80 text-stone-900'
+                          : 'bg-stone-900/80 border-stone-700 text-stone-100'
+                        : isSunMode
+                        ? 'bg-stone-50/50 border-stone-200/80 hover:border-stone-300 text-stone-700'
+                        : 'bg-stone-950/40 border-stone-800/80 hover:border-stone-700 text-stone-300'
+                    }`}
+                  >
+                    <div
+                      className={`w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 transition-all ${
+                        isFound
+                          ? 'bg-[#C05638] dark:bg-[#D96B47] text-white shadow-xs'
+                          : 'border border-stone-300 dark:border-stone-600 bg-transparent'
+                      }`}
+                    >
+                      {isFound && <span className="text-xs font-bold leading-none">✓</span>}
+                    </div>
+                    <span className="text-xs leading-relaxed flex-1">{reto}</span>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </section>
+      )}
+
+      {/* 7. ESPECIFICACIONES: CUADRÍCULA COMPACTA DE TARJETAS CLAVE-VALOR */}
+      {especificacionesEntries.length > 0 && (
+        <section className="px-4 py-2">
+          <div
+            id="especificaciones-grid"
+            className={`p-4 sm:p-5 rounded-2xl border ${
+              isSunMode
+                ? 'bg-white border-stone-200/80'
+                : 'bg-stone-900/50 border-stone-800'
+            }`}
+          >
+            <div className="flex items-center gap-2 mb-3">
+              <Layers className="w-4 h-4 text-[#C05638] dark:text-[#D96B47]" />
+              <h3 className="text-xs font-bold tracking-wider uppercase text-stone-700 dark:text-stone-300">
+                Ficha Técnica y Especificaciones
+              </h3>
+            </div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
+              {especificacionesEntries.map(([clave, valor]) => (
+                <div
+                  key={clave}
+                  className={`p-3 rounded-xl border flex flex-col justify-between ${
+                    isSunMode
+                      ? 'bg-stone-50 border-stone-200/80 text-stone-900'
+                      : 'bg-stone-950/60 border-stone-800/80 text-stone-100'
+                  }`}
+                >
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-stone-400 truncate">
+                    {clave}
+                  </span>
+                  <span className="text-xs font-medium text-stone-800 dark:text-stone-200 mt-1 leading-snug">
+                    {valor}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* 8. FAQ / MITO: ACORDEÓN O BLOQUE DESTACADO DESMINTIENDO EL MITO */}
+      {faqMito && (
+        <section className="px-4 py-2">
+          <div
+            id="faq-mito-block"
+            className={`p-4 sm:p-5 rounded-2xl border transition-all ${
+              isSunMode
+                ? 'bg-amber-50/70 border-amber-200/80 text-stone-900'
+                : 'bg-amber-950/20 border-amber-800/40 text-stone-100'
+            }`}
+          >
+            <div className="flex items-center gap-2 mb-2">
+              <HelpCircle className="w-4 h-4 text-amber-600 dark:text-amber-400" />
+              <span className="text-[11px] font-bold uppercase tracking-wider text-amber-700 dark:text-amber-300">
+                Mito vs. Realidad Arqueológica
+              </span>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => setIsMitoOpen(!isMitoOpen)}
+              className="w-full text-left font-semibold text-sm sm:text-base text-[#111827] dark:text-stone-100 flex items-center justify-between gap-3 pt-1 cursor-pointer"
+            >
+              <span>{faqMito.pregunta}</span>
+              <ChevronDown
+                className={`w-4 h-4 text-stone-500 shrink-0 transition-transform duration-200 ${
+                  isMitoOpen ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+
+            {isMitoOpen && (
+              <p className="mt-2.5 pt-2.5 border-t border-amber-200/60 dark:border-amber-800/40 text-xs sm:text-sm leading-relaxed text-[#4B5563] dark:text-stone-300 animate-fadeIn">
+                {faqMito.respuesta}
+              </p>
+            )}
+          </div>
+        </section>
+      )}
+
+      {/* 9. PROXIMIDAD Y NAVEGACIÓN A LA SIGUIENTE PARADA */}
+      {nextStop && (
+        <section className="px-4 pt-2">
+          <div
+            id="next-stop-proximity-card"
+            onClick={onOpenMapModal}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                if (onOpenMapModal) onOpenMapModal();
+              }
+            }}
+            className={`p-3.5 rounded-xl border transition-all cursor-pointer flex items-center justify-between gap-3 shadow-xs active:scale-98 ${
+              isSunMode
+                ? 'bg-amber-50/70 border-amber-200/80 hover:bg-amber-100/60 text-stone-900'
+                : 'bg-amber-950/20 border-amber-800/40 hover:bg-amber-900/30 text-stone-100'
+            }`}
+            title="Abrir mapa de sala interactivo"
+          >
+            <div className="flex items-center gap-2.5 min-w-0">
+              <div className="w-8 h-8 rounded-lg bg-[#C05638]/15 dark:bg-[#D96B47]/20 flex items-center justify-center shrink-0">
+                <Compass className="w-4 h-4 text-[#C05638] dark:text-[#D96B47]" />
+              </div>
+              <div className="min-w-0">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-[#C05638] dark:text-[#D96B47] block">
+                  Siguiente Hito Recomendado
+                </span>
+                <p className="text-xs font-semibold truncate text-stone-900 dark:text-stone-100">
+                  {nextStop.title}{' '}
+                  <span className="opacity-70 text-[11px]">· {nextStop.room_zone || 'Sala'}</span>
+                </p>
+              </div>
+            </div>
+            <div className="flex items-center gap-1 text-[11px] font-bold text-[#C05638] dark:text-[#D96B47] shrink-0">
+              <span>Ver en mapa</span>
+              <ChevronRight className="w-3.5 h-3.5" />
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Modal de Zoom de Imagen */}
       <ImageZoomModal
         isOpen={isZoomOpen}
         onClose={() => setIsZoomOpen(false)}
-        imageUrl={piece.identification.hero_image}
-        title={piece.identification.title}
-        subtitle={piece.identification.culture_period}
+        imageUrl={imageFilename}
+        title={titulo}
+        subtitle={roomName || piece.location?.room_name || 'Museo Nacional de Antropología'}
       />
     </article>
   );
 };
+
+export default PieceDetail;

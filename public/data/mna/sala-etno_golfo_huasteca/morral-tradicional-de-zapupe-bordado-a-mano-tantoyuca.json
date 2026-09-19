@@ -1,64 +1,59 @@
 {
+  "piece_id": "morral-tradicional-de-zapupe-bordado-a-mano-tantoyuca",
+  "room_id": "sala-etno_golfo_huasteca",
+  "piso": "PB",
+  "orden_sugerido": 8,
+  "titulo": "Morral Tradicional de Zapupe Bordado a Mano (Tantoyuca)",
+  "frase_gancho": "",
+  "puente_narrativo": "",
+  "guion_corto": "",
+  "guion_largo": "Elaborado con la fibra blanca y resistente del agave zapupe (planta semicautiva de la Huasteca), este morral campesino exhibe un tejido en red apretada o telar con motivos bordados en hilos de lana teñida. Los hombres de campo lo utilizan terciado al hombro durante sus jornadas para llevar la lima de afilar, el machete, las semillas de frijol o el itacate de comida, representando la perfecta conjunción entre resistencia material al monte y estética geométrica tradicional.",
+  "retos_observacion": [],
+  "especificaciones": {},
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
+  "is_free": false,
   "id": "morral-tradicional-de-zapupe-bordado-a-mano-tantoyuca",
   "poi_id": "morral-tradicional-de-zapupe-bordado-a-mano-tantoyuca",
-  "room_id": "sala-etno_golfo_huasteca",
-  "site_id": "MNA",
+  "is_premium": true,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-etno_golfo_huasteca",
     "room_name": "Sala Pueblos del Golfo y Huasteca",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 8,
-  "is_premium": true,
-  "estimated_minutes": 3,
-  "tags": [
-    "zapupe",
-    "fibras_vegetales",
-    "arrieria"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "",
+  "observation_challenges": [],
+  "did_you_know": [],
+  "specs": {},
+  "faq": [],
   "identification": {
     "title": "Morral Tradicional de Zapupe Bordado a Mano (Tantoyuca)",
     "culture_period": "Mesoamérica",
     "room_zone": "Sala Pueblos del Golfo y Huasteca, Museo Nacional de Antropología",
     "tags": [
-      "zapupe",
-      "fibras_vegetales",
-      "arrieria"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
   },
   "narrative": {
-    "one_liner": "Elaborado con la fibra blanca y resistente del agave zapupe (planta semicautiva de la Huasteca), este morral campesino exhibe un tejido en red apretada o telar con motivos bordados en hilos de lana teñida.",
-    "short_desc": "Elaborado con la fibra blanca y resistente del agave zapupe (planta semicautiva de la Huasteca), este morral campesino exhibe un tejido en red apretada o telar con motivos bordados en hilos de lana teñida.",
+    "one_liner": "",
+    "short_desc": "",
     "deep_desc": "Elaborado con la fibra blanca y resistente del agave zapupe (planta semicautiva de la Huasteca), este morral campesino exhibe un tejido en red apretada o telar con motivos bordados en hilos de lana teñida. Los hombres de campo lo utilizan terciado al hombro durante sus jornadas para llevar la lima de afilar, el machete, las semillas de frijol o el itacate de comida, representando la perfecta conjunción entre resistencia material al monte y estética geométrica tradicional."
   },
   "audioguide": {
     "audio_script": "Elaborado con la fibra blanca y resistente del agave zapupe (planta semicautiva de la Huasteca), este morral campesino exhibe un tejido en red apretada o telar con motivos bordados en hilos de lana teñida. Los hombres de campo lo utilizan terciado al hombro durante sus jornadas para llevar la lima de afilar, el machete, las semillas de frijol o el itacate de comida, representando la perfecta conjunción entre resistencia material al monte y estética geométrica tradicional.",
     "audio_file_url": ""
-  },
-  "summary_30s": "Elaborado con la fibra blanca y resistente del agave zapupe (planta semicautiva de la Huasteca), este morral campesino exhibe un tejido en red apretada o telar con motivos bordados en hilos de lana teñida.",
-  "observation_challenges": [],
-  "did_you_know": [
-    "El tallado o desfibrado de las pencas de zapupe se realiza raspando la pulpa con cuchillas de madera contra una tabla inclinada."
-  ],
-  "specs": {
-    "material": "",
-    "provenance": "",
-    "weight": "",
-    "age": ""
-  },
-  "faq": [],
-  "visual_challenge": [],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "El tallado o desfibrado de las pencas de zapupe se realiza raspando la pulpa con cuchillas de madera contra una tabla inclinada."
-    }
-  ],
-  "faqs": []
+  }
 }

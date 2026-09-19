@@ -1,64 +1,59 @@
 {
+  "piece_id": "huipil-ceremonial-de-magdalena-aldama-tsotsil",
+  "room_id": "sala-etno_maya",
+  "piso": "PB",
+  "orden_sugerido": 2,
+  "titulo": "Huipil Ceremonial de Magdalena Aldama (Tsotsil)",
+  "frase_gancho": "",
+  "puente_narrativo": "",
+  "guion_corto": "",
+  "guion_largo": "En este extraordinario huipil de los Altos de Chiapas contemplamos el universo maya tejido en brocado sobre tres lienzos de algodón blanco. La pechera y los hombros están tapizados con intrincados rombos geométricos en hilos rojos y morados que representan el cosmos cuatripartito, el paso del sol por el firmamento y los 'sapos sagrados' que anuncian la llegada de las lluvias. Para las tejedoras tsotsiles, cada puntada es una oración que preserva el mandato cósmico entregado a sus ancestras en los sueños primordiales.",
+  "retos_observacion": [],
+  "especificaciones": {},
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
+  "is_free": true,
   "id": "huipil-ceremonial-de-magdalena-aldama-tsotsil",
   "poi_id": "huipil-ceremonial-de-magdalena-aldama-tsotsil",
-  "room_id": "sala-etno_maya",
-  "site_id": "MNA",
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-etno_maya",
     "room_name": "Sala Pueblos Mayas",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 2,
-  "is_premium": false,
-  "estimated_minutes": 4,
-  "tags": [
-    "altos_chiapas",
-    "telar_cintura",
-    "cosmovision"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "",
+  "observation_challenges": [],
+  "did_you_know": [],
+  "specs": {},
+  "faq": [],
   "identification": {
     "title": "Huipil Ceremonial de Magdalena Aldama (Tsotsil)",
     "culture_period": "Mesoamérica",
     "room_zone": "Sala Pueblos Mayas, Museo Nacional de Antropología",
     "tags": [
-      "altos_chiapas",
-      "telar_cintura",
-      "cosmovision"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
   },
   "narrative": {
-    "one_liner": "En este extraordinario huipil de los Altos de Chiapas contemplamos el universo maya tejido en brocado sobre tres lienzos de algodón blanco.",
-    "short_desc": "En este extraordinario huipil de los Altos de Chiapas contemplamos el universo maya tejido en brocado sobre tres lienzos de algodón blanco.",
+    "one_liner": "",
+    "short_desc": "",
     "deep_desc": "En este extraordinario huipil de los Altos de Chiapas contemplamos el universo maya tejido en brocado sobre tres lienzos de algodón blanco. La pechera y los hombros están tapizados con intrincados rombos geométricos en hilos rojos y morados que representan el cosmos cuatripartito, el paso del sol por el firmamento y los 'sapos sagrados' que anuncian la llegada de las lluvias. Para las tejedoras tsotsiles, cada puntada es una oración que preserva el mandato cósmico entregado a sus ancestras en los sueños primordiales."
   },
   "audioguide": {
     "audio_script": "En este extraordinario huipil de los Altos de Chiapas contemplamos el universo maya tejido en brocado sobre tres lienzos de algodón blanco. La pechera y los hombros están tapizados con intrincados rombos geométricos en hilos rojos y morados que representan el cosmos cuatripartito, el paso del sol por el firmamento y los 'sapos sagrados' que anuncian la llegada de las lluvias. Para las tejedoras tsotsiles, cada puntada es una oración que preserva el mandato cósmico entregado a sus ancestras en los sueños primordiales.",
     "audio_file_url": ""
-  },
-  "summary_30s": "En este extraordinario huipil de los Altos de Chiapas contemplamos el universo maya tejido en brocado sobre tres lienzos de algodón blanco.",
-  "observation_challenges": [],
-  "did_you_know": [
-    "El diseño central en forma de diamante representa el centro de la tierra o el ombligo del mundo según la tradición de los Altos."
-  ],
-  "specs": {
-    "material": "",
-    "provenance": "",
-    "weight": "",
-    "age": ""
-  },
-  "faq": [],
-  "visual_challenge": [],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "El diseño central en forma de diamante representa el centro de la tierra o el ombligo del mundo según la tradición de los Altos."
-    }
-  ],
-  "faqs": []
+  }
 }

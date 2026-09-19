@@ -28,16 +28,85 @@ export interface RoomPieceSummary {
 }
 
 export interface Room {
-  id: string;
-  name: string;
-  culture: string;
-  tags: string[];
-  short_description: string;
-  floor: number;
-  featured_pieces: string[];
+  room_id: string;
+  numero_oficial: string;
+  nombre_oficial: string;
+  piso: 'PB' | 'PA';
+  ala: string;
+  frase_gancho: string;
+  introduccion_narrativa: string;
+  svg_id: string;
+
+  // Campos de compatibilidad para el visor y catálogo
+  id?: string;
+  name?: string;
+  culture?: string;
+  tags?: string[];
+  short_description?: string;
+  floor?: number;
+  featured_pieces?: string[];
   coords?: MapCoords;
   pieces_info?: RoomPieceSummary[];
 }
+
+export interface Piece {
+  piece_id: string;
+  room_id: string;
+  piso: 'PB' | 'PA';
+  orden_sugerido: number;
+  titulo: string;
+  frase_gancho: string;
+  puente_narrativo: string;
+  guion_corto: string;
+  guion_largo: string;
+  retos_observacion: string[]; // Viene de celda separada por ' | '
+  especificaciones: Record<string, string>; // Viene de celda 'Clave: Valor | Clave: Valor'
+  faq_mito?: { pregunta: string; respuesta: string }; // Viene de celda '¿Pregunta? | Respuesta'
+  map_x: number;
+  map_y: number;
+  image_filename: string;
+  is_free: boolean;
+
+  // Campos de compatibilidad con estructuras previas
+  id?: string;
+  poi_id?: string;
+  is_premium?: boolean;
+  estimated_minutes?: number;
+  tags?: string[];
+  location?: {
+    room_id?: string;
+    room_name?: string;
+    case_number?: string;
+  };
+  case_number?: string;
+  map_coords?: MapCoords;
+  summary_30s?: string;
+  observation_challenges?: ObservationChallengeItem[];
+  did_you_know?: string[];
+  specs?: PieceSpecsObject | SpecItem[];
+  faq?: PieceFaqItem[];
+  identification?: {
+    title: string;
+    culture_period: string;
+    room_zone: string;
+    tags: string[];
+    hero_image: string;
+  };
+  narrative?: {
+    one_liner: string;
+    short_desc: string;
+    deep_desc: string;
+  };
+  audioguide?: {
+    audio_script: string;
+    audio_file_url: string;
+  };
+  visual_challenge?: VisualChallengeItem[];
+  curiosities?: CuriosityItem[];
+  faqs?: FaqItem[];
+}
+
+export type PieceData = Piece;
 
 export interface RouteStop {
   poi_id: string;
@@ -107,48 +176,6 @@ export interface PieceSpecsObject {
 export interface PieceFaqItem {
   question: string;
   answer: string;
-}
-
-export interface PieceData {
-  poi_id: string;
-  room_id?: string;
-  site_id?: string;
-  orden_sala?: number;
-  is_premium: boolean;
-  estimated_minutes?: number;
-  tags?: string[];
-  location?: {
-    room_id?: string;
-    room_name?: string;
-    case_number?: string;
-  };
-  case_number?: string;
-  map_coords?: MapCoords;
-  map?: { x: number; y: number } | MapCoords;
-  summary_30s?: string;
-  observation_challenges?: ObservationChallengeItem[];
-  did_you_know?: string[];
-  specs?: PieceSpecsObject | SpecItem[];
-  faq?: PieceFaqItem[];
-  identification: {
-    title: string;
-    culture_period: string;
-    room_zone: string;
-    tags: string[];
-    hero_image: string;
-  };
-  narrative: {
-    one_liner: string;
-    short_desc: string;
-    deep_desc: string;
-  };
-  audioguide: {
-    audio_script: string;
-    audio_file_url: string;
-  };
-  visual_challenge?: VisualChallengeItem[];
-  curiosities?: CuriosityItem[];
-  faqs?: FaqItem[];
 }
 
 export interface SiteLicense {

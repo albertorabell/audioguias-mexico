@@ -1,34 +1,80 @@
 {
+  "piece_id": "el-adolescente-huasteco",
+  "room_id": "sala-costa_del_golfo",
+  "piso": "PB",
+  "orden_sugerido": 4,
+  "titulo": "El Adolescente Huasteco",
+  "frase_gancho": "El cuerpo como lienzo sagrado donde la piel grabada germina en vida eterna y maíz.",
+  "puente_narrativo": "",
+  "guion_corto": "Magistral escultura huasteca que representa a un noble o a Quetzalcóatl-Ehécatl como dios del maíz. Destaca por sus intrincados grabados corporales y el infante a la espalda, símbolo de regeneración agrícola.",
+  "guion_largo": "Dando un salto hacia el norte del Golfo y hacia los pueblos huastecos, admiramos esta esbelta escultura en piedra arenisca que representa a un joven noble o al dios Quetzalcóatl en su advocación de dios del maíz. La mitad derecha de su cuerpo está cubierta con intrincados grabados escarificados que muestran mazorcas, símbolos cósmicos y sacerdotes, mientras que a su espalda carga a un infante que simboliza la continuidad de la vida y las cosechas.",
+  "retos_observacion": [
+    "Detalle 1: Observa las escarificaciones del lado derecho que muestran mazorcas y sacerdotes",
+    "Detalle 2: Busca al infante a su espalda que simboliza la continuidad de las cosechas"
+  ],
+  "especificaciones": {
+    "Material": "Piedra arenisca",
+    "Procedencia": "El Tamuín, San Luis Potosí, México",
+    "Dimensiones": "117 x 40 x 22 cm (Aproximadamente 80 kg)",
+    "Periodo": "Ca. 900 – 1200 d.C."
+  },
+  "faq_mito": {
+    "pregunta": "¿Por qué solo la mitad derecha de su cuerpo tiene grabados?",
+    "respuesta": "Representa el principio mesoamericano de dualidad: el lado escarificado alude al mundo divino, la vegetación y el cosmos, mientras que el lado liso encarna el plano terrenal o material."
+  },
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://upload.wikimedia.org/wikipedia/commons/5/53/El_adolescente_de_Tamu%C3%ADn_-_8.jpg",
+  "is_free": true,
   "id": "el-adolescente-huasteco",
   "poi_id": "el-adolescente-huasteco",
-  "room_id": "sala-costa_del_golfo",
-  "site_id": "MNA",
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-costa_del_golfo",
     "room_name": "Sala Costa del Golfo",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 4,
-  "is_premium": false,
-  "estimated_minutes": 4,
-  "tags": [
-    "cuerpo_humano",
-    "fertilidad",
-    "deidades"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "Magistral escultura huasteca que representa a un noble o a Quetzalcóatl-Ehécatl como dios del maíz. Destaca por sus intrincados grabados corporales y el infante a la espalda, símbolo de regeneración agrícola.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Detalle 1: Observa las escarificaciones del lado derecho que muestran mazorcas y sacerdotes"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Detalle 2: Busca al infante a su espalda que simboliza la continuidad de las cosechas"
+    }
+  ],
+  "did_you_know": [],
+  "specs": {
+    "Material": "Piedra arenisca",
+    "Procedencia": "El Tamuín, San Luis Potosí, México",
+    "Dimensiones": "117 x 40 x 22 cm (Aproximadamente 80 kg)",
+    "Periodo": "Ca. 900 – 1200 d.C."
+  },
+  "faq": [
+    {
+      "question": "¿Por qué solo la mitad derecha de su cuerpo tiene grabados?",
+      "answer": "Representa el principio mesoamericano de dualidad: el lado escarificado alude al mundo divino, la vegetación y el cosmos, mientras que el lado liso encarna el plano terrenal o material."
+    }
+  ],
   "identification": {
     "title": "El Adolescente Huasteco",
-    "culture_period": "Cultura Huasteca / Posclásico Temprano (900–1200 d.C.)",
+    "culture_period": "Ca. 900 – 1200 d.C.",
     "room_zone": "Sala Costa del Golfo, Museo Nacional de Antropología",
     "tags": [
-      "cuerpo_humano",
-      "fertilidad",
-      "deidades"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://upload.wikimedia.org/wikipedia/commons/5/53/El_adolescente_de_Tamu%C3%ADn_-_8.jpg"
   },
@@ -40,60 +86,5 @@
   "audioguide": {
     "audio_script": "Dando un salto hacia el norte del Golfo y hacia los pueblos huastecos, admiramos esta esbelta escultura en piedra arenisca que representa a un joven noble o al dios Quetzalcóatl en su advocación de dios del maíz. La mitad derecha de su cuerpo está cubierta con intrincados grabados escarificados que muestran mazorcas, símbolos cósmicos y sacerdotes, mientras que a su espalda carga a un infante que simboliza la continuidad de la vida y las cosechas.",
     "audio_file_url": ""
-  },
-  "summary_30s": "Magistral escultura huasteca que representa a un noble o a Quetzalcóatl-Ehécatl como dios del maíz. Destaca por sus intrincados grabados corporales y el infante a la espalda, símbolo de regeneración agrícola.",
-  "observation_challenges": [
-    {
-      "titulo": "Detalle 1",
-      "descripcion": "Observa las escarificaciones del lado derecho que muestran mazorcas y sacerdotes"
-    },
-    {
-      "titulo": "Detalle 2",
-      "descripcion": "Busca al infante a su espalda que simboliza la continuidad de las cosechas"
-    }
-  ],
-  "did_you_know": [
-    "Fue descubierta en El Tamuín, San Luis Potosí, y destaca por conservar su perforación en el lóbulo auricular lista para recibir orejeras de concha.",
-    "Los grabados en su piel representan la escarificación ritual huasteca, una compleja cartografía sagrada vinculada a la fertilidad y el cosmos."
-  ],
-  "specs": {
-    "material": "Piedra arenisca",
-    "provenance": "El Tamuín, San Luis Potosí, México",
-    "weight": "117 x 40 x 22 cm (Aproximadamente 80 kg)",
-    "age": "Ca. 900 – 1200 d.C."
-  },
-  "faq": [
-    {
-      "question": "¿Por qué solo la mitad derecha de su cuerpo tiene grabados?",
-      "answer": "Representa el principio mesoamericano de dualidad: el lado escarificado alude al mundo divino, la vegetación y el cosmos, mientras que el lado liso encarna el plano terrenal o material."
-    }
-  ],
-  "visual_challenge": [
-    {
-      "id": "ch-1",
-      "title": "Detalle 1",
-      "clue": "Observa las escarificaciones del lado derecho que muestran mazorcas y sacerdotes"
-    },
-    {
-      "id": "ch-2",
-      "title": "Detalle 2",
-      "clue": "Busca al infante a su espalda que simboliza la continuidad de las cosechas"
-    }
-  ],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "Fue descubierta en El Tamuín, San Luis Potosí, y destaca por conservar su perforación en el lóbulo auricular lista para recibir orejeras de concha."
-    },
-    {
-      "id": "cur-2",
-      "fact": "Los grabados en su piel representan la escarificación ritual huasteca, una compleja cartografía sagrada vinculada a la fertilidad y el cosmos."
-    }
-  ],
-  "faqs": [
-    {
-      "question": "¿Por qué solo la mitad derecha de su cuerpo tiene grabados?",
-      "answer": "Representa el principio mesoamericano de dualidad: el lado escarificado alude al mundo divino, la vegetación y el cosmos, mientras que el lado liso encarna el plano terrenal o material."
-    }
-  ]
+  }
 }

@@ -1,64 +1,59 @@
 {
+  "piece_id": "quechquemotl-bordado-teenek-con-la-estrella-de-ocho-puntas-dhikbith",
+  "room_id": "sala-etno_golfo_huasteca",
+  "piso": "PB",
+  "orden_sugerido": 2,
+  "titulo": "Quechquémotl Bordado Téenek con la Estrella de Ocho Puntas (Dhikbith)",
+  "frase_gancho": "",
+  "puente_narrativo": "",
+  "guion_corto": "",
+  "guion_largo": "En este emblemático lienzo textil contemplamos el cosmos del pueblo Téenek o Huasteco de San Luis Potosí y Veracruz. Elaborado en telar de cintura con hilos de estambre en tonos fucsia, naranja y verde sobre manta blanca de algodón, destaca en su centro el dhikbith o estrella de ocho puntas que simboliza los cuatro rumbos cósmicos y los cuatro puntos solsticiales, entrelazada con el árbol cósmico y aves guardianas que protegen el pecho de la mujer portadora.",
+  "retos_observacion": [],
+  "especificaciones": {},
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
+  "is_free": true,
   "id": "quechquemotl-bordado-teenek-con-la-estrella-de-ocho-puntas-dhikbith",
   "poi_id": "quechquemotl-bordado-teenek-con-la-estrella-de-ocho-puntas-dhikbith",
-  "room_id": "sala-etno_golfo_huasteca",
-  "site_id": "MNA",
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-etno_golfo_huasteca",
     "room_name": "Sala Pueblos del Golfo y Huasteca",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 2,
-  "is_premium": false,
-  "estimated_minutes": 4,
-  "tags": [
-    "teenek",
-    "textiles",
-    "cosmovision"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "",
+  "observation_challenges": [],
+  "did_you_know": [],
+  "specs": {},
+  "faq": [],
   "identification": {
     "title": "Quechquémotl Bordado Téenek con la Estrella de Ocho Puntas (Dhikbith)",
     "culture_period": "Mesoamérica",
     "room_zone": "Sala Pueblos del Golfo y Huasteca, Museo Nacional de Antropología",
     "tags": [
-      "teenek",
-      "textiles",
-      "cosmovision"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
   },
   "narrative": {
-    "one_liner": "En este emblemático lienzo textil contemplamos el cosmos del pueblo Téenek o Huasteco de San Luis Potosí y Veracruz.",
-    "short_desc": "En este emblemático lienzo textil contemplamos el cosmos del pueblo Téenek o Huasteco de San Luis Potosí y Veracruz.",
+    "one_liner": "",
+    "short_desc": "",
     "deep_desc": "En este emblemático lienzo textil contemplamos el cosmos del pueblo Téenek o Huasteco de San Luis Potosí y Veracruz. Elaborado en telar de cintura con hilos de estambre en tonos fucsia, naranja y verde sobre manta blanca de algodón, destaca en su centro el dhikbith o estrella de ocho puntas que simboliza los cuatro rumbos cósmicos y los cuatro puntos solsticiales, entrelazada con el árbol cósmico y aves guardianas que protegen el pecho de la mujer portadora."
   },
   "audioguide": {
     "audio_script": "En este emblemático lienzo textil contemplamos el cosmos del pueblo Téenek o Huasteco de San Luis Potosí y Veracruz. Elaborado en telar de cintura con hilos de estambre en tonos fucsia, naranja y verde sobre manta blanca de algodón, destaca en su centro el dhikbith o estrella de ocho puntas que simboliza los cuatro rumbos cósmicos y los cuatro puntos solsticiales, entrelazada con el árbol cósmico y aves guardianas que protegen el pecho de la mujer portadora.",
     "audio_file_url": ""
-  },
-  "summary_30s": "En este emblemático lienzo textil contemplamos el cosmos del pueblo Téenek o Huasteco de San Luis Potosí y Veracruz.",
-  "observation_challenges": [],
-  "did_you_know": [
-    "El peinado téenek tradicional que lo acompaña, llamado petob, consiste en una corona circular elaborada enrollando madejas de estambre multicolor directamente entre el cabello."
-  ],
-  "specs": {
-    "material": "",
-    "provenance": "",
-    "weight": "",
-    "age": ""
-  },
-  "faq": [],
-  "visual_challenge": [],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "El peinado téenek tradicional que lo acompaña, llamado petob, consiste en una corona circular elaborada enrollando madejas de estambre multicolor directamente entre el cabello."
-    }
-  ],
-  "faqs": []
+  }
 }

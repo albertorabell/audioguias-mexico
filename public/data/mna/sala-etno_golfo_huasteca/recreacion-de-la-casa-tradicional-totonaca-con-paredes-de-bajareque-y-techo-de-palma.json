@@ -1,64 +1,59 @@
 {
+  "piece_id": "recreacion-de-la-casa-tradicional-totonaca-con-paredes-de-bajareque-y-techo-de-palma",
+  "room_id": "sala-etno_golfo_huasteca",
+  "piso": "PB",
+  "orden_sugerido": 9,
+  "titulo": "Recreación de la Casa Tradicional Totonaca con Paredes de Bajareque y Techo de Palma",
+  "frase_gancho": "",
+  "puente_narrativo": "",
+  "guion_corto": "",
+  "guion_largo": "Esta ambientación a escala natural reproduce la vivienda típica de las rancherías del Totonacapan. Sus paredes están construidas con varas de bajareque o otate entrelazadas que permiten la circulación constante de la brisa marina mitigando el bochorno tropical, rematada por una alta techumbre de palma real a dos aguas que desvía los torrenciales aguaceros. En su interior se aprecian canastos de bejuco, bateas de cedro, jícaras para agua y el altar doméstico adornado con ramas de vainilla aromática silvestre.",
+  "retos_observacion": [],
+  "especificaciones": {},
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
+  "is_free": true,
   "id": "recreacion-de-la-casa-tradicional-totonaca-con-paredes-de-bajareque-y-techo-de-palma",
   "poi_id": "recreacion-de-la-casa-tradicional-totonaca-con-paredes-de-bajareque-y-techo-de-palma",
-  "room_id": "sala-etno_golfo_huasteca",
-  "site_id": "MNA",
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-etno_golfo_huasteca",
     "room_name": "Sala Pueblos del Golfo y Huasteca",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 9,
-  "is_premium": false,
-  "estimated_minutes": 4,
-  "tags": [
-    "arquitectura_vernacula",
-    "selva",
-    "totonacapan"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "",
+  "observation_challenges": [],
+  "did_you_know": [],
+  "specs": {},
+  "faq": [],
   "identification": {
     "title": "Recreación de la Casa Tradicional Totonaca con Paredes de Bajareque y Techo de Palma",
     "culture_period": "Mesoamérica",
     "room_zone": "Sala Pueblos del Golfo y Huasteca, Museo Nacional de Antropología",
     "tags": [
-      "arquitectura_vernacula",
-      "selva",
-      "totonacapan"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
   },
   "narrative": {
-    "one_liner": "Esta ambientación a escala natural reproduce la vivienda típica de las rancherías del Totonacapan.",
-    "short_desc": "Esta ambientación a escala natural reproduce la vivienda típica de las rancherías del Totonacapan.",
+    "one_liner": "",
+    "short_desc": "",
     "deep_desc": "Esta ambientación a escala natural reproduce la vivienda típica de las rancherías del Totonacapan. Sus paredes están construidas con varas de bajareque o otate entrelazadas que permiten la circulación constante de la brisa marina mitigando el bochorno tropical, rematada por una alta techumbre de palma real a dos aguas que desvía los torrenciales aguaceros. En su interior se aprecian canastos de bejuco, bateas de cedro, jícaras para agua y el altar doméstico adornado con ramas de vainilla aromática silvestre."
   },
   "audioguide": {
     "audio_script": "Esta ambientación a escala natural reproduce la vivienda típica de las rancherías del Totonacapan. Sus paredes están construidas con varas de bajareque o otate entrelazadas que permiten la circulación constante de la brisa marina mitigando el bochorno tropical, rematada por una alta techumbre de palma real a dos aguas que desvía los torrenciales aguaceros. En su interior se aprecian canastos de bejuco, bateas de cedro, jícaras para agua y el altar doméstico adornado con ramas de vainilla aromática silvestre.",
     "audio_file_url": ""
-  },
-  "summary_30s": "Esta ambientación a escala natural reproduce la vivienda típica de las rancherías del Totonacapan.",
-  "observation_challenges": [],
-  "did_you_know": [
-    "La vainilla, orquídea trepadora originaria de esta región, era considerada por los totonacos como la sangre coagulada de una princesa sacrificada por amor."
-  ],
-  "specs": {
-    "material": "",
-    "provenance": "",
-    "weight": "",
-    "age": ""
-  },
-  "faq": [],
-  "visual_challenge": [],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "La vainilla, orquídea trepadora originaria de esta región, era considerada por los totonacos como la sangre coagulada de una princesa sacrificada por amor."
-    }
-  ],
-  "faqs": []
+  }
 }

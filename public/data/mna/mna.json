@@ -6,6 +6,14 @@
   "floorplan_url": "data/mna/mna-map.svg",
   "rooms": [
     {
+      "room_id": "sala-mexica",
+      "numero_oficial": "1",
+      "nombre_oficial": "Sala Mexica",
+      "piso": "PB",
+      "ala": "cabecera",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Mexica",
+      "svg_id": "room-mexica",
       "id": "sala-mexica",
       "name": "Sala Mexica",
       "culture": "Mesoamérica",
@@ -16,14 +24,13 @@
       ],
       "short_description": "Obras destacadas de la Sala Mexica",
       "floor": 1,
-      "map_svg_id": "room-mexica",
       "featured_pieces": [
         "piedra-del-sol",
         "coatlicue"
       ],
       "coords": {
         "x": 50,
-        "y": 18
+        "y": 15
       },
       "pieces_info": [
         {
@@ -39,7 +46,7 @@
           "poi_id": "coatlicue",
           "title": "Coatlicue",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Escultura_de_Coatlicue_-_Museo_Nacional_de_Antropolog%C3%ADa_-_Sala_6_-_Mexicas.jpg",
           "file": "data/mna/sala-mexica/coatlicue.json",
           "ranking": 1
@@ -48,7 +55,7 @@
           "poi_id": "teocalli-de-la-guerra-sagrada",
           "title": "Teocalli de la Guerra Sagrada",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Teocalli_de_la_Guerra_Sagrada_-_3.jpg",
           "file": "data/mna/sala-mexica/teocalli-de-la-guerra-sagrada.json",
           "ranking": 2
@@ -57,7 +64,7 @@
           "poi_id": "ocelocuauhxicalli",
           "title": "Ocelocuauhxicalli",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Jaguar_cuauhxicalli.jpg",
           "file": "data/mna/sala-mexica/ocelocuauhxicalli.json",
           "ranking": 2
@@ -66,7 +73,7 @@
           "poi_id": "xochipilli",
           "title": "Xochipilli",
           "is_premium": false,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Statue_of_Xochipilli_%28From_the_National_Museum_of_Anthropology%2C_Mexico_City%29.jpg",
           "file": "data/mna/sala-mexica/xochipilli.json",
           "ranking": 1
@@ -75,7 +82,7 @@
           "poi_id": "piedra-de-tizoc",
           "title": "Piedra de Tízoc",
           "is_premium": true,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Piedra_de_Tizoc_-_Matlatzinco.jpg",
           "file": "data/mna/sala-mexica/piedra-de-tizoc.json",
           "ranking": 2
@@ -84,7 +91,7 @@
           "poi_id": "cabeza-de-coyolxauhqui",
           "title": "Cabeza de Coyolxauhqui",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cabeza_de_la_diosa_Coyolxauhqui.jpg",
           "file": "data/mna/sala-mexica/cabeza-de-coyolxauhqui.json",
           "ranking": 2
@@ -93,7 +100,7 @@
           "poi_id": "replica-del-penacho",
           "title": "Réplica del Penacho",
           "is_premium": false,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/ae/El_filibusterismo_por_Jos%C3%A9_Rizal_%28JRNCC%2C_1961%29.djvu",
           "file": "data/mna/sala-mexica/replica-del-penacho.json",
           "ranking": 1
@@ -102,7 +109,7 @@
           "poi_id": "xiuhcoatl-serpiente-de-fuego",
           "title": "Xiuhcóatl (Serpiente de Fuego)",
           "is_premium": true,
-          "estimated_minutes": 2,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Xiuhc%C3%B3atl_o_%22Serpiente_de_fuego%22.jpg",
           "file": "data/mna/sala-mexica/xiuhcoatl-serpiente-de-fuego.json",
           "ranking": 2
@@ -111,7 +118,7 @@
           "poi_id": "estatua-de-macuilxochitl",
           "title": "Estatua de Macuilxóchitl",
           "is_premium": true,
-          "estimated_minutes": 2,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-mexica/estatua-de-macuilxochitl.json",
           "ranking": 2
@@ -119,6 +126,14 @@
       ]
     },
     {
+      "room_id": "sala-teotihuacan",
+      "numero_oficial": "2",
+      "nombre_oficial": "Sala Teotihuacán",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Teotihuacán",
+      "svg_id": "room-teotihuacan",
       "id": "sala-teotihuacan",
       "name": "Sala Teotihuacán",
       "culture": "Mesoamérica",
@@ -129,21 +144,20 @@
       ],
       "short_description": "Obras destacadas de la Sala Teotihuacán",
       "floor": 1,
-      "map_svg_id": "room-teotihuacan",
       "featured_pieces": [
         "diosa-del-agua-chalchiuhtlicue",
         "disco-de-la-muerte-mictlantecuhtli"
       ],
       "coords": {
-        "x": 22,
-        "y": 50
+        "x": 80,
+        "y": 44
       },
       "pieces_info": [
         {
           "poi_id": "diosa-del-agua-chalchiuhtlicue",
           "title": "Diosa del Agua (Chalchiuhtlicue)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Anales_%28IA_analesmuseonat02mexi%29.pdf",
           "file": "data/mna/sala-teotihuacan/diosa-del-agua-chalchiuhtlicue.json",
           "ranking": 1
@@ -152,7 +166,7 @@
           "poi_id": "disco-de-la-muerte-mictlantecuhtli",
           "title": "Disco de la Muerte (Mictlantecuhtli)",
           "is_premium": false,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/27/MNA_-_Sala_Teotihuacan_-_Disco_de_la_muerte.JPG",
           "file": "data/mna/sala-teotihuacan/disco-de-la-muerte-mictlantecuhtli.json",
           "ranking": 1
@@ -161,7 +175,7 @@
           "poi_id": "fachada-del-templo-de-la-serpiente-emplumada",
           "title": "Fachada del Templo de la Serpiente Emplumada",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Breve_gu%C3%ADa_descriptiva_del_Museo_Nacional_de_M%C3%A9xico_%28IA_breveguiadescrip00museiala%29.pdf",
           "file": "data/mna/sala-teotihuacan/fachada-del-templo-de-la-serpiente-emplumada.json",
           "ranking": 1
@@ -170,7 +184,7 @@
           "poi_id": "mascara-de-malinaltepec",
           "title": "Máscara de Malinaltepec",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/d/d2/M%C3%A1scara_de_Malinaltepec_-_MNA.jpg",
           "file": "data/mna/sala-teotihuacan/mascara-de-malinaltepec.json",
           "ranking": 2
@@ -179,7 +193,7 @@
           "poi_id": "mural-del-tlalocan-tepantitla",
           "title": "Mural del Tlalocan (Tepantitla)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/3/39/Detalle_de_mural_del_Tlalocan_de_Tepantitla_-_Teotihuacan.jpg",
           "file": "data/mna/sala-teotihuacan/mural-del-tlalocan-tepantitla.json",
           "ranking": 1
@@ -188,7 +202,7 @@
           "poi_id": "incensario-tipo-teatro",
           "title": "Incensario Tipo Teatro",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/7d/La_belleza_del_alma_-_comedia_en_tres_actos_y_en_verso_%28IA_labellezadelalma481rico%29.pdf",
           "file": "data/mna/sala-teotihuacan/incensario-tipo-teatro.json",
           "ranking": 2
@@ -197,7 +211,7 @@
           "poi_id": "escultura-del-dios-viejo-del-fuego-huehueteotl",
           "title": "Escultura del Dios Viejo del Fuego (Huehuetéotl)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-teotihuacan/escultura-del-dios-viejo-del-fuego-huehueteotl.json",
           "ranking": 2
@@ -206,7 +220,7 @@
           "poi_id": "vaso-tripode-con-tapa-conica",
           "title": "Vaso trípode con tapa cónica",
           "is_premium": true,
-          "estimated_minutes": 2,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-teotihuacan/vaso-tripode-con-tapa-conica.json",
           "ranking": 2
@@ -215,7 +229,7 @@
           "poi_id": "jaguar-de-xalla",
           "title": "Jaguar de Xalla",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-teotihuacan/jaguar-de-xalla.json",
           "ranking": 2
@@ -224,7 +238,7 @@
           "poi_id": "marcador-del-juego-de-pelota-de-la-ventilla",
           "title": "Marcador del Juego de Pelota de La Ventilla",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-teotihuacan/marcador-del-juego-de-pelota-de-la-ventilla.json",
           "ranking": 2
@@ -232,6 +246,14 @@
       ]
     },
     {
+      "room_id": "sala-maya",
+      "numero_oficial": "3",
+      "nombre_oficial": "Sala Maya",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Maya",
+      "svg_id": "room-maya",
       "id": "sala-maya",
       "name": "Sala Maya",
       "culture": "Mesoamérica",
@@ -242,14 +264,13 @@
       ],
       "short_description": "Obras destacadas de la Sala Maya",
       "floor": 1,
-      "map_svg_id": "room-maya",
       "featured_pieces": [
         "mascara-funeraria-de-pakal",
         "lapida-del-sarcofago-de-pakal-reconstruccion"
       ],
       "coords": {
-        "x": 78,
-        "y": 64
+        "x": 20,
+        "y": 58
       },
       "pieces_info": [
         {
@@ -274,7 +295,7 @@
           "poi_id": "dintel-26-de-yaxchilan",
           "title": "Dintel 26 de Yaxchilán",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Dintel_26_de_Yachil%C3%A1n_2.jpg",
           "file": "data/mna/sala-maya/dintel-26-de-yaxchilan.json",
           "ranking": 1
@@ -283,7 +304,7 @@
           "poi_id": "chac-mool-de-chichen-itza",
           "title": "Chac Mool de Chichén Itzá",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Breve_gu%C3%ADa_descriptiva_del_Museo_Nacional_de_M%C3%A9xico_%28IA_breveguiadescrip00museiala%29.pdf",
           "file": "data/mna/sala-maya/chac-mool-de-chichen-itza.json",
           "ranking": 1
@@ -292,7 +313,7 @@
           "poi_id": "mascara-de-calakmul",
           "title": "Máscara de Calakmul",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Funerary_jade_mask%2C_Calakmul%2C_Mexico_%28m%C3%A1scara_funeraria%29.jpg",
           "file": "data/mna/sala-maya/mascara-de-calakmul.json",
           "ranking": 1
@@ -301,7 +322,7 @@
           "poi_id": "el-luchador-o-joven-de-copan",
           "title": "El Luchador o Joven de Copán",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-maya/el-luchador-o-joven-de-copan.json",
           "ranking": 2
@@ -310,7 +331,7 @@
           "poi_id": "estela-de-madrid-o-estela-51-de-calakmul",
           "title": "Estela de Madrid o Estela 51 de Calakmul",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-maya/estela-de-madrid-o-estela-51-de-calakmul.json",
           "ranking": 2
@@ -319,7 +340,7 @@
           "poi_id": "vasija-tipo-codice-con-senores-del-inframundo",
           "title": "Vasija tipo Códice con Señores del Inframundo",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-maya/vasija-tipo-codice-con-senores-del-inframundo.json",
           "ranking": 2
@@ -328,7 +349,7 @@
           "poi_id": "incensario-efigie-de-palenque",
           "title": "Incensario Efigie de Palenque",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/43/Incensario_maya._Palenque._20260227a.jpg",
           "file": "data/mna/sala-maya/incensario-efigie-de-palenque.json",
           "ranking": 2
@@ -337,7 +358,7 @@
           "poi_id": "friso-de-placeres-de-oro",
           "title": "Friso de Placeres de Oro",
           "is_premium": true,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Las_siete_l%C3%A1mparas_de_la_arquitectura_-_bdh0000190784.pdf",
           "file": "data/mna/sala-maya/friso-de-placeres-de-oro.json",
           "ranking": 2
@@ -345,6 +366,14 @@
       ]
     },
     {
+      "room_id": "sala-costa_del_golfo",
+      "numero_oficial": "4",
+      "nombre_oficial": "Sala Costa del Golfo",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Costa del Golfo",
+      "svg_id": "room-costa_del_golfo",
       "id": "sala-costa_del_golfo",
       "name": "Sala Costa del Golfo",
       "culture": "Mesoamérica",
@@ -355,14 +384,13 @@
       ],
       "short_description": "Obras destacadas de la Sala Costa del Golfo",
       "floor": 1,
-      "map_svg_id": "room-costa_del_golfo",
       "featured_pieces": [
         "cabeza-colosal-olmeca-de-san-lorenzo-el-rey",
         "el-luchador-olmeca"
       ],
       "coords": {
-        "x": 78,
-        "y": 50
+        "x": 20,
+        "y": 44
       },
       "pieces_info": [
         {
@@ -378,7 +406,7 @@
           "poi_id": "el-luchador-olmeca",
           "title": "El Luchador Olmeca",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/1/11/P1000338-El_luchador_olmeca.JPG",
           "file": "data/mna/sala-costa_del_golfo/el-luchador-olmeca.json",
           "ranking": 1
@@ -387,7 +415,7 @@
           "poi_id": "senor-de-las-limas",
           "title": "Señor de Las Limas",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Senor_Limas_%28MNA%29.jpg",
           "file": "data/mna/sala-costa_del_golfo/senor-de-las-limas.json",
           "ranking": 1
@@ -396,7 +424,7 @@
           "poi_id": "el-adolescente-huasteco",
           "title": "El Adolescente Huasteco",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/5/53/El_adolescente_de_Tamu%C3%ADn_-_8.jpg",
           "file": "data/mna/sala-costa_del_golfo/el-adolescente-huasteco.json",
           "ranking": 1
@@ -405,7 +433,7 @@
           "poi_id": "diosa-de-la-fertilidad-las-caritas-sonrientes",
           "title": "Diosa de la Fertilidad (Las Caritas Sonrientes)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-costa_del_golfo/diosa-de-la-fertilidad-las-caritas-sonrientes.json",
           "ranking": 2
@@ -414,7 +442,7 @@
           "poi_id": "hacha-votiva-de-guerrero",
           "title": "Hacha Votiva de Guerrero",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Pr%C3%B3logos_de_la_trilog%C3%ADa._Nutall.pdf",
           "file": "data/mna/sala-costa_del_golfo/hacha-votiva-de-guerrero.json",
           "ranking": 2
@@ -423,7 +451,7 @@
           "poi_id": "yugo-ceremonial-de-rana",
           "title": "Yugo Ceremonial de Rana",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mundial_No._s.n._%28n%C3%BAmero_extraordinario%29_%281922%29.pdf",
           "file": "data/mna/sala-costa_del_golfo/yugo-ceremonial-de-rana.json",
           "ranking": 2
@@ -432,7 +460,7 @@
           "poi_id": "palma-esculpida-con-vuelo-de-aves",
           "title": "Palma Esculpida con Vuelo de Aves",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/7b/El_huerto_armonioso_-_Angel_de_Estrada.pdf",
           "file": "data/mna/sala-costa_del_golfo/palma-esculpida-con-vuelo-de-aves.json",
           "ranking": 2
@@ -441,7 +469,7 @@
           "poi_id": "monolito-del-monumento-19-de-la-venta",
           "title": "Monolito del Monumento 19 de La Venta",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Cat%C3%A1logo_de_la_Secci%C3%B3n_de_M%C3%A9xico_-_IA_catbalogosecc02mexirich.djvu",
           "file": "data/mna/sala-costa_del_golfo/monolito-del-monumento-19-de-la-venta.json",
           "ranking": 2
@@ -450,7 +478,7 @@
           "poi_id": "escultura-de-cihuateotl-mujer-diosa",
           "title": "Escultura de Cihuatéotl (Mujer Diosa)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-costa_del_golfo/escultura-de-cihuateotl-mujer-diosa.json",
           "ranking": 2
@@ -458,6 +486,14 @@
       ]
     },
     {
+      "room_id": "sala-oaxaca",
+      "numero_oficial": "5",
+      "nombre_oficial": "Sala Oaxaca",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Oaxaca",
+      "svg_id": "room-oaxaca",
       "id": "sala-oaxaca",
       "name": "Sala Oaxaca",
       "culture": "Mesoamérica",
@@ -468,14 +504,13 @@
       ],
       "short_description": "Obras destacadas de la Sala Oaxaca",
       "floor": 1,
-      "map_svg_id": "room-oaxaca",
       "featured_pieces": [
         "mascara-del-dios-murcielago",
         "lapida-de-los-danzantes-de-monte-alban"
       ],
       "coords": {
-        "x": 78,
-        "y": 36
+        "x": 20,
+        "y": 30
       },
       "pieces_info": [
         {
@@ -491,7 +526,7 @@
           "poi_id": "lapida-de-los-danzantes-de-monte-alban",
           "title": "Lápida de Los Danzantes de Monte Albán",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-oaxaca/lapida-de-los-danzantes-de-monte-alban.json",
           "ranking": 1
@@ -509,7 +544,7 @@
           "poi_id": "urna-funeraria-del-dios-pitao-cocijo",
           "title": "Urna Funeraria del Dios Pitao Cocijo",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-oaxaca/urna-funeraria-del-dios-pitao-cocijo.json",
           "ranking": 1
@@ -518,7 +553,7 @@
           "poi_id": "copa-de-cristal-de-roca-de-la-tumba-7",
           "title": "Copa de Cristal de Roca de la Tumba 7",
           "is_premium": true,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/49/Poesias_-_Juan_Cruz_Varela.pdf",
           "file": "data/mna/sala-oaxaca/copa-de-cristal-de-roca-de-la-tumba-7.json",
           "ranking": 2
@@ -527,7 +562,7 @@
           "poi_id": "craneo-con-mosaico-de-turquesa-tumba-7",
           "title": "Cráneo con Mosaico de Turquesa (Tumba 7)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/72/Prisma_No._29.pdf",
           "file": "data/mna/sala-oaxaca/craneo-con-mosaico-de-turquesa-tumba-7.json",
           "ranking": 2
@@ -536,7 +571,7 @@
           "poi_id": "lapida-de-noriega",
           "title": "Lápida de Noriega",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/8/86/Asturias_monumental%2C_epigr%C3%A1fica_y_diplom%C3%A1tica%2C_datos_para_la_historia_de_la_provincia_%28IA_asturiasmonument01migu%29.pdf",
           "file": "data/mna/sala-oaxaca/lapida-de-noriega.json",
           "ranking": 2
@@ -545,7 +580,7 @@
           "poi_id": "urna-de-la-diosa-13-serpiente",
           "title": "Urna de la Diosa 13 Serpiente",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Breve_gu%C3%ADa_descriptiva_del_Museo_Nacional_de_M%C3%A9xico_%28IA_breveguiadescrip00museiala%29.pdf",
           "file": "data/mna/sala-oaxaca/urna-de-la-diosa-13-serpiente.json",
           "ranking": 2
@@ -554,7 +589,7 @@
           "poi_id": "disco-de-mosaico-de-turquesa-y-concha",
           "title": "Disco de Mosaico de Turquesa y Concha",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/25/Cat%C3%A1logo_de_los_objetos_etnol%C3%B3gicos_y_arqueol%C3%B3gicos_exhibidos_por_la_expedici%C3%B3n_Hemenway_%28IA_catbalogodelosobj00fewkrich%29.pdf",
           "file": "data/mna/sala-oaxaca/disco-de-mosaico-de-turquesa-y-concha.json",
           "ranking": 2
@@ -563,7 +598,7 @@
           "poi_id": "maqueta-del-palacio-de-las-columnas-de-mitla",
           "title": "Maqueta del Palacio de las Columnas de Mitla",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-oaxaca/maqueta-del-palacio-de-las-columnas-de-mitla.json",
           "ranking": 2
@@ -571,6 +606,14 @@
       ]
     },
     {
+      "room_id": "sala-tolteca",
+      "numero_oficial": "6",
+      "nombre_oficial": "Sala Tolteca y el Epiclásico",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Tolteca y el Epiclásico",
+      "svg_id": "room-tolteca",
       "id": "sala-tolteca",
       "name": "Sala Tolteca y el Epiclásico",
       "culture": "Mesoamérica",
@@ -581,14 +624,13 @@
       ],
       "short_description": "Obras destacadas de la Sala Tolteca y el Epiclásico",
       "floor": 1,
-      "map_svg_id": "room-tolteca",
       "featured_pieces": [
         "atlante-de-tula-escultura-colosal",
         "chac-mool-de-tula"
       ],
       "coords": {
-        "x": 22,
-        "y": 36
+        "x": 80,
+        "y": 30
       },
       "pieces_info": [
         {
@@ -604,7 +646,7 @@
           "poi_id": "chac-mool-de-tula",
           "title": "Chac Mool de Tula",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Breve_gu%C3%ADa_descriptiva_del_Museo_Nacional_de_M%C3%A9xico_%28IA_breveguiadescrip00museiala%29.pdf",
           "file": "data/mna/sala-tolteca/chac-mool-de-tula.json",
           "ranking": 1
@@ -613,7 +655,7 @@
           "poi_id": "cariatide-de-tula-guerrero-con-quechquemitl",
           "title": "Cariátide de Tula (Guerrero con Quechquemitl)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-tolteca/cariatide-de-tula-guerrero-con-quechquemitl.json",
           "ranking": 2
@@ -622,7 +664,7 @@
           "poi_id": "placa-de-concha-y-nacar-de-tula",
           "title": "Placa de Concha y Nácar de Tula",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Lecciones_de_medicina_legal_aplicada_%C3%A0_la_legislaci%C3%B3n_de_la_Rep%C3%BAblica_Argentina_%28Volume_2%29_%28IA_28320690RX2.nlm.nih.gov%29.pdf",
           "file": "data/mna/sala-tolteca/placa-de-concha-y-nacar-de-tula.json",
           "ranking": 2
@@ -631,7 +673,7 @@
           "poi_id": "lapida-con-relieve-de-aguila-devorando-corazones",
           "title": "Lápida con Relieve de Águila Devorando Corazones",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-tolteca/lapida-con-relieve-de-aguila-devorando-corazones.json",
           "ranking": 1
@@ -640,7 +682,7 @@
           "poi_id": "mural-del-hombre-pajaro-de-cacaxtla-reproduccion",
           "title": "Mural del Hombre Pájaro de Cacaxtla (Reproducción)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-tolteca/mural-del-hombre-pajaro-de-cacaxtla-reproduccion.json",
           "ranking": 1
@@ -649,7 +691,7 @@
           "poi_id": "mural-de-la-batalla-de-cacaxtla-fragmento",
           "title": "Mural de la Batalla de Cacaxtla (Fragmento)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-tolteca/mural-de-la-batalla-de-cacaxtla-fragmento.json",
           "ranking": 1
@@ -658,7 +700,7 @@
           "poi_id": "maqueta-de-la-piramide-de-las-serpientes-emplumadas-de-xochicalco",
           "title": "Maqueta de la Pirámide de las Serpientes Emplumadas de Xochicalco",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-tolteca/maqueta-de-la-piramide-de-las-serpientes-emplumadas-de-xochicalco.json",
           "ranking": 1
@@ -667,7 +709,7 @@
           "poi_id": "escultura-de-senor-con-yacameztli-nariguera-lunar",
           "title": "Escultura de Señor con Yacameztli (Nariguera Lunar)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-tolteca/escultura-de-senor-con-yacameztli-nariguera-lunar.json",
           "ranking": 2
@@ -676,7 +718,7 @@
           "poi_id": "cuchillo-de-obsidiana-excelsa-de-cantona",
           "title": "Cuchillo de Obsidiana Excelsa de Cantona",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-tolteca/cuchillo-de-obsidiana-excelsa-de-cantona.json",
           "ranking": 2
@@ -684,6 +726,14 @@
       ]
     },
     {
+      "room_id": "sala-occidente",
+      "numero_oficial": "7",
+      "nombre_oficial": "Sala Occidente de México",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Occidente de México",
+      "svg_id": "room-occidente",
       "id": "sala-occidente",
       "name": "Sala Occidente de México",
       "culture": "Mesoamérica",
@@ -694,21 +744,20 @@
       ],
       "short_description": "Obras destacadas de la Sala Occidente de México",
       "floor": 1,
-      "map_svg_id": "room-occidente",
       "featured_pieces": [
         "perritos-colimotes-danzantes",
         "el-chaman-o-guerrero-de-jalisco"
       ],
       "coords": {
-        "x": 78,
-        "y": 76
+        "x": 20,
+        "y": 72
       },
       "pieces_info": [
         {
           "poi_id": "perritos-colimotes-danzantes",
           "title": "Perritos Colimotes Danzantes",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-occidente/perritos-colimotes-danzantes.json",
           "ranking": 1
@@ -717,7 +766,7 @@
           "poi_id": "el-chaman-o-guerrero-de-jalisco",
           "title": "El Chamán o Guerrero de Jalisco",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-occidente/el-chaman-o-guerrero-de-jalisco.json",
           "ranking": 1
@@ -726,7 +775,7 @@
           "poi_id": "pareja-conyugal-de-nayarit-estilo-ixtlan-del-rio",
           "title": "Pareja Conyugal de Nayarit (Estilo Ixtlán del Río)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-occidente/pareja-conyugal-de-nayarit-estilo-ixtlan-del-rio.json",
           "ranking": 1
@@ -735,7 +784,7 @@
           "poi_id": "maqueta-de-fiesta-en-la-plaza-colima",
           "title": "Maqueta de Fiesta en la Plaza (Colima)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-occidente/maqueta-de-fiesta-en-la-plaza-colima.json",
           "ranking": 2
@@ -744,7 +793,7 @@
           "poi_id": "chac-mool-tarasco-de-tzintzuntzan",
           "title": "Chac Mool Tarasco de Tzintzuntzan",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Breve_gu%C3%ADa_descriptiva_del_Museo_Nacional_de_M%C3%A9xico_%28IA_breveguiadescrip00museiala%29.pdf",
           "file": "data/mna/sala-occidente/chac-mool-tarasco-de-tzintzuntzan.json",
           "ranking": 1
@@ -753,7 +802,7 @@
           "poi_id": "vasija-efigie-con-figura-de-acrobata-o-contorsionista",
           "title": "Vasija Efigie con Figura de Acróbata o Contorsionista",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-occidente/vasija-efigie-con-figura-de-acrobata-o-contorsionista.json",
           "ranking": 2
@@ -762,7 +811,7 @@
           "poi_id": "campanas-y-hachas-moneda-de-cobre-purepecha",
           "title": "Campanas y Hachas Moneda de Cobre Purépecha",
           "is_premium": false,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/3/30/Mitos_y_fantas%C3%ADas_de_los_aztecas.djvu",
           "file": "data/mna/sala-occidente/campanas-y-hachas-moneda-de-cobre-purepecha.json",
           "ranking": 1
@@ -771,7 +820,7 @@
           "poi_id": "figura-hueca-de-guerrero-con-armadura-de-nayarit",
           "title": "Figura Hueca de Guerrero con Armadura de Nayarit",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-occidente/figura-hueca-de-guerrero-con-armadura-de-nayarit.json",
           "ranking": 2
@@ -780,7 +829,7 @@
           "poi_id": "escultura-de-anciano-o-sabio-de-colima",
           "title": "Escultura de Anciano o Sabio de Colima",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Informe_que_la_Comisi%C3%B3n_para_el_estudio_de_los_medios_m%C3%A1s_adecuados_para_la_destrucci%C3%B3n_de_la_langosta_rinde_a_la_Secretar%C3%ADa_de_Fomento_%28IA_informequelacom00comi%29.pdf",
           "file": "data/mna/sala-occidente/escultura-de-anciano-o-sabio-de-colima.json",
           "ranking": 2
@@ -789,7 +838,7 @@
           "poi_id": "maqueta-de-yacata-de-tzintzuntzan",
           "title": "Maqueta de Yácata de Tzintzuntzan",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-occidente/maqueta-de-yacata-de-tzintzuntzan.json",
           "ranking": 2
@@ -797,6 +846,14 @@
       ]
     },
     {
+      "room_id": "sala-norte",
+      "numero_oficial": "8",
+      "nombre_oficial": "Sala del Norte de México",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala del Norte de México",
+      "svg_id": "room-norte",
       "id": "sala-norte",
       "name": "Sala del Norte de México",
       "culture": "Mesoamérica",
@@ -807,21 +864,20 @@
       ],
       "short_description": "Obras destacadas de la Sala del Norte de México",
       "floor": 1,
-      "map_svg_id": "room-norte",
       "featured_pieces": [
         "olla-efigie-con-guacamayas-de-paquime",
         "vasija-efigie-de-chaman-o-anciano-de-paquime"
       ],
       "coords": {
-        "x": 78,
-        "y": 88
+        "x": 20,
+        "y": 86
       },
       "pieces_info": [
         {
           "poi_id": "olla-efigie-con-guacamayas-de-paquime",
           "title": "Olla Efigie con Guacamayas de Paquimé",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-norte/olla-efigie-con-guacamayas-de-paquime.json",
           "ranking": 1
@@ -830,7 +886,7 @@
           "poi_id": "vasija-efigie-de-chaman-o-anciano-de-paquime",
           "title": "Vasija Efigie de Chamán o Anciano de Paquimé",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-norte/vasija-efigie-de-chaman-o-anciano-de-paquime.json",
           "ranking": 1
@@ -839,7 +895,7 @@
           "poi_id": "pectoral-o-dije-de-turquesa-de-casas-grandes",
           "title": "Pectoral o Dije de Turquesa de Casas Grandes",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-norte/pectoral-o-dije-de-turquesa-de-casas-grandes.json",
           "ranking": 1
@@ -848,7 +904,7 @@
           "poi_id": "cuchillo-de-caza-con-mango-de-asta-de-venado",
           "title": "Cuchillo de Caza con Mango de Asta de Venado",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/72/Cuento_del_lar_-_tragedia_r%C3%BAstica_en_cuatro_actos%2C_en_prosa_y_verso_%28IA_cuentodellartrag480reys%29.pdf",
           "file": "data/mna/sala-norte/cuchillo-de-caza-con-mango-de-asta-de-venado.json",
           "ranking": 2
@@ -857,7 +913,7 @@
           "poi_id": "cesto-espiral-de-fibras-de-yuca-y-sotol-cueva-de-la-candelaria",
           "title": "Cesto Espiral de Fibras de Yuca y Sotol (Cueva de la Candelaria)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-norte/cesto-espiral-de-fibras-de-yuca-y-sotol-cueva-de-la-candelaria.json",
           "ranking": 1
@@ -866,7 +922,7 @@
           "poi_id": "frontal-de-craneo-con-grabados-de-alta-vista-chalchihuites",
           "title": "Frontal de Cráneo con Grabados de Alta Vista (Chalchihuites)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-norte/frontal-de-craneo-con-grabados-de-alta-vista-chalchihuites.json",
           "ranking": 1
@@ -875,7 +931,7 @@
           "poi_id": "olla-globular-decorada-al-negativo-cultura-chalchihuites",
           "title": "Olla Globular Decorada al Negativo (Cultura Chalchihuites)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-norte/olla-globular-decorada-al-negativo-cultura-chalchihuites.json",
           "ranking": 2
@@ -884,7 +940,7 @@
           "poi_id": "sandalias-de-fibras-de-agave-de-la-cueva-de-paila",
           "title": "Sandalias de Fibras de Agave de la Cueva de Paila",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-norte/sandalias-de-fibras-de-agave-de-la-cueva-de-paila.json",
           "ranking": 2
@@ -893,7 +949,7 @@
           "poi_id": "pintura-rupestre-de-la-cueva-de-san-borjita-reproduccion",
           "title": "Pintura Rupestre de la Cueva de San Borjita (Reproducción)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-norte/pintura-rupestre-de-la-cueva-de-san-borjita-reproduccion.json",
           "ranking": 1
@@ -902,7 +958,7 @@
           "poi_id": "maqueta-del-complejo-urbano-de-paquime",
           "title": "Maqueta del Complejo Urbano de Paquimé",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-norte/maqueta-del-complejo-urbano-de-paquime.json",
           "ranking": 2
@@ -910,6 +966,14 @@
       ]
     },
     {
+      "room_id": "sala-preclasico",
+      "numero_oficial": "9",
+      "nombre_oficial": "Sala Preclásico del Altiplano Central",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Preclásico del Altiplano Central",
+      "svg_id": "room-preclasico",
       "id": "sala-preclasico",
       "name": "Sala Preclásico del Altiplano Central",
       "culture": "Mesoamérica",
@@ -920,21 +984,20 @@
       ],
       "short_description": "Obras destacadas de la Sala Preclásico del Altiplano Central",
       "floor": 1,
-      "map_svg_id": "room-preclasico",
       "featured_pieces": [
         "el-acrobata-de-tlatilco",
         "mujer-bonita-con-dos-cabezas-de-tlatilco"
       ],
       "coords": {
-        "x": 22,
-        "y": 64
+        "x": 80,
+        "y": 58
       },
       "pieces_info": [
         {
           "poi_id": "el-acrobata-de-tlatilco",
           "title": "El Acróbata de Tlatilco",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Acr%C3%B3bata_de_Tlatilco_%28reconstituci%C3%B3n%29.JPG",
           "file": "data/mna/sala-preclasico/el-acrobata-de-tlatilco.json",
           "ranking": 1
@@ -943,7 +1006,7 @@
           "poi_id": "mujer-bonita-con-dos-cabezas-de-tlatilco",
           "title": "Mujer Bonita con Dos Cabezas de Tlatilco",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-preclasico/mujer-bonita-con-dos-cabezas-de-tlatilco.json",
           "ranking": 1
@@ -952,7 +1015,7 @@
           "poi_id": "mascara-dual-de-tlatilco",
           "title": "Máscara Dual de Tlatilco",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-preclasico/mascara-dual-de-tlatilco.json",
           "ranking": 1
@@ -961,7 +1024,7 @@
           "poi_id": "danzante-con-mascara-de-pato-de-tlatilco",
           "title": "Danzante con Máscara de Pato de Tlatilco",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-preclasico/danzante-con-mascara-de-pato-de-tlatilco.json",
           "ranking": 2
@@ -970,7 +1033,7 @@
           "poi_id": "el-rey-o-monolito-1-de-chalcatzingo-calco",
           "title": "El Rey o Monolito 1 de Chalcatzingo (Calco)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-preclasico/el-rey-o-monolito-1-de-chalcatzingo-calco.json",
           "ranking": 1
@@ -979,7 +1042,7 @@
           "poi_id": "huehueteotl-de-cuicuilco-dios-viejo-del-fuego",
           "title": "Huehuetéotl de Cuicuilco (Dios Viejo del Fuego)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-preclasico/huehueteotl-de-cuicuilco-dios-viejo-del-fuego.json",
           "ranking": 1
@@ -988,7 +1051,7 @@
           "poi_id": "figurilla-de-mujer-de-cuicuilco-con-tocado-escalonado",
           "title": "Figurilla de Mujer de Cuicuilco con Tocado Escalonado",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-preclasico/figurilla-de-mujer-de-cuicuilco-con-tocado-escalonado.json",
           "ranking": 2
@@ -997,7 +1060,7 @@
           "poi_id": "vasija-efigie-de-pato-con-cuello-largo-tlapacoya",
           "title": "Vasija Efigie de Pato con Cuello Largo (Tlapacoya)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-preclasico/vasija-efigie-de-pato-con-cuello-largo-tlapacoya.json",
           "ranking": 2
@@ -1006,7 +1069,7 @@
           "poi_id": "monolito-de-la-fertilidad-de-chalcatzingo-estela-de-los-felinos",
           "title": "Monolito de la Fertilidad de Chalcatzingo (Estela de los Felinos)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-preclasico/monolito-de-la-fertilidad-de-chalcatzingo-estela-de-los-felinos.json",
           "ranking": 2
@@ -1015,7 +1078,7 @@
           "poi_id": "maqueta-del-gran-basamento-circular-de-cuicuilco",
           "title": "Maqueta del Gran Basamento Circular de Cuicuilco",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-preclasico/maqueta-del-gran-basamento-circular-de-cuicuilco.json",
           "ranking": 1
@@ -1023,6 +1086,14 @@
       ]
     },
     {
+      "room_id": "sala-poblamiento",
+      "numero_oficial": "10",
+      "nombre_oficial": "Sala Poblamiento de América",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Poblamiento de América",
+      "svg_id": "room-poblamiento",
       "id": "sala-poblamiento",
       "name": "Sala Poblamiento de América",
       "culture": "Mesoamérica",
@@ -1033,14 +1104,13 @@
       ],
       "short_description": "Obras destacadas de la Sala Poblamiento de América",
       "floor": 1,
-      "map_svg_id": "room-poblamiento",
       "featured_pieces": [
         "reconstruccion-del-esqueleto-de-mamut-de-santa-isabel-iztapan",
         "hueso-sacro-de-tequixquiac-arte-mueble-temprano"
       ],
       "coords": {
-        "x": 22,
-        "y": 76
+        "x": 80,
+        "y": 68
       },
       "pieces_info": [
         {
@@ -1065,7 +1135,7 @@
           "poi_id": "la-mujer-del-penon-iii-fosil-humano",
           "title": "La Mujer del Peñón III (Fósil Humano)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-poblamiento/la-mujer-del-penon-iii-fosil-humano.json",
           "ranking": 1
@@ -1074,7 +1144,7 @@
           "poi_id": "puntas-de-proyectil-clovis-y-folsom",
           "title": "Puntas de Proyectil Clovis y Folsom",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-poblamiento/puntas-de-proyectil-clovis-y-folsom.json",
           "ranking": 1
@@ -1083,7 +1153,7 @@
           "poi_id": "diorama-de-cazadores-en-el-pantano-lacustre",
           "title": "Diorama de Cazadores en el Pantano Lacustre",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-poblamiento/diorama-de-cazadores-en-el-pantano-lacustre.json",
           "ranking": 2
@@ -1092,7 +1162,7 @@
           "poi_id": "raedera-y-cuchillos-de-silex-del-cerro-de-tecpan",
           "title": "Raedera y Cuchillos de Sílex del Cerro de Tecpan",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-poblamiento/raedera-y-cuchillos-de-silex-del-cerro-de-tecpan.json",
           "ranking": 2
@@ -1101,7 +1171,7 @@
           "poi_id": "el-hombre-de-chimalhuacan",
           "title": "El Hombre de Chimalhuacán",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Cr%C3%A1neo_del_Hombre_de_Chimalhuac%C3%A1n.jpg",
           "file": "data/mna/sala-poblamiento/el-hombre-de-chimalhuacan.json",
           "ranking": 2
@@ -1110,7 +1180,7 @@
           "poi_id": "restos-fosilizados-de-perezoso-gigante-eremotherium",
           "title": "Restos Fosilizados de Perezoso Gigante (Eremotherium)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-poblamiento/restos-fosilizados-de-perezoso-gigante-eremotherium.json",
           "ranking": 2
@@ -1128,7 +1198,7 @@
           "poi_id": "mortero-y-metate-arcaico-con-mano-de-molienda",
           "title": "Mortero y Metate Arcaico con Mano de Molienda",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-poblamiento/mortero-y-metate-arcaico-con-mano-de-molienda.json",
           "ranking": 2
@@ -1136,6 +1206,14 @@
       ]
     },
     {
+      "room_id": "sala-introduccion_antropologia",
+      "numero_oficial": "11",
+      "nombre_oficial": "Sala Introducción a la Antropología",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Introducción a la Antropología",
+      "svg_id": "room-introduccion_antropologia",
       "id": "sala-introduccion_antropologia",
       "name": "Sala Introducción a la Antropología",
       "culture": "Mesoamérica",
@@ -1146,14 +1224,13 @@
       ],
       "short_description": "Obras destacadas de la Sala Introducción a la Antropología",
       "floor": 1,
-      "map_svg_id": "room-introduccion_antropologia",
       "featured_pieces": [
         "reconstruccion-hiperrealista-de-lucy-australopithecus-afarensis",
         "craneo-fosil-de-nino-de-taung-australopithecus-africanus"
       ],
       "coords": {
-        "x": 22,
-        "y": 88
+        "x": 80,
+        "y": 78
       },
       "pieces_info": [
         {
@@ -1169,7 +1246,7 @@
           "poi_id": "craneo-fosil-de-nino-de-taung-australopithecus-africanus",
           "title": "Cráneo Fósil de Niño de Taung (Australopithecus africanus)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/5/59/Taung_child_%28Frankfurt_am_Main%29_1-EditMylius.jpg",
           "file": "data/mna/sala-introduccion_antropologia/craneo-fosil-de-nino-de-taung-australopithecus-africanus.json",
           "ranking": 2
@@ -1178,7 +1255,7 @@
           "poi_id": "craneo-de-turkana-boy-homo-ergaster-erectus",
           "title": "Cráneo de Turkana Boy (Homo ergaster / erectus)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-introduccion_antropologia/craneo-de-turkana-boy-homo-ergaster-erectus.json",
           "ranking": 1
@@ -1187,7 +1264,7 @@
           "poi_id": "hacha-bifaz-de-mano-achelense",
           "title": "Hacha Bifaz de Mano Achelense",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-introduccion_antropologia/hacha-bifaz-de-mano-achelense.json",
           "ranking": 2
@@ -1196,7 +1273,7 @@
           "poi_id": "reconstruccion-de-la-cabeza-del-hombre-de-neandertal",
           "title": "Reconstrucción de la Cabeza del Hombre de Neandertal",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-introduccion_antropologia/reconstruccion-de-la-cabeza-del-hombre-de-neandertal.json",
           "ranking": 1
@@ -1205,7 +1282,7 @@
           "poi_id": "entierro-de-shanidar-homo-neanderthalensis",
           "title": "Entierro de Shanidar (Homo neanderthalensis)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-introduccion_antropologia/entierro-de-shanidar-homo-neanderthalensis.json",
           "ranking": 1
@@ -1214,7 +1291,7 @@
           "poi_id": "reproduccion-de-la-venus-de-willendorf",
           "title": "Reproducción de la Venus de Willendorf",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-introduccion_antropologia/reproduccion-de-la-venus-de-willendorf.json",
           "ranking": 1
@@ -1223,7 +1300,7 @@
           "poi_id": "pintura-rupestre-de-la-cueva-de-lascaux-replica-de-panel",
           "title": "Pintura Rupestre de la Cueva de Lascaux (Réplica de Panel)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-introduccion_antropologia/pintura-rupestre-de-la-cueva-de-lascaux-replica-de-panel.json",
           "ranking": 2
@@ -1232,7 +1309,7 @@
           "poi_id": "craneo-fosil-de-cro-magnon-1-homo-sapiens-temprano",
           "title": "Cráneo Fósil de Cro-Magnon 1 (Homo sapiens temprano)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-introduccion_antropologia/craneo-fosil-de-cro-magnon-1-homo-sapiens-temprano.json",
           "ranking": 2
@@ -1241,7 +1318,7 @@
           "poi_id": "mural-holografico-de-la-diversidad-biocultural-humana",
           "title": "Mural Holográfico de la Diversidad Biocultural Humana",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-introduccion_antropologia/mural-holografico-de-la-diversidad-biocultural-humana.json",
           "ranking": 1
@@ -1249,6 +1326,14 @@
       ]
     },
     {
+      "room_id": "sala-gran_nayar",
+      "numero_oficial": "12",
+      "nombre_oficial": "Sala Gran Nayar",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Gran Nayar",
+      "svg_id": "room-gran_nayar",
       "id": "sala-gran_nayar",
       "name": "Sala Gran Nayar",
       "culture": "Mesoamérica",
@@ -1259,21 +1344,20 @@
       ],
       "short_description": "Obras destacadas de la Sala Gran Nayar",
       "floor": 1,
-      "map_svg_id": "room-gran_nayar",
       "featured_pieces": [
         "nierika-ceremonial-wixarika-cuadro-de-estambre-cosmico",
         "mascara-y-atuendo-de-judio-cora-de-semana-santa"
       ],
       "coords": {
-        "x": 25,
-        "y": 30
+        "x": 80,
+        "y": 62
       },
       "pieces_info": [
         {
           "poi_id": "nierika-ceremonial-wixarika-cuadro-de-estambre-cosmico",
           "title": "Nierika Ceremonial Wixárika (Cuadro de Estambre Cósmico)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-gran_nayar/nierika-ceremonial-wixarika-cuadro-de-estambre-cosmico.json",
           "ranking": 1
@@ -1282,7 +1366,7 @@
           "poi_id": "mascara-y-atuendo-de-judio-cora-de-semana-santa",
           "title": "Máscara y Atuendo de Judío Cora de Semana Santa",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-gran_nayar/mascara-y-atuendo-de-judio-cora-de-semana-santa.json",
           "ranking": 1
@@ -1291,7 +1375,7 @@
           "poi_id": "mura-kame-y-vara-de-mando-wixarika",
           "title": "Mura'kame y Vara de Mando Wixárika",
           "is_premium": false,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-gran_nayar/mura-kame-y-vara-de-mando-wixarika.json",
           "ranking": 1
@@ -1300,7 +1384,7 @@
           "poi_id": "tocado-y-mascara-de-danzante-de-la-urraca-naayeri",
           "title": "Tocado y Máscara de Danzante de la Urraca Náayeri",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-gran_nayar/tocado-y-mascara-de-danzante-de-la-urraca-naayeri.json",
           "ranking": 2
@@ -1309,7 +1393,7 @@
           "poi_id": "jicara-sagrada-rukuri-con-chaquira",
           "title": "Jícara Sagrada (Rukuri) con Chaquira",
           "is_premium": false,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-gran_nayar/jicara-sagrada-rukuri-con-chaquira.json",
           "ranking": 1
@@ -1318,7 +1402,7 @@
           "poi_id": "morral-tradicional-de-telar-de-cintura-kuchuri",
           "title": "Morral Tradicional de Telar de Cintura (Kuchuri)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-gran_nayar/morral-tradicional-de-telar-de-cintura-kuchuri.json",
           "ranking": 2
@@ -1327,7 +1411,7 @@
           "poi_id": "flecha-sagrada-ceremonial-urukame",
           "title": "Flecha Sagrada Ceremonial (Urukame)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-gran_nayar/flecha-sagrada-ceremonial-urukame.json",
           "ranking": 2
@@ -1336,7 +1420,7 @@
           "poi_id": "arco-musical-de-boca-cora-tupil",
           "title": "Arco Musical de Boca Cora (Tupil)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-gran_nayar/arco-musical-de-boca-cora-tupil.json",
           "ranking": 2
@@ -1345,7 +1429,7 @@
           "poi_id": "traje-femenino-tepehuano-del-sur-o-dam",
           "title": "Traje Femenino Tepehuano del Sur (O'dam)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-gran_nayar/traje-femenino-tepehuano-del-sur-o-dam.json",
           "ranking": 2
@@ -1354,7 +1438,7 @@
           "poi_id": "recreacion-del-patio-de-mitote-tradicional",
           "title": "Recreación del Patio de Mitote Tradicional",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-gran_nayar/recreacion-del-patio-de-mitote-tradicional.json",
           "ranking": 1
@@ -1362,6 +1446,14 @@
       ]
     },
     {
+      "room_id": "sala-etno_oaxaca",
+      "numero_oficial": "13",
+      "nombre_oficial": "Sala Pueblos de Oaxaca",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Pueblos de Oaxaca",
+      "svg_id": "room-etno_oaxaca",
       "id": "sala-etno_oaxaca",
       "name": "Sala Pueblos de Oaxaca",
       "culture": "Mesoamérica",
@@ -1372,21 +1464,20 @@
       ],
       "short_description": "Obras destacadas de la Sala Pueblos de Oaxaca",
       "floor": 1,
-      "map_svg_id": "room-etno_oaxaca",
       "featured_pieces": [
         "huipil-tradicional-triqui-rojo-de-copala",
         "traje-de-tehuana-de-terciopelo-con-resplandor-bidaani"
       ],
       "coords": {
-        "x": 75,
-        "y": 30
+        "x": 20,
+        "y": 25
       },
       "pieces_info": [
         {
           "poi_id": "huipil-tradicional-triqui-rojo-de-copala",
           "title": "Huipil Tradicional Triqui Rojo de Copala",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_oaxaca/huipil-tradicional-triqui-rojo-de-copala.json",
           "ranking": 1
@@ -1395,7 +1486,7 @@
           "poi_id": "traje-de-tehuana-de-terciopelo-con-resplandor-bidaani",
           "title": "Traje de Tehuana de Terciopelo con Resplandor (Bidaani')",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_oaxaca/traje-de-tehuana-de-terciopelo-con-resplandor-bidaani.json",
           "ranking": 1
@@ -1404,7 +1495,7 @@
           "poi_id": "mascara-de-diablo-de-collantes-costa-chica-afromexicana",
           "title": "Máscara de Diablo de Collantes (Costa Chica Afromexicana)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_oaxaca/mascara-de-diablo-de-collantes-costa-chica-afromexicana.json",
           "ranking": 1
@@ -1413,7 +1504,7 @@
           "poi_id": "recreacion-de-la-casa-tradicional-mazateca-y-altar-de-chamanismo",
           "title": "Recreación de la Casa Tradicional Mazateca y Altar de Chamanismo",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_oaxaca/recreacion-de-la-casa-tradicional-mazateca-y-altar-de-chamanismo.json",
           "ranking": 1
@@ -1422,7 +1513,7 @@
           "poi_id": "huipil-mazateco-de-huautla-de-jimenez",
           "title": "Huipil Mazateco de Huautla de Jiménez",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_oaxaca/huipil-mazateco-de-huautla-de-jimenez.json",
           "ranking": 2
@@ -1431,7 +1522,7 @@
           "poi_id": "mascara-de-tiliche-de-putla-villa-de-guerrero",
           "title": "Máscara de Tiliche de Putla Villa de Guerrero",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/27/Sones_y_Chilenas_de_Putla_Villa_de_Guerrero%2C_Oaxaca.jpg",
           "file": "data/mna/sala-etno_oaxaca/mascara-de-tiliche-de-putla-villa-de-guerrero.json",
           "ranking": 2
@@ -1440,7 +1531,7 @@
           "poi_id": "huipil-chinanteco-de-san-lucas-ojitlan",
           "title": "Huipil Chinanteco de San Lucas Ojitlán",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_oaxaca/huipil-chinanteco-de-san-lucas-ojitlan.json",
           "ranking": 1
@@ -1449,7 +1540,7 @@
           "poi_id": "atuendo-de-danzante-de-la-pluma-valle-de-oaxaca",
           "title": "Atuendo de Danzante de la Pluma (Valle de Oaxaca)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_oaxaca/atuendo-de-danzante-de-la-pluma-valle-de-oaxaca.json",
           "ranking": 1
@@ -1458,7 +1549,7 @@
           "poi_id": "mascara-de-rubios-de-juxtlahuaca-danza-de-los-rubios",
           "title": "Máscara de Rubios de Juxtlahuaca (Danza de los Rubios)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Escudo_de_Santiago_Juxtlahuaca.png",
           "file": "data/mna/sala-etno_oaxaca/mascara-de-rubios-de-juxtlahuaca-danza-de-los-rubios.json",
           "ranking": 2
@@ -1467,7 +1558,7 @@
           "poi_id": "red-de-pesca-y-atarraya-huave-pueblo-ikoods-de-san-mateo-del-mar",
           "title": "Red de Pesca y Atarraya Huave (Pueblo Ikoods de San Mateo del Mar)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_oaxaca/red-de-pesca-y-atarraya-huave-pueblo-ikoods-de-san-mateo-del-mar.json",
           "ranking": 2
@@ -1475,6 +1566,14 @@
       ]
     },
     {
+      "room_id": "sala-etno_maya",
+      "numero_oficial": "14",
+      "nombre_oficial": "Sala Pueblos Mayas",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Pueblos Mayas",
+      "svg_id": "room-etno_maya",
       "id": "sala-etno_maya",
       "name": "Sala Pueblos Mayas",
       "culture": "Mesoamérica",
@@ -1485,13 +1584,12 @@
       ],
       "short_description": "Obras destacadas de la Sala Pueblos Mayas",
       "floor": 1,
-      "map_svg_id": "room-etno_maya",
       "featured_pieces": [
         "tunica-lacandona-xikul-de-algodon-silvestre",
         "huipil-ceremonial-de-magdalena-aldama-tsotsil"
       ],
       "coords": {
-        "x": 75,
+        "x": 20,
         "y": 60
       },
       "pieces_info": [
@@ -1499,7 +1597,7 @@
           "poi_id": "tunica-lacandona-xikul-de-algodon-silvestre",
           "title": "Túnica Lacandona (Xikul) de Algodón Silvestre",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_maya/tunica-lacandona-xikul-de-algodon-silvestre.json",
           "ranking": 1
@@ -1508,7 +1606,7 @@
           "poi_id": "huipil-ceremonial-de-magdalena-aldama-tsotsil",
           "title": "Huipil Ceremonial de Magdalena Aldama (Tsotsil)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_maya/huipil-ceremonial-de-magdalena-aldama-tsotsil.json",
           "ranking": 1
@@ -1517,7 +1615,7 @@
           "poi_id": "atuendo-de-autoridad-tradicional-de-san-juan-chamula",
           "title": "Atuendo de Autoridad Tradicional de San Juan Chamula",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_maya/atuendo-de-autoridad-tradicional-de-san-juan-chamula.json",
           "ranking": 1
@@ -1526,7 +1624,7 @@
           "poi_id": "mascara-y-tocado-del-mono-sagrado-del-carnaval-de-tenejapa",
           "title": "Máscara y Tocado del Mono Sagrado del Carnaval de Tenejapa",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_maya/mascara-y-tocado-del-mono-sagrado-del-carnaval-de-tenejapa.json",
           "ranking": 2
@@ -1535,7 +1633,7 @@
           "poi_id": "terno-tradicional-de-mestiza-yucateca-tres-piezas",
           "title": "Terno Tradicional de Mestiza Yucateca (Tres Piezas)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_maya/terno-tradicional-de-mestiza-yucateca-tres-piezas.json",
           "ranking": 1
@@ -1544,7 +1642,7 @@
           "poi_id": "cruz-parlante-maya-de-quintana-roo-santuario-de-la-guerra-de-castas",
           "title": "Cruz Parlante Maya de Quintana Roo (Santuario de la Guerra de Castas)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_maya/cruz-parlante-maya-de-quintana-roo-santuario-de-la-guerra-de-castas.json",
           "ranking": 1
@@ -1553,7 +1651,7 @@
           "poi_id": "brasero-ceremonial-lacandon-de-barro-con-cabeza-de-deidad",
           "title": "Brasero Ceremonial Lacandón de Barro con Cabeza de Deidad",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_maya/brasero-ceremonial-lacandon-de-barro-con-cabeza-de-deidad.json",
           "ranking": 2
@@ -1562,7 +1660,7 @@
           "poi_id": "huipil-ceremonial-de-zinacantan-con-motivos-de-aves",
           "title": "Huipil Ceremonial de Zinacantán con Motivos de Aves",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_maya/huipil-ceremonial-de-zinacantan-con-motivos-de-aves.json",
           "ranking": 2
@@ -1571,7 +1669,7 @@
           "poi_id": "hamaca-de-fibras-de-henequen-peninsular",
           "title": "Hamaca de Fibras de Henequén Peninsular",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_maya/hamaca-de-fibras-de-henequen-peninsular.json",
           "ranking": 2
@@ -1580,7 +1678,7 @@
           "poi_id": "recreacion-del-altar-maya-del-ch-a-chaak-peticion-de-lluvia",
           "title": "Recreación del Altar Maya del Ch'a Cháak (Petición de Lluvia)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_maya/recreacion-del-altar-maya-del-ch-a-chaak-peticion-de-lluvia.json",
           "ranking": 1
@@ -1588,6 +1686,14 @@
       ]
     },
     {
+      "room_id": "sala-etno_purepecha",
+      "numero_oficial": "15",
+      "nombre_oficial": "Sala Puréecherio",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Puréecherio",
+      "svg_id": "room-etno_purepecha",
       "id": "sala-etno_purepecha",
       "name": "Sala Puréecherio",
       "culture": "Mesoamérica",
@@ -1598,21 +1704,20 @@
       ],
       "short_description": "Obras destacadas de la Sala Puréecherio",
       "floor": 1,
-      "map_svg_id": "room-etno_purepecha",
       "featured_pieces": [
         "canoa-monoxila-de-pesca-icharhuta-del-lago-de-patzcuaro",
         "red-de-mariposa-de-pesca-urhukua"
       ],
       "coords": {
-        "x": 25,
-        "y": 45
+        "x": 80,
+        "y": 48
       },
       "pieces_info": [
         {
           "poi_id": "canoa-monoxila-de-pesca-icharhuta-del-lago-de-patzcuaro",
           "title": "Canoa Monóxila de Pesca (Ichárhuta) del Lago de Pátzcuaro",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_purepecha/canoa-monoxila-de-pesca-icharhuta-del-lago-de-patzcuaro.json",
           "ranking": 1
@@ -1621,7 +1726,7 @@
           "poi_id": "red-de-mariposa-de-pesca-urhukua",
           "title": "Red de Mariposa de Pesca (Urhukua)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_purepecha/red-de-mariposa-de-pesca-urhukua.json",
           "ranking": 1
@@ -1639,7 +1744,7 @@
           "poi_id": "batea-de-maque-inciso-y-perfilado-en-oro-de-uruapan",
           "title": "Batea de Maque Inciso y Perfilado en Oro de Uruapan",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_purepecha/batea-de-maque-inciso-y-perfilado-en-oro-de-uruapan.json",
           "ranking": 1
@@ -1648,7 +1753,7 @@
           "poi_id": "olla-de-cobre-martillado-al-fuego-de-santa-clara-del-cobre",
           "title": "Olla de Cobre Martillado al Fuego de Santa Clara del Cobre",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/98/Tesoro_del_Parnaso_espa%C3%B1ol%2C_poesias_selectas_castellanas%2C_desde_el_tiempo_de_Juan_de_Mena_hasta_nuestro_d%C3%ADas_%28IA_tesorodelparnaso04quin%29.pdf",
           "file": "data/mna/sala-etno_purepecha/olla-de-cobre-martillado-al-fuego-de-santa-clara-del-cobre.json",
           "ranking": 1
@@ -1657,7 +1762,7 @@
           "poi_id": "guanengo-tradicional-bordado-en-punto-de-cruz-huanengu",
           "title": "Guanengo Tradicional Bordado en Punto de Cruz (Huanengu)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_purepecha/guanengo-tradicional-bordado-en-punto-de-cruz-huanengu.json",
           "ranking": 2
@@ -1666,7 +1771,7 @@
           "poi_id": "rebozo-tradicional-de-san-antonio-carapan-ikat-de-algodon",
           "title": "Rebozo Tradicional de San Antonio Carapan (Ikat de Algodón)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_purepecha/rebozo-tradicional-de-san-antonio-carapan-ikat-de-algodon.json",
           "ranking": 2
@@ -1675,7 +1780,7 @@
           "poi_id": "corona-y-atuendo-de-la-reina-del-fuego-nuevo-purepecha-ch-upiri-jimbani",
           "title": "Corona y Atuendo de la Reina del Fuego Nuevo Purépecha (Ch'upiri Jimbani)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_purepecha/corona-y-atuendo-de-la-reina-del-fuego-nuevo-purepecha-ch-upiri-jimbani.json",
           "ranking": 1
@@ -1684,7 +1789,7 @@
           "poi_id": "cristo-de-pasta-de-cana-de-maiz-tatzingueni",
           "title": "Cristo de Pasta de Caña de Maíz (Tatzingueni)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_purepecha/cristo-de-pasta-de-cana-de-maiz-tatzingueni.json",
           "ranking": 2
@@ -1701,6 +1806,14 @@
       ]
     },
     {
+      "room_id": "sala-etno_nahuas",
+      "numero_oficial": "16",
+      "nombre_oficial": "Sala Pueblos Nahuas",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Pueblos Nahuas",
+      "svg_id": "room-etno_nahuas",
       "id": "sala-etno_nahuas",
       "name": "Sala Pueblos Nahuas",
       "culture": "Mesoamérica",
@@ -1711,14 +1824,13 @@
       ],
       "short_description": "Obras destacadas de la Sala Pueblos Nahuas",
       "floor": 1,
-      "map_svg_id": "room-etno_nahuas",
       "featured_pieces": [
         "mascara-y-traje-del-tecuani-o-tigre-de-guerrero-danza-de-tecuanes",
         "papel-amate-pintado-tradicional-de-san-agustin-oapan"
       ],
       "coords": {
         "x": 50,
-        "y": 25
+        "y": 15
       },
       "pieces_info": [
         {
@@ -1734,7 +1846,7 @@
           "poi_id": "papel-amate-pintado-tradicional-de-san-agustin-oapan",
           "title": "Papel Amate Pintado Tradicional de San Agustín Oapan",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_nahuas/papel-amate-pintado-tradicional-de-san-agustin-oapan.json",
           "ranking": 1
@@ -1743,7 +1855,7 @@
           "poi_id": "quechquemotl-ceremonial-nahua-de-la-sierra-norte-de-puebla",
           "title": "Quechquémotl Ceremonial Nahua de la Sierra Norte de Puebla",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_nahuas/quechquemotl-ceremonial-nahua-de-la-sierra-norte-de-puebla.json",
           "ranking": 1
@@ -1752,7 +1864,7 @@
           "poi_id": "tocado-y-corona-del-danzante-quetzal-de-cuetzalan",
           "title": "Tocado y Corona del Danzante Quetzal de Cuetzalan",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_nahuas/tocado-y-corona-del-danzante-quetzal-de-cuetzalan.json",
           "ranking": 1
@@ -1770,7 +1882,7 @@
           "poi_id": "altar-domestico-de-peticion-de-lluvia-y-aires-sagrados-san-pedro-chenicuila",
           "title": "Altar Doméstico de Petición de Lluvia y Aires Sagrados (San Pedro Chenicuila)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_nahuas/altar-domestico-de-peticion-de-lluvia-y-aires-sagrados-san-pedro-chenicuila.json",
           "ranking": 2
@@ -1779,7 +1891,7 @@
           "poi_id": "cantaro-de-barro-canelo-con-pastillaje-de-ocumicho-guerrero",
           "title": "Cántaro de Barro Canelo con Pastillaje de Ocumicho / Guerrero",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_nahuas/cantaro-de-barro-canelo-con-pastillaje-de-ocumicho-guerrero.json",
           "ranking": 2
@@ -1788,7 +1900,7 @@
           "poi_id": "mascara-de-santiaguero-con-caballo-de-madera-sierra-de-zongolica",
           "title": "Máscara de Santiaguero con Caballo de Madera (Sierra de Zongolica)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_nahuas/mascara-de-santiaguero-con-caballo-de-madera-sierra-de-zongolica.json",
           "ranking": 2
@@ -1797,7 +1909,7 @@
           "poi_id": "recreacion-de-la-cocina-tradicional-nahua-con-comal-de-barro-y-tlecuil",
           "title": "Recreación de la Cocina Tradicional Nahua con Comal de Barro y Tlecuil",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_nahuas/recreacion-de-la-cocina-tradicional-nahua-con-comal-de-barro-y-tlecuil.json",
           "ranking": 1
@@ -1806,7 +1918,7 @@
           "poi_id": "faja-tradicional-de-telar-con-letras-y-saludos-xochitlalpan",
           "title": "Faja Tradicional de Telar con Letras y Saludos (Xochitlalpan)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_nahuas/faja-tradicional-de-telar-con-letras-y-saludos-xochitlalpan.json",
           "ranking": 2
@@ -1814,6 +1926,14 @@
       ]
     },
     {
+      "room_id": "sala-etno_golfo_huasteca",
+      "numero_oficial": "17",
+      "nombre_oficial": "Sala Pueblos del Golfo y Huasteca",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Pueblos del Golfo y Huasteca",
+      "svg_id": "room-etno_golfo_huasteca",
       "id": "sala-etno_golfo_huasteca",
       "name": "Sala Pueblos del Golfo y Huasteca",
       "culture": "Mesoamérica",
@@ -1824,14 +1944,13 @@
       ],
       "short_description": "Obras destacadas de la Sala Pueblos del Golfo y Huasteca",
       "floor": 1,
-      "map_svg_id": "room-etno_golfo_huasteca",
       "featured_pieces": [
         "atuendo-completo-y-tocado-de-danzante-volador-de-papantla",
         "quechquemotl-bordado-teenek-con-la-estrella-de-ocho-puntas-dhikbith"
       ],
       "coords": {
-        "x": 75,
-        "y": 45
+        "x": 20,
+        "y": 42
       },
       "pieces_info": [
         {
@@ -1847,7 +1966,7 @@
           "poi_id": "quechquemotl-bordado-teenek-con-la-estrella-de-ocho-puntas-dhikbith",
           "title": "Quechquémotl Bordado Téenek con la Estrella de Ocho Puntas (Dhikbith)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_golfo_huasteca/quechquemotl-bordado-teenek-con-la-estrella-de-ocho-puntas-dhikbith.json",
           "ranking": 1
@@ -1856,7 +1975,7 @@
           "poi_id": "figuras-ceremoniales-de-papel-amate-y-tijera-recortadas-san-pablito-pahuatlan",
           "title": "Figuras Ceremoniales de Papel Amate y Tijera Recortadas (San Pablito Pahuatlán)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_golfo_huasteca/figuras-ceremoniales-de-papel-amate-y-tijera-recortadas-san-pablito-pahuatlan.json",
           "ranking": 1
@@ -1865,7 +1984,7 @@
           "poi_id": "mascara-y-baston-de-danzante-guagua-de-la-sierra-totonaca",
           "title": "Máscara y Bastón de Danzante Guagua de la Sierra Totonaca",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_golfo_huasteca/mascara-y-baston-de-danzante-guagua-de-la-sierra-totonaca.json",
           "ranking": 1
@@ -1874,7 +1993,7 @@
           "poi_id": "traje-femenino-tepehua-de-pisaflores-con-bordados-en-hilo-rojo",
           "title": "Traje Femenino Tepehua de Pisaflores con Bordados en Hilo Rojo",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_golfo_huasteca/traje-femenino-tepehua-de-pisaflores-con-bordados-en-hilo-rojo.json",
           "ranking": 2
@@ -1883,7 +2002,7 @@
           "poi_id": "jarana-quinta-huapanguera-y-violin-del-trio-huasteco-tradicional",
           "title": "Jarana, Quinta Huapanguera y Violín del Trío Huasteco Tradicional",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_golfo_huasteca/jarana-quinta-huapanguera-y-violin-del-trio-huasteco-tradicional.json",
           "ranking": 1
@@ -1892,7 +2011,7 @@
           "poi_id": "mascara-de-viejito-y-comanche-de-la-fiesta-del-xantolo-dia-de-muertos",
           "title": "Máscara de Viejito y Comanche de la Fiesta del Xantolo (Día de Muertos)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_golfo_huasteca/mascara-de-viejito-y-comanche-de-la-fiesta-del-xantolo-dia-de-muertos.json",
           "ranking": 1
@@ -1901,7 +2020,7 @@
           "poi_id": "morral-tradicional-de-zapupe-bordado-a-mano-tantoyuca",
           "title": "Morral Tradicional de Zapupe Bordado a Mano (Tantoyuca)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_golfo_huasteca/morral-tradicional-de-zapupe-bordado-a-mano-tantoyuca.json",
           "ranking": 2
@@ -1910,7 +2029,7 @@
           "poi_id": "recreacion-de-la-casa-tradicional-totonaca-con-paredes-de-bajareque-y-techo-de-palma",
           "title": "Recreación de la Casa Tradicional Totonaca con Paredes de Bajareque y Techo de Palma",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_golfo_huasteca/recreacion-de-la-casa-tradicional-totonaca-con-paredes-de-bajareque-y-techo-de-palma.json",
           "ranking": 1
@@ -1919,7 +2038,7 @@
           "poi_id": "mascara-de-judio-y-corona-de-danzante-tepehua-de-huayacocotla",
           "title": "Máscara de Judío y Corona de Danzante Tepehua de Huayacocotla",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_golfo_huasteca/mascara-de-judio-y-corona-de-danzante-tepehua-de-huayacocotla.json",
           "ranking": 2
@@ -1927,6 +2046,14 @@
       ]
     },
     {
+      "room_id": "sala-etno_noroeste",
+      "numero_oficial": "18",
+      "nombre_oficial": "Sala El Noroeste",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala El Noroeste",
+      "svg_id": "room-etno_noroeste",
       "id": "sala-etno_noroeste",
       "name": "Sala El Noroeste",
       "culture": "Mesoamérica",
@@ -1937,14 +2064,13 @@
       ],
       "short_description": "Obras destacadas de la Sala El Noroeste",
       "floor": 1,
-      "map_svg_id": "room-etno_noroeste",
       "featured_pieces": [
         "cabeza-y-ajuar-del-danzante-del-venado-yaqui-maso-ya-ari",
         "mascara-de-judio-o-fariseo-mayo-yoreme-de-cuero-de-chivo"
       ],
       "coords": {
-        "x": 75,
-        "y": 75
+        "x": 20,
+        "y": 80
       },
       "pieces_info": [
         {
@@ -1960,7 +2086,7 @@
           "poi_id": "mascara-de-judio-o-fariseo-mayo-yoreme-de-cuero-de-chivo",
           "title": "Máscara de Judío o Fariseo Mayo/Yoreme de Cuero de Chivo",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_noroeste/mascara-de-judio-o-fariseo-mayo-yoreme-de-cuero-de-chivo.json",
           "ranking": 1
@@ -1969,7 +2095,7 @@
           "poi_id": "violin-de-madera-de-pino-tallado-a-mano-raramuri",
           "title": "Violín de Madera de Pino Tallado a Mano Rarámuri",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_noroeste/violin-de-madera-de-pino-tallado-a-mano-raramuri.json",
           "ranking": 1
@@ -1978,7 +2104,7 @@
           "poi_id": "coraza-o-atuendo-de-judio-raramuri-con-espada-de-madera",
           "title": "Coraza o Atuendo de Judío Rarámuri con Espada de Madera",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_noroeste/coraza-o-atuendo-de-judio-raramuri-con-espada-de-madera.json",
           "ranking": 1
@@ -1996,7 +2122,7 @@
           "poi_id": "escultura-de-palo-fierro-seri-de-borrego-cimarron",
           "title": "Escultura de Palo Fierro Seri de Borrego Cimarrón",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_noroeste/escultura-de-palo-fierro-seri-de-borrego-cimarron.json",
           "ranking": 2
@@ -2005,7 +2131,7 @@
           "poi_id": "bola-de-piedra-para-carrera-de-bola-raramuri-rarajipari",
           "title": "Bola de Piedra para Carrera de Bola Rarámuri (Rarajípari)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_noroeste/bola-de-piedra-para-carrera-de-bola-raramuri-rarajipari.json",
           "ranking": 1
@@ -2014,7 +2140,7 @@
           "poi_id": "mascara-de-pascola-yaqui-con-barba-de-crin-de-caballo",
           "title": "Máscara de Pascola Yaqui con Barba de Crin de Caballo",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_noroeste/mascara-de-pascola-yaqui-con-barba-de-crin-de-caballo.json",
           "ranking": 1
@@ -2023,7 +2149,7 @@
           "poi_id": "canasta-de-drenaje-y-canto-tohono-o-odham-papago",
           "title": "Canasta de Drenaje y Canto Tohono O'odham (Pápago)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_noroeste/canasta-de-drenaje-y-canto-tohono-o-odham-papago.json",
           "ranking": 2
@@ -2032,7 +2158,7 @@
           "poi_id": "recreacion-de-la-ramada-tradicional-ceremonial-yaqui-lutoria",
           "title": "Recreación de la Ramada Tradicional Ceremonial Yaqui (Lutoria)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_noroeste/recreacion-de-la-ramada-tradicional-ceremonial-yaqui-lutoria.json",
           "ranking": 1
@@ -2040,6 +2166,14 @@
       ]
     },
     {
+      "room_id": "sala-etno_otopames",
+      "numero_oficial": "19",
+      "nombre_oficial": "Sala Pueblos Otopames",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Pueblos Otopames",
+      "svg_id": "room-etno_otopames",
       "id": "sala-etno_otopames",
       "name": "Sala Pueblos Otopames",
       "culture": "Mesoamérica",
@@ -2050,14 +2184,13 @@
       ],
       "short_description": "Obras destacadas de la Sala Pueblos Otopames",
       "floor": 1,
-      "map_svg_id": "room-etno_otopames",
       "featured_pieces": [
         "lienzo-de-tenango-bordado-otomi-hnahnu-de-san-pablito-y-tenango",
         "quechquemotl-ceremonial-mazahua-con-bordado-de-pepenado-jnatjo"
       ],
       "coords": {
-        "x": 25,
-        "y": 60
+        "x": 80,
+        "y": 36
       },
       "pieces_info": [
         {
@@ -2073,7 +2206,7 @@
           "poi_id": "quechquemotl-ceremonial-mazahua-con-bordado-de-pepenado-jnatjo",
           "title": "Quechquémotl Ceremonial Mazahua con Bordado de Pepenado (Jñatjo)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_otopames/quechquemotl-ceremonial-mazahua-con-bordado-de-pepenado-jnatjo.json",
           "ranking": 1
@@ -2082,7 +2215,7 @@
           "poi_id": "ayate-tradicional-de-ixtle-fino-del-valle-del-mezquital",
           "title": "Ayate Tradicional de Ixtle Fino del Valle del Mezquital",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_otopames/ayate-tradicional-de-ixtle-fino-del-valle-del-mezquital.json",
           "ranking": 1
@@ -2091,7 +2224,7 @@
           "poi_id": "arracadas-de-filigrana-de-plata-mazahua-con-palomas",
           "title": "Arracadas de Filigrana de Plata Mazahua con Palomas",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_otopames/arracadas-de-filigrana-de-plata-mazahua-con-palomas.json",
           "ranking": 1
@@ -2100,7 +2233,7 @@
           "poi_id": "mascara-y-corona-de-danzante-arriero-de-temoaya-danza-de-arrieros",
           "title": "Máscara y Corona de Danzante Arriero de Temoaya (Danza de Arrieros)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_otopames/mascara-y-corona-de-danzante-arriero-de-temoaya-danza-de-arrieros.json",
           "ranking": 2
@@ -2109,7 +2242,7 @@
           "poi_id": "tapete-anudado-a-mano-de-temoaya-con-motivos-hnahnu",
           "title": "Tapete Anudado a Mano de Temoaya con Motivos Hñähñu",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_otopames/tapete-anudado-a-mano-de-temoaya-con-motivos-hnahnu.json",
           "ranking": 2
@@ -2118,7 +2251,7 @@
           "poi_id": "baston-ceremonial-de-mando-tlahuica-pjiekakjoo-de-ocuilan",
           "title": "Bastón Ceremonial de Mando Tlahuica / Pjiekakjoo de Ocuilan",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_otopames/baston-ceremonial-de-mando-tlahuica-pjiekakjoo-de-ocuilan.json",
           "ranking": 2
@@ -2127,7 +2260,7 @@
           "poi_id": "chiquihuite-y-cesteria-tradicional-de-vara-de-sauce-matlatzinca",
           "title": "Chiquihuite y Cestería Tradicional de Vara de Sauce Matlatzinca",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_otopames/chiquihuite-y-cesteria-tradicional-de-vara-de-sauce-matlatzinca.json",
           "ranking": 2
@@ -2136,7 +2269,7 @@
           "poi_id": "pectoral-y-sahumador-de-ceramica-pame-xi-ui-de-santa-maria-acapulco",
           "title": "Pectoral y Sahumador de Cerámica Pame (Xi'úi) de Santa María Acapulco",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_otopames/pectoral-y-sahumador-de-ceramica-pame-xi-ui-de-santa-maria-acapulco.json",
           "ranking": 2
@@ -2153,6 +2286,14 @@
       ]
     },
     {
+      "room_id": "sala-etno_sierra_puebla",
+      "numero_oficial": "20",
+      "nombre_oficial": "Sala Sierra de Puebla",
+      "piso": "PB",
+      "ala": "norte",
+      "frase_gancho": "",
+      "introduccion_narrativa": "Obras destacadas de la Sala Sierra de Puebla",
+      "svg_id": "room-etno_sierra_puebla",
       "id": "sala-etno_sierra_puebla",
       "name": "Sala Sierra de Puebla",
       "culture": "Mesoamérica",
@@ -2163,14 +2304,13 @@
       ],
       "short_description": "Obras destacadas de la Sala Sierra de Puebla",
       "floor": 1,
-      "map_svg_id": "room-etno_sierra_puebla",
       "featured_pieces": [
         "tocado-monumental-de-la-danza-de-los-quetzales-cuetzalan",
         "quechquemotl-de-gasa-en-telar-de-curvado-tradicional-hueyapan"
       ],
       "coords": {
-        "x": 25,
-        "y": 75
+        "x": 80,
+        "y": 24
       },
       "pieces_info": [
         {
@@ -2186,7 +2326,7 @@
           "poi_id": "quechquemotl-de-gasa-en-telar-de-curvado-tradicional-hueyapan",
           "title": "Quechquémotl de Gasa en Telar de Curvado Tradicional (Hueyapan)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_sierra_puebla/quechquemotl-de-gasa-en-telar-de-curvado-tradicional-hueyapan.json",
           "ranking": 1
@@ -2195,7 +2335,7 @@
           "poi_id": "mascara-y-atuendo-de-danzante-toreador-de-pahuatlan",
           "title": "Máscara y Atuendo de Danzante Toreador de Pahuatlán",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_sierra_puebla/mascara-y-atuendo-de-danzante-toreador-de-pahuatlan.json",
           "ranking": 1
@@ -2204,7 +2344,7 @@
           "poi_id": "camisa-femenina-totonaca-con-bordado-de-cuello-de-estrellas",
           "title": "Camisa Femenina Totonaca con Bordado de Cuello de Estrellas",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_sierra_puebla/camisa-femenina-totonaca-con-bordado-de-cuello-de-estrellas.json",
           "ranking": 2
@@ -2213,7 +2353,7 @@
           "poi_id": "mascara-de-huehue-de-cuetzalan-danza-de-los-viejos",
           "title": "Máscara de Huehue de Cuetzalan (Danza de los Viejos)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_sierra_puebla/mascara-de-huehue-de-cuetzalan-danza-de-los-viejos.json",
           "ranking": 1
@@ -2222,7 +2362,7 @@
           "poi_id": "papel-amate-calado-y-pintado-con-aves-sagradas-de-san-pablito",
           "title": "Papel Amate Calado y Pintado con Aves Sagradas de San Pablito",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_sierra_puebla/papel-amate-calado-y-pintado-con-aves-sagradas-de-san-pablito.json",
           "ranking": 1
@@ -2231,7 +2371,7 @@
           "poi_id": "faja-tradicional-de-algodon-tejida-con-palitos-tlahuitol",
           "title": "Faja Tradicional de Algodón Tejida con Palitos (Tlahuitol)",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_sierra_puebla/faja-tradicional-de-algodon-tejida-con-palitos-tlahuitol.json",
           "ranking": 2
@@ -2240,7 +2380,7 @@
           "poi_id": "mascara-y-corona-del-danzante-santiaguito-con-morral-de-palma",
           "title": "Máscara y Corona del Danzante Santiaguito con Morral de Palma",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_sierra_puebla/mascara-y-corona-del-danzante-santiaguito-con-morral-de-palma.json",
           "ranking": 2
@@ -2249,7 +2389,7 @@
           "poi_id": "recreacion-del-telar-de-cintura-serrano-con-urdimbre-en-proceso",
           "title": "Recreación del Telar de Cintura Serrano con Urdimbre en Proceso",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_sierra_puebla/recreacion-del-telar-de-cintura-serrano-con-urdimbre-en-proceso.json",
           "ranking": 1
@@ -2258,7 +2398,7 @@
           "poi_id": "maqueta-de-la-casa-tradicional-serrana-con-techo-de-tejamanil",
           "title": "Maqueta de la Casa Tradicional Serrana con Techo de Tejamanil",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
           "file": "data/mna/sala-etno_sierra_puebla/maqueta-de-la-casa-tradicional-serrana-con-techo-de-tejamanil.json",
           "ranking": 1
@@ -2288,16 +2428,15 @@
             "y": 50
           },
           "tags": [
-            "cosmovision",
-            "calendario",
-            "poder"
+            "arqueologia",
+            "mna"
           ]
         },
         {
           "poi_id": "coatlicue",
           "title": "Coatlicue",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Escultura_de_Coatlicue_-_Museo_Nacional_de_Antropolog%C3%ADa_-_Sala_6_-_Mexicas.jpg",
           "file": "data/mna/sala-mexica/coatlicue.json",
           "ranking": 1,
@@ -2308,16 +2447,15 @@
             "y": 50
           },
           "tags": [
-            "cosmovision",
-            "dioses",
-            "muerte"
+            "arqueologia",
+            "mna"
           ]
         },
         {
           "poi_id": "diosa-del-agua-chalchiuhtlicue",
           "title": "Diosa del Agua (Chalchiuhtlicue)",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Anales_%28IA_analesmuseonat02mexi%29.pdf",
           "file": "data/mna/sala-teotihuacan/diosa-del-agua-chalchiuhtlicue.json",
           "ranking": 1,
@@ -2328,16 +2466,15 @@
             "y": 50
           },
           "tags": [
-            "cosmovision",
-            "fertilidad",
-            "arquitectura"
+            "arqueologia",
+            "mna"
           ]
         },
         {
           "poi_id": "disco-de-la-muerte-mictlantecuhtli",
           "title": "Disco de la Muerte (Mictlantecuhtli)",
           "is_premium": false,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/27/MNA_-_Sala_Teotihuacan_-_Disco_de_la_muerte.JPG",
           "file": "data/mna/sala-teotihuacan/disco-de-la-muerte-mictlantecuhtli.json",
           "ranking": 1,
@@ -2348,16 +2485,15 @@
             "y": 50
           },
           "tags": [
-            "muerte",
-            "cosmovision",
-            "ritual"
+            "arqueologia",
+            "mna"
           ]
         },
         {
           "poi_id": "mascara-de-calakmul",
           "title": "Máscara de Calakmul",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Funerary_jade_mask%2C_Calakmul%2C_Mexico_%28m%C3%A1scara_funeraria%29.jpg",
           "file": "data/mna/sala-maya/mascara-de-calakmul.json",
           "ranking": 1,
@@ -2368,16 +2504,15 @@
             "y": 50
           },
           "tags": [
-            "jade",
-            "estatus",
-            "señores_serpiente"
+            "arqueologia",
+            "mna"
           ]
         },
         {
           "poi_id": "cabeza-de-coyolxauhqui",
           "title": "Cabeza de Coyolxauhqui",
           "is_premium": true,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/97/Cabeza_de_la_diosa_Coyolxauhqui.jpg",
           "file": "data/mna/sala-mexica/cabeza-de-coyolxauhqui.json",
           "ranking": 2,
@@ -2388,8 +2523,8 @@
             "y": 50
           },
           "tags": [
-            "mito_fundacional",
-            "dioses"
+            "arqueologia",
+            "mna"
           ]
         }
       ]
@@ -2415,16 +2550,15 @@
             "y": 50
           },
           "tags": [
-            "cosmovision",
-            "calendario",
-            "poder"
+            "arqueologia",
+            "mna"
           ]
         },
         {
           "poi_id": "coatlicue",
           "title": "Coatlicue",
           "is_premium": false,
-          "estimated_minutes": 4,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Escultura_de_Coatlicue_-_Museo_Nacional_de_Antropolog%C3%ADa_-_Sala_6_-_Mexicas.jpg",
           "file": "data/mna/sala-mexica/coatlicue.json",
           "ranking": 1,
@@ -2435,16 +2569,15 @@
             "y": 50
           },
           "tags": [
-            "cosmovision",
-            "dioses",
-            "muerte"
+            "arqueologia",
+            "mna"
           ]
         },
         {
           "poi_id": "disco-de-la-muerte-mictlantecuhtli",
           "title": "Disco de la Muerte (Mictlantecuhtli)",
           "is_premium": false,
-          "estimated_minutes": 3,
+          "estimated_minutes": 5,
           "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/2/27/MNA_-_Sala_Teotihuacan_-_Disco_de_la_muerte.JPG",
           "file": "data/mna/sala-teotihuacan/disco-de-la-muerte-mictlantecuhtli.json",
           "ranking": 1,
@@ -2455,9 +2588,8 @@
             "y": 50
           },
           "tags": [
-            "muerte",
-            "cosmovision",
-            "ritual"
+            "arqueologia",
+            "mna"
           ]
         }
       ]

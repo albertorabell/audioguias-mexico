@@ -1,34 +1,80 @@
 {
+  "piece_id": "el-luchador-olmeca",
+  "room_id": "sala-costa_del_golfo",
+  "piso": "PB",
+  "orden_sugerido": 2,
+  "titulo": "El Luchador Olmeca",
+  "frase_gancho": "El movimiento eterno esculpido en piedra: la fuerza viva de un ritual milenario.",
+  "puente_narrativo": "",
+  "guion_corto": "Obra cumbre del arte olmeca que rompe la rigidez estática prehispánica. Representa a un personaje de alto rango o chamán en torsión ritual, capturando una asombrosa tensión muscular y realismo anatómico.",
+  "guion_largo": "Esta célebre figura sentada de basalto rompe por completo la rigidez estática del arte mesoamericano temprano. Con una torsión helicoidal del torso, brazos levantados en tensión y una barba cuidadosamente modelada, representa a un atleta ceremonial, un chamán o un gobernante en trance. La maestría para capturar la musculatura y el movimiento la convierte en una de las esculturas más admiradas de la antigüedad prehispánica.",
+  "retos_observacion": [
+    "Detalle 1: Observe la torsión helicoidal del torso que invita a rodear la escultura",
+    "Detalle 2: Busque el fino grabado del bigote y la barba en la barbilla del personaje"
+  ],
+  "especificaciones": {
+    "Material": "Basalto",
+    "Procedencia": "Antonio Plaza, Veracruz, México",
+    "Dimensiones": "Alto: 66 cm, Ancho: 40 cm, Profundidad: 42 cm",
+    "Periodo": "Aproximadamente 1200–400 a.C."
+  },
+  "faq_mito": {
+    "pregunta": "¿Por qué se le conoce como 'El Luchador' si no es un atleta?",
+    "respuesta": "Es un nombre popular asignado en el siglo XX debido a su postura atlética y musculatura visible, aunque en la cultura olmeca las posturas corporales complejas simbolizaban trance, ejercicio de poder o movimiento chamánico."
+  },
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://upload.wikimedia.org/wikipedia/commons/1/11/P1000338-El_luchador_olmeca.JPG",
+  "is_free": true,
   "id": "el-luchador-olmeca",
   "poi_id": "el-luchador-olmeca",
-  "room_id": "sala-costa_del_golfo",
-  "site_id": "MNA",
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-costa_del_golfo",
     "room_name": "Sala Costa del Golfo",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 2,
-  "is_premium": false,
-  "estimated_minutes": 4,
-  "tags": [
-    "anatomia",
-    "dinamismo",
-    "arte"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "Obra cumbre del arte olmeca que rompe la rigidez estática prehispánica. Representa a un personaje de alto rango o chamán en torsión ritual, capturando una asombrosa tensión muscular y realismo anatómico.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Detalle 1: Observe la torsión helicoidal del torso que invita a rodear la escultura"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Detalle 2: Busque el fino grabado del bigote y la barba en la barbilla del personaje"
+    }
+  ],
+  "did_you_know": [],
+  "specs": {
+    "Material": "Basalto",
+    "Procedencia": "Antonio Plaza, Veracruz, México",
+    "Dimensiones": "Alto: 66 cm, Ancho: 40 cm, Profundidad: 42 cm",
+    "Periodo": "Aproximadamente 1200–400 a.C."
+  },
+  "faq": [
+    {
+      "question": "¿Por qué se le conoce como 'El Luchador' si no es un atleta?",
+      "answer": "Es un nombre popular asignado en el siglo XX debido a su postura atlética y musculatura visible, aunque en la cultura olmeca las posturas corporales complejas simbolizaban trance, ejercicio de poder o movimiento chamánico."
+    }
+  ],
   "identification": {
     "title": "El Luchador Olmeca",
-    "culture_period": "Olmeca / Preclásico Medio (1200–400 a.C.)",
+    "culture_period": "Aproximadamente 1200–400 a.C.",
     "room_zone": "Sala Costa del Golfo, Museo Nacional de Antropología",
     "tags": [
-      "anatomia",
-      "dinamismo",
-      "arte"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://upload.wikimedia.org/wikipedia/commons/1/11/P1000338-El_luchador_olmeca.JPG"
   },
@@ -40,60 +86,5 @@
   "audioguide": {
     "audio_script": "Esta célebre figura sentada de basalto rompe por completo la rigidez estática del arte mesoamericano temprano. Con una torsión helicoidal del torso, brazos levantados en tensión y una barba cuidadosamente modelada, representa a un atleta ceremonial, un chamán o un gobernante en trance. La maestría para capturar la musculatura y el movimiento la convierte en una de las esculturas más admiradas de la antigüedad prehispánica.",
     "audio_file_url": ""
-  },
-  "summary_30s": "Obra cumbre del arte olmeca que rompe la rigidez estática prehispánica. Representa a un personaje de alto rango o chamán en torsión ritual, capturando una asombrosa tensión muscular y realismo anatómico.",
-  "observation_challenges": [
-    {
-      "titulo": "Detalle 1",
-      "descripcion": "Observe la torsión helicoidal del torso que invita a rodear la escultura"
-    },
-    {
-      "titulo": "Detalle 2",
-      "descripcion": "Busque el fino grabado del bigote y la barba en la barbilla del personaje"
-    }
-  ],
-  "did_you_know": [
-    "Fue hallada de manera fortuita por campesinos en Antonio Plaza, Veracruz, en 1933 mientras limpiaban un terreno de cultivo.",
-    "A pesar de su célebre apodo, la arqueología descarta que fuera un atleta; se trata de un gobernante o chamán en una postura ritual de transformación."
-  ],
-  "specs": {
-    "material": "Basalto",
-    "provenance": "Antonio Plaza, Veracruz, México",
-    "weight": "Alto: 66 cm, Ancho: 40 cm, Profundidad: 42 cm",
-    "age": "Aproximadamente 1200–400 a.C."
-  },
-  "faq": [
-    {
-      "question": "¿Por qué se le conoce como 'El Luchador' si no es un atleta?",
-      "answer": "Es un nombre popular asignado en el siglo XX debido a su postura atlética y musculatura visible, aunque en la cultura olmeca las posturas corporales complejas simbolizaban trance, ejercicio de poder o movimiento chamánico."
-    }
-  ],
-  "visual_challenge": [
-    {
-      "id": "ch-1",
-      "title": "Detalle 1",
-      "clue": "Observe la torsión helicoidal del torso que invita a rodear la escultura"
-    },
-    {
-      "id": "ch-2",
-      "title": "Detalle 2",
-      "clue": "Busque el fino grabado del bigote y la barba en la barbilla del personaje"
-    }
-  ],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "Fue hallada de manera fortuita por campesinos en Antonio Plaza, Veracruz, en 1933 mientras limpiaban un terreno de cultivo."
-    },
-    {
-      "id": "cur-2",
-      "fact": "A pesar de su célebre apodo, la arqueología descarta que fuera un atleta; se trata de un gobernante o chamán en una postura ritual de transformación."
-    }
-  ],
-  "faqs": [
-    {
-      "question": "¿Por qué se le conoce como 'El Luchador' si no es un atleta?",
-      "answer": "Es un nombre popular asignado en el siglo XX debido a su postura atlética y musculatura visible, aunque en la cultura olmeca las posturas corporales complejas simbolizaban trance, ejercicio de poder o movimiento chamánico."
-    }
-  ]
+  }
 }

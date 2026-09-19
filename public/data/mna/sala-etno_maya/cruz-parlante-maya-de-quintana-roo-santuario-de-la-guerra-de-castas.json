@@ -1,64 +1,59 @@
 {
+  "piece_id": "cruz-parlante-maya-de-quintana-roo-santuario-de-la-guerra-de-castas",
+  "room_id": "sala-etno_maya",
+  "piso": "PB",
+  "orden_sugerido": 6,
+  "titulo": "Cruz Parlante Maya de Quintana Roo (Santuario de la Guerra de Castas)",
+  "frase_gancho": "",
+  "puente_narrativo": "",
+  "guion_corto": "",
+  "guion_largo": "Esta solemne cruz de madera vestida con huipil tradicional bordado y adornada con collares de cuentas testimonia la resistencia armada y espiritual de los mayas macehuales durante la Guerra de Castas (1847-1901). En el santuario selvático de Chan Santa Cruz (hoy Felipe Carrillo Puerto), los rebeldes mayas recibían mensajes proféticos de estas cruces que los alentaban a defender sus tierras comunales y su autonomía, fusionando el árbol sagrado de la Ceiba con el misticismo cristiano.",
+  "retos_observacion": [],
+  "especificaciones": {},
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://images.unsplash.com/photo-1518638150340-f706e86654de",
+  "is_free": true,
   "id": "cruz-parlante-maya-de-quintana-roo-santuario-de-la-guerra-de-castas",
   "poi_id": "cruz-parlante-maya-de-quintana-roo-santuario-de-la-guerra-de-castas",
-  "room_id": "sala-etno_maya",
-  "site_id": "MNA",
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-etno_maya",
     "room_name": "Sala Pueblos Mayas",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 6,
-  "is_premium": false,
-  "estimated_minutes": 4,
-  "tags": [
-    "guerra_de_castas",
-    "rebelion",
-    "cruces_vestidas"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "",
+  "observation_challenges": [],
+  "did_you_know": [],
+  "specs": {},
+  "faq": [],
   "identification": {
     "title": "Cruz Parlante Maya de Quintana Roo (Santuario de la Guerra de Castas)",
     "culture_period": "Mesoamérica",
     "room_zone": "Sala Pueblos Mayas, Museo Nacional de Antropología",
     "tags": [
-      "guerra_de_castas",
-      "rebelion",
-      "cruces_vestidas"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://images.unsplash.com/photo-1518638150340-f706e86654de"
   },
   "narrative": {
-    "one_liner": "Esta solemne cruz de madera vestida con huipil tradicional bordado y adornada con collares de cuentas testimonia la resistencia armada y espiritual de los mayas macehuales durante la Guerra de Castas (1847-1901).",
-    "short_desc": "Esta solemne cruz de madera vestida con huipil tradicional bordado y adornada con collares de cuentas testimonia la resistencia armada y espiritual de los mayas macehuales durante la Guerra de Castas (1847-1901).",
+    "one_liner": "",
+    "short_desc": "",
     "deep_desc": "Esta solemne cruz de madera vestida con huipil tradicional bordado y adornada con collares de cuentas testimonia la resistencia armada y espiritual de los mayas macehuales durante la Guerra de Castas (1847-1901). En el santuario selvático de Chan Santa Cruz (hoy Felipe Carrillo Puerto), los rebeldes mayas recibían mensajes proféticos de estas cruces que los alentaban a defender sus tierras comunales y su autonomía, fusionando el árbol sagrado de la Ceiba con el misticismo cristiano."
   },
   "audioguide": {
     "audio_script": "Esta solemne cruz de madera vestida con huipil tradicional bordado y adornada con collares de cuentas testimonia la resistencia armada y espiritual de los mayas macehuales durante la Guerra de Castas (1847-1901). En el santuario selvático de Chan Santa Cruz (hoy Felipe Carrillo Puerto), los rebeldes mayas recibían mensajes proféticos de estas cruces que los alentaban a defender sus tierras comunales y su autonomía, fusionando el árbol sagrado de la Ceiba con el misticismo cristiano.",
     "audio_file_url": ""
-  },
-  "summary_30s": "Esta solemne cruz de madera vestida con huipil tradicional bordado y adornada con collares de cuentas testimonia la resistencia armada y espiritual de los mayas macehuales durante la Guerra de Castas (1847-1901).",
-  "observation_challenges": [],
-  "did_you_know": [
-    "La cruz maya no representa la crucifixión europea, sino la Ceiba sagrada cuatripartita que sostiene los cuatro rincones del cielo maya."
-  ],
-  "specs": {
-    "material": "",
-    "provenance": "",
-    "weight": "",
-    "age": ""
-  },
-  "faq": [],
-  "visual_challenge": [],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "La cruz maya no representa la crucifixión europea, sino la Ceiba sagrada cuatripartita que sostiene los cuatro rincones del cielo maya."
-    }
-  ],
-  "faqs": []
+  }
 }

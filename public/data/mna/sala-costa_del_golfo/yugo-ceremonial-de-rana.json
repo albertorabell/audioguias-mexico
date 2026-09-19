@@ -1,34 +1,80 @@
 {
+  "piece_id": "yugo-ceremonial-de-rana",
+  "room_id": "sala-costa_del_golfo",
+  "piso": "PB",
+  "orden_sugerido": 7,
+  "titulo": "Yugo Ceremonial de Rana",
+  "frase_gancho": "La piedra metamórfica aprisiona el aliento de la tierra y eterniza el ritmo sagrado del juego de pelota.",
+  "puente_narrativo": "",
+  "guion_corto": "Escultura ritual en herradura que recrea el protector de cintura para el juego de pelota. Esta versión de piedra sirvió como ajuar funerario, asociando al anfibio con la fertilidad y el inframundo.",
+  "guion_largo": "Esta pesada pieza en forma de herradura esculpida en piedra verde oscura representa a una rana o sapo de la tierra, símbolo del monstruo acuático y la fertilidad del suelo. El yugo reproducía los protectores de cintura que los jugadores usaban para golpear la pesada pelota de hule natural durante el juego ceremonial, sirviendo en su versión lítica como ajuar funerario depositado alrededor de la cintura del difunto en su tumba.",
+  "retos_observacion": [
+    "Detalle 1: Observa los relieves estilizados de las extremidades de la rana esculpidos en la curvatura",
+    "Detalle 2: Busca el extraordinario brillo pulido de la superficie en la piedra verde oscura"
+  ],
+  "especificaciones": {
+    "Material": "Piedra metamórfica verde oscura (diorita o serpentinita)",
+    "Procedencia": "Centro de Veracruz, México",
+    "Dimensiones": "Aprox. 42 x 38 x 12 cm; peso aproximado de 25 kg",
+    "Periodo": "Aprox. 1,200 – 1,400 años de antigüedad"
+  },
+  "faq_mito": {
+    "pregunta": "¿Los atletas utilizaban este yugo de piedra durante los partidos del juego de pelota?",
+    "respuesta": "No, el peso de la piedra habría impedido el movimiento libre. En la cancha usaban cinturones protectores ligeros de madera, alcaparrosa o cuero, mientras que esta versión tallada en piedra era una pieza ceremonial y funeraria reservada para los ajuares de la nobleza."
+  },
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mundial_No._s.n._%28n%C3%BAmero_extraordinario%29_%281922%29.pdf",
+  "is_free": false,
   "id": "yugo-ceremonial-de-rana",
   "poi_id": "yugo-ceremonial-de-rana",
-  "room_id": "sala-costa_del_golfo",
-  "site_id": "MNA",
+  "is_premium": true,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-costa_del_golfo",
     "room_name": "Sala Costa del Golfo",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 7,
-  "is_premium": true,
-  "estimated_minutes": 3,
-  "tags": [
-    "juego_pelota",
-    "muerte",
-    "inframundo"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "Escultura ritual en herradura que recrea el protector de cintura para el juego de pelota. Esta versión de piedra sirvió como ajuar funerario, asociando al anfibio con la fertilidad y el inframundo.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Detalle 1: Observa los relieves estilizados de las extremidades de la rana esculpidos en la curvatura"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Detalle 2: Busca el extraordinario brillo pulido de la superficie en la piedra verde oscura"
+    }
+  ],
+  "did_you_know": [],
+  "specs": {
+    "Material": "Piedra metamórfica verde oscura (diorita o serpentinita)",
+    "Procedencia": "Centro de Veracruz, México",
+    "Dimensiones": "Aprox. 42 x 38 x 12 cm; peso aproximado de 25 kg",
+    "Periodo": "Aprox. 1,200 – 1,400 años de antigüedad"
+  },
+  "faq": [
+    {
+      "question": "¿Los atletas utilizaban este yugo de piedra durante los partidos del juego de pelota?",
+      "answer": "No, el peso de la piedra habría impedido el movimiento libre. En la cancha usaban cinturones protectores ligeros de madera, alcaparrosa o cuero, mientras que esta versión tallada en piedra era una pieza ceremonial y funeraria reservada para los ajuares de la nobleza."
+    }
+  ],
   "identification": {
     "title": "Yugo Ceremonial de Rana",
-    "culture_period": "Cultura del Centro de Veracruz (Totonaca) / Clásico Tardío (600–900 d.C.)",
+    "culture_period": "Aprox. 1,200 – 1,400 años de antigüedad",
     "room_zone": "Sala Costa del Golfo, Museo Nacional de Antropología",
     "tags": [
-      "juego_pelota",
-      "muerte",
-      "inframundo"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mundial_No._s.n._%28n%C3%BAmero_extraordinario%29_%281922%29.pdf"
   },
@@ -40,60 +86,5 @@
   "audioguide": {
     "audio_script": "Esta pesada pieza en forma de herradura esculpida en piedra verde oscura representa a una rana o sapo de la tierra, símbolo del monstruo acuático y la fertilidad del suelo. El yugo reproducía los protectores de cintura que los jugadores usaban para golpear la pesada pelota de hule natural durante el juego ceremonial, sirviendo en su versión lítica como ajuar funerario depositado alrededor de la cintura del difunto en su tumba.",
     "audio_file_url": ""
-  },
-  "summary_30s": "Escultura ritual en herradura que recrea el protector de cintura para el juego de pelota. Esta versión de piedra sirvió como ajuar funerario, asociando al anfibio con la fertilidad y el inframundo.",
-  "observation_challenges": [
-    {
-      "titulo": "Detalle 1",
-      "descripcion": "Observa los relieves estilizados de las extremidades de la rana esculpidos en la curvatura"
-    },
-    {
-      "titulo": "Detalle 2",
-      "descripcion": "Busca el extraordinario brillo pulido de la superficie en la piedra verde oscura"
-    }
-  ],
-  "did_you_know": [
-    "Los totonacos dominaron la técnica del pulido a espejo en piedras metamórficas duras sin herramientas de metal, usando únicamente abrasivos de arena fina y agua.",
-    "En la cancha real usaban yugos livianos de cuero o madera; las versiones líticas eran exclusivas para rituales y tumbas de la élite."
-  ],
-  "specs": {
-    "material": "Piedra metamórfica verde oscura (diorita o serpentinita)",
-    "provenance": "Centro de Veracruz, México",
-    "weight": "Aprox. 42 x 38 x 12 cm; peso aproximado de 25 kg",
-    "age": "Aprox. 1,200 – 1,400 años de antigüedad"
-  },
-  "faq": [
-    {
-      "question": "¿Los atletas utilizaban este yugo de piedra durante los partidos del juego de pelota?",
-      "answer": "No, el peso de la piedra habría impedido el movimiento libre. En la cancha usaban cinturones protectores ligeros de madera, alcaparrosa o cuero, mientras que esta versión tallada en piedra era una pieza ceremonial y funeraria reservada para los ajuares de la nobleza."
-    }
-  ],
-  "visual_challenge": [
-    {
-      "id": "ch-1",
-      "title": "Detalle 1",
-      "clue": "Observa los relieves estilizados de las extremidades de la rana esculpidos en la curvatura"
-    },
-    {
-      "id": "ch-2",
-      "title": "Detalle 2",
-      "clue": "Busca el extraordinario brillo pulido de la superficie en la piedra verde oscura"
-    }
-  ],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "Los totonacos dominaron la técnica del pulido a espejo en piedras metamórficas duras sin herramientas de metal, usando únicamente abrasivos de arena fina y agua."
-    },
-    {
-      "id": "cur-2",
-      "fact": "En la cancha real usaban yugos livianos de cuero o madera; las versiones líticas eran exclusivas para rituales y tumbas de la élite."
-    }
-  ],
-  "faqs": [
-    {
-      "question": "¿Los atletas utilizaban este yugo de piedra durante los partidos del juego de pelota?",
-      "answer": "No, el peso de la piedra habría impedido el movimiento libre. En la cancha usaban cinturones protectores ligeros de madera, alcaparrosa o cuero, mientras que esta versión tallada en piedra era una pieza ceremonial y funeraria reservada para los ajuares de la nobleza."
-    }
-  ]
+  }
 }

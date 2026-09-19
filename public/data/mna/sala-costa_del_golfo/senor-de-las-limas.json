@@ -1,34 +1,80 @@
 {
+  "piece_id": "senor-de-las-limas",
+  "room_id": "sala-costa_del_golfo",
+  "piso": "PB",
+  "orden_sugerido": 3,
+  "titulo": "Señor de Las Limas",
+  "frase_gancho": "En la frialdad de la piedra verde habita la memoria sagrada del origen olmeca.",
+  "puente_narrativo": "",
+  "guion_corto": "Obra cumbre olmeca en serpentina verde que muestra a un dignatario sosteniendo a un niño-jaguar divino, con grabados de cuatro deidades primordiales que revelan la compleja cosmogonía de la cultura madre.",
+  "guion_largo": "Tallada en piedra serpentina verde suavemente pulida, esta obra maestra representa a un sacerdote o dignatario sentado con las piernas cruzadas sosteniendo en su regazo el cuerpo inerte de un niño-jaguar divino. En los hombros, rodillas y rostro del personaje principal se encuentran grabados con trazo fino los rostros de cuatro dioses olmecas primordiales, constituyendo uno de los documentos teológicos más importantes sobre el panteón de la 'cultura madre'.",
+  "retos_observacion": [
+    "Detalle 1: Observa la figura inerte del niño-jaguar descansando sobre las piernas del sacerdote",
+    "Detalle 2: Busca los finos trazos grabados con los rostros divinos en hombros y rodillas"
+  ],
+  "especificaciones": {
+    "Material": "Piedra serpentina verde pulida",
+    "Procedencia": "Las Limas, Municipio de Jesús Carranza, Veracruz",
+    "Dimensiones": "55 cm de altura, 42 cm de ancho; peso aprox. 60 kg",
+    "Periodo": "Aproximadamente 2,800 a 3,000 años (1000–600 a.C.)"
+  },
+  "faq_mito": {
+    "pregunta": "¿Qué representa el personaje inerte que sostiene en su regazo?",
+    "respuesta": "Representa a un niño-jaguar sagrado o deidad infantil mística, vínculo supremo entre el mundo terrenal y el divino dentro de los ritos olmecas."
+  },
+  "map_x": 50,
+  "map_y": 50,
+  "image_filename": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Senor_Limas_%28MNA%29.jpg",
+  "is_free": true,
   "id": "senor-de-las-limas",
   "poi_id": "senor-de-las-limas",
-  "room_id": "sala-costa_del_golfo",
-  "site_id": "MNA",
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "arqueologia",
+    "mna"
+  ],
   "location": {
     "room_id": "sala-costa_del_golfo",
     "room_name": "Sala Costa del Golfo",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 3,
-  "is_premium": false,
-  "estimated_minutes": 4,
-  "tags": [
-    "cosmovision",
-    "chamanismo",
-    "bebes_jaguar"
-  ],
   "map_coords": {
     "x": 50,
     "y": 50
   },
+  "summary_30s": "Obra cumbre olmeca en serpentina verde que muestra a un dignatario sosteniendo a un niño-jaguar divino, con grabados de cuatro deidades primordiales que revelan la compleja cosmogonía de la cultura madre.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Detalle 1: Observa la figura inerte del niño-jaguar descansando sobre las piernas del sacerdote"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Detalle 2: Busca los finos trazos grabados con los rostros divinos en hombros y rodillas"
+    }
+  ],
+  "did_you_know": [],
+  "specs": {
+    "Material": "Piedra serpentina verde pulida",
+    "Procedencia": "Las Limas, Municipio de Jesús Carranza, Veracruz",
+    "Dimensiones": "55 cm de altura, 42 cm de ancho; peso aprox. 60 kg",
+    "Periodo": "Aproximadamente 2,800 a 3,000 años (1000–600 a.C.)"
+  },
+  "faq": [
+    {
+      "question": "¿Qué representa el personaje inerte que sostiene en su regazo?",
+      "answer": "Representa a un niño-jaguar sagrado o deidad infantil mística, vínculo supremo entre el mundo terrenal y el divino dentro de los ritos olmecas."
+    }
+  ],
   "identification": {
     "title": "Señor de Las Limas",
-    "culture_period": "Olmeca / Preclásico Medio (1000–600 a.C.)",
+    "culture_period": "Aproximadamente 2,800 a 3,000 años (1000–600 a.C.)",
     "room_zone": "Sala Costa del Golfo, Museo Nacional de Antropología",
     "tags": [
-      "cosmovision",
-      "chamanismo",
-      "bebes_jaguar"
+      "arqueologia",
+      "mna"
     ],
     "hero_image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Senor_Limas_%28MNA%29.jpg"
   },
@@ -40,60 +86,5 @@
   "audioguide": {
     "audio_script": "Tallada en piedra serpentina verde suavemente pulida, esta obra maestra representa a un sacerdote o dignatario sentado con las piernas cruzadas sosteniendo en su regazo el cuerpo inerte de un niño-jaguar divino. En los hombros, rodillas y rostro del personaje principal se encuentran grabados con trazo fino los rostros de cuatro dioses olmecas primordiales, constituyendo uno de los documentos teológicos más importantes sobre el panteón de la 'cultura madre'.",
     "audio_file_url": ""
-  },
-  "summary_30s": "Obra cumbre olmeca en serpentina verde que muestra a un dignatario sosteniendo a un niño-jaguar divino, con grabados de cuatro deidades primordiales que revelan la compleja cosmogonía de la cultura madre.",
-  "observation_challenges": [
-    {
-      "titulo": "Detalle 1",
-      "descripcion": "Observa la figura inerte del niño-jaguar descansando sobre las piernas del sacerdote"
-    },
-    {
-      "titulo": "Detalle 2",
-      "descripcion": "Busca los finos trazos grabados con los rostros divinos en hombros y rodillas"
-    }
-  ],
-  "did_you_know": [
-    "Dos niños la encontraron en un arroyo en 1965 y el pueblo la veneró en su iglesia local como la 'Virgen del Carmen'",
-    "Es considerada la 'Piedra Rosetta' de la religión olmeca por permitir identificar el panteón de sus dioses primordiales"
-  ],
-  "specs": {
-    "material": "Piedra serpentina verde pulida",
-    "provenance": "Las Limas, Municipio de Jesús Carranza, Veracruz",
-    "weight": "55 cm de altura, 42 cm de ancho; peso aprox. 60 kg",
-    "age": "Aproximadamente 2,800 a 3,000 años (1000–600 a.C.)"
-  },
-  "faq": [
-    {
-      "question": "¿Qué representa el personaje inerte que sostiene en su regazo?",
-      "answer": "Representa a un niño-jaguar sagrado o deidad infantil mística, vínculo supremo entre el mundo terrenal y el divino dentro de los ritos olmecas."
-    }
-  ],
-  "visual_challenge": [
-    {
-      "id": "ch-1",
-      "title": "Detalle 1",
-      "clue": "Observa la figura inerte del niño-jaguar descansando sobre las piernas del sacerdote"
-    },
-    {
-      "id": "ch-2",
-      "title": "Detalle 2",
-      "clue": "Busca los finos trazos grabados con los rostros divinos en hombros y rodillas"
-    }
-  ],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "Dos niños la encontraron en un arroyo en 1965 y el pueblo la veneró en su iglesia local como la 'Virgen del Carmen'"
-    },
-    {
-      "id": "cur-2",
-      "fact": "Es considerada la 'Piedra Rosetta' de la religión olmeca por permitir identificar el panteón de sus dioses primordiales"
-    }
-  ],
-  "faqs": [
-    {
-      "question": "¿Qué representa el personaje inerte que sostiene en su regazo?",
-      "answer": "Representa a un niño-jaguar sagrado o deidad infantil mística, vínculo supremo entre el mundo terrenal y el divino dentro de los ritos olmecas."
-    }
-  ]
+  }
 }

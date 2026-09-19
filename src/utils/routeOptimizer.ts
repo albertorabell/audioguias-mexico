@@ -118,6 +118,14 @@ export function generateOptimizedRoute(
         if (!candidate) {
           candidate = {
             room: {
+              room_id: roomId,
+              numero_oficial: '00',
+              nombre_oficial: stop.room_zone || 'Sala de Exhibición',
+              piso: 'PB',
+              ala: 'central',
+              frase_gancho: '',
+              introduccion_narrativa: stop.room_zone || '',
+              svg_id: roomId,
               id: roomId,
               name: stop.room_zone || 'Sala de Exhibición',
               culture: 'Cultura',
