@@ -161,7 +161,7 @@ export function generateOptimizedRoute(
     const roomIdLower = cand.room.id.toLowerCase();
 
     // Mandatory rule: In MNA, Sala Mexica is always given top baseline priority
-    if (isMNA && (cand.room.id === 'sala-mexica' || roomNameLower.includes('mexica'))) {
+    if (isMNA && (cand.room.id === 'sala-mexica' || cand.room.id === 'sala-06-mexica' || roomNameLower.includes('mexica'))) {
       rScore += 5000;
     }
 
@@ -267,7 +267,9 @@ export function generateOptimizedRoute(
     const roomStops = [...cand.stops];
     let chosenForRoom: RouteStop[] = [];
 
-    const hasPiedra = roomStops.find((s) => s.poi_id === 'piedra-del-sol');
+    const hasPiedra = roomStops.find(
+      (s) => s.poi_id === 'piedra-del-sol' || s.piece_id === 'mna_s06_piedra_sol' || s.id === 'mna_s06_piedra_sol' || s.poi_id === 'mna_s06_piedra_sol'
+    );
 
     if (pace === 'highlights') {
       const rank1 = roomStops.filter((s) => s.ranking === 1);
@@ -284,7 +286,7 @@ export function generateOptimizedRoute(
     }
 
     // Ensure Piedra del Sol is present in Mexica
-    if (hasPiedra && !chosenForRoom.some((s) => s.poi_id === 'piedra-del-sol')) {
+    if (hasPiedra && !chosenForRoom.some((s) => s.poi_id === 'piedra-del-sol' || s.piece_id === 'mna_s06_piedra_sol' || s.id === 'mna_s06_piedra_sol' || s.poi_id === 'mna_s06_piedra_sol')) {
       chosenForRoom.unshift(hasPiedra);
       if (chosenForRoom.length > 5) {
         chosenForRoom.pop();
@@ -294,7 +296,7 @@ export function generateOptimizedRoute(
     // Enforce Density rule: Minimum 3 pieces per room if available
     if (chosenForRoom.length < 3 && roomStops.length >= 3) {
       for (const s of roomStops) {
-        if (!chosenForRoom.some((c) => c.poi_id === s.poi_id)) {
+        if (!chosenForRoom.some((c) => c.poi_id === s.poi_id || (c.piece_id && c.piece_id === s.piece_id))) {
           chosenForRoom.push(s);
           if (chosenForRoom.length >= 3) break;
         }
@@ -313,9 +315,9 @@ export function generateOptimizedRoute(
   });
 
   // Ensure 'piedra-del-sol' was definitely included if MNA
-  if (isMNA && !selectedStops.some((s) => s.poi_id === 'piedra-del-sol')) {
-    const mexicaCand = roomMap.get('sala-mexica');
-    const piedraStop = mexicaCand?.stops.find((s) => s.poi_id === 'piedra-del-sol');
+  if (isMNA && !selectedStops.some((s) => s.poi_id === 'piedra-del-sol' || s.piece_id === 'mna_s06_piedra_sol' || s.id === 'mna_s06_piedra_sol' || s.poi_id === 'mna_s06_piedra_sol')) {
+    const mexicaCand = roomMap.get('sala-mexica') || roomMap.get('sala-06-mexica');
+    const piedraStop = mexicaCand?.stops.find((s) => s.poi_id === 'piedra-del-sol' || s.piece_id === 'mna_s06_piedra_sol' || s.id === 'mna_s06_piedra_sol' || s.poi_id === 'mna_s06_piedra_sol');
     if (piedraStop) {
       selectedStops.unshift(piedraStop);
     }

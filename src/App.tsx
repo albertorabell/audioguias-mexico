@@ -16,6 +16,7 @@ import { OfflineTourBanner } from './components/OfflineTourBanner';
 import { OfflineIndicator } from './components/OfflineIndicator';
 import { useTheme } from './utils/ThemeContext';
 import { formatRouteDuration } from './utils/routeOptimizer';
+import { getAssetUrl, normalizePiece, findPiece } from './utils/urlHelper';
 import { Radio, ArrowLeft } from 'lucide-react';
 
 interface SpontaneousDetour {
@@ -55,20 +56,15 @@ export default function App() {
   const [isLoadingPiece, setIsLoadingPiece] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  // Format fetch URL cleanly with import.meta.env.BASE_URL
-  const normalizeUrl = (url: string) => {
-    const base = import.meta.env.BASE_URL || '/';
-    const cleanBase = base.endsWith('/') ? base : `${base}/`;
-    const cleanPath = url.replace(/^\/+/, '');
-    return `${cleanBase}${cleanPath}`;
-  };
+  // Format fetch URL cleanly with import.meta.env.BASE_URL and GitHub Pages detection
+  const normalizeUrl = (url: string) => getAssetUrl(url);
 
   // 1. Fetch sites catalog on mount
   useEffect(() => {
     async function loadSites() {
       setIsLoadingSites(true);
       try {
-        const res = await fetch(`${import.meta.env.BASE_URL}data/sites.json`);
+        const res = await fetch(getAssetUrl('data/sites.json'));
         if (!res.ok) throw new Error(`Error ${res.status} al cargar catálogo de sitios`);
         const data: SiteSummary[] = await res.json();
         setSites(data);
@@ -104,7 +100,7 @@ export default function App() {
     }
 
     try {
-      const res = await fetch(normalizeUrl(site.path));
+      const res = await fetch(getAssetUrl(site.path));
       if (!res.ok) throw new Error(`Error ${res.status} al cargar manifiesto de ${site.name}`);
       const manifestData: SiteManifest = await res.json();
       setManifest(manifestData);
@@ -129,7 +125,8 @@ export default function App() {
     setViewMode('tour');
 
     if (chosenRoute.stops && chosenRoute.stops.length > 0) {
-      await loadPieceData(chosenRoute.stops[0].file);
+      const stop = chosenRoute.stops[0];
+      await loadPieceData(stop.piece_id || stop.id || stop.poi_id || stop.file);
     }
   };
 
@@ -141,7 +138,8 @@ export default function App() {
     setViewMode('tour');
 
     if (chosenRoute.stops && chosenRoute.stops.length > 0) {
-      await loadPieceData(chosenRoute.stops[0].file);
+      const stop = chosenRoute.stops[0];
+      await loadPieceData(stop.piece_id || stop.id || stop.poi_id || stop.file);
     }
   };
 
@@ -160,80 +158,102 @@ export default function App() {
       window.speechSynthesis.cancel();
     }
     try {
-      let resolvedPath = filePathOrId;
-
-      // If it looks like a simple ID (no slash or .json), attempt resolving from tourPieces or manifest
-      if (!filePathOrId.includes('/') && !filePathOrId.endsWith('.json')) {
-        const id = filePathOrId;
-        const found = tourPieces.find(
-          (p: any) => p.piece_id === id || p.id === id || p.poi_id === id
-        );
-        if (found && (found as any).file) {
-          resolvedPath = (found as any).file;
-        } else if (manifest?.rooms) {
-          for (const room of manifest.rooms) {
-            const pi = room.pieces_info?.find(
-              (p: any) => p.piece_id === id || p.id === id || p.poi_id === id
-            );
-            if (pi && pi.file) {
-              resolvedPath = pi.file;
-              break;
-            }
-          }
-        }
-      }
-
+      const cleanTarget = (filePathOrId || '').trim();
       let piece: PieceData | null = null;
 
-      // 1. Try direct fetch
-      try {
-        const res = await fetch(normalizeUrl(resolvedPath));
-        if (res.ok) {
-          piece = await res.json();
+      // 1. Buscar primero en memoria si tourPieces ya está cargado
+      if (tourPieces && tourPieces.length > 0) {
+        const found = findPiece(tourPieces, cleanTarget);
+        if (found) {
+          piece = normalizePiece({ ...found });
         }
-      } catch (err) {
-        console.warn('Direct piece fetch failed:', err);
       }
 
-      // 2. If not found, try fallback in public/data/pieces.json
+      // 2. Si no se encontró en memoria, cargar data/pieces.json completo
       if (!piece) {
         try {
-          const piecesRes = await fetch(normalizeUrl('data/pieces.json'));
+          const piecesRes = await fetch(getAssetUrl('data/pieces.json'));
           if (piecesRes.ok) {
             const allPieces: PieceData[] = await piecesRes.json();
-            const target = allPieces.find(
-              (p: any) =>
-                p.piece_id === filePathOrId ||
-                p.id === filePathOrId ||
-                p.poi_id === filePathOrId ||
-                resolvedPath.includes(p.piece_id || p.id)
-            );
-            if (target) {
-              piece = target;
+            const normalized = allPieces.map((p) => normalizePiece(p));
+            setTourPieces(normalized);
+            const found = findPiece(normalized, cleanTarget);
+            if (found) {
+              piece = found;
             }
           }
         } catch (err) {
-          console.warn('Fallback fetch from data/pieces.json failed:', err);
+          console.warn('Fetch from data/pieces.json failed:', err);
         }
       }
 
-      // 3. If still not found, check memory in tourPieces
-      if (!piece) {
-        const localMatch = tourPieces.find(
-          (p: any) =>
-            p.piece_id === filePathOrId ||
-            p.id === filePathOrId ||
-            p.poi_id === filePathOrId ||
-            resolvedPath.includes(p.piece_id || p.id)
-        );
-        if (localMatch) {
-          piece = localMatch;
+      // 3. Si parece una ruta de archivo (contiene '/' o termina en '.json'), intentar fetch directo
+      if (!piece && (cleanTarget.includes('/') || cleanTarget.endsWith('.json'))) {
+        try {
+          const res = await fetch(getAssetUrl(cleanTarget));
+          if (res.ok) {
+            const raw = await res.json();
+            piece = normalizePiece(raw);
+          }
+        } catch (err) {
+          console.warn('Direct piece fetch failed:', err);
+        }
+      }
+
+      // 4. Buscar en las salas del manifiesto cargado
+      if (!piece && manifest?.rooms) {
+        for (const room of manifest.rooms) {
+          const pi = room.pieces_info?.find(
+            (p: any) =>
+              p.piece_id === cleanTarget ||
+              p.id === cleanTarget ||
+              p.poi_id === cleanTarget ||
+              (p.file && p.file.includes(cleanTarget))
+          );
+          if (pi) {
+            if (pi.file) {
+              try {
+                const res = await fetch(getAssetUrl(pi.file));
+                if (res.ok) {
+                  piece = normalizePiece(await res.json());
+                  break;
+                }
+              } catch {}
+            }
+            piece = normalizePiece({
+              id: (pi as any).piece_id || (pi as any).id || pi.poi_id,
+              piece_id: (pi as any).piece_id || (pi as any).id || pi.poi_id,
+              poi_id: (pi as any).piece_id || (pi as any).id || pi.poi_id,
+              titulo: pi.title,
+              title: pi.title,
+              room_id: room.room_id || room.id || '',
+              roomId: room.room_id || room.id || '',
+              piso: room.piso || 'PB',
+              orden_sugerido: 1,
+              frase_gancho: room.frase_gancho || '',
+              puente_narrativo: room.introduccion_narrativa || '',
+              guion_corto: pi.title,
+              guion_largo: pi.title,
+              retos_observacion: [],
+              especificaciones: {},
+              map_x: room.coords?.x || 50,
+              map_y: room.coords?.y || 50,
+              image_filename: pi.thumbnail || '',
+              is_free: !pi.is_premium,
+              is_premium: !!pi.is_premium,
+            } as unknown as PieceData);
+            break;
+          }
         }
       }
 
       if (!piece) {
         throw new Error(`No se pudo resolver la pieza ${filePathOrId}`);
       }
+
+      // Asegurar que cada objeto 'piece' exponga ambas propiedades
+      piece.id = piece.piece_id || piece.id;
+      piece.piece_id = piece.piece_id || piece.id;
 
       setCurrentPiece(piece);
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -254,7 +274,8 @@ export default function App() {
       setCurrentStopIndex(0);
       setSpontaneousDetour(null);
       if (foundRoute.stops.length > 0) {
-        await loadPieceData(foundRoute.stops[0].file);
+        const stop = foundRoute.stops[0];
+        await loadPieceData(stop.piece_id || stop.id || stop.poi_id || stop.file);
       }
     }
   };
@@ -264,7 +285,8 @@ export default function App() {
     if (!activeRoute || stopIndex < 0 || stopIndex >= activeRoute.stops.length) return;
     setCurrentStopIndex(stopIndex);
     setSpontaneousDetour(null);
-    await loadPieceData(activeRoute.stops[stopIndex].file);
+    const stop = activeRoute.stops[stopIndex];
+    await loadPieceData(stop.piece_id || stop.id || stop.poi_id || stop.file);
   };
 
   // Live route updates from LiveRouteManagerModal
@@ -273,7 +295,8 @@ export default function App() {
     if (typeof newCurrentIndex === 'number') {
       setCurrentStopIndex(newCurrentIndex);
       if (updatedRoute.stops[newCurrentIndex]) {
-        loadPieceData(updatedRoute.stops[newCurrentIndex].file);
+        const stop = updatedRoute.stops[newCurrentIndex];
+        loadPieceData(stop.piece_id || stop.id || stop.poi_id || stop.file);
       }
     }
   };
@@ -293,7 +316,8 @@ export default function App() {
     const targetIdx = spontaneousDetour ? spontaneousDetour.originalStopIndex : currentStopIndex;
     setSpontaneousDetour(null);
     if (activeRoute.stops[targetIdx]) {
-      await loadPieceData(activeRoute.stops[targetIdx].file);
+      const stop = activeRoute.stops[targetIdx];
+      await loadPieceData(stop.piece_id || stop.id || stop.poi_id || stop.file);
     }
   };
 
@@ -303,6 +327,8 @@ export default function App() {
     const roomId = currentPiece.room_id || (currentPiece as any).roomId || currentPiece.location?.room_id || 'Sala';
     const newStop: RouteStop = {
       poi_id: pieceId,
+      piece_id: pieceId,
+      id: pieceId,
       title: currentPiece.titulo || currentPiece.identification?.title || pieceId,
       room_zone: currentPiece.identification?.room_zone || (currentPiece.identification as any)?.location_room || roomId,
       file: spontaneousDetour.pieceFile,
@@ -341,7 +367,8 @@ export default function App() {
     if (nextIdx < activeRoute.stops.length) {
       setCurrentStopIndex(nextIdx);
       setSpontaneousDetour(null);
-      await loadPieceData(activeRoute.stops[nextIdx].file);
+      const stop = activeRoute.stops[nextIdx];
+      await loadPieceData(stop.piece_id || stop.id || stop.poi_id || stop.file);
     } else {
       // Reached the end: open route completion / manager modal
       setIsLiveRouteManagerOpen(true);
@@ -354,7 +381,8 @@ export default function App() {
     const prevIdx = currentStopIndex - 1;
     setCurrentStopIndex(prevIdx);
     setSpontaneousDetour(null);
-    await loadPieceData(activeRoute.stops[prevIdx].file);
+    const stop = activeRoute.stops[prevIdx];
+    await loadPieceData(stop.piece_id || stop.id || stop.poi_id || stop.file);
   };
 
   // Restart route
@@ -362,7 +390,8 @@ export default function App() {
     if (!activeRoute || activeRoute.stops.length === 0) return;
     setCurrentStopIndex(0);
     setSpontaneousDetour(null);
-    await loadPieceData(activeRoute.stops[0].file);
+    const stop = activeRoute.stops[0];
+    await loadPieceData(stop.piece_id || stop.id || stop.poi_id || stop.file);
   };
 
   // Return to site catalog
@@ -400,11 +429,11 @@ export default function App() {
     async function preloadRoutePieces() {
       // 1. Intentar cargar primero la base de datos completa de public/data/pieces.json
       try {
-        const fullRes = await fetch(normalizeUrl('data/pieces.json'));
+        const fullRes = await fetch(getAssetUrl('data/pieces.json'));
         if (fullRes.ok) {
           const fullData: PieceData[] = await fullRes.json();
           if (isMounted && fullData && fullData.length > 0) {
-            setTourPieces(fullData);
+            setTourPieces(fullData.map((p) => normalizePiece(p)));
             return;
           }
         }
@@ -418,7 +447,7 @@ export default function App() {
             (r.pieces_info || []).map((pi) => {
               const pieceId = (pi as any).piece_id || (pi as any).id || pi.poi_id;
               const roomId = r.room_id || r.id;
-              return {
+              return normalizePiece({
                 id: pieceId,
                 piece_id: pieceId,
                 poi_id: pieceId,
@@ -436,7 +465,7 @@ export default function App() {
                 audioguide: {
                   audio_script: '',
                 },
-              } as unknown as PieceData;
+              } as unknown as PieceData);
             })
           );
           if (isMounted) setTourPieces(roomPieces);
@@ -449,13 +478,13 @@ export default function App() {
           const pieceId = (stop as any).piece_id || (stop as any).id || stop.poi_id;
           const roomId = stop.room_id || (stop as any).roomId || '';
           try {
-            const res = await fetch(normalizeUrl(stop.file));
+            const res = await fetch(getAssetUrl(stop.file));
             if (res.ok) {
               const data: PieceData = await res.json();
-              return data;
+              return normalizePiece(data);
             }
           } catch {}
-          return {
+          return normalizePiece({
             id: pieceId,
             piece_id: pieceId,
             poi_id: pieceId,
@@ -473,7 +502,7 @@ export default function App() {
             audioguide: {
               audio_script: '',
             },
-          } as unknown as PieceData;
+          } as unknown as PieceData);
         });
 
         const loaded = await Promise.all(piecePromises);
@@ -520,7 +549,16 @@ export default function App() {
       }
     }
 
-    // 2. Buscar en salas del catálogo del recinto
+    // 2. Buscar en piezas precargadas (tourPieces) con findPiece
+    const tourMatch = findPiece(tourPieces, id);
+    if (tourMatch) {
+      setViewMode('tour');
+      normalizePiece(tourMatch);
+      setCurrentPiece(tourMatch);
+      return;
+    }
+
+    // 3. Buscar en salas del catálogo del recinto
     if (manifest?.rooms) {
       for (const room of manifest.rooms) {
         const found = room.pieces_info?.find(
@@ -532,20 +570,11 @@ export default function App() {
         );
         if (found) {
           setViewMode('tour');
-          await handleStartSpontaneousDetour(found.file, found.title);
+          const stopFile = found.file || (found as any).piece_id || (found as any).id || found.poi_id;
+          await handleStartSpontaneousDetour(stopFile, found.title);
           return;
         }
       }
-    }
-
-    // 3. Buscar en piezas precargadas (tourPieces)
-    const tourMatch = tourPieces.find(
-      (p: any) => p.piece_id === id || p.id === id || p.poi_id === id
-    );
-    if (tourMatch) {
-      setViewMode('tour');
-      setCurrentPiece(tourMatch);
-      return;
     }
 
     // 4. Carga directa por resolved ID / File

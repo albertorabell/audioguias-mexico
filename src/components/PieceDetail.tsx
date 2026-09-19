@@ -62,6 +62,10 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const [isMitoOpen, setIsMitoOpen] = useState(true);
   const [completedChallenges, setCompletedChallenges] = useState<Record<number, boolean>>({});
 
+  // Homologación de identificadores (ID vs PIECE_ID)
+  piece.id = piece.piece_id || piece.id;
+  piece.piece_id = piece.piece_id || piece.id;
+
   const pieceId = piece.piece_id || piece.id || (piece as any).poi_id || '';
   const roomId = piece.room_id || (piece as any).roomId || piece.location?.room_id || '';
 

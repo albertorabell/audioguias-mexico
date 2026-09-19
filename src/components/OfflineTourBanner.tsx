@@ -8,6 +8,7 @@ import {
 } from '../utils/offlineTourManager';
 import { PieceData } from '../types';
 import { useTheme } from '../utils/ThemeContext';
+import { getAssetUrl } from '../utils/urlHelper';
 
 interface OfflineTourBannerProps {
   pieces: PieceData[];
@@ -45,15 +46,22 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
 
   const handleStartDownload = async () => {
     const urls: string[] = [
-      '/data/sites.json',
-      '/data/routes.json',
-      '/data/mna/mexica-obras-maestras.json',
-      '/data/mna/salas.json',
+      getAssetUrl('data/sites.json'),
+      getAssetUrl('data/pieces.json'),
+      getAssetUrl('data/rooms.json'),
+      getAssetUrl('data/mna/site.json'),
+      getAssetUrl('data/mna/pieces.json'),
+      getAssetUrl('data/mna/rooms.json'),
     ];
 
     pieces.forEach((p) => {
-      if (p.identification?.hero_image) {
-        urls.push(p.identification.hero_image);
+      const img = p.image_filename || p.identification?.hero_image;
+      if (img) {
+        if (img.startsWith('http://') || img.startsWith('https://') || img.startsWith('data:')) {
+          urls.push(img);
+        } else {
+          urls.push(getAssetUrl(`images/pieces/${img}`));
+        }
       }
       if (p.audioguide?.audio_file_url) {
         urls.push(p.audioguide.audio_file_url);

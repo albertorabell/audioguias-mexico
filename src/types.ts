@@ -110,6 +110,8 @@ export type PieceData = Piece;
 
 export interface RouteStop {
   poi_id: string;
+  piece_id?: string;
+  id?: string;
   title: string;
   room_zone: string;
   file: string;

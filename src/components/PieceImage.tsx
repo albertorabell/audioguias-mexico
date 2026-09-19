@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { getAssetUrl } from '../utils/urlHelper';
 
 export interface PieceImageProps {
   filename?: string;
@@ -22,15 +23,17 @@ export const PieceImage: React.FC<PieceImageProps> = ({
 
   const cleanFilename = filename?.trim() || '';
 
-  // Determinar la ruta de la imagen: si ya es URL absoluta o empieza con '/', usarla;
-  // de lo contrario, buscar en './images/pieces/'
+  // Determinar la ruta de la imagen usando getAssetUrl para compatibilidad con GitHub Pages
   const imageSrc = cleanFilename
     ? cleanFilename.startsWith('http://') ||
       cleanFilename.startsWith('https://') ||
-      cleanFilename.startsWith('data:') ||
-      cleanFilename.startsWith('/')
+      cleanFilename.startsWith('data:')
       ? cleanFilename
-      : `./images/pieces/${cleanFilename}`
+      : getAssetUrl(
+          cleanFilename.startsWith('images/') || cleanFilename.startsWith('/images/')
+            ? cleanFilename
+            : `images/pieces/${cleanFilename}`
+        )
     : '';
 
   if (!cleanFilename || hasError) {

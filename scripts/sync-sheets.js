@@ -137,12 +137,17 @@ async function sync() {
       };
     }
 
+    const pieceId = p.piece_id?.trim();
     return {
-      piece_id: p.piece_id,
+      id: pieceId,
+      piece_id: pieceId,
+      poi_id: pieceId,
       room_id: finalRoomId,
+      roomId: finalRoomId,
       piso: p.piso,
       orden_sugerido: parseInt(p.orden_sugerido, 10) || 1,
       titulo: p.titulo,
+      title: p.titulo,
       frase_gancho: p.frase_gancho,
       puente_narrativo: p.puente_narrativo,
       guion_corto: p.guion_corto,
@@ -153,13 +158,104 @@ async function sync() {
       map_x: parseFloat(p.map_x) || 50,
       map_y: parseFloat(p.map_y) || 50,
       image_filename: p.image_filename,
-      is_free: p.is_free?.trim().toUpperCase() === 'TRUE'
+      is_free: p.is_free?.trim().toUpperCase() === 'TRUE',
+      is_premium: p.is_free?.trim().toUpperCase() !== 'TRUE'
     };
   });
 
   // Guardar en public/data/
   fs.writeFileSync(path.join(DATA_DIR, 'rooms.json'), JSON.stringify(rooms, null, 2));
   fs.writeFileSync(path.join(DATA_DIR, 'pieces.json'), JSON.stringify(pieces, null, 2));
+
+  // Actualizar también public/data/mna/pieces.json y rooms.json
+  const mnaDir = path.join(DATA_DIR, 'mna');
+  if (!fs.existsSync(mnaDir)) {
+    fs.mkdirSync(mnaDir, { recursive: true });
+  }
+  fs.writeFileSync(path.join(mnaDir, 'rooms.json'), JSON.stringify(rooms, null, 2));
+  fs.writeFileSync(path.join(mnaDir, 'pieces.json'), JSON.stringify(pieces, null, 2));
+
+  // Actualizar rutas sugeridas en site.json y mna.json con los piece_id reales
+  const siteJsonPath = path.join(mnaDir, 'site.json');
+  const mnaJsonPath = path.join(mnaDir, 'mna.json');
+  if (fs.existsSync(siteJsonPath)) {
+    try {
+      const siteManifest = JSON.parse(fs.readFileSync(siteJsonPath, 'utf-8'));
+      
+      const findPieceStop = (pId, fallbackTitle, roomZone, roomId) => {
+        const found = pieces.find(p => p.piece_id === pId || p.id === pId);
+        if (found) {
+          return {
+            id: found.piece_id,
+            piece_id: found.piece_id,
+            poi_id: found.piece_id,
+            title: found.titulo,
+            is_premium: !found.is_free,
+            estimated_minutes: 5,
+            thumbnail: found.image_filename,
+            file: 'data/pieces.json',
+            ranking: found.is_free ? 1 : 2,
+            room_zone: roomZone,
+            room_id: found.room_id || roomId,
+            map_coords: { x: found.map_x, y: found.map_y },
+            tags: ['arqueologia', 'mna']
+          };
+        }
+        return {
+          id: pId,
+          piece_id: pId,
+          poi_id: pId,
+          title: fallbackTitle,
+          is_premium: false,
+          estimated_minutes: 5,
+          thumbnail: '',
+          file: 'data/pieces.json',
+          ranking: 1,
+          room_zone: roomZone,
+          room_id: roomId,
+          map_coords: { x: 50, y: 50 },
+          tags: ['arqueologia', 'mna']
+        };
+      };
+
+      siteManifest.routes = [
+        {
+          id: 'ruta-monumental',
+          name: 'Obras Maestras del MNA',
+          duration: '45 min',
+          description: 'Recorrido curado por los grandes monolitos e iconos de la cosmovisión mesoamericana.',
+          stops: [
+            findPieceStop('mna_s06_piedra_sol', 'Piedra del Sol', 'Sala Mexica', 'sala-06-mexica'),
+            findPieceStop('mna_s06_coatlicue', 'Coatlicue', 'Sala Mexica', 'sala-06-mexica'),
+            findPieceStop('mna_s04_chalchiuhtlicue', 'Diosa del Agua (Chalchiuhtlicue)', 'Sala Teotihuacán', 'sala-04-teotihuacan'),
+            findPieceStop('mna_s04_disco_muerte', 'Disco de la Muerte', 'Sala Teotihuacán', 'sala-04-teotihuacan'),
+            findPieceStop('mna_s09_mascara_pakal', 'Máscara de Pakal', 'Sala Maya', 'sala-09-maya'),
+            findPieceStop('mna_s06_coyolxauhqui', 'Cabeza de Coyolxauhqui', 'Sala Mexica', 'sala-06-mexica'),
+            findPieceStop('mna_s08_cabeza_colosal_6', 'Cabeza Colosal 6 de San Lorenzo', 'Culturas de la Costa del Golfo', 'sala-08-costa-del-golfo'),
+            findPieceStop('mna_s05_atlante_tula', 'Atlante de Tula', 'Los Toltecas y su época', 'sala-05-los-toltecas-y-su-epoca')
+          ]
+        },
+        {
+          id: 'visita-relampago',
+          name: 'Visita Relámpago (Top Highlights)',
+          duration: '25 min',
+          description: 'Itinerario exprés con los tesoros indispensables que todo visitante debe contemplar.',
+          stops: [
+            findPieceStop('mna_s06_piedra_sol', 'Piedra del Sol', 'Sala Mexica', 'sala-06-mexica'),
+            findPieceStop('mna_s06_coatlicue', 'Coatlicue', 'Sala Mexica', 'sala-06-mexica'),
+            findPieceStop('mna_s04_disco_muerte', 'Disco de la Muerte', 'Sala Teotihuacán', 'sala-04-teotihuacan'),
+            findPieceStop('mna_s09_mascara_pakal', 'Máscara de Pakal', 'Sala Maya', 'sala-09-maya')
+          ]
+        }
+      ];
+
+      fs.writeFileSync(siteJsonPath, JSON.stringify(siteManifest, null, 2), 'utf-8');
+      fs.writeFileSync(mnaJsonPath, JSON.stringify(siteManifest, null, 2), 'utf-8');
+      console.log('✅ Rutas sugeridas de site.json y mna.json actualizadas con los piece_id reales.');
+    } catch (e) {
+      console.warn('Advertencia al actualizar site.json:', e);
+    }
+  }
 
   console.log(`✅ Sincronización exitosa: ${rooms.length} salas y ${pieces.length} piezas guardadas en public/data/`);
 }
