@@ -421,15 +421,15 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         </div>
       </section>
 
-      {/* 6. RETOS DE OBSERVACIÓN: TARJETA DE DESAFÍOS VISUALES CON VIÑETAS */}
+      {/* 6. RETOS DE OBSERVACIÓN: CHECKLIST INTERACTIVO EN VITRINA ([ ] / [x]) */}
       {retosList.length > 0 && (
         <section className="px-4 py-2">
           <div
             id="retos-observacion-card"
-            className={`p-4 sm:p-5 rounded-2xl border ${
+            className={`p-4 sm:p-5 rounded-2xl border transition-all ${
               isSunMode
-                ? 'bg-white border-stone-200/80'
-                : 'bg-stone-900/50 border-stone-800'
+                ? 'bg-white border-stone-200/90 shadow-xs'
+                : 'bg-stone-900/60 border-stone-800'
             }`}
           >
             <div className="flex items-center justify-between mb-2">
@@ -439,54 +439,81 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                   Retos de Observación en Vitrina
                 </h3>
               </div>
-              <span className="text-[11px] font-mono font-semibold text-[#4B5563] dark:text-stone-400">
-                {completedCount} de {retosList.length} localizados
+              <span
+                className={`text-[11px] font-mono font-bold px-2 py-0.5 rounded-full border ${
+                  completedCount === retosList.length
+                    ? 'bg-emerald-500/15 border-emerald-500/30 text-emerald-600 dark:text-emerald-400'
+                    : 'bg-amber-500/10 border-amber-500/20 text-amber-700 dark:text-amber-400'
+                }`}
+              >
+                {completedCount} de {retosList.length} encontrados
               </span>
             </div>
+
             <p className="text-xs text-[#4B5563] dark:text-stone-300 mb-3">
-              Descubre los detalles ocultos grabados directamente en la pieza:
+              Toca cada casilla para tachar los detalles conforme los descubras en la vitrina física:
             </p>
 
-            <ul className="space-y-2.5">
+            {/* Checklist interactivo [ ] / [x] */}
+            <div className="space-y-2">
               {retosList.map((reto, idx) => {
                 const isFound = !!completedChallenges[idx];
                 return (
-                  <li
+                  <button
                     key={idx}
+                    type="button"
                     onClick={() => toggleChallenge(idx)}
                     role="checkbox"
                     aria-checked={isFound}
-                    tabIndex={0}
-                    onKeyDown={(e) => {
-                      if (e.key === ' ' || e.key === 'Enter') {
-                        e.preventDefault();
-                        toggleChallenge(idx);
-                      }
-                    }}
-                    className={`p-3 rounded-xl border transition-all cursor-pointer flex items-start gap-3 select-none ${
+                    className={`w-full text-left p-3 rounded-xl border transition-all flex items-start gap-3 select-none active:scale-[0.99] cursor-pointer ${
                       isFound
                         ? isSunMode
-                          ? 'bg-stone-100/90 border-stone-300 text-[#111827]'
-                          : 'bg-stone-900/80 border-stone-700 text-stone-100'
+                          ? 'bg-emerald-50/70 border-emerald-300/80 text-emerald-950'
+                          : 'bg-emerald-950/20 border-emerald-700/50 text-emerald-200'
                         : isSunMode
-                        ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-[#111827]'
-                        : 'bg-stone-950/40 border-stone-800/80 hover:border-stone-700 text-stone-300'
+                        ? 'bg-stone-50 border-stone-200 hover:border-amber-300 text-[#111827]'
+                        : 'bg-stone-950/50 border-stone-800 hover:border-stone-700 text-stone-200'
                     }`}
                   >
+                    {/* Checkbox visual [ ] vs [x] */}
                     <div
-                      className={`w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 transition-all ${
+                      className={`w-5 h-5 rounded-lg flex items-center justify-center shrink-0 mt-0.5 font-mono text-xs font-black transition-all ${
                         isFound
-                          ? 'bg-[#C05638] dark:bg-[#D96B47] text-white shadow-xs'
-                          : 'border border-stone-400 dark:border-stone-600 bg-transparent'
+                          ? 'bg-emerald-600 text-white shadow-xs scale-105'
+                          : isSunMode
+                          ? 'border-2 border-stone-400 bg-white text-transparent'
+                          : 'border-2 border-stone-600 bg-stone-900 text-transparent'
                       }`}
                     >
-                      {isFound && <span className="text-xs font-bold leading-none">✓</span>}
+                      {isFound ? '✓' : ''}
                     </div>
-                    <span className="text-xs leading-relaxed flex-1 font-medium">{reto}</span>
-                  </li>
+
+                    <div className="flex-1 min-w-0">
+                      <span
+                        className={`text-xs leading-relaxed block ${
+                          isFound
+                            ? 'line-through opacity-85 font-medium'
+                            : 'font-semibold'
+                        }`}
+                      >
+                        {reto}
+                      </span>
+                      <span className="text-[10px] opacity-70 block mt-0.5">
+                        {isFound ? '¡Encontrado en vitrina!' : 'Toca para marcar [x]'}
+                      </span>
+                    </div>
+                  </button>
                 );
               })}
-            </ul>
+            </div>
+
+            {/* Banner de felicitación si todos fueron marcados */}
+            {completedCount === retosList.length && (
+              <div className="mt-3 p-2.5 rounded-xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-800 dark:text-emerald-300 text-xs font-semibold flex items-center gap-2 animate-fadeIn">
+                <span>🌟</span>
+                <span>¡Excelente vista! Has localizado todos los detalles en la pieza física.</span>
+              </div>
+            )}
           </div>
         </section>
       )}
@@ -532,48 +559,45 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         </section>
       )}
 
-      {/* 8. FAQ / MITO: ACORDEÓN O BLOQUE DESTACADO DESMINTIENDO EL MITO */}
+      {/* 8. TARJETA DESTACADA: 'MITO VS REALIDAD' (ESTILO ÁMBAR/TERRACOTA) */}
       {faqMito && (
         <section className="px-4 py-2">
           <div
             id="faq-mito-block"
-            className={`p-4 sm:p-5 rounded-2xl border transition-all ${
+            className={`p-4 sm:p-5 rounded-2xl border-2 transition-all shadow-sm ${
               isSunMode
-                ? 'bg-[#FFFDF7] border-amber-300/80 text-[#111827]'
-                : 'bg-amber-950/20 border-amber-800/40 text-stone-100'
+                ? 'bg-[#FFF7ED] border-[#FDBA74] text-[#111827]'
+                : 'bg-[#291711] border-[#C05638]/70 text-[#F5F5F4]'
             }`}
           >
-            <div className="flex items-center gap-2 mb-2">
-              <HelpCircle className="w-4 h-4 text-amber-600 dark:text-amber-400" />
-              <span className="text-[11px] font-bold uppercase tracking-wider text-amber-900 dark:text-amber-300">
-                Mito vs. Realidad Arqueológica
-              </span>
+            {/* Título de la tarjeta: "💡 Mito Arqueológico Desmentido" */}
+            <div className="flex items-center gap-2 mb-2.5">
+              <span className="text-lg">💡</span>
+              <h3 className="text-xs sm:text-sm font-black tracking-wider uppercase text-[#C05638] dark:text-[#FDBA74]">
+                Mito Arqueológico Desmentido
+              </h3>
             </div>
 
-            <button
-              type="button"
-              onClick={() => setIsMitoOpen(!isMitoOpen)}
-              className="w-full text-left font-semibold text-sm sm:text-base text-[#111827] dark:text-stone-100 flex items-center justify-between gap-3 pt-1 cursor-pointer"
-            >
-              <span>{faqMito.pregunta}</span>
-              <ChevronDown
-                className={`w-4 h-4 text-[#4B5563] dark:text-stone-400 shrink-0 transition-transform duration-200 ${
-                  isMitoOpen ? 'rotate-180' : ''
-                }`}
-              />
-            </button>
+            {/* Pregunta en negrita */}
+            <p className="text-sm sm:text-base font-bold text-[#111827] dark:text-amber-100 leading-snug">
+              {faqMito.pregunta}
+            </p>
 
-            {isMitoOpen && (
-              <p className="mt-2.5 pt-2.5 border-t border-amber-200 dark:border-amber-800/40 text-xs sm:text-sm leading-relaxed text-[#4B5563] dark:text-stone-300 animate-fadeIn">
+            {/* Respuesta explicativa limpia */}
+            <div className="mt-3 pt-3 border-t border-amber-200/90 dark:border-amber-900/60">
+              <span className="text-[10px] font-black uppercase tracking-wider text-[#C05638] dark:text-[#FDBA74] block mb-1">
+                La Realidad Arqueológica:
+              </span>
+              <p className="text-xs sm:text-sm leading-relaxed text-[#374151] dark:text-stone-200 font-medium">
                 {faqMito.respuesta}
               </p>
-            )}
+            </div>
           </div>
         </section>
       )}
 
-      {/* 9. PROXIMIDAD Y NAVEGACIÓN A LA SIGUIENTE PARADA */}
-      {nextStop && (
+      {/* 9. PROXIMIDAD Y NAVEGACIÓN A LA SIGUIENTE PARADA O CIERRE DE RUTA */}
+      {nextStop ? (
         <section className="px-4 pt-2">
           <div
             id="next-stop-proximity-card"
@@ -613,7 +637,39 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             </div>
           </div>
         </section>
-      )}
+      ) : (currentStopIndex !== undefined && totalStops !== undefined && currentStopIndex >= totalStops - 1) ? (
+        <section className="px-4 pt-2">
+          <div
+            id="last-stop-completion-card"
+            className={`p-4 rounded-2xl border transition-all shadow-sm ${
+              isSunMode
+                ? 'bg-emerald-50/90 border-emerald-300 text-emerald-950'
+                : 'bg-emerald-950/30 border-emerald-800 text-emerald-200'
+            }`}
+          >
+            <div className="flex items-center gap-2.5 mb-2">
+              <span className="text-2xl">🏁</span>
+              <div>
+                <h4 className="text-xs font-black uppercase tracking-wider">
+                  ¡Última Parada de esta Ruta!
+                </h4>
+                <p className="text-xs font-medium opacity-90">
+                  Has visitado todos los hitos programados en este recorrido.
+                </p>
+              </div>
+            </div>
+            {onNextStop && (
+              <button
+                type="button"
+                onClick={onNextStop}
+                className="w-full mt-2 py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center justify-center gap-2 transition active:scale-95 shadow-md cursor-pointer"
+              >
+                <span>Finalizar Recorrido y Ver Resumen 🎉</span>
+              </button>
+            )}
+          </div>
+        </section>
+      ) : null}
 
       {/* Modal de Zoom de Imagen */}
       <ImageZoomModal

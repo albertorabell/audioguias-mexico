@@ -69,6 +69,7 @@ export interface Piece {
 
   // Campos de compatibilidad con estructuras previas
   id?: string;
+  title?: string;
   poi_id?: string;
   is_premium?: boolean;
   estimated_minutes?: number;
@@ -121,6 +122,8 @@ export interface RouteStop {
   room_id?: string;
   ranking?: number;
   orden_sala?: number;
+  thumbnail?: string;
+  is_premium?: boolean;
 }
 
 export interface SiteRoute {
@@ -130,6 +133,9 @@ export interface SiteRoute {
   description: string;
   stops: RouteStop[];
   is_custom?: boolean;
+  route_id?: string;
+  title?: string;
+  estimated_minutes?: number;
 }
 
 export interface SiteManifest {

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { SiteSummary, SiteManifest, SiteRoute, RouteStop, PieceData, SiteLicense } from './types';
+import { SiteSummary, SiteManifest, SiteRoute, RouteStop, PieceData, SiteLicense, Room } from './types';
 import { getSiteLicense, activatePass, revokePass, hasActivePass } from './utils/license';
 import { SiteSelector } from './components/SiteSelector';
 import { SiteOverview } from './components/SiteOverview';
@@ -12,6 +12,8 @@ import { LiveRouteManagerModal } from './components/LiveRouteManagerModal';
 import { PaywallModal } from './components/PaywallModal';
 import { MapViewModal } from './components/MapViewModal';
 import { SearchModal } from './components/SearchModal';
+import { TourCompletionView } from './components/TourCompletionView';
+import { RoomDetailModal } from './components/RoomDetailModal';
 import { OfflineTourBanner } from './components/OfflineTourBanner';
 import { OfflineIndicator } from './components/OfflineIndicator';
 import { useTheme } from './utils/ThemeContext';
@@ -37,6 +39,13 @@ export default function App() {
   const [currentStopIndex, setCurrentStopIndex] = useState<number>(0);
   const [currentPiece, setCurrentPiece] = useState<PieceData | null>(null);
   const [tourPieces, setTourPieces] = useState<PieceData[]>([]);
+
+  // Completion state for tour navigation (solves black screen when reaching end of route)
+  const [isTourCompleted, setIsTourCompleted] = useState<boolean>(false);
+
+  // Official Rooms Catalog & Room Detail Modal State
+  const [allRooms, setAllRooms] = useState<Room[]>([]);
+  const [selectedRoomForDetail, setSelectedRoomForDetail] = useState<Room | null>(null);
 
   // Spontaneous Detour State
   const [spontaneousDetour, setSpontaneousDetour] = useState<SpontaneousDetour | null>(null);
@@ -78,6 +87,22 @@ export default function App() {
     loadSites();
   }, []);
 
+  // 1.b Cargar catálogo de 22 salas desde public/data/rooms.json
+  useEffect(() => {
+    async function loadRooms() {
+      try {
+        const res = await fetch(getAssetUrl('data/rooms.json'));
+        if (res.ok) {
+          const data: Room[] = await res.json();
+          setAllRooms(data);
+        }
+      } catch (err) {
+        console.warn('Could not load data/rooms.json:', err);
+      }
+    }
+    loadRooms();
+  }, []);
+
   // Update license state whenever selectedSite changes
   useEffect(() => {
     if (selectedSite) {
@@ -93,6 +118,7 @@ export default function App() {
     setSelectedSite(site);
     setIsLoadingPiece(true);
     setErrorMessage(null);
+    setIsTourCompleted(false);
 
     // Stop any ongoing speech synthesis
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
@@ -121,6 +147,7 @@ export default function App() {
   const handleStartRouteFromWizard = async (chosenRoute: SiteRoute) => {
     setActiveRoute(chosenRoute);
     setCurrentStopIndex(0);
+    setIsTourCompleted(false);
     setSpontaneousDetour(null);
     setViewMode('tour');
 
@@ -134,6 +161,7 @@ export default function App() {
   const handleStartRouteFromOverview = async (chosenRoute: SiteRoute) => {
     setActiveRoute(chosenRoute);
     setCurrentStopIndex(0);
+    setIsTourCompleted(false);
     setSpontaneousDetour(null);
     setViewMode('tour');
 
@@ -367,17 +395,22 @@ export default function App() {
     if (nextIdx < activeRoute.stops.length) {
       setCurrentStopIndex(nextIdx);
       setSpontaneousDetour(null);
+      setIsTourCompleted(false);
       const stop = activeRoute.stops[nextIdx];
       await loadPieceData(stop.piece_id || stop.id || stop.poi_id || stop.file);
     } else {
-      // Reached the end: open route completion / manager modal
-      setIsLiveRouteManagerOpen(true);
+      // Reached the end: Show celebratory completion screen (solves black screen)!
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+      }
+      setIsTourCompleted(true);
     }
   };
 
   // Handle previous stop button
   const handlePreviousStop = async () => {
     if (!activeRoute || currentStopIndex <= 0) return;
+    setIsTourCompleted(false);
     const prevIdx = currentStopIndex - 1;
     setCurrentStopIndex(prevIdx);
     setSpontaneousDetour(null);
@@ -388,10 +421,149 @@ export default function App() {
   // Restart route
   const handleRestartRoute = async () => {
     if (!activeRoute || activeRoute.stops.length === 0) return;
+    setIsTourCompleted(false);
     setCurrentStopIndex(0);
     setSpontaneousDetour(null);
     const stop = activeRoute.stops[0];
     await loadPieceData(stop.piece_id || stop.id || stop.poi_id || stop.file);
+  };
+
+  // Helper para obtener las piezas de una sala filtradas y ordenadas según 'orden_sugerido'
+  const getRoomPieces = (room: Room | null): PieceData[] => {
+    if (!room) return [];
+    const sourcePieces = tourPieces.length > 0 ? tourPieces : [];
+    const targetRoomId = (room.room_id || room.id || '').toLowerCase().trim();
+    const targetNum =
+      room.numero_oficial !== undefined && room.numero_oficial !== ''
+        ? String(room.numero_oficial).padStart(2, '0')
+        : room.room_id?.match(/\d+/)?.[0]?.padStart(2, '0') || '';
+
+    const matched = sourcePieces.filter((p) => {
+      const pRoom = (p.room_id || (p as any).roomId || '').toLowerCase().trim();
+      if (!pRoom) return false;
+      if (pRoom === targetRoomId) return true;
+      if (targetNum && (pRoom.includes(`sala-${targetNum}`) || pRoom.includes(`-${targetNum}-`))) return true;
+      const cleanP = pRoom.replace(/[-_]/g, '');
+      const cleanT = targetRoomId.replace(/[-_]/g, '');
+      return cleanP.includes(cleanT) || cleanT.includes(cleanP);
+    });
+
+    return matched.sort((a, b) => (a.orden_sugerido || 999) - (b.orden_sugerido || 999));
+  };
+
+  // Abrir vista/modal de sala desde lista o mapa
+  const handleOpenRoomDetail = (roomOrId: Room | string) => {
+    let targetRoom: Room | undefined;
+    if (typeof roomOrId === 'string') {
+      const clean = roomOrId.toLowerCase().trim();
+      const numMatch = clean.match(/\d+/)?.[0];
+      targetRoom = allRooms.find(
+        (r) =>
+          r.room_id.toLowerCase() === clean ||
+          r.id?.toLowerCase() === clean ||
+          (numMatch && String(r.numero_oficial).padStart(2, '0') === numMatch.padStart(2, '0')) ||
+          r.room_id.toLowerCase().includes(clean)
+      );
+      if (!targetRoom && manifest?.rooms) {
+        targetRoom = manifest.rooms.find(
+          (r: any) =>
+            r.room_id?.toLowerCase() === clean ||
+            r.id?.toLowerCase() === clean ||
+            (numMatch && String(r.numero_oficial).padStart(2, '0') === numMatch.padStart(2, '0'))
+        );
+      }
+    } else {
+      targetRoom = roomOrId;
+    }
+
+    if (targetRoom) {
+      const enriched = allRooms.find(
+        (r) =>
+          r.room_id === targetRoom?.room_id ||
+          (r.numero_oficial && String(r.numero_oficial) === String(targetRoom?.numero_oficial))
+      );
+      setSelectedRoomForDetail(enriched ? { ...targetRoom, ...enriched } : targetRoom);
+    }
+  };
+
+  // Iniciar Recorrido Exclusivo de esta Sala (orden_sugerido comenzando en parada 1)
+  const handleStartRoomTour = async (room: Room, startPieceId?: string) => {
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+
+    // Asegurar que tengamos las piezas cargadas
+    let currentPool = tourPieces;
+    if (!currentPool || currentPool.length === 0) {
+      try {
+        const fullRes = await fetch(getAssetUrl('data/pieces.json'));
+        if (fullRes.ok) {
+          const fullData: PieceData[] = await fullRes.json();
+          currentPool = fullData.map((p) => normalizePiece(p));
+          setTourPieces(currentPool);
+        }
+      } catch (e) {
+        console.warn('Error preloading pieces for room tour:', e);
+      }
+    }
+
+    const roomPieces = getRoomPieces(room);
+    if (roomPieces.length === 0) {
+      setErrorMessage(`No se encontraron piezas registradas para la ${room.nombre_oficial || 'sala'}.`);
+      return;
+    }
+
+    const numStr = room.numero_oficial ? String(room.numero_oficial).padStart(2, '0') : '';
+    const roomTitle = `Sala ${numStr ? numStr + ' · ' : ''}${room.nombre_oficial || room.name}`;
+    const totalMinutes = roomPieces.reduce((acc, p) => acc + (p.estimated_minutes || 6), 0);
+
+    const dynamicRoute: SiteRoute = {
+      id: `route-${room.room_id}`,
+      route_id: `route-${room.room_id}`,
+      name: roomTitle,
+      title: roomTitle,
+      duration: `${totalMinutes} min`,
+      estimated_minutes: totalMinutes,
+      description: room.frase_gancho || room.introduccion_narrativa || `Recorrido por la ${roomTitle}`,
+      stops: roomPieces.map((p, idx) => {
+        const pId = p.piece_id || p.id || (p as any).poi_id;
+        return {
+          poi_id: pId,
+          piece_id: pId,
+          id: pId,
+          title: p.titulo || p.title || pId,
+          room_zone: room.nombre_oficial,
+          file: p.image_filename || '',
+          estimated_minutes: p.estimated_minutes || 6,
+          map_coords: { x: p.map_x || 50, y: p.map_y || 50 },
+          ranking: idx + 1,
+          room_id: room.room_id,
+          thumbnail: p.image_filename ? getAssetUrl(`images/pieces/${p.image_filename}`) : '',
+          is_premium: !p.is_free,
+        };
+      }),
+    };
+
+    setActiveRoute(dynamicRoute);
+    setIsTourCompleted(false);
+    setSpontaneousDetour(null);
+    setSelectedRoomForDetail(null);
+    setIsMapModalOpen(false);
+    setViewMode('tour');
+
+    let targetIdx = 0;
+    if (startPieceId) {
+      const foundIdx = dynamicRoute.stops.findIndex(
+        (s) => s.piece_id === startPieceId || s.id === startPieceId || s.poi_id === startPieceId
+      );
+      if (foundIdx !== -1) {
+        targetIdx = foundIdx;
+      }
+    }
+
+    setCurrentStopIndex(targetIdx);
+    const targetStop = dynamicRoute.stops[targetIdx];
+    await loadPieceData(targetStop.piece_id || targetStop.id || targetStop.poi_id || targetStop.file);
   };
 
   // Return to site catalog
@@ -673,6 +845,8 @@ export default function App() {
               setViewMode('wizard');
             }}
             onDirectStartRoute={handleStartRouteFromOverview}
+            onSelectRoom={handleOpenRoomDetail}
+            onOpenMapModal={() => setIsMapModalOpen(true)}
           />
         ) : viewMode === 'wizard' && manifest ? (
           /* ================= VIEW 3: ASISTENTE DE RUTA PERSONALIZADA ================= */
@@ -779,8 +953,30 @@ export default function App() {
               </div>
             )}
 
-            {/* Content loading state */}
-            {isLoadingPiece ? (
+            {/* Content loading state / Tour Completion Celebratory Screen / Dynamic Piece View */}
+            {isTourCompleted ? (
+              <TourCompletionView
+                routeName={activeRoute?.name || 'Recorrido por el Museo'}
+                totalStops={activeRoute ? activeRoute.stops.length : 0}
+                estimatedMinutes={
+                  activeRoute?.estimated_minutes ||
+                  (activeRoute ? activeRoute.stops.length * 8 : 45)
+                }
+                stops={activeRoute?.stops || []}
+                onExploreRooms={() => {
+                  setIsTourCompleted(false);
+                  setViewMode('overview');
+                }}
+                onChooseRoute={() => {
+                  setIsTourCompleted(false);
+                  setViewMode('wizard');
+                }}
+                onRepeatTour={() => {
+                  setIsTourCompleted(false);
+                  handleRestartRoute();
+                }}
+              />
+            ) : isLoadingPiece ? (
               <div className="p-6 space-y-4">
                 <div
                   className={`w-full h-64 rounded-2xl animate-pulse ${
@@ -855,8 +1051,8 @@ export default function App() {
               </div>
             )}
 
-            {/* Bottom Fixed Navigation Bar */}
-            {activeRoute && (
+            {/* Bottom Fixed Navigation Bar - Solo mostrar si no se ha completado el tour */}
+            {activeRoute && !isTourCompleted && (
               <BottomNav
                 currentStopIndex={currentStopIndex}
                 totalStops={activeRoute.stops.length}
@@ -923,27 +1119,30 @@ export default function App() {
         )}
 
         {/* 4. Interactive Architectural Map & Floorplan Modal (Mapa Pro) */}
-        {selectedSite && activeRoute && (
+        {selectedSite && (
           <MapViewModal
             isOpen={isMapModalOpen}
             onClose={() => setIsMapModalOpen(false)}
             siteId={selectedSite.id}
             siteName={selectedSite.short_name || selectedSite.name}
-            routeName={activeRoute.name}
-            stops={activeRoute.stops}
+            routeName={activeRoute ? activeRoute.name : 'Plano del Museo'}
+            stops={activeRoute ? activeRoute.stops : []}
             currentStopIndex={currentStopIndex}
-            rooms={manifest?.rooms || []}
+            rooms={allRooms.length > 0 ? allRooms : (manifest?.rooms || [])}
             onSelectStop={(stopIdx) => {
-              handleSelectStop(stopIdx);
+              if (activeRoute) handleSelectStop(stopIdx);
             }}
             onOpenPieceFile={async (filePath) => {
-              const idx = activeRoute.stops.findIndex((s) => s.file === filePath);
-              if (idx !== -1) {
-                setCurrentStopIndex(idx);
+              if (activeRoute) {
+                const idx = activeRoute.stops.findIndex((s) => s.file === filePath);
+                if (idx !== -1) {
+                  setCurrentStopIndex(idx);
+                }
               }
               await loadPieceData(filePath);
             }}
             onAddStopToRoute={handleAddStopToRoute}
+            onSelectRoom={handleOpenRoomDetail}
           />
         )}
 
@@ -953,6 +1152,15 @@ export default function App() {
           onClose={() => setIsSearchModalOpen(false)}
           pieces={tourPieces.length > 0 ? tourPieces : (currentPiece ? [currentPiece] : [])}
           onSelectPiece={handleSelectPieceById}
+        />
+
+        {/* 6. Modal de Detalle de Sala y Recorrido Exclusivo */}
+        <RoomDetailModal
+          isOpen={!!selectedRoomForDetail}
+          onClose={() => setSelectedRoomForDetail(null)}
+          room={selectedRoomForDetail}
+          pieces={getRoomPieces(selectedRoomForDetail)}
+          onStartRoomTour={handleStartRoomTour}
         />
       </div>
     </div>

@@ -31,6 +31,7 @@ interface MapViewModalProps {
   rooms?: Room[];
   onOpenPieceFile?: (filePath: string) => void;
   onAddStopToRoute?: (stop: RouteStop) => void;
+  onSelectRoom?: (room: Room) => void;
 }
 
 export const MapViewModal: React.FC<MapViewModalProps> = ({
@@ -45,6 +46,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
   rooms = [],
   onOpenPieceFile,
   onAddStopToRoute,
+  onSelectRoom,
 }) => {
   const { isSunMode } = useTheme();
 
@@ -357,6 +359,21 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
               >
                 {inspectedRoom.short_description}
               </p>
+
+              {onSelectRoom && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setIsDrawerOpen(false);
+                    onClose();
+                    onSelectRoom(inspectedRoom);
+                  }}
+                  className="mt-2.5 px-3 py-1.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 text-xs font-bold inline-flex items-center gap-1.5 shadow-sm active:scale-95 transition cursor-pointer"
+                >
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>Ficha de Sala e Iniciar Recorrido 🚀</span>
+                </button>
+              )}
             </div>
 
             <button

@@ -14,8 +14,9 @@ import {
   BookOpen,
   Route,
   CheckCircle2,
+  Map,
 } from 'lucide-react';
-import { SiteSummary, SiteManifest, SiteRoute } from '../types';
+import { SiteSummary, SiteManifest, SiteRoute, Room } from '../types';
 import { useTheme } from '../utils/ThemeContext';
 import { SITE_OVERVIEWS, SitePhoto } from '../data/siteOverviews';
 import { SafeImage } from './SafeImage';
@@ -26,6 +27,8 @@ interface SiteOverviewProps {
   onBack: () => void;
   onCustomizeRoute: () => void;
   onDirectStartRoute: (route: SiteRoute) => void;
+  onSelectRoom?: (room: Room | any) => void;
+  onOpenMapModal?: () => void;
 }
 
 export const SiteOverview: React.FC<SiteOverviewProps> = ({
@@ -34,6 +37,8 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
   onBack,
   onCustomizeRoute,
   onDirectStartRoute,
+  onSelectRoom,
+  onOpenMapModal,
 }) => {
   const { isSunMode } = useTheme();
   const overviewData = SITE_OVERVIEWS[site.id] || SITE_OVERVIEWS.MNA;
@@ -321,6 +326,16 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
                 <Layers className="w-3.5 h-3.5 text-amber-500" />
                 Salas y Espacios Principales ({manifest.rooms.length})
               </h2>
+              {onOpenMapModal && (
+                <button
+                  type="button"
+                  onClick={onOpenMapModal}
+                  className="text-xs font-bold text-amber-600 dark:text-amber-400 hover:underline flex items-center gap-1"
+                >
+                  <Map className="w-3.5 h-3.5" />
+                  <span>Ver en Mapa</span>
+                </button>
+              )}
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -329,17 +344,38 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
                 const roomId = room.room_id || room.id;
                 const roomName = room.nombre_oficial || room.name || roomId;
                 const roomDesc = room.frase_gancho || room.short_description || room.introduccion_narrativa;
+                const piso = room.piso === 'PA' ? 'Planta Alta' : 'Planta Baja';
+                const numeroOficial = room.numero_oficial || (room.room_id?.match(/\d+/)?.[0]) || '';
+
                 return (
                   <div
                     key={roomId}
-                    className={`p-3.5 rounded-2xl border transition-all ${
+                    onClick={() => onSelectRoom && onSelectRoom(room)}
+                    role="button"
+                    tabIndex={0}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        if (onSelectRoom) onSelectRoom(room);
+                      }
+                    }}
+                    className={`p-3.5 rounded-2xl border transition-all cursor-pointer group active:scale-[0.99] select-none ${
                       isSunMode
-                        ? 'bg-stone-50 border-stone-200 hover:border-amber-400'
-                        : 'bg-stone-900/40 border-stone-800 hover:border-amber-600'
+                        ? 'bg-stone-50 border-stone-200 hover:border-amber-400 hover:bg-amber-50/20'
+                        : 'bg-stone-900/40 border-stone-800 hover:border-amber-600 hover:bg-stone-900/80'
                     }`}
                   >
                     <div className="flex items-start justify-between gap-2 mb-1">
-                      <h3 className="text-xs font-bold text-[#111827] dark:text-stone-100">{roomName}</h3>
+                      <div className="min-w-0">
+                        {numeroOficial && (
+                          <span className="text-[10px] font-bold text-amber-600 dark:text-amber-400 block">
+                            Sala {String(numeroOficial).padStart(2, '0')} · {piso}
+                          </span>
+                        )}
+                        <h3 className="text-xs font-bold text-[#111827] dark:text-stone-100 group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors">
+                          {roomName}
+                        </h3>
+                      </div>
                       <span
                         className={`text-[9px] font-bold px-1.5 py-0.5 rounded border shrink-0 ${
                           isSunMode
@@ -359,6 +395,10 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
                         {roomDesc}
                       </p>
                     )}
+                    <div className="mt-2 pt-2 border-t border-stone-200/60 dark:border-stone-800/60 flex items-center justify-between text-[10px] text-amber-600 dark:text-amber-400 font-semibold">
+                      <span>🎧 Toca para ver obras y narración</span>
+                      <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                    </div>
                   </div>
                 );
               })}
