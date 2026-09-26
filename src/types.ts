@@ -179,6 +179,9 @@ export interface PieceSpecsObject {
   provenance?: string;
   weight?: string;
   age?: string;
+  period?: string;
+  culture?: string;
+  dimensions?: string;
 }
 
 export interface PieceFaqItem {

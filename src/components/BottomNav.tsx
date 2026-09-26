@@ -1,7 +1,6 @@
 import React from 'react';
-import { ChevronLeft, ChevronRight, RotateCcw, PartyPopper, Route, Map, CheckCircle } from 'lucide-react';
+import { ChevronLeft, ChevronRight, CheckCircle, Map } from 'lucide-react';
 import { RouteStop } from '../types';
-import { useTheme } from '../utils/ThemeContext';
 
 interface BottomNavProps {
   currentStopIndex: number;
@@ -9,9 +8,10 @@ interface BottomNavProps {
   nextStop: RouteStop | null;
   onNextStop: () => void;
   onPreviousStop?: () => void;
-  onRestartRoute: () => void;
-  onOpenRouteModal: () => void;
+  onRestartRoute?: () => void;
+  onOpenRouteModal?: () => void;
   onOpenMapModal?: () => void;
+  className?: string;
 }
 
 export const BottomNav: React.FC<BottomNavProps> = ({
@@ -20,111 +20,79 @@ export const BottomNav: React.FC<BottomNavProps> = ({
   nextStop,
   onNextStop,
   onPreviousStop,
-  onRestartRoute,
-  onOpenRouteModal,
   onOpenMapModal,
+  className = '',
 }) => {
   const isFirstStop = currentStopIndex <= 0;
   const isLastStop = currentStopIndex >= totalStops - 1;
-  const { isSunMode } = useTheme();
 
   return (
-    <nav
-      aria-label="Navegación de paradas del recorrido"
-      className={`fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[520px] z-40 px-3.5 py-2.5 sm:px-4 sm:py-3 shadow-2xl backdrop-blur-md border-t transition-colors duration-200 ${
-        isSunMode
-          ? 'bg-[#FAF8F5]/94 border-stone-200/90 text-stone-900'
-          : 'bg-[#141414]/94 border-stone-800/90 text-stone-100'
-      }`}
+    <div
+      id="tour-stop-nav-bar"
+      aria-label="Controles de avance de parada"
+      className={`px-3 py-2 bg-[#141419]/90 backdrop-blur-md border-b border-white/10 text-[#F3F4F6] ${className}`}
     >
-      <div className="flex items-center justify-between gap-2.5">
-        {/* Botón Anterior */}
+      <div className="flex items-center justify-between gap-2 max-w-md mx-auto">
+        {/* Botón Parada Anterior */}
         <button
           id="btn-prev-stop"
           type="button"
           onClick={onPreviousStop}
           disabled={isFirstStop}
           aria-label="Ir a la parada anterior"
-          className={`min-h-[44px] px-3 sm:px-3.5 py-2 rounded-xl text-xs font-semibold flex items-center gap-1 border transition-all active:scale-95 shrink-0 ${
-              isFirstStop
-              ? 'opacity-40 cursor-not-allowed border-stone-300 dark:border-stone-800 text-stone-400 dark:text-stone-600 bg-stone-100 dark:bg-stone-900'
-              : isSunMode
-              ? 'bg-white border-stone-200 hover:bg-stone-100 text-[#111827] shadow-xs'
-              : 'bg-stone-900 border-stone-800 hover:bg-stone-800 text-stone-200 shadow-xs'
+          className={`min-h-[40px] px-3 rounded-xl text-xs font-bold flex items-center gap-1 border transition-all active:scale-95 shrink-0 cursor-pointer ${
+            isFirstStop
+              ? 'opacity-30 cursor-not-allowed border-white/5 text-[#6B7280] bg-transparent'
+              : 'bg-[#0B0B0E] border-white/10 hover:border-white/20 text-[#9CA3AF] hover:text-white'
           }`}
         >
-          <ChevronLeft className="w-4 h-4" />
+          <ChevronLeft className="w-4 h-4 text-[#F59E0B]" />
           <span className="hidden xs:inline">Anterior</span>
         </button>
 
-        {/* Info central de la parada y acceso a Mapa */}
+        {/* Indicador Central de Parada */}
         <div className="flex-1 min-w-0 text-center px-1">
           <div className="flex items-center justify-center gap-1.5">
-            <span className="text-[10px] font-bold uppercase tracking-wider text-[#C05638] dark:text-[#D96B47]">
-              Parada {Math.min(currentStopIndex + 1, totalStops)} de {totalStops}
+            <span className="text-[10px] font-black uppercase tracking-widest text-[#F59E0B]">
+              PARADA {Math.min(currentStopIndex + 1, totalStops)} DE {totalStops}
             </span>
             {onOpenMapModal && (
               <button
-                id="btn-open-map-bottom"
                 type="button"
                 onClick={onOpenMapModal}
-                className={`p-1 rounded-lg border text-stone-500 hover:text-stone-900 dark:text-stone-400 dark:hover:text-stone-100 transition ${
-                  isSunMode ? 'border-stone-200 bg-stone-100/80' : 'border-stone-800 bg-stone-900/80'
-                }`}
-                title="Abrir mapa con guía a la siguiente vitrina"
-                aria-label="Abrir mapa con guía a la siguiente vitrina"
+                className="p-1 rounded-md text-[#9CA3AF] hover:text-white hover:bg-white/5 transition"
+                title="Ver vitrina en el plano"
+                aria-label="Ver vitrina en mapa"
               >
-                <Map className="w-3 h-3" />
+                <Map className="w-3 h-3 text-[#F59E0B]" />
               </button>
             )}
           </div>
-          {isLastStop ? (
-            <p
-              className={`text-xs font-semibold truncate mt-0.5 ${
-                isSunMode ? 'text-[#111827]' : 'text-stone-100'
-              }`}
-            >
-              🏁 Última parada de la ruta
-            </p>
-          ) : nextStop ? (
-            <p
-              id="micro-indicator-bottom-nav"
-              className={`text-xs font-medium truncate mt-0.5 ${
-                isSunMode ? 'text-[#111827]' : 'text-stone-200'
-              }`}
-              title={`Siguiente parada: ${nextStop.title} · ${nextStop.room_zone || 'Sala'}`}
-            >
-              <span className="font-bold text-[#C05638] dark:text-[#D96B47]">Siguiente parada:</span>{' '}
-              <span className="font-semibold">{nextStop.title}</span>{' '}
-              <span className="text-[#4B5563] dark:text-stone-400 text-[11px] font-medium">· {nextStop.room_zone || 'Sala'}</span>
-            </p>
-          ) : (
-            <p
-              className={`text-xs font-semibold truncate mt-0.5 ${
-                isSunMode ? 'text-[#111827]' : 'text-stone-100'
-              }`}
-            >
-              Siguiente pieza
-            </p>
-          )}
+          <p className="text-[11px] font-semibold text-stone-200 truncate mt-0.5">
+            {isLastStop
+              ? '🏁 Última parada del recorrido'
+              : nextStop
+              ? `Sig: ${nextStop.title}`
+              : 'Siguiente obra'}
+          </p>
         </div>
 
-        {/* Botón Avanzar / Finalizar Recorrido */}
+        {/* Botón Avanzar / Finalizar */}
         <button
           id="btn-next-stop"
           type="button"
           onClick={onNextStop}
           aria-label={isLastStop ? 'Finalizar recorrido' : 'Avanzar a la siguiente parada'}
-          className={`min-h-[44px] flex items-center gap-1.5 px-3.5 sm:px-4 py-2 rounded-xl text-xs font-semibold tracking-wide transition active:scale-95 shadow-sm shrink-0 ${
+          className={`min-h-[40px] flex items-center gap-1.5 px-3.5 rounded-xl text-xs font-bold tracking-wide transition-all active:scale-95 shadow-md shrink-0 cursor-pointer ${
             isLastStop
-              ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-emerald-700/20'
-              : 'bg-[#C05638] hover:bg-[#A9482E] dark:bg-[#D96B47] dark:hover:bg-[#C05638] text-white shadow-[#C05638]/20'
+              ? 'bg-[#10B981] hover:bg-emerald-400 text-black shadow-[#10B981]/25'
+              : 'bg-[#F59E0B] hover:bg-amber-400 text-black shadow-[#F59E0B]/25'
           }`}
         >
           {isLastStop ? (
             <>
               <CheckCircle className="w-4 h-4" />
-              <span>Finalizar Recorrido</span>
+              <span>Finalizar</span>
             </>
           ) : (
             <>
@@ -134,6 +102,8 @@ export const BottomNav: React.FC<BottomNavProps> = ({
           )}
         </button>
       </div>
-    </nav>
+    </div>
   );
 };
+
+export default BottomNav;

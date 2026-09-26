@@ -19,6 +19,8 @@ import { OfflineIndicator } from './components/OfflineIndicator';
 import { useTheme } from './utils/ThemeContext';
 import { formatRouteDuration } from './utils/routeOptimizer';
 import { getAssetUrl, normalizePiece, findPiece } from './utils/urlHelper';
+import { BottomDockBar, DockTab } from './components/BottomDockBar';
+import { FloatingAudioPlayer } from './components/FloatingAudioPlayer';
 import { Radio, ArrowLeft } from 'lucide-react';
 
 interface SpontaneousDetour {
@@ -77,6 +79,10 @@ export default function App() {
         if (!res.ok) throw new Error(`Error ${res.status} al cargar catálogo de sitios`);
         const data: SiteSummary[] = await res.json();
         setSites(data);
+        const mna = data.find((s) => s.id === 'MNA') || data[0];
+        if (mna && !selectedSite) {
+          handleSelectSite(mna);
+        }
       } catch (err) {
         console.error('Error fetching sites:', err);
         setErrorMessage('No se pudieron cargar los sitios. Verifica tu conexión.');
@@ -595,6 +601,39 @@ export default function App() {
 
   const hasPass = selectedSite ? hasActivePass(selectedSite.id) : false;
 
+  // Active Dock Tab state and thumb-zone navigation
+  const activeDockTab = useMemo<DockTab>(() => {
+    if (isMapModalOpen) return 'mapa';
+    if (isSearchModalOpen) return 'teclado';
+    if (viewMode === 'wizard') return 'recorridos';
+    return 'salas';
+  }, [isMapModalOpen, isSearchModalOpen, viewMode]);
+
+  const handleDockSelectTab = (tab: DockTab) => {
+    if (tab === 'salas') {
+      setIsMapModalOpen(false);
+      setIsSearchModalOpen(false);
+      setIsLiveRouteManagerOpen(false);
+      setIsTourCompleted(false);
+      setSelectedRoomForDetail(null);
+      setViewMode('overview');
+    } else if (tab === 'recorridos') {
+      setIsMapModalOpen(false);
+      setIsSearchModalOpen(false);
+      if (viewMode === 'tour' && activeRoute) {
+        setIsLiveRouteManagerOpen(true);
+      } else {
+        setViewMode('wizard');
+      }
+    } else if (tab === 'mapa') {
+      setIsSearchModalOpen(false);
+      setIsMapModalOpen(true);
+    } else if (tab === 'teclado') {
+      setIsMapModalOpen(false);
+      setIsSearchModalOpen(true);
+    }
+  };
+
   // Preload pieces whenever activeRoute changes or manifest changes
   useEffect(() => {
     let isMounted = true;
@@ -800,11 +839,7 @@ export default function App() {
 
       {/* Main mobile/tablet viewport container */}
       <div
-        className={`w-full max-w-[480px] min-h-screen shadow-2xl relative flex flex-col transition-colors duration-200 border-x overflow-x-hidden ${
-          isSunMode
-            ? 'bg-[#FAF8F5] border-stone-200/80 text-[#111827]'
-            : 'bg-[#141414] border-stone-800/80 text-[#F5F5F4]'
-        }`}
+        className="w-full max-w-[480px] min-h-screen shadow-2xl relative flex flex-col bg-[#0B0B0E] border-x border-[#24242E] text-[#F3F4F6] overflow-x-hidden"
       >
         {/* Error message alert if any */}
         {errorMessage && (
@@ -858,7 +893,7 @@ export default function App() {
           />
         ) : (
           /* ================= VIEW 4: ACTIVE TOUR VIEW ================= */
-          <div className="flex-1 flex flex-col relative">
+          <div className="flex-1 flex flex-col relative pb-32">
             {/* Top Navbar */}
             <Navbar
               onBack={() => setViewMode('overview')}
@@ -872,6 +907,24 @@ export default function App() {
               onOpenMapModal={() => setIsMapModalOpen(true)}
               onOpenSearchModal={() => setIsSearchModalOpen(true)}
             />
+
+            {/* Barra de Navegación de Paradas (Anterior / Siguiente) */}
+            {activeRoute && !isTourCompleted && (
+              <BottomNav
+                currentStopIndex={currentStopIndex}
+                totalStops={activeRoute.stops.length}
+                nextStop={
+                  currentStopIndex + 1 < activeRoute.stops.length
+                    ? activeRoute.stops[currentStopIndex + 1]
+                    : null
+                }
+                onNextStop={handleNextStop}
+                onPreviousStop={handlePreviousStop}
+                onRestartRoute={handleRestartRoute}
+                onOpenRouteModal={() => setIsLiveRouteManagerOpen(true)}
+                onOpenMapModal={() => setIsMapModalOpen(true)}
+              />
+            )}
 
             {/* Banner de Descarga Offline */}
             <div className="px-3 pt-2">
@@ -887,21 +940,17 @@ export default function App() {
                   type="button"
                   id="btn-live-route-pill"
                   onClick={() => setIsLiveRouteManagerOpen(true)}
-                  className={`pointer-events-auto flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-black shadow-lg backdrop-blur-md border transition-all active:scale-95 hover:scale-[1.02] ${
-                    isSunMode
-                      ? 'bg-white/95 text-stone-900 border-amber-400 shadow-amber-500/15'
-                      : 'bg-stone-900/95 text-stone-100 border-amber-500 shadow-amber-500/25'
-                  }`}
+                  className="pointer-events-auto flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-black shadow-lg backdrop-blur-md border border-[#F59E0B]/40 bg-[#141419]/95 text-[#F3F4F6] transition-all active:scale-95 hover:scale-[1.02] cursor-pointer"
                 >
                   <span className="flex h-2 w-2 relative">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#F59E0B] opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-[#F59E0B]"></span>
                   </span>
-                  <span className="text-amber-500 font-black">🧭 Mi Ruta</span>
-                  <span className="text-[11px] font-semibold opacity-90">
+                  <span className="text-[#F59E0B] font-black">🧭 Mi Ruta</span>
+                  <span className="text-[11px] font-semibold text-stone-300">
                     (Parada {currentStopIndex + 1} de {activeRoute.stops.length})
                   </span>
-                  <span className="text-[10px] font-mono font-bold text-amber-600 dark:text-amber-400 pl-1.5 border-l border-stone-300 dark:border-stone-700">
+                  <span className="text-[10px] font-mono font-bold text-[#F59E0B] pl-1.5 border-l border-white/10">
                     ~{formatRouteDuration(remainingRouteMinutes)}
                   </span>
                 </button>
@@ -911,20 +960,16 @@ export default function App() {
             {/* BANNER DE DESVÍO ESPONTÁNEO ACTIVO */}
             {spontaneousDetour && (
               <div
-                className={`sticky top-[57px] z-20 mx-3 my-1.5 p-3 rounded-2xl border shadow-lg backdrop-blur-md animate-fadeIn flex flex-col gap-2 ${
-                  isSunMode
-                    ? 'bg-amber-50/95 border-amber-400 text-amber-950'
-                    : 'bg-stone-900/95 border-amber-500 text-amber-200'
-                }`}
+                className="sticky top-[57px] z-20 mx-3 my-1.5 p-3 rounded-2xl border border-[#F59E0B]/50 bg-[#141419]/95 text-[#F3F4F6] shadow-xl backdrop-blur-md animate-fadeIn flex flex-col gap-2"
               >
                 <div className="flex items-center gap-2">
-                  <span className="w-2.5 h-2.5 rounded-full bg-amber-500 animate-ping shrink-0" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#F59E0B] animate-ping shrink-0" />
                   <div className="min-w-0">
                     <div className="flex items-center gap-1.5 text-xs font-black">
-                      <span>🟡 Desvío espontáneo</span>
-                      <span className="text-[10px] font-normal opacity-75">• fuera de secuencia</span>
+                      <span className="text-[#F59E0B]">🟡 Desvío espontáneo</span>
+                      <span className="text-[10px] text-[#9CA3AF]">• fuera de secuencia</span>
                     </div>
-                    <div className="text-[11px] font-medium line-clamp-1">
+                    <div className="text-[11px] font-medium text-stone-200 line-clamp-1">
                       Explorando: {spontaneousDetour.pieceTitle}
                     </div>
                   </div>
@@ -934,18 +979,14 @@ export default function App() {
                   <button
                     type="button"
                     onClick={handleKeepDetourInRoute}
-                    className="text-[11px] font-bold px-2.5 py-1 rounded-xl bg-amber-500 text-black hover:bg-amber-400 transition-all active:scale-95"
+                    className="text-[11px] font-bold px-3 py-1 rounded-xl bg-[#F59E0B] text-black hover:bg-amber-400 transition-all active:scale-95 cursor-pointer"
                   >
                     + Conservar en mi ruta
                   </button>
                   <button
                     type="button"
                     onClick={handleResumePlannedRoute}
-                    className={`text-[11px] font-bold px-2.5 py-1 rounded-xl border transition-all active:scale-95 ${
-                      isSunMode
-                        ? 'bg-white border-amber-300 text-stone-800 hover:bg-stone-100'
-                        : 'bg-stone-800 border-amber-500/40 text-stone-200 hover:bg-stone-700'
-                    }`}
+                    className="text-[11px] font-bold px-3 py-1 rounded-xl border border-white/10 bg-white/5 text-[#F3F4F6] hover:bg-white/10 transition-all active:scale-95 cursor-pointer"
                   >
                     ⬅ Retomar ruta planeada (Parada {spontaneousDetour.originalStopIndex + 1})
                   </button>
@@ -975,29 +1016,16 @@ export default function App() {
                   setIsTourCompleted(false);
                   handleRestartRoute();
                 }}
+                onOpenMap={() => {
+                  setIsMapModalOpen(true);
+                }}
               />
             ) : isLoadingPiece ? (
               <div className="p-6 space-y-4">
-                <div
-                  className={`w-full h-64 rounded-2xl animate-pulse ${
-                    isSunMode ? 'bg-stone-200' : 'bg-stone-900'
-                  }`}
-                />
-                <div
-                  className={`h-6 w-3/4 rounded animate-pulse ${
-                    isSunMode ? 'bg-stone-200' : 'bg-stone-900'
-                  }`}
-                />
-                <div
-                  className={`h-4 w-1/2 rounded animate-pulse ${
-                    isSunMode ? 'bg-stone-200' : 'bg-stone-900'
-                  }`}
-                />
-                <div
-                  className={`h-32 rounded-2xl animate-pulse ${
-                    isSunMode ? 'bg-stone-200' : 'bg-stone-900'
-                  }`}
-                />
+                <div className="w-full h-64 rounded-3xl bg-[#141419] border border-white/10 animate-pulse" />
+                <div className="h-6 w-3/4 rounded-xl bg-[#141419] animate-pulse" />
+                <div className="h-4 w-1/2 rounded-lg bg-[#141419] animate-pulse" />
+                <div className="h-32 rounded-2xl bg-[#141419] border border-white/10 animate-pulse" />
               </div>
             ) : currentPiece ? (
               /* Dynamic Piece View */
@@ -1019,11 +1047,11 @@ export default function App() {
                 onOpenMapModal={() => setIsMapModalOpen(true)}
               />
             ) : (
-              <div className="p-12 text-center text-stone-600 dark:text-stone-400 text-sm flex flex-col items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-500 text-xl font-bold">
+              <div className="p-12 text-center text-[#9CA3AF] text-sm flex flex-col items-center gap-4">
+                <div className="w-14 h-14 rounded-2xl bg-[#F59E0B]/20 border border-[#F59E0B]/30 flex items-center justify-center text-[#F59E0B] text-2xl font-bold">
                   🏛️
                 </div>
-                <p className="font-medium">No se encontró información para esta pieza.</p>
+                <p className="font-medium text-stone-200">No se encontró información para esta pieza.</p>
                 <div className="flex gap-2">
                   <button
                     type="button"
@@ -1036,39 +1064,38 @@ export default function App() {
                         setViewMode('overview');
                       }
                     }}
-                    className="px-4 py-2 rounded-xl text-xs font-bold bg-amber-500 text-stone-950 transition active:scale-95 shadow-md"
+                    className="px-4 py-2.5 rounded-xl text-xs font-bold bg-[#F59E0B] text-black transition active:scale-95 shadow-md cursor-pointer"
                   >
                     Ver obras maestras
                   </button>
                   <button
                     type="button"
                     onClick={() => setViewMode('overview')}
-                    className="px-4 py-2 rounded-xl text-xs font-semibold border border-stone-300 dark:border-stone-700 hover:bg-stone-100 dark:hover:bg-stone-800 transition"
+                    className="px-4 py-2.5 rounded-xl text-xs font-semibold border border-white/10 hover:bg-white/5 text-stone-200 transition cursor-pointer"
                   >
                     Volver a salas
                   </button>
                 </div>
               </div>
             )}
-
-            {/* Bottom Fixed Navigation Bar - Solo mostrar si no se ha completado el tour */}
-            {activeRoute && !isTourCompleted && (
-              <BottomNav
-                currentStopIndex={currentStopIndex}
-                totalStops={activeRoute.stops.length}
-                nextStop={
-                  currentStopIndex + 1 < activeRoute.stops.length
-                    ? activeRoute.stops[currentStopIndex + 1]
-                    : null
-                }
-                onNextStop={handleNextStop}
-                onPreviousStop={handlePreviousStop}
-                onRestartRoute={handleRestartRoute}
-                onOpenRouteModal={() => setIsLiveRouteManagerOpen(true)}
-                onOpenMapModal={() => setIsMapModalOpen(true)}
-              />
-            )}
           </div>
+        )}
+
+        {/* ================= REPRODUCTOR DE AUDIO FLOTANTE ESTILO SPOTIFY / APPLE MUSIC ================= */}
+        <FloatingAudioPlayer
+          currentPiece={currentPiece}
+          roomName={activeRoute?.stops[currentStopIndex]?.room_zone}
+          onOpenPieceDetail={() => {
+            if (viewMode !== 'tour') setViewMode('tour');
+          }}
+        />
+
+        {/* ================= BARRA DE NAVEGACIÓN INFERIOR (DOCK BAR DE 4 ACCESOS TÁCTILES) ================= */}
+        {selectedSite && (
+          <BottomDockBar
+            activeTab={activeDockTab}
+            onSelectTab={handleDockSelectTab}
+          />
         )}
 
         {/* ================= MODALS ================= */}

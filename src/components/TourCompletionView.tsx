@@ -1,18 +1,14 @@
 import React from 'react';
 import { RouteStop } from '../types';
-import { useTheme } from '../utils/ThemeContext';
-import { SafeImage } from './SafeImage';
-import { getAssetUrl } from '../utils/urlHelper';
 import {
-  Trophy,
-  CheckCircle2,
+  Sparkles,
+  MapPin,
   Clock,
-  Layers,
   Compass,
   RotateCcw,
-  Sparkles,
-  ArrowRight,
   BookOpen,
+  ArrowRight,
+  Landmark,
 } from 'lucide-react';
 
 interface TourCompletionViewProps {
@@ -23,6 +19,7 @@ interface TourCompletionViewProps {
   onExploreRooms: () => void;
   onChooseRoute: () => void;
   onRepeatTour: () => void;
+  onOpenMap?: () => void;
 }
 
 export const TourCompletionView: React.FC<TourCompletionViewProps> = ({
@@ -33,96 +30,108 @@ export const TourCompletionView: React.FC<TourCompletionViewProps> = ({
   onExploreRooms,
   onChooseRoute,
   onRepeatTour,
+  onOpenMap,
 }) => {
-  const { isSunMode } = useTheme();
+  // Calcular cantidad de salas distintas visitadas
+  const distinctRooms = new Set(
+    stops.map((s) => s.room_id || s.room_zone).filter(Boolean)
+  ).size || 1;
 
   return (
     <div
       id="tour-completion-screen"
-      className={`min-h-[80vh] flex flex-col justify-between px-4 py-8 animate-fadeIn ${
-        isSunMode ? 'text-[#111827]' : 'text-stone-100'
-      }`}
+      className="min-h-[82vh] flex flex-col justify-between px-5 py-8 bg-[#0B0B0E] text-[#F3F4F6] animate-fadeIn select-none"
     >
       <div className="max-w-md mx-auto w-full space-y-6">
-        {/* Encabezado Celebratorio */}
-        <div className="text-center space-y-3 pt-4">
+        {/* ================= 7. INSIGNIA DORADA CONMEMORATIVA DEL MNA ================= */}
+        <div className="text-center space-y-3 pt-2">
           <div className="relative inline-block">
-            <div className="w-20 h-20 sm:w-24 sm:h-24 mx-auto rounded-3xl bg-gradient-to-tr from-amber-500 via-amber-400 to-yellow-300 flex items-center justify-center shadow-xl shadow-amber-500/25 ring-4 ring-amber-400/20 transform hover:rotate-3 transition-transform">
+            {/* Resplandor radial dorado */}
+            <div className="absolute inset-0 bg-[#F59E0B]/20 rounded-full blur-2xl" />
+
+            <div className="relative w-24 h-24 sm:w-28 sm:h-28 mx-auto rounded-3xl bg-gradient-to-tr from-[#B45309] via-[#F59E0B] to-[#FDE68A] flex items-center justify-center shadow-2xl shadow-[#F59E0B]/30 ring-4 ring-[#F59E0B]/30 transform hover:scale-105 transition-transform duration-300">
               <span className="text-4xl sm:text-5xl drop-shadow-md">🏛️</span>
             </div>
-            <div className="absolute -top-1 -right-1 w-7 h-7 rounded-full bg-emerald-500 text-white flex items-center justify-center shadow-md animate-bounce">
-              <Sparkles className="w-4 h-4" />
+
+            <div className="absolute -top-1 -right-1 w-8 h-8 rounded-full bg-[#10B981] text-black flex items-center justify-center shadow-lg font-bold">
+              <Sparkles className="w-4 h-4 fill-current" />
             </div>
           </div>
 
           <div>
-            <span className="inline-block px-3 py-1 rounded-full text-[11px] font-black tracking-widest uppercase bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-500/30 mb-2">
-              Misión Cumplida
+            <span className="inline-block px-3 py-1 rounded-full text-[10px] font-black tracking-widest uppercase bg-[#F59E0B]/15 text-[#F59E0B] border border-[#F59E0B]/40 mb-2">
+              RECORRIDO CONCLUIDO
             </span>
-            <h1 className="text-2xl sm:text-3xl font-serif font-black tracking-tight text-[#111827] dark:text-stone-100">
+            <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white">
               ¡Recorrido Completado!
             </h1>
-            <p className="text-sm font-medium text-stone-600 dark:text-stone-400 mt-1 max-w-xs mx-auto">
-              Has concluido con éxito el recorrido por <span className="font-bold text-amber-600 dark:text-amber-400">{routeName}</span>.
+            <p className="text-xs sm:text-sm font-medium text-[#9CA3AF] mt-1 max-w-xs mx-auto leading-relaxed">
+              Has recorrido con éxito la ruta de{' '}
+              <span className="font-bold text-[#F59E0B]">{routeName}</span> en el Museo Nacional de Antropología.
             </p>
           </div>
         </div>
 
-        {/* Tarjeta de Estadísticas de la Ruta */}
-        <div
-          className={`p-4 sm:p-5 rounded-2xl border shadow-sm ${
-            isSunMode
-              ? 'bg-white border-stone-200/90'
-              : 'bg-stone-900/80 border-stone-800'
-          }`}
-        >
-          <div className="grid grid-cols-2 gap-3 text-center">
-            <div
-              className={`p-3 rounded-xl border ${
-                isSunMode ? 'bg-amber-50/60 border-amber-200' : 'bg-stone-950/60 border-stone-800'
-              }`}
-            >
-              <div className="flex items-center justify-center gap-1.5 text-amber-600 dark:text-amber-400 mb-1">
-                <CheckCircle2 className="w-4 h-4" />
-                <span className="text-[10px] font-bold uppercase tracking-wider">Obras Vistas</span>
+        {/* ================= RESUMEN DEL RECORRIDO (ESTADÍSTICAS) ================= */}
+        <div className="p-5 rounded-3xl bg-[#141419] border border-white/10 shadow-2xl space-y-4">
+          <div className="grid grid-cols-3 gap-2.5 text-center">
+            {/* Salas visitadas */}
+            <div className="p-3 rounded-2xl bg-[#0B0B0E] border border-white/5 flex flex-col justify-between">
+              <div className="flex items-center justify-center gap-1 text-[#F59E0B] mb-1">
+                <Landmark className="w-3.5 h-3.5" />
+                <span className="text-[9px] font-bold uppercase tracking-wider text-[#6B7280]">
+                  Salas
+                </span>
               </div>
-              <p className="text-2xl font-black text-[#111827] dark:text-stone-100">
-                {totalStops}
+              <p className="text-2xl font-bold text-white tabular-nums">
+                {distinctRooms}
               </p>
-              <span className="text-[10px] text-stone-500 dark:text-stone-400">Paradas oficiales</span>
+              <span className="text-[9px] text-[#9CA3AF]">exploradas</span>
             </div>
 
-            <div
-              className={`p-3 rounded-xl border ${
-                isSunMode ? 'bg-amber-50/60 border-amber-200' : 'bg-stone-950/60 border-stone-800'
-              }`}
-            >
-              <div className="flex items-center justify-center gap-1.5 text-amber-600 dark:text-amber-400 mb-1">
-                <Clock className="w-4 h-4" />
-                <span className="text-[10px] font-bold uppercase tracking-wider">Tiempo Guiado</span>
+            {/* Piezas exploradas */}
+            <div className="p-3 rounded-2xl bg-[#0B0B0E] border border-white/5 flex flex-col justify-between">
+              <div className="flex items-center justify-center gap-1 text-[#F59E0B] mb-1">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span className="text-[9px] font-bold uppercase tracking-wider text-[#6B7280]">
+                  Piezas
+                </span>
               </div>
-              <p className="text-2xl font-black text-[#111827] dark:text-stone-100">
+              <p className="text-2xl font-bold text-white tabular-nums">
+                {totalStops}
+              </p>
+              <span className="text-[9px] text-[#9CA3AF]">visitadas</span>
+            </div>
+
+            {/* Tiempo total */}
+            <div className="p-3 rounded-2xl bg-[#0B0B0E] border border-white/5 flex flex-col justify-between">
+              <div className="flex items-center justify-center gap-1 text-[#F59E0B] mb-1">
+                <Clock className="w-3.5 h-3.5" />
+                <span className="text-[9px] font-bold uppercase tracking-wider text-[#6B7280]">
+                  Tiempo
+                </span>
+              </div>
+              <p className="text-2xl font-bold text-white tabular-nums">
                 ~{estimatedMinutes}m
               </p>
-              <span className="text-[10px] text-stone-500 dark:text-stone-400">Recorrido arqueológico</span>
+              <span className="text-[9px] text-[#9CA3AF]">guiado</span>
             </div>
           </div>
 
-          {/* Muestra visual de paradas completadas */}
+          {/* Carrusel horizontal de obras completadas */}
           {stops.length > 0 && (
-            <div className="mt-4 pt-3 border-t border-stone-200 dark:border-stone-800">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400 block mb-2">
-                Hitos recorridos en esta ruta:
+            <div className="pt-3 border-t border-white/10">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-[#9CA3AF] block mb-2">
+                Hitos arqueológicos de este recorrido:
               </span>
-              <div className="flex gap-2 overflow-x-auto pb-1.5 scrollbar-thin">
+              <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
                 {stops.map((stop, i) => (
                   <div
                     key={i}
-                    className="shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border text-xs bg-stone-50 dark:bg-stone-950/50 border-stone-200 dark:border-stone-800 text-stone-700 dark:text-stone-300"
-                    title={stop.title}
+                    className="shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#0B0B0E] border border-white/10 text-xs text-stone-200"
                   >
-                    <span className="text-[10px] font-bold text-amber-500">#{i + 1}</span>
-                    <span className="font-medium max-w-[110px] truncate">{stop.title}</span>
+                    <span className="text-[10px] font-bold text-[#F59E0B]">#{i + 1}</span>
+                    <span className="font-semibold max-w-[120px] truncate">{stop.title}</span>
                   </div>
                 ))}
               </div>
@@ -130,52 +139,42 @@ export const TourCompletionView: React.FC<TourCompletionViewProps> = ({
           )}
         </div>
 
-        {/* Mensaje de Despedida Cultural */}
-        <div
-          className={`p-3.5 rounded-xl border text-xs text-center leading-relaxed ${
-            isSunMode
-              ? 'bg-[#FAF3EB] border-[#E8D7C8] text-[#3D2817]'
-              : 'bg-amber-950/20 border-amber-900/40 text-amber-200'
-          }`}
-        >
-          <span className="font-bold">✨ Recuerda:</span> El Museo Nacional de Antropología alberga 22 salas y más de 130 piezas maestras catalogadas. ¡Sigue explorando otras salas del recinto!
+        {/* Nota cultural de continuidad */}
+        <div className="p-3.5 rounded-2xl bg-[#141419] border border-white/5 text-xs text-center text-[#9CA3AF] leading-relaxed">
+          <span className="text-[#F59E0B] font-bold">✨ Recuerda:</span> El MNA cuenta con 22 salas temáticas en Planta Baja y Planta Alta. Puedes continuar tu visita eligiendo otra sala o abriendo el mapa arquitectónico.
         </div>
 
-        {/* Botones de Acción */}
-        <div className="space-y-3 pt-2">
-          {/* Botón Primario: Explorar salas del Museo */}
+        {/* ================= DOS BOTONES PRINCIPALES DE BORDES REDONDEADOS ================= */}
+        <div className="space-y-3 pt-1">
+          {/* Botón 1: Explorar otra sala */}
           <button
             id="btn-explore-rooms-completed"
             type="button"
             onClick={onExploreRooms}
-            className="w-full py-3.5 px-4 rounded-xl font-bold text-sm bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-stone-950 shadow-lg shadow-amber-500/20 active:scale-98 transition-all flex items-center justify-center gap-2 cursor-pointer"
+            className="w-full py-4 px-5 rounded-2xl font-bold text-sm bg-[#F59E0B] hover:bg-amber-400 text-black shadow-xl shadow-[#F59E0B]/25 active:scale-95 transition-all flex items-center justify-center gap-2.5 cursor-pointer"
           >
-            <BookOpen className="w-4 h-4" />
-            <span>Explorar salas del Museo</span>
+            <BookOpen className="w-4 h-4 fill-current" />
+            <span>Explorar otra sala del Museo</span>
             <ArrowRight className="w-4 h-4" />
           </button>
 
-          {/* Botón Secundario: Elegir otra ruta temática */}
+          {/* Botón 2: Volver al Mapa */}
           <button
-            id="btn-choose-route-completed"
+            id="btn-back-to-map-completed"
             type="button"
-            onClick={onChooseRoute}
-            className={`w-full py-3 px-4 rounded-xl font-semibold text-xs border transition-all active:scale-98 flex items-center justify-center gap-2 cursor-pointer ${
-              isSunMode
-                ? 'bg-white border-stone-300 text-stone-800 hover:bg-stone-50 shadow-xs'
-                : 'bg-stone-900 border-stone-700 text-stone-200 hover:bg-stone-800'
-            }`}
+            onClick={onOpenMap || onChooseRoute}
+            className="w-full py-3.5 px-5 rounded-2xl font-bold text-xs bg-[#141419] hover:bg-[#1f1f26] text-white border border-white/10 shadow-lg active:scale-95 transition-all flex items-center justify-center gap-2 cursor-pointer"
           >
-            <Compass className="w-4 h-4 text-amber-500" />
-            <span>Elegir otra ruta temática</span>
+            <Compass className="w-4 h-4 text-[#F59E0B]" />
+            <span>Volver al Plano y Mapa Arquitectónico</span>
           </button>
 
-          {/* Botón Terciario: Repetir este recorrido desde el inicio */}
+          {/* Botón terciario de texto: Repetir este recorrido desde el inicio */}
           <button
             id="btn-repeat-tour-completed"
             type="button"
             onClick={onRepeatTour}
-            className="w-full py-2.5 text-center text-xs font-semibold text-stone-500 dark:text-stone-400 hover:text-stone-800 dark:hover:text-stone-200 transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
+            className="w-full py-2 text-center text-xs font-semibold text-[#6B7280] hover:text-[#F3F4F6] transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
           >
             <RotateCcw className="w-3.5 h-3.5" />
             <span>Repetir este recorrido desde el inicio</span>
@@ -185,3 +184,5 @@ export const TourCompletionView: React.FC<TourCompletionViewProps> = ({
     </div>
   );
 };
+
+export default TourCompletionView;

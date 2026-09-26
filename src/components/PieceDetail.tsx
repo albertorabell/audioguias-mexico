@@ -3,26 +3,26 @@ import {
   Maximize2,
   Lock,
   Sparkles,
-  Clock,
   Play,
   Square,
   Volume2,
   ChevronDown,
+  ChevronUp,
   Layers,
-  HelpCircle,
   Eye,
-  Bookmark,
   MapPin,
   Compass,
   ChevronRight,
   Headphones,
   Zap,
+  Check,
+  BookOpen,
 } from 'lucide-react';
 import { Piece, RouteStop, SpecItem, PieceSpecsObject } from '../types';
 import { PieceImage } from './PieceImage';
 import { ImageZoomModal } from './ImageZoomModal';
-import { ttsPlayer } from '../utils/ttsPlayer';
-import { useTheme } from '../utils/ThemeContext';
+import { ttsPlayer, TTSState } from '../utils/ttsPlayer';
+import { getAssetUrl } from '../utils/urlHelper';
 
 interface PieceDetailProps {
   piece: Piece;
@@ -51,15 +51,13 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   onPreviousStop,
   onOpenMapModal,
 }) => {
-  const { isSunMode } = useTheme();
-
-  // 1. Estados de Audio y Modo de Locución (Exprés vs Inmersión)
+  // 1. Estados de Audio y Modo de Locución
   const [audioMode, setAudioMode] = useState<'expres' | 'inmersion'>('expres');
   const [isPlayingTTS, setIsPlayingTTS] = useState<boolean>(false);
 
   // 2. Modales e interacción
   const [isZoomOpen, setIsZoomOpen] = useState(false);
-  const [isMitoOpen, setIsMitoOpen] = useState(true);
+  const [isHistoryExpanded, setIsHistoryExpanded] = useState(false);
   const [completedChallenges, setCompletedChallenges] = useState<Record<number, boolean>>({});
 
   // Homologación de identificadores (ID vs PIECE_ID)
@@ -86,8 +84,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     setIsPlayingTTS(false);
   }, [pieceId]);
 
-  // Normalización de propiedades entre el nuevo esquema de 16 columnas y datos previos
-  const titulo = piece.titulo || piece.identification?.title || 'Pieza del Museo';
+  // Normalización de textos
+  const titulo = piece.titulo || piece.identification?.title || piece.title || 'Pieza del Museo';
   const fraseGancho = piece.frase_gancho || piece.narrative?.one_liner || '';
   const puenteNarrativo = piece.puente_narrativo || '';
   const guionCorto =
@@ -106,7 +104,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const isFree = piece.is_free !== undefined ? piece.is_free : !piece.is_premium;
   const isLocked = !isFree && !hasPass;
 
-  // Normalización de Retos de Observación (lista de strings)
+  // Normalización de Retos de Observación
   const retosList: string[] = useMemo(() => {
     if (piece.retos_observacion && piece.retos_observacion.length > 0) {
       return piece.retos_observacion;
@@ -122,7 +120,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     return [];
   }, [piece.retos_observacion, piece.observation_challenges, piece.visual_challenge]);
 
-  // Normalización de Especificaciones (clave -> valor)
+  // Normalización de Especificaciones (pastillas de cristal)
   const especificacionesEntries = useMemo<[string, string][]>(() => {
     if (piece.especificaciones && typeof piece.especificaciones === 'object') {
       const entries: [string, string][] = Object.entries(piece.especificaciones)
@@ -138,11 +136,12 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
       }
       const sObj = piece.specs as PieceSpecsObject;
       const res: [string, string][] = [];
+      if (sObj.period || sObj.age) res.push(['Época', sObj.period || sObj.age || '']);
+      if (sObj.culture) res.push(['Cultura', sObj.culture]);
       if (sObj.material) res.push(['Material', sObj.material]);
+      if (sObj.dimensions || sObj.weight) res.push(['Dimensiones', sObj.dimensions || sObj.weight || '']);
       if (sObj.provenance) res.push(['Procedencia', sObj.provenance]);
-      if (sObj.age) res.push(['Periodo / Datación', sObj.age]);
-      if (sObj.weight) res.push(['Dimensiones / Peso', sObj.weight]);
-      return res;
+      return res.filter(([_, v]) => Boolean(v));
     }
     return [];
   }, [piece.especificaciones, piece.specs]);
@@ -167,7 +166,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     return null;
   }, [piece.faq_mito, piece.faq, piece.faqs]);
 
-  // Manejador del botón Play / Stop con ttsPlayer
+  // Manejador del botón Play Maestro
   const handleToggleAudio = () => {
     if (isLocked) {
       onOpenPaywall();
@@ -179,14 +178,32 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
       setIsPlayingTTS(false);
     } else {
       const scriptToSpeak = audioMode === 'expres' ? guionCorto : guionLargo;
-      ttsPlayer.play(scriptToSpeak, titulo, () => {
-        setIsPlayingTTS(false);
-      });
+      ttsPlayer.play(
+        scriptToSpeak,
+        titulo,
+        () => setIsPlayingTTS(false),
+        {
+          roomName: roomName || piece.location?.room_name || roomId,
+          artworkUrl: imageFilename ? getAssetUrl(`images/pieces/${imageFilename}`) : undefined,
+          pieceId,
+          mode: audioMode,
+        }
+      );
       setIsPlayingTTS(true);
     }
   };
 
+  // Toggle checklist reto con vibración háptica
   const toggleChallenge = (idx: number) => {
+    // Retroalimentación háptica en dispositivos móviles compatibles
+    if (typeof navigator !== 'undefined' && 'vibrate' in navigator) {
+      try {
+        navigator.vibrate?.(50);
+      } catch {
+        // Ignorar
+      }
+    }
+
     setCompletedChallenges((prev) => ({
       ...prev,
       [idx]: !prev[idx],
@@ -195,119 +212,158 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
 
   const completedCount = Object.values(completedChallenges).filter(Boolean).length;
 
+  // Tag superior formateado: "SALA 06 • MEXICA • PARADA 3 DE 18"
+  const roomFormatted = (roomName || piece.location?.room_name || roomId || 'SALA GENERAL')
+    .toUpperCase()
+    .replace(/^SALA\s*/i, '');
+  const roomNumberMatch = roomId.match(/\d+/)?.[0] || '01';
+  const tagSuperior = `SALA ${roomNumberMatch.padStart(2, '0')} • ${roomFormatted}${
+    currentStopIndex !== undefined && totalStops !== undefined
+      ? ` • PARADA ${currentStopIndex + 1} DE ${totalStops}`
+      : ''
+  }`;
+
   return (
     <article
       id="piece-detail-container"
-      className={`pb-32 transition-colors duration-200 ${
-        isSunMode ? 'text-[#111827]' : 'text-[#F5F5F4]'
-      }`}
+      className="bg-[#0B0B0E] text-[#F3F4F6] pb-36 transition-colors duration-200 select-none"
     >
-      {/* 1. HERO CON COMPONENTE PieceImage Y FALLBACK ELEGANTE */}
-      <section className="px-4 pt-3 pb-2">
-        <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] rounded-2xl sm:rounded-3xl overflow-hidden bg-stone-200 dark:bg-stone-900 border border-stone-200/60 dark:border-stone-800/60 shadow-xs group">
+      {/* ================= 4. FICHA HERO CINEMATOGRÁFICA ================= */}
+      <section className="relative w-full overflow-hidden bg-black">
+        {/* Imagen en gran formato con degradado hacia el fondo #0B0B0E */}
+        <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] overflow-hidden">
           <PieceImage
             filename={imageFilename}
             alt={titulo}
             onClick={() => setIsZoomOpen(true)}
-            className="w-full h-full cursor-zoom-in"
+            className="w-full h-full object-cover cursor-zoom-in"
           />
 
-          {/* Badge superior de parada o ubicación */}
-          <div className="absolute top-3 left-3 z-10">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-semibold tracking-wide bg-black/60 text-white backdrop-blur-md border border-white/10 shadow-xs">
-              <MapPin className="w-3 h-3 text-[#D96B47]" />
-              <span>
-                {roomName || piece.location?.room_name || roomId || 'Sala Oficial'}
-              </span>
-            </span>
-          </div>
+          {/* Degradado cinematográfico que integra la foto hacia el fondo #0B0B0E */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0B0B0E] via-[#0B0B0E]/40 to-transparent pointer-events-none" />
 
           {/* Botón de Zoom Pantalla Completa */}
           <button
             type="button"
             onClick={() => setIsZoomOpen(true)}
-            className="absolute top-3 right-3 z-10 w-9 h-9 rounded-full bg-black/60 text-white backdrop-blur-md flex items-center justify-center hover:bg-black/80 transition-all active:scale-95 shadow-xs border border-white/10"
-            title="Ampliar imagen de alta resolución"
+            className="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-black/60 hover:bg-black/85 text-white backdrop-blur-md flex items-center justify-center transition-all active:scale-90 border border-white/10 shadow-lg cursor-pointer"
+            title="Ampliar imagen oficial en alta resolución"
+            aria-label="Ampliar imagen"
           >
-            <Maximize2 className="w-4 h-4" />
+            <Maximize2 className="w-4 h-4 text-[#F3F4F6]" />
           </button>
 
-          {/* Badge de contenido Premium / Gratuito */}
-          <div className="absolute bottom-3 right-3 z-10">
-            {isLocked ? (
+          {/* Badge de contenido Premium o Pase Requerido */}
+          {isLocked && (
+            <div className="absolute top-4 left-4 z-10">
               <button
                 type="button"
                 onClick={onOpenPaywall}
-                className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-amber-500 text-stone-950 shadow-md transition-transform hover:scale-105 active:scale-95 cursor-pointer"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-[#F59E0B] text-black shadow-lg shadow-[#F59E0B]/20 active:scale-95 transition-transform cursor-pointer"
               >
-                <Lock className="w-3.5 h-3.5" />
+                <Lock className="w-3.5 h-3.5 fill-current" />
                 <span>Audio Premium</span>
               </button>
-            ) : (
-              <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-600/90 text-white backdrop-blur-xs">
-                Acceso Incluido
-              </span>
-            )}
+            </div>
+          )}
+        </div>
+
+        {/* Debajo de la imagen: Tag superior + Título Monumental + Pastillas de Cristal */}
+        <div className="px-5 pt-1 pb-4 relative z-10 -mt-10 sm:-mt-14">
+          {/* Tag Superior uppercase fino con tracking amplio */}
+          <div className="tracking-widest text-[11px] sm:text-xs text-[#F59E0B] font-semibold uppercase mb-1.5 drop-shadow-sm flex items-center gap-2">
+            <span>{tagSuperior}</span>
+          </div>
+
+          {/* Título Monumental (26px font-bold text-white tracking-tight) */}
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-white leading-tight">
+            {titulo}
+          </h1>
+
+          {/* Frase gancho si existe */}
+          {fraseGancho && (
+            <p className="mt-2 text-sm sm:text-base font-serif italic text-[#9CA3AF] leading-relaxed">
+              «{fraseGancho}»
+            </p>
+          )}
+
+          {/* Fila de metadatos tipo pastillas de cristal: Época, Cultura, Material, Dimensiones */}
+          {especificacionesEntries.length > 0 && (
+            <div className="flex flex-wrap gap-2 mt-4">
+              {especificacionesEntries.slice(0, 4).map(([clave, valor]) => (
+                <div
+                  key={clave}
+                  className="backdrop-blur-md bg-white/5 border border-white/10 text-xs px-3 py-1.5 rounded-full text-[#F3F4F6] flex items-center gap-1.5 shadow-sm"
+                >
+                  <span className="text-[10px] uppercase font-bold text-[#6B7280]">{clave}:</span>
+                  <span className="font-semibold text-stone-200">{valor}</span>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Botón Maestro Central: "▶️ Escuchar Explicación" */}
+          <div className="mt-5">
+            <button
+              id="btn-master-play-piece"
+              type="button"
+              onClick={handleToggleAudio}
+              className={`w-full py-4 px-6 rounded-2xl font-bold text-sm sm:text-base flex items-center justify-center gap-3 transition-all active:scale-[0.98] shadow-xl cursor-pointer ${
+                isPlayingTTS
+                  ? 'bg-red-500/20 border border-red-500/50 text-red-300 ring-2 ring-red-500/30'
+                  : 'bg-[#F59E0B] hover:bg-amber-400 text-black shadow-[#F59E0B]/25'
+              }`}
+            >
+              {isPlayingTTS ? (
+                <>
+                  <Square className="w-5 h-5 fill-current animate-pulse text-red-400" />
+                  <span>Detener Narración en Sala</span>
+                </>
+              ) : (
+                <>
+                  <Play className="w-5 h-5 fill-current ml-0.5" />
+                  <span>
+                    {isLocked
+                      ? 'Desbloquear Audioguía Premium'
+                      : audioMode === 'expres'
+                      ? 'Escuchar Explicación (Exprés 60s)'
+                      : 'Escuchar Explicación Inmersiva'}
+                  </span>
+                </>
+              )}
+            </button>
           </div>
         </div>
       </section>
 
-      {/* 2. ENCABEZADO DE LA PIEZA: TÍTULO Y FRASE GANCHO */}
-      <section className="px-4 pt-3 pb-2">
-        <h1 className="text-xl sm:text-2xl lg:text-3xl font-serif font-bold tracking-tight text-[#111827] dark:text-stone-100">
-          {titulo}
-        </h1>
-        {fraseGancho && (
-          <p className="mt-1.5 text-sm sm:text-base font-serif italic text-[#4B5563] dark:text-stone-300 leading-snug">
-            «{fraseGancho}»
-          </p>
-        )}
-      </section>
-
-      {/* 3. REPRODUCTOR DUAL DE AUDIO: EXPRÉS (60s) vs INMERSIÓN (2-3 min) */}
-      <section className="px-4 py-3">
-        <div
-          id="dual-audio-card"
-          className={`p-4 sm:p-5 rounded-2xl border transition-all ${
-            isSunMode
-              ? 'bg-stone-50/90 border-stone-200/80 shadow-xs'
-              : 'bg-stone-900/60 border-stone-800 shadow-inner'
-          }`}
-        >
-          {/* Selector de tipo de audio */}
-          <div className="flex items-center justify-between gap-2 mb-4">
-            <span className="text-[10px] font-bold uppercase tracking-wider text-[#4B5563] dark:text-stone-400">
-              Modalidad de Locución
+      {/* ================= SELECTOR DE MODALIDAD DE AUDIO ================= */}
+      <section className="px-4 py-2">
+        <div className="p-3.5 rounded-2xl bg-[#141419] border border-white/10">
+          <div className="flex items-center justify-between mb-3 text-xs">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-[#6B7280]">
+              Duración de Audioguía
             </span>
-            <div className="flex items-center gap-1 text-[11px] text-[#4B5563] dark:text-stone-400 font-medium">
-              <Volume2 className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
-              <span>Voz Neuronal IA</span>
+            <div className="flex items-center gap-1.5 text-[11px] text-[#9CA3AF] font-medium">
+              <Volume2 className="w-3.5 h-3.5 text-[#F59E0B]" />
+              <span>Voz Neuronal en Español</span>
             </div>
           </div>
 
-          <div
-            className={`grid grid-cols-2 p-1 rounded-xl border mb-4 ${
-              isSunMode
-                ? 'bg-stone-200/60 border-stone-200'
-                : 'bg-stone-950/60 border-stone-800'
-            }`}
-          >
+          <div className="grid grid-cols-2 p-1 rounded-xl bg-[#0B0B0E] border border-white/10">
             <button
               type="button"
               onClick={() => {
                 if (isPlayingTTS) ttsPlayer.stop();
                 setAudioMode('expres');
               }}
-              className={`py-2 px-3 rounded-lg text-xs font-semibold tracking-tight transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
+              className={`py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
                 audioMode === 'expres'
-                  ? isSunMode
-                    ? 'bg-white text-[#111827] shadow-xs'
-                    : 'bg-stone-800 text-stone-100 shadow-xs'
-                  : 'text-[#4B5563] dark:text-stone-400 hover:text-[#111827] dark:hover:text-stone-200'
+                  ? 'bg-[#F59E0B] text-black shadow-md'
+                  : 'text-[#9CA3AF] hover:text-[#F3F4F6]'
               }`}
             >
-              <Zap className="w-3.5 h-3.5 text-amber-500" />
-              <span>⏱️ Audio Exprés (60s)</span>
+              <Zap className="w-3.5 h-3.5" />
+              <span>Visita Rápida (60s)</span>
             </button>
 
             <button
@@ -316,145 +372,99 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                 if (isPlayingTTS) ttsPlayer.stop();
                 setAudioMode('inmersion');
               }}
-              className={`py-2 px-3 rounded-lg text-xs font-semibold tracking-tight transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
+              className={`py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
                 audioMode === 'inmersion'
-                  ? isSunMode
-                    ? 'bg-white text-[#111827] shadow-xs'
-                    : 'bg-stone-800 text-stone-100 shadow-xs'
-                  : 'text-[#4B5563] dark:text-stone-400 hover:text-[#111827] dark:hover:text-stone-200'
+                  ? 'bg-[#F59E0B] text-black shadow-md'
+                  : 'text-[#9CA3AF] hover:text-[#F3F4F6]'
               }`}
             >
-              <Headphones className="w-3.5 h-3.5 text-[#C05638] dark:text-[#D96B47]" />
-              <span>🎧 Inmersión (2-3 min)</span>
+              <Headphones className="w-3.5 h-3.5" />
+              <span>Inmersiva (3 min)</span>
             </button>
           </div>
-
-          {/* Botón de reproducción interactivo y estado */}
-          <div className="flex items-center justify-between gap-3 pt-1">
-            <button
-              type="button"
-              onClick={handleToggleAudio}
-              className={`flex-1 py-3 px-4 rounded-xl font-semibold text-sm flex items-center justify-center gap-2.5 transition-all active:scale-98 shadow-sm cursor-pointer ${
-                isPlayingTTS
-                  ? 'bg-stone-900 text-white dark:bg-stone-100 dark:text-stone-900 ring-2 ring-[#C05638]/40'
-                  : isSunMode
-                  ? 'bg-[#C05638] hover:bg-[#A84A30] text-white shadow-xs'
-                  : 'bg-[#D96B47] hover:bg-[#C05638] text-white shadow-xs'
-              }`}
-            >
-              {isPlayingTTS ? (
-                <>
-                  <Square className="w-4 h-4 fill-current animate-pulse text-red-400" />
-                  <span>Detener Narración</span>
-                </>
-              ) : (
-                <>
-                  <Play className="w-4 h-4 fill-current" />
-                  <span>
-                    {isLocked
-                      ? 'Desbloquear Audioguía'
-                      : audioMode === 'expres'
-                      ? 'Escuchar Guion Exprés (60s)'
-                      : 'Escuchar Recorrido Inmersivo'}
-                  </span>
-                </>
-              )}
-            </button>
-          </div>
-
-          {/* Indicador de texto en reproducción */}
-          {isPlayingTTS && (
-            <div className="mt-3 p-3 rounded-lg bg-amber-500/10 border border-amber-500/20 text-xs text-amber-900 dark:text-amber-200 flex items-center gap-2 animate-fadeIn">
-              <span className="w-2 h-2 rounded-full bg-amber-500 animate-ping" />
-              <span className="truncate">
-                Reproduciendo: {audioMode === 'expres' ? 'Guion Exprés' : 'Guion de Inmersión'} · Manteniendo pantalla activa
-              </span>
-            </div>
-          )}
         </div>
       </section>
 
-      {/* 4. PUENTE NARRATIVO: INTRODUCCIÓN CONTEXTUAL DESTACADA */}
+      {/* ================= PUENTE NARRATIVO SI EXISTE ================= */}
       {puenteNarrativo && (
         <section className="px-4 py-2">
-          <div
-            id="puente-narrativo-card"
-            className={`p-4 sm:p-5 rounded-2xl border transition-all ${
-              isSunMode
-                ? 'bg-[#FAF3EB] border-[#E8D7C8] text-[#3D2817]'
-                : 'bg-amber-950/20 border-amber-800/40 text-amber-100'
-            }`}
-          >
-            <div className="flex items-center gap-2 mb-2">
-              <Sparkles className="w-4 h-4 text-[#C05638] dark:text-[#D96B47]" />
-              <span className="text-[11px] font-bold uppercase tracking-wider text-[#C05638] dark:text-[#D96B47]">
-                Puente Narrativo · Hilo Conductor
+          <div className="p-4 rounded-2xl bg-[#141419] border border-amber-500/20 text-[#F3F4F6]">
+            <div className="flex items-center gap-2 mb-1.5 text-[#F59E0B]">
+              <Sparkles className="w-4 h-4" />
+              <span className="text-[10px] font-bold uppercase tracking-widest">
+                Hilo Conductor Arqueológico
               </span>
             </div>
-            <p className="text-sm sm:text-base font-serif italic leading-relaxed">
+            <p className="text-xs sm:text-sm font-serif italic text-stone-200 leading-relaxed">
               «{puenteNarrativo}»
             </p>
           </div>
         </section>
       )}
 
-      {/* 5. CUERPO PRINCIPAL: GUION EXPRÉS / NARRATIVA EN SALA */}
-      <section className="px-4 py-2">
-        <div
-          className={`p-4 sm:p-5 rounded-2xl border ${
-            isSunMode
-              ? 'bg-white border-stone-200/80'
-              : 'bg-stone-900/50 border-stone-800'
-          }`}
-        >
-          <div className="flex items-center justify-between mb-3">
-            <h2 className="text-xs font-bold tracking-wider uppercase text-[#4B5563] dark:text-stone-400">
-              {audioMode === 'expres' ? 'Guion Sintético (Visita Rápida)' : 'Narrativa Inmersiva'}
-            </h2>
-            <span className="text-[11px] font-mono font-semibold text-[#4B5563] dark:text-stone-400">
-              {audioMode === 'expres' ? '60 seg' : '3 min'}
-            </span>
-          </div>
-          <p className="text-sm sm:text-base leading-relaxed text-[#111827] dark:text-stone-200 font-sans">
-            {audioMode === 'expres' ? guionCorto : guionLargo}
-          </p>
-        </div>
-      </section>
+      {/* ================= 5. SECCIÓN INTERACTIVA: 'MITO VS REALIDAD' ================= */}
+      {faqMito && (
+        <section className="px-4 py-2">
+          <div
+            id="faq-mito-block"
+            className="p-5 rounded-2xl bg-[#141419] border border-[#DC2626]/40 shadow-lg transition-all"
+          >
+            {/* Título de la tarjeta con estilo Terracota Tezontle / Ámbar Oscuro */}
+            <div className="flex items-center gap-2 mb-2.5">
+              <span className="text-xl">💡</span>
+              <h3 className="text-xs sm:text-sm font-extrabold tracking-wider uppercase text-[#F59E0B]">
+                Mito Arqueológico Desmentido
+              </h3>
+            </div>
 
-      {/* 6. RETOS DE OBSERVACIÓN: CHECKLIST INTERACTIVO EN VITRINA ([ ] / [x]) */}
+            {/* Pregunta en negrita */}
+            <p className="text-sm sm:text-base font-bold text-white leading-snug">
+              {faqMito.pregunta}
+            </p>
+
+            {/* Respuesta explicativa limpia */}
+            <div className="mt-3 pt-3 border-t border-white/10">
+              <span className="text-[10px] font-black uppercase tracking-wider text-[#DC2626] block mb-1">
+                La Realidad Científica:
+              </span>
+              <p className="text-xs sm:text-sm leading-relaxed text-[#9CA3AF] font-normal">
+                {faqMito.respuesta}
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ================= 5. SECCIÓN INTERACTIVA: 'RETOS DE OBSERVACIÓN' ================= */}
       {retosList.length > 0 && (
         <section className="px-4 py-2">
           <div
             id="retos-observacion-card"
-            className={`p-4 sm:p-5 rounded-2xl border transition-all ${
-              isSunMode
-                ? 'bg-white border-stone-200/90 shadow-xs'
-                : 'bg-stone-900/60 border-stone-800'
-            }`}
+            className="p-5 rounded-2xl bg-[#141419] border border-white/10 shadow-lg"
           >
             <div className="flex items-center justify-between mb-2">
-              <div className="flex items-center gap-2">
-                <Eye className="w-4 h-4 text-[#C05638] dark:text-[#D96B47]" />
-                <h3 className="text-xs font-bold tracking-wider uppercase text-[#111827] dark:text-stone-200">
+              <div className="flex items-center gap-2 text-[#F3F4F6]">
+                <Eye className="w-4 h-4 text-[#F59E0B]" />
+                <h3 className="text-xs font-bold tracking-wider uppercase">
                   Retos de Observación en Vitrina
                 </h3>
               </div>
               <span
-                className={`text-[11px] font-mono font-bold px-2 py-0.5 rounded-full border ${
+                className={`text-[10px] font-mono font-bold px-2.5 py-0.5 rounded-full border transition-all ${
                   completedCount === retosList.length
-                    ? 'bg-emerald-500/15 border-emerald-500/30 text-emerald-600 dark:text-emerald-400'
-                    : 'bg-amber-500/10 border-amber-500/20 text-amber-700 dark:text-amber-400'
+                    ? 'bg-[#10B981]/20 border-[#10B981]/50 text-[#10B981]'
+                    : 'bg-[#F59E0B]/10 border-[#F59E0B]/30 text-[#F59E0B]'
                 }`}
               >
                 {completedCount} de {retosList.length} encontrados
               </span>
             </div>
 
-            <p className="text-xs text-[#4B5563] dark:text-stone-300 mb-3">
+            <p className="text-xs text-[#9CA3AF] mb-3">
               Toca cada casilla para tachar los detalles conforme los descubras en la vitrina física:
             </p>
 
-            {/* Checklist interactivo [ ] / [x] */}
+            {/* Checklist interactivo con cambio a Jade Sagrado (#10B981) */}
             <div className="space-y-2">
               {retosList.map((reto, idx) => {
                 const isFound = !!completedChallenges[idx];
@@ -465,41 +475,33 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                     onClick={() => toggleChallenge(idx)}
                     role="checkbox"
                     aria-checked={isFound}
-                    className={`w-full text-left p-3 rounded-xl border transition-all flex items-start gap-3 select-none active:scale-[0.99] cursor-pointer ${
+                    className={`w-full text-left p-3 rounded-xl border transition-all duration-200 flex items-start gap-3 select-none active:scale-[0.98] cursor-pointer ${
                       isFound
-                        ? isSunMode
-                          ? 'bg-emerald-50/70 border-emerald-300/80 text-emerald-950'
-                          : 'bg-emerald-950/20 border-emerald-700/50 text-emerald-200'
-                        : isSunMode
-                        ? 'bg-stone-50 border-stone-200 hover:border-amber-300 text-[#111827]'
-                        : 'bg-stone-950/50 border-stone-800 hover:border-stone-700 text-stone-200'
+                        ? 'bg-[#10B981]/15 border-[#10B981]/60 text-white shadow-sm'
+                        : 'bg-[#0B0B0E] border-white/10 hover:border-white/20 text-[#F3F4F6]'
                     }`}
                   >
-                    {/* Checkbox visual [ ] vs [x] */}
+                    {/* Checkbox visual: Cambia a Jade Brillante con palomita */}
                     <div
-                      className={`w-5 h-5 rounded-lg flex items-center justify-center shrink-0 mt-0.5 font-mono text-xs font-black transition-all ${
+                      className={`w-5 h-5 rounded-lg flex items-center justify-center shrink-0 mt-0.5 font-bold transition-all duration-200 ${
                         isFound
-                          ? 'bg-emerald-600 text-white shadow-xs scale-105'
-                          : isSunMode
-                          ? 'border-2 border-stone-400 bg-white text-transparent'
+                          ? 'bg-[#10B981] text-black shadow-[0_0_10px_#10B981] scale-105'
                           : 'border-2 border-stone-600 bg-stone-900 text-transparent'
                       }`}
                     >
-                      {isFound ? '✓' : ''}
+                      {isFound && <Check className="w-3.5 h-3.5 stroke-[3px]" />}
                     </div>
 
                     <div className="flex-1 min-w-0">
                       <span
                         className={`text-xs leading-relaxed block ${
-                          isFound
-                            ? 'line-through opacity-85 font-medium'
-                            : 'font-semibold'
+                          isFound ? 'line-through text-stone-300 font-medium' : 'font-semibold'
                         }`}
                       >
                         {reto}
                       </span>
-                      <span className="text-[10px] opacity-70 block mt-0.5">
-                        {isFound ? '¡Encontrado en vitrina!' : 'Toca para marcar [x]'}
+                      <span className="text-[10px] text-[#6B7280] block mt-0.5">
+                        {isFound ? '✓ Localizado en la vitrina física' : 'Toca para marcar'}
                       </span>
                     </div>
                   </button>
@@ -507,9 +509,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               })}
             </div>
 
-            {/* Banner de felicitación si todos fueron marcados */}
+            {/* Banner de Jade al completar todos los retos */}
             {completedCount === retosList.length && (
-              <div className="mt-3 p-2.5 rounded-xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-800 dark:text-emerald-300 text-xs font-semibold flex items-center gap-2 animate-fadeIn">
+              <div className="mt-3.5 p-3 rounded-xl bg-[#10B981]/15 border border-[#10B981]/40 text-[#10B981] text-xs font-semibold flex items-center gap-2 animate-fadeIn">
                 <span>🌟</span>
                 <span>¡Excelente vista! Has localizado todos los detalles en la pieza física.</span>
               </div>
@@ -518,38 +520,57 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         </section>
       )}
 
-      {/* 7. ESPECIFICACIONES: CUADRÍCULA COMPACTA DE TARJETAS CLAVE-VALOR */}
-      {especificacionesEntries.length > 0 && (
-        <section className="px-4 py-2">
-          <div
-            id="especificaciones-grid"
-            className={`p-4 sm:p-5 rounded-2xl border ${
-              isSunMode
-                ? 'bg-white border-stone-200/80'
-                : 'bg-stone-900/50 border-stone-800'
-            }`}
+      {/* ================= 5. HISTORIA COMPLETA (BLOQUE REVISTA CULTURAL) ================= */}
+      <section className="px-4 py-2">
+        <div className="rounded-2xl bg-[#141419] border border-white/10 overflow-hidden shadow-lg">
+          <button
+            type="button"
+            onClick={() => setIsHistoryExpanded(!isHistoryExpanded)}
+            className="w-full p-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors cursor-pointer"
           >
-            <div className="flex items-center gap-2 mb-3">
-              <Layers className="w-4 h-4 text-[#C05638] dark:text-[#D96B47]" />
-              <h3 className="text-xs font-bold tracking-wider uppercase text-[#111827] dark:text-stone-200">
-                Ficha Técnica y Especificaciones
+            <div className="flex items-center gap-2">
+              <BookOpen className="w-4 h-4 text-[#F59E0B]" />
+              <h3 className="text-xs font-bold uppercase tracking-wider text-white">
+                Historia Completa y Análisis Curatorial
               </h3>
             </div>
+            {isHistoryExpanded ? (
+              <ChevronUp className="w-4 h-4 text-[#9CA3AF]" />
+            ) : (
+              <ChevronDown className="w-4 h-4 text-[#9CA3AF]" />
+            )}
+          </button>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
-              {especificacionesEntries.map(([clave, valor]) => (
-                <div
-                  key={clave}
-                  className={`p-3 rounded-xl border flex flex-col justify-between ${
-                    isSunMode
-                      ? 'bg-[#FAF8F5] border-stone-200 text-[#111827]'
-                      : 'bg-stone-950/60 border-stone-800/80 text-stone-100'
-                  }`}
-                >
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#4B5563] dark:text-stone-400 truncate">
+          {isHistoryExpanded && (
+            <div className="px-5 pb-5 pt-1 border-t border-white/5 space-y-3 animate-fadeIn">
+              <p className="font-serif text-sm sm:text-base leading-relaxed text-stone-200 text-justify first-letter:text-4xl first-letter:font-bold first-letter:text-[#F59E0B] first-letter:mr-2 first-letter:float-left">
+                {guionLargo}
+              </p>
+              <div className="pt-2 text-[11px] text-[#6B7280] flex items-center gap-2">
+                <span>Fuente: Instituto Nacional de Antropología e Historia (INAH)</span>
+              </div>
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* ================= ESPECIFICACIONES COMPLETAS DE LA PIEZA ================= */}
+      {especificacionesEntries.length > 4 && (
+        <section className="px-4 py-2">
+          <div className="p-4 rounded-2xl bg-[#141419] border border-white/10">
+            <div className="flex items-center gap-2 mb-3">
+              <Layers className="w-4 h-4 text-[#F59E0B]" />
+              <h3 className="text-xs font-bold tracking-wider uppercase text-white">
+                Ficha Técnica Complementaria
+              </h3>
+            </div>
+            <div className="grid grid-cols-2 gap-2">
+              {especificacionesEntries.slice(4).map(([clave, valor]) => (
+                <div key={clave} className="p-2.5 rounded-xl bg-[#0B0B0E] border border-white/5 text-xs">
+                  <span className="text-[10px] uppercase font-bold text-[#6B7280] block truncate">
                     {clave}
                   </span>
-                  <span className="text-xs font-semibold text-[#111827] dark:text-stone-200 mt-1 leading-snug">
+                  <span className="font-semibold text-stone-200 mt-0.5 block truncate">
                     {valor}
                   </span>
                 </div>
@@ -559,110 +580,62 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         </section>
       )}
 
-      {/* 8. TARJETA DESTACADA: 'MITO VS REALIDAD' (ESTILO ÁMBAR/TERRACOTA) */}
-      {faqMito && (
-        <section className="px-4 py-2">
-          <div
-            id="faq-mito-block"
-            className={`p-4 sm:p-5 rounded-2xl border-2 transition-all shadow-sm ${
-              isSunMode
-                ? 'bg-[#FFF7ED] border-[#FDBA74] text-[#111827]'
-                : 'bg-[#291711] border-[#C05638]/70 text-[#F5F5F4]'
-            }`}
-          >
-            {/* Título de la tarjeta: "💡 Mito Arqueológico Desmentido" */}
-            <div className="flex items-center gap-2 mb-2.5">
-              <span className="text-lg">💡</span>
-              <h3 className="text-xs sm:text-sm font-black tracking-wider uppercase text-[#C05638] dark:text-[#FDBA74]">
-                Mito Arqueológico Desmentido
-              </h3>
-            </div>
-
-            {/* Pregunta en negrita */}
-            <p className="text-sm sm:text-base font-bold text-[#111827] dark:text-amber-100 leading-snug">
-              {faqMito.pregunta}
-            </p>
-
-            {/* Respuesta explicativa limpia */}
-            <div className="mt-3 pt-3 border-t border-amber-200/90 dark:border-amber-900/60">
-              <span className="text-[10px] font-black uppercase tracking-wider text-[#C05638] dark:text-[#FDBA74] block mb-1">
-                La Realidad Arqueológica:
-              </span>
-              <p className="text-xs sm:text-sm leading-relaxed text-[#374151] dark:text-stone-200 font-medium">
-                {faqMito.respuesta}
-              </p>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* 9. PROXIMIDAD Y NAVEGACIÓN A LA SIGUIENTE PARADA O CIERRE DE RUTA */}
+      {/* ================= SIGUIENTE PARADA O FINALIZACIÓN DE RECORRIDO ================= */}
       {nextStop ? (
-        <section className="px-4 pt-2">
+        <section className="px-4 pt-3">
           <div
             id="next-stop-proximity-card"
-            onClick={onOpenMapModal}
+            onClick={onNextStop}
             role="button"
             tabIndex={0}
             onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault();
-                if (onOpenMapModal) onOpenMapModal();
+                if (onNextStop) onNextStop();
               }
             }}
-            className={`p-3.5 rounded-xl border transition-all cursor-pointer flex items-center justify-between gap-3 shadow-xs active:scale-98 ${
-              isSunMode
-                ? 'bg-amber-50/80 border-amber-300/80 hover:bg-amber-100/70 text-[#111827]'
-                : 'bg-amber-950/20 border-amber-800/40 hover:bg-amber-900/30 text-stone-100'
-            }`}
-            title="Abrir mapa de sala interactivo"
+            className="p-4 rounded-2xl bg-[#141419] border border-[#F59E0B]/40 hover:border-[#F59E0B] transition-all cursor-pointer flex items-center justify-between gap-3 shadow-lg active:scale-[0.98]"
           >
-            <div className="flex items-center gap-2.5 min-w-0">
-              <div className="w-8 h-8 rounded-lg bg-[#C05638]/15 dark:bg-[#D96B47]/20 flex items-center justify-center shrink-0">
-                <Compass className="w-4 h-4 text-[#C05638] dark:text-[#D96B47]" />
+            <div className="flex items-center gap-3 min-w-0">
+              <div className="w-10 h-10 rounded-xl bg-[#F59E0B]/20 border border-[#F59E0B]/40 flex items-center justify-center shrink-0 text-[#F59E0B]">
+                <Compass className="w-5 h-5 animate-pulse" />
               </div>
               <div className="min-w-0">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-[#C05638] dark:text-[#D96B47] block">
-                  Siguiente Hito Recomendado
+                <span className="text-[10px] font-bold uppercase tracking-wider text-[#F59E0B] block">
+                  Siguiente Hito del Recorrido
                 </span>
-                <p className="text-xs font-semibold truncate text-[#111827] dark:text-stone-100">
-                  {nextStop.title}{' '}
-                  <span className="text-[#4B5563] dark:text-stone-400 text-[11px]">· {nextStop.room_zone || 'Sala'}</span>
+                <p className="text-xs sm:text-sm font-bold truncate text-white">
+                  {nextStop.title}
                 </p>
+                <span className="text-[11px] text-[#9CA3AF] block truncate">
+                  {nextStop.room_zone || 'Siguiente Vitrina'}
+                </span>
               </div>
             </div>
-            <div className="flex items-center gap-1 text-[11px] font-bold text-[#C05638] dark:text-[#D96B47] shrink-0">
-              <span>Ver en mapa</span>
-              <ChevronRight className="w-3.5 h-3.5" />
+
+            <div className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-[#F59E0B] text-black font-extrabold text-xs shrink-0 shadow-md">
+              <span>Avanzar</span>
+              <ChevronRight className="w-4 h-4" />
             </div>
           </div>
         </section>
       ) : (currentStopIndex !== undefined && totalStops !== undefined && currentStopIndex >= totalStops - 1) ? (
-        <section className="px-4 pt-2">
-          <div
-            id="last-stop-completion-card"
-            className={`p-4 rounded-2xl border transition-all shadow-sm ${
-              isSunMode
-                ? 'bg-emerald-50/90 border-emerald-300 text-emerald-950'
-                : 'bg-emerald-950/30 border-emerald-800 text-emerald-200'
-            }`}
-          >
-            <div className="flex items-center gap-2.5 mb-2">
-              <span className="text-2xl">🏁</span>
-              <div>
-                <h4 className="text-xs font-black uppercase tracking-wider">
-                  ¡Última Parada de esta Ruta!
-                </h4>
-                <p className="text-xs font-medium opacity-90">
-                  Has visitado todos los hitos programados en este recorrido.
-                </p>
-              </div>
+        <section className="px-4 pt-3">
+          <div className="p-5 rounded-2xl bg-[#141419] border border-[#10B981]/50 shadow-xl text-center space-y-3">
+            <span className="text-3xl">🏁</span>
+            <div>
+              <h4 className="text-sm font-extrabold uppercase tracking-wider text-[#10B981]">
+                ¡Última Parada de esta Ruta!
+              </h4>
+              <p className="text-xs text-[#9CA3AF] mt-1 max-w-xs mx-auto">
+                Has visitado todos los hitos programados en este recorrido.
+              </p>
             </div>
             {onNextStop && (
               <button
                 type="button"
                 onClick={onNextStop}
-                className="w-full mt-2 py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center justify-center gap-2 transition active:scale-95 shadow-md cursor-pointer"
+                className="w-full py-3.5 px-4 rounded-xl bg-[#10B981] hover:bg-emerald-400 text-black font-extrabold text-xs flex items-center justify-center gap-2 transition active:scale-95 shadow-lg shadow-[#10B981]/25 cursor-pointer"
               >
                 <span>Finalizar Recorrido y Ver Resumen 🎉</span>
               </button>

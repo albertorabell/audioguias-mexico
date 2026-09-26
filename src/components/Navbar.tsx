@@ -1,9 +1,6 @@
 import React from 'react';
-import { ChevronLeft, ChevronDown, Lock, ShieldCheck, Map, Search } from 'lucide-react';
+import { ChevronLeft, Search, ShieldCheck, Lock } from 'lucide-react';
 import { SiteRoute } from '../types';
-import { formatRemainingHours } from '../utils/license';
-import { useTheme } from '../utils/ThemeContext';
-import { ThemeToggle } from './ThemeToggle';
 
 interface NavbarProps {
   onBack: () => void;
@@ -16,6 +13,8 @@ interface NavbarProps {
   onOpenPaywallModal: () => void;
   onOpenMapModal: () => void;
   onOpenSearchModal?: () => void;
+  titleOverride?: string;
+  showBackButton?: boolean;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -24,136 +23,74 @@ export const Navbar: React.FC<NavbarProps> = ({
   currentStopIndex,
   totalStops,
   hasPass,
-  passExpiresAt,
-  onOpenRouteModal,
   onOpenPaywallModal,
-  onOpenMapModal,
   onOpenSearchModal,
+  titleOverride,
+  showBackButton = true,
 }) => {
-  const { isSunMode } = useTheme();
-
   return (
     <header
-      className={`sticky top-0 z-30 w-full max-w-full overflow-x-hidden border-b transition-colors duration-200 backdrop-blur-md ${
-        isSunMode
-          ? 'bg-[#FAF8F5]/94 border-stone-200/90 text-[#111827]'
-          : 'bg-[#141414]/94 border-stone-800/90 text-[#F5F5F4]'
-      }`}
+      id="museum-top-header"
+      className="sticky top-0 z-30 w-full backdrop-blur-xl bg-[#0B0B0E]/90 border-b border-white/10 text-[#F3F4F6] transition-colors duration-200"
     >
-      <div className="flex items-center justify-between gap-2 px-3 py-2 w-full max-w-screen-md mx-auto">
-        {/* Botón Atrás (mínimo 48px de altura táctil) */}
-        <button
-          id="btn-nav-back"
-          onClick={onBack}
-          className={`min-h-[44px] min-w-[44px] shrink-0 flex items-center justify-center gap-1 px-2 rounded-xl transition active:scale-95 ${
-            isSunMode
-              ? 'text-[#111827] hover:bg-stone-100 border border-stone-300'
-              : 'text-stone-300 hover:text-white hover:bg-stone-800/60 border border-transparent'
-          }`}
-          aria-label="Regresar al catálogo de sitios"
-        >
-          <ChevronLeft className="w-5 h-5 text-amber-600" />
-          <span className="text-xs font-bold hidden xs:inline">Sitios</span>
-        </button>
+      <div className="flex items-center justify-between gap-3 px-4 h-14 max-w-screen-md mx-auto">
+        {/* Lado izquierdo: Botón regresar limpio o Wordmark editorial */}
+        <div className="flex items-center gap-2 min-w-0">
+          {showBackButton ? (
+            <button
+              id="btn-nav-back"
+              onClick={onBack}
+              className="min-h-[44px] min-w-[44px] -ml-2 flex items-center justify-center rounded-xl text-[#9CA3AF] hover:text-[#F3F4F6] hover:bg-white/5 transition active:scale-95 cursor-pointer"
+              aria-label="Regresar"
+            >
+              <ChevronLeft className="w-5 h-5 text-[#F59E0B]" />
+            </button>
+          ) : null}
 
-        {/* Selector de Itinerario (mínimo 48px de altura táctil, min-w-0 flex-1 truncate) */}
-        <button
-          id="btn-route-selector"
-          onClick={onOpenRouteModal}
-          className={`min-w-0 flex-1 min-h-[44px] flex items-center justify-between gap-1.5 px-2.5 py-1 rounded-xl border text-left group active:scale-98 transition ${
-            isSunMode
-              ? 'bg-white border-stone-300 hover:border-amber-600 shadow-xs'
-              : 'bg-stone-900 border-stone-700/80 hover:border-amber-500/60'
-          }`}
-        >
-          <div className="min-w-0 flex-1 truncate">
-            <p
-              className={`text-[10px] uppercase font-extrabold tracking-wider truncate ${
-                isSunMode ? 'text-amber-800' : 'text-amber-400'
-              }`}
-            >
-              {activeRoute ? activeRoute.name : 'Itinerario'}
-            </p>
-            <p
-              className={`text-xs font-bold truncate ${
-                isSunMode ? 'text-[#111827]' : 'text-stone-200'
-              }`}
-            >
-              Parada {currentStopIndex + 1} de {totalStops}
+          <div className="min-w-0">
+            <span className="text-[10px] uppercase font-bold tracking-widest text-[#F59E0B] block truncate">
+              {activeRoute ? 'EN RECORRIDO OFICIAL' : 'MUSEO NACIONAL DE ANTROPOLOGÍA'}
+            </span>
+            <p className="text-xs font-bold text-[#F3F4F6] truncate">
+              {titleOverride || (activeRoute ? activeRoute.name : 'INAH • México')}
             </p>
           </div>
-          <ChevronDown
-            className={`w-4 h-4 shrink-0 transition ${
-              isSunMode ? 'text-[#4B5563] group-hover:text-amber-800' : 'text-stone-400 group-hover:text-amber-400'
-            }`}
-          />
-        </button>
+        </div>
 
-        {/* Botones de acción derecha compactos y sin desborde */}
-        <div className="flex items-center gap-1 shrink-0">
-          {/* Botón Buscador Directo (Teclado + Predictivo) */}
+        {/* Lado derecho: Acciones discretas mínimas (Búsqueda rápida y estado de pase) */}
+        <div className="flex items-center gap-1.5 shrink-0">
+          {/* Botón discreto de Búsqueda rápida / Teclado */}
           {onOpenSearchModal && (
             <button
-              id="btn-open-search-nav"
+              id="btn-nav-quick-search"
               onClick={onOpenSearchModal}
-              className={`min-h-[44px] px-2 flex items-center justify-center gap-1 rounded-xl border text-xs font-bold transition active:scale-95 ${
-                isSunMode
-                  ? 'bg-white border-stone-300 text-[#111827] hover:bg-stone-100 hover:border-stone-400'
-                  : 'bg-stone-900 border-stone-700/80 text-stone-300 hover:bg-stone-800 hover:border-stone-600'
-              }`}
-              title="Buscador por número de vitrina o nombre"
-              aria-label="Buscar pieza por número o texto"
+              className="min-h-[44px] min-w-[44px] flex items-center justify-center rounded-xl text-[#9CA3AF] hover:text-[#F3F4F6] hover:bg-white/5 transition active:scale-95 cursor-pointer"
+              title="Buscar por vitrina o nombre"
+              aria-label="Buscar pieza"
             >
               <Search className="w-4 h-4" />
-              <span className="hidden md:inline">Buscar</span>
             </button>
           )}
 
-          {/* Botón Ver Mapa Interactivo */}
-          <button
-            id="btn-open-map-nav"
-            onClick={onOpenMapModal}
-            className={`min-h-[44px] px-2 flex items-center justify-center gap-1 rounded-xl border text-xs font-bold transition active:scale-95 ${
-              isSunMode
-                ? 'bg-amber-50 border-stone-300 text-amber-900 hover:bg-amber-100 hover:border-amber-600'
-                : 'bg-stone-900 border-stone-700/80 text-amber-400 hover:bg-stone-800 hover:border-amber-500'
-            }`}
-            title="Ver plano y mapa interactivo de paradas"
-          >
-            <Map className="w-4 h-4 text-amber-600" />
-            <span className="hidden sm:inline">Mapa</span>
-          </button>
-
-          {/* Switch de Tema Adaptativo (☀️ / 🌙) */}
-          <ThemeToggle />
-
-          {/* Indicador de Pase */}
+          {/* Indicador de Pase Activo / Desbloqueo */}
           {hasPass ? (
             <button
-              id="btn-pass-active-status"
+              id="btn-pass-indicator"
               onClick={onOpenPaywallModal}
-              className={`min-h-[44px] flex items-center gap-1 px-2.5 rounded-xl text-xs font-bold shadow-xs transition active:scale-95 border shrink-0 ${
-                isSunMode
-                  ? 'bg-emerald-100 text-emerald-950 border-emerald-400 hover:bg-emerald-200'
-                  : 'bg-emerald-950/90 text-emerald-300 border-emerald-700/80 hover:bg-emerald-900/80'
-              }`}
-              title={passExpiresAt ? `Válido por ${formatRemainingHours(passExpiresAt)}` : 'Pase Activo'}
+              className="min-h-[44px] px-2.5 flex items-center gap-1 text-[10px] font-bold tracking-wide uppercase text-[#10B981] bg-[#10B981]/15 border border-[#10B981]/30 rounded-xl transition active:scale-95 cursor-pointer"
+              title="Pase Completo Activo"
             >
-              <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
-              <span className="text-[10px] sm:text-[11px] whitespace-nowrap font-black">PASE ACTIVO</span>
+              <ShieldCheck className="w-3.5 h-3.5" />
+              <span className="hidden xs:inline">Activo</span>
             </button>
           ) : (
             <button
               id="btn-unlock-pass-nav"
               onClick={onOpenPaywallModal}
-              className={`min-h-[44px] flex items-center gap-1 px-2.5 rounded-xl text-xs font-bold shadow-xs transition active:scale-95 shrink-0 ${
-                isSunMode
-                  ? 'bg-amber-700 hover:bg-amber-800 text-white shadow-amber-800/20'
-                  : 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-amber-500/20'
-              }`}
+              className="min-h-[44px] px-3 flex items-center gap-1 text-[10px] font-extrabold tracking-wide uppercase text-black bg-[#F59E0B] hover:bg-amber-400 rounded-xl transition active:scale-95 shadow-sm cursor-pointer"
             >
-              <Lock className="w-3.5 h-3.5 shrink-0" />
-              <span className="text-[10px] sm:text-[11px] whitespace-nowrap">Desbloquear</span>
+              <Lock className="w-3 h-3 fill-current" />
+              <span>Pase</span>
             </button>
           )}
         </div>
@@ -161,3 +98,5 @@ export const Navbar: React.FC<NavbarProps> = ({
     </header>
   );
 };
+
+export default Navbar;
