@@ -31,11 +31,9 @@ interface PieceDetailProps {
   onOpenPaywall: () => void;
   currentStopIndex?: number;
   totalStops?: number;
-  roomName?: string;
-  nextStop?: RouteStop | null;
-  onNextStop?: () => void;
-  onPreviousStop?: () => void;
-  onOpenMapModal?: () => void;
+  roomPieces?: Piece[];
+  onSelectPiece?: (pieceId: string) => void;
+  currentRoom?: any;
 }
 
 export const PieceDetail: React.FC<PieceDetailProps> = ({
@@ -50,6 +48,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   onNextStop,
   onPreviousStop,
   onOpenMapModal,
+  roomPieces,
+  onSelectPiece,
+  currentRoom,
 }) => {
   // 1. Estados de Audio y Modo de Locución
   const [audioMode, setAudioMode] = useState<'expres' | 'inmersion'>('expres');
@@ -66,6 +67,60 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
 
   const pieceId = piece.piece_id || piece.id || (piece as any).poi_id || '';
   const roomId = piece.room_id || (piece as any).roomId || piece.location?.room_id || '';
+
+  // Carga complementaria de piezas del museo para carrusel en caso de no venir por props
+  const [catalogPieces, setCatalogPieces] = useState<Piece[]>([]);
+  useEffect(() => {
+    if (!roomPieces || roomPieces.length <= 1) {
+      fetch(getAssetUrl('data/pieces.json'))
+        .then((res) => (res.ok ? res.json() : []))
+        .then((data: Piece[]) => {
+          if (Array.isArray(data)) setCatalogPieces(data);
+        })
+        .catch((e) => console.warn('Could not fetch sibling pieces:', e));
+    }
+  }, [roomPieces]);
+
+  // Otras piezas en la misma sala excluyendo la actual
+  const siblingPieces = useMemo(() => {
+    const pool = roomPieces && roomPieces.length > 0 ? roomPieces : catalogPieces;
+    if (!pool || pool.length === 0) return [];
+
+    const targetRoom = (roomId || '').toLowerCase().trim();
+    const targetPiece = (pieceId || '').toLowerCase().trim();
+    const numTarget = targetRoom.match(/\d+/)?.[0];
+
+    return pool
+      .filter((p) => {
+        const pId = (p.piece_id || p.id || (p as any).poi_id || '').toLowerCase().trim();
+        if (!pId || pId === targetPiece) return false;
+
+        const pRoom = (p.room_id || (p as any).roomId || p.location?.room_id || '').toLowerCase().trim();
+        if (targetRoom && pRoom) {
+          if (pRoom === targetRoom) return true;
+          const cleanP = pRoom.replace(/[-_]/g, '');
+          const cleanT = targetRoom.replace(/[-_]/g, '');
+          if (cleanP.includes(cleanT) || cleanT.includes(cleanP)) return true;
+          const numP = pRoom.match(/\d+/)?.[0];
+          if (numTarget && numP && parseInt(numP, 10) === parseInt(numTarget, 10)) return true;
+        }
+        return false;
+      })
+      .sort((a, b) => (a.orden_sugerido || 999) - (b.orden_sugerido || 999));
+  }, [roomPieces, catalogPieces, roomId, pieceId]);
+
+  const roomDisplayName = useMemo(() => {
+    if (currentRoom?.nombre_oficial) {
+      const num = currentRoom.numero_oficial ? `Sala ${String(currentRoom.numero_oficial).padStart(2, '0')}` : '';
+      return `${num ? num + ' • ' : ''}${currentRoom.nombre_oficial}`;
+    }
+    if (roomName) return roomName;
+    if (roomId) {
+      const num = roomId.match(/\d+/)?.[0];
+      if (num) return `Sala ${num.padStart(2, '0')}`;
+    }
+    return 'esta sala';
+  }, [currentRoom, roomName, roomId]);
 
   // Suscribirse a cambios en ttsPlayer
   useEffect(() => {
@@ -645,6 +700,90 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
           </div>
         </section>
       ) : null}
+
+      {/* ================= OTRAS PIEZAS EN ESTA SALA (CARRUSEL HORIZONTAL) ================= */}
+      {siblingPieces.length > 0 && (
+        <section className="px-4 py-5 border-t border-white/10 mt-6 bg-[#0E0E12]/90 rounded-3xl mx-2 border">
+          <div className="flex items-center justify-between mb-3 px-1">
+            <div className="flex items-center gap-2">
+              <span className="text-base">🏛️</span>
+              <div>
+                <h3 className="text-xs font-black uppercase tracking-wider text-white">
+                  Otras piezas en {roomDisplayName}
+                </h3>
+                <p className="text-[11px] text-[#9CA3AF]">
+                  Salta de vitrina en vitrina con un solo toque
+                </p>
+              </div>
+            </div>
+            <span className="text-[10px] font-mono text-[#F59E0B] px-2 py-0.5 rounded-full bg-[#F59E0B]/10 border border-[#F59E0B]/20 shrink-0">
+              {siblingPieces.length} obras
+            </span>
+          </div>
+
+          {/* Carrusel Horizontal Fluido */}
+          <div className="flex gap-3 overflow-x-auto pb-2 pt-1 scrollbar-none snap-x snap-mandatory -mx-2 px-2">
+            {siblingPieces.map((sibling) => {
+              const sId = sibling.piece_id || sibling.id || (sibling as any).poi_id || '';
+              const sTitle = sibling.titulo || sibling.identification?.title || sibling.title || 'Pieza';
+              const sSub =
+                sibling.frase_gancho || sibling.identification?.subtitle || sibling.periodo || 'Obra destacada';
+              const sThumb = sibling.image_filename;
+
+              return (
+                <div
+                  key={sId}
+                  onClick={() => {
+                    if (onSelectPiece) onSelectPiece(sId);
+                  }}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      if (onSelectPiece) onSelectPiece(sId);
+                    }
+                  }}
+                  className="snap-start shrink-0 w-44 rounded-2xl bg-[#141419] border border-white/10 hover:border-[#F59E0B]/60 p-2.5 flex flex-col justify-between transition-all duration-200 cursor-pointer active:scale-95 group shadow-lg select-none"
+                >
+                  <div>
+                    <div className="relative w-full h-24 rounded-xl overflow-hidden bg-[#0B0B0E] mb-2 border border-white/5">
+                      <PieceImage
+                        imageFilename={sThumb}
+                        title={sTitle}
+                        alt={sTitle}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                      <span className="absolute bottom-1 right-1 px-1.5 py-0.5 rounded-md bg-black/80 backdrop-blur-sm text-[9px] font-mono text-stone-300 border border-white/10">
+                        {sibling.orden_sugerido ? `Vitrina #${sibling.orden_sugerido}` : 'Vitrina'}
+                      </span>
+                    </div>
+
+                    <h4 className="text-xs font-bold text-[#F3F4F6] truncate group-hover:text-[#F59E0B] transition-colors leading-tight">
+                      {sTitle}
+                    </h4>
+                    <p className="text-[10px] text-[#9CA3AF] truncate mt-0.5">
+                      {sSub}
+                    </p>
+                  </div>
+
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      if (onSelectPiece) onSelectPiece(sId);
+                    }}
+                    className="mt-2.5 w-full py-1.5 px-2 rounded-xl bg-[#F59E0B]/10 hover:bg-[#F59E0B] text-[#F59E0B] hover:text-black font-extrabold text-[10px] flex items-center justify-center gap-1.5 transition-all border border-[#F59E0B]/30 cursor-pointer shadow-xs active:scale-95"
+                  >
+                    <Volume2 className="w-3 h-3" />
+                    <span>Escuchar audio</span>
+                  </button>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       {/* Modal de Zoom de Imagen */}
       <ImageZoomModal

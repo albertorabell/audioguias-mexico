@@ -37,9 +37,16 @@ export const RoomView: React.FC<RoomViewProps> = ({
 
   // Normalizar piso y número
   const isPA =
+    room.piso == 2 ||
+    room.piso === '2' ||
     room.piso === 'PA' ||
-    (room as any).floor === 2 ||
-    String(room.piso || '').toLowerCase().includes('alta');
+    room.piso === 'pa' ||
+    room.piso === 'planta_alta' ||
+    room.piso === 'Planta Alta' ||
+    (room as any).floor == 2 ||
+    (room as any).floor === '2' ||
+    String(room.piso || '').toLowerCase().includes('alta') ||
+    parseInt(String(room.numero_oficial || room.room_id?.match(/\d+/)?.[0] || '0'), 10) >= 12;
 
   const pisoText = isPA ? 'Planta Alta · Etnografía' : 'Planta Baja · Arqueología';
 

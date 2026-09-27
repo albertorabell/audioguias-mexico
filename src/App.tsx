@@ -94,20 +94,28 @@ export default function App() {
     loadSites();
   }, []);
 
-  // 1.b Cargar catálogo de 22 salas desde public/data/rooms.json
+  // 1.b Cargar catálogo de 22 salas desde public/data/rooms.json y piezas desde public/data/pieces.json
   useEffect(() => {
-    async function loadRooms() {
+    async function loadCatalog() {
       try {
-        const res = await fetch(getAssetUrl('data/rooms.json'));
-        if (res.ok) {
-          const data: Room[] = await res.json();
+        const [roomsRes, piecesRes] = await Promise.all([
+          fetch(getAssetUrl('data/rooms.json')),
+          fetch(getAssetUrl('data/pieces.json')),
+        ]);
+        if (roomsRes.ok) {
+          const data: Room[] = await roomsRes.json();
           setAllRooms(data);
         }
+        if (piecesRes.ok) {
+          const piecesData: PieceData[] = await piecesRes.json();
+          const normalized = piecesData.map((p) => normalizePiece(p));
+          setTourPieces(normalized);
+        }
       } catch (err) {
-        console.warn('Could not load data/rooms.json:', err);
+        console.warn('Could not load initial data/rooms.json or pieces.json:', err);
       }
     }
-    loadRooms();
+    loadCatalog();
   }, []);
 
   // Update license state whenever selectedSite changes
@@ -450,6 +458,8 @@ export default function App() {
       if (pRoom === targetRoomId) return true;
       if (aliases.includes(pRoom)) return true;
       if (numStr && (pRoom.includes(`sala-${numStr}`) || pRoom.includes(`-${numStr}-`))) return true;
+      const pNum = pRoom.match(/\d+/)?.[0];
+      if (pNum && parseInt(pNum, 10) === num) return true;
       const cleanP = pRoom.replace(/[-_]/g, '');
       const cleanT = targetRoomId.replace(/[-_]/g, '');
       return cleanP.includes(cleanT) || cleanT.includes(cleanP);
@@ -457,6 +467,35 @@ export default function App() {
 
     return matched.sort((a, b) => (a.orden_sugerido || 999) - (b.orden_sugerido || 999));
   };
+
+  // Determinar la sala a la que pertenece la pieza activa
+  const activePieceRoom = useMemo(() => {
+    if (!currentPiece) return null;
+    const roomId = (currentPiece.room_id || (currentPiece as any).roomId || '').toLowerCase();
+    const numMatch = roomId.match(/\d+/)?.[0];
+    return (
+      allRooms.find(
+        (r) =>
+          r.room_id.toLowerCase() === roomId ||
+          r.id?.toLowerCase() === roomId ||
+          ((r as any).aliases && (r as any).aliases.includes(roomId)) ||
+          (numMatch && String(r.numero_oficial).padStart(2, '0') === numMatch.padStart(2, '0'))
+      ) || null
+    );
+  }, [currentPiece, allRooms]);
+
+  // Piezas de la misma sala para el carrusel de navegación rápida
+  const currentRoomPieces = useMemo(() => {
+    if (activePieceRoom) {
+      return getRoomPieces(activePieceRoom);
+    }
+    if (!currentPiece) return [];
+    const targetRoom = (currentPiece.room_id || (currentPiece as any).roomId || '').toLowerCase();
+    return tourPieces.filter((p) => {
+      const pRoom = (p.room_id || (p as any).roomId || '').toLowerCase();
+      return pRoom && (pRoom === targetRoom || targetRoom.includes(pRoom) || pRoom.includes(targetRoom));
+    });
+  }, [activePieceRoom, currentPiece, tourPieces, allRooms]);
 
   // Abrir vista dedicada de sala (SALA VIEW) desde lista o mapa
   const handleOpenRoomDetail = (roomOrId: Room | string) => {
@@ -1064,6 +1103,9 @@ export default function App() {
                 onNextStop={handleNextStop}
                 onPreviousStop={handlePreviousStop}
                 onOpenMapModal={() => setIsMapModalOpen(true)}
+                roomPieces={currentRoomPieces}
+                onSelectPiece={handleSelectPieceById}
+                currentRoom={activePieceRoom}
               />
             ) : (
               <div className="p-12 text-center text-[#9CA3AF] text-sm flex flex-col items-center gap-4">

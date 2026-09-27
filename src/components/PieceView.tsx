@@ -10,10 +10,12 @@ interface PieceViewProps {
   currentStopIndex?: number;
   totalStops?: number;
   roomName?: string;
-  nextStop?: RouteStop | null;
   onNextStop?: () => void;
   onPreviousStop?: () => void;
   onOpenMapModal?: () => void;
+  roomPieces?: any[];
+  onSelectPiece?: (pieceId: string) => void;
+  currentRoom?: any;
 }
 
 export const PieceView: React.FC<PieceViewProps> = (props) => {

@@ -27,14 +27,42 @@ interface SiteOverviewProps {
   onOpenSearchModal?: () => void;
 }
 
-export const isRoomPlantaAlta = (r: any): boolean => {
-  if (!r) return false;
-  const p = String(r.piso || '').trim().toLowerCase();
-  if (p === 'pa' || p === 'planta alta' || p === 'planta_alta' || p === 'piso 2' || p === 'piso2') return true;
-  if (r.floor === 2 || r.floor === '2') return true;
-  const num = parseInt(r.numero_oficial || r.num || r.room_id?.match(/\d+/)?.[0] || '0', 10);
+export const isFloor2 = (room: any): boolean => {
+  if (!room) return false;
+  if (
+    room.piso == 2 ||
+    room.piso === '2' ||
+    room.piso === 'PA' ||
+    room.piso === 'pa' ||
+    room.piso === 'planta_alta' ||
+    room.piso === 'Planta Alta' ||
+    room.floor == 2 ||
+    room.floor === '2'
+  ) {
+    return true;
+  }
+  const num = parseInt(String(room.numero_oficial || room.num || room.room_id?.match(/\d+/)?.[0] || '0'), 10);
   if (num >= 12 && num <= 22) return true;
   return false;
+};
+
+export const isFloor1 = (room: any): boolean => {
+  if (!room) return false;
+  if (
+    room.piso == 1 ||
+    room.piso === '1' ||
+    room.piso === 'PB' ||
+    room.piso === 'pb' ||
+    room.piso === 'planta_baja' ||
+    room.piso === 'Planta Baja' ||
+    room.floor == 1 ||
+    room.floor === '1'
+  ) {
+    return true;
+  }
+  const num = parseInt(String(room.numero_oficial || room.num || room.room_id?.match(/\d+/)?.[0] || '0'), 10);
+  if (num >= 0 && num <= 11) return true;
+  return !isFloor2(room);
 };
 
 export const SiteOverview: React.FC<SiteOverviewProps> = ({
@@ -60,11 +88,10 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
     return manifest.rooms || [];
   }, [allRooms, manifest.rooms]);
 
-  // Filtrado estricto y ordenado por piso
+  // Filtrado tolerante y ordenado por piso
   const filteredRooms = useMemo(() => {
     const list = roomCatalog.filter((r) => {
-      const isPA = isRoomPlantaAlta(r);
-      return selectedFloor === 'PA' ? isPA : !isPA;
+      return selectedFloor === 'PA' ? isFloor2(r) : isFloor1(r);
     });
 
     return list.sort((a, b) => {

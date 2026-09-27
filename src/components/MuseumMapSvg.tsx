@@ -26,71 +26,58 @@ export interface MapRoomDef {
   w: number;
   h: number;
   rx?: number;
-  wing: 'norte' | 'cabecera' | 'sur';
+  isMonumental?: boolean;
+  wing: 'poniente' | 'norte' | 'oriente' | 'sur';
 }
 
-// ================= 12 Espacios en Planta Baja (Arqueología: Salas 00 a 11) =================
+// ================= Planta Baja: Arqueología (Salas 00 a 11) =================
+// Geometría en U de Pedro Ramírez Vázquez (viewBox: 0 0 900 650)
 const PB_ROOMS: MapRoomDef[] = [
-  // --- Ala Derecha (Ala Norte) ---
-  {
-    numStr: '00',
-    id: 'sala-00-exteriores',
-    aliases: ['sala-0', 'sala-00', 'vestibulo', 'orientacion', 'exteriores', 'patio'],
-    name: 'Arquitectura y Patio Central',
-    shortName: '00. Patio y Paraguas',
-    sub: 'El Paraguas · Pedro Ramírez Vázquez',
-    piso: 'PB',
-    x: 690,
-    y: 615,
-    w: 240,
-    h: 70,
-    rx: 6,
-    wing: 'norte',
-  },
+  // --- Ala Poniente (Oeste / Izquierda: x=35, w=215) ---
   {
     numStr: '01',
     id: 'sala-01-introduccion-antropologia',
     aliases: ['sala-1', 'sala-01', 'introduccion_antropologia', 'intro-antropologia'],
     name: 'Introducción a la Antropología',
-    shortName: '01. Introducción',
-    sub: 'Evolución humana · Hominización',
+    shortName: '01. Intro Antropología',
+    sub: 'Evolución y hominización',
     piso: 'PB',
-    x: 690,
-    y: 535,
-    w: 240,
-    h: 70,
+    x: 35,
+    y: 470,
+    w: 215,
+    h: 60,
     rx: 6,
-    wing: 'norte',
+    wing: 'poniente',
   },
   {
     numStr: '02',
     id: 'sala-02-poblamiento-de-america',
     aliases: ['sala-2', 'sala-02', 'poblamiento', 'poblamiento_de_america'],
     name: 'Poblamiento de América',
-    shortName: '02. Poblamiento',
+    shortName: '02. Poblamiento América',
     sub: 'Estrecho de Bering · Fósiles',
     piso: 'PB',
-    x: 690,
-    y: 455,
-    w: 240,
-    h: 70,
+    x: 35,
+    y: 395,
+    w: 215,
+    h: 60,
     rx: 6,
-    wing: 'norte',
+    wing: 'poniente',
   },
   {
     numStr: '03',
     id: 'sala-03-preclasico-altiplano-central',
     aliases: ['sala-3', 'sala-03', 'preclasico', 'altiplano'],
     name: 'Preclásico en el Altiplano Central',
-    shortName: '03. Preclásico',
+    shortName: '03. Preclásico Altiplano',
     sub: 'Tlatilco · Cuicuilco',
     piso: 'PB',
-    x: 690,
-    y: 375,
-    w: 240,
-    h: 70,
+    x: 35,
+    y: 320,
+    w: 215,
+    h: 60,
     rx: 6,
-    wing: 'norte',
+    wing: 'poniente',
   },
   {
     numStr: '04',
@@ -100,293 +87,330 @@ const PB_ROOMS: MapRoomDef[] = [
     shortName: '04. Teotihuacán',
     sub: 'Ciudad de los Dioses · Pirámides',
     piso: 'PB',
-    x: 690,
-    y: 275,
-    w: 240,
-    h: 90,
+    x: 35,
+    y: 230,
+    w: 215,
+    h: 75,
     rx: 6,
-    wing: 'norte',
+    wing: 'poniente',
   },
   {
     numStr: '05',
     id: 'sala-05-los-toltecas-y-su-epoca',
     aliases: ['sala-5', 'sala-05', 'tolteca', 'toltecas', 'epiclasico'],
     name: 'Los Toltecas y su época',
-    shortName: '05. Tolteca',
+    shortName: '05. Tolteca y Epiclásico',
     sub: 'Atlantes de Tula · Xochicalco',
     piso: 'PB',
-    x: 690,
-    y: 185,
-    w: 240,
-    h: 80,
+    x: 35,
+    y: 145,
+    w: 215,
+    h: 70,
     rx: 6,
-    wing: 'norte',
+    wing: 'poniente',
   },
 
-  // --- Cabecera Monumental (Fondo Oeste / Centro) ---
+  // --- Cabecera Norte (Fondo al Centro: x=265, y=35, w=370, h=100) ---
   {
     numStr: '06',
     id: 'sala-06-mexica',
     aliases: ['sala-6', 'sala-06', 'mexica', 'azteca', 'tenochtitlan'],
-    name: 'Mexica (Altar Central)',
-    shortName: '06. Mexica',
+    name: 'Mexica',
+    shortName: '06. Mexica (Altar Central)',
     sub: 'Piedra del Sol · Coatlicue · Templo Mayor',
     piso: 'PB',
-    x: 320,
-    y: 45,
-    w: 360,
-    h: 155,
-    rx: 8,
-    wing: 'cabecera',
+    x: 265,
+    y: 35,
+    w: 370,
+    h: 100,
+    rx: 6,
+    isMonumental: true,
+    wing: 'norte',
   },
 
-  // --- Ala Izquierda (Ala Sur) ---
+  // --- Ala Oriente (Este / Derecha: x=650, w=215) ---
   {
     numStr: '07',
     id: 'sala-07-oaxaca',
-    aliases: ['sala-7', 'sala-07', 'oaxaca', 'monte_alban'],
-    name: 'Culturas de Oaxaca',
-    shortName: '07. Oaxaca',
-    sub: 'Monte Albán · Urnas Funerarias',
+    aliases: ['sala-7', 'sala-07', 'oaxaca', 'zapoteca', 'mixteca'],
+    name: 'Oaxaca',
+    shortName: '07. Oaxaca (Zapotecos)',
+    sub: 'Monte Albán · Tumba 7 · Mixtecos',
     piso: 'PB',
-    x: 70,
-    y: 185,
-    w: 240,
-    h: 80,
+    x: 650,
+    y: 145,
+    w: 215,
+    h: 70,
     rx: 6,
-    wing: 'sur',
+    wing: 'oriente',
   },
   {
     numStr: '08',
     id: 'sala-08-costa-del-golfo',
-    aliases: ['sala-8', 'sala-08', 'costa_del_golfo', 'golfo', 'olmeca', 'costa-del-golfo'],
+    aliases: ['sala-8', 'sala-08', 'costa-del-golfo', 'golfo', 'olmeca', 'huasteca'],
     name: 'Culturas de la Costa del Golfo',
     shortName: '08. Costa del Golfo',
     sub: 'Cabezas Colosales Olmecas · Tajín',
     piso: 'PB',
-    x: 70,
-    y: 275,
-    w: 240,
-    h: 90,
+    x: 650,
+    y: 230,
+    w: 215,
+    h: 75,
     rx: 6,
-    wing: 'sur',
+    wing: 'oriente',
   },
   {
     numStr: '09',
     id: 'sala-09-maya',
-    aliases: ['sala-9', 'sala-09', 'maya', 'palenque', 'calakmul'],
+    aliases: ['sala-9', 'sala-09', 'maya', 'palenque', 'chichen'],
     name: 'Maya',
     shortName: '09. Maya',
-    sub: 'Tumba de Pakal · Máscara de Calakmul',
+    sub: 'Pakal · Dintel de Yaxchilán · Estelas',
     piso: 'PB',
-    x: 70,
-    y: 375,
-    w: 240,
-    h: 110,
+    x: 650,
+    y: 320,
+    w: 215,
+    h: 60,
     rx: 6,
-    wing: 'sur',
+    wing: 'oriente',
   },
   {
     numStr: '10',
     id: 'sala-10-occidente',
-    aliases: ['sala-10', 'occidente', 'tarascos', 'purepecha'],
-    name: 'Culturas de Occidente',
-    shortName: '10. Occidente',
-    sub: 'Tumbas de Tiro · Colima · Chupícuaro',
+    aliases: ['sala-10', 'occidente', 'tarascos', 'tzintzuntzan'],
+    name: 'Culturas del Occidente',
+    shortName: '10. Occidente de México',
+    sub: 'Tumbas de Tiro · Colima · Tarascos',
     piso: 'PB',
-    x: 70,
-    y: 495,
-    w: 240,
-    h: 95,
+    x: 650,
+    y: 395,
+    w: 215,
+    h: 60,
     rx: 6,
-    wing: 'sur',
+    wing: 'oriente',
   },
   {
     numStr: '11',
     id: 'sala-11-norte',
-    aliases: ['sala-11', 'norte', 'paquime'],
+    aliases: ['sala-11', 'norte', 'paquime', 'casas-grandes'],
     name: 'Culturas del Norte',
-    shortName: '11. Norte',
-    sub: 'Paquimé · Cueva de la Candelaria',
+    shortName: '11. Norte de México',
+    sub: 'Paquimé · Casas Grandes · Aridoamérica',
     piso: 'PB',
-    x: 70,
-    y: 600,
-    w: 240,
-    h: 85,
+    x: 650,
+    y: 470,
+    w: 215,
+    h: 60,
+    rx: 6,
+    wing: 'oriente',
+  },
+
+  // --- Cabecera Sur (Vestíbulo y Acceso: x=265, y=550, w=370, h=65) ---
+  {
+    numStr: '00',
+    id: 'sala-00-exteriores',
+    aliases: ['sala-0', 'sala-00', 'vestibulo', 'orientacion', 'exteriores', 'patio'],
+    name: 'Arquitectura y Patio Central',
+    shortName: '00. Vestíbulo y Acceso',
+    sub: 'El Paraguas · Pedro Ramírez Vázquez',
+    piso: 'PB',
+    x: 265,
+    y: 550,
+    w: 370,
+    h: 65,
     rx: 6,
     wing: 'sur',
   },
 ];
 
-// ================= 11 Salas en Planta Alta (Etnografía: Salas 12 a 22) =================
+// ================= Planta Alta: 11 Salas de Etnografía (Salas 12 a 22) =================
+// Distribución en herradura espejo sobre la planta alta
 const PA_ROOMS: MapRoomDef[] = [
-  // --- Ala Derecha (Ala Norte) ---
+  // --- Ala Poniente (Salas 12 a 16: x=35, w=215) ---
   {
     numStr: '12',
     id: 'sala-12-introduccion-etnografia',
-    aliases: ['sala-12', 'sala-12-pueblos-indios', 'pueblos-indios', 'etnografia-intro'],
+    aliases: ['sala-12', 'etnografia', 'intro-etnografia', 'pueblos-indios'],
     name: 'Introducción a la Etnografía',
-    shortName: '12. Etnografía',
-    sub: 'Diversidad lingüística y cultural viva',
+    shortName: '12. Intro Etnografía',
+    sub: 'Diversidad lingüística y cosmovisión',
     piso: 'PA',
-    x: 690,
-    y: 565,
-    w: 240,
-    h: 120,
+    x: 35,
+    y: 470,
+    w: 215,
+    h: 60,
     rx: 6,
-    wing: 'norte',
+    wing: 'poniente',
   },
   {
     numStr: '13',
     id: 'sala-13-otopames',
-    aliases: ['sala-13', 'sala-15-otopames', 'otopames', 'otomi'],
+    aliases: ['sala-13', 'otopames', 'otomi', 'mazahua'],
     name: 'Otopames',
     shortName: '13. Otopames',
-    sub: 'Otomíes · Mazahuas · Fibras de maguey',
+    sub: 'Otomíes, Mazahuas y Matlatzincas',
     piso: 'PA',
-    x: 690,
-    y: 445,
-    w: 240,
-    h: 110,
+    x: 35,
+    y: 395,
+    w: 215,
+    h: 60,
     rx: 6,
-    wing: 'norte',
+    wing: 'poniente',
   },
   {
     numStr: '14',
     id: 'sala-14-sierra-de-puebla',
-    aliases: ['sala-14', 'sala-16-sierra-de-puebla', 'sierra-puebla', 'totonacos'],
+    aliases: ['sala-14', 'sierra-de-puebla', 'puebla', 'totonacos-sierra'],
     name: 'Sierra de Puebla',
     shortName: '14. Sierra de Puebla',
-    sub: 'Voladores · Danza de Quetzales · Amate',
+    sub: 'Nahuas y Totonacos de la Sierra',
     piso: 'PA',
-    x: 690,
-    y: 325,
-    w: 240,
-    h: 110,
+    x: 35,
+    y: 320,
+    w: 215,
+    h: 60,
     rx: 6,
-    wing: 'norte',
+    wing: 'poniente',
   },
   {
     numStr: '15',
-    id: 'sala-15-costa-del-golfo',
-    aliases: ['sala-15', 'sala-18-huastecos-y-totonacos', 'huastecos-y-totonacos', 'golfo-etnografia'],
+    id: 'sala-15-costa-del-golfo-huasteca',
+    aliases: ['sala-15', 'costa-del-golfo-huasteca', 'huasteca', 'totonacapan'],
     name: 'Costa del Golfo: Huasteca y Totonacapan',
-    shortName: '15. Costa del Golfo',
-    sub: 'Huastecos · Totonacos · Altar Xantolo',
+    shortName: '15. Golfo: Huasteca',
+    sub: 'Tradición ritual, textiles y danzas',
     piso: 'PA',
-    x: 690,
-    y: 205,
-    w: 240,
-    h: 110,
+    x: 35,
+    y: 230,
+    w: 215,
+    h: 75,
     rx: 6,
+    wing: 'poniente',
+  },
+  {
+    numStr: '16',
+    id: 'sala-16-mayas-de-la-selva-montana',
+    aliases: ['sala-16', 'mayas-selva-montana', 'mayas-selva', 'tzeltal', 'tzotzil'],
+    name: 'Pueblos Mayas de la Selva y Montaña',
+    shortName: '16. Mayas Selva/Montaña',
+    sub: 'Tzotziles, Tzeltales y Tojolabales',
+    piso: 'PA',
+    x: 35,
+    y: 145,
+    w: 215,
+    h: 70,
+    rx: 6,
+    wing: 'poniente',
+  },
+
+  // --- Cabecera Norte (Fondo al Centro: x=265, y=35, w=370, h=100) ---
+  {
+    numStr: '17',
+    id: 'sala-17-mayas-de-tierras-bajas',
+    aliases: ['sala-17', 'mayas-tierras-bajas', 'mayas-peninsula', 'yucateco'],
+    name: 'Pueblos Mayas de las Tierras Bajas',
+    shortName: '17. Mayas Tierras Bajas',
+    sub: 'Península de Yucatán y Chontal de Tabasco',
+    piso: 'PA',
+    x: 265,
+    y: 35,
+    w: 370,
+    h: 100,
+    rx: 6,
+    isMonumental: true,
     wing: 'norte',
   },
 
-  // --- Cabecera Monumental (Fondo Oeste / Mayas contemporáneos) ---
-  {
-    numStr: '16',
-    id: 'sala-16-mayas-selva-montana',
-    aliases: ['sala-16', 'sala-19-pueblos-mayas', 'mayas-selva', 'mayas-montana'],
-    name: 'Pueblos Mayas de la Selva y Montaña',
-    shortName: '16. Mayas Selva y Montaña',
-    sub: 'Tsotsiles · Tseltales · Lacandones',
-    piso: 'PA',
-    x: 505,
-    y: 45,
-    w: 260,
-    h: 150,
-    rx: 8,
-    wing: 'cabecera',
-  },
-  {
-    numStr: '17',
-    id: 'sala-17-mayas-tierras-bajas',
-    aliases: ['sala-17', 'mayas-tierras-bajas', 'mayas-peninsula'],
-    name: 'Pueblos Mayas de las Tierras Bajas',
-    shortName: '17. Mayas Tierras Bajas',
-    sub: 'Mayas peninsulares · Solar tradicional',
-    piso: 'PA',
-    x: 235,
-    y: 45,
-    w: 260,
-    h: 150,
-    rx: 8,
-    wing: 'cabecera',
-  },
-
-  // --- Ala Izquierda (Ala Sur) ---
+  // --- Ala Oriente (Salas 18 a 22: x=650, w=215) ---
   {
     numStr: '18',
-    id: 'sala-18-oaxaca-sur',
-    aliases: ['sala-18', 'sala-17-oaxaca', 'oaxaca-etnografia'],
+    id: 'sala-18-oaxaca-pueblos-indios-del-sur',
+    aliases: ['sala-18', 'oaxaca-pueblos-indios', 'oaxaca-sur', 'zapotecos-sur'],
     name: 'Oaxaca: Pueblos Indios del Sur',
-    shortName: '18. Pueblos de Oaxaca',
-    sub: 'Tehuana · Zapotecos · Barro Negro',
+    shortName: '18. Oaxaca: Pueblos Sur',
+    sub: 'Zapotecos, Mixtecos y Chatinos',
     piso: 'PA',
-    x: 70,
-    y: 205,
-    w: 240,
-    h: 90,
+    x: 650,
+    y: 145,
+    w: 215,
+    h: 70,
     rx: 6,
-    wing: 'sur',
+    wing: 'oriente',
   },
   {
     numStr: '19',
-    id: 'sala-19-costa-pacifico-nahuas',
-    aliases: ['sala-19', 'sala-21-nahuas', 'nahuas-pacifico'],
+    id: 'sala-19-costa-del-pacifico-nahuas-mixtecos',
+    aliases: ['sala-19', 'costa-del-pacifico', 'pacifico', 'nahuas-guerrero'],
     name: 'Costa del Pacífico: Nahuas y Mixtecos',
     shortName: '19. Costa del Pacífico',
-    sub: 'Papel amate Xalitla · Nahuas contemporáneos',
+    sub: 'Guerrero, Michoacán y Costa Chica',
     piso: 'PA',
-    x: 70,
-    y: 305,
-    w: 240,
-    h: 90,
+    x: 650,
+    y: 230,
+    w: 215,
+    h: 75,
     rx: 6,
-    wing: 'sur',
+    wing: 'oriente',
   },
   {
     numStr: '20',
-    id: 'sala-20-purecherio',
-    aliases: ['sala-20', 'sala-14-purecherio', 'purecherio', 'purepecha'],
+    id: 'sala-20-pureecherio-tarascos',
+    aliases: ['sala-20', 'pureecherio', 'purepecha', 'tarascos'],
     name: 'Puréecherio (Tarascos)',
-    shortName: '20. Puréecherio',
-    sub: 'Troje · Cobre martillado · Michoacán',
+    shortName: '20. Puréecherio (Purépechas)',
+    sub: 'Meseta, Lago y Cañada de Michoacán',
     piso: 'PA',
-    x: 70,
-    y: 405,
-    w: 240,
-    h: 90,
+    x: 650,
+    y: 320,
+    w: 215,
+    h: 60,
     rx: 6,
-    wing: 'sur',
+    wing: 'oriente',
   },
   {
     numStr: '21',
-    id: 'sala-21-gran-nayar',
-    aliases: ['sala-21', 'sala-13-gran-nayar', 'gran-nayar', 'huichol', 'cora'],
+    id: 'sala-21-el-gran-nayar-coras-huicholes',
+    aliases: ['sala-21', 'el-gran-nayar', 'gran-nayar', 'wixarika', 'huichol'],
     name: 'El Gran Nayar: Coras y Huicholes',
     shortName: '21. El Gran Nayar',
-    sub: 'Wixárika · Nierika de estambre · Wirikuta',
+    sub: 'Wixáritari, Na’ayeri, O’dam y Mexicaneros',
     piso: 'PA',
-    x: 70,
-    y: 505,
-    w: 240,
-    h: 90,
+    x: 650,
+    y: 395,
+    w: 215,
+    h: 60,
     rx: 6,
-    wing: 'sur',
+    wing: 'oriente',
   },
   {
     numStr: '22',
-    id: 'sala-22-norte-noroeste',
-    aliases: ['sala-22', 'sala-20-noroeste', 'noroeste', 'norte-etnografia'],
+    id: 'sala-22-pueblos-del-norte-y-noroeste',
+    aliases: ['sala-22', 'pueblos-del-norte', 'norte-noroeste', 'raramuri', 'yaqui'],
     name: 'Pueblos del Norte y Noroeste',
-    shortName: '22. Norte y Noroeste',
-    sub: 'Rarámuri · Danza del Venado Yaqui · Seris',
+    shortName: '22. Pueblos del Norte',
+    sub: 'Rarámuri, Yaqui, Mayo, Seri y Tepehuanos',
     piso: 'PA',
-    x: 70,
-    y: 605,
-    w: 240,
-    h: 80,
+    x: 650,
+    y: 470,
+    w: 215,
+    h: 60,
+    rx: 6,
+    wing: 'oriente',
+  },
+
+  // --- Cabecera Sur (Mirador Superior: x=265, y=550, w=370, h=65) ---
+  {
+    numStr: 'PA',
+    id: 'sala-pa-mirador-acceso',
+    aliases: ['mirador', 'terraza-pa', 'acceso-pa'],
+    name: 'Mirador y Balcón Etnográfico',
+    shortName: 'Mirador de Planta Alta',
+    sub: 'Vista cenital a El Paraguas y Patio Central',
+    piso: 'PA',
+    x: 265,
+    y: 550,
+    w: 370,
+    h: 65,
     rx: 6,
     wing: 'sur',
   },
@@ -397,68 +421,66 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
   selectedRoomId = null,
   onSelectRoom,
   stops = [],
-  currentStopIndex = 0,
+  currentStopIndex,
   onSelectStop,
-  activeFloor: controlledFloor,
+  activeFloor = 'PB',
   onFloorChange,
   showFloorSelector = true,
 }) => {
-  const [internalFloor, setInternalFloor] = useState<'PB' | 'PA'>('PB');
-  const selectedFloor = controlledFloor !== undefined ? controlledFloor : internalFloor;
-  const setFloor = (fl: 'PB' | 'PA') => {
-    if (onFloorChange) onFloorChange(fl);
-    else setInternalFloor(fl);
+  const [internalFloor, setInternalFloor] = useState<'PB' | 'PA'>(activeFloor);
+  const [hoveredRoomId, setHoveredRoomId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (activeFloor) {
+      setInternalFloor(activeFloor);
+    }
+  }, [activeFloor]);
+
+  const selectedFloor = onFloorChange ? activeFloor : internalFloor;
+
+  const handleFloorSwitch = (floor: 'PB' | 'PA') => {
+    setInternalFloor(floor);
+    if (onFloorChange) {
+      onFloorChange(floor);
+    }
   };
 
-  const [hoveredRoom, setHoveredRoom] = useState<MapRoomDef | null>(null);
-
-  // Auto-seleccionar piso si el selectedRoomId pertenece a la Planta Alta
-  useEffect(() => {
-    if (!selectedRoomId) return;
-    const isPA = PA_ROOMS.some(
-      (r) => r.id === selectedRoomId || r.aliases.includes(selectedRoomId.toLowerCase())
-    );
-    if (isPA && selectedFloor !== 'PA') {
-      setFloor('PA');
-    } else {
-      const isPB = PB_ROOMS.some(
-        (r) => r.id === selectedRoomId || r.aliases.includes(selectedRoomId.toLowerCase())
-      );
-      if (isPB && selectedFloor !== 'PB') {
-        setFloor('PB');
-      }
-    }
-  }, [selectedRoomId]);
-
-  // Lista de salas según el piso
-  const activeRoomsList = useMemo(() => {
+  // Salas activas según el piso seleccionado
+  const currentFloorRooms = useMemo(() => {
     return selectedFloor === 'PB' ? PB_ROOMS : PA_ROOMS;
   }, [selectedFloor]);
 
-  // Chequeo si una sala está activa o seleccionada
+  // Contenedor de piezas registradas por sala en catálogo
+  const piecesCountMap = useMemo(() => {
+    const map: Record<string, number> = {};
+    if (rooms && rooms.length > 0) {
+      rooms.forEach((r) => {
+        const count = r.pieces_info?.length || r.featured_pieces?.length || 0;
+        if (r.room_id) map[r.room_id.toLowerCase()] = count;
+        if (r.id) map[r.id.toLowerCase()] = count;
+        if ((r as any).aliases) {
+          (r as any).aliases.forEach((al: string) => {
+            map[al.toLowerCase()] = count;
+          });
+        }
+        if (r.numero_oficial) {
+          map[String(r.numero_oficial)] = count;
+          map[`sala-${String(r.numero_oficial).padStart(2, '0')}`] = count;
+        }
+      });
+    }
+    return map;
+  }, [rooms]);
+
+  // Resolver roomId contra la definición SVG
   const isRoomActive = (roomDef: MapRoomDef) => {
     if (!selectedRoomId) return false;
     const target = selectedRoomId.toLowerCase().trim();
-    if (roomDef.id === target) return true;
-    if (roomDef.aliases.includes(target)) return true;
-    const targetNum = target.match(/\d+/)?.[0];
-    if (targetNum && parseInt(targetNum, 10) === parseInt(roomDef.numStr, 10)) return true;
+    if (roomDef.id.toLowerCase() === target) return true;
+    if (roomDef.aliases.some((a) => a.toLowerCase() === target)) return true;
+    const numMatch = target.match(/\d+/)?.[0];
+    if (numMatch && parseInt(roomDef.numStr, 10) === parseInt(numMatch, 10)) return true;
     return false;
-  };
-
-  // Obtener conteo de piezas de la sala
-  const getRoomPiecesCount = (roomDef: MapRoomDef) => {
-    const foundRoom = rooms.find(
-      (r) =>
-        r.room_id === roomDef.id ||
-        (r.numero_oficial && String(r.numero_oficial) === String(parseInt(roomDef.numStr, 10))) ||
-        roomDef.aliases.includes((r.room_id || '').toLowerCase())
-    );
-    if (foundRoom) {
-      if (foundRoom.pieces_info && foundRoom.pieces_info.length > 0) return foundRoom.pieces_info.length;
-      if (foundRoom.featured_pieces && foundRoom.featured_pieces.length > 0) return foundRoom.featured_pieces.length;
-    }
-    return roomDef.piso === 'PB' ? (roomDef.numStr === '06' ? 10 : 6) : 4;
   };
 
   const handleRoomClick = (roomDef: MapRoomDef) => {
@@ -467,57 +489,74 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
     }
   };
 
+  // Paradas de ruta que caen en este piso
+  const visibleStops = useMemo(() => {
+    if (!stops || stops.length === 0) return [];
+    return stops
+      .map((stop, index) => {
+        const stopRoomId = (stop.room_id || stop.room_zone || '').toLowerCase();
+        const foundDef = currentFloorRooms.find(
+          (def) =>
+            def.id.toLowerCase() === stopRoomId ||
+            def.aliases.some((a) => stopRoomId.includes(a.toLowerCase())) ||
+            (def.numStr && stopRoomId.includes(def.numStr))
+        );
+        if (foundDef) {
+          // Posición centrada en la sala
+          return {
+            ...stop,
+            index,
+            isCurrent: currentStopIndex === index,
+            cx: foundDef.x + foundDef.w / 2,
+            cy: foundDef.y + foundDef.h / 2,
+          };
+        }
+        return null;
+      })
+      .filter(Boolean) as (RouteStop & { index: number; isCurrent: boolean; cx: number; cy: number })[];
+  }, [stops, currentFloorRooms, currentStopIndex]);
+
   return (
-    <div className="w-full flex flex-col items-center select-none">
-      {/* 1. SELECTOR DE PISOS ELEGANTE (SI ESTÁ HABILITADO) */}
+    <div className="w-full flex flex-col items-center select-none font-sans">
+      {/* 1. Selector de piso superior opcional */}
       {showFloorSelector && (
-        <div className="w-full max-w-xl px-2 pt-1 pb-3 flex items-center justify-center gap-2">
+        <div className="w-full max-w-md grid grid-cols-2 p-1 rounded-2xl bg-[#141419] border border-white/10 shadow-lg mb-3">
           <button
             type="button"
-            onClick={() => setFloor('PB')}
-            className={`flex-1 py-2 px-3 rounded-xl text-xs font-bold tracking-tight transition-all duration-200 border flex items-center justify-center gap-2 cursor-pointer ${
+            onClick={() => handleFloorSwitch('PB')}
+            className={`py-2 px-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-2 cursor-pointer ${
               selectedFloor === 'PB'
-                ? 'bg-[#F59E0B] text-black border-[#F59E0B] shadow-md shadow-[#F59E0B]/20 font-black'
-                : 'bg-[#141419] text-[#9CA3AF] border-white/10 hover:text-white hover:bg-white/5'
+                ? 'bg-[#F59E0B] text-black shadow-md shadow-[#F59E0B]/20 font-black'
+                : 'text-[#9CA3AF] hover:text-white'
             }`}
           >
             <span>🏛️</span>
-            <span className="truncate">Planta Baja (Arqueología)</span>
-            <span
-              className={`text-[10px] px-1.5 py-0.5 rounded-md font-mono ${
-                selectedFloor === 'PB' ? 'bg-black/20 text-black font-bold' : 'bg-white/5 text-[#6B7280]'
-              }`}
-            >
-              00–11
-            </span>
+            <span>Planta Baja (Arqueología)</span>
           </button>
-
           <button
             type="button"
-            onClick={() => setFloor('PA')}
-            className={`flex-1 py-2 px-3 rounded-xl text-xs font-bold tracking-tight transition-all duration-200 border flex items-center justify-center gap-2 cursor-pointer ${
+            onClick={() => handleFloorSwitch('PA')}
+            className={`py-2 px-3 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-2 cursor-pointer ${
               selectedFloor === 'PA'
-                ? 'bg-[#F59E0B] text-black border-[#F59E0B] shadow-md shadow-[#F59E0B]/20 font-black'
-                : 'bg-[#141419] text-[#9CA3AF] border-white/10 hover:text-white hover:bg-white/5'
+                ? 'bg-[#F59E0B] text-black shadow-md shadow-[#F59E0B]/20 font-black'
+                : 'text-[#9CA3AF] hover:text-white'
             }`}
           >
             <span>🧵</span>
-            <span className="truncate">Planta Alta (Etnografía)</span>
-            <span
-              className={`text-[10px] px-1.5 py-0.5 rounded-md font-mono ${
-                selectedFloor === 'PA' ? 'bg-black/20 text-black font-bold' : 'bg-white/5 text-[#6B7280]'
-              }`}
-            >
-              12–22
-            </span>
+            <span>Planta Alta (Etnografía)</span>
           </button>
         </div>
       )}
 
-      {/* 2. RENDERIZADO DEL PLANO ARQUITECTÓNICO VECTORIAL EN GRAFITO PROFUNDO (#101216) */}
-      <div className="w-full max-w-3xl aspect-[4/3.2] sm:aspect-[4/3] relative rounded-2xl overflow-hidden border border-[#2E3440]/60 bg-[#101216] shadow-2xl">
+      {/* 2. RENDERIZADO DEL PLANO ARQUITECTÓNICO VECTORIAL:
+             ViewBox optimizado: 0 0 900 650
+             Fondo grafito profundo: #0A0C10
+             Patio Central: #121721 con borde #1E293B
+             El Paraguas estilizado al centro exacto (450, 342.5)
+      */}
+      <div className="w-full max-w-4xl aspect-[900/650] relative rounded-2xl overflow-hidden border border-[#2D3748]/70 bg-[#0A0C10] shadow-2xl">
         <svg
-          viewBox="0 0 1000 750"
+          viewBox="0 0 900 650"
           className="w-full h-full"
           role="img"
           aria-label={`Plano arquitectónico del Museo Nacional de Antropología - ${
@@ -525,346 +564,350 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
           }`}
         >
           <defs>
-            {/* Patrón de cuadrícula arquitectónica sutil */}
-            <pattern id="archGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-              <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1A1E27" strokeWidth="0.5" />
+            {/* Cuadrícula arquitectónica milimétrica */}
+            <pattern id="cadGrid" width="25" height="25" patternUnits="userSpaceOnUse">
+              <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#161B24" strokeWidth="0.5" />
             </pattern>
 
-            {/* Gradiente para el Patio Central */}
-            <linearGradient id="patioGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" stopColor="#141720" stopOpacity="1" />
-              <stop offset="100%" stopColor="#0E1017" stopOpacity="1" />
+            {/* Gradiente sutil para el Patio Central */}
+            <linearGradient id="patioWaterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stopColor="#141A26" stopOpacity="1" />
+              <stop offset="100%" stopColor="#10151F" stopOpacity="1" />
             </linearGradient>
 
-            {/* Gradiente de agua para el Estanque de Lirios */}
-            <linearGradient id="lilyPondGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stopColor="#0C253B" stopOpacity="0.8" />
-              <stop offset="50%" stopColor="#0E3857" stopOpacity="0.9" />
-              <stop offset="100%" stopColor="#0C253B" stopOpacity="0.8" />
+            {/* Textura sutil del Estanque de Lirios */}
+            <linearGradient id="lilyWaterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stopColor="#0E2338" stopOpacity="0.9" />
+              <stop offset="50%" stopColor="#13334E" stopOpacity="0.95" />
+              <stop offset="100%" stopColor="#0E2338" stopOpacity="0.9" />
             </linearGradient>
 
-            {/* Gradiente radial para la caída de agua de El Paraguas */}
-            <radialGradient id="paraguasWater" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stopColor="#38BDF8" stopOpacity="0.6" />
-              <stop offset="40%" stopColor="#0284C7" stopOpacity="0.3" />
-              <stop offset="85%" stopColor="#0369A1" stopOpacity="0.1" />
-              <stop offset="100%" stopColor="#0B132B" stopOpacity="0" />
+            {/* Cascada de El Paraguas */}
+            <radialGradient id="umbrellaCascade" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stopColor="#38BDF8" stopOpacity="0.5" />
+              <stop offset="30%" stopColor="#0284C7" stopOpacity="0.35" />
+              <stop offset="70%" stopColor="#0369A1" stopOpacity="0.15" />
+              <stop offset="100%" stopColor="#121721" stopOpacity="0" />
             </radialGradient>
 
-            {/* Filtro de brillo ámbar solar para sala activa / hover */}
+            {/* Brillo solar dorado #F59E0B para hover / active */}
             <filter id="solarGlow" x="-20%" y="-20%" width="140%" height="140%">
-              <feDropShadow dx="0" dy="0" stdDeviation="8" floodColor="#F59E0B" floodOpacity="0.85" />
+              <feDropShadow dx="0" dy="0" stdDeviation="6" floodColor="#F59E0B" floodOpacity="0.9" />
             </filter>
 
-            {/* Filtro sutil para sala normal */}
-            <filter id="roomShadow" x="-10%" y="-10%" width="120%" height="120%">
-              <feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#000000" floodOpacity="0.5" />
+            {/* Sombra sutil de elevación de sala */}
+            <filter id="softCardShadow" x="-10%" y="-10%" width="120%" height="120%">
+              <feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#000000" floodOpacity="0.6" />
             </filter>
           </defs>
 
-          {/* Fondo Grafito Profundo con Malla Arquitectónica */}
-          <rect x="0" y="0" width="1000" height="750" fill="#101216" />
-          <rect x="0" y="0" width="1000" height="750" fill="url(#archGrid)" />
+          {/* 1. Base del Lienzo Arquitectónico: Fondo Grafito Profundo (#0A0C10) */}
+          <rect x="0" y="0" width="900" height="650" fill="#0A0C10" />
+          <rect x="0" y="0" width="900" height="650" fill="url(#cadGrid)" />
 
-          {/* TRAZO ARQUITECTÓNICO DEL PATIO CENTRAL EN 'U' */}
+          {/* 2. PATIO CENTRAL MONUMENTAL (Proporción fiel en U)
+                 x=265, y=150, w=370, h=385
+                 Fondo #121721 con borde #1E293B
+          */}
           <rect
-            x="320"
-            y="215"
-            width="360"
-            height="470"
-            rx="10"
-            fill="url(#patioGrad)"
-            stroke="#242B38"
+            x="265"
+            y="150"
+            width="370"
+            height="385"
+            rx="8"
+            fill="url(#patioWaterGrad)"
+            stroke="#1E293B"
             strokeWidth="1.5"
           />
 
-          {/* ESTANQUE DE LIRIOS RECTANGULAR (Lado Poniente del Patio Central) */}
+          {/* Textura sutil del Estanque de Lirios acuático en el tercio norte del patio */}
           <g>
             <rect
-              x="380"
-              y="235"
-              width="240"
-              height="45"
+              x="305"
+              y="165"
+              width="290"
+              height="38"
               rx="6"
-              fill="url(#lilyPondGrad)"
-              stroke="#0284C7"
+              fill="url(#lilyWaterGrad)"
+              stroke="#1E3A5F"
               strokeWidth="1"
-              strokeDasharray="4 2"
             />
-            {/* Nenúfares / Lirios estilizados */}
-            <circle cx="420" cy="257" r="4" fill="#10B981" opacity="0.7" />
-            <circle cx="495" cy="254" r="5" fill="#10B981" opacity="0.6" />
-            <circle cx="570" cy="260" r="4.5" fill="#10B981" opacity="0.7" />
+            {/* Lirios estilizados */}
+            <circle cx="335" cy="184" r="3.5" fill="#10B981" opacity="0.6" />
+            <circle cx="450" cy="182" r="4.5" fill="#10B981" opacity="0.7" />
+            <circle cx="560" cy="185" r="3.5" fill="#10B981" opacity="0.6" />
             <text
-              x="500"
-              y="262"
+              x="450"
+              y="188"
               textAnchor="middle"
-              fill="#7DD3FC"
+              fill="#60A5FA"
               fontSize="9"
-              fontWeight="700"
-              fontFamily="sans-serif"
-              letterSpacing="1.5"
+              fontFamily="monospace"
+              letterSpacing="2"
+              opacity="0.7"
             >
               ESTANQUE DE LIRIOS
             </text>
           </g>
 
-          {/* ================= ICONO ESTILIZADO DE 'EL PARAGUAS' ================= */}
-          {/* Monumental columna de concreto con cubierta de bronce y caída de agua */}
-          <g transform="translate(500, 455)">
-            {/* Espejo de agua circular con bruma */}
-            <circle cx="0" cy="0" r="95" fill="url(#paraguasWater)" stroke="#0284C7" strokeWidth="1" opacity="0.8" />
-            <circle cx="0" cy="0" r="75" fill="none" stroke="#38BDF8" strokeDasharray="3 3" strokeWidth="0.8" opacity="0.6" />
-            <circle cx="0" cy="0" r="55" fill="none" stroke="#7DD3FC" strokeDasharray="2 4" strokeWidth="0.6" opacity="0.4" />
+          {/* 3. ICONO / GLIFO ESTILIZADO DE "EL PARAGUAS" AL CENTRO EXACTO (cx=450, cy=342.5) */}
+          <g transform="translate(450, 342.5)">
+            {/* Anillos de ondas de agua concéntricas en el piso de piedra */}
+            <circle cx="0" cy="0" r="68" fill="none" stroke="#38BDF8" strokeWidth="0.7" strokeDasharray="3 3" opacity="0.25" />
+            <circle cx="0" cy="0" r="54" fill="none" stroke="#38BDF8" strokeWidth="0.8" opacity="0.35" />
 
-            {/* 16 Radios de la cubierta suspendida de bronce diseñada por Pedro Ramírez Vázquez */}
+            {/* Manto de caída de agua radial */}
+            <circle cx="0" cy="0" r="44" fill="url(#umbrellaCascade)" />
+
+            {/* Techumbre volada de concreto con costillas radiales (cantiléver) */}
+            <circle cx="0" cy="0" r="42" fill="#181E29" stroke="#3B465C" strokeWidth="1.5" />
             {[0, 22.5, 45, 67.5, 90, 112.5, 135, 157.5, 180, 202.5, 225, 247.5, 270, 292.5, 315, 337.5].map((deg) => (
               <line
                 key={deg}
                 x1="0"
                 y1="0"
-                x2={75 * Math.cos((deg * Math.PI) / 180)}
-                y2={75 * Math.sin((deg * Math.PI) / 180)}
-                stroke="#475569"
-                strokeWidth="0.75"
+                x2={38 * Math.cos((deg * Math.PI) / 180)}
+                y2={38 * Math.sin((deg * Math.PI) / 180)}
+                stroke="#D97706"
+                strokeWidth="0.8"
                 opacity="0.6"
               />
             ))}
 
-            {/* Anillo de caída de agua */}
-            <circle cx="0" cy="0" r="28" fill="none" stroke="#38BDF8" strokeWidth="1.5" opacity="0.9" />
+            {/* Cortina circular de caída de agua con reflejos */}
+            <circle cx="0" cy="0" r="28" fill="none" stroke="#38BDF8" strokeWidth="2" strokeDasharray="5 2.5" opacity="0.85" />
+            <circle cx="0" cy="0" r="18" fill="none" stroke="#67E8F9" strokeWidth="1.2" opacity="0.7" />
 
-            {/* Columna central monolítica de bronce */}
-            <circle cx="0" cy="0" r="14" fill="#B45309" stroke="#FDE68A" strokeWidth="1.5" />
-            <circle cx="0" cy="0" r="5" fill="#F59E0B" />
+            {/* Columna Monolítica Central de Bronce Esculpido */}
+            <circle cx="0" cy="0" r="9" fill="#B45309" stroke="#F59E0B" strokeWidth="2" />
+            <circle cx="0" cy="0" r="4" fill="#FDE68A" />
 
-            {/* Leyenda editorial bajo El Paraguas */}
+            {/* Rótulo tipográfico arquitectónico */}
             <text
               x="0"
-              y="115"
+              y="58"
               textAnchor="middle"
-              fill="#E2E8F0"
-              fontSize="12"
-              fontWeight="bold"
-              fontFamily="sans-serif"
-              letterSpacing="0.5"
-            >
-              «El Paraguas»
-            </text>
-            <text
-              x="0"
-              y="130"
-              textAnchor="middle"
-              fill="#94A3B8"
+              fill="#F59E0B"
               fontSize="9"
-              fontWeight="500"
-              fontFamily="sans-serif"
+              fontWeight="800"
+              letterSpacing="1.5"
             >
-              Columna Central Esculpida · Caída de Agua
+              EL PARAGUAS
             </text>
-          </g>
-
-          {/* ACCESO PRINCIPAL / VESTÍBULO MONUMENTAL (Sur / Entrada) */}
-          <g transform="translate(500, 715)">
-            <rect
-              x="-110"
-              y="-15"
-              width="220"
-              height="28"
-              rx="6"
-              fill="#181C26"
-              stroke="#334155"
-              strokeWidth="1.5"
-            />
-            {/* Glifo de flechas de entrada */}
-            <path d="M -90 -2 L -84 2 L -90 6" fill="none" stroke="#F59E0B" strokeWidth="1.5" />
-            <path d="M 90 -2 L 84 2 L 90 6" fill="none" stroke="#F59E0B" strokeWidth="1.5" />
             <text
               x="0"
-              y="4"
+              y="69"
               textAnchor="middle"
-              fill="#CBD5E1"
-              fontSize="11"
-              fontWeight="bold"
+              fill="#9CA3AF"
+              fontSize="7.5"
               fontFamily="sans-serif"
-              letterSpacing="2"
             >
-              ENTRADA Y VESTÍBULO
+              Pedro Ramírez Vázquez · 1964
             </text>
           </g>
 
-          {/* ================= RENDERIZADO DE LAS SALAS PERIMETRALES ================= */}
-          {activeRoomsList.map((room) => {
-            const active = isRoomActive(room);
-            const isHovered = hoveredRoom?.id === room.id;
-            const piecesCount = getRoomPiecesCount(room);
+          {/* 4. RENDERIZADO DE LAS SALAS EN HERRADURA (U) */}
+          {currentFloorRooms.map((room) => {
+            const isActive = isRoomActive(room);
+            const isHovered = hoveredRoomId === room.id;
+            const piecesCount = piecesCountMap[room.id.toLowerCase()] || (room.isMonumental ? 10 : 6);
 
-            // Estilo arquitectónico:
-            // Relleno neutro oscuro (#1B1E26), bordes sutiles en vidrio (#2E3440)
-            // Activa o hovered: iluminación con destello ámbar solar (#F59E0B)
-            let fillColor = '#1B1E26';
-            let strokeColor = '#2E3440';
-            let strokeWidth = 1.2;
-            let textColor = '#E5E7EB';
-            let badgeBg = '#222734';
-            let badgeBorder = '#374151';
-            let badgeText = '#9CA3AF';
-
-            if (active || isHovered) {
-              fillColor = '#2D2214';
-              strokeColor = '#F59E0B';
-              strokeWidth = 2.5;
-              textColor = '#FEF3C7';
-              badgeBg = '#F59E0B';
-              badgeBorder = '#F59E0B';
-              badgeText = '#000000';
-            }
+            // Estilo según requerimiento:
+            // Relleno neutro oscuro (#161A22), bordes precisos (#2D3748), esquinas rx="6"
+            // Hover/active: iluminación en Oro Solar (#F59E0B)
+            const roomFill = isActive || isHovered ? '#1E232F' : '#161A22';
+            const roomStroke = isActive || isHovered ? '#F59E0B' : room.isMonumental ? '#4A5568' : '#2D3748';
+            const strokeWidth = isActive || isHovered ? 2 : room.isMonumental ? 1.5 : 1.2;
 
             return (
               <g
                 key={room.id}
                 onClick={() => handleRoomClick(room)}
-                onMouseEnter={() => setHoveredRoom(room)}
-                onMouseLeave={() => setHoveredRoom(null)}
-                className="cursor-pointer transition-all duration-200"
-                filter={active || isHovered ? 'url(#solarGlow)' : 'url(#roomShadow)'}
+                onMouseEnter={() => setHoveredRoomId(room.id)}
+                onMouseLeave={() => setHoveredRoomId(null)}
+                className="cursor-pointer transition-all duration-150"
+                role="button"
+                tabIndex={0}
+                aria-label={`${room.name} (${room.sub})`}
               >
-                {/* Rectángulo arquitectónico con esquinas biseladas rx="6" */}
+                {/* Rectángulo Arquitectónico de la Sala */}
                 <rect
                   x={room.x}
                   y={room.y}
                   width={room.w}
                   height={room.h}
                   rx={room.rx || 6}
-                  fill={fillColor}
-                  stroke={strokeColor}
+                  fill={roomFill}
+                  stroke={roomStroke}
                   strokeWidth={strokeWidth}
-                  className="transition-colors duration-150"
+                  filter={isActive || isHovered ? 'url(#solarGlow)' : 'url(#softCardShadow)'}
                 />
 
-                {/* Badge circular fino con el número oficial */}
-                <circle
-                  cx={room.x + 22}
-                  cy={room.y + 22}
-                  r="12"
-                  fill={badgeBg}
-                  stroke={badgeBorder}
-                  strokeWidth="1"
-                />
-                <text
-                  x={room.x + 22}
-                  y={room.y + 26}
-                  textAnchor="middle"
-                  fill={badgeText}
-                  fontSize="11"
-                  fontWeight="bold"
-                  fontFamily="sans-serif"
-                >
-                  {room.numStr}
-                </text>
-
-                {/* Nombre de la sala en tipografía nítida */}
-                <text
-                  x={room.x + 42}
-                  y={room.y + 25}
-                  fill={textColor}
-                  fontSize={room.wing === 'cabecera' ? 13 : 11.5}
-                  fontWeight="bold"
-                  fontFamily="sans-serif"
-                >
-                  {room.shortName.replace(/^\d+\.\s*/, '')}
-                </text>
-
-                {/* Conteo discreto de piezas */}
-                <text
-                  x={room.x + room.w - 12}
-                  y={room.y + 23}
-                  textAnchor="end"
-                  fill="#64748B"
-                  fontSize="9.5"
-                  fontWeight="600"
-                  fontFamily="sans-serif"
-                >
-                  {piecesCount} {piecesCount === 1 ? 'obra' : 'obras'}
-                </text>
-
-                {/* Subtítulo / Obras icónicas */}
-                <text
-                  x={room.x + 14}
-                  y={room.y + (room.h > 80 ? 46 : 42)}
-                  fill={active || isHovered ? '#FDE68A' : '#94A3B8'}
-                  fontSize={room.h > 85 ? 10 : 9}
-                  fontWeight="400"
-                  fontFamily="sans-serif"
-                >
-                  {room.sub}
-                </text>
-
-                {/* Línea decorativa inferior sutil en sala activa */}
-                {(active || isHovered) && (
-                  <line
-                    x1={room.x + 10}
-                    y1={room.y + room.h - 4}
-                    x2={room.x + room.w - 10}
-                    y2={room.y + room.h - 4}
+                {/* Insignia Monumental para Sala Mexica (06) o Mayas (17) */}
+                {room.isMonumental && (
+                  <path
+                    d={`M ${room.x + 8} ${room.y + 6} L ${room.x + room.w - 8} ${room.y + 6}`}
                     stroke="#F59E0B"
                     strokeWidth="2"
-                    strokeLinecap="round"
+                    strokeDasharray="8 4"
+                    opacity="0.8"
                   />
+                )}
+
+                {/* Pastilla Circular Discreta con Número de Sala */}
+                <g transform={`translate(${room.x + 18}, ${room.y + (room.h > 70 ? 24 : room.h / 2)})`}>
+                  <circle
+                    cx="0"
+                    cy="0"
+                    r={room.numStr.length > 2 ? 14 : 11}
+                    fill={isActive || isHovered ? '#F59E0B' : '#232936'}
+                    stroke={isActive || isHovered ? '#FFFFFF' : '#3B4252'}
+                    strokeWidth="1"
+                  />
+                  <text
+                    x="0"
+                    y="3.5"
+                    textAnchor="middle"
+                    fill={isActive || isHovered ? '#000000' : '#E5E7EB'}
+                    fontSize={room.numStr.length > 2 ? '8' : '10'}
+                    fontWeight="800"
+                    fontFamily="monospace"
+                  >
+                    {room.numStr}
+                  </text>
+                </g>
+
+                {/* Título y Subtítulo de la Sala */}
+                {room.isMonumental ? (
+                  // Disposición monumental para cabecera central
+                  <g>
+                    <text
+                      x={room.x + 42}
+                      y={room.y + 30}
+                      fill={isActive || isHovered ? '#F59E0B' : '#FFFFFF'}
+                      fontSize="14"
+                      fontWeight="800"
+                      letterSpacing="0.5"
+                    >
+                      {room.shortName}
+                    </text>
+                    <text
+                      x={room.x + 42}
+                      y={room.y + 48}
+                      fill="#9CA3AF"
+                      fontSize="10"
+                      fontWeight="500"
+                    >
+                      {room.sub}
+                    </text>
+                    {/* Badge de obras */}
+                    <g transform={`translate(${room.x + room.w - 75}, ${room.y + 22})`}>
+                      <rect x="0" y="0" width="65" height="18" rx="9" fill="#0B0E14" stroke="#F59E0B" strokeWidth="0.8" />
+                      <text x="32.5" y="12.5" textAnchor="middle" fill="#F59E0B" fontSize="9" fontWeight="700">
+                        ⭐ Monumental
+                      </text>
+                    </g>
+                  </g>
+                ) : (
+                  // Disposición estándar en alas Poniente y Oriente
+                  <g>
+                    <text
+                      x={room.x + 36}
+                      y={room.y + (room.h > 65 ? 26 : 24)}
+                      fill={isActive || isHovered ? '#F59E0B' : '#F3F4F6'}
+                      fontSize={room.h > 65 ? '11.5' : '11'}
+                      fontWeight="700"
+                    >
+                      {room.shortName}
+                    </text>
+                    <text
+                      x={room.x + 36}
+                      y={room.y + (room.h > 65 ? 42 : 40)}
+                      fill="#8F96A3"
+                      fontSize="9"
+                      fontWeight="400"
+                    >
+                      {room.sub.length > 30 ? room.sub.slice(0, 28) + '...' : room.sub}
+                    </text>
+                    {/* Micro badge de obras */}
+                    <text
+                      x={room.x + room.w - 12}
+                      y={room.y + 16}
+                      textAnchor="end"
+                      fill="#64748B"
+                      fontSize="8"
+                      fontFamily="monospace"
+                    >
+                      {piecesCount} obras
+                    </text>
+                  </g>
                 )}
               </g>
             );
           })}
 
-          {/* ================= BRÚJULA ARQUITECTÓNICA (Esquina Inferior Izquierda) ================= */}
-          <g transform="translate(45, 710)">
-            <circle cx="0" cy="0" r="18" fill="#141720" stroke="#2E3440" strokeWidth="1" />
-            {/* Aguja Norte (Apuntando hacia Sala Mexica / Cabecera) */}
-            <polygon points="0,-14 4,0 0,4" fill="#F59E0B" />
-            <polygon points="0,14 4,0 0,-4" fill="#334155" />
-            <polygon points="0,-14 -4,0 0,4" fill="#D97706" />
-            <polygon points="0,14 -4,0 0,-4" fill="#1E293B" />
-            <text x="0" y="-18" textAnchor="middle" fill="#F59E0B" fontSize="9" fontWeight="bold">
+          {/* 5. PARADAS DE RECORRIDO (Pins flotantes dorados si hay ruta activa) */}
+          {visibleStops.map((stop) => (
+            <g
+              key={stop.poi_id || stop.id || stop.index}
+              onClick={(e) => {
+                e.stopPropagation();
+                if (onSelectStop) onSelectStop(stop.index);
+              }}
+              className="cursor-pointer transition-transform duration-200 hover:scale-125"
+            >
+              <circle
+                cx={stop.cx}
+                cy={stop.cy}
+                r={stop.isCurrent ? 14 : 10}
+                fill={stop.isCurrent ? '#F59E0B' : '#141419'}
+                stroke={stop.isCurrent ? '#FFFFFF' : '#F59E0B'}
+                strokeWidth={stop.isCurrent ? 2.5 : 1.8}
+                filter="url(#solarGlow)"
+              />
+              <text
+                x={stop.cx}
+                y={stop.cy + 3.5}
+                textAnchor="middle"
+                fill={stop.isCurrent ? '#000000' : '#F59E0B'}
+                fontSize={stop.isCurrent ? '10' : '8.5'}
+                fontWeight="900"
+                fontFamily="monospace"
+              >
+                {stop.index + 1}
+              </text>
+            </g>
+          ))}
+
+          {/* 6. BRÚJULA ARQUITECTÓNICA VECTORIAL (Discreta, esquina superior derecha: 840, 50) */}
+          <g transform="translate(845, 55)">
+            <circle cx="0" cy="0" r="16" fill="#141822" stroke="#2D3748" strokeWidth="1" />
+            {/* Flecha Norte */}
+            <polygon points="0,-12 4,0 -4,0" fill="#EF4444" />
+            {/* Flecha Sur */}
+            <polygon points="0,12 4,0 -4,0" fill="#6B7280" />
+            <text x="0" y="-14" textAnchor="middle" fill="#EF4444" fontSize="8" fontWeight="800">
               N
+            </text>
+            <text x="0" y="21" textAnchor="middle" fill="#9CA3AF" fontSize="7" fontWeight="600">
+              S
             </text>
           </g>
 
-          {/* ================= LEYENDA ARQUITECTÓNICA (Esquina Inferior Derecha) ================= */}
-          <g transform="translate(955, 715)">
-            <text x="0" y="-8" textAnchor="end" fill="#64748B" fontSize="9" fontWeight="bold" letterSpacing="0.5">
-              ARQ. PEDRO RAMÍREZ VÁZQUEZ (1964)
+          {/* 7. LEYENDA TÉCNICA DISCRETA (Esquina inferior izquierda: 35, 620) */}
+          <g transform="translate(35, 625)">
+            <text fill="#64748B" fontSize="9" fontFamily="sans-serif">
+              🏛️ Museo Nacional de Antropología • Distribución en Herradura (U)
             </text>
-            <text x="0" y="6" textAnchor="end" fill="#475569" fontSize="8" fontWeight="500">
-              Escala Arquitectónica 1:500 • Formato Herradura U
+          </g>
+
+          {/* 8. LEYENDA DEL PISO ACTIVO (Esquina inferior derecha) */}
+          <g transform="translate(865, 625)">
+            <text textAnchor="end" fill="#F59E0B" fontSize="9" fontWeight="700" fontFamily="sans-serif">
+              {selectedFloor === 'PB' ? 'Nivel PB • Arqueología (12 Salas)' : 'Nivel PA • Etnografía (11 Salas)'}
             </text>
           </g>
         </svg>
-
-        {/* TARJETA FLOTANTE PRO (TOOLTIP AL PASAR EL DEDO / CURSOR) */}
-        {hoveredRoom && (
-          <div className="absolute top-3 left-1/2 -translate-x-1/2 z-20 pointer-events-none px-4 py-2.5 rounded-xl bg-[#141419]/95 backdrop-blur-md border border-[#F59E0B]/60 shadow-xl text-center max-w-xs animate-fadeIn">
-            <span className="text-[10px] font-black uppercase tracking-widest text-[#F59E0B] block">
-              SALA {hoveredRoom.numStr} • {hoveredRoom.piso === 'PB' ? 'PLANTA BAJA' : 'PLANTA ALTA'}
-            </span>
-            <p className="text-xs font-bold text-white leading-tight mt-0.5">{hoveredRoom.name}</p>
-            <span className="text-[10px] text-stone-400 mt-1 inline-block">
-              {getRoomPiecesCount(hoveredRoom)} obras maestras · Toca para abrir sala
-            </span>
-          </div>
-        )}
-
-        {/* PIE DE MAPA CON LEYENDA DISCRETA */}
-        <div className="absolute bottom-2 left-3 right-3 px-3 py-1.5 rounded-xl flex items-center justify-between text-[11px] backdrop-blur-md bg-black/60 border border-white/10 text-stone-300">
-          <div className="flex items-center gap-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#F59E0B] shadow-xs" />
-            <span className="font-semibold text-white">
-              {selectedFloor === 'PB'
-                ? 'Planta Baja · 12 Salas de Arqueología'
-                : 'Planta Alta · 11 Salas de Etnografía'}
-            </span>
-          </div>
-          <span className="text-[10px] text-[#F59E0B] font-bold">Toca cualquier sala para explorar</span>
-        </div>
       </div>
     </div>
   );
