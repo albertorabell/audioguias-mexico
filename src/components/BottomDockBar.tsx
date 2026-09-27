@@ -24,9 +24,9 @@ export const BottomDockBar: React.FC<BottomDockBarProps> = ({
     },
     {
       id: 'recorridos' as DockTab,
-      label: 'Recorridos',
+      label: 'Rutas',
       icon: Compass,
-      hint: 'Rutas temáticas',
+      hint: 'Asistente y rutas temáticas',
     },
     {
       id: 'mapa' as DockTab,

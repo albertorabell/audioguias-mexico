@@ -21,6 +21,7 @@ import { formatRouteDuration } from './utils/routeOptimizer';
 import { getAssetUrl, normalizePiece, findPiece } from './utils/urlHelper';
 import { BottomDockBar, DockTab } from './components/BottomDockBar';
 import { FloatingAudioPlayer } from './components/FloatingAudioPlayer';
+import { RoomView } from './components/RoomView';
 import { Radio, ArrowLeft } from 'lucide-react';
 
 interface SpontaneousDetour {
@@ -32,8 +33,8 @@ interface SpontaneousDetour {
 export default function App() {
   const { isSunMode } = useTheme();
 
-  // Navigation & View State: 'sites' -> 'overview' -> 'wizard' -> 'tour'
-  const [viewMode, setViewMode] = useState<'sites' | 'overview' | 'wizard' | 'tour'>('sites');
+  // Navigation & View State: 'sites' -> 'overview' -> 'room' -> 'wizard' -> 'tour'
+  const [viewMode, setViewMode] = useState<'sites' | 'overview' | 'room' | 'wizard' | 'tour'>('sites');
   const [sites, setSites] = useState<SiteSummary[]>([]);
   const [selectedSite, setSelectedSite] = useState<SiteSummary | null>(null);
   const [manifest, setManifest] = useState<SiteManifest | null>(null);
@@ -439,16 +440,16 @@ export default function App() {
     if (!room) return [];
     const sourcePieces = tourPieces.length > 0 ? tourPieces : [];
     const targetRoomId = (room.room_id || room.id || '').toLowerCase().trim();
-    const targetNum =
-      room.numero_oficial !== undefined && room.numero_oficial !== ''
-        ? String(room.numero_oficial).padStart(2, '0')
-        : room.room_id?.match(/\d+/)?.[0]?.padStart(2, '0') || '';
+    const num = parseInt(String(room.numero_oficial || room.room_id?.match(/\d+/)?.[0] || '0'), 10);
+    const numStr = String(num).padStart(2, '0');
+    const aliases = ((room as any).aliases || []).map((a: string) => a.toLowerCase());
 
     const matched = sourcePieces.filter((p) => {
       const pRoom = (p.room_id || (p as any).roomId || '').toLowerCase().trim();
       if (!pRoom) return false;
       if (pRoom === targetRoomId) return true;
-      if (targetNum && (pRoom.includes(`sala-${targetNum}`) || pRoom.includes(`-${targetNum}-`))) return true;
+      if (aliases.includes(pRoom)) return true;
+      if (numStr && (pRoom.includes(`sala-${numStr}`) || pRoom.includes(`-${numStr}-`))) return true;
       const cleanP = pRoom.replace(/[-_]/g, '');
       const cleanT = targetRoomId.replace(/[-_]/g, '');
       return cleanP.includes(cleanT) || cleanT.includes(cleanP);
@@ -457,7 +458,7 @@ export default function App() {
     return matched.sort((a, b) => (a.orden_sugerido || 999) - (b.orden_sugerido || 999));
   };
 
-  // Abrir vista/modal de sala desde lista o mapa
+  // Abrir vista dedicada de sala (SALA VIEW) desde lista o mapa
   const handleOpenRoomDetail = (roomOrId: Room | string) => {
     let targetRoom: Room | undefined;
     if (typeof roomOrId === 'string') {
@@ -467,6 +468,7 @@ export default function App() {
         (r) =>
           r.room_id.toLowerCase() === clean ||
           r.id?.toLowerCase() === clean ||
+          ((r as any).aliases && (r as any).aliases.includes(clean)) ||
           (numMatch && String(r.numero_oficial).padStart(2, '0') === numMatch.padStart(2, '0')) ||
           r.room_id.toLowerCase().includes(clean)
       );
@@ -488,7 +490,10 @@ export default function App() {
           r.room_id === targetRoom?.room_id ||
           (r.numero_oficial && String(r.numero_oficial) === String(targetRoom?.numero_oficial))
       );
-      setSelectedRoomForDetail(enriched ? { ...targetRoom, ...enriched } : targetRoom);
+      const finalRoom = enriched ? { ...targetRoom, ...enriched } : targetRoom;
+      setSelectedRoomForDetail(finalRoom);
+      setIsMapModalOpen(false);
+      setViewMode('room');
     }
   };
 
@@ -868,10 +873,11 @@ export default function App() {
             isLoading={isLoadingSites}
           />
         ) : viewMode === 'overview' && manifest ? (
-          /* ================= VIEW 2: PANTALLA DE BIENVENIDA DEL SITIO ================= */
+          /* ================= VIEW 2: PANTALLA PRINCIPAL: EXPLORADOR DE MUSEO ================= */
           <SiteOverview
             site={selectedSite}
             manifest={manifest}
+            allRooms={allRooms}
             onBack={handleBackToSites}
             onCustomizeRoute={() => {
               window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
@@ -882,6 +888,19 @@ export default function App() {
             onDirectStartRoute={handleStartRouteFromOverview}
             onSelectRoom={handleOpenRoomDetail}
             onOpenMapModal={() => setIsMapModalOpen(true)}
+            onOpenSearchModal={() => setIsSearchModalOpen(true)}
+          />
+        ) : viewMode === 'room' && selectedRoomForDetail ? (
+          /* ================= VIEW 2.B: PANTALLA DEDICADA A LA SALA (SALA VIEW) ================= */
+          <RoomView
+            room={selectedRoomForDetail}
+            pieces={getRoomPieces(selectedRoomForDetail)}
+            onBack={() => {
+              setSelectedRoomForDetail(null);
+              setViewMode('overview');
+            }}
+            onSelectPiece={(pieceId) => handleSelectPieceById(pieceId)}
+            onStartRoomTour={handleStartRoomTour}
           />
         ) : viewMode === 'wizard' && manifest ? (
           /* ================= VIEW 3: ASISTENTE DE RUTA PERSONALIZADA ================= */
@@ -1181,9 +1200,9 @@ export default function App() {
           onSelectPiece={handleSelectPieceById}
         />
 
-        {/* 6. Modal de Detalle de Sala y Recorrido Exclusivo */}
+        {/* 6. Modal de Detalle de Sala y Recorrido Exclusivo (cuando se abre desde mapa overlay o modal) */}
         <RoomDetailModal
-          isOpen={!!selectedRoomForDetail}
+          isOpen={!!selectedRoomForDetail && viewMode !== 'room'}
           onClose={() => setSelectedRoomForDetail(null)}
           room={selectedRoomForDetail}
           pieces={getRoomPieces(selectedRoomForDetail)}

@@ -235,6 +235,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
           <PieceImage
             filename={imageFilename}
             alt={titulo}
+            pieceTitle={titulo}
+            roomName={roomFormatted}
             onClick={() => setIsZoomOpen(true)}
             className="w-full h-full object-cover cursor-zoom-in"
           />
