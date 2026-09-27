@@ -43,13 +43,34 @@ class TTSPlayer {
   private onEndCallback: (() => void) | null = null;
   private listeners: Set<StateChangeListener> = new Set();
 
+  private cachedVoices: SpeechSynthesisVoice[] = [];
+
   private constructor() {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       this.synth = window.speechSynthesis;
+      const loadVoices = () => {
+        try {
+          const v = this.synth?.getVoices() || [];
+          if (v.length > 0) {
+            this.cachedVoices = v;
+          }
+        } catch {
+          // Ignorar
+        }
+      };
+
+      loadVoices();
       if (this.synth.onvoiceschanged !== undefined) {
         this.synth.onvoiceschanged = () => {
-          // Voces inicializadas
+          loadVoices();
         };
+      }
+      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+        try {
+          window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
+        } catch {
+          // Ignorar
+        }
       }
 
       if (typeof document !== 'undefined') {
@@ -71,9 +92,17 @@ class TTSPlayer {
 
   public getPreferredVoice(): SpeechSynthesisVoice | null {
     if (!this.synth) return null;
-    const voices = this.synth.getVoices();
+    const voices = (this.synth.getVoices() && this.synth.getVoices().length > 0)
+      ? this.synth.getVoices()
+      : this.cachedVoices;
     if (!voices || voices.length === 0) return null;
 
+    // 1. Inspeccionar activamente voces mexicanas: es-MX / es_MX
+    const spanishMxVoice =
+      voices.find(v => v.lang === 'es-MX' || v.lang === 'es_MX' || v.lang.toLowerCase() === 'es-mx') ||
+      voices.find(v => v.lang.toLowerCase().includes('es-mx'));
+
+    // 2. Voces neuronales preferidas en español
     const preferredNames = [
       'google español',
       'paulina',
@@ -84,24 +113,30 @@ class TTSPlayer {
       'diego',
       'carlos',
       'ángel',
-      'angel'
+      'angel',
+      'soledad',
+      'lupe'
     ];
 
-    for (const name of preferredNames) {
-      const found = voices.find(v => v.name.toLowerCase().includes(name));
-      if (found) return found;
-    }
+    const namedSpanishVoice = voices.find(v => {
+      const isSpanish = v.lang.toLowerCase().startsWith('es');
+      if (!isSpanish) return false;
+      const name = v.name.toLowerCase();
+      return preferredNames.some(p => name.includes(p));
+    });
 
-    const mxVoice = voices.find(v => v.lang.toLowerCase() === 'es-mx' || v.lang.toLowerCase().startsWith('es-mx'));
-    if (mxVoice) return mxVoice;
+    if (namedSpanishVoice) return namedSpanishVoice;
+    if (spanishMxVoice) return spanishMxVoice;
 
-    const usVoice = voices.find(v => v.lang.toLowerCase().includes('es-us') || v.lang.toLowerCase().includes('es-419'));
-    if (usVoice) return usVoice;
+    // 3. Respaldo a cualquier voz en español (es-US, es-419, es-ES, etc.)
+    const spanishVoice =
+      voices.find(v => v.lang.startsWith('es-') || v.lang.startsWith('es_')) ||
+      voices.find(v => v.lang.startsWith('es') || v.lang.toLowerCase().startsWith('es'));
 
-    const anyEsVoice = voices.find(v => v.lang.toLowerCase().startsWith('es'));
-    if (anyEsVoice) return anyEsVoice;
+    if (spanishVoice) return spanishVoice;
 
-    return voices[0] || null;
+    // Nunca retornar una voz extranjera (en inglés, etc.)
+    return null;
   }
 
   private async requestWakeLock() {
@@ -266,12 +301,15 @@ class TTSPlayer {
     const utterance = new SpeechSynthesisUtterance(cleanText);
     this.currentUtterance = utterance;
 
+    // Forzar estrictamente idioma en español para evitar acento extranjero en sistemas en inglés
+    utterance.lang = 'es-MX';
     utterance.pitch = 1.0;
     utterance.rate = 0.95 * this.playbackRate;
 
-    const voice = this.getPreferredVoice();
-    if (voice) {
-      utterance.voice = voice;
+    const spanishVoice = this.getPreferredVoice();
+    if (spanishVoice) {
+      utterance.voice = spanishVoice;
+      utterance.lang = spanishVoice.lang || 'es-MX';
     }
 
     utterance.onboundary = (event) => {

@@ -9,7 +9,6 @@ import {
   Landmark,
   Compass,
   History,
-  Eye,
   Sun,
   Navigation,
   Palette,
@@ -18,14 +17,10 @@ import {
   Paintbrush,
   Check,
   ChevronRight,
-  ListFilter,
-  Layers,
-  MapPin,
+  Play,
 } from 'lucide-react';
 import { SiteManifest, SiteRoute, SiteSummary, RouteStop } from '../types';
-import { useTheme } from '../utils/ThemeContext';
 import { generateOptimizedRoute } from '../utils/routeOptimizer';
-import { SafeImage } from './SafeImage';
 
 interface RouteWizardProps {
   site: SiteSummary;
@@ -47,23 +42,15 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
   onBack,
   onStartRoute,
 }) => {
-  const { isSunMode } = useTheme();
-
   // Reset de scroll al inicio absoluto de la página
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
     document.documentElement.scrollTop = 0;
     document.body.scrollTop = 0;
-    const mainContainer = document.querySelector('main') || document.getElementById('root');
-    if (mainContainer) mainContainer.scrollTop = 0;
-    const allElements = document.querySelectorAll('div');
-    allElements.forEach((el) => {
-      if (el.scrollTop > 0) el.scrollTop = 0;
-    });
   }, []);
 
   // Pregunta 1: Tiempo disponible
-  // Opciones: "30 min (Rápida)", "60 min (Estándar)", "90 min (Completa)", "Sin límite"
+  // Chips: 30 min, 60 min (1h), 120 min (2h), Sin límite
   const [timeMinutes, setTimeMinutes] = useState<number>(60);
 
   // Pregunta 2: Enfoque e intereses temáticos
@@ -80,13 +67,13 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
           key: 'mundo-maya',
           label: 'Mundo Maya',
           icon: <Sparkles className="w-4 h-4" />,
-          subtitle: 'Ajuar de jadeíta real, máscaras sagradas y estelas de la selva',
+          subtitle: 'Ajuar de jadeíta de Pakal, máscaras funerarias y estelas de la selva',
         },
         {
           key: 'arte-monumental',
           label: 'Arte Monumental y Escultórico',
           icon: <Award className="w-4 h-4" />,
-          subtitle: 'Cabezas olmecas, monolitos colosales y tallado en basalto',
+          subtitle: 'Cabezas olmecas colosales, monolitos sagrados y tallado en basalto',
         },
         {
           key: 'vida-cotidiana-tumbas',
@@ -118,7 +105,6 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
         },
       ];
     }
-    // Chapultepec
     return [
       {
         key: 'epoca-imperial',
@@ -143,7 +129,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
 
   const availableTags = getSiteTags();
 
-  // Default: select first 2-3 tags
+  // Selección por defecto de las primeras dos temáticas
   const [selectedTags, setSelectedTags] = useState<string[]>(
     availableTags.slice(0, 2).map((t) => t.key)
   );
@@ -151,14 +137,14 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
   // Pregunta 3: Estilo de visita
   const [pace, setPace] = useState<'highlights' | 'expert'>('highlights');
 
-  // Modal para ver rutas clásicas predeterminadas
+  // Modal / Acordeón para rutas clásicas predeterminadas
   const [showClassicRoutes, setShowClassicRoutes] = useState(false);
 
-  // Toggle interest
+  // Toggle interés
   const handleToggleTag = (tagKey: string) => {
     setSelectedTags((prev) => {
       if (prev.includes(tagKey)) {
-        if (prev.length <= 1) return prev; // Keep at least one tag
+        if (prev.length <= 1) return prev; // Mantener al menos una temática
         return prev.filter((k) => k !== tagKey);
       } else {
         return [...prev, tagKey];
@@ -166,7 +152,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
     });
   };
 
-  // Real-time calculation of projected route
+  // Cálculo en tiempo real de la ruta optimizada
   const projectedRoute = useMemo(() => {
     return generateOptimizedRoute(manifest, {
       timeLimitMinutes: timeMinutes,
@@ -175,7 +161,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
     });
   }, [manifest, timeMinutes, selectedTags, pace]);
 
-  // Unique rooms visited
+  // Número de salas únicas
   const uniqueRoomsCount = useMemo(() => {
     const rooms = new Set(projectedRoute.stops.map((s) => s.room_zone || s.room_id));
     return rooms.size;
@@ -186,89 +172,58 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
   };
 
   return (
-    <div
-      className={`min-h-screen flex flex-col transition-colors duration-200 ${
-        isSunMode ? 'bg-[#FAF8F5] text-[#111827]' : 'bg-stone-950 text-stone-100'
-      }`}
-    >
-      {/* Top Header Bar */}
-      <header
-        className={`sticky top-0 z-30 px-4 py-3 border-b flex items-center justify-between backdrop-blur-md transition-colors ${
-          isSunMode
-            ? 'bg-[#FAF8F5]/95 border-stone-300 shadow-sm'
-            : 'bg-stone-950/95 border-stone-800 shadow-md'
-        }`}
-      >
+    <div className="min-h-screen flex flex-col bg-[#0B0B0E] text-[#F3F4F6] transition-colors duration-200 select-none">
+      {/* Barra Superior Header */}
+      <header className="sticky top-0 z-30 px-4 py-3 border-b border-white/10 flex items-center justify-between backdrop-blur-xl bg-[#0B0B0E]/95 shadow-md">
         <button
           type="button"
           onClick={onBack}
-          className={`flex items-center gap-2 text-xs font-bold px-3 py-1.5 rounded-xl border transition-all active:scale-95 ${
-            isSunMode
-              ? 'bg-white border-stone-300 text-[#111827] hover:bg-stone-100'
-              : 'bg-stone-900 border-stone-800 text-stone-200 hover:bg-stone-800'
-          }`}
+          className="flex items-center gap-2 text-xs font-bold px-3 py-2 rounded-xl border border-white/10 bg-[#141419] text-[#F3F4F6] hover:bg-white/5 transition-all active:scale-95 cursor-pointer"
         >
-          <ArrowLeft className="w-4 h-4 text-amber-600" />
-          <span>Información del recinto</span>
+          <ArrowLeft className="w-4 h-4 text-[#F59E0B]" />
+          <span>Volver al explorador</span>
         </button>
 
-        <span
-          className={`text-[11px] font-black uppercase tracking-wider px-2.5 py-1 rounded-full border ${
-            isSunMode
-              ? 'bg-amber-100 text-amber-950 border-amber-300'
-              : 'bg-amber-950/60 text-amber-300 border-amber-800/60'
-          }`}
-        >
-          {site.short_name}
+        <span className="text-[11px] font-black uppercase tracking-wider px-3 py-1 rounded-full border border-[#F59E0B]/30 bg-[#F59E0B]/10 text-[#F59E0B]">
+          {site.short_name || 'MNA'}
         </span>
       </header>
 
-      {/* Main Content Form */}
+      {/* Contenido Principal del Asistente */}
       <main className="flex-1 max-w-3xl mx-auto w-full px-4 pt-5 pb-44 space-y-6">
-        {/* Header Title */}
+        {/* Título de Bienvenida */}
         <div>
-          <div className="flex items-center gap-1.5 text-xs font-bold text-amber-600 uppercase tracking-widest mb-1">
+          <div className="flex items-center gap-1.5 text-xs font-bold text-[#F59E0B] uppercase tracking-widest mb-1">
             <Compass className="w-4 h-4" />
-            <span>Curaduría Personalizada</span>
+            <span>Curaduría Inteligente</span>
           </div>
-          <h1 className="text-xl sm:text-2xl font-black tracking-tight text-neutral-900 dark:text-stone-100">
+          <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white">
             Diseña tu Recorrido en {site.short_name}
           </h1>
-          <p
-            className={`text-xs sm:text-sm mt-1 leading-relaxed ${
-              isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
-            }`}
-          >
-            Configura tu tiempo, salas predilectas y ritmo de visita. Nuestro algoritmo ordenará las paradas en una secuencia espacial continua.
+          <p className="text-xs sm:text-sm mt-1 text-[#9CA3AF] leading-relaxed">
+            Configura tu tiempo disponible e intereses. El sistema ordenará las obras en una secuencia fluida sala por sala.
           </p>
         </div>
 
-        {/* ================= PREGUNTA 1: TIEMPO DISPONIBLE ================= */}
-        <section
-          className={`p-4 sm:p-5 rounded-3xl border transition-all ${
-            isSunMode ? 'bg-white border-stone-200 shadow-sm' : 'bg-stone-900/50 border-stone-800'
-          }`}
-        >
+        {/* ================= PREGUNTA 1: TIEMPO DISPONIBLE (CHIPS TÁCTILES OSCUROS) ================= */}
+        <section className="p-4 sm:p-5 rounded-3xl border border-white/10 bg-[#141419] shadow-lg">
           <div className="flex items-center justify-between mb-3">
-            <h2 className="text-xs sm:text-sm font-black uppercase tracking-wider flex items-center gap-2 text-amber-500">
+            <h2 className="text-xs sm:text-sm font-black uppercase tracking-wider flex items-center gap-2 text-[#F59E0B]">
               <Clock className="w-4 h-4" />
               <span>1. ¿Cuánto tiempo tienes para tu visita?</span>
             </h2>
-            <span
-              className={`text-[11px] font-mono font-bold px-2 py-0.5 rounded-md ${
-                isSunMode ? 'bg-stone-100 text-stone-700' : 'bg-stone-800 text-stone-300'
-              }`}
-            >
-              {timeMinutes >= 900 ? 'Ilimitado' : `${timeMinutes} min`}
+            <span className="text-[11px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-[#0B0B0E] border border-white/10 text-[#F59E0B]">
+              {timeMinutes >= 900 ? 'Sin límite' : `${timeMinutes} min`}
             </span>
           </div>
 
+          {/* Chips táctiles oscuros con borde fino que se iluminan en ámbar/oro */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
             {[
-              { mins: 30, label: '30 min', badge: 'Rápida', desc: '8-10 piezas clave · 2 salas' },
-              { mins: 60, label: '60 min', badge: 'Estándar', desc: '15-18 piezas · 3-4 salas' },
-              { mins: 90, label: '90 min', badge: 'Completa', desc: '25-35 piezas · Recorrido amplio' },
-              { mins: 999, label: 'Sin límite', badge: 'Sin prisa', desc: 'Recorrido exhaustivo total' },
+              { mins: 30, label: '30 min', badge: 'Rápida', desc: '8-10 obras cumbre · 2 salas' },
+              { mins: 60, label: '1 hora', badge: 'Estándar', desc: '15-18 obras maestras · 3-4 salas' },
+              { mins: 120, label: '2 horas', badge: 'Completa', desc: '25-35 obras arqueológicas' },
+              { mins: 999, label: 'Sin límite', badge: 'Sin prisa', desc: 'Recorrido exhaustivo por el recinto' },
             ].map((opt) => {
               const isSelected = timeMinutes === opt.mins;
               return (
@@ -276,41 +231,27 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                   key={opt.mins}
                   type="button"
                   onClick={() => setTimeMinutes(opt.mins)}
-                  className={`p-3 rounded-2xl border text-left transition-all active:scale-[0.98] ${
+                  className={`p-3.5 rounded-2xl border text-left transition-all duration-200 active:scale-[0.98] cursor-pointer ${
                     isSelected
-                      ? isSunMode
-                        ? 'bg-amber-50 border-amber-600 text-amber-950 ring-2 ring-amber-500 shadow-sm'
-                        : 'bg-amber-950/40 border-amber-500 text-amber-100 ring-2 ring-amber-500 shadow-sm'
-                      : isSunMode
-                      ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-[#111827]'
-                      : 'bg-stone-950/60 border-stone-800 hover:border-stone-700 text-stone-300'
+                      ? 'bg-[#F59E0B]/15 border-[#F59E0B] text-white ring-1 ring-[#F59E0B] shadow-lg shadow-[#F59E0B]/15'
+                      : 'bg-[#0B0B0E] border-white/10 hover:border-white/20 text-[#9CA3AF] hover:text-[#F3F4F6]'
                   }`}
                 >
-                  <div className="flex items-center justify-between mb-1">
-                    <span className="font-black text-sm">{opt.label}</span>
+                  <div className="flex items-center justify-between mb-1.5">
+                    <span className={`font-black text-sm ${isSelected ? 'text-[#F59E0B]' : 'text-white'}`}>
+                      {opt.label}
+                    </span>
                     <span
                       className={`text-[9px] font-black uppercase px-1.5 py-0.5 rounded ${
                         isSelected
-                          ? 'bg-amber-500 text-black'
-                          : isSunMode
-                          ? 'bg-stone-200 text-[#111827] font-bold'
-                          : 'bg-stone-800 text-stone-400'
+                          ? 'bg-[#F59E0B] text-black font-extrabold'
+                          : 'bg-white/5 border border-white/10 text-[#9CA3AF]'
                       }`}
                     >
                       {opt.badge}
                     </span>
                   </div>
-                  <p
-                    className={`text-[10px] leading-snug line-clamp-2 ${
-                      isSelected
-                        ? isSunMode
-                          ? 'text-amber-900 font-semibold'
-                          : 'text-amber-200/90 font-medium'
-                        : isSunMode
-                        ? 'text-[#4B5563] font-medium'
-                        : 'text-stone-400'
-                    }`}
-                  >
+                  <p className="text-[10px] leading-snug line-clamp-2 text-[#9CA3AF]">
                     {opt.desc}
                   </p>
                 </button>
@@ -320,22 +261,14 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
         </section>
 
         {/* ================= PREGUNTA 2: ENFOQUE E INTERESES TEMÁTICOS ================= */}
-        <section
-          className={`p-4 sm:p-5 rounded-3xl border transition-all ${
-            isSunMode ? 'bg-white border-stone-200 shadow-sm' : 'bg-stone-900/50 border-stone-800'
-          }`}
-        >
+        <section className="p-4 sm:p-5 rounded-3xl border border-white/10 bg-[#141419] shadow-lg">
           <div className="flex items-center justify-between mb-3">
-            <h2 className="text-xs sm:text-sm font-black uppercase tracking-wider flex items-center gap-2 text-amber-500">
+            <h2 className="text-xs sm:text-sm font-black uppercase tracking-wider flex items-center gap-2 text-[#F59E0B]">
               <Compass className="w-4 h-4" />
               <span>2. Enfoque e intereses temáticos</span>
             </h2>
-            <span
-              className={`text-[10px] font-bold uppercase tracking-wider ${
-                isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
-              }`}
-            >
-              Multiselección ({selectedTags.length})
+            <span className="text-[10px] font-mono text-[#F59E0B] px-2 py-0.5 rounded-full bg-white/5 border border-white/10">
+              {selectedTags.length} seleccionados
             </span>
           </div>
 
@@ -347,41 +280,25 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                   key={tag.key}
                   type="button"
                   onClick={() => handleToggleTag(tag.key)}
-                  className={`w-full flex items-center justify-between p-3 sm:p-3.5 rounded-2xl border transition-all active:scale-[0.99] text-left ${
+                  className={`w-full flex items-center justify-between p-3.5 rounded-2xl border transition-all duration-200 active:scale-[0.99] text-left cursor-pointer ${
                     isChecked
-                      ? isSunMode
-                        ? 'bg-amber-50/90 border-amber-600 text-amber-950 ring-1 ring-amber-500'
-                        : 'bg-amber-950/35 border-amber-500 text-amber-100 ring-1 ring-amber-500'
-                      : isSunMode
-                      ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-[#111827]'
-                      : 'bg-stone-950/60 border-stone-800 hover:border-stone-700 text-stone-300'
+                      ? 'bg-[#F59E0B]/15 border-[#F59E0B] text-white ring-1 ring-[#F59E0B]'
+                      : 'bg-[#0B0B0E] border-white/10 hover:border-white/20 text-[#9CA3AF] hover:text-[#F3F4F6]'
                   }`}
                 >
                   <div className="flex items-start gap-3 min-w-0 pr-3">
                     <div
                       className={`p-2 rounded-xl shrink-0 mt-0.5 ${
-                        isChecked
-                          ? 'bg-amber-500 text-black'
-                          : isSunMode
-                          ? 'bg-stone-200 text-[#111827]'
-                          : 'bg-stone-800 text-stone-400'
+                        isChecked ? 'bg-[#F59E0B] text-black' : 'bg-white/5 text-[#9CA3AF] border border-white/10'
                       }`}
                     >
                       {tag.icon}
                     </div>
                     <div className="min-w-0">
-                      <span className="font-extrabold text-xs sm:text-sm block">{tag.label}</span>
-                      <span
-                        className={`text-[11px] block mt-0.5 line-clamp-1 ${
-                          isChecked
-                            ? isSunMode
-                              ? 'text-amber-900 font-semibold'
-                              : 'text-amber-200/80 font-medium'
-                            : isSunMode
-                            ? 'text-[#4B5563] font-medium'
-                            : 'text-stone-400'
-                        }`}
-                      >
+                      <span className={`font-bold text-xs sm:text-sm block ${isChecked ? 'text-white' : 'text-stone-300'}`}>
+                        {tag.label}
+                      </span>
+                      <span className="text-[11px] block mt-0.5 line-clamp-1 text-[#9CA3AF]">
                         {tag.subtitle}
                       </span>
                     </div>
@@ -390,10 +307,8 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                   <div
                     className={`w-5 h-5 rounded-lg shrink-0 flex items-center justify-center border transition-all ${
                       isChecked
-                        ? 'bg-amber-500 border-amber-500 text-black'
-                        : isSunMode
-                        ? 'border-stone-300 bg-white'
-                        : 'border-stone-700 bg-stone-900'
+                        ? 'bg-[#F59E0B] border-[#F59E0B] text-black'
+                        : 'border-white/20 bg-[#0B0B0E]'
                     }`}
                   >
                     {isChecked && <Check className="w-3.5 h-3.5 stroke-[3]" />}
@@ -405,13 +320,9 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
         </section>
 
         {/* ================= PREGUNTA 3: ESTILO DE VISITA ================= */}
-        <section
-          className={`p-4 sm:p-5 rounded-3xl border transition-all ${
-            isSunMode ? 'bg-white border-stone-200 shadow-sm' : 'bg-stone-900/50 border-stone-800'
-          }`}
-        >
+        <section className="p-4 sm:p-5 rounded-3xl border border-white/10 bg-[#141419] shadow-lg">
           <div className="flex items-center justify-between mb-3">
-            <h2 className="text-xs sm:text-sm font-black uppercase tracking-wider flex items-center gap-2 text-amber-500">
+            <h2 className="text-xs sm:text-sm font-black uppercase tracking-wider flex items-center gap-2 text-[#F59E0B]">
               <Zap className="w-4 h-4" />
               <span>3. Estilo y ritmo de visita</span>
             </h2>
@@ -421,140 +332,115 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
             <button
               type="button"
               onClick={() => setPace('highlights')}
-              className={`p-3.5 rounded-2xl border text-left transition-all active:scale-[0.98] ${
+              className={`p-3.5 rounded-2xl border text-left transition-all duration-200 active:scale-[0.98] cursor-pointer ${
                 pace === 'highlights'
-                  ? isSunMode
-                    ? 'bg-amber-50 border-amber-600 text-amber-950 ring-2 ring-amber-500 shadow-sm'
-                    : 'bg-amber-950/40 border-amber-500 text-amber-100 ring-2 ring-amber-500 shadow-sm'
-                  : isSunMode
-                  ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-[#111827]'
-                  : 'bg-stone-950/60 border-stone-800 hover:border-stone-700 text-stone-300'
+                  ? 'bg-[#F59E0B]/15 border-[#F59E0B] text-white ring-1 ring-[#F59E0B]'
+                  : 'bg-[#0B0B0E] border-white/10 hover:border-white/20 text-[#9CA3AF] hover:text-[#F3F4F6]'
               }`}
             >
               <div className="flex items-center gap-2 mb-1">
-                <Award className="w-4 h-4 text-amber-500" />
-                <span className="font-black text-xs sm:text-sm">
-                  Directo a obras maestras (Top Highlights)
+                <Award className="w-4 h-4 text-[#F59E0B]" />
+                <span className="font-bold text-xs sm:text-sm text-white">
+                  Directo a obras maestras (Highlights)
                 </span>
               </div>
-              <p
-                className={`text-[11px] leading-relaxed ${
-                  pace === 'highlights'
-                    ? isSunMode
-                      ? 'text-amber-900 font-semibold'
-                      : 'text-amber-200 font-medium'
-                    : isSunMode
-                    ? 'text-[#4B5563] font-medium'
-                    : 'text-stone-400'
-                }`}
-              >
-                Foco en las piezas cumbre e iconografía imprescindible para optimizar al máximo cada minuto.
+              <p className="text-[11px] text-[#9CA3AF] leading-relaxed">
+                Foco en las piezas cumbre e iconografía imprescindible para optimizar cada minuto.
               </p>
             </button>
 
             <button
               type="button"
               onClick={() => setPace('expert')}
-              className={`p-3.5 rounded-2xl border text-left transition-all active:scale-[0.98] ${
+              className={`p-3.5 rounded-2xl border text-left transition-all duration-200 active:scale-[0.98] cursor-pointer ${
                 pace === 'expert'
-                  ? isSunMode
-                    ? 'bg-amber-50 border-amber-600 text-amber-950 ring-2 ring-amber-500 shadow-sm'
-                    : 'bg-amber-950/40 border-amber-500 text-amber-100 ring-2 ring-amber-500 shadow-sm'
-                  : isSunMode
-                  ? 'bg-stone-50 border-stone-200 hover:border-stone-300 text-[#111827]'
-                  : 'bg-stone-950/60 border-stone-800 hover:border-stone-700 text-stone-300'
+                  ? 'bg-[#F59E0B]/15 border-[#F59E0B] text-white ring-1 ring-[#F59E0B]'
+                  : 'bg-[#0B0B0E] border-white/10 hover:border-white/20 text-[#9CA3AF] hover:text-[#F3F4F6]'
               }`}
             >
               <div className="flex items-center gap-2 mb-1">
-                <BookOpen className="w-4 h-4 text-amber-500" />
-                <span className="font-black text-xs sm:text-sm">
-                  Paseo exhaustivo de sala por sala
+                <BookOpen className="w-4 h-4 text-[#F59E0B]" />
+                <span className="font-bold text-xs sm:text-sm text-white">
+                  Paseo exhaustivo sala por sala
                 </span>
               </div>
-              <p
-                className={`text-[11px] leading-relaxed ${
-                  pace === 'expert'
-                    ? isSunMode
-                      ? 'text-amber-900 font-semibold'
-                      : 'text-amber-200 font-medium'
-                    : isSunMode
-                    ? 'text-[#4B5563] font-medium'
-                    : 'text-stone-400'
-                }`}
-              >
-                Inmersión profunda, detalles arqueológicos, mitos, piezas secundarias y lectura pausada.
+              <p className="text-[11px] text-[#9CA3AF] leading-relaxed">
+                Inmersión profunda, detalles arqueológicos, mitos, contexto y lectura pausada.
               </p>
             </button>
           </div>
         </section>
 
-        {/* ================= PROYECCIÓN EN TIEMPO REAL ================= */}
-        <section
-          className={`p-4 sm:p-5 rounded-3xl border shadow-md transition-all ${
-            isSunMode
-              ? 'bg-amber-50/80 border-amber-300 text-amber-950'
-              : 'bg-gradient-to-br from-stone-900 to-amber-950/30 border-amber-500/40 text-stone-100'
-          }`}
-        >
+        {/* ================= PROYECCIÓN EN TIEMPO REAL & BOTÓN CTA PRINCIPAL ================= */}
+        <section className="p-4 sm:p-5 rounded-3xl border border-white/10 bg-[#141419] shadow-xl">
           <div className="flex items-center justify-between mb-2">
-            <span className="text-[10px] font-black uppercase tracking-widest text-amber-600 dark:text-amber-400 flex items-center gap-1.5">
+            <span className="text-[10px] font-black uppercase tracking-widest text-[#F59E0B] flex items-center gap-1.5">
               <Sparkles className="w-3.5 h-3.5" />
-              Proyección Dinámica en Tiempo Real
+              Resumen de Recorrido Personalizado
             </span>
-            <span className="text-xs font-mono font-extrabold text-amber-600 dark:text-amber-400">
-              {projectedRoute.duration}
+            <span className="text-xs font-mono font-black text-[#F59E0B] px-2.5 py-0.5 rounded-full bg-[#F59E0B]/10 border border-[#F59E0B]/30">
+              ~{projectedRoute.duration}
             </span>
           </div>
 
-          <div className="text-sm sm:text-base font-black tracking-tight mb-3">
+          <div className="text-sm sm:text-base font-black tracking-tight text-white mb-3">
             Ruta estimada: ~{uniqueRoomsCount} {uniqueRoomsCount === 1 ? 'sala' : 'salas'} •{' '}
-            {projectedRoute.stops.length} piezas clave • ~{projectedRoute.duration} de recorrido
+            {projectedRoute.stops.length} piezas clave • ~{projectedRoute.duration}
           </div>
 
           {/* Secuencia sugerida de paradas */}
-          <div className="space-y-1.5 pt-2 border-t border-amber-300/40 dark:border-amber-500/20">
-            <span className="text-[10px] font-bold uppercase tracking-wider opacity-80 block mb-1">
-              Secuencia sugerida de paradas ({projectedRoute.stops.length}):
+          <div className="space-y-1.5 pt-2 border-t border-white/10">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-[#9CA3AF] block mb-2">
+              Secuencia de paradas ({projectedRoute.stops.length} obras):
             </span>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-60 overflow-y-auto pr-1 scrollbar-none">
               {projectedRoute.stops.map((stop: RouteStop, idx: number) => (
                 <div
-                  key={stop.poi_id}
-                  className={`p-2.5 rounded-xl border flex items-center gap-2.5 text-xs ${
-                    isSunMode
-                      ? 'bg-white/95 border-amber-200 text-[#111827]'
-                      : 'bg-stone-950/80 border-stone-800 text-stone-200'
-                  }`}
+                  key={stop.poi_id || idx}
+                  className="p-2.5 rounded-xl border border-white/10 bg-[#0B0B0E] flex items-center gap-2.5 text-xs text-[#F3F4F6]"
                 >
-                  <span className="w-5 h-5 rounded-full bg-amber-500 text-black font-black text-[10px] flex items-center justify-center shrink-0">
+                  <span className="w-5 h-5 rounded-full bg-[#F59E0B] text-black font-black text-[10px] flex items-center justify-center shrink-0">
                     {idx + 1}
                   </span>
                   <div className="min-w-0 flex-1">
-                    <span className="font-bold block truncate">{stop.title}</span>
-                    <span className="text-[10px] text-[#4B5563] dark:text-stone-400 block truncate">{stop.room_zone}</span>
+                    <span className="font-bold block truncate text-white">{stop.title}</span>
+                    <span className="text-[10px] text-[#9CA3AF] block truncate">
+                      {stop.room_zone || 'Sala Mexica'}
+                    </span>
                   </div>
-                  <span className="text-[10px] font-mono text-[#4B5563] dark:text-stone-300 shrink-0">
-                    ~1.5 min
+                  <span className="text-[10px] font-mono text-[#F59E0B] shrink-0">
+                    ~2 min
                   </span>
                 </div>
               ))}
             </div>
           </div>
+
+          {/* ================= BOTÓN CTA PRINCIPAL EN EL RESUMEN ================= */}
+          <div className="pt-4 mt-4 border-t border-white/10">
+            <button
+              id="btn-start-route-summary"
+              type="button"
+              onClick={handleConfirmStart}
+              className="w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-3.5 px-6 rounded-2xl shadow-lg shadow-amber-500/25 active:scale-[0.98] transition-all flex items-center justify-center gap-2 text-sm sm:text-base cursor-pointer"
+            >
+              <Play className="w-4 h-4 fill-current" />
+              <span>Iniciar Recorrido ({projectedRoute.stops.length} paradas)</span>
+            </button>
+          </div>
         </section>
 
-        {/* RUTAS CLÁSICAS DISCRETAS */}
+        {/* CATÁLOGO DE RUTAS CLÁSICAS PREDEFINIDAS */}
         <div className="text-center pt-2">
           <button
             type="button"
             onClick={() => setShowClassicRoutes(!showClassicRoutes)}
-            className={`text-xs font-semibold underline underline-offset-4 transition-colors ${
-              isSunMode ? 'text-[#4B5563] hover:text-[#111827]' : 'text-stone-400 hover:text-stone-200'
-            }`}
+            className="text-xs font-semibold text-[#9CA3AF] hover:text-white underline underline-offset-4 transition-colors cursor-pointer"
           >
             {showClassicRoutes
-              ? 'Ocultar catálogo de rutas clásicas'
-              : '¿Prefieres una ruta clásica predefinida del recinto?'}
+              ? 'Ocultar catálogo de rutas temáticas'
+              : '¿Prefieres una ruta predefinida del museo?'}
           </button>
 
           {showClassicRoutes && (
@@ -564,28 +450,20 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                   key={route.id}
                   type="button"
                   onClick={() => onStartRoute(route)}
-                  className={`w-full p-3.5 rounded-2xl border flex items-center justify-between transition-all active:scale-[0.98] ${
-                    isSunMode
-                      ? 'bg-white border-stone-300 hover:border-amber-500'
-                      : 'bg-stone-900 border-stone-800 hover:border-amber-500'
-                  }`}
+                  className="w-full p-3.5 rounded-2xl border border-white/10 bg-[#141419] hover:border-[#F59E0B]/50 hover:bg-[#1A1A22] flex items-center justify-between transition-all active:scale-[0.98] cursor-pointer text-left"
                 >
                   <div>
                     <div className="flex items-center gap-2">
-                      <span className="text-xs font-black text-[#111827] dark:text-stone-100">{route.name}</span>
-                      <span className="text-[10px] font-bold text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded">
+                      <span className="text-xs font-bold text-white">{route.name}</span>
+                      <span className="text-[10px] font-bold text-[#F59E0B] bg-[#F59E0B]/10 px-2 py-0.5 rounded border border-[#F59E0B]/30">
                         {route.duration}
                       </span>
                     </div>
-                    <p
-                      className={`text-[11px] mt-0.5 line-clamp-1 ${
-                        isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
-                      }`}
-                    >
+                    <p className="text-[11px] text-[#9CA3AF] mt-0.5 line-clamp-1">
                       {route.description}
                     </p>
                   </div>
-                  <ChevronRight className="w-4 h-4 text-amber-500 shrink-0" />
+                  <ChevronRight className="w-4 h-4 text-[#F59E0B] shrink-0" />
                 </button>
               ))}
             </div>
@@ -593,25 +471,22 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
         </div>
       </main>
 
-      {/* Fixed Bottom Confirmation Dock */}
-      <footer
-        className={`fixed bottom-0 left-0 right-0 z-40 p-4 border-t backdrop-blur-md transition-colors ${
-          isSunMode
-            ? 'bg-[#F9F6F0]/95 border-stone-300 shadow-2xl'
-            : 'bg-stone-950/95 border-stone-800 shadow-2xl'
-        }`}
-      >
+      {/* ================= BOTÓN FIJO INFERIOR EN EL DOCK ================= */}
+      <footer className="fixed bottom-0 left-0 right-0 z-40 p-4 border-t border-white/10 bg-[#0B0B0E]/95 backdrop-blur-xl shadow-2xl">
         <div className="max-w-3xl mx-auto flex items-center gap-3">
           <button
+            id="btn-start-route-fixed"
             type="button"
             onClick={handleConfirmStart}
-            className="flex-1 py-4 px-4 rounded-2xl font-black text-sm uppercase tracking-wider text-black bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 hover:from-amber-300 hover:to-amber-500 shadow-xl shadow-amber-500/25 active:scale-[0.98] transition-all flex items-center justify-center gap-2"
+            className="flex-1 bg-amber-500 hover:bg-amber-400 text-black font-bold py-3.5 px-6 rounded-2xl shadow-lg shadow-amber-500/25 active:scale-[0.98] transition-all flex items-center justify-center gap-2 text-sm sm:text-base cursor-pointer"
           >
-            <Compass className="w-5 h-5 text-black" />
-            <span>Iniciar Recorrido Ahora 🧭</span>
+            <Play className="w-4 h-4 fill-current" />
+            <span>Iniciar Recorrido ({projectedRoute.stops.length} paradas)</span>
           </button>
         </div>
       </footer>
     </div>
   );
 };
+
+export default RouteWizard;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Landmark, Compass, Map as MapIcon, Hash } from 'lucide-react';
+import { Landmark, Compass, Map as MapIcon, Search } from 'lucide-react';
 
 export type DockTab = 'salas' | 'recorridos' | 'mapa' | 'teclado';
 
@@ -36,9 +36,9 @@ export const BottomDockBar: React.FC<BottomDockBarProps> = ({
     },
     {
       id: 'teclado' as DockTab,
-      label: 'Teclado',
-      icon: Hash,
-      hint: 'Número de vitrina',
+      label: '🔢 Vitrina',
+      icon: Search,
+      hint: 'Número de vitrina o título',
     },
   ];
 

@@ -10,6 +10,7 @@ interface PieceViewProps {
   currentStopIndex?: number;
   totalStops?: number;
   roomName?: string;
+  nextStop?: RouteStop | null;
   onNextStop?: () => void;
   onPreviousStop?: () => void;
   onOpenMapModal?: () => void;

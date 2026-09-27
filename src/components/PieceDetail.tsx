@@ -31,6 +31,11 @@ interface PieceDetailProps {
   onOpenPaywall: () => void;
   currentStopIndex?: number;
   totalStops?: number;
+  roomName?: string;
+  nextStop?: RouteStop | null;
+  onNextStop?: () => void;
+  onPreviousStop?: () => void;
+  onOpenMapModal?: () => void;
   roomPieces?: Piece[];
   onSelectPiece?: (pieceId: string) => void;
   currentRoom?: any;
@@ -283,6 +288,34 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
       id="piece-detail-container"
       className="bg-[#0B0B0E] text-[#F3F4F6] pb-36 transition-colors duration-200 select-none"
     >
+      {/* ================= BARRA DE PROGRESO SUPERIOR EN RECORRIDO ================= */}
+      {currentStopIndex !== undefined && totalStops !== undefined && totalStops > 0 && (
+        <div
+          id="piece-tour-progress-bar"
+          className="sticky top-0 z-30 px-4 py-2.5 bg-[#0B0B0E]/95 backdrop-blur-xl border-b border-white/10 shadow-lg"
+        >
+          <div className="flex items-center justify-between text-xs mb-1.5 max-w-2xl mx-auto">
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 rounded-full bg-[#F59E0B] animate-pulse" />
+              <span className="font-black text-[#F59E0B] uppercase tracking-wider text-[11px]">
+                Parada {currentStopIndex + 1} de {totalStops}
+              </span>
+            </div>
+            <span className="text-[11px] font-mono font-bold text-stone-300">
+              {Math.round(((currentStopIndex + 1) / totalStops) * 100)}% completado
+            </span>
+          </div>
+          <div className="w-full max-w-2xl mx-auto h-1.5 rounded-full bg-white/10 overflow-hidden">
+            <div
+              className="h-full bg-gradient-to-r from-amber-500 to-amber-400 transition-all duration-300 rounded-full"
+              style={{
+                width: `${Math.min(100, Math.max(5, ((currentStopIndex + 1) / totalStops) * 100))}%`,
+              }}
+            />
+          </div>
+        </div>
+      )}
+
       {/* ================= 4. FICHA HERO CINEMATOGRÁFICA ================= */}
       <section className="relative w-full overflow-hidden bg-black">
         {/* Imagen en gran formato con degradado hacia el fondo #0B0B0E */}
@@ -637,69 +670,69 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         </section>
       )}
 
-      {/* ================= SIGUIENTE PARADA O FINALIZACIÓN DE RECORRIDO ================= */}
-      {nextStop ? (
-        <section className="px-4 pt-3">
-          <div
-            id="next-stop-proximity-card"
-            onClick={onNextStop}
-            role="button"
-            tabIndex={0}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                if (onNextStop) onNextStop();
-              }
-            }}
-            className="p-4 rounded-2xl bg-[#141419] border border-[#F59E0B]/40 hover:border-[#F59E0B] transition-all cursor-pointer flex items-center justify-between gap-3 shadow-lg active:scale-[0.98]"
-          >
-            <div className="flex items-center gap-3 min-w-0">
-              <div className="w-10 h-10 rounded-xl bg-[#F59E0B]/20 border border-[#F59E0B]/40 flex items-center justify-center shrink-0 text-[#F59E0B]">
-                <Compass className="w-5 h-5 animate-pulse" />
-              </div>
-              <div className="min-w-0">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-[#F59E0B] block">
-                  Siguiente Hito del Recorrido
-                </span>
-                <p className="text-xs sm:text-sm font-bold truncate text-white">
-                  {nextStop.title}
-                </p>
-                <span className="text-[11px] text-[#9CA3AF] block truncate">
-                  {nextStop.room_zone || 'Siguiente Vitrina'}
-                </span>
-              </div>
+      {/* ================= CONTROLES DE NAVEGACIÓN DE RUTA (ANTERIOR / SIGUIENTE / FINALIZAR) ================= */}
+      {currentStopIndex !== undefined && totalStops !== undefined && totalStops > 0 && (
+        <section id="tour-navigation-controls" className="px-4 pt-4">
+          <div className="p-4 rounded-3xl bg-[#141419] border border-white/10 shadow-xl space-y-3">
+            <div className="flex items-center justify-between text-xs text-[#9CA3AF]">
+              <span className="font-bold uppercase tracking-wider text-[10px] text-[#F59E0B] flex items-center gap-1.5">
+                <Compass className="w-3.5 h-3.5" />
+                <span>Navegación del Recorrido</span>
+              </span>
+              <span className="font-mono text-[10px] font-bold text-white px-2 py-0.5 rounded-full bg-white/5 border border-white/10">
+                Parada {currentStopIndex + 1} de {totalStops}
+              </span>
             </div>
 
-            <div className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-[#F59E0B] text-black font-extrabold text-xs shrink-0 shadow-md">
-              <span>Avanzar</span>
-              <ChevronRight className="w-4 h-4" />
-            </div>
-          </div>
-        </section>
-      ) : (currentStopIndex !== undefined && totalStops !== undefined && currentStopIndex >= totalStops - 1) ? (
-        <section className="px-4 pt-3">
-          <div className="p-5 rounded-2xl bg-[#141419] border border-[#10B981]/50 shadow-xl text-center space-y-3">
-            <span className="text-3xl">🏁</span>
-            <div>
-              <h4 className="text-sm font-extrabold uppercase tracking-wider text-[#10B981]">
-                ¡Última Parada de esta Ruta!
-              </h4>
-              <p className="text-xs text-[#9CA3AF] mt-1 max-w-xs mx-auto">
-                Has visitado todos los hitos programados en este recorrido.
-              </p>
-            </div>
-            {onNextStop && (
+            <div className="grid grid-cols-2 gap-3">
+              {/* Botón [ ⬅ Anterior ] */}
               <button
+                id="btn-piece-prev-stop"
                 type="button"
-                onClick={onNextStop}
-                className="w-full py-3.5 px-4 rounded-xl bg-[#10B981] hover:bg-emerald-400 text-black font-extrabold text-xs flex items-center justify-center gap-2 transition active:scale-95 shadow-lg shadow-[#10B981]/25 cursor-pointer"
+                onClick={onPreviousStop}
+                disabled={currentStopIndex <= 0}
+                className={`py-3.5 px-4 rounded-2xl text-xs sm:text-sm font-bold flex items-center justify-center gap-2 border transition-all active:scale-95 ${
+                  currentStopIndex <= 0
+                    ? 'opacity-30 border-white/5 bg-transparent text-[#6B7280] cursor-not-allowed'
+                    : 'border-white/10 bg-[#0B0B0E] hover:bg-white/5 text-[#F3F4F6] cursor-pointer'
+                }`}
               >
-                <span>Finalizar Recorrido y Ver Resumen 🎉</span>
+                <span>⬅</span>
+                <span>Anterior</span>
               </button>
+
+              {/* Botón [ Siguiente Parada ➔ ] o [ 🏁 Finalizar Recorrido ] */}
+              {currentStopIndex >= totalStops - 1 ? (
+                <button
+                  id="btn-piece-finish-stop"
+                  type="button"
+                  onClick={onNextStop}
+                  className="py-3.5 px-4 rounded-2xl text-xs sm:text-sm font-black bg-emerald-500 hover:bg-emerald-400 text-black flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/25 active:scale-95 transition-all cursor-pointer"
+                >
+                  <span>🏁</span>
+                  <span>Finalizar Recorrido</span>
+                </button>
+              ) : (
+                <button
+                  id="btn-piece-next-stop"
+                  type="button"
+                  onClick={onNextStop}
+                  className="py-3.5 px-4 rounded-2xl text-xs sm:text-sm font-black bg-amber-500 hover:bg-amber-400 text-black flex items-center justify-center gap-2 shadow-lg shadow-amber-500/25 active:scale-95 transition-all cursor-pointer"
+                >
+                  <span>Siguiente Parada</span>
+                  <span>➔</span>
+                </button>
+              )}
+            </div>
+
+            {nextStop && currentStopIndex < totalStops - 1 && (
+              <p className="text-[11px] text-[#9CA3AF] text-center pt-1 truncate">
+                Próxima vitrina: <span className="text-white font-medium">{nextStop.title}</span> ({nextStop.room_zone || 'Siguiente sala'})
+              </p>
             )}
           </div>
         </section>
-      ) : null}
+      )}
 
       {/* ================= OTRAS PIEZAS EN ESTA SALA (CARRUSEL HORIZONTAL) ================= */}
       {siblingPieces.length > 0 && (
