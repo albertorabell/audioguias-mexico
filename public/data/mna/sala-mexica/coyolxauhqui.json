@@ -1,72 +1,96 @@
 {
+  "id": "coyolxauhqui",
   "poi_id": "coyolxauhqui",
-  "is_premium": true,
-  "estimated_minutes": 9,
-  "tags": ["mexica", "misticismo", "monumental", "dioses", "tenochtitlan"],
+  "room_id": "sala-mexica",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-mexica",
+    "room_name": "sala-06-mexica",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 4,
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "historia",
+    "cultura",
+    "arte"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
   "identification": {
-    "title": "Monolito de Coyolxauhqui",
-    "culture_period": "Mexica / Posclásico Tardío (1469–1481 d.C.)",
-    "room_zone": "Sala Mexica, Museo Nacional de Antropología",
-    "tags": ["mexica", "misticismo", "monumental", "Luna", "Templo Mayor"],
-    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Monolito_de_Coyolxauhqui_%28MNA%29.jpg/1200px-Monolito_de_Coyolxauhqui_%28MNA%29.jpg"
+    "title": "Cabeza de Coyolxauhqui",
+    "culture_period": "",
+    "room_zone": "sala-06-mexica",
+    "tags": [
+      "historia",
+      "cultura",
+      "arte"
+    ],
+    "hero_image": "https://cdn.jsdelivr.net/gh/albertorabell/audioguias-mexico@main/public/images/pieces/mna_s06_coyolxauhqui.png"
   },
   "narrative": {
-    "one_liner": "La diosa lunar desmembrada por su hermano Huitzilopochtli al pie del cerro sagrado de Coatepec.",
-    "short_desc": "Descubierta en 1978 por trabajadores de la compañía de luz, este colosal disco de piedra volcánica de más de 3 metros marcó el redescubrimiento arqueológico del Templo Mayor de Tenochtitlan.",
-    "deep_desc": "El monolito de Coyolxauhqui retrata el clímax trágico del mito fundacional mexica. Al intentar decapitar a su madre Coatlicue, su hermano nonato Huitzilopochtli nació armado con la serpiente de fuego Xiuhcóatl, degolló a Coyolxauhqui y arrojó su cuerpo rodando cuesta abajo por el cerro de Coatepec. La escultura la muestra desmembrada: cabeza, brazos y piernas cercenados con huesos expuestos, cascabeles en sus mejillas ('Coyolxauhqui' significa 'La de los cascabeles en el rostro') y un tocado de plumas de águila. El monolito yacía exactamente al pie de la escalinata de Huitzilopochtli, recordando a los pueblos tributarios el destino fatal de quienes osaran desafiar al imperio solar azteca."
+    "one_liner": "Diosa lunar cercenada que consagró el triunfo del Sol.",
+    "short_desc": "Al contemplar esta monumental escultura de diorita de tonos verdosos, la expresión inerte del rostro sobrecoge por su serenidad y trágica majestad. Coyolxauhqui, \"La que se pinta las mejillas con cascabeles\", representa a la deidad lunar de la mitología mexica en el instante posterior a su derrota. La obra inmortaliza el rictus de la muerte: los ojos entornados con párpados caídos, los labios entreabiertos y las mejillas decoradas con discos incisos que llevan el glifo del cascabel y el signo del oro. Sobre su cabeza porta un tocado de tela estriada salpicado de plumones circulares de algodón que caracterizaban a las víctimas destinadas al sacrificio ritual. A los lados lucen orejeras cuadradas con pendientes circulares. Esta cabeza cercenada remite al mito fundacional de Coatepec, donde Huitzilopochtli, nacido en plenitud guerrera, decapitó a su hermana lunar y arrojó su cuerpo montaña abajo. En la cara inferior plana, oculta a la vista simple, los escultores grabaron el glifo atlachinolli (agua quemada y fuego), serpientes de dos cabezas y la fecha 1 Conejo. Coyolxauhqui encarna el drama astronómico donde la Luna sucumbe ante el nacimiento diario del Sol.",
+    "deep_desc": "En la base de la gran pirámide del Templo Mayor de Tenochtitlan, la efigie de Coyolxauhqui consagraba el triunfo de la divinidad solar sobre las fuerzas de la noche. La teología mexica explicaba el orden del universo mediante la batalla acontecida en el mítico cerro Coatepec: la diosa lunar Coyolxauhqui, indignada por el milagroso embarazo de su madre Coatlicue, guió a sus cuatrocientos hermanos estelares, los Centzonhuitznahua, para destruirla. En el instante supremo del combate, Huitzilopochtli nació equipado con la serpiente de fuego Xiuhcóatl, decapitó a su hermana y despeñó su cuerpo desde la cumbre, quedando desmembrado en las laderas de la montaña. Durante las festividades del Panquetzaliztli, los sacerdotes recreaban este pasaje cosmogónico despeñando los cuerpos de los cautivos sacrificados desde la parte alta del templo hasta la base, donde yacía la escultura de la diosa lunar. Este acto no era una mera escenificación mítica, sino la ratificación litúrgica del destino guerrero del pueblo mexica, encargado de alimentar al Sol para evitar que las tinieblas nocturnas devoraran la superficie terrestre. Al examinar minuciosamente la cabeza exenta de diorita, el observador aprecia un trabajo lapidario de extraordinaria sensibilidad plástica. El rostro manifiesta el rictus cadavérico mediante párpados pesados y la comisura de los labios curvada hacia abajo. Sobre cada mejilla destacan tres relieves circulares alineados: el superior muestra el símbolo cruciforme del oro y el inferior la silueta de un cascabel metálico o de concha, en alusión directa a su nombre náhuatl. El cabello está recogido por un turbante o banda de tela estriada atada con nudos, decorada con pequeñas esferas de plumón de garza que identificaban a los prisioneros conducidos al altar de sacrificio. Las orejas lucen adornos cuadrangulares con colgantes de disco. La superficie plana inferior de la escultura guarda un complejo programa iconográfico que no estaba destinado a la vista pública: el glifo atlachinolli (agua quemada y fuego, metáfora de la guerra sagrada), una cuerda de sacrificio con plumas, una serpiente de dos cabezas y la fecha calendárica 1 Conejo, vinculada con la creación del cosmos y el triunfo solar. La cabeza monumental de Coyolxauhqui fue descubierta en marzo de 1830 durante los trabajos de cimentación de unas casas pertenecientes al convento de la Concepción, cerca de la iglesia de Santa Teresa la Antigua en el Centro Histórico de la Ciudad de México. A pesar de que coleccionistas y diplomáticos extranjeros ofrecieron importantes sumas de dinero para adquirirla y trasladarla fuera del país, la abadesa María Josefa Travieso decidió entregar la escultura al antiguo Museo Nacional gracias a la oportuna mediación del historiador Carlos María de Bustamante. Décadas más tarde, el 21 de febrero de 1978, trabajadores de la Compañía de Luz y Fuerza hallaron a poca distancia el célebre disco monolítico circular que muestra a la diosa completamente desmembrada. Este hallazgo histórico desencadenó la creación del Proyecto Templo Mayor bajo la dirección del arqueólogo Eduardo Matos Moctezuma, transformando la arqueología mexicana y devolviendo a la luz el corazón sagrado de Tenochtitlan."
   },
   "audioguide": {
-    "audio_script": "Párate frente a este imponente disco circular de más de tres metros de diámetro. Estás ante Coyolxauhqui, diosa de la luna. Observa detenidamente sus extremidades: sus brazos y piernas han sido cortados por la espada solar de su hermano Huitzilopochtli, dejando ver las articulaciones y los huesos expuestos. En sus mejillas, nota los discos labrados que representan cascabeles dorados de metal. En la época mexica, los cautivos de guerra eran arrojados escaleras abajo en el Templo Mayor, cayendo sobre este mismo relieve como recreación ritual de la victoria cósmica del Sol contra la oscuridad de la noche.",
+    "audio_script": "En la base de la gran pirámide del Templo Mayor de Tenochtitlan, la efigie de Coyolxauhqui consagraba el triunfo de la divinidad solar sobre las fuerzas de la noche. La teología mexica explicaba el orden del universo mediante la batalla acontecida en el mítico cerro Coatepec: la diosa lunar Coyolxauhqui, indignada por el milagroso embarazo de su madre Coatlicue, guió a sus cuatrocientos hermanos estelares, los Centzonhuitznahua, para destruirla. En el instante supremo del combate, Huitzilopochtli nació equipado con la serpiente de fuego Xiuhcóatl, decapitó a su hermana y despeñó su cuerpo desde la cumbre, quedando desmembrado en las laderas de la montaña. Durante las festividades del Panquetzaliztli, los sacerdotes recreaban este pasaje cosmogónico despeñando los cuerpos de los cautivos sacrificados desde la parte alta del templo hasta la base, donde yacía la escultura de la diosa lunar. Este acto no era una mera escenificación mítica, sino la ratificación litúrgica del destino guerrero del pueblo mexica, encargado de alimentar al Sol para evitar que las tinieblas nocturnas devoraran la superficie terrestre. Al examinar minuciosamente la cabeza exenta de diorita, el observador aprecia un trabajo lapidario de extraordinaria sensibilidad plástica. El rostro manifiesta el rictus cadavérico mediante párpados pesados y la comisura de los labios curvada hacia abajo. Sobre cada mejilla destacan tres relieves circulares alineados: el superior muestra el símbolo cruciforme del oro y el inferior la silueta de un cascabel metálico o de concha, en alusión directa a su nombre náhuatl. El cabello está recogido por un turbante o banda de tela estriada atada con nudos, decorada con pequeñas esferas de plumón de garza que identificaban a los prisioneros conducidos al altar de sacrificio. Las orejas lucen adornos cuadrangulares con colgantes de disco. La superficie plana inferior de la escultura guarda un complejo programa iconográfico que no estaba destinado a la vista pública: el glifo atlachinolli (agua quemada y fuego, metáfora de la guerra sagrada), una cuerda de sacrificio con plumas, una serpiente de dos cabezas y la fecha calendárica 1 Conejo, vinculada con la creación del cosmos y el triunfo solar. La cabeza monumental de Coyolxauhqui fue descubierta en marzo de 1830 durante los trabajos de cimentación de unas casas pertenecientes al convento de la Concepción, cerca de la iglesia de Santa Teresa la Antigua en el Centro Histórico de la Ciudad de México. A pesar de que coleccionistas y diplomáticos extranjeros ofrecieron importantes sumas de dinero para adquirirla y trasladarla fuera del país, la abadesa María Josefa Travieso decidió entregar la escultura al antiguo Museo Nacional gracias a la oportuna mediación del historiador Carlos María de Bustamante. Décadas más tarde, el 21 de febrero de 1978, trabajadores de la Compañía de Luz y Fuerza hallaron a poca distancia el célebre disco monolítico circular que muestra a la diosa completamente desmembrada. Este hallazgo histórico desencadenó la creación del Proyecto Templo Mayor bajo la dirección del arqueólogo Eduardo Matos Moctezuma, transformando la arqueología mexicana y devolviendo a la luz el corazón sagrado de Tenochtitlan.",
     "audio_file_url": ""
   },
+  "summary_30s": "Diosa lunar cercenada que consagró el triunfo del Sol.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Relieves de cascabeles y el signo del oro incisos sobre las mejillas"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Tocado de tela estriada adornado con plumones circulares de algodón sacrificial"
+    },
+    {
+      "titulo": "Detalle 3",
+      "descripcion": "Glifo de la guerra sagrada atlachinolli grabado en la cara plana inferior"
+    }
+  ],
+  "did_you_know": [],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [
+    {
+      "question": "Mito: Coyolxauhqui representa a una reina guerrera histórica asesinada en una batalla dinástica.",
+      "answer": "Realidad: Es la personificación sagrada de la Luna en la cosmogonía mexica, cuyo desmembramiento mítico explicaba las fases lunares y la victoria diaria del Sol sobre la noche."
+    }
+  ],
   "visual_challenge": [
     {
-      "id": "ch-coy-1",
-      "title": "Cascabeles en las mejillas",
-      "clue": "Encuentra en el rostro de perfil los círculos que simbolizan los cascabeles mágicos ('coyolli')."
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Relieves de cascabeles y el signo del oro incisos sobre las mejillas"
     },
     {
-      "id": "ch-coy-2",
-      "title": "Articulaciones de cráneo",
-      "clue": "Observa los codos y rodillas: están decorados con mascarones grotescos y nudos serpentinos."
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Tocado de tela estriada adornado con plumones circulares de algodón sacrificial"
+    },
+    {
+      "id": "ch-3",
+      "title": "Detalle 3",
+      "clue": "Glifo de la guerra sagrada atlachinolli grabado en la cara plana inferior"
     }
   ],
-  "curiosities": [
-    {
-      "id": "cur-coy-1",
-      "fact": "Fue descubierta de forma accidental el 21 de febrero de 1978 por obreros de Luz y Fuerza que excavaban cables en la esquina de Guatemala y Argentina."
-    },
-    {
-      "id": "cur-coy-2",
-      "fact": "Originalmente estaba pintada con brillantes pigmentos minerales: rojo óxido, amarillo ocre, azul maya, blanco calizo y negro humo."
-    }
-  ],
-  "specs": [
-    {
-      "label": "Material",
-      "value": "Cantera andesita volcánica rosada"
-    },
-    {
-      "label": "Diámetro",
-      "value": "3.25 metros"
-    },
-    {
-      "label": "Peso aproximado",
-      "value": "8 toneladas"
-    },
-    {
-      "label": "Ubicación original",
-      "value": "Base del adoratorio de Huitzilopochtli, Templo Mayor"
-    }
-  ],
+  "curiosities": [],
   "faqs": [
     {
-      "question": "¿Por qué sus pechos y abdomen lucen pliegues?",
-      "answer": "Los pliegues en su vientre aluden a su condición de mujer madura que ha dado a luz, vinculándola con la fecundidad lunar y nocturna."
-    },
-    {
-      "question": "¿Qué simbolizan las sandalias?",
-      "answer": "Porta sandalias atadas con nudos de doble lazo, vestimenta propia de la nobleza guerrera mexica."
+      "question": "Mito: Coyolxauhqui representa a una reina guerrera histórica asesinada en una batalla dinástica.",
+      "answer": "Realidad: Es la personificación sagrada de la Luna en la cosmogonía mexica, cuyo desmembramiento mítico explicaba las fases lunares y la victoria diaria del Sol sobre la noche."
     }
   ]
 }
