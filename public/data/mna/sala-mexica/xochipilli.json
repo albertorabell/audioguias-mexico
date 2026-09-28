@@ -5,17 +5,17 @@
   "site_id": "MNA",
   "location": {
     "room_id": "sala-mexica",
-    "room_name": "Sala Mexica",
+    "room_name": "sala-06-mexica",
     "case_number": ""
   },
   "case_number": "",
-  "orden_sala": 5,
+  "orden_sala": 10,
   "is_premium": false,
-  "estimated_minutes": 3,
+  "estimated_minutes": 5,
   "tags": [
-    "arte",
-    "ritual",
-    "vida_cotidiana"
+    "historia",
+    "cultura",
+    "arte"
   ],
   "map_coords": {
     "x": 50,
@@ -23,77 +23,74 @@
   },
   "identification": {
     "title": "Xochipilli",
-    "culture_period": "Mexica / Posclásico Tardío (1325–1521 d.C.)",
-    "room_zone": "Sala Mexica, Museo Nacional de Antropología",
+    "culture_period": "",
+    "room_zone": "sala-06-mexica",
     "tags": [
-      "arte",
-      "ritual",
-      "vida_cotidiana"
+      "historia",
+      "cultura",
+      "arte"
     ],
-    "hero_image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Statue_of_Xochipilli_%28From_the_National_Museum_of_Anthropology%2C_Mexico_City%29.jpg"
+    "hero_image": "https://cdn.jsdelivr.net/gh/albertorabell/audioguias-mexico@main/public/images/pieces/mna_s06_xochipilli.png"
   },
   "narrative": {
-    "one_liner": "En el silencio de la piedra habita el aliento divino de la flor, el canto y el trance.",
-    "short_desc": "Xochipilli, 'El Príncipe de las Flores', encarna la poesía, el arte y el éxtasis místico. Esta escultura mexica reclinada está cubierta de plantas sagradas alucinógenas que vinculaban al hombre con los dioses.",
-    "deep_desc": "En contraste con las deidades de la guerra, aquí nos recibe Xochipilli, el príncipe de las flores, el canto y la poesía. Sentado en éxtasis místico, su cuerpo y pedestal están tallados con plantas enteógenas (alucinógenas) como el peyote y los hongos sagrados, que los sacerdotes usaban para comunicarse con lo divino."
+    "one_liner": "Príncipe de las flores y del trance místico vegetal.",
+    "short_desc": "Ante esta delicada escultura de andesita basáltica, una atmósfera de misticismo y serenidad envuelve la mirada. Xochipilli, El Príncipe de las Flores o Macuilxóchitl Cinco Flor, encarna en la teología mexica al dios de la primavera, la juventud, la música, la danza, la poesía, los juegos y las plantas sagradas. La estatua retrata a un joven sentado con las piernas cruzadas a la altura de los tobillos sobre un ostentoso pedestal labrado. Su torso se reclina ligeramente hacia atrás con la cabeza erguida y la mirada perdida en la inmensidad, transmitiendo la vivencia del trance místico o embriaguez sagrada. Su piel está minuciosamente grabada con flores y hongos psicotrópicos de la flora mesoamericana, como el tabaco silvestre, la datura, el ololiuhqui y hongos psilocybes. Luce un collar con garras de felino, un sencillo máxtlatl, ajorcas y sandalias ceremoniales. Hallada a principios del siglo diecinueve en las laderas del volcán Iztaccíhuatl en Tlalmanalco, esta obra cumbre del arte chalca-mexica sintetiza la poesía visual, la botánica sagrada y la comunión divina de los sabios nahuas con la naturaleza.",
+    "deep_desc": "En la cosmovisión mexica y de los pueblos del Altiplano Central, Xochipilli-Macuilxóchitl presidía las festividades de la primavera, el despertar de la vegetación y el gozo de las expresiones artísticas. Engendrado según el mito por la pareja divina de Piltzintecuhtli y Xochiquétzal, Xochipilli era honrado como el patrón sagrado de los poetas, músicos, danzantes, tejedores de plumas y plateros. En los ritos agrícolas de Tlaxochimaco, los jóvenes le ofrecían guirnaldas de cempasúchil para pedir por la fertilidad de las milpas. Para el pensamiento nahuatlato, las plantas psicotrópicas no constituían un consumo profano, sino el vehículo sagrado para alcanzar el trance o la flor y el canto, lenguaje poético supremo con el que los sabios tlamatinime se comunicaban directamente con las deidades. Al examinar minuciosamente la anatomía y los bajorrelieves esculpidos en la andesita, se admira el refinado naturalismo con el que se modeló el cuerpo del dios. Xochipilli viste una máscara ceremonial de piel frotada que cubre su rostro, orejeras circulares, pectoral con garras de jaguar y ajorcas en las articulaciones; sus manos ahuecadas sobre las rodillas sostenían originalmente un sonajero de calabaza o su cetro de corazón. Lo más asombroso de la estatua es el catálogo botánico grabado en su piel: en las piernas, brazos y pecho se aprecian flores de tabaco silvestre, flores de ololiuhqui, botones de sinicuichi y sombrerillos de hongos alucinógenos. La cabeza porta un tocado de plumas cortas grabado con los glifos del calor solar y los cuatro puntos cardinales. El pedestal cúbico sobre el que se sienta muestra relieves de flores de corola abierta y mariposas que liban el néctar. La escultura fue descubierta a principios del siglo diecinueve en los parajes rurales del municipio de Tlalmanalco, Estado de México, en las laderas del volcán Iztaccíhuatl en la región de Chalco. Tras su hallazgo, formó parte de la colección privada del historiador Alfredo Chavero, quien la identificó inicialmente con la deidad del fuego Izcozauhqui antes de certificar su identidad como Xochipilli-Macuilxóchitl. Posteriormente fue cedida al antiguo Museo Nacional en la calle de Moneda, deslumbrando a los investigadores por la belleza de su ejecución y la riqueza botánica de sus incisos. En 1964 fue trasladada a la Sala Mexica del Museo Nacional de Antropología, donde se exhibe en una vitrina estelar rodeada de instrumentos musicales prehispánicos como teponaztlis y flautas, permaneciendo como el emblema más sublime del arte, la poesía y las plantas sagradas del México antiguo."
   },
   "audioguide": {
-    "audio_script": "En contraste con las deidades de la guerra, aquí nos recibe Xochipilli, el príncipe de las flores, el canto y la poesía. Sentado en éxtasis místico, su cuerpo y pedestal están tallados con plantas enteógenas (alucinógenas) como el peyote y los hongos sagrados, que los sacerdotes usaban para comunicarse con lo divino.",
+    "audio_script": "En la cosmovisión mexica y de los pueblos del Altiplano Central, Xochipilli-Macuilxóchitl presidía las festividades de la primavera, el despertar de la vegetación y el gozo de las expresiones artísticas. Engendrado según el mito por la pareja divina de Piltzintecuhtli y Xochiquétzal, Xochipilli era honrado como el patrón sagrado de los poetas, músicos, danzantes, tejedores de plumas y plateros. En los ritos agrícolas de Tlaxochimaco, los jóvenes le ofrecían guirnaldas de cempasúchil para pedir por la fertilidad de las milpas. Para el pensamiento nahuatlato, las plantas psicotrópicas no constituían un consumo profano, sino el vehículo sagrado para alcanzar el trance o la flor y el canto, lenguaje poético supremo con el que los sabios tlamatinime se comunicaban directamente con las deidades. Al examinar minuciosamente la anatomía y los bajorrelieves esculpidos en la andesita, se admira el refinado naturalismo con el que se modeló el cuerpo del dios. Xochipilli viste una máscara ceremonial de piel frotada que cubre su rostro, orejeras circulares, pectoral con garras de jaguar y ajorcas en las articulaciones; sus manos ahuecadas sobre las rodillas sostenían originalmente un sonajero de calabaza o su cetro de corazón. Lo más asombroso de la estatua es el catálogo botánico grabado en su piel: en las piernas, brazos y pecho se aprecian flores de tabaco silvestre, flores de ololiuhqui, botones de sinicuichi y sombrerillos de hongos alucinógenos. La cabeza porta un tocado de plumas cortas grabado con los glifos del calor solar y los cuatro puntos cardinales. El pedestal cúbico sobre el que se sienta muestra relieves de flores de corola abierta y mariposas que liban el néctar. La escultura fue descubierta a principios del siglo diecinueve en los parajes rurales del municipio de Tlalmanalco, Estado de México, en las laderas del volcán Iztaccíhuatl en la región de Chalco. Tras su hallazgo, formó parte de la colección privada del historiador Alfredo Chavero, quien la identificó inicialmente con la deidad del fuego Izcozauhqui antes de certificar su identidad como Xochipilli-Macuilxóchitl. Posteriormente fue cedida al antiguo Museo Nacional en la calle de Moneda, deslumbrando a los investigadores por la belleza de su ejecución y la riqueza botánica de sus incisos. En 1964 fue trasladada a la Sala Mexica del Museo Nacional de Antropología, donde se exhibe en una vitrina estelar rodeada de instrumentos musicales prehispánicos como teponaztlis y flautas, permaneciendo como el emblema más sublime del arte, la poesía y las plantas sagradas del México antiguo.",
     "audio_file_url": ""
   },
-  "summary_30s": "Xochipilli, 'El Príncipe de las Flores', encarna la poesía, el arte y el éxtasis místico. Esta escultura mexica reclinada está cubierta de plantas sagradas alucinógenas que vinculaban al hombre con los dioses.",
+  "summary_30s": "Príncipe de las flores y del trance místico vegetal.",
   "observation_challenges": [
     {
       "titulo": "Detalle 1",
-      "descripcion": "La boca entreabierta y mirada elevada que reflejan el éxtasis ritual"
+      "descripcion": "Flores de ololiuhqui, tabaco y hongos psicotrópicos grabados en la piel de las piernas y brazos"
     },
     {
       "titulo": "Detalle 2",
-      "descripcion": "Las flores esculpidas en piernas y pedestal con formas botánicas de plantas enteógenas"
+      "descripcion": "Rostro inclinado hacia atrás con ojos ahuecados en actitud de trance místico"
+    },
+    {
+      "titulo": "Detalle 3",
+      "descripcion": "Pedestal cúbico decorado con mariposas que liban néctar y flores de corola abierta"
     }
   ],
-  "did_you_know": [
-    "La estatua fue encontrada en las faldas del volcán Popocatépetl, en Tlalmanalco, Estado de México.",
-    "Botánicos han identificado en sus relieved especies reales como el floripondio, el tabaco silvestre, la majagua y hongos sagrados Psilocybe."
-  ],
+  "did_you_know": [],
   "specs": {
-    "material": "Andesita (piedra volcánica)",
-    "provenance": "Tlalmanalco, Estado de México",
-    "weight": "1.2 metros de altura",
-    "age": "Aprox. 1450–1521 d.C."
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
   },
   "faq": [
     {
-      "question": "¿Representa esta figura el consumo recreativo de drogas en el México prehispánico?",
-      "answer": "No. El uso de plantas enteógenas tenía un carácter estrictamente sagrado, sacerdotal y medicinal; eran consideradas herramientas sagradas para cruzar el umbral terrenal y comunicarse con las deidades."
+      "question": "Mito: Xochipilli es la representación exclusiva de un dios del placer profano y el entretenimiento licencioso.",
+      "answer": "Realidad: Es la deidad del calor solar, la primavera, la poesía y el trance ritual alcanzado mediante plantas sagradas para comunicarse con lo divino."
     }
   ],
   "visual_challenge": [
     {
       "id": "ch-1",
       "title": "Detalle 1",
-      "clue": "La boca entreabierta y mirada elevada que reflejan el éxtasis ritual"
+      "clue": "Flores de ololiuhqui, tabaco y hongos psicotrópicos grabados en la piel de las piernas y brazos"
     },
     {
       "id": "ch-2",
       "title": "Detalle 2",
-      "clue": "Las flores esculpidas en piernas y pedestal con formas botánicas de plantas enteógenas"
-    }
-  ],
-  "curiosities": [
-    {
-      "id": "cur-1",
-      "fact": "La estatua fue encontrada en las faldas del volcán Popocatépetl, en Tlalmanalco, Estado de México."
+      "clue": "Rostro inclinado hacia atrás con ojos ahuecados en actitud de trance místico"
     },
     {
-      "id": "cur-2",
-      "fact": "Botánicos han identificado en sus relieved especies reales como el floripondio, el tabaco silvestre, la majagua y hongos sagrados Psilocybe."
+      "id": "ch-3",
+      "title": "Detalle 3",
+      "clue": "Pedestal cúbico decorado con mariposas que liban néctar y flores de corola abierta"
     }
   ],
+  "curiosities": [],
   "faqs": [
     {
-      "question": "¿Representa esta figura el consumo recreativo de drogas en el México prehispánico?",
-      "answer": "No. El uso de plantas enteógenas tenía un carácter estrictamente sagrado, sacerdotal y medicinal; eran consideradas herramientas sagradas para cruzar el umbral terrenal y comunicarse con las deidades."
+      "question": "Mito: Xochipilli es la representación exclusiva de un dios del placer profano y el entretenimiento licencioso.",
+      "answer": "Realidad: Es la deidad del calor solar, la primavera, la poesía y el trance ritual alcanzado mediante plantas sagradas para comunicarse con lo divino."
     }
   ]
 }
