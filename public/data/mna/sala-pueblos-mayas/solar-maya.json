@@ -1,0 +1,96 @@
+{
+  "id": "solar-maya",
+  "poi_id": "solar-maya",
+  "room_id": "sala-pueblos-mayas",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-pueblos-mayas",
+    "room_name": "sala-19-pueblos-mayas",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 4,
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "historia",
+    "cultura",
+    "arte"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Recreación del Solar y Casa Tradicional Maya",
+    "culture_period": "",
+    "room_zone": "sala-19-pueblos-mayas",
+    "tags": [
+      "historia",
+      "cultura",
+      "arte"
+    ],
+    "hero_image": "https://cdn.jsdelivr.net/gh/albertorabell/audioguias-mexico@main/public/images/pieces/mna_s19_solar_maya.png"
+  },
+  "narrative": {
+    "one_liner": "Casa de paja y bajareque donde germina el maíz.",
+    "short_desc": "Al adentrarse en la majestuosa instalación que domina la Sala Maya en la planta alta del museo, el olor a paja seca, madera de monte y tierra húmeda traslada de inmediato los sentidos al campo yucateco. La Recreación del Solar y Casa Tradicional Maya es una reconstrucción a escala real de la vivienda y del espacio agroecológico cotidiano de las familias mayas de la Península de Yucatán. La casa exhibe la clásica planta absidal o de esquinas redondeadas, edificada con muros de bajareque o k'ankab (tierra roja mezclada con zacate) y una alta techumbre de dos o cuatro aguas elaborada con vigas de madera dura de jabín y guano de palma. En el interior se aprecia el hogar tradicional con sus hamacas tejidas colgadas de los horcones, el comal de barro, el metate y el altar familiar. En el exterior se despliega el solar o jóovel, un huerto biodiverso rodeado por albarradas de piedra caliza donde se cultivan plantas medicinales, frutales y hortalizas, junto a las colmenas de abeja melipona nativa. Contemplar esta instalación en el Museo Nacional de Antropología es admirar la sustentabilidad de la arquitectura maya.",
+    "deep_desc": "En las planicies calcáreas de la Península de Yucatán, entre los montes bajos y los cenotes de agua dulce, el pueblo Maya ha desarrollado a lo largo de más de tres milenios una de las formas de hábitat y manejo ecológico más sostenibles y adaptadas al clima tropical del planeta: la casa tradicional o nah y el solar agroforestal. A diferencia de las concepciones urbanas occidentales que separan de forma tajante la vivienda del entorno natural, en la cosmovisión maya la casa y el solar constituyen un solo organismo vivo y sagrado. La estructura de la vivienda reproduce la arquitectura del cosmos: los cuatro horcones o horquetas principales de madera dura de la selva (xa'an) representan los cuatro bacabes o dioses que sostienen los cuatro rincones del universo, mientras que el techo inclinado de paja de palma evoca la bóveda celeste que cobija a la familia. La forma redondeada u ovalada de los extremos de la casa permite una libre circulación de los vientos alisios, manteniendo fresco el interior bajo las intensas temperaturas del verano peninsular. Al explorar con atención los detalles de la vivienda y del solar en la vitrina e instalación del museo, el observador atento admira la sabiduría constructiva y ecológica del campesino maya. Los muros están fabricados con varas verticales de otate o bajareque recubiertas por una mezcla de tierra roja (k'ankab), cal y zacate que aísla la humedad. En el interior, la vida doméstica se organiza de forma ágil: las hamacas de hilo de algodón son colgadas de los horcones durante la noche para dormir elevados del suelo y se recogen durante el día para despejar el espacio del salón. En una esquina resplandece la mesa del altar familiar o k'anche', donde se ofrecen pocillos de jícara con atole y balché a los aluxo'ob o espíritus guardianes del monte. En el solar exterior, delimitado por albarradas de piedra sin argamasa, se observan troncos huecos o jobones dedicados a la crianza de la abeja melipona sin aguijón (Xunáan Kab), productora de la miel sagrada curativa de los mayas. La historia de la construcción e integración de esta réplica a escala real de la Casa Tradicional Maya en el Museo Nacional de Antropología se remonta a los trabajos de acopio de etnografía arquitectónica dirigidos en 1964 por antropólogos del INAH. Maestros constructores mayas procedentes de poblados de Yucatán y Quintana Roo viajaron a la Ciudad de México para cortar las maderas de jabín y las palmas de guano, levantando la vivienda con sus propias manos y técnicas ancestrales en la planta alta del museo. Esta instalación permanente permite a millones de visitantes internacionales comprender la sustentabilidad, el diseño climático y la profunda armonía con la naturaleza que define la vida cotidiana del pueblo maya."
+  },
+  "audioguide": {
+    "audio_script": "En las planicies calcáreas de la Península de Yucatán, entre los montes bajos y los cenotes de agua dulce, el pueblo Maya ha desarrollado a lo largo de más de tres milenios una de las formas de hábitat y manejo ecológico más sostenibles y adaptadas al clima tropical del planeta: la casa tradicional o nah y el solar agroforestal. A diferencia de las concepciones urbanas occidentales que separan de forma tajante la vivienda del entorno natural, en la cosmovisión maya la casa y el solar constituyen un solo organismo vivo y sagrado. La estructura de la vivienda reproduce la arquitectura del cosmos: los cuatro horcones o horquetas principales de madera dura de la selva (xa'an) representan los cuatro bacabes o dioses que sostienen los cuatro rincones del universo, mientras que el techo inclinado de paja de palma evoca la bóveda celeste que cobija a la familia. La forma redondeada u ovalada de los extremos de la casa permite una libre circulación de los vientos alisios, manteniendo fresco el interior bajo las intensas temperaturas del verano peninsular. Al explorar con atención los detalles de la vivienda y del solar en la vitrina e instalación del museo, el observador atento admira la sabiduría constructiva y ecológica del campesino maya. Los muros están fabricados con varas verticales de otate o bajareque recubiertas por una mezcla de tierra roja (k'ankab), cal y zacate que aísla la humedad. En el interior, la vida doméstica se organiza de forma ágil: las hamacas de hilo de algodón son colgadas de los horcones durante la noche para dormir elevados del suelo y se recogen durante el día para despejar el espacio del salón. En una esquina resplandece la mesa del altar familiar o k'anche', donde se ofrecen pocillos de jícara con atole y balché a los aluxo'ob o espíritus guardianes del monte. En el solar exterior, delimitado por albarradas de piedra sin argamasa, se observan troncos huecos o jobones dedicados a la crianza de la abeja melipona sin aguijón (Xunáan Kab), productora de la miel sagrada curativa de los mayas. La historia de la construcción e integración de esta réplica a escala real de la Casa Tradicional Maya en el Museo Nacional de Antropología se remonta a los trabajos de acopio de etnografía arquitectónica dirigidos en 1964 por antropólogos del INAH. Maestros constructores mayas procedentes de poblados de Yucatán y Quintana Roo viajaron a la Ciudad de México para cortar las maderas de jabín y las palmas de guano, levantando la vivienda con sus propias manos y técnicas ancestrales en la planta alta del museo. Esta instalación permanente permite a millones de visitantes internacionales comprender la sustentabilidad, el diseño climático y la profunda armonía con la naturaleza que define la vida cotidiana del pueblo maya.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Casa de paja y bajareque donde germina el maíz.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Planta absidal redondeada con cuatro horcones de madera que simulan los cuatro bacabes"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Techo de alta inclinación tejido con palmas de guano sobre vigas de madera de jabín"
+    },
+    {
+      "titulo": "Detalle 3",
+      "descripcion": "Albarrada exterior de piedra caliza y troncos huecos (jobones) para abejas meliponas"
+    }
+  ],
+  "did_you_know": [],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [
+    {
+      "question": "Mito: La casa maya de bajareque y paja es una choza insalubre fruto de la pobreza rural moderna.",
+      "answer": "Realidad: Según los análisis del INAH, es un modelo de arquitectura bioclimática milenario perfectamente adaptado al trópico."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Planta absidal redondeada con cuatro horcones de madera que simulan los cuatro bacabes"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Techo de alta inclinación tejido con palmas de guano sobre vigas de madera de jabín"
+    },
+    {
+      "id": "ch-3",
+      "title": "Detalle 3",
+      "clue": "Albarrada exterior de piedra caliza y troncos huecos (jobones) para abejas meliponas"
+    }
+  ],
+  "curiosities": [],
+  "faqs": [
+    {
+      "question": "Mito: La casa maya de bajareque y paja es una choza insalubre fruto de la pobreza rural moderna.",
+      "answer": "Realidad: Según los análisis del INAH, es un modelo de arquitectura bioclimática milenario perfectamente adaptado al trópico."
+    }
+  ]
+}
