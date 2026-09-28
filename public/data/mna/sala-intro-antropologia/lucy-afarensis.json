@@ -1,0 +1,96 @@
+{
+  "id": "lucy-afarensis",
+  "poi_id": "lucy-afarensis",
+  "room_id": "sala-intro-antropologia",
+  "site_id": "MNA",
+  "location": {
+    "room_id": "sala-intro-antropologia",
+    "room_name": "sala-01-intro-antropologia",
+    "case_number": ""
+  },
+  "case_number": "",
+  "orden_sala": 1,
+  "is_premium": false,
+  "estimated_minutes": 5,
+  "tags": [
+    "historia",
+    "cultura",
+    "arte"
+  ],
+  "map_coords": {
+    "x": 50,
+    "y": 50
+  },
+  "identification": {
+    "title": "Réplica del esqueleto de Lucy (Australopithecus afarensis)",
+    "culture_period": "",
+    "room_zone": "sala-01-intro-antropologia",
+    "tags": [
+      "historia",
+      "cultura",
+      "arte"
+    ],
+    "hero_image": "https://cdn.jsdelivr.net/gh/albertorabell/audioguias-mexico@main/public/images/pieces/mna_s01_lucy_afarensis.png"
+  },
+  "narrative": {
+    "one_liner": "Huella fósil de la primera abuela que caminó erguida.",
+    "short_desc": "Al detenerse ante la vitrina que alberga la reproducción del esqueleto fosilizado de Lucy, la escala modesta de nuestro ancestro homínido sorprende de inmediato a los sentidos. Con apenas un metro con veinte centímetros de estatura y una masa corporal estimada en treinta kilogramos, los fragmentos óseos de esta hembra de Australopithecus afarensis representan una de las mayores revoluciones en la comprensión de la evolución humana. Al observar la estructura de su pelvis ancha y la angulación de sus fémures, el visitante presencia el instante evolutivo en que nuestros antepasados abandonaron la marcha sobre los nudillos para erguirse definitivamente sobre dos pies hace tres punto dos millones de años. La reproducción exhibida en la Sala Introducción a la Antropología combina las piezas fósiles originales recuperadas en África con el modelo antropométrico desarrollado por el célebre Atelier Daynés de París. Contemplar los restos de Lucy no es únicamente admirar un fósil paleontológico de valor incalculable, sino mirarse en el espejo primigenio de la humanidad, comprendiendo que la marcha bípeda antecedió al desarrollo del gran cerebro en nuestro árbol genealógico. Esta abuela fósil nos recuerda que compartimos un origen biológico común que une a toda la diversidad humana sobre el planeta.",
+    "deep_desc": "En el caluroso valle del río Awash, en la depresión de Afar en Etiopía, las sabanas del Plioceno presenciaron la consolidación de un hito biológico sin retorno en la historia del planeta Tierra. Hace más de tres millones de años, las transformaciones climáticas del continente africano provocaron la fragmentación de las selvas continuas en mosaicos de arbolados y praderas abiertas. En este entorno cambiante, los homínidos primitivos del género Australopithecus desarrollaron una adaptación locomotora revolucionaria: liberar las extremidades superiores de la función de apoyo terrestre para adoptar una marcha bípeda erguida. Esta innovación anatómica no solo optimizó el gasto energético durante los desplazamientos prolongados en busca de alimento, sino que permitió a estos ancestros transportar herramientas rudimentarias de piedra y vigilar el horizonte por encima de los pastizales en alerta ante los depredadores. Para la ciencia antropológica moderna, el bipedismo constituye el umbral definitorio que separa a la familia Homininae de los restantes primates superiores, sirviendo como la premisa biológica que posibilitaría, millones de años más tarde, la emergencia del género Homo y el desarrollo de la cultura material. Al examinar minuciosamente la morfología ósea del esqueleto expuesto en la vitrina, el observador atento descubre la naturaleza mosaico de Australopithecus afarensis. La articulación de la cadera exhibe ilíacos cortos y evertidos similares a los humanos modernos, confirmando que la transmisión del peso corporal hacia las extremidades inferiores se realizaba en postura vertical. La curvatura de la columna lumbar y el ángulo del fémur hacia la articulación de la rodilla aseguran una zancada firme sobre el terreno firme. No obstante, los brazos conservan proporciones proporcionalmente más largas y los dedos de las manos muestran una ligera curvatura cóncava, rasgos ancestrales que atestiguan que Lucy aún conservaba la capacidad de trepar hábilmente a los árboles para pernoctar a salvo de los felinos salvajes. La cavidad craneal, de aproximadamente cuatrocientos centímetros cúbicos, revela un cerebro de volumen similar al de un chimpancé actual, demostrando de manera categórica que la locomoción erguida precedió por más de un millón de años a la encefalización compleja. La historia del hallazgo de este icónico registro fósil se remonta a la mañana del 24 de noviembre de 1974 en el yacimiento de Hadar, Etiopía. Durante las prospecciones de campo conducidas por el paleoantropólogo estadounidense Donald Johanson y el geólogo francés Maurice Taieb, Johanson divisó un pequeño hueso del codo proyectándose en la ladera de un barranco erosionado. La excavación minuciosa del sitio sacó a la luz doscientos cuarenta fragmentos óseos que pertenecían a un solo individuo, logrando recuperar cerca del cuarenta por ciento de la estructura del esqueleto completo. Aquella misma noche, mientras el equipo de investigación celebraba el hallazgo en el campamento escuchando repetidamente en una cinta magnetofónica la canción \"Lucy in the Sky with Diamonds\" de The Beatles, la fémur-pelvis fósil fue bautizada informalmente como Lucy. Por sugerencia de la dirección museográfica, el Museo Nacional de Antropología incorporó en la Sala Introducción a la Antropología una reproducción a escala real de sus fósiles junto con una escultura hiperrealista elaborada por el Atelier Daynés de París. Esta exhibición ofrece a los visitantes la oportunidad de contemplar el retrato filogenético de uno de nuestros ancestros más lejanos en la Tierra."
+  },
+  "audioguide": {
+    "audio_script": "En el caluroso valle del río Awash, en la depresión de Afar en Etiopía, las sabanas del Plioceno presenciaron la consolidación de un hito biológico sin retorno en la historia del planeta Tierra. Hace más de tres millones de años, las transformaciones climáticas del continente africano provocaron la fragmentación de las selvas continuas en mosaicos de arbolados y praderas abiertas. En este entorno cambiante, los homínidos primitivos del género Australopithecus desarrollaron una adaptación locomotora revolucionaria: liberar las extremidades superiores de la función de apoyo terrestre para adoptar una marcha bípeda erguida. Esta innovación anatómica no solo optimizó el gasto energético durante los desplazamientos prolongados en busca de alimento, sino que permitió a estos ancestros transportar herramientas rudimentarias de piedra y vigilar el horizonte por encima de los pastizales en alerta ante los depredadores. Para la ciencia antropológica moderna, el bipedismo constituye el umbral definitorio que separa a la familia Homininae de los restantes primates superiores, sirviendo como la premisa biológica que posibilitaría, millones de años más tarde, la emergencia del género Homo y el desarrollo de la cultura material. Al examinar minuciosamente la morfología ósea del esqueleto expuesto en la vitrina, el observador atento descubre la naturaleza mosaico de Australopithecus afarensis. La articulación de la cadera exhibe ilíacos cortos y evertidos similares a los humanos modernos, confirmando que la transmisión del peso corporal hacia las extremidades inferiores se realizaba en postura vertical. La curvatura de la columna lumbar y el ángulo del fémur hacia la articulación de la rodilla aseguran una zancada firme sobre el terreno firme. No obstante, los brazos conservan proporciones proporcionalmente más largas y los dedos de las manos muestran una ligera curvatura cóncava, rasgos ancestrales que atestiguan que Lucy aún conservaba la capacidad de trepar hábilmente a los árboles para pernoctar a salvo de los felinos salvajes. La cavidad craneal, de aproximadamente cuatrocientos centímetros cúbicos, revela un cerebro de volumen similar al de un chimpancé actual, demostrando de manera categórica que la locomoción erguida precedió por más de un millón de años a la encefalización compleja. La historia del hallazgo de este icónico registro fósil se remonta a la mañana del 24 de noviembre de 1974 en el yacimiento de Hadar, Etiopía. Durante las prospecciones de campo conducidas por el paleoantropólogo estadounidense Donald Johanson y el geólogo francés Maurice Taieb, Johanson divisó un pequeño hueso del codo proyectándose en la ladera de un barranco erosionado. La excavación minuciosa del sitio sacó a la luz doscientos cuarenta fragmentos óseos que pertenecían a un solo individuo, logrando recuperar cerca del cuarenta por ciento de la estructura del esqueleto completo. Aquella misma noche, mientras el equipo de investigación celebraba el hallazgo en el campamento escuchando repetidamente en una cinta magnetofónica la canción \"Lucy in the Sky with Diamonds\" de The Beatles, la fémur-pelvis fósil fue bautizada informalmente como Lucy. Por sugerencia de la dirección museográfica, el Museo Nacional de Antropología incorporó en la Sala Introducción a la Antropología una reproducción a escala real de sus fósiles junto con una escultura hiperrealista elaborada por el Atelier Daynés de París. Esta exhibición ofrece a los visitantes la oportunidad de contemplar el retrato filogenético de uno de nuestros ancestros más lejanos en la Tierra.",
+    "audio_file_url": ""
+  },
+  "summary_30s": "Huella fósil de la primera abuela que caminó erguida.",
+  "observation_challenges": [
+    {
+      "titulo": "Detalle 1",
+      "descripcion": "Pelvis ancha y evertida que confirma la postura bípeda erguida"
+    },
+    {
+      "titulo": "Detalle 2",
+      "descripcion": "Fémures inclinados hacia las rodillas en ángulo de marcha vertical"
+    },
+    {
+      "titulo": "Detalle 3",
+      "descripcion": "Brazos proporcionalmente alargados que conservaban capacidad para trepar a los árboles"
+    }
+  ],
+  "did_you_know": [],
+  "specs": {
+    "material": "",
+    "provenance": "",
+    "weight": "",
+    "age": ""
+  },
+  "faq": [
+    {
+      "question": "Mito: El esqueleto de Lucy es el resto fósil de la primera mujer Homo sapiens de la Tierra.",
+      "answer": "Realidad: De acuerdo con los peritajes del INAH, es la réplica de un homínido hembra de la especie Australopithecus afarensis (3.2 millones de años) que antecedió al género Homo."
+    }
+  ],
+  "visual_challenge": [
+    {
+      "id": "ch-1",
+      "title": "Detalle 1",
+      "clue": "Pelvis ancha y evertida que confirma la postura bípeda erguida"
+    },
+    {
+      "id": "ch-2",
+      "title": "Detalle 2",
+      "clue": "Fémures inclinados hacia las rodillas en ángulo de marcha vertical"
+    },
+    {
+      "id": "ch-3",
+      "title": "Detalle 3",
+      "clue": "Brazos proporcionalmente alargados que conservaban capacidad para trepar a los árboles"
+    }
+  ],
+  "curiosities": [],
+  "faqs": [
+    {
+      "question": "Mito: El esqueleto de Lucy es el resto fósil de la primera mujer Homo sapiens de la Tierra.",
+      "answer": "Realidad: De acuerdo con los peritajes del INAH, es la réplica de un homínido hembra de la especie Australopithecus afarensis (3.2 millones de años) que antecedió al género Homo."
+    }
+  ]
+}
