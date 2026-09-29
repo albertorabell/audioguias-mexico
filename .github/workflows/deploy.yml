@@ -3,7 +3,11 @@ name: Compilar y desplegar Vite en GitHub Pages
 on:
   push:
     branches: ['main']
+  # Botón manual: pestaña Actions > "Run workflow"
   workflow_dispatch:
+  # Automático: reconstruye la app cada 6 horas para leer los cambios del Google Sheets (no usa token)
+  schedule:
+    - cron: '23 */6 * * *'
 
 permissions:
   contents: read
@@ -16,7 +20,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
@@ -41,7 +45,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: build
     steps:
       - name: Publicar en GitHub Pages
