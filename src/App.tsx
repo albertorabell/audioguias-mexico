@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { SiteSummary, SiteManifest, SiteRoute, RouteStop, PieceData, SiteLicense, Room } from './types';
 import { getSiteLicense, activatePass, revokePass, hasActivePass } from './utils/license';
-import { SiteSelector } from './components/SiteSelector';
+import { useLocation, useNavigate } from 'react-router-dom';
+import { Home } from './components/Home';
 import { SiteOverview } from './components/SiteOverview';
 import { RouteWizard } from './components/RouteWizard';
 import { Navbar } from './components/Navbar';
@@ -23,6 +24,7 @@ import { BottomDockBar, DockTab } from './components/BottomDockBar';
 import { FloatingAudioPlayer } from './components/FloatingAudioPlayer';
 import { RoomView } from './components/RoomView';
 import { Radio, ArrowLeft } from 'lucide-react';
+import { ttsPlayer } from './utils/ttsPlayer';
 
 interface SpontaneousDetour {
   pieceFile: string;
@@ -136,9 +138,7 @@ export default function App() {
     setIsTourCompleted(false);
 
     // Stop any ongoing speech synthesis
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-    }
+    ttsPlayer.stop();
 
     try {
       const res = await fetch(getAssetUrl(site.path));
@@ -188,18 +188,14 @@ export default function App() {
 
   // Helper to re-open Wizard from within the tour or overview
   const handleOpenWizard = () => {
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-    }
+    ttsPlayer.stop();
     setViewMode('wizard');
   };
 
   // Helper to load piece data (supports both file paths and piece IDs with robust fallbacks)
   const loadPieceData = async (filePathOrId: string) => {
     setIsLoadingPiece(true);
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-    }
+    ttsPlayer.stop();
     try {
       const cleanTarget = (filePathOrId || '').trim();
       let piece: PieceData | null = null;
@@ -415,9 +411,7 @@ export default function App() {
       await loadPieceData(stop.piece_id || stop.id || stop.poi_id || stop.file);
     } else {
       // Reached the end: Show celebratory completion screen (solves black screen)!
-      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
-      }
+      ttsPlayer.stop();
       setIsTourCompleted(true);
     }
   };
@@ -906,7 +900,7 @@ export default function App() {
 
         {/* ================= VIEW 1: SITE SELECTOR (HOME) ================= */}
         {!selectedSite || viewMode === 'sites' ? (
-          <SiteSelector
+          <Home
             sites={sites}
             onSelectSite={handleSelectSite}
             isLoading={isLoadingSites}

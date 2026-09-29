@@ -22,7 +22,7 @@ import { Piece, RouteStop, SpecItem, PieceSpecsObject } from '../types';
 import { PieceImage } from './PieceImage';
 import { ImageZoomModal } from './ImageZoomModal';
 import { ttsPlayer, TTSState } from '../utils/ttsPlayer';
-import { getAssetUrl } from '../utils/urlHelper';
+import { getAssetUrl, PIECE_ALIASES, findPiece } from '../utils/urlHelper';
 
 interface PieceDetailProps {
   piece: Piece;
@@ -63,7 +63,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
 
   // 2. Modales e interacción
   const [isZoomOpen, setIsZoomOpen] = useState(false);
-  const [isHistoryExpanded, setIsHistoryExpanded] = useState(false);
+  const [isFullScriptExpanded, setIsFullScriptExpanded] = useState(false);
   const [completedChallenges, setCompletedChallenges] = useState<Record<number, boolean>>({});
 
   // Homologación de identificadores (ID vs PIECE_ID)
@@ -76,42 +76,64 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   // Carga complementaria de piezas del museo para carrusel en caso de no venir por props
   const [catalogPieces, setCatalogPieces] = useState<Piece[]>([]);
   useEffect(() => {
-    if (!roomPieces || roomPieces.length <= 1) {
-      fetch(getAssetUrl('data/pieces.json'))
-        .then((res) => (res.ok ? res.json() : []))
-        .then((data: Piece[]) => {
-          if (Array.isArray(data)) setCatalogPieces(data);
-        })
-        .catch((e) => console.warn('Could not fetch sibling pieces:', e));
-    }
-  }, [roomPieces]);
+    fetch(getAssetUrl('data/pieces.json'))
+      .then((res) => (res.ok ? res.json() : []))
+      .then((data: Piece[]) => {
+        if (Array.isArray(data)) setCatalogPieces(data);
+      })
+      .catch((e) => console.warn('Could not fetch sibling pieces:', e));
+  }, []);
 
   // Otras piezas en la misma sala excluyendo la actual
   const siblingPieces = useMemo(() => {
-    const pool = roomPieces && roomPieces.length > 0 ? roomPieces : catalogPieces;
-    if (!pool || pool.length === 0) return [];
+    const basePool = roomPieces && roomPieces.length > 0 ? roomPieces : catalogPieces;
+    if (!basePool || basePool.length === 0) return [];
 
     const targetRoom = (roomId || '').toLowerCase().trim();
     const targetPiece = (pieceId || '').toLowerCase().trim();
     const numTarget = targetRoom.match(/\d+/)?.[0];
 
-    return pool
-      .filter((p) => {
-        const pId = (p.piece_id || p.id || (p as any).poi_id || '').toLowerCase().trim();
-        if (!pId || pId === targetPiece) return false;
+    const filtered = basePool.filter((p) => {
+      const pId = (p.piece_id || p.id || (p as any).poi_id || '').toLowerCase().trim();
+      if (!pId || pId === targetPiece) return false;
 
-        const pRoom = (p.room_id || (p as any).roomId || p.location?.room_id || '').toLowerCase().trim();
-        if (targetRoom && pRoom) {
-          if (pRoom === targetRoom) return true;
-          const cleanP = pRoom.replace(/[-_]/g, '');
-          const cleanT = targetRoom.replace(/[-_]/g, '');
-          if (cleanP.includes(cleanT) || cleanT.includes(cleanP)) return true;
-          const numP = pRoom.match(/\d+/)?.[0];
-          if (numTarget && numP && parseInt(numP, 10) === parseInt(numTarget, 10)) return true;
-        }
-        return false;
-      })
-      .sort((a, b) => (a.orden_sugerido || 999) - (b.orden_sugerido || 999));
+      const pRoom = (p.room_id || (p as any).roomId || p.location?.room_id || '').toLowerCase().trim();
+      if (targetRoom && pRoom) {
+        if (pRoom === targetRoom) return true;
+        const cleanP = pRoom.replace(/[-_]/g, '');
+        const cleanT = targetRoom.replace(/[-_]/g, '');
+        if (cleanP.includes(cleanT) || cleanT.includes(cleanP)) return true;
+        const numP = pRoom.match(/\d+/)?.[0];
+        if (numTarget && numP && parseInt(numP, 10) === parseInt(numTarget, 10)) return true;
+      }
+      return false;
+    });
+
+    const enriched = filtered.map((sibling) => {
+      const sId = (sibling.piece_id || sibling.id || (sibling as any).poi_id || '').trim();
+      const catalogMatch =
+        catalogPieces.find(
+          (cp) =>
+            cp.piece_id === sId ||
+            cp.id === sId ||
+            (cp as any).poi_id === sId ||
+            cp.piece_id === PIECE_ALIASES[sId]
+        ) || findPiece(catalogPieces, sId);
+
+      return {
+        ...catalogMatch,
+        ...sibling,
+        image_filename:
+          sibling.image_filename ||
+          catalogMatch?.image_filename ||
+          sibling.identification?.hero_image ||
+          (sibling as any).thumbnail ||
+          (sibling as any).hero_image ||
+          (sibling as any).image,
+      };
+    });
+
+    return enriched.sort((a, b) => (a.orden_sugerido || 999) - (b.orden_sugerido || 999));
   }, [roomPieces, catalogPieces, roomId, pieceId]);
 
   const roomDisplayName = useMemo(() => {
@@ -138,10 +160,18 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     };
   }, [pieceId]);
 
-  // Detener audio si cambia de pieza
+  // Detener audio al salir de la pantalla (desmonte de componente)
+  useEffect(() => {
+    return () => {
+      ttsPlayer.stop();
+    };
+  }, []);
+
+  // Detener audio y resetear vista de lectura si cambia de pieza
   useEffect(() => {
     ttsPlayer.stop();
     setIsPlayingTTS(false);
+    setIsFullScriptExpanded(false);
   }, [pieceId]);
 
   // Normalización de textos
@@ -238,6 +268,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
       setIsPlayingTTS(false);
     } else {
       const scriptToSpeak = audioMode === 'expres' ? guionCorto : guionLargo;
+      const audioUrl = piece.audio_file_url || piece.audioguide?.audio_file_url || (piece as any).audio_url;
       ttsPlayer.play(
         scriptToSpeak,
         titulo,
@@ -247,6 +278,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
           artworkUrl: imageFilename ? getAssetUrl(`images/pieces/${imageFilename}`) : undefined,
           pieceId,
           mode: audioMode,
+          audioUrl: audioUrl ? getAssetUrl(audioUrl) : undefined,
         }
       );
       setIsPlayingTTS(true);
@@ -370,11 +402,74 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             {titulo}
           </h1>
 
-          {/* Frase gancho si existe */}
-          {fraseGancho && (
-            <p className="mt-2 text-sm sm:text-base font-serif italic text-[#9CA3AF] leading-relaxed">
-              «{fraseGancho}»
+          {/* Guion corto / Síntesis esencial siempre visible (narrative.short_desc o narrative.one_liner) */}
+          <div className="mt-2.5 space-y-1.5">
+            {fraseGancho && fraseGancho !== guionCorto && (
+              <p className="text-xs sm:text-sm font-serif italic text-amber-400/90 leading-snug">
+                «{fraseGancho}»
+              </p>
+            )}
+            <p className="text-sm sm:text-base text-stone-200 leading-relaxed font-normal">
+              {guionCorto}
             </p>
+          </div>
+
+          {/* Botón amigable de Acordeón: '📖 Leer explicación completa' */}
+          {guionLargo && (
+            <div className="mt-3.5">
+              <button
+                type="button"
+                id="btn-accordion-guion-largo"
+                onClick={() => setIsFullScriptExpanded((prev) => !prev)}
+                className="inline-flex items-center gap-2 py-2 px-3.5 rounded-xl bg-white/5 hover:bg-white/10 active:bg-white/15 border border-white/10 hover:border-amber-500/40 text-amber-400 hover:text-amber-300 text-xs sm:text-sm font-bold transition-all duration-200 cursor-pointer shadow-sm group select-none"
+                aria-expanded={isFullScriptExpanded}
+              >
+                <span>📖</span>
+                <span>
+                  {isFullScriptExpanded ? 'Ocultar explicación completa' : 'Leer explicación completa'}
+                </span>
+                <ChevronDown
+                  className={`w-4 h-4 text-amber-400 transition-transform duration-300 ${
+                    isFullScriptExpanded ? 'rotate-180 text-amber-300' : 'group-hover:translate-y-0.5'
+                  }`}
+                />
+              </button>
+
+              {/* Guion largo que se despliega suavemente hacia abajo */}
+              <div
+                id="accordion-explicacion-larga"
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                  isFullScriptExpanded
+                    ? 'max-h-[1600px] opacity-100 mt-3 pt-3 border-t border-white/10'
+                    : 'max-h-0 opacity-0 pointer-events-none'
+                }`}
+              >
+                <div className="p-4 sm:p-5 rounded-2xl bg-[#141419]/95 border border-white/10 space-y-3 shadow-inner">
+                  <div className="flex items-center justify-between text-xs text-amber-400 font-bold uppercase tracking-wider">
+                    <div className="flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5" />
+                      <span>Explicación Curatorial Completa</span>
+                    </div>
+                    <span className="text-[10px] text-stone-400 font-mono font-normal">
+                      INAH Oficial
+                    </span>
+                  </div>
+                  <p className="font-serif text-sm sm:text-base leading-relaxed text-stone-200 text-justify first-letter:text-4xl first-letter:font-bold first-letter:text-[#F59E0B] first-letter:mr-2.5 first-letter:float-left">
+                    {guionLargo}
+                  </p>
+                  <div className="pt-2 text-[11px] text-[#6B7280] flex items-center justify-between border-t border-white/5">
+                    <span>Museo Nacional de Antropología</span>
+                    <button
+                      type="button"
+                      onClick={() => setIsFullScriptExpanded(false)}
+                      className="text-amber-400/80 hover:text-amber-300 underline cursor-pointer text-xs"
+                    >
+                      Cerrar lectura ▲
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           )}
 
           {/* Fila de metadatos tipo pastillas de cristal: Época, Cultura, Material, Dimensiones */}
@@ -610,39 +705,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         </section>
       )}
 
-      {/* ================= 5. HISTORIA COMPLETA (BLOQUE REVISTA CULTURAL) ================= */}
-      <section className="px-4 py-2">
-        <div className="rounded-2xl bg-[#141419] border border-white/10 overflow-hidden shadow-lg">
-          <button
-            type="button"
-            onClick={() => setIsHistoryExpanded(!isHistoryExpanded)}
-            className="w-full p-4 flex items-center justify-between text-left hover:bg-white/5 transition-colors cursor-pointer"
-          >
-            <div className="flex items-center gap-2">
-              <BookOpen className="w-4 h-4 text-[#F59E0B]" />
-              <h3 className="text-xs font-bold uppercase tracking-wider text-white">
-                Historia Completa y Análisis Curatorial
-              </h3>
-            </div>
-            {isHistoryExpanded ? (
-              <ChevronUp className="w-4 h-4 text-[#9CA3AF]" />
-            ) : (
-              <ChevronDown className="w-4 h-4 text-[#9CA3AF]" />
-            )}
-          </button>
 
-          {isHistoryExpanded && (
-            <div className="px-5 pb-5 pt-1 border-t border-white/5 space-y-3 animate-fadeIn">
-              <p className="font-serif text-sm sm:text-base leading-relaxed text-stone-200 text-justify first-letter:text-4xl first-letter:font-bold first-letter:text-[#F59E0B] first-letter:mr-2 first-letter:float-left">
-                {guionLargo}
-              </p>
-              <div className="pt-2 text-[11px] text-[#6B7280] flex items-center gap-2">
-                <span>Fuente: Instituto Nacional de Antropología e Historia (INAH)</span>
-              </div>
-            </div>
-          )}
-        </div>
-      </section>
 
       {/* ================= ESPECIFICACIONES COMPLETAS DE LA PIEZA ================= */}
       {especificacionesEntries.length > 4 && (
@@ -761,7 +824,12 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               const sTitle = sibling.titulo || sibling.identification?.title || sibling.title || 'Pieza';
               const sSub =
                 sibling.frase_gancho || sibling.identification?.subtitle || sibling.periodo || 'Obra destacada';
-              const sThumb = sibling.image_filename;
+              const sThumb =
+                sibling.image_filename ||
+                sibling.identification?.hero_image ||
+                (sibling as any).hero_image ||
+                (sibling as any).thumbnail ||
+                (sibling as any).image;
 
               return (
                 <div
@@ -783,6 +851,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                     <div className="relative w-full h-24 rounded-xl overflow-hidden bg-[#0B0B0E] mb-2 border border-white/5">
                       <PieceImage
                         imageFilename={sThumb}
+                        pieceId={sId}
+                        pieceTitle={sTitle}
                         title={sTitle}
                         alt={sTitle}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

@@ -11,6 +11,7 @@ import {
   Sparkles,
   Layers,
   Volume2,
+  ArrowLeft,
 } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, Room } from '../types';
 import { MuseumMapSvg } from './MuseumMapSvg';
@@ -121,18 +122,31 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
     <div className="min-h-screen bg-[#0B0B0E] text-[#F3F4F6] flex flex-col pb-36 select-none animate-fadeIn">
       {/* ================= ENCABEZADO EDITORIAL SOBRIO ================= */}
       <header className="sticky top-0 z-30 px-4 py-3 bg-[#0B0B0E]/95 backdrop-blur-xl border-b border-white/10 flex items-center justify-between gap-3">
-        <div className="min-w-0">
-          <div className="flex items-center gap-2 mb-0.5">
-            <span className="text-[9px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full bg-[#F59E0B]/20 text-[#F59E0B] border border-[#F59E0B]/30">
-              AUDIOGUÍA OFICIAL
-            </span>
-            <span className="text-[10px] text-[#9CA3AF] hidden sm:inline">
-              Bosque de Chapultepec
-            </span>
+        <div className="flex items-center gap-2.5 min-w-0">
+          {onBack && (
+            <button
+              type="button"
+              onClick={onBack}
+              className="p-1.5 -ml-1 rounded-xl bg-white/5 hover:bg-white/10 text-amber-400 hover:text-amber-300 transition-colors cursor-pointer shrink-0 border border-white/10"
+              title="Volver a la selección de recintos"
+              aria-label="Volver a inicio"
+            >
+              <ArrowLeft className="w-4 h-4" />
+            </button>
+          )}
+          <div className="min-w-0">
+            <div className="flex items-center gap-2 mb-0.5">
+              <span className="text-[9px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full bg-[#F59E0B]/20 text-[#F59E0B] border border-[#F59E0B]/30">
+                AUDIOGUÍA OFICIAL
+              </span>
+              <span className="text-[10px] text-[#9CA3AF] hidden sm:inline">
+                {site?.location || 'Bosque de Chapultepec'}
+              </span>
+            </div>
+            <h1 className="text-sm sm:text-base font-bold text-white tracking-tight truncate">
+              {site?.name || 'Museo Nacional de Antropología'}
+            </h1>
           </div>
-          <h1 className="text-sm sm:text-base font-bold text-white tracking-tight truncate">
-            Museo Nacional de Antropología
-          </h1>
         </div>
 
         {/* Botón discreto de búsqueda rápida / teclado numérico */}

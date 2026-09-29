@@ -6,10 +6,11 @@ export interface SiteSummary {
   thumbnail: string;
   badge: string;
   path: string;
-  stripe_link: string;
+  stripe_link?: string;
   description: string;
   highlights_count: number;
   total_stops: number;
+  status?: 'active' | 'coming_soon';
 }
 
 export interface MapCoords {
@@ -66,6 +67,7 @@ export interface Piece {
   map_y: number;
   image_filename: string;
   is_free: boolean;
+  audio_file_url?: string;
 
   // Campos de compatibilidad con estructuras previas
   id?: string;

@@ -6,11 +6,12 @@
     "location": "Bosque de Chapultepec, Ciudad de México",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Museo_Nacional_de_Antropolog%C3%ADa_-_MNA_01.jpg/1200px-Museo_Nacional_de_Antropolog%C3%ADa_-_MNA_01.jpg",
     "badge": "Top 10 Museos del Mundo",
+    "status": "active",
     "path": "data/mna/mna.json",
     "stripe_link": "https://buy.stripe.com/demo_mna",
-    "description": "El recinto arqueológico y etnográfico más importante de México y América Latina, con más de 22 salas temáticas.",
-    "highlights_count": 4,
-    "total_stops": 4
+    "description": "El recinto arqueológico y etnográfico más importante de México y América Latina, con 22 salas y más de 130 obras maestras analizadas a detalle.",
+    "highlights_count": 133,
+    "total_stops": 22
   },
   {
     "id": "TEOTIHUACAN",
@@ -19,23 +20,53 @@
     "location": "Valle de Teotihuacán, Estado de México",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Teotihuacan_pyramids.jpg/1280px-Teotihuacan_pyramids.jpg",
     "badge": "Patrimonio de la Humanidad UNESCO",
+    "status": "coming_soon",
     "path": "data/teotihuacan/teotihuacan.json",
     "stripe_link": "https://buy.stripe.com/demo_teotihuacan",
-    "description": "La legendaria 'Ciudad de los Dioses', epicentro ceremonial y una de las mayores urbes prehispánicas de Mesoamérica.",
-    "highlights_count": 4,
-    "total_stops": 4
+    "description": "La legendaria 'Ciudad de los Dioses', epicentro ceremonial y una de las mayores urbes prehispánicas con la Pirámide del Sol y de la Luna.",
+    "highlights_count": 18,
+    "total_stops": 8
   },
   {
     "id": "CHAPULTEPEC",
-    "name": "Museo Nacional de Historia Castillo de Chapultepec",
+    "name": "Castillo de Chapultepec",
     "short_name": "Castillo Chapultepec",
     "location": "Primera Sección Bosque de Chapultepec, CDMX",
     "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Castillo_de_Chapultepec%2C_Ciudad_de_M%C3%A9xico%2C_M%C3%A9xico%2C_2013-10-16%2C_DD_02.JPG/1280px-Castillo_de_Chapultepec%2C_Ciudad_de_M%C3%A9xico%2C_M%C3%A9xico%2C_2013-10-16%2C_DD_02.JPG",
     "badge": "Único Castillo Real en América",
+    "status": "coming_soon",
     "path": "data/chapultepec/chapultepec.json",
     "stripe_link": "https://buy.stripe.com/demo_chapultepec",
-    "description": "El emblemático alcázar virreinal y residencia imperial sobre el cerro del Chapulín, testigo de hitos históricos cruciales.",
-    "highlights_count": 4,
-    "total_stops": 4
+    "description": "El emblemático alcázar virreinal y residencia imperial sobre el cerro del Chapulín, testigo de hitos históricos decisivos de la República.",
+    "highlights_count": 24,
+    "total_stops": 12
+  },
+  {
+    "id": "TEMPLO_MAYOR",
+    "name": "Templo Mayor (Tenochtitlán)",
+    "short_name": "Templo Mayor",
+    "location": "Centro Histórico, Ciudad de México",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Zona_Arqueol%C3%B3gica_del_Templo_Mayor_%2849886290001%29.jpg/1280px-Zona_Arqueol%C3%B3gica_del_Templo_Mayor_%2849886290001%29.jpg",
+    "badge": "Corazón Sagrado Mexica",
+    "status": "coming_soon",
+    "path": "data/templo_mayor/templo_mayor.json",
+    "stripe_link": "https://buy.stripe.com/demo_templomayor",
+    "description": "El eje cósmico de la civilización mexica donde convergían los templos de Tláloc y Huitzilopochtli, con su museo de sitio de 8 salas.",
+    "highlights_count": 20,
+    "total_stops": 10
+  },
+  {
+    "id": "BELLAS_ARTES",
+    "name": "Palacio de Bellas Artes",
+    "short_name": "Bellas Artes",
+    "location": "Centro Histórico / Alameda Central, CDMX",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Palacio_de_Bellas_Artes_2019.jpg/1280px-Palacio_de_Bellas_Artes_2019.jpg",
+    "badge": "Catedral del Arte en México",
+    "status": "coming_soon",
+    "path": "data/bellas_artes/bellas_artes.json",
+    "stripe_link": "https://buy.stripe.com/demo_bellasartes",
+    "description": "La máxima joya art nouveau y art déco de México, sede de monumentales murales de Rivera, Orozco, Siqueiros y Tamayo.",
+    "highlights_count": 16,
+    "total_stops": 6
   }
 ]
