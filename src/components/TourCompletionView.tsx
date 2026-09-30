@@ -9,7 +9,11 @@ import {
   BookOpen,
   ArrowRight,
   Landmark,
+  Home,
+  Sliders,
 } from 'lucide-react';
+import { formatRouteDuration } from '../utils/routeOptimizer';
+import { t } from '../utils/i18nStrings';
 
 interface TourCompletionViewProps {
   routeName: string;
@@ -18,7 +22,8 @@ interface TourCompletionViewProps {
   stops?: RouteStop[];
   onExploreRooms: () => void;
   onChooseRoute: () => void;
-  onRepeatTour: () => void;
+  onGoHome: () => void;
+  onRepeatTour?: () => void;
   onOpenMap?: () => void;
 }
 
@@ -29,10 +34,11 @@ export const TourCompletionView: React.FC<TourCompletionViewProps> = ({
   stops = [],
   onExploreRooms,
   onChooseRoute,
+  onGoHome,
   onRepeatTour,
   onOpenMap,
 }) => {
-  // Calcular cantidad de salas distintas visitadas
+  // Number of distinct rooms visited
   const distinctRooms = new Set(
     stops.map((s) => s.room_id || s.room_zone).filter(Boolean)
   ).size || 1;
@@ -40,13 +46,12 @@ export const TourCompletionView: React.FC<TourCompletionViewProps> = ({
   return (
     <div
       id="tour-completion-screen"
-      className="min-h-[82vh] flex flex-col justify-between px-5 py-8 bg-[#0B0B0E] text-[#F3F4F6] animate-fadeIn select-none"
+      className="min-h-[85vh] flex flex-col justify-between px-5 py-8 bg-[#0B0B0E] text-[#F3F4F6] animate-fadeIn select-none"
     >
       <div className="max-w-md mx-auto w-full space-y-6">
-        {/* ================= 7. INSIGNIA DORADA CONMEMORATIVA DEL MNA ================= */}
+        {/* Insignia dorada conmemorativa */}
         <div className="text-center space-y-3 pt-2">
           <div className="relative inline-block">
-            {/* Resplandor radial dorado */}
             <div className="absolute inset-0 bg-[#F59E0B]/20 rounded-full blur-2xl" />
 
             <div className="relative w-24 h-24 sm:w-28 sm:h-28 mx-auto rounded-3xl bg-gradient-to-tr from-[#B45309] via-[#F59E0B] to-[#FDE68A] flex items-center justify-center shadow-2xl shadow-[#F59E0B]/30 ring-4 ring-[#F59E0B]/30 transform hover:scale-105 transition-transform duration-300">
@@ -60,19 +65,18 @@ export const TourCompletionView: React.FC<TourCompletionViewProps> = ({
 
           <div>
             <span className="inline-block px-3 py-1 rounded-full text-[10px] font-black tracking-widest uppercase bg-[#F59E0B]/15 text-[#F59E0B] border border-[#F59E0B]/40 mb-2">
-              RECORRIDO CONCLUIDO
+              {t.tourCompletedBadge}
             </span>
-            <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-white">
-              ¡Recorrido Completado!
+            <h1 className="text-2xl sm:text-3xl font-black tracking-tight text-white">
+              {t.tourCompletedTitle}
             </h1>
             <p className="text-xs sm:text-sm font-medium text-[#9CA3AF] mt-1 max-w-xs mx-auto leading-relaxed">
-              Has recorrido con éxito la ruta de{' '}
-              <span className="font-bold text-[#F59E0B]">{routeName}</span> en el Museo Nacional de Antropología.
+              {t.tourCompletedDesc(routeName)}
             </p>
           </div>
         </div>
 
-        {/* ================= RESUMEN DEL RECORRIDO (ESTADÍSTICAS) ================= */}
+        {/* Resumen de estadísticas */}
         <div className="p-5 rounded-3xl bg-[#141419] border border-white/10 shadow-2xl space-y-4">
           <div className="grid grid-cols-3 gap-2.5 text-center">
             {/* Salas visitadas */}
@@ -100,10 +104,10 @@ export const TourCompletionView: React.FC<TourCompletionViewProps> = ({
               <p className="text-2xl font-bold text-white tabular-nums">
                 {totalStops}
               </p>
-              <span className="text-[9px] text-[#9CA3AF]">visitadas</span>
+              <span className="text-[9px] text-[#9CA3AF]">obras vistas</span>
             </div>
 
-            {/* Tiempo total */}
+            {/* Tiempo recorrido */}
             <div className="p-3 rounded-2xl bg-[#0B0B0E] border border-white/5 flex flex-col justify-between">
               <div className="flex items-center justify-center gap-1 text-[#F59E0B] mb-1">
                 <Clock className="w-3.5 h-3.5" />
@@ -111,74 +115,67 @@ export const TourCompletionView: React.FC<TourCompletionViewProps> = ({
                   Tiempo
                 </span>
               </div>
-              <p className="text-2xl font-bold text-white tabular-nums">
-                ~{estimatedMinutes}m
+              <p className="text-lg font-bold text-white tabular-nums truncate">
+                {formatRouteDuration(estimatedMinutes)}
               </p>
-              <span className="text-[9px] text-[#9CA3AF]">guiado</span>
+              <span className="text-[9px] text-[#9CA3AF]">estimado</span>
             </div>
           </div>
-
-          {/* Carrusel horizontal de obras completadas */}
-          {stops.length > 0 && (
-            <div className="pt-3 border-t border-white/10">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-[#9CA3AF] block mb-2">
-                Hitos arqueológicos de este recorrido:
-              </span>
-              <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-thin">
-                {stops.map((stop, i) => (
-                  <div
-                    key={i}
-                    className="shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-[#0B0B0E] border border-white/10 text-xs text-stone-200"
-                  >
-                    <span className="text-[10px] font-bold text-[#F59E0B]">#{i + 1}</span>
-                    <span className="font-semibold max-w-[120px] truncate">{stop.title}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
         </div>
 
-        {/* Nota cultural de continuidad */}
-        <div className="p-3.5 rounded-2xl bg-[#141419] border border-white/5 text-xs text-center text-[#9CA3AF] leading-relaxed">
-          <span className="text-[#F59E0B] font-bold">✨ Recuerda:</span> El MNA cuenta con 22 salas temáticas en Planta Baja y Planta Alta. Puedes continuar tu visita eligiendo otra sala o abriendo el mapa arquitectónico.
-        </div>
-
-        {/* ================= DOS BOTONES PRINCIPALES DE BORDES REDONDEADOS ================= */}
-        <div className="space-y-3 pt-1">
-          {/* Botón 1: Explorar otra sala */}
+        {/* ================= TRES BOTONES CLAROS SEGÚN REQUERIMIENTO =================
+            1. "Volver al museo"
+            2. "Diseñar otra ruta"
+            3. "Ir al inicio"
+        */}
+        <div className="space-y-3 pt-2">
+          {/* Botón 1: Volver al explorador */}
           <button
-            id="btn-explore-rooms-completed"
+            id="btn-back-to-explorer"
             type="button"
             onClick={onExploreRooms}
-            className="w-full py-4 px-5 rounded-2xl font-bold text-sm bg-[#F59E0B] hover:bg-amber-400 text-black shadow-xl shadow-[#F59E0B]/25 active:scale-95 transition-all flex items-center justify-center gap-2.5 cursor-pointer"
+            className="w-full py-4 px-5 rounded-2xl font-black text-sm bg-gradient-to-r from-amber-500 to-amber-400 text-black shadow-xl shadow-amber-500/25 active:scale-95 transition flex items-center justify-center gap-2.5 cursor-pointer"
           >
             <BookOpen className="w-4 h-4 fill-current" />
-            <span>Explorar otra sala del Museo</span>
-            <ArrowRight className="w-4 h-4" />
+            <span>Volver al explorador (Ver más piezas)</span>
+            <ArrowRight className="w-4 h-4 stroke-[2.5]" />
           </button>
 
-          {/* Botón 2: Volver al Mapa */}
+          {/* Botón 2: Diseñar otra ruta */}
           <button
-            id="btn-back-to-map-completed"
+            id="btn-design-another-route"
             type="button"
-            onClick={onOpenMap || onChooseRoute}
-            className="w-full py-3.5 px-5 rounded-2xl font-bold text-xs bg-[#141419] hover:bg-[#1f1f26] text-white border border-white/10 shadow-lg active:scale-95 transition-all flex items-center justify-center gap-2 cursor-pointer"
+            onClick={onChooseRoute}
+            className="w-full py-3.5 px-5 rounded-2xl font-bold text-xs bg-[#141419] hover:bg-[#1c1c24] text-white border border-white/10 shadow-lg active:scale-95 transition flex items-center justify-center gap-2 cursor-pointer"
           >
-            <Compass className="w-4 h-4 text-[#F59E0B]" />
-            <span>Volver al Plano y Mapa Arquitectónico</span>
+            <Sliders className="w-4 h-4 text-[#F59E0B]" />
+            <span>Diseñar otra ruta</span>
           </button>
 
-          {/* Botón terciario de texto: Repetir este recorrido desde el inicio */}
+          {/* Botón 3: Ir al inicio */}
           <button
-            id="btn-repeat-tour-completed"
+            id="btn-go-home"
             type="button"
-            onClick={onRepeatTour}
-            className="w-full py-2 text-center text-xs font-semibold text-[#6B7280] hover:text-[#F3F4F6] transition-colors flex items-center justify-center gap-1.5 cursor-pointer"
+            onClick={onGoHome}
+            className="w-full py-3 px-5 rounded-2xl font-bold text-xs bg-white/5 hover:bg-white/10 text-stone-300 hover:text-white border border-white/5 active:scale-95 transition flex items-center justify-center gap-2 cursor-pointer"
           >
-            <RotateCcw className="w-3.5 h-3.5" />
-            <span>Repetir este recorrido desde el inicio</span>
+            <Home className="w-4 h-4" />
+            <span>Ir al inicio</span>
           </button>
+
+          {/* Repetir este recorrido opcional */}
+          {onRepeatTour && (
+            <div className="text-center pt-1">
+              <button
+                type="button"
+                onClick={onRepeatTour}
+                className="text-xs text-stone-500 hover:text-stone-300 transition-colors inline-flex items-center gap-1 cursor-pointer"
+              >
+                <RotateCcw className="w-3 h-3" />
+                <span>Repetir este recorrido</span>
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>

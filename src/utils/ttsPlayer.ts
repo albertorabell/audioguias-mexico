@@ -1,10 +1,14 @@
 /**
- * Singleton Hybrid Audio & TTS Player para audioguías del Museo Nacional de Antropología
- * Soporta reproducción prioritaria de archivos de audio HTML5 (<audio src="...mp3">)
- * con fallback transparente a SpeechSynthesis (Web Speech API con Keep-Alive y voces en español es-MX).
- * Integra Screen Wake Lock API, MediaSession API para controles en pantalla de bloqueo,
- * seguimiento de progreso, salto de 15 segundos (-15s / +15s), control de velocidad y estado reactivo.
+ * Singleton Hybrid Audio & TTS Player para audioguías del Museo Nacional de Antropología.
+ * - Soporta reproducción prioritaria de archivos de audio HTML5 (<audio src="...mp3">).
+ * - Fallback transparente a SpeechSynthesis con búsqueda de voces en español (es-MX -> es-US -> es-ES).
+ * - Notificación clara si el dispositivo no cuenta con voces en español instaladas.
+ * - División del guion en frases (~200 caracteres) para evitar silenciamiento en Android/iOS.
+ * - MediaSession API con iconos reales de la PWA (/audioguias-mexico/pwa-192x192.png).
+ * - Sin uso de pause/resume en móviles (solo en escritorio).
  */
+
+import { getAssetUrl } from './urlHelper';
 
 export interface TTSState {
   isPlaying: boolean;
@@ -21,6 +25,7 @@ export interface TTSState {
   pieceId?: string;
   isHtmlAudio?: boolean;
   audioUrl?: string;
+  errorMessage?: string | null;
 }
 
 type StateChangeListener = (playing: boolean, state: TTSState) => void;
@@ -28,7 +33,6 @@ type StateChangeListener = (playing: boolean, state: TTSState) => void;
 class TTSPlayer {
   private static instance: TTSPlayer;
   private synth: SpeechSynthesis | null = null;
-  private currentUtterance: SpeechSynthesisUtterance | null = null;
   private htmlAudio: HTMLAudioElement | null = null;
   private isHtmlAudio = false;
   private currentAudioUrl = '';
@@ -51,6 +55,10 @@ class TTSPlayer {
   private listeners: Set<StateChangeListener> = new Set();
 
   private cachedVoices: SpeechSynthesisVoice[] = [];
+  private textChunks: string[] = [];
+  private currentChunkIndex = 0;
+  private isSpeakingChunks = false;
+  private errorMessage: string | null = null;
 
   private constructor() {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
@@ -72,12 +80,10 @@ class TTSPlayer {
           loadVoices();
         };
       }
-      if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-        try {
-          window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
-        } catch {
-          // Ignorar
-        }
+      try {
+        window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
+      } catch {
+        // Ignorar
       }
 
       if (typeof document !== 'undefined') {
@@ -97,52 +103,68 @@ class TTSPlayer {
     return TTSPlayer.instance;
   }
 
-  public getPreferredVoice(): SpeechSynthesisVoice | null {
+  /**
+   * Obtiene la voz preferida en español según el contenido (no el idioma del teléfono).
+   * Prioridad: es-MX -> es-US -> es-ES -> cualquier es-*.
+   * Si las voces están vacías en la primera llamada, espera hasta 2 segundos al evento voiceschanged.
+   */
+  public async getPreferredVoiceAsync(): Promise<SpeechSynthesisVoice | null> {
     if (!this.synth) return null;
-    const voices = (this.synth.getVoices() && this.synth.getVoices().length > 0)
-      ? this.synth.getVoices()
-      : this.cachedVoices;
+
+    let voices = this.synth.getVoices();
+    if (!voices || voices.length === 0) {
+      voices = this.cachedVoices;
+    }
+
+    if (!voices || voices.length === 0) {
+      // Esperar hasta 2000ms a que el navegador termine de cargar las voces del sistema
+      await new Promise<void>((resolve) => {
+        let isDone = false;
+        const handleVoices = () => {
+          if (!isDone) {
+            isDone = true;
+            this.synth?.removeEventListener('voiceschanged', handleVoices);
+            resolve();
+          }
+        };
+
+        this.synth?.addEventListener('voiceschanged', handleVoices);
+        setTimeout(() => {
+          if (!isDone) {
+            isDone = true;
+            this.synth?.removeEventListener('voiceschanged', handleVoices);
+            resolve();
+          }
+        }, 2000);
+      });
+
+      voices = this.synth.getVoices();
+      if (voices && voices.length > 0) {
+        this.cachedVoices = voices;
+      }
+    }
+
     if (!voices || voices.length === 0) return null;
 
-    // 1. Inspeccionar activamente voces mexicanas: es-MX / es_MX
-    const spanishMxVoice =
-      voices.find(v => v.lang === 'es-MX' || v.lang === 'es_MX' || v.lang.toLowerCase() === 'es-mx') ||
-      voices.find(v => v.lang.toLowerCase().includes('es-mx'));
+    // 1. Preferir estrictamente español de México (es-MX / es_MX)
+    const esMx = voices.find((v) => /^es[-_]MX$/i.test(v.lang) || v.lang.toLowerCase().includes('es-mx'));
+    if (esMx) return esMx;
 
-    // 2. Voces neuronales preferidas en español
-    const preferredNames = [
-      'google español',
-      'paulina',
-      'jorge',
-      'microsoft sabina online',
-      'sabina',
-      'monica',
-      'diego',
-      'carlos',
-      'ángel',
-      'angel',
-      'soledad',
-      'lupe'
-    ];
+    // 2. Voces en español de EE. UU. / Latinoamérica (es-US, es-419)
+    const esUs = voices.find(
+      (v) => /^es[-_](US|419)$/i.test(v.lang) || v.lang.toLowerCase().includes('es-us')
+    );
+    if (esUs) return esUs;
 
-    const namedSpanishVoice = voices.find(v => {
-      const isSpanish = v.lang.toLowerCase().startsWith('es');
-      if (!isSpanish) return false;
-      const name = v.name.toLowerCase();
-      return preferredNames.some(p => name.includes(p));
-    });
+    // 3. Voces en español de España (es-ES)
+    const esEs = voices.find((v) => /^es[-_]ES$/i.test(v.lang) || v.lang.toLowerCase().includes('es-es'));
+    if (esEs) return esEs;
 
-    if (namedSpanishVoice) return namedSpanishVoice;
-    if (spanishMxVoice) return spanishMxVoice;
+    // 4. Cualquier voz disponible con prefijo "es"
+    const anyEs = voices.find((v) => v.lang.toLowerCase().startsWith('es'));
+    if (anyEs) return anyEs;
 
-    // 3. Respaldo a cualquier voz en español (es-US, es-419, es-ES, etc.)
-    const spanishVoice =
-      voices.find(v => v.lang.startsWith('es-') || v.lang.startsWith('es_')) ||
-      voices.find(v => v.lang.startsWith('es') || v.lang.toLowerCase().startsWith('es'));
-
-    if (spanishVoice) return spanishVoice;
-
-    // Nunca retornar una voz extranjera (en inglés, etc.)
+    // Si no hay ninguna voz en español, retornar null
     return null;
   }
 
@@ -156,7 +178,7 @@ class TTSPlayer {
           });
         }
       } catch (err) {
-        console.warn('No se pudo activar el Screen Wake Lock:', err);
+        console.warn('No se pudo activar Screen Wake Lock:', err);
       }
     }
   }
@@ -178,32 +200,30 @@ class TTSPlayer {
         const artwork = artworkUrl
           ? [{ src: artworkUrl, sizes: '512x512', type: 'image/jpeg' }]
           : [
-              { src: '/images/pieces/icon-192.png', sizes: '192x192', type: 'image/png' },
-              { src: '/images/pieces/icon-512.png', sizes: '512x512', type: 'image/png' }
+              {
+                src: getAssetUrl('pwa-192x192.png'),
+                sizes: '192x192',
+                type: 'image/png',
+              },
+              {
+                src: getAssetUrl('pwa-512x512.png'),
+                sizes: '512x512',
+                type: 'image/png',
+              },
             ];
 
         navigator.mediaSession.metadata = new MediaMetadata({
-          title: title || 'Audioguía Oficial',
+          title: title || 'Audioguía',
           artist: 'Museo Nacional de Antropología',
-          album: this.currentRoomName || 'INAH · Recorrido Oficial',
+          album: this.currentRoomName || 'Contenido editorial de Audioguías México',
           artwork,
         });
 
-        navigator.mediaSession.setActionHandler('play', () => {
-          this.resume();
-        });
-        navigator.mediaSession.setActionHandler('pause', () => {
-          this.pause();
-        });
-        navigator.mediaSession.setActionHandler('stop', () => {
-          this.stop();
-        });
-        navigator.mediaSession.setActionHandler('seekbackward', () => {
-          this.skip(-15);
-        });
-        navigator.mediaSession.setActionHandler('seekforward', () => {
-          this.skip(15);
-        });
+        navigator.mediaSession.setActionHandler('play', () => this.resume());
+        navigator.mediaSession.setActionHandler('pause', () => this.pause());
+        navigator.mediaSession.setActionHandler('stop', () => this.stop());
+        navigator.mediaSession.setActionHandler('seekbackward', () => this.skip(-15));
+        navigator.mediaSession.setActionHandler('seekforward', () => this.skip(15));
 
         navigator.mediaSession.playbackState = 'playing';
       } catch (err) {
@@ -223,9 +243,10 @@ class TTSPlayer {
   }
 
   public getState(): TTSState {
-    const progress = this.estimatedDuration > 0
-      ? Math.min(1, Math.max(0, this.currentTime / this.estimatedDuration))
-      : 0;
+    const progress =
+      this.estimatedDuration > 0
+        ? Math.min(1, Math.max(0, this.currentTime / this.estimatedDuration))
+        : 0;
 
     return {
       isPlaying: this.playing && !this.isPaused,
@@ -242,12 +263,13 @@ class TTSPlayer {
       pieceId: this.currentPieceId,
       isHtmlAudio: this.isHtmlAudio,
       audioUrl: this.currentAudioUrl,
+      errorMessage: this.errorMessage,
     };
   }
 
   private notify() {
     const state = this.getState();
-    this.listeners.forEach(fn => {
+    this.listeners.forEach((fn) => {
       try {
         fn(state.isPlaying, state);
       } catch {
@@ -256,17 +278,67 @@ class TTSPlayer {
     });
   }
 
-  private calculateDuration(text: string, rate: number): number {
+  /**
+   * Calcula la duración estimada en segundos a partir de las palabras (~2.25 palabras/segundo).
+   */
+  public calculateDuration(text: string, rate: number = 1.0): number {
     const cleanText = text.replace(/[#*_~`]/g, '').trim();
     const words = cleanText.split(/\s+/).filter(Boolean);
-    // Velocidad media en español ~135 palabras por minuto (~2.25 palabras por segundo)
-    const baseSeconds = Math.max(15, words.length / (2.25 * rate));
+    const effectiveRate = Math.max(0.5, rate || 1.0);
+    const baseSeconds = Math.max(10, Math.round(words.length / (2.25 * effectiveRate)));
     return baseSeconds;
   }
 
   /**
+   * Divide un texto en fragmentos de ~200 caracteres por signos de puntuación
+   * para evitar corte de síntesis en iOS/Android.
+   */
+  private splitTextIntoChunks(text: string, maxLen: number = 200): string[] {
+    const clean = text
+      .replace(/[#*_~`]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (!clean) return [];
+
+    const sentenceRegex = /([^.?!;:\n]+[.?!;:\n]+)/g;
+    const rawSentences = clean.match(sentenceRegex) || [clean];
+    const chunks: string[] = [];
+    let current = '';
+
+    for (const raw of rawSentences) {
+      const sentence = raw.trim();
+      if (!sentence) continue;
+
+      if ((current + ' ' + sentence).trim().length <= maxLen) {
+        current = (current ? current + ' ' : '') + sentence;
+      } else {
+        if (current) chunks.push(current.trim());
+        // Si una sola frase excede maxLen, dividir por comas o palabras
+        if (sentence.length > maxLen) {
+          const words = sentence.split(' ');
+          let sub = '';
+          for (const w of words) {
+            if ((sub + ' ' + w).trim().length <= maxLen) {
+              sub = (sub ? sub + ' ' : '') + w;
+            } else {
+              if (sub) chunks.push(sub.trim());
+              sub = w;
+            }
+          }
+          if (sub) chunks.push(sub.trim());
+          current = '';
+        } else {
+          current = sentence;
+        }
+      }
+    }
+    if (current) chunks.push(current.trim());
+    return chunks.length > 0 ? chunks : [clean];
+  }
+
+  /**
    * Reproduce una pieza priorizando archivo MP3 en HTML5 Audio si está disponible,
-   * con fallback automático a síntesis de voz en español es-MX.
+   * con fallback a síntesis Web Speech dividida en frases con voz en español.
    */
   public play(
     text: string,
@@ -281,6 +353,7 @@ class TTSPlayer {
     }
   ): void {
     this.stop();
+    this.errorMessage = null;
 
     const rawAudioUrl = (meta?.audioUrl || '').trim();
     const hasValidAudioUrl =
@@ -290,7 +363,7 @@ class TTSPlayer {
         rawAudioUrl.startsWith('https://') ||
         rawAudioUrl.startsWith('data:audio'));
 
-    // 1. PRIORIDAD: Reproducir archivo MP3 mediante HTML5 Audio
+    // 1. PRIORIDAD: Archivo de audio MP3
     if (hasValidAudioUrl) {
       this.currentTitle = title;
       this.currentScript = text;
@@ -331,10 +404,9 @@ class TTSPlayer {
           cb?.();
         };
 
-        audio.onerror = (e) => {
-          console.warn('HTML5 Audio falló al cargar archivo MP3, activando fallback a SpeechSynthesis:', e);
+        audio.onerror = () => {
+          console.warn('HTML5 Audio falló al cargar MP3, activando síntesis de voz en español');
           this.cleanupHtmlAudio();
-          // Fallback automático a síntesis de voz
           this.playSpeechSynthesis(text, title, onEnd, meta);
         };
 
@@ -343,26 +415,24 @@ class TTSPlayer {
         this.setupMediaSession(title, meta?.artworkUrl);
         this.notify();
 
-        audio.play().catch((err) => {
-          console.warn('Error al iniciar HTML5 Audio play(), fallback a SpeechSynthesis:', err);
+        audio.play().catch(() => {
           this.cleanupHtmlAudio();
           this.playSpeechSynthesis(text, title, onEnd, meta);
         });
         return;
-      } catch (err) {
-        console.warn('Fallo al inicializar HTML5 Audio, fallback a SpeechSynthesis:', err);
+      } catch {
         this.cleanupHtmlAudio();
       }
     }
 
-    // 2. FALLBACK / NATIVO: Síntesis de voz Web Speech API
+    // 2. FALLBACK A SÍNTESIS DE VOZ
     this.playSpeechSynthesis(text, title, onEnd, meta);
   }
 
   /**
-   * Reproducción nativa mediante SpeechSynthesis con Keep-Alive y dicción en español
+   * Reproducción mediante SpeechSynthesis con división por frases y voz en español obligatoria
    */
-  private playSpeechSynthesis(
+  private async playSpeechSynthesis(
     text: string,
     title: string,
     onEnd?: () => void,
@@ -372,14 +442,25 @@ class TTSPlayer {
       pieceId?: string;
       mode?: 'expres' | 'inmersion';
     }
-  ): void {
+  ): Promise<void> {
     if (!this.synth) {
-      console.warn('SpeechSynthesis no disponible en este navegador');
+      this.errorMessage = 'La síntesis de voz no está disponible en este dispositivo.';
+      this.notify();
       onEnd?.();
       return;
     }
 
     if (!text || !text.trim()) {
+      onEnd?.();
+      return;
+    }
+
+    // Buscar voz en español obligatoria
+    const spanishVoice = await this.getPreferredVoiceAsync();
+    if (!spanishVoice) {
+      this.errorMessage =
+        'Tu teléfono no tiene voz en español. Puedes leer el texto o instalar una voz en Ajustes.';
+      this.notify();
       onEnd?.();
       return;
     }
@@ -397,51 +478,21 @@ class TTSPlayer {
     this.isPaused = false;
     this.estimatedDuration = this.calculateDuration(text, this.playbackRate);
 
-    const cleanText = text
-      .replace(/[#*_~`]/g, '')
-      .replace(/\s+/g, ' ')
-      .trim();
+    // Dividir texto en frases de ~200 caracteres para evitar corte a los 15s en iOS/Android
+    this.textChunks = this.splitTextIntoChunks(text, 200);
+    this.currentChunkIndex = 0;
+    this.isSpeakingChunks = true;
 
-    const utterance = new SpeechSynthesisUtterance(cleanText);
-    this.currentUtterance = utterance;
-    if (typeof window !== 'undefined') {
-      (window as any).__ttsKeepAliveUtterance = utterance;
+    // Detectar si es móvil: en móvil NO usar truco de pause/resume cada 14s
+    const isMobile =
+      typeof navigator !== 'undefined' &&
+      /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    if (!isMobile) {
+      this.startDesktopKeepAlive();
     }
 
-    // Forzar estrictamente idioma en español para evitar acento extranjero en sistemas en inglés
-    utterance.lang = 'es-MX';
-    utterance.pitch = 1.0;
-    utterance.rate = 0.95 * this.playbackRate;
-
-    const spanishVoice = this.getPreferredVoice();
-    if (spanishVoice) {
-      utterance.voice = spanishVoice;
-      utterance.lang = spanishVoice.lang || 'es-MX';
-    }
-
-    utterance.onboundary = (event) => {
-      if (cleanText.length > 0 && event.charIndex !== undefined) {
-        const ratio = event.charIndex / cleanText.length;
-        this.currentTime = ratio * this.estimatedDuration;
-        this.notify();
-      }
-    };
-
-    utterance.onend = () => {
-      this.cleanup();
-      const cb = this.onEndCallback;
-      this.onEndCallback = null;
-      cb?.();
-    };
-
-    utterance.onerror = (event) => {
-      if (event.error !== 'canceled' && event.error !== 'interrupted') {
-        console.warn('Error en SpeechSynthesis:', event.error);
-      }
-      this.cleanup();
-    };
-
-    // Timer de avance suave
+    // Timer de avance de tiempo
     if (this.timer) clearInterval(this.timer);
     this.timer = setInterval(() => {
       if (this.playing && !this.isPaused && !this.isHtmlAudio) {
@@ -450,27 +501,58 @@ class TTSPlayer {
       }
     }, 250);
 
-    // Keep-Alive para Web Speech API (evita corte a los 15s)
-    this.startKeepAlive();
-
     this.playing = true;
     this.requestWakeLock();
     this.setupMediaSession(title, meta?.artworkUrl);
     this.notify();
 
+    // Comenzar a hablar frases consecutivas
+    this.speakCurrentChunk(spanishVoice);
+  }
+
+  private speakCurrentChunk(voice: SpeechSynthesisVoice) {
+    if (!this.synth || !this.isSpeakingChunks || this.currentChunkIndex >= this.textChunks.length) {
+      this.cleanup();
+      const cb = this.onEndCallback;
+      this.onEndCallback = null;
+      cb?.();
+      return;
+    }
+
+    const chunkText = this.textChunks[this.currentChunkIndex];
+    const utterance = new SpeechSynthesisUtterance(chunkText);
+    utterance.voice = voice;
+    utterance.lang = voice.lang || 'es-MX';
+    utterance.pitch = 1.0;
+    utterance.rate = 0.95 * this.playbackRate;
+
+    utterance.onend = () => {
+      if (this.isSpeakingChunks && this.playing) {
+        this.currentChunkIndex++;
+        this.speakCurrentChunk(voice);
+      }
+    };
+
+    utterance.onerror = (event) => {
+      if (event.error !== 'canceled' && event.error !== 'interrupted') {
+        console.warn('Error en SpeechSynthesis:', event.error);
+        this.errorMessage = 'Hubo un inconveniente al reproducir la voz en este dispositivo.';
+      }
+      this.cleanup();
+    };
+
     try {
       this.synth.speak(utterance);
     } catch (err) {
-      console.error('Fallo al ejecutar synth.speak:', err);
+      console.error('Error al invocar synth.speak:', err);
       this.cleanup();
     }
   }
 
   /**
-   * Inicia el truco Keep-Alive para evitar que navegadores móviles (Chrome/Safari)
-   * silencien la locución a los 15 segundos: pausa y reanuda cada 14s.
+   * Keep-Alive únicamente para navegadores de escritorio que silencian SpeechSynthesis tras 15 segundos
    */
-  private startKeepAlive(): void {
+  private startDesktopKeepAlive(): void {
     this.stopKeepAlive();
     this.keepAliveTimer = setInterval(() => {
       if (
@@ -483,16 +565,13 @@ class TTSPlayer {
         try {
           window.speechSynthesis.pause();
           window.speechSynthesis.resume();
-        } catch (e) {
+        } catch {
           // Ignorar
         }
       }
     }, 14000);
   }
 
-  /**
-   * Limpia el temporizador de Keep-Alive
-   */
   private stopKeepAlive(): void {
     if (this.keepAliveTimer) {
       clearInterval(this.keepAliveTimer);
@@ -500,9 +579,6 @@ class TTSPlayer {
     }
   }
 
-  /**
-   * Pausa la narración (HTML5 Audio o SpeechSynthesis)
-   */
   public pause(): void {
     if (this.playing && !this.isPaused) {
       if (this.isHtmlAudio && this.htmlAudio) {
@@ -519,23 +595,16 @@ class TTSPlayer {
           console.warn('Error en synth.pause:', err);
         }
       }
-
       this.isPaused = true;
-      if (typeof navigator !== 'undefined' && 'mediaSession' in navigator) {
-        navigator.mediaSession.playbackState = 'paused';
-      }
       this.notify();
     }
   }
 
-  /**
-   * Reanuda la narración
-   */
   public resume(): void {
     if (this.playing && this.isPaused) {
       if (this.isHtmlAudio && this.htmlAudio) {
         try {
-          this.htmlAudio.play();
+          this.htmlAudio.play().catch(() => {});
         } catch (err) {
           console.warn('Error en htmlAudio.resume:', err);
         }
@@ -545,135 +614,49 @@ class TTSPlayer {
         } catch (err) {
           console.warn('Error en synth.resume:', err);
         }
-        this.startKeepAlive();
+        const isMobile =
+          typeof navigator !== 'undefined' &&
+          /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+        if (!isMobile) {
+          this.startDesktopKeepAlive();
+        }
       }
-
       this.isPaused = false;
-      if (typeof navigator !== 'undefined' && 'mediaSession' in navigator) {
-        navigator.mediaSession.playbackState = 'playing';
-      }
       this.notify();
-    } else if (!this.playing && this.currentScript) {
-      // Volver a reproducir si estaba detenido
-      this.play(this.currentScript, this.currentTitle, this.onEndCallback || undefined, {
-        roomName: this.currentRoomName,
-        artworkUrl: this.currentArtworkUrl,
-        pieceId: this.currentPieceId,
-        mode: this.audioMode,
-        audioUrl: this.currentAudioUrl || undefined,
-      });
     }
   }
 
-  /**
-   * Alterna play / pause
-   */
-  public togglePlay(): void {
-    if (this.isPlaying()) {
-      this.pause();
-    } else if (this.isPaused) {
-      this.resume();
-    } else if (this.currentScript) {
-      this.resume();
-    }
-  }
-
-  /**
-   * Salta 15 segundos adelante o atrás
-   */
-  public skip(seconds: number): void {
-    // Si estamos en HTML5 Audio:
-    if (this.isHtmlAudio && this.htmlAudio) {
-      const duration = this.estimatedDuration || this.htmlAudio.duration || 60;
-      const targetTime = Math.max(0, Math.min(duration, this.htmlAudio.currentTime + seconds));
-      this.htmlAudio.currentTime = targetTime;
-      this.currentTime = targetTime;
-      this.notify();
-      return;
-    }
-
-    // Si estamos en SpeechSynthesis:
-    if (!this.currentScript) return;
-    const newTime = Math.max(0, Math.min(this.estimatedDuration, this.currentTime + seconds));
-    this.currentTime = newTime;
-    const ratio = this.estimatedDuration > 0 ? this.currentTime / this.estimatedDuration : 0;
-
-    // Calcular índice aproximado del texto para reanudar desde esa posición
-    const cleanText = this.currentScript.replace(/[#*_~`]/g, '').trim();
-    const charIndex = Math.floor(ratio * cleanText.length);
-    const remainingText = cleanText.slice(charIndex);
-
-    if (this.synth) {
-      this.synth.cancel();
-      if (remainingText.trim() && this.playing) {
-        const utterance = new SpeechSynthesisUtterance(remainingText);
-        this.currentUtterance = utterance;
-        if (typeof window !== 'undefined') {
-          (window as any).__ttsKeepAliveUtterance = utterance;
-        }
-
-        utterance.lang = 'es-MX';
-        utterance.pitch = 1.0;
-        utterance.rate = 0.95 * this.playbackRate;
-        const voice = this.getPreferredVoice();
-        if (voice) {
-          utterance.voice = voice;
-          utterance.lang = voice.lang || 'es-MX';
-        }
-
-        utterance.onboundary = (event) => {
-          if (event.charIndex !== undefined) {
-            const relRatio = (charIndex + event.charIndex) / cleanText.length;
-            this.currentTime = relRatio * this.estimatedDuration;
-            this.notify();
-          }
-        };
-
-        utterance.onend = () => {
-          this.cleanup();
-          this.onEndCallback?.();
-        };
-
-        utterance.onerror = (event) => {
-          if (event.error !== 'canceled' && event.error !== 'interrupted') {
-            console.warn('Error en SpeechSynthesis tras saltar:', event.error);
-          }
-          this.cleanup();
-        };
-
-        this.startKeepAlive();
-
-        try {
-          this.synth.speak(utterance);
-        } catch (e) {
-          console.warn('Error al saltar audio:', e);
-          this.cleanup();
-        }
-      }
-    }
+  public stop(): void {
+    this.cleanup();
+    this.clearMediaSession();
     this.notify();
   }
 
-  /**
-   * Cambia la velocidad de reproducción (1x, 1.25x, 1.5x)
-   */
-  public setRate(rate: number): void {
-    this.playbackRate = rate;
-    if (this.isHtmlAudio && this.htmlAudio) {
-      this.htmlAudio.playbackRate = rate;
-      this.notify();
-      return;
-    }
+  private cleanup(): void {
+    this.playing = false;
+    this.isPaused = false;
+    this.isSpeakingChunks = false;
+    this.textChunks = [];
+    this.currentChunkIndex = 0;
 
-    if (this.playing && this.currentScript) {
-      this.estimatedDuration = this.calculateDuration(this.currentScript, this.playbackRate);
-      this.skip(0); // Reiniciar en posición actual con nuevo rate
-    } else {
-      this.notify();
+    if (this.timer) {
+      clearInterval(this.timer);
+      this.timer = null;
     }
+    this.stopKeepAlive();
+    this.cleanupHtmlAudio();
+
+    if (this.synth) {
+      try {
+        this.synth.cancel();
+      } catch {
+        // Ignorar
+      }
+    }
+    this.releaseWakeLock();
   }
 
-  private cleanupHtmlAudio() {
+  private cleanupHtmlAudio(): void {
     if (this.htmlAudio) {
       try {
         this.htmlAudio.pause();
@@ -688,67 +671,43 @@ class TTSPlayer {
       this.htmlAudio = null;
     }
     this.isHtmlAudio = false;
+    this.currentAudioUrl = '';
   }
 
-  /**
-   * Detiene inmediatamente la narración y libera recursos
-   */
-  public stop(): void {
-    if (this.timer) {
-      clearInterval(this.timer);
-      this.timer = null;
+  public skip(seconds: number): void {
+    if (!this.playing) return;
+    if (this.isHtmlAudio && this.htmlAudio) {
+      const newTime = Math.max(0, Math.min(this.estimatedDuration, this.htmlAudio.currentTime + seconds));
+      this.htmlAudio.currentTime = newTime;
+      this.currentTime = newTime;
+      this.notify();
+    } else {
+      const newTime = Math.max(0, Math.min(this.estimatedDuration, this.currentTime + seconds));
+      this.currentTime = newTime;
+      this.notify();
     }
-    this.stopKeepAlive();
-
-    this.cleanupHtmlAudio();
-
-    if (this.synth) {
-      try {
-        this.synth.cancel();
-      } catch {
-        // Ignorar
-      }
-    }
-
-    this.cleanup();
   }
 
-  private cleanup() {
-    if (this.timer) {
-      clearInterval(this.timer);
-      this.timer = null;
+  public setPlaybackRate(rate: number): void {
+    this.playbackRate = Math.max(0.5, Math.min(2.0, rate));
+    if (this.isHtmlAudio && this.htmlAudio) {
+      this.htmlAudio.playbackRate = this.playbackRate;
     }
-    this.stopKeepAlive();
-    this.cleanupHtmlAudio();
-    this.playing = false;
-    this.isPaused = false;
-    this.currentUtterance = null;
-    if (typeof window !== 'undefined') {
-      try {
-        delete (window as any).__ttsKeepAliveUtterance;
-      } catch {
-        // Ignorar
-      }
-    }
-    this.releaseWakeLock();
-    this.clearMediaSession();
     this.notify();
   }
 
-  public isPlaying(): boolean {
-    if (this.isHtmlAudio && this.htmlAudio) {
-      return !this.htmlAudio.paused && !this.isPaused;
-    }
-    return this.playing && !this.isPaused && !!this.synth && (this.synth.speaking || this.synth.pending);
+  public setRate(rate: number): void {
+    this.setPlaybackRate(rate);
   }
 
-  public getCurrentTitle(): string {
-    return this.currentTitle;
+  public clearErrorMessage(): void {
+    this.errorMessage = null;
+    this.notify();
   }
 
   public subscribe(listener: StateChangeListener): () => void {
     this.listeners.add(listener);
-    listener(this.isPlaying(), this.getState());
+    listener(this.playing && !this.isPaused, this.getState());
     return () => {
       this.listeners.delete(listener);
     };

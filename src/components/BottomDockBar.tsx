@@ -1,32 +1,37 @@
 import React from 'react';
 import { Landmark, Compass, Map as MapIcon, Search } from 'lucide-react';
+import { useTheme } from '../utils/ThemeContext';
 
 export type DockTab = 'salas' | 'recorridos' | 'mapa' | 'teclado';
 
 interface BottomDockBarProps {
   activeTab: DockTab;
   onSelectTab: (tab: DockTab) => void;
+  roomsCount?: number;
   className?: string;
 }
 
 export const BottomDockBar: React.FC<BottomDockBarProps> = ({
   activeTab,
   onSelectTab,
+  roomsCount,
   className = '',
 }) => {
+  const { isSunMode } = useTheme();
+
   const tabs = [
     {
       id: 'salas' as DockTab,
       label: 'Salas',
       icon: Landmark,
-      badge: '22',
+      badge: roomsCount ? String(roomsCount) : undefined,
       hint: 'Explorador PB y PA',
     },
     {
       id: 'recorridos' as DockTab,
-      label: 'Rutas',
+      label: 'Mi Ruta',
       icon: Compass,
-      hint: 'Asistente y rutas temáticas',
+      hint: 'Gestor de ruta y asistente',
     },
     {
       id: 'mapa' as DockTab,
@@ -36,9 +41,9 @@ export const BottomDockBar: React.FC<BottomDockBarProps> = ({
     },
     {
       id: 'teclado' as DockTab,
-      label: '🔢 Vitrina',
+      label: 'Buscar',
       icon: Search,
-      hint: 'Número de vitrina o título',
+      hint: 'Buscar piezas y salas',
     },
   ];
 
@@ -46,7 +51,11 @@ export const BottomDockBar: React.FC<BottomDockBarProps> = ({
     <nav
       id="museum-dock-bar"
       aria-label="Navegación principal de una sola mano"
-      className={`fixed bottom-0 left-0 right-0 z-40 backdrop-blur-xl bg-black/85 border-t border-white/10 shadow-[0_-10px_30px_rgba(0,0,0,0.6)] ${className}`}
+      className={`fixed bottom-0 left-0 right-0 z-40 backdrop-blur-xl border-t transition-colors duration-200 ${
+        isSunMode
+          ? 'bg-white/95 border-stone-200 shadow-[0_-10px_30px_rgba(0,0,0,0.08)]'
+          : 'bg-black/90 border-white/10 shadow-[0_-10px_30px_rgba(0,0,0,0.6)]'
+      } ${className}`}
     >
       <div className="max-w-[480px] mx-auto grid grid-cols-4 items-center h-16 px-2">
         {tabs.map((tab) => {
@@ -59,47 +68,38 @@ export const BottomDockBar: React.FC<BottomDockBarProps> = ({
               id={`dock-tab-${tab.id}`}
               type="button"
               onClick={() => onSelectTab(tab.id)}
-              aria-label={tab.label}
-              aria-current={isActive ? 'page' : undefined}
-              className={`relative min-h-[48px] h-full flex flex-col items-center justify-center transition-all duration-200 select-none cursor-pointer group active:scale-95 ${
+              className={`relative flex flex-col items-center justify-center h-13 rounded-2xl transition-all duration-200 active:scale-95 cursor-pointer ${
                 isActive
-                  ? 'text-[#F59E0B]'
-                  : 'text-[#9CA3AF] hover:text-[#F3F4F6]'
+                  ? isSunMode
+                    ? 'text-amber-700 font-extrabold'
+                    : 'text-amber-400 font-extrabold'
+                  : isSunMode
+                  ? 'text-stone-500 hover:text-stone-900 hover:bg-stone-100 font-semibold'
+                  : 'text-stone-400 hover:text-stone-200 hover:bg-white/5 font-semibold'
               }`}
+              title={tab.hint}
             >
-              {/* Indicador de activo superior suave */}
-              {isActive && (
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-0.5 rounded-full bg-[#F59E0B] shadow-[0_0_8px_#F59E0B]" />
-              )}
-
-              {/* Contenedor de Icono con microescala */}
-              <div
-                className={`relative flex items-center justify-center transition-transform duration-200 ${
-                  isActive ? 'scale-110 -translate-y-0.5' : 'group-hover:scale-105'
-                }`}
-              >
+              <div className="relative">
                 <Icon
-                  className={`w-5 h-5 transition-colors ${
-                    isActive ? 'stroke-[2.4px] text-[#F59E0B]' : 'stroke-[1.8px]'
+                  className={`w-5 h-5 transition-transform duration-200 ${
+                    isActive ? 'scale-110 stroke-[2.5]' : 'stroke-[1.8]'
                   }`}
                 />
                 {tab.badge && (
-                  <span className="absolute -top-1 -right-2 px-1 text-[9px] font-black leading-none rounded-full bg-[#F59E0B]/20 text-[#F59E0B] border border-[#F59E0B]/40">
+                  <span className="absolute -top-1.5 -right-3.5 px-1.5 py-0.2 rounded-full text-[9px] font-mono font-bold bg-amber-500 text-black leading-none">
                     {tab.badge}
                   </span>
                 )}
               </div>
 
-              {/* Etiqueta de texto */}
-              <span
-                className={`text-[10px] tracking-tight mt-1 transition-all ${
-                  isActive
-                    ? 'font-bold text-[#F3F4F6]'
-                    : 'font-medium text-[#9CA3AF]'
-                }`}
-              >
+              <span className={`text-[11px] mt-1 tracking-tight ${isActive ? 'font-bold' : 'font-medium'}`}>
                 {tab.label}
               </span>
+
+              {/* Indicator dot */}
+              {isActive && (
+                <span className="absolute bottom-1 w-1.5 h-1.5 rounded-full bg-amber-500 shadow-xs" />
+              )}
             </button>
           );
         })}

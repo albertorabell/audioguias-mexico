@@ -31,6 +31,14 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   onRevokePass,
 }) => {
   const { isSunMode } = useTheme();
+  const isDebugMode = React.useMemo(() => {
+    if (typeof window === 'undefined') return false;
+    try {
+      return new URLSearchParams(window.location.search).get('debug') === '1';
+    } catch {
+      return false;
+    }
+  }, []);
 
   if (!isOpen) return null;
 
@@ -225,22 +233,24 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             <ExternalLink className="w-4 h-4" />
           </button>
 
-          {/* Test Simulation Button (Instant unlock) */}
-          <button
-            id="btn-simulate-pass"
-            onClick={() => {
-              onSimulatePurchase();
-              onClose();
-            }}
-            className={`w-full min-h-[48px] px-4 py-3 rounded-xl text-xs font-extrabold transition flex items-center justify-center gap-2 active:scale-98 border ${
-              isSunMode
-                ? 'bg-emerald-100 hover:bg-emerald-200 text-emerald-900 border-emerald-400'
-                : 'bg-emerald-950 hover:bg-emerald-900 text-emerald-300 border-emerald-700/60'
-            }`}
-          >
-            <RefreshCw className="w-4 h-4 text-emerald-600" />
-            <span>Activar Pase Simulado (72h para testing)</span>
-          </button>
+          {/* Test Simulation Button (only if ?debug=1 in URL) */}
+          {isDebugMode && (
+            <button
+              id="btn-simulate-pass"
+              onClick={() => {
+                onSimulatePurchase();
+                onClose();
+              }}
+              className={`w-full min-h-[48px] px-4 py-3 rounded-xl text-xs font-extrabold transition flex items-center justify-center gap-2 active:scale-98 border ${
+                isSunMode
+                  ? 'bg-emerald-100 hover:bg-emerald-200 text-emerald-900 border-emerald-400'
+                  : 'bg-emerald-950 hover:bg-emerald-900 text-emerald-300 border-emerald-700/60'
+              }`}
+            >
+              <RefreshCw className="w-4 h-4 text-emerald-600" />
+              <span>Activar Pase Simulado (72h para testing)</span>
+            </button>
+          )}
 
           {hasPass && (
             <button

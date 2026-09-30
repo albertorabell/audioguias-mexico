@@ -398,7 +398,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
               <div className="flex items-center gap-2 mb-3">
                 <FileText className="w-4 h-4 text-[#F59E0B]" />
                 <h3 className="text-xs font-bold uppercase tracking-wider text-[#9CA3AF]">
-                  Transcripción Narrativa Oficial
+                  Transcripción Narrativa
                 </h3>
               </div>
               <div className="p-4 rounded-2xl bg-[#141419] border border-white/10 text-[#F3F4F6]">

@@ -36,6 +36,15 @@ export const PIECE_ALIASES: Record<string, string> = {
   'dintel-26': 'mna_s09_dintel_26_yaxchilan',
   'dintel-26-de-yaxchilan': 'mna_s09_dintel_26_yaxchilan',
   'estela-48-de-izapa': 'mna_s09_estela_48_izapa',
+  'adolescente-huasteco': 'mna_s08_adolescente_huasteco',
+  'luchador-olmeca': 'mna_s08_luchador_olmeca',
+  'senor-las-limas': 'mna_s08_senor_las_limas',
+  'ofrenda4-laventa': 'mna_s08_ofrenda4_laventa',
+  'hacha-votiva-jade': 'mna_s08_hacha_votiva_jade',
+  'carita-sonriente': 'mna_s08_carita_sonriente',
+  'yugo-sapo': 'mna_s08_yugo_sapo',
+  'palma-sacrificio': 'mna_s08_palma_sacrificio',
+  'cihuateteo-zapotal': 'mna_s08_cihuateteo_zapotal',
 };
 
 /**
@@ -48,7 +57,7 @@ export function getAssetUrl(path: string): string {
   }
 
   const cleanPath = path.replace(/^\/+/, '');
-  const baseUrl = import.meta.env.BASE_URL || './';
+  const baseUrl = (typeof import.meta !== 'undefined' && import.meta.env?.BASE_URL) || './';
   let baseDir = baseUrl.replace(/\/$/, '');
 
   // Detect GitHub Pages repo subpath (e.g. /audioguias-mexico/)
@@ -64,6 +73,61 @@ export function getAssetUrl(path: string): string {
   }
 
   return `${baseDir}/${cleanPath}`;
+}
+
+/**
+ * Resolves candidate image URLs for a piece across .webp, .png, .jpg and local base path.
+ * Guarantees that PieceImage and ImageZoomModal share the exact same resolution logic.
+ */
+export function resolvePieceImageCandidates(
+  filename?: string,
+  pieceId?: string
+): string[] {
+  const rawTarget = (filename || '').trim();
+  const urls: string[] = [];
+  const cleanPieceId = (pieceId || '').trim();
+  const canonicalId = cleanPieceId ? (PIECE_ALIASES[cleanPieceId] || cleanPieceId) : '';
+
+  if (rawTarget.startsWith('http://') || rawTarget.startsWith('https://') || rawTarget.startsWith('data:')) {
+    urls.push(rawTarget);
+    if (canonicalId) {
+      urls.push(getAssetUrl(`images/pieces/${canonicalId}.webp`));
+      urls.push(getAssetUrl(`images/pieces/${canonicalId}.png`));
+    }
+    return Array.from(new Set(urls));
+  }
+
+  if (rawTarget) {
+    const cleanPath = rawTarget
+      .replace(/^\/?(public\/)?/, '')
+      .replace(/^\/?(images\/pieces\/)?/, '')
+      .replace(/^\.\//, '');
+
+    const extMatch = cleanPath.match(/\.(webp|png|jpg|jpeg)$/i);
+    const baseName = extMatch ? cleanPath.replace(/\.(webp|png|jpg|jpeg)$/i, '') : cleanPath;
+    const currentExt = extMatch ? extMatch[0].toLowerCase() : '';
+
+    urls.push(getAssetUrl(`images/pieces/${cleanPath}`));
+    if (currentExt === '.webp') {
+      urls.push(getAssetUrl(`images/pieces/${baseName}.png`));
+      urls.push(getAssetUrl(`images/pieces/${baseName}.jpg`));
+    } else if (currentExt === '.png') {
+      urls.push(getAssetUrl(`images/pieces/${baseName}.webp`));
+      urls.push(getAssetUrl(`images/pieces/${baseName}.jpg`));
+    } else {
+      urls.push(getAssetUrl(`images/pieces/${baseName}.webp`));
+      urls.push(getAssetUrl(`images/pieces/${baseName}.png`));
+      urls.push(getAssetUrl(`images/pieces/${baseName}.jpg`));
+    }
+  }
+
+  if (canonicalId) {
+    urls.push(getAssetUrl(`images/pieces/${canonicalId}.webp`));
+    urls.push(getAssetUrl(`images/pieces/${canonicalId}.png`));
+    urls.push(getAssetUrl(`images/pieces/${canonicalId}.jpg`));
+  }
+
+  return Array.from(new Set(urls.filter(Boolean)));
 }
 
 /**
@@ -99,6 +163,7 @@ export function findPiece(pieces: any[], targetId: string): any {
   const canonicalId = PIECE_ALIASES[targetId] || targetId;
   const lowerTarget = targetId.toLowerCase();
   const lowerCanonical = canonicalId.toLowerCase();
+  const targetCleanSlug = lowerTarget.replace(/^mna_s\d+_/i, '').replace(/_/g, '-');
 
   return pieces.find((p: any) => {
     if (!p) return false;
@@ -110,6 +175,8 @@ export function findPiece(pieces: any[], targetId: string): any {
     if (typeof pId === 'string') {
       const pIdLower = pId.toLowerCase();
       if (pIdLower === lowerTarget || pIdLower === lowerCanonical) return true;
+      const pIdCleanSlug = pIdLower.replace(/^mna_s\d+_/i, '').replace(/_/g, '-');
+      if (pIdCleanSlug === targetCleanSlug) return true;
     }
     return false;
   });

@@ -38,11 +38,25 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     setTheme(nextTheme);
   };
 
-  // Sync theme-color meta tag in document head for browser status bars
+  // Sync class on root element and theme-color meta tag
   useEffect(() => {
-    const metaThemeColor = document.querySelector("meta[name='theme-color']");
-    if (metaThemeColor) {
-      metaThemeColor.setAttribute('content', theme === 'sun' ? '#FAF8F5' : '#141414');
+    const isDark = theme === 'museum';
+    if (typeof document !== 'undefined') {
+      const root = document.documentElement;
+      if (isDark) {
+        root.classList.add('dark');
+        root.classList.remove('sun');
+        root.setAttribute('data-theme', 'museum');
+      } else {
+        root.classList.remove('dark');
+        root.classList.add('sun');
+        root.setAttribute('data-theme', 'sun');
+      }
+
+      const metaThemeColor = document.querySelector("meta[name='theme-color']");
+      if (metaThemeColor) {
+        metaThemeColor.setAttribute('content', isDark ? '#0B0B0E' : '#FAF8F5');
+      }
     }
   }, [theme]);
 
@@ -67,3 +81,5 @@ export const useTheme = () => {
   }
   return ctx;
 };
+
+export default ThemeContext;

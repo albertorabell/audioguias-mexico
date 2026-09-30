@@ -16,18 +16,22 @@ import {
   RotateCcw,
   Navigation2,
   Radio,
+  Search,
 } from 'lucide-react';
-import { SiteManifest, SiteRoute, RouteStop, Room, RoomPieceSummary } from '../types';
+import { SiteManifest, SiteRoute, RouteStop, Room, PieceData } from '../types';
 import { useTheme } from '../utils/ThemeContext';
-import { formatRouteDuration } from '../utils/routeOptimizer';
+import { calculateRouteTimeMinutes, formatRouteDuration } from '../utils/routeOptimizer';
 import { SafeImage } from './SafeImage';
+import { getAssetUrl } from '../utils/urlHelper';
 
 interface LiveRouteManagerModalProps {
   isOpen: boolean;
   onClose: () => void;
   activeRoute: SiteRoute;
   currentStopIndex: number;
-  manifest: SiteManifest;
+  manifest?: SiteManifest | null;
+  rooms?: Room[];
+  pieces?: PieceData[];
   onSelectStop: (stopIndex: number) => void;
   onUpdateRoute: (updatedRoute: SiteRoute, newCurrentIndex?: number) => void;
   onStartSpontaneousDetour: (pieceFile: string, pieceTitle: string) => void;
@@ -39,6 +43,8 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
   activeRoute,
   currentStopIndex,
   manifest,
+  rooms = [],
+  pieces = [],
   onSelectStop,
   onUpdateRoute,
   onStartSpontaneousDetour,
@@ -47,24 +53,97 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
   const [showCatalogBrowser, setShowCatalogBrowser] = useState(false);
   const [catalogSearch, setCatalogSearch] = useState('');
 
-  if (!isOpen) return null;
+  // ALL HOOKS CALLED UNCONDITIONALLY BEFORE ANY CONDITIONAL RETURN:
 
-  // Calculate dynamic remaining time
+  // 1. Calculate dynamic remaining time using single unified calculation
   const remainingMinutes = useMemo(() => {
-    if (!activeRoute.stops) return 0;
-    let total = 0;
-    for (let i = currentStopIndex; i < activeRoute.stops.length; i++) {
-      total += activeRoute.stops[i].estimated_minutes || 8;
-    }
-    return total;
-  }, [activeRoute.stops, currentStopIndex]);
+    if (!activeRoute?.stops) return 0;
+    const remainingStops = activeRoute.stops.slice(currentStopIndex);
+    return calculateRouteTimeMinutes(remainingStops);
+  }, [activeRoute?.stops, currentStopIndex]);
 
-  const completedCount = Math.min(currentStopIndex, activeRoute.stops.length);
-  const pendingCount = Math.max(0, activeRoute.stops.length - currentStopIndex - 1);
+  const completedCount = Math.min(currentStopIndex, activeRoute?.stops?.length || 0);
+  const pendingCount = Math.max(0, (activeRoute?.stops?.length || 0) - currentStopIndex - 1);
+
+  // 2. All pieces available for catalog browser (using pieces.json + rooms.json)
+  const allCatalogPieces = useMemo(() => {
+    const list: RouteStop[] = [];
+    const seen = new Set<string>();
+
+    // From pieces.json prop
+    if (pieces && pieces.length > 0) {
+      pieces.forEach((piece, idx) => {
+        const pId = piece.piece_id || piece.id || (piece as any).poi_id;
+        if (pId && !seen.has(pId)) {
+          seen.add(pId);
+          const roomObj = rooms.find((r) => r.room_id === piece.room_id);
+          const roomName = roomObj?.nombre_oficial || piece.room_id || 'Sala';
+          list.push({
+            poi_id: pId,
+            piece_id: pId,
+            id: pId,
+            title: piece.titulo || piece.title || pId,
+            room_zone: roomName,
+            file: piece.image_filename || '',
+            map_coords: { x: piece.map_x || 50, y: piece.map_y || 50 },
+            estimated_minutes: 2.0,
+            room_id: piece.room_id,
+            ranking: idx + 1,
+            thumbnail: piece.image_filename ? getAssetUrl(`images/pieces/${piece.image_filename}`) : '',
+            is_premium: !piece.is_free,
+            tags: [roomName, piece.piso || 'PB'],
+          });
+        }
+      });
+    }
+
+    // Fallback: Manifest rooms pieces if pieces list is empty
+    if (list.length === 0 && manifest?.rooms) {
+      manifest.rooms.forEach((room: any) => {
+        const roomId = room.room_id || room.id;
+        const roomName = room.nombre_oficial || room.name || roomId;
+        if (room.pieces_info) {
+          room.pieces_info.forEach((p: any) => {
+            const pId = p.piece_id || p.id || p.poi_id;
+            if (pId && !seen.has(pId)) {
+              seen.add(pId);
+              list.push({
+                poi_id: pId,
+                piece_id: pId,
+                id: pId,
+                title: p.title || p.titulo || pId,
+                room_zone: roomName,
+                file: p.file || '',
+                map_coords: room.coords || { x: 50, y: 50 },
+                estimated_minutes: 2.0,
+                room_id: roomId,
+                ranking: p.is_premium ? 2 : 1,
+                tags: room.tags || [],
+              });
+            }
+          });
+        }
+      });
+    }
+
+    return list;
+  }, [pieces, rooms, manifest]);
+
+  // 3. Filtered catalog pieces based on search
+  const filteredCatalogPieces = useMemo(() => {
+    if (!catalogSearch.trim()) return allCatalogPieces;
+    const q = catalogSearch.toLowerCase();
+    return allCatalogPieces.filter(
+      (p) =>
+        p.title.toLowerCase().includes(q) ||
+        p.room_zone.toLowerCase().includes(q) ||
+        (p.tags && p.tags.some((t) => t.toLowerCase().includes(q)))
+    );
+  }, [allCatalogPieces, catalogSearch]);
 
   // Reorder pending stop (move up)
   const handleMoveUp = (index: number) => {
-    if (index <= currentStopIndex + 1) return; // Can only reorder strictly among pending
+    if (index <= currentStopIndex + 1 || !activeRoute?.stops) return;
     const newStops = [...activeRoute.stops];
     const temp = newStops[index];
     newStops[index] = newStops[index - 1];
@@ -78,7 +157,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
 
   // Reorder pending stop (move down)
   const handleMoveDown = (index: number) => {
-    if (index < currentStopIndex + 1 || index >= activeRoute.stops.length - 1) return;
+    if (!activeRoute?.stops || index < currentStopIndex + 1 || index >= activeRoute.stops.length - 1) return;
     const newStops = [...activeRoute.stops];
     const temp = newStops[index];
     newStops[index] = newStops[index + 1];
@@ -92,7 +171,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
 
   // Remove stop from route
   const handleRemoveStop = (index: number) => {
-    if (activeRoute.stops.length <= 1) return; // Keep at least 1 stop
+    if (!activeRoute?.stops || activeRoute.stops.length <= 1) return;
     const newStops = activeRoute.stops.filter((_, idx) => idx !== index);
 
     let newCurrentIdx = currentStopIndex;
@@ -113,6 +192,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
 
   // Add piece to end of route
   const handleAddPieceToEnd = (stopToAdd: RouteStop) => {
+    if (!activeRoute?.stops) return;
     const stopId = (stopToAdd as any).piece_id || (stopToAdd as any).id || stopToAdd.poi_id;
     if (activeRoute.stops.some((s: any) => s.piece_id === stopId || s.id === stopId || s.poi_id === stopId)) return;
     const newStops = [...activeRoute.stops, stopToAdd];
@@ -124,6 +204,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
 
   // Insert piece right after current stop
   const handleInsertPieceNext = (stopToAdd: RouteStop) => {
+    if (!activeRoute?.stops) return;
     const stopId = (stopToAdd as any).piece_id || (stopToAdd as any).id || stopToAdd.poi_id;
     if (activeRoute.stops.some((s: any) => s.piece_id === stopId || s.id === stopId || s.poi_id === stopId)) return;
     const newStops = [...activeRoute.stops];
@@ -134,63 +215,8 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
     });
   };
 
-  // All pieces available from manifest for the catalog browser
-  const allCatalogPieces = useMemo(() => {
-    const list: RouteStop[] = [];
-    const seen = new Set<string>();
-
-    if (manifest.rooms) {
-      manifest.rooms.forEach((room: any) => {
-        const roomId = room.room_id || room.id;
-        const roomName = room.nombre_oficial || room.name || roomId;
-        if (room.pieces_info) {
-          room.pieces_info.forEach((piece: any) => {
-            const pieceId = piece.piece_id || piece.id || piece.poi_id;
-            if (!seen.has(pieceId)) {
-              seen.add(pieceId);
-              list.push({
-                poi_id: pieceId,
-                title: piece.title,
-                room_zone: roomName,
-                file: piece.file,
-                map_coords: room.coords || { x: 50, y: 50 },
-                estimated_minutes: piece.estimated_minutes || 8,
-                room_id: roomId,
-                ranking: piece.is_premium ? 2 : 1,
-                tags: room.tags || [],
-              });
-            }
-          });
-        }
-      });
-    }
-
-    // Also check any route stops not yet added
-    if (manifest.routes) {
-      manifest.routes.forEach((r) => {
-        r.stops.forEach((s: any) => {
-          const stopId = s.piece_id || s.id || s.poi_id;
-          if (!seen.has(stopId)) {
-            seen.add(stopId);
-            list.push(s);
-          }
-        });
-      });
-    }
-
-    return list;
-  }, [manifest]);
-
-  const filteredCatalogPieces = useMemo(() => {
-    if (!catalogSearch.trim()) return allCatalogPieces;
-    const q = catalogSearch.toLowerCase();
-    return allCatalogPieces.filter(
-      (p) =>
-        p.title.toLowerCase().includes(q) ||
-        p.room_zone.toLowerCase().includes(q) ||
-        (p.tags && p.tags.some((t) => t.toLowerCase().includes(q)))
-    );
-  }, [allCatalogPieces, catalogSearch]);
+  // CONDITIONAL RETURN MOVED STRICTLY AFTER ALL HOOKS:
+  if (!isOpen || !activeRoute) return null;
 
   return (
     <div
@@ -217,193 +243,116 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h2 className="text-sm sm:text-base font-black tracking-tight text-[#111827] dark:text-stone-100">
-                  Gestor de Ruta en Vivo
+                <h2 className="text-sm sm:text-base font-black tracking-tight text-white">
+                  Mi Ruta en Vivo
                 </h2>
-                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-800 dark:text-amber-400 border border-amber-500/30">
-                  Parada {currentStopIndex + 1} de {activeRoute.stops.length}
+                <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-400 border border-amber-500/30">
+                  {activeRoute.name}
                 </span>
               </div>
-              <p
-                className={`text-xs ${
-                  isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
-                }`}
-              >
-                {activeRoute.name}
+              <p className="text-xs text-stone-400 mt-0.5">
+                {activeRoute.stops.length} paradas · {completedCount} visitadas · ~{formatRouteDuration(remainingMinutes)} restantes
               </p>
             </div>
           </div>
 
           <button
-            type="button"
             onClick={onClose}
-            className={`p-2 rounded-xl border transition-colors ${
-              isSunMode
-                ? 'border-stone-300 text-[#111827] hover:bg-stone-100'
-                : 'border-stone-800 text-stone-300 hover:bg-stone-900'
-            }`}
+            className="p-2 rounded-xl text-stone-400 hover:text-white hover:bg-white/5 transition active:scale-95 cursor-pointer"
+            aria-label="Cerrar gestor de ruta"
           >
-            <X className="w-4 h-4" />
+            <X className="w-5 h-5" />
           </button>
         </div>
 
-        {/* Dynamic Recalculation Bar */}
-        <div
-          className={`px-4 py-3 border-b flex flex-wrap items-center justify-between gap-2 shrink-0 ${
-            isSunMode
-              ? 'bg-amber-50/70 border-amber-200 text-amber-950'
-              : 'bg-amber-950/20 border-amber-900/40 text-amber-200'
-          }`}
-        >
-          <div className="flex items-center gap-2 text-xs">
-            <Clock className="w-4 h-4 text-amber-500 shrink-0" />
-            <span className="font-extrabold">
-              ~{formatRouteDuration(remainingMinutes)} restantes
-            </span>
-            <span className="opacity-70">•</span>
-            <span className="opacity-90">{pendingCount} pendientes</span>
-            <span className="opacity-70">•</span>
-            <span className="opacity-90">{completedCount} completadas</span>
+        {/* Content Body */}
+        <div className="flex-1 overflow-y-auto p-4 space-y-4">
+          {/* Action Bar */}
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex items-center gap-2 text-xs font-semibold text-stone-400">
+              <Clock className="w-4 h-4 text-amber-500" />
+              <span>Tiempo restante estimado: <strong className="text-amber-400">~{formatRouteDuration(remainingMinutes)}</strong></span>
+            </div>
+
+            <button
+              onClick={() => setShowCatalogBrowser(!showCatalogBrowser)}
+              className="px-3 py-1.5 rounded-xl text-xs font-bold bg-amber-500/15 border border-amber-500/30 text-amber-400 hover:bg-amber-500/25 flex items-center gap-1.5 transition active:scale-95 cursor-pointer"
+            >
+              <Plus className="w-3.5 h-3.5" />
+              <span>{showCatalogBrowser ? 'Ver lista de ruta' : 'Agregar obra'}</span>
+            </button>
           </div>
 
-          <button
-            type="button"
-            onClick={() => setShowCatalogBrowser(!showCatalogBrowser)}
-            className={`text-xs font-bold px-3 py-1.5 rounded-xl border flex items-center gap-1.5 transition-all active:scale-95 ${
-              showCatalogBrowser
-                ? 'bg-amber-500 text-black border-amber-600'
-                : isSunMode
-                ? 'bg-white border-amber-300 text-amber-950 hover:bg-amber-100'
-                : 'bg-stone-900 border-amber-500/40 text-amber-300 hover:bg-stone-800'
-            }`}
-          >
-            <Plus className="w-3.5 h-3.5" />
-            <span>{showCatalogBrowser ? 'Ver lista de ruta' : '+ Agregar otra sala o pieza'}</span>
-          </button>
-        </div>
-
-        {/* Content Body: Stops List vs Catalog Browser */}
-        <div className="flex-1 overflow-y-auto p-4 space-y-3">
+          {/* Catalog Browser Drawer */}
           {showCatalogBrowser ? (
-            /* ================= CATALOG BROWSER ================= */
-            <div className="space-y-3">
+            <div className="space-y-3 p-4 rounded-2xl bg-[#141419] border border-white/10 animate-fadeIn">
               <div className="flex items-center justify-between">
-                <div>
-                  <h3 className="text-xs font-black uppercase tracking-wider text-amber-500 flex items-center gap-1.5">
-                    <Layers className="w-4 h-4" />
-                    <span>Catálogo Completo del Recinto</span>
-                  </h3>
-                  <p
-                    className={`text-[11px] ${
-                      isSunMode ? 'text-stone-600' : 'text-stone-400'
-                    }`}
-                  >
-                    Suma obras a tu itinerario o inicia un desvío espontáneo sin perder tu progreso.
-                  </p>
-                </div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>Explorar Obras Disponibles</span>
+                </h3>
+                <span className="text-[10px] text-stone-400">
+                  {filteredCatalogPieces.length} obras
+                </span>
               </div>
 
-              {/* Search filter input */}
-              <input
-                type="text"
-                value={catalogSearch}
-                onChange={(e) => setCatalogSearch(e.target.value)}
-                placeholder="Buscar por obra, sala o cultura..."
-                className={`w-full px-3.5 py-2 text-xs rounded-xl border outline-none transition-all ${
-                  isSunMode
-                    ? 'bg-white border-stone-300 text-stone-900 focus:border-amber-500 focus:ring-1 focus:ring-amber-500'
-                    : 'bg-stone-900 border-stone-800 text-stone-100 focus:border-amber-500 focus:ring-1 focus:ring-amber-500'
-                }`}
-              />
+              {/* Search Bar */}
+              <div className="relative">
+                <Search className="w-4 h-4 absolute left-3 top-2.5 text-stone-400" />
+                <input
+                  type="text"
+                  placeholder="Buscar por título, sala o cultura..."
+                  value={catalogSearch}
+                  onChange={(e) => setCatalogSearch(e.target.value)}
+                  className="w-full pl-9 pr-3 py-2 rounded-xl bg-black/40 border border-white/10 text-xs text-stone-200 placeholder-stone-500 focus:outline-none focus:border-amber-500"
+                />
+              </div>
 
-              {/* Pieces Grid */}
-              <div className="space-y-2 max-h-96 overflow-y-auto pr-1">
-                {filteredCatalogPieces.map((piece: any) => {
-                  const pieceId = piece.piece_id || piece.id || piece.poi_id;
-                  const isAlreadyInRoute = activeRoute.stops.some(
+              {/* List */}
+              <div className="space-y-2 max-h-72 overflow-y-auto pr-1">
+                {filteredCatalogPieces.slice(0, 30).map((piece) => {
+                  const pieceId = piece.poi_id || (piece as any).piece_id || piece.id;
+                  const isAlreadyIn = activeRoute.stops.some(
                     (s: any) => s.piece_id === pieceId || s.id === pieceId || s.poi_id === pieceId
                   );
 
                   return (
                     <div
                       key={pieceId}
-                      className={`p-3 rounded-2xl border transition-all ${
-                        isAlreadyInRoute
-                          ? isSunMode
-                            ? 'bg-stone-100/80 border-stone-200 opacity-70'
-                            : 'bg-stone-900/40 border-stone-800/80 opacity-70'
-                          : isSunMode
-                          ? 'bg-white border-stone-200 hover:border-amber-400 shadow-sm'
-                          : 'bg-stone-900/70 border-stone-800 hover:border-amber-500'
-                      }`}
+                      className="p-2.5 rounded-xl bg-black/40 border border-white/5 flex items-center justify-between gap-3 text-xs"
                     >
-                      <div className="flex items-start justify-between gap-2 mb-2">
-                        <div>
-                          <span className="text-xs font-bold block">{piece.title}</span>
-                          <span
-                            className={`text-[10px] block ${
-                              isSunMode ? 'text-stone-500' : 'text-stone-400'
-                            }`}
-                          >
-                            {piece.room_zone} • ~{piece.estimated_minutes || 8} min
-                          </span>
-                        </div>
-
-                        {isAlreadyInRoute && (
-                          <span className="text-[10px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/20 shrink-0">
-                            ✓ En tu ruta
-                          </span>
-                        )}
+                      <div className="min-w-0 flex-1">
+                        <span className="font-bold text-white block truncate">{piece.title}</span>
+                        <span className="text-[10px] text-stone-400 block truncate">
+                          {piece.room_zone}
+                        </span>
                       </div>
 
-                      {/* Action buttons */}
-                      <div className="flex flex-wrap items-center gap-1.5 pt-1">
-                        {!isAlreadyInRoute ? (
+                      <div className="flex items-center gap-1.5 shrink-0">
+                        {isAlreadyIn ? (
+                          <span className="text-[10px] font-bold text-emerald-400 px-2 py-0.5 rounded-md bg-emerald-500/10">
+                            En ruta ✓
+                          </span>
+                        ) : (
                           <>
                             <button
                               type="button"
-                              onClick={() => handleAddPieceToEnd(piece)}
-                              className={`text-[11px] font-bold px-2.5 py-1 rounded-lg border flex items-center gap-1 transition-all active:scale-95 ${
-                                isSunMode
-                                  ? 'bg-stone-50 border-stone-300 hover:bg-stone-100 text-stone-800'
-                                  : 'bg-stone-800 border-stone-700 hover:bg-stone-700 text-stone-200'
-                              }`}
+                              onClick={() => handleInsertPieceNext(piece)}
+                              className="px-2 py-1 rounded-lg bg-amber-500/20 text-amber-400 hover:bg-amber-500/30 text-[10px] font-bold cursor-pointer"
+                              title="Insertar como siguiente parada"
                             >
-                              <Plus className="w-3 h-3 text-amber-500" />
-                              <span>Agregar al final</span>
+                              Siguiente
                             </button>
-
                             <button
                               type="button"
-                              onClick={() => handleInsertPieceNext(piece)}
-                              className={`text-[11px] font-bold px-2.5 py-1 rounded-lg border flex items-center gap-1 transition-all active:scale-95 ${
-                                isSunMode
-                                  ? 'bg-amber-50 border-amber-300 hover:bg-amber-100 text-amber-950'
-                                  : 'bg-amber-950/40 border-amber-500/40 hover:bg-amber-950/60 text-amber-300'
-                              }`}
+                              onClick={() => handleAddPieceToEnd(piece)}
+                              className="p-1 rounded-lg bg-white/5 hover:bg-white/10 text-stone-300 cursor-pointer"
+                              title="Agregar al final de la ruta"
                             >
-                              <Navigation2 className="w-3 h-3 text-amber-500" />
-                              <span>Siguiente parada</span>
+                              <Plus className="w-3.5 h-3.5" />
                             </button>
                           </>
-                        ) : null}
-
-                        {/* Spontaneous Detour Button */}
-                        <button
-                          type="button"
-                          onClick={() => {
-                            onStartSpontaneousDetour(piece.file, piece.title);
-                            onClose();
-                          }}
-                          className={`text-[11px] font-bold px-2.5 py-1 rounded-lg border flex items-center gap-1 transition-all active:scale-95 ${
-                            isSunMode
-                              ? 'bg-yellow-50 border-yellow-300 hover:bg-yellow-100 text-yellow-950'
-                              : 'bg-yellow-950/40 border-yellow-500/40 hover:bg-yellow-950/60 text-yellow-300'
-                          }`}
-                        >
-                          <Radio className="w-3 h-3 text-yellow-500 animate-pulse" />
-                          <span>Desvío espontáneo 🟡</span>
-                        </button>
+                        )}
                       </div>
                     </div>
                   );
@@ -411,150 +360,108 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
               </div>
             </div>
           ) : (
-            /* ================= STOPS SEQUENCE LIST ================= */
-            <div className="space-y-2.5">
-              <div className="flex items-center justify-between mb-1">
-                <span className={`text-[11px] font-bold uppercase tracking-wider ${isSunMode ? 'text-[#4B5563]' : 'text-stone-400'}`}>
-                  Secuencia de tu recorrido ({activeRoute.stops.length} paradas)
-                </span>
-                <span
-                  className={`text-[10px] ${
-                    isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
-                  }`}
-                >
-                  Puedes reordenar o quitar paradas pendientes
-                </span>
-              </div>
-
+            /* Active Route Stop Sequence */
+            <div className="space-y-2">
               {activeRoute.stops.map((stop, idx) => {
-                const isCurrent = idx === currentStopIndex;
                 const isCompleted = idx < currentStopIndex;
+                const isCurrent = idx === currentStopIndex;
                 const isPending = idx > currentStopIndex;
-                const canMoveUp = idx > currentStopIndex + 1;
-                const canMoveDown = isPending && idx < activeRoute.stops.length - 1;
+                const stopId = stop.poi_id || (stop as any).piece_id || stop.id;
 
                 return (
                   <div
-                    key={`${stop.poi_id}-${idx}`}
-                    className={`p-3 rounded-2xl border transition-all ${
+                    key={stopId || idx}
+                    className={`p-3 rounded-2xl border transition-all flex items-center justify-between gap-3 ${
                       isCurrent
-                        ? isSunMode
-                          ? 'bg-amber-50/90 border-amber-500 ring-2 ring-amber-500/50 shadow-md text-[#111827]'
-                          : 'bg-amber-950/40 border-amber-500 ring-2 ring-amber-500/40 shadow-md text-stone-100'
+                        ? 'bg-amber-500/10 border-amber-500 shadow-md ring-1 ring-amber-500'
                         : isCompleted
-                        ? isSunMode
-                          ? 'bg-stone-100/70 border-stone-200 opacity-75 text-[#111827]'
-                          : 'bg-stone-900/40 border-stone-800/80 opacity-75 text-stone-300'
-                        : isSunMode
-                        ? 'bg-white border-stone-200 shadow-sm text-[#111827]'
-                        : 'bg-stone-900/70 border-stone-800 text-stone-100'
+                        ? 'bg-emerald-500/5 border-emerald-500/20 opacity-75'
+                        : 'bg-black/40 border-white/10'
                     }`}
                   >
-                    <div className="flex items-center justify-between gap-2">
-                      <div className="flex items-center gap-3 min-w-0">
-                        {/* Number / Status Badge */}
-                        <div
-                          className={`w-7 h-7 rounded-xl flex items-center justify-center font-black text-xs shrink-0 ${
-                            isCurrent
-                              ? 'bg-amber-500 text-black animate-pulse'
-                              : isCompleted
-                              ? 'bg-emerald-500/20 text-emerald-700 dark:text-emerald-400 border border-emerald-500/30'
-                              : isSunMode
-                              ? 'bg-stone-200 text-[#111827]'
-                              : 'bg-stone-800 text-stone-300'
-                          }`}
-                        >
-                          {isCompleted ? <CheckCircle2 className="w-4 h-4" /> : idx + 1}
-                        </div>
+                    {/* Position Number */}
+                    <div
+                      className={`w-7 h-7 rounded-xl flex items-center justify-center text-xs font-black shrink-0 ${
+                        isCurrent
+                          ? 'bg-amber-500 text-black'
+                          : isCompleted
+                          ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
+                          : 'bg-white/5 text-stone-400 border border-white/10'
+                      }`}
+                    >
+                      {idx + 1}
+                    </div>
 
-                        {/* Title & Info */}
-                        <div className="min-w-0">
-                          <div className="flex items-center gap-2">
-                            <span className="font-extrabold text-xs sm:text-sm block truncate text-[#111827] dark:text-stone-100">
-                              {stop.title}
-                            </span>
-                            {isCurrent && (
-                              <span className="text-[9px] font-black uppercase px-1.5 py-0.5 rounded bg-amber-500 text-black shrink-0">
-                                En curso
-                              </span>
-                            )}
-                          </div>
-                          <span
-                            className={`text-[10px] block truncate font-medium ${
-                              isSunMode ? 'text-[#4B5563]' : 'text-stone-400'
-                            }`}
-                          >
-                            {stop.room_zone} • ~{stop.estimated_minutes || 8} min
+                    {/* Info */}
+                    <div
+                      className="min-w-0 flex-1 cursor-pointer"
+                      onClick={() => {
+                        onSelectStop(idx);
+                        onClose();
+                      }}
+                    >
+                      <div className="flex items-center gap-1.5 mb-0.5">
+                        {isCurrent && (
+                          <span className="text-[9px] font-black uppercase px-1.5 py-0.2 rounded bg-amber-500 text-black">
+                            Parada Actual
                           </span>
-                        </div>
-                      </div>
-
-                      {/* Action Controls for Stop */}
-                      <div className="flex items-center gap-1 shrink-0">
-                        {isPending && (
-                          <>
-                            {/* Move Up */}
-                            <button
-                              type="button"
-                              disabled={!canMoveUp}
-                              onClick={() => handleMoveUp(idx)}
-                              title="Subir en el orden"
-                              className={`p-1.5 rounded-lg border transition-colors ${
-                                canMoveUp
-                                  ? isSunMode
-                                    ? 'border-stone-300 hover:bg-stone-100 text-[#111827]'
-                                    : 'border-stone-700 hover:bg-stone-800 text-stone-200'
-                                  : 'opacity-30 cursor-not-allowed border-transparent'
-                              }`}
-                            >
-                              <ArrowUp className="w-3.5 h-3.5" />
-                            </button>
-
-                            {/* Move Down */}
-                            <button
-                              type="button"
-                              disabled={!canMoveDown}
-                              onClick={() => handleMoveDown(idx)}
-                              title="Bajar en el orden"
-                              className={`p-1.5 rounded-lg border transition-colors ${
-                                canMoveDown
-                                  ? isSunMode
-                                    ? 'border-stone-300 hover:bg-stone-100 text-[#111827]'
-                                    : 'border-stone-700 hover:bg-stone-800 text-stone-200'
-                                  : 'opacity-30 cursor-not-allowed border-transparent'
-                              }`}
-                            >
-                              <ArrowDown className="w-3.5 h-3.5" />
-                            </button>
-
-                            {/* Delete Stop */}
-                            <button
-                              type="button"
-                              onClick={() => handleRemoveStop(idx)}
-                              title="Quitar parada"
-                              className="p-1.5 rounded-lg border border-red-500/20 text-red-500 hover:bg-red-500/10 transition-colors"
-                            >
-                              <Trash2 className="w-3.5 h-3.5" />
-                            </button>
-                          </>
                         )}
+                        {isCompleted && (
+                          <span className="text-[9px] font-bold text-emerald-400">
+                            Visitada ✓
+                          </span>
+                        )}
+                        <span className="text-[10px] text-stone-400 truncate">
+                          {stop.room_zone}
+                        </span>
+                      </div>
+                      <h4
+                        className={`text-xs font-bold truncate ${
+                          isCurrent ? 'text-amber-400' : 'text-white'
+                        }`}
+                      >
+                        {stop.title}
+                      </h4>
+                    </div>
 
-                        {/* Go to stop directly if not current */}
-                        {!isCurrent && (
+                    {/* Controls */}
+                    <div className="flex items-center gap-1 shrink-0">
+                      {isPending && (
+                        <>
                           <button
                             type="button"
-                            onClick={() => {
-                              onSelectStop(idx);
-                              onClose();
-                            }}
-                            title="Reproducir esta parada ahora"
-                            className="text-[11px] font-bold px-2 py-1 rounded-lg bg-amber-500/20 text-amber-600 dark:text-amber-400 hover:bg-amber-500 hover:text-black border border-amber-500/30 transition-all flex items-center gap-1"
+                            onClick={() => handleMoveUp(idx)}
+                            disabled={idx <= currentStopIndex + 1}
+                            className="p-1 rounded-lg bg-white/5 hover:bg-white/10 disabled:opacity-20 text-stone-300 cursor-pointer"
+                            title="Mover arriba"
                           >
-                            <Play className="w-3 h-3 fill-current" />
-                            <span className="hidden sm:inline">Ir ahora</span>
+                            <ArrowUp className="w-3.5 h-3.5" />
                           </button>
-                        )}
-                      </div>
+                          <button
+                            type="button"
+                            onClick={() => handleMoveDown(idx)}
+                            disabled={idx >= activeRoute.stops.length - 1}
+                            className="p-1 rounded-lg bg-white/5 hover:bg-white/10 disabled:opacity-20 text-stone-300 cursor-pointer"
+                            title="Mover abajo"
+                          >
+                            <ArrowDown className="w-3.5 h-3.5" />
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => handleRemoveStop(idx)}
+                            className="p-1 rounded-lg bg-red-500/10 hover:bg-red-500/20 text-red-400 cursor-pointer"
+                            title="Eliminar de mi ruta"
+                          >
+                            <Trash2 className="w-3.5 h-3.5" />
+                          </button>
+                        </>
+                      )}
+
+                      {isCurrent && (
+                        <span className="text-[10px] font-mono font-bold text-amber-400 px-2 py-1 rounded-lg bg-amber-500/10 border border-amber-500/20">
+                          En curso
+                        </span>
+                      )}
                     </div>
                   </div>
                 );
@@ -564,15 +471,11 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
         </div>
 
         {/* Footer */}
-        <div
-          className={`p-3 border-t text-center shrink-0 ${
-            isSunMode ? 'bg-stone-100 border-stone-200' : 'bg-stone-900 border-stone-800'
-          }`}
-        >
+        <div className="p-3 border-t border-white/10 bg-black/60 flex justify-end">
           <button
             type="button"
             onClick={onClose}
-            className="w-full py-2.5 px-4 rounded-xl font-bold text-xs bg-amber-500 hover:bg-amber-400 text-black transition-transform active:scale-[0.99]"
+            className="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-black text-xs font-bold transition active:scale-95 cursor-pointer shadow-md"
           >
             Continuar Recorrido
           </button>
@@ -581,3 +484,5 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
     </div>
   );
 };
+
+export default LiveRouteManagerModal;

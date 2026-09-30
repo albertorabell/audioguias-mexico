@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
 import {
   X,
   ZoomIn,
@@ -12,12 +12,13 @@ import {
   Check,
   Clock,
   Layers,
+  Rocket,
 } from 'lucide-react';
-import { RouteStop, Room, RoomPieceSummary } from '../types';
-import { VenueFloorplan } from './VenueFloorplan';
+import { RouteStop, Room, PieceData } from '../types';
 import { MuseumMapSvg } from './MuseumMapSvg';
 import { SafeImage } from './SafeImage';
 import { useTheme } from '../utils/ThemeContext';
+import { getAssetUrl } from '../utils/urlHelper';
 
 interface MapViewModalProps {
   isOpen: boolean;
@@ -29,9 +30,11 @@ interface MapViewModalProps {
   currentStopIndex: number;
   onSelectStop: (stopIndex: number) => void;
   rooms?: Room[];
+  pieces?: PieceData[];
   onOpenPieceFile?: (filePath: string) => void;
   onAddStopToRoute?: (stop: RouteStop) => void;
   onSelectRoom?: (room: Room) => void;
+  onStartRoomTour?: (room: Room) => void;
 }
 
 export const MapViewModal: React.FC<MapViewModalProps> = ({
@@ -44,9 +47,11 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
   currentStopIndex,
   onSelectStop,
   rooms = [],
+  pieces = [],
   onOpenPieceFile,
   onAddStopToRoute,
   onSelectRoom,
+  onStartRoomTour,
 }) => {
   const { isSunMode } = useTheme();
 
@@ -58,7 +63,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
   const dragStartRef = useRef({ x: 0, y: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Room Inspection Bottom Sheet Drawer State
+  // Room Inspection Drawer State
   const [selectedRoomId, setSelectedRoomId] = useState<string | null>(null);
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   const [addedPoiMap, setAddedPoiMap] = useState<Record<string, boolean>>({});
@@ -75,6 +80,31 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
       }
     }
   }, [isOpen, currentStopIndex, stops]);
+
+  // Find inspected room by exact room_id, svg_id or aliases
+  const inspectedRoom = useMemo(() => {
+    if (!selectedRoomId) return null;
+    return (
+      rooms.find(
+        (r) =>
+          r.room_id === selectedRoomId ||
+          r.svg_id === selectedRoomId ||
+          (r.aliases && r.aliases.includes(selectedRoomId))
+      ) || null
+    );
+  }, [rooms, selectedRoomId]);
+
+  // Real pieces for this room from pieces.json
+  const inspectedRoomPieces = useMemo(() => {
+    if (!inspectedRoom) return [];
+    return pieces
+      .filter(
+        (p) =>
+          p.room_id === inspectedRoom.room_id ||
+          (inspectedRoom.aliases && inspectedRoom.aliases.includes(p.room_id))
+      )
+      .sort((a, b) => (a.orden_sugerido || 99) - (b.orden_sugerido || 99));
+  }, [pieces, inspectedRoom]);
 
   if (!isOpen) return null;
 
@@ -123,65 +153,64 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
 
   const handleTouchEnd = () => setIsDragging(false);
 
-  // Room selection handler (Click to Inspect)
+  // Room selection handler (from touching a room in the SVG)
   const handleSelectRoom = (roomId: string) => {
     setSelectedRoomId(roomId);
     setIsDrawerOpen(true);
 
-    // Also see if any stop in route is in this room
     const matchingStopIdx = stops.findIndex(
-      (s: any) =>
-        s.room_id === roomId ||
-        s.roomId === roomId ||
-        (s.room_zone && s.room_zone.toLowerCase().includes(roomId.replace('sala-', '')))
+      (s: any) => s.room_id === roomId || (s.room_zone && s.room_zone.toLowerCase().includes(roomId))
     );
     if (matchingStopIdx !== -1) {
       setSelectedPinIndex(matchingStopIdx);
     }
   };
 
-  // Pin click handler
-  const handleSelectPin = (stopIndex: number) => {
-    setSelectedPinIndex(stopIndex);
-    const stop = stops[stopIndex];
-    const roomId = (stop as any)?.room_id || (stop as any)?.roomId;
-    if (roomId) {
-      setSelectedRoomId(roomId);
-      setIsDrawerOpen(true);
+  // Directly start continuous tour of this room
+  const handleDirectRoomTour = () => {
+    if (inspectedRoom && onStartRoomTour) {
+      setIsDrawerOpen(false);
+      onClose();
+      onStartRoomTour(inspectedRoom);
+    } else if (inspectedRoom && onSelectRoom) {
+      setIsDrawerOpen(false);
+      onClose();
+      onSelectRoom(inspectedRoom);
     }
   };
 
-  // Get inspected room details with full compatibility
-  const inspectedRoom = rooms.find((r: any) => r.room_id === selectedRoomId || r.id === selectedRoomId);
-  const selectedStop = stops[selectedPinIndex] || stops[currentStopIndex] || null;
-
   // Handle adding piece to route
-  const handleAddPiece = (piece: RoomPieceSummary, room: Room) => {
-    if (onAddStopToRoute) {
-      const pieceId = (piece as any).piece_id || (piece as any).id || piece.poi_id;
-      const roomId = room.room_id || room.id;
+  const handleAddPiece = (piece: PieceData) => {
+    if (onAddStopToRoute && inspectedRoom) {
+      const pId = piece.piece_id || piece.id;
       const newStop: RouteStop = {
-        poi_id: pieceId,
-        title: piece.title,
-        room_zone: room.nombre_oficial || room.name || roomId,
-        file: piece.file,
-        map_coords: room.coords || { x: 50, y: 50 },
-        estimated_minutes: piece.estimated_minutes || 8,
-        room_id: roomId,
-        ranking: piece.is_premium ? 2 : 1,
+        poi_id: pId,
+        piece_id: pId,
+        id: pId,
+        title: piece.titulo,
+        room_zone: inspectedRoom.nombre_oficial,
+        file: piece.image_filename || '',
+        map_coords: { x: piece.map_x || 50, y: piece.map_y || 50 },
+        estimated_minutes: 2.0,
+        room_id: inspectedRoom.room_id,
+        ranking: stops.length + 1,
+        thumbnail: piece.image_filename ? getAssetUrl(`images/pieces/${piece.image_filename}`) : '',
+        is_premium: !piece.is_free,
       };
       onAddStopToRoute(newStop);
-      setAddedPoiMap((prev) => ({ ...prev, [pieceId]: true }));
+      setAddedPoiMap((prev) => ({ ...prev, [pId]: true }));
     }
   };
 
   // Handle opening a piece in tour
-  const handleStartPieceAudio = (pieceFile: string) => {
+  const handleStartPieceAudio = (pieceId: string) => {
     if (onOpenPieceFile) {
-      onOpenPieceFile(pieceFile);
+      onOpenPieceFile(pieceId);
       onClose();
     }
   };
+
+  const selectedStop = stops[selectedPinIndex] || stops[currentStopIndex] || null;
 
   return (
     <div
@@ -199,7 +228,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
               Plano Arquitectónico • {siteName}
             </h3>
             <p className="text-[11px] font-medium truncate text-[#9CA3AF]">
-              {routeName} • {stops.length} paradas • Toca cualquier sala para inspeccionar
+              {routeName} • Toca cualquier sala para ver sus obras
             </p>
           </div>
         </div>
@@ -249,215 +278,171 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
             </button>
             <div className="h-px w-6 self-center my-0.5 bg-white/10" />
             <button
-              id="btn-map-zoom-reset"
+              id="btn-map-reset"
               onClick={handleReset}
               className="min-h-[44px] min-w-[44px] flex items-center justify-center rounded-xl transition hover:bg-white/10 text-stone-200 cursor-pointer"
-              title="Restablecer vista"
+              title="Centrar plano"
             >
-              <RotateCcw className="w-4 h-4" />
+              <RotateCcw className="w-4 h-4 text-amber-500" />
             </button>
           </div>
         </div>
 
-        {/* Map Legend Top-Left */}
-        <div className="absolute top-4 left-4 z-20 flex items-center gap-2 px-3 py-1.5 rounded-full backdrop-blur-xl text-[11px] font-bold border shadow-md bg-[#141419]/90 text-stone-200 border-white/10">
-          <span className="flex items-center gap-1.5 text-[#F59E0B]">
-            <span className="w-2.5 h-2.5 rounded-full bg-[#F59E0B] animate-pulse" />
-            Paradas de ruta
-          </span>
-          <span className="text-stone-600">•</span>
-          <span className="text-[#9CA3AF]">
-            Plano Oficial INAH
-          </span>
-        </div>
-
-        {/* Interactive Floorplan Container */}
+        {/* Scaled & Translated Map Container */}
         <div
-          className="relative max-w-[900px] w-[95vw] aspect-[5/4] max-h-[72vh] transition-transform duration-150 ease-out"
           style={{
             transform: `translate(${pan.x}px, ${pan.y}px) scale(${scale})`,
             transformOrigin: 'center center',
+            transition: isDragging ? 'none' : 'transform 0.15s ease-out',
           }}
+          className="w-full h-full max-w-4xl p-4 flex items-center justify-center"
         >
-          {siteId === 'MNA' ? (
-            <MuseumMapSvg
-              rooms={rooms}
-              selectedRoomId={selectedRoomId}
-              onSelectRoom={handleSelectRoom}
-              stops={stops}
-              currentStopIndex={selectedPinIndex}
-              onSelectStop={handleSelectPin}
-            />
-          ) : (
-            <VenueFloorplan
-              siteId={siteId}
-              rooms={rooms}
-              selectedRoomId={selectedRoomId}
-              onSelectRoom={handleSelectRoom}
-              stops={stops}
-              currentStopIndex={selectedPinIndex}
-              onSelectStop={handleSelectPin}
-            />
-          )}
+          <MuseumMapSvg
+            rooms={rooms}
+            selectedRoomId={selectedRoomId}
+            onSelectRoom={handleSelectRoom}
+            stops={stops}
+            currentStopIndex={currentStopIndex}
+            onSelectStop={(stopIdx) => {
+              setSelectedPinIndex(stopIdx);
+              onSelectStop(stopIdx);
+            }}
+            showFloorSelector={true}
+          />
         </div>
       </div>
 
-      {/* ============================================================ */}
-      {/* BOTTOM SHEET / DRAWER: INSPECCIÓN DE SALA (CLICK TO INSPECT) */}
-      {/* ============================================================ */}
+      {/* ================= CAJÓN INFERIOR DE INSPECCIÓN DE SALA ================= */}
       {isDrawerOpen && inspectedRoom ? (
         <section
           id="drawer-room-inspection"
-          className="border-t border-white/10 z-30 transition-all duration-300 max-h-[55vh] flex flex-col shadow-2xl animate-in slide-in-from-bottom bg-[#141419] text-[#F3F4F6]"
+          className="max-h-[50vh] sm:max-h-[40vh] border-t border-white/10 z-30 flex flex-col bg-[#0B0B0E] text-[#F3F4F6] shadow-2xl animate-slideUp"
         >
-          {/* Drawer Handle & Header */}
-          <div className="px-4 pt-3 pb-2 border-b border-white/10 flex items-start justify-between bg-[#0B0B0E]">
-            <div className="flex-1 pr-3">
-              <div className="w-10 h-1 rounded-full bg-white/20 mx-auto mb-2.5" />
-              <div className="flex items-center gap-2">
-                <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-md bg-[#F59E0B]/10 text-[#F59E0B] border border-[#F59E0B]/30">
-                  {inspectedRoom.culture} • {inspectedRoom.period}
+          {/* Header del Cajón: nombre_oficial, frase_gancho y número real de piezas */}
+          <div className="p-4 border-b border-white/10 flex items-start justify-between gap-3 bg-[#141419]">
+            <div className="min-w-0 flex-1">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/20 text-[#F59E0B] border border-[#F59E0B]/40">
+                  SALA {inspectedRoom.numero_oficial ? String(inspectedRoom.numero_oficial).padStart(2, '0') : ''} • {inspectedRoom.piso}
+                </span>
+                <span className="text-[11px] font-bold text-amber-400">
+                  {inspectedRoomPieces.length} obras registradas
                 </span>
               </div>
-              <h4 className="text-base font-black mt-1 leading-snug text-white">{inspectedRoom.name}</h4>
-              <p className="text-xs mt-0.5 leading-relaxed line-clamp-2 text-[#9CA3AF]">
-                {inspectedRoom.short_description}
-              </p>
 
-              {onSelectRoom && (
+              <h4 className="text-base sm:text-lg font-black text-white truncate">
+                {inspectedRoom.nombre_oficial}
+              </h4>
+
+              {inspectedRoom.frase_gancho && (
+                <p className="text-xs italic text-amber-300/80 mt-1 line-clamp-2">
+                  «{inspectedRoom.frase_gancho}»
+                </p>
+              )}
+
+              {/* Botón Principal: Explorar sala / Iniciar recorrido */}
+              <div className="mt-3">
                 <button
                   type="button"
-                  onClick={() => {
-                    setIsDrawerOpen(false);
-                    onClose();
-                    onSelectRoom(inspectedRoom);
-                  }}
-                  className="mt-2.5 px-3 py-1.5 rounded-xl bg-[#F59E0B] hover:bg-amber-400 text-black text-xs font-bold inline-flex items-center gap-1.5 shadow-md shadow-[#F59E0B]/20 active:scale-95 transition cursor-pointer"
+                  onClick={handleDirectRoomTour}
+                  className="px-4 py-2.5 rounded-xl bg-[#F59E0B] hover:bg-amber-400 text-black text-xs font-black inline-flex items-center gap-2 shadow-lg shadow-[#F59E0B]/25 active:scale-95 transition cursor-pointer"
                 >
-                  <Sparkles className="w-3.5 h-3.5" />
-                  <span>Explorar Sala e Iniciar Recorrido 🚀</span>
+                  <Rocket className="w-4 h-4 fill-current" />
+                  <span>Explorar sala / Iniciar recorrido</span>
                 </button>
-              )}
+              </div>
             </div>
 
             <button
               onClick={() => setIsDrawerOpen(false)}
-              className="p-1 rounded-lg text-[#9CA3AF] hover:text-white"
+              className="p-1.5 rounded-xl text-[#9CA3AF] hover:text-white hover:bg-white/5 cursor-pointer"
               aria-label="Cerrar cajón"
             >
               <X className="w-5 h-5" />
             </button>
           </div>
 
-          {/* Featured Pieces in this Room */}
-          <div className="p-4 overflow-y-auto space-y-2.5 flex-1 bg-[#141419]">
-            <h5 className="text-[11px] font-black uppercase tracking-wider text-[#F59E0B] flex items-center gap-1.5">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>Obras destacadas en esta sala ({inspectedRoom.pieces_info?.length || 0})</span>
-            </h5>
+          {/* Lista REAL de Piezas de la Sala calculada de pieces.json */}
+          <div className="p-4 overflow-y-auto space-y-2 flex-1 bg-[#0B0B0E]">
+            {inspectedRoomPieces.length > 0 ? (
+              inspectedRoomPieces.map((piece, idx) => {
+                const pieceId = piece.piece_id || piece.id;
+                const isAlreadyInRoute = stops.some(
+                  (s: any) => s.piece_id === pieceId || s.id === pieceId || s.poi_id === pieceId
+                );
+                const isAdded = addedPoiMap[pieceId] || isAlreadyInRoute;
 
-            {inspectedRoom.pieces_info && inspectedRoom.pieces_info.length > 0 ? (
-              <div className="space-y-2">
-                {inspectedRoom.pieces_info.map((piece: any) => {
-                  const pieceId = piece.piece_id || piece.id || piece.poi_id;
-                  const isAlreadyInRoute = stops.some((s: any) => s.piece_id === pieceId || s.id === pieceId || s.poi_id === pieceId);
-                  const isAdded = addedPoiMap[pieceId] || isAlreadyInRoute;
+                return (
+                  <div
+                    key={pieceId}
+                    className="p-3 rounded-2xl border border-white/10 bg-[#141419] hover:border-[#F59E0B]/40 flex items-center justify-between gap-3 transition-colors"
+                  >
+                    {/* Thumbnail con imagen real */}
+                    <div className="w-12 h-12 rounded-xl overflow-hidden shrink-0 border border-white/10 bg-black/60 relative">
+                      <SafeImage
+                        src={getAssetUrl(`images/pieces/${piece.image_filename}`)}
+                        alt={piece.titulo}
+                        fallbackTitle={piece.titulo}
+                        className="w-full h-full object-cover"
+                      />
+                      <span className="absolute bottom-0.5 right-0.5 text-[8px] font-mono px-1 rounded bg-black/80 text-amber-400">
+                        #{idx + 1}
+                      </span>
+                    </div>
 
-                  return (
-                    <div
-                      key={pieceId}
-                      className="p-2.5 rounded-2xl border border-white/10 bg-[#0B0B0E] hover:border-[#F59E0B]/50 flex items-center justify-between gap-3 transition-colors"
-                    >
-                      {/* Thumbnail */}
-                      <div className="w-12 h-12 rounded-xl overflow-hidden shrink-0 border border-white/10 shadow-xs bg-[#141419]">
-                        <SafeImage
-                          src={piece.thumbnail}
-                          alt={piece.title}
-                          fallbackTitle={piece.title}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
+                    {/* Info */}
+                    <div className="flex-1 min-w-0">
+                      <h5 className="text-xs font-bold truncate text-white">{piece.titulo}</h5>
+                      <p className="text-[10px] text-stone-400 truncate mt-0.5">
+                        {piece.frase_gancho || piece.guion_corto?.slice(0, 50)}
+                      </p>
+                    </div>
 
-                      {/* Info */}
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2">
-                          <span
-                            className={`text-[9px] font-extrabold uppercase px-1.5 py-0.2 rounded ${
-                              piece.is_premium
-                                ? 'bg-amber-500/20 text-[#F59E0B]'
-                                : 'bg-emerald-500/20 text-emerald-400'
-                            }`}
-                          >
-                            {piece.is_premium ? 'Premium' : 'Gratis'}
-                          </span>
-                          <span className="text-[10px] font-medium flex items-center gap-1 text-[#9CA3AF]">
-                            <Clock className="w-3 h-3" />
-                            {piece.estimated_minutes || 8} min
-                          </span>
-                        </div>
-                        <h6 className="text-xs font-bold truncate mt-0.5 text-white">{piece.title}</h6>
-                      </div>
+                    {/* Acciones */}
+                    <div className="flex items-center gap-1.5 shrink-0">
+                      <button
+                        type="button"
+                        onClick={() => handleStartPieceAudio(pieceId)}
+                        className="px-2.5 py-1.5 rounded-xl bg-[#F59E0B] hover:bg-amber-400 text-black text-xs font-bold flex items-center gap-1 transition active:scale-95 cursor-pointer"
+                        title="Ver y escuchar esta obra"
+                      >
+                        <Headphones className="w-3.5 h-3.5" />
+                        <span>Ver obra</span>
+                      </button>
 
-                      {/* Actions */}
-                      <div className="flex items-center gap-1.5 shrink-0">
-                        {/* Play piece audio */}
+                      {!isAdded ? (
                         <button
                           type="button"
-                          onClick={() => handleStartPieceAudio(piece.file)}
-                          className="px-2.5 py-1.5 rounded-xl bg-[#F59E0B] hover:bg-amber-400 text-black text-xs font-bold flex items-center gap-1 transition active:scale-95 shadow-xs cursor-pointer"
-                          title="Escuchar audio de esta obra"
+                          onClick={() => handleAddPiece(piece)}
+                          className="p-2 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-stone-200 transition active:scale-95 cursor-pointer"
+                          title="Agregar a mi ruta"
                         >
-                          <Headphones className="w-3.5 h-3.5" />
-                          <span>Escuchar</span>
+                          <Plus className="w-4 h-4" />
                         </button>
-
-                        {/* Add to route */}
-                        {!isAdded ? (
-                          <button
-                            type="button"
-                            onClick={() => handleAddPiece(piece, inspectedRoom)}
-                            className="p-2 rounded-xl border border-white/10 bg-[#141419] hover:bg-white/10 text-stone-200 transition active:scale-95 cursor-pointer"
-                            title="Agregar a mi ruta"
-                          >
-                            <Plus className="w-4 h-4" />
-                          </button>
-                        ) : (
-                          <span
-                            className="p-2 rounded-xl text-emerald-400 bg-emerald-500/10 border border-emerald-500/20"
-                            title="En tu ruta"
-                          >
-                            <Check className="w-4 h-4 stroke-[3]" />
-                          </span>
-                        )}
-                      </div>
+                      ) : (
+                        <span
+                          className="p-2 rounded-xl text-emerald-400 bg-emerald-500/10 border border-emerald-500/20"
+                          title="En tu ruta"
+                        >
+                          <Check className="w-4 h-4 stroke-[3]" />
+                        </span>
+                      )}
                     </div>
-                  );
-                })}
-              </div>
+                  </div>
+                );
+              })
             ) : (
-              <p className="text-xs p-3 rounded-xl border border-white/10 text-center bg-[#0B0B0E] text-[#9CA3AF]">
+              <p className="text-xs p-4 rounded-xl border border-white/10 text-center bg-[#141419] text-[#9CA3AF]">
                 No hay piezas individuales registradas para esta sala.
               </p>
             )}
           </div>
         </section>
       ) : (
-        /* Fallback: Default Active Stop Preview Footer if no room is inspected */
+        /* Footer fallback si no hay cajón de sala abierto */
         selectedStop && (
           <footer className="p-3.5 border-t border-white/10 z-30 bg-[#141419] text-[#F3F4F6] shadow-2xl">
             <div className="flex items-center justify-between gap-3 max-w-[600px] mx-auto">
-              <div className="w-14 h-14 rounded-xl overflow-hidden shrink-0 shadow-md border border-white/10 bg-[#0B0B0E]">
-                <SafeImage
-                  src={`data/${siteId.toLowerCase()}/${selectedStop.file.split('/').slice(-2).join('/')}`.replace(
-                    '.json',
-                    '.jpg'
-                  )}
-                  alt={selectedStop.title}
-                  fallbackTitle={selectedStop.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
               <div className="flex-1 truncate">
                 <div className="flex items-center gap-1.5 mb-1">
                   <span
@@ -491,13 +476,13 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
                   onSelectStop(selectedPinIndex);
                   onClose();
                 }}
-                className={`min-h-[48px] px-4 py-2.5 rounded-xl text-xs font-extrabold flex items-center gap-1.5 transition active:scale-95 shadow-md shrink-0 cursor-pointer ${
+                className={`min-h-[44px] px-4 py-2 rounded-xl text-xs font-extrabold flex items-center gap-1.5 transition active:scale-95 shadow-md shrink-0 cursor-pointer ${
                   selectedPinIndex === currentStopIndex
                     ? 'bg-white/10 hover:bg-white/20 text-white'
                     : 'bg-[#F59E0B] hover:bg-amber-400 text-black shadow-[#F59E0B]/20'
                 }`}
               >
-                <span>{selectedPinIndex === currentStopIndex ? 'Ver detalles' : 'Ir a esta parada'}</span>
+                <span>{selectedPinIndex === currentStopIndex ? 'Ver obra' : 'Ir a esta parada'}</span>
                 <ChevronRight className="w-4 h-4" />
               </button>
             </div>
@@ -507,3 +492,5 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
     </div>
   );
 };
+
+export default MapViewModal;

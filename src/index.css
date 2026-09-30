@@ -1,5 +1,33 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-main: #F8F6F0;
+  --bg-card: #FFFFFF;
+  --bg-subtle: #F1EFEA;
+  --border-subtle: rgba(0, 0, 0, 0.08);
+  --border-strong: rgba(0, 0, 0, 0.16);
+  --text-primary: #18181B;
+  --text-secondary: #4B5563;
+  --text-muted: #71717A;
+  --accent: #D97706;
+  --accent-hover: #B45309;
+}
+
+.dark {
+  --bg-main: #0B0B0E;
+  --bg-card: #141419;
+  --bg-subtle: #0E0E12;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-strong: rgba(255, 255, 255, 0.15);
+  --text-primary: #F3F4F6;
+  --text-secondary: #9CA3AF;
+  --text-muted: #6B7280;
+  --accent: #F59E0B;
+  --accent-hover: #FBBF24;
+}
+
 @layer base {
   html, body, #root {
     width: 100%;

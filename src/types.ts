@@ -37,6 +37,7 @@ export interface Room {
   frase_gancho: string;
   introduccion_narrativa: string;
   svg_id: string;
+  aliases?: string[];
 
   // Campos de compatibilidad para el visor y catálogo
   id?: string;
@@ -126,6 +127,7 @@ export interface RouteStop {
   orden_sala?: number;
   thumbnail?: string;
   is_premium?: boolean;
+  piso?: 'PB' | 'PA';
 }
 
 export interface SiteRoute {
