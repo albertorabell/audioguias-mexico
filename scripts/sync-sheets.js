@@ -233,6 +233,10 @@ function buildPieces(items) {
         map_x: num(p.map_x, 50),
         map_y: num(p.map_y, 50),
         image_filename: image,
+        // Columnas opcionales de verificación (si no existen en el Sheets, quedan vacías)
+        numero_catalogo: (p.numero_catalogo || '').trim(),
+        fuente: (p.fuente || '').trim(),
+        verificado: String(p.verificado || '').trim().toUpperCase() === 'TRUE',
         is_free: isFree,
         is_premium: !isFree,
       };

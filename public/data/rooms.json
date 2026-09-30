@@ -168,182 +168,143 @@
     ]
   },
   {
-    "room_id": "sala-12-introduccion-etnografia",
+    "room_id": "sala-12-pueblos-indios",
     "numero_oficial": "12",
-    "nombre_oficial": "Introducción a la Etnografía",
+    "nombre_oficial": "Pueblos Indios",
     "piso": "PA",
     "ala": "Norte",
     "frase_gancho": "Mosaico vivo de lenguas, cosmovisiones y tradiciones que laten con fuerza en el México contemporáneo.",
-    "introduccion_narrativa": "Bienvenido a la puerta de entrada del piso etnográfico, un portal dedicado a la diversidad vibrante de las comunidades originarias que habitan nuestro país. Esta galería introductoria ofrece una visión de conjunto sobre la pluralidad lingüística, los patrones de asentamiento y la herencia cultural compartida por más de sesenta pueblos indígenas.",
+    "introduccion_narrativa": "Bienvenido a la puerta de entrada del piso etnográfico, un portal dedicado a la diversidad vibrante de las comunidades originarias que habitan nuestro país. Esta galería introductoria ofrece una visión de conjunto sobre la pluralidad lingüística, los patrones de asentamiento y la herencia cultural compartida por más de sesenta pueblos indígenas. A través de mapas, fotografías, indumentaria y objetos cotidianos, el visitante comprenderá cómo la memoria ancestral se entrelaza dinámicamente con la modernidad. Aquí se celebra la resistencia, el trabajo comunitario y las expresiones festivas que afirman la identidad identitaria y la riqueza humana del México de hoy.",
     "svg_id": "room_pa_12",
     "aliases": [
-      "sala-12",
       "sala-12-pueblos-indios",
-      "pueblos-indios",
-      "etnografia-intro"
+      "sala-12"
     ]
   },
   {
-    "room_id": "sala-13-otopames",
+    "room_id": "sala-13-gran-nayar",
     "numero_oficial": "13",
+    "nombre_oficial": "Gran Nayar",
+    "piso": "PA",
+    "ala": "Norte",
+    "frase_gancho": "Sierras sagradas donde los cantos rituales y el peyote tejen el orden del universo.",
+    "introduccion_narrativa": "Adéntrese en la geografía mística de la Sierra Madre Occidental, morada ancestral de los pueblos cora, huichol, tepehuan y náhuatl. Esta galería sumerge al espectador en una cosmovisión profundamente ligada a la naturaleza, donde las peregrinaciones rituales al desierto de Wirikuta y los centros ceremoniales mantienen el equilibrio cósmico. Al recorrer sus exhibiciones, admirará las minuciosas creaciones en chaquira, las jícaras sagradas y los finos textiles elaborados en telar de cintura. La narrativa pone de relieve la vigencia del mitote y las fiestas del ciclo agrícola, mostrando cómo la devoción estética y espiritual sostiene la vida comunitaria.",
+    "svg_id": "room_pa_13",
+    "aliases": [
+      "sala-13-gran-nayar",
+      "sala-13"
+    ]
+  },
+  {
+    "room_id": "sala-14-purecherio",
+    "numero_oficial": "14",
+    "nombre_oficial": "Puréecherio",
+    "piso": "PA",
+    "ala": "Norte",
+    "frase_gancho": "Manos artesanas que moldean el barro, el cobre y la madera junto al lago sagrado.",
+    "introduccion_narrativa": "Ingrese al territorio purépecha, una región definida por sus valles boscosos, mesetas volcánicas y las aguas serenas del lago de Pátzcuaro. Esta sala rinde homenaje a la maestría técnica y la organización comunitaria que caracterizan la vida cotidiana de los habitantes de Michoacán. A través del espacio, el visitante descubrirá recreaciones de las tradicionales trojes de madera, junto con muestras de alfarería vidriada, cobre martillado y textiles de lana. La exhibición destaca la fuerza de los cargueros en las fiestas patronales, el culto a los difuntos y la transmisión intergeneracional de oficios tradicionales que reafirman la identidad.",
+    "svg_id": "room_pa_14",
+    "aliases": [
+      "sala-14-purecherio",
+      "sala-14"
+    ]
+  },
+  {
+    "room_id": "sala-15-otopames",
+    "numero_oficial": "15",
     "nombre_oficial": "Otopames",
     "piso": "PA",
     "ala": "Norte",
     "frase_gancho": "Herederos del maguey y la fibra viva que sostienen la fe en la meseta.",
-    "introduccion_narrativa": "Esta galería está dedicada a la gran familia lingüística otopame, integrada por otomíes, mazahuas, matlatzincas, tlahuicas, pames y chichimecas jonaces. Repartidos en los valles y serranías del Altiplano Central, estos pueblos han demostrado una extraordinaria adaptabilidad frente a entornos semiáridos.",
-    "svg_id": "room_pa_13",
-    "aliases": [
-      "sala-13",
-      "sala-15-otopames",
-      "otopames",
-      "otomi"
-    ]
-  },
-  {
-    "room_id": "sala-14-sierra-de-puebla",
-    "numero_oficial": "14",
-    "nombre_oficial": "Sierra de Puebla",
-    "piso": "PA",
-    "ala": "Norte",
-    "frase_gancho": "Danzas aladas entre la niebla montañosa que celebran la armonía con la tierra.",
-    "introduccion_narrativa": "Ubicada en el ala norte del piso superior, esta sala explora el dinámico microcosmos de la Sierra Norte de Puebla, donde conviven nahuas, totonacos, otomíes y tepehuas. A pesar de sus diferencias lingüísticas, estas comunidades comparten un territorio escarpado y una profunda devoción articulada en torno al cultivo del maíz y del café.",
-    "svg_id": "room_pa_14",
-    "aliases": [
-      "sala-14",
-      "sala-16-sierra-de-puebla",
-      "sierra-puebla",
-      "totonacos"
-    ]
-  },
-  {
-    "room_id": "sala-15-costa-del-golfo",
-    "numero_oficial": "15",
-    "nombre_oficial": "Costa del Golfo: Huasteca y Totonacapan",
-    "piso": "PA",
-    "ala": "Norte",
-    "frase_gancho": "Aromas de vainilla y sones huastecos que alegran las llanuras fértiles del Golfo.",
-    "introduccion_narrativa": "Esta sala celebra la herencia viva de las culturas costeras del Golfo de México, representadas por los pueblos huasteco y totonaco. Ubicados entre ríos acaudalados, cultivos de vainilla y cálidas llanuras, estos grupos conservan un valioso legado artesanal y espiritual expresado en su indumentaria blanca y sus danzas ancestrales.",
+    "introduccion_narrativa": "Esta galería está dedicada a la gran familia lingüística otopame, integrada por otomíes, mazahuas, matlatzincas, tlahuicas, pames y chichimecas jonaces. Repartidos en los valles y serranías del Altiplano Central, estos pueblos han demostrado una extraordinaria adaptabilidad frente a entornos semiáridos y transformaciones históricas. El recorrido expone el aprovechamiento integral del maguey para obtener pulque y fibras de ixtle, el tejido en telar de cintura con intrincados diseños geométricos y las tallas con incrustaciones de concha. Asimismo, se visibiliza la devoción expresada en los oratorios familiares y el fervor comunitario de sus ceremonias patronales y del ciclo agrícola.",
     "svg_id": "room_pa_15",
     "aliases": [
-      "sala-15",
-      "sala-18-huastecos-y-totonacos",
-      "huastecos-y-totonacos",
-      "golfo-etnografia"
+      "sala-15-otopames",
+      "sala-15"
     ]
   },
   {
-    "room_id": "sala-16-mayas-selva-montana",
+    "room_id": "sala-16-sierra-de-puebla",
     "numero_oficial": "16",
-    "nombre_oficial": "Pueblos Mayas de la Selva y Montaña",
+    "nombre_oficial": "Sierra de Puebla",
     "piso": "PA",
     "ala": "Cabecera",
-    "frase_gancho": "Guardián de la niebla y la selva chiapaneca donde los rezos protegen el alma comunitaria.",
-    "introduccion_narrativa": "Esta sala se adentra en el corazón de las montañas y selvas de Chiapas, territorio de los pueblos tsotsil, tseltal, tojolabal, chol y lacandón. A través de sus templos domésticos, sus pesados gabanes de lana de Chamula y los incensarios ceremoniales de barro de los lacandones, el visitante experimenta una espiritualidad viva ligada a las cuevas y cerros sagrados.",
+    "frase_gancho": "Danzas aladas entre la niebla montañosa que celebran la armonía con la tierra.",
+    "introduccion_narrativa": "Ubicada en la cabecera del piso superior, esta sala explora el dinámico microcosmos de la Sierra Norte de Puebla, donde conviven náhuas, totonacos, otomíes y tepehuas. A pesar de sus diferencias lingüísticas, estas comunidades comparten un territorio escarpado y una profunda devoción articulada en torno al cultivo del maíz y del café. El visitante podrá admirar la belleza ritual de vestidos tradicionales como el quechquémitl, la elaboración del papel amate ceremonial y el espectáculo simbólico de danzas ancestrales como los Voladores y Quetzales. La exhibición revela cómo el respeto a las fuerzas de la naturaleza sostiene la armonía.",
     "svg_id": "room_pa_16",
     "aliases": [
-      "sala-16",
-      "sala-19-pueblos-mayas",
-      "mayas-selva",
-      "mayas-montana",
-      "pueblos-mayas"
+      "sala-16-sierra-de-puebla",
+      "sala-16"
     ]
   },
   {
-    "room_id": "sala-17-mayas-tierras-bajas",
+    "room_id": "sala-17-oaxaca",
     "numero_oficial": "17",
-    "nombre_oficial": "Pueblos Mayas de las Tierras Bajas",
+    "nombre_oficial": "Oaxaca",
     "piso": "PA",
-    "ala": "Cabecera",
-    "frase_gancho": "Hijos de la milpa peninsular que custodian la palabra sagrada y el ciclo de las lluvias.",
-    "introduccion_narrativa": "Continuando en la cabecera del piso superior, este espacio explora la vida cotidiana y cosmogonía de los mayas peninsulares de Yucatán, Campeche y Quintana Roo. Destacan la recreación de la casa maya tradicional con techumbre de palma de guano, el solar doméstico y la exquisita indumentaria de ternos mestizos bordados en punto de cruz.",
+    "ala": "Sur",
+    "frase_gancho": "Mosaico plurietnico donde el tequio, la fiesta y el color honran la vida.",
+    "introduccion_narrativa": "Adéntrese en la colosal riqueza etnográfica del estado de Oaxaca, territorio donde conviven más de dieciséis grupos étnicos como zapotecos, mixtecos, mixes, chinantecos y mazatecos. Esta amplia galería pone de manifiesto la vitalidad de la organización comunitaria mediante el tequio y los sistemas de cargos tradicionales. A través del recorrido, el espectador apreciará la extraordinaria variedad de huipiles bordados, la cerámica de barro negro de Coyotepec y la vestimenta ritual de las mayordomías. La narrativa enfatiza cómo la reciprocidad social, la devoción a las montañas y arroyos sagrados y la celebración festiva fortalecen la continuidad cultural.",
     "svg_id": "room_pa_17",
     "aliases": [
-      "sala-17",
-      "mayas-tierras-bajas",
-      "mayas-peninsula",
-      "tierras-bajas"
+      "sala-17-oaxaca",
+      "sala-17"
     ]
   },
   {
-    "room_id": "sala-18-oaxaca-sur",
+    "room_id": "sala-18-huastecos-y-totonacos",
     "numero_oficial": "18",
-    "nombre_oficial": "Oaxaca: Pueblos Indios del Sur",
+    "nombre_oficial": "Huastecos y Totonacos",
     "piso": "PA",
     "ala": "Sur",
-    "frase_gancho": "Mosaico pluriétnico donde el tequio, la fiesta mayordoma y el color honran la vida.",
-    "introduccion_narrativa": "Adéntrese en la colosal riqueza etnográfica de Oaxaca, territorio donde conviven más de dieciséis grupos étnicos como zapotecos, mixtecos, mixes, chinantecos y mazatecos. La exhibición revela la fuerza comunitaria del tequio, el esplendor de los trajes de tehuana y la milenaria cerámica de barro negro.",
+    "frase_gancho": "Aromas de vainilla y sones huastecos que alegran las llanuras del Golfo.",
+    "introduccion_narrativa": "Esta sala celebra la herencia viva de las culturas costeras del Golfo de México, representadas por los pueblos huasteco y totonaco. Ubicados entre ríos acaudalados, cultivos de vainilla y cálidas llanuras, estos grupos conservan un valioso legado artesanal y espiritual. La exhibición presenta delicadas piezas de alfarería femenina, indumentaria de encaje e impecables bordados, además de máscaras talladas empleadas en las danzas tradicionales de diablos y tejoneros. La atmósfera envolvente permite comprender cómo la música de quinta huapanguera, el verso improvisado y las ceremonias agrícolas de petición de lluvia continúan nutriendo la vida cotidiana.",
     "svg_id": "room_pa_18",
     "aliases": [
-      "sala-18",
-      "sala-17-oaxaca",
-      "oaxaca-etnografia",
-      "pueblos-oaxaca"
+      "sala-18-huastecos-y-totonacos",
+      "sala-18"
     ]
   },
   {
-    "room_id": "sala-19-costa-pacifico-nahuas",
+    "room_id": "sala-19-pueblos-mayas",
     "numero_oficial": "19",
-    "nombre_oficial": "Costa del Pacífico: Nahuas y Mixtecos",
+    "nombre_oficial": "Pueblos Mayas",
     "piso": "PA",
     "ala": "Sur",
-    "frase_gancho": "La palabra florida y los vientos costeros que unen sierras y mares en rituales festivos.",
-    "introduccion_narrativa": "Esta galería expone la presencia vibrante de los pueblos nahuas y mixtecos que habitan las costas y cuencas del Pacífico en Guerrero, Michoacán y Oaxaca. Destacan las pinturas tradicionales sobre papel amate de Xalitla, los telares teñidos con caracol púrpura y las ofrendas ceremoniales del tlamanaliztli para bendecir las cosechas.",
+    "frase_gancho": "Hijos de la milpa y la selva que preservan el tiempo y los saberes.",
+    "introduccion_narrativa": "Ingrese al universo diverso de los contemporáneos pueblos mayas, cuyos dominios abarcan desde la península de Yucatán hasta las tierras altas de Chiapas. Esta galería muestra cómo los tzotziles, tzeltales, tojolabales, chontales y mayas peninsulares sostienen una viva continuidad cosmogónica. El visitante contemplará réplicas de la arquitectura habitacional de bajareque y guano, la riqueza textil de huipiles brocados y vestimentas de lana para el frío de la montaña. La exhibición enfatiza la devoción a la milpa sagrada, las plegarias del ritual Cha-Chaac para atraer la lluvia y la resistencia lingüística y cultural de este pueblo.",
     "svg_id": "room_pa_19",
     "aliases": [
-      "sala-19",
-      "sala-21-nahuas",
-      "nahuas-pacifico",
-      "costa-pacifico"
+      "sala-19-pueblos-mayas",
+      "sala-19"
     ]
   },
   {
-    "room_id": "sala-20-purecherio",
+    "room_id": "sala-20-noroeste",
     "numero_oficial": "20",
-    "nombre_oficial": "Puréecherio (Tarascos)",
+    "nombre_oficial": "Noroeste",
     "piso": "PA",
     "ala": "Sur",
-    "frase_gancho": "Manos artesanas que moldean el cobre, el barro y la madera junto al lago sagrado.",
-    "introduccion_narrativa": "Ingrese al territorio purépecha de Michoacán, definido por sus lagos serenos y mesetas volcánicas. Esta sala rinde homenaje a la maestría técnica de sus artesanos: la troje de madera ensamblada, las bateas y pailas de cobre martillado de Santa Clara del Cobre y las tradicionales máscaras de la Danza de los Viejitos.",
+    "frase_gancho": "Voces del desierto, sierra y costa que afirman su libertad frente al horizonte.",
+    "introduccion_narrativa": "Esta galería traslada al visitante a los vastos paisajes del noroeste mexicano, hogar de comunidades memorables como tarahumaras, yaquis, mayos, seris, puras y pápagos. A lo largo del recorrido, se documenta la profunda conexión entre el entorno geográfico y las formas de vida adaptadas a las cañadas montañosas, las planicies desérticas y el litoral marino. Se exhiben elaboradas cesterías de torote, figuras en madera de palo fierro, indumentaria ceremonial y la impactante imaginería de la Danza del Venado. La narrativa destaca la autonomía política, la fortaleza espiritual y las complejas festividades de Semana Santa que protegen su identidad.",
     "svg_id": "room_pa_20",
     "aliases": [
-      "sala-20",
-      "sala-14-purecherio",
-      "purecherio",
-      "purepecha",
-      "tarascos"
+      "sala-20-noroeste",
+      "sala-20"
     ]
   },
   {
-    "room_id": "sala-21-gran-nayar",
+    "room_id": "sala-21-nahuas",
     "numero_oficial": "21",
-    "nombre_oficial": "El Gran Nayar: Coras y Huicholes",
+    "nombre_oficial": "Nahuas",
     "piso": "PA",
     "ala": "Sur",
-    "frase_gancho": "Sierras sagradas donde los cantos rituales y el peyote tejen el equilibrio cósmico.",
-    "introduccion_narrativa": "Adéntrese en la geografía sagrada de la Sierra Madre Occidental, morada de los pueblos wixárika (huichol), náayari (cora), o’dam (tepehuán) y mexicanero. Se exhiben las minuciosas tablas de estambre nierika, trajes bordados con venados sagrados y las máscaras de la Judea cora.",
+    "frase_gancho": "La palabra sagrada que florece en fiestas, campos de maíz y rituales compartidos.",
+    "introduccion_narrativa": "Concluya la travesía etnográfica explorando la sala dedicada al pueblo nahua, el grupo indígena demográficamente más numeroso y extendido de México. Herederos directos de la lengua uto-azteca y de la matriz cultural mesoamericana, los nahuas habitan diversos estados de la República. Esta galería exhibe la riqueza del calendario festivo, donde destacan las peticiones de lluvia en los cerros sagrados, las danzas de moros y cristianos y las coloridas celebraciones de Xantolo para los difuntos. El espacio destaca cómo la indumentaria, la música tradicional y la oralidad en náhuatl continúan siendo el pilar fundamental que preserva la cohesión comunitaria.",
     "svg_id": "room_pa_21",
     "aliases": [
-      "sala-21",
-      "sala-13-gran-nayar",
-      "gran-nayar",
-      "huichol",
-      "cora"
-    ]
-  },
-  {
-    "room_id": "sala-22-norte-noroeste",
-    "numero_oficial": "22",
-    "nombre_oficial": "Pueblos del Norte y Noroeste",
-    "piso": "PA",
-    "ala": "Sur",
-    "frase_gancho": "Voces del desierto, sierra y costa que afirman su libertad y sabiduría ancestral.",
-    "introduccion_narrativa": "Concluya la travesía etnográfica en los inmensos horizontes del norte y noroeste mexicano: tarahumaras de las barrancas, yaquis y mayos de los valles fluviales, y seris del Golfo de California. Destacan las máscaras de fariseo chapayeka, la parafernalia de la Danza del Venado y las finas esculturas de palo fierro.",
-    "svg_id": "room_pa_22",
-    "aliases": [
-      "sala-22",
-      "sala-20-noroeste",
-      "noroeste",
-      "norte-etnografia"
+      "sala-21-nahuas",
+      "sala-21"
     ]
   }
 ]

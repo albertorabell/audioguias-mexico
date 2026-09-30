@@ -126,25 +126,6 @@ export function calculateRouteTimeMinutes(
 }
 
 /**
- * Canonical Room ID mapping for PA rooms
- */
-const CANONICAL_PA_MAP: Record<string, string> = {
-  'sala-12-introduccion-etnografia': 'sala-12-pueblos-indios',
-  'sala-21-gran-nayar': 'sala-13-gran-nayar',
-  'sala-20-purecherio': 'sala-14-purecherio',
-  'sala-13-otopames': 'sala-15-otopames',
-  'sala-14-sierra-de-puebla': 'sala-16-sierra-de-puebla',
-  'sala-18-oaxaca-sur': 'sala-17-oaxaca',
-  'sala-15-costa-del-golfo': 'sala-18-huastecos-y-totonacos',
-  'sala-16-mayas-selva-montana': 'sala-19-pueblos-mayas',
-  'sala-17-mayas-tierras-bajas': 'sala-19-pueblos-mayas',
-  'sala-22-norte-noroeste': 'sala-20-noroeste',
-  'sala-19-costa-pacifico-nahuas': 'sala-21-nahuas',
-  'sala-10-occidente-de-mexico': 'sala-10-occidente',
-  'sala-11-culturas-del-norte': 'sala-11-norte',
-};
-
-/**
  * Generate an optimized route using pieces.json and rooms.json.
  * 
  * Rules (Rule D):
@@ -175,20 +156,8 @@ export function generateOptimizedRoute(
     }
   }
 
-  // Pre-normalize room IDs in pieces
-  allPieces = allPieces.map((p) => {
-    const norm = normalizePiece({ ...p });
-    if (CANONICAL_PA_MAP[norm.room_id]) {
-      norm.room_id = CANONICAL_PA_MAP[norm.room_id];
-    }
-    return norm;
-  });
-
-  // Filter out extra rooms (e.g. sala 22)
-  allRooms = allRooms.filter((r) => {
-    const rId = r.room_id;
-    return rId !== 'sala-22-norte-noroeste' && rId !== 'sala-17-mayas-tierras-bajas';
-  });
+  // Normalizar ids de las piezas (los room_id vienen tal cual de pieces.json / Sheets)
+  allPieces = allPieces.map((p) => normalizePiece({ ...p }));
 
   // 2. Group pieces by canonical room_id and sort by orden_sugerido ascending
   const piecesByRoom = new Map<string, PieceData[]>();

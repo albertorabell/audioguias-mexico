@@ -243,7 +243,7 @@ export default function App() {
     loadSites();
   }, []);
 
-  // 1.b Cargar catálogo oficial de EXACTAMENTE 22 salas (rooms.json) y 133 piezas (pieces.json)
+  // 1.b Cargar el catálogo de salas (rooms.json) y piezas (pieces.json) generado desde el Sheets
   useEffect(() => {
     async function loadCatalog() {
       try {
@@ -252,76 +252,18 @@ export default function App() {
           fetch(getAssetUrl('data/pieces.json')),
         ]);
 
-        const PA_ROOM_MAP: Record<string, string> = {
-          'sala-12-introduccion-etnografia': 'sala-12-pueblos-indios',
-          'sala-21-gran-nayar': 'sala-13-gran-nayar',
-          'sala-20-purecherio': 'sala-14-purecherio',
-          'sala-13-otopames': 'sala-15-otopames',
-          'sala-14-sierra-de-puebla': 'sala-16-sierra-de-puebla',
-          'sala-18-oaxaca-sur': 'sala-17-oaxaca',
-          'sala-15-costa-del-golfo': 'sala-18-huastecos-y-totonacos',
-          'sala-16-mayas-selva-montana': 'sala-19-pueblos-mayas',
-          'sala-17-mayas-tierras-bajas': 'sala-19-pueblos-mayas',
-          'sala-22-norte-noroeste': 'sala-20-noroeste',
-          'sala-19-costa-pacifico-nahuas': 'sala-21-nahuas',
-          'sala-10-occidente-de-mexico': 'sala-10-occidente',
-          'sala-11-culturas-del-norte': 'sala-11-norte',
-        };
-
-        const PA_CANONICAL_DEFS = [
-          { num: 12, id: 'sala-12-pueblos-indios', svg_id: 'room_pa_12', name: 'Pueblos Indios' },
-          { num: 13, id: 'sala-13-gran-nayar', svg_id: 'room_pa_13', name: 'Gran Nayar' },
-          { num: 14, id: 'sala-14-purecherio', svg_id: 'room_pa_14', name: 'Puréecherio (Tarascos)' },
-          { num: 15, id: 'sala-15-otopames', svg_id: 'room_pa_15', name: 'Otopames' },
-          { num: 16, id: 'sala-16-sierra-de-puebla', svg_id: 'room_pa_16', name: 'Sierra de Puebla' },
-          { num: 17, id: 'sala-17-oaxaca', svg_id: 'room_pa_17', name: 'Oaxaca' },
-          { num: 18, id: 'sala-18-huastecos-y-totonacos', svg_id: 'room_pa_18', name: 'Huastecos y Totonacos' },
-          { num: 19, id: 'sala-19-pueblos-mayas', svg_id: 'room_pa_19', name: 'Pueblos Mayas' },
-          { num: 20, id: 'sala-20-noroeste', svg_id: 'room_pa_20', name: 'Noroeste' },
-          { num: 21, id: 'sala-21-nahuas', svg_id: 'room_pa_21', name: 'Nahuas' },
-        ];
-
         if (roomsRes.ok) {
+          // Las salas vienen tal cual de rooms.json (que sale de tu Sheets), ordenadas por número oficial.
           const rawRooms: Room[] = await roomsRes.json();
-          const pbRooms = rawRooms.filter((r) => r.piso === 'PB');
-          const paRooms: Room[] = PA_CANONICAL_DEFS.map((def) => {
-            const raw = rawRooms.find(
-              (r) => r.room_id === def.id || (r.aliases && r.aliases.includes(def.id))
-            );
-            return {
-              ...(raw || {}),
-              room_id: def.id,
-              numero_oficial: String(def.num),
-              nombre_oficial: raw?.nombre_oficial || def.name,
-              piso: 'PA',
-              svg_id: def.svg_id,
-              ala: raw?.ala || 'Etnografía',
-              frase_gancho: raw?.frase_gancho || '',
-              introduccion_narrativa: raw?.introduccion_narrativa || '',
-              aliases: [
-                def.id,
-                `sala-${def.num}`,
-                ...(raw?.aliases || []),
-                raw?.room_id,
-              ].filter(Boolean) as string[],
-            };
-          });
-
-          // Exactly 22 rooms: 12 PB (00 to 11) + 10 PA (12 to 21)
-          setAllRooms([...pbRooms, ...paRooms]);
+          const ordered = [...rawRooms].sort(
+            (a, b) => (parseInt(String(a.numero_oficial), 10) || 0) - (parseInt(String(b.numero_oficial), 10) || 0)
+          );
+          setAllRooms(ordered);
         }
 
         if (piecesRes.ok) {
           const piecesData: PieceData[] = await piecesRes.json();
-          const normalized = piecesData.map((p) => {
-            const norm = normalizePiece(p);
-            // Ensure exact equality matching to official canonical room_id
-            if (PA_ROOM_MAP[norm.room_id]) {
-              norm.room_id = PA_ROOM_MAP[norm.room_id];
-            }
-            return norm;
-          });
-          setTourPieces(normalized);
+          setTourPieces(piecesData.map((p) => normalizePiece(p)));
         }
       } catch (err) {
         console.warn('Could not load initial data/rooms.json or pieces.json:', err);
