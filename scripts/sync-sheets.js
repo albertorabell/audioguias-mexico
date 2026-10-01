@@ -37,29 +37,77 @@ const REQUIRED = {
 const MIN_PIEZAS = 20;
 
 // Rutas sugeridas del MNA. Solo se usan piezas que existan en el Sheets (no se inventa nada).
+// Las paradas van ordenadas por ala del museo (Exteriores, Norte, Centro, Sur) para no regresar sobre los pasos.
 const ROUTES = [
   {
     id: 'ruta-monumental',
     name: 'Obras Maestras del MNA',
     duration: '45 min',
-    description: 'Recorrido curado por los grandes monolitos e iconos de la cosmovisión mesoamericana.',
+    description: 'Las piezas más famosas del museo, ordenadas para recorrer la planta baja de norte a sur sin regresar.',
     stop_ids: [
-      'mna_s06_piedra_sol',
-      'mna_s06_coatlicue',
       'mna_s04_chalchiuhtlicue',
       'mna_s04_disco_muerte',
-      'mna_s09_mascara_pakal',
+      'mna_s05_atlante_tula',
+      'mna_s06_piedra_sol',
+      'mna_s06_coatlicue',
       'mna_s06_coyolxauhqui',
       'mna_s08_cabeza_colosal_6',
-      'mna_s05_atlante_tula',
+      'mna_s09_mascara_pakal',
     ],
   },
   {
     id: 'visita-relampago',
     name: 'Visita Relámpago (Top Highlights)',
     duration: '25 min',
-    description: 'Itinerario exprés con los tesoros indispensables que todo visitante debe contemplar.',
-    stop_ids: ['mna_s06_piedra_sol', 'mna_s06_coatlicue', 'mna_s04_disco_muerte', 'mna_s09_mascara_pakal'],
+    description: 'Si tienes poco tiempo: cuatro piezas que no te puedes perder.',
+    stop_ids: [
+      'mna_s04_disco_muerte',
+      'mna_s06_piedra_sol',
+      'mna_s06_coatlicue',
+      'mna_s09_mascara_pakal',
+    ],
+  },
+  {
+    id: 'ruta-familiar',
+    name: 'Para ir con niños',
+    duration: '35 min',
+    description: 'Un mamut, una acróbata de barro, caritas que se ríen y perros de tumba: piezas para mirar y preguntar en familia.',
+    stop_ids: [
+      'mna_s00_el_paraguas',
+      'mna_s01_lucy_afarensis',
+      'mna_s02_mamut_iztapan',
+      'mna_s03_acrobata_tlatilco',
+      'mna_s08_carita_sonriente',
+      'mna_s10_perros_colima',
+    ],
+  },
+  {
+    id: 'ruta-tumbas',
+    name: 'Tumbas y tesoros',
+    duration: '35 min',
+    description: 'Cómo despedían a sus muertos los zapotecos, los mixtecos, los mayas y los pueblos del Occidente.',
+    stop_ids: [
+      'mna_s07_tumba_104',
+      'mna_s07_pectoral_oro_tumba7',
+      'mna_s07_craneo_turquesa',
+      'mna_s07_copa_cristal_roca',
+      'mna_s09_mascara_pakal',
+      'mna_s10_tumba_tiro',
+    ],
+  },
+  {
+    id: 'ruta-mexica',
+    name: 'La Sala Mexica a fondo',
+    duration: '35 min',
+    description: 'Seis monumentos para entender cómo veían los mexicas el Sol, la tierra y la guerra.',
+    stop_ids: [
+      'mna_s06_piedra_sol',
+      'mna_s06_coatlicue',
+      'mna_s06_tizoc',
+      'mna_s06_coyolxauhqui',
+      'mna_s06_teocalli_guerra_sagrada',
+      'mna_s06_ocelotl_cuauhxicalli',
+    ],
   },
 ];
 // ============================================================================
