@@ -38,6 +38,8 @@ export interface Room {
   introduccion_narrativa: string;
   svg_id: string;
   aliases?: string[];
+  /** Texto corto para identificar la sala, p. ej. "Eje 1". Si no existe se usa "Sala NN". */
+  etiqueta?: string;
 
   // Campos de compatibilidad para el visor y catálogo
   id?: string;

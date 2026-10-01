@@ -78,9 +78,9 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
       },
       {
         key: 'vida-cotidiana-tumbas',
-        label: 'Culturas Regionales y Etnografía',
+        label: 'Pueblos Originarios y Etnografía',
         icon: <History className="w-4 h-4" />,
-        subtitle: 'Oaxaca, Golfo, Purépechas, Otopames y tradiciones vivas de México',
+        subtitle: 'Tumbas de Oaxaca, Occidente y los pueblos de hoy: textiles, milpa, fiestas y lenguas',
       },
     ];
   };

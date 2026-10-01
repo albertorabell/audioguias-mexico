@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Room, RouteStop } from '../types';
+import { getRoomLabel, getRoomShortLabel, getUnitWord } from '../utils/roomLabel';
 
 export interface MuseumMapSvgProps {
   rooms?: Room[];
@@ -15,6 +16,8 @@ export interface MuseumMapSvgProps {
 
 export interface MapRoomDef {
   numStr: string;
+  /** Texto completo para lectores de pantalla, p. ej. "Eje 1" o "Sala 06". Si falta se usa "Sala <numStr>". */
+  labelFull?: string;
   id: string;
   svg_id: string;
   aliases: string[];
@@ -209,165 +212,92 @@ const PB_ROOMS: MapRoomDef[] = [
   },
 ];
 
-// ================= Planta Alta: EXACTAMENTE 10 Salas de Etnografía (12 a 21) =================
-// 12: Pueblos Indios (room_pa_12)
-// 13: Gran Nayar (room_pa_13)
-// 14: Purecherio (room_pa_14)
-// 15: Otopames (room_pa_15)
-// 16: Sierra de Puebla (room_pa_16)
-// 17: Oaxaca (room_pa_17)
-// 18: Huastecos y Totonacos (room_pa_18)
-// 19: Pueblos Mayas (room_pa_19)
-// 20: Noroeste (room_pa_20)
-// 21: Nahuas (room_pa_21)
-// Salas eliminadas: 22 "Pueblos del Norte y Noroeste" y "Mirador/acceso".
-const PA_ROOMS: MapRoomDef[] = [
-  // --- Ala Poniente (Salas 12 a 15: x=35, w=215) ---
-  {
-    numStr: '12',
-    id: 'sala-12-pueblos-indios',
-    svg_id: 'room_pa_12',
-    aliases: ['sala-12', 'sala-12-introduccion-etnografia', 'pueblos-indios', 'etnografia-intro'],
-    fallbackName: 'Pueblos Indios',
-    piso: 'PA',
-    x: 35,
-    y: 450,
-    w: 215,
-    h: 75,
-    rx: 6,
-    wing: 'poniente',
-  },
-  {
-    numStr: '13',
-    id: 'sala-13-gran-nayar',
-    svg_id: 'room_pa_13',
-    aliases: ['sala-13', 'sala-21-gran-nayar', 'gran-nayar', 'huichol', 'cora'],
-    fallbackName: 'Gran Nayar',
-    piso: 'PA',
-    x: 35,
-    y: 350,
-    w: 215,
-    h: 75,
-    rx: 6,
-    wing: 'poniente',
-  },
-  {
-    numStr: '14',
-    id: 'sala-14-purecherio',
-    svg_id: 'room_pa_14',
-    aliases: ['sala-14', 'sala-20-purecherio', 'purecherio', 'purepecha', 'tarascos'],
-    fallbackName: 'Puréecherio (Tarascos)',
-    piso: 'PA',
-    x: 35,
-    y: 250,
-    w: 215,
-    h: 75,
-    rx: 6,
-    wing: 'poniente',
-  },
-  {
-    numStr: '15',
-    id: 'sala-15-otopames',
-    svg_id: 'room_pa_15',
-    aliases: ['sala-15', 'sala-13-otopames', 'otopames', 'otomi'],
-    fallbackName: 'Otopames',
-    piso: 'PA',
-    x: 35,
-    y: 150,
-    w: 215,
-    h: 75,
-    rx: 6,
-    wing: 'poniente',
-  },
+// ================= Planta Alta: se dibuja a partir de los datos (rooms.json) =================
+// La planta alta del MNA se renovó en enero de 2025 y pasó de 11 salas por región a 5 ejes temáticos.
+// Para que el mapa no dependa de un número fijo de salas, aquí NO hay salas escritas a mano:
+// las cajas se reparten solas, en orden de recorrido, a lo largo de la herradura del edificio
+// (ala poniente de sur a norte → cabecera norte de izquierda a derecha → ala oriente de norte a sur).
+// Si se cambia el orden (numero_oficial) o los nombres en el Sheets, el mapa se ajusta solo.
+// Es un ESQUEMA orientativo del recorrido, no el plano exacto de la planta alta.
+const PA_WING_TOP = 150;
+const PA_WING_BOTTOM = 525;
+const PA_GAP = 12;
 
-  // --- Cabecera Norte (Salas 16 y 17: y=35, h=100) ---
-  {
-    numStr: '16',
-    id: 'sala-16-sierra-de-puebla',
-    svg_id: 'room_pa_16',
-    aliases: ['sala-16', 'sala-14-sierra-de-puebla', 'sierra-puebla', 'totonacos'],
-    fallbackName: 'Sierra de Puebla',
-    piso: 'PA',
-    x: 265,
-    y: 35,
-    w: 180,
-    h: 100,
-    rx: 6,
-    wing: 'norte',
-  },
-  {
-    numStr: '17',
-    id: 'sala-17-oaxaca',
-    svg_id: 'room_pa_17',
-    aliases: ['sala-17', 'sala-18-oaxaca-sur', 'oaxaca-etnografia', 'pueblos-oaxaca'],
-    fallbackName: 'Oaxaca',
-    piso: 'PA',
-    x: 455,
-    y: 35,
-    w: 180,
-    h: 100,
-    rx: 6,
-    wing: 'norte',
-  },
+const numeroDe = (r: Room) => parseInt(String(r.numero_oficial || r.room_id.match(/\d+/)?.[0] || '0'), 10) || 0;
 
-  // --- Ala Oriente (Salas 18 a 21: x=650, w=215) ---
-  {
-    numStr: '18',
-    id: 'sala-18-huastecos-y-totonacos',
-    svg_id: 'room_pa_18',
-    aliases: ['sala-18', 'sala-15-costa-del-golfo', 'huastecos-y-totonacos', 'golfo-etnografia'],
-    fallbackName: 'Huastecos y Totonacos',
+export function buildPaLayout(paRooms: Room[]): MapRoomDef[] {
+  const sorted = [...paRooms].sort((a, b) => numeroDe(a) - numeroDe(b));
+  const n = sorted.length;
+  if (n === 0) return [];
+
+  // Cuántas cajas van en la cabecera norte y cuántas en cada ala
+  const northCount = n >= 6 ? 2 : n >= 3 ? 1 : 0;
+  const rest = n - northCount;
+  const westCount = Math.ceil(rest / 2);
+  const eastCount = rest - westCount;
+
+  const defs: MapRoomDef[] = [];
+  const makeDef = (room: Room, idx: number, geo: Pick<MapRoomDef, 'x' | 'y' | 'w' | 'h' | 'wing'>): MapRoomDef => ({
+    numStr: getRoomShortLabel(room),
+    labelFull: getRoomLabel(room),
+    id: room.room_id,
+    svg_id: room.svg_id || `room_pa_${idx + 1}`,
+    aliases: room.aliases && room.aliases.length > 0 ? room.aliases : [room.room_id],
+    fallbackName: room.nombre_oficial || room.room_id,
     piso: 'PA',
-    x: 650,
-    y: 150,
-    w: 215,
-    h: 75,
     rx: 6,
-    wing: 'oriente',
-  },
-  {
-    numStr: '19',
-    id: 'sala-19-pueblos-mayas',
-    svg_id: 'room_pa_19',
-    aliases: ['sala-19', 'sala-16-mayas-selva-montana', 'mayas-selva', 'mayas-montana', 'pueblos-mayas'],
-    fallbackName: 'Pueblos Mayas',
-    piso: 'PA',
-    x: 650,
-    y: 250,
-    w: 215,
-    h: 75,
-    rx: 6,
-    wing: 'oriente',
-  },
-  {
-    numStr: '20',
-    id: 'sala-20-noroeste',
-    svg_id: 'room_pa_20',
-    aliases: ['sala-20', 'sala-22-norte-noroeste', 'noroeste', 'norte-etnografia'],
-    fallbackName: 'Noroeste',
-    piso: 'PA',
-    x: 650,
-    y: 350,
-    w: 215,
-    h: 75,
-    rx: 6,
-    wing: 'oriente',
-  },
-  {
-    numStr: '21',
-    id: 'sala-21-nahuas',
-    svg_id: 'room_pa_21',
-    aliases: ['sala-21', 'sala-19-costa-pacifico-nahuas', 'nahuas-pacifico', 'costa-pacifico'],
-    fallbackName: 'Nahuas',
-    piso: 'PA',
-    x: 650,
-    y: 450,
-    w: 215,
-    h: 75,
-    rx: 6,
-    wing: 'oriente',
-  },
-];
+    ...geo,
+  });
+
+  const wingCell = (k: number, count: number) => {
+    const h = (PA_WING_BOTTOM - PA_WING_TOP - PA_GAP * (count - 1)) / count;
+    return { h, y: PA_WING_BOTTOM - h - k * (h + PA_GAP) };
+  };
+
+  let i = 0;
+  // Ala poniente: de abajo (sur) hacia arriba (norte)
+  for (let k = 0; k < westCount; k++, i++) {
+    const { h, y } = wingCell(k, westCount);
+    defs.push(makeDef(sorted[i], i, { x: 35, y, w: 215, h, wing: 'poniente' }));
+  }
+  // Cabecera norte: de izquierda a derecha
+  if (northCount > 0) {
+    const totalW = 370;
+    const w = (totalW - PA_GAP * (northCount - 1)) / northCount;
+    for (let k = 0; k < northCount; k++, i++) {
+      defs.push(makeDef(sorted[i], i, { x: 265 + k * (w + PA_GAP), y: 35, w, h: 100, wing: 'norte' }));
+    }
+  }
+  // Ala oriente: de arriba (norte) hacia abajo (sur)
+  for (let k = 0; k < eastCount; k++, i++) {
+    const { h, y } = wingCell(eastCount - 1 - k, eastCount);
+    defs.push(makeDef(sorted[i], i, { x: 650, y, w: 215, h, wing: 'oriente' }));
+  }
+  return defs;
+}
+
+/** Parte un texto en líneas por palabras (para nombres largos de ejes). */
+function wrapText(text: string, maxChars: number, maxLines: number): string[] {
+  const words = text.split(/\s+/).filter(Boolean);
+  const lines: string[] = [];
+  let current = '';
+  for (const w of words) {
+    if (!current) current = w;
+    else if ((current + ' ' + w).length <= maxChars) current += ' ' + w;
+    else {
+      lines.push(current);
+      current = w;
+    }
+  }
+  if (current) lines.push(current);
+  if (lines.length > maxLines) {
+    const kept = lines.slice(0, maxLines);
+    const last = kept[maxLines - 1];
+    kept[maxLines - 1] = (last.length > maxChars - 1 ? last.slice(0, maxChars - 1) : last).replace(/[\s,.;:]+$/, '') + '…';
+    return kept;
+  }
+  return lines;
+}
 
 export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
   rooms = [],
@@ -394,16 +324,14 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
       const activeStop = stops[currentStopIndex];
       if (activeStop) {
         const stopRoomId = (activeStop.room_id || (activeStop as any).roomId || '').toLowerCase();
-        // Check if room belongs to PA
-        const isPa =
-          stopRoomId.includes('pa') ||
-          stopRoomId.includes('etnografia') ||
-          PA_ROOMS.some(
-            (def) =>
-              def.id.toLowerCase() === stopRoomId ||
-              def.svg_id.toLowerCase() === stopRoomId ||
-              def.aliases.some((a) => a.toLowerCase() === stopRoomId)
-          );
+        // ¿La sala de esta parada es de planta alta? Se busca en rooms.json; si no está, se usa el piso de la parada.
+        const stopRoom = rooms.find(
+          (r) =>
+            r.room_id.toLowerCase() === stopRoomId ||
+            (r.aliases || []).some((a) => a.toLowerCase() === stopRoomId) ||
+            (r.svg_id || '').toLowerCase() === stopRoomId
+        );
+        const isPa = stopRoom ? stopRoom.piso === 'PA' : activeStop.piso === 'PA';
         const targetFloor = isPa ? 'PA' : 'PB';
         if (targetFloor !== internalFloor) {
           setInternalFloor(targetFloor);
@@ -420,7 +348,12 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
     if (onFloorChange) onFloorChange(floor);
   };
 
-  const currentFloorDefs = selectedFloor === 'PB' ? PB_ROOMS : PA_ROOMS;
+  // Las salas de planta alta se reparten a partir de rooms.json (ver buildPaLayout)
+  const paRooms = useMemo(() => rooms.filter((r) => r.piso === 'PA'), [rooms]);
+  const paDefs = useMemo(() => buildPaLayout(paRooms), [paRooms]);
+  const paUnit = useMemo(() => getUnitWord(paRooms), [paRooms]);
+
+  const currentFloorDefs = selectedFloor === 'PB' ? PB_ROOMS : paDefs;
 
   // Resolve room definitions with real names from rooms.json
   const enrichedFloorRooms = useMemo(() => {
@@ -565,8 +498,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
 
   // Count of etnografía rooms from rooms prop
   const paCount = useMemo(() => {
-    const count = rooms.filter((r) => r.piso === 'PA').length;
-    return count > 0 ? count : 10;
+    return rooms.filter((r) => r.piso === 'PA').length;
   }, [rooms]);
 
   const pbCount = useMemo(() => {
@@ -601,7 +533,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
             }`}
           >
             <span>🧵</span>
-            <span>Planta Alta (Etnografía · {paCount} salas)</span>
+            <span>Planta Alta (Etnografía{paCount > 0 ? ` · ${paCount} ${paUnit}` : ''})</span>
           </button>
         </div>
       )}
@@ -784,7 +716,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
                 className="cursor-pointer transition-all duration-150"
                 role="button"
                 tabIndex={0}
-                aria-label={`${room.displayName} (Sala ${room.numStr})`}
+                aria-label={`${room.displayName} (${room.labelFull || `Sala ${room.numStr}`})`}
               >
                 {/* Rectángulo de Sala */}
                 <rect
@@ -834,30 +766,71 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
                 </g>
 
                 {/* Título de Sala leído de rooms.json */}
-                <g>
-                  <text
-                    x={room.x + 36}
-                    y={room.y + (room.h > 65 ? 26 : 24)}
-                    fill={isSelected || isHovered ? '#F59E0B' : '#F3F4F6'}
-                    fontSize={room.h > 65 ? '11.5' : '11'}
-                    fontWeight="700"
-                  >
-                    {room.displayName.length > 24 ? room.displayName.slice(0, 22) + '...' : room.displayName}
-                  </text>
-
-                  {/* Frase gancho sutil */}
-                  {room.fraseGancho && (
+                {room.piso === 'PA' ? (
+                  // Planta alta: nombres largos de ejes → se parten en varias líneas
+                  (() => {
+                    const maxChars = Math.max(10, Math.floor((room.w - 46) / 6.6));
+                    const maxTitleLines = room.h > 120 ? 3 : room.h > 80 ? 2 : 1;
+                    const titleLines = wrapText(room.displayName, maxChars, maxTitleLines);
+                    const phraseStartY = room.y + 26 + titleLines.length * 14 + 4;
+                    const phraseRoom = Math.floor((room.y + room.h - 8 - phraseStartY) / 11);
+                    const phraseLines =
+                      room.fraseGancho && phraseRoom > 0
+                        ? wrapText(room.fraseGancho, Math.floor((room.w - 46) / 5.4), Math.min(phraseRoom, 4))
+                        : [];
+                    return (
+                      <g>
+                        <text
+                          x={room.x + 36}
+                          y={room.y + 26}
+                          fill={isSelected || isHovered ? '#F59E0B' : '#F3F4F6'}
+                          fontSize="11.5"
+                          fontWeight="700"
+                        >
+                          {titleLines.map((line, li) => (
+                            <tspan key={li} x={room.x + 36} dy={li === 0 ? 0 : 14}>
+                              {line}
+                            </tspan>
+                          ))}
+                        </text>
+                        {phraseLines.length > 0 && (
+                          <text x={room.x + 36} y={phraseStartY + 8} fill="#8F96A3" fontSize="8.5" fontWeight="400">
+                            {phraseLines.map((line, li) => (
+                              <tspan key={li} x={room.x + 36} dy={li === 0 ? 0 : 11}>
+                                {line}
+                              </tspan>
+                            ))}
+                          </text>
+                        )}
+                      </g>
+                    );
+                  })()
+                ) : (
+                  <g>
                     <text
                       x={room.x + 36}
-                      y={room.y + (room.h > 65 ? 42 : 40)}
-                      fill="#8F96A3"
-                      fontSize="8.5"
-                      fontWeight="400"
+                      y={room.y + (room.h > 65 ? 26 : 24)}
+                      fill={isSelected || isHovered ? '#F59E0B' : '#F3F4F6'}
+                      fontSize={room.h > 65 ? '11.5' : '11'}
+                      fontWeight="700"
                     >
-                      {room.fraseGancho.length > 28 ? room.fraseGancho.slice(0, 26) + '...' : room.fraseGancho}
+                      {room.displayName.length > 24 ? room.displayName.slice(0, 22) + '...' : room.displayName}
                     </text>
-                  )}
-                </g>
+
+                    {/* Frase gancho sutil */}
+                    {room.fraseGancho && (
+                      <text
+                        x={room.x + 36}
+                        y={room.y + (room.h > 65 ? 42 : 40)}
+                        fill="#8F96A3"
+                        fontSize="8.5"
+                        fontWeight="400"
+                      >
+                        {room.fraseGancho.length > 28 ? room.fraseGancho.slice(0, 26) + '...' : room.fraseGancho}
+                      </text>
+                    )}
+                  </g>
+                )}
               </g>
             );
           })}
@@ -918,12 +891,19 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
             </text>
           </g>
 
+          {/* Aviso: la planta alta es un esquema del recorrido, no el plano exacto */}
+          {selectedFloor === 'PA' && (
+            <text x="35" y="632" fill="#6B7280" fontSize="8.5" fontFamily="sans-serif">
+              Esquema orientativo del recorrido (no a escala). Sigue la señalización del museo.
+            </text>
+          )}
+
           {/* Rótulo inferior del piso activo con cálculo real desde rooms.json */}
           <g transform="translate(865, 625)">
             <text textAnchor="end" fill="#F59E0B" fontSize="9" fontWeight="700" fontFamily="sans-serif">
               {selectedFloor === 'PB'
                 ? `Nivel PB • Arqueología (${pbCount} Salas)`
-                : `Nivel PA • Etnografía (${paCount} Salas)`}
+                : `Nivel PA • Etnografía (${paCount} ${paUnit === 'ejes' ? 'Ejes' : 'Salas'})`}
             </text>
           </g>
         </svg>

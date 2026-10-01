@@ -15,6 +15,7 @@ import { Room, PieceData } from '../types';
 import { ttsPlayer } from '../utils/ttsPlayer';
 import { PieceImage } from './PieceImage';
 import { calculateRouteTimeMinutes, formatRouteDuration } from '../utils/routeOptimizer';
+import { getRoomLabel } from '../utils/roomLabel';
 
 interface RoomViewProps {
   room: Room;
@@ -37,10 +38,7 @@ export const RoomView: React.FC<RoomViewProps> = ({
   const isPA = room.piso === 'PA';
   const pisoText = isPA ? 'Planta Alta · Etnografía' : 'Planta Baja · Arqueología';
 
-  const numeroOficial =
-    room.numero_oficial !== undefined && room.numero_oficial !== ''
-      ? String(room.numero_oficial).padStart(2, '0')
-      : room.room_id?.match(/\d+/)?.[0]?.padStart(2, '0') || '00';
+  const salaLabel = getRoomLabel(room);
 
   const nombreOficial = room.nombre_oficial || room.name || room.room_id || 'Sala del Museo';
 
@@ -94,13 +92,13 @@ export const RoomView: React.FC<RoomViewProps> = ({
       setPlayingPieceId(null);
       ttsPlayer.play(
         introduccionNarrativa,
-        `Sala ${numeroOficial}: ${nombreOficial}`,
+        `${salaLabel}: ${nombreOficial}`,
         () => {
           setIsPlayingAudio(false);
           setPlayingPieceId(null);
         },
         {
-          roomName: `Sala ${numeroOficial} • ${nombreOficial}`,
+          roomName: `${salaLabel} • ${nombreOficial}`,
           mode: 'inmersion',
         }
       );
@@ -128,7 +126,7 @@ export const RoomView: React.FC<RoomViewProps> = ({
         </button>
 
         <span className="text-[11px] font-mono text-[#F59E0B] font-bold tracking-widest uppercase">
-          SALA {numeroOficial}
+          {salaLabel.toUpperCase()}
         </span>
       </header>
 
@@ -136,7 +134,7 @@ export const RoomView: React.FC<RoomViewProps> = ({
       <section className="px-4 pt-5 pb-3">
         <div className="flex items-center gap-2 mb-2">
           <span className="text-[10px] font-black uppercase tracking-widest px-2.5 py-0.5 rounded-full bg-[#F59E0B]/20 text-[#F59E0B] border border-[#F59E0B]/40">
-            SALA {numeroOficial} • {room.piso}
+            {salaLabel.toUpperCase()} • {room.piso}
           </span>
           <span className="text-xs font-semibold text-[#9CA3AF]">
             {pisoText}

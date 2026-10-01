@@ -13,6 +13,7 @@ import { Room, PieceData } from '../types';
 import { ttsPlayer } from '../utils/ttsPlayer';
 import { PieceImage } from './PieceImage';
 import { calculateRouteTimeMinutes, formatRouteDuration } from '../utils/routeOptimizer';
+import { getRoomLabel } from '../utils/roomLabel';
 
 interface RoomDetailModalProps {
   isOpen: boolean;
@@ -55,12 +56,10 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
     return [...pieces].sort((a, b) => (a.orden_sugerido || 99) - (b.orden_sugerido || 99));
   }, [pieces]);
 
-  if (!isOpen || !room) return null;
-
-  const pisoText = room.piso === 'PA' ? 'Planta Alta · Etnografía' : 'Planta Baja · Arqueología';
-  const numeroOficial = room.numero_oficial ? String(room.numero_oficial).padStart(2, '0') : '';
-  const nombreOficial = room.nombre_oficial || room.name || room.room_id || 'Sala';
+  const nombreOficial = room?.nombre_oficial || room?.name || room?.room_id || 'Sala';
+  // OJO: este useMemo debe ir ANTES del "return null" de abajo (regla de hooks de React).
   const totalMinutosEstimados = useMemo(() => {
+    if (!room) return '';
     const stops = sortedPieces.map((p, idx) => ({
       poi_id: p.piece_id || p.id,
       piece_id: p.piece_id || p.id,
@@ -77,6 +76,11 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
     return formatRouteDuration(calculateRouteTimeMinutes(stops));
   }, [sortedPieces, nombreOficial, room]);
 
+  if (!isOpen || !room) return null;
+
+  const pisoText = room.piso === 'PA' ? 'Planta Alta · Etnografía' : 'Planta Baja · Arqueología';
+  const salaLabel = getRoomLabel(room);
+
   const handleToggleNarrativeAudio = () => {
     if (isPlayingAudio) {
       ttsPlayer.stop();
@@ -84,10 +88,10 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
     } else {
       ttsPlayer.play(
         room.introduccion_narrativa || room.frase_gancho || nombreOficial,
-        `Sala ${numeroOficial}: ${nombreOficial}`,
+        `${salaLabel}: ${nombreOficial}`,
         () => setIsPlayingAudio(false),
         {
-          roomName: `Sala ${numeroOficial} • ${nombreOficial}`,
+          roomName: `${salaLabel} • ${nombreOficial}`,
           mode: 'inmersion',
         }
       );
@@ -116,7 +120,7 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-2 mb-1">
               <span className="text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-[#F59E0B]/20 text-[#F59E0B] border border-[#F59E0B]/40">
-                SALA {numeroOficial} • {room.piso}
+                {salaLabel.toUpperCase()} • {room.piso}
               </span>
               <span className="text-[11px] font-semibold text-[#9CA3AF]">
                 {pisoText}

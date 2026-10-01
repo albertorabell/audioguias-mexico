@@ -9,6 +9,9 @@ export interface RoutePreferences {
 
 export const MANDATORY_MNA_PIECE_ID = 'mna_s06_piedra_sol';
 
+// Minúsculas y sin acentos, para que "máscara" coincida con la palabra clave "mascara".
+const fold = (t: string) => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
 const INTEREST_KEYWORDS: Record<string, string[]> = {
   // MNA
   'cosmogonia-mexica': [
@@ -26,7 +29,10 @@ const INTEREST_KEYWORDS: Record<string, string[]> = {
   'vida-cotidiana-tumbas': [
     'tumbas', 'oaxaca', 'funeraria', 'monte alban', 'zapoteca', 'mixteca',
     'occidente', 'preclasico', 'urna', 'ofrenda', 'etnografia', 'huasteco',
-    'tarascos', 'purepecha', 'nahuas', 'otopames', 'sierra'
+    'tarascos', 'purepecha', 'nahuas', 'otopames', 'sierra',
+    // Planta alta renovada en 2025 (ejes temáticos)
+    'textil', 'huipil', 'milpa', 'maiz', 'fiesta', 'ritual', 'lengua', 'pueblos',
+    'identidad', 'resistencia', 'comunidad', 'tradicion'
   ],
   // Teotihuacán
   'eje-piramides': ['piramides', 'sol', 'luna', 'calzada', 'astronomia'],
@@ -184,14 +190,14 @@ export function generateOptimizedRoute(
 
   allRooms.forEach((room) => {
     let score = 0;
-    const rText = `${room.room_id} ${room.nombre_oficial} ${room.frase_gancho || ''} ${room.introduccion_narrativa || ''}`.toLowerCase();
+    const rText = fold(`${room.room_id} ${room.nombre_oficial} ${room.frase_gancho || ''} ${room.introduccion_narrativa || ''}`);
     activeKeywords.forEach((kw) => {
       if (rText.includes(kw)) score += 4;
     });
 
     const roomPieces = piecesByRoom.get(room.room_id) || [];
     roomPieces.forEach((p) => {
-      const pText = `${p.titulo} ${p.frase_gancho || ''} ${p.guion_corto || ''}`.toLowerCase();
+      const pText = fold(`${p.titulo} ${p.frase_gancho || ''} ${p.guion_corto || ''}`);
       activeKeywords.forEach((kw) => {
         if (pText.includes(kw)) score += 2;
       });
@@ -371,7 +377,7 @@ export function generateOptimizedRoute(
     title: `Ruta Curada · ${formatRouteDuration(finalMinutes)}`,
     duration: formatRouteDuration(finalMinutes),
     estimated_minutes: finalMinutes,
-    description: `Recorrido ordenado de PB (00→11) a PA (12→21) a través de ${selectedRooms.length} salas. Incluye la Piedra del Sol.`,
+    description: `Recorrido ordenado de planta baja a planta alta a través de ${selectedRooms.length} salas. Incluye la Piedra del Sol.`,
     stops: finalStops,
   };
 }

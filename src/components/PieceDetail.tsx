@@ -23,6 +23,7 @@ import { PieceImage } from './PieceImage';
 import { ImageZoomModal } from './ImageZoomModal';
 import { ttsPlayer, TTSState } from '../utils/ttsPlayer';
 import { getAssetUrl, findPiece } from '../utils/urlHelper';
+import { getRoomLabel } from '../utils/roomLabel';
 
 interface PieceDetailProps {
   piece: Piece;
@@ -180,10 +181,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
 
   const roomDisplayName = useMemo(() => {
     if (currentRoom?.nombre_oficial) {
-      const num = currentRoom.numero_oficial
-        ? `Sala ${String(currentRoom.numero_oficial).padStart(2, '0')}`
-        : '';
-      return `${num ? num + ' • ' : ''}${currentRoom.nombre_oficial}`;
+      return `${getRoomLabel(currentRoom)} • ${currentRoom.nombre_oficial}`;
     }
     if (roomName) return roomName;
     if (roomId) {

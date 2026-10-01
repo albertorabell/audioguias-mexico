@@ -183,6 +183,8 @@ function buildRooms(items) {
         frase_gancho: r.frase_gancho || '',
         introduccion_narrativa: r.introduccion_narrativa || '',
         svg_id: r.svg_id || '',
+        // Opcional: texto corto para identificar la sala, p. ej. "Eje 1". Si va vacío, la app usa "Sala NN".
+        etiqueta: r.etiqueta || '',
         aliases: [r.room_id, `sala-${String(r.numero_oficial).padStart(2, '0')}`],
       };
     });

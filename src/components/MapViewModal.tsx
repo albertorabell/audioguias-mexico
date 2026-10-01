@@ -19,6 +19,7 @@ import { MuseumMapSvg } from './MuseumMapSvg';
 import { SafeImage } from './SafeImage';
 import { useTheme } from '../utils/ThemeContext';
 import { getAssetUrl } from '../utils/urlHelper';
+import { getRoomLabel } from '../utils/roomLabel';
 
 interface MapViewModalProps {
   isOpen: boolean;
@@ -323,7 +324,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
             <div className="min-w-0 flex-1">
               <div className="flex items-center gap-2 mb-1">
                 <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/20 text-[#F59E0B] border border-[#F59E0B]/40">
-                  SALA {inspectedRoom.numero_oficial ? String(inspectedRoom.numero_oficial).padStart(2, '0') : ''} • {inspectedRoom.piso}
+                  {getRoomLabel(inspectedRoom).toUpperCase()} • {inspectedRoom.piso}
                 </span>
                 <span className="text-[11px] font-bold text-amber-400">
                   {inspectedRoomPieces.length} obras registradas

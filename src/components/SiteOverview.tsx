@@ -17,6 +17,7 @@ import {
 import { SiteSummary, SiteManifest, SiteRoute, Room, PieceData } from '../types';
 import { MuseumMapSvg } from './MuseumMapSvg';
 import { t } from '../utils/i18nStrings';
+import { getRoomShortLabel, getUnitWord } from '../utils/roomLabel';
 
 interface SiteOverviewProps {
   site: SiteSummary;
@@ -63,6 +64,8 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
   const paCount = useMemo(() => {
     return roomCatalog.filter((r) => r.piso === 'PA').length;
   }, [roomCatalog]);
+
+  const paUnit = useMemo(() => getUnitWord(roomCatalog.filter((r) => r.piso === 'PA')), [roomCatalog]);
 
   const totalRoomsCount = roomCatalog.length;
 
@@ -184,7 +187,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
             <div className="text-left">
               <span className="block leading-none">Planta Alta</span>
               <span className={`text-[10px] ${selectedFloor === 'PA' ? 'text-black/80 font-bold' : 'text-[#6B7280]'}`}>
-                Etnografía · {paCount} salas
+                Etnografía · {paCount} {paUnit}
               </span>
             </div>
           </button>
@@ -245,9 +248,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
           /* Vista en Lista de Salas */
           <div className="space-y-2.5">
             {filteredRooms.map((room) => {
-              const numStr = room.numero_oficial
-                ? String(room.numero_oficial).padStart(2, '0')
-                : '';
+              const numStr = getRoomShortLabel(room);
               const roomPiecesCount = piecesCountPerRoom.get(room.room_id) || 0;
 
               return (

@@ -24,6 +24,7 @@ import { RoomView } from './components/RoomView';
 import { Radio, ArrowLeft } from 'lucide-react';
 import { ttsPlayer } from './utils/ttsPlayer';
 import { t } from './utils/i18nStrings';
+import { getRoomLabel } from './utils/roomLabel';
 
 interface SpontaneousDetour {
   pieceFile: string;
@@ -418,8 +419,7 @@ export default function App() {
       return;
     }
 
-    const numStr = room.numero_oficial ? String(room.numero_oficial).padStart(2, '0') : '';
-    const roomTitle = `Sala ${numStr ? numStr + ' · ' : ''}${room.nombre_oficial || room.name}`;
+    const roomTitle = `${getRoomLabel(room)} · ${room.nombre_oficial || room.name}`;
 
     const stops: RouteStop[] = roomPieces.map((p, idx) => {
       const pId = p.piece_id || p.id || (p as any).poi_id;
