@@ -239,6 +239,10 @@ function buildPieces(items) {
         numero_catalogo: (p.numero_catalogo || '').trim(),
         fuente: (p.fuente || '').trim(),
         verificado: String(p.verificado || '').trim().toUpperCase() === 'TRUE',
+        // Crédito de la foto (opcional). Las fotos con licencia CC BY / CC BY-SA exigen mostrar autor y licencia.
+        foto_autor: (p.foto_autor || '').trim(),
+        foto_licencia: (p.foto_licencia || '').trim(),
+        foto_url: (p.foto_url || '').trim(),
         is_free: isFree,
         is_premium: !isFree,
       };

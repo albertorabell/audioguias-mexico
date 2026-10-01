@@ -69,6 +69,10 @@ export interface Piece {
   map_x: number;
   map_y: number;
   image_filename: string;
+  /** Crédito de la foto (opcional; columnas foto_autor, foto_licencia y foto_url del Sheets). */
+  foto_autor?: string;
+  foto_licencia?: string;
+  foto_url?: string;
   is_free: boolean;
   audio_file_url?: string;
 

@@ -442,6 +442,19 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             <p className="text-sm sm:text-base text-stone-200 leading-relaxed font-normal">
               {guionCorto}
             </p>
+            {piece.foto_autor && (
+              <p className="text-[10px] text-stone-500 leading-snug">
+                Foto:{' '}
+                {piece.foto_url && /^https?:\/\//i.test(piece.foto_url) ? (
+                  <a href={piece.foto_url} target="_blank" rel="noopener noreferrer" className="underline hover:text-stone-300">
+                    {piece.foto_autor}
+                  </a>
+                ) : (
+                  piece.foto_autor
+                )}
+                {piece.foto_licencia ? ` · ${piece.foto_licencia}` : ''}
+              </p>
+            )}
           </div>
 
           {/* Acordeón de Explicación Completa SIN límite de altura (no se corta texto largo) */}
