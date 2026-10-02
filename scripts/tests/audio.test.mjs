@@ -122,3 +122,30 @@ test('sin clave del proveedor real, falla con un mensaje claro', () => {
   const dir = tmpProject();
   assert.throws(() => run(dir, '--proveedor', 'azure', '--generar'), /AZURE_SPEECH_KEY/);
 });
+
+test('subir audios de pago: solo lista MP3 de piezas con el nombre correcto, con la clave idioma/archivo', async () => {
+  const { listPremiumFiles } = await import('../subir-audio-premium.mjs');
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'premium-test-'));
+  fs.mkdirSync(path.join(dir, 'es'));
+  fs.mkdirSync(path.join(dir, 'en'));
+  fs.writeFileSync(path.join(dir, 'es', 'mna_s06_coatlicue_corto.mp3'), 'x');
+  fs.writeFileSync(path.join(dir, 'es', 'mna_s06_coatlicue_largo.mp3'), 'x');
+  fs.writeFileSync(path.join(dir, 'en', 'mna_s06_coatlicue_corto.mp3'), 'x');
+  fs.writeFileSync(path.join(dir, 'es', 'notas.txt'), 'no');
+  fs.writeFileSync(path.join(dir, 'raro.mp3'), 'no');
+  fs.writeFileSync(path.join(dir, 'es', 'sin_modo.mp3'), 'no');
+  const keys = listPremiumFiles(dir).map((f) => f.key);
+  assert.deepEqual(keys, ['en/mna_s06_coatlicue_corto.mp3', 'es/mna_s06_coatlicue_corto.mp3', 'es/mna_s06_coatlicue_largo.mp3']);
+  assert.deepEqual(listPremiumFiles(path.join(dir, 'no-existe')), []);
+});
+
+test('subir audios de pago: sin claves de Cloudflare falla con un mensaje claro; en simulación no sube nada', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'premium-run-'));
+  fs.mkdirSync(path.join(dir, 'audio-premium/es'), { recursive: true });
+  fs.writeFileSync(path.join(dir, 'audio-premium/es/mna_s06_coatlicue_corto.mp3'), 'x');
+  const script = path.resolve(HERE, '../subir-audio-premium.mjs');
+  const env = { ...process.env, CLOUDFLARE_API_TOKEN: '', CLOUDFLARE_ACCOUNT_ID: '' };
+  const sim = execFileSync('node', [script, '--simular'], { cwd: dir, encoding: 'utf-8', env });
+  assert.match(sim, /Se subirían 1 audio/);
+  assert.throws(() => execFileSync('node', [script], { cwd: dir, encoding: 'utf-8', env, stdio: 'pipe' }), /CLOUDFLARE_API_TOKEN/);
+});

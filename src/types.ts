@@ -10,6 +10,7 @@ export interface SiteSummary {
   highlights_count: number;
   total_stops: number;
   status?: 'active' | 'coming_soon';
+  pass_price_mxn?: number;
 }
 
 export interface MapCoords {

@@ -11,11 +11,11 @@ test.beforeEach(async ({ page }) => {
 test('idioma: pasa a inglés, se queda al recargar y vuelve a español', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
-  await expect(page.locator('#btn-language-selector')).toContainText('ES');
+  await expect(page.locator('#btn-language-selector')).toHaveText(/^\s*es\s*$/i);
 
   await elegirIdioma(page, 'English');
   await expect(page.getByText('Your personal pocket curator')).toBeVisible();
-  await expect(page.locator('#btn-language-selector')).toContainText('EN');
+  await expect(page.locator('#btn-language-selector')).toHaveText(/^\s*en\s*$/i);
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');
   // El nombre del museo también cambia de idioma
   await expect(page.getByText('National Museum of Anthropology').first()).toBeVisible();
