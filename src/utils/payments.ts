@@ -40,7 +40,9 @@ async function call(path: string, init?: RequestInit): Promise<PaymentResult<any
   const data = await res.json().catch(() => ({}));
   if (res.ok) return { ok: true, data };
   const code = String(data?.error || '');
-  return { ok: false, error: (KNOWN as string[]).includes(code) ? (code as PaymentErrorCode) : 'unknown' };
+  if ((KNOWN as string[]).includes(code)) return { ok: false, error: code as PaymentErrorCode };
+  // Una página de error de Cloudflare (5xx) o "demasiadas solicitudes" (429) no trae código nuestro: es un fallo pasajero, se puede reintentar
+  return { ok: false, error: res.status >= 500 || res.status === 429 ? 'server_error' : 'unknown' };
 }
 
 const post = (path: string, body: unknown) => call(path, { method: 'POST', body: JSON.stringify(body) });
@@ -54,7 +56,8 @@ export interface PricingInfo {
 /** Precios reales (los lee el servidor de Stripe). null si no hay servidor o no responde: se usan los de la ficha del sitio. */
 export async function fetchPricing(): Promise<PricingInfo | null> {
   const r = await call('/config');
-  return r.ok ? (r.data as PricingInfo) : null;
+  // Sin precio en pesos no hay nada confiable que mostrar: la ventana usa los precios de la ficha del sitio
+  return r.ok && r.data?.prices?.mxn ? (r.data as PricingInfo) : null;
 }
 
 /** Pide la página de pago de Stripe. Si sale bien, hay que mandar al visitante a `url`. */
@@ -85,12 +88,21 @@ export async function redeemCode(code: string, siteId: string): Promise<PaymentR
 export type PaymentReturn = { status: 'paid'; sessionId: string } | { status: 'cancelled' };
 
 const PENDING_KEY = 'audioguias_pending_session';
+const PENDING_SINCE_KEY = 'audioguias_pending_since';
+// Un pago pendiente se sigue intentando canjear hasta por 7 días; después se olvida (el servidor tampoco lo aceptaría mucho más tiempo)
+const PENDING_MAX_AGE_MS = 7 * 24 * 3600 * 1000;
 
 /** Pago de regreso de Stripe que todavía no se pudo canjear (por ejemplo, no había internet). Se reintenta al abrir la app. */
 export function getPendingSession(): string | null {
   try {
     const v = localStorage.getItem(PENDING_KEY);
-    return v && /^cs_(test|live)_[A-Za-z0-9]{10,200}$/.test(v) ? v : null;
+    if (!v || !/^cs_(test|live)_[A-Za-z0-9]{10,200}$/.test(v)) return null;
+    const since = parseInt(localStorage.getItem(PENDING_SINCE_KEY) || '0', 10);
+    if (since && Date.now() - since > PENDING_MAX_AGE_MS) {
+      clearPendingSession();
+      return null;
+    }
+    return v;
   } catch {
     return null;
   }
@@ -99,17 +111,19 @@ export function getPendingSession(): string | null {
 export function clearPendingSession(): void {
   try {
     localStorage.removeItem(PENDING_KEY);
+    localStorage.removeItem(PENDING_SINCE_KEY);
   } catch {
     /* sin almacenamiento */
   }
 }
 
 /** Errores que se pueden arreglar reintentando más tarde: el pago pendiente se conserva. */
-export const RETRYABLE_ERRORS: PaymentErrorCode[] = ['network', 'server_error', 'stripe_error', 'not_paid'];
+export const RETRYABLE_ERRORS: PaymentErrorCode[] = ['network', 'server_error', 'stripe_error', 'not_paid', 'not_configured'];
 
 /** Canjea el pago pendiente (si hay). Si sale bien o el error ya no tiene remedio, lo olvida. */
-export async function redeemPendingSession(): Promise<PaymentResult<SiteLicense> | null> {
-  const id = getPendingSession();
+export async function redeemPendingSession(fallbackSessionId?: string): Promise<PaymentResult<SiteLicense> | null> {
+  // Si el navegador no deja guardar datos, se usa el pago que acaba de venir en la dirección (se intenta una vez)
+  const id = getPendingSession() || fallbackSessionId || null;
   if (!id) return null;
   const r = await redeemSession(id);
   if (r.ok || !RETRYABLE_ERRORS.includes(r.error)) clearPendingSession();
@@ -132,6 +146,7 @@ export function readPaymentReturn(): PaymentReturn | null {
         result = { status: 'paid', sessionId: id };
         try {
           localStorage.setItem(PENDING_KEY, id);
+          localStorage.setItem(PENDING_SINCE_KEY, String(Date.now()));
         } catch {
           /* si no se puede guardar, el canje se intenta igual una vez */
         }

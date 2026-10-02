@@ -72,6 +72,16 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   // El pase simulado solo existe mientras no haya pagos reales (o al programar)
   const canSimulate = isDebugMode && (!PAYMENTS_ENABLED || import.meta.env.DEV);
 
+  // Si el visitante regresa con el botón "atrás" desde Stripe, el navegador puede restaurar esta página tal como estaba
+  // (con el botón en "Abriendo el pago…"). Al volver a mostrarse se libera.
+  useEffect(() => {
+    const onShow = (e: PageTransitionEvent) => {
+      if (e.persisted) setBusy(null);
+    };
+    window.addEventListener('pageshow', onShow);
+    return () => window.removeEventListener('pageshow', onShow);
+  }, []);
+
   // Precios reales desde el servidor de pagos
   useEffect(() => {
     if (!isOpen || !PAYMENTS_ENABLED || pricing) return;

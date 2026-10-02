@@ -225,9 +225,10 @@ Con Stripe en **modo de prueba**:
 
 1. **El candado de las piezas de pago es «suave» para el texto.** Los **MP3 de pago sí están protegidos** (solo salen con un pase válido). Pero los **textos (guiones) de las piezas de pago** viajan en los archivos públicos del sitio, así que una persona con conocimientos técnicos podría leerlos. Si eso te preocupa, el siguiente paso es mover también esos textos detrás del servidor; avísame y lo hago.
 2. **Reembolsos:** si devuelves un pago en Stripe, **el pase no se cancela solo** todavía. Tendría que agregarse.
+   Tampoco hay candado contra personas técnicas que repartan un pase a más de 2 dispositivos mandando muchas solicitudes a la vez: el límite de 2 es de cortesía, no a prueba de trampas. Para un pase de 72 horas me parece un riesgo bajo; si crece, se refuerza.
 3. **Pase por dispositivo:** si alguien borra los datos del navegador o usa modo privado, pierde el pase en ese aparato. Puede recuperarlo con su **código** (hasta 2 dispositivos).
 4. **Cloudflare KV** puede tardar hasta un minuto en reflejar cambios en otras regiones del mundo. Rara vez se nota.
-5. El pase empieza a contar **cuando se activa por primera vez** (no cuando se paga), dura **72 horas**.
+5. El pase empieza a contar **cuando se activa por primera vez** (no cuando se paga), dura **72 horas**. Quien pagó tiene hasta **30 días** para activarlo por primera vez.
 6. El precio que se **cobra** es el de Stripe (Paso C2); la ventana del pase lo lee de ahí. Pero la pantalla de inicio dice «solo $79 por sitio» y eso sale de un texto fijo: si cambias el precio en Stripe, avísame para actualizar también `public/data/sites.json` y `public/data/mna/site.json` (campos `pass_price_mxn` y `pass_price_usd`).
 7. Textos como «Top 10 Museos del Mundo» o «Único Castillo Real en América» (en `public/data/sites.json`) son tuyos y no los verifiqué; confirma que se puedan afirmar antes de promocionar esos sitios.
 

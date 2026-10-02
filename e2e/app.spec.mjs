@@ -132,6 +132,19 @@ test('regreso de Stripe cuando Stripe aún no confirma: el pago queda pendiente 
   expect(await page.evaluate(() => localStorage.getItem('audioguias_pending_session'))).toBe(SESSION);
 });
 
+test('regreso de Stripe con una página de error de Cloudflare (502 en HTML): el pago se conserva y se puede reintentar al abrir la app', async ({ page }) => {
+  const api = await simularCobro(page, { redeem: 'html502' });
+  await page.goto(`/?pago=ok&session_id=${SESSION}`);
+  await expect(page.getByTestId('payment-notice')).toContainText('Algo falló en el servidor');
+  expect(await page.evaluate(() => localStorage.getItem('audioguias_pending_session'))).toBe(SESSION);
+
+  // Al volver a abrir la app (ya sin ?pago=ok), el pago pendiente se canjea solo y el aviso es de éxito
+  api.redeem = 'ok';
+  await page.goto('/');
+  await expect(page.getByTestId('payment-notice')).toContainText('Pago confirmado');
+  expect(await page.evaluate(() => localStorage.getItem('audioguias_pending_session'))).toBeNull();
+});
+
 test('pago cancelado en Stripe: se avisa y no se activa nada', async ({ page }) => {
   await simularCobro(page);
   await page.goto('/?pago=cancelado');

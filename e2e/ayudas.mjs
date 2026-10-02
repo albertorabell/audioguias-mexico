@@ -46,6 +46,9 @@ export async function simularCobro(page, opciones = {}) {
       case '/checkout':
         return json(200, { url: 'https://checkout.stripe.com/c/pay/cs_test_mock' });
       case '/redeem':
+        if (api.redeem === 'html502') {
+          return route.fulfill({ status: 502, headers: { ...CORS, 'content-type': 'text/html' }, body: '<html><body>Bad gateway</body></html>' });
+        }
         return api.redeem === 'ok' ? json(200, grant()) : json(STATUS[api.redeem] || 400, { error: api.redeem });
       case '/code':
         return api.code === 'ok' ? json(200, grant()) : json(STATUS[api.code] || 400, { error: api.code });

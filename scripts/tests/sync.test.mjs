@@ -107,3 +107,19 @@ test('seguridad: un MP3 de una pieza de pago dentro de public/audio detiene la p
   fs.writeFileSync(path.join(dir, 'public/audio/es/p01_corto.mp3'), 'x');
   assert.throws(() => runSync(dir), (e) => /DE PAGO dentro de public\/audio/.test(String(e.stderr) + String(e.stdout) + String(e.message)));
 });
+
+test('seguridad: también detecta fugas en la raíz, en subcarpetas y con otras extensiones de audio', () => {
+  for (const rel of ['p01_corto.mp3', 'extra/p01_largo.mp3', 'es/nuevo/p01_largo.m4a', 'es/p01.wav']) {
+    const dir = makeProject({ withManifest: true });
+    fs.mkdirSync(path.dirname(path.join(dir, 'public/audio', rel)), { recursive: true });
+    fs.writeFileSync(path.join(dir, 'public/audio', rel), 'x');
+    assert.throws(() => runSync(dir), (e) => /DE PAGO dentro de public\/audio/.test(String(e.stderr) + String(e.stdout) + String(e.message)), rel);
+  }
+});
+
+test('seguridad: un MP3 cuyo nombre solo se parece al de una pieza de pago no es fuga', () => {
+  const dir = makeProject({ withManifest: true });
+  fs.writeFileSync(path.join(dir, 'public/audio/es/p01_extra_corto.mp3'), 'x');
+  fs.writeFileSync(path.join(dir, 'public/audio/es/notas.txt'), 'x');
+  assert.doesNotThrow(() => runSync(dir));
+});

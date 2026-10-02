@@ -79,6 +79,7 @@ export default function App() {
 
   // License State
   const [currentLicense, setCurrentLicense] = useState<SiteLicense | null>(null);
+  const [licenseVersion, setLicenseVersion] = useState(0);
 
   // Modal State
   const [isLiveRouteManagerOpen, setIsLiveRouteManagerOpen] = useState(false);
@@ -303,12 +304,14 @@ export default function App() {
     }
     if (returned) setPaymentNotice({ kind: 'info', text: t.paywall.notice.confirming });
     (async () => {
-      const result = await redeemPendingSession();
+      const result = await redeemPendingSession(returned?.status === 'paid' ? returned.sessionId : undefined);
       if (!result) {
         setPaymentNotice(null);
         return;
       }
       if (result.ok) {
+        // Si ya se había abierto un museo mientras se confirmaba el pago, se vuelve a leer el pase para que la ventana lo muestre
+        setLicenseVersion((v) => v + 1);
         const hours = Math.round((result.data.expires_at - Date.now()) / 3600000) || PASS_HOURS;
         setPaymentNotice({ kind: 'success', text: t.paywall.notice.success(hours) });
       } else if (returned || !RETRYABLE_ERRORS.includes(result.error)) {
@@ -328,7 +331,7 @@ export default function App() {
     } else {
       setCurrentLicense(null);
     }
-  }, [selectedSite]);
+  }, [selectedSite, licenseVersion]);
 
   // 2. Select Site (protected against coming_soon)
   const handleSelectSite = async (site: SiteSummary) => {

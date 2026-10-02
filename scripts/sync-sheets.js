@@ -415,13 +415,22 @@ function findPremiumAudioLeaks(pieces) {
   if (!fs.existsSync(AUDIO_DIR)) return [];
   const premiumIds = new Set(pieces.filter((p) => !p.is_free).map((p) => p.piece_id));
   const leaks = [];
-  for (const lang of fs.readdirSync(AUDIO_DIR, { withFileTypes: true })) {
-    if (!lang.isDirectory()) continue;
-    for (const f of fs.readdirSync(path.join(AUDIO_DIR, lang.name))) {
-      const m = f.match(/^(.+)_(corto|largo)\.mp3$/);
-      if (m && premiumIds.has(m[1])) leaks.push(`${lang.name}/${f}`);
+  // Se revisa TODO lo que hay dentro de public/audio (subcarpetas incluidas y cualquier extensión de audio),
+  // no solo la ruta esperada <idioma>/<pieza>_<modo>.mp3.
+  const walk = (dir, rel) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const relPath = rel ? `${rel}/${entry.name}` : entry.name;
+      if (entry.isDirectory()) {
+        walk(path.join(dir, entry.name), relPath);
+        continue;
+      }
+      const m = entry.name.match(/^(.+)\.(mp3|m4a|aac|wav|ogg|oga|opus|flac|weba|webm)$/i);
+      if (!m) continue;
+      const stem = m[1];
+      if (premiumIds.has(stem) || premiumIds.has(stem.replace(/_(corto|largo)$/, ''))) leaks.push(relPath);
     }
-  }
+  };
+  walk(AUDIO_DIR, '');
   return leaks;
 }
 

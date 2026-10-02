@@ -71,7 +71,9 @@ export default defineConfig(() => {
               // Audios MP3: se sirven desde el caché del modo sin conexión (el mismo que llena "Descargar recorrido",
               // ver CACHE_NAME en src/utils/offlineTourManager.ts). rangeRequests permite adelantar/retroceder sin internet.
               // ignoreSearch: la clave del pase va en la dirección (?t=...) y cambia, el archivo es el mismo.
-              urlPattern: /\/audio\/.*\.mp3(\?.*)?$/i,
+              // Función y no expresión regular: Workbox solo acepta una expresión regular en otro dominio (los MP3 de pago
+              // vienen del servidor de cobro) si coincide desde el principio de la dirección completa.
+              urlPattern: ({ url }: { url: URL }) => /\/audio\/.+\.mp3$/i.test(url.pathname),
               handler: 'CacheFirst',
               options: {
                 cacheName: 'mna-offline-tour-v1',

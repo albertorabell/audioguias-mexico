@@ -18,6 +18,12 @@ const DEVICE_RE = /^[A-Za-z0-9_-]{6,64}$/;
 const AUDIO_RE = /^\/audio\/(es|en|fr|pl|ru|ja)\/([A-Za-z0-9_-]+)_(corto|largo)\.mp3$/;
 const STRIPE_LOCALES = { es: 'es-419', en: 'en', fr: 'fr', pl: 'pl', ru: 'ru', ja: 'ja' };
 
+/** "ES", "es-MX" o "en-US" → "es" / "en". Cualquier otra cosa (incluido "constructor") → "es". */
+function normalizeLang(v) {
+  const l = typeof v === 'string' ? v.toLowerCase().slice(0, 2) : '';
+  return Object.hasOwn(STRIPE_LOCALES, l) ? l : 'es';
+}
+
 // ---------------------------------------------------------------------------
 // Configuración
 // ---------------------------------------------------------------------------
@@ -29,9 +35,11 @@ function settings(env) {
   };
   return {
     origins: list(env.ALLOWED_ORIGINS, ''),
-    sites: list(env.SITE_IDS, 'mna'),
+    sites: list(env.SITE_IDS, 'mna').map((x) => x.toLowerCase()),
     hours: num(env.PASS_HOURS, 72),
     maxDevices: num(env.MAX_DEVICES, 2),
+    // Cuántos días después de pagar se puede canjear por primera vez (el pase empieza a contar al canjear)
+    sessionDays: num(env.SESSION_MAX_DAYS, 30),
   };
 }
 
@@ -70,16 +78,18 @@ async function stripeCall(env, method, path, params) {
   return body;
 }
 
-let priceCache = { at: 0, data: null };
+let priceCache = { at: 0, data: null, key: '' };
 async function getPrices(env) {
-  if (priceCache.data && Date.now() - priceCache.at < 3600_000) return priceCache.data;
+  // La caché se descarta si cambian los identificadores de precio (por ejemplo, de modo de prueba a modo real)
+  const key = `${env.STRIPE_PRICE_ID_MXN}|${env.STRIPE_PRICE_ID_USD}`;
+  if (priceCache.data && priceCache.key === key && Date.now() - priceCache.at < 3600_000) return priceCache.data;
   const out = {};
   for (const [key, id] of [['mxn', env.STRIPE_PRICE_ID_MXN], ['usd', env.STRIPE_PRICE_ID_USD]]) {
     if (!id || id.startsWith('REEMPLAZA')) continue;
     const p = await stripeCall(env, 'GET', `prices/${encodeURIComponent(id)}`);
     if (typeof p.unit_amount === 'number') out[key] = { amount: p.unit_amount / 100, currency: p.currency };
   }
-  priceCache = { at: Date.now(), data: out };
+  priceCache = { at: Date.now(), data: out, key };
   return out;
 }
 
@@ -99,8 +109,10 @@ async function loadPass(env, sessionId) {
   return raw ? JSON.parse(raw) : null;
 }
 
-async function savePass(env, sessionId, pass) {
-  const ttl = Math.max(60, Math.ceil((pass.expiresAt - Date.now()) / 1000) + 7 * 86400);
+// El registro del pase debe vivir MÁS que la ventana en que una sesión pagada todavía se puede canjear
+// (sessionDays) más lo que dura el pase. Si se borrara antes, la misma sesión pagada daría otro pase nuevo.
+async function savePass(env, cfg, sessionId, pass) {
+  const ttl = cfg.sessionDays * 86400 + cfg.hours * 3600 + 86400;
   await env.PASES.put(`s:${sessionId}`, JSON.stringify(pass), { expirationTtl: ttl });
 }
 
@@ -111,7 +123,7 @@ async function grantAccess(env, cfg, sessionId, pass, deviceId) {
   if (!pass.devices.includes(deviceId)) {
     if (pass.devices.length >= cfg.maxDevices) return { error: 'device_limit', status: 403 };
     pass.devices.push(deviceId);
-    await savePass(env, sessionId, pass);
+    await savePass(env, cfg, sessionId, pass);
   }
   const token = await signToken({ sid: sessionId.slice(-12), site: pass.site, dev: deviceId, exp: pass.expiresAt }, env.TOKEN_SECRET);
   return {
@@ -139,7 +151,8 @@ const siteKey = (v) => String(v || '').trim().toLowerCase();
 async function handleCheckout(request, env, cfg, cors) {
   const body = await readJson(request);
   if (!body) return json({ error: 'bad_request' }, 400, cors);
-  const { lang = 'es', deviceId, returnUrl } = body;
+  const { deviceId, returnUrl } = body;
+  const lang = normalizeLang(body.lang);
   const siteId = siteKey(body.siteId);
   if (!cfg.sites.includes(siteId) || !DEVICE_RE.test(String(deviceId || ''))) return json({ error: 'bad_request' }, 400, cors);
 
@@ -163,7 +176,7 @@ async function handleCheckout(request, env, cfg, cors) {
   params.set('line_items[0][quantity]', '1');
   params.set('success_url', `${base}?pago=ok&session_id={CHECKOUT_SESSION_ID}`);
   params.set('cancel_url', `${base}?pago=cancelado`);
-  params.set('locale', STRIPE_LOCALES[lang] || 'auto');
+  params.set('locale', STRIPE_LOCALES[lang]);
   params.set('client_reference_id', deviceId);
   params.set('metadata[site_id]', siteId);
   params.set('metadata[device_id]', deviceId);
@@ -198,10 +211,14 @@ async function handleRedeem(request, env, cfg, cors) {
 
   let pass = await loadPass(env, sessionId);
   if (!pass) {
+    // Una sesión pagada solo se puede canjear por primera vez dentro de sessionDays. Sin este límite, quien conserve el
+    // enlace de regreso (historial, captura de pantalla) podría canjearlo otra vez cuando el registro del pase ya no exista.
+    const ageSeconds = Date.now() / 1000 - Number(session.created);
+    if (!Number.isFinite(ageSeconds) || ageSeconds > cfg.sessionDays * 86400) return json({ error: 'expired' }, 410, cors);
     // Primera vez que se canjea: el pase empieza a contar ahora
     pass = { site, devices: [], createdAt: Date.now(), expiresAt: Date.now() + cfg.hours * 3600_000, code: makeCode() };
     await env.PASES.put(codeKey(pass.code), sessionId, { expirationTtl: cfg.hours * 3600 + 7 * 86400 });
-    await savePass(env, sessionId, pass);
+    await savePass(env, cfg, sessionId, pass);
   }
   const r = await grantAccess(env, cfg, sessionId, pass, deviceId);
   return r.error ? json({ error: r.error }, r.status, cors) : json(r.body, 200, cors);
@@ -232,8 +249,34 @@ async function handleConfig(env, cfg, cors) {
     prices = await getPrices(env);
   } catch (e) {
     console.error('config', e.message);
+    return json({ error: 'stripe_error' }, 502, cors);
   }
   return json({ prices, passHours: cfg.hours, maxDevices: cfg.maxDevices }, 200, { ...cors, 'Cache-Control': 'public, max-age=300' });
+}
+
+/**
+ * Interpreta "Range: bytes=a-b" / "bytes=a-" / "bytes=-n" para un archivo de `size` bytes.
+ * Devuelve null si no hay Range válido de un solo tramo (se manda el archivo completo),
+ * { unsatisfiable: true } si el tramo cae fuera del archivo, o { start, end } (ambos incluidos).
+ */
+export function parseRange(header, size) {
+  const m = /^bytes=(\d*)-(\d*)$/.exec(String(header || '').trim());
+  if (!m || (m[1] === '' && m[2] === '')) return null;
+  if (size <= 0) return { unsatisfiable: true };
+  let start;
+  let end;
+  if (m[1] === '') {
+    // bytes=-n → los últimos n bytes
+    const n = parseInt(m[2], 10);
+    if (n === 0) return { unsatisfiable: true };
+    start = Math.max(0, size - n);
+    end = size - 1;
+  } else {
+    start = parseInt(m[1], 10);
+    end = m[2] === '' ? size - 1 : Math.min(parseInt(m[2], 10), size - 1);
+    if (start >= size || end < start) return { unsatisfiable: true };
+  }
+  return { start, end };
 }
 
 async function handleAudio(request, env, cfg, cors, url) {
@@ -243,28 +286,36 @@ async function handleAudio(request, env, cfg, cors, url) {
   if (!payload || !cfg.sites.includes(payload.site)) return new Response('Sin acceso', { status: 401, headers: cors });
 
   const key = `${m[1]}/${m[2]}_${m[3]}.mp3`;
-  const range = request.headers.get('Range');
-  const object = request.method === 'HEAD' ? await env.AUDIO.head(key) : await env.AUDIO.get(key, range ? { range: request.headers } : undefined);
-  if (!object) return new Response('No encontrado', { status: 404, headers: cors });
+  // Primero se pide solo la ficha del archivo (tamaño): así el tramo pedido se calcula aquí y no depende de cómo lo interprete R2
+  const info = await env.AUDIO.head(key);
+  if (!info) return new Response('No encontrado', { status: 404, headers: cors });
 
   const headers = new Headers(cors);
   headers.set('Content-Type', 'audio/mpeg');
   headers.set('Accept-Ranges', 'bytes');
   // El navegador puede guardarlo para el modo sin conexión, pero ningún intermediario debe compartirlo
   headers.set('Cache-Control', 'private, max-age=3600');
-  if (object.httpEtag) headers.set('ETag', object.httpEtag);
+  if (info.httpEtag) headers.set('ETag', info.httpEtag);
 
-  let status = 200;
-  if (range && object.range && request.method !== 'HEAD') {
-    const start = object.range.offset ?? 0;
-    const length = object.range.length ?? object.size - start;
-    headers.set('Content-Range', `bytes ${start}-${start + length - 1}/${object.size}`);
-    headers.set('Content-Length', String(length));
-    status = 206;
-  } else {
-    headers.set('Content-Length', String(object.size));
+  const range = parseRange(request.headers.get('Range'), info.size);
+  if (range?.unsatisfiable) {
+    headers.set('Content-Range', `bytes */${info.size}`);
+    return new Response(null, { status: 416, headers });
   }
-  return new Response(request.method === 'HEAD' ? null : object.body, { status, headers });
+  if (request.method === 'HEAD') {
+    headers.set('Content-Length', String(info.size));
+    return new Response(null, { status: 200, headers });
+  }
+
+  const object = await env.AUDIO.get(key, range ? { range: { offset: range.start, length: range.end - range.start + 1 } } : undefined);
+  if (!object) return new Response('No encontrado', { status: 404, headers: cors });
+  if (range) {
+    headers.set('Content-Range', `bytes ${range.start}-${range.end}/${info.size}`);
+    headers.set('Content-Length', String(range.end - range.start + 1));
+    return new Response(object.body, { status: 206, headers });
+  }
+  headers.set('Content-Length', String(info.size));
+  return new Response(object.body, { status: 200, headers });
 }
 
 // ---------------------------------------------------------------------------

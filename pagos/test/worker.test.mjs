@@ -24,12 +24,13 @@ class FakeR2 {
     if (!b) return null;
     let offset = 0, length = b.length;
     if (opts?.range) {
-      const m = String(opts.range.get('Range')).match(/bytes=(\d+)-(\d*)/);
-      offset = parseInt(m[1], 10);
-      length = (m[2] ? parseInt(m[2], 10) + 1 : b.length) - offset;
+      if (!Number.isInteger(opts.range.offset) || !Number.isInteger(opts.range.length)) throw new Error('R2 simulado: el tramo debe ser { offset, length }');
+      offset = opts.range.offset;
+      length = opts.range.length;
+      if (offset < 0 || length < 1 || offset + length > b.length) throw new Error('R2 simulado: tramo fuera del archivo');
     }
     const slice = b.subarray(offset, offset + length);
-    return { size: b.length, httpEtag: '"e1"', range: opts?.range ? { offset, length } : undefined, body: new ReadableStream({ start(c) { c.enqueue(slice); c.close(); } }) };
+    return { size: b.length, httpEtag: '"e1"', body: new ReadableStream({ start(c) { c.enqueue(slice); c.close(); } }) };
   }
 }
 
@@ -49,10 +50,12 @@ beforeEach(() => {
     AUDIO: new FakeR2({ 'es/p01_corto.mp3': Buffer.from('0123456789ABCDEFGHIJ') }),
   };
   stripeCalls = [];
+  const now = Math.floor(Date.now() / 1000);
   stripeSessions = {
-    cs_test_PAGADA123456: { id: 'cs_test_PAGADA123456', payment_status: 'paid', metadata: { site_id: 'mna' } },
-    cs_test_SINPAGAR12345: { id: 'cs_test_SINPAGAR12345', payment_status: 'unpaid', metadata: { site_id: 'mna' } },
-    cs_test_OTROSITIO1234: { id: 'cs_test_OTROSITIO1234', payment_status: 'paid', metadata: { site_id: 'otro' } },
+    cs_test_PAGADA123456: { id: 'cs_test_PAGADA123456', payment_status: 'paid', created: now, metadata: { site_id: 'mna' } },
+    cs_test_SINPAGAR12345: { id: 'cs_test_SINPAGAR12345', payment_status: 'unpaid', created: now, metadata: { site_id: 'mna' } },
+    cs_test_OTROSITIO1234: { id: 'cs_test_OTROSITIO1234', payment_status: 'paid', created: now, metadata: { site_id: 'otro' } },
+    cs_test_VIEJA12345678: { id: 'cs_test_VIEJA12345678', payment_status: 'paid', created: now - 40 * 86400, metadata: { site_id: 'mna' } },
   };
   realFetch = globalThis.fetch;
   globalThis.fetch = async (url, init = {}) => {
@@ -275,6 +278,100 @@ test('/audio: una clave vencida no sirve', async () => {
 test('sin secretos configurados, los pagos responden 503 (no se rompe nada)', async () => {
   delete env.STRIPE_SECRET_KEY;
   assert.equal((await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } })).status, 503);
+});
+
+
+test('una sesión pagada hace más de 30 días ya no se puede canjear por primera vez', async () => {
+  const r = await call('/redeem', { body: { sessionId: 'cs_test_VIEJA12345678', deviceId: DEV1 } });
+  assert.equal(r.status, 410);
+  assert.equal((await r.json()).error, 'expired');
+});
+
+test('el registro del pase vive más que la ventana de canje (no se puede repetir el canje con el mismo enlace)', async () => {
+  const r = await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } });
+  assert.equal(r.status, 200);
+  const minimo = 30 * 86400 + 72 * 3600; // ventana de canje + duración del pase
+  assert.ok(env.PASES.lastTtl >= minimo, `TTL ${env.PASES.lastTtl} < ${minimo}`);
+  // Un segundo dispositivo al agregarse vuelve a guardar el registro con la misma vida larga
+  const code = (await r.json()).code;
+  await call('/code', { body: { code, deviceId: DEV2 } });
+  assert.ok(env.PASES.lastTtl >= minimo);
+});
+
+test('un pase ya canjeado sigue sirviendo a otro dispositivo aunque la sesión sea vieja (la edad solo limita el primer canje)', async () => {
+  const first = await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } });
+  stripeSessions.cs_test_PAGADA123456.created -= 40 * 86400;
+  const again = await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV2 } });
+  assert.equal(first.status, 200);
+  assert.equal(again.status, 200);
+});
+
+test('/checkout: el idioma se normaliza (ES, es-MX, valores raros → pesos; EN → dólares)', async () => {
+  const price = async (lang) => {
+    stripeCalls.length = 0;
+    const r = await call('/checkout', { body: { siteId: 'mna', lang, deviceId: DEV1, returnUrl: `${ORIGIN}/x/` } });
+    assert.equal(r.status, 200, `lang=${lang}`);
+    return new URLSearchParams(stripeCalls[0].body).get('line_items[0][price]');
+  };
+  for (const l of ['ES', 'es-MX', 'constructor', '__proto__', null, 42, '']) assert.equal(await price(l), 'price_mxn_1', String(l));
+  for (const l of ['en', 'EN', 'en-US']) assert.equal(await price(l), 'price_usd_1', String(l));
+});
+
+test('SITE_IDS acepta mayúsculas en la configuración', async () => {
+  env.SITE_IDS = 'MNA';
+  const r = await call('/checkout', { body: { siteId: 'mna', lang: 'es', deviceId: DEV1, returnUrl: `${ORIGIN}/x/` } });
+  assert.equal(r.status, 200);
+});
+
+test('/config: si Stripe falla responde 502 sin guardar en caché', async () => {
+  const bueno = globalThis.fetch;
+  env.STRIPE_PRICE_ID_MXN = 'price_nuevo_sin_cache'; // otro identificador → no hay precio en caché
+  globalThis.fetch = async () => new Response(JSON.stringify({ error: { message: 'boom' } }), { status: 500 });
+  const r = await call('/config', { method: 'GET' });
+  globalThis.fetch = bueno;
+  assert.equal(r.status, 502);
+  assert.equal(r.headers.get('Cache-Control'), 'no-store');
+});
+
+test('/audio: todos los tipos de Range (final abierto, últimos N bytes, recortado, inválido, fuera del archivo, HEAD)', async () => {
+  const a = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } })).json();
+  const url = `/audio/es/p01_corto.mp3?t=${encodeURIComponent(a.token)}`;
+  const get = (range, method = 'GET') => call(url, { method, origin: null, headers: range ? { Range: range } : {} });
+  const body = async (r) => Buffer.from(await r.arrayBuffer()).toString();
+
+  let r = await get('bytes=15-');
+  assert.equal(r.status, 206);
+  assert.equal(r.headers.get('Content-Range'), 'bytes 15-19/20');
+  assert.equal(r.headers.get('Content-Length'), '5');
+  assert.equal(await body(r), 'FGHIJ');
+
+  r = await get('bytes=-5');
+  assert.equal(r.status, 206);
+  assert.equal(r.headers.get('Content-Range'), 'bytes 15-19/20');
+  assert.equal(await body(r), 'FGHIJ');
+
+  r = await get('bytes=15-999');
+  assert.equal(r.headers.get('Content-Range'), 'bytes 15-19/20');
+
+  r = await get('bytes=0-0');
+  assert.equal(r.headers.get('Content-Range'), 'bytes 0-0/20');
+  assert.equal(await body(r), '0');
+
+  for (const bad of ['bytes=100-', 'bytes=25-30', 'bytes=-0', 'bytes=9-3']) {
+    r = await get(bad);
+    assert.equal(r.status, 416, bad);
+    assert.equal(r.headers.get('Content-Range'), 'bytes */20');
+  }
+  for (const ignorado of ['bytes=0-1,5-6', 'items=1-2', 'basura', 'bytes=-']) {
+    r = await get(ignorado);
+    assert.equal(r.status, 200, ignorado);
+    assert.equal(await body(r), '0123456789ABCDEFGHIJ');
+  }
+
+  r = await get(null, 'HEAD');
+  assert.equal(r.status, 200);
+  assert.equal(r.headers.get('Content-Length'), '20');
+  assert.equal(r.headers.get('Accept-Ranges'), 'bytes');
 });
 
 test.after(() => { if (realFetch) globalThis.fetch = realFetch; });
