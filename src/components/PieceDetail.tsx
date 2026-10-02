@@ -24,6 +24,9 @@ import { ImageZoomModal } from './ImageZoomModal';
 import { ttsPlayer, TTSState } from '../utils/ttsPlayer';
 import { getAssetUrl, findPiece } from '../utils/urlHelper';
 import { getRoomLabel } from '../utils/roomLabel';
+import { useLanguage } from '../utils/LanguageContext';
+import { scriptLanguage } from '../i18n/content';
+import { resolvePieceAudio } from '../utils/audioSource';
 
 interface PieceDetailProps {
   piece: Piece;
@@ -64,6 +67,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   onSelectStop,
   visitedPieceIds = new Set<string>(),
 }) => {
+  const { strings: t, currentLanguage } = useLanguage();
+  const tp = t.piece;
+
   // 1. Estados de Audio y Modo de Locución
   const [audioMode, setAudioMode] = useState<'expres' | 'inmersion'>('expres');
   const [isPlayingTTS, setIsPlayingTTS] = useState<boolean>(false);
@@ -85,7 +91,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const catalogPieces = allPieces.length > 0 ? allPieces : (roomPieces || []);
 
   // Normalización de textos
-  const titulo = piece.titulo || piece.identification?.title || piece.title || 'Pieza del Museo';
+  const titulo = piece.titulo || piece.identification?.title || piece.title || tp.defaultTitle;
   const fraseGancho = piece.frase_gancho || piece.narrative?.one_liner || '';
   const puenteNarrativo = piece.puente_narrativo || '';
   const guionCorto =
@@ -93,7 +99,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     piece.summary_30s ||
     piece.narrative?.short_desc ||
     fraseGancho ||
-    'Pieza arqueológica fundamental del acervo nacional.';
+    t.player.defaultPieceSummary;
   const guionLargo =
     piece.guion_largo ||
     piece.audioguide?.audio_script ||
@@ -104,10 +110,23 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const isFree = piece.is_free !== undefined ? piece.is_free : !piece.is_premium;
   const isLocked = !isFree && !hasPass;
 
-  // Cálculo de duraciones reales estimadas según el largo del texto
+  // Idioma en que se lee la pieza: el elegido si tiene texto traducido; si no, español.
+  const readLang = scriptLanguage(piece, currentLanguage);
+
+  // MP3 disponibles (si no hay, se lee el texto con la voz del teléfono)
+  const expresAudio = useMemo(
+    () => resolvePieceAudio(piece, currentLanguage, 'expres'),
+    [piece, currentLanguage, hasPass]
+  );
+  const inmersionAudio = useMemo(
+    () => resolvePieceAudio(piece, currentLanguage, 'inmersion'),
+    [piece, currentLanguage, hasPass]
+  );
+
+  // Cálculo de duraciones: la del MP3 si se conoce; si no, estimada según el largo del texto
   const expresDurationSeconds = useMemo(() => {
-    return ttsPlayer.calculateDuration(guionCorto);
-  }, [guionCorto]);
+    return expresAudio?.seconds || ttsPlayer.calculateDuration(guionCorto);
+  }, [guionCorto, expresAudio]);
 
   const expresLabel = useMemo(() => {
     if (expresDurationSeconds < 60) {
@@ -118,8 +137,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   }, [expresDurationSeconds]);
 
   const inmersionDurationSeconds = useMemo(() => {
-    return ttsPlayer.calculateDuration(guionLargo);
-  }, [guionLargo]);
+    return inmersionAudio?.seconds || ttsPlayer.calculateDuration(guionLargo);
+  }, [guionLargo, inmersionAudio]);
 
   const inmersionLabel = useMemo(() => {
     const mins = Math.max(1, Math.round(inmersionDurationSeconds / 60));
@@ -186,10 +205,10 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     if (roomName) return roomName;
     if (roomId) {
       const num = roomId.match(/\d+/)?.[0];
-      if (num) return `Sala ${num.padStart(2, '0')}`;
+      if (num) return `${t.common.roomWord} ${num.padStart(2, '0')}`;
     }
-    return 'esta sala';
-  }, [currentRoom, roomName, roomId]);
+    return tp.thisRoom;
+  }, [currentRoom, roomName, roomId, t]);
 
   // Suscribirse a cambios en ttsPlayer
   useEffect(() => {
@@ -242,16 +261,16 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
       }
       const sObj = piece.specs as PieceSpecsObject;
       const res: [string, string][] = [];
-      if (sObj.period || sObj.age) res.push(['Época', sObj.period || sObj.age || '']);
-      if (sObj.culture) res.push(['Cultura', sObj.culture]);
-      if (sObj.material) res.push(['Material', sObj.material]);
+      if (sObj.period || sObj.age) res.push([tp.specLabels.period, sObj.period || sObj.age || '']);
+      if (sObj.culture) res.push([tp.specLabels.culture, sObj.culture]);
+      if (sObj.material) res.push([tp.specLabels.material, sObj.material]);
       if (sObj.dimensions || sObj.weight)
-        res.push(['Dimensiones', sObj.dimensions || sObj.weight || '']);
-      if (sObj.provenance) res.push(['Procedencia', sObj.provenance]);
+        res.push([tp.specLabels.dimensions, sObj.dimensions || sObj.weight || '']);
+      if (sObj.provenance) res.push([tp.specLabels.provenance, sObj.provenance]);
       return res.filter(([_, v]) => Boolean(v));
     }
     return [];
-  }, [piece.especificaciones, piece.specs]);
+  }, [piece.especificaciones, piece.specs, tp]);
 
   // Normalización de FAQ / Mito
   const faqMito = useMemo(() => {
@@ -280,7 +299,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     } else {
       setTtsErrorMessage(null);
       const scriptToSpeak = audioMode === 'expres' ? guionCorto : guionLargo;
-      const audioUrl = piece.audio_file_url || piece.audioguide?.audio_file_url || (piece as any).audio_url;
+      const resolved = audioMode === 'expres' ? expresAudio : inmersionAudio;
       ttsPlayer.play(
         scriptToSpeak,
         titulo,
@@ -290,7 +309,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
           artworkUrl: imageFilename ? getAssetUrl(`images/pieces/${imageFilename}`) : undefined,
           pieceId,
           mode: audioMode,
-          audioUrl: audioUrl ? getAssetUrl(audioUrl) : undefined,
+          audioUrl: resolved?.url,
+          lang: readLang,
         }
       );
       setIsPlayingTTS(true);
@@ -316,15 +336,11 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   // Tag superior formateado:
   // En recorrido: "SALA 06 • MEXICA • PARADA 3 DE 18"
   // Fuera de recorrido: "SALA 06 • MEXICA • VISITA LIBRE"
-  const roomFormatted = (roomName || piece.location?.room_name || roomId || 'SALA GENERAL')
-    .toUpperCase()
-    .replace(/^SALA\s*/i, '');
-  const roomNumberMatch = roomId.match(/\d+/)?.[0] || '01';
-  const tagSuperior = `SALA ${roomNumberMatch.padStart(2, '0')} • ${roomFormatted}${
-    isTourMode
-      ? ` • PARADA ${currentStopIndex! + 1} DE ${totalStops}`
-      : ' • VISITA LIBRE'
-  }`;
+  const roomFormatted = tp.stripRoomPrefix((roomName || piece.location?.room_name || roomId || tp.generalRoom).toUpperCase());
+  const roomNumberMatch = (roomId.match(/\d+/)?.[0] || '01').padStart(2, '0');
+  const tagSuperior = isTourMode
+    ? tp.tagTour(roomNumberMatch, roomFormatted, currentStopIndex! + 1, totalStops!)
+    : tp.tagFree(roomNumberMatch, roomFormatted);
 
   return (
     <article
@@ -344,7 +360,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               ttsPlayer.clearErrorMessage();
             }}
             className="p-1 rounded-lg hover:bg-white/10 text-stone-400 hover:text-white transition"
-            aria-label="Cerrar aviso"
+            aria-label={tp.closeNotice}
           >
             <X className="w-4 h-4" />
           </button>
@@ -361,11 +377,11 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#F59E0B] animate-pulse" />
               <span className="font-black text-[#F59E0B] uppercase tracking-wider text-[11px]">
-                Parada {currentStopIndex! + 1} de {totalStops}
+                {tp.stopOf(currentStopIndex! + 1, totalStops!)}
               </span>
             </div>
             <span className="text-[11px] font-mono font-bold text-stone-300">
-              {Math.round(((currentStopIndex! + 1) / totalStops!) * 100)}% completado
+              {tp.percentDone(Math.round(((currentStopIndex! + 1) / totalStops!) * 100))}
             </span>
           </div>
           <div className="w-full max-w-2xl mx-auto h-1.5 rounded-full bg-white/10 overflow-hidden">
@@ -401,8 +417,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             type="button"
             onClick={() => setIsZoomOpen(true)}
             className="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-black/60 hover:bg-black/85 text-white backdrop-blur-md flex items-center justify-center transition-all active:scale-90 border border-white/10 shadow-lg cursor-pointer"
-            title="Ampliar imagen en alta resolución"
-            aria-label="Ampliar imagen"
+            title={tp.zoomTitle}
+            aria-label={tp.zoomAria}
           >
             <Maximize2 className="w-4 h-4 text-[#F3F4F6]" />
           </button>
@@ -416,7 +432,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-[#F59E0B] text-black shadow-lg shadow-[#F59E0B]/20 active:scale-95 transition-transform cursor-pointer"
               >
                 <Lock className="w-3.5 h-3.5 fill-current" />
-                <span>Audio Premium</span>
+                <span>{tp.premiumAudio}</span>
               </button>
             </div>
           )}
@@ -442,9 +458,14 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             <p className="text-sm sm:text-base text-stone-200 leading-relaxed font-normal">
               {guionCorto}
             </p>
+            {readLang !== currentLanguage && (
+              <p className="text-[11px] text-amber-300/90 leading-snug" data-testid="script-lang-note">
+                {t.player.scriptOnlySpanish}
+              </p>
+            )}
             {piece.foto_autor && (
               <p className="text-[10px] text-stone-500 leading-snug">
-                Foto:{' '}
+                {tp.photoBy}{' '}
                 {piece.foto_url && /^https?:\/\//i.test(piece.foto_url) ? (
                   <a href={piece.foto_url} target="_blank" rel="noopener noreferrer" className="underline hover:text-stone-300">
                     {piece.foto_autor}
@@ -469,7 +490,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               >
                 <span>📖</span>
                 <span>
-                  {isFullScriptExpanded ? 'Ocultar explicación completa' : 'Leer explicación completa'}
+                  {isFullScriptExpanded ? tp.hideFull : tp.readFull}
                 </span>
                 <ChevronDown
                   className={`w-4 h-4 text-amber-400 transition-transform duration-300 ${
@@ -488,23 +509,23 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                     <div className="flex items-center justify-between text-xs text-amber-400 font-bold uppercase tracking-wider">
                       <div className="flex items-center gap-1.5">
                         <BookOpen className="w-3.5 h-3.5" />
-                        <span>Explicación Curatorial Completa</span>
+                        <span>{tp.fullTitle}</span>
                       </div>
                       <span className="text-[10px] text-stone-400 font-mono font-normal">
-                        Contenido editorial de Audioguías México
+                        {t.common.editorialBadge}
                       </span>
                     </div>
                     <p className="font-serif text-sm sm:text-base leading-relaxed text-stone-200 text-justify first-letter:text-4xl first-letter:font-bold first-letter:text-[#F59E0B] first-letter:mr-2.5 first-letter:float-left whitespace-pre-line">
                       {guionLargo}
                     </p>
                     <div className="pt-2 text-[11px] text-[#6B7280] flex items-center justify-between border-t border-white/5">
-                      <span>Museo Nacional de Antropología</span>
+                      <span>{t.common.museumName}</span>
                       <button
                         type="button"
                         onClick={() => setIsFullScriptExpanded(false)}
                         className="text-amber-400/80 hover:text-amber-300 underline cursor-pointer text-xs"
                       >
-                        Cerrar lectura ▲
+                        {tp.closeReading}
                       </button>
                     </div>
                   </div>
@@ -543,17 +564,17 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               {isPlayingTTS ? (
                 <>
                   <Square className="w-5 h-5 fill-current animate-pulse text-red-400" />
-                  <span>Detener Narración en Sala</span>
+                  <span>{tp.stopNarration}</span>
                 </>
               ) : (
                 <>
                   <Play className="w-5 h-5 fill-current ml-0.5" />
                   <span>
                     {isLocked
-                      ? 'Desbloquear Audioguía Premium'
+                      ? tp.unlockPremium
                       : audioMode === 'expres'
-                      ? `Escuchar Explicación (Exprés ${expresLabel})`
-                      : `Escuchar Explicación (${inmersionLabel})`}
+                      ? tp.listenExpress(expresLabel)
+                      : tp.listenImmersion(inmersionLabel)}
                   </span>
                 </>
               )}
@@ -567,11 +588,11 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         <div className="p-3.5 rounded-2xl bg-[#141419] border border-white/10">
           <div className="flex items-center justify-between mb-3 text-xs">
             <span className="text-[10px] font-bold uppercase tracking-wider text-[#6B7280]">
-              Duración de Audioguía
+              {tp.durationTitle}
             </span>
             <div className="flex items-center gap-1.5 text-[11px] text-[#9CA3AF] font-medium">
               <Volume2 className="w-3.5 h-3.5 text-[#F59E0B]" />
-              <span>Voz en Español</span>
+              <span>{(audioMode === 'expres' ? expresAudio : inmersionAudio) ? tp.realAudio : tp.voiceIn(t.common.languageNames[readLang])}</span>
             </div>
           </div>
 
@@ -589,7 +610,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               }`}
             >
               <Zap className="w-3.5 h-3.5" />
-              <span>Visita Rápida ({expresLabel})</span>
+              <span>{tp.quickVisit(expresLabel)}</span>
             </button>
 
             <button
@@ -605,7 +626,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               }`}
             >
               <Headphones className="w-3.5 h-3.5" />
-              <span>Inmersiva ({inmersionLabel})</span>
+              <span>{tp.immersive(inmersionLabel)}</span>
             </button>
           </div>
         </div>
@@ -618,10 +639,10 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             <div className="flex items-center justify-between text-xs">
               <span className="font-extrabold uppercase tracking-wider text-[11px] text-[#F59E0B] flex items-center gap-1.5">
                 <Compass className="w-3.5 h-3.5" />
-                <span>Siguiente en tu ruta</span>
+                <span>{tp.nextInRoute}</span>
               </span>
               <span className="text-[10px] text-stone-400">
-                {upcomingStops.length === 1 ? 'Última parada de tu recorrido' : 'Próximas 2 paradas'}
+                {upcomingStops.length === 1 ? tp.lastStopOfTour : tp.nextTwoStops}
               </span>
             </div>
 
@@ -657,12 +678,12 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                         {stop.title}
                       </p>
                       <p className="text-[10px] text-stone-400 truncate mt-0.5">
-                        {stop.room_zone || 'Siguiente sala'}
+                        {stop.room_zone || tp.nextRoomFallback}
                       </p>
                     </div>
 
                     <div className="text-stone-400 group-hover:text-amber-400 transition shrink-0 flex items-center gap-1 text-[10px] font-bold">
-                      <span className="hidden sm:inline">Ir a parada</span>
+                      <span className="hidden sm:inline">{tp.goToStop}</span>
                       <ChevronRight className="w-4 h-4" />
                     </div>
                   </div>
@@ -680,7 +701,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             <div className="flex items-center gap-2 mb-1.5 text-[#F59E0B]">
               <Sparkles className="w-4 h-4" />
               <span className="text-[10px] font-bold uppercase tracking-widest">
-                Hilo Conductor Arqueológico
+                {tp.narrativeThread}
               </span>
             </div>
             <p className="text-xs sm:text-sm font-serif italic text-stone-200 leading-relaxed">
@@ -700,7 +721,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             <div className="flex items-center gap-2 mb-2.5">
               <span className="text-xl">💡</span>
               <h3 className="text-xs sm:text-sm font-extrabold tracking-wider uppercase text-[#F59E0B]">
-                Mito Arqueológico Desmentido
+                {tp.mythTitle}
               </h3>
             </div>
 
@@ -710,7 +731,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
 
             <div className="mt-3 pt-3 border-t border-white/10">
               <span className="text-[10px] font-black uppercase tracking-wider text-[#DC2626] block mb-1">
-                La Realidad Científica:
+                {tp.realityLabel}
               </span>
               <p className="text-xs sm:text-sm leading-relaxed text-[#9CA3AF] font-normal">
                 {faqMito.respuesta}
@@ -731,7 +752,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               <div className="flex items-center gap-2 text-[#F3F4F6]">
                 <Eye className="w-4 h-4 text-[#F59E0B]" />
                 <h3 className="text-xs font-bold tracking-wider uppercase">
-                  Retos de Observación en Vitrina
+                  {tp.challengesTitle}
                 </h3>
               </div>
               <span
@@ -741,12 +762,12 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                     : 'bg-[#F59E0B]/10 border-[#F59E0B]/30 text-[#F59E0B]'
                 }`}
               >
-                {completedCount} de {retosList.length} encontrados
+                {tp.foundCount(completedCount, retosList.length)}
               </span>
             </div>
 
             <p className="text-xs text-[#9CA3AF] mb-3">
-              Toca cada casilla para tachar los detalles conforme los descubras en la vitrina física:
+              {tp.challengesHint}
             </p>
 
             <div className="space-y-2">
@@ -784,7 +805,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                         {reto}
                       </span>
                       <span className="text-[10px] text-[#6B7280] block mt-0.5">
-                        {isFound ? '✓ Localizado en la vitrina física' : 'Toca para marcar'}
+                        {isFound ? tp.located : tp.tapToMark}
                       </span>
                     </div>
                   </button>
@@ -795,7 +816,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             {completedCount === retosList.length && (
               <div className="mt-3.5 p-3 rounded-xl bg-[#10B981]/15 border border-[#10B981]/40 text-[#10B981] text-xs font-semibold flex items-center gap-2 animate-fadeIn">
                 <span>🌟</span>
-                <span>¡Excelente vista! Has localizado todos los detalles en la pieza física.</span>
+                <span>{tp.allFound}</span>
               </div>
             )}
           </div>
@@ -809,7 +830,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             <div className="flex items-center gap-2 mb-3">
               <Layers className="w-4 h-4 text-[#F59E0B]" />
               <h3 className="text-xs font-bold tracking-wider uppercase text-white">
-                Ficha Técnica Complementaria
+                {tp.specsTitle}
               </h3>
             </div>
             <div className="grid grid-cols-2 gap-2">
@@ -835,10 +856,10 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             <div className="flex items-center justify-between text-xs text-[#9CA3AF]">
               <span className="font-bold uppercase tracking-wider text-[10px] text-[#F59E0B] flex items-center gap-1.5">
                 <Compass className="w-3.5 h-3.5" />
-                <span>Navegación del Recorrido</span>
+                <span>{tp.tourNavTitle}</span>
               </span>
               <span className="font-mono text-[10px] font-bold text-white px-2 py-0.5 rounded-full bg-white/5 border border-white/10">
-                Parada {currentStopIndex! + 1} de {totalStops}
+                {tp.stopOf(currentStopIndex! + 1, totalStops!)}
               </span>
             </div>
 
@@ -855,7 +876,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                 }`}
               >
                 <span>⬅</span>
-                <span>Anterior</span>
+                <span>{tp.previous}</span>
               </button>
 
               {currentStopIndex! >= totalStops! - 1 ? (
@@ -866,7 +887,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                   className="py-3.5 px-4 rounded-2xl text-xs sm:text-sm font-black bg-emerald-500 hover:bg-emerald-400 text-black flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/25 active:scale-95 transition-all cursor-pointer"
                 >
                   <span>🏁</span>
-                  <span>Finalizar Recorrido</span>
+                  <span>{tp.finishTour}</span>
                 </button>
               ) : (
                 <button
@@ -875,7 +896,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                   onClick={onNextStop}
                   className="py-3.5 px-4 rounded-2xl text-xs sm:text-sm font-black bg-amber-500 hover:bg-amber-400 text-black flex items-center justify-center gap-2 shadow-lg shadow-amber-500/25 active:scale-95 transition-all cursor-pointer"
                 >
-                  <span>Siguiente Parada</span>
+                  <span>{tp.nextStop}</span>
                   <span>➔</span>
                 </button>
               )}
@@ -883,7 +904,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
 
             {nextStop && currentStopIndex! < totalStops! - 1 && (
               <p className="text-[11px] text-[#9CA3AF] text-center pt-1 truncate">
-                Próxima vitrina: <span className="text-white font-medium">{nextStop.title}</span> ({nextStop.room_zone || 'Siguiente sala'})
+                {tp.nextCase} <span className="text-white font-medium">{nextStop.title}</span> ({nextStop.room_zone || tp.nextRoomFallback})
               </p>
             )}
           </div>
@@ -898,24 +919,24 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               <span className="text-base">🏛️</span>
               <div>
                 <h3 className="text-xs font-black uppercase tracking-wider text-white">
-                  Otras piezas en {roomDisplayName}
+                  {tp.otherPieces(roomDisplayName)}
                 </h3>
                 <p className="text-[11px] text-[#9CA3AF]">
-                  Salta de vitrina en vitrina con un solo toque
+                  {tp.jumpHint}
                 </p>
               </div>
             </div>
             <span className="text-[10px] font-mono text-[#F59E0B] px-2 py-0.5 rounded-full bg-[#F59E0B]/10 border border-[#F59E0B]/20 shrink-0">
-              {siblingPieces.length} obras
+              {tp.worksCount(siblingPieces.length)}
             </span>
           </div>
 
           <div className="flex gap-3 overflow-x-auto pb-2 pt-1 scrollbar-none snap-x snap-mandatory -mx-2 px-2">
             {siblingPieces.map((sibling) => {
               const sId = sibling.piece_id || sibling.id || (sibling as any).poi_id || '';
-              const sTitle = sibling.titulo || sibling.identification?.title || sibling.title || 'Pieza';
+              const sTitle = sibling.titulo || sibling.identification?.title || sibling.title || tp.pieceWord;
               const sSub =
-                sibling.frase_gancho || sibling.identification?.subtitle || sibling.periodo || 'Obra destacada';
+                sibling.frase_gancho || sibling.identification?.subtitle || sibling.periodo || tp.featuredWork;
               const sThumb =
                 sibling.image_filename ||
                 sibling.identification?.hero_image ||
@@ -949,7 +970,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                       <span className="absolute bottom-1 right-1 px-1.5 py-0.5 rounded-md bg-black/80 backdrop-blur-sm text-[9px] font-mono text-stone-300 border border-white/10">
-                        {sibling.orden_sugerido ? `Vitrina #${sibling.orden_sugerido}` : 'Vitrina'}
+                        {sibling.orden_sugerido ? tp.caseNum(sibling.orden_sugerido) : tp.caseWord}
                       </span>
                     </div>
 
@@ -970,7 +991,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                     className="mt-2.5 w-full py-1.5 px-2 rounded-xl bg-[#F59E0B]/10 hover:bg-[#F59E0B] text-[#F59E0B] hover:text-black font-extrabold text-[10px] flex items-center justify-center gap-1.5 transition-all border border-[#F59E0B]/30 cursor-pointer shadow-xs active:scale-95"
                   >
                     <Volume2 className="w-3 h-3" />
-                    <span>Escuchar audio</span>
+                    <span>{tp.listenAudio}</span>
                   </button>
                 </div>
               );
@@ -986,7 +1007,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         imageUrl={imageFilename}
         pieceId={pieceId}
         title={titulo}
-        subtitle={roomName || piece.location?.room_name || 'Museo Nacional de Antropología'}
+        subtitle={roomName || piece.location?.room_name || t.common.museumName}
       />
     </article>
   );

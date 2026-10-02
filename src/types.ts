@@ -223,4 +223,6 @@ export interface SiteLicense {
   site_id: string;
   expires_at: number;
   device_id: string;
+  /** Clave firmada por el servidor de pagos (solo existe si el pase se compró de verdad). */
+  token?: string;
 }

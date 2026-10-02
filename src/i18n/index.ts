@@ -10,6 +10,7 @@ import { routes } from './groups/routes';
 import { search } from './groups/search';
 import { tour } from './groups/tour';
 import { offline } from './groups/offline';
+import { piece } from './groups/piece';
 
 const groups = {
   common,
@@ -23,6 +24,7 @@ const groups = {
   search,
   tour,
   offline,
+  piece,
 };
 
 /** Todos los textos de la interfaz, con la forma definida por el español. */
