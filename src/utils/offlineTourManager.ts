@@ -15,7 +15,8 @@ export interface OfflineProgress {
   errorMessage?: string;
 }
 
-const CACHE_NAME = 'mna-offline-tour-v1';
+// OJO: el mismo nombre se usa en vite.config.ts (ruta de los MP3). Si lo cambias aquí, cámbialo allá.
+export const CACHE_NAME = 'mna-offline-tour-v1';
 const LOCAL_STORAGE_OFFLINE_KEY = 'mna_tour_offline_ready';
 
 export async function checkIsTourCached(): Promise<boolean> {

@@ -19,6 +19,8 @@ jobs:
           node-version: 20
       - name: Instalar paquetes
         run: npm install --no-audit --no-fund
+      - name: Pruebas de los scripts (sincronizador y MP3)
+        run: node scripts/ci-run.mjs pruebas-scripts -- node --test scripts/tests/sync.test.mjs scripts/tests/audio.test.mjs
       - name: Revisar tipos (tsc)
         run: node scripts/ci-run.mjs tsc -- npx tsc --noEmit --pretty false
       - name: Compilar (vite build, con los datos ya guardados)

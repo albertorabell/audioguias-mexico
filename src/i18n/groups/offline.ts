@@ -11,6 +11,7 @@ export const offline = defineGroup(
         ? `Todas las explicaciones e imágenes de «${routeTitle}» están guardadas en tu dispositivo.`
         : 'Todas las explicaciones e imágenes están guardadas en tu dispositivo.',
     notCachedDesc: 'La señal móvil en las salas del MNA suele ser débil. Guarda la ruta con anticipación para usarla sin datos.',
+    audioSize: (files: number, mb: number) => `Incluye ${files} ${files === 1 ? 'audio' : 'audios'}${mb > 0 ? ` (unos ${mb} MB)` : ''}.`,
     update: 'Actualizar',
     downloading: 'Descargando…',
     download: 'Descargar recorrido',
@@ -34,6 +35,7 @@ export const offline = defineGroup(
         ? `All the explanations and images of “${routeTitle}” are saved on your device.`
         : 'All the explanations and images are saved on your device.',
     notCachedDesc: 'Mobile signal inside the museum rooms is often weak. Save the route ahead of time to use it without data.',
+    audioSize: (files: number, mb: number) => `Includes ${files} audio ${files === 1 ? 'file' : 'files'}${mb > 0 ? ` (about ${mb} MB)` : ''}.`,
     update: 'Update',
     downloading: 'Downloading…',
     download: 'Download tour',

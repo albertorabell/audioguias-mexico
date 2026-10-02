@@ -68,6 +68,21 @@ export default defineConfig(() => {
               },
             },
             {
+              // Audios MP3: se sirven desde el caché del modo sin conexión (el mismo que llena "Descargar recorrido",
+              // ver CACHE_NAME en src/utils/offlineTourManager.ts). rangeRequests permite adelantar/retroceder sin internet.
+              // ignoreSearch: la clave del pase va en la dirección (?t=...) y cambia, el archivo es el mismo.
+              urlPattern: /\/audio\/.*\.mp3(\?.*)?$/i,
+              handler: 'CacheFirst',
+              options: {
+                cacheName: 'mna-offline-tour-v1',
+                rangeRequests: true,
+                matchOptions: { ignoreSearch: true },
+                cacheableResponse: {
+                  statuses: [200],
+                },
+              },
+            },
+            {
               urlPattern: /\/data\/.*\.json$/i,
               handler: 'StaleWhileRevalidate',
               options: {

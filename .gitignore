@@ -7,3 +7,6 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# MP3 de las piezas de pago: nunca se publican con el sitio (viven en el servidor de audio)
+audio-premium/

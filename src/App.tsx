@@ -717,6 +717,15 @@ export default function App() {
     return allRooms.find((r) => r.room_id === currentPiece.room_id) || null;
   }, [currentPiece, allRooms]);
 
+  // Piezas de la ruta activa (o la pieza actual): sus MP3 son los que se guardan para usar sin conexión
+  const routeAudioPieces = useMemo(() => {
+    if (activeRoute?.stops?.length) {
+      const ids = new Set(activeRoute.stops.map((s) => s.piece_id || s.id || s.poi_id));
+      return tourPieces.filter((p) => ids.has(p.piece_id || p.id));
+    }
+    return currentPiece ? [currentPiece] : [];
+  }, [activeRoute, tourPieces, currentPiece]);
+
   const currentRoomPieces = useMemo(() => {
     if (!currentPiece) return [];
     return tourPieces.filter((p) => p.room_id === currentPiece.room_id);
@@ -810,6 +819,7 @@ export default function App() {
               <div className="px-3 pt-2">
                 <OfflineTourBanner
                   pieces={tourPieces.length > 0 ? tourPieces : (currentPiece ? [currentPiece] : [])}
+                  audioPieces={routeAudioPieces}
                 />
               </div>
 

@@ -397,11 +397,37 @@ function attachAudio(pieces, warn) {
   return attached;
 }
 
+/**
+ * Seguridad del contenido de pago: un MP3 de una pieza de pago NUNCA debe estar dentro de public/audio
+ * (todo lo que está ahí se publica con el sitio y cualquiera podría bajarlo sin pagar).
+ */
+function findPremiumAudioLeaks(pieces) {
+  if (!fs.existsSync(AUDIO_DIR)) return [];
+  const premiumIds = new Set(pieces.filter((p) => !p.is_free).map((p) => p.piece_id));
+  const leaks = [];
+  for (const lang of fs.readdirSync(AUDIO_DIR, { withFileTypes: true })) {
+    if (!lang.isDirectory()) continue;
+    for (const f of fs.readdirSync(path.join(AUDIO_DIR, lang.name))) {
+      const m = f.match(/^(.+)_(corto|largo)\.mp3$/);
+      if (m && premiumIds.has(m[1])) leaks.push(`${lang.name}/${f}`);
+    }
+  }
+  return leaks;
+}
+
 /** Revisa los datos. Los errores DETIENEN la publicación; los avisos solo se muestran. */
 function validate(rooms, pieces) {
   const errors = [];
   const warnings = {};
   const warn = (kind, msg) => { (warnings[kind] ||= []).push(msg); };
+
+  const leaks = findPremiumAudioLeaks(pieces);
+  if (leaks.length) {
+    errors.push(
+      `Hay audios de piezas DE PAGO dentro de public/audio (se publicarían gratis): ${leaks.slice(0, 5).join(', ')}${leaks.length > 5 ? ` y ${leaks.length - 5} más` : ''}. ` +
+        'Corre: node scripts/generar-audio.mjs --reubicar'
+    );
+  }
 
   if (pieces.length < MIN_PIEZAS) {
     errors.push(`Solo se leyeron ${pieces.length} piezas (mínimo esperado: ${MIN_PIEZAS}). Parece una lectura incompleta.`);

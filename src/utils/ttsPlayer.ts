@@ -401,7 +401,12 @@ class TTSPlayer {
       this.isHtmlAudio = true;
 
       try {
-        const audio = new Audio(rawAudioUrl);
+        const audio = new Audio();
+        // Los audios de pago vienen de otro dominio (el servidor de audio): se piden con CORS para que el modo sin conexión pueda guardarlos
+        if (/^https?:\/\//i.test(rawAudioUrl) && typeof location !== 'undefined' && !rawAudioUrl.startsWith(location.origin)) {
+          audio.crossOrigin = 'anonymous';
+        }
+        audio.src = rawAudioUrl;
         this.htmlAudio = audio;
         audio.playbackRate = this.playbackRate;
 

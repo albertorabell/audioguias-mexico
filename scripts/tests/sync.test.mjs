@@ -100,3 +100,10 @@ test('audio: solo se unen MP3 vigentes, que existen y con el tipo correcto', () 
   assert.equal('audio' in by('p02'), false);
   assert.ok(log.includes('Audios unidos') || log.includes('Audios MP3 unidos a las piezas: 2'), log);
 });
+
+test('seguridad: un MP3 de una pieza de pago dentro de public/audio detiene la publicación', () => {
+  const dir = makeProject({ withManifest: true });
+  // p01 es de pago: su MP3 en la carpeta pública sería una fuga
+  fs.writeFileSync(path.join(dir, 'public/audio/es/p01_corto.mp3'), 'x');
+  assert.throws(() => runSync(dir), (e) => /DE PAGO dentro de public\/audio/.test(String(e.stderr) + String(e.stdout) + String(e.message)));
+});
