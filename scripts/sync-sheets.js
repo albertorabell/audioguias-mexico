@@ -84,7 +84,7 @@ const ROUTES = [
   {
     id: 'ruta-tumbas',
     name: 'Tumbas y tesoros',
-    duration: '35 min',
+    duration: '40 min',
     description: 'Cómo despedían a sus muertos los zapotecos, los mixtecos, los mayas y los pueblos del Occidente.',
     stop_ids: [
       'mna_s07_tumba_104',
@@ -92,18 +92,20 @@ const ROUTES = [
       'mna_s07_craneo_turquesa',
       'mna_s07_copa_cristal_roca',
       'mna_s09_mascara_pakal',
+      'mna_s09_cripta_pakal',
       'mna_s10_tumba_tiro',
     ],
   },
   {
     id: 'ruta-mexica',
     name: 'La Sala Mexica a fondo',
-    duration: '35 min',
-    description: 'Seis monumentos para entender cómo veían los mexicas el Sol, la tierra y la guerra.',
+    duration: '40 min',
+    description: 'Siete monumentos para entender cómo veían los mexicas el Sol, la tierra y la guerra.',
     stop_ids: [
       'mna_s06_piedra_sol',
       'mna_s06_coatlicue',
       'mna_s06_tizoc',
+      'mna_s06_piedra_arzobispado',
       'mna_s06_coyolxauhqui',
       'mna_s06_teocalli_guerra_sagrada',
       'mna_s06_ocelotl_cuauhxicalli',
