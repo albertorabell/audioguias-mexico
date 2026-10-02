@@ -20,7 +20,9 @@ const PIECE_FIELDS = [
   'faq_mito',
 ] as const;
 
-const ROOM_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narrativa'] as const;
+const ROOM_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narrativa', 'etiqueta'] as const;
+const SITE_FIELDS = ['name', 'location', 'badge', 'description'] as const;
+const ROUTE_FIELDS = ['name', 'description'] as const;
 
 /** ¿Las dos versiones de lectura (corta y larga) de esta pieza existen en ese idioma? */
 export function hasTranslatedScripts(piece: any, lang: SupportedLanguage): boolean {
@@ -54,4 +56,13 @@ export function localizePiece<T extends Record<string, any>>(piece: T, lang: Sup
 
 export function localizeRoom<T extends Record<string, any>>(room: T, lang: SupportedLanguage): T {
   return localize(room, lang, ROOM_FIELDS, { nombre_oficial: ['name'] });
+}
+
+/** Sitios (data/sites.json) y rutas sugeridas con sus campos *_en cuando existan. */
+export function localizeSite<T extends Record<string, any>>(site: T, lang: SupportedLanguage): T {
+  return localize(site, lang, SITE_FIELDS, {});
+}
+
+export function localizeRoute<T extends Record<string, any>>(route: T, lang: SupportedLanguage): T {
+  return localize(route, lang, ROUTE_FIELDS, { name: ['title'] });
 }

@@ -1,10 +1,14 @@
 import type { SupportedLanguage } from './languages';
 import { common } from './groups/common';
 import { chrome } from './groups/chrome';
+import { home } from './groups/home';
+import { overview } from './groups/overview';
 
 const groups = {
   common,
   chrome,
+  home,
+  overview,
 };
 
 /** Todos los textos de la interfaz, con la forma definida por el español. */

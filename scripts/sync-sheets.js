@@ -124,7 +124,7 @@ const AUDIO_MANIFEST = path.join(AUDIO_DIR, 'manifest.json');
 // la app muestra el texto en español. No se inventa ninguna traducción.
 const TRANSLATION_LANGS = ['en', 'fr', 'pl', 'ru', 'ja'];
 const PIECE_TEXT_FIELDS = ['titulo', 'frase_gancho', 'puente_narrativo', 'guion_corto', 'guion_largo'];
-const ROOM_TEXT_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narrativa'];
+const ROOM_TEXT_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narrativa', 'etiqueta'];
 
 /** Lee un CSV completo (respeta comillas, comas y saltos de línea dentro de una celda). */
 export function parseCsv(input) {

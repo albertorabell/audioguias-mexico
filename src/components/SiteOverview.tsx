@@ -16,8 +16,10 @@ import {
 } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, Room, PieceData } from '../types';
 import { MuseumMapSvg } from './MuseumMapSvg';
-import { t } from '../utils/i18nStrings';
+import { useLanguage } from '../utils/LanguageContext';
+import { localizeSite } from '../i18n/content';
 import { getRoomShortLabel, getUnitWord } from '../utils/roomLabel';
+import { useStrings } from '../utils/LanguageContext';
 
 interface SiteOverviewProps {
   site: SiteSummary;
@@ -44,6 +46,9 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
   onOpenMapModal,
   onOpenSearchModal,
 }) => {
+  const { currentLanguage, strings } = useLanguage();
+  const t = strings.overview;
+  const common = strings.common;
   // Selector de piso: PB vs PA
   const [selectedFloor, setSelectedFloor] = useState<'PB' | 'PA'>('PB');
 
@@ -105,7 +110,8 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
     }
   };
 
-  const museumName = site?.name || manifest?.name || t.nationalMuseumTitle;
+  const localSite = site ? localizeSite(site, currentLanguage) : site;
+  const museumName = localSite?.name || manifest?.name || common.museumName;
 
   return (
     <div className="min-h-screen bg-[#0B0B0E] text-[#F3F4F6] flex flex-col pb-36 select-none animate-fadeIn">
@@ -117,8 +123,8 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
               type="button"
               onClick={onBack}
               className="p-1.5 -ml-1 rounded-xl bg-white/5 hover:bg-white/10 text-amber-400 hover:text-amber-300 transition-colors cursor-pointer shrink-0 border border-white/10"
-              title="Volver a la selección de recintos"
-              aria-label="Volver a inicio"
+              title={t.backTitle}
+              aria-label={t.backAria}
             >
               <ArrowLeft className="w-4 h-4" />
             </button>
@@ -126,10 +132,10 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
           <div className="min-w-0">
             <div className="flex items-center gap-2 mb-0.5">
               <span className="text-[9px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full bg-amber-500/20 text-[#F59E0B] border border-amber-500/30">
-                {t.officialBadge}
+                {strings.home.officialBadge}
               </span>
               <span className="text-[10px] text-[#9CA3AF] hidden sm:inline">
-                {site?.location || 'Ciudad de México'}
+                {localSite?.location || t.defaultLocation}
               </span>
             </div>
             <h1 className="text-sm sm:text-base font-bold text-white tracking-tight truncate">
@@ -144,10 +150,10 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
             type="button"
             onClick={onOpenSearchModal}
             className="flex items-center gap-1.5 py-1.5 px-3 rounded-xl bg-[#141419] hover:bg-white/10 border border-white/10 text-xs font-semibold text-stone-200 transition-all active:scale-95 cursor-pointer shrink-0"
-            title="Ingresar código de vitrina o buscar pieza"
+            title={t.searchTitle}
           >
             <Search className="w-3.5 h-3.5 text-[#F59E0B]" />
-            <span className="text-[11px] font-medium text-stone-300">Buscar</span>
+            <span className="text-[11px] font-medium text-stone-300">{t.search}</span>
           </button>
         )}
       </header>
@@ -167,9 +173,9 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
           >
             <span className="text-sm">🏛️</span>
             <div className="text-left">
-              <span className="block leading-none">Planta Baja</span>
+              <span className="block leading-none">{t.ground}</span>
               <span className={`text-[10px] ${selectedFloor === 'PB' ? 'text-black/80 font-bold' : 'text-[#6B7280]'}`}>
-                Arqueología · {pbCount} salas
+                {t.groundSub(pbCount)}
               </span>
             </div>
           </button>
@@ -185,9 +191,9 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
           >
             <span className="text-sm">🧵</span>
             <div className="text-left">
-              <span className="block leading-none">Planta Alta</span>
+              <span className="block leading-none">{t.upper}</span>
               <span className={`text-[10px] ${selectedFloor === 'PA' ? 'text-black/80 font-bold' : 'text-[#6B7280]'}`}>
-                Etnografía · {paCount} {paUnit}
+                {t.upperSub(paCount, paUnit)}
               </span>
             </div>
           </button>
@@ -198,7 +204,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
           <div className="flex items-center gap-1.5 text-xs text-[#9CA3AF]">
             <Compass className="w-3.5 h-3.5 text-[#F59E0B]" />
             <span>
-              {totalRoomsCount} salas en el museo
+              {t.totalRooms(totalRoomsCount)}
             </span>
           </div>
 
@@ -213,7 +219,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
               }`}
             >
               <MapIcon className="w-3.5 h-3.5" />
-              <span>Plano</span>
+              <span>{t.viewMap}</span>
             </button>
             <button
               type="button"
@@ -225,7 +231,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
               }`}
             >
               <ListIcon className="w-3.5 h-3.5" />
-              <span>Lista</span>
+              <span>{t.viewList}</span>
             </button>
           </div>
         </div>
@@ -241,7 +247,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
               onSelectRoom={handleRoomClickFromMap}
             />
             <p className="text-[11px] text-center text-stone-400">
-              💡 Toca cualquier sala en el plano para abrirla e iniciar su recorrido
+              {t.mapTip}
             </p>
           </div>
         ) : (
@@ -269,7 +275,7 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
                           {room.nombre_oficial}
                         </h4>
                         <span className="text-[10px] font-mono text-stone-400 shrink-0">
-                          {roomPiecesCount} obras
+                          {t.pieceCount(roomPiecesCount)}
                         </span>
                       </div>
                       {room.frase_gancho && (
@@ -300,10 +306,10 @@ export const SiteOverview: React.FC<SiteOverviewProps> = ({
               </div>
               <div className="text-left">
                 <span className="block font-black text-white group-hover:text-amber-400 transition-colors">
-                  ¿Tienes poco tiempo? Diseña tu Ruta
+                  {t.customizeTitle}
                 </span>
                 <span className="text-[11px] text-[#9CA3AF] font-normal">
-                  Filtra por tiempo (30 min, 1h, 2h) e intereses culturales
+                  {t.customizeSub}
                 </span>
               </div>
             </div>
