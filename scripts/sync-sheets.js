@@ -17,6 +17,7 @@
 import fs from 'fs';
 import path from 'path';
 import { pathToFileURL } from 'url';
+import { MODES, AUDIO_LANGS, scriptFor, textHash } from './audio-lib.mjs';
 
 // ===== CONFIGURACIÓN (lo único que normalmente se toca) =====================
 const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
@@ -116,6 +117,14 @@ const ROUTES = [
 
 const DATA_DIR = path.resolve(process.cwd(), 'public/data');
 const IMG_DIR = path.resolve(process.cwd(), 'public/images/pieces');
+const AUDIO_DIR = path.resolve(process.cwd(), 'public/audio');
+const AUDIO_MANIFEST = path.join(AUDIO_DIR, 'manifest.json');
+
+// Idiomas con columnas opcionales de traducción (p. ej. guion_corto_en). Si la columna no existe o la celda va vacía,
+// la app muestra el texto en español. No se inventa ninguna traducción.
+const TRANSLATION_LANGS = ['en', 'fr', 'pl', 'ru', 'ja'];
+const PIECE_TEXT_FIELDS = ['titulo', 'frase_gancho', 'puente_narrativo', 'guion_corto', 'guion_largo'];
+const ROOM_TEXT_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narrativa'];
 
 /** Lee un CSV completo (respeta comillas, comas y saltos de línea dentro de una celda). */
 export function parseCsv(input) {
@@ -218,6 +227,53 @@ const num = (v, fallback) => {
 
 const pisoDeNumero = (n) => (n >= 12 ? 'PA' : 'PB');
 
+/** Copia las columnas de traducción que existan y no estén vacías: campo_en, campo_fr, etc. */
+function translatedFields(row, fields) {
+  const out = {};
+  for (const lang of TRANSLATION_LANGS) {
+    for (const f of fields) {
+      const v = row[`${f}_${lang}`];
+      if (v && String(v).trim()) out[`${f}_${lang}`] = String(v).trim();
+    }
+  }
+  return out;
+}
+
+const parseRetos = (v) => (v ? v.split('|').map((x) => x.trim()).filter(Boolean) : []);
+
+function parseEspecificaciones(v) {
+  const out = {};
+  if (v) {
+    v.split('|').forEach((item) => {
+      const [k, ...rest] = item.split(':');
+      if (k && rest.length) out[k.trim()] = rest.join(':').trim();
+    });
+  }
+  return out;
+}
+
+function parseFaq(v) {
+  if (v && v.includes('|')) {
+    const [pregunta, ...resto] = v.split('|');
+    return { pregunta: pregunta.trim(), respuesta: resto.join('|').trim() };
+  }
+  return null;
+}
+
+/** Traducciones de piezas, incluidas las columnas con estructura (retos, especificaciones, faq). */
+function translatedPieceFields(p) {
+  const out = translatedFields(p, PIECE_TEXT_FIELDS);
+  for (const lang of TRANSLATION_LANGS) {
+    const retos = parseRetos(p[`retos_observacion_${lang}`]);
+    if (retos.length) out[`retos_observacion_${lang}`] = retos;
+    const esp = parseEspecificaciones(p[`especificaciones_${lang}`]);
+    if (Object.keys(esp).length) out[`especificaciones_${lang}`] = esp;
+    const faq = parseFaq(p[`faq_mito_${lang}`]);
+    if (faq) out[`faq_mito_${lang}`] = faq;
+  }
+  return out;
+}
+
 function buildRooms(items) {
   const rooms = items
     .filter((r) => r.room_id)
@@ -236,6 +292,7 @@ function buildRooms(items) {
         // Opcional: texto corto para identificar la sala, p. ej. "Eje 1". Si va vacío, la app usa "Sala NN".
         etiqueta: r.etiqueta || '',
         aliases: [r.room_id, `sala-${String(r.numero_oficial).padStart(2, '0')}`],
+        ...translatedFields(r, ROOM_TEXT_FIELDS),
       };
     });
   rooms.sort((a, b) => (parseInt(a.numero_oficial, 10) || 0) - (parseInt(b.numero_oficial, 10) || 0));
@@ -246,21 +303,9 @@ function buildPieces(items) {
   return items
     .filter((p) => p.piece_id)
     .map((p) => {
-      const retos = p.retos_observacion ? p.retos_observacion.split('|').map((x) => x.trim()).filter(Boolean) : [];
-
-      const especificaciones = {};
-      if (p.especificaciones) {
-        p.especificaciones.split('|').forEach((item) => {
-          const [k, ...v] = item.split(':');
-          if (k && v.length) especificaciones[k.trim()] = v.join(':').trim();
-        });
-      }
-
-      let faq = null;
-      if (p.faq_mito && p.faq_mito.includes('|')) {
-        const [pregunta, ...resto] = p.faq_mito.split('|');
-        faq = { pregunta: pregunta.trim(), respuesta: resto.join('|').trim() };
-      }
+      const retos = parseRetos(p.retos_observacion);
+      const especificaciones = parseEspecificaciones(p.especificaciones);
+      const faq = parseFaq(p.faq_mito);
 
       const isFree = String(p.is_free || '').trim().toUpperCase() === 'TRUE';
       const image = p.image_filename ? p.image_filename.trim().replace(/^.*[\\/]/, '') : '';
@@ -295,8 +340,61 @@ function buildPieces(items) {
         foto_url: (p.foto_url || '').trim(),
         is_free: isFree,
         is_premium: !isFree,
+        // Traducciones opcionales (columnas titulo_en, guion_corto_en, etc.). Solo aparecen si hay texto.
+        ...translatedPieceFields(p),
       };
     });
+}
+
+/**
+ * Une los MP3 generados (public/audio/manifest.json) con las piezas.
+ * Un MP3 solo se usa si su texto sigue siendo igual al del Sheets; si no, la app usa la voz del teléfono.
+ */
+function attachAudio(pieces, warn) {
+  if (!fs.existsSync(AUDIO_MANIFEST)) return 0;
+  let manifest;
+  try {
+    manifest = JSON.parse(fs.readFileSync(AUDIO_MANIFEST, 'utf-8'));
+  } catch (e) {
+    warn('El archivo public/audio/manifest.json no se pudo leer (no se usará ningún MP3)', e.message);
+    return 0;
+  }
+  const byId = new Map(pieces.map((p) => [p.piece_id, p]));
+  let attached = 0;
+  for (const lang of AUDIO_LANGS) {
+    for (const [pieceId, entry] of Object.entries(manifest.items?.[lang] || {})) {
+      const piece = byId.get(pieceId);
+      if (!piece) {
+        warn('Audios de piezas que ya no existen en el Sheets', `${lang}/${pieceId}`);
+        continue;
+      }
+      for (const mode of MODES) {
+        const e = entry[mode];
+        if (!e) continue;
+        if (e.hash !== textHash(scriptFor(piece, lang, mode))) {
+          warn('Audios desactualizados: el texto cambió y el MP3 ya no coincide (se usa la voz del teléfono hasta regenerarlo)', `${lang}/${pieceId} ${mode}`);
+          continue;
+        }
+        if (!e.remote && !fs.existsSync(path.join(AUDIO_DIR, e.file))) {
+          warn('Audios en el manifiesto que no están en public/audio', e.file);
+          continue;
+        }
+        if (Boolean(e.remote) === Boolean(piece.is_free)) {
+          warn('Audios cuyo tipo (gratis / de pago) ya no coincide con la pieza: vuelve a generarlos', `${lang}/${pieceId} ${mode}`);
+          continue;
+        }
+        piece.audio ||= {};
+        piece.audio[lang] ||= {};
+        piece.audio[lang][mode] = {
+          path: e.remote ? e.file : `audio/${e.file}`,
+          remote: Boolean(e.remote),
+          ...(e.seconds ? { seconds: e.seconds } : {}),
+        };
+        attached++;
+      }
+    }
+  }
+  return attached;
 }
 
 /** Revisa los datos. Los errores DETIENEN la publicación; los avisos solo se muestran. */
@@ -374,6 +472,7 @@ export async function sync() {
   const pieces = buildPieces(piezas.items);
 
   const { errors, warnings, sinFoto } = validate(rooms, pieces);
+  const audiosUnidos = attachAudio(pieces, (kind, msg) => { (warnings[kind] ||= []).push(msg); });
 
   for (const [kind, list] of Object.entries(warnings)) {
     console.warn(`⚠️  ${kind}: ${list.length}`);
@@ -410,6 +509,12 @@ export async function sync() {
   }
 
   console.log(`✅ Sincronización exitosa: ${rooms.length} salas y ${pieces.length} piezas (${pieces.length - sinFoto} con foto, ${sinFoto} sin foto).`);
+  const conTraduccion = TRANSLATION_LANGS
+    .map((l) => [l, pieces.filter((p) => p[`guion_corto_${l}`]).length])
+    .filter(([, n]) => n > 0)
+    .map(([l, n]) => `${l}: ${n}`);
+  if (conTraduccion.length) console.log(`🌐 Piezas con texto traducido → ${conTraduccion.join(', ')}`);
+  if (audiosUnidos) console.log(`🔊 Audios MP3 unidos a las piezas: ${audiosUnidos}`);
 }
 
 // Solo se ejecuta cuando se corre directamente (npm run sync-data / npm run build)

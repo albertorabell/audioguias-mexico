@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { Download, Smartphone, X, Check } from 'lucide-react';
 import { usePWAInstall } from '../utils/usePWAInstall';
 import { useTheme } from '../utils/ThemeContext';
+import { useStrings } from '../utils/LanguageContext';
 
 export const PWAInstallButton: React.FC = () => {
   const { isInstallable, isInstalled, isIOS, install } = usePWAInstall();
   const { isSunMode } = useTheme();
+  const t = useStrings().chrome.pwa;
   const [showIOSGuide, setShowIOSGuide] = useState(false);
   const [installedFeedback, setInstalledFeedback] = useState(false);
 
@@ -19,7 +21,7 @@ export const PWAInstallButton: React.FC = () => {
         }`}
       >
         <Check className="w-4 h-4 text-emerald-600" />
-        PWA Instalada
+        {t.installed}
       </span>
     );
   }
@@ -43,7 +45,7 @@ export const PWAInstallButton: React.FC = () => {
         }`}
       >
         <Download className="w-4 h-4" />
-        <span>{installedFeedback ? '¡Instalada!' : 'Instalar App'}</span>
+        <span>{installedFeedback ? t.installedDone : t.install}</span>
       </button>
     );
   }
@@ -61,7 +63,7 @@ export const PWAInstallButton: React.FC = () => {
           }`}
         >
           <Smartphone className="w-4 h-4" />
-          <span>Instalar en iOS</span>
+          <span>{t.installIos}</span>
         </button>
 
         {showIOSGuide && (
@@ -79,7 +81,7 @@ export const PWAInstallButton: React.FC = () => {
                     isSunMode ? 'text-stone-950' : 'text-amber-400'
                   }`}
                 >
-                  Instalar en iPhone / iPad
+                  {t.iosTitle}
                 </h3>
                 <button
                   onClick={() => setShowIOSGuide(false)}
@@ -95,9 +97,9 @@ export const PWAInstallButton: React.FC = () => {
                   isSunMode ? 'text-stone-700' : 'text-stone-300'
                 }`}
               >
-                1. Toca el icono de <strong>Compartir</strong> en la barra inferior de Safari.<br />
-                2. Desliza hacia abajo y pulsa <strong>«Agregar al inicio»</strong>.<br />
-                3. Abre la app desde tu pantalla para usarla 100% offline en el museo.
+                1. {t.iosStep1Before}<strong>{t.iosStep1Strong}</strong>{t.iosStep1After}<br />
+                2. {t.iosStep2Before}<strong>{t.iosStep2Strong}</strong>.<br />
+                3. {t.iosStep3}
               </p>
               <button
                 onClick={() => setShowIOSGuide(false)}
@@ -107,7 +109,7 @@ export const PWAInstallButton: React.FC = () => {
                     : 'bg-amber-500 hover:bg-amber-400 text-stone-950'
                 }`}
               >
-                Entendido
+                {t.understood}
               </button>
             </div>
           </div>

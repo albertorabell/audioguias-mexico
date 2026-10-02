@@ -1,6 +1,7 @@
 import React from 'react';
 import { Landmark, Compass, Map as MapIcon, Search } from 'lucide-react';
 import { useTheme } from '../utils/ThemeContext';
+import { useStrings } from '../utils/LanguageContext';
 
 export type DockTab = 'salas' | 'recorridos' | 'mapa' | 'teclado';
 
@@ -18,39 +19,40 @@ export const BottomDockBar: React.FC<BottomDockBarProps> = ({
   className = '',
 }) => {
   const { isSunMode } = useTheme();
+  const t = useStrings().chrome.dock;
 
   const tabs = [
     {
       id: 'salas' as DockTab,
-      label: 'Salas',
+      label: t.rooms,
       icon: Landmark,
       badge: roomsCount ? String(roomsCount) : undefined,
-      hint: 'Explorador PB y PA',
+      hint: t.roomsHint,
     },
     {
       id: 'recorridos' as DockTab,
-      label: 'Mi Ruta',
+      label: t.route,
       icon: Compass,
-      hint: 'Gestor de ruta y asistente',
+      hint: t.routeHint,
     },
     {
       id: 'mapa' as DockTab,
-      label: 'Mapa',
+      label: t.map,
       icon: MapIcon,
-      hint: 'Plano interactivo',
+      hint: t.mapHint,
     },
     {
       id: 'teclado' as DockTab,
-      label: 'Buscar',
+      label: t.search,
       icon: Search,
-      hint: 'Buscar piezas y salas',
+      hint: t.searchHint,
     },
   ];
 
   return (
     <nav
       id="museum-dock-bar"
-      aria-label="Navegación principal de una sola mano"
+      aria-label={t.navAria}
       className={`fixed bottom-0 left-0 right-0 z-40 backdrop-blur-xl border-t transition-colors duration-200 ${
         isSunMode
           ? 'bg-white/95 border-stone-200 shadow-[0_-10px_30px_rgba(0,0,0,0.08)]'

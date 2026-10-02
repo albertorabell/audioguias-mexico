@@ -75,6 +75,13 @@ export interface Piece {
   foto_url?: string;
   is_free: boolean;
   audio_file_url?: string;
+  /**
+   * MP3 generados, por idioma y modo (corto = Express, largo = Inmersión).
+   * path es relativo al sitio; si remote es true se pide al servidor de audio con el pase.
+   */
+  audio?: PieceAudio;
+  /** Traducciones opcionales (columnas del Sheets con sufijo de idioma). */
+  [translated: `${'titulo' | 'frase_gancho' | 'puente_narrativo' | 'guion_corto' | 'guion_largo'}_${'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]: string | undefined;
 
   // Campos de compatibilidad con estructuras previas
   id?: string;
@@ -115,6 +122,14 @@ export interface Piece {
   curiosities?: CuriosityItem[];
   faqs?: FaqItem[];
 }
+
+export interface PieceAudioFile {
+  path: string;
+  remote: boolean;
+  seconds?: number;
+}
+
+export type PieceAudio = Partial<Record<'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja', Partial<Record<'corto' | 'largo', PieceAudioFile>>>>;
 
 export type PieceData = Piece;
 
