@@ -43,8 +43,10 @@ const ROUTES = [
   {
     id: 'ruta-monumental',
     name: 'Obras Maestras del MNA',
+    name_en: 'Masterpieces of the MNA',
     duration: '45 min',
     description: 'Las piezas más famosas del museo, ordenadas para recorrer la planta baja de norte a sur sin regresar.',
+    description_en: "The museum's most famous pieces, ordered so you can walk the ground floor from north to south without backtracking.",
     stop_ids: [
       'mna_s04_chalchiuhtlicue',
       'mna_s04_disco_muerte',
@@ -59,8 +61,10 @@ const ROUTES = [
   {
     id: 'visita-relampago',
     name: 'Visita Relámpago (Top Highlights)',
+    name_en: 'Lightning Visit (Top Highlights)',
     duration: '25 min',
     description: 'Si tienes poco tiempo: cuatro piezas que no te puedes perder.',
+    description_en: 'Short on time? Four pieces you cannot miss.',
     stop_ids: [
       'mna_s04_disco_muerte',
       'mna_s06_piedra_sol',
@@ -71,8 +75,10 @@ const ROUTES = [
   {
     id: 'ruta-familiar',
     name: 'Para ir con niños',
+    name_en: 'For visiting with kids',
     duration: '35 min',
     description: 'Un mamut, una acróbata de barro, caritas que se ríen y perros de tumba: piezas para mirar y preguntar en familia.',
+    description_en: 'A mammoth, a clay acrobat, smiling little faces and tomb dogs: pieces to look at and ask questions about as a family.',
     stop_ids: [
       'mna_s00_el_paraguas',
       'mna_s01_lucy_afarensis',
@@ -85,8 +91,10 @@ const ROUTES = [
   {
     id: 'ruta-tumbas',
     name: 'Tumbas y tesoros',
+    name_en: 'Tombs and treasures',
     duration: '40 min',
     description: 'Cómo despedían a sus muertos los zapotecos, los mixtecos, los mayas y los pueblos del Occidente.',
+    description_en: 'How the Zapotecs, the Mixtecs, the Maya and the peoples of West Mexico said goodbye to their dead.',
     stop_ids: [
       'mna_s07_tumba_104',
       'mna_s07_pectoral_oro_tumba7',
@@ -100,8 +108,10 @@ const ROUTES = [
   {
     id: 'ruta-mexica',
     name: 'La Sala Mexica a fondo',
+    name_en: 'The Mexica Hall in depth',
     duration: '40 min',
     description: 'Siete monumentos para entender cómo veían los mexicas el Sol, la tierra y la guerra.',
+    description_en: 'Seven monuments to understand how the Mexica saw the Sun, the earth and war.',
     stop_ids: [
       'mna_s06_piedra_sol',
       'mna_s06_coatlicue',
@@ -464,8 +474,10 @@ function buildRoutes(pieces, rooms) {
   return ROUTES.map((route) => ({
     id: route.id,
     name: route.name,
+    name_en: route.name_en,
     duration: route.duration,
     description: route.description,
+    description_en: route.description_en,
     stops: route.stop_ids
       .map((id) => byId.get(id))
       .filter(Boolean)

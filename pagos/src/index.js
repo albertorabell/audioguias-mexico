@@ -133,10 +133,14 @@ async function readJson(request) {
   }
 }
 
+// La app manda el id del sitio como viene de sites.json ("MNA"); aquí siempre se compara en minúsculas.
+const siteKey = (v) => String(v || '').trim().toLowerCase();
+
 async function handleCheckout(request, env, cfg, cors) {
   const body = await readJson(request);
   if (!body) return json({ error: 'bad_request' }, 400, cors);
-  const { siteId, lang = 'es', deviceId, returnUrl } = body;
+  const { lang = 'es', deviceId, returnUrl } = body;
+  const siteId = siteKey(body.siteId);
   if (!cfg.sites.includes(siteId) || !DEVICE_RE.test(String(deviceId || ''))) return json({ error: 'bad_request' }, 400, cors);
 
   let ret;
@@ -176,7 +180,8 @@ async function handleCheckout(request, env, cfg, cors) {
 async function handleRedeem(request, env, cfg, cors) {
   const body = await readJson(request);
   if (!body) return json({ error: 'bad_request' }, 400, cors);
-  const { sessionId, deviceId, siteId } = body;
+  const { sessionId, deviceId } = body;
+  const siteId = siteKey(body.siteId);
   if (!SESSION_RE.test(String(sessionId || '')) || !DEVICE_RE.test(String(deviceId || ''))) return json({ error: 'bad_request' }, 400, cors);
 
   let session;
@@ -205,7 +210,8 @@ async function handleRedeem(request, env, cfg, cors) {
 async function handleCode(request, env, cfg, cors) {
   const body = await readJson(request);
   if (!body) return json({ error: 'bad_request' }, 400, cors);
-  const { code, deviceId, siteId } = body;
+  const { code, deviceId } = body;
+  const siteId = siteKey(body.siteId);
   if (normalizeCode(code).length !== 8 || !DEVICE_RE.test(String(deviceId || ''))) return json({ error: 'bad_request' }, 400, cors);
   const sessionId = await env.PASES.get(codeKey(code));
   const pass = sessionId ? await loadPass(env, sessionId) : null;

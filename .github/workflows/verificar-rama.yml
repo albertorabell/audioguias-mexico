@@ -27,3 +27,13 @@ jobs:
         run: node scripts/ci-run.mjs tsc -- npx tsc --noEmit --pretty false
       - name: Compilar (vite build, con los datos ya guardados)
         run: node scripts/ci-run.mjs build -- npx vite build
+      - name: Compilar las dos versiones para las pruebas de navegador (cobro encendido y apagado)
+        run: |
+          VITE_PAYMENTS_API_URL=https://pagos.test npx vite build --outDir dist-e2e
+          npx vite build --outDir dist-e2e-off
+      - name: Instalar el navegador de pruebas (Playwright)
+        run: |
+          npm install --no-save --no-audit --no-fund @playwright/test@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Pruebas en navegador (idioma, MP3 y cobro)
+        run: node scripts/ci-run.mjs navegador -- npx playwright test -c e2e/playwright.config.mjs

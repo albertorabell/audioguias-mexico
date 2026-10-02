@@ -118,6 +118,17 @@ test('/checkout: inglés usa el precio en dólares; sin precio en dólares usa p
   assert.equal(new URLSearchParams(stripeCalls[0].body).get('line_items[0][price]'), 'price_mxn_1');
 });
 
+test('el id del sitio llega como en sites.json ("MNA") y se acepta igual que "mna"', async () => {
+  const r = await call('/checkout', { body: { siteId: 'MNA', lang: 'es', deviceId: DEV1, returnUrl: `${ORIGIN}/audioguias-mexico/` } });
+  assert.equal(r.status, 200);
+  assert.equal(new URLSearchParams(stripeCalls[stripeCalls.length - 1].body).get('metadata[site_id]'), 'mna');
+  const red = await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1, siteId: 'MNA' } });
+  assert.equal(red.status, 200);
+  const a = await red.json();
+  assert.equal(a.site, 'mna');
+  assert.equal((await call('/code', { body: { code: a.code, deviceId: DEV2, siteId: 'MNA' } })).status, 200);
+});
+
 test('/checkout rechaza datos inválidos, sitios desconocidos y direcciones de regreso ajenas', async () => {
   const good = { siteId: 'mna', lang: 'es', deviceId: DEV1, returnUrl: `${ORIGIN}/x/` };
   assert.equal((await call('/checkout', { body: { ...good, siteId: 'otro' } })).status, 400);

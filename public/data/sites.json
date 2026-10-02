@@ -8,10 +8,13 @@
     "badge": "Top 10 Museos del Mundo",
     "status": "active",
     "path": "data/mna/mna.json",
-    "stripe_link": "https://buy.stripe.com/demo_mna",
     "description": "El recinto arqueológico y etnográfico más importante de México y América Latina, con 22 salas y más de 130 obras maestras analizadas a detalle.",
     "highlights_count": 133,
-    "total_stops": 22
+    "total_stops": 22,
+    "name_en": "National Museum of Anthropology",
+    "location_en": "Chapultepec Park, Mexico City",
+    "badge_en": "Top 10 Museums in the World",
+    "description_en": "Mexico's and Latin America's most important archaeological and ethnographic museum, with 22 halls and more than 130 masterpieces analysed in detail."
   },
   {
     "id": "TEOTIHUACAN",
@@ -22,10 +25,13 @@
     "badge": "Patrimonio de la Humanidad UNESCO",
     "status": "coming_soon",
     "path": "data/teotihuacan/teotihuacan.json",
-    "stripe_link": "https://buy.stripe.com/demo_teotihuacan",
     "description": "La legendaria 'Ciudad de los Dioses', epicentro ceremonial y una de las mayores urbes prehispánicas con la Pirámide del Sol y de la Luna.",
     "highlights_count": 18,
-    "total_stops": 8
+    "total_stops": 8,
+    "name_en": "Teotihuacan Archaeological Zone",
+    "location_en": "Teotihuacan Valley, State of Mexico",
+    "badge_en": "UNESCO World Heritage Site",
+    "description_en": "The legendary 'City of the Gods', a ceremonial centre and one of the largest pre-Hispanic cities, home to the Pyramid of the Sun and the Pyramid of the Moon."
   },
   {
     "id": "CHAPULTEPEC",
@@ -36,10 +42,13 @@
     "badge": "Único Castillo Real en América",
     "status": "coming_soon",
     "path": "data/chapultepec/chapultepec.json",
-    "stripe_link": "https://buy.stripe.com/demo_chapultepec",
     "description": "El emblemático alcázar virreinal y residencia imperial sobre el cerro del Chapulín, testigo de hitos históricos decisivos de la República.",
     "highlights_count": 24,
-    "total_stops": 12
+    "total_stops": 12,
+    "name_en": "Chapultepec Castle",
+    "location_en": "First Section of Chapultepec Park, Mexico City",
+    "badge_en": "The only royal castle in the Americas",
+    "description_en": "The emblematic viceregal fortress and imperial residence on Grasshopper Hill, witness to decisive moments in the history of the Republic."
   },
   {
     "id": "TEMPLO_MAYOR",
@@ -50,10 +59,13 @@
     "badge": "Corazón Sagrado Mexica",
     "status": "coming_soon",
     "path": "data/templo_mayor/templo_mayor.json",
-    "stripe_link": "https://buy.stripe.com/demo_templomayor",
     "description": "El eje cósmico de la civilización mexica donde convergían los templos de Tláloc y Huitzilopochtli, con su museo de sitio de 8 salas.",
     "highlights_count": 20,
-    "total_stops": 10
+    "total_stops": 10,
+    "name_en": "Templo Mayor (Tenochtitlan)",
+    "location_en": "Historic Centre, Mexico City",
+    "badge_en": "Sacred heart of the Mexica",
+    "description_en": "The cosmic axis of Mexica civilisation, where the temples of Tlaloc and Huitzilopochtli stood side by side, with its 8-hall site museum."
   },
   {
     "id": "BELLAS_ARTES",
@@ -64,9 +76,12 @@
     "badge": "Catedral del Arte en México",
     "status": "coming_soon",
     "path": "data/bellas_artes/bellas_artes.json",
-    "stripe_link": "https://buy.stripe.com/demo_bellasartes",
     "description": "La máxima joya art nouveau y art déco de México, sede de monumentales murales de Rivera, Orozco, Siqueiros y Tamayo.",
     "highlights_count": 16,
-    "total_stops": 6
+    "total_stops": 6,
+    "name_en": "Palace of Fine Arts",
+    "location_en": "Historic Centre / Alameda Central, Mexico City",
+    "badge_en": "Cathedral of Art in Mexico",
+    "description_en": "Mexico's finest Art Nouveau and Art Deco jewel, home to monumental murals by Rivera, Orozco, Siqueiros and Tamayo."
   }
 ]

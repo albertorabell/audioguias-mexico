@@ -6,7 +6,6 @@ export interface SiteSummary {
   thumbnail: string;
   badge: string;
   path: string;
-  stripe_link?: string;
   description: string;
   highlights_count: number;
   total_stops: number;

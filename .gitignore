@@ -10,3 +10,8 @@ coverage/
 
 # MP3 de las piezas de pago: nunca se publican con el sitio (viven en el servidor de audio)
 audio-premium/
+
+# Compilaciones temporales de las pruebas de navegador
+dist-e2e/
+dist-e2e-off/
+test-results/
