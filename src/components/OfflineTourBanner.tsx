@@ -29,18 +29,19 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
   const t = strings.offline;
 
   // MP3 que se pueden guardar para esta ruta, en el idioma elegido (y los de pago solo si hay pase con clave)
-  const audioFiles = useMemo(() => {
-    const found = new Map<string, number>();
+  const { audioUrls, audioMb } = useMemo(() => {
+    const seen: Record<string, number> = {};
     for (const p of audioPieces) {
       for (const mode of ['expres', 'inmersion'] as const) {
         const a = resolvePieceAudio(p, currentLanguage, mode);
-        if (a) found.set(a.url, a.seconds || 0);
+        if (a) seen[a.url] = a.seconds || 0;
       }
     }
-    return found;
+    const urls = Object.keys(seen);
+    // 48 kbps = 6 000 bytes por segundo
+    const bytes = urls.reduce((n: number, u: string) => n + seen[u] * 6000, 0);
+    return { audioUrls: urls, audioMb: Math.round(bytes / 1_000_000) };
   }, [audioPieces, currentLanguage]);
-  // 48 kbps = 6 000 bytes por segundo
-  const audioMb = Math.round(Array.from(audioFiles.values()).reduce((n, s) => n + s * 6000, 0) / 1_000_000);
   const [isCached, setIsCached] = useState(false);
   const [progress, setProgress] = useState<OfflineProgress>({
     status: 'idle',
@@ -88,7 +89,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
         urls.push(p.audioguide.audio_file_url);
       }
     });
-    audioFiles.forEach((_, url) => urls.push(url));
+    audioUrls.forEach((url) => urls.push(url));
 
     const success = await downloadTourOffline(urls, (p) => {
       setProgress(p);
@@ -157,7 +158,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
 
             <p className="text-xs text-stone-600 dark:text-stone-400 mt-0.5 leading-relaxed font-normal">
               {isCached ? t.cachedDesc(routeTitle) : t.notCachedDesc}
-              {!isCached && audioFiles.size > 0 && ` ${t.audioSize(audioFiles.size, audioMb)}`}
+              {!isCached && audioUrls.length > 0 && ` ${t.audioSize(audioUrls.length, audioMb)}`}
             </p>
           </div>
         </div>
