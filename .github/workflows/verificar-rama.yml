@@ -1,0 +1,25 @@
+name: Verificar rama (sin desplegar)
+
+# Solo revisa que todo compile y funcione. NO publica nada en el sitio.
+on:
+  push:
+    branches: ['feature/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verificar:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Instalar paquetes
+        run: npm install --no-audit --no-fund
+      - name: Revisar tipos (tsc)
+        run: node scripts/ci-run.mjs tsc -- npx tsc --noEmit --pretty false
+      - name: Compilar (vite build, con los datos ya guardados)
+        run: node scripts/ci-run.mjs build -- npx vite build
