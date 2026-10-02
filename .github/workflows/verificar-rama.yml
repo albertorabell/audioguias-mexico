@@ -37,3 +37,15 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Pruebas en navegador (idioma, MP3 y cobro)
         run: node scripts/ci-run.mjs navegador -- npx playwright test -c e2e/playwright.config.mjs
+      - name: Ensayo del botón de audios con la voz de prueba (solo en esta máquina, no se guarda nada)
+        env:
+          IDIOMAS: es
+          PIEZAS: todas
+          PROVEEDOR: prueba
+          LIMITE: '3'
+          GENERAR: 'true'
+          FORZAR: 'false'
+        run: |
+          node scripts/ci-run.mjs ensayo-audio -- bash scripts/correr-generar-audio.sh
+          test -f public/audio/manifest.json
+          node scripts/ci-run.mjs ensayo-subida -- node scripts/subir-audio-premium.mjs --simular

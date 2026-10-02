@@ -15,20 +15,22 @@ Esta guía es para ti, Alberto. Cada paso es corto. Haz uno, revisa que salió b
 | **Textos de piezas y salas** | La app lee las traducciones de columnas nuevas del Sheets (Parte A). Si una pieza no tiene traducción, se muestra y se lee **en español** y la app avisa: «Esta pieza todavía no tiene texto en este idioma». Nunca inventa texto. |
 | **MP3** | Si una pieza tiene archivo MP3, la app lo reproduce. Si no tiene, usa la voz del teléfono, como hasta ahora. Los MP3 se pueden guardar para escuchar **sin internet**. |
 | **Cobro con Stripe** | Botón «Pagar con tarjeta» → página segura de Stripe → regreso a la app con el pase activo. El pase dura 72 horas (cuenta desde que se activa), funciona hasta en 2 dispositivos con un **código corto** (por ejemplo `ABCD-1234`). |
-| **Pruebas** | GitHub revisa solo: tipos, compilación, pruebas del servidor de cobro, del generador de MP3 y **14 pruebas en un navegador de verdad** (cambio de idioma, MP3 gratis y de pago, pago con Stripe simulado, código de pase, cobro apagado). Todo salió en verde. |
+| **Pruebas** | GitHub revisa solo: tipos, compilación, pruebas del servidor de cobro, del generador de MP3 (incluido un ensayo con voz de prueba) y **14 pruebas en un navegador de verdad** (cambio de idioma, MP3 gratis y de pago, pago con Stripe simulado, código de pase, cobro apagado). Todo salió en verde. |
+
+**Lo que NO se pudo probar desde aquí** (necesita tus cuentas): el pago real con Stripe, la subida real a Cloudflare, y la voz real de Azure/OpenAI. Todo eso se probó con simulaciones; en cuanto tengas las cuentas, las Partes B y C incluyen una prueba chica con dinero de mentira antes de cobrar de verdad.
 
 **Mientras no hagas la Parte C, el cobro queda apagado**: la ventana del pase dice «El pago en línea estará disponible muy pronto» y las piezas gratis se escuchan normal.
 
 ---
 
-## Lo que tienes que hacer tú (resumen)
+## Lo que tienes que hacer tú (resumen y orden recomendado)
 
-1. **Parte A (Sheets):** pegar traducciones al inglés en columnas nuevas. *(Opcional por ahora; sin esto la app funciona en español con aviso.)*
-2. **Parte B (MP3):** crear una cuenta de voz (Azure u OpenAI), decidir el costo, y apretar un botón en GitHub.
-3. **Parte C (cobro):** crear cuentas de **Stripe** y **Cloudflare**, y apretar un botón en GitHub.
-4. **Parte D:** revisar y publicar la rama.
+1. **Parte D primero: publicar la rama.** Es seguro: el cobro queda apagado y todo se ve como antes. Hay que hacerlo antes porque **los botones de GitHub de las Partes B y C solo aparecen en la pestaña Actions cuando el código ya está en `main`**.
+2. **Parte A (Sheets):** pegar traducciones al inglés en columnas nuevas. *(Opcional por ahora; sin esto la app funciona en español con aviso.)*
+3. **Parte B (MP3):** crear una cuenta de voz (Azure u OpenAI), decidir el costo, y apretar un botón en GitHub.
+4. **Parte C (cobro):** crear cuentas de **Stripe** y **Cloudflare**, y apretar un botón en GitHub.
 
-Todo lo que apretarás está en la pestaña **Actions** de https://github.com/albertorabell/audioguias-mexico
+Los botones están en la pestaña **Actions** de https://github.com/albertorabell/audioguias-mexico
 
 ---
 
@@ -69,7 +71,7 @@ En la pestaña **`📝 TRABAJO_SALAS`**:
 
 ### Paso A3 — Comprueba
 
-Espera la actualización automática (cada 6 horas) o corre a mano **Actions → Compilar y desplegar → Run workflow** (solo cuando ya hayas publicado la rama, Parte D). En la app, cambia a English y abre una pieza traducida: ya no debe salir el aviso.
+Espera la actualización automática (cada 6 horas) o corre a mano **Actions → Compilar y desplegar → Run workflow**. En la app, cambia a English y abre una pieza traducida: ya no debe salir el aviso.
 
 ### Otros idiomas (francés, polaco, ruso, japonés)
 
@@ -117,6 +119,8 @@ Referencia que usé (precios aproximados; **confírmalos en la página del prove
 > Nunca me mandes las claves por el chat ni las pegues en un archivo del repositorio. Solo van en **Secrets**.
 
 ### Paso B4 — Corre el botón (de menos a más)
+
+*(El botón aparece cuando ya hiciste la Parte D.)*
 
 1. **Actions → «Generar audios MP3 (botón manual)» → Run workflow.**
 2. **Primera vez, solo ver el plan:** deja «generar» **sin marcar**. Mira en el registro cuántos audios y cuánto costaría.
@@ -187,6 +191,8 @@ No toques `ALLOWED_ORIGINS` (ya dice `https://albertorabell.github.io`). Si alg�
 
 ### Paso C7 — Publica el servidor
 
+*(El botón aparece cuando ya hiciste la Parte D.)*
+
 **Actions → «Publicar el servidor de cobro (Cloudflare)» → Run workflow.**
 Si falta algún dato, se detiene y dice cuál. Si sale bien, en el registro aparece la dirección del servidor: algo como `https://audioguias-pagos.TU-NOMBRE.workers.dev`.
 
@@ -196,7 +202,7 @@ Comprueba abriendo esa dirección + `/health` en el navegador: debe responder qu
 
 1. En GitHub: **Settings → Secrets and variables → Actions → pestaña Variables → New repository variable**.
 2. Nombre: `PAGOS_API_URL`. Valor: la dirección del servidor (sin diagonal al final).
-3. Vuelve a publicar el sitio: **Actions → Compilar y desplegar → Run workflow** (después de la Parte D).
+3. Vuelve a publicar el sitio: **Actions → Compilar y desplegar → Run workflow**.
 
 ### Paso C9 — Prueba con dinero de mentira
 
@@ -227,7 +233,7 @@ Con Stripe en **modo de prueba**:
 
 ---
 
-## PARTE D — Revisar y publicar
+## PARTE D — Revisar y publicar (hazla primero)
 
 1. Entra a https://github.com/albertorabell/audioguias-mexico/pulls → **New pull request**.
 2. **base:** `main`. **compare:** `feature/idioma-mp3-cobro`. Mira que la revisión automática esté en **verde ✅**.

@@ -85,13 +85,7 @@ jobs:
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          set -e
-          args=(--lang "$IDIOMAS" --solo "$PIEZAS" --proveedor "$PROVEEDOR")
-          if [ -n "$LIMITE" ]; then args+=(--limite "$LIMITE"); fi
-          if [ "$FORZAR" = "true" ]; then args+=(--forzar); fi
-          if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
-          node scripts/generar-audio.mjs "${args[@]}"
+        run: bash scripts/correr-generar-audio.sh
 
       - name: Subir los audios de pago a Cloudflare R2
         if: ${{ inputs.generar }}
