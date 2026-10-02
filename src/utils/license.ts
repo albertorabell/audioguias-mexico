@@ -1,4 +1,5 @@
 import { SiteLicense } from '../types';
+import { PASS_HOURS } from '../config/pass';
 
 const STORAGE_KEY_PREFIX = 'audioguias_pass_';
 const DEVICE_ID_KEY = 'audioguias_device_id';
@@ -18,33 +19,39 @@ export function getOrCreateDeviceId(): string {
   }
 }
 
-export function getSiteLicense(siteId: string): SiteLicense | null {
-  try {
-    // Check mna_tour_pass_active first if it's MNA
-    if (siteId.toLowerCase() === 'mna') {
-      const isActive = localStorage.getItem(MNA_TOUR_PASS_KEY);
-      const rawExp = localStorage.getItem(MNA_TOUR_EXPIRES_KEY);
-      const expiresAt = rawExp ? parseInt(rawExp, 10) : 0;
-      if (isActive === 'true' && expiresAt > Date.now()) {
-        return {
-          site_id: 'mna',
-          expires_at: expiresAt,
-          device_id: getOrCreateDeviceId(),
-        };
-      }
-    }
+const keyFor = (siteId: string) => `${STORAGE_KEY_PREFIX}${siteId.toLowerCase()}`;
 
-    const raw = localStorage.getItem(`${STORAGE_KEY_PREFIX}${siteId.toLowerCase()}`);
-    if (!raw) return null;
-    const license: SiteLicense = JSON.parse(raw);
-    if (license.expires_at && license.expires_at > Date.now()) {
-      return license;
-    }
-    // Expired
-    localStorage.removeItem(`${STORAGE_KEY_PREFIX}${siteId.toLowerCase()}`);
+function clearPass(siteId: string): void {
+  try {
+    localStorage.removeItem(keyFor(siteId));
     if (siteId.toLowerCase() === 'mna') {
       localStorage.removeItem(MNA_TOUR_PASS_KEY);
       localStorage.removeItem(MNA_TOUR_EXPIRES_KEY);
+    }
+  } catch {
+    /* sin almacenamiento: nada que borrar */
+  }
+}
+
+/** El pase guardado en este dispositivo para ese sitio, si sigue vigente. */
+export function getSiteLicense(siteId: string): SiteLicense | null {
+  try {
+    const raw = localStorage.getItem(keyFor(siteId));
+    if (raw) {
+      const license: SiteLicense = JSON.parse(raw);
+      if (license.expires_at && license.expires_at > Date.now()) return license;
+      clearPass(siteId); // venció
+      return null;
+    }
+
+    // Pases guardados por versiones anteriores de la app (solo MNA, sin clave)
+    if (siteId.toLowerCase() === 'mna') {
+      const isActive = localStorage.getItem(MNA_TOUR_PASS_KEY);
+      const expiresAt = parseInt(localStorage.getItem(MNA_TOUR_EXPIRES_KEY) || '0', 10);
+      if (isActive === 'true' && expiresAt > Date.now()) {
+        return { site_id: 'mna', expires_at: expiresAt, device_id: getOrCreateDeviceId() };
+      }
+      if (isActive || expiresAt) clearPass(siteId);
     }
     return null;
   } catch {
@@ -57,16 +64,27 @@ export function hasActivePass(siteId: string): boolean {
   return !!license && license.expires_at > Date.now();
 }
 
-export function activatePass(siteId: string, hours = 72): SiteLicense {
-  const deviceId = getOrCreateDeviceId();
-  const expiresAt = Date.now() + hours * 60 * 60 * 1000;
+export interface PassGrant {
+  /** Clave firmada por el servidor de pagos (da acceso a los audios de pago). */
+  token?: string;
+  /** Vencimiento en milisegundos; si falta se cuentan PASS_HOURS desde ahora. */
+  expiresAt?: number;
+  /** Código corto para activar el pase en un segundo dispositivo. */
+  code?: string;
+}
+
+/** Guarda un pase en este dispositivo. Sin `grant` es un pase de prueba (modo demo / pruebas). */
+export function activatePass(siteId: string, hours = PASS_HOURS, grant: PassGrant = {}): SiteLicense {
+  const expiresAt = grant.expiresAt ?? Date.now() + hours * 60 * 60 * 1000;
   const license: SiteLicense = {
     site_id: siteId.toLowerCase(),
     expires_at: expiresAt,
-    device_id: deviceId,
+    device_id: getOrCreateDeviceId(),
+    ...(grant.token ? { token: grant.token } : {}),
+    ...(grant.code ? { code: grant.code } : {}),
   };
   try {
-    localStorage.setItem(`${STORAGE_KEY_PREFIX}${siteId.toLowerCase()}`, JSON.stringify(license));
+    localStorage.setItem(keyFor(siteId), JSON.stringify(license));
     if (siteId.toLowerCase() === 'mna') {
       localStorage.setItem(MNA_TOUR_PASS_KEY, 'true');
       localStorage.setItem(MNA_TOUR_EXPIRES_KEY, String(expiresAt));
@@ -78,24 +96,14 @@ export function activatePass(siteId: string, hours = 72): SiteLicense {
 }
 
 export function revokePass(siteId: string): void {
-  try {
-    localStorage.removeItem(`${STORAGE_KEY_PREFIX}${siteId.toLowerCase()}`);
-    if (siteId.toLowerCase() === 'mna') {
-      localStorage.removeItem(MNA_TOUR_PASS_KEY);
-      localStorage.removeItem(MNA_TOUR_EXPIRES_KEY);
-    }
-  } catch (err) {
-    console.warn('Unable to remove pass from localStorage', err);
-  }
+  clearPass(siteId);
 }
 
+/** Tiempo que le queda al pase, como "3h 20m" o "12m". Vacío si ya venció. (Sin palabras: sirve en cualquier idioma.) */
 export function formatRemainingHours(expiresAt: number): string {
   const diffMs = expiresAt - Date.now();
-  if (diffMs <= 0) return 'Expirado';
+  if (diffMs <= 0) return '';
   const hours = Math.floor(diffMs / (1000 * 60 * 60));
   const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
-  if (hours >= 1) {
-    return `${hours}h ${minutes}m`;
-  }
-  return `${minutes}m restantes`;
+  return hours >= 1 ? `${hours}h ${minutes}m` : `${Math.max(1, minutes)}m`;
 }

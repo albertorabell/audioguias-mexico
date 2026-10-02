@@ -1,6 +1,8 @@
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import { SiteSummary, SiteManifest, SiteRoute, RouteStop, PieceData, SiteLicense, Room } from './types';
 import { getSiteLicense, activatePass, revokePass, hasActivePass } from './utils/license';
+import { readPaymentReturn, redeemPendingSession, RETRYABLE_ERRORS } from './utils/payments';
+import { PASS_HOURS } from './config/pass';
 import { Home } from './components/Home';
 import { SiteOverview } from './components/SiteOverview';
 import { RouteWizard } from './components/RouteWizard';
@@ -88,6 +90,9 @@ export default function App() {
   const [isLoadingSites, setIsLoadingSites] = useState(true);
   const [isLoadingPiece, setIsLoadingPiece] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  // Avisos de pago (confirmado, cancelado, error al canjear)
+  const paymentCheckedRef = useRef(false);
+  const [paymentNotice, setPaymentNotice] = useState<{ kind: 'info' | 'success' | 'error'; text: string } | null>(null);
 
   // Contenido en el idioma elegido. Lo que no esté traducido en el Sheets se muestra en español.
   const sites = useMemo(() => rawSites.map((s) => localizeSite(s, currentLanguage)), [rawSites, currentLanguage]);
@@ -285,6 +290,34 @@ export default function App() {
       }
     }
     loadCatalog();
+  }, []);
+
+  // Al regresar de la página de pago de Stripe (o si quedó un pago pendiente), se confirma y se activa el pase
+  useEffect(() => {
+    if (paymentCheckedRef.current) return;
+    paymentCheckedRef.current = true;
+    const returned = readPaymentReturn();
+    if (returned?.status === 'cancelled') {
+      setPaymentNotice({ kind: 'info', text: t.paywall.notice.cancelled });
+      return;
+    }
+    if (returned) setPaymentNotice({ kind: 'info', text: t.paywall.notice.confirming });
+    (async () => {
+      const result = await redeemPendingSession();
+      if (!result) {
+        setPaymentNotice(null);
+        return;
+      }
+      if (result.ok) {
+        const hours = Math.round((result.data.expires_at - Date.now()) / 3600000) || PASS_HOURS;
+        setPaymentNotice({ kind: 'success', text: t.paywall.notice.success(hours) });
+      } else if (returned || !RETRYABLE_ERRORS.includes(result.error)) {
+        setPaymentNotice({ kind: 'error', text: t.paywall.errors[result.error] });
+      } else {
+        // Reintento en segundo plano sin internet: se avisará solo cuando el visitante vuelva de pagar
+        setPaymentNotice(null);
+      }
+    })();
   }, []);
 
   // Update license state whenever selectedSite changes
@@ -692,7 +725,7 @@ export default function App() {
   // Pass simulation
   const handleSimulatePurchase = () => {
     if (!selectedSite) return;
-    const lic = activatePass(selectedSite.id, 72);
+    const lic = activatePass(selectedSite.id, PASS_HOURS);
     setCurrentLicense(lic);
   };
 
@@ -741,6 +774,30 @@ export default function App() {
         <OfflineIndicator />
 
         <div className="w-full max-w-[480px] min-h-screen shadow-2xl relative flex flex-col bg-[#0B0B0E] border-x border-[#24242E] text-[#F3F4F6] overflow-x-hidden">
+          {/* Aviso de pago */}
+          {paymentNotice && (
+            <div
+              role="status"
+              data-testid="payment-notice"
+              className={`p-3.5 m-3 rounded-2xl border text-xs flex justify-between items-center shadow-md ${
+                paymentNotice.kind === 'success'
+                  ? 'bg-emerald-950/80 border-emerald-700 text-emerald-200'
+                  : paymentNotice.kind === 'error'
+                  ? 'bg-rose-950/80 border-rose-800 text-rose-200'
+                  : 'bg-stone-900/90 border-stone-700 text-stone-200'
+              }`}
+            >
+              <span className="font-semibold">{paymentNotice.text}</span>
+              <button
+                onClick={() => setPaymentNotice(null)}
+                aria-label={t.app.dismissAria}
+                className="text-stone-400 hover:text-white text-sm font-bold ml-2 p-1 cursor-pointer"
+              >
+                ✕
+              </button>
+            </div>
+          )}
+
           {/* Error Banner */}
           {errorMessage && (
             <div className="p-3.5 m-3 rounded-2xl border text-xs flex justify-between items-center shadow-md bg-rose-950/80 border-rose-800 text-rose-200">
@@ -1058,9 +1115,10 @@ export default function App() {
               siteId={selectedSite.id}
               passPriceMxn={manifest.pass_price_mxn}
               passPriceUsd={manifest.pass_price_usd}
-              stripeLink={selectedSite.stripe_link}
               hasPass={hasPass}
               passExpiresAt={currentLicense?.expires_at}
+              passCode={currentLicense?.code}
+              onPassChanged={() => setCurrentLicense(getSiteLicense(selectedSite.id))}
               onSimulatePurchase={handleSimulatePurchase}
               onRevokePass={handleRevokePass}
             />

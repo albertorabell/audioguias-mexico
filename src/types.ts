@@ -232,4 +232,6 @@ export interface SiteLicense {
   device_id: string;
   /** Clave firmada por el servidor de pagos (solo existe si el pase se compró de verdad). */
   token?: string;
+  /** Código corto del pase, para activarlo en un segundo dispositivo. */
+  code?: string;
 }
