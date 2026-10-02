@@ -28,7 +28,7 @@ export interface RoomPieceSummary {
   ranking?: number;
 }
 
-export interface Room {
+export interface RoomBase {
   room_id: string;
   numero_oficial: string;
   nombre_oficial: string;
@@ -52,6 +52,8 @@ export interface Room {
   coords?: MapCoords;
   pieces_info?: RoomPieceSummary[];
 }
+
+export type Room = RoomBase & TranslatedRoomFields;
 
 export interface PieceBase {
   piece_id: string;
@@ -123,7 +125,12 @@ export interface PieceBase {
 
 /** Traducciones opcionales (columnas del Sheets con sufijo de idioma, p. ej. guion_corto_en). */
 export type TranslatedPieceFields = {
-  [K in `${'titulo' | 'frase_gancho' | 'puente_narrativo' | 'guion_corto' | 'guion_largo'}_${'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]?: string;
+  [K in `${'titulo' | 'frase_gancho' | 'puente_narrativo' | 'guion_corto' | 'guion_largo'}_${'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]?: string;
+};
+
+/** Traducciones opcionales de salas. El sufijo _es guarda el original cuando la app muestra otro idioma. */
+export type TranslatedRoomFields = {
+  [K in `${'nombre_oficial' | 'frase_gancho' | 'introduccion_narrativa' | 'etiqueta'}_${'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]?: string;
 };
 
 export type Piece = PieceBase & TranslatedPieceFields;

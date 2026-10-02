@@ -20,6 +20,7 @@ import { SafeImage } from './SafeImage';
 import { useTheme } from '../utils/ThemeContext';
 import { getAssetUrl } from '../utils/urlHelper';
 import { getRoomLabel } from '../utils/roomLabel';
+import { useStrings } from '../utils/LanguageContext';
 
 interface MapViewModalProps {
   isOpen: boolean;
@@ -55,6 +56,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
   onStartRoomTour,
 }) => {
   const { isSunMode } = useTheme();
+  const t = useStrings().map;
 
   // Zoom and Pan State
   const [scale, setScale] = useState(1);
@@ -226,10 +228,10 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
           </div>
           <div className="truncate">
             <h3 className="text-sm font-extrabold truncate text-white">
-              Plano Arquitectónico • {siteName}
+              {t.title(siteName)}
             </h3>
             <p className="text-[11px] font-medium truncate text-[#9CA3AF]">
-              {routeName} • Toca cualquier sala para ver sus obras
+              {t.subtitle(routeName)}
             </p>
           </div>
         </div>
@@ -238,7 +240,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
           id="btn-close-map-modal"
           onClick={onClose}
           className="min-h-[44px] min-w-[44px] flex items-center justify-center rounded-xl transition active:scale-95 text-[#9CA3AF] hover:text-white hover:bg-white/10 cursor-pointer"
-          aria-label="Cerrar mapa"
+          aria-label={t.closeAria}
         >
           <X className="w-5 h-5" />
         </button>
@@ -263,7 +265,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
               onClick={handleZoomIn}
               disabled={scale >= 2.5}
               className="min-h-[44px] min-w-[44px] flex items-center justify-center rounded-xl transition disabled:opacity-30 hover:bg-white/10 text-stone-200 cursor-pointer"
-              title="Acercar mapa"
+              title={t.zoomIn}
             >
               <ZoomIn className="w-5 h-5" />
             </button>
@@ -273,7 +275,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
               onClick={handleZoomOut}
               disabled={scale <= 0.9}
               className="min-h-[44px] min-w-[44px] flex items-center justify-center rounded-xl transition disabled:opacity-30 hover:bg-white/10 text-stone-200 cursor-pointer"
-              title="Alejar mapa"
+              title={t.zoomOut}
             >
               <ZoomOut className="w-5 h-5" />
             </button>
@@ -282,7 +284,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
               id="btn-map-reset"
               onClick={handleReset}
               className="min-h-[44px] min-w-[44px] flex items-center justify-center rounded-xl transition hover:bg-white/10 text-stone-200 cursor-pointer"
-              title="Centrar plano"
+              title={t.center}
             >
               <RotateCcw className="w-4 h-4 text-amber-500" />
             </button>
@@ -327,7 +329,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
                   {getRoomLabel(inspectedRoom).toUpperCase()} • {inspectedRoom.piso}
                 </span>
                 <span className="text-[11px] font-bold text-amber-400">
-                  {inspectedRoomPieces.length} obras registradas
+                  {t.registeredWorks(inspectedRoomPieces.length)}
                 </span>
               </div>
 
@@ -349,7 +351,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
                   className="px-4 py-2.5 rounded-xl bg-[#F59E0B] hover:bg-amber-400 text-black text-xs font-black inline-flex items-center gap-2 shadow-lg shadow-[#F59E0B]/25 active:scale-95 transition cursor-pointer"
                 >
                   <Rocket className="w-4 h-4 fill-current" />
-                  <span>Explorar sala / Iniciar recorrido</span>
+                  <span>{t.exploreRoom}</span>
                 </button>
               </div>
             </div>
@@ -357,7 +359,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
             <button
               onClick={() => setIsDrawerOpen(false)}
               className="p-1.5 rounded-xl text-[#9CA3AF] hover:text-white hover:bg-white/5 cursor-pointer"
-              aria-label="Cerrar cajón"
+              aria-label={t.closeDrawer}
             >
               <X className="w-5 h-5" />
             </button>
@@ -405,10 +407,10 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
                         type="button"
                         onClick={() => handleStartPieceAudio(pieceId)}
                         className="px-2.5 py-1.5 rounded-xl bg-[#F59E0B] hover:bg-amber-400 text-black text-xs font-bold flex items-center gap-1 transition active:scale-95 cursor-pointer"
-                        title="Ver y escuchar esta obra"
+                        title={t.viewAndListen}
                       >
                         <Headphones className="w-3.5 h-3.5" />
-                        <span>Ver obra</span>
+                        <span>{t.viewWork}</span>
                       </button>
 
                       {!isAdded ? (
@@ -416,14 +418,14 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
                           type="button"
                           onClick={() => handleAddPiece(piece)}
                           className="p-2 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-stone-200 transition active:scale-95 cursor-pointer"
-                          title="Agregar a mi ruta"
+                          title={t.addToRoute}
                         >
                           <Plus className="w-4 h-4" />
                         </button>
                       ) : (
                         <span
                           className="p-2 rounded-xl text-emerald-400 bg-emerald-500/10 border border-emerald-500/20"
-                          title="En tu ruta"
+                          title={t.inYourRoute}
                         >
                           <Check className="w-4 h-4 stroke-[3]" />
                         </span>
@@ -434,7 +436,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
               })
             ) : (
               <p className="text-xs p-4 rounded-xl border border-white/10 text-center bg-[#141419] text-[#9CA3AF]">
-                No hay piezas individuales registradas para esta sala.
+                {t.noPieces}
               </p>
             )}
           </div>
@@ -456,10 +458,10 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
                     }`}
                   >
                     {selectedPinIndex === currentStopIndex
-                      ? 'Parada Actual'
+                      ? t.currentStop
                       : selectedPinIndex < currentStopIndex
-                      ? 'Completada ✓'
-                      : `Parada ${selectedPinIndex + 1}`}
+                      ? t.completed
+                      : t.stopN(selectedPinIndex + 1)}
                   </span>
                   <span className="text-[10px] truncate font-semibold text-[#9CA3AF]">
                     {selectedStop.room_zone}
@@ -483,7 +485,7 @@ export const MapViewModal: React.FC<MapViewModalProps> = ({
                     : 'bg-[#F59E0B] hover:bg-amber-400 text-black shadow-[#F59E0B]/20'
                 }`}
               >
-                <span>{selectedPinIndex === currentStopIndex ? 'Ver obra' : 'Ir a esta parada'}</span>
+                <span>{selectedPinIndex === currentStopIndex ? t.viewWork : t.goToStop}</span>
                 <ChevronRight className="w-4 h-4" />
               </button>
             </div>

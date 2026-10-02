@@ -23,7 +23,8 @@ import { FloatingAudioPlayer } from './components/FloatingAudioPlayer';
 import { RoomView } from './components/RoomView';
 import { Radio, ArrowLeft } from 'lucide-react';
 import { ttsPlayer } from './utils/ttsPlayer';
-import { t } from './utils/i18nStrings';
+import { useLanguage } from './utils/LanguageContext';
+import { localizeSite, localizeRoute } from './i18n/content';
 import { getRoomLabel } from './utils/roomLabel';
 
 interface SpontaneousDetour {
@@ -42,16 +43,17 @@ interface NavStackItem {
 
 export default function App() {
   const { isSunMode } = useTheme();
+  const { strings: t, currentLanguage, localizePiece, localizeRoom } = useLanguage();
 
   // Navigation & View State: 'sites' -> 'overview' -> 'room' -> 'wizard' -> 'tour'
   const [viewMode, setViewMode] = useState<'sites' | 'overview' | 'room' | 'wizard' | 'tour'>('sites');
-  const [sites, setSites] = useState<SiteSummary[]>([]);
+  const [rawSites, setSites] = useState<SiteSummary[]>([]);
   const [selectedSite, setSelectedSite] = useState<SiteSummary | null>(null);
-  const [manifest, setManifest] = useState<SiteManifest | null>(null);
+  const [rawManifest, setManifest] = useState<SiteManifest | null>(null);
   const [activeRoute, setActiveRoute] = useState<SiteRoute | null>(null);
   const [currentStopIndex, setCurrentStopIndex] = useState<number>(0);
   const [currentPiece, setCurrentPiece] = useState<PieceData | null>(null);
-  const [tourPieces, setTourPieces] = useState<PieceData[]>([]);
+  const [rawTourPieces, setTourPieces] = useState<PieceData[]>([]);
 
   // Visited pieces set to prioritize unvisited pieces in carousel
   const [visitedPieceIds, setVisitedPieceIds] = useState<Set<string>>(new Set());
@@ -63,7 +65,7 @@ export default function App() {
   const [isTourCompleted, setIsTourCompleted] = useState<boolean>(false);
 
   // Official Rooms Catalog & Selected Room
-  const [allRooms, setAllRooms] = useState<Room[]>([]);
+  const [rawAllRooms, setAllRooms] = useState<Room[]>([]);
   const [selectedRoom, setSelectedRoom] = useState<Room | null>(null);
   const [selectedRoomForDetail, setSelectedRoomForDetail] = useState<Room | null>(null);
 
@@ -86,6 +88,18 @@ export default function App() {
   const [isLoadingSites, setIsLoadingSites] = useState(true);
   const [isLoadingPiece, setIsLoadingPiece] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+
+  // Contenido en el idioma elegido. Lo que no esté traducido en el Sheets se muestra en español.
+  const sites = useMemo(() => rawSites.map((s) => localizeSite(s, currentLanguage)), [rawSites, currentLanguage]);
+  const allRooms = useMemo(() => rawAllRooms.map((r) => localizeRoom(r)), [rawAllRooms, localizeRoom]);
+  const tourPieces = useMemo(() => rawTourPieces.map((p) => localizePiece(p)), [rawTourPieces, localizePiece]);
+  const manifest = useMemo(
+    () =>
+      rawManifest
+        ? { ...rawManifest, routes: rawManifest.routes?.map((r) => localizeRoute(r, currentLanguage)) }
+        : rawManifest,
+    [rawManifest, currentLanguage]
+  );
 
   // Helper to push history state
   const pushNavState = useCallback(
@@ -236,7 +250,7 @@ export default function App() {
         setSites(data);
       } catch (err) {
         console.error('Error fetching sites:', err);
-        setErrorMessage('No se pudieron cargar los sitios. Verifica tu conexión.');
+        setErrorMessage(t.app.sitesLoadError);
       } finally {
         setIsLoadingSites(false);
       }
@@ -286,7 +300,7 @@ export default function App() {
   // 2. Select Site (protected against coming_soon)
   const handleSelectSite = async (site: SiteSummary) => {
     if (site.status === 'coming_soon') {
-      setErrorMessage(`Próximamente: ${site.name} se encuentra en desarrollo.`);
+      setErrorMessage(t.home.siteSoonToast(site.name));
       return;
     }
 
@@ -320,7 +334,7 @@ export default function App() {
       pushNavState('overview');
     } catch (err) {
       console.error('Error loading site manifest:', err);
-      setErrorMessage('No se pudo cargar el recorrido de este sitio.');
+      setErrorMessage(t.app.siteLoadError);
       setSelectedSite(null);
       setViewMode('sites');
     } finally {
@@ -415,7 +429,7 @@ export default function App() {
     ttsPlayer.stop();
     const roomPieces = getRoomPieces(room);
     if (roomPieces.length === 0) {
-      setErrorMessage(`No se encontraron piezas registradas para la ${room.nombre_oficial || 'sala'}.`);
+      setErrorMessage(t.app.noRoomPieces(room.nombre_oficial || t.app.roomFallback));
       return;
     }
 
@@ -451,7 +465,7 @@ export default function App() {
       title: roomTitle,
       duration: durationStr,
       estimated_minutes: calculatedMinutes,
-      description: room.frase_gancho || `Recorrido por la ${roomTitle}`,
+      description: room.frase_gancho || t.app.roomTourDesc(roomTitle),
       stops,
     };
 
@@ -582,8 +596,8 @@ export default function App() {
     if (!activeRoute) {
       const newRoute: SiteRoute = {
         id: `custom-route-${Date.now()}`,
-        name: 'Mi Recorrido Personalizado',
-        description: 'Mi Recorrido Personalizado',
+        name: t.app.customRouteName,
+        description: t.app.customRouteName,
         stops: [stop],
         duration: '10 min',
       };
@@ -724,6 +738,7 @@ export default function App() {
               <span className="font-semibold">{errorMessage}</span>
               <button
                 onClick={() => setErrorMessage(null)}
+                aria-label={t.app.dismissAria}
                 className="text-stone-400 hover:text-white text-sm font-bold ml-2 p-1 cursor-pointer"
               >
                 ✕
@@ -811,9 +826,9 @@ export default function App() {
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#F59E0B] opacity-75"></span>
                       <span className="relative inline-flex rounded-full h-2 w-2 bg-[#F59E0B]"></span>
                     </span>
-                    <span className="text-[#F59E0B] font-black">🧭 Mi Ruta</span>
+                    <span className="text-[#F59E0B] font-black">{t.app.routePill}</span>
                     <span className="text-[11px] font-semibold text-stone-300">
-                      (Parada {currentStopIndex + 1} de {activeRoute.stops.length})
+                      {t.app.pillStop(currentStopIndex + 1, activeRoute.stops.length)}
                     </span>
                     <span className="text-[10px] font-mono font-bold text-[#F59E0B] pl-1.5 border-l border-white/10">
                       ~{formatRouteDuration(remainingRouteMinutes)}
@@ -829,11 +844,11 @@ export default function App() {
                     <span className="w-2.5 h-2.5 rounded-full bg-[#F59E0B] animate-ping shrink-0" />
                     <div className="min-w-0">
                       <div className="flex items-center gap-1.5 text-xs font-black">
-                        <span className="text-[#F59E0B]">🟡 Desvío espontáneo</span>
-                        <span className="text-[10px] text-[#9CA3AF]">• fuera de secuencia</span>
+                        <span className="text-[#F59E0B]">{t.app.detourTitle}</span>
+                        <span className="text-[10px] text-[#9CA3AF]">{t.app.detourTag}</span>
                       </div>
                       <div className="text-[11px] font-medium text-stone-200 line-clamp-1">
-                        Explorando: {spontaneousDetour.pieceTitle}
+                        {t.app.exploring(spontaneousDetour.pieceTitle)}
                       </div>
                     </div>
                   </div>
@@ -844,14 +859,14 @@ export default function App() {
                       onClick={handleKeepDetourInRoute}
                       className="text-[11px] font-bold px-3 py-1 rounded-xl bg-[#F59E0B] text-black hover:bg-amber-400 transition cursor-pointer"
                     >
-                      + Conservar en mi ruta
+                      {t.app.keepInRoute}
                     </button>
                     <button
                       type="button"
                       onClick={handleResumePlannedRoute}
                       className="text-[11px] font-bold px-3 py-1 rounded-xl border border-white/10 bg-white/5 text-[#F3F4F6] hover:bg-white/10 transition cursor-pointer"
                     >
-                      ⬅ Retomar ruta planeada (Parada {spontaneousDetour.originalStopIndex + 1})
+                      {t.app.resumeRoute(spontaneousDetour.originalStopIndex + 1)}
                     </button>
                   </div>
                 </div>
@@ -860,7 +875,7 @@ export default function App() {
               {/* View Content: TourCompletionView vs PieceView */}
               {isTourCompleted ? (
                 <TourCompletionView
-                  routeName={activeRoute?.name || 'Recorrido por el Museo'}
+                  routeName={activeRoute?.name || t.app.defaultRouteName}
                   totalStops={activeRoute ? activeRoute.stops.length : 0}
                   estimatedMinutes={
                     activeRoute?.estimated_minutes ||
@@ -899,9 +914,9 @@ export default function App() {
                     ⚠️
                   </div>
                   <div>
-                    <h3 className="text-base font-bold text-white">No se pudo cargar la pieza</h3>
+                    <h3 className="text-base font-bold text-white">{t.app.pieceLoadFailTitle}</h3>
                     <p className="text-xs text-stone-400 mt-1">
-                      Ocurrió un inconveniente al cargar esta vitrina. Tu progreso en el recorrido está a salvo.
+                      {t.app.pieceLoadFailDesc}
                     </p>
                   </div>
                   <div className="flex items-center justify-center gap-3 pt-2">
@@ -919,7 +934,7 @@ export default function App() {
                       }}
                       className="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-black text-xs font-bold transition active:scale-95 cursor-pointer shadow-md"
                     >
-                      Reintentar
+                      {t.common.retry}
                     </button>
                     <button
                       type="button"
@@ -929,7 +944,7 @@ export default function App() {
                       }}
                       className="px-4 py-2.5 rounded-xl border border-white/10 hover:bg-white/5 text-stone-300 text-xs font-semibold transition cursor-pointer"
                     >
-                      Volver a salas
+                      {t.app.backToRooms}
                     </button>
                   </div>
                 </div>
@@ -970,13 +985,13 @@ export default function App() {
                   <div className="w-14 h-14 rounded-2xl bg-[#F59E0B]/20 border border-[#F59E0B]/30 flex items-center justify-center text-[#F59E0B] text-2xl font-bold">
                     🏛️
                   </div>
-                  <p className="font-medium text-stone-200">No se encontró información para esta pieza.</p>
+                  <p className="font-medium text-stone-200">{t.app.pieceNotFound}</p>
                   <button
                     type="button"
                     onClick={() => setViewMode('overview')}
                     className="px-4 py-2.5 rounded-xl text-xs font-semibold border border-white/10 hover:bg-white/5 text-stone-200 transition cursor-pointer"
                   >
-                    Volver a salas
+                    {t.app.backToRooms}
                   </button>
                 </div>
               )}
@@ -1048,7 +1063,7 @@ export default function App() {
               onClose={() => setIsMapModalOpen(false)}
               siteId={selectedSite.id}
               siteName={selectedSite.short_name || selectedSite.name}
-              routeName={activeRoute ? activeRoute.name : 'Plano del Museo'}
+              routeName={activeRoute ? activeRoute.name : t.app.mapDefaultTitle}
               stops={activeRoute ? activeRoute.stops : []}
               currentStopIndex={currentStopIndex}
               rooms={allRooms}

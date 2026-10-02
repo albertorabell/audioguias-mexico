@@ -192,14 +192,15 @@ export function generateOptimizedRoute(
 
   allRooms.forEach((room) => {
     let score = 0;
-    const rText = fold(`${room.room_id} ${room.nombre_oficial} ${room.frase_gancho || ''} ${room.introduccion_narrativa || ''}`);
+    const rText = fold(`${room.room_id} ${room.nombre_oficial} ${room.nombre_oficial_es || ''} ${room.frase_gancho_es || room.frase_gancho || ''} ${room.introduccion_narrativa_es || room.introduccion_narrativa || ''}`);
     activeKeywords.forEach((kw) => {
       if (rText.includes(kw)) score += 4;
     });
 
     const roomPieces = piecesByRoom.get(room.room_id) || [];
     roomPieces.forEach((p) => {
-      const pText = fold(`${p.titulo} ${p.frase_gancho || ''} ${p.guion_corto || ''}`);
+      // Se busca en el texto original en español para que los intereses funcionen en cualquier idioma
+      const pText = fold(`${p.titulo_es || p.titulo} ${p.frase_gancho_es || p.frase_gancho || ''} ${p.guion_corto_es || p.guion_corto || ''}`);
       activeKeywords.forEach((kw) => {
         if (pText.includes(kw)) score += 2;
       });

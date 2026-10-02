@@ -23,6 +23,7 @@ import { useTheme } from '../utils/ThemeContext';
 import { calculateRouteTimeMinutes, formatRouteDuration } from '../utils/routeOptimizer';
 import { SafeImage } from './SafeImage';
 import { getAssetUrl } from '../utils/urlHelper';
+import { useStrings } from '../utils/LanguageContext';
 
 interface LiveRouteManagerModalProps {
   isOpen: boolean;
@@ -50,6 +51,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
   onStartSpontaneousDetour,
 }) => {
   const { isSunMode } = useTheme();
+  const t = useStrings().liveRoute;
   const [showCatalogBrowser, setShowCatalogBrowser] = useState(false);
   const [catalogSearch, setCatalogSearch] = useState('');
 
@@ -77,7 +79,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
         if (pId && !seen.has(pId)) {
           seen.add(pId);
           const roomObj = rooms.find((r) => r.room_id === piece.room_id);
-          const roomName = roomObj?.nombre_oficial || piece.room_id || 'Sala';
+          const roomName = roomObj?.nombre_oficial || piece.room_id || t.defaultRoom;
           list.push({
             poi_id: pId,
             piece_id: pId,
@@ -244,14 +246,14 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <h2 className="text-sm sm:text-base font-black tracking-tight text-white">
-                  Mi Ruta en Vivo
+                  {t.title}
                 </h2>
                 <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-400 border border-amber-500/30">
                   {activeRoute.name}
                 </span>
               </div>
               <p className="text-xs text-stone-400 mt-0.5">
-                {activeRoute.stops.length} paradas · {completedCount} visitadas · ~{formatRouteDuration(remainingMinutes)} restantes
+                {t.summary(activeRoute.stops.length, completedCount, formatRouteDuration(remainingMinutes))}
               </p>
             </div>
           </div>
@@ -259,7 +261,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
           <button
             onClick={onClose}
             className="p-2 rounded-xl text-stone-400 hover:text-white hover:bg-white/5 transition active:scale-95 cursor-pointer"
-            aria-label="Cerrar gestor de ruta"
+            aria-label={t.closeAria}
           >
             <X className="w-5 h-5" />
           </button>
@@ -271,7 +273,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
           <div className="flex items-center justify-between gap-2">
             <div className="flex items-center gap-2 text-xs font-semibold text-stone-400">
               <Clock className="w-4 h-4 text-amber-500" />
-              <span>Tiempo restante estimado: <strong className="text-amber-400">~{formatRouteDuration(remainingMinutes)}</strong></span>
+              <span>{t.remainingLabel} <strong className="text-amber-400">~{formatRouteDuration(remainingMinutes)}</strong></span>
             </div>
 
             <button
@@ -279,7 +281,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
               className="px-3 py-1.5 rounded-xl text-xs font-bold bg-amber-500/15 border border-amber-500/30 text-amber-400 hover:bg-amber-500/25 flex items-center gap-1.5 transition active:scale-95 cursor-pointer"
             >
               <Plus className="w-3.5 h-3.5" />
-              <span>{showCatalogBrowser ? 'Ver lista de ruta' : 'Agregar obra'}</span>
+              <span>{showCatalogBrowser ? t.showList : t.addWork}</span>
             </button>
           </div>
 
@@ -289,10 +291,10 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
               <div className="flex items-center justify-between">
                 <h3 className="text-xs font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
                   <Sparkles className="w-3.5 h-3.5" />
-                  <span>Explorar Obras Disponibles</span>
+                  <span>{t.browseTitle}</span>
                 </h3>
                 <span className="text-[10px] text-stone-400">
-                  {filteredCatalogPieces.length} obras
+                  {t.worksCount(filteredCatalogPieces.length)}
                 </span>
               </div>
 
@@ -301,7 +303,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                 <Search className="w-4 h-4 absolute left-3 top-2.5 text-stone-400" />
                 <input
                   type="text"
-                  placeholder="Buscar por título, sala o cultura..."
+                  placeholder={t.searchPlaceholder}
                   value={catalogSearch}
                   onChange={(e) => setCatalogSearch(e.target.value)}
                   className="w-full pl-9 pr-3 py-2 rounded-xl bg-black/40 border border-white/10 text-xs text-stone-200 placeholder-stone-500 focus:outline-none focus:border-amber-500"
@@ -331,7 +333,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                       <div className="flex items-center gap-1.5 shrink-0">
                         {isAlreadyIn ? (
                           <span className="text-[10px] font-bold text-emerald-400 px-2 py-0.5 rounded-md bg-emerald-500/10">
-                            En ruta ✓
+                            {t.alreadyIn}
                           </span>
                         ) : (
                           <>
@@ -339,15 +341,15 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                               type="button"
                               onClick={() => handleInsertPieceNext(piece)}
                               className="px-2 py-1 rounded-lg bg-amber-500/20 text-amber-400 hover:bg-amber-500/30 text-[10px] font-bold cursor-pointer"
-                              title="Insertar como siguiente parada"
+                              title={t.insertNextTitle}
                             >
-                              Siguiente
+                              {t.insertNext}
                             </button>
                             <button
                               type="button"
                               onClick={() => handleAddPieceToEnd(piece)}
                               className="p-1 rounded-lg bg-white/5 hover:bg-white/10 text-stone-300 cursor-pointer"
-                              title="Agregar al final de la ruta"
+                              title={t.addToEndTitle}
                             >
                               <Plus className="w-3.5 h-3.5" />
                             </button>
@@ -403,12 +405,12 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                       <div className="flex items-center gap-1.5 mb-0.5">
                         {isCurrent && (
                           <span className="text-[9px] font-black uppercase px-1.5 py-0.2 rounded bg-amber-500 text-black">
-                            Parada Actual
+                            {t.currentStop}
                           </span>
                         )}
                         {isCompleted && (
                           <span className="text-[9px] font-bold text-emerald-400">
-                            Visitada ✓
+                            {t.visited}
                           </span>
                         )}
                         <span className="text-[10px] text-stone-400 truncate">
@@ -433,7 +435,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                             onClick={() => handleMoveUp(idx)}
                             disabled={idx <= currentStopIndex + 1}
                             className="p-1 rounded-lg bg-white/5 hover:bg-white/10 disabled:opacity-20 text-stone-300 cursor-pointer"
-                            title="Mover arriba"
+                            title={t.moveUp}
                           >
                             <ArrowUp className="w-3.5 h-3.5" />
                           </button>
@@ -442,7 +444,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                             onClick={() => handleMoveDown(idx)}
                             disabled={idx >= activeRoute.stops.length - 1}
                             className="p-1 rounded-lg bg-white/5 hover:bg-white/10 disabled:opacity-20 text-stone-300 cursor-pointer"
-                            title="Mover abajo"
+                            title={t.moveDown}
                           >
                             <ArrowDown className="w-3.5 h-3.5" />
                           </button>
@@ -450,7 +452,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
                             type="button"
                             onClick={() => handleRemoveStop(idx)}
                             className="p-1 rounded-lg bg-red-500/10 hover:bg-red-500/20 text-red-400 cursor-pointer"
-                            title="Eliminar de mi ruta"
+                            title={t.remove}
                           >
                             <Trash2 className="w-3.5 h-3.5" />
                           </button>
@@ -459,7 +461,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
 
                       {isCurrent && (
                         <span className="text-[10px] font-mono font-bold text-amber-400 px-2 py-1 rounded-lg bg-amber-500/10 border border-amber-500/20">
-                          En curso
+                          {t.inProgress}
                         </span>
                       )}
                     </div>
@@ -477,7 +479,7 @@ export const LiveRouteManagerModal: React.FC<LiveRouteManagerModalProps> = ({
             onClick={onClose}
             className="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-black text-xs font-bold transition active:scale-95 cursor-pointer shadow-md"
           >
-            Continuar Recorrido
+            {t.continueTour}
           </button>
         </div>
       </div>

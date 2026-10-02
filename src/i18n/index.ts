@@ -11,6 +11,11 @@ import { search } from './groups/search';
 import { tour } from './groups/tour';
 import { offline } from './groups/offline';
 import { piece } from './groups/piece';
+import { media } from './groups/media';
+import { map } from './groups/map';
+import { liveRoute } from './groups/liveRoute';
+import { wizard } from './groups/wizard';
+import { app } from './groups/app';
 
 const groups = {
   common,
@@ -25,6 +30,11 @@ const groups = {
   tour,
   offline,
   piece,
+  media,
+  map,
+  liveRoute,
+  wizard,
+  app,
 };
 
 /** Todos los textos de la interfaz, con la forma definida por el español. */

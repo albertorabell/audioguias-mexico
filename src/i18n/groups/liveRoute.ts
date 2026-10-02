@@ -1,0 +1,53 @@
+import { defineGroup } from '../define';
+
+/** Gestor de "Mi ruta en vivo". */
+export const liveRoute = defineGroup(
+  {
+    title: 'Mi ruta en vivo',
+    summary: (stops: number, visited: number, remaining: string) =>
+      `${stops} paradas · ${visited} visitadas · ~${remaining} restantes`,
+    closeAria: 'Cerrar gestor de ruta',
+    remainingLabel: 'Tiempo restante estimado:',
+    showList: 'Ver lista de ruta',
+    addWork: 'Agregar obra',
+    browseTitle: 'Explorar obras disponibles',
+    worksCount: (n: number) => `${n} ${n === 1 ? 'obra' : 'obras'}`,
+    searchPlaceholder: 'Buscar por título, sala o cultura…',
+    alreadyIn: 'En ruta ✓',
+    insertNextTitle: 'Insertar como siguiente parada',
+    insertNext: 'Siguiente',
+    addToEndTitle: 'Agregar al final de la ruta',
+    currentStop: 'Parada actual',
+    visited: 'Visitada ✓',
+    moveUp: 'Mover arriba',
+    moveDown: 'Mover abajo',
+    remove: 'Eliminar de mi ruta',
+    inProgress: 'En curso',
+    continueTour: 'Continuar recorrido',
+    defaultRoom: 'Sala',
+  },
+  {
+    title: 'My live route',
+    summary: (stops: number, visited: number, remaining: string) =>
+      `${stops} stops · ${visited} visited · ~${remaining} left`,
+    closeAria: 'Close route manager',
+    remainingLabel: 'Estimated time left:',
+    showList: 'Show route list',
+    addWork: 'Add work',
+    browseTitle: 'Browse available works',
+    worksCount: (n: number) => `${n} ${n === 1 ? 'work' : 'works'}`,
+    searchPlaceholder: 'Search by title, room or culture…',
+    alreadyIn: 'In route ✓',
+    insertNextTitle: 'Insert as next stop',
+    insertNext: 'Next',
+    addToEndTitle: 'Add to the end of the route',
+    currentStop: 'Current stop',
+    visited: 'Visited ✓',
+    moveUp: 'Move up',
+    moveDown: 'Move down',
+    remove: 'Remove from my route',
+    inProgress: 'In progress',
+    continueTour: 'Continue tour',
+    defaultRoom: 'Room',
+  }
+);
