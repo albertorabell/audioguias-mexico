@@ -1,4 +1,5 @@
 import { defineGroup } from '../define';
+import type { SupportedLanguage } from '../languages';
 
 export const common = defineGroup(
   {
@@ -21,6 +22,7 @@ export const common = defineGroup(
     minutesShort: (n: number) => `${n} min`,
     roomsLabel: (count: number) => `${count} ${count === 1 ? 'sala' : 'salas'}`,
     piecesLabel: (count: number) => `${count} ${count === 1 ? 'obra' : 'obras'}`,
+    languageNames: { es: 'español', en: 'inglés', fr: 'francés', pl: 'polaco', ru: 'ruso', ja: 'japonés' } as Record<SupportedLanguage, string>,
   },
   {
     appName: 'Audioguías México',
@@ -42,5 +44,6 @@ export const common = defineGroup(
     minutesShort: (n: number) => `${n} min`,
     roomsLabel: (count: number) => `${count} ${count === 1 ? 'room' : 'rooms'}`,
     piecesLabel: (count: number) => `${count} ${count === 1 ? 'piece' : 'pieces'}`,
+    languageNames: { es: 'Spanish', en: 'English', fr: 'French', pl: 'Polish', ru: 'Russian', ja: 'Japanese' } as Record<SupportedLanguage, string>,
   }
 );

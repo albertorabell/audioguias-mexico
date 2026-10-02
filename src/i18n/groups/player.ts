@@ -1,0 +1,47 @@
+import { defineGroup } from '../define';
+
+/** Avisos de la voz sintética y reproductor de audio (mini y expandido). */
+export const player = defineGroup(
+  {
+    mediaTitleFallback: 'Audioguía',
+    defaultPieceTitle: 'Pieza arqueológica',
+    defaultPieceSummary: 'Pieza fundamental del acervo nacional.',
+    skipBackTitle: 'Retroceder 15 segundos',
+    skipForwardTitle: 'Adelantar 15 segundos',
+    skipBackShort: 'Retroceder 15 s',
+    skipForwardShort: 'Adelantar 15 s',
+    pauseAudio: 'Pausar audio',
+    playAudio: 'Reproducir audio',
+    pauseNarration: 'Pausar narración',
+    startNarration: 'Iniciar narración',
+    collapseAria: 'Minimizar reproductor',
+    nowPlaying: 'Reproduciendo audioguía',
+    modeExpress: '⏱️ Exprés',
+    modeImmersion: '🎧 Inmersión',
+    modeQuick: '🎙️ Visita rápida 2 min',
+    modeImmersive: '🎧 Inmersiva 5 min',
+    transcript: 'Transcripción narrativa',
+    scriptOnlySpanish: 'Esta pieza todavía no tiene texto en este idioma. Se muestra y se lee en español.',
+  },
+  {
+    mediaTitleFallback: 'Audio guide',
+    defaultPieceTitle: 'Archaeological piece',
+    defaultPieceSummary: 'A key piece of the national collection.',
+    skipBackTitle: 'Back 15 seconds',
+    skipForwardTitle: 'Forward 15 seconds',
+    skipBackShort: 'Back 15 s',
+    skipForwardShort: 'Forward 15 s',
+    pauseAudio: 'Pause audio',
+    playAudio: 'Play audio',
+    pauseNarration: 'Pause narration',
+    startNarration: 'Start narration',
+    collapseAria: 'Minimize player',
+    nowPlaying: 'Now playing audio guide',
+    modeExpress: '⏱️ Express',
+    modeImmersion: '🎧 Immersion',
+    modeQuick: '🎙️ Quick visit 2 min',
+    modeImmersive: '🎧 Immersive 5 min',
+    transcript: 'Narrative transcript',
+    scriptOnlySpanish: 'This piece does not have text in this language yet. It is shown and read in Spanish.',
+  }
+);

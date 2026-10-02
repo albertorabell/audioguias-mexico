@@ -16,6 +16,8 @@ import { PieceData } from '../types';
 import { ttsPlayer, TTSState } from '../utils/ttsPlayer';
 import { PieceImage } from './PieceImage';
 import { getAssetUrl } from '../utils/urlHelper';
+import { useLanguage } from '../utils/LanguageContext';
+import { scriptLanguage } from '../i18n/content';
 
 interface FloatingAudioPlayerProps {
   currentPiece: PieceData | null;
@@ -28,6 +30,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
   roomName,
   onOpenPieceDetail,
 }) => {
+  const { strings: t, currentLanguage } = useLanguage();
   const [ttsState, setTtsState] = useState<TTSState>(ttsPlayer.getState());
   const [isExpanded, setIsExpanded] = useState<boolean>(false);
   const [selectedMode, setSelectedMode] = useState<'expres' | 'inmersion'>('expres');
@@ -59,14 +62,14 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
     currentPiece?.titulo ||
     currentPiece?.title ||
     (currentPiece as any)?.identification?.title ||
-    'Pieza Arqueológica';
+    t.player.defaultPieceTitle;
 
   const pieceRoom =
     ttsState.roomName ||
     roomName ||
     currentPiece?.location?.room_name ||
     currentPiece?.room_id ||
-    'Museo Nacional de Antropología';
+    t.common.museumName;
 
   const imageFilename =
     currentPiece?.image_filename ||
@@ -79,7 +82,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
     (currentPiece as any)?.narrative?.short_desc ||
     currentPiece?.frase_gancho ||
     ttsState.script ||
-    'Pieza arqueológica fundamental del acervo nacional.';
+    t.player.defaultPieceSummary;
 
   const guionLargo =
     currentPiece?.guion_largo ||
@@ -88,6 +91,8 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
     guionCorto;
 
   const currentScript = selectedMode === 'expres' ? guionCorto : guionLargo;
+  // La voz depende del idioma del texto que se lee: si la pieza no está traducida se lee en español.
+  const readLang = currentPiece ? scriptLanguage(currentPiece, currentLanguage) : currentLanguage;
 
   const formatSeconds = (sec: number) => {
     const m = Math.floor(sec / 60);
@@ -111,6 +116,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
           artworkUrl: imageFilename ? getAssetUrl(`images/pieces/${imageFilename}`) : undefined,
           pieceId: currentPiece?.piece_id || currentPiece?.id,
           mode: selectedMode,
+          lang: readLang,
         }
       );
     }
@@ -134,6 +140,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
           artworkUrl: imageFilename ? getAssetUrl(`images/pieces/${imageFilename}`) : undefined,
           pieceId: currentPiece?.piece_id || currentPiece?.id,
           mode,
+          lang: readLang,
         }
       );
     }
@@ -179,7 +186,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
             </h4>
             <div className="flex items-center gap-1.5 text-[10px] text-[#9CA3AF] truncate mt-0.5">
               <span className="text-[#F59E0B] font-semibold">
-                {selectedMode === 'expres' ? '⏱️ Exprés' : '🎧 Inmersión'}
+                {selectedMode === 'expres' ? t.player.modeExpress : t.player.modeImmersion}
               </span>
               <span>•</span>
               <span className="truncate">{pieceRoom}</span>
@@ -193,8 +200,8 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
               type="button"
               onClick={(e) => handleSkip(-15, e)}
               className="w-8 h-8 rounded-full flex items-center justify-center text-[#9CA3AF] hover:text-[#F3F4F6] hover:bg-white/5 active:scale-90 transition cursor-pointer"
-              title="Retroceder 15 segundos"
-              aria-label="Retroceder 15 segundos"
+              title={t.player.skipBackTitle}
+              aria-label={t.player.skipBackTitle}
             >
               <RotateCcw className="w-4 h-4" />
             </button>
@@ -203,7 +210,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
               id="btn-mini-toggle-play"
               type="button"
               onClick={handleTogglePlay}
-              aria-label={ttsState.isPlaying ? 'Pausar audio' : 'Reproducir audio'}
+              aria-label={ttsState.isPlaying ? t.player.pauseAudio : t.player.playAudio}
               className="w-10 h-10 rounded-full bg-[#F59E0B] hover:bg-amber-400 text-black flex items-center justify-center shadow-lg shadow-[#F59E0B]/25 active:scale-95 transition cursor-pointer"
             >
               {ttsState.isPlaying ? (
@@ -218,8 +225,8 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
               type="button"
               onClick={(e) => handleSkip(15, e)}
               className="w-8 h-8 rounded-full flex items-center justify-center text-[#9CA3AF] hover:text-[#F3F4F6] hover:bg-white/5 active:scale-90 transition cursor-pointer"
-              title="Adelantar 15 segundos"
-              aria-label="Adelantar 15 segundos"
+              title={t.player.skipForwardTitle}
+              aria-label={t.player.skipForwardTitle}
             >
               <RotateCw className="w-4 h-4" />
             </button>
@@ -240,14 +247,14 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
               type="button"
               onClick={() => setIsExpanded(false)}
               className="p-2 -ml-2 rounded-full hover:bg-white/10 text-[#9CA3AF] hover:text-white transition active:scale-95"
-              aria-label="Minimizar reproductor"
+              aria-label={t.player.collapseAria}
             >
               <ChevronDown className="w-6 h-6" />
             </button>
 
             <div className="text-center min-w-0 px-2">
               <span className="text-[10px] font-bold uppercase tracking-widest text-[#F59E0B] block">
-                Reproduciendo Audioguía
+                {t.player.nowPlaying}
               </span>
               <p className="text-xs font-semibold text-[#9CA3AF] truncate max-w-[220px]">
                 {pieceRoom}
@@ -296,7 +303,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
                 }`}
               >
                 <Zap className="w-3.5 h-3.5" />
-                <span>🎙️ Visita Rápida 2 min</span>
+                <span>{t.player.modeQuick}</span>
               </button>
 
               <button
@@ -309,7 +316,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
                 }`}
               >
                 <Headphones className="w-3.5 h-3.5" />
-                <span>🎧 Inmersiva 5 min</span>
+                <span>{t.player.modeImmersive}</span>
               </button>
             </div>
 
@@ -361,7 +368,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
                 type="button"
                 onClick={(e) => handleSkip(-15, e)}
                 className="w-12 h-12 rounded-full bg-[#141419] border border-white/10 text-[#F3F4F6] hover:bg-white/10 active:scale-95 transition flex items-center justify-center cursor-pointer shadow-md"
-                title="Retroceder 15s"
+                title={t.player.skipBackShort}
               >
                 <RotateCcw className="w-5 h-5" />
               </button>
@@ -371,7 +378,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
                 type="button"
                 onClick={handleTogglePlay}
                 className="w-16 h-16 rounded-full bg-[#F59E0B] hover:bg-amber-400 text-black flex items-center justify-center shadow-xl shadow-[#F59E0B]/30 active:scale-95 transition cursor-pointer"
-                aria-label={ttsState.isPlaying ? 'Pausar narración' : 'Iniciar narración'}
+                aria-label={ttsState.isPlaying ? t.player.pauseNarration : t.player.startNarration}
               >
                 {ttsState.isPlaying ? (
                   <Pause className="w-7 h-7 fill-current" />
@@ -385,7 +392,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
                 type="button"
                 onClick={(e) => handleSkip(15, e)}
                 className="w-12 h-12 rounded-full bg-[#141419] border border-white/10 text-[#F3F4F6] hover:bg-white/10 active:scale-95 transition flex items-center justify-center cursor-pointer shadow-md"
-                title="Adelantar 15s"
+                title={t.player.skipForwardShort}
               >
                 <RotateCw className="w-5 h-5" />
               </button>
@@ -398,9 +405,14 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
               <div className="flex items-center gap-2 mb-3">
                 <FileText className="w-4 h-4 text-[#F59E0B]" />
                 <h3 className="text-xs font-bold uppercase tracking-wider text-[#9CA3AF]">
-                  Transcripción Narrativa
+                  {t.player.transcript}
                 </h3>
               </div>
+              {readLang !== currentLanguage && (
+                <p className="text-[11px] text-amber-300/90 mb-2" data-testid="script-lang-note">
+                  {t.player.scriptOnlySpanish}
+                </p>
+              )}
               <div className="p-4 rounded-2xl bg-[#141419] border border-white/10 text-[#F3F4F6]">
                 <p className="font-serif text-sm sm:text-base leading-relaxed text-[#F3F4F6]/95 first-letter:text-3xl first-letter:font-bold first-letter:text-[#F59E0B] first-letter:mr-1">
                   {currentScript}

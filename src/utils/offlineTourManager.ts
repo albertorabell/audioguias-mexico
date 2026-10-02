@@ -3,6 +3,9 @@
  * into CacheStorage for guaranteed offline navigation inside the museum.
  */
 
+import { getStrings } from '../i18n';
+import { getCurrentLanguage } from '../i18n/runtime';
+
 export interface OfflineProgress {
   status: 'idle' | 'downloading' | 'completed' | 'error';
   progressPercent: number;
@@ -41,14 +44,15 @@ export async function downloadTourOffline(
   urlsToCache: string[],
   onProgress?: (p: OfflineProgress) => void
 ): Promise<boolean> {
+  const t = getStrings(getCurrentLanguage()).offline;
   if (!('caches' in window)) {
     onProgress?.({
       status: 'error',
       progressPercent: 0,
       cachedCount: 0,
       totalCount: urlsToCache.length,
-      currentLabel: 'CacheStorage no soportado en este navegador',
-      errorMessage: 'Tu navegador no permite almacenamiento offline.',
+      currentLabel: t.unsupportedLabel,
+      errorMessage: t.unsupportedMessage,
     });
     return false;
   }
@@ -62,7 +66,7 @@ export async function downloadTourOffline(
     progressPercent: 0,
     cachedCount: 0,
     totalCount: total,
-    currentLabel: 'Iniciando descarga de recorrido...',
+    currentLabel: t.starting,
   });
 
   try {
@@ -77,7 +81,7 @@ export async function downloadTourOffline(
         progressPercent: Math.round(((i + 1) / total) * 100),
         cachedCount: i + 1,
         totalCount: total,
-        currentLabel: `Descargando: ${filename}`,
+        currentLabel: t.downloadingFile(filename),
       });
 
       try {
@@ -102,7 +106,7 @@ export async function downloadTourOffline(
       progressPercent: 100,
       cachedCount: cached,
       totalCount: total,
-      currentLabel: '¡Recorrido descargado y listo para usar sin señal!',
+      currentLabel: t.done,
     });
 
     return true;
@@ -113,8 +117,8 @@ export async function downloadTourOffline(
       progressPercent: 0,
       cachedCount: cached,
       totalCount: total,
-      currentLabel: 'Error al descargar datos offline',
-      errorMessage: error?.message || 'Error de red durante la descarga.',
+      currentLabel: t.errorLabel,
+      errorMessage: error?.message || t.networkError,
     });
     return false;
   }

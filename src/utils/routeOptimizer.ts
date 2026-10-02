@@ -1,5 +1,7 @@
 import { SiteRoute, RouteStop, Room, PieceData } from '../types';
 import { getAssetUrl, normalizePiece } from './urlHelper';
+import { getStrings } from '../i18n';
+import { getCurrentLanguage } from '../i18n/runtime';
 
 export interface RoutePreferences {
   timeLimitMinutes: number; // 30, 60, 120, or 999
@@ -369,15 +371,16 @@ export function generateOptimizedRoute(
   });
 
   const finalMinutes = calculateRouteTimeMinutes(finalStops, isExpert, allRooms);
+  const routeStrings = getStrings(getCurrentLanguage()).routes;
 
   return {
     id: `custom-route-${timeLimitMinutes}m-${Date.now()}`,
     route_id: `custom-route-${timeLimitMinutes}m`,
-    name: `Ruta Curada · ${formatRouteDuration(finalMinutes)}`,
-    title: `Ruta Curada · ${formatRouteDuration(finalMinutes)}`,
+    name: routeStrings.curatedName(formatRouteDuration(finalMinutes)),
+    title: routeStrings.curatedName(formatRouteDuration(finalMinutes)),
     duration: formatRouteDuration(finalMinutes),
     estimated_minutes: finalMinutes,
-    description: `Recorrido ordenado de planta baja a planta alta a través de ${selectedRooms.length} salas. Incluye la Piedra del Sol.`,
+    description: routeStrings.curatedDescription(selectedRooms.length),
     stops: finalStops,
   };
 }

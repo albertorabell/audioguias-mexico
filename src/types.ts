@@ -53,7 +53,7 @@ export interface Room {
   pieces_info?: RoomPieceSummary[];
 }
 
-export interface Piece {
+export interface PieceBase {
   piece_id: string;
   room_id: string;
   piso: 'PB' | 'PA';
@@ -80,8 +80,6 @@ export interface Piece {
    * path es relativo al sitio; si remote es true se pide al servidor de audio con el pase.
    */
   audio?: PieceAudio;
-  /** Traducciones opcionales (columnas del Sheets con sufijo de idioma). */
-  [translated: `${'titulo' | 'frase_gancho' | 'puente_narrativo' | 'guion_corto' | 'guion_largo'}_${'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]: string | undefined;
 
   // Campos de compatibilidad con estructuras previas
   id?: string;
@@ -122,6 +120,13 @@ export interface Piece {
   curiosities?: CuriosityItem[];
   faqs?: FaqItem[];
 }
+
+/** Traducciones opcionales (columnas del Sheets con sufijo de idioma, p. ej. guion_corto_en). */
+export type TranslatedPieceFields = {
+  [K in `${'titulo' | 'frase_gancho' | 'puente_narrativo' | 'guion_corto' | 'guion_largo'}_${'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]?: string;
+};
+
+export type Piece = PieceBase & TranslatedPieceFields;
 
 export interface PieceAudioFile {
   path: string;

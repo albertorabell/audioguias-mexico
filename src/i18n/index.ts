@@ -3,12 +3,26 @@ import { common } from './groups/common';
 import { chrome } from './groups/chrome';
 import { home } from './groups/home';
 import { overview } from './groups/overview';
+import { player } from './groups/player';
+import { errors } from './groups/errors';
+import { room } from './groups/room';
+import { routes } from './groups/routes';
+import { search } from './groups/search';
+import { tour } from './groups/tour';
+import { offline } from './groups/offline';
 
 const groups = {
   common,
   chrome,
   home,
   overview,
+  player,
+  errors,
+  room,
+  routes,
+  search,
+  tour,
+  offline,
 };
 
 /** Todos los textos de la interfaz, con la forma definida por el español. */

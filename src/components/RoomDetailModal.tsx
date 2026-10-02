@@ -14,6 +14,8 @@ import { ttsPlayer } from '../utils/ttsPlayer';
 import { PieceImage } from './PieceImage';
 import { calculateRouteTimeMinutes, formatRouteDuration } from '../utils/routeOptimizer';
 import { getRoomLabel } from '../utils/roomLabel';
+import { useLanguage } from '../utils/LanguageContext';
+import { roomScriptLanguage } from '../i18n/content';
 
 interface RoomDetailModalProps {
   isOpen: boolean;
@@ -32,6 +34,7 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
   onStartRoomTour,
   onSelectPiece,
 }) => {
+  const { strings: t, currentLanguage } = useLanguage();
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
 
   // Subscribe to audio state
@@ -56,7 +59,7 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
     return [...pieces].sort((a, b) => (a.orden_sugerido || 99) - (b.orden_sugerido || 99));
   }, [pieces]);
 
-  const nombreOficial = room?.nombre_oficial || room?.name || room?.room_id || 'Sala';
+  const nombreOficial = room?.nombre_oficial || room?.name || room?.room_id || t.room.defaultName;
   // OJO: este useMemo debe ir ANTES del "return null" de abajo (regla de hooks de React).
   const totalMinutosEstimados = useMemo(() => {
     if (!room) return '';
@@ -78,7 +81,7 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
 
   if (!isOpen || !room) return null;
 
-  const pisoText = room.piso === 'PA' ? 'Planta Alta · Etnografía' : 'Planta Baja · Arqueología';
+  const pisoText = room.piso === 'PA' ? t.room.floorPA : t.room.floorPB;
   const salaLabel = getRoomLabel(room);
 
   const handleToggleNarrativeAudio = () => {
@@ -93,6 +96,7 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
         {
           roomName: `${salaLabel} • ${nombreOficial}`,
           mode: 'inmersion',
+          lang: roomScriptLanguage(room, currentLanguage),
         }
       );
       setIsPlayingAudio(true);
@@ -134,7 +138,7 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
           <button
             onClick={onClose}
             className="p-2 rounded-xl text-stone-400 hover:text-white hover:bg-white/5 transition active:scale-95 cursor-pointer"
-            aria-label="Cerrar modal"
+            aria-label={t.room.closeModal}
           >
             <X className="w-5 h-5" />
           </button>
@@ -162,10 +166,10 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
                 </div>
                 <div className="text-left">
                   <span className="block text-sm font-black">
-                    Iniciar recorrido de esta sala
+                    {t.room.startTour}
                   </span>
                   <span className="text-[11px] font-medium text-black/80">
-                    {sortedPieces.length} piezas por orden de vitrina · ~{totalMinutosEstimados}
+                    {t.room.startTourSub(sortedPieces.length, totalMinutosEstimados)}
                   </span>
                 </div>
               </div>
@@ -178,10 +182,10 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
             <div className="flex items-center justify-between">
               <span className="text-xs font-bold text-amber-400 flex items-center gap-1.5">
                 <Volume2 className="w-4 h-4" />
-                <span>Introducción Curatorial</span>
+                <span>{t.room.introCurated}</span>
               </span>
               <span className="text-[10px] text-stone-400 font-mono">
-                Audioguías México
+                {t.common.appName}
               </span>
             </div>
             <p className="text-xs text-stone-400 leading-relaxed">
@@ -195,12 +199,12 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
               {isPlayingAudio ? (
                 <>
                   <Square className="w-3.5 h-3.5 fill-current text-red-400" />
-                  <span>Detener Introducción</span>
+                  <span>{t.room.stopIntro}</span>
                 </>
               ) : (
                 <>
                   <Play className="w-3.5 h-3.5 fill-current text-amber-400" />
-                  <span>Escuchar Introducción</span>
+                  <span>{t.room.listenIntro}</span>
                 </>
               )}
             </button>
@@ -211,7 +215,7 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
             <div className="flex items-center justify-between">
               <h3 className="text-xs font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
                 <Sparkles className="w-3.5 h-3.5" />
-                <span>Obras en esta sala ({sortedPieces.length})</span>
+                <span>{t.room.worksInRoom(sortedPieces.length)}</span>
               </h3>
             </div>
 
@@ -255,7 +259,7 @@ export const RoomDetailModal: React.FC<RoomDetailModalProps> = ({
               })
             ) : (
               <p className="text-xs p-4 rounded-xl border border-white/10 text-center bg-[#141419] text-stone-400">
-                Esta sala no tiene piezas individuales catalogadas aún.
+                {t.room.noPieces}
               </p>
             )}
           </div>

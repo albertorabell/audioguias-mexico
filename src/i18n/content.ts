@@ -35,6 +35,18 @@ export function scriptLanguage(piece: any, lang: SupportedLanguage): SupportedLa
   return hasTranslatedScripts(piece, lang) ? lang : 'es';
 }
 
+/**
+ * Idioma en el que se leerá la introducción de una sala: el elegido si la sala tiene esa traducción, si no español.
+ * (La introducción es `introduccion_narrativa`; si la sala no tiene, se lee la frase gancho.)
+ */
+export function roomScriptLanguage(room: any, lang: SupportedLanguage): SupportedLanguage {
+  if (!room || lang === 'es') return 'es';
+  if (nonEmpty(room[`introduccion_narrativa_${lang}`])) return lang;
+  const hasIntro = nonEmpty(room.introduccion_narrativa) && room.introduccion_narrativa !== room[`introduccion_narrativa_${lang}`];
+  if (!hasIntro && nonEmpty(room[`frase_gancho_${lang}`])) return lang;
+  return 'es';
+}
+
 function localize<T extends Record<string, any>>(obj: T, lang: SupportedLanguage, fields: readonly string[], aliases: Record<string, string[]>): T {
   if (!obj || lang === 'es') return obj;
   let out: any = null;
@@ -42,6 +54,7 @@ function localize<T extends Record<string, any>>(obj: T, lang: SupportedLanguage
     const v = (obj as any)[`${f}_${lang}`];
     if (nonEmpty(v)) {
       out ||= { ...obj };
+      out[`${f}_es`] = (obj as any)[f]; // se conserva el original para buscar con el nombre en español
       out[f] = v;
       for (const a of aliases[f] || []) out[a] = v;
     }
