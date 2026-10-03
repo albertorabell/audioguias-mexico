@@ -29,7 +29,9 @@ jobs:
         run: node scripts/ci-run.mjs build -- npx vite build
       - name: Compilar las dos versiones para las pruebas de navegador (cobro encendido y apagado)
         run: |
-          VITE_PAYMENTS_API_URL=https://pagos.test npx vite build --outDir dist-e2e
+          # Versión de ensayo: cobro encendido (servidor simulado) y con inglés visible para probar el selector.
+          VITE_PAYMENTS_API_URL=https://pagos.test VITE_PUBLISHED_LANGUAGES=es,en npx vite build --outDir dist-e2e
+          # Versión pública tal como se publica hoy: cobro apagado y solo español.
           npx vite build --outDir dist-e2e-off
       - name: Instalar el navegador de pruebas (Playwright)
         run: |

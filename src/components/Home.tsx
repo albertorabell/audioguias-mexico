@@ -117,82 +117,85 @@ export const Home: React.FC<HomeProps> = ({
           {/* Controles: Idioma y Tema */}
           <div className="flex items-center gap-2">
             {/* Selector de Idioma */}
-            <div className="relative">
-              <button
-                type="button"
-                id="btn-language-selector"
-                onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
-                className={`px-2.5 py-1.5 rounded-xl text-xs font-bold border transition-all flex items-center gap-1.5 cursor-pointer ${
-                  isSunMode
-                    ? 'bg-stone-100 hover:bg-stone-200 border-stone-300 text-stone-800'
-                    : 'bg-white/5 hover:bg-white/10 border-white/10 text-stone-200'
-                }`}
-                title={t.langSelectTitle}
-                aria-label={t.langSelectAria}
-              >
-                <Globe className="w-3.5 h-3.5 text-amber-500" />
-                <span className="uppercase text-[11px] font-mono tracking-wider">
-                  {currentLanguage}
-                </span>
-              </button>
-
-              {/* Menú flotante de Idiomas */}
-              {isLangMenuOpen && (
-                <div
-                  className={`absolute right-0 mt-2 w-48 rounded-2xl border shadow-2xl p-1.5 z-50 animate-fadeIn ${
+            {/* Con un solo idioma publicado no hay nada que elegir: el selector se oculta. */}
+            {availableLanguages.length > 1 && (
+              <div className="relative">
+                <button
+                  type="button"
+                  id="btn-language-selector"
+                  onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
+                  className={`px-2.5 py-1.5 rounded-xl text-xs font-bold border transition-all flex items-center gap-1.5 cursor-pointer ${
                     isSunMode
-                      ? 'bg-white border-stone-200 text-stone-900'
-                      : 'bg-[#141419] border-white/15 text-stone-100'
+                      ? 'bg-stone-100 hover:bg-stone-200 border-stone-300 text-stone-800'
+                      : 'bg-white/5 hover:bg-white/10 border-white/10 text-stone-200'
                   }`}
+                  title={t.langSelectTitle}
+                  aria-label={t.langSelectAria}
                 >
+                  <Globe className="w-3.5 h-3.5 text-amber-500" />
+                  <span className="uppercase text-[11px] font-mono tracking-wider">
+                    {currentLanguage}
+                  </span>
+                </button>
+
+                {/* Menú flotante de Idiomas */}
+                {isLangMenuOpen && (
                   <div
-                    className={`px-2 py-1 text-[10px] font-bold uppercase tracking-widest border-b mb-1 ${
+                    className={`absolute right-0 mt-2 w-48 rounded-2xl border shadow-2xl p-1.5 z-50 animate-fadeIn ${
                       isSunMode
-                        ? 'text-stone-500 border-stone-100'
-                        : 'text-stone-400 border-white/5'
+                        ? 'bg-white border-stone-200 text-stone-900'
+                        : 'bg-[#141419] border-white/15 text-stone-100'
                     }`}
                   >
-                    {t.langMenuTitle}
-                  </div>
-                  {availableLanguages.map((lang) => (
-                    <button
-                      key={lang.code}
-                      type="button"
-                      onClick={() => {
-                        if (lang.isActive) {
-                          setLanguage(lang.code);
-                          setIsLangMenuOpen(false);
-                        } else {
-                          setIsLangMenuOpen(false);
-                          showToast(t.langSoonToast(lang.label));
-                        }
-                      }}
-                      className={`w-full px-2.5 py-1.5 rounded-xl text-xs font-semibold flex items-center justify-between transition-colors cursor-pointer ${
-                        currentLanguage === lang.code
-                          ? 'bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold'
-                          : isSunMode
-                          ? 'hover:bg-stone-100 text-stone-700'
-                          : 'hover:bg-white/5 text-stone-300'
+                    <div
+                      className={`px-2 py-1 text-[10px] font-bold uppercase tracking-widest border-b mb-1 ${
+                        isSunMode
+                          ? 'text-stone-500 border-stone-100'
+                          : 'text-stone-400 border-white/5'
                       }`}
                     >
-                      <span className="flex items-center gap-2">
-                        <span>{lang.flag}</span>
-                        <span>{lang.label}</span>
-                      </span>
-                      {lang.comingSoon ? (
-                        <span className="text-[9px] uppercase px-1.5 py-0.2 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 font-medium">
-                          {t.langSoonBadge}
+                      {t.langMenuTitle}
+                    </div>
+                    {availableLanguages.map((lang) => (
+                      <button
+                        key={lang.code}
+                        type="button"
+                        onClick={() => {
+                          if (lang.isActive) {
+                            setLanguage(lang.code);
+                            setIsLangMenuOpen(false);
+                          } else {
+                            setIsLangMenuOpen(false);
+                            showToast(t.langSoonToast(lang.label));
+                          }
+                        }}
+                        className={`w-full px-2.5 py-1.5 rounded-xl text-xs font-semibold flex items-center justify-between transition-colors cursor-pointer ${
+                          currentLanguage === lang.code
+                            ? 'bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold'
+                            : isSunMode
+                            ? 'hover:bg-stone-100 text-stone-700'
+                            : 'hover:bg-white/5 text-stone-300'
+                        }`}
+                      >
+                        <span className="flex items-center gap-2">
+                          <span>{lang.flag}</span>
+                          <span>{lang.label}</span>
                         </span>
-                      ) : (
-                        <span className="text-[9px] text-emerald-600 dark:text-emerald-400 font-bold">
-                          {t.langActiveBadge}
-                        </span>
-                      )}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
+                        {lang.comingSoon ? (
+                          <span className="text-[9px] uppercase px-1.5 py-0.2 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 font-medium">
+                            {t.langSoonBadge}
+                          </span>
+                        ) : (
+                          <span className="text-[9px] text-emerald-600 dark:text-emerald-400 font-bold">
+                            {t.langActiveBadge}
+                          </span>
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
 
             {/* Alternar Modo Sol/Noche */}
             <button

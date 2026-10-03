@@ -18,7 +18,8 @@ export const LANG_STORAGE_KEY = 'audioguias_lang';
  */
 export const AUTO_DETECT_LANGUAGE = false;
 
-export const availableLanguages: LanguageOption[] = [
+/** Todos los idiomas que la app conoce. Que el público los vea depende de PUBLISHED_LANGUAGES (más abajo). */
+const ALL_LANGUAGES: LanguageOption[] = [
   { code: 'es', label: 'Español', flag: '🇲🇽', isActive: true },
   { code: 'en', label: 'English', flag: '🇺🇸', isActive: true },
   { code: 'fr', label: 'Français', flag: '🇫🇷', isActive: false, comingSoon: true },
@@ -26,6 +27,31 @@ export const availableLanguages: LanguageOption[] = [
   { code: 'ru', label: 'Русский', flag: '🇷🇺', isActive: false, comingSoon: true },
   { code: 'ja', label: '日本語', flag: '🇯🇵', isActive: false, comingSoon: true },
 ];
+
+/**
+ * Idiomas que ve el público. Un idioma se agrega a esta lista SOLO cuando está completo:
+ * interfaz, textos de las piezas, audios y revisión de una persona nativa. Así no se publica nada a medias.
+ * Hoy solo español: el selector de idioma ni siquiera aparece mientras haya un solo idioma.
+ */
+const DEFAULT_PUBLISHED_LANGUAGES: SupportedLanguage[] = ['es'];
+
+/**
+ * Las pruebas de navegador compilan con VITE_PUBLISHED_LANGUAGES=es,en para ensayar el selector y el inglés.
+ * El español siempre está. Los códigos que no existen se ignoran.
+ */
+function readPublishedLanguages(): SupportedLanguage[] {
+  const raw = String(import.meta.env.VITE_PUBLISHED_LANGUAGES || '');
+  const wanted = raw.split(',').map((x) => x.trim().toLowerCase()).filter(Boolean);
+  const valid = ALL_LANGUAGES.map((l) => l.code).filter((c) => c !== 'es' && wanted.includes(c));
+  return valid.length ? ['es', ...valid] : DEFAULT_PUBLISHED_LANGUAGES;
+}
+
+export const PUBLISHED_LANGUAGES: SupportedLanguage[] = readPublishedLanguages();
+
+/** Lo que muestra el selector: solo los idiomas publicados, todos elegibles. */
+export const availableLanguages: LanguageOption[] = ALL_LANGUAGES.filter((l) =>
+  PUBLISHED_LANGUAGES.includes(l.code)
+).map((l) => ({ ...l, isActive: true, comingSoon: false }));
 
 export function isActiveLanguage(code: unknown): code is SupportedLanguage {
   return availableLanguages.some((l) => l.code === code && l.isActive);
