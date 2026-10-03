@@ -3,6 +3,7 @@ import { ChevronLeft, Search, ShieldCheck, Lock } from 'lucide-react';
 import { SiteRoute } from '../types';
 import { ThemeToggle } from './ThemeToggle';
 import { useTheme } from '../utils/ThemeContext';
+import { useStrings } from '../utils/LanguageContext';
 
 interface NavbarProps {
   onBack: () => void;
@@ -30,6 +31,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   showBackButton = true,
 }) => {
   const { isSunMode } = useTheme();
+  const t = useStrings().chrome.nav;
+  const common = useStrings().common;
 
   return (
     <header
@@ -52,7 +55,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   ? 'text-stone-700 hover:text-stone-950 hover:bg-stone-100'
                   : 'text-[#9CA3AF] hover:text-[#F3F4F6] hover:bg-white/5'
               }`}
-              aria-label="Regresar"
+              aria-label={t.back}
             >
               <ChevronLeft className="w-5 h-5 text-amber-500" />
             </button>
@@ -60,10 +63,10 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           <div className="min-w-0">
             <span className="text-[10px] uppercase font-bold tracking-widest text-amber-500 block truncate">
-              {activeRoute ? 'EN RECORRIDO' : 'MUSEO NACIONAL DE ANTROPOLOGÍA'}
+              {activeRoute ? t.inTour : t.museumName}
             </span>
             <p className="text-xs font-bold truncate">
-              {titleOverride || (activeRoute ? activeRoute.name : 'Contenido editorial de Audioguías México')}
+              {titleOverride || (activeRoute ? activeRoute.name : common.editorialBadge)}
             </p>
           </div>
         </div>
@@ -83,8 +86,8 @@ export const Navbar: React.FC<NavbarProps> = ({
                   ? 'text-stone-700 hover:text-stone-950 hover:bg-stone-100'
                   : 'text-[#9CA3AF] hover:text-[#F3F4F6] hover:bg-white/5'
               }`}
-              title="Buscar por pieza o sala"
-              aria-label="Buscar pieza"
+              title={t.searchTitle}
+              aria-label={t.searchAria}
             >
               <Search className="w-4 h-4" />
             </button>
@@ -96,10 +99,10 @@ export const Navbar: React.FC<NavbarProps> = ({
               id="btn-pass-indicator"
               onClick={onOpenPaywallModal}
               className="min-h-[40px] px-2.5 flex items-center gap-1 text-[10px] font-bold tracking-wide uppercase text-emerald-600 bg-emerald-500/15 border border-emerald-500/30 rounded-xl transition active:scale-95 cursor-pointer"
-              title="Pase Completo Activo"
+              title={t.passActiveTitle}
             >
               <ShieldCheck className="w-3.5 h-3.5" />
-              <span className="hidden xs:inline">Activo</span>
+              <span className="hidden xs:inline">{t.passActive}</span>
             </button>
           ) : (
             <button
@@ -108,7 +111,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="min-h-[40px] px-3 flex items-center gap-1 text-[10px] font-extrabold tracking-wide uppercase text-black bg-amber-500 hover:bg-amber-400 rounded-xl transition active:scale-95 shadow-xs cursor-pointer"
             >
               <Lock className="w-3 h-3 fill-current" />
-              <span>Pase</span>
+              <span>{t.pass}</span>
             </button>
           )}
         </div>

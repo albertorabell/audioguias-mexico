@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { DownloadCloud, CheckCircle2, AlertCircle, RefreshCw, WifiOff, HardDrive } from 'lucide-react';
 import {
   downloadTourOffline,
@@ -9,17 +9,39 @@ import {
 import { PieceData } from '../types';
 import { useTheme } from '../utils/ThemeContext';
 import { getAssetUrl } from '../utils/urlHelper';
+import { useLanguage } from '../utils/LanguageContext';
+import { resolvePieceAudio } from '../utils/audioSource';
 
 interface OfflineTourBannerProps {
   pieces: PieceData[];
+  /** Piezas cuyos audios MP3 se guardan (por ejemplo las de la ruta activa). Si falta, no se descargan audios. */
+  audioPieces?: PieceData[];
   routeTitle?: string;
 }
 
 export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
   pieces,
-  routeTitle = 'Obras Maestras Mexicas',
+  audioPieces = [],
+  routeTitle,
 }) => {
   const { isSunMode } = useTheme();
+  const { strings, currentLanguage } = useLanguage();
+  const t = strings.offline;
+
+  // MP3 que se pueden guardar para esta ruta, en el idioma elegido (y los de pago solo si hay pase con clave)
+  const { audioUrls, audioMb } = useMemo(() => {
+    const seen: Record<string, number> = {};
+    for (const p of audioPieces) {
+      for (const mode of ['expres', 'inmersion'] as const) {
+        const a = resolvePieceAudio(p, currentLanguage, mode);
+        if (a) seen[a.url] = a.seconds || 0;
+      }
+    }
+    const urls = Object.keys(seen);
+    // 48 kbps = 6 000 bytes por segundo
+    const bytes = urls.reduce((n: number, u: string) => n + seen[u] * 6000, 0);
+    return { audioUrls: urls, audioMb: Math.round(bytes / 1_000_000) };
+  }, [audioPieces, currentLanguage]);
   const [isCached, setIsCached] = useState(false);
   const [progress, setProgress] = useState<OfflineProgress>({
     status: 'idle',
@@ -38,7 +60,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
           progressPercent: 100,
           cachedCount: pieces.length,
           totalCount: pieces.length,
-          currentLabel: 'Ruta guardada localmente',
+          currentLabel: t.savedLabel,
         });
       }
     });
@@ -67,6 +89,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
         urls.push(p.audioguide.audio_file_url);
       }
     });
+    audioUrls.forEach((url) => urls.push(url));
 
     const success = await downloadTourOffline(urls, (p) => {
       setProgress(p);
@@ -124,19 +147,18 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-2">
               <h4 className="text-xs sm:text-sm font-bold truncate text-stone-900 dark:text-stone-100">
-                {isCached ? 'Ruta lista sin conexión' : 'Descargar recorrido para uso sin internet'}
+                {isCached ? t.readyTitle : t.downloadTitle}
               </h4>
               {isCached && (
                 <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300">
-                  <HardDrive className="w-3 h-3" /> Offline ✓
+                  <HardDrive className="w-3 h-3" /> {t.offlineBadge}
                 </span>
               )}
             </div>
 
             <p className="text-xs text-stone-600 dark:text-stone-400 mt-0.5 leading-relaxed font-normal">
-              {isCached
-                ? `Todas las explicaciones e imágenes de "${routeTitle}" están guardadas en tu dispositivo.`
-                : 'La señal móvil en las salas del MNA suele ser débil. Guarda la ruta con anticipación para usarla sin datos.'}
+              {isCached ? t.cachedDesc(routeTitle) : t.notCachedDesc}
+              {!isCached && audioUrls.length > 0 && ` ${t.audioSize(audioUrls.length, audioMb)}`}
             </p>
           </div>
         </div>
@@ -155,7 +177,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
               }`}
             >
               <RefreshCw className="w-3.5 h-3.5" />
-              <span>Actualizar</span>
+              <span>{t.update}</span>
             </button>
           ) : (
             <button
@@ -167,7 +189,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
             >
               <DownloadCloud className="w-4 h-4" />
               <span>
-                {progress.status === 'downloading' ? 'Descargando...' : 'Descargar Recorrido'}
+                {progress.status === 'downloading' ? t.downloading : t.download}
               </span>
             </button>
           )}
@@ -177,8 +199,8 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
               type="button"
               onClick={handleClear}
               className="p-2 rounded-xl text-xs text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 transition"
-              title="Liberar almacenamiento offline"
-              aria-label="Liberar almacenamiento offline"
+              title={t.clearTitle}
+              aria-label={t.clearTitle}
             >
               <WifiOff className="w-4 h-4" />
             </button>
@@ -206,7 +228,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
       {progress.status === 'error' && (
         <div className="mt-3 p-3 rounded-xl border border-rose-300 bg-rose-50 text-rose-800 dark:border-rose-900/50 dark:bg-rose-950/40 dark:text-rose-200 flex items-center gap-2 text-xs">
           <AlertCircle className="w-4 h-4 shrink-0 text-rose-600 dark:text-rose-400" />
-          <span>{progress.errorMessage || 'No se pudo completar la descarga sin conexión.'}</span>
+          <span>{progress.errorMessage || t.failed}</span>
         </div>
       )}
     </div>

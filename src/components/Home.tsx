@@ -17,9 +17,11 @@ import {
 } from 'lucide-react';
 import { SiteSummary } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
+import { localizeSite } from '../i18n/content';
+import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
 import { useTheme } from '../utils/ThemeContext';
 import { PWAInstallButton } from './PWAInstallButton';
-import { t } from '../utils/i18nStrings';
+import { useStrings } from '../utils/LanguageContext';
 
 interface HomeProps {
   sites: SiteSummary[];
@@ -32,7 +34,9 @@ export const Home: React.FC<HomeProps> = ({
   onSelectSite,
   isLoading = false,
 }) => {
-  const { currentLanguage, setLanguage, availableLanguages } = useLanguage();
+  const { currentLanguage, setLanguage, availableLanguages, strings } = useLanguage();
+  const t = strings.home;
+  const common = strings.common;
   const { isSunMode, toggleTheme } = useTheme();
 
   // Toast State for coming_soon sites & languages
@@ -48,7 +52,7 @@ export const Home: React.FC<HomeProps> = ({
 
   const handleSiteClick = (site: SiteSummary) => {
     if (site.status === 'coming_soon') {
-      showToast(`${t.comingSoon}: ${site.name} se encuentra en desarrollo.`);
+      showToast(t.siteSoonToast(localizeSite(site, currentLanguage).name));
       return;
     }
     onSelectSite(site);
@@ -94,7 +98,7 @@ export const Home: React.FC<HomeProps> = ({
                     isSunMode ? 'text-stone-900' : 'text-white'
                   }`}
                 >
-                  {t.appName}
+                  {common.appName}
                 </span>
                 <span className="text-[9px] font-black uppercase px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-600 dark:text-amber-400 border border-amber-500/30">
                   PWA
@@ -105,7 +109,7 @@ export const Home: React.FC<HomeProps> = ({
                   isSunMode ? 'text-stone-600' : 'text-stone-400'
                 }`}
               >
-                {t.patrimonyCdmx}
+                {common.editorialBadge}
               </p>
             </div>
           </div>
@@ -113,82 +117,85 @@ export const Home: React.FC<HomeProps> = ({
           {/* Controles: Idioma y Tema */}
           <div className="flex items-center gap-2">
             {/* Selector de Idioma */}
-            <div className="relative">
-              <button
-                type="button"
-                id="btn-language-selector"
-                onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
-                className={`px-2.5 py-1.5 rounded-xl text-xs font-bold border transition-all flex items-center gap-1.5 cursor-pointer ${
-                  isSunMode
-                    ? 'bg-stone-100 hover:bg-stone-200 border-stone-300 text-stone-800'
-                    : 'bg-white/5 hover:bg-white/10 border-white/10 text-stone-200'
-                }`}
-                title="Seleccionar idioma"
-                aria-label="Selector de idioma"
-              >
-                <Globe className="w-3.5 h-3.5 text-amber-500" />
-                <span className="uppercase text-[11px] font-mono tracking-wider">
-                  {currentLanguage}
-                </span>
-              </button>
-
-              {/* Menú flotante de Idiomas */}
-              {isLangMenuOpen && (
-                <div
-                  className={`absolute right-0 mt-2 w-48 rounded-2xl border shadow-2xl p-1.5 z-50 animate-fadeIn ${
+            {/* Con un solo idioma publicado no hay nada que elegir: el selector se oculta. */}
+            {availableLanguages.length > 1 && (
+              <div className="relative">
+                <button
+                  type="button"
+                  id="btn-language-selector"
+                  onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
+                  className={`px-2.5 py-1.5 rounded-xl text-xs font-bold border transition-all flex items-center gap-1.5 cursor-pointer ${
                     isSunMode
-                      ? 'bg-white border-stone-200 text-stone-900'
-                      : 'bg-[#141419] border-white/15 text-stone-100'
+                      ? 'bg-stone-100 hover:bg-stone-200 border-stone-300 text-stone-800'
+                      : 'bg-white/5 hover:bg-white/10 border-white/10 text-stone-200'
                   }`}
+                  title={t.langSelectTitle}
+                  aria-label={t.langSelectAria}
                 >
+                  <Globe className="w-3.5 h-3.5 text-amber-500" />
+                  <span className="uppercase text-[11px] font-mono tracking-wider">
+                    {currentLanguage}
+                  </span>
+                </button>
+
+                {/* Menú flotante de Idiomas */}
+                {isLangMenuOpen && (
                   <div
-                    className={`px-2 py-1 text-[10px] font-bold uppercase tracking-widest border-b mb-1 ${
+                    className={`absolute right-0 mt-2 w-48 rounded-2xl border shadow-2xl p-1.5 z-50 animate-fadeIn ${
                       isSunMode
-                        ? 'text-stone-500 border-stone-100'
-                        : 'text-stone-400 border-white/5'
+                        ? 'bg-white border-stone-200 text-stone-900'
+                        : 'bg-[#141419] border-white/15 text-stone-100'
                     }`}
                   >
-                    Idioma / Language
-                  </div>
-                  {availableLanguages.map((lang) => (
-                    <button
-                      key={lang.code}
-                      type="button"
-                      onClick={() => {
-                        if (lang.code === 'es') {
-                          setLanguage(lang.code);
-                          setIsLangMenuOpen(false);
-                        } else {
-                          setIsLangMenuOpen(false);
-                          showToast(`Audio en ${lang.label} disponible próximamente.`);
-                        }
-                      }}
-                      className={`w-full px-2.5 py-1.5 rounded-xl text-xs font-semibold flex items-center justify-between transition-colors cursor-pointer ${
-                        currentLanguage === lang.code
-                          ? 'bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold'
-                          : isSunMode
-                          ? 'hover:bg-stone-100 text-stone-700'
-                          : 'hover:bg-white/5 text-stone-300'
+                    <div
+                      className={`px-2 py-1 text-[10px] font-bold uppercase tracking-widest border-b mb-1 ${
+                        isSunMode
+                          ? 'text-stone-500 border-stone-100'
+                          : 'text-stone-400 border-white/5'
                       }`}
                     >
-                      <span className="flex items-center gap-2">
-                        <span>{lang.flag}</span>
-                        <span>{lang.label}</span>
-                      </span>
-                      {lang.comingSoon ? (
-                        <span className="text-[9px] uppercase px-1.5 py-0.2 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 font-medium">
-                          Próx.
+                      {t.langMenuTitle}
+                    </div>
+                    {availableLanguages.map((lang) => (
+                      <button
+                        key={lang.code}
+                        type="button"
+                        onClick={() => {
+                          if (lang.isActive) {
+                            setLanguage(lang.code);
+                            setIsLangMenuOpen(false);
+                          } else {
+                            setIsLangMenuOpen(false);
+                            showToast(t.langSoonToast(lang.label));
+                          }
+                        }}
+                        className={`w-full px-2.5 py-1.5 rounded-xl text-xs font-semibold flex items-center justify-between transition-colors cursor-pointer ${
+                          currentLanguage === lang.code
+                            ? 'bg-amber-500/20 text-amber-600 dark:text-amber-400 font-bold'
+                            : isSunMode
+                            ? 'hover:bg-stone-100 text-stone-700'
+                            : 'hover:bg-white/5 text-stone-300'
+                        }`}
+                      >
+                        <span className="flex items-center gap-2">
+                          <span>{lang.flag}</span>
+                          <span>{lang.label}</span>
                         </span>
-                      ) : (
-                        <span className="text-[9px] text-emerald-600 dark:text-emerald-400 font-bold">
-                          Activo
-                        </span>
-                      )}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
+                        {lang.comingSoon ? (
+                          <span className="text-[9px] uppercase px-1.5 py-0.2 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 font-medium">
+                            {t.langSoonBadge}
+                          </span>
+                        ) : (
+                          <span className="text-[9px] text-emerald-600 dark:text-emerald-400 font-bold">
+                            {t.langActiveBadge}
+                          </span>
+                        )}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
 
             {/* Alternar Modo Sol/Noche */}
             <button
@@ -199,8 +206,8 @@ export const Home: React.FC<HomeProps> = ({
                   ? 'bg-stone-100 border-stone-300 text-stone-700 hover:bg-stone-200'
                   : 'bg-white/5 border-white/10 text-stone-300 hover:bg-white/10'
               }`}
-              title={isSunMode ? 'Cambiar a Modo Museo (Salas)' : 'Cambiar a Modo Sol (Exterior)'}
-              aria-label="Alternar tema"
+              title={isSunMode ? t.themeToMuseumTitle : t.themeToSunTitle}
+              aria-label={t.themeAria}
             >
               {isSunMode ? <Moon className="w-3.5 h-3.5" /> : <Sun className="w-3.5 h-3.5" />}
             </button>
@@ -226,7 +233,7 @@ export const Home: React.FC<HomeProps> = ({
           <div className="relative z-10 max-w-2xl space-y-4">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-700 dark:text-amber-400 text-xs font-bold uppercase tracking-wider">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>{t.heroSubtitle ? 'Curaduría Experta de Bolsillo' : 'Curaduría'}</span>
+              <span>{t.heroBadge}</span>
             </div>
 
             <h1
@@ -253,17 +260,17 @@ export const Home: React.FC<HomeProps> = ({
             >
               <span className="flex items-center gap-1.5 text-amber-700 dark:text-amber-400 font-bold">
                 <span>🏛️</span>
-                <span>Top {sitesCount} Recintos CDMX</span>
+                <span>{t.topVenuesKicker(sitesCount)}</span>
               </span>
               <span aria-hidden="true" className="text-stone-400">·</span>
               <span className="flex items-center gap-1.5">
                 <WifiOff className="w-3.5 h-3.5" />
-                <span>100% Offline en Sala</span>
+                <span>{t.offlineKicker}</span>
               </span>
               <span aria-hidden="true" className="text-stone-400">·</span>
               <span className="flex items-center gap-1.5">
                 <Clock className="w-3.5 h-3.5" />
-                <span>Pase 72h / 2 Dispositivos</span>
+                <span>{t.passKicker(PASS_HOURS, PASS_MAX_DEVICES)}</span>
               </span>
             </div>
 
@@ -353,7 +360,7 @@ export const Home: React.FC<HomeProps> = ({
                 </p>
               </div>
               <div className="text-[11px] font-mono text-amber-700 dark:text-amber-400 font-bold">
-                ✓ +130 obras explicadas
+                {t.worksExplained}
               </div>
             </div>
 
@@ -385,7 +392,7 @@ export const Home: React.FC<HomeProps> = ({
                 </p>
               </div>
               <div className="text-[11px] font-mono text-emerald-600 dark:text-emerald-400 font-bold">
-                ✓ Sin gastar datos móviles
+                {t.noMobileData}
               </div>
             </div>
 
@@ -406,18 +413,18 @@ export const Home: React.FC<HomeProps> = ({
                     isSunMode ? 'text-stone-900' : 'text-white'
                   }`}
                 >
-                  {t.feature72Hours}
+                  {t.featurePass(PASS_HOURS, PASS_MAX_DEVICES)}
                 </h3>
                 <p
                   className={`text-xs leading-relaxed ${
                     isSunMode ? 'text-stone-600' : 'text-stone-400'
                   }`}
                 >
-                  {t.feature72HoursDesc}
+                  {t.featurePassDesc}
                 </p>
               </div>
               <div className="text-[11px] font-mono text-sky-600 dark:text-sky-400 font-bold">
-                ✓ 3 días completos de acceso
+                {t.fullDays(PASS_HOURS)}
               </div>
             </div>
           </div>
@@ -432,25 +439,26 @@ export const Home: React.FC<HomeProps> = ({
                   isSunMode ? 'text-stone-900' : 'text-white'
                 }`}
               >
-                Top {sitesCount} Recintos de México
+                {t.sitesTitle(sitesCount)}
               </h2>
               <p
                 className={`text-xs mt-0.5 ${
                   isSunMode ? 'text-stone-600' : 'text-stone-400'
                 }`}
               >
-                Selecciona tu destino para iniciar o consultar tu recorrido
+                {t.sitesSubtitle}
               </p>
             </div>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {sites.map((site) => {
+            {sites.map((rawSite) => {
+              const site = localizeSite(rawSite, currentLanguage);
               const isActive = site.status === 'active';
               return (
                 <div
                   key={site.id}
-                  onClick={() => handleSiteClick(site)}
+                  onClick={() => handleSiteClick(rawSite)}
                   role="button"
                   tabIndex={0}
                   className={`rounded-3xl border overflow-hidden flex flex-col justify-between transition-all duration-200 group text-left ${
@@ -473,7 +481,7 @@ export const Home: React.FC<HomeProps> = ({
                             : 'bg-amber-500/15 border-amber-500/30 text-amber-700 dark:text-amber-400'
                         }`}
                       >
-                        {isActive ? 'Disponible' : 'Próximamente'}
+                        {isActive ? t.available : t.comingSoon}
                       </span>
                     </div>
 
@@ -518,7 +526,7 @@ export const Home: React.FC<HomeProps> = ({
                         isSunMode ? 'text-stone-600' : 'text-stone-400'
                       }`}
                     >
-                      {isActive ? 'Acceso completo' : 'En curaduría'}
+                      {isActive ? t.fullAccess : t.inCuration}
                     </span>
                     <span
                       className={`flex items-center gap-1 transition-transform group-hover:translate-x-0.5 ${
@@ -531,7 +539,7 @@ export const Home: React.FC<HomeProps> = ({
                           : 'text-stone-400'
                       }`}
                     >
-                      <span>{isActive ? 'Explorar' : 'Pronto'}</span>
+                      <span>{isActive ? t.explore : t.soonShort}</span>
                       <ChevronRight className="w-3.5 h-3.5" />
                     </span>
                   </div>

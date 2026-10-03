@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Room, RouteStop } from '../types';
 import { getRoomLabel, getRoomShortLabel, getUnitWord } from '../utils/roomLabel';
+import { useStrings } from '../utils/LanguageContext';
 
 export interface MuseumMapSvgProps {
   rooms?: Room[];
@@ -312,6 +313,8 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
 }) => {
   const [internalFloor, setInternalFloor] = useState<'PB' | 'PA'>(activeFloor);
   const [hoveredRoomId, setHoveredRoomId] = useState<string | null>(null);
+  const strings = useStrings();
+  const t = strings.map;
 
   // Sync with activeFloor prop
   useEffect(() => {
@@ -521,7 +524,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
             }`}
           >
             <span>🏛️</span>
-            <span>Planta Baja (Arqueología · {pbCount} salas)</span>
+            <span>{t.floorPBButton(pbCount)}</span>
           </button>
           <button
             type="button"
@@ -533,7 +536,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
             }`}
           >
             <span>🧵</span>
-            <span>Planta Alta (Etnografía{paCount > 0 ? ` · ${paCount} ${paUnit}` : ''})</span>
+            <span>{t.floorPAButton(paCount, paUnit)}</span>
           </button>
         </div>
       )}
@@ -544,9 +547,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
           viewBox="0 0 900 650"
           className="w-full h-full"
           role="img"
-          aria-label={`Plano arquitectónico del Museo Nacional de Antropología - ${
-            selectedFloor === 'PB' ? 'Planta Baja' : 'Planta Alta'
-          }`}
+          aria-label={t.svgAria(selectedFloor)}
         >
           <defs>
             <pattern id="cadGrid" width="25" height="25" patternUnits="userSpaceOnUse">
@@ -621,7 +622,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
               letterSpacing="2"
               opacity="0.7"
             >
-              ESTANQUE DE LIRIOS
+              {t.lilyPond}
             </text>
           </g>
 
@@ -657,7 +658,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
               fontWeight="800"
               letterSpacing="1.5"
             >
-              EL PARAGUAS
+              {t.umbrella}
             </text>
             <text
               x="0"
@@ -667,7 +668,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
               fontSize="7.5"
               fontFamily="sans-serif"
             >
-              Pedro Ramírez Vázquez · 1964
+              {t.architectCredit}
             </text>
           </g>
 
@@ -716,7 +717,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
                 className="cursor-pointer transition-all duration-150"
                 role="button"
                 tabIndex={0}
-                aria-label={`${room.displayName} (${room.labelFull || `Sala ${room.numStr}`})`}
+                aria-label={t.roomAria(room.displayName, room.labelFull || `${strings.common.roomWord} ${room.numStr}`)}
               >
                 {/* Rectángulo de Sala */}
                 <rect
@@ -894,7 +895,7 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
           {/* Aviso: la planta alta es un esquema del recorrido, no el plano exacto */}
           {selectedFloor === 'PA' && (
             <text x="35" y="632" fill="#6B7280" fontSize="8.5" fontFamily="sans-serif">
-              Esquema orientativo del recorrido (no a escala). Sigue la señalización del museo.
+              {t.schematicNote}
             </text>
           )}
 
@@ -902,8 +903,8 @@ export const MuseumMapSvg: React.FC<MuseumMapSvgProps> = ({
           <g transform="translate(865, 625)">
             <text textAnchor="end" fill="#F59E0B" fontSize="9" fontWeight="700" fontFamily="sans-serif">
               {selectedFloor === 'PB'
-                ? `Nivel PB • Arqueología (${pbCount} Salas)`
-                : `Nivel PA • Etnografía (${paCount} ${paUnit === 'ejes' ? 'Ejes' : 'Salas'})`}
+                ? t.levelPB(pbCount)
+                : t.levelPA(paCount, paUnit.charAt(0).toUpperCase() + paUnit.slice(1))}
             </text>
           </g>
         </svg>

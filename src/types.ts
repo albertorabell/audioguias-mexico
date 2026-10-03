@@ -6,11 +6,11 @@ export interface SiteSummary {
   thumbnail: string;
   badge: string;
   path: string;
-  stripe_link?: string;
   description: string;
   highlights_count: number;
   total_stops: number;
   status?: 'active' | 'coming_soon';
+  pass_price_mxn?: number;
 }
 
 export interface MapCoords {
@@ -28,7 +28,7 @@ export interface RoomPieceSummary {
   ranking?: number;
 }
 
-export interface Room {
+export interface RoomBase {
   room_id: string;
   numero_oficial: string;
   nombre_oficial: string;
@@ -53,7 +53,9 @@ export interface Room {
   pieces_info?: RoomPieceSummary[];
 }
 
-export interface Piece {
+export type Room = RoomBase & TranslatedRoomFields;
+
+export interface PieceBase {
   piece_id: string;
   room_id: string;
   piso: 'PB' | 'PA';
@@ -75,6 +77,11 @@ export interface Piece {
   foto_url?: string;
   is_free: boolean;
   audio_file_url?: string;
+  /**
+   * MP3 generados, por idioma y modo (corto = Express, largo = Inmersión).
+   * path es relativo al sitio; si remote es true se pide al servidor de audio con el pase.
+   */
+  audio?: PieceAudio;
 
   // Campos de compatibilidad con estructuras previas
   id?: string;
@@ -115,6 +122,26 @@ export interface Piece {
   curiosities?: CuriosityItem[];
   faqs?: FaqItem[];
 }
+
+/** Traducciones opcionales (columnas del Sheets con sufijo de idioma, p. ej. guion_corto_en). */
+export type TranslatedPieceFields = {
+  [K in `${'titulo' | 'frase_gancho' | 'puente_narrativo' | 'guion_corto' | 'guion_largo'}_${'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]?: string;
+};
+
+/** Traducciones opcionales de salas. El sufijo _es guarda el original cuando la app muestra otro idioma. */
+export type TranslatedRoomFields = {
+  [K in `${'nombre_oficial' | 'frase_gancho' | 'introduccion_narrativa' | 'etiqueta'}_${'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]?: string;
+};
+
+export type Piece = PieceBase & TranslatedPieceFields;
+
+export interface PieceAudioFile {
+  path: string;
+  remote: boolean;
+  seconds?: number;
+}
+
+export type PieceAudio = Partial<Record<'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja', Partial<Record<'corto' | 'largo', PieceAudioFile>>>>;
 
 export type PieceData = Piece;
 
@@ -203,4 +230,8 @@ export interface SiteLicense {
   site_id: string;
   expires_at: number;
   device_id: string;
+  /** Clave firmada por el servidor de pagos (solo existe si el pase se compró de verdad). */
+  token?: string;
+  /** Código corto del pase, para activarlo en un segundo dispositivo. */
+  code?: string;
 }

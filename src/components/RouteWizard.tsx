@@ -19,7 +19,7 @@ import {
 } from 'lucide-react';
 import { SiteManifest, SiteRoute, SiteSummary, RouteStop, Room, PieceData } from '../types';
 import { generateOptimizedRoute, calculateRouteTimeMinutes, formatRouteDuration, MANDATORY_MNA_PIECE_ID } from '../utils/routeOptimizer';
-import { t } from '../utils/i18nStrings';
+import { useStrings } from '../utils/LanguageContext';
 
 interface RouteWizardProps {
   site: SiteSummary;
@@ -45,6 +45,8 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
   onBack,
   onStartRoute,
 }) => {
+  const strings = useStrings();
+  const t = strings.wizard;
   // Reset scroll to top
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
@@ -60,27 +62,27 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
     return [
       {
         key: 'cosmogonia-mexica',
-        label: 'Cosmogonía Mexica y Altiplano',
+        label: t.tags['cosmogonia-mexica'].label,
         icon: <Landmark className="w-4 h-4" />,
-        subtitle: 'Piedra del Sol, Coatlicue y la cosmovisión de Tenochtitlan',
+        subtitle: t.tags['cosmogonia-mexica'].subtitle,
       },
       {
         key: 'mundo-maya',
-        label: 'Mundo Maya y Selva',
+        label: t.tags['mundo-maya'].label,
         icon: <Sparkles className="w-4 h-4" />,
-        subtitle: 'Pakal, jadeítas de Calakmul, estelas y comunidades mayas vivas',
+        subtitle: t.tags['mundo-maya'].subtitle,
       },
       {
         key: 'arte-monumental',
-        label: 'Arte Monumental y Escultórico',
+        label: t.tags['arte-monumental'].label,
         icon: <Award className="w-4 h-4" />,
-        subtitle: 'Cabezas olmecas colosales, monolitos y escultura en basalto',
+        subtitle: t.tags['arte-monumental'].subtitle,
       },
       {
         key: 'vida-cotidiana-tumbas',
-        label: 'Pueblos Originarios y Etnografía',
+        label: t.tags['vida-cotidiana-tumbas'].label,
         icon: <History className="w-4 h-4" />,
-        subtitle: 'Tumbas de Oaxaca, Occidente y los pueblos de hoy: textiles, milpa, fiestas y lenguas',
+        subtitle: t.tags['vida-cotidiana-tumbas'].subtitle,
       },
     ];
   };
@@ -153,7 +155,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
           className="flex items-center gap-2 text-xs font-bold px-3 py-2 rounded-xl border border-white/10 bg-[#141419] text-[#F3F4F6] hover:bg-white/5 transition-all active:scale-95 cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4 text-[#F59E0B]" />
-          <span>Volver al explorador</span>
+          <span>{t.back}</span>
         </button>
 
         <span className="text-[11px] font-black uppercase tracking-wider px-3 py-1 rounded-full border border-[#F59E0B]/30 bg-[#F59E0B]/10 text-[#F59E0B]">
@@ -167,13 +169,13 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
         <div>
           <div className="flex items-center gap-1.5 text-xs font-bold text-[#F59E0B] uppercase tracking-widest mb-1">
             <Compass className="w-4 h-4" />
-            <span>Curaduría Inteligente</span>
+            <span>{t.kicker}</span>
           </div>
           <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white">
-            Diseña tu Recorrido en {site.short_name || 'el Museo'}
+            {t.title(site.short_name || t.defaultSite)}
           </h1>
           <p className="text-xs sm:text-sm mt-1 text-[#9CA3AF] leading-relaxed">
-            Configura tu tiempo e intereses. El sistema ordenará las obras sin brincar entre pisos: primero Planta Baja (00→11) y luego Planta Alta (12→21).
+            {t.intro}
           </p>
         </div>
 
@@ -184,10 +186,10 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
           </div>
           <div className="text-xs leading-snug">
             <span className="font-extrabold text-amber-400 block">
-              Incluye la Piedra del Sol (imperdible)
+              {t.sunStoneTitle}
             </span>
             <span className="text-stone-300 text-[11px]">
-              Toda ruta curada garantiza la visita al monolito cumbre de la Sala Mexica.
+              {t.sunStoneDesc}
             </span>
           </div>
         </div>
@@ -197,20 +199,15 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
           <div className="flex items-center justify-between mb-3">
             <h2 className="text-xs sm:text-sm font-black uppercase tracking-wider flex items-center gap-2 text-[#F59E0B]">
               <Clock className="w-4 h-4" />
-              <span>1. ¿Cuánto tiempo tienes para tu visita?</span>
+              <span>{t.q1}</span>
             </h2>
             <span className="text-[11px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-[#0B0B0E] border border-white/10 text-[#F59E0B]">
-              {timeMinutes >= 900 ? 'Sin límite' : `${timeMinutes} min`}
+              {timeMinutes >= 900 ? t.unlimited : t.minutes(timeMinutes)}
             </span>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
-            {[
-              { mins: 30, label: '30 min', badge: 'Rápida', desc: '~5 paradas · 1-2 salas' },
-              { mins: 60, label: '1 hora', badge: 'Estándar', desc: '~10 paradas · 3-4 salas' },
-              { mins: 120, label: '2 horas', badge: 'Completa', desc: '~20 paradas · PB y PA' },
-              { mins: 999, label: 'Sin límite', badge: 'Exhaustiva', desc: 'Recorrido por las 22 salas' },
-            ].map((opt) => {
+            {t.timeOptions.map((opt) => {
               const isSelected = timeMinutes === opt.mins;
               return (
                 <button
@@ -249,10 +246,10 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
           <div className="flex items-center justify-between">
             <h2 className="text-xs sm:text-sm font-black uppercase tracking-wider flex items-center gap-2 text-[#F59E0B]">
               <Sparkles className="w-4 h-4" />
-              <span>2. ¿Qué temas o culturas deseas priorizar?</span>
+              <span>{t.q2}</span>
             </h2>
             <span className="text-[10px] text-[#9CA3AF]">
-              {selectedTags.length} seleccionados
+              {t.selected(selectedTags.length)}
             </span>
           </div>
 
@@ -305,10 +302,10 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
               </span>
               <div>
                 <h3 className="text-xs sm:text-sm font-bold text-white">
-                  Ruta Optimizada Lista
+                  {t.readyTitle}
                 </h3>
                 <p className="text-[11px] text-[#9CA3AF]">
-                  {projectedRoute.stops.length} paradas · {uniqueRoomsCount} salas · ~{formatRouteDuration(routeMinutes)}
+                  {t.readySummary(projectedRoute.stops.length, uniqueRoomsCount, formatRouteDuration(routeMinutes))}
                 </p>
               </div>
             </div>
@@ -336,7 +333,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                 </div>
                 {stop.poi_id === MANDATORY_MNA_PIECE_ID && (
                   <span className="text-[9px] font-bold text-amber-400 px-1.5 py-0.5 rounded bg-amber-500/15 border border-amber-500/30 shrink-0">
-                    Imperdible
+                    {t.mustSee}
                   </span>
                 )}
               </div>
@@ -352,9 +349,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
               onClick={() => setShowClassicRoutes(!showClassicRoutes)}
               className="text-xs font-semibold text-[#9CA3AF] hover:text-white underline underline-offset-4 transition-colors cursor-pointer"
             >
-              {showClassicRoutes
-                ? 'Ocultar catálogo de rutas sugeridas'
-                : '¿Prefieres una ruta sugerida del museo?'}
+              {showClassicRoutes ? t.hideSuggested : t.showSuggested}
             </button>
 
             {showClassicRoutes && (
@@ -403,8 +398,8 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
             <Play className="w-4 h-4 fill-current" />
             <span>
               {hasStops
-                ? `Iniciar Recorrido (${projectedRoute.stops.length} paradas · ~${formatRouteDuration(routeMinutes)})`
-                : 'Elige al menos una parada'}
+                ? t.startTour(projectedRoute.stops.length, formatRouteDuration(routeMinutes))
+                : t.pickOne}
             </span>
           </button>
         </div>

@@ -1,0 +1,11 @@
+{
+  "name": "audioguias-pagos",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Servidor de pagos y de audios de pago (Cloudflare Worker). Ver README.md",
+  "scripts": {
+    "test": "node --test test/worker.test.mjs",
+    "deploy": "npx wrangler deploy"
+  }
+}

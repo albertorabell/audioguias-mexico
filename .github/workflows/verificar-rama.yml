@@ -1,0 +1,53 @@
+name: Verificar rama (sin desplegar)
+
+# Solo revisa que todo compile y funcione. NO publica nada en el sitio.
+on:
+  push:
+    branches: ['feature/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verificar:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Instalar paquetes
+        run: npm install --no-audit --no-fund
+      - name: Pruebas de los scripts (sincronizador y MP3)
+        run: node scripts/ci-run.mjs pruebas-scripts -- node --test scripts/tests/sync.test.mjs scripts/tests/audio.test.mjs
+      - name: Pruebas del servidor de cobro (Worker)
+        run: node scripts/ci-run.mjs pruebas-pagos -- node --test pagos/test/worker.test.mjs
+      - name: Revisar tipos (tsc)
+        run: node scripts/ci-run.mjs tsc -- npx tsc --noEmit --pretty false
+      - name: Compilar (vite build, con los datos ya guardados)
+        run: node scripts/ci-run.mjs build -- npx vite build
+      - name: Compilar las dos versiones para las pruebas de navegador (cobro encendido y apagado)
+        run: |
+          # Versión de ensayo: cobro encendido (servidor simulado) y con inglés visible para probar el selector.
+          VITE_PAYMENTS_API_URL=https://pagos.test VITE_PUBLISHED_LANGUAGES=es,en npx vite build --outDir dist-e2e
+          # Versión pública tal como se publica hoy: cobro apagado y solo español.
+          npx vite build --outDir dist-e2e-off
+      - name: Instalar el navegador de pruebas (Playwright)
+        run: |
+          npm install --no-save --no-audit --no-fund @playwright/test@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Pruebas en navegador (idioma, MP3 y cobro)
+        run: node scripts/ci-run.mjs navegador -- npx playwright test -c e2e/playwright.config.mjs
+      - name: Ensayo del botón de audios con la voz de prueba (solo en esta máquina, no se guarda nada)
+        env:
+          IDIOMAS: es
+          PIEZAS: todas
+          PROVEEDOR: prueba
+          LIMITE: '3'
+          GENERAR: 'true'
+          FORZAR: 'false'
+        run: |
+          node scripts/ci-run.mjs ensayo-audio -- bash scripts/correr-generar-audio.sh
+          test -f public/audio/manifest.json
+          node scripts/ci-run.mjs ensayo-subida -- node scripts/subir-audio-premium.mjs --simular

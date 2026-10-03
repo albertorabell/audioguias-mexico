@@ -1,0 +1,28 @@
+# Configuración del servidor de pagos (Cloudflare Worker). Los pasos están en README.md.
+name = "audioguias-pagos"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+# Direcciones desde las que se permite usar el servidor (la de tu sitio en GitHub Pages)
+ALLOWED_ORIGINS = "https://albertorabell.github.io"
+SITE_IDS = "mna"
+PASS_HOURS = "72"
+MAX_DEVICES = "2"
+# Identificadores de precio de Stripe (empiezan con price_). Se crean en el panel de Stripe.
+STRIPE_PRICE_ID_MXN = "REEMPLAZA_CON_TU_PRICE_ID_EN_PESOS"
+STRIPE_PRICE_ID_USD = ""
+
+# Aquí se guardan los pases comprados
+[[kv_namespaces]]
+binding = "PASES"
+id = "REEMPLAZA_CON_EL_ID_DEL_KV"
+
+# Aquí viven los MP3 de las piezas de pago
+[[r2_buckets]]
+binding = "AUDIO"
+bucket_name = "audioguias-audio"
+
+# Los secretos NO se escriben aquí. Se guardan con:
+#   npx wrangler secret put STRIPE_SECRET_KEY
+#   npx wrangler secret put TOKEN_SECRET

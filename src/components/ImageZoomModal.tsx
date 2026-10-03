@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { X, ZoomIn, ZoomOut, RotateCcw, Landmark, ImageOff } from 'lucide-react';
 import { resolvePieceImageCandidates } from '../utils/urlHelper';
 import { useTheme } from '../utils/ThemeContext';
+import { useStrings } from '../utils/LanguageContext';
 
 interface ImageZoomModalProps {
   isOpen: boolean;
@@ -21,6 +22,7 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
   subtitle,
 }) => {
   const { isSunMode } = useTheme();
+  const t = useStrings().media;
   const [scale, setScale] = useState(1);
   const [attemptIndex, setAttemptIndex] = useState(0);
   const [hasError, setHasError] = useState(false);
@@ -74,7 +76,7 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
           id="btn-close-zoom-modal"
           onClick={onClose}
           className="p-2.5 rounded-full bg-stone-800 text-stone-300 hover:text-white hover:bg-stone-700 transition active:scale-95 cursor-pointer"
-          aria-label="Cerrar ampliación"
+          aria-label={t.zoomClose}
         >
           <X className="w-5 h-5" />
         </button>
@@ -97,7 +99,7 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
               <h4 className="text-sm font-extrabold text-stone-100 mb-1">{title}</h4>
               <p className="text-xs text-stone-400 flex items-center gap-1.5">
                 <ImageOff className="w-3.5 h-3.5" />
-                Fotografía del acervo en resguardo (foto próximamente)
+                {t.zoomPending}
               </p>
             </div>
           ) : (
@@ -125,8 +127,8 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
             onClick={handleZoomOut}
             disabled={scale <= 1}
             className="p-2 rounded-full hover:bg-stone-800 disabled:opacity-30 text-stone-300 transition active:scale-90 cursor-pointer"
-            title="Reducir zoom"
-            aria-label="Reducir zoom"
+            title={t.zoomOut}
+            aria-label={t.zoomOut}
           >
             <ZoomOut className="w-4 h-4" />
           </button>
@@ -138,8 +140,8 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
             onClick={handleZoomIn}
             disabled={scale >= 3.5}
             className="p-2 rounded-full hover:bg-stone-800 disabled:opacity-30 text-stone-300 transition active:scale-90 cursor-pointer"
-            title="Aumentar zoom"
-            aria-label="Aumentar zoom"
+            title={t.zoomIn}
+            aria-label={t.zoomIn}
           >
             <ZoomIn className="w-4 h-4" />
           </button>
@@ -148,8 +150,8 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
             id="btn-zoom-reset"
             onClick={handleReset}
             className="p-2 rounded-full hover:bg-stone-800 text-stone-300 hover:text-white transition active:scale-90 cursor-pointer"
-            title="Restablecer tamaño original"
-            aria-label="Restablecer zoom"
+            title={t.zoomResetTitle}
+            aria-label={t.zoomResetAria}
           >
             <RotateCcw className="w-4 h-4" />
           </button>

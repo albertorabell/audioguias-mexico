@@ -16,6 +16,8 @@ import { ttsPlayer } from '../utils/ttsPlayer';
 import { PieceImage } from './PieceImage';
 import { calculateRouteTimeMinutes, formatRouteDuration } from '../utils/routeOptimizer';
 import { getRoomLabel } from '../utils/roomLabel';
+import { useLanguage } from '../utils/LanguageContext';
+import { roomScriptLanguage } from '../i18n/content';
 
 interface RoomViewProps {
   room: Room;
@@ -32,21 +34,22 @@ export const RoomView: React.FC<RoomViewProps> = ({
   onSelectPiece,
   onStartRoomTour,
 }) => {
+  const { strings: t, currentLanguage } = useLanguage();
   const [isPlayingAudio, setIsPlayingAudio] = useState(false);
   const [playingPieceId, setPlayingPieceId] = useState<string | null>(null);
 
   const isPA = room.piso === 'PA';
-  const pisoText = isPA ? 'Planta Alta · Etnografía' : 'Planta Baja · Arqueología';
+  const pisoText = isPA ? t.room.floorPA : t.room.floorPB;
 
   const salaLabel = getRoomLabel(room);
 
-  const nombreOficial = room.nombre_oficial || room.name || room.room_id || 'Sala del Museo';
+  const nombreOficial = room.nombre_oficial || room.name || room.room_id || t.room.defaultName;
 
   const introduccionNarrativa =
     room.introduccion_narrativa ||
     room.short_description ||
     room.frase_gancho ||
-    'Bienvenidos a esta emblemática sala del Museo Nacional de Antropología.';
+    t.room.defaultIntro;
 
   // Piezas de la sala ordenadas estrictamente por orden_sugerido (sin forzar Piedra del Sol)
   const sortedPieces = useMemo(() => {
@@ -100,6 +103,7 @@ export const RoomView: React.FC<RoomViewProps> = ({
         {
           roomName: `${salaLabel} • ${nombreOficial}`,
           mode: 'inmersion',
+          lang: roomScriptLanguage(room, currentLanguage),
         }
       );
       setIsPlayingAudio(true);
@@ -122,7 +126,7 @@ export const RoomView: React.FC<RoomViewProps> = ({
           className="flex items-center gap-2 py-1.5 px-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-semibold text-stone-200 transition-all active:scale-95 cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4 text-[#F59E0B]" />
-          <span>Volver al explorador</span>
+          <span>{t.room.backToExplorer}</span>
         </button>
 
         <span className="text-[11px] font-mono text-[#F59E0B] font-bold tracking-widest uppercase">
@@ -141,7 +145,7 @@ export const RoomView: React.FC<RoomViewProps> = ({
           </span>
           {room.ala && (
             <span className="text-[10px] text-[#6B7280]">
-              • Ala {room.ala}
+              • {t.room.wing(t.room.wings[room.ala] || room.ala)}
             </span>
           )}
         </div>
@@ -171,10 +175,10 @@ export const RoomView: React.FC<RoomViewProps> = ({
               </div>
               <div className="text-left">
                 <span className="block text-sm font-black">
-                  Iniciar recorrido de esta sala
+                  {t.room.startTour}
                 </span>
                 <span className="text-[11px] font-medium text-black/80">
-                  {sortedPieces.length} piezas por orden de vitrina · ~{totalMinutosEstimados}
+                  {t.room.startTourSub(sortedPieces.length, totalMinutosEstimados)}
                 </span>
               </div>
             </div>
@@ -190,11 +194,11 @@ export const RoomView: React.FC<RoomViewProps> = ({
             <div className="flex items-center gap-2 text-[#F59E0B]">
               <Volume2 className="w-4 h-4" />
               <span className="text-xs font-extrabold uppercase tracking-wider">
-                Introducción a la Sala
+                {t.room.introTitle}
               </span>
             </div>
             <span className="text-[10px] font-mono text-[#9CA3AF]">
-              Audio Curatorial
+              {t.room.audioLabel}
             </span>
           </div>
 
@@ -214,12 +218,12 @@ export const RoomView: React.FC<RoomViewProps> = ({
             {isPlayingAudio && playingPieceId === null ? (
               <>
                 <Square className="w-4 h-4 fill-current animate-pulse text-red-400" />
-                <span>Detener Audio de la Sala</span>
+                <span>{t.room.stopRoomAudio}</span>
               </>
             ) : (
               <>
                 <Play className="w-4 h-4 fill-current text-amber-400" />
-                <span>Escuchar introducción curatorial</span>
+                <span>{t.room.listenRoomIntro}</span>
               </>
             )}
           </button>
@@ -231,10 +235,10 @@ export const RoomView: React.FC<RoomViewProps> = ({
         <div className="flex items-center justify-between">
           <h3 className="text-xs font-black uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Obras en esta sala ({sortedPieces.length})</span>
+            <span>{t.room.worksInRoom(sortedPieces.length)}</span>
           </h3>
           <span className="text-[10px] text-stone-400">
-            Orden sugerido de visita
+            {t.room.suggestedOrder}
           </span>
         </div>
 

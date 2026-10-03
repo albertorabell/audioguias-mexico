@@ -9,6 +9,9 @@
  */
 
 import { getAssetUrl } from './urlHelper';
+import { getCurrentLanguage } from '../i18n/runtime';
+import { getStrings } from '../i18n';
+import { SupportedLanguage, SPEECH_LOCALE } from '../i18n/languages';
 
 export interface TTSState {
   isPlaying: boolean;
@@ -59,6 +62,7 @@ class TTSPlayer {
   private currentChunkIndex = 0;
   private isSpeakingChunks = false;
   private errorMessage: string | null = null;
+  private currentLang: SupportedLanguage = 'es';
 
   private constructor() {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
@@ -104,11 +108,12 @@ class TTSPlayer {
   }
 
   /**
-   * Obtiene la voz preferida en español según el contenido (no el idioma del teléfono).
-   * Prioridad: es-MX -> es-US -> es-ES -> cualquier es-*.
+   * Obtiene la voz preferida para el idioma del TEXTO que se va a leer (no el idioma del teléfono).
+   * Español: es-MX -> es-US -> es-ES -> cualquier es-*. Inglés: en-US -> en-GB -> cualquier en-*.
+   * Otros idiomas: la región exacta y luego cualquier voz del idioma.
    * Si las voces están vacías en la primera llamada, espera hasta 2 segundos al evento voiceschanged.
    */
-  public async getPreferredVoiceAsync(): Promise<SpeechSynthesisVoice | null> {
+  public async getPreferredVoiceAsync(lang: SupportedLanguage = 'es'): Promise<SpeechSynthesisVoice | null> {
     if (!this.synth) return null;
 
     let voices = this.synth.getVoices();
@@ -146,6 +151,8 @@ class TTSPlayer {
 
     if (!voices || voices.length === 0) return null;
 
+    if (lang !== 'es') return this.pickVoiceFor(voices, lang);
+
     // 1. Preferir estrictamente español de México (es-MX / es_MX)
     const esMx = voices.find((v) => /^es[-_]MX$/i.test(v.lang) || v.lang.toLowerCase().includes('es-mx'));
     if (esMx) return esMx;
@@ -166,6 +173,20 @@ class TTSPlayer {
 
     // Si no hay ninguna voz en español, retornar null
     return null;
+  }
+
+  private pickVoiceFor(voices: SpeechSynthesisVoice[], lang: SupportedLanguage): SpeechSynthesisVoice | null {
+    const locale = SPEECH_LOCALE[lang].toLowerCase();
+    const same = (v: SpeechSynthesisVoice) => v.lang.toLowerCase().replace('_', '-') === locale;
+    const prefix = (v: SpeechSynthesisVoice) => v.lang.toLowerCase().startsWith(lang);
+    if (lang === 'en') {
+      const order = ['en-us', 'en-gb', 'en-au', 'en-ca'];
+      for (const code of order) {
+        const hit = voices.find((v) => v.lang.toLowerCase().replace('_', '-') === code);
+        if (hit) return hit;
+      }
+    }
+    return voices.find(same) || voices.find(prefix) || null;
   }
 
   private async requestWakeLock() {
@@ -213,9 +234,9 @@ class TTSPlayer {
             ];
 
         navigator.mediaSession.metadata = new MediaMetadata({
-          title: title || 'Audioguía',
-          artist: 'Museo Nacional de Antropología',
-          album: this.currentRoomName || 'Contenido editorial de Audioguías México',
+          title: title || getStrings(getCurrentLanguage()).player.mediaTitleFallback,
+          artist: getStrings(getCurrentLanguage()).common.museumName,
+          album: this.currentRoomName || getStrings(getCurrentLanguage()).common.editorialBadge,
           artwork,
         });
 
@@ -350,6 +371,8 @@ class TTSPlayer {
       pieceId?: string;
       mode?: 'expres' | 'inmersion';
       audioUrl?: string;
+      /** Idioma del texto que se lee (decide la voz del teléfono). Por defecto español. */
+      lang?: SupportedLanguage;
     }
   ): void {
     this.stop();
@@ -378,7 +401,12 @@ class TTSPlayer {
       this.isHtmlAudio = true;
 
       try {
-        const audio = new Audio(rawAudioUrl);
+        const audio = new Audio();
+        // Los audios de pago vienen de otro dominio (el servidor de audio): se piden con CORS para que el modo sin conexión pueda guardarlos
+        if (/^https?:\/\//i.test(rawAudioUrl) && typeof location !== 'undefined' && !rawAudioUrl.startsWith(location.origin)) {
+          audio.crossOrigin = 'anonymous';
+        }
+        audio.src = rawAudioUrl;
         this.htmlAudio = audio;
         audio.playbackRate = this.playbackRate;
 
@@ -441,10 +469,13 @@ class TTSPlayer {
       artworkUrl?: string;
       pieceId?: string;
       mode?: 'expres' | 'inmersion';
+      lang?: SupportedLanguage;
     }
   ): Promise<void> {
+    const speechLang: SupportedLanguage = meta?.lang || 'es';
+    const errs = getStrings(getCurrentLanguage()).errors;
     if (!this.synth) {
-      this.errorMessage = 'La síntesis de voz no está disponible en este dispositivo.';
+      this.errorMessage = errs.noSpeech;
       this.notify();
       onEnd?.();
       return;
@@ -455,11 +486,10 @@ class TTSPlayer {
       return;
     }
 
-    // Buscar voz en español obligatoria
-    const spanishVoice = await this.getPreferredVoiceAsync();
-    if (!spanishVoice) {
-      this.errorMessage =
-        'Tu teléfono no tiene voz en español. Puedes leer el texto o instalar una voz en Ajustes.';
+    // Buscar la voz del idioma del texto (obligatoria: no se lee un texto con la voz de otro idioma)
+    const voice = await this.getPreferredVoiceAsync(speechLang);
+    if (!voice) {
+      this.errorMessage = errs.noVoice(getStrings(getCurrentLanguage()).common.languageNames[speechLang]);
       this.notify();
       onEnd?.();
       return;
@@ -467,6 +497,7 @@ class TTSPlayer {
 
     this.isHtmlAudio = false;
     this.currentAudioUrl = '';
+    this.currentLang = speechLang;
     this.currentTitle = title;
     this.currentScript = text;
     this.currentRoomName = meta?.roomName || '';
@@ -507,7 +538,7 @@ class TTSPlayer {
     this.notify();
 
     // Comenzar a hablar frases consecutivas
-    this.speakCurrentChunk(spanishVoice);
+    this.speakCurrentChunk(voice);
   }
 
   private speakCurrentChunk(voice: SpeechSynthesisVoice) {
@@ -522,7 +553,7 @@ class TTSPlayer {
     const chunkText = this.textChunks[this.currentChunkIndex];
     const utterance = new SpeechSynthesisUtterance(chunkText);
     utterance.voice = voice;
-    utterance.lang = voice.lang || 'es-MX';
+    utterance.lang = voice.lang || SPEECH_LOCALE[this.currentLang];
     utterance.pitch = 1.0;
     utterance.rate = 0.95 * this.playbackRate;
 
@@ -536,7 +567,7 @@ class TTSPlayer {
     utterance.onerror = (event) => {
       if (event.error !== 'canceled' && event.error !== 'interrupted') {
         console.warn('Error en SpeechSynthesis:', event.error);
-        this.errorMessage = 'Hubo un inconveniente al reproducir la voz en este dispositivo.';
+        this.errorMessage = getStrings(getCurrentLanguage()).errors.speechFailed;
       }
       this.cleanup();
     };

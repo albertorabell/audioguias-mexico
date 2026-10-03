@@ -3,6 +3,7 @@ import { X, Search, ChevronRight, Volume2, Sparkles } from 'lucide-react';
 import { PieceData } from '../types';
 import { PieceImage } from './PieceImage';
 import { useTheme } from '../utils/ThemeContext';
+import { useStrings } from '../utils/LanguageContext';
 
 interface SearchModalProps {
   isOpen: boolean;
@@ -18,6 +19,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
   onSelectPiece,
 }) => {
   const { isSunMode } = useTheme();
+  const t = useStrings();
   const [searchQuery, setSearchQuery] = useState<string>('');
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -54,7 +56,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
     }
 
     return pieces.filter((piece) => {
-      const title = (piece.titulo || piece.title || '').toLowerCase();
+      const title = `${piece.titulo || piece.title || ''} ${(piece as any).titulo_es || ''}`.toLowerCase();
       const hook = (piece.frase_gancho || '').toLowerCase();
       const shortDesc = (piece.guion_corto || '').toLowerCase();
       const room = (piece.room_id || '').toLowerCase();
@@ -103,7 +105,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
             id="input-search-pieces"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Buscar por obra o sala (ej. Sol, Mexica, Pakal)..."
+            placeholder={t.search.placeholder}
             className={`flex-1 bg-transparent border-none outline-hidden text-sm sm:text-base font-semibold placeholder:text-stone-400 ${
               isSunMode ? 'text-stone-900' : 'text-white'
             }`}
@@ -112,7 +114,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
             <button
               onClick={() => setSearchQuery('')}
               className="p-1 rounded-lg text-stone-400 hover:text-white transition cursor-pointer"
-              title="Borrar texto"
+              title={t.search.clear}
             >
               <X className="w-4 h-4" />
             </button>
@@ -121,7 +123,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
             id="btn-close-search-modal"
             onClick={onClose}
             className="p-2 rounded-xl text-stone-400 hover:text-white hover:bg-white/5 transition cursor-pointer shrink-0"
-            aria-label="Cerrar búsqueda"
+            aria-label={t.search.closeAria}
           >
             <X className="w-5 h-5" />
           </button>
@@ -136,12 +138,10 @@ export const SearchModal: React.FC<SearchModalProps> = ({
           }`}
         >
           <span>
-            {searchQuery
-              ? `${filteredPieces.length} resultados encontrados`
-              : `Catálogo del museo (${pieces.length} obras)`}
+            {searchQuery ? t.search.resultsFound(filteredPieces.length) : t.search.catalog(pieces.length)}
           </span>
           <span className="font-mono text-[10px] text-amber-500">
-            {searchQuery ? 'Coincidencias directas' : 'Obras destacadas'}
+            {searchQuery ? t.search.directMatches : t.search.featured}
           </span>
         </div>
 
@@ -152,17 +152,17 @@ export const SearchModal: React.FC<SearchModalProps> = ({
               <div className="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-500 flex items-center justify-center mx-auto text-xl font-bold">
                 🔍
               </div>
-              <p className="text-sm font-bold">No se encontraron piezas para "{searchQuery}"</p>
+              <p className="text-sm font-bold">{t.search.noResults(searchQuery)}</p>
               <p className="text-xs text-stone-400 max-w-xs mx-auto">
-                Prueba buscando por nombre de cultura, de sala o palabras clave como "monolito", "máscara" o "jade".
+                {t.search.noResultsHint}
               </p>
             </div>
           ) : (
             filteredPieces.map((piece) => {
               const pId = piece.piece_id || piece.id;
-              const title = piece.titulo || piece.title || 'Pieza';
+              const title = piece.titulo || piece.title || t.common.pieceWord;
               const hook = piece.frase_gancho || piece.guion_corto?.slice(0, 60) || '';
-              const roomClean = piece.room_id ? piece.room_id.replace(/^sala-?/i, 'Sala ') : '';
+              const roomClean = piece.room_id ? piece.room_id.replace(/^sala-?/i, `${t.common.roomWord} `) : '';
 
               return (
                 <div
@@ -215,7 +215,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                   {/* Acciones */}
                   <div className="shrink-0 flex items-center gap-1.5">
                     <span className="hidden sm:inline-flex items-center gap-1 text-[11px] font-bold text-amber-500 group-hover:translate-x-0.5 transition-transform">
-                      <span>Ver</span>
+                      <span>{t.search.view}</span>
                       <ChevronRight className="w-3.5 h-3.5" />
                     </span>
                     <ChevronRight className="w-4 h-4 text-stone-400 sm:hidden" />

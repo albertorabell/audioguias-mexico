@@ -35,6 +35,10 @@ jobs:
 
       - name: Compilar proyecto con Vite
         run: npm run build
+        env:
+          # Dirección del servidor de cobro. Si la variable no existe, el cobro queda apagado ("Disponible pronto").
+          # Se crea en: Settings > Secrets and variables > Actions > Variables > PAGOS_API_URL
+          VITE_PAYMENTS_API_URL: ${{ vars.PAGOS_API_URL }}
 
       - name: Subir artefacto compilado
         uses: actions/upload-pages-artifact@v3

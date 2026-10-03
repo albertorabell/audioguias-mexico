@@ -1,6 +1,7 @@
 import React from 'react';
 import { ChevronLeft, ChevronRight, CheckCircle, Map } from 'lucide-react';
 import { RouteStop } from '../types';
+import { useStrings } from '../utils/LanguageContext';
 
 interface BottomNavProps {
   currentStopIndex: number;
@@ -23,13 +24,14 @@ export const BottomNav: React.FC<BottomNavProps> = ({
   onOpenMapModal,
   className = '',
 }) => {
+  const t = useStrings().chrome.bottomNav;
   const isFirstStop = currentStopIndex <= 0;
   const isLastStop = currentStopIndex >= totalStops - 1;
 
   return (
     <div
       id="tour-stop-nav-bar"
-      aria-label="Controles de avance de parada"
+      aria-label={t.controlsAria}
       className={`px-3 py-2 bg-[#141419]/90 backdrop-blur-md border-b border-white/10 text-[#F3F4F6] ${className}`}
     >
       <div className="flex items-center justify-between gap-2 max-w-md mx-auto">
@@ -39,7 +41,7 @@ export const BottomNav: React.FC<BottomNavProps> = ({
           type="button"
           onClick={onPreviousStop}
           disabled={isFirstStop}
-          aria-label="Ir a la parada anterior"
+          aria-label={t.prevAria}
           className={`min-h-[40px] px-3 rounded-xl text-xs font-bold flex items-center gap-1 border transition-all active:scale-95 shrink-0 cursor-pointer ${
             isFirstStop
               ? 'opacity-30 cursor-not-allowed border-white/5 text-[#6B7280] bg-transparent'
@@ -47,22 +49,22 @@ export const BottomNav: React.FC<BottomNavProps> = ({
           }`}
         >
           <ChevronLeft className="w-4 h-4 text-[#F59E0B]" />
-          <span className="hidden xs:inline">Anterior</span>
+          <span className="hidden xs:inline">{t.prev}</span>
         </button>
 
         {/* Indicador Central de Parada */}
         <div className="flex-1 min-w-0 text-center px-1">
           <div className="flex items-center justify-center gap-1.5">
             <span className="text-[10px] font-black uppercase tracking-widest text-[#F59E0B]">
-              PARADA {Math.min(currentStopIndex + 1, totalStops)} DE {totalStops}
+              {t.stopOf(Math.min(currentStopIndex + 1, totalStops), totalStops)}
             </span>
             {onOpenMapModal && (
               <button
                 type="button"
                 onClick={onOpenMapModal}
                 className="p-1 rounded-md text-[#9CA3AF] hover:text-white hover:bg-white/5 transition"
-                title="Ver vitrina en el plano"
-                aria-label="Ver vitrina en mapa"
+                title={t.mapTitle}
+                aria-label={t.mapAria}
               >
                 <Map className="w-3 h-3 text-[#F59E0B]" />
               </button>
@@ -70,10 +72,10 @@ export const BottomNav: React.FC<BottomNavProps> = ({
           </div>
           <p className="text-[11px] font-semibold text-stone-200 truncate mt-0.5">
             {isLastStop
-              ? '🏁 Última parada del recorrido'
+              ? t.lastStop
               : nextStop
-              ? `Sig: ${nextStop.title}`
-              : 'Siguiente obra'}
+              ? t.next(nextStop.title)
+              : t.nextPiece}
           </p>
         </div>
 
@@ -82,7 +84,7 @@ export const BottomNav: React.FC<BottomNavProps> = ({
           id="btn-next-stop"
           type="button"
           onClick={onNextStop}
-          aria-label={isLastStop ? 'Finalizar recorrido' : 'Avanzar a la siguiente parada'}
+          aria-label={isLastStop ? t.finishAria : t.advanceAria}
           className={`min-h-[40px] flex items-center gap-1.5 px-3.5 rounded-xl text-xs font-bold tracking-wide transition-all active:scale-95 shadow-md shrink-0 cursor-pointer ${
             isLastStop
               ? 'bg-[#10B981] hover:bg-emerald-400 text-black shadow-[#10B981]/25'
@@ -92,11 +94,11 @@ export const BottomNav: React.FC<BottomNavProps> = ({
           {isLastStop ? (
             <>
               <CheckCircle className="w-4 h-4" />
-              <span>Finalizar</span>
+              <span>{t.finish}</span>
             </>
           ) : (
             <>
-              <span>Avanzar</span>
+              <span>{t.advance}</span>
               <ChevronRight className="w-4 h-4" />
             </>
           )}
