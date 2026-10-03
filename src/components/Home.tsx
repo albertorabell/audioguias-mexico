@@ -21,6 +21,7 @@ import { localizeSite } from '../i18n/content';
 import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
 import { useTheme } from '../utils/ThemeContext';
 import { PWAInstallButton } from './PWAInstallButton';
+import { InstallCard } from './InstallHelp';
 import { useStrings } from '../utils/LanguageContext';
 
 interface HomeProps {
@@ -291,6 +292,9 @@ export const Home: React.FC<HomeProps> = ({
             )}
           </div>
         </section>
+
+        {/* Cómo instalar la app (se oculta si ya está instalada o si la persona lo pide) */}
+        <InstallCard />
 
         {/* ================= SECCIÓN '¿CÓMO FUNCIONA EL PASE PREMIUM?' ================= */}
         <section
