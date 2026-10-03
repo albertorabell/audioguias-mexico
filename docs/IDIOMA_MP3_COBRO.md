@@ -15,7 +15,7 @@ Esta guía es para ti, Alberto. Cada paso es corto. Haz uno, revisa que salió b
 | **Textos de piezas y salas** | La app lee las traducciones de columnas nuevas del Sheets (Parte A). Si una pieza no tiene traducción, se muestra y se lee **en español** y la app avisa: «Esta pieza todavía no tiene texto en este idioma». Nunca inventa texto. |
 | **MP3** | Si una pieza tiene archivo MP3, la app lo reproduce. Si no tiene, usa la voz del teléfono, como hasta ahora. Los MP3 se pueden guardar para escuchar **sin internet**. |
 | **Cobro con Stripe** | Botón «Pagar con tarjeta» → página segura de Stripe → regreso a la app con el pase activo. El pase dura 72 horas (cuenta desde que se activa), funciona hasta en 2 dispositivos con un **código corto** (por ejemplo `ABCD-1234`). |
-| **Pruebas** | GitHub revisa solo: tipos, compilación, pruebas del servidor de cobro, del generador de MP3 (incluido un ensayo con voz de prueba) y **14 pruebas en un navegador de verdad** (cambio de idioma, MP3 gratis y de pago, pago con Stripe simulado, código de pase, cobro apagado). Todo salió en verde. |
+| **Pruebas** | GitHub revisa solo: tipos, compilación, pruebas del servidor de cobro, del generador de MP3 (incluido un ensayo con voz de prueba) y **15 pruebas en un navegador de verdad** (cambio de idioma, MP3 gratis y de pago, pago con Stripe simulado, código de pase, cobro apagado). Todo salió en verde. |
 
 **Lo que NO se pudo probar desde aquí** (necesita tus cuentas): el pago real con Stripe, la subida real a Cloudflare, y la voz real de Azure/OpenAI. Todo eso se probó con simulaciones; en cuanto tengas las cuentas, las Partes B y C incluyen una prueba chica con dinero de mentira antes de cobrar de verdad.
 
@@ -94,7 +94,7 @@ Calcula de antemano con el botón de GitHub (Paso B4, con la casilla «generar»
 
 Referencia que usé (precios aproximados; **confírmalos en la página del proveedor antes de pagar**):
 
-- **Azure (voces neuronales):** unos USD 16 por millón de caracteres. Voces naturales en español de México.
+- **Azure (voces neuronales):** unos USD 15 por millón de caracteres, según un sitio de comparación (la página de Microsoft no cargó cuando la revisé). Voces naturales en español de México.
 - **OpenAI `tts-1`:** unos USD 15 por millón de caracteres (`tts-1-hd`: unos USD 30).
 - Todo el catálogo en español (133 piezas, corto + largo) son unos **555 mil caracteres** → del orden de **USD 8 a 9** por idioma, una sola vez. Solo cambia cuando cambias los textos.
 - Las 23 piezas gratis son una parte pequeña de ese total.
@@ -146,13 +146,13 @@ El cobro necesita un **servidor pequeño** (en Cloudflare, gratis para tu volume
 ### Qué cuesta (aproximado — confirma en las páginas oficiales)
 
 - **Cloudflare Workers, KV y R2:** hay plan gratuito amplio. Cloudflare puede pedirte una tarjeta para activar R2, aunque no cobra mientras no pases el límite gratuito.
-- **Stripe México:** cobra una comisión por pago (unos 3.6 % + MXN 3 + IVA con tarjeta nacional, según lo que sé; **confirma en stripe.com/mx/pricing**). No hay mensualidad.
+- **Stripe México:** 3.6 % + MXN 3 por pago con tarjeta nacional, 0.5 % más con tarjeta extranjera y 2 % más si hay conversión de moneda, todo sin IVA (revisado en https://stripe.com/en-mx/pricing el 2 de octubre de 2026; **confírmalo antes de cobrar**). No hay mensualidad.
 
 ### Paso C1 — Cuenta de Stripe
 
 1. Crea tu cuenta en https://stripe.com/mx
 2. **Empieza en «Modo de prueba»** (el interruptor arriba a la derecha). Nada de lo que hagas ahí cobra dinero real.
-3. Para cobrar de verdad más adelante, Stripe te pedirá datos de tu negocio y tu cuenta bancaria.
+3. Para cobrar de verdad más adelante, Stripe te pedirá datos de tu negocio y tu cuenta bancaria (como persona física en México: RFC de 13 caracteres, cuenta en pesos con CLABE, dirección en México, teléfono de soporte y un sitio web o enlace de red social). **Elige México como país desde el principio: después no se puede cambiar.**
 
 ### Paso C2 — Crea el producto y el precio
 
@@ -187,7 +187,7 @@ En GitHub abre el archivo `pagos/wrangler.toml` y con el lápiz (✏️) cambia:
 - `STRIPE_PRICE_ID_USD` → el `price_` en dólares, o déjalo vacío `""` si no lo creaste.
 - `id` del KV → el ID del Paso C4.
 
-No toques `ALLOWED_ORIGINS` (ya dice `https://albertorabell.github.io`). Si algún día usas dominio propio, aquí se agrega.
+No toques `ALLOWED_ORIGINS` (ya dice `https://albertorabell.github.io`). Si algún día usas dominio propio o mueves el sitio a Cloudflare Pages, aquí se agrega la dirección nueva.
 
 ### Paso C7 — Publica el servidor
 
@@ -220,6 +220,7 @@ Con Stripe en **modo de prueba**:
 3. Cambia `STRIPE_SECRET_KEY` por la clave real (`sk_live_...`) y los `price_` en `pagos/wrangler.toml`.
 4. Vuelve a correr «Publicar el servidor de cobro».
 5. **Antes de cobrar a otras personas** necesitas: **Términos y condiciones**, **Aviso de privacidad** y política de reembolsos visibles en la app. Si necesitas emitir facturas (CFDI), consúltalo con tu contador. Esto es tarea de negocio/legal: yo no soy abogado ni contador.
+6. **Antes de cobrar a otras personas, sal de GitHub Pages.** Su regla dice que Pages no está pensado ni permitido como alojamiento gratis para un negocio en línea o un sitio dirigido principalmente a facilitar transacciones comerciales (https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits). La opción que recomiendo es Cloudflare Pages.
 
 ### Cosas que debes saber (honestas)
 

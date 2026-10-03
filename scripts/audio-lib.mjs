@@ -105,7 +105,7 @@ export function splitText(text, max = 3000) {
 
 /** Precios de referencia en dólares por millón de caracteres. Son aproximados: confirma en la página del proveedor antes de generar. */
 export const REFERENCE_PRICE_USD_PER_MILLION_CHARS = {
-  azure: 16, // Azure AI Speech, voces neuronales estándar (la capa gratuita da unos 500 mil caracteres al mes)
+  azure: 15, // Azure AI Speech, voces neuronales estándar; cifra de un sitio de comparación, confírmala con Microsoft (la capa gratuita da unos 500 mil caracteres al mes)
   openai: 15, // OpenAI tts-1
   prueba: 0,
 };
