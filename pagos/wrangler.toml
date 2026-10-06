@@ -16,7 +16,7 @@ STRIPE_PRICE_ID_USD = ""
 # Aquí se guardan los pases comprados
 [[kv_namespaces]]
 binding = "PASES"
-id = "REEMPLAZA_CON_EL_ID_DEL_KV"
+id = "2a15cc7724a04b42b185a68b7bf799a5"
 
 # Aquí viven los MP3 de las piezas de pago
 [[r2_buckets]]
