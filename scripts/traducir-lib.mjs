@@ -168,7 +168,8 @@ All texts:
 - A glossary English term shown with a parenthetical, such as "Voladores (Flyers)", gets the parenthetical only the first time it appears within the text you are translating; afterwards use the term without it.
 - "Sala X" (a hall of the museum) becomes "X Hall".
 - Follow the capitalization of the source for glossary terms: a lowercase concept stays lowercase (for example "guerra sagrada" as a general idea becomes "sacred war"), while a capitalized name stays capitalized.
-- Eras: "d.C." becomes "CE" and "a.C." becomes "BCE" (for example "1250-1521 d.C." becomes "1250-1521 CE").
+- Eras: "d.C." becomes "AD" and "a.C." becomes "BC", placed after the year or range as in the source (for example "1250-1521 d.C." becomes "1250-1521 AD").
+- If the source spells a glossary name slightly differently from the glossary (for example "Nahui Olin" and the glossary says "Nahui Ollin"), use the glossary spelling.
 - Use typographic quotation marks (“ ”) and apostrophes (’), like the Spanish source, never straight quotes.`;
 }
 

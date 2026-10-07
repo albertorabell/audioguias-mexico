@@ -6,7 +6,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { main, parseArgs } from '../traducir.mjs';
-import { applyStoredTranslations, fieldHash, glossaryFor, loadGlossary, validateTranslation, usdFromUsage } from '../traducir-lib.mjs';
+import { applyStoredTranslations, buildSystemPrompt, fieldHash, glossaryFor, loadGlossary, validateTranslation, usdFromUsage } from '../traducir-lib.mjs';
 
 const GLOSSARY = `categoria,tipo,espanol,ingles_propuesto,veces_en_los_textos,nota
 Dioses,igual,Tláloc,Tláloc,23,
@@ -296,4 +296,13 @@ test('unir traducciones: archivos dañados se ignoran sin romper la publicación
 
 test('costo: se calcula con lo que informa la API', () => {
   assert.equal(usdFromUsage({ input_tokens: 1_000_000, output_tokens: 1_000_000 }, { input: 2, output: 10, cacheWrite: 2.5, cacheRead: 0.2 }), 12);
+});
+
+test('las reglas del traductor incluyen las decisiones de Alberto (AD/BC, ortografía del glosario, comillas)', () => {
+  const sys = buildSystemPrompt('en');
+  assert.ok(sys.includes('"d.C." becomes "AD"') && sys.includes('"a.C." becomes "BC"'));
+  assert.ok(!sys.includes('BCE') && !sys.includes('"CE"'));
+  assert.ok(sys.includes('use the glossary spelling'));
+  assert.ok(sys.includes('typographic quotation marks'));
+  assert.ok(sys.includes('"Mito:" and "Realidad:"') && sys.includes('"Myth:" and "Reality:"'));
 });
