@@ -166,3 +166,19 @@ test('--pronunciar con variantes de voz y de idioma arma el SSML con la voz prin
   assert.equal((bodies[1].match(/<voice /g) || []).length, (bodies[1].match(/<\/voice>/g) || []).length);
   assert.ok(bodies[2].includes('<lang xml:lang="en-US">meshicas</lang>'));
 });
+
+test('voces con ":" en el nombre (Dragon HD) se guardan con un nombre de archivo válido y el índice avisa que son HD', async () => {
+  const dir = tmpProject();
+  fs.writeFileSync(path.join(dir, 'public/data/pieces.json'), JSON.stringify([{ ...pieces[0], guion_corto_en: 'Hello world. This is a test piece for the voices.' }]));
+  const voices = [{ ShortName: 'en-US-Adam:DragonHDLatestNeural', Gender: 'Male', Locale: 'en-US', Status: 'GA' }];
+  const fetchImpl = async (url, opts) => {
+    if (url.endsWith('/voices/list')) return { ok: true, json: async () => voices };
+    assert.match(opts.body, /<voice name="en-US-Adam:DragonHDLatestNeural">/, 'a Azure se le sigue pidiendo el nombre real');
+    return { ok: true, arrayBuffer: async () => new Uint8Array([1, 2, 3]).buffer };
+  };
+  const code = await main(['--lang', 'en', '--pieza', 'p1', '--generar'], { root: dir, env: ENV, fetchImpl, ...quiet });
+  assert.equal(code, 0);
+  const out = path.join(dir, 'muestras-voz/en');
+  assert.deepEqual(fs.readdirSync(out).sort(), ['en-US-Adam-DragonHDLatestNeural.mp3', 'indice.md']);
+  assert.match(fs.readFileSync(path.join(out, 'indice.md'), 'utf-8'), /HD: otro precio/);
+});
