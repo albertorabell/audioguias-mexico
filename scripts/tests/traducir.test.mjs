@@ -8,14 +8,17 @@ import path from 'node:path';
 import { main, parseArgs } from '../traducir.mjs';
 import { applyStoredTranslations, buildSystemPrompt, fieldHash, glossaryFor, loadGlossary, validateTranslation, usdFromUsage } from '../traducir-lib.mjs';
 
-const GLOSSARY = `categoria,tipo,espanol,ingles_propuesto,veces_en_los_textos,nota
-Dioses,igual,Tláloc,Tláloc,23,
-Sitios,igual,Tula,Tula,60,
-Términos,igual,Homo,Homo,6,
-Periodos,traducir,Posclásico Tardío,Late Postclassic,34,
-Pueblos,aprobado,Wixárika / Huichol,Wixárika (Huichol),9,
-Sin decidir,revisar,Puréecherio,Purépecha Hall,3,
-Museo,traducir,Sala,Hall,190,
+const GLOSSARY = `categoria,tipo,espanol,ingles_propuesto,veces_en_los_textos,nota,frances_propuesto
+Dioses,igual,Tláloc,Tláloc,23,,Tláloc
+Sitios,igual,Tula,Tula,60,,Tula
+Términos,igual,Homo,Homo,6,,Homo
+Periodos,traducir,Posclásico Tardío,Late Postclassic,34,,Postclassique récent
+Pueblos,aprobado,Wixárika / Huichol,Wixárika (Huichol),9,,Wixárika (Huichol)
+Pueblos,traducir,Olmeca / Olmecas,Olmec,5,,Olmèque
+Pueblos,igual,Mexica,Mexica,50,,Mexica
+Sin decidir,revisar,Puréecherio,Purépecha Hall,3,,Salle Purépecha
+Museo,traducir,Sala,Hall,190,,Salle
+Sin francés,traducir,Dios Raro,Weird God,1,,
 `;
 
 const LONG_ES =
@@ -96,7 +99,7 @@ test('sin --generar solo muestra el plan: no llama a la API ni guarda nada', asy
 });
 
 test('las opciones inválidas se rechazan', () => {
-  assert.throws(() => parseArgs(['--lang', 'fr']), /Idioma no válido/);
+  assert.throws(() => parseArgs(['--lang', 'de']), /Idioma no válido/);
   assert.throws(() => parseArgs(['--limite', '0']), /mayor que 0/);
   assert.throws(() => parseArgs(['--max-usd', '-1']), /mayor que 0/);
   assert.throws(() => parseArgs(['--proveedor', 'otro']), /claude o prueba/);
@@ -330,4 +333,69 @@ test('el espacio para la respuesta es amplio (casi el doble de lo medido) y nunc
   const chars = JSON.stringify(JSON.parse(fs.readFileSync(path.join(root, 'public/data/pieces.json'), 'utf-8'))[0]).length;
   assert.ok(calls[0].body.max_tokens >= chars * 0.5 * 1.5, `max_tokens ${calls[0].body.max_tokens} para ${chars} caracteres`);
   assert.ok(calls[0].body.max_tokens <= 16000);
+});
+
+// ---------------------------------------------------------------------------
+// Francés
+// ---------------------------------------------------------------------------
+test('francés: el glosario usa su propia columna y omite lo que no tiene decisión', () => {
+  const file = path.join(makeRoot(1), 'glosario/glosario.csv');
+  const fr = loadGlossary(file, 'fr');
+  const byEs = (es) => fr.find((g) => g.es === es);
+  assert.equal(byEs('Posclásico Tardío').en, 'Postclassique récent');
+  assert.equal(byEs('Tláloc').keep, true);
+  assert.equal(byEs('Olmeca / Olmecas').keep, false);
+  assert.equal(byEs('Dios Raro'), undefined, 'sin francés: no se usa');
+  assert.equal(byEs('Puréecherio'), undefined, 'revisar: no se usa');
+  assert.equal(loadGlossary(file, 'en').find((g) => g.es === 'Posclásico Tardío').en, 'Late Postclassic');
+  assert.equal(loadGlossary(file, 'en').find((g) => g.es === 'Dios Raro').en, 'Weird God');
+});
+
+test('francés: las reglas traen las decisiones (vous, apr. J.-C., comillas, Mexico/Mexique)', () => {
+  const p = buildSystemPrompt('fr');
+  for (const must of ['French (France)', 'vous', 'apr. J.-C.', 'av. J.-C.', '« »', 'Mythe :', 'Réalité :', 'Salle X', 'le Mexique', 'Toltèque']) assert.ok(p.includes(must), `falta: ${must}`);
+  assert.ok(!p.includes('Myth:'));
+  assert.ok(buildSystemPrompt('en').includes('Myth:'), 'el inglés no cambia');
+});
+
+test('francés: "de", "la", "en" no cuentan como español, pero el español real sí se detecta', () => {
+  const src = { guion_corto: 'La piedra del Sol fue tallada por los mexicas en el siglo XV y está dedicada a la creación del mundo.' };
+  const FR = 'La Pierre du Soleil a été taillée par les Mexicas au XVe siècle et elle est dédiée à la création du monde, en pleine capitale.';
+  assert.deepEqual(validateTranslation(src, { guion_corto: FR }, [], { lang: 'fr' }).errors, []);
+  const ES_LEFT = 'La piedra del Sol fue tallada por los mexicas con una fuerza que sus visitantes sienten, pero también con una belleza como pocas.';
+  const r = validateTranslation(src, { guion_corto: ES_LEFT }, [], { lang: 'fr' });
+  assert.ok(r.errors.some((e) => /español/.test(e)), JSON.stringify(r));
+});
+
+test('francés: números con espacio o coma cuentan; nombres que se quedan igual aceptan plural', () => {
+  const src = { guion_corto: 'Pesa 24 toneladas, mide 3.58 m y se talló en 1521. Los mexica la veneraban, junto con 12,000 objetos más.' };
+  const g = loadGlossary(path.join(makeRoot(1), 'glosario/glosario.csv'), 'fr');
+  const ok = { guion_corto: 'Elle pèse 24 tonnes, mesure 3,58 m et fut taillée en 1521. Les Mexicas la vénéraient, avec 12 000 objets de plus.' };
+  const r = validateTranslation(src, ok, glossaryFor(g, [src.guion_corto]), { lang: 'fr' });
+  assert.deepEqual(r.warnings, {}, JSON.stringify(r));
+  const bad = { guion_corto: 'Elle pèse 24 tonnes et fut taillée en 1521. Les Aztèques la vénéraient.' };
+  const r2 = validateTranslation(src, bad, glossaryFor(g, [src.guion_corto]), { lang: 'fr' });
+  assert.ok(r2.warnings.guion_corto.some((w) => /3\.58/.test(w)) && r2.warnings.guion_corto.some((w) => /Mexica/.test(w)), JSON.stringify(r2));
+});
+
+test('francés: corrida de prueba guarda en traducciones/fr y se une como campo_fr', async () => {
+  const root = makeRoot(2);
+  const out = [];
+  const code = await main(['--lang', 'fr', '--proveedor', 'prueba', '--generar', '--limite', '2', '--solo', 'piezas'], { root, env: {}, log: (m) => out.push(m), warn: () => {} });
+  assert.equal(code, 0);
+  const file = path.join(root, 'traducciones/fr/pieza_p00.json');
+  assert.ok(fs.existsSync(file));
+  assert.equal(JSON.parse(fs.readFileSync(file, 'utf-8')).idioma, 'fr');
+  assert.ok(!fs.existsSync(path.join(root, 'traducciones/en')));
+  const pieces = JSON.parse(fs.readFileSync(path.join(root, 'public/data/pieces.json'), 'utf-8'));
+  const r = applyStoredTranslations(root, pieces, [], ['fr']);
+  assert.ok(r.fr.applied > 0);
+  assert.ok(pieces[0].guion_corto_fr);
+  assert.ok(!pieces[0].guion_corto_en);
+});
+
+test('francés: el estimado es más alto que el del inglés (supuesto, sin medir)', async () => {
+  const { estimateUnit } = await import('../traducir-lib.mjs');
+  const f = { guion_largo: 'x'.repeat(4000) };
+  assert.ok(estimateUnit(f, [], 'fr').usd > estimateUnit(f, [], 'en').usd);
 });

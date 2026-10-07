@@ -19,7 +19,9 @@ export const ROOM_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narr
 export const SPOKEN_FIELDS = ['guion_corto', 'guion_largo'];
 
 // Idiomas que ya tienen glosario y reglas. Los demás se agregan cuando existan.
-export const LANG_NAMES = { en: 'English (US)' };
+export const LANG_NAMES = { en: 'English (US)', fr: 'French (France)' };
+// Columna del glosario con la decisión de cada idioma
+export const GLOSSARY_COLUMNS = { en: 'ingles_propuesto', fr: 'frances_propuesto' };
 export const TRANSLATE_LANGS = Object.keys(LANG_NAMES);
 
 export const TRANSLATIONS_DIR = 'traducciones';
@@ -93,20 +95,23 @@ function parseCsvRows(input) {
 }
 
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const wordRe = (term) => new RegExp(`(?<![\\p{L}\\p{N}])${escapeRe(term)}(?![\\p{L}\\p{N}])`, 'iu');
+// plural=true: en francés un nombre que se queda igual puede llevar -s o -x al final ("les Mexicas")
+const wordRe = (term, plural = false) => new RegExp(`(?<![\\p{L}\\p{N}])${escapeRe(term)}${plural ? '[sx]?' : ''}(?![\\p{L}\\p{N}])`, 'iu');
 
 /**
  * Lee glosario/glosario.csv. Devuelve entradas { es, alts, en, keep, first, check }.
+ * La propiedad "en" guarda la decisión del idioma pedido (inglés o francés).
  *   keep  = el nombre se queda igual
  *   first = en inglés lleva una aclaración entre paréntesis que se usa solo la primera vez
  * Las filas "revisar" (sin decisión) se ignoran.
  */
-export function loadGlossary(file) {
+export function loadGlossary(file, lang = 'en') {
   if (!fs.existsSync(file)) return [];
   const rows = parseCsvRows(fs.readFileSync(file, 'utf-8'));
   const head = rows.shift() || [];
   const col = (name) => head.indexOf(name);
-  const iTipo = col('tipo'), iEs = col('espanol'), iEn = col('ingles_propuesto');
+  const iTipo = col('tipo'), iEs = col('espanol'), iEn = col(GLOSSARY_COLUMNS[lang] || GLOSSARY_COLUMNS.en);
+  if (iEn < 0) return [];
   const out = [];
   for (const r of rows) {
     const tipo = (r[iTipo] || '').trim();
@@ -114,7 +119,7 @@ export function loadGlossary(file) {
     const en = (r[iEn] || '').trim();
     if (!es || !en || tipo === 'revisar') continue;
     const alts = es.split(' / ').map((s) => s.trim()).filter(Boolean);
-    const keep = tipo === 'igual' || alts.some((a) => a.toLowerCase() === en.toLowerCase());
+    const keep = (lang === 'en' && tipo === 'igual') || alts.some((a) => a.toLowerCase() === en.toLowerCase());
     const base = en.replace(/\s*\([^)]*\)\s*$/, '').trim();
     out.push({
       es,
@@ -125,7 +130,7 @@ export function loadGlossary(file) {
       first: /\([^)]*\)\s*$/.test(en) && !alts.some((a) => a.includes('(')),
       // "Sala" → "Hall" depende de la frase; no se revisa palabra por palabra
       check: es !== 'Sala',
-      re: alts.map(wordRe),
+      re: alts.map((a) => wordRe(a)),
     });
   }
   return out;
@@ -142,9 +147,42 @@ export const flatText = (v) => (typeof v === 'string' ? v : Array.isArray(v) ? v
 // ---------------------------------------------------------------------------
 // Instrucciones para el traductor
 // ---------------------------------------------------------------------------
+
+function buildFrenchSystemPrompt() {
+  return `You are a professional translator for a museum audio-guide app about the National Museum of Anthropology (MNA) in Mexico City. You translate from Mexican Spanish into natural, polished French (France) for curious visitors who are not specialists. Address the visitor with "vous".
+
+You receive a JSON object. Translate every value and return ONE JSON object with exactly the same keys, in the same order, and nothing else: no commentary, no code fences.
+
+Keep the shapes identical:
+- A string stays a string.
+- An array stays an array with the same number of items, in the same order.
+- "especificaciones" is an object: keep the same number of entries, in the same order. Translate both the labels (keys) and the values. Use these fixed labels: Cultura = Culture; Periodo = Période; Material = Matériau; Procedencia = Provenance; Medidas = Dimensions; Región = Région; Técnica/Material = Technique/Matériau; Función = Fonction; Pueblo = Peuple; Pueblo Indígena = Peuple autochtone; Autor/Cultura = Auteur/Culture; Año = Année; Ubicación = Emplacement; Antigüedad = Âge. Translate any other label plainly.
+- "faq_mito" is an object with the keys "pregunta" and "respuesta". Keep those two keys exactly as they are and translate only the values. The Spanish values begin with "Mito:" and "Realidad:"; write "Mythe :" and "Réalité :".
+
+Spoken scripts ("guion_corto" and "guion_largo"):
+- They are read aloud by a text-to-speech voice. Write flowing spoken prose: no lists, no markdown, no emojis, no parenthetical asides (except glossary terms that the glossary shows with parentheses).
+- Same sentences, same information, same order. Do not add, explain, summarize or omit anything.
+- Keep years and dates as digits when the source uses digits. If the source writes a number in words, write it in words. Write years without separators (1521); write other large numbers with a no-break space as the thousands separator (12 000) and a decimal comma (2,5).
+- Keep metric units. Never convert to miles, feet or pounds.
+
+All texts:
+- Translate meaning faithfully, with the tone of the source: evocative but accurate. Do not invent facts.
+- Never leave Spanish words in the French text, except proper names covered by the glossary.
+- The glossary in the user message is mandatory: names marked KEEP stay exactly as written (keep their accents; they may take the French plural -s, for example "les Mexicas"); the others use the French given.
+- A glossary French term shown with a parenthetical, such as "Voladores (Hommes volants)", gets the parenthetical only the first time it appears within the text you are translating; afterwards use the term without it.
+- "Sala X" (a hall of the museum) becomes "Salle X".
+- Follow the French capitalization conventions, but a glossary term keeps the capitalization the glossary gives it.
+- Names of peoples used as nouns take a capital letter and agree in number ("les Mayas", "un Toltèque"); as adjectives they are lowercase and agree in gender and number ("la culture maya", "les sculptures olmèques"). Inflect the glossary form accordingly (Toltèque → toltèque, toltèques).
+- Eras: "d.C." becomes "apr. J.-C." and "a.C." becomes "av. J.-C.", placed after the year or range as in the source (for example "1250-1521 d.C." becomes "1250-1521 apr. J.-C.").
+- If the source spells a glossary name slightly differently from the glossary (for example "Nahui Olin" and the glossary says "Nahui Ollin"), use the glossary spelling.
+- Places: the city is "Mexico", the country is "le Mexique", the state is "l’État de Mexico", the gulf is "le golfe du Mexique". Inside names the glossary marks KEEP (such as "México-Tenochtitlan") keep the accent.
+- Typography: use French quotation marks « » with a no-break space inside them (« comme ceci »), a no-break space before : ; ! and ?, and the typographic apostrophe (’), never straight quotes.`;
+}
+
 export function buildSystemPrompt(lang) {
   const name = LANG_NAMES[lang];
   if (!name) throw new Error(`Todavía no hay reglas ni glosario para el idioma "${lang}".`);
+  if (lang === 'fr') return buildFrenchSystemPrompt();
   return `You are a professional translator for a museum audio-guide app about the National Museum of Anthropology (MNA) in Mexico City. You translate from Mexican Spanish into natural, polished ${name} for curious visitors who are not specialists.
 
 You receive a JSON object. Translate every value and return ONE JSON object with exactly the same keys, in the same order, and nothing else: no commentary, no code fences.
@@ -201,10 +239,14 @@ export function parseJsonReply(text) {
 const ES_STOPWORDS = new Set(['el', 'la', 'los', 'las', 'de', 'del', 'que', 'y', 'en', 'un', 'una', 'con', 'por', 'para', 'se', 'su', 'sus', 'es', 'al', 'como', 'más', 'pero', 'esta', 'este', 'estos', 'estas']);
 const words = (s) => (String(s).toLowerCase().match(/\p{L}+/gu) || []);
 
-function spanishRatio(text) {
+// El francés comparte "de", "la", "en", "un", "que", "se", "y": para ese idioma solo cuentan las palabras que NO existen en francés
+const ES_ONLY_STOPWORDS = new Set(['el', 'los', 'las', 'del', 'una', 'con', 'por', 'para', 'su', 'sus', 'al', 'como', 'más', 'pero', 'esta', 'este', 'estos', 'estas', 'fue', 'son', 'han', 'sido', 'también', 'donde']);
+
+function spanishRatio(text, lang = 'en') {
   const w = words(text);
   if (!w.length) return 0;
-  return w.filter((x) => ES_STOPWORDS.has(x)).length / w.length;
+  const set = lang === 'fr' ? ES_ONLY_STOPWORDS : ES_STOPWORDS;
+  return w.filter((x) => set.has(x)).length / w.length;
 }
 
 const strings = (v) => (typeof v === 'string' ? [v] : Array.isArray(v) ? v.flatMap(strings) : v && typeof v === 'object' ? Object.values(v).flatMap(strings) : []);
@@ -215,7 +257,7 @@ const strings = (v) => (typeof v === 'string' ? [v] : Array.isArray(v) ? v.flatM
  * warnings → se guarda, pero queda anotado para que alguien la revise.
  * Con fake=true (proveedor de prueba) solo se revisa la forma, no el idioma.
  */
-export function validateTranslation(source, out, glossaryEntries = [], { fake = false } = {}) {
+export function validateTranslation(source, out, glossaryEntries = [], { fake = false, lang = 'en' } = {}) {
   const errors = [];
   const warnings = {};
   const warn = (field, msg) => (warnings[field] ||= []).push(msg);
@@ -257,16 +299,20 @@ export function validateTranslation(source, out, glossaryEntries = [], { fake = 
     if (sText.length >= 80) {
       const ratio = oText.length / sText.length;
       if (ratio < 0.5 || ratio > 1.5) errors.push(`${f}: el largo no cuadra (${Math.round(ratio * 100)} % del español)`);
-      if (spanishRatio(oText) > 0.08) errors.push(`${f}: parece que quedó texto en español`);
+      if (spanishRatio(oText, lang) > 0.08) errors.push(`${f}: parece que quedó texto en español`);
     }
 
-    const digitsIn = sText.match(/\d[\d.,]*/g) || [];
-    const lost = [...new Set(digitsIn.map((d) => d.replace(/[.,]+$/, '')))].filter((d) => !oText.includes(d));
+    // En francés los miles llevan espacio y los decimales coma: se comparan solo los dígitos
+    const flat = lang === 'fr' ? (t) => t.replace(/(?<=\d)[\s\u00a0\u202f.,](?=\d)/g, '') : (t) => t;
+    const digitsIn = (sText.match(/\d[\d.,]*/g) || []).map((d) => d.replace(/[.,]+$/, ''));
+    const oFlat = flat(oText);
+    const lost = [...new Set(digitsIn)].filter((d) => !oFlat.includes(flat(d)));
     if (lost.length) warn(f, `no encuentro estos números del español: ${lost.join(', ')}`);
 
     for (const g of glossaryEntries) {
       if (!g.check || !g.re.some((re) => re.test(sText))) continue;
-      const ok = g.keep ? wordRe(g.base).test(oText) : wordRe(g.base).test(oText) || g.alts.some((a) => wordRe(a).test(oText));
+      const pl = lang === 'fr';
+      const ok = g.keep ? wordRe(g.base, pl).test(oText) : wordRe(g.base, pl).test(oText) || g.alts.some((a) => wordRe(a, pl).test(oText));
       if (!ok) warn(f, `el glosario pide "${g.base}" para "${g.es}" y no aparece`);
     }
   }
@@ -294,8 +340,9 @@ export function estimateUnit(fields, glossaryEntries, lang, prices = DEFAULT_PRI
   const chars = JSON.stringify(fields).length;
   const promptChars = buildSystemPrompt(lang).length + glossaryEntries.length * 60;
   const inTok = (chars + promptChars) / 3.2;
-  // Medido en la prueba real (5 piezas): el inglés sale a ~0.5 tokens por carácter del español
-  const outTok = chars * 0.5;
+  // Medido en la prueba real (5 piezas): el inglés sale a ~0.5 tokens por carácter del español.
+  // El francés NO está medido: se supone 20 % más (es más largo) hasta tener una corrida real.
+  const outTok = chars * (lang === 'fr' ? 0.6 : 0.5);
   return { chars, usd: ((inTok * prices.input + outTok * prices.output) / 1e6) * 1.1 };
 }
 
