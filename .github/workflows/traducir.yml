@@ -97,6 +97,8 @@ jobs:
             echo "No hay nada nuevo que guardar."
           else
             git commit -m "Traducciones (${{ inputs.idioma }}): corrida con límite ${{ inputs.limite }}"
+            # Antes de traer lo nuevo hay que soltar los archivos que cambió la sincronización (public/data); git no deja hacer rebase con cambios sueltos
+            git reset --hard HEAD
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
