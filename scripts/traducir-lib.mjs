@@ -166,7 +166,10 @@ All texts:
 - Never leave Spanish words in the English text, except proper names covered by the glossary.
 - The glossary in the user message is mandatory: names marked KEEP stay exactly as written (keep their accents); the others use the English given.
 - A glossary English term shown with a parenthetical, such as "Voladores (Flyers)", gets the parenthetical only the first time it appears within the text you are translating; afterwards use the term without it.
-- "Sala X" (a hall of the museum) becomes "X Hall".`;
+- "Sala X" (a hall of the museum) becomes "X Hall".
+- Follow the capitalization of the source for glossary terms: a lowercase concept stays lowercase (for example "guerra sagrada" as a general idea becomes "sacred war"), while a capitalized name stays capitalized.
+- Eras: "d.C." becomes "CE" and "a.C." becomes "BCE" (for example "1250-1521 d.C." becomes "1250-1521 CE").
+- Use typographic quotation marks (“ ”) and apostrophes (’), like the Spanish source, never straight quotes.`;
 }
 
 export function buildUserPrompt(fields, glossaryEntries) {
@@ -289,7 +292,8 @@ export function estimateUnit(fields, glossaryEntries, lang, prices = DEFAULT_PRI
   const promptChars = buildSystemPrompt(lang).length + glossaryEntries.length * 60;
   const inTok = (chars + promptChars) / 3.2;
   const outTok = (chars / 3.2) * 1.1;
-  return { chars, usd: (inTok * prices.input + outTok * prices.output) / 1e6 };
+  // El gasto real de la primera prueba (5 piezas) salió ~20 % por encima de la estimación: se corrige con un margen
+  return { chars, usd: ((inTok * prices.input + outTok * prices.output) / 1e6) * 1.25 };
 }
 
 // ---------------------------------------------------------------------------
