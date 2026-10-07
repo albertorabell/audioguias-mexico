@@ -246,7 +246,11 @@ function spanishRatio(text, lang = 'en') {
   const w = words(text);
   if (!w.length) return 0;
   const set = lang === 'fr' ? ES_ONLY_STOPWORDS : ES_STOPWORDS;
-  return w.filter((x) => set.has(x)).length / w.length;
+  // Solo cuentan las palabras escritas en minúscula: "El Tajín" o "El Zapotal" son nombres propios, no español sin traducir
+  const lower = (String(text).match(/\p{L}+/gu) || []).filter((x) => x === x.toLowerCase());
+  const hits = lower.filter((x) => set.has(x)).length;
+  // Con menos de 3 palabras de español no es una señal confiable (fichas cortas con nombres como "Ignacio de la Llave")
+  return hits < 3 ? 0 : hits / w.length;
 }
 
 const strings = (v) => (typeof v === 'string' ? [v] : Array.isArray(v) ? v.flatMap(strings) : v && typeof v === 'object' ? Object.values(v).flatMap(strings) : []);
@@ -309,11 +313,14 @@ export function validateTranslation(source, out, glossaryEntries = [], { fake = 
     const lost = [...new Set(digitsIn)].filter((d) => !oFlat.includes(flat(d)));
     if (lost.length) warn(f, `no encuentro estos números del español: ${lost.join(', ')}`);
 
+    const pl = lang === 'fr';
+    const passes = (g) => (g.keep ? wordRe(g.base, pl).test(oText) : wordRe(g.base, pl).test(oText) || g.alts.some((a) => wordRe(a, pl).test(oText)));
     for (const g of glossaryEntries) {
       if (!g.check || !g.re.some((re) => re.test(sText))) continue;
-      const pl = lang === 'fr';
-      const ok = g.keep ? wordRe(g.base, pl).test(oText) : wordRe(g.base, pl).test(oText) || g.alts.some((a) => wordRe(a, pl).test(oText));
-      if (!ok) warn(f, `el glosario pide "${g.base}" para "${g.es}" y no aparece`);
+      if (passes(g)) continue;
+      // Un mismo término en español puede tener dos filas (p. ej. "Nahuas": pueblo y sala): basta con que se cumpla una
+      if (glossaryEntries.some((h) => h !== g && h.es === g.es && passes(h))) continue;
+      warn(f, `el glosario pide "${g.base}" para "${g.es}" y no aparece`);
     }
   }
   return { errors, warnings };
@@ -343,7 +350,8 @@ export function estimateUnit(fields, glossaryEntries, lang, prices = DEFAULT_PRI
   // Medido en la prueba real (5 piezas): el inglés sale a ~0.5 tokens por carácter del español.
   // El francés NO está medido: se supone 20 % más (es más largo) hasta tener una corrida real.
   const outTok = chars * (lang === 'fr' ? 0.6 : 0.5);
-  return { chars, usd: ((inTok * prices.input + outTok * prices.output) / 1e6) * 1.1 };
+  // Margen 1.28: en la corrida real de 56 unidades el costo salió 16 % arriba de lo estimado con 1.1
+  return { chars, usd: ((inTok * prices.input + outTok * prices.output) / 1e6) * 1.28 };
 }
 
 // ---------------------------------------------------------------------------

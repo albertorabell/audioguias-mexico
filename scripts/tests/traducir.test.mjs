@@ -399,3 +399,18 @@ test('francés: el estimado es más alto que el del inglés (supuesto, sin medir
   const f = { guion_largo: 'x'.repeat(4000) };
   assert.ok(estimateUnit(f, [], 'fr').usd > estimateUnit(f, [], 'en').usd);
 });
+
+test('nombres propios con "El" o "de la" en una ficha corta no se confunden con español sin traducir', () => {
+  const src = { especificaciones: { Cultura: 'Centro de Veracruz (El Zapotal / Mixtequilla)', Procedencia: 'El Zapotal, Ignacio de la Llave, Veracruz', Medidas: '1.48 m de alto x 0.65 m de ancho' } };
+  const out = { especificaciones: { Culture: 'Central Veracruz (El Zapotal / Mixtequilla)', Origin: 'El Zapotal, Ignacio de la Llave, Veracruz', Dimensions: '1.48 m high x 0.65 m wide' } };
+  assert.deepEqual(validateTranslation(src, out, [], { lang: 'en' }).errors, []);
+});
+
+test('glosario: si un término tiene dos filas (pueblo y sala) basta con cumplir una', () => {
+  const file = path.join(makeRoot(1), 'glosario/glosario.csv');
+  fs.appendFileSync(file, 'Pueblos,traducir,Nahuas,Nahua,10,,Nahuas\nSalas,traducir,Nahuas,Nahua Peoples,2,,Peuples nahuas\n');
+  const g = loadGlossary(file, 'en');
+  const src = { guion_corto: 'Los nahuas veneraban a Tláloc desde mucho antes de la llegada de los españoles a estas tierras fértiles.' };
+  const out = { guion_corto: 'The Nahua revered Tláloc long before the Spanish arrived in these fertile lands, and they kept the tradition alive for centuries.' };
+  assert.deepEqual(validateTranslation(src, out, glossaryFor(g, [src.guion_corto]), { lang: 'en' }).warnings, {});
+});
