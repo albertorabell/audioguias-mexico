@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_piedra_sol",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "97796111d12c50cc",
+      "texto": "Sun Stone"
+    },
+    "frase_gancho": {
+      "hash": "cd8d78f05ab3f70d",
+      "texto": "A stone disc where the Mexica drew time and the suns."
+    },
+    "puente_narrativo": {
+      "hash": "eec80d2d083ec099",
+      "texto": "The tour of the Mexica world begins with a stone that brings together their way of understanding time, the gods, and the cosmos."
+    },
+    "guion_corto": {
+      "hash": "9dc9816e695987bf",
+      "texto": "It is called the Aztec Calendar, but the Mexica carved it for something bigger than counting days. At the center is the face of Tonatiuh, the Sun god, inside the sign Nahui Ollin, Four Movement. That sign names the era in which we live, the Fifth Sun. In the four squares of that sign appear the earlier suns, the ones that were destroyed: Jaguar, Wind, Rain of Fire, and Water. Around them turn the twenty day signs, and on the rim two fire serpents carry the Sun across the sky. It is a Mexica work from the Late Postclassic, carved in olivine basalt. It lay flat, as a platform or a vessel for offerings. On December 17, 1790, it was discovered in the Main Plaza of Mexico City."
+    },
+    "guion_largo": {
+      "hash": "01ebc54d1672eec6",
+      "texto": "It is known as the Aztec Calendar, but that name falls short. This stone is a Mexica work from the Late Postclassic, carved in olivine basalt in high and low relief. It still preserves traces of red and ochre pigment. It measures 3.58 meters in diameter.\n\nIts design is read from the center outward. At the center is the face of Tonatiuh, the Sun god. Around him is the sign Nahui Ollin, which means Four Movement and gives its name to the current era, the Fifth Sun. In the four squares of that sign are the suns of the earlier eras. They are Nahui Océlotl, the Jaguar, Nahui Ehécatl, the Wind, Nahui Quiáhuitl, the Rain of Fire, and Nahui Atl, the Water. According to the myth, each of those eras ended in catastrophe.\n\nFarther out are twenty signs, those of the days of the divinatory calendar, the tonalpohualli. Then come bands of sun rays and jade beads. In the outer circle, the bodies of two fire serpents, the Xiuhcóatl, coil around, carrying the Sun on its journey across the sky.\n\nToday it is displayed upright, but the Mexica used it lying flat. Archaeologists think it served as a temalácatl, a platform tied to gladiatorial combat, or as a cuauhxicalli, a vessel for offerings of blood and hearts. In this way, the image of the Sun was not only looked at: it received the nourishment that, according to the Mexica, kept it in motion.\n\nIts modern history begins on December 17, 1790, when it appeared in the Main Plaza of Mexico City. Afterward it spent nearly a hundred years set into the western tower of the Metropolitan Cathedral. In 1885 it was taken to the Gallery of Monoliths, on Moneda Street. And in 1964 it arrived at the place of honor it occupies today, in Chapultepec."
+    },
+    "retos_observacion": {
+      "hash": "74f4fe06c8203a1d",
+      "texto": [
+        "Look for the face of the solar god Tonatiuh at the center of the disc.",
+        "Find the four squares that hold the suns of the earlier eras.",
+        "Follow the outer edge until you see the bodies of the two fire serpents."
+      ]
+    },
+    "especificaciones": {
+      "hash": "4914841b0beeea9a",
+      "texto": {
+        "Culture": "Mexica",
+        "Period": "Late Postclassic (1250-1521 AD)",
+        "Material": "Olivine basalt with red and ochre pigments",
+        "Origin": "Historic Center, Mexico City (Main Plaza)",
+        "Dimensions": "358 cm in diameter x 98 cm thick"
+      }
+    },
+    "faq_mito": {
+      "hash": "06c7c2187179d912",
+      "texto": {
+        "pregunta": "Myth: The Sun Stone is a calendar for counting days.",
+        "respuesta": "Reality: It has the twenty day signs, but it was above all a ritual monument. The Mexica used it lying flat, as a platform or a vessel for offerings, and on it they represented the eras of the world."
+      }
+    }
+  }
+}
