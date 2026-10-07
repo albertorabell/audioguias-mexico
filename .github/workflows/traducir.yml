@@ -4,6 +4,11 @@ name: Traducir textos (botón manual)
 # Sin marcar la casilla "generar" solo MUESTRA el plan y el costo aproximado (no gasta nada).
 # Las traducciones se guardan en la carpeta traducciones/ pero NO se muestran en el sitio:
 # el idioma sigue oculto hasta que se agregue a PUBLISHED_LANGUAGES.
+#
+# Modos:
+#   normal        traduce una por una, al momento (precio normal)
+#   lote-enviar   manda TODO en un lote a Anthropic (mitad de precio), espera y guarda cuando termina
+#   lote-recoger  si el lote anterior no alcanzó a terminar, vuelve a revisar y guarda lo que ya esté listo
 on:
   workflow_dispatch:
     inputs:
@@ -16,6 +21,15 @@ on:
         description: 'Solo estas piezas (ids separados por coma). Vacío = las que sigan pendientes'
         type: string
         default: ''
+      modo:
+        description: 'normal = una por una (precio normal) · lote-enviar = todo en un lote, mitad de precio · lote-recoger = recoger un lote ya enviado'
+        type: choice
+        options: [normal, lote-enviar, lote-recoger]
+        default: normal
+      esperar_min:
+        description: 'Solo modos de lote: cuántos minutos espera esta corrida a que termine el lote (casi siempre tarda menos de 1 hora)'
+        type: string
+        default: '300'
       limite:
         description: 'Máximo de piezas/salas en esta corrida (déjalo en 5 para probar)'
         type: string
@@ -43,6 +57,7 @@ concurrency:
 jobs:
   traducir:
     runs-on: ubuntu-24.04
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -50,7 +65,7 @@ jobs:
           node-version: 20
 
       - name: Revisar que esté la clave de Anthropic (antes de gastar nada)
-        if: ${{ inputs.generar }}
+        if: ${{ inputs.generar || inputs.modo == 'lote-recoger' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -61,7 +76,8 @@ jobs:
       - name: Traer los textos más recientes del Google Sheets
         run: node scripts/sync-sheets.js
 
-      - name: Plan (o traducción)
+      - name: Plan (o traducción, o envío del lote)
+        if: ${{ inputs.modo != 'lote-recoger' }}
         env:
           IDIOMA: ${{ inputs.idioma }}
           PIEZAS: ${{ inputs.piezas }}
@@ -69,11 +85,13 @@ jobs:
           MAX_USD: ${{ inputs.max_usd }}
           GENERAR: ${{ inputs.generar }}
           FORZAR: ${{ inputs.forzar }}
+          MODO: ${{ inputs.modo }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           args=(--lang "$IDIOMA" --limite "${LIMITE:-5}" --max-usd "${MAX_USD:-2}")
           if [ -n "$PIEZAS" ]; then args+=(--piezas "$PIEZAS"); fi
           if [ "$FORZAR" = "true" ]; then args+=(--forzar); fi
+          if [ "$MODO" = "lote-enviar" ]; then args+=(--lote enviar); fi
           if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
           node scripts/traducir.mjs "${args[@]}" 2>&1 | tee traduccion.log
           {
@@ -81,14 +99,14 @@ jobs:
             echo '```'
             cat traduccion.log
             echo '```'
-            if [ -f "traducciones/${IDIOMA}/_ultima_corrida.md" ] && [ "$GENERAR" = "true" ]; then
+            if [ -f "traducciones/${IDIOMA}/_ultima_corrida.md" ] && [ "$GENERAR" = "true" ] && [ "$MODO" = "normal" ]; then
               echo
               head -c 800000 "traducciones/${IDIOMA}/_ultima_corrida.md"
             fi
           } >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Guardar las traducciones en el repositorio
-        if: ${{ inputs.generar }}
+      - name: Guardar (en un lote anota el número del lote para no perderlo)
+        if: ${{ inputs.generar && inputs.modo != 'lote-recoger' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -96,8 +114,42 @@ jobs:
           if git diff --cached --quiet; then
             echo "No hay nada nuevo que guardar."
           else
-            git commit -m "Traducciones (${{ inputs.idioma }}): corrida con límite ${{ inputs.limite }}"
+            git commit -m "Traducciones (${{ inputs.idioma }}): ${{ inputs.modo }}, límite ${{ inputs.limite }}"
             # Antes de traer lo nuevo hay que soltar los archivos que cambió la sincronización (public/data); git no deja hacer rebase con cambios sueltos
+            git reset --hard HEAD
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Esperar el lote y recoger las traducciones
+        if: ${{ inputs.modo == 'lote-recoger' || (inputs.modo == 'lote-enviar' && inputs.generar) }}
+        env:
+          IDIOMA: ${{ inputs.idioma }}
+          ESPERAR: ${{ inputs.esperar_min }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          node scripts/traducir.mjs --lang "$IDIOMA" --lote recoger --esperar "${ESPERAR:-0}" 2>&1 | tee recoger.log
+          {
+            echo '## Resultado del lote'
+            echo '```'
+            cat recoger.log
+            echo '```'
+            if [ -f "traducciones/${IDIOMA}/_ultima_corrida.md" ]; then
+              echo
+              head -c 800000 "traducciones/${IDIOMA}/_ultima_corrida.md"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Guardar las traducciones recogidas
+        if: ${{ inputs.modo == 'lote-recoger' || (inputs.modo == 'lote-enviar' && inputs.generar) }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add traducciones
+          if git diff --cached --quiet; then
+            echo "No hay nada nuevo que guardar."
+          else
+            git commit -m "Traducciones (${{ inputs.idioma }}): lote recogido"
             git reset --hard HEAD
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
