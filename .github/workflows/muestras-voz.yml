@@ -25,6 +25,18 @@ on:
         description: 'Cuántas voces probar (máximo 12)'
         type: string
         default: '6'
+      voces:
+        description: 'Opcional: nombres exactos de voces separados por coma (si lo llenas, se ignora el número de arriba)'
+        type: string
+        default: ''
+      palabra:
+        description: 'Prueba de pronunciación: la palabra que suena mal (por ejemplo mexicas). Vacío = muestra normal de la pieza'
+        type: string
+        default: ''
+      variantes:
+        description: 'Con palabra: formas a probar separadas por coma, por ejemplo alias:meshicas,ipa:meˈʃikas'
+        type: string
+        default: ''
       generar:
         description: 'Marca la casilla para generar las muestras de verdad'
         type: boolean
@@ -61,11 +73,16 @@ jobs:
           PIEZA: ${{ inputs.pieza }}
           MODO: ${{ inputs.modo }}
           MAX_VOCES: ${{ inputs.max_voces }}
+          VOCES: ${{ inputs.voces }}
+          PALABRA: ${{ inputs.palabra }}
+          VARIANTES: ${{ inputs.variantes }}
           GENERAR: ${{ inputs.generar }}
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
         run: |
           args=(--lang "$IDIOMA" --pieza "$PIEZA" --modo "$MODO" --max-voces "${MAX_VOCES:-6}")
+          if [ -n "$VOCES" ]; then args+=(--voces "$VOCES"); fi
+          if [ -n "$PALABRA" ]; then args+=(--pronunciar "$PALABRA" --variantes "$VARIANTES"); fi
           if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
           node scripts/muestras-voz.mjs "${args[@]}" 2>&1 | tee muestras.log
           {

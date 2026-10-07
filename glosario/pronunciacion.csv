@@ -1,0 +1,6 @@
+idioma,palabra,tipo,valor,nota
+# Cómo se debe PRONUNCIAR una palabra en el audio (no cambia el texto que se lee en pantalla).
+# tipo: alias = se lee como si estuviera escrito otra cosa (funciona en todas las voces)
+#       ipa   = alfabeto fonético internacional (más preciso, pero no todas las voces lo aceptan)
+# Una fila por forma de la palabra (singular y plural). No importan las mayúsculas.
+# Después de cambiar este archivo hay que regenerar los audios afectados (opción --forzar).
