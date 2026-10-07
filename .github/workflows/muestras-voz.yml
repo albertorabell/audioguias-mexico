@@ -34,7 +34,7 @@ on:
         type: string
         default: ''
       variantes:
-        description: 'Con palabra: formas a probar separadas por coma, por ejemplo alias:meshicas,ipa:meˈʃikas'
+        description: 'Opcional, con palabra: formas a probar separadas por coma, por ejemplo alias:meshicas,ipa:meˈʃikas. Si lo dejas vacío, se prueban formas automáticas (x como sh, x como s y una fonética aproximada)'
         type: string
         default: ''
       generar:
@@ -82,9 +82,13 @@ jobs:
         run: |
           args=(--lang "$IDIOMA" --pieza "$PIEZA" --modo "$MODO" --max-voces "${MAX_VOCES:-6}")
           if [ -n "$VOCES" ]; then args+=(--voces "$VOCES"); fi
-          if [ -n "$PALABRA" ]; then args+=(--pronunciar "$PALABRA" --variantes "$VARIANTES"); fi
+          if [ -n "$PALABRA" ]; then args+=(--pronunciar "$PALABRA"); fi
+          if [ -n "$VARIANTES" ]; then args+=(--variantes "$VARIANTES"); fi
           if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
+          set +e
           node scripts/muestras-voz.mjs "${args[@]}" 2>&1 | tee muestras.log
+          CODIGO=${PIPESTATUS[0]}
+          set -e
           {
             echo '## Resultado'
             echo '```'
@@ -95,6 +99,7 @@ jobs:
               cat "muestras-voz/${IDIOMA}/indice.md"
             fi
           } >> "$GITHUB_STEP_SUMMARY"
+          exit $CODIGO
 
       - name: Dejar las muestras para descargar
         if: ${{ inputs.generar }}

@@ -93,7 +93,10 @@ jobs:
           if [ "$FORZAR" = "true" ]; then args+=(--forzar); fi
           if [ "$MODO" = "lote-enviar" ]; then args+=(--lote enviar); fi
           if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
+          set +e
           node scripts/traducir.mjs "${args[@]}" 2>&1 | tee traduccion.log
+          CODIGO=${PIPESTATUS[0]}
+          set -e
           {
             echo '## Resultado'
             echo '```'
@@ -104,6 +107,7 @@ jobs:
               head -c 800000 "traducciones/${IDIOMA}/_ultima_corrida.md"
             fi
           } >> "$GITHUB_STEP_SUMMARY"
+          exit $CODIGO
 
       - name: Guardar (en un lote anota el número del lote para no perderlo)
         if: ${{ inputs.generar && inputs.modo != 'lote-recoger' }}
@@ -132,7 +136,10 @@ jobs:
           ESPERAR: ${{ inputs.esperar_min }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
+          set +e
           node scripts/traducir.mjs --lang "$IDIOMA" --lote recoger --esperar "${ESPERAR:-0}" 2>&1 | tee recoger.log
+          CODIGO=${PIPESTATUS[0]}
+          set -e
           {
             echo '## Resultado del lote'
             echo '```'
@@ -143,6 +150,7 @@ jobs:
               head -c 800000 "traducciones/${IDIOMA}/_ultima_corrida.md"
             fi
           } >> "$GITHUB_STEP_SUMMARY"
+          exit $CODIGO
 
       - name: Guardar las traducciones recogidas
         if: ${{ inputs.modo == 'lote-recoger' || (inputs.modo == 'lote-enviar' && inputs.generar) }}
