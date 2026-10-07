@@ -171,7 +171,8 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
   for (const [i, v] of voices.entries()) {
     for (const variant of variants) {
       if (stop) break;
-      const file = `${v.ShortName}${variant.file ? `__${variant.file}` : ''}.mp3`;
+      // Algunos nombres de voz traen ":" (por ejemplo en-US-Adam:DragonHDLatestNeural) y GitHub no deja subir archivos con ese carácter
+      const file = `${v.ShortName.replace(/[^A-Za-z0-9_.-]+/g, '-')}${variant.file ? `__${variant.file}` : ''}.mp3`;
       const tag = `[${i + 1}/${voices.length}] ${v.ShortName}${variant.file ? ` (${variant.label})` : ''}`;
       try {
         let audio;
@@ -207,7 +208,7 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
   }
 
   const L = [`# Muestras de voz (${args.lang}, ${locale})`, '', args.pronunciar ? `Palabra: ${args.pronunciar}` : `Pieza: ${args.pieza} · ${key}`, '', `Texto (${text.length} caracteres): ${text}`, '', '| Archivo | Voz | Género | Variante |', '| --- | --- | --- | --- |'];
-  for (const d of done) L.push(`| ${d.file} | ${d.v.ShortName} | ${d.v.Gender || ''} | ${d.label} |`);
+  for (const d of done) L.push(`| ${d.file} | ${d.v.ShortName}${/HD/.test(d.v.ShortName) ? ' (HD: otro precio, confirmar antes de usarla)' : ''} | ${d.v.Gender || ''} | ${d.label} |`);
   if (failed.length) L.push('', 'No se pudieron generar:', ...failed.map((f) => `- ${f.v.ShortName} ${f.label}: ${f.why}`));
   fs.writeFileSync(path.join(dir, 'indice.md'), L.join('\n') + '\n', 'utf-8');
   log(`\nListo: ${done.length} muestras, ${failed.length} con error. Carpeta: muestras-voz/${args.lang}/ (con indice.md).`);
