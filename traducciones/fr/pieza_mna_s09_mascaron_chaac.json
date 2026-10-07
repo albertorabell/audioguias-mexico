@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_mascaron_chaac",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6276e568a2e5287a",
+      "texto": "Masque de Chaac (Kabah)"
+    },
+    "frase_gancho": {
+      "hash": "c5292909fc2a543a",
+      "texto": "Un visage de pierre au long nez recourbé : le visage de la pluie ou celui de la montagne ?"
+    },
+    "puente_narrativo": {
+      "hash": "e07daaa73edcfe76",
+      "texto": "Nous poursuivons dans la région Puuc avec le visage du dieu de la pluie, réalisé avec de nombreuses pièces de pierre."
+    },
+    "guion_corto": {
+      "hash": "7b7fb6836ffe00e9",
+      "texto": "Un visage assemblé à partir de nombreuses pièces de pierre, avec un long nez qui se recourbe vers le haut. On l’a traditionnellement identifié à Chaac, le dieu maya de la pluie. Certains chercheurs proposent une autre lecture : la montagne sacrée, que les Mayas appelaient Witz. Il provient de Kabah, dans le Yucatán, de l’édifice appelé Codz Poop, et date du Classique récent ou terminal. C’est une mosaïque de calcaire, une technique que le style Puuc a portée à un grand raffinement. Regardez les yeux : ils ont un cercle qui ressort au centre. En haut apparaissent des groupes de trois cercles. Et la gueule montre des rangées de dents aux crocs recourbés."
+    },
+    "guion_largo": {
+      "hash": "0ea5a9b9dd29afd2",
+      "texto": "Si un visage de la pluie existait, ce serait celui-ci, ou du moins l’a-t-on pensé pendant longtemps.\n\nIl provient de Kabah, dans le Yucatán, de l’édifice que l’on connaît sous le nom de Codz Poop. C’est une œuvre maya en calcaire, du Classique récent ou terminal. Elle n’est pas taillée dans un seul bloc. C’est une mosaïque : de nombreuses pièces découpées séparément qui, en s’emboîtant, forment le visage complet.\n\nCette technique est typique du style Puuc, celui des villes du nord du Yucatán, où les façades étaient recouvertes de mosaïques de pierre. Des visages comme celui-ci apparaissent, avec des variantes, à Uxmal et à Chichén Itzá.\n\nTraditionnellement, on a associé ce visage à Chaac, le dieu maya de la pluie, à cause du long nez qui se recourbe vers le haut. Aujourd’hui, certains chercheurs proposent une autre lecture. Ils pensent que ces masques représentent la montagne sacrée, que les Mayas appelaient Witz.\n\nLes détails aident à le regarder. Les yeux sont profonds et ont un cercle qui ressort au centre. Les sourcils et les pommettes portent des formes semblables à des crochets. En haut apparaissent des groupes de trois cercles. Et la bouche montre des rangées de dents aux crocs recourbés.\n\nQu’il s’agisse de Chaac ou de la montagne sacrée, ce masque est un bel exemple de la manière dont une même image peut se lire de plus d’une façon."
+    },
+    "retos_observacion": {
+      "hash": "b0e95a08fe13844d",
+      "texto": [
+        "Cherchez le long nez qui se recourbe vers le haut.",
+        "Regardez les yeux : ils ont un cercle qui ressort au centre.",
+        "Trouvez les groupes de trois cercles et les rangées de dents aux crocs recourbés."
+      ]
+    },
+    "especificaciones": {
+      "hash": "4617e8022e8ddb9b",
+      "texto": {
+        "Culture": "Maya",
+        "Période": "Classique récent / terminal",
+        "Matériau": "Calcaire (mosaïque)",
+        "Provenance": "Kabah, Yucatán (édifice Codz Poop)",
+        "Dimensions": "1,11 m de haut x 1,79 m de large x 0,91 m de profondeur"
+      }
+    },
+    "faq_mito": {
+      "hash": "5c7d3ea8835a3646",
+      "texto": {
+        "pregunta": "Mythe : Le nez recourbé du masque est la trompe d’un éléphant.",
+        "respuesta": "Réalité : Les Mayas n’ont pas connu les éléphants. On l’identifie comme le nez du dieu Chaac, ou comme un trait de la montagne sacrée, le Witz."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_vaso_chalchihuites",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "837ce65f8963c559",
+      "texto": "Vase tubulaire d’Alta Vista / Chalchihuites"
+    },
+    "frase_gancho": {
+      "hash": "4b7213d77e7fd924",
+      "texto": "De l’argile décorée en cloisonné dans le nord de la Mésoamérique."
+    },
+    "puente_narrativo": {
+      "hash": "aef0885cde6922f4",
+      "texto": "De la pierre des chasseurs, nous passons à la céramique de la culture Chalchihuites, du nord de la Mésoamérique, décorée selon une technique polychrome."
+    },
+    "guion_corto": {
+      "hash": "a9143648c8a67680",
+      "texto": "De l’émail ou de la peinture ? On dirait de l’émail, mais c’est de l’argile. Les artisans de Chalchihuites recouvraient la céramique d’un stuc calcaire ou de laque. Sur cette couche, ils appliquaient des pigments pour former des animaux et des figures géométriques. Cette technique s’appelle cloisonné, ou pseudo-cloisonné, et elle demandait beaucoup de patience. On sculptait la couche extérieure, et chaque section était remplie d’une pâte d’une autre couleur. Ce vase date du Classique récent, entre 600 et 900 après J.-C., et appartient à une culture du nord de la Mésoamérique. L’un de ses grands centres, Alta Vista, se trouve sur le tropique du Cancer, et l’on pense que les solstices y étaient observés. On croit que des vases aussi travaillés étaient réservés aux célébrations solaires et aux cérémonies importantes de la noblesse. Regardez comment la couleur dessine des figures aux contours bien définis."
+    },
+    "guion_largo": {
+      "hash": "402c807cd04ab5a1",
+      "texto": "De l’émail ou de la peinture ? La technique de ce vase s’appelle cloisonné, ou pseudo-cloisonné, et son nom évoquerait plutôt le métal. Mais ici, le support est de l’argile, et la couleur a été appliquée sur des couches de stuc calcaire ou de laque.\n\nC’est une œuvre de la culture Chalchihuites, dans le nord de la Mésoamérique, du Classique récent, ou Épiclassique, entre 600 et 900 après J.-C. L’un des centres les plus connus de cette culture est Alta Vista, juste sur le tropique du Cancer. On pense que les solstices y étaient suivis, et que c’était aussi un pôle d’extraction de minéraux et de pierres précieuses.\n\nFabriquer un vase de ce type exigeait de la méthode. On préparait la surface, on sculptait la couche extérieure de peinture sèche, puis on remplissait chaque section d’une pâte d’une autre couleur. Les tons utilisés, comme le rouge, le turquoise, le jaune et le noir, ressortaient très vifs sur le fond préparé.\n\nLes figures sont de deux types, animales et géométriques. Sur les vases de ce style apparaissent aussi des prêtres, des serpents à plumes et des symboles qui remplissent la surface de couleurs.\n\nUne technique aussi lente n’était pas destinée à n’importe quel objet. On pense qu’elle était réservée à des récipients à usage cérémoniel, lors des célébrations solaires de la noblesse. C’est pourquoi ce vase est si éloquent. Il réunit le ciel que l’on mesurait à Alta Vista, le travail patient des artisans et le prestige de ceux qui l’utilisaient."
+    },
+    "retos_observacion": {
+      "hash": "abb851bd609cffd5",
+      "texto": [
+        "Cherchez les motifs d’animaux parmi les figures décorées.",
+        "Repérez les figures géométriques et comparez-les à celles des animaux.",
+        "Observez comment les couleurs semblent reposer sur une couche de stuc."
+      ]
+    },
+    "especificaciones": {
+      "hash": "1093e759f0bd5a2f",
+      "texto": {
+        "Culture": "Chalchihuites (Mésoamérique septentrionale)",
+        "Période": "Classique récent / Épiclassique (600-900 apr. J.-C.)",
+        "Matériau": "Argile (céramique) décorée selon la technique du cloisonné ou du pseudo-cloisonné, pigments sur stuc calcaire ou laque",
+        "Provenance": "Chalchihuites, Zacatecas"
+      }
+    },
+    "faq_mito": {
+      "hash": "2b0fe5a3e3e72f3f",
+      "texto": {
+        "pregunta": "Mythe : Un vase à décor cloisonné doit forcément être en métal émaillé.",
+        "respuesta": "Réalité : Ici, le support est de la céramique. Les pigments ont été appliqués sur des couches de stuc calcaire ou de laque, avec des motifs d’animaux et des figures géométriques."
+      }
+    }
+  }
+}

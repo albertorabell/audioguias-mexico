@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_tizoc",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b62ce1131b69a4d1",
+      "texto": "Pierre de Tízoc"
+    },
+    "frase_gancho": {
+      "hash": "52d32dccc842ce73",
+      "texto": "Un cylindre de pierre où le souverain tient les vaincus par les cheveux."
+    },
+    "puente_narrativo": {
+      "hash": "1df75431c9e7e3c8",
+      "texto": "Nous passons de l’image de la terre à un monument de pouvoir politique, où l’empire mexica a raconté ses conquêtes dans la pierre."
+    },
+    "guion_corto": {
+      "hash": "6644eddc1ee39a8a",
+      "texto": "Entre 1481 et 1486, le tlatoani Tízoc fit sculpter un monument où les conquêtes se lisent comme une histoire en images. C’est une œuvre mexica du Postclassique récent, un cylindre bas et large. Tout autour de sa paroi, quinze scènes se répètent. Dans chacune, un souverain vêtu comme Xiuhtecuhtli, le dieu du feu, tient par les cheveux un seigneur vaincu. À côté du captif se trouve un glyphe qui nomme le peuple conquis. Sur la face supérieure, il y a un disque solaire avec une cavité au centre. C’est pourquoi on pense qu’elle servait de cuauhxicalli, un récipient pour les cœurs, et de temalácatl, la plate-forme du sacrifice gladiatorial en l’honneur de Xipe Tótec. C’était un monument conçu pour montrer le pouvoir et pour nourrir les dieux."
+    },
+    "guion_largo": {
+      "hash": "15470a516dee503c",
+      "texto": "Entre 1481 et 1486, le tlatoani Tízoc fit sculpter ce monument. C’est une œuvre mexica du Postclassique récent, un cylindre bas et large en pierre taillée en relief. Plus qu’un ornement, c’était une déclaration : voici ce que mes armées ont conquis.\n\nPour le lire, il faut en faire le tour. Sur la paroi, la même scène se répète quinze fois. Un souverain, vêtu des attributs du dieu du feu, Xiuhtecuhtli, tient par les cheveux un seigneur vaincu. À côté de chaque captif se trouve un glyphe, et chaque glyphe nomme un peuple soumis. C’est une liste de conquêtes écrite en images, conçue pour être comprise sans paroles.\n\nLa pierre a aussi eu un usage rituel. Sur la face supérieure, il y a un disque solaire avec une cavité au centre. On pense qu’il s’agissait d’un cuauhxicalli, un récipient où l’on déposait les cœurs des sacrifiés. Et aussi d’un temalácatl, la plate-forme du sacrifice gladiatorial en l’honneur de Xipe Tótec. On raconte qu’un captif de haut rang combattait attaché à la pierre. Son arme était un gourdin de plumes, et ses adversaires étaient des guerriers mexicas armés de vraies armes.\n\nL’histoire postérieure de la pierre connaît deux moments. Elle était déjà apparue entre 1562 et 1565, puis elle est retournée sous terre. En 1791, on l’a de nouveau fait revenir à la lumière. Grâce à cette seconde exhumation, nous pouvons aujourd’hui parcourir des yeux les conquêtes de Tízoc, une à une."
+    },
+    "retos_observacion": {
+      "hash": "4a7e9857b8179e8e",
+      "texto": [
+        "Cherchez le souverain qui tient un vaincu par les cheveux.",
+        "À côté de chaque prisonnier, repérez le glyphe qui nomme le peuple conquis.",
+        "Sur la face supérieure, trouvez le disque solaire et la cavité centrale."
+      ]
+    },
+    "especificaciones": {
+      "hash": "196c96efa17e2a2e",
+      "texto": {
+        "Culture": "Mexica",
+        "Période": "Postclassique récent (1481-1486 apr. J.-C.)",
+        "Matériau": "Andésite",
+        "Provenance": "Centre historique, Mexico",
+        "Dimensions": "94 cm de haut x 265 cm de diamètre"
+      }
+    },
+    "faq_mito": {
+      "hash": "d47064d62d62a180",
+      "texto": {
+        "pregunta": "Mythe : la Pierre de Tízoc n’est qu’un relief destiné à rappeler les conquêtes.",
+        "respuesta": "Réalité : c’était aussi un monument rituel. On pense qu’elle servait de cuauhxicalli et de temalácatl, pour le sacrifice gladiatorial en l’honneur de Xipe Tótec."
+      }
+    }
+  }
+}

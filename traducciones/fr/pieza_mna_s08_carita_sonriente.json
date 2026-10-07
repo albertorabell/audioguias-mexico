@@ -1,0 +1,54 @@
+{
+  "id": "mna_s08_carita_sonriente",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "81b132fbddf1330c",
+      "texto": "Sculpture de petit visage souriant"
+    },
+    "frase_gancho": {
+      "hash": "3d43b36927d12b6d",
+      "texto": "Un rire éclatant façonné dans l’argile, au milieu de l’art mésoaméricain le plus solennel."
+    },
+    "puente_narrativo": {
+      "hash": "edade37f5507ff41",
+      "texto": "Nous poursuivons vers le Classique du centre de Veracruz, avec une figure d’argile qui troque la solennité contre le rire."
+    },
+    "guion_corto": {
+      "hash": "c7e2194915bf42a1",
+      "texto": "L’art mésoaméricain est souvent solennel. Cette figure d’argile, en revanche, rit. C’est l’un des petits visages souriants de Remojadas, réalisés dans le centre de Veracruz durant le Classique récent. Il s’agit d’une céramique creuse, modelée à la main et au moule. Le rire est franc et laisse voir les dents et la langue. La figure porte une coiffe bombée, ornée de motifs géométriques ou d’animaux, et tient parfois un hochet ou un éventail, les bras levés. Sur certaines, on trouve des touches de chapopote, un asphalte naturel, sur les yeux, la bouche et les parures. Les spécialistes les associent à la musique, à la fertilité, au renouveau agricole et à la transe rituelle. Ils les rattachent aussi à Xochipilli, le dieu du chant, de la danse et de la joie."
+    },
+    "guion_largo": {
+      "hash": "c387863e8af0e7fc",
+      "texto": "Les petits visages souriants sont des figures d’argile de la tradition de Remojadas, dans le centre de Veracruz. Ils appartiennent au Classique récent, vers les années 600 à 900 après Jésus-Christ. On en a trouvé à Remojadas et dans la région de Tierra Blanca.\n\nCe sont des figures creuses, modelées à la main et aussi au moule. Parfois, elles portent un enduit de couleur claire. Sur les yeux, la bouche et les parures, elles peuvent présenter des touches de chapopote, un asphalte naturel de la région. Cette combinaison d’argile, de couleur claire et de noir leur donne un aspect très vivant.\n\nLe rire est franc et montre les dents et la langue. C’est une expression joyeuse et réaliste, chose peu courante dans l’art de la Mésoamérique, qui est souvent hiératique et solennel. Les figures portent des coiffes bombées, ornées de motifs géométriques ou d’animaux. Elles peuvent avoir des jupes courtes et des pectoraux. Parfois, elles tiennent des hochets ou des éventails, les bras levés.\n\nLes spécialistes les associent à des rites de fertilité, à la musique, au renouveau agricole et à des états de transe rituelle. Ils les rattachent aussi à Xochipilli, le dieu du chant, de la danse et de la joie. Ce sont des interprétations, car aucun texte de l’époque ne les confirme.\n\nToutes n’ont pas la même taille : elles mesurent entre 15 et 35 centimètres de haut. C’est pourquoi l’on parle des petits visages souriants, au pluriel, comme d’un type de figure et non d’une œuvre unique. Dans une salle remplie de pierre dure, l’argile offre quelque chose de différent : un rire éclatant façonné avec patience."
+    },
+    "retos_observacion": {
+      "hash": "f97ba90d35af0910",
+      "texto": [
+        "Regardez le rire franc : on voit les dents et la langue.",
+        "Cherchez la coiffe bombée ornée de motifs géométriques ou d’animaux.",
+        "Observez si la figure tient un hochet ou un éventail, les bras levés."
+      ]
+    },
+    "especificaciones": {
+      "hash": "b5cdf9c326858e7f",
+      "texto": {
+        "Culture": "Remojadas / Centre de Veracruz",
+        "Période": "Classique récent (600-900 apr. J.-C.)",
+        "Matériau": "Céramique, argile modelée",
+        "Provenance": "Remojadas, centre de Veracruz"
+      }
+    },
+    "faq_mito": {
+      "hash": "b4fc47e2c4c2e33a",
+      "texto": {
+        "pregunta": "Mythe : Les petits visages souriants de Veracruz sont des captifs de guerre qui sourient avant d’être sacrifiés.",
+        "respuesta": "Réalité : Les spécialistes les associent à la musique, à la fertilité et à la transe rituelle, ainsi qu’à Xochipilli, le dieu du chant, de la danse et de la joie."
+      }
+    }
+  }
+}

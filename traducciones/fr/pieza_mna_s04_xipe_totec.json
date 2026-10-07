@@ -1,0 +1,54 @@
+{
+  "id": "mna_s04_xipe_totec",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dd7ecd8308bdaf5d",
+      "texto": "Statue de Xipe Tótec de Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "af6e58d3ffe3b85d",
+      "texto": "Un prêtre revêtu d’une peau d’autrui, son visage apparaissant par la bouche du costume."
+    },
+    "puente_narrativo": {
+      "hash": "f8b1fbfa5689c164",
+      "texto": "Nous poursuivons avec une autre divinité, Xipe Tótec, le dieu lié au renouveau de la terre."
+    },
+    "guion_corto": {
+      "hash": "ea3379d3b6216a67",
+      "texto": "On dirait un homme dans un costume étrange, mais ce qu’il porte est la peau d’un autre. Cette sculpture montre un prêtre vêtu de la peau d’une victime, en l’honneur de Xipe Tótec, dont le nom signifie Notre Seigneur l’Écorché. Elle est en argile modelée à la main, de grande taille, et on l’attribue à la culture de Teotihuacán. Regardez la bouche ouverte du costume : c’est par là qu’apparaît le visage du prêtre. La peau présente des attaches dans le dos, des coutures aux poignets et une jupe courte. Sur la tête, il porte une haute coiffe. On interprète cette peau comme une image de la terre, qui change d’enveloppe chaque printemps et redonne la vie."
+    },
+    "guion_largo": {
+      "hash": "d020bba9e12b1679",
+      "texto": "Ce n’est pas un déguisement ordinaire. C’est une sculpture qui montre un rite.\n\nCette statue en argile modelée à la main représente un prêtre debout. Elle est de grande taille, et on l’attribue à la culture de Teotihuacán, de la période du Classique récent ou de l’Épiclassique.\n\nLe prêtre porte la peau d’une personne sacrifiée en l’honneur de Xipe Tótec, dont le nom signifie Notre Seigneur l’Écorché. La peau a une surface rugueuse et poreuse. Elle s’attache dans le dos et présente des coutures aux poignets.\n\nObservez la bouche du costume. Elle est ouverte, et c’est de là que surgit le visage du prêtre. Il porte aussi une jupe courte et une coiffe sur la tête.\n\nSe vêtir de la peau des captifs était un acte rituel. On interprète que cela symbolisait la mue de la terre, le renouveau de la végétation au printemps et la renaissance de la vie agricole.\n\nAinsi, une image forte parlait d’un cycle naturel : la terre qui se renouvelle."
+    },
+    "retos_observacion": {
+      "hash": "3989608b6ff3da54",
+      "texto": [
+        "Cherchez le visage du prêtre à l’intérieur de la bouche ouverte du costume.",
+        "Trouvez les coutures des poignets et les attaches du dos.",
+        "Observez la texture rugueuse de la peau."
+      ]
+    },
+    "especificaciones": {
+      "hash": "4959f1e13999be79",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique récent à Épiclassique",
+        "Matériau": "Argile modelée à la main, à la finition rugueuse",
+        "Provenance": "Teotihuacán, État de Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "4fc6f6bcbb9a422b",
+      "texto": {
+        "pregunta": "Mythe : Le prêtre de cette statue est malade ou a la peau blessée.",
+        "respuesta": "Réalité : Non. Il porte la peau d’une victime sacrifiée, dans le cadre des rites de Xipe Tótec, liés au renouveau de la terre."
+      }
+    }
+  }
+}

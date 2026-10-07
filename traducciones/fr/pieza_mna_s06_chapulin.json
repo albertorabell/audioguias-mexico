@@ -1,0 +1,54 @@
+{
+  "id": "mna_s06_chapulin",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3e3b225252844a7b",
+      "texto": "Sauterelle de Chapultepec"
+    },
+    "frase_gancho": {
+      "hash": "65e7cebc83ef39e3",
+      "texto": "Une sauterelle de pierre rouge qui donne son nom au bois où se trouve le musée."
+    },
+    "puente_narrativo": {
+      "hash": "f861a346d25ed729",
+      "texto": "Nous poursuivons avec un autre animal de pierre, cette fois un insecte : la sauterelle qui donne son nom au bois où vous vous trouvez."
+    },
+    "guion_corto": {
+      "hash": "3b35f526b8a9220d",
+      "texto": "Cette sauterelle de pierre donne son nom au bois où se trouve le musée. Chapultepec signifie « sur la colline de la sauterelle », et cette sculpture en est le glyphe, c’est-à-dire son nom écrit en image. C’est une œuvre mexica du Postclassique récent, découverte à Chapultepec. Elle est taillée et polie dans une pierre d’un rouge intense. L’artiste a soigné les détails : les pattes arrière sont repliées sur le corps, comme si l’insecte était sur le point de bondir. Pour les Mexicas, Chapultepec était un lieu très important. Il y avait là des sources qui fournissaient de l’eau à la ville, et c’est là qu’ils ont vécu avant de fonder Tenochtitlan."
+    },
+    "guion_largo": {
+      "hash": "7e13a2370f9a3151",
+      "texto": "Chapultepec veut dire « sur la colline de la sauterelle ». Cette sculpture en est la preuve, faite de pierre.\n\nC’est le glyphe de ce lieu : son nom écrit avec une image. Elle est mexica, du Postclassique récent, et elle a été découverte à Chapultepec. Elle est taillée et polie dans une pierre d’un rouge vif.\n\nElle représente une sauterelle de façon très naturelle. Ses pattes arrière sont repliées sur le corps, prêtes pour le saut. Regardez bien ces pattes repliées.\n\nPour les Mexicas, Chapultepec était un lieu sacré et politique. Il y avait là des sources d’eau pure qui alimentaient la capitale par un aqueduc. Dans les rochers, on sculpta des portraits des souverains. Et c’est là que se trouvait la grotte sacrée de Cincalco.\n\nCe fut aussi une étape de leur histoire. Avant de fonder Tenochtitlan, les Mexicas ont vécu un temps à Chapultepec, pendant leur migration.\n\nAujourd’hui, le musée se trouve dans ce même bois. Cette sauterelle vous rappelle le nom du lieu où vous êtes."
+    },
+    "retos_observacion": {
+      "hash": "4cd74f567a41db2d",
+      "texto": [
+        "Cherchez les pattes arrière repliées sur le corps.",
+        "Observez le rouge intense et le poli de la pierre.",
+        "Pensez au nom du bois où se trouve le musée."
+      ]
+    },
+    "especificaciones": {
+      "hash": "032e8c2da8c3cdc4",
+      "texto": {
+        "Culture": "Mexica",
+        "Période": "Postclassique récent",
+        "Matériau": "Pierre rouge taillée et polie",
+        "Provenance": "Chapultepec, Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "5a352a7488e5d847",
+      "texto": {
+        "pregunta": "Mythe : Cette sculpture n’est qu’un simple ornement en forme d’insecte.",
+        "respuesta": "Réalité : C’est le glyphe de Chapultepec, le nom du lieu écrit avec une image. Il signifie « sur la colline de la sauterelle »."
+      }
+    }
+  }
+}

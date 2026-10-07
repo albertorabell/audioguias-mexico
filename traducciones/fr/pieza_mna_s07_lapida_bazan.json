@@ -1,0 +1,53 @@
+{
+  "id": "mna_s07_lapida_bazan",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92bc93fe12ba2ef4",
+      "texto": "Dalle de Bazán"
+    },
+    "frase_gancho": {
+      "hash": "49f4bb46707af133",
+      "texto": "Deux hommes face à face : un Teotihuacán et un Zapotèque."
+    },
+    "puente_narrativo": {
+      "hash": "06af6758996b117b",
+      "texto": "Nous passons à un relief qui garde la trace d’une rencontre : deux hommes de villes différentes, face à face."
+    },
+    "guion_corto": {
+      "hash": "6d918bac744d2f3b",
+      "texto": "Deux hommes face à face, et entre eux des colonnes de glyphes. Voici la Dalle de Bazán, une plaque de pierre sculptée en bas-relief, ornée d’inscriptions hiéroglyphiques. Elle provient de la Grande Place de Monte Albán, à Oaxaca, et date du Classique ancien. À gauche apparaît un dignitaire portant le vêtement et la peau de jaguar de style teotihuacán. À droite, un seigneur ou prêtre zapotèque de Monte Albán. En haut et entre les personnages se trouvent des colonnes de cartouches glyphiques zapotèques. On l’interprète comme l’enregistrement d’une réunion diplomatique et d’une alliance entre les deux villes. Elle serait une preuve des relations pacifiques et commerciales entre Teotihuacán et Monte Albán."
+    },
+    "guion_largo": {
+      "hash": "4fc472ce2b9a366b",
+      "texto": "C’est une petite dalle, et elle raconte une histoire entre deux grandes villes. La Dalle de Bazán provient de la Grande Place de Monte Albán, à Oaxaca, et date du Classique ancien. Elle est sculptée en bas-relief, avec des inscriptions hiéroglyphiques.\n\nRegardez les deux personnages. À gauche, un dignitaire est vêtu d’un costume et d’une peau de jaguar de style teotihuacán. À droite, un seigneur ou prêtre zapotèque de Monte Albán.\n\nEn haut et entre eux sont disposées des colonnes de cartouches glyphiques zapotèques. Un cartouche est un cadre contenant des signes d’écriture.\n\nOn interprète la dalle comme l’enregistrement d’une réunion diplomatique et d’une alliance politique entre les deux hommes. Les glyphes commémoreraient la visite et les accords rituels entre les deux capitales.\n\nElle serait la preuve écrite que Teotihuacán et Monte Albán ont entretenu des relations pacifiques, commerciales et d’échange durant la période Classique. Cela concorde avec la présence, à l’intérieur de Teotihuacán, d’un quartier de gens originaires d’Oaxaca, le fameux quartier d’Oaxaca.\n\nPensez à ce que cela signifie. À une époque de grandes villes, deux pouvoirs ont décidé qu’il valait la peine de laisser dans la pierre la trace de leur rencontre."
+    },
+    "retos_observacion": {
+      "hash": "24e3018e0890ccb0",
+      "texto": [
+        "Cherchez le personnage de gauche, avec son vêtement et sa peau de jaguar.",
+        "Regardez le seigneur zapotèque de droite.",
+        "Trouvez les colonnes de glyphes entre les deux."
+      ]
+    },
+    "especificaciones": {
+      "hash": "7b1b29655947a5be",
+      "texto": {
+        "Période": "Classique ancien",
+        "Matériau": "Albâtre, onyx mexicain ou travertin",
+        "Provenance": "Grande Place, Monte Albán, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "1e4d0386e7b48db4",
+      "texto": {
+        "pregunta": "Mythe : La Dalle de Bazán célèbre la conquête de Monte Albán par les Teotihuacán.",
+        "respuesta": "Réalité : On l’interprète comme l’enregistrement d’une réunion diplomatique et d’une alliance entre deux villes qui entretenaient des relations pacifiques et commerciales."
+      }
+    }
+  }
+}

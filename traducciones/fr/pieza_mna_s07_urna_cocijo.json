@@ -1,0 +1,55 @@
+{
+  "id": "mna_s07_urna_cocijo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1ca6a3676fd7aafe",
+      "texto": "Urne funéraire du dieu Cocijo"
+    },
+    "frase_gancho": {
+      "hash": "dc5f5fecedb0ff0a",
+      "texto": "Vase d’argile où Pitao Cocijo répand le tonnerre sacré."
+    },
+    "puente_narrativo": {
+      "hash": "5513ed75f0512f21",
+      "texto": "Nous passons à la céramique du Classique zapotèque, avec une urne qui représente le dieu de la pluie."
+    },
+    "guion_corto": {
+      "hash": "75b146848c08879a",
+      "texto": "Cherchez le centre de la coiffe. Vous y verrez un signe qui ressemble à une lettre C, et de son intérieur jaillit une plante. C’est le glyphe C, la marque du dieu zapotèque de la pluie. Cette urne représente Pitao Cocijo, divinité suprême de la pluie, de la foudre et du tonnerre. Elle est en céramique et provient des Vallées centrales d’Oaxaca. Elle appartient à la période Classique, entre les années 200 et 800 après Jésus-Christ. Le dieu est assis. Il porte des lunettes circulaires, un masque sur la bouche et une langue de serpent fendue en deux. Entre ses mains, il tient un récipient. Pendant longtemps, on a cru que ces urnes contenaient des cendres. Aujourd’hui, on sait qu’elles étaient placées vides dans des niches et sur les façades des tombes de la noblesse."
+    },
+    "guion_largo": {
+      "hash": "845455d28c674790",
+      "texto": "Pitao Cocijo est le dieu zapotèque de la pluie, de la foudre et du tonnerre. C’était une divinité suprême. Dans une terre où le maïs dépend des pluies, il est facile d’imaginer pourquoi son image revient si souvent.\n\nCette urne le montre assis. Il porte une coiffe avec le glyphe C au centre, et de ce glyphe jaillit un élément végétal. Les yeux sont entourés de lunettes circulaires. Sur la bouche, il a un masque, et de celui-ci sort une langue de serpent fendue en deux pointes. Entre ses mains, il tient un récipient. Pour reconnaître Cocijo, il suffit de retenir trois traits : le glyphe C sur la coiffe, les lunettes autour des yeux et la langue fendue.\n\nC’est une pièce en céramique. Elle a été modelée à la main, avec des applications au pastillage, c’est-à-dire de petits morceaux d’argile collés, et avec des lignes incisées. Elle conserve des restes de peinture de couleur ou d’engobe, une fine couche d’argile. La couleur faisait partie de son aspect.\n\nLes Zapotèques avaient une ville principale à Monte Albán, dans les Vallées centrales d’Oaxaca. Durant le Classique, elle est arrivée à compter plus de trente mille habitants. Leurs nobles avaient des tombes souterraines somptueuses. C’est là que l’on plaçait des urnes comme celle-ci, dans les niches des tombes. Elles représentent des divinités comme Pitao Cocijo, le dieu de la pluie, et Pitao Cozobi, le Dieu du Maïs. Ce sont des figures d’argile, mais elles parlent de ce qui comptait le plus pour les Zapotèques : l’eau, le maïs et le passage vers l’autre vie.\n\nUn détail change la lecture de ces urnes. Pendant longtemps, on a cru qu’elles contenaient les cendres des morts. Aujourd’hui, on sait que non. On les plaçait vides, dans des niches, des antichambres et sur les façades des tombes de la noblesse, comme des gardiens spirituels. Leur mission était d’intercéder pour les défunts auprès des dieux du ciel.\n\nC’est une figure assise qui ne gardait rien, mais qui veillait sur celui qui dormait dans la tombe."
+    },
+    "retos_observacion": {
+      "hash": "f6a00e8b721091d3",
+      "texto": [
+        "Cherchez le glyphe C au centre de la coiffe.",
+        "Observez les cercles autour des yeux : ce sont les lunettes.",
+        "Regardez la langue qui sort de la bouche : elle se termine en deux pointes."
+      ]
+    },
+    "especificaciones": {
+      "hash": "783995ec6d61d9af",
+      "texto": {
+        "Culture": "Zapotèque",
+        "Période": "Classique (Monte Albán III, 200-800 apr. J.-C.)",
+        "Matériau": "Céramique modelée en argile, avec des restes de peinture polychrome ou d’engobe",
+        "Provenance": "Monte Albán, Vallées centrales, Oaxaca (un autre exemplaire de Cocijo provient d’Atzompa)",
+        "Dimensions": "0,396 m de haut x 0,38 m de large (urne centrale de la tombe 104 ; d’autres exemplaires sont plus grands)"
+      }
+    },
+    "faq_mito": {
+      "hash": "a5f3cc9f7f85aa88",
+      "texto": {
+        "pregunta": "Mythe : Les urnes funéraires zapotèques, comme celle de Cocijo, contenaient les cendres des morts.",
+        "respuesta": "Réalité : Elles étaient placées vides dans les niches et sur les façades des tombes de la noblesse."
+      }
+    }
+  }
+}

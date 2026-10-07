@@ -1,0 +1,54 @@
+{
+  "id": "mna_s06_piedra_arzobispado",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4a54ed08e0272ffa",
+      "texto": "Pierre de l’ancien Archevêché"
+    },
+    "frase_gancho": {
+      "hash": "d72bc24f401e45f3",
+      "texto": "Un cylindre de pierre découvert en 1988 lors de travaux dans le centre-ville."
+    },
+    "puente_narrativo": {
+      "hash": "443d24ec60f800c0",
+      "texto": "Nous poursuivons avec un autre grand cylindre de pierre, lui aussi fait pour rappeler des conquêtes et pour les rituels de guerre."
+    },
+    "guion_corto": {
+      "hash": "c85270db8ba751c2",
+      "texto": "Onze scènes de conquête font le tour de ce cylindre de pierre. Dans chacune, la même image se répète : un souverain, vêtu comme le dieu du feu, tient par les cheveux un guerrier vaincu. À côté de chaque vaincu apparaît le signe de la province conquise. C’est la Pierre de l’ancien Archevêché, une œuvre mexica. Elle fut découverte en 1988 lors de travaux dans la rue de Moneda, dans le centre de Mexico. Elle fut réalisée sous le règne de Motecuhzoma Ilhuicamina. On pense qu’elle servait de plateforme pour des combats rituels et de récipient pour des offrandes de cœurs et de sang. Sur la face supérieure se trouve un disque solaire avec un visage au centre."
+    },
+    "guion_largo": {
+      "hash": "ef935340303a9719",
+      "texto": "Les Mexicas ne se contentaient pas de conquérir : ils laissaient aussi le compte gravé dans la pierre. Ce cylindre en est un bon exemple.\n\nC’est la Pierre de l’ancien Archevêché. Elle porte ce nom parce qu’elle est apparue en 1988. C’était pendant les travaux de fondation de l’ancien palais de l’Archevêché, dans la rue de Moneda, dans le Centre historique de Mexico. Ce terrain se trouvait à l’intérieur de l’enceinte sacrée de Tenochtitlan.\n\nC’est un cylindre bas et large, taillé dans une roche volcanique. Sur la face supérieure se trouve un disque solaire avec un visage dans la cavité centrale. Tout autour, sur le côté, court une frise de onze scènes de conquête.\n\nDans chaque scène, le souverain porte les attributs de Xiuhtecuhtli, le dieu du feu. D’une main, il tient par les cheveux un guerrier vaincu. À côté de lui apparaît le glyphe de la province conquise. Sur les bords, on voit des crânes, des os croisés, des cœurs, des mains et des couteaux de sacrifice.\n\nOn pense qu’elle servait de temalácatl, une plateforme pour le combat rituel. Elle servait aussi de cuauhxicalli, un récipient où l’on déposait les cœurs et le sang offerts au Soleil. Ces rites avaient lieu pendant la fête de Tlacaxipehualiztli, en l’honneur de Xipe Tótec.\n\nOn pense aussi que c’est Motecuhzoma Ilhuicamina qui la fit sculpter, pour garder la mémoire des victoires de Tenochtitlan. C’étaient les années qui suivirent la défaite d’Azcapotzalco et la consolidation de la Triple Alliance.\n\nComparez-la avec la Pierre de Tízoc, qui lui ressemble par sa forme et par ses scènes de conquête."
+    },
+    "retos_observacion": {
+      "hash": "87745dfda71b5417",
+      "texto": [
+        "Comptez les scènes de conquête qui entourent le cylindre.",
+        "Cherchez le souverain qui tient un guerrier par les cheveux.",
+        "Regardez les bords : il y a des crânes, des cœurs, des mains et des couteaux."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a2161bfe7b90f16f",
+      "texto": {
+        "Culture": "Mexica",
+        "Période": "Postclassique récent",
+        "Matériau": "Roche volcanique (andésite ou basalte) sculptée en haut-relief",
+        "Provenance": "Centre historique de Mexico (ancien palais de l’Archevêché, rue de Moneda)"
+      }
+    },
+    "faq_mito": {
+      "hash": "463f7db54f9b057c",
+      "texto": {
+        "pregunta": "Mythe : La Pierre de l’ancien Archevêché est un autre calendrier aztèque, comme la Pierre du Soleil.",
+        "respuesta": "Réalité : Ce n’est pas un calendrier. C’est un monument de conquête : ses onze scènes montrent les victoires d’un souverain mexica."
+      }
+    }
+  }
+}

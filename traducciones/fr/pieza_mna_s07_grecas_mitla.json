@@ -1,0 +1,54 @@
+{
+  "id": "mna_s07_grecas_mitla",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ad5f804b018d2e70",
+      "texto": "Panneau à grecques à degrés de style Mitla"
+    },
+    "frase_gancho": {
+      "hash": "c26c6d2e8cbcc1ef",
+      "texto": "Des milliers de petites pierres, emboîtées sans mortier."
+    },
+    "puente_narrativo": {
+      "hash": "79671355967077d9",
+      "texto": "Nous refermons la Salle Oaxaca avec la géométrie de Mitla : un mur composé de milliers de petites pierres."
+    },
+    "guion_corto": {
+      "hash": "9ce27e6c42c0cb84",
+      "texto": "Cette paroi est assemblée à partir de milliers de petites pierres, et elle ne comporte aucun mortier. C’est un panneau à grecques à degrés dans le style de Mitla, à Oaxaca. Il n’est pas sculpté dans un seul bloc. C’est une mosaïque de pierres découpées avec précision et insérées par pression. Il date du Postclassique et relève de la tradition mixtèque et zapotèque. La grecque à degrés, xicalcoliuhqui en nahuatl, ornait les façades et les patios du centre sacerdotal de Mitla. On interprète ses lignes comme la représentation du vent, du feu, des nuages, du Serpent à plumes et de l’accès au monde souterrain. Mitla a fondé la beauté de ses palais sur cette mosaïque de pierre, et non sur la peinture à fresque."
+    },
+    "guion_largo": {
+      "hash": "70435aca36676556",
+      "texto": "Un mur assemblé comme un puzzle. Telle est l’idée de ce panneau. Il est formé de milliers de petites pierres découpées avec précision, qui ont été insérées par pression, sans mortier.\n\nC’est un panneau à grecques à degrés dans le style de Mitla, dans les Vallées centrales d’Oaxaca. Mitla fut aussi connue sous le nom de Mictlán. Il date du Postclassique et se rattache aux traditions mixtèque et zapotèque.\n\nLa grecque à degrés s’appelle xicalcoliuhqui, en nahuatl. C’est un motif géométrique qui ornait les façades et les patios du centre sacerdotal de Mitla. On interprète ses lignes comme la représentation du vent, du feu, des nuages, du Serpent à plumes et de l’accès mystique au monde souterrain.\n\nD’autres centres mésoaméricains décoraient avec de la peinture à fresque. Mitla a fondé la beauté de ses palais sur cette mosaïque de pierre. Elle est assemblée avec une telle exactitude que les panneaux se sont maintenus debout pendant des siècles, même face aux séismes.\n\nApprochez-vous sans toucher. Observez comment chaque pierre s’ajuste à sa voisine, et comment la lumière dessine des ombres dans le zigzag de la grecque. Il n’y a ni couleurs ni figures : seulement des lignes qui se répètent et qui en disent long."
+    },
+    "retos_observacion": {
+      "hash": "bdf0e44fcd432594",
+      "texto": [
+        "Cherchez le zigzag à degrés de la grecque.",
+        "Observez comment les petites pierres s’emboîtent, sans mortier.",
+        "Regardez les ombres que la lumière dessine entre les lignes."
+      ]
+    },
+    "especificaciones": {
+      "hash": "c0ba6437c5e11a85",
+      "texto": {
+        "Culture": "Mixtèque / Zapotèque",
+        "Période": "Postclassique",
+        "Matériau": "Mosaïque de pierre, calcaire poli et tuf volcanique, assemblée par pression",
+        "Provenance": "Mitla, Vallées centrales, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "cc0ea28ff9f31eea",
+      "texto": {
+        "pregunta": "Mythe : Les grecques de Mitla ont été sculptées directement dans un mur terminé.",
+        "respuesta": "Réalité : Ce sont des mosaïques de milliers de petites pierres découpées et insérées par pression, sans mortier."
+      }
+    }
+  }
+}

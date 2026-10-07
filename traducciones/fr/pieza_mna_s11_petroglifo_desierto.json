@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_petroglifo_desierto",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d75191878d531d35",
+      "texto": "Pétroglyphe et grattoir cérémoniel de chasseurs-cueilleurs"
+    },
+    "frase_gancho": {
+      "hash": "4fe43efc5778f352",
+      "texto": "Roche gravée et outil de pierre taillée : les traces des chasseurs du désert."
+    },
+    "puente_narrativo": {
+      "hash": "3db7e68068fade03",
+      "texto": "Nous poursuivons avec les chasseurs-cueilleurs du désert, cette fois à travers la pierre : une roche gravée et un outil taillé."
+    },
+    "guion_corto": {
+      "hash": "3b5709701c407fba",
+      "texto": "Une roche ornée de dessins et un outil tranchant semblent des objets bien différents. Pourtant, ils sont nés de la même tradition : celle des chasseurs-cueilleurs du désert, dans ce que l’on appelle la Grande Chichimèque. Leurs traces apparaissent dans les déserts et les sierras, de Coahuila jusqu’à la Basse-Californie. Ils ont travaillé la pierre volcanique, le basalte, le silex et la pierre à fusil, toujours par percussion et avec des retouches soignées. Le grattoir servait à nettoyer les peaux et à travailler le bois et les fibres de maguey, c’est-à-dire à vivre. Les gravures, en revanche, sont interprétées comme des signaux : marques de territoire, de points d’eau et de routes. Entre les uns et les autres s’étend une très longue tradition, qui va de 8000 avant notre ère à 1500 après notre ère. C’est la mémoire de gens qui se déplaçaient avec le désert et l’ont laissé marqué dans la pierre."
+    },
+    "guion_largo": {
+      "hash": "8e87a2fd241714fa",
+      "texto": "Un pétroglyphe est un dessin gravé sur une roche, et un grattoir est un outil de pierre tranchant. Ils apparaissent ici ensemble parce qu’ils racontent les deux visages d’une même vie : celui du travail et celui des signaux.\n\nDerrière eux se trouvent les chasseurs-cueilleurs du désert, de la tradition de l’Aridoamérique que l’on appelle la Grande Chichimèque. C’étaient des groupes nomades qui parcouraient les déserts et les sierras du nord du Mexique, dans ce que sont aujourd’hui Coahuila, Durango, Chihuahua, Sonora et la Basse-Californie.\n\nLa technique est la même pour les deux pièces : la pierre était travaillée par percussion, puis retouchée. Elle a servi à fabriquer les outils, et aussi les gravures sur la roche. On utilisait la pierre volcanique et le basalte, mais aussi le silex et la pierre à fusil.\n\nLe grattoir est un outil d’usage quotidien. Beaucoup avaient un manche en bois, collé avec une résine végétale, comme celle du mesquite, et attaché avec des fibres d’agave. Avec eux, on préparait la viande et l’on raclait les peaux. On travaillait aussi les fibres dures du maguey et le bois, pour fabriquer des filets et des armes.\n\nLes pétroglyphes parlent d’autre chose. Les archéologues proposent qu’ils servaient de cartes du territoire, de marques pour les points d’eau et d’itinéraires de voyage et d’observation du ciel.\n\nLe temps que couvre cette tradition est immense : il va de 8000 avant notre ère à 1500 après notre ère. Une seule gravure ne raconte pas tout cela. Mais elle rappelle que le désert a été habité et que ses habitants le connaissaient et l’ont marqué avec patience."
+    },
+    "retos_observacion": {
+      "hash": "d47c86f96cbf88c3",
+      "texto": [
+        "Cherchez les gravures restées marquées à la surface de la roche.",
+        "Comparez le bord travaillé de l’outil avec la surface de la roche.",
+        "Cherchez les marques de coups et de retouches qui ont donné son tranchant à l’outil."
+      ]
+    },
+    "especificaciones": {
+      "hash": "116883fc2deb1167",
+      "texto": {
+        "Culture": "Aridoamérique / Tradition des cultures du désert (Grande Chichimèque)",
+        "Période": "Du stade lithique au Postclassique (8000 av. J.-C.-1500 apr. J.-C.)",
+        "Matériau": "Pierre volcanique (basalte) ; silex et pierre à fusil travaillés par percussion et retouche",
+        "Provenance": "Déserts et sierras du nord du Mexique (Coahuila, Durango, Chihuahua, Sonora et Basse-Californie)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0d584cb6fd79c21",
+      "texto": {
+        "pregunta": "Mythe : Comme ils étaient nomades, les chasseurs-cueilleurs du nord n’ont pas laissé d’œuvres élaborées.",
+        "respuesta": "Réalité : Ils ont gravé la roche et taillé des outils de pierre avec une technique précise, dans une tradition qui va de 8000 avant notre ère à 1500 après notre ère."
+      }
+    }
+  }
+}

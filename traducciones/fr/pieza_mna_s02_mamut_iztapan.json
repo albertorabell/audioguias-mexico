@@ -1,0 +1,54 @@
+{
+  "id": "mna_s02_mamut_iztapan",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "26dc95c4b42196a5",
+      "texto": "Reconstitution du mammouth de Santa Isabel Iztapan II"
+    },
+    "frase_gancho": {
+      "hash": "5b161c82e6c9eb13",
+      "texto": "Un mammouth pris dans la boue d’un lac, avec les pointes de pierre qui ont servi à le chasser."
+    },
+    "puente_narrativo": {
+      "hash": "cc781ca3a57266cc",
+      "texto": "Nous commençons le Peuplement des Amériques sur les rives de l’ancien lac de Texcoco, avec une scène de chasse du Pléistocène."
+    },
+    "guion_corto": {
+      "hash": "061b2d1e7c469de8",
+      "texto": "Un mammouth pris dans la boue des rives d’un lac : voilà la scène que recrée ce diorama. C’est le mammouth de Santa Isabel Iztapan II, de l’espèce Mammuthus imperator. Il a été découvert en 1954, près de Santa Isabel Iztapan, à Texcoco, au nord-est du bassin de Mexico. Il date du Cénolithique inférieur, vers 9250 avant J.-C. Près des ossements dispersés et d’un crâne retourné sont apparus des outils de pierre, des pointes des types Lerma et Angostura. Avec elles, l’animal a été écorché, découpé et dépecé. Cette découverte a montré que les chasseurs-cueilleurs du bassin de Mexico tiraient parti des grands animaux aujourd’hui disparus."
+    },
+    "guion_largo": {
+      "hash": "536925c9ce0ff57e",
+      "texto": "Un mammouth pris dans la boue des rives d’un lac. C’est ainsi que ce diorama le recrée.\n\nC’est le mammouth de Santa Isabel Iztapan II, de l’espèce Mammuthus imperator. Il a été découvert en 1954, à 350 mètres du mammouth I, qui avait été trouvé en 1952. Tous deux proviennent de Santa Isabel Iztapan, à Texcoco, au nord-est du bassin de Mexico. Ils appartiennent au Cénolithique inférieur, et les restes sont datés d’environ 9250 avant J.-C.\n\nRegardez comment les restes ont été retrouvés. Les ossements étaient dispersés. Le crâne était retourné, et l’on pense qu’il a été tourné à dessein pour en extraire la matière cérébrale. Près des ossements se trouvaient des outils de pierre à leur emplacement d’origine, des pointes des types Lerma et Angostura. Avec elles, l’animal a été écorché, découpé et dépecé.\n\nC’est pourquoi cette découverte est si importante. Ce fut une preuve archéologique très claire que les chasseurs-cueilleurs du bassin de Mexico chassaient la mégafaune éteinte et en tiraient parti.\n\nComment la chassaient-ils ? On a proposé qu’ils utilisaient les marges boueuses de l’ancien lac de Texcoco. Par le feu ou par le bruit, ils conduisaient des mammouths âgés ou blessés vers les marécages. Les bêtes restaient enlisées dans la vase, et on les tuait ainsi avec moins de risques.\n\nImaginez la scène : un animal énorme, un lac, et des hommes munis de pointes de pierre, qui ne comptaient que sur leur ingéniosité pour survivre."
+    },
+    "retos_observacion": {
+      "hash": "e45e280478dbfb1b",
+      "texto": [
+        "Cherchez le crâne retourné parmi les ossements dispersés.",
+        "Repérez les pointes de pierre Lerma et Angostura près des restes.",
+        "Imaginez le terrain : la boue de la rive de l’ancien lac."
+      ]
+    },
+    "especificaciones": {
+      "hash": "00b353a941400d3d",
+      "texto": {
+        "Culture": "Chasseurs-cueilleurs du stade lithique ; espèce Mammuthus imperator Leidy",
+        "Période": "Cénolithique inférieur (9500-7000 av. J.-C.)",
+        "Matériau": "Squelette fossile démembré de mammouth, associé à des pointes de pierre Lerma et Angostura, intégré dans un diorama",
+        "Provenance": "Santa Isabel Iztapan, Texcoco, État de Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "b3ba86c0295cd886",
+      "texto": {
+        "pregunta": "Mythe : Le mammouth serait tombé dans un piège construit par les Aztèques.",
+        "respuesta": "Réalité : Les restes datent du Cénolithique inférieur, vers 9250 avant J.-C., soit des milliers d’années avant les Aztèques. Des chasseurs-cueilleurs en ont tiré parti avec des outils de pierre."
+      }
+    }
+  }
+}

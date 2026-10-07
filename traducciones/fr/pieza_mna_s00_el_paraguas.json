@@ -1,0 +1,54 @@
+{
+  "id": "mna_s00_el_paraguas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "474bba9aa82a6ceb",
+      "texto": "Le Parapluie et la Fontaine inversée"
+    },
+    "frase_gancho": {
+      "hash": "3af8ed40d83811f2",
+      "texto": "Une seule colonne soutient un immense toit, et l’eau en tombe en cascade."
+    },
+    "puente_narrativo": {
+      "hash": "0de5fcb9b1342ed2",
+      "texto": "Nous entrons dans la Cour centrale, où une seule colonne soutient un immense toit et où l’eau en tombe."
+    },
+    "guion_corto": {
+      "hash": "feb89988a498f221",
+      "texto": "Combien de colonnes soutiennent cet immense toit ? Comptez-les : une seule. C’est pourquoi on l’appelle le Parapluie. C’est une couverture qui repose sur une seule colonne de béton, avec une structure d’acier, dans la Cour centrale du musée. L’eau en tombe en cascade, et c’est pourquoi on l’appelle aussi la fontaine inversée. La colonne est recouverte d’un relief de bronze intitulé Image du Mexique. Le projet est de l’architecte Pedro Ramírez Vázquez, et il a été inauguré en 1964. Le relief est l’œuvre des artistes Chávez Morado. Un toit qui protège, une colonne qui raconte quelque chose et une eau qui ne cesse de tomber : voilà ce que résume cette cour."
+    },
+    "guion_largo": {
+      "hash": "9299c34098df17ee",
+      "texto": "Lorsqu’un toit repose sur une seule colonne, l’espace en dessous paraît libre. C’est ce que réussit le Parapluie, l’un des lieux les plus mémorables du musée.\n\nLa structure est en acier, la colonne est en béton et sa surface est recouverte d’un relief de bronze. En anglais, on l’appelle umbrella roof, un toit parapluie. Il y a en outre une installation hydraulique qui fait tomber l’eau en cascade. D’où un autre nom, fontaine inversée : au lieu de monter, l’eau tombe d’en haut.\n\nLe projet est de Pedro Ramírez Vázquez, l’architecte du musée tout entier. Il a été inauguré le 17 septembre 1964, dans la Cour centrale, au cœur du bois de Chapultepec. La couverture mesure environ quatre-vingt-deux mètres sur cinquante-quatre.\n\nLe relief de bronze s’intitule Image du Mexique. Il a été réalisé par les artistes Chávez Morado, parmi lesquels Tomás. Il raconte l’histoire du pays au moyen de figures. Il se parcourt mieux du regard, de haut en bas, en vous demandant quelle image du Mexique ils ont voulu composer.\n\nPensez au contraste des matériaux. En haut, une couverture d’acier. En bas, une colonne de béton vêtue de bronze. Et l’eau, qui tombe sans cesse.\n\nDans un musée consacré aux cultures anciennes, le Parapluie est une œuvre de son temps. Un toit, une colonne et une cascade : avec si peu d’éléments, la cour devient un lieu à parcourir sans se presser."
+    },
+    "retos_observacion": {
+      "hash": "0d622d637b1288f9",
+      "texto": [
+        "Comptez les colonnes qui soutiennent le toit de la cour.",
+        "Parcourez du regard le relief de bronze qui recouvre la colonne.",
+        "Suivez la cascade d’eau depuis le haut jusqu’au sol."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2e87410b32fc2a9d",
+      "texto": {
+        "Culture": "Architecture moderne mexicaine : Pedro Ramírez Vázquez (architecture) ; relief de bronze Image du Mexique, des artistes Chávez Morado",
+        "Période": "1964 (inauguré le 17 septembre 1964)",
+        "Matériau": "Structure d’acier, colonne de béton recouverte d’un relief de bronze et installation hydraulique de fontaine en cascade",
+        "Provenance": "Cour centrale, Musée national d’anthropologie, bois de Chapultepec, Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "06b6f9b5e2d29d81",
+      "texto": {
+        "pregunta": "Mythe : Le Parapluie n’est qu’un toit pour nous protéger de la pluie.",
+        "respuesta": "Réalité : C’est une couverture d’acier sur une colonne de béton, recouverte d’un relief de bronze intitulé Image du Mexique et d’où l’eau tombe en cascade ; elle a été conçue par Pedro Ramírez Vázquez."
+      }
+    }
+  }
+}

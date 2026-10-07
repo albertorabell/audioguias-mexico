@@ -1,0 +1,56 @@
+{
+  "id": "mna_s09_cabeza_pakal",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "75a3c8a77276cf2f",
+      "texto": "Tête de Pakal en stuc"
+    },
+    "frase_gancho": {
+      "hash": "1ef3f5d0b34d0d99",
+      "texto": "Une tête de stuc qui fut déposée sous le sarcophage de Pakal."
+    },
+    "puente_narrativo": {
+      "hash": "e5ae74b07c4223b2",
+      "texto": "Nous restons à Palenque avec un autre visage, modelé cette fois dans le stuc : la tête d’un jeune homme."
+    },
+    "guion_corto": {
+      "hash": "6f968a6016457371",
+      "texto": "Observez ce profil : le front et le nez forment presque une seule ligne. C’est la tête de stuc d’un jeune homme, avec une déformation crânienne prononcée. Ses cheveux sont coupés en mèches qui rappellent des feuilles de maïs, et il porte une coiffe ornée de trois boutons de fleur. Elle a été découverte en 1952 par l’archéologue Alberto Ruz Lhuillier, sous le sarcophage de Pakal, dans la chambre funéraire du temple des Inscriptions, à Palenque. Elle n’était pas seule : à côté d’elle se trouvait une autre tête, féminine. Toutes deux ont été arrachées volontairement à des statues entières et déposées en offrande lors de l’inhumation. Elle est modelée en stuc, un mélange de chaux et de poudre de pierre calcaire. Elle date du Classique récent, entre les années 600 et 900 après Jésus-Christ."
+    },
+    "guion_largo": {
+      "hash": "86fb7545be8c2f6b",
+      "texto": "La tête a été arrachée volontairement à une statue entière. Puis elle a été placée en offrande auprès d’un roi défunt.\n\nElle a été découverte en 1952 par l’archéologue Alberto Ruz Lhuillier. Elle se trouvait sous le sarcophage de Pakal, sur le sol de la chambre funéraire du temple des Inscriptions, à Palenque, au Chiapas. C’est une œuvre maya du Classique récent, entre les années 600 et 900 après Jésus-Christ.\n\nElle est faite de stuc, un mortier de chaux et de pierre calcaire pulvérisée. Avec ce matériau, les sculpteurs mayas ont obtenu un modelé d’un grand réalisme.\n\nObservez le profil. Le front et le nez forment une ligne presque continue. C’est une déformation crânienne prononcée, de type tabulaire oblique. Les cheveux sont coupés en mèches qui rappellent des feuilles de maïs. Sur la tête, il y a une coiffe ornée de trois boutons de fleur. À cause de ces feuilles de maïs, on l’appelle aussi le jeune Dieu du Maïs. C’est une lecture interprétative.\n\nElle est apparue près de la tombe de Pakal. Malgré tout, on la décrit comme le portrait idéalisé d’un jeune homme ou d’un dignitaire de Palenque, sans affirmer de qui il s’agit.\n\nElle n’était pas seule. À côté d’elle, on a trouvé une autre tête de stuc, féminine. Toutes deux ont été arrachées, de manière intentionnelle, à des statues entières. Ces statues ornaient la façade d’un temple de Palenque. Ensuite, elles ont été déposées en offrande rituelle lors de l’inhumation de Pakal."
+    },
+    "retos_observacion": {
+      "hash": "d62714809cd11c68",
+      "texto": [
+        "Cherchez le front et le nez : ils forment presque une seule ligne.",
+        "Regardez les cheveux coupés en mèches, comme des feuilles de maïs.",
+        "Comptez les trois boutons de fleur de la coiffe."
+      ]
+    },
+    "especificaciones": {
+      "hash": "1a0b4183dfbf5219",
+      "texto": {
+        "Culture": "Maya",
+        "Période": "Classique récent (600-900 apr. J.-C.)",
+        "Matériau": "Stuc",
+        "Provenance": "Palenque, Chiapas (temple des Inscriptions)",
+        "Dimensions": "0,413 m de haut x 0,202 m de large",
+        "Découverte": "1952, par Alberto Ruz Lhuillier, sous le sarcophage de Pakal, dans la chambre funéraire du temple des Inscriptions"
+      }
+    },
+    "faq_mito": {
+      "hash": "2f73aca2de6ad5d9",
+      "texto": {
+        "pregunta": "Mythe : Cette tête de stuc est un portrait confirmé de Pakal.",
+        "respuesta": "Réalité : Elle est apparue sous son sarcophage, mais on la décrit comme la tête d’un jeune homme ou d’un dignitaire, sans affirmer de qui il s’agit."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mna_s02_puntas_clovis",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7eeb62f7380079ec",
+      "texto": "Pointes de projectile cannelées de type Clovis et Lerma"
+    },
+    "frase_gancho": {
+      "hash": "2cdfc40b19d69b2b",
+      "texto": "Une rainure à la base distingue les pointes Clovis."
+    },
+    "puente_narrativo": {
+      "hash": "b3d5f06cbf51321b",
+      "texto": "Nous terminons avec les outils qui ont rendu la chasse possible : des pointes de pierre taillées par percussion et par pression."
+    },
+    "guion_corto": {
+      "hash": "5b504e2003ed1009",
+      "texto": "Une rainure à la base distingue une pointe Clovis. C’est une cannelure longitudinale, sur une face ou sur les deux, qui permettait un assemblage solide avec des hampes en bois. La pointe Clovis a une forme lancéolée. Celle du catalogue mesure 8,2 centimètres de long, 2 de large et 1 d’épaisseur. La pointe de type Lerma, en revanche, est foliacée ou en forme d’amande, à l’extrémité aiguë, retouchée sur les deux faces et sans cannelure profonde. Elle mesure entre 4,5 et 7 centimètres de long. On les taillait dans du silex, du chert blanc ou noir et de l’obsidienne, d’abord à coups de percussion, puis par une retouche fine par pression. C’étaient les outils de chasseurs-cueilleurs du Cénolithique inférieur, pour chasser les mammouths et les bisons."
+    },
+    "guion_largo": {
+      "hash": "d9e7da3deadda57d",
+      "texto": "Ces pointes de pierre ont rendu possible la chasse au gros gibier. Il en existe deux types, que l’on distingue par leur forme.\n\nLa pointe Clovis est lancéolée. À la base d’une face ou des deux, elle présente une cannelure longitudinale, c’est-à-dire une rainure. Cette rainure facilitait l’assemblage et l’emmanchement solide sur des hampes en bois. Celle du catalogue mesure 8,2 centimètres de long, 2 de large et 1 d’épaisseur. Les pointes Clovis mesurent en général entre 7 et 15 centimètres.\n\nLeur nom vient du ranch Clovis, au Nouveau-Mexique, aux États-Unis, où ce type a été découvert. On en a aussi trouvé dans le nord du Mexique et dans le Haut Plateau central. Leur production a atteint son apogée entre 10 000 et 9000 ans avant Jésus-Christ.\n\nLa pointe de type Lerma est différente. Elle est foliacée ou en forme d’amande, avec une extrémité aiguë et une retouche sur les deux faces, sans cannelure profonde. Elle était conçue pour pénétrer les peaux épaisses des mammouths et des bisons. Elle mesure entre 4,5 et 7 centimètres de long, et entre 2,8 et 3,8 de large. Elle provient de la tradition du bassin du fleuve Lerma, et a été trouvée à Santa Isabel Iztapan.\n\nOn les taillait dans du silex, du chert blanc ou noir et de l’obsidienne. On les travaillait d’abord à coups, par percussion, puis avec une retouche fine par pression, sur les deux faces.\n\nLes pointes Clovis étaient polyvalentes. Elles servaient de projectiles pour des lances de jet, ou lancées avec un atlatl, afin de chasser de grands mammifères. Et une fois retirées de la hampe, elles pouvaient être utilisées comme couteaux pour traiter la viande et découper les peaux."
+    },
+    "retos_observacion": {
+      "hash": "81e4fbb0b4f52c9f",
+      "texto": [
+        "Cherchez la rainure à la base de la pointe Clovis.",
+        "Comparez la forme lancéolée de la Clovis avec la forme en feuille de la Lerma.",
+        "Observez la retouche fine sur les deux côtés de chaque pointe."
+      ]
+    },
+    "especificaciones": {
+      "hash": "f19a0eba315d8e69",
+      "texto": {
+        "Culture": "Chasseurs-cueilleurs préagricoles du stade lithique",
+        "Période": "Cénolithique inférieur (9500-7000 av. J.-C.) ; apogée des pointes Clovis entre 10 000 et 9000 av. J.-C.",
+        "Matériau": "Silex, chert blanc ou noir et obsidienne",
+        "Provenance": "Type Clovis : ranch Clovis, Nouveau-Mexique, avec des découvertes dans le nord du Mexique et dans le Haut Plateau central. Type Lerma : bassin du fleuve Lerma et Haut Plateau central, y compris Santa Isabel Iztapan",
+        "Dimensions": "Pointe Clovis du catalogue : 8,2 cm de long x 2 cm de large x 1 cm d’épaisseur. Pointes Lerma : 4,5 à 7 cm de long x 2,8 à 3,8 cm de large"
+      }
+    },
+    "faq_mito": {
+      "hash": "c322392e8c1e7a87",
+      "texto": {
+        "pregunta": "Mythe : Les pointes Clovis servaient uniquement à tirer à distance.",
+        "respuesta": "Réalité : Elles servaient de pointes de lances de jet, et une fois retirées de la hampe, elles pouvaient aussi être utilisées comme couteaux pour traiter la viande et découper les peaux."
+      }
+    }
+  }
+}

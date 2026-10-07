@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_efigie_paquime",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ea84739320c1a7e9",
+      "texto": "Vase effigie anthropomorphe de Paquimé"
+    },
+    "frase_gancho": {
+      "hash": "04c8af0252ff1661",
+      "texto": "Une jarre en forme de personne assise, le corps peint."
+    },
+    "puente_narrativo": {
+      "hash": "8f8bef1557d72112",
+      "texto": "Nous restons avec Paquimé, mais la céramique passe des dessins géométriques de la jarre à un vase de forme humaine."
+    },
+    "guion_corto": {
+      "hash": "ea85d4a9377b5ad6",
+      "texto": "Regardez le corps, et pas seulement le visage : il est couvert de lignes et de figures géométriques peintes en rouge et noir. On pense qu’elles reproduisent la peinture corporelle et les tatouages dont s’ornait l’élite de Casas Grandes, la culture aussi appelée Paquimé. Le corps est à découvert, sans vêtement, et les lignes le parcourent comme une seconde peau. La figure est assise, les jambes fléchies, et c’est en réalité une jarre : un vase creux avec une ouverture pour verser. Elle vient de la zone de Janos, dans le Chihuahua, et date de la période moyenne, entre 1100 et 1300 après Jésus-Christ. Des vases comme celui-ci étaient placés à l’intérieur des maisons et dans les sépultures. On pense qu’ils représentaient les ancêtres, devenus gardiens cérémoniels de la maison. Ici, le récipient et l’image ne font qu’un."
+    },
+    "guion_largo": {
+      "hash": "29a17f086d501cb5",
+      "texto": "Une effigie est l’image de quelqu’un, et celle-ci l’est de façon très littérale : une jarre en forme de personne assise. Son nom technique est jarre effigie anthropomorphe assise.\n\nElle vient de la zone de Janos, dans le Chihuahua, et appartient à la culture Casas Grandes, ou Paquimé. Elle se situe dans la période moyenne, au sein du Postclassique, entre 1100 et 1300 après Jésus-Christ. Elle est née dans un lieu doté d’élites, de maisons en adobe pour plusieurs familles et de potiers d’une grande maîtrise.\n\nLa figure a été modelée dans l’argile. Le personnage est assis, les jambes fléchies et le corps à découvert. À l’intérieur, elle est creuse, et elle présente une ouverture pour verser ce qu’elle contenait.\n\nLe plus frappant, c’est la décoration. Des motifs géométriques polychromes, en rouge et noir, couvrent tout le corps. On pense qu’ils reproduisent la peinture faciale et les tatouages géométriques dont s’ornait l’élite de Casas Grandes. Ainsi, l’artisan n’a pas seulement fait un récipient : il a portraituré une manière de se présenter aux autres.\n\nCes vases occupaient des places importantes. Ils étaient placés à l’intérieur des habitations en adobe, où vivaient plusieurs familles, et aussi dans les sépultures. Les archéologues pensent qu’ils servaient de gardiens cérémoniels et d’images d’ancêtres divinisés.\n\nAvec cette idée, la pièce change de sens. Ce n’est plus seulement une jarre, ni seulement une sculpture. C’est, à la fois, un gardien et un récipient."
+    },
+    "retos_observacion": {
+      "hash": "a6578ee6aaaee4e1",
+      "texto": [
+        "Cherchez les motifs géométriques rouges et noirs qui couvrent le corps de la figure.",
+        "Regardez comment les jambes de la figure assise sont fléchies.",
+        "Cherchez l’ouverture par où le vase se remplissait et se vidait."
+      ]
+    },
+    "especificaciones": {
+      "hash": "0ef8d0915ff62e6b",
+      "texto": {
+        "Culture": "Casas Grandes / Paquimé",
+        "Période": "Postclassique / période moyenne de Paquimé (1100-1300 apr. J.-C.)",
+        "Matériau": "Argile modelée avec décoration géométrique polychrome en rouge et noir",
+        "Provenance": "Janos / Casas Grandes, Chihuahua"
+      }
+    },
+    "faq_mito": {
+      "hash": "b292384a0cab41b1",
+      "texto": {
+        "pregunta": "Mythe : Ce n’est qu’une sculpture en terre, pas un vase.",
+        "respuesta": "Réalité : C’est une jarre effigie : un vase creux, modelé en forme humaine, qui présente une ouverture pour verser."
+      }
+    }
+  }
+}

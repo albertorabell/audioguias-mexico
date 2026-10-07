@@ -1,0 +1,54 @@
+{
+  "id": "mna_s08_yugo_sapo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d562af09f8a4e308",
+      "texto": "Joug cérémoniel à visage de crapaud"
+    },
+    "frase_gancho": {
+      "hash": "e830a1b584421e8b",
+      "texto": "Ceinture de pierre où le crapaud sacré veille sur le terrain."
+    },
+    "puente_narrativo": {
+      "hash": "13704741eb10d644",
+      "texto": "Nous passons aux objets du jeu de balle, avec une ceinture de pierre ornée d’un visage de crapaud."
+    },
+    "guion_corto": {
+      "hash": "1a2f2a3e3fe63774",
+      "texto": "On dirait une ceinture de pierre, et d’une certaine façon, c’en est une. C’est un joug cérémoniel, une sculpture en forme de U, ou de fer à cheval. Il reproduit les ceintures protectrices en cuir ou en bois que les joueurs de balle portaient à la taille. Celui-ci présente un visage de crapaud. Il vient de la région centrale de Veracruz, de la tradition d’El Tajín, et date de la période classique. Il est taillé dans une pierre compacte et polie, peut-être de la diorite. Un joug de pierre est très lourd. C’est pourquoi on pense qu’il s’agissait d’une version cérémonielle de la ceinture de jeu, et non d’un équipement pour le terrain. Ceux que l’on trouve dans les tombes sont des versions votives, réalisées pour commémorer les capitaines du jeu."
+    },
+    "guion_largo": {
+      "hash": "eb2decb917a4e471",
+      "texto": "Un joug est une sculpture de pierre en forme de U, ou de fer à cheval. Il reproduit les ceintures protectrices en cuir ou en bois que les joueurs de balle portaient à la taille pour frapper la balle de caoutchouc plein.\n\nCelui-ci présente un visage de crapaud. Il vient de la région centrale de Veracruz, de la tradition d’El Tajín, et date de la période classique. Il est taillé dans une pierre compacte et polie, peut-être de la diorite.\n\nUn joug de pierre est très lourd. C’est pourquoi on pense qu’il s’agissait d’une version cérémonielle de la ceinture de jeu, et non d’un équipement pour le terrain. Ceux que l’on trouve dans les tombes sont des versions votives, c’est-à-dire des offrandes, réalisées pour commémorer les capitaines du jeu.\n\nLes jougs étaient souvent sculptés dans des pierres dures, comme le basalte, la diorite, l’andésite ou la serpentine, avec des reliefs et des incisions. Leur motif le plus fréquent est celui des volutes entrelacées. Ici, le motif central est un visage de crapaud. Ce que le crapaud signifiait sur ce joug n’est pas établi.\n\nEl Tajín, au centre de Veracruz, est la ville la plus associée à ces sculptures. On y a découvert plus de dix-sept terrains de jeu, et c’est pourquoi elle est considérée comme un centre majeur du jeu de balle rituel.\n\nRegardez le visage du crapaud et la courbe du U. C’est la ceinture d’un joueur, traduite en pierre."
+    },
+    "retos_observacion": {
+      "hash": "be3efa19bdaf55d6",
+      "texto": [
+        "Cherchez le visage de crapaud au centre du joug.",
+        "Imaginez la forme en U comme la ceinture d’un joueur de balle.",
+        "Observez le poli de la pierre."
+      ]
+    },
+    "especificaciones": {
+      "hash": "0a1b6562549d19fa",
+      "texto": {
+        "Culture": "Centre de Veracruz / El Tajín",
+        "Période": "Classique",
+        "Matériau": "Pierre compacte polie (diorite)",
+        "Provenance": "Région centrale de Veracruz"
+      }
+    },
+    "faq_mito": {
+      "hash": "82c274e2753e11fa",
+      "texto": {
+        "pregunta": "Mythe : Les joueurs portaient ces jougs de pierre pendant les parties.",
+        "respuesta": "Réalité : Un joug de pierre est très lourd. On pense qu’il s’agissait d’une version cérémonielle de la ceinture de jeu, et non d’un équipement pour le terrain."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_coatlicue",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "166dd90d2c061ad3",
+      "texto": "Coatlicue"
+    },
+    "frase_gancho": {
+      "hash": "e8ea24cb8ef0721c",
+      "texto": "Deux serpents forment son visage et d’autres tissent sa jupe."
+    },
+    "puente_narrativo": {
+      "hash": "693ef9b2fc1df925",
+      "texto": "Après l’image du Soleil et celle des âges du monde, nous arrivons à l’image de la terre, une autre grande force de la pensée mexica."
+    },
+    "guion_corto": {
+      "hash": "7afc8f7f6fda3de6",
+      "texto": "Coatlicue signifie « celle à la jupe de serpents », et le nom est à prendre au pied de la lettre. À l’endroit où devrait se trouver la tête, deux serpents de profil se font face, et entre leurs crocs se forme un visage. De sa poitrine pend un collier de mains et de cœurs avec un crâne au centre, et ses pieds se terminent en serres d’aigle. C’est une œuvre mexica de la période postclassique récent et elle représente la déesse de la terre, mère de Huitzilopochtli. Elle a été découverte le 13 août 1790 sur la Plaza Mayor de Mexico. Son aspect a tellement troublé les autorités du vice-royaume qu’elles l’ont fait enterrer de nouveau. Pour les Mexicas, la terre donnait la vie et accueillait aussi les morts. C’est pourquoi cette mère ne sourit pas. Elle porte les deux à la fois."
+    },
+    "guion_largo": {
+      "hash": "f700a0883901d403",
+      "texto": "Coatlicue est l’une des sculptures les plus célèbres de l’art mexica, et aussi l’une des plus déconcertantes. C’est une œuvre du Postclassique récent. Elle est apparue le 13 août 1790 sur la Plaza Mayor de Mexico, au cœur de ce qui fut Tenochtitlan.\n\nSon nom signifie « celle à la jupe de serpents », et le sculpteur l’a pris au pied de la lettre. La jupe est un tissage de serpents à sonnettes entrelacés. À l’endroit où devrait se trouver la tête, deux serpents de profil se font face, et leurs gueules forment un visage qui n’est pas humain. De la poitrine pend un collier de mains coupées et de cœurs, avec un crâne au centre. Les jambes se terminent en serres d’aigle garnies de plumes.\n\nSi vous pouviez la retourner, vous découvririez une autre surprise. Sur la face inférieure de la base est sculptée Tlaltecuhtli, la divinité de la terre. Cette image était placée contre le sol, hors de la vue.\n\nPour les Mexicas, Coatlicue était la mère des dieux. Selon le mythe de Coatepec, elle fut la mère de Huitzilopochtli, de Coyolxauhqui et des étoiles. Lorsque ses enfants se dressèrent contre elle, Huitzilopochtli naquit armé et la défendit. Que la terre ait un aspect aussi terrible n’était pas une contradiction. On pense que, pour les Mexicas, la terre elle-même donnait la vie et accueillait aussi les morts.\n\nAprès sa découverte, la sculpture a tellement déconcerté les autorités du vice-royaume qu’elles ont décidé de l’enterrer de nouveau, dans la cour de la Real Universidad. Elles craignaient qu’elle n’éveille la dévotion des autochtones. Elle est restée cachée jusqu’en 1825, année où on l’a sortie définitivement pour le Musée national. Plus de deux siècles après sa découverte, elle continue d’inquiéter ceux qui la regardent."
+    },
+    "retos_observacion": {
+      "hash": "10d85368fae42a47",
+      "texto": [
+        "Cherchez les deux serpents de profil qui se font face à l’endroit où devrait se trouver la tête.",
+        "Trouvez le collier de mains et de cœurs avec un crâne au centre.",
+        "Repérez la jupe tissée de serpents et les pieds aux serres d’aigle."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a895a38ca88d3655",
+      "texto": {
+        "Culture": "Mexica",
+        "Période": "Postclassique récent (1200-1521 apr. J.-C.)",
+        "Matériau": "Andésite et pigment rouge",
+        "Provenance": "Centre historique, Mexico (Plaza Mayor)",
+        "Dimensions": "252 cm de haut x 158 cm de large x 124 cm d’épaisseur"
+      }
+    },
+    "faq_mito": {
+      "hash": "73676a7474fd6f8a",
+      "texto": {
+        "pregunta": "Mythe : Coatlicue est un monstre inventé uniquement pour faire peur.",
+        "respuesta": "Réalité : C’est la déesse mexica de la terre et de la maternité, mère de Huitzilopochtli. Ses traits terribles font partie de ce symbolisme et ne sont pas un simple ornement macabre."
+      }
+    }
+  }
+}

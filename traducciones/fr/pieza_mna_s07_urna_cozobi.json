@@ -1,0 +1,54 @@
+{
+  "id": "mna_s07_urna_cozobi",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "05494408d5743fa4",
+      "texto": "Urne funéraire du dieu Pitao Cozobi"
+    },
+    "frase_gancho": {
+      "hash": "b613a674cbc276d4",
+      "texto": "Un dieu dont la coiffe est faite d’épis de maïs."
+    },
+    "puente_narrativo": {
+      "hash": "1b214e061e2bc411",
+      "texto": "Nous poursuivons avec une autre urne zapotèque de la Tombe 104, cette fois avec le dieu du maïs."
+    },
+    "guion_corto": {
+      "hash": "b68a8431e7f26db6",
+      "texto": "Regardez ce qui sort de sa coiffe : des épis de maïs, les uns à côté des autres. C’est Pitao Cozobi, le dieu zapotèque du maïs, des récoltes et de la subsistance. Cette urne funéraire provient de la Tombe 104 de Monte Albán, dans les Vallées centrales d’Oaxaca. Elle date de la période classique, entre les années 200 et 800 après J.-C. Elle est modelée à la main dans de l’argile grise, avec des appliques, des lignes incisées et des restes de peinture sur stuc. La figure porte des oreillères et un pectoral plat. Ses mains reposent sur son abdomen ou tiennent des récipients rituels. Des urnes comme celle-ci étaient placées dans les niches et aux entrées des tombes, comme gardiennes des défunts."
+    },
+    "guion_largo": {
+      "hash": "f81a0340f428ae8c",
+      "texto": "Certains dieux se reconnaissent à leurs vêtements. Celui-ci, à sa couronne de maïs.\n\nC’est Pitao Cozobi, le dieu zapotèque du maïs, des récoltes et de la subsistance. L’urne provient de la Tombe 104 de Monte Albán, dans les Vallées centrales d’Oaxaca. Elle appartient à la période classique, entre les années 200 et 800 après J.-C.\n\nElle est faite à la main avec de l’argile grise. L’artiste a ajouté des morceaux d’argile pour créer du relief, a tracé des lignes avec un outil et a recouvert la figure de stuc peint. Il reste encore des traces de cette couleur.\n\nRegardez la coiffe. Du centre jaillissent des épis de maïs sculptés. La figure porte des oreillères et un pectoral plat. Ses mains reposent sur son abdomen ou tiennent des récipients rituels.\n\nCes urnes ne contenaient pas de cendres, comme on l’a cru pendant très longtemps. On les plaçait vides dans les niches, les antichambres et sur les façades des tombes de la noblesse. On pense qu’elles étaient des gardiennes qui intercédaient auprès des dieux en faveur des défunts.\n\nLe maïs soutenait la vie des peuples d’Oaxaca, et son dieu avait une place dans la tombe."
+    },
+    "retos_observacion": {
+      "hash": "eccc8dcd84057075",
+      "texto": [
+        "Cherchez les épis de maïs qui sortent de la coiffe.",
+        "Observez les oreillères et le pectoral plat.",
+        "Trouvez les mains : reposent-elles sur l’abdomen ou tiennent-elles un récipient ?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "83c293e955859d2b",
+      "texto": {
+        "Culture": "Zapotèque",
+        "Période": "Classique (Monte Albán III, 200-800 apr. J.-C.)",
+        "Matériau": "Argile grise modelée à la main, avec des restes de peinture sur stuc",
+        "Provenance": "Tombe 104, Monte Albán, Vallées centrales, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "8d8806a1abb7262e",
+      "texto": {
+        "pregunta": "Mythe : Les urnes zapotèques servaient à conserver les cendres des morts.",
+        "respuesta": "Réalité : Elles ne contenaient pas de cendres. On les plaçait vides dans les niches et sur les façades des tombes, et on pense qu’elles protégeaient les défunts."
+      }
+    }
+  }
+}

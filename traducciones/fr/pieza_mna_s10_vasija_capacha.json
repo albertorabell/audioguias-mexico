@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_vasija_capacha",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4095784a122ad49e",
+      "texto": "Vase à anse en étrier du complexe Capacha"
+    },
+    "frase_gancho": {
+      "hash": "581b65516fa9152a",
+      "texto": "Un vase à deux corps reliés par des tubes, avec des parents en Équateur."
+    },
+    "puente_narrativo": {
+      "hash": "55808de643f88263",
+      "texto": "Nous remontons au Préclassique ancien, avec l’une des plus anciennes céramiques de l’Occident : un vase à double corps."
+    },
+    "guion_corto": {
+      "hash": "28d65441e759e202",
+      "texto": "Ce vase compte parmi les plus anciens de l’Occident du Mexique. Il appartient au complexe Capacha, de Colima, du Préclassique ancien, entre 1500 et 1000 avant J.-C. Capacha est le nom de l’ancienne hacienda où a été découvert le site éponyme, et cette tradition s’est diffusée vers Jalisco et Michoacán. Le vase a un double corps, un modèle appelé bule. Un réservoir supérieur globulaire communique avec le réservoir inférieur par deux ou trois tubes verticaux, qui forment une anse en étrier. Il est en argile brun foncé ou noire polie, avec de fines incisions et des zones ponctuées. Cette configuration est unique dans le Mexique préhispanique ancien. Certains spécialistes avancent qu’il ressemble à des céramiques contemporaines d’Équateur, comme celles de Valdivia et de Machalilla."
+    },
+    "guion_largo": {
+      "hash": "6b01750f6bc31ad5",
+      "texto": "Deux corps reliés par des tubes : voilà ce qu’est ce vase. Il appartient au complexe Capacha, de Colima, et date du Préclassique ancien, entre 1500 et 1000 avant J.-C. C’est l’une des plus anciennes traditions céramiques recensées dans l’Occident du Mexique.\n\nCapacha est le nom d’une ancienne hacienda de Colima, où a été découvert le site éponyme. À partir de là, la tradition s’est diffusée vers Jalisco et Michoacán.\n\nObservez la forme. C’est un vase à double corps, appelé bule. Un réservoir supérieur globulaire communique avec le réservoir inférieur par deux ou trois tubes verticaux. Ces tubes forment une anse en étrier.\n\nLa surface est en argile brun foncé ou noire, polie. Elle est décorée de bandes incisées à motifs géométriques, losanges et croix, et de zones ponctuées. Ce sont des lignes fines, tracées avec un instrument sur l’argile encore molle.\n\nCette forme à tubes communicants et à anse en étrier est unique sur la carte du Mexique préhispanique ancien. Et il y a une coïncidence surprenante. Il ressemble à des céramiques de la même époque de la région andine d’Amérique du Sud, comme les cultures Valdivia et Machalilla, en Équateur. Certains spécialistes avancent que cela suggère de précoces échanges par l’océan Pacifique. C’est une hypothèse.\n\nUn vase aussi ancien, et déjà d’une forme aussi complexe."
+    },
+    "retos_observacion": {
+      "hash": "b02b9790b4141527",
+      "texto": [
+        "Cherchez les tubes verticaux qui relient les deux corps.",
+        "Remarquez les bandes incisées ornées de losanges et de croix.",
+        "Regardez la couleur brun foncé et le poli de la surface."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a108382a93553bf5",
+      "texto": {
+        "Culture": "Capacha",
+        "Période": "Préclassique ancien, Formatif (1500-1000 av. J.-C. ; vers 1450 av. J.-C.)",
+        "Matériau": "Céramique en argile brun foncé ou noire polie, avec de fines incisions et des zones ponctuées",
+        "Provenance": "Colima (site éponyme dans l’ancienne hacienda Capacha), avec une diffusion vers Jalisco et Michoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "399d34027395bd59",
+      "texto": {
+        "pregunta": "Mythe : Ce vase aurait été apporté par les Espagnols au XVIᵉ siècle.",
+        "respuesta": "Réalité : C’est une céramique du Préclassique ancien, datant de 1500 à 1000 avant J.-C., fabriquée dans l’Occident du Mexique bien avant l’arrivée des Européens."
+      }
+    }
+  }
+}

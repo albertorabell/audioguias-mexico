@@ -1,0 +1,54 @@
+{
+  "id": "mna_s05_lapida_venus",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d7d5908d6e3ae73a",
+      "texto": "Dalle de Tlahuizcalpantecuhtli"
+    },
+    "frase_gancho": {
+      "hash": "887cd7b45e8913cd",
+      "texto": "Un cœur à trois lobes, transpercé par trois faisceaux de flèches, sculpté dans la pierre à Tula."
+    },
+    "puente_narrativo": {
+      "hash": "6b5d100f68efccc7",
+      "texto": "Nous passons des guerriers qui soutenaient le temple à une dalle qui raconte une idée : un cœur transpercé par des flèches."
+    },
+    "guion_corto": {
+      "hash": "956e14d94364f2c2",
+      "texto": "Il y a un détail que presque personne ne raconte : le cœur de cette dalle a trois lobes. Il se trouve dans un plat, ou récipient, coupé de côté, et trois faisceaux de flèches le transpercent. C’est un relief en basalte de la culture toltèque, du Postclassique ancien. Il vient de Tula, de la pyramide de Tlahuizcalpantecuhtli, le Seigneur de l’Étoile de l’aube. À l’origine, il était peint. On propose que des panneaux comme celui-ci fonctionnaient comme un discours sans paroles sur le sacrifice humain et le renouvellement du cosmos. La même idée, des cœurs transpercés par des dards, apparaît aussi dans les temples de Chichén Itzá, dans le Yucatán. Cela montre le lien militaire et religieux étroit entre Tula et la péninsule."
+    },
+    "guion_largo": {
+      "hash": "d7e6d69559213401",
+      "texto": "Remarquez d’abord le centre de la dalle. Il y a un plat, ou récipient, représenté coupé de côté, comme dans une coupe transversale. Dessus repose un cœur humain. Il a trois lobes, et c’est pourquoi les cartels le disent trilobé. Et il n’est pas en paix : trois faisceaux de flèches le transpercent. Un faisceau est un groupe de flèches attachées.\n\nLa plaque est en basalte et elle a été travaillée en bas-relief et en haut-relief, c’est-à-dire avec des zones peu saillantes et d’autres qui ressortent davantage. Aujourd’hui, vous la voyez aux tons de la pierre, mais à l’origine elle était polychrome.\n\nElle est associée à la pyramide de Tlahuizcalpantecuhtli, à Tula. C’est le Seigneur de l’Étoile de l’aube, c’est-à-dire la planète Vénus. Dans cette même pyramide, il y avait des atlantes comme celui de cette salle, des guerriers de pierre qui soutenaient le toit du temple. Les atlantes soutenaient l’architecture. Les dalles, elles, racontaient des idées.\n\nPensez à la ville. Vers l’an huit cent cinquante, Tula est entrée dans sa plus grande période, celle que l’on appelle la Grande Tula. Elle est arrivée à couvrir plus de treize kilomètres carrés. Elle réunissait des gens de nombreux peuples et dominait des routes commerciales. Dans une ville comme celle-ci, les images de pierre étaient une manière de communiquer des idées à beaucoup de monde.\n\nCe que l’on voit, c’est un cercle profond, un cœur à trois lobes et des lignes droites qui le traversent. On propose qu’il fonctionnait comme un discours en pierre, sur le sacrifice humain et le renouvellement du cosmos, et qu’il se lisait sans paroles. La même iconographie, des cœurs transpercés par des dards, apparaît dans les temples de Chichén Itzá, dans le Yucatán. Cela montre le lien militaire et religieux étroit entre Tula et la péninsule durant cette période.\n\nUn cœur à trois lobes, un plat et trois faisceaux de flèches : trois éléments pour une idée qui, à Tula, se disait avec la pierre."
+    },
+    "retos_observacion": {
+      "hash": "5f3999b3b8806b5e",
+      "texto": [
+        "Cherchez le cœur à trois lobes au centre du relief.",
+        "Comptez les faisceaux de flèches qui le transpercent.",
+        "Repérez le plat, coupé de côté, qui soutient le cœur."
+      ]
+    },
+    "especificaciones": {
+      "hash": "910a77057a6613ca",
+      "texto": {
+        "Culture": "Toltèque",
+        "Période": "Postclassique ancien (900-1200 apr. J.-C.)",
+        "Matériau": "Basalte",
+        "Provenance": "Tula, Hidalgo (Pyramide de Tlahuizcalpantecuhtli, Temple B)"
+      }
+    },
+    "faq_mito": {
+      "hash": "35307193a94a5ca7",
+      "texto": {
+        "pregunta": "Mythe : Cette dalle est un blason colonial apporté par les Espagnols à Hidalgo.",
+        "respuesta": "Réalité : C’est une dalle préhispanique en basalte, de la culture toltèque, liée à la pyramide de Tlahuizcalpantecuhtli à Tula."
+      }
+    }
+  }
+}

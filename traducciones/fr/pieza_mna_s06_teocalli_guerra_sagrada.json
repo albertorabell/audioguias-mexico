@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_teocalli_guerra_sagrada",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "975d0f20bf813e40",
+      "texto": "Teocalli de la Guerre sacrée"
+    },
+    "frase_gancho": {
+      "hash": "4e0f08a9823f2b6b",
+      "texto": "Un temple miniature avec un aigle perché sur un nopal."
+    },
+    "puente_narrativo": {
+      "hash": "00eec29fafc7abf6",
+      "texto": "La terre apparaît de nouveau, cette fois dans un monument où la religion et le pouvoir politique s’unissent : un temple sculpté à l’échelle."
+    },
+    "guion_corto": {
+      "hash": "375e62919f6495b6",
+      "texto": "Ce temple miniature est resté enterré sous le Palais national. Il a été découvert en août 1831, dans les fondations de la tour sud, et il est arrivé au Musée national en juillet 1926. C’est le Teocalli de la Guerre sacrée, une œuvre mexica du Postclassique récent, sculptée dans du basalte avec du pigment rouge. Il rappelle la cérémonie du Feu nouveau de 1506 à 1507. Sur la face avant, un escalier de treize marches monte jusqu’au sanctuaire. Là, un souverain et le dieu Huitzilopochtli se percent les oreilles pour offrir leur sang. Au dos se trouve le relief le plus célèbre : un aigle perché sur un nopal qui jaillit du corps de la terre. Du bec de l’aigle ne sort pas un serpent, mais le signe de l’eau et du feu, emblème de la guerre sacrée."
+    },
+    "guion_largo": {
+      "hash": "a8ce0bc86753b439",
+      "texto": "Le Teocalli de la Guerre sacrée est un temple miniature, un modèle en pierre d’une pyramide avec un escalier et un sanctuaire. C’est une œuvre mexica du Postclassique récent, sculptée dans du basalte avec des restes de pigment rouge. Elle rappelle la cérémonie du Feu nouveau de 1506 à 1507, et elle porte gravée la date 2 Roseau.\n\nSur la face avant, un escalier de treize marches monte jusqu’au sanctuaire du sommet. Là apparaît une scène d’autosacrifice. Le souverain Moctezuma II et le dieu protecteur, Huitzilopochtli, se percent les lobes des oreilles avec des poinçons, de part et d’autre du disque solaire. C’est une image de pouvoir : le souverain offre son sang comme le dieu.\n\nLa face arrière est la plus célèbre. On y voit l’aigle perché sur un nopal qui jaillit du corps de Tlaltecuhtli, la divinité de la terre. C’est l’image que les Mexicas associaient à la fondation de Tenochtitlan. Et un détail surprend : du bec de l’aigle ne sort pas un serpent, mais le signe atl-tlachinolli, qui signifie eau et feu. C’était l’emblème de la guerre sacrée, celle que les Mexicas menaient pour nourrir les dieux.\n\nL’histoire moderne du monument réserve aussi des surprises. Il a été découvert en août 1831, dans les fondations de la tour sud du Palais national. Et en juillet 1926, il est arrivé au Musée national, où il est conservé aujourd’hui comme l’une des images les plus célèbres du monde mexica."
+    },
+    "retos_observacion": {
+      "hash": "b78f634815c1214e",
+      "texto": [
+        "Cherchez sur la face arrière l’aigle perché sur le nopal.",
+        "Repérez le signe de l’eau et du feu qui sort du bec.",
+        "Trouvez l’escalier central et le sanctuaire du sommet."
+      ]
+    },
+    "especificaciones": {
+      "hash": "9f07c574a19b4a3f",
+      "texto": {
+        "Culture": "Mexica",
+        "Période": "Postclassique récent (1200-1521 apr. J.-C.)",
+        "Matériau": "Basalte et pigment rouge",
+        "Provenance": "Centre historique, Mexico (Palais national)",
+        "Dimensions": "123 cm de haut x 92 cm de large x 100 cm d’épaisseur"
+      }
+    },
+    "faq_mito": {
+      "hash": "a48c2a86a1517669",
+      "texto": {
+        "pregunta": "Mythe : L’aigle de ce relief dévore un serpent, comme sur les armoiries nationales.",
+        "respuesta": "Réalité : Du bec de l’aigle sort le signe atl-tlachinolli, eau et feu, emblème de la guerre sacrée. L’image de l’aigle sur le nopal était associée à la fondation de Tenochtitlan."
+      }
+    }
+  }
+}

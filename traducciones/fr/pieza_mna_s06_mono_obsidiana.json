@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_mono_obsidiana",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "183fe9e97dc164cb",
+      "texto": "Singe d’obsidienne"
+    },
+    "frase_gancho": {
+      "hash": "af8d2ccc0110306f",
+      "texto": "Un singe d’obsidienne qui serre dans ses bras un vase aux parois fines."
+    },
+    "puente_narrativo": {
+      "hash": "a99c107f55f6ec9a",
+      "texto": "Nous poursuivons avec une autre figure animale, mais dans un matériau très différent : l’obsidienne, taillée et polie avec une délicatesse surprenante."
+    },
+    "guion_corto": {
+      "hash": "a6637d3808270e7e",
+      "texto": "Pour les Nahuas, le singe était un animal de vent, de danse et d’arts. Il était lié à Ehécatl-Quetzalcóatl, le dieu du vent, ainsi qu’aux scribes et aux musiciens. Il est donc naturel que quelqu’un l’ait choisi pour donner forme à un vase. C’est un singe-araignée, appelé ozomatli en nahuatl. Il enlace le réservoir de ses membres et enroule sa queue en spirale autour de la base. Les parois sont extrêmement fines, et l’obsidienne noire brille comme un miroir. C’est le résultat d’une taille par percussion et d’un polissage à l’eau et aux sables fins. C’est une œuvre du Postclassique récent, et elle appartient au Musée national depuis 1869. Beaucoup la considèrent comme l’œuvre lapidaire la plus raffinée de toute la collection."
+    },
+    "guion_largo": {
+      "hash": "f22ea9f0d0cdefcc",
+      "texto": "Le Singe d’obsidienne est un vase en forme de singe-araignée, appelé ozomatli en nahuatl. Il est fait d’obsidienne noire, un verre volcanique, et c’est une œuvre du Postclassique récent du Haut Plateau central.\n\nCe qui surprend d’abord, c’est la manière dont il enlace. L’animal entoure le réservoir de ses membres, et sa queue préhensile s’enroule en spirale autour de la base. Les parois du récipient sont ultrafines, et la surface brille comme un miroir. Le singe ne se contente pas de décorer le vase : il est le vase. Son corps, ses membres et sa queue forment un seul volume avec le récipient.\n\nCet éclat est le fruit d’un travail long et patient. L’obsidienne a été taillée par percussion, puis usée et polie à l’eau et aux sables fins. C’est un matériau dur, mais fragile, et un seul coup mal porté pouvait ruiner la pièce. C’est pourquoi beaucoup la considèrent comme l’œuvre lapidaire la plus raffinée de tout le musée.\n\nPourquoi un singe ? Pour les Nahuas, cet animal était lié à Ehécatl-Quetzalcóatl, le dieu du vent, ainsi qu’aux arts, aux scribes, à la danse et à l’agilité. Le singe est remuant et agile, et cette énergie était associée au vent et à la danse. On pense qu’un tel vase n’était pas d’usage quotidien, mais un objet de luxe et de prestige.\n\nEn 1869, il est entré dans la collection du Musée national, et depuis, il est conservé comme l’un de ses trésors."
+    },
+    "retos_observacion": {
+      "hash": "60e67ab022315251",
+      "texto": [
+        "Suivez la queue du singe enroulée en spirale autour de la base.",
+        "Regardez comment les membres du singe enlacent le réservoir du vase.",
+        "Cherchez l’éclat de miroir sur la surface polie de l’obsidienne."
+      ]
+    },
+    "especificaciones": {
+      "hash": "80d20178806d07ba",
+      "texto": {
+        "Culture": "Acolhua / Mexica",
+        "Période": "Postclassique récent (1200-1521 apr. J.-C.)",
+        "Matériau": "Obsidienne",
+        "Provenance": "Texcoco, État de Mexico",
+        "Dimensions": "14 cm de haut x 15 cm de large x 16,5 cm d’épaisseur"
+      }
+    },
+    "faq_mito": {
+      "hash": "f634a1f49e09454b",
+      "texto": {
+        "pregunta": "Mythe : un vase aussi fin et brillant a forcément été réalisé avec des outils modernes.",
+        "respuesta": "Réalité : il a été réalisé avec des techniques de lapidaire : percussion, usure et polissage à l’eau et aux sables fins."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_figura_mezcala",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c3b871a58704240c",
+      "texto": "Sculpture anthropomorphe de style Mezcala"
+    },
+    "frase_gancho": {
+      "hash": "c72461b9840c44f3",
+      "texto": "Un visage humain réduit à des coupes droites dans la pierre verte."
+    },
+    "puente_narrativo": {
+      "hash": "6cb306a064697b2d",
+      "texto": "De l’argile des tombes, nous passons à la pierre du Guerrero : une figure humaine taillée à partir de quelques plans et de coupes droites."
+    },
+    "guion_corto": {
+      "hash": "7f1dae0ae2438ec7",
+      "texto": "Peut-on faire un visage avec quelques coupes droites ? Regardez cette figure et décidez vous-même. C’est une sculpture de style Mezcala, venue du bassin du fleuve Balsas, dans le Guerrero, taillée dans une pierre dure, surtout de la serpentine verte. Il n’y a ni muscles ni détails réalistes. Les traits du visage et les membres sont seulement suggérés par des plans droits, des arêtes et des cannelures. Pour y parvenir, les sculpteurs coupaient la pierre avec des scies à corde et l’usaient peu à peu. Le style s’est développé entre le Préclassique récent et le Classique, c’est-à-dire entre 400 avant Jésus-Christ et 600 après Jésus-Christ. Bien plus tard, les Teotihuacán et les Mexicas ont tellement apprécié ces pièces qu’ils les ont sorties du Guerrero pour les enterrer dans leurs propres temples. Et au vingtième siècle, les artistes modernes ont découvert en elles une ressemblance surprenante avec la sculpture abstraite."
+    },
+    "guion_largo": {
+      "hash": "bfd0df4cbedaa3a9",
+      "texto": "Certaines œuvres en disent plus avec moins. Cette figure de style Mezcala en fait partie. Elle vient du bassin du fleuve Balsas, dans l’État du Guerrero, et c’est une œuvre de lapidaire, l’art de travailler les pierres dures.\n\nLe style Mezcala s’est développé pendant de nombreux siècles, du Préclassique récent jusqu’au Classique, entre 400 avant Jésus-Christ et 600 après Jésus-Christ. Ses sculpteurs travaillaient des pierres dures, surtout la serpentine verte et la jadéite. Une pierre de ce genre ne se taille pas à coups de ciseau comme une pierre tendre. On l’use, on la coupe avec des scies à corde et on la polit peu à peu.\n\nLa figure montre ce qui rend ce style si reconnaissable. Le sculpteur ne copie pas le corps de façon réaliste. Le nez, la bouche et les membres sont suggérés par des plans droits, des arêtes et des cannelures, et votre imagination complète le reste. C’est une synthèse : l’essentiel d’une figure humaine, sans rien de superflu.\n\nLes peuples anciens du Mexique appréciaient déjà ces pièces. Les Teotihuacán et les Mexicas les faisaient venir du Guerrero et les enterraient dans leurs propres temples. Cela signifie que le style Mezcala était admiré bien au-delà de sa région.\n\nBien des siècles plus tard, au vingtième siècle, les artistes de l’art moderne ont été surpris. Ces figures aux lignes droites ressemblaient à la sculpture abstraite qu’ils recherchaient eux-mêmes. Ainsi, une pièce taillée il y a de nombreux siècles est devenue familière à l’œil contemporain."
+    },
+    "retos_observacion": {
+      "hash": "f15c585f3530a0d9",
+      "texto": [
+        "Cherchez les cannelures et les arêtes qui suggèrent le visage et les membres.",
+        "Repérez les plans droits qui remplacent le volume arrondi du corps.",
+        "Regardez le vert de la pierre et songez à quel point il était difficile de la travailler."
+      ]
+    },
+    "especificaciones": {
+      "hash": "9b2308fc84495ea0",
+      "texto": {
+        "Culture": "Mezcala / Style Guerrero",
+        "Période": "Du Préclassique récent au Classique (400 av. J.-C.-600 apr. J.-C.)",
+        "Matériau": "Pierres dures (principalement serpentine verte, métasédimentaire et jadéite)",
+        "Provenance": "Bassin du fleuve Balsas / Mezcala, Guerrero"
+      }
+    },
+    "faq_mito": {
+      "hash": "46f0012306c0f2df",
+      "texto": {
+        "pregunta": "Mythe : Cette figure est une pièce grossière, laissée inachevée.",
+        "respuesta": "Réalité : Sa simplicité est le style lui-même. Les sculpteurs de Mezcala travaillaient des pierres dures et synthétisaient la figure humaine avec des plans droits, des arêtes et des cannelures. Les Teotihuacán et les Mexicas les ont tellement appréciées qu’ils les ont enterrées dans leurs temples."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s04_animales_mitologicos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc5073a87fe16ea3",
+      "texto": "Mural des Animaux mythologiques"
+    },
+    "frase_gancho": {
+      "hash": "9e2bd702823b4352",
+      "texto": "Des serpents ailés dévorant des félins, sur un mur qui fut ensuite recouvert."
+    },
+    "puente_narrativo": {
+      "hash": "8fd8b14b0ac67630",
+      "texto": "Nous terminons la salle avec un mural d’êtres qui n’existent pas : des animaux mythologiques peints à fresque."
+    },
+    "guion_corto": {
+      "hash": "8201d92c09029453",
+      "texto": "Les Teotihuacáns peignaient des animaux qui n’existent pas. Dans ce mural, de grands serpents ailés attaquent des animaux plus petits, surtout des félins. Il est peint à fresque, sur du stuc et du mortier de chaux. Il provient du temple des Animaux mythologiques, sur l’Avenue des Morts, à Teotihuacán. Il date de la période Classique, entre les années 300 et 450 après Jésus-Christ. Certains spécialistes lisent la scène comme l’écho d’une querelle entre groupes de l’élite, mais ce n’est qu’une hypothèse. Il s’est conservé pour une raison curieuse : avant l’an 350, une nouvelle façade a recouvert le mural et l’a protégé pendant des siècles."
+    },
+    "guion_largo": {
+      "hash": "069ba38f5147d997",
+      "texto": "Certaines peintures ont été sauvées parce que quelqu’un les avait cachées. Celle-ci en fait partie.\n\nIl s’agit du Mural des Animaux mythologiques, de la culture teotihuacán. Il provient du temple des Animaux mythologiques, sur l’Avenue des Morts, à Teotihuacán, dans l’État de Mexico. Il est peint à fresque, sur du stuc et du mortier de chaux. Dans cette technique, les pigments sont appliqués sur le stuc encore humide, et en séchant ils restent unis au mur.\n\nIl appartient à la période Classique, entre les années 300 et 450 après Jésus-Christ. Mais il y a une date qui compte davantage : l’an 350. Avant cette date, une nouvelle façade a recouvert le mural. Cette couche l’a caché, et elle l’a aussi protégé.\n\nLa scène est intense. De grands serpents ailés attaquent et dévorent des animaux plus petits, surtout des félins. Ce sont des créatures fantastiques, qui n’existent pas dans la nature. Regardez à loisir les formes et les couleurs.\n\nCertains spécialistes ont lu cette image comme le reflet d’une querelle politico-religieuse entre groupes de l’élite de la ville. Ce n’est qu’une hypothèse.\n\nCe que vous voyez, c’est ce qui a survécu à des siècles sous terre. Un mur peint que quelqu’un a recouvert, et que quelqu’un d’autre a découvert."
+    },
+    "retos_observacion": {
+      "hash": "b655011fff44f9fd",
+      "texto": [
+        "Cherchez les serpents ailés qui attaquent des animaux plus petits.",
+        "Trouvez les félins parmi les victimes.",
+        "Imaginez le mural caché par une nouvelle façade, avant l’an 350."
+      ]
+    },
+    "especificaciones": {
+      "hash": "bb67cea7a9a99f97",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (300-450 apr. J.-C.)",
+        "Matériau": "Peinture à fresque sur stuc et mortier de chaux",
+        "Provenance": "Teotihuacán, État de Mexico (Avenue des Morts)"
+      }
+    },
+    "faq_mito": {
+      "hash": "0cc750fdfc121da4",
+      "texto": {
+        "pregunta": "Mythe : Les Teotihuacáns ont peint ces animaux parce qu’ils vivaient dans leur région.",
+        "respuesta": "Réalité : Ce sont des êtres mythologiques, des animaux qui n’existent pas. Ils se sont conservés parce qu’une nouvelle façade les a recouverts avant l’an 350."
+      }
+    }
+  }
+}

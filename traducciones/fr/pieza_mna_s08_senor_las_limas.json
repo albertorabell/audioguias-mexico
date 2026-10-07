@@ -1,0 +1,56 @@
+{
+  "id": "mna_s08_senor_las_limas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0c28a646b57fda13",
+      "texto": "Le Seigneur de Las Limas"
+    },
+    "frase_gancho": {
+      "hash": "226960a8b23d1254",
+      "texto": "Ce sont deux enfants à la recherche d’une tortue qui l’ont découvert."
+    },
+    "puente_narrativo": {
+      "hash": "207740db7575dcd4",
+      "texto": "Nous passons des têtes colossales à une pièce petite et très différente : une sculpture en pierre verte découverte par deux enfants."
+    },
+    "guion_corto": {
+      "hash": "39f05ecf443033ff",
+      "texto": "Le 16 juillet 1965, deux enfants cherchaient une tortue dans la communauté de Las Limas, dans l’État de Veracruz. Ils s’appelaient Severiano et Rosa Manuel Esteban. Au lieu de la tortue, ils trouvèrent une sculpture olmèque en serpentine, une pierre verte. Aujourd’hui, on la connaît sous le nom de Seigneur de Las Limas. Elle mesure 55 centimètres de haut, 42 de large et 33 d’épaisseur. Elle fut sculptée au Préclassique moyen, par une culture qui travaillait avec une grande maîtrise les pierres vertes. Elle représente un homme assis, les jambes croisées, qui tient un enfant sur ses genoux. Qui l’a taillée, et dans quel but, reste une énigme, et toute explication n’est qu’une hypothèse. Ce qui est établi, c’est qu’elle n’a pas été trouvée par une équipe de spécialistes, mais par deux enfants, par hasard."
+    },
+    "guion_largo": {
+      "hash": "cdb98ee475dbfc4d",
+      "texto": "Sa découverte tient du conte. Le 16 juillet 1965, deux enfants, Severiano et Rosa Manuel Esteban, cherchaient une tortue dans la communauté de Las Limas. Au lieu de la tortue, ils trouvèrent la sculpture. Ce ne fut ni une fouille planifiée ni une découverte de spécialistes. C’est de cette communauté que vient le nom sous lequel on connaît aujourd’hui la pièce.\n\nC’est une sculpture olmèque en serpentine, une pierre verte. Elle mesure 55 centimètres de haut, 42 de large et 33 d’épaisseur. Elle date du Préclassique moyen et provient de Las Limas, dans la municipalité de Jesús Carranza, dans l’État de Veracruz.\n\nLa serpentine n’est pas facile à travailler. Les Olmèques se sont distingués par leur art de sculpter des minéraux très durs, comme la jadéite, la serpentine et la magnétite. Avec eux, ils fabriquèrent des masques, des haches cérémonielles et des pectoraux. Cette sculpture poursuit cette tradition.\n\nElle représente un homme assis, les jambes croisées, qui tient un enfant sur ses genoux. Toute lecture de cette scène est une hypothèse. Ce que l’on voit, c’est une composition soigneusement pensée.\n\nLes Olmèques vivaient dans des forêts tropicales de basse altitude et au bord de fleuves puissants, dans le sud de Veracruz et dans l’État de Tabasco. Ils fondèrent des centres comme San Lorenzo, La Venta et Tres Zapotes. Elle est beaucoup plus petite qu’une Tête colossale, mais elle partage avec elles un travail soigné dans une pierre difficile."
+    },
+    "retos_observacion": {
+      "hash": "e8afd9ff1b90b1b4",
+      "texto": [
+        "Cherchez l’homme assis, les jambes croisées.",
+        "Observez l’enfant qu’il tient sur ses genoux.",
+        "Regardez la couleur verte de la pierre : c’est de la serpentine."
+      ]
+    },
+    "especificaciones": {
+      "hash": "b4c86d6927972b45",
+      "texto": {
+        "Culture": "Olmèque",
+        "Période": "Préclassique moyen",
+        "Matériau": "Serpentine",
+        "Provenance": "Las Limas, municipalité de Jesús Carranza, Veracruz",
+        "Dimensions": "0,55 m de haut x 0,42 m de large x 0,33 m d’épaisseur",
+        "Découverte": "Découverte le 16 juillet 1965 par deux enfants, Severiano et Rosa Manuel Esteban, qui cherchaient une tortue"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2295e94b6cd2191",
+      "texto": {
+        "pregunta": "Mythe : Une équipe d’archéologues l’a trouvée lors d’une fouille.",
+        "respuesta": "Réalité : Ce sont deux enfants, Severiano et Rosa Manuel Esteban, qui l’ont trouvée le 16 juillet 1965. Ils cherchaient une tortue."
+      }
+    }
+  }
+}

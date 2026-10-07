@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_estela51_calakmul",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fe2cec2405d775ab",
+      "texto": "Stèle 51 de Calakmul"
+    },
+    "frase_gancho": {
+      "hash": "ebfea40c3b8ddc42",
+      "texto": "Un roi debout sur son ennemi, sauvé des pillards."
+    },
+    "puente_narrativo": {
+      "hash": "960719adde05369e",
+      "texto": "Voici maintenant Calakmul, avec une stèle sauvée de justesse : on l’avait découpée à la tronçonneuse."
+    },
+    "guion_corto": {
+      "hash": "add6ea8b821aad0d",
+      "texto": "Cette stèle a été sauvée de justesse. Des pillards l’ont découpée à la tronçonneuse pour l’emporter plus légère, et c’est pourquoi les textes de ses côtés ont été perdus. Elle a été saisie chez des vendeurs illégaux et est arrivée au musée en 1963, avec Ignacio Bernal. C’est la Stèle 51 de Calakmul, à Campeche, datée de l’an 731 après Jésus-Christ. Elle montre le souverain Yukno'm Tok' K'awiil debout sur un captif vaincu, une lance dans la main droite. Il porte une cuirasse, une cape qui descend jusqu’aux chevilles et une coiffe ornée des mâchoires d’un serpent fantastique. Elle mesure 3,02 mètres de haut sur 1,43 de large, et elle est sculptée dans du calcaire."
+    },
+    "guion_largo": {
+      "hash": "ab88729009d5c348",
+      "texto": "Il fut un moment où cette stèle a failli disparaître à jamais.\n\nC’est la Stèle 51 de Calakmul, l’une des grandes cités mayas, à Campeche. Elle a été trouvée à la base de la Structure 1. Elle a été datée avec précision de l’an 731 après Jésus-Christ, au début du huitième siècle. Elle est sculptée dans du calcaire, en haut relief, et mesure 3,02 mètres de haut sur 1,43 de large.\n\nÀ l’origine, elle portait des inscriptions hiéroglyphiques sur trois de ses côtés. Mais des pillards l’ont découpée à la tronçonneuse. Ils voulaient l’alléger pour la vendre sur le marché international. Dans cette découpe, les textes latéraux ont été perdus.\n\nPar bonheur, elle a été saisie. Ignacio Bernal l’a récupérée pour le musée en 1963.\n\nRegardez maintenant ce qu’il en reste. C’est le portrait de Yukno'm Tok' K'awiil, souverain de Calakmul au début du huitième siècle. Il se tient debout sur un captif vaincu et tient une lance dans la main droite. Il porte une cuirasse et une cape qui lui descend jusqu’aux chevilles. Sa coiffe est ornée des mâchoires d’un serpent fantastique.\n\nObservez ses cheveux. Ils sont bouclés, un trait très rare dans la sculpture maya. Devant son visage apparaît l’inscription hiéroglyphique Sak Muwaan."
+    },
+    "retos_observacion": {
+      "hash": "cc06f6a2231eefa3",
+      "texto": [
+        "Cherchez le captif vaincu sous les pieds du souverain.",
+        "Observez ses cheveux bouclés, peu courants dans l’art maya.",
+        "Trouvez l’inscription Sak Muwaan devant son visage."
+      ]
+    },
+    "especificaciones": {
+      "hash": "0bb037334e20ef60",
+      "texto": {
+        "Culture": "Maya",
+        "Période": "Classique récent (731 apr. J.-C.)",
+        "Matériau": "Calcaire",
+        "Provenance": "Calakmul, Campeche (base de la Structure 1)",
+        "Dimensions": "3,02 m de haut x 1,43 m de large"
+      }
+    },
+    "faq_mito": {
+      "hash": "9c1ecc2b47b8b1f2",
+      "texto": {
+        "pregunta": "Mythe : la Stèle 51 est une réplique moderne réalisée pour le musée.",
+        "respuesta": "Réalité : c’est une sculpture originale, en calcaire, datée de l’an 731 après Jésus-Christ. Elle a été saisie chez des vendeurs illégaux et est arrivée au musée en 1963."
+      }
+    }
+  }
+}

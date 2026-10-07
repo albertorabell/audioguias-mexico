@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_maqueta_tlatelolco",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0d3bb7b94cf5c69",
+      "texto": "Maquette et fresque du marché de Tlatelolco"
+    },
+    "frase_gancho": {
+      "hash": "f5451f7e79d45111",
+      "texto": "Des centaines de figurines d’argile un jour de marché, avant l’arrivée des Espagnols."
+    },
+    "puente_narrativo": {
+      "hash": "1bce92bcd74dc43b",
+      "texto": "Nous quittons les dieux et descendons sur la place : voici à quoi ressemblait un jour de marché à Tlatelolco, la ville jumelle de Tenochtitlan."
+    },
+    "guion_corto": {
+      "hash": "354c289f0c7966e9",
+      "texto": "C’est jour de marché à Tlatelolco, et la place est pleine de monde. Ce que vous voyez est une maquette de centaines de figurines d’argile : des nobles, des paysans, des artisans, des chasseurs et des marchands au long cours. Il y a des étals de nourriture, de céramique, de bijoux, d’outils et d’animaux vivants. Derrière, une fresque panoramique du peintre Luis Covarrubias complète la scène. La maquette a été construite en 1964. Elle est l’œuvre de Carmen Antúnez, avec les conseils de l’architecte Ignacio Marquina. Les chroniqueurs racontent qu’on y achetait par troc, mais aussi avec des graines de cacao, des couvertures de coton et des plumes remplies de poudre d’or. C’est une reconstitution moderne qui vous aide à imaginer le commerce mexica."
+    },
+    "guion_largo": {
+      "hash": "260862f8cb975227",
+      "texto": "Tlatelolco, la ville jumelle de Tenochtitlan, possédait un grand marché. Cette maquette vous le montre.\n\nCe n’est pas une pièce ancienne, mais une reconstitution moderne. Elle a été construite en 1964 par Carmen Antúnez, avec les conseils de l’architecte Ignacio Marquina. Elle se compose de centaines de figurines modelées à la main, vêtues de vêtements en tissu et entourées d’étals de nourriture, de céramique, de bijoux et d’outils.\n\nDerrière la maquette se trouve une fresque panoramique du peintre Luis Covarrubias. Ensemble, elles complètent la scène.\n\nParmi les étals se mêlent des nobles, des paysans, des artisans, des chasseurs et des marchands au long cours, que l’on appelait les pochtecas. Ils rapportaient de terres lointaines des produits de luxe, comme de l’or, des turquoises, du cacao et des plumes de quetzal.\n\nSur ce marché, il n’y avait pas de pièces de monnaie comme celles d’aujourd’hui. On pratiquait le troc, et l’on utilisait aussi comme monnaie les graines de cacao, les couvertures de coton et les plumes remplies de poudre d’or.\n\nLes chroniqueurs espagnols furent stupéfaits par la foule. Hernán Cortés et Bernal Díaz del Castillo parlent de dizaines de milliers de personnes sur la place en une seule journée.\n\nCherchez une scène qui retient votre attention et imaginez ce que l’on pouvait bien y acheter."
+    },
+    "retos_observacion": {
+      "hash": "5ccd4217034bce87",
+      "texto": [
+        "Cherchez les étals de nourriture et de céramique parmi les figurines.",
+        "Trouvez les étals d’animaux vivants, de bijoux et d’outils.",
+        "Regardez la fresque du fond : elle complète la scène de la place."
+      ]
+    },
+    "especificaciones": {
+      "hash": "69eb3d6769720db9",
+      "texto": {
+        "Culture": "Mexica-tlatelolca (reconstitution muséographique)",
+        "Période": "Représente le Postclassique récent ; maquette de 1964",
+        "Matériau": "Figurines d’argile et de résine modelées à la main ; fresque de fond",
+        "Provenance": "Reconstitution du marché de Tlatelolco, ville jumelle de México-Tenochtitlan",
+        "Dimensions": "Maquette à l’échelle"
+      }
+    },
+    "faq_mito": {
+      "hash": "1a0bec2f9b9975b5",
+      "texto": {
+        "pregunta": "Mythe : Les Mexicas payaient au marché avec des pièces d’or et d’argent.",
+        "respuesta": "Réalité : Ils n’utilisaient pas de pièces. Ils pratiquaient le troc et employaient comme monnaie des graines de cacao, des couvertures de coton et des plumes remplies de poudre d’or."
+      }
+    }
+  }
+}

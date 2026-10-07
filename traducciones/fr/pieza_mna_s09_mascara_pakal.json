@@ -1,0 +1,56 @@
+{
+  "id": "mna_s09_mascara_pakal",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1282acad5f76e33c",
+      "texto": "Masque de Pakal"
+    },
+    "frase_gancho": {
+      "hash": "135c1b599f400fad",
+      "texto": "Mosaïque verdâtre de jade où le roi maya ressuscite pour l’éternité."
+    },
+    "puente_narrativo": {
+      "hash": "7c6734649b607057",
+      "texto": "Nous entrons dans la Salle maya avec le visage d’un roi : le masque qui couvrait Pakal dans sa tombe de Palenque."
+    },
+    "guion_corto": {
+      "hash": "bac55e2102c54c5e",
+      "texto": "Le 15 juin 1952, l’archéologue Alberto Ruz Lhuillier découvrit ce masque dans la crypte du temple des Inscriptions, à Palenque, au Chiapas. Il couvrait le visage de K'inich Janaab' Pakal, le grand souverain maya, lors de son enterrement. Il n’est pas taillé dans un seul bloc. C’est une mosaïque de petites pièces de pierre verte, de jade ou de jadéite, avec des yeux en coquillage blanc et des iris en obsidienne noire. Il mesure 24,5 centimètres de haut. Dans la bouche entrouverte, les deux dents supérieures ont la forme du ik, le signe maya du vent et de la vie. Les spécialistes proposent que le masque l’identifie au Dieu du Maïs, afin d’assurer sa résurrection. C’est une œuvre du Classique récent, entre les années 600 et 900 après Jésus-Christ."
+    },
+    "guion_largo": {
+      "hash": "2fd7252b667cd83c",
+      "texto": "Ce masque couvrait le visage de K'inich Janaab' Pakal lors de son enterrement. Pakal fut le grand souverain de Palenque, et il régna entre les années 615 et 683 après Jésus-Christ.\n\nIl fut découvert le 15 juin 1952 par l’archéologue Alberto Ruz Lhuillier. Il se trouvait dans la crypte du temple des Inscriptions, à Palenque, au Chiapas. La crypte était restée scellée plus de mille deux cents ans. Ruz Lhuillier dut dégager les décombres d’un tunnel en escalier pour atteindre le cœur de la pyramide.\n\nCe n’est pas une pièce taillée dans un seul bloc. C’est une mosaïque de nombreux petits fragments de pierre verte, de jade ou de jadéite, découpés et polis pour s’emboîter les uns dans les autres. Les yeux sont en coquillage blanc, avec des iris en obsidienne noire. Le masque mesure 24,5 centimètres de haut, 18,5 de large et 11 d’épaisseur.\n\nRegardez la bouche entrouverte. Les deux dents supérieures du centre sont taillées en forme de ik, le signe maya du vent et de la vie. C’est un petit détail, mais il change la lecture de la pièce. Il fait de ce visage quelqu’un qui respire.\n\nOn sait que le masque couvrait le visage du souverain. Les spécialistes proposent qu’il représente le Dieu du Maïs, la divinité à laquelle le roi s’identifia à sa mort pour assurer sa résurrection. C’est une interprétation, et elle s’accorde avec le signe de la vie qu’il porte dans la bouche.\n\nIl appartient à la période Classique récent, entre les années 600 et 900 après Jésus-Christ."
+    },
+    "retos_observacion": {
+      "hash": "83008d648d2333b9",
+      "texto": [
+        "Cherchez dans la bouche entrouverte les deux dents supérieures en forme de signe ik.",
+        "Comparez l’obsidienne sombre et le coquillage clair qui forment les yeux.",
+        "Essayez de distinguer les jointures entre les petites pièces de pierre verte de la mosaïque."
+      ]
+    },
+    "especificaciones": {
+      "hash": "fd9208c63a337c39",
+      "texto": {
+        "Culture": "Maya",
+        "Période": "Classique récent (600-900 apr. J.-C.)",
+        "Matériau": "Jade (jadéite), coquillage et obsidienne",
+        "Provenance": "Palenque, Chiapas (temple des Inscriptions)",
+        "Dimensions": "0,245 m de haut x 0,185 m de large x 0,11 m d’épaisseur",
+        "Découverte": "15 juin 1952, par Alberto Ruz Lhuillier, dans la crypte du temple des Inscriptions"
+      }
+    },
+    "faq_mito": {
+      "hash": "024b73a7b8ae2fb0",
+      "texto": {
+        "pregunta": "Mythe : le masque de Pakal est sculpté dans un seul bloc de jade.",
+        "respuesta": "Réalité : c’est une mosaïque de nombreux fragments de pierre verte, avec des yeux en coquillage et des iris en obsidienne."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_disco_muerte",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d564e0fcdec1e69f",
+      "texto": "Disque de la Mort"
+    },
+    "frase_gancho": {
+      "hash": "51e1ddd47ce84a34",
+      "texto": "Un crâne avec une langue et un halo de rayons : le soleil qui se couche, selon Teotihuacán."
+    },
+    "puente_narrativo": {
+      "hash": "800e428db7ce3c9c",
+      "texto": "Nous poursuivons avec un disque que l’on a cru mexica pendant un temps, mais qui est teotihuacán : un crâne entouré de rayons."
+    },
+    "guion_corto": {
+      "hash": "f53ff53893244101",
+      "texto": "Pendant un temps, certains chercheurs ont cru que ce disque était mexica, à cause de la langue qui dépasse et du halo de rayons. Ce n’est pas le cas. C’est une sculpture teotihuacán de la période Classique, taillée dans l’andésite et portant des restes de pigment rouge. Elle est apparue en mille neuf cent soixante-quatre, sur la place devant la pyramide du Soleil. Elle montre un crâne humain à la bouche édentée, d’où dépasse une grande langue. Un halo plissé l’entoure, qui rappelle des éventails de papier ou des rayons de soleil. On l’interprète comme le Soleil mort. C’est l’astre qui se couche à l’ouest, où la terre le dévore, et qui descend dans le monde souterrain pour éclairer le royaume des morts. Teotihuacán a créé ces images du culte solaire, et des siècles plus tard, les peuples du Postclassique les ont reprises."
+    },
+    "guion_largo": {
+      "hash": "42c29019a160ed06",
+      "texto": "Ce disque porte un nom qui fait peur, mais l’idée qui se cache derrière parle de la nuit et du retour du soleil. C’est une sculpture teotihuacán, réalisée en andésite, avec des restes de pigment rouge. Elle mesure cent vingt-six centimètres de haut, cent deux de large et vingt-cinq d’épaisseur. Le relief est haut, si haut que le crâne semble surgir de la pierre.\n\nAu centre se trouve un crâne humain. Sa bouche est édentée, et une large langue en dépasse. Tout autour s’ouvre un grand halo plissé. On l’a comparé à des éventails de papier ou à des rayons de soleil. C’est pourquoi on l’appelle aussi le Soleil mort.\n\nQue signifie-t-il ? Les chercheurs y voient le coucher du soleil à l’ouest. Dans cette lecture, l’astre est dévoré par la terre et entre dans le monde souterrain, où il éclaire le royaume des morts. Teotihuacán vénérait un dieu du monde souterrain et du soleil mort, aux côtés d’autres dieux comme Tláloc et le Serpent à plumes. C’est une idée de cycle : ce qui disparaît revient.\n\nLa pièce a été découverte en mille neuf cent soixante-quatre, lors de fouilles sur la place devant la pyramide du Soleil. Cette place se trouve à côté de l’Avenue des Morts, le grand axe qui traversait la ville du nord au sud. Qu’elle soit apparue là aide à comprendre que le culte solaire avait son centre dans cet ensemble d’édifices.\n\nCertains ont douté de son origine. À cause de la langue qui dépasse et du halo, qui ressemblent à des traits de l’art aztèque, quelques premiers chercheurs ont avancé l’hypothèse qu’elle soit mexica. La découverte a montré le contraire. Teotihuacán a inventé ces images du culte solaire, et des siècles plus tard, les peuples du Postclassique les ont reprises.\n\nC’est pourquoi cette pièce est précieuse : elle prouve que les idées de Teotihuacán sont restées vivantes bien après la chute de la ville. Quand vous regarderez le halo et la langue, rappelez-vous qu’ils sont d’abord apparus ici, au Classique."
+    },
+    "retos_observacion": {
+      "hash": "4340a5c62948548a",
+      "texto": [
+        "Crâne humain à la bouche édentée au centre",
+        "Grande langue qui dépasse de la bouche",
+        "Halo plissé qui entoure le crâne comme un éventail"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b7a04227c46875b9",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (1-650 apr. J.-C.)",
+        "Matériau": "Andésite et pigment rouge",
+        "Provenance": "Teotihuacán, État de Mexico (place devant la pyramide du Soleil)",
+        "Dimensions": "1,26 m de haut x 1,02 m de large x 0,25 m d’épaisseur",
+        "Découverte": "Découvert en 1964 lors des fouilles devant la pyramide du Soleil"
+      }
+    },
+    "faq_mito": {
+      "hash": "b5f7638856b7ddd4",
+      "texto": {
+        "pregunta": "Mythe : Le Disque de la Mort est une sculpture mexica de sacrifices au Templo Mayor.",
+        "respuesta": "Réalité : C’est une œuvre teotihuacán de la période Classique, découverte en mille neuf cent soixante-quatre devant la pyramide du Soleil. Des siècles plus tard, les Mexicas ont repris des idées que Teotihuacán avait déjà créées."
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "mna_s08_adolescente_huasteco",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Huasteca\" para \"Huasteca\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Huasteca\" para \"Huasteca\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2059d3b514ca4506",
+      "texto": "Sculpture de l’Adolescent huastèque de Tamuín"
+    },
+    "frase_gancho": {
+      "hash": "f008707da73b40e3",
+      "texto": "Corps de pierre gravé où germe le maïs sacré."
+    },
+    "puente_narrativo": {
+      "hash": "faf369d056b87698",
+      "texto": "Nous refermons la salle dans la Huasteca, avec la sculpture d’un jeune homme de pierre dont le corps est couvert de plants de maïs."
+    },
+    "guion_corto": {
+      "hash": "27b3ecd39c30fbda",
+      "texto": "C’est un jeune homme nu, qui porte un enfant sur le dos. C’est l’Adolescent de Tamuín, une sculpture huastèque en grès fin, du Postclassique ancien. Elle mesure 145 centimètres de haut, 41 de large et 17,8 d’épaisseur. Elle a été découverte en mille neuf cent dix-sept, sur le site de Consuelo, à Tamuín, San Luis Potosí. Sa silhouette est stylisée, son crâne déformé, et il porte de grandes oreillères en bobine. Regardez son côté droit. Le bras, la poitrine, la cuisse et la jambe sont couverts de minuscules reliefs représentant des plants de maïs, des feuilles, des épis et des motifs calendaires. On l’interprète comme Dzinco, le Dieu du Maïs huastèque, ou comme une version jeune de Quetzalcóatl. L’enfant qu’il porte symboliserait la continuité de la vie et la renaissance de la semence."
+    },
+    "guion_largo": {
+      "hash": "368d0779c720b58e",
+      "texto": "Regardez d’abord la silhouette. C’est un jeune homme nu, debout, stylisé, au crâne déformé, avec de grandes oreillères en bobine. Sur son dos, il porte un petit enfant.\n\nC’est l’Adolescent de Tamuín, une sculpture huastèque du Postclassique ancien, taillée dans un grès fin. Elle mesure 145 centimètres de haut, 41 de large et 17,8 d’épaisseur. Elle a été découverte en mille neuf cent dix-sept, sur le site de Consuelo, à Tamuín, San Luis Potosí.\n\nMaintenant, le côté droit. Le bras, la poitrine, la cuisse et la jambe sont couverts de minuscules reliefs incisés. Ils représentent des plants de maïs, des feuilles, des épis et des motifs calendaires. Le sculpteur a travaillé la pierre en ronde-bosse, avec de délicates gravures à la surface. La moitié droite ressemble à un champ de maïs.\n\nL’interprétation habituelle est qu’il représente Dzinco, ou la version jeune de Quetzalcóatl, le Dieu du Maïs de la mythologie huastèque. L’enfant sur son dos symbolise la continuité de la vie. Il symbolise aussi la renaissance de la semence du maïs, d’une génération à l’autre. C’est une interprétation, fondée sur l’iconographie.\n\nLa sculpture unit deux idées : un corps jeune et une plante qui grandit. C’est pourquoi le maïs est la clé pour la comprendre."
+    },
+    "retos_observacion": {
+      "hash": "f28c92076ba2bb2f",
+      "texto": [
+        "Regardez son côté droit : il est couvert de minuscules reliefs de maïs et de feuilles.",
+        "Cherchez l’enfant qu’il porte sur le dos.",
+        "Observez les grandes oreillères en bobine."
+      ]
+    },
+    "especificaciones": {
+      "hash": "bed288d1421034ba",
+      "texto": {
+        "Culture": "Huasteca",
+        "Période": "Postclassique ancien (900-1200 apr. J.-C.)",
+        "Matériau": "Grès fin",
+        "Provenance": "Site de Consuelo, Tamuín, San Luis Potosí",
+        "Dimensions": "145 cm de haut x 41 cm de large x 17,8 cm d’épaisseur"
+      }
+    },
+    "faq_mito": {
+      "hash": "2e6a1f5af76ae6ba",
+      "texto": {
+        "pregunta": "Mythe : Les reliefs de son corps sont de simples ornements.",
+        "respuesta": "Réalité : Ce sont des plants de maïs, des feuilles, des épis et des motifs calendaires. C’est pourquoi on l’interprète comme Dzinco, le Dieu du Maïs huastèque, ou comme une version jeune de Quetzalcóatl."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s03_piramide_cuicuilco",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "af10c4766675d20e",
+      "texto": "Maquette du Soubassement circulaire de Cuicuilco"
+    },
+    "frase_gancho": {
+      "hash": "de8a51679ab91f53",
+      "texto": "L’édifice rond de Cuicuilco, enseveli par la lave du Xitle."
+    },
+    "puente_narrativo": {
+      "hash": "9f71ccd8f3b31d2e",
+      "texto": "Nous terminons la salle avec la maquette de l’édifice principal de Cuicuilco : un soubassement rond et étagé."
+    },
+    "guion_corto": {
+      "hash": "ba6411d07135d7e2",
+      "texto": "Cet édifice rond mesurait plus de cent mètres de diamètre et environ vingt mètres de hauteur. Ce que vous voyez est une maquette du Grand Soubassement circulaire de Cuicuilco, une reconstitution à l’échelle d’une construction du Préclassique récent. Cuicuilco se trouvait au sud du bassin de Mexico, là où s’étend aujourd’hui Mexico. Le soubassement comptait quatre corps étagés, de plan circulaire ou ovale, avec des rampes et des escaliers pour monter jusqu’au sommet. En haut se dressaient des autels pour les cérémonies publiques. C’était une pyramide à plan rond, bien différente des pyramides carrées qui allaient apparaître plus tard à Teotihuacan. D’après les informations de la salle, cette forme permettait d’organiser des processions continues autour de la structure. L’édifice d’origine fut élevé avec des galets, de la pierre volcanique et de la boue. Vers l’an deux cents ou trois cents après Jésus-Christ, l’éruption du volcan Xitle ensevelit Cuicuilco sous la lave."
+    },
+    "guion_largo": {
+      "hash": "c70835e2e1124fb6",
+      "texto": "Ce que vous êtes en train de voir est une maquette, une reproduction à l’échelle. Elle représente le Grand Soubassement circulaire de Cuicuilco. Cuicuilco se trouvait au sud du bassin de Mexico, là où s’étend aujourd’hui Mexico. Elle date du Préclassique récent, approximativement entre huit cents ans avant Jésus-Christ et deux cents ans après Jésus-Christ. L’édifice d’origine mesurait plus de cent mètres de diamètre à la base et environ vingt mètres de hauteur.\n\nC’était un soubassement pyramidal, mais pas comme les pyramides à plan carré de Teotihuacan ou de Tenochtitlan. Son plan était circulaire ou ovale, et il comptait quatre corps étagés. Il disposait de rampes et d’escaliers pour monter jusqu’au sommet, et en haut se trouvaient des autels. Le noyau fut construit avec des galets, de la pierre volcanique et de la boue.\n\nLa forme circulaire avait un avantage, selon les interprétations. Elle permettait d’organiser des processions continues autour de la structure et des alignements avec l’horizon de la vallée. Les autels du sommet servaient aux cérémonies publiques, et on dit aussi qu’ils servaient à observer le ciel.\n\nPour observer la maquette, parcourez-la du regard, de la base jusqu’au sommet. Comptez les corps étagés. Cherchez ensuite les rampes et les escaliers qui mènent en haut.\n\nLe bassin de Mexico était une vallée entourée de chaînes de montagnes et de volcans. Parmi eux se trouvaient le Popocatépetl, l’Iztaccíhuatl et l’Ajusco. Il comptait en outre un réseau de lacs. Avant ces édifices, les habitations étaient simples, en torchis, avec des toits de paille. Le torchis, ce sont des murs de bois et de branchages recouverts de boue.\n\nCuicuilco fut un centre urbain et religieux. D’après les informations de la salle, c’était le centre le plus important du sud du bassin, avec des systèmes d’irrigation par canaux. On estime qu’elle a pu compter vingt mille habitants. À cette étape, les villages simples se transformèrent en centres dotés de places, de plateformes étagées et de soubassements pyramidaux. Ces centres devinrent des sièges du pouvoir politique et religieux.\n\nTout changea avec le Xitle. Vers l’an deux cents ou trois cents après Jésus-Christ, ce volcan, situé sur le flanc de l’Ajusco, entra en éruption. La lave ensevelit Cuicuilco et ses champs cultivés. Elle forme aujourd’hui le Pedregal de San Ángel.\n\nSans ville ni cultures, la population abandonna le site. Beaucoup de personnes émigrèrent vers le nord-est du bassin, et avec elles, l’établissement de Teotihuacan se renforça. Ainsi s’amorça la transition vers la période du Classique urbain.\n\nCette maquette n’est pas l’édifice d’origine, mais une reconstitution réalisée pour la salle. Elle sert à imaginer ce que la lave a laissé enseveli."
+    },
+    "retos_observacion": {
+      "hash": "43f28d28d1bd5a2f",
+      "texto": [
+        "Les quatre corps étagés de plan circulaire ou ovale",
+        "Les rampes et les escaliers qui montent vers le sommet",
+        "La forme ronde de l’ensemble, différente des pyramides carrées"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b54b17f369cc6cdf",
+      "texto": {
+        "Culture": "Préclassique du Haut Plateau central (Cuicuilco)",
+        "Période": "Préclassique récent / supérieur (800 av. J.-C.-200 apr. J.-C.)",
+        "Matériau": "Argile, céramique (reconstitution à l’échelle)",
+        "Provenance": "Cuicuilco, Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "46fa0653a0e1086c",
+      "texto": {
+        "pregunta": "Mythe : Le Soubassement circulaire de Cuicuilco est un observatoire astronomique construit par des Phéniciens ou des Atlantes dans la vallée de Mexico.",
+        "respuesta": "Réalité : Il fut construit par les habitants de Cuicuilco, au sud du bassin de Mexico, durant le Préclassique récent. C’était un soubassement pyramidal de plan circulaire, avec des rampes et des autels pour les cérémonies publiques."
+      }
+    }
+  }
+}

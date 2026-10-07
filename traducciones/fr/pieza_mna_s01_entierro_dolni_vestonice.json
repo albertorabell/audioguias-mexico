@@ -1,0 +1,55 @@
+{
+  "id": "mna_s01_entierro_dolni_vestonice",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "da694b2d48cffc28",
+      "texto": "Recréation de la sépulture de Dolní Věstonice"
+    },
+    "frase_gancho": {
+      "hash": "6320a9e2d606d0d4",
+      "texto": "Trois jeunes gens ensevelis ensemble sur une terre rouge, il y a des dizaines de milliers d’années."
+    },
+    "puente_narrativo": {
+      "hash": "37f6097f2da491ff",
+      "texto": "Nous faisons un bond de plusieurs millions d’années : de Lucy à des personnes comme vous, des Homo sapiens, qui enterraient déjà leurs morts avec cérémonie."
+    },
+    "guion_corto": {
+      "hash": "10047e92f324898f",
+      "texto": "Trois jeunes gens reposent ensemble sur une terre teintée de rouge. Quelqu’un les a placés ainsi il y a des dizaines de milliers d’années, au Paléolithique supérieur. Il s’agit de la recréation à taille réelle d’une sépulture de Dolní Věstonice, en Moravie, au sud de l’actuelle République tchèque. C’étaient des personnes de la même espèce que vous, des Homo sapiens, qui vivaient de la chasse et de la cueillette. Ils avaient entre seize et vingt ans et furent ensevelis en même temps, sans trace de mort violente. Les corps portent de l’ocre rouge et des parures faites de dents percées. Les spécialistes voient dans ces détails l’une des plus anciennes preuves en Europe d’une pensée symbolique et de rituels pour dire adieu aux morts."
+    },
+    "guion_largo": {
+      "hash": "909a95134465da0f",
+      "texto": "Quand vous pensez à la préhistoire, vous imaginez peut-être des gens qui cherchaient seulement à survivre. Cette sépulture raconte autre chose.\n\nIl s’agit d’une recréation à taille réelle d’une sépulture découverte à Dolní Věstonice, en Moravie, au sud de l’actuelle République tchèque. Elle a été réalisée avec des répliques de squelettes, des outils de pierre et des dents d’animaux, sur un lit de terre mêlée d’ocre rouge et de cendres.\n\nLes trois jeunes gens avaient entre seize et vingt ans. Ils furent ensevelis en même temps, allongés, et l’on n’a trouvé aucune trace de mort violente. L’un d’eux est couché face contre terre. Un autre pose la main sur le bassin du jeune du milieu.\n\nLes analyses des os et des gènes indiquent qu’ils étaient peut-être apparentés.\n\nL’ocre rouge déposé sur les corps et les dents percées utilisées comme parure sont des signes de pensée symbolique. Pour les spécialistes, ils comptent parmi les plus anciennes preuves en Europe d’une vie sociale complexe et d’un culte des morts.\n\nLe même site est célèbre pour une autre découverte. On y a trouvé des fours en argile très anciens, qui servaient à cuire des figurines de femmes et d’animaux.\n\nRegardez cette scène comme un rappel : bien avant les villes, il y avait déjà des personnes qui disaient adieu aux leurs avec soin."
+    },
+    "retos_observacion": {
+      "hash": "7af73fc1a7804c0c",
+      "texto": [
+        "Comptez les corps et observez la manière dont ils sont disposés.",
+        "Cherchez l’ocre rouge sur la terre et sur les corps.",
+        "Repérez les parures faites de dents et les outils de pierre."
+      ]
+    },
+    "especificaciones": {
+      "hash": "1158a9a9b6ddaaaf",
+      "texto": {
+        "Culture": "Homo sapiens, chasseurs-cueilleurs du Paléolithique supérieur européen",
+        "Période": "Paléolithique supérieur",
+        "Matériau": "Recréation muséographique en diorama à l’échelle réelle, avec des répliques",
+        "Provenance": "Dolní Věstonice, Moravie, République tchèque",
+        "Dimensions": "Échelle 1:1"
+      }
+    },
+    "faq_mito": {
+      "hash": "e4ab880b6703b50d",
+      "texto": {
+        "pregunta": "Mythe : les humains de la préhistoire enterraient leurs morts sans cérémonie, dans de simples fosses.",
+        "respuesta": "Réalité : cette sépulture multiple, avec de l’ocre rouge et des parures de dents, témoigne de rituels funéraires au Paléolithique supérieur."
+      }
+    }
+  }
+}

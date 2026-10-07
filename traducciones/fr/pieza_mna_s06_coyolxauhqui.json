@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_coyolxauhqui",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9117dea90d8c32d4",
+      "texto": "Tête de Coyolxauhqui"
+    },
+    "frase_gancho": {
+      "hash": "eb291d7e74e2c1f7",
+      "texto": "Une tête de pierre aux paupières tombantes et aux grelots sur les joues."
+    },
+    "puente_narrativo": {
+      "hash": "a52461445c3fc9c7",
+      "texto": "Du monument des conquêtes, nous passons à une image du mythe de Coatepec, le récit par lequel les Mexicas expliquaient le triomphe de leur dieu Huitzilopochtli."
+    },
+    "guion_corto": {
+      "hash": "55d11f4e28e9fab1",
+      "texto": "En mars 1830, on construisait des maisons pour le couvent de la Conception, dans le Centre historique de Mexico. C’est alors qu’apparut une tête de pierre aux paupières tombantes. C’était Coyolxauhqui, la déesse mexica de la Lune et sœur de Huitzilopochtli. Son nom signifie « celle qui porte des grelots sur les joues », et le sculpteur l’a taillé sur son visage. Elle porte des cercles en forme de grelot et les lèvres tournées vers le bas, dans une expression de mort. Selon le mythe de Coatepec, Huitzilopochtli la décapita et jeta son corps du haut de la montagne. Le plus curieux se trouve en bas, là où s’arrête le cou. Là, hors de la vue, le sculpteur a gravé le signe de l’eau et du feu, accompagné de serpents. L’abbesse du couvent préféra en faire don au Musée national plutôt que de la vendre à des collectionneurs étrangers."
+    },
+    "guion_largo": {
+      "hash": "d558d8eadfb4e90c",
+      "texto": "Une tête de diorite, une pierre aux reflets verdâtres, voilà ce qui reste de Coyolxauhqui dans cette sculpture mexica du Postclassique récent. Elle est apparue en mars 1830. On construisait des maisons pour le couvent de la Conception, dans ce qui est aujourd’hui le Centre historique de Mexico.\n\nCoyolxauhqui est, dans la tradition mexica, la déesse de la Lune et la sœur de Huitzilopochtli. Son nom s’explique comme « celle qui porte des grelots sur les joues ». C’est exactement ce que l’artiste a sculpté : des cercles en forme de grelot sur chaque joue. Les paupières retombent, lourdes, et les lèvres s’incurvent vers le bas. C’est le visage de la mort, travaillé avec une immense délicatesse. Sur la tête, elle porte une coiffure de tissu ornée de plumes.\n\nLa scène que cette sculpture rappelle est le mythe de Coatepec. Coyolxauhqui et ses frères, les Centzonhuitznahua, voulurent tuer leur mère, Coatlicue. C’est alors que naquit Huitzilopochtli, armé du serpent de feu Xiuhcóatl. Il vainquit sa sœur, la décapita et jeta son corps du haut de la montagne. Cette tête montre le moment de la défaite.\n\nIl y a un détail que presque personne ne voit. En bas, là où s’arrête le cou tranché, l’artiste a gravé le signe de l’eau et du feu, symbole de la guerre sacrée. Des serpents l’accompagnent. Ces reliefs étaient cachés à la vue.\n\nLa tête a failli quitter le pays. On raconte que des diplomates et des collectionneurs étrangers en ont offert de l’argent au dix-neuvième siècle. Mais l’abbesse du couvent préféra en faire don au Musée national, et c’est ainsi que nous la conservons aujourd’hui."
+    },
+    "retos_observacion": {
+      "hash": "c2b8e660d1fc461a",
+      "texto": [
+        "Cherchez les cercles en forme de grelot sur chaque joue.",
+        "Comparez les paupières tombantes et les lèvres tournées vers le bas.",
+        "Observez la coiffure de tissu ornée de plumes sur la tête."
+      ]
+    },
+    "especificaciones": {
+      "hash": "fbf02a1467cec434",
+      "texto": {
+        "Culture": "Mexica",
+        "Période": "Postclassique récent (1200-1521 apr. J.-C.)",
+        "Matériau": "Diorite",
+        "Provenance": "Centre historique, Mexico (couvent de la Conception)",
+        "Dimensions": "72,5 cm de haut x 85,5 cm de large x 64,5 cm d’épaisseur"
+      }
+    },
+    "faq_mito": {
+      "hash": "16efbf200d34df43",
+      "texto": {
+        "pregunta": "Mythe : Coyolxauhqui était une reine guerrière qui a réellement existé.",
+        "respuesta": "Réalité : Dans le mythe mexica, elle est la déesse de la Lune et la sœur de Huitzilopochtli. Ce n’est pas un personnage historique."
+      }
+    }
+  }
+}

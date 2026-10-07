@@ -1,0 +1,55 @@
+{
+  "id": "mna_s10_perros_colima",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5add5136b32312fe",
+      "texto": "Chiens engraissés / Chiens dansants de Colima"
+    },
+    "frase_gancho": {
+      "hash": "e38ca70cc8d25482",
+      "texto": "Des chiens d’argile rouge qui accompagnaient les morts vers le monde souterrain."
+    },
+    "puente_narrativo": {
+      "hash": "90e96077f90eb8e1",
+      "texto": "Le parcours commence par l’Occident du Mexique, où les morts étaient enterrés dans des tombes souterraines et accompagnés de figures d’argile. La première est un chien."
+    },
+    "guion_corto": {
+      "hash": "7224eac499efda81",
+      "texto": "On les appelle les Chiens dansants, mais ces chiens ne dansent pas. Ce sont des chiens engraissés, c’est-à-dire bien gras : ils ont le corps rondelet, la peau lisse et le ventre bombé. Ils représentent le xoloitzcuintli, le chien nu du Mexique. Ils ont été réalisés par les habitants de Colima, dans l’Occident, durant la période Classique. Ils les ont modelés à la main dans l’argile et les ont polis jusqu’à obtenir un rouge brillant. Certains exemplaires portent sur le museau un masque au visage humain. On pense qu’il exprime une union très étroite entre la personne et l’animal. Ces figures étaient déposées dans les tombes à puits, les chambres souterraines où l’on enterrait les morts. Leur tâche était d’accompagner et de guider l’âme du défunt dans son périlleux voyage vers le monde souterrain. Derrière leur allure sympathique se cachait une mission très sérieuse."
+    },
+    "guion_largo": {
+      "hash": "e17185b587007017",
+      "texto": "Le nom populaire de ces figures est trompeur. On les appelle les Chiens dansants, et il est facile de comprendre pourquoi : ils ont le corps rond, la posture joyeuse et un visage qui semble sourire. Mais les archéologues les identifient comme des chiens engraissés, des représentations du xoloitzcuintli, le chien nu autochtone du Mexique.\n\nCes figures ont été réalisées par les habitants de Colima, dans la tradition des tombes à puits, durant la période Classique. Ils les ont modelées à la main dans l’argile, puis les ont polies avec beaucoup de soin, jusqu’à ce que la surface devienne d’un rouge brillant. Regardez le corps. Il est rondelet, avec la peau lisse et le ventre bombé. C’est ainsi que l’on représentait le chien bien nourri, le chien engraissé qui donne son nom à la pièce.\n\nUn détail attire l’attention sur certains exemplaires. Sur le museau, ils portent un masque au visage humain. Les spécialistes y voient une union très étroite entre la personne et l’animal. Ce serait une sorte de transformation dans laquelle le chien prend quelque chose de celui qu’il accompagne.\n\nPour comprendre le sens de ces figures, il faut descendre dans les tombes à puits. C’étaient des chambres souterraines, auxquelles on accédait par un puits vertical, et c’est là que l’on enterrait les morts. Les figures d’argile étaient déposées en offrande à l’intérieur de ces chambres. La tâche des chiens était précise : accompagner et guider l’âme du défunt dans son passage vers le monde souterrain, la région des morts. On pensait que ce voyage était dangereux, et que nul ne devait l’accomplir seul.\n\nC’est pourquoi le chien, l’animal qui accompagne les gens de leur vivant, était aussi le compagnon idéal dans la mort. Aujourd’hui, ces chiens ne sont plus sous terre, mais à la vue de tous. Derrière leur allure sympathique, ils gardent une idée très sérieuse : que la mort était un chemin, et qu’on le parcourait accompagné."
+    },
+    "retos_observacion": {
+      "hash": "225345865f08f09e",
+      "texto": [
+        "Regardez le corps rondelet et le ventre bombé du chien.",
+        "Observez l’éclat de l’argile rouge, polie à la main avec beaucoup de soin.",
+        "Cherchez si le museau porte un masque au visage humain."
+      ]
+    },
+    "especificaciones": {
+      "hash": "5bde172ccae9ad35",
+      "texto": {
+        "Culture": "Tradition des tombes à puits / Colima",
+        "Période": "Classique (200 av. J.-C.-600 apr. J.-C.)",
+        "Matériau": "Argile (céramique) modelée à la main et polie, de couleur rouge brillant",
+        "Provenance": "Colima, Mexique",
+        "Dimensions": "20 cm de haut x 19 cm de large x 36 cm de long"
+      }
+    },
+    "faq_mito": {
+      "hash": "c19117c0dd534a08",
+      "texto": {
+        "pregunta": "Mythe : Les Chiens dansants de Colima représentent de petits chiens qui dansent lors d’une fête.",
+        "respuesta": "Réalité : Ce sont des chiens engraissés, des images du xoloitzcuintli. Ils étaient déposés dans les tombes à puits comme compagnons et guides de l’âme du défunt vers le monde souterrain."
+      }
+    }
+  }
+}

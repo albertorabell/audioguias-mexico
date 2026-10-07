@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_tumba_tiro",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c9cb77d10938eab8",
+      "texto": "Recréation d’une tombe à puits avec mobilier funéraire"
+    },
+    "frase_gancho": {
+      "hash": "3c5dad2baab28e1e",
+      "texto": "Un puits profond, une chambre sous terre et une famille qui la rouvrait."
+    },
+    "puente_narrativo": {
+      "hash": "a276db36c8082a5c",
+      "texto": "Les figures d’argile que vous venez de voir sortaient de tombes. Voici cette tombe : un puits, une chambre et les objets qui accompagnaient le défunt."
+    },
+    "guion_corto": {
+      "hash": "6b050bbabda2b1ae",
+      "texto": "Imaginez une famille de l’Occident du Mexique descendant par un puits vertical jusqu’à une chambre obscure, sous terre. Elle porte l’un des siens et l’installe parmi des vases, des figures d’argile et des parures de coquillage. C’est cela, une tombe à puits, une tradition funéraire de Nayarit, de Colima et de Jalisco durant la période Classique. On creusait d’abord le puits, de 2 à 16 mètres de profondeur. Depuis son fond, on ouvrait une ou plusieurs chambres dans du tuf volcanique, ou tepetate. Ce que vous voyez ici est une recréation de cet espace, avec des squelettes et du mobilier funéraire. On pense que la chambre voûtée symbolisait le sein de la Terre, d’où le défunt renaîtrait dans l’autre vie. À la fin, on scellait le puits avec des dalles de pierre et de la terre. Mais il ne se fermait pas pour toujours : des années plus tard, la famille pouvait rouvrir la chambre pour y déposer de nouveaux parents."
+    },
+    "guion_largo": {
+      "hash": "75a9d7c0faecce2e",
+      "texto": "Sous la terre de l’Occident du Mexique se cache une architecture que presque personne ne voit. C’est la tombe à puits, une manière d’enterrer les morts qui s’est étendue à Nayarit, à Colima et à Jalisco durant la période Classique.\n\nLe plan était simple et exigeant. On creusait d’abord un puits vertical, le tiro, de 2 à 16 mètres de profondeur. Puis, depuis le fond, on ouvrait une ou plusieurs chambres. La roche qui le permettait était le tuf volcanique, ou tepetate.\n\nCe que vous voyez ici est une recréation de cet espace. Autour des squelettes se trouvent des vases d’argile, des figurines creuses et pleines, des metates en pierre, des escargots de mer et des parures de coquillage. Les figures creuses reproduisent avec précision la vie quotidienne : des guerriers en armure, des musiciens avec des flûtes et des conques, des danseurs, des malades et des maquettes de maisons. C’est comme si le défunt emportait son monde avec lui.\n\nCes chambres voûtées avaient une signification. On pense qu’elles symbolisaient le sein de la Terre. Y laisser le défunt avec de la nourriture, des parures et des sculptures, c’était le préparer à renaître dans l’autre vie.\n\nLa cérémonie terminée, le puits était scellé en surface avec des dalles de pierre recouvertes de terre, pour que personne ne perturbe la tombe. Mais l’entrée n’était pas définitive. Au fil des ans, les familles pouvaient rouvrir la chambre pour y déposer de nouveaux parents. Une tombe à puits était donc un lieu de famille où l’on revenait.\n\nLes figures de cette tradition, comme les chiens de Colima, les guerriers ou les couples de Nayarit, faisaient partie du mobilier de ces chambres. Elles n’avaient pas été faites pour rester seules. Elles avaient été faites pour accompagner quelqu’un."
+    },
+    "retos_observacion": {
+      "hash": "2a3e8b437bd39add",
+      "texto": [
+        "Cherchez les squelettes et les vases d’argile qui les entourent.",
+        "Trouvez les metates en pierre et les escargots de mer du mobilier funéraire.",
+        "Observez les figurines, les unes creuses et les autres pleines, auprès du défunt."
+      ]
+    },
+    "especificaciones": {
+      "hash": "03734b94fb91085a",
+      "texto": {
+        "Culture": "Tradition des tombes à puits (associée aux cultures de Nayarit, de Colima et de Jalisco)",
+        "Période": "Classique (200 av. J.-C.-600 apr. J.-C.)",
+        "Matériau": "Recréation muséographique avec des squelettes humains, des vases d’argile, des figurines creuses et pleines, des metates en pierre, des escargots de mer et des parures de coquillage ; les chambres d’origine étaient creusées dans du tuf volcanique ou tepetate",
+        "Provenance": "Recréation fondée sur des contextes archéologiques de Nayarit, de Colima et de Jalisco"
+      }
+    },
+    "faq_mito": {
+      "hash": "68463e2d6759f145",
+      "texto": {
+        "pregunta": "Mythe : une tombe à puits se fermait pour toujours une fois l’enterrement terminé.",
+        "respuesta": "Réalité : le puits était scellé avec des dalles de pierre et de la terre, mais les familles pouvaient rouvrir la chambre des années plus tard pour y déposer de nouveaux parents."
+      }
+    }
+  }
+}

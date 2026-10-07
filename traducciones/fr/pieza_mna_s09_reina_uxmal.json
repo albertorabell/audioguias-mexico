@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_reina_uxmal",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d7d3866ea3a54a33",
+      "texto": "Reine d’Uxmal"
+    },
+    "frase_gancho": {
+      "hash": "c49d082f93604ea5",
+      "texto": "Un visage qui sort de la gueule d’un serpent, sculpté dans la pierre."
+    },
+    "puente_narrativo": {
+      "hash": "01db73b1c5898496",
+      "texto": "Nous voyageons vers le nord de la péninsule, à Uxmal, avec une tête humaine qui sort de la gueule d’un serpent."
+    },
+    "guion_corto": {
+      "hash": "c3740dcb8d304473",
+      "texto": "Est-ce une reine ? On l’appelle ainsi, mais regardez bien : la tête humaine émerge de la gueule ouverte d’un serpent. Les spécialistes l’interprètent plutôt comme un jeune initié ou un dignitaire. C’est la Reine d’Uxmal, une sculpture maya en calcaire du Classique récent, entre les années 600 et 900 après Jésus-Christ. Elle provient d’une sous-structure de la pyramide du Devin, à Uxmal, dans le Yucatán. Le visage a des yeux ovales, un nez aquilin et la bouche à peine entrouverte. Sur une joue, on voit un motif de scarification rituelle avec la tête d’un reptile fantastique. Sur le front, elle porte un diadème de perles. Elle mesure 80 centimètres de haut et 99 d’épaisseur, de sorte qu’elle a beaucoup de volume."
+    },
+    "guion_largo": {
+      "hash": "46f08c35c0886aa2",
+      "texto": "Le nom populaire de cette pièce est la Reine d’Uxmal. Mais il suffit de la regarder tranquillement pour voir que l’histoire est autre.\n\nC’est une sculpture maya en calcaire, du Classique récent, entre les années 600 et 900 après Jésus-Christ. Elle provient d’Uxmal, dans le Yucatán, et faisait partie d’une sous-structure de la pyramide du Devin, qui s’appelle aussi pyramide du Magicien. Uxmal fut l’une des grandes cités de la région Puuc, dans le nord de la péninsule du Yucatán.\n\nCe qu’elle représente, c’est une tête humaine qui sort de la gueule ouverte d’un serpent fantastique. Les spécialistes y voient un jeune initié ou un dignitaire, et non une reine.\n\nRegardez le visage. Il a des yeux ovales, aux paupières fines, et un nez aquilin très marqué. La bouche est à peine entrouverte, avec des lèvres charnues et les commissures tournées vers le bas. Sur une joue, il y a un motif de scarification rituelle : la tête d’un reptile fantastique, vue de profil, avec la mâchoire en forme de crochet.\n\nLa coiffure compte aussi. Elle porte des mèches droites sur les côtés, un toupet sur le front et un diadème de perles presque plates.\n\nLa pièce mesure 80 centimètres de haut, 24 de large et 99 d’épaisseur. Cette profondeur compte. La figure se projette vers l’avant, comme si le visage et la gueule s’avançaient vers vous.\n\nUn nom populaire ne dit pas toujours ce qu’une pièce représente. C’est pourquoi cela vaut la peine de regarder la sculpture tranquillement, et de la laisser raconter elle-même ce qu’elle montre."
+    },
+    "retos_observacion": {
+      "hash": "7dff62c2ba711837",
+      "texto": [
+        "Cherchez la marque sur la joue : c’est un reptile fantastique vu de profil.",
+        "Regardez la coiffure : des mèches droites, un toupet et un diadème de perles.",
+        "Constatez le volume : la pièce a 99 centimètres d’épaisseur."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a5a50e1668ce346c",
+      "texto": {
+        "Culture": "Maya",
+        "Période": "Classique récent (600-900 apr. J.-C.)",
+        "Matériau": "Calcaire",
+        "Provenance": "Uxmal, Yucatán (sous-structure de la pyramide du Devin)",
+        "Dimensions": "80 cm de haut x 24 cm de large x 99 cm d’épaisseur"
+      }
+    },
+    "faq_mito": {
+      "hash": "f0df58b5c606e653",
+      "texto": {
+        "pregunta": "Mythe : La Reine d’Uxmal est le portrait d’une souveraine maya.",
+        "respuesta": "Réalité : Ce n’est qu’un nom populaire. On l’interprète comme un jeune initié ou un dignitaire qui émerge de la gueule d’un serpent."
+      }
+    }
+  }
+}

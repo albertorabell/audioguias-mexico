@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_guerrero_jalisco",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "02da824cb8357e53",
+      "texto": "Guerrier à l’armure de vannerie et au gourdin"
+    },
+    "frase_gancho": {
+      "hash": "8654d652c2c69eb7",
+      "texto": "Un guerrier d’argile coiffé d’un casque, vêtu d’une armure de vannerie, son gourdin en garde."
+    },
+    "puente_narrativo": {
+      "hash": "8c1155418be0bad7",
+      "texto": "Nous quittons Michoacán et retournons aux tombes à puits avec un gardien d’argile : un guerrier en armure qui accompagnait le défunt."
+    },
+    "guion_corto": {
+      "hash": "459239503cd1035c",
+      "texto": "Ce fut l’une des premières pièces de l’Occident à entrer dans les collections du musée. C’est un guerrier d’argile de la tradition des tombes à puits, réalisé dans la région de Colima et Jalisco durant la période Classique. Il se tient debout, en garde, et tient un gourdin à deux mains. Il porte un casque sur la tête et le corps protégé par une armure de vannerie, tissée de fibres végétales. C’est une figure creuse, modelée dans une argile de teinte rougeâtre. Il a l’air d’un soldat prêt à se battre, mais sa place n’était pas sur un champ de bataille. Ces figures étaient déposées au fond des tombes à puits. On pense qu’elles y étaient des défenseurs symboliques du défunt, des gardiennes de son âme face aux forces du monde souterrain."
+    },
+    "guion_largo": {
+      "hash": "93b3c3e7048b217c",
+      "texto": "Ce guerrier occupe une place particulière dans l’histoire du musée. Il fut l’une des premières pièces de l’Occident du Mexique à entrer dans ses collections. C’est une œuvre de la tradition des tombes à puits, dans la région de Colima et Jalisco, et elle appartient à la période Classique.\n\nC’est une figure d’argile, modelée à la main, creuse à l’intérieur et de teinte rougeâtre, avec une finition polie. L’artiste s’est attardé sur l’équipement du personnage. Il porte une calotte protectrice sur la tête. Le corps est couvert d’une armure de vannerie, faite de fibres végétales entrelacées. Il tient un gourdin à deux mains, et sa posture dressée est celle de la vigilance, prête au combat. À en juger par sa tenue, on pense qu’il représente un officier ou un guerrier de l’élite.\n\nL’armure de vannerie est un détail très précieux. C’était une protection faite de matériaux qui ne survivent presque jamais. Ici, l’argile a conservé la forme d’un tissage disparu il y a des siècles.\n\nUne question demeure : que faisait un guerrier dans une tombe ? Ces figures étaient déposées au fond des tombes à puits, les chambres souterraines de l’Occident. On pense qu’elles étaient des défenseurs symboliques du mort et des gardiennes de son âme face aux forces du monde souterrain. Leur mission n’était pas de combattre des ennemis humains, mais de veiller.\n\nAujourd’hui encore, il reste en garde, son gourdin entre les mains et son armure de fibres tissée dans l’argile."
+    },
+    "retos_observacion": {
+      "hash": "63d9ae47b9a1f4aa",
+      "texto": [
+        "Cherchez l’entrelacs de fibres qui forme l’armure du corps.",
+        "Trouvez le casque qui protège la tête du guerrier.",
+        "Observez comment il tient le gourdin à deux mains."
+      ]
+    },
+    "especificaciones": {
+      "hash": "906b08b7576e9521",
+      "texto": {
+        "Culture": "Tradition des tombes à puits / Colima - Jalisco",
+        "Période": "Classique (200 av. J.-C.-600 apr. J.-C.)",
+        "Matériau": "Argile (céramique) modelée, de teinte rougeâtre",
+        "Provenance": "Occident du Mexique (région de Colima / Jalisco)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c7e58c79848f9191",
+      "texto": {
+        "pregunta": "Mythe : Cette figure est une scène de bataille, un soldat prêt à se battre.",
+        "respuesta": "Réalité : Ce n’était pas une scène de guerre. Ces figures étaient placées dans les tombes à puits, où l’on pense qu’elles protégeaient symboliquement le défunt face aux forces du monde souterrain."
+      }
+    }
+  }
+}

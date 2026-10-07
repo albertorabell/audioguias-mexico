@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_chacmool_purepecha",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b8a0967fe3491d2c",
+      "texto": "Chac Mool purépecha d’Ihuatzio"
+    },
+    "frase_gancho": {
+      "hash": "4821004dca31f26d",
+      "texto": "Un personnage allongé en pierre, avec un plat sur le ventre."
+    },
+    "puente_narrativo": {
+      "hash": "2cdbff7292570018",
+      "texto": "Nous restons avec la pierre, mais cette fois dans le Michoacán : un personnage allongé, taillé par les sculpteurs purépechas avec des lignes angulaires."
+    },
+    "guion_corto": {
+      "hash": "27c0f426bb8ab22e",
+      "texto": "Ihuatzio signifie lieu des coyotes. Le site se trouvait dans le bassin du lac de Pátzcuaro, dans le Michoacán, et il fut l’une des trois capitales de l’empire purépecha, avec Tzintzuntzan et Pátzcuaro. C’est de là que vient cette sculpture, un Chac Mool purépecha du Postclassique récent, taillé dans la pierre volcanique. Le personnage est allongé, le dos et les coudes appuyés, les jambes fléchies. Sur l’abdomen, il tient un plat quadrangulaire, que l’on interprète comme un plat d’offrandes. Son visage est rigide et il porte une coiffe. Tout en lui est géométrie, avec des traits angulaires, la manière propre des sculpteurs purépechas. Les Purépechas ont formé un empire puissant qui a résisté aux tentatives d’invasion des Mexicas. Cette figure est une façon de connaître ce peuple à travers sa pierre."
+    },
+    "guion_largo": {
+      "hash": "40a1437cdbd8d71b",
+      "texto": "Le nom de ce lieu est déjà une image : Ihuatzio, lieu des coyotes. Il se trouvait au bord du lac de Pátzcuaro, dans le Michoacán, et fut l’une des trois capitales politiques de l’empire purépecha. Les deux autres étaient Tzintzuntzan et Pátzcuaro.\n\nC’est de ce centre que vient cette sculpture. On l’appelle Chac Mool, le nom que l’on donne à un type de figure allongée, et celle-ci en est la version purépecha. Le personnage est allongé, le dos et les coudes appuyés, les jambes fléchies. Sur l’abdomen, il tient un plat quadrangulaire, que l’on interprète comme un plat d’offrandes. Son visage est rigide et il porte une coiffe.\n\nLe style est ce qui la distingue. Elle est taillée dans la pierre volcanique, avec des traits angulaires, et tout en elle est géométrie et rigidité. Les spécialistes y reconnaissent la manière de l’école de sculpture purépecha. Les Purépechas, qui vivaient dans le bassin du lac de Pátzcuaro, avaient leur propre langage dans la pierre.\n\nDerrière la pierre, il y a un peuple à l’histoire singulière. Les Purépechas ont formé un empire puissant dans l’Ouest, avec leurs principaux centres autour du lac. Ils ont résisté aux tentatives d’invasion des Mexicas. Leur période de plus grande puissance fut le Postclassique récent, entre 1250 et 1521 après Jésus-Christ.\n\nCette figure allongée, avec son plat et son expression sévère, est une façon de connaître ce peuple à travers sa pierre."
+    },
+    "retos_observacion": {
+      "hash": "ce64fc9d00c16b2a",
+      "texto": [
+        "Cherchez le plat quadrangulaire que le personnage tient sur l’abdomen.",
+        "Observez la coiffe et le visage rigide du personnage.",
+        "Suivez les traits angulaires avec lesquels la pierre a été taillée."
+      ]
+    },
+    "especificaciones": {
+      "hash": "b195ca313f0cd1ad",
+      "texto": {
+        "Culture": "Tarasque / Purépecha",
+        "Période": "Postclassique récent (1250-1521 apr. J.-C.)",
+        "Matériau": "Pierre (basalte / roche volcanique)",
+        "Provenance": "Ihuatzio, Michoacán (zone archéologique d’Ihuatzio, bassin du lac de Pátzcuaro)"
+      }
+    },
+    "faq_mito": {
+      "hash": "1232077fdb571d3f",
+      "texto": {
+        "pregunta": "Mythe : Tout Chac Mool est une sculpture maya.",
+        "respuesta": "Réalité : Cette figure est purépecha. Elle vient d’Ihuatzio, dans le Michoacán, et présente le style géométrique et rigide des sculpteurs purépechas."
+      }
+    }
+  }
+}

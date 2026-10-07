@@ -1,0 +1,54 @@
+{
+  "id": "mna_s07_danzante_montealban",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0a262e2ee8669e2",
+      "texto": "Stèle des « Danseurs » de Monte Albán"
+    },
+    "frase_gancho": {
+      "hash": "393f60729851c417",
+      "texto": "Ils s’appellent les Danseurs, mais personne ne danse."
+    },
+    "puente_narrativo": {
+      "hash": "b31a8294ffa7aefc",
+      "texto": "Nous restons à Monte Albán, la cité zapotèque, avec une pierre dont le nom trompe : personne n’y danse."
+    },
+    "guion_corto": {
+      "hash": "60c254c0d7ff843f",
+      "texto": "Ils s’appellent les Danseurs, mais personne ne danse. Les explorateurs du dix-neuvième siècle ont cru que les figures de ces dalles exécutaient des mouvements de danse ou de natation. On sait aujourd’hui qu’il s’agit de portraits de captifs de guerre. Cette stèle est zapotèque, provient de l’Édifice des Danseurs, à Monte Albán, Oaxaca, et date du Préclassique, de la première étape de la ville. Elle montre un homme nu dans une posture contorsionnée, les yeux fermés et la bouche ouverte. Des incisions indiquent une mutilation ou un écoulement de sang. À côté de lui se trouvent des cartouches avec des glyphes calendaires. Elle faisait partie d’une galerie sur les murs de la première architecture publique de Monte Albán."
+    },
+    "guion_largo": {
+      "hash": "a0ecae442a51f91c",
+      "texto": "Ici, personne ne danse. Les premiers explorateurs, au dix-neuvième siècle, ont cru que les figures exécutaient des mouvements de danse ou de natation. De là vient le nom populaire des Danseurs.\n\nLes études modernes, fondées sur l’épigraphie et l’iconographie, disent autre chose. Il s’agit de portraits de captifs de guerre, sacrifiés pour légitimer le pouvoir de la ville zapotèque naissante.\n\nCette stèle provient de l’Édifice des Danseurs, à Monte Albán, Oaxaca. Elle est zapotèque et date du Préclassique, de la première étape de la ville. C’est une dalle de pierre, sculptée en bas-relief et avec des incisions. Elle faisait partie d’une galerie sur les murs de la première architecture publique de Monte Albán.\n\nLa figure est un homme nu, dans une posture contorsionnée. Il a les yeux fermés et la bouche ouverte. Des incisions indiquent une mutilation ou un écoulement de sang. À côté de lui se trouvent des cartouches avec des glyphes calendaires.\n\nLa galerie était conçue pour exhiber la victoire militaire, l’humiliation et le sacrifice des dirigeants et des caciques rivaux capturés. C’était un message public, écrit dans la pierre.\n\nRegardez la posture du corps. Ce n’est pas celle d’une danse, mais celle de quelqu’un de vaincu."
+    },
+    "retos_observacion": {
+      "hash": "89227847a8d673b9",
+      "texto": [
+        "Regardez la posture tordue du corps nu.",
+        "Remarquez les yeux fermés et la bouche ouverte.",
+        "Cherchez les cartouches avec des glyphes calendaires à côté de la figure."
+      ]
+    },
+    "especificaciones": {
+      "hash": "bf20bfd72137eda5",
+      "texto": {
+        "Culture": "Zapotèque",
+        "Période": "Préclassique, première étape de Monte Albán (Monte Albán I)",
+        "Matériau": "Pierre",
+        "Provenance": "Édifice des Danseurs, Monte Albán, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "a84af3fe3584deb8",
+      "texto": {
+        "pregunta": "Mythe : Les Danseurs sont des danseurs qui célèbrent une fête.",
+        "respuesta": "Réalité : Ce sont des portraits de captifs de guerre, sacrifiés pour légitimer le pouvoir de la ville zapotèque naissante. Le nom vient d’une erreur des premiers explorateurs."
+      }
+    }
+  }
+}

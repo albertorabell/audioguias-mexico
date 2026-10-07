@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_tablero_cruz",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7e147b0d606407e2",
+      "texto": "Tablero de la Cruz de Palenque"
+    },
+    "frase_gancho": {
+      "hash": "739924d51876e119",
+      "texto": "Un enfant et un roi adulte, le même homme, de part et d’autre d’une croix sacrée."
+    },
+    "puente_narrativo": {
+      "hash": "67eab5a3d00a46ce",
+      "texto": "Nous restons à Palenque avec le fils et successeur de Pakal, qui fit sculpter un grand panneau de pierre racontant son histoire."
+    },
+    "guion_corto": {
+      "hash": "5968e391d3644ddb",
+      "texto": "Un enfant de six ans et un roi adulte apparaissent sur la même pierre. Ils ne font qu’un : K'inich Kan B'ahlam, fils et successeur de Pakal. C’est le Tablero de la Cruz de Palenque, une œuvre maya du Classique récent, sculptée vers l’an 692 après Jésus-Christ. À gauche, le jeune homme accomplit un rite d’autosacrifice, qui évoque un événement de l’an 641. À droite, devenu adulte, il reçoit le diadème royal, lors d’un événement de l’an 684. Au centre pousse un ceiba sacré en forme de croix, et un oiseau se pose sur lui. Les panneaux latéraux portent des textes en hiéroglyphes sur la naissance d’un dieu protecteur de Palenque. On pense qu’ils contribuaient à justifier la succession du roi."
+    },
+    "guion_largo": {
+      "hash": "1e963c3a119444b5",
+      "texto": "Imaginez que vous vouliez prouver que vous avez le droit de gouverner. Ce roi l’a fait avec une pierre sculptée.\n\nC’est le Tablero de la Cruz, de Palenque, au Chiapas. C’est une œuvre maya du Classique récent, sculptée vers l’an 692 après Jésus-Christ. Le relief est réalisé dans du calcaire et se répartit sur trois dalles qui forment une seule scène.\n\nLe protagoniste est K'inich Kan B'ahlam, fils et successeur de Pakal. Il apparaît deux fois. À gauche, c’est un enfant de six ans qui accomplit un autosacrifice, un événement de l’an 641. À droite, c’est un adulte, de plus grande taille, qui reçoit le diadème royal et les insignes du pouvoir, un événement de l’an 684.\n\nEntre les deux se dresse le ceiba sacré. Il a la forme d’une croix et jaillit d’un masque de la Terre. Un oiseau sacré se pose sur lui.\n\nLes panneaux latéraux sont couverts de hiéroglyphes. Ils racontent la naissance du dieu GI, protecteur de Palenque. On pense que ce récit servait à justifier que le trône passe de Pakal à son fils.\n\nLa pièce provient du Temple de la Croix. Elle fait partie d’un ensemble de trois temples : celui de la Croix, celui du Soleil et celui de la Croix Feuillue. On a proposé qu’ils représentaient les trois niveaux de l’univers : le ciel, la terre et le monde souterrain.\n\nAinsi, l’histoire personnelle d’un roi s’est trouvée unie à l’arbre sacré et aux dieux de sa cité."
+    },
+    "retos_observacion": {
+      "hash": "198ee63ce7618731",
+      "texto": [
+        "Cherchez l’enfant à gauche et l’adulte à droite : c’est la même personne.",
+        "Trouvez le ceiba en forme de croix et l’oiseau qui se pose sur lui.",
+        "Regardez les panneaux latéraux : ils sont couverts de hiéroglyphes."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a856c92d9765295d",
+      "texto": {
+        "Culture": "Maya, Palenque",
+        "Période": "Classique récent (600-900 apr. J.-C.)",
+        "Matériau": "Calcaire, bas-relief sur trois dalles",
+        "Provenance": "Temple de la Croix, Palenque, Chiapas"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7570792099c1416",
+      "texto": {
+        "pregunta": "Mythe : La croix du panneau est un symbole chrétien arrivé avec les Espagnols.",
+        "respuesta": "Réalité : C’est un ceiba sacré en forme de croix. Les Mayas l’ont sculpté vers l’an 692, bien avant l’arrivée des Espagnols."
+      }
+    }
+  }
+}

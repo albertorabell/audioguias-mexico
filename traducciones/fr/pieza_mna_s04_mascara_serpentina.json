@@ -1,0 +1,55 @@
+{
+  "id": "mna_s04_mascara_serpentina",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a8d18c7ae6e8df7d",
+      "texto": "Masque funéraire de Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "9c35359e7781e0f8",
+      "texto": "Un masque conçu pour donner un visage éternel à un personnage important."
+    },
+    "puente_narrativo": {
+      "hash": "5e1003c626653c48",
+      "texto": "Nous poursuivons avec un masque qui n’était pas fait pour un visage vivant, mais pour un défunt."
+    },
+    "guion_corto": {
+      "hash": "81b6821ab4c3851e",
+      "texto": "Ce masque n’était pas fait pour un visage vivant, mais pour un défunt. Les masques funéraires de Teotihuacán se plaçaient sur le visage des paquets funéraires de personnages de haut rang, comme des prêtres ou des gouvernants. Ils ont une coupe trapézoïdale, le front droit, la bouche entrouverte et les oreilles rectangulaires perforées. Ils étaient en pierre, taillée avec un fin travail lapidaire. Celui-ci appartient à la culture de Teotihuacán, de la période Classique, entre les années 1 et 650 après Jésus-Christ. Certains, comme le célèbre masque découvert à Malinaltepec, Guerrero, reçurent des siècles plus tard une mosaïque de turquoise et de coquillage."
+    },
+    "guion_largo": {
+      "hash": "63fe576276218c49",
+      "texto": "Ce masque n’était pas fait pour un visage vivant. On le plaçait sur le visage d’un défunt.\n\nÀ Teotihuacán, les masques de pierre se posaient sur les paquets funéraires de personnages de haut rang, comme des prêtres ou des gouvernants. C’était une façon de leur donner un visage permanent.\n\nObservez sa forme. Il présente la coupe trapézoïdale classique de la ville : front droit, bouche entrouverte et oreilles rectangulaires perforées. C’est un dessin serein, géométrique, avec un fin travail lapidaire.\n\nIl appartient à la culture de Teotihuacán et à la période Classique, entre les années 1 et 650 après Jésus-Christ.\n\nUne histoire accompagne certains de ces masques. L’un des plus connus a été découvert à Malinaltepec, dans le Guerrero. Il fut taillé à Teotihuacán durant le Classique, puis conservé comme une relique. Des siècles plus tard, au Postclassique, des artisans de cette région lui ajoutèrent une mosaïque de turquoise et de coquillage.\n\nCela montre à quel point les cultures postérieures vénéraient les objets de Teotihuacán. Le masque a continué à avoir de la valeur bien après que la ville s’est vidée."
+    },
+    "retos_observacion": {
+      "hash": "556158b8341fd6c2",
+      "texto": [
+        "Cherchez la coupe trapézoïdale et le front droit du masque.",
+        "Observez la bouche entrouverte.",
+        "Regardez les oreilles rectangulaires perforées."
+      ]
+    },
+    "especificaciones": {
+      "hash": "20b6dc8574d687e6",
+      "texto": {
+        "Culture": "De Teotihuacán, avec des ajouts postérieurs du Postclassique",
+        "Période": "Classique (1-650 apr. J.-C.) ; mosaïque ajoutée au Postclassique (900-1200 apr. J.-C.)",
+        "Matériau": "Pierre, avec des incrustations d’amazonite, de turquoise, d’hématite spéculaire et de coquillage",
+        "Provenance": "Malinaltepec, Guerrero (pièce d’origine de Teotihuacán)",
+        "Dimensions": "0,21 m de haut × 0,21 m de large × 0,065 m d’épaisseur"
+      }
+    },
+    "faq_mito": {
+      "hash": "80561410145b9cc8",
+      "texto": {
+        "pregunta": "Mythe : Les prêtres portaient ces masques comme déguisements pendant les cérémonies.",
+        "respuesta": "Réalité : Les masques funéraires se plaçaient sur le visage des paquets funéraires de personnages de haut rang."
+      }
+    }
+  }
+}

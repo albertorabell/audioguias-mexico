@@ -1,0 +1,56 @@
+{
+  "id": "mna_s05_coraza_concha_tula",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4cdaf5ad43ac3a88",
+      "texto": "Cuirasse cérémonielle de coquille et d’escargots marins"
+    },
+    "frase_gancho": {
+      "hash": "f1fca556ef0454d0",
+      "texto": "Plus de mille plaques de coquille du Pacifique sur un vêtement cérémoniel de Tula."
+    },
+    "puente_narrativo": {
+      "hash": "f8ca24605cc3ccda",
+      "texto": "Grâce à de vastes réseaux commerciaux, Tula importait des matériaux précieux de l’océan Pacifique pour confectionner des parures destinées à la noblesse."
+    },
+    "guion_corto": {
+      "hash": "4234a8d834148d66",
+      "texto": "En mille neuf cent quatre-vingt-treize, sous le sol de la salle principale du Palacio Quemado de Tula, est apparue une boîte d’adobe. À l’intérieur se trouvait une cuirasse faite de plus de mille plaques de coquille du genre Spondylus. C’est un xicolli, un gilet cérémoniel toltèque du Postclassique ancien, qui porte aussi des escargots de mer du genre Oliva. Les coquilles viennent de l’océan Pacifique, très loin de Hidalgo, et cela témoigne des routes commerciales que contrôlait Tula. Les plaques, cousues en rangées, rappellent les écailles d’un Serpent d’eau. Le lieu de la découverte était consacré au dieu Tláloc. Ce n’était pas une armure de combat, mais un vêtement du plus haut rang cérémoniel, que portait sans doute un gouvernant ou un grand prêtre. La pièce que vous voyez ici est une reproduction scientifique, réalisée par Adrián Velázquez Castro. L’original est conservé au Centre INAH Hidalgo."
+    },
+    "guion_largo": {
+      "hash": "f84fb2d4ec846213",
+      "texto": "Ce vêtement s’appelle xicolli et c’est un gilet cérémoniel. Il n’est pas fait de tissu, mais de plus de mille petites plaques de coquille marine du genre Spondylus, avec en plus des escargots de mer du genre Oliva. Les pièces étaient cousues en rangées sur un support de cuir, peut-être. Il mesure cent vingt-sept centimètres de haut et quarante et un de large. Ce n’était pas une armure de combat. C’était un vêtement du plus haut rang cérémoniel. Ce que l’on sait, c’est de quoi il est fait et où il est apparu. Ce que l’on suppose, c’est qu’il était porté par des gouvernants ou de grands prêtres de Tula. Toutes ces coquilles viennent de l’océan Pacifique. Pour arriver à Tula, dans l’État de Hidalgo, elles ont parcouru une distance énorme. Cela montre que la ville contrôlait des routes commerciales de longue distance, par terre et par mer, pour obtenir des biens de luxe. Les coquilles ne furent pas la seule chose à arriver de loin. On importait aussi des turquoises, du jade et de la céramique plombée. Tula rassemblait des gens de plusieurs peuples : des Nahuas, des Otomis, des Huastèques et des groupes mayas. Ce mélange aide à comprendre pourquoi des objets de lieux si différents pouvaient y parvenir. Maintenant, regardez comment la surface est organisée. Les plaques sont disposées en rangées et imitent les écailles d’un Serpent d’eau. Parmi elles, on reconnaît les escargots de mer du genre Oliva. Le vêtement a été trouvé dans un espace consacré au dieu Tláloc. En mille neuf cent quatre-vingt-treize, les archéologues Guadalupe Mastache et Robert Cobean travaillaient à Tula. Sous le sol de la salle principale du Palacio Quemado, ils ont trouvé une boîte d’adobe. Il y avait là une offrande. La cuirasse en faisait partie. À côté de la cuirasse se trouvait un collier de perles de Spondylus en forme de fleur. Il y avait aussi un disque décoré d’une mosaïque de pyrite et de turquoise. Et maintenant, un détail important. Ce que vous avez devant vous est une reproduction scientifique, réalisée par Adrián Velázquez Castro. L’original est conservé dans le dépôt des biens culturels du Centre INAH Hidalgo. Malgré tout, la réplique permet de voir comment était le vêtement entier, avec ses rangées de petites pièces. Imaginez le travail qu’il fallait pour réunir plus de mille plaques rectangulaires et les coudre en rangées régulières. Chacune est petite, mais ensemble, elles habillent un corps entier. Voilà la patience que peut contenir un seul vêtement cérémoniel."
+    },
+    "retos_observacion": {
+      "hash": "5a5196e50d65f9b4",
+      "texto": [
+        "Regardez les plaques de coquille en rangées, comme des écailles de serpent.",
+        "Cherchez les petits escargots de mer du genre Oliva parmi les plaques.",
+        "Remarquez qu’il a la forme d’un gilet : le xicolli."
+      ]
+    },
+    "especificaciones": {
+      "hash": "87caa4ddb39df00e",
+      "texto": {
+        "Culture": "Toltèque",
+        "Période": "Postclassique ancien (900-1200 apr. J.-C.)",
+        "Matériau": "Plaques de coquille de Spondylus et escargots de mer Oliva de l’océan Pacifique, sur un support de cuir",
+        "Provenance": "Tula, Hidalgo (Palacio Quemado, boîte d’adobe sous le sol de la salle principale)",
+        "Dimensions": "1,27 m de haut x 0,41 m de large",
+        "Découverte": "Découverte en 1993 par Guadalupe Mastache et Robert Cobean ; dans la salle est exposée une reproduction d’Adrián Velázquez Castro, et l’original se trouve au Centre INAH Hidalgo"
+      }
+    },
+    "faq_mito": {
+      "hash": "12d3366d7f48d25b",
+      "texto": {
+        "pregunta": "Mythe : La cuirasse que vous voyez dans la salle est le vêtement original de Tula.",
+        "respuesta": "Réalité : C’est une reproduction scientifique d’Adrián Velázquez Castro ; l’original est conservé au Centre INAH Hidalgo."
+      }
+    }
+  }
+}

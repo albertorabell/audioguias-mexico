@@ -1,0 +1,55 @@
+{
+  "id": "mna_s00_mural_tamayo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6eb8cc32697d184b",
+      "texto": "Mural « La Dualidad » de Rufino Tamayo"
+    },
+    "frase_gancho": {
+      "hash": "664c3b9d549257aa",
+      "texto": "Un serpent et un jaguar face à face sous le soleil, la lune et les constellations."
+    },
+    "puente_narrativo": {
+      "hash": "f2e18d9c006817b2",
+      "texto": "Avant d’entrer dans les salles, un mural de Rufino Tamayo, dans le vestibule, annonce l’idée que vous allez rencontrer encore et encore : la dualité."
+    },
+    "guion_corto": {
+      "hash": "e6211f6f8a281207",
+      "texto": "Un serpent et un jaguar s’affrontent sur un fond de ciel parsemé d’astres. C’est La Dualidad, le mural que Rufino Tamayo a peint en 1964 pour le vestibule du musée. Tamayo est né en 1899 et mort en 1991. L’œuvre mesure 3,53 mètres de haut et 12,21 de long. Dans la scène, on reconnaît Quetzalcóatl, le Serpent à plumes, et Tezcatlipoca, le jaguar de la nuit. Tout autour apparaissent le soleil, la lune et les constellations. L’idée de fond est la dualité, la coexistence des contraires, comme le jour et la nuit. C’est une pensée mésoaméricaine très ancienne, racontée par un peintre moderne. Regardez-la avant d’entrer dans les salles, car elle annonce une façon de penser le monde que vous retrouverez très souvent."
+    },
+    "guion_largo": {
+      "hash": "67706b7cfdbde681",
+      "texto": "Dès l’entrée du musée, un mural de plus de douze mètres de long accueille le visiteur. C’est La Dualidad, de Rufino Tamayo, peint en 1964, l’année même où l’édifice a été inauguré.\n\nRufino Tamayo est né en 1899 et mort en 1991. C’est l’un des grands noms de la peinture mexicaine moderne. Son mural mesure 3,53 mètres de haut et 12,21 de long, et il se trouve sur le mur du vestibule principal d’accès.\n\nLa scène montre un combat entre deux animaux : un jaguar qui grogne et un serpent qui siffle. On les interprète comme Tezcatlipoca, le dieu de la nuit, et Quetzalcóatl, le Serpent à plumes. Tout autour, il y a des éléments du ciel : le soleil, la lune et les constellations.\n\nLe titre donne la clé. La dualité est l’idée que l’univers repose sur des paires de contraires, comme le jour et la nuit. Ces contraires ont besoin l’un de l’autre. C’est une pensée ancienne, présente dans la cosmovision de nombreux peuples mésoaméricains. Aujourd’hui, c’est un peintre du vingtième siècle qui la raconte.\n\nQu’il s’agisse d’un mural moderne, dans un musée de cultures anciennes, est tout à fait sensé. Avant de parcourir les salles, le visiteur reçoit un indice. Les peuples qu’il va découvrir pensaient le monde d’une manière très différente de celle d’aujourd’hui.\n\nArrêtez-vous sur les couleurs et sur la composition. Observez où se trouve chaque animal et quels astres apparaissent près de chacun."
+    },
+    "retos_observacion": {
+      "hash": "e04fc6b91ce4d3bf",
+      "texto": [
+        "Cherchez le serpent et le jaguar face à face.",
+        "Trouvez le soleil, la lune et les constellations du fond.",
+        "Réfléchissez aux contraires que vous voyez dans la scène : le jour et la nuit."
+      ]
+    },
+    "especificaciones": {
+      "hash": "ba5d36608ea665d9",
+      "texto": {
+        "Culture": "Rufino Tamayo (1899-1991), muralisme et art moderne mexicain",
+        "Période": "1964",
+        "Matériau": "Acrylique sur support en bois avec texture de résine",
+        "Provenance": "Mur du vestibule principal d’accès, Musée national d'anthropologie, Mexico",
+        "Dimensions": "3,53 m de haut x 12,21 m de long"
+      }
+    },
+    "faq_mito": {
+      "hash": "c2d548b9b17db275",
+      "texto": {
+        "pregunta": "Mythe : Le mural de Tamayo raconte la conquête, avec les Aztèques contre les Espagnols.",
+        "respuesta": "Réalité : La Dualidad montre Quetzalcóatl et Tezcatlipoca, le Serpent à plumes et le jaguar de la nuit. Elle parle de la coexistence des contraires, comme le jour et la nuit."
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "sala-01-introduccion-antropologia",
+  "tipo": "sala",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "184fffb65667674b",
+      "texto": "Introduction à l’anthropologie"
+    },
+    "frase_gancho": {
+      "hash": "2222039a97a33a83",
+      "texto": "Avant de découvrir les peuples du Mexique, la salle pose la question de ce que nous, humains, avons tous en commun."
+    },
+    "introduccion_narrativa": {
+      "hash": "b70eec5bf64e36b9",
+      "texto": "Cette salle part d’une idée simple : tous les êtres humains partagent une même origine. À partir de là, elle explique comment nos corps ont changé, comment nous avons appris à fabriquer des outils et comment sont apparues les langues et les cultures. Elle s’appuie sur quatre branches d’étude : l’anthropologie physique, l’archéologie, la linguistique et l’ethnologie. Ici, vous ferez la connaissance de Lucy, une femelle appartenant à l’une des plus anciennes espèces de la lignée humaine. Vous verrez aussi la reconstitution d’une sépulture vieille de dizaines de milliers d’années. Et un mur de crânes qui parle de nos différences et de ce que nous avons en commun. Viendront ensuite les premiers habitants de l’Amérique."
+    }
+  }
+}

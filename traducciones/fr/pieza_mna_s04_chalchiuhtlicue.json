@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_chalchiuhtlicue",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3555eec8c39ac8e0",
+      "texto": "Sculpture monumentale de Chalchiuhtlicue"
+    },
+    "frase_gancho": {
+      "hash": "e377075ba27cf8b1",
+      "texto": "Monolithe d’eau où la déesse de jade bénit la terre."
+    },
+    "puente_narrativo": {
+      "hash": "2ad34534f498f17a",
+      "texto": "Nous entrons à Teotihuacán, la grande cité des hauts plateaux, avec une déesse de l’eau taillée dans un seul bloc de roche volcanique."
+    },
+    "guion_corto": {
+      "hash": "12e358b0d268d6cc",
+      "texto": "Chalchiuhtlicue signifie celle à la jupe de jade. C’est le nom en nahuatl de la déesse des eaux terrestres, et cette sculpture de Teotihuacán la représente sur plus de trois mètres de haut. Elle est taillée dans un seul bloc de roche volcanique, avec des formes géométriques et abstraites. Elle porte une énorme coiffe rectangulaire, de grandes oreillères circulaires, un collier de trois rangs de perles et un quechquémitl, un vêtement triangulaire. Les mains avancent vers l’avant, sur l’abdomen. Elle est apparue sur l’esplanade face à la pyramide de la Lune, à Teotihuacán. C’est pourquoi on pense qu’elle était dédiée au culte de l’eau et de la fertilité. On estime qu’elle pèse entre 18 et 21 tonnes."
+    },
+    "guion_largo": {
+      "hash": "916730abbbbf9ee4",
+      "texto": "Cette déesse est arrivée au musée en train. Et son voyage a été toute une opération.\n\nC’est une sculpture en ronde-bosse, réalisée en roche volcanique, dans un seul bloc. Elle appartient à la culture de Teotihuacán, de la période Classique. Elle mesure plus de trois mètres de haut et on estime qu’elle pèse entre 18 et 21 tonnes.\n\nElle représente Chalchiuhtlicue, qui signifie en nahuatl celle à la jupe de jade. C’était la divinité féminine des eaux terrestres. Elle porte une imposante coiffe rectangulaire, de grandes oreillères circulaires et un collier de trois rangs de perles. Elle est vêtue d’un quechquémitl, un vêtement triangulaire, d’une jupe décorée et de sandales. Les mains avancent vers l’avant, sur l’abdomen.\n\nOn l’a trouvée face à la pyramide de la Lune, à Teotihuacán. Cet emplacement suggère que le monument était dédié au culte des eaux terrestres, des rivières et de la fertilité agricole.\n\nEn 1890, Leopoldo Batres l’a transférée au Musée national, rue de Moneda. Elle a été amenée en train jusqu’à la gare de Buenavista. Ensuite, elle a été déplacée sur un chariot spécial tiré par des mules. On raconte que les autorités ont averti les habitants du quartier de ne pas s’approcher. Si un câble venait à se rompre, le poids de la pièce pouvait couper une personne en deux.\n\nAujourd’hui, il n’y a plus de câbles ni de voisins, mais la déesse continue d’imposer le respect."
+    },
+    "retos_observacion": {
+      "hash": "fb751d70dcf5262c",
+      "texto": [
+        "Cherchez la grande coiffe rectangulaire de la déesse.",
+        "Observez le collier de trois rangs de perles.",
+        "Regardez les mains : elles avancent vers l’avant, sur l’abdomen."
+      ]
+    },
+    "especificaciones": {
+      "hash": "83bb4d9713b0359d",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique ancien (100-350 apr. J.-C.)",
+        "Matériau": "Roche volcanique (andésite)",
+        "Provenance": "Teotihuacán, État de Mexico (place de la Lune, face à la pyramide de la Lune)",
+        "Dimensions": "3,16 m de haut x 1,65 m de large x 1,65 m d’épaisseur",
+        "Découverte": "Transportée en 1890 à l’ancien Musée national, rue de Moneda, par Leopoldo Batres"
+      }
+    },
+    "faq_mito": {
+      "hash": "8beb3e3bf98470dc",
+      "texto": {
+        "pregunta": "Mythe : Cette sculpture représente Tláloc, le dieu de la pluie, en raison de sa grande taille.",
+        "respuesta": "Réalité : Elle représente Chalchiuhtlicue, la divinité féminine des eaux terrestres. On la reconnaît à son quechquémitl, à sa jupe et à sa coiffe."
+      }
+    }
+  }
+}

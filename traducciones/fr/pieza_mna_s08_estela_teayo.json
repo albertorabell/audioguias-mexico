@@ -1,0 +1,58 @@
+{
+  "id": "mna_s08_estela_teayo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Huasteca\" para \"Huasteca\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "85018674449e0a3a",
+      "texto": "Stèle de Quetzalcóatl de Castillo de Teayo"
+    },
+    "frase_gancho": {
+      "hash": "32b4fb63b3576e9d",
+      "texto": "Le dieu du vent, les plumes de sa coiffe agitées comme par une rafale."
+    },
+    "puente_narrativo": {
+      "hash": "b2cd3d936c7bbd02",
+      "texto": "Nous quittons le jeu de balle et remontons la côte vers le nord de Veracruz, où l’empire mexica est lui aussi parvenu."
+    },
+    "guion_corto": {
+      "hash": "88d515d91fd9c965",
+      "texto": "Ehécatl signifie vent, et sur cette stèle, le vent semble agiter jusqu’aux plumes. Elle montre Ehécatl-Quetzalcóatl, le dieu du vent, debout, coiffé d’un haut chapeau en forme de cône. Sur la poitrine, il porte un ornement en coquillage marin, sur la bouche un masque et, à la taille, une jupe de tissu. Elle provient de Castillo de Teayo, près de Tuxpan, dans le nord de Veracruz, et date du Postclassique récent. On la considère comme une œuvre huastèque marquée par l’influence mexica. C’est pourquoi elle aide à comprendre jusqu’où l’empire mexica s’étendait sur la côte du Golfe. On pense que, dans cette région, les Mexicas ont établi une colonie stratégique."
+    },
+    "guion_largo": {
+      "hash": "4b8d1c621d0aac51",
+      "texto": "Un dieu du vent sculpté dans la pierre doit donner l’impression de bouger. Cette stèle y parvient.\n\nC’est la Stèle de Quetzalcóatl de Castillo de Teayo, un site proche de Tuxpan, dans le nord de Veracruz. Elle est taillée dans la pierre, en haut relief, et date du Postclassique récent.\n\nLe dieu apparaît debout. C’est Ehécatl-Quetzalcóatl, la forme de Quetzalcóatl en tant que dieu du vent. Il porte une haute coiffe en forme de cône, appelée copilli. Sur la poitrine, il arbore un ornement en coquillage marin, nommé ehecacózcatl. Il couvre sa bouche d’un masque et porte une jupe de tissu.\n\nLes plumes de la coiffe et les ornements s’inscrivent dans une composition dynamique, comme si le vent les soufflait.\n\nLes spécialistes y voient une œuvre aux traits huastèques et mexicas. À la fin du Postclassique, l’empire mexica est parvenu jusqu’à cette partie de la côte nord de Veracruz. On pense qu’une colonie stratégique y a été établie.\n\nC’est pourquoi cette pièce raconte bien plus qu’une histoire de dieux. On peut la lire comme un témoignage de la manière dont le pouvoir de Tenochtitlan s’étendait loin de la ville et se mêlait aux styles locaux."
+    },
+    "retos_observacion": {
+      "hash": "053c02e5133aeaa6",
+      "texto": [
+        "Cherchez la haute coiffe en forme de cône.",
+        "Repérez l’ornement en coquillage marin sur la poitrine.",
+        "Observez les plumes : elles semblent agitées par le vent."
+      ]
+    },
+    "especificaciones": {
+      "hash": "3a189d6287b7b202",
+      "texto": {
+        "Culture": "Huasteca, avec influence mexica",
+        "Période": "Postclassique récent",
+        "Matériau": "Pierre taillée en haut relief",
+        "Provenance": "Castillo de Teayo, près de Tuxpan, Veracruz"
+      }
+    },
+    "faq_mito": {
+      "hash": "b6e10698eec20183",
+      "texto": {
+        "pregunta": "Mythe : Quetzalcóatl est toujours représenté sous la forme d’un serpent à plumes.",
+        "respuesta": "Réalité : Il était aussi représenté sous les traits d’Ehécatl, le dieu du vent, de forme humaine, avec une haute coiffe et un masque sur la bouche, comme sur cette stèle."
+      }
+    }
+  }
+}

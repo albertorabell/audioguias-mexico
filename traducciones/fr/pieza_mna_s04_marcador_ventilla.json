@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_marcador_ventilla",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8fbe431fe09917b3",
+      "texto": "Marqueur de jeu de balle de La Ventilla"
+    },
+    "frase_gancho": {
+      "hash": "40b95a51c0dcdc21",
+      "texto": "Sculpture démontable en pierre où le jeu de balle prend vie."
+    },
+    "puente_narrativo": {
+      "hash": "6bb66b859cf14c6d",
+      "texto": "Nous poursuivons avec la vie de la ville, cette fois avec un objet de jeu et de rituel : un marqueur de jeu de balle que l’on pouvait monter et démonter."
+    },
+    "guion_corto": {
+      "hash": "fca0d4e413bb7b21",
+      "texto": "Un monument qui se monte et se démonte ? C’est le cas de ce marqueur de jeu de balle. Il est formé de quatre sections sculptées séparément, qui s’assemblent avec précision grâce à des tenons taillés dans la même roche. En bas se trouve un poteau cylindrique gravé de motifs tressés. En haut, un disque ou anneau ajouré, décoré de plumes et de spirales, qui symbolisent une balle de caoutchouc et le mouvement. Il est en andésite, avec du stuc et des pigments polychromes, et il appartient à la culture teotihuacán, de la période Classique. Il a été découvert en 1962, lors des fouilles du quartier de La Ventilla, au sud-ouest de Teotihuacán."
+    },
+    "guion_largo": {
+      "hash": "4e7f31e6dbd8f8c0",
+      "texto": "Ce marqueur peut se monter et se démonter. Cela suffit déjà à le rendre singulier.\n\nC’est une sculpture portative formée de quatre sections, sculptées de manière indépendante. Elles s’assemblent avec précision grâce à des tenons taillés dans la même roche. En bas se trouve un poteau cylindrique gravé de motifs tressés. Au-dessus, une section en forme de cloche. Et en haut, un disque ou anneau ajouré, décoré de plumes et de spirales qui symbolisent une balle de caoutchouc et le mouvement.\n\nIl est fait d’andésite, avec du stuc et des pigments polychromes. Il appartient à la culture teotihuacán, de la période Classique. Il a été découvert en 1962, lors des fouilles du quartier de La Ventilla, au sud-ouest de la ville.\n\nUn détail le rend encore plus intéressant. À Teotihuacán, on n’a pas trouvé de terrains fermés comme ceux d’autres cités mésoaméricaines. C’est pourquoi on pense que le jeu se déroulait sur des places ou dans des cours ouvertes, et que ces marqueurs portatifs servaient pour ce type d’espaces.\n\nSon usage est illustré dans les peintures murales de Tepantitla, où l’on voit des joueurs munis de bâtons, avec des marqueurs identiques.\n\nUn objet pensé pour se déplacer, qui raconte comment on jouait dans une ville sans terrains de jeu."
+    },
+    "retos_observacion": {
+      "hash": "adb53dcbf14b62bc",
+      "texto": [
+        "Cherchez les quatre sections qui forment le marqueur.",
+        "Regardez l’anneau supérieur ajouré, avec ses plumes et ses spirales.",
+        "Repérez les motifs tressés gravés sur le poteau cylindrique."
+      ]
+    },
+    "especificaciones": {
+      "hash": "1bec4c36259a7969",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (1-650 apr. J.-C.)",
+        "Matériau": "Andésite, stuc et pigment",
+        "Provenance": "Teotihuacán, État de Mexico (quartier de La Ventilla, au sud-ouest de la ville)",
+        "Dimensions": "2,15 m de haut x 0,77 m de large x 0,55 m d’épaisseur",
+        "Découverte": "Découvert en 1962 lors des fouilles du quartier de La Ventilla"
+      }
+    },
+    "faq_mito": {
+      "hash": "ba57000db2b84785",
+      "texto": {
+        "pregunta": "Mythe : Le marqueur de La Ventilla était une pierre fixe dans un grand terrain fermé.",
+        "respuesta": "Réalité : C’est une sculpture portative, démontable en quatre sections, et à Teotihuacán on n’a pas trouvé de terrains fermés comme ceux d’autres cités."
+      }
+    }
+  }
+}

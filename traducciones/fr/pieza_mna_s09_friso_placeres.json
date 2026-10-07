@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_friso_placeres",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f206745c890e7c77",
+      "texto": "Frise en stuc de Los Placeres"
+    },
+    "frase_gancho": {
+      "hash": "fb19423542bc97a9",
+      "texto": "Une façade de stuc qui a été volée, puis est revenue au Mexique."
+    },
+    "puente_narrativo": {
+      "hash": "4f2605ba9b0858e2",
+      "texto": "Nous restons à Campeche, devant une façade de stuc peinte : la frise de Los Placeres."
+    },
+    "guion_corto": {
+      "hash": "f308cabae550859b",
+      "texto": "Elle mesure 8,39 mètres de large et 2,39 de haut, et elle est un jour tombée aux mains de voleurs. C’est une frise de stuc polychrome qui ornait la façade d’un temple à Los Placeres, Campeche. On l’a arrachée dans les années 1960 et elle a été récupérée en 1968, grâce aux démarches de l’ambassade du Mexique. Au centre se trouve le visage rectangulaire d’un souverain, encadré par un masque de serpent-jaguar aux ailes de plumes. Ses ornements d’oreille portent des motifs de requin, et sa coiffe se termine par des feuilles de maïs. De chaque côté, deux vieillards de profil, sans dents, étendent les bras avec des symboles d’eau. C’est une œuvre maya du Classique ancien."
+    },
+    "guion_largo": {
+      "hash": "2bce4bf84748d856",
+      "texto": "Cette façade a beaucoup voyagé avant d’arriver ici. Elle a été volée, puis elle est revenue.\n\nC’est une frise de stuc polychrome, modelée en grand format sur une structure de pierre. Elle mesure 2,39 mètres de haut, 8,39 de long et 60 centimètres d’épaisseur. C’est une œuvre maya du Classique ancien, et elle vient de Los Placeres, à Campeche.\n\nElle ornait la façade principale d’un temple. Dans les années 1960, on l’a arrachée de manière illégale pour la vendre à des collectionneurs étrangers. Elle a été récupérée en 1968, grâce aux démarches de l’ambassade du Mexique, et elle a alors été intégrée à la Salle Maya du musée.\n\nParcourez-la maintenant du regard. Au centre, il y a un visage rectangulaire, celui d’un souverain. Il est encadré par un masque de serpent-jaguar aux ailes de plumes. Sur ses ornements d’oreille apparaissent des motifs du requin, que les Mayas appelaient Xook. Sa coiffe est couronnée de feuilles de maïs.\n\nSur les côtés, de façon symétrique, se tiennent deux personnages âgés, de profil. Ils ont les pommettes saillantes et la bouche sans dents. Ils étendent les bras et tiennent des symboles de courants d’eau et de dons.\n\nC’est une scène de pouvoir et d’abondance. Le souverain occupe le centre, et les vieillards gardent la façade de part et d’autre."
+    },
+    "retos_observacion": {
+      "hash": "d114fe71f545e8a5",
+      "texto": [
+        "Cherchez les ornements d’oreille aux motifs de requin.",
+        "Repérez les deux vieillards de profil, de chaque côté du visage central.",
+        "Regardez la coiffe : elle se termine par des feuilles de maïs."
+      ]
+    },
+    "especificaciones": {
+      "hash": "d6c6836ae06a7d40",
+      "texto": {
+        "Culture": "Maya",
+        "Période": "Classique ancien (300-600 apr. J.-C.)",
+        "Matériau": "Stuc polychrome",
+        "Provenance": "Los Placeres, Campeche",
+        "Dimensions": "2,39 m de haut x 8,39 m de long x 0,60 m d’épaisseur"
+      }
+    },
+    "faq_mito": {
+      "hash": "57032b75a2614883",
+      "texto": {
+        "pregunta": "Mythe : La frise de Los Placeres est une peinture murale plate.",
+        "respuesta": "Réalité : C’est une frise architecturale en relief, modelée en stuc polychrome sur de la pierre."
+      }
+    }
+  }
+}

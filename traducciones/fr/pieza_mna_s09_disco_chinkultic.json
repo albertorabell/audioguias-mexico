@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_disco_chinkultic",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8aa68f8148a5c495",
+      "texto": "Marqueur de jeu de balle de Chinkultic"
+    },
+    "frase_gancho": {
+      "hash": "49f2d1aa4eb3c378",
+      "texto": "Un disque de pierre portant une date exacte : le 19 mai 591."
+    },
+    "puente_narrativo": {
+      "hash": "5533b85030459571",
+      "texto": "Nous passons au Chiapas, avec un disque de pierre qui conserve une date exacte du jeu de balle."
+    },
+    "guion_corto": {
+      "hash": "bf5e5bcd20192906",
+      "texto": "Ce disque conserve une date exacte : le 19 mai de l’an 591 après Jésus-Christ. Elle est écrite en Compte long, le système avec lequel les Mayas comptaient les jours. C’est le Marqueur de jeu de balle de Chinkultic, un disque de calcaire qui faisait partie d’un terrain de jeu. Il mesure 56 centimètres de diamètre et 12,5 d’épaisseur. Il provient de La Esperanza, à Chinkultic, au Chiapas. Au centre, un joueur de balle est en pleine action, à côté d’une balle de grande taille. Il porte une coiffe de plumes. Tout autour court une bande de douze glyphes. C’est une œuvre du Classique ancien, et elle dit encore, plus de mille quatre cents ans après, quand elle a été dédiée."
+    },
+    "guion_largo": {
+      "hash": "88cbef04ff741d0b",
+      "texto": "Un disque de pierre peut vous dire le jour exact où il a été réalisé. Celui-ci le fait.\n\nC’est le Marqueur de jeu de balle de Chinkultic. Il est fait de calcaire, mesure 56 centimètres de diamètre et 12,5 d’épaisseur, et faisait partie d’un terrain de jeu de balle. Il provient de La Esperanza, à Chinkultic, au Chiapas. Ce site se trouve à 8 kilomètres à l’ouest de la zone principale.\n\nCe qu’il a de plus précieux, c’est sa date. Elle est écrite en Compte long, un système maya pour tenir le compte des jours. La date est 9.7.17.12.14, et elle correspond au 19 mai de l’an 591 après Jésus-Christ.\n\nCela le situe dans le Classique ancien, avant la période de plus grand éclat des cités mayas.\n\nMais le disque montre aussi une scène. Une bande de douze glyphes, avec des chiffres à barres et à points, entoure le relief. Au centre, un joueur de balle est en pleine action, à côté d’une balle de grande taille. Il porte une coiffe de plumes.\n\nQuand vous regarderez le disque, rappelez-vous à quoi il servait. Il faisait partie du décor de l’un des jeux rituels les plus connus de Mésoamérique. Et il est arrivé jusqu’ici avec sa date intacte, plus de mille quatre cents ans après."
+    },
+    "retos_observacion": {
+      "hash": "be964bbb3dfee035",
+      "texto": [
+        "Cherchez la bande de glyphes qui entoure le relief : c’est là que se trouve la date.",
+        "Trouvez le joueur de balle et sa coiffe de plumes.",
+        "Remarquez la grande balle à côté du joueur."
+      ]
+    },
+    "especificaciones": {
+      "hash": "1fdc3c77416375a5",
+      "texto": {
+        "Culture": "Maya",
+        "Période": "Classique ancien (591 apr. J.-C.)",
+        "Matériau": "Calcaire",
+        "Provenance": "La Esperanza, Chinkultic, Chiapas",
+        "Dimensions": "56 cm de diamètre x 12,5 cm d’épaisseur"
+      }
+    },
+    "faq_mito": {
+      "hash": "a6780702e50ef65f",
+      "texto": {
+        "pregunta": "Mythe : Dans le jeu de balle maya, on frappait la balle avec les mains, comme au volley-ball.",
+        "respuesta": "Réalité : Les joueurs frappaient la balle surtout avec la hanche, et se protégeaient avec des jougs et des tabliers de cuir."
+      }
+    }
+  }
+}

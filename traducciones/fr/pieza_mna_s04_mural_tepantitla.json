@@ -1,0 +1,55 @@
+{
+  "id": "mna_s04_mural_tepantitla",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d921696dac09d341",
+      "texto": "Peinture murale de Tepantitla (Le Tlalocan)"
+    },
+    "frase_gancho": {
+      "hash": "c69b1d640abf0d64",
+      "texto": "Paradis de l’eau éternelle où les âmes célèbrent la vie."
+    },
+    "puente_narrativo": {
+      "hash": "c0314251ad51d437",
+      "texto": "Nous passons à la peinture murale, avec le paradis de l’eau que les Teotihuacán ont peint : le Tlalocan."
+    },
+    "guion_corto": {
+      "hash": "0fb6877012fa916a",
+      "texto": "Ce n’est pas un jardin ordinaire. C’est le Tlalocan, le paradis de l’eau, peint sur une fresque de Tepantitla, un ensemble résidentiel à l’est de Teotihuacán. Il a été découvert en 1942 par l’archéologue Alfonso Caso. En haut, une grande figure, qui peut être la Grande Déesse ou Tláloc, laisse tomber des gouttes d’eau de ses mains ouvertes. En bas, un paysage fertile sillonné de rivières, où de petits hommes chantent, dansent, nagent, poursuivent des papillons et jouent à la balle. De leurs bouches sortent des volutes ornées de fleurs et de feuilles. C’est le chant fleuri. La peinture est réalisée à fresque sur du stuc, et date de la période classique."
+    },
+    "guion_largo": {
+      "hash": "a4454824c2f5fa8f",
+      "texto": "Imaginez un lieu où tout fleurit, où l’eau coule et où les gens chantent. C’est ainsi que les Teotihuacán imaginaient le Tlalocan.\n\nCette fresque provient de Tepantitla, un ensemble résidentiel situé à l’est de la pyramide du Soleil, à Teotihuacán. Elle a été découverte en 1942 par l’archéologue Alfonso Caso. C’est une peinture à fresque, réalisée sur du stuc et du mortier de chaux, avec des pigments minéraux : du rouge d’hématite, du vert de malachite et du jaune de limonite. Elle appartient à la période classique, et la scène se situe dans la phase Xolalpan, vers la fin de la ville.\n\nElle se divise en deux niveaux. En haut se trouve une grande figure, qui peut être la Grande Déesse teotihuacán ou Tláloc. De son large couvre-chef jaillit un arbre plein de fleurs et d’oiseaux, et de ses mains ouvertes ruissellent des gouttes d’eau.\n\nEn bas se trouve le Tlalocan, le paradis aquatique. C’est un paysage fertile, traversé de rivières. De petits hommes chantent, dansent, nagent, poursuivent des papillons et jouent à la balle.\n\nRegardez leurs bouches. Il en sort des volutes décorées de fleurs et de feuilles. Ce ne sont pas seulement la parole : c’est le chant fleuri, la joie des âmes dans le royaume du dieu de la pluie.\n\nC’est une scène de joie, et l’eau parcourt tout."
+    },
+    "retos_observacion": {
+      "hash": "6e93d17af4171dae",
+      "texto": [
+        "Cherchez la grande figure du haut, avec les mains ouvertes et les gouttes d’eau.",
+        "Trouvez les petits hommes qui nagent et poursuivent des papillons.",
+        "Observez les volutes ornées de fleurs qui sortent des bouches."
+      ]
+    },
+    "especificaciones": {
+      "hash": "74ebd808b44b2bf5",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (300-650 apr. J.-C.)",
+        "Matériau": "Peinture à fresque sur stuc et mortier de chaux, avec des pigments minéraux d’hématite rouge, de malachite verte et de limonite jaune",
+        "Provenance": "Teotihuacán, État de Mexico (ensemble résidentiel de Tepantitla, à l’est de la pyramide du Soleil)",
+        "Découverte": "Découvert en 1942 par l’archéologue Alfonso Caso dans l’ensemble résidentiel de Tepantitla"
+      }
+    },
+    "faq_mito": {
+      "hash": "d139b4e2d357f49a",
+      "texto": {
+        "pregunta": "Mythe : La fresque représente un pique-nique quotidien à la campagne.",
+        "respuesta": "Réalité : Elle représente le Tlalocan, le paradis aquatique du dieu de la pluie, où les âmes jouissent de l’abondance."
+      }
+    }
+  }
+}

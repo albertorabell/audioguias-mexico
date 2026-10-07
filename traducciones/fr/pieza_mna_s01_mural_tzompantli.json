@@ -1,0 +1,53 @@
+{
+  "id": "mna_s01_mural_tzompantli",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "36da67c15df26ad9",
+      "texto": "Mural du Tzompantli de la diversité humaine"
+    },
+    "frase_gancho": {
+      "hash": "c8cdb3c968cd0950",
+      "texto": "Un mur de crânes qui ne parle pas de sacrifice, mais de ce que nous avons en commun."
+    },
+    "puente_narrativo": {
+      "hash": "4cf64d06fe43fb96",
+      "texto": "Nous passons d’une sépulture ancienne à un mur de crânes, mais avec une autre intention : montrer à quel point nous sommes à la fois différents et semblables."
+    },
+    "guion_corto": {
+      "hash": "6bf0a404faa42070",
+      "texto": "Un tzompantli était un mur de crânes. Ce mural reprend cette image dans un tout autre but : montrer la diversité de l’espèce humaine. C’est une installation muséographique permanente, d’époque contemporaine, située dans la salle Introduction à l’anthropologie. Elle présente des reproductions de crânes et de traits anatomiques qui illustrent comment les populations humaines se sont adaptées à des écosystèmes très différents. Elle aborde, de façon pédagogique, des thèmes comme l’ostéologie, la variation de la forme du visage, les adaptations au climat et les différences génétiques. Elle laisse une idée centrale. Les différences physiques sont notables, fruit de l’adaptation à des climats et à des altitudes différents. Pourtant, nous appartenons tous à une même espèce, dotée d’une profonde unité génétique."
+    },
+    "guion_largo": {
+      "hash": "7565f8172f379221",
+      "texto": "Un tzompantli était, dans le monde préhispanique, un mur de crânes. Cette œuvre reprend cette image et l’utilise dans un autre but.\n\nC’est une installation muséographique permanente, d’époque contemporaine. Elle se trouve dans la salle Introduction à l’anthropologie. Ce ne sont pas de vrais crânes de l’époque préhispanique, mais des reproductions : des moulages synthétiques de restes osseux, des reproductions crâniométriques et des infographies.\n\nElle reprend la métaphore visuelle du mur de crânes pour organiser une série de reproductions et de traits anatomiques. Grâce à eux, on illustre comment les populations humaines se sont adaptées physiquement aux différents écosystèmes de la planète.\n\nElle présente, de façon pédagogique, plusieurs thèmes. L’ostéologie, qui est l’étude des os. La variation de la forme du visage. Les adaptations au climat. Et les différences génétiques.\n\nLa conclusion est visuelle. Il existe des différences physiques extérieures notables, engendrées par l’adaptation à des climats et à des altitudes différents. Pourtant, tous les groupes humains, nous appartenons à une même espèce, dotée d’une profonde unité génétique.\n\nC’est une belle façon de commencer la visite. Avant de découvrir les peuples du Mexique, le musée rappelle que nous faisons tous partie d’une même histoire."
+    },
+    "retos_observacion": {
+      "hash": "1a63859d3b319a54",
+      "texto": [
+        "Cherchez les reproductions de crânes disposées comme un mur.",
+        "Comparez la forme du visage des unes et des autres.",
+        "Réfléchissez aux traits qui peuvent venir d’une adaptation au climat ou à l’altitude."
+      ]
+    },
+    "especificaciones": {
+      "hash": "eaaa071942bde5dd",
+      "texto": {
+        "Culture": "Présentoir muséographique sur la diversité biologique d’Homo sapiens",
+        "Période": "Époque contemporaine (installation muséographique permanente)",
+        "Provenance": "Salle Introduction à l’anthropologie, Musée national d’anthropologie, Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "90e5f3a8aadc7a69",
+      "texto": {
+        "pregunta": "Mythe : Le Tzompantli de la diversité humaine est fait de crânes de guerriers sacrifiés.",
+        "respuesta": "Réalité : C’est une installation muséographique contemporaine, composée de reproductions de crânes et de traits anatomiques, qui montre l’unité et la diversité de notre espèce."
+      }
+    }
+  }
+}

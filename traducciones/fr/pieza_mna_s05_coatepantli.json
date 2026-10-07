@@ -1,0 +1,62 @@
+{
+  "id": "mna_s05_coatepantli",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "frase_gancho": [
+      "el glosario pide \"Mur des Serpents\" para \"Muro de Serpientes\" y no aparece"
+    ],
+    "puente_narrativo": [
+      "el glosario pide \"Mur des Serpents\" para \"Muro de Serpientes\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "b9cbbb4310f2404f",
+      "texto": "Coatepantli de Tula"
+    },
+    "frase_gancho": {
+      "hash": "d06e6f970f247d4c",
+      "texto": "Un mur de serpents qui dévorent, à mi-corps, des personnages écorchés."
+    },
+    "puente_narrativo": {
+      "hash": "9863db4e24f20f8f",
+      "texto": "Nous restons à Tula, devant un mur de serpents : le relief qui délimitait l’aire du temple principal."
+    },
+    "guion_corto": {
+      "hash": "776701bda5054c5b",
+      "texto": "Coatepantli signifie mur de serpents. Ce mot vient de deux mots nahuatl, cóatl, serpent, et pantli, mur. Cette dalle appartient au Mur des Serpents de Tula, sur la face arrière de la pyramide B. C’était un mur ornemental sacré, qui délimitait l’aire du temple principal. Elle est de culture toltèque, du Postclassique ancien. Le basalte est sculpté en bas-relief et gravé d’incisions, et il était à l’origine peint en rouge, bleu et blanc. Sur la bande centrale, des serpents à sonnette au corps ondulant saisissent et dévorent à mi-corps des squelettes ou des personnages humains écorchés. Les Mexicas en ont fait leur modèle. Ils ont construit un mur de serpents identique autour de l’Enceinte sacrée de Tenochtitlan."
+    },
+    "guion_largo": {
+      "hash": "a0c40116ef737cf5",
+      "texto": "Un mur fait de serpents. Voilà ce que veut dire Coatepantli, du nahuatl cóatl, serpent, et pantli, mur.\n\nLe Mur des Serpents se trouve à Tula, sur la face arrière de la pyramide B, aussi appelée temple de Tlahuizcalpantecuhtli. C’est une œuvre toltèque du Postclassique ancien. C’était un mur ornemental sacré, qui délimitait l’aire du temple principal.\n\nCette dalle est en basalte, sculpté en bas-relief et gravé d’incisions. À l’origine, elle était polychrome, en rouge, bleu et blanc. La corniche supérieure et la corniche inférieure étaient décorées de créneaux et de grecques géométriques.\n\nSur la bande centrale court une frise continue. Des serpents à sonnette, au corps ondulant, saisissent et dévorent à mi-corps des squelettes ou des personnages humains écorchés.\n\nOn interprète la scène comme le symbole de la transformation de la chair et du sacrifice humain. Mais aussi de la renaissance de l’âme et du soleil. C’est une image dure, et en même temps elle parle de cycles : ce qui meurt se transforme.\n\nLe Mur des Serpents a servi de modèle aux Mexicas. Ils ont élevé un mur de serpents identique autour de l’Enceinte sacrée de Tenochtitlan, et un autre à Tenayuca.\n\nObservez le corps des serpents. Les motifs enchaînés imitent la sonnette, et leur rythme répété donne l’idée d’un mur vivant."
+    },
+    "retos_observacion": {
+      "hash": "51c685a5b4a20545",
+      "texto": [
+        "Cherchez le corps ondulant des serpents à sonnette.",
+        "Trouvez le personnage écorché qu’ils tiennent entre leurs mâchoires.",
+        "Regardez les créneaux et les grecques des corniches."
+      ]
+    },
+    "especificaciones": {
+      "hash": "27cf46315506cdaa",
+      "texto": {
+        "Culture": "Toltèque",
+        "Période": "Postclassique ancien (900-1200 apr. J.-C.)",
+        "Matériau": "Basalte sculpté en bas-relief et incisé, à l’origine polychrome",
+        "Provenance": "Tula, Hidalgo (Mur des Serpents, face arrière de la pyramide B)",
+        "Dimensions": "Dalle individuelle : 32,3 cm de haut × 105 cm de large × 5,5 cm d’épaisseur"
+      }
+    },
+    "faq_mito": {
+      "hash": "6e43786ba9be2091",
+      "texto": {
+        "pregunta": "Mythe : Le Coatepantli était une muraille destinée à défendre Tula contre ses ennemis.",
+        "respuesta": "Réalité : C’était un mur ornemental sacré qui délimitait l’aire du temple principal. Sa frise parle de sacrifice et de renaissance."
+      }
+    }
+  }
+}

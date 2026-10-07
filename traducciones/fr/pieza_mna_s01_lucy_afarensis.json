@@ -1,0 +1,55 @@
+{
+  "id": "mna_s01_lucy_afarensis",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "efa176a63cc4e3ff",
+      "texto": "Réplique du squelette de Lucy (Australopithecus afarensis)"
+    },
+    "frase_gancho": {
+      "hash": "605ee43a216ae97b",
+      "texto": "Une femelle d’1,20 mètre qui marchait debout il y a 3,2 millions d’années."
+    },
+    "puente_narrativo": {
+      "hash": "5f65dc1667760586",
+      "texto": "Nous commençons par le commencement : l’une des espèces les plus anciennes de la lignée humaine, bien avant que quiconque n’arrive en Amérique."
+    },
+    "guion_corto": {
+      "hash": "cb8da953dcc5df78",
+      "texto": "Il y a 3,2 millions d’années vivait une femelle qui mesurait environ 1,20 mètre et pesait près de 30 kilos. On la connaît sous le nom de Lucy, et elle appartient à l’espèce Australopithecus afarensis. Son squelette fossile a été découvert en novembre 1974 par le chercheur américain Donald Johanson, à Hadar, en Éthiopie. Environ 40 pour cent des os ont été retrouvés. Ce que vous voyez est une reconstitution réalisée par l’Atelier Daynes, à Paris, en 1999, à partir des restes originaux. L’analyse du bassin et des membres inférieurs a montré qu’elle marchait debout. Cela a obligé les spécialistes à réorganiser l’arbre évolutif humain. Dans cette salle, il y a deux représentations : une reconstitution du corps entier et, à quelques mètres, le squelette monté."
+    },
+    "guion_largo": {
+      "hash": "ee539908edf970d6",
+      "texto": "Il y a 3,2 millions d’années, dans ce qui est aujourd’hui l’Éthiopie, vivait une femelle appartenant à une espèce d’hominidés bipèdes. Les spécialistes l’appellent Australopithecus afarensis. Ici, on la connaît sous le nom de Lucy.\n\nSon squelette fossile a été découvert en novembre 1974 par le chercheur américain Donald Johanson, à Hadar, en Afrique de l’Est. Au cours des fouilles, environ 40 pour cent du squelette ont été retrouvés.\n\nCe que vous voyez dans cette salle n’est pas le fossile, mais une reconstitution. Elle a été réalisée par l’Atelier Daynes, à Paris, en 1999, à partir des restes fossiles originaux. Lucy mesurait environ 1,20 mètre, et l’on estime qu’elle pesait près de 30 kilos de son vivant.\n\nIl y a une raison à sa célébrité. L’analyse du bassin et des membres inférieurs a montré qu’elle marchait debout, sur deux pieds. Cela a obligé les spécialistes à réorganiser l’arbre évolutif humain.\n\nDans cette salle, il y a deux représentations complémentaires. L’une est la reconstitution du corps en volume complet, qui accueille les visiteurs. À quelques mètres se trouve la réplique du squelette monté, où l’on identifie les parties osseuses originales qui ont été retrouvées.\n\nComparez sa taille à la vôtre. C’est ainsi que l’on mesure la distance entre cette espèce et les civilisations que vous allez découvrir dans les autres salles."
+    },
+    "retos_observacion": {
+      "hash": "af8b3e915951a8b9",
+      "texto": [
+        "Cherchez le squelette monté, où l’on distingue les os originaux.",
+        "Regardez le bassin et les jambes : ils montrent qu’elle marchait debout.",
+        "Comparez sa taille de 1,20 mètre à la vôtre."
+      ]
+    },
+    "especificaciones": {
+      "hash": "30a1c8e8223f3b30",
+      "texto": {
+        "Culture": "Australopithecus afarensis, femelle hominidé bipède",
+        "Période": "3,2 millions d’années ; le fossile a été découvert en novembre 1974",
+        "Matériau": "Reconstitution anthropologique de l’Atelier Daynes (Paris, 1999) à partir des restes fossiles",
+        "Provenance": "Hadar, Éthiopie (Afrique de l’Est)",
+        "Dimensions": "1,20 m de taille approximative ; poids estimé de son vivant : 30 kg"
+      }
+    },
+    "faq_mito": {
+      "hash": "5c1d133a2cbb677c",
+      "texto": {
+        "pregunta": "Mythe : Lucy a été la première femme de notre espèce, Homo sapiens.",
+        "respuesta": "Réalité : C’était une femelle d’Australopithecus afarensis, vieille de 3,2 millions d’années. Elle appartient à une espèce d’hominidés bipèdes de l’arbre évolutif humain."
+      }
+    }
+  }
+}

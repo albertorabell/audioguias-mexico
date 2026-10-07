@@ -1,0 +1,55 @@
+{
+  "id": "mna_s04_caracoles_emplumados",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a265bb2c77b543e4",
+      "texto": "Temple des Conques à plumes"
+    },
+    "frase_gancho": {
+      "hash": "efc291c321e06816",
+      "texto": "Des conques ornées de plumes, dans une ville bâtie sur une autre."
+    },
+    "puente_narrativo": {
+      "hash": "9027603f16223bed",
+      "texto": "Nous revenons à l’architecture avec un temple décoré de conques qui portent des plumes."
+    },
+    "guion_corto": {
+      "hash": "37c9784a3dbbb4e1",
+      "texto": "Une conque avec des plumes. Cela semble un mélange impossible, et pourtant c’est ainsi que les Teotihuacán ont décoré ce temple. C’est le Temple des Conques à plumes, du Classique ancien, entre les années 200 et 300 après Jésus-Christ. Il est fait de roches sculptées en bas-relief, de calcaire et de stuc poli, avec de la peinture rouge, verte et bleue. Les conques ont un embouchure, comme des trompettes. De leurs bouches sortent des gouttes rouges et des volutes qui représentent le son. Les pilastres de l’entrée portent des fleurs à quatre pétales. L’archéologue Jorge Acosta l’a exploré et identifié en 1962 sous le Palais de Quetzalpapálotl, aussi appelé Palais des Papillons. C’est pourquoi il est plus ancien que le palais."
+    },
+    "guion_largo": {
+      "hash": "ff21d44a4c5e0fcb",
+      "texto": "Parfois, pour trouver quelque chose de très ancien, il faut creuser sous quelque chose d’ancien.\n\nC’est ce qui s’est passé avec ce temple. En 1962, l’archéologue Jorge Acosta l’a exploré et identifié sous le Palais de Quetzalpapálotl, aussi appelé Palais des Papillons. Il se trouve au sud-ouest de la place de la Lune, à Teotihuacán. C’est le Temple des Conques à plumes.\n\nIl appartient au Classique ancien, entre les années 200 et 300 après Jésus-Christ, c’est-à-dire aux IIe et IIIe siècles. C’est pourquoi il est antérieur au palais qui a été construit au-dessus de lui.\n\nIl est fait de roches sculptées en bas-relief, de calcaire, recouvertes de stuc poli et décorées de peinture rouge, verte et bleue.\n\nLe nom dit tout. Les conques sont des mollusques marins. Ici, elles sont transformées en trompettes, avec un embouchure, et ornées de plumes.\n\nDe leurs bouches sortent des gouttes rouges et des volutes qui représentent le son, la parole ou le chant. C’est comme si les conques résonnaient. Les pilastres de l’entrée sont décorés de fleurs à quatre pétales, peintes de plusieurs couleurs.\n\nOn suppose que les conques marines étaient associées à l’eau, un thème central pour les Teotihuacán. Ils honoraient Tláloc, dieu de la pluie, et Chalchiuhtlicue, déesse des eaux terrestres.\n\nC’est une image qui mêle eau, plumes et son. Et elle montre quelque chose d’important : sous les édifices les plus célèbres de Teotihuacán, il y en a d’autres encore plus anciens."
+    },
+    "retos_observacion": {
+      "hash": "353f839aa140154b",
+      "texto": [
+        "Cherchez les conques avec embouchure, comme des trompettes.",
+        "Repérez les plumes de chaque conque et les gouttes rouges qui sortent de leurs bouches.",
+        "Observez les fleurs à quatre pétales des pilastres."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2339e22be4a18ee0",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique ancien (200-300 apr. J.-C.)",
+        "Matériau": "Calcaire, stuc poli et pigments minéraux",
+        "Provenance": "Teotihuacán, État de Mexico (sous-sol du Palais de Quetzalpapálotl, au sud-ouest de la place de la Lune)",
+        "Découverte": "Exploré et identifié en 1962 par l’archéologue Jorge Acosta sous le Palais de Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "f66db8346d3e8958",
+      "texto": {
+        "pregunta": "Mythe : Ce temple a été construit après le Palais de Quetzalpapálotl.",
+        "respuesta": "Réalité : Il est antérieur : il se trouvait sous le palais, et il date des IIe et IIIe siècles après Jésus-Christ."
+      }
+    }
+  }
+}

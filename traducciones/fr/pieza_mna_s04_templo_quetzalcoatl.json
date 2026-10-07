@@ -1,0 +1,55 @@
+{
+  "id": "mna_s04_templo_quetzalcoatl",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fa992e1b41168bd8",
+      "texto": "Reconstitution de la façade du Temple de Quetzalcóatl"
+    },
+    "frase_gancho": {
+      "hash": "6b0b527bb4655095",
+      "texto": "Des serpents de pierre et de turquoise qui émergent de l’océan primordial."
+    },
+    "puente_narrativo": {
+      "hash": "f5a390cf297f2e8f",
+      "texto": "Nous passons de la déesse de l’eau à une reconstitution à l’échelle réelle de la façade du Temple du Serpent à plumes, dans la Ciudadelle."
+    },
+    "guion_corto": {
+      "hash": "fbbee65466a273cc",
+      "texto": "Ce n’est pas la pyramide originale. C’est une reconstitution à l’échelle réelle, réalisée en fibre de verre et en résine. Elle copie la façade du Temple du Serpent à plumes, dans la Ciudadelle de Teotihuacán. Sur les panneaux apparaissent des têtes du Serpent à plumes, Quetzalcóatl, ornées de colliers de plumes. Elles alternent avec des coiffes ou des masques de Tláloc, le dieu de la pluie. Sur les talus du bas, les corps ondulants des serpents nagent parmi des escargots et des coquillages marins. Les couleurs employées sont celles de la palette d’origine : rouge, vert, bleu, blanc et ocre. L’original s’est conservé parce que, vers l’an 350 après Jésus-Christ, les Teotihuacáns eux-mêmes l’ont recouvert d’une nouvelle plateforme."
+    },
+    "guion_largo": {
+      "hash": "5fdee91768a9d719",
+      "texto": "Ce que vous voyez est une copie, mais elle reproduit une véritable façade. C’est une reconstitution à l’échelle réelle du Temple du Serpent à plumes, dans la Ciudadelle de Teotihuacán. Elle est faite de fibre de verre et de résine, colorée avec la palette des pigments d’origine : rouge, vert, bleu, blanc et ocre.\n\nObservez comment elle est organisée. Sur les panneaux, les têtes tridimensionnelles du Serpent à plumes, Quetzalcóatl, apparaissent avec des colliers de plumes. Entre elles surgissent des sculptures en forme de coiffe, ou masques de Tláloc, le dieu de la pluie. Sur les talus du bas, les corps ondulants des serpents nagent parmi des escargots et des coquillages marins.\n\nEt il y a une histoire de protection. Vers l’an 350 après Jésus-Christ, les Teotihuacáns eux-mêmes ont élevé sur cette façade une nouvelle structure, la Plateforme adossée. Ce mur l’a ensevelie. Grâce à lui, la polychromie et les détails sculptés se sont conservés pendant des siècles.\n\nLe bâtiment original a été exploré, entre 1917 et 1922, par Manuel Gamio. Il l’a identifié sous la Plateforme adossée.\n\nC’est pourquoi cette reconstitution est si précieuse. Elle vous permet de voir à quoi ressemblait une façade teotihuacán lorsque la ville était vivante, avec toutes ses couleurs."
+    },
+    "retos_observacion": {
+      "hash": "375f5fa005a18014",
+      "texto": [
+        "Cherchez les têtes du Serpent à plumes ornées de colliers de plumes.",
+        "Trouvez les escargots et les coquillages parmi les serpents du talus.",
+        "Observez les couleurs : rouge, vert, bleu, blanc et ocre."
+      ]
+    },
+    "especificaciones": {
+      "hash": "639d48ed26965f35",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique ancien",
+        "Matériau": "Réplique grandeur nature en fibre de verre et pigments polychromes ; l’édifice original est en pierre taillée, mortier, stuc et peinture",
+        "Provenance": "Teotihuacán, État de Mexico (la Ciudadelle, Temple de Quetzalcóatl)",
+        "Découverte": "L’édifice original a été exploré et identifié entre 1917 et 1922 par Manuel Gamio sous la Plateforme adossée"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2e9ad085e05141d",
+      "texto": {
+        "pregunta": "Mythe : Cette façade est la pyramide originale de Teotihuacán.",
+        "respuesta": "Réalité : C’est une reconstitution à l’échelle réelle, réalisée en fibre de verre. L’édifice original se trouve toujours dans la Ciudadelle, à Teotihuacán."
+      }
+    }
+  }
+}

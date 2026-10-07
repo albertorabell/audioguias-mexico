@@ -1,0 +1,54 @@
+{
+  "id": "mna_s00_fachada_celosia",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4e53380570ef2405",
+      "texto": "Façade de marbre et claustra extérieur"
+    },
+    "frase_gancho": {
+      "hash": "ad1412cc9f758639",
+      "texto": "Un claustra en aluminium inspiré de la pierre sculptée d’Uxmal."
+    },
+    "puente_narrativo": {
+      "hash": "55b215b21a3d8c39",
+      "texto": "Devant la porte du musée, la façade associe marbre, verre et un claustra en aluminium inspiré d’Uxmal."
+    },
+    "guion_corto": {
+      "hash": "422409b63d5b6ff2",
+      "texto": "Le 17 septembre 1964, le bâtiment du musée était inauguré, façade comprise. Le projet est de l’architecte Pedro Ramírez Vázquez, et il s’élève dans le bois de Chapultepec. Les murs sont en marbre de Santo Tomás, d’un gris blanchâtre, et la grande porte vitrée est en verre. Sur la façade, un claustra en aluminium anodisé a été conçu par Manuel Felguérez. Un claustra est une sorte de grille ajourée, qui laisse passer la lumière et l’air. Il s’inspire de l’art plastique maya du style Puuc, celui d’Uxmal. On y trouve aussi un Écusson national en bronze, œuvre de Tomás Chávez Morado. Ce sont des matériaux modernes au service d’idées très anciennes. Avant de franchir la porte, regardez comment la lumière traverse le claustra."
+    },
+    "guion_largo": {
+      "hash": "2cacf0142fa63e6a",
+      "texto": "Une façade est la première phrase d’un bâtiment. Celle de ce musée dit, avec peu de matériaux, que le moderne et l’ancien peuvent parler ensemble.\n\nLe projet du bâtiment est de l’architecte Pedro Ramírez Vázquez. Deux artistes ont apporté des pièces essentielles. Manuel Felguérez a conçu le claustra en aluminium, et Tomás Chávez Morado a réalisé l’Écusson national en bronze. Cela fait trois noms et plusieurs matériaux : le marbre, l’aluminium, le bronze et le verre de la grande porte vitrée.\n\nLe marbre vient de Santo Tomás, d’un ton gris blanchâtre. L’aluminium du claustra est anodisé, c’est-à-dire qu’il a reçu un traitement qui protège sa surface. Un claustra est une sorte de grille ajourée, qui laisse passer la lumière et l’air, mais filtre le regard.\n\nCelui de Felguérez s’appuie sur une inspiration précise : l’art plastique maya du style Puuc, celui d’Uxmal. Ce n’est pas la copie d’un mur ancien. C’est une traduction, qui transpose un langage de pierre sculptée dans un métal de son temps. Voilà la grande idée de la façade.\n\nLe bâtiment a été inauguré le 17 septembre 1964, dans le bois de Chapultepec. C’est un édifice de grandes dimensions, et cette façade est la partie qui fait face à la ville.\n\nCherchez l’Écusson national en bronze. Comparez sa couleur avec celle du marbre et avec l’éclat de l’aluminium. Trois matériaux, trois tons et un seul bâtiment.\n\nC’est un musée qui utilise les matériaux de son temps pour dialoguer avec le Mexique ancien."
+    },
+    "retos_observacion": {
+      "hash": "1e660b67108b42ca",
+      "texto": [
+        "Cherchez le claustra en aluminium et suivez ses motifs répétés.",
+        "Comparez le gris blanchâtre du marbre avec l’éclat de l’aluminium.",
+        "Trouvez l’Écusson national en bronze et observez bien ses détails."
+      ]
+    },
+    "especificaciones": {
+      "hash": "3ad6a069180331a6",
+      "texto": {
+        "Culture": "Architecture moderne mexicaine : Pedro Ramírez Vázquez (projet du bâtiment), Manuel Felguérez (claustra en aluminium) et Tomás Chávez Morado (Écusson national en bronze)",
+        "Période": "1964 (inauguré le 17 septembre 1964)",
+        "Matériau": "Marbre de Santo Tomás (gris blanchâtre), grande porte vitrée en verre et claustra en aluminium anodisé",
+        "Provenance": "Bois de Chapultepec, Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "21bcf7e9cd3bae87",
+      "texto": {
+        "pregunta": "Mythe : le claustra n’est qu’un ornement moderne, sans rapport avec le monde préhispanique.",
+        "respuesta": "Réalité : il a été conçu par Manuel Felguérez, inspiré de l’art plastique maya du style Puuc, celui d’Uxmal."
+      }
+    }
+  }
+}

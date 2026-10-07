@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_yacata_tzintzuntzan",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "723880c21191c370",
+      "texto": "Modèle architectural de yácata purépecha"
+    },
+    "frase_gancho": {
+      "hash": "9538e261fe6d96ed",
+      "texto": "Une pyramide composée d’un corps rectangulaire et d’un corps rond, couronnée par un temple en bois."
+    },
+    "puente_narrativo": {
+      "hash": "d92057784f01c1bc",
+      "texto": "Nous refermons la salle de l’Occident avec une maquette : la forme des pyramides purépechas."
+    },
+    "guion_corto": {
+      "hash": "c50df0bb470ca20d",
+      "texto": "Une pyramide composée d’un corps rectangulaire et d’un corps rond : telles étaient les yácatas purépechas. Voici un modèle à l’échelle de l’une d’elles, réalisé en argile. Il appartient à la culture tarasque ou purépecha, du Postclassique récent, et représente les yácatas de Tzintzuntzan et d’Ihuatzio, dans le Michoacán. Une yácata est un socle pyramidal mixte. Elle présente à l’avant un corps rectangulaire à gradins, relié à l’arrière à un corps semi-circulaire ou cylindrique. Au sommet s’élevaient des temples coniques en bois et en paille, dédiés aux divinités principales, menées par Curicaueri, le dieu du feu solaire. Les structures d’origine furent construites avec des noyaux de pierre et des dalles taillées dans de la pierre volcanique."
+    },
+    "guion_largo": {
+      "hash": "9b336ccbfa2427d2",
+      "texto": "Une pyramide qui ne ressemble à aucune autre. La yácata purépecha combine deux formes : un corps rectangulaire à gradins à l’avant et un corps semi-circulaire ou cylindrique à l’arrière.\n\nVoici un modèle à l’échelle, réalisé en argile. Il représente les yácatas de Tzintzuntzan et d’Ihuatzio, dans le bassin du lac de Pátzcuaro, dans le Michoacán. Il appartient à la culture tarasque ou purépecha et au Postclassique récent.\n\nLes yácatas d’origine furent construites avec des noyaux de pierre et des dalles taillées dans de la pierre volcanique. Au sommet s’érigeaient des temples coniques en bois et en paille. Ils étaient dédiés aux divinités principales, menées par Curicaueri, le dieu du feu solaire.\n\nÀ Tzintzuntzan, dont le nom se traduit par Lieu des colibris, cinq yácatas monumentales sont conservées, alignées sur une même plateforme. Elles regardent vers le lac de Pátzcuaro. La grande plateforme cérémonielle mesure plus de quatre cents mètres de long sur deux cent cinquante de large.\n\nSur leurs sommets, les prêtres entretenaient des foyers sacrés allumés jour et nuit. C’était la nourriture divine du Soleil.\n\nObservez le modèle depuis le haut, si vous le pouvez. Vous verrez comment le corps rectangulaire et le corps rond s’unissent en une seule construction."
+    },
+    "retos_observacion": {
+      "hash": "5b61168991effb65",
+      "texto": [
+        "Cherchez le corps rectangulaire à gradins de la façade.",
+        "Regardez le corps rond qui s’y rattache à l’arrière.",
+        "Imaginez le temple en bois et en paille qui couronnait le sommet."
+      ]
+    },
+    "especificaciones": {
+      "hash": "15783f297bd5cea4",
+      "texto": {
+        "Culture": "Tarasque / Purépecha",
+        "Période": "Postclassique récent (1200-1521 apr. J.-C.)",
+        "Matériau": "Modèle à l’échelle en argile (les yácatas d’origine avaient un noyau de pierre et des dalles de pierre volcanique)",
+        "Provenance": "Tzintzuntzan et Ihuatzio, bassin de Pátzcuaro, Michoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "7e754307613e340c",
+      "texto": {
+        "pregunta": "Mythe : Les yácatas étaient des forts militaires construits par des envahisseurs.",
+        "respuesta": "Réalité : C’étaient des socles pyramidaux purépechas, avec des temples au sommet dédiés à Curicaueri, le dieu du feu solaire."
+      }
+    }
+  }
+}

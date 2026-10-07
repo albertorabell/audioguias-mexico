@@ -1,0 +1,56 @@
+{
+  "id": "mna_s09_chacmool_maya",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cdc1f808fa47a780",
+      "texto": "Chac Mool de Chichén Itzá"
+    },
+    "frase_gancho": {
+      "hash": "45393cb778a24b50",
+      "texto": "Sculpture allongée qui veille sur le récipient des offrandes divines."
+    },
+    "puente_narrativo": {
+      "hash": "7fffc27cc9e2ccdb",
+      "texto": "Nous terminons la salle à Chichén Itzá, avec une figure allongée célèbre sous un nom qui n’est pas celui d’origine : Chac Mool."
+    },
+    "guion_corto": {
+      "hash": "eba5de37411c9357",
+      "texto": "Chac Mool n’est pas le nom d’origine de cette figure. C’est l’explorateur français Augustus Le Plongeon qui le lui a donné lorsqu’il l’a déterrée à Chichén Itzá, au dix-neuvième siècle. Il s’agit d’une sculpture en calcaire du Postclassique ancien. Elle représente un homme allongé, appuyé sur les coudes, les hanches et le dos, la tête tournée à quatre-vingt-dix degrés. Sur le ventre, il tient un récipient circulaire, conçu pour contenir des offrandes de sang et de cœurs. Il porte un pagne, des oreillères, des chevillères et un pectoral à la silhouette d’un papillon stylisé, un trait qui le relie au style de Tula. Elle est apparue sur la plateforme de Vénus. Par la suite, ce nom a été employé pour d’autres sculptures du même type."
+    },
+    "guion_largo": {
+      "hash": "b8598de2342c2d17",
+      "texto": "On l’appelle Chac Mool, mais ce nom ne vient pas des Mayas. C’est un explorateur qui l’a inventé.\n\nC’est le Français Augustus Le Plongeon qui l’a ainsi baptisé lorsqu’il l’a déterré à Chichén Itzá, au Yucatán, au dix-neuvième siècle. Il l’a trouvé sur la plateforme de Vénus. Depuis, ce nom est employé pour d’autres sculptures de ce type.\n\nC’est une œuvre du Postclassique ancien, sculptée dans du calcaire, en ronde-bosse. On l’associe à la culture maya et à l’influence toltèque. Elle combine des traditions locales avec des influences du Haut Plateau central.\n\nRegardez la posture. C’est un personnage masculin allongé. Il s’appuie sur les coudes, les hanches et le dos, et tourne la tête à quatre-vingt-dix degrés. Sur le ventre, il tient à deux mains un récipient circulaire. Ce récipient servait à contenir des offrandes de sang et de cœurs.\n\nVoyons maintenant les détails de sa tenue. Il porte un pagne, des oreillères et des chevillères. Sur la poitrine, il porte un pectoral à la silhouette d’un papillon stylisé. Ce trait le relie au style de Tula, la capitale toltèque, et montre les liens entre deux régions.\n\nOn ne sait pas précisément qui il représente. C’est pourquoi il vaut mieux décrire ce que l’on voit : un homme attentif, les mains posées sur un récipient, comme quelqu’un qui attend pour recevoir."
+    },
+    "retos_observacion": {
+      "hash": "d81cdedce56444d0",
+      "texto": [
+        "Cherchez le récipient circulaire sur le ventre.",
+        "Regardez vers où tourne la tête : quatre-vingt-dix degrés.",
+        "Trouvez le pectoral en forme de papillon stylisé."
+      ]
+    },
+    "especificaciones": {
+      "hash": "64e9fb5693638f2b",
+      "texto": {
+        "Culture": "Maya",
+        "Période": "Postclassique ancien",
+        "Matériau": "Calcaire",
+        "Provenance": "Chichén Itzá, Yucatán",
+        "Dimensions": "1,10 m de haut x 1,48 m de large",
+        "Découverte": "XIXe siècle, par Augustus Le Plongeon, sur la plateforme de Vénus de Chichén Itzá"
+      }
+    },
+    "faq_mito": {
+      "hash": "a84a142a1dea5698",
+      "texto": {
+        "pregunta": "Mythe : Chac Mool est le nom d’origine de cette sculpture.",
+        "respuesta": "Réalité : C’est l’explorateur français Augustus Le Plongeon qui le lui a donné lorsqu’il l’a déterrée à Chichén Itzá."
+      }
+    }
+  }
+}

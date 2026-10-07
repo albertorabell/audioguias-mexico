@@ -4,19 +4,7 @@
   "idioma": "fr",
   "modelo": "claude-sonnet-5-5",
   "fecha": "2026-10-07",
-  "avisos": {
-    "guion_corto": [
-      "el glosario pide \"Vallées centrales d'Oaxaca\" para \"Valles Centrales de Oaxaca\" y no aparece",
-      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
-    ],
-    "guion_largo": [
-      "el glosario pide \"Vallées centrales d'Oaxaca\" para \"Valles Centrales de Oaxaca\" y no aparece",
-      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
-    ],
-    "especificaciones": [
-      "el glosario pide \"Vallées centrales d'Oaxaca\" para \"Valles Centrales de Oaxaca\" y no aparece"
-    ]
-  },
+  "avisos": {},
   "campos": {
     "titulo": {
       "hash": "4e3284425c6a4829",

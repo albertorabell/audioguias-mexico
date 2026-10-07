@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_cripta_pakal",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "730dfe8e3fb73576",
+      "texto": "Crypte et sarcophage de Pakal (reconstitution)"
+    },
+    "frase_gancho": {
+      "hash": "56b6c720b38b9061",
+      "texto": "Une tombe reconstituée grandeur nature, sous une lumière rouge."
+    },
+    "puente_narrativo": {
+      "hash": "f8aeee4e7ba024ff",
+      "texto": "Nous poursuivons avec la tombe où se trouvait ce masque : une reconstitution grandeur nature de la crypte de Pakal."
+    },
+    "guion_corto": {
+      "hash": "70a4622c10b572d6",
+      "texto": "Vous voici devant une tombe, mais ce n’est pas la vraie. C’est une reconstitution grandeur nature de la chambre funéraire du roi Pakal, dans le temple des Inscriptions de Palenque. Une lumière rouge tombe d’en haut sur la dalle sculptée et sur le sarcophage de pierre. Sur la dalle, le roi apparaît au moment de mourir. Il descend le long du tronc d’un ceiba sacré vers les mâchoires du Monstre de la Terre, l’entrée du monde souterrain. On l’interprète comme l’étape qui précède la renaissance. Sur les murs, des figures en stuc représentent les Neuf Seigneurs de la Nuit. Pakal fut enseveli en l’an 683 après Jésus-Christ, et sous la dalle, son squelette était recouvert de cinabre, un pigment rouge."
+    },
+    "guion_largo": {
+      "hash": "eaed3346b7e0d27f",
+      "texto": "Certains objets se comprennent mieux dans leur lieu d’origine. Pour le masque de Pakal, ce lieu était cette chambre.\n\nCe que vous voyez est une reconstitution à l’échelle réelle de la crypte du temple des Inscriptions, à Palenque, au Chiapas. La chambre d’origine est en calcaire, et ses parois étaient recouvertes de cristaux de calcium. Ici sont reproduits la dalle sculptée en bas-relief et le sarcophage de pierre, sous une lumière rouge.\n\nSur la dalle principale, le roi apparaît au moment de mourir. Il descend le long du tronc du ceiba sacré vers les mâchoires du Monstre de la Terre, qui est l’entrée de Xibalbá, le monde souterrain maya. On l’interprète comme le début de sa renaissance.\n\nAutour, sur les murs, des reliefs en stuc représentent les Neuf Seigneurs de la Nuit.\n\nOn pense que Pakal fit préparer cette tombe de son vivant. Son fils et successeur, Kan B’ahlam, acheva la pyramide qui la recouvre. Pakal fut enseveli en l’an 683 après Jésus-Christ, et sous la dalle, son squelette était entièrement recouvert de cinabre, un pigment rouge.\n\nLa vraie tombe se trouve toujours à Palenque, à l’intérieur du temple. Ici, vous avez une façon de l’entrevoir."
+    },
+    "retos_observacion": {
+      "hash": "3980197e9f83d425",
+      "texto": [
+        "Cherchez sur la dalle le roi qui descend le long du tronc du ceiba.",
+        "Observez les figures en stuc sur les murs : ce sont les Neuf Seigneurs de la Nuit.",
+        "Regardez comment l’aspect de la pierre change sous la lumière rouge."
+      ]
+    },
+    "especificaciones": {
+      "hash": "e8fc8aaa81a9b96a",
+      "texto": {
+        "Culture": "Maya, Palenque",
+        "Période": "Original du Classique récent (600-900 apr. J.-C.) ; reconstitution muséographique",
+        "Matériau": "Reconstitution à l’échelle réelle d’une chambre en calcaire avec dalle et sarcophage",
+        "Provenance": "Temple des Inscriptions, Palenque, Chiapas",
+        "Dimensions": "Échelle 1:1"
+      }
+    },
+    "faq_mito": {
+      "hash": "ce9ae0ce02f351bd",
+      "texto": {
+        "pregunta": "Mythe : La tombe de Pakal que vous voyez ici est l’originale, rapportée de Palenque.",
+        "respuesta": "Réalité : Il s’agit d’une reconstitution à l’échelle réelle. La vraie crypte se trouve à l’intérieur du temple des Inscriptions, à Palenque."
+      }
+    }
+  }
+}

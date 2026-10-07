@@ -4,15 +4,7 @@
   "idioma": "fr",
   "modelo": "claude-sonnet-5-5",
   "fecha": "2026-10-07",
-  "avisos": {
-    "guion_corto": [
-      "el glosario pide \"Serpent d'eau\" para \"Serpiente de Agua\" y no aparece",
-      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
-    ],
-    "guion_largo": [
-      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
-    ]
-  },
+  "avisos": {},
   "campos": {
     "titulo": {
       "hash": "91ae1238e48b4489",

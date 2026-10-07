@@ -1,0 +1,54 @@
+{
+  "id": "mna_s05_friso_jaguares_coyotes",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3d8e4785420f74d7",
+      "texto": "Frise des Jaguars et des Coyotes"
+    },
+    "frase_gancho": {
+      "hash": "f9b31524d625eb5a",
+      "texto": "Une procession de jaguars et de coyotes, avec des aigles qui dévorent des cœurs."
+    },
+    "puente_narrativo": {
+      "hash": "9705a658f59588e1",
+      "texto": "Nous passons des guerriers de pierre à la salle où se réunissaient les chefs de Tula : une procession de fauves peinte sur une banquette."
+    },
+    "guion_corto": {
+      "hash": "400f9e91d55854c3",
+      "texto": "Une file de jaguars et de coyotes avance vers un même point, et parmi eux des aigles dévorent des cœurs. Voici la Frise des Jaguars et des Coyotes, une banquette de Tula, de culture toltèque, datant du Postclassique ancien. Elle est faite de plaques de roche volcanique sculptées en relief et peintes avec des pigments minéraux, en rouge, bleu, ocre et blanc. Au-dessus, une corniche au corps ondulant d’un Serpent à plumes la couronnait. Elle décorait les banquettes des salles à colonnes du Palacio Quemado. Là se réunissaient le conseil des anciens, les prêtres et les chefs des ordres militaires. Des siècles plus tard, les Mexicas ont reproduit cette solution de façon presque identique dans la Maison des Aigles du Templo Mayor, à Tenochtitlan."
+    },
+    "guion_largo": {
+      "hash": "c4187dfab8ed8e72",
+      "texto": "Un défilé de fauves : voilà ce qu’est cette frise. Des jaguars et des coyotes marchent en file, et parmi eux apparaissent des aigles qui dévorent des cœurs. Tous se dirigent vers un point central.\n\nC’est une banquette de Tula, la ville des Toltèques, datant du Postclassique ancien. Elle est faite de plaques carrées de roche volcanique, sculptées en relief. À l’origine, elles étaient peintes à fresque avec des pigments minéraux, en rouge, bleu, ocre et blanc. Dans la partie haute, une corniche montrait le corps ondulant d’un Serpent à plumes.\n\nCes banquettes décoraient les salles à colonnes du Palacio Quemado. Là se réunissaient le conseil des anciens, les prêtres et les chefs des ordres militaires guerriers de Tula. C’était un lieu de pouvoir, et les murs l’annonçaient avec des animaux de force.\n\nCette solution a eu une longue vie. Des siècles plus tard, les Mexicas l’ont reprise et reproduite de façon presque identique dans la Maison des Aigles du Templo Mayor de Tenochtitlan.\n\nRegardez la frise comme une procession. Suivez du regard la file d’animaux, et comptez combien d’aigles interrompent le défilé."
+    },
+    "retos_observacion": {
+      "hash": "abb4645143355c40",
+      "texto": [
+        "Suivez du regard la file de jaguars et de coyotes.",
+        "Cherchez les aigles qui dévorent des cœurs parmi les animaux.",
+        "Observez les restes de couleur : rouge, bleu, ocre et blanc."
+      ]
+    },
+    "especificaciones": {
+      "hash": "f3334632914e1a3a",
+      "texto": {
+        "Culture": "Toltèque",
+        "Période": "Postclassique ancien (900-1200 apr. J.-C.)",
+        "Matériau": "Plaques de roche volcanique sculptées en relief, avec des restes de pigments minéraux",
+        "Provenance": "Tula, Hidalgo"
+      }
+    },
+    "faq_mito": {
+      "hash": "ce2c629981116673",
+      "texto": {
+        "pregunta": "Mythe : Cette frise a été peinte avec des couleurs modernes pour l’exposition.",
+        "respuesta": "Réalité : À l’origine, elle était peinte à fresque avec des pigments minéraux, en rouge, bleu, ocre et blanc. Ces couleurs font partie de l’œuvre toltèque."
+      }
+    }
+  }
+}

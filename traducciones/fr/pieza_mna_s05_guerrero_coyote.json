@@ -1,0 +1,54 @@
+{
+  "id": "mna_s05_guerrero_coyote",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c4bfa3a5680f6c72",
+      "texto": "Sculpture de guerrier toltèque avec casque de coyote"
+    },
+    "frase_gancho": {
+      "hash": "64f26f7335c9c982",
+      "texto": "Un visage humain qui apparaît entre les mâchoires d’un coyote de pierre."
+    },
+    "puente_narrativo": {
+      "hash": "ff87edaea2bf6f68",
+      "texto": "Nous passons au guerrier qui donne son nom à l’un des ordres militaires de Tula : le Guerrier Coyote."
+    },
+    "guion_corto": {
+      "hash": "efb549e4d54a30ca",
+      "texto": "Un visage humain apparaît entre les mâchoires d’un coyote. Cette sculpture toltèque, de Tula, est un monolithe de basalte sculpté en haut-relief, du Postclassique ancien. Elle représente un officier ou un capitaine de l’élite militaire, paré de ses insignes de combat. Son visage apparaît entre les mâchoires d’une énorme coiffe ou casque en forme de coyote. Il porte un pectoral à la silhouette stylisée d’un papillon, des bracelets, un pagne court et, au-dessus, la figure d’un oiseau en piqué. Elle représente les Guerriers Coyotes, l’un des ordres guerriers les plus influents de Tula, avec les Guerriers Jaguars et les Guerriers Aigles. Cette structure militaire a ensuite été héritée par les armées mexicas."
+    },
+    "guion_largo": {
+      "hash": "502fcc209eb25f7a",
+      "texto": "Un coyote de pierre, et dans ses mâchoires, un visage humain. Voilà comment se présente ce guerrier de Tula.\n\nC’est une sculpture toltèque du Postclassique ancien. C’est un monolithe de basalte, sculpté en haut-relief. Elle représente un officier ou un capitaine de l’élite militaire toltèque, paré de ses insignes de combat.\n\nRegardez la coiffe. C’est un énorme casque en forme de coyote, et le visage du guerrier apparaît par les mâchoires ouvertes. Il porte en outre un pectoral à la silhouette stylisée d’un papillon, papalotl en nahuatl, des bracelets et un pagne court. Dans la partie supérieure se trouve la figure d’un oiseau en piqué.\n\nLe coyote n’est pas un simple ornement. Cette image représente la corporation militaire des Guerriers Coyotes. C’était l’un des ordres guerriers les plus influents de Tula, avec les Guerriers Jaguars et les Guerriers Aigles.\n\nCe sont les mêmes animaux qui défilent sur la frise de cette salle. Les ordres militaires avaient des animaux prédateurs pour emblème, et les murs de Tula les montraient partout.\n\nL’idée a eu une longue vie. Les armées mexicas ont hérité plus tard de cette structure militaire, divisée en ordres d’animaux.\n\nAvant de poursuivre, observez le contraste. La pierre est dure et lourde, mais le visage humain qui apparaît entre les mâchoires a une calme étrange."
+    },
+    "retos_observacion": {
+      "hash": "70482442f1745390",
+      "texto": [
+        "Cherchez le visage humain entre les mâchoires du coyote.",
+        "Regardez le pectoral à la silhouette de papillon.",
+        "Trouvez l’oiseau en piqué dans la partie supérieure."
+      ]
+    },
+    "especificaciones": {
+      "hash": "e95eeb495b158075",
+      "texto": {
+        "Culture": "Toltèque",
+        "Période": "Postclassique ancien (900-1200 apr. J.-C.)",
+        "Matériau": "Basalte sculpté en haut-relief",
+        "Provenance": "Tula, Hidalgo"
+      }
+    },
+    "faq_mito": {
+      "hash": "c950ac6d64aeb990",
+      "texto": {
+        "pregunta": "Mythe : Le coyote du casque était un animal sacré que les Toltèques n’osaient pas toucher.",
+        "respuesta": "Réalité : C’était l’emblème d’un ordre militaire, les Guerriers Coyotes, l’un des plus influents de Tula avec les Guerriers Jaguars et Aigles."
+      }
+    }
+  }
+}

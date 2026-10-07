@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_fardo_candelaria",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae477f12a1b7faf6",
+      "texto": "Paquet funéraire de la grotte de la Candelaria"
+    },
+    "frase_gancho": {
+      "hash": "f43d5003d35085ca",
+      "texto": "Un corps enveloppé de fibres végétales et gardé dans une grotte du désert."
+    },
+    "puente_narrativo": {
+      "hash": "eb41d2623d40e74b",
+      "texto": "Nous quittons la céramique de Paquimé pour les chasseurs-cueilleurs du désert et la manière dont ils prenaient soin de leurs morts."
+    },
+    "guion_corto": {
+      "hash": "ec9d315b39d4697c",
+      "texto": "Imaginez un groupe du désert réuni dans une grotte sèche. Ils ont replié le corps de l’un des leurs, l’ont enveloppé de couches de tissu et l’ont attaché avec des cordes. C’est ainsi que fut réalisé ce paquet funéraire de la grotte de la Candelaria, dans l’État de Coahuila. Il a été préparé par des chasseurs-cueilleurs d’Aridoamérique, dans la Comarca Lagunera, entre 1000 et 1500 après J.-C. Les tissus sont en yucca, en lechuguilla et en coton, et recouvrent un corps momifié. Avec lui furent déposés des sandales, des couteaux en silex à manche de bois, des couvertures à décor géométrique et une coiffe en fibre, le tlacoval. La sécheresse de la grotte a conservé jusqu’à aujourd’hui les fibres, le bois et les cordes. C’étaient des bandes qui vivaient de la chasse et de la cueillette, et pourtant elles ont consacré du temps et de beaux matériaux à faire leurs adieux à leurs morts."
+    },
+    "guion_largo": {
+      "hash": "db07331faf39476a",
+      "texto": "Un paquet funéraire est un ballot : un corps recouvert de couches et de couches de tissu, attaché avec des cordes et accompagné d’objets. Celui-ci vient de la grotte de la Candelaria, dans l’État de Coahuila.\n\nIl a été réalisé par des chasseurs-cueilleurs du désert, dans la région de la Comarca Lagunera, au sein de la tradition que l’on appelle Aridoamérique. Il appartient au Postclassique, entre 1000 et 1500 après J.-C. C’étaient des groupes qui vivaient de ce qu’ils chassaient et cueillaient, et qui se déplaçaient dans un paysage sec et rude.\n\nLe corps était placé très fléchi et enveloppé de couches successives de filets, de nattes fines et de couvertures. Les fibres étaient de yucca, de lechuguilla et de coton. Certaines couvertures portent un décor géométrique peint avec des pigments minéraux. Une ceinture et une coiffe en fibre, appelée tlacoval, complètent l’enveloppe.\n\nAux côtés du corps, on déposait des objets de la vie quotidienne. Il y a des sandales en fibre, des couteaux en silex à manche de bois, des arcs et des flèches à pointe de silex. Il y a aussi des parures de coquillage et de vertèbres de serpent. Tout ce dont un chasseur avait besoin pour marcher, couper et chasser se trouvait là.\n\nCes objets se sont conservés grâce à la grotte. Son extrême sécheresse a arrêté la décomposition des fibres, des cordes et du bois, des matériaux qui survivent presque jamais. Les archéologues pensent que la grotte a servi pendant des siècles de cimetière sacré. Les bandes y revenaient de temps à autre déposer leurs morts, à l’abri de la pluie et du vent.\n\nC’est pourquoi ce paquet est bien plus qu’une sépulture : il montre comment vivaient et comment faisaient leurs adieux aux leurs des bandes du désert."
+    },
+    "retos_observacion": {
+      "hash": "0a59951f7d0c1005",
+      "texto": [
+        "Cherchez les couches de tissu de fibre qui enveloppent le ballot.",
+        "Trouvez les coiffes en fibre appelées tlacovales parmi les objets.",
+        "Regardez bien les sandales et les couteaux à manche de bois."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2b82595c4c23efa6",
+      "texto": {
+        "Culture": "Aridoamérique / Chasseurs-cueilleurs du désert (Comarca Lagunera)",
+        "Période": "Postclassique (1000-1500 apr. J.-C.)",
+        "Matériau": "Fibres végétales tissées (yucca, lechuguilla et coton)",
+        "Provenance": "Grotte de la Candelaria, Coahuila"
+      }
+    },
+    "faq_mito": {
+      "hash": "d9507087d09f2b62",
+      "texto": {
+        "pregunta": "Mythe : Les momies n’existent qu’en Égypte.",
+        "respuesta": "Réalité : Dans la grotte de la Candelaria, dans l’État de Coahuila, des chasseurs-cueilleurs du désert ont enveloppé leurs morts dans des fibres végétales, et les corps se sont conservés à l’état de momies."
+      }
+    }
+  }
+}

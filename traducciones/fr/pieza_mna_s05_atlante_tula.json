@@ -1,0 +1,55 @@
+{
+  "id": "mna_s05_atlante_tula",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "172b2dac9ca0f09c",
+      "texto": "Atlante de Tula"
+    },
+    "frase_gancho": {
+      "hash": "6a81b03fe2687e3e",
+      "texto": "Un guerrier de pierre qui soutenait le toit d’un temple à Tula."
+    },
+    "puente_narrativo": {
+      "hash": "64f059b5e19aaf5c",
+      "texto": "Nous quittons Teotihuacán et arrivons à Tula, la ville des Toltèques, devant l’un de leurs guerriers de pierre."
+    },
+    "guion_corto": {
+      "hash": "a02a01facc7442e3",
+      "texto": "Ce guerrier de pierre a été assemblé à partir de quatre blocs superposés et réunis par un système de mortaise et tenon. C’est un atlante de Tula, une colonne en forme d’être humain, réalisée par les Toltèques au Postclassique ancien. Il provient de la pyramide de Tlahuizcalpantecuhtli, le Seigneur de l’Aube, qui est la planète Vénus. Avec trois autres semblables, il soutenait le toit du temple qui couronnait le soubassement. Il représente un guerrier divinisé de l’élite toltèque. Il porte une coiffe ornée de plumes, des ornements d’oreilles rectangulaires et, sur la poitrine, un pectoral en forme de papillon. Dans la main droite, il tient un atlatl, le propulseur de dards. Dans la gauche, quatre dards. Il faisait partie de l’édifice, et l’édifice reposait sur lui."
+    },
+    "guion_largo": {
+      "hash": "4d3483a828439da0",
+      "texto": "C’est une colonne, mais elle a la forme d’une personne. Il s’agit d’un atlante de Tula, la ville des Toltèques, dans l’actuel État d’Hidalgo. Il appartient au Postclassique ancien et provient de la pyramide de Tlahuizcalpantecuhtli, aussi appelée Temple B.\n\nChaque atlante a été assemblé à partir de quatre blocs de pierre, placés les uns sur les autres. Ils s’unissaient grâce au système de mortaise et tenon : un creux dans une pièce et une saillie dans l’autre, qui s’emboîtaient. Ainsi, la figure s’élevait par tronçons. Elle dépasse de beaucoup la taille d’une personne, et elle a été faite pour soutenir un toit.\n\nObservez le costume. Il porte une coiffe cylindrique ornée de plumes et des ornements d’oreilles rectangulaires. Sur la poitrine, un pectoral en forme de papillon, papalotl en nahuatl. Plus bas, une jupe courte retenue par une ceinture. Dans la main droite, il tient l’atlatl, un propulseur de dards. Dans la gauche, quatre dards et un récipient décoré de motifs de grecques. Sur l’épaule, il porte un couteau courbe, qui est lié au sacrifice des captifs. Dans le dos, il a un disque, le tezcacuitlapilli, orné du Serpent à plumes. Sur les jambes et les pieds subsistent des traces de peinture rouge. Les yeux étaient décorés d’incrustations de coquillage et d’obsidienne.\n\nÀ partir de son costume, les spécialistes proposent qu’il représente un guerrier divinisé de l’élite toltèque. On le rattache au culte de Tlahuizcalpantecuhtli, le Seigneur de l’Aube, qui est la planète Vénus, et à Mixcóatl. Ce que l’on sait, en revanche, c’est sa fonction. Avec trois autres atlantes identiques, il soutenait le toit de bois d’un temple, au sommet du soubassement pyramidal.\n\nL’archéologue Jorge R. Acosta a retrouvé les quatre figures à la fin des années 1930, dans la fosse de la Pyramide B. Trois sont toujours debout sur le site archéologique de Tula. Cet exemplaire a été transféré pour présider la Salle toltèque. Lorsque vous vous éloignerez, imaginez le temple au complet : un toit de bois reposant sur quatre guerriers de pierre."
+    },
+    "retos_observacion": {
+      "hash": "404fd5b16916a15b",
+      "texto": [
+        "Cherchez le pectoral en forme de papillon sur la poitrine.",
+        "Trouvez le propulseur de dards qu’il tient dans la main droite.",
+        "Regardez les jambes : elles conservent des traces de peinture rouge."
+      ]
+    },
+    "especificaciones": {
+      "hash": "0b8eccf904e961d9",
+      "texto": {
+        "Culture": "Toltèque",
+        "Période": "Postclassique ancien (900-1200 apr. J.-C.)",
+        "Provenance": "Tula, Hidalgo (Pyramide de Tlahuizcalpantecuhtli, Temple B)",
+        "Dimensions": "4,83 m de haut x 1,00 m de large x 1,40 m d’épaisseur",
+        "Découverte": "Retrouvé par Jorge R. Acosta à la fin des années 1930, dans la fosse de la Pyramide B"
+      }
+    },
+    "faq_mito": {
+      "hash": "ef87b12e6e6b48d8",
+      "texto": {
+        "pregunta": "Mythe : Chaque atlante est taillé dans un seul rocher gigantesque.",
+        "respuesta": "Réalité : Chaque atlante est assemblé à partir de quatre blocs de pierre superposés, réunis par le système de mortaise et tenon."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s00_espejo_caracol",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fdf2b1be432b9130",
+      "texto": "Le Miroir d’eau et l’Escargot de bronze"
+    },
+    "frase_gancho": {
+      "hash": "d95f260bc1894008",
+      "texto": "Un bassin de joncs et de nénuphars, et un escargot de bronze dans la Cour centrale."
+    },
+    "puente_narrativo": {
+      "hash": "9b157d61e84a9636",
+      "texto": "Nous poursuivons vers l’extrémité de la cour, où un bassin de plantes aquatiques prépare l’entrée de la Salle Mexica."
+    },
+    "guion_corto": {
+      "hash": "6fc73fff2745828c",
+      "texto": "Un bassin, des joncs, des nénuphars et un escargot de bronze : c’est ainsi que la cour se prépare à l’entrée de la Salle Mexica. Le bassin se trouve dans la deuxième section de la Cour centrale du musée, et il a été inauguré le 17 septembre 1964. La cour et le bassin sont l’œuvre de l’architecte Pedro Ramírez Vázquez. L’escargot de bronze est du sculpteur Iker Larrauri. L’eau repose sur un sol de pierre, et tout autour poussent des plantes aquatiques, comme les joncs et les nénuphars. Cette végétation rappelle les lacs de la vallée de Mexico. Dans le bassin se trouve aussi un brûleur à gaz en forme de grecque à degrés. On dit que l’escargot produit des sons semblables à ceux des instruments préhispaniques. C’est un lieu pour regarder, pour écouter et pour avancer lentement."
+    },
+    "guion_largo": {
+      "hash": "4afe284bd053e4ea",
+      "texto": "L’eau de la Cour centrale n’est pas qu’un simple décor. Ici se trouve un bassin à la végétation aquatique, et dans ce bassin, un escargot de bronze.\n\nLa cour et le bassin sont l’œuvre de l’architecte Pedro Ramírez Vázquez, et ils ont été inaugurés en même temps que le musée, le 17 septembre 1964. La sculpture de l’escargot est du sculpteur Iker Larrauri. Le bassin se trouve dans la deuxième section de la Cour centrale, sur un sol de pierre, avec des joncs et des nénuphars qui poussent dans l’eau.\n\nIl y a aussi un brûleur à gaz en forme de grecque à degrés. C’est un détail facile à manquer, et qui reprend un motif de l’architecture ancienne.\n\nL’escargot est en bronze, et on dit qu’il produit des sons semblables à ceux des instruments préhispaniques. C’est pourquoi c’est un objet à regarder, mais aussi à écouter.\n\nBeaucoup des cultures que le musée abrite ont vécu au bord de lacs, surtout dans la vallée de Mexico. Ce bassin, avec ses plantes aquatiques, évoque ce paysage avant d’entrer dans la Salle Mexica.\n\nAvant de poursuivre, arrêtez-vous un instant. Regardez l’eau, cherchez l’escargot et pensez aux lacs qui entouraient les peuples que vous allez découvrir."
+    },
+    "retos_observacion": {
+      "hash": "4dfe64f11d284ce1",
+      "texto": [
+        "Cherchez l’escargot de bronze dans le bassin.",
+        "Regardez les joncs et les nénuphars : ils rappellent les lacs de la vallée de Mexico.",
+        "Trouvez le brûleur à gaz en forme de grecque à degrés."
+      ]
+    },
+    "especificaciones": {
+      "hash": "84db8fe60be4534f",
+      "texto": {
+        "Culture": "Art et intégration plastique moderne mexicains : Pedro Ramírez Vázquez (conception de la cour et du bassin) et Iker Larrauri (sculpture de l’Escargot de bronze)",
+        "Période": "1964 (inauguré le 17 septembre 1964)",
+        "Matériau": "Bassin sur sol de pierre avec végétation aquatique (joncs et nénuphars), brûleur à gaz en forme de grecque à degrés et sculpture de bronze",
+        "Provenance": "Deuxième section de la Cour centrale, Musée national d’anthropologie, Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "5647c0538d0a7f8c",
+      "texto": {
+        "pregunta": "Mythe : Le bassin n’est qu’un simple plan d’eau décoratif.",
+        "respuesta": "Réalité : Ses joncs et ses nénuphars rappellent les lacs de la vallée de Mexico, et l’escargot de bronze est l’œuvre du sculpteur Iker Larrauri."
+      }
+    }
+  }
+}

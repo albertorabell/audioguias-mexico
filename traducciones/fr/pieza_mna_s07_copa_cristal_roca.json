@@ -1,0 +1,54 @@
+{
+  "id": "mna_s07_copa_cristal_roca",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2164cf6a7d49f333",
+      "texto": "Coupe en cristal de roche de la Tombe 7"
+    },
+    "frase_gancho": {
+      "hash": "04c2f03d55867c87",
+      "texto": "Une coupe en quartz transparent, évidée à la main avec des abrasifs et de l’eau."
+    },
+    "puente_narrativo": {
+      "hash": "6b1057bb73d0518b",
+      "texto": "Nous poursuivons avec un autre objet de la Tombe 7 : une coupe en quartz transparent, évidée à la main."
+    },
+    "guion_corto": {
+      "hash": "ce148200b237b055",
+      "texto": "Pour réaliser cette coupe, il a fallu évider un quartz transparent à la main, avec des abrasifs fins et de l’eau. C’est une coupe en cristal de roche, un quartz hyalin, sculptée, évidée et polie. Elle est mixtèque et appartient au Postclassique récent, entre les années 1200 et 1521 après Jésus-Christ. L’archéologue Alfonso Caso l’a découverte le 9 janvier 1932 dans la Tombe 7 de Monte Albán. Elle faisait partie du célèbre trésor de cette tombe, l’une des découvertes les plus somptueuses des Amériques. Elle montre la maîtrise des artisans mixtèques dans le travail de minéraux d’une extrême dureté. On pense qu’il s’agissait d’un récipient cérémoniel, destiné aux libations ou à la consommation sacrée de cacao."
+    },
+    "guion_largo": {
+      "hash": "d1934c2b24005464",
+      "texto": "Cette coupe renferme un paradoxe. Elle est faite de quartz transparent, l’un des minéraux les plus durs, et pourtant elle a été évidée à la main. C’est une coupe en cristal de roche, c’est-à-dire en quartz hyalin.\n\nLes artisans mixtèques l’ont sculptée, évidée et polie avec des abrasifs fins et de l’eau. Elle appartient au Postclassique récent, entre les années 1200 et 1521 après Jésus-Christ.\n\nL’archéologue Alfonso Caso l’a découverte le 9 janvier 1932, dans la Tombe 7 de Monte Albán. Elle faisait partie du célèbre trésor de cette tombe, l’une des découvertes les plus somptueuses des Amériques.\n\nOn pense qu’il s’agissait d’un récipient cérémoniel, destiné aux libations ou à la consommation sacrée de cacao.\n\nLa Tombe 7 a été construite par les Zapotèques. Des siècles plus tard, les Mixtèques l’ont réutilisée pour y ensevelir leurs dignitaires. Ils les ont entourés de centaines de bijoux en or, en argent, en turquoise, en ambre, en perles et en jade, ainsi que de récipients en cristal de roche comme celui-ci.\n\nLorsque vous la regarderez, pensez à la dureté du matériau et à la patience qu’il a fallu. Transformer un quartz en coupe témoigne de la maîtrise des artisans mixtèques."
+    },
+    "retos_observacion": {
+      "hash": "afe7e91f3744be83",
+      "texto": [
+        "Cherchez la transparence du quartz : on voit à travers la coupe.",
+        "Remarquez le poli lisse de toute la surface.",
+        "Comparez son aspect avec l’or et la turquoise des vitrines voisines."
+      ]
+    },
+    "especificaciones": {
+      "hash": "14afc29308694a68",
+      "texto": {
+        "Culture": "Mixtèque (offrande déposée dans une tombe zapotèque)",
+        "Période": "Postclassique récent (1200-1521 apr. J.-C.) ; découverte le 9 janvier 1932",
+        "Matériau": "Cristal de roche (quartz hyalin)",
+        "Provenance": "Tombe 7, Monte Albán, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "3000d5602909f16c",
+      "texto": {
+        "pregunta": "Mythe : La coupe en cristal de roche est faite de verre.",
+        "respuesta": "Réalité : C’est du quartz hyalin, sculpté, évidé et poli à la main avec des abrasifs fins et de l’eau."
+      }
+    }
+  }
+}

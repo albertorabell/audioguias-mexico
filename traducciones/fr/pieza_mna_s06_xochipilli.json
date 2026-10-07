@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_xochipilli",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "96291c66d60f4284",
+      "texto": "Xochipilli"
+    },
+    "frase_gancho": {
+      "hash": "a9579dc97ccae93c",
+      "texto": "Un dieu assis dont la peau est couverte de fleurs gravées."
+    },
+    "puente_narrativo": {
+      "hash": "65ca5b9dfbe0eb90",
+      "texto": "Nous laissons les armes et les ordres guerriers pour entrer dans le monde de l’art, du chant et des fleurs, avec une sculpture à l’air serein."
+    },
+    "guion_corto": {
+      "hash": "0637e03ee26dfb06",
+      "texto": "Qu’a-t-il gravé sur la peau, ce jeune homme assis ? Des fleurs, et ce n’est pas une simple parure. C’est Xochipilli, ou Xochipilli-Macuilxóchitl, le Prince des Fleurs, dieu des arts, de la musique, du chant, de la poésie, de la danse et du jeu. Il est assis les jambes croisées sur un piédestal décoré de fleurs et de papillons. Sa tête est rejetée en arrière et sa bouche est ouverte, comme s’il chantait ou était en extase. Sur son corps sont sculptés la fleur de tabac, le datura, la liane de l’ololiuhqui et des champignons sacrés, des plantes utilisées dans les rituels. Il a été découvert au pied du volcan Iztaccíhuatl, aux abords de Tlalmanalco, dans l’État de Mexico. C’est une sculpture du Postclassique récent."
+    },
+    "guion_largo": {
+      "hash": "948027d662970e72",
+      "texto": "Xochipilli signifie Prince des Fleurs, et cette sculpture le montre comme un jeune dieu, assis, le corps couvert de fleurs. Elle a été découverte au pied du volcan Iztaccíhuatl, aux abords de Tlalmanalco, dans l’État de Mexico. C’est une œuvre du Postclassique récent du Haut Plateau central.\n\nOn l’appelle aussi Xochipilli-Macuilxóchitl. Il était le protecteur de la noblesse et de tout ce qui réjouit la vie. Cela comprend les arts, la musique, le chant, la poésie, la danse, le jeu et le plaisir.\n\nLa figure est assise, les jambes croisées, sur un piédestal richement décoré. On y voit le signe de la chaleur solaire, des perles de jade, des fleurs et des papillons. Le dieu porte un masque de peau, un pectoral, des bracelets, des bracelets de cheville et un máxtlatl, le pagne qui couvrait la taille. La tête s’incline vers l’arrière et la bouche s’ouvre, dans un geste de chant ou d’extase.\n\nCe qui frappe le plus, c’est son corps. Il est couvert de reliefs de plantes sacrées : la fleur de tabac, le datura, la liane de l’ololiuhqui et des champignons. Les Mexicas les utilisaient dans leurs rituels pour atteindre la transe. C’est pourquoi on pense que la sculpture montre un état d’extase religieuse, celui de celui qui chante et parle avec les dieux. C’est une lecture qui s’accorde avec la posture, le geste et les plantes.\n\nÀ l’arrière de la coiffe se trouve un signe de la chaleur solaire, le tonalli. Selon la tradition, ses cercles et ses barres symbolisent les directions de l’univers. Ainsi, le dieu des fleurs apparaît uni au Soleil et au cosmos."
+    },
+    "retos_observacion": {
+      "hash": "e1cb120f47b90e52",
+      "texto": [
+        "Cherchez les fleurs et les plantes gravées sur le corps de la figure.",
+        "Observez la tête inclinée vers l’arrière et la bouche ouverte.",
+        "Regardez le piédestal : cherchez les fleurs et les papillons sculptés."
+      ]
+    },
+    "especificaciones": {
+      "hash": "cc7423b47def2898",
+      "texto": {
+        "Culture": "Mexica / Chalca",
+        "Période": "Postclassique récent (1200-1521 apr. J.-C.)",
+        "Matériau": "Andésite",
+        "Provenance": "Tlalmanalco, État de Mexico",
+        "Dimensions": "117 cm de haut x 55 cm de large x 45 cm d’épaisseur"
+      }
+    },
+    "faq_mito": {
+      "hash": "709a0cc6662d436f",
+      "texto": {
+        "pregunta": "Mythe : Les fleurs gravées sur son corps ne sont qu’un simple ornement.",
+        "respuesta": "Réalité : Elles représentent des plantes sacrées, comme la fleur de tabac, le datura, l’ololiuhqui et les champignons, liées aux rituels de transe."
+      }
+    }
+  }
+}

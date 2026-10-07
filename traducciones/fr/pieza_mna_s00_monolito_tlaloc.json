@@ -1,0 +1,52 @@
+{
+  "id": "mna_s00_monolito_tlaloc",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7ac6bf97626991ab",
+      "texto": "Monolithe de Tláloc"
+    },
+    "frase_gancho": {
+      "hash": "5aa96a490b25ef42",
+      "texto": "Tláloc, dieu de la pluie, devenu pierre volcanique et amené depuis Coatlinchan."
+    },
+    "puente_narrativo": {
+      "hash": "f4819ff0d886b240",
+      "texto": "Nous commençons à l’extérieur du musée, avec le dieu de l’eau sculpté dans la pierre volcanique qui accueille les visiteurs."
+    },
+    "guion_corto": {
+      "hash": "09c57e42cfb1c8f9",
+      "texto": "Tláloc est le nom nahuatl du dieu de la pluie. Cette sculpture le représente, et les anciens peuples nahuas le vénéraient comme le dieu de l’eau. Elle est taillée dans la pierre volcanique et provient de San Miguel Coatlinchan, dans l’État de Mexico. C’est une statue gigantesque, et il suffit de la voir pour comprendre pourquoi. Elle est arrivée à Mexico dans les années soixante du vingtième siècle. Aujourd’hui, elle accueille les visiteurs à l’extérieur du bâtiment, à ciel ouvert, et sa taille se remarque de loin. Certains chercheurs ont proposé qu’il puisse s’agir de Chalchiuhtlicue, une divinité féminine de l’eau. C’est une proposition, pas une conclusion. Ce qui est sûr, c’est qu’elle parle de l’eau, de ce dont la terre a besoin pour donner la vie."
+    },
+    "guion_largo": {
+      "hash": "39d6298618e7fe81",
+      "texto": "Tláloc est le dieu de l’eau pour les anciens peuples nahuas. En nahuatl, son nom se comprend comme dieu de la pluie. Voici son image, taillée dans la pierre volcanique, et elle accueille les visiteurs avant qu’ils n’entrent dans le musée. Sa taille est la première chose que l’on remarque, et il convient de la mesurer du regard, en la comparant aux personnes qui passent à côté d’elle.\n\nLa pierre provient de San Miguel Coatlinchan, dans l’État de Mexico. Elle s’y trouvait avant d’arriver au bois de Chapultepec. Son transfert a eu lieu dans les années soixante du vingtième siècle, et l’année est donnée tantôt comme 1963, tantôt comme 1964. Pensez à ce que signifie déplacer une pierre de cette taille d’un village jusqu’à une ville. Les références les plus répétées parlent d’environ 168 tonnes et de sept mètres de haut.\n\nCertains chercheurs ont proposé que cette figure ne soit pas Tláloc, mais Chalchiuhtlicue, une divinité féminine de l’eau. C’est une proposition et non une conclusion. Dans l’un comme dans l’autre cas, le thème est le même : l’eau, dont dépend tout ce qui vit.\n\nOn date habituellement la sculpture entre le quatrième et le sixième siècle après Jésus-Christ, et on la rattache à Teotihuacán. C’est une hypothèse. Qui l’a taillée, et quelles cérémonies l’ont entourée, restent des questions ouvertes.\n\nLa sculpture se trouve à ciel ouvert, et cela a sa logique : un dieu de l’eau exposé au ciel, aux nuages et à la pluie. S’il pleut pendant que vous la visitez, peut-être la pierre vous semblera-t-elle dans son élément."
+    },
+    "retos_observacion": {
+      "hash": "8d0516bd69cfbdd4",
+      "texto": [
+        "Mesurez du regard la figure entière et comparez-la aux personnes qui passent à proximité.",
+        "Observez la pierre volcanique : cherchez s’il y a des jointures, ou s’il s’agit d’un seul bloc.",
+        "Cherchez les traits par lesquels on représente un dieu de l’eau et de la pluie."
+      ]
+    },
+    "especificaciones": {
+      "hash": "b68c5f5d8addbb76",
+      "texto": {
+        "Matériau": "Pierre volcanique",
+        "Provenance": "San Miguel Coatlinchan, État de Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "3aba2b3cf1e1e2e5",
+      "texto": {
+        "pregunta": "Mythe : Cette grande sculpture est une œuvre moderne, réalisée pour décorer l’entrée du musée.",
+        "respuesta": "Réalité : C’est une sculpture préhispanique qui représente Tláloc. Elle provient de San Miguel Coatlinchan, dans l’État de Mexico, et a été transférée au musée."
+      }
+    }
+  }
+}
