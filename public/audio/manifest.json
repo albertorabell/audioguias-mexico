@@ -812,6 +812,24 @@
           "provider": "azure"
         }
       },
+      "mna_s06_penacho_moctezuma": {
+        "corto": {
+          "hash": "fbeaef573fdd397c",
+          "file": "es/mna_s06_penacho_moctezuma_corto.mp3",
+          "remote": false,
+          "seconds": 46,
+          "bytes": 273744,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9c512345ccdb5014",
+          "file": "es/mna_s06_penacho_moctezuma_largo.mp3",
+          "remote": false,
+          "seconds": 84,
+          "bytes": 506016,
+          "provider": "azure"
+        }
+      },
       "mna_s06_piedra_sol": {
         "corto": {
           "hash": "2b38731f5bbfb5c6",
@@ -2277,6 +2295,14 @@
           "remote": false,
           "seconds": 65,
           "bytes": 387216,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "90bc5d93b1a8f2c5",
+          "file": "es/mna_s20_mascara_chapayeka_largo.mp3",
+          "remote": false,
+          "seconds": 166,
+          "bytes": 997488,
           "provider": "azure"
         }
       },
