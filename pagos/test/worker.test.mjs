@@ -47,7 +47,7 @@ beforeEach(() => {
     STRIPE_SECRET_KEY: 'sk_test_x',
     TOKEN_SECRET: SECRET,
     PASES: new FakeKV(),
-    AUDIO: new FakeR2({ 'es/p01_corto.mp3': Buffer.from('0123456789ABCDEFGHIJ') }),
+    AUDIO: new FakeR2({ 'pago/es/p01_corto.mp3': Buffer.from('0123456789ABCDEFGHIJ'), 'libre/es/p00_corto.mp3': Buffer.from('LIBRE-LIBRE') }),
   };
   stripeCalls = [];
   const now = Math.floor(Date.now() / 1000);
@@ -242,14 +242,32 @@ test('/config lee los precios reales de Stripe', async () => {
   assert.equal(d.maxDevices, 2);
 });
 
-test('/audio: sin clave o con clave falsa → 401; con clave → MP3', async () => {
-  const none = await call('/audio/es/p01_corto.mp3', { method: 'GET', origin: null });
+test('/audio/libre: público (sin clave), con Range, caché pública; no sirve nada de pago/ ni de otra carpeta', async () => {
+  const ok = await call('/audio/libre/es/p00_corto.mp3', { method: 'GET', origin: ORIGIN });
+  assert.equal(ok.status, 200);
+  assert.equal(ok.headers.get('Content-Type'), 'audio/mpeg');
+  assert.equal(ok.headers.get('Cache-Control'), 'public, max-age=86400');
+  assert.equal(ok.headers.get('Access-Control-Allow-Origin'), ORIGIN);
+  assert.equal(Buffer.from(await ok.arrayBuffer()).toString(), 'LIBRE-LIBRE');
+  const part = await call('/audio/libre/es/p00_corto.mp3', { method: 'GET', origin: null, headers: { Range: 'bytes=0-4' } });
+  assert.equal(part.status, 206);
+  assert.equal(Buffer.from(await part.arrayBuffer()).toString(), 'LIBRE');
+  // un audio de pago NO se puede pedir por la ruta libre (no existe en libre/), ni la ruta vieja sin carpeta
+  assert.equal((await call('/audio/libre/es/p01_corto.mp3', { method: 'GET', origin: null })).status, 404);
+  assert.equal((await call('/audio/es/p00_corto.mp3', { method: 'GET', origin: null })).status, 404);
+  assert.equal((await call('/audio/libre/es/..%2Fpago%2Fes%2Fp01_corto.mp3', { method: 'GET', origin: null })).status, 404);
+  assert.equal((await call('/audio/libre/xx/p00_corto.mp3', { method: 'GET', origin: null })).status, 404);
+});
+
+test('/audio/pago: sin clave o con clave falsa → 401; con clave → MP3', async () => {
+  const none = await call('/audio/pago/es/p01_corto.mp3', { method: 'GET', origin: null });
   assert.equal(none.status, 401);
-  const fake = await call('/audio/es/p01_corto.mp3?t=basura', { method: 'GET', origin: null });
+  assert.equal(none.headers.get('Cache-Control') === 'public, max-age=86400', false);
+  const fake = await call('/audio/pago/es/p01_corto.mp3?t=basura', { method: 'GET', origin: null });
   assert.equal(fake.status, 401);
 
   const a = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } })).json();
-  const ok = await call(`/audio/es/p01_corto.mp3?t=${encodeURIComponent(a.token)}`, { method: 'GET', origin: null });
+  const ok = await call(`/audio/pago/es/p01_corto.mp3?t=${encodeURIComponent(a.token)}`, { method: 'GET', origin: null });
   assert.equal(ok.status, 200);
   assert.equal(ok.headers.get('Content-Type'), 'audio/mpeg');
   assert.equal(ok.headers.get('Accept-Ranges'), 'bytes');
@@ -259,20 +277,20 @@ test('/audio: sin clave o con clave falsa → 401; con clave → MP3', async () 
 test('/audio: soporta Range (adelantar/retroceder) y archivos que no existen', async () => {
   const a = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } })).json();
   const t = encodeURIComponent(a.token);
-  const part = await call(`/audio/es/p01_corto.mp3?t=${t}`, { method: 'GET', origin: ORIGIN, headers: { Range: 'bytes=5-9' } });
+  const part = await call(`/audio/pago/es/p01_corto.mp3?t=${t}`, { method: 'GET', origin: ORIGIN, headers: { Range: 'bytes=5-9' } });
   assert.equal(part.status, 206);
   assert.equal(part.headers.get('Content-Range'), 'bytes 5-9/20');
   assert.equal(Buffer.from(await part.arrayBuffer()).toString(), '56789');
   assert.equal(part.headers.get('Access-Control-Allow-Origin'), ORIGIN);
-  const missing = await call(`/audio/es/p99_corto.mp3?t=${t}`, { method: 'GET', origin: null });
+  const missing = await call(`/audio/pago/es/p99_corto.mp3?t=${t}`, { method: 'GET', origin: null });
   assert.equal(missing.status, 404);
-  const traversal = await call(`/audio/es/..%2Fx_corto.mp3?t=${t}`, { method: 'GET', origin: null });
+  const traversal = await call(`/audio/pago/es/..%2Fx_corto.mp3?t=${t}`, { method: 'GET', origin: null });
   assert.equal(traversal.status, 404);
 });
 
 test('/audio: una clave vencida no sirve', async () => {
   const old = await signToken({ site: 'mna', dev: DEV1, exp: Date.now() - 1000 }, SECRET);
-  assert.equal((await call(`/audio/es/p01_corto.mp3?t=${encodeURIComponent(old)}`, { method: 'GET', origin: null })).status, 401);
+  assert.equal((await call(`/audio/pago/es/p01_corto.mp3?t=${encodeURIComponent(old)}`, { method: 'GET', origin: null })).status, 401);
 });
 
 test('sin secretos configurados, los pagos responden 503 (no se rompe nada)', async () => {
@@ -335,7 +353,7 @@ test('/config: si Stripe falla responde 502 sin guardar en caché', async () => 
 
 test('/audio: todos los tipos de Range (final abierto, últimos N bytes, recortado, inválido, fuera del archivo, HEAD)', async () => {
   const a = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1 } })).json();
-  const url = `/audio/es/p01_corto.mp3?t=${encodeURIComponent(a.token)}`;
+  const url = `/audio/pago/es/p01_corto.mp3?t=${encodeURIComponent(a.token)}`;
   const get = (range, method = 'GET') => call(url, { method, origin: null, headers: range ? { Range: range } : {} });
   const body = async (r) => Buffer.from(await r.arrayBuffer()).toString();
 

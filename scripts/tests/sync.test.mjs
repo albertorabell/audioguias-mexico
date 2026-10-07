@@ -42,7 +42,6 @@ function makeProject({ withManifest }) {
 
   if (withManifest) {
     fs.mkdirSync(path.join(dir, 'public/audio/es'), { recursive: true });
-    fs.writeFileSync(path.join(dir, 'public/audio/es/p00_corto.mp3'), 'x');
     const manifest = {
       version: 1,
       items: {
@@ -51,11 +50,11 @@ function makeProject({ withManifest }) {
             corto: { hash: textHash('Corto 0.'), file: 'es/p00_corto.mp3', seconds: 3 }, // gratis y vigente: se une
             largo: { hash: textHash('otro texto'), file: 'es/p00_largo.mp3' },            // texto cambió: no se une
           },
-          p02: { corto: { hash: textHash('Corto 2.'), file: 'es/p02_corto.mp3', remote: true } }, // gratis pero remoto: no se une
-          p01: { corto: { hash: textHash('Corto 1.'), file: 'es/p01_corto.mp3', remote: true } }, // de pago y remoto: se une
+          p02: { corto: { hash: textHash('Corto 2.'), file: 'es/p02_corto.mp3', remote: true } }, // la pieza es gratis pero el audio se generó de pago: no se une
+          p01: { corto: { hash: textHash('Corto 1.'), file: 'es/p01_corto.mp3', remote: true } }, // de pago: se une (carpeta pago/)
           fantasma: { corto: { hash: 'x', file: 'es/fantasma_corto.mp3' } },
         },
-        en: { p00: { corto: { hash: textHash('Short 0.'), file: 'en/p00_corto.mp3' } } },       // el archivo no existe: no se une
+        en: { p00: { corto: { hash: textHash('Short 0 viejo.'), file: 'en/p00_corto.mp3' } } }, // el texto en inglés cambió: no se une
       },
     };
     fs.writeFileSync(path.join(dir, 'public/audio/manifest.json'), JSON.stringify(manifest));
@@ -91,13 +90,13 @@ test('traducciones: solo aparecen las que tienen texto', () => {
   assert.equal(pieces.some((p) => 'audio' in p), false);
 });
 
-test('audio: solo se unen MP3 vigentes, que existen y con el tipo correcto', () => {
+test('audio: solo se unen MP3 vigentes y con el tipo correcto; la ruta apunta a libre/ o pago/ de R2', () => {
   const dir = makeProject({ withManifest: true });
   const log = runSync(dir);
   const pieces = read(dir, 'pieces.json');
   const by = (id) => pieces.find((p) => p.piece_id === id);
-  assert.deepEqual(by('p00').audio, { es: { corto: { path: 'audio/es/p00_corto.mp3', remote: false, seconds: 3 } } });
-  assert.deepEqual(by('p01').audio, { es: { corto: { path: 'es/p01_corto.mp3', remote: true } } });
+  assert.deepEqual(by('p00').audio, { es: { corto: { path: 'libre/es/p00_corto.mp3', premium: false, seconds: 3 } } });
+  assert.deepEqual(by('p01').audio, { es: { corto: { path: 'pago/es/p01_corto.mp3', premium: true } } });
   assert.equal('audio' in by('p02'), false);
   assert.ok(log.includes('Audios unidos') || log.includes('Audios MP3 unidos a las piezas: 2'), log);
 });

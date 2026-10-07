@@ -358,7 +358,7 @@ function buildPieces(items) {
 }
 
 /**
- * Une los MP3 generados (public/audio/manifest.json) con las piezas.
+ * Une los MP3 generados (public/audio/manifest.json; los archivos están en R2) con las piezas.
  * Un MP3 solo se usa si su texto sigue siendo igual al del Sheets; si no, la app usa la voz del teléfono.
  */
 function attachAudio(pieces, warn) {
@@ -386,10 +386,6 @@ function attachAudio(pieces, warn) {
           warn('Audios desactualizados: el texto cambió y el MP3 ya no coincide (se usa la voz del teléfono hasta regenerarlo)', `${lang}/${pieceId} ${mode}`);
           continue;
         }
-        if (!e.remote && !fs.existsSync(path.join(AUDIO_DIR, e.file))) {
-          warn('Audios en el manifiesto que no están en public/audio', e.file);
-          continue;
-        }
         if (Boolean(e.remote) === Boolean(piece.is_free)) {
           warn('Audios cuyo tipo (gratis / de pago) ya no coincide con la pieza: vuelve a generarlos', `${lang}/${pieceId} ${mode}`);
           continue;
@@ -397,8 +393,9 @@ function attachAudio(pieces, warn) {
         piece.audio ||= {};
         piece.audio[lang] ||= {};
         piece.audio[lang][mode] = {
-          path: e.remote ? e.file : `audio/${e.file}`,
-          remote: Boolean(e.remote),
+          // Todos los MP3 viven en R2: libre/<idioma>/... (piezas gratis, sin clave) o pago/<idioma>/... (con pase)
+          path: `${e.remote ? 'pago' : 'libre'}/${e.file}`,
+          premium: Boolean(e.remote),
           ...(e.seconds ? { seconds: e.seconds } : {}),
         };
         attached++;

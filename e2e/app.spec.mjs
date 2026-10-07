@@ -50,7 +50,8 @@ test('idioma: en español no aparece el aviso de traducción', async ({ page }) 
 
 // ───────────────────────── MP3 ─────────────────────────
 
-test('MP3 gratis: se reproduce el archivo de la pieza (no la voz del teléfono)', async ({ page }) => {
+test('MP3 gratis: se reproduce el archivo de la pieza desde la carpeta libre/ del servidor de audio, sin clave (no la voz del teléfono)', async ({ page }) => {
+  await simularCobro(page);
   await simularAudio(page);
   await sinVoces(page);
   await page.goto('/');
@@ -58,7 +59,7 @@ test('MP3 gratis: se reproduce el archivo de la pieza (no la voz del teléfono)'
   await page.locator('#btn-master-play-piece').click();
   await expect.poll(() => page.evaluate(() => window.__plays.length)).toBeGreaterThan(0);
   const plays = await page.evaluate(() => window.__plays);
-  expect(plays[0]).toBe(`http://localhost:4173/audio/es/${FREE.id}_corto.mp3`);
+  expect(plays[0]).toBe(`https://pagos.test/audio/libre/es/${FREE.id}_corto.mp3`);
 });
 
 test('MP3 de pago: sin pase la pieza está bloqueada y abre la ventana de pago', async ({ page }) => {
@@ -121,7 +122,7 @@ test('regreso de Stripe: confirma el pago, guarda el pase, limpia la dirección 
   await page.locator('#btn-master-play-piece').click();
   await expect.poll(() => page.evaluate(() => window.__plays.length)).toBeGreaterThan(0);
   const plays = await page.evaluate(() => window.__plays);
-  expect(plays[0]).toBe(`https://pagos.test/audio/es/${PREMIUM.id}_corto.mp3?t=${TOKEN}`);
+  expect(plays[0]).toBe(`https://pagos.test/audio/pago/es/${PREMIUM.id}_corto.mp3?t=${TOKEN}`);
 });
 
 test('regreso de Stripe cuando Stripe aún no confirma: el pago queda pendiente y se avisa', async ({ page }) => {

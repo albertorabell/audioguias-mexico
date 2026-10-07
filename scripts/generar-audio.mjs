@@ -18,20 +18,22 @@
 //   --reubicar              solo mueve archivos de lugar si una pieza pasó de gratis a pago (o al revés); no genera
 //
 // Dónde quedan los archivos:
-//   piezas GRATIS → public/audio/<idioma>/<pieza>_<modo>.mp3   (se publican con el sitio)
-//   piezas de PAGO → audio-premium/<idioma>/...                 (NO se publican; se suben al servidor de audio con el pase)
-// public/audio/manifest.json guarda la huella de cada texto: si el texto cambia en el Sheets, el MP3 viejo
-// deja de usarse (la app vuelve a la voz del teléfono) hasta que lo regeneres.
+//   TODOS los MP3 se generan en audio-generado/<idioma>/<pieza>_<modo>.mp3 (carpeta que NO se guarda en git ni se publica)
+//   y luego scripts/subir-audio.mjs los sube a Cloudflare R2: libre/ (piezas gratis) o pago/ (piezas de pago).
+// public/audio/manifest.json guarda la huella de cada texto y si la pieza es gratis o de pago: si el texto cambia en el Sheets,
+// el MP3 viejo deja de usarse (la app vuelve a la voz del teléfono) hasta que lo regeneres.
+// --reubicar mueve en R2 (libre/ ↔ pago/) los audios de piezas que cambiaron de tipo; no genera nada ni cuesta voz.
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { MODES, AUDIO_LANGS, planAudio, splitText, mp3Duration, silentMp3, REFERENCE_PRICE_USD_PER_MILLION_CHARS } from './audio-lib.mjs';
+import { GENERATED_DIR, relocateInR2, wranglerR2, r2Key } from './r2-lib.mjs';
 import { loadPronunciations, toSsmlInner, PRONUNCIATION_FILE } from './pronunciacion-lib.mjs';
 
 const ROOT = process.cwd();
 const PIECES_FILE = path.join(ROOT, 'public/data/pieces.json');
-const PUBLIC_AUDIO = path.join(ROOT, 'public/audio');
-const PREMIUM_AUDIO = path.join(ROOT, 'audio-premium');
+const PUBLIC_AUDIO = path.join(ROOT, 'public/audio'); // aquí solo vive el manifiesto; los MP3 están en R2
+const GENERATED_AUDIO = path.join(ROOT, GENERATED_DIR);
 const MANIFEST_FILE = path.join(PUBLIC_AUDIO, 'manifest.json');
 
 // ---------------------------------------------------------------------------
@@ -210,13 +212,12 @@ function writeManifest(m) {
   fs.writeFileSync(MANIFEST_FILE, JSON.stringify(sorted, null, 2) + '\n', 'utf-8');
 }
 
-const fileFor = (remote, rel) => path.join(remote ? PREMIUM_AUDIO : PUBLIC_AUDIO, rel);
 const relName = (lang, id, mode) => `${lang}/${id}_${mode}.mp3`;
 
-function moveFile(from, to) {
-  fs.mkdirSync(path.dirname(to), { recursive: true });
-  fs.copyFileSync(from, to);
-  fs.unlinkSync(from);
+function needCloudflare() {
+  if (!process.env.CLOUDFLARE_API_TOKEN || !process.env.CLOUDFLARE_ACCOUNT_ID) {
+    throw new Error('Para mover audios de carpeta en R2 faltan CLOUDFLARE_API_TOKEN y CLOUDFLARE_ACCOUNT_ID (ver docs/IDIOMA_MP3_COBRO.md).');
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -237,27 +238,20 @@ async function main() {
     force: args.forzar,
   });
 
-  // 1) Mover de lugar los audios cuyo tipo (gratis / de pago) cambió. No cuesta nada.
-  //    Solo se hace al generar o con --reubicar; la vista previa nunca toca archivos.
+  // 1) Mover de carpeta en R2 (libre/ ↔ pago/) los audios cuyo tipo (gratis / de pago) cambió. No cuesta nada de voz.
+  //    Solo se hace al generar o con --reubicar; la vista previa nunca toca nada.
   const doMoves = args.generar || args.reubicar;
   if (!doMoves && plan.move.length) {
-    console.log(`ℹ️  ${plan.move.length} audio(s) cambiaron de tipo (gratis ↔ de pago) y hay que cambiarlos de carpeta. Corre con --reubicar (no cuesta nada).`);
+    console.log(`ℹ️  ${plan.move.length} audio(s) cambiaron de tipo (gratis ↔ de pago) y hay que cambiarlos de carpeta en R2. Corre con --reubicar (no cuesta nada).`);
   }
-  for (const m of doMoves ? plan.move : []) {
-    const rel = relName(m.lang, m.pieceId, m.mode);
-    const from = fileFor(Boolean(m.from.remote), rel);
-    const to = fileFor(m.remote, rel);
-    if (fs.existsSync(from)) {
-      moveFile(from, to);
-      manifest.items[m.lang][m.pieceId][m.mode].remote = m.remote;
-      console.log(`↪ ${rel}: ahora es ${m.remote ? 'de pago (audio-premium/)' : 'gratis (public/audio/)'}`);
-    } else {
-      console.warn(`⚠️  ${rel}: el manifiesto lo da por existente pero no está en ${m.from.remote ? 'audio-premium/' : 'public/audio/'}. Hay que regenerarlo con --forzar.`);
-    }
+  if (doMoves && plan.move.length) {
+    needCloudflare();
+    const { moved, failed } = relocateInR2(plan.move, manifest, wranglerR2());
+    if (moved) writeManifest(manifest);
+    if (failed.length) process.exitCode = 1;
   }
-  if (doMoves && plan.move.length) writeManifest(manifest);
   if (args.reubicar) {
-    console.log(`Listo: ${plan.move.length} archivo(s) reubicado(s).`);
+    console.log(`Listo: ${plan.move.length} archivo(s) revisado(s) para reubicar.`);
     return;
   }
 
@@ -269,7 +263,7 @@ async function main() {
   console.log(`  Idiomas: ${args.lang.join(', ')} · Modos: ${args.modo.join(', ')} · Piezas: ${args.piezas ? args.piezas.length : 'todas'} · Tipo: ${args.solo}`);
   console.log(`  Ya están al día (se omiten): ${plan.keep.length}`);
   if (plan.skipped.length) console.log(`  Sin texto en ese idioma (se omiten): ${plan.skipped.length}`);
-  console.log(`  Por generar: ${plan.todo.length}${plan.pending > plan.todo.length ? ` (de ${plan.pending}; límite ${args.limite})` : ''}  → ${free} gratis y ${plan.todo.length - free} de pago`);
+  console.log(`  Por generar: ${plan.todo.length}${plan.pending > plan.todo.length ? ` (de ${plan.pending}; límite ${args.limite})` : ''}  → ${free} libres y ${plan.todo.length - free} de pago`);
   console.log(`  Caracteres a leer: ${plan.chars.toLocaleString('es-MX')}`);
   console.log(`  Proveedor: ${PROVIDERS[args.proveedor].label} · costo aproximado ≈ US$ ${est.toFixed(2)} (precio de referencia US$ ${price} por millón de caracteres; confirma el precio vigente en la página del proveedor)`);
 
@@ -295,12 +289,16 @@ async function main() {
       const mp3 = await synthesize(provider, item.script, { lang: item.lang });
       const seconds = mp3Duration(mp3);
       if (!seconds) throw new Error('el proveedor devolvió algo que no es un MP3');
-      const dest = fileFor(item.remote, rel);
+      const dest = path.join(GENERATED_AUDIO, rel);
       fs.mkdirSync(path.dirname(dest), { recursive: true });
       fs.writeFileSync(dest, mp3);
-      // Si la pieza cambió de tipo, el archivo viejo del otro lugar se borra para no dejar copias de pago a la vista
-      const other = fileFor(!item.remote, rel);
-      if (fs.existsSync(other)) fs.unlinkSync(other);
+      // Si la pieza cambió de tipo, la copia vieja de la otra carpeta de R2 se borra al subir (así no queda una copia de pago a la vista)
+      if (item.from && Boolean(item.from.remote) !== item.remote) {
+        const f = path.join(GENERATED_AUDIO, '_borrar.json');
+        const list = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf-8')) : [];
+        list.push(r2Key(Boolean(item.from.remote), rel));
+        fs.writeFileSync(f, JSON.stringify(list));
+      }
       manifest.items[item.lang] ||= {};
       manifest.items[item.lang][item.pieceId] ||= {};
       manifest.items[item.lang][item.pieceId][item.mode] = {
@@ -327,7 +325,7 @@ async function main() {
   if (done) {
     console.log('Siguientes pasos:');
     console.log('  1) npm run sync-data   (une los MP3 con las piezas)');
-    if (plan.todo.some((i) => i.remote)) console.log('  2) Los audios de pago están en audio-premium/. Súbelos al servidor de audio (ver docs/IDIOMA_MP3_COBRO.md).');
+    console.log('  2) node scripts/subir-audio.mjs   (sube los MP3 a R2; el botón de GitHub lo hace solo)');
   }
   if (failed) process.exitCode = 1;
 }

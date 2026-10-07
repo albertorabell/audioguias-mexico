@@ -80,17 +80,14 @@ export async function simularAudio(page) {
     const pieces = await response.json();
     for (const p of pieces) {
       if (p.piece_id === FREE.id) {
-        p.audio = { es: { corto: { path: `audio/es/${FREE.id}_corto.mp3`, remote: false, seconds: 2 }, largo: { path: `audio/es/${FREE.id}_largo.mp3`, remote: false, seconds: 2 } } };
+        p.audio = { es: { corto: { path: `libre/es/${FREE.id}_corto.mp3`, premium: false, seconds: 2 }, largo: { path: `libre/es/${FREE.id}_largo.mp3`, premium: false, seconds: 2 } } };
       }
       if (p.piece_id === PREMIUM.id) {
-        p.audio = { es: { corto: { path: `es/${PREMIUM.id}_corto.mp3`, remote: true, seconds: 2 }, largo: { path: `es/${PREMIUM.id}_largo.mp3`, remote: true, seconds: 2 } } };
+        p.audio = { es: { corto: { path: `pago/es/${PREMIUM.id}_corto.mp3`, premium: true, seconds: 2 }, largo: { path: `pago/es/${PREMIUM.id}_largo.mp3`, premium: true, seconds: 2 } } };
       }
     }
     await route.fulfill({ response, json: pieces });
   });
-  await page.route(`**/audio/es/${FREE.id}_*.mp3`, (route) =>
-    route.fulfill({ status: 200, headers: { 'content-type': 'audio/mpeg' }, body: silentMp3(2) })
-  );
 }
 
 /** Simula que el teléfono no tiene ninguna voz instalada (así el resultado no depende de la máquina). */

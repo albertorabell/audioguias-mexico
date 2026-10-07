@@ -79,7 +79,7 @@ export interface PieceBase {
   audio_file_url?: string;
   /**
    * MP3 generados, por idioma y modo (corto = Express, largo = Inmersión).
-   * path es relativo al sitio; si remote es true se pide al servidor de audio con el pase.
+   * path = libre/<idioma>/... o pago/<idioma>/... en el servidor de audio (R2); si premium es true se pide con el pase.
    */
   audio?: PieceAudio;
 
@@ -137,7 +137,8 @@ export type Piece = PieceBase & TranslatedPieceFields;
 
 export interface PieceAudioFile {
   path: string;
-  remote: boolean;
+  /** true = pieza de pago (carpeta pago/ del servidor de audio, pide el pase); false = pieza gratis (carpeta libre/). */
+  premium: boolean;
   seconds?: number;
 }
 
