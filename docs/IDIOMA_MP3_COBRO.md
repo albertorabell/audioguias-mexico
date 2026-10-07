@@ -259,3 +259,13 @@ El script `scripts/traducir.mjs` traduce piezas y salas con la API de Anthropic 
 - **Botón:** GitHub > Actions > "Traducir textos" > Run workflow. Sin marcar "generar" solo muestra el plan. Con "generar" necesita el secreto `ANTHROPIC_API_KEY`. El resultado (español arriba, inglés abajo) aparece en el resumen de la corrida.
 - **No publica nada:** el inglés sigue oculto en el sitio hasta que se agregue a `PUBLISHED_LANGUAGES` (`src/i18n/languages.ts`).
 - Los precios del cálculo son aproximados (US$ 2 de entrada y US$ 10 de salida por millón de tokens, o los de `TRADUCIR_USD_ENTRADA` / `TRADUCIR_USD_SALIDA`): confirma los vigentes en la página de Anthropic.
+
+### Modo por lotes (mitad de precio)
+
+En **Actions → Traducir textos → Run workflow** el campo **modo** tiene tres opciones:
+
+- `normal`: traduce una por una, al momento, a precio normal.
+- `lote-enviar`: manda todo a Anthropic en un solo lote (Batch API, 50 % de descuento según su documentación), espera hasta `esperar_min` minutos y guarda lo que llegue. El número del lote se anota en `traducciones/<idioma>/_lote.json` para no perderlo.
+- `lote-recoger`: si el lote no alcanzó a terminar, vuelve a preguntar y guarda lo que esté listo.
+
+Los lotes terminan casi siempre en menos de 1 hora y siempre en menos de 24. Lo que falle las revisiones no se guarda y se vuelve a pedir en el siguiente lote.

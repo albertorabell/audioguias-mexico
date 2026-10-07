@@ -6,7 +6,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { main, parseArgs } from '../traducir.mjs';
-import { applyStoredTranslations, buildSystemPrompt, fieldHash, glossaryFor, loadGlossary, validateTranslation, usdFromUsage } from '../traducir-lib.mjs';
+import { applyStoredTranslations, buildSystemPrompt, fieldHash, glossaryFor, loadGlossary, sourceFields, validateTranslation, usdFromUsage } from '../traducir-lib.mjs';
 
 const GLOSSARY = `categoria,tipo,espanol,ingles_propuesto,veces_en_los_textos,nota,frances_propuesto
 Dioses,igual,Tláloc,Tláloc,23,,Tláloc
@@ -58,7 +58,7 @@ function makeRoot(nPieces = 12) {
 
 const quiet = { log: () => {}, warn: () => {} };
 const noNetwork = async () => { throw new Error('no debía llamar a la red'); };
-const files = (root) => (fs.existsSync(path.join(root, 'traducciones/en')) ? fs.readdirSync(path.join(root, 'traducciones/en')).filter((f) => f.endsWith('.json')) : []);
+const files = (root) => (fs.existsSync(path.join(root, 'traducciones/en')) ? fs.readdirSync(path.join(root, 'traducciones/en')).filter((f) => f.endsWith('.json') && !f.startsWith('_')) : []);
 
 /** Respuesta de la API de mentiras: traduce lo que le pidan con textos "ingleses" válidos. */
 function fakeApi(handler) {
@@ -413,4 +413,139 @@ test('glosario: si un término tiene dos filas (pueblo y sala) basta con cumplir
   const src = { guion_corto: 'Los nahuas veneraban a Tláloc desde mucho antes de la llegada de los españoles a estas tierras fértiles.' };
   const out = { guion_corto: 'The Nahua revered Tláloc long before the Spanish arrived in these fertile lands, and they kept the tradition alive for centuries.' };
   assert.deepEqual(validateTranslation(src, out, glossaryFor(g, [src.guion_corto]), { lang: 'en' }).warnings, {});
+});
+
+// ---------------------------------------------------------------------------
+// Modo por lotes
+// ---------------------------------------------------------------------------
+const ENVK = { ANTHROPIC_API_KEY: 'clave-falsa' };
+const jsonRes = (data) => ({ ok: true, json: async () => data, text: async () => JSON.stringify(data) });
+
+/** API de lotes de mentiras. results(cid, body) devuelve el resultado de cada petición. */
+function fakeBatchApi({ status = 'ended', results = null } = {}) {
+  const calls = [];
+  let created = null;
+  const fetchImpl = async (url, init = {}) => {
+    calls.push({ url, init });
+    if (url === 'https://api.anthropic.com/v1/messages/batches' && init.method === 'POST') {
+      created = JSON.parse(init.body);
+      return jsonRes({ id: 'msgbatch_123', processing_status: 'in_progress' });
+    }
+    if (url.endsWith('/results')) {
+      const lines = await Promise.all(created.requests.map(async (r) => JSON.stringify({ custom_id: r.custom_id, result: await results(r) })));
+      return { ok: true, text: async () => lines.join('\n') + '\n' };
+    }
+    return jsonRes({ id: 'msgbatch_123', processing_status: typeof status === 'function' ? status() : status, request_counts: { processing: 0, succeeded: 1 } });
+  };
+  return { fetchImpl, calls, created: () => created };
+}
+const okResult = (usage = { input_tokens: 1000, output_tokens: 500 }) => async (req) => {
+  const text = (await okReply(usage)({ messages: req.params.messages }).json()).content[0].text;
+  return { type: 'succeeded', message: { stop_reason: 'end_turn', content: [{ type: 'text', text }], usage } };
+};
+
+test('lote: enviar manda todas las unidades en una petición y anota el lote', async () => {
+  const root = makeRoot(3);
+  const api = fakeBatchApi();
+  const code = await main(['--lote', 'enviar', '--generar', '--limite', '10', '--solo', 'piezas'], { root, env: ENVK, fetchImpl: api.fetchImpl, ...quiet });
+  assert.equal(code, 0);
+  assert.equal(api.calls.length, 1);
+  const c = api.calls[0];
+  assert.equal(c.init.headers['x-api-key'], 'clave-falsa');
+  assert.equal(c.init.headers['anthropic-version'], '2023-06-01');
+  const reqs = api.created().requests;
+  assert.deepEqual(reqs.map((r) => r.custom_id), ['pieza_p00', 'pieza_p01', 'pieza_p02']);
+  assert.equal(reqs[0].params.model, 'claude-sonnet-5-5');
+  assert.equal(reqs[0].params.system[0].cache_control.type, 'ephemeral');
+  assert.ok(reqs[0].params.max_tokens >= 4000);
+  const lote = JSON.parse(fs.readFileSync(path.join(root, 'traducciones/en/_lote.json'), 'utf-8'));
+  assert.equal(lote.id, 'msgbatch_123');
+  assert.equal(lote.unidades.length, 3);
+  assert.equal(files(root).length, 0, 'todavía no hay traducciones guardadas');
+});
+
+test('lote: sin --generar solo muestra el plan; con un lote en curso no deja enviar otro', async () => {
+  const root = makeRoot(2);
+  await main(['--lote', 'enviar', '--solo', 'piezas'], { root, env: ENVK, fetchImpl: noNetwork, ...quiet });
+  assert.ok(!fs.existsSync(path.join(root, 'traducciones/en/_lote.json')));
+  const api = fakeBatchApi();
+  await main(['--lote', 'enviar', '--generar', '--solo', 'piezas'], { root, env: ENVK, fetchImpl: api.fetchImpl, ...quiet });
+  await assert.rejects(() => main(['--lote', 'enviar', '--generar', '--solo', 'piezas'], { root, env: ENVK, fetchImpl: noNetwork, ...quiet }), /Ya hay un lote en curso/);
+});
+
+test('lote: el tope en dólares recorta lo que se manda (con el descuento del 50 %)', async () => {
+  const root = makeRoot(6);
+  const plan = [];
+  await main(['--lote', 'enviar', '--limite', '6', '--solo', 'piezas', '--max-usd', '100'], { root, env: ENVK, fetchImpl: noNetwork, log: (m) => plan.push(m), warn: () => {} });
+  const per = parseFloat(plan.join('\n').match(/Con el modo por lotes \(50 % de descuento\): US\$ ([\d.]+)/)[1]) / 6;
+  const api = fakeBatchApi();
+  await main(['--lote', 'enviar', '--generar', '--limite', '6', '--solo', 'piezas', '--max-usd', String(per * 2.5)], { root, env: ENVK, fetchImpl: api.fetchImpl, ...quiet });
+  assert.equal(api.created().requests.length, 2);
+});
+
+test('lote: recoger guarda lo que pasa las revisiones, descarta lo demás y cobra la mitad', async () => {
+  const root = makeRoot(3);
+  await main(['--lote', 'enviar', '--generar', '--solo', 'piezas', '--limite', '3'], { root, env: ENVK, fetchImpl: fakeBatchApi().fetchImpl, ...quiet });
+  const good = okResult({ input_tokens: 1_000_000, output_tokens: 0 });
+  const api = fakeBatchApi({
+    results: async (req) => {
+      if (req.custom_id === 'pieza_p01') return { type: 'errored', error: { error: { message: 'boom' } } };
+      if (req.custom_id === 'pieza_p02') return { type: 'succeeded', message: { stop_reason: 'end_turn', content: [{ type: 'text', text: '{"titulo":"Piece"}' }], usage: { input_tokens: 0, output_tokens: 0 } } };
+      return good(req);
+    },
+  });
+  // el lote se "creó" en otra corrida: se vuelve a armar el mismo contenido para que la API de mentiras tenga las peticiones
+  await api.fetchImpl('https://api.anthropic.com/v1/messages/batches', { method: 'POST', body: JSON.stringify({ requests: [0, 1, 2].map((i) => ({ custom_id: `pieza_p0${i}`, params: { messages: [{ role: 'user', content: buildUserPromptFor(root, i) }] } })) }) });
+  const out = [];
+  const code = await main(['--lote', 'recoger', '--solo', 'piezas'], { root, env: ENVK, fetchImpl: api.fetchImpl, log: (m) => out.push(m), warn: (m) => out.push(m) });
+  assert.equal(code, 0);
+  assert.deepEqual(files(root), ['pieza_p00.json']);
+  assert.ok(!fs.existsSync(path.join(root, 'traducciones/en/_lote.json')), 'el lote terminado se borra');
+  const text = out.join('\n');
+  assert.match(text, /1 traducidas, 2 con error/);
+  assert.match(text, /pieza p01 … ERROR: errored/);
+  assert.match(text, /no pasó las revisiones/);
+  // 1 millón de tokens de entrada a US$ 2 el millón, con 50 % de descuento = US$ 1.00
+  assert.match(text, /US\$ 1\.00/);
+});
+
+function buildUserPromptFor(root, i) {
+  const p = JSON.parse(fs.readFileSync(path.join(root, 'public/data/pieces.json'), 'utf-8'))[i];
+  return 'x' + JSON.stringify(sourceFields('pieza', p));
+}
+
+test('lote: recoger sin terminar deja el lote anotado; con --esperar vuelve a preguntar', async () => {
+  const root = makeRoot(1);
+  await main(['--lote', 'enviar', '--generar', '--solo', 'piezas'], { root, env: ENVK, fetchImpl: fakeBatchApi().fetchImpl, ...quiet });
+  let n = 0;
+  const api = fakeBatchApi({ status: () => (++n >= 3 ? 'ended' : 'in_progress'), results: okResult() });
+  await api.fetchImpl('https://api.anthropic.com/v1/messages/batches', { method: 'POST', body: JSON.stringify({ requests: [{ custom_id: 'pieza_p00', params: { messages: [{ role: 'user', content: buildUserPromptFor(root, 0) }] } }] }) });
+  n = 0;
+  await main(['--lote', 'recoger'], { root, env: ENVK, fetchImpl: api.fetchImpl, pollMs: 0, ...quiet });
+  assert.ok(fs.existsSync(path.join(root, 'traducciones/en/_lote.json')), 'sigue pendiente');
+  assert.equal(files(root).length, 0);
+  n = 0;
+  await main(['--lote', 'recoger', '--esperar', '5'], { root, env: ENVK, fetchImpl: api.fetchImpl, pollMs: 0, ...quiet });
+  assert.deepEqual(files(root), ['pieza_p00.json']);
+});
+
+test('lote: si el texto en español cambió mientras tanto, esa traducción se descarta', async () => {
+  const root = makeRoot(1);
+  await main(['--lote', 'enviar', '--generar', '--solo', 'piezas'], { root, env: ENVK, fetchImpl: fakeBatchApi().fetchImpl, ...quiet });
+  const api = fakeBatchApi({ results: okResult() });
+  await api.fetchImpl('https://api.anthropic.com/v1/messages/batches', { method: 'POST', body: JSON.stringify({ requests: [{ custom_id: 'pieza_p00', params: { messages: [{ role: 'user', content: buildUserPromptFor(root, 0) }] } }] }) });
+  const f = path.join(root, 'public/data/pieces.json');
+  const pieces = JSON.parse(fs.readFileSync(f, 'utf-8'));
+  pieces[0].guion_corto += ' Texto nuevo.';
+  fs.writeFileSync(f, JSON.stringify(pieces));
+  const out = [];
+  await main(['--lote', 'recoger'], { root, env: ENVK, fetchImpl: api.fetchImpl, log: (m) => out.push(m), warn: (m) => out.push(m) });
+  assert.equal(files(root).length, 0);
+  assert.match(out.join('\n'), /cambió mientras se traducía/);
+});
+
+test('lote: opciones inválidas', () => {
+  assert.throws(() => parseArgs(['--lote', 'x']), /enviar o recoger/);
+  assert.throws(() => parseArgs(['--lote', 'enviar', '--proveedor', 'prueba']), /solo funciona con el proveedor claude/);
+  assert.throws(() => parseArgs(['--esperar', '-1']), /entre 0 y 1440/);
 });

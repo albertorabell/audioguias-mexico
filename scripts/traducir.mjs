@@ -17,6 +17,10 @@
 //   --forzar              vuelve a traducir aunque el texto en español no haya cambiado
 //   --proveedor claude|prueba
 //   --modelo NOMBRE       por defecto claude-sonnet-5-5 (o la variable TRADUCIR_MODELO)
+//   --lote enviar|recoger modo por lotes (Batch API): cuesta la MITAD, pero la respuesta tarda de minutos a unas horas.
+//                         "enviar" manda todo de una vez y anota el lote en traducciones/<idioma>/_lote.json;
+//                         "recoger" revisa si ya terminó y, si sí, guarda las traducciones.
+//   --esperar MIN         con --lote recoger: espera hasta MIN minutos a que termine el lote (por defecto 0 = solo revisa)
 //
 // Dónde quedan las traducciones: traducciones/<idioma>/pieza_<id>.json y sala_<id>.json.
 // Cada campo guarda la huella del texto en español: si el español cambia, esa traducción deja de usarse
@@ -51,7 +55,7 @@ export const DEFAULT_MODEL = 'claude-sonnet-5-5';
 const MAX_OUTPUT_TOKENS = 16000;
 
 export function parseArgs(argv) {
-  const out = { lang: 'en', solo: 'todo', piezas: null, limite: 5, maxUsd: 2, forzar: false, generar: false, proveedor: 'claude', modelo: null };
+  const out = { lang: 'en', solo: 'todo', piezas: null, limite: 5, maxUsd: 2, forzar: false, generar: false, proveedor: 'claude', modelo: null, lote: null, esperarMin: 0 };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     const next = () => {
@@ -65,6 +69,8 @@ export function parseArgs(argv) {
     else if (a === '--max-usd') out.maxUsd = parseFloat(next());
     else if (a === '--proveedor') out.proveedor = next();
     else if (a === '--modelo') out.modelo = next();
+    else if (a === '--lote') out.lote = next();
+    else if (a === '--esperar') out.esperarMin = parseInt(next(), 10);
     else if (a === '--forzar') out.forzar = true;
     else if (a === '--generar') out.generar = true;
     else throw new Error(`Opción desconocida: ${a}`);
@@ -74,6 +80,9 @@ export function parseArgs(argv) {
   if (!['claude', 'prueba'].includes(out.proveedor)) throw new Error('--proveedor debe ser claude o prueba');
   if (!Number.isFinite(out.limite) || out.limite < 1) throw new Error('--limite debe ser un número mayor que 0');
   if (!Number.isFinite(out.maxUsd) || out.maxUsd <= 0) throw new Error('--max-usd debe ser un número mayor que 0');
+  if (out.lote !== null && !['enviar', 'recoger'].includes(out.lote)) throw new Error('--lote debe ser enviar o recoger');
+  if (out.lote !== null && out.proveedor !== 'claude') throw new Error('--lote solo funciona con el proveedor claude');
+  if (!Number.isFinite(out.esperarMin) || out.esperarMin < 0 || out.esperarMin > 1440) throw new Error('--esperar debe estar entre 0 y 1440 minutos');
   return out;
 }
 
@@ -178,7 +187,184 @@ function reviewMarkdown(lang, items) {
   return L.join('\n');
 }
 
-export async function main(argv, { root = process.cwd(), env = process.env, fetchImpl = fetch, log = console.log, warn = console.warn, retryBaseMs } = {}) {
+// ---------------------------------------------------------------------------
+// Modo por lotes (Batch API de Anthropic): mitad de precio, respuesta en minutos u horas (máximo 24 h).
+// ---------------------------------------------------------------------------
+const BATCH_URL = 'https://api.anthropic.com/v1/messages/batches';
+export const BATCH_DISCOUNT = 0.5; // "All usage is charged at 50% of the standard API prices" (documentación de Anthropic)
+const batchHeaders = (env) => ({ 'content-type': 'application/json', 'x-api-key': env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01' });
+const loteFile = (root, lang) => path.join(root, 'traducciones', lang, '_lote.json');
+const customId = (kind, id) => `${kind}_${id}`.replace(/[^a-zA-Z0-9_-]/g, '_');
+
+async function batchCall(fetchImpl, env, url, opts = {}) {
+  const res = await fetchImpl(url, { ...opts, headers: batchHeaders(env) });
+  if (!res.ok) throw new Error(`Anthropic respondió ${res.status} ${(await res.text().catch(() => '')).slice(0, 300)}`);
+  return res;
+}
+
+function writeUnit(root, args, u, out, warnings, model) {
+  const campos = { ...(u.stored?.campos || {}) };
+  const avisos = { ...(u.stored?.avisos || {}) };
+  for (const f of Object.keys(u.todoFields)) {
+    campos[f] = { hash: fieldHash(u.todoFields[f]), texto: out[f] };
+    if (warnings[f]) avisos[f] = warnings[f];
+    else delete avisos[f];
+  }
+  const file = translationFile(root, args.lang, u.kind, u.id);
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, JSON.stringify({ id: u.id, tipo: u.kind, idioma: args.lang, modelo: model, fecha: new Date().toISOString().slice(0, 10), avisos, campos }, null, 2) + '\n', 'utf-8');
+}
+
+async function enviarLote({ root, env, fetchImpl, log, args, model, prices, todo, est }) {
+  const file = loteFile(root, args.lang);
+  if (fs.existsSync(file)) {
+    const prev = readJson(file);
+    throw new Error(`Ya hay un lote en curso (${prev.id}, enviado ${prev.creado}). Primero recógelo con el modo "lote-recoger" para no pagar dos veces.`);
+  }
+  // Tope: se recorta la lista para que el costo estimado (con el descuento) no pase de --max-usd
+  const sendUnits = [];
+  let estUsd = 0;
+  for (const [i, u] of todo.entries()) {
+    const cost = est[i].usd * BATCH_DISCOUNT;
+    if (estUsd + cost > args.maxUsd) break;
+    estUsd += cost;
+    sendUnits.push({ u, chars: est[i].chars });
+  }
+  if (!sendUnits.length) throw new Error(`Ni la primera unidad cabe en el tope de ${usd(args.maxUsd)}. Sube el tope.`);
+  log(`  Modo por lotes: ${sendUnits.length} unidades, costo aproximado con el 50 % de descuento: ${usd(estUsd)} (tope ${usd(args.maxUsd)}).`);
+  if (sendUnits.length < todo.length) log(`  ⚠️  ${todo.length - sendUnits.length} unidades se quedan fuera para respetar el tope; se mandan en otro lote.`);
+
+  const system = buildSystemPrompt(args.lang);
+  const ids = new Set();
+  const requests = sendUnits.map(({ u, chars }) => {
+    const cid = customId(u.kind, u.id);
+    if (cid.length > 64 || ids.has(cid)) throw new Error(`No puedo armar un identificador único para ${u.kind} ${u.id}`);
+    ids.add(cid);
+    // En un lote no hay reintento si la respuesta se corta: se da bastante espacio (solo se cobra lo que se escribe)
+    const maxTokens = Math.min(MAX_OUTPUT_TOKENS, Math.max(4000, Math.round(chars * 1.3) + 1000));
+    return {
+      custom_id: cid,
+      params: {
+        model,
+        max_tokens: maxTokens,
+        system: [{ type: 'text', text: system, cache_control: { type: 'ephemeral' } }],
+        messages: [{ role: 'user', content: buildUserPrompt(u.todoFields, u.entries) }],
+      },
+    };
+  });
+  const res = await batchCall(fetchImpl, env, BATCH_URL, { method: 'POST', body: JSON.stringify({ requests }) });
+  const data = await res.json();
+  if (!data.id) throw new Error('Anthropic no devolvió el número del lote.');
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(
+    file,
+    JSON.stringify(
+      {
+        id: data.id,
+        idioma: args.lang,
+        modelo: model,
+        creado: new Date().toISOString(),
+        estimado_usd: Math.round(estUsd * 1000) / 1000,
+        unidades: sendUnits.map(({ u }) => ({ custom_id: customId(u.kind, u.id), tipo: u.kind, id: u.id, huellas: Object.fromEntries(Object.entries(u.todoFields).map(([f, v]) => [f, fieldHash(v)])) })),
+      },
+      null,
+      2
+    ) + '\n',
+    'utf-8'
+  );
+  log(`\n✅ Lote enviado: ${data.id}. Anthropic lo procesa solo (casi siempre en menos de 1 hora; máximo 24 h).`);
+  log('Siguiente paso: correr "lote-recoger" para guardar las traducciones cuando termine.');
+  return 0;
+}
+
+async function recogerLote({ root, env, fetchImpl, log, warn, args, prices, all, glossary, pollMs = 60000 }) {
+  const file = loteFile(root, args.lang);
+  if (!fs.existsSync(file)) {
+    log('No hay ningún lote en curso para este idioma (no existe traducciones/' + args.lang + '/_lote.json).');
+    return 0;
+  }
+  if (!env.ANTHROPIC_API_KEY) throw new Error('Falta la clave de Anthropic (secreto ANTHROPIC_API_KEY).');
+  const lote = readJson(file);
+  const getInfo = async () => (await batchCall(fetchImpl, env, `${BATCH_URL}/${lote.id}`)).json();
+  let info = await getInfo();
+  const counts = (i) => Object.entries(i.request_counts || {}).map(([k, v]) => `${k}: ${v}`).join(', ');
+  const deadline = Date.now() + args.esperarMin * 60000;
+  log(`Lote ${lote.id} (enviado ${lote.creado}): ${info.processing_status} (${counts(info)})`);
+  while (info.processing_status !== 'ended' && Date.now() < deadline) {
+    await sleep(pollMs);
+    info = await getInfo();
+    log(`  … ${info.processing_status} (${counts(info)})`);
+  }
+  if (info.processing_status !== 'ended') {
+    log('\nTodavía no termina. Vuelve a correr "lote-recoger" en un rato (el lote sigue en Anthropic hasta 24 h).');
+    return 0;
+  }
+
+  const res = await batchCall(fetchImpl, env, `${BATCH_URL}/${lote.id}/results`);
+  const lines = (await res.text()).split('\n').filter((l) => l.trim());
+  const results = new Map();
+  for (const l of lines) {
+    try {
+      const r = JSON.parse(l);
+      results.set(r.custom_id, r.result);
+    } catch {
+      /* línea dañada: esa unidad quedará como pendiente */
+    }
+  }
+
+  let spent = 0;
+  let saved = 0;
+  let failed = 0;
+  const review = [];
+  for (const [i, lu] of lote.unidades.entries()) {
+    const tag = `[${i + 1}/${lote.unidades.length}] ${lu.tipo} ${lu.id}`;
+    const r = results.get(lu.custom_id);
+    if (!r) { failed++; warn(`  ${tag} … ERROR: no vino en los resultados`); continue; }
+    if (r.type !== 'succeeded') {
+      failed++;
+      warn(`  ${tag} … ERROR: ${r.type}${r.error?.error?.message || r.error?.message ? ': ' + (r.error?.error?.message || r.error.message) : ''} (no se cobra)`);
+      continue;
+    }
+    spent += usdFromUsage(r.message?.usage, prices) * BATCH_DISCOUNT;
+    const u = all.find((x) => x.kind === lu.tipo && x.id === lu.id);
+    if (!u) { failed++; warn(`  ${tag} … ERROR: ya no existe en los datos`); continue; }
+    const names = Object.keys(lu.huellas);
+    const todoFields = Object.fromEntries(names.filter((f) => u.fields[f] !== undefined).map((f) => [f, u.fields[f]]));
+    if (names.some((f) => !todoFields[f] || fieldHash(todoFields[f]) !== lu.huellas[f])) {
+      failed++;
+      warn(`  ${tag} … ERROR: el texto en español cambió mientras se traducía; se descarta (vuelve a enviarlo)`);
+      continue;
+    }
+    try {
+      if (r.message.stop_reason === 'max_tokens') throw new Error('la respuesta se cortó por llegar al límite de largo');
+      const text = (r.message.content || []).filter((b) => b.type === 'text').map((b) => b.text).join('');
+      const out = parseJsonReply(text);
+      const entries = glossaryFor(glossary, Object.values(todoFields).map(flatText));
+      const { errors, warnings } = validateTranslation(todoFields, out, entries, { lang: args.lang });
+      if (errors.length) throw new Error(`no pasó las revisiones: ${errors.join('; ')}`);
+      writeUnit(root, args, { ...u, todoFields }, out, warnings, lote.modelo);
+      saved++;
+      review.push({ kind: u.kind, id: u.id, es: todoFields, en: out, avisos: warnings });
+      const nw = Object.values(warnings).reduce((n, l) => n + l.length, 0);
+      log(`  ${tag} … ok${nw ? ` (${nw} aviso${nw > 1 ? 's' : ''})` : ''}`);
+    } catch (e) {
+      failed++;
+      warn(`  ${tag} … ERROR: ${e.message}`);
+    }
+  }
+  if (review.length) {
+    const dir = path.join(root, 'traducciones', args.lang);
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(path.join(dir, '_ultima_corrida.md'), reviewMarkdown(args.lang, review), 'utf-8');
+  }
+  fs.rmSync(file);
+  log(`\nListo: ${saved} traducidas, ${failed} con error (esas siguen pendientes). Gasto real aproximado del lote (con el 50 % de descuento): ${usd(spent)}.`);
+  if (saved) log('Siguiente paso: revisar traducciones/' + args.lang + '/_ultima_corrida.md. El idioma sigue oculto en el sitio hasta que se publique.');
+  if (failed) log('Las unidades con error se vuelven a pedir corriendo otro lote (solo manda las que faltan).');
+  return saved > 0 || failed === 0 ? 0 : 1;
+}
+
+export async function main(argv, { root = process.cwd(), env = process.env, fetchImpl = fetch, log = console.log, warn = console.warn, retryBaseMs, pollMs } = {}) {
   const args = parseArgs(argv);
   const model = args.modelo || env.TRADUCIR_MODELO || DEFAULT_MODEL;
   const prices = {
@@ -214,6 +400,7 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
     const entries = glossaryFor(glossary, Object.values(todoFields).map(flatText));
     return { ...u, id, fields, stored, todoFields, entries };
   });
+  if (args.lote === 'recoger') return recogerLote({ root, env, fetchImpl, log, warn, args, prices, all, glossary, pollMs });
   const pending = all.filter((u) => Object.keys(u.todoFields).length > 0);
   const todo = pending.slice(0, args.limite);
   const est = todo.map((u) => estimateUnit(u.todoFields, u.entries, args.lang, prices));
@@ -225,6 +412,7 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
   log(`  Textos revisados: ${all.length} · ya al día: ${all.length - pending.length} · por traducir: ${pending.length} (esta corrida: ${todo.length}, límite ${args.limite})`);
   log(`  Caracteres a traducir en esta corrida: ${estChars.toLocaleString('es-MX')}`);
   log(`  Costo aproximado de esta corrida: ${provider.fake ? usd(0) : usd(estUsd)} (estimación; confirma los precios vigentes en la página de Anthropic) · tope: ${usd(args.maxUsd)}`);
+  if (args.lote === 'enviar') log(`  Con el modo por lotes (50 % de descuento): ${usd(estUsd * BATCH_DISCOUNT)}`);
   if (todo.length) log(`  Primeros: ${todo.slice(0, 10).map((u) => u.id).join(', ')}${todo.length > 10 ? '…' : ''}`);
 
   if (!args.generar) {
@@ -236,6 +424,7 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
     return 0;
   }
   provider.check();
+  if (args.lote === 'enviar') return enviarLote({ root, env, fetchImpl, log, args, model, prices, todo, est });
 
   // ---- Traducir ----
   const system = buildSystemPrompt(args.lang);
