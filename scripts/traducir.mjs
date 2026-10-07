@@ -37,6 +37,7 @@ import {
   buildSystemPrompt,
   buildUserPrompt,
   estimateUnit,
+  alignKeys,
   fieldHash,
   glossaryFor,
   flatText,
@@ -338,7 +339,7 @@ async function recogerLote({ root, env, fetchImpl, log, warn, args, prices, all,
     try {
       if (r.message.stop_reason === 'max_tokens') throw new Error('la respuesta se cortó por llegar al límite de largo');
       const text = (r.message.content || []).filter((b) => b.type === 'text').map((b) => b.text).join('');
-      const out = parseJsonReply(text);
+      const out = alignKeys(todoFields, parseJsonReply(text));
       const entries = glossaryFor(glossary, Object.values(todoFields).map(flatText));
       const { errors, warnings } = validateTranslation(todoFields, out, entries, { lang: args.lang });
       if (errors.length) throw new Error(`no pasó las revisiones: ${errors.join('; ')}`);
@@ -443,7 +444,7 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
     try {
       const { text, usage } = await provider.translate({ system, user: buildUserPrompt(u.todoFields, u.entries), model, maxTokens });
       spent += usdFromUsage(usage, prices);
-      const out = parseJsonReply(text);
+      const out = alignKeys(u.todoFields, parseJsonReply(text));
       const { errors, warnings } = validateTranslation(u.todoFields, out, u.entries, { fake: provider.fake, lang: args.lang });
       if (errors.length) throw new Error(`no pasó las revisiones: ${errors.join('; ')}`);
 

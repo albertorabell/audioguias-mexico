@@ -1,0 +1,54 @@
+{
+  "id": "msgbatch_01GzWmmmfRTzdcCvwYQ1qG71",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "creado": "2026-10-07T06:23:22.205Z",
+  "estimado_usd": 2.606,
+  "unidades": [
+    {
+      "custom_id": "pieza_mna_s06_piedra_sol",
+      "tipo": "pieza",
+      "id": "mna_s06_piedra_sol",
+      "huellas": {
+        "titulo": "97796111d12c50cc",
+        "frase_gancho": "cd8d78f05ab3f70d",
+        "puente_narrativo": "eec80d2d083ec099",
+        "guion_corto": "9dc9816e695987bf",
+        "guion_largo": "01ebc54d1672eec6",
+        "retos_observacion": "74f4fe06c8203a1d",
+        "especificaciones": "4914841b0beeea9a",
+        "faq_mito": "06c7c2187179d912"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s04_brasero_teatro",
+      "tipo": "pieza",
+      "id": "mna_s04_brasero_teatro",
+      "huellas": {
+        "titulo": "31cf0531f7c411c9",
+        "frase_gancho": "fc2c19c665135a86",
+        "puente_narrativo": "e62112fd40f74b49",
+        "guion_corto": "3ac26378bcbeeeef",
+        "guion_largo": "abdfd44e6dd32cec",
+        "retos_observacion": "71350d3e85d6aaf5",
+        "especificaciones": "2ed579888c421cde",
+        "faq_mito": "97a096a866b16aac"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s03_baby_face_tlapacoya",
+      "tipo": "pieza",
+      "id": "mna_s03_baby_face_tlapacoya",
+      "huellas": {
+        "titulo": "6a7f3fb0c2044260",
+        "frase_gancho": "9715dcdbf71b6e50",
+        "puente_narrativo": "8231d0def7d1dd94",
+        "guion_corto": "466facce83d79ce7",
+        "guion_largo": "707b918dc1aeb721",
+        "retos_observacion": "4a3e12965b7443bc",
+        "especificaciones": "3a55e14d38f6db4b",
+        "faq_mito": "73d7fd00cfabaa89"
+      }
+    }
+  ]
+}

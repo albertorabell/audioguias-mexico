@@ -558,3 +558,23 @@ test('francés: el apóstrofo recto del glosario y el tipográfico del texto cue
   const out = { guion_corto: 'Le Musée national d’anthropologie conserve cette pièce depuis des décennies et accueille des millions de visiteurs chaque année.' };
   assert.deepEqual(validateTranslation(src, out, glossaryFor(g, [src.guion_corto]), { lang: 'fr' }).warnings, {});
 });
+
+test('respuesta con texto y llaves después del JSON: se toma el primer objeto completo', async () => {
+  const { parseJsonReply } = await import('../traducir-lib.mjs');
+  assert.deepEqual(parseJsonReply('```json\n{"a":"x } y","b":["{"]}\n```\nNota: {fin}'), { a: 'x } y', b: ['{'] });
+  assert.deepEqual(parseJsonReply('{"a":"comillas \\" y llave }"} extra {otro}'), { a: 'comillas " y llave }' });
+  assert.throws(() => parseJsonReply('sin json'), /no trae un objeto/);
+});
+
+test('un campo que el traductor renombró (titulo → titre) se corrige por posición', async () => {
+  const { alignKeys } = await import('../traducir-lib.mjs');
+  const src = { titulo: 'a', frase_gancho: 'b', guion_corto: 'c' };
+  assert.deepEqual(alignKeys(src, { titre: 'A', frase_gancho: 'B', guion_corto: 'C' }), { titulo: 'A', frase_gancho: 'B', guion_corto: 'C' });
+  // si no cuadra no se toca: la revisión lo rechaza
+  const extra = { titre: 'A', frase_gancho: 'B', guion_corto: 'C', otro: 'D' };
+  assert.equal(alignKeys(src, extra), extra);
+  const dup = { titre: 'A', otro: 'B', guion_corto: 'C' };
+  assert.deepEqual(Object.keys(alignKeys(src, dup)).sort(), ['frase_gancho', 'guion_corto', 'titulo']);
+  assert.ok(buildSystemPrompt('fr').includes('never translate or rename'));
+  assert.ok(buildSystemPrompt('en').includes('never translate or rename'));
+});
