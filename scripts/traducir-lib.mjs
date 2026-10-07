@@ -257,10 +257,11 @@ export function alignKeys(source, out) {
   if (!out || typeof out !== 'object' || Array.isArray(out)) return out;
   const want = Object.keys(source);
   const got = Object.keys(out);
-  if (want.length !== got.length) return out;
   const unknown = got.filter((k) => !want.includes(k));
   const missing = want.filter((k) => !got.includes(k));
-  if (!unknown.length || unknown.length !== missing.length) return out;
+  // Trae todos los campos pedidos y además uno inventado (p. ej. "titre" de más): se descarta el sobrante
+  if (!missing.length && unknown.length) return Object.fromEntries(want.map((k) => [k, out[k]]));
+  if (want.length !== got.length || !unknown.length || unknown.length !== missing.length) return out;
   const fixed = {};
   got.forEach((k, i) => {
     fixed[want.includes(k) ? k : want[i]] = out[k];

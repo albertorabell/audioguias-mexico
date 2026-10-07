@@ -573,6 +573,8 @@ test('un campo que el traductor renombró (titulo → titre) se corrige por posi
   // si no cuadra no se toca: la revisión lo rechaza
   const extra = { titre: 'A', frase_gancho: 'B', guion_corto: 'C', otro: 'D' };
   assert.equal(alignKeys(src, extra), extra);
+  // todos los campos pedidos más uno de sobra: se quita el sobrante
+  assert.deepEqual(alignKeys(src, { titulo: 'A', titre: 'A2', frase_gancho: 'B', guion_corto: 'C' }), { titulo: 'A', frase_gancho: 'B', guion_corto: 'C' });
   const dup = { titre: 'A', otro: 'B', guion_corto: 'C' };
   assert.deepEqual(Object.keys(alignKeys(src, dup)).sort(), ['frase_gancho', 'guion_corto', 'titulo']);
   assert.ok(buildSystemPrompt('fr').includes('never translate or rename'));
