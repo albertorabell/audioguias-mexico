@@ -10,7 +10,7 @@ SITE_IDS = "mna"
 PASS_HOURS = "72"
 MAX_DEVICES = "2"
 # Identificadores de precio de Stripe (empiezan con price_). Se crean en el panel de Stripe.
-STRIPE_PRICE_ID_MXN = "REEMPLAZA_CON_TU_PRICE_ID_EN_PESOS"
+STRIPE_PRICE_ID_MXN = "price_1UNkSRPWcFq3JIhnDC2ZhLZJ"
 STRIPE_PRICE_ID_USD = ""
 
 # Aquí se guardan los pases comprados
