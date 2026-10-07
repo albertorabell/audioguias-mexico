@@ -4,3 +4,5 @@ idioma,palabra,tipo,valor,nota
 #       ipa   = alfabeto fonético internacional (más preciso, pero no todas las voces lo aceptan)
 # Una fila por forma de la palabra (singular y plural). No importan las mayúsculas.
 # Después de cambiar este archivo hay que regenerar los audios afectados (opción --forzar).
+es,Mexica,alias,Meshica,Elegido por Alberto tras probar variantes (la voz de español no tiene el sonido sh; esta es la que mejor suena)
+es,Mexicas,alias,Meshicas,Plural
