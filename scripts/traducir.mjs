@@ -48,6 +48,7 @@ import {
 } from './traducir-lib.mjs';
 
 export const DEFAULT_MODEL = 'claude-sonnet-5-5';
+const MAX_OUTPUT_TOKENS = 16000;
 
 export function parseArgs(argv) {
   const out = { lang: 'en', solo: 'todo', piezas: null, limite: 5, maxUsd: 2, forzar: false, generar: false, proveedor: 'claude', modelo: null };
@@ -106,6 +107,9 @@ export function makeProvider(name, { env = process.env, fetchImpl = fetch, retry
     },
     async translate({ system, user, model, maxTokens }) {
       let lastErr;
+      let limit = maxTokens;
+      const billed = {}; // todo lo que se cobró en esta traducción, incluidos los intentos cortados
+      const addUsage = (u = {}) => { for (const [k, v] of Object.entries(u)) if (typeof v === 'number') billed[k] = (billed[k] || 0) + v; };
       for (let attempt = 1; attempt <= 4; attempt++) {
         try {
           const res = await fetchImpl('https://api.anthropic.com/v1/messages', {
@@ -113,7 +117,7 @@ export function makeProvider(name, { env = process.env, fetchImpl = fetch, retry
             headers: { 'content-type': 'application/json', 'x-api-key': env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01' },
             body: JSON.stringify({
               model,
-              max_tokens: maxTokens,
+              max_tokens: limit,
               system: [{ type: 'text', text: system, cache_control: { type: 'ephemeral' } }],
               messages: [{ role: 'user', content: user }],
             }),
@@ -126,18 +130,24 @@ export function makeProvider(name, { env = process.env, fetchImpl = fetch, retry
           }
           const data = await res.json();
           if (data.stop_reason === 'max_tokens') {
-            const err = new Error('la respuesta se cortó por llegar al límite de largo');
-            err.fatal = true;
+            // La respuesta se cortó: se reintenta con el doble de espacio (hasta el máximo). Lo cortado también se cobra, por eso el tope.
+            const err = new Error(`la respuesta se cortó por llegar al límite de largo (${limit} tokens)`);
+            if (limit >= MAX_OUTPUT_TOKENS) err.fatal = true;
+            else limit = Math.min(MAX_OUTPUT_TOKENS, limit * 2);
+            err.truncated = true;
+            addUsage(data.usage);
             throw err;
           }
           const text = (data.content || []).filter((b) => b.type === 'text').map((b) => b.text).join('');
-          return { text, usage: data.usage || {} };
+          addUsage(data.usage);
+          return { text, usage: billed };
         } catch (e) {
           lastErr = e;
           if (e.fatal) break;
-          if (attempt < 4) await sleep(retryBaseMs * attempt * attempt);
+          if (attempt < 4 && !e.truncated) await sleep(retryBaseMs * attempt * attempt);
         }
       }
+      lastErr.usage = billed;
       throw lastErr;
     },
   };
@@ -239,7 +249,8 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
       log(`\n⛔ Me detengo: seguir llevaría el gasto de esta corrida por encima del tope (${usd(args.maxUsd)}). Gastado hasta ahora: ${usd(spent)}.`);
       break;
     }
-    const maxTokens = Math.min(16000, Math.max(2000, Math.round((est[i].chars / 3.2) * 1.6) + 500));
+    // En la prueba real el inglés salió a ~0.5 tokens por carácter del español; se da casi el doble de espacio
+    const maxTokens = Math.min(MAX_OUTPUT_TOKENS, Math.max(3000, Math.round(est[i].chars * 0.9) + 1000));
     try {
       const { text, usage } = await provider.translate({ system, user: buildUserPrompt(u.todoFields, u.entries), model, maxTokens });
       spent += usdFromUsage(usage, prices);
@@ -267,6 +278,7 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
       const nw = Object.values(warnings).reduce((n, l) => n + l.length, 0);
       log(`  [${i + 1}/${todo.length}] ${u.kind} ${u.id} … ok${nw ? ` (${nw} aviso${nw > 1 ? 's' : ''})` : ''}`);
     } catch (e) {
+      spent += usdFromUsage(e.usage, prices); // un intento cortado o rechazado también se cobra
       failed++;
       consecutive++;
       warn(`  [${i + 1}/${todo.length}] ${u.kind} ${u.id} … ERROR: ${e.message}`);

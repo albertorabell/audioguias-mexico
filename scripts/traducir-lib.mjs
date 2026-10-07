@@ -292,9 +292,9 @@ export function estimateUnit(fields, glossaryEntries, lang, prices = DEFAULT_PRI
   const chars = JSON.stringify(fields).length;
   const promptChars = buildSystemPrompt(lang).length + glossaryEntries.length * 60;
   const inTok = (chars + promptChars) / 3.2;
-  const outTok = (chars / 3.2) * 1.1;
-  // El gasto real de la primera prueba (5 piezas) salió ~20 % por encima de la estimación: se corrige con un margen
-  return { chars, usd: ((inTok * prices.input + outTok * prices.output) / 1e6) * 1.25 };
+  // Medido en la prueba real (5 piezas): el inglés sale a ~0.5 tokens por carácter del español
+  const outTok = chars * 0.5;
+  return { chars, usd: ((inTok * prices.input + outTok * prices.output) / 1e6) * 1.1 };
 }
 
 // ---------------------------------------------------------------------------

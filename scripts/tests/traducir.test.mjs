@@ -306,3 +306,27 @@ test('las reglas del traductor incluyen las decisiones de Alberto (AD/BC, ortogr
   assert.ok(sys.includes('typographic quotation marks'));
   assert.ok(sys.includes('"Mito:" and "Realidad:"') && sys.includes('"Myth:" and "Reality:"'));
 });
+
+test('respuesta cortada por límite de largo: se reintenta con el doble de espacio y se cuenta lo cobrado', async () => {
+  const root = makeRoot(1);
+  const ok = okReply({ input_tokens: 1000, output_tokens: 500 });
+  const cut = { ok: true, status: 200, json: async () => ({ content: [{ type: 'text', text: '{"titulo":"Pie' }], usage: { input_tokens: 1000, output_tokens: 3000 }, stop_reason: 'max_tokens' }), text: async () => '' };
+  const { fetchImpl, calls } = fakeApi((body, n) => (n === 1 ? cut : ok(body)));
+  const lines = [];
+  const code = await main(['--generar', '--solo', 'piezas'], { root, env: { ANTHROPIC_API_KEY: 'k' }, fetchImpl, log: (l) => lines.push(l), warn: () => {} });
+  assert.equal(code, 0);
+  assert.equal(calls.length, 2);
+  assert.equal(calls[1].body.max_tokens, calls[0].body.max_tokens * 2);
+  assert.equal(files(root).length, 1);
+  // 1.º intento: 1000 de entrada y 3000 de salida; 2.º: 1000 y 500 → 0.002*2 + (3500*10)/1e6 = 0.039
+  assert.ok(lines.join('\n').includes('US$ 0.039'), lines.join('\n'));
+});
+
+test('el espacio para la respuesta es amplio (casi el doble de lo medido) y nunca pasa de 16000', async () => {
+  const root = makeRoot(1);
+  const { fetchImpl, calls } = fakeApi(okReply());
+  await main(['--generar', '--solo', 'piezas'], { root, env: { ANTHROPIC_API_KEY: 'k' }, fetchImpl, ...quiet });
+  const chars = JSON.stringify(JSON.parse(fs.readFileSync(path.join(root, 'public/data/pieces.json'), 'utf-8'))[0]).length;
+  assert.ok(calls[0].body.max_tokens >= chars * 0.5 * 1.5, `max_tokens ${calls[0].body.max_tokens} para ${chars} caracteres`);
+  assert.ok(calls[0].body.max_tokens <= 16000);
+});
