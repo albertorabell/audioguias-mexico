@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_piedra_sol",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "97796111d12c50cc",
+      "texto": "Pierre du Soleil"
+    },
+    "frase_gancho": {
+      "hash": "cd8d78f05ab3f70d",
+      "texto": "Un disque de pierre où les Mexicas ont dessiné le temps et les soleils."
+    },
+    "puente_narrativo": {
+      "hash": "eec80d2d083ec099",
+      "texto": "La visite du monde mexica commence avec une pierre qui rassemble leur façon de comprendre le temps, les dieux et le cosmos."
+    },
+    "guion_corto": {
+      "hash": "9dc9816e695987bf",
+      "texto": "On l’appelle le calendrier aztèque, mais les Mexicas l’ont sculptée pour quelque chose de plus grand que compter les jours. Au centre se trouve le visage de Tonatiuh, le dieu du Soleil, à l’intérieur du signe Nahui Ollin, Quatre Mouvement. Ce signe nomme l’ère dans laquelle nous vivons, le Cinquième Soleil. Dans les quatre cases de ce signe apparaissent les soleils précédents, ceux qui ont été détruits : Jaguar, Vent, Pluie de feu et Eau. Autour tournent les vingt signes des jours, et sur le bord, deux serpents de feu portent le Soleil à travers le ciel. C’est une œuvre mexica du Postclassique récent, sculptée dans du basalte à olivine. Elle a été disposée à l’horizontale, comme plateforme ou comme récipient pour des offrandes. Le 17 décembre 1790, elle a été découverte sur la Grand-Place de Mexico."
+    },
+    "guion_largo": {
+      "hash": "01ebc54d1672eec6",
+      "texto": "On la connaît sous le nom de calendrier aztèque, mais ce nom est réducteur. Cette pierre est une œuvre mexica du Postclassique récent, sculptée dans du basalte à olivine en haut et bas-relief. Elle conserve encore des traces de pigment rouge et ocre. Elle mesure 3,58 mètres de diamètre.\n\nSon dessin se lit du centre vers l’extérieur. Au centre se trouve le visage de Tonatiuh, le dieu du Soleil. Il est entouré du signe Nahui Ollin, qui signifie Quatre Mouvement et donne son nom à l’ère actuelle, le Cinquième Soleil. Dans les quatre cases de ce signe figurent les soleils des ères précédentes. Ce sont Nahui Océlotl, le Jaguar, Nahui Ehécatl, le Vent, Nahui Quiáhuitl, la Pluie de feu, et Nahui Atl, l’Eau. Selon le mythe, chacune de ces ères s’est achevée en catastrophe.\n\nPlus à l’extérieur se trouvent vingt signes, ceux des jours du calendrier divinatoire, le tonalpohualli. Viennent ensuite des bandes de rayons solaires et des perles de jade. Dans le cercle extérieur s’enroulent les corps de deux serpents de feu, les Xiuhcóatl, qui transportent le Soleil dans son parcours à travers le ciel.\n\nAujourd’hui, elle est exposée debout, mais les Mexicas l’utilisaient à l’horizontale. Les archéologues pensent qu’elle servait de temalácatl, une plateforme liée au combat gladiatorial, ou de cuauhxicalli, un récipient pour des offrandes de sang et de cœurs. Ainsi, l’image du Soleil n’était pas seulement contemplée : elle recevait l’aliment qui, selon les Mexicas, le maintenait en mouvement.\n\nSon histoire moderne commence le 17 décembre 1790, lorsqu’elle est apparue sur la Grand-Place de Mexico. Ensuite, elle est restée près de cent ans encastrée dans la tour ouest de la cathédrale métropolitaine. En 1885, on l’a transportée à la galerie des Monolithes, dans la rue de la Monnaie. Et en 1964, elle est arrivée à la place d’honneur qu’elle occupe aujourd’hui, à Chapultepec."
+    },
+    "retos_observacion": {
+      "hash": "74f4fe06c8203a1d",
+      "texto": [
+        "Cherchez le visage du dieu solaire Tonatiuh au centre du disque.",
+        "Trouvez les quatre cases qui renferment les soleils des ères précédentes.",
+        "Suivez le bord extérieur jusqu’à voir les corps des deux serpents de feu."
+      ]
+    },
+    "especificaciones": {
+      "hash": "4914841b0beeea9a",
+      "texto": {
+        "Culture": "Mexica",
+        "Période": "Postclassique récent (1250-1521 apr. J.-C.)",
+        "Matériau": "Basalte à olivine avec pigments rouge et ocre",
+        "Provenance": "Centre historique, Mexico (Grand-Place)",
+        "Dimensions": "358 cm de diamètre x 98 cm d’épaisseur"
+      }
+    },
+    "faq_mito": {
+      "hash": "06c7c2187179d912",
+      "texto": {
+        "pregunta": "Mythe : La Pierre du Soleil est un calendrier servant à compter les jours.",
+        "respuesta": "Réalité : Elle porte les vingt signes des jours, mais c’était avant tout un monument rituel. Les Mexicas l’utilisaient à l’horizontale, comme plateforme ou récipient d’offrandes, et ils y ont représenté les ères du monde."
+      }
+    }
+  }
+}
