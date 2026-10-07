@@ -18,6 +18,7 @@ import fs from 'fs';
 import path from 'path';
 import { pathToFileURL } from 'url';
 import { MODES, AUDIO_LANGS, scriptFor, textHash } from './audio-lib.mjs';
+import { applyStoredTranslations } from './traducir-lib.mjs';
 
 // ===== CONFIGURACIÓN (lo único que normalmente se toca) =====================
 const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
@@ -517,6 +518,12 @@ export async function sync() {
 
   const rooms = buildRooms(salas.items);
   const pieces = buildPieces(piezas.items);
+
+  // Traducciones hechas con scripts/traducir.mjs: solo valen si el texto en español no cambió; una celda del Sheets manda sobre ellas.
+  const guardadas = applyStoredTranslations(process.cwd(), pieces, rooms);
+  for (const [lang, r] of Object.entries(guardadas)) {
+    console.log(`🌐 Traducciones guardadas (${lang}): ${r.applied} textos unidos${r.stale ? `, ${r.stale} ignorados porque el español cambió` : ''}.`);
+  }
 
   const { errors, warnings, sinFoto } = validate(rooms, pieces);
   const audiosUnidos = attachAudio(pieces, (kind, msg) => { (warnings[kind] ||= []).push(msg); });

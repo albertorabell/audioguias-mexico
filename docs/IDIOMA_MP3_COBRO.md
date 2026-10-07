@@ -247,3 +247,15 @@ Con Stripe en **modo de prueba**:
 ### Volver atrás
 
 Si algo no te gusta después de publicar: en GitHub abre el *pull request* ya mezclado y aprieta **Revert**. Vuelve todo como estaba.
+
+## Traducir los textos con Claude (inglés primero)
+
+El script `scripts/traducir.mjs` traduce piezas y salas con la API de Anthropic y el glosario de nombres propios (`glosario/glosario.csv`).
+
+- **Seguro por defecto:** sin `--generar` solo muestra el plan y el costo aproximado. Por defecto traduce como máximo 5 piezas y se detiene si el gasto de la corrida llegaría a US$ 2 (`--limite`, `--max-usd`).
+- **Dónde quedan:** `traducciones/en/pieza_<id>.json` y `sala_<id>.json`. Cada campo guarda la huella del español; si el español cambia, esa traducción se ignora (la app vuelve al español) hasta volver a traducirla.
+- **Revisiones automáticas:** la traducción no se guarda si cambia la forma (listas, FAQ), si queda texto en español, si el largo no cuadra o si trae formato. Los avisos (nombre del glosario ausente, números que no aparecen) se guardan en el archivo para revisarlos.
+- **Corregir a mano:** si escribes un texto en la columna `<campo>_en` del Google Sheets, ese texto manda sobre la traducción guardada.
+- **Botón:** GitHub > Actions > "Traducir textos" > Run workflow. Sin marcar "generar" solo muestra el plan. Con "generar" necesita el secreto `ANTHROPIC_API_KEY`. El resultado (español arriba, inglés abajo) aparece en el resumen de la corrida.
+- **No publica nada:** el inglés sigue oculto en el sitio hasta que se agregue a `PUBLISHED_LANGUAGES` (`src/i18n/languages.ts`).
+- Los precios del cálculo son aproximados (US$ 2 de entrada y US$ 10 de salida por millón de tokens, o los de `TRADUCIR_USD_ENTRADA` / `TRADUCIR_USD_SALIDA`): confirma los vigentes en la página de Anthropic.
