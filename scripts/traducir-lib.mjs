@@ -96,7 +96,7 @@ function parseCsvRows(input) {
 
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 // plural=true: en francés un nombre que se queda igual puede llevar -s o -x al final ("les Mexicas")
-const wordRe = (term, plural = false) => new RegExp(`(?<![\\p{L}\\p{N}])${escapeRe(term)}${plural ? '[sx]?' : ''}(?![\\p{L}\\p{N}])`, 'iu');
+const wordRe = (term, plural = false) => new RegExp(`(?<![\\p{L}\\p{N}])${escapeRe(term).replace(/['’]/g, "['’]")}${plural ? '[sx]?' : ''}(?![\\p{L}\\p{N}])`, 'iu');
 
 /**
  * Lee glosario/glosario.csv. Devuelve entradas { es, alts, en, keep, first, check }.

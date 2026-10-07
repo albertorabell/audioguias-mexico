@@ -121,6 +121,10 @@ jobs:
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
 
+      - name: Volver a traer los textos del Google Sheets (el paso de guardar los deja como estaban en el repositorio)
+        if: ${{ inputs.modo == 'lote-recoger' || (inputs.modo == 'lote-enviar' && inputs.generar) }}
+        run: node scripts/sync-sheets.js
+
       - name: Esperar el lote y recoger las traducciones
         if: ${{ inputs.modo == 'lote-recoger' || (inputs.modo == 'lote-enviar' && inputs.generar) }}
         env:

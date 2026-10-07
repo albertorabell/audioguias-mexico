@@ -327,12 +327,12 @@ async function recogerLote({ root, env, fetchImpl, log, warn, args, prices, all,
     }
     spent += usdFromUsage(r.message?.usage, prices) * BATCH_DISCOUNT;
     const u = all.find((x) => x.kind === lu.tipo && x.id === lu.id);
-    if (!u) { failed++; warn(`  ${tag} … ERROR: ya no existe en los datos`); continue; }
+    if (!u) { failed++; warn(`  ${tag} … ERROR: no está en los datos de ahora (¿se sincronizó el Sheets antes de recoger?)`); continue; }
     const names = Object.keys(lu.huellas);
     const todoFields = Object.fromEntries(names.filter((f) => u.fields[f] !== undefined).map((f) => [f, u.fields[f]]));
     if (names.some((f) => !todoFields[f] || fieldHash(todoFields[f]) !== lu.huellas[f])) {
       failed++;
-      warn(`  ${tag} … ERROR: el texto en español cambió mientras se traducía; se descarta (vuelve a enviarlo)`);
+      warn(`  ${tag} … ERROR: el texto en español de ahora no es el que se mandó (cambió el Sheets o no se sincronizó); se descarta (vuelve a enviarlo)`);
       continue;
     }
     try {

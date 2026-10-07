@@ -541,11 +541,20 @@ test('lote: si el texto en español cambió mientras tanto, esa traducción se d
   const out = [];
   await main(['--lote', 'recoger'], { root, env: ENVK, fetchImpl: api.fetchImpl, log: (m) => out.push(m), warn: (m) => out.push(m) });
   assert.equal(files(root).length, 0);
-  assert.match(out.join('\n'), /cambió mientras se traducía/);
+  assert.match(out.join('\n'), /no es el que se mandó/);
 });
 
 test('lote: opciones inválidas', () => {
   assert.throws(() => parseArgs(['--lote', 'x']), /enviar o recoger/);
   assert.throws(() => parseArgs(['--lote', 'enviar', '--proveedor', 'prueba']), /solo funciona con el proveedor claude/);
   assert.throws(() => parseArgs(['--esperar', '-1']), /entre 0 y 1440/);
+});
+
+test('francés: el apóstrofo recto del glosario y el tipográfico del texto cuentan como lo mismo', () => {
+  const file = path.join(makeRoot(1), 'glosario/glosario.csv');
+  fs.appendFileSync(file, "Museo,traducir,Museo Nacional de Antropología,National Museum of Anthropology,5,,Musée national d'anthropologie\n");
+  const g = loadGlossary(file, 'fr');
+  const src = { guion_corto: 'El Museo Nacional de Antropología resguarda esta pieza desde hace décadas, y recibe millones de visitantes cada año.' };
+  const out = { guion_corto: 'Le Musée national d’anthropologie conserve cette pièce depuis des décennies et accueille des millions de visiteurs chaque année.' };
+  assert.deepEqual(validateTranslation(src, out, glossaryFor(g, [src.guion_corto]), { lang: 'fr' }).warnings, {});
 });
