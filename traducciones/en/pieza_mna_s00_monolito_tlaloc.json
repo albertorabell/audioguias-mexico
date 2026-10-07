@@ -1,0 +1,52 @@
+{
+  "id": "mna_s00_monolito_tlaloc",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7ac6bf97626991ab",
+      "texto": "Tláloc Monolith"
+    },
+    "frase_gancho": {
+      "hash": "5aa96a490b25ef42",
+      "texto": "Tláloc, god of rain, made of volcanic stone and brought from Coatlinchan."
+    },
+    "puente_narrativo": {
+      "hash": "f4819ff0d886b240",
+      "texto": "We begin outside the museum, with the water god carved in volcanic stone who welcomes visitors."
+    },
+    "guion_corto": {
+      "hash": "09c57e42cfb1c8f9",
+      "texto": "Tláloc is the Nahuatl name of the god of rain. This sculpture represents him, and the ancient Nahua Peoples revered him as the god of water. It is carved from volcanic stone and comes from San Miguel Coatlinchan, in the State of Mexico. It is a gigantic statue, and one look is enough to see why. It arrived in Mexico City in the 1960s. Today it welcomes visitors outside the building, in the open air, and its size can be seen from far away. Some researchers have proposed that it might be Chalchiuhtlicue, a female water deity. It is a proposal, not a conclusion. What is certain is that it speaks of water, of what the earth needs in order to give life."
+    },
+    "guion_largo": {
+      "hash": "39d6298618e7fe81",
+      "texto": "Tláloc is the water god for the ancient Nahua Peoples. In Nahuatl, his name is understood as god of rain. This is his image, carved in volcanic stone, and it welcomes visitors before they enter the museum. Its size is the first thing you notice, and it is worth measuring it with your eyes, comparing it with the people who pass by its side.\n\nThe stone comes from San Miguel Coatlinchan, in the State of Mexico. It stood there before arriving at Chapultepec Forest. Its transfer took place in the 1960s, and the year is given as either 1963 or 1964. Think about what it means to move a stone of this size from a town to a city. The most repeated references speak of around 168 tons and seven meters in height.\n\nSome researchers have proposed that this figure is not Tláloc, but Chalchiuhtlicue, a female water deity. It is a proposal and not a conclusion. In either case, the theme is the same: water, on which everything that lives depends.\n\nThe sculpture is usually dated between the fourth and sixth centuries AD, and linked to Teotihuacán. It is a hypothesis. Who carved it, and with what ceremonies it was surrounded, remain open questions.\n\nThe sculpture stands in the open air, and that has its own logic: a water god exposed to the sky, to the clouds and to the rain. If it rains while you visit, the stone may seem to you to be in its element."
+    },
+    "retos_observacion": {
+      "hash": "8d0516bd69cfbdd4",
+      "texto": [
+        "Measure the whole figure with your eyes and compare it with the people passing nearby.",
+        "Look closely at the volcanic stone: see whether there are joints, or whether it is a single block.",
+        "Look for the features used to represent a god of water and rain."
+      ]
+    },
+    "especificaciones": {
+      "hash": "b68c5f5d8addbb76",
+      "texto": {
+        "Material": "Volcanic stone",
+        "Origin": "San Miguel Coatlinchan, State of Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "3aba2b3cf1e1e2e5",
+      "texto": {
+        "pregunta": "Myth: This great sculpture is a modern work, made to decorate the museum entrance.",
+        "respuesta": "Reality: It is a pre-Hispanic sculpture that represents Tláloc. It comes from San Miguel Coatlinchan, in the State of Mexico, and was moved to the museum."
+      }
+    }
+  }
+}

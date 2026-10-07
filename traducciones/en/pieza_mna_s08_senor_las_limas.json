@@ -1,0 +1,56 @@
+{
+  "id": "mna_s08_senor_las_limas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0c28a646b57fda13",
+      "texto": "The Lord of Las Limas"
+    },
+    "frase_gancho": {
+      "hash": "226960a8b23d1254",
+      "texto": "Two children looking for a turtle found it."
+    },
+    "puente_narrativo": {
+      "hash": "207740db7575dcd4",
+      "texto": "We move from the Colossal Heads to a small and very different piece: a green stone sculpture found by two children."
+    },
+    "guion_corto": {
+      "hash": "39f05ecf443033ff",
+      "texto": "On July 16, 1965, two children were looking for a turtle in the community of Las Limas, in Veracruz. Their names were Severiano and Rosa Manuel Esteban. Instead of the turtle, they found an Olmec sculpture made of serpentine, a green stone. Today it is known as the Lord of Las Limas. It measures 55 centimeters high, 42 wide and 33 thick. It was carved in the Middle Preclassic, by a culture that worked green stones with great skill. It shows a seated man with his legs crossed, holding a child on his lap. Who carved it and for what purpose remains a mystery, and any explanation is a hypothesis. What is certain is that it was not found by a team of specialists, but by two children, by chance."
+    },
+    "guion_largo": {
+      "hash": "cdb98ee475dbfc4d",
+      "texto": "Its discovery sounds like a fairy tale. On July 16, 1965, two children, Severiano and Rosa Manuel Esteban, were looking for a turtle in the community of Las Limas. Instead of the turtle, they found the sculpture. It was not a planned excavation or a discovery made by specialists. The piece takes the name by which it is known today from that community.\n\nIt is an Olmec sculpture made of serpentine, a green stone. It measures 55 centimeters high, 42 wide and 33 thick. It dates to the Middle Preclassic (Preclassic) and comes from Las Limas, in the municipality of Jesús Carranza, Veracruz.\n\nSerpentine is not easy to work. The Olmec stood out for carving extremely hard minerals, such as jadeite, serpentine and magnetite. With them they made masks, ceremonial axes and pectorals. This sculpture continues that tradition.\n\nIt shows a seated man, with his legs crossed, holding a child on his lap. Any reading of this scene is a hypothesis. What can be seen is a carefully thought-out composition.\n\nThe Olmec lived in low-lying jungles and along the banks of mighty rivers, in southern Veracruz and Tabasco. They founded centers such as San Lorenzo, La Venta and Tres Zapotes. It is much smaller than a Colossal Head, but it shares with them careful work in a difficult stone."
+    },
+    "retos_observacion": {
+      "hash": "e8afd9ff1b90b1b4",
+      "texto": [
+        "Look for the seated man with his legs crossed.",
+        "Notice the child he holds on his lap.",
+        "Look at the green color of the stone: it is serpentine."
+      ]
+    },
+    "especificaciones": {
+      "hash": "b4c86d6927972b45",
+      "texto": {
+        "Culture": "Olmec",
+        "Period": "Middle Preclassic",
+        "Material": "Serpentine",
+        "Origin": "Las Limas, municipality of Jesús Carranza, Veracruz",
+        "Dimensions": "0.55 m high x 0.42 m wide x 0.33 m thick",
+        "Discovery": "Discovered on July 16, 1965 by two children, Severiano and Rosa Manuel Esteban, who were looking for a turtle"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2295e94b6cd2191",
+      "texto": {
+        "pregunta": "Myth: A team of archaeologists found it during an excavation.",
+        "respuesta": "Reality: It was found by two children, Severiano and Rosa Manuel Esteban, on July 16, 1965. They were looking for a turtle."
+      }
+    }
+  }
+}

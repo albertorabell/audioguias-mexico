@@ -1,0 +1,55 @@
+{
+  "id": "mna_s08_hacha_votiva_jade",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "148db46b88168d5e",
+      "texto": "Olmec Jade Votive Axe (Kunz Type)"
+    },
+    "frase_gancho": {
+      "hash": "52d8882b2db3904a",
+      "texto": "A green slab barely three centimeters thick, engraved with fine lines."
+    },
+    "puente_narrativo": {
+      "hash": "c2f61051220e5101",
+      "texto": "We close the Olmec section with a small, delicate piece: a plaque of green stone with fine engraved lines."
+    },
+    "guion_corto": {
+      "hash": "05ceec30f823cdb9",
+      "texto": "What makes this piece special is almost invisible from the front: it is only 3 centimeters thick. It is the Olmec Jade Votive Axe, known as the Kunz Type. It measures 29 centimeters high and 13.5 wide. It is a thin slab of green stone, with incised lines on its surface. The Olmec carved it in the Middle Preclassic, and it comes from the Gulf Coast of the Gulf of Mexico. Votive means that it was offered in a ritual context. The Olmec stood out for carving very hard stones, such as jadeite and serpentine. With them they made ceremonial axes, masks, and pectorals. The most delicate feature is the fine lines engraved on the stone."
+    },
+    "guion_largo": {
+      "hash": "3a30f385a2deb382",
+      "texto": "This piece changes depending on where you look at it from. From the front, it is a green slab. From the side, it almost disappears, because it is only 3 centimeters thick. It is the Olmec Jade Votive Axe, known as the Kunz Type. It measures 29 centimeters high and 13.5 wide.\n\nIt is made of green stone, jadeite or serpentine, dark green and extremely hard. Its shape is more like a plaque than a tool. On its surface it has incisions, that is, fine engraved lines.\n\nIt comes from the Gulf Coast of the Gulf of Mexico and dates to the Middle Preclassic. The name says axe, but the word votive changes the meaning. A votive object is offered in a ritual context.\n\nCeremonial axes of green stone are part of the Olmec repertoire, along with masks and pectorals. The Olmec stood out for carving extremely hard minerals, such as jadeite, serpentine, and magnetite.\n\nWorking a stone like this until it becomes a slab 3 centimeters thick, and engraving fine lines on it, demands patience and great skill. Compare its three measurements: 29 high, 13.5 wide, and 3 thick. That thinness is what sets it apart in this hall."
+    },
+    "retos_observacion": {
+      "hash": "0c51973a544be4c4",
+      "texto": [
+        "Look for the incised lines engraved on the stone.",
+        "Notice the dark green of the surface.",
+        "Compare its height with its thickness: twenty-nine against three."
+      ]
+    },
+    "especificaciones": {
+      "hash": "21e8fb3064ff9170",
+      "texto": {
+        "Culture": "Olmec",
+        "Period": "Middle Preclassic",
+        "Material": "Jadeite (dark green, with incisions)",
+        "Origin": "Gulf Coast, Mexico",
+        "Dimensions": "0.29 m high x 0.135 m wide x 0.03 m thick"
+      }
+    },
+    "faq_mito": {
+      "hash": "25a6657f0c3170d1",
+      "texto": {
+        "pregunta": "Myth: Jade axes like this one were weapons of war.",
+        "respuesta": "Reality: This is a votive axe, that is, a ceremonial one. It is a slab of green stone only three centimeters thick, with incised lines."
+      }
+    }
+  }
+}

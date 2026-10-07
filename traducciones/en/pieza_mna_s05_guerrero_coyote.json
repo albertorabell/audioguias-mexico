@@ -1,0 +1,58 @@
+{
+  "id": "mna_s05_guerrero_coyote",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Toltec\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "c4bfa3a5680f6c72",
+      "texto": "Toltec Warrior Sculpture with Coyote Helmet"
+    },
+    "frase_gancho": {
+      "hash": "64f26f7335c9c982",
+      "texto": "A human face peers out from between the jaws of a stone coyote."
+    },
+    "puente_narrativo": {
+      "hash": "ff87edaea2bf6f68",
+      "texto": "We move on to the warrior who gives his name to one of the military orders of Tula: the Coyote Warrior."
+    },
+    "guion_corto": {
+      "hash": "efb549e4d54a30ca",
+      "texto": "A human face peers out from between the jaws of a coyote. This Toltec sculpture, from Tula, is a basalt monolith carved in high relief, from the Early Postclassic. It represents an officer or captain of the military elite, dressed in his battle insignia. His face looks out from between the jaws of an enormous headdress or helmet shaped like a coyote. He wears a pectoral with the stylized silhouette of a butterfly, armbands, a loincloth and, above, the figure of a descending bird. It represents the Coyote Warriors, one of the most influential warrior orders of Tula, along with the Jaguar Warriors and the Eagle Warriors. This military structure was later inherited by the Mexica armies."
+    },
+    "guion_largo": {
+      "hash": "502fcc209eb25f7a",
+      "texto": "A stone coyote, and inside its jaws, a human face. This is how this warrior from Tula presents himself.\n\nIt is a Toltec sculpture from the Early Postclassic. It is a basalt monolith, carved in high relief. It represents an officer or captain of the Toltec military elite, dressed in his battle insignia.\n\nLook at the headdress. It is an enormous helmet shaped like a coyote, and the warrior's face peers out through the open jaws. He also wears a pectoral with the stylized silhouette of a butterfly, papalotl in Nahuatl, armbands and a loincloth. At the top there is the figure of a descending bird.\n\nThe coyote is no ordinary ornament. This image represents the military corporation of the Coyote Warriors. It was one of the most influential warrior orders of Tula, along with the Jaguar Warriors and the Eagle Warriors.\n\nThey are the same animals that march across the frieze in this hall. The military orders had predatory animals as their emblem, and the walls of Tula displayed them everywhere.\n\nThe idea had a long life. The Mexica armies later inherited this military structure, divided into orders of animals.\n\nBefore going on, notice the contrast. The stone is hard and heavy, but the human face peering out from between the jaws has a strange calm."
+    },
+    "retos_observacion": {
+      "hash": "70482442f1745390",
+      "texto": [
+        "Find the human face between the coyote's jaws.",
+        "Look at the pectoral with the silhouette of a butterfly.",
+        "Find the descending bird at the top."
+      ]
+    },
+    "especificaciones": {
+      "hash": "e95eeb495b158075",
+      "texto": {
+        "Culture": "Toltec",
+        "Period": "Early Postclassic (900-1200 AD)",
+        "Material": "Basalt carved in high relief",
+        "Origin": "Tula, Hidalgo"
+      }
+    },
+    "faq_mito": {
+      "hash": "c950ac6d64aeb990",
+      "texto": {
+        "pregunta": "Myth: The coyote on the helmet was a sacred animal that the Toltecs did not dare to touch.",
+        "respuesta": "Reality: It was the emblem of a military order, the Coyote Warriors, one of the most influential in Tula along with the Jaguar and Eagle Warriors."
+      }
+    }
+  }
+}

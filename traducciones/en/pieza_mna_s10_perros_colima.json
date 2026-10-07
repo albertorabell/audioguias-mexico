@@ -1,0 +1,59 @@
+{
+  "id": "mna_s10_perros_colima",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "especificaciones": [
+      "el glosario pide \"Shaft Tombs\" para \"Tumbas de Tiro\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "5add5136b32312fe",
+      "texto": "Fattened Dogs / Dancing Dogs of Colima"
+    },
+    "frase_gancho": {
+      "hash": "e38ca70cc8d25482",
+      "texto": "Red clay dogs that accompanied the dead on their way to the underworld."
+    },
+    "puente_narrativo": {
+      "hash": "90e96077f90eb8e1",
+      "texto": "The tour of West Mexico begins here, where the dead were buried in underground tombs and accompanied by clay figures. The first is a dog."
+    },
+    "guion_corto": {
+      "hash": "7224eac499efda81",
+      "texto": "People call them dancing dogs, but these dogs are not dancing. They are fattened dogs, that is, very plump ones: they have a chubby body, smooth skin and a rounded belly. They represent the xoloitzcuintli, Mexico’s hairless dog. They were made by the people of Colima, in the West, during the Classic period. They modeled them by hand in clay and polished them until they gleamed a bright red. Some examples wear a mask with a human face over the snout. It is thought to express a very close bond between the person and the animal. These figures were left in the shaft tombs, the underground chambers where the dead were buried. Their task was to accompany and guide the soul of the deceased on its dangerous journey to the underworld. Behind their friendly look lay a very serious mission."
+    },
+    "guion_largo": {
+      "hash": "e17185b587007017",
+      "texto": "The popular name of these figures is misleading. They are called dancing dogs, and it is easy to see why: they have round bodies, a cheerful stance and a face that seems to smile. But archaeologists identify them as fattened dogs, representations of the xoloitzcuintli, Mexico’s native hairless dog.\n\nThe people of Colima made them, within the shaft tomb tradition, during the Classic period. They modeled them by hand in clay and then polished them with great care, until the surface turned a bright red. Look at the body. It is chubby, with smooth skin and a rounded belly. This is how a well-fed dog was portrayed, the fattened dog that gives the piece its name.\n\nThere is one feature that draws attention in some examples. Over the snout they wear a mask with a human face. Specialists interpret it as a very close bond between the person and the animal. It would be a kind of transformation in which the dog takes on something of the one it accompanies.\n\nTo understand the meaning of these figures, we have to go down into the shaft tombs. They were underground chambers, reached by a vertical shaft, and the dead were buried there. The clay figures were left as offerings inside those chambers. The task of the dogs was precise: to accompany and guide the soul of the deceased on its passage to the underworld, the realm of the dead. That journey was thought to be dangerous, and no one should make it alone.\n\nThat is why the dog, the animal that keeps people company in life, was also the ideal companion in death. Today those dogs are no longer underground, but in plain view of everyone. Behind their friendly look they hold a very serious idea: that death was a road, and that it was traveled in company."
+    },
+    "retos_observacion": {
+      "hash": "225345865f08f09e",
+      "texto": [
+        "Look at the dog’s chubby body and rounded belly.",
+        "Notice the shine of the red clay, polished by hand with great care.",
+        "See whether the snout wears a mask with a human face."
+      ]
+    },
+    "especificaciones": {
+      "hash": "5bde172ccae9ad35",
+      "texto": {
+        "Culture": "Shaft Tomb Tradition / Colima",
+        "Period": "Classic (200 BC-600 AD)",
+        "Material": "Clay (ceramic), hand-modeled and polished, bright red in color",
+        "Origin": "Colima, Mexico",
+        "Dimensions": "20 cm high x 19 cm wide x 36 cm long"
+      }
+    },
+    "faq_mito": {
+      "hash": "c19117c0dd534a08",
+      "texto": {
+        "pregunta": "Myth: The dancing dogs of Colima represent little dogs dancing at a party.",
+        "respuesta": "Reality: They are fattened dogs, images of the xoloitzcuintli. They were left in the shaft tombs as companions and guides for the soul of the deceased on the way to the underworld."
+      }
+    }
+  }
+}

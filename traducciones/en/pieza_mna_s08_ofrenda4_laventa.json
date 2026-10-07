@@ -1,0 +1,56 @@
+{
+  "id": "mna_s08_ofrenda4_laventa",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "bed17fcd7b28af76",
+      "texto": "Offering 4 of La Venta"
+    },
+    "frase_gancho": {
+      "hash": "f082956a27403e30",
+      "texto": "Sixteen figures and six green stone axes, buried together at La Venta."
+    },
+    "puente_narrativo": {
+      "hash": "e873d5992e8ed7e8",
+      "texto": "We leave the great head behind to look at something quieter: a group of figures and axes that were buried together, with a ritual purpose."
+    },
+    "guion_corto": {
+      "hash": "01dcca7478ddc868",
+      "texto": "Sixteen stone figures and six green axes make up Offering 4 of La Venta, in Tabasco. The figures are statuettes of men and measure between 16 and 20 centimeters tall. The axes, placed upright like stelae, measure between 23 and 27. Everything is carved from serpentine, jadeite, and green granite. It is the work of the Olmec, from the Middle Preclassic. It was discovered in 1955 by the archaeologist Eduardo Contreras, in Complex A. An offering is a set of objects left with a ritual purpose. That is why the order in which the pieces were placed matters, and not just each one on its own. Look at the figures as a single group, which is how they were conceived."
+    },
+    "guion_largo": {
+      "hash": "cfff1b0bc59a600b",
+      "texto": "La Venta is an Olmec site in the municipality of Huimanguillo, in Tabasco. There, in Complex A, this offering appeared in 1955, discovered by the archaeologist Eduardo Contreras. It brings together 16 statuettes of men and six axes, and belongs to the Middle Preclassic.\n\nThe statuettes measure between 16 and 20 centimeters tall. The axes are taller, from 23 to 27 centimeters, and are arranged upright, like stelae. Everything was carved from serpentine, jadeite, and green granite.\n\nSince it was found, it has been studied as a single group and not as separate pieces. It is a composition conceived to be seen as a whole. An offering is left buried with a ritual purpose, and nothing is placed by chance. The position of each piece, the number, and the materials are all part of the message.\n\nWhat scene the Olmec meant to represent has not been confirmed. What can be seen is quantity, order, and carefully chosen materials.\n\nLa Venta was one of the first Olmec ceremonial centers, along with San Lorenzo and Tres Zapotes. The Olmec lived in lowland rainforests and along mighty rivers in southern Veracruz and Tabasco. Count the statuettes and the axes, and compare their heights: the axes are taller than the figures."
+    },
+    "retos_observacion": {
+      "hash": "4b8de9c5941cfb7a",
+      "texto": [
+        "Count the statuettes: there are sixteen figures of men.",
+        "Find the six axes placed upright, like stelae.",
+        "Compare the height of the axes with that of the figures."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2657d70b99d694a7",
+      "texto": {
+        "Culture": "Olmec",
+        "Period": "Middle Preclassic",
+        "Material": "Serpentine, jadeite, and green granite",
+        "Origin": "La Venta, municipality of Huimanguillo, Tabasco",
+        "Dimensions": "Statuettes: 0.16 to 0.20 m tall; axes: 0.23 to 0.27 m tall",
+        "Discovery": "Discovered in 1955 by the archaeologist Eduardo Contreras in Complex A of La Venta"
+      }
+    },
+    "faq_mito": {
+      "hash": "bdab7f5bef1aef4d",
+      "texto": {
+        "pregunta": "Myth: The figures of Offering 4 of La Venta are toys or decorative dolls.",
+        "respuesta": "Reality: They form an offering. They are sixteen statuettes and six axes of serpentine, jadeite, and green granite, found in Complex A of La Venta."
+      }
+    }
+  }
+}

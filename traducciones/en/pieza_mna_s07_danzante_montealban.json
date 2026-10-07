@@ -1,0 +1,54 @@
+{
+  "id": "mna_s07_danzante_montealban",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0a262e2ee8669e2",
+      "texto": "Stela of “Los Danzantes” from Monte Albán"
+    },
+    "frase_gancho": {
+      "hash": "393f60729851c417",
+      "texto": "They are called Los Danzantes, the Dancers, but nobody is dancing."
+    },
+    "puente_narrativo": {
+      "hash": "b31a8294ffa7aefc",
+      "texto": "We remain in Monte Albán, the Zapotec city, with a stone whose name is deceiving: nobody is dancing on it."
+    },
+    "guion_corto": {
+      "hash": "60c254c0d7ff843f",
+      "texto": "They are called Los Danzantes, the Dancers, but nobody is dancing. Nineteenth-century explorers believed that the figures on these slabs were performing dance or swimming movements. Today we know they are portraits of war captives. This stela is Zapotec, comes from the Building of Los Danzantes, in Monte Albán, Oaxaca, and dates to the Preclassic, the first stage of the city. It shows a naked man in a contorted posture, with his eyes closed and his mouth open. Some incisions indicate mutilation or flowing blood. Beside him there are cartouches with calendrical glyphs. It was part of a gallery on the walls of Monte Albán’s first public architecture."
+    },
+    "guion_largo": {
+      "hash": "a0ecae442a51f91c",
+      "texto": "Here nobody is dancing. The first explorers, in the nineteenth century, believed that the figures were performing dance or swimming movements. That is where the popular name Los Danzantes comes from.\n\nModern studies, based on epigraphy and iconography, say something else. These are portraits of war captives, sacrificed to legitimize the power of the emerging Zapotec city.\n\nThis stela comes from the Building of Los Danzantes, in Monte Albán, Oaxaca. It is Zapotec and dates to the Preclassic, the first stage of the city. It is a stone slab, carved in low relief and with incisions. It was part of a gallery on the walls of Monte Albán’s first public architecture.\n\nThe figure is a naked man, in a contorted posture. His eyes are closed and his mouth is open. Some incisions indicate mutilation or flowing blood. Beside him there are cartouches with calendrical glyphs.\n\nThe gallery was designed to display military victory, the humiliation and the sacrifice of the captured rival rulers and chiefs. It was a public message, written in stone.\n\nLook at the posture of the body. It is not that of a dance, but that of someone defeated."
+    },
+    "retos_observacion": {
+      "hash": "89227847a8d673b9",
+      "texto": [
+        "Look at the twisted posture of the naked body.",
+        "Notice the closed eyes and the open mouth.",
+        "Find the cartouches with calendrical glyphs beside the figure."
+      ]
+    },
+    "especificaciones": {
+      "hash": "bf20bfd72137eda5",
+      "texto": {
+        "Culture": "Zapotec",
+        "Period": "Preclassic, first stage of Monte Albán (Monte Albán I)",
+        "Material": "Stone",
+        "Origin": "Building of Los Danzantes, Monte Albán, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "a84af3fe3584deb8",
+      "texto": {
+        "pregunta": "Myth: Los Danzantes are dancers celebrating a festival.",
+        "respuesta": "Reality: They are portraits of war captives, sacrificed to legitimize the power of the emerging Zapotec city. The name comes from a mistake by the first explorers."
+      }
+    }
+  }
+}

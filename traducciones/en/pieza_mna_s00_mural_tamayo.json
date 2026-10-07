@@ -1,0 +1,55 @@
+{
+  "id": "mna_s00_mural_tamayo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6eb8cc32697d184b",
+      "texto": "Mural “La Dualidad” by Rufino Tamayo"
+    },
+    "frase_gancho": {
+      "hash": "664c3b9d549257aa",
+      "texto": "A serpent and a jaguar face each other beneath the sun, the moon, and the constellations."
+    },
+    "puente_narrativo": {
+      "hash": "f2e18d9c006817b2",
+      "texto": "Before you enter the halls, a mural by Rufino Tamayo in the lobby introduces the idea you will see again and again: duality."
+    },
+    "guion_corto": {
+      "hash": "e6211f6f8a281207",
+      "texto": "A serpent and a jaguar face off against a sky filled with stars and planets. This is La Dualidad, the mural Rufino Tamayo painted in 1964 for the museum’s lobby. Tamayo was born in 1899 and died in 1991. The work measures 3.53 meters high and 12.21 long. The scene shows Quetzalcóatl, the Feathered Serpent, and Tezcatlipoca, the jaguar of the night. Around them appear the sun, the moon, and the constellations. The underlying idea is duality, the coexistence of opposites such as day and night. It is a very ancient Mesoamerican way of thinking, told by a modern painter. Take a look before you enter the halls, because it announces a way of understanding the world that you will encounter many times."
+    },
+    "guion_largo": {
+      "hash": "67706b7cfdbde681",
+      "texto": "As soon as you enter the museum, a mural more than twelve meters long welcomes you. It is La Dualidad, by Rufino Tamayo, painted in 1964, the same year the building was inaugurated.\n\nRufino Tamayo was born in 1899 and died in 1991. He is one of the great names of modern Mexican painting. His mural measures 3.53 meters high and 12.21 long, and it covers the wall of the main entrance lobby.\n\nThe scene shows a fight between two animals: a jaguar that growls and a serpent that hisses. They are interpreted as Tezcatlipoca, the god of the night, and Quetzalcóatl, the Feathered Serpent. Around them are elements of the sky: the sun, the moon, and the constellations.\n\nThe title holds the key. Duality is the idea that the universe is sustained by pairs of opposites, like day and night. These opposites need each other. It is an ancient way of thinking, present in the worldview of many Mesoamerican peoples. Today it is told by a twentieth-century painter.\n\nThat it is a modern mural, in a museum of ancient cultures, makes sense. Before exploring the halls, the visitor receives a clue. The peoples you are about to meet thought about the world in a way very different from ours today.\n\nPause on the colors and the composition. Notice where each animal is and which celestial bodies appear near each one."
+    },
+    "retos_observacion": {
+      "hash": "e04fc6b91ce4d3bf",
+      "texto": [
+        "Find the serpent and the jaguar face to face.",
+        "Spot the sun, the moon, and the constellations in the background.",
+        "Think about which opposites you see in the scene: day and night."
+      ]
+    },
+    "especificaciones": {
+      "hash": "ba5d36608ea665d9",
+      "texto": {
+        "Culture": "Rufino Tamayo (1899-1991), muralism and modern Mexican art",
+        "Period": "1964",
+        "Material": "Acrylic on a wooden support with a resin texture",
+        "Origin": "Wall of the main entrance lobby, National Museum of Anthropology, Mexico City",
+        "Dimensions": "3.53 m high x 12.21 m long"
+      }
+    },
+    "faq_mito": {
+      "hash": "c2d548b9b17db275",
+      "texto": {
+        "pregunta": "Myth: Tamayo’s mural tells the story of the conquest, with Aztecs against Spaniards.",
+        "respuesta": "Reality: La Dualidad shows Quetzalcóatl and Tezcatlipoca, the Feathered Serpent and the jaguar of the night. It speaks of the coexistence of opposites, like day and night."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s08_carita_sonriente",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "81b132fbddf1330c",
+      "texto": "Smiling Face Sculpture"
+    },
+    "frase_gancho": {
+      "hash": "3d43b36927d12b6d",
+      "texto": "An open laugh made in clay, amid the most solemn art of Mesoamerica."
+    },
+    "puente_narrativo": {
+      "hash": "edade37f5507ff41",
+      "texto": "We continue on to the Classic period of central Veracruz, with a clay figure that trades solemnity for laughter."
+    },
+    "guion_corto": {
+      "hash": "c7e2194915bf42a1",
+      "texto": "Mesoamerican art is usually solemn. This clay figure, by contrast, is laughing. It is one of the smiling faces of Remojadas, made in central Veracruz during the Late Classic. It is hollow ceramic, shaped by hand and in a mold. The laugh is wide open and shows the teeth and the tongue. It wears a rounded headdress, with geometric or animal motifs, and sometimes it holds a rattle or a fan with its arms raised. On some of them there are touches of chapopote, a natural asphalt, on the eyes, the mouth and the ornaments. Specialists associate them with music, fertility, agricultural renewal and ritual trance. They also link them with Xochipilli, the god of song, dance and joy."
+    },
+    "guion_largo": {
+      "hash": "c387863e8af0e7fc",
+      "texto": "The smiling faces are clay figures from the Remojadas tradition, in central Veracruz. They belong to the Late Classic, around the years 600 to 900 AD. They have been found in Remojadas and in the Tierra Blanca region.\n\nThey are hollow figures, shaped by hand and also in a mold. Sometimes they have a light-colored slip. On the eyes, mouth and ornaments they may have touches of chapopote, a natural asphalt from the region. That combination of clay, light color and black gives them a very lively look.\n\nThe laugh is wide open and shows the teeth and the tongue. It is a joyful, realistic expression, something uncommon in the art of Mesoamerica, which tends to be hieratic and solemn. They wear rounded headdresses, with geometric or animal motifs. They may have loincloths and pectorals. Sometimes they hold rattles or fans with their arms raised.\n\nSpecialists associate them with fertility rites, with music, with agricultural renewal and with states of ritual trance. Also with Xochipilli, the god of song, dance and joy. These are interpretations, because there is no text from the period that confirms them.\n\nNot all of them are the same size: they range between 15 and 35 centimeters in height. That is why people speak of the smiling faces, in the plural, as a type of figure and not as a single work. In a hall full of hard stone, clay offers something different: an open laugh made with patience."
+    },
+    "retos_observacion": {
+      "hash": "f97ba90d35af0910",
+      "texto": [
+        "Look at the open laugh: you can see the teeth and the tongue.",
+        "Look for the rounded headdress with geometric or animal motifs.",
+        "Notice whether it holds a rattle or a fan with its arms raised."
+      ]
+    },
+    "especificaciones": {
+      "hash": "b5cdf9c326858e7f",
+      "texto": {
+        "Culture": "Remojadas / Central Veracruz",
+        "Period": "Late Classic (600-900 AD)",
+        "Material": "Ceramic, modeled clay",
+        "Origin": "Remojadas, central Veracruz"
+      }
+    },
+    "faq_mito": {
+      "hash": "b4fc47e2c4c2e33a",
+      "texto": {
+        "pregunta": "Myth: The smiling faces of Veracruz are war captives smiling before being sacrificed.",
+        "respuesta": "Reality: Specialists associate them with music, fertility and ritual trance, and with Xochipilli, the god of song, dance and joy."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_marcador_ventilla",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8fbe431fe09917b3",
+      "texto": "Ball Game Marker from La Ventilla"
+    },
+    "frase_gancho": {
+      "hash": "40b95a51c0dcdc21",
+      "texto": "A stone sculpture that comes apart, where the ball game comes to life."
+    },
+    "puente_narrativo": {
+      "hash": "6bb66b859cf14c6d",
+      "texto": "We continue with the life of the city, now with an object of play and ritual: a ball game marker that could be assembled and taken apart."
+    },
+    "guion_corto": {
+      "hash": "fca0d4e413bb7b21",
+      "texto": "A monument that can be assembled and taken apart? That is exactly what this ball game marker is. It is made of four sections carved separately, which fit together precisely by means of tenons of the same stone. At the bottom is a cylindrical post carved with braided patterns. At the top, an openwork disk or ring, decorated with feathers and spirals, which symbolize a rubber ball and movement. It is made of andesite, with stucco and polychrome pigment, and it comes from the Teotihuacán culture, from the Classic period. It was found in 1962, during explorations of the La Ventilla neighborhood, southwest of Teotihuacán."
+    },
+    "guion_largo": {
+      "hash": "4e7f31e6dbd8f8c0",
+      "texto": "This marker can be assembled and taken apart. That alone makes it special.\n\nIt is a portable sculpture made up of four sections, carved independently. They fit together precisely by means of tenons of the same stone. At the bottom is a cylindrical post carved with braided patterns. On top of it, a flared section. And at the top, an openwork disk or ring, decorated with feathers and spirals that symbolize a rubber ball and movement.\n\nIt is made of andesite, with stucco and polychrome pigment. It belongs to the Teotihuacán culture, from the Classic period. It was found in 1962, during explorations of the La Ventilla neighborhood, southwest of the city.\n\nThere is a detail that makes it even more interesting. In Teotihuacán, no enclosed courts like those of other Mesoamerican cities have been found. For that reason, it is thought that the game was played in open plazas or courtyards, and that these portable markers were used for that kind of space.\n\nTheir use appears illustrated in the Tepantitla murals, where players can be seen with sticks, using identical markers.\n\nAn object designed to be moved, which tells how the game was played in a city without courts."
+    },
+    "retos_observacion": {
+      "hash": "adb53dcbf14b62bc",
+      "texto": [
+        "Find the four sections that make up the marker.",
+        "Look at the openwork upper ring, with feathers and spirals.",
+        "Notice the braided patterns carved into the cylindrical post."
+      ]
+    },
+    "especificaciones": {
+      "hash": "1bec4c36259a7969",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (1-650 AD)",
+        "Material": "Andesite, stucco, and pigment",
+        "Origin": "Teotihuacán, State of Mexico (La Ventilla neighborhood, southwest of the city)",
+        "Dimensions": "2.15 m high x 0.77 m wide x 0.55 m thick",
+        "Discovery": "Found in 1962 during explorations in the La Ventilla neighborhood"
+      }
+    },
+    "faq_mito": {
+      "hash": "ba57000db2b84785",
+      "texto": {
+        "pregunta": "Myth: The La Ventilla marker was a fixed stone in a large enclosed court.",
+        "respuesta": "Reality: It is a portable sculpture, which can be taken apart into four sections, and in Teotihuacán no enclosed courts like those of other cities have been found."
+      }
+    }
+  }
+}

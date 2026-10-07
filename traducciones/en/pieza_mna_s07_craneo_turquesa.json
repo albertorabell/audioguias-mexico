@@ -1,0 +1,55 @@
+{
+  "id": "mna_s07_craneo_turquesa",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0f8b304c2757241",
+      "texto": "Skull with Turquoise Mosaic from Tomb 7"
+    },
+    "frase_gancho": {
+      "hash": "b0e8cde39581919b",
+      "texto": "A human skull covered in turquoise, found in a tomb at Monte Albán."
+    },
+    "puente_narrativo": {
+      "hash": "af25bf9b1872b475",
+      "texto": "We remain in Tomb 7 with an object that impresses with its care: a human skull covered in turquoise."
+    },
+    "guion_corto": {
+      "hash": "b364e7e3aeccea9f",
+      "texto": "Beneath the turquoise lies a real human skull. This Mixtec piece came from Tomb 7 at Monte Albán. The archaeologist Alfonso Caso discovered it in January 1932. It dates to the Late Postclassic, between the years 1200 and 1521 after Christ. The skull is covered with a mosaic of cut turquoise plaques and red shell of the Spondylus species. A knife is embedded in the nasal cavity. Each turquoise plaque and each piece of shell is patiently set onto the bone. It is one of the pieces the museum brings together from Tomb 7."
+    },
+    "guion_largo": {
+      "hash": "a3fe775e115547d1",
+      "texto": "Some objects astonish by what they are, and this is one of them. It is an authentic human skull, covered in turquoise and shell.\n\nIt came from Tomb 7 at Monte Albán. The Zapotec built that tomb, and centuries later the Mixtec reused it to bury their dignitaries. That happened in the Late Postclassic, between the years 1200 and 1521 after Christ. In January 1932, the archaeologist Alfonso Caso discovered there one of the most sumptuous funerary treasures on the continent.\n\nA mosaic of cut turquoise plaques was set over the bone. Red shell of the Spondylus species was added. A knife, of flint or obsidian, was embedded in the nasal cavity.\n\nIn that same tomb, jewels of gold, silver, turquoise, amber, pearls and jade appeared, along with vessels of rock crystal. These were materials that were hard to obtain and hard to work. For that reason the skull cannot be understood alone: it is part of a set of pieces of enormous richness.\n\nThe Mixtec were the people of the rain, Ñuu Savi in their language. They lived mostly in the Mixteca Alta and from there spread toward the Central Valleys. They were famed as goldsmiths and also as painters of codices, books painted on deerskin in which they told their history, their myths and their genealogies.\n\nWho the person was whose skull was covered in this way remains a mystery. What can be seen is human work upon human bone: a mosaic of blue stone and red shell that has survived to this day."
+    },
+    "retos_observacion": {
+      "hash": "3c6ef83f3a64fc79",
+      "texto": [
+        "Look for the small cut turquoise plaques that cover the bone.",
+        "Find the red shell of the Spondylus species.",
+        "Look at the nose: there is a knife embedded there."
+      ]
+    },
+    "especificaciones": {
+      "hash": "008b140119c91190",
+      "texto": {
+        "Culture": "Mixtec",
+        "Period": "Late Postclassic (1200-1521 AD)",
+        "Material": "Human skull covered with a mosaic of cut turquoise plaques and red Spondylus shell, with a knife embedded in the nasal cavity",
+        "Origin": "Tomb 7, Monte Albán, Oaxaca",
+        "Discovery": "Discovered in January 1932 by Alfonso Caso during the excavations of Tomb 7"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e06138895114d40",
+      "texto": {
+        "pregunta": "Myth: The skull with turquoise mosaic from Tomb 7 is a 19th-century forgery made by foreign collectors.",
+        "respuesta": "Reality: It is a Mixtec piece from the Late Postclassic, between the years 1200 and 1521 AD. Alfonso Caso discovered it in January 1932 during the excavations of Tomb 7 at Monte Albán."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mna_s04_mascara_serpentina",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a8d18c7ae6e8df7d",
+      "texto": "Teotihuacán funerary mask"
+    },
+    "frase_gancho": {
+      "hash": "9c35359e7781e0f8",
+      "texto": "A mask made to give an important figure an eternal face."
+    },
+    "puente_narrativo": {
+      "hash": "5e1003c626653c48",
+      "texto": "We continue with a mask that was not made for a living face, but for a dead one."
+    },
+    "guion_corto": {
+      "hash": "81b6821ab4c3851e",
+      "texto": "This mask was not made for a living face, but for a dead one. Teotihuacán funerary masks were placed over the face of funerary bundles of high-ranking figures, such as priests or rulers. They have a trapezoidal cut, a straight forehead, a slightly open mouth, and perforated rectangular ears. They were made of stone, carved with fine lapidary work. This one belongs to the Teotihuacán culture, from the Classic period, between the years 1 and 650 AD. Some, like the famous mask found in Malinaltepec, Guerrero, received a turquoise and shell mosaic centuries later."
+    },
+    "guion_largo": {
+      "hash": "63fe576276218c49",
+      "texto": "This mask was not for a living face. It was placed over the face of a dead person.\n\nIn Teotihuacán, stone masks were placed over the funerary bundles of high-ranking figures, such as priests or rulers. They were a way of giving them a permanent face.\n\nLook at its shape. It has the classic trapezoidal cut of the city: a straight forehead, a slightly open mouth, and perforated rectangular ears. It is a serene, geometric design, with fine lapidary work.\n\nIt belongs to the Teotihuacán culture and the Classic period, between the years 1 and 650 AD.\n\nThere is a story that goes with some of these masks. One of the best known was found in Malinaltepec, in Guerrero. It was carved in Teotihuacán during the Classic period and was later kept as a relic. Centuries later, in the Postclassic, artisans from that region added a turquoise and shell mosaic to it.\n\nThat shows how much later cultures revered Teotihuacán objects. The mask continued to hold value long after the city was empty."
+    },
+    "retos_observacion": {
+      "hash": "556158b8341fd6c2",
+      "texto": [
+        "Look for the trapezoidal cut and the straight forehead of the mask.",
+        "Notice the slightly open mouth.",
+        "Look at the rectangular ears with perforations."
+      ]
+    },
+    "especificaciones": {
+      "hash": "20b6dc8574d687e6",
+      "texto": {
+        "Culture": "Teotihuacán, with later Postclassic additions",
+        "Period": "Classic (1-650 AD); mosaic added in the Postclassic (900-1200 AD)",
+        "Material": "Stone, with inlays of amazonite, turquoise, specular hematite, and shell",
+        "Origin": "Malinaltepec, Guerrero (piece of Teotihuacán origin)",
+        "Dimensions": "0.21 m high x 0.21 m wide x 0.065 m thick"
+      }
+    },
+    "faq_mito": {
+      "hash": "80561410145b9cc8",
+      "texto": {
+        "pregunta": "Myth: Priests wore these masks as costumes during ceremonies.",
+        "respuesta": "Reality: Funerary masks were placed over the face of the funerary bundles of high-ranking figures."
+      }
+    }
+  }
+}

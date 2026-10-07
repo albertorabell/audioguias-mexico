@@ -1,0 +1,55 @@
+{
+  "id": "mna_s07_mascara_murcielago",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "bee728aca775c15f",
+      "texto": "Mask of the Bat God"
+    },
+    "frase_gancho": {
+      "hash": "26a7233fd673b768",
+      "texto": "A jade bat that holds the night of the Zapotec."
+    },
+    "puente_narrativo": {
+      "hash": "bd4bf914ed25b789",
+      "texto": "We enter Oaxaca, land of the Zapotec and the Mixtec, with a jade mask: the face of the Bat God, from Monte Albán."
+    },
+    "guion_corto": {
+      "hash": "f115a6980b7204ac",
+      "texto": "Do you see that upturned nose and those round ears? This is how the Zapotec portrayed a bat in jade. This is the mask of the Bat God, from Monte Albán. It is not carved from a single block: it is a mosaic of burnished jade pieces, with eyes and teeth of shell. Three plaques hang below the jaw. It is a pectoral mask, made to be worn on the chest, and it measures 28 centimeters high and 17.5 wide. The Zapotec called him Piquete Ziña. He was the god of the night, of caves and of the underworld, and also of the fertility of plants. That mix may come as a surprise. It is thought to speak of the earth, where plants are born and where the dead return. This mask holds that idea: the night is not only an ending, it is also the place where something begins."
+    },
+    "guion_largo": {
+      "hash": "70516e629b09b86a",
+      "texto": "The mask of the Bat God comes from Monte Albán, the great Zapotec city in the Central Valleys of Oaxaca. It measures 28 centimeters high and 17.5 wide. It is called a pectoral mask because it was worn on the chest, and not on the face. The face of the god is a mosaic. The artisans cut pieces of jade, a hard and valuable stone, and polished them until they gleamed. Then they fitted them together, one against another, to form the face. The eyes and the teeth are made of shell, which contrasts with the green of the jade. Below the jaw hang three plaques, like a pectoral. If you look closely, you will see the circular ears and an upright nose, the appendage that distinguishes certain bats. The Zapotec called this god Piquete Ziña. They associated him with the night, with caves and with the underworld, but also with the fertility of plants. For us, darkness and life seem to be opposites. It is thought that for them they were part of the same idea. From the dark earth plants spring forth, and to that same earth the dead return. There is one last detail worth imagining. This mask was not carved all at once, but assembled piece by piece. Each fragment was chosen, cut and fitted to the others, like a green puzzle. Behind that patience there was a clear intention: to give a face to the god of the night with the most prized material."
+    },
+    "retos_observacion": {
+      "hash": "854807a0930f3db2",
+      "texto": [
+        "Look for the bat’s upright nose and round ears.",
+        "Notice the eyes and the teeth made of shell, which contrast with the green of the jade.",
+        "Count the three plaques that hang below the jaw."
+      ]
+    },
+    "especificaciones": {
+      "hash": "b1efc36ce9003245",
+      "texto": {
+        "Culture": "Zapotec",
+        "Period": "Protoclassic (100 BC-200 AD)",
+        "Material": "Mosaic of burnished jade (jadeite) with shell eyes and teeth and three slate pendants",
+        "Origin": "Monte Albán, Central Valleys, Oaxaca",
+        "Dimensions": "28 cm high x 17.5 cm wide"
+      }
+    },
+    "faq_mito": {
+      "hash": "b2e5c0e7a0a720fb",
+      "texto": {
+        "pregunta": "Myth: The mask of the Bat God is carved from a single block of green stone.",
+        "respuesta": "Reality: It is a mosaic. Many pieces of polished jade were joined to form the face, with eyes and teeth of shell."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mna_s02_puntas_clovis",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7eeb62f7380079ec",
+      "texto": "Fluted Clovis and Lerma Projectile Points"
+    },
+    "frase_gancho": {
+      "hash": "2cdfc40b19d69b2b",
+      "texto": "A groove at the base sets Clovis points apart."
+    },
+    "puente_narrativo": {
+      "hash": "b3d5f06cbf51321b",
+      "texto": "We close with the tools that made hunting possible: stone points shaped by percussion and by pressure."
+    },
+    "guion_corto": {
+      "hash": "5b504e2003ed1009",
+      "texto": "A groove at the base sets a Clovis point apart. It is a longitudinal flute, on one or both faces, that made it easier to fit the point firmly onto wooden shafts. The Clovis point is lanceolate in shape. The one in the catalog measures 8.2 centimeters long, 2 wide and 1 thick. The Lerma-type point, by contrast, is leaf-shaped or almond-shaped, with a sharp tip, retouched on both faces and without a deep flute. It measures between 4.5 and 7 centimeters long. They were shaped from flint, white or black chert, and obsidian, first with blows and then with fine pressure retouching. They were tools of hunter-gatherers of the Lower Cenolithic, used to hunt mammoths and bison."
+    },
+    "guion_largo": {
+      "hash": "d9e7da3deadda57d",
+      "texto": "These stone points made big-game hunting possible. There are two types, and they are told apart by their shape.\n\nThe Clovis point is lanceolate. At the base of one or both faces it has a longitudinal flute, that is, a groove. That groove made it easier to fit and haft the point firmly onto wooden shafts. The one in the catalog measures 8.2 centimeters long, 2 wide and 1 thick. Clovis points in general measure between 7 and 15 centimeters.\n\nIts name comes from Clovis Ranch, in New Mexico, United States, where the type was discovered. They have also been found in northern Mexico and in the Central Highlands. Their production reached its peak between 10,000 and 9000 years before Christ.\n\nThe Lerma-type point is different. It is leaf-shaped or almond-shaped, with a sharp tip and retouching on both faces, without a deep flute. It was designed to pierce the tough hides of mammoths and bison. It measures between 4.5 and 7 centimeters long, and between 2.8 and 3.8 wide. It comes from the tradition of the Lerma River basin, and it was found at Santa Isabel Iztapan.\n\nThey were shaped from flint, white or black chert, and obsidian. First they were worked with blows, by percussion, and then with fine pressure retouching, on both faces.\n\nClovis points were multifunctional. They served as projectiles for thrown spears, or spears launched with an atlatl, to hunt large mammals. And once removed from the shaft, they could be used as knives to process meat and cut hides."
+    },
+    "retos_observacion": {
+      "hash": "81e4fbb0b4f52c9f",
+      "texto": [
+        "Look for the groove at the base of the Clovis point.",
+        "Compare the lanceolate shape of the Clovis point with the leaf shape of the Lerma point.",
+        "Look at the fine retouching on both sides of each point."
+      ]
+    },
+    "especificaciones": {
+      "hash": "f19a0eba315d8e69",
+      "texto": {
+        "Culture": "Pre-agricultural hunter-gatherers of the Lithic Stage",
+        "Period": "Lower Cenolithic (9500-7000 BC); peak of Clovis points between 10,000 and 9000 BC",
+        "Material": "Flint, white or black chert, and obsidian",
+        "Origin": "Clovis type: Clovis Ranch, New Mexico, with finds in northern Mexico and the Central Highlands. Lerma type: Lerma River basin and the Central Highlands, including Santa Isabel Iztapan",
+        "Dimensions": "Catalog Clovis point: 8.2 cm long x 2 cm wide x 1 cm thick. Lerma points: 4.5 to 7 cm long x 2.8 to 3.8 cm wide"
+      }
+    },
+    "faq_mito": {
+      "hash": "c322392e8c1e7a87",
+      "texto": {
+        "pregunta": "Myth: Clovis points were used only to shoot from a distance.",
+        "respuesta": "Reality: They served as tips for thrown spears, and once removed from the shaft they could also be used as knives to process meat and cut hides."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_disco_muerte",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d564e0fcdec1e69f",
+      "texto": "Disc of Death"
+    },
+    "frase_gancho": {
+      "hash": "51e1ddd47ce84a34",
+      "texto": "A skull with a tongue and a halo of rays: the setting sun, according to Teotihuacán."
+    },
+    "puente_narrativo": {
+      "hash": "800e428db7ce3c9c",
+      "texto": "We continue with a disc that for a time was believed to be Mexica, but is Teotihuacán: a skull surrounded by rays."
+    },
+    "guion_corto": {
+      "hash": "f53ff53893244101",
+      "texto": "For a time, some researchers believed this disc was Mexica, because of the protruding tongue and the halo of rays. It is not. It is a Teotihuacán sculpture from the Classic period, carved in andesite and bearing traces of red pigment. It appeared in nineteen sixty-four, in the plaza in front of the Pyramid of the Sun. It shows a human skull with a toothless mouth, from which a large tongue protrudes. Around it is a pleated halo that recalls paper fans or rays of sunlight. It is interpreted as the Dead Sun. It is the star that sets in the west, where the earth devours it, and descends to the underworld to light the realm of the dead. Teotihuacán created these images of the solar cult, and centuries later the peoples of the Postclassic took them up."
+    },
+    "guion_largo": {
+      "hash": "42c29019a160ed06",
+      "texto": "This disc has a frightening name, but the idea behind it speaks of the night and the return of the sun. It is a Teotihuacán sculpture, made of andesite, with traces of red pigment. It measures one hundred twenty-six centimeters high, one hundred two wide and twenty-five thick. The relief is high, so high that the skull seems to emerge from the stone.\n\nAt the center is a human skull. Its mouth is toothless, and a broad tongue protrudes from it. All around opens a large pleated halo. It has been compared to paper fans or to rays of sunlight. That is why it is also known as the Dead Sun.\n\nWhat does it mean? Researchers interpret it as the sun setting in the west. In this reading, the star is devoured by the earth and enters the underworld, where it lights the realm of the dead. Teotihuacán worshipped a god of the underworld and of the dead sun, along with other gods such as Tláloc and the Feathered Serpent. It is an idea of a cycle: what disappears will return.\n\nThe piece was found in nineteen sixty-four, during excavations in the plaza in front of the Pyramid of the Sun. That plaza lies beside the Avenue of the Dead, the great axis that ran through the city from north to south. That it appeared there helps us understand that the solar cult had its center in that group of buildings.\n\nSome doubted its origin. Because of the protruding tongue and the halo, which resemble features of Aztec art, some early researchers speculated that it was Mexica. The discovery showed the opposite. Teotihuacán invented these images of the solar cult, and centuries later the peoples of the Postclassic took them up.\n\nThat is why this piece is valuable as a clue that the ideas of Teotihuacán remained alive long after the city fell. When you look at the halo and the tongue, remember that they were here first, in the Classic."
+    },
+    "retos_observacion": {
+      "hash": "4340a5c62948548a",
+      "texto": [
+        "Human skull with a toothless mouth at the center",
+        "Large tongue protruding from the mouth",
+        "Pleated halo surrounding the skull like a fan"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b7a04227c46875b9",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (1-650 AD)",
+        "Material": "Andesite and red pigment",
+        "Origin": "Teotihuacán, State of Mexico (plaza in front of the Pyramid of the Sun)",
+        "Dimensions": "1.26 m high x 1.02 m wide x 0.25 m thick",
+        "Discovery": "Found in 1964 during excavations in front of the Pyramid of the Sun"
+      }
+    },
+    "faq_mito": {
+      "hash": "b5f7638856b7ddd4",
+      "texto": {
+        "pregunta": "Myth: The Disc of Death is a Mexica sacrificial sculpture from the Templo Mayor.",
+        "respuesta": "Reality: It is a Teotihuacán work from the Classic period, found in nineteen sixty-four in front of the Pyramid of the Sun. The Mexica took up, centuries later, ideas that Teotihuacán had already created."
+      }
+    }
+  }
+}

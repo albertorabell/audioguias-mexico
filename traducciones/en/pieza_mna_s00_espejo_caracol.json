@@ -1,0 +1,54 @@
+{
+  "id": "mna_s00_espejo_caracol",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fdf2b1be432b9130",
+      "texto": "The Reflecting Pool and Bronze Conch"
+    },
+    "frase_gancho": {
+      "hash": "d95f260bc1894008",
+      "texto": "A pond with bulrushes and lilies, and a bronze conch in the central courtyard."
+    },
+    "puente_narrativo": {
+      "hash": "9b157d61e84a9636",
+      "texto": "We continue toward the far end of the courtyard, where a pond with water plants prepares the way into the Mexica Hall."
+    },
+    "guion_corto": {
+      "hash": "6fc73fff2745828c",
+      "texto": "A pond, bulrushes, lilies and a bronze conch: this is how the courtyard gets ready for the entrance to the Mexica Hall. The pond is in the second section of the museum’s Central Courtyard, and it was inaugurated on September 17, 1964. The courtyard and the pond were designed by the architect Pedro Ramírez Vázquez. The bronze conch is the work of the sculptor Iker Larrauri. The water rests on a stone floor, and aquatic plants grow around it, such as bulrushes and lilies. That vegetation recalls the lakes of the Valley of Mexico. The pond also has a gas burner shaped like a stepped fret. It is said that the conch produces sounds similar to those of pre-Hispanic instruments. It is a place to look, to listen and to pass through slowly."
+    },
+    "guion_largo": {
+      "hash": "4afe284bd053e4ea",
+      "texto": "The water in the Central Courtyard is not just decoration. Here there is a pond with aquatic vegetation, and in it, a bronze conch.\n\nThe courtyard and the pond were designed by the architect Pedro Ramírez Vázquez, and they were inaugurated together with the museum on September 17, 1964. The conch sculpture is the work of the sculptor Iker Larrauri. The pond is in the second section of the Central Courtyard, on a stone floor, with bulrushes and lilies growing in the water.\n\nThere is also a gas burner shaped like a stepped fret. It is a detail that is easy to overlook, and it repeats a motif from ancient architecture.\n\nThe conch is made of bronze, and it is said to produce sounds similar to those of pre-Hispanic instruments. That is why it is an object to look at and also to listen to.\n\nMany of the cultures that the museum preserves lived beside lakes, especially in the Valley of Mexico. This pond, with its water plants, evokes that landscape before you enter the Mexica Hall.\n\nBefore going on, stop for a moment. Look at the water, find the conch and think about the lakes that surrounded the peoples you are about to meet."
+    },
+    "retos_observacion": {
+      "hash": "4dfe64f11d284ce1",
+      "texto": [
+        "Find the bronze conch inside the pond.",
+        "Look at the bulrushes and the lilies: they recall the lakes of the Valley of Mexico.",
+        "Find the gas burner shaped like a stepped fret."
+      ]
+    },
+    "especificaciones": {
+      "hash": "84db8fe60be4534f",
+      "texto": {
+        "Culture": "Modern Mexican art and plastic integration: Pedro Ramírez Vázquez (design of the courtyard and the pond) and Iker Larrauri (sculpture of the Bronze Conch)",
+        "Period": "1964 (inaugurated on September 17, 1964)",
+        "Material": "Pond on a stone floor with aquatic vegetation (bulrushes and lilies), a gas burner in the shape of a stepped fret, and a bronze sculpture",
+        "Origin": "Second section of the Central Courtyard, National Museum of Anthropology, Mexico City"
+      }
+    },
+    "faq_mito": {
+      "hash": "5647c0538d0a7f8c",
+      "texto": {
+        "pregunta": "Myth: The pond is just a decorative pool.",
+        "respuesta": "Reality: Its bulrushes and lilies recall the lakes of the Valley of Mexico, and the bronze conch is the work of the sculptor Iker Larrauri."
+      }
+    }
+  }
+}

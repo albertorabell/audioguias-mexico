@@ -1,0 +1,54 @@
+{
+  "id": "mna_s03_piramide_cuicuilco",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "af10c4766675d20e",
+      "texto": "Model of the Circular Platform of Cuicuilco"
+    },
+    "frase_gancho": {
+      "hash": "de8a51679ab91f53",
+      "texto": "The round building of Cuicuilco, buried by the lava of Xitle."
+    },
+    "puente_narrativo": {
+      "hash": "9f71ccd8f3b31d2e",
+      "texto": "We close the hall with the model of Cuicuilco’s main building: a round, stepped platform."
+    },
+    "guion_corto": {
+      "hash": "ba6411d07135d7e2",
+      "texto": "This round building measured more than one hundred meters in diameter and about twenty meters in height. What you see is a model of the Great Circular Platform of Cuicuilco, a scale re-creation of a Late Preclassic construction. Cuicuilco was in the south of the Basin of Mexico, in what is today Mexico City. The platform had four stepped tiers, with circular or oval floor plans, with ramps and stairways to climb to the top. Above there were altars for public ceremonies. It was a pyramid with a round floor plan, something different from the square pyramids that would come later in Teotihuacan. According to the hall’s information, this shape allowed continuous processions around the structure. The original building was raised with river cobbles, volcanic stone, and mud. Around the year two hundred or three hundred AD, the eruption of the Xitle volcano buried Cuicuilco under lava."
+    },
+    "guion_largo": {
+      "hash": "c70835e2e1124fb6",
+      "texto": "What you are looking at is a model, a scale reproduction. It represents the Great Circular Platform of Cuicuilco. Cuicuilco was in the south of the Basin of Mexico, in what is today Mexico City. It dates to the Late Preclassic, roughly between eight hundred BC and two hundred AD. The original building measured more than one hundred meters in diameter at the base and about twenty meters in height.\n\nIt was a pyramidal platform, but not like the square-based pyramids of Teotihuacan or Tenochtitlan. Its floor plan was circular or oval, and it had four stepped tiers. It had ramps and stairways to climb to the top, and there were altars above. The core was made with river cobbles, volcanic stone, and mud.\n\nThe circular shape had an advantage, according to interpretations. It allowed continuous processions around the structure and alignments with the horizon of the valley. The altars at the top were used for public ceremonies, and it is said that they were also used to watch the sky.\n\nTo look at the model, run your eyes over it from the base to the top. Count the stepped tiers. Then look for the ramps and stairways that lead up.\n\nThe Basin of Mexico was a valley surrounded by mountain ranges and volcanoes. Among them were the Popocatépetl, the Iztaccíhuatl, and the Ajusco. It also had a network of lakes. Before these buildings, homes were simple, made of wattle and daub, with thatched roofs. Wattle and daub is a wall of wood and rods covered with mud.\n\nCuicuilco was an urban and religious center. According to the hall’s information, it was the most important center in the south of the Basin, with irrigation systems of canals. It is estimated to have reached twenty thousand inhabitants. In this stage, simple villages became centers with plazas, stepped platforms, and pyramidal platforms. Those centers were seats of political and religious power.\n\nEverything changed with Xitle. Around the year two hundred or three hundred AD, that volcano, located on the slope of the Ajusco, erupted. The lava buried Cuicuilco and its farmland. Today it forms the Pedregal de San Ángel.\n\nWithout a city or crops, the population abandoned the site. Many people migrated to the northeast of the Basin, and with them the settlement of Teotihuacan grew stronger. This marked the transition to the urban Classic period.\n\nThis model is not the original building, but a re-creation made for the hall. It helps us imagine what the lava left covered."
+    },
+    "retos_observacion": {
+      "hash": "43f28d28d1bd5a2f",
+      "texto": [
+        "The four stepped tiers with circular or oval floor plans",
+        "The ramps and stairways that climb toward the top",
+        "The round shape of the whole, different from square pyramids"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b54b17f369cc6cdf",
+      "texto": {
+        "Culture": "Preclassic of the Central Highlands (Cuicuilco)",
+        "Period": "Late Preclassic / Upper (800 BC-200 AD)",
+        "Material": "Clay, ceramic (scale re-creation)",
+        "Origin": "Cuicuilco, Mexico City"
+      }
+    },
+    "faq_mito": {
+      "hash": "46fa0653a0e1086c",
+      "texto": {
+        "pregunta": "Myth: The Circular Platform of Cuicuilco is an astronomical observatory built by Phoenicians or Atlanteans in the Valley of Mexico.",
+        "respuesta": "Reality: It was built by the inhabitants of Cuicuilco, in the south of the Basin of Mexico, during the Late Preclassic. It was a pyramidal platform with a circular floor plan, with ramps and altars for public ceremonies."
+      }
+    }
+  }
+}

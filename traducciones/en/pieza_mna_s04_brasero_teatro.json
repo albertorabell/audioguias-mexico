@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_brasero_teatro",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "31cf0531f7c411c9",
+      "texto": "Theater-Type Ceremonial Brazier"
+    },
+    "frase_gancho": {
+      "hash": "fc2c19c665135a86",
+      "texto": "A clay stage with a face at its center, made to be wrapped in smoke."
+    },
+    "puente_narrativo": {
+      "hash": "e62112fd40f74b49",
+      "texto": "We continue with a clay incense burner shaped like a stage: it is called a theater-type brazier."
+    },
+    "guion_corto": {
+      "hash": "3ac26378bcbeeeef",
+      "texto": "It is called theater-type because it has a stage. The front of this incense burner is covered by a frame that surrounds a central human face with large ear ornaments. It is like a stage framing an actor. Around it are molded figures of butterflies, birds, shields, circles, and feather fans. Below, a bell-shaped base served as a bowl for the charcoal and copal resin. Behind it, a chimney channeled the smoke. It is made of polychrome ceramic, from the Teotihuacán culture, and dates to the Late Classic, between 450 and 650 AD. The archaeologist Manuel Gamio found it complete in 1911, in Azcapotzalco, Mexico City."
+    },
+    "guion_largo": {
+      "hash": "abdfd44e6dd32cec",
+      "texto": "The incense burner is shaped like a theater. And its discovery changed the way many others were reconstructed.\n\nIt is a ceremonial brazier of polychrome ceramic, made of clay. It belongs to the Teotihuacán culture and dates to the Classic period, in its Late phase, between 450 and 650 AD. It stands more than half a meter tall.\n\nIts structure is made of several pieces. Below is a bell-shaped base, which worked as a bowl for placing the charcoal and copal resin. On top, a chimney fits at the back, channeling the smoke.\n\nAt the front, a frame covers the entire surface. This is the stage. Within it appears a human face with large ear ornaments. Around it are figures of butterflies, birds, shields, circles, and feather fans.\n\nThe parts were molded independently, in series, and then assembled. Hence the name theater-type: the front structure frames the central mask, just like a stage.\n\nIn 1911, Manuel Gamio found it complete in Azcapotzalco. That was a milestone. Thanks to this piece, archaeologists had a model for reconstructing the original arrangement of hundreds of incense burners whose pieces had been found separated."
+    },
+    "retos_observacion": {
+      "hash": "71350d3e85d6aaf5",
+      "texto": [
+        "Look for the human face in the center, with large ear ornaments.",
+        "Find the molded butterflies, birds, and shields.",
+        "Look at the bell-shaped base that served as a bowl."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2ed579888c421cde",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Late Classic (450-650 AD)",
+        "Material": "Polychrome ceramic, with lime-based pigments",
+        "Origin": "Azcapotzalco, Mexico City",
+        "Dimensions": "0.76 m high x 0.414 m in diameter",
+        "Discovery": "Found complete in 1911 by Manuel Gamio in Azcapotzalco"
+      }
+    },
+    "faq_mito": {
+      "hash": "97a096a866b16aac",
+      "texto": {
+        "pregunta": "Myth: Theater-type braziers were urns for keeping the ashes of the dead.",
+        "respuesta": "Reality: They were incense burners: charcoal and copal resin were burned in the base, and the chimney channeled the smoke."
+      }
+    }
+  }
+}

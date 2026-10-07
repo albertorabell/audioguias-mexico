@@ -1,0 +1,58 @@
+{
+  "id": "mna_s05_chacmool_tolteca",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Toltec\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3359ff6b4f7da94a",
+      "texto": "Toltec Chac Mool"
+    },
+    "frase_gancho": {
+      "hash": "0fc033e85b42ee1a",
+      "texto": "Reclining, with its head turned and a vessel on its belly to receive offerings."
+    },
+    "puente_narrativo": {
+      "hash": "0867110e6997a08b",
+      "texto": "We remain in Tula with a sculpture that traveled across Mesoamerica: a reclining man with a vessel on his belly."
+    },
+    "guion_corto": {
+      "hash": "ba5ed5ef1439e0eb",
+      "texto": "Chac Mool means red claw or swift-clawed jaguar in the Maya language, and it is a name the Toltecs never gave it. It was invented in the nineteenth century by a French explorer, Augustus Le Plongeon, when he found a similar figure at Chichén Itzá. This basalt sculpture is Toltec in style, from the Early Postclassic. It shows a reclining man. He rests his lower back, hips and elbows, and bends his legs. His head turns 90 degrees to one side. On his belly he holds a circular vessel, made to receive offerings, blood or hearts. It measures 142 centimeters long. Archaeological studies hold that this type of sculpture was born in Toltec Tula. From there it traveled to Yucatán and to the highlands of the Mexica."
+    },
+    "guion_largo": {
+      "hash": "84ae111b75c20307",
+      "texto": "Chac Mool means red claw or swift-clawed jaguar in the Maya language. It is a curious name for a Toltec sculpture. It was given by the French explorer Augustus Le Plongeon, in the nineteenth century, when he discovered a similar figure at Chichén Itzá. The name stuck for all sculptures of this type.\n\nThis piece is made of basalt, carved in the round, with relief carving and incisions. It measures 142 centimeters long, 64.2 high and 65.5 thick. It is a figure longer than it is tall, made to be seen close to the ground.\n\nIt is a reclining male figure. He rests his lower back, hips and elbows, and keeps his legs bent. His head turns at a right angle, 90 degrees, to one side. It is a rigid and highly recognizable pose, repeated in figures of this type.\n\nHe wears ear ornaments, anklets and bracelets. On his chest, a flat pectoral with the stylized silhouette of a butterfly. That symbol also appears on the atlas figure in this hall. On his belly he holds a circular vessel. It was meant to receive sacred offerings, such as blood or hearts. Who it represents is unknown.\n\nA figure so still feels tense. The torso rises at an angle, the neck twists and the hands grip the vessel. It is a body at rest that seems about to move.\n\nThe history of this type of sculpture is longer than that of this piece. According to archaeological studies, the Chac Mool is an innovation of Toltec Tula. It was an emblematic element shared between Tula and Chichén Itzá. Later, the Mexica continued it in the highlands. A single posture, that of a reclining man with a vessel on his belly, traveled across Mesoamerica for centuries."
+    },
+    "retos_observacion": {
+      "hash": "0413d9c6c811dbaf",
+      "texto": [
+        "Look at how the head turns a quarter turn to one side.",
+        "Find the circular vessel he holds on his belly.",
+        "Find the flat pectoral with the silhouette of a butterfly."
+      ]
+    },
+    "especificaciones": {
+      "hash": "61a540f0f28cb02a",
+      "texto": {
+        "Culture": "Toltec",
+        "Period": "Early Postclassic (900-1200 AD)",
+        "Material": "Basalt",
+        "Dimensions": "0.642 m high x 1.42 m long x 0.655 m thick"
+      }
+    },
+    "faq_mito": {
+      "hash": "7f9f9d8904a8c506",
+      "texto": {
+        "pregunta": "Myth: Chac Mool is the name the Toltecs gave to this sculpture.",
+        "respuesta": "Reality: It is a Maya name given in the nineteenth century by the explorer Augustus Le Plongeon when he saw a similar figure at Chichén Itzá."
+      }
+    }
+  }
+}

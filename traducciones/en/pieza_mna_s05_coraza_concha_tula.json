@@ -1,0 +1,60 @@
+{
+  "id": "mna_s05_coraza_concha_tula",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Nahua Peoples\" para \"Nahuas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "4cdaf5ad43ac3a88",
+      "texto": "Ceremonial Cuirass of Shell and Sea Snails"
+    },
+    "frase_gancho": {
+      "hash": "f1fca556ef0454d0",
+      "texto": "More than a thousand Pacific shell plates on a ceremonial garment from Tula."
+    },
+    "puente_narrativo": {
+      "hash": "f8ca24605cc3ccda",
+      "texto": "Through vast trade networks, Tula imported precious materials from the Pacific Ocean to make regalia for the nobility."
+    },
+    "guion_corto": {
+      "hash": "4234a8d834148d66",
+      "texto": "In nineteen ninety-three, beneath the floor of the main hall of the Palacio Quemado in Tula, a box made of adobe bricks came to light. Inside was a cuirass made from more than a thousand shell plates of the Spondylus genus. It is a xicolli, a Toltec ceremonial vest from the Early Postclassic, and it also bears snail shells of the Oliva genus. The shells come from the Pacific Ocean, very far from Hidalgo, and that speaks of the trade routes Tula controlled. The plates, sewn in rows, recall the scales of a water serpent. The place where it was found was consecrated to the god Tláloc. It was not combat armor, but a garment of the highest ceremonial rank, thought to have been worn by a ruler or a high priest. The piece you see here is a scientific reproduction, made by Adrián Velázquez Castro. The original is kept at the INAH Hidalgo Center."
+    },
+    "guion_largo": {
+      "hash": "f84fb2d4ec846213",
+      "texto": "This garment is called a xicolli, and it is a ceremonial vest. It is not made of cloth, but of more than a thousand small plates of Spondylus sea shell, along with snail shells of the Oliva genus. The pieces were sewn in rows onto a backing that was possibly leather. It measures one hundred twenty-seven centimeters high and forty-one wide. It was not combat armor. It was a garment of the highest ceremonial rank. What is known is what it is made of and where it was found. What is supposed is that it was worn by rulers or high priests of Tula. All of these shells come from the Pacific Ocean. To reach Tula, in Hidalgo, they traveled an enormous distance. That shows that the city controlled long-distance trade routes, over land and by sea, to obtain luxury goods. Shells were not the only things that arrived from afar. Turquoise, jade, and plumbate ceramics were also imported. Tula brought together people from various groups: Nahua, Otomi, Huastec, and Maya. That mix helps explain why objects from such different places could arrive. Now look at how the surface is organized. The plates run in rows and imitate the scales of a water serpent. Among them you can make out the snail shells of the Oliva genus. The garment was found in a space consecrated to the god Tláloc. In nineteen ninety-three, the archaeologists Guadalupe Mastache and Robert Cobean were working in Tula. Beneath the floor of the main hall of the Palacio Quemado, they found a box made of adobe bricks. There was an offering inside. The cuirass was part of it. Beside the cuirass was a necklace of flower-shaped Spondylus beads. There was also a disk decorated with pyrite and turquoise mosaic. And now, an important detail. What you have in front of you is a scientific reproduction, made by Adrián Velázquez Castro. The original is kept in the Cultural Property Warehouse of the INAH Hidalgo Center. Even so, the replica lets you see what the complete garment was like, with its rows of small pieces. Imagine the work of gathering more than a thousand rectangular plates and sewing them in even rows. Each one is small, but together they clothe an entire body. That is the patience that fits into a single ceremonial garment."
+    },
+    "retos_observacion": {
+      "hash": "5a5196e50d65f9b4",
+      "texto": [
+        "Look at the shell plates in rows, like serpent scales.",
+        "Look for the small snail shells of the Oliva genus among the plates.",
+        "Notice that it is shaped like a vest: the xicolli."
+      ]
+    },
+    "especificaciones": {
+      "hash": "87caa4ddb39df00e",
+      "texto": {
+        "Culture": "Toltec",
+        "Period": "Early Postclassic (900-1200 AD)",
+        "Material": "Spondylus shell plates and Oliva snail shells from the Pacific Ocean, on a leather backing",
+        "Origin": "Tula, Hidalgo (Palacio Quemado, adobe-brick box beneath the floor of the main hall)",
+        "Dimensions": "1.27 m high x 0.41 m wide",
+        "Discovery": "Discovered in 1993 by Guadalupe Mastache and Robert Cobean; a reproduction by Adrián Velázquez Castro is displayed in the hall, and the original is at the INAH Hidalgo Center"
+      }
+    },
+    "faq_mito": {
+      "hash": "12d3366d7f48d25b",
+      "texto": {
+        "pregunta": "Myth: The cuirass you see in the hall is the original garment from Tula.",
+        "respuesta": "Reality: It is a scientific reproduction by Adrián Velázquez Castro; the original is kept at the INAH Hidalgo Center."
+      }
+    }
+  }
+}

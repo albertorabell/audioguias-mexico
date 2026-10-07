@@ -1,0 +1,54 @@
+{
+  "id": "mna_s05_lapida_venus",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d7d5908d6e3ae73a",
+      "texto": "Tablet of Tlahuizcalpantecuhtli"
+    },
+    "frase_gancho": {
+      "hash": "887cd7b45e8913cd",
+      "texto": "A three-lobed heart, pierced by three bundles of arrows, carved in stone at Tula."
+    },
+    "puente_narrativo": {
+      "hash": "6b5d100f68efccc7",
+      "texto": "We move from the warriors who held up the temple to a stone slab that tells an idea: a heart pierced by arrows."
+    },
+    "guion_corto": {
+      "hash": "956e14d94364f2c2",
+      "texto": "There is a detail almost no one mentions: the heart on this slab has three lobes. It sits inside a plate, or vessel, shown cut from the side, and three bundles of arrows pierce it. It is a basalt relief from the Toltec culture, from the Early Postclassic period. It comes from Tula, from the pyramid of Tlahuizcalpantecuhtli, the Lord of the Morning Star. It was originally painted. It is proposed that panels like this one worked as a speech without words about human sacrifice and the renewal of the cosmos. The same idea, hearts pierced by darts, also appears in the temples of Chichén Itzá, in Yucatán. That shows the close military and religious bond between Tula and the peninsula."
+    },
+    "guion_largo": {
+      "hash": "d7e6d69559213401",
+      "texto": "First, look at the center of the slab. There is a plate, or vessel, shown cut from the side, as in a cross section. On top of it rests a human heart. It has three lobes, which is why the museum labels call it trilobed. And it is not at peace: three bundles of arrows pierce it. A bundle is a group of arrows tied together.\n\nThe slab is made of basalt and was worked in low and high relief, that is, with areas that rise only slightly and others that stand out more. Today you see it in the tones of the stone, but originally it was polychrome.\n\nIt is associated with the pyramid of Tlahuizcalpantecuhtli, in Tula. He is the Lord of the Morning Star, that is, the planet Venus. On that same pyramid there were Atlantean figures like the one in this hall, stone warriors who held up the roof of the temple. The Atlantean figures held up the architecture. The slabs, by contrast, told ideas.\n\nThink about the city. Around the year eight hundred fifty, Tula entered its greatest phase, known as Greater Tula. It came to cover more than thirteen square kilometers. It brought together people from many groups and controlled trade routes. In a city like that, stone images were a way of communicating ideas to many people.\n\nWhat you see is a deep circle, a three-lobed heart, and straight lines that cross it. It is proposed that it worked as a speech in stone, about human sacrifice and the renewal of the cosmos, and that it was read without words. The same iconography, hearts pierced by darts, appears in the temples of Chichén Itzá, in Yucatán. That shows the close military and religious bond between Tula and the peninsula during this period.\n\nA three-lobed heart, a plate, and three bundles of arrows: three elements for an idea that, in Tula, was spoken in stone."
+    },
+    "retos_observacion": {
+      "hash": "5f3999b3b8806b5e",
+      "texto": [
+        "Find the heart with three lobes at the center of the relief.",
+        "Count the bundles of arrows that pierce it.",
+        "Locate the plate, cut from the side, that holds the heart."
+      ]
+    },
+    "especificaciones": {
+      "hash": "910a77057a6613ca",
+      "texto": {
+        "Culture": "Toltec",
+        "Period": "Early Postclassic (900-1200 AD)",
+        "Material": "Basalt",
+        "Origin": "Tula, Hidalgo (Pyramid of Tlahuizcalpantecuhtli, Temple B)"
+      }
+    },
+    "faq_mito": {
+      "hash": "35307193a94a5ca7",
+      "texto": {
+        "pregunta": "Myth: This slab is a colonial coat of arms brought by the Spaniards to Hidalgo.",
+        "respuesta": "Reality: It is a pre-Hispanic basalt slab from the Toltec culture, linked to the pyramid of Tlahuizcalpantecuhtli at Tula."
+      }
+    }
+  }
+}

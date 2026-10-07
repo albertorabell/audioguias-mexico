@@ -1,0 +1,55 @@
+{
+  "id": "mna_s07_urna_cocijo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1ca6a3676fd7aafe",
+      "texto": "Funerary Urn of the God Cocijo"
+    },
+    "frase_gancho": {
+      "hash": "dc5f5fecedb0ff0a",
+      "texto": "A clay vessel where Pitao Cocijo pours out sacred thunder."
+    },
+    "puente_narrativo": {
+      "hash": "5513ed75f0512f21",
+      "texto": "We move on to the ceramics of the Classic Zapotec period, with an urn that represents the rain god."
+    },
+    "guion_corto": {
+      "hash": "75b146848c08879a",
+      "texto": "Look for the center of the headdress. There is a sign that looks like the letter C, and a plant sprouts from inside it. This is the C glyph, the mark of the Zapotec rain god. This urn represents Pitao Cocijo, supreme deity of rain, lightning, and thunder. It is made of ceramic and comes from the Central Valleys of Oaxaca. It belongs to the Classic period, between the years 200 and 800 AD. The god is seated. He wears circular goggles, a mask over his mouth, and a serpent tongue split in two. In his hands he holds a vessel. For a long time it was believed that these urns held ashes. Today we know they were placed empty in niches and on the facades of noble tombs."
+    },
+    "guion_largo": {
+      "hash": "845455d28c674790",
+      "texto": "Pitao Cocijo is the Zapotec god of rain, lightning, and thunder. He was a supreme deity. In a land where maize depends on the rains, it is easy to imagine why his image appears so often.\n\nThis urn shows him seated. He wears a headdress with the C glyph in the center, and a plant element sprouts from that glyph. His eyes are surrounded by circular goggles. Over his mouth he wears a mask, and from it comes a serpent tongue split into two points. In his hands he holds a vessel. To recognize Cocijo, it is enough to remember three features: the C glyph on the headdress, the goggles around the eyes, and the split tongue.\n\nIt is a ceramic piece. It was modeled by hand with appliqué, that is, small pieces of clay stuck on, and with incised lines. It preserves traces of colored paint or of slip, a thin layer of clay. Color was part of its appearance.\n\nThe Zapotec had a main city at Monte Albán, in the Central Valleys of Oaxaca. During the Classic period it grew to have more than thirty thousand inhabitants. Their nobles had lavish underground tombs. Urns like this one were placed there, in the niches of the tombs. They represent deities such as Pitao Cocijo, the god of rain, and Pitao Cozobi, the maize god (corn god). They are figures of clay, but they speak of what mattered most to the Zapotec: water, maize, and the passage to the other life.\n\nThere is one fact that changes how we read these urns. For a long time it was believed that they held the ashes of the dead. Today we know that this is not so. They were placed empty, in niches, antechambers, and facades of noble tombs, as spiritual guardians. Their task was to intercede for the deceased before the gods of the sky.\n\nIt is a seated figure that held nothing, yet watched over whoever slept in the tomb."
+    },
+    "retos_observacion": {
+      "hash": "f6a00e8b721091d3",
+      "texto": [
+        "Look for the C glyph in the center of the headdress.",
+        "Notice the circles around the eyes: these are the goggles.",
+        "Look at the tongue coming out of the mouth: it ends in two points."
+      ]
+    },
+    "especificaciones": {
+      "hash": "783995ec6d61d9af",
+      "texto": {
+        "Culture": "Zapotec",
+        "Period": "Classic (Monte Albán III, 200-800 AD)",
+        "Material": "Modeled clay ceramic, with traces of polychrome paint or slip",
+        "Origin": "Monte Albán, Central Valleys, Oaxaca (another Cocijo example comes from Atzompa)",
+        "Dimensions": "0.396 m high x 0.38 m wide (central urn from Tomb 104; other examples are larger)"
+      }
+    },
+    "faq_mito": {
+      "hash": "a5f3cc9f7f85aa88",
+      "texto": {
+        "pregunta": "Myth: Zapotec funerary urns, like the Cocijo urn, held the ashes of the dead.",
+        "respuesta": "Reality: They were placed empty in the niches and on the facades of noble tombs."
+      }
+    }
+  }
+}

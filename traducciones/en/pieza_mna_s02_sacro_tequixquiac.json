@@ -1,0 +1,54 @@
+{
+  "id": "mna_s02_sacro_tequixquiac",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1c291d9ed9b73bae",
+      "texto": "The Sacrum Bone of Tequixquiac"
+    },
+    "frase_gancho": {
+      "hash": "151f8525f22f1a01",
+      "texto": "A camelid bone turned into a coyote’s head: the oldest recorded work of art in the Americas."
+    },
+    "puente_narrativo": {
+      "hash": "88c3f3a397c7edd7",
+      "texto": "We move from the hunt to the first image: a bone that someone turned into the head of a coyote."
+    },
+    "guion_corto": {
+      "hash": "580e8edcfb47f9ff",
+      "texto": "A bone from an extinct animal that someone turned into the head of a coyote. This is the Sacrum Bone of Tequixquiac. The sacrum is the bone at the base of the spine. This one comes from an extinct camelid, similar to a llama, that lived in the territory of Mexico during the Pleistocene. Whoever worked it took advantage of the bone’s natural shape. They accentuated its cavities with incisions, so that it would read as the head of a coyote or another canid. It comes from Tequixquiac, in the State of Mexico, and is dated between 12,000 and 10,000 years before Christ. Specialists consider it the oldest recorded artistic expression in Mexico and in the entire American continent."
+    },
+    "guion_largo": {
+      "hash": "3cb5f60ffb2bb8b9",
+      "texto": "It is a sculpture, but it began as a bone. The Sacrum Bone of Tequixquiac comes from an extinct camelid, a kind of llama that inhabited Mexican territory. Its material is the sacrum, the bone at the base of the spine.\n\nThe hunter-gatherers of the Lithic Stage worked it between 12,000 and 10,000 years before Christ. It comes from Tequixquiac, in the State of Mexico, in the Basin of Mexico.\n\nLook at what they did. They took advantage of the bone’s natural shape. They accentuated its natural cavities and openings with incisions, so that it would represent the head of a coyote or another canid. They did not carve from scratch. They saw a shape in the bone, and they emphasized it.\n\nThat is why specialists consider it the oldest recorded artistic, sculptural, and symbolic expression in Mexico and in the entire American continent.\n\nIn various ancient cultures, the sacrum had a profound meaning. It was regarded as the sacred bone that held up the spinal column, and as the center of vital force and procreation.\n\nA small piece, and a great idea: even then, there were people who looked at a bone and saw an animal."
+    },
+    "retos_observacion": {
+      "hash": "30ddc9074d2f59c0",
+      "texto": [
+        "Look for the shape of a coyote’s head in the bone.",
+        "Notice the incisions that accentuate the natural cavities.",
+        "Think about how many thousands of years old this work is."
+      ]
+    },
+    "especificaciones": {
+      "hash": "7ab8bd4a77d98434",
+      "texto": {
+        "Culture": "Hunter-gatherers of the Lithic Stage (Upper Pleistocene)",
+        "Period": "Upper Pleistocene (approximately 12,000 to 10,000 BC)",
+        "Material": "Fossilized sacrum bone of an extinct camelid (Camelops)",
+        "Origin": "Tequixquiac, State of Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "6bb0b7683e4c7fe1",
+      "texto": {
+        "pregunta": "Myth: The Sacrum Bone of Tequixquiac is a colonial sculpture made from a cow bone.",
+        "respuesta": "Reality: It is a prehistoric work, from between 12,000 and 10,000 years before Christ, made from the sacrum of an extinct camelid."
+      }
+    }
+  }
+}

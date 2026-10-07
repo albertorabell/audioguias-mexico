@@ -1,0 +1,54 @@
+{
+  "id": "mna_s00_el_paraguas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "474bba9aa82a6ceb",
+      "texto": "The Umbrella and Inverted Fountain"
+    },
+    "frase_gancho": {
+      "hash": "3af8ed40d83811f2",
+      "texto": "A single column holds up an immense roof, and water cascades down from it."
+    },
+    "puente_narrativo": {
+      "hash": "0de5fcb9b1342ed2",
+      "texto": "We enter the Central Courtyard, where a single column holds up an immense roof and water falls from it."
+    },
+    "guion_corto": {
+      "hash": "feb89988a498f221",
+      "texto": "How many columns hold up this enormous roof? Count them: just one. That is why it is known as the Umbrella. It is a canopy resting on a single concrete column, with a steel structure, in the museum’s Central Courtyard. Water cascades down from it, and that is why it is also called the inverted fountain. The column is covered by a bronze relief titled Image of Mexico. The project is by the architect Pedro Ramírez Vázquez, and it was inaugurated in 1964. The relief is the work of the artists Chávez Morado. A roof that shelters, a column that tells a story, and water that never stops falling: that sums up this courtyard."
+    },
+    "guion_largo": {
+      "hash": "9299c34098df17ee",
+      "texto": "When a roof is held up by a single column, the space below feels free. That is what the Umbrella achieves, one of the most memorable places in the museum.\n\nThe structure is made of steel, the column is made of concrete, and its surface is covered by a bronze relief. In English, it is called an umbrella roof, a roof like an umbrella. There is also a hydraulic installation that makes the water cascade down. Hence another name, the inverted fountain: instead of rising, the water falls from above.\n\nThe project is by Pedro Ramírez Vázquez, the architect of the entire museum. It was inaugurated on September 17, 1964, in the Central Courtyard, within the Chapultepec Forest. The canopy measures about eighty-two meters by fifty-four.\n\nThe bronze relief is titled Image of Mexico. It was made by the artists Chávez Morado, among them Tomás. It tells the story of the country through figures. It is best explored with your eyes, from top to bottom, asking yourself what image of Mexico they wanted to compose.\n\nThink about the contrast of materials. Above, a steel canopy. Below, a concrete column dressed in bronze. And the water, which falls without stopping.\n\nIn a museum devoted to ancient cultures, the Umbrella is a work of its own time. A roof, a column and a cascade: with so few elements, the courtyard becomes a place to wander without hurry."
+    },
+    "retos_observacion": {
+      "hash": "0d622d637b1288f9",
+      "texto": [
+        "Count the columns that hold up the courtyard’s roof.",
+        "Trace with your eyes the bronze relief that covers the column.",
+        "Follow the cascade of water from the top down to the floor."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2e87410b32fc2a9d",
+      "texto": {
+        "Culture": "Modern Mexican architecture: Pedro Ramírez Vázquez (architecture); bronze relief Image of Mexico, by the artists Chávez Morado",
+        "Period": "1964 (inaugurated on September 17, 1964)",
+        "Material": "Steel structure, concrete column covered with a bronze relief, and a hydraulic installation for a cascading fountain",
+        "Origin": "Central Courtyard, National Museum of Anthropology, Chapultepec Forest, Mexico City"
+      }
+    },
+    "faq_mito": {
+      "hash": "06b6f9b5e2d29d81",
+      "texto": {
+        "pregunta": "Myth: The Umbrella is just a roof to protect us from the rain.",
+        "respuesta": "Reality: It is a steel canopy over a concrete column, covered with a bronze relief titled Image of Mexico and with water that cascades down; it was designed by Pedro Ramírez Vázquez."
+      }
+    }
+  }
+}

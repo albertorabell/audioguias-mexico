@@ -1,0 +1,55 @@
+{
+  "id": "mna_s05_atlante_tula",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "172b2dac9ca0f09c",
+      "texto": "Atlante of Tula"
+    },
+    "frase_gancho": {
+      "hash": "6a81b03fe2687e3e",
+      "texto": "A stone warrior who held up the roof of a temple in Tula."
+    },
+    "puente_narrativo": {
+      "hash": "64f059b5e19aaf5c",
+      "texto": "We leave Teotihuacán behind and arrive at Tula, the city of the Toltec, with one of their stone warriors."
+    },
+    "guion_corto": {
+      "hash": "a02a01facc7442e3",
+      "texto": "This stone warrior was assembled from four blocks stacked one on top of another and joined with a mortise-and-tenon system. It is an atlante of Tula, a column in human form, made by the Toltec in the Early Postclassic. It comes from the pyramid of Tlahuizcalpantecuhtli, the Lord of the Dawn, who is the planet Venus. Together with three identical figures, it held up the roof of the temple that crowned the platform. It represents a deified warrior of the Toltec elite. He wears a feathered headdress, rectangular ear ornaments, and, on his chest, a butterfly-shaped pectoral. In his right hand he holds an átlatl, the spear-thrower. In his left, four darts. It was part of the building, and the building rested on it."
+    },
+    "guion_largo": {
+      "hash": "4d3483a828439da0",
+      "texto": "It is a column, but it has the shape of a person. This is an atlante of Tula, the city of the Toltec, in the present-day state of Hidalgo. It belongs to the Early Postclassic and comes from the pyramid of Tlahuizcalpantecuhtli, also called Temple B.\n\nEach atlante was assembled from four stone blocks, placed one on top of another. They were joined with the mortise-and-tenon system: a hollow in one piece and a projection on the other that fit together. This way the figure rose in sections. It stands far taller than a person, and it was made to hold up a roof.\n\nNotice the attire. He wears a cylindrical headdress with feathers and rectangular ear ornaments. On his chest, a pectoral shaped like a butterfly, papalotl in Nahuatl. Farther down, a kilt held in place with a belt. In his right hand he holds the átlatl, a spear-thrower. In his left, four darts and a vessel decorated with step-fret designs. On his shoulder he carries a curved knife, which is linked to the sacrifice of captives. On his back he has a disk, the tezcacuitlapilli, adorned with the Feathered Serpent. On the legs and feet, traces of red paint remain. The eyes were once decorated with inlays of shell and obsidian.\n\nScholars propose, based on his attire, that he represents a deified warrior of the Toltec elite. He is linked to the cult of Tlahuizcalpantecuhtli, the Lord of the Dawn, who is the planet Venus, and to Mixcóatl. What is known for certain is its function. Together with three other identical atlantes, it held up the wooden roof of a temple, at the top of the pyramid platform.\n\nThe archaeologist Jorge R. Acosta recovered the four figures in the late 1930s, inside the trench of Pyramid B. Three still stand at the archaeological site of Tula. This one was moved to preside over the Toltec Hall. As you walk away, imagine the complete temple: a wooden roof resting on four stone warriors."
+    },
+    "retos_observacion": {
+      "hash": "404fd5b16916a15b",
+      "texto": [
+        "Find the butterfly-shaped pectoral on the chest.",
+        "Find the spear-thrower he holds in his right hand.",
+        "Look at the legs: they preserve traces of red paint."
+      ]
+    },
+    "especificaciones": {
+      "hash": "0b8eccf904e961d9",
+      "texto": {
+        "Culture": "Toltec",
+        "Period": "Early Postclassic (900-1200 AD)",
+        "Origin": "Tula, Hidalgo (Pyramid of Tlahuizcalpantecuhtli, Temple B)",
+        "Dimensions": "4.83 m high x 1.00 m wide x 1.40 m deep",
+        "Discovery": "Recovered by Jorge R. Acosta in the late 1930s, in the trench of Pyramid B"
+      }
+    },
+    "faq_mito": {
+      "hash": "ef87b12e6e6b48d8",
+      "texto": {
+        "pregunta": "Myth: Each atlante is carved from a single gigantic rock.",
+        "respuesta": "Reality: Each atlante is assembled from four stacked stone blocks, joined with the mortise-and-tenon system."
+      }
+    }
+  }
+}

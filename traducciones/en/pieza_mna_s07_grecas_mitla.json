@@ -1,0 +1,54 @@
+{
+  "id": "mna_s07_grecas_mitla",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ad5f804b018d2e70",
+      "texto": "Panel with Stepped Frets in the Mitla Style"
+    },
+    "frase_gancho": {
+      "hash": "c26c6d2e8cbcc1ef",
+      "texto": "Thousands of small stones, fitted together without mortar."
+    },
+    "puente_narrativo": {
+      "hash": "79671355967077d9",
+      "texto": "We close the Oaxaca Hall with the geometry of Mitla: a wall assembled from thousands of small stones."
+    },
+    "guion_corto": {
+      "hash": "9ce27e6c42c0cb84",
+      "texto": "This wall is assembled from thousands of small stones, and it has no mortar. It is a panel with stepped frets in the style of Mitla, in Oaxaca. It is not carved from a single block. It is a mosaic of stones cut with precision and pressed into place. It dates to the Postclassic and belongs to the Mixtec and Zapotec tradition. The stepped fret, xicalcoliuhqui in Nahuatl, adorned the facades and courtyards of the priestly center of Mitla. Its lines are interpreted as representing wind, fire, clouds, the Feathered Serpent, and the entrance to the underworld. Mitla built the beauty of its palaces on this stone mosaic, and not on fresco painting."
+    },
+    "guion_largo": {
+      "hash": "70435aca36676556",
+      "texto": "A wall assembled like a puzzle. That is the idea behind this panel. It is made of thousands of small stones cut with precision, which were pressed into place, without mortar.\n\nIt is a panel with stepped frets in the style of Mitla, in the Central Valleys of Oaxaca. Mitla was also known as Mictlán. It dates to the Postclassic, and it is linked to the Mixtec and Zapotec traditions.\n\nThe stepped fret is called xicalcoliuhqui, in Nahuatl. It is a geometric motif that adorned the facades and courtyards of the priestly center of Mitla. Its lines are interpreted as representing wind, fire, clouds, the Feathered Serpent, and the mystical entrance to the underworld.\n\nOther Mesoamerican centers decorated with fresco painting. Mitla built the beauty of its palaces on this stone mosaic. It is assembled with such exactness that the panels have stood for centuries, even through earthquakes.\n\nCome closer, but do not touch. Notice how each stone fits with the one beside it, and how the light casts shadows along the zigzag of the fret. There are no colors or figures: only lines that repeat and that say a great deal."
+    },
+    "retos_observacion": {
+      "hash": "bdf0e44fcd432594",
+      "texto": [
+        "Look for the stepped zigzag of the fret.",
+        "Notice how the small stones fit together, without mortar.",
+        "Watch the shadows that the light casts between the lines."
+      ]
+    },
+    "especificaciones": {
+      "hash": "c0ba6437c5e11a85",
+      "texto": {
+        "Culture": "Mixtec / Zapotec",
+        "Period": "Postclassic",
+        "Material": "Stone mosaic, polished limestone and volcanic tuff, pressed into place",
+        "Origin": "Mitla, Central Valleys, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "cc0ea28ff9f31eea",
+      "texto": {
+        "pregunta": "Myth: The frets of Mitla were carved directly into a finished wall.",
+        "respuesta": "Reality: They are mosaics of thousands of small stones, cut and pressed into place, without mortar."
+      }
+    }
+  }
+}

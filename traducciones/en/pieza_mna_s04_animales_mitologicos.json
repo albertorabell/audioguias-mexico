@@ -1,0 +1,54 @@
+{
+  "id": "mna_s04_animales_mitologicos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc5073a87fe16ea3",
+      "texto": "Mural of the Mythological Animals"
+    },
+    "frase_gancho": {
+      "hash": "9e2bd702823b4352",
+      "texto": "Winged serpents devouring felines, on a wall that was later covered over."
+    },
+    "puente_narrativo": {
+      "hash": "8fd8b14b0ac67630",
+      "texto": "We close the hall with a mural of beings that do not exist: mythological animals painted in fresco."
+    },
+    "guion_corto": {
+      "hash": "8201d92c09029453",
+      "texto": "The Teotihuacán painted animals that do not exist. In this mural, great winged serpents attack smaller animals, mostly felines. It is painted in fresco, on stucco and lime mortar. It comes from the Temple of the Mythological Animals, on the Avenue of the Dead, in Teotihuacán. It dates to the Classic period, between 300 and 450 AD. Some scholars read the scene as the echo of a dispute between elite groups, but that is only a hypothesis. It survived for a curious reason: before the year 350, a new facade covered the mural and protected it for centuries."
+    },
+    "guion_largo": {
+      "hash": "069ba38f5147d997",
+      "texto": "Some paintings were saved because someone hid them. This is one of them.\n\nThis is the Mural of the Mythological Animals, from the Teotihuacán culture. It comes from the Temple of the Mythological Animals, on the Avenue of the Dead, in Teotihuacán, State of Mexico. It is painted in fresco, on stucco and lime mortar. In this technique, the pigments are applied to the stucco while it is still wet, and as it dries they become bonded to the wall.\n\nIt belongs to the Classic period, between 300 and 450 AD. But there is one date that matters more: the year 350. Before that date, a new facade covered the mural. That layer hid it, and it also protected it.\n\nThe scene is intense. Great winged serpents attack and devour smaller animals, mostly felines. They are fantastic creatures, which do not exist in nature. Take your time with the shapes and the colors.\n\nSome scholars have read this image as a reflection of a political and religious dispute between elite groups in the city. It is only a hypothesis.\n\nWhat you see is what survived centuries underground. A painted wall that someone covered, and that someone else uncovered."
+    },
+    "retos_observacion": {
+      "hash": "b655011fff44f9fd",
+      "texto": [
+        "Look for the winged serpents attacking smaller animals.",
+        "Find the felines among the victims.",
+        "Imagine the mural covered by a new facade, before the year 350."
+      ]
+    },
+    "especificaciones": {
+      "hash": "bb67cea7a9a99f97",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (300-450 AD)",
+        "Material": "Fresco painting on stucco and lime mortar",
+        "Origin": "Teotihuacán, State of Mexico (Avenue of the Dead)"
+      }
+    },
+    "faq_mito": {
+      "hash": "0cc750fdfc121da4",
+      "texto": {
+        "pregunta": "Myth: The Teotihuacán painted these animals because they lived in their region.",
+        "respuesta": "Reality: They are mythological beings, animals that do not exist. They survive because a new facade covered them before the year 350."
+      }
+    }
+  }
+}

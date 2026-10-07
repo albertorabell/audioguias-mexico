@@ -1,0 +1,55 @@
+{
+  "id": "mna_s04_mural_tepantitla",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d921696dac09d341",
+      "texto": "Tepantitla Mural (The Tlalocan)"
+    },
+    "frase_gancho": {
+      "hash": "c69b1d640abf0d64",
+      "texto": "A paradise of eternal water where souls celebrate life."
+    },
+    "puente_narrativo": {
+      "hash": "c0314251ad51d437",
+      "texto": "We now move on to mural painting, with the paradise of water painted by the Teotihuacán people: the Tlalocan."
+    },
+    "guion_corto": {
+      "hash": "0fb6877012fa916a",
+      "texto": "This is no ordinary garden. It is the Tlalocan, the paradise of water, painted in a mural from Tepantitla, a residential compound east of Teotihuacán. It was discovered in 1942 by the archaeologist Alfonso Caso. Above, a large figure, who may be the Great Goddess or Tláloc, with water drops falling from her open hands. Below, a fertile landscape with rivers, where small men sing, dance, swim, chase butterflies, and play ball. From their mouths come speech scrolls with flowers and leaves. This is the flowery song. The painting is a fresco on stucco, from the Classic period."
+    },
+    "guion_largo": {
+      "hash": "a4454824c2f5fa8f",
+      "texto": "Imagine a place where everything blooms, where water flows, and where people sing. This is how the Teotihuacán people imagined the Tlalocan.\n\nThis mural comes from Tepantitla, a residential compound east of the Pyramid of the Sun, in Teotihuacán. It was discovered in 1942 by the archaeologist Alfonso Caso. It is a fresco, made on stucco and lime mortar, with mineral pigments: red from hematite, green from malachite, and yellow from limonite. It belongs to the Classic period, and the scene is placed in the Xolalpan phase, toward the end of the city.\n\nIt is divided into two levels. Above is a great figure, who may be the Teotihuacán Great Goddess or Tláloc. From her broad headdress springs a tree full of flowers and birds, and from her open hands water drops flow.\n\nBelow is the Tlalocan, the watery paradise. It is a fertile landscape crossed by rivers. Small men sing, dance, swim, chase butterflies, and play ball.\n\nLook at their mouths. From them come speech scrolls decorated with flowers and leaves. They are not just words: they are the flowery song, the joy of the souls in the realm of the rain god.\n\nIt is a scene of joy, and water runs through everything."
+    },
+    "retos_observacion": {
+      "hash": "6e93d17af4171dae",
+      "texto": [
+        "Look for the great figure above, with open hands and drops of water.",
+        "Find the small men who swim and chase butterflies.",
+        "Notice the speech scrolls with flowers coming out of their mouths."
+      ]
+    },
+    "especificaciones": {
+      "hash": "74ebd808b44b2bf5",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (300-650 AD)",
+        "Material": "Fresco on stucco and lime mortar, with mineral pigments of red hematite, green malachite, and yellow limonite",
+        "Origin": "Teotihuacán, State of Mexico (Tepantitla residential compound, east of the Pyramid of the Sun)",
+        "Discovery": "Discovered in 1942 by the archaeologist Alfonso Caso in the Tepantitla residential compound"
+      }
+    },
+    "faq_mito": {
+      "hash": "d139b4e2d357f49a",
+      "texto": {
+        "pregunta": "Myth: The mural depicts an ordinary day out in the countryside.",
+        "respuesta": "Reality: It depicts the Tlalocan, the watery paradise of the rain god, where souls enjoy abundance."
+      }
+    }
+  }
+}

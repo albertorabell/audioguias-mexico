@@ -1,0 +1,62 @@
+{
+  "id": "mna_s08_adolescente_huasteco",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Huasteca\" para \"Huasteca\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Huasteca\" para \"Huasteca\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2059d3b514ca4506",
+      "texto": "Sculpture of the Huastec Adolescent of Tamuín"
+    },
+    "frase_gancho": {
+      "hash": "f008707da73b40e3",
+      "texto": "A carved stone body where the sacred maize sprouts."
+    },
+    "puente_narrativo": {
+      "hash": "faf369d056b87698",
+      "texto": "We close the hall in the Huasteca, with a sculpture of a young man in stone whose body is covered in maize plants."
+    },
+    "guion_corto": {
+      "hash": "27b3ecd39c30fbda",
+      "texto": "He is a naked young man, carrying a child on his back. This is the Adolescent of Tamuín, a Huastec sculpture of fine sandstone from the Early Postclassic. It measures 145 centimeters tall, 41 wide and 17.8 thick. It was discovered in nineteen seventeen, at the site of Consuelo, in Tamuín, San Luis Potosí. It has a stylized silhouette, a deformed skull and large spool ear ornaments. Look at his right side. The arm, the chest, the thigh and the leg are covered with tiny reliefs of maize plants, leaves, ears of corn and calendrical motifs. He is interpreted as Dzinco, the Huastec Maize God (Corn God), or as a young version of Quetzalcóatl. The child he carries would symbolize the continuity of life and the rebirth of the seed."
+    },
+    "guion_largo": {
+      "hash": "368d0779c720b58e",
+      "texto": "Look first at the silhouette. He is a naked young man, standing, stylized, with a deformed skull and large spool ear ornaments. On his back he carries a small child.\n\nThis is the Adolescent of Tamuín, a Huastec sculpture from the Early Postclassic, carved in fine sandstone. It measures 145 centimeters tall, 41 wide and 17.8 thick. It was discovered in nineteen seventeen, at the site of Consuelo, in Tamuín, San Luis Potosí.\n\nNow the right side. The arm, the chest, the thigh and the leg are covered with tiny incised reliefs. They depict maize plants, leaves, ears of corn and calendrical motifs. The sculptor worked the stone in the round, with delicate engravings on the surface. The right half looks like a field of maize.\n\nThe usual interpretation is that he represents Dzinco, or the young version of Quetzalcóatl, the Maize God of Huastec mythology. The child on his back symbolizes the continuity of life. Also the rebirth of the maize seed, from one generation to the next. It is an interpretation, based on iconography.\n\nThe sculpture joins two ideas: a young body and a growing plant. That is why maize is the key to reading it."
+    },
+    "retos_observacion": {
+      "hash": "f28c92076ba2bb2f",
+      "texto": [
+        "Look at his right side: it is covered with tiny reliefs of maize and leaves.",
+        "Find the child he carries on his back.",
+        "Look at the large spool ear ornaments."
+      ]
+    },
+    "especificaciones": {
+      "hash": "bed288d1421034ba",
+      "texto": {
+        "Culture": "Huasteca",
+        "Period": "Early Postclassic (900-1200 AD)",
+        "Material": "Fine sandstone",
+        "Origin": "Consuelo site, Tamuín, San Luis Potosí",
+        "Dimensions": "145 cm tall x 41 cm wide x 17.8 cm thick"
+      }
+    },
+    "faq_mito": {
+      "hash": "2e6a1f5af76ae6ba",
+      "texto": {
+        "pregunta": "Myth: The reliefs on his body are simple decorations.",
+        "respuesta": "Reality: They are maize plants, leaves, ears of corn and calendrical motifs. That is why he is interpreted as Dzinco, the Huastec Maize God, or as a young version of Quetzalcóatl."
+      }
+    }
+  }
+}

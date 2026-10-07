@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_mujer_chupicuaro",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4abbe6a0b99bf348",
+      "texto": "Polychrome Female Sculpture from Chupícuaro"
+    },
+    "frase_gancho": {
+      "hash": "196d2cf39f6dde80",
+      "texto": "A clay figure painted with diamonds, zigzags, and coffee-bean eyes."
+    },
+    "puente_narrativo": {
+      "hash": "eecacfcfa40c0c46",
+      "texto": "After the dogs of Colima, here is another clay figure from the West: a woman from Chupícuaro, painted from head to toe with geometric designs."
+    },
+    "guion_corto": {
+      "hash": "48b4b673a5d2e955",
+      "texto": "Look at her eyes. They are long and slanted, like coffee beans, a very characteristic feature of the figures from Chupícuaro. She is a woman modeled in clay by the people of Chupícuaro, a site in Acámbaro, Guanajuato, on the banks of the Lerma River. They painted her in red, black, and white on a light background, in zigzag lines, diamonds, and diagonals. These designs are thought to represent body paint, decorative scars, or traditional clothing. Figures like this one are associated with the cult of motherhood, the fertility of the land, and funerary rites. They were found in cemeteries near the villages. There is one more detail. In the mid-twentieth century, the Solís Dam left the site of Chupícuaro under water. Its painted pottery had made such an impact that it influenced communities in the Central Highlands."
+    },
+    "guion_largo": {
+      "hash": "1d98e5af04f0dd0d",
+      "texto": "This clay woman comes from Chupícuaro, a site in Acámbaro, in Guanajuato, on the banks of the Lerma River. She is the work of the Chupícuaro culture and belongs to the Late Preclassic.\n\nTo make her, the potter combined three techniques: modeling, applied clay pellets, and incision. With modeling, he shaped the body. With applied pellets, which means attaching small pieces of clay, he added details in relief. With incision, he marked lines on the surface. Then came the paint. On a light background he applied red, black, and white, in zigzags, diamonds, and diagonals that cover the body and the face.\n\nNow take a look at her eyes. They are elongated and slanted, shaped like a coffee bean, and they are one of the most recognizable features of the style. Specialists think the painted designs represent body paint, decorative scars, or traditional clothing. What looks like pure geometry may have been the way the people of Chupícuaro painted and dressed themselves.\n\nFigures like this were much more than an ornament. They are associated with the cult of motherhood and the fertility of the land, and with funerary rites. They appear in cemeteries near the villages. In a society of villages, the fertility of women and the fertility of the land went hand in hand.\n\nThe recent history of Chupícuaro has a twist. In the mid-twentieth century, the construction of the Solís Dam, in Guanajuato, left the site submerged. Its painted pottery tradition had already made such an impact that it influenced communities in the Central Highlands. This woman with coffee-bean eyes is one of the clearest voices of that tradition."
+    },
+    "retos_observacion": {
+      "hash": "42b4e5bef51e1a50",
+      "texto": [
+        "Look for the elongated, slanted eyes, like coffee beans.",
+        "Follow the zigzag lines, diamonds, and diagonals painted on the body.",
+        "Notice the colors: red, black, and white on a light background."
+      ]
+    },
+    "especificaciones": {
+      "hash": "abd87cac0bc3994f",
+      "texto": {
+        "Culture": "Chupícuaro",
+        "Period": "Late Preclassic (400 BC-200 AD)",
+        "Material": "Polychrome clay (ceramic) in red, black, and white on a light background; modeling, applied clay pellets, and incision",
+        "Origin": "Chupícuaro, Acámbaro, Guanajuato (Lerma River basin)"
+      }
+    },
+    "faq_mito": {
+      "hash": "7128883187354871",
+      "texto": {
+        "pregunta": "Myth: This Chupícuaro figure was just a household decoration.",
+        "respuesta": "Reality: The figures from Chupícuaro are associated with the cult of motherhood, the fertility of the land, and funerary rites. They were found in cemeteries near the villages."
+      }
+    }
+  }
+}

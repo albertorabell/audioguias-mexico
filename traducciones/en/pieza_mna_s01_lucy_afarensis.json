@@ -1,0 +1,55 @@
+{
+  "id": "mna_s01_lucy_afarensis",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "efa176a63cc4e3ff",
+      "texto": "Replica of Lucy’s Skeleton (Australopithecus afarensis)"
+    },
+    "frase_gancho": {
+      "hash": "605ee43a216ae97b",
+      "texto": "A 1.20-meter-tall female who walked upright 3.2 million years ago."
+    },
+    "puente_narrativo": {
+      "hash": "5f65dc1667760586",
+      "texto": "We begin at the beginning: one of the oldest species on the human line, before anyone ever reached the Americas."
+    },
+    "guion_corto": {
+      "hash": "cb8da953dcc5df78",
+      "texto": "3.2 million years ago, a female lived who stood about 1.20 meters tall and weighed close to 30 kilos. She is known as Lucy, and she belongs to the species Australopithecus afarensis. Her fossil skeleton was discovered in November 1974 by the American researcher Donald Johanson, in Hadar, Ethiopia. About 40 percent of the bones were recovered. What you see is a reconstruction made by the Atelier Daynes, in Paris, in 1999, based on the original remains. Analysis of the pelvis and lower limbs showed that she walked upright. That forced specialists to reorganize the human evolutionary tree. In this hall there are two representations: a full-body reconstruction and, a few meters away, the mounted skeleton."
+    },
+    "guion_largo": {
+      "hash": "ee539908edf970d6",
+      "texto": "3.2 million years ago, in what is now Ethiopia, there lived a female of a species of bipedal hominids. Specialists call her Australopithecus afarensis. Here she is known as Lucy.\n\nHer fossil skeleton was discovered in November 1974 by the American researcher Donald Johanson, in Hadar, in East Africa. During the excavations, about 40 percent of the skeleton was recovered.\n\nWhat you see in this hall is not the fossil, but a reconstruction. It was made by the Atelier Daynes, in Paris, in 1999, based on the original fossil remains. She stood about 1.20 meters tall, and it is estimated that she weighed close to 30 kilos in life.\n\nThere is a reason she is famous. Analysis of the pelvis and lower limbs showed that she walked upright, on two feet. That forced specialists to reorganize the human evolutionary tree.\n\nIn this hall there are two complementary representations. One is the full-volume body reconstruction, which greets visitors. A few meters away is the replica of the mounted skeleton, where the original bone parts that were found can be identified.\n\nCompare her height with yours. This is how you measure the distance between that species and the civilizations you will meet in the other halls."
+    },
+    "retos_observacion": {
+      "hash": "af8b3e915951a8b9",
+      "texto": [
+        "Find the mounted skeleton, where the original bones can be distinguished.",
+        "Look at the pelvis and the legs: they show that she walked upright.",
+        "Compare her height of 1.20 meters with yours."
+      ]
+    },
+    "especificaciones": {
+      "hash": "30a1c8e8223f3b30",
+      "texto": {
+        "Culture": "Australopithecus afarensis, bipedal female hominid",
+        "Period": "3.2 million years; the fossil was discovered in November 1974",
+        "Material": "Anthropological reconstruction by the Atelier Daynes (Paris, 1999) based on the fossil remains",
+        "Origin": "Hadar, Ethiopia (East Africa)",
+        "Dimensions": "Approximately 1.20 m tall; estimated weight in life of 30 kg"
+      }
+    },
+    "faq_mito": {
+      "hash": "5c1d133a2cbb677c",
+      "texto": {
+        "pregunta": "Myth: Lucy was the first woman of our species, Homo sapiens.",
+        "respuesta": "Reality: She was a female Australopithecus afarensis, from 3.2 million years ago. She belongs to a species of bipedal hominids on the human evolutionary tree."
+      }
+    }
+  }
+}

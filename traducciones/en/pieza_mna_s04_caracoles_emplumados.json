@@ -1,0 +1,55 @@
+{
+  "id": "mna_s04_caracoles_emplumados",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a265bb2c77b543e4",
+      "texto": "Temple of the Feathered Conches"
+    },
+    "frase_gancho": {
+      "hash": "efc291c321e06816",
+      "texto": "Conches with feathers, from a city built on top of another."
+    },
+    "puente_narrativo": {
+      "hash": "9027603f16223bed",
+      "texto": "We return to architecture with a temple decorated with conches that carry feathers."
+    },
+    "guion_corto": {
+      "hash": "37c9784a3dbbb4e1",
+      "texto": "A conch with feathers. It seems an impossible mix, but that is how the Teotihuacán people decorated this temple. It is the Temple of the Feathered Conches, from the Early Classic, between the years 200 and 300 AD. It is made of rocks carved in bas-relief, of limestone and polished stucco, with red, green, and blue paint. The conches have mouthpieces, like trumpets. Red drops and scrolls representing sound come out of their mouths. The pilasters at the entrance bear four-petaled flowers. The archaeologist Jorge Acosta explored and identified it in 1962 beneath the Palace of Quetzalpapálotl, also called the Palace of the Butterflies. That is why it is older than the palace."
+    },
+    "guion_largo": {
+      "hash": "ff21d44a4c5e0fcb",
+      "texto": "Sometimes, to find something very ancient, you have to dig beneath something ancient.\n\nThat is what happened with this temple. In 1962, the archaeologist Jorge Acosta explored and identified it beneath the Palace of Quetzalpapálotl, also called the Palace of the Butterflies. It lies southwest of the Plaza of the Moon, in Teotihuacán. It is the Temple of the Feathered Conches.\n\nIt belongs to the Early Classic, between the years 200 and 300 AD, that is, to the second and third centuries. That is why it predates the palace that was built over it.\n\nIt is made of rocks carved in bas-relief, of limestone, covered with polished stucco and decorated with red, green, and blue paint.\n\nThe name says it all. Conches are marine mollusks. Here they have been turned into trumpets, with mouthpieces, and adorned with feathers.\n\nRed drops come out of their mouths, along with scrolls that represent sound, the word, or song. It is as if the conches were sounding. The pilasters at the entrance are decorated with four-petaled flowers, painted in several colors.\n\nIt is assumed that marine conches were associated with water, a central theme for the Teotihuacán people. They honored Tláloc, god of rain, and Chalchiuhtlicue, goddess of terrestrial waters.\n\nIt is an image that blends water, feathers, and sound. And it shows something important: beneath the most famous buildings of Teotihuacán there are others that are even older."
+    },
+    "retos_observacion": {
+      "hash": "353f839aa140154b",
+      "texto": [
+        "Look for the conches with mouthpieces, like trumpets.",
+        "Find the feathers on each conch and the red drops coming out of their mouths.",
+        "Notice the four-petaled flowers on the pilasters."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2339e22be4a18ee0",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Early Classic (200-300 AD)",
+        "Material": "Limestone, polished stucco, and mineral pigments",
+        "Origin": "Teotihuacán, State of Mexico (beneath the Palace of Quetzalpapálotl, southwest of the Plaza of the Moon)",
+        "Discovery": "Explored and identified in 1962 by the archaeologist Jorge Acosta beneath the Palace of Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "f66db8346d3e8958",
+      "texto": {
+        "pregunta": "Myth: This temple was built after the Palace of Quetzalpapálotl.",
+        "respuesta": "Reality: It is older: it lay beneath the palace, and it dates from the second and third centuries AD."
+      }
+    }
+  }
+}

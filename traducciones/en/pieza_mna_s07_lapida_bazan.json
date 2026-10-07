@@ -1,0 +1,53 @@
+{
+  "id": "mna_s07_lapida_bazan",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92bc93fe12ba2ef4",
+      "texto": "Bazán Tablet"
+    },
+    "frase_gancho": {
+      "hash": "49f4bb46707af133",
+      "texto": "Two men face to face: a Teotihuacán man and a Zapotec."
+    },
+    "puente_narrativo": {
+      "hash": "06af6758996b117b",
+      "texto": "We move on to a relief that records an encounter: two men from different cities, face to face."
+    },
+    "guion_corto": {
+      "hash": "6d918bac744d2f3b",
+      "texto": "Two men face to face, and between them, columns of glyphs. This is the Bazán Tablet, a stone slab carved in low relief, with hieroglyphic inscriptions. It comes from the Great Plaza of Monte Albán, in Oaxaca, and dates to the Early Classic. On the left appears a dignitary wearing Teotihuacán-style clothing and a jaguar skin. On the right, a Zapotec lord or priest from Monte Albán. At the top and between the figures there are columns of Zapotec glyph cartouches. It is interpreted as the record of a diplomatic meeting and of an alliance between the two cities. It would be proof of the peaceful and commercial relations between Teotihuacán and Monte Albán."
+    },
+    "guion_largo": {
+      "hash": "4fc472ce2b9a366b",
+      "texto": "It is a small slab, and it tells a story between two great cities. The Bazán Tablet comes from the Great Plaza of Monte Albán, in Oaxaca, and dates to the Early Classic. It is carved in low relief, with hieroglyphic inscriptions.\n\nLook at the two figures. On the left stands a dignitary dressed in Teotihuacán-style clothing and a jaguar skin. On the right, a Zapotec lord or priest from Monte Albán.\n\nAt the top and between them, columns of Zapotec glyph cartouches are arranged. A cartouche is a frame containing writing signs.\n\nThe tablet is interpreted as recording a diplomatic meeting and a political alliance between the two men. The glyphs would commemorate the visit and the ritual agreements between both capitals.\n\nIt would be written proof that Teotihuacán and Monte Albán maintained peaceful relations, including trade and exchange, during the Classic period. That fits with the presence, within Teotihuacán, of a neighborhood of people from Oaxaca, the so-called Oaxacan Quarter.\n\nThink about what it means. In an age of great cities, two powers decided that it was worth leaving a record of their meeting in stone."
+    },
+    "retos_observacion": {
+      "hash": "24e3018e0890ccb0",
+      "texto": [
+        "Find the figure on the left, wearing clothing and a jaguar skin.",
+        "Look at the Zapotec lord on the right.",
+        "Find the columns of glyphs between the two."
+      ]
+    },
+    "especificaciones": {
+      "hash": "7b1b29655947a5be",
+      "texto": {
+        "Period": "Early Classic",
+        "Material": "Alabaster, Mexican onyx, or travertine",
+        "Origin": "Great Plaza, Monte Albán, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "1e4d0386e7b48db4",
+      "texto": {
+        "pregunta": "Myth: The Bazán Tablet celebrates the conquest of Monte Albán by Teotihuacán.",
+        "respuesta": "Reality: It is interpreted as the record of a diplomatic meeting and an alliance between two cities that maintained peaceful and commercial relations."
+      }
+    }
+  }
+}

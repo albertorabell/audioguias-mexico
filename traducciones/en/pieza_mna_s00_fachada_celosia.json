@@ -1,0 +1,54 @@
+{
+  "id": "mna_s00_fachada_celosia",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4e53380570ef2405",
+      "texto": "Marble Façade and Exterior Lattice"
+    },
+    "frase_gancho": {
+      "hash": "ad1412cc9f758639",
+      "texto": "An aluminum lattice inspired by the carved stone of Uxmal."
+    },
+    "puente_narrativo": {
+      "hash": "55b215b21a3d8c39",
+      "texto": "Now at the museum's door, the façade combines marble, glass, and an aluminum lattice inspired by Uxmal."
+    },
+    "guion_corto": {
+      "hash": "422409b63d5b6ff2",
+      "texto": "On September 17, 1964, the museum building was inaugurated, this façade included. The project is by the architect Pedro Ramírez Vázquez, and it stands in Chapultepec Forest. The walls are made of Santo Tomás marble, a whitish gray, and the glass screen door is made of glass. On the façade there is a lattice of anodized aluminum, designed by Manuel Felguérez. A lattice is a kind of openwork screen that lets light and air pass through. Its inspiration lies in the Maya sculptural art of the Puuc style, the style of Uxmal. There is also a National Coat of Arms in bronze, the work of Tomás Chávez Morado. These are modern materials in the service of very ancient ideas. Before you step through the door, notice how the light passes through the lattice."
+    },
+    "guion_largo": {
+      "hash": "2cacf0142fa63e6a",
+      "texto": "A façade is the first sentence of a building. The façade of this museum says, with few materials, that the modern and the ancient can speak together.\n\nThe building's project is by the architect Pedro Ramírez Vázquez. Two artists contributed key pieces. Manuel Felguérez designed the aluminum lattice, and Tomás Chávez Morado made the National Coat of Arms in bronze. That makes three names and several materials: marble, aluminum, bronze, and the glass of the screen door.\n\nThe marble is from Santo Tomás, in a whitish gray tone. The aluminum of the lattice is anodized, which means it has a treatment that protects its surface. A lattice is a kind of openwork screen that lets light and air pass through, but filters the gaze.\n\nFelguérez's lattice has a precise inspiration: the Maya sculptural art of the Puuc style, the style of Uxmal. It is not the copy of an ancient wall. It is a translation, one that carries a language of carved stone into a metal of its own time. That is the great idea of the façade.\n\nThe building was inaugurated on September 17, 1964, in Chapultepec Forest. It is a building of great dimensions, and this façade is the part that faces the city.\n\nLook for the National Coat of Arms in bronze. Compare its color with that of the marble and with the shine of the aluminum. Three materials, three tones, and a single building.\n\nIt is a museum that uses materials of its own time to engage in dialogue with ancient Mexico."
+    },
+    "retos_observacion": {
+      "hash": "1e660b67108b42ca",
+      "texto": [
+        "Find the aluminum lattice and follow its repeated patterns.",
+        "Compare the whitish gray of the marble with the shine of the aluminum.",
+        "Find the National Coat of Arms in bronze and notice its detail."
+      ]
+    },
+    "especificaciones": {
+      "hash": "3ad6a069180331a6",
+      "texto": {
+        "Culture": "Modern Mexican architecture: Pedro Ramírez Vázquez (building project), Manuel Felguérez (aluminum lattice), and Tomás Chávez Morado (National Coat of Arms in bronze)",
+        "Period": "1964 (inaugurated on September 17, 1964)",
+        "Material": "Santo Tomás marble (whitish gray), glass screen door, and anodized aluminum lattice",
+        "Origin": "Chapultepec Forest, Mexico City"
+      }
+    },
+    "faq_mito": {
+      "hash": "21bcf7e9cd3bae87",
+      "texto": {
+        "pregunta": "Myth: The lattice is just a modern decoration, unrelated to the pre-Hispanic world.",
+        "respuesta": "Reality: It was designed by Manuel Felguérez, inspired by the Maya sculptural art of the Puuc style, the style of Uxmal."
+      }
+    }
+  }
+}

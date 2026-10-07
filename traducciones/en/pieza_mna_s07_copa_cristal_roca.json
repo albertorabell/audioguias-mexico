@@ -1,0 +1,54 @@
+{
+  "id": "mna_s07_copa_cristal_roca",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2164cf6a7d49f333",
+      "texto": "Rock Crystal Cup from Tomb 7"
+    },
+    "frase_gancho": {
+      "hash": "04c2f03d55867c87",
+      "texto": "A clear quartz cup, hollowed out by hand with abrasives and water."
+    },
+    "puente_narrativo": {
+      "hash": "6b1057bb73d0518b",
+      "texto": "We continue with another object from Tomb 7: a clear quartz cup, hollowed out by hand."
+    },
+    "guion_corto": {
+      "hash": "ce148200b237b055",
+      "texto": "To make this cup, a piece of clear quartz had to be hollowed out by hand, with fine abrasives and water. It is a rock crystal cup, made of hyaline quartz, carved, hollowed out, and polished. It is Mixtec and belongs to the Late Postclassic (Postclassic) period, between the years 1200 and 1521 AD. The archaeologist Alfonso Caso discovered it on January 9, 1932, in Tomb 7 at Monte Albán. It was part of the famous treasure of that tomb, one of the most sumptuous finds in the Americas. It shows the mastery of Mixtec artisans in working extremely hard minerals. It is thought to have been a ceremonial vessel, used for libations or for the sacred consumption of cacao."
+    },
+    "guion_largo": {
+      "hash": "d1934c2b24005464",
+      "texto": "This cup holds a paradox. It is made of clear quartz, one of the hardest minerals, and yet it was hollowed out by hand. It is a rock crystal cup, that is, hyaline quartz.\n\nMixtec artisans carved it, hollowed it out, and polished it with fine abrasives and water. It belongs to the Late Postclassic, between the years 1200 and 1521 AD.\n\nThe archaeologist Alfonso Caso discovered it on January 9, 1932, in Tomb 7 at Monte Albán. It was part of the famous treasure of that tomb, one of the most sumptuous finds in the Americas.\n\nIt is thought to have been a ceremonial vessel, used for libations or for the sacred consumption of cacao.\n\nTomb 7 was built by the Zapotec. Centuries later, the Mixtec reused it to bury their dignitaries. They surrounded them with hundreds of jewels of gold, silver, turquoise, amber, pearls, and jade, and with rock crystal vessels like this one.\n\nWhen you look at it, think about the hardness of the material and the patience it demanded. Turning a piece of quartz into a cup is a testament to the mastery of Mixtec artisans."
+    },
+    "retos_observacion": {
+      "hash": "afe7e91f3744be83",
+      "texto": [
+        "Look for the transparency of the quartz: you can see through the cup.",
+        "Notice the smooth polish across the entire surface.",
+        "Compare its appearance with the gold and turquoise in the neighboring display cases."
+      ]
+    },
+    "especificaciones": {
+      "hash": "14afc29308694a68",
+      "texto": {
+        "Culture": "Mixtec (offering placed in a Zapotec tomb)",
+        "Period": "Late Postclassic (1200-1521 AD); discovered on January 9, 1932",
+        "Material": "Rock crystal (hyaline quartz)",
+        "Origin": "Tomb 7, Monte Albán, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "3000d5602909f16c",
+      "texto": {
+        "pregunta": "Myth: The rock crystal cup is made of glass.",
+        "respuesta": "Reality: It is hyaline quartz, carved, hollowed out, and polished by hand with fine abrasives and water."
+      }
+    }
+  }
+}
