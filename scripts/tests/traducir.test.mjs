@@ -399,3 +399,9 @@ test('francés: el estimado es más alto que el del inglés (supuesto, sin medir
   const f = { guion_largo: 'x'.repeat(4000) };
   assert.ok(estimateUnit(f, [], 'fr').usd > estimateUnit(f, [], 'en').usd);
 });
+
+test('nombres propios con "El" o "de la" en una ficha corta no se confunden con español sin traducir', () => {
+  const src = { especificaciones: { Cultura: 'Centro de Veracruz (El Zapotal / Mixtequilla)', Procedencia: 'El Zapotal, Ignacio de la Llave, Veracruz', Medidas: '1.48 m de alto x 0.65 m de ancho' } };
+  const out = { especificaciones: { Culture: 'Central Veracruz (El Zapotal / Mixtequilla)', Origin: 'El Zapotal, Ignacio de la Llave, Veracruz', Dimensions: '1.48 m high x 0.65 m wide' } };
+  assert.deepEqual(validateTranslation(src, out, [], { lang: 'en' }).errors, []);
+});
