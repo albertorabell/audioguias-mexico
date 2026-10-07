@@ -9,7 +9,7 @@
 //   node scripts/traducir.mjs --proveedor prueba --generar   → ensayo sin red y gratis (textos de mentiras)
 //
 // Opciones:
-//   --lang en             idioma (por ahora solo en)
+//   --lang en             idioma (en, fr)
 //   --solo piezas|salas|todo   (por defecto todo)
 //   --piezas id1,id2      solo esas piezas
 //   --limite N            traduce como máximo N piezas/salas en esta corrida (por defecto 5)
@@ -171,7 +171,7 @@ function reviewMarkdown(lang, items) {
   for (const it of items) {
     L.push(`## ${it.kind === 'pieza' ? 'Pieza' : 'Sala'}: ${it.id}`, '');
     for (const f of Object.keys(it.es)) {
-      L.push(`### ${f}`, '', `**ES:** ${flatText(it.es[f]).replace(/\n/g, ' / ')}`, '', `**EN:** ${flatText(it.en[f]).replace(/\n/g, ' / ')}`, '');
+      L.push(`### ${f}`, '', `**ES:** ${flatText(it.es[f]).replace(/\n/g, ' / ')}`, '', `**${lang.toUpperCase()}:** ${flatText(it.en[f]).replace(/\n/g, ' / ')}`, '');
       for (const w of it.avisos[f] || []) L.push(`> Aviso: ${w}`, '');
     }
   }
@@ -190,7 +190,7 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
 
   const pieces = readJson(path.join(root, 'public/data/pieces.json'));
   const rooms = readJson(path.join(root, 'public/data/rooms.json'));
-  const glossary = loadGlossary(path.join(root, GLOSSARY_FILE));
+  const glossary = loadGlossary(path.join(root, GLOSSARY_FILE), args.lang);
   if (!glossary.length) warn('⚠️  No encontré el glosario (glosario/glosario.csv): se traducirá sin lista de nombres propios.');
 
   // ---- Qué hay por traducir ----
@@ -255,7 +255,7 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
       const { text, usage } = await provider.translate({ system, user: buildUserPrompt(u.todoFields, u.entries), model, maxTokens });
       spent += usdFromUsage(usage, prices);
       const out = parseJsonReply(text);
-      const { errors, warnings } = validateTranslation(u.todoFields, out, u.entries, { fake: provider.fake });
+      const { errors, warnings } = validateTranslation(u.todoFields, out, u.entries, { fake: provider.fake, lang: args.lang });
       if (errors.length) throw new Error(`no pasó las revisiones: ${errors.join('; ')}`);
 
       const campos = { ...(u.stored?.campos || {}) };
