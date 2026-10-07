@@ -102,3 +102,43 @@ test('idioma sin traducción da error claro', async () => {
   const dir = tmpProject();
   await assert.rejects(() => main(['--pieza', 'p1', '--lang', 'en'], { root: dir, env: {}, ...quiet }), /Falta traducirla/);
 });
+
+test('--pronunciar genera una muestra sin cambio y una por variante, con el elemento SSML correcto', async () => {
+  const dir = tmpProject();
+  const bodies = [];
+  const fetchImpl = async (url, opts) => {
+    bodies.push(opts.body);
+    return { ok: true, arrayBuffer: async () => new Uint8Array([1, 2]).buffer };
+  };
+  const code = await main(['--pronunciar', 'mexicas', '--variantes', 'alias:meshicas,ipa:meˈʃikas', '--voces', 'es-MX-A-Neural', '--generar'], { root: dir, env: ENV, fetchImpl, ...quiet });
+  assert.equal(code, 0);
+  const out = path.join(dir, 'muestras-voz/es');
+  const names = fs.readdirSync(out).sort();
+  assert.equal(names.length, 4); // 3 variantes + índice
+  assert.ok(names.includes('es-MX-A-Neural__0_sin_cambio.mp3'));
+  assert.ok(names.includes('es-MX-A-Neural__1_alias_meshicas.mp3'));
+  assert.ok(names.some((n) => n.startsWith('es-MX-A-Neural__2_ipa_')));
+  assert.ok(!bodies[0].includes('<sub') && !bodies[0].includes('<phoneme'));
+  assert.ok(bodies[1].includes('<sub alias="meshicas">mexicas</sub>'));
+  assert.ok(bodies[2].includes('<phoneme alphabet="ipa" ph="meˈʃikas">mexicas</phoneme>'));
+  assert.match(fs.readFileSync(path.join(out, 'indice.md'), 'utf-8'), /alias:meshicas/);
+});
+
+test('--pronunciar exige variantes válidas', () => {
+  assert.throws(() => parseArgs(['--pronunciar', 'x']), /--variantes/);
+  assert.throws(() => parseArgs(['--pronunciar', 'x', '--variantes', 'foo:bar']), /Variante no válida/);
+  assert.throws(() => parseArgs(['--pronunciar', 'x', '--variantes', 'alias:']), /Variante no válida/);
+});
+
+test('las muestras normales usan la lista de pronunciaciones del proyecto', async () => {
+  const dir = tmpProject();
+  fs.mkdirSync(path.join(dir, 'glosario'));
+  fs.writeFileSync(path.join(dir, 'glosario/pronunciacion.csv'), 'idioma,palabra,tipo,valor,nota\nes,mundo,alias,mundoo,\n');
+  const bodies = [];
+  const fetchImpl = async (url, opts) => {
+    bodies.push(opts.body);
+    return { ok: true, arrayBuffer: async () => new Uint8Array([1]).buffer };
+  };
+  await main(['--pieza', 'p1', '--voces', 'es-MX-A-Neural', '--generar'], { root: dir, env: ENV, fetchImpl, ...quiet });
+  assert.ok(bodies[0].includes('<sub alias="mundoo">mundo</sub>'), bodies[0]);
+});

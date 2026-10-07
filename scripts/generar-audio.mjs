@@ -26,6 +26,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { MODES, AUDIO_LANGS, planAudio, splitText, mp3Duration, silentMp3, REFERENCE_PRICE_USD_PER_MILLION_CHARS } from './audio-lib.mjs';
+import { loadPronunciations, toSsmlInner, PRONUNCIATION_FILE } from './pronunciacion-lib.mjs';
 
 const ROOT = process.cwd();
 const PIECES_FILE = path.join(ROOT, 'public/data/pieces.json');
@@ -128,7 +129,9 @@ export const PROVIDERS = {
       const region = process.env.AZURE_SPEECH_REGION;
       const voice = this.voiceFor(lang);
       const rate = process.env.AZURE_RATE; // por ejemplo "-5%"
-      const inner = rate ? `<prosody rate="${xmlEscape(rate)}">${xmlEscape(text)}</prosody>` : xmlEscape(text);
+      // Lista de pronunciaciones (glosario/pronunciacion.csv): arregla palabras que la voz lee mal sin cambiar el texto
+      const spoken = toSsmlInner(text, loadPronunciations(path.resolve(PRONUNCIATION_FILE), lang));
+      const inner = rate ? `<prosody rate="${xmlEscape(rate)}">${spoken}</prosody>` : spoken;
       const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="${AZURE_LOCALES[lang]}"><voice name="${voice}">${inner}</voice></speak>`;
       return httpAudio(
         `https://${region}.tts.speech.microsoft.com/cognitiveservices/v1`,
