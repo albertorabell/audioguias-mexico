@@ -45,3 +45,19 @@ test('sin lista solo escapa; el texto con & y < no rompe el SSML', () => {
   assert.equal(toSsmlInner('A & B < C', []), 'A &amp; B &lt; C');
   assert.equal(pronunciationElement('alias', 'a"b', 'x&y'), '<sub alias="a&quot;b">x&amp;y</sub>');
 });
+
+test('lang y voz: cambian el idioma o la voz solo para esa palabra, y el SSML queda bien cerrado', () => {
+  assert.equal(pronunciationElement('lang', 'en-US=meshicas', 'mexicas'), '<lang xml:lang="en-US">meshicas</lang>');
+  assert.equal(
+    pronunciationElement('voz', 'en-US-AvaMultilingualNeural=meshicas', 'mexicas', 'es-MX-DaliaNeural'),
+    '</voice><voice name="en-US-AvaMultilingualNeural">meshicas</voice><voice name="es-MX-DaliaNeural">'
+  );
+  assert.throws(() => pronunciationElement('voz', 'sin-igual', 'x', 'v'), /mal escrita/);
+  assert.throws(() => pronunciationElement('lang', 'en-US=', 'x'), /mal escrita/);
+  assert.throws(() => pronunciationElement('voz', 'a=b', 'x'), /voz principal/);
+  const f = csv('idioma,palabra,tipo,valor,nota\nes,mexicas,voz,en-US-AvaMultilingualNeural=meshicas,\n');
+  const inner = toSsmlInner('Los mexicas y los mexicas.', loadPronunciations(f, 'es'), 'es-MX-DaliaNeural');
+  const ssml = `<speak><voice name="es-MX-DaliaNeural">${inner}</voice></speak>`;
+  assert.equal((ssml.match(/<voice /g) || []).length, (ssml.match(/<\/voice>/g) || []).length);
+  assert.ok(ssml.includes('<voice name="en-US-AvaMultilingualNeural">meshicas</voice>'));
+});

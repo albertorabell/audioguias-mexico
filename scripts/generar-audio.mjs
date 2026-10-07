@@ -130,7 +130,7 @@ export const PROVIDERS = {
       const voice = this.voiceFor(lang);
       const rate = process.env.AZURE_RATE; // por ejemplo "-5%"
       // Lista de pronunciaciones (glosario/pronunciacion.csv): arregla palabras que la voz lee mal sin cambiar el texto
-      const spoken = toSsmlInner(text, loadPronunciations(path.resolve(PRONUNCIATION_FILE), lang));
+      const spoken = toSsmlInner(text, loadPronunciations(path.resolve(PRONUNCIATION_FILE), lang), voice);
       const inner = rate ? `<prosody rate="${xmlEscape(rate)}">${spoken}</prosody>` : spoken;
       const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="${AZURE_LOCALES[lang]}"><voice name="${voice}">${inner}</voice></speak>`;
       return httpAudio(

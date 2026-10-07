@@ -34,7 +34,7 @@ on:
         type: string
         default: ''
       variantes:
-        description: 'Opcional, con palabra: formas a probar separadas por coma, por ejemplo alias:meshicas,ipa:meˈʃikas. Si lo dejas vacío, se prueban formas automáticas (x como sh, x como s y una fonética aproximada)'
+        description: 'Opcional, con palabra: formas a probar separadas por coma. Tipos: alias:texto · ipa:símbolos · lang:en-US=texto · voz:NombreDeVoz=texto. Vacío = formas automáticas (x como sh, x como s y una fonética aproximada)'
         type: string
         default: ''
       generar:

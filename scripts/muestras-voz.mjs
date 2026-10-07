@@ -26,7 +26,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { splitText, silentMp3, REFERENCE_PRICE_USD_PER_MILLION_CHARS } from './audio-lib.mjs';
-import { loadPronunciations, toSsmlInner, pronunciationElement, xmlEscape, PRONUNCIATION_FILE } from './pronunciacion-lib.mjs';
+import { loadPronunciations, toSsmlInner, pronunciationElement, xmlEscape, KINDS, PRONUNCIATION_FILE } from './pronunciacion-lib.mjs';
 
 const LOCALES = { es: 'es-MX', en: 'en-US' };
 const FORMAT = 'audio-24khz-48kbitrate-mono-mp3'; // el mismo que usan los audios reales
@@ -80,7 +80,7 @@ export function parseArgs(argv) {
       const i = v.indexOf(':');
       const kind = v.slice(0, i);
       const value = v.slice(i + 1).trim();
-      if (i < 0 || !['alias', 'ipa'].includes(kind) || !value) throw new Error(`Variante no válida: "${v}". Usa alias:texto o ipa:símbolos`);
+      if (i < 0 || !KINDS.includes(kind) || !value) throw new Error(`Variante no válida: "${v}". Usa alias:texto, ipa:símbolos, lang:en-US=texto o voz:NombreDeVoz=texto`);
       return { kind, value };
     });
   }
@@ -113,11 +113,12 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
     const phrase = (render) => `${render(w)}. ${w === w.toLowerCase() ? 'Los ' : ''}${render(w)} fundaron una gran ciudad en medio del lago.`;
     text = phrase((x) => x);
     variants = [
-      { label: 'sin_cambio', file: '0_sin_cambio', inner: xmlEscape(text) },
+      { label: 'sin_cambio', file: '0_sin_cambio', inner: () => xmlEscape(text) },
       ...args.variantes.map((v, i) => ({
         label: `${v.kind}:${v.value}`,
         file: `${i + 1}_${v.kind}_${v.value.replace(/[^\p{L}\p{N}]+/gu, '')}`,
-        inner: phrase((x) => pronunciationElement(v.kind, v.value, x)),
+        // la voz principal solo se sabe al sintetizar (las variantes "voz" cierran y reabren la etiqueta de voz)
+        inner: (voice) => phrase((x) => pronunciationElement(v.kind, v.value, x, voice)),
       })),
     ];
   } else {
@@ -127,7 +128,7 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
     const raw = args.lang === 'es' ? piece[key] : piece[`${key}_${args.lang}`];
     if (!String(raw || '').trim()) throw new Error(`La pieza ${args.pieza} no tiene ${key} en ${args.lang}. ${args.lang !== 'es' ? 'Falta traducirla.' : ''}`);
     text = splitText(String(raw).replace(/\s+/g, ' ').trim(), args.maxCaracteres)[0];
-    variants = [{ label: dict.length ? 'con lista de pronunciaciones' : '', file: null, inner: toSsmlInner(text, dict) }];
+    variants = [{ label: dict.length ? 'con lista de pronunciaciones' : '', file: null, inner: (voice) => toSsmlInner(text, dict, voice) }];
   }
 
   const nVoces = args.voces ? args.voces.length : args.maxVoces;
@@ -176,7 +177,7 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
         let audio;
         if (args.proveedor === 'prueba') audio = silentMp3(Math.max(1, text.length / 14));
         else {
-          const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="${locale}"><voice name="${v.ShortName}">${variant.inner}</voice></speak>`;
+          const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="${locale}"><voice name="${v.ShortName}">${variant.inner(v.ShortName)}</voice></speak>`;
           const res = await fetchImpl(`https://${region}.tts.speech.microsoft.com/cognitiveservices/v1`, {
             method: 'POST',
             headers: { ...azureHeaders, 'Content-Type': 'application/ssml+xml', 'X-Microsoft-OutputFormat': FORMAT, 'User-Agent': 'audioguias-mexico' },
