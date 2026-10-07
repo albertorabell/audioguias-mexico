@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_brasero_teatro",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "31cf0531f7c411c9",
+      "texto": "Brasero cérémoniel de type théâtre"
+    },
+    "frase_gancho": {
+      "hash": "fc2c19c665135a86",
+      "texto": "Une scène d’argile avec un visage au centre, conçue pour être enveloppée de fumée."
+    },
+    "puente_narrativo": {
+      "hash": "e62112fd40f74b49",
+      "texto": "Nous poursuivons avec un encensoir d’argile en forme de scène : il s’appelle le brasero de type théâtre."
+    },
+    "guion_corto": {
+      "hash": "3ac26378bcbeeeef",
+      "texto": "On l’appelle de type théâtre parce qu’il possède une scène. La partie avant de cet encensoir est recouverte d’une armature qui encadre un visage humain central, orné de grandes oreillères. C’est comme une scène qui encadre un acteur. Tout autour sont disposées des figures moulées de papillons, d’oiseaux, de boucliers, de cercles et d’éventails de plumes. En bas, une base évasée en forme de cloche servait de cassolette pour le charbon et la résine de copal. Derrière, une cheminée canalisait la fumée. Il est en céramique polychrome, de la culture teotihuacán, et se situe dans le Classique récent, entre les années 450 et 650 après Jésus-Christ. Il a été découvert intact, en 1911, par l’archéologue Manuel Gamio, à Azcapotzalco, à Mexico."
+    },
+    "guion_largo": {
+      "hash": "abdfd44e6dd32cec",
+      "texto": "L’encensoir a la forme d’un théâtre. Et sa découverte a changé la manière d’en reconstituer beaucoup d’autres.\n\nC’est un brasero cérémoniel en céramique polychrome, façonné dans l’argile. Il appartient à la culture teotihuacán et se situe dans la période Classique, dans sa phase récente, entre les années 450 et 650 après Jésus-Christ. Il mesure plus d’un demi-mètre de haut.\n\nSa structure est composée de plusieurs pièces. En bas se trouve une base évasée en forme de cloche, qui servait de cassolette pour y placer le charbon et la résine de copal. Dessus s’ajuste une cheminée, à l’arrière, qui canalise la fumée.\n\nÀ l’avant, une armature recouvre toute la surface. C’est la scène. À l’intérieur apparaît un visage humain orné de grandes oreillères. Tout autour sont disposées des figures de papillons, d’oiseaux, de boucliers, de cercles et d’éventails de plumes.\n\nLes éléments étaient moulés séparément, en série, puis assemblés. D’où le nom de type théâtre : la structure frontale encadre le masque central, exactement comme une scène.\n\nEn 1911, Manuel Gamio l’a trouvé intact à Azcapotzalco. Ce fut une étape décisive. Grâce à cet exemplaire, les archéologues ont disposé d’un modèle pour reconstituer l’ordre d’origine de centaines d’encensoirs dont les pièces étaient dispersées."
+    },
+    "retos_observacion": {
+      "hash": "71350d3e85d6aaf5",
+      "texto": [
+        "Cherchez le visage humain au centre, avec ses grandes oreillères.",
+        "Trouvez les papillons, les oiseaux et les boucliers moulés.",
+        "Regardez la base évasée en forme de cloche qui servait de cassolette."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2ed579888c421cde",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique récent (450-650 apr. J.-C.)",
+        "Matériau": "Céramique polychrome, avec pigments calcaires",
+        "Provenance": "Azcapotzalco, Mexico",
+        "Dimensions": "0,76 m de haut x 0,414 m de diamètre",
+        "Découverte": "Découvert intact en 1911 par Manuel Gamio à Azcapotzalco"
+      }
+    },
+    "faq_mito": {
+      "hash": "97a096a866b16aac",
+      "texto": {
+        "pregunta": "Mythe : Les braseros de type théâtre étaient des urnes servant à conserver les cendres des défunts.",
+        "respuesta": "Réalité : C’étaient des encensoirs : dans la base, on brûlait du charbon et de la résine de copal, et la cheminée canalisait la fumée."
+      }
+    }
+  }
+}
