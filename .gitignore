@@ -8,7 +8,8 @@ coverage/
 .env*
 !.env.example
 
-# MP3 de las piezas de pago: nunca se publican con el sitio (viven en el servidor de audio)
+# MP3 recién generados: nunca se guardan en git ni se publican con el sitio (se suben a Cloudflare R2, carpetas libre/ y pago/)
+audio-generado/
 audio-premium/
 
 # Compilaciones temporales de las pruebas de navegador

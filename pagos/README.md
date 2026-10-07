@@ -12,7 +12,8 @@ Este archivo es la referencia técnica.
 | `POST /redeem` | Al volver de Stripe: confirma el pago y entrega **token** + **código** + vencimiento |
 | `POST /code` | Activa el pase en otro dispositivo con el código corto (`XXXX-XXXX`) |
 | `POST /status` | Comprueba si un token sigue vigente |
-| `GET /audio/<idioma>/<pieza>_<corto\|largo>.mp3?t=<token>` | Entrega el MP3 de pago desde R2 si el token es válido (soporta `Range`) |
+| `GET /audio/libre/<idioma>/<pieza>_<corto\|largo>.mp3` | Entrega el MP3 de una pieza gratis desde R2, sin clave (soporta `Range`) |
+| `GET /audio/pago/<idioma>/<pieza>_<corto\|largo>.mp3?t=<token>` | Entrega el MP3 de pago desde R2 si el token es válido (soporta `Range`) |
 | `GET /health` | Comprobación de vida |
 
 ## Reglas
@@ -27,7 +28,7 @@ Este archivo es la referencia técnica.
 ## Configuración (`wrangler.toml`)
 
 Variables: `ALLOWED_ORIGINS`, `SITE_IDS`, `PASS_HOURS`, `MAX_DEVICES`, `SESSION_MAX_DAYS` (opcional, 30), `STRIPE_PRICE_ID_MXN`, `STRIPE_PRICE_ID_USD` (opcional).
-Enlaces: KV `PASES` (pases y códigos), R2 `AUDIO` (MP3 de pago, bucket `audioguias-audio`).
+Enlaces: KV `PASES` (pases y códigos), R2 `AUDIO` (todos los MP3, bucket `audioguias-audio`, carpetas `libre/` y `pago/`).
 Secretos (nunca en archivos): `STRIPE_SECRET_KEY`, `TOKEN_SECRET`.
 
 ## Pruebas
@@ -44,5 +45,5 @@ Prueban con Stripe, KV y R2 simulados: checkout, canje, límite de dispositivos,
 - KV es eventualmente consistente (un código nuevo puede tardar hasta ~1 min en verse en otra región).
 - El límite de 2 dispositivos es de cortesía: KV no es atómico, así que quien lance muchas solicitudes **al mismo tiempo** con identificadores distintos podría activar más. Para blindarlo haría falta un Durable Object por pase.
 - No hay límite de solicitudes por IP. Si algún día hay abuso, se agrega una regla de *Rate limiting* en Cloudflare para `POST /redeem`, `/code` y `/checkout`.
-- Los MP3 de pago se guardan en R2 como `<idioma>/<pieza>_<modo>.mp3` (sin el sitio). Antes de agregar un **segundo museo** con audios de pago hay que incluir el sitio en la ruta y comprobar que el `site` del token coincida.
+- Los MP3 se guardan en R2 como `libre/<idioma>/<pieza>_<modo>.mp3` o `pago/<idioma>/<pieza>_<modo>.mp3` (sin el sitio). Antes de agregar un **segundo museo** con audios de pago hay que incluir el sitio en la ruta y comprobar que el `site` del token coincida.
 - El candado protege los **MP3** de pago. Los **textos** de las piezas de pago siguen en el JSON público del sitio.

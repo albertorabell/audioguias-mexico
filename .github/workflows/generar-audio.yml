@@ -31,6 +31,10 @@ on:
         description: 'Regenerar aunque el texto no haya cambiado'
         type: boolean
         default: false
+      reubicar:
+        description: 'Solo mover en R2 los audios de piezas que cambiaron de gratis a pago (o al revés). No genera ni gasta voz'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -52,6 +56,7 @@ jobs:
       - name: Revisar que estén las claves necesarias (antes de gastar nada)
         env:
           GENERAR: ${{ inputs.generar }}
+          REUBICAR: ${{ inputs.reubicar }}
           PROVEEDOR: ${{ inputs.proveedor }}
           PIEZAS: ${{ inputs.piezas }}
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
@@ -60,15 +65,17 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
+          if [ "$GENERAR" != "true" ] && [ "$REUBICAR" != "true" ]; then exit 0; fi
+          # Todo el audio vive en Cloudflare R2 (carpetas libre/ y pago/): sin esas claves no se puede guardar nada
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Los audios se guardan en Cloudflare R2: faltan los secretos CLOUDFLARE_API_TOKEN y CLOUDFLARE_ACCOUNT_ID (Settings > Secrets and variables > Actions). No se generó nada."; exit 1
+          fi
           if [ "$GENERAR" != "true" ]; then exit 0; fi
           if [ "$PROVEEDOR" = "azure" ] && { [ -z "$AZURE_SPEECH_KEY" ] || [ -z "$AZURE_SPEECH_REGION" ]; }; then
             echo "::error::Faltan los secretos AZURE_SPEECH_KEY y AZURE_SPEECH_REGION (Settings > Secrets and variables > Actions)."; exit 1
           fi
           if [ "$PROVEEDOR" = "openai" ] && [ -z "$OPENAI_API_KEY" ]; then
             echo "::error::Falta el secreto OPENAI_API_KEY (Settings > Secrets and variables > Actions)."; exit 1
-          fi
-          if [ "$PIEZAS" != "gratis" ] && { [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; }; then
-            echo "::error::Los audios de pago se guardan en Cloudflare R2: faltan los secretos CLOUDFLARE_API_TOKEN y CLOUDFLARE_ACCOUNT_ID. No se generó nada."; exit 1
           fi
 
       - name: Traer los textos más recientes del Google Sheets
@@ -82,28 +89,32 @@ jobs:
           LIMITE: ${{ inputs.limite }}
           GENERAR: ${{ inputs.generar }}
           FORZAR: ${{ inputs.forzar }}
+          REUBICAR: ${{ inputs.reubicar }}
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: bash scripts/correr-generar-audio.sh
 
-      - name: Subir los audios de pago a Cloudflare R2
-        if: ${{ inputs.generar }}
+      # Se sube aunque la generación se haya cortado a medias: lo que sí se generó ya se pagó y no debe perderse
+      - name: Subir los audios a Cloudflare R2 (libre/ y pago/)
+        if: ${{ !cancelled() && inputs.generar }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: node scripts/subir-audio-premium.mjs
+        run: node scripts/subir-audio.mjs
 
-      - name: Guardar los audios gratis y la lista (manifiesto) en el repositorio
-        if: ${{ inputs.generar }}
+      - name: Guardar la lista de audios (manifiesto) en el repositorio
+        if: ${{ !cancelled() && (inputs.generar || inputs.reubicar) }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/audio
+          git add public/audio/manifest.json
           if git diff --cached --quiet; then
             echo "No hay nada nuevo que guardar."
           else
-            git commit -m "Audios MP3 generados (${{ inputs.proveedor }}, ${{ inputs.idiomas }}, ${{ inputs.piezas }})"
+            git commit -m "Lista de audios MP3 actualizada (${{ inputs.proveedor }}, ${{ inputs.idiomas }}, ${{ inputs.piezas }})"
             # Antes de traer lo nuevo hay que soltar los archivos que cambió la sincronización (public/data); git no deja hacer rebase con cambios sueltos
             git reset --hard HEAD
             git pull --rebase origin "${GITHUB_REF_NAME}"
@@ -111,7 +122,7 @@ jobs:
           fi
 
       - name: Publicar el sitio con los audios nuevos (solo si se corrió en main)
-        if: ${{ inputs.generar && github.ref_name == 'main' }}
+        if: ${{ !cancelled() && (inputs.generar || inputs.reubicar) && github.ref_name == 'main' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run deploy.yml --ref main

@@ -5,7 +5,9 @@
 //   POST /code       un segundo dispositivo entra con el código corto del pase
 //   POST /status     revisa si una clave sigue vigente
 //   GET  /config     precios reales (los lee de Stripe) y reglas del pase
-//   GET  /audio/<idioma>/<pieza>_<modo>.mp3?t=<clave>   audios de pago (solo con clave vigente)
+//   GET  /audio/libre/<idioma>/<pieza>_<modo>.mp3          audios de piezas gratis (públicos, sin clave)
+//   GET  /audio/pago/<idioma>/<pieza>_<modo>.mp3?t=<clave> audios de piezas de pago (solo con clave vigente)
+//   (en el bucket R2 están en las carpetas libre/ y pago/ con el mismo nombre)
 //
 // Nada del dinero pasa por aquí: el pago ocurre en la página de Stripe. Este servidor solo pregunta a Stripe
 // "¿esta sesión está pagada?" con la clave secreta, y entrega una clave firmada que dura lo que dura el pase.
@@ -15,7 +17,7 @@ import { signToken, verifyToken } from './token.js';
 const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'; // sin 0, O, 1, I, L para que no se confundan al dictarlo
 const SESSION_RE = /^cs_(test|live)_[A-Za-z0-9]{10,200}$/;
 const DEVICE_RE = /^[A-Za-z0-9_-]{6,64}$/;
-const AUDIO_RE = /^\/audio\/(es|en|fr|pl|ru|ja)\/([A-Za-z0-9_-]+)_(corto|largo)\.mp3$/;
+const AUDIO_RE = /^\/audio\/(libre|pago)\/(es|en|fr|pl|ru|ja)\/([A-Za-z0-9_-]+)_(corto|largo)\.mp3$/;
 const STRIPE_LOCALES = { es: 'es-419', en: 'en', fr: 'fr', pl: 'pl', ru: 'ru', ja: 'ja' };
 
 /** "ES", "es-MX" o "en-US" → "es" / "en". Cualquier otra cosa (incluido "constructor") → "es". */
@@ -282,10 +284,13 @@ export function parseRange(header, size) {
 async function handleAudio(request, env, cfg, cors, url) {
   const m = url.pathname.match(AUDIO_RE);
   if (!m) return new Response('No encontrado', { status: 404, headers: cors });
-  const payload = await verifyToken(url.searchParams.get('t'), env.TOKEN_SECRET);
-  if (!payload || !cfg.sites.includes(payload.site)) return new Response('Sin acceso', { status: 401, headers: cors });
+  const premium = m[1] === 'pago';
+  if (premium) {
+    const payload = await verifyToken(url.searchParams.get('t'), env.TOKEN_SECRET);
+    if (!payload || !cfg.sites.includes(payload.site)) return new Response('Sin acceso', { status: 401, headers: cors });
+  }
 
-  const key = `${m[1]}/${m[2]}_${m[3]}.mp3`;
+  const key = `${m[1]}/${m[2]}/${m[3]}_${m[4]}.mp3`;
   // Primero se pide solo la ficha del archivo (tamaño): así el tramo pedido se calcula aquí y no depende de cómo lo interprete R2
   const info = await env.AUDIO.head(key);
   if (!info) return new Response('No encontrado', { status: 404, headers: cors });
@@ -293,8 +298,8 @@ async function handleAudio(request, env, cfg, cors, url) {
   const headers = new Headers(cors);
   headers.set('Content-Type', 'audio/mpeg');
   headers.set('Accept-Ranges', 'bytes');
-  // El navegador puede guardarlo para el modo sin conexión, pero ningún intermediario debe compartirlo
-  headers.set('Cache-Control', 'private, max-age=3600');
+  // Libres: cualquiera puede guardarlos (también las redes de entrega). De pago: solo el navegador, ningún intermediario debe compartirlos
+  headers.set('Cache-Control', premium ? 'private, max-age=3600' : 'public, max-age=86400');
   if (info.httpEtag) headers.set('ETag', info.httpEtag);
 
   const range = parseRange(request.headers.get('Range'), info.size);

@@ -83,10 +83,11 @@ Ya aparecen en el selector como «Pronto». Para activarlos hace falta que **yo*
 
 ### Cómo funciona (en corto)
 
-- **Piezas gratis:** su MP3 se publica junto con el sitio (carpeta `public/audio`).
-- **Piezas de pago:** su MP3 **no** se publica con el sitio. Vive en **Cloudflare R2** y solo se entrega a quien tiene un pase vigente.
+- **Todos los MP3 viven en Cloudflare R2** (bucket `audioguias-audio`), en dos carpetas: `libre/` (piezas gratis, las escucha cualquiera) y `pago/` (piezas de pago, solo con un pase vigente). Nada de audio se guarda en GitHub; en GitHub solo queda la lista (`public/audio/manifest.json`).
+- **Cambiar qué piezas son gratis** (cambiar la columna en el Sheets) **no cuesta voz**: corres el botón con «reubicar» y el MP3 solo se mueve de `libre/` a `pago/` (o al revés) dentro de R2.
+- Esto funciona igual en GitHub Pages y cuando el sitio se mude a Cloudflare: los audios no dependen de dónde esté el sitio.
 - Si el texto de una pieza cambia en el Sheets, su MP3 viejo **deja de usarse** (la app vuelve a la voz del teléfono) hasta que lo generes de nuevo. Así nunca se oye un audio que no coincide con el texto.
-- Si una pieza pasa de gratis a pago, el generador se niega a publicar su MP3 gratis (protección contra fugas).
+- Si una pieza pasa de gratis a pago, su MP3 solo se puede mover a `pago/`; el sitio se niega a publicar si encuentra un MP3 de pago dentro de `public/audio` (protección contra fugas).
 
 ### Paso B1 — Decide la voz (cuesta dinero, **tú decides**)
 
@@ -125,13 +126,17 @@ Referencia que usé (precios aproximados; **confírmalos en la página del prove
 1. **Actions → «Generar audios MP3 (botón manual)» → Run workflow.**
 2. **Primera vez, solo ver el plan:** deja «generar» **sin marcar**. Mira en el registro cuántos audios y cuánto costaría.
 3. **Segunda vez, prueba chiquita:** proveedor `azure` (u `openai`), piezas `gratis`, límite `3`, **marca «generar»**. Se generan 3 MP3.
-4. Descarga uno desde `public/audio/es/` en GitHub y escúchalo. Si no te gusta la voz, cambia la voz (te digo cómo) antes de gastar más.
+4. Al terminar el botón (y cuando el sitio se vuelva a publicar) escucha uno desde la app. Si no te gusta la voz, cambia la voz (te digo cómo) antes de gastar más.
 5. **Tercera vez, todo lo gratis:** límite vacío, piezas `gratis`.
-6. **Después, las de pago:** requiere la Parte C (Cloudflare) hecha, porque esos MP3 se suben a R2. El botón se niega a empezar si faltan las claves de Cloudflare, para no gastar en audios que luego no se puedan guardar.
+6. **Después, las de pago:** piezas `premium`.
+7. **Si cambias qué piezas son gratis:** corre el botón con «reubicar» marcada (sin generar). Mueve los MP3 entre `libre/` y `pago/` en R2. Gratis.
+
+Como TODO el audio se guarda en R2, la Parte C (Cloudflare) debe estar hecha desde la primera vez. El botón se niega a empezar si faltan las claves de Cloudflare, para no gastar en audios que luego no se puedan guardar.
 
 Para ensayar **sin gastar nada**, usa el proveedor `prueba`: genera MP3 en silencio y sirve para comprobar que todo el camino funciona.
 
-> Los MP3 de pago quedan **solo en R2** (no se guardan en GitHub porque el repositorio es público). Si algún día se pierden, se regeneran con «Regenerar aunque el texto no haya cambiado».
+> Los MP3 quedan **solo en R2** (no se guardan en GitHub). Si algún día se pierden, se regeneran con «Regenerar aunque el texto no haya cambiado». Conviene no borrar el bucket.
+> Si el botón se corta a medias, lo ya generado se sube de todos modos (ya se pagó); al correrlo otra vez continúa donde se quedó.
 
 ### Paso B5 — Se ven en la app
 
@@ -171,7 +176,7 @@ El cobro necesita un **servidor pequeño** (en Cloudflare, gratis para tu volume
 2. **ID de la cuenta:** en el panel, a la derecha (o en la dirección del navegador). Guárdalo en GitHub como secreto **`CLOUDFLARE_ACCOUNT_ID`**.
 3. **Token de API:** *My Profile → API Tokens → Create Token → plantilla «Edit Cloudflare Workers»*. Agrega también permiso de **Workers R2 Storage: Edit** y **Workers KV Storage: Edit**. Guárdalo como secreto **`CLOUDFLARE_API_TOKEN`**.
 4. Crea el **KV** (donde se guardan los pases): *Storage & databases → KV → Create namespace* con nombre `PASES`. Copia su **ID**.
-5. Crea el **R2** (donde viven los MP3 de pago): *R2 → Create bucket* con nombre exacto `audioguias-audio`.
+5. Crea el **R2** (donde viven TODOS los MP3, en las carpetas libre/ y pago/): *R2 → Create bucket* con nombre exacto `audioguias-audio`.
 
 > Los nombres de los botones de Cloudflare cambian de vez en cuando. Si no encuentras uno, mándame una captura.
 

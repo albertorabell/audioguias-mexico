@@ -139,7 +139,7 @@ export function planAudio(pieces, manifest, { langs = ['es'], modes = MODES, onl
           else keep.push(item);
           continue;
         }
-        todo.push(item);
+        todo.push(old ? { ...item, from: old } : item);
         chars += script.length;
       }
     }
