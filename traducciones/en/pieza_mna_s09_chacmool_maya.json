@@ -1,0 +1,56 @@
+{
+  "id": "mna_s09_chacmool_maya",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cdc1f808fa47a780",
+      "texto": "Chac Mool of Chichén Itzá"
+    },
+    "frase_gancho": {
+      "hash": "45393cb778a24b50",
+      "texto": "A reclining sculpture that guards the vessel for divine offerings."
+    },
+    "puente_narrativo": {
+      "hash": "7fffc27cc9e2ccdb",
+      "texto": "We close the hall at Chichén Itzá, with a reclining figure famous for a name that is not its original one: Chac Mool."
+    },
+    "guion_corto": {
+      "hash": "eba5de37411c9357",
+      "texto": "Chac Mool is not the original name of this figure. It was given by the French explorer Augustus Le Plongeon when he unearthed it at Chichén Itzá, in the nineteenth century. It is a limestone sculpture from the Early Postclassic. It shows a reclining man, with his elbows, hips and back propped up, and his head turned ninety degrees. On his belly he holds a circular vessel, made to hold offerings of blood and hearts. He wears a loincloth, ear ornaments, anklets and a pectoral shaped like the silhouette of a stylized butterfly, a feature that connects him to the style of Tula. It was found at the Platform of Venus. Afterward, the name was used for other sculptures of the same type."
+    },
+    "guion_largo": {
+      "hash": "b8598de2342c2d17",
+      "texto": "It is called Chac Mool, but that name does not come from the Mayas. An explorer invented it.\n\nIt was the Frenchman Augustus Le Plongeon who christened it this way when he unearthed it at Chichén Itzá, Yucatán, in the nineteenth century. He found it at the Platform of Venus. Since then, the name has been used for other sculptures of this type.\n\nIt is a work from the Early Postclassic, carved in limestone, in the round. It is associated with Maya culture and with Tolteca influence. It combines local traditions with influences from the Central Highlands.\n\nLook at the posture. It is a reclining male figure. He props up his elbows, hips and back, and turns his head ninety degrees. On his belly he holds a circular vessel with his hands. That vessel was used to hold offerings of blood and hearts.\n\nNow the details of his attire. He wears a loincloth, ear ornaments and anklets. On his chest he wears a pectoral shaped like the silhouette of a stylized butterfly. That feature connects him to the style of Tula, the Tolteca capital, and shows the ties between two regions.\n\nWho it represents is not known for certain. That is why it is best to describe what can be seen: an attentive man, with his hands on a vessel, like someone waiting to receive."
+    },
+    "retos_observacion": {
+      "hash": "d81cdedce56444d0",
+      "texto": [
+        "Look for the circular vessel on the belly.",
+        "See which way the head turns: ninety degrees.",
+        "Find the pectoral shaped like a stylized butterfly."
+      ]
+    },
+    "especificaciones": {
+      "hash": "64e9fb5693638f2b",
+      "texto": {
+        "Culture": "Maya",
+        "Period": "Early Postclassic",
+        "Material": "Limestone",
+        "Origin": "Chichén Itzá, Yucatán",
+        "Dimensions": "1.10 m high x 1.48 m wide",
+        "Discovery": "19th century, by Augustus Le Plongeon, at the Platform of Venus at Chichén Itzá"
+      }
+    },
+    "faq_mito": {
+      "hash": "a84a142a1dea5698",
+      "texto": {
+        "pregunta": "Myth: Chac Mool is the original name of this sculpture.",
+        "respuesta": "Reality: It was given by the French explorer Augustus Le Plongeon when he unearthed it at Chichén Itzá."
+      }
+    }
+  }
+}

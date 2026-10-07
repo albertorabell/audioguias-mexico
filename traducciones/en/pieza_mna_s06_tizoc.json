@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_tizoc",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b62ce1131b69a4d1",
+      "texto": "Stone of Tízoc"
+    },
+    "frase_gancho": {
+      "hash": "52d32dccc842ce73",
+      "texto": "A stone cylinder where the ruler grips the conquered by the hair."
+    },
+    "puente_narrativo": {
+      "hash": "1df75431c9e7e3c8",
+      "texto": "We move from the image of the earth to a monument of political power, where the Mexica empire told the story of its conquests in stone."
+    },
+    "guion_corto": {
+      "hash": "6644eddc1ee39a8a",
+      "texto": "Between 1481 and 1486, the ruler Tízoc ordered the carving of a monument where conquests read like a story in images. It is a Mexica work of the Late Postclassic, a low, wide cylinder. Around its side, fifteen scenes repeat. In each one, a ruler dressed as Xiuhtecuhtli, the god of fire, grips a defeated lord by the hair. Beside the captive is a glyph that names the conquered people. On the top face there is a sun disk with a cavity in the center. For this reason, it is thought to have served as a cuauhxicalli, a vessel for hearts, and as a temalácatl, the platform for the gladiatorial sacrifice in honor of Xipe Tótec. It was a monument made to display power and to feed the gods."
+    },
+    "guion_largo": {
+      "hash": "15470a516dee503c",
+      "texto": "Between 1481 and 1486, the ruler Tízoc ordered the carving of this monument. It is a Mexica work of the Late Postclassic, a low, wide cylinder of stone carved in relief. More than an ornament, it was a declaration: this is what my armies have conquered.\n\nTo read it, you have to walk along its side. There, the same scene repeats fifteen times. A ruler, dressed with the attributes of the god of fire, Xiuhtecuhtli, grips a defeated lord by the hair. Beside each captive there is a glyph, and each glyph names a subjugated people. It is a list of conquests written in images, designed to be understood without words.\n\nThe stone also had a ritual use. On the top face there is a sun disk with a cavity in the center. It is thought to have been a cuauhxicalli, a vessel where the hearts of the sacrificed were placed. And also a temalácatl, the platform for the gladiatorial sacrifice in honor of Xipe Tótec. The story goes that a high-ranking captive fought tied to the stone. His weapon was a club of feathers, and his opponents were Mexica warriors with real weapons.\n\nThe later history of the stone has two moments. It had already come to light between 1562 and 1565, and was buried again. In 1791 it was brought to light once more. Thanks to that second unearthing, today we can follow, with our eyes, the conquests of Tízoc, one by one."
+    },
+    "retos_observacion": {
+      "hash": "4a7e9857b8179e8e",
+      "texto": [
+        "Look for the ruler who grips a defeated man by the hair.",
+        "Next to each prisoner, find the glyph that names the conquered people.",
+        "On the top face, find the sun disk and the central cavity."
+      ]
+    },
+    "especificaciones": {
+      "hash": "196c96efa17e2a2e",
+      "texto": {
+        "Culture": "Mexica",
+        "Period": "Late Postclassic (1481-1486 AD)",
+        "Material": "Andesite",
+        "Origin": "Historic Center, Mexico City",
+        "Dimensions": "94 cm high x 265 cm in diameter"
+      }
+    },
+    "faq_mito": {
+      "hash": "d47064d62d62a180",
+      "texto": {
+        "pregunta": "Myth: The Stone of Tízoc is just a relief to commemorate conquests.",
+        "respuesta": "Reality: It was also a ritual monument. It is thought to have served as a cuauhxicalli and as a temalácatl, for the gladiatorial sacrifice in honor of Xipe Tótec."
+      }
+    }
+  }
+}

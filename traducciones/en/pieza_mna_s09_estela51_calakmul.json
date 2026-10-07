@@ -1,0 +1,59 @@
+{
+  "id": "mna_s09_estela51_calakmul",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Mayas\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "fe2cec2405d775ab",
+      "texto": "Stela 51 of Calakmul"
+    },
+    "frase_gancho": {
+      "hash": "ebfea40c3b8ddc42",
+      "texto": "A king standing over his enemy, saved from looters."
+    },
+    "puente_narrativo": {
+      "hash": "960719adde05369e",
+      "texto": "Now Calakmul, with a stela that was saved just in time: it was cut with a chainsaw."
+    },
+    "guion_corto": {
+      "hash": "add6ea8b821aad0d",
+      "texto": "This stela was saved just in time. Looters cut it with a chainsaw to carry it off more easily, and that is why the texts on its sides were lost. It was seized from illegal sellers and arrived at the museum in 1963, under Ignacio Bernal. It is Stela 51 of Calakmul, Campeche, dated to the year 731 AD. It shows the ruler Yukno’m Tok’ K’awiil standing on a defeated captive, with a spear in his right hand. He wears a breastplate, a cape that reaches his ankles, and a headdress with the jaws of a fantastic serpent. It measures 3.02 meters high and 1.43 wide, and it is carved in limestone."
+    },
+    "guion_largo": {
+      "hash": "ab88729009d5c348",
+      "texto": "There was a moment when this stela came very close to being lost forever.\n\nIt is Stela 51 of Calakmul, one of the great Maya cities, in Campeche. It was found at the base of Structure 1. It was precisely dated to the year 731 AD, in the early eighth century. It is sculpted in limestone, in high relief, and measures 3.02 meters high by 1.43 wide.\n\nOriginally it had hieroglyphic inscriptions on three of its sides. But looters cut it with a chainsaw. They wanted to make it lighter to sell on the international market. In that cut, the side texts were lost.\n\nFortunately, it was seized. Ignacio Bernal recovered it for the museum in 1963.\n\nNow look at what remains. It is the portrait of Yukno’m Tok’ K’awiil, ruler of Calakmul in the early eighth century. He stands on a defeated captive and holds a spear in his right hand. He wears a breastplate and a cape that reaches down to his ankles. His headdress has the jaws of a fantastic serpent.\n\nNotice his hair. It is curly, a very uncommon feature in Maya sculpture. In front of his face appears the hieroglyphic inscription Sak Muwaan."
+    },
+    "retos_observacion": {
+      "hash": "cc06f6a2231eefa3",
+      "texto": [
+        "Look for the defeated captive beneath the ruler’s feet.",
+        "Notice his curly hair, uncommon in Maya art.",
+        "Find the Sak Muwaan inscription in front of his face."
+      ]
+    },
+    "especificaciones": {
+      "hash": "0bb037334e20ef60",
+      "texto": {
+        "Culture": "Maya",
+        "Period": "Late Classic (731 AD)",
+        "Material": "Limestone",
+        "Origin": "Calakmul, Campeche (base of Structure 1)",
+        "Dimensions": "3.02 m high x 1.43 m wide"
+      }
+    },
+    "faq_mito": {
+      "hash": "9c1ecc2b47b8b1f2",
+      "texto": {
+        "pregunta": "Myth: Stela 51 is a modern replica made for the museum.",
+        "respuesta": "Reality: It is an original sculpture, made of limestone, dated to the year 731 AD. It was seized from illegal sellers and arrived at the museum in 1963."
+      }
+    }
+  }
+}

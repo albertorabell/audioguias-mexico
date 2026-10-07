@@ -1,0 +1,60 @@
+{
+  "id": "mna_s09_cabeza_pakal",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Mayas\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "75a3c8a77276cf2f",
+      "texto": "Stucco Head of Pakal"
+    },
+    "frase_gancho": {
+      "hash": "1ef3f5d0b34d0d99",
+      "texto": "A stucco head that was placed beneath the sarcophagus of Pakal."
+    },
+    "puente_narrativo": {
+      "hash": "e5ae74b07c4223b2",
+      "texto": "We stay in Palenque with another face, this time modeled in stucco: the head of a young man."
+    },
+    "guion_corto": {
+      "hash": "6f968a6016457371",
+      "texto": "Look at this profile: the forehead and the nose form almost a single line. This is the stucco head of a young man, with a pronounced cranial deformation. His hair is cut in locks that recall maize leaves, and he wears a headdress with three flower buds. It was found in 1952 by the archaeologist Alberto Ruz Lhuillier, beneath the sarcophagus of Pakal, in the burial chamber of the Temple of the Inscriptions, in Palenque. It was not alone, since beside it lay another head, a female one. Both were deliberately torn from complete statues and placed as an offering during the burial. It is modeled in stucco, a mixture of lime and powdered limestone. It dates to the Late Classic, between the years 600 and 900 AD."
+    },
+    "guion_largo": {
+      "hash": "86fb7545be8c2f6b",
+      "texto": "The head was deliberately torn from a complete statue. And then it was placed as an offering beside a dead king.\n\nIt was found in 1952 by the archaeologist Alberto Ruz Lhuillier. It lay beneath the sarcophagus of Pakal, on the floor of the burial chamber of the Temple of the Inscriptions, in Palenque, Chiapas. It is a Maya work of the Late Classic, between the years 600 and 900 AD.\n\nIt is made of stucco, a mortar of lime and powdered limestone. With this material, the Maya sculptors achieved a modeling of great realism.\n\nLook at the profile. The forehead and the nose form an almost continuous line. It is a pronounced cranial deformation, of the oblique tabular type. The hair is cut in locks that recall maize leaves. On the head there is a headdress with three flower buds. Because of those maize leaves, it is also called the Young Maize God (Corn God). This is an interpretive reading.\n\nIt appeared beside the tomb of Pakal. Even so, it is described as the idealized portrait of a young man or of a dignitary of Palenque, without claiming who it is.\n\nIt was not alone. Beside it another stucco head was found, a female one. Both were intentionally torn from complete statues. Those statues adorned the facade of a temple in Palenque. They were later placed as a ritual offering when Pakal was buried."
+    },
+    "retos_observacion": {
+      "hash": "d62714809cd11c68",
+      "texto": [
+        "Look for the forehead and the nose: they form almost a single line.",
+        "Look at the hair cut in locks, like maize leaves.",
+        "Count the three flower buds of the headdress."
+      ]
+    },
+    "especificaciones": {
+      "hash": "1a0b4183dfbf5219",
+      "texto": {
+        "Culture": "Maya",
+        "Period": "Late Classic (600-900 AD)",
+        "Material": "Stucco",
+        "Origin": "Palenque, Chiapas (Temple of the Inscriptions)",
+        "Dimensions": "0.413 m high x 0.202 m wide",
+        "Discovery": "1952, by Alberto Ruz Lhuillier, beneath the sarcophagus of Pakal, in the burial chamber of the Temple of the Inscriptions"
+      }
+    },
+    "faq_mito": {
+      "hash": "2f73aca2de6ad5d9",
+      "texto": {
+        "pregunta": "Myth: This stucco head is a confirmed portrait of Pakal.",
+        "respuesta": "Reality: It was found beneath his sarcophagus, but it is described as the head of a young man or dignitary, without claiming who it is."
+      }
+    }
+  }
+}

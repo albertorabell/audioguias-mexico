@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_chalchiuhtlicue",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3555eec8c39ac8e0",
+      "texto": "Monumental Sculpture of Chalchiuhtlicue"
+    },
+    "frase_gancho": {
+      "hash": "e377075ba27cf8b1",
+      "texto": "A monolith of water where the jade goddess blesses the earth."
+    },
+    "puente_narrativo": {
+      "hash": "2ad34534f498f17a",
+      "texto": "We enter Teotihuacán, the great city of the Highlands, with a water goddess carved from a single block of volcanic rock."
+    },
+    "guion_corto": {
+      "hash": "12e358b0d268d6cc",
+      "texto": "Chalchiuhtlicue means the one with the jade skirt. It is the Nahuatl name of the goddess of terrestrial waters, and this Teotihuacana sculpture portrays her at more than three meters tall. She is carved from a single block of volcanic rock, with geometric and abstract forms. She wears an enormous rectangular headdress, large circular ear ornaments, a necklace of three strands of beads, and a quechquémitl, a triangular garment. Her hands extend forward, over her abdomen. She was found on the esplanade in front of the Pyramid of the Moon, in Teotihuacán. That is why it is believed she was dedicated to the worship of water and fertility. She is estimated to weigh between 18 and 21 tons."
+    },
+    "guion_largo": {
+      "hash": "916730abbbbf9ee4",
+      "texto": "This goddess came to the museum by train. And her journey was quite an operation.\n\nIt is a sculpture in the round, made of volcanic rock, in a single block. It belongs to the Teotihuacana culture, from the Classic period. It stands more than three meters tall and is estimated to weigh between 18 and 21 tons.\n\nIt represents Chalchiuhtlicue, which in Nahuatl means the one with the jade skirt. She was the female deity of terrestrial waters. She wears an imposing rectangular headdress, large circular ear ornaments, and a necklace of three strands of beads. She is dressed in a quechquémitl, a triangular garment, a decorated skirt, and sandals. Her hands extend forward over her abdomen.\n\nIt was found in front of the Pyramid of the Moon, in Teotihuacán. That location suggests the monument was dedicated to the worship of terrestrial waters, of rivers, and of agricultural fertility.\n\nIn 1890, Leopoldo Batres moved it to the National Museum, on Moneda Street. It was brought by train to the Buenavista station. Afterward it was moved on a special cart pulled by mules. It is said that the authorities warned the neighbors not to come close. If a cable snapped, the weight of the piece could cut a person in two.\n\nToday there are no cables and no neighbors, but the goddess still commands respect."
+    },
+    "retos_observacion": {
+      "hash": "fb751d70dcf5262c",
+      "texto": [
+        "Look for the goddess’s great rectangular headdress.",
+        "Notice the necklace of three strands of beads.",
+        "Look at the hands: they extend forward, over the abdomen."
+      ]
+    },
+    "especificaciones": {
+      "hash": "83bb4d9713b0359d",
+      "texto": {
+        "Culture": "Teotihuacana",
+        "Period": "Early Classic (100-350 AD)",
+        "Material": "Volcanic rock (andesite)",
+        "Origin": "Teotihuacán, State of Mexico (Plaza of the Moon, in front of the Pyramid of the Moon)",
+        "Dimensions": "3.16 m high x 1.65 m wide x 1.65 m thick",
+        "Discovery": "Moved in 1890 to the former National Museum, on Moneda Street, by Leopoldo Batres"
+      }
+    },
+    "faq_mito": {
+      "hash": "8beb3e3bf98470dc",
+      "texto": {
+        "pregunta": "Myth: This sculpture represents Tláloc, the god of rain, because of its great size.",
+        "respuesta": "Reality: It represents Chalchiuhtlicue, the female deity of terrestrial waters. She is recognized by her quechquémitl, her skirt, and her headdress."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_teocalli_guerra_sagrada",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "975d0f20bf813e40",
+      "texto": "Teocalli of the Sacred War"
+    },
+    "frase_gancho": {
+      "hash": "4e0f08a9823f2b6b",
+      "texto": "A miniature temple with an eagle perched on a prickly pear cactus."
+    },
+    "puente_narrativo": {
+      "hash": "00eec29fafc7abf6",
+      "texto": "The earth appears once again, now in a monument where religion and political power come together: a temple carved to scale."
+    },
+    "guion_corto": {
+      "hash": "375e62919f6495b6",
+      "texto": "This miniature temple lay buried beneath the National Palace. It was found in August 1831, in the foundations of the south tower, and in July 1926 it arrived at the National Museum. It is the Teocalli of the Sacred War, a Mexica work of the Late Postclassic, carved in basalt with red pigment. It commemorates the New Fire ceremony of 1506 to 1507. On the front, a staircase of thirteen steps climbs to the shrine. There a ruler and the god Huitzilopochtli pierce their ears to offer their blood. On the back is the most famous relief: an eagle perched on a prickly pear cactus that sprouts from the body of the earth. From the eagle's beak comes not a serpent, but the sign of water and fire, the emblem of the sacred war."
+    },
+    "guion_largo": {
+      "hash": "a8ce0bc86753b439",
+      "texto": "The Teocalli of the Sacred War is a miniature temple, a stone model of a pyramid with a staircase and a shrine. It is a Mexica work of the Late Postclassic, carved in basalt with traces of red pigment. It commemorates the New Fire ceremony of 1506 to 1507, and it bears the carved date 2 Reed.\n\nOn the front, a staircase of thirteen steps climbs to the shrine at the top. There appears a scene of self-sacrifice. The ruler Moctezuma II and the patron god, Huitzilopochtli, pierce their earlobes with awls, on either side of the solar disk. It is an image of power: the ruler offers his blood just as the god does.\n\nThe back face is the most famous. There is the eagle perched on a prickly pear cactus that sprouts from the body of Tlaltecuhtli, the earth deity. It is the image the Mexica linked with the founding of Tenochtitlan. And there is a surprising detail: from the eagle's beak comes not a serpent, but the atl-tlachinolli sign, which means water and fire. It was the emblem of the sacred war, the war the Mexica waged to nourish the gods.\n\nThe modern history of the monument also holds surprises. It was found in August 1831, in the foundations of the south tower of the National Palace. And in July 1926 it arrived at the National Museum, where it is kept today as one of the most famous images of the Mexica world."
+    },
+    "retos_observacion": {
+      "hash": "b78f634815c1214e",
+      "texto": [
+        "Look on the back face for the eagle perched on the prickly pear cactus.",
+        "Find the sign of water and fire coming from the beak.",
+        "Find the central staircase and the shrine at the top."
+      ]
+    },
+    "especificaciones": {
+      "hash": "9f07c574a19b4a3f",
+      "texto": {
+        "Culture": "Mexica",
+        "Period": "Late Postclassic (1200-1521 AD)",
+        "Material": "Basalt and red pigment",
+        "Origin": "Historic Center, Mexico City (National Palace)",
+        "Dimensions": "123 cm high x 92 cm wide x 100 cm thick"
+      }
+    },
+    "faq_mito": {
+      "hash": "a48c2a86a1517669",
+      "texto": {
+        "pregunta": "Myth: The eagle in this relief devours a serpent, just like on the national coat of arms.",
+        "respuesta": "Reality: From the eagle’s beak comes the atl-tlachinolli sign, water and fire, the emblem of the sacred war. The image of the eagle on the prickly pear cactus was linked with the founding of Tenochtitlan."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "mna_s09_dintel26_yaxchilan",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Mayas\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "4c83064b535fee69",
+      "texto": "Lintel 26 of Yaxchilán"
+    },
+    "frase_gancho": {
+      "hash": "c56caf91440a8b67",
+      "texto": "A wife hands the jaguar helmet to a ruler who is leaving for war."
+    },
+    "puente_narrativo": {
+      "hash": "5b32289b8dbe1d20",
+      "texto": "We move on to Yaxchilán, with a relief where a woman equips her husband before war."
+    },
+    "guion_corto": {
+      "hash": "37dd9022a944d3d1",
+      "texto": "A warrior is getting ready to go to war, and the one equipping him is his wife. In this relief from Yaxchilán, the ruler Escudo Jaguar II receives a helmet shaped like a jaguar’s head and a flexible shield. In Maya, his name is Kohkaaj B'ahlam II. They are handed to him by Ix K'ab'al Xook, his principal wife. He wears chain mail and battle dress. The relief was dedicated around 725 AD and is carved in limestone. It is Lintel 26, which was part of Structure 23 at Yaxchilán, in Chiapas. Look at the upper right corner: next to the dedication date, the sculptor left his signature in glyphs, very discreetly."
+    },
+    "guion_largo": {
+      "hash": "580fe740a8356901",
+      "texto": "This relief tells of a farewell. A ruler is preparing to leave for war, and his wife hands him his weapons.\n\nIt is Lintel 26 of Yaxchilán. It comes from Structure 23, in Chiapas, and was carved in limestone, in deep high relief. It was dedicated around 725 AD, during the reign of Kohkaaj B'ahlam II, who is known as Escudo Jaguar II. The years 681 to 742 AD are associated with him.\n\nIt was discovered in 1881 by Edwin Rockstroh, among the ruins of Yaxchilán.\n\nLook at the scene. The ruler, in chain mail and battle dress, receives a helmet shaped like a jaguar’s head and a flexible shield. They are given to him by his principal wife, Ix K'ab'al Xook, whose name translates as Lady Shark Fin. His name is Escudo Jaguar, and in the scene there appear, fittingly, a shield and a jaguar helmet.\n\nIt is proposed that this gesture was part of the preparation for war. It is also proposed that the wife held a visible role at court, because she is the one who hands over the insignia.\n\nAnd one small detail remains. In the upper right corner, next to the dedication date, the sculptor left his signature in glyphs. It is one of the few Maya reliefs where the master dared to sign, although he did so with discretion."
+    },
+    "retos_observacion": {
+      "hash": "1926e1dac1ff1e45",
+      "texto": [
+        "Look at the helmet shaped like a jaguar’s head.",
+        "Find the flexible shield that the queen holds.",
+        "Find the sculptor’s signature, in the upper right corner."
+      ]
+    },
+    "especificaciones": {
+      "hash": "93d2a8ffbd7b27cd",
+      "texto": {
+        "Culture": "Maya",
+        "Period": "Late Classic (600-900 AD); dedicated around 725 AD",
+        "Material": "Limestone",
+        "Origin": "Yaxchilán, Chiapas (Structure 23)",
+        "Dimensions": "0.85 m high x 1.05 m wide x 0.16 m thick",
+        "Discovery": "1881, by Edwin Rockstroh, among the ruins of Yaxchilán"
+      }
+    },
+    "faq_mito": {
+      "hash": "7ddf40aa53f48ab6",
+      "texto": {
+        "pregunta": "Myth: In Lintel 26 the queen appears as a war captive.",
+        "respuesta": "Reality: She hands her husband, Escudo Jaguar II, a jaguar helmet and a shield, before he leaves for war."
+      }
+    }
+  }
+}

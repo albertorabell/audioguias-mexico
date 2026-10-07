@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_reina_uxmal",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d7d3866ea3a54a33",
+      "texto": "Queen of Uxmal"
+    },
+    "frase_gancho": {
+      "hash": "c49d082f93604ea5",
+      "texto": "A face emerging from the jaws of a serpent, carved in stone."
+    },
+    "puente_narrativo": {
+      "hash": "01db73b1c5898496",
+      "texto": "We travel to the north of the peninsula, to Uxmal, with a human head emerging from the jaws of a serpent."
+    },
+    "guion_corto": {
+      "hash": "c3740dcb8d304473",
+      "texto": "Is she a queen? That is what people call her, but look closely: the human head emerges from the open jaws of a serpent. Specialists interpret it instead as a young initiate or dignitary. This is the Queen of Uxmal, a Maya limestone sculpture from the Late Classic, between 600 and 900 AD. It comes from a substructure of the Pyramid of the Magician, in Uxmal, Yucatán. The face has oval eyes, an aquiline nose, and a barely open mouth. On one cheek there is a ritual scarification motif showing the head of a fantastic reptile. On the forehead it wears a diadem of beads. It measures 80 centimeters high and 99 thick, so it has a great deal of volume."
+    },
+    "guion_largo": {
+      "hash": "46f08c35c0886aa2",
+      "texto": "The popular name of this piece is the Queen of Uxmal. But you only need to look at it calmly to see that the story is different.\n\nIt is a Maya limestone sculpture from the Late Classic, between 600 and 900 AD. It comes from Uxmal, in Yucatán, and was part of a substructure of the Pyramid of the Magician, which is also called the Pyramid of the Wizard. Uxmal was one of the great cities of the Puuc region, in the north of the Yucatán Peninsula.\n\nWhat it represents is a human head emerging from the open jaws of a fantastic serpent. Specialists interpret it as a young initiate or dignitary, and not as a queen.\n\nLook at the face. It has oval eyes with thin eyelids, and a very pronounced aquiline nose. The mouth is barely open, with full lips and corners turned downward. On one cheek there is a ritual scarification motif: the head of a fantastic reptile, seen in profile, with a hook-shaped jaw.\n\nThe hairstyle tells a story too. It has straight locks at the sides, a tuft over the forehead, and a diadem of nearly flat beads.\n\nThe piece measures 80 centimeters high, 24 wide, and 99 thick. That depth matters. The figure projects forward, as if the face and the jaws were advancing toward you.\n\nA popular name does not always tell you what a piece represents. That is why it is worth looking at the sculpture calmly, and letting it be the one to tell you what it shows."
+    },
+    "retos_observacion": {
+      "hash": "7dff62c2ba711837",
+      "texto": [
+        "Look for the mark on the cheek: it is a fantastic reptile seen in profile.",
+        "Look at the hairstyle: straight locks, a tuft, and a diadem of beads.",
+        "Check the volume: the piece is 99 centimeters thick."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a5a50e1668ce346c",
+      "texto": {
+        "Culture": "Maya",
+        "Period": "Late Classic (600-900 AD)",
+        "Material": "Limestone",
+        "Origin": "Uxmal, Yucatán (substructure of the Pyramid of the Magician)",
+        "Dimensions": "80 cm high x 24 cm wide x 99 cm thick"
+      }
+    },
+    "faq_mito": {
+      "hash": "f0df58b5c606e653",
+      "texto": {
+        "pregunta": "Myth: The Queen of Uxmal is the portrait of a Maya queen.",
+        "respuesta": "Reality: It is only a popular name. It is interpreted as a young initiate or dignitary emerging from the jaws of a serpent."
+      }
+    }
+  }
+}

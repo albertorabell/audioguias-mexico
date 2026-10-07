@@ -1,0 +1,62 @@
+{
+  "id": "mna_s06_mono_obsidiana",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Nahuas\" para \"Nahuas\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Nahuas\" para \"Nahuas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "183fe9e97dc164cb",
+      "texto": "Obsidian Monkey"
+    },
+    "frase_gancho": {
+      "hash": "af8d2ccc0110306f",
+      "texto": "An obsidian monkey embracing a thin-walled cup."
+    },
+    "puente_narrativo": {
+      "hash": "a99c107f55f6ec9a",
+      "texto": "We continue with another animal figure, but in a very different material: obsidian, carved and polished with astonishing delicacy."
+    },
+    "guion_corto": {
+      "hash": "a6637d3808270e7e",
+      "texto": "For the Nahua Peoples, the monkey was an animal of wind, dance, and the arts. It was linked to Ehécatl-Quetzalcóatl, the wind god, and to scribes and musicians. So it is only natural that someone chose it to give shape to a cup. It is a spider monkey, called ozomatli in Nahuatl. It embraces the vessel with its limbs and coils its tail in a spiral around the base. The walls are extremely thin, and the black obsidian shines like a mirror. It is the result of carving by percussion and polishing with water and fine sands. It is a work of the Late Postclassic, and it has belonged to the National Museum since 1869. Many consider it the most refined piece of lapidary work in the entire collection."
+    },
+    "guion_largo": {
+      "hash": "f22ea9f0d0cdefcc",
+      "texto": "The Obsidian Monkey is a cup in the shape of a spider monkey, called ozomatli in Nahuatl. It is made of black obsidian, a volcanic glass, and it is a work of the Late Postclassic from the Central Highlands.\n\nThe first thing that surprises you is how it embraces. The animal wraps its limbs around the vessel, and its prehensile tail coils in a spiral around the base. The walls of the container are ultra-thin, and the surface shines like a mirror. The monkey does not merely decorate the cup: it is the cup. Its body, its limbs, and its tail form a single volume with the vessel.\n\nThat shine is the fruit of long, patient work. The obsidian was carved by percussion and then worn down and polished with water and fine sands. It is a hard material, but a brittle one, and a single misplaced blow could ruin the piece. That is why many consider it the most refined piece of lapidary work in the entire museum.\n\nWhy a monkey? For the Nahua Peoples, this animal was linked to Ehécatl-Quetzalcóatl, the wind god, and to the arts, scribes, dance, and agility. The monkey is restless and agile, and that energy was associated with the wind and with dancing. It is thought that a cup like this was not for everyday use, but a luxury object, a mark of prestige.\n\nIn 1869 it entered the collection of the National Museum, and ever since it has been kept as one of its treasures."
+    },
+    "retos_observacion": {
+      "hash": "60e67ab022315251",
+      "texto": [
+        "Follow the monkey’s tail as it coils in a spiral around the base.",
+        "Look at how the monkey’s limbs embrace the body of the cup.",
+        "Look for the mirror-like shine on the polished surface of the obsidian."
+      ]
+    },
+    "especificaciones": {
+      "hash": "80d20178806d07ba",
+      "texto": {
+        "Culture": "Acolhua / Mexica",
+        "Period": "Late Postclassic (1200-1521 AD)",
+        "Material": "Obsidian",
+        "Origin": "Texcoco, State of Mexico",
+        "Dimensions": "14 cm high x 15 cm wide x 16.5 cm thick"
+      }
+    },
+    "faq_mito": {
+      "hash": "f634a1f49e09454b",
+      "texto": {
+        "pregunta": "Myth: A cup this fine and shiny must have been made with modern tools.",
+        "respuesta": "Reality: It was achieved with lapidary techniques: percussion, grinding, and polishing with water and fine sands."
+      }
+    }
+  }
+}

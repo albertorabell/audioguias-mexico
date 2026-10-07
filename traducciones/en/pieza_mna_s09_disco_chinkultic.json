@@ -1,0 +1,59 @@
+{
+  "id": "mna_s09_disco_chinkultic",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Mayas\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "8aa68f8148a5c495",
+      "texto": "Chinkultic Ball Game Marker"
+    },
+    "frase_gancho": {
+      "hash": "49f2d1aa4eb3c378",
+      "texto": "A stone disc with an exact date: May 19, 591."
+    },
+    "puente_narrativo": {
+      "hash": "5533b85030459571",
+      "texto": "We move on to Chiapas, with a stone disc that preserves an exact date from the ball game."
+    },
+    "guion_corto": {
+      "hash": "bf5e5bcd20192906",
+      "texto": "This disc preserves an exact date: May 19 in the year 591 AD. It is written in the Long Count, the system the Mayas used to count the days. This is the Chinkultic Ball Game Marker, a limestone disc that was part of a ball court. It measures 56 centimeters in diameter and 12.5 in thickness. It comes from La Esperanza, in Chinkultic, Chiapas. At the center is a ball player in the middle of a play, beside a very large ball. He wears a feathered headdress. Around the edge runs a band of twelve glyphs. It is a work of the Early Classic, and more than one thousand four hundred years later, it still tells us when it was dedicated."
+    },
+    "guion_largo": {
+      "hash": "88cbef04ff741d0b",
+      "texto": "A stone disc can tell you the exact day it was made. This one does.\n\nIt is the Chinkultic Ball Game Marker. It is made of limestone, measures 56 centimeters in diameter and 12.5 in thickness, and was part of a ball court. It comes from La Esperanza, in Chinkultic, Chiapas. That site lies 8 kilometers west of the main zone.\n\nThe most valuable thing about it is its date. It is written in the Long Count, a Maya system for keeping track of the days. The date is 9.7.17.12.14, and it corresponds to May 19 in the year 591 AD.\n\nThat places it in the Early Classic, before the period of greatest splendor of the Maya cities.\n\nBut the disc also shows a scene. A band of twelve glyphs, with numerals made of bars and dots, surrounds the relief. At the center is a ball player in the middle of a play, beside a very large ball. He wears a feathered headdress.\n\nWhen you look at the disc, remember what it was for. It was part of the setting of one of the best-known ritual games of Mesoamerica. And it has reached us here with its date intact, more than one thousand four hundred years later."
+    },
+    "retos_observacion": {
+      "hash": "be964bbb3dfee035",
+      "texto": [
+        "Look for the band of glyphs that surrounds the relief: the date is there.",
+        "Find the ball player and his feathered headdress.",
+        "Notice the large ball beside the player."
+      ]
+    },
+    "especificaciones": {
+      "hash": "1fdc3c77416375a5",
+      "texto": {
+        "Culture": "Maya",
+        "Period": "Early Classic (591 AD)",
+        "Material": "Limestone",
+        "Origin": "La Esperanza, Chinkultic, Chiapas",
+        "Dimensions": "56 cm in diameter x 12.5 cm in thickness"
+      }
+    },
+    "faq_mito": {
+      "hash": "a6780702e50ef65f",
+      "texto": {
+        "pregunta": "Myth: In the Maya ball game, players hit the ball with their hands, as in volleyball.",
+        "respuesta": "Reality: Players hit the ball mainly with their hips, and protected themselves with yokes and leather aprons."
+      }
+    }
+  }
+}

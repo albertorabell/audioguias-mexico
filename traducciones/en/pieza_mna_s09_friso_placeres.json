@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_friso_placeres",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f206745c890e7c77",
+      "texto": "Stucco Frieze of Los Placeres"
+    },
+    "frase_gancho": {
+      "hash": "fb19423542bc97a9",
+      "texto": "A stucco façade that was stolen and returned to Mexico."
+    },
+    "puente_narrativo": {
+      "hash": "4f2605ba9b0858e2",
+      "texto": "We remain in Campeche with a painted stucco façade: the frieze of Los Placeres."
+    },
+    "guion_corto": {
+      "hash": "f308cabae550859b",
+      "texto": "It measures 8.39 meters wide and 2.39 high, and it once fell into the hands of thieves. It is a polychrome stucco frieze that adorned the façade of a temple in Los Placeres, Campeche. It was torn away in the 1960s and recovered in 1968, thanks to the efforts of the Mexican Embassy. At the center is the rectangular face of a ruler, framed by a jaguar-serpent mask with feathered wings. His ear ornaments bear shark motifs, and his headdress ends in maize leaves. On either side, two elderly figures in profile, toothless, stretch out their arms holding symbols of water. It is a Mayas work from the Early Classic."
+    },
+    "guion_largo": {
+      "hash": "2bce4bf84748d856",
+      "texto": "This façade traveled a great deal before arriving here. It was stolen, and then it came back.\n\nIt is a polychrome stucco frieze, modeled on a large scale over a stone structure. It measures 2.39 meters high, 8.39 long and 60 centimeters thick. It is a Mayas work from the Early Classic, and it comes from Los Placeres, in Campeche.\n\nIt adorned the main façade of a temple. In the 1960s it was torn away illegally, to be sold to foreign collectors. It was recovered in 1968, thanks to the efforts of the Mexican Embassy, and then it became part of the museum’s Maya Hall.\n\nNow let your eyes travel across it. At the center there is a rectangular face, that of a ruler. It is framed by a jaguar-serpent mask with feathered wings. On his ear ornaments appear motifs of the shark, which the Mayas called Xook. His headdress is crowned with maize leaves.\n\nOn either side, in symmetrical fashion, there are two elderly figures, in profile. They have prominent cheekbones and toothless mouths. They stretch out their arms and hold symbols of flowing water and of bounty.\n\nIt is a scene of power and abundance. The ruler occupies the center, and the elders guard the façade on both sides."
+    },
+    "retos_observacion": {
+      "hash": "d114fe71f545e8a5",
+      "texto": [
+        "Look for the ear ornaments with shark motifs.",
+        "Find the two elderly figures in profile, on either side of the central face.",
+        "Look at the headdress: it ends in maize leaves."
+      ]
+    },
+    "especificaciones": {
+      "hash": "d6c6836ae06a7d40",
+      "texto": {
+        "Culture": "Maya",
+        "Period": "Early Classic (300-600 AD)",
+        "Material": "Polychrome stucco",
+        "Origin": "Los Placeres, Campeche",
+        "Dimensions": "2.39 m high x 8.39 m long x 0.60 m thick"
+      }
+    },
+    "faq_mito": {
+      "hash": "57032b75a2614883",
+      "texto": {
+        "pregunta": "Myth: The Los Placeres frieze is a flat mural painting.",
+        "respuesta": "Reality: It is an architectural frieze in relief, modeled in polychrome stucco over stone."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "mna_s04_templo_quetzalcoatl",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Teotihuacana\" para \"Teotihuacana\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "fa992e1b41168bd8",
+      "texto": "Reconstruction of the Facade of the Temple of Quetzalcóatl"
+    },
+    "frase_gancho": {
+      "hash": "6b0b527bb4655095",
+      "texto": "Serpents of stone and turquoise emerging from the primordial ocean."
+    },
+    "puente_narrativo": {
+      "hash": "f5a390cf297f2e8f",
+      "texto": "We move from the goddess of water to a full-scale reconstruction of the facade of the Temple of the Feathered Serpent, in the Citadel."
+    },
+    "guion_corto": {
+      "hash": "fbbee65466a273cc",
+      "texto": "This is not the original pyramid. It is a full-scale reconstruction, made of fiberglass and resin. It copies the facade of the Temple of the Feathered Serpent, in the Citadel of Teotihuacán. On the panels, heads of the Feathered Serpent, Quetzalcóatl, peer out with collars of feathers. They alternate with headdresses or masks of Tláloc, the god of rain. On the sloped walls below, the undulating bodies of the serpents swim among snails and seashells. The colors used are those of the original palette: red, green, blue, white and ocher. The original survived because, around the year 350 AD, the people of Teotihuacán themselves covered it with a new platform."
+    },
+    "guion_largo": {
+      "hash": "5fdee91768a9d719",
+      "texto": "What you see is a copy, but it copies a real facade. It is a full-scale reconstruction of the Temple of the Feathered Serpent, in the Citadel of Teotihuacán. It is made of fiberglass and resin, colored with the palette of original pigments: red, green, blue, white and ocher.\n\nNotice how it is organized. On the panels, the three-dimensional heads of the Feathered Serpent, Quetzalcóatl, peer out with collars of feathers. Between them appear sculptures in the shape of headdresses, or masks of Tláloc, the god of rain. On the sloped walls below, the undulating bodies of the serpents swim among snails and seashells.\n\nAnd there is a story of protection. Around the year 350 AD, the people of Teotihuacán themselves raised a new structure over this facade, the Attached Platform. That wall buried it. Thanks to it, the polychrome paint and the sculpted details were preserved for centuries.\n\nThe original building was explored, between 1917 and 1922, by Manuel Gamio. He identified it beneath the Attached Platform.\n\nThat is why this reconstruction is so valuable. It lets you see what a facade from Teotihuacán looked like when the city was alive, with all its colors."
+    },
+    "retos_observacion": {
+      "hash": "375f5fa005a18014",
+      "texto": [
+        "Look for the heads of the Feathered Serpent with collars of feathers.",
+        "Find the snails and seashells among the serpents on the sloped wall.",
+        "Observe the colors: red, green, blue, white and ocher."
+      ]
+    },
+    "especificaciones": {
+      "hash": "639d48ed26965f35",
+      "texto": {
+        "Culture": "Teotihuacana",
+        "Period": "Early Classic",
+        "Material": "Full-size replica in fiberglass and polychrome pigments; the original building is made of carved stone, mortar, stucco and paint",
+        "Origin": "Teotihuacán, State of Mexico (the Citadel, Temple of Quetzalcóatl)",
+        "Discovery": "The original building was explored and identified between 1917 and 1922 by Manuel Gamio beneath the Attached Platform"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2e9ad085e05141d",
+      "texto": {
+        "pregunta": "Myth: This facade is the original pyramid of Teotihuacán.",
+        "respuesta": "Reality: It is a full-scale reconstruction, made of fiberglass. The original building is still in the Citadel, in Teotihuacán."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mna_s09_mascara_pakal",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1282acad5f76e33c",
+      "texto": "Mask of Pakal"
+    },
+    "frase_gancho": {
+      "hash": "135c1b599f400fad",
+      "texto": "A greenish jade mosaic in which the Maya king rises again, eternal."
+    },
+    "puente_narrativo": {
+      "hash": "7c6734649b607057",
+      "texto": "We enter the Maya Hall with the face of a king: the mask that covered Pakal in his tomb at Palenque."
+    },
+    "guion_corto": {
+      "hash": "bac55e2102c54c5e",
+      "texto": "On June 15, 1952, the archaeologist Alberto Ruz Lhuillier discovered this mask in the crypt of the Temple of the Inscriptions, in Palenque, Chiapas. It covered the face of K'inich Janaab' Pakal, the great Maya ruler, during his burial. It is not carved from a single block. It is a mosaic of small pieces of green stone, jade or jadeite, with eyes of white shell and irises of black obsidian. It measures 24.5 centimeters high. In the slightly open mouth, the two upper teeth are shaped like ik, the Maya sign for wind and life. Specialists propose that the mask identifies him with the Maize God (Corn God), to ensure his resurrection. It is a work of the Late Classic, between the years 600 and 900 AD."
+    },
+    "guion_largo": {
+      "hash": "2fd7252b667cd83c",
+      "texto": "This mask covered the face of K'inich Janaab' Pakal during his burial. Pakal was the great ruler of Palenque, and he reigned between the years 615 and 683 AD.\n\nIt was discovered on June 15, 1952, by the archaeologist Alberto Ruz Lhuillier. It was in the crypt of the Temple of the Inscriptions, in Palenque, Chiapas. The crypt remained sealed for more than one thousand two hundred years. Ruz Lhuillier had to clear the rubble from a stepped tunnel to reach the heart of the pyramid.\n\nIt is not a piece carved from a single block. It is a mosaic of many small fragments of green stone, jade or jadeite, cut and polished to fit together. The eyes are made of white shell, with irises of black obsidian. The mask measures 24.5 centimeters high, 18.5 wide and 11 thick.\n\nLook at the slightly open mouth. The two upper teeth at the center are cut in the shape of ik, the Maya sign for wind and life. It is a small detail, but it changes how the piece is read. It turns the face into someone who breathes.\n\nIt is known that the mask covered the ruler's face. Specialists propose that it represents the Maize God, the deity with whom the king identified himself at death to ensure his resurrection. It is an interpretation, and it fits with the sign of life that the mask bears in its mouth.\n\nIt belongs to the Late Classic period, between the years 600 and 900 AD."
+    },
+    "retos_observacion": {
+      "hash": "83008d648d2333b9",
+      "texto": [
+        "Look in the slightly open mouth for the two upper teeth shaped like the ik sign.",
+        "Compare the dark obsidian and the pale shell that form the eyes.",
+        "Try to make out the joins between the small pieces of green stone in the mosaic."
+      ]
+    },
+    "especificaciones": {
+      "hash": "fd9208c63a337c39",
+      "texto": {
+        "Culture": "Maya",
+        "Period": "Late Classic (600-900 AD)",
+        "Material": "Jade (jadeite), shell and obsidian",
+        "Origin": "Palenque, Chiapas (Temple of the Inscriptions)",
+        "Dimensions": "0.245 m high x 0.185 m wide x 0.11 m thick",
+        "Discovery": "June 15, 1952, by Alberto Ruz Lhuillier, in the crypt of the Temple of the Inscriptions"
+      }
+    },
+    "faq_mito": {
+      "hash": "024b73a7b8ae2fb0",
+      "texto": {
+        "pregunta": "Myth: The mask of Pakal is carved from a single block of jade.",
+        "respuesta": "Reality: It is a mosaic of many fragments of green stone, with eyes of shell and irises of obsidian."
+      }
+    }
+  }
+}
