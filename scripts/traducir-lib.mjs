@@ -313,11 +313,14 @@ export function validateTranslation(source, out, glossaryEntries = [], { fake = 
     const lost = [...new Set(digitsIn)].filter((d) => !oFlat.includes(flat(d)));
     if (lost.length) warn(f, `no encuentro estos números del español: ${lost.join(', ')}`);
 
+    const pl = lang === 'fr';
+    const passes = (g) => (g.keep ? wordRe(g.base, pl).test(oText) : wordRe(g.base, pl).test(oText) || g.alts.some((a) => wordRe(a, pl).test(oText)));
     for (const g of glossaryEntries) {
       if (!g.check || !g.re.some((re) => re.test(sText))) continue;
-      const pl = lang === 'fr';
-      const ok = g.keep ? wordRe(g.base, pl).test(oText) : wordRe(g.base, pl).test(oText) || g.alts.some((a) => wordRe(a, pl).test(oText));
-      if (!ok) warn(f, `el glosario pide "${g.base}" para "${g.es}" y no aparece`);
+      if (passes(g)) continue;
+      // Un mismo término en español puede tener dos filas (p. ej. "Nahuas": pueblo y sala): basta con que se cumpla una
+      if (glossaryEntries.some((h) => h !== g && h.es === g.es && passes(h))) continue;
+      warn(f, `el glosario pide "${g.base}" para "${g.es}" y no aparece`);
     }
   }
   return { errors, warnings };
