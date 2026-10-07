@@ -541,7 +541,7 @@ test('lote: si el texto en español cambió mientras tanto, esa traducción se d
   const out = [];
   await main(['--lote', 'recoger'], { root, env: ENVK, fetchImpl: api.fetchImpl, log: (m) => out.push(m), warn: (m) => out.push(m) });
   assert.equal(files(root).length, 0);
-  assert.match(out.join('\n'), /cambió mientras se traducía/);
+  assert.match(out.join('\n'), /no es el que se mandó/);
 });
 
 test('lote: opciones inválidas', () => {
