@@ -65,7 +65,7 @@ export function parseArgs(argv) {
 // Proveedores de voz. Cada uno devuelve un Buffer con un MP3.
 // ---------------------------------------------------------------------------
 const AZURE_DEFAULT_VOICES = {
-  es: 'es-MX-DaliaNeural',
+  es: 'es-MX-JorgeMultilingualNeural', // elegida por Alberto tras probar las muestras
   en: 'en-US-JennyNeural',
   fr: 'fr-FR-DeniseNeural',
   pl: 'pl-PL-ZofiaNeural',
