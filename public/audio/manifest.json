@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "items": {
+    "es": {
+      "mna_s06_piedra_sol": {
+        "corto": {
+          "hash": "2b38731f5bbfb5c6",
+          "file": "es/mna_s06_piedra_sol_corto.mp3",
+          "remote": false,
+          "seconds": 46,
+          "bytes": 275184,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b3c68d768cbabd06",
+          "file": "es/mna_s06_piedra_sol_largo.mp3",
+          "remote": false,
+          "seconds": 109,
+          "bytes": 656208,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_mascara_pakal": {
+        "corto": {
+          "hash": "aba41c649663eb36",
+          "file": "es/mna_s09_mascara_pakal_corto.mp3",
+          "remote": false,
+          "seconds": 47,
+          "bytes": 280512,
+          "provider": "azure"
+        }
+      }
+    }
+  }
+}
