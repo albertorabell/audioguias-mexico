@@ -31,6 +31,24 @@ import { loadPronunciations, toSsmlInner, pronunciationElement, xmlEscape, PRONU
 const LOCALES = { es: 'es-MX', en: 'en-US' };
 const FORMAT = 'audio-24khz-48kbitrate-mono-mp3'; // el mismo que usan los audios reales
 
+/**
+ * Variantes automáticas para una palabra con "x" (la letra que más confunde a las voces): x como "sh", x como "s"
+ * y una transcripción fonética aproximada (sin acento marcado). Es solo para probar de oído; la buena se anota después en el CSV.
+ */
+export function defaultVariants(word) {
+  const w = word.toLowerCase();
+  if (!/x/.test(w)) throw new Error('Con --pronunciar hay que dar --variantes, por ejemplo "alias:meshicas,ipa:meˈʃikas" (solo sé inventar variantes para palabras con x)');
+  const ipa = w
+    .replace(/x/g, 'ʃ').replace(/ch/g, 'tʃ').replace(/qu/g, 'k').replace(/c(?=[ei])/g, 's').replace(/c/g, 'k')
+    .replace(/ll/g, 'ʝ').replace(/ñ/g, 'ɲ').replace(/h/g, '').replace(/j/g, 'x').replace(/g(?=[ei])/g, 'x')
+    .replace(/á/g, 'a').replace(/é/g, 'e').replace(/í/g, 'i').replace(/ó/g, 'o').replace(/ú/g, 'u');
+  return [
+    { kind: 'alias', value: w.replace(/x/g, 'sh') },
+    { kind: 'alias', value: w.replace(/x/g, 's') },
+    { kind: 'ipa', value: ipa },
+  ];
+}
+
 export function parseArgs(argv) {
   const out = { lang: 'es', pieza: 'mna_s06_piedra_sol', modo: 'corto', voces: null, maxVoces: 6, maxCaracteres: 1200, generar: false, proveedor: 'azure', pronunciar: null, variantes: [] };
   for (let i = 0; i < argv.length; i++) {
@@ -57,7 +75,7 @@ export function parseArgs(argv) {
   if (!Number.isFinite(out.maxVoces) || out.maxVoces < 1 || out.maxVoces > 12) throw new Error('--max-voces debe ser un número entre 1 y 12');
   if (!Number.isFinite(out.maxCaracteres) || out.maxCaracteres < 200 || out.maxCaracteres > 3000) throw new Error('--max-caracteres debe estar entre 200 y 3000');
   if (out.pronunciar) {
-    if (!out.variantes.length) throw new Error('Con --pronunciar hay que dar --variantes, por ejemplo "alias:meshicas,ipa:meˈʃikas"');
+    if (!out.variantes.length) out.variantes = defaultVariants(out.pronunciar).map((v) => `${v.kind}:${v.value}`);
     out.variantes = out.variantes.map((v) => {
       const i = v.indexOf(':');
       const kind = v.slice(0, i);

@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import { parseArgs, pickVoices, main } from '../muestras-voz.mjs';
+import { parseArgs, pickVoices, main, defaultVariants } from '../muestras-voz.mjs';
 
 const pieces = [{ piece_id: 'p1', guion_corto: 'Hola mundo. Esta es una pieza de prueba para las voces.', guion_largo: 'Largo.' }];
 
@@ -125,7 +125,7 @@ test('--pronunciar genera una muestra sin cambio y una por variante, con el elem
 });
 
 test('--pronunciar exige variantes válidas', () => {
-  assert.throws(() => parseArgs(['--pronunciar', 'x']), /--variantes/);
+  assert.throws(() => parseArgs(['--pronunciar', 'casa']), /--variantes/);
   assert.throws(() => parseArgs(['--pronunciar', 'x', '--variantes', 'foo:bar']), /Variante no válida/);
   assert.throws(() => parseArgs(['--pronunciar', 'x', '--variantes', 'alias:']), /Variante no válida/);
 });
@@ -141,4 +141,14 @@ test('las muestras normales usan la lista de pronunciaciones del proyecto', asyn
   };
   await main(['--pieza', 'p1', '--voces', 'es-MX-A-Neural', '--generar'], { root: dir, env: ENV, fetchImpl, ...quiet });
   assert.ok(bodies[0].includes('<sub alias="mundoo">mundo</sub>'), bodies[0]);
+});
+
+test('--pronunciar sin variantes inventa tres para palabras con x', () => {
+  assert.deepEqual(defaultVariants('Mexicas'), [
+    { kind: 'alias', value: 'meshicas' },
+    { kind: 'alias', value: 'mesicas' },
+    { kind: 'ipa', value: 'meʃikas' },
+  ]);
+  assert.equal(defaultVariants('Xochipilli').at(-1).value, 'ʃotʃipiʝi');
+  assert.equal(parseArgs(['--pronunciar', 'mexicas']).variantes.length, 3);
 });
