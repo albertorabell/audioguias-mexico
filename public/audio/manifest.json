@@ -2,6 +2,24 @@
   "version": 1,
   "items": {
     "es": {
+      "mna_s04_chalchiuhtlicue": {
+        "corto": {
+          "hash": "83b5a16988d14400",
+          "file": "es/mna_s04_chalchiuhtlicue_corto.mp3",
+          "remote": false,
+          "seconds": 40,
+          "bytes": 241488,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d6bb3fb11697d12d",
+          "file": "es/mna_s04_chalchiuhtlicue_largo.mp3",
+          "remote": false,
+          "seconds": 78,
+          "bytes": 467568,
+          "provider": "azure"
+        }
+      },
       "mna_s06_coatlicue": {
         "corto": {
           "hash": "74095c4a3830194a",
@@ -55,6 +73,14 @@
           "remote": false,
           "seconds": 47,
           "bytes": 280512,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "978adbd3023d52f4",
+          "file": "es/mna_s09_mascara_pakal_largo.mp3",
+          "remote": false,
+          "seconds": 89,
+          "bytes": 532224,
           "provider": "azure"
         }
       }
