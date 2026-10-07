@@ -104,6 +104,8 @@ jobs:
             echo "No hay nada nuevo que guardar."
           else
             git commit -m "Audios MP3 generados (${{ inputs.proveedor }}, ${{ inputs.idiomas }}, ${{ inputs.piezas }})"
+            # Antes de traer lo nuevo hay que soltar los archivos que cambió la sincronización (public/data); git no deja hacer rebase con cambios sueltos
+            git reset --hard HEAD
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
