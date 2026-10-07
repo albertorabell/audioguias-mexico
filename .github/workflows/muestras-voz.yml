@@ -1,0 +1,88 @@
+name: Muestras de voz (botón manual)
+
+# Pestaña Actions > "Muestras de voz" > Run workflow.
+# Sin marcar "generar" solo muestra el plan (no llama a Azure, no gasta).
+# Con "generar" crea unos MP3 cortos con varias voces y los deja como archivo descargable (artifact).
+# No se guardan en el repositorio ni se publican en el sitio.
+on:
+  workflow_dispatch:
+    inputs:
+      idioma:
+        description: 'Idioma de la muestra'
+        type: choice
+        options: [es, en]
+        default: es
+      pieza:
+        description: 'Pieza que se lee (id)'
+        type: string
+        default: 'mna_s06_piedra_sol'
+      modo:
+        description: 'Guion corto o largo'
+        type: choice
+        options: [corto, largo]
+        default: corto
+      max_voces:
+        description: 'Cuántas voces probar (máximo 12)'
+        type: string
+        default: '6'
+      generar:
+        description: 'Marca la casilla para generar las muestras de verdad'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  muestras:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Revisar que estén las claves de Azure (antes de gastar nada)
+        if: ${{ inputs.generar }}
+        env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+        run: |
+          if [ -z "$AZURE_SPEECH_KEY" ] || [ -z "$AZURE_SPEECH_REGION" ]; then
+            echo "::error::Faltan los secretos AZURE_SPEECH_KEY y/o AZURE_SPEECH_REGION. No se generó nada."; exit 1
+          fi
+
+      - name: Traer los textos más recientes del Google Sheets
+        run: node scripts/sync-sheets.js
+
+      - name: Plan (o muestras)
+        env:
+          IDIOMA: ${{ inputs.idioma }}
+          PIEZA: ${{ inputs.pieza }}
+          MODO: ${{ inputs.modo }}
+          MAX_VOCES: ${{ inputs.max_voces }}
+          GENERAR: ${{ inputs.generar }}
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+        run: |
+          args=(--lang "$IDIOMA" --pieza "$PIEZA" --modo "$MODO" --max-voces "${MAX_VOCES:-6}")
+          if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
+          node scripts/muestras-voz.mjs "${args[@]}" 2>&1 | tee muestras.log
+          {
+            echo '## Resultado'
+            echo '```'
+            cat muestras.log
+            echo '```'
+            if [ -f "muestras-voz/${IDIOMA}/indice.md" ] && [ "$GENERAR" = "true" ]; then
+              echo
+              cat "muestras-voz/${IDIOMA}/indice.md"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Dejar las muestras para descargar
+        if: ${{ inputs.generar }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: muestras-de-voz-${{ inputs.idioma }}
+          path: muestras-voz/${{ inputs.idioma }}/
+          retention-days: 7
