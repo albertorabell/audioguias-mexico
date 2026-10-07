@@ -1,0 +1,58 @@
+{
+  "id": "mna_s08_estela_teayo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Huasteca\" para \"Huasteca\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "85018674449e0a3a",
+      "texto": "Stela of Quetzalcóatl from Castillo de Teayo"
+    },
+    "frase_gancho": {
+      "hash": "32b4fb63b3576e9d",
+      "texto": "The wind god, the feathers of his headdress stirred as if by a gust."
+    },
+    "puente_narrativo": {
+      "hash": "b2cd3d936c7bbd02",
+      "texto": "We left the ball game behind and went up the coast to northern Veracruz, where the Mexica empire also reached."
+    },
+    "guion_corto": {
+      "hash": "88d515d91fd9c965",
+      "texto": "Ehécatl means wind, and in this stela the wind seems to move even the feathers. It shows Ehécatl-Quetzalcóatl, the wind god, standing, with a tall cone-shaped headdress. On his chest he wears a seashell ornament, over his mouth a mask, and at his waist a cloth skirt. It comes from Castillo de Teayo, near Tuxpan, in northern Veracruz, and dates to the Late Postclassic. It is considered a Huastec work with Mexica influence. That is why it helps us understand how far the Mexica empire reached along the Gulf Coast. It is thought that, in this area, the Mexica established a strategic colony."
+    },
+    "guion_largo": {
+      "hash": "4b8d1c621d0aac51",
+      "texto": "A wind god in stone has to look as if he is moving. This stela achieves it.\n\nIt is the Stela of Quetzalcóatl from Castillo de Teayo, a site near Tuxpan, in northern Veracruz. It is carved in stone, in high relief, and dates to the Late Postclassic.\n\nThe god appears standing. He is Ehécatl-Quetzalcóatl, the form of Quetzalcóatl as the wind god. He wears a tall cone-shaped headdress, called a copilli. On his chest he has a seashell ornament, called an ehecacózcatl. He covers his mouth with a mask and wears a cloth skirt.\n\nThe feathers of the headdress and the ornaments appear in a dynamic composition, as if the wind were blowing them.\n\nSpecialists consider it a work with Huastec and Mexica features. At the end of the Postclassic, the Mexica empire reached this part of the northern coast of Veracruz. It is thought that a strategic colony was established there.\n\nThat is why this piece tells more than a story of gods. It can be read as a sign of how the power of Tenochtitlan stretched far from the city and blended with local styles."
+    },
+    "retos_observacion": {
+      "hash": "053c02e5133aeaa6",
+      "texto": [
+        "Look for the tall cone-shaped headdress.",
+        "Find the seashell ornament on the chest.",
+        "Look closely at the feathers: they seem stirred by the wind."
+      ]
+    },
+    "especificaciones": {
+      "hash": "3a189d6287b7b202",
+      "texto": {
+        "Culture": "Huasteca, with Mexica influence",
+        "Period": "Late Postclassic",
+        "Material": "Stone carved in high relief",
+        "Origin": "Castillo de Teayo, near Tuxpan, Veracruz"
+      }
+    },
+    "faq_mito": {
+      "hash": "b6e10698eec20183",
+      "texto": {
+        "pregunta": "Myth: Quetzalcóatl is always depicted as a feathered serpent.",
+        "respuesta": "Reality: He was also depicted as Ehécatl, the wind god, in human form, with a tall headdress and a mask over his mouth, as in this stela."
+      }
+    }
+  }
+}

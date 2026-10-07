@@ -1,0 +1,54 @@
+{
+  "id": "mna_s06_chapulin",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3e3b225252844a7b",
+      "texto": "Grasshopper of Chapultepec"
+    },
+    "frase_gancho": {
+      "hash": "65e7cebc83ef39e3",
+      "texto": "A red stone grasshopper that gives its name to the park where the museum stands."
+    },
+    "puente_narrativo": {
+      "hash": "f861a346d25ed729",
+      "texto": "We continue with another stone animal, this time an insect: the grasshopper that gives its name to the park where you are standing."
+    },
+    "guion_corto": {
+      "hash": "3b35f526b8a9220d",
+      "texto": "This stone grasshopper gives its name to the park where the museum stands. Chapultepec means at the hill of the grasshopper, and this sculpture is its glyph, that is, its name written as an image. It is a Mexica work from the Late Postclassic that was found in Chapultepec. It is carved and polished from a stone of intense red color. The artist took care with the details: the hind legs are folded over the body, as if the insect were about to jump. For the Mexica, Chapultepec was a very important place. There were springs there that supplied water to the city, and they lived there before founding Tenochtitlan."
+    },
+    "guion_largo": {
+      "hash": "7e13a2370f9a3151",
+      "texto": "Chapultepec means at the hill of the grasshopper. This sculpture is the proof, made of stone.\n\nIt is the glyph of that place: its name written with an image. It is Mexica, from the Late Postclassic, and it was found in Chapultepec. It is carved and polished from a stone of vivid red color.\n\nIt portrays a grasshopper in a very natural way. Its hind legs are folded over its body, ready to jump. Look closely at those folded legs.\n\nFor the Mexica, Chapultepec was both a sacred and a political place. There were springs of clean water there that supplied the capital through an aqueduct. Portraits of the rulers were sculpted into the rocks. And the sacred cave of Cincalco was there.\n\nIt was also a stage in their history. Before founding Tenochtitlan, the Mexica lived for a time in Chapultepec, during their migration.\n\nToday the museum stands in that same park. This grasshopper reminds you of the name of the place where you are standing."
+    },
+    "retos_observacion": {
+      "hash": "4cd74f567a41db2d",
+      "texto": [
+        "Look for the hind legs folded over the body.",
+        "Notice the intense red color and the polished surface of the stone.",
+        "Think about the name of the park where the museum stands."
+      ]
+    },
+    "especificaciones": {
+      "hash": "032e8c2da8c3cdc4",
+      "texto": {
+        "Culture": "Mexica",
+        "Period": "Late Postclassic",
+        "Material": "Carved and polished red stone",
+        "Origin": "Chapultepec, Mexico City"
+      }
+    },
+    "faq_mito": {
+      "hash": "5a352a7488e5d847",
+      "texto": {
+        "pregunta": "Myth: This sculpture is just an ornament shaped like an insect.",
+        "respuesta": "Reality: It is the glyph of Chapultepec, the name of the place written with an image. It means at the hill of the grasshopper."
+      }
+    }
+  }
+}

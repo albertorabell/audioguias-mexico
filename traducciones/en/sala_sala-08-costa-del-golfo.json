@@ -1,0 +1,27 @@
+{
+  "id": "sala-08-costa-del-golfo",
+  "tipo": "sala",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Gulf Coast\" para \"Costa del Golfo\" y no aparece",
+      "el glosario pide \"Huasteca\" para \"Huasteca\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "e3f7d6c668afeb18",
+      "texto": "Cultures of the Gulf Coast"
+    },
+    "frase_gancho": {
+      "hash": "e65c0ee09255b0c9",
+      "texto": "Jungles, colossal heads, and smiling little faces: three Gulf cultures in a single hall."
+    },
+    "introduccion_narrativa": {
+      "hash": "9c18d8c1a7dbf692",
+      "texto": "This hall brings together three traditions of the coast of the Gulf of Mexico. First come the Olmec, who lived among the jungles and rivers of southern Veracruz and Tabasco. They sculpted colossal heads in basalt and worked jade with great skill. Next comes central Veracruz, with its smiling clay faces and the objects of the ballgame, such as yokes, palmas, and hachas. And there is the Huastec culture, with the Adolescent of Tamuín and a stela of Quetzalcóatl from Castillo de Teayo. Three different ways of living near the sea and the rivers."
+    }
+  }
+}

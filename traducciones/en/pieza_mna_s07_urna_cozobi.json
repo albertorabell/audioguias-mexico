@@ -1,0 +1,54 @@
+{
+  "id": "mna_s07_urna_cozobi",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "05494408d5743fa4",
+      "texto": "Funerary Urn of the God Pitao Cozobi"
+    },
+    "frase_gancho": {
+      "hash": "b613a674cbc276d4",
+      "texto": "A god whose headdress is made of ears of corn."
+    },
+    "puente_narrativo": {
+      "hash": "1b214e061e2bc411",
+      "texto": "We continue with another Zapotec urn from Tomb 104, this time with the Maize God (Corn God)."
+    },
+    "guion_corto": {
+      "hash": "b68a8431e7f26db6",
+      "texto": "Look at what rises from the headdress: ears of corn, one beside another. This is Pitao Cozobi, the Zapotec god of maize, of harvests, and of sustenance. This funerary urn comes from Tomb 104 at Monte Albán, in the Central Valleys of Oaxaca. It dates to the Classic period, between the years 200 and 800 AD. It is modeled by hand in gray clay, with applied pieces, incised lines, and traces of paint over stucco. The figure wears ear ornaments and a flat pectoral. Its hands rest on the abdomen or hold ritual vessels. Urns like this one were placed in niches and entrances of tombs, as guardians of the dead."
+    },
+    "guion_largo": {
+      "hash": "f81a0340f428ae8c",
+      "texto": "Some gods are recognized by their clothing. This one, by his crown of maize.\n\nThis is Pitao Cozobi, the Zapotec god of maize, of harvests, and of sustenance. The urn comes from Tomb 104 at Monte Albán, in the Central Valleys of Oaxaca. It belongs to the Classic period, between the years 200 and 800 AD.\n\nIt is made by hand from gray clay. The artist added pieces of clay to create relief, marked lines with a tool, and covered the figure with painted stucco. Traces of that color still remain.\n\nLook at the headdress. From its center spring sculpted ears of corn. The figure wears ear ornaments and a flat pectoral. Its hands rest on the abdomen or hold ritual vessels.\n\nThese urns did not hold ashes, as was long believed. They were placed empty in niches, antechambers, and facades of the tombs of the nobility. They are thought to have been guardians who interceded for the dead before the gods.\n\nMaize sustained the life of the peoples of Oaxaca, and their god had a place in the tomb."
+    },
+    "retos_observacion": {
+      "hash": "eccc8dcd84057075",
+      "texto": [
+        "Look for the ears of corn rising from the headdress.",
+        "Notice the ear ornaments and the flat pectoral.",
+        "Find the hands: do they rest on the abdomen or hold a vessel?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "83c293e955859d2b",
+      "texto": {
+        "Culture": "Zapotec",
+        "Period": "Classic (Monte Albán III, 200-800 AD)",
+        "Material": "Gray clay modeled by hand, with traces of paint over stucco",
+        "Origin": "Tomb 104, Monte Albán, Central Valleys, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "8d8806a1abb7262e",
+      "texto": {
+        "pregunta": "Myth: Zapotec urns were used to store the ashes of the dead.",
+        "respuesta": "Reality: They did not hold ashes. They were placed empty in niches and on the facades of tombs, and they are thought to have protected the dead."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s04_xipe_totec",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dd7ecd8308bdaf5d",
+      "texto": "Teotihuacán Statue of Xipe Tótec"
+    },
+    "frase_gancho": {
+      "hash": "af6e58d3ffe3b85d",
+      "texto": "A priest wearing another’s skin, his face peering out from the mouth of the costume."
+    },
+    "puente_narrativo": {
+      "hash": "f8b1fbfa5689c164",
+      "texto": "We continue with another deity, Xipe Tótec, the god linked to the renewal of the earth."
+    },
+    "guion_corto": {
+      "hash": "ea3379d3b6216a67",
+      "texto": "He looks like a man in a strange costume, but what he is wearing is someone else’s skin. This sculpture shows a priest dressed in the skin of a victim, in honor of Xipe Tótec, whose name means Our Lord the Flayed One. It is made of hand-modeled clay, it is large in size, and it is attributed to the Teotihuacán culture. Look at the open mouth of the costume: the priest’s face peers out from there. The skin has ties along the back, seams at the wrists, and a short skirt. On the head he wears a tall headdress. It is interpreted that this skin was an image of the earth, which changes its covering every spring and gives life again."
+    },
+    "guion_largo": {
+      "hash": "d020bba9e12b1679",
+      "texto": "This is no ordinary costume. It is a sculpture that shows a ritual.\n\nThis hand-modeled clay statue represents a standing priest. It is large in size, and it is attributed to the Teotihuacán culture, from the Late Classic or the Epiclassic period.\n\nThe priest wears the skin of a person sacrificed in honor of Xipe Tótec, whose name means Our Lord the Flayed One. The skin has a rough, porous surface. It is tied at the back and has seams at the wrists.\n\nLook at the mouth of the costume. It is open, and the priest’s face emerges from there. He also wears a short skirt and a headdress.\n\nDressing in the skin of captives was a ritual act. It is interpreted that it symbolized the earth shedding its skin, the renewal of vegetation in spring, and the rebirth of agricultural life.\n\nThus, a powerful image spoke of a natural cycle: the earth renewing itself."
+    },
+    "retos_observacion": {
+      "hash": "3989608b6ff3da54",
+      "texto": [
+        "Find the priest’s face inside the open mouth of the costume.",
+        "Find the seams at the wrists and the ties on the back.",
+        "Notice the rough texture of the skin."
+      ]
+    },
+    "especificaciones": {
+      "hash": "4959f1e13999be79",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Late Classic to Epiclassic",
+        "Material": "Hand-modeled clay, with a rough finish",
+        "Origin": "Teotihuacán, State of Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "4fc6f6bcbb9a422b",
+      "texto": {
+        "pregunta": "Myth: The priest in this statue is sick or has an injured skin.",
+        "respuesta": "Reality: No. He is wearing the skin of a sacrificed victim, as part of the rites of Xipe Tótec, linked to the renewal of the earth."
+      }
+    }
+  }
+}

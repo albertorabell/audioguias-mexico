@@ -1,0 +1,55 @@
+{
+  "id": "mna_s01_entierro_dolni_vestonice",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "da694b2d48cffc28",
+      "texto": "Recreation of the Dolní Věstonice Burial"
+    },
+    "frase_gancho": {
+      "hash": "6320a9e2d606d0d4",
+      "texto": "Three young people buried together on red earth, tens of thousands of years ago."
+    },
+    "puente_narrativo": {
+      "hash": "37f6097f2da491ff",
+      "texto": "We leap forward millions of years: from Lucy to people like you, Homo sapiens, who already buried their dead with ceremony."
+    },
+    "guion_corto": {
+      "hash": "10047e92f324898f",
+      "texto": "Three young people rest together on earth stained red. Someone laid them out this way tens of thousands of years ago, in the Upper Paleolithic. This is a life-size recreation of a burial from Dolní Věstonice, in Moravia, in the south of today’s Czech Republic. They were people of the same species as you, Homo sapiens, who lived by hunting and gathering. They were between sixteen and twenty years old and were buried at the same time, with no signs of violent death. The bodies bear red ocher and ornaments made from pierced teeth. Specialists see in these details one of the earliest pieces of evidence in Europe of symbolic thought and of rituals for bidding farewell to the dead."
+    },
+    "guion_largo": {
+      "hash": "909a95134465da0f",
+      "texto": "When you think of prehistory, you may imagine people who were only trying to survive. This burial tells a different story.\n\nIt is a life-size recreation of a burial found at Dolní Věstonice, in Moravia, in the south of today’s Czech Republic. It was made with replicas of skeletons, stone tools and animal teeth, on a bed of earth with red ocher and ashes.\n\nThe three young people were between sixteen and twenty years old. They were buried at the same time, laid out at full length, and no signs of violent death were found. One of them lies face down. Another rests a hand on the pelvis of the young person in the center.\n\nAnalyses of the bones and of the genes indicate that they were possibly relatives.\n\nThe red ocher on the bodies and the pierced teeth used as ornaments are signs of symbolic thought. For specialists, they are among the earliest evidence in Europe of a complex social life and of a cult of the dead.\n\nThe same site is famous for another discovery. Very ancient clay kilns appeared there, which were used to fire figurines of women and animals.\n\nLook at this scene as a reminder: long before cities, there were already people who bid farewell to their loved ones with care."
+    },
+    "retos_observacion": {
+      "hash": "7af73fc1a7804c0c",
+      "texto": [
+        "Count the bodies and notice how they are arranged.",
+        "Look for the red ocher on the earth and on the bodies.",
+        "Find the ornaments made from teeth and the stone tools."
+      ]
+    },
+    "especificaciones": {
+      "hash": "1158a9a9b6ddaaaf",
+      "texto": {
+        "Culture": "Homo sapiens, hunter-gatherers of the European Upper Paleolithic",
+        "Period": "Upper Paleolithic",
+        "Material": "Museum recreation as a life-size diorama, with replicas",
+        "Origin": "Dolní Věstonice, Moravia, Czech Republic",
+        "Dimensions": "Scale 1:1"
+      }
+    },
+    "faq_mito": {
+      "hash": "e4ab880b6703b50d",
+      "texto": {
+        "pregunta": "Myth: Prehistoric humans buried their dead without ceremony, in simple pits.",
+        "respuesta": "Reality: This multiple burial, with red ocher and tooth ornaments, shows funerary rituals in the Upper Paleolithic."
+      }
+    }
+  }
+}

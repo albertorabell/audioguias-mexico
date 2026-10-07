@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_maqueta_tlatelolco",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0d3bb7b94cf5c69",
+      "texto": "Model and Mural of the Tlatelolco Market"
+    },
+    "frase_gancho": {
+      "hash": "f5451f7e79d45111",
+      "texto": "Hundreds of clay figures on a market day, before the Spaniards arrived."
+    },
+    "puente_narrativo": {
+      "hash": "1bce92bcd74dc43b",
+      "texto": "We leave the gods behind and step down into the plaza: this is what a market day was like in Tlatelolco, the twin city of Tenochtitlan."
+    },
+    "guion_corto": {
+      "hash": "354c289f0c7966e9",
+      "texto": "It is market day in Tlatelolco, and the plaza is full. What you see is a scale model with hundreds of clay figures: nobles, farmers, artisans, hunters, and long-distance merchants. There are stalls selling food, pottery, jewelry, tools, and live animals. Behind it, a panoramic mural by the painter Luis Covarrubias completes the scene. The model was built in 1964. It was made by Carmen Antúnez, with the guidance of the architect Ignacio Marquina. The chroniclers tell us that people bought goods there through barter, and also with cacao beans, cotton cloaks, and feathers filled with gold dust. It is a modern re-creation that helps you imagine Mexica trade."
+    },
+    "guion_largo": {
+      "hash": "260862f8cb975227",
+      "texto": "Tlatelolco, the twin city of Tenochtitlan, had a great market. This model shows it to you.\n\nIt is not an ancient piece, but a modern re-creation. It was built in 1964 by Carmen Antúnez, with the guidance of the architect Ignacio Marquina. It is made up of hundreds of hand-modeled figures, dressed in cloth clothing and surrounded by stalls selling food, pottery, jewelry, and tools.\n\nBehind the model there is a panoramic mural by the painter Luis Covarrubias. Together they complete the scene.\n\nAmong the stalls, nobles, farmers, artisans, hunters, and long-distance merchants mingle, the latter known as pochtecas. They brought luxury goods from distant lands, such as gold, turquoise, cacao, and quetzal feathers.\n\nIn that market, coins like today’s did not circulate. People bartered, and they also used as money cacao beans, cotton cloaks, and feathers filled with gold dust.\n\nThe Spanish chroniclers were astonished by the number of people. Hernán Cortés and Bernal Díaz del Castillo speak of tens of thousands of people in the plaza in a single day.\n\nLook for a scene that catches your eye and think about what might have been bought there."
+    },
+    "retos_observacion": {
+      "hash": "5ccd4217034bce87",
+      "texto": [
+        "Look for the food and pottery stalls among the figures.",
+        "Find the stalls selling live animals, jewelry, and tools.",
+        "Look at the mural in the background: it completes the scene of the plaza."
+      ]
+    },
+    "especificaciones": {
+      "hash": "69eb3d6769720db9",
+      "texto": {
+        "Culture": "Mexica-Tlatelolca (museum re-creation)",
+        "Period": "Represents the Late Postclassic; model from 1964",
+        "Material": "Hand-modeled clay and resin figures; background mural",
+        "Origin": "Re-creation of the Tlatelolco market, twin city of México-Tenochtitlan",
+        "Dimensions": "Scale model"
+      }
+    },
+    "faq_mito": {
+      "hash": "1a0bec2f9b9975b5",
+      "texto": {
+        "pregunta": "Myth: The Mexica paid for goods in the market with gold and silver coins.",
+        "respuesta": "Reality: They did not use coins. They bartered and used as money cacao beans, cotton cloaks, and feathers filled with gold dust."
+      }
+    }
+  }
+}
