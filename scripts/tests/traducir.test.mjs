@@ -304,6 +304,7 @@ test('las reglas del traductor incluyen las decisiones de Alberto (AD/BC, ortogr
   assert.ok(!sys.includes('BCE') && !sys.includes('"CE"'));
   assert.ok(sys.includes('use the glossary spelling'));
   assert.ok(sys.includes('typographic quotation marks'));
+  assert.ok(sys.includes('"the Maya"') && sys.includes('Write "Mexico" without an accent'));
   assert.ok(sys.includes('"Mito:" and "Realidad:"') && sys.includes('"Myth:" and "Reality:"'));
 });
 

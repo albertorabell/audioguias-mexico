@@ -170,6 +170,8 @@ All texts:
 - Follow the capitalization of the source for glossary terms: a lowercase concept stays lowercase (for example "guerra sagrada" as a general idea becomes "sacred war"), while a capitalized name stays capitalized.
 - Eras: "d.C." becomes "AD" and "a.C." becomes "BC", placed after the year or range as in the source (for example "1250-1521 d.C." becomes "1250-1521 AD").
 - If the source spells a glossary name slightly differently from the glossary (for example "Nahui Olin" and the glossary says "Nahui Ollin"), use the glossary spelling.
+- Use the standard English forms of people and culture names, never the Spanish plural or ending: "the Maya", "the Nahua", "a Toltec ruler", "Olmec art", "Zapotec", "Mixtec", "Totonac", "Teotihuacán culture". Proper names that the glossary marks KEEP stay as written.
+- Write "Mexico" without an accent in English (for example "State of Mexico", "Mexico City"), except inside names the glossary marks KEEP (such as "México-Tenochtitlan").
 - Use typographic quotation marks (“ ”) and apostrophes (’), like the Spanish source, never straight quotes.`;
 }
 

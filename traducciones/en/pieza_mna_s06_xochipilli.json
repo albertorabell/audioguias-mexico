@@ -4,17 +4,7 @@
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
   "fecha": "2026-10-07",
-  "avisos": {
-    "guion_corto": [
-      "el glosario pide \"State of Mexico\" para \"Estado de México\" y no aparece"
-    ],
-    "guion_largo": [
-      "el glosario pide \"State of Mexico\" para \"Estado de México\" y no aparece"
-    ],
-    "especificaciones": [
-      "el glosario pide \"State of Mexico\" para \"Estado de México\" y no aparece"
-    ]
-  },
+  "avisos": {},
   "campos": {
     "titulo": {
       "hash": "96291c66d60f4284",
@@ -30,11 +20,11 @@
     },
     "guion_corto": {
       "hash": "0637e03ee26dfb06",
-      "texto": "What is engraved on the skin of this seated young man? Flowers, and they are no ordinary ornament. This is Xochipilli, or Xochipilli-Macuilxóchitl, the Prince of Flowers, god of the arts, music, song, poetry, dance, and games. He sits cross-legged on a pedestal decorated with flowers and butterflies. His head is thrown back and his mouth is open, as if he were singing or in ecstasy. Carved on his body are the tobacco flower, datura, the ololiuhqui vine, and sacred mushrooms, plants that were used in rituals. It was discovered at the foot of the Iztaccíhuatl volcano, on the outskirts of Tlalmanalco, in the State of México. It is a sculpture from the Late Postclassic."
+      "texto": "What is engraved on the skin of this seated young man? Flowers, and they are no ordinary ornament. This is Xochipilli, or Xochipilli-Macuilxóchitl, the Prince of Flowers, god of the arts, music, song, poetry, dance, and games. He sits cross-legged on a pedestal decorated with flowers and butterflies. His head is thrown back and his mouth is open, as if he were singing or in ecstasy. Carved on his body are the tobacco flower, datura, the ololiuhqui vine, and sacred mushrooms, plants that were used in rituals. It was discovered at the foot of the Iztaccíhuatl volcano, on the outskirts of Tlalmanalco, in the State of Mexico. It is a sculpture from the Late Postclassic."
     },
     "guion_largo": {
       "hash": "948027d662970e72",
-      "texto": "Xochipilli means Prince of Flowers, and this sculpture shows him as a young god, seated, with his body covered in flowers. It was discovered at the foot of the Iztaccíhuatl volcano, on the outskirts of Tlalmanalco, in the State of México. It is a work from the Late Postclassic of the Central Highlands.\n\nHe is also called Xochipilli-Macuilxóchitl. He was the protector of the nobility and of everything that brings joy to life. That includes the arts, music, song, poetry, dance, games, and pleasure.\n\nThe figure sits cross-legged on a richly decorated pedestal. On it appear the sign of solar heat, jade beads, flowers, and butterflies. The god wears a skin mask, a pectoral, bracelets, anklets, and a maxtlatl, the loincloth that covered the waist. The head tilts back and the mouth opens, in a gesture of song or ecstasy.\n\nThe most striking thing is his body. It is covered with reliefs of sacred plants: the tobacco flower, datura, the ololiuhqui vine, and mushrooms. The Mexica used them in their rituals to reach a trance. For this reason it is thought that the sculpture shows a state of religious ecstasy, that of someone who sings and speaks with the gods. It is a reading that fits the posture, the gesture, and the plants.\n\nOn the back of the headdress there is a sign of solar heat, the tonalli. According to tradition, its circles and bars symbolize the directions of the universe. In this way, the god of flowers appears united with the Sun and the cosmos."
+      "texto": "Xochipilli means Prince of Flowers, and this sculpture shows him as a young god, seated, with his body covered in flowers. It was discovered at the foot of the Iztaccíhuatl volcano, on the outskirts of Tlalmanalco, in the State of Mexico. It is a work from the Late Postclassic of the Central Highlands.\n\nHe is also called Xochipilli-Macuilxóchitl. He was the protector of the nobility and of everything that brings joy to life. That includes the arts, music, song, poetry, dance, games, and pleasure.\n\nThe figure sits cross-legged on a richly decorated pedestal. On it appear the sign of solar heat, jade beads, flowers, and butterflies. The god wears a skin mask, a pectoral, bracelets, anklets, and a maxtlatl, the loincloth that covered the waist. The head tilts back and the mouth opens, in a gesture of song or ecstasy.\n\nThe most striking thing is his body. It is covered with reliefs of sacred plants: the tobacco flower, datura, the ololiuhqui vine, and mushrooms. The Mexica used them in their rituals to reach a trance. For this reason it is thought that the sculpture shows a state of religious ecstasy, that of someone who sings and speaks with the gods. It is a reading that fits the posture, the gesture, and the plants.\n\nOn the back of the headdress there is a sign of solar heat, the tonalli. According to tradition, its circles and bars symbolize the directions of the universe. In this way, the god of flowers appears united with the Sun and the cosmos."
     },
     "retos_observacion": {
       "hash": "e1cb120f47b90e52",
@@ -50,7 +40,7 @@
         "Culture": "Mexica / Chalca",
         "Period": "Late Postclassic (1200-1521 AD)",
         "Material": "Andesite",
-        "Origin": "Tlalmanalco, State of México",
+        "Origin": "Tlalmanalco, State of Mexico",
         "Dimensions": "117 cm high x 55 cm wide x 45 cm thick"
       }
     },
