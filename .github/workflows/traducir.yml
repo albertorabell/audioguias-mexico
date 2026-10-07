@@ -75,7 +75,7 @@ jobs:
           if [ -n "$PIEZAS" ]; then args+=(--piezas "$PIEZAS"); fi
           if [ "$FORZAR" = "true" ]; then args+=(--forzar); fi
           if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
-          node scripts/traducir.mjs "${args[@]}" | tee traduccion.log
+          node scripts/traducir.mjs "${args[@]}" 2>&1 | tee traduccion.log
           {
             echo '## Resultado'
             echo '```'
