@@ -1,0 +1,61 @@
+{
+  "id": "mna_s15_cesteria_ixtle",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "bedd207ed41e7614",
+      "texto": "Ustensiles et vannerie d’ixtle de maguey"
+    },
+    "frase_gancho": {
+      "hash": "bcf772b8c891fda1",
+      "texto": "La fibre dorée du maguey, qui tisse la vie du désert."
+    },
+    "puente_narrativo": {
+      "hash": "31caf4e7c1f34976",
+      "texto": "Dans les plaines arides de l’Hidalgo et de l’État de Mexico, le maguey (ada) est la plante sacrée du peuple otomí. De l’agave, on extrait l’ixtle pour tisser des filets, des ayates et des récipients indispensables."
+    },
+    "guion_corto": {
+      "hash": "c6dcae31d3f1d208",
+      "texto": "Lorsque vous approchez de la vitrine qui abrite cette riche collection d’ustensiles, dans la Salle Otomí-Mazahua du musée, la rusticité chaleureuse des fibres végétales et l’ingénieuse fonctionnalité des pièces captent aussitôt le regard. Les Ustensiles et la Vannerie d’ixtle de maguey représentent l’une des traditions artisanales et des industries domestiques les plus anciennes et les mieux adaptées des peuples Hñähñu de la vallée du Mezquital, Hidalgo. Façonnés par le défibrage, le lavage, le filage et le tressage des feuilles du maguey sauvage, l’Agave salmiana et l’Agave lechuguilla, ces objets forment une riche variété d’usage quotidien : ayates ou couvertures de portage, sacs en filet, sangles de front, brosses, cordes, muselières et éventails pour attiser le foyer. La fibre dorée de l’ixtle, dure mais incroyablement souple, s’entrelace sur des métiers à tisser à sangle ou grâce à la technique du nouage à la main avec une aiguille de bois. Pour la société otomí du désert, le maguey est la plante sacrée par excellence, qui procure nourriture, boisson, médecine et vêtement. Contempler ces outils d’ixtle au Musée national d’anthropologie, c’est admirer la sagesse écologique du peuple otomí face à la rigueur du désert."
+    },
+    "guion_largo": {
+      "hash": "16830af4d4fdf5ec",
+      "texto": "Dans les plaines arides de la vallée du Mezquital, dans l’État d’Hidalgo, la présence du maguey a déterminé pendant des millénaires la survie et l’identité culturelle du peuple Otomí ou Hñähñu. Dans un écosystème marqué par la rareté de l’eau d’irrigation et par des terrains calcaires peu propices à l’agriculture extensive, le maguey, cette agavacée, s’est imposé comme la ressource naturelle suprême de la communauté. Du maguey, les Otomís extraient la sève sucrée pour fermenter le pulque sacré, les feuilles pour cuire la barbacoa dans un four en terre, les épines pour en faire des aiguilles à coudre et, plus remarquable encore, la fibre intérieure, l’« ixtle », contenue dans les feuilles de la plante. La production de l’ixtle est une tâche complexe qui exige une connaissance approfondie de la botanique locale : les femmes et les hommes otomís coupent les feuilles mûres de l’agave, les frottent avec des racloirs de fer ou de pierre sur un établi en bois pour retirer la pulpe verte, puis lavent les fines fibres dans les canaux d’irrigation jusqu’à obtenir des chevelures de fibres blanches et dorées d’une grande résistance. En observant attentivement les pièces exposées dans la vitrine du musée, le visiteur admire la polyvalence de la vannerie et de la corderie d’ixtle. La pièce maîtresse de la collection est l’« ayate » ou « t’äxñä », une couverture rectangulaire tissée sur un métier à sangle avec de fins fils d’ixtle, que les femmes et les hommes nouent sur l’épaule pour porter le bois de la montagne, la récolte de maïs ou les petits enfants dans le dos. Les ayates présentent des filets à mailles ouvertes, avec de simples broderies sur les bords. À côté, on observe des sacs en filet tissés avec une aiguille de bois, des brosses pour peigner les cheveux faites de touffes d’ixtle liées par des cordelettes, des éventails ronds pour raviver le feu sous la plaque de cuisson et de larges sangles de front conçues pour amortir le poids des charges sur le front du marcheur. La durabilité de ces pièces de fibre naturelle est telle qu’elles peuvent résister des décennies à un usage continu sous le soleil et la pluie des champs. L’histoire de la constitution de cette collection d’ustensiles d’ixtle pour le Musée national d’anthropologie remonte aux projets de recherche ethnobiologique et technologique menés par l’INAH au milieu du vingtième siècle dans des communes de l’Hidalgo comme Ixmiquilpan, Actopan et Tasquillo. Les anthropologues ont documenté tout le processus de défibrage et de filage au fuseau traditionnel, en acquérant directement sur les marchés hebdomadaires les ayates, les sacs en filet et les brosses confectionnés par les artisans locaux. L’exposition permanente de ces outils d’ixtle à l’Étage supérieur du musée rend hommage au travail paysan otomí et à la durabilité des industries artisanales fondées sur l’exploitation de la flore autochtone du Mexique."
+    },
+    "retos_observacion": {
+      "hash": "636abc1cd66fc694",
+      "texto": [
+        "Trame en filet à mailles ouvertes de l’ayate traditionnel de portage (t’äxñä)",
+        "Brosses à cheveux et éventails pour plaque de cuisson, tressés à la main avec des soies d’ixtle",
+        "Sangles de front de portage tissées avec de gros fils d’agave salmiana"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c49c13e32c1fdd54",
+      "texto": {
+        "Peuple": "Otomí (Hñähñu)",
+        "Région": "Vallée du Mezquital, Hidalgo et État de Mexico",
+        "Technique/Matériau": "Fibre de maguey (ixtle) défibrée, filée au fuseau et tissée sur un métier à sangle",
+        "Fonction": "Outils de portage agricole, vannerie, contenants et vêtements paysans"
+      }
+    },
+    "faq_mito": {
+      "hash": "9ee4bc95e0cef014",
+      "texto": {
+        "pregunta": "Mythe : La vannerie et les ustensiles d’ixtle sont des fibres synthétiques modernes en plastique, fabriquées dans des usines urbaines.",
+        "respuesta": "Réalité : Selon les études de l’INAH, ce sont des ustensiles traditionnels, façonnés de manière artisanale avec des fibres extraites d’agaves sauvages."
+      }
+    }
+  }
+}

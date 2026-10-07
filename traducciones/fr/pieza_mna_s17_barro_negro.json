@@ -1,0 +1,66 @@
+{
+  "id": "mna_s17_barro_negro",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Vallées centrales d'Oaxaca\" para \"Valles Centrales de Oaxaca\" y no aparece",
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Vallées centrales d'Oaxaca\" para \"Valles Centrales de Oaxaca\" y no aparece",
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Vallées centrales d'Oaxaca\" para \"Valles Centrales de Oaxaca\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "4e3284425c6a4829",
+      "texto": "Gourde et vases en terre noire de San Bartolo Coyotepec"
+    },
+    "frase_gancho": {
+      "hash": "744018175b66c6ff",
+      "texto": "Argile d’ombre brunie qui reflète la lumière noire."
+    },
+    "puente_narrativo": {
+      "hash": "46da335ecec6e19c",
+      "texto": "En avançant vers le secteur des métiers artisanaux des Vallées centrales d’Oaxaca, ces vases sombres vous montrent la technique zapotèque de San Bartolo Coyotepec. Le fini lustré s’obtient par un polissage à la main avec des pierres de quartz."
+    },
+    "guion_corto": {
+      "hash": "dda0ec70ea6ca3da",
+      "texto": "En vous approchant de la vitrine qui abrite ces vases à effigie et ces gourdes resplendissants, dans la Salle d’Oaxaca de l’Étage supérieur du musée, l’intensité de l’éclat métallique et la couleur de jais de l’argile captent aussitôt vos sens. Originaires de la célèbre communauté zapotèque de San Bartolo Coyotepec, dans les Vallées centrales d’Oaxaca, cette gourde et cet ensemble de récipients représentent l’une des traditions potières les plus raffinées du patrimoine ethnologique mexicain. Façonnées à la main, sans tour mécanique, avec une terre argileuse sombre extraite des carrières locales, les pièces sont modelées puis frottées patiemment avec un galet de quartz ou de corne pour brunir la surface avant la cuisson. La cuisson se fait dans des fours-fosses souterrains, en atmosphère réductrice et à combustion incomplète, où la fumée dense piégée dans la chambre réagit avec l’oxyde de fer de la terre pour transformer l’argile rougeâtre en ce noir caractéristique, à la fois mat et miroitant. Dans la vie des Vallées centrales, ces gourdes et ces bouteilles à mezcal en terre noire gardaient le mezcal sacré, l’eau bénite et l’eau-de-vie utilisés lors des fêtes de confrérie, des mariages et des funérailles. Contempler cet ensemble au Musée national d’anthropologie, c’est admirer le triomphe de l’ombre et du feu."
+    },
+    "guion_largo": {
+      "hash": "7ba1d93e02a7a007",
+      "texto": "Au cœur géographique des Vallées centrales d’Oaxaca, à quelques kilomètres de la capitale de l’État, la communauté zapotèque de San Bartolo Coyotepec a gardé pendant des millénaires un savoir potier d’origine préhispanique qui unit la terre, l’eau et le feu souterrain. Bien avant l’arrivée des conquistadors espagnols, les potiers zapotèques de la région de Monte Albán et de Zaachila façonnaient des cruches et des récipients en argile grise et noire, utilisés dans les cérémonies funéraires et dans les sacrifices de libation dédiés à Cocijo, dieu du tonnerre et de la pluie. Au fil des siècles, la communauté de San Bartolo Coyotepec a préservé la recette secrète de la terre noire, mais c’est au milieu du vingtième siècle que la potière dame Rosa Real de Nieto a perfectionné la technique du brunissage au quartz avant d’enfourner les vases dans le four-fosse souterrain, ou « cloche », obtenant des surfaces métalliques d’une brillance noire et miroitante qui a conquis le monde entier. En inspectant avec soin l’anatomie et les finitions de cette gourde et de ces vases dans la vitrine du musée, l’observateur attentif admire la délicate combinaison de surfaces brunies et d’incisions ajourées. La gourde présente une forme lenticulaire ou bombée, de profil circulaire, dotée de deux petites anses latérales conçues pour y passer le cordon de cuir avec lequel les paysans et les tisserands la portaient à l’épaule en marchant vers les champs de culture ou vers les marchés traditionnels des Vallées centrales. La surface de la gourde exhibe un ajourage floral de rosettes et de feuilles, réalisé à la lame dans l’argile fraîche avant la cuisson, ce qui permet au contenant de respirer et de garder l’eau ou le mezcal frais sous le soleil brûlant. À côté, on observe des cruches à mezcal au col étroit et des vases à effigie ornés de figures de sirènes et d’animaux sauvages, dont les zones brunies comme un miroir contrastent magnifiquement avec les champs laissés en noir mat. L’histoire de la collecte et de l’intégration de cette remarquable collection de terre noire aux fonds du Musée national d’anthropologie remonte aux projets de sauvegarde ethnologique coordonnés dans les années 1950 et 1960 par des anthropologues et des chercheurs de l’INAH dans les Vallées centrales d’Oaxaca. Les ethnographes ont visité les ateliers familiaux de San Bartolo Coyotepec et ont documenté tout le processus : l’extraction de la terre dans les mines communautaires, le foulage de l’argile avec les pieds nus, le modelage dans des assiettes d’argile concaves et la cuisson nocturne dans les fours-fosses. Les pièces ont été acquises directement auprès des maîtresses potières, puis transportées à Mexico pour enrichir la Salle d’Oaxaca de l’Étage supérieur du MNA. Aujourd’hui, cette gourde en terre noire resplendit dans l’exposition permanente comme un témoignage incontestable de la maîtrise, de l’innovation artisanale et de la dignité zapotèque."
+    },
+    "retos_observacion": {
+      "hash": "7dc1db61530327df",
+      "texto": [
+        "Ajourages floraux et rosettes faits à la main sur le corps de la gourde",
+        "Contraste satiné entre les zones brunies au quartz et le fond noir mat",
+        "Anses latérales intégrées pour passer la lanière de transport des paysans"
+      ]
+    },
+    "especificaciones": {
+      "hash": "29132d856b298421",
+      "texto": {
+        "Peuple": "Zapotèque (Ben ’Zaa)",
+        "Région": "San Bartolo Coyotepec, Vallées centrales d’Oaxaca",
+        "Technique/Matériau": "Argile noire modelée, brunie au quartz et cuite dans un four fermé en atmosphère réductrice",
+        "Fonction": "Récipient pour l’eau et le mezcal, récipients d’offrande et artisanat cérémoniel"
+      }
+    },
+    "faq_mito": {
+      "hash": "46c5d6ea4dc71e6f",
+      "texto": {
+        "pregunta": "Mythe : la terre noire de San Bartolo Coyotepec est peinte avec de la peinture acrylique noire ou un vernis chimique industriel.",
+        "respuesta": "Réalité : selon les expertises de l’INAH, la couleur noire s’obtient de façon naturelle par cuisson dans des fours souterrains étouffés."
+      }
+    }
+  }
+}

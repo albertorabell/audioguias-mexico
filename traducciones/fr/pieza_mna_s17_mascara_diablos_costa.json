@@ -1,0 +1,61 @@
+{
+  "id": "mna_s17_mascara_diablos_costa",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Institut national d'anthropologie et d'histoire\" para \"Instituto Nacional de Antropología e Historia\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "a2a339c41b882f80",
+      "texto": "Masque et mâchoire d’âne de la Danse des Diablos"
+    },
+    "frase_gancho": {
+      "hash": "67a466ae8540256d",
+      "texto": "Masque à cornes et mâchoire qui retentit sur la côte."
+    },
+    "puente_narrativo": {
+      "hash": "13ec9e29d2530d3f",
+      "texto": "Pour conclure le voyage à travers l’Oaxaca ethnographique, ce masque vibrant et son instrument de percussion rendent hommage à l’héritage vivant des peuples afromexicains de la Costa Chica."
+    },
+    "guion_corto": {
+      "hash": "b65ab4399f45a96a",
+      "texto": "Lorsque l’on se place devant la vitrine qui abrite cet ensemble cérémoniel dans la Salle Oaxaca, à l’Étage supérieur du musée, la rusticité du cuir tanné et le son évocateur des instruments paralysent aussitôt les sens. Le masque de diable et la mâchoire d’âne représentent les insignes centraux de la Danse des Diablos de la Costa Chica de Guerrero et d’Oaxaca, l’une des traditions afrodescendantes les plus puissantes du Mexique contemporain. Le masque est façonné sur une calotte de bois ou de carton recouverte de cuir de bouc, et arbore une abondante crinière de crin de cheval, de longues barbes et de véritables cornes de cerf ou de daim. À côté repose la mâchoire d’âne ou de cheval desséchée, accessoire rythmique que le musicien racle et frappe, faisant résonner les dents desserrées comme un vibrant instrument de percussion. Exécutée pendant le cycle de la Commémoration des fidèles défunts et lors des fêtes patronales afromexicaines, cette danse représente l’hommage festif aux ancêtres africains amenés en captivité pendant la période coloniale. Contempler ces pièces au Musée national d’anthropologie, c’est rendre hommage à la troisième racine culturelle de la patrie."
+    },
+    "guion_largo": {
+      "hash": "a6f6c510759a77cd",
+      "texto": "Dans les chaudes plaines côtières qui s’étendent le long de la Costa Chica de Guerrero et d’Oaxaca, dans des municipalités comme Cuajinicuilapa, San Nicolás, Collantes et Pinotepa Nacional, la population afromexicaine a préservé pendant plus de quatre siècles une identité culturelle et musicale d’une singulière force expressive. Amenés comme main-d’œuvre esclave durant l’époque coloniale espagnole pour travailler dans les ranchs d’élevage et les plantations de canne à sucre, les afrodescendants ont fusionné leurs mémoires rythmiques et spirituelles du continent africain avec les coutumes des peuples originaires zapotèques, mixtèques et nahuas de la région. De cette interaction historique est née la Danse des Diablos, un rituel dansé exécuté entre le 31 octobre et le 2 novembre durant le cycle des Jours des Morts ou fête des Âmes. Dans la pensée cosmogonique afromexicaine, les danseurs qui revêtent de vieux habits et des masques démoniaques ne représentent pas le diable chrétien de l’enfer, mais les esprits libres des ancêtres, ou « ruja », qui reviennent sur la terre pour danser avec leurs descendants, partager les banquets des offrandes et apporter la joie au village. En examinant avec attention les matériaux et la facture du masque et de la mâchoire dans la vitrine du musée, l’observateur admire l’audace créatrice de l’art populaire de la côte. Le masque du « Grand Diable » ou « Tenango » présente une structure rigide recouverte de peau de bouc à poil long et sombre, avec des ouvertures circulaires pour les yeux et une bouche exagérée peinte en rouge carmin qui laisse voir des crocs incisés. Sur le haut du front sont fixées de véritables cornes de bouc, de cerf ou de bovin, tandis qu’une longue barbe de crin de cheval pend sur la poitrine du danseur. Le masque est accompagné de l’instrument de percussion idiophone qu’est la mâchoire d’âne desséchée et lavée à la chaux : lorsqu’on la racle avec une corne de cerf ou qu’on la frappe du poing fermé sur l’os maxillaire, le jeu des molaires dans leurs alvéoles produit un claquement rythmique et vibrant qui marque la cadence frénétique du racloir et du tambour à friction. L’histoire de la documentation et de la sauvegarde ethnographique de la Danse des Diablos par l’Institut national d’anthropologie et d’histoire (INAH) fait partie des projets pionniers menés au milieu du vingtième siècle par le docteur Gonzalo Aguirre Beltrán, et poursuivis par des anthropologues et des chercheurs de l’INAH pour la reconnaissance de la troisième racine afromexicaine. Les spécialistes ont visité les communautés de la Costa Chica et obtenu l’autorisation des chefs de la danse pour acquérir des masques historiques et des instruments traditionnels, qui sont entrés dans la Salle Oaxaca de l’Étage supérieur du MNA. Aujourd’hui, ce masque et la mâchoire d’âne resplendissent dans l’exposition permanente comme un témoignage incontestable de la résistance, de la joie et de la mémoire historique du peuple afromexicain."
+    },
+    "retos_observacion": {
+      "hash": "61da42248857302a",
+      "texto": [
+        "Les véritables cornes de bouc ou de cerf fixées à la calotte de cuir du masque",
+        "La dentition complète de la mâchoire d’âne desséchée utilisée comme instrument rythmique",
+        "La barbe et la crinière de crin de cheval noir qui retombent autour du visage"
+      ]
+    },
+    "especificaciones": {
+      "hash": "746329a5816b088b",
+      "texto": {
+        "Peuple": "Afromexicain",
+        "Région": "Costa Chica de Oaxaca (Collantes, Santiago Llano Grande, Chacahua)",
+        "Technique/Matériau": "Bois sculpté, crin de cheval, cornes naturelles, carton et os percuteur",
+        "Fonction": "Attirail rituel de la Danse des Diablos pour la Toussaint et affirmation identitaire"
+      }
+    },
+    "faq_mito": {
+      "hash": "f8bd64c639f411fc",
+      "texto": {
+        "pregunta": "Mythe : La Danse des Diablos afromexicaine est un rite satanique de magie noire venu des forêts africaines.",
+        "respuesta": "Réalité : Selon les analyses de l’INAH, il s’agit d’une danse rituelle commémorative des Jours des Morts qui célèbre la mémoire et la liberté afrodescendantes."
+      }
+    }
+  }
+}

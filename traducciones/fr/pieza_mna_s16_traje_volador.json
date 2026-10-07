@@ -1,0 +1,61 @@
+{
+  "id": "mna_s16_traje_volador",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "99041fc5b978d128",
+      "texto": "Costume cérémoniel du danseur Volador"
+    },
+    "frase_gancho": {
+      "hash": "c3050c4dc588f0e5",
+      "texto": "Parure de vol qui tourne vers les quatre directions solaires."
+    },
+    "puente_narrativo": {
+      "hash": "6d56702883579901",
+      "texto": "En poursuivant vers l’espace consacré aux cérémonies de l’air, cette tenue rouge incarne l’oiseau sacré qui descend du ciel."
+    },
+    "guion_corto": {
+      "hash": "324ca62a92d42d97",
+      "texto": "Lorsque vous vous arrêtez devant le mannequin qui porte le costume de l’interprète, dans la Salle de la côte du Golfe et de Puebla, à l’étage supérieur du musée, l’intensité du rouge carmin et l’élégance des plumes captivent aussitôt les sens. Le Costume cérémoniel du danseur Volador est la tenue sacrée portée par les interprètes totonaques et nahuas de Papantla et de la Sierra Norte de Puebla pendant l’emblématique cérémonie du Vol des Voladores (Hommes volants). Le costume se compose d’un pantalon rouge en satin orné de franges dorées, d’un chapeau conique ou bonnet de paille couvert de fleurs et de plumes multicolores, et de deux foulards ou demi-cercles croisés sur la poitrine et dans le dos, qui évoquent les ailes déployées d’un oiseau sacré. Pendant la cérémonie, quatre danseurs qui incarnent les quatre directions cosmogoniques de l’univers et un caporal qui joue du petit tambour et de la flûte de roseau montent au sommet d’un mât de bois de plus de trente mètres, puis se lancent dans le vide, attachés par des cordes, pour tourner treize fois durant la descente. Contempler cette tenue cérémonielle au Musée national d’anthropologie, c’est admirer l’harmonie entre l’air, la foi et l’astronomie préhispanique."
+    },
+    "guion_largo": {
+      "hash": "6d3545f6b7f18094",
+      "texto": "Dans les terres fertiles de la côte du golfe du Mexique et sur les versants escarpés de la Sierra Norte de Puebla, la cérémonie rituelle des Voladores est l’une des expressions mythiques, gastronomiques et astronomiques les plus anciennes et les plus fortes par leur portée liturgique de toute la Mésoamérique. Reconnue par l’UNESCO comme patrimoine culturel immatériel de l’humanité, cette tradition remonte à des milliers d’années, à l’époque où les sages totonaques conçurent ce rite d’invocation de la pluie pendant une période de sécheresse extrême qui menaçait d’anéantir les cultures de la région. Pour le peuple totonaque ou Tutunaku de Papantla, le mât ou bâton sacré, coupé dans la forêt au moyen de prières demandant pardon à l’esprit de l’arbre, représente l’axis mundi ou arbre cosmique, qui relie le monde souterrain terrestre à la voûte céleste. Les quatre danseurs qui montent sur la plateforme tournante ou pomme ne réalisent pas un exploit sportif d’acrobatie, mais endossent le rôle d’oiseaux sacrés qui descendent sur la terre pour apporter l’eau, la fertilité et l’harmonie solaire aux quatre directions de la création. En examinant attentivement les détails textiles et les ornements qui composent le costume cérémoniel dans la vitrine du musée, l’observateur attentif perçoit la symbolique minutieuse de chaque pièce. Le pantalon rouge vif en satin ou en soie évoque le sang des guerriers et la lumière chaude du Soleil à l’aube. Sur la poitrine et dans le dos du Volador se croisent deux foulards triangulaires teints en jaune et en rouge éclatants, ornés de broderies au point de croix qui représentent des fleurs des champs, des oiseaux mystiques et des miroirs ronds qui reflètent les rayons du soleil. Le bonnet ou chapeau conique qui couvre la tête du danseur représente le bec du héron ou de l’aigle sacré, couronné d’un panache circulaire de plumes d’oiseau qui tourne avec le vent et duquel pendent de longs rubans multicolores qui évoquent l’arc-en-ciel annonçant la fin de l’orage. Dans leurs mains, les danseurs portent des maracas ou hochets en calebasse avec lesquels ils marquent la cadence tandis qu’ils tournent, suspendus dans les airs. L’histoire de la collecte et de l’entrée de ce costume rituel dans les collections ethnographiques du Musée national d’anthropologie s’inscrit dans les expéditions de documentation anthropologique menées au milieu du vingtième siècle par des chercheurs de l’INAH à Tajín et à Papantla, dans l’État de Veracruz. Les ethnographes du musée ont travaillé en collaboration directe avec le Conseil des Anciens des Voladores et avec les maîtres artisans de la région totonaque, et ont acquis la tenue complète, confectionnée avec les matériaux traditionnels que sont le satin, les plumes d’oiseau et les miroirs. L’exposition permanente de ce costume cérémoniel à l’étage supérieur du MNA rend hommage à la vitalité du rite du vol et montre aux visiteurs du monde entier la profonde spiritualité et la résistance culturelle des peuples originaires de la côte du golfe du Mexique."
+    },
+    "retos_observacion": {
+      "hash": "e89a489463cb9be7",
+      "texto": [
+        "Bonnet conique qui évoque le bec de l’oiseau sacré, couronné de plumage et de rubans",
+        "Foulards triangulaires croisés sur la poitrine, avec des miroirs circulaires qui reflètent le soleil",
+        "Franges dorées et broderies florales sur les ourlets du pantalon rouge en satin"
+      ]
+    },
+    "especificaciones": {
+      "hash": "082591921c4764c8",
+      "texto": {
+        "Peuple": "Totonaque / Nahua",
+        "Région": "Sierra Norte de Puebla et Totonacapan (Papantla / Cuetzalan)",
+        "Technique/Matériau": "Velours/satin rouge, frange de canetille dorée, miroirs, plumes et broderie",
+        "Fonction": "Tenue sacrée pour le rituel cosmogonique des Voladores (invocation de la pluie)"
+      }
+    },
+    "faq_mito": {
+      "hash": "692f8e238345ee48",
+      "texto": {
+        "pregunta": "Mythe : La Danse des Voladores est un spectacle de cirque ou une attraction touristique d’acrobatie inventée au XXe siècle.",
+        "respuesta": "Réalité : Selon les études de l’INAH, c’est une cérémonie astronomique et agricole préhispanique inscrite sur la liste du patrimoine immatériel de l’humanité par l’UNESCO."
+      }
+    }
+  }
+}

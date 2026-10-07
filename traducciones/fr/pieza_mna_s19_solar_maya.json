@@ -1,0 +1,61 @@
+{
+  "id": "mna_s19_solar_maya",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "1bb414022a10bbae",
+      "texto": "Reconstitution de la parcelle et de la maison traditionnelle maya"
+    },
+    "frase_gancho": {
+      "hash": "41efadfb9f9f2e1a",
+      "texto": "Maison de paille et de torchis où germe le maïs."
+    },
+    "puente_narrativo": {
+      "hash": "1be9b6d5c06fcd1f",
+      "texto": "Pour conclure la visite de la Salle Peuples mayas, cette installation à échelle réelle reproduit l’habitat domestique durable. La maison elliptique et le jardin potager familial garantissent la subsistance de la communauté."
+    },
+    "guion_corto": {
+      "hash": "88bdc121bbcea825",
+      "texto": "Lorsque vous vous avancez dans la majestueuse installation qui domine la Salle maya, à l’Étage supérieur du musée, l’odeur de paille sèche, de bois de la forêt et de terre humide transporte aussitôt vos sens dans la campagne yucatèque. La Reconstitution de la parcelle et de la maison traditionnelle maya est une reconstruction à échelle réelle de l’habitation et de l’espace agroécologique quotidien des familles mayas de la péninsule du Yucatán. La maison présente le plan absidal classique, aux angles arrondis, bâti avec des murs de torchis ou k’ankab, une terre rouge mêlée d’herbe sèche, et une haute toiture à deux ou quatre pans, réalisée avec des poutres de bois dur de piscidia et des palmes de palmier. À l’intérieur, vous apercevez le foyer traditionnel avec ses hamacs tissés suspendus aux poteaux, la plaque de cuisson en terre cuite, la pierre à moudre et l’autel familial. À l’extérieur se déploie la parcelle familiale ou jóovel, un verger biodiversifié entouré de murets de pierre calcaire où l’on cultive des plantes médicinales, des arbres fruitiers et des légumes, près des ruches de l’abeille mélipone indigène. Contempler cette installation au Musée national d’anthropologie, c’est admirer la durabilité de l’architecture maya."
+    },
+    "guion_largo": {
+      "hash": "c03b8b563677b508",
+      "texto": "Dans les plaines calcaires de la péninsule du Yucatán, entre les basses forêts et les cénotes d’eau douce, le peuple maya a développé, pendant plus de trois millénaires, l’une des formes d’habitat et de gestion écologique les plus durables et les mieux adaptées au climat tropical de la planète : la maison traditionnelle ou nah et la parcelle agroforestière. À la différence des conceptions urbaines occidentales qui séparent nettement l’habitation de l’environnement naturel, dans la cosmovision maya la maison et la parcelle forment un seul organisme vivant et sacré. La structure de l’habitation reproduit l’architecture du cosmos : les quatre poteaux fourchus principaux, en bois dur de la forêt et appelés xa’an, représentent les quatre bacabs, ces dieux qui soutiennent les quatre coins de l’univers, tandis que le toit incliné de chaume de palmier évoque la voûte céleste qui abrite la famille. La forme arrondie ou ovale des extrémités de la maison permet une libre circulation des alizés, en maintenant l’intérieur frais malgré les fortes températures de l’été de la péninsule. Lorsque vous explorez avec attention les détails de l’habitation et de la parcelle dans la vitrine et l’installation du musée, l’observateur attentif admire le savoir constructif et écologique du paysan maya. Les murs sont faits de tiges verticales de bambou, formant le torchis, recouvertes d’un mélange de terre rouge, le k’ankab, de chaux et d’herbe sèche qui isole de l’humidité. À l’intérieur, la vie domestique s’organise avec aisance : les hamacs de fil de coton sont suspendus aux poteaux pendant la nuit pour dormir au-dessus du sol, et ils sont décrochés pendant la journée pour dégager l’espace de la pièce principale. Dans un coin resplendit la table de l’autel familial, ou k’anche’, où l’on offre de petites coupes de calebasse remplies de bouillie de maïs et de balché aux aluxo’ob, les esprits gardiens de la forêt. Dans la parcelle extérieure, délimitée par des murets de pierre sans mortier, on observe des troncs creux, ou jobones, destinés à l’élevage de l’abeille mélipone sans dard, appelée Xunáan Kab, productrice du miel sacré et curatif des Mayas. L’histoire de la construction et de l’intégration de cette réplique à échelle réelle de la maison traditionnelle maya au Musée national d’anthropologie remonte aux travaux de collecte d’ethnographie architecturale dirigés en 1964 par des anthropologues de l’INAH. Des maîtres constructeurs mayas venus de villages du Yucatán et du Quintana Roo se rendirent à Mexico pour couper les bois de piscidia et les palmes de palmier, et ils élevèrent l’habitation de leurs propres mains, avec des techniques ancestrales, à l’Étage supérieur du musée. Cette installation permanente permet à des millions de visiteurs internationaux de comprendre la durabilité, la conception climatique et la profonde harmonie avec la nature qui définissent la vie quotidienne du peuple maya."
+    },
+    "retos_observacion": {
+      "hash": "99939da011ecfcff",
+      "texto": [
+        "Plan absidal arrondi avec quatre poteaux de bois qui figurent les quatre bacabs",
+        "Toit très incliné tissé de palmes de palmier sur des poutres de bois de piscidia",
+        "Muret extérieur en pierre calcaire et troncs creux (jobones) pour les abeilles mélipones"
+      ]
+    },
+    "especificaciones": {
+      "hash": "14b4e176c85d1b73",
+      "texto": {
+        "Peuple": "maya yucatèque",
+        "Région": "péninsule du Yucatán (Campeche, Yucatán et Quintana Roo)",
+        "Technique/Matériau": "Architecture vernaculaire (bois dur, torchis, palmes de palmier, sisal)",
+        "Fonction": "Reconstitution de l’habitation traditionnelle et de l’espace biocultural de la parcelle familiale"
+      }
+    },
+    "faq_mito": {
+      "hash": "b6aa00377774fa65",
+      "texto": {
+        "pregunta": "Mythe : La maison maya de torchis et de paille est une cabane insalubre, fruit de la pauvreté rurale moderne.",
+        "respuesta": "Réalité : D’après les analyses de l’INAH, il s’agit d’un modèle d’architecture bioclimatique millénaire parfaitement adapté aux tropiques."
+      }
+    }
+  }
+}

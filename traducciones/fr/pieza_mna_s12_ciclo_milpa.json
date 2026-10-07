@@ -1,0 +1,58 @@
+{
+  "id": "mna_s12_ciclo_milpa",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6e14abaf576ae936",
+      "texto": "La maison traditionnelle et le cycle sacré de la milpa autochtone"
+    },
+    "frase_gancho": {
+      "hash": "3ae212dfc5ddb535",
+      "texto": "Foyer de torchis où le maïs fait germer le monde."
+    },
+    "puente_narrativo": {
+      "hash": "c542f7d3b39e27de",
+      "texto": "Intégrée au cœur de la Salle Peuples autochtones, cette réplique architecturale et agricole relie la vie quotidienne domestique à la cosmogonie des semailles."
+    },
+    "guion_corto": {
+      "hash": "92ff7dc1428d2453",
+      "texto": "En pénétrant dans les espaces consacrés à la vie quotidienne, dans les salles ethnographiques, l’odeur de terre humide, de bois d’ocote et de fumée de copal enveloppe aussitôt l’expérience du visiteur. La reconstitution à échelle réelle de La maison traditionnelle et le cycle sacré de la milpa autochtone transporte le spectateur au cœur sacré de l’espace domestique originel. Érigées avec des matériaux organiques locaux, murs de torchis, perches de bambou, briques d’adobe et toits à quatre pans de chaume ou de paille, ces habitations sont des maquettes tridimensionnelles du cosmos. Au centre de la pièce resplendit le foyer, ou tlecuil, composé de trois pierres sacrées qui soutiennent le comal en terre cuite où cuisent les tortillas, accompagné de la pierre à moudre, de la presse en bois et des cruches d’eau. À quelques pas se déploie le diorama de la milpa, cet agroécosystème de polyculture de maïs, de haricots, de courges, de piments et de quelites, qui constitue l’axe économique et spirituel des communautés. Pour les nations autochtones, la milpa n’est pas un simple champ de production agricole, mais une personne sacrée qui exige des rites de remerciement, des autels et des prières pour que les pluies bénissent la récolte."
+    },
+    "guion_largo": {
+      "hash": "0f557206e91b9a21",
+      "texto": "Dans la structure sociale et la cosmovision des sociétés autochtones du Mexique, des Nahuas et des Mayas jusqu’aux Purépechas, aux Otomís et aux Zapotèques, la maison traditionnelle et la milpa constituent les deux pierres angulaires où se reproduit chaque jour la vie matérielle et spirituelle de la communauté. L’habitation paysanne ne se réduit pas à une construction utilitaire pour se protéger du climat, mais fonctionne comme un temple domestique aligné sur les quatre directions du ciel et sur le centre de l’univers. Les matériaux de construction sont prélevés directement dans l’environnement écologique de la région : troncs de pin ou de chêne dans les montagnes froides, cannes de bambou et palme dans les basses terres, et murs de pierre ou d’adobe dans les vallées tempérées. À l’intérieur de la demeure, l’espace est minutieusement organisé autour du foyer à trois pierres, ou tlecuil, qui symbolise le « nombril » ou centre du foyer, là où le maïs cuit avec de la chaux, le nixtamal, se transforme en la pâte vivifiante qui nourrit la famille. Près du foyer, l’autel familial abrite des images des saints patrons parées de fleurs, de cierges et d’offrandes de graines, point de contact entre les vivants et les ancêtres qui protègent la maison. Inséparable de la maison, la culture de la milpa est le système agricole millénaire qui a permis le développement des grandes civilisations d’Amérique. Dans les salles du musée, le cycle de la milpa se présente comme une séquence liturgique liée au calendrier cérémoniel et astronomique des peuples. Le cycle commence en février et en mars, avec les rites de bénédiction des semences et l’abattis-brûlis du terrain, où les paysans demandent la permission aux « Maîtres de la Forêt », les esprits de la nature, avant de semer avec le bâton planteur, ou coa. Avec l’arrivée des pluies en mai, on célèbre les cérémonies de demande d’eau sur les collines et dans les grottes sacrées. Lorsque les premiers épis de maïs tendre mûrissent à la fin de l’été, on célèbre la fête des premiers fruits, ou fête des épis tendres, où l’on consomme les atoles et les esquites sacrés dans une ambiance de fête communautaire. Enfin, en novembre, la récolte du maïs sec coïncide avec les festivités des Jours des Morts, Xantolo ou Kin Tajimoltic, où l’on offre l’abondance récoltée aux défunts qui ont aidé depuis le monde souterrain à la prospérité du champ de maïs. La reconstitution de ces habitations et de ces installations agricoles à l’Étage supérieur du Musée national d’anthropologie a été possible grâce à des projets de collecte d’ethnographie architecturale coordonnés par l’INAH. Des maîtres bâtisseurs et des informateurs autochtones de Puebla, d’Oaxaca, de Michoacán et du Yucatán se sont rendus à Mexico pour édifier de leurs propres mains, avec leurs techniques ancestrales, les maisons de bois, de clayonnage et de palme exposées dans les salles. De même, les outils agricoles d’origine, machettes, coas, charrues en bois, paniers de palme et greniers à maïs, ont été donnés ou acquis directement auprès des communautés paysannes. Cette exposition permanente du MNA enseigne aux visiteurs que la milpa autochtone n’est pas une méthode agricole obsolète, mais un modèle durable et sacré de souveraineté alimentaire qui a soutenu le Mexique pendant plus de quatre millénaires."
+    },
+    "retos_observacion": {
+      "hash": "e3eef4cd49995838",
+      "texto": [
+        "Foyer traditionnel à trois pierres (tlecuil) et comal en terre cuite au centre de l’espace domestique",
+        "Outils traditionnels de semis comme le bâton planteur ou coa",
+        "Structure de ligatures et de poutres en bois sans clous métalliques dans le toit de chaume"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e44c4a607ce6b80a",
+      "texto": {
+        "Peuple autochtone": "Multiethnique (Nahuas, Mayas, Zapotèques, Mixtèques, entre autres)",
+        "Région": "Mésoamérique et régions agricoles du Mexique",
+        "Technique/Matériau": "Architecture vernaculaire (torchis, paille, bois) et outillage domestique d’origine",
+        "Fonction": "Reconstitution de l’espace domestique et du cycle rituel agricole et festif du maïs"
+      }
+    },
+    "faq_mito": {
+      "hash": "ceec02f352d62798",
+      "texto": {
+        "pregunta": "Mythe : La milpa autochtone est une simple monoculture de maïs, identique aux plantations industrielles modernes.",
+        "respuesta": "Réalité : Selon les études de l’INAH, c’est un agroécosystème millénaire et biodivers (maïs, haricot, courge, piment) fondé sur la réciprocité communautaire et l’équilibre écologique."
+      }
+    }
+  }
+}

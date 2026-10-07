@@ -1,0 +1,61 @@
+{
+  "id": "mna_s19_terno_yucateco",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "43de0a74365199d8",
+      "texto": "Ensemble traditionnel de métisse du Yucatán"
+    },
+    "frase_gancho": {
+      "hash": "f73a0dff0851041c",
+      "texto": "Brocart de fleurs qui habille la métisse yucatèque."
+    },
+    "puente_narrativo": {
+      "hash": "4e6b1c0638ff1842",
+      "texto": "En avançant vers l’espace consacré à la péninsule du Yucatán, cette tenue de fête montre la fierté métisse maya. L’ensemble est porté par les danseuses des bals populaires lors des fêtes des vachers et des fêtes patronales de la région."
+    },
+    "guion_corto": {
+      "hash": "af29913f5d39e86d",
+      "texto": "Lorsque vous vous placez devant le mannequin qui porte cette radieuse tenue de gala dans la Salle Maya de l’étage supérieur du musée, la blancheur du lin et l’éclat des fleurs brodées éblouissent aussitôt vos sens. L’ensemble traditionnel de métisse du Yucatán représente le vêtement cérémoniel emblématique des femmes mayas et métisses de la péninsule du Yucatán. La tenue se compose de trois pièces superposées d’une élégante géométrie : le corsage, ou empiècement carré qui couvre les épaules, le huipil, la robe centrale de coupe droite qui tombe à mi-jambe, et le jupon, qui descend jusqu’aux chevilles. Sur leurs bords, les trois pièces exhibent de majestueuses broderies faites à la main en point de croix ou en point nuancé, que l’on appelle xokbil chuy, déployant une dense symphonie de roses, de tulipes et d’orchidées dans d’éblouissantes couleurs rouge, jaune, turquoise et violette, et achevées par de délicates dentelles blanches aux fuseaux. Porté lors des fêtes traditionnelles des vachers et des mariages métis, l’ensemble est le symbole de l’élégance, de la joie et du métissage péninsulaires. Le contempler au Musée national d’anthropologie, c’est admirer le sommet de l’art textile maya-yucatèque."
+    },
+    "guion_largo": {
+      "hash": "1d2d722f78e9d0b9",
+      "texto": "Dans la fertile péninsule du Yucatán, entre les anciennes cités cérémonielles de Chichén Itzá et d’Uxmal et les demeures historiques de Mérida, d’Izamal, de Ticul, de Motul, de Tizimín et de Valladolid, la culture maya contemporaine a fleuri en fusionnant ses techniques textiles millénaires avec les goûts esthétiques introduits pendant la période vice-royale espagnole. Dans la vie sociale de la péninsule, les fêtes patronales connues sous le nom de fêtes des vachers, à l’origine liées au marquage du bétail dans les haciendas productrices de sisal, sont devenues les plus grandes solennités communautaires, où la joyeuse musique des bals populaires et la danse libèrent la joie du peuple. Pour la femme yucatèque ou métisse, participer à ces fêtes exige de revêtir le costume de gala par excellence : l’ensemble traditionnel. Cette tenue n’est pas une mode passagère, mais un patrimoine transmis de mère en fille, qui résume la fierté de l’identité maya, le statut de la famille et la maîtrise artisanale de la broderie au métier et au tambour traditionnels de la région péninsulaire. Lorsque l’on analyse avec soin l’anatomie et les détails de confection de l’ensemble dans la vitrine du musée, l’observateur attentif admire la virtuose superposition des trois pièces qui le composent. La première pièce est le corsage, un ample empiècement carré muni d’une encolure centrale qui repose sur la poitrine et sur le dos ; la deuxième est le huipil proprement dit, une tunique de lin ou de coton blanc à la chute droite ; et la troisième est le jupon, une jupe ajustée à la taille qui dépasse sous le huipil. Les trois pièces sont décorées sur leurs ourlets de bordures brodées selon la technique traditionnelle du xokbil chuy, la broderie au fil compté en point de croix, ou à la machine à pédale, formant des parterres floraux tridimensionnels de roses, de tournesols et de petits oiseaux. Un trait d’un raffinement inégalé est la présence de dentelles fines ou de dentelles aux fuseaux sur les bordures inférieures des trois pièces, accompagnées de colliers de perles en filigrane d’or et de chapelets de corail rouge qui retombent avec grâce sur la poitrine de la métisse. L’histoire de l’entrée de ce emblématique ensemble yucatèque dans les collections du Musée national d’anthropologie s’inscrit dans les projets de collecte et de recherche ethnographique coordonnés dans les années 1960 par des anthropologues et des chercheurs de l’INAH dans des municipalités du Yucatán comme Mérida, Izamal, Ticul, Motul, Tizimín et Valladolid. Les spécialistes du musée ont acquis des ensembles de gala brodés à la main par de réputées maîtresses brodeuses traditionnelles pour l’inauguration des galeries ethnographiques en 1964. L’exposition permanente de cet ensemble dans la Salle Maya de l’étage supérieur du MNA permet aux visiteurs du monde entier d’admirer la richesse textile, la vivacité des couleurs et l’élégance durable des femmes de la péninsule du Yucatán."
+    },
+    "retos_observacion": {
+      "hash": "8fb43c8acbd17dcf",
+      "texto": [
+        "Structure géométrique de trois pièces superposées (corsage, huipil et jupon)",
+        "Bordures denses de broderie xokbil chuy aux motifs floraux multicolores",
+        "Dentelles blanches aux fuseaux qui achèvent les bords et le bas du jupon"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ab2892352d5389a3",
+      "texto": {
+        "Peuple": "maya yucatèque",
+        "Région": "Péninsule du Yucatán (Mérida, Izamal, Valladolid)",
+        "Technique/Matériau": "Lin et coton brodés en point de croix (xokbilchuy), dentelle aux fuseaux et filigrane",
+        "Fonction": "Tenue de gala pour la fête des vachers, les mariages et les fêtes patronales"
+      }
+    },
+    "faq_mito": {
+      "hash": "89c1d51b95e3ede4",
+      "texto": {
+        "pregunta": "Mythe : L’ensemble de métisse est une robe importée d’Espagne par les familles nobles au XIXe siècle.",
+        "respuesta": "Réalité : Selon les catalogues de l’INAH, il s’agit d’un vêtement régional métis issu d’un métissage à partir du huipil maya préhispanique."
+      }
+    }
+  }
+}

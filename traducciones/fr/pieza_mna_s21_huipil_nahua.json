@@ -1,0 +1,61 @@
+{
+  "id": "mna_s21_huipil_nahua",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "9282282e0e0c25bf",
+      "texto": "huipil nahua traditionnel de la Huasteca d’Hidalgo"
+    },
+    "frase_gancho": {
+      "hash": "4d2070ec3d9d3105",
+      "texto": "Toile de coton brodée où s’épanouit la fleur du champ de maïs."
+    },
+    "puente_narrativo": {
+      "hash": "0552fc644a07cdb5",
+      "texto": "Au fil des vallées et des montagnes nahuas, ce fin huipil de la Huasteca exprime l’identité quotidienne et la mémoire graphique des femmes macehualmej."
+    },
+    "guion_corto": {
+      "hash": "fed8eb25bfc53e09",
+      "texto": "Lorsque l’on se place devant la vitrine qui abrite ce coloré morceau de tissu, dans la Salle de la côte du Golfe et de Puebla, à l’Étage supérieur du musée, l’intensité chromatique des broderies et la fraîcheur de la toile de coton blanc captivent aussitôt les sens. Le huipil nahua traditionnel de la Huasteca d’Hidalgo représente l’une des plus belles expressions vestimentaires et symboliques des femmes macehualmej de l’est d’Hidalgo. Confectionné à la main sur une toile fine de coton, ce huipil à la coupe droite se distingue par ses broderies éclatantes au point de croix et au point de bâti, réalisées avec des fils aux couleurs vives, comme le rouge carmin, le rose mexicain, l’orange, le vert et le bleu turquoise. Le plastron, les manches et l’encolure carrée déploient un univers graphique dense, peuplé de fleurs des champs, d’oiseaux mystiques, de plantes grimpantes et de figures stylisées du maïs tendre. Dans la cosmogonie nahua de la Huasteca, porter ce huipil lors des mariages, des baptêmes et des fêtes de Xantolo est un acte de communication spirituelle avec la Terre-Mère et avec les ancêtres qui veillent sur les champs de maïs. Contempler ce vêtement au Musée national d’anthropologie, c’est admirer la joie textile et la dignité macehual d’Hidalgo."
+    },
+    "guion_largo": {
+      "hash": "95e5d46584ce29d6",
+      "texto": "Dans la géographie humide et exubérante de la Huasteca d’Hidalgo, dans des municipalités comme Huejutla de Reyes, Yahualica, Huautla, Jaltocán et Atlapexco, la population nahua ou macehual a préservé au fil des siècles l’une des identités culturelles et linguistiques les plus riches et au plus fort impact communautaire du Haut Plateau central et de la côte du Golfe. Dans la structure sociale nahua, la femme occupe une position centrale : gardienne du foyer, transmettrice de la langue maternelle nahuatl et créatrice du patrimoine vestimentaire qui habille la communauté lors des solennités agricoles et religieuses. Pour les tisserandes et les brodeuses macehualmej, l’élaboration du huipil est une tâche sacrée où s’entrelacent l’habileté manuelle, la connaissance de la botanique locale et la mémoire mythologique héritée de leurs grands-mères. Porter le huipil traditionnel n’est pas une simple habitude quotidienne pour se protéger du froid, mais un acte conscient d’affirmation culturelle et de respect devant les autels des saints et des esprits des bois. Lorsque l’on examine attentivement la composition et les finitions du huipil dans la vitrine du musée, l’observateur attentif admire la technique virtuose de la broderie à la main. Le vêtement se compose de deux ou trois pans rectangulaires de toile fine de coton blanc, unis par des coutures riches en fils multicolores. L’encolure carrée et les épaules sont saturées de bandes de broderies denses au point de croix et au point de bâti, où se détachent des motifs géométriques de la fleur d’œillet d’Inde, des vrilles de plantes grimpantes, des colombes des bois et des paons, qui symbolisent la fertilité de la nature et l’arrivée des pluies bienfaisantes sur les champs de maïs. Le plastron déploie en son centre la figure stylisée de l’étoile du matin ou du soleil levant, entourée de frises quadrangulaires qui signalent les quatre directions du cosmos et le centre cosmogonique du foyer. Les bords des manches et le bas du vêtement sont ornés de délicates dentelles tissées à la main au crochet ou en fine dentelle de bordure. L’histoire de la collecte et de l’intégration de ce vêtement emblématique aux collections ethnographiques du Musée national d’anthropologie s’inscrit dans les expéditions de recherche anthropologique menées au milieu du vingtième siècle par des ethnographes de l’INAH dans la Huasteca d’Hidalgo. Les spécialistes du musée ont documenté les différentes variantes du huipil nahua des hautes et des basses terres d’Hidalgo et ont acquis des pièces historiques directement auprès des maîtresses brodeuses des marchés communautaires de Huejutla et de Jaltocán, pour l’inauguration des galeries ethnographiques en 1964. L’exposition permanente de ce huipil à l’Étage supérieur du MNA permet à des milliers de visiteurs nationaux et internationaux de rendre hommage à l’élégance, à l’art textile et à l’inlassable force culturelle des femmes du peuple nahua de la Huasteca du Mexique."
+    },
+    "retos_observacion": {
+      "hash": "49b203ef5aa02f72",
+      "texto": [
+        "Encolure carrée aux broderies denses au point de croix de la fleur d’œillet d’Inde",
+        "Motifs symétriques de colombes des bois et de paons sur le plastron et les épaules",
+        "Finitions en dentelle au crochet faite à la main sur les bords des manches"
+      ]
+    },
+    "especificaciones": {
+      "hash": "23d6732009778991",
+      "texto": {
+        "Peuple": "Nahua (Macehual)",
+        "Région": "Huasteca d’Hidalgo (Huejutla de Reyes, Atlapexco)",
+        "Technique/Matériau": "Toile de coton brodée à la main au point de croix avec du fil multicolore",
+        "Fonction": "Vêtement quotidien de gala, célébrations agricoles et fête de Xantolo"
+      }
+    },
+    "faq_mito": {
+      "hash": "33b3569db53d2289",
+      "texto": {
+        "pregunta": "Mythe : Le huipil nahua de la Huasteca est un vêtement industriel fabriqué à la machine, introduit par des commerçants au XXe siècle.",
+        "respuesta": "Réalité : Selon les catalogues de l’INAH, il s’agit d’un vêtement cérémoniel traditionnel macehual, confectionné et brodé à la main avec une symbolique agricole."
+      }
+    }
+  }
+}

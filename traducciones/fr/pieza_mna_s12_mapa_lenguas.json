@@ -1,0 +1,62 @@
+{
+  "id": "mna_s12_mapa_lenguas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece",
+      "el glosario pide \"Sous-direction d'ethnographie de l'INAH\" para \"Subdirección de Etnografía del INAH\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "97f3f1598e3ede65",
+      "texto": "Grand Mural et Carte ethnolinguistique du Mexique"
+    },
+    "frase_gancho": {
+      "hash": "dee1112ae2e5f4ca",
+      "texto": "Tapisserie de langues vivantes qui nomment la terre mexicaine."
+    },
+    "puente_narrativo": {
+      "hash": "148dca5566de6879",
+      "texto": "En entrant dans l’Étage supérieur, cette installation cartographique situe géographiquement l’extraordinaire diversité linguistique et culturelle des peuples autochtones contemporains."
+    },
+    "guion_corto": {
+      "hash": "5c9311d43dcd7d5d",
+      "texto": "En se plaçant à l’entrée de l’Étage supérieur du Musée national d’anthropologie, la taille monumentale de la Carte ethnolinguistique du Mexique submerge aussitôt les sens. Sous le regard du visiteur se déploie une mosaïque géographique où soixante-huit groupes linguistiques originaires s’entrelacent comme les veines d’un arbre ancestral sur le territoire national. La carte ne montre pas de froides frontières politiques, mais la répartition vivante de plus de sept millions de locuteurs de langues autochtones qui préservent la mémoire millénaire de leurs ancêtres. Sur le mur opposé, les grandes fresques ethnographiques commandées pendant la construction du bâtiment en 1964 à des artistes comme Luis Covarrubias, Antonio Estrada et Nicolás Moreno montrent le paysage, les fêtes cérémonielles et la dignité quotidienne des peuples natifs. Les teintes éclatantes qui marquent la Sierra Madre occidentale, les vallées de Oaxaca, la forêt tropicale maya et les côtes du golfe du Mexique révèlent que la diversité biologique du Mexique est inséparable de son patrimoine linguistique. Contempler ce portique ethnographique, c’est comprendre que les voix originaires ne sont pas des vestiges figés d’un passé lointain, mais l’énergie culturelle qui définit l’identité du Mexique contemporain au vingt et unième siècle."
+    },
+    "guion_largo": {
+      "hash": "f89a4c8ce66afe87",
+      "texto": "En parcourant l’Étage supérieur du Musée national d’anthropologie, conçu en 1964 par l’équipe muséographique de l’architecte Pedro Ramírez Vázquez et d’anthropologues comme Guillermo Bonfil Batalla et Alfonso González Villarruel, l’espace ethnographique s’impose comme le complément indispensable des salles d’archéologie. Alors que le rez-de-chaussée abrite les témoignages matériels des grands États préhispaniques qui se sont effondrés, l’Étage supérieur est entièrement consacré aux communautés autochtones vivantes qui ont résisté à cinq siècles de domination coloniale et de transformations historiques, en préservant leur langue, leur cosmovision et leurs institutions communautaires. Le point de départ conceptuel est la Grande Carte ethnolinguistique du Mexique, une installation cartographique de grand format qui traduit en codes chromatiques la richesse linguistique du pays. Les familles linguistiques comme la yuto-aztèque, la maya, l’oto-mangue, la totonaque-tépéhua, la mixe-zoque, et les langues isolées comme le Seri et le Purépecha, ne représentent pas de simples variantes dialectales, mais des structures de pensée millénaires capables de nommer la flore, la faune, les vents et la spiritualité du territoire mésoaméricain et aridoaméricain avec une précision scientifique et intrinsèque irremplaçable. En explorant en détail les panneaux muraux qui encadrent la galerie, l’observateur admire une œuvre de synthèse plastique et anthropologique commandée à de grands maîtres de la peinture mexicaine du vingtième siècle. Des peintres comme Luis Covarrubias ont représenté avec une délicate précision les régions géographiques de Oaxaca, du bassin maya et de la Sierra de Puebla, en réunissant dans un seul horizon panoramique les cimes couvertes de pins, les champs de maïs en terrasses, les marchés dominicaux et les sanctuaires sacrés où se célèbrent les rites de demande de pluie. Un détail visuel d’une profonde portée ethnographique tient à la manière dont les artistes ont intégré des figures humaines vêtues de leur tenue traditionnelle, avec des huipiles, des quechquémitls, des tuniques de laine et des chapeaux de paille, participant aux travaux agricoles et aux danses cérémonielles comme la danse des Quetzals ou la danse du Tigre. La carte et les fresques n’enferment pas les groupes autochtones dans un exotisme rural, mais documentent les réseaux complexes de la migration contemporaine, le travail aux champs et l’organisation civico-religieuse à travers le système des charges et la mayordomie. L’histoire de la constitution de ce fonds muséographique remonte aux travaux de terrain entamés en 1962 par l’équipe de chercheurs de la Sous-direction d’ethnographie de l’INAH. Pendant près de trois ans, anthropologues et photographes ont parcouru les villages les plus reculés de la Sierra Gorda, du Gran Nayar, de la Huasteca, de la Montagne de Guerrero et des Hautes Terres de Chiapas pour recueillir la tradition orale, cartographier les variantes dialectales et commander aux maîtres artisans eux-mêmes la fabrication des objets, des vêtements et des maquettes exposés au musée. La Grande Carte ethnolinguistique a été actualisée en continu à partir des recensements de l’INALI et de l’INEGI afin de refléter la dynamique démographique actuelle, où plus de sept millions trois cent mille Mexicains parlent une langue originaire. Cette installation initiale réaffirme la mission essentielle du Musée national d’anthropologie : célébrer les nations autochtones comme les piliers vivants de la souveraineté culturelle et de l’identité du Mexique."
+    },
+    "retos_observacion": {
+      "hash": "dc07d0dd621db3cd",
+      "texto": [
+        "Délimitation des familles linguistiques yuto-aztèque et oto-mangue sur la carte",
+        "Détails de la tenue traditionnelle représentés dans les fresques régionales",
+        "Indicateurs de la dynamique démographique et des locuteurs dans la Sierra et les vallées"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3849ad24072ad3de",
+      "texto": {
+        "Peuple autochtone": "Plurinational (68 groupes ethnolinguistiques)",
+        "Région": "Nationale (territoire de la République mexicaine)",
+        "Technique/Matériau": "Impression numérique haute résolution, bois, éclairage LED et audio",
+        "Fonction": "Introduction pédagogique à la diversité ethnolinguistique vivante du Mexique"
+      }
+    },
+    "faq_mito": {
+      "hash": "44aef1db4cebb0d7",
+      "texto": {
+        "pregunta": "Mythe : La Carte ethnolinguistique montre des langues mortes du passé qui ne sont plus parlées dans le Mexique contemporain.",
+        "respuesta": "Réalité : D’après les données de l’INAH, la carte recense 68 groupes linguistiques vivants, parlés par plus de 7 millions de personnes dans le pays."
+      }
+    }
+  }
+}

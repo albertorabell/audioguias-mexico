@@ -1,0 +1,62 @@
+{
+  "id": "mna_s12_acervo_textil",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Serpent d'eau\" para \"Serpiente de Agua\" y no aparece",
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "91ae1238e48b4489",
+      "texto": "Collection textile communautaire (huipils et métiers à tisser traditionnels)"
+    },
+    "frase_gancho": {
+      "hash": "ac99ff0bca2e6c07",
+      "texto": "Des toiles de métier à tisser où la femme tisse la mémoire cosmique."
+    },
+    "puente_narrativo": {
+      "hash": "954575fbec933368",
+      "texto": "Au terme du parcours dans la première salle ethnographique, cette collection de vêtements traditionnels célèbre l’art textile féminin et ses symboles ancestraux."
+    },
+    "guion_corto": {
+      "hash": "8d49e0ff98b80ab7",
+      "texto": "Lorsque vous vous arrêtez devant les vitrines qui abritent l’éblouissante collection de textiles autochtones dans les salles de l’Étage supérieur, l’explosion de couleurs et la délicatesse des trames captivent aussitôt le regard. La Collection textile communautaire réunit un ensemble vivant de huipils, de quechquémitls, de jupes enroulées, de ceintures et de sacs en bandoulière, réalisés par des tisserandes artisanes de diverses régions du pays, comme Oaxaca, le Chiapas, Guerrero, Michoacán et la sierra de Puebla. Confectionnés surtout sur l’antique métier à tisser à sangle ou à pédales, ces vêtements emploient des fibres naturelles de coton blanc, de coton coyuchi brun, de laine de mouton et d’ixtle d’agave, teintes avec des colorants organiques de cochenille, d’indigo bleu et de murex pourpre. Bien plus que de simples robes ou des parures profanes, les huipils sont de véritables codex de tissu dans lesquels les artisanes impriment, par des broderies et des brochages, la structure de l’univers : les quatre directions célestes, le Serpent d’eau, les fleurs de la colline et les ancêtres. Contempler ces œuvres textiles au Musée national d’anthropologie, c’est admirer la science, la patience et le statut spirituel de la femme autochtone dans le tissage de la vie."
+    },
+    "guion_largo": {
+      "hash": "c9baa5d241c6dbda",
+      "texto": "Dans la tradition artisanale et idéologique des peuples autochtones du Mexique, la fabrication textile constitue l’une des expressions créatives les plus complexes, les plus belles et les plus chargées de symbolisme de la culture native. Héritières directes des techniques préhispaniques représentées sur des stèles et des figurines d’argile, où la déesse Ixchel veillait sur le tissage et la fécondité, les femmes autochtones continuent de transformer le fil en un langage graphique singulier qui transmet l’identité de leur peuple. L’instrument essentiel de ce travail est le métier à tisser à sangle, un métier portatif composé de baguettes de bois que la tisserande attache à une extrémité à un arbre ou à un poteau, et à l’autre à une ceinture de cuir appuyée sur le bas de son ventre. En tendant le métier avec le poids de son propre corps, l’artisane entrecroise la chaîne et la trame à l’aide de l’os ou de la navette, composant patiemment les motifs du tissu, qui peuvent exiger des mois entiers de travail continu. La Collection textile conservée au Musée national d’anthropologie réunit des pièces emblématiques d’une virtuosité technique remarquable. Parmi elles se distinguent les huipils de gaze de haute montagne de Cuetzalan, dans l’État de Puebla, les brochages tridimensionnels hauts en couleur des communautés tzotziles et tzeltales de Zinacantán et de Larráinzar, au Chiapas, les lourds huipils de mariage de Jalapa de Díaz, à Oaxaca, ainsi que les ceintures et les jupes enroulées complexes, teintes à l’indigo, des femmes purépechas du Michoacán et amuzgos de Guerrero. L’iconographie tissée autour du cou et sur la poitrine du vêtement n’a rien d’aléatoire : l’ouverture carrée ou circulaire du col du huipil représente le soleil ou le portail par lequel la tête de la femme émerge pour se placer au centre du cosmos. Les brochages de losanges enchaînés symbolisent le monde et les fleurs de la colline, tandis que les figures d’oiseaux, de crapauds, de jaguars et de papillons évoquent les esprits gardiens de la nature et de l’eau. La constitution de cette collection textile inestimable a débuté au milieu du vingtième siècle grâce aux campagnes d’acquisition ethnographique dirigées par des pionniers de l’INAH et à des dons de chercheuses et d’anthropologues éminentes. Beaucoup de pièces ont été acquises directement auprès des maîtresses tisserandes sur les marchés communautaires de Tlaxiaco, de San Cristóbal de las Casas et de Cuetzalan, en consignant le nom de la créatrice, le type de métier, les teintures végétales et la signification mythologique des brochages. Cette collection est exposée en permanence dans les salles ethnographiques de l’Étage supérieur du musée, et demeure une source inépuisable d’inspiration esthétique qui démontre que le fil textile est le document historique dans lequel ont été brodées la résistance et la dignité de la femme autochtone du Mexique."
+    },
+    "retos_observacion": {
+      "hash": "f1d3aa525570ea3a",
+      "texto": [
+        "Ouverture du col du huipil avec des broderies en losanges qui symbolisent les quatre directions célestes",
+        "Exemple de métier à tisser à sangle attaché à un support, avec des fils de coton natif coyuchi",
+        "Brochages tridimensionnels de flore et de faune teints à la cochenille et à l’indigo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d76cb21aa1ad8911",
+      "texto": {
+        "Peuple autochtone": "Amuzgos, Tzotziles, Nahuas, Chinantèques, Triquis, entre autres",
+        "Région": "Oaxaca, Chiapas, Puebla, Guerrero et Yucatán",
+        "Technique/Matériau": "Coton, laine, soie, teintures naturelles ; tissage sur métier à sangle et brochage",
+        "Fonction": "Vêtement cérémoniel et quotidien à forte valeur identitaire"
+      }
+    },
+    "faq_mito": {
+      "hash": "27c9d23d43654cb1",
+      "texto": {
+        "pregunta": "Mythe : Les huipils et les broderies autochtones sont des modes commerciales modernes copiées sur des catalogues de robes européennes.",
+        "respuesta": "Réalité : Selon les catalogues de l’INAH, ce sont des vêtements sacrés préhispaniques, réalisés sur métier à tisser à sangle, qui représentent la cosmovision et la géographie de la communauté."
+      }
+    }
+  }
+}

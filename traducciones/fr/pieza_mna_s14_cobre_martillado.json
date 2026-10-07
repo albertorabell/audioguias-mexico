@@ -1,0 +1,61 @@
+{
+  "id": "mna_s14_cobre_martillado",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "aac6b7ceee739ddc",
+      "texto": "Grand plateau et chaudrons de cuivre martelé"
+    },
+    "frase_gancho": {
+      "hash": "6754279cbe6dbe1f",
+      "texto": "Un métal rougeâtre forgé au feu par la force du marteau."
+    },
+    "puente_narrativo": {
+      "hash": "249dafd1a98e0576",
+      "texto": "En avançant vers l’espace consacré aux métiers communautaires, cet ensemble de cuivre et de laque présente les traditions artisanales de Santa Clara et d’Uruapan."
+    },
+    "guion_corto": {
+      "hash": "211b2982344f71ca",
+      "texto": "Lorsque l’on se place devant la vitrine qui abrite ces récipients de cuivre monumentaux dans la Salle Purépecha, l’éclat chaleureux du métal et la texture rythmée des traces de coups saisissent aussitôt les sens. Venus de la célèbre communauté artisanale de Santa Clara del Cobre, dans le Michoacán, le grand plateau et les chaudrons de cuivre martelé représentent le sommet de la tradition métallurgique héritée de l’empire tarasque du Postclassique, entre 1350 et 1521 apr. J.-C. Réalisées selon la technique ancestrale de la fonte à ciel ouvert et du martelage continu, à froid et à chaud, ces pièces de format colossal sont forgées à partir d’un seul bloc, ou lingot, de cuivre pur, sans soudures ni assemblages mécaniques. Des équipes de quatre ou cinq artisans frappent en cadence le métal chauffé avec de lourds maillets sur l’enclume, jusqu’à étirer la feuille en bols concaves, en plateaux ronds et en chaudrons profonds. La surface extérieure arbore des milliers de petites facettes brillantes, produites par le marteau, qui captent la lumière comme des écailles de feu. Contempler cette orfèvrerie à la fois utilitaire et cérémonielle au Musée national d’anthropologie, c’est admirer le triomphe de la force humaine sur le métal racheté."
+    },
+    "guion_largo": {
+      "hash": "e2b0d2cf40a9a6b5",
+      "texto": "Au cœur géographique du Michoacán, entouré de forêts de pins et de ravins profonds, le village de Santa Clara del Cobre maintient vivante depuis plus de cinq siècles la tradition métallurgique du cuivre martelé la plus raffinée des Amériques. Avant l’arrivée des Espagnols, les orfèvres de l’empire Purépecha maîtrisaient déjà l’extraction des minerais de cuivre dans les mines du fleuve Balsas, ainsi que la fabrication d’outils, de haches-monnaie, de pectoraux, de pinces à épiler et de grelots somptuaires. Après la conquête espagnole, au seizième siècle, l’évêque Vasco de Quiroga réorganisa la production artisanale en confiant la spécialité du travail du cuivre à la communauté de Santa Clara, intégrant la forge et l’enclume européennes aux techniques autochtones de fonte et de martelage en équipe. Pour les artisans de Santa Clara, le cuivre n’est pas une matière rigide et inerte, mais une matière vivante, dotée de mémoire, de chaleur et de malléabilité : plier le métal par le feu de pin et par la force synchronisée du maillet est un acte sacré qui transforme le minerai brut en art pur. En examinant attentivement la facture et les volumes du grand plateau et des chaudrons exposés au musée, le visiteur admire la précision mathématique du processus de forge traditionnel. Le grand plateau est une assiette creuse, ou un plateau circulaire, à paroi basse et à bord évasé, de presque un mètre de diamètre, dont la surface lisse a été obtenue par un polissage à bras avec du sable et des acides naturels. À côté, les chaudrons, ou marmites profondes, présentent une panse bombée dotée d’anses rivetées en cuivre épais, conçues pour soutenir de lourdes charges lors de la cuisson communautaire des aliments ou de la préparation des douceurs traditionnelles. L’aspect visuel le plus fascinant de ces pièces tient au « pointillé » ou « martelage » uniforme qui couvre le corps du récipient : chaque facette circulaire est la trace indélébile d’un coup de marteau porté avec une force constante, créant une texture géométrique qui donne de la rigidité structurelle à la paroi de cuivre sans en affaiblir l’épaisseur. L’histoire de l’acquisition et de l’intégration de ces pièces monumentales de cuivre martelé aux collections du Musée national d’anthropologie s’inscrit dans les campagnes de promotion de l’artisanat et de sauvegarde ethnographique menées par l’INAH au milieu du vingtième siècle. Les anthropologues du musée visitèrent les ateliers familiaux de Santa Clara del Cobre et commandèrent directement aux grands maîtres artisans la réalisation de plateaux et de chaudrons d’exposition de format monumental. Les pièces furent transportées à Mexico pour enrichir la Salle Purépecha de l’étage supérieur du MNA. Aujourd’hui, cette collection rend hommage à la maîtrise des artisans du cuivre du Michoacán, dont la technique du martelage à la main a été déclarée patrimoine culturel immatériel de l’humanité."
+    },
+    "retos_observacion": {
+      "hash": "08ee346f22d8dfaa",
+      "texto": [
+        "Le facettage rythmé de milliers de coups de marteau imprimés sur la feuille de cuivre",
+        "L’absence totale de jointures ou de soudures sur le corps globulaire des chaudrons",
+        "De grosses anses de cuivre forgé fixées au bord par des rivets de forge"
+      ]
+    },
+    "especificaciones": {
+      "hash": "489bfa4a7c8c408f",
+      "texto": {
+        "Peuple autochtone": "Purépecha (P'urhépecha)",
+        "Région": "Santa Clara del Cobre, Uruapan et Pátzcuaro, Michoacán",
+        "Technique/Matériau": "Cuivre martelé au feu et laquage sur bois (graisse d’axin, huile de chia et pigments)",
+        "Fonction": "Ustensiles domestiques et industriels, récipients somptuaires et plateaux cérémoniels"
+      }
+    },
+    "faq_mito": {
+      "hash": "e337dc5e594df2e8",
+      "texto": {
+        "pregunta": "Mythe : Les chaudrons et les plateaux de cuivre de Santa Clara sont fabriqués en pliant des feuilles industrielles achetées dans des usines modernes.",
+        "respuesta": "Réalité : D’après les expertises de l’INAH, ce sont des pièces artisanales forgées à la main, par fonte de lingots et martelage continu au feu."
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "mna_s15_oratorio_familiar",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Musée national d'anthropologie\" para \"Museo Nacional de Antropología\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "e3fd782d0de2dacc",
+      "texto": "L’Oratoire et l’autel familial otomí"
+    },
+    "frase_gancho": {
+      "hash": "4bf929e79a68aded",
+      "texto": "Sanctuaire de torchis où les saints veillent sur le champ de maïs."
+    },
+    "puente_narrativo": {
+      "hash": "faa6cc603517add7",
+      "texto": "Situé au cœur de l’espace domestique Hñähñu, cet autel associe la dévotion spirituelle et les liens de parenté. Les cierges, le copal et les croix habillées assurent la protection de la communauté et l’abondance."
+    },
+    "guion_corto": {
+      "hash": "8017c90145585f5d",
+      "texto": "Lorsque vous pénétrez dans la reconstitution de l’espace sacré qui domine la Salle Otomí, à l’Étage supérieur du musée, l’odeur de la cire d’abeille, de la fleur de cempasúchil et de l’encensoir de copal saisit aussitôt vos sens. L’Oratoire et l’autel familial otomí est une reconstitution à l’échelle réelle de l’espace liturgique domestique caractéristique des communautés Hñähñu de la vallée du Mezquital et des montagnes de Querétaro. La structure est bâtie avec des murs de torchis ou d’adobe et un toit de chaume à deux pans, et abrite à l’intérieur un monumental autel à gradins entouré d’arcs de triomphe en palme tressée et de fleurs de souci. Sur les marches de l’autel sont disposées des dizaines d’images de saints patrons, des croix de bois habillées de linges brodés, des cierges sculptés, des brûle-copal en argile et des monticules de graines de maïs de couleurs. Dans la cosmovision otomí, l’oratoire n’est pas une simple pièce de prière privée, mais le cœur spirituel du clan familial, où les vivants se réunissent pour dialoguer avec les ancêtres et demander une protection pour les récoltes. Contempler cette installation au Musée national d’anthropologie, c’est assister à la profonde dévotion du Mexique autochtone."
+    },
+    "guion_largo": {
+      "hash": "25f96ee94aa33c7a",
+      "texto": "Dans les communautés otomís du Haut Plateau central mexicain, la religion domestique et le culte des ancêtres s’organisent autour d’une institution architecturale et rituelle communautaire unique : l’oratoire, ou « mó’ñi ». À la différence de l’église paroissiale du village, où l’on célèbre les sacrements catholiques officiels, l’oratoire familial est un sanctuaire propre, géré directement par les anciens, ou « majordomes », de la lignée. Dans la pensée religieuse Hñähñu, les ancêtres qui ont fondé le foyer et cultivé la terre n’ont pas disparu, mais continuent d’habiter de façon invisible l’environnement du foyer et les sommets des collines sacrées. L’oratoire fonctionne comme la porte de communication mystique entre le monde terrestre et le plan divin : à l’intérieur, la famille dépose les images des saints protecteurs auprès des reliques des grands-parents défunts. Lors des moments clés du cycle agricole, comme la bénédiction des semences en février, la demande de pluie en mai et la récolte du maïs en automne, la communauté tout entière se réunit dans l’oratoire pour chanter des louanges en langue otomí, allumer des cierges cérémoniels et partager des banquets rituels. En explorant avec attention la composition de l’autel dans la vitrine du musée, le visiteur admire l’écrasante saturation de symboles sacrés organisés en niveaux hiérarchiques. Le fond de l’autel est encadré par des arcs de roseau tressé couverts de feuillage frais de dasylirion et de bouquets de fleurs de cempasúchil jaunes. Sur la marche supérieure resplendit la Sainte Croix habillée d’un quechquémitl miniature, et une niche miraculeuse en bois sculpté. Sur les gradins inférieurs sont répartis des encensoirs en terre cuite qui dégagent la fumée de la résine de copal, des bougies votives en cire d’abeille, des calebasses remplies d’eau de source et des marmites de mole, de tamales et d’atole de pâte de maïs. Un détail d’une valeur ethnographique singulière : les « petits bouquets » de papier découpé multicolores et les croix de palme bénite placées aux angles de la pièce pour chasser les mauvaises énergies et attirer l’abondance sur les champs cultivés. L’histoire du relevé et de l’installation de cette réplique d’oratoire otomí au Musée national d’anthropologie s’inscrit dans les projets de sauvegarde ethnographique coordonnés en 1964 par l’équipe d’anthropologues de l’INAH. Les chercheurs du musée ont parcouru les villages otomís de Tolimán, dans le Querétaro, et de Cardonal, dans l’Hidalgo, en documentant l’architecture des oratoires familiaux et en acquérant, avec l’autorisation des majordomes, les éléments cérémoniels qui composent l’installation. Des maîtres artisans otomís se sont rendus à Mexico pour élever les murs d’adobe et monter l’autel avec des fleurs fraîches et de la cire traditionnelle. Cette installation permanente permet aux visiteurs de comprendre la richesse du syncrétisme religieux et la force communautaire des peuples otomiens du Mexique contemporain."
+    },
+    "retos_observacion": {
+      "hash": "b6cc3eeff465c263",
+      "texto": [
+        "Structure d’arcs de triomphe en roseau et fleurs de cempasúchil dans le cadre de l’autel",
+        "Croix de bois principale habillée d’un quechquémitl brodé miniature",
+        "Collection d’encensoirs en terre cuite et d’épis de maïs de couleurs sur les gradins inférieurs"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7b3ad9ec90adc13a",
+      "texto": {
+        "Peuple": "Otomí (Hñähñu)",
+        "Région": "Vallée du Mezquital (Hidalgo) et semi-désert de Querétaro",
+        "Technique/Matériau": "Architecture d’adobe et de bois, cierges sculptés, argile, papier découpé et textiles",
+        "Fonction": "Espace sacré domestique pour le culte des âmes des défunts et les rites agricoles"
+      }
+    },
+    "faq_mito": {
+      "hash": "087b9a77c590adab",
+      "texto": {
+        "pregunta": "Mythe : L’oratoire otomí est une chapelle catholique officielle construite par des ordres monastiques espagnols au XVIe siècle.",
+        "respuesta": "Réalité : Selon les expertises de l’INAH, il s’agit d’une institution religieuse familiale autonome, consacrée au culte des ancêtres et à la fertilité."
+      }
+    }
+  }
+}
