@@ -157,9 +157,9 @@ El cobro necesita un **servidor pequeño** (en Cloudflare, gratis para tu volume
 ### Paso C2 — Crea el producto y el precio
 
 1. **Catálogo de productos → Agregar producto.**
-2. Nombre: `Pase MNA 72 horas`. Pago **único** (no recurrente). Precio: **79 MXN**.
+2. Nombre: `Pase MNA 72 horas`. Pago **único** (no recurrente). Precio: **99 MXN**.
 3. Guarda y copia el **ID del precio** (empieza con `price_`).
-4. *(Opcional, para quien use la app en inglés)* Crea otro precio en **USD 4.99** para el mismo producto y copia su `price_`. Si no lo creas, el inglés también cobra en pesos.
+4. *(Opcional, para quien use la app en inglés)* Crea otro precio en **USD 5.99** para el mismo producto y copia su `price_`. Si no lo creas, el inglés también cobra en pesos.
 
 ### Paso C3 — Clave secreta de Stripe
 
@@ -230,7 +230,7 @@ Con Stripe en **modo de prueba**:
 3. **Pase por dispositivo:** si alguien borra los datos del navegador o usa modo privado, pierde el pase en ese aparato. Puede recuperarlo con su **código** (hasta 2 dispositivos).
 4. **Cloudflare KV** puede tardar hasta un minuto en reflejar cambios en otras regiones del mundo. Rara vez se nota.
 5. El pase empieza a contar **cuando se activa por primera vez** (no cuando se paga), dura **72 horas**. Quien pagó tiene hasta **30 días** para activarlo por primera vez.
-6. El precio que se **cobra** es el de Stripe (Paso C2); la ventana del pase lo lee de ahí. Pero la pantalla de inicio dice «solo $79 por sitio» y eso sale de un texto fijo: si cambias el precio en Stripe, avísame para actualizar también `public/data/sites.json` y `public/data/mna/site.json` (campos `pass_price_mxn` y `pass_price_usd`).
+6. El precio que se **cobra** es el de Stripe (Paso C2); la ventana del pase lo lee de ahí. Pero la pantalla de inicio dice «solo $99 por sitio» y eso sale de un texto fijo: si cambias el precio en Stripe, avísame para actualizar también `public/data/sites.json` y `public/data/mna/site.json` (campos `pass_price_mxn` y `pass_price_usd`).
 7. Textos como «Top 10 Museos del Mundo» o «Único Castillo Real en América» (en `public/data/sites.json`) son tuyos y no los verifiqué; confirma que se puedan afirmar antes de promocionar esos sitios.
 
 ---
