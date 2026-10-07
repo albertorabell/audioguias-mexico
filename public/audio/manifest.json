@@ -2,6 +2,24 @@
   "version": 1,
   "items": {
     "es": {
+      "mna_s06_coatlicue": {
+        "corto": {
+          "hash": "74095c4a3830194a",
+          "file": "es/mna_s06_coatlicue_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 265248,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "87030b7c3c476ec1",
+          "file": "es/mna_s06_coatlicue_largo.mp3",
+          "remote": true,
+          "seconds": 102,
+          "bytes": 609696,
+          "provider": "azure"
+        }
+      },
       "mna_s06_piedra_sol": {
         "corto": {
           "hash": "2b38731f5bbfb5c6",
@@ -17,6 +35,16 @@
           "remote": false,
           "seconds": 109,
           "bytes": 656208,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_tizoc": {
+        "corto": {
+          "hash": "f49c52847990c706",
+          "file": "es/mna_s06_tizoc_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 278928,
           "provider": "azure"
         }
       },
