@@ -60,7 +60,7 @@ export const Home: React.FC<HomeProps> = ({
 
   // Find active site for Hero CTA (MNA)
   const activeSite = sites.find((s) => s.status === 'active') || sites[0];
-  const passPrice = (activeSite as any)?.pass_price_mxn || 79;
+  const passPrice = (activeSite as any)?.pass_price_mxn || 99;
   const sitesCount = sites.length || 5;
 
   return (

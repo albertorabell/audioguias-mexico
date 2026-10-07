@@ -1029,7 +1029,7 @@ export default function App() {
                 <PieceView
                   piece={currentPiece}
                   hasPass={hasPass}
-                  passPriceMxn={manifest ? manifest.pass_price_mxn : 79}
+                  passPriceMxn={manifest ? manifest.pass_price_mxn : 99}
                   onOpenPaywall={() => setIsPaywallModalOpen(true)}
                   currentStopIndex={activeRoute ? currentStopIndex : undefined}
                   totalStops={activeRoute ? activeRoute.stops.length : undefined}
