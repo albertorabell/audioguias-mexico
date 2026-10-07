@@ -154,6 +154,7 @@ function buildFrenchSystemPrompt() {
 You receive a JSON object. Translate every value and return ONE JSON object with exactly the same keys, in the same order, and nothing else: no commentary, no code fences.
 
 Keep the shapes identical:
+- Keep the JSON keys of the object exactly as they are: never translate or rename them (for example "titulo" stays "titulo"). Only the values are translated, and the labels inside "especificaciones" as described below.
 - A string stays a string.
 - An array stays an array with the same number of items, in the same order.
 - "especificaciones" is an object: keep the same number of entries, in the same order. Translate both the labels (keys) and the values. Use these fixed labels: Cultura = Culture; Periodo = Période; Material = Matériau; Procedencia = Provenance; Medidas = Dimensions; Región = Région; Técnica/Material = Technique/Matériau; Función = Fonction; Pueblo = Peuple; Pueblo Indígena = Peuple autochtone; Autor/Cultura = Auteur/Culture; Año = Année; Ubicación = Emplacement; Antigüedad = Âge. Translate any other label plainly.
@@ -188,6 +189,7 @@ export function buildSystemPrompt(lang) {
 You receive a JSON object. Translate every value and return ONE JSON object with exactly the same keys, in the same order, and nothing else: no commentary, no code fences.
 
 Keep the shapes identical:
+- Keep the JSON keys of the object exactly as they are: never translate or rename them (for example "titulo" stays "titulo"). Only the values are translated, and the labels inside "especificaciones" as described below.
 - A string stays a string.
 - An array stays an array with the same number of items, in the same order.
 - "especificaciones" is an object: keep the same number of entries, in the same order. Translate both the labels (keys) and the values. Use these fixed labels: Cultura = Culture; Periodo = Period; Material = Material; Procedencia = Origin; Medidas = Dimensions; Región = Region; Técnica/Material = Technique/Material; Función = Function; Pueblo = People; Pueblo Indígena = Indigenous People; Autor/Cultura = Author/Culture; Año = Year; Ubicación = Location; Antigüedad = Age. Translate any other label plainly.
@@ -224,13 +226,46 @@ ${JSON.stringify(fields, null, 2)}
 Return only the JSON object.`;
 }
 
-/** Saca el objeto JSON de la respuesta aunque venga con ``` o texto alrededor. */
+/** Saca el PRIMER objeto JSON completo de la respuesta, aunque venga con ``` o con texto (incluso con llaves) antes o después. */
 export function parseJsonReply(text) {
   const s = String(text || '');
   const a = s.indexOf('{');
+  if (a < 0) throw new Error('la respuesta no trae un objeto JSON');
+  let depth = 0;
+  let inStr = false;
+  let esc = false;
+  for (let i = a; i < s.length; i++) {
+    const c = s[i];
+    if (inStr) {
+      if (esc) esc = false;
+      else if (c === '\\') esc = true;
+      else if (c === '"') inStr = false;
+    } else if (c === '"') inStr = true;
+    else if (c === '{') depth++;
+    else if (c === '}' && --depth === 0) return JSON.parse(s.slice(a, i + 1));
+  }
   const b = s.lastIndexOf('}');
-  if (a < 0 || b <= a) throw new Error('la respuesta no trae un objeto JSON');
+  if (b <= a) throw new Error('la respuesta no trae un objeto JSON');
   return JSON.parse(s.slice(a, b + 1));
+}
+
+/**
+ * A veces el traductor "traduce" el nombre de un campo (titulo → titre). Si hay el mismo número de campos y los que sobran
+ * y los que faltan son los mismos en cantidad, se renombran por posición (la respuesta debe llevar los campos en el mismo orden).
+ */
+export function alignKeys(source, out) {
+  if (!out || typeof out !== 'object' || Array.isArray(out)) return out;
+  const want = Object.keys(source);
+  const got = Object.keys(out);
+  if (want.length !== got.length) return out;
+  const unknown = got.filter((k) => !want.includes(k));
+  const missing = want.filter((k) => !got.includes(k));
+  if (!unknown.length || unknown.length !== missing.length) return out;
+  const fixed = {};
+  got.forEach((k, i) => {
+    fixed[want.includes(k) ? k : want[i]] = out[k];
+  });
+  return Object.keys(fixed).length === want.length && want.every((k) => k in fixed) ? fixed : out;
 }
 
 // ---------------------------------------------------------------------------
