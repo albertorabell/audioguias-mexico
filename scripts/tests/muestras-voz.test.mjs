@@ -152,3 +152,17 @@ test('--pronunciar sin variantes inventa tres para palabras con x', () => {
   assert.equal(defaultVariants('Xochipilli').at(-1).value, 'ʃotʃipiʝi');
   assert.equal(parseArgs(['--pronunciar', 'mexicas']).variantes.length, 3);
 });
+
+test('--pronunciar con variantes de voz y de idioma arma el SSML con la voz principal de cada muestra', async () => {
+  const dir = tmpProject();
+  const bodies = [];
+  const fetchImpl = async (url, opts) => {
+    bodies.push(opts.body);
+    return { ok: true, arrayBuffer: async () => new Uint8Array([1]).buffer };
+  };
+  await main(['--pronunciar', 'mexicas', '--variantes', 'voz:en-US-AvaMultilingualNeural=meshicas,lang:en-US=meshicas', '--voces', 'es-MX-A-Neural', '--generar'], { root: dir, env: ENV, fetchImpl, ...quiet });
+  assert.equal(bodies.length, 3);
+  assert.ok(bodies[1].includes('</voice><voice name="en-US-AvaMultilingualNeural">meshicas</voice><voice name="es-MX-A-Neural">'));
+  assert.equal((bodies[1].match(/<voice /g) || []).length, (bodies[1].match(/<\/voice>/g) || []).length);
+  assert.ok(bodies[2].includes('<lang xml:lang="en-US">meshicas</lang>'));
+});
