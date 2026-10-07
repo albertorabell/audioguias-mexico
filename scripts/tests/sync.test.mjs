@@ -8,6 +8,7 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { textHash } from '../audio-lib.mjs';
+import { fieldHash } from '../traducir-lib.mjs';
 
 const SYNC = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'sync-sheets.js');
 
@@ -122,4 +123,29 @@ test('seguridad: un MP3 cuyo nombre solo se parece al de una pieza de pago no es
   fs.writeFileSync(path.join(dir, 'public/audio/es/p01_extra_corto.mp3'), 'x');
   fs.writeFileSync(path.join(dir, 'public/audio/es/notas.txt'), 'x');
   assert.doesNotThrow(() => runSync(dir));
+});
+
+test('traducciones guardadas: se unen si el español no cambió; la hoja manda; las viejas se ignoran', () => {
+  const dir = makeProject({ withManifest: false });
+  const tdir = path.join(dir, 'traducciones/en');
+  fs.mkdirSync(tdir, { recursive: true });
+  // p05: título vigente + frase vieja (el español de la hoja no la tiene: no se une nada de más)
+  fs.writeFileSync(path.join(tdir, 'pieza_p05.json'), JSON.stringify({
+    campos: {
+      titulo: { hash: fieldHash('Pieza 5'), texto: 'Piece 5' },
+      guion_corto: { hash: fieldHash('Texto que ya cambió'), texto: 'Old short' },
+    },
+  }));
+  // p00 ya tiene titulo_en en la hoja ("Piece 0"): manda la hoja
+  fs.writeFileSync(path.join(tdir, 'pieza_p00.json'), JSON.stringify({ campos: { titulo: { hash: fieldHash('Pieza 0'), texto: 'Guardada' } } }));
+  // sala-02 sin traducción en la hoja: se usa la guardada
+  fs.writeFileSync(path.join(tdir, 'sala_sala-02.json'), JSON.stringify({ campos: { nombre_oficial: { hash: fieldHash('Sala Dos'), texto: 'Room Two' } } }));
+  const log = runSync(dir);
+  const pieces = read(dir, 'pieces.json');
+  const by = (id) => pieces.find((p) => p.piece_id === id);
+  assert.equal(by('p05').titulo_en, 'Piece 5');
+  assert.equal('guion_corto_en' in by('p05'), false);
+  assert.equal(by('p00').titulo_en, 'Piece 0');
+  assert.equal(read(dir, 'rooms.json')[1].nombre_oficial_en, 'Room Two');
+  assert.ok(log.includes('Traducciones guardadas (en): 2 textos unidos, 1 ignorados'), log);
 });

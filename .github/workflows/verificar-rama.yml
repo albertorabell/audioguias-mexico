@@ -20,7 +20,7 @@ jobs:
       - name: Instalar paquetes
         run: npm install --no-audit --no-fund
       - name: Pruebas de los scripts (sincronizador y MP3)
-        run: node scripts/ci-run.mjs pruebas-scripts -- node --test scripts/tests/sync.test.mjs scripts/tests/audio.test.mjs
+        run: node scripts/ci-run.mjs pruebas-scripts -- node --test scripts/tests/sync.test.mjs scripts/tests/audio.test.mjs scripts/tests/traducir.test.mjs
       - name: Pruebas del servidor de cobro (Worker)
         run: node scripts/ci-run.mjs pruebas-pagos -- node --test pagos/test/worker.test.mjs
       - name: Revisar tipos (tsc)

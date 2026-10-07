@@ -1,0 +1,102 @@
+name: Traducir textos (botón manual)
+
+# Se corre a mano: pestaña Actions > "Traducir textos" > Run workflow.
+# Sin marcar la casilla "generar" solo MUESTRA el plan y el costo aproximado (no gasta nada).
+# Las traducciones se guardan en la carpeta traducciones/ pero NO se muestran en el sitio:
+# el idioma sigue oculto hasta que se agregue a PUBLISHED_LANGUAGES.
+on:
+  workflow_dispatch:
+    inputs:
+      idioma:
+        description: 'Idioma al que se traduce'
+        type: choice
+        options: [en]
+        default: en
+      piezas:
+        description: 'Solo estas piezas (ids separados por coma). Vacío = las que sigan pendientes'
+        type: string
+        default: ''
+      limite:
+        description: 'Máximo de piezas/salas en esta corrida (déjalo en 5 para probar)'
+        type: string
+        default: '5'
+      max_usd:
+        description: 'Tope de gasto de esta corrida en dólares (se detiene antes de pasarse)'
+        type: string
+        default: '2'
+      generar:
+        description: 'Marca la casilla para traducir de verdad (gasta dinero de tu crédito de Anthropic)'
+        type: boolean
+        default: false
+      forzar:
+        description: 'Volver a traducir aunque el texto en español no haya cambiado'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: traducir
+  cancel-in-progress: false
+
+jobs:
+  traducir:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Revisar que esté la clave de Anthropic (antes de gastar nada)
+        if: ${{ inputs.generar }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::Falta el secreto ANTHROPIC_API_KEY (Settings > Secrets and variables > Actions). No se tradujo nada."; exit 1
+          fi
+
+      - name: Traer los textos más recientes del Google Sheets
+        run: node scripts/sync-sheets.js
+
+      - name: Plan (o traducción)
+        env:
+          IDIOMA: ${{ inputs.idioma }}
+          PIEZAS: ${{ inputs.piezas }}
+          LIMITE: ${{ inputs.limite }}
+          MAX_USD: ${{ inputs.max_usd }}
+          GENERAR: ${{ inputs.generar }}
+          FORZAR: ${{ inputs.forzar }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          args=(--lang "$IDIOMA" --limite "${LIMITE:-5}" --max-usd "${MAX_USD:-2}")
+          if [ -n "$PIEZAS" ]; then args+=(--piezas "$PIEZAS"); fi
+          if [ "$FORZAR" = "true" ]; then args+=(--forzar); fi
+          if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
+          node scripts/traducir.mjs "${args[@]}" | tee traduccion.log
+          {
+            echo '## Resultado'
+            echo '```'
+            cat traduccion.log
+            echo '```'
+            if [ -f "traducciones/${IDIOMA}/_ultima_corrida.md" ] && [ "$GENERAR" = "true" ]; then
+              echo
+              head -c 800000 "traducciones/${IDIOMA}/_ultima_corrida.md"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Guardar las traducciones en el repositorio
+        if: ${{ inputs.generar }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add traducciones
+          if git diff --cached --quiet; then
+            echo "No hay nada nuevo que guardar."
+          else
+            git commit -m "Traducciones (${{ inputs.idioma }}): corrida con límite ${{ inputs.limite }}"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
