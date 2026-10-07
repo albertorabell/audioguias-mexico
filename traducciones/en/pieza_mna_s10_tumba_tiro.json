@@ -1,0 +1,58 @@
+{
+  "id": "mna_s10_tumba_tiro",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "especificaciones": [
+      "el glosario pide \"Shaft Tombs\" para \"Tumbas de Tiro\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "c9cb77d10938eab8",
+      "texto": "Recreation of a Shaft Tomb with Funerary Goods"
+    },
+    "frase_gancho": {
+      "hash": "3c5dad2baab28e1e",
+      "texto": "A deep shaft, a chamber underground, and a family that came back to open it again."
+    },
+    "puente_narrativo": {
+      "hash": "a276db36c8082a5c",
+      "texto": "The clay figures you just saw came out of tombs. This is that tomb: a shaft, a chamber, and the objects that accompanied the dead."
+    },
+    "guion_corto": {
+      "hash": "6b050bbabda2b1ae",
+      "texto": "Imagine a family from Western Mexico climbing down a vertical shaft to a dark chamber underground. They are carrying one of their own, and they lay that person among vessels, clay figures, and shell ornaments. This is a shaft tomb, a funerary tradition of Nayarit, Colima, and Jalisco during the Classic period. First, the shaft was dug, from 2 to 16 meters deep. From its bottom, one or several chambers were carved into volcanic tuff, a soft volcanic rock. What you see here is a recreation of that space, with skeletons and grave goods. It is thought that the vaulted chamber symbolized the womb of the Earth, from which the dead would be reborn in the afterlife. In the end, the shaft was sealed with stone slabs and earth. But it was not closed forever: years later, the family could reopen the chamber to lay new relatives to rest."
+    },
+    "guion_largo": {
+      "hash": "75a9d7c0faecce2e",
+      "texto": "Beneath the soil of Western Mexico lies an architecture that almost no one sees. It is the shaft tomb, a way of burying the dead that spread across Nayarit, Colima, and Jalisco during the Classic period.\n\nThe plan was simple and demanding. First, a vertical pit was dug, the shaft, from 2 to 16 meters deep. Then, from the bottom, one or several chambers were carved out. The rock that made this possible was volcanic tuff, a soft volcanic rock.\n\nWhat you see here is a recreation of that space. Around the skeletons there are clay vessels, hollow and solid figurines, stone grinding slabs, conch shells, and shell ornaments. The hollow figures reproduce daily life in detail: warriors in armor, musicians with flutes and conch shells, dancers, sick people, and models of houses. It is as if the dead person were taking their world along.\n\nThose vaulted chambers carried a meaning. It is thought that they symbolized the womb of the Earth. To leave the deceased there with food, ornaments, and sculptures was to prepare them to be reborn in the afterlife.\n\nOnce the ceremony was over, the shaft was sealed at the surface with stone slabs covered with earth, so that no one would disturb the tomb. But the entrance was not final. Over the years, families could reopen the chamber to lay new relatives to rest. A shaft tomb was, then, a family place to which one returned.\n\nThe figures of this tradition, such as the Colima dogs, the warriors, or the couples of Nayarit, were part of the grave goods of these chambers. They were not made to stand alone. They were made to keep someone company."
+    },
+    "retos_observacion": {
+      "hash": "2a3e8b437bd39add",
+      "texto": [
+        "Look for the skeletons and the clay vessels around them.",
+        "Find the stone grinding slabs and the conch shells among the grave goods.",
+        "Notice the figurines, some hollow and others solid, next to the dead."
+      ]
+    },
+    "especificaciones": {
+      "hash": "03734b94fb91085a",
+      "texto": {
+        "Culture": "Shaft Tomb Tradition (associated with the Nayarit, Colima, and Jalisco cultures)",
+        "Period": "Classic (200 BC-600 AD)",
+        "Material": "Museum recreation with human skeletons, clay vessels, hollow and solid figurines, stone grinding slabs, conch shells, and shell ornaments; the original chambers were carved into volcanic tuff, a soft volcanic rock",
+        "Origin": "Recreation based on archaeological contexts from Nayarit, Colima, and Jalisco"
+      }
+    },
+    "faq_mito": {
+      "hash": "68463e2d6759f145",
+      "texto": {
+        "pregunta": "Myth: A shaft tomb was sealed forever once the burial was over.",
+        "respuesta": "Reality: The shaft was sealed with stone slabs and earth, but families could reopen the chamber years later to lay new relatives to rest."
+      }
+    }
+  }
+}

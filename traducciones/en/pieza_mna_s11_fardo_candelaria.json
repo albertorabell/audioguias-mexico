@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_fardo_candelaria",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae477f12a1b7faf6",
+      "texto": "Funerary Bundle from the Candelaria Cave"
+    },
+    "frase_gancho": {
+      "hash": "f43d5003d35085ca",
+      "texto": "A body wrapped in plant fibers and kept in a desert cave."
+    },
+    "puente_narrativo": {
+      "hash": "eb41d2623d40e74b",
+      "texto": "We leave the ceramics of Paquimé behind and turn to the hunter-gatherers of the desert, and to the way they cared for their dead."
+    },
+    "guion_corto": {
+      "hash": "ec9d315b39d4697c",
+      "texto": "Imagine a group of desert people gathered in a dry cave. They have folded the body of one of their own, wrapped it in layers of woven cloth and bound it with cords. This is how this funerary bundle from the Candelaria Cave, in Coahuila, was made. It was prepared by hunter-gatherers of Aridoamerica, in the Comarca Lagunera, between 1000 and 1500 AD. The textiles are made of yucca, lechuguilla and cotton, and they cover a mummified body. Buried with it were sandals, flint knives with wooden handles, blankets with geometric decoration and a fiber headdress, the tlacoval. The dryness of the cave has preserved fibers, wood and cords to this day. They were bands who lived by hunting and gathering, and even so they devoted time and fine materials to bidding farewell to their dead."
+    },
+    "guion_largo": {
+      "hash": "db07331faf39476a",
+      "texto": "A funerary bundle is a package: a body covered with layer upon layer of woven cloth, bound with cords and accompanied by objects. This one comes from the Candelaria Cave, in Coahuila.\n\nIt was made by hunter-gatherers of the desert, in the Comarca Lagunera region, within the tradition known as Aridoamerica. It belongs to the Postclassic, between 1000 and 1500 AD. They were groups who lived on what they hunted and gathered, and who moved across a dry and harsh landscape.\n\nThe body was placed tightly flexed and wrapped in successive layers of nets, fine mats and blankets. The fibers were yucca, lechuguilla and cotton. Some blankets bear geometric decoration painted with mineral pigments. A sash and a fiber headdress, called a tlacoval, complete the wrapping.\n\nBeside the body, objects from daily life were left. There are fiber sandals, flint knives with wooden handles, bows and arrows with flint points. There are also ornaments made of shell and snake vertebrae. Everything a hunter needed to walk, cut and hunt was there.\n\nThese objects survive thanks to the cave. Its extreme dryness halted the decay of fibers, cords and wood, materials that almost never survive. Archaeologists believe the cave served for centuries as a sacred cemetery. The bands returned from time to time to lay their dead to rest, safe from the rain and the wind.\n\nThat is why this bundle is much more than a burial: it shows how some desert bands lived and how they bade farewell to their own."
+    },
+    "retos_observacion": {
+      "hash": "0a59951f7d0c1005",
+      "texto": [
+        "Look for the layers of woven fiber that wrap the bundle.",
+        "Find the fiber headdresses called tlacovales among the objects.",
+        "Notice the sandals and the knives with wooden handles."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2b82595c4c23efa6",
+      "texto": {
+        "Culture": "Aridoamerica / Desert hunter-gatherers (Comarca Lagunera)",
+        "Period": "Postclassic (1000-1500 AD)",
+        "Material": "Woven plant fibers (yucca, lechuguilla and cotton)",
+        "Origin": "Candelaria Cave, Coahuila"
+      }
+    },
+    "faq_mito": {
+      "hash": "d9507087d09f2b62",
+      "texto": {
+        "pregunta": "Myth: Mummies only exist in Egypt.",
+        "respuesta": "Reality: In the Candelaria Cave, in Coahuila, desert hunter-gatherers wrapped their dead in plant fibers, and the bodies were preserved as mummies."
+      }
+    }
+  }
+}

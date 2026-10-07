@@ -2,2922 +2,2754 @@
 
 Español arriba, traducción abajo. Los avisos son revisiones automáticas, no errores.
 
-## Pieza: mna_s04_disco_muerte
+## Pieza: mna_s10_tumba_tiro
 
 ### titulo
 
-**ES:** Disco de la Muerte
+**ES:** Recreación de Tumba de Tiro con ajuar funerario
 
-**EN:** Disc of Death
-
-### frase_gancho
-
-**ES:** Un cráneo con lengua y halo de rayos: el sol que se oculta, según Teotihuacán.
-
-**EN:** A skull with a tongue and a halo of rays: the setting sun, according to Teotihuacán.
-
-### puente_narrativo
-
-**ES:** Seguimos con un disco que durante un tiempo se creyó mexica, pero que es teotihuacano: un cráneo rodeado de rayos.
-
-**EN:** We continue with a disc that for a time was believed to be Mexica, but is Teotihuacán: a skull surrounded by rays.
-
-### guion_corto
-
-**ES:** Durante un tiempo, algunos investigadores creyeron que este disco era mexica, por la lengua saliente y el halo de rayos. No lo es. Es una escultura teotihuacana del periodo Clásico, tallada en andesita y con restos de pigmento rojo. Apareció en mil novecientos sesenta y cuatro, en la plaza frente a la Pirámide del Sol. Muestra un cráneo humano de boca desdentada, de donde sobresale una gran lengua. Lo rodea un halo plisado que recuerda abanicos de papel o rayos de sol. Se interpreta como el Sol Muerto. Es el astro que se oculta en el poniente, donde la tierra lo devora, y baja al inframundo para alumbrar el reino de los muertos. Teotihuacán creó esas imágenes del culto solar, y siglos después las retomaron los pueblos del Posclásico.
-
-**EN:** For a time, some researchers believed this disc was Mexica, because of the protruding tongue and the halo of rays. It is not. It is a Teotihuacán sculpture from the Classic period, carved in andesite and bearing traces of red pigment. It appeared in nineteen sixty-four, in the plaza in front of the Pyramid of the Sun. It shows a human skull with a toothless mouth, from which a large tongue protrudes. Around it is a pleated halo that recalls paper fans or rays of sunlight. It is interpreted as the Dead Sun. It is the star that sets in the west, where the earth devours it, and descends to the underworld to light the realm of the dead. Teotihuacán created these images of the solar cult, and centuries later the peoples of the Postclassic took them up.
-
-### guion_largo
-
-**ES:** Este disco tiene un nombre que da miedo, pero la idea detrás de él habla de la noche y del regreso del sol. Es una escultura teotihuacana, hecha en andesita, con restos de pigmento rojo. Mide ciento veintiséis centímetros de alto, ciento dos de ancho y veinticinco de espesor. El relieve es alto, tanto que el cráneo parece salir de la piedra. /  / En el centro hay un cráneo humano. Tiene la boca desdentada, y de ella sobresale una lengua ancha. Alrededor se abre un gran halo plisado. Se ha comparado con abanicos de papel o con rayos de sol. Por eso se le conoce también como el Sol Muerto. /  / ¿Qué significa? Los investigadores lo interpretan como el ocultamiento del sol en el poniente. En esa lectura, el astro es devorado por la tierra y entra al inframundo, donde alumbra el reino de los muertos. Teotihuacán adoraba a un dios del inframundo y del sol muerto, junto con otros dioses como Tláloc y la Serpiente Emplumada. Es una idea de ciclo: lo que se oculta, regresa. /  / La pieza se halló en mil novecientos sesenta y cuatro, durante excavaciones en la plaza frente a la Pirámide del Sol. Esa plaza está a un lado de la Calzada de los Muertos, el gran eje que atravesaba la ciudad de norte a sur. Que haya aparecido allí ayuda a entender que el culto solar tenía su centro en ese conjunto de edificios. /  / Hubo quien dudó de su origen. Por la lengua saliente y el halo, que se parecen a rasgos del arte azteca, algunos investigadores tempranos especularon que fuera mexica. El hallazgo mostró lo contrario. Teotihuacán inventó esas imágenes del culto solar, y siglos después los pueblos del Posclásico las retomaron. /  / Por eso esta pieza vale como pista de que las ideas de Teotihuacán siguieron vivas mucho después de que la ciudad cayera. Cuando mires el halo y la lengua, recuerda que primero estuvieron aquí, en el Clásico.
-
-**EN:** This disc has a frightening name, but the idea behind it speaks of the night and the return of the sun. It is a Teotihuacán sculpture, made of andesite, with traces of red pigment. It measures one hundred twenty-six centimeters high, one hundred two wide and twenty-five thick. The relief is high, so high that the skull seems to emerge from the stone. /  / At the center is a human skull. Its mouth is toothless, and a broad tongue protrudes from it. All around opens a large pleated halo. It has been compared to paper fans or to rays of sunlight. That is why it is also known as the Dead Sun. /  / What does it mean? Researchers interpret it as the sun setting in the west. In this reading, the star is devoured by the earth and enters the underworld, where it lights the realm of the dead. Teotihuacán worshipped a god of the underworld and of the dead sun, along with other gods such as Tláloc and the Feathered Serpent. It is an idea of a cycle: what disappears will return. /  / The piece was found in nineteen sixty-four, during excavations in the plaza in front of the Pyramid of the Sun. That plaza lies beside the Avenue of the Dead, the great axis that ran through the city from north to south. That it appeared there helps us understand that the solar cult had its center in that group of buildings. /  / Some doubted its origin. Because of the protruding tongue and the halo, which resemble features of Aztec art, some early researchers speculated that it was Mexica. The discovery showed the opposite. Teotihuacán invented these images of the solar cult, and centuries later the peoples of the Postclassic took them up. /  / That is why this piece is valuable as a clue that the ideas of Teotihuacán remained alive long after the city fell. When you look at the halo and the tongue, remember that they were here first, in the Classic.
-
-### retos_observacion
-
-**ES:** Cráneo humano de boca desdentada en el centro / Gran lengua que sobresale de la boca / Halo plisado que rodea el cráneo como abanico
-
-**EN:** Human skull with a toothless mouth at the center / Large tongue protruding from the mouth / Pleated halo surrounding the skull like a fan
-
-### especificaciones
-
-**ES:** Cultura: Teotihuacana / Periodo: Clásico (1-650 d.C.) / Material: Andesita y pigmento rojo / Procedencia: Teotihuacán, Estado de México (plaza frente a la Pirámide del Sol) / Medidas: 1.26 m de alto x 1.02 m de ancho x 0.25 m de espesor / Hallazgo: Hallado en 1964 en las excavaciones frente a la Pirámide del Sol
-
-**EN:** Culture: Teotihuacán / Period: Classic (1-650 AD) / Material: Andesite and red pigment / Origin: Teotihuacán, State of Mexico (plaza in front of the Pyramid of the Sun) / Dimensions: 1.26 m high x 1.02 m wide x 0.25 m thick / Discovery: Found in 1964 during excavations in front of the Pyramid of the Sun
-
-### faq_mito
-
-**ES:** pregunta: Mito: El Disco de la Muerte es una escultura mexica de sacrificios en el Templo Mayor. / respuesta: Realidad: Es una obra teotihuacana del periodo Clásico, hallada en mil novecientos sesenta y cuatro frente a la Pirámide del Sol. Los mexicas retomaron siglos después ideas que Teotihuacán ya había creado.
-
-**EN:** pregunta: Myth: The Disc of Death is a Mexica sacrificial sculpture from the Templo Mayor. / respuesta: Reality: It is a Teotihuacán work from the Classic period, found in nineteen sixty-four in front of the Pyramid of the Sun. The Mexica took up, centuries later, ideas that Teotihuacán had already created.
-
-## Pieza: mna_s04_huehueteotl
-
-### titulo
-
-**ES:** Escultura de Huehuetéotl
-
-**EN:** Sculpture of Huehuetéotl
+**EN:** Recreation of a Shaft Tomb with Funerary Goods
 
 ### frase_gancho
 
-**ES:** Anciano encorvado que sostiene el brasero del fuego eterno.
+**ES:** Un pozo profundo, una cámara bajo tierra y una familia que volvía a abrirla.
 
-**EN:** A hunched old man holding up the brazier of the eternal fire.
-
-### puente_narrativo
-
-**ES:** Ahora un anciano que carga un brasero sobre la cabeza: el Dios Viejo del Fuego, una de las deidades más antiguas de Mesoamérica.
-
-**EN:** Now an old man carrying a brazier on his head: the Old God of Fire, one of the oldest deities in Mesoamerica.
-
-### guion_corto
-
-**ES:** Un anciano encorvado sostiene un gran brasero sobre la cabeza. Es Huehuetéotl, el Dios Viejo del Fuego, una de las deidades más antiguas de Mesoamérica. Está sentado con las piernas cruzadas al frente y las manos apoyadas en las rodillas, una abierta y la otra cerrada. Su rostro muestra profundas arrugas en las mejillas y en la frente, cejas marcadas, orejeras y una boca sin dientes. El brasero que lleva en la cabeza tiene relieves geométricos. Encarna el fuego sagrado, el centro del hogar y el equilibrio del cosmos. Esta imagen es de la cultura teotihuacana, del periodo Clásico, y se relaciona con una tradición más antigua, la de Cuicuilco.
-
-**EN:** A hunched old man holds a large brazier on his head. This is Huehuetéotl, the Old God of Fire, one of the oldest deities in Mesoamerica. He sits with his legs crossed in front of him and his hands resting on his knees, one open and the other closed. His face shows deep wrinkles on the cheeks and forehead, marked eyebrows, ear ornaments, and a toothless mouth. The brazier he carries on his head has geometric reliefs. He embodies the sacred fire, the center of the home, and the balance of the cosmos. This image belongs to the Teotihuacán culture of the Classic period, and it is related to an older tradition, that of Cuicuilco.
-
-### guion_largo
-
-**ES:** Los años se le notan en la cara, y aun así carga con el fuego. /  / Huehuetéotl significa el Dios Viejo. Era la deidad del fuego, la que encarnaba el fuego sagrado, el centro del hogar y el equilibrio del cosmos. Esta escultura es de la cultura teotihuacana, del periodo Clásico, y procede de Teotihuacán, en el Estado de México. /  / Mira la postura. Es un anciano encorvado, sentado con las piernas cruzadas al frente. Apoya las manos en las rodillas, una abierta y la otra cerrada. /  / Ahora el rostro. Tiene arrugas profundas en las mejillas y en la frente, cejas marcadas, orejeras y la boca sin dientes. Es la cara de alguien que ha vivido mucho. /  / Sobre la cabeza sostiene un gran brasero circular. Está adornado con relieves geométricos. /  / Esta imagen no nació en Teotihuacán. Su iconografía deriva de una tradición anterior, la de Cuicuilco. Esa tradición estaba vinculada con la adoración de los volcanes activos del Altiplano Central, como el Xitle y el Popocatépetl. Un dios viejo que carga el fuego tiene sentido en una región rodeada de volcanes.
-
-**EN:** The years show on his face, and yet he carries the fire. /  / Huehuetéotl means the Old God. He was the deity of fire, the one who embodied the sacred fire, the center of the home, and the balance of the cosmos. This sculpture belongs to the Teotihuacán culture of the Classic period, and it comes from Teotihuacán, in the State of Mexico. /  / Look at the posture. He is a hunched old man, sitting with his legs crossed in front of him. He rests his hands on his knees, one open and the other closed. /  / Now the face. It has deep wrinkles on the cheeks and forehead, marked eyebrows, ear ornaments, and a toothless mouth. It is the face of someone who has lived a long time. /  / On his head he holds a large circular brazier. It is decorated with geometric reliefs. /  / This image was not born in Teotihuacán. Its iconography derives from an earlier tradition, that of Cuicuilco. That tradition was linked to the worship of the active volcanoes of the Central Highlands, such as Xitle and Popocatépetl. An old god who carries the fire makes sense in a region surrounded by volcanoes.
-
-### retos_observacion
-
-**ES:** Busca las arrugas profundas de las mejillas y de la frente. / Fíjate en sus manos: una abierta y la otra cerrada. / Mira el brasero circular sobre la cabeza, con relieves geométricos.
-
-**EN:** Look for the deep wrinkles on the cheeks and forehead. / Notice his hands: one open and the other closed. / Look at the circular brazier on his head, with geometric reliefs.
-
-### especificaciones
-
-**ES:** Cultura: Teotihuacana / Periodo: Clásico (1-650 d.C.) / Material: Cerámica / Procedencia: Teotihuacán, Estado de México / Medidas: 0.65 m de alto x 0.63 m de ancho x 0.66 m de espesor
-
-**EN:** Culture: Teotihuacán / Period: Classic (1-650 AD) / Material: Ceramic / Origin: Teotihuacán, State of Mexico / Dimensions: 0.65 m high x 0.63 m wide x 0.66 m thick
-
-### faq_mito
-
-**ES:** pregunta: Mito: Huehuetéotl es un hombre común castigado a cargar una vasija. / respuesta: Realidad: Es la imagen del Dios Viejo del Fuego, una deidad del fuego sagrado y del centro del hogar y del cosmos.
-
-**EN:** pregunta: Myth: Huehuetéotl is an ordinary man punished by having to carry a vessel. / respuesta: Reality: He is the image of the Old God of Fire, a deity of the sacred fire and of the center of the home and the cosmos.
-
-## Pieza: mna_s04_marcador_ventilla
-
-### titulo
-
-**ES:** Marcador de Juego de Pelota de La Ventilla
-
-**EN:** Ball Game Marker from La Ventilla
-
-### frase_gancho
-
-**ES:** Escultura desarmable en piedra donde el juego de pelota cobra vida.
-
-**EN:** A stone sculpture that comes apart, where the ball game comes to life.
+**EN:** A deep shaft, a chamber underground, and a family that came back to open it again.
 
 ### puente_narrativo
 
-**ES:** Seguimos con la vida de la ciudad, ahora con un objeto de juego y de ritual: un marcador de pelota que se podía armar y desarmar.
+**ES:** Las figuras de barro que acabas de ver salían de tumbas. Esta es esa tumba: un pozo, una cámara y los objetos que acompañaban al muerto.
 
-**EN:** We continue with the life of the city, now with an object of play and ritual: a ball game marker that could be assembled and taken apart.
-
-### guion_corto
-
-**ES:** ¿Un monumento que se arma y se desarma? Así es este marcador de juego de pelota. Está formado por cuatro secciones talladas por separado, que se ensamblan con precisión mediante espigas de la misma roca. Abajo hay un poste cilíndrico labrado con trenzados. Arriba, un disco o anillo calado, decorado con plumas y espirales, que simbolizan una pelota de hule y el movimiento. Es de andesita, con estuco y pigmento policromo, y es de la cultura teotihuacana, del periodo Clásico. Lo hallaron en 1962, durante las exploraciones del barrio de La Ventilla, al suroeste de Teotihuacán.
-
-**EN:** A monument that can be assembled and taken apart? That is exactly what this ball game marker is. It is made of four sections carved separately, which fit together precisely by means of tenons of the same stone. At the bottom is a cylindrical post carved with braided patterns. At the top, an openwork disk or ring, decorated with feathers and spirals, which symbolize a rubber ball and movement. It is made of andesite, with stucco and polychrome pigment, and it comes from the Teotihuacán culture, from the Classic period. It was found in 1962, during explorations of the La Ventilla neighborhood, southwest of Teotihuacán.
-
-### guion_largo
-
-**ES:** Este marcador se puede armar y desarmar. Eso ya lo hace especial. /  / Es una escultura portátil formada por cuatro secciones, talladas de manera independiente. Se ensamblan con precisión mediante espigas de la misma roca. Abajo hay un poste cilíndrico labrado con trenzados. Encima, una sección acampanada. Y arriba, un disco o anillo calado, decorado con plumas y espirales que simbolizan una pelota de hule y el movimiento. /  / Está hecho de andesita, con estuco y pigmento policromo. Pertenece a la cultura teotihuacana, del periodo Clásico. Lo hallaron en 1962, durante las exploraciones del barrio de La Ventilla, al suroeste de la ciudad. /  / Hay un dato que lo vuelve aún más interesante. En Teotihuacán no se han encontrado canchas cerradas como las de otras ciudades mesoamericanas. Por eso se piensa que el juego se celebraba en plazas o patios abiertos, y que estos marcadores portátiles servían para ese tipo de espacios. /  / Su uso aparece ilustrado en los murales de Tepantitla, donde se ve a los jugadores con bastones, usando marcadores idénticos. /  / Un objeto pensado para moverse, que cuenta cómo se jugaba en una ciudad sin canchas.
-
-**EN:** This marker can be assembled and taken apart. That alone makes it special. /  / It is a portable sculpture made up of four sections, carved independently. They fit together precisely by means of tenons of the same stone. At the bottom is a cylindrical post carved with braided patterns. On top of it, a flared section. And at the top, an openwork disk or ring, decorated with feathers and spirals that symbolize a rubber ball and movement. /  / It is made of andesite, with stucco and polychrome pigment. It belongs to the Teotihuacán culture, from the Classic period. It was found in 1962, during explorations of the La Ventilla neighborhood, southwest of the city. /  / There is a detail that makes it even more interesting. In Teotihuacán, no enclosed courts like those of other Mesoamerican cities have been found. For that reason, it is thought that the game was played in open plazas or courtyards, and that these portable markers were used for that kind of space. /  / Their use appears illustrated in the Tepantitla murals, where players can be seen with sticks, using identical markers. /  / An object designed to be moved, which tells how the game was played in a city without courts.
-
-### retos_observacion
-
-**ES:** Busca las cuatro secciones que forman el marcador. / Mira el anillo superior calado, con plumas y espirales. / Fíjate en los trenzados labrados en el poste cilíndrico.
-
-**EN:** Find the four sections that make up the marker. / Look at the openwork upper ring, with feathers and spirals. / Notice the braided patterns carved into the cylindrical post.
-
-### especificaciones
-
-**ES:** Cultura: Teotihuacana / Periodo: Clásico (1-650 d.C.) / Material: Andesita, estuco y pigmento / Procedencia: Teotihuacán, Estado de México (barrio de La Ventilla, al suroeste de la ciudad) / Medidas: 2.15 m de alto x 0.77 m de ancho x 0.55 m de espesor / Hallazgo: Hallado en 1962 durante las exploraciones en el barrio de La Ventilla
-
-**EN:** Culture: Teotihuacán / Period: Classic (1-650 AD) / Material: Andesite, stucco, and pigment / Origin: Teotihuacán, State of Mexico (La Ventilla neighborhood, southwest of the city) / Dimensions: 2.15 m high x 0.77 m wide x 0.55 m thick / Discovery: Found in 1962 during explorations in the La Ventilla neighborhood
-
-### faq_mito
-
-**ES:** pregunta: Mito: El marcador de La Ventilla era una piedra fija en una gran cancha cerrada. / respuesta: Realidad: Es una escultura portátil, desarmable en cuatro secciones, y en Teotihuacán no se han encontrado canchas cerradas como las de otras ciudades.
-
-**EN:** pregunta: Myth: The La Ventilla marker was a fixed stone in a large enclosed court. / respuesta: Reality: It is a portable sculpture, which can be taken apart into four sections, and in Teotihuacán no enclosed courts like those of other cities have been found.
-
-## Pieza: mna_s04_mural_tepantitla
-
-### titulo
-
-**ES:** Mural de Tepantitla (El Tlalocan)
-
-**EN:** Tepantitla Mural (The Tlalocan)
-
-### frase_gancho
-
-**ES:** Paraíso del agua eterna donde las almas celebran la vida.
-
-**EN:** A paradise of eternal water where souls celebrate life.
-
-### puente_narrativo
-
-**ES:** Pasamos a la pintura mural, con el paraíso del agua que pintaron los teotihuacanos: el Tlálocan.
-
-**EN:** We now move on to mural painting, with the paradise of water painted by the Teotihuacán people: the Tlalocan.
+**EN:** The clay figures you just saw came out of tombs. This is that tomb: a shaft, a chamber, and the objects that accompanied the dead.
 
 ### guion_corto
 
-**ES:** Este no es un jardín cualquiera. Es el Tlálocan, el paraíso del agua, pintado en un mural de Tepantitla, un conjunto residencial al este de Teotihuacán. Lo descubrió en 1942 el arqueólogo Alfonso Caso. Arriba, una figura grande, que puede ser la Gran Diosa o Tláloc, de cuyas manos abiertas caen gotas de agua. Abajo, un paisaje fértil con ríos, donde pequeños hombres cantan, bailan, nadan, persiguen mariposas y juegan a la pelota. De sus bocas salen vírgulas con flores y hojas. Es el canto florido. La pintura es al fresco sobre estuco, del periodo Clásico.
+**ES:** Imagina a una familia del Occidente de México bajando por un pozo vertical hasta una cámara oscura, bajo tierra. Llevan a uno de los suyos y lo acomodan entre vasijas, figuras de barro y adornos de concha. Eso es una tumba de tiro, una tradición funeraria de Nayarit, Colima y Jalisco durante el periodo Clásico. Primero se excavaba el pozo, de 2 a 16 metros de profundidad. Desde su fondo se abrían una o varias cámaras en toba volcánica, o tepetate. Lo que ves aquí es una recreación de ese espacio, con esqueletos y ajuar. Se piensa que la cámara abovedada simbolizaba la matriz de la Tierra, de donde el muerto renacería en la otra vida. Al final se sellaba el pozo con lajas de piedra y tierra. Pero no se cerraba para siempre: años más tarde, la familia podía reabrir la cámara para depositar a nuevos parientes.
 
-**EN:** This is no ordinary garden. It is the Tlalocan, the paradise of water, painted in a mural from Tepantitla, a residential compound east of Teotihuacán. It was discovered in 1942 by the archaeologist Alfonso Caso. Above, a large figure, who may be the Great Goddess or Tláloc, with water drops falling from her open hands. Below, a fertile landscape with rivers, where small men sing, dance, swim, chase butterflies, and play ball. From their mouths come speech scrolls with flowers and leaves. This is the flowery song. The painting is a fresco on stucco, from the Classic period.
-
-### guion_largo
-
-**ES:** Imagina un lugar donde todo florece, donde corre el agua y donde la gente canta. Así imaginaban los teotihuacanos el Tlálocan. /  / Este mural viene de Tepantitla, un conjunto residencial al este de la Pirámide del Sol, en Teotihuacán. Lo descubrió en 1942 el arqueólogo Alfonso Caso. Es una pintura al fresco, hecha sobre estuco y mortero de cal, con pigmentos minerales: rojo de hematita, verde de malaquita y amarillo de limonita. Pertenece al periodo Clásico, y la escena se ubica en la fase Xolalpan, hacia el final de la ciudad. /  / Se divide en dos niveles. Arriba hay una gran figura, que puede ser la Gran Diosa teotihuacana o Tláloc. De su amplio tocado brota un árbol lleno de flores y aves, y de sus manos abiertas manan gotas de agua. /  / Abajo está el Tlálocan, el paraíso acuático. Es un paisaje fértil, cruzado por ríos. Pequeños hombres cantan, bailan, nadan, persiguen mariposas y juegan a la pelota. /  / Mira sus bocas. De ellas salen vírgulas decoradas con flores y hojas. No son solo la palabra: son el canto florido, la alegría de las almas en el reino del dios de la lluvia. /  / Es una escena de alegría, y el agua lo recorre todo.
-
-**EN:** Imagine a place where everything blooms, where water flows, and where people sing. This is how the Teotihuacán people imagined the Tlalocan. /  / This mural comes from Tepantitla, a residential compound east of the Pyramid of the Sun, in Teotihuacán. It was discovered in 1942 by the archaeologist Alfonso Caso. It is a fresco, made on stucco and lime mortar, with mineral pigments: red from hematite, green from malachite, and yellow from limonite. It belongs to the Classic period, and the scene is placed in the Xolalpan phase, toward the end of the city. /  / It is divided into two levels. Above is a great figure, who may be the Teotihuacán Great Goddess or Tláloc. From her broad headdress springs a tree full of flowers and birds, and from her open hands water drops flow. /  / Below is the Tlalocan, the watery paradise. It is a fertile landscape crossed by rivers. Small men sing, dance, swim, chase butterflies, and play ball. /  / Look at their mouths. From them come speech scrolls decorated with flowers and leaves. They are not just words: they are the flowery song, the joy of the souls in the realm of the rain god. /  / It is a scene of joy, and water runs through everything.
-
-### retos_observacion
-
-**ES:** Busca la gran figura de arriba, con las manos abiertas y gotas de agua. / Encuentra a los pequeños hombres que nadan y persiguen mariposas. / Fíjate en las vírgulas con flores que salen de las bocas.
-
-**EN:** Look for the great figure above, with open hands and drops of water. / Find the small men who swim and chase butterflies. / Notice the speech scrolls with flowers coming out of their mouths.
-
-### especificaciones
-
-**ES:** Cultura: Teotihuacana / Periodo: Clásico (300-650 d.C.) / Material: Pintura al fresco sobre estuco y mortero de cal, con pigmentos minerales de hematita roja, malaquita verde y limonita amarilla / Procedencia: Teotihuacán, Estado de México (conjunto residencial de Tepantitla, al este de la Pirámide del Sol) / Hallazgo: Descubierto en 1942 por el arqueólogo Alfonso Caso en el conjunto residencial de Tepantitla
-
-**EN:** Culture: Teotihuacán / Period: Classic (300-650 AD) / Material: Fresco on stucco and lime mortar, with mineral pigments of red hematite, green malachite, and yellow limonite / Origin: Teotihuacán, State of Mexico (Tepantitla residential compound, east of the Pyramid of the Sun) / Discovery: Discovered in 1942 by the archaeologist Alfonso Caso in the Tepantitla residential compound
-
-### faq_mito
-
-**ES:** pregunta: Mito: El mural representa un día de campo cotidiano. / respuesta: Realidad: Representa el Tlálocan, el paraíso acuático del dios de la lluvia, donde las almas gozan de abundancia.
-
-**EN:** pregunta: Myth: The mural depicts an ordinary day out in the countryside. / respuesta: Reality: It depicts the Tlalocan, the watery paradise of the rain god, where souls enjoy abundance.
-
-## Pieza: mna_s04_mascara_serpentina
-
-### titulo
-
-**ES:** Máscara funeraria teotihuacana
-
-**EN:** Teotihuacán funerary mask
-
-### frase_gancho
-
-**ES:** Una máscara hecha para dar rostro eterno a un personaje importante.
-
-**EN:** A mask made to give an important figure an eternal face.
-
-### puente_narrativo
-
-**ES:** Seguimos con una máscara que no estaba hecha para un rostro vivo, sino para un muerto.
-
-**EN:** We continue with a mask that was not made for a living face, but for a dead one.
-
-### guion_corto
-
-**ES:** Esta máscara no estaba hecha para un rostro vivo, sino para un muerto. Las máscaras funerarias teotihuacanas se colocaban sobre el rostro de los bultos funerarios de personajes de alta jerarquía, como sacerdotes o gobernantes. Tienen un corte trapezoidal, la frente recta, la boca entreabierta y las orejas rectangulares perforadas. Eran de piedra, tallada con un fino trabajo lapidario. Esta pertenece a la cultura teotihuacana, del periodo Clásico, entre los años 1 y 650 después de Cristo. Algunas, como la famosa máscara hallada en Malinaltepec, Guerrero, recibieron siglos más tarde un mosaico de turquesa y concha.
-
-**EN:** This mask was not made for a living face, but for a dead one. Teotihuacán funerary masks were placed over the face of funerary bundles of high-ranking figures, such as priests or rulers. They have a trapezoidal cut, a straight forehead, a slightly open mouth, and perforated rectangular ears. They were made of stone, carved with fine lapidary work. This one belongs to the Teotihuacán culture, from the Classic period, between the years 1 and 650 AD. Some, like the famous mask found in Malinaltepec, Guerrero, received a turquoise and shell mosaic centuries later.
+**EN:** Imagine a family from Western Mexico climbing down a vertical shaft to a dark chamber underground. They are carrying one of their own, and they lay that person among vessels, clay figures, and shell ornaments. This is a shaft tomb, a funerary tradition of Nayarit, Colima, and Jalisco during the Classic period. First, the shaft was dug, from 2 to 16 meters deep. From its bottom, one or several chambers were carved into volcanic tuff, a soft volcanic rock. What you see here is a recreation of that space, with skeletons and grave goods. It is thought that the vaulted chamber symbolized the womb of the Earth, from which the dead would be reborn in the afterlife. In the end, the shaft was sealed with stone slabs and earth. But it was not closed forever: years later, the family could reopen the chamber to lay new relatives to rest.
 
 ### guion_largo
 
-**ES:** Esta máscara no era para un rostro vivo. Se colocaba sobre el rostro de un muerto. /  / En Teotihuacán, las máscaras de piedra se ponían sobre los bultos funerarios de personajes de alta jerarquía, como sacerdotes o gobernantes. Eran una forma de darles un rostro permanente. /  / Fíjate en su forma. Tiene el corte trapezoidal clásico de la ciudad: frente recta, boca entreabierta y orejas rectangulares perforadas. Es un diseño sereno, geométrico, con un fino trabajo lapidario. /  / Pertenece a la cultura teotihuacana y al periodo Clásico, entre los años 1 y 650 después de Cristo. /  / Hay una historia que acompaña a algunas de estas máscaras. Una de las más conocidas se halló en Malinaltepec, en Guerrero. Fue tallada en Teotihuacán durante el Clásico y después se conservó como una reliquia. Siglos más tarde, en el Posclásico, artesanos de esa región le añadieron un mosaico de turquesa y concha. /  / Eso demuestra cuánto veneraban las culturas posteriores los objetos teotihuacanos. La máscara siguió teniendo valor mucho después de que la ciudad quedó vacía.
+**ES:** Bajo la tierra del Occidente de México hay una arquitectura que casi nadie ve. Es la tumba de tiro, una forma de enterrar a los muertos que se extendió por Nayarit, Colima y Jalisco durante el periodo Clásico. /  / El plan era sencillo y exigente. Primero se excavaba un pozo vertical, el tiro, de 2 a 16 metros de profundidad. Luego, desde el fondo, se abrían una o varias cámaras. La roca que lo permitía era la toba volcánica, o tepetate. /  / Lo que ves aquí es una recreación de ese espacio. Alrededor de los esqueletos hay vasijas de barro, figurillas huecas y sólidas, metates de piedra, caracoles marinos y adornos de concha. Las figuras huecas reproducen con detalle la vida diaria: guerreros con armadura, músicos con flautas y caracoles, danzantes, enfermos y maquetas de casas. Es como si el muerto se llevara su mundo. /  / Esas cámaras abovedadas tenían un significado. Se piensa que simbolizaban la matriz de la Tierra. Dejar allí al difunto con comida, adornos y esculturas era prepararlo para renacer en la otra vida. /  / Terminada la ceremonia, el pozo se sellaba en la superficie con lajas de piedra cubiertas de tierra, para que nadie alterara la tumba. Pero la entrada no era definitiva. Con los años, las familias podían reabrir la cámara para depositar a nuevos parientes. Una tumba de tiro era, entonces, un lugar de familia al que se volvía. /  / Las figuras de esta tradición, como los perros de Colima, los guerreros o las parejas de Nayarit, formaban parte del ajuar de estas cámaras. No se hicieron para estar solas. Se hicieron para acompañar a alguien.
 
-**EN:** This mask was not for a living face. It was placed over the face of a dead person. /  / In Teotihuacán, stone masks were placed over the funerary bundles of high-ranking figures, such as priests or rulers. They were a way of giving them a permanent face. /  / Look at its shape. It has the classic trapezoidal cut of the city: a straight forehead, a slightly open mouth, and perforated rectangular ears. It is a serene, geometric design, with fine lapidary work. /  / It belongs to the Teotihuacán culture and the Classic period, between the years 1 and 650 AD. /  / There is a story that goes with some of these masks. One of the best known was found in Malinaltepec, in Guerrero. It was carved in Teotihuacán during the Classic period and was later kept as a relic. Centuries later, in the Postclassic, artisans from that region added a turquoise and shell mosaic to it. /  / That shows how much later cultures revered Teotihuacán objects. The mask continued to hold value long after the city was empty.
-
-### retos_observacion
-
-**ES:** Busca el corte trapezoidal y la frente recta de la máscara. / Fíjate en la boca entreabierta. / Mira las orejas rectangulares con perforaciones.
-
-**EN:** Look for the trapezoidal cut and the straight forehead of the mask. / Notice the slightly open mouth. / Look at the rectangular ears with perforations.
-
-### especificaciones
-
-**ES:** Cultura: Teotihuacana, con añadidos posteriores del Posclásico / Periodo: Clásico (1-650 d.C.); mosaico añadido en el Posclásico (900-1200 d.C.) / Material: Piedra, con incrustaciones de amazonita, turquesa, hematita especular y concha / Procedencia: Malinaltepec, Guerrero (pieza de origen teotihuacano) / Medidas: 0.21 m de alto x 0.21 m de ancho x 0.065 m de espesor
-
-**EN:** Culture: Teotihuacán, with later Postclassic additions / Period: Classic (1-650 AD); mosaic added in the Postclassic (900-1200 AD) / Material: Stone, with inlays of amazonite, turquoise, specular hematite, and shell / Origin: Malinaltepec, Guerrero (piece of Teotihuacán origin) / Dimensions: 0.21 m high x 0.21 m wide x 0.065 m thick
-
-### faq_mito
-
-**ES:** pregunta: Mito: Los sacerdotes usaban estas máscaras como disfraces durante las ceremonias. / respuesta: Realidad: Las máscaras funerarias se colocaban sobre el rostro de los bultos funerarios de personajes de alta jerarquía.
-
-**EN:** pregunta: Myth: Priests wore these masks as costumes during ceremonies. / respuesta: Reality: Funerary masks were placed over the face of the funerary bundles of high-ranking figures.
-
-## Pieza: mna_s04_caracoles_emplumados
-
-### titulo
-
-**ES:** Templo de los Caracoles Emplumados
-
-**EN:** Temple of the Feathered Conches
-
-### frase_gancho
-
-**ES:** Caracoles con plumas, de una ciudad que se construyó sobre otra.
-
-**EN:** Conches with feathers, from a city built on top of another.
-
-### puente_narrativo
-
-**ES:** Volvemos a la arquitectura con un templo decorado con caracoles que llevan plumas.
-
-**EN:** We return to architecture with a temple decorated with conches that carry feathers.
-
-### guion_corto
-
-**ES:** Un caracol con plumas. Parece una mezcla imposible, pero así decoraron los teotihuacanos este templo. Es el Templo de los Caracoles Emplumados, del Clásico Temprano, entre los años 200 y 300 después de Cristo. Está hecho con rocas esculpidas en bajorrelieve, de piedra caliza y estuco pulido, con pintura roja, verde y azul. Los caracoles tienen boquilla, como trompetas. De sus bocas salen gotas rojas y volutas que representan el sonido. Las pilastras de la entrada llevan flores de cuatro pétalos. El arqueólogo Jorge Acosta lo exploró e identificó en 1962 bajo el Palacio de Quetzalpapálotl, también llamado de las Mariposas. Por eso es más antiguo que el palacio.
-
-**EN:** A conch with feathers. It seems an impossible mix, but that is how the Teotihuacán people decorated this temple. It is the Temple of the Feathered Conches, from the Early Classic, between the years 200 and 300 AD. It is made of rocks carved in bas-relief, of limestone and polished stucco, with red, green, and blue paint. The conches have mouthpieces, like trumpets. Red drops and scrolls representing sound come out of their mouths. The pilasters at the entrance bear four-petaled flowers. The archaeologist Jorge Acosta explored and identified it in 1962 beneath the Palace of Quetzalpapálotl, also called the Palace of the Butterflies. That is why it is older than the palace.
-
-### guion_largo
-
-**ES:** A veces, para encontrar algo muy antiguo, hay que excavar debajo de algo antiguo. /  / Así ocurrió con este templo. En 1962, el arqueólogo Jorge Acosta lo exploró e identificó bajo el Palacio de Quetzalpapálotl, también llamado Palacio de las Mariposas. Está al suroeste de la Plaza de la Luna, en Teotihuacán. Es el Templo de los Caracoles Emplumados. /  / Pertenece al Clásico Temprano, entre los años 200 y 300 después de Cristo, es decir, a los siglos segundo y tercero. Por eso es anterior al palacio que se construyó sobre él. /  / Está hecho de rocas esculpidas en bajorrelieve, de piedra caliza, cubiertas de estuco pulido y decoradas con pintura roja, verde y azul. /  / El nombre lo dice todo. Los caracoles son moluscos marinos. Aquí están convertidos en trompetas, con boquilla, y adornados con plumas. /  / De sus bocas salen gotas rojas y unas volutas que representan el sonido, la palabra o el canto. Es como si los caracoles sonaran. Las pilastras de la entrada están decoradas con flores de cuatro pétalos, pintadas en varios colores. /  / Se supone que los caracoles marinos se relacionaban con el agua, un tema central para los teotihuacanos. Ellos honraban a Tláloc, dios de la lluvia, y a Chalchiuhtlicue, diosa de las aguas terrestres. /  / Es una imagen que mezcla agua, plumas y sonido. Y muestra algo importante: bajo los edificios más famosos de Teotihuacán hay otros todavía más antiguos.
-
-**EN:** Sometimes, to find something very ancient, you have to dig beneath something ancient. /  / That is what happened with this temple. In 1962, the archaeologist Jorge Acosta explored and identified it beneath the Palace of Quetzalpapálotl, also called the Palace of the Butterflies. It lies southwest of the Plaza of the Moon, in Teotihuacán. It is the Temple of the Feathered Conches. /  / It belongs to the Early Classic, between the years 200 and 300 AD, that is, to the second and third centuries. That is why it predates the palace that was built over it. /  / It is made of rocks carved in bas-relief, of limestone, covered with polished stucco and decorated with red, green, and blue paint. /  / The name says it all. Conches are marine mollusks. Here they have been turned into trumpets, with mouthpieces, and adorned with feathers. /  / Red drops come out of their mouths, along with scrolls that represent sound, the word, or song. It is as if the conches were sounding. The pilasters at the entrance are decorated with four-petaled flowers, painted in several colors. /  / It is assumed that marine conches were associated with water, a central theme for the Teotihuacán people. They honored Tláloc, god of rain, and Chalchiuhtlicue, goddess of terrestrial waters. /  / It is an image that blends water, feathers, and sound. And it shows something important: beneath the most famous buildings of Teotihuacán there are others that are even older.
+**EN:** Beneath the soil of Western Mexico lies an architecture that almost no one sees. It is the shaft tomb, a way of burying the dead that spread across Nayarit, Colima, and Jalisco during the Classic period. /  / The plan was simple and demanding. First, a vertical pit was dug, the shaft, from 2 to 16 meters deep. Then, from the bottom, one or several chambers were carved out. The rock that made this possible was volcanic tuff, a soft volcanic rock. /  / What you see here is a recreation of that space. Around the skeletons there are clay vessels, hollow and solid figurines, stone grinding slabs, conch shells, and shell ornaments. The hollow figures reproduce daily life in detail: warriors in armor, musicians with flutes and conch shells, dancers, sick people, and models of houses. It is as if the dead person were taking their world along. /  / Those vaulted chambers carried a meaning. It is thought that they symbolized the womb of the Earth. To leave the deceased there with food, ornaments, and sculptures was to prepare them to be reborn in the afterlife. /  / Once the ceremony was over, the shaft was sealed at the surface with stone slabs covered with earth, so that no one would disturb the tomb. But the entrance was not final. Over the years, families could reopen the chamber to lay new relatives to rest. A shaft tomb was, then, a family place to which one returned. /  / The figures of this tradition, such as the Colima dogs, the warriors, or the couples of Nayarit, were part of the grave goods of these chambers. They were not made to stand alone. They were made to keep someone company.
 
 ### retos_observacion
 
-**ES:** Busca los caracoles con boquilla, como trompetas. / Encuentra las plumas de cada caracol y las gotas rojas que salen de sus bocas. / Fíjate en las flores de cuatro pétalos de las pilastras.
+**ES:** Busca los esqueletos y las vasijas de barro que los rodean. / Encuentra los metates de piedra y los caracoles marinos del ajuar. / Fíjate en las figurillas, unas huecas y otras sólidas, junto al muerto.
 
-**EN:** Look for the conches with mouthpieces, like trumpets. / Find the feathers on each conch and the red drops coming out of their mouths. / Notice the four-petaled flowers on the pilasters.
-
-### especificaciones
-
-**ES:** Cultura: Teotihuacana / Periodo: Clásico Temprano (200-300 d.C.) / Material: Piedra caliza, estuco pulido y pigmentos minerales / Procedencia: Teotihuacán, Estado de México (subsuelo del Palacio de Quetzalpapálotl, al suroeste de la Plaza de la Luna) / Hallazgo: Explorado e identificado en 1962 por el arqueólogo Jorge Acosta bajo el Palacio de Quetzalpapálotl
-
-**EN:** Culture: Teotihuacán / Period: Early Classic (200-300 AD) / Material: Limestone, polished stucco, and mineral pigments / Origin: Teotihuacán, State of Mexico (beneath the Palace of Quetzalpapálotl, southwest of the Plaza of the Moon) / Discovery: Explored and identified in 1962 by the archaeologist Jorge Acosta beneath the Palace of Quetzalpapálotl
-
-### faq_mito
-
-**ES:** pregunta: Mito: Este templo se construyó después del Palacio de Quetzalpapálotl. / respuesta: Realidad: Es anterior: estaba bajo el palacio, y es de los siglos segundo y tercero después de Cristo.
-
-**EN:** pregunta: Myth: This temple was built after the Palace of Quetzalpapálotl. / respuesta: Reality: It is older: it lay beneath the palace, and it dates from the second and third centuries AD.
-
-## Pieza: mna_s04_brasero_teatro
-
-### titulo
-
-**ES:** Brasero ceremonial tipo teatro
-
-**EN:** Theater-Type Ceremonial Brazier
-
-### frase_gancho
-
-**ES:** Un escenario de barro con un rostro al centro, hecho para que el humo lo envolviera.
-
-**EN:** A clay stage with a face at its center, made to be wrapped in smoke.
-
-### puente_narrativo
-
-**ES:** Seguimos con un incensario de barro que tiene forma de escenario: se llama brasero tipo teatro.
-
-**EN:** We continue with a clay incense burner shaped like a stage: it is called a theater-type brazier.
-
-### guion_corto
-
-**ES:** Se llama tipo teatro porque tiene un escenario. La parte frontal de este incensario está cubierta por un armazón que enmarca un rostro humano central, con grandes orejeras. Es como un escenario que enmarca a un actor. Alrededor se disponen figuras moldeadas de mariposas, aves, escudos, círculos y abanicos de plumas. Abajo, una base acampanada hacía de cazuela para el carbón y la resina de copal. Detrás, una chimenea canalizaba el humo. Es de cerámica policroma, de la cultura teotihuacana, y se ubica en el Clásico Tardío, entre los años 450 y 650 después de Cristo. Lo halló completo, en 1911, el arqueólogo Manuel Gamio, en Azcapotzalco, Ciudad de México.
-
-**EN:** It is called theater-type because it has a stage. The front of this incense burner is covered by a frame that surrounds a central human face with large ear ornaments. It is like a stage framing an actor. Around it are molded figures of butterflies, birds, shields, circles, and feather fans. Below, a bell-shaped base served as a bowl for the charcoal and copal resin. Behind it, a chimney channeled the smoke. It is made of polychrome ceramic, from the Teotihuacán culture, and dates to the Late Classic, between 450 and 650 AD. The archaeologist Manuel Gamio found it complete in 1911, in Azcapotzalco, Mexico City.
-
-### guion_largo
-
-**ES:** El incensario tiene forma de teatro. Y su hallazgo cambió la forma de reconstruir muchos otros. /  / Es un brasero ceremonial de cerámica policroma, hecho de barro. Pertenece a la cultura teotihuacana y se ubica en el periodo Clásico, en su fase Tardía, entre los años 450 y 650 después de Cristo. Mide más de medio metro de alto. /  / Su estructura es de varias piezas. Abajo hay una base acampanada, que funcionaba como cazuela para colocar el carbón y la resina de copal. Encima se ajusta una chimenea, atrás, que canaliza el humo. /  / Al frente, un armazón cubre toda la superficie. Es el escenario. Dentro de él aparece un rostro humano con grandes orejeras. A su alrededor se disponen figuras de mariposas, aves, escudos, círculos y abanicos de plumas. /  / Las partes se moldearon de manera independiente, en serie, y se ensamblaron. De ahí el nombre tipo teatro: la estructura frontal enmarca la máscara central, igual que un escenario. /  / En 1911, Manuel Gamio lo encontró completo en Azcapotzalco. Eso fue un hito. Gracias a este ejemplar, los arqueólogos tuvieron un modelo para reconstruir el orden original de cientos de incensarios cuyas piezas se encontraban separadas.
-
-**EN:** The incense burner is shaped like a theater. And its discovery changed the way many others were reconstructed. /  / It is a ceremonial brazier of polychrome ceramic, made of clay. It belongs to the Teotihuacán culture and dates to the Classic period, in its Late phase, between 450 and 650 AD. It stands more than half a meter tall. /  / Its structure is made of several pieces. Below is a bell-shaped base, which worked as a bowl for placing the charcoal and copal resin. On top, a chimney fits at the back, channeling the smoke. /  / At the front, a frame covers the entire surface. This is the stage. Within it appears a human face with large ear ornaments. Around it are figures of butterflies, birds, shields, circles, and feather fans. /  / The parts were molded independently, in series, and then assembled. Hence the name theater-type: the front structure frames the central mask, just like a stage. /  / In 1911, Manuel Gamio found it complete in Azcapotzalco. That was a milestone. Thanks to this piece, archaeologists had a model for reconstructing the original arrangement of hundreds of incense burners whose pieces had been found separated.
-
-### retos_observacion
-
-**ES:** Busca el rostro humano en el centro, con grandes orejeras. / Encuentra las mariposas, las aves y los escudos moldeados. / Mira la base acampanada que servía de cazuela.
-
-**EN:** Look for the human face in the center, with large ear ornaments. / Find the molded butterflies, birds, and shields. / Look at the bell-shaped base that served as a bowl.
+**EN:** Look for the skeletons and the clay vessels around them. / Find the stone grinding slabs and the conch shells among the grave goods. / Notice the figurines, some hollow and others solid, next to the dead.
 
 ### especificaciones
 
-**ES:** Cultura: Teotihuacana / Periodo: Clásico Tardío (450-650 d.C.) / Material: Cerámica policromada, con pigmentos calizos / Procedencia: Azcapotzalco, Ciudad de México / Medidas: 0.76 m de alto x 0.414 m de diámetro / Hallazgo: Hallado completo en 1911 por Manuel Gamio en Azcapotzalco
+**ES:** Cultura: Tradición Tumbas de Tiro (asociada a las culturas de Nayarit, Colima y Jalisco) / Periodo: Clásico (200 a.C.-600 d.C.) / Material: Recreación museográfica con esqueletos humanos, vasijas de barro, figurillas huecas y sólidas, metates de piedra, caracoles marinos y adornos de concha; las cámaras originales se excavaban en toba volcánica o tepetate / Procedencia: Recreación basada en contextos arqueológicos de Nayarit, Colima y Jalisco
 
-**EN:** Culture: Teotihuacán / Period: Late Classic (450-650 AD) / Material: Polychrome ceramic, with lime-based pigments / Origin: Azcapotzalco, Mexico City / Dimensions: 0.76 m high x 0.414 m in diameter / Discovery: Found complete in 1911 by Manuel Gamio in Azcapotzalco
-
-### faq_mito
-
-**ES:** pregunta: Mito: Los braseros tipo teatro eran urnas para guardar cenizas de difuntos. / respuesta: Realidad: Eran incensarios: en la base se quemaba carbón y resina de copal, y la chimenea canalizaba el humo.
-
-**EN:** pregunta: Myth: Theater-type braziers were urns for keeping the ashes of the dead. / respuesta: Reality: They were incense burners: charcoal and copal resin were burned in the base, and the chimney channeled the smoke.
-
-## Pieza: mna_s04_animales_mitologicos
-
-### titulo
-
-**ES:** Mural de los Animales Mitológicos
-
-**EN:** Mural of the Mythological Animals
-
-### frase_gancho
-
-**ES:** Serpientes aladas devorando felinos, en una pared que luego fue tapada.
-
-**EN:** Winged serpents devouring felines, on a wall that was later covered over.
-
-### puente_narrativo
-
-**ES:** Cerramos la sala con un mural de seres que no existen: animales mitológicos pintados al fresco.
-
-**EN:** We close the hall with a mural of beings that do not exist: mythological animals painted in fresco.
-
-### guion_corto
-
-**ES:** Los teotihuacanos pintaban animales que no existen. En este mural, grandes serpientes con alas atacan a animales más pequeños, sobre todo felinos. Está pintado al fresco, sobre estuco y mortero de cal. Procede del Templo de los Animales Mitológicos, en la Calzada de los Muertos, en Teotihuacán. Es del periodo Clásico, entre los años 300 y 450 después de Cristo. Algunos estudiosos leen la escena como el eco de una disputa entre grupos de la élite, pero es solo una hipótesis. Se conservó por una razón curiosa: antes del año 350, una nueva fachada cubrió el mural y lo protegió durante siglos.
-
-**EN:** The Teotihuacán painted animals that do not exist. In this mural, great winged serpents attack smaller animals, mostly felines. It is painted in fresco, on stucco and lime mortar. It comes from the Temple of the Mythological Animals, on the Avenue of the Dead, in Teotihuacán. It dates to the Classic period, between 300 and 450 AD. Some scholars read the scene as the echo of a dispute between elite groups, but that is only a hypothesis. It survived for a curious reason: before the year 350, a new facade covered the mural and protected it for centuries.
-
-### guion_largo
-
-**ES:** Hay pinturas que se salvaron porque alguien las ocultó. Esta es una de ellas. /  / Es el Mural de los Animales Mitológicos, de la cultura teotihuacana. Procede del Templo de los Animales Mitológicos, en la Calzada de los Muertos, en Teotihuacán, Estado de México. Está pintado al fresco, sobre estuco y mortero de cal. En esa técnica, los pigmentos se aplican sobre el estuco todavía húmedo, y al secar quedan unidos a la pared. /  / Pertenece al periodo Clásico, entre los años 300 y 450 después de Cristo. Pero hay una fecha que importa más: el año 350. Antes de esa fecha, una nueva fachada cubrió el mural. Esa capa lo escondió, y también lo protegió. /  / La escena es intensa. Grandes serpientes con alas atacan y devoran a animales más pequeños, sobre todo felinos. Son criaturas fantásticas, que no existen en la naturaleza. Mira con calma las formas y los colores. /  / Algunos estudiosos han leído esta imagen como un reflejo de una disputa político religiosa entre grupos de la élite de la ciudad. Es solo una hipótesis. /  / Lo que ves es lo que sobrevivió a siglos bajo tierra. Una pared pintada que alguien tapó, y que alguien más descubrió.
-
-**EN:** Some paintings were saved because someone hid them. This is one of them. /  / This is the Mural of the Mythological Animals, from the Teotihuacán culture. It comes from the Temple of the Mythological Animals, on the Avenue of the Dead, in Teotihuacán, State of Mexico. It is painted in fresco, on stucco and lime mortar. In this technique, the pigments are applied to the stucco while it is still wet, and as it dries they become bonded to the wall. /  / It belongs to the Classic period, between 300 and 450 AD. But there is one date that matters more: the year 350. Before that date, a new facade covered the mural. That layer hid it, and it also protected it. /  / The scene is intense. Great winged serpents attack and devour smaller animals, mostly felines. They are fantastic creatures, which do not exist in nature. Take your time with the shapes and the colors. /  / Some scholars have read this image as a reflection of a political and religious dispute between elite groups in the city. It is only a hypothesis. /  / What you see is what survived centuries underground. A painted wall that someone covered, and that someone else uncovered.
-
-### retos_observacion
-
-**ES:** Busca las serpientes aladas que atacan a animales más pequeños. / Encuentra los felinos entre las víctimas. / Imagina el mural tapado por una nueva fachada, antes del año 350.
-
-**EN:** Look for the winged serpents attacking smaller animals. / Find the felines among the victims. / Imagine the mural covered by a new facade, before the year 350.
-
-### especificaciones
-
-**ES:** Cultura: Teotihuacana / Periodo: Clásico (300-450 d.C.) / Material: Pintura al fresco sobre estuco y mortero de cal / Procedencia: Teotihuacán, Estado de México (Calzada de los Muertos)
-
-**EN:** Culture: Teotihuacán / Period: Classic (300-450 AD) / Material: Fresco painting on stucco and lime mortar / Origin: Teotihuacán, State of Mexico (Avenue of the Dead)
-
-### faq_mito
-
-**ES:** pregunta: Mito: Los teotihuacanos pintaron estos animales porque vivían en su región. / respuesta: Realidad: Son seres mitológicos, animales que no existen. Se conservan porque una nueva fachada los cubrió antes del año 350.
-
-**EN:** pregunta: Myth: The Teotihuacán painted these animals because they lived in their region. / respuesta: Reality: They are mythological beings, animals that do not exist. They survive because a new facade covered them before the year 350.
-
-## Pieza: mna_s00_monolito_tlaloc
-
-### titulo
-
-**ES:** Monolito de Tláloc
-
-**EN:** Tláloc Monolith
-
-### frase_gancho
-
-**ES:** Tláloc, dios de la lluvia, hecho piedra volcánica y traído desde Coatlinchán.
-
-**EN:** Tláloc, god of rain, made of volcanic stone and brought from Coatlinchan.
-
-### puente_narrativo
-
-**ES:** Empezamos afuera del museo, con el dios del agua tallado en piedra volcánica que recibe a los visitantes.
-
-**EN:** We begin outside the museum, with the water god carved in volcanic stone who welcomes visitors.
-
-### guion_corto
-
-**ES:** Tláloc es el nombre náhuatl del dios de la lluvia. Esta escultura lo representa, y los antiguos pueblos nahuas lo veneraban como el dios del agua. Está tallada en piedra volcánica y viene de San Miguel Coatlinchán, en el Estado de México. Es una estatua gigantesca, y basta verla para entender por qué. Llegó a la Ciudad de México en los años sesenta del siglo veinte. Hoy recibe a los visitantes afuera del edificio, a cielo abierto, y su tamaño se nota desde lejos. Algunos investigadores han propuesto que podría ser Chalchiuhtlicue, una deidad femenina del agua. Es una propuesta, no una conclusión. Lo seguro es que habla del agua, de lo que la tierra necesita para dar vida.
-
-**EN:** Tláloc is the Nahuatl name of the god of rain. This sculpture represents him, and the ancient Nahua Peoples revered him as the god of water. It is carved from volcanic stone and comes from San Miguel Coatlinchan, in the State of Mexico. It is a gigantic statue, and one look is enough to see why. It arrived in Mexico City in the 1960s. Today it welcomes visitors outside the building, in the open air, and its size can be seen from far away. Some researchers have proposed that it might be Chalchiuhtlicue, a female water deity. It is a proposal, not a conclusion. What is certain is that it speaks of water, of what the earth needs in order to give life.
-
-### guion_largo
-
-**ES:** Tláloc es el dios del agua para los antiguos pueblos nahuas. En náhuatl, su nombre se entiende como dios de la lluvia. Esta es su imagen, tallada en piedra volcánica, y recibe a los visitantes antes de que entren al museo. Su tamaño es lo primero que se nota, y conviene medirlo con la vista, comparándolo con las personas que pasan a su lado. /  / La piedra procede de San Miguel Coatlinchán, en el Estado de México. Allí estaba antes de llegar al Bosque de Chapultepec. Su traslado ocurrió en los años sesenta del siglo veinte, y el año se da como 1963 o como 1964. Piensa en lo que significa mover una piedra de este tamaño desde un pueblo hasta una ciudad. Las referencias más repetidas hablan de unas 168 toneladas y siete metros de alto. /  / Algunos investigadores han propuesto que esta figura no sea Tláloc, sino Chalchiuhtlicue, una deidad femenina del agua. Es una propuesta y no una conclusión. En cualquiera de los dos casos, el tema es el mismo: el agua, de la que depende todo lo que vive. /  / Se suele fechar la escultura entre los siglos cuarto y sexto después de Cristo, y relacionarla con Teotihuacán. Es una hipótesis. Quiénes la tallaron y con qué ceremonias se rodeó siguen siendo preguntas abiertas. /  / La escultura está a cielo abierto, y eso tiene su lógica: un dios del agua expuesto al cielo, a las nubes y a la lluvia. Si llueve mientras la visitas, quizá te parezca que la piedra está en su elemento.
-
-**EN:** Tláloc is the water god for the ancient Nahua Peoples. In Nahuatl, his name is understood as god of rain. This is his image, carved in volcanic stone, and it welcomes visitors before they enter the museum. Its size is the first thing you notice, and it is worth measuring it with your eyes, comparing it with the people who pass by its side. /  / The stone comes from San Miguel Coatlinchan, in the State of Mexico. It stood there before arriving at Chapultepec Forest. Its transfer took place in the 1960s, and the year is given as either 1963 or 1964. Think about what it means to move a stone of this size from a town to a city. The most repeated references speak of around 168 tons and seven meters in height. /  / Some researchers have proposed that this figure is not Tláloc, but Chalchiuhtlicue, a female water deity. It is a proposal and not a conclusion. In either case, the theme is the same: water, on which everything that lives depends. /  / The sculpture is usually dated between the fourth and sixth centuries AD, and linked to Teotihuacán. It is a hypothesis. Who carved it, and with what ceremonies it was surrounded, remain open questions. /  / The sculpture stands in the open air, and that has its own logic: a water god exposed to the sky, to the clouds and to the rain. If it rains while you visit, the stone may seem to you to be in its element.
-
-### retos_observacion
-
-**ES:** Mide con la vista la figura completa y compárala con las personas que pasan cerca. / Fíjate en la piedra volcánica: busca si hay uniones, o si es un solo bloque. / Busca los rasgos con los que se representa a un dios del agua y la lluvia.
-
-**EN:** Measure the whole figure with your eyes and compare it with the people passing nearby. / Look closely at the volcanic stone: see whether there are joints, or whether it is a single block. / Look for the features used to represent a god of water and rain.
-
-### especificaciones
-
-**ES:** Material: Piedra volcánica / Procedencia: San Miguel Coatlinchan, Estado de México
-
-**EN:** Material: Volcanic stone / Origin: San Miguel Coatlinchan, State of Mexico
-
-### faq_mito
-
-**ES:** pregunta: Mito: Esta gran escultura es una obra moderna, hecha para decorar la entrada del museo. / respuesta: Realidad: Es una escultura prehispánica que representa a Tláloc. Procede de San Miguel Coatlinchan, en el Estado de México, y fue trasladada al museo.
-
-**EN:** pregunta: Myth: This great sculpture is a modern work, made to decorate the museum entrance. / respuesta: Reality: It is a pre-Hispanic sculpture that represents Tláloc. It comes from San Miguel Coatlinchan, in the State of Mexico, and was moved to the museum.
-
-## Pieza: mna_s00_fachada_celosia
-
-### titulo
-
-**ES:** Fachada de Mármol y Celosía Exterior
-
-**EN:** Marble Façade and Exterior Lattice
-
-### frase_gancho
-
-**ES:** Una celosía de aluminio inspirada en la piedra tallada de Uxmal.
-
-**EN:** An aluminum lattice inspired by the carved stone of Uxmal.
-
-### puente_narrativo
-
-**ES:** Ya en la puerta del museo, la fachada mezcla mármol, vidrio y una celosía de aluminio inspirada en Uxmal.
-
-**EN:** Now at the museum's door, the façade combines marble, glass, and an aluminum lattice inspired by Uxmal.
-
-### guion_corto
-
-**ES:** El 17 de septiembre de 1964 se inauguró el edificio del museo, con esta fachada incluida. El proyecto es del arquitecto Pedro Ramírez Vázquez, y se levanta en el Bosque de Chapultepec. Los muros son de mármol de Santo Tomás, de un gris blanquecino, y el cancel es de vidrio. En la fachada hay una celosía de aluminio anodizado, diseñada por Manuel Felguérez. Una celosía es una especie de reja calada, que deja pasar la luz y el aire. Su inspiración está en la plástica maya del estilo Puuc, el de Uxmal. Hay además un Escudo Nacional en bronce, obra de Tomás Chávez Morado. Son materiales modernos al servicio de ideas muy antiguas. Antes de cruzar la puerta, mira cómo pasa la luz por la celosía.
-
-**EN:** On September 17, 1964, the museum building was inaugurated, this façade included. The project is by the architect Pedro Ramírez Vázquez, and it stands in Chapultepec Forest. The walls are made of Santo Tomás marble, a whitish gray, and the glass screen door is made of glass. On the façade there is a lattice of anodized aluminum, designed by Manuel Felguérez. A lattice is a kind of openwork screen that lets light and air pass through. Its inspiration lies in the Maya sculptural art of the Puuc style, the style of Uxmal. There is also a National Coat of Arms in bronze, the work of Tomás Chávez Morado. These are modern materials in the service of very ancient ideas. Before you step through the door, notice how the light passes through the lattice.
-
-### guion_largo
-
-**ES:** Una fachada es la primera frase de un edificio. La de este museo dice, con pocos materiales, que lo moderno y lo antiguo pueden hablar juntos. /  / El proyecto del edificio es del arquitecto Pedro Ramírez Vázquez. Dos artistas aportaron piezas clave. Manuel Felguérez diseñó la celosía de aluminio, y Tomás Chávez Morado hizo el Escudo Nacional en bronce. Son tres nombres y varios materiales: mármol, aluminio, bronce y el vidrio del cancel. /  / El mármol es de Santo Tomás, de un tono gris blanquecino. El aluminio de la celosía es anodizado, es decir, tiene un tratamiento que protege su superficie. Una celosía es una especie de reja calada, que deja pasar la luz y el aire, pero filtra la mirada. /  / La de Felguérez tiene una inspiración precisa: la plástica maya del estilo Puuc, el de Uxmal. No es la copia de un muro antiguo. Es una traducción, que lleva un lenguaje de piedra tallada a un metal de su tiempo. Esa es la gran idea de la fachada. /  / El edificio se inauguró el 17 de septiembre de 1964, en el Bosque de Chapultepec. Es un edificio de grandes dimensiones, y esta fachada es la parte que da la cara a la ciudad. /  / Busca el Escudo Nacional en bronce. Compara su color con el del mármol y con el brillo del aluminio. Tres materiales, tres tonos y un solo edificio. /  / Es un museo que usa materiales de su tiempo para dialogar con el México antiguo.
-
-**EN:** A façade is the first sentence of a building. The façade of this museum says, with few materials, that the modern and the ancient can speak together. /  / The building's project is by the architect Pedro Ramírez Vázquez. Two artists contributed key pieces. Manuel Felguérez designed the aluminum lattice, and Tomás Chávez Morado made the National Coat of Arms in bronze. That makes three names and several materials: marble, aluminum, bronze, and the glass of the screen door. /  / The marble is from Santo Tomás, in a whitish gray tone. The aluminum of the lattice is anodized, which means it has a treatment that protects its surface. A lattice is a kind of openwork screen that lets light and air pass through, but filters the gaze. /  / Felguérez's lattice has a precise inspiration: the Maya sculptural art of the Puuc style, the style of Uxmal. It is not the copy of an ancient wall. It is a translation, one that carries a language of carved stone into a metal of its own time. That is the great idea of the façade. /  / The building was inaugurated on September 17, 1964, in Chapultepec Forest. It is a building of great dimensions, and this façade is the part that faces the city. /  / Look for the National Coat of Arms in bronze. Compare its color with that of the marble and with the shine of the aluminum. Three materials, three tones, and a single building. /  / It is a museum that uses materials of its own time to engage in dialogue with ancient Mexico.
-
-### retos_observacion
-
-**ES:** Busca la celosía de aluminio y sigue sus dibujos repetidos. / Compara el gris blanquecino del mármol con el brillo del aluminio. / Encuentra el Escudo Nacional en bronce y fíjate en su detalle.
-
-**EN:** Find the aluminum lattice and follow its repeated patterns. / Compare the whitish gray of the marble with the shine of the aluminum. / Find the National Coat of Arms in bronze and notice its detail.
-
-### especificaciones
-
-**ES:** Cultura: Arquitectura moderna mexicana: Pedro Ramírez Vázquez (proyecto del edificio), Manuel Felguérez (celosía de aluminio) y Tomás Chávez Morado (Escudo Nacional en bronce) / Periodo: 1964 (inaugurado el 17 de septiembre de 1964) / Material: Mármol de Santo Tomás (gris blanquecino), cancel de vidrio y celosía de aluminio anodizado / Procedencia: Bosque de Chapultepec, Ciudad de México
-
-**EN:** Culture: Modern Mexican architecture: Pedro Ramírez Vázquez (building project), Manuel Felguérez (aluminum lattice), and Tomás Chávez Morado (National Coat of Arms in bronze) / Period: 1964 (inaugurated on September 17, 1964) / Material: Santo Tomás marble (whitish gray), glass screen door, and anodized aluminum lattice / Origin: Chapultepec Forest, Mexico City
-
-### faq_mito
-
-**ES:** pregunta: Mito: La celosía es solo un adorno moderno, sin relación con el mundo prehispánico. / respuesta: Realidad: La diseñó Manuel Felguérez con inspiración en la plástica maya del estilo Puuc, el de Uxmal.
-
-**EN:** pregunta: Myth: The lattice is just a modern decoration, unrelated to the pre-Hispanic world. / respuesta: Reality: It was designed by Manuel Felguérez, inspired by the Maya sculptural art of the Puuc style, the style of Uxmal.
-
-## Pieza: mna_s00_el_paraguas
-
-### titulo
-
-**ES:** El Paraguas y Fuente Invertida
-
-**EN:** The Umbrella and Inverted Fountain
-
-### frase_gancho
-
-**ES:** Una sola columna sostiene un techo inmenso y de ella cae el agua en cascada.
-
-**EN:** A single column holds up an immense roof, and water cascades down from it.
-
-### puente_narrativo
-
-**ES:** Entramos al Patio Central, donde una sola columna sostiene un techo inmenso y de ella cae el agua.
-
-**EN:** We enter the Central Courtyard, where a single column holds up an immense roof and water falls from it.
-
-### guion_corto
-
-**ES:** ¿Cuántas columnas sostienen este enorme techo? Cuéntalas: solo una. Por eso se le conoce como el Paraguas. Es una cubierta que se apoya en una sola columna de concreto, con una estructura de acero, en el Patio Central del museo. De ella cae el agua en cascada, y por eso también se le llama fuente invertida. La columna está recubierta por un relieve de bronce que lleva por título Imagen de México. El proyecto es del arquitecto Pedro Ramírez Vázquez, y se inauguró en 1964. El relieve es obra de los artistas Chávez Morado. Un techo que protege, una columna que cuenta algo y un agua que no deja de caer: así se resume este patio.
-
-**EN:** How many columns hold up this enormous roof? Count them: just one. That is why it is known as the Umbrella. It is a canopy resting on a single concrete column, with a steel structure, in the museum’s Central Courtyard. Water cascades down from it, and that is why it is also called the inverted fountain. The column is covered by a bronze relief titled Image of Mexico. The project is by the architect Pedro Ramírez Vázquez, and it was inaugurated in 1964. The relief is the work of the artists Chávez Morado. A roof that shelters, a column that tells a story, and water that never stops falling: that sums up this courtyard.
-
-### guion_largo
-
-**ES:** Cuando un techo se sostiene sobre una sola columna, el espacio de abajo se siente libre. Eso es lo que logra el Paraguas, uno de los lugares más recordados del museo. /  / La estructura es de acero, la columna es de concreto y su superficie está cubierta por un relieve de bronce. En inglés se le llama umbrella roof, un techo paraguas. Además hay una instalación hidráulica que hace caer el agua en cascada. De ahí otro nombre, fuente invertida: en vez de subir, el agua cae desde arriba. /  / El proyecto es de Pedro Ramírez Vázquez, el arquitecto del museo entero. Se inauguró el 17 de septiembre de 1964, en el Patio Central, dentro del Bosque de Chapultepec. La cubierta mide unos ochenta y dos metros por cincuenta y cuatro. /  / El relieve de bronce se titula Imagen de México. Lo hicieron los artistas Chávez Morado, entre ellos Tomás. Cuenta la historia del país por medio de figuras. Se recorre mejor con la mirada, de arriba abajo, preguntándote qué imagen de México quisieron componer. /  / Piensa en el contraste de materiales. Arriba, una cubierta de acero. Abajo, una columna de concreto vestida de bronce. Y el agua, que cae sin parar. /  / En un museo dedicado a las culturas antiguas, el Paraguas es una obra de su tiempo. Un techo, una columna y una cascada: con tan pocos elementos, el patio se vuelve un lugar para recorrer sin prisa.
-
-**EN:** When a roof is held up by a single column, the space below feels free. That is what the Umbrella achieves, one of the most memorable places in the museum. /  / The structure is made of steel, the column is made of concrete, and its surface is covered by a bronze relief. In English, it is called an umbrella roof, a roof like an umbrella. There is also a hydraulic installation that makes the water cascade down. Hence another name, the inverted fountain: instead of rising, the water falls from above. /  / The project is by Pedro Ramírez Vázquez, the architect of the entire museum. It was inaugurated on September 17, 1964, in the Central Courtyard, within the Chapultepec Forest. The canopy measures about eighty-two meters by fifty-four. /  / The bronze relief is titled Image of Mexico. It was made by the artists Chávez Morado, among them Tomás. It tells the story of the country through figures. It is best explored with your eyes, from top to bottom, asking yourself what image of Mexico they wanted to compose. /  / Think about the contrast of materials. Above, a steel canopy. Below, a concrete column dressed in bronze. And the water, which falls without stopping. /  / In a museum devoted to ancient cultures, the Umbrella is a work of its own time. A roof, a column and a cascade: with so few elements, the courtyard becomes a place to wander without hurry.
-
-### retos_observacion
-
-**ES:** Cuenta las columnas que sostienen el techo del patio. / Recorre con la vista el relieve de bronce que cubre la columna. / Sigue la cascada de agua desde arriba hasta el piso.
-
-**EN:** Count the columns that hold up the courtyard’s roof. / Trace with your eyes the bronze relief that covers the column. / Follow the cascade of water from the top down to the floor.
-
-### especificaciones
-
-**ES:** Cultura: Arquitectura moderna mexicana: Pedro Ramírez Vázquez (arquitectura); relieve de bronce Imagen de México, de los artistas Chávez Morado / Periodo: 1964 (inaugurado el 17 de septiembre de 1964) / Material: Estructura de acero, columna de hormigón recubierta de relieve en bronce e instalación hidráulica de fuente en cascada / Procedencia: Patio Central, Museo Nacional de Antropología, Bosque de Chapultepec, Ciudad de México
-
-**EN:** Culture: Modern Mexican architecture: Pedro Ramírez Vázquez (architecture); bronze relief Image of Mexico, by the artists Chávez Morado / Period: 1964 (inaugurated on September 17, 1964) / Material: Steel structure, concrete column covered with a bronze relief, and a hydraulic installation for a cascading fountain / Origin: Central Courtyard, National Museum of Anthropology, Chapultepec Forest, Mexico City
-
-### faq_mito
-
-**ES:** pregunta: Mito: El Paraguas es solo un techo para protegernos de la lluvia. / respuesta: Realidad: Es una cubierta de acero sobre una columna de concreto, recubierta con un relieve de bronce titulado Imagen de México y con agua que cae en cascada; lo proyectó Pedro Ramírez Vázquez.
-
-**EN:** pregunta: Myth: The Umbrella is just a roof to protect us from the rain. / respuesta: Reality: It is a steel canopy over a concrete column, covered with a bronze relief titled Image of Mexico and with water that cascades down; it was designed by Pedro Ramírez Vázquez.
-
-## Pieza: mna_s00_espejo_caracol
-
-### titulo
-
-**ES:** El Espejo de Agua y Caracol de bronce
-
-**EN:** The Reflecting Pool and Bronze Conch
-
-### frase_gancho
-
-**ES:** Un estanque con tules y lirios, y un caracol de bronce en el patio central.
-
-**EN:** A pond with bulrushes and lilies, and a bronze conch in the central courtyard.
-
-### puente_narrativo
-
-**ES:** Seguimos hacia el extremo del patio, donde un estanque con plantas de agua prepara la entrada a la Sala Mexica.
-
-**EN:** We continue toward the far end of the courtyard, where a pond with water plants prepares the way into the Mexica Hall.
-
-### guion_corto
-
-**ES:** Un estanque, tules, lirios y un caracol de bronce: así se prepara el patio para entrar a la Sala Mexica. El estanque está en la segunda sección del Patio Central del museo, y se inauguró el 17 de septiembre de 1964. El patio y el estanque son del arquitecto Pedro Ramírez Vázquez. El caracol de bronce es del escultor Iker Larrauri. El agua está sobre un piso de piedra, y a su alrededor crecen plantas acuáticas, como los tules y los lirios. Esa vegetación recuerda los lagos del valle de México. En el estanque hay además un mechero de gas con forma de greca escalonada. Se dice que el caracol produce sonidos parecidos a los de los instrumentos prehispánicos. Es un lugar para mirar, para escuchar y para pasar despacio.
-
-**EN:** A pond, bulrushes, lilies and a bronze conch: this is how the courtyard gets ready for the entrance to the Mexica Hall. The pond is in the second section of the museum’s Central Courtyard, and it was inaugurated on September 17, 1964. The courtyard and the pond were designed by the architect Pedro Ramírez Vázquez. The bronze conch is the work of the sculptor Iker Larrauri. The water rests on a stone floor, and aquatic plants grow around it, such as bulrushes and lilies. That vegetation recalls the lakes of the Valley of Mexico. The pond also has a gas burner shaped like a stepped fret. It is said that the conch produces sounds similar to those of pre-Hispanic instruments. It is a place to look, to listen and to pass through slowly.
-
-### guion_largo
-
-**ES:** El agua del Patio Central no es solo decoración. Aquí hay un estanque con vegetación acuática, y en él, un caracol de bronce. /  / El patio y el estanque son del arquitecto Pedro Ramírez Vázquez, y se inauguraron junto con el museo el 17 de septiembre de 1964. La escultura del caracol es del escultor Iker Larrauri. El estanque está en la segunda sección del Patio Central, sobre un piso de piedra, con tules y lirios que crecen en el agua. /  / También hay un mechero de gas con forma de greca escalonada. Es un detalle fácil de pasar por alto, y que repite un motivo de la arquitectura antigua. /  / El caracol es de bronce, y se dice que produce sonidos parecidos a los de los instrumentos prehispánicos. Por eso es un objeto para mirar y también para escuchar. /  / Muchas de las culturas que guarda el museo vivieron junto a lagos, sobre todo en el valle de México. Este estanque, con sus plantas de agua, evoca ese paisaje antes de entrar a la Sala Mexica. /  / Antes de seguir, detente un momento. Mira el agua, busca el caracol y piensa en los lagos que rodeaban a los pueblos que vas a conocer.
-
-**EN:** The water in the Central Courtyard is not just decoration. Here there is a pond with aquatic vegetation, and in it, a bronze conch. /  / The courtyard and the pond were designed by the architect Pedro Ramírez Vázquez, and they were inaugurated together with the museum on September 17, 1964. The conch sculpture is the work of the sculptor Iker Larrauri. The pond is in the second section of the Central Courtyard, on a stone floor, with bulrushes and lilies growing in the water. /  / There is also a gas burner shaped like a stepped fret. It is a detail that is easy to overlook, and it repeats a motif from ancient architecture. /  / The conch is made of bronze, and it is said to produce sounds similar to those of pre-Hispanic instruments. That is why it is an object to look at and also to listen to. /  / Many of the cultures that the museum preserves lived beside lakes, especially in the Valley of Mexico. This pond, with its water plants, evokes that landscape before you enter the Mexica Hall. /  / Before going on, stop for a moment. Look at the water, find the conch and think about the lakes that surrounded the peoples you are about to meet.
-
-### retos_observacion
-
-**ES:** Busca el caracol de bronce dentro del estanque. / Mira los tules y los lirios: recuerdan los lagos del valle de México. / Encuentra el mechero de gas con forma de greca escalonada.
-
-**EN:** Find the bronze conch inside the pond. / Look at the bulrushes and the lilies: they recall the lakes of the Valley of Mexico. / Find the gas burner shaped like a stepped fret.
-
-### especificaciones
-
-**ES:** Cultura: Arte e integración plástica moderna mexicana: Pedro Ramírez Vázquez (diseño del patio y del estanque) e Iker Larrauri (escultura del Caracol de bronce) / Periodo: 1964 (inaugurado el 17 de septiembre de 1964) / Material: Estanque sobre piso de piedra con vegetación acuática (tules y lirios), mechero de gas en forma de greca escalonada y escultura de bronce / Procedencia: Segunda sección del Patio Central, Museo Nacional de Antropología, Ciudad de México
-
-**EN:** Culture: Modern Mexican art and plastic integration: Pedro Ramírez Vázquez (design of the courtyard and the pond) and Iker Larrauri (sculpture of the Bronze Conch) / Period: 1964 (inaugurated on September 17, 1964) / Material: Pond on a stone floor with aquatic vegetation (bulrushes and lilies), a gas burner in the shape of a stepped fret, and a bronze sculpture / Origin: Second section of the Central Courtyard, National Museum of Anthropology, Mexico City
-
-### faq_mito
-
-**ES:** pregunta: Mito: El estanque es solo una alberca decorativa. / respuesta: Realidad: Sus tules y lirios recuerdan los lagos del valle de México, y el caracol de bronce es obra del escultor Iker Larrauri.
-
-**EN:** pregunta: Myth: The pond is just a decorative pool. / respuesta: Reality: Its bulrushes and lilies recall the lakes of the Valley of Mexico, and the bronze conch is the work of the sculptor Iker Larrauri.
-
-## Pieza: mna_s00_mural_tamayo
-
-### titulo
-
-**ES:** Mural "La Dualidad" de Rufino Tamayo
-
-**EN:** Mural “La Dualidad” by Rufino Tamayo
-
-### frase_gancho
-
-**ES:** Una serpiente y un jaguar enfrentados bajo el sol, la luna y las constelaciones.
-
-**EN:** A serpent and a jaguar face each other beneath the sun, the moon, and the constellations.
-
-### puente_narrativo
-
-**ES:** Antes de entrar a las salas, un mural de Rufino Tamayo en el vestíbulo anuncia la idea que vas a ver una y otra vez: la dualidad.
-
-**EN:** Before you enter the halls, a mural by Rufino Tamayo in the lobby introduces the idea you will see again and again: duality.
-
-### guion_corto
-
-**ES:** Una serpiente y un jaguar se enfrentan sobre un fondo de cielo con astros. Es La Dualidad, el mural que pintó Rufino Tamayo en 1964 para el vestíbulo del museo. Tamayo nació en 1899 y murió en 1991. La obra mide 3.53 metros de alto y 12.21 de largo. En la escena se reconoce a Quetzalcóatl, la serpiente emplumada, y a Tezcatlipoca, el jaguar de la noche. Alrededor aparecen el sol, la luna y las constelaciones. La idea de fondo es la dualidad, la convivencia de opuestos como el día y la noche. Es un pensamiento mesoamericano muy antiguo, contado por un pintor moderno. Míralo antes de entrar a las salas, porque anuncia un modo de pensar el mundo que vas a encontrar muchas veces.
-
-**EN:** A serpent and a jaguar face off against a sky filled with stars and planets. This is La Dualidad, the mural Rufino Tamayo painted in 1964 for the museum’s lobby. Tamayo was born in 1899 and died in 1991. The work measures 3.53 meters high and 12.21 long. The scene shows Quetzalcóatl, the Feathered Serpent, and Tezcatlipoca, the jaguar of the night. Around them appear the sun, the moon, and the constellations. The underlying idea is duality, the coexistence of opposites such as day and night. It is a very ancient Mesoamerican way of thinking, told by a modern painter. Take a look before you enter the halls, because it announces a way of understanding the world that you will encounter many times.
-
-### guion_largo
-
-**ES:** Nada más entrar al museo, un mural de más de doce metros de largo recibe al visitante. Es La Dualidad, de Rufino Tamayo, pintado en 1964, el mismo año en que se inauguró el edificio. /  / Rufino Tamayo nació en 1899 y murió en 1991. Es uno de los grandes nombres de la pintura mexicana moderna. Su mural mide 3.53 metros de alto y 12.21 de largo, y está en el muro del vestíbulo principal de acceso. /  / La escena muestra una pelea entre dos animales: un jaguar que gruñe y una serpiente que sisea. Se interpretan como Tezcatlipoca, el dios de la noche, y Quetzalcóatl, la serpiente emplumada. Alrededor hay elementos del cielo: el sol, la luna y las constelaciones. /  / El título da la clave. La dualidad es la idea de que el universo se sostiene en pares de opuestos, como el día y la noche. Esos opuestos se necesitan. Es un pensamiento antiguo, presente en la cosmovisión de muchos pueblos mesoamericanos. Hoy lo cuenta un pintor del siglo veinte. /  / Que sea un mural moderno, en un museo de culturas antiguas, tiene sentido. Antes de recorrer las salas, el visitante recibe una pista. Los pueblos que va a conocer pensaban el mundo de una manera muy distinta a la de hoy. /  / Detente en los colores y en la composición. Fíjate dónde está cada animal y qué astros aparecen cerca de cada uno.
-
-**EN:** As soon as you enter the museum, a mural more than twelve meters long welcomes you. It is La Dualidad, by Rufino Tamayo, painted in 1964, the same year the building was inaugurated. /  / Rufino Tamayo was born in 1899 and died in 1991. He is one of the great names of modern Mexican painting. His mural measures 3.53 meters high and 12.21 long, and it covers the wall of the main entrance lobby. /  / The scene shows a fight between two animals: a jaguar that growls and a serpent that hisses. They are interpreted as Tezcatlipoca, the god of the night, and Quetzalcóatl, the Feathered Serpent. Around them are elements of the sky: the sun, the moon, and the constellations. /  / The title holds the key. Duality is the idea that the universe is sustained by pairs of opposites, like day and night. These opposites need each other. It is an ancient way of thinking, present in the worldview of many Mesoamerican peoples. Today it is told by a twentieth-century painter. /  / That it is a modern mural, in a museum of ancient cultures, makes sense. Before exploring the halls, the visitor receives a clue. The peoples you are about to meet thought about the world in a way very different from ours today. /  / Pause on the colors and the composition. Notice where each animal is and which celestial bodies appear near each one.
-
-### retos_observacion
-
-**ES:** Busca la serpiente y el jaguar frente a frente. / Encuentra el sol, la luna y las constelaciones del fondo. / Piensa qué opuestos ves en la escena: el día y la noche.
-
-**EN:** Find the serpent and the jaguar face to face. / Spot the sun, the moon, and the constellations in the background. / Think about which opposites you see in the scene: day and night.
-
-### especificaciones
-
-**ES:** Cultura: Rufino Tamayo (1899-1991), muralismo y arte moderno mexicano / Periodo: 1964 / Material: Acrílico sobre soporte de madera con textura de resina / Procedencia: Muro del vestíbulo principal de acceso, Museo Nacional de Antropología, Ciudad de México / Medidas: 3.53 m de alto x 12.21 m de largo
-
-**EN:** Culture: Rufino Tamayo (1899-1991), muralism and modern Mexican art / Period: 1964 / Material: Acrylic on a wooden support with a resin texture / Origin: Wall of the main entrance lobby, National Museum of Anthropology, Mexico City / Dimensions: 3.53 m high x 12.21 m long
-
-### faq_mito
-
-**ES:** pregunta: Mito: El mural de Tamayo cuenta la conquista, con aztecas contra españoles. / respuesta: Realidad: La Dualidad muestra a Quetzalcóatl y a Tezcatlipoca, la serpiente emplumada y el jaguar de la noche. Habla de la convivencia de opuestos, como el día y la noche.
-
-**EN:** pregunta: Myth: Tamayo’s mural tells the story of the conquest, with Aztecs against Spaniards. / respuesta: Reality: La Dualidad shows Quetzalcóatl and Tezcatlipoca, the Feathered Serpent and the jaguar of the night. It speaks of the coexistence of opposites, like day and night.
-
-## Pieza: mna_s08_cabeza_colosal_6
-
-### titulo
-
-**ES:** Cabeza Colosal 6 de San Lorenzo
-
-**EN:** Colossal Head 6 from San Lorenzo
-
-### frase_gancho
-
-**ES:** Un retrato olmeca de basalto, y cada cabeza colosal tiene un rostro propio.
-
-**EN:** An Olmec portrait in basalt, and every colossal head has a face of its own.
-
-### puente_narrativo
-
-**ES:** Entramos a la Costa del Golfo, tierra de selvas bajas y ríos caudalosos donde vivieron los olmecas.
-
-**EN:** We enter the Gulf Coast, a land of lowland jungles and mighty rivers where the Olmec lived.
-
-### guion_corto
-
-**ES:** Se calcula que esta cabeza pesa entre 8 y 10 toneladas, y su basalto vino de más de 60 kilómetros de distancia. Es la Cabeza Colosal 6, una escultura olmeca de San Lorenzo Tenochtitlán, en Veracruz. Mide 1.67 metros de alto, 1.41 de ancho y 99 centímetros de espesor. Los especialistas proponen que es el retrato de un gobernante, no la imagen de un dios. Por eso cada cabeza colosal tiene rasgos propios. Esta tiene la nariz ancha, los labios gruesos y la mirada fija al frente. Sobre la cabeza lleva un casco, y a los lados se ven las orejeras. Se supone que los bloques viajaron en balsas por los ríos y, en tierra firme, sobre rodillos de madera. Es obra del periodo Preclásico.
-
-**EN:** This head is estimated to weigh between 8 and 10 tons, and its basalt came from more than 60 kilometers away. It is Colossal Head 6, an Olmec sculpture from San Lorenzo Tenochtitlán, in Veracruz. It measures 1.67 meters high, 1.41 wide and 99 centimeters thick. Specialists propose that it is the portrait of a ruler, not the image of a god. That is why each colossal head has features of its own. This one has a broad nose, thick lips and a gaze fixed straight ahead. On its head it wears a helmet, and at the sides the ear ornaments can be seen. The blocks are thought to have traveled on rafts along the rivers and, on dry land, over wooden rollers. It is a work of the Preclassic period.
-
-### guion_largo
-
-**ES:** Primero el rostro, después el tamaño. Esta es la Cabeza Colosal 6, olmeca, tallada en basalto. Viene de San Lorenzo Tenochtitlán, en el municipio de Texistepec, Veracruz. Mide 1.67 metros de alto, 1.41 de ancho y 99 centímetros de espesor. Se calcula que pesa entre 8 y 10 toneladas. /  / Tiene la nariz ancha, los labios gruesos con las comisuras curvadas y la mirada fija al frente. Sobre la cabeza lleva un casco protector, decorado con insignias estilizadas. A los lados del rostro se ven orejeras rectangulares. /  / Los especialistas interpretan estas cabezas como retratos de gobernantes olmecas. Un argumento a favor es que cada una tiene un rostro distinto. Se han descubierto 17, repartidas entre San Lorenzo, La Venta, Tres Zapotes y La Cobata. De ellas, 10 son de San Lorenzo. /  / El basalto salió de las canteras de la sierra de Los Tuxtlas, a más de 60 kilómetros. Los arqueólogos suponen que los bloques viajaron en balsas por los ríos y que en tierra firme se movieron sobre rodillos de madera. Es una reconstrucción hecha a partir de lo que se conoce, no un hecho registrado. El tallado se hizo con percutores y herramientas de piedra dura, golpeando, grabando y puliendo con abrasivos. /  / Esta cabeza apareció durante las exploraciones que dirigió Matthew Stirling. San Lorenzo fue uno de los primeros centros ceremoniales olmecas, junto con La Venta y Tres Zapotes. Por su papel pionero, a los olmecas se les llama la cultura madre de Mesoamérica.
-
-**EN:** First the face, then the size. This is Colossal Head 6, Olmec, carved in basalt. It comes from San Lorenzo Tenochtitlán, in the municipality of Texistepec, Veracruz. It measures 1.67 meters high, 1.41 wide and 99 centimeters thick. It is estimated to weigh between 8 and 10 tons. /  / It has a broad nose, thick lips with curved corners, and a gaze fixed straight ahead. On its head it wears a protective helmet, decorated with stylized insignia. At the sides of the face, rectangular ear ornaments can be seen. /  / Specialists interpret these heads as portraits of Olmec rulers. One argument in favor is that each one has a different face. Seventeen have been discovered, spread among San Lorenzo, La Venta, Tres Zapotes and La Cobata. Of these, 10 are from San Lorenzo. /  / The basalt came from the quarries of the Tuxtlas mountains, more than 60 kilometers away. Archaeologists suppose that the blocks traveled on rafts along the rivers and that on dry land they were moved over wooden rollers. It is a reconstruction made from what is known, not a recorded fact. The carving was done with hammerstones and hard stone tools, striking, engraving and polishing with abrasives. /  / This head appeared during the explorations led by Matthew Stirling. San Lorenzo was one of the first Olmec ceremonial centers, along with La Venta and Tres Zapotes. Because of their pioneering role, the Olmec are called the mother culture of Mesoamerica.
-
-> Aviso: no encuentro estos números del español: 17
-
-### retos_observacion
-
-**ES:** Busca el casco liso con insignias que cubre la cabeza. / Mira las orejeras rectangulares a los lados del rostro. / Compara la nariz ancha con los labios gruesos y las comisuras curvadas.
-
-**EN:** Look for the smooth helmet with insignia that covers the head. / Notice the rectangular ear ornaments at the sides of the face. / Compare the broad nose with the thick lips and curved corners.
-
-### especificaciones
-
-**ES:** Cultura: Olmeca / Periodo: Preclásico Medio / Material: Basalto (roca volcánica) / Procedencia: San Lorenzo Tenochtitlán, municipio de Texistepec, Veracruz / Medidas: 1.67 m de alto x 1.41 m de ancho x 0.99 m de espesor
-
-**EN:** Culture: Olmec / Period: Middle Preclassic / Material: Basalt (volcanic rock) / Origin: San Lorenzo Tenochtitlán, municipality of Texistepec, Veracruz / Dimensions: 1.67 m high x 1.41 m wide x 0.99 m thick
-
-### faq_mito
-
-**ES:** pregunta: Mito: Las cabezas colosales olmecas representan a navegantes africanos o a seres venidos de otro mundo. / respuesta: Realidad: Los especialistas las interpretan como retratos de gobernantes olmecas, labrados en basalto de la sierra de Los Tuxtlas.
-
-**EN:** pregunta: Myth: The Olmec colossal heads represent African navigators or beings from another world. / respuesta: Reality: Specialists interpret them as portraits of Olmec rulers, carved in basalt from the Tuxtlas mountains.
-
-## Pieza: mna_s08_luchador_olmeca
-
-### titulo
-
-**ES:** El Luchador Olmeca
-
-**EN:** The Olmec Wrestler
-
-### frase_gancho
-
-**ES:** Anatomía de piedra que atrapó el movimiento eterno del guerrero.
-
-**EN:** Stone anatomy that captured the warrior’s eternal movement.
-
-### puente_narrativo
-
-**ES:** Seguimos con los olmecas y una escultura que parece en movimiento: El Luchador, un hombre de cuerpo atlético.
-
-**EN:** We continue with the Olmec and a sculpture that seems to be in motion: The Wrestler, a man with an athletic body.
-
-### guion_corto
-
-**ES:** Lo llaman El Luchador por su postura atlética, pero los especialistas piensan que no es un combate. Es una escultura olmeca de basalto, de sesenta y seis centímetros de alto, que viene de Antonio Plaza, en Veracruz. Muestra a un hombre maduro, de cuerpo atlético y cabeza rapada, con bigote y barba marcados en relieve. Está sentado en el suelo con las piernas cruzadas. Inclina el torso hacia el frente y levanta los brazos en un giro que casi no tiene igual en el arte mesoamericano temprano. Los especialistas proponen que representa a un soberano o a un chamán olmeca. Estaría en medio de una danza ritual, de un ejercicio para el juego de pelota o de un trance. Fue labrada en el periodo Preclásico Medio y está hecha para verse desde todos los lados.
-
-**EN:** It is called The Wrestler because of its athletic posture, but specialists think it does not show a fight. It is an Olmec sculpture of basalt, sixty-six centimeters tall, that comes from Antonio Plaza, in Veracruz. It shows a mature man with an athletic body and a shaved head, with a mustache and beard marked in relief. He is seated on the ground with his legs crossed. He leans his torso forward and raises his arms in a twist that has almost no equal in early Mesoamerican art. Specialists propose that it represents an Olmec ruler or shaman. He would be in the middle of a ritual dance, an exercise for the ball game, or a trance. It was carved in the Middle Preclassic period and is made to be seen from every side.
-
-### guion_largo
-
-**ES:** Esta pieza se conoce como El Luchador Olmeca o El Luchador de Antonio Plaza. Es de la cultura olmeca y está hecha de basalto. Mide sesenta y seis centímetros de alto, cuarenta de ancho y cuarenta y dos de espesor. Viene de Antonio Plaza, en Veracruz, y pertenece al periodo Preclásico Medio. /  / Su hallazgo fue casual. En mil novecientos treinta y tres, un campesino araba la tierra en Antonio Plaza y descubrió la escultura. De ahí en adelante se sabe poco, y por eso no inventamos el resto de la historia. /  / Es una pieza pequeña si la comparas con las cabezas colosales, que también son de basalto y pesan toneladas. Aquí el reto fue otro, capturar un cuerpo en movimiento. La escultura es de bulto redondo, es decir, está tallada para verse desde todos los lados. Conviene rodearla, porque cada ángulo cuenta algo distinto. /  / El personaje es un hombre maduro, de complexión atlética y con la cabeza rapada. Tiene bigote y barba, marcados en relieve. Está sentado en el suelo con las piernas cruzadas. Inclina el torso hacia el frente y levanta los brazos. Los especialistas hablan de un movimiento helicoidal, como si el cuerpo girara sobre sí mismo. Dicen que es muy raro en el arte mesoamericano temprano. /  / Mira con calma el rostro y el cuerpo. El hombre es maduro y de complexión atlética. Su cabeza rapada contrasta con el bigote y la barba, que sí están marcados en relieve. Los olmecas hicieron esculturas de bulto de muy distintos tamaños, desde cabezas colosales hasta figuras tan delicadas como esta. /  / Entonces, ¿qué hace este hombre? El apodo viene de su postura atlética. Pero los especialistas coinciden en que no representa a un luchador. Proponen que es un soberano o un chamán olmeca. La escena sería una de tres: una danza ritual, un ejercicio de preparación para el juego de pelota o un estado de trance. Ninguna de las tres es un hecho comprobado. Son hipótesis que ayudan a explicar por qué el cuerpo está tan tenso. /  / Piensa en lo que significa lograr esa torsión en una roca tan dura. Los olmecas esculpieron enormes bloques de basalto, y también dominaron minerales de gran dureza, como la jadeíta y la serpentina. En esta sala conviven la fuerza quieta de las cabezas colosales y la tensión de un cuerpo en pleno giro.
-
-**EN:** This piece is known as The Olmec Wrestler or The Wrestler of Antonio Plaza. It belongs to the Olmec culture and is made of basalt. It measures sixty-six centimeters tall, forty wide and forty-two thick. It comes from Antonio Plaza, in Veracruz, and belongs to the Middle Preclassic period. /  / Its discovery was by chance. In nineteen thirty-three, a farmer was plowing the land in Antonio Plaza and found the sculpture. From then on, little is known, and for that reason we do not invent the rest of the story. /  / It is a small piece if you compare it with the colossal heads, which are also made of basalt and weigh tons. Here the challenge was different: capturing a body in motion. The sculpture is carved in the round, that is, it is carved to be seen from every side. It is worth walking around it, because each angle tells something different. /  / The figure is a mature man with an athletic build and a shaved head. He has a mustache and beard, marked in relief. He is seated on the ground with his legs crossed. He leans his torso forward and raises his arms. Specialists speak of a helical movement, as if the body were turning on itself. They say it is very rare in early Mesoamerican art. /  / Take a calm look at the face and the body. The man is mature and athletic in build. His shaved head contrasts with the mustache and beard, which are indeed marked in relief. The Olmec made sculptures in the round in very different sizes, from colossal heads to figures as delicate as this one. /  / So, what is this man doing? The nickname comes from his athletic posture. But specialists agree that it does not represent a wrestler. They propose that he is an Olmec ruler or shaman. The scene would be one of three: a ritual dance, a preparation exercise for the ball game, or a state of trance. None of the three is a proven fact. They are hypotheses that help explain why the body is so tense. /  / Think about what it means to achieve that twist in such a hard rock. The Olmec sculpted enormous blocks of basalt, and they also mastered extremely hard minerals, such as jadeite and serpentine. In this hall, the still strength of the colossal heads lives alongside the tension of a body in the midst of a turn.
-
-### retos_observacion
-
-**ES:** Busca el bigote y la barba marcados en relieve. / Fíjate cómo cruza las piernas, sentado en el suelo. / Sigue la torsión del torso y los brazos levantados.
-
-**EN:** Look for the mustache and beard marked in relief. / Notice how he crosses his legs, seated on the ground. / Follow the twist of the torso and the raised arms.
-
-### especificaciones
-
-**ES:** Cultura: Olmeca / Periodo: Preclásico Medio / Material: Basalto / Procedencia: Antonio Plaza, municipio de Jesús Carranza, Veracruz / Medidas: 0.66 m de alto x 0.40 m de ancho x 0.42 m de espesor / Hallazgo: Descubierto por casualidad en 1933 por un campesino que araba la tierra
-
-**EN:** Culture: Olmec / Period: Middle Preclassic / Material: Basalt / Origin: Antonio Plaza, municipality of Jesús Carranza, Veracruz / Dimensions: 0.66 m tall x 0.40 m wide x 0.42 m thick / Discovery: Found by chance in 1933 by a farmer who was plowing the land
-
-### faq_mito
-
-**ES:** pregunta: Mito: El Luchador Olmeca es un gladiador romano o un atleta griego que llegó a América. / respuesta: Realidad: Es una escultura olmeca. Los especialistas piensan que representa a un soberano o chamán en una danza ritual, un ejercicio para el juego de pelota o un trance.
-
-**EN:** pregunta: Myth: The Olmec Wrestler is a Roman gladiator or a Greek athlete who came to the Americas. / respuesta: Reality: It is an Olmec sculpture. Specialists think it represents a ruler or shaman in a ritual dance, an exercise for the ball game, or a trance.
-
-## Pieza: mna_s08_senor_las_limas
-
-### titulo
-
-**ES:** El Señor de Las Limas
-
-**EN:** The Lord of Las Limas
-
-### frase_gancho
-
-**ES:** La encontraron dos niños que buscaban una tortuga.
-
-**EN:** Two children looking for a turtle found it.
-
-### puente_narrativo
-
-**ES:** Pasamos de las cabezas colosales a una pieza pequeña y muy distinta: una escultura de piedra verde que encontraron dos niños.
-
-**EN:** We move from the Colossal Heads to a small and very different piece: a green stone sculpture found by two children.
-
-### guion_corto
-
-**ES:** El 16 de julio de 1965, dos niños buscaban una tortuga en la comunidad de Las Limas, en Veracruz. Se llamaban Severiano y Rosa Manuel Esteban. En lugar de la tortuga encontraron una escultura olmeca de serpentina, una piedra verde. Hoy se conoce como El Señor de Las Limas. Mide 55 centímetros de alto, 42 de ancho y 33 de espesor. Fue labrada en el Preclásico Medio, por una cultura que trabajó con gran destreza las piedras verdes. Muestra a un hombre sentado con las piernas cruzadas que sostiene a un niño sobre el regazo. Quién la talló y para qué sigue siendo una incógnita, y cualquier explicación es una hipótesis. Lo que sí consta es que no la halló un equipo de especialistas, sino dos niños por casualidad.
-
-**EN:** On July 16, 1965, two children were looking for a turtle in the community of Las Limas, in Veracruz. Their names were Severiano and Rosa Manuel Esteban. Instead of the turtle, they found an Olmec sculpture made of serpentine, a green stone. Today it is known as the Lord of Las Limas. It measures 55 centimeters high, 42 wide and 33 thick. It was carved in the Middle Preclassic, by a culture that worked green stones with great skill. It shows a seated man with his legs crossed, holding a child on his lap. Who carved it and for what purpose remains a mystery, and any explanation is a hypothesis. What is certain is that it was not found by a team of specialists, but by two children, by chance.
-
-### guion_largo
-
-**ES:** Su hallazgo parece de cuento. El 16 de julio de 1965, dos niños, Severiano y Rosa Manuel Esteban, buscaban una tortuga en la comunidad de Las Limas. En lugar de la tortuga encontraron la escultura. No fue una excavación planeada ni un descubrimiento de especialistas. De esa comunidad viene el nombre con que hoy se conoce la pieza. /  / Es una escultura olmeca de serpentina, una piedra verde. Mide 55 centímetros de alto, 42 de ancho y 33 de espesor. Es del Preclásico Medio y viene de Las Limas, en el municipio de Jesús Carranza, Veracruz. /  / La serpentina no es fácil de trabajar. Los olmecas destacaron por labrar minerales de gran dureza, como la jadeíta, la serpentina y la magnetita. Con ellos hicieron máscaras, hachas ceremoniales y pectorales. Esta escultura continúa esa tradición. /  / Muestra a un hombre sentado, con las piernas cruzadas, que sostiene a un niño sobre el regazo. Cualquier lectura de esta escena es una hipótesis. Lo que se ve es una composición pensada con cuidado. /  / Los olmecas vivieron en selvas bajas y a orillas de ríos caudalosos, en el sur de Veracruz y Tabasco. Fundaron centros como San Lorenzo, La Venta y Tres Zapotes. Es mucho más pequeña que una cabeza colosal, pero comparte con ellas un trabajo cuidadoso en una piedra difícil.
-
-**EN:** Its discovery sounds like a fairy tale. On July 16, 1965, two children, Severiano and Rosa Manuel Esteban, were looking for a turtle in the community of Las Limas. Instead of the turtle, they found the sculpture. It was not a planned excavation or a discovery made by specialists. The piece takes the name by which it is known today from that community. /  / It is an Olmec sculpture made of serpentine, a green stone. It measures 55 centimeters high, 42 wide and 33 thick. It dates to the Middle Preclassic (Preclassic) and comes from Las Limas, in the municipality of Jesús Carranza, Veracruz. /  / Serpentine is not easy to work. The Olmec stood out for carving extremely hard minerals, such as jadeite, serpentine and magnetite. With them they made masks, ceremonial axes and pectorals. This sculpture continues that tradition. /  / It shows a seated man, with his legs crossed, holding a child on his lap. Any reading of this scene is a hypothesis. What can be seen is a carefully thought-out composition. /  / The Olmec lived in low-lying jungles and along the banks of mighty rivers, in southern Veracruz and Tabasco. They founded centers such as San Lorenzo, La Venta and Tres Zapotes. It is much smaller than a Colossal Head, but it shares with them careful work in a difficult stone.
-
-### retos_observacion
-
-**ES:** Busca al hombre sentado con las piernas cruzadas. / Fíjate en el niño que sostiene sobre el regazo. / Mira el color verde de la piedra: es serpentina.
-
-**EN:** Look for the seated man with his legs crossed. / Notice the child he holds on his lap. / Look at the green color of the stone: it is serpentine.
-
-### especificaciones
-
-**ES:** Cultura: Olmeca / Periodo: Preclásico Medio / Material: Serpentina / Procedencia: Las Limas, municipio de Jesús Carranza, Veracruz / Medidas: 0.55 m de alto x 0.42 m de ancho x 0.33 m de espesor / Hallazgo: Descubierto el 16 de julio de 1965 por dos niños, Severiano y Rosa Manuel Esteban, que buscaban una tortuga
-
-**EN:** Culture: Olmec / Period: Middle Preclassic / Material: Serpentine / Origin: Las Limas, municipality of Jesús Carranza, Veracruz / Dimensions: 0.55 m high x 0.42 m wide x 0.33 m thick / Discovery: Discovered on July 16, 1965 by two children, Severiano and Rosa Manuel Esteban, who were looking for a turtle
-
-### faq_mito
-
-**ES:** pregunta: Mito: Un equipo de arqueólogos lo encontró durante una excavación. / respuesta: Realidad: Lo encontraron dos niños, Severiano y Rosa Manuel Esteban, el 16 de julio de 1965. Buscaban una tortuga.
-
-**EN:** pregunta: Myth: A team of archaeologists found it during an excavation. / respuesta: Reality: It was found by two children, Severiano and Rosa Manuel Esteban, on July 16, 1965. They were looking for a turtle.
-
-## Pieza: mna_s08_ofrenda4_laventa
-
-### titulo
-
-**ES:** Ofrenda 4 de La Venta
-
-**EN:** Offering 4 of La Venta
-
-### frase_gancho
-
-**ES:** Dieciséis figuras y seis hachas de piedra verde, enterradas juntas en La Venta.
-
-**EN:** Sixteen figures and six green stone axes, buried together at La Venta.
-
-### puente_narrativo
-
-**ES:** Dejamos la gran cabeza para ver algo más callado: un grupo de figuras y hachas que se enterraron juntas, con una intención ritual.
-
-**EN:** We leave the great head behind to look at something quieter: a group of figures and axes that were buried together, with a ritual purpose.
-
-### guion_corto
-
-**ES:** Dieciséis figuras de piedra y seis hachas verdes forman la Ofrenda 4 de La Venta, en Tabasco. Las figuras son estatuillas de hombres y miden entre 16 y 20 centímetros de alto. Las hachas, colocadas de pie a manera de estelas, miden entre 23 y 27. Todo está tallado en serpentina, jadeíta y granito verde. Es obra de los olmecas, del Preclásico Medio. La descubrió en 1955 el arqueólogo Eduardo Contreras, en el Complejo A. Una ofrenda es un conjunto de objetos dejado con una intención ritual. Por eso importa el orden en que se colocaron las piezas, y no solo cada una por separado. Mira las figuras como un solo conjunto, que es como fueron pensadas.
-
-**EN:** Sixteen stone figures and six green axes make up Offering 4 of La Venta, in Tabasco. The figures are statuettes of men and measure between 16 and 20 centimeters tall. The axes, placed upright like stelae, measure between 23 and 27. Everything is carved from serpentine, jadeite, and green granite. It is the work of the Olmec, from the Middle Preclassic. It was discovered in 1955 by the archaeologist Eduardo Contreras, in Complex A. An offering is a set of objects left with a ritual purpose. That is why the order in which the pieces were placed matters, and not just each one on its own. Look at the figures as a single group, which is how they were conceived.
-
-### guion_largo
-
-**ES:** La Venta es un sitio olmeca del municipio de Huimanguillo, en Tabasco. Allí, en el Complejo A, apareció en 1955 esta ofrenda, que descubrió el arqueólogo Eduardo Contreras. Reúne 16 estatuillas de hombres y seis hachas, y pertenece al Preclásico Medio. /  / Las estatuillas miden entre 16 y 20 centímetros de alto. Las hachas son más altas, de 23 a 27 centímetros, y están dispuestas de pie, a manera de estelas. Todo se talló en serpentina, jadeíta y granito verde. /  / Desde que se halló, se estudia como un solo conjunto y no como piezas sueltas. Es una composición pensada para verse unida. Una ofrenda se deja enterrada con una intención ritual, y nada se coloca al azar. La posición de cada pieza, la cantidad y los materiales forman parte del mensaje. /  / Qué escena quisieron representar los olmecas no está confirmado. Lo que sí se ve es cantidad, orden y materiales elegidos. /  / La Venta fue uno de los primeros centros ceremoniales olmecas, junto con San Lorenzo y Tres Zapotes. Los olmecas vivieron en selvas bajas y ríos caudalosos del sur de Veracruz y Tabasco. Cuenta las estatuillas y las hachas, y compara sus alturas: las hachas son más altas que las figuras.
-
-**EN:** La Venta is an Olmec site in the municipality of Huimanguillo, in Tabasco. There, in Complex A, this offering appeared in 1955, discovered by the archaeologist Eduardo Contreras. It brings together 16 statuettes of men and six axes, and belongs to the Middle Preclassic. /  / The statuettes measure between 16 and 20 centimeters tall. The axes are taller, from 23 to 27 centimeters, and are arranged upright, like stelae. Everything was carved from serpentine, jadeite, and green granite. /  / Since it was found, it has been studied as a single group and not as separate pieces. It is a composition conceived to be seen as a whole. An offering is left buried with a ritual purpose, and nothing is placed by chance. The position of each piece, the number, and the materials are all part of the message. /  / What scene the Olmec meant to represent has not been confirmed. What can be seen is quantity, order, and carefully chosen materials. /  / La Venta was one of the first Olmec ceremonial centers, along with San Lorenzo and Tres Zapotes. The Olmec lived in lowland rainforests and along mighty rivers in southern Veracruz and Tabasco. Count the statuettes and the axes, and compare their heights: the axes are taller than the figures.
-
-### retos_observacion
-
-**ES:** Cuenta las estatuillas: son dieciséis figuras de hombres. / Busca las seis hachas colocadas de pie, como estelas. / Compara la altura de las hachas con la de las figuras.
-
-**EN:** Count the statuettes: there are sixteen figures of men. / Find the six axes placed upright, like stelae. / Compare the height of the axes with that of the figures.
-
-### especificaciones
-
-**ES:** Cultura: Olmeca / Periodo: Preclásico Medio / Material: Serpentina, jadeíta y granito verde / Procedencia: La Venta, municipio de Huimanguillo, Tabasco / Medidas: Estatuillas: 0.16 a 0.20 m de alto; hachas: 0.23 a 0.27 m de alto / Hallazgo: Descubierta en 1955 por el arqueólogo Eduardo Contreras en el Complejo A de La Venta
-
-**EN:** Culture: Olmec / Period: Middle Preclassic / Material: Serpentine, jadeite, and green granite / Origin: La Venta, municipality of Huimanguillo, Tabasco / Dimensions: Statuettes: 0.16 to 0.20 m tall; axes: 0.23 to 0.27 m tall / Discovery: Discovered in 1955 by the archaeologist Eduardo Contreras in Complex A of La Venta
-
-### faq_mito
-
-**ES:** pregunta: Mito: Las figuras de la Ofrenda 4 de La Venta son juguetes o muñecos decorativos. / respuesta: Realidad: Forman una ofrenda. Son dieciséis estatuillas y seis hachas de serpentina, jadeíta y granito verde, halladas en el Complejo A de La Venta.
-
-**EN:** pregunta: Myth: The figures of Offering 4 of La Venta are toys or decorative dolls. / respuesta: Reality: They form an offering. They are sixteen statuettes and six axes of serpentine, jadeite, and green granite, found in Complex A of La Venta.
-
-## Pieza: mna_s08_hacha_votiva_jade
-
-### titulo
-
-**ES:** Hacha votiva olmeca de jade (Tipo Kunz)
-
-**EN:** Olmec Jade Votive Axe (Kunz Type)
-
-### frase_gancho
-
-**ES:** Una lámina verde de apenas tres centímetros de espesor, grabada con líneas finas.
-
-**EN:** A green slab barely three centimeters thick, engraved with fine lines.
-
-### puente_narrativo
-
-**ES:** Cerramos el bloque olmeca con una pieza pequeña y delicada: una placa de piedra verde con líneas finas grabadas.
-
-**EN:** We close the Olmec section with a small, delicate piece: a plaque of green stone with fine engraved lines.
-
-### guion_corto
-
-**ES:** Lo que hace especial a esta pieza casi no se ve de frente: tiene solo 3 centímetros de espesor. Es el Hacha votiva olmeca de jade, conocida como Tipo Kunz. Mide 29 centímetros de alto y 13.5 de ancho. Es una lámina delgada de piedra verde, con líneas incisas en la superficie. Los olmecas la labraron en el Preclásico Medio, y viene de la Costa del Golfo de México. Votiva quiere decir que se ofrecía en un contexto ritual. Los olmecas destacaron por labrar piedras muy duras, como la jadeíta y la serpentina. Con ellas hicieron hachas ceremoniales, máscaras y pectorales. Lo más delicado son las líneas finas grabadas sobre la piedra.
-
-**EN:** What makes this piece special is almost invisible from the front: it is only 3 centimeters thick. It is the Olmec Jade Votive Axe, known as the Kunz Type. It measures 29 centimeters high and 13.5 wide. It is a thin slab of green stone, with incised lines on its surface. The Olmec carved it in the Middle Preclassic, and it comes from the Gulf Coast of the Gulf of Mexico. Votive means that it was offered in a ritual context. The Olmec stood out for carving very hard stones, such as jadeite and serpentine. With them they made ceremonial axes, masks, and pectorals. The most delicate feature is the fine lines engraved on the stone.
-
-### guion_largo
-
-**ES:** Esta pieza cambia según desde dónde la mires. De frente es una lámina verde. De lado casi desaparece, porque tiene solo 3 centímetros de espesor. Es el Hacha votiva olmeca de jade, conocida como Tipo Kunz. Mide 29 centímetros de alto y 13.5 de ancho. /  / Es de piedra verde, jadeíta o serpentina, de un verde oscuro y de gran dureza. Su forma se parece más a una placa que a una herramienta. En la superficie tiene incisiones, es decir, líneas finas grabadas. /  / Viene de la Costa del Golfo de México y es del Preclásico Medio. El nombre dice hacha, pero la palabra votiva cambia el sentido. Un objeto votivo se ofrece en un contexto ritual. /  / Las hachas ceremoniales de piedra verde forman parte del repertorio olmeca, junto con las máscaras y los pectorales. Los olmecas destacaron por labrar minerales de extrema dureza, como la jadeíta, la serpentina y la magnetita. /  / Trabajar una piedra así hasta dejarla en una lámina de 3 centímetros, y grabarle líneas finas, exige paciencia y mucha habilidad. Compara sus tres medidas: 29 de alto, 13.5 de ancho y 3 de espesor. Esa delgadez es lo que la distingue en esta sala.
-
-**EN:** This piece changes depending on where you look at it from. From the front, it is a green slab. From the side, it almost disappears, because it is only 3 centimeters thick. It is the Olmec Jade Votive Axe, known as the Kunz Type. It measures 29 centimeters high and 13.5 wide. /  / It is made of green stone, jadeite or serpentine, dark green and extremely hard. Its shape is more like a plaque than a tool. On its surface it has incisions, that is, fine engraved lines. /  / It comes from the Gulf Coast of the Gulf of Mexico and dates to the Middle Preclassic. The name says axe, but the word votive changes the meaning. A votive object is offered in a ritual context. /  / Ceremonial axes of green stone are part of the Olmec repertoire, along with masks and pectorals. The Olmec stood out for carving extremely hard minerals, such as jadeite, serpentine, and magnetite. /  / Working a stone like this until it becomes a slab 3 centimeters thick, and engraving fine lines on it, demands patience and great skill. Compare its three measurements: 29 high, 13.5 wide, and 3 thick. That thinness is what sets it apart in this hall.
-
-### retos_observacion
-
-**ES:** Busca las líneas incisas grabadas sobre la piedra. / Fíjate en el verde oscuro de la superficie. / Compara su altura con su espesor: veintinueve contra tres.
-
-**EN:** Look for the incised lines engraved on the stone. / Notice the dark green of the surface. / Compare its height with its thickness: twenty-nine against three.
-
-### especificaciones
-
-**ES:** Cultura: Olmeca / Periodo: Preclásico Medio / Material: Jadeíta (verde oscuro, con incisiones) / Procedencia: Costa del Golfo, México / Medidas: 0.29 m de alto x 0.135 m de ancho x 0.03 m de espesor
-
-**EN:** Culture: Olmec / Period: Middle Preclassic / Material: Jadeite (dark green, with incisions) / Origin: Gulf Coast, Mexico / Dimensions: 0.29 m high x 0.135 m wide x 0.03 m thick
-
-### faq_mito
-
-**ES:** pregunta: Mito: Las hachas de jade como esta eran armas de guerra. / respuesta: Realidad: Esta es una hacha votiva, es decir, ceremonial. Es una lámina de piedra verde de solo tres centímetros de espesor, con líneas incisas.
-
-**EN:** pregunta: Myth: Jade axes like this one were weapons of war. / respuesta: Reality: This is a votive axe, that is, a ceremonial one. It is a slab of green stone only three centimeters thick, with incised lines.
-
-## Pieza: mna_s08_carita_sonriente
-
-### titulo
-
-**ES:** Escultura de Carita Sonriente
-
-**EN:** Smiling Face Sculpture
-
-### frase_gancho
-
-**ES:** Una risa abierta hecha en barro, entre el arte mesoamericano más solemne.
-
-**EN:** An open laugh made in clay, amid the most solemn art of Mesoamerica.
-
-### puente_narrativo
-
-**ES:** Seguimos hacia el Clásico del centro de Veracruz, con una figura de barro que cambia la solemnidad por la risa.
-
-**EN:** We continue on to the Classic period of central Veracruz, with a clay figure that trades solemnity for laughter.
-
-### guion_corto
-
-**ES:** El arte mesoamericano suele ser solemne. Esta figura de barro, en cambio, se ríe. Es una de las caritas sonrientes de Remojadas, hechas en el centro de Veracruz durante el Clásico Tardío. Es una cerámica hueca, modelada a mano y en molde. La risa es abierta y deja ver los dientes y la lengua. Lleva un tocado abombado, con motivos geométricos o de animales, y a veces sostiene una sonaja o un abanico con los brazos levantados. En algunas hay toques de chapopote, un asfalto natural, en los ojos, la boca y los adornos. Los especialistas las relacionan con la música, la fertilidad, la renovación agrícola y el trance ritual. También las vinculan con Xochipilli, el dios del canto, la danza y la alegría.
-
-**EN:** Mesoamerican art is usually solemn. This clay figure, by contrast, is laughing. It is one of the smiling faces of Remojadas, made in central Veracruz during the Late Classic. It is hollow ceramic, shaped by hand and in a mold. The laugh is wide open and shows the teeth and the tongue. It wears a rounded headdress, with geometric or animal motifs, and sometimes it holds a rattle or a fan with its arms raised. On some of them there are touches of chapopote, a natural asphalt, on the eyes, the mouth and the ornaments. Specialists associate them with music, fertility, agricultural renewal and ritual trance. They also link them with Xochipilli, the god of song, dance and joy.
-
-### guion_largo
-
-**ES:** Las caritas sonrientes son figuras de barro de la tradición de Remojadas, en el centro de Veracruz. Pertenecen al Clásico Tardío, hacia los años 600 a 900 después de Cristo. Se han encontrado en Remojadas y en la región de Tierra Blanca. /  / Son figuras huecas, modeladas a mano y también en molde. A veces llevan un baño de color claro. En ojos, boca y adornos pueden tener toques de chapopote, un asfalto natural de la región. Esa combinación de barro, color claro y negro les da un aspecto muy vivo. /  / La risa es abierta y muestra los dientes y la lengua. Es una expresión alegre y realista, algo poco común en el arte de Mesoamérica, que suele ser hierático y solemne. Llevan tocados abombados, con motivos geométricos o de animales. Pueden tener faldellines y pectorales. A veces sostienen sonajas o abanicos con los brazos levantados. /  / Los especialistas las relacionan con ritos de fertilidad, con la música, con la renovación agrícola y con estados de trance ritual. También con Xochipilli, el dios del canto, la danza y la alegría. Son interpretaciones, porque no hay un texto de la época que las confirme. /  / No todas miden lo mismo: varían entre 15 y 35 centímetros de alto. Por eso se habla de las caritas sonrientes, en plural, como un tipo de figura y no como una obra única. En una sala llena de piedra dura, el barro ofrece algo distinto: una risa abierta hecha con paciencia.
-
-**EN:** The smiling faces are clay figures from the Remojadas tradition, in central Veracruz. They belong to the Late Classic, around the years 600 to 900 AD. They have been found in Remojadas and in the Tierra Blanca region. /  / They are hollow figures, shaped by hand and also in a mold. Sometimes they have a light-colored slip. On the eyes, mouth and ornaments they may have touches of chapopote, a natural asphalt from the region. That combination of clay, light color and black gives them a very lively look. /  / The laugh is wide open and shows the teeth and the tongue. It is a joyful, realistic expression, something uncommon in the art of Mesoamerica, which tends to be hieratic and solemn. They wear rounded headdresses, with geometric or animal motifs. They may have loincloths and pectorals. Sometimes they hold rattles or fans with their arms raised. /  / Specialists associate them with fertility rites, with music, with agricultural renewal and with states of ritual trance. Also with Xochipilli, the god of song, dance and joy. These are interpretations, because there is no text from the period that confirms them. /  / Not all of them are the same size: they range between 15 and 35 centimeters in height. That is why people speak of the smiling faces, in the plural, as a type of figure and not as a single work. In a hall full of hard stone, clay offers something different: an open laugh made with patience.
-
-### retos_observacion
-
-**ES:** Mira la risa abierta: se ven los dientes y la lengua. / Busca el tocado abombado con motivos geométricos o de animales. / Fíjate si sostiene una sonaja o un abanico con los brazos levantados.
-
-**EN:** Look at the open laugh: you can see the teeth and the tongue. / Look for the rounded headdress with geometric or animal motifs. / Notice whether it holds a rattle or a fan with its arms raised.
-
-### especificaciones
-
-**ES:** Cultura: Remojadas / Centro de Veracruz / Periodo: Clásico Tardío (600-900 d.C.) / Material: Cerámica, arcilla modelada / Procedencia: Remojadas, centro de Veracruz
-
-**EN:** Culture: Remojadas / Central Veracruz / Period: Late Classic (600-900 AD) / Material: Ceramic, modeled clay / Origin: Remojadas, central Veracruz
-
-### faq_mito
-
-**ES:** pregunta: Mito: Las caritas sonrientes de Veracruz son cautivos de guerra que sonríen antes de ser sacrificados. / respuesta: Realidad: Los especialistas las relacionan con la música, la fertilidad y el trance ritual, y con Xochipilli, el dios del canto, la danza y la alegría.
-
-**EN:** pregunta: Myth: The smiling faces of Veracruz are war captives smiling before being sacrificed. / respuesta: Reality: Specialists associate them with music, fertility and ritual trance, and with Xochipilli, the god of song, dance and joy.
-
-## Pieza: mna_s08_adolescente_huasteco
-
-### titulo
-
-**ES:** Escultura del Adolescente Huasteco de Tamuín
-
-**EN:** Sculpture of the Huastec Adolescent of Tamuín
-
-### frase_gancho
-
-**ES:** Cuerpo de piedra grabado donde germina el maíz sagrado.
-
-**EN:** A carved stone body where the sacred maize sprouts.
-
-### puente_narrativo
-
-**ES:** Cerramos la sala en la Huasteca, con una escultura de un joven de piedra cuyo cuerpo está cubierto de plantas de maíz.
-
-**EN:** We close the hall in the Huasteca, with a sculpture of a young man in stone whose body is covered in maize plants.
-
-### guion_corto
-
-**ES:** Es un joven desnudo, y lleva un niño cargado en la espalda. Es el Adolescente de Tamuín, una escultura huasteca de arenisca fina, del Posclásico Temprano. Mide 145 centímetros de alto, 41 de ancho y 17.8 de espesor. Se descubrió en mil novecientos diecisiete, en el sitio de Consuelo, en Tamuín, San Luis Potosí. Tiene la silueta estilizada, el cráneo deformado y grandes orejeras de carrete. Fíjate en su lado derecho. El brazo, el pecho, el muslo y la pierna están cubiertos de relieves diminutos con plantas de maíz, hojas, mazorcas y motivos calendáricos. Se le interpreta como Dzinco, el dios del maíz huasteco, o como una versión joven de Quetzalcóatl. El niño que carga simbolizaría la continuidad de la vida y el renacimiento de la semilla.
-
-**EN:** He is a naked young man, carrying a child on his back. This is the Adolescent of Tamuín, a Huastec sculpture of fine sandstone from the Early Postclassic. It measures 145 centimeters tall, 41 wide and 17.8 thick. It was discovered in nineteen seventeen, at the site of Consuelo, in Tamuín, San Luis Potosí. It has a stylized silhouette, a deformed skull and large spool ear ornaments. Look at his right side. The arm, the chest, the thigh and the leg are covered with tiny reliefs of maize plants, leaves, ears of corn and calendrical motifs. He is interpreted as Dzinco, the Huastec Maize God (Corn God), or as a young version of Quetzalcóatl. The child he carries would symbolize the continuity of life and the rebirth of the seed.
-
-> Aviso: el glosario pide "Huasteca" para "Huasteca" y no aparece
-
-### guion_largo
-
-**ES:** Mira primero la silueta. Es un joven desnudo, de pie, estilizado, con el cráneo deformado y grandes orejeras de carrete. A su espalda lleva cargado a un niño pequeño. /  / Es el Adolescente de Tamuín, una escultura huasteca del Posclásico Temprano, tallada en arenisca fina. Mide 145 centímetros de alto, 41 de ancho y 17.8 de espesor. Se descubrió en mil novecientos diecisiete, en el sitio de Consuelo, en Tamuín, San Luis Potosí. /  / Ahora el lado derecho. El brazo, el pecho, el muslo y la pierna están cubiertos de diminutos relieves incisos. Representan plantas de maíz, hojas, mazorcas y motivos calendáricos. El escultor trabajó la piedra en bulto, con delicados grabados en la superficie. La mitad derecha parece un campo de maíz. /  / La interpretación habitual es que representa a Dzinco, o a la versión joven de Quetzalcóatl, el dios del maíz de la mitología huasteca. El niño a su espalda simboliza la continuidad de la vida. También el renacimiento de la semilla del maíz, de una generación a otra. Es una interpretación, basada en la iconografía. /  / La escultura une dos ideas: un cuerpo joven y una planta que crece. Por eso el maíz es la clave para leerla.
-
-**EN:** Look first at the silhouette. He is a naked young man, standing, stylized, with a deformed skull and large spool ear ornaments. On his back he carries a small child. /  / This is the Adolescent of Tamuín, a Huastec sculpture from the Early Postclassic, carved in fine sandstone. It measures 145 centimeters tall, 41 wide and 17.8 thick. It was discovered in nineteen seventeen, at the site of Consuelo, in Tamuín, San Luis Potosí. /  / Now the right side. The arm, the chest, the thigh and the leg are covered with tiny incised reliefs. They depict maize plants, leaves, ears of corn and calendrical motifs. The sculptor worked the stone in the round, with delicate engravings on the surface. The right half looks like a field of maize. /  / The usual interpretation is that he represents Dzinco, or the young version of Quetzalcóatl, the Maize God of Huastec mythology. The child on his back symbolizes the continuity of life. Also the rebirth of the maize seed, from one generation to the next. It is an interpretation, based on iconography. /  / The sculpture joins two ideas: a young body and a growing plant. That is why maize is the key to reading it.
-
-> Aviso: el glosario pide "Huasteca" para "Huasteca" y no aparece
-
-### retos_observacion
-
-**ES:** Fíjate en su lado derecho: está cubierto de relieves diminutos de maíz y hojas. / Busca al niño que carga en la espalda. / Mira las grandes orejeras de carrete.
-
-**EN:** Look at his right side: it is covered with tiny reliefs of maize and leaves. / Find the child he carries on his back. / Look at the large spool ear ornaments.
-
-### especificaciones
-
-**ES:** Cultura: Huasteca / Periodo: Posclásico Temprano (900-1200 d.C.) / Material: Arenisca fina / Procedencia: Sitio de Consuelo, Tamuín, San Luis Potosí / Medidas: 145 cm de alto x 41 cm de ancho x 17.8 cm de espesor
-
-**EN:** Culture: Huasteca / Period: Early Postclassic (900-1200 AD) / Material: Fine sandstone / Origin: Consuelo site, Tamuín, San Luis Potosí / Dimensions: 145 cm tall x 41 cm wide x 17.8 cm thick
-
-### faq_mito
-
-**ES:** pregunta: Mito: Los relieves de su cuerpo son simples adornos. / respuesta: Realidad: Son plantas de maíz, hojas, mazorcas y motivos calendáricos. Por eso se le interpreta como Dzinco, el dios del maíz huasteco, o como una versión joven de Quetzalcóatl.
-
-**EN:** pregunta: Myth: The reliefs on his body are simple decorations. / respuesta: Reality: They are maize plants, leaves, ears of corn and calendrical motifs. That is why he is interpreted as Dzinco, the Huastec Maize God, or as a young version of Quetzalcóatl.
-
-## Pieza: mna_s08_yugo_sapo
-
-### titulo
-
-**ES:** Yugo ceremonial con rostro de sapo
-
-**EN:** Ceremonial Yoke with a Toad Face
-
-### frase_gancho
-
-**ES:** Cinturón de piedra donde el sapo sagrado custodia la cancha.
-
-**EN:** A stone belt where the sacred toad guards the court.
-
-### puente_narrativo
-
-**ES:** Pasamos a los objetos del juego de pelota, con un cinturón de piedra que lleva un rostro de sapo.
-
-**EN:** We move on to the objects of the ball game, with a stone belt that bears a toad’s face.
-
-### guion_corto
-
-**ES:** Parece un cinturón de piedra, y en cierto modo lo es. Es un yugo ceremonial, una escultura en forma de U, o de herradura. Reproduce los cinturones protectores de cuero o madera que los jugadores de pelota llevaban en la cintura. Este tiene un rostro de sapo. Viene de la región central de Veracruz, de la tradición de El Tajín, y es del periodo Clásico. Es de piedra compacta y pulida, tal vez diorita. Un yugo de piedra pesa mucho. Por eso se piensa que era una versión ceremonial del cinturón de juego, y no equipo para la cancha. Los que aparecen en las tumbas son versiones votivas, hechas para conmemorar a los capitanes del juego.
-
-**EN:** It looks like a stone belt, and in a way it is. It is a ceremonial yoke, a sculpture shaped like a U, or a horseshoe. It reproduces the protective leather or wooden belts that ballplayers wore at the waist. This one has a toad’s face. It comes from the central region of Veracruz, from the El Tajín tradition, and dates to the Classic period. It is made of dense, polished stone, perhaps diorite. A stone yoke is very heavy. That is why it is thought to have been a ceremonial version of the playing belt, and not equipment for the court. The ones found in tombs are votive versions, made to commemorate the captains of the game.
-
-### guion_largo
-
-**ES:** Un yugo es una escultura de piedra en forma de U, o de herradura. Reproduce los cinturones protectores de cuero o madera que los jugadores de pelota llevaban en la cintura para golpear la pelota de hule macizo. /  / Este tiene un rostro de sapo. Viene de la región central de Veracruz, de la tradición de El Tajín, y es del periodo Clásico. Es de piedra compacta y pulida, tal vez diorita. /  / Un yugo de piedra pesa mucho. Por eso se piensa que era una versión ceremonial del cinturón de juego, y no equipo para la cancha. Los que aparecen en las tumbas son versiones votivas, es decir, de ofrenda, hechas para conmemorar a los capitanes del juego. /  / Los yugos solían tallarse en piedras duras, como basalto, diorita, andesita o serpentina, con relieves e incisiones. Su motivo más frecuente son las volutas entrelazadas. En este caso, el motivo central es un rostro de sapo. Qué significaba el sapo en este yugo no está establecido. /  / El Tajín, en el centro de Veracruz, es la ciudad más asociada con estas esculturas. Allí se han descubierto más de diecisiete canchas, y por eso se considera un centro principal del juego de pelota ritual. /  / Mira el rostro del sapo y la curva de la U. Es el cinturón de un jugador, traducido a piedra.
-
-**EN:** A yoke is a stone sculpture shaped like a U, or a horseshoe. It reproduces the protective leather or wooden belts that ballplayers wore at the waist to strike the solid rubber ball. /  / This one has a toad’s face. It comes from the central region of Veracruz, from the El Tajín tradition, and dates to the Classic period. It is made of dense, polished stone, perhaps diorite. /  / A stone yoke is very heavy. That is why it is thought to have been a ceremonial version of the playing belt, and not equipment for the court. The ones found in tombs are votive versions, that is, offerings, made to commemorate the captains of the game. /  / Yokes were usually carved from hard stones, such as basalt, diorite, andesite, or serpentine, with reliefs and incised lines. Their most frequent motif is interlaced scrolls. In this case, the central motif is a toad’s face. What the toad meant on this yoke has not been established. /  / El Tajín, in central Veracruz, is the city most closely associated with these sculptures. More than seventeen ball courts have been discovered there, and for that reason it is considered a major center of the ritual ball game. /  / Look at the toad’s face and the curve of the U. It is a player’s belt, translated into stone.
-
-### retos_observacion
-
-**ES:** Busca el rostro de sapo en el centro del yugo. / Imagina la forma de U como un cinturón de jugador de pelota. / Fíjate en el pulido de la piedra.
-
-**EN:** Find the toad’s face at the center of the yoke. / Imagine the U shape as a ballplayer’s belt. / Notice the polish of the stone.
-
-### especificaciones
-
-**ES:** Cultura: Centro de Veracruz / El Tajín / Periodo: Clásico / Material: Piedra compacta pulida (diorita) / Procedencia: Región central de Veracruz
-
-**EN:** Culture: Central Veracruz / El Tajín / Period: Classic / Material: Dense polished stone (diorite) / Origin: Central region of Veracruz
-
-### faq_mito
-
-**ES:** pregunta: Mito: Los jugadores usaban estos yugos de piedra durante los partidos. / respuesta: Realidad: Un yugo de piedra pesa mucho. Se piensa que era una versión ceremonial del cinturón de juego, y no equipo para la cancha.
-
-**EN:** pregunta: Myth: Players wore these stone yokes during games. / respuesta: Reality: A stone yoke is very heavy. It is thought to have been a ceremonial version of the playing belt, and not equipment for the court.
-
-## Pieza: mna_s07_mascara_murcielago
-
-### titulo
-
-**ES:** Máscara del Dios Murciélago
-
-**EN:** Mask of the Bat God
-
-### frase_gancho
-
-**ES:** Un murciélago de jade que guarda la noche de los zapotecas.
-
-**EN:** A jade bat that holds the night of the Zapotec.
-
-### puente_narrativo
-
-**ES:** Entramos a Oaxaca, tierra de zapotecos y mixtecos, con una máscara de jade: el rostro del dios Murciélago, de Monte Albán.
-
-**EN:** We enter Oaxaca, land of the Zapotec and the Mixtec, with a jade mask: the face of the Bat God, from Monte Albán.
-
-### guion_corto
-
-**ES:** ¿Ves esa nariz alzada y esas orejas redondas? Así dibujaron los zapotecas a un murciélago en jade. Esta es la máscara del dios Murciélago, de Monte Albán. No está tallada en un solo bloque: es un mosaico de piezas de jade bruñido, con ojos y dientes de concha. Bajo la mandíbula cuelgan tres placas. Es una máscara pectoral, hecha para llevarse sobre el pecho, y mide 28 centímetros de alto y 17.5 de ancho. Los zapotecas lo llamaban Piquete Ziña. Era el dios de la noche, de las cuevas y del inframundo, y también de la fertilidad de las plantas. Esa mezcla puede sorprender. Se piensa que habla de la tierra, de donde nacen las plantas y adonde regresan los muertos. Esta máscara guarda esa idea: la noche no es solo final, también es el lugar donde algo empieza.
-
-**EN:** Do you see that upturned nose and those round ears? This is how the Zapotec portrayed a bat in jade. This is the mask of the Bat God, from Monte Albán. It is not carved from a single block: it is a mosaic of burnished jade pieces, with eyes and teeth of shell. Three plaques hang below the jaw. It is a pectoral mask, made to be worn on the chest, and it measures 28 centimeters high and 17.5 wide. The Zapotec called him Piquete Ziña. He was the god of the night, of caves and of the underworld, and also of the fertility of plants. That mix may come as a surprise. It is thought to speak of the earth, where plants are born and where the dead return. This mask holds that idea: the night is not only an ending, it is also the place where something begins.
-
-### guion_largo
-
-**ES:** La máscara del dios Murciélago viene de Monte Albán, la gran ciudad zapoteca de los Valles Centrales de Oaxaca. Mide 28 centímetros de alto y 17.5 de ancho. Se le llama máscara pectoral porque se llevaba sobre el pecho, y no sobre el rostro. El rostro del dios es un mosaico. Los artesanos cortaron piezas de jade, una piedra dura y valiosa, y las pulieron hasta dejarlas brillantes. Luego las ajustaron una con otra para formar la cara. Los ojos y los dientes son de concha, que contrasta con el verde del jade. Bajo la mandíbula cuelgan tres placas, a manera de pectoral. Si te fijas bien, verás las orejas circulares y una nariz erguida, el apéndice que distingue a ciertos murciélagos. Los zapotecas llamaban a este dios Piquete Ziña. Lo relacionaban con la noche, con las cuevas y con el inframundo, pero también con la fertilidad de las plantas. Para nosotros, la oscuridad y la vida parecen opuestas. Se piensa que para ellos eran parte de la misma idea. De la tierra oscura brotan las plantas, y a esa misma tierra regresan los muertos. Hay un último detalle que vale la pena imaginar. Esta máscara no se talló de una vez, sino que se armó pieza por pieza. Cada fragmento se eligió, se cortó y se ajustó a los demás, como un rompecabezas verde. Detrás de esa paciencia había una intención clara: darle un rostro al dios de la noche con el material más apreciado.
-
-**EN:** The mask of the Bat God comes from Monte Albán, the great Zapotec city in the Central Valleys of Oaxaca. It measures 28 centimeters high and 17.5 wide. It is called a pectoral mask because it was worn on the chest, and not on the face. The face of the god is a mosaic. The artisans cut pieces of jade, a hard and valuable stone, and polished them until they gleamed. Then they fitted them together, one against another, to form the face. The eyes and the teeth are made of shell, which contrasts with the green of the jade. Below the jaw hang three plaques, like a pectoral. If you look closely, you will see the circular ears and an upright nose, the appendage that distinguishes certain bats. The Zapotec called this god Piquete Ziña. They associated him with the night, with caves and with the underworld, but also with the fertility of plants. For us, darkness and life seem to be opposites. It is thought that for them they were part of the same idea. From the dark earth plants spring forth, and to that same earth the dead return. There is one last detail worth imagining. This mask was not carved all at once, but assembled piece by piece. Each fragment was chosen, cut and fitted to the others, like a green puzzle. Behind that patience there was a clear intention: to give a face to the god of the night with the most prized material.
-
-### retos_observacion
-
-**ES:** Busca la nariz erguida y las orejas redondas del murciélago. / Fíjate en los ojos y los dientes de concha, que contrastan con el verde del jade. / Cuenta las tres placas que cuelgan bajo la mandíbula.
-
-**EN:** Look for the bat’s upright nose and round ears. / Notice the eyes and the teeth made of shell, which contrast with the green of the jade. / Count the three plaques that hang below the jaw.
-
-### especificaciones
-
-**ES:** Cultura: Zapoteca / Periodo: Protoclásico (100 a.C.-200 d.C.) / Material: Mosaico de jade bruñido (jadeíta) con ojos y dientes de concha y tres colgantes de pizarra / Procedencia: Monte Albán, Valles Centrales, Oaxaca / Medidas: 28 cm de alto x 17.5 cm de ancho
-
-**EN:** Culture: Zapotec / Period: Protoclassic (100 BC-200 AD) / Material: Mosaic of burnished jade (jadeite) with shell eyes and teeth and three slate pendants / Origin: Monte Albán, Central Valleys, Oaxaca / Dimensions: 28 cm high x 17.5 cm wide
-
-### faq_mito
-
-**ES:** pregunta: Mito: La máscara del dios Murciélago está tallada en un solo bloque de piedra verde. / respuesta: Realidad: Es un mosaico. Muchas piezas de jade pulido se unieron para formar el rostro, con ojos y dientes de concha.
-
-**EN:** pregunta: Myth: The mask of the Bat God is carved from a single block of green stone. / respuesta: Reality: It is a mosaic. Many pieces of polished jade were joined to form the face, with eyes and teeth of shell.
-
-## Pieza: mna_s07_pectoral_oro_tumba7
-
-### titulo
-
-**ES:** Gran Pectoral de Oro de la Tumba 7
-
-**EN:** Great Gold Pectoral from Tomb 7
-
-### frase_gancho
-
-**ES:** Un escudo de oro con flechas y cascabeles, sacado de una tumba zapoteca.
-
-**EN:** A gold shield with arrows and bells, taken from a Zapotec tomb.
-
-### puente_narrativo
-
-**ES:** Entramos al tesoro de la Tumba 7, con una joya de oro que muestra cómo trabajaban los orfebres mixtecos.
-
-**EN:** We enter the treasure of Tomb 7, with a gold jewel that shows how Mixtec goldsmiths worked.
-
-### guion_corto
-
-**ES:** La tumba es zapoteca, pero el oro es mixteco. El 9 de enero de 1932, el arqueólogo Alfonso Caso descubrió este pectoral en la Tumba 7 de Monte Albán. Los mixtecos la reutilizaron en el Posclásico tardío, entre los años 1200 y 1521 después de Cristo. Un pectoral es una joya que se lleva sobre el pecho. Este es de oro laminado y fundido a la cera perdida, trabajado con repujado y filigrana. Al centro hay un chimalli, un escudo de guerra, con flechas entrelazadas. Del borde cuelgan cascabeles. Los cascabeles y los tubos de oro sonaban con cada movimiento de quien lo llevaba. Se considera una de las obras cumbre de la orfebrería de la América prehispánica.
-
-**EN:** The tomb is Zapotec, but the gold is Mixtec. On January 9, 1932, the archaeologist Alfonso Caso discovered this pectoral in Tomb 7 at Monte Albán. The Mixtec reused the tomb in the Late Postclassic, between the years 1200 and 1521 AD. A pectoral is a jewel worn on the chest. This one is made of sheet gold cast by the lost-wax method, worked with repoussé and filigree. At the center is a chimalli, a war shield, with interlaced arrows. Bells hang from the edge. The bells and the gold tubes rang with every movement of the person who wore it. It is considered one of the masterpieces of goldsmithing in pre-Hispanic America.
-
-### guion_largo
-
-**ES:** Una tumba zapoteca, y dentro de ella, oro mixteco. Esa es la rareza de este pectoral. Los zapotecas construyeron la Tumba 7 de Monte Albán siglos antes. Hacia el Posclásico tardío, los mixtecos la reutilizaron para sepultar a sus dignatarios de más alto rango. /  / El 9 de enero de 1932, el arqueólogo Alfonso Caso encontró allí uno de los ajuares funerarios más suntuosos del continente. Había orfebrería de oro fundido a la cera perdida, joyas de turquesa, ámbar y perlas, y una copa de cristal de roca. Esa copa también está en esta sala. /  / Un pectoral es una joya que se lleva sobre el pecho. Este es de oro laminado y fundido a la cera perdida. Después se trabajó con repujado y con filigrana. Repujar es golpear el metal por detrás para que el dibujo salga en relieve. La filigrana forma el dibujo con hilos muy finos. /  / El diseño es un chimalli, el escudo de guerra, cruzado por flechas entrelazadas. Es un escudo circular, con una greca escalonada en el centro. Del borde inferior cuelgan cascabeles de oro. Los cascabeles y los tubos de oro producían un sonido rítmico con los movimientos de quien lo llevaba. Imagina un adorno que brillaba y sonaba al mismo tiempo. /  / Se considera una de las obras cumbre de la orfebrería de la América prehispánica. Muestra la enorme fama de los orfebres mixtecos en toda Mesoamérica por la finura de sus acabados. Los mixtecos vivían sobre todo en la Mixteca Alta, en lugares como Tilantongo, Tututepec y Yanhuitlán. Después se extendieron a los Valles Centrales, donde ocuparon sitios zapotecas como Zaachila y Mitla. /  / Por eso esta sala mezcla dos pueblos. Monte Albán primero fue ciudad zapoteca, y siglos después sirvió de sepultura a los señores mixtecos.
-
-**EN:** A Zapotec tomb, and inside it, Mixtec gold. That is the oddity of this pectoral. The Zapotec built Tomb 7 at Monte Albán centuries earlier. Around the Late Postclassic, the Mixtec reused it to bury their highest-ranking dignitaries. /  / On January 9, 1932, the archaeologist Alfonso Caso found there one of the most sumptuous funerary offerings on the continent. There was goldwork cast by the lost-wax method, jewels of turquoise, amber and pearls, and a rock crystal cup. That cup is also in this hall. /  / A pectoral is a jewel worn on the chest. This one is made of sheet gold cast by the lost-wax method. Afterward it was worked with repoussé and with filigree. Repoussé is striking the metal from behind so that the design stands out in relief. Filigree forms the design with very fine threads. /  / The design is a chimalli, the war shield, crossed by interlaced arrows. It is a circular shield, with a stepped fret motif at the center. Gold bells hang from the lower edge. The bells and the gold tubes produced a rhythmic sound with the movements of the person who wore it. Imagine an ornament that gleamed and rang at the same time. /  / It is considered one of the masterpieces of goldsmithing in pre-Hispanic America. It shows the enormous fame of Mixtec goldsmiths throughout Mesoamerica for the fineness of their finishes. The Mixtec lived mostly in the Mixtec Highlands, in places such as Tilantongo, Tututepec and Yanhuitlán. Later they spread into the Central Valleys, where they occupied Zapotec sites such as Zaachila and Mitla. /  / That is why this hall brings together two peoples. Monte Albán was first a Zapotec city, and centuries later it served as the burial place of Mixtec lords.
-
-### retos_observacion
-
-**ES:** Busca el escudo redondo del centro: es un chimalli, un escudo de guerra. / Fíjate en las flechas entrelazadas que cruzan el escudo. / Mira el borde inferior: de ahí cuelgan los cascabeles de oro.
-
-**EN:** Look for the round shield at the center: it is a chimalli, a war shield. / Notice the interlaced arrows that cross the shield. / Look at the lower edge: the gold bells hang from there.
-
-### especificaciones
-
-**ES:** Cultura: Mixteca / Periodo: Posclásico Tardío (1200-1521 d.C.) / Material: Oro laminado y fundido a la cera perdida, trabajado con repujado y filigrana / Procedencia: Tumba 7, Monte Albán, Oaxaca / Hallazgo: Descubierto el 9 de enero de 1932 por Alfonso Caso en la Tumba 7 de Monte Albán
-
-**EN:** Culture: Mixtec / Period: Late Postclassic (1200-1521 AD) / Material: Sheet gold cast by the lost-wax method, worked with repoussé and filigree / Origin: Tomb 7, Monte Albán, Oaxaca / Discovery: Discovered on January 9, 1932 by Alfonso Caso in Tomb 7 at Monte Albán
-
-### faq_mito
-
-**ES:** pregunta: Mito: El Gran Pectoral de Oro de la Tumba 7 fue traído por los conquistadores españoles desde Perú o Colombia. / respuesta: Realidad: Es una joya mixteca del Posclásico Tardío, entre los años 1200 y 1521 d.C. Alfonso Caso la descubrió el 9 de enero de 1932 dentro de la Tumba 7 de Monte Albán, en Oaxaca.
-
-**EN:** pregunta: Myth: The Great Gold Pectoral from Tomb 7 was brought by the Spanish conquistadors from Peru or Colombia. / respuesta: Reality: It is a Mixtec jewel from the Late Postclassic, between the years 1200 and 1521 AD. Alfonso Caso discovered it on January 9, 1932 inside Tomb 7 at Monte Albán, in Oaxaca.
-
-## Pieza: mna_s07_urna_cocijo
-
-### titulo
-
-**ES:** Urna funeraria del Dios Cocijo
-
-**EN:** Funerary Urn of the God Cocijo
-
-### frase_gancho
-
-**ES:** Vasija de barro donde Pitao Cocijo derrama el trueno sagrado.
-
-**EN:** A clay vessel where Pitao Cocijo pours out sacred thunder.
-
-### puente_narrativo
-
-**ES:** Pasamos a la cerámica del Clásico zapoteco, con una urna que representa al dios de la lluvia.
-
-**EN:** We move on to the ceramics of the Classic Zapotec period, with an urn that represents the rain god.
-
-### guion_corto
-
-**ES:** Busca el centro del tocado. Ahí hay un signo parecido a una letra C, y de su interior brota una planta. Es el glifo C, la marca del dios zapoteco de la lluvia. Esta urna representa a Pitao Cocijo, deidad suprema de la lluvia, el rayo y el trueno. Es de cerámica y procede de los Valles Centrales de Oaxaca. Pertenece al periodo Clásico, entre los años 200 y 800 después de Cristo. El dios está sentado. Lleva anteojeras circulares, una máscara en la boca y una lengua de serpiente partida en dos. Entre las manos sostiene un recipiente. Durante mucho tiempo se creyó que estas urnas guardaban cenizas. Hoy se sabe que se colocaban vacías en nichos y fachadas de tumbas de la nobleza.
-
-**EN:** Look for the center of the headdress. There is a sign that looks like the letter C, and a plant sprouts from inside it. This is the C glyph, the mark of the Zapotec rain god. This urn represents Pitao Cocijo, supreme deity of rain, lightning, and thunder. It is made of ceramic and comes from the Central Valleys of Oaxaca. It belongs to the Classic period, between the years 200 and 800 AD. The god is seated. He wears circular goggles, a mask over his mouth, and a serpent tongue split in two. In his hands he holds a vessel. For a long time it was believed that these urns held ashes. Today we know they were placed empty in niches and on the facades of noble tombs.
-
-### guion_largo
-
-**ES:** Pitao Cocijo es el dios zapoteco de la lluvia, el rayo y el trueno. Era una deidad suprema. En una tierra donde el maíz depende de las lluvias, es fácil imaginar por qué su imagen se repite tanto. /  / Esta urna lo muestra sentado. Lleva un tocado con el glifo C en el centro, y de ese glifo brota un elemento vegetal. Los ojos están rodeados por anteojeras circulares. En la boca tiene una máscara, y de ella sale una lengua de serpiente partida en dos puntas. Entre las manos sostiene un recipiente. Para reconocer a Cocijo basta recordar tres rasgos: el glifo C en el tocado, las anteojeras en los ojos y la lengua partida. /  / Es una pieza de cerámica. Se modeló a mano con aplicaciones por pastillaje, es decir, pequeñas piezas de barro pegadas, y con líneas incisas. Conserva restos de pintura de colores o de engobe, una capa fina de arcilla. El color formaba parte de su aspecto. /  / Los zapotecas tenían una ciudad principal en Monte Albán, en los Valles Centrales de Oaxaca. Durante el Clásico llegó a tener más de treinta mil habitantes. Sus nobles tenían tumbas subterráneas suntuosas. Allí se colocaban urnas como esta, en los nichos de las tumbas. Representan a divinidades como Pitao Cocijo, el dios de la lluvia, y Pitao Cozobi, el dios del maíz. Son figuras de barro, pero hablan de lo más importante para los zapotecas: el agua, el maíz y el paso a la otra vida. /  / Hay un dato que cambia la lectura de estas urnas. Durante mucho tiempo se creyó que guardaban las cenizas de los muertos. Hoy se sabe que no. Se colocaban vacías, en nichos, antecámaras y fachadas de tumbas de la nobleza, como guardianes espirituales. Su tarea era interceder por los difuntos ante los dioses del cielo. /  / Es una figura sentada que no guardaba nada, pero cuidaba a quien dormía en la tumba.
-
-**EN:** Pitao Cocijo is the Zapotec god of rain, lightning, and thunder. He was a supreme deity. In a land where maize depends on the rains, it is easy to imagine why his image appears so often. /  / This urn shows him seated. He wears a headdress with the C glyph in the center, and a plant element sprouts from that glyph. His eyes are surrounded by circular goggles. Over his mouth he wears a mask, and from it comes a serpent tongue split into two points. In his hands he holds a vessel. To recognize Cocijo, it is enough to remember three features: the C glyph on the headdress, the goggles around the eyes, and the split tongue. /  / It is a ceramic piece. It was modeled by hand with appliqué, that is, small pieces of clay stuck on, and with incised lines. It preserves traces of colored paint or of slip, a thin layer of clay. Color was part of its appearance. /  / The Zapotec had a main city at Monte Albán, in the Central Valleys of Oaxaca. During the Classic period it grew to have more than thirty thousand inhabitants. Their nobles had lavish underground tombs. Urns like this one were placed there, in the niches of the tombs. They represent deities such as Pitao Cocijo, the god of rain, and Pitao Cozobi, the maize god (corn god). They are figures of clay, but they speak of what mattered most to the Zapotec: water, maize, and the passage to the other life. /  / There is one fact that changes how we read these urns. For a long time it was believed that they held the ashes of the dead. Today we know that this is not so. They were placed empty, in niches, antechambers, and facades of noble tombs, as spiritual guardians. Their task was to intercede for the deceased before the gods of the sky. /  / It is a seated figure that held nothing, yet watched over whoever slept in the tomb.
-
-### retos_observacion
-
-**ES:** Busca el glifo C en el centro del tocado. / Fíjate en los círculos alrededor de los ojos: son las anteojeras. / Mira la lengua que sale de la boca: termina en dos puntas.
-
-**EN:** Look for the C glyph in the center of the headdress. / Notice the circles around the eyes: these are the goggles. / Look at the tongue coming out of the mouth: it ends in two points.
-
-### especificaciones
-
-**ES:** Cultura: Zapoteca / Periodo: Clásico (Monte Albán III, 200-800 d.C.) / Material: Cerámica modelada de arcilla, con restos de pintura policromada o engobe / Procedencia: Monte Albán, Valles Centrales, Oaxaca (otro ejemplar de Cocijo procede de Atzompa) / Medidas: 0.396 m de alto x 0.38 m de ancho (urna central de la Tumba 104; otros ejemplares miden más)
-
-**EN:** Culture: Zapotec / Period: Classic (Monte Albán III, 200-800 AD) / Material: Modeled clay ceramic, with traces of polychrome paint or slip / Origin: Monte Albán, Central Valleys, Oaxaca (another Cocijo example comes from Atzompa) / Dimensions: 0.396 m high x 0.38 m wide (central urn from Tomb 104; other examples are larger)
-
-### faq_mito
-
-**ES:** pregunta: Mito: Las urnas funerarias zapotecas, como la de Cocijo, guardaban las cenizas de los muertos. / respuesta: Realidad: Se colocaban vacías en los nichos y las fachadas de las tumbas de la nobleza.
-
-**EN:** pregunta: Myth: Zapotec funerary urns, like the Cocijo urn, held the ashes of the dead. / respuesta: Reality: They were placed empty in the niches and on the facades of noble tombs.
-
-## Pieza: mna_s07_tumba_104
-
-### titulo
-
-**ES:** Recreación de la Tumba 104 de Monte Albán
-
-**EN:** Recreation of Tomb 104 at Monte Albán
-
-### frase_gancho
-
-**ES:** Una tumba zapoteca a escala natural, con su fachada y sus murales.
-
-**EN:** A life-size Zapotec tomb, with its façade and its murals.
-
-### puente_narrativo
-
-**ES:** Seguimos con una tumba zapoteca recreada: la Tumba 104, con su fachada de templo y sus murales.
-
-**EN:** We continue with a re-created Zapotec tomb: Tomb 104, with its temple façade and its murals.
-
-### guion_corto
-
-**ES:** Parece una tumba zapoteca recién abierta, y a medias lo es. Es una recreación a escala natural de la Tumba 104 de Monte Albán, explorada por el arqueólogo Alfonso Caso. La fachada reproduce un templo, con su tablero de doble escapulario y un nicho al centro. Dentro, los murales son réplicas de las pinturas policromas originales. Muestran sacerdotes, deidades y cartuchos con glifos. Pero las vasijas y las urnas de arcilla que ves son del ajuar funerario original. La tumba es del periodo Clásico zapoteco, entre los años 200 y 500 después de Cristo. Monte Albán tenía suntuosas tumbas de nobles bajo tierra, y esta recreación te deja entrar a una de ellas. Lo copiado y lo auténtico conviven en la misma cámara.
-
-**EN:** It looks like a freshly opened Zapotec tomb, and in part it is. It is a life-size re-creation of Tomb 104 at Monte Albán, explored by the archaeologist Alfonso Caso. The façade reproduces a temple, with its double-scapular panel and a niche at the center. Inside, the murals are replicas of the original polychrome paintings. They show priests, deities, and cartouches with glyphs. But the vessels and clay urns you see belong to the original funerary offering. The tomb dates from the Zapotec Classic period, between the years 200 and 500 AD. Monte Albán had sumptuous underground tombs for nobles, and this re-creation lets you step into one of them. What is copied and what is authentic live together in the same chamber.
-
-### guion_largo
-
-**ES:** Esta tumba no está bajo tierra, sino dentro del museo. Es una recreación a escala natural de la Tumba 104 de Monte Albán. Gracias a ella puedes ver cómo era una sepultura zapoteca del periodo Clásico. /  / Para entender su importancia, piensa en la ciudad que la rodeaba. En el Clásico, Monte Albán alcanzó más de treinta mil habitantes. Tenía edificios adaptados a zonas sísmicas, redes hidráulicas bajo tierra y suntuosas tumbas de nobles. /  / La Tumba 104 se encuentra en la base septentrional de la Plataforma Norte. La exploró y descubrió el arqueólogo Alfonso Caso. /  / La fachada reproduce la de un templo. Tiene un tablero de doble escapulario, un estilo de construcción característico de Monte Albán. En el centro hay un nicho. En las tumbas zapotecas, los nichos recibían urnas funerarias con figuras de dioses. Eran dioses como Cocijo, el de la lluvia, o Cozobi, el del maíz. /  / Dentro está la cámara mortuoria. Sus muros muestran réplicas de murales policromos, es decir, pintados con varios colores. Aparecen sacerdotes, deidades y cartuchos con glifos, que son recuadros con signos de escritura. /  / En el espacio hay también vasijas y urnas de arcilla. Esas sí son originales y forman parte del ajuar funerario. Esa es la mezcla que hace especial a esta pieza: el espacio es una recreación, pero los objetos que contiene son auténticos. /  / La tumba es zapoteca, del Clásico, de entre los años 200 y 500 después de Cristo. Asomarse a ella es entender cómo pensaban los zapotecas en la muerte: con arquitectura, color y escritura. No era un agujero en la tierra, sino un lugar preparado con cuidado.
-
-**EN:** This tomb is not underground, but inside the museum. It is a life-size re-creation of Tomb 104 at Monte Albán. Thanks to it, you can see what a Zapotec burial of the Classic period was like. /  / To understand its importance, think of the city that surrounded it. In the Classic, Monte Albán reached more than thirty thousand inhabitants. It had buildings adapted to seismic zones, underground water systems, and sumptuous tombs for nobles. /  / Tomb 104 is located at the northern base of the North Platform. It was explored and discovered by the archaeologist Alfonso Caso. /  / The façade reproduces that of a temple. It has a double-scapular panel, a building style characteristic of Monte Albán. At the center there is a niche. In Zapotec tombs, niches held funerary urns with figures of gods. These were gods such as Cocijo, the god of rain, or Cozobi, the god of maize. /  / Inside is the burial chamber. Its walls show replicas of polychrome murals, that is, murals painted in several colors. Priests, deities, and cartouches with glyphs appear, which are small frames containing writing signs. /  / In the space there are also clay vessels and urns. Those are original and are part of the funerary offering. That is the mix that makes this piece special: the space is a re-creation, but the objects it contains are authentic. /  / The tomb is Zapotec, from the Classic, between the years 200 and 500 AD. Peering into it is understanding how the Zapotec thought about death: with architecture, color, and writing. It was not a hole in the ground, but a place prepared with care.
-
-### retos_observacion
-
-**ES:** Busca el tablero de doble escapulario en la fachada y el nicho central. / En los murales, encuentra a los sacerdotes y los cartuchos de glifos. / Fíjate en las vasijas y urnas de arcilla: son del ajuar original.
-
-**EN:** Look for the double-scapular panel on the façade and the central niche. / In the murals, find the priests and the glyph cartouches. / Take a close look at the clay vessels and urns: they belong to the original funerary offering.
-
-### especificaciones
-
-**ES:** Cultura: Zapoteca / Periodo: Clásico (Monte Albán IIIA, 200-500 d.C.) / Material: Recreación a escala natural: fachada de templo con tablero de doble escapulario y nicho central, y cámara con réplicas de los murales policromos; el ajuar de vasijas y urnas de arcilla es original / Procedencia: Monte Albán, base septentrional de la Plataforma Norte, Valles Centrales, Oaxaca / Hallazgo: Explorada y descubierta en Monte Albán por Alfonso Caso (las fuentes no dan el año)
-
-**EN:** Culture: Zapotec / Period: Classic (Monte Albán IIIA, 200-500 AD) / Material: Life-size re-creation: temple façade with a double-scapular panel and central niche, and a chamber with replicas of the polychrome murals; the funerary offering of clay vessels and urns is original / Origin: Monte Albán, northern base of the North Platform, Central Valleys, Oaxaca / Discovery: Explored and discovered at Monte Albán by Alfonso Caso (the sources do not give the year)
-
-### faq_mito
-
-**ES:** pregunta: Mito: La Tumba 104 es una construcción maya traída desde las selvas de Chiapas. / respuesta: Realidad: Es una recreación a escala natural de una tumba zapoteca de Monte Albán, del periodo Clásico, entre los años 200 y 500 d.C. Los murales son réplicas, y las vasijas y urnas del ajuar son originales.
-
-**EN:** pregunta: Myth: Tomb 104 is a Maya structure brought from the jungles of Chiapas. / respuesta: Reality: It is a life-size re-creation of a Zapotec tomb from Monte Albán, from the Classic period, between the years 200 and 500 AD. The murals are replicas, and the vessels and urns of the funerary offering are original.
-
-## Pieza: mna_s07_craneo_turquesa
-
-### titulo
-
-**ES:** Cráneo con mosaico de turquesa de la Tumba 7
-
-**EN:** Skull with Turquoise Mosaic from Tomb 7
-
-### frase_gancho
-
-**ES:** Un cráneo humano cubierto de turquesa, hallado en una tumba de Monte Albán.
-
-**EN:** A human skull covered in turquoise, found in a tomb at Monte Albán.
-
-### puente_narrativo
-
-**ES:** Seguimos en la Tumba 7 con un objeto que impresiona por su cuidado: un cráneo humano cubierto de turquesa.
-
-**EN:** We remain in Tomb 7 with an object that impresses with its care: a human skull covered in turquoise.
-
-### guion_corto
-
-**ES:** Debajo de la turquesa hay un cráneo humano de verdad. Esta pieza mixteca salió de la Tumba 7 de Monte Albán. El arqueólogo Alfonso Caso la descubrió en enero de 1932. Es del Posclásico tardío, entre los años 1200 y 1521 después de Cristo. El cráneo está cubierto con un mosaico de placas de turquesa recortadas y con concha roja de la especie Spondylus. En la cavidad nasal lleva incrustado un cuchillo. Cada placa de turquesa y cada pieza de concha está puesta con paciencia sobre el hueso. Es una de las piezas que el museo reúne de la Tumba 7.
-
-**EN:** Beneath the turquoise lies a real human skull. This Mixtec piece came from Tomb 7 at Monte Albán. The archaeologist Alfonso Caso discovered it in January 1932. It dates to the Late Postclassic, between the years 1200 and 1521 after Christ. The skull is covered with a mosaic of cut turquoise plaques and red shell of the Spondylus species. A knife is embedded in the nasal cavity. Each turquoise plaque and each piece of shell is patiently set onto the bone. It is one of the pieces the museum brings together from Tomb 7.
-
-### guion_largo
-
-**ES:** Hay objetos que sorprenden por lo que son, y este es de esos. Es un cráneo humano auténtico, revestido de turquesa y de concha. /  / Salió de la Tumba 7 de Monte Albán. Los zapotecas construyeron esa tumba, y siglos después los mixtecos la reutilizaron para sepultar a sus dignatarios. Eso ocurrió en el Posclásico tardío, entre los años 1200 y 1521 después de Cristo. En enero de 1932, el arqueólogo Alfonso Caso descubrió allí uno de los ajuares funerarios más suntuosos del continente. /  / Sobre el hueso se colocó un mosaico de placas de turquesa recortadas. Se añadió concha roja, de la especie Spondylus. En la cavidad nasal se incrustó un cuchillo, de pedernal o de obsidiana. /  / En esa misma tumba aparecieron joyas de oro, plata, turquesa, ámbar, perlas y jade, además de recipientes de cristal de roca. Eran materiales difíciles de conseguir y de trabajar. Por eso el cráneo no se entiende solo: forma parte de un conjunto de piezas de enorme riqueza. /  / Los mixtecos eran el pueblo de la lluvia, Ñuu Savi en su lengua. Vivían sobre todo en la Mixteca Alta y de ahí se extendieron hacia los Valles Centrales. Fueron célebres como orfebres y también como pintores de códices, libros pintados sobre piel de venado donde contaban su historia, sus mitos y sus genealogías. /  / Quién fue la persona cuyo cráneo se cubrió así sigue siendo una incógnita. Lo que sí se ve es trabajo humano sobre un hueso humano: un mosaico de piedra azul y concha roja que ha llegado hasta hoy.
-
-**EN:** Some objects astonish by what they are, and this is one of them. It is an authentic human skull, covered in turquoise and shell. /  / It came from Tomb 7 at Monte Albán. The Zapotec built that tomb, and centuries later the Mixtec reused it to bury their dignitaries. That happened in the Late Postclassic, between the years 1200 and 1521 after Christ. In January 1932, the archaeologist Alfonso Caso discovered there one of the most sumptuous funerary treasures on the continent. /  / A mosaic of cut turquoise plaques was set over the bone. Red shell of the Spondylus species was added. A knife, of flint or obsidian, was embedded in the nasal cavity. /  / In that same tomb, jewels of gold, silver, turquoise, amber, pearls and jade appeared, along with vessels of rock crystal. These were materials that were hard to obtain and hard to work. For that reason the skull cannot be understood alone: it is part of a set of pieces of enormous richness. /  / The Mixtec were the people of the rain, Ñuu Savi in their language. They lived mostly in the Mixteca Alta and from there spread toward the Central Valleys. They were famed as goldsmiths and also as painters of codices, books painted on deerskin in which they told their history, their myths and their genealogies. /  / Who the person was whose skull was covered in this way remains a mystery. What can be seen is human work upon human bone: a mosaic of blue stone and red shell that has survived to this day.
-
-### retos_observacion
-
-**ES:** Busca las pequeñas placas de turquesa recortadas que cubren el hueso. / Encuentra la concha roja, de la especie Spondylus. / Fíjate en la nariz: ahí hay un cuchillo incrustado.
-
-**EN:** Look for the small cut turquoise plaques that cover the bone. / Find the red shell of the Spondylus species. / Look at the nose: there is a knife embedded there.
-
-### especificaciones
-
-**ES:** Cultura: Mixteca / Periodo: Posclásico Tardío (1200-1521 d.C.) / Material: Cráneo humano recubierto con mosaico de placas recortadas de turquesa y concha roja Spondylus, con un cuchillo incrustado en la cavidad nasal / Procedencia: Tumba 7, Monte Albán, Oaxaca / Hallazgo: Descubierto en enero de 1932 por Alfonso Caso durante las excavaciones de la Tumba 7
-
-**EN:** Culture: Mixtec / Period: Late Postclassic (1200-1521 AD) / Material: Human skull covered with a mosaic of cut turquoise plaques and red Spondylus shell, with a knife embedded in the nasal cavity / Origin: Tomb 7, Monte Albán, Oaxaca / Discovery: Discovered in January 1932 by Alfonso Caso during the excavations of Tomb 7
-
-### faq_mito
-
-**ES:** pregunta: Mito: El cráneo con mosaico de turquesa de la Tumba 7 es una falsificación del siglo XIX hecha por coleccionistas extranjeros. / respuesta: Realidad: Es una pieza mixteca del Posclásico Tardío, entre los años 1200 y 1521 d.C. Alfonso Caso la descubrió en enero de 1932 durante las excavaciones de la Tumba 7 de Monte Albán.
-
-**EN:** pregunta: Myth: The skull with turquoise mosaic from Tomb 7 is a 19th-century forgery made by foreign collectors. / respuesta: Reality: It is a Mixtec piece from the Late Postclassic, between the years 1200 and 1521 AD. Alfonso Caso discovered it in January 1932 during the excavations of Tomb 7 at Monte Albán.
-
-## Pieza: mna_s07_danzante_montealban
-
-### titulo
-
-**ES:** Estela de "Los Danzantes" de Monte Albán
-
-**EN:** Stela of “Los Danzantes” from Monte Albán
-
-### frase_gancho
-
-**ES:** Se llaman Los Danzantes, pero nadie baila.
-
-**EN:** They are called Los Danzantes, the Dancers, but nobody is dancing.
-
-### puente_narrativo
-
-**ES:** Seguimos en Monte Albán, la ciudad zapoteca, con una piedra cuyo nombre engaña: nadie baila en ella.
-
-**EN:** We remain in Monte Albán, the Zapotec city, with a stone whose name is deceiving: nobody is dancing on it.
-
-### guion_corto
-
-**ES:** Se llaman Los Danzantes, pero nadie baila. Los exploradores del siglo diecinueve creyeron que las figuras de estas lápidas realizaban movimientos de danza o de natación. Hoy se sabe que son retratos de cautivos de guerra. Esta estela es zapoteca, viene del Edificio de los Danzantes, en Monte Albán, Oaxaca, y es del Preclásico, de la primera etapa de la ciudad. Muestra a un hombre desnudo en postura contorsionada, con los ojos cerrados y la boca abierta. Unas incisiones indican mutilación o flujo de sangre. Junto a él hay cartuchos con glifos calendáricos. Formaba parte de una galería en los muros de la primera arquitectura pública de Monte Albán.
-
-**EN:** They are called Los Danzantes, the Dancers, but nobody is dancing. Nineteenth-century explorers believed that the figures on these slabs were performing dance or swimming movements. Today we know they are portraits of war captives. This stela is Zapotec, comes from the Building of Los Danzantes, in Monte Albán, Oaxaca, and dates to the Preclassic, the first stage of the city. It shows a naked man in a contorted posture, with his eyes closed and his mouth open. Some incisions indicate mutilation or flowing blood. Beside him there are cartouches with calendrical glyphs. It was part of a gallery on the walls of Monte Albán’s first public architecture.
-
-### guion_largo
-
-**ES:** Aquí nadie baila. Los primeros exploradores, en el siglo diecinueve, creyeron que las figuras realizaban movimientos de danza o de natación. De ahí viene el nombre popular de Los Danzantes. /  / Los estudios modernos, basados en la epigrafía y la iconografía, dicen otra cosa. Se trata de retratos de cautivos de guerra, sacrificados para legitimar el poder de la naciente ciudad zapoteca. /  / Esta estela viene del Edificio de los Danzantes, en Monte Albán, Oaxaca. Es zapoteca y del Preclásico, de la primera etapa de la ciudad. Es una lápida de piedra, esculpida en bajorrelieve y con incisiones. Formaba parte de una galería en los muros de la primera arquitectura pública de Monte Albán. /  / La figura es un hombre desnudo, en postura contorsionada. Tiene los ojos cerrados y la boca abierta. Unas incisiones indican mutilación o flujo de sangre. A su lado hay cartuchos con glifos calendáricos. /  / La galería estaba pensada para exhibir la victoria militar, la humillación y el sacrificio de los gobernantes y caciques rivales capturados. Era un mensaje público, escrito en piedra. /  / Mira la postura del cuerpo. No es la de un baile, sino la de alguien vencido.
-
-**EN:** Here nobody is dancing. The first explorers, in the nineteenth century, believed that the figures were performing dance or swimming movements. That is where the popular name Los Danzantes comes from. /  / Modern studies, based on epigraphy and iconography, say something else. These are portraits of war captives, sacrificed to legitimize the power of the emerging Zapotec city. /  / This stela comes from the Building of Los Danzantes, in Monte Albán, Oaxaca. It is Zapotec and dates to the Preclassic, the first stage of the city. It is a stone slab, carved in low relief and with incisions. It was part of a gallery on the walls of Monte Albán’s first public architecture. /  / The figure is a naked man, in a contorted posture. His eyes are closed and his mouth is open. Some incisions indicate mutilation or flowing blood. Beside him there are cartouches with calendrical glyphs. /  / The gallery was designed to display military victory, the humiliation and the sacrifice of the captured rival rulers and chiefs. It was a public message, written in stone. /  / Look at the posture of the body. It is not that of a dance, but that of someone defeated.
-
-### retos_observacion
-
-**ES:** Mira la postura retorcida del cuerpo desnudo. / Fíjate en los ojos cerrados y la boca abierta. / Busca los cartuchos con glifos calendáricos junto a la figura.
-
-**EN:** Look at the twisted posture of the naked body. / Notice the closed eyes and the open mouth. / Find the cartouches with calendrical glyphs beside the figure.
-
-### especificaciones
-
-**ES:** Cultura: Zapoteca / Periodo: Preclásico, primera etapa de Monte Albán (Monte Albán I) / Material: Piedra / Procedencia: Edificio de los Danzantes, Monte Albán, Oaxaca
-
-**EN:** Culture: Zapotec / Period: Preclassic, first stage of Monte Albán (Monte Albán I) / Material: Stone / Origin: Building of Los Danzantes, Monte Albán, Oaxaca
-
-### faq_mito
-
-**ES:** pregunta: Mito: Los Danzantes son bailarines que celebran una fiesta. / respuesta: Realidad: Son retratos de cautivos de guerra, sacrificados para legitimar el poder de la naciente ciudad zapoteca. El nombre viene de un error de los primeros exploradores.
-
-**EN:** pregunta: Myth: Los Danzantes are dancers celebrating a festival. / respuesta: Reality: They are portraits of war captives, sacrificed to legitimize the power of the emerging Zapotec city. The name comes from a mistake by the first explorers.
-
-## Pieza: mna_s07_copa_cristal_roca
-
-### titulo
-
-**ES:** Copa de cristal de roca de la Tumba 7
-
-**EN:** Rock Crystal Cup from Tomb 7
-
-### frase_gancho
-
-**ES:** Una copa de cuarzo transparente, ahuecada a mano con abrasivos y agua.
-
-**EN:** A clear quartz cup, hollowed out by hand with abrasives and water.
-
-### puente_narrativo
-
-**ES:** Seguimos con otro objeto de la Tumba 7: una copa de cuarzo transparente, ahuecada a mano.
-
-**EN:** We continue with another object from Tomb 7: a clear quartz cup, hollowed out by hand.
-
-### guion_corto
-
-**ES:** Para hacer esta copa hubo que ahuecar un cuarzo transparente a mano, con abrasivos finos y agua. Es una copa de cristal de roca, cuarzo hialino, esculpida, vaciada y pulida. Es mixteca y pertenece al Posclásico Tardío, entre los años 1200 y 1521 después de Cristo. El arqueólogo Alfonso Caso la descubrió el 9 de enero de 1932 en la Tumba 7 de Monte Albán. Formó parte del célebre tesoro de esa tumba, uno de los hallazgos más suntuosos de América. Muestra la maestría de los artesanos mixtecos para trabajar minerales de extrema dureza. Se piensa que era un recipiente ceremonial, para libaciones o para el consumo sagrado de cacao.
-
-**EN:** To make this cup, a piece of clear quartz had to be hollowed out by hand, with fine abrasives and water. It is a rock crystal cup, made of hyaline quartz, carved, hollowed out, and polished. It is Mixtec and belongs to the Late Postclassic (Postclassic) period, between the years 1200 and 1521 AD. The archaeologist Alfonso Caso discovered it on January 9, 1932, in Tomb 7 at Monte Albán. It was part of the famous treasure of that tomb, one of the most sumptuous finds in the Americas. It shows the mastery of Mixtec artisans in working extremely hard minerals. It is thought to have been a ceremonial vessel, used for libations or for the sacred consumption of cacao.
-
-### guion_largo
-
-**ES:** Esta copa guarda una paradoja. Está hecha de cuarzo transparente, uno de los minerales más duros, y aun así se ahuecó a mano. Es una copa de cristal de roca, es decir, cuarzo hialino. /  / Los artesanos mixtecos la esculpieron, la vaciaron y la pulieron con abrasivos finos y agua. Pertenece al Posclásico Tardío, entre los años 1200 y 1521 después de Cristo. /  / El arqueólogo Alfonso Caso la descubrió el 9 de enero de 1932, en la Tumba 7 de Monte Albán. Formó parte del célebre tesoro de esa tumba, uno de los hallazgos más suntuosos de América. /  / Se piensa que era un recipiente ceremonial, para libaciones o para el consumo sagrado de cacao. /  / La Tumba 7 la construyeron los zapotecas. Siglos después, los mixtecos la reutilizaron para sepultar a sus dignatarios. Los rodearon de cientos de joyas de oro, plata, turquesa, ámbar, perlas y jade, y de recipientes de cristal de roca como este. /  / Cuando la mires, piensa en la dureza del material y en la paciencia que exigió. Convertir un cuarzo en una copa es una muestra de la maestría de los artesanos mixtecos.
-
-**EN:** This cup holds a paradox. It is made of clear quartz, one of the hardest minerals, and yet it was hollowed out by hand. It is a rock crystal cup, that is, hyaline quartz. /  / Mixtec artisans carved it, hollowed it out, and polished it with fine abrasives and water. It belongs to the Late Postclassic, between the years 1200 and 1521 AD. /  / The archaeologist Alfonso Caso discovered it on January 9, 1932, in Tomb 7 at Monte Albán. It was part of the famous treasure of that tomb, one of the most sumptuous finds in the Americas. /  / It is thought to have been a ceremonial vessel, used for libations or for the sacred consumption of cacao. /  / Tomb 7 was built by the Zapotec. Centuries later, the Mixtec reused it to bury their dignitaries. They surrounded them with hundreds of jewels of gold, silver, turquoise, amber, pearls, and jade, and with rock crystal vessels like this one. /  / When you look at it, think about the hardness of the material and the patience it demanded. Turning a piece of quartz into a cup is a testament to the mastery of Mixtec artisans.
-
-### retos_observacion
-
-**ES:** Busca la transparencia del cuarzo: se ve a través de la copa. / Fíjate en el pulido liso de toda la superficie. / Compara su aspecto con el oro y la turquesa de las vitrinas vecinas.
-
-**EN:** Look for the transparency of the quartz: you can see through the cup. / Notice the smooth polish across the entire surface. / Compare its appearance with the gold and turquoise in the neighboring display cases.
-
-### especificaciones
-
-**ES:** Cultura: Mixteca (ofrenda depositada en una tumba zapoteca) / Periodo: Posclásico Tardío (1200-1521 d.C.); descubierta el 9 de enero de 1932 / Material: Cristal de roca (cuarzo hialino) / Procedencia: Tumba 7, Monte Albán, Oaxaca
-
-**EN:** Culture: Mixtec (offering placed in a Zapotec tomb) / Period: Late Postclassic (1200-1521 AD); discovered on January 9, 1932 / Material: Rock crystal (hyaline quartz) / Origin: Tomb 7, Monte Albán, Oaxaca
-
-### faq_mito
-
-**ES:** pregunta: Mito: La copa de cristal de roca está hecha de vidrio. / respuesta: Realidad: Es cuarzo hialino, esculpido, vaciado y pulido a mano con abrasivos finos y agua.
-
-**EN:** pregunta: Myth: The rock crystal cup is made of glass. / respuesta: Reality: It is hyaline quartz, carved, hollowed out, and polished by hand with fine abrasives and water.
-
-## Pieza: mna_s07_vaso_tecali_mono
-
-### titulo
-
-**ES:** Vaso trípode de tecali con efigie de mono
-
-**EN:** Tecali Tripod Vessel with Monkey Effigy
-
-### frase_gancho
-
-**ES:** Un vaso trípode de piedra translúcida con un mono araña.
-
-**EN:** A tripod vessel of translucent stone with a spider monkey.
-
-### puente_narrativo
-
-**ES:** Seguimos con los recipientes de lujo: un vaso de piedra translúcida con un mono.
-
-**EN:** We continue with the luxury vessels: a vessel of translucent stone with a monkey.
-
-### guion_corto
-
-**ES:** Este vaso tiene tres patas y un mono. Es un vaso trípode de tecali, una piedra translúcida parecida al mármol, con la figura de un mono araña en relieve o adosada como asa. Se esculpió, se vació y se pulió a mano, con abrasivos finos y agua. Con esa técnica se lograban paredes delgadas que dejan pasar la luz. Vasos de este tipo aparecen en tumbas de los Valles Centrales de Oaxaca y también en entierros de la Isla de Sacrificios, en Veracruz. Se piensa que servían para contener líquidos sagrados, como bebidas de cacao o resinas, en ceremonias de la corte noble.
-
-**EN:** This vessel has three legs and a monkey. It is a tecali tripod vessel, made of a translucent stone similar to marble, with the figure of a spider monkey in relief or attached as a handle. It was carved, hollowed out, and polished by hand, with fine abrasives and water. This technique made it possible to create thin walls that let light pass through. Vessels of this type appear in tombs in the Central Valleys of Oaxaca and also in burials on Isla de Sacrificios, in Veracruz. They are thought to have held sacred liquids, such as cacao drinks or resins, in ceremonies of the noble court.
-
-### guion_largo
-
-**ES:** Un vaso que deja pasar la luz, y que además tiene un mono. Esta pieza es un vaso trípode, es decir, con tres soportes, hecho de tecali, una piedra translúcida parecida al mármol y al alabastro. /  / Lleva la figura estilizada de un mono araña, en relieve o adosada como asa. Es un recipiente efigie, una vasija que al mismo tiempo es una escultura. /  / La piedra se esculpió, se vació y se pulió a mano, con abrasivos finos y agua. Se piensa que los escultores ahuecaban las rocas translúcidas con cilindros de cobre y arenas húmedas. Así lograban paredes delgadas, que dejan pasar la luz. /  / Vasos de este tipo aparecen en dos regiones. Hay ejemplares en los Valles Centrales de Oaxaca, en lugares como la Tumba 7 de Monte Albán y Zaachila. Y hay otros en los enterramientos ceremoniales de la Isla de Sacrificios, en Veracruz. /  / Se piensa que eran vasos ceremoniales, para contener líquidos sagrados, como bebidas de cacao o resinas, en las ceremonias de la corte noble. /  / Mira el vaso con una luz cercana, si puedes. La translucidez es lo que lo distingue de la cerámica y de la piedra común. Y fíjate en el mono, que convierte un objeto de uso en una pequeña escultura.
-
-**EN:** A vessel that lets light pass through, and that also has a monkey. This piece is a tripod vessel, that is, one with three supports, made of tecali, a translucent stone similar to marble and alabaster. /  / It bears the stylized figure of a spider monkey, in relief or attached as a handle. It is an effigy vessel, a container that is at the same time a sculpture. /  / The stone was carved, hollowed out, and polished by hand, with fine abrasives and water. It is thought that the sculptors hollowed out the translucent rocks with copper cylinders and wet sands. This is how they achieved thin walls that let light pass through. /  / Vessels of this type appear in two regions. There are examples in the Central Valleys of Oaxaca, in places such as Tomb 7 at Monte Albán and Zaachila. And there are others in the ceremonial burials of Isla de Sacrificios, in Veracruz. /  / They are thought to have been ceremonial vessels, used to hold sacred liquids, such as cacao drinks or resins, in the ceremonies of the noble court. /  / Look at the vessel in a nearby light, if you can. Its translucency is what sets it apart from ceramic and from ordinary stone. And notice the monkey, which turns a utilitarian object into a small sculpture.
-
-### retos_observacion
-
-**ES:** Busca el mono araña en relieve o a modo de asa. / Cuenta los tres soportes sobre los que se apoya el vaso. / Mira cómo la piedra deja pasar la luz.
-
-**EN:** Find the spider monkey in relief or serving as a handle. / Count the three supports the vessel rests on. / Look at how the stone lets light pass through.
-
-### especificaciones
-
-**ES:** Material: Tecali (alabastro, piedra semejante al mármol)
-
-**EN:** Material: Tecali (alabaster, a stone similar to marble)
-
-### faq_mito
-
-**ES:** pregunta: Mito: El vaso de tecali es de vidrio o de plástico. / respuesta: Realidad: Es de tecali, una piedra translúcida parecida al mármol y al alabastro, esculpida y pulida a mano con abrasivos finos y agua.
-
-**EN:** pregunta: Myth: The tecali vessel is made of glass or plastic. / respuesta: Reality: It is made of tecali, a translucent stone similar to marble and alabaster, carved and polished by hand with fine abrasives and water.
-
-## Pieza: mna_s07_lapida_bazan
-
-### titulo
-
-**ES:** Lápida de Bazán
-
-**EN:** Bazán Tablet
-
-### frase_gancho
-
-**ES:** Dos hombres frente a frente: un teotihuacano y un zapoteco.
-
-**EN:** Two men face to face: a Teotihuacán man and a Zapotec.
-
-### puente_narrativo
-
-**ES:** Pasamos a un relieve que registra un encuentro: dos hombres de ciudades distintas, frente a frente.
-
-**EN:** We move on to a relief that records an encounter: two men from different cities, face to face.
-
-### guion_corto
-
-**ES:** Dos hombres frente a frente, y entre ellos columnas de glifos. Es la Lápida de Bazán, una losa de piedra tallada en bajorrelieve, con inscripciones jeroglíficas. Viene de la Gran Plaza de Monte Albán, en Oaxaca, y es del Clásico Temprano. A la izquierda aparece un dignatario con vestimenta y piel de jaguar de estilo teotihuacano. A la derecha, un señor o sacerdote zapoteco de Monte Albán. En la parte superior y entre los personajes hay columnas de cartuchos glíficos zapotecos. Se interpreta como el registro de una reunión diplomática y de una alianza entre las dos ciudades. Sería una prueba de las relaciones pacíficas y comerciales entre Teotihuacán y Monte Albán.
-
-**EN:** Two men face to face, and between them, columns of glyphs. This is the Bazán Tablet, a stone slab carved in low relief, with hieroglyphic inscriptions. It comes from the Great Plaza of Monte Albán, in Oaxaca, and dates to the Early Classic. On the left appears a dignitary wearing Teotihuacán-style clothing and a jaguar skin. On the right, a Zapotec lord or priest from Monte Albán. At the top and between the figures there are columns of Zapotec glyph cartouches. It is interpreted as the record of a diplomatic meeting and of an alliance between the two cities. It would be proof of the peaceful and commercial relations between Teotihuacán and Monte Albán.
-
-### guion_largo
-
-**ES:** Es una losa pequeña, y cuenta una historia entre dos grandes ciudades. La Lápida de Bazán viene de la Gran Plaza de Monte Albán, en Oaxaca, y es del Clásico Temprano. Está tallada en bajorrelieve, con inscripciones jeroglíficas. /  / Mira a los dos personajes. A la izquierda hay un dignatario ataviado con vestimenta y piel de jaguar de estilo teotihuacano. A la derecha, un señor o sacerdote zapoteco de Monte Albán. /  / En la parte superior y entre ellos se disponen columnas de cartuchos glíficos zapotecos. Un cartucho es un recuadro con signos de escritura. /  / Se interpreta que la lápida registra una reunión diplomática y una alianza política entre los dos hombres. Los glifos conmemorarían la visita y los acuerdos rituales entre ambas capitales. /  / Sería la prueba escrita de que Teotihuacán y Monte Albán mantuvieron relaciones pacíficas, comerciales y de intercambio durante el periodo Clásico. Eso concuerda con la presencia, dentro de Teotihuacán, de un barrio de gente oaxaqueña, el llamado Barrio Oaxaqueño. /  / Piensa en lo que significa. En una época de grandes ciudades, dos poderes decidieron que valía la pena dejar constancia de su encuentro en la piedra.
-
-**EN:** It is a small slab, and it tells a story between two great cities. The Bazán Tablet comes from the Great Plaza of Monte Albán, in Oaxaca, and dates to the Early Classic. It is carved in low relief, with hieroglyphic inscriptions. /  / Look at the two figures. On the left stands a dignitary dressed in Teotihuacán-style clothing and a jaguar skin. On the right, a Zapotec lord or priest from Monte Albán. /  / At the top and between them, columns of Zapotec glyph cartouches are arranged. A cartouche is a frame containing writing signs. /  / The tablet is interpreted as recording a diplomatic meeting and a political alliance between the two men. The glyphs would commemorate the visit and the ritual agreements between both capitals. /  / It would be written proof that Teotihuacán and Monte Albán maintained peaceful relations, including trade and exchange, during the Classic period. That fits with the presence, within Teotihuacán, of a neighborhood of people from Oaxaca, the so-called Oaxacan Quarter. /  / Think about what it means. In an age of great cities, two powers decided that it was worth leaving a record of their meeting in stone.
-
-### retos_observacion
-
-**ES:** Busca al personaje de la izquierda, con vestimenta y piel de jaguar. / Mira al señor zapoteco de la derecha. / Encuentra las columnas de glifos entre los dos.
-
-**EN:** Find the figure on the left, wearing clothing and a jaguar skin. / Look at the Zapotec lord on the right. / Find the columns of glyphs between the two.
-
-### especificaciones
-
-**ES:** Periodo: Clásico Temprano / Material: Alabastro, tecali o travertino / Procedencia: Gran Plaza, Monte Albán, Oaxaca
-
-**EN:** Period: Early Classic / Material: Alabaster, Mexican onyx, or travertine / Origin: Great Plaza, Monte Albán, Oaxaca
-
-### faq_mito
-
-**ES:** pregunta: Mito: La Lápida de Bazán celebra la conquista de Monte Albán por los teotihuacanos. / respuesta: Realidad: Se interpreta como el registro de una reunión diplomática y una alianza entre dos ciudades que mantuvieron relaciones pacíficas y comerciales.
-
-**EN:** pregunta: Myth: The Bazán Tablet celebrates the conquest of Monte Albán by Teotihuacán. / respuesta: Reality: It is interpreted as the record of a diplomatic meeting and an alliance between two cities that maintained peaceful and commercial relations.
-
-## Pieza: mna_s07_grecas_mitla
-
-### titulo
-
-**ES:** Tablero con grecas escalonadas estilo Mitla
-
-**EN:** Panel with Stepped Frets in the Mitla Style
-
-### frase_gancho
-
-**ES:** Miles de piedras pequeñas, encajadas sin argamasa.
-
-**EN:** Thousands of small stones, fitted together without mortar.
-
-### puente_narrativo
-
-**ES:** Cerramos la Sala Oaxaca con la geometría de Mitla: un muro armado con miles de piedras pequeñas.
-
-**EN:** We close the Oaxaca Hall with the geometry of Mitla: a wall assembled from thousands of small stones.
-
-### guion_corto
-
-**ES:** Esta pared se arma con miles de piedras pequeñas, y no lleva argamasa. Es un tablero con grecas escalonadas al estilo de Mitla, en Oaxaca. No está tallado en un solo bloque. Es un mosaico de piedras recortadas con precisión e insertadas a presión. Es del Posclásico y de tradición mixteca y zapoteca. La greca escalonada, xicalcoliuhqui en náhuatl, adornaba las fachadas y los patios del centro sacerdotal de Mitla. Se interpreta que sus líneas representan el viento, el fuego, las nubes, la serpiente emplumada y el acceso al inframundo. Mitla basó la belleza de sus palacios en este mosaico de piedra, y no en pintura al fresco.
-
-**EN:** This wall is assembled from thousands of small stones, and it has no mortar. It is a panel with stepped frets in the style of Mitla, in Oaxaca. It is not carved from a single block. It is a mosaic of stones cut with precision and pressed into place. It dates to the Postclassic and belongs to the Mixtec and Zapotec tradition. The stepped fret, xicalcoliuhqui in Nahuatl, adorned the facades and courtyards of the priestly center of Mitla. Its lines are interpreted as representing wind, fire, clouds, the Feathered Serpent, and the entrance to the underworld. Mitla built the beauty of its palaces on this stone mosaic, and not on fresco painting.
-
-### guion_largo
-
-**ES:** Un muro armado como un rompecabezas. Esa es la idea de este tablero. Está formado por miles de pequeñas piedras recortadas con precisión, que se insertaron a presión, sin argamasa. /  / Es un tablero con grecas escalonadas al estilo de Mitla, en los Valles Centrales de Oaxaca. Mitla se conoció también como Mictlán. Es del Posclásico, y se vincula con las tradiciones mixteca y zapoteca. /  / La greca escalonada se llama xicalcoliuhqui, en náhuatl. Es un motivo geométrico que adornaba las fachadas y los patios del centro sacerdotal de Mitla. Se interpreta que sus líneas representan el viento, el fuego, las nubes, la serpiente emplumada y el acceso místico al inframundo. /  / Otros centros mesoamericanos decoraban con pintura al fresco. Mitla basó la belleza de sus palacios en este mosaico pétreo. Está ensamblado con tal exactitud que los tableros se han mantenido en pie durante siglos, incluso con los sismos. /  / Acércate sin tocar. Fíjate en cómo cada piedra encaja con la de al lado, y en cómo la luz marca sombras en el zigzag de la greca. No hay colores ni figuras: solo líneas que se repiten y que dicen mucho.
-
-**EN:** A wall assembled like a puzzle. That is the idea behind this panel. It is made of thousands of small stones cut with precision, which were pressed into place, without mortar. /  / It is a panel with stepped frets in the style of Mitla, in the Central Valleys of Oaxaca. Mitla was also known as Mictlán. It dates to the Postclassic, and it is linked to the Mixtec and Zapotec traditions. /  / The stepped fret is called xicalcoliuhqui, in Nahuatl. It is a geometric motif that adorned the facades and courtyards of the priestly center of Mitla. Its lines are interpreted as representing wind, fire, clouds, the Feathered Serpent, and the mystical entrance to the underworld. /  / Other Mesoamerican centers decorated with fresco painting. Mitla built the beauty of its palaces on this stone mosaic. It is assembled with such exactness that the panels have stood for centuries, even through earthquakes. /  / Come closer, but do not touch. Notice how each stone fits with the one beside it, and how the light casts shadows along the zigzag of the fret. There are no colors or figures: only lines that repeat and that say a great deal.
-
-### retos_observacion
-
-**ES:** Busca el zigzag escalonado de la greca. / Fíjate en cómo encajan las piedras pequeñas, sin argamasa. / Mira las sombras que la luz marca entre las líneas.
-
-**EN:** Look for the stepped zigzag of the fret. / Notice how the small stones fit together, without mortar. / Watch the shadows that the light casts between the lines.
-
-### especificaciones
-
-**ES:** Cultura: Mixteca / Zapoteca / Periodo: Posclásico / Material: Mosaico de piedra, caliza pulida y toba volcánica, encajado a presión / Procedencia: Mitla, Valles Centrales, Oaxaca
-
-**EN:** Culture: Mixtec / Zapotec / Period: Postclassic / Material: Stone mosaic, polished limestone and volcanic tuff, pressed into place / Origin: Mitla, Central Valleys, Oaxaca
-
-### faq_mito
-
-**ES:** pregunta: Mito: Las grecas de Mitla se tallaron directamente en un muro terminado. / respuesta: Realidad: Son mosaicos de miles de pequeñas piedras recortadas e insertadas a presión, sin argamasa.
-
-**EN:** pregunta: Myth: The frets of Mitla were carved directly into a finished wall. / respuesta: Reality: They are mosaics of thousands of small stones, cut and pressed into place, without mortar.
-
-## Pieza: mna_s05_atlante_tula
-
-### titulo
-
-**ES:** Atlante de Tula
-
-**EN:** Atlante of Tula
-
-### frase_gancho
-
-**ES:** Un guerrero de piedra que sostenía el techo de un templo en Tula.
-
-**EN:** A stone warrior who held up the roof of a temple in Tula.
-
-### puente_narrativo
-
-**ES:** Dejamos Teotihuacán y llegamos a Tula, la ciudad de los toltecas, con uno de sus guerreros de piedra.
-
-**EN:** We leave Teotihuacán behind and arrive at Tula, the city of the Toltec, with one of their stone warriors.
-
-### guion_corto
-
-**ES:** Este guerrero de piedra se armó con cuatro bloques puestos uno sobre otro y unidos con un sistema de caja y espiga. Es un atlante de Tula, una columna con forma humana, hecha por los toltecas en el Posclásico Temprano. Viene de la pirámide de Tlahuizcalpantecuhtli, el Señor del Alba, que es el planeta Venus. Junto con otros tres iguales, sostenía el techo del templo que coronaba el basamento. Representa a un guerrero divinizado de la élite tolteca. Lleva un tocado con plumas, orejeras rectangulares y, sobre el pecho, un pectoral en forma de mariposa. En la mano derecha sostiene un átlatl, el lanzadardos. En la izquierda, cuatro dardos. Era parte del edificio, y el edificio descansaba en él.
-
-**EN:** This stone warrior was assembled from four blocks stacked one on top of another and joined with a mortise-and-tenon system. It is an atlante of Tula, a column in human form, made by the Toltec in the Early Postclassic. It comes from the pyramid of Tlahuizcalpantecuhtli, the Lord of the Dawn, who is the planet Venus. Together with three identical figures, it held up the roof of the temple that crowned the platform. It represents a deified warrior of the Toltec elite. He wears a feathered headdress, rectangular ear ornaments, and, on his chest, a butterfly-shaped pectoral. In his right hand he holds an átlatl, the spear-thrower. In his left, four darts. It was part of the building, and the building rested on it.
-
-### guion_largo
-
-**ES:** Es una columna, pero tiene forma de persona. Se trata de un atlante de Tula, la ciudad de los toltecas, en el actual estado de Hidalgo. Pertenece al Posclásico Temprano y viene de la pirámide de Tlahuizcalpantecuhtli, también llamada Templo B. /  / Cada atlante se armó con cuatro bloques de piedra, colocados uno sobre otro. Se unían con el sistema de caja y espiga: un hueco en una pieza y una saliente en la otra que encajaban entre sí. Así la figura se levantaba por tramos. Supera por mucho la estatura de una persona, y fue hecha para sostener un techo. /  / Fíjate en el atuendo. Lleva un tocado cilíndrico con plumas y orejeras rectangulares. Sobre el pecho, un pectoral con forma de mariposa, papalotl en náhuatl. Más abajo, un faldellín sujeto con cinturón. En la mano derecha sostiene el átlatl, un lanzadardos. En la izquierda, cuatro dardos y un recipiente decorado con grecas. Al hombro lleva un cuchillo curvo, que se relaciona con el sacrificio de cautivos. En la espalda tiene un disco, el tezcacuitlapilli, adornado con la serpiente emplumada. En las piernas y los pies quedan restos de pintura roja. Los ojos estuvieron decorados con incrustaciones de concha y obsidiana. /  / Los estudiosos proponen que representa a un guerrero divinizado de la élite tolteca, a partir de su atuendo. Se le vincula con el culto a Tlahuizcalpantecuhtli, el Señor del Alba, que es el planeta Venus, y con Mixcóatl. Lo que sí se sabe es su función. Junto con otros tres atlantes idénticos, sostenía el techo de madera de un templo, en la cima del basamento piramidal. /  / El arqueólogo Jorge R. Acosta recuperó las cuatro figuras a finales de la década de 1930, dentro del foso de la Pirámide B. Tres siguen en pie en la zona arqueológica de Tula. Este ejemplar se trasladó para presidir la Sala Tolteca. Cuando te alejes, imagina el templo completo: un techo de madera descansando sobre cuatro guerreros de piedra.
-
-**EN:** It is a column, but it has the shape of a person. This is an atlante of Tula, the city of the Toltec, in the present-day state of Hidalgo. It belongs to the Early Postclassic and comes from the pyramid of Tlahuizcalpantecuhtli, also called Temple B. /  / Each atlante was assembled from four stone blocks, placed one on top of another. They were joined with the mortise-and-tenon system: a hollow in one piece and a projection on the other that fit together. This way the figure rose in sections. It stands far taller than a person, and it was made to hold up a roof. /  / Notice the attire. He wears a cylindrical headdress with feathers and rectangular ear ornaments. On his chest, a pectoral shaped like a butterfly, papalotl in Nahuatl. Farther down, a kilt held in place with a belt. In his right hand he holds the átlatl, a spear-thrower. In his left, four darts and a vessel decorated with step-fret designs. On his shoulder he carries a curved knife, which is linked to the sacrifice of captives. On his back he has a disk, the tezcacuitlapilli, adorned with the Feathered Serpent. On the legs and feet, traces of red paint remain. The eyes were once decorated with inlays of shell and obsidian. /  / Scholars propose, based on his attire, that he represents a deified warrior of the Toltec elite. He is linked to the cult of Tlahuizcalpantecuhtli, the Lord of the Dawn, who is the planet Venus, and to Mixcóatl. What is known for certain is its function. Together with three other identical atlantes, it held up the wooden roof of a temple, at the top of the pyramid platform. /  / The archaeologist Jorge R. Acosta recovered the four figures in the late 1930s, inside the trench of Pyramid B. Three still stand at the archaeological site of Tula. This one was moved to preside over the Toltec Hall. As you walk away, imagine the complete temple: a wooden roof resting on four stone warriors.
-
-### retos_observacion
-
-**ES:** Busca el pectoral con forma de mariposa sobre el pecho. / Encuentra el lanzadardos que sostiene en la mano derecha. / Mira las piernas: conservan restos de pintura roja.
-
-**EN:** Find the butterfly-shaped pectoral on the chest. / Find the spear-thrower he holds in his right hand. / Look at the legs: they preserve traces of red paint.
-
-### especificaciones
-
-**ES:** Cultura: Tolteca / Periodo: Posclásico Temprano (900-1200 d.C.) / Procedencia: Tula, Hidalgo (Pirámide de Tlahuizcalpantecuhtli, Templo B) / Medidas: 4.83 m de alto x 1.00 m de ancho x 1.40 m de espesor / Hallazgo: Recuperado por Jorge R. Acosta a finales de la década de 1930, en el foso de la Pirámide B
-
-**EN:** Culture: Toltec / Period: Early Postclassic (900-1200 AD) / Origin: Tula, Hidalgo (Pyramid of Tlahuizcalpantecuhtli, Temple B) / Dimensions: 4.83 m high x 1.00 m wide x 1.40 m deep / Discovery: Recovered by Jorge R. Acosta in the late 1930s, in the trench of Pyramid B
-
-### faq_mito
-
-**ES:** pregunta: Mito: Cada atlante está tallado en una sola roca gigantesca. / respuesta: Realidad: Cada atlante se arma con cuatro bloques de piedra superpuestos, unidos con el sistema de caja y espiga.
-
-**EN:** pregunta: Myth: Each atlante is carved from a single gigantic rock. / respuesta: Reality: Each atlante is assembled from four stacked stone blocks, joined with the mortise-and-tenon system.
-
-## Pieza: mna_s05_chacmool_tolteca
-
-### titulo
-
-**ES:** Chac Mool tolteca
-
-**EN:** Toltec Chac Mool
-
-### frase_gancho
-
-**ES:** Reclinado, con la cabeza girada y un recipiente sobre el vientre para recibir ofrendas.
-
-**EN:** Reclining, with its head turned and a vessel on its belly to receive offerings.
-
-### puente_narrativo
-
-**ES:** Seguimos en Tula con una escultura que viajó por Mesoamérica: un hombre reclinado con un recipiente sobre el vientre.
-
-**EN:** We remain in Tula with a sculpture that traveled across Mesoamerica: a reclining man with a vessel on his belly.
-
-### guion_corto
-
-**ES:** Chac Mool significa garra roja o jaguar de garra veloz en lengua maya, y es un nombre que no le pusieron los toltecas. Lo inventó en el siglo diecinueve un explorador francés, Augustus Le Plongeon, al encontrar una figura parecida en Chichén Itzá. Esta escultura de basalto es de estilo tolteca, del Posclásico Temprano. Muestra a un hombre reclinado. Apoya la espalda baja, la cadera y los codos, y dobla las piernas. Su cabeza gira 90 grados hacia un costado. Sobre el vientre sostiene un recipiente circular, hecho para recibir ofrendas, sangre o corazones. Mide 142 centímetros de largo. Los estudios arqueológicos sostienen que este tipo de escultura nació en la Tula tolteca. De ahí viajó a Yucatán y al Altiplano de los mexicas.
-
-**EN:** Chac Mool means red claw or swift-clawed jaguar in the Maya language, and it is a name the Toltecs never gave it. It was invented in the nineteenth century by a French explorer, Augustus Le Plongeon, when he found a similar figure at Chichén Itzá. This basalt sculpture is Toltec in style, from the Early Postclassic. It shows a reclining man. He rests his lower back, hips and elbows, and bends his legs. His head turns 90 degrees to one side. On his belly he holds a circular vessel, made to receive offerings, blood or hearts. It measures 142 centimeters long. Archaeological studies hold that this type of sculpture was born in Toltec Tula. From there it traveled to Yucatán and to the highlands of the Mexica.
-
-### guion_largo
-
-**ES:** Chac Mool significa garra roja o jaguar de garra veloz en lengua maya. Es un nombre curioso para una escultura tolteca. Se lo puso el explorador francés Augustus Le Plongeon, en el siglo diecinueve, al descubrir una figura parecida en Chichén Itzá. El nombre se quedó para todas las esculturas de este tipo. /  / Esta pieza es de basalto, trabajada en bulto, con grabados en relieve e incisiones. Mide 142 centímetros de largo, 64.2 de alto y 65.5 de espesor. Es una figura más larga que alta, hecha para verse a poca distancia del suelo. /  / Es un personaje masculino reclinado. Apoya la espalda baja, la cadera y los codos, y mantiene las piernas flexionadas. Su cabeza gira en ángulo recto, 90 grados, hacia un costado. Es una pose rígida y muy reconocible, que se repite en las figuras de este tipo. /  / Lleva orejeras, tobilleras y brazaletes. Sobre el pecho, un pectoral plano con la silueta estilizada de una mariposa. Ese símbolo también aparece en el atlante de esta sala. Sobre el vientre sostiene un recipiente circular. Estaba destinado a recibir ofrendas sagradas, como sangre o corazones. A quién representa, se desconoce. /  / Una figura tan quieta resulta tensa. El torso se levanta en ángulo, el cuello se tuerce y las manos sujetan el recipiente. Es un cuerpo en reposo que parece a punto de moverse. /  / La historia del tipo de escultura es más larga que la de esta pieza. Según los estudios arqueológicos, el Chac Mool es una innovación de la Tula tolteca. Fue un elemento emblemático que se compartió entre Tula y Chichén Itzá. Más tarde, los mexicas lo continuaron en el Altiplano. Una misma postura, la de un hombre reclinado con un recipiente sobre el vientre, recorrió Mesoamérica durante siglos.
-
-**EN:** Chac Mool means red claw or swift-clawed jaguar in the Maya language. It is a curious name for a Toltec sculpture. It was given by the French explorer Augustus Le Plongeon, in the nineteenth century, when he discovered a similar figure at Chichén Itzá. The name stuck for all sculptures of this type. /  / This piece is made of basalt, carved in the round, with relief carving and incisions. It measures 142 centimeters long, 64.2 high and 65.5 thick. It is a figure longer than it is tall, made to be seen close to the ground. /  / It is a reclining male figure. He rests his lower back, hips and elbows, and keeps his legs bent. His head turns at a right angle, 90 degrees, to one side. It is a rigid and highly recognizable pose, repeated in figures of this type. /  / He wears ear ornaments, anklets and bracelets. On his chest, a flat pectoral with the stylized silhouette of a butterfly. That symbol also appears on the atlas figure in this hall. On his belly he holds a circular vessel. It was meant to receive sacred offerings, such as blood or hearts. Who it represents is unknown. /  / A figure so still feels tense. The torso rises at an angle, the neck twists and the hands grip the vessel. It is a body at rest that seems about to move. /  / The history of this type of sculpture is longer than that of this piece. According to archaeological studies, the Chac Mool is an innovation of Toltec Tula. It was an emblematic element shared between Tula and Chichén Itzá. Later, the Mexica continued it in the highlands. A single posture, that of a reclining man with a vessel on his belly, traveled across Mesoamerica for centuries.
-
-### retos_observacion
-
-**ES:** Mira cómo la cabeza gira un cuarto de vuelta hacia un costado. / Busca el recipiente circular que sostiene sobre el vientre. / Encuentra el pectoral plano con la silueta de una mariposa.
-
-**EN:** Look at how the head turns a quarter turn to one side. / Find the circular vessel he holds on his belly. / Find the flat pectoral with the silhouette of a butterfly.
-
-### especificaciones
-
-**ES:** Cultura: Tolteca / Periodo: Posclásico Temprano (900-1200 d.C.) / Material: Basalto / Medidas: 0.642 m de alto x 1.42 m de largo x 0.655 m de espesor
-
-**EN:** Culture: Toltec / Period: Early Postclassic (900-1200 AD) / Material: Basalt / Dimensions: 0.642 m high x 1.42 m long x 0.655 m thick
-
-### faq_mito
-
-**ES:** pregunta: Mito: Chac Mool es el nombre que le dieron los toltecas a esta escultura. / respuesta: Realidad: Es un nombre maya que puso en el siglo diecinueve el explorador Augusto Le Plongeon al ver una figura parecida en Chichén Itzá.
-
-**EN:** pregunta: Myth: Chac Mool is the name the Toltecs gave to this sculpture. / respuesta: Reality: It is a Maya name given in the nineteenth century by the explorer Augustus Le Plongeon when he saw a similar figure at Chichén Itzá.
-
-> Aviso: el glosario pide "Toltec" para "Tolteca / Toltecas" y no aparece
-
-## Pieza: mna_s05_coraza_concha_tula
-
-### titulo
-
-**ES:** Coraza ceremonial de concha y caracoles marinos
-
-**EN:** Ceremonial Cuirass of Shell and Sea Snails
-
-### frase_gancho
-
-**ES:** Más de mil placas de concha del Pacífico en una prenda ceremonial de Tula.
-
-**EN:** More than a thousand Pacific shell plates on a ceremonial garment from Tula.
-
-### puente_narrativo
-
-**ES:** A través de amplias redes comerciales, Tula importaba materiales preciosos del océano Pacífico para confeccionar ajuares para la nobleza.
-
-**EN:** Through vast trade networks, Tula imported precious materials from the Pacific Ocean to make regalia for the nobility.
-
-### guion_corto
-
-**ES:** En mil novecientos noventa y tres, bajo el piso de la sala principal del Palacio Quemado de Tula, apareció una caja de adobes. Dentro había una coraza hecha con más de mil placas de concha del género Spondylus. Es un xicolli, un chaleco ceremonial tolteca del Posclásico Temprano, y lleva también caracoles del género Oliva. Las conchas vienen del océano Pacífico, muy lejos de Hidalgo, y eso habla de las rutas de comercio que controlaba Tula. Las placas, cosidas en hileras, recuerdan las escamas de una serpiente de agua. El lugar del hallazgo estaba consagrado al dios Tláloc. No era una armadura de combate, sino una prenda de altísimo rango ceremonial, que se supone vistió un gobernante o un alto sacerdote. La pieza que ves aquí es una reproducción científica, hecha por Adrián Velázquez Castro. El original se guarda en el Centro INAH Hidalgo.
-
-**EN:** In nineteen ninety-three, beneath the floor of the main hall of the Palacio Quemado in Tula, a box made of adobe bricks came to light. Inside was a cuirass made from more than a thousand shell plates of the Spondylus genus. It is a xicolli, a Toltec ceremonial vest from the Early Postclassic, and it also bears snail shells of the Oliva genus. The shells come from the Pacific Ocean, very far from Hidalgo, and that speaks of the trade routes Tula controlled. The plates, sewn in rows, recall the scales of a water serpent. The place where it was found was consecrated to the god Tláloc. It was not combat armor, but a garment of the highest ceremonial rank, thought to have been worn by a ruler or a high priest. The piece you see here is a scientific reproduction, made by Adrián Velázquez Castro. The original is kept at the INAH Hidalgo Center.
-
-### guion_largo
-
-**ES:** Esta prenda se llama xicolli y es un chaleco ceremonial. No está hecha de tela, sino de más de mil placas pequeñas de concha marina del género Spondylus, además de caracoles del género Oliva. Las piezas se cosían en hileras sobre un soporte de cuero, posiblemente. Mide ciento veintisiete centímetros de alto y cuarenta y uno de ancho. No era una armadura de combate. Era una prenda de altísimo rango ceremonial. Lo que se sabe es de qué está hecha y dónde apareció. Lo que se supone es que la vistieron gobernantes o altos sacerdotes de Tula. Todas esas conchas vienen del océano Pacífico. Para llegar a Tula, en Hidalgo, recorrieron una distancia enorme. Eso muestra que la ciudad controlaba rutas de comercio de larga distancia, por tierra y por mar, para conseguir bienes de lujo. Las conchas no fueron lo único que llegó de lejos. También se importaban turquesas, jade y cerámica plomiza. Tula reunía a gente de varios pueblos: nahuas, otomíes, huastecos y grupos mayas. Esa mezcla ayuda a entender por qué podían llegar objetos de lugares tan distintos. Ahora mira cómo está organizada la superficie. Las placas van en hileras y simulan las escamas de una serpiente de agua. Entre ellas se reconocen los caracoles del género Oliva. La prenda fue hallada en un espacio consagrado al dios Tláloc. En mil novecientos noventa y tres, los arqueólogos Guadalupe Mastache y Robert Cobean trabajaban en Tula. Bajo el piso de la sala principal del Palacio Quemado encontraron una caja de adobes. Allí había una ofrenda. La coraza formaba parte de ella. Junto a la coraza había un collar de cuentas de Spondylus en forma de flor. También había un disco decorado con mosaico de pirita y turquesa. Y ahora, un detalle importante. Lo que tienes enfrente es una reproducción científica, hecha por Adrián Velázquez Castro. El original se resguarda en el Almacén de Bienes Culturales del Centro INAH Hidalgo. Aun así, la réplica permite ver cómo era la prenda completa, con sus hileras de piezas pequeñas. Imagina el trabajo de reunir más de mil placas rectangulares y coserlas en hileras parejas. Cada una es pequeña, pero juntas visten un cuerpo entero. Esa es la paciencia que cabe en una sola prenda ceremonial.
-
-**EN:** This garment is called a xicolli, and it is a ceremonial vest. It is not made of cloth, but of more than a thousand small plates of Spondylus sea shell, along with snail shells of the Oliva genus. The pieces were sewn in rows onto a backing that was possibly leather. It measures one hundred twenty-seven centimeters high and forty-one wide. It was not combat armor. It was a garment of the highest ceremonial rank. What is known is what it is made of and where it was found. What is supposed is that it was worn by rulers or high priests of Tula. All of these shells come from the Pacific Ocean. To reach Tula, in Hidalgo, they traveled an enormous distance. That shows that the city controlled long-distance trade routes, over land and by sea, to obtain luxury goods. Shells were not the only things that arrived from afar. Turquoise, jade, and plumbate ceramics were also imported. Tula brought together people from various groups: Nahua, Otomi, Huastec, and Maya. That mix helps explain why objects from such different places could arrive. Now look at how the surface is organized. The plates run in rows and imitate the scales of a water serpent. Among them you can make out the snail shells of the Oliva genus. The garment was found in a space consecrated to the god Tláloc. In nineteen ninety-three, the archaeologists Guadalupe Mastache and Robert Cobean were working in Tula. Beneath the floor of the main hall of the Palacio Quemado, they found a box made of adobe bricks. There was an offering inside. The cuirass was part of it. Beside the cuirass was a necklace of flower-shaped Spondylus beads. There was also a disk decorated with pyrite and turquoise mosaic. And now, an important detail. What you have in front of you is a scientific reproduction, made by Adrián Velázquez Castro. The original is kept in the Cultural Property Warehouse of the INAH Hidalgo Center. Even so, the replica lets you see what the complete garment was like, with its rows of small pieces. Imagine the work of gathering more than a thousand rectangular plates and sewing them in even rows. Each one is small, but together they clothe an entire body. That is the patience that fits into a single ceremonial garment.
-
-> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
-
-### retos_observacion
-
-**ES:** Mira las placas de concha en hileras, como escamas de serpiente. / Busca los caracoles pequeños del género Oliva entre las placas. / Fíjate en que tiene forma de chaleco: el xicolli.
-
-**EN:** Look at the shell plates in rows, like serpent scales. / Look for the small snail shells of the Oliva genus among the plates. / Notice that it is shaped like a vest: the xicolli.
-
-### especificaciones
-
-**ES:** Cultura: Tolteca / Periodo: Posclásico Temprano (900-1200 d.C.) / Material: Placas de concha Spondylus y caracoles Oliva del océano Pacífico, sobre un soporte de cuero / Procedencia: Tula, Hidalgo (Palacio Quemado, caja de adobes bajo el piso de la sala principal) / Medidas: 1.27 m de alto x 0.41 m de ancho / Hallazgo: Descubierta en 1993 por Guadalupe Mastache y Robert Cobean; en la sala se exhibe una reproducción de Adrián Velázquez Castro y el original está en el Centro INAH Hidalgo
-
-**EN:** Culture: Toltec / Period: Early Postclassic (900-1200 AD) / Material: Spondylus shell plates and Oliva snail shells from the Pacific Ocean, on a leather backing / Origin: Tula, Hidalgo (Palacio Quemado, adobe-brick box beneath the floor of the main hall) / Dimensions: 1.27 m high x 0.41 m wide / Discovery: Discovered in 1993 by Guadalupe Mastache and Robert Cobean; a reproduction by Adrián Velázquez Castro is displayed in the hall, and the original is at the INAH Hidalgo Center
-
-### faq_mito
-
-**ES:** pregunta: Mito: La coraza que ves en la sala es la prenda original de Tula. / respuesta: Realidad: Es una reproducción científica de Adrián Velázquez Castro; el original se resguarda en el Centro INAH Hidalgo.
-
-**EN:** pregunta: Myth: The cuirass you see in the hall is the original garment from Tula. / respuesta: Reality: It is a scientific reproduction by Adrián Velázquez Castro; the original is kept at the INAH Hidalgo Center.
-
-## Pieza: mna_s05_lapida_venus
-
-### titulo
-
-**ES:** Lápida de Tlahuizcalpantecuhtli
-
-**EN:** Tablet of Tlahuizcalpantecuhtli
-
-### frase_gancho
-
-**ES:** Un corazón de tres lóbulos, atravesado por tres haces de flechas, tallado en piedra en Tula.
-
-**EN:** A three-lobed heart, pierced by three bundles of arrows, carved in stone at Tula.
-
-### puente_narrativo
-
-**ES:** Pasamos de los guerreros que sostenían el templo a una lápida que cuenta una idea: un corazón atravesado por flechas.
-
-**EN:** We move from the warriors who held up the temple to a stone slab that tells an idea: a heart pierced by arrows.
-
-### guion_corto
-
-**ES:** Hay un detalle que casi nadie cuenta: el corazón de esta lápida tiene tres lóbulos. Está dentro de un plato, o recipiente, cortado de lado, y lo atraviesan tres haces de flechas. Es un relieve de basalto de la cultura tolteca, del Posclásico Temprano. Viene de Tula, de la pirámide de Tlahuizcalpantecuhtli, el Señor de la Estrella del Alba. Originalmente estuvo pintado. Se propone que paneles como este funcionaban como un discurso sin palabras sobre el sacrificio humano y la renovación del cosmos. La misma idea, corazones atravesados por dardos, aparece también en los templos de Chichén Itzá, en Yucatán. Eso muestra el estrecho vínculo militar y religioso entre Tula y la península.
-
-**EN:** There is a detail almost no one mentions: the heart on this slab has three lobes. It sits inside a plate, or vessel, shown cut from the side, and three bundles of arrows pierce it. It is a basalt relief from the Toltec culture, from the Early Postclassic period. It comes from Tula, from the pyramid of Tlahuizcalpantecuhtli, the Lord of the Morning Star. It was originally painted. It is proposed that panels like this one worked as a speech without words about human sacrifice and the renewal of the cosmos. The same idea, hearts pierced by darts, also appears in the temples of Chichén Itzá, in Yucatán. That shows the close military and religious bond between Tula and the peninsula.
-
-### guion_largo
-
-**ES:** Fíjate primero en el centro de la lápida. Hay un plato, o recipiente, representado cortado de lado, como en un corte transversal. Encima descansa un corazón humano. Tiene tres lóbulos, y por eso las fichas lo llaman trilobulado. Y no está en paz: tres haces de flechas lo atraviesan. Un haz es un grupo de flechas atadas. /  / La losa es de basalto y fue trabajada en bajo y alto relieve, es decir, con zonas poco salientes y otras que sobresalen más. Hoy la ves en tonos de piedra, pero originalmente estuvo policromada. /  / Se asocia con la pirámide de Tlahuizcalpantecuhtli, en Tula. Ese es el Señor de la Estrella del Alba, es decir, el planeta Venus. En esa misma pirámide había atlantes como el de esta sala, guerreros de piedra que sostenían el techo del templo. Los atlantes sostenían la arquitectura. Las lápidas, en cambio, contaban ideas. /  / Piensa en la ciudad. Hacia el año ochocientos cincuenta, Tula entró en su etapa más grande, la llamada Tula Grande. Llegó a cubrir más de trece kilómetros cuadrados. Reunía a gente de muchos pueblos y dominaba rutas de comercio. En una ciudad así, las imágenes de piedra eran una forma de comunicar ideas a mucha gente. /  / Lo que se ve es un círculo hondo, un corazón de tres lóbulos y líneas rectas que lo cruzan. Se propone que funcionaba como un discurso en piedra, sobre el sacrificio humano y la renovación del cosmos, y que se leía sin palabras. La misma iconografía, corazones atravesados por dardos, aparece en los templos de Chichén Itzá, en Yucatán. Eso muestra el estrecho vínculo militar y religioso entre Tula y la península durante este periodo. /  / Un corazón de tres lóbulos, un plato y tres haces de flechas: tres elementos para una idea que, en Tula, se decía con piedra.
-
-**EN:** First, look at the center of the slab. There is a plate, or vessel, shown cut from the side, as in a cross section. On top of it rests a human heart. It has three lobes, which is why the museum labels call it trilobed. And it is not at peace: three bundles of arrows pierce it. A bundle is a group of arrows tied together. /  / The slab is made of basalt and was worked in low and high relief, that is, with areas that rise only slightly and others that stand out more. Today you see it in the tones of the stone, but originally it was polychrome. /  / It is associated with the pyramid of Tlahuizcalpantecuhtli, in Tula. He is the Lord of the Morning Star, that is, the planet Venus. On that same pyramid there were Atlantean figures like the one in this hall, stone warriors who held up the roof of the temple. The Atlantean figures held up the architecture. The slabs, by contrast, told ideas. /  / Think about the city. Around the year eight hundred fifty, Tula entered its greatest phase, known as Greater Tula. It came to cover more than thirteen square kilometers. It brought together people from many groups and controlled trade routes. In a city like that, stone images were a way of communicating ideas to many people. /  / What you see is a deep circle, a three-lobed heart, and straight lines that cross it. It is proposed that it worked as a speech in stone, about human sacrifice and the renewal of the cosmos, and that it was read without words. The same iconography, hearts pierced by darts, appears in the temples of Chichén Itzá, in Yucatán. That shows the close military and religious bond between Tula and the peninsula during this period. /  / A three-lobed heart, a plate, and three bundles of arrows: three elements for an idea that, in Tula, was spoken in stone.
-
-### retos_observacion
-
-**ES:** Busca el corazón con tres lóbulos en el centro del relieve. / Cuenta los haces de flechas que lo atraviesan. / Localiza el plato, cortado de lado, que sostiene el corazón.
-
-**EN:** Find the heart with three lobes at the center of the relief. / Count the bundles of arrows that pierce it. / Locate the plate, cut from the side, that holds the heart.
-
-### especificaciones
-
-**ES:** Cultura: Tolteca / Periodo: Posclásico Temprano (900-1200 d.C.) / Material: Basalto / Procedencia: Tula, Hidalgo (Pirámide de Tlahuizcalpantecuhtli, Templo B)
-
-**EN:** Culture: Toltec / Period: Early Postclassic (900-1200 AD) / Material: Basalt / Origin: Tula, Hidalgo (Pyramid of Tlahuizcalpantecuhtli, Temple B)
-
-### faq_mito
-
-**ES:** pregunta: Mito: Esta lápida es un escudo de armas colonial traído por los españoles a Hidalgo. / respuesta: Realidad: Es una lápida prehispánica de basalto, de la cultura tolteca, vinculada con la pirámide de Tlahuizcalpantecuhtli en Tula.
-
-**EN:** pregunta: Myth: This slab is a colonial coat of arms brought by the Spaniards to Hidalgo. / respuesta: Reality: It is a pre-Hispanic basalt slab from the Toltec culture, linked to the pyramid of Tlahuizcalpantecuhtli at Tula.
-
-## Pieza: mna_s05_friso_jaguares_coyotes
-
-### titulo
-
-**ES:** Friso de los Jaguares y Coyotes
-
-**EN:** Frieze of the Jaguars and Coyotes
-
-### frase_gancho
-
-**ES:** Una procesión de jaguares y coyotes con águilas que devoran corazones.
-
-**EN:** A procession of jaguars and coyotes with eagles devouring hearts.
-
-### puente_narrativo
-
-**ES:** Pasamos de los guerreros de piedra a la sala donde se reunían los jefes de Tula: una procesión de fieras pintada en una banqueta.
-
-**EN:** We move from the stone warriors to the hall where the leaders of Tula gathered: a procession of beasts painted on a bench.
-
-### guion_corto
-
-**ES:** Una fila de jaguares y coyotes avanza hacia el mismo punto, y entre ellos hay águilas que devoran corazones. Es el Friso de los Jaguares y Coyotes, una banqueta de Tula, de cultura tolteca, del Posclásico Temprano. Está hecho con placas de roca volcánica esculpidas en relieve y pintadas con pigmentos minerales, en rojo, azul, ocre y blanco. Arriba, una cornisa con el cuerpo ondulante de una serpiente emplumada lo remataba. Decoraba las banquetas de las salas con columnas del Palacio Quemado. Allí se reunían el consejo de ancianos, los sacerdotes y los jefes de las órdenes militares. Siglos después, los mexicas replicaron esta solución casi idéntica en la Casa de las Águilas del Templo Mayor, en Tenochtitlan.
-
-**EN:** A line of jaguars and coyotes advances toward the same point, and among them are eagles devouring hearts. This is the Frieze of the Jaguars and Coyotes, a bench from Tula, of the Toltec culture, from the Early Postclassic period. It is made of slabs of volcanic rock carved in relief and painted with mineral pigments, in red, blue, ochre, and white. Above, a cornice with the undulating body of a Feathered Serpent crowned it. It decorated the benches of the halls with columns in the Palacio Quemado. There the council of elders, the priests, and the leaders of the military orders gathered. Centuries later, the Mexica replicated this nearly identical solution in the House of the Eagles at the Templo Mayor, in Tenochtitlan.
-
-### guion_largo
-
-**ES:** Un desfile de fieras: eso es este friso. Jaguares y coyotes caminan en fila, y entre ellos aparecen águilas que devoran corazones. Todos se dirigen hacia un punto central. /  / Es una banqueta de Tula, la ciudad de los toltecas, del Posclásico Temprano. Está hecha con placas cuadradas de roca volcánica, esculpidas en relieve. Originalmente estuvieron pintadas al fresco con pigmentos minerales, en rojo, azul, ocre y blanco. En la parte alta, una cornisa mostraba el cuerpo ondulante de una serpiente emplumada. /  / Estas banquetas decoraban las salas con columnas del Palacio Quemado. Allí se reunían el consejo de ancianos, los sacerdotes y los jefes de las órdenes militares guerreras de Tula. Era un lugar de poder, y las paredes lo anunciaban con animales de fuerza. /  / La solución tuvo larga vida. Siglos más tarde, los mexicas la recuperaron y la replicaron de forma casi idéntica en la Casa de las Águilas del Templo Mayor de Tenochtitlan. /  / Mira el friso como si fuera una procesión. Sigue la fila de animales con la vista, y cuenta cuántas águilas interrumpen el desfile.
-
-**EN:** A parade of beasts: that is what this frieze is. Jaguars and coyotes walk in a line, and among them appear eagles devouring hearts. All of them head toward a central point. /  / It is a bench from Tula, the city of the Toltec, from the Early Postclassic period. It is made of square slabs of volcanic rock, carved in relief. Originally they were painted in fresco with mineral pigments, in red, blue, ochre, and white. At the top, a cornice showed the undulating body of a Feathered Serpent. /  / These benches decorated the halls with columns in the Palacio Quemado. There the council of elders, the priests, and the leaders of Tula's warrior military orders gathered. It was a place of power, and the walls proclaimed it with animals of strength. /  / The solution had a long life. Centuries later, the Mexica revived it and replicated it in a nearly identical form in the House of the Eagles at the Templo Mayor of Tenochtitlan. /  / Look at the frieze as if it were a procession. Follow the line of animals with your eyes, and count how many eagles interrupt the parade.
-
-### retos_observacion
-
-**ES:** Sigue la fila de jaguares y coyotes con la vista. / Busca las águilas que devoran corazones entre los animales. / Mira los restos de color: rojo, azul, ocre y blanco.
-
-**EN:** Follow the line of jaguars and coyotes with your eyes. / Look for the eagles devouring hearts among the animals. / Look at the traces of color: red, blue, ochre, and white.
-
-### especificaciones
-
-**ES:** Cultura: Tolteca / Periodo: Posclásico Temprano (900-1200 d.C.) / Material: Placas de roca volcánica esculpidas en relieve, con restos de pigmentos minerales / Procedencia: Tula, Hidalgo
-
-**EN:** Culture: Toltec / Period: Early Postclassic (900-1200 AD) / Material: Volcanic rock slabs carved in relief, with traces of mineral pigments / Origin: Tula, Hidalgo
-
-### faq_mito
-
-**ES:** pregunta: Mito: Este friso se pintó con colores modernos para la exhibición. / respuesta: Realidad: Originalmente estuvo pintado al fresco con pigmentos minerales, en rojo, azul, ocre y blanco. Esos colores son parte de la obra tolteca.
-
-**EN:** pregunta: Myth: This frieze was painted with modern colors for the exhibition. / respuesta: Reality: It was originally painted in fresco with mineral pigments, in red, blue, ochre, and white. Those colors are part of the Toltec work.
-
-## Pieza: mna_s05_vasija_plumbate
-
-### titulo
-
-**ES:** Vasija plumbate con efigie de Quetzalcóatl
-
-**EN:** Plumbate Vessel with an Effigy of Quetzalcóatl
-
-### frase_gancho
-
-**ES:** Un rostro barbado que asoma entre las fauces de un coyote, hecho de concha.
-
-**EN:** A bearded face peers out from between the jaws of a coyote, made of shell.
-
-### puente_narrativo
-
-**ES:** Seguimos con una pieza pequeña y brillante: un rostro que asoma entre las fauces de un coyote.
-
-**EN:** We continue with a small, shining piece: a face peering out from between the jaws of a coyote.
-
-### guion_corto
-
-**ES:** Esta cerámica brilla casi como un metal. Es plumbate, un barro plomizo de acabado vitrificado. La vasija es una efigie tolteca de 13 centímetros de alto, 9.6 de ancho y 7 de diámetro. Muestra la cabeza de un hombre barbado, cuyo rostro asoma entre las fauces abiertas de un yelmo de coyote. Viene de la ofrenda de la estructura circular de El Corral, en Tula, y es del Posclásico Temprano. Sobre la arcilla se aplicaron láminas de concha. El abulón forma el cabello, el bigote y la barba, y la concha nácar, el rostro y las plumas del yelmo. Los dientes son de hueso y las pupilas de obsidiana. Se le vincula con Ehécatl-Quetzalcóatl y con Huehuecóyotl, el Coyote Viejo.
-
-**EN:** This ceramic shines almost like metal. It is plumbate, a leaden clay with a vitrified finish. The vessel is a Toltec effigy 13 centimeters tall, 9.6 wide and 7 in diameter. It shows the head of a bearded man, whose face peers out from between the open jaws of a coyote helmet. It comes from the offering in the circular structure of El Corral, in Tula, and dates to the Early Postclassic. Sheets of shell were applied over the clay. Abalone forms the hair, the mustache and the beard, and mother-of-pearl shell forms the face and the feathers of the helmet. The teeth are made of bone and the pupils of obsidian. It is linked to Ehécatl-Quetzalcóatl and to Huehuecóyotl, the Old Coyote.
-
-### guion_largo
-
-**ES:** Esta cerámica brilla casi como un metal. Se llama plumbate, o plomiza, y tiene un acabado metálico o vitrificado. Era un producto de lujo, que se elaboraba en la región costera de Chiapas y Guatemala. Los toltecas lo comerciaban hacia el Altiplano Central. /  / Esta vasija se halló en Tula, en la ofrenda de la estructura circular de El Corral, y es del Posclásico Temprano. Mide 13 centímetros de alto, 9.6 de ancho y 7 de diámetro. /  / Representa la cabeza de un hombre barbado. Su rostro asoma entre las fauces abiertas de un yelmo de coyote. /  / Mira cómo está hecha. Sobre la arcilla plomiza se aplicaron láminas de concha. El abulón forma el cabello, el bigote y la barba. La concha nácar forma las plumas del yelmo y el rostro. Los dientes y los colmillos están tallados en hueso, y las pupilas son de obsidiana pulida. /  / ¿Quién es? Se le vincula con Ehécatl-Quetzalcóatl, el dios del viento que soplaba sobre los campos para atraer la lluvia. También con Huehuecóyotl, el Coyote Viejo, dios de la danza y la música. Es una identificación iconográfica. El museo la cataloga además con un nombre más neutro: Personaje con yelmo de animal. /  / Un detalle más. Sobre el hocico del coyote lleva un pico de hueso, un coyolómictl, que se usaba como punzón en los rituales de autosacrificio.
-
-**EN:** This ceramic shines almost like metal. It is called plumbate, or leaden, and has a metallic or vitrified finish. It was a luxury product, made in the coastal region of Chiapas and Guatemala. The Toltec traded it to the Central Highlands. /  / This vessel was found in Tula, in the offering in the circular structure of El Corral, and dates to the Early Postclassic. It measures 13 centimeters tall, 9.6 wide and 7 in diameter. /  / It represents the head of a bearded man. His face peers out from between the open jaws of a coyote helmet. /  / Look at how it is made. Sheets of shell were applied over the leaden clay. Abalone forms the hair, the mustache and the beard. Mother-of-pearl shell forms the feathers of the helmet and the face. The teeth and the fangs are carved in bone, and the pupils are of polished obsidian. /  / Who is he? He is linked to Ehécatl-Quetzalcóatl, the wind god who blew over the fields to bring the rain. He is also linked to Huehuecóyotl, the Old Coyote, god of dance and music. This is an iconographic identification. The museum also catalogs it under a more neutral name: Personage with an Animal Helmet. /  / One more detail. Over the coyote’s snout it wears a bone beak, a coyolómictl, which was used as an awl in autosacrifice rituals.
-
-### retos_observacion
-
-**ES:** Busca el rostro barbado que asoma entre las fauces del coyote. / Fíjate en el cabello y la barba de concha de abulón. / Mira las pupilas de obsidiana y los dientes de hueso.
-
-**EN:** Look for the bearded face peering out from between the coyote’s jaws. / Notice the hair and beard made of abalone shell. / Look at the obsidian pupils and the bone teeth.
-
-### especificaciones
-
-**ES:** Cultura: Tolteca / Periodo: Posclásico Temprano (900-1200 d.C.) / Material: Cerámica plomiza (plumbate) con mosaico de concha nácar, abulón, obsidiana y hueso / Procedencia: Ofrenda de la estructura circular El Corral, Tula, Hidalgo / Medidas: 13 cm de alto x 9.6 cm de ancho x 7 cm de diámetro
-
-**EN:** Culture: Toltec / Period: Early Postclassic (900-1200 AD) / Material: Plumbate ceramic with a mosaic of mother-of-pearl shell, abalone, obsidian and bone / Origin: Offering in the circular structure El Corral, Tula, Hidalgo / Dimensions: 13 cm tall x 9.6 cm wide x 7 cm in diameter
-
-### faq_mito
-
-**ES:** pregunta: Mito: Esta vasija se fabricó en Tula, con barro local. / respuesta: Realidad: La cerámica plumbate es de lujo y se producía en la costa de Chiapas y Guatemala. Los toltecas la comerciaban hacia el Altiplano Central.
-
-**EN:** pregunta: Myth: This vessel was made in Tula, with local clay. / respuesta: Reality: Plumbate ceramic is a luxury item and was produced on the coast of Chiapas and Guatemala. The Toltec traded it to the Central Highlands.
-
-## Pieza: mna_s05_coatepantli
-
-### titulo
-
-**ES:** Coatepantli de Tula
-
-**EN:** Coatepantli of Tula
-
-### frase_gancho
-
-**ES:** Un muro de serpientes que devoran, por la mitad, a personajes desollados.
-
-**EN:** A wall of serpents that devour flayed figures, swallowing them at the waist.
-
-### puente_narrativo
-
-**ES:** Seguimos en Tula con un muro de serpientes: el relieve que delimitaba el área del templo principal.
-
-**EN:** We remain in Tula with a wall of serpents: the relief that marked the boundary of the main temple area.
-
-### guion_corto
-
-**ES:** Coatepantli significa muro de serpientes. Viene de dos palabras en náhuatl, cóatl, serpiente, y pantli, muro. Esta lápida pertenece al Muro de Serpientes de Tula, en la cara posterior de la Pirámide B. Era un muro ornamental sagrado, que delimitaba el área del templo principal. Es de cultura tolteca, del Posclásico Temprano. El basalto está esculpido en bajorrelieve y con incisiones, y originalmente estuvo pintado en rojo, azul y blanco. En la franja central, serpientes de cascabel de cuerpo ondulante sujetan y devoran por la mitad a esqueletos o personajes humanos desollados. Los mexicas lo tomaron como modelo. Construyeron un muro de serpientes idéntico alrededor del Recinto Sagrado de Tenochtitlan.
-
-**EN:** Coatepantli means wall of serpents. It comes from two Nahuatl words, cóatl, serpent, and pantli, wall. This slab belongs to the Wall of Serpents of Tula, on the rear face of Pyramid B. It was a sacred ornamental wall that marked the boundary of the main temple area. It is Toltec, from the Early Postclassic period. The basalt is carved in low relief with incised lines, and it was originally painted red, blue, and white. In the central band, rattlesnakes with undulating bodies hold and devour, by the middle, skeletons or flayed human figures. The Mexica took it as a model. They built an identical wall of serpents around the Sacred Precinct of Tenochtitlan.
-
-### guion_largo
-
-**ES:** Un muro hecho de serpientes. Eso quiere decir Coatepantli, del náhuatl cóatl, serpiente, y pantli, muro. /  / El Muro de Serpientes está en Tula, en la cara posterior de la Pirámide B, también llamada Templo de Tlahuizcalpantecuhtli. Es una obra tolteca del Posclásico Temprano. Era un muro ornamental sagrado, que delimitaba el área del templo principal. /  / Esta lápida es de basalto, esculpido en bajorrelieve y con incisiones. Originalmente estuvo policromada, en rojo, azul y blanco. La cornisa superior y la inferior se decoraban con almenas y grecas geométricas. /  / En la franja central corre un friso continuo. Serpientes de cascabel, con el cuerpo ondulante, sujetan y devoran por la mitad a esqueletos o personajes humanos desollados. /  / Se interpreta que la escena simboliza la transformación de la carne y el sacrificio humano. También el renacimiento del alma y del sol. Es una imagen dura, y a la vez habla de ciclos: lo que muere se transforma. /  / El Muro de Serpientes sirvió de modelo a los mexicas. Ellos levantaron un muro de serpientes idéntico alrededor del Recinto Sagrado de Tenochtitlan y otro en Tenayuca. /  / Fíjate en el cuerpo de las serpientes. Los diseños encadenados imitan el cascabel, y su ritmo repetido da la idea de un muro vivo.
-
-**EN:** A wall made of serpents. That is what Coatepantli means, from the Nahuatl cóatl, serpent, and pantli, wall. /  / The Wall of Serpents is in Tula, on the rear face of Pyramid B, also called the Temple of Tlahuizcalpantecuhtli. It is a Toltec work from the Early Postclassic. It was a sacred ornamental wall that marked the boundary of the main temple area. /  / This slab is made of basalt, carved in low relief with incised lines. It was originally polychrome, in red, blue, and white. The upper and lower cornices were decorated with crenellations and geometric stepped-fret patterns. /  / In the central band runs a continuous frieze. Rattlesnakes, with undulating bodies, hold and devour, by the middle, skeletons or flayed human figures. /  / The scene is interpreted as symbolizing the transformation of flesh and human sacrifice. It also stands for the rebirth of the soul and of the sun. It is a harsh image, and at the same time it speaks of cycles: what dies is transformed. /  / The Wall of Serpents served as a model for the Mexica. They raised an identical wall of serpents around the Sacred Precinct of Tenochtitlan and another in Tenayuca. /  / Look closely at the bodies of the serpents. The interlocking designs imitate the rattle, and their repeated rhythm gives the idea of a living wall.
-
-### retos_observacion
-
-**ES:** Busca el cuerpo ondulante de las serpientes de cascabel. / Encuentra al personaje desollado que sujetan entre las fauces. / Mira las almenas y las grecas de las cornisas.
-
-**EN:** Look for the undulating bodies of the rattlesnakes. / Find the flayed figure they hold in their jaws. / Look at the crenellations and stepped-fret patterns on the cornices.
-
-### especificaciones
-
-**ES:** Cultura: Tolteca / Periodo: Posclásico Temprano (900-1200 d.C.) / Material: Basalto esculpido en bajorrelieve e incisión, originalmente policromado / Procedencia: Tula, Hidalgo (Muro de Serpientes, cara posterior de la Pirámide B) / Medidas: Lápida individual: 32.3 cm de alto x 105 cm de ancho x 5.5 cm de espesor
-
-**EN:** Culture: Toltec / Period: Early Postclassic (900-1200 AD) / Material: Basalt carved in low relief and incision, originally polychrome / Origin: Tula, Hidalgo (Wall of Serpents, rear face of Pyramid B) / Dimensions: Individual slab: 32.3 cm high x 105 cm wide x 5.5 cm thick
-
-### faq_mito
-
-**ES:** pregunta: Mito: El Coatepantli era una muralla para defender Tula de los enemigos. / respuesta: Realidad: Era un muro ornamental sagrado que delimitaba el área del templo principal. Su friso habla de sacrificio y de renacimiento.
-
-**EN:** pregunta: Myth: The Coatepantli was a defensive wall to protect Tula from enemies. / respuesta: Reality: It was a sacred ornamental wall that marked the boundary of the main temple area. Its frieze speaks of sacrifice and rebirth.
-
-## Pieza: mna_s05_disco_tezcacuitlapilli
-
-### titulo
-
-**ES:** Disco dorsal de mosaico de turquesa
-
-**EN:** Turquoise Mosaic Back Disk
-
-### frase_gancho
-
-**ES:** Un disco de turquesa que los guerreros llevaban en la espalda.
-
-**EN:** A turquoise disk that warriors wore on their backs.
-
-### puente_narrativo
-
-**ES:** Seguimos con una joya de mosaico que los guerreros de Tula llevaban a la espalda, hecha con turquesa de tierras lejanas.
-
-**EN:** We continue with a mosaic jewel that the warriors of Tula wore on their backs, made with turquoise from distant lands.
-
-### guion_corto
-
-**ES:** Tezcacuitlapilli significa espejo de la espalda baja. Viene del náhuatl tezcatl, espejo, y cuitlapilli, espalda baja. Gobernantes, sacerdotes y guerreros de alto rango lo llevaban a la altura de la cintura, por la espalda. Así se ve en los atlantes de Tula. Esta pieza es tolteca, del Posclásico Temprano. Es un disco de madera cubierto con un mosaico de placas recortadas de turquesa, malaquita, concha y espejos de pirita. Tiene franjas concéntricas de turquesa en tonos azul y verde, con motivos de serpientes solares celestes. Se encontró en Tula, en el Palacio Quemado, dentro de una ofrenda junto con la coraza de concha. Se ha propuesto que la turquesa vino de yacimientos muy lejanos, en lo que hoy es Nuevo México.
-
-**EN:** Tezcacuitlapilli means mirror of the lower back. It comes from the Nahuatl tezcatl, mirror, and cuitlapilli, lower back. Rulers, priests, and high-ranking warriors wore it at waist level, on the back. This is how it appears on the Atlantean figures of Tula. This piece is Toltec, from the Early Postclassic. It is a wooden disk covered with a mosaic of cut plates of turquoise, malachite, shell, and pyrite mirrors. It has concentric bands of turquoise in shades of blue and green, with motifs of celestial solar serpents. It was found in Tula, in the Palacio Quemado, inside an offering together with the shell breastplate. It has been proposed that the turquoise came from very distant deposits, in what is now New Mexico.
-
-### guion_largo
-
-**ES:** Tezcacuitlapilli viene del náhuatl. Tezcatl es espejo y cuitlapilli, espalda baja. Es el nombre de un disco que se llevaba atado en la espalda, a la altura de la cintura. /  / Lo usaban gobernantes, sacerdotes y guerreros de alto rango. Se ve claramente esculpido en los atlantes de Tula, y también en relieves de Chichén Itzá. /  / Este ejemplar es tolteca y del Posclásico Temprano. Se encontró en Tula, en el Palacio Quemado, dentro de una ofrenda junto con la coraza de concha, otra de las piezas de esta sala. /  / Mira cómo está hecho. Un disco de madera sirve de soporte a un minucioso mosaico. Las placas recortadas son de turquesa, malaquita y concha, y también hay espejos de pirita. El diseño forma franjas concéntricas de turquesas en tonos azul y verde, con motivos de serpientes solares celestes. /  / La turquesa pesa en esta historia. Se ha propuesto que vino de yacimientos muy lejanos, en el actual estado de Nuevo México, en Estados Unidos. Si es así, el disco atestigua las redes de comercio a larga distancia que controlaba Tula. /  / Es una insignia real. Detrás de cada placa pequeña hay un viaje largo, y un artesano que la recortó y la colocó con paciencia.
-
-**EN:** Tezcacuitlapilli comes from Nahuatl. Tezcatl is mirror and cuitlapilli, lower back. It is the name of a disk that was tied to the back, at waist level. /  / Rulers, priests, and high-ranking warriors wore it. It can be seen clearly carved on the Atlantean figures of Tula, and also in reliefs at Chichén Itzá. /  / This example is Toltec and from the Early Postclassic. It was found in Tula, in the Palacio Quemado, inside an offering together with the shell breastplate, another of the pieces in this hall. /  / Look at how it is made. A wooden disk serves as the support for a meticulous mosaic. The cut plates are of turquoise, malachite, and shell, and there are also pyrite mirrors. The design forms concentric bands of turquoise in shades of blue and green, with motifs of celestial solar serpents. /  / Turquoise carries weight in this story. It has been proposed that it came from very distant deposits, in the present-day state of New Mexico, in the United States. If so, the disk bears witness to the long-distance trade networks that Tula controlled. /  / It is a royal insignia. Behind each small plate there is a long journey, and an artisan who cut it and set it in place with patience.
-
-### retos_observacion
-
-**ES:** Busca las franjas concéntricas de turquesa, en azul y en verde. / Fíjate en las serpientes solares celestes del mosaico. / Encuentra el disco esculpido en la espalda de los atlantes de Tula.
-
-**EN:** Look for the concentric bands of turquoise, in blue and in green. / Notice the celestial solar serpents in the mosaic. / Find the disk carved on the backs of the Atlantean figures of Tula.
-
-### especificaciones
-
-**ES:** Cultura: Tolteca / Periodo: Posclásico Temprano (900-1200 d.C.) / Material: Madera con mosaico de turquesa, malaquita, concha nácar y pirita / Procedencia: Tula, Hidalgo (Palacio Quemado, en una ofrenda junto con la coraza de conchas)
-
-**EN:** Culture: Toltec / Period: Early Postclassic (900-1200 AD) / Material: Wood with mosaic of turquoise, malachite, mother-of-pearl shell, and pyrite / Origin: Tula, Hidalgo (Palacio Quemado, in an offering together with the shell breastplate)
-
-### faq_mito
-
-**ES:** pregunta: Mito: El tezcacuitlapilli era un escudo para detener golpes en batalla. / respuesta: Realidad: Era un disco ornamental y una insignia de rango, que se llevaba atado en la espalda, a la altura de la cintura.
-
-**EN:** pregunta: Myth: The tezcacuitlapilli was a shield used to block blows in battle. / respuesta: Reality: It was an ornamental disk and an insignia of rank, worn tied to the back, at waist level.
-
-## Pieza: mna_s05_guerrero_coyote
-
-### titulo
-
-**ES:** Escultura de guerrero tolteca con yelmo de coyote
-
-**EN:** Toltec Warrior Sculpture with Coyote Helmet
-
-### frase_gancho
-
-**ES:** Un rostro humano que asoma entre las fauces de un coyote de piedra.
-
-**EN:** A human face peers out from between the jaws of a stone coyote.
-
-### puente_narrativo
-
-**ES:** Pasamos al guerrero que da nombre a una de las órdenes militares de Tula: el Guerrero Coyote.
-
-**EN:** We move on to the warrior who gives his name to one of the military orders of Tula: the Coyote Warrior.
-
-### guion_corto
-
-**ES:** Un rostro humano asoma entre las fauces de un coyote. Esta escultura tolteca, de Tula, es un monolito de basalto esculpido en alto relieve, del Posclásico Temprano. Representa a un oficial o capitán de la élite militar, ataviado con sus insignias de combate. Su rostro se asoma entre las fauces de un enorme tocado o yelmo con forma de coyote. Lleva un pectoral con la silueta estilizada de una mariposa, brazaletes, un faldellín y, arriba, la figura de un ave descendente. Representa a los Guerreros Coyote, una de las órdenes guerreras más influyentes de Tula, junto con los Guerreros Jaguar y los Guerreros Águila. Esta estructura militar la heredaron después los ejércitos mexicas.
-
-**EN:** A human face peers out from between the jaws of a coyote. This Toltec sculpture, from Tula, is a basalt monolith carved in high relief, from the Early Postclassic. It represents an officer or captain of the military elite, dressed in his battle insignia. His face looks out from between the jaws of an enormous headdress or helmet shaped like a coyote. He wears a pectoral with the stylized silhouette of a butterfly, armbands, a loincloth and, above, the figure of a descending bird. It represents the Coyote Warriors, one of the most influential warrior orders of Tula, along with the Jaguar Warriors and the Eagle Warriors. This military structure was later inherited by the Mexica armies.
-
-### guion_largo
-
-**ES:** Un coyote de piedra, y dentro de sus fauces, una cara humana. Así se presenta este guerrero de Tula. /  / Es una escultura tolteca del Posclásico Temprano. Es un monolito de basalto, esculpido en alto relieve. Representa a un oficial o capitán de la élite militar tolteca, ataviado con sus insignias de combate. /  / Fíjate en el tocado. Es un enorme yelmo con forma de coyote, y el rostro del guerrero se asoma por las fauces abiertas. Lleva además un pectoral con la silueta estilizada de una mariposa, papalotl en náhuatl, brazaletes y un faldellín. En la parte superior hay la figura de un ave descendente. /  / El coyote no es un adorno cualquiera. Esta imagen representa a la corporación militar de los Guerreros Coyote. Era una de las órdenes guerreras más influyentes de Tula, junto con los Guerreros Jaguar y los Guerreros Águila. /  / Son los mismos animales que desfilan en el friso de esta sala. Las órdenes militares tenían animales depredadores como emblema, y las paredes de Tula los mostraban por todas partes. /  / La idea tuvo larga vida. Los ejércitos mexicas heredaron más tarde esta estructura militar, dividida en órdenes de animales. /  / Antes de seguir, mira el contraste. La piedra es dura y pesada, pero el rostro humano que asoma entre las fauces tiene una calma extraña.
-
-**EN:** A stone coyote, and inside its jaws, a human face. This is how this warrior from Tula presents himself. /  / It is a Toltec sculpture from the Early Postclassic. It is a basalt monolith, carved in high relief. It represents an officer or captain of the Toltec military elite, dressed in his battle insignia. /  / Look at the headdress. It is an enormous helmet shaped like a coyote, and the warrior's face peers out through the open jaws. He also wears a pectoral with the stylized silhouette of a butterfly, papalotl in Nahuatl, armbands and a loincloth. At the top there is the figure of a descending bird. /  / The coyote is no ordinary ornament. This image represents the military corporation of the Coyote Warriors. It was one of the most influential warrior orders of Tula, along with the Jaguar Warriors and the Eagle Warriors. /  / They are the same animals that march across the frieze in this hall. The military orders had predatory animals as their emblem, and the walls of Tula displayed them everywhere. /  / The idea had a long life. The Mexica armies later inherited this military structure, divided into orders of animals. /  / Before going on, notice the contrast. The stone is hard and heavy, but the human face peering out from between the jaws has a strange calm.
-
-### retos_observacion
-
-**ES:** Busca el rostro humano entre las fauces del coyote. / Mira el pectoral con la silueta de una mariposa. / Encuentra el ave descendente en la parte superior.
-
-**EN:** Find the human face between the coyote's jaws. / Look at the pectoral with the silhouette of a butterfly. / Find the descending bird at the top.
-
-### especificaciones
-
-**ES:** Cultura: Tolteca / Periodo: Posclásico Temprano (900-1200 d.C.) / Material: Basalto esculpido en alto relieve / Procedencia: Tula, Hidalgo
-
-**EN:** Culture: Toltec / Period: Early Postclassic (900-1200 AD) / Material: Basalt carved in high relief / Origin: Tula, Hidalgo
-
-### faq_mito
-
-**ES:** pregunta: Mito: El coyote del yelmo era un animal sagrado que los toltecas no se atrevían a tocar. / respuesta: Realidad: Era el emblema de una orden militar, los Guerreros Coyote, una de las más influyentes de Tula junto con los Guerreros Jaguar y Águila.
-
-**EN:** pregunta: Myth: The coyote on the helmet was a sacred animal that the Toltecs did not dare to touch. / respuesta: Reality: It was the emblem of a military order, the Coyote Warriors, one of the most influential in Tula along with the Jaguar and Eagle Warriors.
-
-> Aviso: el glosario pide "Toltec" para "Tolteca / Toltecas" y no aparece
-
-## Pieza: mna_s05_brasero_tolteca
-
-### titulo
-
-**ES:** Brasero ceremonial con rostro antropomorfo
-
-**EN:** Ceremonial Brazier with Anthropomorphic Face
-
-### frase_gancho
-
-**ES:** Un brasero con rostro de deidad, hecho para que el humo del copal subiera como nube.
-
-**EN:** A brazier with the face of a deity, made so that the smoke of the copal would rise like a cloud.
-
-### puente_narrativo
-
-**ES:** Cerramos la sala tolteca con el humo: un brasero con el rostro de una deidad, hecho para quemar copal.
-
-**EN:** We close the Toltec hall with smoke: a brazier bearing the face of a deity, made for burning copal.
-
-### guion_corto
-
-**ES:** Era un recipiente para quemar copal, y el humo era parte del mensaje. Es un brasero ceremonial tolteca, de Tula, del Posclásico Temprano. Es un recipiente efigie hueco, de arcilla moldeada a mano y policromada con pigmentos minerales: rojo, azul aguamarina y ocre. Se usaba para quemar resinas sagradas, como el copal y el hule, en ceremonias públicas y de consejo. En el cuerpo está modelado el rostro de una deidad. Se la identifica como Tláloc o como el dios del fuego y del tiempo. Tiene anteojeras, nariguera y un tocado con bandas celestes y abanicos de plumas. Se piensa que el humo del copal representaba las nubes cargadas de lluvia y llevaba las oraciones de los gobernantes hacia el ámbito divino.
-
-**EN:** It was a vessel for burning copal, and the smoke was part of the message. This is a Toltec ceremonial brazier from Tula, dating to the Early Postclassic. It is a hollow effigy vessel, made of hand-molded clay and painted in several colors with mineral pigments: red, aquamarine blue, and ochre. It was used to burn sacred resins, such as copal and rubber, in public ceremonies and council gatherings. The face of a deity is modeled on its body. It is identified as Tláloc or as the god of fire and time. It has goggle-like eye rings, a nose ornament, and a headdress with sky-blue bands and fans of feathers. It is believed that the copal smoke represented rain-laden clouds and carried the rulers’ prayers to the divine realm.
-
-### guion_largo
-
-**ES:** Un brasero es un recipiente para quemar. Este es un brasero ceremonial tolteca, de la zona urbana de Tula, y es del Posclásico Temprano. /  / Es una pieza de arcilla, moldeada a mano y policromada con pigmentos minerales. Los colores son rojo, azul aguamarina y ocre. /  / Es un recipiente efigie hueco. Se usaba para quemar resinas sagradas, como el copal y el hule, durante las ceremonias públicas y de consejo. /  / En el cuerpo está modelado el rostro de una deidad. Se la identifica como Tláloc, el dios de la lluvia, o como el dios del fuego y del tiempo. Se reconoce por las anteojeras, la nariguera y el tocado superior, decorado con bandas celestes y abanicos de plumas. /  / Grandes braseros como este se han encontrado en el Palacio Quemado de Tula. Eso muestra la importancia del sahumado ritual. Se piensa que el humo del copal representaba las nubes cargadas de lluvia, y que elevaba las oraciones de los gobernantes hacia el ámbito divino. /  / Imagina el brasero encendido. El humo sube desde el rostro de la deidad, igual que una nube. Esa imagen une dos ideas: el fuego del ritual y el agua que se pedía.
-
-**EN:** A brazier is a vessel for burning things. This is a Toltec ceremonial brazier, from the urban area of Tula, and it dates to the Early Postclassic. /  / It is a piece of clay, molded by hand and painted in several colors with mineral pigments. The colors are red, aquamarine blue, and ochre. /  / It is a hollow effigy vessel. It was used to burn sacred resins, such as copal and rubber, during public ceremonies and council gatherings. /  / The face of a deity is modeled on the body. It is identified as Tláloc, the god of rain, or as the god of fire and time. It is recognized by the goggle-like eye rings, the nose ornament, and the upper headdress, decorated with sky-blue bands and fans of feathers. /  / Large braziers like this one have been found in the Palacio Quemado of Tula. That shows the importance of ritual incense burning. It is believed that the copal smoke represented rain-laden clouds, and that it lifted the rulers’ prayers to the divine realm. /  / Imagine the brazier lit. The smoke rises from the deity’s face, just like a cloud. That image joins two ideas: the fire of the ritual and the water that was being asked for.
-
-### retos_observacion
-
-**ES:** Busca las anteojeras y la nariguera del rostro. / Mira el tocado con bandas celestes y abanicos de plumas. / Fíjate en los colores: rojo, azul aguamarina y ocre.
-
-**EN:** Look for the goggle-like eye rings and the nose ornament on the face. / Look at the headdress with sky-blue bands and fans of feathers. / Notice the colors: red, aquamarine blue, and ochre.
-
-### especificaciones
-
-**ES:** Cultura: Tolteca / Periodo: Posclásico Temprano (900-1200 d.C.) / Material: Arcilla moldeada a mano y policromada con pigmentos minerales / Procedencia: Zona urbana de Tula, Hidalgo
-
-**EN:** Culture: Toltec / Period: Early Postclassic (900-1200 AD) / Material: Hand-molded clay painted in several colors with mineral pigments / Origin: Urban area of Tula, Hidalgo
-
-### faq_mito
-
-**ES:** pregunta: Mito: Los braseros toltecas eran ollas de cocina para banquetes. / respuesta: Realidad: Eran recipientes ceremoniales para quemar resinas sagradas, como copal y hule, durante ceremonias públicas y de consejo.
-
-**EN:** pregunta: Myth: Toltec braziers were cooking pots for banquets. / respuesta: Reality: They were ceremonial vessels for burning sacred resins, such as copal and rubber, during public ceremonies and council gatherings.
-
-## Pieza: mna_s03_acrobata_tlatilco
-
-### titulo
-
-**ES:** El Acróbata de Tlatilco
-
-**EN:** The Acrobat of Tlatilco
-
-### frase_gancho
-
-**ES:** Un hombre de barro con los pies sobre la cabeza.
-
-**EN:** A man made of clay with his feet over his head.
-
-### puente_narrativo
-
-**ES:** Empezamos el Preclásico en las aldeas de la Cuenca de México, una región de lagos, con una botella que es también un cuerpo humano.
-
-**EN:** We begin the Preclassic in the villages of the Basin of Mexico, a region of lakes, with a bottle that is also a human body.
-
-### guion_corto
-
-**ES:** Parece un contorsionista de circo, pero en realidad es una botella. Esta figura de barro gris claro muestra a un hombre tendido sobre el pecho. Dobla las piernas hacia atrás hasta apoyar los pies sobre su propia cabeza. Se llama el Acróbata de Tlatilco y es del Preclásico Medio, entre 1200 y 900 años antes de Cristo. Mide 25 centímetros de alto. Su vertedero, el hueco por donde se llenaba y se vaciaba, está en la rodilla izquierda, y ahí aún quedan restos de pintura roja. Los arqueólogos interpretan esta postura extrema como la de un chamán en trance, que usaba el cuerpo para comunicarse con el mundo espiritual. Es una interpretación, no un dato cerrado. Fíjate también en la boca entreabierta, que deja ver los dientes recortados.
-
-**EN:** He looks like a circus contortionist, but he is actually a bottle. This light gray clay figure shows a man lying on his chest. He bends his legs backward until his feet rest on his own head. He is called the Acrobat of Tlatilco and he dates to the Middle Preclassic, between 1200 and 900 years before Christ. He stands 25 centimeters tall. His spout, the opening through which it was filled and emptied, is on the left knee, and traces of red paint still remain there. Archaeologists interpret this extreme posture as that of a shaman in a trance, who used the body to communicate with the spirit world. It is an interpretation, not a settled fact. Notice also the slightly open mouth, which reveals the filed teeth.
-
-### guion_largo
-
-**ES:** Piensa en una botella que, al mismo tiempo, es una persona. Eso es el Acróbata de Tlatilco. Tlatilco fue una aldea del Estado de México, y esta pieza es del Preclásico Medio, entre 1200 y 900 años antes de Cristo. Es una vasija de cerámica gris claro. Mide 25 centímetros de alto, 16 de ancho y 20 de largo. /  / El personaje es un hombre. Está tendido sobre el pecho, apoya los codos y sostiene el mentón con las manos. Después dobla las piernas hacia atrás, hasta colocar las plantas de los pies sobre su cabeza. Solo lleva un calzón corto, que el alfarero esbozó con líneas incisas. Tiene las orejas perforadas y la boca entreabierta, y por ella asoman los dientes recortados. /  / Y viene la parte ingeniosa: la figura es un recipiente. Su vertedero, que es el hueco por donde se llenaba y se vaciaba, está en la rodilla izquierda. Ahí todavía se conservan restos de pintura roja. El cuerpo entero funciona como depósito, y la rodilla doblada hace de boca. /  / El barro fue modelado a mano. Para los detalles, el alfarero usó incisiones, que son líneas marcadas en el barro, y punciones, que son pequeños hoyos hechos con un instrumento puntiagudo. /  / ¿Qué significa esa postura? Los arqueólogos y los estudiosos de la iconografía interpretan el contorsionismo extremo como la imagen de un chamán, es decir, un especialista religioso, en trance. Según esa lectura, estaba en un estado alterado de conciencia y se comunicaba con el mundo espiritual y sobrenatural. Es una lectura, no un dato cerrado. /  / Tlatilco es conocido por la riqueza de sus entierros, hallados bajo los pisos de las casas, con ofrendas ceremoniales. Sus habitantes combinaban la agricultura con la caza y la pesca en los lagos. También modelaban figuras de barro de todo tipo, entre ellas acróbatas, contorsionistas y jugadores de pelota.
-
-**EN:** Think of a bottle that is, at the same time, a person. That is the Acrobat of Tlatilco. Tlatilco was a village in the State of Mexico, and this piece dates to the Middle Preclassic, between 1200 and 900 years before Christ. It is a light gray ceramic vessel. It measures 25 centimeters high, 16 wide and 20 long. /  / The figure is a man. He is lying on his chest, resting on his elbows and holding his chin in his hands. Then he bends his legs backward, until the soles of his feet rest on his head. He wears only a short loincloth, which the potter sketched with incised lines. His ears are pierced and his mouth is slightly open, and through it the filed teeth peek out. /  / And here comes the ingenious part: the figure is a container. Its spout, which is the opening through which it was filled and emptied, is on the left knee. Traces of red paint are still preserved there. The whole body works as a reservoir, and the bent knee serves as the mouth. /  / The clay was modeled by hand. For the details, the potter used incisions, which are lines marked into the clay, and punctures, which are small holes made with a pointed tool. /  / What does that posture mean? Archaeologists and scholars of iconography interpret the extreme contortion as the image of a shaman, that is, a religious specialist, in a trance. According to that reading, he was in an altered state of consciousness and communicated with the spirit and supernatural world. It is a reading, not a settled fact. /  / Tlatilco is known for the richness of its burials, found beneath the floors of houses, with ceremonial offerings. Its inhabitants combined agriculture with hunting and fishing in the lakes. They also modeled clay figures of all kinds, among them acrobats, contortionists and ball players.
-
-### retos_observacion
-
-**ES:** Busca la boca de la vasija sobre la rodilla izquierda, donde queda pintura roja. / Mira la boca entreabierta del personaje y sus dientes recortados. / Sigue la postura: pecho al suelo y plantas de los pies sobre la cabeza.
-
-**EN:** Look for the mouth of the vessel on the left knee, where red paint remains. / Look at the figure’s slightly open mouth and his filed teeth. / Follow the posture: chest to the ground and the soles of the feet over the head.
-
-### especificaciones
-
-**ES:** Cultura: Preclásico del Altiplano Central / Cuenca de México / Periodo: Preclásico Medio (1200-900 a.C.) / Material: Cerámica / Arcilla (gris claro) / Procedencia: Tlatilco, Estado de México / Medidas: 25 cm de alto x 16 cm de ancho x 20 cm de largo
-
-**EN:** Culture: Preclassic of the Central Highlands / Basin of Mexico / Period: Middle Preclassic (1200-900 BC) / Material: Ceramic / Clay (light gray) / Origin: Tlatilco, State of Mexico / Dimensions: 25 cm high x 16 cm wide x 20 cm long
-
-### faq_mito
-
-**ES:** pregunta: Mito: El Acróbata de Tlatilco era un artista de circo que divertía a los aldeanos. / respuesta: Realidad: Los arqueólogos interpretan su postura como la de un chamán en trance. Además, la figura es una vasija con la boca en la rodilla, y se depositó como ofrenda en una tumba.
-
-**EN:** pregunta: Myth: The Acrobat of Tlatilco was a circus performer who entertained the villagers. / respuesta: Reality: Archaeologists interpret his posture as that of a shaman in a trance. Moreover, the figure is a vessel with its mouth at the knee, and it was placed as an offering in a tomb.
-
-## Pieza: mna_s03_mascara_dualidad
-
-### titulo
-
-**ES:** Máscara de la Dualidad de Tlatilco
-
-**EN:** Mask of Duality from Tlatilco
-
-### frase_gancho
-
-**ES:** Un rostro de barro dividido entre la vida y la muerte.
-
-**EN:** A clay face divided between life and death.
-
-### puente_narrativo
-
-**ES:** Seguimos en Tlatilco con una máscara pequeña de barro que reúne en un solo rostro la vida y la muerte.
-
-**EN:** We stay in Tlatilco with a small clay mask that brings life and death together in a single face.
-
-### guion_corto
-
-**ES:** ¿Cuál de las dos mitades de este rostro está viva? Una muestra un ojo abierto y la lengua afuera. La otra no tiene piel, es una calavera. Es la Máscara de la Dualidad, una máscara pequeña de barro. Se hizo en Tlatilco durante el Preclásico Medio, entre 1200 y 600 años antes de Cristo. Mide 8.5 centímetros de alto. El rostro está dividido de arriba abajo en dos mitades simétricas, y los detalles se marcaron con punciones e incisiones. Esa división se interpreta como la dualidad. Es la idea de que existen pares de opuestos, como la vida y la muerte, la creación y la destrucción, la luz y la oscuridad. En Tlatilco también hay figurillas con dos rostros o divididas entre la vida y la muerte.
-
-**EN:** Which of the two halves of this face is alive? One shows an open eye and a tongue sticking out. The other has no skin; it is a skull. This is the Mask of Duality, a small clay mask. It was made in Tlatilco during the Middle Preclassic, between 1200 and 600 years before Christ. It is 8.5 centimeters tall. The face is divided from top to bottom into two symmetrical halves, and the details were marked with punctures and incisions. This division is interpreted as duality. It is the idea that there are pairs of opposites, like life and death, creation and destruction, light and darkness. In Tlatilco there are also figurines with two faces or divided between life and death.
-
-### guion_largo
-
-**ES:** La Máscara de la Dualidad mide 8.5 centímetros de alto, 7.3 de ancho y 5 de espesor. Es de barro y viene de Tlatilco, en el Estado de México. Es del Preclásico Medio, entre 1200 y 600 años antes de Cristo. /  / Es una máscara antropomorfa, es decir, con forma de rostro humano. Una línea vertical la parte en dos mitades simétricas. Una mitad muestra a una persona viva, con el ojo abierto y la lengua afuera. La otra muestra a un ser descarnado, sin piel, que se lee como una calavera. El alfarero modeló el barro y marcó los detalles con punciones e incisiones. /  / Recorre el rostro con la vista: la línea que lo parte, el ojo abierto, la lengua afuera. Luego cruza a la otra mitad y fíjate en que ahí no hay piel. /  / Lo que se ve es un rostro con dos estados. Lo que se interpreta es un principio religioso llamado dualidad. Reúne pares de opuestos, como la vida y la muerte, la creación y la destrucción, la luz y la oscuridad. El rostro no los separa. Los junta en una sola cara. /  / Tlatilco era una aldea agrícola. Sus habitantes cultivaban maíz, frijol, calabaza, chile y algodón, y completaban su alimentación con caza y pesca. Enterraban a sus muertos bajo los pisos de las casas, con ofrendas ceremoniales. En ese mundo, la vida y la muerte convivían muy cerca. /  / Del mismo lugar vienen otras imágenes con dos rostros o divididas entre la vida y la muerte. Eso sugiere que la dualidad era una idea importante para esa comunidad. Más tarde, esa idea seguiría presente en civilizaciones como la teotihuacana y la mexica. /  / La máscara es muy pequeña, y aun así transmite con dramatismo el paso de la vitalidad del cuerpo humano a la desnudez de los huesos.
-
-**EN:** The Mask of Duality is 8.5 centimeters tall, 7.3 wide and 5 thick. It is made of clay and comes from Tlatilco, in the State of Mexico. It dates to the Middle Preclassic, between 1200 and 600 years before Christ. /  / It is an anthropomorphic mask, that is, one shaped like a human face. A vertical line splits it into two symmetrical halves. One half shows a living person, with an open eye and a tongue sticking out. The other shows a fleshless being, without skin, who can be read as a skull. The potter modeled the clay and marked the details with punctures and incisions. /  / Trace the face with your eyes: the line that splits it, the open eye, the tongue sticking out. Then cross to the other half and notice that there is no skin there. /  / What you see is a face with two states. What is interpreted is a religious principle called duality. It brings together pairs of opposites, like life and death, creation and destruction, light and darkness. The face does not separate them. It joins them in a single face. /  / Tlatilco was an agricultural village. Its inhabitants grew corn, beans, squash, chili peppers and cotton, and supplemented their diet with hunting and fishing. They buried their dead beneath the floors of their houses, with ceremonial offerings. In that world, life and death lived very close together. /  / Other images with two faces, or divided between life and death, come from the same place. This suggests that duality was an important idea for that community. Later, that idea would still be present in civilizations such as the Teotihuacán and the Mexica. /  / The mask is very small, and yet it dramatically conveys the passage from the vitality of the human body to the nakedness of bones.
-
-### retos_observacion
-
-**ES:** La línea vertical que parte el rostro en dos mitades iguales / El ojo abierto y la lengua afuera de la mitad viva / La mitad sin piel, que parece una calavera
-
-**EN:** The vertical line that splits the face into two equal halves / The open eye and the tongue sticking out on the living half / The half without skin, which looks like a skull
-
-### especificaciones
-
-**ES:** Cultura: Preclásico del Altiplano Central / Periodo: Preclásico Medio (1200-600 a.C.) / Material: Cerámica, arcilla / Procedencia: Tlatilco, Estado de México / Medidas: 0.085 m de alto x 0.073 m de ancho x 0.05 m de espesor
-
-**EN:** Culture: Preclassic of the Central Highlands / Period: Middle Preclassic (1200-600 BC) / Material: Ceramic, clay / Origin: Tlatilco, State of Mexico / Dimensions: 0.085 m tall x 0.073 m wide x 0.05 m thick
-
-### faq_mito
-
-**ES:** pregunta: Mito: La Máscara de la Dualidad representa la mitad del rostro de un rey alienígena y la mitad de una calavera. / respuesta: Realidad: Es una máscara de barro hecha en Tlatilco durante el Preclásico Medio. Un lado muestra un rostro vivo y el otro una calavera, y se interpreta como expresión de la dualidad entre la vida y la muerte.
-
-**EN:** pregunta: Myth: The Mask of Duality represents half of the face of an alien king and half of a skull. / respuesta: Reality: It is a clay mask made in Tlatilco during the Middle Preclassic. One side shows a living face and the other a skull, and it is interpreted as an expression of the duality between life and death.
-
-## Pieza: mna_s03_mujeres_bonitas
-
-### titulo
-
-**ES:** Figurillas femeninas "Mujeres Bonitas" de Tlatilco
-
-**EN:** “Pretty Ladies” Female Figurines of Tlatilco
-
-### frase_gancho
-
-**ES:** Damas de barro que encarnan la fertilidad de la tierra.
-
-**EN:** Clay ladies that embody the fertility of the earth.
-
-### puente_narrativo
-
-**ES:** Seguimos en Tlatilco con las figurillas femeninas más conocidas de la aldea: las llamadas mujeres bonitas.
-
-**EN:** We stay in Tlatilco with the village’s best-known female figurines: the so-called pretty ladies.
-
-### guion_corto
-
-**ES:** Algunas de estas figuras llevan en el pecho un pequeño disco de espejo de pirita pulida, a manera de medallón. Es un detalle fácil de pasar por alto. Son las llamadas mujeres bonitas de Tlatilco, figurillas femeninas de barro hechas entre el Preclásico Temprano y el Medio. Se modelaron a mano, y los detalles se pegaron o se marcaron con incisiones. Los ejemplares del catálogo miden entre nueve punto cinco y once punto uno centímetros de alto, porque cada una es distinta. Muchas tienen la cintura breve, las caderas amplias y los muslos abultados. Otras son esbeltas, de senos pequeños. Fíjate en los peinados, con trenzas, turbantes o mechones recogidos, y en la pintura corporal geométrica. Se asocian con el culto a la fertilidad de la tierra, la maternidad y el ciclo agrícola del mundo aldeano.
-
-**EN:** Some of these figures wear a small disc of polished pyrite mirror on the chest, like a medallion. It is an easy detail to overlook. These are the so-called pretty ladies of Tlatilco, female clay figurines made between the Early and Middle Preclassic. They were modeled by hand, and the details were either attached or marked with incisions. The examples in the catalog measure between nine point five and eleven point one centimeters tall, because each one is different. Many have a narrow waist, broad hips and full thighs. Others are slender, with small breasts. Notice the hairstyles, with braids, turbans or gathered locks, and the geometric body paint. They are associated with the cult of the fertility of the earth, motherhood and the agricultural cycle of village life.
-
-> Aviso: el glosario pide "Early Preclassic" para "Preclásico Temprano" y no aparece
-
-### guion_largo
-
-**ES:** Si tuvieras que elegir una imagen de las aldeas del Preclásico en la Cuenca de México, muchas personas elegirían estas figuras. Se conocen como las mujeres bonitas de Tlatilco. Son figurillas femeninas de barro, hechas en Tlatilco, en el Estado de México. Pertenecen al periodo que va del Preclásico Temprano al Medio, es decir, entre mil cuatrocientos y novecientos años antes de Cristo. /  / Aquí hay que tener un cuidado. No se trata de una sola figura, sino de varios ejemplares de un mismo tipo, que el catálogo llama tipología D cuatro. Cada uno mide algo distinto. Los ejemplares del catálogo van de nueve punto cinco a once punto uno centímetros de alto. Uno de ellos, con un medallón de pirita, mide diez punto cinco de alto y cuatro punto cinco de ancho. /  / Lo que sí se repite es el estilo. Muchas tienen la cintura breve, las caderas amplias y los muslos abultados. Otras son más esbeltas, con los senos pequeños. Muestran peinados muy elaborados, con trenzas, turbantes o mechones recogidos, y pintura corporal de diseños geométricos. /  / Para mirarlas, empieza por el peinado y baja después hacia el cuerpo. Compara las caderas con la cintura. Mira cómo cambian los peinados de una figura a otra. Busca las marcas del rostro y, si hay suerte, el disco del pecho. /  / Para hacerlas, se modelaba la arcilla a mano. Los detalles se agregaban con pastillaje, que consiste en pegar pequeñas piezas de barro. También se marcaban con incisiones y con punciones ovaladas. La pintura de la cara se aplicaba después de cocer la pieza. En los ejemplares más refinados, el pecho lleva un pequeño disco incrustado de espejo de pirita pulida, como un medallón. /  / ¿Qué significaban? Se asocian con la esfera religiosa del mundo aldeano. Representan el culto a la fertilidad de la tierra, la maternidad, el ciclo agrícola y la renovación de la naturaleza. Esa es una interpretación, pero encaja con lo que se sabe de Tlatilco. Sus habitantes vivían de una economía mixta, con maíz, frijol, calabaza, chile y algodón, además de caza y pesca. También enterraban a sus muertos bajo los pisos de las casas, acompañados de ofrendas. /  / Mujeres bonitas es el nombre con que se las conoce hoy. Son figuras célebres, y cada una conserva un peinado, un adorno y un diseño distintos. Eso invita a mirarlas una por una.
-
-**EN:** If you had to choose one image of the Preclassic villages in the Basin of Mexico, many people would choose these figures. They are known as the pretty ladies of Tlatilco. They are female clay figurines, made in Tlatilco, in the State of Mexico. They belong to the period running from the Early to the Middle Preclassic, that is, between one thousand four hundred and nine hundred years before Christ. /  / Here a word of caution is needed. This is not a single figure, but several examples of one same type, which the catalog calls typology D four. Each one measures something different. The examples in the catalog range from nine point five to eleven point one centimeters tall. One of them, with a pyrite medallion, measures ten point five centimeters tall and four point five wide. /  / What does repeat is the style. Many have a narrow waist, broad hips and full thighs. Others are more slender, with small breasts. They display very elaborate hairstyles, with braids, turbans or gathered locks, and body paint in geometric designs. /  / To look at them, start with the hairstyle and then move down to the body. Compare the hips with the waist. See how the hairstyles change from one figure to another. Look for the marks on the face and, if you are lucky, the disc on the chest. /  / To make them, the clay was modeled by hand. The details were added with applied pellets of clay, a technique that consists of attaching small pieces of clay. They were also marked with incisions and with oval punctures. The paint on the face was applied after the piece was fired. On the most refined examples, the chest bears a small inlaid disc of polished pyrite mirror, like a medallion. /  / What did they mean? They are associated with the religious sphere of village life. They represent the cult of the fertility of the earth, motherhood, the agricultural cycle and the renewal of nature. That is an interpretation, but it fits with what is known about Tlatilco. Its inhabitants lived from a mixed economy, with corn, beans, squash, chile and cotton, as well as hunting and fishing. They also buried their dead beneath the floors of their houses, accompanied by offerings. /  / Pretty ladies is the name by which they are known today. They are famous figures, and each one keeps a different hairstyle, a different adornment and a different design. That invites you to look at them one by one.
-
-> Aviso: el glosario pide "Early Preclassic" para "Preclásico Temprano" y no aparece
-
-### retos_observacion
-
-**ES:** Cintura breve, caderas amplias y muslos abultados / Peinados con trenzas, turbantes o mechones recogidos / Diseños geométricos de pintura corporal y, en algunas, un disco de pirita en el pecho
-
-**EN:** Narrow waist, broad hips and full thighs / Hairstyles with braids, turbans or gathered locks / Geometric body paint designs and, on some, a pyrite disc on the chest
-
-### especificaciones
-
-**ES:** Cultura: Preclásico del Altiplano Central (Cuenca de México) / Periodo: Preclásico Temprano a Medio (1400-900 a.C.) / Material: Cerámica, arcilla / Procedencia: Tlatilco, Estado de México / Medidas: Varían por ejemplar (tipología D4): de 0.095 x 0.04 x 0.01 m a 0.111 x 0.043 x 0.023 m; el ejemplar con medallón de pirita mide 0.105 m de alto x 0.045 m de ancho
-
-**EN:** Culture: Preclassic of the Central Highlands (Basin of Mexico) / Period: Early to Middle Preclassic (1400-900 BC) / Material: Ceramic, clay / Origin: Tlatilco, State of Mexico / Dimensions: Vary by example (typology D4): from 0.095 x 0.04 x 0.01 m to 0.111 x 0.043 x 0.023 m; the example with a pyrite medallion measures 0.105 m tall x 0.045 m wide
-
-> Aviso: el glosario pide "Early Preclassic" para "Preclásico Temprano" y no aparece
-
-### faq_mito
-
-**ES:** pregunta: Mito: Las mujeres bonitas de Tlatilco eran muñecas de juguete fabricadas para las niñas de la aldea. / respuesta: Realidad: Se las asocia con el mundo religioso de la aldea: el culto a la fertilidad de la tierra, la maternidad y el ciclo agrícola.
-
-**EN:** pregunta: Myth: The pretty ladies of Tlatilco were toy dolls made for the girls of the village. / respuesta: Reality: They are associated with the religious world of the village: the cult of the fertility of the earth, motherhood and the agricultural cycle.
-
-## Pieza: mna_s03_pato_tlatilco
-
-### titulo
-
-**ES:** Vasija zoomorfa El Pato de Tlatilco
-
-**EN:** Zoomorphic Vessel The Duck of Tlatilco
-
-### frase_gancho
-
-**ES:** Ave de barro negro que evoca el agua del lago.
-
-**EN:** A black clay bird that evokes the water of the lake.
-
-### puente_narrativo
-
-**ES:** Seguimos con las aves del lago, tan cercanas a la vida de las aldeas, en una vasija con forma de pato.
-
-**EN:** We continue with the birds of the lake, so close to village life, in a vessel shaped like a duck.
-
-### guion_corto
-
-**ES:** El negro brillante de esta vasija se logró con una cocción cerrada, sin dejar entrar oxígeno. Es el Pato de Tlatilco, una vasija zoomorfa, es decir, con forma de animal, hecha de arcilla café oscuro en el Preclásico Medio. Mide 21 centímetros de alto y 19 de largo. El cuerpo del pato es el depósito, y el hueco para llenarla y vaciarla está justo sobre la cabeza. El pico, el cuello, la cola, los ojos y las alas se definieron con incisiones y con pequeñas piezas de barro pegadas. La superficie es negra y pulida. Las aves acuáticas migratorias eran un recurso importante para los habitantes de Tlatilco. Ellos combinaban la agricultura con la pesca y la caza en los lagos de la Cuenca de México.
-
-**EN:** The glossy black of this vessel was achieved through a closed firing, with no oxygen allowed in. This is the Duck of Tlatilco, a zoomorphic vessel, that is, one shaped like an animal, made of dark brown clay in the Middle Preclassic. It measures 21 centimeters high and 19 long. The duck’s body is the container, and the opening for filling and emptying it is right on top of the head. The beak, the neck, the tail, the eyes, and the wings were defined with incisions and with small pieces of clay attached to the surface. The surface is black and polished. Migratory waterfowl were an important resource for the people of Tlatilco. They combined agriculture with fishing and hunting in the lakes of the Basin of Mexico.
-
-### guion_largo
-
-**ES:** Esta vasija tiene forma de pato, y para entenderla conviene imaginar el paisaje donde nació. Tlatilco estaba en la Cuenca de México, una región de lagos. Sus habitantes combinaban la agricultura con la pesca y la caza. Las aldeas de la Cuenca cultivaban maíz, frijol, calabaza, chile y algodón, y recolectaban aves acuáticas y plantas. Las aves acuáticas migratorias eran un recurso fundamental para la subsistencia. Migratorias significa que viajan de un lugar a otro según la estación. /  / Es la Vasija zoomorfa El Pato de Tlatilco, del Preclásico Medio. Zoomorfa quiere decir con forma de animal. Es de cerámica, de arcilla café oscuro. Mide 21 centímetros de alto, 12.5 de ancho y 19 de largo. /  / El cuerpo del ave es el depósito de la vasija. El pico, el cuello, la cola, los ojos y las alas están definidos con dos técnicas. Una es la incisión, que consiste en marcar líneas en el barro. La otra es el pastillaje, que consiste en pegar pequeñas piezas de barro. El orificio por donde se llena y se vacía el recipiente está sobre la cabeza del ave. /  / Busca ese orificio y baja por el cuello hasta el cuerpo redondo. Después recorre las alas y la cola, donde se ven las líneas marcadas. /  / La superficie es negra y pulida. Ese tono se logró con una cocción cerrada, sin entrada de oxígeno, a la que se llama atmósfera reductora. La arcilla de origen es café oscuro, y fue la cocción la que dio ese acabado negro. /  / La alfarería, es decir, el trabajo del barro cocido, había surgido en la Cuenca en el Preclásico Temprano. En el Preclásico Medio crecieron las aldeas, y con ellas la división del trabajo y las técnicas agrícolas. /  / Para qué se usaba no está establecido: no se puede afirmar si guardaba agua, si se usaba en ceremonias o si acompañaba a los muertos. Lo que sí se ve es una vasija bien modelada, con un depósito, un hueco en la cabeza y un acabado negro pulido. Sus formas recuerdan a las aves del lago, una presencia cercana para quienes vivían allí.
-
-**EN:** This vessel is shaped like a duck, and to understand it, it helps to imagine the landscape where it was born. Tlatilco was in the Basin of Mexico, a region of lakes. Its people combined agriculture with fishing and hunting. The villages of the Basin grew corn, beans, squash, chili, and cotton, and gathered waterfowl and plants. Migratory waterfowl were a fundamental resource for survival. Migratory means that they travel from one place to another according to the season. /  / This is the Zoomorphic Vessel The Duck of Tlatilco, from the Middle Preclassic. Zoomorphic means shaped like an animal. It is made of ceramic, of dark brown clay. It measures 21 centimeters high, 12.5 wide, and 19 long. /  / The body of the bird is the container of the vessel. The beak, the neck, the tail, the eyes, and the wings are defined with two techniques. One is incision, which consists of marking lines in the clay. The other is applied clay decoration, which consists of attaching small pieces of clay. The opening through which the container is filled and emptied is on top of the bird’s head. /  / Look for that opening and follow the neck down to the round body. Then trace the wings and the tail, where you can see the marked lines. /  / The surface is black and polished. That tone was achieved through a closed firing, with no oxygen entering, which is called a reducing atmosphere. The original clay is dark brown, and it was the firing that gave that black finish. /  / Pottery, that is, the work of fired clay, had emerged in the Basin in the Early Preclassic. In the Middle Preclassic the villages grew, and with them the division of labor and agricultural techniques. /  / What it was used for is not established: it cannot be said whether it held water, whether it was used in ceremonies, or whether it accompanied the dead. What can be seen is a well-modeled vessel, with a container, an opening in the head, and a polished black finish. Its forms recall the birds of the lake, a close presence for those who lived there.
-
-### retos_observacion
-
-**ES:** El hueco para llenar y vaciar la vasija, sobre la cabeza del pato / Pico, cuello, ojos y alas marcados con incisiones y pequeñas piezas de barro / El acabado negro pulido de la superficie
-
-**EN:** The opening for filling and emptying the vessel, on top of the duck’s head / Beak, neck, eyes, and wings marked with incisions and small pieces of clay / The polished black finish of the surface
-
-### especificaciones
-
-**ES:** Cultura: Preclásico del Altiplano Central / Periodo: Preclásico Medio / Material: Cerámica negra pulida (arcilla café oscuro) / Procedencia: Tlatilco, Estado de México / Medidas: 0.21 m de alto x 0.125 m de ancho x 0.19 m de largo
-
-**EN:** Culture: Preclassic of the Central Highlands / Period: Middle Preclassic / Material: Polished black ceramic (dark brown clay) / Origin: Tlatilco, State of Mexico / Dimensions: 0.21 m high x 0.125 m wide x 0.19 m long
-
-### faq_mito
-
-**ES:** pregunta: Mito: La Vasija El Pato de Tlatilco era una cantimplora militar utilizada por soldados olmecas en sus marchas. / respuesta: Realidad: Es una vasija con forma de pato, de arcilla café oscuro y acabado negro pulido, hecha en Tlatilco durante el Preclásico Medio. Las aves acuáticas migratorias eran un recurso importante para quienes vivían junto a los lagos de la Cuenca.
-
-**EN:** pregunta: Myth: The Vessel The Duck of Tlatilco was a military canteen used by Olmec soldiers on their marches. / respuesta: Reality: It is a duck-shaped vessel, made of dark brown clay with a polished black finish, made in Tlatilco during the Middle Preclassic. Migratory waterfowl were an important resource for those who lived beside the lakes of the Basin.
-
-## Pieza: mna_s03_sacerdote_atlihuayan
-
-### titulo
-
-**ES:** Sacerdote de Atlihuayan
-
-**EN:** Priest of Atlihuayan
-
-### frase_gancho
-
-**ES:** Sacerdote de barro cubierto por la piel del jaguar místico.
-
-**EN:** A clay priest wrapped in the skin of the mystical jaguar.
-
-### puente_narrativo
-
-**ES:** Salimos de Tlatilco y pasamos a una figura de Morelos con influencia olmeca: un personaje cubierto con la piel de un jaguar.
-
-**EN:** We leave Tlatilco and move on to a figure from Morelos with Olmec influence: a character covered in a jaguar’s skin.
-
-### guion_corto
-
-**ES:** Se cree que quien se cubría con la piel de un jaguar ganaba la fuerza y la visión nocturna del felino. Esta figura lleva puesta esa piel. Es el Sacerdote de Atlihuayan, una escultura de cerámica de Morelos. Es del Preclásico Medio y muestra una profunda influencia olmeca, la cultura de la Costa del Golfo. Mide veintinueve centímetros y medio de alto y veintiuno punto tres de ancho. El rostro tiene rasgos de niño, con la boca de comisuras hacia abajo, las encías expuestas y los ojos sesgados. La piel cubre su cabeza y su espalda, y muestra garras, orejas y una cola que se extiende sobre la columna. Se interpreta como símbolo de la transformación chamánica y del poder de gobernantes y sacerdotes. El jaguar era considerado el señor del inframundo y de las cuevas.
-
-**EN:** It is believed that whoever wore a jaguar’s skin gained the strength and the night vision of the feline. This figure wears that skin. It is the Priest of Atlihuayan, a ceramic sculpture from Morelos. It dates to the Middle Preclassic and shows a deep Olmec influence, the culture of the Gulf Coast. It measures twenty-nine and a half centimeters high and twenty-one point three wide. The face has childlike features, with a downturned mouth, exposed gums, and slanted eyes. The skin covers his head and his back, and shows claws, ears, and a tail that extends along the spine. It is interpreted as a symbol of shamanic transformation and of the power of rulers and priests. The jaguar was considered the lord of the underworld and of caves.
-
-### guion_largo
-
-**ES:** Hay una idea muy antigua que une a esta figura con la Costa del Golfo: la de vestirse de jaguar. El Sacerdote de Atlihuayan viene de Atlihuayan, en Morelos. Es de cerámica, del Preclásico Medio, y mide veintinueve centímetros y medio de alto por veintiuno punto tres de ancho. Pertenece al Altiplano Central, pero con una profunda influencia olmeca. Los olmecas eran la cultura de la Costa del Golfo, con la que las aldeas del Altiplano mantuvieron una red de intercambio. /  / Empecemos por la cara. Tiene los rasgos que se llaman baby face, que quiere decir cara de bebé. Parece la de un niño. La boca tiene las comisuras hacia abajo, las encías aparecen expuestas y los ojos están sesgados. Es un estilo propio del arte olmeca. El personaje se ve masculino y su postura es inclinada o sentada. /  / Ahora, la piel. Sobre la cabeza y la espalda, el personaje lleva una piel completa de jaguar, estilizada. Tiene garras articuladas, orejas y la cola del felino, que se extiende sobre la columna. Es como si el hombre y el animal fueran uno. /  / Para mirarla, empieza por el rostro de niño. Sube después a la cabeza, donde empieza la piel. Sigue la cola hacia abajo, sobre la columna. /  / ¿Qué significa? Aquí hay que separar lo que se ve de lo que se interpreta. Lo que se ve es un personaje cubierto con una piel de felino. Lo que se interpreta es una transformación chamánica. Según esa lectura, quienes se cubrían con la piel del jaguar adquirían de manera mística su fuerza, su visión nocturna y sus atributos. El jaguar era considerado el señor del inframundo y de las cuevas. /  / La piel de jaguar y el rostro de niño son dos rasgos muy distintos que aquí aparecen juntos. La pieza también habla de poder. Se interpreta como una investidura, es decir, el momento en que gobernantes o sacerdotes recibían su autoridad. /  / Esa mezcla de rasgos olmecas en el Altiplano no es casual. Durante el Preclásico Medio, las aldeas de la Cuenca adoptaron formas ceremoniales y símbolos del Golfo. Llegaron botellones, vasos de fondo plano y la iconografía del felino, con cejas flamígeras, cruces de San Andrés, garras y bocas atigradas. Atlihuayan, en Morelos, muestra que esa influencia no se quedó solo en la Cuenca de México.
-
-**EN:** There is a very ancient idea that links this figure to the Gulf Coast: that of dressing as a jaguar. The Priest of Atlihuayan comes from Atlihuayan, in Morelos. It is made of ceramic, dates to the Middle Preclassic, and measures twenty-nine and a half centimeters high by twenty-one point three wide. It belongs to the Central Highlands, but with a deep Olmec influence. The Olmec were the culture of the Gulf Coast, with which the villages of the Highlands maintained a network of exchange. /  / Let us begin with the face. It has the features known as Baby-face, which means a baby’s face. It looks like a child’s. The mouth is downturned, the gums appear exposed, and the eyes are slanted. It is a style characteristic of Olmec art. The figure looks masculine and its posture is leaning or seated. /  / Now, the skin. Over the head and the back, the figure wears a complete jaguar skin, stylized. It has articulated claws, ears, and the tail of the feline, which extends along the spine. It is as if the man and the animal were one. /  / To look at it, start with the child’s face. Then move up to the head, where the skin begins. Follow the tail downward, along the spine. /  / What does it mean? Here we must separate what is seen from what is interpreted. What is seen is a figure covered with the skin of a feline. What is interpreted is a shamanic transformation. According to that reading, those who covered themselves with the jaguar’s skin acquired its strength, its night vision, and its attributes in a mystical way. The jaguar was considered the lord of the underworld and of caves. /  / The jaguar skin and the child’s face are two very different features that appear together here. The piece also speaks of power. It is interpreted as an investiture, that is, the moment when rulers or priests received their authority. /  / This mixture of Olmec features in the Highlands is no accident. During the Middle Preclassic, the villages of the Basin adopted ceremonial forms and symbols from the Gulf. Bottles, flat-bottomed vessels, and the iconography of the feline arrived, with flame eyebrows, St. Andrew’s crosses, claws, and tiger-like mouths. Atlihuayan, in Morelos, shows that this influence did not remain only in the Basin of Mexico.
-
-### retos_observacion
-
-**ES:** La piel de jaguar que cubre la cabeza y la espalda del personaje / Las garras y las orejas del felino, y su cola sobre la columna / Rostro de niño con boca de comisuras hacia abajo y encías expuestas
-
-**EN:** The jaguar skin that covers the figure’s head and back / The claws and ears of the feline, and its tail along the spine / A child’s face with a downturned mouth and exposed gums
-
-### especificaciones
-
-**ES:** Cultura: Preclásico del Altiplano Central, con influencia olmeca / Periodo: Preclásico Medio (1200-600 a.C.) / Material: Cerámica, arcilla / Procedencia: Atlihuayan, Morelos / Medidas: 0.295 m de alto x 0.213 m de ancho
-
-**EN:** Culture: Preclassic of the Central Highlands, with Olmec influence / Period: Middle Preclassic (1200-600 BC) / Material: Ceramic, clay / Origin: Atlihuayan, Morelos / Dimensions: 0.295 m high x 0.213 m wide
-
-### faq_mito
-
-**ES:** pregunta: Mito: El Sacerdote de Atlihuayan representa a una persona disfrazada con pijama de peluche para un espectáculo. / respuesta: Realidad: Es una figura de cerámica con influencia olmeca. La piel de jaguar que lleva se interpreta como símbolo de la transformación chamánica y del poder de gobernantes y sacerdotes.
-
-**EN:** pregunta: Myth: The Priest of Atlihuayan represents a person dressed in a plush pajama costume for a show. / respuesta: Reality: It is a ceramic figure with Olmec influence. The jaguar skin it wears is interpreted as a symbol of shamanic transformation and of the power of rulers and priests.
-
-## Pieza: mna_s03_baby_face_tlapacoya
-
-### titulo
-
-**ES:** Escultura sedente "Baby Face" de Tlapacoya
-
-**EN:** Seated “Baby-face” Sculpture from Tlapacoya
-
-### frase_gancho
-
-**ES:** Cara de niño con rasgos de jaguar, modelada en barro en Tlapacoya.
-
-**EN:** A child’s face with jaguar features, modeled in clay at Tlapacoya.
-
-### puente_narrativo
-
-**ES:** Seguimos con otra pieza de influencia olmeca, esta vez de Tlapacoya: un personaje sentado con rostro de bebé.
-
-**EN:** We continue with another piece showing Olmec influence, this time from Tlapacoya: a seated figure with a baby’s face.
-
-### guion_corto
-
-**ES:** Entre mil doscientos y seiscientos años antes de Cristo, alguien modeló en barro a este personaje de rostro de bebé. Es la escultura sedente baby face de Tlapacoya, en el Estado de México, hecha de cerámica y con influencia olmeca. Mide cuarenta y un centímetros y medio de alto y treinta y uno de ancho. El personaje está sentado y desnudo, con brazos y piernas infantiles, abultados. Tiene la cabeza rapada, con deformación craneana tabular erecta, y los dientes recortados. En la cara se mezclan rasgos de niño y de felino, como la boca entreabierta con las comisuras hacia abajo y los ojos oblicuos. Según la mitología olmeca, el ser humano nació de la unión de una mujer y el jaguar sagrado. Esta figura alude a ese mito, y por eso une dos mundos en una sola cara.
-
-**EN:** Between 1200 and 600 years BC, someone modeled this baby-faced figure in clay. It is the seated baby-face sculpture from Tlapacoya, in the State of Mexico, made of ceramic and showing Olmec influence. It measures forty-one and a half centimeters high and thirty-one wide. The figure is seated and naked, with chubby, childlike arms and legs. The head is shaved, with upright tabular cranial deformation, and the teeth are filed. The face blends the features of a child and a feline, such as the slightly open mouth with the corners turned down and the slanted eyes. According to Olmec mythology, human beings were born from the union of a woman and the sacred jaguar. This figure alludes to that myth, and so it joins two worlds in a single face.
-
-### guion_largo
-
-**ES:** El rostro de esta escultura parece el de un bebé, pero también guarda rasgos de jaguar. Esa mezcla es la clave de la pieza. Se llama escultura sedente baby face de Tlapacoya. Sedente quiere decir sentada. Viene de Tlapacoya, en el Estado de México, y es del Preclásico Medio, entre mil doscientos y seiscientos años antes de Cristo. Es de cerámica, y mide cuarenta y un centímetros y medio de alto por treinta y uno de ancho. /  / Hablemos del estilo. Baby face significa cara de niño. Es un tipo de figura que aparece en las aldeas de la Cuenca de México. Muestra la influencia de la cultura olmeca de la Costa del Golfo. Durante el Preclásico Medio, esas aldeas mantuvieron una amplia red de intercambio con los olmecas. Con ella llegaron formas ceremoniales y símbolos, entre ellos la iconografía del felino. /  / Tlapacoya fue uno de los sitios donde creció la población en esa etapa. Con el aumento de habitantes aparecieron técnicas agrícolas más eficientes y la división del trabajo. También surgieron las primeras formas de diferencias sociales. /  / Ahora, los detalles. El personaje está sentado y desnudo. Tiene las extremidades abultadas, como las de un niño pequeño. Su cabeza está rapada y muestra una deformación craneana tabular erecta, es decir, una modificación de la forma del cráneo. También se ven dientes recortados. En la cara aparecen rasgos de felino: la boca entreabierta, con las comisuras hacia abajo, y los ojos oblicuos. /  / Según la información de la sala, es una de las representaciones en cerámica más refinadas del tipo cara de niño de la Cuenca de México. Con la red de intercambio llegaron botellones, vasos de fondo plano y la iconografía felina olmeca. Esa iconografía se plasmó también en figurillas del tipo baby face. /  / Para mirarla, empieza por la cabeza, donde está la deformación. Baja a los ojos oblicuos y a la boca. Termina en las piernas y los brazos abultados. /  / Esa fusión no parece un capricho. Según la mitología olmeca, el ser humano tiene un origen divino. Habría nacido de la unión de una mujer y el jaguar sagrado. La mezcla de rasgos de infante y de felino aludiría a ese mito. Es una interpretación, no un dato probado, pero ayuda a entender por qué un rostro de niño lleva la boca de un felino.
-
-**EN:** The face of this sculpture looks like a baby’s, but it also holds features of a jaguar. That blend is the key to the piece. It is called the seated baby-face sculpture from Tlapacoya. Seated simply means sitting. It comes from Tlapacoya, in the State of Mexico, and dates to the Middle Preclassic, between 1200 and 600 years BC. It is made of ceramic, and measures forty-one and a half centimeters high by thirty-one wide. /  / Let’s talk about style. Baby-face means a child’s face. It is a type of figure that appears in the villages of the Basin of Mexico. It shows the influence of the Olmec culture of the Gulf Coast. During the Middle Preclassic, those villages maintained a broad exchange network with the Olmec. Along with it came ceremonial forms and symbols, among them the imagery of the feline. /  / Tlapacoya was one of the sites where the population grew during this period. With more inhabitants came more efficient farming techniques and the division of labor. The first forms of social difference also emerged. /  / Now, the details. The figure is seated and naked. Its limbs are chubby, like those of a small child. Its head is shaved and shows upright tabular cranial deformation, that is, a modification of the shape of the skull. Filed teeth can also be seen. The face shows feline features: the slightly open mouth, with the corners turned down, and the slanted eyes. /  / According to the information in the hall, it is one of the most refined ceramic representations of the child-face type from the Basin of Mexico. With the exchange network came large bottles, flat-bottomed cups, and Olmec feline imagery. That imagery was also captured in figurines of the baby-face type. /  / To look at it, start with the head, where the deformation is. Move down to the slanted eyes and the mouth. Finish with the chubby legs and arms. /  / This fusion does not seem like a whim. According to Olmec mythology, human beings have a divine origin. They would have been born from the union of a woman and the sacred jaguar. The blend of infant and feline features would allude to that myth. It is an interpretation, not a proven fact, but it helps us understand why a child’s face carries the mouth of a feline.
-
-### retos_observacion
-
-**ES:** Cabeza rapada con deformación craneana tabular erecta / Boca entreabierta de comisuras hacia abajo y ojos oblicuos, rasgos de felino / Brazos y piernas abultados, como los de un niño pequeño
-
-**EN:** Shaved head with upright tabular cranial deformation / Slightly open mouth with corners turned down and slanted eyes, feline features / Chubby arms and legs, like those of a small child
-
-### especificaciones
-
-**ES:** Cultura: Preclásico del Altiplano Central, con influencia olmeca / Periodo: Preclásico Medio (1200-600 a.C.) / Material: Cerámica, arcilla / Procedencia: Tlapacoya, Estado de México / Medidas: 0.415 m de alto x 0.31 m de ancho
-
-**EN:** Culture: Preclassic of the Central Highlands, with Olmec influence / Period: Middle Preclassic (1200-600 BC) / Material: Ceramic, clay / Origin: Tlapacoya, State of Mexico / Dimensions: 0.415 m high x 0.31 m wide
-
-### faq_mito
-
-**ES:** pregunta: Mito: La escultura Baby Face de Tlapacoya es el retrato de un niño real que murió. / respuesta: Realidad: No es el retrato de un niño. Es una figura de estilo baby face, con influencia olmeca, que mezcla rasgos de infante y de felino.
-
-**EN:** pregunta: Myth: The Baby-face sculpture from Tlapacoya is the portrait of a real child who died. / respuesta: Reality: It is not the portrait of a child. It is a figure in the baby-face style, with Olmec influence, that blends infant and feline features.
-
-## Pieza: mna_s03_huehueteotl_cuicuilco
-
-### titulo
-
-**ES:** Escultura de Huehuetéotl de Cuicuilco
-
-**EN:** Huehuetéotl Sculpture from Cuicuilco
-
-### frase_gancho
-
-**ES:** Un anciano de barro que carga el fuego sobre la espalda.
-
-**EN:** An old man of clay who carries fire on his back.
-
-### puente_narrativo
-
-**ES:** Pasamos a Cuicuilco, la ciudad que más tarde cubrió la lava del volcán Xitle, con una de las imágenes más antiguas del dios viejo del fuego.
-
-**EN:** We move on to Cuicuilco, the city that was later covered by lava from the Xitle volcano, with one of the oldest images of the old god of fire.
-
-### guion_corto
-
-**ES:** Huehuetéotl es el nombre del Dios Viejo y del Fuego, y se lo representa como un anciano. Es una escultura de barro de tamaño pequeño, hecha en Cuicuilco, en la Ciudad de México, durante el Preclásico Tardío. Está sentado con las piernas cruzadas y los codos sobre las rodillas, desdentado y encorvado. Sobre la cabeza y la espalda carga un gran brasero circular. Las arrugas, las mejillas hundidas y las cejas marcadas subrayan su edad y su dignidad. Es la imagen más antigua registrada de este dios en el Altiplano Central. Su culto en Cuicuilco se relacionó con los volcanes activos de la región, como el Xitle. Hacia el año 200 o 300 después de Cristo, la erupción del Xitle cubrió la ciudad con una gruesa capa de lava.
-
-**EN:** Huehuetéotl is the name of the Old God of Fire, and he is represented as an elderly man. This is a small clay sculpture, made in Cuicuilco, in Mexico City, during the Late Preclassic. He sits cross-legged with his elbows on his knees, toothless and hunched. On his head and back he carries a large round brazier. The wrinkles, the sunken cheeks and the pronounced brows emphasize his age and his dignity. It is the oldest recorded image of this god in the Central Highlands. His cult in Cuicuilco was tied to the active volcanoes of the region, such as the Xitle. Around the year 200 or 300 AD, the eruption of the Xitle covered the city with a thick layer of lava.
-
-### guion_largo
-
-**ES:** Un anciano sentado, desdentado y encorvado carga sobre la cabeza y la espalda un gran brasero. Así se representaba a Huehuetéotl, el Dios Viejo y del Fuego. Esta escultura viene de Cuicuilco, en el sur de la Cuenca de México, en lo que hoy es la Ciudad de México. Es de cerámica, de tamaño pequeño, y es del Preclásico Tardío. /  / La postura es la de un anciano sentado, con las piernas entrecruzadas y los codos sobre las rodillas. Su rostro tiene arrugas pronunciadas, mejillas hundidas y cejas marcadas. Todo eso subraya su avanzada edad y su dignidad como deidad anciana. El barro se modeló a mano, y los detalles se agregaron con pastillaje y con incisiones. /  / Un brasero es un recipiente para contener brasas. Para mirar la escultura, empieza por el brasero. Baja a la cara y busca las arrugas y la boca sin dientes. Termina en las piernas cruzadas. /  / Cuicuilco estaba en las faldas de la sierra del Ajusco, al sur de la Cuenca. En esa etapa las aldeas se transformaron en centros con plazas y pirámides, y también se formalizaron las imágenes de los dioses. Aquí surgió la representación más antigua registrada del Dios Viejo y del Fuego en el Altiplano Central. /  / El culto a Huehuetéotl en Cuicuilco estaba ligado a los volcanes activos de la región. El más recordado es el Xitle, en la ladera del Ajusco. Hacia el año 200 o 300 después de Cristo, su erupción sepultó Cuicuilco y sus campos bajo una gruesa capa de lava. Hoy esa lava forma el Pedregal de San Ángel. /  / Sin ciudad ni cultivos, muchas personas migraron hacia el norte del valle. Ese movimiento impulsó el rápido crecimiento de Teotihuacán, y con él, la transición hacia el periodo Clásico. /  / Así, el Dios Viejo y del Fuego queda unido a la historia de Cuicuilco y a la del volcán que la cubrió. Es una imagen pequeña que guarda una historia grande.
-
-**EN:** A seated old man, toothless and hunched, carries a large brazier on his head and back. This is how Huehuetéotl, the Old God of Fire, was represented. This sculpture comes from Cuicuilco, in the south of the Basin of Mexico, in what is now Mexico City. It is made of ceramic, it is small in size, and it dates to the Late Preclassic. /  / The posture is that of a seated old man, with his legs crossed and his elbows on his knees. His face has deep wrinkles, sunken cheeks and pronounced brows. All of this emphasizes his advanced age and his dignity as an elderly deity. The clay was modeled by hand, and the details were added with applied clay and with incisions. /  / A brazier is a vessel for holding embers. To look at the sculpture, start with the brazier. Move down to the face and look for the wrinkles and the mouth without teeth. Finish at the crossed legs. /  / Cuicuilco stood on the slopes of the Ajusco mountain range, in the south of the Basin. At that stage, villages grew into centers with plazas and pyramids, and the images of the gods also became more formal. Here emerged the oldest recorded representation of the Old God of Fire in the Central Highlands. /  / The cult of Huehuetéotl in Cuicuilco was tied to the active volcanoes of the region. The most remembered is the Xitle, on the slope of the Ajusco. Around the year 200 or 300 AD, its eruption buried Cuicuilco and its fields under a thick layer of lava. Today that lava forms the Pedregal de San Ángel. /  / Without a city or crops, many people migrated to the north of the valley. That movement drove the rapid growth of Teotihuacán, and with it, the transition to the Classic period. /  / Thus, the Old God of Fire is bound to the history of Cuicuilco and to that of the volcano that covered it. It is a small image that holds a great story.
-
-### retos_observacion
-
-**ES:** El gran brasero circular sobre la cabeza y la espalda / Arrugas, mejillas hundidas y boca sin dientes / Piernas entrecruzadas y codos apoyados sobre las rodillas
-
-**EN:** The large round brazier on the head and back / Wrinkles, sunken cheeks and a toothless mouth / Crossed legs and elbows resting on the knees
-
-### especificaciones
-
-**ES:** Cultura: Preclásico del Altiplano Central (Cuicuilco) / Periodo: Preclásico Tardío (400 a.C.-150/200 d.C.) / Material: Cerámica, arcilla / Procedencia: Cuicuilco, Ciudad de México
-
-**EN:** Culture: Preclassic of the Central Highlands (Cuicuilco) / Period: Late Preclassic (400 BC-150/200 AD) / Material: Ceramic, clay / Origin: Cuicuilco, Mexico City
-
-### faq_mito
-
-**ES:** pregunta: Mito: La escultura de Huehuetéotl de Cuicuilco representa a una víctima anciana castigada a cargar una maceta pesada. / respuesta: Realidad: Es Huehuetéotl, el Dios Viejo y del Fuego. El anciano desdentado y encorvado con un brasero sobre la cabeza y la espalda representa a una deidad, cuyo culto en Cuicuilco se ligó a los volcanes activos de la región.
-
-**EN:** pregunta: Myth: The Huehuetéotl sculpture from Cuicuilco represents an elderly victim punished by being made to carry a heavy pot. / respuesta: Reality: It is Huehuetéotl, the Old God of Fire. The toothless, hunched old man with a brazier on his head and back represents a deity, whose cult in Cuicuilco was tied to the active volcanoes of the region.
-
-## Pieza: mna_s03_vasija_pez_tlapacoya
-
-### titulo
-
-**ES:** Vasija zoomorfa de Pez y Lagarto
-
-**EN:** Zoomorphic Fish and Lizard Vessel
-
-### frase_gancho
-
-**ES:** Un pez que también es lagarto y jaguar, convertido en vasija de barro.
-
-**EN:** A fish that is also a lizard and a jaguar, turned into a clay vessel.
-
-### puente_narrativo
-
-**ES:** También de Tlapacoya viene esta vasija, que mezcla un pez, un lagarto y un jaguar.
-
-**EN:** This vessel also comes from Tlapacoya, and it blends a fish, a lizard, and a jaguar.
-
-### guion_corto
-
-**ES:** ¿Es un pez, un lagarto o un jaguar? Esta vasija de Tlapacoya es un poco de cada uno. Se llama Vasija zoomorfa de Pez y Lagarto, y zoomorfa quiere decir con forma de animal. Es de cerámica de color oscuro y pertenece al Preclásico Medio, con influencia olmeca. Mide catorce centímetros de alto y veintiséis punto dos de largo. Su silueta es la de un pez. Sobre ella aparecen rasgos del lagarto y del jaguar, como las encías expuestas, las cejas flamígeras y las garras. Se interpreta como la unión de las fuerzas de la tierra y del inframundo con el agua fértil de los lagos. El lagarto y el jaguar representarían la tierra, y el pez representaría el agua. Se decoró con incisiones y esgrafiado. Es un recipiente híbrido, un solo cuerpo que reúne varios mundos.
-
-**EN:** Is it a fish, a lizard, or a jaguar? This vessel from Tlapacoya is a little of each. It is called the Zoomorphic Fish and Lizard Vessel, and zoomorphic means shaped like an animal. It is made of dark-colored ceramic and belongs to the Middle Preclassic, with Olmec influence. It measures fourteen centimeters high and twenty-six point two long. Its silhouette is that of a fish. On it appear features of the lizard and the jaguar, such as the exposed gums, the flame-shaped eyebrows, and the claws. It is interpreted as the union of the forces of the earth and the underworld with the fertile water of the lakes. The lizard and the jaguar would represent the earth, and the fish would represent the water. It was decorated with incision and sgraffito. It is a hybrid vessel, a single body that brings together several worlds.
-
-### guion_largo
-
-**ES:** Esta vasija juega con una pregunta: ¿qué animal es? La respuesta es que es varios a la vez. Se llama Vasija zoomorfa de Pez y Lagarto, y también se le conoce como vasija zoomorfa compuesta. Zoomorfa quiere decir con forma de animal. Viene de Tlapacoya, en el Estado de México, y es del Preclásico Medio, entre mil doscientos y seiscientos años antes de Cristo. Es de cerámica de color oscuro. Mide catorce centímetros de alto, veintiséis punto dos de largo y quince punto cinco de diámetro. /  / La forma general es la de un pez. Esa silueta acuática es el cuerpo del recipiente. Pero sobre ese cuerpo aparecen rasgos de otros animales. Del lagarto y del jaguar vienen las encías expuestas, las cejas flamígeras y las garras. Las cejas flamígeras son cejas con forma de llamas. /  / La Cuenca de México era una región de lagos de agua dulce y salobre, como Zumpango, Xaltocan, Texcoco, Chalco y Xochimilco. Sus habitantes pescaban y recolectaban aves acuáticas. Tlapacoya fue uno de los sitios donde creció la población en el Preclásico Medio. /  / Para mirarla, empieza por la silueta completa, la del pez. Luego busca la cabeza y las encías expuestas. Por último, fíjate en las líneas marcadas sobre el color oscuro. /  / Esas líneas son parte de la decoración. Se usaron incisiones y esgrafiado, que consiste en rayar el barro con una punta. Por eso, además de la silueta de pez, se ven líneas marcadas en la superficie. /  / ¿Qué significa tanta mezcla? Es una interpretación. Se propone que el lagarto y el jaguar representan las fuerzas de la tierra y del inframundo. El pez representa el agua fértil de los lagos. Juntos unen esos mundos en un solo recipiente. Esa lectura encaja con la vida de las comunidades que vivían a orillas de los lagos de la Cuenca de México. /  / La vasija también habla de relaciones entre regiones. Su simbología se comparte entre la Costa del Golfo y los asentamientos del Altiplano. Las cejas flamígeras y las garras son rasgos de la iconografía felina olmeca. En esta etapa esa iconografía se plasmó en botellones y figurillas de la Cuenca. /  / Por eso es una vasija difícil de clasificar. Es un pez, pero también un lagarto y un jaguar. Es un recipiente, pero también una imagen. Así, un solo objeto reúne el agua, la tierra y el inframundo.
-
-**EN:** This vessel plays with a question: what animal is it? The answer is that it is several at once. It is called the Zoomorphic Fish and Lizard Vessel, and it is also known as a composite zoomorphic vessel. Zoomorphic means shaped like an animal. It comes from Tlapacoya, in the State of Mexico, and dates to the Middle Preclassic, between one thousand two hundred and six hundred years before Christ. It is made of dark-colored ceramic. It measures fourteen centimeters high, twenty-six point two long, and fifteen point five in diameter. /  / The general shape is that of a fish. That aquatic silhouette is the body of the vessel. But on that body, features of other animals appear. From the lizard and the jaguar come the exposed gums, the flame-shaped eyebrows, and the claws. Flame-shaped eyebrows are eyebrows in the form of flames. /  / The Basin of Mexico was a region of freshwater and brackish lakes, such as Zumpango, Xaltocan, Texcoco, Chalco, and Xochimilco. Its inhabitants fished and gathered waterfowl. Tlapacoya was one of the sites where the population grew in the Middle Preclassic. /  / To look at it, start with the full silhouette, the fish. Then look for the head and the exposed gums. Finally, notice the marked lines on the dark color. /  / Those lines are part of the decoration. Incision and sgraffito were used, which consists of scratching the clay with a point. That is why, besides the fish silhouette, you can see marked lines on the surface. /  / What does so much blending mean? It is an interpretation. It is proposed that the lizard and the jaguar represent the forces of the earth and the underworld. The fish represents the fertile water of the lakes. Together they unite those worlds in a single vessel. That reading fits the life of the communities who lived on the shores of the lakes of the Basin of Mexico. /  / The vessel also speaks of relations between regions. Its symbolism is shared between the Gulf Coast and the settlements of the Highlands. The flame-shaped eyebrows and the claws are features of Olmec feline iconography. In this period, that iconography was captured on bottle-shaped vessels and figurines of the Basin. /  / That is why it is a difficult vessel to classify. It is a fish, but also a lizard and a jaguar. It is a container, but also an image. In this way, a single object brings together water, earth, and the underworld.
-
-### retos_observacion
-
-**ES:** La silueta de pez que forma el cuerpo de la vasija / Encías expuestas y cejas flamígeras, rasgos de lagarto y de jaguar / Las garras y las líneas incisas sobre la superficie oscura
-
-**EN:** The fish silhouette that forms the body of the vessel / Exposed gums and flame-shaped eyebrows, features of the lizard and the jaguar / The claws and the incised lines on the dark surface
-
-### especificaciones
-
-**ES:** Cultura: Preclásico del Altiplano Central, con influencia olmeca / Periodo: Preclásico Medio (1200-600 a.C.) / Material: Cerámica, arcilla / Procedencia: Tlapacoya, Estado de México / Medidas: 0.14 m de alto x 0.262 m de largo x 0.155 m de diámetro
-
-**EN:** Culture: Preclassic Central Highlands, with Olmec influence / Period: Middle Preclassic (1200-600 BC) / Material: Ceramic, clay / Origin: Tlapacoya, State of Mexico / Dimensions: 0.14 m high x 0.262 m long x 0.155 m in diameter
-
-### faq_mito
-
-**ES:** pregunta: Mito: La vasija zoomorfa de Pez y Lagarto era una cantimplora utilitaria de pesca fabricada con moldes industriales. / respuesta: Realidad: Es un recipiente efigie híbrido que combina la silueta de un pez con rasgos de lagarto y de jaguar. Se interpreta como la unión de las fuerzas de la tierra y del inframundo con el agua fértil de los lagos.
-
-**EN:** pregunta: Myth: The zoomorphic Fish and Lizard vessel was a utilitarian fishing canteen made with industrial molds. / respuesta: Reality: It is a hybrid effigy vessel that combines the silhouette of a fish with features of a lizard and a jaguar. It is interpreted as the union of the forces of the earth and the underworld with the fertile water of the lakes.
-
-## Pieza: mna_s03_piramide_cuicuilco
-
-### titulo
-
-**ES:** Maqueta del Basamento Circular de Cuicuilco
-
-**EN:** Model of the Circular Platform of Cuicuilco
-
-### frase_gancho
-
-**ES:** El edificio redondo de Cuicuilco, enterrado por la lava del Xitle.
-
-**EN:** The round building of Cuicuilco, buried by the lava of Xitle.
-
-### puente_narrativo
-
-**ES:** Cerramos la sala con la maqueta del edificio principal de Cuicuilco: un basamento redondo y escalonado.
-
-**EN:** We close the hall with the model of Cuicuilco’s main building: a round, stepped platform.
-
-### guion_corto
-
-**ES:** Este edificio redondo medía más de cien metros de diámetro y unos veinte metros de altura. Lo que ves es una maqueta del Gran Basamento Circular de Cuicuilco, una recreación a escala de una construcción del Preclásico Tardío. Cuicuilco estaba en el sur de la Cuenca de México, en lo que hoy es la Ciudad de México. El basamento tenía cuatro cuerpos escalonados, de plantas circulares u ovaladas, con rampas y escalinatas para subir a la cima. Arriba había altares para ceremonias públicas. Era una pirámide de planta redonda, algo distinto de las pirámides cuadradas que vendrían después en Teotihuacan. Según la información de la sala, esta forma permitía hacer procesiones continuas alrededor de la estructura. El edificio original se levantó con cantos rodados, piedra volcánica y lodo. Hacia el año doscientos o trescientos después de Cristo, la erupción del volcán Xitle sepultó Cuicuilco bajo la lava.
-
-**EN:** This round building measured more than one hundred meters in diameter and about twenty meters in height. What you see is a model of the Great Circular Platform of Cuicuilco, a scale re-creation of a Late Preclassic construction. Cuicuilco was in the south of the Basin of Mexico, in what is today Mexico City. The platform had four stepped tiers, with circular or oval floor plans, with ramps and stairways to climb to the top. Above there were altars for public ceremonies. It was a pyramid with a round floor plan, something different from the square pyramids that would come later in Teotihuacan. According to the hall’s information, this shape allowed continuous processions around the structure. The original building was raised with river cobbles, volcanic stone, and mud. Around the year two hundred or three hundred AD, the eruption of the Xitle volcano buried Cuicuilco under lava.
-
-### guion_largo
-
-**ES:** Lo que estás viendo es una maqueta, una reproducción a escala. Representa el Gran Basamento Circular de Cuicuilco. Cuicuilco estaba en el sur de la Cuenca de México, en lo que hoy es la Ciudad de México. Es del Preclásico Tardío, aproximadamente entre ochocientos antes de Cristo y doscientos después de Cristo. El edificio original medía más de cien metros de diámetro en la base y unos veinte metros de altura. /  / Era un basamento piramidal, pero no como las pirámides de planta cuadrada de Teotihuacan o Tenochtitlan. Su planta era circular u ovalada, y tenía cuatro cuerpos escalonados. Contaba con rampas y escalinatas para subir hasta la cima, y arriba había altares. El núcleo se hizo con cantos rodados, piedra volcánica y lodo. /  / La forma circular tenía una ventaja, según se interpreta. Permitía hacer procesiones continuas alrededor de la estructura y alineaciones con el horizonte del valle. Los altares de la cima servían para ceremonias públicas, y se dice que también para mirar el cielo. /  / Para mirar la maqueta, recórrela con la vista desde la base hasta la cima. Cuenta los cuerpos escalonados. Busca después las rampas y las escalinatas que llevan arriba. /  / La Cuenca de México era un valle rodeado de sierras y volcanes. Entre ellos estaban el Popocatépetl, el Iztaccíhuatl y el Ajusco. Además tenía una red de lagos. Antes de estos edificios, las viviendas eran sencillas, de bajareque, con techos de paja. El bajareque son muros de madera y varas cubiertos de lodo. /  / Cuicuilco fue un centro urbano y religioso. Según la información de la sala, era el centro más importante del sur de la Cuenca, con sistemas de irrigación por canales. Se estima que llegó a tener veinte mil habitantes. En esta etapa las aldeas sencillas se convirtieron en centros con plazas, plataformas escalonadas y basamentos piramidales. Esos centros fueron sedes del poder político y religioso. /  / Todo cambió con el Xitle. Hacia el año doscientos o trescientos después de Cristo, ese volcán, ubicado en la ladera del Ajusco, entró en erupción. La lava sepultó Cuicuilco y sus campos agrícolas. Hoy forma el Pedregal de San Ángel. /  / Sin ciudad ni cultivos, la población abandonó el sitio. Muchas personas emigraron hacia el noreste de la Cuenca, y con ellas se fortaleció el asentamiento de Teotihuacan. Así se marcó la transición hacia el periodo Clásico urbano. /  / Esta maqueta no es el edificio original, sino una recreación hecha para la sala. Sirve para imaginar lo que la lava dejó cubierto.
-
-**EN:** What you are looking at is a model, a scale reproduction. It represents the Great Circular Platform of Cuicuilco. Cuicuilco was in the south of the Basin of Mexico, in what is today Mexico City. It dates to the Late Preclassic, roughly between eight hundred BC and two hundred AD. The original building measured more than one hundred meters in diameter at the base and about twenty meters in height. /  / It was a pyramidal platform, but not like the square-based pyramids of Teotihuacan or Tenochtitlan. Its floor plan was circular or oval, and it had four stepped tiers. It had ramps and stairways to climb to the top, and there were altars above. The core was made with river cobbles, volcanic stone, and mud. /  / The circular shape had an advantage, according to interpretations. It allowed continuous processions around the structure and alignments with the horizon of the valley. The altars at the top were used for public ceremonies, and it is said that they were also used to watch the sky. /  / To look at the model, run your eyes over it from the base to the top. Count the stepped tiers. Then look for the ramps and stairways that lead up. /  / The Basin of Mexico was a valley surrounded by mountain ranges and volcanoes. Among them were the Popocatépetl, the Iztaccíhuatl, and the Ajusco. It also had a network of lakes. Before these buildings, homes were simple, made of wattle and daub, with thatched roofs. Wattle and daub is a wall of wood and rods covered with mud. /  / Cuicuilco was an urban and religious center. According to the hall’s information, it was the most important center in the south of the Basin, with irrigation systems of canals. It is estimated to have reached twenty thousand inhabitants. In this stage, simple villages became centers with plazas, stepped platforms, and pyramidal platforms. Those centers were seats of political and religious power. /  / Everything changed with Xitle. Around the year two hundred or three hundred AD, that volcano, located on the slope of the Ajusco, erupted. The lava buried Cuicuilco and its farmland. Today it forms the Pedregal de San Ángel. /  / Without a city or crops, the population abandoned the site. Many people migrated to the northeast of the Basin, and with them the settlement of Teotihuacan grew stronger. This marked the transition to the urban Classic period. /  / This model is not the original building, but a re-creation made for the hall. It helps us imagine what the lava left covered.
-
-### retos_observacion
-
-**ES:** Los cuatro cuerpos escalonados de planta circular u ovalada / Las rampas y escalinatas que suben hacia la cima / La forma redonda del conjunto, distinta de las pirámides cuadradas
-
-**EN:** The four stepped tiers with circular or oval floor plans / The ramps and stairways that climb toward the top / The round shape of the whole, different from square pyramids
-
-### especificaciones
-
-**ES:** Cultura: Preclásico del Altiplano Central (Cuicuilco) / Periodo: Preclásico Tardío / Superior (800 a.C.-200 d.C.) / Material: Barro, cerámica (recreación a escala) / Procedencia: Cuicuilco, Ciudad de México
-
-**EN:** Culture: Preclassic of the Central Highlands (Cuicuilco) / Period: Late Preclassic / Upper (800 BC-200 AD) / Material: Clay, ceramic (scale re-creation) / Origin: Cuicuilco, Mexico City
-
-### faq_mito
-
-**ES:** pregunta: Mito: El Basamento Circular de Cuicuilco es un observatorio astronómico construido por fenicios o atlantes en el valle de México. / respuesta: Realidad: Lo construyeron los habitantes de Cuicuilco, en el sur de la Cuenca de México, durante el Preclásico Tardío. Era un basamento piramidal de planta circular, con rampas y altares para ceremonias públicas.
-
-**EN:** pregunta: Myth: The Circular Platform of Cuicuilco is an astronomical observatory built by Phoenicians or Atlanteans in the Valley of Mexico. / respuesta: Reality: It was built by the inhabitants of Cuicuilco, in the south of the Basin of Mexico, during the Late Preclassic. It was a pyramidal platform with a circular floor plan, with ramps and altars for public ceremonies.
-
-## Pieza: mna_s03_bailarina_cascabeles
-
-### titulo
-
-**ES:** Figurilla de Bailarina con Cascabeles
-
-**EN:** Dancer Figurine with Bells
-
-### frase_gancho
-
-**ES:** Danzante de barro que despierta la música de la vida.
-
-**EN:** A clay dancer who awakens the music of life.
-
-### puente_narrativo
-
-**ES:** Seguimos en Tlatilco con una figura en movimiento: una mujer que baila y cuya ropa suena con cada paso.
-
-**EN:** We stay in Tlatilco with a figure in motion: a woman who dances, her clothing sounding with every step.
-
-### guion_corto
-
-**ES:** Imagina una fiesta en una aldea de Tlatilco. Una mujer baila y su ropa suena con cada paso. Así se interpreta esta figurilla de barro, que es del Preclásico Medio y mide diez punto ocho centímetros de alto. Representa a una mujer en actitud de danza. En una mano sostiene una sonaja. Lleva una falda o pantalones abultados, cubiertos por completo de esferas. Esas esferas representan cascabeles de barro o semillas secas, ensartados en sartas. Según se interpreta, producían un sonido de percusión al ritmo del zapateado durante los festivales de la aldea. La figura es pequeña, de apenas tres centímetros y medio de ancho, pero invita a imaginar el ruido que hacía. Fue modelada a mano, con pastillaje, y conserva restos de pigmento. En Tlatilco también se hicieron esculturas de acróbatas, contorsionistas y jugadores de pelota.
-
-**EN:** Imagine a celebration in a village in Tlatilco. A woman dances, and her clothing sounds with every step. This is how this clay figurine is interpreted. It dates to the Middle Preclassic and measures ten point eight centimeters tall. It represents a woman in a dancing pose. In one hand she holds a rattle. She wears a bulging skirt or trousers, completely covered in spheres. Those spheres represent clay bells or dried seeds, strung on strands. According to the interpretation, they produced a percussive sound in rhythm with the footwork during village festivals. The figure is small, barely three and a half centimeters wide, but it invites you to imagine the noise it made. It was modeled by hand, with applied clay pellets, and still preserves traces of pigment. In Tlatilco, sculptures of acrobats, contortionists, and ball players were also made.
-
-### guion_largo
-
-**ES:** Esta figurilla guarda un sonido que ya no se escucha. Se llama Figurilla de Bailarina con Cascabeles. Es una pieza pequeña de cerámica, de Tlatilco, en el Estado de México, del Preclásico Medio, entre mil doscientos y seiscientos años antes de Cristo. Mide diez punto ocho centímetros de alto por tres y medio de ancho. /  / Veamos qué muestra. Es una figura femenina en actitud de danza o movimiento. En una mano sostiene una sonaja. Y viste una falda o unos pantalones abultados que están cubiertos por completo de esferas. Tiene la actitud de quien se mueve, no de quien posa. /  / Esas esferas son lo más llamativo. Representan cascabeles de barro o semillas secas, ensartados en sartas. Se interpreta que eran parte de un atavío ceremonial. Con cada paso del zapateado sonaban con un ritmo de percusión. La escena que sugiere la figura es la de un baile durante los festivales de la aldea. /  / Para mirarla, empieza por la sonaja, en la mano. Baja después a la falda y fíjate en cómo las esferas la cubren por completo. Imagina el sonido que harían todas juntas al moverse. /  / Para hacerla, el alfarero modeló el barro a mano. Aplicó pastillaje, es decir, pequeñas piezas de barro pegadas. Aún conserva restos de pigmento. Las esferas dan a las piernas ese aspecto abultado. /  / ¿Qué se sabe del sentido de esa danza? Muy poco de forma directa. No se sabe con precisión qué celebraba cada baile. Lo que muestra la figura es que la música y el movimiento eran parte de la vida de las aldeas. /  / En las aldeas de la Cuenca, las viviendas eran sencillas, de bajareque, es decir, de madera y varas cubiertas de lodo. El zapateado es un baile en el que se golpea el suelo con los pies. Por eso las esferas sonaban al ritmo de los pasos. /  / Esa vida se apoyaba en una economía mixta. Las comunidades cultivaban maíz, frijol, calabaza, chile y algodón. Completaban su alimentación con la caza y la pesca. En Tlatilco también se hicieron esculturas de acróbatas, contorsionistas y jugadores de pelota. Tlatilco no estaba solo: otras aldeas como Tlapacoya, Coapexco y Chalcatzingo también crecieron y se hicieron más complejas. /  / La bailarina se suma a esa galería de personajes. Es pequeña, pero su falda de esferas permite imaginar el sonido de una fiesta antigua.
-
-**EN:** This figurine holds a sound that can no longer be heard. It is called Dancer Figurine with Bells. It is a small ceramic piece from Tlatilco, in the State of Mexico, from the Middle Preclassic, between one thousand two hundred and six hundred years before Christ. It measures ten point eight centimeters tall by three and a half wide. /  / Let us see what it shows. It is a female figure in a pose of dance or movement. In one hand she holds a rattle. And she wears a bulging skirt or trousers that are completely covered in spheres. She has the bearing of someone in motion, not someone posing. /  / Those spheres are the most striking feature. They represent clay bells or dried seeds, strung on strands. They are interpreted as part of a ceremonial costume. With each step of the footwork, they sounded with a percussive rhythm. The scene the figure suggests is that of a dance during the village festivals. /  / To look at it, start with the rattle, in her hand. Then move down to the skirt and notice how the spheres cover it completely. Imagine the sound they would make all together as she moved. /  / To make it, the potter modeled the clay by hand. He applied pastillaje, that is, small pieces of clay stuck on. It still preserves traces of pigment. The spheres give the legs that bulging look. /  / What is known about the meaning of that dance? Very little directly. It is not known precisely what each dance celebrated. What the figure does show is that music and movement were part of village life. /  / In the villages of the Basin, the homes were simple, made of wattle and daub, that is, of wood and branches covered in mud. Footwork is a dance in which the feet strike the ground. That is why the spheres sounded in time with the steps. /  / That life was supported by a mixed economy. The communities grew maize, beans, squash, chili, and cotton. They supplemented their diet with hunting and fishing. In Tlatilco, sculptures of acrobats, contortionists, and ball players were also made. Tlatilco was not alone: other villages such as Tlapacoya, Coapexco, and Chalcatzingo also grew and became more complex. /  / The dancer joins that gallery of characters. She is small, but her skirt of spheres lets us imagine the sound of an ancient celebration.
-
-### retos_observacion
-
-**ES:** Falda o pantalones abultados cubiertos por completo de esferas / La sonaja que sostiene en una mano / Su actitud de danza, como si estuviera en pleno movimiento
-
-**EN:** Bulging skirt or trousers completely covered in spheres / The rattle she holds in one hand / Her dancing pose, as if she were in the middle of movement
-
-### especificaciones
-
-**ES:** Cultura: Preclásico del Altiplano Central / Periodo: Preclásico Medio (1200-600 a.C.) / Material: Cerámica, arcilla / Procedencia: Tlatilco, Estado de México / Medidas: 0.108 m de alto x 0.035 m de ancho
-
-**EN:** Culture: Preclassic of the Central Highlands / Period: Middle Preclassic (1200-600 BC) / Material: Ceramic, clay / Origin: Tlatilco, State of Mexico / Dimensions: 0.108 m tall x 0.035 m wide
-
-### faq_mito
-
-**ES:** pregunta: Mito: La figurilla de la Bailarina con Cascabeles es una estatua de bufón cómico fabricada para divertir a los reyes aztecas. / respuesta: Realidad: Es una figurilla de barro de una aldea del Preclásico Medio. Representa a una mujer en actitud de danza, con atavíos de cascabeles que sonaban durante los festivales aldeanos.
-
-**EN:** pregunta: Myth: The Dancer Figurine with Bells is a statue of a comic jester made to amuse the Aztec kings. / respuesta: Reality: It is a clay figurine from a Middle Preclassic village. It represents a woman in a dancing pose, wearing a costume of bells that sounded during village festivals.
-
-## Pieza: mna_s01_lucy_afarensis
-
-### titulo
-
-**ES:** Réplica del esqueleto de Lucy (Australopithecus afarensis)
-
-**EN:** Replica of Lucy’s Skeleton (Australopithecus afarensis)
-
-### frase_gancho
-
-**ES:** Una hembra de 1.20 metros que caminaba erguida hace 3.2 millones de años.
-
-**EN:** A 1.20-meter-tall female who walked upright 3.2 million years ago.
-
-### puente_narrativo
-
-**ES:** Empezamos por el principio: una de las especies más antiguas de la línea humana, antes de que nadie llegara a América.
-
-**EN:** We begin at the beginning: one of the oldest species on the human line, before anyone ever reached the Americas.
-
-### guion_corto
-
-**ES:** Hace 3.2 millones de años vivió una hembra que medía unos 1.20 metros y pesaba cerca de 30 kilos. Se la conoce como Lucy y pertenece a la especie Australopithecus afarensis. Su esqueleto fósil lo descubrió en noviembre de 1974 el investigador estadounidense Donald Johanson, en Hadar, Etiopía. Se recuperó cerca del 40 por ciento de los huesos. Lo que ves es una reconstrucción hecha por el Atelier Daynes, en París, en 1999, a partir de los restos originales. El análisis de la pelvis y de las extremidades inferiores mostró que caminaba erguida. Eso obligó a los especialistas a reorganizar el árbol evolutivo humano. En esta sala hay dos representaciones: una reconstrucción del cuerpo completo y, a pocos metros, el esqueleto montado.
-
-**EN:** 3.2 million years ago, a female lived who stood about 1.20 meters tall and weighed close to 30 kilos. She is known as Lucy, and she belongs to the species Australopithecus afarensis. Her fossil skeleton was discovered in November 1974 by the American researcher Donald Johanson, in Hadar, Ethiopia. About 40 percent of the bones were recovered. What you see is a reconstruction made by the Atelier Daynes, in Paris, in 1999, based on the original remains. Analysis of the pelvis and lower limbs showed that she walked upright. That forced specialists to reorganize the human evolutionary tree. In this hall there are two representations: a full-body reconstruction and, a few meters away, the mounted skeleton.
-
-### guion_largo
-
-**ES:** Hace 3.2 millones de años, en lo que hoy es Etiopía, vivió una hembra de una especie de homínidos bípedos. Los especialistas la llaman Australopithecus afarensis. Aquí se la conoce como Lucy. /  / Su esqueleto fósil lo descubrió en noviembre de 1974 el investigador estadounidense Donald Johanson, en Hadar, en África Oriental. Durante las excavaciones se recuperó cerca del 40 por ciento del esqueleto. /  / Lo que ves en esta sala no es el fósil, sino una reconstrucción. La hizo el Atelier Daynes, en París, en 1999, a partir de los restos fósiles originales. Medía unos 1.20 metros de estatura, y se calcula que pesaba cerca de 30 kilos en vida. /  / Hay una razón para que sea famosa. El análisis de la pelvis y de las extremidades inferiores mostró que caminaba erguida, sobre dos pies. Eso obligó a los especialistas a reorganizar el árbol evolutivo humano. /  / En esta sala hay dos representaciones complementarias. Una es la reconstrucción corporal en volumen completo, que recibe a los visitantes. A pocos metros está la réplica del esqueleto montado, donde se identifican las partes óseas originales que se encontraron. /  / Compara su estatura con la tuya. Así se mide la distancia entre esa especie y las civilizaciones que vas a conocer en las demás salas.
-
-**EN:** 3.2 million years ago, in what is now Ethiopia, there lived a female of a species of bipedal hominids. Specialists call her Australopithecus afarensis. Here she is known as Lucy. /  / Her fossil skeleton was discovered in November 1974 by the American researcher Donald Johanson, in Hadar, in East Africa. During the excavations, about 40 percent of the skeleton was recovered. /  / What you see in this hall is not the fossil, but a reconstruction. It was made by the Atelier Daynes, in Paris, in 1999, based on the original fossil remains. She stood about 1.20 meters tall, and it is estimated that she weighed close to 30 kilos in life. /  / There is a reason she is famous. Analysis of the pelvis and lower limbs showed that she walked upright, on two feet. That forced specialists to reorganize the human evolutionary tree. /  / In this hall there are two complementary representations. One is the full-volume body reconstruction, which greets visitors. A few meters away is the replica of the mounted skeleton, where the original bone parts that were found can be identified. /  / Compare her height with yours. This is how you measure the distance between that species and the civilizations you will meet in the other halls.
-
-### retos_observacion
-
-**ES:** Busca el esqueleto montado, donde se distinguen los huesos originales. / Mira la pelvis y las piernas: muestran que caminaba erguida. / Compara su estatura de 1.20 metros con la tuya.
-
-**EN:** Find the mounted skeleton, where the original bones can be distinguished. / Look at the pelvis and the legs: they show that she walked upright. / Compare her height of 1.20 meters with yours.
-
-### especificaciones
-
-**ES:** Cultura: Australopithecus afarensis, hembra homínida bípeda / Periodo: 3.2 millones de años; el fósil se descubrió en noviembre de 1974 / Material: Reconstrucción antropológica del Atelier Daynes (París, 1999) a partir de los restos fósiles / Procedencia: Hadar, Etiopía (África Oriental) / Medidas: 1.20 m de estatura aproximada; peso estimado en vida de 30 kg
-
-**EN:** Culture: Australopithecus afarensis, bipedal female hominid / Period: 3.2 million years; the fossil was discovered in November 1974 / Material: Anthropological reconstruction by the Atelier Daynes (Paris, 1999) based on the fossil remains / Origin: Hadar, Ethiopia (East Africa) / Dimensions: Approximately 1.20 m tall; estimated weight in life of 30 kg
-
-### faq_mito
-
-**ES:** pregunta: Mito: Lucy fue la primera mujer de nuestra especie, Homo sapiens. / respuesta: Realidad: Fue una hembra de Australopithecus afarensis, de hace 3.2 millones de años. Pertenece a una especie de homínidos bípedos del árbol evolutivo humano.
-
-**EN:** pregunta: Myth: Lucy was the first woman of our species, Homo sapiens. / respuesta: Reality: She was a female Australopithecus afarensis, from 3.2 million years ago. She belongs to a species of bipedal hominids on the human evolutionary tree.
-
-## Pieza: mna_s01_mural_tzompantli
-
-### titulo
-
-**ES:** Mural del Tzompantli de la Diversidad Humana
-
-**EN:** Mural of the Tzompantli of Human Diversity
-
-### frase_gancho
-
-**ES:** Un muro de cráneos que no habla de sacrificio, sino de lo que tenemos en común.
-
-**EN:** A wall of skulls that speaks not of sacrifice, but of what we have in common.
-
-### puente_narrativo
-
-**ES:** Pasamos de un entierro antiguo a un muro de cráneos, pero con otra intención: mostrar cómo somos de distintos y de iguales.
-
-**EN:** We move from an ancient burial to a wall of skulls, but with a different intention: to show how different and how alike we are.
-
-### guion_corto
-
-**ES:** Un tzompantli era un muro de cráneos. Este mural retoma esa imagen con un propósito distinto: mostrar la diversidad de la especie humana. Es una instalación museográfica permanente, de época contemporánea, en la sala de Introducción a la Antropología. Dispone reproducciones de cráneos y rasgos anatómicos que ilustran cómo las poblaciones humanas se adaptaron a ecosistemas muy distintos. Muestra, de forma didáctica, temas como la osteología, la variación de la forma del rostro, las adaptaciones al clima y las diferencias genéticas. Deja una idea central. Las diferencias físicas son notables, producto de la adaptación a climas y altitudes distintos. Aun así, todos pertenecemos a una misma especie, con una unidad genética profunda.
-
-**EN:** A Tzompantli was a wall of skulls. This mural takes up that image with a different purpose: to show the diversity of the human species. It is a permanent museum installation from the contemporary era, in the Introduction to Anthropology Hall. It displays reproductions of skulls and anatomical features that illustrate how human populations adapted to very different ecosystems. It shows, in an educational way, topics such as osteology, variation in the shape of the face, adaptations to climate, and genetic differences. It leaves one central idea. Physical differences are striking, the product of adaptation to different climates and altitudes. Even so, we all belong to a single species, with a deep genetic unity.
-
-### guion_largo
-
-**ES:** Un tzompantli era, en el mundo prehispánico, un muro de cráneos. Esta obra toma esa imagen y la usa con otro propósito. /  / Es una instalación museográfica permanente, de época contemporánea. Está en la sala de Introducción a la Antropología. No son cráneos reales de la época prehispánica, sino reproducciones: vaciados sintéticos de restos óseos, reproducciones craneométricas e infografías. /  / Retoma la metáfora visual del muro de cráneos para organizar una serie de reproducciones y de rasgos anatómicos. Con ellas se ilustra cómo se adaptaron físicamente las poblaciones humanas a los distintos ecosistemas del planeta. /  / Muestra, de forma didáctica, varios temas. La osteología, que es el estudio de los huesos. La variación de la forma del rostro. Las adaptaciones al clima. Y las diferencias genéticas. /  / La conclusión es visual. Hay diferencias físicas externas notables, generadas por la adaptación a climas y altitudes distintos. Aun así, todos los grupos humanos pertenecemos a una misma especie, con una unidad genética profunda. /  / Es una buena forma de empezar la visita. Antes de conocer a los pueblos de México, el museo recuerda que todos somos parte de una misma historia.
-
-**EN:** A Tzompantli was, in the pre-Hispanic world, a wall of skulls. This work takes that image and uses it for a different purpose. /  / It is a permanent museum installation from the contemporary era. It is in the Introduction to Anthropology Hall. These are not real skulls from the pre-Hispanic era, but reproductions: synthetic casts of bone remains, craniometric reproductions, and infographics. /  / It takes up the visual metaphor of the wall of skulls to organize a series of reproductions and anatomical features. With them, it illustrates how human populations physically adapted to the planet's different ecosystems. /  / It shows, in an educational way, several topics. Osteology, which is the study of bones. The variation in the shape of the face. Adaptations to climate. And genetic differences. /  / The conclusion is visual. There are striking external physical differences, generated by adaptation to different climates and altitudes. Even so, all human groups belong to a single species, with a deep genetic unity. /  / It is a good way to begin the visit. Before getting to know the peoples of Mexico, the museum reminds us that we are all part of one shared story.
-
-### retos_observacion
-
-**ES:** Busca las reproducciones de cráneos dispuestas como un muro. / Compara la forma del rostro entre unas y otras. / Piensa qué rasgos pueden venir de adaptarse al clima o a la altura.
-
-**EN:** Look for the reproductions of skulls arranged like a wall. / Compare the shape of the face from one skull to another. / Think about which features might come from adapting to climate or to altitude.
-
-### especificaciones
-
-**ES:** Cultura: Muestrario museográfico sobre la diversidad biológica de Homo sapiens / Periodo: Época contemporánea (instalación museográfica permanente) / Procedencia: Sala de Introducción a la Antropología, Museo Nacional de Antropología, Ciudad de México
-
-**EN:** Culture: Museum display on the biological diversity of Homo sapiens / Period: Contemporary era (permanent museum installation) / Origin: Introduction to Anthropology Hall, National Museum of Anthropology, Mexico City
-
-### faq_mito
-
-**ES:** pregunta: Mito: El Tzompantli de la Diversidad Humana está hecho con cráneos de guerreros sacrificados. / respuesta: Realidad: Es una instalación museográfica contemporánea, con reproducciones de cráneos y rasgos anatómicos, que muestra la unidad y la diversidad de nuestra especie.
-
-**EN:** pregunta: Myth: The Tzompantli of Human Diversity is made with the skulls of sacrificed warriors. / respuesta: Reality: It is a contemporary museum installation, with reproductions of skulls and anatomical features, that shows the unity and diversity of our species.
-
-## Pieza: mna_s02_mamut_iztapan
-
-### titulo
-
-**ES:** Recreación del Mamut de Santa Isabel Iztapan II
-
-**EN:** Recreation of the Santa Isabel Iztapan II Mammoth
-
-### frase_gancho
-
-**ES:** Un mamut atrapado en el barro de un lago, con las puntas de piedra que lo cazaron.
-
-**EN:** A mammoth trapped in the mud of a lake, together with the stone points that hunted it.
-
-### puente_narrativo
-
-**ES:** Empezamos el poblamiento de América en las orillas del antiguo lago de Texcoco, con una escena de cacería del Pleistoceno.
-
-**EN:** We begin the Peopling of the Americas on the shores of ancient Lake Texcoco, with a hunting scene from the Pleistocene.
-
-### guion_corto
-
-**ES:** Un mamut atrapado en el barro de las orillas de un lago: esa es la escena que recrea este diorama. Es el Mamut de Santa Isabel Iztapan II, de la especie Mammuthus imperator. Se halló en 1954, cerca de Santa Isabel Iztapan, en Texcoco, al noreste de la Cuenca de México. Es del Cenolítico Inferior, hacia el 9250 antes de Cristo. Junto a los huesos dispersos y a un cráneo volteado aparecieron herramientas de piedra, puntas de los tipos Lerma y Angostura. Con ellas el animal fue desollado, cortado y destazado. Este hallazgo mostró que los cazadores-recolectores de la Cuenca de México aprovechaban a los grandes animales hoy extintos.
-
-**EN:** A mammoth trapped in the mud on the shores of a lake: that is the scene this diorama recreates. This is the Santa Isabel Iztapan II Mammoth, of the species Mammuthus imperator. It was found in 1954, near Santa Isabel Iztapan, in Texcoco, in the northeast of the Basin of Mexico. It dates to the Lower Cenolithic, around 9250 BC. Alongside the scattered bones and an overturned skull, stone tools appeared: points of the Lerma and Angostura types. With them, the animal was skinned, cut up, and butchered. This find showed that the hunter-gatherers of the Basin of Mexico made use of the great animals that are now extinct.
-
-### guion_largo
-
-**ES:** Un mamut atrapado en el barro de las orillas de un lago. Así lo recrea este diorama. /  / Es el Mamut de Santa Isabel Iztapan II, de la especie Mammuthus imperator. Se descubrió en 1954, a 350 metros del Mamut I, que se había hallado en 1952. Ambos vienen de Santa Isabel Iztapan, en Texcoco, al noreste de la Cuenca de México. Pertenecen al Cenolítico Inferior, y los restos se fechan hacia el 9250 antes de Cristo. /  / Mira cómo se encontraron los restos. Los huesos estaban dispersos. El cráneo estaba volteado, y se piensa que se giró a propósito para extraer la masa cefálica. Junto a los huesos había herramientas de piedra en su lugar original, puntas de los tipos Lerma y Angostura. Con ellas el animal fue desollado, cortado y destazado. /  / Por eso este hallazgo es tan importante. Fue una prueba arqueológica muy clara de que los cazadores-recolectores de la Cuenca de México cazaban y aprovechaban a la megafauna extinta. /  / ¿Cómo lo cazaban? Se ha propuesto que usaban los márgenes fangosos del antiguo Lago de Texcoco. Con fuego o con ruido, conducían a mamuts viejos o lesionados hacia los pantanos. Quedaban atascados en el lodo, y así se les mataba con menos riesgo. /  / Piensa en la escena: un animal enorme, un lago, y personas con puntas de piedra que dependían de su ingenio para sobrevivir.
-
-**EN:** A mammoth trapped in the mud on the shores of a lake. That is what this diorama recreates. /  / This is the Santa Isabel Iztapan II Mammoth, of the species Mammuthus imperator. It was discovered in 1954, 350 meters from Mammoth I, which had been found in 1952. Both come from Santa Isabel Iztapan, in Texcoco, in the northeast of the Basin of Mexico. They belong to the Lower Cenolithic, and the remains are dated to around 9250 BC. /  / Look at how the remains were found. The bones were scattered. The skull was overturned, and it is thought that it was turned on purpose to extract the brain matter. Alongside the bones there were stone tools in their original place, points of the Lerma and Angostura types. With them, the animal was skinned, cut up, and butchered. /  / That is why this find is so important. It was very clear archaeological proof that the hunter-gatherers of the Basin of Mexico hunted and made use of the extinct megafauna. /  / How did they hunt it? It has been proposed that they used the muddy margins of ancient Lake Texcoco. With fire or with noise, they drove old or injured mammoths toward the marshes. The animals got stuck in the mud, and in this way they were killed with less risk. /  / Think about the scene: an enormous animal, a lake, and people with stone points who depended on their ingenuity to survive.
-
-### retos_observacion
-
-**ES:** Busca el cráneo volteado entre los huesos dispersos. / Encuentra las puntas de piedra Lerma y Angostura junto a los restos. / Imagina el terreno: el barro de la orilla del antiguo lago.
-
-**EN:** Look for the overturned skull among the scattered bones. / Find the Lerma and Angostura stone points next to the remains. / Imagine the terrain: the mud of the shore of the ancient lake.
-
-### especificaciones
-
-**ES:** Cultura: Cazadores-recolectores de la Etapa Lítica; especie Mammuthus imperator Leidy / Periodo: Cenolítico Inferior (9500-7000 a.C.) / Material: Osamenta fósil desmembrada de mamut, asociada a puntas de piedra Lerma y Angostura, integrada en un diorama / Procedencia: Santa Isabel Iztapan, Texcoco, Estado de México
-
-**EN:** Culture: Hunter-gatherers of the Lithic Stage; species Mammuthus imperator Leidy / Period: Lower Cenolithic (9500-7000 BC) / Material: Dismembered fossil mammoth skeleton, associated with Lerma and Angostura stone points, set into a diorama / Origin: Santa Isabel Iztapan, Texcoco, State of Mexico
-
-### faq_mito
-
-**ES:** pregunta: Mito: El mamut cayó en una trampa construida por los aztecas. / respuesta: Realidad: Los restos son del Cenolítico Inferior, hacia el 9250 antes de Cristo, miles de años antes de los aztecas. Los cazadores-recolectores lo aprovecharon con herramientas de piedra.
-
-**EN:** pregunta: Myth: The mammoth fell into a trap built by the Aztecs. / respuesta: Reality: The remains date to the Lower Cenolithic, around 9250 BC, thousands of years before the Aztecs. Hunter-gatherers made use of it with stone tools.
-
-## Pieza: mna_s02_sacro_tequixquiac
-
-### titulo
-
-**ES:** El Hueso Sacro de Tequixquiac
-
-**EN:** The Sacrum Bone of Tequixquiac
-
-### frase_gancho
-
-**ES:** Un hueso de camélido convertido en cabeza de coyote: la obra de arte más antigua registrada en América.
-
-**EN:** A camelid bone turned into a coyote’s head: the oldest recorded work of art in the Americas.
-
-### puente_narrativo
-
-**ES:** Pasamos de la cacería a la primera imagen: un hueso que alguien convirtió en la cabeza de un coyote.
-
-**EN:** We move from the hunt to the first image: a bone that someone turned into the head of a coyote.
-
-### guion_corto
-
-**ES:** Un hueso de un animal extinto que alguien convirtió en la cabeza de un coyote. Es el Hueso Sacro de Tequixquiac. El sacro es el hueso de la base de la columna. Este es de un camélido extinto, parecido a una llama, que vivió en el territorio de México durante el Pleistoceno. Quien lo trabajó aprovechó la forma natural del hueso. La acentuó con incisiones en sus cavidades, para que se leyera como la cabeza de un coyote o de un cánido. Viene de Tequixquiac, en el Estado de México, y se fecha entre 12,000 y 10,000 años antes de Cristo. Los especialistas la consideran la manifestación artística más antigua registrada en México y en todo el continente americano.
-
-**EN:** A bone from an extinct animal that someone turned into the head of a coyote. This is the Sacrum Bone of Tequixquiac. The sacrum is the bone at the base of the spine. This one comes from an extinct camelid, similar to a llama, that lived in the territory of Mexico during the Pleistocene. Whoever worked it took advantage of the bone’s natural shape. They accentuated its cavities with incisions, so that it would read as the head of a coyote or another canid. It comes from Tequixquiac, in the State of Mexico, and is dated between 12,000 and 10,000 years before Christ. Specialists consider it the oldest recorded artistic expression in Mexico and in the entire American continent.
-
-### guion_largo
-
-**ES:** Es una escultura, pero empezó siendo un hueso. El Hueso Sacro de Tequixquiac viene de un camélido extinto, una especie de llama que habitó el territorio mexicano. Su material es el sacro, el hueso que está en la base de la columna. /  / Los cazadores-recolectores de la Etapa Lítica lo trabajaron hace entre 12,000 y 10,000 años antes de Cristo. Viene de Tequixquiac, en el Estado de México, en la Cuenca de México. /  / Fíjate en lo que hicieron. Aprovecharon la forma natural del hueso. Acentuaron sus cavidades y orificios naturales con incisiones, para que representara la cabeza de un coyote o de un cánido. No tallaron desde cero. Vieron una forma en el hueso, y la subrayaron. /  / Por eso los especialistas la consideran la manifestación artística, escultórica y simbólica más antigua registrada en México y en todo el continente americano. /  / El sacro tuvo, en distintas culturas antiguas, un significado profundo. Se lo consideraba el hueso sagrado que sostenía la columna vertebral y el centro de la fuerza vital y de la procreación. /  / Una pieza pequeña, y con una idea grande: ya entonces había quien miraba un hueso y veía un animal.
-
-**EN:** It is a sculpture, but it began as a bone. The Sacrum Bone of Tequixquiac comes from an extinct camelid, a kind of llama that inhabited Mexican territory. Its material is the sacrum, the bone at the base of the spine. /  / The hunter-gatherers of the Lithic Stage worked it between 12,000 and 10,000 years before Christ. It comes from Tequixquiac, in the State of Mexico, in the Basin of Mexico. /  / Look at what they did. They took advantage of the bone’s natural shape. They accentuated its natural cavities and openings with incisions, so that it would represent the head of a coyote or another canid. They did not carve from scratch. They saw a shape in the bone, and they emphasized it. /  / That is why specialists consider it the oldest recorded artistic, sculptural, and symbolic expression in Mexico and in the entire American continent. /  / In various ancient cultures, the sacrum had a profound meaning. It was regarded as the sacred bone that held up the spinal column, and as the center of vital force and procreation. /  / A small piece, and a great idea: even then, there were people who looked at a bone and saw an animal.
-
-### retos_observacion
-
-**ES:** Busca la forma de la cabeza de un coyote en el hueso. / Fíjate en las incisiones que acentúan las cavidades naturales. / Piensa cuántos miles de años de antigüedad tiene esta obra.
-
-**EN:** Look for the shape of a coyote’s head in the bone. / Notice the incisions that accentuate the natural cavities. / Think about how many thousands of years old this work is.
-
-### especificaciones
-
-**ES:** Cultura: Cazadores-recolectores de la Etapa Lítica (Pleistoceno Superior) / Periodo: Pleistoceno Superior (12,000 a 10,000 a.C. aproximadamente) / Material: Hueso sacro fosilizado de camélido extinto (Camelops) / Procedencia: Tequixquiac, Estado de México
-
-**EN:** Culture: Hunter-gatherers of the Lithic Stage (Upper Pleistocene) / Period: Upper Pleistocene (approximately 12,000 to 10,000 BC) / Material: Fossilized sacrum bone of an extinct camelid (Camelops) / Origin: Tequixquiac, State of Mexico
-
-### faq_mito
-
-**ES:** pregunta: Mito: El Hueso Sacro de Tequixquiac es una escultura colonial hecha en un hueso de vaca. / respuesta: Realidad: Es una obra prehistórica, de entre 12,000 y 10,000 años antes de Cristo, hecha en el sacro de un camélido extinto.
-
-**EN:** pregunta: Myth: The Sacrum Bone of Tequixquiac is a colonial sculpture made from a cow bone. / respuesta: Reality: It is a prehistoric work, from between 12,000 and 10,000 years before Christ, made from the sacrum of an extinct camelid.
-
-## Pieza: mna_s02_puntas_clovis
-
-### titulo
-
-**ES:** Puntas de proyectil acanaladas tipo Clovis y Lerma
-
-**EN:** Fluted Clovis and Lerma Projectile Points
-
-### frase_gancho
-
-**ES:** Una ranura en la base distingue a las puntas Clovis.
-
-**EN:** A groove at the base sets Clovis points apart.
-
-### puente_narrativo
-
-**ES:** Cerramos con las herramientas que hicieron posible la cacería: puntas de piedra talladas por percusión y por presión.
-
-**EN:** We close with the tools that made hunting possible: stone points shaped by percussion and by pressure.
-
-### guion_corto
-
-**ES:** Una ranura en la base distingue a una punta Clovis. Es una acanaladura longitudinal, en una o en las dos caras, que facilitaba el ensamble firme con astiles de madera. La punta Clovis es de forma lanceolada. La de catálogo mide 8.2 centímetros de largo, 2 de ancho y 1 de espesor. La punta tipo Lerma, en cambio, es foliar o almendrada, de extremo agudo, con retoque en ambas caras y sin acanaladura profunda. Mide entre 4.5 y 7 centímetros de largo. Se tallaban en pedernal, sílex blanco o negro y obsidiana, con golpes primero y con retoque fino por presión después. Eran herramientas de cazadores-recolectores del Cenolítico Inferior, para cazar mamuts y bisontes.
-
-**EN:** A groove at the base sets a Clovis point apart. It is a longitudinal flute, on one or both faces, that made it easier to fit the point firmly onto wooden shafts. The Clovis point is lanceolate in shape. The one in the catalog measures 8.2 centimeters long, 2 wide and 1 thick. The Lerma-type point, by contrast, is leaf-shaped or almond-shaped, with a sharp tip, retouched on both faces and without a deep flute. It measures between 4.5 and 7 centimeters long. They were shaped from flint, white or black chert, and obsidian, first with blows and then with fine pressure retouching. They were tools of hunter-gatherers of the Lower Cenolithic, used to hunt mammoths and bison.
-
-### guion_largo
-
-**ES:** Estas puntas de piedra hicieron posible la caza mayor. Hay dos tipos, y se distinguen por la forma. /  / La punta Clovis es lanceolada. En la base de una o de las dos caras tiene una acanaladura longitudinal, es decir, una ranura. Esa ranura facilitaba el ensamble y el enmangue firme en astiles de madera. La de catálogo mide 8.2 centímetros de largo, 2 de ancho y 1 de espesor. Las puntas Clovis en general miden entre 7 y 15 centímetros. /  / Su nombre viene de Rancho Clovis, en Nuevo México, Estados Unidos, donde se descubrió el tipo. También se han hallado en el norte de México y en el Altiplano Central. Su producción tuvo su apogeo entre 10,000 y 9000 años antes de Cristo. /  / La punta tipo Lerma es distinta. Es foliar o almendrada, con extremo agudo y retoque en ambas caras, sin acanaladura profunda. Estaba diseñada para penetrar las duras pieles de mamuts y bisontes. Mide entre 4.5 y 7 centímetros de largo, y entre 2.8 y 3.8 de ancho. Viene de la tradición de la cuenca del río Lerma, y se halló en Santa Isabel Iztapan. /  / Se tallaban en pedernal, sílex blanco o negro y obsidiana. Primero se trabajaban a golpes, por percusión, y luego con un retoque fino por presión, en las dos caras. /  / Las puntas Clovis eran multifuncionales. Servían como proyectiles de lanzas arrojadizas, o lanzadas con atlatl, para cazar grandes mamíferos. Y al sacarlas del astil, podían usarse como cuchillos para procesar carne y cortar pieles.
-
-**EN:** These stone points made big-game hunting possible. There are two types, and they are told apart by their shape. /  / The Clovis point is lanceolate. At the base of one or both faces it has a longitudinal flute, that is, a groove. That groove made it easier to fit and haft the point firmly onto wooden shafts. The one in the catalog measures 8.2 centimeters long, 2 wide and 1 thick. Clovis points in general measure between 7 and 15 centimeters. /  / Its name comes from Clovis Ranch, in New Mexico, United States, where the type was discovered. They have also been found in northern Mexico and in the Central Highlands. Their production reached its peak between 10,000 and 9000 years before Christ. /  / The Lerma-type point is different. It is leaf-shaped or almond-shaped, with a sharp tip and retouching on both faces, without a deep flute. It was designed to pierce the tough hides of mammoths and bison. It measures between 4.5 and 7 centimeters long, and between 2.8 and 3.8 wide. It comes from the tradition of the Lerma River basin, and it was found at Santa Isabel Iztapan. /  / They were shaped from flint, white or black chert, and obsidian. First they were worked with blows, by percussion, and then with fine pressure retouching, on both faces. /  / Clovis points were multifunctional. They served as projectiles for thrown spears, or spears launched with an atlatl, to hunt large mammals. And once removed from the shaft, they could be used as knives to process meat and cut hides.
-
-### retos_observacion
-
-**ES:** Busca la ranura en la base de la punta Clovis. / Compara la forma lanceolada de la Clovis con la forma de hoja de la Lerma. / Mira el retoque fino en los dos lados de cada punta.
-
-**EN:** Look for the groove at the base of the Clovis point. / Compare the lanceolate shape of the Clovis point with the leaf shape of the Lerma point. / Look at the fine retouching on both sides of each point.
-
-### especificaciones
-
-**ES:** Cultura: Cazadores-recolectores preagrícolas de la Etapa Lítica / Periodo: Cenolítico Inferior (9500-7000 a.C.); apogeo de las puntas Clovis entre 10,000 y 9000 a.C. / Material: Pedernal, sílex blanco o negro y obsidiana / Procedencia: Tipo Clovis: Rancho Clovis, Nuevo México, con hallazgos en el norte de México y el Altiplano Central. Tipo Lerma: cuenca del río Lerma y Altiplano Central, incluido Santa Isabel Iztapan / Medidas: Punta Clovis de catálogo: 8.2 cm de largo x 2 cm de ancho x 1 cm de espesor. Puntas Lerma: 4.5 a 7 cm de largo x 2.8 a 3.8 cm de ancho
-
-**EN:** Culture: Pre-agricultural hunter-gatherers of the Lithic Stage / Period: Lower Cenolithic (9500-7000 BC); peak of Clovis points between 10,000 and 9000 BC / Material: Flint, white or black chert, and obsidian / Origin: Clovis type: Clovis Ranch, New Mexico, with finds in northern Mexico and the Central Highlands. Lerma type: Lerma River basin and the Central Highlands, including Santa Isabel Iztapan / Dimensions: Catalog Clovis point: 8.2 cm long x 2 cm wide x 1 cm thick. Lerma points: 4.5 to 7 cm long x 2.8 to 3.8 cm wide
-
-### faq_mito
-
-**ES:** pregunta: Mito: Las puntas Clovis se usaban solo para disparar a distancia. / respuesta: Realidad: Servían como puntas de lanzas arrojadizas, y al sacarlas del astil también podían usarse como cuchillos para procesar carne y cortar pieles.
-
-**EN:** pregunta: Myth: Clovis points were used only to shoot from a distance. / respuesta: Reality: They served as tips for thrown spears, and once removed from the shaft they could also be used as knives to process meat and cut hides.
-
-## Pieza: mna_s10_perros_colima
-
-### titulo
-
-**ES:** Perros cebados / Perros danzantes de Colima
-
-**EN:** Fattened Dogs / Dancing Dogs of Colima
-
-### frase_gancho
-
-**ES:** Perros de barro rojo que acompañaban a los muertos hacia el inframundo.
-
-**EN:** Red clay dogs that accompanied the dead on their way to the underworld.
-
-### puente_narrativo
-
-**ES:** Empieza el recorrido por el Occidente de México, donde los muertos se enterraban en tumbas subterráneas y se les acompañaba con figuras de barro. La primera es un perro.
-
-**EN:** The tour of West Mexico begins here, where the dead were buried in underground tombs and accompanied by clay figures. The first is a dog.
-
-### guion_corto
-
-**ES:** Les llaman perros danzantes, pero estos perros no bailan. Son perros cebados, es decir, bien gordos: tienen el cuerpo rechoncho, la piel lisa y el vientre abultado. Representan al xoloitzcuintli, el perro pelón de México. Los hizo la gente de Colima, en el Occidente, durante el periodo Clásico. Los modelaron a mano en barro y los pulieron hasta dejarlos de un rojo brillante. Algunos ejemplares llevan sobre el hocico una máscara con rostro humano. Se piensa que expresa una unión muy estrecha entre la persona y el animal. Estas figuras se dejaban en las tumbas de tiro, las cámaras subterráneas donde se enterraba a los muertos. Su tarea era acompañar y guiar el alma del difunto en su peligroso viaje hacia el inframundo. Detrás de su aspecto simpático había una misión muy seria.
-
-**EN:** People call them dancing dogs, but these dogs are not dancing. They are fattened dogs, that is, very plump ones: they have a chubby body, smooth skin and a rounded belly. They represent the xoloitzcuintli, Mexico’s hairless dog. They were made by the people of Colima, in the West, during the Classic period. They modeled them by hand in clay and polished them until they gleamed a bright red. Some examples wear a mask with a human face over the snout. It is thought to express a very close bond between the person and the animal. These figures were left in the shaft tombs, the underground chambers where the dead were buried. Their task was to accompany and guide the soul of the deceased on its dangerous journey to the underworld. Behind their friendly look lay a very serious mission.
-
-### guion_largo
-
-**ES:** El nombre popular de estas figuras engaña. Se les dice perros danzantes, y es fácil entender por qué: tienen el cuerpo redondo, la postura alegre y una cara que parece sonreír. Pero los arqueólogos las identifican como perros cebados, representaciones del xoloitzcuintli, el perro pelón autóctono de México. /  / Las hizo la gente de Colima, dentro de la tradición de las tumbas de tiro, durante el periodo Clásico. Las modelaron a mano en barro y después las pulieron con mucho cuidado, hasta que la superficie quedó de un rojo brillante. Fíjate en el cuerpo. Es rechoncho, de piel lisa y con el vientre abultado. Así se representaba al perro bien alimentado, el perro cebado que da nombre a la pieza. /  / Hay un rasgo que llama la atención en algunos ejemplares. Sobre el hocico llevan una máscara con rostro humano. Los especialistas la interpretan como una unión muy cercana entre la persona y el animal. Sería una especie de transformación en la que el perro toma algo de quien acompaña. /  / Para entender el sentido de estas figuras hay que bajar a las tumbas de tiro. Eran cámaras subterráneas, a las que se llegaba por un pozo vertical, y allí se enterraba a los muertos. Las figuras de barro se dejaban como ofrenda dentro de esas cámaras. La tarea de los perros era precisa: acompañar y guiar el alma del difunto en su tránsito hacia el inframundo, la región de los muertos. Se pensaba que ese viaje era peligroso, y nadie debía hacerlo solo. /  / Por eso el perro, el animal que acompaña a la gente en vida, era también el compañero ideal en la muerte. Hoy esos perros ya no están bajo tierra, sino a la vista de todos. Detrás de su aspecto simpático guardan una idea muy seria: que la muerte era un camino, y que se recorría acompañado.
-
-**EN:** The popular name of these figures is misleading. They are called dancing dogs, and it is easy to see why: they have round bodies, a cheerful stance and a face that seems to smile. But archaeologists identify them as fattened dogs, representations of the xoloitzcuintli, Mexico’s native hairless dog. /  / The people of Colima made them, within the shaft tomb tradition, during the Classic period. They modeled them by hand in clay and then polished them with great care, until the surface turned a bright red. Look at the body. It is chubby, with smooth skin and a rounded belly. This is how a well-fed dog was portrayed, the fattened dog that gives the piece its name. /  / There is one feature that draws attention in some examples. Over the snout they wear a mask with a human face. Specialists interpret it as a very close bond between the person and the animal. It would be a kind of transformation in which the dog takes on something of the one it accompanies. /  / To understand the meaning of these figures, we have to go down into the shaft tombs. They were underground chambers, reached by a vertical shaft, and the dead were buried there. The clay figures were left as offerings inside those chambers. The task of the dogs was precise: to accompany and guide the soul of the deceased on its passage to the underworld, the realm of the dead. That journey was thought to be dangerous, and no one should make it alone. /  / That is why the dog, the animal that keeps people company in life, was also the ideal companion in death. Today those dogs are no longer underground, but in plain view of everyone. Behind their friendly look they hold a very serious idea: that death was a road, and that it was traveled in company.
-
-### retos_observacion
-
-**ES:** Fíjate en el cuerpo rechoncho y en el vientre abultado del perro. / Mira el brillo del barro rojo, pulido a mano con mucho cuidado. / Busca si el hocico lleva una máscara con rostro humano.
-
-**EN:** Look at the dog’s chubby body and rounded belly. / Notice the shine of the red clay, polished by hand with great care. / See whether the snout wears a mask with a human face.
-
-### especificaciones
-
-**ES:** Cultura: Tradición Tumbas de Tiro / Colima / Periodo: Clásico (200 a.C.-600 d.C.) / Material: Barro (cerámica) modelado a mano y pulido, de color rojo brillante / Procedencia: Colima, México / Medidas: 20 cm de alto x 19 cm de ancho x 36 cm de largo
-
-**EN:** Culture: Shaft Tomb Tradition / Colima / Period: Classic (200 BC-600 AD) / Material: Clay (ceramic), hand-modeled and polished, bright red in color / Origin: Colima, Mexico / Dimensions: 20 cm high x 19 cm wide x 36 cm long
+**EN:** Culture: Shaft Tomb Tradition (associated with the Nayarit, Colima, and Jalisco cultures) / Period: Classic (200 BC-600 AD) / Material: Museum recreation with human skeletons, clay vessels, hollow and solid figurines, stone grinding slabs, conch shells, and shell ornaments; the original chambers were carved into volcanic tuff, a soft volcanic rock / Origin: Recreation based on archaeological contexts from Nayarit, Colima, and Jalisco
 
 > Aviso: el glosario pide "Shaft Tombs" para "Tumbas de Tiro" y no aparece
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Los perros danzantes de Colima representan perritos que bailan en una fiesta. / respuesta: Realidad: Son perros cebados, imágenes del xoloitzcuintli. Se dejaban en las tumbas de tiro como acompañantes y guías del alma del difunto hacia el inframundo.
+**ES:** pregunta: Mito: Una tumba de tiro se cerraba para siempre al terminar el entierro. / respuesta: Realidad: El pozo se sellaba con lajas de piedra y tierra, pero las familias podían reabrir la cámara años después para depositar a nuevos parientes.
 
-**EN:** pregunta: Myth: The dancing dogs of Colima represent little dogs dancing at a party. / respuesta: Reality: They are fattened dogs, images of the xoloitzcuintli. They were left in the shaft tombs as companions and guides for the soul of the deceased on the way to the underworld.
+**EN:** pregunta: Myth: A shaft tomb was sealed forever once the burial was over. / respuesta: Reality: The shaft was sealed with stone slabs and earth, but families could reopen the chamber years later to lay new relatives to rest.
 
-## Pieza: mna_s10_mujer_chupicuaro
+## Pieza: mna_s10_figura_mezcala
 
 ### titulo
 
-**ES:** Escultura femenina policromada de Chupícuaro
+**ES:** Escultura antropomorfa estilo Mezcala
 
-**EN:** Polychrome Female Sculpture from Chupícuaro
+**EN:** Anthropomorphic Sculpture in the Mezcala Style
 
 ### frase_gancho
 
-**ES:** Una figura de barro pintada con rombos, zigzags y ojos de grano de café.
+**ES:** Un rostro humano reducido a cortes rectos en piedra verde.
 
-**EN:** A clay figure painted with diamonds, zigzags, and coffee-bean eyes.
+**EN:** A human face reduced to straight cuts in green stone.
 
 ### puente_narrativo
 
-**ES:** Después de los perros de Colima, otra figura de barro del Occidente: una mujer de Chupícuaro, pintada de la cabeza a los pies con diseños geométricos.
+**ES:** Del barro de las tumbas pasamos a la piedra de Guerrero: una figura humana tallada con unos pocos planos y cortes rectos.
 
-**EN:** After the dogs of Colima, here is another clay figure from the West: a woman from Chupícuaro, painted from head to toe with geometric designs.
+**EN:** From the clay of the tombs we move on to the stone of Guerrero: a human figure carved with just a few planes and straight cuts.
 
 ### guion_corto
 
-**ES:** Mira sus ojos. Son largos y sesgados, como granos de café, un rasgo muy característico de las figuras de Chupícuaro. Es una mujer modelada en barro por la gente de Chupícuaro, un sitio de Acámbaro, Guanajuato, a orillas del río Lerma. La pintaron con rojo, negro y blanco sobre un fondo claro, en líneas en zigzag, rombos y diagonales. Se piensa que esos diseños representan pintura corporal, cicatrices decorativas o la ropa tradicional. Figuras como esta se asocian con el culto a la maternidad, a la fertilidad de la tierra y a los ritos funerarios. Se encontraron en cementerios cercanos a las aldeas. Hay un dato más. A mediados del siglo veinte, la Presa Solís dejó el sitio de Chupícuaro bajo el agua. Su cerámica pintada había tenido tanto impacto que influyó en comunidades del Altiplano Central.
+**ES:** ¿Se puede hacer un rostro con unos cuantos cortes rectos? Mira esta figura y decide tú. Es una escultura de estilo Mezcala, de la cuenca del río Balsas, en Guerrero, tallada en piedra dura, sobre todo serpentina verde. No hay músculos ni detalles realistas. Los rasgos del rostro y las extremidades solo se insinúan con planos rectos, aristas y acanaladuras. Para lograrlo, los escultores cortaban la piedra con sierras de cuerda y la desgastaban poco a poco. El estilo se desarrolló entre el Preclásico Tardío y el Clásico, es decir, entre 400 antes de Cristo y 600 después de Cristo. Mucho después, los teotihuacanos y los mexicas apreciaron tanto estas piezas que las sacaron de Guerrero y las enterraron en sus propios templos. Y en el siglo veinte, los artistas modernos encontraron en ellas un parecido sorprendente con la escultura abstracta.
 
-**EN:** Look at her eyes. They are long and slanted, like coffee beans, a very characteristic feature of the figures from Chupícuaro. She is a woman modeled in clay by the people of Chupícuaro, a site in Acámbaro, Guanajuato, on the banks of the Lerma River. They painted her in red, black, and white on a light background, in zigzag lines, diamonds, and diagonals. These designs are thought to represent body paint, decorative scars, or traditional clothing. Figures like this one are associated with the cult of motherhood, the fertility of the land, and funerary rites. They were found in cemeteries near the villages. There is one more detail. In the mid-twentieth century, the Solís Dam left the site of Chupícuaro under water. Its painted pottery had made such an impact that it influenced communities in the Central Highlands.
+**EN:** Can you make a face with just a few straight cuts? Look at this figure and decide for yourself. It is a sculpture in the Mezcala style, from the Balsas River basin, in Guerrero, carved from hard stone, mostly green serpentine. There are no muscles or realistic details. The features of the face and the limbs are only hinted at with straight planes, sharp edges, and grooves. To achieve this, the sculptors cut the stone with cord saws and wore it down little by little. The style developed between the Late Preclassic and the Classic, that is, between 400 BC and 600 AD. Much later, the Teotihuacán and the Mexica admired these pieces so much that they took them out of Guerrero and buried them in their own temples. And in the twentieth century, modern artists found in them a surprising resemblance to abstract sculpture.
 
 ### guion_largo
 
-**ES:** Esta mujer de barro viene de Chupícuaro, un sitio de Acámbaro, en Guanajuato, a orillas del río Lerma. Es obra de la cultura de Chupícuaro y pertenece al Preclásico Tardío. /  / Para hacerla, el alfarero combinó tres técnicas: modelado, pastillaje e incisión. Con el modelado dio forma al cuerpo. Con el pastillaje, que consiste en pegar pequeñas piezas de barro, añadió detalles en relieve. Con la incisión marcó líneas sobre la superficie. Después vino la pintura. Sobre un fondo claro aplicó rojo, negro y blanco, en zigzags, rombos y diagonales que cubren el cuerpo y el rostro. /  / Ahora fíjate en sus ojos. Son alargados y sesgados, con forma de grano de café, y son uno de los rasgos más reconocibles del estilo. Los especialistas piensan que los diseños pintados representan pintura corporal, cicatrices decorativas o ropa tradicional. Lo que parece pura geometría quizá era la manera en que la gente de Chupícuaro se pintaba y se vestía. /  / Figuras así eran mucho más que un adorno. Se asocian con el culto a la maternidad y a la fertilidad de la tierra, y con los ritos funerarios. Aparecen en cementerios cercanos a las aldeas. En una sociedad de aldeas, la fertilidad de la mujer y la de la tierra eran asuntos que iban juntos. /  / La historia reciente de Chupícuaro tiene un giro. A mediados del siglo veinte, la construcción de la Presa Solís, en Guanajuato, dejó el sitio sumergido. Su tradición de cerámica pintada ya había tenido tanto impacto que influyó en comunidades del Altiplano Central. Esta mujer de ojos de grano de café es una de las voces más claras de esa tradición.
+**ES:** Hay obras que dicen más con menos. Esta figura de estilo Mezcala es una de ellas. Viene de la cuenca del río Balsas, en el estado de Guerrero, y es una pieza de lapidaria, el arte de trabajar piedras duras. /  / El estilo Mezcala se desarrolló durante muchos siglos, desde el Preclásico Tardío hasta el Clásico, entre 400 antes de Cristo y 600 después de Cristo. Sus escultores trabajaron piedras duras, sobre todo serpentina verde y jadeíta. Una piedra así no se talla a golpes de cincel como una piedra blanda. Se desgasta, se corta con sierras de cuerda y se va puliendo poco a poco. /  / La figura muestra lo que hace tan reconocible a este estilo. El escultor no copia el cuerpo con realismo. La nariz, la boca y las extremidades se sugieren con planos rectos, aristas y acanaladuras, y el resto lo completa tu imaginación. Es una síntesis: lo esencial de una figura humana, sin nada que sobre. /  / Los pueblos antiguos de México ya valoraban estas piezas. Los teotihuacanos y los mexicas las traían de Guerrero y las enterraban en sus propios templos. Eso quiere decir que el estilo Mezcala era admirado mucho más allá de su región. /  / Muchos siglos después, en el siglo veinte, los artistas del arte moderno se sorprendieron. Esas figuras de líneas rectas se parecían a la escultura abstracta que ellos mismos buscaban. Así, una pieza tallada hace muchos siglos se volvió familiar para el ojo contemporáneo.
 
-**EN:** This clay woman comes from Chupícuaro, a site in Acámbaro, in Guanajuato, on the banks of the Lerma River. She is the work of the Chupícuaro culture and belongs to the Late Preclassic. /  / To make her, the potter combined three techniques: modeling, applied clay pellets, and incision. With modeling, he shaped the body. With applied pellets, which means attaching small pieces of clay, he added details in relief. With incision, he marked lines on the surface. Then came the paint. On a light background he applied red, black, and white, in zigzags, diamonds, and diagonals that cover the body and the face. /  / Now take a look at her eyes. They are elongated and slanted, shaped like a coffee bean, and they are one of the most recognizable features of the style. Specialists think the painted designs represent body paint, decorative scars, or traditional clothing. What looks like pure geometry may have been the way the people of Chupícuaro painted and dressed themselves. /  / Figures like this were much more than an ornament. They are associated with the cult of motherhood and the fertility of the land, and with funerary rites. They appear in cemeteries near the villages. In a society of villages, the fertility of women and the fertility of the land went hand in hand. /  / The recent history of Chupícuaro has a twist. In the mid-twentieth century, the construction of the Solís Dam, in Guanajuato, left the site submerged. Its painted pottery tradition had already made such an impact that it influenced communities in the Central Highlands. This woman with coffee-bean eyes is one of the clearest voices of that tradition.
+**EN:** Some works say more with less. This Mezcala-style figure is one of them. It comes from the Balsas River basin, in the state of Guerrero, and it is a lapidary piece, the art of working hard stones. /  / The Mezcala style developed over many centuries, from the Late Preclassic to the Classic, between 400 BC and 600 AD. Its sculptors worked hard stones, mostly green serpentine and jadeite. A stone like that cannot be carved with chisel blows the way a soft stone can. It is worn down, cut with cord saws, and polished little by little. /  / The figure shows what makes this style so recognizable. The sculptor does not copy the body realistically. The nose, the mouth, and the limbs are suggested with straight planes, sharp edges, and grooves, and your imagination completes the rest. It is a synthesis: the essence of a human figure, with nothing to spare. /  / The ancient peoples of Mexico already valued these pieces. The Teotihuacán and the Mexica brought them from Guerrero and buried them in their own temples. That means the Mezcala style was admired far beyond its own region. /  / Many centuries later, in the twentieth century, modern artists were surprised. Those figures with straight lines resembled the abstract sculpture they themselves were seeking. In this way, a piece carved many centuries ago became familiar to the contemporary eye.
 
 ### retos_observacion
 
-**ES:** Busca los ojos alargados y sesgados, parecidos a granos de café. / Sigue las líneas en zigzag, los rombos y las diagonales pintadas en el cuerpo. / Fíjate en los colores: rojo, negro y blanco sobre un fondo claro.
+**ES:** Busca las acanaladuras y aristas que sugieren el rostro y las extremidades. / Fíjate en los planos rectos que sustituyen al volumen redondeado del cuerpo. / Mira el verde de la piedra y piensa en lo duro que era trabajarla.
 
-**EN:** Look for the elongated, slanted eyes, like coffee beans. / Follow the zigzag lines, diamonds, and diagonals painted on the body. / Notice the colors: red, black, and white on a light background.
+**EN:** Look for the grooves and sharp edges that suggest the face and the limbs. / Notice the straight planes that take the place of the rounded volume of the body. / Look at the green of the stone and think about how hard it was to work.
 
 ### especificaciones
 
-**ES:** Cultura: Chupícuaro / Periodo: Preclásico Superior / Tardío (400 a.C.-200 d.C.) / Material: Barro (cerámica) policromado en rojo, negro y blanco sobre fondo claro; modelado, pastillaje e incisión / Procedencia: Chupícuaro, Acámbaro, Guanajuato (cuenca del río Lerma)
+**ES:** Cultura: Mezcala / Estilo Guerrero / Periodo: Preclásico Tardío a Clásico (400 a.C.-600 d.C.) / Material: Piedras duras (principalmente serpentina verde, metasedimentaria y jadeíta) / Procedencia: Cuenca del río Balsas / Mezcala, Guerrero
 
-**EN:** Culture: Chupícuaro / Period: Late Preclassic (400 BC-200 AD) / Material: Polychrome clay (ceramic) in red, black, and white on a light background; modeling, applied clay pellets, and incision / Origin: Chupícuaro, Acámbaro, Guanajuato (Lerma River basin)
+**EN:** Culture: Mezcala / Guerrero Style / Period: Late Preclassic to Classic (400 BC-600 AD) / Material: Hard stones (mainly green serpentine, metasedimentary rock, and jadeite) / Origin: Balsas River basin / Mezcala, Guerrero
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Esta figura de Chupícuaro era un simple adorno de casa. / respuesta: Realidad: Las figuras de Chupícuaro se asocian con el culto a la maternidad, con la fertilidad de la tierra y con los ritos funerarios. Se encontraron en cementerios cercanos a las aldeas.
+**ES:** pregunta: Mito: Esta figura es una pieza tosca, hecha sin terminar. / respuesta: Realidad: Su sencillez es el estilo. Los escultores de Mezcala trabajaron piedras duras y sintetizaron la figura humana con planos rectos, aristas y acanaladuras. Teotihuacanos y mexicas las apreciaron tanto que las enterraron en sus templos.
 
-**EN:** pregunta: Myth: This Chupícuaro figure was just a household decoration. / respuesta: Reality: The figures from Chupícuaro are associated with the cult of motherhood, the fertility of the land, and funerary rites. They were found in cemeteries near the villages.
+**EN:** pregunta: Myth: This figure is a crude piece, left unfinished. / respuesta: Reality: Its simplicity is the style. The Mezcala sculptors worked hard stones and distilled the human figure into straight planes, sharp edges, and grooves. The Teotihuacán and the Mexica admired these pieces so much that they buried them in their temples.
+
+## Pieza: mna_s10_chacmool_purepecha
+
+### titulo
+
+**ES:** Chac Mool Purépecha de Ihuatzio
+
+**EN:** Purépecha Chac Mool from Ihuatzio
+
+### frase_gancho
+
+**ES:** Un personaje reclinado de piedra, con un plato sobre el vientre.
+
+**EN:** A reclining stone figure with a plate on its belly.
+
+### puente_narrativo
+
+**ES:** Seguimos con la piedra, ahora en Michoacán: un personaje reclinado, tallado por los escultores purépechas con líneas angulares.
+
+**EN:** We continue with stone, now in Michoacán: a reclining figure, carved by Purépecha sculptors with angular lines.
+
+### guion_corto
+
+**ES:** Ihuatzio quiere decir lugar de coyotes. Estaba en la cuenca del lago de Pátzcuaro, en Michoacán, y fue una de las tres cabeceras del imperio purépecha, junto con Tzintzuntzan y Pátzcuaro. De allí viene esta escultura, un Chac Mool purépecha del Posclásico Tardío, tallado en piedra volcánica. El personaje se recuesta con la espalda y los codos apoyados y las piernas flexionadas. Sobre el abdomen sostiene un plato cuadrangular, que se interpreta como plato de ofrendas. Su rostro es rígido y lleva un tocado. Todo en él es geometría, con trazos angulares, la manera propia de los escultores purépechas. Los purépechas formaron un imperio poderoso que resistió los intentos de invasión de los mexicas. Esta figura es una forma de conocer a ese pueblo a través de su piedra.
+
+**EN:** Ihuatzio means place of coyotes. It stood in the Lake Pátzcuaro basin, in Michoacán, and was one of the three capitals of the Purépecha empire, along with Tzintzuntzan and Pátzcuaro. This sculpture comes from there, a Purépecha Chac Mool from the Late Postclassic, carved in volcanic stone. The figure reclines with its back and elbows propped up and its legs bent. On its abdomen it holds a square plate, interpreted as an offering plate. Its face is rigid, and it wears a headdress. Everything about it is geometry, with angular lines, the signature style of Purépecha sculptors. The Purépecha built a powerful empire that resisted the Mexica attempts at invasion. This figure is a way to get to know that people through their stone.
+
+### guion_largo
+
+**ES:** El nombre de este lugar ya es una imagen: Ihuatzio, lugar de coyotes. Estaba a orillas del lago de Pátzcuaro, en Michoacán, y fue una de las tres cabeceras políticas del imperio purépecha. Las otras dos eran Tzintzuntzan y Pátzcuaro. /  / De ese centro viene esta escultura. Se le llama Chac Mool, el nombre con que se conoce a un tipo de figura reclinada, y esta es la versión purépecha. El personaje se recuesta apoyando la espalda y los codos, con las piernas flexionadas. Sobre el abdomen sostiene un plato cuadrangular, que se interpreta como plato de ofrendas. Su rostro es rígido y lleva un tocado. /  / El estilo es lo que la distingue. Está tallada en piedra volcánica, con trazos angulares, y todo en ella es geometría y rigidez. Los especialistas reconocen allí la manera de la escuela de escultura purépecha. Los purépechas, que vivían en la cuenca del lago de Pátzcuaro, tenían su propio lenguaje en la piedra. /  / Detrás de la piedra hay un pueblo con una historia particular. Los purépechas formaron un imperio poderoso en el Occidente, con sus centros principales alrededor del lago. Resistieron los intentos de invasión de los mexicas. Su periodo de mayor fuerza fue el Posclásico Tardío, entre 1250 y 1521 después de Cristo. /  / Esta figura reclinada, con su plato y su gesto severo, es una manera de conocer a ese pueblo a través de su piedra.
+
+**EN:** The name of this place is already an image: Ihuatzio, place of coyotes. It stood on the shores of Lake Pátzcuaro, in Michoacán, and was one of the three political capitals of the Purépecha empire. The other two were Tzintzuntzan and Pátzcuaro. /  / This sculpture comes from that center. It is called a Chac Mool, the name given to a type of reclining figure, and this is the Purépecha version. The figure reclines, resting on its back and elbows, with its legs bent. On its abdomen it holds a square plate, interpreted as an offering plate. Its face is rigid, and it wears a headdress. /  / Style is what sets it apart. It is carved in volcanic stone, with angular lines, and everything about it is geometry and rigidity. Specialists recognize in it the manner of the Purépecha school of sculpture. The Purépecha, who lived in the Lake Pátzcuaro basin, had their own language in stone. /  / Behind the stone stands a people with a particular history. The Purépecha built a powerful empire in western Mexico, with their main centers around the lake. They resisted the Mexica attempts at invasion. Their period of greatest strength was the Late Postclassic, between 1250 and 1521 AD. /  / This reclining figure, with its plate and its stern expression, is a way to get to know that people through their stone.
+
+### retos_observacion
+
+**ES:** Busca el plato cuadrangular que el personaje sostiene sobre el abdomen. / Fíjate en el tocado y en el rostro rígido del personaje. / Sigue los trazos angulares con que se talló la piedra.
+
+**EN:** Look for the square plate that the figure holds on its abdomen. / Notice the figure’s headdress and rigid face. / Follow the angular lines with which the stone was carved.
+
+### especificaciones
+
+**ES:** Cultura: Tarasca / Purépecha / Periodo: Posclásico Tardío (1250-1521 d.C.) / Material: Piedra (basalto / roca volcánica) / Procedencia: Ihuatzio, Michoacán (zona arqueológica de Ihuatzio, cuenca del lago de Pátzcuaro)
+
+**EN:** Culture: Tarascan / Purépecha / Period: Late Postclassic (1250-1521 AD) / Material: Stone (basalt / volcanic rock) / Origin: Ihuatzio, Michoacán (Ihuatzio archaeological zone, Lake Pátzcuaro basin)
+
+### faq_mito
+
+**ES:** pregunta: Mito: Todo Chac Mool es una escultura maya. / respuesta: Realidad: Esta figura es purépecha. Viene de Ihuatzio, en Michoacán, y tiene el estilo geométrico y rígido de los escultores purépechas.
+
+**EN:** pregunta: Myth: Every Chac Mool is a Maya sculpture. / respuesta: Reality: This figure is Purépecha. It comes from Ihuatzio, in Michoacán, and has the geometric, rigid style of Purépecha sculptors.
+
+## Pieza: mna_s10_guerrero_jalisco
+
+### titulo
+
+**ES:** Guerrero con armadura de cestería y garrote
+
+**EN:** Warrior with Basketry Armor and Club
+
+### frase_gancho
+
+**ES:** Un guerrero de barro con casco, armadura de cestería y garrote en guardia.
+
+**EN:** A clay warrior with a helmet, basketry armor, and a club held on guard.
+
+### puente_narrativo
+
+**ES:** Dejamos Michoacán y volvemos a las tumbas de tiro con un guardián de barro: un guerrero con armadura que acompañaba al muerto.
+
+**EN:** We leave Michoacán and return to the shaft tombs with a clay guardian: an armored warrior who accompanied the dead.
+
+### guion_corto
+
+**ES:** Fue una de las primeras piezas del Occidente que llegaron a las colecciones del museo. Es un guerrero de barro de la tradición de las tumbas de tiro, hecho en la región de Colima y Jalisco durante el periodo Clásico. Está erguido, en guardia, y sostiene un garrote con las dos manos. Lleva un casco en la cabeza y el cuerpo protegido por una armadura de cestería, tejida con fibras vegetales. Es una figura hueca, modelada en barro de tono rojizo. Parece un soldado listo para pelear, pero su lugar no era un campo de batalla. Estas figuras se colocaban en el fondo de las tumbas de tiro. Se piensa que allí eran defensores simbólicos del difunto, guardianes de su alma frente a las fuerzas del inframundo.
+
+**EN:** It was one of the first pieces from the West to reach the museum’s collections. It is a clay warrior from the Shaft Tomb Tradition, made in the Colima and Jalisco region during the Classic period. He stands upright, on guard, holding a club with both hands. He wears a helmet on his head and his body is protected by basketry armor, woven from plant fibers. It is a hollow figure, modeled in reddish clay. He looks like a soldier ready to fight, but his place was not a battlefield. These figures were placed at the bottom of the shaft tombs. It is believed that there they were symbolic defenders of the deceased, guardians of the soul against the forces of the underworld.
+
+### guion_largo
+
+**ES:** Este guerrero tiene un lugar especial en la historia del museo. Fue una de las primeras piezas del Occidente de México en entrar a sus colecciones. Es obra de la tradición de las tumbas de tiro, en la región de Colima y Jalisco, y pertenece al periodo Clásico. /  / Es una figura de barro, modelada a mano, hueca por dentro y de tono rojizo, con un acabado pulido. El artista se detuvo en el equipo del personaje. Lleva un casquete protector en la cabeza. El cuerpo va cubierto por una armadura de cestería, hecha de fibras vegetales entrelazadas. Con las dos manos sostiene un garrote, y su postura erguida es de alerta, lista para el combate. Por su atuendo se piensa que representa a un oficial o a un guerrero de la élite. /  / La armadura de cestería es un detalle muy valioso. Era una protección hecha con materiales que casi nunca sobreviven. Aquí el barro conservó la forma de un tejido que desapareció hace siglos. /  / Queda una pregunta: ¿qué hacía un guerrero en una tumba? Estas figuras se depositaban en el fondo de las tumbas de tiro, las cámaras subterráneas del Occidente. Se piensa que eran defensores simbólicos del muerto y guardianes de su alma frente a las fuerzas del inframundo. Su misión no era pelear con enemigos humanos, sino vigilar. /  / Hoy sigue en guardia, con su garrote en las manos y su armadura de fibras tejida en barro.
+
+**EN:** This warrior has a special place in the history of the museum. It was one of the first pieces from the West of Mexico to enter its collections. It is a work of the Shaft Tomb Tradition, from the Colima and Jalisco region, and belongs to the Classic period. /  / It is a clay figure, modeled by hand, hollow inside and reddish in tone, with a polished finish. The artist lingered over the character’s equipment. He wears a protective cap on his head. His body is covered by basketry armor, made of interwoven plant fibers. He holds a club with both hands, and his upright posture is one of alertness, ready for combat. From his attire, it is believed that he represents an officer or an elite warrior. /  / The basketry armor is a very valuable detail. It was protection made from materials that almost never survive. Here the clay preserved the form of a weaving that vanished centuries ago. /  / A question remains: what was a warrior doing in a tomb? These figures were placed at the bottom of the shaft tombs, the underground chambers of the West. It is believed that they were symbolic defenders of the dead and guardians of the soul against the forces of the underworld. His mission was not to fight human enemies, but to keep watch. /  / Today he remains on guard, with his club in his hands and his armor of fibers woven in clay.
+
+### retos_observacion
+
+**ES:** Busca el entramado de fibras que forma la armadura del cuerpo. / Encuentra el casco que protege la cabeza del guerrero. / Fíjate en cómo sostiene el garrote con las dos manos.
+
+**EN:** Look for the weave of fibers that forms the armor on the body. / Find the helmet that protects the warrior’s head. / Notice how he holds the club with both hands.
+
+### especificaciones
+
+**ES:** Cultura: Tradición Tumbas de Tiro / Colima - Jalisco / Periodo: Clásico (200 a.C.-600 d.C.) / Material: Barro (cerámica) modelado, de tono rojizo / Procedencia: Occidente de México (región de Colima / Jalisco)
+
+**EN:** Culture: Shaft Tomb Tradition / Colima - Jalisco / Period: Classic (200 BC-600 AD) / Material: Modeled clay (ceramic), reddish in tone / Origin: West of Mexico (Colima / Jalisco region)
+
+> Aviso: el glosario pide "Shaft Tombs" para "Tumbas de Tiro" y no aparece
+
+### faq_mito
+
+**ES:** pregunta: Mito: Esta figura es una escena de batalla, un soldado listo para pelear. / respuesta: Realidad: No era una escena de guerra. Estas figuras se colocaban en las tumbas de tiro, donde se piensa que protegían simbólicamente al difunto frente a las fuerzas del inframundo.
+
+**EN:** pregunta: Myth: This figure is a battle scene, a soldier ready to fight. / respuesta: Reality: It was not a scene of war. These figures were placed in the shaft tombs, where it is believed they symbolically protected the deceased from the forces of the underworld.
+
+## Pieza: mna_s10_pareja_ixtlan
+
+### titulo
+
+**ES:** Pareja conyugal de Ixtlán del Río
+
+**EN:** Married Couple from Ixtlán del Río
+
+### frase_gancho
+
+**ES:** Un hombre y una mujer de Nayarit, juntos incluso en la tumba.
+
+**EN:** A man and a woman from Nayarit, together even in the tomb.
+
+### puente_narrativo
+
+**ES:** Otra figura de las tumbas de tiro, pero ahora en pareja: un hombre y una mujer de Nayarit, pintados y adornados con detalle.
+
+**EN:** Another figure from the shaft tombs, but this time a couple: a man and a woman from Nayarit, painted and adorned in fine detail.
+
+### guion_corto
+
+**ES:** Un hombre y una mujer sentados uno junto al otro, como en cualquier casa. Pero esta escena no era de una casa, sino de una tumba. Es la pareja de Ixtlán del Río, en Nayarit, modelada en barro policromado en la tradición de las tumbas de tiro, durante el periodo Clásico. Él lleva un casquete con abultamientos, pectorales y un abanico o una sonaja. Ella viste faldellín y un peinado muy estructurado, y apoya las manos sobre el vientre. Los dos tienen pintura geométrica en el rostro y en el cuerpo, y múltiples aros en las orejas y la nariz. Se piensa que representan la unidad de la familia, el complemento entre hombre y mujer y la continuidad del linaje. Colocarlos en la cámara subterránea era una forma de conservar la posición social y la compañía de la pareja después de la muerte.
+
+**EN:** A man and a woman sitting side by side, as in any home. But this scene did not belong to a home. It belonged to a tomb. This is the couple from Ixtlán del Río, in Nayarit, modeled in polychrome clay in the shaft tomb tradition, during the Classic period. He wears a cap with raised bumps, chest ornaments, and a fan or a rattle. She wears a short skirt and a highly structured hairstyle, and rests her hands on her belly. Both have geometric paint on their faces and bodies, and multiple rings in their ears and noses. They are thought to represent the unity of the family, the complementary roles of man and woman, and the continuity of the lineage. Placing them in the underground chamber was a way of preserving the couple's social standing and companionship after death.
+
+> Aviso: el glosario pide "Shaft Tombs" para "Tumbas de Tiro" y no aparece
+
+### guion_largo
+
+**ES:** Ixtlán del Río, en el estado de Nayarit, da su nombre a un estilo de escultura de barro muy reconocible. Esta pareja pertenece a esa tradición de las tumbas de tiro y es del periodo Clásico. /  / Cada figura se modeló en barro y se decoró con varios colores. Lleva pintura facial y corporal geométrica, adornos en forma de aro en las orejas y la nariz, y tocados modelados. /  / El hombre lleva un casquete con abultamientos, pectorales y un abanico o una sonaja. La mujer viste un faldellín y tiene un peinado muy elaborado. Su cuerpo está cubierto de pintura geométrica, lleva varios aros en las orejas y en la nariz, y apoya las manos sobre el vientre. Estos pequeños detalles dicen mucho de cómo se vestían y se adornaban las personas del Occidente. /  / Los dos están sentados juntos. Se piensa que la pareja representa la unidad de la familia, el complemento entre hombre y mujer y la continuidad del linaje. El estilo de Nayarit llama la atención por su expresividad y su gusto por las escenas de la vida cotidiana. /  / Su lugar, sin embargo, estaba bajo tierra. Figuras así se colocaban en las cámaras subterráneas de las tumbas de tiro, junto al difunto. Así se aseguraba que el rango social y la compañía de la pareja continuaran en la existencia después de la muerte. /  / Por eso, esta pareja no es un retrato para mostrar en una casa. Son dos figuras que se hicieron para que nadie estuviera solo en el otro mundo.
+
+**EN:** Ixtlán del Río, in the state of Nayarit, gives its name to a highly recognizable style of clay sculpture. This couple belongs to that shaft tomb tradition and dates to the Classic period. /  / Each figure was modeled in clay and decorated with several colors. It has geometric face and body paint, ring-shaped ornaments in the ears and nose, and modeled headdresses. /  / The man wears a cap with raised bumps, chest ornaments, and a fan or a rattle. The woman wears a short skirt and has a very elaborate hairstyle. Her body is covered in geometric paint, she wears several rings in her ears and nose, and she rests her hands on her belly. These small details say a great deal about how the people of Western Mexico dressed and adorned themselves. /  / The two are seated together. The couple is thought to represent the unity of the family, the complementary roles of man and woman, and the continuity of the lineage. The Nayarit style stands out for its expressiveness and its fondness for scenes of everyday life. /  / Their place, however, was underground. Figures like these were placed in the underground chambers of the shaft tombs, next to the deceased. In this way, the couple's social rank and companionship were ensured to continue in existence after death. /  / That is why this couple is not a portrait meant to be displayed in a home. They are two figures made so that no one would be alone in the other world.
+
+### retos_observacion
+
+**ES:** Busca los aros que adornan las orejas y la nariz de la mujer. / Fíjate en la pintura geométrica que cubre el rostro y el cuerpo. / Busca el abanico o la sonaja que porta el hombre.
+
+**EN:** Look for the rings that adorn the woman’s ears and nose. / Notice the geometric paint covering the face and body. / Look for the fan or rattle that the man carries.
+
+### especificaciones
+
+**ES:** Cultura: Tradición Tumbas de Tiro / Nayarit (estilo Ixtlán del Río) / Periodo: Clásico (200 a.C.-600 d.C.) / Material: Barro (cerámica) policromado con pintura facial y corporal geométrica, adornos de aro en orejas y nariz, y tocados modelados / Procedencia: Ixtlán del Río, Nayarit, México
+
+**EN:** Culture: Shaft Tomb Tradition / Nayarit (Ixtlán del Río style) / Period: Classic (200 BC-600 AD) / Material: Polychrome clay (ceramic) with geometric face and body paint, ring ornaments in the ears and nose, and modeled headdresses / Origin: Ixtlán del Río, Nayarit, Mexico
+
+> Aviso: el glosario pide "Shaft Tombs" para "Tumbas de Tiro" y no aparece
+
+### faq_mito
+
+**ES:** pregunta: Mito: Esta pareja era una decoración para las casas de la época. / respuesta: Realidad: Figuras así se colocaban dentro de las cámaras de las tumbas de tiro, junto al difunto, para que el rango social y la compañía de la pareja continuaran después de la muerte.
+
+**EN:** pregunta: Myth: This couple was a decoration for homes of the time. / respuesta: Reality: Figures like these were placed inside the chambers of the shaft tombs, next to the deceased, so that the couple’s social rank and companionship would continue after death.
+
+## Pieza: mna_s10_vasija_capacha
+
+### titulo
+
+**ES:** Vasija con asa de estribo del Complejo Capacha
+
+**EN:** Stirrup-Handle Vessel from the Capacha Complex
+
+### frase_gancho
+
+**ES:** Una vasija de dos cuerpos unidos por tubos, con parientes en Ecuador.
+
+**EN:** A vessel of two bodies joined by tubes, with relatives in Ecuador.
+
+### puente_narrativo
+
+**ES:** Retrocedemos al Preclásico Temprano, con una de las cerámicas más antiguas del Occidente: una vasija de doble cuerpo.
+
+**EN:** We go back to the Early Preclassic, with one of the oldest ceramics of West Mexico: a double-bodied vessel.
+
+### guion_corto
+
+**ES:** Esta vasija es de las más antiguas del Occidente de México. Es del Complejo Capacha, de Colima, del Preclásico Temprano, entre 1500 y 1000 antes de Cristo. Capacha es el nombre de la antigua hacienda donde se halló el sitio tipo, y esta tradición se difundió hacia Jalisco y Michoacán. La vasija tiene doble cuerpo, un diseño llamado bule. Un depósito superior globular se comunica con el inferior mediante dos o tres tubos verticales, que forman un asa de estribo. Es de arcilla café oscuro o negra pulida, con incisiones finas y campos punteados. Esa configuración es única en el México prehispánico temprano. Algunos especialistas proponen que se parece a cerámicas contemporáneas de Ecuador, como las de Valdivia y Machalilla.
+
+**EN:** This vessel is among the oldest of West Mexico. It belongs to the Capacha Complex, from Colima, from the Early Preclassic, between 1500 and 1000 BC. Capacha is the name of the old hacienda where the type site was found, and this tradition spread toward Jalisco and Michoacán. The vessel has a double body, a design called a bule. A globular upper chamber connects to the lower one by two or three vertical tubes, which form a stirrup handle. It is made of polished dark brown or black clay, with fine incisions and stippled fields. That configuration is unique in early pre-Hispanic Mexico. Some specialists propose that it resembles contemporary ceramics from Ecuador, such as those of Valdivia and Machalilla.
+
+### guion_largo
+
+**ES:** Dos cuerpos unidos por tubos: así es esta vasija. Es del Complejo Capacha, de Colima, y es del Preclásico Temprano, entre 1500 y 1000 antes de Cristo. Es una de las tradiciones alfareras más antiguas registradas en el Occidente de México. /  / Capacha es el nombre de una antigua hacienda de Colima, donde se halló el sitio tipo. Desde ahí, la tradición se difundió hacia Jalisco y Michoacán. /  / Mira el diseño. Es una vasija de doble cuerpo, llamada bule. Un depósito superior globular se comunica con el inferior mediante dos o tres tubos verticales. Esos tubos forman un asa de estribo. /  / La superficie es de arcilla café oscuro o negra, pulida. Está decorada con franjas incisas de motivos geométricos, rombos y cruces, y con campos punteados. Son líneas finas, hechas con un instrumento sobre el barro todavía blando. /  / Esta forma de tubos comunicantes y asa de estribo es única en el mapa prehispánico temprano de México. Y hay una coincidencia sorprendente. Se parece a cerámicas de la misma época del área andina de Sudamérica, como las culturas Valdivia y Machalilla, en Ecuador. Algunos especialistas proponen que eso sugiere tempranos intercambios por el Océano Pacífico. Es una hipótesis. /  / Una vasija tan antigua, y ya con una forma tan compleja.
+
+**EN:** Two bodies joined by tubes: that is what this vessel is. It belongs to the Capacha Complex, from Colima, and it dates to the Early Preclassic, between 1500 and 1000 BC. It is one of the oldest pottery traditions recorded in West Mexico. /  / Capacha is the name of an old hacienda in Colima, where the type site was found. From there, the tradition spread toward Jalisco and Michoacán. /  / Look at the design. It is a double-bodied vessel, called a bule. A globular upper chamber connects to the lower one by two or three vertical tubes. Those tubes form a stirrup handle. /  / The surface is made of dark brown or black clay, polished. It is decorated with incised bands of geometric motifs, diamonds and crosses, and with stippled fields. These are fine lines, made with an instrument on clay that was still soft. /  / This form of connecting tubes and stirrup handle is unique on the early pre-Hispanic map of Mexico. And there is a surprising coincidence. It resembles ceramics from the same era in the Andean area of South America, such as the Valdivia and Machalilla cultures, in Ecuador. Some specialists propose that this suggests early exchanges across the Pacific Ocean. It is a hypothesis. /  / A vessel this ancient, and already with such a complex form.
+
+### retos_observacion
+
+**ES:** Busca los tubos verticales que unen los dos cuerpos. / Fíjate en las franjas incisas con rombos y cruces. / Mira el color café oscuro y el pulido de la superficie.
+
+**EN:** Look for the vertical tubes that join the two bodies. / Notice the incised bands with diamonds and crosses. / Look at the dark brown color and the polish of the surface.
+
+### especificaciones
+
+**ES:** Cultura: Capacha / Periodo: Preclásico Temprano, Formativo (1500-1000 a.C.; hacia 1450 a.C.) / Material: Cerámica de arcilla café oscuro o negra pulida, con incisiones finas y campos punteados / Procedencia: Colima (sitio tipo en la antigua hacienda Capacha), con difusión hacia Jalisco y Michoacán
+
+**EN:** Culture: Capacha / Period: Early Preclassic, Formative (1500-1000 BC; around 1450 BC) / Material: Polished dark brown or black clay ceramic, with fine incisions and stippled fields / Origin: Colima (type site at the old Capacha hacienda), with spread toward Jalisco and Michoacán
+
+### faq_mito
+
+**ES:** pregunta: Mito: Esta vasija la trajeron los españoles en el siglo dieciséis. / respuesta: Realidad: Es una cerámica del Preclásico Temprano, de entre 1500 y 1000 antes de Cristo, hecha en el Occidente de México mucho antes de la llegada de los europeos.
+
+**EN:** pregunta: Myth: This vessel was brought by the Spanish in the sixteenth century. / respuesta: Reality: It is an Early Preclassic ceramic, from between 1500 and 1000 BC, made in West Mexico long before the arrival of the Europeans.
+
+## Pieza: mna_s10_cobre_purepecha
+
+### titulo
+
+**ES:** Pectoral y cascabeles de cobre martillado purépecha
+
+**EN:** Hammered Copper Pectoral and Jingle Bells, Purépecha
+
+### frase_gancho
+
+**ES:** Cobre martillado: joyas para el cazonci y herramientas para la guerra.
+
+**EN:** Hammered copper: jewelry for the cazonci and tools for war.
+
+### puente_narrativo
+
+**ES:** Avanzamos al Posclásico tardío, al imperio purépecha, con sus joyas de cobre.
+
+**EN:** We move on to the Late Postclassic, to the Purépecha empire, with its copper jewelry.
+
+### guion_corto
+
+**ES:** Los purépechas no reservaron el metal solo para las joyas. Con cobre y bronce hicieron también herramientas agrícolas y armas, como puntas de lanza, hachas de combate y azadas. Se piensa que esa ventaja técnica les ayudó a repeler las invasiones del imperio mexica. Estos pectorales y cascabeles son de cobre martillado, fundido y repujado, de cultura tarasca o purépecha, del Posclásico Tardío. Vienen de la cuenca del lago de Pátzcuaro, de Tzintzuntzan e Ihuatzio, en Michoacán. Los orfebres martillaban el cobre nativo y el bronce en frío y en caliente, y los fundían a la cera perdida. Los pectorales de cobre y de oro se llevaban sobre el pecho. Los usaban los gobernantes, llamados cazonci, los sacerdotes y los jefes militares, como símbolo de alta jerarquía.
+
+**EN:** The Purépecha did not reserve metal only for jewelry. With copper and bronze they also made farming tools and weapons, such as spearheads, battle axes, and hoes. It is thought that this technical advantage helped them repel invasions by the Mexica empire. These pectorals and jingle bells are made of hammered, cast, and embossed copper, from the Tarascan or Purépecha culture of the Late Postclassic. They come from the Lake Pátzcuaro basin, from Tzintzuntzan and Ihuatzio, in Michoacán. The metalsmiths hammered native copper and bronze both cold and hot, and cast them using the lost-wax method. Pectorals of copper and gold were worn on the chest. They were worn by rulers, called cazonci, by priests, and by military leaders, as a symbol of high rank.
+
+### guion_largo
+
+**ES:** En Mesoamérica casi nadie trabajó el metal como los purépechas. Fueron verdaderos maestros de la metalurgia. /  / Estas piezas son de la cultura tarasca o purépecha, del Posclásico Tardío. Vienen de la cuenca del lago de Pátzcuaro, de Tzintzuntzan e Ihuatzio, en Michoacán. /  / Están hechas de cobre nativo y de aleaciones de bronce. Los orfebres lo martillaban en frío y en caliente. Lo repujaban, es decir, lo golpeaban por detrás para sacar el dibujo en relieve. Y lo fundían a la cera perdida. /  / Con esa técnica elaboraban pectorales lunares, discos relucientes, pinzas ceremoniales, bezotes, que se llaman tentetl, y cascabeles acampanados. Los pectorales de cobre y de oro los llevaban sobre el pecho los gobernantes, llamados cazonci, los sacerdotes y los jefes militares. Eran símbolos de alta jerarquía. /  / Hay un dato que distingue a los purépechas. Otros pueblos reservaron los metales para la joyería ceremonial. Ellos usaron también el cobre y el bronce para fabricar herramientas agrícolas y armas militares: puntas de lanza, hachas de combate y azadas. Se piensa que eso les dio una ventaja técnica para repeler las invasiones del imperio mexica. /  / Escucha con la imaginación los cascabeles. Un metal que brilla, que suena y que además servía para la guerra.
+
+**EN:** In Mesoamerica, almost no one worked metal like the Purépecha. They were true masters of metallurgy. /  / These pieces are from the Tarascan or Purépecha culture of the Late Postclassic. They come from the Lake Pátzcuaro basin, from Tzintzuntzan and Ihuatzio, in Michoacán. /  / They are made of native copper and bronze alloys. The metalsmiths hammered it cold and hot. They embossed it, that is, they struck it from behind to raise the design in relief. And they cast it using the lost-wax method. /  / With that technique they made moon-shaped pectorals, gleaming discs, ceremonial tweezers, lip plugs, which are called tentetl, and bell-shaped jingle bells. Pectorals of copper and gold were worn on the chest by rulers, called cazonci, by priests, and by military leaders. They were symbols of high rank. /  / There is one fact that sets the Purépecha apart. Other peoples reserved metals for ceremonial jewelry. They also used copper and bronze to make farming tools and military weapons: spearheads, battle axes, and hoes. It is thought that this gave them a technical advantage to repel invasions by the Mexica empire. /  / Listen to the jingle bells with your imagination. A metal that shines, that rings, and that also served for war.
+
+### retos_observacion
+
+**ES:** Busca los cascabeles acampanados de cobre. / Mira el repujado: el dibujo que sale en relieve en la lámina. / Imagina el pectoral sobre el pecho de un cazonci.
+
+**EN:** Look for the bell-shaped copper jingle bells. / Look at the embossing: the design that rises in relief on the sheet of metal. / Imagine the pectoral on the chest of a cazonci.
+
+### especificaciones
+
+**ES:** Cultura: Tarasca / Purépecha / Periodo: Posclásico Tardío (1200-1521 d.C.) / Material: Cobre nativo y aleaciones de bronce, martillados, repujados y fundidos a la cera perdida / Procedencia: Cuenca del lago de Pátzcuaro (Tzintzuntzan e Ihuatzio), Michoacán
+
+**EN:** Culture: Tarascan / Purépecha / Period: Late Postclassic (1200-1521 AD) / Material: Native copper and bronze alloys, hammered, embossed, and cast using the lost-wax method / Origin: Lake Pátzcuaro basin (Tzintzuntzan and Ihuatzio), Michoacán
+
+### faq_mito
+
+**ES:** pregunta: Mito: Los herreros españoles enseñaron a los purépechas a trabajar el cobre. / respuesta: Realidad: Los orfebres purépechas ya trabajaban el cobre y el bronce, con martillado, repujado y cera perdida, antes de 1521.
+
+**EN:** pregunta: Myth: Spanish smiths taught the Purépecha to work copper. / respuesta: Reality: Purépecha metalsmiths were already working copper and bronze, using hammering, embossing, and lost-wax casting, before 1521.
+
+## Pieza: mna_s10_yacata_tzintzuntzan
+
+### titulo
+
+**ES:** Modelo arquitectónico de Yácata purépecha
+
+**EN:** Architectural Model of a Purépecha Yácata
+
+### frase_gancho
+
+**ES:** Una pirámide con un cuerpo rectangular y otro redondo, coronada por un templo de madera.
+
+**EN:** A pyramid with a rectangular body and a round one, crowned by a wooden temple.
+
+### puente_narrativo
+
+**ES:** Cerramos el Occidente con una maqueta: la forma de las pirámides purépechas.
+
+**EN:** We close out the West with a scale model: the shape of Purépecha pyramids.
+
+### guion_corto
+
+**ES:** Una pirámide con un cuerpo rectangular y otro redondo: así eran las yácatas purépechas. Este es un modelo a escala de una de ellas, hecho en barro. Es de cultura tarasca o purépecha, del Posclásico Tardío, y representa las yácatas de Tzintzuntzan e Ihuatzio, en Michoacán. Una yácata es un basamento piramidal mixto. Tiene un cuerpo rectangular escalonado al frente, unido en la parte posterior a un cuerpo semicircular o cilíndrico. Sobre la cima se levantaban templos cónicos de madera y paja, dedicados a las deidades principales, encabezadas por Curicaueri, el dios del fuego solar. Las estructuras originales se construyeron con núcleos de piedra y losas labradas de piedra volcánica.
+
+**EN:** A pyramid with a rectangular body and a round one: that is what Purépecha yácatas looked like. This is a scale model of one of them, made of clay. It belongs to the Tarascan or Purépecha culture, from the Late Postclassic, and it represents the yácatas of Tzintzuntzan and Ihuatzio, in Michoacán. A yácata is a mixed pyramidal base. It has a stepped rectangular body at the front, joined at the back to a semicircular or cylindrical body. On the summit stood conical temples of wood and straw, dedicated to the main deities, led by Curicaueri, the god of solar fire. The original structures were built with stone cores and carved slabs of volcanic stone.
+
+### guion_largo
+
+**ES:** Una pirámide que no se parece a las demás. La yácata purépecha combina dos formas: un cuerpo rectangular escalonado al frente y un cuerpo semicircular o cilíndrico atrás. /  / Este es un modelo a escala, hecho en barro. Representa las yácatas de Tzintzuntzan e Ihuatzio, en la cuenca del lago de Pátzcuaro, en Michoacán. Es de cultura tarasca o purépecha y del Posclásico Tardío. /  / Las yácatas originales se construyeron con núcleos de piedra y losas labradas de piedra volcánica. Sobre la cima se erigían templos cónicos de madera y paja. Estaban dedicados a las deidades principales, encabezadas por Curicaueri, el dios del fuego solar. /  / En Tzintzuntzan, cuyo nombre se traduce como Lugar de colibríes, se conservan cinco yácatas monumentales alineadas sobre una misma plataforma. Miran hacia el lago de Pátzcuaro. La gran plataforma ceremonial mide más de cuatrocientos metros de largo por doscientos cincuenta de ancho. /  / En sus cumbres, los sacerdotes mantenían hogueras sagradas encendidas día y noche. Era el alimento divino del Sol. /  / Observa el modelo desde arriba, si puedes. Verás cómo el cuerpo rectangular y el redondo se unen en una sola construcción.
+
+**EN:** A pyramid unlike any other. The Purépecha yácata combines two shapes: a stepped rectangular body at the front and a semicircular or cylindrical body at the back. /  / This is a scale model, made of clay. It represents the yácatas of Tzintzuntzan and Ihuatzio, in the Lake Pátzcuaro basin, in Michoacán. It belongs to the Tarascan or Purépecha culture and dates to the Late Postclassic. /  / The original yácatas were built with stone cores and carved slabs of volcanic stone. On the summit, conical temples of wood and straw were raised. They were dedicated to the main deities, led by Curicaueri, the god of solar fire. /  / In Tzintzuntzan, whose name translates as Place of hummingbirds, five monumental yácatas still stand, lined up on a single platform. They face Lake Pátzcuaro. The great ceremonial platform measures more than four hundred meters long by two hundred fifty wide. /  / On their summits, priests kept sacred fires burning day and night. It was the divine nourishment of the Sun. /  / Look at the model from above, if you can. You will see how the rectangular body and the round one join into a single structure.
+
+### retos_observacion
+
+**ES:** Busca el cuerpo rectangular escalonado del frente. / Mira el cuerpo redondo que se une atrás. / Imagina el templo de madera y paja que coronaba la cima.
+
+**EN:** Find the stepped rectangular body at the front. / Look at the round body joined at the back. / Imagine the wood and straw temple that crowned the summit.
+
+### especificaciones
+
+**ES:** Cultura: Tarasca / Purépecha / Periodo: Posclásico Tardío (1200-1521 d.C.) / Material: Modelo a escala en arcilla (las yácatas originales tenían núcleo de piedra y losas de piedra volcánica) / Procedencia: Tzintzuntzan e Ihuatzio, cuenca de Pátzcuaro, Michoacán
+
+**EN:** Culture: Tarascan / Purépecha / Period: Late Postclassic (1200-1521 AD) / Material: Scale model in clay (the original yácatas had a stone core and slabs of volcanic stone) / Origin: Tzintzuntzan and Ihuatzio, Pátzcuaro basin, Michoacán
+
+### faq_mito
+
+**ES:** pregunta: Mito: Las yácatas eran fuertes militares construidos por invasores. / respuesta: Realidad: Eran basamentos piramidales purépechas, con templos en la cima dedicados a Curicaueri, el dios del fuego solar.
+
+**EN:** pregunta: Myth: Yácatas were military forts built by invaders. / respuesta: Reality: They were Purépecha pyramidal bases, with temples on top dedicated to Curicaueri, the god of solar fire.
+
+## Pieza: mna_s11_olla_paquime
+
+### titulo
+
+**ES:** Olla policromada de Paquimé / Casas Grandes
+
+**EN:** Polychrome Jar from Paquimé / Casas Grandes
+
+### frase_gancho
+
+**ES:** Geometría en rojo y negro, pintada en un cruce de caminos del norte.
+
+**EN:** Geometry in red and black, painted at a crossroads in the north.
+
+### puente_narrativo
+
+**ES:** Ahora el recorrido llega al norte de México, tierra de desiertos y sierras. Empezamos por una olla de Paquimé, en Chihuahua, pintada con dibujos geométricos.
+
+**EN:** Now the tour reaches northern Mexico, a land of deserts and mountain ranges. We begin with a jar from Paquimé, in Chihuahua, painted with geometric designs.
+
+### guion_corto
+
+**ES:** Entre 1100 y 1300 después de Cristo, Paquimé vivió su mejor momento, y esta olla pertenece a esa etapa. Está hecha de arcilla y pintada en negro y rojo sobre un fondo crema. Sus bandas combinan triángulos, grecas escalonadas, líneas en zigzag y espirales, con un equilibrio casi musical. Paquimé, en Chihuahua, era un gran centro comercial del norte, donde se cruzaban las rutas que unían el suroeste de Estados Unidos con Mesoamérica. En su cerámica es común hallar la cabeza estilizada de una guacamaya roja o de una serpiente emplumada, escondida entre las líneas geométricas. Las guacamayas valían tanto que se criaban en jaulas de adobe, y sus plumas se vendían por todo el desierto. Esta olla viene de ese mundo de intercambios, de oficio y de mucho color.
+
+**EN:** Between 1100 and 1300 AD, Paquimé lived its finest moment, and this jar belongs to that period. It is made of clay and painted in black and red on a cream background. Its bands combine triangles, stepped frets, zigzag lines and spirals, with an almost musical balance. Paquimé, in Chihuahua, was a great trading center of the north, where the routes linking the southwestern United States with Mesoamerica crossed. In its pottery, it is common to find the stylized head of a scarlet macaw or of a feathered serpent, hidden among the geometric lines. Macaws were so valuable that they were raised in adobe cages, and their feathers were sold across the desert. This jar comes from that world of exchange, of craftsmanship and of vivid color.
+
+### guion_largo
+
+**ES:** Esta olla viene de Casas Grandes, en Chihuahua, a la que también se llama Paquimé. Su Período Medio, dentro del Posclásico, tuvo su apogeo entre 1100 y 1300 después de Cristo. /  / Imagina el lugar en esos años como una encrucijada. Era un gran centro comercial del norte. Por allí pasaban las rutas de intercambio que conectaban el suroeste de Estados Unidos con las civilizaciones de Mesoamérica. En un sitio así, la alfarería alcanzó una maestría notable. /  / La olla se modeló en arcilla y se pintó en negro y rojo sobre un fondo crema, que a veces se describe como bayo. Su decoración es pura geometría: triángulos, grecas escalonadas, líneas en zigzag y espirales. Están ordenados en bandas y en campos simétricos, de modo que cada figura parece responder a otra. /  / Esa geometría guarda sorpresas. En la cerámica de Paquimé suele esconderse entre los trazos abstractos la cabeza estilizada de una guacamaya roja o la figura de una serpiente emplumada. La guacamaya no era un adorno cualquiera. /  / Los arqueólogos han comprobado que allí se criaban guacamayas rojas en jaulas especiales de adobe. Se cuidaba a las aves para vender sus plumas por toda la franja del desierto. Una vasija pintada de rojo y negro formaba parte, entonces, de un mundo de aves, de plumas y de caminos. /  / Hoy basta ver ese ritmo de líneas para reconocer una vasija de Paquimé entre muchas otras.
+
+**EN:** This jar comes from Casas Grandes, in Chihuahua, which is also called Paquimé. Its Middle Period, within the Postclassic, reached its peak between 1100 and 1300 AD. /  / Imagine the place in those years as a crossroads. It was a great trading center of the north. The trade routes that connected the southwestern United States with the civilizations of Mesoamerica passed through it. In a place like this, pottery reached a remarkable mastery. /  / The jar was modeled in clay and painted in black and red on a cream background, which is sometimes described as buff. Its decoration is pure geometry: triangles, stepped frets, zigzag lines and spirals. They are arranged in bands and in symmetrical fields, so that each figure seems to answer another. /  / That geometry holds surprises. In Paquimé pottery, the stylized head of a scarlet macaw or the figure of a feathered serpent is often hidden among the abstract strokes. The macaw was no ordinary ornament. /  / Archaeologists have confirmed that scarlet macaws were raised there in special adobe cages. The birds were tended in order to sell their feathers throughout the desert belt. A vessel painted in red and black was therefore part of a world of birds, feathers and roads. /  / Today, a glance at that rhythm of lines is enough to recognize a Paquimé vessel among many others.
+
+### retos_observacion
+
+**ES:** Busca los triángulos y las grecas escalonadas que se repiten en las bandas. / Encuentra las espirales y las líneas en zigzag, y compara su movimiento. / Fíjate en cómo se reparten el negro y el rojo sobre el fondo crema.
+
+**EN:** Look for the triangles and stepped frets that repeat across the bands. / Find the spirals and the zigzag lines, and compare their movement. / Notice how the black and the red are distributed over the cream background.
+
+### especificaciones
+
+**ES:** Cultura: Casas Grandes / Paquimé / Periodo: Posclásico / Período Medio de Paquimé (apogeo entre 1100 y 1300 d.C.) / Material: Arcilla policromada (pintura roja y negra sobre crema) / Procedencia: Paquimé, Casas Grandes, Chihuahua
+
+**EN:** Culture: Casas Grandes / Paquimé / Period: Postclassic / Paquimé Middle Period (peak between 1100 and 1300 AD) / Material: Polychrome clay (red and black paint on cream) / Origin: Paquimé, Casas Grandes, Chihuahua
+
+### faq_mito
+
+**ES:** pregunta: Mito: Paquimé y Casas Grandes son dos culturas distintas. / respuesta: Realidad: Son dos nombres para la misma cultura. Casas Grandes es el más conocido, y Paquimé es el del antiguo asentamiento en Chihuahua.
+
+**EN:** pregunta: Myth: Paquimé and Casas Grandes are two different cultures. / respuesta: Reality: They are two names for the same culture. Casas Grandes is the better known, and Paquimé is the name of the ancient settlement in Chihuahua.
+
+## Pieza: mna_s11_efigie_paquime
+
+### titulo
+
+**ES:** Vasija efigie antropomorfa de Paquimé
+
+**EN:** Anthropomorphic Effigy Vessel from Paquimé
+
+### frase_gancho
+
+**ES:** Una olla con forma de persona sentada y el cuerpo pintado.
+
+**EN:** A pot shaped like a seated person with a painted body.
+
+### puente_narrativo
+
+**ES:** Seguimos con Paquimé, pero la cerámica pasa de los dibujos geométricos de la olla a una vasija con forma humana.
+
+**EN:** We continue with Paquimé, but the pottery shifts from the geometric drawings on the pot to a vessel shaped like a human being.
+
+### guion_corto
+
+**ES:** Mira el cuerpo y no solo el rostro: está cubierto de líneas y figuras geométricas pintadas en rojo y negro. Se piensa que reproducen la pintura corporal y los tatuajes con que se arreglaba la élite de Casas Grandes, la cultura también llamada Paquimé. El cuerpo está al descubierto, sin ropa, y las líneas lo recorren como una segunda piel. La figura está sentada, con las piernas flexionadas, y en realidad es una olla: una vasija hueca con una abertura para verter. Viene de la zona de Janos, en Chihuahua, y es del Período Medio, entre 1100 y 1300 después de Cristo. Vasijas como esta se colocaban dentro de las casas y en las sepulturas. Se piensa que representaban a los antepasados, convertidos en guardianes ceremoniales de la casa. Aquí, el recipiente y la imagen son una sola cosa.
+
+**EN:** Look at the body, not just the face: it is covered in lines and geometric figures painted in red and black. They are thought to reproduce the body paint and tattoos that the elite of Casas Grandes, the culture also called Paquimé, adorned themselves with. The body is bare, without clothing, and the lines run across it like a second skin. The figure is seated, with its legs bent, and it is actually a pot: a hollow vessel with an opening for pouring. It comes from the Janos area, in Chihuahua, and dates to the Middle Period, between 1100 and 1300 AD. Vessels like this one were placed inside homes and in burials. They are thought to have represented ancestors, turned into ceremonial guardians of the house. Here, the container and the image are one and the same.
+
+### guion_largo
+
+**ES:** Una efigie es la imagen de alguien, y esta lo es de una manera muy literal: una olla con forma de persona sentada. Su nombre técnico es olla efigie antropomorfa sedente. /  / Viene de la zona de Janos, en Chihuahua, y pertenece a la cultura Casas Grandes, o Paquimé. Se ubica en el Período Medio, dentro del Posclásico, entre 1100 y 1300 después de Cristo. Nació en un lugar con élites, con casas de adobe para varias familias y con alfareros de gran maestría. /  / La figura se modeló en arcilla. El personaje está sentado, con las piernas flexionadas y el cuerpo al descubierto. Por dentro es hueca, y tiene una abertura para verter lo que contenía. /  / Lo más llamativo es la decoración. Motivos geométricos policromos, en rojo y negro, cubren todo el cuerpo. Se piensa que reproducen la pintura facial y los tatuajes geométricos con que la élite de Casas Grandes se arreglaba. Así, el artesano no solo hizo un recipiente: retrató una manera de presentarse ante los demás. /  / Estas vasijas ocupaban lugares importantes. Se colocaban dentro de las viviendas de adobe, donde vivían varias familias, y también en las sepulturas. Los arqueólogos piensan que funcionaban como guardianes ceremoniales y como imágenes de antepasados divinizados. /  / Con esa idea, la pieza cambia de sentido. Ya no es solo una olla ni solo una escultura. Es, a la vez, un guardián y un recipiente.
+
+**EN:** An effigy is the image of someone, and this one is so in a very literal way: a pot shaped like a seated person. Its technical name is a seated anthropomorphic effigy pot. /  / It comes from the Janos area, in Chihuahua, and belongs to the Casas Grandes culture, or Paquimé. It is placed in the Middle Period, within the Postclassic, between 1100 and 1300 AD. It was born in a place with elites, with adobe houses for several families and with highly skilled potters. /  / The figure was modeled in clay. The character is seated, with its legs bent and its body bare. It is hollow inside, and it has an opening for pouring out whatever it held. /  / The most striking feature is the decoration. Polychrome geometric motifs, in red and black, cover the entire body. They are thought to reproduce the face paint and the geometric tattoos that the elite of Casas Grandes adorned themselves with. In this way, the artisan did not just make a container: he portrayed a way of presenting oneself to others. /  / These vessels held important places. They were placed inside the adobe dwellings, where several families lived, and also in burials. Archaeologists think they served as ceremonial guardians and as images of deified ancestors. /  / With that idea, the piece takes on a different meaning. It is no longer just a pot, nor just a sculpture. It is, at once, a guardian and a container.
+
+### retos_observacion
+
+**ES:** Busca los motivos geométricos rojos y negros que cubren el cuerpo de la figura. / Mira cómo se flexionan las piernas de la figura sentada. / Busca la abertura por donde la vasija se llenaba y se vaciaba.
+
+**EN:** Look for the red and black geometric motifs that cover the figure’s body. / Notice how the legs of the seated figure are bent. / Find the opening through which the vessel was filled and emptied.
+
+### especificaciones
+
+**ES:** Cultura: Casas Grandes / Paquimé / Periodo: Posclásico / Período Medio de Paquimé (1100-1300 d.C.) / Material: Arcilla modelada con decoración geométrica policroma en rojo y negro / Procedencia: Janos / Casas Grandes, Chihuahua
+
+**EN:** Culture: Casas Grandes / Paquimé / Period: Postclassic / Middle Period of Paquimé (1100-1300 AD) / Material: Modeled clay with polychrome geometric decoration in red and black / Origin: Janos / Casas Grandes, Chihuahua
+
+### faq_mito
+
+**ES:** pregunta: Mito: Es solo una escultura de barro, no una vasija. / respuesta: Realidad: Es una olla efigie: una vasija hueca, modelada con forma humana, que tiene una abertura para verter.
+
+**EN:** pregunta: Myth: It is just a clay sculpture, not a vessel. / respuesta: Reality: It is an effigy pot: a hollow vessel, modeled in human form, with an opening for pouring.
+
+## Pieza: mna_s11_fardo_candelaria
+
+### titulo
+
+**ES:** Fardo funerario de la Cueva de la Candelaria
+
+**EN:** Funerary Bundle from the Candelaria Cave
+
+### frase_gancho
+
+**ES:** Un cuerpo envuelto en fibras vegetales y guardado en una cueva del desierto.
+
+**EN:** A body wrapped in plant fibers and kept in a desert cave.
+
+### puente_narrativo
+
+**ES:** Dejamos la cerámica de Paquimé y pasamos a los cazadores recolectores del desierto, y a la manera en que cuidaban a sus muertos.
+
+**EN:** We leave the ceramics of Paquimé behind and turn to the hunter-gatherers of the desert, and to the way they cared for their dead.
+
+### guion_corto
+
+**ES:** Imagina a un grupo del desierto reunido en una cueva seca. Han doblado el cuerpo de uno de los suyos, lo han envuelto en capas de tejido y lo han atado con cuerdas. Así se hizo este fardo funerario de la Cueva de la Candelaria, en Coahuila. Lo prepararon cazadores recolectores de Aridoamérica, en la Comarca Lagunera, entre 1000 y 1500 después de Cristo. Los tejidos son de yuca, lechuguilla y algodón, y cubren un cuerpo momificado. Con él se guardaron sandalias, cuchillos de sílex con mango de madera, mantas con decoración geométrica y un tocado de fibra, el tlacoval. La sequedad de la cueva conservó hasta hoy fibras, madera y cuerdas. Eran bandas que vivían de la caza y la recolección, y aun así dedicaron tiempo y buenos materiales a despedir a sus muertos.
+
+**EN:** Imagine a group of desert people gathered in a dry cave. They have folded the body of one of their own, wrapped it in layers of woven cloth and bound it with cords. This is how this funerary bundle from the Candelaria Cave, in Coahuila, was made. It was prepared by hunter-gatherers of Aridoamerica, in the Comarca Lagunera, between 1000 and 1500 AD. The textiles are made of yucca, lechuguilla and cotton, and they cover a mummified body. Buried with it were sandals, flint knives with wooden handles, blankets with geometric decoration and a fiber headdress, the tlacoval. The dryness of the cave has preserved fibers, wood and cords to this day. They were bands who lived by hunting and gathering, and even so they devoted time and fine materials to bidding farewell to their dead.
+
+### guion_largo
+
+**ES:** Un fardo funerario es un bulto: un cuerpo cubierto con capas y capas de tejido, atado con cuerdas y acompañado de objetos. Este viene de la Cueva de la Candelaria, en Coahuila. /  / Lo hicieron cazadores recolectores del desierto, en la región de la Comarca Lagunera, dentro de la tradición que se conoce como Aridoamérica. Pertenece al Posclásico, entre 1000 y 1500 después de Cristo. Eran grupos que vivían de lo que cazaban y recolectaban, y que se movían por un paisaje seco y duro. /  / El cuerpo se colocaba muy flexionado y se envolvía en capas sucesivas de redes, petates finos y mantas. Las fibras eran de yuca, lechuguilla y algodón. Algunas mantas llevan decoración geométrica pintada con pigmentos minerales. Una faja y un tocado de fibra, llamado tlacoval, completan el envoltorio. /  / Junto al cuerpo se dejaban objetos de la vida diaria. Hay sandalias de fibra, cuchillos de sílex con mango de madera, arcos y flechas con punta de pedernal. También hay adornos de concha y de vértebras de serpiente. Todo lo que un cazador necesitaba para caminar, cortar y cazar estaba allí. /  / Estos objetos se conservan gracias a la cueva. Su extrema sequedad detuvo la descomposición de fibras, cuerdas y madera, materiales que casi nunca sobreviven. Los arqueólogos piensan que la cueva funcionó durante siglos como un cementerio sagrado. Las bandas regresaban cada cierto tiempo a depositar a sus muertos, a salvo de la lluvia y del viento. /  / Por eso este fardo es mucho más que un entierro: muestra cómo vivían y cómo despedían a los suyos unas bandas del desierto.
+
+**EN:** A funerary bundle is a package: a body covered with layer upon layer of woven cloth, bound with cords and accompanied by objects. This one comes from the Candelaria Cave, in Coahuila. /  / It was made by hunter-gatherers of the desert, in the Comarca Lagunera region, within the tradition known as Aridoamerica. It belongs to the Postclassic, between 1000 and 1500 AD. They were groups who lived on what they hunted and gathered, and who moved across a dry and harsh landscape. /  / The body was placed tightly flexed and wrapped in successive layers of nets, fine mats and blankets. The fibers were yucca, lechuguilla and cotton. Some blankets bear geometric decoration painted with mineral pigments. A sash and a fiber headdress, called a tlacoval, complete the wrapping. /  / Beside the body, objects from daily life were left. There are fiber sandals, flint knives with wooden handles, bows and arrows with flint points. There are also ornaments made of shell and snake vertebrae. Everything a hunter needed to walk, cut and hunt was there. /  / These objects survive thanks to the cave. Its extreme dryness halted the decay of fibers, cords and wood, materials that almost never survive. Archaeologists believe the cave served for centuries as a sacred cemetery. The bands returned from time to time to lay their dead to rest, safe from the rain and the wind. /  / That is why this bundle is much more than a burial: it shows how some desert bands lived and how they bade farewell to their own.
+
+### retos_observacion
+
+**ES:** Busca las capas de tejido de fibra que envuelven el bulto. / Encuentra los tocados de fibra llamados tlacovales entre los objetos. / Fíjate en las sandalias y en los cuchillos con mango de madera.
+
+**EN:** Look for the layers of woven fiber that wrap the bundle. / Find the fiber headdresses called tlacovales among the objects. / Notice the sandals and the knives with wooden handles.
+
+### especificaciones
+
+**ES:** Cultura: Aridoamérica / Cazadores-recolectores del desierto (Comarca Lagunera) / Periodo: Posclásico (1000-1500 d.C.) / Material: Fibras vegetales tejidas (yuca, lechuguilla y algodón) / Procedencia: Cueva de la Candelaria, Coahuila
+
+**EN:** Culture: Aridoamerica / Desert hunter-gatherers (Comarca Lagunera) / Period: Postclassic (1000-1500 AD) / Material: Woven plant fibers (yucca, lechuguilla and cotton) / Origin: Candelaria Cave, Coahuila
+
+### faq_mito
+
+**ES:** pregunta: Mito: Las momias solo existen en Egipto. / respuesta: Realidad: En la Cueva de la Candelaria, en Coahuila, cazadores recolectores del desierto envolvieron a sus muertos en fibras vegetales, y los cuerpos se conservaron momificados.
+
+**EN:** pregunta: Myth: Mummies only exist in Egypt. / respuesta: Reality: In the Candelaria Cave, in Coahuila, desert hunter-gatherers wrapped their dead in plant fibers, and the bodies were preserved as mummies.
+
+## Pieza: mna_s11_petroglifo_desierto
+
+### titulo
+
+**ES:** Petroglifo y raspador ceremonial de cazadores recolectores
+
+**EN:** Petroglyph and Ceremonial Scraper of Hunter-Gatherers
+
+### frase_gancho
+
+**ES:** Roca grabada y herramienta de piedra tallada: huellas de los cazadores del desierto.
+
+**EN:** An engraved rock and a carved stone tool: traces left by the hunters of the desert.
+
+### puente_narrativo
+
+**ES:** Seguimos con los cazadores recolectores del desierto, ahora a través de la piedra: una roca grabada y una herramienta tallada.
+
+**EN:** We continue with the hunter-gatherers of the desert, now through stone: an engraved rock and a carved tool.
+
+### guion_corto
+
+**ES:** Una roca con dibujos y una herramienta con filo parecen cosas distintas. Sin embargo nacieron de la misma tradición: la de los cazadores recolectores del desierto, en lo que se conoce como la Gran Chichimeca. Sus huellas aparecen en desiertos y sierras, desde Coahuila hasta Baja California. Trabajaron piedra volcánica, basalto, sílex y pedernal, siempre a golpes y con retoques cuidadosos. El raspador servía para limpiar pieles y para trabajar madera y fibras de maguey, es decir, para vivir. Los grabados, en cambio, se interpretan como señales: marcas de territorio, de puntos de agua y de rutas. Entre unos y otros hay una tradición larguísima, que va de 8000 antes de Cristo a 1500 después de Cristo. Es la memoria de gente que se movía con el desierto y lo dejó marcado en la piedra.
+
+**EN:** A rock with drawings and a tool with a sharp edge seem like different things. Yet they were born of the same tradition: that of the hunter-gatherers of the desert, in what is known as the Great Chichimec. Their traces appear in deserts and mountain ranges, from Coahuila to Baja California. They worked volcanic stone, basalt, flint and chert, always by striking and with careful retouching. The scraper was used to clean hides and to work wood and agave fibers, that is, to live. The engravings, by contrast, are interpreted as signals: marks of territory, of water sources and of routes. Between one and the other lies a very long tradition, stretching from 8000 BC to 1500 AD. It is the memory of people who moved with the desert and left it marked in stone.
+
+### guion_largo
+
+**ES:** Un petroglifo es un dibujo grabado en una roca, y un raspador es una herramienta de piedra con filo. Aquí aparecen juntos porque cuentan dos caras de una misma vida: la del trabajo y la de las señales. /  / Detrás están los cazadores recolectores del desierto, de la tradición de Aridoamérica que se conoce como Gran Chichimeca. Eran grupos nómadas que recorrían desiertos y sierras del norte de México, en lo que hoy son Coahuila, Durango, Chihuahua, Sonora y Baja California. /  / La técnica es la misma en las dos piezas: se trabajaba la piedra a golpes y luego se retocaba. Con ella se hicieron las herramientas, y también los grabados en la roca. Se usaban piedra volcánica y basalto, y también sílex y pedernal. /  / El raspador es una herramienta de uso diario. Muchas llevaban un mango de madera, pegado con resina vegetal, como la de mezquite, y atado con fibras de agave. Con ellas se procesaba la carne y se raspaban las pieles. También se trabajaban las fibras duras del maguey y la madera, para fabricar redes y armas. /  / Los petroglifos hablan de otra cosa. Los arqueólogos proponen que servían como mapas del territorio, como marcas de puntos de agua y como itinerarios de viaje y de seguimiento del cielo. /  / El tiempo que abarca esta tradición es enorme: va de 8000 antes de Cristo a 1500 después de Cristo. Un solo grabado no cuenta todo eso. Pero recuerda que el desierto estuvo habitado y que sus habitantes lo conocían y lo marcaron con paciencia.
+
+**EN:** A petroglyph is a drawing engraved on a rock, and a scraper is a stone tool with a sharp edge. Here they appear together because they tell two sides of one and the same life: that of work and that of signals. /  / Behind them are the hunter-gatherers of the desert, of the Aridoamerica tradition known as the Great Chichimec. They were nomadic groups who traveled through the deserts and mountain ranges of northern Mexico, in what today are Coahuila, Durango, Chihuahua, Sonora and Baja California. /  / The technique is the same in both pieces: the stone was worked by striking and then retouched. With it they made the tools, and also the engravings on the rock. Volcanic stone and basalt were used, and also flint and chert. /  / The scraper is a tool for daily use. Many of them had a wooden handle, attached with plant resin, such as that of the mesquite, and tied with agave fibers. With them, meat was processed and hides were scraped. The hard fibers of the agave and wood were also worked, to make nets and weapons. /  / The petroglyphs speak of something else. Archaeologists propose that they served as maps of the territory, as markers of water sources and as travel itineraries and sky tracking. /  / The time span of this tradition is enormous: it runs from 8000 BC to 1500 AD. A single engraving does not tell all of that. But it is a reminder that the desert was inhabited and that its people knew it and marked it with patience.
+
+### retos_observacion
+
+**ES:** Busca los grabados que quedaron marcados sobre la superficie de la roca. / Compara el borde trabajado de la herramienta con la superficie de la roca. / Busca las marcas de golpes y retoques que dieron filo a la herramienta.
+
+**EN:** Look for the engravings that were left marked on the surface of the rock. / Compare the worked edge of the tool with the surface of the rock. / Look for the marks of blows and retouching that gave the tool its edge.
+
+### especificaciones
+
+**ES:** Cultura: Aridoamérica / Tradición de las culturas del desierto (Gran Chichimeca) / Periodo: Etapa Lítica a Posclásico (8000 a.C.-1500 d.C.) / Material: Piedra volcánica (basalto); sílex y pedernal trabajados por percusión y retoque / Procedencia: Desiertos y sierras del norte de México (Coahuila, Durango, Chihuahua, Sonora y Baja California)
+
+**EN:** Culture: Aridoamerica / Tradition of the desert cultures (Great Chichimec) / Period: Lithic Stage to Postclassic (8000 BC-1500 AD) / Material: Volcanic stone (basalt); flint and chert worked by percussion and retouching / Origin: Deserts and mountain ranges of northern Mexico (Coahuila, Durango, Chihuahua, Sonora and Baja California)
+
+### faq_mito
+
+**ES:** pregunta: Mito: Como eran nómadas, los cazadores recolectores del norte no dejaron obras elaboradas. / respuesta: Realidad: Grabaron la roca y tallaron herramientas de piedra con técnica precisa, en una tradición que va de 8000 antes de Cristo a 1500 después de Cristo.
+
+**EN:** pregunta: Myth: Because they were nomads, the hunter-gatherers of the north did not leave elaborate works. / respuesta: Reality: They engraved rock and carved stone tools with precise technique, in a tradition that stretches from 8000 BC to 1500 AD.
+
+## Pieza: mna_s11_vaso_chalchihuites
+
+### titulo
+
+**ES:** Vaso tubular de Alta Vista / Chalchihuites
+
+**EN:** Tubular Vessel from Alta Vista / Chalchihuites
+
+### frase_gancho
+
+**ES:** Barro decorado con cloisonné en el norte de Mesoamérica.
+
+**EN:** Clay decorated with cloisonné in northern Mesoamerica.
+
+### puente_narrativo
+
+**ES:** De la piedra de los cazadores pasamos a la cerámica de la cultura Chalchihuites, del norte de Mesoamérica, decorada con una técnica de varios colores.
+
+**EN:** From the stone of the hunters, we move on to the ceramics of the Chalchihuites culture, from northern Mesoamerica, decorated with a multicolored technique.
+
+### guion_corto
+
+**ES:** ¿Esmalte o pintura? Parece un esmalte, pero es barro. Los artesanos de Chalchihuites cubrían la cerámica con estuco calizo o con laca. Sobre esa capa aplicaban pigmentos para formar animales y figuras geométricas. Esa técnica se llama cloisonné, o pseudocloisonné, y pedía mucha paciencia. Se esculpía la capa exterior y cada sección se rellenaba con una pasta de otro color. Este vaso es del Clásico Tardío, entre 600 y 900 después de Cristo, y pertenece a una cultura del norte de Mesoamérica. Uno de sus grandes centros, Alta Vista, está sobre el Trópico de Cáncer, y se piensa que allí se marcaban los solsticios. Se cree que vasos tan trabajados se reservaban para celebraciones solares y ceremonias importantes de la nobleza. Mira cómo el color dibuja figuras de bordes bien definidos.
+
+**EN:** Enamel or paint? It looks like enamel, but it is clay. The Chalchihuites artisans covered their ceramics with lime plaster or with lacquer. On that layer they applied pigments to form animals and geometric figures. This technique is called cloisonné, or pseudocloisonné, and it demanded great patience. The outer layer was carved, and each section was filled with a paste of a different color. This vessel is from the Late Classic, between 600 and 900 AD, and belongs to a culture of northern Mesoamerica. One of its great centers, Alta Vista, sits on the Tropic of Cancer, and it is thought that the solstices were marked there. It is believed that such elaborate vessels were reserved for solar celebrations and important ceremonies of the nobility. Look at how the color draws figures with sharply defined edges.
+
+### guion_largo
+
+**ES:** ¿Esmalte o pintura? La técnica de este vaso se llama cloisonné, o pseudocloisonné, y por su nombre uno pensaría en metal. Pero aquí el soporte es arcilla, y el color se aplicó sobre capas de estuco calizo o de laca. /  / Es una obra de la cultura Chalchihuites, en el norte de Mesoamérica, del Clásico Tardío, o Epiclásico, entre 600 y 900 después de Cristo. Uno de los centros más conocidos de esa cultura es Alta Vista, justo sobre el Trópico de Cáncer. Se piensa que allí se seguían los solsticios y que además era un polo de extracción de minerales y piedras preciosas. /  / Hacer un vaso así exigía método. Se preparaba la superficie, se esculpía la capa exterior de pintura seca y luego se rellenaba cada sección con una pasta de otro color. Los tonos que se usaban, como el rojo, el turquesa, el amarillo y el negro, resaltaban muy vivos sobre el fondo preparado. /  / Las figuras son de dos tipos, animales y geométricas. En los vasos de este estilo aparecen también sacerdotes, serpientes emplumadas y símbolos que llenan la superficie de colorido. /  / Una técnica tan lenta no era para cualquier objeto. Se piensa que se reservaba a vasijas de uso ceremonial, en celebraciones solares de la nobleza. Por eso el vaso resulta tan elocuente. Reúne el cielo que se medía en Alta Vista, el trabajo paciente de los artesanos y el prestigio de quienes lo usaban.
+
+**EN:** Enamel or paint? The technique of this vessel is called cloisonné, or pseudocloisonné, and from its name one would think of metal. But here the base is clay, and the color was applied over layers of lime plaster or lacquer. /  / It is a work of the Chalchihuites culture, in northern Mesoamerica, from the Late Classic, or Epiclassic, between 600 and 900 AD. One of the best-known centers of that culture is Alta Vista, right on the Tropic of Cancer. It is thought that the solstices were tracked there, and that it was also a hub for the extraction of minerals and precious stones. /  / Making a vessel like this required method. The surface was prepared, the outer layer of dry paint was carved, and then each section was filled with a paste of a different color. The tones that were used, such as red, turquoise, yellow and black, stood out vividly against the prepared background. /  / The figures are of two kinds, animal and geometric. On vessels of this style, priests, feathered serpents and symbols also appear, filling the surface with color. /  / Such a slow technique was not meant for just any object. It is thought to have been reserved for vessels of ceremonial use, in solar celebrations of the nobility. That is why the vessel is so eloquent. It brings together the sky that was measured at Alta Vista, the patient work of the artisans and the prestige of those who used it.
+
+### retos_observacion
+
+**ES:** Busca los motivos de animales entre las figuras decoradas. / Encuentra las figuras geométricas y compáralas con las de animales. / Fíjate en cómo los colores parecen asentarse sobre una capa de estuco.
+
+**EN:** Look for the animal motifs among the decorated figures. / Find the geometric figures and compare them with the animal ones. / Notice how the colors seem to rest on a layer of plaster.
+
+### especificaciones
+
+**ES:** Cultura: Chalchihuites (Mesoamérica Septentrional) / Periodo: Clásico Tardío / Epiclásico (600-900 d.C.) / Material: Arcilla (cerámica) decorada con técnica de cloisonné o pseudocloisonné, pigmentos sobre estuco calizo o laca / Procedencia: Chalchihuites, Zacatecas
+
+**EN:** Culture: Chalchihuites (Northern Mesoamerica) / Period: Late Classic / Epiclassic (600-900 AD) / Material: Clay (ceramic) decorated with the cloisonné or pseudocloisonné technique, pigments over lime plaster or lacquer / Origin: Chalchihuites, Zacatecas
+
+### faq_mito
+
+**ES:** pregunta: Mito: Un vaso con decoración cloisonné tiene que ser de metal esmaltado. / respuesta: Realidad: Aquí el soporte es cerámica. Los pigmentos se aplicaron sobre capas de estuco calizo o de laca, con motivos de animales y figuras geométricas.
+
+**EN:** pregunta: Myth: A vessel with cloisonné decoration has to be made of enameled metal. / respuesta: Reality: Here the base is ceramic. The pigments were applied over layers of lime plaster or lacquer, with animal motifs and geometric figures.
+
+## Pieza: mna_s12_mapa_lenguas
+
+### titulo
+
+**ES:** Gran Mural y Mapa Etnolingüístico de México
+
+**EN:** Great Mural and Ethnolinguistic Map of Mexico
+
+### frase_gancho
+
+**ES:** Tapiz de lenguas vivas que nombran la tierra mexicana.
+
+**EN:** A tapestry of living languages that name the Mexican land.
+
+### puente_narrativo
+
+**ES:** Al ingresar a la Planta Alta, esta instalación cartográfica ubica geográficamente la extraordinaria diversidad lingüística y cultural de los pueblos indígenas contemporáneos.
+
+**EN:** As you enter the Upper Floor, this cartographic installation geographically locates the extraordinary linguistic and cultural diversity of today’s Indigenous peoples.
+
+### guion_corto
+
+**ES:** Al situarse a la entrada de la planta alta del Museo Nacional de Antropología, la escala monumental del Mapa Etnolingüístico de México abruma de inmediato los sentidos. Ante la mirada del visitante se despliega un mosaico geográfico donde sesenta y ocho agrupaciones lingüísticas originarias se entrelazan como las vetas de un árbol ancestral sobre el territorio nacional. El mapa no muestra fronteras políticas frías, sino la distribución viva de más de siete millones de hablantes de lenguas indígenas que preservan la memoria milenaria de sus antepasados. En la pared opuesta, los grandes murales etnográficos comisionados durante la construcción del edificio en 1964 por artistas como Luis Covarrubias, Antonio Estrada y Nicolás Moreno muestran el paisaje, las fiestas ceremoniales y la dignidad cotidiana de los pueblos nativos. Las tonalidades brillantes que marcan la Sierra Madre Occidental, los valles de Oaxaca, la selva Maya y las costas del Golfo revelan que la diversidad biológica de México es inseparable de su patrimonio lingüístico. Contemplar este pórtico etnográfico es comprender que las voces originarias no son vestigios estáticos de un pasado remoto, sino la energía cultural que define la identidad del México contemporáneo en el siglo veintiuno.
+
+**EN:** Standing at the entrance to the upper floor of the National Museum of Anthropology, you are immediately overwhelmed by the monumental scale of the Ethnolinguistic Map of Mexico. Before the visitor’s eyes unfolds a geographic mosaic in which sixty-eight native language groups intertwine like the grain of an ancestral tree across the national territory. The map does not show cold political borders, but the living distribution of more than seven million speakers of Indigenous languages who preserve the ancient memory of their ancestors. On the opposite wall, the great ethnographic murals commissioned during the construction of the building in 1964 from artists such as Luis Covarrubias, Antonio Estrada and Nicolás Moreno show the landscape, the ceremonial festivals and the everyday dignity of the native peoples. The bright hues that mark the Sierra Madre Occidental, the valleys of Oaxaca, the Maya rainforest and the Gulf coasts reveal that Mexico’s biological diversity is inseparable from its linguistic heritage. To contemplate this ethnographic gateway is to understand that native voices are not static relics of a remote past, but the cultural energy that defines the identity of contemporary Mexico in the twenty-first century.
+
+### guion_largo
+
+**ES:** Al recorrer la planta alta del Museo Nacional de Antropología, concebida en 1964 por el equipo museográfico del arquitecto Pedro Ramírez Vázquez y antropólogos como Guillermo Bonfil Batalla y Alfonso González Villarruel, el espacio etnográfico se erige como el complemento indispensable de las salas de arqueología. Mientras que la planta baja resguarda los testimonios materiales de los grandes estados prehispánicos que colapsaron, la planta alta está dedicada enteramente a las comunidades indígenas vivas que resistieron cinco siglos de dominación colonial y transformaciones históricas, preservando su idioma, su cosmovisión y sus instituciones comunitarias. El punto de partida conceptual es el Gran Mapa Etnolingüístico de México, una instalación cartográfica de gran formato que traduce en códigos cromáticos la riqueza lingüística del país. Las familias lingüísticas como la Yuto-azteca, Maya, Oto-mangue, Totonaco-tepehua, Mixe-zoque y las lenguas aisladas como el Seri y el Purépecha no representan simples variantes dialectales, sino estructuras de pensamiento milenarias capaces de nombrar la flora, la fauna, los vientos y la espiritualidad del territorio mesoamericano y aridoamericano con una precisión científica e intrínseca insustituible. Al explorar en detalle los paños murales que enmarcan la galería, el observador admira una obra de síntesis plástica y antropológica comisionada a grandes maestros de la pintura mexicana del siglo veinte. Pintores como Luis Covarrubias retrataron con delicado detalle las regiones geográficas de Oaxaca, la cuenca Maya y la Sierra de Puebla, integrando en un solo horizonte panorámico las cumbres de pino, los maizales en terraza, los mercados dominicales y los santuarios sagrados donde se celebran los ritos de petición de lluvia. Un detalle visual de profunda relevancia etnográfica radica en cómo los artistas integraron a las figuras humanas vistiendo su indumentaria tradicional —huipiles, quechquémitls, cotones de lana y sombreros de paja— participando en las faenas agrícolas y en los bailes ceremoniales como la danza de los Quetzales o la danza del Tigre. El mapa y los murales no aíslan a los grupos indígenas en un exotismo rural, sino que documentan las complejas redes de migración contemporánea, el trabajo en el campo y la organización cívico-religiosa mediante el sistema de cargos y la mayordomía. La historia de la integración de este acervo museográfico remonta a las labores de campo iniciadas en 1962 por el equipo de investigadores de la Subdirección de Etnografía del INAH. Durante casi tres años, antropólogos y fotógrafos recorrieron los pueblos más remotos de la Sierra Gorda, el Gran Nayar, la Huasteca, la Montaña de Guerrero y los Altos de Chiapas para registrar la tradición oral, mapear las variantes dialectales y comisionar a los propios maestros artesanales la elaboración de los objetos, indumentarias y maquetas que se exhiben en el museo. El Gran Mapa Etnolingüístico ha sido actualizado de manera continua con base en los censos del INALI e INEGI para reflejar la dinámica demográfica actual, donde más de siete millones trescientos mil mexicanos hablan una lengua originaria. Esta instalación inicial reafirma la misión medular del Museo Nacional de Antropología: celebrar a las naciones indígenas como los pilares vivos de la soberanía cultural y la identidad de México.
+
+**EN:** Walking through the upper floor of the National Museum of Anthropology, conceived in 1964 by the museographic team of the architect Pedro Ramírez Vázquez and anthropologists such as Guillermo Bonfil Batalla and Alfonso González Villarruel, you find the ethnographic space standing as the indispensable complement to the archaeology halls. While the ground floor safeguards the material testimonies of the great pre-Hispanic states that collapsed, the upper floor is devoted entirely to the living Indigenous communities that withstood five centuries of colonial domination and historical transformation, preserving their language, their worldview and their community institutions. The conceptual starting point is the Great Ethnolinguistic Map of Mexico, a large-format cartographic installation that translates the country’s linguistic wealth into color codes. Language families such as Uto-Aztecan, Maya, Oto-Manguean, Totonac-Tepehua and Mixe-Zoque, and language isolates such as Seri and Purépecha, are not mere dialectal variants, but ancient structures of thought capable of naming the flora, the fauna, the winds and the spirituality of the Mesoamerican and Aridoamerican territory with an irreplaceable, intrinsic scientific precision. As you explore in detail the mural panels that frame the gallery, you admire a work of artistic and anthropological synthesis commissioned from great masters of twentieth-century Mexican painting. Painters such as Luis Covarrubias portrayed in delicate detail the geographic regions of Oaxaca, the Maya basin and the highlands of Puebla, joining in a single panoramic horizon the pine-covered peaks, the terraced cornfields, the Sunday markets and the sacred shrines where rain-petitioning rites are celebrated. A visual detail of deep ethnographic relevance lies in how the artists included human figures wearing their traditional dress, huipils, quechquemitl capes, woolen jackets and straw hats, taking part in farm work and in ceremonial dances such as the Quetzal Dance or the Tiger Dance. The map and the murals do not isolate Indigenous groups in a rural exoticism, but document the complex networks of contemporary migration, work in the fields and civic-religious organization through the system of community offices and the stewardship of religious festivals. The history of how this museum collection came together goes back to the fieldwork begun in 1962 by the team of researchers of the Ethnography Subdirectorate of INAH. For almost three years, anthropologists and photographers traveled to the most remote villages of the Sierra Gorda, the Gran Nayar, the Huasteca, the Mountain region of Guerrero and the Chiapas Highlands to record oral tradition, map dialectal variants and commission master artisans themselves to make the objects, garments and models on display in the museum. The Great Ethnolinguistic Map has been continuously updated on the basis of the censuses of INALI and INEGI to reflect the current demographic dynamics, in which more than seven million three hundred thousand Mexicans speak a native language. This opening installation reaffirms the core mission of the National Museum of Anthropology: to celebrate Indigenous nations as the living pillars of the cultural sovereignty and identity of Mexico.
+
+### retos_observacion
+
+**ES:** Delimitación de las familias lingüísticas Yuto-azteca y Oto-mangue en el mapa / Detalles de indumentaria tradicional representados en los murales regionales / Indicadores de la dinámica demográfica y hablantes en la Sierra y valles
+
+**EN:** Boundaries of the Uto-Aztecan and Oto-Manguean language families on the map / Details of traditional dress depicted in the regional murals / Indicators of demographic dynamics and speakers in the mountains and valleys
+
+### especificaciones
+
+**ES:** Pueblo Indígena: Plurinacional (68 agrupaciones etnolingüísticas) / Región: Nacional (Territorio de la República Mexicana) / Técnica/Material: Impresión digital de alta resolución, madera, iluminación LED y audio / Función: Introducción pedagógica a la diversidad etnolingüística viva de México
+
+**EN:** Indigenous People: Plurinational (68 ethnolinguistic groups) / Region: National (Territory of the Mexican Republic) / Technique/Material: High-resolution digital printing, wood, LED lighting and audio / Function: Educational introduction to the living ethnolinguistic diversity of Mexico
+
+### faq_mito
+
+**ES:** pregunta: Mito: El Mapa Etnolingüístico muestra lenguas muertas del pasado que ya no se hablan en el México contemporáneo. / respuesta: Realidad: Según los datos del INAH, el mapa registra 68 agrupaciones lingüísticas vivas habladas por más de 7 millones de personas en el país.
+
+**EN:** pregunta: Myth: The Ethnolinguistic Map shows dead languages of the past that are no longer spoken in contemporary Mexico. / respuesta: Reality: According to INAH data, the map records 68 living language groups spoken by more than 7 million people in the country.
+
+## Pieza: mna_s12_ciclo_milpa
+
+### titulo
+
+**ES:** La Casa Tradicional y el Ciclo Sagrado de la Milpa Indígena
+
+**EN:** The Traditional House and the Sacred Cycle of the Indigenous Milpa
+
+### frase_gancho
+
+**ES:** Hogar de bajareque donde el maíz germina el mundo.
+
+**EN:** A wattle-and-daub home where maize germinates the world.
+
+### puente_narrativo
+
+**ES:** Integrada en el núcleo de la Sala Pueblos Indios, esta réplica arquitectónica y agrícola articula la vida cotidiana doméstica con la cosmogonía de la siembra.
+
+**EN:** Set at the heart of the Indigenous Peoples Hall, this architectural and agricultural replica links everyday domestic life with the cosmology of planting.
+
+### guion_corto
+
+**ES:** Al penetrar en los espacios dedicados a la vida cotidiana en las salas etnográficas, el olor a tierra húmeda, madera de ocote y humo de copal envuelve de inmediato la experiencia del visitante. La recreación a escala real de La Casa Tradicional y el Ciclo Sagrado de la Milpa Indígena traslada al espectador al corazón sagrado del espacio doméstico originario. Erigidas con materiales orgánicos locales —muros de bajareque, varas de otate, adobes y techos de zacate o paja de cuatro aguas— estas viviendas son maquetas tridimensionales del cosmos. En el centro de la habitación resplandece el fogón o tlecuil compuesto por tres piedras sagradas que sostienen el comal de barro para cocer las tortillas, acompañado por el metate, la prensa de madera y los cántaros de agua. A unos pasos se despliega el diorama de la milpa, el agroecosistema policultivo de maíz, frijol, calabaza, chile y quelites que constituye el eje económico y espiritual de las comunidades. Para las naciones nativas, la milpa no es un simple campo agrícola de producción, sino una persona sagrada que requiere ritos de agradecimiento, altares y plegarias para que las lluvias bendigan la cosecha.
+
+**EN:** As you step into the spaces devoted to everyday life in the ethnographic halls, the scent of damp earth, ocote pinewood, and copal smoke immediately envelops your experience. The full-scale re-creation of The Traditional House and the Sacred Cycle of the Indigenous Milpa carries the viewer to the sacred heart of the original domestic space. Built from local organic materials, including wattle-and-daub walls, bamboo rods, adobe bricks, and four-pitched roofs of grass or straw, these dwellings are three-dimensional models of the cosmos. At the center of the room glows the hearth, or tlecuil, made of three sacred stones that hold the clay griddle for cooking tortillas, accompanied by the grinding stone, the wooden press, and the water jars. A few steps away unfolds the diorama of the milpa, the polyculture agroecosystem of maize, beans, squash, chile, and wild greens that forms the economic and spiritual axis of the communities. For the native nations, the milpa is not merely an agricultural field of production, but a sacred person who requires rites of gratitude, altars, and prayers so that the rains will bless the harvest.
+
+### guion_largo
+
+**ES:** En la estructura social y la cosmovisión de las sociedades indígenas de México —desde los nahuas y mayas hasta los purépechas, otomíes y zapotecas— la casa tradicional y la milpa constituyen las dos piedras angulares donde se reproduce diariamente la vida material y espiritual de la comunidad. La vivienda campesina no se reduce a una construcción utilitaria para protegerse del clima, sino que funciona como un templo doméstico alineado con los cuatro rumbos celestes y el centro del universo. Los materiales de construcción son extraídos directamente del entorno ecológico de la región: troncos de pino o encino en las serranías frías, caña de otate y palma en las tierras bajas, y muros de piedra o adobe en los valles templados. En el interior de la residencia, el espacio está minuciosamente organizado alrededor del fogón de tres piedras o tlecuil, el cual simboliza el "ombligo" o centro del hogar donde se transforma el maíz cocido con cal (nixtamal) en la masa vivificante que alimenta a la familia. Junto al fogón, el altar familiar alberga imágenes de los santos patronos revestidos con flores, ceras y ofrendas de semillas, punto de contacto entre los vivos y los ancestros que protegen la vivienda. Inseparable de la casa es el cultivo de la milpa, el sistema agrícola milenario que permitió el desarrollo de las grandes civilizaciones de América. En las salas del museo, el ciclo de la milpa se presenta como una secuencia litúrgica ligada al calendario ceremonial y astronómico de los pueblos. El ciclo comienza en los meses de febrero y marzo con los ritos de bendición de las semillas y la roza-tumba-quema del terreno, donde los campesinos solicitan permiso a los "Dueños del Monte" o espíritus de la naturaleza antes de sembrar con el bastón plantador o coa. Con la llegada de las lluvias en mayo, se celebran las ceremonias de petición de agua en los cerros y cuevas sagradas. Cuando los primeros elotes maduran a finales del verano, se lleva a cabo la fiesta de los primeros frutos o elotadas, donde se consumen los atoles y esquites sagrados en un ambiente de fiesta comunitaria. Finalmente, en noviembre, la cosecha del maíz seco coincide con las festividades de Días de Muertos (Xantolo o Kin Tajimoltic), donde se ofrenda la abundancia cosechada a los difuntos que ayudaron desde el inframundo a que el maizal prosperara. La recreación de estas viviendas e instalaciones agrícolas en la planta alta del Museo Nacional de Antropología fue posible gracias a proyectos de acopio de etnografía arquitectónica coordinados por el INAH. Maestros constructores e informantes indígenas de Puebla, Oaxaca, Michoacán y Yucatán viajaron a la Ciudad de México para levantar con sus propias manos y técnicas ancestrales las casas de madera, quincha y palma exhibidas en las salas. Asimismo, las herramientas agrícolas originales —machetes, coas, arados de madera, tenates de palma y trojes— fueron donadas o adquiridas directamente en las comunidades campesinas. Esta exhibición permanente en el MNA enseña a los visitantes que la milpa indígena no es un método agrícola obsoleto, sino un modelo sustentable y sagrado de soberanía alimentaria que ha sostenido a México durante más de cuatro milenios.
+
+**EN:** In the social structure and worldview of the Indigenous societies of Mexico, from the Nahua and Maya to the Purépecha, Otomí, and Zapotec, the traditional house and the milpa are the two cornerstones where the material and spiritual life of the community is reproduced every day. The rural dwelling is not reduced to a utilitarian construction for shelter from the weather, but functions as a domestic temple aligned with the four cardinal directions and the center of the universe. The building materials are drawn directly from the ecological surroundings of the region: pine or oak trunks in the cold highlands, bamboo cane and palm in the lowlands, and stone or adobe walls in the temperate valleys. Inside the home, the space is meticulously organized around the three-stone hearth, or tlecuil, which symbolizes the “navel” or center of the household, where maize cooked with lime, known as nixtamal, is transformed into the life-giving dough that feeds the family. Beside the hearth, the family altar holds images of patron saints adorned with flowers, wax candles, and offerings of seeds, a point of contact between the living and the ancestors who protect the home. Inseparable from the house is the cultivation of the milpa, the ancient agricultural system that made possible the development of the great civilizations of the Americas. In the museum’s halls, the cycle of the milpa is presented as a liturgical sequence tied to the ceremonial and astronomical calendar of the peoples. The cycle begins in February and March with the rites of blessing for the seeds and the slash-and-burn clearing of the land, when farmers ask permission from the “Owners of the Wilderness,” the spirits of nature, before sowing with the planting stick, or digging stick. With the arrival of the rains in May, ceremonies to ask for water are held on sacred hills and in caves. When the first young ears of corn ripen in late summer, the festival of the first fruits takes place, where sacred atoles and corn kernel dishes are shared in an atmosphere of community celebration. Finally, in November, the harvest of the dry maize coincides with the Days of the Dead festivities, known as Xantolo or Kin Tajimoltic, when the abundance of the harvest is offered to the departed who helped from the underworld so that the cornfield would flourish. The re-creation of these dwellings and agricultural installations on the upper floor of the National Museum of Anthropology was made possible by architectural ethnography collection projects coordinated by the INAH. Master builders and Indigenous informants from Puebla, Oaxaca, Michoacán, and Yucatán traveled to Mexico City to raise, with their own hands and ancestral techniques, the houses of wood, wattle, and palm displayed in the halls. Likewise, the original agricultural tools, including machetes, digging sticks, wooden plows, palm baskets, and granaries, were donated or acquired directly in the farming communities. This permanent exhibition at the MNA teaches visitors that the Indigenous milpa is not an obsolete agricultural method, but a sustainable and sacred model of food sovereignty that has sustained Mexico for more than four millennia.
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### retos_observacion
+
+**ES:** Fogón tradicional de tres piedras (tlecuil) y comal de barro en el centro doméstico / Herramientas tradicionales de siembra como el bastón plantador o coa / Estructura de amarres e vigas de madera sin clavos metálicos en el techo de paja
+
+**EN:** Traditional three-stone hearth (tlecuil) and clay griddle at the domestic center / Traditional planting tools such as the planting stick, or digging stick / Structure of lashings and wooden beams with no metal nails in the straw roof
+
+### especificaciones
+
+**ES:** Pueblo Indígena: Multiétnico (Nahuas, Mayas, Zapotecos, Mixtecos, entre otros) / Región: Mesoamérica y regiones agrícolas de México / Técnica/Material: Arquitectura vernácula (bahareque, paja, madera) y utillaje doméstico original / Función: Recreación del espacio doméstico y ciclo ritual agrofestivo del maíz
+
+**EN:** Indigenous People: Multiethnic (Nahua, Maya, Zapotec, Mixtec, among others) / Region: Mesoamerica and agricultural regions of Mexico / Technique/Material: Vernacular architecture (wattle-and-daub, straw, wood) and original domestic implements / Function: Re-creation of the domestic space and the agricultural-festive ritual cycle of maize
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### faq_mito
+
+**ES:** pregunta: Mito: La milpa indígena es un simple monocultivo de maíz idéntico a las plantaciones industriales modernas. / respuesta: Realidad: Según los estudios del INAH, es un agroecosistema milenario biodiverso (maíz, frijol, calabaza, chile) basado en la reciprocidad comunitaria y el equilibrio ecológico.
+
+**EN:** pregunta: Myth: The Indigenous milpa is a simple maize monoculture identical to modern industrial plantations. / respuesta: Reality: According to INAH studies, it is an ancient, biodiverse agroecosystem (maize, beans, squash, chile) based on community reciprocity and ecological balance.
+
+## Pieza: mna_s12_acervo_textil
+
+### titulo
+
+**ES:** Acervo Textil Comunitario (Huipiles y telares tradicionales)
+
+**EN:** Community Textile Collection (huipils and traditional looms)
+
+### frase_gancho
+
+**ES:** Lienzos de telar donde la mujer teje la memoria cósmica.
+
+**EN:** Loom-woven cloths where women weave cosmic memory.
+
+### puente_narrativo
+
+**ES:** Cerrando el recorrido por la primera sala etnográfica, este acervo de indumentaria tradicional celebra el arte textil femenino y sus símbolos ancestrales.
+
+**EN:** Closing the tour of the first ethnographic hall, this collection of traditional garments celebrates women’s textile art and its ancestral symbols.
+
+### guion_corto
+
+**ES:** Al situarse frente a las vitrinas que albergan la deslumbrante colección de textiles indígenas en las salas de la planta alta, la explosión cromática y la delicadeza de las tramas cautivan de inmediato la mirada del visitante. El Acervo Textil Comunitario reúne una colección viva de huipiles, quechquémitls, enredos, fajas y morrales elaborados por tejedoras artesanales de diversas regiones del país, como Oaxaca, Chiapas, Guerrero, Michoacán y la Sierra de Puebla. Confeccionadas predominantemente en el milenario telar de cintura o de pedales, estas prendas de vestir utilizan fibras naturales de algodón blanco y coyuchi café, lana de borrego e ixtle de maguey, teñidas con tintes orgánicos de cochinilla grana, añil azul y caracol púrpura. Más que vestidos o prendas ornamentales profanas, los huipiles son verdaderos códices de tela en los que las artesanas plasman mediante bordados y brocados la estructura del universo: los cuatro rumbos celestes, la Serpiente de Agua, las flores del cerro y los ancestros. Contemplar estas obras textiles en el Museo Nacional de Antropología es admirar la ciencia, la paciencia y el estatus espiritual de la mujer originaria en el tejido de la vida.
+
+**EN:** Standing before the display cases that hold the dazzling collection of Indigenous textiles in the halls on the upper floor, visitors are captivated at once by the burst of color and the delicacy of the weaving. The Community Textile Collection brings together a living collection of huipils, shoulder capes, wraparound skirts, sashes, and shoulder bags made by artisan weavers from many regions of the country, such as Oaxaca, Chiapas, Guerrero, Michoacán, and the Puebla highlands. Made predominantly on the ancient backstrap loom or the treadle loom, these garments use natural fibers of white cotton and brown coyuchi cotton, sheep’s wool, and maguey ixtle fiber, dyed with organic dyes of cochineal, blue indigo, and purple sea snail. More than mere dresses or secular ornamental garments, the huipils are true codices of cloth, in which the artisans capture, through embroidery and brocade, the structure of the universe: the four celestial directions, the Water Serpent, the flowers of the hill, and the ancestors. To contemplate these textile works in the National Museum of Anthropology is to admire the knowledge, the patience, and the spiritual standing of Indigenous women in the weaving of life.
+
+### guion_largo
+
+**ES:** En la tradición artesanal e ideológica de los pueblos indígenas de México, la elaboración textil constituye una de las expresiones creativas más complejas, bellas y cargadas de simbolismo de la cultura nativa. Herederas directas de las técnicas prehispánicas representadas en estelas y figurillas de arcilla —donde la diosa Ixchel patronaba el tejido y la fertilidad— las mujeres indígenas continúan transformando el hilo en un lenguaje gráfico singular que transmite la identidad de su pueblo. El instrumento primordial de esta labor es el telar de cintura, un telar portátil compuesto por varas de madera que la tejedora sujeta en un extremo a un árbol o poste y en el otro a una faja de cuero apoyada en la parte baja de su vientre. Al tensionar el telar con el peso de su propio cuerpo, la artesana entrelaza la urdimbre y la trama utilizando el hueso o la lanzadera, componiendo pacientemente los diseños de la tela que pueden requerir meses enteros de trabajo continuo. El Acervo Textil preservado en el Museo Nacional de Antropología reúne piezas emblemáticas de singular virtuosismo técnico. Entre ellas destacan los huipiles de gasa de alta montaña de Cuetzalan en Puebla, los coloridos brocados tridimensionales de las comunidades tzotziles y tzeltales de Zinacantán y Larráinzar en Chiapas, los pesados huipiles de boda de Jalapa de Díaz en Oaxaca, y las intrincadas fajas y enredos teñidos con añil de las mujeres purépechas de Michoacán y amuzgas de Guerrero. La iconografía tejida sobre el cuello y pecho de la prenda no es aleatoria: el hueco cuadrado o circular del cuello del huipil representa el sol o el portal por donde la cabeza de la mujer emerge para colocarse en el centro del cosmos. Los brocados de rombos encadenados simbolizan el mundo y las flores del cerro, mientras que las figuras de aves, sapos, jaguares y mariposas evocan a los espíritus guardianes de la naturaleza y del agua. La conformación de esta invaluable colección textil fue iniciada a mediados del siglo veinte gracias a las campañas de adquisición etnográfica dirigidas por pioneros del INAH y donaciones de destacadas investigadoras y antropólogas. Muchas de las prendas fueron adquiridas directamente a las maestras tejedoras en los tianguis comunitarios de Tlaxiaco, San Cristóbal de las Casas y Cuetzalan, registrando el nombre de la creadora, el tipo de telar, los tintes vegetales y el significado mitológico de los brocados. Este acervo se exhibe permanentemente en las salas etnográficas de la planta alta del museo, permaneciendo como una fuente inagotable de inspiración estética que demuestra que el hilo textil es el documento histórico en el que se ha bordado la resistencia y dignidad de la mujer indígena de México.
+
+**EN:** In the artisanal and ideological tradition of the Indigenous peoples of Mexico, textile making is one of the most complex, beautiful, and symbolically charged creative expressions of native culture. As direct heirs of the pre-Hispanic techniques depicted on stelae and clay figurines, where the goddess Ixchel presided over weaving and fertility, Indigenous women continue to transform thread into a unique graphic language that conveys the identity of their people. The primary instrument of this work is the backstrap loom, a portable loom made of wooden rods that the weaver fastens at one end to a tree or post and at the other to a leather strap resting on the lower part of her belly. By tensing the loom with the weight of her own body, the artisan interlaces the warp and the weft using the bone or the shuttle, patiently composing the designs of the cloth, which can require entire months of continuous work. The Textile Collection preserved in the National Museum of Anthropology brings together emblematic pieces of singular technical virtuosity. Among them stand out the high-mountain gauze huipils of Cuetzalan in Puebla, the colorful three-dimensional brocades of the Tzotzil and Tzeltal communities of Zinacantán and Larráinzar in Chiapas, the heavy wedding huipils of Jalapa de Díaz in Oaxaca, and the intricate sashes and wraparound skirts dyed with indigo by Purépecha women of Michoacán and Amuzgo women of Guerrero. The iconography woven around the neck and chest of the garment is not random: the square or circular opening of the huipil’s neckline represents the sun, or the portal through which a woman’s head emerges to place herself at the center of the cosmos. The brocades of interlocking diamonds symbolize the world and the flowers of the hill, while the figures of birds, toads, jaguars, and butterflies evoke the guardian spirits of nature and of water. The formation of this invaluable textile collection began in the middle of the twentieth century, thanks to ethnographic acquisition campaigns led by INAH pioneers and to donations from distinguished researchers and anthropologists. Many of the garments were acquired directly from master weavers at the community markets of Tlaxiaco, San Cristóbal de las Casas, and Cuetzalan, recording the name of the creator, the type of loom, the plant dyes, and the mythological meaning of the brocades. This collection is on permanent display in the ethnographic halls on the upper floor of the museum, remaining an inexhaustible source of aesthetic inspiration that shows that textile thread is the historical document in which the resistance and dignity of Indigenous women of Mexico have been embroidered.
+
+### retos_observacion
+
+**ES:** Abertura del cuello del huipil con bordados en rombos que simbolizan los cuatro rumbos celestes / Muestra del telar de cintura atado a un soporte con hilos de algodón nativo coyuchi / Brocados tridimensionales de flora y fauna teñidos con cochinilla grana y añil
+
+**EN:** Neckline opening of the huipil with diamond embroidery that symbolizes the four celestial directions / Sample of the backstrap loom tied to a support, with native coyuchi cotton threads / Three-dimensional brocades of flora and fauna dyed with cochineal and indigo
+
+### especificaciones
+
+**ES:** Pueblo Indígena: Amuzgos, Tzotziles, Nahuas, Chinantecos, Triquis, entre otros / Región: Oaxaca, Chiapas, Puebla, Guerrero y Yucatán / Técnica/Material: Algodón, lana, seda, tintes naturales; tejido en telar de cintura y brocado / Función: Indumentaria ceremonial y cotidiana con alto valor identitario
+
+**EN:** Indigenous People: Amuzgo, Tzotzil, Nahua, Chinantec, Triqui, among others / Region: Oaxaca, Chiapas, Puebla, Guerrero, and Yucatán / Technique/Material: Cotton, wool, silk, natural dyes; woven on a backstrap loom and brocaded / Function: Ceremonial and everyday clothing with high identity value
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### faq_mito
+
+**ES:** pregunta: Mito: Los huipiles y bordados indígenas son modas comerciales modernas copiadas de catálogos de vestidos europeos. / respuesta: Realidad: Según los catálogos del INAH, son prendas sagradas prehispánicas elaboradas en telar de cintura que representan la cosmovisión y geografía de la comunidad.
+
+**EN:** pregunta: Myth: Indigenous huipils and embroidery are modern commercial fashions copied from European dress catalogs. / respuesta: Reality: According to INAH catalogs, they are sacred pre-Hispanic garments made on the backstrap loom that represent the worldview and geography of the community.
+
+## Pieza: mna_s13_nierika_estambre
+
+### titulo
+
+**ES:** Nierika sagrada de estambre (Visión y camino al Wirikuta)
+
+**EN:** Sacred Yarn Nierika (Vision and Path to Wirikuta)
+
+### frase_gancho
+
+**ES:** Espejo de estambre multicolor donde los dioses revelan su visión.
+
+**EN:** A multicolored yarn mirror where the gods reveal their vision.
+
+### puente_narrativo
+
+**ES:** Al ingresar a la Sala El Gran Nayar, esta monumental tabla de estambre introduce la profunda visión espiritual y las visiones del pueblo Wixárika.
+
+**EN:** Upon entering the Gran Nayar Hall, this monumental yarn board introduces the profound spiritual vision and the visions of the Wixárika (Huichol) people.
+
+### guion_corto
+
+**ES:** Al situarse ante la vitrina que resguarda esta deslumbrante tabla de estambre en la Sala del Gran Nayar, la vibración policroma y el dinamismo de los trazos geométricos fascinan de inmediato los sentidos. Conocida en la lengua originaria como Nierika o cuadro de estambre, este objeto sagrado del pueblo Wixárika (huichol) representa una de las manifestaciones espirituales e idílicas más profundas del México indígena. Elaborado adhiriendo meticulosamente hilos de lana o estambre acrílico de brillantes colores sobre una tabla de madera cubierta de cera de campeche o resina de pino, el Nierika es en realidad un instrumento de visión mística y un portal cosmogónico. La composición plasma las visiones o revelaciones trascendentales alcanzadas por el mara'akame o chamán cantor durante la peregrinación ritual al desierto sagrado de Wirikuta en Real de Catorce, San Luis Potosí. En el lienzo resplandecen las figuras interconectadas del venado sagrado (Kauyumari), el cactus del peyote (híkuri), el sol naciente (Tawexikad), el fuego venerado (Tatewari) y las serpientes de lluvia. Contemplar este Nierika en el Museo Nacional de Antropología es asomarse a la ventana del alma wixárika.
+
+**EN:** Standing before the display case that guards this dazzling yarn board in the Gran Nayar Hall, you are immediately captivated by the polychrome vibration and the dynamism of its geometric lines. Known in the native language as Nierika, or yarn painting, this sacred object of the Wixárika people represents one of the most profound spiritual and idyllic expressions of Indigenous Mexico. Made by meticulously pressing threads of wool or brightly colored acrylic yarn onto a wooden board covered with Campeche wax or pine resin, the Nierika is in truth an instrument of mystical vision and a cosmogonic portal. The composition captures the visions, or transcendent revelations, attained by the mara’akame, the singing shaman, during the ritual pilgrimage to the sacred desert of Wirikuta in Real de Catorce, San Luis Potosí. Across the canvas shine the interconnected figures of the sacred deer known as Kauyumari, the peyote cactus called híkuri, the rising sun called Tawexikad, the revered fire Tatewari, and the rain serpents. To contemplate this Nierika in the National Museum of Anthropology is to look through a window onto the Wixárika soul.
+
+### guion_largo
+
+**ES:** En las abruptas barrancas y cumbres de la Sierra Madre Occidental, en los límites de Nayarit, Jalisco, Durango y Zacatecas, el pueblo Wixárika o Huichol ha preservado a lo largo de milenios una de las religiones indígenas más complejas y puras de América. En el centro de su vida espiritual se encuentra la institución del mitote y la peregrinación ritual al territorio sagrado de Wirikuta en el desierto de San Luis Potosí. Cada año, los peregrinos o jicareros conducidos por el mara'akame (chamán y cantor sagrado) emprenden una travesía de cientos de kilómetros para recrear la caminata original que realizaron los antepasados de la creación al principio del mundo. Al llegar al desierto y recolectar el híkuri o peyote —cactus sagrado concebido como la huella del venado Kauyumari— los participantes ingieren el enteógeno en un acto de comunión colectiva. Esta experiencia espiritual otorga el nierika: la facultad sagrada de "ver" la verdadera esencia de los dioses, las fuerzas de la naturaleza y los cantos que sostienen el equilibrio del cosmos. El objeto físico denominado Nierika es la traducción material de esa revelación mística. Tradicionalmente confeccionado como un disco o pequeña tabla de madera agujereada con cera y lana, el Nierika evolucionó durante la segunda mitad del siglo veinte hacia complejas tablas cuadrangulares de estambre que narran mitos cosmogónicos completos. El proceso artesanal exige un dominio técnico excepcional: sobre la tabla de madera pulida, el artista wixárika unta una capa uniforme de cera de abejas silvestres o resina mineral caliente (xuturi). Con una aguja o punzón, el creador fija pacientemente cabo por cabo los hilos de estambre de tonalidades fosforescentes —amarillo, azul turquesa, rojo ocre, violeta y verde— apretando los hilos en contornos en espiral hasta cubrir la totalidad de la superficie sin dejar espacios vacíos. Cada figura dibujada representa un numen: el venado de cuernos ramificados simboliza a Kauyumari, el guía místico que entregó el maíz; las flores circulares de peyote representan las visiones; las serpientes emplumadas encarnan las nubes de lluvia que regresan del mar; y los soles radiantes representan a Tatewari, el Fuego Primordial que escucha las oraciones de los hombres. La presencia de estas espectaculares tablas de estambre en la Galería del Gran Nayar de la planta alta del Museo Nacional de Antropología fue el resultado de proyectos de acopio etnográfico promovidos por el INAH a partir de la década de 1960. Destacados antropólogos como Fernando Benítez, Johannes Neurath y Guillermo Bonfil colaboraron directamente con sabios y artistas wixáritari como José Benítez Sánchez y Juan Negrín para registrar el significado mitológico trazado en cada lienzo de estambre. Estas piezas fueron adquiridas respetando los códigos comunitarios y consagran el valor del arte huichol como un testimonio vivo de resistencia cultural. Exhibido en el MNA, el Nierika se mantiene como un portal de luz que invita a los visitantes de todo el mundo a contemplar el arte sagrado de Wirikuta.
+
+**EN:** In the rugged canyons and peaks of the Sierra Madre Occidental, on the borders of Nayarit, Jalisco, Durango and Zacatecas, the Wixárika people have preserved for millennia one of the most complex and pure Indigenous religions of the Americas. At the center of their spiritual life stand the institution of the mitote ceremonial gathering and the ritual pilgrimage to the sacred territory of Wirikuta in the desert of San Luis Potosí. Each year, the pilgrims, or gourd bearers, led by the mara’akame, who is a shaman and sacred singer, set out on a journey of hundreds of kilometers to recreate the original walk made by the ancestors of creation at the beginning of the world. Upon reaching the desert and gathering the híkuri, or peyote, a sacred cactus conceived as the footprint of the deer Kauyumari, the participants ingest the entheogen in an act of collective communion. This spiritual experience grants the nierika: the sacred faculty of “seeing” the true essence of the gods, the forces of nature, and the songs that sustain the balance of the cosmos. The physical object called Nierika is the material translation of that mystical revelation. Traditionally made as a disc or small wooden board perforated and filled with wax and wool, the Nierika evolved during the second half of the twentieth century into complex square yarn boards that narrate entire cosmogonic myths. The craft demands exceptional technical mastery: on the polished wooden board, the Wixárika artist spreads an even layer of wax from wild bees or hot mineral resin called xuturi. With a needle or awl, the creator patiently fixes, strand by strand, yarn threads in phosphorescent shades of yellow, turquoise blue, ocher red, violet and green, pressing the threads into spiral contours until the entire surface is covered with no empty spaces. Each figure drawn represents a deity: the deer with branching antlers symbolizes Kauyumari, the mystical guide who gave maize to humankind; the circular peyote flowers represent the visions; the feathered serpents embody the rain clouds that return from the sea; and the radiant suns represent Tatewari, the Primordial Fire who listens to the prayers of human beings. The presence of these spectacular yarn boards in the Gran Nayar Gallery on the Upper Floor of the National Museum of Anthropology was the result of ethnographic collecting projects promoted by INAH beginning in the 1960s. Distinguished anthropologists such as Fernando Benítez, Johannes Neurath and Guillermo Bonfil worked directly with Wixárika sages and artists such as José Benítez Sánchez and Juan Negrín to record the mythological meaning traced in each yarn canvas. These pieces were acquired with respect for community codes, and they affirm the value of Wixárika art as a living testimony of cultural resistance. Displayed in the MNA, the Nierika remains a portal of light that invites visitors from all over the world to contemplate the sacred art of Wirikuta.
+
+### retos_observacion
+
+**ES:** Representación del venado Kauyumari con cuernos florecidos en el centro de la tabla / Motivos de cactus sagrado de peyote (híkuri) trazados en estambre de vivos colores / Técnica de fijación con cera silvestre o resina que sostiene los hilos de lana
+
+**EN:** Depiction of the deer Kauyumari with flowering antlers at the center of the board / Motifs of the sacred peyote cactus (híkuri) traced in vividly colored yarn / Technique of fixing the wool threads with wild wax or resin
+
+### especificaciones
+
+**ES:** Pueblo Indígena: Wixárika (Huichol) / Región: Gran Nayar (Jalisco, Nayarit, Durango y Zacatecas / Wirikuta) / Técnica/Material: Estambre de lana policromado adherido con cera de abejas sobre tabla de madera / Función: Cuadro devocional, portal de visión mística y registro mitológico
+
+**EN:** Indigenous People: Wixárika / Region: Gran Nayar (Jalisco, Nayarit, Durango and Zacatecas / Wirikuta) / Technique/Material: Polychrome wool yarn attached with beeswax on a wooden board / Function: Devotional painting, portal of mystical vision, and mythological record
+
+### faq_mito
+
+**ES:** pregunta: Mito: Los cuadros de estambre Nierika son cuadros decorativos comerciales inventados por galerías de arte extranjeras en los años 80. / respuesta: Realidad: Según los estudios del INAH, el Nierika es un objeto sagrado ancestral de la cultura Wixárika que funciona como portal místico de visión e instrumentos de rezo.
+
+**EN:** pregunta: Myth: Nierika yarn paintings are commercial decorative pictures invented by foreign art galleries in the 1980s. / respuesta: Reality: According to INAH studies, the Nierika is an ancestral sacred object of Wixárika culture that functions as a mystical portal of vision and as an instrument of prayer.
+
+## Pieza: mna_s13_traje_wixarika
+
+### titulo
+
+**ES:** Traje ceremonial Wixárika (Bordado, chaquira y venado)
+
+**EN:** Wixárika Ceremonial Outfit (Embroidery, Beads, and Deer)
+
+### frase_gancho
+
+**ES:** Atavío de luz y chaquira que viste al peyotero sagrado.
+
+**EN:** A garment of light and beads that clothes the sacred peyote pilgrim.
+
+### puente_narrativo
+
+**ES:** Ubicado en el sector de las autoridades tradicionales, este atuendo muestra la riqueza del bordado y el trabajo en chaquira de los jicareros de la Sierra.
+
+**EN:** Located in the section devoted to the traditional authorities, this outfit shows the richness of the embroidery and beadwork of the gourd bearers of the mountains.
+
+### guion_corto
+
+**ES:** Al situarse frente al maniquí que viste el atuendo ceremonial en la Sala del Gran Nayar, la deslumbrante riqueza de bordados y el brillo iridiscente de las cuentas de chaquira cautivan de inmediato los sentidos. El Traje ceremonial Wixárika (huichol) representa la indumentaria sagrada que portan los jicareros o peregrinos peyoteros durante las festividades litúrgicas y las maratónicas caminatas hacia el desierto sagrado de Wirikuta. La indumentaria masculina consta de una camisa o cotón de manta blanca de algodón (kutuni) y pantalón (huxuri), cuyas mangas, dobladillos y cuellos están profusamente cubiertos por minúsculos bordados en punto de cruz en colores rojo, amarillo y azul. Sobre los hombros reposa la pañoleta o ruana, mientras que de la cintura cuelgan múltiples morralitos de lana tejida (kutsuri) y un faldellín de chifles o listones coloridos. El atavío se remata con el sombrero de paja de ala ancha (rupurero), ornado con plumas de guacamaya, ardillas disecadas y rosetones de chaquira. Para el pueblo wixárika, cada elemento cosido a la prenda es una oración protectora que viste al caminante con la luz divina de sus antepasados.
+
+**EN:** Standing before the mannequin that wears the ceremonial outfit in the Gran Nayar Hall, you are immediately captivated by the dazzling richness of the embroidery and the iridescent gleam of the glass beads. The Wixárika (Huichol) Ceremonial Outfit is the sacred dress worn by the gourd bearers, or peyote pilgrims, during liturgical festivities and the marathon walks to the sacred desert of Wirikuta. The men’s attire consists of a shirt or tunic of white cotton cloth, called kutuni, and trousers, called huxuri, whose sleeves, hems, and collars are profusely covered with tiny cross-stitch embroidery in red, yellow, and blue. A shawl rests on the shoulders, while from the waist hang several small bags of woven wool, called kutsuri, and a small skirt of fringes or colorful ribbons. The outfit is crowned by a wide-brimmed straw hat, called a rupurero, adorned with macaw feathers, preserved squirrels, and rosettes of beads. For the Wixárika people, every element sewn onto the garment is a protective prayer that clothes the traveler in the divine light of their ancestors.
+
+### guion_largo
+
+**ES:** En la región del Gran Nayar, en el corazón montañoso de la Sierra Madre Occidental, la indumentaria tradicional del pueblo Wixárika trasciende la función utilitaria del abrigo para convertirse en una vestidura litúrgica completa, cargada de significados cosmogónicos y estatus social dentro del sistema de cargos comunitarios. Vestir el traje tradicional no es una práctica reservada exclusivamente a las festividades anuales, pero es durante el ciclo de las fiestas agrícolas del Mitote, el Híkuri Neixa (danza del peyote) y la caminata a Wirikuta cuando la indumentaria despliega su máximo esplendor visual. Los peregrinos o hikuritamete que asumen la sagrada encomienda de viajar al desierto para recolectar las medicinas y peticiones de la comunidad deben someterse a ayunos severos, confesiones rituales y desvelos, portando su traje blanco pulcro adornado con bordados e insignias sagradas que los identifican como guerreros de la luz solar ante los espíritus del mundo. Al analizar en detalle las distintas prendas que componen el atavío expuesto en el museo, el observador admira la virtuosa destreza artesanal ejecutada por las mujeres wixáritari. La camisa y el pantalón de manta fina de algodón exhiben una saturación de bordados geométricos realizados en punto de cruz con hilos de lana o algodón teñido. Los motivos bordados incluyen efigies del venado Kauyumari con cuernos florecidos, cabezas de águilas de dos cabezas que velan por el cielo, águilas reales, peyotes floridos y flores de tórtola (tutus), patrones que funcionan como amuletos de protección personal. Alrededor de la cintura del peregrino se atan múltiples morrales pequeños de lana (kutsuri) bellamente labrados, en los cuales los peregrinos guardan el maíz sagrado, las pipas de tabaco macuche, el peyote y las agujas de autosacrificio. Las bandas bordadas de chaquira o pulseras (matsuwa) ceñidas a las muñecas y los collares de cuentas multicolores completan la protección corporal. El sombrero de paja de ala ancha o rupurero constituye la pieza de mayor carga de rango e identidad espiritual. El sombrero está adornado en su copa y alero con plumas blancas de guacamaya o águila, rosetones de chaquira de vivos colores que simbolizan el ojo de dios (tsikuri), y cuernos diminutos o colas de venado atadas a los costados. Las plumas de ave que vibran con el viento captan los mensajes celestes y guían la voz del cantor durante las largas veladas nocturnas. El acopio e integración de este traje ceremonial completo en la Sala del Gran Nayar del Museo Nacional de Antropología fue realizado mediante proyectos de investigación etnográfica coordinados por el INAH en comunidades como San Andrés Cohamiata, Santa Catarina Cuexcomatitlán y San Sebastián Teponahuaxtlan en Jalisco. La indumentaria fue confeccionada por maestras bordadoras tradicionales y entregada al museo con la autorización de las autoridades tradicionales o mamaros, constituyendo uno de los testimonios de indumentaria nativa más hermosos y admirados por los visitantes de la exposición permanente del MNA.
+
+**EN:** In the Gran Nayar region, in the mountainous heart of the Sierra Madre Occidental, the traditional dress of the Wixárika people goes beyond the practical function of clothing to become a complete liturgical vestment, laden with cosmogonic meanings and social status within the system of community offices. Wearing the traditional outfit is not a practice reserved exclusively for the annual festivals, but it is during the cycle of the agricultural festivals of the Mitote, the Híkuri Neixa, the peyote dance, and the walk to Wirikuta that the attire displays its greatest visual splendor. The pilgrims, or hikuritamete, who take on the sacred charge of traveling to the desert to gather the medicines and petitions of the community must submit to severe fasting, ritual confessions, and sleepless vigils, wearing their spotless white outfit adorned with embroidery and sacred emblems that identify them as warriors of the sunlight before the spirits of the world. When examining in detail the different garments that make up the outfit displayed in the museum, the observer admires the virtuoso craftsmanship carried out by the Wixárika women. The shirt and trousers of fine cotton cloth display a saturation of geometric embroidery worked in cross-stitch with dyed wool or cotton thread. The embroidered motifs include effigies of the deer Kauyumari with flowering antlers, heads of double-headed eagles that watch over the sky, golden eagles, blooming peyotes, and turtledove flowers, known as tutus, patterns that work as amulets of personal protection. Around the pilgrim’s waist are tied several beautifully worked small wool bags, called kutsuri, in which the pilgrims keep the sacred maize, pipes of native tobacco, peyote, and the needles of self-sacrifice. Bands embroidered with beads, or bracelets, called matsuwa, fastened around the wrists, and necklaces of multicolored beads complete the protection of the body. The wide-brimmed straw hat, or rupurero, is the piece that carries the greatest weight of rank and spiritual identity. The hat is adorned on its crown and brim with white macaw or eagle feathers, rosettes of brightly colored beads that symbolize the eye of God, called the tsikuri, and tiny antlers or deer tails tied at the sides. The bird feathers that tremble in the wind capture celestial messages and guide the voice of the singer during the long nights of vigil. The collection and incorporation of this complete ceremonial outfit into the Gran Nayar Hall of the National Museum of Anthropology was carried out through ethnographic research projects coordinated by the INAH in communities such as San Andrés Cohamiata, Santa Catarina Cuexcomatitlán, and San Sebastián Teponahuaxtlan in Jalisco. The outfit was made by traditional master embroiderers and given to the museum with the authorization of the traditional authorities, or mamaros, making it one of the most beautiful testimonies of native dress and one of the most admired by visitors to the permanent exhibition of the MNA.
+
+### retos_observacion
+
+**ES:** Bordados minuciosos en punto de cruz con figuras de venados y flores de peyote / Sombrero de paja de ala ancha adornado con plumas de ave y rosetones de chaquira / Colección de morralitos tejidos de lana (kutsuri) atados a la cintura del peyotero
+
+**EN:** Meticulous cross-stitch embroidery with figures of deer and peyote flowers / Wide-brimmed straw hat adorned with bird feathers and rosettes of beads / Collection of small woven wool bags (kutsuri) tied at the waist of the peyote pilgrim
+
+### especificaciones
+
+**ES:** Pueblo Indígena: Wixárika (Huichol) / Región: Sierra del Gran Nayar (Jalisco y Nayarit) / Técnica/Material: Manta de algodón bordada, telar de cintura, chaquira de cristal, plumas y palma / Función: Indumentaria ceremonial de autoridades sagradas e iniciados (jicareros)
+
+**EN:** Indigenous People: Wixárika / Region: Gran Nayar Mountains (Jalisco and Nayarit) / Technique/Material: Embroidered cotton cloth, backstrap loom, glass beads, feathers, and palm / Function: Ceremonial dress of sacred authorities and initiates (gourd bearers)
+
+### faq_mito
+
+**ES:** pregunta: Mito: La chaquira y los bordados brillantes del traje wixárika son adornos turísticos de plástico introducidos en el siglo XXI sin valor religioso. / respuesta: Realidad: Según los peritajes del INAH, el uso de la chaquira reemplazó a las semillas prehispánicas, siendo un lenguaje sagrado de protección y rezo ceremonial.
+
+**EN:** pregunta: Myth: The beads and bright embroidery of the Wixárika outfit are plastic tourist decorations introduced in the 21st century with no religious value. / respuesta: Reality: According to INAH expert assessments, the use of glass beads replaced pre-Hispanic seeds, and it is a sacred language of protection and ceremonial prayer.
+
+## Pieza: mna_s13_mascara_cora
+
+### titulo
+
+**ES:** Máscara de Judío / Danza de los Coras de Semana Santa
+
+**EN:** Jew Mask / Dance of the Cora of Holy Week
+
+### frase_gancho
+
+**ES:** Madera y pintura ritual donde la noche combate al sol.
+
+**EN:** Wood and ritual paint where the night battles the sun.
+
+### puente_narrativo
+
+**ES:** Para concluir la visita al Gran Nayar, esta sobrecogedora máscara evoca la Judea o Semana Santa Cora, donde la mitología nativa se fusiona con la Semana Santa católica.
+
+**EN:** To conclude your visit to the Gran Nayar, this awe-inspiring mask evokes the Judea, or Cora Holy Week, where native mythology merges with the Catholic Holy Week.
+
+### guion_corto
+
+**ES:** Al situarse ante la vitrina que resguarda esta sobrecogedora máscara de madera policromada en la Sala del Gran Nayar, la ferocidad de sus trazos y el dinamismo de su expresión paralizan de inmediato los sentidos. Procedente de la comunidad náayari o cora de Santa Teresa o Jesús María en Nayarit, esta pieza forma parte del indumentario ritual utilizado por los danzantes conocidos como 'judíos' o 'borrados' durante la dramatización de la Judea o Semana Santa Cora. Tallada en madera blanda de zopilote o piñón y pintada con pigmentos naturales y hollín, la máscara exhibe facciones grotescas con cuernos de venado o chivo, barbas de crin de caballo y motivos astronómicos trazados en el rostro. Durante la celebración litúrgica del equinoccio de primavera, los jóvenes borrados se transforman en demonios nocturnos o fuerzas del inframundo que persiguen al Santo Niño o Cristo-Sol para sacrificarlo y propiciar la llegada de las lluvias sobre la sierra. Esta máscara no es una simple prenda festiva, sino un instrumento sagrado de transfiguración donde el danzante presta su cuerpo a los ancestros cosmogónicos. Contemplar esta obra en la planta alta del Museo Nacional de Antropología es presenciar uno de los rituales sincréticos más intensos de la etnografía mexicana.
+
+**EN:** Standing before the display case that shelters this awe-inspiring polychrome wooden mask in the Gran Nayar Hall, you find that the ferocity of its strokes and the dynamism of its expression immediately seize the senses. Coming from the Náayari, or Cora, community of Santa Teresa or Jesús María in Nayarit, this piece is part of the ritual attire worn by the dancers known as “Jews” or “the erased ones” during the dramatization of the Judea, or Cora Holy Week. Carved from soft vulture wood or pinyon and painted with natural pigments and soot, the mask displays grotesque features, with deer or goat horns, horsehair beards, and astronomical motifs traced across the face. During the liturgical celebration of the spring equinox, the young erased ones transform into nocturnal demons, or forces of the underworld, who pursue the Holy Child, or Christ-Sun, to sacrifice him and bring the rains to the sierra. This mask is not a mere festive garment, but a sacred instrument of transfiguration in which the dancer lends his body to the cosmogonic ancestors. To contemplate this work on the upper floor of the National Museum of Anthropology is to witness one of the most intense syncretic rituals in Mexican ethnography.
+
+### guion_largo
+
+**ES:** En las abruptas serranías del Gran Nayar, en los cañones profundos que serpentean entre Nayarit y Jalisco, el pueblo Náayari o Cora preserva uno de los ciclos festivos más complejos e impactantes de la etnografía mesoamericana: la Judea o Semana Santa Cora. Lejos de ser una mera recreación pasiva de la Pasión de Cristo impuesta por los misioneros franciscanos y jesuitas durante la época colonial, la Judea constituye la escenificación dramática de una batalla cósmica de origen prehispánico. En el pensamiento religioso cora, el cosmos se encuentra dividido en dos fuerzas antagónicas que requieren equilibrarse anualmente: el sol diurno, asociado a la fertilidad del maíz y a Jesucristo, y las fuerzas nocturnas de la oscuridad, encarnadas por los demonios estériles o 'judíos'. Durante el equinoccio de primavera, cuando la estación seca amenaza con agotar los manantiales antes de las siembras, los jóvenes de la comunidad asumen el cargo sagrado de convertirse en los 'borrados'. Pintando sus cuerpos desnudos con barro, ceniza y hollín, y cubriendo sus rostros con estas imponentes máscaras de madera, los danzantes pierden su identidad humana para personificar al ejército de las tinieblas que toma simbólicamente el control político y espiritual del pueblo durante tres días de desenfreno ritual. Al inspeccionar con detenimiento la factura y los atributos esculpidos en esta máscara en la vitrina del museo, el observador descubre la aterradora belleza del arte ceremonial de la sierra. Tallada a mano con machete y navaja sobre troncos de madera ligera de pochote o zopilote, la pieza presenta facciones angulares y alargadas con órbitas oculares profundas y una boca calada con dientes prominentes de los que brota una larga barba de fibras de ixtle o crin de caballo. La superficie está cubierta por una pátina de pintura casera en tonos rojo mineral, negro carbón y blanco caliche, dibujando trazos en espiral, serpientes y puntos que simbolizan la piel manchada del jaguar nocturno y las estrellas de la mañana. En la parte superior de la frente se adosan dos cuernos de chivo o venado real con las ramificaciones preservadas, elemento iconográfico que vincula al danzante con los espíritus del monte y la fertilidad fálica de la tierra. La crónica del acopio e integración de esta emblemática colección de máscaras a las salas etnográficas del Museo Nacional de Antropología forma parte de los intensos trabajos de campo conducidos a mediados de la década de 1960 por distinguidos antropólogos del INAH como Fernando Benítez, Roberto Williams García y Guillermo Bonfil Batalla. Los investigadores convivieron con las autoridades tradicionales de Santa Teresa y Mesa del Nayar durante las celebraciones pascuales, obteniendo la autorización de los ancianos o 'jicareros' para adquirir las máscaras una vez concluido el ciclo ritual, momento en que los danzantes se sumergen en el río para 'desborrarse' y purificar sus almas. Conservada con veneración en la Sala del Gran Nayar, esta máscara de judío se mantiene como un testimonio indiscutible de la resistencia cultural y del sincretismo religioso del México indígena.
+
+**EN:** In the rugged mountains of the Gran Nayar, in the deep canyons that wind between Nayarit and Jalisco, the Náayari, or Cora, people preserve one of the most complex and striking festive cycles in Mesoamerican ethnography: the Judea, or Cora Holy Week. Far from being a mere passive reenactment of the Passion of Christ imposed by Franciscan and Jesuit missionaries during the colonial era, the Judea is the dramatic staging of a cosmic battle of pre-Hispanic origin. In Cora religious thought, the cosmos is divided into two opposing forces that must be balanced every year: the daytime sun, associated with the fertility of maize and with Jesus Christ, and the nocturnal forces of darkness, embodied by the sterile demons, or “Jews.” During the spring equinox, when the dry season threatens to exhaust the springs before planting, the young men of the community take on the sacred duty of becoming the “erased ones.” Painting their naked bodies with mud, ash, and soot, and covering their faces with these imposing wooden masks, the dancers lose their human identity to embody the army of darkness, which symbolically takes political and spiritual control of the village for three days of ritual abandon. Examining closely the craftsmanship and the carved attributes of this mask in the museum’s display case, the observer discovers the terrifying beauty of the ceremonial art of the sierra. Carved by hand with machete and knife from trunks of light kapok or vulture wood, the piece has angular, elongated features, deep eye sockets, and an open-cut mouth with prominent teeth, from which a long beard of agave fibers or horsehair spills. The surface is covered with a patina of homemade paint in mineral red, charcoal black, and caliche white, forming spirals, serpents, and dots that symbolize the spotted skin of the nocturnal jaguar and the morning stars. On the upper part of the forehead, two goat or full-grown deer horns are attached, with their branches preserved, an iconographic element that links the dancer with the spirits of the wilderness and the phallic fertility of the earth. The story of how this emblematic collection of masks was gathered and brought into the ethnographic halls of the National Museum of Anthropology is part of the intensive fieldwork carried out in the mid-1960s by distinguished INAH anthropologists such as Fernando Benítez, Roberto Williams García, and Guillermo Bonfil Batalla. The researchers lived alongside the traditional authorities of Santa Teresa and Mesa del Nayar during the Easter celebrations, obtaining permission from the elders, or “gourd bearers,” to acquire the masks once the ritual cycle had ended, the moment when the dancers immerse themselves in the river to undo their erasure and purify their souls. Preserved with reverence in the Gran Nayar Hall, this Jew mask stands as an unquestionable testimony to the cultural resistance and religious syncretism of Indigenous Mexico.
+
+### retos_observacion
+
+**ES:** Cuernos reales de chivo o venado adosados en la parte superior / Barbas de crin de caballo e ixtle cayendo de la mandíbula calada / Motivos astronómicos y espirales pintados con pigmentos minerales en las mejillas
+
+**EN:** Real goat or deer horns attached to the top / Horsehair and agave-fiber beards hanging from the open-cut jaw / Astronomical motifs and spirals painted with mineral pigments on the cheeks
+
+### especificaciones
+
+**ES:** Pueblo Indígena: Náayeri (Cora) / Región: Mesa del Nayar / Jesús María, Sierra de Nayarit / Técnica/Material: Papel maché, cuernos naturales de venado/chivo, crin de caballo, pigmentos y trapo / Función: Parafernalia ritual de enmascaramiento para la danza procesional de la Judea
+
+**EN:** Indigenous People: Náayeri (Cora) / Region: Mesa del Nayar / Jesús María, Sierra de Nayarit / Technique/Material: Papier-mâché, natural deer/goat horns, horsehair, pigments, and cloth / Function: Ritual masking paraphernalia for the processional dance of the Judea
+
+### faq_mito
+
+**ES:** pregunta: Mito: La máscara de judío cora es un disfraz de carnaval sin contenido religioso fabricado para asustar a los niños en las calles. / respuesta: Realidad: Según los análisis del INAH, es un objeto litúrgico sagrado utilizado en la Judea Cora para personificar a las fuerzas nocturnas que propician las lluvias.
+
+**EN:** pregunta: Myth: The Cora Jew mask is a carnival costume with no religious meaning, made to scare children in the streets. / respuesta: Reality: According to INAH analyses, it is a sacred liturgical object used in the Cora Judea to embody the nocturnal forces that bring the rains.
+
+## Pieza: mna_s14_troje_purepecha
+
+### titulo
+
+**ES:** La Troje tradicional purépecha
+
+**EN:** The Traditional Purépecha Granary House
+
+### frase_gancho
+
+**ES:** Casa de madera donde duermen el maíz y los abuelos.
+
+**EN:** A wooden house where the maize and the grandparents sleep.
+
+### puente_narrativo
+
+**ES:** Al ingresar a la Sala Purépecha, esta monumental estructura de madera introduce el espacio habitacional y ceremonial de la Sierra Tarasca.
+
+**EN:** As you enter the Purépecha Hall, this monumental wooden structure introduces the domestic and ceremonial space of the Tarascan Highlands.
+
+### guion_corto
+
+**ES:** Al aproximarse a la majestuosa estructura de madera de pino que domina la Sala Purépecha en la planta alta del museo, la calidez del aroma a resina y la solidez de la arquitectura vernácula sobrecogen de inmediato los sentidos. La Troje tradicional purépecha, procedente de los pueblos de la Sierra de Michoacán como Sevina, Charapan y Angahuan, representa la vivienda y almacén sagrado del pueblo p'urhépecha. Construida enteramente con gruesos tablones de pino o tejamanil ensamblados mecánicamente mediante la técnica de 'ensamble de caja y espiga' sin utilizar un solo clavo metálico, esta edificación cuadrangular de dos niveles es una joya de la ingeniería artesanal. El nivel inferior funciona como la habitación principal y altar de los ancestros, mientras que el tapanco o parte superior sirve de troje o granero protegido para almacenar las mazorcas de maíz de la cosecha familiar. En la cosmovisión michoacana, la troje no es un simple refugio campesino, sino un ser vivo alimentado por el espíritu del bosque y la bendición de la milpa. Contemplar esta vivienda a escala real en el Museo Nacional de Antropología es admirar la armonía entre el hombre, el árbol y la tierra.
+
+**EN:** As you approach the majestic pine structure that dominates the Purépecha Hall on the upper floor of the museum, the warm scent of resin and the solidity of the vernacular architecture overwhelm the senses at once. The Traditional Purépecha Granary House, which comes from highland villages of Michoacán such as Sevina, Charapan and Angahuan, represents the home and sacred storehouse of the P'urhépecha people. Built entirely from thick pine planks or shingles, joined mechanically with the “mortise and tenon” technique without a single metal nail, this square, two-level building is a jewel of artisan engineering. The lower level serves as the main living room and the altar of the ancestors, while the loft, or upper part, serves as the granary, a protected store for the ears of maize from the family harvest. In the Michoacán worldview, the granary house is not a simple peasant shelter, but a living being nourished by the spirit of the forest and the blessing of the cornfield. To contemplate this full-scale dwelling in the National Museum of Anthropology is to admire the harmony between humans, trees and earth.
+
+### guion_largo
+
+**ES:** En los bosques fríos de pino y encino que cubren la Meseta Purépecha en el estado de Michoacán, la arquitectura tradicional de la troje constituye la expresión material suprema de la identidad, la cohesión comunitaria y el prestigio social del pueblo p'urhépecha. Desarrollada a lo largo de siglos como una adaptación perfecta al clima húmedo y volcánico de las serranías, la troje es una estructura arquitectónica exenta construida exclusivamente con madera de pino criollo u ocote cortada en las fases lunares propicias para evitar el deterioro por polilla. La edificación no requiere cimientos profundos de mampostería, sino que se apoya sobre cuatro o seis grandes pilares de piedra volcánica colocados en las esquinas, aislando el piso de madera del contacto directo con la humedad del suelo. La genialidad constructiva purépecha reside en el sistema de ensamblaje: gruesas vigas y tablones labrados a hacha de hasta diez centímetros de grosor se entrelazan mediante muescas en cola de milano y machihembrado, permitiendo que la troje pueda ser desmontada pieza por pieza y trasladada de un solar a otro cuando una nueva pareja funda su hogar o cuando cambia la propiedad familiar. Al explorar con detenimiento los detalles arquitectónicos y ornamentales de la troje exhibida en el museo, el visitante admira el virtuosismo del 'trojero' o maestro carpintero tradicional. La fachada principal presenta un elegante pórtico o portal de madera sostenido por columnas labradas con frisos canecillos y capiteles con motivos florales y geométricos. El amplio alero del techo de tejamanil —tablillas delgadas de madera traslapadas— se proyecta inclinadamente a cuatro aguas para desalojar con rapidez la lluvia y la nieve invernal. Al ingresar por la puerta de dos hojas, se contempla el espacio místico del primer piso: allí se ubican las camas de madera, los arcones donde se custodian los rebozos y escrituras, y el altar familiar presidido por imágenes sagradas decoradas con servilletas bordadas en punto de cruz. A través de una escalera de mano se accede al tapanco o 'troje' propiamente dicho, el espacio abovedado del segundo piso donde se apilan cuidadosamente miles de mazorcas de maíz criollo en colores blanco, azul, rojo y amarillo, preservando el sustento alimentario de la familia. La crónica del traslado y reconstrucción de esta troje histórica en las galerías etnográficas del Museo Nacional de Antropología forma parte del proyecto de investigación arquitectónica dirigido en 1964 por el equipo del INAH encabezado por los antropólogos Arturo Warman y Catalina Rodríguez Lazcano. Los especialistas del museo viajaron a las comunidades de la Meseta Michoacana y adquirieron una troje centenaria con la bendición de las autoridades comunales. Maestros carpinteros purépechas viajaron a la Ciudad de México para numerar cada viga de pino, desmontar la vivienda y volver a ensamblarla exactamente en la planta alta del museo utilizando sus herramientas tradicionales. Esta instalación monumental permite a millones de visitantes internacionales valorar la sustentabilidad y el valor patrimonial de la arquitectura vernácula de Michoacán.
+
+**EN:** In the cold pine and oak forests that cover the Purépecha Plateau in the state of Michoacán, the traditional architecture of the granary house is the supreme material expression of identity, community cohesion and social prestige for the P'urhépecha people. Developed over centuries as a perfect adaptation to the humid, volcanic climate of the highlands, the granary house is a freestanding architectural structure built exclusively from native pine or resinous pitch pine, cut during the lunar phases considered favorable to prevent damage from moths. The building does not require deep masonry foundations. Instead, it rests on four or six large volcanic stone pillars placed at the corners, which isolate the wooden floor from direct contact with the damp ground. Purépecha building genius lies in the system of assembly: thick beams and planks hewn with an axe, up to ten centimeters thick, are interlocked with dovetail notches and tongue-and-groove joints, which allows the granary house to be taken apart piece by piece and moved from one plot to another when a new couple founds its home or when the family property changes. When you explore the architectural and ornamental details of the granary house displayed in the museum, you admire the virtuosity of the “granary builder,” the traditional master carpenter. The main façade has an elegant wooden porch supported by carved columns with friezes, corbels and capitals bearing floral and geometric motifs. The broad eave of the shingle roof, made of thin overlapping wooden slats, slopes down on four sides to quickly shed rain and winter snow. As you enter through the double door, you behold the mystical space of the first floor, where the wooden beds are placed, along with the chests that safeguard the shawls and deeds, and the family altar, presided over by sacred images decorated with napkins embroidered in cross-stitch. A ladder leads up to the loft, the granary proper, the vaulted space of the second floor where thousands of ears of native maize in white, blue, red and yellow are carefully stacked, preserving the family’s food supply. The story of the move and reconstruction of this historic granary house in the ethnographic galleries of the National Museum of Anthropology is part of the architectural research project directed in 1964 by the INAH team led by the anthropologists Arturo Warman and Catalina Rodríguez Lazcano. The museum specialists traveled to the communities of the Michoacán Plateau and acquired a centuries-old granary house with the blessing of the communal authorities. Purépecha master carpenters traveled to Mexico City to number each pine beam, take the dwelling apart and reassemble it exactly on the upper floor of the museum using their traditional tools. This monumental installation allows millions of international visitors to appreciate the sustainability and heritage value of the vernacular architecture of Michoacán.
+
+### retos_observacion
+
+**ES:** Sistema de ensamblaje en cola de milano sin clavos metálicos en las esquinas / Columnas de madera labradas con capiteles florales en el pórtico frontal / Almacén de mazorcas de maíz criollo apiladas en el tapanco del segundo nivel
+
+**EN:** Dovetail joinery system without metal nails at the corners / Carved wooden columns with floral capitals on the front porch / Storehouse of native maize ears stacked in the loft of the second level
+
+### especificaciones
+
+**ES:** Pueblo Indígena: Purépecha (P'urhépecha) / Región: Meseta Purépecha y Sierra de Michoacán / Técnica/Material: Madera de pino ensamblada a caja y espiga, tejamanil y base de piedra / Función: Vivienda tradicional, granero sagrado, altar familiar y espacio ritual
+
+**EN:** Indigenous People: Purépecha (P'urhépecha) / Region: Purépecha Plateau and highlands of Michoacán / Technique/Material: Pine wood joined with mortise and tenon, wooden shingles and stone base / Function: Traditional dwelling, sacred granary, family altar and ritual space
+
+### faq_mito
+
+**ES:** pregunta: Mito: La troje purépecha es una cabaña primitiva improvisada con troncos de leña por campesinos sin conocimientos constructivos. / respuesta: Realidad: Según los estudios del INAH, es una obra maestra de la arquitectura vernácula ensamblada mecánicamente en madera de pino sin clavos.
+
+**EN:** pregunta: Myth: The Purépecha granary house is a primitive, improvised cabin made of firewood logs by peasants with no building knowledge. / respuesta: Reality: According to INAH studies, it is a masterpiece of vernacular architecture, mechanically joined in pine wood without nails.
+
+## Pieza: mna_s14_mascara_viejitos
+
+### titulo
+
+**ES:** Máscara de la Danza de los Viejitos
+
+**EN:** Mask of the Dance of the Viejitos (Little Old Men)
+
+### frase_gancho
+
+**ES:** Rostro de madera sonriente que baila para despertar la tierra.
+
+**EN:** A smiling wooden face that dances to awaken the earth.
+
+### puente_narrativo
+
+**ES:** Situada en el sector dedicado a las fiestas del lago de Pátzcuaro, esta sonriente máscara encarna la célebre Danza de los Viejitos.
+
+**EN:** Located in the section devoted to the festivals of Lake Pátzcuaro, this smiling mask embodies the famous Dance of the Viejitos.
+
+### guion_corto
+
+**ES:** Al detenerse ante la vitrina iluminada que exhibe esta célebre máscara de madera rosada en la Sala Purépecha, la calidez de su sonrisa arrugada y la picardía de su mirada conquistan de inmediato los sentidos. Procedente de la isla de Jarácuaro en el lago de Pátzcuaro, Michoacán, esta pieza es la insignia primordial de la Danza de los Viejitos o T'urchi k'uani, una de las tradiciones dancísticas más universales y hermosas del folklore mexicano. Tallada en madera ligera de tzompantle o aguacate y pulida con un acabado rosado satinado, la máscara retrata el rostro de un anciano achacoso pero jubiloso, de pómulos sonrojados, cejas prominentes, dentadura incompleta y arrugas profundas alrededor de los ojos. De la parte superior cuelga una abundante cabellera blanca confeccionada con fibras de ixtle de maguey o crin de caballo. Durante el baile, los danzantes jóvenes visten trajes de manta blanca con bordados multicolores, sombreros de paja con listones de colores y bastones de madera empuñados, ejecutando un zapateado rítmico que inicia con pasos torpes de decrepitud para transformarse en brincos ágiles de energía juvenil. Contemplarla en el Museo Nacional de Antropología es admirar la risa sagrada de los ancestros.
+
+**EN:** As you stop before the illuminated display case that holds this famous pink wooden mask in the Purépecha Hall, the warmth of its wrinkled smile and the mischief in its gaze immediately win over your senses. Coming from the island of Jarácuaro in Lake Pátzcuaro, Michoacán, this piece is the foremost emblem of the Dance of the Viejitos, or T'urchi k'uani, one of the most universal and beautiful dance traditions of Mexican folklore. Carved from lightweight coral tree or avocado wood and polished to a satiny pink finish, the mask portrays the face of an ailing yet joyful old man, with flushed cheekbones, prominent eyebrows, missing teeth, and deep wrinkles around the eyes. From the top hangs an abundant white head of hair made from maguey ixtle fibers or horsehair. During the dance, the young dancers wear white muslin outfits with multicolored embroidery, straw hats with colorful ribbons, and wooden canes gripped in hand, performing a rhythmic stamping step that begins with the clumsy movements of decrepitude and turns into nimble leaps of youthful energy. To behold it in the National Museum of Anthropology is to admire the sacred laughter of the ancestors.
+
+### guion_largo
+
+**ES:** En la geografía sagrada de la cuenca del lago de Pátzcuaro y las serranías de Michoacán, la Danza de los Viejitos hunde sus raíces espirituales en los rituales prehispánicos dedicados al dios del fuego solar, Curicaueri, y a la renovación del ciclo agrícola. En la cosmovisión tarasca original, los cuatro ancianos principales representaban a los cuatro rumbos del universo y a las cuatro estaciones del año, quienes caminaban apoyados en sus bastones para solicitar a los dioses la lluvia, la salud y la fertilidad de las cosechas. Tras el proceso de evangelización colonial en el siglo dieciséis, la danza reorientó sus significados incorporando elementos festivos y satíricos que parodiaban la vejez y los achaques de los conquistadores españoles, consolidándose en comunidades como Jarácuaro, Cucuchucho e Ihuatzio. Lejos de ser un baile cómico profano, la Danza de los Viejitos es un acto litúrgico de profunda veneración hacia los ancianos del pueblo o k'eriicha, guardianes de la sabiduría y de la tradición comunitaria, cuya alegría desafía la decadencia del cuerpo físico para invocar la energía regeneradora del cosmos. Al analizar minuciosamente la anatomía y los acabados de la máscara en la vitrina del museo, el observador descubre la virtuosa maestría del tallador michoacano. La pieza está moldeada sobre un bloque entero de madera de colorín o tzompantle, seleccionada por su ligereza y resistencia al sudor del danzante. La faz exhibe una fisonomía risueña inconfundible: la boca entreabierta muestra apenas dos dientes incisos o la encía desnuda, mientras que los pómulos abultados están pintados con un encendido tono rojo carmín sobre la base de pintura rosada. Las arrugas de la frente y las patas de gallo alrededor de las cuencas oculares caladas fueron marcadas mediante incisiones finas resaltadas con sombras ocres. En la coronilla y sienes de la máscara se perforaron orificios para coser las largas trenzas de ixtle blanco que caen sobre la espalda del danzante. Al vestirse con el sombrero de paja ornado con largos listones de colores que flotan en el aire durante los giros, el bailador oculta por completo su rostro para convertirse en el anciano mítico. La crónica del ingreso de esta emblemática colección de máscaras purépechas al acervo del Museo Nacional de Antropología se remonta a los proyectos de investigación folklórica y etnológica coordinados a mediados del siglo veinte por el arqueólogo e historiador Rubin de la Borbolla y la Subdirección de Etnografía del INAH. Los antropólogos documentaron las variantes de la danza en las islas de Pátzcuaro y adquirieron máscaras históricas directamente de manos de los maestros santeros y talladores de Jarácuaro. Conservada con orgullo en la planta alta del museo, la máscara de los Viejitos se mantiene como un ícono entrañable de la identidad cultural mexicana, representando la sabiduría, la jovialidad y el espíritu indomable del pueblo purépecha.
+
+**EN:** In the sacred geography of the Lake Pátzcuaro basin and the highlands of Michoacán, the Dance of the Viejitos sinks its spiritual roots into the pre-Hispanic rituals dedicated to the god of solar fire, Curicaueri, and to the renewal of the agricultural cycle. In the original Tarascan worldview, the four principal elders represented the four directions of the universe and the four seasons of the year, and they walked leaning on their canes to ask the gods for rain, health, and fertile harvests. After the colonial process of evangelization in the sixteenth century, the dance reshaped its meanings by incorporating festive and satirical elements that parodied the old age and the ailments of the Spanish conquerors, and it became established in communities such as Jarácuaro, Cucuchucho, and Ihuatzio. Far from being a profane comic dance, the Dance of the Viejitos is a liturgical act of deep reverence for the elders of the community, the k'eriicha, guardians of wisdom and communal tradition, whose joy defies the decay of the physical body in order to invoke the regenerating energy of the cosmos. When you closely examine the anatomy and finishes of the mask in the museum display case, you discover the virtuoso mastery of the Michoacán carver. The piece is shaped from a single block of coral tree wood, chosen for its lightness and its resistance to the dancer’s sweat. The face shows an unmistakable smiling expression: the half-open mouth reveals barely two incisors or bare gums, while the swollen cheekbones are painted a glowing carmine red over the pink base. The wrinkles of the forehead and the crow’s feet around the openwork eye sockets were marked with fine incisions highlighted with ocher shading. On the crown and temples of the mask, holes were drilled to sew on the long braids of white ixtle that fall over the dancer’s back. When he puts on the straw hat adorned with long colorful ribbons that float in the air during the turns, the dancer completely hides his face and becomes the mythical old man. The story of how this emblematic collection of Purépecha masks entered the holdings of the National Museum of Anthropology goes back to the folkloric and ethnological research projects coordinated in the mid-twentieth century by the archaeologist and historian Rubin de la Borbolla and the Ethnography Subdirectorate of INAH. The anthropologists documented the variants of the dance on the islands of Pátzcuaro and acquired historic masks directly from the hands of the saint carvers and woodcarvers of Jarácuaro. Proudly preserved on the upper floor of the museum, the mask of the Viejitos remains a beloved icon of Mexican cultural identity, representing the wisdom, the joviality, and the indomitable spirit of the Purépecha people.
+
+### retos_observacion
+
+**ES:** Rostro rosado sonriente de madera con pómulos encendidos y boca desdentada / Cabellera blanca de fibra de ixtle cosida en la parte superior del casquete / Hendiduras oculares caladas bajo las cejas prominentes para la visión del danzante
+
+**EN:** Smiling pink wooden face with flushed cheekbones and a toothless mouth / White ixtle fiber hair sewn onto the top of the cap / Openwork eye slits beneath the prominent eyebrows for the dancer’s vision
+
+### especificaciones
+
+**ES:** Pueblo Indígena: Purépecha (P'urhépecha) / Región: Ribera e islas del Lago de Pátzcuaro (Jarácuaro, Michoacán) / Técnica/Material: Madera de aguacate/fresno tallada, pintura de esmalte, ixtle y cera / Función: Parafernalia ritual de enmascaramiento para la danza de la festividad patronal
+
+**EN:** Indigenous People: Purépecha (P'urhépecha) / Region: Shores and islands of Lake Pátzcuaro (Jarácuaro, Michoacán) / Technique/Material: Carved avocado/ash wood, enamel paint, ixtle, and wax / Function: Ritual masking paraphernalia for the dance of the patron saint festival
+
+### faq_mito
+
+**ES:** pregunta: Mito: La Danza de los Viejitos fue inventada por hoteles turísticos de Pátzcuaro en el siglo XX para entretener a viajeros. / respuesta: Realidad: Según el INAH, es una danza ritual ancestral purépecha de origen prehispánico vinculada al culto solar, la agricultura y el respeto a los ancianos.
+
+**EN:** pregunta: Myth: The Dance of the Viejitos was invented by tourist hotels in Pátzcuaro in the 20th century to entertain travelers. / respuesta: Reality: According to INAH, it is an ancestral Purépecha ritual dance of pre-Hispanic origin linked to the solar cult, agriculture, and respect for elders.
+
+## Pieza: mna_s14_cobre_martillado
+
+### titulo
+
+**ES:** Gran Batea y Pailas de cobre martillado
+
+**EN:** Great Basin and Hammered Copper Cauldrons
+
+### frase_gancho
+
+**ES:** Metal rojizo forjado al fuego con la fuerza del martillo.
+
+**EN:** Reddish metal forged in fire by the force of the hammer.
+
+### puente_narrativo
+
+**ES:** Avanzando hacia el espacio de los oficios comunitarios, este conjunto de cobre y laqueado exhibe las tradiciones artesanales de Santa Clara y Uruapan.
+
+**EN:** Moving toward the space devoted to community crafts, this ensemble of copper and lacquer showcases the artisan traditions of Santa Clara and Uruapan.
+
+### guion_corto
+
+**ES:** Al situarse ante la vitrina que alberga estos monumentales recipientes de cobre cobrizo en la Sala Purépecha, el resplandor cálido del metal y la textura rítmica de las huellas de impacto paralizan de inmediato los sentidos. Procedentes de la célebre comunidad artesanal de Santa Clara del Cobre en Michoacán, la Gran Batea y Pailas de cobre martillado representan la cima de la tradición metalúrgica heredada del imperio Tarasco Posclásico (1350-1521 d.C.). Elaboradas mediante la técnica ancestral de fundición a cielo abierto y martillado continuo en frío y caliente, estas piezas de formato colosal se forjan a partir de un solo bloque o lingote de cobre puro sin soldaduras ni uniones mecánicas. Equipos de cuatro o cinco artesanos golpean rítmicamente el metal caliente con pesados mazos sobre el yunque hasta extender la lámina en cuencos cóncavos, bateas redondas y pailas profundas. La superficie exterior luce miles de pequeñas facetas brillantes producidas por el martillo que captan la luz como escamas de fuego. Contemplar esta orfebrería utilitaria y ceremonial en el Museo Nacional de Antropología es admirar el triunfo de la fuerza humana sobre el metal redimido.
+
+**EN:** Standing before the display case that holds these monumental reddish copper vessels in the Purépecha Hall, you are struck at once by the warm glow of the metal and the rhythmic texture of the hammer marks. Coming from the renowned artisan community of Santa Clara del Cobre in Michoacán, the Great Basin and Hammered Copper Cauldrons represent the peak of the metalworking tradition inherited from the Postclassic Tarascan empire (1350-1521 AD). Made with the ancestral technique of open-air smelting and continuous hammering, both cold and hot, these colossal pieces are forged from a single block or ingot of pure copper, with no welds or mechanical joints. Teams of four or five artisans rhythmically strike the hot metal with heavy mallets on the anvil until the sheet is stretched into concave bowls, round basins and deep cauldrons. The outer surface shows thousands of small, shining facets left by the hammer, catching the light like scales of fire. To contemplate this utilitarian and ceremonial metalwork in the National Museum of Anthropology is to admire the triumph of human strength over redeemed metal.
+
+### guion_largo
+
+**ES:** En el corazón geográfico de Michoacán, rodeado de bosques de pino y cañadas profundas, el pueblo de Santa Clara del Cobre mantiene viva desde hace más de cinco siglos la tradición metalúrgica del cobre martillado más refinada de las Américas. Antes de la llegada de los españoles, los orfebres del imperio Purépecha ya dominaban la extracción de minerales de cobre en las minas del río Balsas y la elaboración de herramientas, hachas moneda, pectorales, pinzas de depilar y cascabeles suntuarios. Tras la conquista española en el siglo dieciséis, el obispo Vasco de Quiroga reorganizó la producción artesanal asignando la especialidad del trabajo en cobre a la comunidad de Santa Clara, integrando la fragua y el yunque europeo a las técnicas indígenas de fundido y martillado en equipo. Para los artesanos de Santa Clara, el cobre no es un material rígido e inerte, sino una materia viva que posee memoria, calor y maleabilidad: doblegar el metal mediante el fuego de pino y la fuerza sincronizada del mazo es un acto sagrado que transforma el mineral bruto en arte puro. Al examinar detenidamente la factura y los volúmenes de la Gran Batea y las Pailas exhibidas en el museo, el visitante admira la precisión matemática del proceso de forja tradicional. La Gran Batea es un plato o charola circular de pared baja y borde evertido de casi un metro de diámetro, cuya superficie lisa fue lograda mediante el pulido a brazo con arena y ácidos naturales. A su lado, las pailas o cazos profundos presentan un vientre abombado con asas remachadas de cobre grueso diseñadas para sostener grandes pesos durante la cocción comunitaria de alimentos o la elaboración de dulces tradicionales. El aspecto visual más fascinante de las piezas lo constituye el 'punteado' o 'martillado' uniforme que cubre el cuerpo del recipiente: cada faceta circular es el registro indeleble de un golpe de martillo ejecutado con fuerza constante, creando una textura geométrica que brinda rigidez estructural a la pared de cobre sin debilitar su espesor. La historia del acopio e integración de estas piezas monumentales de cobre martillado al acervo del Museo Nacional de Antropología se enmarca en las campañas de fomento artesanal y salvaguarda etnográfica impulsadas por el INAH a mediados del siglo veinte. Los antropólogos del museo visitaron los talleres familiares de Santa Clara del Cobre y comisionaron directamente a los grandes maestros artesanos la elaboración de bateas y pailas de exhibición en formato monumental. Las piezas se trasladaron a la Ciudad de México para enriquecer la Sala Purépecha de la planta alta del MNA. Hoy en día, esta colección rinde homenaje a la maestría de los cobreros de Michoacán, cuya técnica de martillado a mano fue declarada Patrimonio Cultural Inmaterial de la Humanidad.
+
+**EN:** In the geographic heart of Michoacán, surrounded by pine forests and deep ravines, the town of Santa Clara del Cobre has kept alive for more than five centuries the most refined hammered copper tradition in the Americas. Before the arrival of the Spaniards, the metalworkers of the Purépecha empire already mastered the extraction of copper ore in the mines of the Balsas River and the making of tools, ax-money, pectorals, tweezers and sumptuous bells. After the Spanish conquest in the sixteenth century, Bishop Vasco de Quiroga reorganized artisan production, assigning the specialty of copper work to the community of Santa Clara and bringing the European forge and anvil into the Indigenous techniques of smelting and team hammering. For the artisans of Santa Clara, copper is not a rigid, inert material but a living substance with memory, warmth and malleability: bending the metal with pine fire and the synchronized force of the mallet is a sacred act that transforms raw ore into pure art. Looking closely at the workmanship and volumes of the Great Basin and the Cauldrons displayed in the museum, visitors can admire the mathematical precision of the traditional forging process. The Great Basin is a circular dish or tray with low walls and a flared rim, almost one meter in diameter, whose smooth surface was achieved by hand polishing with sand and natural acids. Beside it, the cauldrons, or deep pots, have a rounded belly and riveted handles of thick copper, designed to bear great weight during the communal cooking of food or the making of traditional sweets. The most fascinating visual feature of the pieces is the uniform “stippled” or “hammered” pattern that covers the body of the vessel: each circular facet is the indelible record of a hammer blow struck with constant force, creating a geometric texture that gives structural rigidity to the copper wall without weakening its thickness. The story of how these monumental hammered copper pieces were gathered and added to the collection of the National Museum of Anthropology belongs to the campaigns to promote crafts and safeguard ethnographic heritage led by the INAH in the middle of the twentieth century. The museum's anthropologists visited the family workshops of Santa Clara del Cobre and commissioned the great master artisans directly to make basins and cauldrons for display in monumental format. The pieces were transported to Mexico City to enrich the Purépecha Hall on the upper floor of the MNA. Today, this collection pays tribute to the mastery of the coppersmiths of Michoacán, whose hand-hammering technique was declared Intangible Cultural Heritage of Humanity.
+
+### retos_observacion
+
+**ES:** Faceteado rítmico de miles de golpes de martillo impresos sobre la lámina de cobre / Ausencia total de junturas o soldaduras en el cuerpo globular de las pailas / Asas gruesas de cobre forjado sujetadas al borde mediante remaches de forja
+
+**EN:** Rhythmic faceting from thousands of hammer blows imprinted on the copper sheet / Total absence of seams or welds on the globular body of the cauldrons / Thick forged copper handles fastened to the rim with forged rivets
+
+### especificaciones
+
+**ES:** Pueblo Indígena: Purépecha (P'urhépecha) / Región: Santa Clara del Cobre, Uruapan y Pátzcuaro, Michoacán / Técnica/Material: Cobre martillado a fuego y maque/laqueado sobre madera (grasa de aje, aceite de chía y pigmentos) / Función: Utensilios industriales domésticos, vasijas suntuarias y bateas ceremoniales
+
+**EN:** Indigenous People: Purépecha (P'urhépecha) / Region: Santa Clara del Cobre, Uruapan and Pátzcuaro, Michoacán / Technique/Material: Fire-hammered copper and lacquer work on wood (axin grease, chia oil and pigments) / Function: Domestic and industrial utensils, sumptuary vessels and ceremonial basins
+
+### faq_mito
+
+**ES:** pregunta: Mito: Las pailas y bateas de cobre de Santa Clara se fabrican doblando láminas industriales compradas en fábricas modernas. / respuesta: Realidad: Según los peritajes del INAH, son piezas artesanales forjadas a mano mediante fundición de lingotes y martillado continuo al fuego.
+
+**EN:** pregunta: Myth: The copper cauldrons and basins of Santa Clara are made by bending industrial sheets bought from modern factories. / respuesta: Reality: According to INAH expert assessments, they are handcrafted pieces forged by hand through the smelting of ingots and continuous hammering in the fire.
+
+## Pieza: mna_s14_rebozo_patakua
+
+### titulo
+
+**ES:** Rebozo tradicional de telar de patakua
+
+**EN:** Traditional Patakua Loom Rebozo
+
+### frase_gancho
+
+**ES:** Lienzo de algodón donde el rapacejo anuda el alma purépecha.
+
+**EN:** A cotton cloth where the knotted fringe ties together the Purépecha soul.
+
+### puente_narrativo
+
+**ES:** Para culminar la visita a la Sala Purépecha, este fino rebozo de lana y algodón rinde tributo a la elegancia y la memoria textil de las mujeres de la sierra.
+
+**EN:** To complete the visit to the Purépecha Hall, this fine wool and cotton rebozo pays tribute to the elegance and the textile memory of the women of the highlands.
+
+### guion_corto
+
+**ES:** Al aproximarse a la vitrina iluminada que exhibe este elegante lienzo textil en la Sala Purépecha, la finura del tejido y la complejidad de sus tramas geométrico-jaspeadas fascinan de inmediato los sentidos. Procedente de la comunidad de Aranza, en el municipio de Paracho, Michoacán, este Rebozo tradicional elaborado en telar de patakua representa una de las cumbres del arte textil indígena en México. Confeccionado enteramente en telar de cintura de origen prehispánico utilizando finos hilos de algodón o seda teñidos mediante la compleja técnica del ikat o jaspeado, el rebozo exhibe un cuerpo central cubierto por diminutas plumas o listas de motas blancas y azul marino. Lo que otorga un refinamiento insuperable a esta prenda es el rapacejo o punta anudada a mano: un intrincado encaje de flecos elaborado pacientemente por las empuntadoras durante meses, formando arcos, estrellas y nombres entrelazados. En la vida de las mujeres purépechas, el rebozo es la prenda más íntima y versátil: cobijo contra el frío de la sierra, cuna flotante para cargar a los hijos en la espalda y manto de gala. Contemplarlo en el Museo Nacional de Antropología es admirar la poesía del telar de cintura.
+
+**EN:** As you approach the illuminated display case that holds this elegant textile in the Purépecha Hall, the fineness of the weave and the complexity of its geometric, ikat-patterned designs captivate the senses at once. Coming from the community of Aranza, in the municipality of Paracho, Michoacán, this traditional rebozo woven on a patakua loom represents one of the peaks of Indigenous textile art in Mexico. Made entirely on a backstrap loom of pre-Hispanic origin, using fine cotton or silk threads dyed with the complex technique of ikat, or mottled dyeing, the rebozo displays a central body covered with tiny feathers or stripes of white and navy blue flecks. What gives this garment its unsurpassed refinement is the knotted fringe, the hand-knotted tip: an intricate lace of tassels patiently made by the fringe knotters over several months, forming arches, stars and interwoven names. In the lives of Purépecha women, the rebozo is the most intimate and versatile garment: a shelter against the cold of the highlands, a floating cradle for carrying children on the back, and a ceremonial mantle. To contemplate it in the National Museum of Anthropology is to admire the poetry of the backstrap loom.
+
+### guion_largo
+
+**ES:** En el panorama del vestuario tradicional mexicano, el rebozo constituye la prenda mestiza e indígena por excelencia: un chal alargado de forma rectangular que fusiona las mantas prehispánicas tejidas en telar de cintura con las mantillas metalizadas andaluzas y los pañuelos orientales traídos por el Galeón de Manila durante el periodo colonial. En las comunidades purépechas de la Meseta Michoacana, especialmente en pueblos de artesanas tejedoras como Aranza, La Cantera y Zamora, la elaboración del rebozo alcanzó un nivel de distinción técnica y elegancia social sin parangón. Para la mujer p'urhépecha o guare, el rebozo no es una simple prenda accesoria de adorno, sino la extensión de su propia identidad y dignidad personal. El rebozo la acompaña en todos los momentos del ciclo vital: la cobija en su juventud, la abraza durante el matrimonio, envuelve a sus hijos recién nacidos mientras trabaja en el hogar o en la milpa, la protege en las procesiones del templo y, finalmente, cubre su rostro con devoción al momento de ser sepultada en la tierra sagrada de sus mayores. Al examinar minuciosamente la estructura y los acabados del rebozo de Aranza en la vitrina del museo, el observador admira la virtuosa complejidad de la técnica de patakua. El cuerpo central de la prenda está tejido en telar de cintura utilizando la técnica de reserva por teñido o ikat: antes de montar los hilos en el telar, las artesanas atan pequeños nudos de cera o plástico sobre las madejas de algodón blanco, sumergiéndolas en tinte azul de añil o violeta. Al desatar los nudos, las zonas protegidas quedan de color blanco, creando al tejer los patrones de listas, palomitas y guías de plumas que caracterizan al rebozo de patacua. Sin embargo, el rasgo de mayor maestría artesanal se localiza en los extremos de la prenda: el rapacejo o empuntado. Las empuntadoras toman los cientos de hilos sueltos de la urdimbre y los anudan uno a uno utilizando los dedos como aguja, creando un tejido calado en forma de mallas, arcos triunfales, rombos y figuras de palomas que puede requerir hasta cuatro meses de trabajo dedicado. La historia del acopio e integración de esta joya textil al acervo de las galerías etnográficas del Museo Nacional de Antropología forma parte de las campañas de investigación textil conducidas por el INAH a lo largo del siglo veinte. Las antropólogas investigadoras rescataron la memoria de las maestras empuntadoras de Aranza y comisionaron piezas de concurso para la colección permanente del MNA. Conservado con rigor en la Sala Purépecha de la planta alta del museo, el rebozo de patakua resplandece como un testimonio inolvidable de la ciencia textil, la paciencia y el amor de la mujer indígena por la belleza de su pueblo.
+
+**EN:** In the panorama of traditional Mexican dress, the rebozo is the quintessential mestizo and Indigenous garment: a long, rectangular shawl that fuses the pre-Hispanic cloths woven on the backstrap loom with the metallic-threaded Andalusian mantillas and the Eastern shawls brought by the Manila Galleon during the colonial period. In the Purépecha communities of the Michoacán Plateau, especially in villages of weaving artisans such as Aranza, La Cantera and Zamora, the making of the rebozo reached a level of technical distinction and social elegance without equal. For the P'urhépecha woman, or guare, the rebozo is not a mere accessory or ornament, but an extension of her own identity and personal dignity. The rebozo accompanies her through every moment of the life cycle: it wraps her in her youth, embraces her during marriage, holds her newborn children while she works at home or in the cornfield, protects her in the processions of the church and, finally, covers her face with devotion when she is laid to rest in the sacred earth of her elders. Examining closely the structure and finishing of the Aranza rebozo in the museum display case, the observer admires the virtuosic complexity of the patakua technique. The central body of the garment is woven on a backstrap loom using the resist-dyeing technique known as ikat: before mounting the threads on the loom, the artisans tie small knots of wax or plastic over the skeins of white cotton, then immerse them in blue indigo or violet dye. When the knots are untied, the protected areas remain white, creating as the cloth is woven the patterns of stripes, little doves and feather guides that characterize the patakua rebozo. Yet the feature of greatest artisanal mastery is found at the ends of the garment: the knotted fringe, or finished point. The fringe knotters take the hundreds of loose warp threads and knot them one by one, using their fingers as a needle, creating an openwork fabric in the form of meshes, triumphal arches, diamonds and dove figures that can require up to four months of dedicated work. The story of how this textile jewel was gathered and added to the holdings of the ethnographic galleries of the National Museum of Anthropology is part of the textile research campaigns led by the INAH throughout the twentieth century. Women anthropologists and researchers rescued the memory of the master fringe knotters of Aranza and commissioned competition pieces for the permanent collection of the MNA. Carefully preserved in the Purépecha Hall on the upper floor of the museum, the patakua rebozo shines as an unforgettable testimony to textile knowledge, patience and the love Indigenous women have for the beauty of their people.
+
+### retos_observacion
+
+**ES:** Trama del cuerpo central tejida con técnica de ikat o jaspeado en patrones de palomitas / Rapacejo o punta calada anudada a mano con mallas geométricas en los extremos / Finura de los hilos de algodón coyuchi o seda trabajados en telar de cintura
+
+**EN:** Weave of the central body made with the ikat, or mottled dyeing, technique in little-dove patterns / Knotted fringe, or openwork tip, hand-knotted with geometric meshes at the ends / Fineness of the coyuchi cotton or silk threads worked on a backstrap loom
+
+### especificaciones
+
+**ES:** Pueblo Indígena: Purépecha (P'urhépecha) / Región: Meseta Purépecha (Aranza, Paracho y Angahuan, Michoacán) / Técnica/Material: Algodón y lana hilada en telar de cintura (patakua), empuntado anudado a mano y tintes de añil / Función: Prenda de vestir cotidiana y ceremonial, cobijo y soporte de maternidad
+
+**EN:** Indigenous People: Purépecha (P'urhépecha) / Region: Purépecha Plateau (Aranza, Paracho and Angahuan, Michoacán) / Technique/Material: Cotton and wool spun and woven on a backstrap loom (patakua), hand-knotted fringe and indigo dyes / Function: Everyday and ceremonial garment, shelter and maternity carrier
+
+### faq_mito
+
+**ES:** pregunta: Mito: El rebozo de patakua de Aranza es una prenda textil de encaje importada fabricada en máquinas industriales de vapor. / respuesta: Realidad: Según los análisis del INAH, es un textil tradicional elaborado artesanalmente en telar de cintura con empuntado anudado a mano.
+
+**EN:** pregunta: Myth: The Aranza patakua rebozo is an imported lace textile made on industrial steam-powered machines. / respuesta: Reality: According to INAH analyses, it is a traditional textile made by hand on a backstrap loom with hand-knotted fringe.
+
+## Pieza: mna_s15_quechquemitl_otomi
+
+### titulo
+
+**ES:** Quechquémitl tradicional otomí de telar de cintura
+
+**EN:** Traditional Otomí Backstrap-Loom Quechquémitl
+
+### frase_gancho
+
+**ES:** Manto romboidal de lana donde la mujer otomí teje cosmos.
+
+**EN:** A rhomboid wool mantle in which the Otomí woman weaves the cosmos.
+
+### puente_narrativo
+
+**ES:** Entre los magueyales y los valles semidesérticos del Mezquital, este quechquémitl expresa la identidad femenina Hñähñu. Su bordado geométrico narra la cosmogonía del cielo, la fauna y los cerros sagrados.
+
+**EN:** Among the maguey fields and semi-desert valleys of the Mezquital, this quechquémitl expresses Hñähñu female identity. Its geometric embroidery tells the cosmogony of the sky, the fauna, and the sacred hills.
+
+### guion_corto
+
+**ES:** Al detenerse ante la vitrina que alberga este resplandeciente quechquémitl en la Sala Otomí-Mazahua de la planta alta del museo, la delicadeza de las tramas de lana y el diseño romboidal envolvente cautivan de inmediato los sentidos. Confeccionado enteramente en telar de cintura de origen prehispánico por maestras tejedoras Hñähñu del Valle del Mezquital y la Sierra de Hidalgo, esta prenda tradicional es una de las joyas más refinadas de la vestimenta indígena de México. La prenda consiste en dos lienzos rectangulares de lana o algodón blanco teñidos con tintes vegetales, unidos de manera ingeniosa para formar una superficie angular en forma de rombo que cubre los hombros, el pecho y la espalda de la mujer. Sobre la superficie del tejido destacan minuciosos bordados y brocados en colores rojo carmín, azul profundo y amarillo ocre, formando figuras de la estrella de ocho puntas, flores del campo, aves místicas y la serpiente de agua. En la cultura otomí, el quechquémitl no es una simple capa de abrigo para la intemperie, sino un lienzo sagrado que viste a la mujer con la sacralidad de la Tierra Madre durante las fiestas comunitarias. Contemplarlo en el Museo Nacional de Antropología es admirar la poesía viva del telar ancestral.
+
+**EN:** Stopping before the display case that holds this resplendent quechquémitl in the Otomí-Mazahua Hall on the upper floor of the museum, you are captivated at once by the delicacy of the woolen weave and the enveloping rhomboid design. Made entirely on a backstrap loom of pre-Hispanic origin by Hñähñu master weavers of the Mezquital Valley and the Hidalgo highlands, this traditional garment is one of the most refined jewels of Indigenous dress in Mexico. The garment consists of two rectangular panels of wool or white cotton, dyed with plant-based pigments and ingeniously joined to form an angular, diamond-shaped surface that covers a woman’s shoulders, chest, and back. Across the surface of the cloth stand out meticulous embroidery and brocade in carmine red, deep blue, and ochre yellow, forming figures of the eight-pointed star, wildflowers, mystical birds, and the water serpent. In Otomí culture, the quechquémitl is not simply a cape against the elements, but a sacred cloth that clothes a woman in the sanctity of Mother Earth during community festivals. To behold it in the National Museum of Anthropology is to admire the living poetry of the ancestral loom.
+
+### guion_largo
+
+**ES:** En las frías serranías de Hidalgo y en las áridas planicies del Valle del Mezquital, el pueblo Otomí o Hñähñu ha mantenido viva desde la época prehispánica una de las tradiciones textiles de mayor complejidad técnica y significado filosófico de Mesoamérica. En la lengua originaria, el arte de tejer no se considera una labor mecánica, sino un acto espiritual de creación en el que la artesana dialoga con los antepasados y con las fuerzas protectoras de la naturaleza. El quechquémitl —palabra de origen náhuatl que significa 'cuello bonito' o 'manto para el cuello'— era en tiempos precolombinos una prenda exclusiva del vestuario ceremonial de las sacerdotisas y de las diosas de la fertilidad y la vegetación, como Mayáhuel y Tlazoltéotl. Tras el periodo colonial, las mujeres otomíes preservaron el uso del quechquémitl como la prenda de gala suprema para su indumentaria comunitaria, utilizándola en las fiestas patronales, bodas, bautizos y ritos de Petición de Lluvia. Llevar sobre los hombros esta prenda romboidal equivale a colocarse en el centro divino del universo, donde los cuatro vértices del tejido señalan los cuatro rumbos del mundo. Al examinar con atención la estructura y los acabados del quechquémitl en la vitrina del museo, el observador atento descubre la maestría del procedimiento en telar de cintura. Los dos lienzos de lana de borrego lavada e hilada a mano son frotados con cardos para obtener una textura suave pero resistente. La técnica de unión de las dos tiras rectangulares forma una abertura central para la cabeza, provocando que las puntas del tejido caigan en forma de triángulo sobre el pecho y la espalda, mientras que los lados cubren los brazos con elegancia. La iconografía bordada a mano con hilo de lana o algodón muestra el motivo central del 'simboi' o estrella de ocho puntas, alegoría astronómica de la estrella matutina Venus y del sol naciente. Alrededor de la estrella se entrelazan bordados de gallos, venados, guías de flor de cempasúchil y encajes calados hechos con aguja de hueso. La historia del acopio e integración de esta prenda tradicional al acervo del Museo Nacional de Antropología se enmarca en las campañas de investigación etnográfica dirigidas en la década de 1960 por antropólogos del INAH en los municipios de San Bartolo Tutotepec, Ixmiquilpan y Temoaya. Los investigadores convivieron con las maestras tejedoras y adquirieron quechquémitls históricos bordados en lana nativa teñida con grana cochinilla y añil vegetal. Las piezas fueron trasladadas a la Ciudad de México y cuidadosamente restauradas por el equipo de conservación del museo para enriquecer la Sala de los Pueblos Otomianos de la planta alta del MNA. Hoy en día, esta prenda resplandece en la exhibición permanente como el símbolo indiscutible del talento, la paciencia y la dignidad de la mujer otomí.
+
+**EN:** In the cold highlands of Hidalgo and the arid plains of the Mezquital Valley, the Otomí, or Hñähñu, people have kept alive since pre-Hispanic times one of the textile traditions of greatest technical complexity and philosophical meaning in Mesoamerica. In the native language, the art of weaving is not considered mechanical labor, but a spiritual act of creation in which the artisan converses with the ancestors and with the protective forces of nature. The quechquémitl, a word of Nahuatl origin meaning “beautiful neck” or “mantle for the neck,” was in pre-Columbian times a garment reserved for the ceremonial attire of priestesses and of the goddesses of fertility and vegetation, such as Mayáhuel and Tlazoltéotl. After the colonial period, Otomí women preserved the use of the quechquémitl as the supreme formal garment of their community dress, wearing it at patron saint festivals, weddings, baptisms, and Petition for Rain rites. To carry this rhomboid garment on the shoulders is to place oneself at the divine center of the universe, where the four corners of the cloth point to the four directions of the world. When you look closely at the structure and finishing of the quechquémitl in the museum display case, the attentive observer discovers the mastery of the backstrap-loom process. The two panels of sheep’s wool, washed and spun by hand, are rubbed with thistles to achieve a texture that is soft yet durable. The technique used to join the two rectangular strips forms a central opening for the head, causing the points of the cloth to fall in a triangle over the chest and back, while the sides cover the arms with elegance. The iconography, embroidered by hand with wool or cotton thread, shows the central motif of the “simboi,” or eight-pointed star, an astronomical allegory of Venus, the morning star, and of the rising sun. Around the star are interwoven embroidered roosters, deer, garlands of marigold flowers, and openwork lace made with a bone needle. The story of how this traditional garment was gathered and incorporated into the collection of the National Museum of Anthropology is part of the ethnographic research campaigns led in the 1960s by INAH anthropologists in the municipalities of San Bartolo Tutotepec, Ixmiquilpan, and Temoaya. The researchers lived alongside the master weavers and acquired historic quechquémitls embroidered in native wool dyed with cochineal and plant-based indigo. The pieces were transported to Mexico City and carefully restored by the museum’s conservation team to enrich the Otomian Peoples Hall on the upper floor of the MNA. Today, this garment shines in the permanent exhibition as the unquestionable symbol of the talent, patience, and dignity of the Otomí woman.
+
+### retos_observacion
+
+**ES:** Motivo central bordado de la estrella de ocho puntas (simboi) / Encajes calados y flecos de lana teñidos con añil en los bordes inferiores / Forma de unión de los dos lienzos rectangulares de telar de cintura
+
+**EN:** Embroidered central motif of the eight-pointed star (simboi) / Openwork lace and wool fringes dyed with indigo on the lower edges / The way the two rectangular backstrap-loom panels are joined
+
+### especificaciones
+
+**ES:** Pueblo: Otomí (Hñähñu) / Región: Valle del Mezquital, Hidalgo / Técnica/Material: Algodón tejido en telar de cintura y bordado en pepenado con lana / Función: Indumentaria ceremonial y cotidiana de alto prestigio femenino
+
+**EN:** People: Otomí (Hñähñu) / Region: Mezquital Valley, Hidalgo / Technique/Material: Cotton woven on a backstrap loom and embroidered in picked-thread technique with wool / Function: Ceremonial and everyday dress of high prestige for women
+
+### faq_mito
+
+**ES:** pregunta: Mito: El quechquémitl otomí es un poncho plano importado de Europa durante el siglo XIX para vestir a campesinas. / respuesta: Realidad: Según los catálogos del INAH, es una prenda ceremonial prehispánica femenina tejida en telar de cintura que simboliza la cosmogonía.
+
+**EN:** pregunta: Myth: The Otomí quechquémitl is a flat poncho imported from Europe during the 19th century to dress peasant women. / respuesta: Reality: According to INAH catalogs, it is a pre-Hispanic women’s ceremonial garment woven on a backstrap loom that symbolizes the cosmogony.
+
+## Pieza: mna_s15_oratorio_familiar
+
+### titulo
+
+**ES:** El Oratorio y Altar Familiar Otomí
+
+**EN:** The Otomí Oratory and Family Altar
+
+### frase_gancho
+
+**ES:** Santuario de bajareque donde los santos velan la milpa.
+
+**EN:** A wattle-and-daub sanctuary where the saints watch over the cornfield.
+
+### puente_narrativo
+
+**ES:** Ubicado en el corazón del espacio doméstico Hñähñu, este altar articula la devoción espiritual con el parentesco. Las ceras, el copal y las cruces vestidas aseguran la protección comunal y la abundancia.
+
+**EN:** Located in the heart of the Hñähñu household, this altar joins spiritual devotion with kinship. The candles, the copal, and the dressed crosses secure communal protection and abundance.
+
+### guion_corto
+
+**ES:** Al adentrarse en la reconstrucción del espacio sagrado que domina la Sala Otomí en la planta alta del museo, el olor a cera de abejas, flor de cempasúchil y sahumador de copal conmueve de inmediato los sentidos. El Oratorio y Altar Familiar Otomí es una recreación a escala real del espacio litúrgico doméstico característico de las comunidades Hñähñu del Valle del Mezquital y la Sierra de Querétaro. La estructura está edificada con muros de bajareque o adobe y techo de paja a dos aguas, albergando en su interior un monumental altar escalonado rodeado por arcos triunfales de palma trenzada y flores de caléndula. En los peldaños del altar se acomodan decenas de imágenes de santos patronos, cruces de madera vestidas con paños bordados, ceras labradas, copaleros de barro y cerros de semillas de maíz de colores. En la cosmovisión otomí, el oratorio no es un simple cuarto de oración privado, sino el corazón espiritual del clan familiar, donde los vivos se reúnen para dialogar con los ancestros y pedir protección para las cosechas. Contemplar esta instalación en el Museo Nacional de Antropología es presenciar la profunda devoción del México indígena.
+
+**EN:** As you step into the reconstruction of the sacred space that dominates the Otomí Hall on the upper floor of the museum, the scent of beeswax, marigold flowers, and copal incense burners stirs the senses at once. The Otomí Oratory and Family Altar is a life-size re-creation of the domestic liturgical space typical of the Hñähñu communities of the Mezquital Valley and the Sierra of Querétaro. The structure is built with walls of wattle-and-daub or adobe and a thatched gabled roof, and inside it stands a monumental stepped altar surrounded by triumphal arches of braided palm and calendula flowers. On the steps of the altar are arranged dozens of images of patron saints, wooden crosses dressed in embroidered cloths, carved wax candles, clay copal burners, and mounds of colored corn seeds. In the Otomí worldview, the oratory is not simply a private prayer room, but the spiritual heart of the family clan, where the living gather to speak with the ancestors and ask for protection for the harvests. To contemplate this installation in the National Museum of Anthropology is to witness the deep devotion of Indigenous Mexico.
+
+### guion_largo
+
+**ES:** En las comunidades otomíes del Altiplano Central mexicano, la religión doméstica y el culto a los antepasados se estructuran alrededor de una institución arquitectónica y ritual comunitaria única: el oratorio o 'mó'ñi'. A diferencia de la iglesia parroquial del pueblo donde se celebran los sacramentos católicos oficiales, el oratorio familiar es un santuario propio gestionado directamente por los ancianos o 'mayordomos' del linaje. En el pensamiento religioso Hñähñu, los ancestros que fundaron el hogar y cultivaron la tierra no han desaparecido, sino que continuaban habitando de forma invisible en el entorno del hogar y en las cumbres de los cerros sagrados. El oratorio funciona como la puerta de comunicación mística entre el mundo terrenal y el plano divino: en su interior, la familia deposita las imágenes de los santos protectores junto a las reliquias de los abuelos fallecidos. Durante los momentos clave del ciclo agrícola —como la bendición de las semillas en febrero, la petición de lluvia en mayo y la cosecha del maíz en otoño— la comunidad entera se reúne en el oratorio para cantar alabanzas en lengua otomí, encender ceras ceremoniales y compartir banquetes rituales. Al explorar con atención la composición del altar en la vitrina del museo, el observador admira la abrumadora saturación de símbolos sagrados organizados en niveles jerárquicos. El fondo del altar está enmarcado por arcos de carrizo tejido cubiertos de follaje fresco de cucharilla y ramos de flor de cempasúchil amarilla. En el peldaño superior resplandece la Santa Cruz vestida con un quechquémitl en miniatura y un milagroso nicho de madera tallada. En las gradas inferiores se distribuyen sahumadores de barro cocido que desprenden humo de resina de copal, veladoras de cera de abeja, jícaras con agua de manantial y cazuelas con mole, tamales y atole de masa de maíz. Un detalle de singular valor etnográfico son los 'ramilletes' de papel picado multicolores y las cruces de palma bendita colocadas en las esquinas de la habitación para ahuyentar las malas energías y atraer la abundancia a los campos de cultivo. La historia del registro e instalación de esta réplica de oratorio otomí en el Museo Nacional de Antropología forma parte de los proyectos de salvaguarda etnográfica coordinados en 1964 por el equipo de antropólogos del INAH. Los investigadores del museo recorrieron los poblados otomíes de Tolimán en Querétaro y Cardonal en Hidalgo, documentando la arquitectura de los oratorios familiares y adquiriendo con el permiso de los mayordomos los elementos ceremoniales que componen la instalación. Maestros artesanos otomíes viajaron a la Ciudad de México para levantar los muros de adobe y armar el altar con flores frescas y cera tradicional. Esta instalación permanente permite a los visitantes comprender la riqueza del sincretismo religioso y la fuerza comunitaria de los pueblos otomianos del México contemporáneo.
+
+**EN:** In the Otomí communities of the Central Highlands of Mexico, domestic religion and the worship of ancestors are structured around a unique architectural and ritual institution of the community: the oratory, or “mó’ñi.” Unlike the parish church of the town, where the official Catholic sacraments are celebrated, the family oratory is a sanctuary of its own, managed directly by the elders, or “stewards,” of the lineage. In Hñähñu religious thought, the ancestors who founded the home and cultivated the land have not disappeared, but continue to dwell invisibly around the home and on the peaks of the sacred hills. The oratory works as the mystical doorway between the earthly world and the divine plane: inside it, the family places the images of the protective saints beside the relics of deceased grandparents. During the key moments of the agricultural cycle, such as the blessing of the seeds in February, the plea for rain in May, and the corn harvest in autumn, the entire community gathers in the oratory to sing songs of praise in the Otomí language, light ceremonial candles, and share ritual feasts. Looking closely at the composition of the altar in the museum display case, the observer admires the overwhelming abundance of sacred symbols arranged in hierarchical levels. The back of the altar is framed by arches of woven reed covered with fresh desert spoon foliage and bunches of yellow marigold flowers. On the top step shines the Holy Cross, dressed in a miniature quechquémitl, beside a miraculous niche of carved wood. On the lower steps are arranged fired-clay incense burners that give off the smoke of copal resin, beeswax votive candles, gourd bowls with spring water, and clay pots of mole, tamales, and atole made from corn dough. A detail of singular ethnographic value is the multicolored “bouquets” of cut paper and the crosses of blessed palm placed in the corners of the room to drive away bad energies and attract abundance to the cultivated fields. The history of the documentation and installation of this replica of an Otomí oratory in the National Museum of Anthropology is part of the ethnographic preservation projects coordinated in 1964 by the team of anthropologists of the INAH. The museum’s researchers traveled through the Otomí towns of Tolimán in Querétaro and Cardonal in Hidalgo, documenting the architecture of the family oratories and acquiring, with the permission of the stewards, the ceremonial elements that make up the installation. Master Otomí artisans traveled to Mexico City to raise the adobe walls and assemble the altar with fresh flowers and traditional wax. This permanent installation allows visitors to understand the richness of religious syncretism and the communal strength of the Otomian peoples of present-day Mexico.
+
+### retos_observacion
+
+**ES:** Estructura de arcos triunfales de carrizo y flor de cempasúchil en el marco del altar / Cruz de madera principal vestida con quechquémitl bordado en miniatura / Colección de sahumadores de barro cocido y mazorcas de maíz de colores en las gradas inferiores
+
+**EN:** Structure of triumphal arches of reed and marigold flowers framing the altar / Main wooden cross dressed in an embroidered miniature quechquémitl / Collection of fired-clay incense burners and colored corn cobs on the lower steps
+
+### especificaciones
+
+**ES:** Pueblo: Otomí (Hñähñu) / Región: Valle del Mezquital (Hidalgo) y Semidesierto de Querétaro / Técnica/Material: Arquitectura de adobe/madera, ceras labradas, barro, papel picado y textiles / Función: Espacio sagrado doméstico para el culto a las ánimas y ritos agrícolas
+
+**EN:** People: Otomí (Hñähñu) / Region: Mezquital Valley (Hidalgo) and the Semidesert of Querétaro / Technique/Material: Adobe and wood architecture, carved wax candles, clay, cut paper, and textiles / Function: Sacred domestic space for the worship of the souls of the dead and for agricultural rites
+
+### faq_mito
+
+**ES:** pregunta: Mito: El oratorio otomí es una capilla católica oficial construida por órdenes monásticas españolas en el siglo XVI. / respuesta: Realidad: Según los peritajes del INAH, es una institución religiosa familiar autónoma dedicada al culto a los ancestros y la fertilidad.
+
+**EN:** pregunta: Myth: The Otomí oratory is an official Catholic chapel built by Spanish monastic orders in the 16th century. / respuesta: Reality: According to INAH expert assessments, it is an autonomous family religious institution devoted to the worship of ancestors and to fertility.
+
+## Pieza: mna_s15_cesteria_ixtle
+
+### titulo
+
+**ES:** Utensilios y Cestería de Ixtle de Maguey
+
+**EN:** Ixtle Utensils and Basketry from Maguey
+
+### frase_gancho
+
+**ES:** Fibra dorada del maguey que teje la vida desértica.
+
+**EN:** Golden maguey fiber that weaves life in the desert.
+
+### puente_narrativo
+
+**ES:** En las llanuras áridas de Hidalgo y el Estado de México, el maguey (ada) es la planta sagrada del pueblo otomí. Del agave se extrae el ixtle para tejer redes, ayates y recipientes indispensables.
+
+**EN:** On the arid plains of Hidalgo and the State of Mexico, the maguey (ada) is the sacred plant of the Otomí people. From the agave comes the ixtle used to weave nets, carrying cloths and indispensable containers.
+
+### guion_corto
+
+**ES:** Al aproximarse a la vitrina que resguarda esta variada colección de utensilios en la Sala Otomí-Mazahua del museo, la rusticidad cálida de las fibras vegetales y la ingeniosa funcionalidad de las piezas capturan de inmediato la mirada. Los Utensilios y Cestería de Ixtle de Maguey representan una de las tradiciones artesanales e industrias domésticas más antiguas y adaptativas de los pueblos Hñähñu del Valle del Mezquital, Hidalgo. Elaborados mediante el desfibrado, lavado, hilado y trenzado de las pencas del maguey silvestre (Agave salmiana y Agave lechuguilla), estos objetos comprenden una rica tipología de uso cotidiano: ayates o mantas de carga, morrales, mecapales, cepillos, cuerdas, bozales y sopladores para el fogón. La fibra dorada del ixtle, dura pero increíblemente flexible, se entrelaza en telares de cintura o mediante la técnica de lazada a mano con aguja de madera. Para la sociedad otomí del desierto, el maguey es la planta sagrada por excelencia, proveedora de alimento, bebida, medicina y vestido. Contemplar este instrumental de ixtle en el Museo Nacional de Antropología es admirar la sabiduría ecológica del pueblo otomí ante el rigor del desierto.
+
+**EN:** As you approach the display case that shelters this varied collection of utensils in the Otomí-Mazahua Hall of the museum, the warm rusticity of the plant fibers and the ingenious functionality of the pieces immediately catch your eye. The Ixtle Utensils and Basketry from Maguey represent one of the oldest and most adaptable artisan traditions and household industries of the Hñähñu peoples of the Mezquital Valley, Hidalgo. Made by stripping, washing, spinning and braiding the leaves of the wild maguey, namely Agave salmiana and Agave lechuguilla, these objects form a rich range of everyday items: carrying cloths, shoulder bags, tumplines, brushes, ropes, muzzles and fans for the hearth. The golden fiber of the ixtle, hard yet incredibly flexible, is interlaced on backstrap looms or by the hand-looping technique with a wooden needle. For the Otomí society of the desert, the maguey is the sacred plant above all others, a provider of food, drink, medicine and clothing. To behold these ixtle implements in the National Museum of Anthropology is to admire the ecological wisdom of the Otomí people in the face of the harshness of the desert.
+
+### guion_largo
+
+**ES:** En las áridas planicies del Valle del Mezquital, en el estado de Hidalgo, la presencia del maguey ha determinado durante milenios la supervivencia y la identidad cultural del pueblo Otomí o Hñähñu. En un ecosistema caracterizado por la escasez de agua de riego y terrenos calcáreos difíciles para la agricultura extensiva, el maguey magueyero o agavácea se erigió como el recurso natural supremo de la comunidad. Del maguey los otomíes extraen el aguamiel para fermentar el pulque sagrado, las pencas para cocer la barbacoa en horno de tierra, las espinas como agujas de coser y, de manera sobresaliente, la fibra interior o 'ixtle' contenida en las hojas de la planta. El proceso de producción del ixtle es una faena compleja que requiere un conocimiento profundo de la botánica nativa: las mujeres y hombres otomíes cortan las pencas maduras del agave, las tallan con raspadores de hierro o piedra sobre un banco de madera para remover la pulpa verde, y lavan las hebras finas en las acequias hasta obtener cabelleras de fibras blancas y doradas de gran tenacidad. Al analizar con atención las piezas exhibidas en la vitrina del museo, el espectador admira la versatilidad de la cestería y la cordelería de ixtle. La pieza estrella de la colección es el 'ayate' o 't'äxñä', una manta rectangular tejida en telar de cintura con hilos finos de ixtle que las mujeres y hombres atan sobre su hombro para cargar las leñas del monte, la cosecha de maíz o a los niños pequeños en la espalda. Los ayates presentan redes de malla abierta con bordados sencillos en los bordes. A su lado se observan morrales de red tejido con aguja de madera, cepillos para peinar el cabello hechos con manojos de ixtle atados con cordeles, sopladores redondos para avivar el fuego del comal y mecapales anchos diseñados para amortiguar el peso de las cargas sobre la frente del caminante. La durabilidad de estas piezas de fibra natural es tal que pueden resistir décadas de uso continuo bajo el sol y la lluvia del campo. La historia del acopio de esta colección de utensilios de ixtle para el Museo Nacional de Antropología se remonta a los proyectos de investigación etnobiológica y tecnológica conducidos por el INAH a mediados del siglo veinte en municipios de Hidalgo como Ixmiquilpan, Actopan y Tasquillo. Los antropólogos documentaron todo el proceso de desfibrado e hilado en malacate tradicional, adquiriendo directamente en los tianguis semanales los ayates, morrales y cepillos elaborados por los artesanos locales. La exhibición permanente de este instrumental de ixtle en la planta alta del museo rinde homenaje al trabajo campesino otomí y a la sostenibilidad de las industrias artesanales basadas en el aprovechamiento de la flora nativa de México.
+
+**EN:** On the arid plains of the Mezquital Valley, in the state of Hidalgo, the presence of the maguey has for millennia determined the survival and cultural identity of the Otomí, or Hñähñu, people. In an ecosystem marked by a scarcity of irrigation water and limestone soils that are difficult for extensive agriculture, the pulque maguey, a plant of the agave family, rose to become the community’s supreme natural resource. From the maguey, the Otomí extract the sweet sap to ferment the sacred pulque, the leaves to cook barbecue in an earth oven, the thorns to use as sewing needles and, most notably, the inner fiber, or “ixtle,” contained in the leaves of the plant. The production of ixtle is a complex task that requires a deep knowledge of native botany: Otomí women and men cut the mature leaves of the agave, scrape them with iron or stone scrapers on a wooden bench to remove the green pulp, and wash the fine strands in irrigation ditches until they obtain manes of white and golden fibers of great toughness. As you look closely at the pieces displayed in the museum’s case, you admire the versatility of ixtle basketry and cordage. The star piece of the collection is the carrying cloth, or “t’äxñä,” a rectangular cloth woven on a backstrap loom with fine ixtle threads, which women and men tie over their shoulder to carry firewood from the hills, the corn harvest, or small children on their backs. These carrying cloths have open-mesh nets with simple embroidery along the edges. Beside them you can see shoulder bags of netting woven with a wooden needle, brushes for combing hair made from bundles of ixtle tied with cords, round fans for stoking the fire under the griddle, and wide tumplines designed to cushion the weight of loads on the traveler’s forehead. The durability of these natural-fiber pieces is such that they can withstand decades of continuous use under the sun and rain of the countryside. The story of how this collection of ixtle utensils was gathered for the National Museum of Anthropology goes back to the ethnobiological and technological research projects conducted by the INAH in the mid-twentieth century in municipalities of Hidalgo such as Ixmiquilpan, Actopan and Tasquillo. Anthropologists documented the entire process of stripping the fiber and spinning it on a traditional spindle whorl, acquiring directly at the weekly open-air markets the carrying cloths, shoulder bags and brushes made by local artisans. The permanent exhibition of these ixtle implements on the upper floor of the museum pays tribute to the farm labor of the Otomí and to the sustainability of artisan industries based on the use of the native flora of Mexico.
+
+### retos_observacion
+
+**ES:** Trama de red de malla abierta del ayate tradicional de carga (t'äxñä) / Cepillos de peinar y sopladores de comal trenzados a mano con cerdas de ixtle / Mecapales de carga tejidos con hilos gruesos de agave salmiana
+
+**EN:** Open-mesh net weave of the traditional carrying cloth (t’äxñä) / Hand-braided combing brushes and griddle fans made with ixtle bristles / Carrying tumplines woven with thick threads of Agave salmiana
+
+### especificaciones
+
+**ES:** Pueblo: Otomí (Hñähñu) / Región: Valle del Mezquital, Hidalgo y Estado de México / Técnica/Material: Fibra de maguey (ixtle) desfibrada, hilada en malacate y tejida en telar de cintura / Función: Herramientas de carga agrícola, cestería, contenedores y vestimenta campesina
+
+**EN:** People: Otomí (Hñähñu) / Region: Mezquital Valley, Hidalgo and State of Mexico / Technique/Material: Maguey fiber (ixtle), stripped, spun on a spindle whorl and woven on a backstrap loom / Function: Agricultural carrying tools, basketry, containers and rural clothing
+
+### faq_mito
+
+**ES:** pregunta: Mito: La cestería y utensilios de ixtle son fibras sintéticas modernas de plástico fabricadas en fábricas urbanas. / respuesta: Realidad: Según los estudios del INAH, son utensilios tradicionales elaborados artesanalmente con fibras extraídas de agaves silvestres.
+
+**EN:** pregunta: Myth: Ixtle basketry and utensils are modern synthetic plastic fibers made in urban factories. / respuesta: Reality: According to INAH studies, they are traditional utensils handcrafted with fibers extracted from wild agaves.
+
+## Pieza: mna_s15_traje_mazahua
+
+### titulo
+
+**ES:** Indumentaria ceremonial de la mujer Mazahua
+
+**EN:** Ceremonial Attire of the Mazahua Woman
+
+### frase_gancho
+
+**ES:** Faldas de lana encendida que visten a la mujer estrella.
+
+**EN:** Skirts of blazing wool that dress the star woman.
+
+### puente_narrativo
+
+**ES:** Concluyendo la visita a la Sala Otopames, este atuendo de la zona fría del Estado de México e Michoacán refleja la majestad textil y el estatus de la mujer Mazahua.
+
+**EN:** As your visit to the Otopame Peoples Hall comes to a close, this attire from the cold highlands of the State of Mexico and Michoacán reflects the textile majesty and the standing of the Mazahua woman.
+
+### guion_corto
+
+**ES:** Al situarse ante la vitrina que exhibe el majestuoso atavío femenino mazahua en la Sala Otomí-Mazahua de la planta alta, la riqueza de los pliegues de lana roja y el brillo de los bordados en punto de cruz cautivan de inmediato los sentidos. La Indumentaria ceremonial de la mujer Mazahua representa la vestimenta tradicional más sofisticada y elegante de los valles fríos del Estado de México y Michoacán. El atuendo consta de un pesado enredo o falda plegada de lana pura teñida en encendido color rojo o turquesa (chincuete), ceñido a la cintura por fajas anchas de lana tejidas con motivos de venados y pájaros. En la parte superior, la mujer viste una blusa de satén de colores vivos con olanes desplegados y un quechquémitl de encaje bordado a mano con finas hilazas multicolor. El atavío se remata con exuberantes arrancadas o arracadas de plata en forma de media luna y collares de cuentas multicolores. En la sociedad mazahua, esta vestimenta no es un simple ropaje diario, sino un símbolo de dignidad, identidad étnica y rango comunitario. Contemplar esta indumentaria en el Museo Nacional de Antropología es admirar la elegancia de la mujer de las montañas.
+
+**EN:** Standing before the display case that holds the majestic Mazahua women’s attire in the Otomí-Mazahua Hall on the upper floor, you are captivated at once by the richness of the red wool folds and the shimmer of the cross-stitch embroidery. The ceremonial attire of the Mazahua woman is the most sophisticated and elegant traditional dress of the cold valleys of the State of Mexico and Michoacán. The outfit consists of a heavy wraparound skirt, pleated and made of pure wool dyed a blazing red or turquoise, known as a chincuete, held at the waist by wide wool sashes woven with motifs of deer and birds. On top, the woman wears a brightly colored satin blouse with flowing ruffles and a quechquémitl of lace, embroidered by hand with fine multicolored yarns. The attire is crowned with exuberant silver drop earrings in the shape of a half moon and necklaces of multicolored beads. In Mazahua society, this dress is not simply everyday clothing, but a symbol of dignity, ethnic identity and standing in the community. To contemplate this attire in the National Museum of Anthropology is to admire the elegance of the woman of the mountains.
+
+### guion_largo
+
+**ES:** En las frías serranías y valles aluviales del poniente del Estado de México y oriente de Michoacán, el pueblo Mazahua o Jñatjo ha preservado una de las tradiciones de vestuario y bordado más vistosas y llenas de significado cosmogónico del Altiplano Central. En la cosmovisión mazahua, la mujer es la guardiana de la familia, de la lengua materna y del patrimonio ancestral de la comunidad. La confección y el uso del vestido ceremonial representan un proceso ritual de afirmación identitaria que se transmite de madres a hijas a lo largo de generaciones. Cada elemento de la indumentaria ha sido diseñado para responder al clima helado de las montañas de pino y para expresar el estatus de la mujer durante las grandes solemnidades religiosas, como las fiestas patronales, los matrimonios comunitarios y el día de los Fieles Difuntos. Portar el vestido tradicional completo otorga a la mujer mazahua un respeto sagrado dentro del consejo de ancianos y las mayordomías del pueblo. Al examinar con detenimiento la estructura y los componentes del atuendo en la vitrina del museo, el espectador admira el virtuosismo técnico de las artesanas mazahuas. La prenda central es el 'chincuete' o falda plegada: una pesada pieza de manta y lana de borrego teñida en vivo color rojo grana o azul marino que requiere hasta seis metros de tela continuos, plegados minuciosamente en el talle mediante tablones verticales. La falda se asegura con dos o tres fajas de lana tejidas en telar de cintura que despliegan una iconografía abrumadora: estrellas de ocho puntas, venados cola blanca, guajolotes, árboles de la vida y jarras de flores. Sobre la blusa de satén destaca el quechquémitl bordado en la compleja técnica de 'pepenado' o punto de cruz invertido, formando una red tupida de pequeñas figuras geométricas que cubren por completo la tela de fondo. El atuendo se complementa con grandes arracadas de plata de ley repujada en forma de palomas y medias lunas que tintinean alegremente al caminar durante los bailes festivos de la mayordomía. La crónica de la recolección e integración de esta indumentaria al acervo del Museo Nacional de Antropología se enmarca en los proyectos de rescate etnográfico llevados a cabo en la década de 1960 por investigadores del INAH en municipios del Estado de México como San Felipe del Progreso, Atlacomulco e Ixtlahuaca. Las investigadoras del museo adquirieron trajes ceremoniales completos directamente de las bordadoras mazahuas, registrando los nombres de las técnicas de teñido con grana cochinilla y las historias mitológicas bordadas en las fajas. La exhibición permanente de la indumentaria mazahua en la planta alta del MNA es un tributo a la resistencia cultural de las mujeres Jñatjo y un testimonio inolvidable de la belleza textil del México indígena contemporáneo.
+
+**EN:** In the cold mountain ranges and alluvial valleys of western State of Mexico and eastern Michoacán, the Mazahua, or Jñatjo, people have preserved one of the most colorful traditions of dress and embroidery in the Central Highlands, one rich in cosmological meaning. In the Mazahua worldview, women are the guardians of the family, of the mother tongue and of the community’s ancestral heritage. The making and wearing of the ceremonial dress is a ritual process of affirming identity, passed from mothers to daughters across generations. Every element of the attire has been designed to withstand the icy climate of the pine-covered mountains and to express a woman’s standing during the great religious celebrations, such as patron saint festivals, community weddings and All Souls' Day. Wearing the complete traditional dress earns a Mazahua woman a sacred respect within the council of elders and the religious stewardships of the town. As you look closely at the structure and components of the attire in the museum display case, you can admire the technical virtuosity of the Mazahua artisans. The central garment is the “chincuete,” or pleated skirt: a heavy piece of cotton cloth and sheep’s wool, dyed a vivid crimson red or navy blue, which requires up to six meters of continuous fabric, meticulously pleated at the waist in vertical box pleats. The skirt is secured with two or three wool sashes woven on a backstrap loom, which display an overwhelming iconography: eight-pointed stars, white-tailed deer, turkeys, trees of life and jars of flowers. Over the satin blouse stands out the quechquémitl, embroidered in the complex technique called “pepenado,” or inverted cross-stitch, forming a dense network of small geometric figures that completely cover the background cloth. The outfit is completed by large earrings of embossed sterling silver shaped like doves and half moons, which jingle merrily as the women walk during the festive dances of the stewardship. The story of how this attire was collected and brought into the collection of the National Museum of Anthropology belongs to the ethnographic salvage projects carried out in the 1960s by INAH researchers in municipalities of the State of Mexico such as San Felipe del Progreso, Atlacomulco and Ixtlahuaca. The museum’s researchers acquired complete ceremonial outfits directly from Mazahua embroiderers, recording the names of the dyeing techniques that use cochineal and the mythological stories embroidered on the sashes. The permanent display of Mazahua attire on the upper floor of the MNA is a tribute to the cultural resistance of Jñatjo women and an unforgettable testimony to the textile beauty of contemporary Indigenous Mexico.
+
+### retos_observacion
+
+**ES:** Pliegues verticales del pesado enredo de lana de borrego (chincuete) / Arracadas de plata en forma de media luna y palomas repujadas en las orejas / Motivos de venados y estrellas de ocho puntas bordados en la faja de la cintura
+
+**EN:** Vertical pleats of the heavy sheep’s wool wraparound skirt (chincuete) / Silver earrings in the shape of half moons and embossed doves on the ears / Deer and eight-pointed star motifs embroidered on the waist sash
+
+### especificaciones
+
+**ES:** Pueblo: Mazahua (Jñatjo) / Región: Altiplano del Estado de México (San Felipe del Progreso, Ixtlahuaca) y Michoacán / Técnica/Material: Tela de percal/terciopelo, faja de lana en telar de cintura, bordado a mano y orfebrería de plata / Función: Indumentaria de gala ceremonial, jerarquía comunitaria y protección identitaria
+
+**EN:** People: Mazahua (Jñatjo) / Region: Highlands of the State of Mexico (San Felipe del Progreso, Ixtlahuaca) and Michoacán / Technique/Material: Percale/velvet fabric, wool sash woven on a backstrap loom, hand embroidery and silver metalwork / Function: Ceremonial formal attire, community rank and protection of identity
+
+### faq_mito
+
+**ES:** pregunta: Mito: El traje de la mujer mazahua es un uniforme de trabajo doméstico introducido por terratenientes coloniales. / respuesta: Realidad: Según los catálogos del INAH, es una vestimenta de gala prehispánica y colonial que representa el orgullo y estatus comunitario Jñatjo.
+
+**EN:** pregunta: Myth: The Mazahua woman’s dress is a domestic work uniform introduced by colonial landowners. / respuesta: Reality: According to INAH catalogs, it is a pre-Hispanic and colonial formal dress that represents Jñatjo community pride and status.
+
+## Pieza: mna_s16_corona_quetzales
+
+### titulo
+
+**ES:** Corona monumental de la Danza de los Quetzales
+
+**EN:** Monumental Crown of the Dance of the Quetzals
+
+### frase_gancho
+
+**ES:** Rueda de plumas y listones que hace girar el sol.
+
+**EN:** A wheel of feathers and ribbons that makes the sun turn.
+
+### puente_narrativo
+
+**ES:** Al ingresar a la Sala Sierra de Puebla, este monumental penacho estelar introduce las danzas agrícolas y ceremoniales nahuas y totonacas.
+
+**EN:** Upon entering the Puebla Highlands Hall, this monumental star-shaped headdress introduces the agricultural and ceremonial dances of the Nahua and Totonac peoples.
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### guion_corto
+
+**ES:** Al situarse ante la vitrina que alberga este colosal tocado circular en la Sala de la Costa del Golfo y Puebla en la planta alta del museo, la explosión cromática de sus rayos y el dinamismo de su estructura asombran de inmediato los sentidos. La Corona monumental de la Danza de los Quetzales es la insignia suprema utilizada por los danzantes de origen totonaco y nahua en la Sierra Norte de Puebla y la cuenca del Papaloapan. Confeccionada sobre una armazón de varas de tiras de otate y carrizo de más de un metro y medio de diámetro, la corona está cubierta por miles de plumas multicolores, cintas de papel metalizado, espejos circulares y largos listones de satén que cuelgan sobre la espalda del bailador. Durante la ejecución de la danza ceremonial, los ejecutantes hacen girar sus cabezas en inclinaciones coordinadas al ritmo de la flauta de carrizo y el tamborcillo, provocando que la enorme rueda de plumas gire como un disco solar en movimiento. En la cosmovisión totonaca, esta corona no es un simple sombrero festivo, sino una representación viviente del disco solar y del pájaro quetzal que bendice los cuatro rumbos del cielo. Contemplarla en el Museo Nacional de Antropología es presenciar la majestuosidad de la danza nativa.
+
+**EN:** Standing before the display case that holds this colossal circular headdress in the Gulf Coast and Puebla Hall on the upper floor of the museum, you are struck at once by the burst of color in its rays and the dynamism of its structure. The Monumental Crown of the Dance of the Quetzals is the supreme insignia worn by dancers of Totonac and Nahua origin in the Northern Highlands of Puebla and the Papaloapan basin. Built on a frame of otate bamboo and reed strips more than a meter and a half in diameter, the crown is covered with thousands of multicolored feathers, metallic paper ribbons, circular mirrors, and long satin streamers that hang down the dancer’s back. During the ceremonial dance, the performers swivel their heads in coordinated tilts to the rhythm of the reed flute and the small drum, making the enormous wheel of feathers spin like a solar disk in motion. In the Totonac worldview, this crown is not a mere festive hat, but a living representation of the solar disk and of the quetzal bird, which blesses the four directions of the sky. To behold it in the National Museum of Anthropology is to witness the majesty of native dance.
+
+### guion_largo
+
+**ES:** En las húmedas serranías y cañadas verdes de la Sierra Norte de Puebla y en los valles totonacos de Veracruz, la Danza de los Quetzales representa uno de los testimonios dancísticos y astronómicos de mayor antigüedad y belleza de Mesoamérica. Heredera directa de las antiguas danzas prehispánicas dedicadas al culto del Sol, a la fertilidad del maíz y a la adoración de las aves de plumaje precioso como el quetzal (Pharomachrus mocinno), la danza fue preservada por las comunidades totonacas y nahuas de municipios como Cuetzalan, Zacapoaxtla, Huitzilan de Serdán y Papantla. En el pensamiento cosmogónico totonaco, el quetzal era considerado el mensajero divino del cielo, cuyo plumaje verde esmeralda simbolizaba el brote de la vegetación, las gotas de lluvia y el renacimiento de la vida agrícola en las laderas. Ejecutar la Danza de los Quetzales requiere una preparación física y espiritual rigurosa: los danzantes deben someterse a velaciones, oraciones y abstinencias antes de colocarse la pesada corona sobre la cabeza para bailar durante horas bajo el sol ardiente durante las fiestas patronales de la comunidad. Al inspeccionar con atención la minuciosa estructura y los materiales de la corona en la vitrina del museo, el observador admira la maestría artesanal del taller tradicional. La base del tocado está compuesta por un casquete de paja o cuero ajustado a la cabeza del danzante. De esta base emerge una majestuosa red o rueda circular elaborada con finas varas de carrizo y otate entretejidas con hilos de algodón en forma de telaraña radiante de cuatro cuadrantes. En los extremos de cada una de las varas se insertan manojos de plumas multicolores en tonos verde, rojo, amarillo y azul, rematadas con borlas de estambre y pequeños espejos circulares que reflejan los rayos del sol durante los giros de la danza. Del centro posterior de la corona caen largos listones de seda de colores brillantes que flotan libremente sobre la espalda del ejecutante, simbolizando las colas del pájaro místico y los rayos de la luz solar en movimiento constante sobre el campo cultivado. La historia del acopio de esta espectacular corona ceremonial para el Museo Nacional de Antropología forma parte de los proyectos de investigación etnográfica e iconográfica conducidos por el Instituto Nacional de Antropología e Historia en la Sierra Norte de Puebla a mediados del siglo veinte. Los antropólogos e investigadores del museo documentaron los pasos dancísticos en Cuetzalan y adquirieron coronas históricas elaboradas por reconocidos caporales y maestros artesanos de la región serrana. La conservación de esta corona monumental en la planta alta del MNA permite a los visitantes de todo el orbe admirar la herencia astronómica, la música de flauta y tamborcillo, y la maestría artesanal de los pueblos totonaco y nahua de México.
+
+**EN:** In the humid mountains and green ravines of the Northern Highlands of Puebla and in the Totonac valleys of Veracruz, the Dance of the Quetzals stands as one of the oldest and most beautiful dance and astronomical testimonies of Mesoamerica. A direct heir to the ancient pre-Hispanic dances dedicated to the worship of the Sun, to the fertility of maize, and to the veneration of birds with precious plumage such as the quetzal, Pharomachrus mocinno, the dance has been preserved by the Totonac and Nahua communities of municipalities such as Cuetzalan, Zacapoaxtla, Huitzilan de Serdán, and Papantla. In Totonac cosmogonic thought, the quetzal was regarded as the divine messenger of the sky, whose emerald-green plumage symbolized the sprouting of vegetation, the drops of rain, and the rebirth of agricultural life on the hillsides. Performing the Dance of the Quetzals demands rigorous physical and spiritual preparation: the dancers must undergo vigils, prayers, and periods of abstinence before placing the heavy crown on their heads to dance for hours under the blazing sun during the community’s patron saint festivals. When you look closely at the meticulous structure and materials of the crown in the museum’s display case, you can admire the craftsmanship of the traditional workshop. The base of the headdress is made of a cap of straw or leather fitted to the dancer’s head. From this base rises a majestic net, or circular wheel, made of fine reed and otate bamboo rods interwoven with cotton threads in the form of a radiant spiderweb of four quadrants. At the tip of each rod, bundles of multicolored feathers in green, red, yellow, and blue are inserted, finished with yarn tassels and small circular mirrors that reflect the rays of the sun during the turns of the dance. From the rear center of the crown fall long streamers of bright, colorful silk that float freely over the performer’s back, symbolizing the tails of the mystical bird and the rays of sunlight in constant motion over the cultivated field. The story of how this spectacular ceremonial crown was gathered for the National Museum of Anthropology is part of the ethnographic and iconographic research projects led by the National Institute of Anthropology and History (INAH) in the Northern Highlands of Puebla in the mid-twentieth century. The museum’s anthropologists and researchers documented the dance steps in Cuetzalan and acquired historic crowns made by renowned lead dancers and master artisans of the highland region. The preservation of this monumental crown on the upper floor of the MNA allows visitors from all over the world to admire the astronomical heritage, the music of flute and small drum, and the artisanal mastery of the Totonac and Nahua peoples of Mexico.
+
+### retos_observacion
+
+**ES:** Estructura de telaraña o red circular formada por varas de carrizo y otate / Espejos redondos y borlas de estambre que rematan las puntas de los rayos / Largos listones multicolor de satén que cuelgan del casquete sobre la espalda
+
+**EN:** A spiderweb-like structure, or circular net, formed by reed and otate bamboo rods / Round mirrors and yarn tassels that finish off the tips of the rays / Long multicolored satin streamers hanging from the cap down the back
+
+### especificaciones
+
+**ES:** Pueblo: Nahua / Totonaco / Región: Sierra Norte de Puebla (Cuetzalan del Progreso) / Técnica/Material: Carrizo (tarro), papel de china y metalizado, listones de satén y plumas / Función: Parafernalia de enmascaramiento y tocado ritual para la Danza de los Quetzales
+
+**EN:** People: Nahua / Totonac / Region: Northern Highlands of Puebla (Cuetzalan del Progreso) / Technique/Material: Reed (cane), tissue paper and metallic paper, satin ribbons, and feathers / Function: Masking paraphernalia and ritual headdress for the Dance of the Quetzals
+
+### faq_mito
+
+**ES:** pregunta: Mito: La corona de la Danza de los Quetzales es un adorno de carnaval traído por inmigrantes franceses a Puebla. / respuesta: Realidad: Según los peritajes del INAH, es una insignia ceremonial prehispánica dedicada al culto del sol y al ave sagrada quetzal.
+
+**EN:** pregunta: Myth: The crown of the Dance of the Quetzals is a carnival ornament brought to Puebla by French immigrants. / respuesta: Reality: According to INAH expert assessments, it is a pre-Hispanic ceremonial insignia dedicated to the cult of the sun and the sacred quetzal bird.
+
+## Pieza: mna_s16_papel_amate_sanpablito
+
+### titulo
+
+**ES:** Pliegos y figuras rituales de Papel Amate de San Pablito Pahuatlán
+
+**EN:** Amate Paper Sheets and Ritual Figures from San Pablito Pahuatlán
+
+### frase_gancho
+
+**ES:** Corteza sagrada del monte donde el espíritu cobra forma.
+
+**EN:** Sacred bark from the mountain, where the spirit takes form.
+
+### puente_narrativo
+
+**ES:** Ubicado en el sector dedicado a la medicina tradicional y el chamanismo, este conjunto de papel vegetal revela el arte sagrado de San Pablito.
+
+**EN:** Located in the section devoted to traditional medicine and shamanism, this set of plant-fiber paper reveals the sacred art of San Pablito.
+
+### guion_corto
+
+**ES:** Al aproximarse a la vitrina que exhibe estas enigmáticas siluetas recortadas en fibra vegetal en la Sala de Puebla y la Costa del Golfo de la planta alta del museo, la textura rugosa y la misteriosa silueta antropomorfa de las figuras atrapan de inmediato los sentidos. Los Pliegos y figuras rituales de Papel Amate de San Pablito Pahuatlán, Puebla, representan una de las tradiciones espirituales y artesanales de origen prehispánico más fascinantes del pueblo Otomí (Hñähñu) de la Sierra Norte de Puebla. Elaborados mediante el hervido, machacado y desfibrado manual de la corteza de árboles de jonote blanco, moral y mamey (Trema micrantha y Ficus), estos pliegos de papel artesanal de tonos café, crema y oscuro son recortados por los chamanes o 'dähi' para dar forma a los espíritus de la naturaleza: el alma del maíz, el dios del trueno, el espíritu del monte, el agua vivificante y las entidades de la enfermedad. En los ritos ceremoniales de curación y limpieza espiritual, estas figuras recortadas reciben ofrendas de sangre, alcohol y flores antes de ser entregadas a la tierra. Contemplar estos recortes rituales en el Museo Nacional de Antropología es admirar la persistencia milenaria del papel ceremonial en México.
+
+**EN:** As you approach the display case that holds these enigmatic silhouettes cut from plant fiber, in the Puebla and Gulf Coast Hall on the upper floor of the museum, the rough texture and the mysterious human-like shapes of the figures instantly captivate the senses. The Amate Paper Sheets and Ritual Figures of San Pablito Pahuatlán, Puebla, represent one of the most fascinating spiritual and artisanal traditions of pre-Hispanic origin among the Otomí, or Hñähñu, people of the Sierra Norte de Puebla. Made by hand through the boiling, pounding and shredding of the bark of white jonote, mulberry and mamey trees, Trema micrantha and Ficus, these sheets of handmade paper in shades of brown, cream and dark are cut by the shamans, or “dähi,” to give form to the spirits of nature: the soul of maize, the god of thunder, the spirit of the mountain, the life-giving water and the entities of illness. In ceremonial rites of healing and spiritual cleansing, these cut figures receive offerings of blood, alcohol and flowers before being given back to the earth. To contemplate these ritual cutouts in the National Museum of Anthropology is to admire the age-old persistence of ceremonial paper in Mexico.
+
+### guion_largo
+
+**ES:** En las profundidades brumosas de la Sierra Norte de Puebla, en el municipio serrano de Pahuatlán, la comunidad otomí de San Pablito ha resguardado a lo largo de milenios una de las industrias sagradas más antiguas del continente americano: la manufactura del papel amate o 'ää'. Mucho antes de la llegada de los conquistadores españoles, los pueblos mesoamericanos utilizaban el papel de corteza de jonote no solo para la confección de códices y tributos reales, sino como el soporte ritual primordial a través del cual los chamanes entablaban comunicación directa con las deidades del cosmos. Mientras que en casi todo el territorio novohispano la producción de papel indígena fue perseguida y destruida por las autoridades coloniales debido a sus vínculos con la religión nativa, los sanadores y brujos otomíes de San Pablito continuaron elaborando el papel en la clandestinidad de las cuevas y quebradas de la montaña. Para la cosmogonía Hñähñu, la corteza del árbol conserva el aliento de la naturaleza, convirtiéndose en el recipiente idóneo para dar cuerpo y rostro a los seres invisibles que gobiernan el viento, la salud y la fertilidad de las milpas. Al inspeccionar con detenimiento la superficie fibra por fibra de estos pliegos rituales en la vitrina del museo, el observador atento descubre la prodigiosa técnica de labrado manual. El proceso de elaboración comienza cuando los campesinos desprenden tiras de corteza de los árboles de jonote, las cuales son hervidas durante horas en cacerolas con ceniza de madera y cal para suavizar las fibras vegetativas. Posteriormente, sobre una tabla plana de madera, el artesano acomoda las tiras entrelazadas y las golpea rítmicamente con una piedra lisa de río pulida llamada 'muñeca' o percutor de piedra de origen prehispánico, logrando que las hebras se fundan en una lámina uniforme de papel silvestre. La figura ritual recortada por el chamán muestra la silueta de un personaje antropomorfo provisto de brazos levantados hacia el cielo con dedos ramificados como ramas de árbol, sosteniendo brotes de milpa o espíritus de animales protectores. Las figuras elaboradas en papel claro representan a los espíritus benéficos del agua y los cultivos, mientras que las recortadas en papel oscuro de jonote negro encarnan a los aires nocivos o entidades del inframundo que deben ser apaciguadas. La historia del rescate e integración de este acervo de papel amate a las colecciones etnográficas del Museo Nacional de Antropología se remonta a los emblemáticos proyectos de investigación de campo conducidos a mediados del siglo veinte por antropólogos del INAH como Roberto Williams García, Bodil Christensen y Alfonso Medellín Zenil. Los investigadores ingresaron a la sierra de Pahuatlán y presenciaron las ceremonias de curación tradicionales, obteniendo la autorización de los ancianos chamanes para adquirir los pliegos rituales directamente en los altares. Las piezas fueron trasladadas a la Ciudad de México y catalogadas por los especialistas del museo para la inauguración de la planta alta en 1964. Hoy en día, esta colección de papel amate resplandece en la Sala de la Costa del Golfo y Puebla como el testimonio viviente de la medicina tradicional, el arte chamánico y la sabiduría milenaria de la comunidad otomí de San Pablito.
+
+**EN:** In the misty depths of the Sierra Norte de Puebla, in the mountain municipality of Pahuatlán, the Otomí community of San Pablito has safeguarded for millennia one of the oldest sacred industries of the Americas: the making of amate paper, or “ää.” Long before the arrival of the Spanish conquerors, Mesoamerican peoples used jonote bark paper not only to make codices and royal tribute records, but as the primary ritual medium through which shamans established direct communication with the deities of the cosmos. While across nearly all of the territory of New Spain the production of Indigenous paper was persecuted and destroyed by colonial authorities because of its ties to native religion, the Otomí healers and sorcerers of San Pablito went on making paper in secret, in the caves and ravines of the mountain. For Hñähñu cosmology, the bark of the tree holds the breath of nature, making it the ideal vessel for giving body and face to the invisible beings who govern the wind, health and the fertility of the cornfields. Looking closely at the surface, fiber by fiber, of these ritual sheets in the museum display case, the attentive observer discovers the remarkable technique of hand crafting. The process begins when farmers strip bands of bark from the jonote trees, which are then boiled for hours in pots with wood ash and lime to soften the plant fibers. Afterward, on a flat wooden board, the artisan lays out the interwoven strips and beats them rhythmically with a smooth, polished river stone called the “doll,” or stone beater, of pre-Hispanic origin, until the strands fuse into a uniform sheet of wild paper. The ritual figure cut by the shaman shows the silhouette of a human-like being with arms raised toward the sky, its fingers branching like the limbs of a tree, holding sprouts of the cornfield or spirits of protective animals. The figures made of light-colored paper represent the benevolent spirits of water and crops, while those cut from dark paper of black jonote embody the harmful airs or entities of the underworld that must be appeased. The story of how this collection of amate paper was rescued and brought into the ethnographic collections of the National Museum of Anthropology goes back to the landmark field research projects led in the mid-twentieth century by INAH anthropologists such as Roberto Williams García, Bodil Christensen and Alfonso Medellín Zenil. The researchers entered the mountains of Pahuatlán and witnessed the traditional healing ceremonies, obtaining permission from the elder shamans to acquire the ritual sheets directly from the altars. The pieces were transported to Mexico City and cataloged by the museum’s specialists for the opening of the upper floor in 1964. Today, this collection of amate paper shines in the Gulf Coast and Puebla Hall as the living testimony of traditional medicine, shamanic art and the age-old wisdom of the Otomí community of San Pablito.
+
+### retos_observacion
+
+**ES:** Silueta recortada con brazos levantados e incisiones de dedos en forma de espigas de maíz / Contraste de tonalidades entre el papel de jonote blanco para espíritus benéficos y jonote oscuro para aires nocturnos / Textura estriada de la fibra vegetal producida por el impacto de la piedra percutora prehispánica
+
+**EN:** Cutout silhouette with raised arms and finger incisions shaped like ears of corn / Contrast of tones between the white jonote paper for benevolent spirits and the dark jonote for nocturnal airs / Ridged texture of the plant fiber produced by the impact of the pre-Hispanic beating stone
+
+### especificaciones
+
+**ES:** Pueblo: Otomí (Ñähñu) / Región: Sierra Norte de Puebla (San Pablito Pahuatlán) / Técnica/Material: Corteza de jonote hervida, macerada y hervida con piedra de río stria / Función: Soporte sagrado para ritos de curación chamánica, limpias y artesanía tradicional
+
+**EN:** People: Otomí (Hñähñu) / Region: Sierra Norte de Puebla (San Pablito Pahuatlán) / Technique/Material: Jonote bark, boiled, macerated and boiled, with a striated river stone / Function: Sacred medium for shamanic healing rites, spiritual cleansings and traditional craft
+
+### faq_mito
+
+**ES:** pregunta: Mito: Las figuras recortadas de papel amate son souvenirs comerciales decorativos inventados recientemente para turistas de Pahuatlán. / respuesta: Realidad: Según los estudios del INAH, son instrumentos chamánicos ancestrales del pueblo Otomí utilizados en ritos de curación y fertilidad.
+
+**EN:** pregunta: Myth: The cutout figures of amate paper are decorative commercial souvenirs recently invented for tourists in Pahuatlán. / respuesta: Reality: According to INAH studies, they are ancestral shamanic instruments of the Otomí people, used in rites of healing and fertility.
+
+## Pieza: mna_s16_traje_volador
+
+### titulo
+
+**ES:** Traje ceremonial del Danzante Volador
+
+**EN:** Ceremonial Costume of the Flying Dancer
+
+### frase_gancho
+
+**ES:** Atavío de vuelo que gira hacia los cuatro rumbos solares.
+
+**EN:** Flight attire that spins toward the four solar directions.
+
+### puente_narrativo
+
+**ES:** Continuando hacia el espacio consagrado a las ceremonias del aire, esta indumentaria roja personifica al ave sagrada que desciende del cielo.
+
+**EN:** Continuing toward the space consecrated to the ceremonies of the air, this red attire personifies the sacred bird that descends from the sky.
+
+### guion_corto
+
+**ES:** Al detenerse ante el maniquí que viste el indumento del ejecutante en la Sala de la Costa del Golfo y Puebla de la planta alta del museo, la intensidad del color rojo grana y la elegancia de las plumas capturan de inmediato los sentidos. El Traje ceremonial del Danzante Volador representa la vestidura sagrada utilizada por los ejecutantes totonacos y nahuas de Papantla y la Sierra Norte de Puebla durante la emblemática ceremonia del Vuelo de los Voladores. El atuendo consta de un pantalón rojo de satén adornado con flecos dorados, un sombrero cónico o gorro de paja cubierto de flores y plumas multicolores, y dos pañuelos o semicírculos cruzados sobre el pecho y la espalda que simulan las alas desplegadas de un ave sagrada. Durante la ceremonia, cuatro danzantes que encarnan a los cuatro rumbos cosmogónicos del universo y un caporal que toca el tamborcillo y la flauta de carrizo ascienden a la cima de un mástil de madera de más de treinta metros, lanzándose al vacío atados por cuerdas para girar trece veces en descenso. Contemplar esta vestimenta ceremonial en el Museo Nacional de Antropología es admirar la armonía entre el aire, la fe y la astronomía prehispánica.
+
+**EN:** Stopping before the mannequin dressed in the performer's garments in the Gulf Coast and Puebla Hall on the upper floor of the museum, you are immediately captivated by the intensity of the crimson red and the elegance of the feathers. The Ceremonial Costume of the Flying Dancer is the sacred garment worn by the Totonac and Nahua performers of Papantla and the Sierra Norte de Puebla during the emblematic Flight of the Voladores (Flyers) ceremony. The attire consists of red satin trousers adorned with golden fringes, a conical hat, or straw cap, covered with flowers and multicolored feathers, and two kerchiefs, or semicircles, crossed over the chest and the back that imitate the outspread wings of a sacred bird. During the ceremony, four dancers who embody the four cosmogonic directions of the universe and a leader who plays the small drum and the reed flute climb to the top of a wooden pole more than thirty meters high, then hurl themselves into the void, tied by ropes, to spin thirteen times as they descend. To contemplate this ceremonial dress in the National Museum of Anthropology is to admire the harmony between the air, faith and pre-Hispanic astronomy.
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### guion_largo
+
+**ES:** En las fértiles tierras de la Costa del Golfo de México y en las escarpadas laderas de la Sierra Norte de Puebla, la Ceremonia Ritual de los Voladores constituye una de las expresiones míticas, gastronómicas y astronómicas de mayor antigüedad e impacto litúrgico de Mesoamérica. Reconocida por la UNESCO como Patrimonio Cultural Inmaterial de la Humanidad, esta tradición se remonta a miles de años atrás, cuando los sabios totonacos concibieron este rito de invocación pluvial durante un periodo de sequía extrema que amenazaba con exterminar los cultivos de la región. Para el pueblo Totonaco o Tutunaku de Papantla, el mástil o palo sagrado —cortado en el monte mediante oraciones de perdón al espíritu del árbol— representa el axis mundi o árbol cósmico que conecta el inframundo terrestre con la bóveda celeste. Los cuatro danzantes que ascienden a la plataforma giratoria o manzana no realizan una prueba deportiva de acrobacia, sino que asumen el papel de aves sagradas que descienden a la tierra para traer el agua, la fertilidad y la armonía solar a los cuatro rumbos de la creación. Al examinar con atención los detalles textiles y los adornos que componen el vestido ceremonial en la vitrina del museo, el observador atento aprecia la minuciosa simbología de cada prenda. El pantalón rojo vivo de satén o seda evoca la sangre de los guerreros y la luz cálida del Sol al amanecer. Sobre el pecho y la espalda del volador se cruzan dos pañoletas triangulares teñidas en brillante color amarillo y rojo, adornadas con bordados en punto de cruz con figuras de flores del campo, aves místicas y espejos redondos que reflejan los rayos solares. El gorro o sombrero cónico que cubre la cabeza del danzante representa el pico de la garza o del águila sagrada, coronado por un penacho circular de plumas de ave que gira con el viento y del cual cuelgan largos listones multicolores que simulan el arcoíris que anuncia el fin de la tormenta pluvial. En sus manos, los danzantes portan maracas o sonajas de guaje con las que marcan el compás rítmico mientras giran suspendidos en el aire. La crónica de la recolección e incorporación de esta vestimenta ritual al acervo etnográfico del Museo Nacional de Antropología se enmarca en las expediciones de documentación antropológica conducidas a mediados del siglo veinte por investigadores del INAH en Tajín y Papantla, Veracruz. Los etnógrafos del museo trabajaron en colaboración directa con el Consejo de Ancianos de los Voladores y con los maestros artesanos de la región totonaca, adquiriendo el atuendo completo confeccionado con los materiales tradicionales de satén, plumas de ave y espejos. La exhibición permanente de este traje ceremonial en la planta alta del MNA rinde tributo a la vigencia del rito del vuelo, enseñando a los visitantes de todo el mundo la profunda espiritualidad y resistencia cultural de los pueblos originarios de la Costa del Golfo de México.
+
+**EN:** In the fertile lands of the Gulf Coast of the Gulf of Mexico and on the steep slopes of the Sierra Norte de Puebla, the Ritual Ceremony of the Voladores is one of the oldest and most liturgically powerful mythical, gastronomic and astronomical expressions of Mesoamerica. Recognized by UNESCO as Intangible Cultural Heritage of Humanity, this tradition goes back thousands of years, to when the Totonac sages conceived this rite of rain invocation during a period of extreme drought that threatened to wipe out the region's crops. For the Totonac, or Tutunaku, people of Papantla, the sacred pole, cut in the forest with prayers of forgiveness to the spirit of the tree, represents the axis mundi, or cosmic tree, which connects the earthly underworld with the vault of heaven. The four dancers who climb to the rotating platform, or apple, are not performing an athletic feat of acrobatics, but taking on the role of sacred birds that descend to earth to bring water, fertility and solar harmony to the four directions of creation. When you look closely at the textile details and the ornaments that make up the ceremonial dress in the museum display case, you can appreciate the meticulous symbolism of each garment. The bright red trousers of satin or silk evoke the blood of warriors and the warm light of the Sun at dawn. Across the chest and back of the flyer cross two triangular kerchiefs dyed in bright yellow and red, adorned with cross-stitch embroidery of wildflowers, mystical birds and round mirrors that reflect the rays of the Sun. The conical hat, or cap, that covers the dancer's head represents the beak of the heron or the sacred eagle, crowned by a circular plume of bird feathers that spins in the wind and from which hang long multicolored ribbons that imitate the rainbow announcing the end of the rainstorm. In their hands, the dancers carry maracas, or gourd rattles, with which they mark the rhythmic beat as they spin suspended in the air. The chronicle of how this ritual dress was gathered and added to the ethnographic collection of the National Museum of Anthropology belongs to the anthropological documentation expeditions carried out in the mid-twentieth century by INAH researchers in Tajín and Papantla, Veracruz. The museum's ethnographers worked in direct collaboration with the Council of Elders of the Voladores and with master artisans of the Totonac region, acquiring the complete attire made with the traditional materials of satin, bird feathers and mirrors. The permanent display of this ceremonial costume on the upper floor of the MNA pays tribute to the living strength of the flight rite, showing visitors from all over the world the profound spirituality and cultural resilience of the native peoples of the Gulf Coast of the Gulf of Mexico.
+
+### retos_observacion
+
+**ES:** Gorro cónico que simula el pico del ave sagrada coronado con plumaje y listones / Pañuelos triangulares cruzados sobre el pecho con espejos circulares que reflejan el sol / Flecos dorados y bordados florales en los dobladillos del pantalón rojo de satén
+
+**EN:** Conical hat imitating the beak of the sacred bird, crowned with plumage and ribbons / Triangular kerchiefs crossed over the chest with circular mirrors that reflect the sun / Golden fringes and floral embroidery on the hems of the red satin trousers
+
+### especificaciones
+
+**ES:** Pueblo: Totonaco / Nahua / Región: Sierra Norte de Puebla y Totonacapan (Papantla / Cuetzalan) / Técnica/Material: Terciopelo/satén rojo, fleco de canutillo dorado, espejos, plumas y bordado / Función: Indumentaria sagrada para el ritual cosmogónico de los Voladores (invocación de lluvia)
+
+**EN:** People: Totonac / Nahua / Region: Sierra Norte de Puebla and Totonacapan (Papantla / Cuetzalan) / Technique/Material: Red velvet/satin, golden bugle-bead fringe, mirrors, feathers and embroidery / Function: Sacred attire for the cosmogonic ritual of the Voladores (rain invocation)
+
+### faq_mito
+
+**ES:** pregunta: Mito: La Danza de los Voladores es un espectáculo circense o atracción turística de acrobacia inventada en el siglo XX. / respuesta: Realidad: Según los estudios del INAH, es una ceremonia astronómica y agrícola prehispánica inscrita en la lista del Patrimonio Inmaterial de la Humanidad por la UNESCO.
+
+**EN:** pregunta: Myth: The Dance of the Flyers is a circus show or a tourist attraction of acrobatics invented in the 20th century. / respuesta: Reality: According to INAH studies, it is a pre-Hispanic astronomical and agricultural ceremony inscribed on the UNESCO list of Intangible Heritage of Humanity.
+
+> Aviso: el glosario pide "Voladores" para "Voladores" y no aparece
+
+## Pieza: mna_s16_huipil_cuetzalan
+
+### titulo
+
+**ES:** Huipil tradicional de gasa con tejido en curva de Cuetzalan
+
+**EN:** Traditional Gauze Huipil with Curved Weave from Cuetzalan
+
+### frase_gancho
+
+**ES:** Manto de gasa donde la curva del tejido atrae lluvia.
+
+**EN:** A gauze mantle where the curve of the weave draws the rain.
+
+### puente_narrativo
+
+**ES:** Para concluir el recorrido por la Sala Sierra de Puebla, este delicado lienzo de algodón rinde tributo a la maestría textil nahua de las montañas.
+
+**EN:** To conclude the tour of the Puebla Sierra Hall, this delicate cotton cloth pays tribute to the textile mastery of the Nahua of the mountains.
+
+### guion_corto
+
+**ES:** Al situarse ante la vitrina que alberga este exquisito lienzo de algodón blanco en la Sala de la Costa del Golfo y Puebla de la planta alta del museo, la vaporosidad de la trama y la genialidad del tejido en curva cautivan de inmediato los sentidos. El Huipil tradicional de gasa con tejido en curva de Cuetzalan representa la joya textil más sofisticada y técnicamente compleja de las mujeres nahuas de la Sierra Norte de Puebla. Confeccionado enteramente en telar de cintura prehispánico con hilos de algodón nativo de tonalidad blanca como las nubes de la montaña, este huipil destaca por el prodigioso manejo del tejido curvo: una técnica milenaria que permite alterar la trayectoria recta de los hilos de la trama para formar curvas y ondulaciones directamente sobre el telar sin realizar ningún corte en la tela. Sobre la transparencia de la gasa calada lucen bordados de flora nativa, guías de enredaderas y aves del monte en tonos blanco y rojo. En la cultura nahua serrana, esta prenda es la vestidura de gala suprema usada en las bodas y fiestas patronales. Contemplar este huipil en el Museo Nacional de Antropología es admirar la cima técnica del arte textil mesoamericano.
+
+**EN:** Standing before the display case that holds this exquisite white cotton cloth in the Gulf Coast and Puebla Hall on the upper floor of the museum, you are captivated at once by the airy lightness of the weft and the brilliance of the curved weave. The traditional gauze huipil with curved weave from Cuetzalan is the most sophisticated and technically complex textile jewel of the Nahua women of the Northern Sierra of Puebla. Made entirely on a pre-Hispanic backstrap loom with native cotton thread as white as the clouds of the mountain, this huipil stands out for its prodigious handling of the curved weave: a thousand-year-old technique that makes it possible to alter the straight path of the weft threads to form curves and undulations directly on the loom, without making a single cut in the cloth. Over the transparency of the openwork gauze appear embroideries of native flora, climbing vines and birds of the wild, in shades of white and red. In highland Nahua culture, this garment is the supreme formal dress worn at weddings and patron saint festivals. To contemplate this huipil in the National Museum of Anthropology is to admire the technical summit of Mesoamerican textile art.
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### guion_largo
+
+**ES:** En las laderas empinadas y brumosas de la Sierra Norte de Puebla, en la próspera comunidad nahua de Cuetzalan del Progreso, la tejeduría artesanal en telar de cintura constituye un arte sagrado transmitido de madres a hijas desde tiempos inmemoriales. En el pensamiento cosmogónico nahua, el telar de cintura no se considera una simple máquina de madera para entramar hilos, sino la réplica del cuerpo de la mujer y de la diosa textil Tlazoltéotl. Las tejedoras de Cuetzalan poseen un conocimiento geométrico y matemático de la física del hilo que asombra a los diseñadores contemporáneos de todo el orbe. Entre todas las prendas elaboradas en las serranías de Puebla, el huipil de gasa con tejido en curva o moxochitecomatl es considerado la obra maestra insuperable. Crear este huipil exige meses de concentración absoluta: la artesana debe tensionar los hilos de la urdimbre con la faja de cuero apoyada en su cadera, utilizando pequeñas agujas de hueso y espinas de maguey para manipular manualmente cada hebra de algodón, creando zonas de gasa calada transparente que simulan la neblina que abraza los pinares de la montaña. Al inspeccionar con cuidado la estructura física del huipil en la vitrina de la exposición, el espectador atento descubre el secreto de la trama curva. A diferencia de la inmensa mayoría de los telares del mundo donde los hilos se cruzan en ángulos rectos estrictos de noventa grados, la tejedora de Cuetzalan aplica una presión desigual en los extremos de la urdimbre mientras inserta la trama, logrando que las franjas tejidas se arqueen de forma fluida a lo largo del lienzo. Esta ondulación textil otorga una caída redondeada y orgánica a los hombros y al cuello de la mujer, adaptándose a la anatomía femenina sin necesidad de usar tijeras o costuras invasivas. La pechera del huipil exhibe delicados bordados en hilos de algodón rojo y rosa que representan el árbol de la vida, la flor del maíz, guías de mariposas y serpientes de agua que invocan la llegada de las lluvias bienhechoras sobre las huertas de café y maíz. La historia del registro y adquisición de esta pieza excepcional para las colecciones del Museo Nacional de Antropología forma parte de las emblemáticas campañas de acopio etnográfico conducidas a mediados del siglo veinte por investigadoras y antropólogas del INAH como Irmgard Weitlaner Johnson y Bodil Christensen. Las investigadoras recorrieron los barrios de Cuetzalan y San Miguel Tzinacapan, documentando en fotografía y cine el proceso de armado del telar de cintura y el manejo de las agujas para el tejido curvo. La pieza fue adquirida directamente a una renombrada maestra tejedora comunitaria y trasladada a la Ciudad de México para enriquecer la Sala de Puebla en la planta alta del MNA. Hoy en día, este huipil de gasa se conserva como un testimonio indiscutible de la ciencia textil, la elegancia y la soberanía cultural de las mujeres nahuas de México.
+
+**EN:** On the steep, misty slopes of the Northern Sierra of Puebla, in the prosperous Nahua community of Cuetzalan del Progreso, artisan weaving on the backstrap loom is a sacred art passed down from mothers to daughters since time immemorial. In Nahua cosmogonic thought, the backstrap loom is not considered a mere wooden machine for interlacing threads, but a replica of the body of woman and of the textile goddess Tlazoltéotl. The weavers of Cuetzalan possess a geometric and mathematical understanding of the physics of thread that astonishes contemporary designers all over the world. Among all the garments made in the highlands of Puebla, the gauze huipil with curved weave, or moxochitecomatl, is considered the unsurpassed masterpiece. Creating this huipil demands months of absolute concentration: the artisan must tension the warp threads with the leather strap resting on her hip, using small bone needles and maguey thorns to manipulate each strand of cotton by hand, creating areas of transparent openwork gauze that mimic the mist that embraces the pine groves of the mountain. By carefully inspecting the physical structure of the huipil in the exhibition display case, the attentive viewer discovers the secret of the curved weft. Unlike the vast majority of looms in the world, where threads cross at strict right angles of ninety degrees, the Cuetzalan weaver applies uneven pressure at the ends of the warp while inserting the weft, making the woven bands arch fluidly across the cloth. This textile undulation gives a rounded, organic drape to the shoulders and neck of the woman, adapting to the female anatomy without the need for scissors or intrusive seams. The chest panel of the huipil displays delicate embroidery in red and pink cotton threads that represents the tree of life, the maize flower, vines of butterflies and water serpents that call forth the arrival of the beneficial rains over the coffee and maize orchards. The story of the recording and acquisition of this exceptional piece for the collections of the National Museum of Anthropology is part of the emblematic ethnographic collecting campaigns carried out in the mid-twentieth century by INAH researchers and anthropologists such as Irmgard Weitlaner Johnson and Bodil Christensen. The researchers traveled through the neighborhoods of Cuetzalan and San Miguel Tzinacapan, documenting in photography and film the process of setting up the backstrap loom and the handling of the needles for the curved weave. The piece was acquired directly from a renowned community master weaver and taken to Mexico City to enrich the Puebla Hall on the upper floor of the MNA. Today, this gauze huipil is preserved as an unquestionable testimony to the textile science, the elegance and the cultural sovereignty of the Nahua women of Mexico.
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### retos_observacion
+
+**ES:** Curvatura orgánica de los hilos de la trama en los hombros lograda directamente en el telar / Trama calada transparente de gasa de algodón blanca que simula la niebla de la sierra / Pechera con bordados tupidos de flora y mariposas en tonalidades rojo carmín
+
+**EN:** Organic curvature of the weft threads at the shoulders, achieved directly on the loom / Transparent openwork weave of white cotton gauze that mimics the mist of the sierra / Chest panel with dense embroidery of flora and butterflies in shades of crimson red
+
+### especificaciones
+
+**ES:** Pueblo: Nahua (Macehual) / Región: Sierra Norte de Puebla (Cuetzalan del Progreso / Tzinacapan) / Técnica/Material: Algodón tejido en telar de cintura (técnica de gasa y urdimbre curva) y bordado / Función: Indumentaria ceremonial de gala, bodas tradicionales y festividades patronales
+
+**EN:** People: Nahua (Macehual) / Region: Northern Sierra of Puebla (Cuetzalan del Progreso / Tzinacapan) / Technique/Material: Cotton woven on a backstrap loom (gauze and curved warp technique) and embroidery / Function: Ceremonial formal attire, traditional weddings and patron saint festivities
+
+### faq_mito
+
+**ES:** pregunta: Mito: El tejido en curva de Cuetzalan se consigue cortando la tela con tijeras metálicas industriales y cosiendo parches. / respuesta: Realidad: Según los análisis del INAH, es una técnica milenaria en telar de cintura donde las curvas se logran graduando la tensión de los hilos sin cortar la tela.
+
+**EN:** pregunta: Myth: The curved weave of Cuetzalan is achieved by cutting the cloth with industrial metal scissors and sewing on patches. / respuesta: Reality: According to INAH analyses, it is a thousand-year-old backstrap loom technique in which the curves are achieved by adjusting the tension of the threads without cutting the cloth.
+
+## Pieza: mna_s17_traje_tehuana
+
+### titulo
+
+**ES:** Traje de Gala y Resplandor de Tehuana
+
+**EN:** Tehuana Gala Dress and Radiance
+
+### frase_gancho
+
+**ES:** Resplandor de encaje que viste a la reina zapoteca.
+
+**EN:** A radiance of lace that adorns the Zapotec queen.
+
+### puente_narrativo
+
+**ES:** Al ingresar a la Sala Oaxaca Etnográfica, esta deslumbrante indumentaria del Istmo introduce la majestuosidad ritual de las velas y las mayordomías zapotecas. Entre los valles centrales, las sierras empinadas y la brisa del Océano Pacífico, esta pieza simboliza la identidad viva del sur de México.
+
+**EN:** As you enter the Ethnographic Oaxaca Hall, this dazzling Isthmus attire introduces the ritual majesty of the vigil festivals and the stewardships of the Zapotec. Amid the central valleys, the steep mountain ranges and the breeze of the Pacific Ocean, this piece symbolizes the living identity of southern Mexico.
+
+### guion_corto
+
+**ES:** Al situarse ante el maniquí que luce este deslumbrante atavío femenino en la Sala de Oaxaca de la planta alta del museo, la riqueza del terciopelo negro, el colorido de las flores bordadas y la majestad del tocado encandilan de inmediato los sentidos. El Traje de Gala y Resplandor de Tehuana representa la vestimenta ceremonial emblemática de la mujer Zapoteca (Binnizá) del Istmo de Tehuantepec, Oaxaca. El atuendo está compuesto por un huipil corto de terciopelo o piel de durazno y una falda amplia con olán de encaje almidonado en el dobladillo, cubiertos íntegramente por exuberantes bordados a mano de rosas, tulipanes y pensamientos en vivos colores rojos, amarillos y púrpuras. El rasgo visual más majestuoso es el bidaniro o Resplandor: un gran tocado de encaje blanco almidonado que enmarca el rostro de la mujer a manera de aureola solar durante las grandes fiestas y bodas ceremoniales. En la cultura zapoteca del Istmo, la Tehuana es el símbolo de la fortaleza, la autonomía económica y la altivez de la mujer en la sociedad. Contemplar este vestido en el Museo Nacional de Antropología es admirar una de las cumbres del traje festivo mexicano.
+
+**EN:** Standing before the mannequin that wears this dazzling women’s attire in the Oaxaca Hall on the upper floor of the museum, you are immediately captivated by the richness of the black velvet, the color of the embroidered flowers and the majesty of the headdress. The Tehuana Gala Dress and Radiance is the emblematic ceremonial dress of the Zapotec woman, known as Binnizá, of the Isthmus of Tehuantepec, Oaxaca. The outfit is composed of a short huipil of velvet or peach-skin fabric and a full skirt with a starched lace ruffle at the hem, entirely covered with lavish hand embroidery of roses, tulips and pansies in vivid reds, yellows and purples. The most majestic visual feature is the bidaniro, or Radiance: a large headdress of starched white lace that frames a woman’s face like a solar halo during the great festivals and ceremonial weddings. In the Zapotec culture of the Isthmus, the Tehuana is the symbol of strength, economic autonomy and the pride of women in society. To contemplate this dress in the National Museum of Anthropology is to admire one of the pinnacles of Mexican festive attire.
+
+### guion_largo
+
+**ES:** En las cálidas planicies y puertos tropicales del Istmo de Tehuantepec, en el sur del estado de Oaxaca, la sociedad zapoteca o Binnizá ha desarrollado una de las identidades regionales más dinámicas, altivas y célebres del continente americano. Caracterizada por una estructura social donde la mujer desempeña un papel protagónico en la administración de los mercados, la economía familiar y la gestión de las festividades de las Mayordomías o Velas, la cultura del Istmo encontró en la indumentaria de la Tehuana su máxima expresión de estatus y soberanía. A lo largo del siglo diecinueve y principios del veinte, el vestido de la tehuana evolucionó al incorporar valiosas telas importadas como el terciopelo de seda, el holán holandés y los encajes europeos traídos por el ferrocarril interoceánico, adaptándolos con genialidad al lenguaje estético zapoteco mediante la técnica del bordado a bastidor con agujas de seda. La tehuana no viste su traje de gala como un mero disfraz folklórico, sino como la armadura de su dignidad matriarcal durante las majestuosas Velas de San Vicente Ferrer y las fiestas patronales del barrio. Al examinar con atención la minuciosa elaboración del atuendo en la vitrina del museo, el observador admira la deslumbrante combinación de texturas y colores. El huipil corto y la falda de terciopelo de seda negro o carmesí sirven de lienzo para los amplios motivos florales bordados a mano con hilo de seda en puntada de matiz o cadenilla de máquina antigua, creando una tupida composición tridimensional de rosas desplegadas, hojas verdes y enredaderas que cubren la totalidad de la tela de fondo. El elemento supremo de la indumentaria es el Resplandor o bidaniro: un sobrehuipil de encaje blanco almidonado y pleiteado provisto de un cuello o volante fruncido que se coloca sobre la cabeza enmarcando el rostro con forma de abanico solar, mientras que en la postura festiva los puños caen sobre la espalda como alas de mariposa. El traje se complementa con pesadas joyas de oro de ley, como ahogadores, collares de monedas antiguas de oro y gruesas pulseras de filigrana que denotan la prosperidad económica de la portadora. La historia de la integración de este célebre traje de Tehuana al acervo del Museo Nacional de Antropología se remonta a los proyectos de acopio etnográfico y salvaguarda artística promovidos en la década de 1930 y consolidados para la inauguración de la planta alta del museo en 1964. Destacados intelectuales, artistas y etnógrafos del INAH como Miguel Covarrubias, Frida Kahlo y Alfonso Caso estudiaron y coleccionaron indumentarias históricas de Tehuantepec, Juchitán y Salina Cruz. La prenda expuesta en la Sala de Oaxaca fue confeccionada por célebres maestras bordadoras istmeñas, permaneciendo como uno de los tesoros textiles más admirados por los visitantes nacionales e internacionales que recorren el MNA.
+
+**EN:** In the warm plains and tropical ports of the Isthmus of Tehuantepec, in the south of the state of Oaxaca, Zapotec society, or Binnizá, has developed one of the most dynamic, proud and celebrated regional identities of the American continent. Characterized by a social structure in which women play a leading role in running the markets, managing the family economy and organizing the festivities of the stewardships, or vigil festivals, the culture of the Isthmus found in the Tehuana’s attire its supreme expression of status and sovereignty. Throughout the nineteenth century and the early twentieth, the tehuana’s dress evolved by incorporating valuable imported fabrics such as silk velvet, Holland linen and the European lace brought by the interoceanic railway, ingeniously adapting them to the Zapotec aesthetic language through the technique of hoop embroidery with silk needles. The tehuana does not wear her gala dress as a mere folkloric costume, but as the armor of her matriarchal dignity during the majestic vigil festivals of Saint Vincent Ferrer and the patron saint festivities of her neighborhood. As you closely examine the meticulous craftsmanship of the attire in the museum display case, you admire the dazzling combination of textures and colors. The short huipil and the skirt of black or crimson silk velvet serve as a canvas for broad floral motifs embroidered by hand with silk thread in shading stitch or antique machine chain stitch, creating a dense three-dimensional composition of full-blown roses, green leaves and climbing vines that cover the entire background fabric. The supreme element of the attire is the Radiance, or bidaniro: an over-huipil of starched, pleated white lace with a gathered collar or ruffle that is placed over the head, framing the face in the shape of a solar fan, while in the festive pose the cuffs fall over the back like butterfly wings. The outfit is completed with heavy jewelry of fine gold, such as chokers, necklaces of antique gold coins and thick filigree bracelets that denote the wearer’s economic prosperity. The story of how this famous Tehuana dress joined the collection of the National Museum of Anthropology goes back to the ethnographic collecting and artistic preservation projects promoted in the 1930s and consolidated for the inauguration of the upper floor of the museum in 1964. Distinguished intellectuals, artists and ethnographers of the INAH such as Miguel Covarrubias, Frida Kahlo and Alfonso Caso studied and collected historic attire from Tehuantepec, Juchitán and Salina Cruz. The garment displayed in the Oaxaca Hall was made by renowned master embroiderers of the Isthmus, and it remains one of the most admired textile treasures among the national and international visitors who tour the MNA.
+
+### retos_observacion
+
+**ES:** Tocado de encaje blanco almidonado (Resplandor) que enmarca el rostro en forma de halo solar / Tupido bordado a mano en hilo de seda con motivos de rosas tridimensionales sobre terciopelo negro / Joyería tradicional de filigrana y collares de monedas de oro colocados sobre el huipil
+
+**EN:** Starched white lace headdress (Radiance) that frames the face like a solar halo / Dense hand embroidery in silk thread with three-dimensional rose motifs on black velvet / Traditional filigree jewelry and gold coin necklaces worn over the huipil
+
+### especificaciones
+
+**ES:** Pueblo: Zapoteco (Binnizá) / Región: Istmo de Tehuantepec, Oaxaca / Técnica/Material: Terciopelo bordado a mano con seda, encaje plisado, almidón y orfebrería de oro / Función: Indumentaria de gala para Velas patronales, mayordomías y celebraciones identitarias
+
+**EN:** People: Zapotec (Binnizá) / Region: Isthmus of Tehuantepec, Oaxaca / Technique/Material: Velvet embroidered by hand with silk, pleated lace, starch and gold metalwork / Function: Gala attire for patron saint vigil festivals, stewardships and celebrations of identity
+
+### faq_mito
+
+**ES:** pregunta: Mito: El Resplandor de la tehuana era originalmente un ropón de bautizo español que una mujer indígena se colocó por error en la cabeza. / respuesta: Realidad: Según los estudios del INAH, es una prenda litúrgica zapoteca evolucionada a partir del sobrehuipil ceremonial prehispánico.
+
+**EN:** pregunta: Myth: The tehuana’s Radiance was originally a Spanish christening gown that an Indigenous woman put on her head by mistake. / respuesta: Reality: According to INAH studies, it is a Zapotec liturgical garment that evolved from the pre-Hispanic ceremonial over-huipil.
+
+## Pieza: mna_s17_huipil_triqui
+
+### titulo
+
+**ES:** Huipil rojo tradicional Triqui de San Juan Copala
+
+**EN:** Traditional Red Triqui huipil from San Juan Copala
+
+### frase_gancho
+
+**ES:** Lienzo de mariposas rojas que viste a la mujer triqui.
+
+**EN:** A canvas of red butterflies that clothes the Triqui woman.
+
+### puente_narrativo
+
+**ES:** Pasando a las serranías de la Mixteca Baja, este monumental huipil escarlata exhibe la compleja cosmogonía de la mujer triqui. Sus franjas rojas y brocados narran el origen del mundo, los ríos y los animales protectores.
+
+**EN:** Moving on to the highlands of the Mixteca Baja, this monumental scarlet huipil displays the complex cosmology of the Triqui woman. Its red stripes and brocades tell of the origin of the world, the rivers, and the protective animals.
+
+### guion_corto
+
+**ES:** Al situarse ante la vitrina que alberga este deslumbrante vestido rojo en la Sala de Oaxaca de la planta alta del museo, la intensidad cromática del escarlata y la densidad geométrica de los brocados cautivan de inmediato los sentidos. El Huipil rojo tradicional Triqui de San Juan Copala representa la prenda más emblemática y reconocible de las mujeres de la nación Triqui (Xnajnu'j) de la Sierra Madre Sur de Oaxaca. Confeccionado enteramente en telar de cintura con hilos de algodón nativo de intenso color rojo carmín teñido con grana cochinilla o tintes minerales, este huipil de gran formato cubre el cuerpo de la mujer desde el cuello hasta los tobillos. La prenda está conformada por tres lienzos rectangulares unidos longitudinalmente, cuya superficie exhibe franjas horizontales de brocados tupidos con motivos de mariposas, serpientes de agua, soles radiantes y milpas. En la cosmovisión triqui, la mujer vestida con el huipil rojo representa a la mariposa mística que vuela sobre las cumbres de la montaña sagrada. Contemplar esta prenda en el Museo Nacional de Antropología es admirar la dignidad y la resistencia textil de Oaxaca.
+
+**EN:** As you stand before the display case that holds this dazzling red dress in the Oaxaca Hall on the upper floor of the museum, the chromatic intensity of the scarlet and the geometric density of the brocades captivate your senses at once. The traditional red Triqui huipil of San Juan Copala is the most emblematic and recognizable garment of the women of the Triqui nation, or Xnajnu’j, of the Southern Sierra Madre of Oaxaca. Made entirely on a backstrap loom with native cotton thread of an intense carmine red, dyed with cochineal or mineral dyes, this large-format huipil covers a woman’s body from neck to ankles. The garment is made of three rectangular panels joined lengthwise, and its surface displays horizontal bands of dense brocades with motifs of butterflies, water serpents, radiant suns, and cornfields. In the Triqui worldview, the woman dressed in the red huipil represents the mystical butterfly that flies over the peaks of the sacred mountain. To contemplate this garment in the National Museum of Anthropology is to admire the dignity and the textile resilience of Oaxaca.
+
+### guion_largo
+
+**ES:** En las frías y abruptas serranías de la Mixteca Baja de Oaxaca, en la región conocida como la Mixteca Triqui, el pueblo Triqui o Xnajnu'j ha preservado una de las identidades culturales y lingüísticas más firmes y cohesionadas del sur de México. En municipios como San Juan Copala, San Martín Itunyoso y San Andrés Chicahuaxtla, la vida comunitaria y la organización social giran alrededor de la autoridad de los ancianos y del valor sagrado de la mujer como tejedora de la memoria histórica. Para la cultura triqui, la elaboración del huipil rojo es el rito de pasaje supremo que marca la madurez de la mujer: desde pequeñas, las niñas observan a sus madres y abuelas colocar las estacas del telar de cintura en los árboles del patio, aprendiendo a contar minuciosamente los hilos de la urdimbre para insertar las tramados de colores que darán vida a los símbolos sagrados. Vestir el huipil rojo diariamente y en las solemnidades religiosas es para la mujer triqui un acto de afirmación étnica e indumentaria que desafía el aislamiento geográfico y las transformaciones de la modernidad. Al inspeccionar con cuidado la estructura física del huipil en la vitrina del museo, el observador atento admira la densidad técnica y el peso de la tela. El huipil está constituido por tres paños de algodón tejido a mano ensamblado con costuras ricas de colores. El cuerpo central y las franjas laterales están dominados por un color rojo encendido que simboliza la sangre de los ancestros, la vida y el fuego solar. A lo largo del torso y la falda se suceden franjas horizontales de brocados tupidos en hilo amarillo, azul, verde y blanco que representan la figura estilizada de la 'mariposa' (sitio), representada por triángulos opuestos con rombos centrales. Alrededor del cuello circular calado se aprecian apliques de cintas de colores brillantes que simulan los rayos del sol al amanecer, mientras que de los hombros y de la espalda cuelgan largas borlas de estambre rojo que se mecen con la caminata de la tejedora por los senderos de la montaña. La historia del acopio e integración de este huipil triqui al acervo del Museo Nacional de Antropología forma parte de las expediciones de investigación etnográfica conducidas en la década de 1960 por antropólogos del INAH en la región de Copala y Chicahuaxtla. Los especialistas documentaron las variantes del huipil triqui —el rojo intenso de San Juan Copala y el blanco con franjas rojas de Chicahuaxtla— y adquirieron piezas históricas directamente de manos de las maestras tejedoras de la comunidad. La exhibición permanente de este huipil rojo en la Sala de Oaxaca de la planta alta del MNA permite a los visitantes de todo el mundo rendir homenaje a la elegancia, el arte textil y la incansable fortaleza de las mujeres del pueblo Triqui de México.
+
+**EN:** In the cold, rugged highlands of the Mixteca Baja of Oaxaca, in the region known as the Mixtec Triqui, the Triqui people, or Xnajnu’j, have preserved one of the firmest and most cohesive cultural and linguistic identities of southern Mexico. In municipalities such as San Juan Copala, San Martín Itunyoso, and San Andrés Chicahuaxtla, community life and social organization revolve around the authority of the elders and the sacred value of woman as the weaver of historical memory. For Triqui culture, making the red huipil is the supreme rite of passage that marks a woman’s maturity: from an early age, girls watch their mothers and grandmothers fasten the posts of the backstrap loom to the trees in the courtyard, learning to count the warp threads with great care so as to insert the colored weft patterns that will give life to the sacred symbols. Wearing the red huipil every day and on religious solemnities is, for the Triqui woman, an act of ethnic and sartorial affirmation that defies geographic isolation and the transformations of modernity. As you carefully examine the physical structure of the huipil in the museum display case, you can admire the technical density and the weight of the cloth. The huipil is made of three panels of handwoven cotton, joined with richly colored seams. The central body and the side bands are dominated by a blazing red that symbolizes the blood of the ancestors, life, and the fire of the sun. Along the torso and the skirt, horizontal bands of dense brocades in yellow, blue, green, and white thread follow one another, representing the stylized figure of the “butterfly,” known as sitio, depicted by opposing triangles with central diamonds. Around the openwork circular neckline, you can see appliqués of bright-colored ribbons that mimic the rays of the sun at dawn, while long tassels of red yarn hang from the shoulders and the back, swaying with the weaver’s steps along the mountain paths. The story of how this Triqui huipil was gathered and brought into the collection of the National Museum of Anthropology is part of the ethnographic research expeditions conducted in the 1960s by INAH anthropologists in the region of Copala and Chicahuaxtla. The specialists documented the variants of the Triqui huipil, the intense red of San Juan Copala and the white with red stripes of Chicahuaxtla, and acquired historic pieces directly from the master weavers of the community. The permanent display of this red huipil in the Oaxaca Hall on the upper floor of the MNA allows visitors from all over the world to pay tribute to the elegance, the textile art, and the tireless strength of the women of the Triqui people of Mexico.
+
+### retos_observacion
+
+**ES:** Franjas horizontales de brocados en punto de trama que forman figuras de mariposas (sitio) / Cuello circular calado enmarcado por apliques de cintas satinadas en forma de rayos solares / Borlas de estambre rojo brillante que cuelgan de las costuras laterales e hombros
+
+**EN:** Horizontal bands of weft-technique brocades that form butterfly figures (sitio) / Openwork circular neckline framed by satin ribbon appliqués shaped like sun rays / Bright red yarn tassels hanging from the side seams and shoulders
+
+### especificaciones
+
+**ES:** Pueblo: Triqui (Sli'anjii / Driqui) / Región: San Juan Copala, Mixteca Baja, Oaxaca / Técnica/Material: Algodón tejido en telar de cintura con brocado de trama suplementaria y listones / Función: Indumentaria cotidiana y ceremonial de alta jerarquía e identidad comunitaria
+
+**EN:** People: Triqui (Sli’anjii / Driqui) / Region: San Juan Copala, Mixteca Baja, Oaxaca / Technique/Material: Cotton woven on a backstrap loom with supplementary-weft brocade and ribbons / Function: Everyday and ceremonial clothing of high rank and community identity
+
+### faq_mito
+
+**ES:** pregunta: Mito: El huipil rojo triqui es un poncho idéntico comprado en serie en fábricas textiles industriales de la capital. / respuesta: Realidad: Según los análisis del INAH, es una prenda única confeccionada artesanalmente en telar de cintura con brocados que representan la mariposa mística.
+
+**EN:** pregunta: Myth: The red Triqui huipil is an identical poncho mass-produced in industrial textile factories in the capital. / respuesta: Reality: According to INAH analyses, it is a one-of-a-kind garment handcrafted on a backstrap loom with brocades that represent the mystical butterfly.
+
+## Pieza: mna_s17_barro_negro
+
+### titulo
+
+**ES:** Cantimplora y vasijas de Barro Negro de San Bartolo Coyotepec
+
+**EN:** Canteen and Black Clay Vessels from San Bartolo Coyotepec
+
+### frase_gancho
+
+**ES:** Arcilla de sombra bruñida que refleja la luz negra.
+
+**EN:** Clay the color of burnished shadow, reflecting a dark light.
+
+### puente_narrativo
+
+**ES:** Avanzando hacia el sector de los oficios artesanales de los Valles Centrales, estas vasijas oscuras muestran la técnica zapoteca de San Bartolo Coyotepec. El acabado lustroso se logra mediante el pulido a mano con piedras de cuarzo.
+
+**EN:** As you move toward the section on the craft traditions of the Central Valleys, these dark vessels show the Zapotec technique of San Bartolo Coyotepec. Their lustrous finish is achieved by polishing the clay by hand with quartz stones.
+
+### guion_corto
+
+**ES:** Al aproximarse a la vitrina que alberga estas resplandecientes vasijas efigie y cantimploras en la Sala de Oaxaca de la planta alta del museo, la intensidad del brillo metálico y el color azabache de la arcilla atraen de inmediato los sentidos. Procedentes de la célebre comunidad Zapoteca de San Bartolo Coyotepec en los Valles Centrales de Oaxaca, esta cantimplora y conjunto de recipientes representan una de las tradiciones alfareras más refinadas del patrimonio etnológico mexicano. Elaboradas a mano sin torno mecánico utilizando barro arcilloso oscuro extraído de las canteras locales, las piezas son modeladas y frotadas pacientemente con un canto rodado de cuarzo o cuerno para bruñir la superficie antes de la cocción. La cocción se realiza en hornos de foso bajo tierra en atmósfera reductora con combustión incompleta, donde el humo denso atrapado en la cámara reacciona con el óxido de hierro de la tierra para transformar el barro rojizo en este característico negro mate y espejeado. En la vida de los Valles Centrales, estas cantimploras y mezcaleras de barro negro resguardaban el mezcal sagrado, el agua bendita y el aguardiente utilizado durante las fiestas de mayordomía, bodas y funerales. Contemplar este acervo en el Museo Nacional de Antropología es admirar el triunfo de la sombra y el fuego.
+
+**EN:** As you approach the display case that holds these gleaming effigy vessels and canteens in the Oaxaca Hall on the museum’s upper floor, the intensity of the metallic shine and the jet-black color of the clay immediately draw in the senses. Coming from the renowned Zapotec community of San Bartolo Coyotepec in the Central Valleys of Oaxaca, this canteen and its set of vessels represent one of the most refined pottery traditions in Mexico’s ethnological heritage. Made by hand without a mechanical wheel, using dark clay taken from local quarries, the pieces are shaped and then patiently rubbed with a smooth quartz pebble or a piece of horn to burnish the surface before firing. The firing takes place in underground pit kilns in a reducing atmosphere with incomplete combustion, where the dense smoke trapped in the chamber reacts with the iron oxide in the earth and turns the reddish clay into this characteristic black, both matte and mirrored. In life in the Central Valleys, these black clay canteens and mezcal jugs held sacred mezcal, holy water, and the spirits served during religious stewardship festivals, weddings, and funerals. To contemplate this collection at the National Museum of Anthropology is to admire the triumph of shadow and fire.
+
+### guion_largo
+
+**ES:** En el corazón geográfico de los Valles Centrales de Oaxaca, a escasos kilómetros de la capital del estado, la comunidad zapoteca de San Bartolo Coyotepec ha custodiado a lo largo de milenios un conocimiento alfarero de origen prehispánico que vincula la tierra, el agua y el fuego subterráneo. Mucho antes de la llegada de los conquistadores españoles, los alfareros zapotecas de la región de Monte Albán y Zaachila moldeaban cántaros y recipientes de barro gris y negro utilizados en las ceremonias funerarias y en los sacrificios de libación dedicados a Cocijo, dios del trueno y de la lluvia. Con el paso de los siglos, la comunidad de San Bartolo Coyotepec preservó la receta secreta del barro negro, pero fue a mediados del siglo veinte cuando la alfarera Doña Rosa Real de Nieto perfeccionó la técnica del bruñido con cuarzo antes de meter las vasijas al horno de pozo subterráneo o 'campana', logrando superficies metálicas de una brillantez negra espejeante que cautivó al mundo entero. Al inspeccionar con cuidado la anatomía y los acabados de esta cantimplora y vasijas en la vitrina del museo, el observador atento admira la delicada combinación de superficies bruñidas e incisiones caladas. La cantimplora presenta una forma lenticular o abombada de perfil circular, provista de dos pequeñas asas laterales diseñadas para cruzar el cordón de cuero con el que los campesinos y tejedores la sujetaban al hombro mientras caminaban hacia los campos de cultivo o a los tianguis de los Valles Centrales. La superficie de la cantimplora exhibe un calado floral de rosetones y hojas hecho con cuchilla en barro fresco antes de hornear, permitiendo que el contenedor respire y mantenga el agua o el mezcal frescos bajo el sol abrasador. A su lado se observan cántaros mezcaleros de cuello estrecho y vasijas efigie con figuras de sirenas y animales del monte, cuyas áreas bruñidas a espejo contrastan bellamente con los campos dejados en tono negro mate. La historia del acopio e integración de esta destacada colección de barro negro al acervo del Museo Nacional de Antropología se remonta a los proyectos de salvaguarda etnológica coordinados en las décadas de 1950 y 1960 por antropólogos e investigadores del INAH en los Valles Centrales de Oaxaca. Los etnógrafos visitaron los talleres familiares de San Bartolo Coyotepec y documentaron el proceso entero de extracción del barro de las minas comunitarias, el pisado de la arcilla con los pies descalzos, el moldeado en platos de barro cóncavos y la cocción nocturna en los hornos de pozo. Las piezas fueron adquiridas directamente de manos de las maestras alfareras y trasladadas a la Ciudad de México para enriquecer la Sala de Oaxaca en la planta alta del MNA. Hoy en día, esta cantimplora de barro negro resplandece en la exposición permanente como un testimonio indiscutible de la maestría, la innovación artesanal y la dignidad zapoteca.
+
+**EN:** In the geographic heart of the Central Valleys of Oaxaca, just a few kilometers from the state capital, the Zapotec community of San Bartolo Coyotepec has guarded for millennia a pottery knowledge of pre-Hispanic origin that links earth, water, and subterranean fire. Long before the arrival of the Spanish conquerors, the Zapotec potters of the Monte Albán and Zaachila region shaped jars and vessels of gray and black clay used in funerary ceremonies and in libation sacrifices dedicated to Cocijo, god of thunder and rain. Over the centuries, the community of San Bartolo Coyotepec preserved the secret recipe for black clay, but it was in the middle of the twentieth century that the potter Doña Rosa Real de Nieto perfected the technique of burnishing with quartz before placing the vessels in the underground pit kiln, or “bell,” achieving metallic surfaces of a mirrored black brilliance that captivated the entire world. When you carefully examine the anatomy and finishes of this canteen and these vessels in the museum’s display case, you can admire the delicate combination of burnished surfaces and pierced openwork. The canteen has a lens-like, rounded shape with a circular profile, and two small side handles designed to hold the leather cord with which farmers and weavers slung it over the shoulder as they walked to their fields or to the open-air markets of the Central Valleys. The surface of the canteen displays floral openwork of rosettes and leaves, cut with a blade into the fresh clay before firing, which lets the container breathe and keep the water or mezcal cool under the scorching sun. Beside it are narrow-necked mezcal jars and effigy vessels with figures of mermaids and animals of the countryside, whose mirror-burnished areas contrast beautifully with the fields left in matte black. The story of how this outstanding collection of black clay came to join the holdings of the National Museum of Anthropology goes back to the ethnological preservation projects coordinated in the 1950s and 1960s by anthropologists and researchers of the INAH in the Central Valleys of Oaxaca. The ethnographers visited the family workshops of San Bartolo Coyotepec and documented the entire process: extracting the clay from the community mines, treading the clay with bare feet, shaping it in concave clay dishes, and firing it overnight in the pit kilns. The pieces were acquired directly from the master potters and brought to Mexico City to enrich the Oaxaca Hall on the upper floor of the MNA. Today, this black clay canteen shines in the permanent exhibition as an undeniable testament to mastery, artisan innovation, and Zapotec dignity.
+
+### retos_observacion
+
+**ES:** Calados florales y rosetones hechos a mano en el cuerpo de la cantimplora / Contraste satinado entre las zonas bruñidas con cuarzo y el fondo negro mate / Asas laterales integradas para pasar la correa de transporte campesina
+
+**EN:** Floral openwork and rosettes made by hand on the body of the canteen / Satiny contrast between the areas burnished with quartz and the matte black background / Integrated side handles for threading the farmer’s carrying strap
+
+### especificaciones
+
+**ES:** Pueblo: Zapoteco (Ben 'Zaa) / Región: San Bartolo Coyotepec, Valles Centrales de Oaxaca / Técnica/Material: Arcilla negra modelada, bruñida con cuarzo y cocida en horno cerrado reductor / Función: Vasija para agua y mezcal, recipientes de ofrenda y artesanía ceremonial
+
+**EN:** People: Zapotec (Ben ’Zaa) / Region: San Bartolo Coyotepec, Central Valleys of Oaxaca / Technique/Material: Shaped black clay, burnished with quartz and fired in a closed reducing kiln / Function: Vessel for water and mezcal, offering containers, and ceremonial craft
+
+### faq_mito
+
+**ES:** pregunta: Mito: El barro negro de San Bartolo Coyotepec se pinta con pintura acrílica negra o barniz químico industrial. / respuesta: Realidad: Según los peritajes del INAH, el color negro se obtiene de forma natural mediante cocción en hornos subterráneos ahogados.
+
+**EN:** pregunta: Myth: The black clay of San Bartolo Coyotepec is painted with black acrylic paint or industrial chemical varnish. / respuesta: Reality: According to INAH expert analyses, the black color is obtained naturally by firing in smothered underground kilns.
+
+## Pieza: mna_s17_mascara_diablos_costa
+
+### titulo
+
+**ES:** Máscara y quijada de burro de la Danza de los Diablos
+
+**EN:** Donkey Jawbone and Mask for the Dance of the Diablos
+
+### frase_gancho
+
+**ES:** Máscara de cuernos y quijada que retumba en la costa.
+
+**EN:** A horned mask and a jawbone that rattles along the coast.
+
+### puente_narrativo
+
+**ES:** Para concluir la travesía por Oaxaca Etnográfica, esta vibrante máscara y su instrumento de percusión rinden tributo a la herencia viva de los pueblos afromexicanos de la Costa Chica.
+
+**EN:** To conclude the journey through Ethnographic Oaxaca, this vibrant mask and its percussion instrument pay tribute to the living heritage of the Afro-Mexican peoples of the Costa Chica.
+
+### guion_corto
+
+**ES:** Al situarse ante la vitrina que alberga este conjunto ceremonial en la Sala de Oaxaca de la planta alta del museo, la rusticidad del cuero curtido y el sonido evocador de los instrumentos paralizan de inmediato los sentidos. La Máscara de diablo y la quijada de burro representan las insignias centrales de la Danza de los Diablos de la Costa Chica de Guerrero y Oaxaca, una de las tradiciones afrodescendientes más potentes del México contemporáneo. La máscara está confeccionada sobre un casquete de madera o cartón cubierto con cuero de chivo cabrío, ostentando una abundante melena de crin de caballo, barbas largas y cuernos reales de venado o ciervo. A su lado reposa la quijada de burro o caballo disecada, utilería rítmica que el músico raspa y golpea provocando que las piezas dentales flojas resuenen como un instrumento percusivo vibrante. Ejecutada durante el ciclo del Día de los Fieles Difuntos y en las fiestas patronales afromexicanas, esta danza representa el homenaje festivo a los ancestros africanos traídos en cautiverio durante la colonia. Contemplar estas piezas en el Museo Nacional de Antropología es rendir homenaje a la tercera raíz cultural de la patria.
+
+**EN:** Standing before the display case that holds this ceremonial ensemble in the Oaxaca Hall on the Upper Floor of the museum, you feel the rustic quality of the tanned leather and the evocative sound of the instruments instantly seize your senses. The devil mask and the donkey jawbone are the central emblems of the Dance of the Diablos of the Costa Chica of Guerrero and Oaxaca, one of the most powerful Afro-descendant traditions in contemporary Mexico. The mask is built on a cap of wood or cardboard covered with goatskin, and it displays an abundant mane of horsehair, long beards and real deer or stag horns. Beside it rests the dried jawbone of a donkey or horse, a rhythmic prop that the musician scrapes and strikes so that the loose teeth ring out like a vibrant percussion instrument. Performed during the cycle of All Souls' Day and at Afro-Mexican patron saint festivals, this dance is a festive tribute to the African ancestors brought in captivity during the colonial period. To contemplate these pieces in the National Museum of Anthropology is to honor the third cultural root of the nation.
+
+### guion_largo
+
+**ES:** En las cálidas planicies costeras que se extienden a lo largo de la Costa Chica de Guerrero y Oaxaca, en municipios como Cuajinicuilapa, San Nicolás, Collantes y Pinotepa Nacional, la población afromexicana ha resguardado a lo largo de más de cuatro siglos una identidad cultural y musical de singular fuerza expresiva. Traídos en calidad de mano de obra esclava durante la época colonial española para trabajar en los ranchos ganaderos y plantaciones de caña de azúcar, los afrodescendientes fusionaron sus memorias rítmicas y espirituales del continente africano con las costumbres de los pueblos originarios zapotecos, mixtecos y nahuas de la región. De esta interacción histórica nació la Danza de los Diablos, un ritual dancístico ejecutado entre el 31 de octubre y el 2 de noviembre durante el ciclo de Días de Muertos o Fiesta de las Ánimas. En el pensamiento cosmogónico afromexicano, los danzantes que visten ropajes viejos y máscaras demoníacas no representan al diablo cristiano del infierno, sino a los espíritus libres de los ancestros o 'ruja' que regresan a la tierra para bailar con sus descendientes, comer los banquetes de las ofrendas y brindar alegría al pueblo. Al examinar con cuidado los materiales y la factura de la máscara y la quijada en la vitrina del museo, el observador admira la audacia creadora del arte popular costeño. La máscara del 'Diablo Mayor' o 'Tenango' presenta una estructura rígida revestida con piel de chivo de pelo largo y oscuro, con aperturas circulares para los ojos y una boca exagerada pintada en color rojo carmín que deja ver colmillos incisos. En la parte superior de la frente se fijan cuernos reales de chivo, venado o ganado vacuno, mientras que una larga barba de crin de caballo cuelga sobre el pecho del danzante. Acompañando a la máscara se exhibe el instrumento percusivo idiófono de la quijada de burro disecada y lavada con cal: al ser raspada con un cuerno de venado o golpeada con el puño cerrado sobre el hueso maxilar, la soltura de las muelas en sus alvéolos produce un chasquido rítmico vibrante que marca el compás frenético de la charrasca y del bote de fricción. La historia de la documentación y rescate etnográfico de la Danza de los Diablos por el Instituto Nacional de Antropología e Historia forma parte de los proyectos pioneros encabezados a mediados del siglo veinte por el Dr. Gonzalo Aguirre Beltrán y continuados por antropólogos e investigadores del INAH para el reconocimiento de la tercera raíz afromexicana. Los especialistas visitaron las comunidades de la Costa Chica y obtuvieron la autorización de los caporales de la danza para adquirir máscaras históricas e instrumentos tradicionales que ingresaron a la Sala de Oaxaca de la planta alta del MNA. Hoy en día, esta máscara y la quijada de burro resplandecen en la exposición permanente como un testimonio indiscutible de la resistencia, la alegría y la memoria histórica del pueblo afromexicano.
+
+**EN:** On the warm coastal plains that stretch along the Costa Chica of Guerrero and Oaxaca, in municipalities such as Cuajinicuilapa, San Nicolás, Collantes and Pinotepa Nacional, the Afro-Mexican population has safeguarded for more than four centuries a cultural and musical identity of singular expressive force. Brought as enslaved labor during the Spanish colonial period to work on cattle ranches and sugarcane plantations, the people of African descent fused their rhythmic and spiritual memories of the African continent with the customs of the Zapotec, Mixtec and Nahua native peoples of the region. From this historical interaction was born the Dance of the Diablos, a ritual dance performed between October 31 and November 2 during the cycle of the Days of the Dead, or Feast of the Souls. In the Afro-Mexican cosmic worldview, the dancers who wear old clothes and demonic masks do not represent the Christian devil of hell, but the free spirits of the ancestors, or “ruja,” who return to earth to dance with their descendants, to eat the feasts of the offerings and to bring joy to the community. Examining closely the materials and craftsmanship of the mask and the jawbone in the museum display case, the observer admires the creative daring of the popular art of the coast. The mask of the “Chief Devil,” or “Tenango,” has a rigid structure covered with long, dark goatskin, with circular openings for the eyes and an exaggerated mouth painted carmine red that reveals incised fangs. On the upper part of the forehead are fixed real horns of goat, deer or cattle, while a long horsehair beard hangs over the dancer’s chest. Alongside the mask is displayed the idiophone percussion instrument, the donkey jawbone, dried and washed with lime. When it is scraped with a deer antler or struck with a closed fist on the jawbone, the looseness of the molars in their sockets produces a vibrant, rhythmic rattle that marks the frenzied beat of the scraper and the friction drum. The history of the documentation and ethnographic rescue of the Dance of the Diablos by the National Institute of Anthropology and History (INAH) is part of the pioneering projects led in the middle of the twentieth century by Dr. Gonzalo Aguirre Beltrán and continued by anthropologists and researchers of INAH for the recognition of the Afro-Mexican third root. The specialists visited the communities of the Costa Chica and obtained the permission of the dance leaders to acquire historic masks and traditional instruments, which entered the Oaxaca Hall on the Upper Floor of the MNA. Today, this mask and the donkey jawbone shine in the permanent exhibition as an unquestionable testimony to the resistance, the joy and the historical memory of the Afro-Mexican people.
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### retos_observacion
+
+**ES:** Cuernos reales de chivo o venado adosados al casquete de cuero de la máscara / Dentadura completa de la quijada de burro disecada usada como instrumento rítmico / Barba y melena de crin de caballo negra que caen alrededor del rostro
+
+**EN:** Real goat or deer horns attached to the leather cap of the mask / The complete set of teeth on the dried donkey jawbone used as a rhythmic instrument / Beard and mane of black horsehair that fall around the face
+
+### especificaciones
+
+**ES:** Pueblo: Afromexicano / Región: Costa Chica de Oaxaca (Collantes, Santiago Llano Grande, Chacahua) / Técnica/Material: Madera tallada, crin de caballo, cuernos naturales, cartón y hueso percutor / Función: Parafernalia ritual de la Danza de los Diablos para Todos Santos y afirmación identitaria
+
+**EN:** People: Afro-Mexican / Region: Costa Chica of Oaxaca (Collantes, Santiago Llano Grande, Chacahua) / Technique/Material: Carved wood, horsehair, natural horns, cardboard and percussion bone / Function: Ritual paraphernalia of the Dance of the Diablos for All Saints' Day and an affirmation of identity
+
+### faq_mito
+
+**ES:** pregunta: Mito: La Danza de los Diablos afromexicana es un rito satánico de magia negra traído de las selvas africanas. / respuesta: Realidad: Según los análisis del INAH, es una danza ritual conmemorativa de Días de Muertos que celebra la memoria y libertad afrodescendiente.
+
+**EN:** pregunta: Myth: The Afro-Mexican Dance of the Diablos is a satanic rite of black magic brought from the African jungles. / respuesta: Reality: According to INAH analyses, it is a ritual dance commemorating the Days of the Dead that celebrates Afro-descendant memory and freedom.
+
+## Pieza: mna_s18_dhubem_huasteco
+
+### titulo
+
+**ES:** Dhúbem / Quechquémitl tradicional Huasteco
+
+**EN:** Dhúbem / Traditional Huastec Quechquémitl
+
+### frase_gancho
+
+**ES:** Lienzo blanco bordado con la flor de cuatro pétalos.
+
+**EN:** White cloth embroidered with the four-petal flower.
+
+### puente_narrativo
+
+**ES:** Al ingresar a la Sala Huastecos y Totonacos, este lienzo bordado exhibe la elegancia cosmogónica de la mujer téenek. Su geometría textil evoca la vegetación, los cuatro rumbos cósmicos y el árbol sagrado.
+
+**EN:** Upon entering the Huastecs and Totonacs Hall, this embroidered cloth displays the cosmogonic elegance of the Tének woman. Its textile geometry evokes vegetation, the four cosmic directions, and the sacred tree.
+
+### guion_corto
+
+**ES:** Al aproximarse a la vitrina que alberga este deslumbrante lienzo de manta bordado en la Sala de la Costa del Golfo y Puebla de la planta alta del museo, la vivosidad de las hilazas de lana y la finura de los motivos geométricos fascinan de inmediato los sentidos. El Dhúbem o Quechquémitl tradicional Huasteco representa la vestidura femenina más emblemática y cargada de simbolismo del pueblo Tének (Huasteco) de San Luis Potosí y Veracruz. Confeccionado a mano sobre dos paños de manta de algodón blanco unidos en ángulo romboidal, el Dhúbem destaca por su profuso bordado en punto de cruz elaborado con hilos de lana en colores rojo encendido, rosa frambuesa, naranja, verde y azul. La pechera y la espalda exhiben el motivo supremo del 'ik'teem' o flor de cuatro pétalos, alegoría cosmogónica de la estrella de la mañana, los cuatro rumbos del universo y el árbol de la vida. Para la mujer Tének, vestir el Dhúbem durante las festividades de Xantolo y en las bodas es un acto de afirmación espiritual. Contemplar esta prenda en el Museo Nacional de Antropología es admirar la poesía viva de la Huasteca.
+
+**EN:** As you approach the display case that holds this dazzling embroidered cloth in the Gulf Coast and Puebla Hall on the upper floor of the museum, the vividness of the woolen yarns and the fineness of the geometric motifs immediately captivate the senses. The Dhúbem, or traditional Huastec Quechquémitl, is the most emblematic and symbolically charged women’s garment of the Tének, or Huastec, people of San Luis Potosí and Veracruz. Handmade from two panels of white cotton cloth joined at a rhomboid angle, the Dhúbem stands out for its lavish cross-stitch embroidery worked in wool threads of bright red, raspberry pink, orange, green, and blue. The front and back display the supreme motif of the “ik’teem,” or four-petal flower, a cosmogonic allegory of the morning star, the four directions of the universe, and the tree of life. For the Tének woman, wearing the Dhúbem during the Xantolo festivities and at weddings is an act of spiritual affirmation. To contemplate this garment in the National Museum of Anthropology is to admire the living poetry of the Huasteca.
+
+### guion_largo
+
+**ES:** En las cálidas planicies y colinas verdes que conforman la rica subregión de la Huasteca, compartida por los estados de San Luis Potosí, Veracruz, Hidalgo y Tamaulipas, el pueblo Tének o Huasteco ha mantenido viva desde tiempos prehispánicos una de las tradiciones culturales y lingüísticas de filiación mayense más originales e insustituibles de Mesoamérica. En la estructura social y religiosa de las comunidades Tének de municipios como Aquismón, Tancanhuitz, Huehuetlán y Chimalaco, la mujer ocupa un lugar central como preservadora sagrada de la lengua materna, de la cocina tradicional y del acervo textil transmisor de la memoria mitológica. La prenda de vestuario que condensa la mayor sacralidad e identidad femenina es el Dhúbem o quechquémitl. Mucho más que un adorno corporal o una simple capa para cubrir los hombros, el Dhúbem es concebido como el mapa sagrado del universo que protege el alma de la tejedora contra los vientos malos, alineando su corazón con las fuerzas de la naturaleza y los antepasados que velan desde los cuatro rumbos del cielo. Al inspeccionar con cuidado la minuciosa elaboración del Dhúbem en la vitrina del museo, el observador atento admira la virtuosidad técnica del bordado en punto de cruz y contorno invertido. La prenda se compone de dos tiras de manta fina de algodón blanco unidas de modo que las puntas caigan en forma de triángulo sobre el pecho y la espalda de la mujer. La superficie está saturada de bordados en hilos de lana acrílica o algodón de vivos colores, dominados por el motivo geométrico del 'ik'teem' o cruz huasteca de cuatro pétalos con remates en forma de espiral. Este símbolo milenario representa la flor del algodón, las cuatro estaciones del año y los cuatro guardianes de la naturaleza que sostienen la bóveda celeste. Alrededor de la flor principal se entrelazan bordados de águilas de dos cabezas, venados cola blanca, serpientes de agua y enredaderas que evocan la vegetación exuberante de la Huasteca potosina. El borde inferior del Dhúbem se remata con un delicado fleco o encaje tejido a mano con hilos rojos y amarillos. La historia del acopio e integración de esta pieza insigne al acervo etnográfico del Museo Nacional de Antropología forma parte de las expediciones de investigación textil conducidas en la década de 1960 por antropólogos e investigadores del INAH en la Huasteca Potosina. Los etnógrafos documentaron todo el proceso de bordado y el significado de la iconografía tradicional, adquiriendo piezas históricas directamente de las maestras bordadoras de la comunidad Tének. La exhibición permanente de este Dhúbem en la planta alta del MNA permite a miles de visitantes internacionales valorar la ciencia textil, la matemática del bordado y la profunda espiritualidad de las mujeres de la Huasteca mexicana.
+
+**EN:** In the warm plains and green hills that make up the rich subregion of the Huasteca, shared by the states of San Luis Potosí, Veracruz, Hidalgo, and Tamaulipas, the Tének, or Huastec, people have kept alive since pre-Hispanic times one of the most original and irreplaceable cultural and linguistic traditions of Mayan affiliation in Mesoamerica. In the social and religious structure of Tének communities in municipalities such as Aquismón, Tancanhuitz, Huehuetlán, and Chimalaco, women hold a central place as sacred guardians of the mother tongue, of traditional cooking, and of the textile heritage that transmits mythological memory. The garment that condenses the greatest sacredness and feminine identity is the Dhúbem, or quechquémitl. Much more than a bodily adornment or a simple cape to cover the shoulders, the Dhúbem is conceived as the sacred map of the universe that protects the weaver’s soul against evil winds, aligning her heart with the forces of nature and with the ancestors who watch from the four directions of the sky. By carefully inspecting the meticulous workmanship of the Dhúbem in the museum’s display case, the attentive observer admires the technical virtuosity of the cross-stitch and inverted outline embroidery. The garment is made of two strips of fine white cotton cloth joined so that the points fall in a triangle over the woman’s chest and back. The surface is saturated with embroidery in brightly colored acrylic wool or cotton threads, dominated by the geometric motif of the “ik’teem,” or four-petal Huastec cross with spiral-shaped endings. This age-old symbol represents the cotton flower, the four seasons of the year, and the four guardians of nature who hold up the vault of the sky. Around the main flower are interwoven embroideries of two-headed eagles, white-tailed deer, water serpents, and climbing vines that evoke the lush vegetation of the Huasteca of San Luis Potosí. The lower edge of the Dhúbem is finished with a delicate fringe or lace woven by hand with red and yellow threads. The story of how this distinguished piece was gathered and added to the ethnographic collection of the National Museum of Anthropology is part of the textile research expeditions led in the 1960s by anthropologists and researchers of INAH in the San Luis Potosí Huasteca. The ethnographers documented the entire embroidery process and the meaning of the traditional iconography, acquiring historic pieces directly from the master embroiderers of the Tének community. The permanent display of this Dhúbem on the upper floor of the MNA allows thousands of international visitors to appreciate the textile science, the mathematics of embroidery, and the profound spirituality of the women of the Mexican Huasteca.
+
+### retos_observacion
+
+**ES:** Motivo central del ik'teem o flor de cuatro pétalos bordada en punto de cruz / Flecos finos de lana roja y amarilla que rematan los bordes triangulares del lienzo / Bordados simétricos de águilas de dos cabezas y serpientes en la pechera
+
+**EN:** Central motif of the ik’teem, or four-petal flower embroidered in cross-stitch / Fine fringes of red and yellow wool finishing the triangular edges of the cloth / Symmetrical embroidery of two-headed eagles and serpents on the front panel
+
+### especificaciones
+
+**ES:** Pueblo: Téenek (Huasteco) / Región: Huasteca Potosina y Veracruzana (Tancanhuitz, Tantoyuca) / Técnica/Material: Algodón tejido en telar de cintura, bordado en punto de cruz y estambre / Función: Indumentaria ceremonial de gala, jerarquía comunitaria y protección identitaria
+
+**EN:** People: Tének (Huastec) / Region: Huasteca of San Luis Potosí and Veracruz (Tancanhuitz, Tantoyuca) / Technique/Material: Cotton woven on a backstrap loom, cross-stitch embroidery, and wool yarn / Function: Ceremonial dress for special occasions, marker of community rank, and protection of identity
+
+### faq_mito
+
+**ES:** pregunta: Mito: El Dhúbem huasteco es una prenda textil moderna inventada para vestidos de baile folklórico de escenario. / respuesta: Realidad: Según los catálogos del INAH, es una prenda ceremonial ancestral Tének prehispánica que sintetiza el mapa del universo.
+
+**EN:** pregunta: Myth: The Huastec Dhúbem is a modern textile garment invented for stage folk dance costumes. / respuesta: Reality: According to INAH catalogs, it is an ancestral, pre-Hispanic Tének ceremonial garment that synthesizes the map of the universe.
+
+## Pieza: mna_s18_altar_xantolo
+
+### titulo
+
+**ES:** El Arco del Altar de Xantolo / Fiesta de las Ánimas
+
+**EN:** The Xantolo Altar Arch / Festival of the Souls
+
+### frase_gancho
+
+**ES:** Arco de cempasúchil que abre la puerta a los ancestros.
+
+**EN:** A marigold arch that opens the door to the ancestors.
+
+### puente_narrativo
+
+**ES:** Ubicado en el espacio central de la sala, este arco ceremonial recrea la festividad del Xantolo. Sus ramas de palmilla y flores amarillas abren la puerta al retorno de las ánimas.
+
+**EN:** Located in the central space of the hall, this ceremonial arch recreates the Xantolo festival. Its palmilla branches and yellow flowers open the door for the return of the souls.
+
+### guion_corto
+
+**ES:** Al adentrarse en la majestuosa reconstrucción que domina la Sala de la Costa del Golfo y Puebla de la planta alta del museo, el aroma penetrante del cempasúchil fresco, el incienso de copal y la abundancia de manjares conmueven de inmediato los sentidos. El Arco del Altar de Xantolo / Fiesta de las Ánimas representa la instalación ritual más importante y sagrada del ciclo de Todos los Santos en la Huasteca hidalguense, veracruzana y potosina. La estructura está edificada con varas flexibles de otate o carrizo dobladas en forma de bóveda o arco triunfal, forradas minuciosamente con follaje verde de estribillo y miles de brillantes flores amarillas de cempasúchil y mano de león. En la cosmovisión huasteca y nahua, el arco no es un simple adorno festivo, sino el portal místico o umbral de luz por donde las ánimas de los difuntos descienden del cielo para reencontrarse con sus familias terrenales entre el 31 de octubre y el 2 de noviembre. Bajo el arco se despliega la mesa de la ofrenda abarrotada de panes de muerto, chocolate caliente, tamales de calabaza, fruta y velas encendidas. Contemplar esta obra en el Museo Nacional de Antropología es vivir la devoción del México profundo.
+
+**EN:** As you step into the majestic reconstruction that dominates the Gulf Coast and Puebla Hall on the museum’s upper floor, the penetrating aroma of fresh cempasúchil, the copal incense and the abundance of delicacies immediately stir the senses. The Xantolo Altar Arch / Festival of the Souls is the most important and sacred ritual installation of the All Saints cycle in the Huasteca of Hidalgo, Veracruz and San Luis Potosí. The structure is built from flexible rods of otate cane or reed, bent into the form of a vault or triumphal arch, meticulously covered with green estribillo foliage and thousands of bright yellow flowers of cempasúchil and cockscomb. In the Huastec and Nahua worldview, the arch is not a mere festive decoration, but the mystical portal, or threshold of light, through which the souls of the deceased descend from the sky to be reunited with their earthly families between October 31 and November 2. Beneath the arch spreads the offering table, laden with bread of the dead, hot chocolate, pumpkin tamales, fruit and lit candles. To contemplate this work in the National Museum of Anthropology is to experience the devotion of deep Mexico.
+
+### guion_largo
+
+**ES:** En la vasta y verde subregión geográfica de la Huasteca, compartida por los estados de Hidalgo, San Luis Potosí, Veracruz y Tamaulipas, la celebración del Xantolo o Fiesta de las Ánimas constituye el evento cultural, social y religioso de mayor trascendencia comunitaria del calendario tradicional. La palabra 'Xantolo' —derivada de la voz latina Sanctorum introducida por los frailes evangelizadores en el siglo dieciséis— fue reapropiada y resignificada por las naciones nahuas y tének para nombrar una festividad milenaria de raíces prehispánicas vinculada al fin de la cosecha del maíz y al culto reverente hacia los antepasados. Para la sociedad huasteca, la muerte no representa una frontera dolorosa e infranqueable, sino una transición natural donde las almas de los abuelos y parientes difuntos conservan su membresía en el clan familiar. Durante el Xantolo, la comunidad entera se transforma en un escenario sagrado donde el olor de la flor de cempasúchil guía los pasos de las ánimas de regreso al hogar terrenal para compartir la abundancia de la tierra. Al explorar con detenimiento los elementos arquitectónicos y simbólicos del Arco de Xantolo en la vitrina del museo, el observador admira la compleja geometría ritual de la instalación. El arco está levantado sobre cuatro varas verticales de otate que simbolizan los cuatro pilares que sostienen el universo, unidas en la cúspide por dos arcos cruzados que forman una bóveda celeste. Las varas están cubiertas con ramos apretados de flores de cempasúchil (sempoalxochitl) de color naranja intenso y flores de mano de león o terciopelo purpúreo, cuyos aromas y colores fosforescentes representan la luz del sol que alumbra el camino de los muertos a través del inframundo. Del centro del arco cuelgan rosarios hechos con flor de cempasúchil y panes redondos agujereados llamados 'golletes'. Bajo la estructura se ubica la mesa de la ofrenda vestida con manteles bordados, en la que se disponen cazuelas de barro con mole, tamales de ajonjolí, chocolate, cañas de azúcar, copaleros humeantes y fotos de los ancestros venerados. La historia del registro e instalación de esta réplica monumental del Arco de Xantolo en las galerías etnográficas del Museo Nacional de Antropología forma parte de las campañas de salvaguarda cultural organizadas por el INAH a lo largo de décadas. Los antropólogos del museo trabajaron en estrecha colaboración con sabios y promotores culturales nahuas y tének de la Huasteca hidalguense y potosina, adquiriendo los elementos ceremoniales tradicionales y registrando las oraciones en lengua originaria que acompañan el levante del arco. Cada año, los conservadores del museo renuevan las floraciones y ceras de la instalación para mantener vivo el resplandor de la fiesta. Esta exhibición permanente en el MNA permite a miles de visitantes internacionales vivenciar la profunda riqueza filosófica, gastronómica y humana del Día de Muertos en México.
+
+**EN:** In the vast and green geographic subregion of the Huasteca, shared by the states of Hidalgo, San Luis Potosí, Veracruz and Tamaulipas, the celebration of Xantolo, or Festival of the Souls, is the cultural, social and religious event of greatest community significance in the traditional calendar. The word “Xantolo,” derived from the Latin word Sanctorum introduced by the evangelizing friars in the sixteenth century, was reappropriated and given new meaning by the Nahua and Tének nations to name a age-old festival with pre-Hispanic roots, linked to the end of the maize harvest and to the reverent cult of the ancestors. For Huastec society, death is not a painful, impassable border, but a natural transition in which the souls of grandparents and deceased relatives keep their membership in the family clan. During Xantolo, the entire community becomes a sacred stage where the scent of the cempasúchil flower guides the souls’ steps back to their earthly home to share the abundance of the land. As you carefully explore the architectural and symbolic elements of the Xantolo Arch in the museum display case, you admire the complex ritual geometry of the installation. The arch is raised on four vertical otate rods that symbolize the four pillars that hold up the universe, joined at the top by two crossed arches that form a celestial vault. The rods are covered with tight bunches of cempasúchil flowers, or sempoalxochitl, of intense orange color, and with cockscomb or purple velvet flowers, whose fragrances and phosphorescent colors represent the light of the sun that illuminates the path of the dead through the underworld. From the center of the arch hang rosaries made of cempasúchil flowers and round, holed breads called “golletes.” Beneath the structure stands the offering table, dressed with embroidered tablecloths, on which are arranged clay pots of mole, sesame tamales, chocolate, sugarcane stalks, smoking copal burners and photos of the venerated ancestors. The history of the documentation and installation of this monumental replica of the Xantolo Arch in the ethnographic galleries of the National Museum of Anthropology is part of the cultural safeguarding campaigns organized by the INAH over decades. The museum’s anthropologists worked in close collaboration with Nahua and Tének sages and cultural promoters from the Huasteca of Hidalgo and San Luis Potosí, acquiring the traditional ceremonial elements and recording the prayers in the native language that accompany the raising of the arch. Every year, the museum’s conservators renew the blooms and waxes of the installation to keep the glow of the festival alive. This permanent exhibition at the MNA allows thousands of international visitors to experience the profound philosophical, culinary and human richness of the Day of the Dead in Mexico.
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### retos_observacion
+
+**ES:** Estructura curva de varas de otate forrada con flores frescas de cempasúchil y mano de león / Rosarios de flores y golletes de pan colgados del centro superior de la bóveda ritual / Mesa de la ofrenda repleta de cazuelas de barro, copaleros y tamales tradicionales
+
+**EN:** Curved structure of otate rods covered with fresh cempasúchil and cockscomb flowers / Rosaries of flowers and gollete breads hanging from the top center of the ritual vault / Offering table full of clay pots, copal burners and traditional tamales
+
+### especificaciones
+
+**ES:** Pueblo: Téenek y Nahua de la Huasteca / Región: Huasteca Potosina, Veracruzana e Hidalguense (Tempoal, Huejutla) / Técnica/Material: Varas de otate, palmilla, cempasúchil, cera labrada, copal, pan y madera / Función: Altar ceremonial e instalación sagrada para la fiesta del Xantolo (Día de Muertos)
+
+**EN:** People: Tének and Nahua Peoples of the Huasteca / Region: Huasteca of San Luis Potosí, Veracruz and Hidalgo (Tempoal, Huejutla) / Technique/Material: Otate rods, palmilla, cempasúchil, carved wax, copal, bread and wood / Function: Ceremonial altar and sacred installation for the Xantolo festival (Day of the Dead)
+
+### faq_mito
+
+**ES:** pregunta: Mito: El Arco de Xantolo es un adorno de Halloween inventado recientemente para centros comerciales urbanos. / respuesta: Realidad: Según los estudios del INAH, es una estructura ritual ancestral nahua y tének de la Huasteca que sirve de portal para las ánimas.
+
+**EN:** pregunta: Myth: The Xantolo Arch is a Halloween decoration recently invented for urban shopping malls. / respuesta: Reality: According to INAH studies, it is an ancestral Nahua and Tének ritual structure of the Huasteca that serves as a portal for the souls.
+
+## Pieza: mna_s18_traje_papantla
+
+### titulo
+
+**ES:** Indumentaria tradicional totonaca masculina de Papantla
+
+**EN:** Traditional Totonac Men’s Clothing from Papantla
+
+### frase_gancho
+
+**ES:** Manta blanca y pañuelo rojo que visten al volador.
+
+**EN:** White cotton cloth and a red kerchief dress the flyer.
+
+### puente_narrativo
+
+**ES:** Continuando hacia el sector del Totonacapan, este atuendo de algodón blanco ilustra la pulcritud y el estatus ceremonial de los hombres de Papantla.
+
+**EN:** Continuing toward the Totonacapan section, this white cotton outfit illustrates the neatness and ceremonial status of the men of Papantla.
+
+### guion_corto
+
+**ES:** Al aproximarse a la vitrina que exhibe esta limpia indumentaria masculina en la Sala de la Costa del Golfo y Puebla de la planta alta del museo, la elegancia pulcra de la manta blanca y el contraste del pañuelo rojo sobrecogen de inmediato los sentidos. La Indumentaria tradicional totonaca masculina de Papantla representa el atuendo de gala característico de los hombres del pueblo Totonaco (Tutunaku) de las tierras bajas de Veracruz y la Sierra de Puebla. Confeccionado en tela de manta fina de algodón cien por ciento blanco, el atuendo consta de un pantalón abombado de corte holgado (calzón de manta) que se amarra a la cintura y tobillos mediante cordones, y una camisa de manga larga (cotón) de cuello recto y amplias caídas. El elemento de color más distintivo es el 'macho' o pañuelo de satén de vivo tono rojo fuego atado al cuello o cruzado sobre el pecho en forma de triángulo. Los hombres completan su vestimenta con un sombrero de paja de palma tejido a mano, huaraches de cuero de baqueta y un morral de ixtle. En la sociedad totonaca, esta vestimenta impoluta es símbolo de honestidad, dignidad campesina y respeto ante los altares de la comunidad. Contemplarla en el Museo Nacional de Antropología es admirar la pureza del traje del Golfo.
+
+**EN:** As you approach the display case holding this immaculate men’s clothing in the Gulf Coast and Puebla Hall on the upper floor of the museum, the neat elegance of the white cloth and the contrast of the red kerchief immediately overwhelm the senses. The Traditional Totonac Men’s Clothing from Papantla represents the formal attire characteristic of the men of the Totonac people, the Tutunaku, of the lowlands of Veracruz and the highlands of Puebla. Made of fine muslin that is one hundred percent white cotton, the outfit consists of baggy, loose-cut trousers that are tied at the waist and ankles with cords, and a long-sleeved shirt with a straight collar and ample drape. The most distinctive touch of color is the “macho,” a satin kerchief of vivid fire red, tied at the neck or crossed over the chest in the shape of a triangle. The men complete their dress with a hand-woven palm straw hat, cowhide leather huaraches and a shoulder bag of ixtle fiber. In Totonac society, this spotless dress is a symbol of honesty, rural dignity and respect before the altars of the community. To see it at the National Museum of Anthropology is to admire the purity of the Gulf Coast costume.
+
+### guion_largo
+
+**ES:** En las fértiles y húmedas llanuras costeras del norte del estado de Veracruz y en las estribaciones de la Sierra de Papantla, el pueblo Totonaco o Tutunaku ha desarrollado a lo largo de milenios una civilización célebre por su monumental arquitectura piramidal en El Tajín, su maestría en el cultivo de la orquídea de la vainilla y su rica tradición espiritual. En la vida comunitaria de los pueblos totonacos, el vestido cotidiano y de gala ha funcionado tradicionalmente como un marcador de dignidad cívica, estatus religioso e identidad étnica indestructible. A pesar de las intensas transformaciones sociales de la modernidad y de la introducción de prendas sintéticas industriales, los hombres totonacos de Papantla, Coxquihui y Espinal continúan portando con orgullo su indumentaria de manta blanca pulcra durante las asambleas del consejo de ancianos, las faenas agrícolas comunitarias y los solemnes rituales dedicados a los dioses del monte y de la lluvia. Al analizar con cuidado los detalles de confección y los complementos de la vestimenta en la vitrina del museo, el observador atento aprecia la funcionalidad climática y la simbología de cada pieza. El pantalón o calzón de manta presenta una holgura abombada diseñada para permitir la libre circulación del aire bajo el clima tropical húmedo de la Costa del Golfo, abrochado en los tobillos para proteger las piernas de la maleza y las picaduras durante la cosecha de la vainilla. La camisa o cotón de manta blanca luce finas alforzas o pliegues verticales en la pechera y en los puños, demostrando la maestría del corte tradicional totonaco. El pañuelo de satén rojo anudado al cuello no es un mero adorno casual: el color rojo simboliza la energía cálida del Sol, el fuego y la protección mística contra los malos aires del monte. El atavío se remata con el sombrero de paja de palma de ala ancha tejido en técnica de trenzado que resguarda al campesino del sol cenital, y los huaraches tradicionales de piel de baqueta con suela de llanta o cuero picado. La historia del acopio e integración de esta indumentaria totonaca masculina al acervo etnográfico del Museo Nacional de Antropología se remonta a los proyectos de investigación de campo conducidos a mediados del siglo veinte por etnógrafos del INAH en la región de Papantla y Tajín. Los antropólogos documentaron las variantes del traje totonaco de las tierras altas y bajas, adquiriendo prendas tradicionales confeccionadas por sastres de pueblo para la inauguración de las galerías etnográficas en 1964. La exhibición permanente de este traje totonaco en la planta alta del MNA permite a los visitantes de todo el orbe valorar la pulcritud, el diseño climático y la incansable fortaleza cultural de los hombres del pueblo Totonaco de México.
+
+**EN:** In the fertile, humid coastal plains of northern Veracruz and in the foothills of the Papantla mountains, the Totonac people, also known as the Tutunaku, have developed over millennia a civilization famous for its monumental pyramid architecture at El Tajín, its mastery in cultivating the vanilla orchid and its rich spiritual tradition. In the community life of Totonac towns, everyday and formal dress has traditionally served as a marker of civic dignity, religious standing and an indestructible ethnic identity. Despite the intense social changes of modernity and the introduction of industrial synthetic garments, the Totonac men of Papantla, Coxquihui and Espinal still proudly wear their neat white cloth clothing during the assemblies of the council of elders, the communal farm work days and the solemn rituals dedicated to the gods of the hills and of the rain. When you look closely at the details of the tailoring and the accessories of the outfit in the museum’s display case, the attentive observer appreciates the climatic function and the symbolism of each piece. The trousers, made of white muslin, have a baggy looseness designed to let the air circulate freely in the humid tropical climate of the Gulf Coast, and they are fastened at the ankles to protect the legs from brush and insect bites during the vanilla harvest. The shirt, made of white muslin, displays fine vertical tucks or pleats on the chest and at the cuffs, showing the mastery of traditional Totonac tailoring. The red satin kerchief knotted at the neck is not a mere casual adornment: the color red symbolizes the warm energy of the Sun, fire and mystical protection against the harmful winds of the hills. The attire is topped off with a wide-brimmed palm straw hat, woven in a braiding technique that shelters the farmer from the overhead sun, and the traditional huaraches of cowhide leather with soles of tire rubber or perforated leather. The history of how this Totonac men’s clothing was gathered and added to the ethnographic collection of the National Museum of Anthropology goes back to the field research projects carried out in the mid-twentieth century by INAH ethnographers in the region of Papantla and El Tajín. The anthropologists documented the variants of the Totonac costume of the highlands and lowlands, acquiring traditional garments made by village tailors for the opening of the ethnographic galleries in 1964. The permanent display of this Totonac costume on the upper floor of the MNA allows visitors from all over the world to appreciate the neatness, the climate-conscious design and the tireless cultural strength of the men of the Totonac people of Mexico.
+
+### retos_observacion
+
+**ES:** Corte holgado y abombado del calzón de manta blanca atado en los tobillos / Pañuelo rojo de satén anudado al cuello en forma de triángulo sobre la camisa / Sombrero de paja de palma tejido a mano y huaraches tradicionales de baqueta
+
+**EN:** The loose, baggy cut of the white muslin trousers tied at the ankles / The red satin kerchief knotted at the neck in the shape of a triangle over the shirt / The hand-woven palm straw hat and the traditional cowhide leather huaraches
+
+### especificaciones
+
+**ES:** Pueblo: Totonaco (Tutuunakú) / Región: Totonacapan veracruzano (Papantla, Tajín, Coxquihui) / Técnica/Material: Manta de algodón blanco, popelina, paliacate de seda y palma de soyate / Función: Indumentaria cotidiana de gala, autoridades tradicionales y eventos ceremoniales
+
+**EN:** People: Totonac (Tutunaku) / Region: Veracruz Totonacapan (Papantla, El Tajín, Coxquihui) / Technique/Material: White cotton muslin, poplin, silk kerchief and soyate palm / Function: Everyday formal wear, for traditional authorities and ceremonial events
+
+### faq_mito
+
+**ES:** pregunta: Mito: El traje de manta blanca totonaco es un disfraz de campesino pobre impuesto por los hacendados españoles. / respuesta: Realidad: Según los catálogos del INAH, es una indumentaria tradicional totonaca adaptada al clima tropical que simboliza la pulcritud y dignidad.
+
+**EN:** pregunta: Myth: The Totonac white muslin outfit is a poor farmer’s costume imposed by Spanish landowners. / respuesta: Reality: According to INAH catalogs, it is a traditional Totonac garment adapted to the tropical climate that symbolizes neatness and dignity.
+
+## Pieza: mna_s18_mascara_negritos
+
+### titulo
+
+**ES:** Máscara de madera y corona de la Danza de los Negritos
+
+**EN:** Wooden Mask and Crown of the Dance of the Negritos
+
+### frase_gancho
+
+**ES:** Madera negra y listones floridos que sanan la picadura.
+
+**EN:** Black wood and flowered ribbons that heal the bite.
+
+### puente_narrativo
+
+**ES:** Para concluir la visita a la Sala 18, este conjunto de máscara oscura y sombrero emplumado evoca la Danza de los Negritos y su teatro sagrado.
+
+**EN:** To conclude the visit to Hall 18, this ensemble of a dark mask and a feathered hat evokes the Dance of the Negritos and its sacred theater.
+
+### guion_corto
+
+**ES:** Al situarse ante la vitrina que alberga este conjunto festivo en la Sala de la Costa del Golfo y Puebla de la planta alta del museo, el brillo de la madera tallada y la policromía de los listones cautivan de inmediato los sentidos. La Máscara de madera y corona de la Danza de los Negritos representa una de las manifestaciones dancísticas y espirituales de mayor arraigo en las comunidades totonacas y nahuas de Papantla, Veracruz, y la Sierra Norte de Puebla. La máscara está minuciosamente esculpida sobre un bloque de madera fina teñida en azabache o negro brillante, mostrando facciones masculinas sonrientes con cejas marcadas, bigote retorcido y boca entreabierta. Sobre la cabeza del danzante se ajusta un sombrero o corona de paja de ala ancha, forrado con terciopelo o satén de vivos colores y coronado por un penacho de flores artificiales del cual cuelgan largos listones multicolores que se despliegan en la espalda. Durante la escenificación ritual de la danza, los ejecutantes representan la historia alegórica de la mordedura de una serpiente a un trabajador afrodescendiente y su posterior curación mediante cantos, sones de violín y zapateado. Contemplar esta pieza en el Museo Nacional de Antropología es admirar la memoria, el sincretismo y la medicina tradicional indígena.
+
+**EN:** Standing before the display case that holds this festive ensemble in the Gulf Coast and Puebla Hall on the upper floor of the museum, you are immediately captivated by the gleam of the carved wood and the polychrome of the ribbons. The Wooden Mask and Crown of the Dance of the Negritos represents one of the most deeply rooted dance and spiritual traditions in the Totonac and Nahua communities of Papantla, Veracruz, and the Northern Sierra of Puebla. The mask is meticulously sculpted from a block of fine wood stained jet black or glossy black, showing smiling masculine features with defined eyebrows, a twisted mustache and a slightly open mouth. On the dancer’s head sits a wide-brimmed straw hat or crown, lined with brightly colored velvet or satin and topped by a plume of artificial flowers, from which hang long multicolored ribbons that spread down the back. During the ritual staging of the dance, the performers act out the allegorical story of a snake biting an Afro-descendant worker and his later healing through songs, violin melodies and rhythmic footwork. To contemplate this piece in the National Museum of Anthropology is to admire memory, syncretism and traditional Indigenous medicine.
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### guion_largo
+
+**ES:** En la rica geografía cultural de la Costa del Golfo de México y la Sierra Norte de Puebla, la Danza de los Negritos constituye una de las expresiones teatrales y dancísticas de mayor dinamismo del patrimonio etnográfico totonaco y nahua. Aunque la narrativa de la danza recrea un drama ocurrido durante la época colonial española —donde un peón o trabajador afrodescendiente en una hacienda cañera o ganadera sufre la mordedura de una víbora venenosa y es salvado mediante un ritual de curación indígena—, las raíces profundas del baile se hunden en los antiguos ritos prehispánicos de sanación, propiciación pluvial y homenaje a los espíritus de la naturaleza. Para el pueblo Totonaco (Tutunaku) de Papantla y Coxquihui, la serpiente no es únicamente un animal peligroso del monte, sino una entidad sagrada asociada al agua, a la fertilidad del suelo y a las fuerzas subterráneas del cosmos. La escenificación dancística combina sones de violín y guitarra con un zapateado rítmico que simboliza la pisotada sobre el reptil, transformando un incidente trágico en una victoria festiva de la vida sobre la muerte. Al examinar con cuidado la fisonomía y los elementos que integran el atuendo en la vitrina del museo, el observador atento admira la finura del trabajo del maestro santero o mascarero totonaco. La máscara está tallada en madera ligera de zopilote o cedro, pulida intensamente hasta obtener una pátina azabache que evoca la tez de los trabajadores afrodescendientes que convivieron históricamente con las comunidades nativas. Las facciones están labradas con gran expresividad: cejas arqueadas, ojos con pupilas caladas para la visión del ejecutante, un bigote esculpido con elegancia y una boca sonriente que deja ver dientes encajados. Sobre la máscara se coloca la vistosa corona o sombrero adornado con rosetones de listón satinado, espejos redondos que reflejan los rayos del sol y una cascada de listones de colores primarios —rojo, amarillo, azul y verde— que cuelgan libremente hasta la cintura, simbolizando los destellos de la luz solar y los fluidos vitales de la serpiente curada. La historia del acopio e integración de esta emblemática indumentaria al acervo etnográfico del Museo Nacional de Antropología se enmarca en los proyectos de documentación y salvaguarda cultural conducidos a mediados del siglo veinte por etnógrafos e investigadores del INAH en la región de Papantla y Zacapoaxtla. Los antropólogos convivieron con los caporales y cuadrillas de danzantes, obteniendo la autorización de las autoridades comunitarias para adquirir máscaras y coronas históricas que ingresaron a la Sala de la Costa del Golfo y Puebla de la planta alta del MNA. Hoy en día, esta máscara y corona resplandecen en la exposición permanente como un testimonio indiscutible de la diversidad, el sincretismo y la inquebrantable fortaleza cultural de los pueblos totonacos de México.
+
+**EN:** In the rich cultural geography of the Gulf Coast along the Gulf of Mexico and the Northern Sierra of Puebla, the Dance of the Negritos is one of the most dynamic theatrical and dance expressions of the Totonac and Nahua ethnographic heritage. Although the story of the dance recreates a drama set in the Spanish colonial era, in which a laborer or Afro-descendant worker on a sugar or cattle estate is bitten by a venomous snake and saved through an Indigenous healing ritual, the deep roots of the dance reach back to ancient pre-Hispanic rites of healing, rain propitiation and homage to the spirits of nature. For the Totonac people, the Tutunaku, of Papantla and Coxquihui, the snake is not merely a dangerous animal of the wilds, but a sacred being associated with water, the fertility of the soil and the subterranean forces of the cosmos. The staged dance combines violin and guitar melodies with rhythmic footwork that symbolizes stamping on the reptile, turning a tragic incident into a festive victory of life over death. Looking carefully at the features and the elements of the attire in the museum’s display case, the attentive observer admires the fine craftsmanship of the Totonac master image carver and mask maker. The mask is carved from lightweight wood of the helicopter tree or cedar, polished intensely until it acquires a jet-black patina that evokes the complexion of the Afro-descendant workers who historically lived alongside the native communities. The features are carved with great expressiveness: arched eyebrows, eyes with cut-out pupils so the performer can see, an elegantly sculpted mustache and a smiling mouth that reveals inlaid teeth. Over the mask is placed the showy crown or hat, adorned with rosettes of satin ribbon, round mirrors that reflect the rays of the sun and a cascade of ribbons in primary colors, red, yellow, blue and green, that hang freely down to the waist, symbolizing the flashes of sunlight and the vital fluids of the healed snake. The story of how this emblematic attire was gathered and added to the ethnographic collection of the National Museum of Anthropology belongs to the cultural documentation and safeguarding projects carried out in the mid-twentieth century by ethnographers and researchers of INAH in the region of Papantla and Zacapoaxtla. The anthropologists lived alongside the dance captains and troupes of dancers, obtaining permission from community authorities to acquire historic masks and crowns that entered the Gulf Coast and Puebla Hall on the upper floor of the MNA. Today, this mask and crown shine in the permanent exhibition as an undeniable testimony to the diversity, syncretism and unshakable cultural strength of the Totonac peoples of Mexico.
+
+### retos_observacion
+
+**ES:** Pátina azabache de la máscara sonriente con ojos calados para el danzante / Corona de ala ancha adornada con flores artificiales, espejos y rosetones de satén / Cascada multicolor de listones largos que cuelgan sobre la espalda hasta la cintura
+
+**EN:** The jet-black patina of the smiling mask with cut-out eyes for the dancer / Wide-brimmed crown adorned with artificial flowers, mirrors and satin rosettes / Multicolored cascade of long ribbons hanging down the back to the waist
+
+### especificaciones
+
+**ES:** Pueblo: Totonaco / Nahua / Región: Totonacapan (Veracruz y Sierra Norte de Puebla) / Técnica/Material: Madera de cedro/tzompantle tallada, esmalte, terciopelo, espejos y satén / Función: Parafernalia ritual de enmascaramiento para la Danza de los Negritos (teatro de sanación)
+
+**EN:** People: Totonac / Nahua / Region: Totonacapan (Veracruz and the Northern Sierra of Puebla) / Technique/Material: Carved cedar/coral tree wood, enamel, velvet, mirrors and satin / Function: Ritual masking paraphernalia for the Dance of the Negritos (healing theater)
+
+### faq_mito
+
+**ES:** pregunta: Mito: La Danza de los Negritos es una burla racista moderna creada por los terratenientes novohispanos. / respuesta: Realidad: Según los análisis del INAH, es un ritual ancestral totonaco de sanación y drama alegórico de convivencia intercultural.
+
+**EN:** pregunta: Myth: The Dance of the Negritos is a modern racist mockery created by the landowners of New Spain. / respuesta: Reality: According to INAH analyses, it is an ancestral Totonac healing ritual and an allegorical drama of intercultural coexistence.
+
+## Pieza: mna_s19_gaban_chamula
+
+### titulo
+
+**ES:** Chuj / Gabán tradicional de lana de San Juan Chamula
+
+**EN:** Chuj / Traditional Wool Overcoat from San Juan Chamula
+
+### frase_gancho
+
+**ES:** Lana negra del monte que abriga la fe tzotzil.
+
+**EN:** Black wool from the mountains that shelters Tzotzil faith.
+
+### puente_narrativo
+
+**ES:** Al ingresar a la Sala Pueblos Mayas, esta imponente túnica de lana introduce la vida ritual de los Altos de Chiapas. Los tzotziles de San Juan Chamula visten el chuj para protegerse del frío de la sierra y afirmar su autoridad espiritual.
+
+**EN:** As you enter the Maya Peoples Hall, this imposing wool tunic introduces the ritual life of the Chiapas Highlands. The Tzotzil of San Juan Chamula wear the chuj to protect themselves from the cold of the mountains and to affirm their spiritual authority.
+
+### guion_corto
+
+**ES:** Al aproximarse a la vitrina que alberga esta imponente prenda de abrigo en la Sala de los Pueblos Mayas de la planta alta del museo, la densidad táctil del tejido y el tono negro profundo de la lana cautivan de inmediato los sentidos. El Chuj o Gabán tradicional de lana representa la indumentaria masculina emblemática del pueblo Maya Tzotzil de San Juan Chamula, en los Altos de Chiapas. Confeccionado enteramente a mano con lana pura de borrego lavada, hilada en malacate y tejida en telar de cintura prehispánico, este gabán cerrado es una obra maestra de la vestimenta tradicional de montaña. La prenda consiste en una túnica rectangular sin mangas provista de una abertura para la cabeza y aberturas laterales para los brazos, cuya superficie de lana tupida es amartillada y abatanada con agua caliente para volverla impenetrable ante las lluvias y heladas de la sierra. En la sociedad tzotzil de Chamula, vestir el chuj negro no es una simple elección estética, sino un marcador de identidad étnica, rango espiritual y pertenencia a la autoridad comunitaria. Contemplarlo en el Museo Nacional de Antropología es admirar la dignidad del pueblo maya contemporáneo.
+
+**EN:** As you approach the display case that houses this imposing garment in the Maya Peoples Hall on the upper floor of the museum, the dense, tactile weave and the deep black tone of the wool captivate the senses at once. The Chuj, or traditional wool overcoat, is the emblematic men’s garment of the Tzotzil Maya people of San Juan Chamula, in the Chiapas Highlands. Made entirely by hand from pure washed sheep’s wool, spun on a spindle whorl and woven on a pre-Hispanic backstrap loom, this closed overcoat is a masterpiece of traditional mountain clothing. The garment is a sleeveless rectangular tunic with an opening for the head and side openings for the arms, and its thick wool surface is hammered and fulled with hot water to make it impervious to the rains and frosts of the mountains. In Tzotzil society in Chamula, wearing the black chuj is not a mere aesthetic choice, but a marker of ethnic identity, spiritual rank, and membership in the community’s authority. To contemplate it in the National Museum of Anthropology is to admire the dignity of the contemporary Maya people.
+
+### guion_largo
+
+**ES:** En las frías y brumosas cumbres de los Altos de Chiapas, a más de dos mil doscientos metros sobre el nivel del mar, la comunidad maya tzotzil de San Juan Chamula ha mantenido viva desde tiempos inmemoriales una de las identidades indígenas más firmes, cohesionadas e independientes de todo el continente americano. En el pensamiento cosmogónico tzotzil, la oveja o borrego no es un mero animal doméstico de ganado para carne, sino un ser sagrado y un hermano espiritual protegido directamente por San Juan Bautista, el patrono del pueblo. Por esta razón sagrada, los habitantes de Chamula nunca sacrifican a los borregos para consumo alimentario, sino que los cuidan amorosamente en los pastizales del monte para esquilar periódicamente su lana suave. La lana es lavada, cardada e hilada por las mujeres chamulas para confeccionar las prendas tradicionales de la familia, transformando el pelo del animal en una vestidura mística que protege el alma y el cuerpo del caminante contra las inclemencias del frío y de los aires malos de la montaña. Al analizar con atención la factura y la estructura de este gabán en la vitrina del museo, el observador atento aprecia la extraordinaria técnica de tejido y abatanado tradicional de los Altos de Chiapas. El chuj está elaborado sobre una urdimbre tupida en telar de cintura utilizando hilos de lana de borrego negro de tonalidad nativa, sin recurrir jamás a tintes químicos industriales. Una vez salido del telar, el lienzo de lana es sometido a un largo proceso de abatanado: la prenda se lava en tinas de agua hirviendo con jabón vegetal y se golpea continuamente contra piedras lisas para que las fibras de lana se fieltren y cierren sus poros por completo, creando un tejido impermeable de gran espesor y durabilidad. El diseño de la prenda es de una austeridad monumental: un torso holgado que cae hasta las rodillas, con refuerzos en la garganta y flecos de hilo suelto en el dobladillo inferior que se balancean suavemente con el paso del hombre durante las solemnes procesiones del templo. La historia del rescate e incorporación de este chuj Chamula al acervo etnográfico del Museo Nacional de Antropología forma parte de las célebres campañas de investigación etnológica coordinadas a mediados del siglo veinte por antropólogos e investigadores del INAH como Alfonso Villa Rojas, Manuel Zabala Cubillos y Ricardo Pozas. Los etnógrafos documentaron la vida cotidiana y el sistema de cargos religiosos en San Juan Chamula, adquiriendo gabanes tradicionales directamente de las manos de los ancianos y mayordomos de la comunidad. La exhibición permanente de esta prenda en la planta alta del MNA rinde tributo a la ciencia textil, al respeto por la fauna sagrada y a la soberanía cultural de los pueblos mayas de Chiapas.
+
+**EN:** In the cold, misty peaks of the Chiapas Highlands, at more than two thousand two hundred meters above sea level, the Tzotzil Maya community of San Juan Chamula has kept alive since time immemorial one of the firmest, most cohesive, and most independent Indigenous identities on the entire American continent. In Tzotzil cosmological thought, the sheep is not a mere domestic animal raised for meat, but a sacred being and a spiritual brother protected directly by Saint John the Baptist, the patron saint of the town. For this sacred reason, the people of Chamula never sacrifice their sheep for food, but instead tend them lovingly in the mountain pastures in order to shear their soft wool periodically. The wool is washed, carded, and spun by Chamula women to make the family’s traditional garments, transforming the animal’s fleece into a mystical vestment that protects the soul and body of the traveler against the harshness of the cold and the evil winds of the mountains. By looking closely at the craftsmanship and structure of this overcoat in the museum’s display case, the attentive observer can appreciate the extraordinary traditional weaving and fulling technique of the Chiapas Highlands. The chuj is made on a dense warp on a backstrap loom, using black sheep’s wool threads in their natural tone, without ever resorting to industrial chemical dyes. Once it comes off the loom, the wool cloth undergoes a long fulling process: the garment is washed in tubs of boiling water with plant-based soap and beaten continually against smooth stones so that the wool fibers felt and close their pores completely, creating a waterproof fabric of great thickness and durability. The design of the garment is one of monumental austerity: a loose torso that falls to the knees, with reinforcements at the throat and fringes of loose thread on the lower hem that sway gently with the wearer’s steps during the solemn processions of the temple. The story of how this Chamula chuj was recovered and added to the ethnographic collection of the National Museum of Anthropology is part of the celebrated ethnological research campaigns coordinated in the mid-twentieth century by anthropologists and researchers of the INAH such as Alfonso Villa Rojas, Manuel Zabala Cubillos, and Ricardo Pozas. The ethnographers documented daily life and the system of religious offices in San Juan Chamula, acquiring traditional overcoats directly from the hands of the elders and stewards of the community. The permanent display of this garment on the upper floor of the MNA pays tribute to textile science, to respect for sacred fauna, and to the cultural sovereignty of the Maya peoples of Chiapas.
+
+### retos_observacion
+
+**ES:** Tejido tupido e impermeable de lana negra de borrego abatanada a mano / Abertura central reforzada para el cuello y cortes laterales para los brazos / Flecos de hilo suelto en el dobladillo inferior que se mecen al caminar
+
+**EN:** Dense, waterproof weave of black sheep’s wool, fulled by hand / Reinforced central opening for the neck and side cuts for the arms / Fringes of loose thread on the lower hem that sway as the wearer walks
+
+### especificaciones
+
+**ES:** Pueblo: Maya Tzotzil / Región: Los Altos de Chiapas (San Juan Chamula) / Técnica/Material: Lana de borrego negra hilada y tejida a mano, borlas de estambre / Función: Indumentaria masculina de gala, jerarquía de cargos y abrigo de montaña
+
+**EN:** People: Tzotzil Maya / Region: The Chiapas Highlands (San Juan Chamula) / Technique/Material: Black sheep’s wool, hand-spun and hand-woven, with yarn tassels / Function: Men’s ceremonial garment, marker of rank in the cargo system, and mountain outerwear
+
+### faq_mito
+
+**ES:** pregunta: Mito: Los pobladores de San Juan Chamula crían ovejas para vender carne de cordero en los mercados. / respuesta: Realidad: Según los estudios del INAH, el borrego es un animal sagrado nunca sacrificado, criado exclusivamente por su lana.
+
+**EN:** pregunta: Myth: The people of San Juan Chamula raise sheep to sell lamb meat in the markets. / respuesta: Reality: According to INAH studies, the sheep is a sacred animal that is never sacrificed, raised exclusively for its wool.
+
+## Pieza: mna_s19_incensario_lacandon
+
+### titulo
+
+**ES:** Sahumador e incensario de barro lacandón
+
+**EN:** Lacandon Clay Incense Burner and Censer
+
+### frase_gancho
+
+**ES:** Incensario de barro donde el humo invoca ancestros mayas.
+
+**EN:** A clay censer where smoke summons Maya ancestors.
+
+### puente_narrativo
+
+**ES:** Ubicado en la sección consagrada a las tierras bajas tropicales, este incensario de arcilla representa la religión del pueblo Hach Winik. En los santuarios de la Selva Lacandona, la quema de copal alimenta a las deidades creadoras.
+
+**EN:** Located in the section devoted to the tropical lowlands, this clay censer represents the religion of the Hach Winik people. In the sanctuaries of the Lacandon Jungle, the burning of copal feeds the creator deities.
+
+### guion_corto
+
+**ES:** Al aproximarse a la vitrina que resguarda este enigmático recipiente ceremonial en la Sala Maya de la planta alta del museo, la rusticidad del modelado a mano y el rostro antropomorfo del dios cautivan de inmediato los sentidos. El Sahumador e incensario de barro lacandón representa el objeto litúrgico más sagrado y secreto del pueblo Maya Hach Winik o Lacandón de la Selva Lacandona de Chiapas. Moldeado rústicamente en barro arcilloso sin torno y cocido en fogón abierto, este incensario (k'akoch) consiste en una copa o cuenco cilíndrico cuya cara frontal está presidida por el rostro tridimensional de una deidad cosmogónica, como Hachäk'yum (el Creador) o Sukunkyum (guardián del inframundo). Durante los ritos de renovación en la casa de los dioses (nah), los sabios o chamanes lacandones queman en el interior de la vasija resina de copal (silb'ik), nódulos de caucho vegetal y alimentos rituales, provocando que columnas de humo perfumado asciendan al cielo. En la cosmovisión lacandona, el incensario no es un simple utensilio, sino la encarnación viva del dios. Contemplar este objeto en el Museo Nacional de Antropología es asomarse a la espiritualidad Maya.
+
+**EN:** Approaching the display case that shelters this enigmatic ceremonial vessel in the Maya Hall on the museum’s upper floor, you are instantly captivated by the rustic hand modeling and the anthropomorphic face of the god. The Lacandon Clay Incense Burner and Censer is the most sacred and secret liturgical object of the Maya Hach Winik, or Lacandon, people of the Lacandon Jungle in Chiapas. Rustically molded from clay without a potter’s wheel and fired in an open hearth, this censer, known as the k’akoch, consists of a cylindrical cup or bowl whose front face is presided over by the three-dimensional face of a cosmogonic deity, such as Hachäk'yum, the Creator, or Sukunkyum, guardian of the underworld. During the renewal rites in the house of the gods, called the nah, Lacandon sages or shamans burn inside the vessel copal resin, known as silb’ik, along with nodules of natural rubber and ritual foods, sending columns of perfumed smoke up to the sky. In the Lacandon worldview, the censer is not a mere utensil but the living embodiment of the god. To contemplate this object in the National Museum of Anthropology is to glimpse Maya spirituality.
+
+### guion_largo
+
+**ES:** En las profundidades tropicales de la Selva Lacandona en el oriente del estado de Chiapas, en las riberas de los ríos Usumacinta, Lacanjá y Jataté, el pueblo Maya Lacandón o Hach Winik ('los hombres verdaderos') ha resguardado durante siglos una de las tradiciones religiosas de filiación maya más antiguas y directas del continente americano. Refugiados en la selva alta durante el periodo colonial para preservar su libertad y sus rituales sagrados, los lacandones continuaron peregrinando en secreto hacia las ruinas monumentales de Yaxchilán, Bonampak y Palenque, sitios a los que consideran los templos vivos de sus antepasados divinos. En el centro de su vida espiritual se encuentra la casa de los dioses o 'nah', un santuario de guano y madera apartado del poblado donde se custodian los incensarios sagrados de la comunidad. Para los lacandones, cada incensario de barro es un ser animado que nace, come, escucha oraciones y envejece: esculpir un incensario equivale a dar vida a un dios que protegerá al grupo contra las enfermedades, los ataques de jaguares y las tormentas de la selva tropical. Al inspeccionar con cuidado los detalles esculpidos sobre la arcilla en la vitrina del museo, el observador atento descubre la sobrecogedora expresividad del modelado tradicional lacandón. El incensario presenta un recipiente base de paredes gruesas decorado con franjas incisas y aplicaciones al pastillaje. En la sección superior se alza el rostro de la deidad, trabajado con cejas prominentes, ojos circulares profundos, nariz ancha y una boca abierta que deja ver colmillos o dientes incisos. La superficie del barro conserva pátinas de pintura vegetal blanca hecha con cal, sobre la cual el chamán aplicó gotas de pigmento rojo de achiote y negro de hollín de ocote, simbolizando la energía sagrada de la sangre y la noche. En el labio inferior de la figura de barro se aprecian restos de resina de copal quemada y masa de maíz ofrendada durante los solemnes ritos de consagración y renovación espiritual del santuario. La historia del acopio y documentación científica de estos incensarios lacandones por el Instituto Nacional de Antropología e Historia está ligada a las históricas expediciones etnológicas conducidas a mediados del siglo veinte por investigadores pioneros como Frans Blom, Gertrude Duby y Roberto Bruce. Los antropólogos convivieron con las familias lacandonas de Najá y Lacanjá Chansayab, registrando los cantos rituales en lengua hach t'an y obteniendo con el permiso de los ancianos incensarios 'retirados' o desactivados ritualmente tras haber cumplido su ciclo de vida litúrgico. Conservado con reverencia en la Sala Maya de la planta alta del MNA, este incensario de barro permanece como un testimonio invalorable de la espiritualidad, el arte ritual y la memoria histórica de los pueblos mayas de la selva de Chiapas.
+
+**EN:** In the tropical depths of the Lacandon Jungle in eastern Chiapas, along the banks of the Usumacinta, Lacanjá, and Jataté rivers, the Maya Lacandon, or Hach Winik, people, “the true men,” have safeguarded for centuries one of the oldest and most direct religious traditions of Maya descent on the American continent. Having taken refuge in the high jungle during the colonial period to preserve their freedom and their sacred rituals, the Lacandons continued to make secret pilgrimages to the monumental ruins of Yaxchilán, Bonampak, and Palenque, sites they regard as the living temples of their divine ancestors. At the center of their spiritual life stands the house of the gods, or “nah,” a sanctuary of palm thatch and wood set apart from the village, where the community’s sacred censers are guarded. For the Lacandons, every clay censer is a living being that is born, eats, hears prayers, and grows old: sculpting a censer is equivalent to giving life to a god who will protect the group against illness, jaguar attacks, and the storms of the tropical jungle. Examining carefully the details sculpted into the clay in the museum display case, the attentive observer discovers the overwhelming expressiveness of traditional Lacandon modeling. The censer has a thick-walled base vessel decorated with incised bands and applied clay pellets. In the upper section rises the face of the deity, worked with prominent brows, deep circular eyes, a broad nose, and an open mouth that reveals fangs or incised teeth. The surface of the clay preserves a patina of white plant-based paint made with lime, over which the shaman applied drops of red pigment from achiote and black from ocote pine soot, symbolizing the sacred energy of blood and of night. On the lower lip of the clay figure one can see remains of burned copal resin and maize dough offered during the solemn rites of consecration and spiritual renewal of the sanctuary. The history of the collection and scientific documentation of these Lacandon censers by the National Institute of Anthropology and History (INAH) is tied to the historic ethnological expeditions led in the mid-twentieth century by pioneering researchers such as Frans Blom, Gertrude Duby, and Roberto Bruce. The anthropologists lived alongside Lacandon families in Najá and Lacanjá Chansayab, recording ritual chants in the hach t’an language and obtaining, with the permission of the elders, “retired” censers, ritually deactivated after fulfilling their liturgical life cycle. Preserved with reverence in the Maya Hall on the upper floor of the MNA, this clay censer remains an invaluable testimony to the spirituality, the ritual art, and the historical memory of the Maya peoples of the Chiapas jungle.
+
+### retos_observacion
+
+**ES:** Rostro esculpido del dios Hachäk'yum con ojos circulares y cejas prominentes / Restos de pintura sagrada de achiote rojo y hollín negro sobre fondo blanco de cal / Incisiones en el labio inferior con huellas de resina de copal y masa de maíz
+
+**EN:** Sculpted face of the god Hachäk'yum with circular eyes and prominent brows / Remains of sacred paint of red achiote and black soot over a white lime background / Incisions on the lower lip with traces of copal resin and maize dough
+
+### especificaciones
+
+**ES:** Pueblo: Lacandón (Hach Winik) / Región: Selva Lacandona (Nahá, Mensäbäk y Frontera Corozal, Chiapas) / Técnica/Material: Arcilla modelada a mano, pintura vegetal (achiote) y resina de copal / Función: Vasija sagrada para la quema ritual de copal y alimento a las deidades
+
+**EN:** People: Lacandon (Hach Winik) / Region: Lacandon Jungle (Nahá, Mensäbäk, and Frontera Corozal, Chiapas) / Technique/Material: Hand-modeled clay, plant-based paint (achiote), and copal resin / Function: Sacred vessel for the ritual burning of copal and for feeding the deities
+
+### faq_mito
+
+**ES:** pregunta: Mito: Los incensarios lacandones son vasijas decorativas de barro vendidas en mercados de artesanías sin uso sagrado. / respuesta: Realidad: Según los peritajes del INAH, son seres animados que encarnan a las deidades mayas durante los ritos de la selva.
+
+**EN:** pregunta: Myth: Lacandon censers are decorative clay vessels sold in craft markets with no sacred use. / respuesta: Reality: According to INAH expert assessments, they are living beings that embody the Maya deities during the rites of the jungle.
+
+## Pieza: mna_s19_terno_yucateco
+
+### titulo
+
+**ES:** Terno tradicional de mestiza de Yucatán
+
+**EN:** Traditional Three-Piece Mestiza Dress of Yucatán
+
+### frase_gancho
+
+**ES:** Brocado de flores que viste a la mestiza yucateca.
+
+**EN:** Floral brocade that adorns the Yucatecan mestiza.
+
+### puente_narrativo
+
+**ES:** Avanzando hacia el sector de la Península de Yucatán, esta indumentaria de fiesta muestra el orgullo mestizo maya. El terno es lucido por las jaraneras durante las vaquerías y festividades patronales de la región.
+
+**EN:** As you move toward the Yucatán Peninsula section, this festive attire shows the pride of the Maya mestizo people. The three-piece dress is worn by jarana dancers during the cattle festivals and patron saint celebrations of the region.
+
+### guion_corto
+
+**ES:** Al situarse ante el maniquí que luce esta radiante indumentaria de gala en la Sala Maya de la planta alta del museo, la blancura de la tela de lino y el esplendor de las flores bordadas encandilan de inmediato los sentidos. El Terno tradicional de mestiza de Yucatán representa la vestimenta ceremonial emblemática de las mujeres Mayas y mestizas de la Península de Yucatán. El atuendo está integrado por tres prendas superpuestas de elegante geometría: el jubón o solapa cuadrada que cubre los hombros, el huipil o vestido central de corte recto que cae hasta media pierna, y el fustán o enagua inferior que llega hasta los tobillos. Las tres prendas exhiben en sus bordes majestuosos bordados a mano en punto de cruz o matiz (xokbil chuy), desplegando una tupida sinfonía de rosas, tulipanes y orquídeas en deslumbrantes colores rojo, amarillo, turquesa y violeta, rematadas con delicados encajes de bolillo blancos. Vestido durante las tradicionales Vaquerías y bodas mestizas, el terno es el símbolo de la elegancia, la alegría y la mestizajía peninsular. Contemplarlo en el Museo Nacional de Antropología es admirar la cima del arte textil maya-yucateco.
+
+**EN:** Standing before the mannequin that wears this radiant formal attire in the Maya Hall on the upper floor of the museum, you are instantly dazzled by the whiteness of the linen and the splendor of the embroidered flowers. The Traditional Three-Piece Mestiza Dress of Yucatán is the emblematic ceremonial costume of Maya and mestiza women of the Yucatán Peninsula. The outfit is made up of three layered garments of elegant geometry: the bodice, or square collar piece, that covers the shoulders, the huipil, or central straight-cut dress that falls to mid-leg, and the petticoat, or lower underskirt, that reaches the ankles. Along their borders, all three garments display majestic hand embroidery in cross-stitch or shaded stitch, known as xokbil chuy, unfolding a dense symphony of roses, tulips and orchids in dazzling red, yellow, turquoise and violet, finished with delicate white bobbin lace. Worn during the traditional Cattle Festivals and mestizo weddings, the three-piece dress is the symbol of elegance, joy and the mestizo heritage of the peninsula. To see it in the National Museum of Anthropology is to admire the pinnacle of Yucatec Maya textile art.
+
+### guion_largo
+
+**ES:** En la fértil Península de Yucatán, entre las antiguas ciudades ceremoniales de Chichén Itzá y Uxmal y las casonas históricas de Mérida, Izamal, Ticul, Motul, Tizimín y Valladolid, la cultura maya contemporánea floreció al fusionar sus milenarias técnicas textiles con las costumbres estéticas introducidas durante el periodo virreinal español. En la vida social de la península, las fiestas patronales conocidas como Vaquerías —originalmente vinculadas a la marcación del ganado en las haciendas henequeneras— se transformaron en las solemnidades comunitarias supremas donde la música alegre de jarana y el baile sueltan la alegría del pueblo. Para la mujer yucateca o mestiza, participar en la Vaquería exige vestir el traje de gala por excelencia: el Terno. Esta indumentaria no es una moda pasajera, sino un patrimonio heredado de madres a hijas que sintetiza el orgullo de la identidad maya, el estatus familiar y la maestría artesanal del bordado en telar y bastidor tradicional de la región peninsular. Al analizar con cuidado la anatomía y los detalles de confección del terno en la vitrina del museo, el observador atento admira la virtuosa superposición de las tres piezas que lo componen. La primera prenda es el jubón, una solapa cuadrada amplia provista de un escote central que descansa sobre el pecho y la espalda; la segunda es el huipil propiamente dicho, una túnica de lino o algodón blanco de caída recta; y la tercera es el fustán, una falda ajustada a la cintura que sobresale bajo el huipil. Las tres piezas están decoradas en sus dobladillos con cenefas bordadas en la tradicional técnica del xokbil chuy (bordado de hilo contado en punto de cruz) o en máquina de pedal, formando campos florales tridimensionales de rosas, girasoles y pajarillos. Un rasgo de insuperable refinamiento es la presencia de los encajes de puntilla o encaje de bolillo fino en los remates inferiores de las tres prendas, acompañados por collares de cuentas de filigrana de oro y rosarios de corales rojos que caen con gracia sobre el pecho de la mestiza. La historia de la integración de este icónico Terno yucateco al acervo del Museo Nacional de Antropología se enmarca en los proyectos de acopio e investigación etnográfica coordinados en la década de 1960 por antropólogos e investigadores del INAH en municipios de Yucatán como Mérida, Izamal, Ticul, Motul, Tizimín y Valladolid. Los especialistas del museo adquirieron ternos de gala bordados a mano por reconocidas maestras bordadoras tradicionales para la inauguración de las galerías etnográficas en 1964. La exhibición permanente de este terno en la Sala Maya de la planta alta del MNA permite a los visitantes de todo el orbe admirar la riqueza textil, la vivacidad cromática y la elegancia perdurable de las mujeres de la Península de Yucatán.
+
+**EN:** In the fertile Yucatán Peninsula, between the ancient ceremonial cities of Chichén Itzá and Uxmal and the historic mansions of Mérida, Izamal, Ticul, Motul, Tizimín and Valladolid, contemporary Maya culture flourished by fusing its thousand-year-old textile techniques with the aesthetic customs introduced during the Spanish viceregal period. In the social life of the peninsula, the patron saint celebrations known as the Cattle Festivals, originally linked to the branding of cattle on the henequen haciendas, became the supreme community celebrations, where the lively music of the jarana and the dance release the joy of the people. For the Yucatecan woman, or mestiza, taking part in the Cattle Festival requires wearing the formal dress par excellence: the three-piece dress. This attire is not a passing fashion, but a heritage handed down from mothers to daughters that embodies the pride of Maya identity, family status and the artisanal mastery of embroidery on the traditional loom and hoop of the peninsular region. Looking carefully at the anatomy and the details of construction of the three-piece dress in the museum display case, the attentive observer admires the virtuoso layering of the three pieces that compose it. The first garment is the bodice, a broad square collar piece with a central neckline that rests over the chest and back; the second is the huipil proper, a tunic of white linen or cotton that falls straight; and the third is the petticoat, a skirt fitted at the waist that shows below the huipil. The three pieces are decorated along their hems with borders embroidered in the traditional xokbil chuy technique, a counted-thread cross-stitch embroidery, or with a treadle machine, forming three-dimensional floral fields of roses, sunflowers and little birds. A feature of unsurpassed refinement is the presence of edging lace, or fine bobbin lace, on the lower finishes of all three garments, accompanied by necklaces of gold filigree beads and rosaries of red coral that fall gracefully over the mestiza’s chest. The story of how this iconic Yucatec three-piece dress joined the collection of the National Museum of Anthropology belongs to the collecting and ethnographic research projects coordinated in the 1960s by INAH anthropologists and researchers in municipalities of Yucatán such as Mérida, Izamal, Ticul, Motul, Tizimín and Valladolid. The museum’s specialists acquired formal three-piece dresses embroidered by hand by renowned traditional master embroiderers for the opening of the ethnographic galleries in 1964. The permanent display of this dress in the Maya Hall on the upper floor of the MNA allows visitors from all over the world to admire the textile richness, the vivid color and the lasting elegance of the women of the Yucatán Peninsula.
+
+### retos_observacion
+
+**ES:** Estructura geométrica de tres piezas superpuestas (jubón, huipil y fustán) / Cenefas tupidas de bordado xokbil chuy con motivos florales multicolores / Encajes de bolillo blancos que rematan los bordes e inferior del fustán
+
+**EN:** Geometric structure of three layered pieces (bodice, huipil and petticoat) / Dense xokbil chuy embroidered borders with multicolored floral motifs / White bobbin lace finishing the lower edges of the petticoat
+
+### especificaciones
+
+**ES:** Pueblo: Maya Yucateco / Región: Península de Yucatán (Mérida, Izamal, Valladolid) / Técnica/Material: Lino/algodón bordado en punto de cruz (xokbilchuy), encaje de bolillo y filigrana / Función: Indumentaria de gala para la fiesta de la Vaquería, bodas y fiestas patronales
+
+**EN:** People: Yucatec Maya / Region: Yucatán Peninsula (Mérida, Izamal, Valladolid) / Technique/Material: Linen/cotton embroidered in cross-stitch (xokbilchuy), bobbin lace and filigree / Function: Formal attire for the Cattle Festival, weddings and patron saint celebrations
+
+### faq_mito
+
+**ES:** pregunta: Mito: El terno de mestiza es un vestido importado de España traído por las familias nobles en el siglo XIX. / respuesta: Realidad: Según los catálogos del INAH, es una prenda regional mestiza mestizada a partir del huipil maya prehispánico.
+
+**EN:** pregunta: Myth: The mestiza three-piece dress is a garment imported from Spain, brought by noble families in the 19th century. / respuesta: Reality: According to INAH catalogs, it is a regional mestizo garment that developed from the pre-Hispanic Maya huipil.
+
+## Pieza: mna_s19_solar_maya
+
+### titulo
+
+**ES:** Recreación del Solar y Casa Tradicional Maya
+
+**EN:** Recreation of the Traditional Maya Homestead and House
+
+### frase_gancho
+
+**ES:** Casa de paja y bajareque donde germina el maíz.
+
+**EN:** A house of thatch and wattle and daub where maize sprouts.
+
+### puente_narrativo
+
+**ES:** Para concluir el recorrido por la Sala Pueblos Mayas, esta instalación a escala real reproduce el hábitat doméstico sustentable. La casa elíptica y el huerto familiar garantizan el sustento comunitario.
+
+**EN:** To conclude the tour of the Maya Peoples Hall, this full-scale installation reproduces a sustainable domestic habitat. The elliptical house and the family orchard guarantee the community’s sustenance.
+
+### guion_corto
+
+**ES:** Al adentrarse en la majestuosa instalación que domina la Sala Maya en la planta alta del museo, el olor a paja seca, madera de monte y tierra húmeda traslada de inmediato los sentidos al campo yucateco. La Recreación del Solar y Casa Tradicional Maya es una reconstrucción a escala real de la vivienda y del espacio agroecológico cotidiano de las familias mayas de la Península de Yucatán. La casa exhibe la clásica planta absidal o de esquinas redondeadas, edificada con muros de bajareque o k'ankab (tierra roja mezclada con zacate) y una alta techumbre de dos o cuatro aguas elaborada con vigas de madera dura de jabín y guano de palma. En el interior se aprecia el hogar tradicional con sus hamacas tejidas colgadas de los horcones, el comal de barro, el metate y el altar familiar. En el exterior se despliega el solar o jóovel, un huerto biodiverso rodeado por albarradas de piedra caliza donde se cultivan plantas medicinales, frutales y hortalizas, junto a las colmenas de abeja melipona nativa. Contemplar esta instalación en el Museo Nacional de Antropología es admirar la sustentabilidad de la arquitectura maya.
+
+**EN:** As you step into the majestic installation that dominates the Maya Hall on the upper floor of the museum, the scent of dry thatch, forest timber and damp earth immediately carries your senses to the countryside of Yucatán. The Recreation of the Traditional Maya Homestead and House is a full-scale reconstruction of the dwelling and the everyday agroecological space of Maya families of the Yucatán Peninsula. The house displays the classic apsidal plan with rounded corners, built with walls of wattle and daub, or k’ankab, a red earth mixed with grass, and a tall roof with two or four slopes made of hardwood jabin beams and palm thatch. Inside, you can see the traditional hearth with its woven hammocks hung from the posts, the clay griddle, the grinding stone and the family altar. Outside unfolds the homestead plot, or jóovel, a biodiverse orchard surrounded by limestone walls where medicinal plants, fruit trees and vegetables are grown, alongside the hives of the native Melipona bee. To contemplate this installation in the National Museum of Anthropology is to admire the sustainability of Maya architecture.
+
+### guion_largo
+
+**ES:** En las planicies calcáreas de la Península de Yucatán, entre los montes bajos y los cenotes de agua dulce, el pueblo Maya ha desarrollado a lo largo de más de tres milenios una de las formas de hábitat y manejo ecológico más sostenibles y adaptadas al clima tropical del planeta: la casa tradicional o nah y el solar agroforestal. A diferencia de las concepciones urbanas occidentales que separan de forma tajante la vivienda del entorno natural, en la cosmovisión maya la casa y el solar constituyen un solo organismo vivo y sagrado. La estructura de la vivienda reproduce la arquitectura del cosmos: los cuatro horcones o horquetas principales de madera dura de la selva (xa'an) representan los cuatro bacabes o dioses que sostienen los cuatro rincones del universo, mientras que el techo inclinado de paja de palma evoca la bóveda celeste que cobija a la familia. La forma redondeada u ovalada de los extremos de la casa permite una libre circulación de los vientos alisios, manteniendo fresco el interior bajo las intensas temperaturas del verano peninsular. Al explorar con atención los detalles de la vivienda y del solar en la vitrina e instalación del museo, el observador atento admira la sabiduría constructiva y ecológica del campesino maya. Los muros están fabricados con varas verticales de otate o bajareque recubiertas por una mezcla de tierra roja (k'ankab), cal y zacate que aísla la humedad. En el interior, la vida doméstica se organiza de forma ágil: las hamacas de hilo de algodón son colgadas de los horcones durante la noche para dormir elevados del suelo y se recogen durante el día para despejar el espacio del salón. En una esquina resplandece la mesa del altar familiar o k'anche', donde se ofrecen pocillos de jícara con atole y balché a los aluxo'ob o espíritus guardianes del monte. En el solar exterior, delimitado por albarradas de piedra sin argamasa, se observan troncos huecos o jobones dedicados a la crianza de la abeja melipona sin aguijón (Xunáan Kab), productora de la miel sagrada curativa de los mayas. La historia de la construcción e integración de esta réplica a escala real de la Casa Tradicional Maya en el Museo Nacional de Antropología se remonta a los trabajos de acopio de etnografía arquitectónica dirigidos en 1964 por antropólogos del INAH. Maestros constructores mayas procedentes de poblados de Yucatán y Quintana Roo viajaron a la Ciudad de México para cortar las maderas de jabín y las palmas de guano, levantando la vivienda con sus propias manos y técnicas ancestrales en la planta alta del museo. Esta instalación permanente permite a millones de visitantes internacionales comprender la sustentabilidad, el diseño climático y la profunda armonía con la naturaleza que define la vida cotidiana del pueblo maya.
+
+**EN:** On the limestone plains of the Yucatán Peninsula, among the low forests and the freshwater cenotes, the Maya people have developed over more than three millennia one of the most sustainable forms of habitat and ecological management on the planet, one perfectly adapted to the tropical climate: the traditional house, or nah, and the agroforestry homestead plot. Unlike Western urban conceptions that sharply separate the dwelling from the natural surroundings, in the Maya worldview the house and the homestead plot form a single living and sacred organism. The structure of the dwelling reproduces the architecture of the cosmos: the four main posts or forks of hard jungle wood, known as xa’an, represent the four bacabs, the gods who hold up the four corners of the universe, while the sloping palm-thatch roof evokes the vault of heaven that shelters the family. The rounded or oval shape of the ends of the house allows the trade winds to circulate freely, keeping the interior cool under the intense temperatures of the peninsular summer. By carefully exploring the details of the dwelling and the homestead plot in the museum’s display and installation, the attentive observer admires the building and ecological wisdom of the Maya farmer. The walls are made of vertical otate canes covered with a mixture of red earth, known as k’ankab, lime and grass, which insulates against humidity. Inside, domestic life is organized with agility: cotton-thread hammocks are hung from the posts at night so that people sleep raised off the ground, and they are gathered up during the day to clear the space of the room. In one corner shines the family altar table, or k’anche’, where gourd cups of atole and balché are offered to the aluxo’ob, the guardian spirits of the forest. In the outer homestead plot, bounded by stone walls built without mortar, you can see hollow logs, or jobones, devoted to raising the stingless Melipona bee, known as Xunáan Kab, producer of the sacred, healing honey of the Maya. The history of the construction and integration of this full-scale replica of the Traditional Maya House in the National Museum of Anthropology goes back to the work of gathering architectural ethnography directed in 1964 by anthropologists of the INAH. Master Maya builders from villages in Yucatán and Quintana Roo traveled to Mexico City to cut the jabin timber and the palm thatch, raising the dwelling with their own hands and ancestral techniques on the upper floor of the museum. This permanent installation allows millions of international visitors to understand the sustainability, the climate-responsive design and the deep harmony with nature that define the everyday life of the Maya people.
+
+### retos_observacion
+
+**ES:** Planta absidal redondeada con cuatro horcones de madera que simulan los cuatro bacabes / Techo de alta inclinación tejido con palmas de guano sobre vigas de madera de jabín / Albarrada exterior de piedra caliza y troncos huecos (jobones) para abejas meliponas
+
+**EN:** Rounded apsidal plan with four wooden posts that symbolize the four bacabs / Steeply pitched roof woven from palm thatch over jabin hardwood beams / Outer limestone wall and hollow logs (jobones) for Melipona bees
+
+### especificaciones
+
+**ES:** Pueblo: Maya Yucateco / Región: Península de Yucatán (Campeche, Yucatán y Quintana Roo) / Técnica/Material: Arquitectura vernácula (madera dura, bajareque, palma de huano, henequén) / Función: Recreación de la vivienda tradicional y espacio biocultural del solar familiar
+
+**EN:** People: Yucatec Maya / Region: Yucatán Peninsula (Campeche, Yucatán and Quintana Roo) / Technique/Material: Vernacular architecture (hardwood, wattle and daub, huano palm, henequen) / Function: Recreation of the traditional dwelling and the biocultural space of the family homestead plot
+
+### faq_mito
+
+**ES:** pregunta: Mito: La casa maya de bajareque y paja es una choza insalubre fruto de la pobreza rural moderna. / respuesta: Realidad: Según los análisis del INAH, es un modelo de arquitectura bioclimática milenario perfectamente adaptado al trópico.
+
+**EN:** pregunta: Myth: The Maya house of wattle and daub and thatch is an unsanitary hut, the result of modern rural poverty. / respuesta: Reality: According to INAH analyses, it is a millennia-old model of bioclimatic architecture perfectly adapted to the tropics.
+
+## Pieza: mna_s20_mascara_chapayeka
+
+### titulo
+
+**ES:** Máscara de Chapayeka / Fariseo de la Semana Santa Yaqui
+
+**EN:** Chapayeka Mask / Pharisee of the Yaqui Holy Week
+
+### frase_gancho
+
+**ES:** Máscara de cuero y orejas enormes que busca la luz.
+
+**EN:** A leather mask with enormous ears that seeks the light.
+
+### puente_narrativo
+
+**ES:** Al ingresar a la Sala Pueblos del Noroeste, esta sobrecogedora máscara introduce la vida ritual y la defensa histórica del valle del río Yaqui. Durante la Cuaresma y Semana Santa, los fariseos o chapayekas asumen el sacrificio del enmascaramiento.
+
+**EN:** As you enter the Peoples of the Northwest Hall, this awe-inspiring mask introduces the ritual life and historic defense of the Yaqui River valley. During Lent and Holy Week, the pharisees or Chapayekas take on the sacrifice of wearing the mask.
+
+### guion_corto
+
+**ES:** Al situarse ante la vitrina que alberga esta singular máscara de cuero en la Sala del Norte de México, la aspereza de sus materiales y sus exageradas orejas largas cautivan de inmediato los sentidos. La Máscara de Chapayeka o Fariseo representa el elemento ritual central de la fiesta de Cuaresma y Semana Santa entre el pueblo Yoeme o Yaqui de Sonora. Elaborada artesanalmente sobre un casquete de cuero de chivo o vaca, esta máscara presenta orejas monumentales, nariz alargada y pintura facial geométrica en tonos rojo, blanco y negro, rematada con un tocado de pelo animal o lana. Durante las solemnidades pascuales, los hombres que asumen la promesa o manda de convertirse en Chapayekas visten cobijas de lana, cinturones de pezuñas de venado y sonajas de capullos de mariposa (tenábaris), ejecutando marchas y pantomimas ceremoniales. La máscara encarna a los perseguidores de Cristo y a las fuerzas del mal que son vencidas y destruidas simbólicamente mediante el fuego el Sábado de Gloria. Contemplar esta obra en la planta alta del Museo Nacional de Antropología es presenciar uno de los dramas litúrgicos más intensos y conmovedores de la etnografía norteña.
+
+**EN:** Standing before the display case that holds this singular leather mask in the Northern Mexico Hall, you are immediately captivated by the roughness of its materials and its exaggerated long ears. The Chapayeka or Pharisee Mask is the central ritual element of the Lent and Holy Week festival among the Yoeme or Yaqui people of Sonora. Handcrafted over a cap of goat or cow leather, this mask has monumental ears, an elongated nose, and geometric face paint in red, white, and black, topped with a headdress of animal hair or wool. During the Easter observances, the men who take on the promise or vow of becoming Chapayekas wear wool blankets, belts of deer hooves, and rattles made of butterfly cocoons, called tenábaris, as they perform ceremonial marches and pantomimes. The mask embodies the persecutors of Christ and the forces of evil, which are symbolically defeated and destroyed by fire on Holy Saturday. To contemplate this work on the upper floor of the National Museum of Anthropology is to witness one of the most intense and moving liturgical dramas in the ethnography of northern Mexico.
+
+### guion_largo
+
+**ES:** En los valles fértiles surcados por el río Yaqui en el estado de Sonora, la nación Yoeme o Yaqui ha mantenido viva desde el siglo diecisiete una de las tradiciones religiosas y socioculturales de mayor firmeza e identidad del continente americano. En el centro de su cosmovisión y calendario ritual se encuentra la Cuaresma y Semana Santa, periodo sagrado en el que la comunidad entera se transforma en un escenario litúrgico donde se escenifica la Pasión de Cristo entrelazada con los antiguos ritos agrícolas e hídricos de la tribu. Durante este ciclo, la autoridad religiosa y el orden comunitario quedan bajo la custodia temporal de la sociedad de los Fariseos o Chapayekas. Los hombres Yoeme que cumplen una promesa o 'manda' religiosa ante la Virgen de Guadalupe o ante el Santo Cristo asumen el compromiso de personificar a los Chapayekas durante cuarenta días. Para estos hombres, portar la máscara no es una actividad festiva de diversión, sino un penoso acto de penitencia física y espiritual que exige el más estricto silencio ritual, el ayuno y la abstinencia, ya que mientras llevan puesta la máscara deben sujetar una pequeña cruz de madera entre los dientes para no hablar jamás. Al examinar con atención los detalles de factura de la máscara en la vitrina del museo, el observador atento admira la audaz expresividad del arte ritual sonorense. La pieza está confeccionada cosiendo láminas de piel y cuero de vacuno o caprino curtido al sol, sobre las cuales se moldean orejas desproporcionadas y una nariz prominente en forma de pico o tubo que evoca espíritus del monte y personajes coloniales. La cara está decorada con líneas incisas y pintura de origen mineral en rojo, negro y blanco, formando motivos geométricos y símbolos cruciformes en la frente y mejillas. De la parte superior del casquete cuelgan mechones de crin de caballo, lana de borrego o pelo de pecarí que caen sobre la nuca. El vestuario completo del Chapayeka se acompaña con una cobija de lana tejida, una espada de madera pintada y un cinturón o 'riju' equipado con pezuñas de venado que emiten un chasquido rítmico con cada paso del penitente. La historia del acopio e integración de esta emblemática indumentaria ritual al acervo etnográfico del Museo Nacional de Antropología se enmarca en las expediciones de investigación de campo conducidas en la década de 1960 por antropólogos e investigadores del INAH en los ocho pueblos tradicionales yaquis de Sonora, entre ellos Pótam, Vícam y Tórim. Los etnógrafos documentaron las ceremonias de la quema de máscaras del Sábado de Gloria —momento en que los Chapayekas arrojan sus máscaras a una gran pira de fuego para purificar sus almas— y obtuvieron la autorización de las autoridades tradicionales y del Consejo de Ancianos para adquirir máscaras retiradas o confeccionadas por maestros artesanos para la colección permanente del museo. Hoy en día, esta máscara de Chapayeka resplandece en la planta alta del MNA como un testimonio vivo de la resistencia cultural, la devoción y la memoria histórica del pueblo Yaqui de México.
+
+**EN:** In the fertile valleys crossed by the Yaqui River in the state of Sonora, the Yoeme or Yaqui nation has kept alive, since the seventeenth century, one of the most steadfast and distinctive religious and sociocultural traditions of the Americas. At the center of their worldview and ritual calendar stand Lent and Holy Week, a sacred period in which the entire community becomes a liturgical stage where the Passion of Christ is enacted, intertwined with the ancient agricultural and water rites of the tribe. During this cycle, religious authority and community order fall temporarily under the custody of the society of the Pharisees or Chapayekas. The Yoeme men who fulfill a religious promise or vow before the Virgin of Guadalupe or the Holy Christ take on the commitment to portray the Chapayekas for forty days. For these men, wearing the mask is not a festive amusement but a painful act of physical and spiritual penance that demands the strictest ritual silence, fasting, and abstinence, since while wearing the mask they must hold a small wooden cross between their teeth so that they never speak. As you closely examine the details of the mask’s craftsmanship in the museum display case, you admire the bold expressiveness of the ritual art of Sonora. The piece is made by sewing together sheets of hide and sun-tanned cow or goat leather, on which disproportionate ears and a prominent beak-shaped or tube-shaped nose are molded, evoking spirits of the wilderness and colonial figures. The face is decorated with incised lines and mineral-based paint in red, black, and white, forming geometric motifs and cross-shaped symbols on the forehead and cheeks. From the top of the cap hang tufts of horse mane, sheep’s wool, or peccary hair that fall over the nape of the neck. The Chapayeka’s complete costume is accompanied by a woven wool blanket, a painted wooden sword, and a belt, or “riju,” fitted with deer hooves that make a rhythmic clatter with each step of the penitent. The story of how this emblematic ritual attire was gathered and added to the ethnographic collection of the National Museum of Anthropology belongs to the field research expeditions led in the 1960s by anthropologists and researchers of the INAH in the eight traditional Yaqui towns of Sonora, among them Pótam, Vícam, and Tórim. The ethnographers documented the Holy Saturday mask-burning ceremonies, the moment when the Chapayekas throw their masks onto a great pyre to purify their souls, and obtained the authorization of the traditional authorities and the Council of Elders to acquire masks that had been retired or made by master artisans for the museum’s permanent collection. Today, this Chapayeka mask shines on the upper floor of the MNA as a living testimony to the cultural resistance, devotion, and historical memory of the Yaqui people of Mexico.
+
+### retos_observacion
+
+**ES:** Monumentales orejas largas y nariz prominente moldeadas en cuero curtido de vacuno / Símbolos cruciformes y pintura geométrica de mineral rojo, blanco y negro en la faz / Mechones de crin de caballo y lana cosidos al casquete superior que caen hacia la nuca
+
+**EN:** Monumental long ears and a prominent nose molded in tanned cow leather / Cross-shaped symbols and geometric paint of red, white, and black mineral pigment on the face / Tufts of horse mane and wool sewn to the top of the cap, falling toward the nape of the neck
+
+### especificaciones
+
+**ES:** Pueblo: Yaqui (Yoeme) / Región: Valle del Río Yaqui (Sonora) / Técnica/Material: Cuero de chivo disecado, madera de chivato, pelo natural y pigmentos / Función: Parafernalia ritual de enmascaramiento para la Cuaresma y Semana Santa yaqui
+
+**EN:** People: Yaqui (Yoeme) / Region: Yaqui River Valley (Sonora) / Technique/Material: Dried goat leather, kid-goat wood, natural hair, and pigments / Function: Ritual masking paraphernalia for the Yaqui Lent and Holy Week
+
+### faq_mito
+
+**ES:** pregunta: Mito: La máscara de Chapayeka yaqui es una máscara de carnaval creada para divertir a los turistas en los desfiles. / respuesta: Realidad: Según los estudios del INAH, es una vestidura penitencial sagrada utilizada por la sociedad de Fariseos durante la Semana Santa.
+
+**EN:** pregunta: Myth: The Yaqui Chapayeka mask is a carnival mask created to entertain tourists in parades. / respuesta: Reality: According to INAH studies, it is a sacred penitential garment worn by the society of Pharisees during Holy Week.
+
+## Pieza: mna_s20_violin_raramuri
+
+### titulo
+
+**ES:** Violín y tambor ritual Rarámuri
+
+**EN:** Rarámuri Ritual Violin and Drum
+
+### frase_gancho
+
+**ES:** Madera tallada y cuero de chivo que hacen bailar estrellas.
+
+**EN:** Carved wood and goatskin that make the stars dance.
+
+### puente_narrativo
+
+**ES:** Ubicados en el sector de las altas barrancas de Chihuahua, estos instrumentos musicales articulan el ciclo festivo rarámuri. Las melodías del violín y el retumbo del tambor guían los pasos de las danzas de matachines y yumari.
+
+**EN:** Found in the high canyon country of Chihuahua, these musical instruments anchor the Rarámuri festive cycle. The melodies of the violin and the rumble of the drum guide the steps of the matachines and yumari dances.
+
+### guion_corto
+
+**ES:** Al aproximarse a la vitrina que alberga este conjunto instrumental en la Sala del Norte de México de la planta alta del museo, la calidez de las maderas de pino talladas a mano y el cuero de chivo tensionado conmueven de inmediato los sentidos. El Violín y tambor ritual Rarámuri representan las herramientas musicales sagradas por excelencia del pueblo Rarámuri o Tarahumara de la Sierra Madre Occidental de Chihuahua. Fabricado con maderas nativas de pino o mancebo talladas con navaja de bolsillo y unidas con colas naturales, el violín rarámuri adapta la forma del instrumento barroco introducido por los jesuitas en el siglo diecisiete, dotándolo de un sonido rasposo y dulce diseñado para resonar en la inmensidad de las barrancas. A su lado reposa el tambor o 'kampora', elaborado con un aro de madera flexible cubierto por dos parches de piel de chivo o venado cosidos con tiras de cuero. En la teología rarámuri, tocar el violín y el tambor durante los yúmaris y bailes de pascol y matachines no es una simple diversión social, sino una oración en movimiento que complace a Onorúame (Dios Padre) y evita el colapso del universo. Contemplar estos instrumentos en el Museo Nacional de Antropología es escuchar la voz viva de la sierra.
+
+**EN:** As you approach the display case that holds this set of instruments in the Northern Mexico Hall on the upper floor of the museum, the warmth of the hand-carved pine and the taut goatskin stirs the senses at once. The Rarámuri Ritual Violin and Drum represent the supreme sacred musical tools of the Rarámuri (Tarahumara) people of the Sierra Madre Occidental in Chihuahua. Made from native pine or mancebo wood, carved with a pocketknife and joined with natural glues, the Rarámuri violin adapts the shape of the Baroque instrument introduced by the Jesuits in the seventeenth century, giving it a rasping yet sweet sound designed to resound across the vastness of the canyons. Beside it rests the drum, or “kampora,” made from a ring of flexible wood covered with two heads of goat or deer hide sewn together with leather strips. In Rarámuri theology, playing the violin and the drum during the yúmaris and the pascol and matachines dances is not simple social entertainment, but a prayer in motion that pleases Onorúame, God the Father, and prevents the collapse of the universe. To contemplate these instruments in the National Museum of Anthropology is to hear the living voice of the sierra.
+
+### guion_largo
+
+**ES:** En las profundas y escarpadas barrancas de la Sierra Tarahumara en el estado de Chihuahua, entre los cañones del Cobre, Batopilas y Urique, el pueblo Rarámuri ('los de los pies ligeros') ha desarrollado una de las tradiciones espirituales y ecológicas más contemplativas e indestructibles de América. Para las comunidades rarámuris que habitan en rancherías dispersas entre los bosques de pino y los acantilados de piedra, la música de violín y tambor constituye el eje articulador de la vida comunitaria y de las relaciones con la naturaleza. Lejos de considerar a la música como una manifestación artística profana para el entretenimiento individual, la cultura Rarámuri concibe al violín y al tambor como instrumentos sagrados de comunicación directa con Onorúame-Iyerúame (Dios Padre y Madre). Según la tradición oral serrana, si los rarámuris dejaran de tocar el violín y de bailar el 'pascol' y el 'tutuburi', el Sol se apagaría en el firmamento y las fuerzas del caos destruirían la Tierra. Por ello, la música es la obligación cósmica suprema que sostiene el equilibrio del mundo. Al examinar con cuidado la anatomía y la manufactura de los instrumentos en la vitrina del museo, el observador atento admira la notable habilidad técnica de los luthiers o artesanos rarámuris. El violín está tallado íntegramente a mano a partir de bloques de madera de pino criollo o encino, pulido con lija vegetal y ensamblado con resinas de orquídea o brea de pino. El mástil, las clavijas, el puente y la caja de resonancia presentan una geometría rústica pero de impecable precisión acústica. Las cuerdas, antiguamente hechas de tripas secas de animal o hilos de ixtle y hoy día de alambre delgado, son frotadas con un arco de madera curva tensado con crines de caballo untadas con brea de ocote. Acompañando al violín se encuentra el tambor de doble parche: su aro de madera de táscate se encuentra cubierto por piel de chivo o venado sin depilar por completo, sujeto mediante un intrincado trenzado de cordones de cuero que permiten ajustar la tensión del parche según la humedad de la barranca. La historia del acopio e incorporación de este conjunto instrumental al acervo etnográfico del Museo Nacional de Antropología se enmarca en los proyectos de investigación antropológica conducidos en la década de 1960 por etnógrafos del INAH en municipios como Norogachi, Guachochi y Bocoyna. Los investigadores documentaron los bailes ceremoniales de Yúmari, la Fiesta de la Candela y la Semana Santa Rarámuri, adquiriendo violines y tambores directamente de las manos de los músicos o 'fiddlers' comunitarios de la sierra. La exhibición permanente de este violín y tambor en la planta alta del MNA rinde tributo a la devoción, al arte de la luthería popular y a la resistencia cultural del pueblo Rarámuri de Chihuahua.
+
+**EN:** In the deep, rugged canyons of the Sierra Tarahumara in the state of Chihuahua, among the Copper, Batopilas and Urique canyons, the Rarámuri, “the light-footed ones,” have developed one of the most contemplative and indestructible spiritual and ecological traditions in the Americas. For the Rarámuri communities who live in scattered hamlets among pine forests and stone cliffs, the music of the violin and the drum is the axis of community life and of relations with nature. Far from regarding music as a profane artistic expression for individual entertainment, Rarámuri culture conceives of the violin and the drum as sacred instruments for direct communication with Onorúame-Iyerúame, God the Father and Mother. According to the oral tradition of the sierra, if the Rarámuri stopped playing the violin and dancing the “pascol” and the “tutuburi,” the Sun would go out in the firmament and the forces of chaos would destroy the Earth. For this reason, music is the supreme cosmic obligation that sustains the balance of the world. By carefully examining the anatomy and craftsmanship of the instruments in the museum display case, the attentive observer admires the remarkable technical skill of the Rarámuri luthiers, or craftsmen. The violin is carved entirely by hand from blocks of native pine or oak, polished with plant-based sandpaper and assembled with orchid resins or pine pitch. The neck, the pegs, the bridge and the sound box show a rustic geometry of impeccable acoustic precision. The strings, once made from dried animal gut or ixtle fibers and today from thin wire, are rubbed with a curved wooden bow strung with horsehair coated in ocote pitch. Accompanying the violin is the double-headed drum: its juniper wood ring is covered with goat or deer hide that has not been completely stripped of hair, and it is held in place by an intricate weave of leather cords that allow the tension of the head to be adjusted according to the humidity of the canyon. The story of how this set of instruments was gathered and added to the ethnographic collection of the National Museum of Anthropology is part of the anthropological research projects carried out in the 1960s by INAH ethnographers in municipalities such as Norogachi, Guachochi and Bocoyna. The researchers documented the ceremonial Yúmari dances, the Candlemas festival and the Rarámuri Holy Week, acquiring violins and drums directly from the hands of the musicians, or community “fiddlers,” of the sierra. The permanent exhibition of this violin and drum on the upper floor of the MNA pays tribute to the devotion, the art of folk lutherie and the cultural resistance of the Rarámuri people of Chihuahua.
+
+### retos_observacion
+
+**ES:** Caja de resonancia y mástil del violín tallados a mano en madera de pino de la sierra / Parches de piel de chivo tensados con cordones de cuero en el tambor ritual / Arco de madera curva con hilera de crines de caballo untadas con brea de ocote
+
+**EN:** Sound box and neck of the violin, hand-carved from sierra pine wood / Goatskin drumheads stretched with leather cords on the ritual drum / Curved wooden bow with a row of horsehair coated in ocote pitch
+
+### especificaciones
+
+**ES:** Pueblo: Rarámuri (Tarahumara) / Región: Sierra Madre Occidental / Barrancas del Cobre (Chihuahua) / Técnica/Material: Madera de pino/fresno tallada a mano, piel de chivo y colas vegetales / Función: Instrumentos musicales litúrgicos para danzas ceremoniales (matachines y yumari)
+
+**EN:** People: Rarámuri / Region: Sierra Madre Occidental / Copper Canyon (Chihuahua) / Technique/Material: Hand-carved pine/ash wood, goatskin and plant-based glues / Function: Liturgical musical instruments for ceremonial dances (matachines and yumari)
+
+> Aviso: el glosario pide "Tarahumara" para "Tarahumara" y no aparece
+
+### faq_mito
+
+**ES:** pregunta: Mito: El violín rarámuri es una copia idéntica de un violín de orquesta europea traído en barcos modernos. / respuesta: Realidad: Según los estudios del INAH, es una adaptación nativa autóctona tallada a mano en pino serrano para ritos cosmogónicos.
+
+**EN:** pregunta: Myth: The Rarámuri violin is an identical copy of a European orchestral violin brought over on modern ships. / respuesta: Reality: According to INAH studies, it is a native adaptation, hand-carved from sierra pine for cosmogonic rites.
+
+## Pieza: mna_s20_corita_seri
+
+### titulo
+
+**ES:** Corita tradicional Comcaac / Seri tipo Sëptim
+
+**EN:** Traditional Comcaac (Seri) Sëptim-Type Basket
+
+### frase_gancho
+
+**ES:** Cesta dorada de torote que guarda el desierto y mar.
+
+**EN:** A golden limberbush basket that holds the desert and the sea.
+
+### puente_narrativo
+
+**ES:** Avanzando hacia las dunas y la costa del Golfo de California, esta monumental canasta de torote ejemplifica el conocimiento botánico de las mujeres Comcaac. La pieza teje en espiral los símbolos del desierto sonorense.
+
+**EN:** As you move toward the dunes and the coast of the Gulf of California, this monumental limberbush basket exemplifies the botanical knowledge of Comcaac women. The piece weaves the symbols of the Sonoran Desert into a spiral.
+
+> Aviso: el glosario pide "Gulf Coast" para "Costa del Golfo" y no aparece
+
+### guion_corto
+
+**ES:** Al detenerse ante la vitrina que resguarda este tejido circular en la Sala del Norte de México de la planta alta del museo, la perfección de las espirales doradas y la densidad del tejido cautivan de inmediato los sentidos. La Corita tradicional Comcaac / Seri tipo Sëptim representa una de las cumbres artesanales de la cestería fina de los pueblos originarios del desierto sonorense. Elaborada paciente y laboriosamente por las mujeres del pueblo Comcaac (Seri) de Punta Chueca y Desemboque en el Golfo de California, esta cesta plato de gran formato está confeccionada utilizando las fibras flexibles del arbusto del torote o palo blanco (Jatropha cuneata). El proceso exige meses o incluso años de trabajo continuo: la artesana desfibra con los dientes las varas del torote, las tiñe con pigmentos naturales extraídos de cortezas de árboles y raíces del desierto, y teje las hebras en un espiral continuo mediante la técnica de enrollado con un punzón de hueso de venado. En la cultura Comcaac, la corita tipo Sëptim no es un simple recipiente doméstico, sino un objeto ceremonial de gran prestigio que simboliza la abundancia, la fertilidad y la alianza comunitaria. Contemplarla en el MNA es admirar la ciencia vegetal del desierto.
+
+**EN:** As you stop before the display case that protects this circular weaving in the Northern Mexico Hall on the upper floor of the museum, the perfection of the golden spirals and the density of the weave captivate the senses at once. The Traditional Comcaac Sëptim-Type Basket represents one of the crafting summits of the fine basketry of the Indigenous peoples of the Sonoran Desert. Made patiently and painstakingly by the women of the Comcaac people of Punta Chueca and Desemboque on the Gulf of California, this large plate-shaped basket is crafted from the flexible fibers of the limberbush shrub, also called white wood, Jatropha cuneata. The process demands months or even years of continuous work: the artisan strips the limberbush rods with her teeth, dyes them with natural pigments drawn from tree bark and desert roots, and weaves the strands into a continuous spiral using the coiling technique with a deer-bone awl. In Comcaac culture, the Sëptim-type basket is not a mere household container, but a highly prestigious ceremonial object that symbolizes abundance, fertility, and communal alliance. To contemplate it at the MNA is to admire the plant science of the desert.
+
+> Aviso: el glosario pide "Seri" para "Seri" y no aparece
+
+### guion_largo
+
+**ES:** En las áridas y luminosas costas del desierto de Sonora que se asoman al Golfo de California y a la gran Isla Tiburón, el pueblo Comcaac o Seri ha resguardado a lo largo de milenios una de las culturas nómadas costeras y cazadoras-recolectoras más singulares e indestructibles del continente americano. Perfeccionando un conocimiento biocultural prodigioso sobre la flora silvestre y la fauna marina de la región, las mujeres Comcaac desarrollaron la tradición cestera de las 'coritas', consideradas por los especialistas en textiles y artes populares como una de las expresiones de cestería más finas, bellas y resistentes del planeta. Entre las diversas formas que adoptan las cestas tradicionales, la corita de tipo Sëptim o plato cóncavo de gran diámetro destaca por su refinamiento estético y por el extraordinario valor ceremonial que posee en la vida de la comunidad. Fabricar una corita de gran formato requiere que la artesana camine decenas de kilómetros por el desierto para seleccionar las mejores ramas del arbusto de torote prieto, el cual es procesado con una paciencia infinita utilizando las manos y los dientes para obtener tiras delgadas e impermeables. Al examinar con cuidado la estructura física y la decoración de la corita en la vitrina del museo, el observador atento admira la densidad matemática del tejido por enrollado. La cesta se construye a partir de un núcleo central en espiral alrededor del cual se van cosiendo miles de puntadas apretadas con tiras de torote. Para lograr los motivos decorativos en tonos café rojizo y negro, la artesana tiñe parte de las fibras sumergiéndolas en infusiones elaboradas con la corteza molida del árbol del cosahui (Krameria grayi) o con pigmentos minerales del desierto. Los diseños geométricos que emergen del centro de la corita despliegan patrones de estrellas, dunas de arena, espinas de cactus, huellas de tortuga marina caguama y vientos marinos que bendicen el hogar. La rigidez estructural de la cesta es tal que, al ser terminada de tejer de forma tupida, la corita puede contener líquidos ceremoniales y granos sin derramar una sola gota. La historia del acopio e integración de esta Corita Seri al acervo etnográfico del Museo Nacional de Antropología se enmarca en las expediciones de investigación antropológica coordinadas en la década de 1960 por etnógrafos e investigadores del INAH en las comunidades seris de Punta Chueca y El Desemboque de los Ríos. Los antropólogos del museo documentaron las ceremonias tradicionales de la Fiesta de la Cahuama y del Año Nuevo Seri, adquiriendo coritas históricas tipo Sëptim elaboradas por renombradas maestras cesteras de la tribu. La exhibición permanente de esta corita en la planta alta del MNA permite a los visitantes de todo el orbe valorar la sabiduría botánica, la paciencia infinita y el arte impecable de las mujeres del pueblo Comcaac de Sonora.
+
+**EN:** On the arid, luminous coasts of the Sonoran Desert that look out over the Gulf of California and the great Tiburón Island, the Comcaac or Seri people have safeguarded for millennia one of the most singular and indestructible coastal nomadic, hunter-gatherer cultures of the American continent. Perfecting a prodigious biocultural knowledge of the wild flora and marine fauna of the region, Comcaac women developed a basketry tradition whose baskets are considered by specialists in textiles and folk arts to be among the finest, most beautiful, and most resilient expressions of basketry on the planet. Among the diverse forms that traditional baskets take, the Sëptim-type basket, a concave plate of large diameter, stands out for its aesthetic refinement and for the extraordinary ceremonial value it holds in the life of the community. Making a large basket requires the artisan to walk dozens of kilometers through the desert to select the best branches of the dark limberbush shrub, which is processed with infinite patience, using hands and teeth to obtain thin, waterproof strips. When you carefully examine the physical structure and decoration of the basket in the museum display case, you can admire the mathematical density of the coiled weave. The basket is built from a central spiral core around which thousands of tight stitches are sewn with limberbush strips. To achieve the decorative motifs in reddish brown and black tones, the artisan dyes some of the fibers by soaking them in infusions made from the ground bark of the white ratany tree, Krameria grayi, or with mineral pigments from the desert. The geometric designs that emerge from the center of the basket unfold patterns of stars, sand dunes, cactus thorns, loggerhead sea turtle tracks, and ocean winds that bless the home. The structural rigidity of the basket is such that, once finished with a dense weave, it can hold ceremonial liquids and grains without spilling a single drop. The story of how this Seri basket was gathered and added to the ethnographic collection of the National Museum of Anthropology is part of the anthropological research expeditions coordinated in the 1960s by ethnographers and researchers of the INAH in the Seri communities of Punta Chueca and El Desemboque de los Ríos. The museum’s anthropologists documented the traditional ceremonies of the Loggerhead Turtle Festival and the Seri New Year, acquiring historic Sëptim-type baskets made by renowned master basket weavers of the tribe. The permanent display of this basket on the upper floor of the MNA allows visitors from all over the world to appreciate the botanical wisdom, the infinite patience, and the impeccable art of the women of the Comcaac people of Sonora.
+
+### retos_observacion
+
+**ES:** Geometría en espiral continua tejida con tiras finas de la planta de torote / Motivos geométricos en tono café rojizo teñidos con raíz de la planta de cosahui / Densidad apretada de las puntadas hechas con punzón de hueso de venado
+
+**EN:** Continuous spiral geometry woven with fine strips of the limberbush plant / Reddish-brown geometric motifs dyed with the root of the white ratany plant / Tightly packed stitches made with a deer-bone awl
+
+### especificaciones
+
+**ES:** Pueblo: Comcaac (Seri) / Región: Costa del Desierto de Sonora (Punta Chueca y El Desemboque / Isla Tiburón) / Técnica/Material: Fibra de torote blando (Jatropha cuneata), tinte vegetal de torote prieto y pulido / Función: Cestería sagrada, contenedor de semillas, recolección marina y arte suntuario tradicional
+
+**EN:** People: Comcaac / Region: Sonoran Desert Coast (Punta Chueca and El Desemboque / Tiburón Island) / Technique/Material: Soft limberbush fiber (Jatropha cuneata), plant dye from dark limberbush, and burnishing / Function: Sacred basketry, seed container, marine gathering, and traditional sumptuary art
+
+> Aviso: el glosario pide "Sonora" para "Sonora" y no aparece
+
+> Aviso: el glosario pide "Seri" para "Seri" y no aparece
+
+### faq_mito
+
+**ES:** pregunta: Mito: La corita seri es una cesta de paja tejida con fibras sintéticas importadas de Asia para venta turística. / respuesta: Realidad: Según los peritajes del INAH, es una cestería tradicional de torote silvestre tejida a mano con raíces y tintes del desierto.
+
+**EN:** pregunta: Myth: The Seri basket is a straw basket woven with synthetic fibers imported from Asia for the tourist trade. / respuesta: Reality: According to INAH expert appraisals, it is a traditional basketry made of wild limberbush, hand-woven with desert roots and dyes.
+
+## Pieza: mna_s20_palo_fierro
+
+### titulo
+
+**ES:** Escultura comunitaria tallada en madera de Palo Fierro
+
+**EN:** Community Sculpture Carved in Ironwood
+
+### frase_gancho
+
+**ES:** Madera densa del desierto tallada con figura de serpiente.
+
+**EN:** Dense desert wood carved into the figure of a serpent.
+
+### puente_narrativo
+
+**ES:** Para concluir el recorrido por la Sala 20, esta fina escultura en madera desértica rinde tributo a las criaturas sagradas del Mar de Cortés y del desierto de Sonora. Los artesanos Comcaac transformaron el palo fierro en obra maestra.
+
+**EN:** To conclude the tour of Hall 20, this fine desert-wood sculpture pays tribute to the sacred creatures of the Sea of Cortez and the Sonoran Desert. The Comcaac artisans transformed ironwood into a masterpiece.
+
+> Aviso: el glosario pide "Sonora" para "Sonora" y no aparece
+
+### guion_corto
+
+**ES:** Al aproximarse a la vitrina que alberga esta resplandeciente figura zoológica en la Sala del Norte de México de la planta alta del museo, la densidad pulida del veteado oscuro y el brillo satinado de la madera capturan de inmediato los sentidos. La Escultura comunitaria tallada en madera de Palo Fierro representa una de las manifestaciones artísticas tradicionales más emblemáticas del desierto de Sonora, creada por artesanos de los pueblos Comcaac (Seri) y Yaqui. Esculpida sobre la densa y pesada madera del árbol de palo fierro (Olneya tesota) —una de las maderas más duras del mundo que no flota en el agua—, esta escultura retrata la figura estilizada de un animal sagrado del entorno desertícola y marino, como la tortuga caguama, el pez vela, el águila cabeza blanca, el venado o la serpiente de cascabel. El proceso de labrado exige machete, escofina y limas para cortar la madera dura, seguido de un intenso pulido a mano con grasa de tortuga o cera y pulimiento con franela limpia hasta obtener un acabado suave espejo. Contemplar esta escultura en el Museo Nacional de Antropología es admirar el triunfo del arte nativo sobre el desierto.
+
+**EN:** As you approach the display case that holds this gleaming animal figure in the Northern Mexico Hall on the Upper Floor of the museum, the polished density of the dark grain and the satin sheen of the wood immediately captivate the senses. The Community Sculpture Carved in Ironwood represents one of the most emblematic traditional art forms of the Sonoran Desert, created by artisans of the Comcaac (Seri) and Yaqui peoples. Sculpted from the dense, heavy wood of the ironwood tree, Olneya tesota, one of the hardest woods in the world and one that does not float in water, this sculpture portrays the stylized figure of a sacred animal of the desert and marine environment, such as the loggerhead turtle, the sailfish, the bald eagle, the deer or the rattlesnake. The carving process calls for a machete, a rasp and files to cut the hard wood, followed by intensive hand polishing with turtle fat or wax and buffing with a clean flannel until a smooth, mirror-like finish is achieved. To contemplate this sculpture in the National Museum of Anthropology is to admire the triumph of native art over the desert.
+
+> Aviso: el glosario pide "Sonora" para "Sonora" y no aparece
+
+### guion_largo
+
+**ES:** En el árido y fascinante ecosistema del desierto sonorense, donde las temperaturas extremas y la aridez del suelo moldean la flora silvestre, el árbol de palo fierro o pasaak en lengua seri constituye una de las especies vegetales más veneradas, resistentes, hermosas e insustituibles de la geografía del norte de México. Con ejemplares centenarios que pueden superar los quinientos años de vida, el palo fierro posee una madera de una densidad y dureza extraordinarias, caracterizada por un corazón de color café oscuro azabache y vetas doradas rojizas que le otorgan una belleza mineral incomparable. En la segunda mitad del siglo veinte, el insigne artesano seri José Astorga inició la tradición comunitaria de esculpir la madera de palo fierro utilizando herramientas de mano para dar forma a las criaturas míticas y faunísticas que habitan en la memoria histórica de su pueblo y en las aguas del Golfo de California. Lo que comenzó como una labor artesanal familiar se transformó rápidamente en una prestigiosa escuela escultórica comunitaria adaptada por creadores Comcaac, Yaquis y Mayos de todo el estado de Sonora. Al analizar con cuidado los volúmenes y la superficie de la escultura en la vitrina del museo, el observador atento admira la fluidez orgánica con la que el escultor extrajo la figura de la madera rígida. La pieza presenta una silueta aerodinámica y estilizada que aprovecha las vetas naturales del palo fierro para resaltar la anatomía del animal: los tonos oscuros del centro de la madera definen el lomo o concha del espécimen, mientras que las vetas más claras de la albura acentúan las aletas, la cabeza y el vientre de la criatura. La superficie no está recubierta por barnices sintéticos industriales ni lacas químicas, sino que su brillo lustroso y satinado se logra mediante el frotado paciente de la madera pulida con cera de abeja o aceites naturales utilizando paños de algodón, técnica tradicional que resalta la calidez suave al tacto y el aroma resinoso de la madera del desierto. La historia del acopio e integración de esta escultura comunitaria de palo fierro al acervo etnográfico del Museo Nacional de Antropología forma parte de los proyectos de investigación sobre arte popular e industrias comunitarias impulsados por el INAH en el norte de México a partir de la década de 1970. Los antropólogos visitaron los talleres artesanales de Punta Chueca, Kino y Hermosillo, seleccionando esculturas de valor estético excepcional talladas por célebres maestros artesanos Comcaac y Yaquis. La exhibición permanente de esta escultura en la planta alta del MNA permite a los visitantes de todo el mundo rendir homenaje a la creatividad, la maestría técnica y el profundo amor por la fauna silvestre que caracteriza a los pueblos indígenas del estado de Sonora.
+
+**EN:** In the arid and fascinating ecosystem of the Sonoran Desert, where extreme temperatures and parched soil shape the wild flora, the ironwood tree, known as pasaak in the Seri language, is one of the most revered, resilient, beautiful and irreplaceable plant species in the geography of Northern Mexico. With centuries-old specimens that can exceed five hundred years of life, ironwood has wood of extraordinary density and hardness, marked by a jet-dark brown heartwood and reddish golden veins that give it an incomparable mineral beauty. In the second half of the twentieth century, the renowned Seri craftsman José Astorga began the community tradition of sculpting ironwood with hand tools to give form to the mythical and animal creatures that live in the historical memory of his people and in the waters of the Gulf of California. What began as a family craft quickly became a prestigious community school of sculpture, adopted by Comcaac, Yaqui and Mayo creators throughout the state of Sonora. As you carefully study the volumes and surface of the sculpture in the museum display case, the attentive observer admires the organic fluidity with which the sculptor drew the figure out of the rigid wood. The piece has a streamlined, stylized silhouette that makes use of the natural grain of the ironwood to highlight the animal’s anatomy: the dark tones from the center of the wood define the back or shell of the specimen, while the lighter grain of the sapwood accentuates the creature’s fins, head and belly. The surface is not covered with industrial synthetic varnishes or chemical lacquers; instead, its lustrous, satin sheen is achieved by patiently rubbing the polished wood with beeswax or natural oils using cotton cloths, a traditional technique that brings out the soft warmth to the touch and the resinous aroma of the desert wood. The story of how this community ironwood sculpture was gathered and added to the ethnographic collection of the National Museum of Anthropology is part of the research projects on folk art and community industries promoted by INAH in Northern Mexico from the 1970s onward. Anthropologists visited the craft workshops of Punta Chueca, Kino and Hermosillo, selecting sculptures of exceptional aesthetic value carved by renowned Comcaac and Yaqui master artisans. The permanent exhibition of this sculpture on the Upper Floor of the MNA allows visitors from all over the world to pay tribute to the creativity, technical mastery and deep love for wildlife that characterize the Indigenous peoples of the state of Sonora.
+
+### retos_observacion
+
+**ES:** Brillo satinado y textura suave lograda mediante el pulido a mano con cera natural / Veteado contrastante entre el corazón oscuro café azabache y las alburas doradas / Silueta estilizada y aerodinámica de la figura faunística tallada a mano
+
+**EN:** Satin sheen and smooth texture achieved by hand polishing with natural wax / Contrasting grain between the dark jet-brown heartwood and the golden sapwood / Stylized, streamlined silhouette of the hand-carved animal figure
+
+### especificaciones
+
+**ES:** Pueblo: Comcaac (Seri) / Región: Costa del Desierto de Sonora (Punta Chueca y Desemboque, Sonora) / Técnica/Material: Madera inerte de palo fierro (Olneya tesota) tallada a mano, lijada y bruñida con cera / Función: Escultura artística contemporánea, representación zoomorfa sagrada y sustento económico
+
+**EN:** People: Comcaac / Region: Coast of the Sonoran Desert (Punta Chueca and Desemboque, Sonora) / Technique/Material: Inert ironwood (Olneya tesota), hand-carved, sanded and burnished with wax / Function: Contemporary artistic sculpture, sacred zoomorphic representation and economic livelihood
+
+> Aviso: el glosario pide "Seri" para "Seri" y no aparece
+
+### faq_mito
+
+**ES:** pregunta: Mito: La escultura de palo fierro sonorense es un souvenir moldeado en plástico o resina industrial de fábrica. / respuesta: Realidad: Según los análisis del INAH, es una obra escultórica artesanal labrada a mano en madera densa de Olneya tesota.
+
+**EN:** pregunta: Myth: The Sonoran ironwood sculpture is a souvenir molded from plastic or factory-made industrial resin. / respuesta: Reality: According to INAH analyses, it is a handcrafted sculptural work carved by hand from the dense wood of Olneya tesota.
+
+## Pieza: mna_s06_penacho_moctezuma
+
+### titulo
+
+**ES:** Réplica del Tocado de Plumas de Quetzal / Penacho de Moctezuma
+
+**EN:** Replica of the Quetzal Feather Headdress / Headdress of Moctezuma
+
+### frase_gancho
+
+**ES:** Una réplica de plumas y oro de un tocado del imperio mexica.
+
+**EN:** A replica in feathers and gold of a headdress from the Mexica empire.
+
+### puente_narrativo
+
+**ES:** Cerramos con el arte de las plumas, que llegaban a la ciudad desde tierras lejanas, en una pieza que no es el original sino una réplica.
+
+**EN:** We close with the art of feathers, which reached the city from distant lands, in a piece that is not the original but a replica.
+
+### guion_corto
+
+**ES:** El original de este penacho está en Viena, en el Weltmuseum, no en México. Lo que ves es una réplica elaborada en el siglo veinte del tocado de plumas de quetzal que se conoce como Penacho de Moctezuma. Está hecha con plumas de quetzal, cotinga azulejo, espátula rosada y águila. Las plumas van sobre un armazón de varillas y una red de fibra textil, con aplicaciones de láminas de oro. Su forma es la de un abanico semicircular. Representa la cima del arte plumario de Tenochtitlan, el trabajo de los amantecas, los artesanos de las plumas. Era un tocado de gala de los gobernantes y de los sumos sacerdotes, que lo lucían en las ceremonias de mayor jerarquía política y religiosa. Esta réplica permite imaginar cómo se veía el original, con todo su brillo.
+
+**EN:** The original of this headdress is in Vienna, at the Weltmuseum, not in Mexico. What you see is a twentieth-century replica of the quetzal feather headdress known as the Headdress of Moctezuma. It is made with feathers of the quetzal, the lovely cotinga, the roseate spoonbill, and the eagle. The feathers are set on a frame of thin rods and a net of textile fiber, with gold sheet appliqués. Its shape is that of a semicircular fan. It represents the peak of feather art in Tenochtitlan, the work of the amanteca, the feather artisans. It was a ceremonial headdress of rulers and high priests, who wore it at ceremonies of the highest political and religious rank. This replica lets you imagine how the original looked, in all its brilliance.
+
+### guion_largo
+
+**ES:** Lo que ves aquí es una réplica, no el original. El tocado prehispánico se conserva en el Weltmuseum de Viena, en Austria, y esta versión se elaboró en el siglo veinte. Su nombre completo es Réplica del Tocado de Plumas de Quetzal, y se le conoce como el Penacho de Moctezuma. Con ese nombre lo conoce casi todo el mundo. Su valor está en lo que representa: el brillo y la jerarquía de los gobernantes mexicas. /  / Para hacerla se reunieron plumas de quetzal, de cotinga azulejo, de espátula rosada y de águila. Las plumas están montadas sobre un armazón de varillas y una red de fibra textil. Además lleva aplicaciones de láminas de oro. Con esa mezcla se busca reproducir la distribución de los colores y el brillo del original. La forma general es la de un abanico semicircular. /  / El original pertenece al arte plumario, el trabajo de los amantecas. Eran los artesanos de las plumas de Tenochtitlan, y su oficio se consideraba la cima de las artes. Un tocado así era una insignia de gala. La portaban los gobernantes y los sumos sacerdotes en las ceremonias de más alta jerarquía política y religiosa. /  / Fíjate en cómo se combinan los colores. Hay verde del quetzal, azul de la cotinga, rosa de la espátula y el brillo del oro. Una pieza así exige paciencia, porque cada pluma se ordena y se sujeta una por una. /  / Es una réplica, sí, pero permite imaginar el esplendor del original.
+
+**EN:** What you see here is a replica, not the original. The pre-Hispanic headdress is preserved in the Weltmuseum in Vienna, Austria, and this version was made in the twentieth century. Its full name is Replica of the Quetzal Feather Headdress, and it is known as the Headdress of Moctezuma. Almost everyone knows it by that name. Its value lies in what it represents: the brilliance and rank of the Mexica rulers. /  / To make it, feathers of the quetzal, the lovely cotinga, the roseate spoonbill, and the eagle were gathered. The feathers are mounted on a frame of thin rods and a net of textile fiber. It also has gold sheet appliqués. With this mixture, the aim is to reproduce the arrangement of the colors and the brilliance of the original. The overall shape is that of a semicircular fan. /  / The original belongs to feather art, the work of the amanteca. They were the feather artisans of Tenochtitlan, and their craft was considered the peak of the arts. A headdress like this was a ceremonial insignia. It was worn by rulers and high priests at ceremonies of the highest political and religious rank. /  / Notice how the colors are combined. There is the green of the quetzal, the blue of the cotinga, the pink of the spoonbill, and the shine of gold. A piece like this demands patience, because each feather is arranged and fastened one by one. /  / It is a replica, yes, but it lets you imagine the splendor of the original.
+
+### retos_observacion
+
+**ES:** Distingue las plumas de colores distintos que forman el tocado. / Busca las aplicaciones de oro entre las plumas. / Fíjate en la forma de abanico semicircular del conjunto.
+
+**EN:** Tell apart the feathers of different colors that make up the headdress. / Look for the gold appliqués among the feathers. / Notice the semicircular fan shape of the whole piece.
+
+### especificaciones
+
+**ES:** Cultura: Mexica / Periodo: Posclásico Tardío (1325-1521 d.C.); réplica elaborada en el siglo XX / Material: Plumas de quetzal, cotinga azulejo, espátula rosada y águila, sobre un armazón de varillas y red de fibra textil, con aplicaciones de láminas de oro / Procedencia: Tenochtitlan, Cuenca de México (el ejemplar prehispánico original se conserva en el Weltmuseum de Viena, Austria)
+
+**EN:** Culture: Mexica / Period: Late Postclassic (1325-1521 AD); replica made in the twentieth century / Material: Feathers of the quetzal, lovely cotinga, roseate spoonbill, and eagle, on a frame of thin rods and a net of textile fiber, with gold sheet appliqués / Origin: Tenochtitlan, Basin of Mexico (the original pre-Hispanic piece is preserved in the Weltmuseum in Vienna, Austria)
+
+### faq_mito
+
+**ES:** pregunta: Mito: El penacho de la sala es el que usó Moctezuma. / respuesta: Realidad: Es una réplica elaborada en el siglo veinte. El tocado prehispánico original se conserva en el Weltmuseum de Viena, Austria.
+
+**EN:** pregunta: Myth: The headdress in the hall is the one Moctezuma wore. / respuesta: Reality: It is a replica made in the twentieth century. The original pre-Hispanic headdress is preserved in the Weltmuseum in Vienna, Austria.
+
+## Pieza: mna_s21_huipil_nahua
+
+### titulo
+
+**ES:** Huipil tradicional Nahua de la Huasteca Hidalguense
+
+**EN:** Traditional Nahua huipil from the Huasteca of Hidalgo
+
+### frase_gancho
+
+**ES:** Lienzo de algodón bordado donde la flor de milpa florece.
+
+**EN:** An embroidered cotton cloth where the milpa flower blooms.
+
+### puente_narrativo
+
+**ES:** Avanzando por los valles y sierras nahuas, este fino huipil de la Huasteca expresa la identidad cotidiana y la memoria gráfica de las mujeres macehualmej.
+
+**EN:** Moving through the Nahua valleys and mountains, this fine huipil from the Huasteca expresses the everyday identity and the graphic memory of Macehual women.
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### guion_corto
+
+**ES:** Al situarse ante la vitrina que alberga este colorido lienzo textil en la Sala de la Costa del Golfo y Puebla de la planta alta del museo, la intensidad cromática de los bordados y la frescura de la manta de algodón blanco cautivan de inmediato los sentidos. El Huipil tradicional Nahua de la Huasteca Hidalguense representa una de las expresiones indumentarias y simbólicas más bellas de las mujeres masehualmej del oriente de Hidalgo. Confeccionado a mano sobre tela de manta fina de algodón, este huipil de corte recto destaca por sus vistosos bordados en punto de cruz e hilván elaborados con hilazas de colores encendidos como el rojo carmín, rosa mexicano, naranja, verde y azul turquesa. La pechera, las mangas y el escote cuadrado exhiben un tupido universo gráfico poblado por flores del campo, aves místicas, enredaderas y figuras estilizadas del maíz tierno. En la cosmogonía nahua de la Huasteca, vestir este huipil en las bodas, bautizos y festividades de Xantolo es un acto de comunicación espiritual con la Madre Tierra y los antepasados que velan por la milpa. Contemplar esta prenda en el Museo Nacional de Antropología es admirar la alegría textil y la dignidad masehual de Hidalgo.
+
+**EN:** Standing before the display case that holds this colorful textile in the Gulf Coast and Puebla Hall on the Upper Floor of the museum, you are immediately captivated by the intensity of the embroidered colors and the freshness of the white cotton cloth. The Traditional Nahua huipil from the Huasteca of Hidalgo is one of the most beautiful expressions of dress and symbolism created by the Macehual women of eastern Hidalgo. Made by hand on fine cotton muslin, this straight-cut huipil stands out for its showy cross-stitch and basting-stitch embroidery, worked in brightly colored yarns such as carmine red, Mexican pink, orange, green, and turquoise blue. The chest panel, the sleeves, and the square neckline display a dense graphic world filled with wildflowers, mystical birds, climbing vines, and stylized figures of young maize. In the Nahua cosmogony of the Huasteca, wearing this huipil at weddings, baptisms, and Xantolo festivities is an act of spiritual communication with Mother Earth and with the ancestors who watch over the milpa. To contemplate this garment in the National Museum of Anthropology is to admire the joy of textile art and the Macehual dignity of Hidalgo.
+
+### guion_largo
+
+**ES:** En la húmeda y exuberante geografía de la Huasteca hidalguense, en municipios como Huejutla de Reyes, Yahualica, Huautla, Jaltocán y Atlapexco, la población nahua o masehual ha resguardado a lo largo de siglos una de las identidades culturales y lingüísticas de mayor riqueza e impacto comunitario del Altiplano Central y de la Costa del Golfo. En la estructura social nahua, la mujer ocupa una posición central como guardiana del hogar, transmisora de la lengua materna náhuatl y creadora del acervo indumentario que viste a la comunidad durante las solemnidades agrícolas y religiosas. Para las tejedoras y bordadoras masehualmej, la elaboración del huipil es una tarea sagrada en la que se entrelazan la destreza manual, el conocimiento de la botánica nativa y la memoria mitológica heredada de sus abuelas. Portar el huipil tradicional no es una simple costumbre diaria de abrigo, sino un acto consciente de afirmación cultural y respeto ante los altares de los santos y de los espíritus del monte. Al inspeccionar con detenimiento la composición y los acabados del huipil en la vitrina del museo, el observador atento admira la virtuosa técnica del bordado a mano. La prenda se compone de dos o tres lienzos rectangulares de manta fina de algodón blanco unidos mediante costuras ricas con hilos multicolores. El escote cuadrado y los hombros están saturados por franjas de bordados tupidos en punto de cruz e hilván, destacando motivos geométricos de la flor de cempasúchil, guías de enredaderas, palomas del monte y pavos reales que simbolizan la fertilidad de la naturaleza y la llegada de las lluvias bienhechoras sobre los maizales. La pechera despliega en su centro la figura estilizada de la estrella matutina o sol naciente, rodeada por cenefas cuadrangulares que señalan los cuatro rumbos del cosmos y el centro cosmogónico del hogar. Los bordes de las mangas e inferior de la prenda están rematados con delicados encajes tejidos a mano en ganchillo o puntilla. La historia del acopio e integración de esta icónica prenda textil al acervo etnográfico del Museo Nacional de Antropología se enmarca en las expediciones de investigación antropológica conducidas a mediados del siglo veinte por etnógrafos del INAH en la Huasteca Hidalguense. Los especialistas del museo documentaron las distintas variantes del huipil nahua de las tierras altas y bajas de Hidalgo, adquirieron piezas históricas directamente de manos de las maestras bordadoras de los tianguis comunitarios de Huejutla y Jaltocán para la inauguración de las galerías etnográficas en 1964. La exhibición permanente de este huipil en la planta alta del MNA permite a miles de visitantes nacionales e internacionales rendir homenaje a la elegancia, el arte textil y la incansable fortaleza cultural de las mujeres del pueblo Nahua de la Huasteca de México.
+
+**EN:** In the humid, lush geography of the Huasteca region of Hidalgo, in municipalities such as Huejutla de Reyes, Yahualica, Huautla, Jaltocán, and Atlapexco, the Nahua, or Macehual, population has safeguarded for centuries one of the richest and most communally influential cultural and linguistic identities of the Central Highlands and the Gulf Coast. In Nahua social structure, women hold a central position as guardians of the home, transmitters of the Nahuatl mother tongue, and creators of the body of garments that clothes the community during agricultural and religious solemnities. For Macehual weavers and embroiderers, making the huipil is a sacred task in which manual skill, knowledge of native botany, and the mythological memory inherited from their grandmothers are woven together. Wearing the traditional huipil is not a simple daily habit of keeping warm, but a conscious act of cultural affirmation and of respect before the altars of the saints and the spirits of the mountain. As you look closely at the composition and finishing of the huipil in the museum display case, the attentive observer admires the virtuosic technique of hand embroidery. The garment is made of two or three rectangular panels of fine white cotton muslin, joined by rich seams in multicolored threads. The square neckline and the shoulders are saturated with bands of dense cross-stitch and basting-stitch embroidery, with geometric motifs of the marigold flower, vine tendrils, mountain doves, and peacocks that symbolize the fertility of nature and the arrival of the beneficial rains over the cornfields. At the center of the chest panel appears the stylized figure of the morning star, or rising sun, surrounded by quadrangular borders that mark the four directions of the cosmos and the cosmogonic center of the home. The edges of the sleeves and the hem of the garment are finished with delicate lace woven by hand in crochet or edging stitch. The history of how this iconic textile garment was gathered and added to the ethnographic collection of the National Museum of Anthropology belongs to the anthropological research expeditions led in the mid-twentieth century by INAH ethnographers in the Huasteca of Hidalgo. The museum’s specialists documented the different variants of the Nahua huipil from the highlands and lowlands of Hidalgo, and acquired historic pieces directly from the master embroiderers at the community open-air markets of Huejutla and Jaltocán for the opening of the ethnographic galleries in 1964. The permanent display of this huipil on the Upper Floor of the MNA allows thousands of national and international visitors to pay tribute to the elegance, the textile art, and the tireless cultural strength of the women of the Nahua people of the Huasteca of Mexico.
+
+### retos_observacion
+
+**ES:** Escote cuadrado con tupidos bordados en punto de cruz de la flor de cempasúchil / Motivos simétricos de palomas del monte y pavos reales en pechera e hombros / Remates de encaje de ganchillo hecho a mano en los bordes de las mangas
+
+**EN:** Square neckline with dense cross-stitch embroidery of the marigold flower / Symmetrical motifs of mountain doves and peacocks on the chest panel and shoulders / Handmade crochet lace finishing on the edges of the sleeves
+
+### especificaciones
+
+**ES:** Pueblo: Nahua (Macehual) / Región: Huasteca Hidalguense (Huejutla de Reyes, Atlapexco) / Técnica/Material: Manta de algodón bordada a mano a punto de cruz con hilo multicolor / Función: Indumentaria cotidiana de gala, celebraciones agrícolas y festividad del Xantolo
+
+**EN:** People: Nahua (Macehual) / Region: Huasteca of Hidalgo (Huejutla de Reyes, Atlapexco) / Technique/Material: Cotton muslin embroidered by hand in cross-stitch with multicolored thread / Function: Everyday formal attire, agricultural celebrations, and the Xantolo festival
+
+### faq_mito
+
+**ES:** pregunta: Mito: El huipil nahua de la Huasteca es un vestido industrial fabricado a máquina introducido por comerciantes en el siglo XX. / respuesta: Realidad: Según los catálogos del INAH, es una prenda ceremonial tradicional masehual confeccionada y bordada a mano con simbología agrícola.
+
+**EN:** pregunta: Myth: The Nahua huipil of the Huasteca is a machine-made industrial dress introduced by merchants in the 20th century. / respuesta: Reality: According to INAH catalogs, it is a traditional Macehual ceremonial garment, made and embroidered by hand with agricultural symbolism.
+
+## Pieza: mna_s21_pintura_xalitla
+
+### titulo
+
+**ES:** Pintura comunitaria sobre Papel Amate de Xalitla, Guerrero
+
+**EN:** Community Painting on Amate Paper from Xalitla, Guerrero
+
+### frase_gancho
+
+**ES:** Corteza de jonote donde el tlacuilo dibuja la fiesta comunitaria.
+
+**EN:** Jonote bark on which the tlacuilo draws the community festival.
+
+### puente_narrativo
+
+**ES:** Ubicada en la sección dedicada a la cuenca del río Balsas, esta pintura sobre corteza vegetal muestra la crónica visual del pueblo nahua de Xalitla.
+
+**EN:** Located in the section devoted to the Balsas River basin, this painting on plant bark presents the visual chronicle of the Nahua people of Xalitla.
+
+### guion_corto
+
+**ES:** Al aproximarse a la vitrina que alberga esta deslumbrante lámina ilustrada en la Sala de los Pueblos Indígenas de Guerrero de la planta alta del museo, la minuciosa saturación de figuras en tinta negra sobre el papel café amate atrae de inmediato los sentidos. La Pintura comunitaria sobre Papel Amate de Xalitla representa una de las expresiones pictóricas y narrativas más célebres y originales del pueblo Nahua del cañón del río Balsas en el estado de Guerrero. Elaborada sobre pliegos de papel amate traídos de la sierra otomí de San Pablito Pahuatlán, esta obra es pintada a mano por los célebres 'tlacuilos' o pintores tradicionales de Xalitla, Ameyaltepec y Maxela utilizando pinceles extremadamente finos e tinta china negra o pigmentos acrílicos multicolores. La superficie del lienzo despliega una minuciosa crónica de la vida campesina y ritual: fiestas patronales con danzantes de tecuanes, siembras de la milpa, corridas de toros, corridas de toritos de pirotecnia, bodas y faenas en los campos. Contemplar este cuadro histórico en el Museo Nacional de Antropología es admirar la memoria viva del arte narrativo de Guerrero.
+
+**EN:** As you approach the display case holding this dazzling illustrated sheet in the Indigenous Peoples of Guerrero Hall on the museum’s upper floor, the meticulous crowding of figures in black ink on the brown amate paper immediately captivates the senses. The Community Painting on Amate Paper from Xalitla is one of the most celebrated and original pictorial and narrative expressions of the Nahua people of the Balsas River canyon in the state of Guerrero. Made on sheets of amate paper brought from the Otomí highlands of San Pablito Pahuatlán, this work is painted by hand by the renowned “tlacuilos,” or traditional painters, of Xalitla, Ameyaltepec and Maxela, using extremely fine brushes and black India ink or multicolored acrylic pigments. The surface of the canvas unfolds a meticulous chronicle of rural and ritual life: patron saint festivals with tecuanes dancers, the planting of the cornfield, bullfights, runs of fireworks bulls, weddings and work in the fields. To contemplate this historical picture in the National Museum of Anthropology is to admire the living memory of the narrative art of Guerrero.
+
+### guion_largo
+
+**ES:** En la árida y majestuosa cuenca del río Balsas, en la región centro-norte del estado de Guerrero, la comunidad nahua de Xalitla y sus poblados vecinos de Ameyaltepec, San Agustín Oapan y Maxela han desarrollado una de las escuelas de arte pictórico y narrativa visual sobre fibra vegetal más influyentes, reconocidas y originales del arte popular de México. Herederos directos de la milenaria tradición mesoamericana de los tlacuilomeh o pintores de códices prehispánicos que registraban en tiras de piel y papel de corteza las genealogías de los reyes, la astronomía y los tributos de los pueblos dominados, los creadores nahuas del río Balsas reinventaron durante la segunda mitad del siglo veinte el uso del papel amate. Transformando el papel de jonote de uso chamánico en un lienzo artístico moderno, los pintores de Xalitla plasmaron la riqueza de sus mitos, sus tradiciones orales y las dinámicas festivas de la vida comunitaria contemporánea con una maestría del trazo a tinta que asombra a críticos e historiadores del arte de todo el orbe. Al inspeccionar con cuidado la abrumadora densidad gráfica de la pintura sobre amate en la vitrina del museo, el observador atento admira la infinita riqueza de detalles que pueblan la composición. El lienzo de papel amate de tono café rojizo natural está cubierto íntegramente por trazos a tinta china ejecutados con pinceles de pelo fino de marta o pluma de ave. La escena se organiza de forma panorámica sin perspectiva lineal occidental, permitiendo que docenas de pequeñas figuras humanas y faunísticas coexistan en armonía: campesinos labrando la tierra con yuntas de bueyes, mujeres cociendo tortillas en el comal, bandas de música de viento tocando en el quiosco del pueblo, y procesiones solemnes que llevan a los santos patronos acompañados por cuadrillas de danzantes vestidos con máscaras de jaguares y diablos. Entre los cerros y milpas dibujados en el fondo se observan venados, conejos, iguanas y pajarillos que evocan la fauna silvestre de la selva baja caducifolia de Guerrero. La historia del acopio e integración de esta emblemática colección de pinturas sobre papel amate de Xalitla al acervo del Museo Nacional de Antropología se remonta a los proyectos de investigación etnográfica e iconográfica impulsados en la década de 1970 por antropólogos e investigadores del INAH en la región del río Balsas. Los especialistas del museo visitaron los talleres familiares de Xalitla y Ameyaltepec, seleccionando obras excepcionales de reconocidos maestros pintores para la colección permanente de las galerías etnográficas del MNA. Hoy en día, esta pintura comunitaria sobre papel amate resplandece en la exposición permanente del museo como un testimonio indiscutible de la continuidad histórica del oficio del tlacuilo, de la creatividad artesanal y del orgullo identitario del pueblo Nahua de Guerrero.
+
+**EN:** In the arid and majestic Balsas River basin, in the north-central region of the state of Guerrero, the Nahua community of Xalitla and its neighboring towns of Ameyaltepec, San Agustín Oapan and Maxela have developed one of the most influential, acclaimed and original schools of pictorial art and visual storytelling on plant fiber in the folk art of Mexico. Direct heirs of the ancient Mesoamerican tradition of the tlacuilomeh, the painters of pre-Hispanic codices who recorded on strips of hide and bark paper the genealogies of kings, astronomy and the tributes of conquered peoples, the Nahua creators of the Balsas River reinvented the use of amate paper during the second half of the twentieth century. Transforming jonote paper, once used for shamanic purposes, into a modern artistic canvas, the painters of Xalitla captured the richness of their myths, their oral traditions and the festive rhythms of contemporary community life with a mastery of the ink line that amazes art critics and historians around the world. As you carefully examine the overwhelming graphic density of the amate painting in the museum’s display case, the attentive observer admires the endless wealth of detail that fills the composition. The canvas of amate paper, in a natural reddish-brown tone, is covered entirely with India ink strokes made with fine-haired brushes of marten hair or bird feather. The scene is organized panoramically, without Western linear perspective, allowing dozens of small human and animal figures to coexist in harmony: farmers plowing the land with teams of oxen, women cooking tortillas on the griddle, wind bands playing in the town bandstand, and solemn processions carrying the patron saints, accompanied by troupes of dancers dressed in masks of jaguars and Diablos. Among the hills and cornfields drawn in the background, there are deer, rabbits, iguanas and small birds that evoke the wildlife of the low deciduous forest of Guerrero. The story of how this emblematic collection of amate paper paintings from Xalitla was gathered and added to the holdings of the National Museum of Anthropology goes back to the ethnographic and iconographic research projects promoted in the 1970s by anthropologists and researchers of the INAH in the Balsas River region. The museum’s specialists visited the family workshops of Xalitla and Ameyaltepec, selecting exceptional works by renowned master painters for the permanent collection of the ethnographic galleries of the MNA. Today, this community painting on amate paper shines in the museum’s permanent exhibition as an undeniable testimony to the historical continuity of the tlacuilo’s craft, to artisanal creativity and to the pride in identity of the Nahua people of Guerrero.
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### retos_observacion
+
+**ES:** Trazo finísimo a tinta china negra que dibuja escenas festivas y agrícolas comunitarias / Representación en detalle de la danza de los tecuanes con máscaras de jaguar / Fondo de papel de corteza de jonote de color café rojizo natural pulido
+
+**EN:** Extremely fine black India ink lines that draw festive and agricultural community scenes / Detailed depiction of the tecuanes dance with jaguar masks / Background of polished jonote bark paper in a natural reddish-brown color
+
+### especificaciones
+
+**ES:** Pueblo: Nahua (Macehual) / Región: Cuenca del Río Balsas (Xalitla, Tepecoacuilco, Guerrero) / Técnica/Material: Corteza de amate macerada, tinta china y pintura acrílica aplicada con pincel fino / Función: Crónica visual comunitaria, registro de la memoria histórica y arte contemporáneo nahua
+
+**EN:** People: Nahua (Macehual) / Region: Balsas River Basin (Xalitla, Tepecoacuilco, Guerrero) / Technique/Material: Macerated amate bark, India ink and acrylic paint applied with a fine brush / Function: Visual community chronicle, record of historical memory and contemporary Nahua art
+
+### faq_mito
+
+**ES:** pregunta: Mito: La pintura sobre papel amate de Xalitla es un arte colonial español traído por frailes dominicos en el siglo XVII. / respuesta: Realidad: Según los peritajes del INAH, es una evolución artística autóctona nahua heredera directa de la tradición prehispánica de los tlacuilos.
+
+**EN:** pregunta: Myth: Amate paper painting from Xalitla is a Spanish colonial art brought by Dominican friars in the 17th century. / respuesta: Reality: According to INAH expert assessments, it is an indigenous Nahua artistic evolution, a direct heir to the pre-Hispanic tradition of the tlacuilos.
+
+## Pieza: mna_s21_altar_tlamanaliztli
+
+### titulo
+
+**ES:** El Altar del Tlamanaliztli / Ofrenda comunal del elote tierno
+
+**EN:** The Tlamanaliztli Altar / Communal Offering of the Tender Corn
+
+### frase_gancho
+
+**ES:** Altar de elotes frescos que celebra el maíz sagrado.
+
+**EN:** An altar of fresh ears of corn that celebrates the sacred maize.
+
+### puente_narrativo
+
+**ES:** Para culminar la visita a la Sala 21 y el recorrido etnográfico de la Planta Alta, este altar ceremonial consagra el culto divino al maíz y la vida campesina.
+
+**EN:** Culminating the visit to the 21 Hall and the ethnographic tour of the Upper Floor, this ceremonial altar consecrates the divine worship of maize and rural life.
+
+### guion_corto
+
+**ES:** Al adentrarse en la majestuosa reconstrucción ceremonial que domina la Sala de los Pueblos Nahuas en la planta alta del museo, el aroma a mazorca fresca, copal, pericón y tamales de elote envuelve de inmediato los sentidos. El Altar del Tlamanaliztli / Ofrenda comunal del elote tierno representa la instalación litúrgica agrícola más sagrada y alegre de las comunidades nahuas del Altiplano Central y la Huasteca. Celebrada a finales del verano durante los meses de agosto y septiembre, esta ceremonia del Tlamanaliztli o fiesta de las primeras cosechas marca el momento en que los campesinos cortan los primeros elotes tiernos (ejotl) de la milpa para ofrecerlos con gratitud a la Madre Tierra (Tonantzin-Tlalli) y a los espíritus del agua. La instalación exhibe un altar monumental vestido con manteles bordados, enmarcado por arcos de caña de maíz y flores de pericón amarillo, sobre el cual se disponen cientos de elotes con sus hojas verdes, tamales de elote (uches o cazueladas), atole dulce, cazuelas de mole y sahumadores humeantes. Contemplar esta ofrenda en el Museo Nacional de Antropología es vivir la sagrada comunión entre el hombre y el maíz.
+
+**EN:** As you step into the majestic ceremonial reconstruction that dominates the Hall of the Nahua Peoples on the upper floor of the museum, the aroma of fresh ears of corn, copal, Mexican tarragon and fresh corn tamales immediately envelops the senses. The Tlamanaliztli Altar / Communal Offering of the Tender Corn is the most sacred and joyful agricultural liturgical installation of the Nahua communities of the Central Highlands and the Huasteca. Celebrated at the end of summer, during the months of August and September, this Tlamanaliztli ceremony, or festival of the first harvests, marks the moment when farmers cut the first tender ears of corn, called ejotl, from the cornfield to offer them with gratitude to Mother Earth, known as Tonantzin-Tlalli, and to the spirits of the water. The installation presents a monumental altar dressed with embroidered tablecloths and framed by arches of cornstalks and yellow Mexican tarragon flowers, upon which are arranged hundreds of ears of corn in their green husks, corn tamales, known as uches or casserole tamales, sweet atole, clay pots of mole and smoking incense burners. To contemplate this offering in the National Museum of Anthropology is to experience the sacred communion between humankind and maize.
+
+### guion_largo
+
+**ES:** En la estructura cosmológica, ideológica y agrícola de los pueblos originarios de filiación nahua que habitan en los valles y serranías del Estado de México, Puebla, Veracruz, Hidalgo, Morelos y Guerrero, la milpa no es considerada una simple parcela de producción agrícola industrial, sino un espacio sagrado habitado por seres espirituales y por la persona divina del Maíz (Cintéotl o Chicomecóatl). A lo largo del ciclo agrícola anual, los campesinos masehualmej celebran una secuencia de ritos litúrgicos que conectan el trabajo humano con la gracia de la naturaleza. Entre todos estos ritos, el Tlamanaliztli o fiesta de la primicia del elote tierno constituye el momento de mayor júbilo y alivio comunitario. Tras meses de incertidumbre invernal y arduas labores de limpia de la tierra bajo el sol, la aparición de los primeros elotes en las cañas del maizal confirma que la vida ha triunfado una vez más sobre el hambre. Antes de que cualquier miembro de la familia o del pueblo pueda consumir elotes para alimento personal, la primera cosecha debe ser consagrada solemnemente en el altar doméstico y comunitario. Al explorar con atención los componentes ceremoniales y simbólicos de la instalación del Tlamanaliztli en la vitrina del museo, el observador atento admira la profunda geometría sagrada de la ofrenda. El altar está presidido por arcos triunfales elaborados con cañas de maíz verdes con sus espigas intactas, tejidas con ramilletes de flor de pericón (yauhtli) cuyo color amarillo dorado y aroma penetrante ahuyentan a los aires nocivos y atraen a las bendiciones celestes. En el centro de la mesa se acomodan elotes tiernos vestidos con sus brácteas u hojas verdes, atados en pares y adornados con collares de flores de cempasúchil y listones multicolores como si fueran niños sagrados recibiendo el bautismo. Alrededor de los elotes se disponen platones de barro cocido con tamales de elote recién elaborados, jícaras con atole tierno, copaleros de barro que desprenden densas columnas de humo de resina de copal y veladoras que alumbran la imagen de Tonantzin o de la Virgen de la Asunción. La historia del registro e instalación de esta réplica monumental del Altar del Tlamanaliztli en las galerías etnográficas del Museo Nacional de Antropología forma parte de los proyectos de salvaguarda cultural organizados por el INAH a lo largo de décadas. Los antropólogos del museo trabajaron en estrecha colaboración con sabios tradicionales y mayordomos nahuas de la región de la Huasteca y del Altiplano Central, adquirieron los elementos ceremoniales tradicionales y registraron las oraciones ceremoniales en náhuatl que acompañan la bendición de las primicias. Cada año, los curadores y conservadores del museo renuevan los elotes, flores y elementos agrícolas de la instalación para mantener vivo el aroma y el resplandor de la fiesta del maíz. Esta exhibición permanente en el MNA permite a miles de visitantes internacionales vivenciar la profunda riqueza filosófica, agrícola y humana de la cultura del maíz en México.
+
+**EN:** In the cosmological, ideological and agricultural structure of the native peoples of Nahua affiliation who inhabit the valleys and mountain ranges of the State of Mexico, Puebla, Veracruz, Hidalgo, Morelos and Guerrero, the cornfield is not considered a simple plot of industrial agricultural production, but a sacred space inhabited by spiritual beings and by the divine person of Maize, known as Cintéotl or Chicomecóatl. Throughout the annual agricultural cycle, the Macehual farmers celebrate a sequence of liturgical rites that connect human labor with the grace of nature. Among all these rites, the Tlamanaliztli, or festival of the first tender ears of corn, is the moment of greatest joy and communal relief. After months of winter uncertainty and arduous labor clearing the land under the sun, the appearance of the first ears of corn on the stalks of the cornfield confirms that life has triumphed once more over hunger. Before any member of the family or the town may eat corn for personal nourishment, the first harvest must be solemnly consecrated on the household and communal altar. Exploring closely the ceremonial and symbolic components of the Tlamanaliztli installation in the museum display case, the attentive observer admires the profound sacred geometry of the offering. The altar is presided over by triumphal arches made of green cornstalks with their tassels intact, interwoven with bouquets of Mexican tarragon flowers, called yauhtli, whose golden yellow color and penetrating aroma drive away harmful winds and attract heavenly blessings. At the center of the table are arranged tender ears of corn dressed in their husks, or green leaves, tied in pairs and adorned with necklaces of marigold flowers and multicolored ribbons, as if they were sacred children receiving baptism. Around the ears of corn are placed fired clay platters with freshly made corn tamales, gourd bowls with tender atole, clay copal burners that release dense columns of copal resin smoke, and votive candles that light the image of Tonantzin or of the Virgin of the Assumption. The history of the documentation and installation of this monumental replica of the Tlamanaliztli Altar in the ethnographic galleries of the National Museum of Anthropology is part of the cultural safeguarding projects organized by the INAH over decades. The museum’s anthropologists worked in close collaboration with traditional sages and Nahua stewards from the Huasteca region and the Central Highlands, acquired the traditional ceremonial elements and recorded the ceremonial prayers in Nahuatl that accompany the blessing of the first fruits. Every year, the museum’s curators and conservators renew the ears of corn, flowers and agricultural elements of the installation to keep alive the aroma and the splendor of the maize festival. This permanent exhibition at the MNA allows thousands of international visitors to experience the profound philosophical, agricultural and human richness of maize culture in Mexico.
+
+> Aviso: el glosario pide "Nahua Peoples" para "Nahuas" y no aparece
+
+### retos_observacion
+
+**ES:** Estructura de arcos triunfales elaborados con cañas de maíz verdes y flor de pericón amarillo / Elotes tiernos vestidos con sus hojas atados en pares con collares de flores de cempasúchil / Sahumadores de barro cocido con resina de copal humeante y platones de tamales de elote
+
+**EN:** Structure of triumphal arches made of green cornstalks and yellow Mexican tarragon flowers / Tender ears of corn dressed in their husks, tied in pairs with necklaces of marigold flowers / Fired clay incense burners with smoking copal resin and platters of corn tamales
+
+### especificaciones
+
+**ES:** Pueblo: Nahua (Macehual) / Región: Sierra Norte de Puebla, Guerrero, Estado de México y Huasteca / Técnica/Material: Maíz (elotes frescos), cempasúchil, copal, barro, papel picado, pan y ceras / Función: Altar ritual agrícola de agradecimiento por la cosecha y veneración sagrada al maíz
+
+**EN:** People: Nahua (Macehual) / Region: Northern Sierra of Puebla, Guerrero, State of Mexico and Huasteca / Technique/Material: Maize (fresh ears of corn), marigold, copal, clay, cut-paper banners, bread and candles / Function: Agricultural ritual altar of thanksgiving for the harvest and sacred veneration of maize
+
+### faq_mito
+
+**ES:** pregunta: Mito: El Altar del Tlamanaliztli es una feria gastronómica moderna inventada por restaurantes para vender tamales de elote. / respuesta: Realidad: Según los estudios del INAH, es una ceremonia agrícola ancestral nahua de consagración y gratitud por las primicias del maíz.
+
+**EN:** pregunta: Myth: The Tlamanaliztli Altar is a modern food fair invented by restaurants to sell corn tamales. / respuesta: Reality: According to INAH studies, it is an ancestral Nahua agricultural ceremony of consecration and gratitude for the first fruits of the maize.
+
+## Pieza: mna_s09_cripta_pakal
+
+### titulo
+
+**ES:** Cripta y Sarcófago de Pakal (recreación)
+
+**EN:** Crypt and Sarcophagus of Pakal (Recreation)
+
+### frase_gancho
+
+**ES:** Una tumba recreada a tamaño real, bajo una luz roja.
+
+**EN:** A tomb recreated at full scale, under a red light.
+
+### puente_narrativo
+
+**ES:** Seguimos con la tumba donde estuvo esa máscara: una recreación a tamaño real de la cripta de Pakal.
+
+**EN:** We continue with the tomb where that mask once lay: a full-scale recreation of Pakal’s crypt.
+
+### guion_corto
+
+**ES:** Estás ante una tumba, pero no es la verdadera. Es una recreación a tamaño real de la cámara funeraria del rey Pakal, en el Templo de las Inscripciones de Palenque. Una luz roja cae desde arriba sobre la losa labrada y el sarcófago de piedra. En la losa, el rey aparece en el momento de morir. Baja por el tronco de una ceiba sagrada hacia las fauces del Monstruo de la Tierra, la entrada al inframundo. Se interpreta como el paso previo a renacer. En los muros hay figuras de estuco: son los Nueve Señores de la Noche. Pakal fue sepultado en el año 683 después de Cristo, y bajo la losa su esqueleto estaba cubierto de cinabrio, un pigmento rojo.
+
+**EN:** You are standing before a tomb, but it is not the real one. It is a full-scale recreation of the burial chamber of King Pakal, in the Temple of the Inscriptions at Palenque. A red light falls from above onto the carved slab and the stone sarcophagus. On the slab, the king appears at the moment of his death. He descends along the trunk of a sacred ceiba tree toward the jaws of the Earth Monster, the entrance to the underworld. It is interpreted as the step before being reborn. On the walls there are stucco figures: they are the Nine Lords of the Night. Pakal was buried in the year 683 AD, and beneath the slab his skeleton was covered in cinnabar, a red pigment.
+
+### guion_largo
+
+**ES:** Hay objetos que se entienden mejor dentro de su lugar. Para la máscara de Pakal, ese lugar era esta cámara. /  / Lo que ves es una recreación a escala real de la cripta del Templo de las Inscripciones, en Palenque, Chiapas. La cámara original es de piedra caliza, y sus paredes estaban cubiertas de cristales de calcio. Aquí se reproducen la losa labrada en bajorrelieve y el sarcófago de piedra, bajo una luz roja. /  / En la losa principal, el rey aparece en el momento de morir. Desciende por el tronco de la ceiba sagrada hacia las fauces del Monstruo de la Tierra, que es la entrada a Xibalbá, el inframundo maya. Se interpreta como el comienzo de su renacer. /  / Alrededor, en los muros, hay relieves de estuco con los Nueve Señores de la Noche. /  / Se piensa que Pakal mandó preparar esta tumba cuando aún vivía. Su hijo y sucesor, Kan B'ahlam, terminó la pirámide que la cubre. Pakal fue sepultado en el año 683 después de Cristo, y bajo la losa su esqueleto estaba cubierto por completo de cinabrio, un pigmento rojo. /  / La tumba verdadera sigue en Palenque, dentro del templo. Aquí tienes una forma de asomarte a ella.
+
+**EN:** Some objects are better understood in their own setting. For the mask of Pakal, that setting was this chamber. /  / What you see is a full-scale recreation of the crypt of the Temple of the Inscriptions, in Palenque, Chiapas. The original chamber is made of limestone, and its walls were covered with calcium crystals. Here, the slab carved in low relief and the stone sarcophagus are reproduced, under a red light. /  / On the main slab, the king appears at the moment of his death. He descends along the trunk of the sacred ceiba tree toward the jaws of the Earth Monster, which is the entrance to Xibalbá, the Maya underworld. It is interpreted as the beginning of his rebirth. /  / All around, on the walls, there are stucco reliefs of the Nine Lords of the Night. /  / It is thought that Pakal had this tomb prepared while he was still alive. His son and successor, Kan B'ahlam, finished the pyramid that covers it. Pakal was buried in the year 683 AD, and beneath the slab his skeleton was completely covered in cinnabar, a red pigment. /  / The true tomb remains in Palenque, inside the temple. Here you have a way of peering into it.
+
+### retos_observacion
+
+**ES:** Busca en la losa al rey que baja por el tronco de la ceiba. / Fíjate en las figuras de estuco de los muros: son los Nueve Señores de la Noche. / Mira cómo cambia el aspecto de la piedra bajo la luz roja.
+
+**EN:** Look on the slab for the king descending along the trunk of the ceiba tree. / Notice the stucco figures on the walls: they are the Nine Lords of the Night. / Watch how the look of the stone changes under the red light.
+
+### especificaciones
+
+**ES:** Cultura: Maya, Palenque / Periodo: Original del Clásico Tardío (600-900 d.C.); recreación museográfica / Material: Recreación a escala real de una cámara de piedra caliza con losa y sarcófago / Procedencia: Templo de las Inscripciones, Palenque, Chiapas / Medidas: Escala 1:1
+
+**EN:** Culture: Maya, Palenque / Period: Original from the Late Classic (600-900 AD); museum recreation / Material: Full-scale recreation of a limestone chamber with slab and sarcophagus / Origin: Temple of the Inscriptions, Palenque, Chiapas / Dimensions: Scale 1:1
+
+### faq_mito
+
+**ES:** pregunta: Mito: La tumba de Pakal que ves aquí es la original, traída desde Palenque. / respuesta: Realidad: Es una recreación a escala real. La cripta verdadera está dentro del Templo de las Inscripciones, en Palenque.
+
+**EN:** pregunta: Myth: The tomb of Pakal you see here is the original, brought from Palenque. / respuesta: Reality: It is a full-scale recreation. The real crypt is inside the Temple of the Inscriptions, in Palenque.
+
+## Pieza: mna_s09_tablero_cruz
+
+### titulo
+
+**ES:** Tablero de la Cruz de Palenque
+
+**EN:** Tablet of the Cross of Palenque
+
+### frase_gancho
+
+**ES:** Un niño y un rey adulto, el mismo hombre, a los lados de una cruz sagrada.
+
+**EN:** A boy and a grown king, the same man, on either side of a sacred cross.
+
+### puente_narrativo
+
+**ES:** Seguimos en Palenque con el hijo y sucesor de Pakal, que mandó tallar un gran tablero de piedra con su historia.
+
+**EN:** We remain in Palenque with the son and successor of Pakal, who ordered a great stone tablet carved with his story.
+
+### guion_corto
+
+**ES:** Un niño de seis años y un rey adulto aparecen en la misma piedra. Son el mismo hombre, K'inich Kan B'ahlam, hijo y sucesor de Pakal. Es el Tablero de la Cruz de Palenque, una obra maya del Clásico Tardío, tallada hacia el año 692 después de Cristo. A la izquierda, el joven realiza un rito de autosacrificio, que evoca un hecho del año 641. A la derecha, ya adulto, recibe la diadema real, en un hecho del año 684. En el centro crece una ceiba sagrada con forma de cruz, y sobre ella se posa un ave. Los paneles de los lados llevan textos en jeroglíficos sobre el nacimiento de un dios protector de Palenque. Se piensa que ayudaban a justificar la sucesión del rey.
+
+**EN:** A six-year-old boy and a grown king appear on the same stone. They are the same man, K’inich Kan B’ahlam, son and successor of Pakal. This is the Tablet of the Cross of Palenque, a Maya work of the Late Classic, carved around the year 692 AD. On the left, the young man performs a rite of self-sacrifice, which recalls an event of the year 641. On the right, now an adult, he receives the royal diadem, in an event of the year 684. At the center grows a sacred ceiba tree in the shape of a cross, and a bird perches on it. The side panels carry hieroglyphic texts about the birth of a protective god of Palenque. It is thought that they helped to justify the king’s succession.
+
+### guion_largo
+
+**ES:** Imagina que quieres demostrar que tienes derecho a gobernar. Este rey lo hizo con una piedra tallada. /  / Es el Tablero de la Cruz, de Palenque, en Chiapas. Es una obra maya del Clásico Tardío, tallada hacia el año 692 después de Cristo. El relieve está hecho en piedra caliza y se reparte en tres losas que forman una sola escena. /  / El protagonista es K'inich Kan B'ahlam, hijo y sucesor de Pakal. Aparece dos veces. A la izquierda es un niño de seis años que realiza un autosacrificio, un hecho del año 641. A la derecha es un adulto, de mayor estatura, que recibe la diadema real y las insignias del mando, un hecho del año 684. /  / Entre los dos está la ceiba sagrada. Tiene forma de cruz y brota de un mascarón de la Tierra. Sobre ella se posa un ave sagrada. /  / Los paneles de los lados están llenos de jeroglíficos. Cuentan el nacimiento del dios GI, protector de Palenque. Se piensa que ese relato servía para justificar que el trono pasara de Pakal a su hijo. /  / La pieza viene del Templo de la Cruz. Forma parte de un conjunto de tres templos: el de la Cruz, el del Sol y el de la Cruz Foliada. Se ha propuesto que representaban los tres niveles del universo: el cielo, la tierra y el inframundo. /  / Así, la historia personal de un rey quedó unida al árbol sagrado y a los dioses de su ciudad.
+
+**EN:** Imagine you want to prove that you have the right to rule. This king did it with a carved stone. /  / It is the Tablet of the Cross, from Palenque, in Chiapas. It is a Maya work of the Late Classic, carved around the year 692 AD. The relief is made of limestone and is divided into three slabs that form a single scene. /  / The protagonist is K’inich Kan B’ahlam, son and successor of Pakal. He appears twice. On the left he is a six-year-old boy performing a self-sacrifice, an event of the year 641. On the right he is an adult, taller in stature, receiving the royal diadem and the insignia of command, an event of the year 684. /  / Between the two stands the sacred ceiba. It has the shape of a cross and springs from a mask of the Earth. A sacred bird perches on it. /  / The side panels are full of hieroglyphs. They tell of the birth of the god GI, protector of Palenque. It is thought that this account served to justify the throne passing from Pakal to his son. /  / The piece comes from the Temple of the Cross. It is part of a group of three temples: the Temple of the Cross, the Temple of the Sun, and the Temple of the Foliated Cross. It has been proposed that they represented the three levels of the universe: the sky, the earth, and the underworld. /  / Thus, the personal story of a king became bound to the sacred tree and to the gods of his city.
+
+### retos_observacion
+
+**ES:** Busca al niño de la izquierda y al adulto de la derecha: es la misma persona. / Encuentra la ceiba en forma de cruz y el ave que se posa sobre ella. / Mira los paneles de los lados: están cubiertos de jeroglíficos.
+
+**EN:** Look for the boy on the left and the adult on the right: they are the same person. / Find the ceiba in the shape of a cross and the bird perched on it. / Look at the side panels: they are covered with hieroglyphs.
+
+### especificaciones
+
+**ES:** Cultura: Maya, Palenque / Periodo: Clásico Tardío (600-900 d.C.) / Material: Piedra caliza, bajorrelieve en tres losas / Procedencia: Templo de la Cruz, Palenque, Chiapas
+
+**EN:** Culture: Maya, Palenque / Period: Late Classic (600-900 AD) / Material: Limestone, bas-relief on three slabs / Origin: Temple of the Cross, Palenque, Chiapas
+
+### faq_mito
+
+**ES:** pregunta: Mito: La cruz del tablero es un símbolo cristiano que llegó con los españoles. / respuesta: Realidad: Es una ceiba sagrada con forma de cruz. Los mayas la tallaron hacia el año 692, mucho antes de que llegaran los españoles.
+
+**EN:** pregunta: Myth: The cross on the tablet is a Christian symbol that arrived with the Spaniards. / respuesta: Reality: It is a sacred ceiba tree in the shape of a cross. The Maya carved it around the year 692, long before the Spaniards arrived.
+
+## Pieza: mna_s06_piedra_arzobispado
+
+### titulo
+
+**ES:** Piedra del Ex Arzobispado
+
+**EN:** Stone of the Former Archbishopric
+
+### frase_gancho
+
+**ES:** Un cilindro de piedra hallado en 1988 durante unas obras en el centro de la ciudad.
+
+**EN:** A stone cylinder found in 1988 during construction work in the center of the city.
+
+### puente_narrativo
+
+**ES:** Seguimos con otro gran cilindro de piedra, también hecho para recordar conquistas y para los rituales de guerra.
+
+**EN:** We continue with another great stone cylinder, also made to commemorate conquests and for war rituals.
+
+### guion_corto
+
+**ES:** Once escenas de conquista dan la vuelta a este cilindro de piedra. En todas se repite la misma imagen: un gobernante, vestido como el dios del fuego, sujeta del cabello a un guerrero vencido. Junto a cada vencido aparece el signo de la provincia conquistada. Es la Piedra del Ex Arzobispado, una obra mexica. Se halló en 1988 durante unas obras en la calle de Moneda, en el centro de la Ciudad de México. Se hizo en el reinado de Motecuhzoma Ilhuicamina. Se piensa que servía como plataforma para combates rituales y como recipiente para ofrendas de corazones y de sangre. En la cara superior hay un disco solar con un rostro en el centro.
+
+**EN:** Eleven scenes of conquest wrap around this stone cylinder. In every one the same image repeats: a ruler, dressed as the god of fire, grips a defeated warrior by the hair. Beside each defeated figure appears the sign of the conquered province. This is the Stone of the Former Archbishopric, a Mexica work. It was found in 1988 during construction work on Moneda Street, in the center of Mexico City. It was made during the reign of Motecuhzoma Ilhuicamina. It is thought to have served as a platform for ritual combat and as a vessel for offerings of hearts and blood. On the upper face there is a solar disk with a face at its center.
+
+### guion_largo
+
+**ES:** Los mexicas no solo conquistaban: también dejaban la cuenta en piedra. Este cilindro es un buen ejemplo. /  / Es la Piedra del Ex Arzobispado. Se llama así porque apareció en 1988. Fue durante las obras de cimentación del antiguo Palacio del Arzobispado, en la calle de Moneda, en el Centro Histórico de la Ciudad de México. Ese terreno estuvo dentro del Recinto Sagrado de Tenochtitlan. /  / Es un cilindro bajo y ancho, labrado en roca volcánica. En la cara superior hay un disco solar con un rostro en la cavidad central. Alrededor, en el costado, corre un friso con once escenas de conquista. /  / En cada escena, el gobernante lleva los atributos de Xiuhtecuhtli, el dios del fuego. Con una mano sujeta por el cabello a un guerrero vencido. Junto a él aparece el glifo de la provincia conquistada. En los bordes hay calaveras, huesos cruzados, corazones, manos y cuchillos de sacrificio. /  / Se piensa que servía como temalácatl, una plataforma para el combate ritual. También como cuauhxicalli, un recipiente para colocar los corazones y la sangre ofrecidos al Sol. Esos ritos se hacían en la fiesta de Tlacaxipehualiztli, en honor a Xipe Tótec. /  / Se piensa también que lo mandó labrar Motecuhzoma Ilhuicamina, para dejar memoria de las victorias de Tenochtitlan. Eran los años que siguieron a la derrota de Azcapotzalco y a la consolidación de la Triple Alianza. /  / Compárala con la Piedra de Tízoc, que se parece en su forma y en sus escenas de conquista.
+
+**EN:** The Mexica did not only conquer: they also left the tally in stone. This cylinder is a good example. /  / It is the Stone of the Former Archbishopric. It has that name because it appeared in 1988. It came to light during the foundation work for the former Archbishop’s Palace, on Moneda Street, in the Historic Center of Mexico City. That land once lay within the Sacred Precinct of Tenochtitlan. /  / It is a low, wide cylinder, carved from volcanic rock. On the upper face there is a solar disk with a face in the central hollow. Around the side runs a frieze with eleven scenes of conquest. /  / In each scene, the ruler wears the attributes of Xiuhtecuhtli, the god of fire. With one hand he grips a defeated warrior by the hair. Beside the warrior appears the glyph of the conquered province. Along the edges there are skulls, crossed bones, hearts, hands and sacrificial knives. /  / It is thought to have served as a temalácatl, a platform for ritual combat. It may also have served as a cuauhxicalli, a vessel for placing the hearts and blood offered to the Sun. Those rites were held during the festival of Tlacaxipehualiztli, in honor of Xipe Tótec. /  / It is also thought that Motecuhzoma Ilhuicamina ordered it carved, to leave a memory of the victories of Tenochtitlan. These were the years that followed the defeat of Azcapotzalco and the consolidation of the Triple Alliance. /  / Compare it with the Stone of Tízoc, which resembles it in its shape and in its scenes of conquest.
+
+### retos_observacion
+
+**ES:** Cuenta las escenas de conquista que rodean el cilindro. / Busca al gobernante que sujeta a un guerrero por el cabello. / Mira los bordes: hay calaveras, corazones, manos y cuchillos.
+
+**EN:** Count the scenes of conquest that surround the cylinder. / Find the ruler who grips a warrior by the hair. / Look at the edges: there are skulls, hearts, hands and knives.
+
+### especificaciones
+
+**ES:** Cultura: Mexica / Periodo: Posclásico Tardío / Material: Roca volcánica (andesita o basalto) esculpida en alto relieve / Procedencia: Centro Histórico de la Ciudad de México (antiguo Palacio del Arzobispado, calle de Moneda)
+
+**EN:** Culture: Mexica / Period: Late Postclassic / Material: Volcanic rock (andesite or basalt) carved in high relief / Origin: Historic Center of Mexico City (former Archbishop’s Palace, Moneda Street)
+
+### faq_mito
+
+**ES:** pregunta: Mito: La Piedra del Ex Arzobispado es otro calendario azteca, como la Piedra del Sol. / respuesta: Realidad: No es un calendario. Es un monumento de conquista: sus once escenas muestran victorias de un gobernante mexica.
+
+**EN:** pregunta: Myth: The Stone of the Former Archbishopric is another Aztec calendar, like the Sun Stone. / respuesta: Reality: It is not a calendar. It is a monument to conquest: its eleven scenes show the victories of a Mexica ruler.

@@ -1,0 +1,61 @@
+{
+  "id": "mna_s16_huipil_cuetzalan",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Nahua Peoples\" para \"Nahuas\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Nahua Peoples\" para \"Nahuas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "e4194a5fc42a5de0",
+      "texto": "Traditional Gauze Huipil with Curved Weave from Cuetzalan"
+    },
+    "frase_gancho": {
+      "hash": "764399c9dae4dc4f",
+      "texto": "A gauze mantle where the curve of the weave draws the rain."
+    },
+    "puente_narrativo": {
+      "hash": "9d6a696929f770a1",
+      "texto": "To conclude the tour of the Puebla Sierra Hall, this delicate cotton cloth pays tribute to the textile mastery of the Nahua of the mountains."
+    },
+    "guion_corto": {
+      "hash": "f2ad7df68acaaabf",
+      "texto": "Standing before the display case that holds this exquisite white cotton cloth in the Gulf Coast and Puebla Hall on the upper floor of the museum, you are captivated at once by the airy lightness of the weft and the brilliance of the curved weave. The traditional gauze huipil with curved weave from Cuetzalan is the most sophisticated and technically complex textile jewel of the Nahua women of the Northern Sierra of Puebla. Made entirely on a pre-Hispanic backstrap loom with native cotton thread as white as the clouds of the mountain, this huipil stands out for its prodigious handling of the curved weave: a thousand-year-old technique that makes it possible to alter the straight path of the weft threads to form curves and undulations directly on the loom, without making a single cut in the cloth. Over the transparency of the openwork gauze appear embroideries of native flora, climbing vines and birds of the wild, in shades of white and red. In highland Nahua culture, this garment is the supreme formal dress worn at weddings and patron saint festivals. To contemplate this huipil in the National Museum of Anthropology is to admire the technical summit of Mesoamerican textile art."
+    },
+    "guion_largo": {
+      "hash": "322720620872d844",
+      "texto": "On the steep, misty slopes of the Northern Sierra of Puebla, in the prosperous Nahua community of Cuetzalan del Progreso, artisan weaving on the backstrap loom is a sacred art passed down from mothers to daughters since time immemorial. In Nahua cosmogonic thought, the backstrap loom is not considered a mere wooden machine for interlacing threads, but a replica of the body of woman and of the textile goddess Tlazoltéotl. The weavers of Cuetzalan possess a geometric and mathematical understanding of the physics of thread that astonishes contemporary designers all over the world. Among all the garments made in the highlands of Puebla, the gauze huipil with curved weave, or moxochitecomatl, is considered the unsurpassed masterpiece. Creating this huipil demands months of absolute concentration: the artisan must tension the warp threads with the leather strap resting on her hip, using small bone needles and maguey thorns to manipulate each strand of cotton by hand, creating areas of transparent openwork gauze that mimic the mist that embraces the pine groves of the mountain. By carefully inspecting the physical structure of the huipil in the exhibition display case, the attentive viewer discovers the secret of the curved weft. Unlike the vast majority of looms in the world, where threads cross at strict right angles of ninety degrees, the Cuetzalan weaver applies uneven pressure at the ends of the warp while inserting the weft, making the woven bands arch fluidly across the cloth. This textile undulation gives a rounded, organic drape to the shoulders and neck of the woman, adapting to the female anatomy without the need for scissors or intrusive seams. The chest panel of the huipil displays delicate embroidery in red and pink cotton threads that represents the tree of life, the maize flower, vines of butterflies and water serpents that call forth the arrival of the beneficial rains over the coffee and maize orchards. The story of the recording and acquisition of this exceptional piece for the collections of the National Museum of Anthropology is part of the emblematic ethnographic collecting campaigns carried out in the mid-twentieth century by INAH researchers and anthropologists such as Irmgard Weitlaner Johnson and Bodil Christensen. The researchers traveled through the neighborhoods of Cuetzalan and San Miguel Tzinacapan, documenting in photography and film the process of setting up the backstrap loom and the handling of the needles for the curved weave. The piece was acquired directly from a renowned community master weaver and taken to Mexico City to enrich the Puebla Hall on the upper floor of the MNA. Today, this gauze huipil is preserved as an unquestionable testimony to the textile science, the elegance and the cultural sovereignty of the Nahua women of Mexico."
+    },
+    "retos_observacion": {
+      "hash": "3bb8cb27e4f412d2",
+      "texto": [
+        "Organic curvature of the weft threads at the shoulders, achieved directly on the loom",
+        "Transparent openwork weave of white cotton gauze that mimics the mist of the sierra",
+        "Chest panel with dense embroidery of flora and butterflies in shades of crimson red"
+      ]
+    },
+    "especificaciones": {
+      "hash": "af5f3d5b0dc7c293",
+      "texto": {
+        "People": "Nahua (Macehual)",
+        "Region": "Northern Sierra of Puebla (Cuetzalan del Progreso / Tzinacapan)",
+        "Technique/Material": "Cotton woven on a backstrap loom (gauze and curved warp technique) and embroidery",
+        "Function": "Ceremonial formal attire, traditional weddings and patron saint festivities"
+      }
+    },
+    "faq_mito": {
+      "hash": "f3e1521ec12fef40",
+      "texto": {
+        "pregunta": "Myth: The curved weave of Cuetzalan is achieved by cutting the cloth with industrial metal scissors and sewing on patches.",
+        "respuesta": "Reality: According to INAH analyses, it is a thousand-year-old backstrap loom technique in which the curves are achieved by adjusting the tension of the threads without cutting the cloth."
+      }
+    }
+  }
+}

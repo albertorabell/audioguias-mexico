@@ -1,0 +1,58 @@
+{
+  "id": "mna_s10_guerrero_jalisco",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "especificaciones": [
+      "el glosario pide \"Shaft Tombs\" para \"Tumbas de Tiro\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "02da824cb8357e53",
+      "texto": "Warrior with Basketry Armor and Club"
+    },
+    "frase_gancho": {
+      "hash": "8654d652c2c69eb7",
+      "texto": "A clay warrior with a helmet, basketry armor, and a club held on guard."
+    },
+    "puente_narrativo": {
+      "hash": "8c1155418be0bad7",
+      "texto": "We leave Michoacán and return to the shaft tombs with a clay guardian: an armored warrior who accompanied the dead."
+    },
+    "guion_corto": {
+      "hash": "459239503cd1035c",
+      "texto": "It was one of the first pieces from the West to reach the museum’s collections. It is a clay warrior from the Shaft Tomb Tradition, made in the Colima and Jalisco region during the Classic period. He stands upright, on guard, holding a club with both hands. He wears a helmet on his head and his body is protected by basketry armor, woven from plant fibers. It is a hollow figure, modeled in reddish clay. He looks like a soldier ready to fight, but his place was not a battlefield. These figures were placed at the bottom of the shaft tombs. It is believed that there they were symbolic defenders of the deceased, guardians of the soul against the forces of the underworld."
+    },
+    "guion_largo": {
+      "hash": "93b3c3e7048b217c",
+      "texto": "This warrior has a special place in the history of the museum. It was one of the first pieces from the West of Mexico to enter its collections. It is a work of the Shaft Tomb Tradition, from the Colima and Jalisco region, and belongs to the Classic period.\n\nIt is a clay figure, modeled by hand, hollow inside and reddish in tone, with a polished finish. The artist lingered over the character’s equipment. He wears a protective cap on his head. His body is covered by basketry armor, made of interwoven plant fibers. He holds a club with both hands, and his upright posture is one of alertness, ready for combat. From his attire, it is believed that he represents an officer or an elite warrior.\n\nThe basketry armor is a very valuable detail. It was protection made from materials that almost never survive. Here the clay preserved the form of a weaving that vanished centuries ago.\n\nA question remains: what was a warrior doing in a tomb? These figures were placed at the bottom of the shaft tombs, the underground chambers of the West. It is believed that they were symbolic defenders of the dead and guardians of the soul against the forces of the underworld. His mission was not to fight human enemies, but to keep watch.\n\nToday he remains on guard, with his club in his hands and his armor of fibers woven in clay."
+    },
+    "retos_observacion": {
+      "hash": "63d9ae47b9a1f4aa",
+      "texto": [
+        "Look for the weave of fibers that forms the armor on the body.",
+        "Find the helmet that protects the warrior’s head.",
+        "Notice how he holds the club with both hands."
+      ]
+    },
+    "especificaciones": {
+      "hash": "906b08b7576e9521",
+      "texto": {
+        "Culture": "Shaft Tomb Tradition / Colima - Jalisco",
+        "Period": "Classic (200 BC-600 AD)",
+        "Material": "Modeled clay (ceramic), reddish in tone",
+        "Origin": "West of Mexico (Colima / Jalisco region)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c7e58c79848f9191",
+      "texto": {
+        "pregunta": "Myth: This figure is a battle scene, a soldier ready to fight.",
+        "respuesta": "Reality: It was not a scene of war. These figures were placed in the shaft tombs, where it is believed they symbolically protected the deceased from the forces of the underworld."
+      }
+    }
+  }
+}

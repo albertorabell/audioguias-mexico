@@ -1,0 +1,54 @@
+{
+  "id": "mna_s19_solar_maya",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1bb414022a10bbae",
+      "texto": "Recreation of the Traditional Maya Homestead and House"
+    },
+    "frase_gancho": {
+      "hash": "41efadfb9f9f2e1a",
+      "texto": "A house of thatch and wattle and daub where maize sprouts."
+    },
+    "puente_narrativo": {
+      "hash": "1be9b6d5c06fcd1f",
+      "texto": "To conclude the tour of the Maya Peoples Hall, this full-scale installation reproduces a sustainable domestic habitat. The elliptical house and the family orchard guarantee the community’s sustenance."
+    },
+    "guion_corto": {
+      "hash": "88bdc121bbcea825",
+      "texto": "As you step into the majestic installation that dominates the Maya Hall on the upper floor of the museum, the scent of dry thatch, forest timber and damp earth immediately carries your senses to the countryside of Yucatán. The Recreation of the Traditional Maya Homestead and House is a full-scale reconstruction of the dwelling and the everyday agroecological space of Maya families of the Yucatán Peninsula. The house displays the classic apsidal plan with rounded corners, built with walls of wattle and daub, or k’ankab, a red earth mixed with grass, and a tall roof with two or four slopes made of hardwood jabin beams and palm thatch. Inside, you can see the traditional hearth with its woven hammocks hung from the posts, the clay griddle, the grinding stone and the family altar. Outside unfolds the homestead plot, or jóovel, a biodiverse orchard surrounded by limestone walls where medicinal plants, fruit trees and vegetables are grown, alongside the hives of the native Melipona bee. To contemplate this installation in the National Museum of Anthropology is to admire the sustainability of Maya architecture."
+    },
+    "guion_largo": {
+      "hash": "c03b8b563677b508",
+      "texto": "On the limestone plains of the Yucatán Peninsula, among the low forests and the freshwater cenotes, the Maya people have developed over more than three millennia one of the most sustainable forms of habitat and ecological management on the planet, one perfectly adapted to the tropical climate: the traditional house, or nah, and the agroforestry homestead plot. Unlike Western urban conceptions that sharply separate the dwelling from the natural surroundings, in the Maya worldview the house and the homestead plot form a single living and sacred organism. The structure of the dwelling reproduces the architecture of the cosmos: the four main posts or forks of hard jungle wood, known as xa’an, represent the four bacabs, the gods who hold up the four corners of the universe, while the sloping palm-thatch roof evokes the vault of heaven that shelters the family. The rounded or oval shape of the ends of the house allows the trade winds to circulate freely, keeping the interior cool under the intense temperatures of the peninsular summer. By carefully exploring the details of the dwelling and the homestead plot in the museum’s display and installation, the attentive observer admires the building and ecological wisdom of the Maya farmer. The walls are made of vertical otate canes covered with a mixture of red earth, known as k’ankab, lime and grass, which insulates against humidity. Inside, domestic life is organized with agility: cotton-thread hammocks are hung from the posts at night so that people sleep raised off the ground, and they are gathered up during the day to clear the space of the room. In one corner shines the family altar table, or k’anche’, where gourd cups of atole and balché are offered to the aluxo’ob, the guardian spirits of the forest. In the outer homestead plot, bounded by stone walls built without mortar, you can see hollow logs, or jobones, devoted to raising the stingless Melipona bee, known as Xunáan Kab, producer of the sacred, healing honey of the Maya. The history of the construction and integration of this full-scale replica of the Traditional Maya House in the National Museum of Anthropology goes back to the work of gathering architectural ethnography directed in 1964 by anthropologists of the INAH. Master Maya builders from villages in Yucatán and Quintana Roo traveled to Mexico City to cut the jabin timber and the palm thatch, raising the dwelling with their own hands and ancestral techniques on the upper floor of the museum. This permanent installation allows millions of international visitors to understand the sustainability, the climate-responsive design and the deep harmony with nature that define the everyday life of the Maya people."
+    },
+    "retos_observacion": {
+      "hash": "99939da011ecfcff",
+      "texto": [
+        "Rounded apsidal plan with four wooden posts that symbolize the four bacabs",
+        "Steeply pitched roof woven from palm thatch over jabin hardwood beams",
+        "Outer limestone wall and hollow logs (jobones) for Melipona bees"
+      ]
+    },
+    "especificaciones": {
+      "hash": "14b4e176c85d1b73",
+      "texto": {
+        "People": "Yucatec Maya",
+        "Region": "Yucatán Peninsula (Campeche, Yucatán and Quintana Roo)",
+        "Technique/Material": "Vernacular architecture (hardwood, wattle and daub, huano palm, henequen)",
+        "Function": "Recreation of the traditional dwelling and the biocultural space of the family homestead plot"
+      }
+    },
+    "faq_mito": {
+      "hash": "b6aa00377774fa65",
+      "texto": {
+        "pregunta": "Myth: The Maya house of wattle and daub and thatch is an unsanitary hut, the result of modern rural poverty.",
+        "respuesta": "Reality: According to INAH analyses, it is a millennia-old model of bioclimatic architecture perfectly adapted to the tropics."
+      }
+    }
+  }
+}

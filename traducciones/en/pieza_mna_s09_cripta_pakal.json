@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_cripta_pakal",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "730dfe8e3fb73576",
+      "texto": "Crypt and Sarcophagus of Pakal (Recreation)"
+    },
+    "frase_gancho": {
+      "hash": "56b6c720b38b9061",
+      "texto": "A tomb recreated at full scale, under a red light."
+    },
+    "puente_narrativo": {
+      "hash": "f8aeee4e7ba024ff",
+      "texto": "We continue with the tomb where that mask once lay: a full-scale recreation of Pakal’s crypt."
+    },
+    "guion_corto": {
+      "hash": "70a4622c10b572d6",
+      "texto": "You are standing before a tomb, but it is not the real one. It is a full-scale recreation of the burial chamber of King Pakal, in the Temple of the Inscriptions at Palenque. A red light falls from above onto the carved slab and the stone sarcophagus. On the slab, the king appears at the moment of his death. He descends along the trunk of a sacred ceiba tree toward the jaws of the Earth Monster, the entrance to the underworld. It is interpreted as the step before being reborn. On the walls there are stucco figures: they are the Nine Lords of the Night. Pakal was buried in the year 683 AD, and beneath the slab his skeleton was covered in cinnabar, a red pigment."
+    },
+    "guion_largo": {
+      "hash": "eaed3346b7e0d27f",
+      "texto": "Some objects are better understood in their own setting. For the mask of Pakal, that setting was this chamber.\n\nWhat you see is a full-scale recreation of the crypt of the Temple of the Inscriptions, in Palenque, Chiapas. The original chamber is made of limestone, and its walls were covered with calcium crystals. Here, the slab carved in low relief and the stone sarcophagus are reproduced, under a red light.\n\nOn the main slab, the king appears at the moment of his death. He descends along the trunk of the sacred ceiba tree toward the jaws of the Earth Monster, which is the entrance to Xibalbá, the Maya underworld. It is interpreted as the beginning of his rebirth.\n\nAll around, on the walls, there are stucco reliefs of the Nine Lords of the Night.\n\nIt is thought that Pakal had this tomb prepared while he was still alive. His son and successor, Kan B'ahlam, finished the pyramid that covers it. Pakal was buried in the year 683 AD, and beneath the slab his skeleton was completely covered in cinnabar, a red pigment.\n\nThe true tomb remains in Palenque, inside the temple. Here you have a way of peering into it."
+    },
+    "retos_observacion": {
+      "hash": "3980197e9f83d425",
+      "texto": [
+        "Look on the slab for the king descending along the trunk of the ceiba tree.",
+        "Notice the stucco figures on the walls: they are the Nine Lords of the Night.",
+        "Watch how the look of the stone changes under the red light."
+      ]
+    },
+    "especificaciones": {
+      "hash": "e8fc8aaa81a9b96a",
+      "texto": {
+        "Culture": "Maya, Palenque",
+        "Period": "Original from the Late Classic (600-900 AD); museum recreation",
+        "Material": "Full-scale recreation of a limestone chamber with slab and sarcophagus",
+        "Origin": "Temple of the Inscriptions, Palenque, Chiapas",
+        "Dimensions": "Scale 1:1"
+      }
+    },
+    "faq_mito": {
+      "hash": "ce9ae0ce02f351bd",
+      "texto": {
+        "pregunta": "Myth: The tomb of Pakal you see here is the original, brought from Palenque.",
+        "respuesta": "Reality: It is a full-scale recreation. The real crypt is inside the Temple of the Inscriptions, in Palenque."
+      }
+    }
+  }
+}

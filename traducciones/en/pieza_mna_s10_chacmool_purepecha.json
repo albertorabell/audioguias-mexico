@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_chacmool_purepecha",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b8a0967fe3491d2c",
+      "texto": "Purépecha Chac Mool from Ihuatzio"
+    },
+    "frase_gancho": {
+      "hash": "4821004dca31f26d",
+      "texto": "A reclining stone figure with a plate on its belly."
+    },
+    "puente_narrativo": {
+      "hash": "2cdbff7292570018",
+      "texto": "We continue with stone, now in Michoacán: a reclining figure, carved by Purépecha sculptors with angular lines."
+    },
+    "guion_corto": {
+      "hash": "27c0f426bb8ab22e",
+      "texto": "Ihuatzio means place of coyotes. It stood in the Lake Pátzcuaro basin, in Michoacán, and was one of the three capitals of the Purépecha empire, along with Tzintzuntzan and Pátzcuaro. This sculpture comes from there, a Purépecha Chac Mool from the Late Postclassic, carved in volcanic stone. The figure reclines with its back and elbows propped up and its legs bent. On its abdomen it holds a square plate, interpreted as an offering plate. Its face is rigid, and it wears a headdress. Everything about it is geometry, with angular lines, the signature style of Purépecha sculptors. The Purépecha built a powerful empire that resisted the Mexica attempts at invasion. This figure is a way to get to know that people through their stone."
+    },
+    "guion_largo": {
+      "hash": "40a1437cdbd8d71b",
+      "texto": "The name of this place is already an image: Ihuatzio, place of coyotes. It stood on the shores of Lake Pátzcuaro, in Michoacán, and was one of the three political capitals of the Purépecha empire. The other two were Tzintzuntzan and Pátzcuaro.\n\nThis sculpture comes from that center. It is called a Chac Mool, the name given to a type of reclining figure, and this is the Purépecha version. The figure reclines, resting on its back and elbows, with its legs bent. On its abdomen it holds a square plate, interpreted as an offering plate. Its face is rigid, and it wears a headdress.\n\nStyle is what sets it apart. It is carved in volcanic stone, with angular lines, and everything about it is geometry and rigidity. Specialists recognize in it the manner of the Purépecha school of sculpture. The Purépecha, who lived in the Lake Pátzcuaro basin, had their own language in stone.\n\nBehind the stone stands a people with a particular history. The Purépecha built a powerful empire in western Mexico, with their main centers around the lake. They resisted the Mexica attempts at invasion. Their period of greatest strength was the Late Postclassic, between 1250 and 1521 AD.\n\nThis reclining figure, with its plate and its stern expression, is a way to get to know that people through their stone."
+    },
+    "retos_observacion": {
+      "hash": "ce64fc9d00c16b2a",
+      "texto": [
+        "Look for the square plate that the figure holds on its abdomen.",
+        "Notice the figure’s headdress and rigid face.",
+        "Follow the angular lines with which the stone was carved."
+      ]
+    },
+    "especificaciones": {
+      "hash": "b195ca313f0cd1ad",
+      "texto": {
+        "Culture": "Tarascan / Purépecha",
+        "Period": "Late Postclassic (1250-1521 AD)",
+        "Material": "Stone (basalt / volcanic rock)",
+        "Origin": "Ihuatzio, Michoacán (Ihuatzio archaeological zone, Lake Pátzcuaro basin)"
+      }
+    },
+    "faq_mito": {
+      "hash": "1232077fdb571d3f",
+      "texto": {
+        "pregunta": "Myth: Every Chac Mool is a Maya sculpture.",
+        "respuesta": "Reality: This figure is Purépecha. It comes from Ihuatzio, in Michoacán, and has the geometric, rigid style of Purépecha sculptors."
+      }
+    }
+  }
+}

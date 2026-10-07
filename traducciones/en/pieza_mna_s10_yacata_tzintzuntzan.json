@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_yacata_tzintzuntzan",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "723880c21191c370",
+      "texto": "Architectural Model of a Purépecha Yácata"
+    },
+    "frase_gancho": {
+      "hash": "9538e261fe6d96ed",
+      "texto": "A pyramid with a rectangular body and a round one, crowned by a wooden temple."
+    },
+    "puente_narrativo": {
+      "hash": "d92057784f01c1bc",
+      "texto": "We close out the West with a scale model: the shape of Purépecha pyramids."
+    },
+    "guion_corto": {
+      "hash": "c50df0bb470ca20d",
+      "texto": "A pyramid with a rectangular body and a round one: that is what Purépecha yácatas looked like. This is a scale model of one of them, made of clay. It belongs to the Tarascan or Purépecha culture, from the Late Postclassic, and it represents the yácatas of Tzintzuntzan and Ihuatzio, in Michoacán. A yácata is a mixed pyramidal base. It has a stepped rectangular body at the front, joined at the back to a semicircular or cylindrical body. On the summit stood conical temples of wood and straw, dedicated to the main deities, led by Curicaueri, the god of solar fire. The original structures were built with stone cores and carved slabs of volcanic stone."
+    },
+    "guion_largo": {
+      "hash": "9b336ccbfa2427d2",
+      "texto": "A pyramid unlike any other. The Purépecha yácata combines two shapes: a stepped rectangular body at the front and a semicircular or cylindrical body at the back.\n\nThis is a scale model, made of clay. It represents the yácatas of Tzintzuntzan and Ihuatzio, in the Lake Pátzcuaro basin, in Michoacán. It belongs to the Tarascan or Purépecha culture and dates to the Late Postclassic.\n\nThe original yácatas were built with stone cores and carved slabs of volcanic stone. On the summit, conical temples of wood and straw were raised. They were dedicated to the main deities, led by Curicaueri, the god of solar fire.\n\nIn Tzintzuntzan, whose name translates as Place of hummingbirds, five monumental yácatas still stand, lined up on a single platform. They face Lake Pátzcuaro. The great ceremonial platform measures more than four hundred meters long by two hundred fifty wide.\n\nOn their summits, priests kept sacred fires burning day and night. It was the divine nourishment of the Sun.\n\nLook at the model from above, if you can. You will see how the rectangular body and the round one join into a single structure."
+    },
+    "retos_observacion": {
+      "hash": "5b61168991effb65",
+      "texto": [
+        "Find the stepped rectangular body at the front.",
+        "Look at the round body joined at the back.",
+        "Imagine the wood and straw temple that crowned the summit."
+      ]
+    },
+    "especificaciones": {
+      "hash": "15783f297bd5cea4",
+      "texto": {
+        "Culture": "Tarascan / Purépecha",
+        "Period": "Late Postclassic (1200-1521 AD)",
+        "Material": "Scale model in clay (the original yácatas had a stone core and slabs of volcanic stone)",
+        "Origin": "Tzintzuntzan and Ihuatzio, Pátzcuaro basin, Michoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "7e754307613e340c",
+      "texto": {
+        "pregunta": "Myth: Yácatas were military forts built by invaders.",
+        "respuesta": "Reality: They were Purépecha pyramidal bases, with temples on top dedicated to Curicaueri, the god of solar fire."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_olla_paquime",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1f9e4df270155b31",
+      "texto": "Polychrome Jar from Paquimé / Casas Grandes"
+    },
+    "frase_gancho": {
+      "hash": "526e9e6953a46391",
+      "texto": "Geometry in red and black, painted at a crossroads in the north."
+    },
+    "puente_narrativo": {
+      "hash": "07e3d4e34a2e0c17",
+      "texto": "Now the tour reaches northern Mexico, a land of deserts and mountain ranges. We begin with a jar from Paquimé, in Chihuahua, painted with geometric designs."
+    },
+    "guion_corto": {
+      "hash": "5383919453fed611",
+      "texto": "Between 1100 and 1300 AD, Paquimé lived its finest moment, and this jar belongs to that period. It is made of clay and painted in black and red on a cream background. Its bands combine triangles, stepped frets, zigzag lines and spirals, with an almost musical balance. Paquimé, in Chihuahua, was a great trading center of the north, where the routes linking the southwestern United States with Mesoamerica crossed. In its pottery, it is common to find the stylized head of a scarlet macaw or of a feathered serpent, hidden among the geometric lines. Macaws were so valuable that they were raised in adobe cages, and their feathers were sold across the desert. This jar comes from that world of exchange, of craftsmanship and of vivid color."
+    },
+    "guion_largo": {
+      "hash": "6e37134eabc17353",
+      "texto": "This jar comes from Casas Grandes, in Chihuahua, which is also called Paquimé. Its Middle Period, within the Postclassic, reached its peak between 1100 and 1300 AD.\n\nImagine the place in those years as a crossroads. It was a great trading center of the north. The trade routes that connected the southwestern United States with the civilizations of Mesoamerica passed through it. In a place like this, pottery reached a remarkable mastery.\n\nThe jar was modeled in clay and painted in black and red on a cream background, which is sometimes described as buff. Its decoration is pure geometry: triangles, stepped frets, zigzag lines and spirals. They are arranged in bands and in symmetrical fields, so that each figure seems to answer another.\n\nThat geometry holds surprises. In Paquimé pottery, the stylized head of a scarlet macaw or the figure of a feathered serpent is often hidden among the abstract strokes. The macaw was no ordinary ornament.\n\nArchaeologists have confirmed that scarlet macaws were raised there in special adobe cages. The birds were tended in order to sell their feathers throughout the desert belt. A vessel painted in red and black was therefore part of a world of birds, feathers and roads.\n\nToday, a glance at that rhythm of lines is enough to recognize a Paquimé vessel among many others."
+    },
+    "retos_observacion": {
+      "hash": "c17c5623480ee305",
+      "texto": [
+        "Look for the triangles and stepped frets that repeat across the bands.",
+        "Find the spirals and the zigzag lines, and compare their movement.",
+        "Notice how the black and the red are distributed over the cream background."
+      ]
+    },
+    "especificaciones": {
+      "hash": "781ab5025ffadeac",
+      "texto": {
+        "Culture": "Casas Grandes / Paquimé",
+        "Period": "Postclassic / Paquimé Middle Period (peak between 1100 and 1300 AD)",
+        "Material": "Polychrome clay (red and black paint on cream)",
+        "Origin": "Paquimé, Casas Grandes, Chihuahua"
+      }
+    },
+    "faq_mito": {
+      "hash": "b12b7de20c45418d",
+      "texto": {
+        "pregunta": "Myth: Paquimé and Casas Grandes are two different cultures.",
+        "respuesta": "Reality: They are two names for the same culture. Casas Grandes is the better known, and Paquimé is the name of the ancient settlement in Chihuahua."
+      }
+    }
+  }
+}

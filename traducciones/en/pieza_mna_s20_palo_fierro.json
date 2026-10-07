@@ -1,0 +1,64 @@
+{
+  "id": "mna_s20_palo_fierro",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Sonora\" para \"Sonora\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Sonora\" para \"Sonora\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Seri\" para \"Seri\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "622bb9e4336e3e73",
+      "texto": "Community Sculpture Carved in Ironwood"
+    },
+    "frase_gancho": {
+      "hash": "f292df0392c44be8",
+      "texto": "Dense desert wood carved into the figure of a serpent."
+    },
+    "puente_narrativo": {
+      "hash": "0464fe32584557a6",
+      "texto": "To conclude the tour of Hall 20, this fine desert-wood sculpture pays tribute to the sacred creatures of the Sea of Cortez and the Sonoran Desert. The Comcaac artisans transformed ironwood into a masterpiece."
+    },
+    "guion_corto": {
+      "hash": "842a8ed547b8ae40",
+      "texto": "As you approach the display case that holds this gleaming animal figure in the Northern Mexico Hall on the Upper Floor of the museum, the polished density of the dark grain and the satin sheen of the wood immediately captivate the senses. The Community Sculpture Carved in Ironwood represents one of the most emblematic traditional art forms of the Sonoran Desert, created by artisans of the Comcaac (Seri) and Yaqui peoples. Sculpted from the dense, heavy wood of the ironwood tree, Olneya tesota, one of the hardest woods in the world and one that does not float in water, this sculpture portrays the stylized figure of a sacred animal of the desert and marine environment, such as the loggerhead turtle, the sailfish, the bald eagle, the deer or the rattlesnake. The carving process calls for a machete, a rasp and files to cut the hard wood, followed by intensive hand polishing with turtle fat or wax and buffing with a clean flannel until a smooth, mirror-like finish is achieved. To contemplate this sculpture in the National Museum of Anthropology is to admire the triumph of native art over the desert."
+    },
+    "guion_largo": {
+      "hash": "89b11e0ba66bf9a6",
+      "texto": "In the arid and fascinating ecosystem of the Sonoran Desert, where extreme temperatures and parched soil shape the wild flora, the ironwood tree, known as pasaak in the Seri language, is one of the most revered, resilient, beautiful and irreplaceable plant species in the geography of Northern Mexico. With centuries-old specimens that can exceed five hundred years of life, ironwood has wood of extraordinary density and hardness, marked by a jet-dark brown heartwood and reddish golden veins that give it an incomparable mineral beauty. In the second half of the twentieth century, the renowned Seri craftsman José Astorga began the community tradition of sculpting ironwood with hand tools to give form to the mythical and animal creatures that live in the historical memory of his people and in the waters of the Gulf of California. What began as a family craft quickly became a prestigious community school of sculpture, adopted by Comcaac, Yaqui and Mayo creators throughout the state of Sonora. As you carefully study the volumes and surface of the sculpture in the museum display case, the attentive observer admires the organic fluidity with which the sculptor drew the figure out of the rigid wood. The piece has a streamlined, stylized silhouette that makes use of the natural grain of the ironwood to highlight the animal’s anatomy: the dark tones from the center of the wood define the back or shell of the specimen, while the lighter grain of the sapwood accentuates the creature’s fins, head and belly. The surface is not covered with industrial synthetic varnishes or chemical lacquers; instead, its lustrous, satin sheen is achieved by patiently rubbing the polished wood with beeswax or natural oils using cotton cloths, a traditional technique that brings out the soft warmth to the touch and the resinous aroma of the desert wood. The story of how this community ironwood sculpture was gathered and added to the ethnographic collection of the National Museum of Anthropology is part of the research projects on folk art and community industries promoted by INAH in Northern Mexico from the 1970s onward. Anthropologists visited the craft workshops of Punta Chueca, Kino and Hermosillo, selecting sculptures of exceptional aesthetic value carved by renowned Comcaac and Yaqui master artisans. The permanent exhibition of this sculpture on the Upper Floor of the MNA allows visitors from all over the world to pay tribute to the creativity, technical mastery and deep love for wildlife that characterize the Indigenous peoples of the state of Sonora."
+    },
+    "retos_observacion": {
+      "hash": "6f95febd6845e8b8",
+      "texto": [
+        "Satin sheen and smooth texture achieved by hand polishing with natural wax",
+        "Contrasting grain between the dark jet-brown heartwood and the golden sapwood",
+        "Stylized, streamlined silhouette of the hand-carved animal figure"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ac09b0f7c916d577",
+      "texto": {
+        "People": "Comcaac",
+        "Region": "Coast of the Sonoran Desert (Punta Chueca and Desemboque, Sonora)",
+        "Technique/Material": "Inert ironwood (Olneya tesota), hand-carved, sanded and burnished with wax",
+        "Function": "Contemporary artistic sculpture, sacred zoomorphic representation and economic livelihood"
+      }
+    },
+    "faq_mito": {
+      "hash": "b2078f64aee3156e",
+      "texto": {
+        "pregunta": "Myth: The Sonoran ironwood sculpture is a souvenir molded from plastic or factory-made industrial resin.",
+        "respuesta": "Reality: According to INAH analyses, it is a handcrafted sculptural work carved by hand from the dense wood of Olneya tesota."
+      }
+    }
+  }
+}

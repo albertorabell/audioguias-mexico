@@ -1,0 +1,58 @@
+{
+  "id": "mna_s12_acervo_textil",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "especificaciones": [
+      "el glosario pide \"Nahua Peoples\" para \"Nahuas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "91ae1238e48b4489",
+      "texto": "Community Textile Collection (huipils and traditional looms)"
+    },
+    "frase_gancho": {
+      "hash": "ac99ff0bca2e6c07",
+      "texto": "Loom-woven cloths where women weave cosmic memory."
+    },
+    "puente_narrativo": {
+      "hash": "954575fbec933368",
+      "texto": "Closing the tour of the first ethnographic hall, this collection of traditional garments celebrates women’s textile art and its ancestral symbols."
+    },
+    "guion_corto": {
+      "hash": "8d49e0ff98b80ab7",
+      "texto": "Standing before the display cases that hold the dazzling collection of Indigenous textiles in the halls on the upper floor, visitors are captivated at once by the burst of color and the delicacy of the weaving. The Community Textile Collection brings together a living collection of huipils, shoulder capes, wraparound skirts, sashes, and shoulder bags made by artisan weavers from many regions of the country, such as Oaxaca, Chiapas, Guerrero, Michoacán, and the Puebla highlands. Made predominantly on the ancient backstrap loom or the treadle loom, these garments use natural fibers of white cotton and brown coyuchi cotton, sheep’s wool, and maguey ixtle fiber, dyed with organic dyes of cochineal, blue indigo, and purple sea snail. More than mere dresses or secular ornamental garments, the huipils are true codices of cloth, in which the artisans capture, through embroidery and brocade, the structure of the universe: the four celestial directions, the Water Serpent, the flowers of the hill, and the ancestors. To contemplate these textile works in the National Museum of Anthropology is to admire the knowledge, the patience, and the spiritual standing of Indigenous women in the weaving of life."
+    },
+    "guion_largo": {
+      "hash": "c9baa5d241c6dbda",
+      "texto": "In the artisanal and ideological tradition of the Indigenous peoples of Mexico, textile making is one of the most complex, beautiful, and symbolically charged creative expressions of native culture. As direct heirs of the pre-Hispanic techniques depicted on stelae and clay figurines, where the goddess Ixchel presided over weaving and fertility, Indigenous women continue to transform thread into a unique graphic language that conveys the identity of their people. The primary instrument of this work is the backstrap loom, a portable loom made of wooden rods that the weaver fastens at one end to a tree or post and at the other to a leather strap resting on the lower part of her belly. By tensing the loom with the weight of her own body, the artisan interlaces the warp and the weft using the bone or the shuttle, patiently composing the designs of the cloth, which can require entire months of continuous work. The Textile Collection preserved in the National Museum of Anthropology brings together emblematic pieces of singular technical virtuosity. Among them stand out the high-mountain gauze huipils of Cuetzalan in Puebla, the colorful three-dimensional brocades of the Tzotzil and Tzeltal communities of Zinacantán and Larráinzar in Chiapas, the heavy wedding huipils of Jalapa de Díaz in Oaxaca, and the intricate sashes and wraparound skirts dyed with indigo by Purépecha women of Michoacán and Amuzgo women of Guerrero. The iconography woven around the neck and chest of the garment is not random: the square or circular opening of the huipil’s neckline represents the sun, or the portal through which a woman’s head emerges to place herself at the center of the cosmos. The brocades of interlocking diamonds symbolize the world and the flowers of the hill, while the figures of birds, toads, jaguars, and butterflies evoke the guardian spirits of nature and of water. The formation of this invaluable textile collection began in the middle of the twentieth century, thanks to ethnographic acquisition campaigns led by INAH pioneers and to donations from distinguished researchers and anthropologists. Many of the garments were acquired directly from master weavers at the community markets of Tlaxiaco, San Cristóbal de las Casas, and Cuetzalan, recording the name of the creator, the type of loom, the plant dyes, and the mythological meaning of the brocades. This collection is on permanent display in the ethnographic halls on the upper floor of the museum, remaining an inexhaustible source of aesthetic inspiration that shows that textile thread is the historical document in which the resistance and dignity of Indigenous women of Mexico have been embroidered."
+    },
+    "retos_observacion": {
+      "hash": "f1d3aa525570ea3a",
+      "texto": [
+        "Neckline opening of the huipil with diamond embroidery that symbolizes the four celestial directions",
+        "Sample of the backstrap loom tied to a support, with native coyuchi cotton threads",
+        "Three-dimensional brocades of flora and fauna dyed with cochineal and indigo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d76cb21aa1ad8911",
+      "texto": {
+        "Indigenous People": "Amuzgo, Tzotzil, Nahua, Chinantec, Triqui, among others",
+        "Region": "Oaxaca, Chiapas, Puebla, Guerrero, and Yucatán",
+        "Technique/Material": "Cotton, wool, silk, natural dyes; woven on a backstrap loom and brocaded",
+        "Function": "Ceremonial and everyday clothing with high identity value"
+      }
+    },
+    "faq_mito": {
+      "hash": "27c9d23d43654cb1",
+      "texto": {
+        "pregunta": "Myth: Indigenous huipils and embroidery are modern commercial fashions copied from European dress catalogs.",
+        "respuesta": "Reality: According to INAH catalogs, they are sacred pre-Hispanic garments made on the backstrap loom that represent the worldview and geography of the community."
+      }
+    }
+  }
+}

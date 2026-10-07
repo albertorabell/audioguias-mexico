@@ -1,0 +1,61 @@
+{
+  "id": "mna_s16_traje_volador",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Nahua Peoples\" para \"Nahuas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Voladores\" para \"Voladores\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "99041fc5b978d128",
+      "texto": "Ceremonial Costume of the Flying Dancer"
+    },
+    "frase_gancho": {
+      "hash": "c3050c4dc588f0e5",
+      "texto": "Flight attire that spins toward the four solar directions."
+    },
+    "puente_narrativo": {
+      "hash": "6d56702883579901",
+      "texto": "Continuing toward the space consecrated to the ceremonies of the air, this red attire personifies the sacred bird that descends from the sky."
+    },
+    "guion_corto": {
+      "hash": "324ca62a92d42d97",
+      "texto": "Stopping before the mannequin dressed in the performer's garments in the Gulf Coast and Puebla Hall on the upper floor of the museum, you are immediately captivated by the intensity of the crimson red and the elegance of the feathers. The Ceremonial Costume of the Flying Dancer is the sacred garment worn by the Totonac and Nahua performers of Papantla and the Sierra Norte de Puebla during the emblematic Flight of the Voladores (Flyers) ceremony. The attire consists of red satin trousers adorned with golden fringes, a conical hat, or straw cap, covered with flowers and multicolored feathers, and two kerchiefs, or semicircles, crossed over the chest and the back that imitate the outspread wings of a sacred bird. During the ceremony, four dancers who embody the four cosmogonic directions of the universe and a leader who plays the small drum and the reed flute climb to the top of a wooden pole more than thirty meters high, then hurl themselves into the void, tied by ropes, to spin thirteen times as they descend. To contemplate this ceremonial dress in the National Museum of Anthropology is to admire the harmony between the air, faith and pre-Hispanic astronomy."
+    },
+    "guion_largo": {
+      "hash": "6d3545f6b7f18094",
+      "texto": "In the fertile lands of the Gulf Coast of the Gulf of Mexico and on the steep slopes of the Sierra Norte de Puebla, the Ritual Ceremony of the Voladores is one of the oldest and most liturgically powerful mythical, gastronomic and astronomical expressions of Mesoamerica. Recognized by UNESCO as Intangible Cultural Heritage of Humanity, this tradition goes back thousands of years, to when the Totonac sages conceived this rite of rain invocation during a period of extreme drought that threatened to wipe out the region's crops. For the Totonac, or Tutunaku, people of Papantla, the sacred pole, cut in the forest with prayers of forgiveness to the spirit of the tree, represents the axis mundi, or cosmic tree, which connects the earthly underworld with the vault of heaven. The four dancers who climb to the rotating platform, or apple, are not performing an athletic feat of acrobatics, but taking on the role of sacred birds that descend to earth to bring water, fertility and solar harmony to the four directions of creation. When you look closely at the textile details and the ornaments that make up the ceremonial dress in the museum display case, you can appreciate the meticulous symbolism of each garment. The bright red trousers of satin or silk evoke the blood of warriors and the warm light of the Sun at dawn. Across the chest and back of the flyer cross two triangular kerchiefs dyed in bright yellow and red, adorned with cross-stitch embroidery of wildflowers, mystical birds and round mirrors that reflect the rays of the Sun. The conical hat, or cap, that covers the dancer's head represents the beak of the heron or the sacred eagle, crowned by a circular plume of bird feathers that spins in the wind and from which hang long multicolored ribbons that imitate the rainbow announcing the end of the rainstorm. In their hands, the dancers carry maracas, or gourd rattles, with which they mark the rhythmic beat as they spin suspended in the air. The chronicle of how this ritual dress was gathered and added to the ethnographic collection of the National Museum of Anthropology belongs to the anthropological documentation expeditions carried out in the mid-twentieth century by INAH researchers in Tajín and Papantla, Veracruz. The museum's ethnographers worked in direct collaboration with the Council of Elders of the Voladores and with master artisans of the Totonac region, acquiring the complete attire made with the traditional materials of satin, bird feathers and mirrors. The permanent display of this ceremonial costume on the upper floor of the MNA pays tribute to the living strength of the flight rite, showing visitors from all over the world the profound spirituality and cultural resilience of the native peoples of the Gulf Coast of the Gulf of Mexico."
+    },
+    "retos_observacion": {
+      "hash": "e89a489463cb9be7",
+      "texto": [
+        "Conical hat imitating the beak of the sacred bird, crowned with plumage and ribbons",
+        "Triangular kerchiefs crossed over the chest with circular mirrors that reflect the sun",
+        "Golden fringes and floral embroidery on the hems of the red satin trousers"
+      ]
+    },
+    "especificaciones": {
+      "hash": "082591921c4764c8",
+      "texto": {
+        "People": "Totonac / Nahua",
+        "Region": "Sierra Norte de Puebla and Totonacapan (Papantla / Cuetzalan)",
+        "Technique/Material": "Red velvet/satin, golden bugle-bead fringe, mirrors, feathers and embroidery",
+        "Function": "Sacred attire for the cosmogonic ritual of the Voladores (rain invocation)"
+      }
+    },
+    "faq_mito": {
+      "hash": "692f8e238345ee48",
+      "texto": {
+        "pregunta": "Myth: The Dance of the Flyers is a circus show or a tourist attraction of acrobatics invented in the 20th century.",
+        "respuesta": "Reality: According to INAH studies, it is a pre-Hispanic astronomical and agricultural ceremony inscribed on the UNESCO list of Intangible Heritage of Humanity."
+      }
+    }
+  }
+}

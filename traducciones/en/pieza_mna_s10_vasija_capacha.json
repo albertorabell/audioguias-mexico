@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_vasija_capacha",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4095784a122ad49e",
+      "texto": "Stirrup-Handle Vessel from the Capacha Complex"
+    },
+    "frase_gancho": {
+      "hash": "581b65516fa9152a",
+      "texto": "A vessel of two bodies joined by tubes, with relatives in Ecuador."
+    },
+    "puente_narrativo": {
+      "hash": "55808de643f88263",
+      "texto": "We go back to the Early Preclassic, with one of the oldest ceramics of West Mexico: a double-bodied vessel."
+    },
+    "guion_corto": {
+      "hash": "28d65441e759e202",
+      "texto": "This vessel is among the oldest of West Mexico. It belongs to the Capacha Complex, from Colima, from the Early Preclassic, between 1500 and 1000 BC. Capacha is the name of the old hacienda where the type site was found, and this tradition spread toward Jalisco and Michoacán. The vessel has a double body, a design called a bule. A globular upper chamber connects to the lower one by two or three vertical tubes, which form a stirrup handle. It is made of polished dark brown or black clay, with fine incisions and stippled fields. That configuration is unique in early pre-Hispanic Mexico. Some specialists propose that it resembles contemporary ceramics from Ecuador, such as those of Valdivia and Machalilla."
+    },
+    "guion_largo": {
+      "hash": "6b01750f6bc31ad5",
+      "texto": "Two bodies joined by tubes: that is what this vessel is. It belongs to the Capacha Complex, from Colima, and it dates to the Early Preclassic, between 1500 and 1000 BC. It is one of the oldest pottery traditions recorded in West Mexico.\n\nCapacha is the name of an old hacienda in Colima, where the type site was found. From there, the tradition spread toward Jalisco and Michoacán.\n\nLook at the design. It is a double-bodied vessel, called a bule. A globular upper chamber connects to the lower one by two or three vertical tubes. Those tubes form a stirrup handle.\n\nThe surface is made of dark brown or black clay, polished. It is decorated with incised bands of geometric motifs, diamonds and crosses, and with stippled fields. These are fine lines, made with an instrument on clay that was still soft.\n\nThis form of connecting tubes and stirrup handle is unique on the early pre-Hispanic map of Mexico. And there is a surprising coincidence. It resembles ceramics from the same era in the Andean area of South America, such as the Valdivia and Machalilla cultures, in Ecuador. Some specialists propose that this suggests early exchanges across the Pacific Ocean. It is a hypothesis.\n\nA vessel this ancient, and already with such a complex form."
+    },
+    "retos_observacion": {
+      "hash": "b02b9790b4141527",
+      "texto": [
+        "Look for the vertical tubes that join the two bodies.",
+        "Notice the incised bands with diamonds and crosses.",
+        "Look at the dark brown color and the polish of the surface."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a108382a93553bf5",
+      "texto": {
+        "Culture": "Capacha",
+        "Period": "Early Preclassic, Formative (1500-1000 BC; around 1450 BC)",
+        "Material": "Polished dark brown or black clay ceramic, with fine incisions and stippled fields",
+        "Origin": "Colima (type site at the old Capacha hacienda), with spread toward Jalisco and Michoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "399d34027395bd59",
+      "texto": {
+        "pregunta": "Myth: This vessel was brought by the Spanish in the sixteenth century.",
+        "respuesta": "Reality: It is an Early Preclassic ceramic, from between 1500 and 1000 BC, made in West Mexico long before the arrival of the Europeans."
+      }
+    }
+  }
+}

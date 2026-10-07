@@ -1,0 +1,54 @@
+{
+  "id": "mna_s12_mapa_lenguas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "97f3f1598e3ede65",
+      "texto": "Great Mural and Ethnolinguistic Map of Mexico"
+    },
+    "frase_gancho": {
+      "hash": "dee1112ae2e5f4ca",
+      "texto": "A tapestry of living languages that name the Mexican land."
+    },
+    "puente_narrativo": {
+      "hash": "148dca5566de6879",
+      "texto": "As you enter the Upper Floor, this cartographic installation geographically locates the extraordinary linguistic and cultural diversity of today’s Indigenous peoples."
+    },
+    "guion_corto": {
+      "hash": "5c9311d43dcd7d5d",
+      "texto": "Standing at the entrance to the upper floor of the National Museum of Anthropology, you are immediately overwhelmed by the monumental scale of the Ethnolinguistic Map of Mexico. Before the visitor’s eyes unfolds a geographic mosaic in which sixty-eight native language groups intertwine like the grain of an ancestral tree across the national territory. The map does not show cold political borders, but the living distribution of more than seven million speakers of Indigenous languages who preserve the ancient memory of their ancestors. On the opposite wall, the great ethnographic murals commissioned during the construction of the building in 1964 from artists such as Luis Covarrubias, Antonio Estrada and Nicolás Moreno show the landscape, the ceremonial festivals and the everyday dignity of the native peoples. The bright hues that mark the Sierra Madre Occidental, the valleys of Oaxaca, the Maya rainforest and the Gulf coasts reveal that Mexico’s biological diversity is inseparable from its linguistic heritage. To contemplate this ethnographic gateway is to understand that native voices are not static relics of a remote past, but the cultural energy that defines the identity of contemporary Mexico in the twenty-first century."
+    },
+    "guion_largo": {
+      "hash": "f89a4c8ce66afe87",
+      "texto": "Walking through the upper floor of the National Museum of Anthropology, conceived in 1964 by the museographic team of the architect Pedro Ramírez Vázquez and anthropologists such as Guillermo Bonfil Batalla and Alfonso González Villarruel, you find the ethnographic space standing as the indispensable complement to the archaeology halls. While the ground floor safeguards the material testimonies of the great pre-Hispanic states that collapsed, the upper floor is devoted entirely to the living Indigenous communities that withstood five centuries of colonial domination and historical transformation, preserving their language, their worldview and their community institutions. The conceptual starting point is the Great Ethnolinguistic Map of Mexico, a large-format cartographic installation that translates the country’s linguistic wealth into color codes. Language families such as Uto-Aztecan, Maya, Oto-Manguean, Totonac-Tepehua and Mixe-Zoque, and language isolates such as Seri and Purépecha, are not mere dialectal variants, but ancient structures of thought capable of naming the flora, the fauna, the winds and the spirituality of the Mesoamerican and Aridoamerican territory with an irreplaceable, intrinsic scientific precision. As you explore in detail the mural panels that frame the gallery, you admire a work of artistic and anthropological synthesis commissioned from great masters of twentieth-century Mexican painting. Painters such as Luis Covarrubias portrayed in delicate detail the geographic regions of Oaxaca, the Maya basin and the highlands of Puebla, joining in a single panoramic horizon the pine-covered peaks, the terraced cornfields, the Sunday markets and the sacred shrines where rain-petitioning rites are celebrated. A visual detail of deep ethnographic relevance lies in how the artists included human figures wearing their traditional dress, huipils, quechquemitl capes, woolen jackets and straw hats, taking part in farm work and in ceremonial dances such as the Quetzal Dance or the Tiger Dance. The map and the murals do not isolate Indigenous groups in a rural exoticism, but document the complex networks of contemporary migration, work in the fields and civic-religious organization through the system of community offices and the stewardship of religious festivals. The history of how this museum collection came together goes back to the fieldwork begun in 1962 by the team of researchers of the Ethnography Subdirectorate of INAH. For almost three years, anthropologists and photographers traveled to the most remote villages of the Sierra Gorda, the Gran Nayar, the Huasteca, the Mountain region of Guerrero and the Chiapas Highlands to record oral tradition, map dialectal variants and commission master artisans themselves to make the objects, garments and models on display in the museum. The Great Ethnolinguistic Map has been continuously updated on the basis of the censuses of INALI and INEGI to reflect the current demographic dynamics, in which more than seven million three hundred thousand Mexicans speak a native language. This opening installation reaffirms the core mission of the National Museum of Anthropology: to celebrate Indigenous nations as the living pillars of the cultural sovereignty and identity of Mexico."
+    },
+    "retos_observacion": {
+      "hash": "dc07d0dd621db3cd",
+      "texto": [
+        "Boundaries of the Uto-Aztecan and Oto-Manguean language families on the map",
+        "Details of traditional dress depicted in the regional murals",
+        "Indicators of demographic dynamics and speakers in the mountains and valleys"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3849ad24072ad3de",
+      "texto": {
+        "Indigenous People": "Plurinational (68 ethnolinguistic groups)",
+        "Region": "National (Territory of the Mexican Republic)",
+        "Technique/Material": "High-resolution digital printing, wood, LED lighting and audio",
+        "Function": "Educational introduction to the living ethnolinguistic diversity of Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "44aef1db4cebb0d7",
+      "texto": {
+        "pregunta": "Myth: The Ethnolinguistic Map shows dead languages of the past that are no longer spoken in contemporary Mexico.",
+        "respuesta": "Reality: According to INAH data, the map records 68 living language groups spoken by more than 7 million people in the country."
+      }
+    }
+  }
+}

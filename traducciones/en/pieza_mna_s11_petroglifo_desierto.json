@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_petroglifo_desierto",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d75191878d531d35",
+      "texto": "Petroglyph and Ceremonial Scraper of Hunter-Gatherers"
+    },
+    "frase_gancho": {
+      "hash": "4fe43efc5778f352",
+      "texto": "An engraved rock and a carved stone tool: traces left by the hunters of the desert."
+    },
+    "puente_narrativo": {
+      "hash": "3db7e68068fade03",
+      "texto": "We continue with the hunter-gatherers of the desert, now through stone: an engraved rock and a carved tool."
+    },
+    "guion_corto": {
+      "hash": "3b5709701c407fba",
+      "texto": "A rock with drawings and a tool with a sharp edge seem like different things. Yet they were born of the same tradition: that of the hunter-gatherers of the desert, in what is known as the Great Chichimec. Their traces appear in deserts and mountain ranges, from Coahuila to Baja California. They worked volcanic stone, basalt, flint and chert, always by striking and with careful retouching. The scraper was used to clean hides and to work wood and agave fibers, that is, to live. The engravings, by contrast, are interpreted as signals: marks of territory, of water sources and of routes. Between one and the other lies a very long tradition, stretching from 8000 BC to 1500 AD. It is the memory of people who moved with the desert and left it marked in stone."
+    },
+    "guion_largo": {
+      "hash": "8e87a2fd241714fa",
+      "texto": "A petroglyph is a drawing engraved on a rock, and a scraper is a stone tool with a sharp edge. Here they appear together because they tell two sides of one and the same life: that of work and that of signals.\n\nBehind them are the hunter-gatherers of the desert, of the Aridoamerica tradition known as the Great Chichimec. They were nomadic groups who traveled through the deserts and mountain ranges of northern Mexico, in what today are Coahuila, Durango, Chihuahua, Sonora and Baja California.\n\nThe technique is the same in both pieces: the stone was worked by striking and then retouched. With it they made the tools, and also the engravings on the rock. Volcanic stone and basalt were used, and also flint and chert.\n\nThe scraper is a tool for daily use. Many of them had a wooden handle, attached with plant resin, such as that of the mesquite, and tied with agave fibers. With them, meat was processed and hides were scraped. The hard fibers of the agave and wood were also worked, to make nets and weapons.\n\nThe petroglyphs speak of something else. Archaeologists propose that they served as maps of the territory, as markers of water sources and as travel itineraries and sky tracking.\n\nThe time span of this tradition is enormous: it runs from 8000 BC to 1500 AD. A single engraving does not tell all of that. But it is a reminder that the desert was inhabited and that its people knew it and marked it with patience."
+    },
+    "retos_observacion": {
+      "hash": "d47c86f96cbf88c3",
+      "texto": [
+        "Look for the engravings that were left marked on the surface of the rock.",
+        "Compare the worked edge of the tool with the surface of the rock.",
+        "Look for the marks of blows and retouching that gave the tool its edge."
+      ]
+    },
+    "especificaciones": {
+      "hash": "116883fc2deb1167",
+      "texto": {
+        "Culture": "Aridoamerica / Tradition of the desert cultures (Great Chichimec)",
+        "Period": "Lithic Stage to Postclassic (8000 BC-1500 AD)",
+        "Material": "Volcanic stone (basalt); flint and chert worked by percussion and retouching",
+        "Origin": "Deserts and mountain ranges of northern Mexico (Coahuila, Durango, Chihuahua, Sonora and Baja California)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0d584cb6fd79c21",
+      "texto": {
+        "pregunta": "Myth: Because they were nomads, the hunter-gatherers of the north did not leave elaborate works.",
+        "respuesta": "Reality: They engraved rock and carved stone tools with precise technique, in a tradition that stretches from 8000 BC to 1500 AD."
+      }
+    }
+  }
+}

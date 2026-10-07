@@ -1,0 +1,61 @@
+{
+  "id": "mna_s12_ciclo_milpa",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Nahua Peoples\" para \"Nahuas\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Nahua Peoples\" para \"Nahuas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6e14abaf576ae936",
+      "texto": "The Traditional House and the Sacred Cycle of the Indigenous Milpa"
+    },
+    "frase_gancho": {
+      "hash": "3ae212dfc5ddb535",
+      "texto": "A wattle-and-daub home where maize germinates the world."
+    },
+    "puente_narrativo": {
+      "hash": "c542f7d3b39e27de",
+      "texto": "Set at the heart of the Indigenous Peoples Hall, this architectural and agricultural replica links everyday domestic life with the cosmology of planting."
+    },
+    "guion_corto": {
+      "hash": "92ff7dc1428d2453",
+      "texto": "As you step into the spaces devoted to everyday life in the ethnographic halls, the scent of damp earth, ocote pinewood, and copal smoke immediately envelops your experience. The full-scale re-creation of The Traditional House and the Sacred Cycle of the Indigenous Milpa carries the viewer to the sacred heart of the original domestic space. Built from local organic materials, including wattle-and-daub walls, bamboo rods, adobe bricks, and four-pitched roofs of grass or straw, these dwellings are three-dimensional models of the cosmos. At the center of the room glows the hearth, or tlecuil, made of three sacred stones that hold the clay griddle for cooking tortillas, accompanied by the grinding stone, the wooden press, and the water jars. A few steps away unfolds the diorama of the milpa, the polyculture agroecosystem of maize, beans, squash, chile, and wild greens that forms the economic and spiritual axis of the communities. For the native nations, the milpa is not merely an agricultural field of production, but a sacred person who requires rites of gratitude, altars, and prayers so that the rains will bless the harvest."
+    },
+    "guion_largo": {
+      "hash": "0f557206e91b9a21",
+      "texto": "In the social structure and worldview of the Indigenous societies of Mexico, from the Nahua and Maya to the Purépecha, Otomí, and Zapotec, the traditional house and the milpa are the two cornerstones where the material and spiritual life of the community is reproduced every day. The rural dwelling is not reduced to a utilitarian construction for shelter from the weather, but functions as a domestic temple aligned with the four cardinal directions and the center of the universe. The building materials are drawn directly from the ecological surroundings of the region: pine or oak trunks in the cold highlands, bamboo cane and palm in the lowlands, and stone or adobe walls in the temperate valleys. Inside the home, the space is meticulously organized around the three-stone hearth, or tlecuil, which symbolizes the “navel” or center of the household, where maize cooked with lime, known as nixtamal, is transformed into the life-giving dough that feeds the family. Beside the hearth, the family altar holds images of patron saints adorned with flowers, wax candles, and offerings of seeds, a point of contact between the living and the ancestors who protect the home. Inseparable from the house is the cultivation of the milpa, the ancient agricultural system that made possible the development of the great civilizations of the Americas. In the museum’s halls, the cycle of the milpa is presented as a liturgical sequence tied to the ceremonial and astronomical calendar of the peoples. The cycle begins in February and March with the rites of blessing for the seeds and the slash-and-burn clearing of the land, when farmers ask permission from the “Owners of the Wilderness,” the spirits of nature, before sowing with the planting stick, or digging stick. With the arrival of the rains in May, ceremonies to ask for water are held on sacred hills and in caves. When the first young ears of corn ripen in late summer, the festival of the first fruits takes place, where sacred atoles and corn kernel dishes are shared in an atmosphere of community celebration. Finally, in November, the harvest of the dry maize coincides with the Days of the Dead festivities, known as Xantolo or Kin Tajimoltic, when the abundance of the harvest is offered to the departed who helped from the underworld so that the cornfield would flourish. The re-creation of these dwellings and agricultural installations on the upper floor of the National Museum of Anthropology was made possible by architectural ethnography collection projects coordinated by the INAH. Master builders and Indigenous informants from Puebla, Oaxaca, Michoacán, and Yucatán traveled to Mexico City to raise, with their own hands and ancestral techniques, the houses of wood, wattle, and palm displayed in the halls. Likewise, the original agricultural tools, including machetes, digging sticks, wooden plows, palm baskets, and granaries, were donated or acquired directly in the farming communities. This permanent exhibition at the MNA teaches visitors that the Indigenous milpa is not an obsolete agricultural method, but a sustainable and sacred model of food sovereignty that has sustained Mexico for more than four millennia."
+    },
+    "retos_observacion": {
+      "hash": "e3eef4cd49995838",
+      "texto": [
+        "Traditional three-stone hearth (tlecuil) and clay griddle at the domestic center",
+        "Traditional planting tools such as the planting stick, or digging stick",
+        "Structure of lashings and wooden beams with no metal nails in the straw roof"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e44c4a607ce6b80a",
+      "texto": {
+        "Indigenous People": "Multiethnic (Nahua, Maya, Zapotec, Mixtec, among others)",
+        "Region": "Mesoamerica and agricultural regions of Mexico",
+        "Technique/Material": "Vernacular architecture (wattle-and-daub, straw, wood) and original domestic implements",
+        "Function": "Re-creation of the domestic space and the agricultural-festive ritual cycle of maize"
+      }
+    },
+    "faq_mito": {
+      "hash": "ceec02f352d62798",
+      "texto": {
+        "pregunta": "Myth: The Indigenous milpa is a simple maize monoculture identical to modern industrial plantations.",
+        "respuesta": "Reality: According to INAH studies, it is an ancient, biodiverse agroecosystem (maize, beans, squash, chile) based on community reciprocity and ecological balance."
+      }
+    }
+  }
+}

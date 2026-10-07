@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_tablero_cruz",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7e147b0d606407e2",
+      "texto": "Tablet of the Cross of Palenque"
+    },
+    "frase_gancho": {
+      "hash": "739924d51876e119",
+      "texto": "A boy and a grown king, the same man, on either side of a sacred cross."
+    },
+    "puente_narrativo": {
+      "hash": "67eab5a3d00a46ce",
+      "texto": "We remain in Palenque with the son and successor of Pakal, who ordered a great stone tablet carved with his story."
+    },
+    "guion_corto": {
+      "hash": "5968e391d3644ddb",
+      "texto": "A six-year-old boy and a grown king appear on the same stone. They are the same man, K’inich Kan B’ahlam, son and successor of Pakal. This is the Tablet of the Cross of Palenque, a Maya work of the Late Classic, carved around the year 692 AD. On the left, the young man performs a rite of self-sacrifice, which recalls an event of the year 641. On the right, now an adult, he receives the royal diadem, in an event of the year 684. At the center grows a sacred ceiba tree in the shape of a cross, and a bird perches on it. The side panels carry hieroglyphic texts about the birth of a protective god of Palenque. It is thought that they helped to justify the king’s succession."
+    },
+    "guion_largo": {
+      "hash": "1e963c3a119444b5",
+      "texto": "Imagine you want to prove that you have the right to rule. This king did it with a carved stone.\n\nIt is the Tablet of the Cross, from Palenque, in Chiapas. It is a Maya work of the Late Classic, carved around the year 692 AD. The relief is made of limestone and is divided into three slabs that form a single scene.\n\nThe protagonist is K’inich Kan B’ahlam, son and successor of Pakal. He appears twice. On the left he is a six-year-old boy performing a self-sacrifice, an event of the year 641. On the right he is an adult, taller in stature, receiving the royal diadem and the insignia of command, an event of the year 684.\n\nBetween the two stands the sacred ceiba. It has the shape of a cross and springs from a mask of the Earth. A sacred bird perches on it.\n\nThe side panels are full of hieroglyphs. They tell of the birth of the god GI, protector of Palenque. It is thought that this account served to justify the throne passing from Pakal to his son.\n\nThe piece comes from the Temple of the Cross. It is part of a group of three temples: the Temple of the Cross, the Temple of the Sun, and the Temple of the Foliated Cross. It has been proposed that they represented the three levels of the universe: the sky, the earth, and the underworld.\n\nThus, the personal story of a king became bound to the sacred tree and to the gods of his city."
+    },
+    "retos_observacion": {
+      "hash": "198ee63ce7618731",
+      "texto": [
+        "Look for the boy on the left and the adult on the right: they are the same person.",
+        "Find the ceiba in the shape of a cross and the bird perched on it.",
+        "Look at the side panels: they are covered with hieroglyphs."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a856c92d9765295d",
+      "texto": {
+        "Culture": "Maya, Palenque",
+        "Period": "Late Classic (600-900 AD)",
+        "Material": "Limestone, bas-relief on three slabs",
+        "Origin": "Temple of the Cross, Palenque, Chiapas"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7570792099c1416",
+      "texto": {
+        "pregunta": "Myth: The cross on the tablet is a Christian symbol that arrived with the Spaniards.",
+        "respuesta": "Reality: It is a sacred ceiba tree in the shape of a cross. The Maya carved it around the year 692, long before the Spaniards arrived."
+      }
+    }
+  }
+}

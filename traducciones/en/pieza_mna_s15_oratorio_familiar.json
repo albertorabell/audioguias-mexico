@@ -1,0 +1,54 @@
+{
+  "id": "mna_s15_oratorio_familiar",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e3fd782d0de2dacc",
+      "texto": "The Otomí Oratory and Family Altar"
+    },
+    "frase_gancho": {
+      "hash": "4bf929e79a68aded",
+      "texto": "A wattle-and-daub sanctuary where the saints watch over the cornfield."
+    },
+    "puente_narrativo": {
+      "hash": "faa6cc603517add7",
+      "texto": "Located in the heart of the Hñähñu household, this altar joins spiritual devotion with kinship. The candles, the copal, and the dressed crosses secure communal protection and abundance."
+    },
+    "guion_corto": {
+      "hash": "8017c90145585f5d",
+      "texto": "As you step into the reconstruction of the sacred space that dominates the Otomí Hall on the upper floor of the museum, the scent of beeswax, marigold flowers, and copal incense burners stirs the senses at once. The Otomí Oratory and Family Altar is a life-size re-creation of the domestic liturgical space typical of the Hñähñu communities of the Mezquital Valley and the Sierra of Querétaro. The structure is built with walls of wattle-and-daub or adobe and a thatched gabled roof, and inside it stands a monumental stepped altar surrounded by triumphal arches of braided palm and calendula flowers. On the steps of the altar are arranged dozens of images of patron saints, wooden crosses dressed in embroidered cloths, carved wax candles, clay copal burners, and mounds of colored corn seeds. In the Otomí worldview, the oratory is not simply a private prayer room, but the spiritual heart of the family clan, where the living gather to speak with the ancestors and ask for protection for the harvests. To contemplate this installation in the National Museum of Anthropology is to witness the deep devotion of Indigenous Mexico."
+    },
+    "guion_largo": {
+      "hash": "25f96ee94aa33c7a",
+      "texto": "In the Otomí communities of the Central Highlands of Mexico, domestic religion and the worship of ancestors are structured around a unique architectural and ritual institution of the community: the oratory, or “mó’ñi.” Unlike the parish church of the town, where the official Catholic sacraments are celebrated, the family oratory is a sanctuary of its own, managed directly by the elders, or “stewards,” of the lineage. In Hñähñu religious thought, the ancestors who founded the home and cultivated the land have not disappeared, but continue to dwell invisibly around the home and on the peaks of the sacred hills. The oratory works as the mystical doorway between the earthly world and the divine plane: inside it, the family places the images of the protective saints beside the relics of deceased grandparents. During the key moments of the agricultural cycle, such as the blessing of the seeds in February, the plea for rain in May, and the corn harvest in autumn, the entire community gathers in the oratory to sing songs of praise in the Otomí language, light ceremonial candles, and share ritual feasts. Looking closely at the composition of the altar in the museum display case, the observer admires the overwhelming abundance of sacred symbols arranged in hierarchical levels. The back of the altar is framed by arches of woven reed covered with fresh desert spoon foliage and bunches of yellow marigold flowers. On the top step shines the Holy Cross, dressed in a miniature quechquémitl, beside a miraculous niche of carved wood. On the lower steps are arranged fired-clay incense burners that give off the smoke of copal resin, beeswax votive candles, gourd bowls with spring water, and clay pots of mole, tamales, and atole made from corn dough. A detail of singular ethnographic value is the multicolored “bouquets” of cut paper and the crosses of blessed palm placed in the corners of the room to drive away bad energies and attract abundance to the cultivated fields. The history of the documentation and installation of this replica of an Otomí oratory in the National Museum of Anthropology is part of the ethnographic preservation projects coordinated in 1964 by the team of anthropologists of the INAH. The museum’s researchers traveled through the Otomí towns of Tolimán in Querétaro and Cardonal in Hidalgo, documenting the architecture of the family oratories and acquiring, with the permission of the stewards, the ceremonial elements that make up the installation. Master Otomí artisans traveled to Mexico City to raise the adobe walls and assemble the altar with fresh flowers and traditional wax. This permanent installation allows visitors to understand the richness of religious syncretism and the communal strength of the Otomian peoples of present-day Mexico."
+    },
+    "retos_observacion": {
+      "hash": "b6cc3eeff465c263",
+      "texto": [
+        "Structure of triumphal arches of reed and marigold flowers framing the altar",
+        "Main wooden cross dressed in an embroidered miniature quechquémitl",
+        "Collection of fired-clay incense burners and colored corn cobs on the lower steps"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7b3ad9ec90adc13a",
+      "texto": {
+        "People": "Otomí (Hñähñu)",
+        "Region": "Mezquital Valley (Hidalgo) and the Semidesert of Querétaro",
+        "Technique/Material": "Adobe and wood architecture, carved wax candles, clay, cut paper, and textiles",
+        "Function": "Sacred domestic space for the worship of the souls of the dead and for agricultural rites"
+      }
+    },
+    "faq_mito": {
+      "hash": "087b9a77c590adab",
+      "texto": {
+        "pregunta": "Myth: The Otomí oratory is an official Catholic chapel built by Spanish monastic orders in the 16th century.",
+        "respuesta": "Reality: According to INAH expert assessments, it is an autonomous family religious institution devoted to the worship of ancestors and to fertility."
+      }
+    }
+  }
+}

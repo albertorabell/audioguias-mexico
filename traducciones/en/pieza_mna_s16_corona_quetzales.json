@@ -1,0 +1,58 @@
+{
+  "id": "mna_s16_corona_quetzales",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Nahua Peoples\" para \"Nahuas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "809fa76a7706410c",
+      "texto": "Monumental Crown of the Dance of the Quetzals"
+    },
+    "frase_gancho": {
+      "hash": "0c84d011bd140d9a",
+      "texto": "A wheel of feathers and ribbons that makes the sun turn."
+    },
+    "puente_narrativo": {
+      "hash": "3dca5876ad59b3f3",
+      "texto": "Upon entering the Puebla Highlands Hall, this monumental star-shaped headdress introduces the agricultural and ceremonial dances of the Nahua and Totonac peoples."
+    },
+    "guion_corto": {
+      "hash": "c98ab218e8ca8d24",
+      "texto": "Standing before the display case that holds this colossal circular headdress in the Gulf Coast and Puebla Hall on the upper floor of the museum, you are struck at once by the burst of color in its rays and the dynamism of its structure. The Monumental Crown of the Dance of the Quetzals is the supreme insignia worn by dancers of Totonac and Nahua origin in the Northern Highlands of Puebla and the Papaloapan basin. Built on a frame of otate bamboo and reed strips more than a meter and a half in diameter, the crown is covered with thousands of multicolored feathers, metallic paper ribbons, circular mirrors, and long satin streamers that hang down the dancer’s back. During the ceremonial dance, the performers swivel their heads in coordinated tilts to the rhythm of the reed flute and the small drum, making the enormous wheel of feathers spin like a solar disk in motion. In the Totonac worldview, this crown is not a mere festive hat, but a living representation of the solar disk and of the quetzal bird, which blesses the four directions of the sky. To behold it in the National Museum of Anthropology is to witness the majesty of native dance."
+    },
+    "guion_largo": {
+      "hash": "c474619cdbf69b0a",
+      "texto": "In the humid mountains and green ravines of the Northern Highlands of Puebla and in the Totonac valleys of Veracruz, the Dance of the Quetzals stands as one of the oldest and most beautiful dance and astronomical testimonies of Mesoamerica. A direct heir to the ancient pre-Hispanic dances dedicated to the worship of the Sun, to the fertility of maize, and to the veneration of birds with precious plumage such as the quetzal, Pharomachrus mocinno, the dance has been preserved by the Totonac and Nahua communities of municipalities such as Cuetzalan, Zacapoaxtla, Huitzilan de Serdán, and Papantla. In Totonac cosmogonic thought, the quetzal was regarded as the divine messenger of the sky, whose emerald-green plumage symbolized the sprouting of vegetation, the drops of rain, and the rebirth of agricultural life on the hillsides. Performing the Dance of the Quetzals demands rigorous physical and spiritual preparation: the dancers must undergo vigils, prayers, and periods of abstinence before placing the heavy crown on their heads to dance for hours under the blazing sun during the community’s patron saint festivals. When you look closely at the meticulous structure and materials of the crown in the museum’s display case, you can admire the craftsmanship of the traditional workshop. The base of the headdress is made of a cap of straw or leather fitted to the dancer’s head. From this base rises a majestic net, or circular wheel, made of fine reed and otate bamboo rods interwoven with cotton threads in the form of a radiant spiderweb of four quadrants. At the tip of each rod, bundles of multicolored feathers in green, red, yellow, and blue are inserted, finished with yarn tassels and small circular mirrors that reflect the rays of the sun during the turns of the dance. From the rear center of the crown fall long streamers of bright, colorful silk that float freely over the performer’s back, symbolizing the tails of the mystical bird and the rays of sunlight in constant motion over the cultivated field. The story of how this spectacular ceremonial crown was gathered for the National Museum of Anthropology is part of the ethnographic and iconographic research projects led by the National Institute of Anthropology and History (INAH) in the Northern Highlands of Puebla in the mid-twentieth century. The museum’s anthropologists and researchers documented the dance steps in Cuetzalan and acquired historic crowns made by renowned lead dancers and master artisans of the highland region. The preservation of this monumental crown on the upper floor of the MNA allows visitors from all over the world to admire the astronomical heritage, the music of flute and small drum, and the artisanal mastery of the Totonac and Nahua peoples of Mexico."
+    },
+    "retos_observacion": {
+      "hash": "25eef8a6bcb56188",
+      "texto": [
+        "A spiderweb-like structure, or circular net, formed by reed and otate bamboo rods",
+        "Round mirrors and yarn tassels that finish off the tips of the rays",
+        "Long multicolored satin streamers hanging from the cap down the back"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b7f1442145e67f77",
+      "texto": {
+        "People": "Nahua / Totonac",
+        "Region": "Northern Highlands of Puebla (Cuetzalan del Progreso)",
+        "Technique/Material": "Reed (cane), tissue paper and metallic paper, satin ribbons, and feathers",
+        "Function": "Masking paraphernalia and ritual headdress for the Dance of the Quetzals"
+      }
+    },
+    "faq_mito": {
+      "hash": "a852dd0a7f62258e",
+      "texto": {
+        "pregunta": "Myth: The crown of the Dance of the Quetzals is a carnival ornament brought to Puebla by French immigrants.",
+        "respuesta": "Reality: According to INAH expert assessments, it is a pre-Hispanic ceremonial insignia dedicated to the cult of the sun and the sacred quetzal bird."
+      }
+    }
+  }
+}

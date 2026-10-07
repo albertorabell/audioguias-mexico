@@ -1,0 +1,61 @@
+{
+  "id": "mna_s10_pareja_ixtlan",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Shaft Tombs\" para \"Tumbas de Tiro\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Shaft Tombs\" para \"Tumbas de Tiro\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "95293fec1f059d56",
+      "texto": "Married Couple from Ixtlán del Río"
+    },
+    "frase_gancho": {
+      "hash": "21a731bae65d4268",
+      "texto": "A man and a woman from Nayarit, together even in the tomb."
+    },
+    "puente_narrativo": {
+      "hash": "6b45999ed5891a8d",
+      "texto": "Another figure from the shaft tombs, but this time a couple: a man and a woman from Nayarit, painted and adorned in fine detail."
+    },
+    "guion_corto": {
+      "hash": "56366cdea5a64c3d",
+      "texto": "A man and a woman sitting side by side, as in any home. But this scene did not belong to a home. It belonged to a tomb. This is the couple from Ixtlán del Río, in Nayarit, modeled in polychrome clay in the shaft tomb tradition, during the Classic period. He wears a cap with raised bumps, chest ornaments, and a fan or a rattle. She wears a short skirt and a highly structured hairstyle, and rests her hands on her belly. Both have geometric paint on their faces and bodies, and multiple rings in their ears and noses. They are thought to represent the unity of the family, the complementary roles of man and woman, and the continuity of the lineage. Placing them in the underground chamber was a way of preserving the couple's social standing and companionship after death."
+    },
+    "guion_largo": {
+      "hash": "18fe6c949234e15c",
+      "texto": "Ixtlán del Río, in the state of Nayarit, gives its name to a highly recognizable style of clay sculpture. This couple belongs to that shaft tomb tradition and dates to the Classic period.\n\nEach figure was modeled in clay and decorated with several colors. It has geometric face and body paint, ring-shaped ornaments in the ears and nose, and modeled headdresses.\n\nThe man wears a cap with raised bumps, chest ornaments, and a fan or a rattle. The woman wears a short skirt and has a very elaborate hairstyle. Her body is covered in geometric paint, she wears several rings in her ears and nose, and she rests her hands on her belly. These small details say a great deal about how the people of Western Mexico dressed and adorned themselves.\n\nThe two are seated together. The couple is thought to represent the unity of the family, the complementary roles of man and woman, and the continuity of the lineage. The Nayarit style stands out for its expressiveness and its fondness for scenes of everyday life.\n\nTheir place, however, was underground. Figures like these were placed in the underground chambers of the shaft tombs, next to the deceased. In this way, the couple's social rank and companionship were ensured to continue in existence after death.\n\nThat is why this couple is not a portrait meant to be displayed in a home. They are two figures made so that no one would be alone in the other world."
+    },
+    "retos_observacion": {
+      "hash": "1382892c7c098f29",
+      "texto": [
+        "Look for the rings that adorn the woman’s ears and nose.",
+        "Notice the geometric paint covering the face and body.",
+        "Look for the fan or rattle that the man carries."
+      ]
+    },
+    "especificaciones": {
+      "hash": "61b7e45091045e0a",
+      "texto": {
+        "Culture": "Shaft Tomb Tradition / Nayarit (Ixtlán del Río style)",
+        "Period": "Classic (200 BC-600 AD)",
+        "Material": "Polychrome clay (ceramic) with geometric face and body paint, ring ornaments in the ears and nose, and modeled headdresses",
+        "Origin": "Ixtlán del Río, Nayarit, Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "71dfbd6834efb7b9",
+      "texto": {
+        "pregunta": "Myth: This couple was a decoration for homes of the time.",
+        "respuesta": "Reality: Figures like these were placed inside the chambers of the shaft tombs, next to the deceased, so that the couple’s social rank and companionship would continue after death."
+      }
+    }
+  }
+}

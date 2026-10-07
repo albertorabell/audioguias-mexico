@@ -1,0 +1,54 @@
+{
+  "id": "mna_s06_piedra_arzobispado",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4a54ed08e0272ffa",
+      "texto": "Stone of the Former Archbishopric"
+    },
+    "frase_gancho": {
+      "hash": "d72bc24f401e45f3",
+      "texto": "A stone cylinder found in 1988 during construction work in the center of the city."
+    },
+    "puente_narrativo": {
+      "hash": "443d24ec60f800c0",
+      "texto": "We continue with another great stone cylinder, also made to commemorate conquests and for war rituals."
+    },
+    "guion_corto": {
+      "hash": "c85270db8ba751c2",
+      "texto": "Eleven scenes of conquest wrap around this stone cylinder. In every one the same image repeats: a ruler, dressed as the god of fire, grips a defeated warrior by the hair. Beside each defeated figure appears the sign of the conquered province. This is the Stone of the Former Archbishopric, a Mexica work. It was found in 1988 during construction work on Moneda Street, in the center of Mexico City. It was made during the reign of Motecuhzoma Ilhuicamina. It is thought to have served as a platform for ritual combat and as a vessel for offerings of hearts and blood. On the upper face there is a solar disk with a face at its center."
+    },
+    "guion_largo": {
+      "hash": "ef935340303a9719",
+      "texto": "The Mexica did not only conquer: they also left the tally in stone. This cylinder is a good example.\n\nIt is the Stone of the Former Archbishopric. It has that name because it appeared in 1988. It came to light during the foundation work for the former Archbishop’s Palace, on Moneda Street, in the Historic Center of Mexico City. That land once lay within the Sacred Precinct of Tenochtitlan.\n\nIt is a low, wide cylinder, carved from volcanic rock. On the upper face there is a solar disk with a face in the central hollow. Around the side runs a frieze with eleven scenes of conquest.\n\nIn each scene, the ruler wears the attributes of Xiuhtecuhtli, the god of fire. With one hand he grips a defeated warrior by the hair. Beside the warrior appears the glyph of the conquered province. Along the edges there are skulls, crossed bones, hearts, hands and sacrificial knives.\n\nIt is thought to have served as a temalácatl, a platform for ritual combat. It may also have served as a cuauhxicalli, a vessel for placing the hearts and blood offered to the Sun. Those rites were held during the festival of Tlacaxipehualiztli, in honor of Xipe Tótec.\n\nIt is also thought that Motecuhzoma Ilhuicamina ordered it carved, to leave a memory of the victories of Tenochtitlan. These were the years that followed the defeat of Azcapotzalco and the consolidation of the Triple Alliance.\n\nCompare it with the Stone of Tízoc, which resembles it in its shape and in its scenes of conquest."
+    },
+    "retos_observacion": {
+      "hash": "87745dfda71b5417",
+      "texto": [
+        "Count the scenes of conquest that surround the cylinder.",
+        "Find the ruler who grips a warrior by the hair.",
+        "Look at the edges: there are skulls, hearts, hands and knives."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a2161bfe7b90f16f",
+      "texto": {
+        "Culture": "Mexica",
+        "Period": "Late Postclassic",
+        "Material": "Volcanic rock (andesite or basalt) carved in high relief",
+        "Origin": "Historic Center of Mexico City (former Archbishop’s Palace, Moneda Street)"
+      }
+    },
+    "faq_mito": {
+      "hash": "463f7db54f9b057c",
+      "texto": {
+        "pregunta": "Myth: The Stone of the Former Archbishopric is another Aztec calendar, like the Sun Stone.",
+        "respuesta": "Reality: It is not a calendar. It is a monument to conquest: its eleven scenes show the victories of a Mexica ruler."
+      }
+    }
+  }
+}

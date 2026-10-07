@@ -1,0 +1,65 @@
+{
+  "id": "mna_s20_corita_seri",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-07",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Gulf Coast\" para \"Costa del Golfo\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Seri\" para \"Seri\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Sonora\" para \"Sonora\" y no aparece",
+      "el glosario pide \"Seri\" para \"Seri\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "336f09fef9ef0aca",
+      "texto": "Traditional Comcaac (Seri) Sëptim-Type Basket"
+    },
+    "frase_gancho": {
+      "hash": "b2c797c3047c4da4",
+      "texto": "A golden limberbush basket that holds the desert and the sea."
+    },
+    "puente_narrativo": {
+      "hash": "f8574d8d4b5f3b11",
+      "texto": "As you move toward the dunes and the coast of the Gulf of California, this monumental limberbush basket exemplifies the botanical knowledge of Comcaac women. The piece weaves the symbols of the Sonoran Desert into a spiral."
+    },
+    "guion_corto": {
+      "hash": "97e0c3905c3aab4b",
+      "texto": "As you stop before the display case that protects this circular weaving in the Northern Mexico Hall on the upper floor of the museum, the perfection of the golden spirals and the density of the weave captivate the senses at once. The Traditional Comcaac Sëptim-Type Basket represents one of the crafting summits of the fine basketry of the Indigenous peoples of the Sonoran Desert. Made patiently and painstakingly by the women of the Comcaac people of Punta Chueca and Desemboque on the Gulf of California, this large plate-shaped basket is crafted from the flexible fibers of the limberbush shrub, also called white wood, Jatropha cuneata. The process demands months or even years of continuous work: the artisan strips the limberbush rods with her teeth, dyes them with natural pigments drawn from tree bark and desert roots, and weaves the strands into a continuous spiral using the coiling technique with a deer-bone awl. In Comcaac culture, the Sëptim-type basket is not a mere household container, but a highly prestigious ceremonial object that symbolizes abundance, fertility, and communal alliance. To contemplate it at the MNA is to admire the plant science of the desert."
+    },
+    "guion_largo": {
+      "hash": "97fa5f40062de719",
+      "texto": "On the arid, luminous coasts of the Sonoran Desert that look out over the Gulf of California and the great Tiburón Island, the Comcaac or Seri people have safeguarded for millennia one of the most singular and indestructible coastal nomadic, hunter-gatherer cultures of the American continent. Perfecting a prodigious biocultural knowledge of the wild flora and marine fauna of the region, Comcaac women developed a basketry tradition whose baskets are considered by specialists in textiles and folk arts to be among the finest, most beautiful, and most resilient expressions of basketry on the planet. Among the diverse forms that traditional baskets take, the Sëptim-type basket, a concave plate of large diameter, stands out for its aesthetic refinement and for the extraordinary ceremonial value it holds in the life of the community. Making a large basket requires the artisan to walk dozens of kilometers through the desert to select the best branches of the dark limberbush shrub, which is processed with infinite patience, using hands and teeth to obtain thin, waterproof strips. When you carefully examine the physical structure and decoration of the basket in the museum display case, you can admire the mathematical density of the coiled weave. The basket is built from a central spiral core around which thousands of tight stitches are sewn with limberbush strips. To achieve the decorative motifs in reddish brown and black tones, the artisan dyes some of the fibers by soaking them in infusions made from the ground bark of the white ratany tree, Krameria grayi, or with mineral pigments from the desert. The geometric designs that emerge from the center of the basket unfold patterns of stars, sand dunes, cactus thorns, loggerhead sea turtle tracks, and ocean winds that bless the home. The structural rigidity of the basket is such that, once finished with a dense weave, it can hold ceremonial liquids and grains without spilling a single drop. The story of how this Seri basket was gathered and added to the ethnographic collection of the National Museum of Anthropology is part of the anthropological research expeditions coordinated in the 1960s by ethnographers and researchers of the INAH in the Seri communities of Punta Chueca and El Desemboque de los Ríos. The museum’s anthropologists documented the traditional ceremonies of the Loggerhead Turtle Festival and the Seri New Year, acquiring historic Sëptim-type baskets made by renowned master basket weavers of the tribe. The permanent display of this basket on the upper floor of the MNA allows visitors from all over the world to appreciate the botanical wisdom, the infinite patience, and the impeccable art of the women of the Comcaac people of Sonora."
+    },
+    "retos_observacion": {
+      "hash": "e535d3672214dadb",
+      "texto": [
+        "Continuous spiral geometry woven with fine strips of the limberbush plant",
+        "Reddish-brown geometric motifs dyed with the root of the white ratany plant",
+        "Tightly packed stitches made with a deer-bone awl"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fd9edb080beeb809",
+      "texto": {
+        "People": "Comcaac",
+        "Region": "Sonoran Desert Coast (Punta Chueca and El Desemboque / Tiburón Island)",
+        "Technique/Material": "Soft limberbush fiber (Jatropha cuneata), plant dye from dark limberbush, and burnishing",
+        "Function": "Sacred basketry, seed container, marine gathering, and traditional sumptuary art"
+      }
+    },
+    "faq_mito": {
+      "hash": "7d78261670d068b1",
+      "texto": {
+        "pregunta": "Myth: The Seri basket is a straw basket woven with synthetic fibers imported from Asia for the tourist trade.",
+        "respuesta": "Reality: According to INAH expert appraisals, it is a traditional basketry made of wild limberbush, hand-woven with desert roots and dyes."
+      }
+    }
+  }
+}
