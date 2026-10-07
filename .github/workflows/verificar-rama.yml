@@ -50,4 +50,4 @@ jobs:
         run: |
           node scripts/ci-run.mjs ensayo-audio -- bash scripts/correr-generar-audio.sh
           test -f public/audio/manifest.json
-          node scripts/ci-run.mjs ensayo-subida -- node scripts/subir-audio-premium.mjs --simular
+          node scripts/ci-run.mjs ensayo-subida -- node scripts/subir-audio.mjs --simular
