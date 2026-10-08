@@ -233,3 +233,8 @@ test('mover en R2: baja, sube a la carpeta nueva y borra la vieja; tolera una co
   assert.equal(manifest.items.es.p.corto.remote, true, 'el movido se actualiza');
   assert.equal(manifest.items.es.p.largo.remote, false, 'el que falló no se toca');
 });
+
+test('la voz por defecto de Azure es la misma (Jorge Multilingual) en todos los idiomas', async () => {
+  const { PROVIDERS } = await import('../generar-audio.mjs');
+  for (const l of ['es', 'en', 'fr', 'pl', 'ru', 'ja']) assert.equal(PROVIDERS.azure.voiceFor(l), 'es-MX-JorgeMultilingualNeural', l);
+});

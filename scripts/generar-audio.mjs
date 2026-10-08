@@ -66,13 +66,16 @@ export function parseArgs(argv) {
 // ---------------------------------------------------------------------------
 // Proveedores de voz. Cada uno devuelve un Buffer con un MP3.
 // ---------------------------------------------------------------------------
+// Una sola voz para todos los idiomas (Jorge Multilingual): mismo timbre en español, inglés, etc. Elegida por Alberto.
+// Ojo: en español está comprobada; en los demás idiomas hay que oír una muestra antes de generar todo.
+const SINGLE_VOICE = 'es-MX-JorgeMultilingualNeural';
 const AZURE_DEFAULT_VOICES = {
-  es: 'es-MX-JorgeMultilingualNeural', // elegida por Alberto tras probar las muestras
-  en: 'en-US-JennyNeural',
-  fr: 'fr-FR-DeniseNeural',
-  pl: 'pl-PL-ZofiaNeural',
-  ru: 'ru-RU-SvetlanaNeural',
-  ja: 'ja-JP-NanamiNeural',
+  es: SINGLE_VOICE,
+  en: SINGLE_VOICE,
+  fr: SINGLE_VOICE,
+  pl: SINGLE_VOICE,
+  ru: SINGLE_VOICE,
+  ja: SINGLE_VOICE,
 };
 const AZURE_LOCALES = { es: 'es-MX', en: 'en-US', fr: 'fr-FR', pl: 'pl-PL', ru: 'ru-RU', ja: 'ja-JP' };
 

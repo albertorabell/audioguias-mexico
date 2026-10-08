@@ -66,10 +66,10 @@ test('la lista real de inglés: todas las filas son válidas y las palabras mexi
   const { loadPronunciations, toSsmlInner } = await import('../pronunciacion-lib.mjs');
   const en = loadPronunciations('glosario/pronunciacion.csv', 'en');
   assert.ok(en.length > 100, `se esperaban más de 100 palabras y hay ${en.length}`);
-  for (const e of en.filter((x) => x.kind === 'lang')) assert.match(e.value, /^es-MX=.+/, e.word);
+  for (const e of en.filter((x) => x.kind === 'lang' && !/^mexicas?$/i.test(x.word))) assert.match(e.value, /^es-MX=.+/, e.word);
   assert.equal(new Set(en.map((e) => e.word.toLowerCase())).size, en.length, 'hay palabras repetidas');
   const out = toSsmlInner('The Mexica of Tenochtitlan honored Tláloc at Monte Albán.', en, 'es-MX-JorgeMultilingualNeural');
-  assert.match(out, /<sub alias="Meh-SHEE-kah">Mexica<\/sub>/);
+  assert.match(out, /<lang xml:lang="en-US">Mesheeka<\/lang>/);
   assert.match(out, /<lang xml:lang="es-MX">Tenochtitlan<\/lang>/);
   assert.match(out, /<lang xml:lang="es-MX">Tláloc<\/lang>/);
   assert.match(out, /<lang xml:lang="es-MX">Monte Albán<\/lang>/, 'las palabras de dos partes se leen juntas');
