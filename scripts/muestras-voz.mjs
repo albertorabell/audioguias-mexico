@@ -50,7 +50,7 @@ export function defaultVariants(word) {
 }
 
 export function parseArgs(argv) {
-  const out = { lang: 'es', pieza: 'mna_s06_piedra_sol', modo: 'corto', voces: null, maxVoces: 6, maxCaracteres: 1200, generar: false, proveedor: 'azure', pronunciar: null, variantes: [] };
+  const out = { lang: 'es', pieza: 'mna_s06_piedra_sol', modo: 'corto', voces: null, maxVoces: 6, maxCaracteres: 1200, generar: false, proveedor: 'azure', pronunciar: null, variantes: [], listar: false };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     const next = () => {
@@ -67,6 +67,7 @@ export function parseArgs(argv) {
     else if (a === '--pronunciar') out.pronunciar = next().trim();
     else if (a === '--variantes') out.variantes = next().split(',').map((v) => v.trim()).filter(Boolean);
     else if (a === '--generar') out.generar = true;
+    else if (a === '--listar') out.listar = true;
     else throw new Error(`Opción desconocida: ${a}`);
   }
   if (!LOCALES[out.lang]) throw new Error(`Idioma no válido: ${out.lang}. Usa: ${Object.keys(LOCALES).join(', ')}`);
@@ -100,9 +101,31 @@ export function pickVoices(list, locale, n) {
   return out;
 }
 
+/** Texto con todas las voces de un idioma (nombre, género, si es multilingüe o HD). Sirve para elegir a ojo sin escuchar todo. */
+export function describeVoices(list, locale) {
+  const all = list.filter((v) => v.Locale === locale).sort((a, b) => a.ShortName.localeCompare(b.ShortName));
+  const rows = all.map((v) => {
+    const multi = /Multilingual/i.test(v.ShortName) || (Array.isArray(v.SecondaryLocaleList) && v.SecondaryLocaleList.length > 0);
+    const hd = /HD/i.test(v.ShortName);
+    const tags = [multi ? 'MULTILINGÜE' : '', hd ? 'HD (otro precio)' : '', v.Status && v.Status !== 'GA' ? v.Status : ''].filter(Boolean).join(' · ');
+    return `  ${v.ShortName} · ${v.Gender || '?'}${tags ? ` · ${tags}` : ''}`;
+  });
+  return { total: all.length, multi: all.filter((v) => /Multilingual/i.test(v.ShortName) || v.SecondaryLocaleList?.length).length, text: rows.join('\n') };
+}
+
 export async function main(argv, { root = process.cwd(), env = process.env, fetchImpl = fetch, log = console.log, warn = console.warn } = {}) {
   const args = parseArgs(argv);
   const locale = LOCALES[args.lang];
+  if (args.listar) {
+    const region = env.AZURE_SPEECH_REGION;
+    if (!env.AZURE_SPEECH_KEY || !region) throw new Error('Faltan las claves de Azure (secretos AZURE_SPEECH_KEY y AZURE_SPEECH_REGION).');
+    const res = await fetchImpl(`https://${region}.tts.speech.microsoft.com/cognitiveservices/voices/list`, { headers: { 'Ocp-Apim-Subscription-Key': env.AZURE_SPEECH_KEY } });
+    if (!res.ok) throw new Error(`Azure no dio la lista de voces (respuesta ${res.status}). Revisa la clave y la región.`);
+    const d = describeVoices(await res.json(), locale);
+    log(`Voces de Azure para ${locale}: ${d.total} (${d.multi} multilingües). Copia el nombre exacto en "voces".`);
+    log(d.text);
+    return 0;
+  }
   const key = args.modo === 'corto' ? 'guion_corto' : 'guion_largo';
   const dict = loadPronunciations(path.join(root, PRONUNCIATION_FILE), args.lang);
   let text;

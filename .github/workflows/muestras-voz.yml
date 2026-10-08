@@ -37,6 +37,10 @@ on:
         description: 'Opcional, con palabra: formas a probar separadas por coma. Tipos: alias:texto · ipa:símbolos · lang:en-US=texto · voz:NombreDeVoz=texto. Vacío = formas automáticas (x como sh, x como s y una fonética aproximada)'
         type: string
         default: ''
+      listar:
+        description: 'Solo mostrar la lista de voces del idioma (nombre, mujer/hombre, multilingüe, HD). No genera audio ni gasta'
+        type: boolean
+        default: false
       generar:
         description: 'Marca la casilla para generar las muestras de verdad'
         type: boolean
@@ -55,7 +59,7 @@ jobs:
           node-version: 20
 
       - name: Revisar que estén las claves de Azure (antes de gastar nada)
-        if: ${{ inputs.generar }}
+        if: ${{ inputs.generar || inputs.listar }}
         env:
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
@@ -77,6 +81,7 @@ jobs:
           PALABRA: ${{ inputs.palabra }}
           VARIANTES: ${{ inputs.variantes }}
           GENERAR: ${{ inputs.generar }}
+          LISTAR: ${{ inputs.listar }}
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
         run: |
@@ -85,6 +90,7 @@ jobs:
           if [ -n "$PALABRA" ]; then args+=(--pronunciar "$PALABRA"); fi
           if [ -n "$VARIANTES" ]; then args+=(--variantes "$VARIANTES"); fi
           if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
+          if [ "$LISTAR" = "true" ]; then args+=(--listar); fi
           set +e
           node scripts/muestras-voz.mjs "${args[@]}" 2>&1 | tee muestras.log
           CODIGO=${PIPESTATUS[0]}
@@ -102,7 +108,7 @@ jobs:
           exit $CODIGO
 
       - name: Dejar las muestras para descargar
-        if: ${{ inputs.generar }}
+        if: ${{ inputs.generar && !inputs.listar }}
         uses: actions/upload-artifact@v4
         with:
           name: muestras-de-voz-${{ inputs.idioma }}
