@@ -1,0 +1,48 @@
+name: Capturas de la app (botón manual)
+
+# Compila la app, saca capturas de pantalla (teléfono y escritorio) y las guarda en la rama "capturas" del repositorio
+# y como archivo descargable al final de la corrida. No publica nada en el sitio.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capturas:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Instalar paquetes
+        run: npm install --no-audit --no-fund
+      - name: Compilar (con datos al día y el selector de idioma visible)
+        run: |
+          npm run sync-data
+          VITE_PAYMENTS_API_URL=https://pagos.test VITE_PUBLISHED_LANGUAGES=es,en,fr npx vite build --outDir dist-capturas
+      - name: Instalar el navegador (Playwright)
+        run: |
+          npm install --no-save --no-audit --no-fund @playwright/test@1.55.0
+          npx playwright install --with-deps chromium
+      - name: Sacar las capturas
+        run: |
+          npx vite preview --outDir dist-capturas --port 4173 --strictPort &
+          for i in $(seq 1 30); do curl -sf http://localhost:4173/ >/dev/null && break; sleep 1; done
+          node scripts/capturas.mjs capturas-salida http://localhost:4173
+      - name: Guardar como archivo descargable
+        uses: actions/upload-artifact@v4
+        with:
+          name: capturas-de-la-app
+          path: capturas-salida
+          retention-days: 7
+      - name: Guardar en la rama "capturas"
+        run: |
+          git config user.name "capturas-bot"
+          git config user.email "capturas-bot@users.noreply.github.com"
+          mkdir ../pub && cp -r capturas-salida/. ../pub/ && cd ../pub
+          git init -q -b capturas
+          git add -A
+          git commit -qm "Capturas de la app"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" capturas
