@@ -1,0 +1,55 @@
+{
+  "id": "mna_s07_tumba_104",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9f3e370e885b00c4",
+      "texto": "Rekonstrukcja Grobowca 104 w Monte Albán"
+    },
+    "frase_gancho": {
+      "hash": "c2442a1f0812a5aa",
+      "texto": "Zapotecki grobowiec w skali 1:1, z fasadą i malowidłami ściennymi."
+    },
+    "puente_narrativo": {
+      "hash": "43e9f9d676010a5f",
+      "texto": "Idziemy dalej do odtworzonego zapoteckiego grobowca: Grobowca 104, z fasadą w kształcie świątyni i malowidłami ściennymi."
+    },
+    "guion_corto": {
+      "hash": "0592bbb79cc6f0ff",
+      "texto": "Wygląda jak świeżo otwarty grobowiec zapotecki i po części nim jest. To rekonstrukcja w skali naturalnej Grobowca 104 z Monte Albán, zbadanego przez archeologa Alfonso Caso. Fasada odtwarza świątynię, z panelem z podwójnym szkaplerzem i niszą pośrodku. Wewnątrz malowidła ścienne są replikami oryginalnych polichromii. Przedstawiają kapłanów, bóstwa i kartusze z glifami. Ale naczynia i gliniane urny, które widzisz, pochodzą z oryginalnego wyposażenia grobowego. Grobowiec pochodzi z okresu Klasyku Zapoteków, z lat 200–500 po Chrystusie. W Monte Albán znajdowały się wspaniałe podziemne grobowce szlachty, a ta rekonstrukcja pozwala ci wejść do jednego z nich. To, co skopiowane, i to, co autentyczne, współistnieją w tej samej komorze."
+    },
+    "guion_largo": {
+      "hash": "64e5a971ac8e6a48",
+      "texto": "Ten grobowiec nie znajduje się pod ziemią, lecz wewnątrz muzeum. To rekonstrukcja w skali naturalnej Grobowca 104 z Monte Albán. Dzięki niej możesz zobaczyć, jak wyglądał zapotecki pochówek z okresu Klasyku.\n\nAby zrozumieć jego znaczenie, pomyśl o mieście, które go otaczało. W Klasyku Monte Albán liczyło ponad trzydzieści tysięcy mieszkańców. Miało budowle przystosowane do stref sejsmicznych, podziemne sieci hydrauliczne i wspaniałe grobowce szlachty.\n\nGrobowiec 104 znajduje się w północnej części podstawy Platformy Północnej. Zbadał go i odkrył archeolog Alfonso Caso.\n\nFasada odtwarza fasadę świątyni. Ma panel z podwójnym szkaplerzem, styl budowlany charakterystyczny dla Monte Albán. Pośrodku znajduje się nisza. W zapoteckich grobowcach w niszach umieszczano urny grobowe z wizerunkami bogów. Byli to bogowie tacy jak Cocijo, bóg deszczu, albo Cozobi, bóg kukurydzy.\n\nWewnątrz jest komora grobowa. Na jej ścianach widać repliki polichromowanych malowideł, czyli malowanych wieloma kolorami. Pojawiają się kapłani, bóstwa i kartusze z glifami, czyli ramki ze znakami pisma.\n\nW przestrzeni stoją także gliniane naczynia i urny. Te są prawdziwe i należą do wyposażenia grobowego. Na tym polega wyjątkowość tego obiektu: przestrzeń jest rekonstrukcją, ale przedmioty, które w niej leżą, są autentyczne.\n\nGrobowiec jest zapotecki, z okresu Klasyku, z lat 200–500 po Chrystusie. Zajrzeć do niego to zrozumieć, jak Zapotekowie myśleli o śmierci: poprzez architekturę, kolor i pismo. Nie był to dół w ziemi, lecz miejsce starannie przygotowane."
+    },
+    "retos_observacion": {
+      "hash": "6bbce47e0e496229",
+      "texto": [
+        "Znajdź na fasadzie panel z podwójnym szkaplerzem i centralną niszę.",
+        "Na malowidłach ściennych odszukaj kapłanów i kartusze z glifami.",
+        "Przyjrzyj się glinianym naczyniom i urnom: pochodzą z oryginalnego wyposażenia."
+      ]
+    },
+    "especificaciones": {
+      "hash": "c784df4ed45ed008",
+      "texto": {
+        "Kultura": "Zapotecka",
+        "Okres": "Klasyk (Monte Albán IIIA, 200-500 n.e.)",
+        "Materiał": "Rekonstrukcja w skali naturalnej: fasada świątyni z panelem z podwójnym szkaplerzem i centralną niszą oraz komora z replikami polichromowanych malowideł ściennych; wyposażenie z naczyń i glinianych urn jest oryginalne",
+        "Pochodzenie": "Monte Albán, północna część podstawy Platformy Północnej, Doliny Centralne, Oaxaca",
+        "Odkrycie": "Zbadany i odkryty w Monte Albán przez Alfonso Caso (źródła nie podają roku)"
+      }
+    },
+    "faq_mito": {
+      "hash": "a5d313cc4aa24082",
+      "texto": {
+        "pregunta": "Mit: Grobowiec 104 to budowla Majów sprowadzona z dżungli w Chiapas.",
+        "respuesta": "Rzeczywistość: To rekonstrukcja w skali naturalnej zapoteckiego grobowca z Monte Albán, z okresu Klasyku, z lat 200–500 n.e. Malowidła ścienne są replikami, a naczynia i urny z wyposażenia są oryginalne."
+      }
+    }
+  }
+}

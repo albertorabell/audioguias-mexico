@@ -1,0 +1,55 @@
+{
+  "id": "mna_s08_adolescente_huasteco",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2059d3b514ca4506",
+      "texto": "Rzeźba Huasteckiego Nastolatka z Tamuín"
+    },
+    "frase_gancho": {
+      "hash": "f008707da73b40e3",
+      "texto": "Kamienne ciało pokryte rytymi, w którym kiełkuje święta kukurydza."
+    },
+    "puente_narrativo": {
+      "hash": "faf369d056b87698",
+      "texto": "Kończymy tę salę w Huasteca rzeźbą kamiennego młodzieńca, którego ciało pokrywają rośliny kukurydzy."
+    },
+    "guion_corto": {
+      "hash": "27b3ecd39c30fbda",
+      "texto": "To nagi młodzieniec, który niesie na plecach dziecko. To Nastolatek z Tamuín, huastecka rzeźba z drobnoziarnistego piaskowca, z okresu wczesnego postklasyku. Ma 145 centymetrów wysokości, 41 szerokości i 17,8 grubości. Odkryto go w roku tysiąc dziewięćset siedemnastym, na stanowisku Consuelo, w Tamuín, w San Luis Potosí. Ma stylizowaną sylwetkę, zdeformowaną czaszkę i duże nauszniki w kształcie szpul. Zwróć uwagę na jego prawą stronę. Ramię, pierś, udo i noga są pokryte drobnymi reliefami z roślinami kukurydzy, liśćmi, kolbami i motywami kalendarzowymi. Interpretuje się go jako Dzinco, huasteckiego Boga Kukurydzy, albo jako młodą wersję Quetzalcóatla. Dziecko, które niesie, symbolizowałoby ciągłość życia i odrodzenie ziarna."
+    },
+    "guion_largo": {
+      "hash": "368d0779c720b58e",
+      "texto": "Spójrz najpierw na sylwetkę. To nagi młodzieniec, stojący, stylizowany, ze zdeformowaną czaszką i dużymi nausznikami w kształcie szpul. Na plecach niesie małe dziecko.\n\nTo Nastolatek z Tamuín, huastecka rzeźba z okresu wczesnego postklasyku, wykuta w drobnoziarnistym piaskowcu. Ma 145 centymetrów wysokości, 41 szerokości i 17,8 grubości. Odkryto go w roku tysiąc dziewięćset siedemnastym, na stanowisku Consuelo, w Tamuín, w San Luis Potosí.\n\nTeraz prawa strona. Ramię, pierś, udo i noga są pokryte drobnymi, rytymi reliefami. Przedstawiają rośliny kukurydzy, liście, kolby i motywy kalendarzowe. Rzeźbiarz opracował kamień w pełnej bryle, z delikatnymi rytami na powierzchni. Prawa połowa wygląda jak pole kukurydzy.\n\nZwykła interpretacja głosi, że przedstawia Dzinco albo młodą wersję Quetzalcóatla, Boga Kukurydzy z mitologii huasteckiej. Dziecko na jego plecach symbolizuje ciągłość życia. Także odrodzenie ziarna kukurydzy, z pokolenia na pokolenie. To interpretacja, oparta na ikonografii.\n\nRzeźba łączy dwie idee: młode ciało i rosnącą roślinę. Dlatego kukurydza jest kluczem do jej odczytania."
+    },
+    "retos_observacion": {
+      "hash": "f28c92076ba2bb2f",
+      "texto": [
+        "Zwróć uwagę na jego prawą stronę: pokrywają ją drobne reliefy z kukurydzą i liśćmi.",
+        "Poszukaj dziecka, które niesie na plecach.",
+        "Spójrz na duże nauszniki w kształcie szpul."
+      ]
+    },
+    "especificaciones": {
+      "hash": "bed288d1421034ba",
+      "texto": {
+        "Kultura": "Huasteca",
+        "Okres": "Wczesny postklasyk (900-1200 n.e.)",
+        "Materiał": "Drobnoziarnisty piaskowiec",
+        "Pochodzenie": "Stanowisko Consuelo, Tamuín, San Luis Potosí",
+        "Wymiary": "145 cm wysokości x 41 cm szerokości x 17,8 cm grubości"
+      }
+    },
+    "faq_mito": {
+      "hash": "2e6a1f5af76ae6ba",
+      "texto": {
+        "pregunta": "Mit: Reliefy na jego ciele to zwykłe ozdoby.",
+        "respuesta": "Rzeczywistość: To rośliny kukurydzy, liście, kolby i motywy kalendarzowe. Dlatego interpretuje się go jako Dzinco, huasteckiego Boga Kukurydzy, albo jako młodą wersję Quetzalcóatla."
+      }
+    }
+  }
+}

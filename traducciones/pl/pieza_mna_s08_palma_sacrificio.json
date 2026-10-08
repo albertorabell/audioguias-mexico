@@ -1,0 +1,53 @@
+{
+  "id": "mna_s08_palma_sacrificio",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "41571f0063aa9c9a",
+      "texto": "Kamienna palma z reliefem przedstawiającym ofiarę z człowieka"
+    },
+    "frase_gancho": {
+      "hash": "70bbaf14883b18e0",
+      "texto": "Kamienny wachlarz, w którym krew odnawia boski kosmos."
+    },
+    "puente_narrativo": {
+      "hash": "c3ac9205859ea133",
+      "texto": "Przechodzimy do kolejnego przedmiotu związanego z grą w piłkę: kamiennej palmy, którą mocowano do jarzma i na której widać ofiarę z człowieka."
+    },
+    "guion_corto": {
+      "hash": "07221a57cce059a1",
+      "texto": "Palma wygląda jak kamienny wachlarz, ale była insygnium gry w piłkę. Ta pochodzi z środkowego regionu Veracruz i należy do późnego klasyku, czyli powstała między rokiem 600 a 900 naszej ery. Jej relief przedstawia ofiarę z człowieka. Palmy mocowano do jarzma, kamiennego pasa w kształcie litery U, który odtwarzał pas noszony przez graczy. Razem tworzyły insygnia, czyli rytualne znaki gry. Przedmioty znajdowane w grobowcach to wersje wotywne, czyli ofiarne, wykonane na pamiątkę kapitanów gry. W El Tajín odkryto ponad siedemnaście boisk, a to pokazuje, jak ważna była ta rytualna gra."
+    },
+    "guion_largo": {
+      "hash": "5394d555f8d1428b",
+      "texto": "Jarzmo, palma i topór: tak dopełniało się kamienne wyposażenie gry w piłkę. To jest palma. Pochodzi z środkowego regionu Veracruz, należy do późnego klasyku, a jej relief przedstawia ofiarę z człowieka.\n\nPalmy to przedmioty w kształcie wachlarza, czasem z głowami ludzi lub świętych zwierząt. Mocowano je do jarzma jako insygnia, czyli rytualne znaki gry. Jarzmo to rzeźba w kształcie litery U, czyli podkowy. Odtwarza ochronne pasy ze skóry lub drewna, które gracze nosili na biodrach, by odbijać piłkę z litej gumy.\n\nPalmy i jarzma rzeźbiono w twardych kamieniach, takich jak bazalt, diorytandezyt czy serpentyn, z płaskorzeźbami i nacięciami. Bardzo częstym motywem są splecione woluty.\n\nPrzedmioty znajdowane w grobowcach to kamienne wersje wotywne, wykonane na pamiątkę kapitanów gry. To pokazuje, że gra była czymś znacznie więcej niż sportem.\n\nEl Tajín, w środkowej części Veracruz, jest najlepszym przykładem. W tym mieście odkryto ponad siedemnaście boisk, dlatego uznaje się je za główny ośrodek rytualnej gry w piłkę.\n\nTo, że ta palma przedstawia ofiarę z człowieka, wskazuje na rytualny charakter gry. Jaką dokładnie scenę ukazuje, nie zostało ustalone."
+    },
+    "retos_observacion": {
+      "hash": "4cc3ac0d14aeff66",
+      "texto": [
+        "Poszukaj reliefu przedstawiającego ofiarę z człowieka.",
+        "Zwróć uwagę na wachlarzowaty kształt palmy.",
+        "Wyobraź sobie palmę zamocowaną do jarzma w kształcie litery U."
+      ]
+    },
+    "especificaciones": {
+      "hash": "ecf498636a9279b4",
+      "texto": {
+        "Kultura": "Środkowe Veracruz / El Tajín",
+        "Okres": "Późny klasyk (600-900 n.e.)",
+        "Pochodzenie": "Środkowy region Veracruz"
+      }
+    },
+    "faq_mito": {
+      "hash": "6a665d791964f4ae",
+      "texto": {
+        "pregunta": "Mit: Kamienne palmy były bronią lub tarczami żołnierzy.",
+        "respuesta": "Rzeczywistość: Były insygniami gry w piłkę. Mocowano je do jarzma, kamiennego pasa w kształcie litery U, i razem tworzyły rytualne znaki gry."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_tumba_tiro",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c9cb77d10938eab8",
+      "texto": "Rekonstrukcja grobowca szybowego z wyposażeniem grobowym"
+    },
+    "frase_gancho": {
+      "hash": "3c5dad2baab28e1e",
+      "texto": "Głęboki szyb, komora pod ziemią i rodzina, która wracała, by otworzyć ją na nowo."
+    },
+    "puente_narrativo": {
+      "hash": "a276db36c8082a5c",
+      "texto": "Gliniane figurki, które właśnie obejrzałeś, pochodziły z grobowców. Oto taki grobowiec: szyb, komora i przedmioty, które towarzyszyły zmarłemu."
+    },
+    "guion_corto": {
+      "hash": "6b050bbabda2b1ae",
+      "texto": "Wyobraź sobie rodzinę z zachodniego Meksyku, która schodzi pionowym szybem do ciemnej komory pod ziemią. Niosą kogoś bliskiego i układają go wśród naczyń, glinianych figurek i ozdób z muszli. To właśnie grobowiec szybowy, tradycja pogrzebowa z Nayarit, Colima i Jalisco w okresie Klasyku. Najpierw kopano szyb o głębokości od 2 do 16 metrów. Z jego dna wykuwano jedną lub kilka komór w tufie wulkanicznym, czyli tepetate. To, co tu widzisz, jest rekonstrukcją tej przestrzeni, ze szkieletami i wyposażeniem grobowym. Uważa się, że komora ze sklepieniem symbolizowała łono Ziemi, z którego zmarły miał odrodzić się w innym życiu. Na końcu zamykano szyb płytami kamiennymi i ziemią. Ale nie zamykano go na zawsze: po latach rodzina mogła ponownie otworzyć komorę, by złożyć w niej nowych krewnych."
+    },
+    "guion_largo": {
+      "hash": "75a9d7c0faecce2e",
+      "texto": "Pod ziemią zachodniego Meksyku kryje się architektura, której prawie nikt nie widzi. To grobowiec szybowy, sposób chowania zmarłych, który rozpowszechnił się w Nayarit, Colima i Jalisco w okresie Klasyku.\n\nPlan był prosty i wymagający. Najpierw kopano pionowy szyb o głębokości od 2 do 16 metrów. Potem, od dna, wykuwano jedną lub kilka komór. Skałą, która na to pozwalała, był tuf wulkaniczny, czyli tepetate.\n\nTo, co tu widzisz, jest rekonstrukcją tej przestrzeni. Wokół szkieletów leżą gliniane naczynia, figurki puste w środku i pełne, kamienne żarna, muszle ślimaków morskich i ozdoby z muszli. Puste figurki z detalami odtwarzają codzienne życie: wojowników w zbrojach, muzyków z fletami i muszlami, tancerzy, chorych i makiety domów. Jakby zmarły zabierał ze sobą swój świat.\n\nTe sklepione komory miały swoje znaczenie. Uważa się, że symbolizowały łono Ziemi. Złożenie tam zmarłego z jedzeniem, ozdobami i rzeźbami oznaczało przygotowanie go do odrodzenia w innym życiu.\n\nPo zakończeniu ceremonii szyb zamykano na powierzchni płytami kamiennymi przykrytymi ziemią, żeby nikt nie naruszył grobowca. Ale wejście nie było ostateczne. Z biegiem lat rodziny mogły ponownie otworzyć komorę, by złożyć w niej nowych krewnych. Grobowiec szybowy był więc rodzinnym miejscem, do którego się wracało.\n\nFigurki z tej tradycji, takie jak psy z Colima, wojownicy czy pary z Nayarit, należały do wyposażenia tych komór. Nie powstały po to, by stać samotnie. Powstały, by komuś towarzyszyć."
+    },
+    "retos_observacion": {
+      "hash": "2a3e8b437bd39add",
+      "texto": [
+        "Poszukaj szkieletów i otaczających je glinianych naczyń.",
+        "Znajdź kamienne żarna i muszle ślimaków morskich z wyposażenia grobowego.",
+        "Zwróć uwagę na figurki, jedne puste w środku, a inne pełne, leżące obok zmarłego."
+      ]
+    },
+    "especificaciones": {
+      "hash": "03734b94fb91085a",
+      "texto": {
+        "Kultura": "Tradycja grobowców szybowych (związana z kulturami Nayarit, Colima i Jalisco)",
+        "Okres": "Klasyk (200 p.n.e.-600 n.e.)",
+        "Materiał": "Rekonstrukcja muzealna ze szkieletami ludzkimi, glinianymi naczyniami, figurkami pustymi w środku i pełnymi, kamiennymi żarnami, muszlami ślimaków morskich i ozdobami z muszli; oryginalne komory wykuwano w tufie wulkanicznym, czyli tepetate",
+        "Pochodzenie": "Rekonstrukcja oparta na kontekstach archeologicznych z Nayarit, Colima i Jalisco"
+      }
+    },
+    "faq_mito": {
+      "hash": "68463e2d6759f145",
+      "texto": {
+        "pregunta": "Mit: Grobowiec szybowy zamykano na zawsze po zakończeniu pochówku.",
+        "respuesta": "Rzeczywistość: Szyb zamykano płytami kamiennymi i ziemią, ale rodziny mogły ponownie otworzyć komorę po latach, by złożyć w niej nowych krewnych."
+      }
+    }
+  }
+}

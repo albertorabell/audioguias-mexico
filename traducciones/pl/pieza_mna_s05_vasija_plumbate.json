@@ -1,0 +1,55 @@
+{
+  "id": "mna_s05_vasija_plumbate",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1aef24b6f8b6e8b9",
+      "texto": "Naczynie plumbate z wizerunkiem Quetzalcóatla"
+    },
+    "frase_gancho": {
+      "hash": "8452e0cf2f0fae74",
+      "texto": "Brodata twarz wyłaniająca się z paszczy kojota, wykonana z muszli."
+    },
+    "puente_narrativo": {
+      "hash": "a5f9db4a9727b4f8",
+      "texto": "Przechodzimy do niewielkiego, lśniącego eksponatu: twarzy wyłaniającej się z paszczy kojota."
+    },
+    "guion_corto": {
+      "hash": "c860ab858088acbc",
+      "texto": "Ta ceramika lśni niemal jak metal. To plumbate, ołowianoszara glina o szklistym wykończeniu. Naczynie to toltecka efigia o wysokości 13 centymetrów, szerokości 9,6 i średnicy 7. Przedstawia głowę brodatego mężczyzny, którego twarz wyłania się z otwartej paszczy hełmu kojota. Pochodzi z daru ofiarnego z okrągłej budowli El Corral w Tula i pochodzi z okresu wczesnego postklasyku. Na glinie umieszczono płytki z muszli. Uchowiec tworzy włosy, wąsy i brodę, a perłowa muszla twarz i pióra hełmu. Zęby są z kości, a źrenice z obsydianu. Wiąże się tę postać z Ehécatlem-Quetzalcóatlem i z Huehuecóyotlem, Starym Kojotem."
+    },
+    "guion_largo": {
+      "hash": "5e04f4c1e7849a92",
+      "texto": "Ta ceramika lśni niemal jak metal. Nazywa się plumbate, czyli ołowiana, i ma metaliczne lub szkliste wykończenie. Był to towar luksusowy, wytwarzany w nadmorskim regionie Chiapas i Gwatemali. Toltekowie handlowali nim, wysyłając go na Wyżynę Centralną.\n\nTo naczynie znaleziono w Tula, w darze ofiarnym z okrągłej budowli El Corral, i pochodzi ono z okresu wczesnego postklasyku. Ma 13 centymetrów wysokości, 9,6 szerokości i 7 średnicy.\n\nPrzedstawia głowę brodatego mężczyzny. Jego twarz wyłania się z otwartej paszczy hełmu kojota.\n\nSpójrz, jak zostało wykonane. Na ołowianoszarej glinie umieszczono płytki z muszli. Uchowiec tworzy włosy, wąsy i brodę. Perłowa muszla tworzy pióra hełmu i twarz. Zęby i kły są wyrzeźbione w kości, a źrenice wykonano z polerowanego obsydianu.\n\nKim on jest? Wiąże się go z Ehécatlem-Quetzalcóatlem, bogiem wiatru, który wiał nad polami, by sprowadzić deszcz. A także z Huehuecóyotlem, Starym Kojotem, bogiem tańca i muzyki. To identyfikacja ikonograficzna. Muzeum katalogizuje ten eksponat również pod bardziej neutralną nazwą: „Postać w hełmie zwierzęcym”.\n\nJeszcze jeden szczegół. Na pysku kojota znajduje się kościany dziób, coyolómictl, używany jako szydło podczas rytuałów samoofiary."
+    },
+    "retos_observacion": {
+      "hash": "73d7adec78601983",
+      "texto": [
+        "Znajdź brodatą twarz wyłaniającą się z paszczy kojota.",
+        "Zwróć uwagę na włosy i brodę z muszli uchowca.",
+        "Spójrz na obsydianowe źrenice i kościane zęby."
+      ]
+    },
+    "especificaciones": {
+      "hash": "ae554d4f35d2d16c",
+      "texto": {
+        "Kultura": "Toltekowie",
+        "Okres": "Wczesny postklasyk (900-1200 n.e.)",
+        "Materiał": "Ceramika ołowiana (plumbate) z mozaiką z perłowej muszli, uchowca, obsydianu i kości",
+        "Pochodzenie": "Dar ofiarny z okrągłej budowli El Corral, Tula, Hidalgo",
+        "Wymiary": "13 cm wysokości x 9,6 cm szerokości x 7 cm średnicy"
+      }
+    },
+    "faq_mito": {
+      "hash": "97935a2d73396657",
+      "texto": {
+        "pregunta": "Mit: To naczynie wykonano w Tula z lokalnej gliny.",
+        "respuesta": "Rzeczywistość: Ceramika plumbate była towarem luksusowym i powstawała na wybrzeżu Chiapas i Gwatemali. Toltekowie handlowali nią, wysyłając ją na Wyżynę Centralną."
+      }
+    }
+  }
+}

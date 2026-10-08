@@ -1,0 +1,55 @@
+{
+  "id": "mna_s02_puntas_clovis",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7eeb62f7380079ec",
+      "texto": "Żłobkowane groty pocisków typu Clovis i Lerma"
+    },
+    "frase_gancho": {
+      "hash": "2cdfc40b19d69b2b",
+      "texto": "Rowek u podstawy odróżnia groty Clovis."
+    },
+    "puente_narrativo": {
+      "hash": "b3d5f06cbf51321b",
+      "texto": "Na zakończenie zobaczysz narzędzia, które umożliwiły polowania: kamienne groty obrabiane uderzeniem i naciskiem."
+    },
+    "guion_corto": {
+      "hash": "5b504e2003ed1009",
+      "texto": "Rowek u podstawy odróżnia grot Clovis. To podłużne żłobienie, na jednej lub na obu stronach, które ułatwiało mocne osadzenie grotu w drewnianych drzewcach. Grot Clovis ma kształt lancetowaty. Grot z katalogu ma 8,2 centymetra długości, 2 szerokości i 1 grubości. Grot typu Lerma jest natomiast liściasty, czyli migdałowaty, z ostrym końcem, z retuszem po obu stronach i bez głębokiego żłobienia. Ma od 4,5 do 7 centymetrów długości. Obrabiano je z krzemienia, białego lub czarnego czertu i obsydianu, najpierw uderzeniami, a potem delikatnym retuszem przez nacisk. Były to narzędzia łowców-zbieraczy z okresu dolnego cenolitu, służące do polowania na mamuty i bizony."
+    },
+    "guion_largo": {
+      "hash": "d9e7da3deadda57d",
+      "texto": "Te kamienne groty umożliwiły polowania na wielką zwierzynę. Istnieją dwa typy i rozróżnia się je po kształcie.\n\nGrot Clovis jest lancetowaty. U podstawy, na jednej lub na obu stronach, ma podłużne żłobienie, czyli rowek. Ten rowek ułatwiał połączenie i mocne osadzenie grotu w drewnianych drzewcach. Grot z katalogu ma 8,2 centymetra długości, 2 szerokości i 1 grubości. Groty Clovis mają na ogół od 7 do 15 centymetrów.\n\nNazwa pochodzi od Rancho Clovis w Nowym Meksyku, w Stanach Zjednoczonych, gdzie odkryto ten typ. Znajdowano je też na północy Meksyku i na Wyżynie Centralnej. Największy rozkwit ich produkcji przypadł na okres między 10 000 a 9000 rokiem przed Chrystusem.\n\nGrot typu Lerma jest inny. Jest liściasty, czyli migdałowaty, z ostrym końcem i retuszem po obu stronach, bez głębokiego żłobienia. Został zaprojektowany tak, by przebijać twarde skóry mamutów i bizonów. Ma od 4,5 do 7 centymetrów długości i od 2,8 do 3,8 szerokości. Pochodzi z tradycji dorzecza rzeki Lerma i znaleziono go w Santa Isabel Iztapan.\n\nObrabiano je z krzemienia, białego lub czarnego czertu i obsydianu. Najpierw opracowywano je uderzeniami, czyli techniką percusji, a potem delikatnym retuszem przez nacisk, na obu stronach.\n\nGroty Clovis były wielofunkcyjne. Służyły jako groty rzucanych włóczni, albo włóczni miotanych za pomocą atlatl, do polowania na duże ssaki. A po wyjęciu z drzewca można było używać ich jako noży do obróbki mięsa i cięcia skór."
+    },
+    "retos_observacion": {
+      "hash": "81e4fbb0b4f52c9f",
+      "texto": [
+        "Poszukaj rowka u podstawy grotu Clovis.",
+        "Porównaj lancetowaty kształt grotu Clovis z kształtem liścia grotu Lerma.",
+        "Przyjrzyj się delikatnemu retuszowi po obu stronach każdego grotu."
+      ]
+    },
+    "especificaciones": {
+      "hash": "f19a0eba315d8e69",
+      "texto": {
+        "Kultura": "Przedrolniczy łowcy-zbieracze z okresu litycznego",
+        "Okres": "Dolny cenolit (9500-7000 p.n.e.); rozkwit grotów Clovis między 10 000 a 9000 p.n.e.",
+        "Materiał": "Krzemień, biały lub czarny czert i obsydian",
+        "Pochodzenie": "Typ Clovis: Rancho Clovis w Nowym Meksyku, ze znaleziskami na północy Meksyku i na Wyżynie Centralnej. Typ Lerma: dorzecze rzeki Lerma i Wyżyna Centralna, w tym Santa Isabel Iztapan",
+        "Wymiary": "Grot Clovis z katalogu: 8,2 cm długości × 2 cm szerokości × 1 cm grubości. Groty Lerma: od 4,5 do 7 cm długości × od 2,8 do 3,8 cm szerokości"
+      }
+    },
+    "faq_mito": {
+      "hash": "c322392e8c1e7a87",
+      "texto": {
+        "pregunta": "Mit: Groty Clovis służyły tylko do strzelania na odległość.",
+        "respuesta": "Rzeczywistość: Służyły jako groty rzucanych włóczni, a po wyjęciu z drzewca mogły być używane także jako noże do obróbki mięsa i cięcia skór."
+      }
+    }
+  }
+}

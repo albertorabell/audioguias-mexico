@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_disco_muerte",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d564e0fcdec1e69f",
+      "texto": "Dysk Śmierci"
+    },
+    "frase_gancho": {
+      "hash": "51e1ddd47ce84a34",
+      "texto": "Czaszka z językiem i aureolą promieni: zachodzące słońce według Teotihuacán."
+    },
+    "puente_narrativo": {
+      "hash": "800e428db7ce3c9c",
+      "texto": "Przechodzimy do dysku, który przez jakiś czas uważano za dzieło Mexica, ale który pochodzi z Teotihuacán: to czaszka otoczona promieniami."
+    },
+    "guion_corto": {
+      "hash": "f53ff53893244101",
+      "texto": "Przez jakiś czas niektórzy badacze sądzili, że ten dysk jest dziełem Mexica, ze względu na wysunięty język i aureolę promieni. Tak nie jest. To rzeźba z Teotihuacán z okresu Klasyku, wykuta w andezycie, z resztkami czerwonego pigmentu. Odnaleziono ją w tysiąc dziewięćset sześćdziesiątym czwartym roku na placu przed Piramidą Słońca. Przedstawia ludzką czaszkę z bezzębnymi ustami, z których wystaje wielki język. Otacza ją plisowana aureola, przypominająca papierowe wachlarze albo promienie słońca. Interpretuje się ją jako Martwe Słońce. To gwiazda, która kryje się na zachodzie, gdzie pożera ją ziemia, i schodzi do podziemi, by oświetlać królestwo zmarłych. Teotihuacán stworzył te obrazy kultu słońca, a wieki później podjęły je ludy Postklasyku."
+    },
+    "guion_largo": {
+      "hash": "42c29019a160ed06",
+      "texto": "Ten dysk ma imię, które budzi grozę, ale kryjąca się za nim idea mówi o nocy i o powrocie słońca. To rzeźba z Teotihuacán, wykonana w andezycie, z resztkami czerwonego pigmentu. Ma sto dwadzieścia sześć centymetrów wysokości, sto dwa szerokości i dwadzieścia pięć grubości. Płaskorzeźba jest tak wysoka, że czaszka zdaje się wychodzić z kamienia.\n\nW centrum znajduje się ludzka czaszka. Ma bezzębne usta, z których wystaje szeroki język. Dookoła rozpościera się wielka plisowana aureola. Porównywano ją do papierowych wachlarzy albo do promieni słońca. Dlatego znana jest również jako Martwe Słońce.\n\nCo to znaczy? Badacze interpretują ją jako zniknięcie słońca na zachodzie. W tym odczytaniu gwiazda zostaje pożarta przez ziemię i wchodzi do podziemi, gdzie oświetla królestwo zmarłych. Teotihuacán czcił boga podziemi i martwego słońca, obok innych bogów, takich jak Tláloc i Wąż Pierzasty. To idea cyklu: to, co znika, powraca.\n\nTę rzeźbę znaleziono w tysiąc dziewięćset sześćdziesiątym czwartym roku podczas wykopalisk na placu przed Piramidą Słońca. Ten plac leży tuż przy Alei Zmarłych, wielkiej osi, która przecinała miasto z północy na południe. To, że pojawiła się właśnie tam, pomaga zrozumieć, że kult słońca miał swoje centrum w tym zespole budowli.\n\nByli tacy, którzy wątpili w jej pochodzenie. Z powodu wysuniętego języka i aureoli, które przypominają cechy sztuki azteckiej, niektórzy dawni badacze przypuszczali, że jest dziełem Mexica. Odkrycie pokazało coś przeciwnego. Teotihuacán wymyślił te obrazy kultu słońca, a wieki później ludy Postklasyku podjęły je na nowo.\n\nDlatego ta rzeźba jest wskazówką, że idee Teotihuacán pozostały żywe jeszcze długo po upadku miasta. Kiedy spojrzysz na aureolę i język, pamiętaj, że najpierw pojawiły się tutaj, w Klasyku."
+    },
+    "retos_observacion": {
+      "hash": "4340a5c62948548a",
+      "texto": [
+        "Ludzka czaszka z bezzębnymi ustami pośrodku",
+        "Wielki język wystający z ust",
+        "Plisowana aureola otaczająca czaszkę jak wachlarz"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b7a04227c46875b9",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (1-650 n.e.)",
+        "Materiał": "Andezyt i czerwony pigment",
+        "Pochodzenie": "Teotihuacán, Stan Meksyk (plac przed Piramidą Słońca)",
+        "Wymiary": "1,26 m wysokości x 1,02 m szerokości x 0,25 m grubości",
+        "Odkrycie": "Odnaleziony w 1964 roku podczas wykopalisk przed Piramidą Słońca"
+      }
+    },
+    "faq_mito": {
+      "hash": "b5f7638856b7ddd4",
+      "texto": {
+        "pregunta": "Mit: Dysk Śmierci to rzeźba Mexica związana z ofiarami w Templo Mayor.",
+        "respuesta": "Rzeczywistość: To dzieło z Teotihuacán z okresu Klasyku, odnalezione w tysiąc dziewięćset sześćdziesiątym czwartym roku przed Piramidą Słońca. Mexica podjęli wieki później idee, które Teotihuacán już wcześniej stworzył."
+      }
+    }
+  }
+}

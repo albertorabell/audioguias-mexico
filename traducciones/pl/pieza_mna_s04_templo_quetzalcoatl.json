@@ -1,0 +1,55 @@
+{
+  "id": "mna_s04_templo_quetzalcoatl",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fa992e1b41168bd8",
+      "texto": "Rekonstrukcja fasady Świątyni Quetzalcóatla"
+    },
+    "frase_gancho": {
+      "hash": "6b0b527bb4655095",
+      "texto": "Węże z kamienia i turkusu, które wynurzają się z pradawnego oceanu."
+    },
+    "puente_narrativo": {
+      "hash": "f5a390cf297f2e8f",
+      "texto": "Od bogini wody przechodzimy do rekonstrukcji w skali rzeczywistej fasady Świątyni Węża Pierzastego w Ciudadeli."
+    },
+    "guion_corto": {
+      "hash": "fbbee65466a273cc",
+      "texto": "To nie jest oryginalna piramida. To rekonstrukcja w skali rzeczywistej, wykonana z włókna szklanego i żywicy. Odwzorowuje fasadę Świątyni Węża Pierzastego w Ciudadeli w Teotihuacán. Na tablerach wyłaniają się głowy Węża Pierzastego, Quetzalcóatla, z kołnierzami z piór. Na przemian pojawiają się nakrycia głowy lub maski Tláloca, boga deszczu. Na skarpach poniżej falujące ciała węży płyną wśród ślimaków i muszli morskich. Użyte kolory pochodzą z oryginalnej palety: czerwień, zieleń, błękit, biel i ochra. Oryginał przetrwał, ponieważ około roku 350 n.e. sami mieszkańcy Teotihuacán przykryli go nową platformą."
+    },
+    "guion_largo": {
+      "hash": "5fdee91768a9d719",
+      "texto": "To, co widzisz, jest kopią, ale kopią prawdziwej fasady. To rekonstrukcja w skali rzeczywistej Świątyni Węża Pierzastego w Ciudadeli w Teotihuacán. Wykonano ją z włókna szklanego i żywicy, a pokolorowano paletą oryginalnych pigmentów: czerwienią, zielenią, błękitem, bielą i ochrą.\n\nSpójrz, jak to wszystko jest zorganizowane. Na tablerach trójwymiarowe głowy Węża Pierzastego, Quetzalcóatla, wyłaniają się z kołnierzami z piór. Między nimi pojawiają się rzeźby w formie nakrycia głowy, czyli maski Tláloca, boga deszczu. Na skarpach poniżej falujące ciała węży płyną wśród ślimaków i muszli morskich.\n\nA za tym kryje się historia ochrony. Około roku 350 n.e. sami mieszkańcy Teotihuacán wznieśli przed tą fasadą nową budowlę, Platformę Przybudowaną. Ten mur ją pogrzebał. Dzięki niemu polichromia i rzeźbione detale przetrwały przez wieki.\n\nOryginalny budynek badał w latach 1917-1922 Manuel Gamio. Rozpoznał go pod Platformą Przybudowaną.\n\nDlatego ta rekonstrukcja jest tak cenna. Pozwala ci zobaczyć, jak wyglądała fasada z Teotihuacán, gdy miasto żyło, we wszystkich swoich kolorach."
+    },
+    "retos_observacion": {
+      "hash": "375f5fa005a18014",
+      "texto": [
+        "Poszukaj głów Węża Pierzastego z kołnierzami z piór.",
+        "Znajdź ślimaki i muszle wśród węży na skarpie.",
+        "Przyjrzyj się kolorom: czerwieni, zieleni, błękitowi, bieli i ochrze."
+      ]
+    },
+    "especificaciones": {
+      "hash": "639d48ed26965f35",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Wczesny klasyk",
+        "Materiał": "Replika w skali rzeczywistej z włókna szklanego i polichromowanych pigmentów; oryginalny budynek jest z obrobionego kamienia, zaprawy, stiuku i farby",
+        "Pochodzenie": "Teotihuacán, Stan Meksyk (Ciudadela, Świątynia Quetzalcóatla)",
+        "Odkrycie": "Oryginalny budynek został zbadany i rozpoznany w latach 1917-1922 przez Manuela Gamio pod Platformą Przybudowaną"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2e9ad085e05141d",
+      "texto": {
+        "pregunta": "Mit: Ta fasada to oryginalna piramida z Teotihuacán.",
+        "respuesta": "Rzeczywistość: To rekonstrukcja w skali rzeczywistej, wykonana z włókna szklanego. Oryginalny budynek nadal stoi w Ciudadeli, w Teotihuacán."
+      }
+    }
+  }
+}

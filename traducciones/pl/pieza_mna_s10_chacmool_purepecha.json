@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_chacmool_purepecha",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b8a0967fe3491d2c",
+      "texto": "Chac Mool Purépecha z Ihuatzio"
+    },
+    "frase_gancho": {
+      "hash": "4821004dca31f26d",
+      "texto": "Kamienna, leżąca postać z płytką na brzuchu."
+    },
+    "puente_narrativo": {
+      "hash": "2cdbff7292570018",
+      "texto": "Zostajemy przy kamieniu, ale teraz w Michoacán: leżąca postać, wykuta przez rzeźbiarzy purépecha w kanciastych liniach."
+    },
+    "guion_corto": {
+      "hash": "27c0f426bb8ab22e",
+      "texto": "Ihuatzio znaczy miejsce kojotów. Leżało w dorzeczu jeziora Pátzcuaro, w Michoacán, i było jedną z trzech stolic imperium purépecha, obok Tzintzuntzan i Pátzcuaro. Stamtąd pochodzi ta rzeźba, Chac Mool purépecha z późnego postklasyku, wykuty w skale wulkanicznej. Postać spoczywa, oparta plecami i łokciami, z nogami zgiętymi w kolanach. Na brzuchu trzyma czworokątną płytkę, którą uważa się za naczynie na ofiary. Jej twarz jest sztywna, a na głowie ma ozdobę. Wszystko w niej jest geometrią, kanciastymi liniami, właściwymi rzeźbiarzom purépecha. Purépecha stworzyli potężne imperium, które oparło się próbom najazdu ze strony Mexików. Ta figura to sposób, by poznać ten lud poprzez jego kamień."
+    },
+    "guion_largo": {
+      "hash": "40a1437cdbd8d71b",
+      "texto": "Sama nazwa tego miejsca jest już obrazem: Ihuatzio, miejsce kojotów. Leżało nad brzegiem jeziora Pátzcuaro, w Michoacán, i było jedną z trzech politycznych stolic imperium purépecha. Dwie pozostałe to Tzintzuntzan i Pátzcuaro.\n\nZ tego ośrodka pochodzi ta rzeźba. Nazywa się ją Chac Mool, tak określa się pewien typ leżącej postaci, a to jest jego wersja purépecha. Postać spoczywa, oparta plecami i łokciami, z nogami zgiętymi w kolanach. Na brzuchu trzyma czworokątną płytkę, którą uważa się za naczynie na ofiary. Jej twarz jest sztywna, a na głowie ma ozdobę.\n\nWłaśnie styl ją wyróżnia. Jest wykuta w skale wulkanicznej, w kanciastych liniach, a wszystko w niej to geometria i sztywność. Specjaliści rozpoznają w niej styl purépecha szkoły rzeźbiarskiej. Purépecha, którzy mieszkali w dorzeczu jeziora Pátzcuaro, mieli swój własny język kamienia.\n\nZa tym kamieniem stoi lud o wyjątkowej historii. Purépecha stworzyli potężne imperium na zachodzie, z głównymi ośrodkami wokół jeziora. Oparli się próbom najazdu ze strony Mexików. Okres ich największej siły przypadł na późny postklasyk, między 1250 a 1521 rokiem po Chrystusie.\n\nTa leżąca figura, z płytką na brzuchu i surowym wyrazem twarzy, to sposób, by poznać ten lud poprzez jego kamień."
+    },
+    "retos_observacion": {
+      "hash": "ce64fc9d00c16b2a",
+      "texto": [
+        "Poszukaj czworokątnej płytki, którą postać trzyma na brzuchu.",
+        "Zwróć uwagę na ozdobę głowy i sztywną twarz postaci.",
+        "Podążaj za kanciastymi liniami, którymi wykuto kamień."
+      ]
+    },
+    "especificaciones": {
+      "hash": "b195ca313f0cd1ad",
+      "texto": {
+        "Kultura": "Taraska / Purépecha",
+        "Okres": "Późny postklasyk (1250-1521 n.e.)",
+        "Materiał": "Kamień (bazalt / skała wulkaniczna)",
+        "Pochodzenie": "Ihuatzio, Michoacán (stanowisko archeologiczne Ihuatzio, dorzecze jeziora Pátzcuaro)"
+      }
+    },
+    "faq_mito": {
+      "hash": "1232077fdb571d3f",
+      "texto": {
+        "pregunta": "Mit: Każdy Chac Mool to rzeźba Majów.",
+        "respuesta": "Rzeczywistość: Ta figura pochodzi od Purépecha. Pochodzi z Ihuatzio, w Michoacán, i ma geometryczny, sztywny styl rzeźbiarzy purépecha."
+      }
+    }
+  }
+}

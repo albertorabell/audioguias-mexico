@@ -1,0 +1,55 @@
+{
+  "id": "mna_s01_lucy_afarensis",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "efa176a63cc4e3ff",
+      "texto": "Replika szkieletu Lucy (Australopithecus afarensis)"
+    },
+    "frase_gancho": {
+      "hash": "605ee43a216ae97b",
+      "texto": "Samica o wzroście 1,20 metra, która chodziła w pozycji wyprostowanej 3,2 miliona lat temu."
+    },
+    "puente_narrativo": {
+      "hash": "5f65dc1667760586",
+      "texto": "Zaczynamy od samego początku: od jednego z najstarszych gatunków linii ludzkiej, sprzed czasów, zanim ktokolwiek dotarł do Ameryki."
+    },
+    "guion_corto": {
+      "hash": "cb8da953dcc5df78",
+      "texto": "3,2 miliona lat temu żyła samica, która mierzyła około 1,20 metra i ważyła około 30 kilogramów. Znana jest jako Lucy i należy do gatunku Australopithecus afarensis. Jej skamieniały szkielet odkrył w listopadzie 1974 roku amerykański badacz Donald Johanson w Hadar w Etiopii. Odzyskano około 40 procent kości. To, co widzisz, to rekonstrukcja wykonana przez Atelier Daynes w Paryżu w 1999 roku na podstawie oryginalnych szczątków. Analiza miednicy i kończyn dolnych wykazała, że chodziła w pozycji wyprostowanej. To zmusiło specjalistów do przebudowy ludzkiego drzewa ewolucyjnego. W tej sali są dwie reprezentacje: rekonstrukcja całego ciała i, kilka metrów dalej, zmontowany szkielet."
+    },
+    "guion_largo": {
+      "hash": "ee539908edf970d6",
+      "texto": "3,2 miliona lat temu, na terenie dzisiejszej Etiopii, żyła samica dwunożnego gatunku hominidów. Specjaliści nazywają ją Australopithecus afarensis. Tutaj znana jest jako Lucy.\n\nJej skamieniały szkielet odkrył w listopadzie 1974 roku amerykański badacz Donald Johanson w Hadar we Wschodniej Afryce. Podczas wykopalisk odzyskano około 40 procent szkieletu.\n\nTo, co widzisz w tej sali, nie jest skamieliną, lecz rekonstrukcją. Wykonał ją Atelier Daynes w Paryżu w 1999 roku na podstawie oryginalnych szczątków kopalnych. Lucy mierzyła około 1,20 metra, a jej masę ciała za życia szacuje się na około 30 kilogramów.\n\nJest powód, dla którego jest sławna. Analiza miednicy i kończyn dolnych wykazała, że chodziła w pozycji wyprostowanej, na dwóch nogach. To zmusiło specjalistów do przebudowy ludzkiego drzewa ewolucyjnego.\n\nW tej sali są dwie uzupełniające się reprezentacje. Jedna to rekonstrukcja ciała w pełnej bryle, która wita zwiedzających. Kilka metrów dalej stoi replika zmontowanego szkieletu, na której można rozpoznać oryginalne kości, które odnaleziono.\n\nPorównaj jej wzrost ze swoim. W ten sposób mierzy się dystans między tym gatunkiem a cywilizacjami, które poznasz w pozostałych salach."
+    },
+    "retos_observacion": {
+      "hash": "af8b3e915951a8b9",
+      "texto": [
+        "Znajdź zmontowany szkielet, na którym widać oryginalne kości.",
+        "Spójrz na miednicę i nogi: pokazują, że chodziła w pozycji wyprostowanej.",
+        "Porównaj jej wzrost, 1,20 metra, ze swoim."
+      ]
+    },
+    "especificaciones": {
+      "hash": "30a1c8e8223f3b30",
+      "texto": {
+        "Kultura": "Australopithecus afarensis, samica hominida dwunożnego",
+        "Okres": "3,2 miliona lat; skamielinę odkryto w listopadzie 1974 roku",
+        "Materiał": "Rekonstrukcja antropologiczna Atelier Daynes (Paryż, 1999) na podstawie szczątków kopalnych",
+        "Pochodzenie": "Hadar, Etiopia (Afryka Wschodnia)",
+        "Wymiary": "Wzrost około 1,20 m; szacowana masa ciała za życia 30 kg"
+      }
+    },
+    "faq_mito": {
+      "hash": "5c1d133a2cbb677c",
+      "texto": {
+        "pregunta": "Mit: Lucy była pierwszą kobietą naszego gatunku, Homo sapiens.",
+        "respuesta": "Rzeczywistość: Była samicą Australopithecus afarensis, sprzed 3,2 miliona lat. Należy do gatunku dwunożnych hominidów z ludzkiego drzewa ewolucyjnego."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_tizoc",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b62ce1131b69a4d1",
+      "texto": "Kamień Tizoca"
+    },
+    "frase_gancho": {
+      "hash": "52d32dccc842ce73",
+      "texto": "Kamienny walec, na którym władca trzyma pokonanych za włosy."
+    },
+    "puente_narrativo": {
+      "hash": "1df75431c9e7e3c8",
+      "texto": "Od obrazu ziemi przechodzimy do pomnika władzy politycznej, na którym imperium Mexica opowiedziało o swoich podbojach w kamieniu."
+    },
+    "guion_corto": {
+      "hash": "6644eddc1ee39a8a",
+      "texto": "Między 1481 a 1486 rokiem tlatoani Tízoc kazał wyrzeźbić pomnik, na którym podboje czyta się jak opowieść w obrazach. To dzieło Mexica z późnego postklasyku, niski i szeroki walec. Dookoła jego boku powtarza się piętnaście scen. W każdej z nich władca ubrany jak Xiuhtecuhtli, bóg ognia, trzyma za włosy pokonanego przywódcę. Obok jeńca widnieje glif, który nazywa podbity lud. Na górnej powierzchni znajduje się tarcza słoneczna z wgłębieniem pośrodku. Dlatego sądzi się, że kamień służył jako cuauhxicalli, naczynie na serca, oraz jako temalácatl, platforma ofiary gladiatorskiej ku czci Xipe Tótec. Był to pomnik stworzony po to, by okazywać potęgę i karmić bogów."
+    },
+    "guion_largo": {
+      "hash": "15470a516dee503c",
+      "texto": "Między 1481 a 1486 rokiem tlatoani Tízoc kazał wyrzeźbić ten pomnik. To dzieło Mexica z późnego postklasyku, niski i szeroki walec z kamienia ozdobionego reliefem. Był czymś więcej niż ozdobą, był oświadczeniem: oto, co podbiły moje armie.\n\nAby go odczytać, trzeba obejść go dookoła. Na boku powtarza się piętnaście razy ta sama scena. Władca w atrybutach boga ognia, Xiuhtecuhtliego, trzyma za włosy pokonanego przywódcę. Obok każdego jeńca widnieje glif, a każdy glif nazywa jeden podbity lud. To lista podbojów zapisana obrazami, stworzona tak, by dało się ją zrozumieć bez słów.\n\nKamień pełnił też funkcję rytualną. Na górnej powierzchni znajduje się tarcza słoneczna z wgłębieniem pośrodku. Sądzi się, że był to cuauhxicalli, naczynie, do którego składano serca ofiarowanych. A także temalácatl, platforma ofiary gladiatorskiej ku czci Xipe Tótec. Opowiada się, że jeniec wysokiej rangi walczył przywiązany do kamienia. Jego bronią była pałka z piór, a jego przeciwnikami byli wojownicy Mexica z prawdziwą bronią.\n\nDalsze dzieje kamienia składają się z dwóch momentów. Odnaleziono go już między 1562 a 1565 rokiem, a potem znów znalazł się pod ziemią. W 1791 roku wydobyto go na światło dzienne po raz kolejny. Dzięki temu drugiemu odkopaniu możemy dziś przejść wzrokiem przez podboje Tízoca, jeden po drugim."
+    },
+    "retos_observacion": {
+      "hash": "4a7e9857b8179e8e",
+      "texto": [
+        "Wypatrz władcę, który trzyma pokonanego za włosy.",
+        "Obok każdego jeńca odszukaj glif, który nazywa podbity lud.",
+        "Na górnej powierzchni znajdź tarczę słoneczną i wgłębienie pośrodku."
+      ]
+    },
+    "especificaciones": {
+      "hash": "196c96efa17e2a2e",
+      "texto": {
+        "Kultura": "Mexica",
+        "Okres": "Późny postklasyk (1481-1486 n.e.)",
+        "Materiał": "Andezyt",
+        "Pochodzenie": "Centrum Historyczne, Miasto Meksyk",
+        "Wymiary": "94 cm wysokości x 265 cm średnicy"
+      }
+    },
+    "faq_mito": {
+      "hash": "d47064d62d62a180",
+      "texto": {
+        "pregunta": "Mit: Kamień Tizoca to tylko płaskorzeźba upamiętniająca podboje.",
+        "respuesta": "Rzeczywistość: Był też pomnikiem rytualnym. Sądzi się, że służył jako cuauhxicalli i jako temalácatl, czyli platforma ofiary gladiatorskiej ku czci Xipe Tótec."
+      }
+    }
+  }
+}

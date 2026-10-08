@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_reina_uxmal",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d7d3866ea3a54a33",
+      "texto": "Królowa z Uxmal"
+    },
+    "frase_gancho": {
+      "hash": "c49d082f93604ea5",
+      "texto": "Twarz wynurzająca się z paszczy węża, wykuta w kamieniu."
+    },
+    "puente_narrativo": {
+      "hash": "01db73b1c5898496",
+      "texto": "Wyruszamy na północ półwyspu, do Uxmal, do ludzkiej głowy wyłaniającej się z paszczy węża."
+    },
+    "guion_corto": {
+      "hash": "c3740dcb8d304473",
+      "texto": "Czy to królowa? Tak ją nazywają, ale przyjrzyj się dobrze: ludzka głowa wyłania się z otwartej paszczy węża. Specjaliści interpretują ją raczej jako młodego adepta wtajemniczenia lub dostojnika. To Królowa z Uxmal, rzeźba Majów z wapienia z okresu Późnego klasyku, z lat 600-900 naszej ery. Pochodzi z podbudowy Piramidy Wróżbity w Uxmal, w Yucatán. Twarz ma owalne oczy, orli nos i ledwo uchylone usta. Na jednym policzku widnieje motyw rytualnej skaryfikacji z głową fantastycznego gada. Na czole nosi diadem z paciorków. Ma 80 centymetrów wysokości i 99 grubości, więc jest bardzo masywna."
+    },
+    "guion_largo": {
+      "hash": "46f08c35c0886aa2",
+      "texto": "Popularna nazwa tej rzeźby to Królowa z Uxmal. Wystarczy jednak spokojnie na nią popatrzeć, by zobaczyć, że to zupełnie inna historia.\n\nTo rzeźba Majów z wapienia, z okresu Późnego klasyku, z lat 600-900 naszej ery. Pochodzi z Uxmal, w Yucatán, i była częścią podbudowy Piramidy Wróżbity, zwanej także Piramidą Maga. Uxmal było jednym z wielkich miast regionu Puuc, na północy Półwyspu Jukatan.\n\nPrzedstawia ludzką głowę wyłaniającą się z otwartej paszczy fantastycznego węża. Specjaliści interpretują ją jako młodego adepta wtajemniczenia lub dostojnika, a nie jako królową.\n\nPrzyjrzyj się twarzy. Ma owalne oczy z cienkimi powiekami i bardzo wyraźny orli nos. Usta są ledwo uchylone, z pełnymi wargami i kącikami skierowanymi w dół. Na jednym policzku widnieje motyw rytualnej skaryfikacji: głowa fantastycznego gada, widziana z profilu, ze szczęką w kształcie haka.\n\nFryzura także coś opowiada. Prosto opadające pasma po bokach, kok nad czołem i diadem z niemal płaskich paciorków.\n\nRzeźba ma 80 centymetrów wysokości, 24 szerokości i 99 grubości. Ta głębia ma znaczenie. Postać wysuwa się do przodu, jakby twarz i paszcza sunęły prosto na ciebie.\n\nPopularna nazwa nie zawsze mówi, co przedstawia dane dzieło. Dlatego warto spokojnie przyglądać się tej rzeźbie i pozwolić, by to ona sama opowiedziała, co ukazuje."
+    },
+    "retos_observacion": {
+      "hash": "7dff62c2ba711837",
+      "texto": [
+        "Poszukaj znaku na policzku: to fantastyczny gad widziany z profilu.",
+        "Spójrz na fryzurę: proste pasma, kok i diadem z paciorków.",
+        "Sprawdź jej masywność: rzeźba ma 99 centymetrów grubości."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a5a50e1668ce346c",
+      "texto": {
+        "Kultura": "Majowie",
+        "Okres": "Późny klasyk (600-900 n.e.)",
+        "Materiał": "Wapień",
+        "Pochodzenie": "Uxmal, Yucatán (podbudowa Piramidy Wróżbity)",
+        "Wymiary": "80 cm wysokości x 24 cm szerokości x 99 cm grubości"
+      }
+    },
+    "faq_mito": {
+      "hash": "f0df58b5c606e653",
+      "texto": {
+        "pregunta": "Mit: Królowa z Uxmal to portret majańskiej władczyni.",
+        "respuesta": "Rzeczywistość: To tylko popularna nazwa. Rzeźbę interpretuje się jako młodego adepta wtajemniczenia lub dostojnika wyłaniającego się z paszczy węża."
+      }
+    }
+  }
+}

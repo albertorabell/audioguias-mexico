@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_yacata_tzintzuntzan",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "723880c21191c370",
+      "texto": "Architektoniczny model purépecha yácaty"
+    },
+    "frase_gancho": {
+      "hash": "9538e261fe6d96ed",
+      "texto": "Piramida z prostokątną i okrągłą bryłą, zwieńczona drewnianą świątynią."
+    },
+    "puente_narrativo": {
+      "hash": "d92057784f01c1bc",
+      "texto": "Zachód zamykamy makietą: oto kształt piramid Purépecha."
+    },
+    "guion_corto": {
+      "hash": "c50df0bb470ca20d",
+      "texto": "Piramida z prostokątną i okrągłą bryłą: tak wyglądały yácaty Purépecha. To model w skali jednej z nich, wykonany z gliny. Pochodzi z kultury tarasków, czyli Purépecha, z okresu późnego postklasyku, i przedstawia yácaty z Tzintzuntzan i Ihuatzio w Michoacán. Yácata to mieszana podstawa piramidy. Z przodu ma prostokątną, schodkową bryłę, połączoną z tyłu z bryłą półokrągłą lub walcowatą. Na szczycie wznosiły się stożkowe świątynie z drewna i słomy, poświęcone głównym bóstwom, na których czele stał Curicaueri, bóg słonecznego ognia. Oryginalne budowle wzniesiono z kamiennych rdzeni i ciosanych płyt z kamienia wulkanicznego."
+    },
+    "guion_largo": {
+      "hash": "9b336ccbfa2427d2",
+      "texto": "Piramida, która nie przypomina żadnej innej. Yácata Purépecha łączy dwie formy: prostokątną, schodkową bryłę z przodu i półokrągłą lub walcowatą bryłę z tyłu.\n\nTo model w skali, wykonany z gliny. Przedstawia yácaty z Tzintzuntzan i Ihuatzio, w dorzeczu jeziora Pátzcuaro, w Michoacán. Pochodzi z kultury tarasków, czyli Purépecha, i z późnego postklasyku.\n\nOryginalne yácaty zbudowano z kamiennych rdzeni i ciosanych płyt z kamienia wulkanicznego. Na szczycie wznosiły się stożkowe świątynie z drewna i słomy. Były poświęcone głównym bóstwom, na których czele stał Curicaueri, bóg słonecznego ognia.\n\nW Tzintzuntzan, którego nazwa znaczy Miejsce kolibrów, zachowało się pięć monumentalnych yácat ustawionych w jednym rzędzie na wspólnej platformie. Zwracają się ku jezioru Pátzcuaro. Wielka platforma ceremonialna ma ponad czterysta metrów długości i dwieście pięćdziesiąt szerokości.\n\nNa ich szczytach kapłani dniem i nocą podtrzymywali święte ogniska. Był to boski pokarm Słońca.\n\nJeśli możesz, obejrzyj model z góry. Zobaczysz, jak prostokątna i okrągła bryła łączą się w jedną budowlę."
+    },
+    "retos_observacion": {
+      "hash": "5b61168991effb65",
+      "texto": [
+        "Wypatrz prostokątną, schodkową bryłę z przodu.",
+        "Spójrz na okrągłą bryłę połączoną z tyłu.",
+        "Wyobraź sobie drewnianą świątynię ze słomą, która wieńczyła szczyt."
+      ]
+    },
+    "especificaciones": {
+      "hash": "15783f297bd5cea4",
+      "texto": {
+        "Kultura": "Taraska / Purépecha",
+        "Okres": "Późny postklasyk (1200-1521 n.e.)",
+        "Materiał": "Model w skali z gliny (oryginalne yácaty miały kamienny rdzeń i płyty z kamienia wulkanicznego)",
+        "Pochodzenie": "Tzintzuntzan i Ihuatzio, dorzecze Pátzcuaro, Michoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "7e754307613e340c",
+      "texto": {
+        "pregunta": "Mit: Yácaty były fortami wojskowymi zbudowanymi przez najeźdźców.",
+        "respuesta": "Rzeczywistość: Były to piramidalne podstawy Purépecha, ze świątyniami na szczycie poświęconymi Curicaueri, bogu słonecznego ognia."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mna_s08_senor_las_limas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0c28a646b57fda13",
+      "texto": "Pan z Las Limas"
+    },
+    "frase_gancho": {
+      "hash": "226960a8b23d1254",
+      "texto": "Znalazło ją dwoje dzieci, które szukały żółwia."
+    },
+    "puente_narrativo": {
+      "hash": "207740db7575dcd4",
+      "texto": "Od kolosalnych głów przechodzimy do niewielkiego i zupełnie innego dzieła: rzeźby z zielonego kamienia, którą znalazło dwoje dzieci."
+    },
+    "guion_corto": {
+      "hash": "39f05ecf443033ff",
+      "texto": "16 lipca 1965 roku dwoje dzieci szukało żółwia we wsi Las Limas w stanie Veracruz. Nazywały się Severiano i Rosa Manuel Esteban. Zamiast żółwia znalazły olmecką rzeźbę z serpentynitu, zielonego kamienia. Dziś znamy ją jako Pana z Las Limas. Ma 55 centymetrów wysokości, 42 szerokości i 33 grubości. Wykuto ją w środkowym preklasyku, w kulturze, która z wielką maestrią obrabiała zielone kamienie. Przedstawia mężczyznę siedzącego ze skrzyżowanymi nogami, który trzyma dziecko na kolanach. Kto ją wyrzeźbił i w jakim celu, wciąż pozostaje zagadką, a każde wyjaśnienie jest hipotezą. Pewne jest natomiast to, że nie odnalazł jej zespół specjalistów, lecz przypadkiem dwoje dzieci."
+    },
+    "guion_largo": {
+      "hash": "cdb98ee475dbfc4d",
+      "texto": "Jej odkrycie wygląda jak z baśni. 16 lipca 1965 roku dwoje dzieci, Severiano i Rosa Manuel Esteban, szukało żółwia we wsi Las Limas. Zamiast żółwia znalazły rzeźbę. Nie było to zaplanowane wykopalisko ani odkrycie specjalistów. Od tej wsi pochodzi nazwa, pod którą dziś znamy to dzieło.\n\nTo olmecka rzeźba z serpentynitu, zielonego kamienia. Ma 55 centymetrów wysokości, 42 szerokości i 33 grubości. Pochodzi ze środkowego preklasyku, a znaleziono ją w Las Limas, w gminie Jesús Carranza w stanie Veracruz.\n\nSerpentynit nie jest łatwy w obróbce. Olmekowie słynęli z rzeźbienia bardzo twardych minerałów, takich jak jadeit, serpentynit i magnetyt. Wykonywali z nich maski, ceremonialne topory i pektorały. Ta rzeźba kontynuuje tę tradycję.\n\nPrzedstawia siedzącego mężczyznę ze skrzyżowanymi nogami, który trzyma dziecko na kolanach. Każda interpretacja tej sceny jest hipotezą. To, co widać, to starannie przemyślana kompozycja.\n\nOlmekowie żyli w nizinnych lasach deszczowych i nad brzegami zasobnych w wodę rzek, na południu Veracruz i w Tabasco. Założyli ośrodki takie jak San Lorenzo, La Venta i Tres Zapotes. Rzeźba jest znacznie mniejsza od Kolosalnej Głowy, ale łączy ją z nią staranna praca w trudnym kamieniu."
+    },
+    "retos_observacion": {
+      "hash": "e8afd9ff1b90b1b4",
+      "texto": [
+        "Poszukaj siedzącego mężczyzny ze skrzyżowanymi nogami.",
+        "Zwróć uwagę na dziecko, które trzyma na kolanach.",
+        "Spójrz na zielony kolor kamienia: to serpentynit."
+      ]
+    },
+    "especificaciones": {
+      "hash": "b4c86d6927972b45",
+      "texto": {
+        "Kultura": "Olmekowie",
+        "Okres": "Środkowy preklasyk",
+        "Materiał": "Serpentynit",
+        "Pochodzenie": "Las Limas, gmina Jesús Carranza, Veracruz",
+        "Wymiary": "0,55 m wysokości x 0,42 m szerokości x 0,33 m grubości",
+        "Odkrycie": "Odkryta 16 lipca 1965 roku przez dwoje dzieci, Severiana i Rosę Manuel Esteban, które szukały żółwia"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2295e94b6cd2191",
+      "texto": {
+        "pregunta": "Mit: Znalazł ją zespół archeologów podczas wykopalisk.",
+        "respuesta": "Rzeczywistość: Znalazło ją dwoje dzieci, Severiano i Rosa Manuel Esteban, 16 lipca 1965 roku. Szukały żółwia."
+      }
+    }
+  }
+}

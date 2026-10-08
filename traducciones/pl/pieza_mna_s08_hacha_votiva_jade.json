@@ -1,0 +1,55 @@
+{
+  "id": "mna_s08_hacha_votiva_jade",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "148db46b88168d5e",
+      "texto": "Olmecki topór wotywny z jadeitu (typ Kunz)"
+    },
+    "frase_gancho": {
+      "hash": "52d8882b2db3904a",
+      "texto": "Zielona płytka o grubości zaledwie trzech centymetrów, zdobiona cienkimi rytymi liniami."
+    },
+    "puente_narrativo": {
+      "hash": "c2f61051220e5101",
+      "texto": "Zamykamy część poświęconą Olmekom niewielkim, delikatnym eksponatem: płytką z zielonego kamienia z cienkimi, rytymi liniami."
+    },
+    "guion_corto": {
+      "hash": "05ceec30f823cdb9",
+      "texto": "To, co czyni ten eksponat wyjątkowym, prawie nie jest widoczne od frontu: ma zaledwie 3 centymetry grubości. To olmecki topór wotywny z jadeitu, znany jako typ Kunz. Ma 29 centymetrów wysokości i 13,5 szerokości. Jest to cienka płytka z zielonego kamienia, z liniami żłobionymi na powierzchni. Olmekowie wykonali ją w środkowym preklasyku, a pochodzi z Wybrzeża Zatoki Meksykańskiej. Wotywny znaczy, że był składany w ofierze w kontekście rytualnym. Olmekowie słynęli z obróbki bardzo twardych kamieni, takich jak jadeit i serpentyn. Wykonywali z nich ceremonialne topory, maski i pektorały. Najdelikatniejsze są cienkie linie wyryte na kamieniu."
+    },
+    "guion_largo": {
+      "hash": "3a30f385a2deb382",
+      "texto": "Ten eksponat zmienia się w zależności od tego, skąd na niego patrzysz. Z przodu to zielona płytka. Z boku prawie znika, bo ma zaledwie 3 centymetry grubości. To olmecki topór wotywny z jadeitu, znany jako typ Kunz. Ma 29 centymetrów wysokości i 13,5 szerokości.\n\nWykonano go z zielonego kamienia, jadeitu lub serpentynu, o ciemnozielonej barwie i dużej twardości. Jego kształt bardziej przypomina płytę niż narzędzie. Na powierzchni ma nacięcia, to znaczy cienkie, wyryte linie.\n\nPochodzi z Wybrzeża Zatoki Meksykańskiej i pochodzi ze środkowego preklasyku. Nazwa mówi „topór”, ale słowo „wotywny” zmienia jej sens. Przedmiot wotywny składa się w ofierze w kontekście rytualnym.\n\nCeremonialne topory z zielonego kamienia należą do repertuaru olmeckiego, obok masek i pektorałów. Olmekowie słynęli z obróbki minerałów o ogromnej twardości, takich jak jadeit, serpentyn i magnetyt.\n\nObrobić taki kamień aż do postaci płytki o grubości 3 centymetrów i jeszcze wyryć na niej cienkie linie wymaga cierpliwości i wielkiej umiejętności. Porównaj jej trzy wymiary: 29 wysokości, 13,5 szerokości i 3 grubości. Ta smukłość wyróżnia ją w tej sali."
+    },
+    "retos_observacion": {
+      "hash": "0c51973a544be4c4",
+      "texto": [
+        "Poszukaj żłobionych linii wyrytych na kamieniu.",
+        "Zwróć uwagę na ciemną zieleń powierzchni.",
+        "Porównaj jej wysokość z grubością: dwadzieścia dziewięć do trzech."
+      ]
+    },
+    "especificaciones": {
+      "hash": "21e8fb3064ff9170",
+      "texto": {
+        "Kultura": "Olmekowie",
+        "Okres": "Środkowy preklasyk",
+        "Materiał": "Jadeit (ciemnozielony, z nacięciami)",
+        "Pochodzenie": "Wybrzeże Zatoki Meksykańskiej, Meksyk",
+        "Wymiary": "0,29 m wysokości x 0,135 m szerokości x 0,03 m grubości"
+      }
+    },
+    "faq_mito": {
+      "hash": "25a6657f0c3170d1",
+      "texto": {
+        "pregunta": "Mit: Jadeitowe topory takie jak ten były bronią wojenną.",
+        "respuesta": "Rzeczywistość: To topór wotywny, czyli ceremonialny. Jest to płytka z zielonego kamienia o grubości zaledwie trzech centymetrów, z żłobionymi liniami."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_coatlicue",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "166dd90d2c061ad3",
+      "texto": "Coatlicue"
+    },
+    "frase_gancho": {
+      "hash": "e8ea24cb8ef0721c",
+      "texto": "Dwa węże tworzą jej twarz, a inne splatają się w jej spódnicę."
+    },
+    "puente_narrativo": {
+      "hash": "693ef9b2fc1df925",
+      "texto": "Po obrazie Słońca i er świata docieramy do obrazu ziemi, kolejnej wielkiej siły w myśli Mexica."
+    },
+    "guion_corto": {
+      "hash": "7afc8f7f6fda3de6",
+      "texto": "Coatlicue znaczy „ta ze spódnicą z węży”, a to imię jest dosłowne. Tam, gdzie powinna być głowa, dwa węże widziane z profilu patrzą na siebie, a między ich kłami powstaje twarz. Z piersi zwisa jej naszyjnik z dłoni i serc, a pośrodku znajduje się czaszka. Stopy kończą się orlimi szponami. To dzieło Mexica z okresu późnego postklasyku, przedstawiające boginię ziemi, matkę Huitzilopochtli. Odkryto je 13 sierpnia 1790 roku na Placu Głównym w Mieście Meksyk. Jej wygląd tak zaniepokoił władze wicekrólewskie, że zakopano ją z powrotem. Dla Mexica ziemia dawała życie, ale też przyjmowała zmarłych. Dlatego ta matka się nie uśmiecha. Dźwiga obie te rzeczy naraz."
+    },
+    "guion_largo": {
+      "hash": "f700a0883901d403",
+      "texto": "Coatlicue to jedna z najbardziej znanych rzeźb sztuki Mexica, a zarazem jedna z najbardziej niepokojących. To dzieło z okresu późnego postklasyku. Odnaleziono ją 13 sierpnia 1790 roku na Placu Głównym w Mieście Meksyk, w sercu tego, czym niegdyś był Tenochtitlan.\n\nJej imię znaczy „ta ze spódnicą z węży”, a rzeźbiarz potraktował je dosłownie. Spódnica jest tkaniną ze splecionych grzechotników. Tam, gdzie powinna być głowa, dwa węże widziane z profilu patrzą na siebie, a ich paszcze tworzą twarz, która nie jest ludzka. Z piersi zwisa naszyjnik z odciętych dłoni i serc, a pośrodku znajduje się czaszka. Nogi kończą się orlimi szponami z piórami.\n\nGdybyś mógł ją obrócić, czekałaby cię kolejna niespodzianka. Na spodniej stronie podstawy wyrzeźbiona jest Tlaltecuhtli, bóstwo ziemi. Ten wizerunek przylegał do podłoża, ukryty przed wzrokiem.\n\nDla Mexica Coatlicue była matką bogów. Według mitu o Coatepec była matką Huitzilopochtli, Coyolxauhqui i gwiazd. Kiedy jej dzieci powstały przeciwko niej, Huitzilopochtli narodził się w pełnym uzbrojeniu i ją obronił. To, że ziemia miała tak straszliwy wygląd, nie było sprzecznością. Uważa się, że dla Mexica ta sama ziemia dawała życie, a także przyjmowała zmarłych.\n\nPo odkryciu rzeźba tak zaniepokoiła władze wicekrólewskie, że postanowiły ją znowu zakopać, na dziedzińcu Królewskiego Uniwersytetu. Obawiały się, że obudzi ona cześć wśród tubylców. Pozostawała ukryta do 1825 roku, kiedy wydobyto ją ostatecznie dla Muzeum Narodowego. Ponad dwa wieki po jej odnalezieniu wciąż niepokoi każdego, kto na nią patrzy."
+    },
+    "retos_observacion": {
+      "hash": "10d85368fae42a47",
+      "texto": [
+        "Wyszukaj dwa węże widziane z profilu, które stają naprzeciw siebie tam, gdzie powinna być głowa.",
+        "Znajdź naszyjnik z dłoni i serc z czaszką pośrodku.",
+        "Rozpoznaj spódnicę utkaną z węży i stopy z orlimi szponami."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a895a38ca88d3655",
+      "texto": {
+        "Kultura": "Mexica",
+        "Okres": "Późny postklasyk (1200-1521 n.e.)",
+        "Materiał": "Andezyt i czerwony pigment",
+        "Pochodzenie": "Centrum Historyczne, Miasto Meksyk (Plac Główny)",
+        "Wymiary": "252 cm wysokości x 158 cm szerokości x 124 cm grubości"
+      }
+    },
+    "faq_mito": {
+      "hash": "73676a7474fd6f8a",
+      "texto": {
+        "pregunta": "Mit: Coatlicue to potwór wymyślony wyłącznie po to, by straszyć.",
+        "respuesta": "Rzeczywistość: To bogini ziemi i macierzyństwa Mexica, matka Huitzilopochtli. Jej straszliwe cechy są częścią tej symboliki i nie są zwykłą makabryczną ozdobą."
+      }
+    }
+  }
+}

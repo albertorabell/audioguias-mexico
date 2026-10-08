@@ -1,0 +1,54 @@
+{
+  "id": "mna_s00_el_paraguas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "474bba9aa82a6ceb",
+      "texto": "Parasol i odwrócona fontanna"
+    },
+    "frase_gancho": {
+      "hash": "3af8ed40d83811f2",
+      "texto": "Jedna jedyna kolumna podtrzymuje ogromny dach, a z niej spada woda kaskadą."
+    },
+    "puente_narrativo": {
+      "hash": "0de5fcb9b1342ed2",
+      "texto": "Wchodzimy na Dziedziniec Centralny, gdzie jedna jedyna kolumna podtrzymuje ogromny dach, a z niej spada woda."
+    },
+    "guion_corto": {
+      "hash": "feb89988a498f221",
+      "texto": "Ile kolumn podtrzymuje ten ogromny dach? Policz je: tylko jedna. Dlatego nazywa się go Parasolem. To zadaszenie, które opiera się na jednej betonowej kolumnie, ze stalową konstrukcją, na Dziedzińcu Centralnym muzeum. Z kolumny spada woda kaskadą i dlatego nazywa się ją również odwróconą fontanną. Kolumnę pokrywa brązowy relief zatytułowany „Wizerunek Meksyku”. Projekt jest dziełem architekta Pedra Ramíreza Vázqueza, a otwarto go w 1964 roku. Relief jest dziełem artystów Chávez Morado. Dach, który chroni, kolumna, która coś opowiada, i woda, która nieustannie spada: tak można podsumować ten dziedziniec."
+    },
+    "guion_largo": {
+      "hash": "9299c34098df17ee",
+      "texto": "Kiedy dach spoczywa na jednej kolumnie, przestrzeń pod nim wydaje się wolna. Właśnie to udaje się Parasolowi, jednemu z najbardziej zapamiętywanych miejsc w muzeum.\n\nKonstrukcja jest stalowa, kolumna betonowa, a jej powierzchnię pokrywa brązowy relief. W języku angielskim nazywa się go „umbrella roof”, czyli dach-parasol. Jest tu także instalacja hydrauliczna, która sprawia, że woda spada kaskadą. Stąd inna nazwa, odwrócona fontanna: zamiast tryskać w górę, woda spada z góry.\n\nProjekt jest dziełem Pedra Ramíreza Vázqueza, architekta całego muzeum. Otwarto go 17 września 1964 roku, na Dziedzińcu Centralnym, w Lesie Chapultepec. Zadaszenie ma około osiemdziesięciu dwóch metrów na pięćdziesiąt cztery.\n\nBrązowy relief nosi tytuł „Wizerunek Meksyku”. Wykonali go artyści Chávez Morado, wśród nich Tomás. Opowiada historię kraju za pomocą postaci. Najlepiej śledzić go wzrokiem, od góry do dołu, zastanawiając się, jaki wizerunek Meksyku chcieli stworzyć.\n\nPomyśl o kontraście materiałów. U góry stalowe zadaszenie. Na dole betonowa kolumna odziana w brąz. I woda, która spada bez przerwy.\n\nW muzeum poświęconym dawnym kulturom Parasol jest dziełem swojej epoki. Dach, kolumna i kaskada: przy tak niewielu elementach dziedziniec staje się miejscem, które warto przejść bez pośpiechu."
+    },
+    "retos_observacion": {
+      "hash": "0d622d637b1288f9",
+      "texto": [
+        "Policz kolumny, które podtrzymują dach dziedzińca.",
+        "Prześledź wzrokiem brązowy relief pokrywający kolumnę.",
+        "Podążaj za kaskadą wody od góry aż do podłogi."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2e87410b32fc2a9d",
+      "texto": {
+        "Kultura": "Nowoczesna architektura meksykańska: Pedro Ramírez Vázquez (architektura); brązowy relief „Wizerunek Meksyku” autorstwa artystów Chávez Morado",
+        "Okres": "1964 (otwarty 17 września 1964 roku)",
+        "Materiał": "Stalowa konstrukcja, betonowa kolumna pokryta brązowym reliefem oraz hydrauliczna instalacja fontanny kaskadowej",
+        "Pochodzenie": "Dziedziniec Centralny, Narodowe Muzeum Antropologii, Las Chapultepec, Miasto Meksyk"
+      }
+    },
+    "faq_mito": {
+      "hash": "06b6f9b5e2d29d81",
+      "texto": {
+        "pregunta": "Mit: Parasol to tylko dach, który chroni nas przed deszczem.",
+        "respuesta": "Rzeczywistość: To stalowe zadaszenie na betonowej kolumnie, pokrytej brązowym reliefem zatytułowanym „Wizerunek Meksyku”, z wodą spadającą kaskadą; zaprojektował je Pedro Ramírez Vázquez."
+      }
+    }
+  }
+}

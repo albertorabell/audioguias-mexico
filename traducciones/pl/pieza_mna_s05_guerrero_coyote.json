@@ -1,0 +1,54 @@
+{
+  "id": "mna_s05_guerrero_coyote",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c4bfa3a5680f6c72",
+      "texto": "Rzeźba toltekańskiego wojownika w hełmie kojota"
+    },
+    "frase_gancho": {
+      "hash": "64f26f7335c9c982",
+      "texto": "Ludzka twarz wyłaniająca się spomiędzy paszczy kamiennego kojota."
+    },
+    "puente_narrativo": {
+      "hash": "ff87edaea2bf6f68",
+      "texto": "Przechodzimy do wojownika, od którego pochodzi nazwa jednego z zakonów wojskowych Tuli: Wojownika Kojota."
+    },
+    "guion_corto": {
+      "hash": "efb549e4d54a30ca",
+      "texto": "Ludzka twarz wyłania się spomiędzy paszczy kojota. Ta toltekańska rzeźba z Tuli to monolit z bazaltu, wykonany we wzniesionym reliefie, pochodzący z wczesnego postklasyku. Przedstawia oficera lub kapitana z wojskowej elity, ubranego w insygnia bojowe. Jego twarz wygląda spomiędzy paszczy ogromnego nakrycia głowy, czyli hełmu w kształcie kojota. Wojownik ma na piersi pektorał ze stylizowaną sylwetką motyla, naramienniki, przepaskę biodrową, a na górze figurę lecącego w dół ptaka. Przedstawia Wojowników Kojotów, jeden z najbardziej wpływowych zakonów wojennych Tuli, obok Wojowników Jaguarów i Wojowników Orłów. Tę strukturę wojskową odziedziczyły później armie Mexików."
+    },
+    "guion_largo": {
+      "hash": "502fcc209eb25f7a",
+      "texto": "Kamienny kojot, a w jego paszczy ludzka twarz. Tak prezentuje się ten wojownik z Tuli.\n\nTo toltekańska rzeźba z wczesnego postklasyku. Jest to monolit z bazaltu, wykonany we wzniesionym reliefie. Przedstawia oficera lub kapitana z toltekańskiej elity wojskowej, ubranego w insygnia bojowe.\n\nZwróć uwagę na nakrycie głowy. To ogromny hełm w kształcie kojota, a twarz wojownika wygląda z jego otwartej paszczy. Ma też na piersi pektorał ze stylizowaną sylwetką motyla, po nahuatl papalotl, naramienniki i przepaskę biodrową. W górnej części znajduje się figura lecącego w dół ptaka.\n\nKojot nie jest zwykłą ozdobą. Ten wizerunek przedstawia korporację wojskową Wojowników Kojotów. Był to jeden z najbardziej wpływowych zakonów wojennych Tuli, obok Wojowników Jaguarów i Wojowników Orłów.\n\nTo te same zwierzęta, które defilują we fryzie w tej sali. Zakony wojskowe miały za godło drapieżniki, a ściany Tuli ukazywały je na każdym kroku.\n\nTa idea miała długie życie. Armie Mexików odziedziczyły później tę strukturę wojskową, podzieloną na zakony zwierząt.\n\nZanim pójdziesz dalej, spójrz na kontrast. Kamień jest twardy i ciężki, ale ludzka twarz wyłaniająca się spomiędzy paszczy ma w sobie dziwny spokój."
+    },
+    "retos_observacion": {
+      "hash": "70482442f1745390",
+      "texto": [
+        "Znajdź ludzką twarz między paszczą kojota.",
+        "Spójrz na pektorał z sylwetką motyla.",
+        "Odszukaj lecącego w dół ptaka w górnej części."
+      ]
+    },
+    "especificaciones": {
+      "hash": "e95eeb495b158075",
+      "texto": {
+        "Kultura": "Toltekowie",
+        "Okres": "Wczesny postklasyk (900-1200 n.e.)",
+        "Materiał": "Bazalt rzeźbiony we wzniesionym reliefie",
+        "Pochodzenie": "Tula, Hidalgo"
+      }
+    },
+    "faq_mito": {
+      "hash": "c950ac6d64aeb990",
+      "texto": {
+        "pregunta": "Mit: Kojot z hełmu był świętym zwierzęciem, którego Toltekowie nie śmieli dotykać.",
+        "respuesta": "Rzeczywistość: Był godłem zakonu wojskowego, Wojowników Kojotów, jednego z najbardziej wpływowych w Tuli obok Wojowników Jaguarów i Orłów."
+      }
+    }
+  }
+}

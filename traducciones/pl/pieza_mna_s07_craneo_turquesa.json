@@ -1,0 +1,55 @@
+{
+  "id": "mna_s07_craneo_turquesa",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0f8b304c2757241",
+      "texto": "Czaszka z mozaiką z turkusu z Grobowca 7"
+    },
+    "frase_gancho": {
+      "hash": "b0e8cde39581919b",
+      "texto": "Ludzka czaszka pokryta turkusem, znaleziona w grobowcu w Monte Albán."
+    },
+    "puente_narrativo": {
+      "hash": "af25bf9b1872b475",
+      "texto": "Zostajemy w Grobowcu 7 przy obiekcie, który robi wrażenie swoją starannością: ludzkiej czaszce pokrytej turkusem."
+    },
+    "guion_corto": {
+      "hash": "b364e7e3aeccea9f",
+      "texto": "Pod turkusem kryje się prawdziwa ludzka czaszka. Ten mixtecki eksponat pochodzi z Grobowca 7 w Monte Albán. Archeolog Alfonso Caso odkrył go w styczniu 1932 roku. Pochodzi z późnego postklasyku, z lat między 1200 a 1521 po Chrystusie. Czaszkę pokrywa mozaika z wyciętych płytek turkusu oraz z czerwonej muszli gatunku Spondylus. W jamie nosowej tkwi wbity nóż. Każda płytka turkusu i każdy kawałek muszli został cierpliwie osadzony na kości. To jeden z eksponatów z Grobowca 7, które zgromadzono w muzeum."
+    },
+    "guion_largo": {
+      "hash": "a3fe775e115547d1",
+      "texto": "Są obiekty, które zaskakują tym, czym są, i ten właśnie do nich należy. To autentyczna ludzka czaszka, pokryta turkusem i muszlą.\n\nPochodzi z Grobowca 7 w Monte Albán. Zapotekowie zbudowali ten grobowiec, a wieki później Mixtekowie wykorzystali go ponownie, by pochować swoich dostojników. Stało się to w późnym postklasyku, w latach między 1200 a 1521 po Chrystusie. W styczniu 1932 roku archeolog Alfonso Caso odkrył tam jedno z najwspanialszych wyposażeń grobowych na kontynencie.\n\nNa kości ułożono mozaikę z wyciętych płytek turkusu. Dodano czerwoną muszlę gatunku Spondylus. W jamie nosowej osadzono nóż, krzemienny lub obsydianowy.\n\nW tym samym grobowcu znaleziono biżuterię ze złota, srebra, turkusu, bursztynu, pereł i jadeitu, a także naczynia z kryształu górskiego. Były to materiały trudne do zdobycia i do obróbki. Dlatego czaszki nie da się zrozumieć w oderwaniu od reszty: jest częścią zespołu niezwykle bogatych przedmiotów.\n\nMixtekowie byli ludem deszczu, w ich języku Ñuu Savi. Żyli głównie w Górnej Mixtece, a stamtąd rozprzestrzenili się ku Dolinom Centralnym. Słynęli jako złotnicy, a także jako malarze kodeksów, ksiąg malowanych na skórze jelenia, w których opowiadali o swojej historii, mitach i rodowodach.\n\nKim była osoba, której czaszkę tak pokryto, wciąż pozostaje zagadką. Widać natomiast ludzką pracę na ludzkiej kości: mozaikę z niebieskiego kamienia i czerwonej muszli, która przetrwała do dziś."
+    },
+    "retos_observacion": {
+      "hash": "3c6ef83f3a64fc79",
+      "texto": [
+        "Poszukaj małych, wyciętych płytek turkusu, które pokrywają kość.",
+        "Znajdź czerwoną muszlę gatunku Spondylus.",
+        "Zwróć uwagę na nos: tkwi w nim wbity nóż."
+      ]
+    },
+    "especificaciones": {
+      "hash": "008b140119c91190",
+      "texto": {
+        "Kultura": "Mixtekowie",
+        "Okres": "Późny postklasyk (1200-1521 n.e.)",
+        "Materiał": "Ludzka czaszka pokryta mozaiką z wyciętych płytek turkusu i czerwonej muszli Spondylus, z nożem wbitym w jamę nosową",
+        "Pochodzenie": "Grobowiec 7, Monte Albán, Oaxaca",
+        "Odkrycie": "Odkryta w styczniu 1932 roku przez Alfonsa Caso podczas wykopalisk w Grobowcu 7"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e06138895114d40",
+      "texto": {
+        "pregunta": "Mit: Czaszka z mozaiką z turkusu z Grobowca 7 to XIX-wieczne fałszerstwo wykonane przez zagranicznych kolekcjonerów.",
+        "respuesta": "Rzeczywistość: To mixtecki eksponat z późnego postklasyku, z lat między 1200 a 1521 n.e. Alfonso Caso odkrył go w styczniu 1932 roku podczas wykopalisk w Grobowcu 7 w Monte Albán."
+      }
+    }
+  }
+}

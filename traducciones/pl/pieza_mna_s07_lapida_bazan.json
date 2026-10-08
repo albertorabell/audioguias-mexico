@@ -1,0 +1,53 @@
+{
+  "id": "mna_s07_lapida_bazan",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92bc93fe12ba2ef4",
+      "texto": "Płyta Bazána"
+    },
+    "frase_gancho": {
+      "hash": "49f4bb46707af133",
+      "texto": "Dwóch mężczyzn twarzą w twarz: mieszkaniec Teotihuacán i Zapotek."
+    },
+    "puente_narrativo": {
+      "hash": "06af6758996b117b",
+      "texto": "Przechodzimy do reliefu, który zapisuje pewne spotkanie: dwóch mężczyzn z różnych miast, twarzą w twarz."
+    },
+    "guion_corto": {
+      "hash": "6d918bac744d2f3b",
+      "texto": "Dwóch mężczyzn twarzą w twarz, a między nimi kolumny glifów. To Płyta Bazána, kamienna płyta wykuta w płaskorzeźbie, z napisami hieroglificznymi. Pochodzi z Wielkiego Placu w Monte Albán, w Oaxaca, i datuje się na wczesny klasyk. Po lewej stronie widać dostojnika w stroju i jaguarzej skórze w stylu z Teotihuacán. Po prawej stronie widnieje zapotecki władca lub kapłan z Monte Albán. W górnej części i między postaciami znajdują się kolumny zapoteckich kartuszy z glifami. Interpretuje się to jako zapis spotkania dyplomatycznego i sojuszu między dwoma miastami. Miałby to być dowód pokojowych i handlowych stosunków między Teotihuacán a Monte Albán."
+    },
+    "guion_largo": {
+      "hash": "4fc472ce2b9a366b",
+      "texto": "To niewielka płyta, a opowiada historię rozgrywającą się między dwoma wielkimi miastami. Płyta Bazána pochodzi z Wielkiego Placu w Monte Albán, w Oaxaca, i datuje się na wczesny klasyk. Jest wykuta w płaskorzeźbie, z napisami hieroglificznymi.\n\nSpójrz na obie postacie. Po lewej stronie stoi dostojnik odziany w strój i jaguarzą skórę w stylu z Teotihuacán. Po prawej stronie widnieje zapotecki władca lub kapłan z Monte Albán.\n\nW górnej części i między nimi ułożone są kolumny zapoteckich kartuszy z glifami. Kartusz to ramka ze znakami pisma.\n\nInterpretuje się, że płyta zapisuje spotkanie dyplomatyczne i sojusz polityczny między tymi dwoma mężczyznami. Glify upamiętniałyby wizytę oraz rytualne ustalenia między obiema stolicami.\n\nByłby to pisemny dowód na to, że Teotihuacán i Monte Albán utrzymywały stosunki pokojowe, handlowe i wymienne w okresie klasyku. To zgadza się z obecnością w samym Teotihuacán dzielnicy ludzi z Oaxaca, zwanej Dzielnicą Oaxaca.\n\nPomyśl, co to oznacza. W epoce wielkich miast dwie potęgi uznały, że warto utrwalić swoje spotkanie w kamieniu."
+    },
+    "retos_observacion": {
+      "hash": "24e3018e0890ccb0",
+      "texto": [
+        "Znajdź postać po lewej stronie, w stroju i jaguarzej skórze.",
+        "Spójrz na zapoteckiego władcę po prawej stronie.",
+        "Odszukaj kolumny glifów między nimi."
+      ]
+    },
+    "especificaciones": {
+      "hash": "7b1b29655947a5be",
+      "texto": {
+        "Okres": "Wczesny klasyk",
+        "Materiał": "Alabaster, onyks meksykański lub trawertyn",
+        "Pochodzenie": "Wielki Plac, Monte Albán, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "1e4d0386e7b48db4",
+      "texto": {
+        "pregunta": "Mit: Płyta Bazána upamiętnia podbój Monte Albán przez mieszkańców Teotihuacán.",
+        "respuesta": "Rzeczywistość: Interpretuje się ją jako zapis spotkania dyplomatycznego i sojuszu między dwoma miastami, które utrzymywały stosunki pokojowe i handlowe."
+      }
+    }
+  }
+}

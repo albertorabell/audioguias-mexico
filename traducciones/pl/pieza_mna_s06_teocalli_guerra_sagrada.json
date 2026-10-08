@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_teocalli_guerra_sagrada",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "975d0f20bf813e40",
+      "texto": "Teocalli Świętej Wojny"
+    },
+    "frase_gancho": {
+      "hash": "4e0f08a9823f2b6b",
+      "texto": "Miniaturowa świątynia z orłem siedzącym na nopalu."
+    },
+    "puente_narrativo": {
+      "hash": "00eec29fafc7abf6",
+      "texto": "Ziemia pojawia się znowu, tym razem w monumencie, w którym religia i władza polityczna łączą się w jedno: w świątyni wyrzeźbionej w skali."
+    },
+    "guion_corto": {
+      "hash": "375e62919f6495b6",
+      "texto": "Ta miniaturowa świątynia leżała zakopana pod Pałacem Narodowym. Odnaleziono ją w sierpniu 1831 roku, w fundamentach południowej baszty, a w lipcu 1926 roku trafiła do Muzeum Narodowego. To Teocalli Świętej Wojny, dzieło Mexica z późnego postklasyku, wykute w bazalcie i pokryte czerwonym pigmentem. Przypomina ceremonię Nowego Ognia z lat od 1506 do 1507. Z przodu schody o trzynastu stopniach prowadzą do sanktuarium. Tam władca i bóg Huitzilopochtli przekłuwają sobie uszy, by ofiarować swoją krew. Z tyłu znajduje się najsłynniejszy relief: orzeł siedzący na nopalu, który wyrasta z ciała ziemi. Z dzioba orła nie wydobywa się wąż, lecz znak wody i ognia, godło Świętej Wojny."
+    },
+    "guion_largo": {
+      "hash": "a8ce0bc86753b439",
+      "texto": "Teocalli Świętej Wojny to miniaturowa świątynia, kamienny model piramidy ze schodami i sanktuarium. To dzieło Mexica z późnego postklasyku, wykute w bazalcie, z resztkami czerwonego pigmentu. Przypomina ceremonię Nowego Ognia z lat od 1506 do 1507 i ma wyrytą datę 2 Trzcina.\n\nOd frontu schody o trzynastu stopniach prowadzą do sanktuarium na szczycie. Widać tam scenę samoofiary. Tlatoani Moctezuma II i bóg opiekuńczy, Huitzilopochtli, przekłuwają sobie płatki uszu szydłami, po obu stronach tarczy słonecznej. To obraz potęgi: władca ofiarowuje swoją krew tak samo jak bóg.\n\nTylna ściana jest najsłynniejsza. Znajduje się na niej orzeł siedzący na nopalu, który wyrasta z ciała Tlaltecuhtli, bóstwa ziemi. To obraz, który Mexica łączyli z założeniem Tenochtitlan. I jest tu jeden zaskakujący szczegół: z dzioba orła nie wydobywa się wąż, lecz znak atl-tlachinolli, co znaczy woda i ogień. Był to symbol Świętej Wojny, którą Mexica toczyli, by karmić bogów.\n\nNowożytne dzieje monumentu również kryją niespodzianki. Odnaleziono go w sierpniu 1831 roku, w fundamentach południowej baszty Pałacu Narodowego. A w lipcu 1926 roku trafił do Muzeum Narodowego, gdzie dziś jest przechowywany jako jeden z najsłynniejszych obrazów świata Mexica."
+    },
+    "retos_observacion": {
+      "hash": "b78f634815c1214e",
+      "texto": [
+        "Poszukaj na tylnej ścianie orła siedzącego na nopalu.",
+        "Znajdź znak wody i ognia, który wychodzi z dzioba.",
+        "Odszukaj środkowe schody i sanktuarium na szczycie."
+      ]
+    },
+    "especificaciones": {
+      "hash": "9f07c574a19b4a3f",
+      "texto": {
+        "Kultura": "Mexica",
+        "Okres": "Późny postklasyk (1200-1521 n.e.)",
+        "Materiał": "Bazalt i czerwony pigment",
+        "Pochodzenie": "Centrum Historyczne, Miasto Meksyk (Pałac Narodowy)",
+        "Wymiary": "123 cm wysokości x 92 cm szerokości x 100 cm grubości"
+      }
+    },
+    "faq_mito": {
+      "hash": "a48c2a86a1517669",
+      "texto": {
+        "pregunta": "Mit: Orzeł z tego reliefu pożera węża, tak jak w godle narodowym.",
+        "respuesta": "Rzeczywistość: Z dzioba orła wychodzi znak atl-tlachinolli, woda i ogień, godło Świętej Wojny. Obraz orła na nopalu łączono z założeniem Tenochtitlan."
+      }
+    }
+  }
+}

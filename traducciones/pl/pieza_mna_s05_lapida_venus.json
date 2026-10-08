@@ -1,0 +1,54 @@
+{
+  "id": "mna_s05_lapida_venus",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d7d5908d6e3ae73a",
+      "texto": "Płyta Tlahuizcalpantecuhtli"
+    },
+    "frase_gancho": {
+      "hash": "887cd7b45e8913cd",
+      "texto": "Serce o trzech płatach, przebite trzema wiązkami strzał, wykute w kamieniu w Tula."
+    },
+    "puente_narrativo": {
+      "hash": "6b5d100f68efccc7",
+      "texto": "Od wojowników, którzy podtrzymywali świątynię, przechodzimy do płyty, która opowiada pewną ideę: serce przebite strzałami."
+    },
+    "guion_corto": {
+      "hash": "956e14d94364f2c2",
+      "texto": "Jest pewien szczegół, o którym prawie nikt nie opowiada: serce na tej płycie ma trzy płaty. Znajduje się w talerzu, czyli naczyniu, przedstawionym z boku w przekroju, a przebijają je trzy wiązki strzał. To bazaltowy relief kultury Toltekòw z wczesnego postklasyku. Pochodzi z Tula, z piramidy Tlahuizcalpantecuhtli, Pana Gwiazdy Porannej. Pierwotnie był pomalowany. Przypuszcza się, że panele takie jak ten pełniły rolę przekazu bez słów o ofierze z ludzi i odnowie kosmosu. Ta sama idea, serca przebite strzałami, pojawia się także w świątyniach Chichén Itzá, w Yucatán. To pokazuje ścisły związek wojskowy i religijny między Tula a półwyspem."
+    },
+    "guion_largo": {
+      "hash": "d7e6d69559213401",
+      "texto": "Spójrz najpierw na środek płyty. Widać na niej talerz, czyli naczynie, przedstawiony z boku, jakby w przekroju. Na nim spoczywa ludzkie serce. Ma trzy płaty, dlatego w opisach nazywa się je trójpłatowym. I nie jest spokojne: przebijają je trzy wiązki strzał. Wiązka to grupa strzał związanych razem.\n\nPłyta jest z bazaltu i została wykonana w płaskorzeźbie niskiej i wysokiej, czyli z partiami mało wystającymi i takimi, które wystają bardziej. Dziś widzisz ją w barwach kamienia, ale pierwotnie była polichromowana.\n\nWiąże się ją z piramidą Tlahuizcalpantecuhtli w Tula. To Pan Gwiazdy Porannej, czyli planeta Wenus. W tej samej piramidzie stały atlanci, tacy jak ten w tej sali, kamienni wojownicy, którzy podtrzymywali dach świątyni. Atlanci podtrzymywali architekturę. Płyty natomiast opowiadały idee.\n\nPomyśl o mieście. Około roku osiemset pięćdziesiątego Tula weszła w swój największy okres, nazywany Wielką Tula. Zajmowała ponad trzynaście kilometrów kwadratowych. Gromadziła ludzi z wielu ludów i kontrolowała szlaki handlowe. W takim mieście kamienne obrazy były sposobem przekazywania idei wielu ludziom.\n\nTo, co widzisz, to głębokie koło, serce o trzech płatach i proste linie, które je przecinają. Przypuszcza się, że działało jak przekaz w kamieniu o ofierze z ludzi i odnowie kosmosu i że czytano je bez słów. Ta sama ikonografia, serca przebite strzałami, pojawia się w świątyniach Chichén Itzá, w Yucatán. To pokazuje ścisły związek wojskowy i religijny między Tula a półwyspem w tym okresie.\n\nSerce o trzech płatach, talerz i trzy wiązki strzał: trzy elementy dla jednej idei, którą w Tula wyrażano kamieniem."
+    },
+    "retos_observacion": {
+      "hash": "5f3999b3b8806b5e",
+      "texto": [
+        "Znajdź serce o trzech płatach pośrodku reliefu.",
+        "Policz wiązki strzał, które je przebijają.",
+        "Odszukaj talerz, przedstawiony z boku, na którym spoczywa serce."
+      ]
+    },
+    "especificaciones": {
+      "hash": "910a77057a6613ca",
+      "texto": {
+        "Kultura": "Toltekowie",
+        "Okres": "Wczesny postklasyk (900-1200 n.e.)",
+        "Materiał": "Bazalt",
+        "Pochodzenie": "Tula, Hidalgo (Piramida Tlahuizcalpantecuhtli, Świątynia B)"
+      }
+    },
+    "faq_mito": {
+      "hash": "35307193a94a5ca7",
+      "texto": {
+        "pregunta": "Mit: Ta płyta to kolonialny herb przywieziony przez Hiszpanów do Hidalgo.",
+        "respuesta": "Rzeczywistość: To prehiszpańska bazaltowa płyta kultury Toltekòw, związana z piramidą Tlahuizcalpantecuhtli w Tula."
+      }
+    }
+  }
+}

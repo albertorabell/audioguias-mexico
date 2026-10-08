@@ -1,0 +1,54 @@
+{
+  "id": "mna_s00_espejo_caracol",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fdf2b1be432b9130",
+      "texto": "Lustro Wody i Brązowy Ślimak"
+    },
+    "frase_gancho": {
+      "hash": "d95f260bc1894008",
+      "texto": "Staw z sitowiem i liliami wodnymi oraz brązowy ślimak na dziedzińcu centralnym."
+    },
+    "puente_narrativo": {
+      "hash": "9b157d61e84a9636",
+      "texto": "Idziemy dalej, na drugi koniec dziedzińca, gdzie staw z roślinami wodnymi zapowiada wejście do Sali Mexica."
+    },
+    "guion_corto": {
+      "hash": "6fc73fff2745828c",
+      "texto": "Staw, sitowie, lilie wodne i brązowy ślimak: tak dziedziniec przygotowuje cię na wejście do Sali Mexica. Staw znajduje się w drugiej części Dziedzińca Centralnego muzeum i został otwarty 17 września 1964 roku. Dziedziniec i staw zaprojektował architekt Pedro Ramírez Vázquez. Brązowy ślimak jest dziełem rzeźbiarza Ikera Larrauriego. Woda leży na kamiennej posadzce, a wokół niej rosną rośliny wodne, takie jak sitowie i lilie wodne. Ta roślinność przypomina jeziora Doliny Meksyku. W stawie jest także palnik gazowy w kształcie schodkowego wzoru. Mówi się, że ślimak wydaje dźwięki podobne do tych, które wydawały instrumenty z czasów przedhiszpańskich. To miejsce, w którym warto patrzeć, słuchać i przechodzić powoli."
+    },
+    "guion_largo": {
+      "hash": "4afe284bd053e4ea",
+      "texto": "Woda na Dziedzińcu Centralnym to nie tylko dekoracja. Znajduje się tu staw z roślinnością wodną, a w nim brązowy ślimak.\n\nDziedziniec i staw zaprojektował architekt Pedro Ramírez Vázquez i zostały otwarte razem z muzeum 17 września 1964 roku. Rzeźbę ślimaka wykonał rzeźbiarz Iker Larrauri. Staw znajduje się w drugiej części Dziedzińca Centralnego, na kamiennej posadzce, a w wodzie rosną sitowie i lilie wodne.\n\nJest tu także palnik gazowy w kształcie schodkowego wzoru. To szczegół, obok którego łatwo przejść obojętnie, a który powtarza motyw dawnej architektury.\n\nŚlimak jest z brązu i mówi się, że wydaje dźwięki podobne do tych, które wydawały instrumenty z czasów przedhiszpańskich. Dlatego to obiekt, na który warto patrzeć, ale też go słuchać.\n\nWiele kultur, które przechowuje muzeum, żyło nad jeziorami, zwłaszcza w Dolinie Meksyku. Ten staw ze swoimi roślinami wodnymi przywołuje ten krajobraz, zanim wejdziesz do Sali Mexica.\n\nZanim ruszysz dalej, zatrzymaj się na chwilę. Spójrz na wodę, poszukaj ślimaka i pomyśl o jeziorach, które otaczały ludy, które za chwilę poznasz."
+    },
+    "retos_observacion": {
+      "hash": "4dfe64f11d284ce1",
+      "texto": [
+        "Poszukaj brązowego ślimaka w stawie.",
+        "Spójrz na sitowie i lilie wodne: przypominają jeziora Doliny Meksyku.",
+        "Znajdź palnik gazowy w kształcie schodkowego wzoru."
+      ]
+    },
+    "especificaciones": {
+      "hash": "84db8fe60be4534f",
+      "texto": {
+        "Kultura": "Nowoczesna meksykańska sztuka i integracja plastyczna: Pedro Ramírez Vázquez (projekt dziedzińca i stawu) oraz Iker Larrauri (rzeźba Brązowego Ślimaka)",
+        "Okres": "1964 (otwarcie 17 września 1964 roku)",
+        "Materiał": "Staw na kamiennej posadzce z roślinnością wodną (sitowie i lilie wodne), palnik gazowy w kształcie schodkowego wzoru oraz rzeźba z brązu",
+        "Pochodzenie": "Druga część Dziedzińca Centralnego, Narodowe Muzeum Antropologii, Miasto Meksyk"
+      }
+    },
+    "faq_mito": {
+      "hash": "5647c0538d0a7f8c",
+      "texto": {
+        "pregunta": "Mit: Staw to tylko dekoracyjny basen.",
+        "respuesta": "Rzeczywistość: Jego sitowie i lilie wodne przypominają jeziora Doliny Meksyku, a brązowy ślimak jest dziełem rzeźbiarza Ikera Larrauriego."
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "mna_s05_atlante_tula",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {
+    "guion_largo": [
+      "no encuentro estos números del español: 1930"
+    ],
+    "especificaciones": [
+      "no encuentro estos números del español: 1930"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "172b2dac9ca0f09c",
+      "texto": "Atlant z Tula"
+    },
+    "frase_gancho": {
+      "hash": "6a81b03fe2687e3e",
+      "texto": "Kamienny wojownik, który podtrzymywał dach świątyni w Tula."
+    },
+    "puente_narrativo": {
+      "hash": "64f059b5e19aaf5c",
+      "texto": "Opuszczamy Teotihuacán i docieramy do Tula, miasta Tolteków, do jednego z jego kamiennych wojowników."
+    },
+    "guion_corto": {
+      "hash": "a02a01facc7442e3",
+      "texto": "Ten kamienny wojownik został zbudowany z czterech bloków, ułożonych jeden na drugim i połączonych systemem czopa i gniazda. To atlant z Tula, kolumna o ludzkim kształcie, wykonana przez Tolteków we Wczesnym postklasyku. Pochodzi z piramidy Tlahuizcalpantecuhtli, Pana Świtu, czyli planety Wenus. Razem z trzema takimi samymi atlantami podtrzymywał dach świątyni, która wieńczyła podstawę piramidy. Przedstawia ubóstwionego wojownika z toltekiej elity. Ma nakrycie głowy z piórami, prostokątne ozdoby uszu, a na piersi pektorał w kształcie motyla. W prawej ręce trzyma atlatl, miotacz oszczepów. W lewej cztery oszczepy. Był częścią budynku, a budynek spoczywał na nim."
+    },
+    "guion_largo": {
+      "hash": "4d3483a828439da0",
+      "texto": "To kolumna, ale ma kształt człowieka. Jest to atlant z Tula, miasta Tolteków, w obecnym stanie Hidalgo. Pochodzi z Wczesnego postklasyku i z piramidy Tlahuizcalpantecuhtli, zwanej też Świątynią B.\n\nKażdy atlant został zbudowany z czterech kamiennych bloków, ułożonych jeden na drugim. Łączono je systemem czopa i gniazda: wgłębienie w jednym elemencie i występ w drugim pasowały do siebie. Dzięki temu postać wznosiła się odcinek po odcinku. Znacznie przewyższa wzrost człowieka i została stworzona, by podtrzymywać dach.\n\nZwróć uwagę na strój. Ma walcowate nakrycie głowy z piórami i prostokątne ozdoby uszu. Na piersi pektorał w kształcie motyla, po nahuatl papalotl. Niżej krótka spódniczka przytrzymywana pasem. W prawej ręce trzyma atlatl, miotacz oszczepów. W lewej cztery oszczepy i naczynie ozdobione meandrami. Na ramieniu nosi zakrzywiony nóż, który wiąże się z ofiarami z jeńców. Na plecach ma dysk, tezcacuitlapilli, ozdobiony Wężem Pierzastym. Na nogach i stopach zachowały się ślady czerwonej farby. Oczy były zdobione wkładkami z muszli i obsydianu.\n\nBadacze, na podstawie stroju, uważają, że przedstawia ubóstwionego wojownika z toltekiej elity. Wiąże się go z kultem Tlahuizcalpantecuhtliego, Pana Świtu, czyli planety Wenus, oraz z Mixcóatlem. Z pewnością wiadomo, jaką pełnił funkcję. Razem z trzema innymi identycznymi atlantami podtrzymywał drewniany dach świątyni, na szczycie piramidalnej podstawy.\n\nArcheolog Jorge R. Acosta odnalazł cztery figury pod koniec lat 30. XX wieku, w fosie Piramidy B. Trzy nadal stoją w strefie archeologicznej Tula. Ten egzemplarz przeniesiono, by przewodniczył Sali Tolteków. Gdy się oddalisz, wyobraź sobie całą świątynię: drewniany dach spoczywający na czterech kamiennych wojownikach."
+    },
+    "retos_observacion": {
+      "hash": "404fd5b16916a15b",
+      "texto": [
+        "Poszukaj pektorału w kształcie motyla na piersi.",
+        "Znajdź miotacz oszczepów, który trzyma w prawej ręce.",
+        "Spójrz na nogi: zachowały ślady czerwonej farby."
+      ]
+    },
+    "especificaciones": {
+      "hash": "0b8eccf904e961d9",
+      "texto": {
+        "Kultura": "Toltekowie",
+        "Okres": "Wczesny postklasyk (900-1200 n.e.)",
+        "Pochodzenie": "Tula, Hidalgo (Piramida Tlahuizcalpantecuhtli, Świątynia B)",
+        "Wymiary": "4,83 m wysokości x 1,00 m szerokości x 1,40 m grubości",
+        "Odkrycie": "Odnaleziony przez Jorge’a R. Acostę pod koniec lat 30. XX wieku, w fosie Piramidy B"
+      }
+    },
+    "faq_mito": {
+      "hash": "ef87b12e6e6b48d8",
+      "texto": {
+        "pregunta": "Mit: Każdy atlant jest wyrzeźbiony z jednej gigantycznej skały.",
+        "respuesta": "Rzeczywistość: Każdy atlant składa się z czterech nałożonych na siebie bloków kamienia, połączonych systemem czopa i gniazda."
+      }
+    }
+  }
+}

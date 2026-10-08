@@ -1,0 +1,62 @@
+{
+  "id": "mna_s09_friso_placeres",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {
+    "guion_corto": [
+      "no encuentro estos números del español: 1960"
+    ],
+    "guion_largo": [
+      "no encuentro estos números del español: 1960"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f206745c890e7c77",
+      "texto": "Stiukowy fryz z Los Placeres"
+    },
+    "frase_gancho": {
+      "hash": "fb19423542bc97a9",
+      "texto": "Stiukowa fasada, która została skradziona i wróciła do Meksyku."
+    },
+    "puente_narrativo": {
+      "hash": "4f2605ba9b0858e2",
+      "texto": "Zostajemy w Campeche, przy malowanej stiukowej fasadzie: fryzie z Los Placeres."
+    },
+    "guion_corto": {
+      "hash": "f308cabae550859b",
+      "texto": "Ma 8,39 metra szerokości i 2,39 wysokości, a kiedyś znalazł się w rękach złodziei. To polichromowany fryz stiukowy, który zdobił fasadę świątyni w Los Placeres, w Campeche. Zerwano go w latach sześćdziesiątych XX wieku, a odzyskano w 1968 roku, dzięki staraniom Ambasady Meksyku. pośrodku widnieje prostokątna twarz władcy, otoczona maską węża-jaguara ze skrzydłami z piór. Jego nauszniki zdobią motywy rekina, a nakrycie głowy wieńczą liście kukurydzy. Po bokach dwaj starcy w profilu, bezzębni, wyciągają ramiona z symbolami wody. To dzieło Majów z okresu wczesnego klasyku."
+    },
+    "guion_largo": {
+      "hash": "2bce4bf84748d856",
+      "texto": "Ta fasada odbyła daleką podróż, zanim tu trafiła. Została skradziona, a potem wróciła.\n\nTo polichromowany fryz stiukowy, wymodelowany w dużym formacie na kamiennej konstrukcji. Ma 2,39 metra wysokości, 8,39 długości i 60 centymetrów grubości. To dzieło Majów z okresu wczesnego klasyku, pochodzące z Los Placeres w Campeche.\n\nZdobiła główną fasadę świątyni. W latach sześćdziesiątych XX wieku zerwano ją nielegalnie, by sprzedać zagranicznym kolekcjonerom. Odzyskano ją w 1968 roku, dzięki staraniom Ambasady Meksyku, i wtedy trafiła do Sali Majów w muzeum.\n\nTeraz przesuń po niej wzrokiem. Pośrodku jest prostokątna twarz, twarz władcy. Otacza ją maska węża-jaguara ze skrzydłami z piór. Na jego nausznikach pojawiają się motywy rekina, którego Majowie nazywali Xook. Jego nakrycie głowy wieńczą liście kukurydzy.\n\nPo bokach, symetrycznie, stoją dwie starsze postacie, w profilu. Mają wydatne kości policzkowe i bezzębne usta. Wyciągają ramiona i trzymają symbole strumieni wody oraz darów.\n\nTo scena potęgi i obfitości. Władca zajmuje środek, a starcy strzegą fasady po obu stronach."
+    },
+    "retos_observacion": {
+      "hash": "d114fe71f545e8a5",
+      "texto": [
+        "Poszukaj nauszników z motywami rekina.",
+        "Znajdź dwóch starców w profilu, po bokach środkowej twarzy.",
+        "Przyjrzyj się nakryciu głowy: wieńczą je liście kukurydzy."
+      ]
+    },
+    "especificaciones": {
+      "hash": "d6c6836ae06a7d40",
+      "texto": {
+        "Kultura": "Majowie",
+        "Okres": "Wczesny klasyk (300-600 n.e.)",
+        "Materiał": "Stiuk polichromowany",
+        "Pochodzenie": "Los Placeres, Campeche",
+        "Wymiary": "2,39 m wysokości x 8,39 m długości x 0,60 m grubości"
+      }
+    },
+    "faq_mito": {
+      "hash": "57032b75a2614883",
+      "texto": {
+        "pregunta": "Mit: Fryz z Los Placeres to płaskie malowidło ścienne.",
+        "respuesta": "Rzeczywistość: To architektoniczny fryz w reliefie, wymodelowany w polichromowanym stiuku na kamieniu."
+      }
+    }
+  }
+}

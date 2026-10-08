@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_brasero_teatro",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "31cf0531f7c411c9",
+      "texto": "Ceremonialne palenisko typu teatr"
+    },
+    "frase_gancho": {
+      "hash": "fc2c19c665135a86",
+      "texto": "Gliniana scena z twarzą pośrodku, stworzona po to, by otulał ją dym."
+    },
+    "puente_narrativo": {
+      "hash": "e62112fd40f74b49",
+      "texto": "Przechodzimy do glinianej kadzielnicy w kształcie sceny. To palenisko typu teatr."
+    },
+    "guion_corto": {
+      "hash": "3ac26378bcbeeeef",
+      "texto": "Nazywa się paleniskiem typu teatr, ponieważ ma scenę. Przednią część tej kadzielnicy pokrywa konstrukcja, która otacza ludzką twarz pośrodku, z wielkimi ozdobami usznymi. To jak scena, która ujmuje w ramy aktora. Wokół rozmieszczono odlewane figury motyli, ptaków, tarcz, kół i wachlarzy z piór. Na dole dzwonowata podstawa służyła jako naczynie na węgiel i żywicę kopalową. Z tyłu komin odprowadzał dym. Jest wykonane z ceramiki polichromowanej, pochodzi z kultury Teotihuacán i należy do okresu Późny klasyk, między rokiem 450 a 650 po Chrystusie. Znalazł je w całości w 1911 roku archeolog Manuel Gamio, w Azcapotzalco, w Mieście Meksyk."
+    },
+    "guion_largo": {
+      "hash": "abdfd44e6dd32cec",
+      "texto": "Ta kadzielnica ma kształt teatru. A jej odkrycie zmieniło sposób odtwarzania wielu innych.\n\nTo ceremonialne palenisko z ceramiki polichromowanej, wykonane z gliny. Należy do kultury Teotihuacán i pochodzi z okresu klasyku, z jego późnej fazy, między rokiem 450 a 650 po Chrystusie. Ma ponad pół metra wysokości.\n\nSkłada się z kilku elementów. Na dole znajduje się dzwonowata podstawa, która służyła jako naczynie na węgiel i żywicę kopalową. Na wierzchu, z tyłu, osadzony jest komin, który odprowadza dym.\n\nZ przodu konstrukcja pokrywa całą powierzchnię. To jest scena. W jej wnętrzu widać ludzką twarz z wielkimi ozdobami usznymi. Wokół rozmieszczono figury motyli, ptaków, tarcz, kół i wachlarzy z piór.\n\nPoszczególne części formowano osobno, seryjnie, a potem łączono je w całość. Stąd nazwa typu teatr: przednia konstrukcja ujmuje w ramy centralną maskę, tak jak scena.\n\nW 1911 roku Manuel Gamio znalazł je w całości w Azcapotzalco. Było to przełomowe wydarzenie. Dzięki temu okazowi archeolodzy zyskali wzór, według którego mogli odtworzyć pierwotny układ setek kadzielnic, których elementy leżały osobno."
+    },
+    "retos_observacion": {
+      "hash": "71350d3e85d6aaf5",
+      "texto": [
+        "Wypatrz ludzką twarz pośrodku, z wielkimi ozdobami usznymi.",
+        "Znajdź odlewane motyle, ptaki i tarcze.",
+        "Spójrz na dzwonowatą podstawę, która służyła jako naczynie na żar."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2ed579888c421cde",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Późny klasyk (450-650 n.e.)",
+        "Materiał": "Ceramika polichromowana, z pigmentami wapiennymi",
+        "Pochodzenie": "Azcapotzalco, Miasto Meksyk",
+        "Wymiary": "0,76 m wysokości x 0,414 m średnicy",
+        "Znalezisko": "Znaleziony w całości w 1911 roku przez Manuela Gamio w Azcapotzalco"
+      }
+    },
+    "faq_mito": {
+      "hash": "97a096a866b16aac",
+      "texto": {
+        "pregunta": "Mit: Paleniska typu teatr były urnami na prochy zmarłych.",
+        "respuesta": "Rzeczywistość: Były to kadzielnice. W podstawie spalano węgiel i żywicę kopalową, a komin odprowadzał dym."
+      }
+    }
+  }
+}

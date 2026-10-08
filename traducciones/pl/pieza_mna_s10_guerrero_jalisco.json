@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_guerrero_jalisco",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "02da824cb8357e53",
+      "texto": "Wojownik w zbroi z wikliny i z pałką"
+    },
+    "frase_gancho": {
+      "hash": "8654d652c2c69eb7",
+      "texto": "Gliniany wojownik w hełmie, w zbroi z wikliny, z pałką gotową do obrony."
+    },
+    "puente_narrativo": {
+      "hash": "8c1155418be0bad7",
+      "texto": "Opuszczamy Michoacán i wracamy do grobowców szybowych, by spotkać glinianego strażnika: wojownika w zbroi, który towarzyszył zmarłemu."
+    },
+    "guion_corto": {
+      "hash": "459239503cd1035c",
+      "texto": "Był to jeden z pierwszych eksponatów z Zachodu, które trafiły do zbiorów muzeum. To gliniany wojownik z tradycji grobowców szybowych, wykonany w regionie Colima i Jalisco w okresie Klasyku. Stoi wyprostowany, w postawie gotowości, i trzyma pałkę oburącz. Na głowie ma hełm, a ciało chroni mu zbroja z wikliny, pleciona z włókien roślinnych. To pusta w środku figura, modelowana w glinie o czerwonawym odcieniu. Wygląda jak żołnierz gotowy do walki, ale jego miejsce nie było na polu bitwy. Takie figury umieszczano na dnie grobowców szybowych. Uważa się, że byli tam symbolicznymi obrońcami zmarłego, strażnikami jego duszy przed siłami świata podziemnego."
+    },
+    "guion_largo": {
+      "hash": "93b3c3e7048b217c",
+      "texto": "Ten wojownik zajmuje szczególne miejsce w historii muzeum. Był jednym z pierwszych eksponatów z Zachodu Meksyku, które trafiły do jego zbiorów. Jest dziełem tradycji grobowców szybowych z regionu Colima i Jalisco i należy do okresu Klasyku.\n\nTo figura z gliny, modelowana ręcznie, pusta w środku, o czerwonawym odcieniu i wypolerowanej powierzchni. Artysta zatrzymał się dłużej przy wyposażeniu postaci. Na głowie ma ochronny hełm. Ciało okrywa zbroja z wikliny, wykonana z przeplatanych włókien roślinnych. Oburącz trzyma pałkę, a jego wyprostowana postawa wyraża czujność i gotowość do walki. Po stroju sądzi się, że przedstawia oficera albo wojownika z elity.\n\nZbroja z wikliny to bardzo cenny szczegół. Była osłoną wykonaną z materiałów, które prawie nigdy nie przetrwały. Tutaj glina zachowała kształt tkaniny, która zniknęła wiele wieków temu.\n\nPozostaje pytanie: co robił wojownik w grobowcu? Takie figury składano na dnie grobowców szybowych, podziemnych komór Zachodu. Uważa się, że były symbolicznymi obrońcami zmarłego i strażnikami jego duszy przed siłami świata podziemnego. Jego zadaniem nie była walka z ludzkimi wrogami, lecz czuwanie.\n\nDziś nadal stoi na straży, z pałką w dłoniach i ze zbroją z włókien utkaną w glinie."
+    },
+    "retos_observacion": {
+      "hash": "63d9ae47b9a1f4aa",
+      "texto": [
+        "Poszukaj splotu włókien, z którego powstała zbroja na ciele.",
+        "Znajdź hełm, który chroni głowę wojownika.",
+        "Zwróć uwagę, jak trzyma pałkę oburącz."
+      ]
+    },
+    "especificaciones": {
+      "hash": "906b08b7576e9521",
+      "texto": {
+        "Kultura": "Tradycja grobowców szybowych / Colima - Jalisco",
+        "Okres": "Klasyk (200 p.n.e.-600 n.e.)",
+        "Materiał": "Modelowana glina (ceramika) o czerwonawym odcieniu",
+        "Pochodzenie": "Zachód Meksyku (region Colima / Jalisco)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c7e58c79848f9191",
+      "texto": {
+        "pregunta": "Mit: Ta figura przedstawia scenę bitwy, żołnierza gotowego do walki.",
+        "respuesta": "Rzeczywistość: To nie była scena wojenna. Takie figury umieszczano w grobowcach szybowych, gdzie, jak się uważa, symbolicznie chroniły zmarłego przed siłami świata podziemnego."
+      }
+    }
+  }
+}

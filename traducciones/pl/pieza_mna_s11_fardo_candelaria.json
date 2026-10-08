@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_fardo_candelaria",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae477f12a1b7faf6",
+      "texto": "Pakunek pogrzebowy z Jaskini Candelaria"
+    },
+    "frase_gancho": {
+      "hash": "f43d5003d35085ca",
+      "texto": "Ciało owinięte w włókna roślinne i ukryte w jaskini na pustyni."
+    },
+    "puente_narrativo": {
+      "hash": "eb41d2623d40e74b",
+      "texto": "Zostawiamy ceramikę z Paquimé i przechodzimy do łowców-zbieraczy z pustyni oraz do tego, jak troszczyli się o swoich zmarłych."
+    },
+    "guion_corto": {
+      "hash": "ec9d315b39d4697c",
+      "texto": "Wyobraź sobie grupę z pustyni zebraną w suchej jaskini. Złożyli ciało jednego ze swoich, owinęli je warstwami tkaniny i związali sznurami. Tak powstał ten pakunek pogrzebowy z Jaskini Candelaria, w Coahuila. Przygotowali go łowcy-zbieracze z Aridoameryki, z regionu Comarca Lagunera, między 1000 a 1500 rokiem po Chrystusie. Tkaniny są z juki, agawy lechuguilla i bawełny i okrywają zmumifikowane ciało. Razem z nim złożono sandały, noże z krzemienia z drewnianą rękojeścią, maty z geometrycznym zdobieniem oraz nakrycie głowy z włókna, zwane tlacoval. Suchość jaskini zachowała do dziś włókna, drewno i sznury. Byli to ludzie z wędrownych grup, którzy żyli z polowania i zbieractwa, a mimo to poświęcili czas i dobre materiały, by pożegnać swoich zmarłych."
+    },
+    "guion_largo": {
+      "hash": "db07331faf39476a",
+      "texto": "Pakunek pogrzebowy to tobół: ciało okryte warstwami i jeszcze raz warstwami tkaniny, związane sznurami i złożone razem z przedmiotami. Ten pochodzi z Jaskini Candelaria, w Coahuila.\n\nWykonali go łowcy-zbieracze z pustyni, w regionie Comarca Lagunera, w ramach tradycji znanej jako Aridoameryka. Należy do Postklasyku, do okresu między 1000 a 1500 rokiem po Chrystusie. Były to grupy, które żyły z tego, co upolowały i zebrały, i które wędrowały po suchym, surowym krajobrazie.\n\nCiało układano w mocno podkurczonej pozycji i owijano kolejnymi warstwami sieci, cienkich mat i tkanin. Włókna pochodziły z juki, agawy lechuguilla i bawełny. Niektóre tkaniny mają geometryczne zdobienia malowane pigmentami mineralnymi. Pas i nakrycie głowy z włókna, zwane tlacoval, dopełniają okrycia.\n\nObok ciała zostawiano przedmioty z codziennego życia. Są tam sandały z włókna, noże z krzemienia z drewnianą rękojeścią oraz łuki i strzały z grotami z krzemienia ogniowego. Są też ozdoby z muszli i z kręgów węża. Było tam wszystko, czego łowca potrzebował, żeby iść, ciąć i polować.\n\nTe przedmioty przetrwały dzięki jaskini. Jej skrajna suchość zatrzymała rozkład włókien, sznurów i drewna, materiałów, które prawie nigdy się nie zachowują. Archeolodzy sądzą, że przez wieki jaskinia służyła jako święty cmentarz. Grupy wracały tu co jakiś czas, by złożyć swoich zmarłych, z dala od deszczu i wiatru.\n\nDlatego ten pakunek to dużo więcej niż pochówek: pokazuje, jak żyły i jak żegnały swoich bliskich pustynne grupy łowców-zbieraczy."
+    },
+    "retos_observacion": {
+      "hash": "0a59951f7d0c1005",
+      "texto": [
+        "Poszukaj warstw tkaniny z włókna, które owijają tobół.",
+        "Znajdź wśród przedmiotów nakrycia głowy z włókna, zwane tlacovale.",
+        "Zwróć uwagę na sandały i noże z drewnianą rękojeścią."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2b82595c4c23efa6",
+      "texto": {
+        "Kultura": "Aridoameryka / Łowcy-zbieracze z pustyni (Comarca Lagunera)",
+        "Okres": "Postklasyk (1000-1500 n.e.)",
+        "Materiał": "Tkane włókna roślinne (juka, agawa lechuguilla i bawełna)",
+        "Pochodzenie": "Jaskinia Candelaria, Coahuila"
+      }
+    },
+    "faq_mito": {
+      "hash": "d9507087d09f2b62",
+      "texto": {
+        "pregunta": "Mit: Mumie istnieją tylko w Egipcie.",
+        "respuesta": "Rzeczywistość: W Jaskini Candelaria, w Coahuila, łowcy-zbieracze z pustyni owijali swoich zmarłych we włókna roślinne, a ciała zachowały się w postaci mumii."
+      }
+    }
+  }
+}

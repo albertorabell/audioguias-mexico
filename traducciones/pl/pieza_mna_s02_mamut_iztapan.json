@@ -1,0 +1,54 @@
+{
+  "id": "mna_s02_mamut_iztapan",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "26dc95c4b42196a5",
+      "texto": "Rekonstrukcja mamuta z Santa Isabel Iztapan II"
+    },
+    "frase_gancho": {
+      "hash": "5b161c82e6c9eb13",
+      "texto": "Mamut uwięziony w błocie jeziora, a obok kamienne groty, którymi go upolowano."
+    },
+    "puente_narrativo": {
+      "hash": "cc781ca3a57266cc",
+      "texto": "Zasiedlenie Ameryk zaczynamy nad brzegami dawnego jeziora Texcoco, od sceny polowania z plejstocenu."
+    },
+    "guion_corto": {
+      "hash": "061b2d1e7c469de8",
+      "texto": "Mamut uwięziony w błocie na brzegu jeziora: tę scenę odtwarza to diorama. To mamut z Santa Isabel Iztapan II, należący do gatunku Mammuthus imperator. Odnaleziono go w 1954 roku, niedaleko Santa Isabel Iztapan, w Texcoco, na północny wschód od Dolina Meksyku. Pochodzi z dolnego cenolitu, z okolic 9250 roku przed naszą erą. Obok rozrzuconych kości i odwróconej czaszki znaleziono kamienne narzędzia, groty typów Lerma i Angostura. Za ich pomocą zwierzę oskórowano, pocięto i poćwiartowano. To odkrycie pokazało, że łowcy-zbieracze z Dolina Meksyku korzystali z wielkich zwierząt, które dziś wyginęły."
+    },
+    "guion_largo": {
+      "hash": "536925c9ce0ff57e",
+      "texto": "Mamut uwięziony w błocie na brzegu jeziora. Tak przedstawia go to diorama.\n\nTo mamut z Santa Isabel Iztapan II, należący do gatunku Mammuthus imperator. Odkryto go w 1954 roku, 350 metrów od mamuta I, który został znaleziony w 1952 roku. Oba pochodzą z Santa Isabel Iztapan, w Texcoco, na północny wschód od Dolina Meksyku. Należą do dolnego cenolitu, a szczątki datuje się na około 9250 rok przed naszą erą.\n\nZobacz, jak odnaleziono te szczątki. Kości były rozrzucone. Czaszka była odwrócona i uważa się, że obrócono ją celowo, aby wydobyć mózg. Obok kości, w pierwotnym miejscu, leżały kamienne narzędzia, groty typów Lerma i Angostura. Za ich pomocą zwierzę oskórowano, pocięto i poćwiartowano.\n\nDlatego to odkrycie jest tak ważne. Był to bardzo wyraźny dowód archeologiczny na to, że łowcy-zbieracze z Dolina Meksyku polowali na wymarłą megafaunę i korzystali z niej.\n\nJak na nią polowali? Przypuszcza się, że wykorzystywali błotniste brzegi dawnego jeziora Texcoco. Ogniem albo hałasem kierowali stare lub ranne mamuty na bagna. Zwierzęta grzęzły w błocie i w ten sposób zabijano je z mniejszym ryzykiem.\n\nWyobraź sobie tę scenę: ogromne zwierzę, jezioro i ludzie z kamiennymi grotami, którzy przetrwanie zawdzięczali własnej pomysłowości."
+    },
+    "retos_observacion": {
+      "hash": "e45e280478dbfb1b",
+      "texto": [
+        "Poszukaj odwróconej czaszki wśród rozrzuconych kości.",
+        "Znajdź kamienne groty Lerma i Angostura obok szczątków.",
+        "Wyobraź sobie teren: błoto na brzegu dawnego jeziora."
+      ]
+    },
+    "especificaciones": {
+      "hash": "00b353a941400d3d",
+      "texto": {
+        "Kultura": "Łowcy-zbieracze z okresu litycki; gatunek Mammuthus imperator Leidy",
+        "Okres": "Dolny cenolit (9500-7000 p.n.e.)",
+        "Materiał": "Rozczłonkowany kopalny szkielet mamuta, powiązany z kamiennymi grotami Lerma i Angostura, umieszczony w diorama",
+        "Pochodzenie": "Santa Isabel Iztapan, Texcoco, Stan Meksyk"
+      }
+    },
+    "faq_mito": {
+      "hash": "b3ba86c0295cd886",
+      "texto": {
+        "pregunta": "Mit: Mamut wpadł w pułapkę zbudowaną przez Azteków.",
+        "respuesta": "Rzeczywistość: Szczątki pochodzą z dolnego cenolitu, z okolic 9250 roku przed naszą erą, czyli sprzed tysięcy lat przed Aztekami. Łowcy-zbieracze wykorzystali go za pomocą kamiennych narzędzi."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mna_s04_mural_tepantitla",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d921696dac09d341",
+      "texto": "Mural z Tepantitla (Tlalocan)"
+    },
+    "frase_gancho": {
+      "hash": "c69b1d640abf0d64",
+      "texto": "Raj wiecznej wody, w którym dusze celebrują życie."
+    },
+    "puente_narrativo": {
+      "hash": "c0314251ad51d437",
+      "texto": "Przechodzimy do malarstwa ściennego, do raju wody, który namalowali mieszkańcy Teotihuacán: do Tlalocan."
+    },
+    "guion_corto": {
+      "hash": "0fb6877012fa916a",
+      "texto": "To nie jest zwykły ogród. To Tlalocan, raj wody, namalowany na murze w Tepantitla, zespole mieszkalnym na wschód od Teotihuacán. Odkrył go w 1942 roku archeolog Alfonso Caso. Na górze widać dużą postać, którą może być Wielka Bogini albo Tláloc, a z jej otwartych dłoni spadają krople wody. Poniżej rozciąga się urodzajny krajobraz z rzekami, w którym malutcy ludzie śpiewają, tańczą, pływają, gonią motyle i grają w piłkę. Z ich ust wychodzą woluty mowy z kwiatami i liśćmi. To kwietna pieśń. Malowidło jest freskiem na stiuku, z okresu Klasyku."
+    },
+    "guion_largo": {
+      "hash": "a4454824c2f5fa8f",
+      "texto": "Wyobraź sobie miejsce, w którym wszystko kwitnie, płynie woda i ludzie śpiewają. Tak mieszkańcy Teotihuacán wyobrażali sobie Tlalocan.\n\nTen mural pochodzi z Tepantitla, zespołu mieszkalnego na wschód od Piramidy Słońca, w Teotihuacán. Odkrył go w 1942 roku archeolog Alfonso Caso. To fresk wykonany na stiuku i zaprawie wapiennej, z użyciem pigmentów mineralnych: czerwieni z hematytu, zieleni z malachitu i żółcieni z limonitu. Należy do okresu Klasyku, a scena pochodzi z fazy Xolalpan, z końcowego czasu istnienia miasta.\n\nMalowidło dzieli się na dwa poziomy. Na górze widać wielką postać, którą może być Wielka Bogini z Teotihuacán albo Tláloc. Z jej obszernego nakrycia głowy wyrasta drzewo pełne kwiatów i ptaków, a z jej otwartych dłoni spływają krople wody.\n\nNiżej znajduje się Tlalocan, wodny raj. To urodzajny krajobraz, przecięty rzekami. Malutcy ludzie śpiewają, tańczą, pływają, gonią motyle i grają w piłkę.\n\nSpójrz na ich usta. Wychodzą z nich woluty mowy ozdobione kwiatami i liśćmi. To nie tylko słowo: to kwietna pieśń, radość dusz w królestwie boga deszczu.\n\nTo scena radości, a woda przenika wszystko."
+    },
+    "retos_observacion": {
+      "hash": "6e93d17af4171dae",
+      "texto": [
+        "Wypatrz wielką postać na górze, z otwartymi dłońmi i kroplami wody.",
+        "Znajdź malutkich ludzi, którzy pływają i gonią motyle.",
+        "Zwróć uwagę na woluty mowy z kwiatami, które wychodzą z ust."
+      ]
+    },
+    "especificaciones": {
+      "hash": "74ebd808b44b2bf5",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (300-650 n.e.)",
+        "Materiał": "Fresk na stiuku i zaprawie wapiennej, z pigmentami mineralnymi: czerwonym hematytem, zielonym malachitem i żółtym limonitem",
+        "Pochodzenie": "Teotihuacán, Stan Meksyk (zespół mieszkalny Tepantitla, na wschód od Piramidy Słońca)",
+        "Odkrycie": "Odkryty w 1942 roku przez archeologa Alfonso Caso w zespole mieszkalnym Tepantitla"
+      }
+    },
+    "faq_mito": {
+      "hash": "d139b4e2d357f49a",
+      "texto": {
+        "pregunta": "Mit: Mural przedstawia zwykły dzień na pikniku.",
+        "respuesta": "Rzeczywistość: Przedstawia Tlalocan, wodny raj boga deszczu, w którym dusze cieszą się obfitością."
+      }
+    }
+  }
+}

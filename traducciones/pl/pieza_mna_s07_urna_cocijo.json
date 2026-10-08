@@ -1,0 +1,55 @@
+{
+  "id": "mna_s07_urna_cocijo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1ca6a3676fd7aafe",
+      "texto": "Urna pogrzebowa boga Cocijo"
+    },
+    "frase_gancho": {
+      "hash": "dc5f5fecedb0ff0a",
+      "texto": "Gliniane naczynie, w którym Pitao Cocijo wyzwala święty grom."
+    },
+    "puente_narrativo": {
+      "hash": "5513ed75f0512f21",
+      "texto": "Przechodzimy do ceramiki Zapoteków z okresu Klasyku, a w niej do urny, która przedstawia boga deszczu."
+    },
+    "guion_corto": {
+      "hash": "75b146848c08879a",
+      "texto": "Poszukaj środka nakrycia głowy. Znajdziesz tam znak podobny do litery C, a z jego wnętrza wyrasta roślina. To glif C, znak zapoteckiego boga deszczu. Ta urna przedstawia Pitao Cocijo, najwyższe bóstwo deszczu, błyskawicy i grzmotu. Jest z ceramiki i pochodzi z Centralnych Dolin Oaxaca. Należy do okresu Klasyku, do lat między 200 a 800 po Chrystusie. Bóg siedzi. Ma okrągłe okulary, maskę na ustach i język węża rozdwojony na dwie części. W dłoniach trzyma naczynie. Przez długi czas sądzono, że takie urny przechowywały prochy zmarłych. Dziś wiemy, że ustawiano je puste we wnękach i na fasadach grobowców szlachty."
+    },
+    "guion_largo": {
+      "hash": "845455d28c674790",
+      "texto": "Pitao Cocijo to zapotecki bóg deszczu, błyskawicy i grzmotu. Było to bóstwo najwyższe. Na ziemi, gdzie kukurydza zależy od deszczów, łatwo wyobrazić sobie, dlaczego jego wizerunek powtarza się tak często.\n\nTa urna ukazuje go w pozycji siedzącej. Ma nakrycie głowy z glifem C pośrodku, a z tego glifu wyrasta element roślinny. Oczy otaczają okrągłe okulary. Na ustach ma maskę, a z niej wysuwa się język węża rozdwojony na dwa końce. W dłoniach trzyma naczynie. Aby rozpoznać Cocijo, wystarczy zapamiętać trzy cechy: glif C na nakryciu głowy, okulary wokół oczu i rozdwojony język.\n\nTo dzieło z ceramiki. Wymodelowano je ręcznie, z aplikacjami wykonanymi techniką pastylażu, czyli z małych kawałków gliny przyklejonych do powierzchni, oraz z rytymi liniami. Zachowały się na nim resztki kolorowej farby albo angoby, czyli cienkiej warstwy glinki. Kolor był częścią jego wyglądu.\n\nZapotekowie mieli główne miasto w Monte Albán, w Centralnych Dolinach Oaxaca. W okresie Klasyku liczyło ono ponad trzydzieści tysięcy mieszkańców. Ich szlachta miała wystawne podziemne grobowce. Ustawiano w nich takie urny jak ta, we wnękach grobowców. Przedstawiają bóstwa takie jak Pitao Cocijo, bóg deszczu, i Pitao Cozobi, bóg kukurydzy. To figury z gliny, ale mówią o tym, co dla Zapoteków było najważniejsze: o wodzie, kukurydzy i przejściu do innego życia.\n\nJest pewien fakt, który zmienia sposób odczytywania tych urn. Przez długi czas sądzono, że przechowywały prochy zmarłych. Dziś wiemy, że tak nie było. Ustawiano je puste, we wnękach, w przedsionkach i na fasadach grobowców szlachty, jako duchowych strażników. Ich zadaniem było wstawiennictwo za zmarłych u bogów nieba.\n\nTo siedząca postać, która niczego nie przechowywała, ale strzegła tego, kto spał w grobowcu."
+    },
+    "retos_observacion": {
+      "hash": "f6a00e8b721091d3",
+      "texto": [
+        "Poszukaj glifu C pośrodku nakrycia głowy.",
+        "Zwróć uwagę na kręgi wokół oczu: to okulary.",
+        "Spójrz na język wysuwający się z ust: kończy się dwoma końcami."
+      ]
+    },
+    "especificaciones": {
+      "hash": "783995ec6d61d9af",
+      "texto": {
+        "Kultura": "Zapotekowie",
+        "Okres": "Klasyk (Monte Albán III, 200-800 n.e.)",
+        "Materiał": "Modelowana ceramika z gliny, z resztkami wielobarwnej farby lub angoby",
+        "Pochodzenie": "Monte Albán, Centralne Doliny, Oaxaca (inny egzemplarz Cocijo pochodzi z Atzompa)",
+        "Wymiary": "0,396 m wysokości x 0,38 m szerokości (urna centralna z Grobowca 104; inne egzemplarze są większe)"
+      }
+    },
+    "faq_mito": {
+      "hash": "a5f3cc9f7f85aa88",
+      "texto": {
+        "pregunta": "Mit: Zapoteckie urny pogrzebowe, takie jak urna Cocijo, przechowywały prochy zmarłych.",
+        "respuesta": "Rzeczywistość: Ustawiano je puste we wnękach i na fasadach grobowców szlachty."
+      }
+    }
+  }
+}

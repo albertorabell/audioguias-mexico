@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_mascaron_chaac",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6276e568a2e5287a",
+      "texto": "Maskaron Chaaca (Kabah)"
+    },
+    "frase_gancho": {
+      "hash": "c5292909fc2a543a",
+      "texto": "Kamienna twarz z długim, zakrzywionym nosem: oblicze deszczu czy góry?"
+    },
+    "puente_narrativo": {
+      "hash": "e07daaa73edcfe76",
+      "texto": "Wciąż jesteśmy w regionie Puuc, przy obliczu boga deszczu, zbudowanym z wielu kamiennych elementów."
+    },
+    "guion_corto": {
+      "hash": "7b7fb6836ffe00e9",
+      "texto": "Twarz złożona z wielu kamiennych elementów i długi nos, który zakrzywia się ku górze. Tradycyjnie utożsamia się ją z Chaakiem, majowskim bogiem deszczu. Niektórzy badacze proponują inne odczytanie: święta góra, którą Majowie nazywali Witz. Pochodzi z Kabah, w Yucatán, z budowli zwanej Codz Poop, i należy do późnego klasyku lub okresu terminalnego. To mozaika z wapienia, technika, którą styl Puuc doprowadził do wielkiego wyrafinowania. Zwróć uwagę na oczy: pośrodku mają wystające kółko. U góry widać grupy po trzy kółka. A w paszczy widać rzędy zębów z zakrzywionymi kłami."
+    },
+    "guion_largo": {
+      "hash": "0ea5a9b9dd29afd2",
+      "texto": "Gdyby deszcz miał twarz, byłaby to właśnie ta, a przynajmniej tak przez długi czas sądzono.\n\nPochodzi z Kabah, w Yucatán, z budowli znanej jako Codz Poop. To majowskie dzieło z wapienia, z późnego klasyku lub okresu terminalnego. Nie wyrzeźbiono go w jednym bloku. To mozaika: wiele osobno wyciętych elementów, które po złożeniu tworzą całą twarz.\n\nTa technika jest typowa dla stylu Puuc, charakterystycznego dla miast północnego Yucatán, gdzie fasady pokrywano kamiennymi mozaikami. Takie twarze pojawiają się, w różnych odmianach, w Uxmal i w Chichén Itzá.\n\nTradycyjnie łączono tę twarz z Chaakiem, majowskim bogiem deszczu, z powodu długiego nosa zakrzywionego ku górze. Dziś niektórzy badacze proponują inne odczytanie. Uważają, że te maskarony przedstawiają świętą górę, którą Majowie nazywali Witz.\n\nSzczegóły pomagają się jej przyjrzeć. Oczy są głębokie i pośrodku mają wystające kółko. Brwi i kości policzkowe zdobią kształty przypominające nawiasy kwadratowe. U góry widać grupy po trzy kółka. A w ustach widać rzędy zębów z zakrzywionymi kłami.\n\nCzy to Chaak, czy święta góra, ten maskaron jest dobrym przykładem tego, jak ten sam obraz można odczytać na więcej niż jeden sposób."
+    },
+    "retos_observacion": {
+      "hash": "b0e95a08fe13844d",
+      "texto": [
+        "Poszukaj długiego nosa, który zakrzywia się ku górze.",
+        "Spójrz na oczy: pośrodku mają wystające kółko.",
+        "Znajdź grupy po trzy kółka i rzędy zębów z zakrzywionymi kłami."
+      ]
+    },
+    "especificaciones": {
+      "hash": "4617e8022e8ddb9b",
+      "texto": {
+        "Kultura": "Majowie",
+        "Okres": "Późny klasyk / okres terminalny",
+        "Materiał": "Wapień (mozaika)",
+        "Pochodzenie": "Kabah, Yucatán (budowla Codz Poop)",
+        "Wymiary": "1,11 m wysokości x 1,79 m szerokości x 0,91 m głębokości"
+      }
+    },
+    "faq_mito": {
+      "hash": "5c7d3ea8835a3646",
+      "texto": {
+        "pregunta": "Mit: Zakrzywiony nos maskaronu to traba słonia.",
+        "respuesta": "Rzeczywistość: Majowie nie znali słoni. Uznaje się go za nos boga Chaaka albo za cechę świętej góry, czyli Witz."
+      }
+    }
+  }
+}

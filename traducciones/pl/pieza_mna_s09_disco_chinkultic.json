@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_disco_chinkultic",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8aa68f8148a5c495",
+      "texto": "Znacznik gry w piłkę z Chinkultic"
+    },
+    "frase_gancho": {
+      "hash": "49f2d1aa4eb3c378",
+      "texto": "Kamienny dysk z dokładną datą: 19 maja 591 roku."
+    },
+    "puente_narrativo": {
+      "hash": "5533b85030459571",
+      "texto": "Przenosimy się do Chiapas, do kamiennego dysku, który zachował dokładną datę związaną z grą w piłkę."
+    },
+    "guion_corto": {
+      "hash": "bf5e5bcd20192906",
+      "texto": "Ten dysk zachował dokładną datę: 19 maja 591 roku naszej ery. Zapisano ją w Długiej Rachubie, systemie, za pomocą którego Majowie liczyli dni. To Znacznik gry w piłkę z Chinkultic, kamienny dysk z wapienia, który był częścią boiska. Ma 56 centymetrów średnicy i 12,5 centymetra grubości. Pochodzi z La Esperanza, w Chinkultic, w Chiapas. Pośrodku widnieje gracz w piłkę w środku akcji, obok piłki o dużych rozmiarach. Ma na głowie ozdobę z piór. Dookoła biegnie pas z dwunastu glifów. To dzieło z okresu wczesnego klasyku, które nadal, ponad tysiąc czterysta lat później, mówi, kiedy zostało poświęcone."
+    },
+    "guion_largo": {
+      "hash": "88cbef04ff741d0b",
+      "texto": "Kamienny dysk może ci powiedzieć, w którym dokładnie dniu go wykonano. Ten to potrafi.\n\nTo Znacznik gry w piłkę z Chinkultic. Wykonano go z wapienia, ma 56 centymetrów średnicy i 12,5 centymetra grubości, a był częścią boiska do gry w piłkę. Pochodzi z La Esperanza, w Chinkultic, w Chiapas. To miejsce leży 8 kilometrów na zachód od głównej strefy.\n\nNajcenniejsza jest jego data. Zapisano ją w Długiej Rachubie, systemie Majów służącym do liczenia dni. Data to 9.7.17.12.14 i odpowiada 19 maja 591 roku naszej ery.\n\nTo umieszcza go we wczesnym klasyku, przed okresem największej świetności miast Majów.\n\nAle dysk przedstawia też scenę. Pas z dwunastu glifów, z liczbami zapisanymi kreskami i kropkami, otacza płaskorzeźbę. Pośrodku widnieje gracz w piłkę w środku akcji, obok piłki o dużych rozmiarach. Ma na głowie ozdobę z piór.\n\nKiedy będziesz patrzeć na ten dysk, pamiętaj, do czego służył. Był częścią scenerii jednej z najbardziej znanych rytualnych gier Mezoameryki. I dotarł aż tutaj z nietkniętą datą, ponad tysiąc czterysta lat później."
+    },
+    "retos_observacion": {
+      "hash": "be964bbb3dfee035",
+      "texto": [
+        "Poszukaj pasa glifów otaczającego płaskorzeźbę: tam jest data.",
+        "Znajdź gracza w piłkę i jego ozdobę z piór na głowie.",
+        "Zwróć uwagę na dużą piłkę obok gracza."
+      ]
+    },
+    "especificaciones": {
+      "hash": "1fdc3c77416375a5",
+      "texto": {
+        "Kultura": "Majowie",
+        "Okres": "Wczesny klasyk (591 n.e.)",
+        "Materiał": "Wapień",
+        "Pochodzenie": "La Esperanza, Chinkultic, Chiapas",
+        "Wymiary": "56 cm średnicy x 12,5 cm grubości"
+      }
+    },
+    "faq_mito": {
+      "hash": "a6780702e50ef65f",
+      "texto": {
+        "pregunta": "Mit: W grze w piłkę Majów uderzano piłkę rękami, jak w siatkówce.",
+        "respuesta": "Rzeczywistość: Gracze uderzali piłkę głównie biodrem, a chronili się jarzmami i skórzanymi fartuchami."
+      }
+    }
+  }
+}

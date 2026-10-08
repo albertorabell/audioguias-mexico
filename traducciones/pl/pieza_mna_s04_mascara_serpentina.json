@@ -1,0 +1,55 @@
+{
+  "id": "mna_s04_mascara_serpentina",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a8d18c7ae6e8df7d",
+      "texto": "Maska pogrzebowa z Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "9c35359e7781e0f8",
+      "texto": "Maska stworzona po to, by nadać wieczne oblicze ważnej osobistości."
+    },
+    "puente_narrativo": {
+      "hash": "5e1003c626653c48",
+      "texto": "Przechodzimy do maski, która nie powstała dla żywej twarzy, lecz dla zmarłego."
+    },
+    "guion_corto": {
+      "hash": "81b6821ab4c3851e",
+      "texto": "Ta maska nie powstała dla żywej twarzy, lecz dla zmarłego. Pogrzebowe maski z Teotihuacán umieszczano na twarzach zawiniątek pogrzebowych osób wysokiej rangi, takich jak kapłani czy władcy. Mają trapezowy kształt, proste czoło, lekko rozchylone usta i prostokątne, przebite uszy. Były z kamienia, rzeźbionego z precyzyjnym kunsztem lapidarnym. Ta należy do kultury Teotihuacán, z okresu Klasyku, z lat między 1 a 650 naszej ery. Niektóre z nich, jak słynna maska znaleziona w Malinaltepec w Guerrero, otrzymały stulecia później mozaikę z turkusu i muszli."
+    },
+    "guion_largo": {
+      "hash": "63fe576276218c49",
+      "texto": "Ta maska nie była przeznaczona dla żywej twarzy. Kładziono ją na twarzy zmarłego.\n\nW Teotihuacán kamienne maski umieszczano na zawiniątkach pogrzebowych osób wysokiej rangi, takich jak kapłani czy władcy. Były sposobem na to, by nadać im trwałe oblicze.\n\nPrzyjrzyj się jej kształtowi. Ma klasyczny dla tego miasta trapezowy kształt: proste czoło, lekko rozchylone usta i prostokątne, przebite uszy. To spokojny, geometryczny wzór, wykonany z precyzyjnym kunsztem lapidarnym.\n\nNależy do kultury Teotihuacán i do okresu Klasyku, z lat między 1 a 650 naszej ery.\n\nJest pewna historia, która towarzyszy niektórym z tych masek. Jedna z najbardziej znanych została znaleziona w Malinaltepec, w Guerrero. Wyrzeźbiono ją w Teotihuacán w okresie Klasyku, a potem przechowywano jak relikwię. Stulecia później, w Postklasyku, rzemieślnicy z tego regionu dodali do niej mozaikę z turkusu i muszli.\n\nTo pokazuje, jak bardzo kolejne kultury czciły przedmioty z Teotihuacán. Maska nadal miała wartość jeszcze długo po tym, jak miasto opustoszało."
+    },
+    "retos_observacion": {
+      "hash": "556158b8341fd6c2",
+      "texto": [
+        "Wypatrz trapezowy kształt i proste czoło maski.",
+        "Przyjrzyj się lekko rozchylonym ustom.",
+        "Spójrz na prostokątne uszy z otworami."
+      ]
+    },
+    "especificaciones": {
+      "hash": "20b6dc8574d687e6",
+      "texto": {
+        "Kultura": "Z Teotihuacán, z późniejszymi dodatkami z Postklasyku",
+        "Okres": "Klasyk (1-650 n.e.); mozaika dodana w Postklasyku (900-1200 n.e.)",
+        "Materiał": "Kamień, z inkrustacjami z amazonitu, turkusu, hematytu specularnego i muszli",
+        "Pochodzenie": "Malinaltepec, Guerrero (obiekt pochodzący z Teotihuacán)",
+        "Wymiary": "0,21 m wysokości x 0,21 m szerokości x 0,065 m grubości"
+      }
+    },
+    "faq_mito": {
+      "hash": "80561410145b9cc8",
+      "texto": {
+        "pregunta": "Mit: Kapłani używali tych masek jako przebrań podczas ceremonii.",
+        "respuesta": "Rzeczywistość: Maski pogrzebowe umieszczano na twarzach zawiniątek pogrzebowych osób wysokiej rangi."
+      }
+    }
+  }
+}

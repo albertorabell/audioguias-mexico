@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_piedra_sol",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "97796111d12c50cc",
+      "texto": "Kamień Słońca"
+    },
+    "frase_gancho": {
+      "hash": "cd8d78f05ab3f70d",
+      "texto": "Kamienny dysk, na którym Mexica uwiecznili czas i kolejne słońca."
+    },
+    "puente_narrativo": {
+      "hash": "eec80d2d083ec099",
+      "texto": "Zwiedzanie świata Mexica zaczynasz od kamienia, w którym zebrało się ich rozumienie czasu, bogów i kosmosu."
+    },
+    "guion_corto": {
+      "hash": "9dc9816e695987bf",
+      "texto": "Nazywają go Kalendarzem Azteków, ale Mexica wyrzeźbili go z myślą o czymś większym niż liczenie dni. W środku widnieje twarz Tonatiuha, boga Słońca, wpisana w znak Nahui Ollin, Cztery Ruch. Ten znak nazywa epokę, w której żyjemy, czyli Piąte Słońce. W czterech polach tego znaku pojawiają się dawne słońca, te, które zostały zniszczone: Jaguar, Wiatr, Deszcz ognia i Woda. Wokół krąży dwadzieścia znaków dni, a na brzegu dwa ogniste węże niosą Słońce po niebie. To dzieło Mexica z okresu późnego postklasyku, wyrzeźbione w bazalcie oliwinowym. Leżał poziomo, jako platforma albo naczynie na ofiary. 17 grudnia 1790 roku odkryto go na Plaza Mayor w Mieście Meksyk."
+    },
+    "guion_largo": {
+      "hash": "01ebc54d1672eec6",
+      "texto": "Znany jest jako Kalendarz Azteków, ale ta nazwa to za mało. Ten kamień jest dziełem Mexica z okresu późnego postklasyku, wyrzeźbionym w bazalcie oliwinowym we wzniesionym i płaskim reliefie. Wciąż zachowały się na nim ślady czerwonego i ochrowego pigmentu. Ma 3,58 metra średnicy.\n\nJego wzór czyta się od środka na zewnątrz. W środku widnieje twarz Tonatiuha, boga Słońca. Otacza ją znak Nahui Ollin, który oznacza Cztery Ruch i daje nazwę obecnej epoce, Piątemu Słońcu. W czterech polach tego znaku znajdują się słońca wcześniejszych epok. To Nahui Océlotl, Jaguar, Nahui Ehécatl, Wiatr, Nahui Quiáhuitl, Deszcz ognia, i Nahui Atl, Woda. Według mitu każda z tych epok zakończyła się katastrofą.\n\nDalej na zewnątrz znajduje się dwadzieścia znaków, są to znaki dni kalendarza wróżebnego, tonalpohualli. Potem następują pasy promieni słonecznych i paciorki z jadeitu. W zewnętrznym kręgu zwijają się ciała dwóch ognistych węży, Xiuhcóatli, które przenoszą Słońce w jego wędrówce po niebie.\n\nDziś jest wystawiony w pozycji pionowej, ale Mexica używali go, kładąc go poziomo. Archeolodzy sądzą, że służył jako temalácatl, platforma związana z walką gladiatorów, albo jako cuauhxicalli, naczynie na ofiary z krwi i serc. Obraz Słońca nie był więc tylko oglądany: otrzymywał pokarm, który według Mexica utrzymywał go w ruchu.\n\nJego współczesne dzieje zaczynają się 17 grudnia 1790 roku, kiedy odnaleziono go na Plaza Mayor w Mieście Meksyk. Potem przez około sto lat był wmurowany w zachodnią wieżę Katedry Metropolitalnej. W 1885 roku przeniesiono go do Galerii Monolitów przy ulicy Moneda. A w 1964 roku trafił na honorowe miejsce, które zajmuje dziś, w Chapultepec."
+    },
+    "retos_observacion": {
+      "hash": "74f4fe06c8203a1d",
+      "texto": [
+        "Wypatrz twarz boga słońca Tonatiuha w środku dysku.",
+        "Znajdź cztery pola, w których kryją się słońca wcześniejszych epok.",
+        "Podążaj za zewnętrznym brzegiem, aż zobaczysz ciała dwóch ognistych węży."
+      ]
+    },
+    "especificaciones": {
+      "hash": "4914841b0beeea9a",
+      "texto": {
+        "Kultura": "Mexica",
+        "Okres": "Późny postklasyk (1250-1521 n.e.)",
+        "Materiał": "Bazalt oliwinowy z czerwonym i ochrowym pigmentem",
+        "Pochodzenie": "Centrum Historyczne, Miasto Meksyk (Plaza Mayor)",
+        "Wymiary": "358 cm średnicy x 98 cm grubości"
+      }
+    },
+    "faq_mito": {
+      "hash": "06c7c2187179d912",
+      "texto": {
+        "pregunta": "Mit: Kamień Słońca to kalendarz do liczenia dni.",
+        "respuesta": "Rzeczywistość: Ma dwadzieścia znaków dni, ale był przede wszystkim monumentem rytualnym. Mexica używali go poziomo, jako platformy albo naczynia na ofiary, i przedstawili na nim epoki świata."
+      }
+    }
+  }
+}

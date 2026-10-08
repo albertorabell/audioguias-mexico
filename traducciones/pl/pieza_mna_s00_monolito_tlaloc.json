@@ -1,0 +1,52 @@
+{
+  "id": "mna_s00_monolito_tlaloc",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7ac6bf97626991ab",
+      "texto": "Monolit Tláloca"
+    },
+    "frase_gancho": {
+      "hash": "5aa96a490b25ef42",
+      "texto": "Tláloc, bóg deszczu, wykuty w skale wulkanicznej i przywieziony z Coatlinchán."
+    },
+    "puente_narrativo": {
+      "hash": "f4819ff0d886b240",
+      "texto": "Zaczynamy przed muzeum, od boga wody wyrzeźbionego w skale wulkanicznej, który wita zwiedzających."
+    },
+    "guion_corto": {
+      "hash": "09c57e42cfb1c8f9",
+      "texto": "Tláloc to nahuackie imię boga deszczu. Ta rzeźba go przedstawia, a dawne ludy Nahuów czciły go jako boga wody. Jest wykuta w skale wulkanicznej i pochodzi z San Miguel Coatlinchán w Stanie Meksyk. To gigantyczny posąg i wystarczy na niego spojrzeć, by zrozumieć dlaczego. Do Miasta Meksyk trafił w latach sześćdziesiątych dwudziestego wieku. Dziś wita zwiedzających przed budynkiem, pod gołym niebem, a jego rozmiary widać z daleka. Niektórzy badacze zaproponowali, że może to być Chalchiuhtlicue, żeńskie bóstwo wody. To propozycja, a nie wniosek. Pewne jest jedno: ta rzeźba mówi o wodzie, o tym, czego ziemia potrzebuje, by dawać życie."
+    },
+    "guion_largo": {
+      "hash": "39d6298618e7fe81",
+      "texto": "Tláloc jest dla dawnych ludów Nahuów bogiem wody. W języku nahuatl jego imię rozumie się jako bóg deszczu. To jego wizerunek, wykuty w skale wulkanicznej, wita zwiedzających, zanim wejdą do muzeum. Jego rozmiary to pierwsze, co zwraca uwagę, i warto zmierzyć je wzrokiem, porównując je z ludźmi, którzy przechodzą obok.\n\nKamień pochodzi z San Miguel Coatlinchán w Stanie Meksyk. Tam stał, zanim trafił do Lasu Chapultepec. Jego przewiezienie odbyło się w latach sześćdziesiątych dwudziestego wieku, a rok podaje się jako 1963 albo 1964. Pomyśl, co to znaczy przenieść kamień tej wielkości z miasteczka do wielkiego miasta. Najczęściej powtarzane źródła mówią o około 168 tonach i siedmiu metrach wysokości.\n\nNiektórzy badacze zaproponowali, że ta postać nie jest Tlálokiem, lecz Chalchiuhtlicue, żeńskim bóstwem wody. To propozycja, a nie wniosek. W obu przypadkach temat jest ten sam: woda, od której zależy wszystko, co żyje.\n\nRzeźbę zwykle datuje się na okres między czwartym a szóstym wiekiem naszej ery i wiąże z Teotihuacán. To hipoteza. Kto ją wykuł i jakie ceremonie jej towarzyszyły, pozostaje otwartymi pytaniami.\n\nRzeźba stoi pod gołym niebem i ma to swoją logikę: bóg wody wystawiony na niebo, chmury i deszcz. Jeśli będzie padać, gdy ją odwiedzasz, być może pomyślisz, że kamień jest w swoim żywiole."
+    },
+    "retos_observacion": {
+      "hash": "8d0516bd69cfbdd4",
+      "texto": [
+        "Zmierz wzrokiem całą figurę i porównaj ją z ludźmi, którzy przechodzą w pobliżu.",
+        "Przyjrzyj się skale wulkanicznej: sprawdź, czy są w niej łączenia, czy to jeden blok.",
+        "Poszukaj cech, którymi przedstawia się boga wody i deszczu."
+      ]
+    },
+    "especificaciones": {
+      "hash": "b68c5f5d8addbb76",
+      "texto": {
+        "Materiał": "Skała wulkaniczna",
+        "Pochodzenie": "San Miguel Coatlinchan, Stan Meksyk"
+      }
+    },
+    "faq_mito": {
+      "hash": "3aba2b3cf1e1e2e5",
+      "texto": {
+        "pregunta": "Mit: Ta wielka rzeźba to współczesne dzieło, wykonane na ozdobę wejścia do muzeum.",
+        "respuesta": "Rzeczywistość: To rzeźba z czasów przedhiszpańskich, przedstawiająca Tláloca. Pochodzi z San Miguel Coatlinchan w Stanie Meksyk i została przewieziona do muzeum."
+      }
+    }
+  }
+}

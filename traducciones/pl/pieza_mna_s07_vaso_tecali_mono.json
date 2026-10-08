@@ -1,0 +1,51 @@
+{
+  "id": "mna_s07_vaso_tecali_mono",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2895c86d5028dcbf",
+      "texto": "Trójnożny kielich z tecali w kształcie małpy"
+    },
+    "frase_gancho": {
+      "hash": "ad74e75b8cd8d128",
+      "texto": "Trójnożny kielich z półprzezroczystego kamienia z małpą szponiastą."
+    },
+    "puente_narrativo": {
+      "hash": "34c7e08daa96ba2a",
+      "texto": "Zostajemy przy luksusowych naczyniach: kielich z półprzezroczystego kamienia z małpą."
+    },
+    "guion_corto": {
+      "hash": "11077e90aa59e564",
+      "texto": "Ten kielich ma trzy nóżki i małpę. To trójnożny kielich z tecali, półprzezroczystego kamienia podobnego do marmuru, z figurą małpy szponiastej w reliefie albo dodaną jako uchwyt. Wyrzeźbiono go, wydrążono i wypolerowano ręcznie, drobnymi materiałami ściernymi i wodą. Dzięki tej technice uzyskiwano cienkie ścianki, które przepuszczają światło. Kielichy tego typu znajduje się w grobowcach w Centralnych Dolinach Oaxaca, a także w pochówkach na Isla de Sacrificios w Veracruz. Przypuszcza się, że służyły do przechowywania świętych płynów, takich jak napoje z kakao czy żywice, podczas ceremonii na szlacheckim dworze."
+    },
+    "guion_largo": {
+      "hash": "7dafd38a805a8df4",
+      "texto": "Kielich, który przepuszcza światło, a w dodatku ma małpę. Ten przedmiot to kielich trójnożny, czyli na trzech podporach, wykonany z tecali, półprzezroczystego kamienia podobnego do marmuru i alabastru.\n\nMa stylizowaną figurę małpy szponiastej, w reliefie albo dodaną jako uchwyt. To naczynie-efigia, czyli naczynie, które jest jednocześnie rzeźbą.\n\nKamień wyrzeźbiono, wydrążono i wypolerowano ręcznie, drobnymi materiałami ściernymi i wodą. Przypuszcza się, że rzeźbiarze drążyli półprzezroczyste skały miedzianymi cylindrami i wilgotnym piaskiem. W ten sposób uzyskiwali cienkie ścianki, które przepuszczają światło.\n\nKielichy tego typu pojawiają się w dwóch regionach. Egzemplarze znaleziono w Centralnych Dolinach Oaxaca, w takich miejscach jak Grobowiec 7 w Monte Albán i Zaachila. Inne pochodzą z ceremonialnych pochówków na Isla de Sacrificios w Veracruz.\n\nPrzypuszcza się, że były to kielichy ceremonialne, służące do przechowywania świętych płynów, takich jak napoje z kakao czy żywice, podczas ceremonii na szlacheckim dworze.\n\nJeśli możesz, obejrzyj kielich w świetle z bliska. Półprzezroczystość odróżnia go od ceramiki i zwykłego kamienia. I przyjrzyj się małpie, która zmienia przedmiot codziennego użytku w niewielką rzeźbę."
+    },
+    "retos_observacion": {
+      "hash": "63c43af3ed6d7afa",
+      "texto": [
+        "Poszukaj małpy szponiastej w reliefie albo w formie uchwytu.",
+        "Policz trzy podpory, na których stoi kielich.",
+        "Zobacz, jak kamień przepuszcza światło."
+      ]
+    },
+    "especificaciones": {
+      "hash": "18516c11d70b5888",
+      "texto": {
+        "Materiał": "Tecali (alabaster, kamień podobny do marmuru)"
+      }
+    },
+    "faq_mito": {
+      "hash": "acd80b41dd740d18",
+      "texto": {
+        "pregunta": "Mit: Kielich z tecali jest ze szkła albo z plastiku.",
+        "respuesta": "Rzeczywistość: Jest z tecali, półprzezroczystego kamienia podobnego do marmuru i alabastru, rzeźbionego i polerowanego ręcznie drobnymi materiałami ściernymi i wodą."
+      }
+    }
+  }
+}

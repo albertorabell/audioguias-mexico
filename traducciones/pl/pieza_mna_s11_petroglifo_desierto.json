@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_petroglifo_desierto",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d75191878d531d35",
+      "texto": "Petroglif i ceremonialny skrobacz łowców-zbieraczy"
+    },
+    "frase_gancho": {
+      "hash": "4fe43efc5778f352",
+      "texto": "Rzeźbiona skała i narzędzie z obrobionego kamienia: ślady łowców pustyni."
+    },
+    "puente_narrativo": {
+      "hash": "3db7e68068fade03",
+      "texto": "Wciąż jesteśmy przy łowcach-zbieraczach pustyni, tym razem w kamieniu: grawerowana skała i obrobione narzędzie."
+    },
+    "guion_corto": {
+      "hash": "3b5709701c407fba",
+      "texto": "Skała z rysunkami i narzędzie z ostrą krawędzią wydają się zupełnie różnymi rzeczami. A jednak narodziły się z tej samej tradycji: łowców-zbieraczy pustyni, w tym, co znamy jako Wielka Czichimeka. Ich ślady pojawiają się na pustyniach i w górach, od Coahuila aż po Kalifornię Dolną. Obrabiali kamień wulkaniczny, bazalt, krzemień i rogowiec, zawsze uderzeniami i starannym retuszem. Skrobacz służył do oczyszczania skór oraz do obróbki drewna i włókien agawy, czyli po prostu do życia. Rytów natomiast interpretuje się jako znaki: oznaczenia terytorium, źródeł wody i szlaków. Między jednymi a drugimi rozciąga się niezwykle długa tradycja, która trwa od 8000 przed Chrystusem do 1500 po Chrystusie. To pamięć ludzi, którzy poruszali się wraz z pustynią i pozostawili jej ślad w kamieniu."
+    },
+    "guion_largo": {
+      "hash": "8e87a2fd241714fa",
+      "texto": "Petroglif to rysunek wyryty w skale, a skrobacz to kamienne narzędzie z ostrą krawędzią. Pojawiają się tu razem, ponieważ opowiadają o dwóch obliczach tego samego życia: pracy i znaków.\n\nStoją za nimi łowcy-zbieracze pustyni, z tradycji Aridoameryki, którą znamy jako Wielka Czichimeka. Były to grupy koczownicze, które przemierzały pustynie i góry północnego Meksyku, na obszarze dzisiejszych stanów Coahuila, Durango, Chihuahua, Sonora i Kalifornia Dolna.\n\nTechnika jest w obu przedmiotach ta sama: kamień obrabiano uderzeniami, a następnie retuszowano. Tak powstawały narzędzia, a także ryty w skale. Używano kamienia wulkanicznego i bazaltu, a także krzemienia i rogowca.\n\nSkrobacz to narzędzie codziennego użytku. Wiele z nich miało drewniany uchwyt, przyklejony żywicą roślinną, na przykład z prosopisu, i przywiązany włóknami agawy. Takimi narzędziami obrabiano mięso i skrobano skóry. Obrabiano nimi także twarde włókna agawy oraz drewno, by wytwarzać sieci i broń.\n\nPetroglify mówią o czymś innym. Archeolodzy sądzą, że służyły jako mapy terytorium, jako oznaczenia źródeł wody oraz jako plany podróży i obserwacji nieba.\n\nCzas, jaki obejmuje ta tradycja, jest ogromny: trwa od 8000 przed Chrystusem do 1500 po Chrystusie. Pojedynczy ryt nie opowie tego wszystkiego. Przypomina jednak, że pustynia była zamieszkana, a jej mieszkańcy znali ją i z cierpliwością ją naznaczali."
+    },
+    "retos_observacion": {
+      "hash": "d47c86f96cbf88c3",
+      "texto": [
+        "Wypatrz ryty, które pozostały wyryte na powierzchni skały.",
+        "Porównaj obrobioną krawędź narzędzia z powierzchnią skały.",
+        "Wypatrz ślady uderzeń i retuszu, które nadały narzędziu ostrość."
+      ]
+    },
+    "especificaciones": {
+      "hash": "116883fc2deb1167",
+      "texto": {
+        "Kultura": "Aridoameryka / Tradycja kultur pustyni (Wielka Czichimeka)",
+        "Okres": "Okres litycki do Postklasyku (8000 p.n.e.-1500 n.e.)",
+        "Materiał": "Kamień wulkaniczny (bazalt); krzemień i rogowiec obrobione przez uderzanie i retusz",
+        "Pochodzenie": "Pustynie i góry północnego Meksyku (Coahuila, Durango, Chihuahua, Sonora i Kalifornia Dolna)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0d584cb6fd79c21",
+      "texto": {
+        "pregunta": "Mit: Ponieważ byli koczownikami, łowcy-zbieracze z północy nie pozostawili po sobie wyszukanych dzieł.",
+        "respuesta": "Rzeczywistość: Ryli skałę i kuli kamienne narzędzia z precyzyjną techniką, w tradycji, która trwa od 8000 przed Chrystusem do 1500 po Chrystusie."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s07_copa_cristal_roca",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2164cf6a7d49f333",
+      "texto": "Kielich z kryształu górskiego z Grobowca 7"
+    },
+    "frase_gancho": {
+      "hash": "04c2f03d55867c87",
+      "texto": "Kielich z przezroczystego kwarcu, wydrążony ręcznie za pomocą materiałów ściernych i wody."
+    },
+    "puente_narrativo": {
+      "hash": "6b1057bb73d0518b",
+      "texto": "Przechodzimy do kolejnego obiektu z Grobowca 7: kielicha z przezroczystego kwarcu, wydrążonego ręcznie."
+    },
+    "guion_corto": {
+      "hash": "ce148200b237b055",
+      "texto": "Aby wykonać ten kielich, trzeba było ręcznie wydrążyć przezroczysty kwarc za pomocą drobnych materiałów ściernych i wody. To kielich z kryształu górskiego, czyli kwarcu szklistego, rzeźbiony, wydrążony i wypolerowany. Jest mixteckiego pochodzenia i należy do późnego postklasyku, z lat 1200-1521 n.e. Archeolog Alfonso Caso odkrył go 9 stycznia 1932 roku w Grobowcu 7 w Monte Albán. Był częścią słynnego skarbu z tego grobowca, jednego z najwspanialszych znalezisk w Ameryce. Pokazuje mistrzostwo mixteckich rzemieślników w obróbce minerałów o ogromnej twardości. Uważa się, że był naczyniem ceremonialnym, używanym do libacji lub do świętego spożywania kakao."
+    },
+    "guion_largo": {
+      "hash": "d1934c2b24005464",
+      "texto": "Ten kielich skrywa paradoks. Jest wykonany z przezroczystego kwarcu, jednego z najtwardszych minerałów, a mimo to został wydrążony ręcznie. To kielich z kryształu górskiego, czyli kwarcu szklistego.\n\nMixtekowie, rzemieślnicy, wyrzeźbili go, wydrążyli i wypolerowali za pomocą drobnych materiałów ściernych i wody. Należy do późnego postklasyku, z lat 1200-1521 n.e.\n\nArcheolog Alfonso Caso odkrył go 9 stycznia 1932 roku w Grobowcu 7 w Monte Albán. Był częścią słynnego skarbu z tego grobowca, jednego z najwspanialszych znalezisk w Ameryce.\n\nUważa się, że był naczyniem ceremonialnym, używanym do libacji lub do świętego spożywania kakao.\n\nGrobowiec 7 zbudowali Zapotekowie. Wieki później Mixtekowie użyli go ponownie, by pochować w nim swoich dostojników. Otoczyli ich setkami ozdób ze złota, srebra, turkusu, bursztynu, pereł i jadeitu oraz naczyniami z kryształu górskiego, takimi jak ten.\n\nKiedy będziesz na niego patrzeć, pomyśl o twardości tego materiału i o cierpliwości, jakiej wymagała jego obróbka. Zamiana kawałka kwarcu w kielich to dowód mistrzostwa mixteckich rzemieślników."
+    },
+    "retos_observacion": {
+      "hash": "afe7e91f3744be83",
+      "texto": [
+        "Wypatruj przezroczystości kwarcu: przez kielich można zobaczyć na wylot.",
+        "Zwróć uwagę na gładki połysk całej powierzchni.",
+        "Porównaj jego wygląd ze złotem i turkusem w sąsiednich witrynach."
+      ]
+    },
+    "especificaciones": {
+      "hash": "14afc29308694a68",
+      "texto": {
+        "Kultura": "Mixtecka (dar złożony w zapoteckim grobowcu)",
+        "Okres": "Późny postklasyk (1200-1521 n.e.); odkryty 9 stycznia 1932 roku",
+        "Materiał": "Kryształ górski (kwarc szklisty)",
+        "Pochodzenie": "Grobowiec 7, Monte Albán, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "3000d5602909f16c",
+      "texto": {
+        "pregunta": "Mit: Kielich z kryształu górskiego jest zrobiony ze szkła.",
+        "respuesta": "Rzeczywistość: To kwarc szklisty, rzeźbiony, wydrążony i wypolerowany ręcznie za pomocą drobnych materiałów ściernych i wody."
+      }
+    }
+  }
+}

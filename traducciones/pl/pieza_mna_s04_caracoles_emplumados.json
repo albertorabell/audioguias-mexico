@@ -1,0 +1,55 @@
+{
+  "id": "mna_s04_caracoles_emplumados",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a265bb2c77b543e4",
+      "texto": "Świątynia Pierzastych Muszli"
+    },
+    "frase_gancho": {
+      "hash": "efc291c321e06816",
+      "texto": "Muszle z piórami, z miasta zbudowanego na innym mieście."
+    },
+    "puente_narrativo": {
+      "hash": "9027603f16223bed",
+      "texto": "Wracamy do architektury, do świątyni ozdobionej muszlami z piórami."
+    },
+    "guion_corto": {
+      "hash": "37c9784a3dbbb4e1",
+      "texto": "Ślimak z piórami. Wygląda to na niemożliwe połączenie, a jednak tak ozdobili tę świątynię mieszkańcy Teotihuacán. To Świątynia Pierzastych Muszli z wczesnego klasyku, z lat 200-300 po Chrystusie. Zbudowano ją ze skał rzeźbionych w płaskorzeźbie, z wapienia i polerowanego stiuku, pomalowanych na czerwono, zielono i niebiesko. Ślimaki mają ustniki, jak trąbki. Z ich ust wydobywają się czerwone krople i woluty, które przedstawiają dźwięk. Pilastry przy wejściu zdobią kwiaty o czterech płatkach. Archeolog Jorge Acosta zbadał ją i rozpoznał w 1962 roku pod Pałacem Quetzalpapálotl, zwanym też Pałacem Motyli. Dlatego jest starsza niż pałac."
+    },
+    "guion_largo": {
+      "hash": "ff21d44a4c5e0fcb",
+      "texto": "Czasem, żeby znaleźć coś bardzo starego, trzeba kopać pod czymś starym.\n\nTak było z tą świątynią. W 1962 roku archeolog Jorge Acosta zbadał ją i rozpoznał pod Pałacem Quetzalpapálotl, zwanym też Pałacem Motyli. Leży na południowy zachód od Placu Księżyca, w Teotihuacán. To Świątynia Pierzastych Muszli.\n\nNależy do wczesnego klasyku, do lat 200-300 po Chrystusie, czyli do drugiego i trzeciego wieku. Dlatego jest starsza niż pałac, który zbudowano nad nią.\n\nZbudowano ją ze skał rzeźbionych w płaskorzeźbie, z wapienia, pokrytych polerowanym stiukiem i ozdobionych czerwoną, zieloną i niebieską farbą.\n\nNazwa mówi wszystko. Ślimaki to morskie mięczaki. Tutaj zamieniono je w trąbki, z ustnikiem, i ozdobiono piórami.\n\nZ ich ust wydobywają się czerwone krople i woluty, które przedstawiają dźwięk, słowo albo śpiew. To tak, jakby ślimaki rozbrzmiewały. Pilastry przy wejściu zdobią kwiaty o czterech płatkach, malowane w wielu kolorach.\n\nPrzypuszcza się, że morskie ślimaki wiązano z wodą, centralnym tematem dla mieszkańców Teotihuacán. Czcili oni Tláloca, boga deszczu, i Chalchiuhtlicue, boginię wód lądowych.\n\nTo obraz łączący wodę, pióra i dźwięk. I pokazuje coś ważnego: pod najsłynniejszymi budowlami Teotihuacán kryją się inne, jeszcze starsze."
+    },
+    "retos_observacion": {
+      "hash": "353f839aa140154b",
+      "texto": [
+        "Wypatrz ślimaki z ustnikiem, jak trąbki.",
+        "Znajdź pióra każdego ślimaka i czerwone krople, które wydobywają się z jego ust.",
+        "Zwróć uwagę na kwiaty o czterech płatkach na pilastrach."
+      ]
+    },
+    "especificaciones": {
+      "hash": "2339e22be4a18ee0",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Wczesny klasyk (200-300 n.e.)",
+        "Materiał": "Wapień, polerowany stiuk i pigmenty mineralne",
+        "Pochodzenie": "Teotihuacán, Stan Meksyk (podziemia Pałacu Quetzalpapálotl, na południowy zachód od Placu Księżyca)",
+        "Odkrycie": "Zbadana i rozpoznana w 1962 roku przez archeologa Jorge Acostę pod Pałacem Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "f66db8346d3e8958",
+      "texto": {
+        "pregunta": "Mit: Ta świątynia powstała po Pałacu Quetzalpapálotl.",
+        "respuesta": "Rzeczywistość: Jest starsza: znajdowała się pod pałacem i pochodzi z drugiego i trzeciego wieku po Chrystusie."
+      }
+    }
+  }
+}

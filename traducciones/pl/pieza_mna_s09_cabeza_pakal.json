@@ -1,0 +1,56 @@
+{
+  "id": "mna_s09_cabeza_pakal",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "75a3c8a77276cf2f",
+      "texto": "Głowa Pakala ze stiuku"
+    },
+    "frase_gancho": {
+      "hash": "1ef3f5d0b34d0d99",
+      "texto": "Głowa ze stiuku, która została złożona pod sarkofagiem Pakala."
+    },
+    "puente_narrativo": {
+      "hash": "e5ae74b07c4223b2",
+      "texto": "Zostajemy w Palenque, przy kolejnym obliczu, tym razem wymodelowanym ze stiuku: głowie młodzieńca."
+    },
+    "guion_corto": {
+      "hash": "6f968a6016457371",
+      "texto": "Zwróć uwagę na ten profil: czoło i nos tworzą niemal jedną linię. To głowa młodzieńca ze stiuku, z wyraźną deformacją czaszki. Ma włosy przycięte w pasma przypominające liście kukurydzy oraz ozdobę głowy z trzema pąkami kwiatów. Znalazł ją w 1952 roku archeolog Alberto Ruz Lhuillier, pod sarkofagiem Pakala, w komorze grobowej Świątyni Inskrypcji w Palenque. Nie była sama, obok niej leżała druga głowa, kobieca. Obie zostały celowo oderwane od całych posągów i złożone jako ofiara podczas pochówku. Jest wymodelowana ze stiuku, mieszanki wapna i pyłu z wapienia. Pochodzi z późnego klasyku, z lat między 600 a 900 po Chrystusie."
+    },
+    "guion_largo": {
+      "hash": "86fb7545be8c2f6b",
+      "texto": "Głowę celowo oderwano od całego posągu. A potem złożono ją jako ofiarę obok zmarłego władcy.\n\nZnalazł ją w 1952 roku archeolog Alberto Ruz Lhuillier. Leżała pod sarkofagiem Pakala, na posadzce komory grobowej Świątyni Inskrypcji w Palenque, w Chiapas. To dzieło Majów z późnego klasyku, z lat między 600 a 900 po Chrystusie.\n\nWykonano ją ze stiuku, zaprawy z wapna i sproszkowanego wapienia. Z tego materiału rzeźbiarze Majów potrafili osiągnąć modelunek o wielkim realizmie.\n\nSpójrz na profil. Czoło i nos tworzą niemal ciągłą linię. To wyraźna deformacja czaszki, typu tabularnego skośnego. Włosy są przycięte w pasma przypominające liście kukurydzy. Na głowie spoczywa ozdoba z trzema pąkami kwiatów. Przez te liście kukurydzy nazywa się ją też Młodym Bogiem Kukurydzy. To odczytanie interpretacyjne.\n\nZnaleziono ją przy grobie Pakala. Mimo to opisuje się ją jako wyidealizowany portret młodzieńca albo dostojnika z Palenque, bez wskazywania, kim jest.\n\nNie była sama. Obok niej znaleziono drugą głowę ze stiuku, kobiecą. Obie zostały celowo oderwane od całych posągów. Te posągi zdobiły fasadę świątyni w Palenque. Potem złożono je jako ofiarę rytualną podczas pochówku Pakala."
+    },
+    "retos_observacion": {
+      "hash": "d62714809cd11c68",
+      "texto": [
+        "Poszukaj czoła i nosa: tworzą niemal jedną linię.",
+        "Przyjrzyj się włosom przyciętym w pasma, jak liście kukurydzy.",
+        "Policz trzy pąki kwiatów w ozdobie głowy."
+      ]
+    },
+    "especificaciones": {
+      "hash": "1a0b4183dfbf5219",
+      "texto": {
+        "Kultura": "Majowie",
+        "Okres": "Późny klasyk (600-900 n.e.)",
+        "Materiał": "Stiuk",
+        "Pochodzenie": "Palenque, Chiapas (Świątynia Inskrypcji)",
+        "Wymiary": "0,413 m wysokości x 0,202 m szerokości",
+        "Odkrycie": "1952, przez Alberto Ruz Lhuillier, pod sarkofagiem Pakala, w komorze grobowej Świątyni Inskrypcji"
+      }
+    },
+    "faq_mito": {
+      "hash": "2f73aca2de6ad5d9",
+      "texto": {
+        "pregunta": "Mit: Ta głowa ze stiuku to potwierdzony portret Pakala.",
+        "respuesta": "Rzeczywistość: Znaleziono ją pod jego sarkofagiem, ale opisuje się ją jako głowę młodzieńca lub dostojnika, bez wskazywania, kim jest."
+      }
+    }
+  }
+}

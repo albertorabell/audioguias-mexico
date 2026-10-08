@@ -1,0 +1,56 @@
+{
+  "id": "mna_s09_chacmool_maya",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cdc1f808fa47a780",
+      "texto": "Chac Mool z Chichén Itzá"
+    },
+    "frase_gancho": {
+      "hash": "45393cb778a24b50",
+      "texto": "Rzeźba w pozycji półleżącej, która strzeże naczynia na boskie ofiary."
+    },
+    "puente_narrativo": {
+      "hash": "7fffc27cc9e2ccdb",
+      "texto": "Kończymy zwiedzanie sali w Chichén Itzá, przy półleżącej postaci słynnej pod nazwą, która nie jest oryginalna: Chac Mool."
+    },
+    "guion_corto": {
+      "hash": "eba5de37411c9357",
+      "texto": "Chac Mool nie jest pierwotną nazwą tej postaci. Nadał ją francuski odkrywca Augustus Le Plongeon, kiedy wydobył ją z ziemi w Chichén Itzá w dziewiętnastym wieku. To rzeźba z wapienia z okresu wczesnego postklasyku. Przedstawia mężczyznę w pozycji półleżącej, opartego na łokciach, biodrach i plecach, z głową obróconą o dziewięćdziesiąt stopni. Na brzuchu trzyma okrągłe naczynie, przeznaczone na ofiary z krwi i serc. Ma na sobie przepaskę biodrową, nauszniki, ozdoby na kostkach i pektorał w kształcie stylizowanej sylwetki motyla, cechę, która łączy go ze stylem Tuli. Znaleziono go na Platformie Wenus. Później nazwa ta została użyta także dla innych rzeźb tego samego typu."
+    },
+    "guion_largo": {
+      "hash": "b8598de2342c2d17",
+      "texto": "Nazywa się Chac Mool, ale ta nazwa nie pochodzi od Majów. Wymyślił ją odkrywca.\n\nTo Francuz Augustus Le Plongeon tak go ochrzcił, kiedy wydobył go z ziemi w Chichén Itzá, w Yucatán, w dziewiętnastym wieku. Znalazł go na Platformie Wenus. Od tamtej pory nazwa ta jest używana dla innych rzeźb tego typu.\n\nTo dzieło z okresu wczesnego postklasyku, wyrzeźbione w wapieniu, jako rzeźba pełnoplastyczna. Wiąże się je z kulturą Majów i wpływami Tolteków. Łączy lokalne tradycje z wpływami z Wyżyny Centralnej.\n\nSpójrz na pozycję. To postać męska w pozycji półleżącej. Opiera łokcie, biodra i plecy, a głowę obraca o dziewięćdziesiąt stopni. Na brzuchu trzyma w dłoniach okrągłe naczynie. Naczynie to służyło do składania ofiar z krwi i serc.\n\nTeraz szczegóły jego stroju. Ma przepaskę biodrową, nauszniki i ozdoby na kostkach. Na piersi nosi pektorał w kształcie stylizowanej sylwetki motyla. Ta cecha łączy go ze stylem Tuli, stolicy Tolteków, i pokazuje więzi między dwoma regionami.\n\nNie wiadomo dokładnie, kogo przedstawia. Dlatego warto opisać to, co widać: uważnego mężczyznę z dłońmi na naczyniu, jak ktoś, kto czeka, by przyjąć dar."
+    },
+    "retos_observacion": {
+      "hash": "d81cdedce56444d0",
+      "texto": [
+        "Znajdź okrągłe naczynie na brzuchu.",
+        "Zobacz, w którą stronę obraca się głowa: o dziewięćdziesiąt stopni.",
+        "Odszukaj pektorał w kształcie stylizowanego motyla."
+      ]
+    },
+    "especificaciones": {
+      "hash": "64e9fb5693638f2b",
+      "texto": {
+        "Kultura": "Majowie",
+        "Okres": "Wczesny postklasyk",
+        "Materiał": "Wapień",
+        "Pochodzenie": "Chichén Itzá, Yucatán",
+        "Wymiary": "1,10 m wysokości x 1,48 m szerokości",
+        "Znalezisko": "XIX wiek, odkryte przez Augustusa Le Plongeona na Platformie Wenus w Chichén Itzá"
+      }
+    },
+    "faq_mito": {
+      "hash": "a84a142a1dea5698",
+      "texto": {
+        "pregunta": "Mit: Chac Mool to pierwotna nazwa tej rzeźby.",
+        "respuesta": "Rzeczywistość: Nadał ją francuski odkrywca Augustus Le Plongeon, kiedy wydobył rzeźbę z ziemi w Chichén Itzá."
+      }
+    }
+  }
+}

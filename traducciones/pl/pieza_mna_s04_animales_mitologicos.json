@@ -1,0 +1,54 @@
+{
+  "id": "mna_s04_animales_mitologicos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc5073a87fe16ea3",
+      "texto": "Mural Zwierząt Mitologicznych"
+    },
+    "frase_gancho": {
+      "hash": "9e2bd702823b4352",
+      "texto": "Skrzydlate węże pożerają koty, na ścianie, którą potem zasłonięto."
+    },
+    "puente_narrativo": {
+      "hash": "8fd8b14b0ac67630",
+      "texto": "Salę zamykamy muralem istot, które nie istnieją: mitologicznych zwierząt namalowanych techniką fresku."
+    },
+    "guion_corto": {
+      "hash": "8201d92c09029453",
+      "texto": "Mieszkańcy Teotihuacán malowali zwierzęta, które nie istnieją. Na tym murale wielkie węże ze skrzydłami atakują mniejsze zwierzęta, głównie koty. Mural jest namalowany techniką fresku, na stiuku i zaprawie wapiennej. Pochodzi ze Świątyni Zwierząt Mitologicznych, przy Alei Zmarłych w Teotihuacán. Pochodzi z okresu Klasyku, z lat między 300 a 450 po Chrystusie. Niektórzy badacze odczytują tę scenę jako echo sporu między grupami elity, ale to tylko hipoteza. Zachował się z ciekawego powodu: przed rokiem 350 nowa fasada zakryła mural i chroniła go przez wieki."
+    },
+    "guion_largo": {
+      "hash": "069ba38f5147d997",
+      "texto": "Są obrazy, które ocalały, bo ktoś je ukrył. Ten jest jednym z nich.\n\nTo Mural Zwierząt Mitologicznych, dzieło kultury Teotihuacán. Pochodzi ze Świątyni Zwierząt Mitologicznych, przy Alei Zmarłych w Teotihuacán, w Stanie Meksyk. Jest namalowany techniką fresku, na stiuku i zaprawie wapiennej. W tej technice pigmenty nakłada się na jeszcze wilgotny stiuk, a gdy wysychają, łączą się ze ścianą.\n\nNależy do okresu Klasyku, do lat między 300 a 450 po Chrystusie. Ale jest jedna data, która znaczy więcej: rok 350. Przed tą datą nowa fasada zakryła mural. Ta warstwa go ukryła, a także ochroniła.\n\nScena jest intensywna. Wielkie węże ze skrzydłami atakują i pożerają mniejsze zwierzęta, głównie koty. To fantastyczne stworzenia, które nie istnieją w naturze. Przyjrzyj się spokojnie kształtom i kolorom.\n\nNiektórzy badacze odczytali ten obraz jako odbicie polityczno-religijnego sporu między grupami elity miasta. To tylko hipoteza.\n\nTo, co widzisz, przetrwało wieki pod ziemią. Pomalowana ściana, którą ktoś zakrył, a ktoś inny odkrył."
+    },
+    "retos_observacion": {
+      "hash": "b655011fff44f9fd",
+      "texto": [
+        "Wypatrz skrzydlate węże, które atakują mniejsze zwierzęta.",
+        "Znajdź koty wśród ofiar.",
+        "Wyobraź sobie mural zakryty nową fasadą, przed rokiem 350."
+      ]
+    },
+    "especificaciones": {
+      "hash": "bb67cea7a9a99f97",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (300-450 n.e.)",
+        "Materiał": "Fresk na stiuku i zaprawie wapiennej",
+        "Pochodzenie": "Teotihuacán, Stan Meksyk (Aleja Zmarłych)"
+      }
+    },
+    "faq_mito": {
+      "hash": "0cc750fdfc121da4",
+      "texto": {
+        "pregunta": "Mit: Mieszkańcy Teotihuacán namalowali te zwierzęta, ponieważ żyły w ich regionie.",
+        "respuesta": "Rzeczywistość: To istoty mitologiczne, zwierzęta, które nie istnieją. Zachowały się, ponieważ przed rokiem 350 zakryła je nowa fasada."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "mna_s04_marcador_ventilla",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-08",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8fbe431fe09917b3",
+      "texto": "Znacznik do gry w piłkę z La Ventilla"
+    },
+    "frase_gancho": {
+      "hash": "40b95a51c0dcdc21",
+      "texto": "Rozkładana kamienna rzeźba, w której gra w piłkę ożywa."
+    },
+    "puente_narrativo": {
+      "hash": "6bb66b859cf14c6d",
+      "texto": "Wciąż poznajemy życie miasta, tym razem na przykładzie przedmiotu służącego do gry i rytuału: znacznika do gry w piłkę, który można było składać i rozkładać."
+    },
+    "guion_corto": {
+      "hash": "fca0d4e413bb7b21",
+      "texto": "Pomnik, który się składa i rozkłada? Tak właśnie jest z tym znacznikiem do gry w piłkę. Składa się z czterech osobno rzeźbionych części, które precyzyjnie łączy się za pomocą czopów z tej samej skały. Na dole stoi cylindryczny słup ozdobiony rzeźbionymi splotami. Na górze znajduje się ażurowa tarcza, czyli pierścień, ozdobiona piórami i spiralami, które symbolizują gumową piłkę i ruch. Wykonano go z andezytu, ze stiukiem i polichromowanym pigmentem. Należy do kultury Teotihuacán i pochodzi z okresu Klasyk. Odnaleziono go w 1962 roku podczas badań w dzielnicy La Ventilla, na południowy zachód od Teotihuacán."
+    },
+    "guion_largo": {
+      "hash": "4e7f31e6dbd8f8c0",
+      "texto": "Ten znacznik można składać i rozkładać. Już to czyni go wyjątkowym.\n\nTo przenośna rzeźba złożona z czterech części, wykonanych niezależnie od siebie. Łączy się je precyzyjnie za pomocą czopów z tej samej skały. Na dole stoi cylindryczny słup ozdobiony rzeźbionymi splotami. Nad nim znajduje się część w kształcie dzwonu. A na samej górze ażurowa tarcza, czyli pierścień, ozdobiona piórami i spiralami, które symbolizują gumową piłkę i ruch.\n\nWykonano go z andezytu, ze stiukiem i polichromowanym pigmentem. Należy do kultury Teotihuacán i pochodzi z okresu Klasyk. Odnaleziono go w 1962 roku podczas badań w dzielnicy La Ventilla, na południowy zachód od miasta.\n\nJest jeszcze jedna informacja, która czyni go jeszcze ciekawszym. W Teotihuacán nie znaleziono zamkniętych boisk, takich jak w innych miastach Mezoameryki. Dlatego sądzi się, że w grę grano na otwartych placach lub dziedzińcach, a te przenośne znaczniki służyły właśnie do takich miejsc.\n\nJego użycie widać na malowidłach ściennych z Tepantitla, gdzie gracze z kijami stoją przy identycznych znacznikach.\n\nPrzedmiot stworzony po to, by go przenosić, opowiada, jak grano w mieście bez boisk."
+    },
+    "retos_observacion": {
+      "hash": "adb53dcbf14b62bc",
+      "texto": [
+        "Poszukaj czterech części, z których składa się znacznik.",
+        "Spójrz na górny ażurowy pierścień, ozdobiony piórami i spiralami.",
+        "Zwróć uwagę na rzeźbione sploty na cylindrycznym słupie."
+      ]
+    },
+    "especificaciones": {
+      "hash": "1bec4c36259a7969",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (1-650 n.e.)",
+        "Materiał": "Andezyt, stiuk i pigment",
+        "Pochodzenie": "Teotihuacán, Stan Meksyk (dzielnica La Ventilla, na południowy zachód od miasta)",
+        "Wymiary": "2,15 m wysokości x 0,77 m szerokości x 0,55 m grubości",
+        "Odkrycie": "Odnaleziony w 1962 roku podczas badań w dzielnicy La Ventilla"
+      }
+    },
+    "faq_mito": {
+      "hash": "ba57000db2b84785",
+      "texto": {
+        "pregunta": "Mit: Znacznik z La Ventilla był nieruchomym kamieniem na wielkim, zamkniętym boisku.",
+        "respuesta": "Rzeczywistość: To przenośna rzeźba, którą można rozłożyć na cztery części, a w Teotihuacán nie znaleziono zamkniętych boisk, takich jak w innych miastach."
+      }
+    }
+  }
+}
