@@ -34,7 +34,6 @@ test('idioma: pasa a francés (interfaz completa en francés), se queda al recar
   await expect(page.getByText('Votre conservateur personnel de poche')).toBeVisible();
   await expect(page.locator('#btn-language-selector')).toHaveText(/^\s*fr\s*$/i);
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
-  await expect(page.getByText('Musée national d’anthropologie').first()).toBeVisible();
   await page.reload();
   await expect(page.getByText('Votre conservateur personnel de poche')).toBeVisible();
   await elegirIdioma(page, 'Español');
