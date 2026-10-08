@@ -48,7 +48,7 @@ export const PieceDock: React.FC<PieceDockProps> = ({
   return (
     <div
       id="piece-dock"
-      className="fixed bottom-0 inset-x-0 z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line"
+      className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[480px] z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line"
     >
       <div className="max-w-[480px] mx-auto h-[4.5rem] px-3 flex items-center gap-2">
         <button

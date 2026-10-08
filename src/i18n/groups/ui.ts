@@ -110,7 +110,7 @@ export const ui = defineGroup(
     map: {
       title: 'Plano del museo',
       youAreHere: 'Estás aquí',
-      youAreOn: (floor: 'PB' | 'PA') => (floor === 'PA' ? 'Estás en la planta alta' : 'Estás en la planta baja'),
+      youAreOn: (floor: 'PB' | 'PA'): string => (floor === 'PA' ? 'Estás en la planta alta' : 'Estás en la planta baja'),
       tourStop: 'Parada de tu recorrido',
       hint: 'Toca una sala para ver sus obras.',
       patio: 'Patio central',

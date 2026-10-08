@@ -238,7 +238,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
         </section>
       </main>
 
-      <footer className="fixed bottom-0 inset-x-0 z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line">
+      <footer className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[480px] z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line">
         <div className="max-w-[480px] mx-auto px-4 py-3">
           <button
             id="btn-start-route-fixed"

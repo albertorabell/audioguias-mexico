@@ -26,9 +26,12 @@ jobs:
       - name: Instalar paquetes
         run: npm install --no-audit --no-fund
       - name: Compilar (con datos al día y el selector de idioma visible)
+        env:
+          VITE_PAYMENTS_API_URL: https://pagos.test
+          VITE_PUBLISHED_LANGUAGES: es,en,fr
         run: |
-          npm run sync-data
-          VITE_PAYMENTS_API_URL=https://pagos.test VITE_PUBLISHED_LANGUAGES=es,en,fr npx vite build --outDir dist-capturas
+          node scripts/ci-run.mjs datos -- node scripts/sync-sheets.js
+          node scripts/ci-run.mjs compilar -- npx vite build --outDir dist-capturas
       - name: Instalar el navegador (Playwright)
         run: |
           npm install --no-save --no-audit --no-fund @playwright/test@1.55.0
@@ -37,7 +40,7 @@ jobs:
         run: |
           npx vite preview --outDir dist-capturas --port 4173 --strictPort &
           for i in $(seq 1 30); do curl -sf http://localhost:4173/ >/dev/null && break; sleep 1; done
-          node scripts/capturas.mjs capturas-salida http://localhost:4173
+          node scripts/ci-run.mjs capturas -- node scripts/capturas.mjs capturas-salida http://localhost:4173
       - name: Guardar como archivo descargable
         uses: actions/upload-artifact@v4
         with:
