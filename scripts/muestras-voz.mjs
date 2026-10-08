@@ -26,6 +26,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { fixVoiceName, splitText, silentMp3, REFERENCE_PRICE_USD_PER_MILLION_CHARS } from './audio-lib.mjs';
+import { readFullPieces } from './privado-lib.mjs';
 import { loadPronunciations, toSsmlInner, pronunciationElement, xmlEscape, KINDS, PRONUNCIATION_FILE } from './pronunciacion-lib.mjs';
 
 const LOCALES = { es: 'es-MX', en: 'en-US', fr: 'fr-FR' };
@@ -152,7 +153,7 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
       })),
     ];
   } else {
-    const pieces = JSON.parse(fs.readFileSync(path.join(root, 'public/data/pieces.json'), 'utf-8'));
+    const pieces = readFullPieces(root);
     const piece = pieces.find((p) => p.piece_id === args.pieza);
     if (!piece) throw new Error(`No existe la pieza ${args.pieza}`);
     const raw = args.lang === 'es' ? piece[key] : piece[`${key}_${args.lang}`];

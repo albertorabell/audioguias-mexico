@@ -11,6 +11,7 @@
 //   GET  /audio/libre/<idioma>/<pieza>_<modo>.mp3          audios de piezas gratis (públicos, sin clave)
 //   GET  /audio/pago/<idioma>/<pieza>_<modo>.mp3?t=<clave> audios de piezas de pago (solo con clave vigente)
 //   (en el bucket R2 están en las carpetas libre/ y pago/ con el mismo nombre)
+//   GET  /texto/<idioma>.json?t=<clave>   textos de pago (guiones, retos, mito, ficha técnica): solo con clave vigente
 //
 // Nada del dinero pasa por aquí: el pago ocurre en la página de Stripe. Este servidor solo pregunta a Stripe
 // "¿esta sesión está pagada?" con la clave secreta, y entrega una clave firmada que dura lo que dura el pase.
@@ -21,6 +22,7 @@ const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'; // sin 0, O, 1, I, L pa
 const SESSION_RE = /^cs_(test|live)_[A-Za-z0-9]{10,200}$/;
 const DEVICE_RE = /^[A-Za-z0-9_-]{6,64}$/;
 const AUDIO_RE = /^\/audio\/(libre|pago)\/(es|en|fr|pl|ru|ja)\/([A-Za-z0-9_-]+)_(corto|largo)\.mp3$/;
+const TEXT_RE = /^\/texto\/(es|en|fr|pl|ru|ja)\.json$/;
 const STRIPE_LOCALES = { es: 'es-419', en: 'en', fr: 'fr', pl: 'pl', ru: 'ru', ja: 'ja' };
 
 /** "ES", "es-MX" o "en-US" → "es" / "en". Cualquier otra cosa (incluido "constructor") → "es". */
@@ -464,6 +466,26 @@ async function handleAudio(request, env, cfg, cors, url) {
   return new Response(object.body, { status: 200, headers });
 }
 
+
+/** Textos de pago de un idioma (un solo archivo con todas las piezas). Solo con una clave vigente y no cancelada. */
+async function handleText(request, env, cfg, cors, url) {
+  const m = url.pathname.match(TEXT_RE);
+  if (!m) return new Response('No encontrado', { status: 404, headers: cors });
+  const payload = await verifyToken(url.searchParams.get('t'), env.TOKEN_SECRET);
+  if (!payload || !cfg.sites.includes(payload.site) || (await isRevoked(env, payload.sid))) {
+    return new Response('Sin acceso', { status: 401, headers: cors });
+  }
+  const object = await env.AUDIO.get(`texto/${m[1]}.json`);
+  if (!object) return new Response('No encontrado', { status: 404, headers: cors });
+  const headers = new Headers(cors);
+  headers.set('Content-Type', 'application/json; charset=utf-8');
+  // Solo el navegador de quien pagó lo guarda (para usarlo sin internet); ninguna red intermedia debe compartirlo
+  headers.set('Cache-Control', 'private, max-age=300');
+  if (object.httpEtag) headers.set('ETag', object.httpEtag);
+  if (object.httpEtag && request.headers.get('If-None-Match') === object.httpEtag) return new Response(null, { status: 304, headers });
+  return new Response(request.method === 'HEAD' ? null : object.body, { status: 200, headers });
+}
+
 // ---------------------------------------------------------------------------
 export default {
   async fetch(request, env) {
@@ -482,6 +504,7 @@ export default {
       if (url.pathname === '/estadisticas' && request.method === 'GET') return handleStats(request, env, url, cors);
       if (url.pathname === '/health') return json({ ok: true }, 200, cors);
       if (url.pathname === '/config' && request.method === 'GET') return handleConfig(env, cfg, cors);
+      if (url.pathname.startsWith('/texto/') && (request.method === 'GET' || request.method === 'HEAD')) return handleText(request, env, cfg, cors, url);
       if (url.pathname.startsWith('/audio/') && (request.method === 'GET' || request.method === 'HEAD')) return handleAudio(request, env, cfg, cors, url);
       if (request.method === 'POST' && url.pathname === '/stripe-webhook') return handleStripeWebhook(request, env, cfg, cors);
       if (request.method === 'POST' && url.pathname === '/evento') return handleEvent(request, env, cfg, cors);

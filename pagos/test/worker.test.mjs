@@ -517,3 +517,30 @@ test('una compra nueva se cuenta una sola vez (aunque se canjee otra vez)', asyn
   assert.equal(claves.length, 1);
   assert.equal(claves[0][1], 1);
 });
+
+// ---------------------------------------------------------------------------
+// Textos de pago
+// ---------------------------------------------------------------------------
+test('/texto: sin clave, con clave falsa, vencida o cancelada → 401; con clave vigente → el archivo; 404 si no existe', async () => {
+  env.AUDIO = new FakeR2({ 'texto/es.json': Buffer.from('{"v":1,"lang":"es","pieces":{}}'), 'texto/en.json': Buffer.from('{"v":1,"lang":"en","pieces":{}}') });
+  const red = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1, siteId: 'mna' } })).json();
+  const pedir = (t, lang = 'es') => call(`/texto/${lang}.json${t === null ? '' : `?t=${encodeURIComponent(t)}`}`, { method: 'GET', origin: ORIGIN });
+  assert.equal((await pedir(null)).status, 401);
+  assert.equal((await pedir('basura.firma')).status, 401);
+  const vencida = await signToken({ site: 'mna', dev: 'x', sid: 'x', exp: Date.now() - 1 }, SECRET);
+  assert.equal((await pedir(vencida)).status, 401);
+  const ok = await pedir(red.token);
+  assert.equal(ok.status, 200);
+  assert.match(ok.headers.get('Content-Type'), /application\/json/);
+  assert.match(ok.headers.get('Cache-Control'), /private/);
+  assert.equal((await ok.json()).lang, 'es');
+  assert.equal((await (await pedir(red.token, 'en')).json()).lang, 'en');
+  assert.equal((await pedir(red.token, 'fr')).status, 404);
+  // la ruta no deja pedir cualquier otro archivo del bucket
+  assert.equal((await call(`/texto/..%2Fpago%2Fes%2Fp01_corto.mp3?t=${encodeURIComponent(red.token)}`, { method: 'GET' })).status, 404);
+  // cancelado por reembolso: ya no
+  env.STRIPE_WEBHOOK_SECRET = WH;
+  conSesionPorPago('pi_TXT', 'cs_test_PAGADA123456');
+  await enviarWebhook({ type: 'charge.refunded', data: { object: { refunded: true, payment_intent: 'pi_TXT' } } });
+  assert.equal((await pedir(red.token)).status, 401);
+});

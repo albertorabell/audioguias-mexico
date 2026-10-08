@@ -19,6 +19,7 @@ import path from 'path';
 import { pathToFileURL } from 'url';
 import { MODES, AUDIO_LANGS, scriptFor, textHash } from './audio-lib.mjs';
 import { applyStoredTranslations } from './traducir-lib.mjs';
+import { splitPiece, writePrivate } from './privado-lib.mjs';
 
 // ===== CONFIGURACIÓN (lo único que normalmente se toca) =====================
 const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
@@ -572,10 +573,14 @@ export async function sync() {
   fs.mkdirSync(mnaDir, { recursive: true });
   const write = (file, data) => fs.writeFileSync(file, JSON.stringify(data, null, 2), 'utf-8');
 
+  // Los textos de pago NO van en los datos públicos: se guardan aparte (datos-privados/) y se suben a R2
+  const publicPieces = pieces.map((piece) => splitPiece(piece).pub);
+  writePrivate(process.cwd(), pieces, console.log);
+
   write(path.join(DATA_DIR, 'rooms.json'), rooms);
-  write(path.join(DATA_DIR, 'pieces.json'), pieces);
+  write(path.join(DATA_DIR, 'pieces.json'), publicPieces);
   write(path.join(mnaDir, 'rooms.json'), rooms);
-  write(path.join(mnaDir, 'pieces.json'), pieces);
+  write(path.join(mnaDir, 'pieces.json'), publicPieces);
 
   const siteJsonPath = path.join(mnaDir, 'site.json');
   const mnaJsonPath = path.join(mnaDir, 'mna.json');

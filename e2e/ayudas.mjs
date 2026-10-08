@@ -1,9 +1,19 @@
 // Ayudas compartidas por las pruebas: servidor de cobro simulado, MP3 de mentira y navegación básica.
+import fs from 'node:fs';
 import { silentMp3 } from '../scripts/audio-lib.mjs';
+import { buildBundles, splitPiece } from '../scripts/privado-lib.mjs';
 import { expect } from '@playwright/test';
 
 export const FREE = { id: 'mna_s06_piedra_sol', title: 'Piedra del Sol' };
 export const PREMIUM = { id: 'mna_s06_coatlicue', title: 'Coatlicue' };
+// Piezas completas guardadas en el repositorio (para armar, en las pruebas, lo público y lo de pago por separado)
+const COMPLETAS = JSON.parse(fs.readFileSync(new URL('../public/data/pieces.json', import.meta.url), 'utf-8'));
+export const TEXTOS = buildBundles(COMPLETAS, ['es', 'en']);
+export const FRASE_SECRETA = (() => {
+  const t = COMPLETAS.find((p) => p.piece_id === 'mna_s06_piedra_sol').guion_largo;
+  const mid = Math.floor(t.length / 2);
+  return t.slice(mid, mid + 50);
+})();
 export const SESSION = 'cs_test_a1b2c3d4e5f6g7h8i9';
 export const TOKEN = 'tok_PRUEBA.firma';
 
@@ -53,6 +63,12 @@ export async function simularCobro(page, opciones = {}) {
       case '/code':
         return api.code === 'ok' ? json(200, grant()) : json(STATUS[api.code] || 400, { error: api.code });
       default:
+        if (url.pathname.startsWith('/texto/')) {
+          const lang = url.pathname.replace('/texto/', '').replace('.json', '');
+          if (api.texto === 'denegado' || url.searchParams.get('t') !== TOKEN) return route.fulfill({ status: 401, headers: CORS, body: 'Sin acceso' });
+          if (!TEXTOS[lang]) return json(404, { error: 'not_found' });
+          return json(200, TEXTOS[lang]);
+        }
         if (url.pathname.startsWith('/audio/')) {
           return route.fulfill({ status: 200, headers: { ...CORS, 'content-type': 'audio/mpeg' }, body: silentMp3(2) });
         }
@@ -66,7 +82,7 @@ export async function simularCobro(page, opciones = {}) {
  * Agrega MP3 de mentira a dos piezas (una gratis y una de pago) sin tocar los archivos del proyecto,
  * y registra cada archivo que la app intenta reproducir en window.__plays.
  */
-export async function simularAudio(page) {
+export async function simularAudio(page, { privado = false } = {}) {
   await page.addInitScript(() => {
     window.__plays = [];
     const original = HTMLMediaElement.prototype.play;
@@ -77,7 +93,9 @@ export async function simularAudio(page) {
   });
   await page.route(/\/data\/(mna\/)?pieces\.json$/, async (route) => {
     const response = await route.fetch();
-    const pieces = await response.json();
+    let pieces = await response.json();
+    // privado = como en el sitio real: los datos públicos NO traen guiones, retos, mito ni ficha
+    if (privado) pieces = pieces.map((p) => splitPiece(p).pub);
     for (const p of pieces) {
       if (p.piece_id === FREE.id) {
         p.audio = { es: { corto: { path: `libre/es/${FREE.id}_corto.mp3`, premium: false, seconds: 2 }, largo: { path: `libre/es/${FREE.id}_largo.mp3`, premium: false, seconds: 2 } } };

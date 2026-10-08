@@ -19,3 +19,6 @@ test-results/
 
 # Muestras de voz (se generan a mano, no se guardan en el repositorio)
 muestras-voz/
+
+# Textos de pago (se suben a Cloudflare R2; nunca se publican con el sitio)
+datos-privados/

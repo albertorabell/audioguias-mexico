@@ -28,6 +28,7 @@
 // oculto hasta que se agregue a PUBLISHED_LANGUAGES.
 
 import fs from 'node:fs';
+import { readFullPieces } from './privado-lib.mjs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import {
@@ -375,7 +376,7 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
   };
   const provider = makeProvider(args.proveedor, { env, fetchImpl, retryBaseMs });
 
-  const pieces = readJson(path.join(root, 'public/data/pieces.json'));
+  const pieces = readFullPieces(root);
   const rooms = readJson(path.join(root, 'public/data/rooms.json'));
   const glossary = loadGlossary(path.join(root, GLOSSARY_FILE), args.lang);
   if (!glossary.length) warn('⚠️  No encontré el glosario (glosario/glosario.csv): se traducirá sin lista de nombres propios.');

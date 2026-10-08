@@ -13,6 +13,7 @@ const PIECE_FIELDS = [
   'titulo',
   'frase_gancho',
   'puente_narrativo',
+  'avance',
   'guion_corto',
   'guion_largo',
   'retos_observacion',
@@ -27,6 +28,8 @@ const ROUTE_FIELDS = ['name', 'description'] as const;
 /** ¿Las dos versiones de lectura (corta y larga) de esta pieza existen en ese idioma? */
 export function hasTranslatedScripts(piece: any, lang: SupportedLanguage): boolean {
   if (!piece || lang === 'es') return true;
+  // Sin pase los guiones no están en la pieza: el dato público `idiomas_texto` dice en qué idiomas existen
+  if (Array.isArray(piece.idiomas_texto)) return piece.idiomas_texto.includes(lang);
   return nonEmpty(piece[`guion_corto_${lang}`]) && nonEmpty(piece[`guion_largo_${lang}`]);
 }
 

@@ -26,6 +26,9 @@ export interface NextInfo {
 interface PieceDetailProps {
   piece: Piece;
   hasPass: boolean;
+  /** Estado de los textos de pago: cargando, listos o con error (sin pase no se piden). */
+  textState?: 'none' | 'loading' | 'ok' | 'error';
+  onRetryText?: () => void;
   onOpenPaywall: () => void;
   onBack: () => void;
   onOpenSearch: () => void;
@@ -67,6 +70,8 @@ const fmtClock = (sec: number) => {
 export const PieceDetail: React.FC<PieceDetailProps> = ({
   piece,
   hasPass,
+  textState = 'none',
+  onRetryText,
   onOpenPaywall,
   onBack,
   onOpenSearch,
@@ -96,7 +101,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const titulo = piece.titulo || piece.title || tp.defaultTitle;
   const fraseGancho = piece.frase_gancho || '';
   const puente = piece.puente_narrativo || '';
-  const guionCorto = piece.guion_corto || piece.summary_30s || fraseGancho || strings.player.defaultPieceSummary;
+  // Sin pase la pieza no trae el guion: solo el adelanto público. Con pase, los textos llegan del servidor.
+  const textMissing = !piece.guion_corto && !piece.summary_30s;
+  const guionCorto = piece.guion_corto || piece.summary_30s || piece.avance || fraseGancho || strings.player.defaultPieceSummary;
   const guionLargo = piece.guion_largo || piece.audioguide?.audio_script || guionCorto;
   const imageFilename = piece.image_filename || piece.identification?.hero_image || '';
   const isFree = piece.is_free !== undefined ? piece.is_free : !piece.is_premium;
@@ -163,6 +170,11 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     }
     if (isPlaying) {
       ttsPlayer.pause();
+      return;
+    }
+    // Con pase pero sin texto (cargando o sin internet): solo suena si hay un MP3; la voz del teléfono no debe leer el adelanto
+    if (textMissing && !audio[mode]) {
+      setErrorMessage(textState === 'loading' ? u.piece.textLoading : u.piece.textError);
       return;
     }
     if (isThis && tts.isPaused) {
@@ -347,6 +359,33 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
 
         <section className="px-5 mt-5">
           <p className="font-serif text-read text-ink whitespace-pre-line text-pretty">{mode === 'expres' ? guionCorto : guionLargo}</p>
+          {textMissing && !hasPass && (
+            <div id="texto-con-pase" className="mt-5 rounded-2xl bg-surface border border-line p-4">
+              <p className="flex items-center gap-2 text-ui font-bold text-ink">
+                <Lock className="w-4 h-4 text-oro shrink-0" strokeWidth={2.5} />
+                {u.piece.lockedTitle}
+              </p>
+              <p className="mt-1.5 text-cap text-ink-3">{u.piece.lockedBody}</p>
+              <button type="button" id="btn-unlock-text" onClick={onOpenPaywall} className="btn-primary w-full mt-3.5">
+                {u.piece.unlock}
+              </button>
+            </div>
+          )}
+          {textMissing && hasPass && textState === 'loading' && (
+            <p role="status" className="mt-4 text-cap text-ink-3">
+              {u.piece.textLoading}
+            </p>
+          )}
+          {textMissing && hasPass && textState === 'error' && (
+            <div role="alert" className="mt-4 rounded-2xl bg-raised border border-tezontle/50 p-4">
+              <p className="text-ui text-ink">{u.piece.textError}</p>
+              {onRetryText && (
+                <button type="button" onClick={onRetryText} className="btn-secondary w-full mt-3">
+                  {u.piece.retry}
+                </button>
+              )}
+            </div>
+          )}
           {readLang !== currentLanguage && (
             <p className="mt-3 text-cap text-oro" data-testid="script-lang-note">
               {strings.player.scriptOnlySpanish}

@@ -40,6 +40,14 @@ jobs:
           # Se crea en: Settings > Secrets and variables > Actions > Variables > PAGOS_API_URL
           VITE_PAYMENTS_API_URL: ${{ vars.PAGOS_API_URL }}
 
+      # Los textos de pago (guiones, retos, mito y ficha técnica) NO van en el sitio: se guardan en Cloudflare R2 y el servidor
+      # de cobro solo los entrega con un pase vigente. Si esto falla, no se publica el sitio (así nunca queda una app sin textos).
+      - name: Subir los textos de pago a Cloudflare R2
+        run: node scripts/subir-textos.mjs
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
       - name: Subir artefacto compilado
         uses: actions/upload-pages-artifact@v3
         with:
