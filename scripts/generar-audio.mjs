@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // scripts/generar-audio.mjs
 //
-// Genera los MP3 de las audioguías a partir de los textos de public/data/pieces.json.
+// Genera los MP3 de las audioguías a partir de los textos completos (datos-privados/piezas-completas.json, que crea la sincronización).
 //
 //   node scripts/generar-audio.mjs                       → solo MUESTRA el plan y el costo aproximado (no genera nada)
 //   node scripts/generar-audio.mjs --generar             → genera de verdad (necesita la clave del proveedor)
@@ -29,9 +29,9 @@ import path from 'node:path';
 import { fixVoiceName, MODES, AUDIO_LANGS, planAudio, splitText, mp3Duration, silentMp3, REFERENCE_PRICE_USD_PER_MILLION_CHARS } from './audio-lib.mjs';
 import { GENERATED_DIR, relocateInR2, wranglerR2, r2Key } from './r2-lib.mjs';
 import { loadPronunciations, toSsmlInner, PRONUNCIATION_FILE } from './pronunciacion-lib.mjs';
+import { readFullPieces } from './privado-lib.mjs';
 
 const ROOT = process.cwd();
-const PIECES_FILE = path.join(ROOT, 'public/data/pieces.json');
 const PUBLIC_AUDIO = path.join(ROOT, 'public/audio'); // aquí solo vive el manifiesto; los MP3 están en R2
 const GENERATED_AUDIO = path.join(ROOT, GENERATED_DIR);
 const MANIFEST_FILE = path.join(PUBLIC_AUDIO, 'manifest.json');
@@ -228,8 +228,7 @@ function needCloudflare() {
 // ---------------------------------------------------------------------------
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  if (!fs.existsSync(PIECES_FILE)) throw new Error('No existe public/data/pieces.json. Corre antes: npm run sync-data');
-  const pieces = JSON.parse(fs.readFileSync(PIECES_FILE, 'utf-8'));
+  const pieces = readFullPieces(ROOT);
   const manifest = readManifest();
 
   const plan = planAudio(pieces, manifest, {

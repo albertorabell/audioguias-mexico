@@ -76,6 +76,11 @@ export interface PieceBase {
   foto_licencia?: string;
   foto_url?: string;
   is_free: boolean;
+  /** Datos públicos derivados del texto de pago (el texto completo solo llega con pase): adelanto, cultura, palabras para buscar y idiomas con texto. */
+  avance?: string;
+  cultura?: string;
+  indice?: string;
+  idiomas_texto?: string[];
   audio_file_url?: string;
   /**
    * MP3 generados, por idioma y modo (corto = Express, largo = Inmersión).
@@ -125,7 +130,7 @@ export interface PieceBase {
 
 /** Traducciones opcionales (columnas del Sheets con sufijo de idioma, p. ej. guion_corto_en). */
 export type TranslatedPieceFields = {
-  [K in `${'titulo' | 'frase_gancho' | 'puente_narrativo' | 'guion_corto' | 'guion_largo'}_${'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]?: string;
+  [K in `${'titulo' | 'frase_gancho' | 'puente_narrativo' | 'guion_corto' | 'guion_largo' | 'avance'}_${'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]?: string;
 };
 
 /** Traducciones opcionales de salas. El sufijo _es guarda el original cuando la app muestra otro idioma. */

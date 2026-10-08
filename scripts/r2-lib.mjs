@@ -36,7 +36,7 @@ export function wranglerR2(bucket = process.env.R2_BUCKET || DEFAULT_BUCKET, run
   const wr = (args, stdio = ['ignore', 'ignore', 'pipe']) => run('npx', ['--yes', 'wrangler@4', 'r2', 'object', ...args, '--remote'], { stdio });
   return {
     bucket,
-    put: (key, file) => wr(['put', `${bucket}/${key}`, '--file', file, '--content-type', 'audio/mpeg']),
+    put: (key, file, contentType = 'audio/mpeg') => wr(['put', `${bucket}/${key}`, '--file', file, '--content-type', contentType]),
     get: (key, file) => wr(['get', `${bucket}/${key}`, '--file', file]),
     del: (key) => wr(['delete', `${bucket}/${key}`]),
   };

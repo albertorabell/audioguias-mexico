@@ -1,6 +1,6 @@
 // Pruebas de la app con el cobro ENCENDIDO (servidor de cobro simulado en https://pagos.test).
 import { test, expect } from '@playwright/test';
-import { FREE, PREMIUM, SESSION, TOKEN, aislar, simularCobro, simularAudio, sinVoces, elegirIdioma, abrirPieza } from './ayudas.mjs';
+import { FREE, PREMIUM, SESSION, TOKEN, FRASE_SECRETA, aislar, simularCobro, simularAudio, sinVoces, elegirIdioma, abrirPieza } from './ayudas.mjs';
 
 test.beforeEach(async ({ page }) => {
   await aislar(page);
@@ -295,4 +295,63 @@ test('buscar: lo escrito sigue ahí al regresar de una obra', async ({ page }) =
   await abrirPieza(page, FREE.title);
   await page.goBack();
   await expect(page.locator('#input-search-pieces')).toHaveValue(FREE.title);
+});
+
+// ───────────────────────── Textos de pago ─────────────────────────
+
+test('textos de pago: sin pase la ficha solo muestra el adelanto y el candado, y el texto completo no está en la página', async ({ page }) => {
+  const api = await simularCobro(page);
+  await simularAudio(page, { privado: true });
+  await sinVoces(page);
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await expect(page.locator('#texto-con-pase')).toBeVisible();
+  expect(await page.content()).not.toContain(FRASE_SECRETA);
+  expect(api.calls.some((c) => c.path.startsWith('/texto/'))).toBe(false);
+  // el botón abre la ventana del pase
+  await page.locator('#btn-unlock-text').click();
+  await expect(page.locator('#modal-paywall')).toBeVisible();
+});
+
+test('textos de pago: con pase se piden al servidor con la clave y aparece la explicación completa', async ({ page }) => {
+  const api = await simularCobro(page);
+  await simularAudio(page, { privado: true });
+  await sinVoces(page);
+  await page.goto(`/?pago=ok&session_id=${SESSION}`);
+  await expect(page.getByTestId('payment-notice')).toContainText('Pago confirmado');
+  await abrirPieza(page, FREE.title);
+  await expect(page.locator('#texto-con-pase')).toHaveCount(0);
+  await expect(page.getByText(FRASE_SECRETA, { exact: false })).toHaveCount(0); // en la versión corta aún no está esta frase
+  await page.locator('#btn-mode-full').click();
+  await expect(page.getByText(FRASE_SECRETA, { exact: false })).toBeVisible();
+  const pedido = api.calls.find((c) => c.path === '/texto/es.json');
+  expect(pedido.search).toBe(`?t=${TOKEN}`);
+});
+
+test('textos de pago: si el servidor ya no reconoce la clave (reembolso), el pase se quita y vuelve el candado', async ({ page }) => {
+  const api = await simularCobro(page, { texto: 'denegado' });
+  await simularAudio(page, { privado: true });
+  await page.goto(`/?pago=ok&session_id=${SESSION}`);
+  await expect(page.getByTestId('payment-notice')).toContainText('Pago confirmado');
+  await abrirPieza(page, FREE.title);
+  await expect(page.locator('#texto-con-pase')).toBeVisible();
+  expect(await page.evaluate(() => localStorage.getItem('audioguias_pass_mna'))).toBeNull();
+  expect(api.calls.some((c) => c.path === '/texto/es.json')).toBe(true);
+});
+
+test('textos de pago: sin internet, con pase, se usa la copia guardada en el teléfono', async ({ page }) => {
+  const api = await simularCobro(page);
+  await simularAudio(page, { privado: true });
+  await page.goto(`/?pago=ok&session_id=${SESSION}`);
+  await expect(page.getByTestId('payment-notice')).toContainText('Pago confirmado');
+  await abrirPieza(page, FREE.title);
+  await page.locator('#btn-mode-full').click();
+  await expect(page.getByText(FRASE_SECRETA, { exact: false })).toBeVisible();
+  // se corta el servidor de textos y se vuelve a abrir la app
+  api.texto = 'caido';
+  await page.route('https://pagos.test/texto/**', (route) => route.abort());
+  await page.reload();
+  await abrirPieza(page, FREE.title);
+  await page.locator('#btn-mode-full').click();
+  await expect(page.getByText(FRASE_SECRETA, { exact: false })).toBeVisible();
 });

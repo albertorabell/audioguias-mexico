@@ -366,6 +366,11 @@ export const PL_GROUPS: Record<string, any> = {
       mythReal: 'W rzeczywistości',
       specsTitle: 'Dane techniczne',
       moreInRoom: 'Więcej w tej sali',
+      lockedTitle: 'Pełne objaśnienie jest w karnecie',
+      lockedBody: 'Słuchaj i czytaj historię tego dzieła, wraz z wyzwaniami obserwacji, mitem i danymi technicznymi.',
+      textLoading: 'Ładowanie objaśnienia…',
+      textError: 'Nie udało się załadować objaśnienia. Sprawdź internet i spróbuj ponownie.',
+      retry: 'Spróbuj ponownie',
     },
     routes: {
       title: 'Trasy',

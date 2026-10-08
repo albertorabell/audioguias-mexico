@@ -71,7 +71,8 @@ const read = (dir, f) => JSON.parse(fs.readFileSync(path.join(dir, 'public/data'
 test('traducciones: solo aparecen las que tienen texto', () => {
   const dir = makeProject({ withManifest: false });
   runSync(dir);
-  const pieces = read(dir, 'pieces.json');
+  // Lo que lleva texto de pago está en los datos privados; lo público conserva solo el título y lo demás
+  const pieces = JSON.parse(fs.readFileSync(path.join(dir, 'datos-privados/piezas-completas.json'), 'utf-8'));
   const p0 = pieces.find((p) => p.piece_id === 'p00');
   assert.equal(p0.titulo_en, 'Piece 0');
   assert.equal(p0.guion_corto_en, 'Short 0.');
@@ -159,4 +160,28 @@ test('sin piezas gratis: por defecto ninguna pieza queda libre aunque el Sheets 
   const dir2 = makeProject({ withManifest: false });
   runSync(dir2);
   assert.ok(read(dir2, 'pieces.json').some((p) => p.is_free));
+});
+
+test('textos de pago: los datos públicos no llevan guiones, retos, mito ni ficha; van en datos-privados/ por idioma', () => {
+  const dir = makeProject({ withManifest: false });
+  runSync(dir);
+  const pub = read(dir, 'pieces.json');
+  const prohibido = ['guion_corto', 'guion_largo', 'retos_observacion', 'especificaciones', 'faq_mito'];
+  for (const p of pub) {
+    for (const k of Object.keys(p)) assert.ok(!prohibido.some((f) => k === f || k.startsWith(f + '_')), `${p.piece_id} lleva ${k}`);
+  }
+  // nada del texto privado se cuela en los archivos públicos
+  const crudo = fs.readFileSync(path.join(dir, 'public/data/pieces.json'), 'utf-8') + fs.readFileSync(path.join(dir, 'public/data/mna/pieces.json'), 'utf-8');
+  assert.ok(!crudo.includes('Long 0.') && !crudo.includes('Look left') && !crudo.includes('Basalt'));
+  const p0 = pub.find((p) => p.piece_id === 'p00');
+  assert.ok(p0.avance && p0.titulo && p0.piece_id);
+  assert.deepEqual(p0.idiomas_texto, ['en']);
+  // el archivo privado del español no trae lo del inglés; el del inglés trae lo base y lo suyo
+  const es = JSON.parse(fs.readFileSync(path.join(dir, 'datos-privados/texto/es.json'), 'utf-8'));
+  const en = JSON.parse(fs.readFileSync(path.join(dir, 'datos-privados/texto/en.json'), 'utf-8'));
+  assert.ok(es.pieces.p00.guion_corto && !('guion_corto_en' in es.pieces.p00));
+  assert.equal(en.pieces.p00.guion_corto_en, 'Short 0.');
+  assert.ok(en.pieces.p00.guion_corto);
+  assert.equal(en.lang, 'en');
+  assert.ok(!fs.existsSync(path.join(dir, 'datos-privados/texto/fr.json')));
 });

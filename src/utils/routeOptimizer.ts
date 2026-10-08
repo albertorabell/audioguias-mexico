@@ -200,7 +200,7 @@ export function generateOptimizedRoute(
     const roomPieces = piecesByRoom.get(room.room_id) || [];
     roomPieces.forEach((p) => {
       // Se busca en el texto original en español para que los intereses funcionen en cualquier idioma
-      const pText = fold(`${p.titulo_es || p.titulo} ${p.frase_gancho_es || p.frase_gancho || ''} ${p.guion_corto_es || p.guion_corto || ''}`);
+      const pText = fold(`${p.titulo_es || p.titulo} ${p.frase_gancho_es || p.frase_gancho || ''} ${p.guion_corto_es || p.guion_corto || ''} ${p.indice || ''}`);
       activeKeywords.forEach((kw) => {
         if (pText.includes(kw)) score += 2;
       });

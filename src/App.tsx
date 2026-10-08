@@ -25,6 +25,7 @@ import { useLanguage } from './utils/LanguageContext';
 import { localizeSite, localizeRoute } from './i18n/content';
 import { getRoomLabel } from './utils/roomLabel';
 import { track } from './utils/analytics';
+import { cachedPremiumText, clearPremiumText, loadPremiumText, mergePremiumText, PremiumTextMap } from './utils/premiumText';
 
 /** Con qué se navega dentro de la ficha de una pieza (anterior / siguiente): una sala o un recorrido. */
 interface PieceNav {
@@ -209,7 +210,12 @@ export default function App() {
 
   const sites = useMemo(() => rawSites.map((s) => localizeSite(s, currentLanguage)), [rawSites, currentLanguage]);
   const rooms = useMemo(() => rawRooms.map((r) => localizeRoom(r)), [rawRooms, localizeRoom]);
-  const pieces = useMemo(() => rawPieces.map((p) => localizePiece(p)), [rawPieces, localizePiece]);
+  // Los textos de pago llegan aparte, solo con pase (ver utils/premiumText.ts)
+  const [privateText, setPrivateText] = useState<PremiumTextMap | null>(null);
+  const [textState, setTextState] = useState<'none' | 'loading' | 'ok' | 'error'>('none');
+  const [textReload, setTextReload] = useState(0);
+  const fullPieces = useMemo(() => mergePremiumText(rawPieces, privateText), [rawPieces, privateText]);
+  const pieces = useMemo(() => fullPieces.map((p) => localizePiece(p)), [fullPieces, localizePiece]);
   const manifest = useMemo(() => {
     if (!rawManifest) return null;
     const known = new Set(rawPieces.map((p) => p.piece_id));
@@ -288,6 +294,55 @@ export default function App() {
     setCurrentLicense(selectedSite ? getSiteLicense(selectedSite.id) : null);
   }, [selectedSite, licenseVersion]);
   const hasPass = selectedSite ? hasActivePass(selectedSite.id) : false;
+
+  // Con pase: se piden los textos de pago del idioma (primero lo guardado, para que aparezcan al instante). Sin pase: se borran.
+  const passToken = useMemo(() => (selectedSite ? getSiteLicense(selectedSite.id)?.token : undefined), [selectedSite, licenseVersion]);
+  const siteIdForText = selectedSite?.id;
+  useEffect(() => {
+    if (!siteIdForText) {
+      // Pantalla de inicio: todavía no hay museo elegido. No se borra nada (la copia guardada sirve al abrir el museo).
+      setPrivateText(null);
+      setTextState('none');
+      return;
+    }
+    if (!hasPass) {
+      setPrivateText(null);
+      setTextState('none');
+      void clearPremiumText();
+      return;
+    }
+    if (!passToken) {
+      setTextState('error'); // pase de prueba sin clave del servidor: no hay de dónde traer los textos
+      return;
+    }
+    let alive = true;
+    setTextState('loading');
+    (async () => {
+      const cached = await cachedPremiumText(currentLanguage);
+      if (alive && cached) {
+        setPrivateText(cached);
+        setTextState('ok');
+      }
+      const r = await loadPremiumText(currentLanguage, passToken);
+      if (!alive) return;
+      if (r.status === 'ok') {
+        setPrivateText(r.map);
+        setTextState('ok');
+      } else if (r.status === 'denied') {
+        // El servidor ya no reconoce esta clave (venció o se canceló por un reembolso)
+        revokePass(siteIdForText);
+        setCurrentLicense(null);
+        setPrivateText(null);
+        setTextState('none');
+        setLicenseVersion((v) => v + 1);
+      } else if (!cached) {
+        setTextState('error');
+      }
+    })();
+    return () => {
+      alive = false;
+    };
+  }, [siteIdForText, hasPass, passToken, currentLanguage, textReload]);
 
   // ---------- Derivados ----------
   const piecesByRoom = useMemo(() => {
@@ -655,6 +710,8 @@ export default function App() {
           key="piece"
           piece={currentPiece}
           hasPass={hasPass}
+          textState={textState}
+          onRetryText={() => setTextReload((v) => v + 1)}
           onOpenPaywall={openPaywall}
           onBack={goBack}
           onOpenSearch={() => goTab('teclado')}

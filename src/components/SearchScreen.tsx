@@ -68,7 +68,7 @@ export const SearchScreen: React.FC<SearchScreenProps> = ({
     return pieces.filter((p) => {
       const esp = (p.especificaciones || {}) as Record<string, string>;
       const hay = fold(
-        [p.titulo, (p as any).titulo_es, p.frase_gancho, esp.Cultura, esp.cultura, esp.Culture, roomLine(p)].filter(Boolean).join(' ')
+        [p.titulo, (p as any).titulo_es, p.frase_gancho, esp.Cultura, esp.cultura, esp.Culture, p.cultura, roomLine(p)].filter(Boolean).join(' ')
       );
       return hay.includes(query);
     });
