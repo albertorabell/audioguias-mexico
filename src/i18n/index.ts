@@ -17,6 +17,7 @@ import { liveRoute } from './groups/liveRoute';
 import { wizard } from './groups/wizard';
 import { app } from './groups/app';
 import { paywall } from './groups/paywall';
+import { ui } from './groups/ui';
 
 const groups = {
   common,
@@ -37,6 +38,7 @@ const groups = {
   wizard,
   app,
   paywall,
+  ui,
 };
 
 /** Todos los textos de la interfaz, con la forma definida por el español. */

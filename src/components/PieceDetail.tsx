@@ -1,1015 +1,505 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import {
-  Maximize2,
-  Lock,
-  Sparkles,
-  Play,
-  Square,
-  Volume2,
-  ChevronDown,
-  Layers,
-  Eye,
-  Compass,
-  ChevronRight,
-  Headphones,
-  Zap,
-  Check,
-  BookOpen,
-  AlertCircle,
-  X,
-} from 'lucide-react';
-import { Piece, RouteStop, SpecItem, PieceSpecsObject, PieceData } from '../types';
+import React, { useEffect, useMemo, useState } from 'react';
+import { AlertCircle, Check, ChevronRight, Lock, Maximize2, Search, X, AudioLines, Smartphone, Flag } from 'lucide-react';
+import { Piece, PieceData, SpecItem, PieceSpecsObject } from '../types';
 import { PieceImage } from './PieceImage';
 import { ImageZoomModal } from './ImageZoomModal';
 import { ttsPlayer, TTSState } from '../utils/ttsPlayer';
-import { getAssetUrl, findPiece } from '../utils/urlHelper';
-import { getRoomLabel } from '../utils/roomLabel';
+import { getAssetUrl } from '../utils/urlHelper';
 import { useLanguage } from '../utils/LanguageContext';
 import { scriptLanguage } from '../i18n/content';
 import { resolvePieceAudio } from '../utils/audioSource';
+import { TopBar } from './ui/TopBar';
+import { PassButton } from './ui/HeaderControls';
+import { PieceDock } from './PieceDock';
+
+export interface NextInfo {
+  kind: 'piece' | 'room' | 'finish';
+  eyebrow: string;
+  title: string;
+  detail?: string;
+  imageFilename?: string;
+  pieceId?: string;
+}
 
 interface PieceDetailProps {
   piece: Piece;
   hasPass: boolean;
-  passPriceMxn: number;
   onOpenPaywall: () => void;
-  currentStopIndex?: number;
-  totalStops?: number;
-  roomName?: string;
-  nextStop?: RouteStop | null;
-  onNextStop?: () => void;
-  onPreviousStop?: () => void;
-  onOpenMapModal?: () => void;
-  roomPieces?: PieceData[];
-  allPieces?: PieceData[];
-  onSelectPiece?: (pieceId: string) => void;
-  currentRoom?: any;
-  activeRouteStops?: RouteStop[];
-  onSelectStop?: (stopIndex: number) => void;
-  visitedPieceIds?: Set<string>;
+  onBack: () => void;
+  onOpenSearch: () => void;
+  /** Dónde está la persona: "Sala 06 · Mexica" o el nombre del recorrido. */
+  contextTitle: string;
+  /** "3 de 11" o "Parada 3 de 8". */
+  positionLabel: string;
+  onContextClick?: () => void;
+  onPrev?: () => void;
+  onNext?: () => void;
+  next?: NextInfo | null;
+  /** Otras piezas de la misma sala (se muestran solo dentro de un recorrido). */
+  siblings?: PieceData[];
+  onSelectSibling?: (pieceId: string) => void;
 }
 
+type Mode = 'expres' | 'inmersion';
+const MODE_KEY = 'audioguias_modo';
+const readMode = (): Mode => {
+  try {
+    return localStorage.getItem(MODE_KEY) === 'inmersion' ? 'inmersion' : 'expres';
+  } catch {
+    return 'expres';
+  }
+};
+
+const LABEL_RE = /^\s*(mito|realidad|myth|reality|mythe|réalité|mit|rzeczywistość)\s*:\s*/i;
+const stripLabel = (s: string) => s.replace(LABEL_RE, '');
+
+const fmtClock = (sec: number) => {
+  const s = Math.max(0, Math.round(sec));
+  return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+};
+
+/**
+ * Ficha de una pieza, pensada como la cédula de un museo: foto, título, la explicación (corta o completa,
+ * lo que se lee es lo que se escucha), qué buscar en la vitrina, mito y realidad, ficha técnica y qué sigue.
+ */
 export const PieceDetail: React.FC<PieceDetailProps> = ({
   piece,
   hasPass,
   onOpenPaywall,
-  currentStopIndex,
-  totalStops,
-  roomName,
-  nextStop,
-  onNextStop,
-  onPreviousStop,
-  roomPieces,
-  allPieces = [],
-  onSelectPiece,
-  currentRoom,
-  activeRouteStops = [],
-  onSelectStop,
-  visitedPieceIds = new Set<string>(),
+  onBack,
+  onOpenSearch,
+  contextTitle,
+  positionLabel,
+  onContextClick,
+  onPrev,
+  onNext,
+  next,
+  siblings = [],
+  onSelectSibling,
 }) => {
-  const { strings: t, currentLanguage } = useLanguage();
-  const tp = t.piece;
+  const { strings, currentLanguage } = useLanguage();
+  const tp = strings.piece;
+  const u = strings.ui;
 
-  // 1. Estados de Audio y Modo de Locución
-  const [audioMode, setAudioMode] = useState<'expres' | 'inmersion'>('expres');
-  const [isPlayingTTS, setIsPlayingTTS] = useState<boolean>(false);
-  const [ttsErrorMessage, setTtsErrorMessage] = useState<string | null>(null);
+  const [mode, setModeState] = useState<Mode>(readMode);
+  const [tts, setTts] = useState<TTSState>(ttsPlayer.getState());
+  const [finished, setFinished] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [zoomOpen, setZoomOpen] = useState(false);
+  const [found, setFound] = useState<Record<number, boolean>>({});
 
-  // 2. Modales e interacción
-  const [isZoomOpen, setIsZoomOpen] = useState(false);
-  const [isFullScriptExpanded, setIsFullScriptExpanded] = useState(false);
-  const [completedChallenges, setCompletedChallenges] = useState<Record<number, boolean>>({});
-
-  // Homologación de identificadores (ID vs PIECE_ID)
-  piece.id = piece.piece_id || piece.id;
-  piece.piece_id = piece.piece_id || piece.id;
-
-  const pieceId = piece.piece_id || piece.id || (piece as any).poi_id || '';
-  const roomId = piece.room_id || (piece as any).roomId || piece.location?.room_id || '';
-
-  // Pool de piezas compartido para no volver a descargar pieces.json (800 KB) en cada pieza
-  const catalogPieces = allPieces.length > 0 ? allPieces : (roomPieces || []);
-
-  // Normalización de textos
-  const titulo = piece.titulo || piece.identification?.title || piece.title || tp.defaultTitle;
-  const fraseGancho = piece.frase_gancho || piece.narrative?.one_liner || '';
-  const puenteNarrativo = piece.puente_narrativo || '';
-  const guionCorto =
-    piece.guion_corto ||
-    piece.summary_30s ||
-    piece.narrative?.short_desc ||
-    fraseGancho ||
-    t.player.defaultPieceSummary;
-  const guionLargo =
-    piece.guion_largo ||
-    piece.audioguide?.audio_script ||
-    piece.narrative?.deep_desc ||
-    guionCorto;
-
+  const pieceId = piece.piece_id || piece.id || '';
+  const titulo = piece.titulo || piece.title || tp.defaultTitle;
+  const fraseGancho = piece.frase_gancho || '';
+  const puente = piece.puente_narrativo || '';
+  const guionCorto = piece.guion_corto || piece.summary_30s || fraseGancho || strings.player.defaultPieceSummary;
+  const guionLargo = piece.guion_largo || piece.audioguide?.audio_script || guionCorto;
   const imageFilename = piece.image_filename || piece.identification?.hero_image || '';
   const isFree = piece.is_free !== undefined ? piece.is_free : !piece.is_premium;
-  const isLocked = !isFree && !hasPass;
-
-  // Idioma en que se lee la pieza: el elegido si tiene texto traducido; si no, español.
+  const locked = !isFree && !hasPass;
   const readLang = scriptLanguage(piece, currentLanguage);
 
-  // MP3 disponibles (si no hay, se lee el texto con la voz del teléfono)
-  const expresAudio = useMemo(
-    () => resolvePieceAudio(piece, currentLanguage, 'expres'),
+  const audio = useMemo(
+    () => ({
+      expres: resolvePieceAudio(piece, currentLanguage, 'expres'),
+      inmersion: resolvePieceAudio(piece, currentLanguage, 'inmersion'),
+    }),
     [piece, currentLanguage, hasPass]
   );
-  const inmersionAudio = useMemo(
-    () => resolvePieceAudio(piece, currentLanguage, 'inmersion'),
-    [piece, currentLanguage, hasPass]
-  );
+  const seconds = {
+    expres: audio.expres?.seconds || ttsPlayer.calculateDuration(guionCorto),
+    inmersion: audio.inmersion?.seconds || ttsPlayer.calculateDuration(guionLargo),
+  };
+  const durationLabel = (s: number) => (s < 60 ? u.seconds(s) : u.minutes(Math.max(1, Math.round(s / 60))));
+  const sameText = guionLargo.trim() === guionCorto.trim();
 
-  // Cálculo de duraciones: la del MP3 si se conoce; si no, estimada según el largo del texto
-  const expresDurationSeconds = useMemo(() => {
-    return expresAudio?.seconds || ttsPlayer.calculateDuration(guionCorto);
-  }, [guionCorto, expresAudio]);
-
-  const expresLabel = useMemo(() => {
-    if (expresDurationSeconds < 60) {
-      return `${expresDurationSeconds}s`;
-    }
-    const mins = Math.round(expresDurationSeconds / 60);
-    return `~${mins} min`;
-  }, [expresDurationSeconds]);
-
-  const inmersionDurationSeconds = useMemo(() => {
-    return inmersionAudio?.seconds || ttsPlayer.calculateDuration(guionLargo);
-  }, [guionLargo, inmersionAudio]);
-
-  const inmersionLabel = useMemo(() => {
-    const mins = Math.max(1, Math.round(inmersionDurationSeconds / 60));
-    return `~${mins} min`;
-  }, [inmersionDurationSeconds]);
-
-  // Modo de recorrido activo vs visita libre
-  const isTourMode = currentStopIndex !== undefined && totalStops !== undefined && totalStops > 0;
-
-  // Próximas 2 paradas de la ruta activa
-  const upcomingStops = useMemo(() => {
-    if (!isTourMode || !activeRouteStops || activeRouteStops.length === 0) return [];
-    const nextIdx = (currentStopIndex || 0) + 1;
-    return activeRouteStops.slice(nextIdx, nextIdx + 2);
-  }, [isTourMode, activeRouteStops, currentStopIndex]);
-
-  // Otras piezas en la misma sala excluyendo la actual, ordenando las no visitadas primero
-  const siblingPieces = useMemo(() => {
-    const basePool = roomPieces && roomPieces.length > 0 ? roomPieces : catalogPieces;
-    if (!basePool || basePool.length === 0) return [];
-
-    const targetRoom = (roomId || '').toLowerCase().trim();
-    const targetPiece = (pieceId || '').toLowerCase().trim();
-
-    const filtered = basePool.filter((p) => {
-      const pId = (p.piece_id || p.id || (p as any).poi_id || '').toLowerCase().trim();
-      if (!pId || pId === targetPiece) return false;
-
-      const pRoom = (p.room_id || (p as any).roomId || p.location?.room_id || '').toLowerCase().trim();
-      return pRoom === targetRoom;
-    });
-
-    const enriched = filtered.map((sibling) => {
-      const sId = (sibling.piece_id || sibling.id || (sibling as any).poi_id || '').trim();
-      const catalogMatch = findPiece(catalogPieces, sId);
-      return {
-        ...catalogMatch,
-        ...sibling,
-        image_filename:
-          sibling.image_filename ||
-          catalogMatch?.image_filename ||
-          sibling.identification?.hero_image,
-      };
-    });
-
-    // Ordenar: primero las que NO han sido visitadas, luego por orden_sugerido
-    return enriched.sort((a, b) => {
-      const aId = (a.piece_id || a.id || '').trim();
-      const bId = (b.piece_id || b.id || '').trim();
-      const aVisited = visitedPieceIds.has(aId);
-      const bVisited = visitedPieceIds.has(bId);
-
-      if (aVisited !== bVisited) {
-        return aVisited ? 1 : -1;
-      }
-      return (a.orden_sugerido || 999) - (b.orden_sugerido || 999);
-    });
-  }, [roomPieces, catalogPieces, roomId, pieceId, visitedPieceIds]);
-
-  const roomDisplayName = useMemo(() => {
-    if (currentRoom?.nombre_oficial) {
-      return `${getRoomLabel(currentRoom)} • ${currentRoom.nombre_oficial}`;
-    }
-    if (roomName) return roomName;
-    if (roomId) {
-      const num = roomId.match(/\d+/)?.[0];
-      if (num) return `${t.common.roomWord} ${num.padStart(2, '0')}`;
-    }
-    return tp.thisRoom;
-  }, [currentRoom, roomName, roomId, t]);
-
-  // Suscribirse a cambios en ttsPlayer
+  // Estado del audio de ESTA pieza
   useEffect(() => {
-    const unsubscribe = ttsPlayer.subscribe((playing, state) => {
-      setIsPlayingTTS(playing);
-      if (state.errorMessage) {
-        setTtsErrorMessage(state.errorMessage);
-      }
+    const unsubscribe = ttsPlayer.subscribe((_, state) => {
+      setTts(state);
+      if (state.errorMessage) setErrorMessage(state.errorMessage);
     });
     return () => {
-      ttsPlayer.stop();
       unsubscribe();
+    };
+  }, []);
+
+  // Al cambiar de pieza (o salir) se detiene el audio y se vuelve arriba
+  useEffect(() => {
+    setFinished(false);
+    setErrorMessage(null);
+    setFound({});
+    return () => {
+      ttsPlayer.stop();
     };
   }, [pieceId]);
 
-  // Detener audio al desmontar o cambiar de pieza
-  useEffect(() => {
-    ttsPlayer.stop();
-    setIsPlayingTTS(false);
-    setIsFullScriptExpanded(false);
-    setTtsErrorMessage(null);
-  }, [pieceId]);
+  const isThis = tts.pieceId === pieceId && (tts.isPlaying || tts.isPaused);
+  const isPlaying = isThis && tts.isPlaying;
+  const started = isThis;
+  const timeLabel = started ? `${fmtClock(tts.currentTime)} / ${fmtClock(tts.duration)}` : durationLabel(seconds[mode]);
 
-  // Normalización de Retos de Observación
-  const retosList: string[] = useMemo(() => {
-    if (piece.retos_observacion && piece.retos_observacion.length > 0) {
-      return piece.retos_observacion;
+  const setMode = (m: Mode) => {
+    if (m === mode) return;
+    if (isThis) ttsPlayer.stop();
+    setModeState(m);
+    try {
+      localStorage.setItem(MODE_KEY, m);
+    } catch {
+      /* sin almacenamiento */
     }
-    if (piece.observation_challenges && piece.observation_challenges.length > 0) {
-      return piece.observation_challenges.map((oc) =>
-        oc.titulo ? `${oc.titulo}: ${oc.descripcion}` : oc.descripcion
-      );
+  };
+
+  const togglePlay = () => {
+    if (locked) {
+      onOpenPaywall();
+      return;
     }
+    if (isPlaying) {
+      ttsPlayer.pause();
+      return;
+    }
+    if (isThis && tts.isPaused) {
+      ttsPlayer.resume();
+      return;
+    }
+    setErrorMessage(null);
+    setFinished(false);
+    ttsPlayer.play(mode === 'expres' ? guionCorto : guionLargo, titulo, () => setFinished(true), {
+      roomName: contextTitle,
+      artworkUrl: imageFilename ? getAssetUrl(`images/pieces/${imageFilename}`) : undefined,
+      pieceId,
+      mode,
+      audioUrl: audio[mode]?.url,
+      lang: readLang,
+    });
+  };
+
+  const retos: string[] = useMemo(() => {
+    if (piece.retos_observacion?.length) return piece.retos_observacion.filter(Boolean);
+    if (piece.observation_challenges?.length)
+      return piece.observation_challenges.map((oc) => (oc.titulo ? `${oc.titulo}: ${oc.descripcion}` : oc.descripcion));
     return [];
   }, [piece.retos_observacion, piece.observation_challenges]);
+  const foundCount = Object.values(found).filter(Boolean).length;
 
-  // Normalización de Especificaciones (pastillas)
-  const especificacionesEntries = useMemo<[string, string][]>(() => {
+  const specs = useMemo<[string, string][]>(() => {
     if (piece.especificaciones && typeof piece.especificaciones === 'object') {
-      const entries: [string, string][] = Object.entries(piece.especificaciones)
+      const entries = Object.entries(piece.especificaciones)
         .filter(([k, v]) => k && v !== undefined && v !== null && String(v).trim() !== '')
-        .map(([k, v]) => [k, String(v)]);
-      if (entries.length > 0) return entries;
+        .map(([k, v]) => [k, String(v)] as [string, string]);
+      if (entries.length) return entries;
     }
+    if (Array.isArray(piece.specs)) return (piece.specs as SpecItem[]).filter((s) => s.label && s.value).map((s) => [s.label, s.value]);
     if (piece.specs) {
-      if (Array.isArray(piece.specs)) {
-        return (piece.specs as SpecItem[])
-          .filter((s) => s.label && s.value)
-          .map((s) => [s.label, s.value]);
-      }
-      const sObj = piece.specs as PieceSpecsObject;
+      const o = piece.specs as PieceSpecsObject;
       const res: [string, string][] = [];
-      if (sObj.period || sObj.age) res.push([tp.specLabels.period, sObj.period || sObj.age || '']);
-      if (sObj.culture) res.push([tp.specLabels.culture, sObj.culture]);
-      if (sObj.material) res.push([tp.specLabels.material, sObj.material]);
-      if (sObj.dimensions || sObj.weight)
-        res.push([tp.specLabels.dimensions, sObj.dimensions || sObj.weight || '']);
-      if (sObj.provenance) res.push([tp.specLabels.provenance, sObj.provenance]);
-      return res.filter(([_, v]) => Boolean(v));
+      if (o.culture) res.push([tp.specLabels.culture, o.culture]);
+      if (o.period || o.age) res.push([tp.specLabels.period, o.period || o.age || '']);
+      if (o.material) res.push([tp.specLabels.material, o.material]);
+      if (o.dimensions || o.weight) res.push([tp.specLabels.dimensions, o.dimensions || o.weight || '']);
+      if (o.provenance) res.push([tp.specLabels.provenance, o.provenance]);
+      return res.filter(([, v]) => Boolean(v));
     }
     return [];
   }, [piece.especificaciones, piece.specs, tp]);
 
-  // Normalización de FAQ / Mito
-  const faqMito = useMemo(() => {
-    if (piece.faq_mito && piece.faq_mito.pregunta && piece.faq_mito.respuesta) {
-      return piece.faq_mito;
-    }
-    if (piece.faq && piece.faq.length > 0) {
-      return {
-        pregunta: piece.faq[0].question,
-        respuesta: piece.faq[0].answer,
-      };
-    }
+  const mito = useMemo(() => {
+    if (piece.faq_mito?.pregunta && piece.faq_mito?.respuesta) return piece.faq_mito;
+    if (piece.faq?.length) return { pregunta: piece.faq[0].question, respuesta: piece.faq[0].answer };
     return null;
   }, [piece.faq_mito, piece.faq]);
 
-  // Manejador del botón Play Maestro
-  const handleToggleAudio = () => {
-    if (isLocked) {
-      onOpenPaywall();
-      return;
-    }
-
-    if (isPlayingTTS) {
-      ttsPlayer.stop();
-      setIsPlayingTTS(false);
-    } else {
-      setTtsErrorMessage(null);
-      const scriptToSpeak = audioMode === 'expres' ? guionCorto : guionLargo;
-      const resolved = audioMode === 'expres' ? expresAudio : inmersionAudio;
-      ttsPlayer.play(
-        scriptToSpeak,
-        titulo,
-        () => setIsPlayingTTS(false),
-        {
-          roomName: roomName || piece.location?.room_name || roomId,
-          artworkUrl: imageFilename ? getAssetUrl(`images/pieces/${imageFilename}`) : undefined,
-          pieceId,
-          mode: audioMode,
-          audioUrl: resolved?.url,
-          lang: readLang,
-        }
-      );
-      setIsPlayingTTS(true);
-    }
-  };
-
-  const toggleChallenge = (idx: number) => {
-    if (typeof navigator !== 'undefined' && 'vibrate' in navigator) {
-      try {
-        navigator.vibrate?.(50);
-      } catch {
-        // Ignorar
-      }
-    }
-    setCompletedChallenges((prev) => ({
-      ...prev,
-      [idx]: !prev[idx],
-    }));
-  };
-
-  const completedCount = Object.values(completedChallenges).filter(Boolean).length;
-
-  // Tag superior formateado:
-  // En recorrido: "SALA 06 • MEXICA • PARADA 3 DE 18"
-  // Fuera de recorrido: "SALA 06 • MEXICA • VISITA LIBRE"
-  const roomFormatted = tp.stripRoomPrefix((roomName || piece.location?.room_name || roomId || tp.generalRoom).toUpperCase());
-  const roomNumberMatch = (roomId.match(/\d+/)?.[0] || '01').padStart(2, '0');
-  const tagSuperior = isTourMode
-    ? tp.tagTour(roomNumberMatch, roomFormatted, currentStopIndex! + 1, totalStops!)
-    : tp.tagFree(roomNumberMatch, roomFormatted);
+  const hasAudioFile = !!audio[mode];
+  const otherSiblings = siblings.filter((p) => p.piece_id !== pieceId);
 
   return (
-    <article
-      id="piece-detail-container"
-      className="bg-[#0B0B0E] text-[#F3F4F6] pb-36 transition-colors duration-200 select-none"
-    >
-      {/* ================= AVISO EN PANTALLA SI FALLA LA VOZ TTS ================= */}
-      {ttsErrorMessage && (
-        <div className="sticky top-[56px] z-30 mx-3 my-2 p-3.5 rounded-2xl bg-amber-500/15 border border-amber-500/40 text-amber-200 flex items-start justify-between gap-3 shadow-xl backdrop-blur-md animate-fadeIn">
-          <div className="flex items-start gap-2.5">
-            <AlertCircle className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
-            <p className="text-xs leading-relaxed font-medium">{ttsErrorMessage}</p>
-          </div>
+    <div className="min-h-dvh bg-bg text-ink pb-dock">
+      <TopBar
+        id="museum-top-header"
+        onBack={onBack}
+        eyebrow={positionLabel}
+        title={contextTitle}
+        onTitleClick={onContextClick}
+        right={
+          <>
+            <button type="button" id="btn-nav-quick-search" onClick={onOpenSearch} aria-label={strings.chrome.nav.searchAria} className="btn-icon text-ink-2">
+              <Search className="w-5 h-5" strokeWidth={1.9} />
+            </button>
+            <PassButton hasPass={hasPass} onClick={onOpenPaywall} />
+          </>
+        }
+      />
+
+      {errorMessage && (
+        <div role="alert" className="sticky top-[calc(env(safe-area-inset-top,0px)+3.75rem)] z-20 mx-4 mt-3 p-3.5 rounded-2xl bg-raised border border-tezontle/50 flex items-start gap-3 shadow-xl shadow-black/30 animate-fadeIn">
+          <AlertCircle className="w-5 h-5 text-tezontle shrink-0 mt-0.5" />
+          <p className="flex-1 text-ui leading-snug text-ink">{errorMessage}</p>
           <button
+            type="button"
             onClick={() => {
-              setTtsErrorMessage(null);
+              setErrorMessage(null);
               ttsPlayer.clearErrorMessage();
             }}
-            className="p-1 rounded-lg hover:bg-white/10 text-stone-400 hover:text-white transition"
             aria-label={tp.closeNotice}
+            className="btn-icon -m-2 text-ink-3"
           >
             <X className="w-4 h-4" />
           </button>
         </div>
       )}
 
-      {/* ================= BARRA DE PROGRESO SUPERIOR EN RECORRIDO ================= */}
-      {isTourMode && (
-        <div
-          id="piece-tour-progress-bar"
-          className="sticky top-[56px] z-20 px-4 py-2 bg-[#0B0B0E]/95 backdrop-blur-xl border-b border-white/10 shadow-lg"
-        >
-          <div className="flex items-center justify-between text-xs mb-1.5 max-w-2xl mx-auto">
-            <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-[#F59E0B] animate-pulse" />
-              <span className="font-black text-[#F59E0B] uppercase tracking-wider text-[11px]">
-                {tp.stopOf(currentStopIndex! + 1, totalStops!)}
-              </span>
-            </div>
-            <span className="text-[11px] font-mono font-bold text-stone-300">
-              {tp.percentDone(Math.round(((currentStopIndex! + 1) / totalStops!) * 100))}
-            </span>
-          </div>
-          <div className="w-full max-w-2xl mx-auto h-1.5 rounded-full bg-white/10 overflow-hidden">
-            <div
-              className="h-full bg-gradient-to-r from-amber-500 to-amber-400 transition-all duration-300 rounded-full"
-              style={{
-                width: `${Math.min(100, Math.max(5, ((currentStopIndex! + 1) / totalStops!) * 100))}%`,
-              }}
+      <article id="piece-detail-container">
+        <figure className="relative">
+          <div className="relative w-full aspect-[4/3] max-h-[52dvh] bg-raised overflow-hidden">
+            <PieceImage
+              filename={imageFilename}
+              pieceId={pieceId}
+              alt={titulo}
+              pieceTitle={titulo}
+              onClick={() => setZoomOpen(true)}
+              className="w-full h-full object-cover"
             />
-          </div>
-        </div>
-      )}
-
-      {/* ================= FICHA HERO CINEMATOGRÁFICA ================= */}
-      <section className="relative w-full overflow-hidden bg-black">
-        {/* Imagen en gran formato */}
-        <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] overflow-hidden">
-          <PieceImage
-            filename={imageFilename}
-            imageFilename={imageFilename}
-            pieceId={pieceId}
-            alt={titulo}
-            pieceTitle={titulo}
-            roomName={roomFormatted}
-            onClick={() => setIsZoomOpen(true)}
-            className="w-full h-full object-cover cursor-zoom-in"
-          />
-
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0B0B0E] via-[#0B0B0E]/40 to-transparent pointer-events-none" />
-
-          {/* Botón de Zoom Pantalla Completa */}
-          <button
-            type="button"
-            onClick={() => setIsZoomOpen(true)}
-            className="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-black/60 hover:bg-black/85 text-white backdrop-blur-md flex items-center justify-center transition-all active:scale-90 border border-white/10 shadow-lg cursor-pointer"
-            title={tp.zoomTitle}
-            aria-label={tp.zoomAria}
-          >
-            <Maximize2 className="w-4 h-4 text-[#F3F4F6]" />
-          </button>
-
-          {/* Badge de contenido Premium */}
-          {isLocked && (
-            <div className="absolute top-4 left-4 z-10">
+            <button
+              type="button"
+              onClick={() => setZoomOpen(true)}
+              aria-label={tp.zoomAria}
+              className="absolute right-3 bottom-3 w-11 h-11 rounded-full bg-black/55 text-white backdrop-blur-md flex items-center justify-center cursor-pointer active:scale-95"
+            >
+              <Maximize2 className="w-[1.1rem] h-[1.1rem]" />
+            </button>
+            {locked && (
               <button
                 type="button"
                 onClick={onOpenPaywall}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-[#F59E0B] text-black shadow-lg shadow-[#F59E0B]/20 active:scale-95 transition-transform cursor-pointer"
+                className="absolute left-3 top-3 h-8 px-3 rounded-full bg-oro text-on-oro text-cap font-bold inline-flex items-center gap-1.5 cursor-pointer"
               >
-                <Lock className="w-3.5 h-3.5 fill-current" />
-                <span>{tp.premiumAudio}</span>
+                <Lock className="w-3.5 h-3.5" strokeWidth={2.5} />
+                {u.piece.paidAudio}
               </button>
-            </div>
-          )}
-        </div>
-
-        {/* Debajo de la imagen: Tag superior + Título + Síntesis */}
-        <div className="px-5 pt-1 pb-4 relative z-10 -mt-10 sm:-mt-14">
-          <div className="tracking-widest text-[11px] sm:text-xs text-[#F59E0B] font-semibold uppercase mb-1.5 drop-shadow-sm flex items-center gap-2">
-            <span>{tagSuperior}</span>
-          </div>
-
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-white leading-tight">
-            {titulo}
-          </h1>
-
-          {/* Guion corto / Síntesis esencial siempre visible */}
-          <div className="mt-2.5 space-y-1.5">
-            {fraseGancho && fraseGancho !== guionCorto && (
-              <p className="text-xs sm:text-sm font-serif italic text-amber-400/90 leading-snug">
-                «{fraseGancho}»
-              </p>
-            )}
-            <p className="text-sm sm:text-base text-stone-200 leading-relaxed font-normal">
-              {guionCorto}
-            </p>
-            {readLang !== currentLanguage && (
-              <p className="text-[11px] text-amber-300/90 leading-snug" data-testid="script-lang-note">
-                {t.player.scriptOnlySpanish}
-              </p>
-            )}
-            {piece.foto_autor && (
-              <p className="text-[10px] text-stone-500 leading-snug">
-                {tp.photoBy}{' '}
-                {piece.foto_url && /^https?:\/\//i.test(piece.foto_url) ? (
-                  <a href={piece.foto_url} target="_blank" rel="noopener noreferrer" className="underline hover:text-stone-300">
-                    {piece.foto_autor}
-                  </a>
-                ) : (
-                  piece.foto_autor
-                )}
-                {piece.foto_licencia ? ` · ${piece.foto_licencia}` : ''}
-              </p>
             )}
           </div>
-
-          {/* Acordeón de Explicación Completa SIN límite de altura (no se corta texto largo) */}
-          {guionLargo && (
-            <div className="mt-3.5">
-              <button
-                type="button"
-                id="btn-accordion-guion-largo"
-                onClick={() => setIsFullScriptExpanded((prev) => !prev)}
-                className="inline-flex items-center gap-2 py-2 px-3.5 rounded-xl bg-white/5 hover:bg-white/10 active:bg-white/15 border border-white/10 hover:border-amber-500/40 text-amber-400 hover:text-amber-300 text-xs sm:text-sm font-bold transition-all duration-200 cursor-pointer shadow-sm group select-none"
-                aria-expanded={isFullScriptExpanded}
-              >
-                <span>📖</span>
-                <span>
-                  {isFullScriptExpanded ? tp.hideFull : tp.readFull}
-                </span>
-                <ChevronDown
-                  className={`w-4 h-4 text-amber-400 transition-transform duration-300 ${
-                    isFullScriptExpanded ? 'rotate-180 text-amber-300' : 'group-hover:translate-y-0.5'
-                  }`}
-                />
-              </button>
-
-              {/* Contenedor desplegado sin max-h recortado */}
-              {isFullScriptExpanded && (
-                <div
-                  id="accordion-explicacion-larga"
-                  className="mt-3 pt-3 border-t border-white/10 animate-fadeIn"
-                >
-                  <div className="p-4 sm:p-5 rounded-2xl bg-[#141419]/95 border border-white/10 space-y-3 shadow-inner">
-                    <div className="flex items-center justify-between text-xs text-amber-400 font-bold uppercase tracking-wider">
-                      <div className="flex items-center gap-1.5">
-                        <BookOpen className="w-3.5 h-3.5" />
-                        <span>{tp.fullTitle}</span>
-                      </div>
-                      <span className="text-[10px] text-stone-400 font-mono font-normal">
-                        {t.common.editorialBadge}
-                      </span>
-                    </div>
-                    <p className="font-serif text-sm sm:text-base leading-relaxed text-stone-200 text-justify first-letter:text-4xl first-letter:font-bold first-letter:text-[#F59E0B] first-letter:mr-2.5 first-letter:float-left whitespace-pre-line">
-                      {guionLargo}
-                    </p>
-                    <div className="pt-2 text-[11px] text-[#6B7280] flex items-center justify-between border-t border-white/5">
-                      <span>{t.common.museumName}</span>
-                      <button
-                        type="button"
-                        onClick={() => setIsFullScriptExpanded(false)}
-                        className="text-amber-400/80 hover:text-amber-300 underline cursor-pointer text-xs"
-                      >
-                        {tp.closeReading}
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              )}
-            </div>
-          )}
-
-          {/* Fila de metadatos tipo pastillas de cristal */}
-          {especificacionesEntries.length > 0 && (
-            <div className="flex flex-wrap gap-2 mt-4">
-              {especificacionesEntries.slice(0, 4).map(([clave, valor]) => (
-                <div
-                  key={clave}
-                  className="backdrop-blur-md bg-white/5 border border-white/10 text-xs px-3 py-1.5 rounded-full text-[#F3F4F6] flex items-center gap-1.5 shadow-sm"
-                >
-                  <span className="text-[10px] uppercase font-bold text-[#6B7280]">{clave}:</span>
-                  <span className="font-semibold text-stone-200">{valor}</span>
-                </div>
-              ))}
-            </div>
-          )}
-
-          {/* Botón Maestro Central */}
-          <div className="mt-5">
-            <button
-              id="btn-master-play-piece"
-              type="button"
-              onClick={handleToggleAudio}
-              className={`w-full py-4 px-6 rounded-2xl font-bold text-sm sm:text-base flex items-center justify-center gap-3 transition-all active:scale-[0.98] shadow-xl cursor-pointer ${
-                isPlayingTTS
-                  ? 'bg-red-500/20 border border-red-500/50 text-red-300 ring-2 ring-red-500/30'
-                  : 'bg-[#F59E0B] hover:bg-amber-400 text-black shadow-[#F59E0B]/25'
-              }`}
-            >
-              {isPlayingTTS ? (
-                <>
-                  <Square className="w-5 h-5 fill-current animate-pulse text-red-400" />
-                  <span>{tp.stopNarration}</span>
-                </>
+          {piece.foto_autor && (
+            <figcaption className="px-5 pt-1.5 text-right text-[12px] text-ink-3">
+              {tp.photoBy}{' '}
+              {piece.foto_url && /^https?:\/\//i.test(piece.foto_url) ? (
+                <a href={piece.foto_url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">
+                  {piece.foto_autor}
+                </a>
               ) : (
-                <>
-                  <Play className="w-5 h-5 fill-current ml-0.5" />
-                  <span>
-                    {isLocked
-                      ? tp.unlockPremium
-                      : audioMode === 'expres'
-                      ? tp.listenExpress(expresLabel)
-                      : tp.listenImmersion(inmersionLabel)}
-                  </span>
-                </>
+                piece.foto_autor
               )}
-            </button>
-          </div>
-        </div>
-      </section>
+              {piece.foto_licencia ? ` · ${piece.foto_licencia}` : ''}
+            </figcaption>
+          )}
+        </figure>
 
-      {/* ================= SELECTOR DE MODALIDAD DE AUDIO CON DURACIONES REALES ================= */}
-      <section className="px-4 py-2">
-        <div className="p-3.5 rounded-2xl bg-[#141419] border border-white/10">
-          <div className="flex items-center justify-between mb-3 text-xs">
-            <span className="text-[10px] font-bold uppercase tracking-wider text-[#6B7280]">
-              {tp.durationTitle}
-            </span>
-            <div className="flex items-center gap-1.5 text-[11px] text-[#9CA3AF] font-medium">
-              <Volume2 className="w-3.5 h-3.5 text-[#F59E0B]" />
-              <span>{(audioMode === 'expres' ? expresAudio : inmersionAudio) ? tp.realAudio : tp.voiceIn(t.common.languageNames[readLang])}</span>
-            </div>
-          </div>
+        <header className="px-5 pt-5">
+          <h1 className="font-serif text-[2.125rem] leading-[1.06] font-medium tracking-[-0.02em] text-balance">{titulo}</h1>
+          {fraseGancho && fraseGancho !== guionCorto && (
+            <p className="mt-3 font-serif italic text-[1.1875rem] leading-snug text-ink-2 text-pretty">{fraseGancho}</p>
+          )}
+        </header>
 
-          <div className="grid grid-cols-2 p-1 rounded-xl bg-[#0B0B0E] border border-white/10">
-            <button
-              type="button"
-              onClick={() => {
-                if (isPlayingTTS) ttsPlayer.stop();
-                setAudioMode('expres');
-              }}
-              className={`py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
-                audioMode === 'expres'
-                  ? 'bg-[#F59E0B] text-black shadow-md'
-                  : 'text-[#9CA3AF] hover:text-[#F3F4F6]'
-              }`}
-            >
-              <Zap className="w-3.5 h-3.5" />
-              <span>{tp.quickVisit(expresLabel)}</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
-                if (isPlayingTTS) ttsPlayer.stop();
-                setAudioMode('inmersion');
-              }}
-              className={`py-2 px-3 rounded-lg text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
-                audioMode === 'inmersion'
-                  ? 'bg-[#F59E0B] text-black shadow-md'
-                  : 'text-[#9CA3AF] hover:text-[#F3F4F6]'
-              }`}
-            >
-              <Headphones className="w-3.5 h-3.5" />
-              <span>{tp.immersive(inmersionLabel)}</span>
-            </button>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= SIGUIENTE EN TU RUTA (PRÓXIMAS 2 PARADAS) ================= */}
-      {isTourMode && upcomingStops.length > 0 && (
-        <section id="next-in-route-section" className="px-4 py-2">
-          <div className="p-4 rounded-2xl bg-[#141419] border border-amber-500/25 shadow-lg space-y-3">
-            <div className="flex items-center justify-between text-xs">
-              <span className="font-extrabold uppercase tracking-wider text-[11px] text-[#F59E0B] flex items-center gap-1.5">
-                <Compass className="w-3.5 h-3.5" />
-                <span>{tp.nextInRoute}</span>
-              </span>
-              <span className="text-[10px] text-stone-400">
-                {upcomingStops.length === 1 ? tp.lastStopOfTour : tp.nextTwoStops}
-              </span>
-            </div>
-
-            <div className="space-y-2">
-              {upcomingStops.map((stop, idx) => {
-                const targetIdx = (currentStopIndex || 0) + 1 + idx;
+        {/* Versión: lo que se lee es lo que se escucha */}
+        <section className="px-5 mt-6" aria-label={u.piece.versionAria}>
+          {!sameText && (
+            <div role="radiogroup" aria-label={u.piece.versionAria} className="grid grid-cols-2 p-1 rounded-2xl bg-surface border border-line">
+              {(['expres', 'inmersion'] as Mode[]).map((m) => {
+                const on = mode === m;
                 return (
-                  <div
-                    key={stop.piece_id || stop.id || idx}
-                    onClick={() => {
-                      if (onSelectStop) onSelectStop(targetIdx);
-                    }}
-                    role="button"
-                    tabIndex={0}
-                    className="p-2.5 rounded-xl bg-[#0B0B0E] border border-white/5 hover:border-amber-500/40 flex items-center gap-3 transition cursor-pointer group active:scale-[0.99]"
+                  <button
+                    key={m}
+                    type="button"
+                    role="radio"
+                    aria-checked={on}
+                    id={m === 'expres' ? 'btn-mode-short' : 'btn-mode-full'}
+                    onClick={() => setMode(m)}
+                    className={`min-h-12 rounded-xl px-3 cursor-pointer transition-colors ${on ? 'bg-raised text-ink shadow-sm' : 'text-ink-3'}`}
                   >
-                    <div className="w-12 h-12 rounded-xl overflow-hidden shrink-0 bg-stone-900 border border-white/10 relative">
-                      <PieceImage
-                        filename={stop.file || stop.thumbnail}
-                        imageFilename={stop.file || stop.thumbnail}
-                        pieceId={stop.piece_id || stop.id}
-                        pieceTitle={stop.title}
-                        alt={stop.title}
-                        className="w-full h-full object-cover"
-                      />
-                      <span className="absolute bottom-0.5 right-0.5 px-1 py-0.2 rounded bg-black/85 text-[8px] font-mono font-bold text-amber-400 border border-white/10">
-                        +{idx + 1}
-                      </span>
-                    </div>
-
-                    <div className="min-w-0 flex-1">
-                      <p className="text-xs font-bold text-white truncate group-hover:text-amber-400 transition-colors">
-                        {stop.title}
-                      </p>
-                      <p className="text-[10px] text-stone-400 truncate mt-0.5">
-                        {stop.room_zone || tp.nextRoomFallback}
-                      </p>
-                    </div>
-
-                    <div className="text-stone-400 group-hover:text-amber-400 transition shrink-0 flex items-center gap-1 text-[10px] font-bold">
-                      <span className="hidden sm:inline">{tp.goToStop}</span>
-                      <ChevronRight className="w-4 h-4" />
-                    </div>
-                  </div>
+                    <span className="block text-ui font-bold leading-tight">{m === 'expres' ? u.piece.short : u.piece.full}</span>
+                    <span className="block text-[12px] leading-tight mt-0.5 tabular-nums">{durationLabel(seconds[m])}</span>
+                  </button>
                 );
               })}
             </div>
-          </div>
+          )}
+          <p className="mt-2.5 text-cap text-ink-3 flex items-center gap-1.5">
+            {hasAudioFile ? <AudioLines className="w-4 h-4 text-jade" /> : <Smartphone className="w-4 h-4" />}
+            {hasAudioFile ? tp.realAudio : tp.voiceIn(strings.common.languageNames[readLang])}
+          </p>
         </section>
-      )}
 
-      {/* ================= PUENTE NARRATIVO ================= */}
-      {puenteNarrativo && (
-        <section className="px-4 py-2">
-          <div className="p-4 rounded-2xl bg-[#141419] border border-amber-500/20 text-[#F3F4F6]">
-            <div className="flex items-center gap-2 mb-1.5 text-[#F59E0B]">
-              <Sparkles className="w-4 h-4" />
-              <span className="text-[10px] font-bold uppercase tracking-widest">
-                {tp.narrativeThread}
+        <section className="px-5 mt-5">
+          <p className="font-serif text-read text-ink whitespace-pre-line text-pretty">{mode === 'expres' ? guionCorto : guionLargo}</p>
+          {readLang !== currentLanguage && (
+            <p className="mt-3 text-cap text-oro" data-testid="script-lang-note">
+              {strings.player.scriptOnlySpanish}
+            </p>
+          )}
+          {puente && (
+            <p className="mt-6 pl-4 border-l-2 border-jade/60 font-serif italic text-[1.0625rem] leading-relaxed text-ink-2">{puente}</p>
+          )}
+        </section>
+
+        {retos.length > 0 && (
+          <section id="retos-observacion-card" className="px-5 mt-12" aria-labelledby="retos-title">
+            <div className="flex items-baseline justify-between gap-3">
+              <h2 id="retos-title" className="font-serif text-h3 font-medium">
+                {u.piece.lookTitle}
+              </h2>
+              <span className={`text-cap font-semibold tabular-nums ${foundCount === retos.length ? 'text-jade' : 'text-ink-3'}`}>
+                {u.piece.foundOf(foundCount, retos.length)}
               </span>
             </div>
-            <p className="text-xs sm:text-sm font-serif italic text-stone-200 leading-relaxed">
-              «{puenteNarrativo}»
-            </p>
-          </div>
-        </section>
-      )}
-
-      {/* ================= MITO VS REALIDAD ================= */}
-      {faqMito && (
-        <section className="px-4 py-2">
-          <div
-            id="faq-mito-block"
-            className="p-5 rounded-2xl bg-[#141419] border border-[#DC2626]/40 shadow-lg transition-all"
-          >
-            <div className="flex items-center gap-2 mb-2.5">
-              <span className="text-xl">💡</span>
-              <h3 className="text-xs sm:text-sm font-extrabold tracking-wider uppercase text-[#F59E0B]">
-                {tp.mythTitle}
-              </h3>
-            </div>
-
-            <p className="text-sm sm:text-base font-bold text-white leading-snug">
-              {faqMito.pregunta}
-            </p>
-
-            <div className="mt-3 pt-3 border-t border-white/10">
-              <span className="text-[10px] font-black uppercase tracking-wider text-[#DC2626] block mb-1">
-                {tp.realityLabel}
-              </span>
-              <p className="text-xs sm:text-sm leading-relaxed text-[#9CA3AF] font-normal">
-                {faqMito.respuesta}
-              </p>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* ================= RETOS DE OBSERVACIÓN ================= */}
-      {retosList.length > 0 && (
-        <section className="px-4 py-2">
-          <div
-            id="retos-observacion-card"
-            className="p-5 rounded-2xl bg-[#141419] border border-white/10 shadow-lg"
-          >
-            <div className="flex items-center justify-between mb-2">
-              <div className="flex items-center gap-2 text-[#F3F4F6]">
-                <Eye className="w-4 h-4 text-[#F59E0B]" />
-                <h3 className="text-xs font-bold tracking-wider uppercase">
-                  {tp.challengesTitle}
-                </h3>
-              </div>
-              <span
-                className={`text-[10px] font-mono font-bold px-2.5 py-0.5 rounded-full border transition-all ${
-                  completedCount === retosList.length
-                    ? 'bg-[#10B981]/20 border-[#10B981]/50 text-[#10B981]'
-                    : 'bg-[#F59E0B]/10 border-[#F59E0B]/30 text-[#F59E0B]'
-                }`}
-              >
-                {tp.foundCount(completedCount, retosList.length)}
-              </span>
-            </div>
-
-            <p className="text-xs text-[#9CA3AF] mb-3">
-              {tp.challengesHint}
-            </p>
-
-            <div className="space-y-2">
-              {retosList.map((reto, idx) => {
-                const isFound = !!completedChallenges[idx];
+            <p className="mt-1 text-cap text-ink-3">{u.piece.lookHint}</p>
+            <ul className="mt-3 space-y-2">
+              {retos.map((reto, i) => {
+                const on = !!found[i];
                 return (
-                  <button
-                    key={idx}
-                    type="button"
-                    onClick={() => toggleChallenge(idx)}
-                    role="checkbox"
-                    aria-checked={isFound}
-                    className={`w-full text-left p-3 rounded-xl border transition-all duration-200 flex items-start gap-3 select-none active:scale-[0.98] cursor-pointer ${
-                      isFound
-                        ? 'bg-[#10B981]/15 border-[#10B981]/60 text-white shadow-sm'
-                        : 'bg-[#0B0B0E] border-white/10 hover:border-white/20 text-[#F3F4F6]'
-                    }`}
-                  >
-                    <div
-                      className={`w-5 h-5 rounded-lg flex items-center justify-center shrink-0 mt-0.5 font-bold transition-all duration-200 ${
-                        isFound
-                          ? 'bg-[#10B981] text-black shadow-[0_0_10px_#10B981] scale-105'
-                          : 'border-2 border-stone-600 bg-stone-900 text-transparent'
+                  <li key={i}>
+                    <button
+                      type="button"
+                      role="checkbox"
+                      aria-checked={on}
+                      onClick={() => {
+                        try {
+                          navigator.vibrate?.(30);
+                        } catch {
+                          /* sin vibración */
+                        }
+                        setFound((f) => ({ ...f, [i]: !f[i] }));
+                      }}
+                      className={`w-full text-left flex items-start gap-3 p-3.5 rounded-2xl border cursor-pointer transition-colors ${
+                        on ? 'bg-jade/10 border-jade/40' : 'bg-surface border-line active:bg-raised'
                       }`}
                     >
-                      {isFound && <Check className="w-3.5 h-3.5 stroke-[3px]" />}
-                    </div>
-
-                    <div className="flex-1 min-w-0">
                       <span
-                        className={`text-xs leading-relaxed block ${
-                          isFound ? 'line-through text-stone-300 font-medium' : 'font-semibold'
+                        className={`mt-0.5 w-6 h-6 rounded-lg shrink-0 flex items-center justify-center transition-colors ${
+                          on ? 'bg-jade text-on-jade' : 'border-2 border-line-strong'
                         }`}
                       >
-                        {reto}
+                        {on && <Check className="w-4 h-4" strokeWidth={3} />}
                       </span>
-                      <span className="text-[10px] text-[#6B7280] block mt-0.5">
-                        {isFound ? tp.located : tp.tapToMark}
-                      </span>
-                    </div>
-                  </button>
+                      <span className={`text-[1rem] leading-snug ${on ? 'text-ink-2' : 'text-ink'}`}>{reto}</span>
+                    </button>
+                  </li>
                 );
               })}
-            </div>
+            </ul>
+          </section>
+        )}
 
-            {completedCount === retosList.length && (
-              <div className="mt-3.5 p-3 rounded-xl bg-[#10B981]/15 border border-[#10B981]/40 text-[#10B981] text-xs font-semibold flex items-center gap-2 animate-fadeIn">
-                <span>🌟</span>
-                <span>{tp.allFound}</span>
+        {mito && (
+          <section id="faq-mito-block" className="px-5 mt-12" aria-labelledby="mito-title">
+            <h2 id="mito-title" className="font-serif text-h3 font-medium">
+              {u.piece.mythTitle}
+            </h2>
+            <div className="mt-4 rounded-2xl bg-surface border border-line overflow-hidden">
+              <div className="p-4">
+                <p className="text-cap font-bold text-tezontle">{u.piece.mythSaid}</p>
+                <p className="mt-1 text-[1.0625rem] leading-snug text-ink">{stripLabel(mito.pregunta)}</p>
               </div>
-            )}
-          </div>
-        </section>
-      )}
-
-      {/* ================= ESPECIFICACIONES TÉCNICAS COMPLEMENTARIAS ================= */}
-      {especificacionesEntries.length > 4 && (
-        <section className="px-4 py-2">
-          <div className="p-4 rounded-2xl bg-[#141419] border border-white/10">
-            <div className="flex items-center gap-2 mb-3">
-              <Layers className="w-4 h-4 text-[#F59E0B]" />
-              <h3 className="text-xs font-bold tracking-wider uppercase text-white">
-                {tp.specsTitle}
-              </h3>
+              <div className="p-4 border-t border-line">
+                <p className="text-cap font-bold text-jade">{u.piece.mythReal}</p>
+                <p className="mt-1 text-[1rem] leading-relaxed text-ink-2">{stripLabel(mito.respuesta)}</p>
+              </div>
             </div>
-            <div className="grid grid-cols-2 gap-2">
-              {especificacionesEntries.slice(4).map(([clave, valor]) => (
-                <div key={clave} className="p-2.5 rounded-xl bg-[#0B0B0E] border border-white/5 text-xs">
-                  <span className="text-[10px] uppercase font-bold text-[#6B7280] block truncate">
-                    {clave}
-                  </span>
-                  <span className="font-semibold text-stone-200 mt-0.5 block truncate">
-                    {valor}
-                  </span>
+          </section>
+        )}
+
+        {specs.length > 0 && (
+          <section className="px-5 mt-12" aria-labelledby="ficha-title">
+            <h2 id="ficha-title" className="font-serif text-h3 font-medium">
+              {u.piece.specsTitle}
+            </h2>
+            <dl className="mt-3 border-t border-line">
+              {specs.map(([k, v]) => (
+                <div key={k} className="grid grid-cols-[7.5rem_1fr] gap-3 py-3 border-b border-line">
+                  <dt className="text-cap text-ink-3 pt-0.5">{k}</dt>
+                  <dd className="text-ui text-ink">{v}</dd>
                 </div>
               ))}
-            </div>
-          </div>
-        </section>
-      )}
+            </dl>
+          </section>
+        )}
 
-      {/* ================= CONTROLES DE NAVEGACIÓN EN RECORRIDO ================= */}
-      {isTourMode && (
-        <section id="tour-navigation-controls" className="px-4 pt-4">
-          <div className="p-4 rounded-3xl bg-[#141419] border border-white/10 shadow-xl space-y-3">
-            <div className="flex items-center justify-between text-xs text-[#9CA3AF]">
-              <span className="font-bold uppercase tracking-wider text-[10px] text-[#F59E0B] flex items-center gap-1.5">
-                <Compass className="w-3.5 h-3.5" />
-                <span>{tp.tourNavTitle}</span>
+        {next && onNext && (
+          <section className="px-5 mt-12" aria-label={u.piece.nextAria}>
+            <button
+              type="button"
+              id="btn-next-card"
+              onClick={onNext}
+              className={`w-full text-left rounded-2xl p-3 pr-4 flex items-center gap-3.5 cursor-pointer active:scale-[0.99] transition-transform ${
+                finished ? 'bg-jade/15 border border-jade/50' : 'bg-surface border border-line'
+              }`}
+            >
+              <span className="w-[4.5rem] h-[4.5rem] rounded-xl overflow-hidden bg-raised shrink-0 flex items-center justify-center">
+                {next.kind === 'finish' ? (
+                  <Flag className="w-7 h-7 text-jade" />
+                ) : (
+                  <PieceImage filename={next.imageFilename} pieceId={next.pieceId} alt="" className="w-full h-full object-cover" />
+                )}
               </span>
-              <span className="font-mono text-[10px] font-bold text-white px-2 py-0.5 rounded-full bg-white/5 border border-white/10">
-                {tp.stopOf(currentStopIndex! + 1, totalStops!)}
+              <span className="min-w-0 flex-1">
+                <span className="block text-cap font-semibold text-jade">{next.eyebrow}</span>
+                <span className="block text-[1.0625rem] font-bold leading-snug text-ink">{next.title}</span>
+                {next.detail && <span className="block text-cap text-ink-3 truncate mt-0.5">{next.detail}</span>}
               </span>
-            </div>
+              <ChevronRight className="w-5 h-5 text-jade shrink-0" />
+            </button>
+          </section>
+        )}
 
-            <div className="grid grid-cols-2 gap-3">
-              <button
-                id="btn-piece-prev-stop"
-                type="button"
-                onClick={onPreviousStop}
-                disabled={currentStopIndex! <= 0}
-                className={`py-3.5 px-4 rounded-2xl text-xs sm:text-sm font-bold flex items-center justify-center gap-2 border transition-all active:scale-95 ${
-                  currentStopIndex! <= 0
-                    ? 'opacity-30 border-white/5 bg-transparent text-[#6B7280] cursor-not-allowed'
-                    : 'border-white/10 bg-[#0B0B0E] hover:bg-white/5 text-[#F3F4F6] cursor-pointer'
-                }`}
-              >
-                <span>⬅</span>
-                <span>{tp.previous}</span>
-              </button>
-
-              {currentStopIndex! >= totalStops! - 1 ? (
+        {otherSiblings.length > 0 && onSelectSibling && (
+          <section className="mt-12" aria-labelledby="siblings-title">
+            <h2 id="siblings-title" className="px-5 font-serif text-h3 font-medium">
+              {u.piece.moreInRoom}
+            </h2>
+            <div className="mt-3 flex gap-3 overflow-x-auto snap-x scrollbar-none px-5 pb-1">
+              {otherSiblings.map((p) => (
                 <button
-                  id="btn-piece-finish-stop"
+                  key={p.piece_id}
                   type="button"
-                  onClick={onNextStop}
-                  className="py-3.5 px-4 rounded-2xl text-xs sm:text-sm font-black bg-emerald-500 hover:bg-emerald-400 text-black flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/25 active:scale-95 transition-all cursor-pointer"
+                  onClick={() => onSelectSibling(p.piece_id)}
+                  className="snap-start shrink-0 w-36 text-left cursor-pointer active:scale-[0.98] transition-transform"
                 >
-                  <span>🏁</span>
-                  <span>{tp.finishTour}</span>
+                  <span className="block w-36 h-28 rounded-xl overflow-hidden bg-raised">
+                    <PieceImage filename={p.image_filename} pieceId={p.piece_id} alt="" className="w-full h-full object-cover" />
+                  </span>
+                  <span className="block mt-2 text-ui font-semibold leading-snug line-clamp-2">{p.titulo}</span>
                 </button>
-              ) : (
-                <button
-                  id="btn-piece-next-stop"
-                  type="button"
-                  onClick={onNextStop}
-                  className="py-3.5 px-4 rounded-2xl text-xs sm:text-sm font-black bg-amber-500 hover:bg-amber-400 text-black flex items-center justify-center gap-2 shadow-lg shadow-amber-500/25 active:scale-95 transition-all cursor-pointer"
-                >
-                  <span>{tp.nextStop}</span>
-                  <span>➔</span>
-                </button>
-              )}
+              ))}
             </div>
+          </section>
+        )}
+      </article>
 
-            {nextStop && currentStopIndex! < totalStops! - 1 && (
-              <p className="text-[11px] text-[#9CA3AF] text-center pt-1 truncate">
-                {tp.nextCase} <span className="text-white font-medium">{nextStop.title}</span> ({nextStop.room_zone || tp.nextRoomFallback})
-              </p>
-            )}
-          </div>
-        </section>
-      )}
+      <PieceDock
+        isPlaying={isPlaying}
+        progress={isThis ? tts.progress : 0}
+        timeLabel={timeLabel}
+        started={started}
+        locked={locked}
+        onTogglePlay={togglePlay}
+        onPrev={onPrev}
+        onNext={onNext}
+        prevDisabled={!onPrev}
+        nextIsFinish={next?.kind === 'finish'}
+        nextHighlighted={finished}
+        prevLabel={u.piece.prev}
+        nextLabel={next?.kind === 'finish' ? u.piece.finish : u.piece.next}
+      />
 
-      {/* ================= OTRAS PIEZAS EN ESTA SALA (CARRUSEL HORIZONTAL) ================= */}
-      {siblingPieces.length > 0 && (
-        <section className="px-4 py-5 border-t border-white/10 mt-6 bg-[#0E0E12]/90 rounded-3xl mx-2 border">
-          <div className="flex items-center justify-between mb-3 px-1">
-            <div className="flex items-center gap-2">
-              <span className="text-base">🏛️</span>
-              <div>
-                <h3 className="text-xs font-black uppercase tracking-wider text-white">
-                  {tp.otherPieces(roomDisplayName)}
-                </h3>
-                <p className="text-[11px] text-[#9CA3AF]">
-                  {tp.jumpHint}
-                </p>
-              </div>
-            </div>
-            <span className="text-[10px] font-mono text-[#F59E0B] px-2 py-0.5 rounded-full bg-[#F59E0B]/10 border border-[#F59E0B]/20 shrink-0">
-              {tp.worksCount(siblingPieces.length)}
-            </span>
-          </div>
-
-          <div className="flex gap-3 overflow-x-auto pb-2 pt-1 scrollbar-none snap-x snap-mandatory -mx-2 px-2">
-            {siblingPieces.map((sibling) => {
-              const sId = sibling.piece_id || sibling.id || (sibling as any).poi_id || '';
-              const sTitle = sibling.titulo || sibling.identification?.title || sibling.title || tp.pieceWord;
-              const sSub =
-                sibling.frase_gancho || sibling.identification?.subtitle || sibling.periodo || tp.featuredWork;
-              const sThumb =
-                sibling.image_filename ||
-                sibling.identification?.hero_image ||
-                (sibling as any).hero_image;
-
-              return (
-                <div
-                  key={sId}
-                  onClick={() => {
-                    if (onSelectPiece) onSelectPiece(sId);
-                  }}
-                  role="button"
-                  tabIndex={0}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                      e.preventDefault();
-                      if (onSelectPiece) onSelectPiece(sId);
-                    }
-                  }}
-                  className="snap-start shrink-0 w-44 rounded-2xl bg-[#141419] border border-white/10 hover:border-[#F59E0B]/60 p-2.5 flex flex-col justify-between transition-all duration-200 cursor-pointer active:scale-95 group shadow-lg select-none"
-                >
-                  <div>
-                    <div className="relative w-full h-24 rounded-xl overflow-hidden bg-[#0B0B0E] mb-2 border border-white/5">
-                      <PieceImage
-                        filename={sThumb}
-                        imageFilename={sThumb}
-                        pieceId={sId}
-                        pieceTitle={sTitle}
-                        title={sTitle}
-                        alt={sTitle}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                      <span className="absolute bottom-1 right-1 px-1.5 py-0.5 rounded-md bg-black/80 backdrop-blur-sm text-[9px] font-mono text-stone-300 border border-white/10">
-                        {sibling.orden_sugerido ? tp.caseNum(sibling.orden_sugerido) : tp.caseWord}
-                      </span>
-                    </div>
-
-                    <h4 className="text-xs font-bold text-[#F3F4F6] truncate group-hover:text-[#F59E0B] transition-colors leading-tight">
-                      {sTitle}
-                    </h4>
-                    <p className="text-[10px] text-[#9CA3AF] truncate mt-0.5">
-                      {sSub}
-                    </p>
-                  </div>
-
-                  <button
-                    type="button"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      if (onSelectPiece) onSelectPiece(sId);
-                    }}
-                    className="mt-2.5 w-full py-1.5 px-2 rounded-xl bg-[#F59E0B]/10 hover:bg-[#F59E0B] text-[#F59E0B] hover:text-black font-extrabold text-[10px] flex items-center justify-center gap-1.5 transition-all border border-[#F59E0B]/30 cursor-pointer shadow-xs active:scale-95"
-                  >
-                    <Volume2 className="w-3 h-3" />
-                    <span>{tp.listenAudio}</span>
-                  </button>
-                </div>
-              );
-            })}
-          </div>
-        </section>
-      )}
-
-      {/* Modal de Zoom de Imagen sincronizado */}
       <ImageZoomModal
-        isOpen={isZoomOpen}
-        onClose={() => setIsZoomOpen(false)}
+        isOpen={zoomOpen}
+        onClose={() => setZoomOpen(false)}
         imageUrl={imageFilename}
         pieceId={pieceId}
         title={titulo}
-        subtitle={roomName || piece.location?.room_name || t.common.museumName}
+        subtitle={contextTitle}
       />
-    </article>
+    </div>
   );
 };
 

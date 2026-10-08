@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { X, ZoomIn, ZoomOut, RotateCcw, Landmark, ImageOff } from 'lucide-react';
 import { resolvePieceImageCandidates } from '../utils/urlHelper';
-import { useTheme } from '../utils/ThemeContext';
 import { useStrings } from '../utils/LanguageContext';
 
 interface ImageZoomModalProps {
@@ -21,7 +20,6 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
   title,
   subtitle,
 }) => {
-  const { isSunMode } = useTheme();
   const t = useStrings().media;
   const [scale, setScale] = useState(1);
   const [attemptIndex, setAttemptIndex] = useState(0);
@@ -60,7 +58,7 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
   return (
     <div
       id="modal-image-zoom"
-      className="fixed inset-0 z-50 bg-black/95 backdrop-blur-md flex flex-col justify-between p-4 animate-in fade-in duration-200 select-none"
+      className="fixed inset-0 z-50 bg-black/95 backdrop-blur-md flex flex-col justify-between px-4 pt-[calc(env(safe-area-inset-top,0px)+1rem)] pb-[calc(env(safe-area-inset-bottom,0px)+1rem)] animate-fadeIn select-none"
       onClick={onClose}
     >
       {/* Top bar */}
@@ -69,7 +67,7 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
         onClick={(e) => e.stopPropagation()}
       >
         <div className="max-w-[75%] min-w-0">
-          <h3 className="text-sm sm:text-base font-bold text-amber-400 truncate">{title}</h3>
+          <h3 className="font-serif text-[1.125rem] font-medium text-white truncate">{title}</h3>
           {subtitle && <p className="text-xs text-stone-400 truncate">{subtitle}</p>}
         </div>
         <button
@@ -93,7 +91,7 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
         >
           {hasError || !currentSrc ? (
             <div className="flex flex-col items-center justify-center p-8 bg-stone-900 border border-stone-800 rounded-2xl text-center max-w-sm shadow-2xl">
-              <div className="w-14 h-14 rounded-2xl bg-stone-800 flex items-center justify-center text-amber-400 mb-3">
+              <div className="w-14 h-14 rounded-2xl bg-stone-800 flex items-center justify-center text-white/70 mb-3">
                 <Landmark className="w-7 h-7" />
               </div>
               <h4 className="text-sm font-extrabold text-stone-100 mb-1">{title}</h4>
@@ -132,7 +130,7 @@ export const ImageZoomModal: React.FC<ImageZoomModalProps> = ({
           >
             <ZoomOut className="w-4 h-4" />
           </button>
-          <span className="text-xs font-mono font-bold text-amber-400 w-12 text-center">
+          <span className="text-xs font-bold text-white/80 w-12 text-center tabular-nums">
             {Math.round(scale * 100)}%
           </span>
           <button

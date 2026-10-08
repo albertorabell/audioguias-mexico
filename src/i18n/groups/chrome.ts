@@ -40,7 +40,7 @@ export const chrome = defineGroup(
       searchHint: 'Buscar piezas y salas',
     },
     offline: {
-      banner: 'Modo Offline activo — Guías cacheadas',
+      banner: 'Sin internet: usando lo guardado',
     },
     pwa: {
       installed: 'PWA Instalada',
@@ -73,7 +73,7 @@ export const chrome = defineGroup(
       iosGuideStep3: 'Toca «Agregar».',
       desktopTitle: 'En computadora (Chrome o Edge)',
       desktopStep1: 'Busca el ícono de instalar en la barra de direcciones, o abre el menú ⋮ y elige «Instalar…».',
-      afterInstall: 'Después de instalarla, ábrela siempre desde su ícono. Para escuchar audios sin internet, abre un recorrido y toca «Descargar recorrido» antes de salir.',
+      afterInstall: 'Después de instalarla, ábrela siempre desde su ícono. Para escuchar sin internet, entra al museo y en la pestaña Museo toca «Descargar» antes de llegar a las salas.',
       close: 'Cerrar',
     },
     theme: {
@@ -123,7 +123,7 @@ export const chrome = defineGroup(
       searchHint: 'Search pieces and rooms',
     },
     offline: {
-      banner: 'Offline mode on — guides saved on your device',
+      banner: 'No internet: using what is saved',
     },
     pwa: {
       installed: 'App installed',
@@ -156,7 +156,7 @@ export const chrome = defineGroup(
       iosGuideStep3: 'Tap “Add”.',
       desktopTitle: 'On a computer (Chrome or Edge)',
       desktopStep1: 'Look for the install icon in the address bar, or open the ⋮ menu and choose “Install…”.',
-      afterInstall: 'After installing, always open it from its icon. To listen to audio without internet, open a tour and tap “Download tour” before you leave.',
+      afterInstall: 'After installing, always open it from its icon. To listen without internet, enter the museum and on the Museum tab tap “Download” before you reach the rooms.',
       close: 'Close',
     },
     theme: {
@@ -206,7 +206,7 @@ export const chrome = defineGroup(
       searchHint: 'Rechercher des pièces et des salles',
     },
     offline: {
-      banner: 'Mode hors ligne actif — guides enregistrés sur votre appareil',
+      banner: 'Sans internet : contenu enregistré',
     },
     pwa: {
       installed: 'Appli installée',
@@ -239,7 +239,7 @@ export const chrome = defineGroup(
       iosGuideStep3: 'Touchez « Ajouter ».',
       desktopTitle: 'Sur ordinateur (Chrome ou Edge)',
       desktopStep1: 'Cherchez l’icône d’installation dans la barre d’adresse, ou ouvrez le menu ⋮ et choisissez « Installer… ».',
-      afterInstall: 'Après l’installation, ouvrez-la toujours depuis son icône. Pour écouter les audios sans internet, ouvrez un parcours et touchez « Télécharger le parcours » avant de partir.',
+      afterInstall: 'Après l’installation, ouvrez-la toujours depuis son icône. Pour écouter sans internet, entrez dans le musée et, dans l’onglet Musée, touchez « Télécharger » avant d’arriver dans les salles.',
       close: 'Fermer',
     },
     theme: {

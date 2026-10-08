@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
+import { Landmark } from 'lucide-react';
 import { resolvePieceImageCandidates } from '../utils/urlHelper';
 import { useStrings } from '../utils/LanguageContext';
 
@@ -72,31 +73,13 @@ export const PieceImage: React.FC<PieceImageProps> = ({
           }
         }}
         aria-label={t.fallbackAria(displayTitle)}
-        className={`w-full h-full min-h-[90px] relative overflow-hidden flex flex-col items-center justify-center p-3 text-center select-none rounded-2xl border border-white/10 bg-[#141419] dark:bg-[#141419] transition-all duration-300 ${
-          onClick ? 'cursor-pointer hover:border-amber-500/40 active:scale-[0.99]' : ''
+        className={`@container w-full h-full relative overflow-hidden flex flex-col items-center justify-center p-2 text-center select-none bg-raised text-ink-3 ${
+          onClick ? 'cursor-pointer' : ''
         } ${className}`}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-[#1c1c24] via-[#141419] to-[#0d0d12] pointer-events-none opacity-80" />
-
-        <div className="relative z-10 w-10 h-10 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl bg-[#1f1f2a] border border-white/10 flex items-center justify-center mb-1.5 shadow-md">
-          <span className="text-xl sm:text-2xl select-none" role="img" aria-label={t.glyphAria}>
-            🏛️
-          </span>
-        </div>
-
-        <div className="relative z-10 max-w-sm px-1 space-y-0.5">
-          <p className="font-serif font-bold text-xs sm:text-sm text-stone-100 tracking-tight line-clamp-1 leading-snug">
-            {displayTitle}
-          </p>
-          {roomName && (
-            <span className="text-[9px] uppercase font-bold tracking-wider text-amber-400 block truncate">
-              {roomName}
-            </span>
-          )}
-          <span className="text-[10px] text-stone-400 font-medium block pt-0.5">
-            {t.photoSoon}
-          </span>
-        </div>
+        <Landmark className="w-[38%] max-w-12 h-auto opacity-60" strokeWidth={1.4} aria-hidden="true" />
+        <span className="hidden @min-[160px]:block mt-2 text-cap font-semibold text-ink-2 line-clamp-1 max-w-full">{displayTitle}</span>
+        <span className="hidden @min-[160px]:block text-[12px]">{t.photoSoon}</span>
       </div>
     );
   }

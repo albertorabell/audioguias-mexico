@@ -4,6 +4,13 @@ name: Capturas de la app (botón manual)
 # y como archivo descargable al final de la corrida. No publica nada en el sitio.
 on:
   workflow_dispatch:
+  # También al subir cambios a una rama de diseño, para revisar cómo se ve sin tocar el sitio publicado
+  push:
+    branches: ['feature/diseno**']
+
+concurrency:
+  group: capturas
+  cancel-in-progress: true
 
 permissions:
   contents: write

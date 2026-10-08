@@ -20,6 +20,7 @@ import {
 import { SiteManifest, SiteRoute, SiteSummary, RouteStop, Room, PieceData } from '../types';
 import { generateOptimizedRoute, calculateRouteTimeMinutes, formatRouteDuration, MANDATORY_MNA_PIECE_ID } from '../utils/routeOptimizer';
 import { useStrings } from '../utils/LanguageContext';
+import { TopBar } from './ui/TopBar';
 
 interface RouteWizardProps {
   site: SiteSummary;
@@ -97,8 +98,6 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
   // Question 3: Pace
   const [pace, setPace] = useState<'highlights' | 'expert'>('highlights');
 
-  // Accordion for classic predefined routes from manifest
-  const [showClassicRoutes, setShowClassicRoutes] = useState(false);
 
   // Toggle interest
   const handleToggleTag = (tagKey: string) => {
@@ -146,261 +145,110 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#0B0B0E] text-[#F3F4F6] transition-colors duration-200 select-none">
-      {/* Top Header */}
-      <header className="sticky top-0 z-30 px-4 py-3 border-b border-white/10 flex items-center justify-between backdrop-blur-xl bg-[#0B0B0E]/95 shadow-md">
-        <button
-          type="button"
-          onClick={onBack}
-          className="flex items-center gap-2 text-xs font-bold px-3 py-2 rounded-xl border border-white/10 bg-[#141419] text-[#F3F4F6] hover:bg-white/5 transition-all active:scale-95 cursor-pointer"
-        >
-          <ArrowLeft className="w-4 h-4 text-[#F59E0B]" />
-          <span>{t.back}</span>
-        </button>
+    <div className="min-h-dvh bg-bg text-ink">
+      <TopBar onBack={onBack} title={strings.ui.museum.buildRoute} revealAfter={70} />
 
-        <span className="text-[11px] font-black uppercase tracking-wider px-3 py-1 rounded-full border border-[#F59E0B]/30 bg-[#F59E0B]/10 text-[#F59E0B]">
-          {site.short_name || 'MNA'}
-        </span>
-      </header>
+      <main className="px-5 pt-4 pb-[calc(7rem+env(safe-area-inset-bottom,0px))]">
+        <h1 className="font-serif text-h1 font-medium tracking-[-0.02em]">{strings.ui.museum.buildRoute}</h1>
+        <p className="mt-3 text-[1.0625rem] leading-relaxed text-ink-2">{t.intro}</p>
 
-      {/* Main Content */}
-      <main className="flex-1 max-w-3xl mx-auto w-full px-4 pt-5 pb-36 space-y-6">
-        {/* Welcome Header */}
-        <div>
-          <div className="flex items-center gap-1.5 text-xs font-bold text-[#F59E0B] uppercase tracking-widest mb-1">
-            <Compass className="w-4 h-4" />
-            <span>{t.kicker}</span>
-          </div>
-          <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white">
-            {t.title(site.short_name || t.defaultSite)}
-          </h1>
-          <p className="text-xs sm:text-sm mt-1 text-[#9CA3AF] leading-relaxed">
-            {t.intro}
-          </p>
-        </div>
-
-        {/* ================= AVISO DESTACADO: PIEDRA DEL SOL FORZADA ================= */}
-        <div className="p-3.5 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center gap-3">
-          <div className="w-9 h-9 rounded-xl bg-amber-500/20 text-[#F59E0B] flex items-center justify-center shrink-0">
-            <Star className="w-5 h-5 fill-current" />
-          </div>
-          <div className="text-xs leading-snug">
-            <span className="font-extrabold text-amber-400 block">
-              {t.sunStoneTitle}
-            </span>
-            <span className="text-stone-300 text-[11px]">
-              {t.sunStoneDesc}
-            </span>
-          </div>
-        </div>
-
-        {/* ================= PREGUNTA 1: TIEMPO DISPONIBLE ================= */}
-        <section className="p-4 sm:p-5 rounded-3xl border border-white/10 bg-[#141419] shadow-lg">
-          <div className="flex items-center justify-between mb-3">
-            <h2 className="text-xs sm:text-sm font-black uppercase tracking-wider flex items-center gap-2 text-[#F59E0B]">
-              <Clock className="w-4 h-4" />
-              <span>{t.q1}</span>
-            </h2>
-            <span className="text-[11px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-[#0B0B0E] border border-white/10 text-[#F59E0B]">
-              {timeMinutes >= 900 ? t.unlimited : t.minutes(timeMinutes)}
-            </span>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+        <section className="mt-10" aria-labelledby="q1-title">
+          <h2 id="q1-title" className="font-serif text-h3 font-medium">
+            {t.q1}
+          </h2>
+          <div role="radiogroup" aria-labelledby="q1-title" className="mt-4 grid grid-cols-2 gap-2.5">
             {t.timeOptions.map((opt) => {
-              const isSelected = timeMinutes === opt.mins;
+              const on = timeMinutes === opt.mins;
               return (
                 <button
                   key={opt.mins}
                   type="button"
+                  role="radio"
+                  aria-checked={on}
                   onClick={() => setTimeMinutes(opt.mins)}
-                  className={`p-3.5 rounded-2xl border text-left transition-all duration-200 active:scale-[0.98] cursor-pointer ${
-                    isSelected
-                      ? 'bg-[#F59E0B]/15 border-[#F59E0B] text-white ring-1 ring-[#F59E0B] shadow-lg shadow-[#F59E0B]/15'
-                      : 'bg-[#0B0B0E] border-white/10 hover:border-white/20 text-[#9CA3AF] hover:text-[#F3F4F6]'
+                  className={`min-h-[4.5rem] p-3.5 rounded-2xl border text-left cursor-pointer transition-colors ${
+                    on ? 'bg-jade/12 border-jade' : 'bg-surface border-line active:bg-raised'
                   }`}
                 >
-                  <div className="flex items-center justify-between mb-1.5">
-                    <span className={`font-black text-sm ${isSelected ? 'text-[#F59E0B]' : 'text-white'}`}>
-                      {opt.label}
-                    </span>
-                    <span
-                      className={`text-[9px] font-black uppercase px-1.5 py-0.5 rounded ${
-                        isSelected
-                          ? 'bg-[#F59E0B] text-black font-extrabold'
-                          : 'bg-white/5 border border-white/10 text-[#9CA3AF]'
-                      }`}
-                    >
-                      {opt.badge}
-                    </span>
-                  </div>
-                  <p className="text-[11px] leading-tight text-[#9CA3AF]">{opt.desc}</p>
+                  <span className={`block text-[1.0625rem] font-bold ${on ? 'text-jade' : 'text-ink'}`}>{opt.label}</span>
+                  <span className="block mt-1 text-cap leading-snug text-ink-3">{opt.desc}</span>
                 </button>
               );
             })}
           </div>
         </section>
 
-        {/* ================= PREGUNTA 2: ENFOQUE E INTERESES TEMÁTICOS ================= */}
-        <section className="p-4 sm:p-5 rounded-3xl border border-white/10 bg-[#141419] shadow-lg space-y-3">
-          <div className="flex items-center justify-between">
-            <h2 className="text-xs sm:text-sm font-black uppercase tracking-wider flex items-center gap-2 text-[#F59E0B]">
-              <Sparkles className="w-4 h-4" />
-              <span>{t.q2}</span>
+        <section className="mt-10" aria-labelledby="q2-title">
+          <div className="flex items-baseline justify-between gap-3">
+            <h2 id="q2-title" className="font-serif text-h3 font-medium">
+              {t.q2}
             </h2>
-            <span className="text-[10px] text-[#9CA3AF]">
-              {t.selected(selectedTags.length)}
-            </span>
           </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+          <p className="mt-1 text-cap text-ink-3">{t.selected(selectedTags.length)}</p>
+          <ul className="mt-4 space-y-2.5">
             {availableTags.map((tag) => {
-              const isSelected = selectedTags.includes(tag.key);
+              const on = selectedTags.includes(tag.key);
               return (
-                <button
-                  key={tag.key}
-                  type="button"
-                  onClick={() => handleToggleTag(tag.key)}
-                  className={`p-3.5 rounded-2xl border text-left flex items-start gap-3 transition-all duration-200 active:scale-[0.98] cursor-pointer ${
-                    isSelected
-                      ? 'bg-[#F59E0B]/10 border-[#F59E0B] text-white shadow-md'
-                      : 'bg-[#0B0B0E] border-white/10 hover:border-white/20 text-[#9CA3AF]'
-                  }`}
-                >
-                  <div
-                    className={`p-2 rounded-xl shrink-0 mt-0.5 ${
-                      isSelected
-                        ? 'bg-[#F59E0B] text-black'
-                        : 'bg-white/5 text-[#9CA3AF] border border-white/10'
+                <li key={tag.key}>
+                  <button
+                    type="button"
+                    role="checkbox"
+                    aria-checked={on}
+                    onClick={() => handleToggleTag(tag.key)}
+                    className={`w-full p-3.5 rounded-2xl border text-left flex items-start gap-3 cursor-pointer transition-colors ${
+                      on ? 'bg-jade/10 border-jade/60' : 'bg-surface border-line active:bg-raised'
                     }`}
                   >
-                    {tag.icon}
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center justify-between">
-                      <span className={`text-xs font-bold ${isSelected ? 'text-white' : 'text-[#D1D5DB]'}`}>
-                        {tag.label}
-                      </span>
-                      {isSelected && <Check className="w-3.5 h-3.5 text-[#F59E0B] stroke-[3]" />}
-                    </div>
-                    <p className="text-[11px] text-[#9CA3AF] mt-0.5 leading-snug line-clamp-2">
-                      {tag.subtitle}
-                    </p>
-                  </div>
-                </button>
+                    <span
+                      className={`mt-0.5 w-6 h-6 rounded-lg shrink-0 flex items-center justify-center ${
+                        on ? 'bg-jade text-on-jade' : 'border-2 border-line-strong'
+                      }`}
+                    >
+                      {on && <Check className="w-4 h-4" strokeWidth={3} />}
+                    </span>
+                    <span className="min-w-0">
+                      <span className="block text-ui font-bold">{tag.label}</span>
+                      <span className="block mt-0.5 text-cap leading-snug text-ink-3">{tag.subtitle}</span>
+                    </span>
+                  </button>
+                </li>
               );
             })}
-          </div>
+          </ul>
         </section>
 
-        {/* ================= RESUMEN DE LA RUTA PROYECTADA ================= */}
-        <section className="p-4 sm:p-5 rounded-3xl border border-white/10 bg-[#141419] shadow-xl space-y-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <span className="p-1.5 rounded-lg bg-emerald-500/20 text-emerald-400">
-                <Check className="w-4 h-4 stroke-[3]" />
-              </span>
-              <div>
-                <h3 className="text-xs sm:text-sm font-bold text-white">
-                  {t.readyTitle}
-                </h3>
-                <p className="text-[11px] text-[#9CA3AF]">
-                  {t.readySummary(projectedRoute.stops.length, uniqueRoomsCount, formatRouteDuration(routeMinutes))}
-                </p>
-              </div>
-            </div>
-
-            <span className="text-xs font-mono font-bold text-amber-400 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30">
-              ~{formatRouteDuration(routeMinutes)}
-            </span>
-          </div>
-
-          {/* Secuencia resumida de paradas */}
-          <div className="max-h-56 overflow-y-auto pr-1 space-y-1.5 scrollbar-thin">
+        <section className="mt-10" aria-labelledby="preview-title">
+          <h2 id="preview-title" className="font-serif text-h3 font-medium">
+            {t.readyTitle}
+          </h2>
+          <p className="mt-1 text-ui text-ink-2">{t.readySummary(projectedRoute.stops.length, uniqueRoomsCount, formatRouteDuration(routeMinutes))}</p>
+          <p className="mt-1 text-cap text-ink-3">{t.sunStoneDesc}</p>
+          <ol className="mt-4 border-t border-line">
             {projectedRoute.stops.map((stop, idx) => (
-              <div
-                key={stop.poi_id || idx}
-                className="p-2.5 rounded-xl border border-white/5 bg-[#0B0B0E] flex items-center gap-2.5 text-xs text-[#F3F4F6]"
-              >
-                <span className="w-5 h-5 rounded-full bg-[#F59E0B] text-black font-black text-[10px] flex items-center justify-center shrink-0">
-                  {idx + 1}
+              <li key={stop.poi_id || idx} className="flex items-center gap-3 py-2.5 border-b border-line">
+                <span className="w-7 text-right font-serif text-[1.0625rem] text-ink-3 tabular-nums shrink-0">{idx + 1}</span>
+                <span className="min-w-0 flex-1">
+                  <span className="block text-ui font-semibold leading-snug">{stop.title}</span>
+                  <span className="block text-cap text-ink-3 truncate">{stop.room_zone}</span>
                 </span>
-                <div className="min-w-0 flex-1">
-                  <span className="font-bold block truncate text-white">{stop.title}</span>
-                  <span className="text-[10px] text-[#9CA3AF] block truncate">
-                    {stop.room_zone}
-                  </span>
-                </div>
-                {stop.poi_id === MANDATORY_MNA_PIECE_ID && (
-                  <span className="text-[9px] font-bold text-amber-400 px-1.5 py-0.5 rounded bg-amber-500/15 border border-amber-500/30 shrink-0">
-                    {t.mustSee}
-                  </span>
-                )}
-              </div>
+                {stop.poi_id === MANDATORY_MNA_PIECE_ID && <Star className="w-4 h-4 text-oro shrink-0" aria-label={t.mustSee} />}
+              </li>
             ))}
-          </div>
+          </ol>
         </section>
-
-        {/* Catálogo de rutas temáticas predefinidas de mna.json */}
-        {manifest?.routes && manifest.routes.length > 0 && (
-          <div className="text-center pt-1">
-            <button
-              type="button"
-              onClick={() => setShowClassicRoutes(!showClassicRoutes)}
-              className="text-xs font-semibold text-[#9CA3AF] hover:text-white underline underline-offset-4 transition-colors cursor-pointer"
-            >
-              {showClassicRoutes ? t.hideSuggested : t.showSuggested}
-            </button>
-
-            {showClassicRoutes && (
-              <div className="mt-4 space-y-2 text-left animate-fadeIn">
-                {manifest.routes.map((route) => (
-                  <button
-                    key={route.id}
-                    type="button"
-                    onClick={() => onStartRoute(route)}
-                    className="w-full p-3.5 rounded-2xl border border-white/10 bg-[#141419] hover:border-[#F59E0B]/50 hover:bg-[#1A1A22] flex items-center justify-between transition-all active:scale-[0.98] cursor-pointer text-left"
-                  >
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <span className="text-xs font-bold text-white">{route.name}</span>
-                        <span className="text-[10px] font-bold text-[#F59E0B] bg-[#F59E0B]/10 px-2 py-0.5 rounded border border-[#F59E0B]/30">
-                          {route.duration}
-                        </span>
-                      </div>
-                      <p className="text-[11px] text-[#9CA3AF] mt-0.5 line-clamp-1">
-                        {route.description}
-                      </p>
-                    </div>
-                    <ChevronRight className="w-4 h-4 text-[#F59E0B] shrink-0" />
-                  </button>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
       </main>
 
-      {/* ================= BOTÓN FIJO INFERIOR CON CLEARANCE ================= */}
-      <footer className="fixed bottom-0 left-0 right-0 z-40 p-4 border-t border-white/10 bg-[#0B0B0E]/95 backdrop-blur-xl shadow-2xl">
-        <div className="max-w-3xl mx-auto">
+      <footer className="fixed bottom-0 inset-x-0 z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line">
+        <div className="max-w-[480px] mx-auto px-4 py-3">
           <button
             id="btn-start-route-fixed"
             type="button"
             disabled={!hasStops}
             onClick={handleConfirmStart}
-            className={`w-full py-3.5 px-6 rounded-2xl font-extrabold text-sm sm:text-base transition-all flex items-center justify-center gap-2 shadow-lg ${
-              hasStops
-                ? 'bg-[#F59E0B] hover:bg-amber-400 text-black shadow-amber-500/25 active:scale-[0.98] cursor-pointer'
-                : 'bg-stone-800 text-stone-500 cursor-not-allowed border border-white/5'
-            }`}
+            className="btn-primary w-full min-h-[3.25rem] disabled:opacity-40 disabled:pointer-events-none"
           >
             <Play className="w-4 h-4 fill-current" />
-            <span>
-              {hasStops
-                ? t.startTour(projectedRoute.stops.length, formatRouteDuration(routeMinutes))
-                : t.pickOne}
-            </span>
+            <span>{hasStops ? t.startTour(projectedRoute.stops.length, formatRouteDuration(routeMinutes)) : t.pickOne}</span>
           </button>
         </div>
       </footer>

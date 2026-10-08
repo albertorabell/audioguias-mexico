@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { DownloadCloud, CheckCircle2, AlertCircle, RefreshCw, WifiOff, HardDrive } from 'lucide-react';
+import { DownloadCloud, CheckCircle2, AlertCircle, RefreshCw, WifiOff, } from 'lucide-react';
 import {
   downloadTourOffline,
   checkIsTourCached,
@@ -7,7 +7,6 @@ import {
   OfflineProgress,
 } from '../utils/offlineTourManager';
 import { PieceData } from '../types';
-import { useTheme } from '../utils/ThemeContext';
 import { getAssetUrl } from '../utils/urlHelper';
 import { useLanguage } from '../utils/LanguageContext';
 import { resolvePieceAudio } from '../utils/audioSource';
@@ -24,7 +23,6 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
   audioPieces = [],
   routeTitle,
 }) => {
-  const { isSunMode } = useTheme();
   const { strings, currentLanguage } = useLanguage();
   const t = strings.offline;
 
@@ -112,125 +110,81 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
     });
   };
 
+  const downloading = progress.status === 'downloading';
   return (
-    <div
-      id="offline-tour-banner"
-      className={`rounded-2xl p-4 sm:p-5 border transition-all ${
-        isSunMode
-          ? 'bg-stone-100/80 border-stone-200 text-stone-900'
-          : 'bg-[#181614] border-stone-800 text-stone-100'
-      }`}
-    >
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-        {/* Header and status text */}
-        <div className="flex items-start gap-3 min-w-0">
-          <div
-            className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 ${
-              isCached
-                ? 'bg-emerald-500/15 text-emerald-600 dark:text-emerald-400'
-                : progress.status === 'downloading'
-                ? 'bg-[#C05638]/15 text-[#C05638] dark:text-[#D96B47]'
-                : isSunMode
-                ? 'bg-stone-200 text-stone-700'
-                : 'bg-stone-800 text-stone-300'
-            }`}
-          >
-            {isCached ? (
-              <CheckCircle2 className="w-5 h-5" />
-            ) : progress.status === 'downloading' ? (
-              <RefreshCw className="w-5 h-5 animate-spin" />
-            ) : (
-              <DownloadCloud className="w-5 h-5" />
-            )}
-          </div>
-
-          <div className="min-w-0 flex-1">
-            <div className="flex items-center gap-2">
-              <h4 className="text-xs sm:text-sm font-bold truncate text-stone-900 dark:text-stone-100">
-                {isCached ? t.readyTitle : t.downloadTitle}
-              </h4>
-              {isCached && (
-                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300">
-                  <HardDrive className="w-3 h-3" /> {t.offlineBadge}
-                </span>
-              )}
-            </div>
-
-            <p className="text-xs text-stone-600 dark:text-stone-400 mt-0.5 leading-relaxed font-normal">
-              {isCached ? t.cachedDesc(routeTitle) : t.notCachedDesc}
-              {!isCached && audioUrls.length > 0 && ` ${t.audioSize(audioUrls.length, audioMb)}`}
-            </p>
-          </div>
-        </div>
-
-        {/* Action Button */}
-        <div className="shrink-0 flex items-center gap-2 self-end sm:self-center">
+    <div id="offline-tour-banner" className="rounded-2xl bg-surface border border-line p-4">
+      <div className="flex items-start gap-3">
+        <span
+          className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 ${
+            isCached ? 'bg-jade/15 text-jade' : 'bg-raised text-ink-2'
+          }`}
+        >
           {isCached ? (
-            <button
-              id="btn-offline-recache"
-              type="button"
-              onClick={handleStartDownload}
-              className={`px-3 py-2 rounded-xl text-xs font-semibold border transition active:scale-95 flex items-center gap-1.5 ${
-                isSunMode
-                  ? 'border-stone-200 bg-white hover:bg-stone-50 text-stone-700'
-                  : 'border-stone-700 bg-stone-800 hover:bg-stone-700 text-stone-300'
-              }`}
-            >
-              <RefreshCw className="w-3.5 h-3.5" />
-              <span>{t.update}</span>
-            </button>
+            <CheckCircle2 className="w-5 h-5" />
+          ) : downloading ? (
+            <RefreshCw className="w-5 h-5 animate-spin" />
           ) : (
-            <button
-              id="btn-download-offline-tour"
-              type="button"
-              disabled={progress.status === 'downloading'}
-              onClick={handleStartDownload}
-              className="px-4 py-2.5 rounded-xl text-xs font-bold transition shadow-sm active:scale-95 flex items-center gap-2 bg-[#C05638] hover:bg-[#A9482E] dark:bg-[#D96B47] dark:hover:bg-[#C05638] text-white disabled:opacity-50"
-            >
-              <DownloadCloud className="w-4 h-4" />
-              <span>
-                {progress.status === 'downloading' ? t.downloading : t.download}
-              </span>
-            </button>
+            <DownloadCloud className="w-5 h-5" />
           )}
-
-          {isCached && (
-            <button
-              type="button"
-              onClick={handleClear}
-              className="p-2 rounded-xl text-xs text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 transition"
-              title={t.clearTitle}
-              aria-label={t.clearTitle}
-            >
-              <WifiOff className="w-4 h-4" />
-            </button>
-          )}
+        </span>
+        <div className="min-w-0 flex-1">
+          <h4 className="text-ui font-bold text-ink">{isCached ? t.readyTitle : t.downloadTitle}</h4>
+          <p className="text-cap text-ink-3 mt-1 leading-relaxed">
+            {isCached ? t.cachedDesc(routeTitle) : t.notCachedDesc}
+            {!isCached && audioUrls.length > 0 && ` ${t.audioSize(audioUrls.length, audioMb)}`}
+          </p>
         </div>
       </div>
 
-      {/* Download Progress Bar */}
-      {progress.status === 'downloading' && (
-        <div className="mt-3.5 pt-3 border-t border-stone-200/80 dark:border-stone-800/80">
-          <div className="flex justify-between items-center text-[11px] font-mono text-stone-500 dark:text-stone-400 mb-1.5">
+      {downloading && (
+        <div className="mt-4">
+          <div className="flex justify-between items-center text-cap text-ink-3 mb-1.5 tabular-nums">
             <span className="truncate max-w-[70%]">{progress.currentLabel}</span>
-            <span className="font-bold">{progress.progressPercent}% ({progress.cachedCount}/{progress.totalCount})</span>
+            <span className="font-semibold">{progress.progressPercent}%</span>
           </div>
-          <div className="w-full h-2 rounded-full overflow-hidden bg-stone-200 dark:bg-stone-800">
-            <div
-              className="h-full rounded-full transition-all duration-300 bg-[#C05638] dark:bg-[#D96B47]"
-              style={{ width: `${progress.progressPercent}%` }}
-            />
+          <div className="w-full h-1.5 rounded-full overflow-hidden bg-raised">
+            <div className="h-full rounded-full transition-all duration-300 bg-jade" style={{ width: `${progress.progressPercent}%` }} />
           </div>
         </div>
       )}
 
-      {/* Error state alert */}
       {progress.status === 'error' && (
-        <div className="mt-3 p-3 rounded-xl border border-rose-300 bg-rose-50 text-rose-800 dark:border-rose-900/50 dark:bg-rose-950/40 dark:text-rose-200 flex items-center gap-2 text-xs">
-          <AlertCircle className="w-4 h-4 shrink-0 text-rose-600 dark:text-rose-400" />
+        <p className="mt-3 text-cap text-tezontle flex items-center gap-2">
+          <AlertCircle className="w-4 h-4 shrink-0" />
           <span>{progress.errorMessage || t.failed}</span>
-        </div>
+        </p>
       )}
+
+      <div className="mt-4 pl-[3.25rem] flex items-center gap-2">
+        {isCached ? (
+          <>
+            <button id="btn-offline-recache" type="button" onClick={handleStartDownload} className="btn-secondary min-h-11 text-cap">
+              <RefreshCw className="w-4 h-4" />
+              {t.update}
+            </button>
+            <button
+              type="button"
+              onClick={handleClear}
+              className="min-h-11 px-3 rounded-full text-cap font-semibold text-ink-3 inline-flex items-center gap-1.5 cursor-pointer active:bg-raised"
+              title={t.clearTitle}
+            >
+              <WifiOff className="w-4 h-4" />
+              {t.clearShort}
+            </button>
+          </>
+        ) : (
+          <button
+            id="btn-download-offline-tour"
+            type="button"
+            disabled={downloading}
+            onClick={handleStartDownload}
+            className="btn-secondary min-h-11 text-cap disabled:opacity-50"
+          >
+            <DownloadCloud className="w-4 h-4" />
+            {downloading ? t.downloading : t.download}
+          </button>
+        )}
+      </div>
     </div>
   );
 };

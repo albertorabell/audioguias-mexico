@@ -3,18 +3,19 @@ import { defineGroup } from '../define';
 /** Descarga del recorrido para usar sin internet. */
 export const offline = defineGroup(
   {
-    readyTitle: 'Ruta lista sin conexión',
-    downloadTitle: 'Descargar recorrido para uso sin internet',
+    readyTitle: 'Listo para usar sin internet',
+    downloadTitle: 'Úsalo sin internet',
     offlineBadge: 'Offline ✓',
     cachedDesc: (routeTitle?: string) =>
       routeTitle
         ? `Todas las explicaciones e imágenes de «${routeTitle}» están guardadas en tu dispositivo.`
         : 'Todas las explicaciones e imágenes están guardadas en tu dispositivo.',
-    notCachedDesc: 'La señal móvil en las salas del MNA suele ser débil. Guarda la ruta con anticipación para usarla sin datos.',
+    notCachedDesc: 'Dentro de las salas la señal suele ser débil. Descarga las fotos y los audios antes de entrar.',
     audioSize: (files: number, mb: number) => `Incluye ${files} ${files === 1 ? 'audio' : 'audios'}${mb > 0 ? ` (unos ${mb} MB)` : ''}.`,
     update: 'Actualizar',
     downloading: 'Descargando…',
-    download: 'Descargar recorrido',
+    download: 'Descargar',
+    clearShort: 'Borrar',
     clearTitle: 'Liberar almacenamiento sin conexión',
     savedLabel: 'Ruta guardada localmente',
     failed: 'No se pudo completar la descarga sin conexión.',
@@ -27,18 +28,19 @@ export const offline = defineGroup(
     networkError: 'Error de red durante la descarga.',
   },
   {
-    readyTitle: 'Route ready offline',
-    downloadTitle: 'Download tour for use without internet',
+    readyTitle: 'Ready to use without internet',
+    downloadTitle: 'Use it without internet',
     offlineBadge: 'Offline ✓',
     cachedDesc: (routeTitle?: string) =>
       routeTitle
         ? `All the explanations and images of “${routeTitle}” are saved on your device.`
         : 'All the explanations and images are saved on your device.',
-    notCachedDesc: 'Mobile signal inside the museum rooms is often weak. Save the route ahead of time to use it without data.',
+    notCachedDesc: 'The signal inside the rooms is often weak. Download the photos and audio before you go in.',
     audioSize: (files: number, mb: number) => `Includes ${files} audio ${files === 1 ? 'file' : 'files'}${mb > 0 ? ` (about ${mb} MB)` : ''}.`,
     update: 'Update',
     downloading: 'Downloading…',
-    download: 'Download tour',
+    download: 'Download',
+    clearShort: 'Remove',
     clearTitle: 'Free up offline storage',
     savedLabel: 'Route saved locally',
     failed: 'The offline download could not be completed.',
@@ -51,18 +53,19 @@ export const offline = defineGroup(
     networkError: 'Network error during the download.',
   },
   {
-    readyTitle: 'Parcours prêt hors ligne',
-    downloadTitle: 'Télécharger le parcours pour l’utiliser sans internet',
+    readyTitle: 'Prêt à utiliser sans internet',
+    downloadTitle: 'Utilisez-le sans internet',
     offlineBadge: 'Hors ligne ✓',
     cachedDesc: (routeTitle?: string) =>
       routeTitle
         ? `Toutes les explications et les images de « ${routeTitle} » sont enregistrées sur votre appareil.`
         : 'Toutes les explications et les images sont enregistrées sur votre appareil.',
-    notCachedDesc: 'Le signal mobile dans les salles du MNA est souvent faible. Enregistrez le parcours à l’avance pour l’utiliser sans données.',
+    notCachedDesc: 'Dans les salles, le signal est souvent faible. Téléchargez les photos et les audios avant d’entrer.',
     audioSize: (files: number, mb: number) => `Comprend ${files} ${files === 1 ? 'audio' : 'audios'}${mb > 0 ? ` (environ ${mb} Mo)` : ''}.`,
     update: 'Mettre à jour',
     downloading: 'Téléchargement…',
-    download: 'Télécharger le parcours',
+    download: 'Télécharger',
+    clearShort: 'Supprimer',
     clearTitle: 'Libérer l’espace de stockage hors ligne',
     savedLabel: 'Parcours enregistré sur l’appareil',
     failed: 'Le téléchargement hors ligne n’a pas pu être terminé.',

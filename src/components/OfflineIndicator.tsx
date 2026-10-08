@@ -12,7 +12,7 @@ export const OfflineIndicator: React.FC = () => {
   return (
     <div
       id="offline-banner"
-      className="fixed top-2 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 rounded-full bg-amber-600/95 px-3.5 py-1.5 text-xs font-semibold text-stone-950 shadow-lg backdrop-blur-xs border border-amber-400/40 animate-pulse"
+      className="fixed top-[calc(env(safe-area-inset-top,0px)+0.5rem)] left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 rounded-full bg-raised px-3.5 py-1.5 text-cap font-semibold text-ink shadow-lg shadow-black/30 border border-line-strong pointer-events-none"
     >
       <WifiOff className="w-3.5 h-3.5" />
       <span>{t.banner}</span>
