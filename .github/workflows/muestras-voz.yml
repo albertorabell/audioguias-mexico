@@ -10,7 +10,7 @@ on:
       idioma:
         description: 'Idioma de la muestra'
         type: choice
-        options: [es, en]
+        options: [es, en, fr]
         default: es
       pieza:
         description: 'Pieza que se lee (id)'

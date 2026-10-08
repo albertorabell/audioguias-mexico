@@ -74,3 +74,15 @@ test('la lista real de inglés: todas las filas son válidas y las palabras mexi
   assert.match(out, /<lang xml:lang="es-MX">Tláloc<\/lang>/);
   assert.match(out, /<lang xml:lang="es-MX">Monte Albán<\/lang>/, 'las palabras de dos partes se leen juntas');
 });
+
+test('la lista real de francés: filas válidas, mismas reglas que inglés y sin Mexica (se prueba de oído)', async () => {
+  const { loadPronunciations, toSsmlInner } = await import('../pronunciacion-lib.mjs');
+  const fr = loadPronunciations('glosario/pronunciacion.csv', 'fr');
+  assert.ok(fr.length > 100, `se esperaban más de 100 palabras y hay ${fr.length}`);
+  for (const e of fr) assert.match(e.value, /^es-MX=.+/, e.word);
+  assert.equal(new Set(fr.map((e) => e.word.toLowerCase())).size, fr.length, 'hay palabras repetidas');
+  assert.equal(fr.some((e) => /^mexicas?$/i.test(e.word)), false);
+  const out = toSsmlInner('Les Mexicas vénéraient Tláloc à Teotihuacán.', fr, 'es-MX-JorgeMultilingualNeural');
+  assert.match(out, /<lang xml:lang="es-MX">Tláloc<\/lang>/);
+  assert.match(out, /Les Mexicas vénéraient/);
+});
