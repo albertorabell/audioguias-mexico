@@ -25,5 +25,17 @@ export const media = defineGroup(
     zoomIn: 'Zoom in',
     zoomResetTitle: 'Reset to original size',
     zoomResetAria: 'Reset zoom',
+  },
+  {
+    defaultAlt: 'Pièce du Musée national d’anthropologie',
+    fallbackAria: (title: string) => `Image de remplacement pour ${title}`,
+    glyphAria: 'Glyphe archéologique',
+    photoSoon: 'Photo bientôt disponible',
+    zoomClose: 'Fermer l’agrandissement',
+    zoomPending: 'Photographie de la pièce, actuellement en réserve (photo bientôt disponible)',
+    zoomOut: 'Réduire le zoom',
+    zoomIn: 'Agrandir le zoom',
+    zoomResetTitle: 'Rétablir la taille d’origine',
+    zoomResetAria: 'Réinitialiser le zoom',
   }
 );

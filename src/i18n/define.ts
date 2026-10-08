@@ -6,6 +6,6 @@ import type { SupportedLanguage } from './languages';
  */
 export type Group<T> = { es: T; en: T } & Partial<Record<Exclude<SupportedLanguage, 'es' | 'en'>, Partial<T>>>;
 
-export function defineGroup<T>(es: T, en: T): Group<T> {
-  return { es, en };
+export function defineGroup<T>(es: T, en: T, fr?: Partial<T>): Group<T> {
+  return fr ? { es, en, fr } : { es, en };
 }

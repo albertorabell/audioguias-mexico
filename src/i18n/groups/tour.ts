@@ -33,5 +33,21 @@ export const tour = defineGroup(
     designAnother: 'Design another route',
     goHome: 'Go to start',
     repeat: 'Repeat this tour',
+  },
+  {
+    completedBadge: 'VISITE TERMINÉE',
+    completedTitle: 'Visite terminée !',
+    completedDesc: (routeName: string) =>
+      `Vous avez parcouru avec succès le parcours « ${routeName} » au Musée national d’anthropologie.`,
+    rooms: 'Salles',
+    roomsSub: 'explorées',
+    pieces: 'Pièces',
+    piecesSub: 'œuvres vues',
+    time: 'Durée',
+    timeSub: 'estimée',
+    backToExplorer: 'Retour à l’explorateur (voir d’autres pièces)',
+    designAnother: 'Composer un autre parcours',
+    goHome: 'Aller à l’accueil',
+    repeat: 'Refaire cette visite',
   }
 );

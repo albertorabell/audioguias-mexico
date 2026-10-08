@@ -49,5 +49,29 @@ export const offline = defineGroup(
     done: 'Tour downloaded and ready to use without signal!',
     errorLabel: 'Error downloading offline data',
     networkError: 'Network error during the download.',
+  },
+  {
+    readyTitle: 'Parcours prêt hors ligne',
+    downloadTitle: 'Télécharger le parcours pour l’utiliser sans internet',
+    offlineBadge: 'Hors ligne ✓',
+    cachedDesc: (routeTitle?: string) =>
+      routeTitle
+        ? `Toutes les explications et les images de « ${routeTitle} » sont enregistrées sur votre appareil.`
+        : 'Toutes les explications et les images sont enregistrées sur votre appareil.',
+    notCachedDesc: 'Le signal mobile dans les salles du MNA est souvent faible. Enregistrez le parcours à l’avance pour l’utiliser sans données.',
+    audioSize: (files: number, mb: number) => `Comprend ${files} ${files === 1 ? 'audio' : 'audios'}${mb > 0 ? ` (environ ${mb} Mo)` : ''}.`,
+    update: 'Mettre à jour',
+    downloading: 'Téléchargement…',
+    download: 'Télécharger le parcours',
+    clearTitle: 'Libérer l’espace de stockage hors ligne',
+    savedLabel: 'Parcours enregistré sur l’appareil',
+    failed: 'Le téléchargement hors ligne n’a pas pu être terminé.',
+    unsupportedLabel: 'Ce navigateur ne prend pas en charge le stockage hors ligne',
+    unsupportedMessage: 'Votre navigateur n’autorise pas le stockage hors ligne.',
+    starting: 'Démarrage du téléchargement du parcours…',
+    downloadingFile: (name: string) => `Téléchargement : ${name}`,
+    done: 'Parcours téléchargé et prêt à l’emploi sans réseau !',
+    errorLabel: 'Erreur lors du téléchargement des données hors ligne',
+    networkError: 'Erreur réseau pendant le téléchargement.',
   }
 );

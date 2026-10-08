@@ -24,5 +24,17 @@ export const search = defineGroup(
     noResults: (q: string) => `No pieces found for “${q}”`,
     noResultsHint: 'Try a culture name, a room name or keywords like “monolith”, “mask” or “jade”.',
     view: 'View',
+  },
+  {
+    placeholder: 'Rechercher une œuvre ou une salle (ex. Soleil, Mexica, Pakal)…',
+    clear: 'Effacer le texte',
+    closeAria: 'Fermer la recherche',
+    resultsFound: (n: number) => `${n} ${n === 1 ? 'résultat trouvé' : 'résultats trouvés'}`,
+    catalog: (n: number) => `Catalogue du musée (${n} œuvres)`,
+    directMatches: 'Correspondances directes',
+    featured: 'Œuvres à la une',
+    noResults: (q: string) => `Aucune pièce trouvée pour « ${q} »`,
+    noResultsHint: 'Essayez avec le nom d’une culture ou d’une salle, ou des mots-clés comme « monolithe », « masque » ou « jade ».',
+    view: 'Voir',
   }
 );
