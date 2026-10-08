@@ -21,5 +21,15 @@ export const errors = defineGroup(
     boundaryTitle: 'Something unexpected happened',
     boundaryDesc: 'Don’t worry, your data and tour are safe. You can go back to the start.',
     boundaryButton: 'Back to start',
+  },
+  {
+    noSpeech: 'La synthèse vocale n’est pas disponible sur cet appareil.',
+    noVoice: (languageName: string) =>
+      `Votre téléphone n’a pas de voix en ${languageName}. Vous pouvez lire le texte ou installer une voix dans les Réglages.`,
+    speechFailed: 'Un problème est survenu lors de la lecture de la voix sur cet appareil.',
+    audioFailed: 'Impossible de lire le fichier audio. La voix du téléphone sera utilisée.',
+    boundaryTitle: 'Un imprévu est survenu',
+    boundaryDesc: 'Pas d’inquiétude, vos données et votre parcours sont sauvegardés. Vous pouvez revenir à l’accueil.',
+    boundaryButton: 'Retour à l’accueil',
   }
 );

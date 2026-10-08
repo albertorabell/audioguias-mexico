@@ -28,6 +28,18 @@ test('idioma: pasa a inglés, se queda al recargar y vuelve a español', async (
   await expect(page.locator('html')).toHaveAttribute('lang', 'es');
 });
 
+test('idioma: pasa a francés (interfaz completa en francés), se queda al recargar y vuelve a español', async ({ page }) => {
+  await page.goto('/');
+  await elegirIdioma(page, 'Français');
+  await expect(page.getByText('Votre conservateur personnel de poche')).toBeVisible();
+  await expect(page.locator('#btn-language-selector')).toHaveText(/^\s*fr\s*$/i);
+  await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
+  await page.reload();
+  await expect(page.getByText('Votre conservateur personnel de poche')).toBeVisible();
+  await elegirIdioma(page, 'Español');
+  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+});
+
 test('idioma: una pieza sin traducción se muestra y se lee en español, y avisa', async ({ page }) => {
   await sinVoces(page);
   await page.goto('/');
