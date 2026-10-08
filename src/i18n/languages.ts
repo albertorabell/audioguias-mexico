@@ -31,9 +31,10 @@ const ALL_LANGUAGES: LanguageOption[] = [
 /**
  * Idiomas que ve el público. Un idioma se agrega a esta lista SOLO cuando está completo:
  * interfaz, textos de las piezas, audios y revisión de una persona nativa. Así no se publica nada a medias.
- * Hoy solo español: el selector de idioma ni siquiera aparece mientras haya un solo idioma.
+ * Hoy (modo de prueba): español, inglés y francés, para revisar los textos. El francés aún no tiene audios (usa la voz del teléfono).
+ * Con un solo idioma el selector ni siquiera aparece.
  */
-const DEFAULT_PUBLISHED_LANGUAGES: SupportedLanguage[] = ['es'];
+const DEFAULT_PUBLISHED_LANGUAGES: SupportedLanguage[] = ['es', 'en', 'fr'];
 
 /**
  * Las pruebas de navegador compilan con VITE_PUBLISHED_LANGUAGES=es,en para ensayar el selector y el inglés.
@@ -42,8 +43,9 @@ const DEFAULT_PUBLISHED_LANGUAGES: SupportedLanguage[] = ['es'];
 function readPublishedLanguages(): SupportedLanguage[] {
   const raw = String(import.meta.env.VITE_PUBLISHED_LANGUAGES || '');
   const wanted = raw.split(',').map((x) => x.trim().toLowerCase()).filter(Boolean);
+  if (!wanted.length) return DEFAULT_PUBLISHED_LANGUAGES; // sin variable: la lista por defecto
   const valid = ALL_LANGUAGES.map((l) => l.code).filter((c) => c !== 'es' && wanted.includes(c));
-  return valid.length ? ['es', ...valid] : DEFAULT_PUBLISHED_LANGUAGES;
+  return ['es', ...valid]; // con variable: solo esos (VITE_PUBLISHED_LANGUAGES=es deja solo español)
 }
 
 export const PUBLISHED_LANGUAGES: SupportedLanguage[] = readPublishedLanguages();
