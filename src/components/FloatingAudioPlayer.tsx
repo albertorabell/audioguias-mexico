@@ -18,6 +18,7 @@ import { PieceImage } from './PieceImage';
 import { getAssetUrl } from '../utils/urlHelper';
 import { useLanguage } from '../utils/LanguageContext';
 import { scriptLanguage } from '../i18n/content';
+import { resolvePieceAudio } from '../utils/audioSource';
 
 interface FloatingAudioPlayerProps {
   currentPiece: PieceData | null;
@@ -57,15 +58,20 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
     return null;
   }
 
+  // Si el motor de audio quedó con otra pieza (en pausa o detenido), se muestra la pieza actual y no la vieja.
+  const currentId = currentPiece?.piece_id || currentPiece?.id;
+  const engineIsOtherPiece = !!currentId && !!ttsState.pieceId && ttsState.pieceId !== currentId && !ttsState.isPlaying;
+  const engineTitle = engineIsOtherPiece ? '' : ttsState.title;
+
   const pieceTitle =
-    ttsState.title ||
+    engineTitle ||
     currentPiece?.titulo ||
     currentPiece?.title ||
     (currentPiece as any)?.identification?.title ||
     t.player.defaultPieceTitle;
 
   const pieceRoom =
-    ttsState.roomName ||
+    (engineIsOtherPiece ? '' : ttsState.roomName) ||
     roomName ||
     currentPiece?.location?.room_name ||
     currentPiece?.room_id ||
@@ -104,7 +110,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
     e?.stopPropagation();
     if (ttsState.isPlaying) {
       ttsPlayer.pause();
-    } else if (ttsState.isPaused) {
+    } else if (ttsState.isPaused && !engineIsOtherPiece) {
       ttsPlayer.resume();
     } else {
       ttsPlayer.play(
@@ -116,6 +122,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
           artworkUrl: imageFilename ? getAssetUrl(`images/pieces/${imageFilename}`) : undefined,
           pieceId: currentPiece?.piece_id || currentPiece?.id,
           mode: selectedMode,
+          audioUrl: currentPiece ? resolvePieceAudio(currentPiece as any, currentLanguage, selectedMode)?.url : undefined,
           lang: readLang,
         }
       );
@@ -140,6 +147,7 @@ export const FloatingAudioPlayer: React.FC<FloatingAudioPlayerProps> = ({
           artworkUrl: imageFilename ? getAssetUrl(`images/pieces/${imageFilename}`) : undefined,
           pieceId: currentPiece?.piece_id || currentPiece?.id,
           mode,
+          audioUrl: currentPiece ? resolvePieceAudio(currentPiece as any, currentLanguage, mode)?.url : undefined,
           lang: readLang,
         }
       );
