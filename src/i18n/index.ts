@@ -18,6 +18,7 @@ import { wizard } from './groups/wizard';
 import { app } from './groups/app';
 import { paywall } from './groups/paywall';
 import { ui } from './groups/ui';
+import { PL_GROUPS } from './pl';
 
 const groups = {
   common,
@@ -62,7 +63,7 @@ export function getStrings(lang: SupportedLanguage): Strings {
   if (cache[lang]) return cache[lang]!;
   const out: any = {};
   for (const [name, g] of Object.entries(groups) as [string, any][]) {
-    out[name] = lang === 'es' ? g.es : mergeGroup(g.es, g[lang]);
+    out[name] = lang === 'es' ? g.es : mergeGroup(g.es, g[lang] ?? (lang === 'pl' ? PL_GROUPS[name] : undefined));
   }
   cache[lang] = out as Strings;
   return cache[lang]!;

@@ -28,7 +28,7 @@ jobs:
       - name: Compilar (con datos al día y el selector de idioma visible)
         env:
           VITE_PAYMENTS_API_URL: https://pagos.test
-          VITE_PUBLISHED_LANGUAGES: es,en,fr
+          VITE_PUBLISHED_LANGUAGES: es,en,fr,pl
         run: |
           node scripts/ci-run.mjs datos -- node scripts/sync-sheets.js
           node scripts/ci-run.mjs compilar -- npx vite build --outDir dist-capturas
