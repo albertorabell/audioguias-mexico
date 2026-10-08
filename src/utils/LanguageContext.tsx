@@ -11,6 +11,7 @@ import {
 import { setCurrentLanguage } from '../i18n/runtime';
 import { getStrings, Strings } from '../i18n';
 import { localizePiece, localizeRoom } from '../i18n/content';
+import { track } from './analytics';
 
 export type { SupportedLanguage, LanguageOption };
 export { availableLanguages };
@@ -53,6 +54,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     if (!isActiveLanguage(lang)) return;
     setCurrentLanguageState(lang);
     setCurrentLanguage(lang);
+    track('lang_change', { l: lang });
     try {
       localStorage.setItem(LANG_STORAGE_KEY, lang);
     } catch {

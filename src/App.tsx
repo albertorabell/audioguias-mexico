@@ -24,6 +24,7 @@ import { useBackClose } from './utils/useBackClose';
 import { useLanguage } from './utils/LanguageContext';
 import { localizeSite, localizeRoute } from './i18n/content';
 import { getRoomLabel } from './utils/roomLabel';
+import { track } from './utils/analytics';
 
 /** Con qué se navega dentro de la ficha de una pieza (anterior / siguiente): una sala o un recorrido. */
 interface PieceNav {
@@ -120,6 +121,11 @@ export default function App() {
   );
 
   useEffect(() => {
+    track('app_open', { l: currentLanguage });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
     try {
       // La app decide a qué altura queda cada pantalla al regresar (el navegador no debe moverla por su cuenta)
       window.history.scrollRestoration = 'manual';
@@ -173,7 +179,10 @@ export default function App() {
   );
 
   const [paywallOpen, setPaywallOpen] = useState(false);
-  const openPaywall = useCallback(() => setPaywallOpen(true), []);
+  const openPaywall = useCallback(() => {
+    track('paywall_open');
+    setPaywallOpen(true);
+  }, []);
   const closePaywall = useCallback(() => setPaywallOpen(false), []);
   // La ventana de pago se cierra también con el botón "atrás" del teléfono
   useBackClose(paywallOpen, closePaywall);
@@ -380,6 +389,7 @@ export default function App() {
     if (!route.stops?.length) return;
     const top = stackRef.current[stackRef.current.length - 1];
     setDoneRoute(null);
+    track('route_start');
     openTourStop(route, 0, top.kind === 'wizard' ? 'replace' : 'auto');
   };
 
@@ -414,6 +424,7 @@ export default function App() {
     }
     if (nav.kind === 'tour' && tourRoute) {
       ttsPlayer.stop();
+      track('tour_done');
       setDoneRoute(tourRoute);
       endTour();
       replaceTop({ kind: 'tourDone' });

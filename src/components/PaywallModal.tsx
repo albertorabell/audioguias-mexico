@@ -6,6 +6,7 @@ import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
 import { PAYMENTS_ENABLED } from '../config/payments';
 import { fetchPricing, PricingInfo, redeemCode, startCheckout, PaymentErrorCode } from '../utils/payments';
 import { SPEECH_LOCALE } from '../i18n/languages';
+import { track } from '../utils/analytics';
 
 interface PaywallModalProps {
   isOpen: boolean;
@@ -123,6 +124,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const handleCheckout = async () => {
     setError(null);
     setBusy('checkout');
+    track('checkout_start', { l: currentLanguage });
     const r = await startCheckout(siteId, currentLanguage);
     if (r.ok) {
       // Se sale a la página segura de Stripe; al pagar, Stripe regresa a esta app

@@ -4,6 +4,9 @@
 //   POST /redeem     el visitante regresó de pagar: se confirma con Stripe y se le da una clave de acceso
 //   POST /code       un segundo dispositivo entra con el código corto del pase
 //   POST /status     revisa si una clave sigue vigente
+//   POST /stripe-webhook  Stripe avisa de reembolsos y disputas: el pase se cancela solo
+//   POST /evento      la app cuenta (sin datos personales) qué se usa: obra vista, audio, pantalla del pase...
+//   GET  /estadisticas  resumen de esos conteos (solo con la clave STATS_KEY)
 //   GET  /config     precios reales (los lee de Stripe) y reglas del pase
 //   GET  /audio/libre/<idioma>/<pieza>_<modo>.mp3          audios de piezas gratis (públicos, sin clave)
 //   GET  /audio/pago/<idioma>/<pieza>_<modo>.mp3?t=<clave> audios de piezas de pago (solo con clave vigente)
@@ -121,6 +124,7 @@ async function savePass(env, cfg, sessionId, pass) {
 /** Agrega el dispositivo al pase (si cabe) y devuelve la respuesta con la clave. */
 async function grantAccess(env, cfg, sessionId, pass, deviceId) {
   const now = Date.now();
+  if (pass.revoked || (await isRevoked(env, sid12(sessionId)))) return { error: 'revoked', status: 403 };
   if (pass.expiresAt <= now) return { error: 'expired', status: 410 };
   if (!pass.devices.includes(deviceId)) {
     if (pass.devices.length >= cfg.maxDevices) return { error: 'device_limit', status: 403 };
@@ -132,6 +136,140 @@ async function grantAccess(env, cfg, sessionId, pass, deviceId) {
     status: 200,
     body: { token, site: pass.site, expiresAt: pass.expiresAt, code: pass.code, devices: pass.devices.length, maxDevices: cfg.maxDevices },
   };
+}
+
+
+// ---------------------------------------------------------------------------
+// Pases cancelados (reembolso o disputa en Stripe)
+// ---------------------------------------------------------------------------
+const sid12 = (sessionId) => String(sessionId).slice(-12);
+const revokedKey = (id12) => `r:${id12}`;
+
+async function isRevoked(env, id12) {
+  return Boolean(id12) && (await env.PASES.get(revokedKey(id12))) !== null;
+}
+
+/** Cancela el pase de una sesión pagada: deja de abrir audios y textos, y su código deja de funcionar. */
+async function revokeSession(env, cfg, sessionId) {
+  const ttl = cfg.sessionDays * 86400 + cfg.hours * 3600 + 86400;
+  await env.PASES.put(revokedKey(sid12(sessionId)), '1', { expirationTtl: ttl });
+  const pass = await loadPass(env, sessionId);
+  if (pass) {
+    pass.expiresAt = Date.now();
+    pass.revoked = true;
+    await savePass(env, cfg, sessionId, pass);
+  }
+}
+
+/** Comprueba la firma de Stripe ("Stripe-Signature: t=...,v1=...") sobre el cuerpo tal cual llegó. */
+export async function verifyStripeSignature(rawBody, header, secret, nowMs = Date.now(), toleranceSec = 300) {
+  if (!secret || typeof header !== 'string') return false;
+  const parts = header.split(',').map((x) => x.trim().split('='));
+  const t = parts.find(([k]) => k === 't')?.[1];
+  const sigs = parts.filter(([k]) => k === 'v1').map(([, v]) => v);
+  if (!t || !sigs.length || !/^\d+$/.test(t)) return false;
+  if (Math.abs(nowMs / 1000 - Number(t)) > toleranceSec) return false;
+  const key = await crypto.subtle.importKey('raw', new TextEncoder().encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
+  const mac = new Uint8Array(await crypto.subtle.sign('HMAC', key, new TextEncoder().encode(`${t}.${rawBody}`)));
+  const expected = Array.from(mac, (b) => b.toString(16).padStart(2, '0')).join('');
+  return sigs.some((sig) => timingSafeEqual(sig, expected));
+}
+
+function timingSafeEqual(a, b) {
+  if (typeof a !== 'string' || typeof b !== 'string' || a.length !== b.length) return false;
+  let diff = 0;
+  for (let i = 0; i < a.length; i++) diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return diff === 0;
+}
+
+async function handleStripeWebhook(request, env, cfg, cors) {
+  if (!env.STRIPE_WEBHOOK_SECRET) return json({ error: 'not_configured' }, 503, cors);
+  const raw = await request.text();
+  if (raw.length > 200_000) return json({ error: 'bad_request' }, 400, cors);
+  if (!(await verifyStripeSignature(raw, request.headers.get('Stripe-Signature'), env.STRIPE_WEBHOOK_SECRET))) {
+    return json({ error: 'bad_signature' }, 400, cors);
+  }
+  let event;
+  try {
+    event = JSON.parse(raw);
+  } catch {
+    return json({ error: 'bad_request' }, 400, cors);
+  }
+  const obj = event?.data?.object || {};
+  // Reembolso total o disputa (contracargo): el pase se cancela. Un reembolso parcial no lo cancela.
+  const cancels = (event.type === 'charge.refunded' && obj.refunded === true) || event.type === 'charge.dispute.created';
+  if (!cancels) return json({ received: true, ignored: true }, 200, cors);
+  const paymentIntent = obj.payment_intent;
+  if (typeof paymentIntent !== 'string' || !/^pi_[A-Za-z0-9]+$/.test(paymentIntent)) return json({ received: true, ignored: true }, 200, cors);
+  let list;
+  try {
+    list = await stripeCall(env, 'GET', `checkout/sessions?payment_intent=${encodeURIComponent(paymentIntent)}&limit=1`);
+  } catch (e) {
+    console.error('webhook', e.message);
+    return json({ error: 'stripe_error' }, 502, cors); // Stripe lo reintenta
+  }
+  const session = list?.data?.[0];
+  if (!session || !cfg.sites.includes(session.metadata?.site_id)) return json({ received: true, ignored: true }, 200, cors);
+  await revokeSession(env, cfg, session.id);
+  await countEvent(env, 'refund', { s: session.metadata.site_id, k: event.type === 'charge.dispute.created' ? 'disputa' : 'reembolso' });
+  return json({ received: true, revoked: true }, 200, cors);
+}
+
+// ---------------------------------------------------------------------------
+// Conteo anónimo de uso. No se guarda IP, ni identificador de dispositivo, ni nada que identifique a una persona:
+// solo contadores por día ("obra vista: Piedra del Sol, 12 veces").
+// ---------------------------------------------------------------------------
+const EVENTS = new Set([
+  'app_open', 'piece_view', 'audio_play', 'audio_end', 'paywall_open', 'checkout_start', 'lang_change',
+  'route_start', 'tour_done', 'install', 'offline_download', 'search', 'purchase', 'refund',
+]);
+const PIECE_RE = /^[a-z0-9_]{3,60}$/;
+const DAILY_KEY_LIMIT = 3000;
+
+const dayKey = (d = new Date()) => `ev:${d.toISOString().slice(0, 10)}`;
+
+/** Suma 1 a un contador del día. Es un conteo aproximado: dos visitas exactamente simultáneas pueden contarse como una. */
+async function countEvent(env, name, f = {}) {
+  if (!EVENTS.has(name)) return;
+  const field = (v, re) => (typeof v === 'string' && re.test(v) ? v : '');
+  const key = [name, field(f.s, /^[a-z0-9_-]{1,20}$/i).toLowerCase(), field(f.p, PIECE_RE), field(f.l, /^[a-z]{2}$/), field(f.m, /^(corto|largo)$/), field(f.k, /^[a-z0-9_-]{1,20}$/i)].join('|');
+  try {
+    const dk = dayKey();
+    const raw = await env.PASES.get(dk);
+    const day = raw ? JSON.parse(raw) : { c: {} };
+    if (!(key in day.c) && Object.keys(day.c).length >= DAILY_KEY_LIMIT) {
+      day.c['_descartados'] = (day.c['_descartados'] || 0) + 1;
+    } else {
+      day.c[key] = (day.c[key] || 0) + 1;
+    }
+    await env.PASES.put(dk, JSON.stringify(day), { expirationTtl: 400 * 86400 });
+  } catch (e) {
+    console.error('evento', e && e.message);
+  }
+}
+
+async function handleEvent(request, env, cfg, cors) {
+  // Solo desde la app (sitio permitido): evita que cualquiera infle los números con un script suelto
+  if (!cors['Access-Control-Allow-Origin']) return json({ error: 'origin_not_allowed' }, 403);
+  const body = await readJson(request);
+  if (!body || typeof body.e !== 'string' || !EVENTS.has(body.e) || body.e === 'purchase' || body.e === 'refund') return json({ error: 'bad_request' }, 400, cors);
+  const site = siteKey(body.s) || cfg.sites[0];
+  if (!cfg.sites.includes(site)) return json({ error: 'bad_request' }, 400, cors);
+  await countEvent(env, body.e, { s: site, p: body.p, l: body.l, m: body.m, k: body.k });
+  return new Response(null, { status: 204, headers: cors });
+}
+
+async function handleStats(request, env, url, cors) {
+  const auth = request.headers.get('Authorization') || '';
+  if (!env.STATS_KEY || !timingSafeEqual(auth, `Bearer ${env.STATS_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
+  const days = Math.min(Math.max(parseInt(url.searchParams.get('dias') || '30', 10) || 30, 1), 90);
+  const out = {};
+  for (let i = 0; i < days; i++) {
+    const d = new Date(Date.now() - i * 86400_000);
+    const raw = await env.PASES.get(dayKey(d));
+    if (raw) out[dayKey(d).slice(3)] = JSON.parse(raw).c;
+  }
+  return json({ dias: days, zona: 'UTC', conteos: out }, 200, cors);
 }
 
 // ---------------------------------------------------------------------------
@@ -211,6 +349,7 @@ async function handleRedeem(request, env, cfg, cors) {
   const site = session.metadata?.site_id;
   if (!cfg.sites.includes(site) || (siteId && siteId !== site)) return json({ error: 'bad_session' }, 403, cors);
 
+  if (await isRevoked(env, sid12(sessionId))) return json({ error: 'revoked' }, 403, cors);
   let pass = await loadPass(env, sessionId);
   if (!pass) {
     // Una sesión pagada solo se puede canjear por primera vez dentro de sessionDays. Sin este límite, quien conserve el
@@ -221,6 +360,7 @@ async function handleRedeem(request, env, cfg, cors) {
     pass = { site, devices: [], createdAt: Date.now(), expiresAt: Date.now() + cfg.hours * 3600_000, code: makeCode() };
     await env.PASES.put(codeKey(pass.code), sessionId, { expirationTtl: cfg.hours * 3600 + 7 * 86400 });
     await savePass(env, cfg, sessionId, pass);
+    await countEvent(env, 'purchase', { s: site, k: String(session.currency || '').toLowerCase() });
   }
   const r = await grantAccess(env, cfg, sessionId, pass, deviceId);
   return r.error ? json({ error: r.error }, r.status, cors) : json(r.body, 200, cors);
@@ -242,6 +382,7 @@ async function handleCode(request, env, cfg, cors) {
 async function handleStatus(request, env, cors) {
   const body = await readJson(request);
   const payload = body ? await verifyToken(body.token, env.TOKEN_SECRET) : null;
+  if (payload && (await isRevoked(env, payload.sid))) return json({ valid: false, revoked: true }, 200, cors);
   return payload ? json({ valid: true, expiresAt: payload.exp, site: payload.site }, 200, cors) : json({ valid: false }, 200, cors);
 }
 
@@ -287,7 +428,7 @@ async function handleAudio(request, env, cfg, cors, url) {
   const premium = m[1] === 'pago';
   if (premium) {
     const payload = await verifyToken(url.searchParams.get('t'), env.TOKEN_SECRET);
-    if (!payload || !cfg.sites.includes(payload.site)) return new Response('Sin acceso', { status: 401, headers: cors });
+    if (!payload || !cfg.sites.includes(payload.site) || (await isRevoked(env, payload.sid))) return new Response('Sin acceso', { status: 401, headers: cors });
   }
 
   const key = `${m[1]}/${m[2]}/${m[3]}_${m[4]}.mp3`;
@@ -338,9 +479,12 @@ export default {
       // Los navegadores de otros sitios no pueden usar este servidor (los audios con clave se piden sin Origin: la clave los protege)
       if (request.method === 'POST' && origin && !cors['Access-Control-Allow-Origin']) return json({ error: 'origin_not_allowed' }, 403);
 
+      if (url.pathname === '/estadisticas' && request.method === 'GET') return handleStats(request, env, url, cors);
       if (url.pathname === '/health') return json({ ok: true }, 200, cors);
       if (url.pathname === '/config' && request.method === 'GET') return handleConfig(env, cfg, cors);
       if (url.pathname.startsWith('/audio/') && (request.method === 'GET' || request.method === 'HEAD')) return handleAudio(request, env, cfg, cors, url);
+      if (request.method === 'POST' && url.pathname === '/stripe-webhook') return handleStripeWebhook(request, env, cfg, cors);
+      if (request.method === 'POST' && url.pathname === '/evento') return handleEvent(request, env, cfg, cors);
       if (request.method === 'POST') {
         if (!env.TOKEN_SECRET || !env.STRIPE_SECRET_KEY) return json({ error: 'not_configured' }, 503, cors);
         if (url.pathname === '/checkout') return handleCheckout(request, env, cfg, cors);

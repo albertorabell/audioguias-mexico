@@ -11,6 +11,7 @@ import { PieceData } from '../types';
 import { getAssetUrl } from '../utils/urlHelper';
 import { useLanguage } from '../utils/LanguageContext';
 import { resolvePieceAudio } from '../utils/audioSource';
+import { track } from '../utils/analytics';
 
 interface OfflineTourBannerProps {
   pieces: PieceData[];
@@ -88,6 +89,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
   }, [signature]);
 
   const handleStartDownload = async () => {
+    track('offline_download');
     const success = await downloadTourOffline(urls, (p) => {
       setProgress(p);
     }, signature);

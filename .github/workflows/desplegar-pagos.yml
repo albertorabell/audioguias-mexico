@@ -54,3 +54,20 @@ jobs:
         env:
           STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
           TOKEN_SECRET: ${{ secrets.TOKEN_SECRET }}
+
+      # Claves opcionales: solo se guardan si las creaste en GitHub (si no, esas funciones quedan apagadas y no pasa nada)
+      - name: Guardar claves opcionales (reembolsos automáticos y resumen de uso)
+        working-directory: pagos
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          STRIPE_WEBHOOK_SECRET: ${{ secrets.STRIPE_WEBHOOK_SECRET }}
+          STATS_KEY: ${{ secrets.STATS_KEY }}
+        run: |
+          for v in STRIPE_WEBHOOK_SECRET STATS_KEY; do
+            if [ -n "${!v}" ]; then
+              printf '%s' "${!v}" | npx --yes wrangler@4 secret put "$v"
+            else
+              echo "::notice::No hay secreto $v en GitHub: esa función queda apagada."
+            fi
+          done
