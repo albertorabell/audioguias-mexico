@@ -25,8 +25,8 @@ test('cobro apagado: un enlace de regreso de Stripe no rompe la app', async ({ p
   await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
 });
 
-// La versión pública (sin VITE_PUBLISHED_LANGUAGES) solo tiene español: no se publica nada a medias.
-test('versión pública: no aparece el selector de idioma y la app está en español', async ({ page }) => {
+// Versión compilada con VITE_PUBLISHED_LANGUAGES=es (un solo idioma): no aparece el selector.
+test('un solo idioma: no aparece el selector de idioma y la app está en español', async ({ page }) => {
   await aislar(page);
   await page.goto('/');
   await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
@@ -34,7 +34,7 @@ test('versión pública: no aparece el selector de idioma y la app está en espa
   await expect(page.locator('html')).toHaveAttribute('lang', 'es');
 });
 
-test('versión pública: un idioma guardado en una visita anterior (inglés) se ignora', async ({ page }) => {
+test('un solo idioma: un idioma guardado en una visita anterior (inglés) se ignora', async ({ page }) => {
   await aislar(page);
   await page.addInitScript(() => localStorage.setItem('audioguias_lang', 'en'));
   await page.goto('/');
