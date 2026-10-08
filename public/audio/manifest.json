@@ -6,7 +6,7 @@
         "corto": {
           "hash": "42db90b0979b9168",
           "file": "en/mna_s00_el_paraguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 43,
           "bytes": 255600,
           "provider": "azure"
@@ -14,7 +14,7 @@
         "largo": {
           "hash": "deb7f72281bca82a",
           "file": "en/mna_s00_el_paraguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 91,
           "bytes": 547200,
           "provider": "azure"
@@ -60,7 +60,7 @@
         "corto": {
           "hash": "fbd8575d780bbffc",
           "file": "en/mna_s00_monolito_tlaloc_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 44,
           "bytes": 261936,
           "provider": "azure"
@@ -68,7 +68,7 @@
         "largo": {
           "hash": "9e8ed94367f85fdf",
           "file": "en/mna_s00_monolito_tlaloc_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 90,
           "bytes": 540288,
           "provider": "azure"
@@ -114,7 +114,7 @@
         "corto": {
           "hash": "ed954c19653db25e",
           "file": "en/mna_s01_lucy_afarensis_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 49,
           "bytes": 296352,
           "provider": "azure"
@@ -122,7 +122,7 @@
         "largo": {
           "hash": "072813adcc5818cd",
           "file": "en/mna_s01_lucy_afarensis_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 82,
           "bytes": 494064,
           "provider": "azure"
@@ -150,7 +150,7 @@
         "corto": {
           "hash": "8a1588c5c3565811",
           "file": "en/mna_s02_mamut_iztapan_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 42,
           "bytes": 251856,
           "provider": "azure"
@@ -158,7 +158,7 @@
         "largo": {
           "hash": "bd0e32db04c31391",
           "file": "en/mna_s02_mamut_iztapan_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 88,
           "bytes": 528768,
           "provider": "azure"
@@ -204,7 +204,7 @@
         "corto": {
           "hash": "c2aa16905a84368b",
           "file": "en/mna_s03_acrobata_tlatilco_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 47,
           "bytes": 282528,
           "provider": "azure"
@@ -212,7 +212,7 @@
         "largo": {
           "hash": "5ff308d3e539a506",
           "file": "en/mna_s03_acrobata_tlatilco_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 115,
           "bytes": 690192,
           "provider": "azure"
@@ -438,7 +438,7 @@
         "corto": {
           "hash": "9676d78d0743e681",
           "file": "en/mna_s04_chalchiuhtlicue_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 45,
           "bytes": 267552,
           "provider": "azure"
@@ -446,7 +446,7 @@
         "largo": {
           "hash": "03d761e6422f5c71",
           "file": "en/mna_s04_chalchiuhtlicue_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 86,
           "bytes": 516816,
           "provider": "azure"
@@ -582,7 +582,7 @@
         "corto": {
           "hash": "cceaabab628c0b93",
           "file": "en/mna_s05_atlante_tula_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 276768,
           "provider": "azure"
@@ -590,7 +590,7 @@
         "largo": {
           "hash": "badb176eaf3cbb60",
           "file": "en/mna_s05_atlante_tula_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 124,
           "bytes": 746496,
           "provider": "azure"
@@ -888,7 +888,7 @@
         "corto": {
           "hash": "584699e99253fe41",
           "file": "en/mna_s06_penacho_moctezuma_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 47,
           "bytes": 279072,
           "provider": "azure"
@@ -896,7 +896,7 @@
         "largo": {
           "hash": "3432ae2618dfe2c7",
           "file": "en/mna_s06_penacho_moctezuma_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 90,
           "bytes": 539280,
           "provider": "azure"
@@ -924,7 +924,7 @@
         "corto": {
           "hash": "4b2f816082fe2fdb",
           "file": "en/mna_s06_piedra_sol_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 275040,
           "provider": "azure"
@@ -932,7 +932,7 @@
         "largo": {
           "hash": "a71cc63c4cf11182",
           "file": "en/mna_s06_piedra_sol_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 116,
           "bytes": 697248,
           "provider": "azure"
@@ -1104,7 +1104,7 @@
         "corto": {
           "hash": "299c94e87373d005",
           "file": "en/mna_s07_mascara_murcielago_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 51,
           "bytes": 307440,
           "provider": "azure"
@@ -1112,7 +1112,7 @@
         "largo": {
           "hash": "dcebd2695eef2637",
           "file": "en/mna_s07_mascara_murcielago_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 88,
           "bytes": 525744,
           "provider": "azure"
@@ -1230,7 +1230,7 @@
         "corto": {
           "hash": "b8096b095b3f6bba",
           "file": "en/mna_s08_cabeza_colosal_6_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 48,
           "bytes": 286848,
           "provider": "azure"
@@ -1238,7 +1238,7 @@
         "largo": {
           "hash": "89cd481a5aef3af0",
           "file": "en/mna_s08_cabeza_colosal_6_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 98,
           "bytes": 587952,
           "provider": "azure"
@@ -1554,7 +1554,7 @@
         "corto": {
           "hash": "fab2a63a8e8974fb",
           "file": "en/mna_s09_mascara_pakal_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 48,
           "bytes": 290304,
           "provider": "azure"
@@ -1562,7 +1562,7 @@
         "largo": {
           "hash": "a94c204d5b7bf706",
           "file": "en/mna_s09_mascara_pakal_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 92,
           "bytes": 552096,
           "provider": "azure"
@@ -1734,7 +1734,7 @@
         "corto": {
           "hash": "70430489e27d7948",
           "file": "en/mna_s10_perros_colima_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 50,
           "bytes": 297216,
           "provider": "azure"
@@ -1742,7 +1742,7 @@
         "largo": {
           "hash": "0643deb3d7ed6fec",
           "file": "en/mna_s10_perros_colima_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 106,
           "bytes": 633456,
           "provider": "azure"
@@ -1842,7 +1842,7 @@
         "corto": {
           "hash": "dc50507f1ef8af1d",
           "file": "en/mna_s11_olla_paquime_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 47,
           "bytes": 284112,
           "provider": "azure"
@@ -1850,7 +1850,7 @@
         "largo": {
           "hash": "e030665b581b3729",
           "file": "en/mna_s11_olla_paquime_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 86,
           "bytes": 517392,
           "provider": "azure"
@@ -1932,7 +1932,7 @@
         "corto": {
           "hash": "a3039a4adad28644",
           "file": "en/mna_s12_mapa_lenguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 70,
           "bytes": 421200,
           "provider": "azure"
@@ -1940,7 +1940,7 @@
         "largo": {
           "hash": "b30234174921c263",
           "file": "en/mna_s12_mapa_lenguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 184,
           "bytes": 1101312,
           "provider": "azure"
@@ -1968,7 +1968,7 @@
         "corto": {
           "hash": "7157cdfe052ff066",
           "file": "en/mna_s13_nierika_estambre_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 66,
           "bytes": 397296,
           "provider": "azure"
@@ -1976,7 +1976,7 @@
         "largo": {
           "hash": "12f6c60684cf46ce",
           "file": "en/mna_s13_nierika_estambre_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 172,
           "bytes": 1029024,
           "provider": "azure"
@@ -2022,7 +2022,7 @@
         "corto": {
           "hash": "a07b6cc5d661560f",
           "file": "en/mna_s14_mascara_viejitos_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 66,
           "bytes": 398016,
           "provider": "azure"
@@ -2030,7 +2030,7 @@
         "largo": {
           "hash": "a00a542474296849",
           "file": "en/mna_s14_mascara_viejitos_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 153,
           "bytes": 917568,
           "provider": "azure"
@@ -2112,7 +2112,7 @@
         "corto": {
           "hash": "bace2c4da02f07a1",
           "file": "en/mna_s15_quechquemitl_otomi_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 67,
           "bytes": 401328,
           "provider": "azure"
@@ -2120,7 +2120,7 @@
         "largo": {
           "hash": "f5b153cd3a7a1ef4",
           "file": "en/mna_s15_quechquemitl_otomi_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 155,
           "bytes": 930816,
           "provider": "azure"
@@ -2148,7 +2148,7 @@
         "corto": {
           "hash": "35aef0f56cee8667",
           "file": "en/mna_s16_corona_quetzales_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 64,
           "bytes": 381024,
           "provider": "azure"
@@ -2156,7 +2156,7 @@
         "largo": {
           "hash": "3354661d689b1129",
           "file": "en/mna_s16_corona_quetzales_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 154,
           "bytes": 926928,
           "provider": "azure"
@@ -2274,7 +2274,7 @@
         "corto": {
           "hash": "dbdf755706f8eebc",
           "file": "en/mna_s17_traje_tehuana_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 63,
           "bytes": 379440,
           "provider": "azure"
@@ -2282,7 +2282,7 @@
         "largo": {
           "hash": "f16658ecf7f7488b",
           "file": "en/mna_s17_traje_tehuana_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 154,
           "bytes": 921312,
           "provider": "azure"
@@ -2310,7 +2310,7 @@
         "corto": {
           "hash": "3cd6051a48c63cdc",
           "file": "en/mna_s18_dhubem_huasteco_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 61,
           "bytes": 365904,
           "provider": "azure"
@@ -2318,7 +2318,7 @@
         "largo": {
           "hash": "1f1a4eb9fbe028c9",
           "file": "en/mna_s18_dhubem_huasteco_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 154,
           "bytes": 924480,
           "provider": "azure"
@@ -2364,7 +2364,7 @@
         "corto": {
           "hash": "9baef60e7d597dcc",
           "file": "en/mna_s19_gaban_chamula_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 60,
           "bytes": 362736,
           "provider": "azure"
@@ -2372,7 +2372,7 @@
         "largo": {
           "hash": "7effcc408a195cce",
           "file": "en/mna_s19_gaban_chamula_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 146,
           "bytes": 876240,
           "provider": "azure"
@@ -2454,7 +2454,7 @@
         "corto": {
           "hash": "b172b6019a4a9048",
           "file": "en/mna_s20_mascara_chapayeka_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 64,
           "bytes": 381168,
           "provider": "azure"
@@ -2462,7 +2462,7 @@
         "largo": {
           "hash": "776ee81ef0a0bb59",
           "file": "en/mna_s20_mascara_chapayeka_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 157,
           "bytes": 943488,
           "provider": "azure"
@@ -2564,7 +2564,7 @@
         "corto": {
           "hash": "76999e08d9f22912",
           "file": "es/mna_s00_el_paraguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 40,
           "bytes": 242640,
           "provider": "azure"
@@ -2572,7 +2572,7 @@
         "largo": {
           "hash": "be477faae78b184c",
           "file": "es/mna_s00_el_paraguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 85,
           "bytes": 509328,
           "provider": "azure"
@@ -2618,7 +2618,7 @@
         "corto": {
           "hash": "e2ec7e4098e3984b",
           "file": "es/mna_s00_monolito_tlaloc_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 41,
           "bytes": 245520,
           "provider": "azure"
@@ -2626,7 +2626,7 @@
         "largo": {
           "hash": "0537f25b2555f802",
           "file": "es/mna_s00_monolito_tlaloc_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 87,
           "bytes": 524736,
           "provider": "azure"
@@ -2654,7 +2654,7 @@
         "corto": {
           "hash": "d6a78c35cabc226c",
           "file": "es/mna_s01_lucy_afarensis_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 49,
           "bytes": 293040,
           "provider": "azure"
@@ -2662,7 +2662,7 @@
         "largo": {
           "hash": "125fcf684a225bce",
           "file": "es/mna_s01_lucy_afarensis_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 81,
           "bytes": 487440,
           "provider": "azure"
@@ -2690,7 +2690,7 @@
         "corto": {
           "hash": "cd8777c865679ea6",
           "file": "es/mna_s02_mamut_iztapan_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 41,
           "bytes": 245520,
           "provider": "azure"
@@ -2698,7 +2698,7 @@
         "largo": {
           "hash": "8417175b704da195",
           "file": "es/mna_s02_mamut_iztapan_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 84,
           "bytes": 503712,
           "provider": "azure"
@@ -2744,7 +2744,7 @@
         "corto": {
           "hash": "b3590ce64a5dea91",
           "file": "es/mna_s03_acrobata_tlatilco_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 273888,
           "provider": "azure"
@@ -2752,7 +2752,7 @@
         "largo": {
           "hash": "9f9b84bf31fa63ee",
           "file": "es/mna_s03_acrobata_tlatilco_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 114,
           "bytes": 681120,
           "provider": "azure"
@@ -2978,7 +2978,7 @@
         "corto": {
           "hash": "83b5a16988d14400",
           "file": "es/mna_s04_chalchiuhtlicue_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 40,
           "bytes": 241488,
           "provider": "azure"
@@ -2986,7 +2986,7 @@
         "largo": {
           "hash": "d6bb3fb11697d12d",
           "file": "es/mna_s04_chalchiuhtlicue_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 78,
           "bytes": 467568,
           "provider": "azure"
@@ -3104,7 +3104,7 @@
         "corto": {
           "hash": "a05c499102261c05",
           "file": "es/mna_s05_atlante_tula_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 44,
           "bytes": 261504,
           "provider": "azure"
@@ -3112,7 +3112,7 @@
         "largo": {
           "hash": "e00c0a112f598a12",
           "file": "es/mna_s05_atlante_tula_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 118,
           "bytes": 707328,
           "provider": "azure"
@@ -3374,7 +3374,7 @@
         "corto": {
           "hash": "fbeaef573fdd397c",
           "file": "es/mna_s06_penacho_moctezuma_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 273744,
           "provider": "azure"
@@ -3382,7 +3382,7 @@
         "largo": {
           "hash": "9c512345ccdb5014",
           "file": "es/mna_s06_penacho_moctezuma_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 84,
           "bytes": 506016,
           "provider": "azure"
@@ -3392,7 +3392,7 @@
         "corto": {
           "hash": "2b38731f5bbfb5c6",
           "file": "es/mna_s06_piedra_sol_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 275184,
           "provider": "azure"
@@ -3400,7 +3400,7 @@
         "largo": {
           "hash": "b3c68d768cbabd06",
           "file": "es/mna_s06_piedra_sol_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 109,
           "bytes": 656208,
           "provider": "azure"
@@ -3572,7 +3572,7 @@
         "corto": {
           "hash": "7a1a68a00690eae4",
           "file": "es/mna_s07_mascara_murcielago_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 49,
           "bytes": 296064,
           "provider": "azure"
@@ -3580,7 +3580,7 @@
         "largo": {
           "hash": "3ffb901a637a496c",
           "file": "es/mna_s07_mascara_murcielago_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 85,
           "bytes": 511488,
           "provider": "azure"
@@ -3680,7 +3680,7 @@
         "corto": {
           "hash": "dbad8b419769d560",
           "file": "es/mna_s08_cabeza_colosal_6_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 274608,
           "provider": "azure"
@@ -3688,7 +3688,7 @@
         "largo": {
           "hash": "a805a0e602ffe07f",
           "file": "es/mna_s08_cabeza_colosal_6_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 93,
           "bytes": 560880,
           "provider": "azure"
@@ -3968,7 +3968,7 @@
         "corto": {
           "hash": "aba41c649663eb36",
           "file": "es/mna_s09_mascara_pakal_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 47,
           "bytes": 280512,
           "provider": "azure"
@@ -3976,7 +3976,7 @@
         "largo": {
           "hash": "978adbd3023d52f4",
           "file": "es/mna_s09_mascara_pakal_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 89,
           "bytes": 532224,
           "provider": "azure"
@@ -4130,7 +4130,7 @@
         "corto": {
           "hash": "7f5f2b058f98f486",
           "file": "es/mna_s10_perros_colima_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 48,
           "bytes": 290880,
           "provider": "azure"
@@ -4138,7 +4138,7 @@
         "largo": {
           "hash": "33955e17408995b3",
           "file": "es/mna_s10_perros_colima_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 103,
           "bytes": 616608,
           "provider": "azure"
@@ -4238,7 +4238,7 @@
         "corto": {
           "hash": "0cd2b5762f6a553f",
           "file": "es/mna_s11_olla_paquime_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 277488,
           "provider": "azure"
@@ -4246,7 +4246,7 @@
         "largo": {
           "hash": "4ab322f315498922",
           "file": "es/mna_s11_olla_paquime_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 84,
           "bytes": 503280,
           "provider": "azure"
@@ -4328,7 +4328,7 @@
         "corto": {
           "hash": "9b9801ec9697409e",
           "file": "es/mna_s12_mapa_lenguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 70,
           "bytes": 417456,
           "provider": "azure"
@@ -4336,7 +4336,7 @@
         "largo": {
           "hash": "6bebd8c841cb1348",
           "file": "es/mna_s12_mapa_lenguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 182,
           "bytes": 1094112,
           "provider": "azure"
@@ -4364,7 +4364,7 @@
         "corto": {
           "hash": "4381b16d1ce94a74",
           "file": "es/mna_s13_nierika_estambre_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 67,
           "bytes": 400320,
           "provider": "azure"
@@ -4372,7 +4372,7 @@
         "largo": {
           "hash": "4d3346451adb1c90",
           "file": "es/mna_s13_nierika_estambre_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 169,
           "bytes": 1012896,
           "provider": "azure"
@@ -4418,7 +4418,7 @@
         "corto": {
           "hash": "fd8900c2b04fa4bb",
           "file": "es/mna_s14_mascara_viejitos_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 68,
           "bytes": 407808,
           "provider": "azure"
@@ -4426,7 +4426,7 @@
         "largo": {
           "hash": "9519c445e651ddd5",
           "file": "es/mna_s14_mascara_viejitos_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 157,
           "bytes": 942768,
           "provider": "azure"
@@ -4508,7 +4508,7 @@
         "corto": {
           "hash": "490d5f7315fefac3",
           "file": "es/mna_s15_quechquemitl_otomi_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 67,
           "bytes": 404784,
           "provider": "azure"
@@ -4516,7 +4516,7 @@
         "largo": {
           "hash": "8bd07a635a8f8a3c",
           "file": "es/mna_s15_quechquemitl_otomi_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 155,
           "bytes": 931392,
           "provider": "azure"
@@ -4544,7 +4544,7 @@
         "corto": {
           "hash": "fcefec48ebfe3e57",
           "file": "es/mna_s16_corona_quetzales_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 67,
           "bytes": 400176,
           "provider": "azure"
@@ -4552,7 +4552,7 @@
         "largo": {
           "hash": "ad09894e1bacd9f3",
           "file": "es/mna_s16_corona_quetzales_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 151,
           "bytes": 905760,
           "provider": "azure"
@@ -4670,7 +4670,7 @@
         "corto": {
           "hash": "cd04c92e51b8c827",
           "file": "es/mna_s17_traje_tehuana_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 63,
           "bytes": 380880,
           "provider": "azure"
@@ -4678,7 +4678,7 @@
         "largo": {
           "hash": "99d27292b0c612a2",
           "file": "es/mna_s17_traje_tehuana_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 155,
           "bytes": 927216,
           "provider": "azure"
@@ -4706,7 +4706,7 @@
         "corto": {
           "hash": "d039fa95a935be91",
           "file": "es/mna_s18_dhubem_huasteco_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 61,
           "bytes": 365184,
           "provider": "azure"
@@ -4714,7 +4714,7 @@
         "largo": {
           "hash": "18e29a026b24a927",
           "file": "es/mna_s18_dhubem_huasteco_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 151,
           "bytes": 906768,
           "provider": "azure"
@@ -4760,7 +4760,7 @@
         "corto": {
           "hash": "2554fc5aa0047b77",
           "file": "es/mna_s19_gaban_chamula_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 63,
           "bytes": 379152,
           "provider": "azure"
@@ -4768,7 +4768,7 @@
         "largo": {
           "hash": "b983e3dc13dd009e",
           "file": "es/mna_s19_gaban_chamula_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 146,
           "bytes": 873936,
           "provider": "azure"
@@ -4850,7 +4850,7 @@
         "corto": {
           "hash": "941c452e06e6e52b",
           "file": "es/mna_s20_mascara_chapayeka_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 65,
           "bytes": 387216,
           "provider": "azure"
@@ -4858,7 +4858,7 @@
         "largo": {
           "hash": "90bc5d93b1a8f2c5",
           "file": "es/mna_s20_mascara_chapayeka_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 166,
           "bytes": 997488,
           "provider": "azure"
@@ -4960,7 +4960,7 @@
         "corto": {
           "hash": "d3a949500b996cf1",
           "file": "fr/mna_s00_el_paraguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 41,
           "bytes": 245808,
           "provider": "azure"
@@ -4968,7 +4968,7 @@
         "largo": {
           "hash": "8ff28e1682b4b4f8",
           "file": "fr/mna_s00_el_paraguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 85,
           "bytes": 510336,
           "provider": "azure"
@@ -5014,7 +5014,7 @@
         "corto": {
           "hash": "3b370f36015e4f0e",
           "file": "fr/mna_s00_monolito_tlaloc_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 43,
           "bytes": 258048,
           "provider": "azure"
@@ -5022,7 +5022,7 @@
         "largo": {
           "hash": "6d4c4f120001f9c1",
           "file": "fr/mna_s00_monolito_tlaloc_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 87,
           "bytes": 520992,
           "provider": "azure"
@@ -5068,7 +5068,7 @@
         "corto": {
           "hash": "587aac6922ac0d0f",
           "file": "fr/mna_s01_lucy_afarensis_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 48,
           "bytes": 289440,
           "provider": "azure"
@@ -5076,7 +5076,7 @@
         "largo": {
           "hash": "1b3e0a459ab8ccce",
           "file": "fr/mna_s01_lucy_afarensis_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 82,
           "bytes": 490176,
           "provider": "azure"
@@ -5104,7 +5104,7 @@
         "corto": {
           "hash": "beb79cea2265e32c",
           "file": "fr/mna_s02_mamut_iztapan_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 41,
           "bytes": 247536,
           "provider": "azure"
@@ -5112,7 +5112,7 @@
         "largo": {
           "hash": "d5eec4fb38f170ef",
           "file": "fr/mna_s02_mamut_iztapan_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 88,
           "bytes": 526032,
           "provider": "azure"
@@ -5158,7 +5158,7 @@
         "corto": {
           "hash": "c95fa4c25cac86fa",
           "file": "fr/mna_s03_acrobata_tlatilco_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 277776,
           "provider": "azure"
@@ -5166,7 +5166,7 @@
         "largo": {
           "hash": "65f59b6841a1b96c",
           "file": "fr/mna_s03_acrobata_tlatilco_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 112,
           "bytes": 674064,
           "provider": "azure"
@@ -5392,7 +5392,7 @@
         "corto": {
           "hash": "8c533e85a4a31337",
           "file": "fr/mna_s04_chalchiuhtlicue_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 40,
           "bytes": 240624,
           "provider": "azure"
@@ -5400,7 +5400,7 @@
         "largo": {
           "hash": "302b8b48ed330d06",
           "file": "fr/mna_s04_chalchiuhtlicue_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 84,
           "bytes": 506160,
           "provider": "azure"
@@ -5536,7 +5536,7 @@
         "corto": {
           "hash": "0f1e5922cb297599",
           "file": "fr/mna_s05_atlante_tula_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 276912,
           "provider": "azure"
@@ -5544,7 +5544,7 @@
         "largo": {
           "hash": "ab84e0f2832665fc",
           "file": "fr/mna_s05_atlante_tula_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 122,
           "bytes": 730080,
           "provider": "azure"
@@ -5842,7 +5842,7 @@
         "corto": {
           "hash": "674d6318ccefb028",
           "file": "fr/mna_s06_penacho_moctezuma_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 273456,
           "provider": "azure"
@@ -5850,7 +5850,7 @@
         "largo": {
           "hash": "4387f76d19f433f2",
           "file": "fr/mna_s06_penacho_moctezuma_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 87,
           "bytes": 521568,
           "provider": "azure"
@@ -5878,7 +5878,7 @@
         "corto": {
           "hash": "4717337ea91e9144",
           "file": "fr/mna_s06_piedra_sol_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 47,
           "bytes": 282384,
           "provider": "azure"
@@ -5886,7 +5886,7 @@
         "largo": {
           "hash": "c59335496561382a",
           "file": "fr/mna_s06_piedra_sol_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 113,
           "bytes": 680400,
           "provider": "azure"
@@ -6058,7 +6058,7 @@
         "corto": {
           "hash": "c2693120b10c4ffc",
           "file": "fr/mna_s07_mascara_murcielago_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 49,
           "bytes": 293472,
           "provider": "azure"
@@ -6066,7 +6066,7 @@
         "largo": {
           "hash": "60731226ede577eb",
           "file": "fr/mna_s07_mascara_murcielago_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 86,
           "bytes": 514944,
           "provider": "azure"
@@ -6184,7 +6184,7 @@
         "corto": {
           "hash": "611fea4a82068241",
           "file": "fr/mna_s08_cabeza_colosal_6_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 47,
           "bytes": 280224,
           "provider": "azure"
@@ -6192,7 +6192,7 @@
         "largo": {
           "hash": "4eeff66326b7a21c",
           "file": "fr/mna_s08_cabeza_colosal_6_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 96,
           "bytes": 577008,
           "provider": "azure"
@@ -6508,7 +6508,7 @@
         "corto": {
           "hash": "5196424488546757",
           "file": "fr/mna_s09_mascara_pakal_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 276048,
           "provider": "azure"
@@ -6516,7 +6516,7 @@
         "largo": {
           "hash": "6e95d40d465554b4",
           "file": "fr/mna_s09_mascara_pakal_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 90,
           "bytes": 541584,
           "provider": "azure"
@@ -6688,7 +6688,7 @@
         "corto": {
           "hash": "c64e711c1225a7e5",
           "file": "fr/mna_s10_perros_colima_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 48,
           "bytes": 290160,
           "provider": "azure"
@@ -6696,7 +6696,7 @@
         "largo": {
           "hash": "2b0a1d12bbcc8c53",
           "file": "fr/mna_s10_perros_colima_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 106,
           "bytes": 633456,
           "provider": "azure"
@@ -6796,7 +6796,7 @@
         "corto": {
           "hash": "7e2d04036127b7f0",
           "file": "fr/mna_s11_olla_paquime_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 45,
           "bytes": 267120,
           "provider": "azure"
@@ -6804,7 +6804,7 @@
         "largo": {
           "hash": "73018fa6dd4afe38",
           "file": "fr/mna_s11_olla_paquime_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 82,
           "bytes": 490752,
           "provider": "azure"
@@ -6886,7 +6886,7 @@
         "corto": {
           "hash": "b481ac9cce23aa67",
           "file": "fr/mna_s12_mapa_lenguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 66,
           "bytes": 396720,
           "provider": "azure"
@@ -6894,7 +6894,7 @@
         "largo": {
           "hash": "709abb2eae12f677",
           "file": "fr/mna_s12_mapa_lenguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 171,
           "bytes": 1028880,
           "provider": "azure"
@@ -6922,7 +6922,7 @@
         "corto": {
           "hash": "15b773763b83f9b2",
           "file": "fr/mna_s13_nierika_estambre_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 66,
           "bytes": 397728,
           "provider": "azure"
@@ -6930,7 +6930,7 @@
         "largo": {
           "hash": "a3bf69bd9e91a168",
           "file": "fr/mna_s13_nierika_estambre_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 163,
           "bytes": 976320,
           "provider": "azure"
@@ -6976,7 +6976,7 @@
         "corto": {
           "hash": "d28e8806152f2e4a",
           "file": "fr/mna_s14_mascara_viejitos_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 65,
           "bytes": 390672,
           "provider": "azure"
@@ -6984,7 +6984,7 @@
         "largo": {
           "hash": "17b70f5732457d3e",
           "file": "fr/mna_s14_mascara_viejitos_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 144,
           "bytes": 861696,
           "provider": "azure"
@@ -7066,7 +7066,7 @@
         "corto": {
           "hash": "1deadb51275f8cbb",
           "file": "fr/mna_s15_quechquemitl_otomi_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 64,
           "bytes": 386928,
           "provider": "azure"
@@ -7074,7 +7074,7 @@
         "largo": {
           "hash": "379a9f0bb19d7079",
           "file": "fr/mna_s15_quechquemitl_otomi_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 147,
           "bytes": 884304,
           "provider": "azure"
@@ -7102,7 +7102,7 @@
         "corto": {
           "hash": "926f6e9816e020cb",
           "file": "fr/mna_s16_corona_quetzales_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 64,
           "bytes": 381888,
           "provider": "azure"
@@ -7110,7 +7110,7 @@
         "largo": {
           "hash": "eb8cf7bbd95f22bc",
           "file": "fr/mna_s16_corona_quetzales_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 142,
           "bytes": 854640,
           "provider": "azure"
@@ -7228,7 +7228,7 @@
         "corto": {
           "hash": "f62b34f7b37d8695",
           "file": "fr/mna_s17_traje_tehuana_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 60,
           "bytes": 358272,
           "provider": "azure"
@@ -7236,7 +7236,7 @@
         "largo": {
           "hash": "584879b87e2275fe",
           "file": "fr/mna_s17_traje_tehuana_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 145,
           "bytes": 868752,
           "provider": "azure"
@@ -7264,7 +7264,7 @@
         "corto": {
           "hash": "9dbf510cd6973f2c",
           "file": "fr/mna_s18_dhubem_huasteco_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 58,
           "bytes": 349488,
           "provider": "azure"
@@ -7272,7 +7272,7 @@
         "largo": {
           "hash": "f0b76033bf362e2b",
           "file": "fr/mna_s18_dhubem_huasteco_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 145,
           "bytes": 870048,
           "provider": "azure"
@@ -7318,7 +7318,7 @@
         "corto": {
           "hash": "ac4b02f14858d62c",
           "file": "fr/mna_s19_gaban_chamula_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 60,
           "bytes": 358128,
           "provider": "azure"
@@ -7326,7 +7326,7 @@
         "largo": {
           "hash": "efbd435fc674f84c",
           "file": "fr/mna_s19_gaban_chamula_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 137,
           "bytes": 820800,
           "provider": "azure"
@@ -7408,7 +7408,7 @@
         "corto": {
           "hash": "4d77d7a4b8bfc21d",
           "file": "fr/mna_s20_mascara_chapayeka_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 60,
           "bytes": 357840,
           "provider": "azure"
@@ -7416,7 +7416,7 @@
         "largo": {
           "hash": "3b3fc5849437d88e",
           "file": "fr/mna_s20_mascara_chapayeka_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 154,
           "bytes": 924768,
           "provider": "azure"
@@ -7518,7 +7518,7 @@
         "corto": {
           "hash": "eb943029ad3faaaf",
           "file": "pl/mna_s00_el_paraguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 276912,
           "provider": "azure"
@@ -7526,7 +7526,7 @@
         "largo": {
           "hash": "2cd71ddac7200e55",
           "file": "pl/mna_s00_el_paraguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 94,
           "bytes": 562896,
           "provider": "azure"
@@ -7572,7 +7572,7 @@
         "corto": {
           "hash": "ace34a0a9cd7b613",
           "file": "pl/mna_s00_monolito_tlaloc_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 44,
           "bytes": 266976,
           "provider": "azure"
@@ -7580,7 +7580,7 @@
         "largo": {
           "hash": "249240860897c7fb",
           "file": "pl/mna_s00_monolito_tlaloc_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 94,
           "bytes": 566784,
           "provider": "azure"
@@ -7608,7 +7608,7 @@
         "corto": {
           "hash": "cd160590fe132237",
           "file": "pl/mna_s01_lucy_afarensis_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 54,
           "bytes": 324720,
           "provider": "azure"
@@ -7616,7 +7616,7 @@
         "largo": {
           "hash": "8b4c418b654a55b3",
           "file": "pl/mna_s01_lucy_afarensis_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 90,
           "bytes": 537408,
           "provider": "azure"
@@ -7644,7 +7644,7 @@
         "corto": {
           "hash": "1e6a4fa133aafdae",
           "file": "pl/mna_s02_mamut_iztapan_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 46,
           "bytes": 278352,
           "provider": "azure"
@@ -7652,7 +7652,7 @@
         "largo": {
           "hash": "8d9adce5412d791c",
           "file": "pl/mna_s02_mamut_iztapan_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 94,
           "bytes": 566496,
           "provider": "azure"
@@ -7698,7 +7698,7 @@
         "corto": {
           "hash": "af3655577e6d0167",
           "file": "pl/mna_s03_acrobata_tlatilco_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 52,
           "bytes": 311184,
           "provider": "azure"
@@ -7706,7 +7706,7 @@
         "largo": {
           "hash": "b3c2db9cbc36c85a",
           "file": "pl/mna_s03_acrobata_tlatilco_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 120,
           "bytes": 720000,
           "provider": "azure"
@@ -7932,7 +7932,7 @@
         "corto": {
           "hash": "f6076668cba14794",
           "file": "pl/mna_s04_chalchiuhtlicue_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 45,
           "bytes": 267264,
           "provider": "azure"
@@ -7940,7 +7940,7 @@
         "largo": {
           "hash": "315e44cc8849dae7",
           "file": "pl/mna_s04_chalchiuhtlicue_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 86,
           "bytes": 514368,
           "provider": "azure"
@@ -8058,7 +8058,7 @@
         "corto": {
           "hash": "37e340a58110eecf",
           "file": "pl/mna_s05_atlante_tula_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 47,
           "bytes": 283680,
           "provider": "azure"
@@ -8066,7 +8066,7 @@
         "largo": {
           "hash": "29f05d65cfd1cda4",
           "file": "pl/mna_s05_atlante_tula_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 125,
           "bytes": 749952,
           "provider": "azure"
@@ -8328,7 +8328,7 @@
         "corto": {
           "hash": "ccf26da5d761a0d3",
           "file": "pl/mna_s06_piedra_sol_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 49,
           "bytes": 296496,
           "provider": "azure"
@@ -8336,7 +8336,7 @@
         "largo": {
           "hash": "0ba945b995a94e26",
           "file": "pl/mna_s06_piedra_sol_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 121,
           "bytes": 726768,
           "provider": "azure"
@@ -8490,7 +8490,7 @@
         "corto": {
           "hash": "756b4a958fc06f68",
           "file": "pl/mna_s07_mascara_murcielago_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 53,
           "bytes": 320112,
           "provider": "azure"
@@ -8498,7 +8498,7 @@
         "largo": {
           "hash": "f0930e63488fd121",
           "file": "pl/mna_s07_mascara_murcielago_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 94,
           "bytes": 561600,
           "provider": "azure"
@@ -8598,7 +8598,7 @@
         "corto": {
           "hash": "7853dcf3a764273f",
           "file": "pl/mna_s08_cabeza_colosal_6_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 49,
           "bytes": 295056,
           "provider": "azure"
@@ -8606,7 +8606,7 @@
         "largo": {
           "hash": "9c91f59b09799274",
           "file": "pl/mna_s08_cabeza_colosal_6_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 103,
           "bytes": 620496,
           "provider": "azure"
@@ -8886,7 +8886,7 @@
         "corto": {
           "hash": "312e312e33029389",
           "file": "pl/mna_s09_mascara_pakal_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 51,
           "bytes": 304416,
           "provider": "azure"
@@ -8894,7 +8894,7 @@
         "largo": {
           "hash": "24e0ac9b66b9f081",
           "file": "pl/mna_s09_mascara_pakal_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 100,
           "bytes": 599616,
           "provider": "azure"
@@ -9048,7 +9048,7 @@
         "corto": {
           "hash": "df0469c813f95ba1",
           "file": "pl/mna_s10_perros_colima_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 50,
           "bytes": 302688,
           "provider": "azure"
@@ -9056,7 +9056,7 @@
         "largo": {
           "hash": "ad19841bcbbfee34",
           "file": "pl/mna_s10_perros_colima_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 109,
           "bytes": 655200,
           "provider": "azure"
@@ -9156,7 +9156,7 @@
         "corto": {
           "hash": "d654a6d77b480ed5",
           "file": "pl/mna_s11_olla_paquime_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 51,
           "bytes": 304992,
           "provider": "azure"
@@ -9164,7 +9164,7 @@
         "largo": {
           "hash": "1ae24dc8a068f217",
           "file": "pl/mna_s11_olla_paquime_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 89,
           "bytes": 532224,
           "provider": "azure"
@@ -9246,7 +9246,7 @@
         "corto": {
           "hash": "7206662f44994c32",
           "file": "pl/mna_s12_mapa_lenguas_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 75,
           "bytes": 448416,
           "provider": "azure"
@@ -9254,7 +9254,7 @@
         "largo": {
           "hash": "0a5ceb155865ed57",
           "file": "pl/mna_s12_mapa_lenguas_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 192,
           "bytes": 1151424,
           "provider": "azure"
@@ -9282,7 +9282,7 @@
         "corto": {
           "hash": "d2e4433e683112c1",
           "file": "pl/mna_s13_nierika_estambre_corto.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 68,
           "bytes": 409968,
           "provider": "azure"
@@ -9290,7 +9290,7 @@
         "largo": {
           "hash": "bd94ad87962e4c13",
           "file": "pl/mna_s13_nierika_estambre_largo.mp3",
-          "remote": false,
+          "remote": true,
           "seconds": 180,
           "bytes": 1081728,
           "provider": "azure"
