@@ -202,3 +202,12 @@ test('--listar muestra las voces del idioma marcando multilingües y HD, sin gen
   assert.equal(fs.existsSync(path.join(dir, 'muestras-voz')), false);
   await assert.rejects(main(['--lang', 'en', '--listar'], { root: dir, env: {}, fetchImpl: async () => {}, ...quiet }), /Faltan las claves/);
 });
+
+test('el nombre de voz copiado del archivo (con "-") se corrige al nombre real con ":"', async () => {
+  const { fixVoiceName } = await import('../audio-lib.mjs');
+  assert.equal(fixVoiceName('en-US-Adam-DragonHDLatestNeural'), 'en-US-Adam:DragonHDLatestNeural');
+  assert.equal(fixVoiceName(' en-US-Adam:DragonHDLatestNeural '), 'en-US-Adam:DragonHDLatestNeural');
+  assert.equal(fixVoiceName('en-US-JennyNeural'), 'en-US-JennyNeural');
+  assert.equal(fixVoiceName('es-MX-JorgeMultilingualNeural'), 'es-MX-JorgeMultilingualNeural');
+  assert.deepEqual(parseArgs(['--voces', 'en-US-Adam-DragonHDLatestNeural,en-US-JennyNeural']).voces, ['en-US-Adam:DragonHDLatestNeural', 'en-US-JennyNeural']);
+});

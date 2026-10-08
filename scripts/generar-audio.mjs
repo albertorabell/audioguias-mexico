@@ -26,7 +26,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { MODES, AUDIO_LANGS, planAudio, splitText, mp3Duration, silentMp3, REFERENCE_PRICE_USD_PER_MILLION_CHARS } from './audio-lib.mjs';
+import { fixVoiceName, MODES, AUDIO_LANGS, planAudio, splitText, mp3Duration, silentMp3, REFERENCE_PRICE_USD_PER_MILLION_CHARS } from './audio-lib.mjs';
 import { GENERATED_DIR, relocateInR2, wranglerR2, r2Key } from './r2-lib.mjs';
 import { loadPronunciations, toSsmlInner, PRONUNCIATION_FILE } from './pronunciacion-lib.mjs';
 
@@ -125,7 +125,7 @@ export const PROVIDERS = {
       }
     },
     voiceFor(lang) {
-      return process.env[`AZURE_VOICE_${lang.toUpperCase()}`] || AZURE_DEFAULT_VOICES[lang];
+      return fixVoiceName(process.env[`AZURE_VOICE_${lang.toUpperCase()}`] || AZURE_DEFAULT_VOICES[lang]);
     },
     async synth(text, { lang }) {
       const region = process.env.AZURE_SPEECH_REGION;
