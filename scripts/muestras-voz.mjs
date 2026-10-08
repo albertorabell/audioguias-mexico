@@ -108,7 +108,8 @@ export function describeVoices(list, locale) {
     const multi = /Multilingual/i.test(v.ShortName) || (Array.isArray(v.SecondaryLocaleList) && v.SecondaryLocaleList.length > 0);
     const hd = /HD/i.test(v.ShortName);
     const tags = [multi ? 'MULTILINGÜE' : '', hd ? 'HD (otro precio)' : '', v.Status && v.Status !== 'GA' ? v.Status : ''].filter(Boolean).join(' · ');
-    return `  ${v.ShortName} · ${v.Gender || '?'}${tags ? ` · ${tags}` : ''}`;
+    const langs = Array.isArray(v.SecondaryLocaleList) && v.SecondaryLocaleList.length ? ` · además habla: ${v.SecondaryLocaleList.join(', ')}` : '';
+    return `  ${v.ShortName} · ${v.Gender || '?'}${tags ? ` · ${tags}` : ''}${langs}`;
   });
   return { total: all.length, multi: all.filter((v) => /Multilingual/i.test(v.ShortName) || v.SecondaryLocaleList?.length).length, text: rows.join('\n') };
 }
