@@ -133,7 +133,11 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
   if (args.pronunciar) {
     const w = args.pronunciar;
     // Una frase corta con la palabra dicha dos veces: sola y dentro de una oración
-    const phrase = (render) => `${render(w)}. ${w === w.toLowerCase() ? 'Los ' : ''}${render(w)} fundaron una gran ciudad en medio del lago.`;
+    // La frase va en el idioma de la prueba: una voz en inglés leyendo una frase en español confunde (no se sabe si la palabra suena bien o no)
+    const phrase = (render) =>
+      args.lang === 'en'
+        ? `${render(w)}. People say that ${render(w)} watches over the whole valley, and the old stories about ${render(w)} are still told today.`
+        : `${render(w)}. ${w === w.toLowerCase() ? 'Los ' : ''}${render(w)} fundaron una gran ciudad en medio del lago.`;
     text = phrase((x) => x);
     variants = [
       { label: 'sin_cambio', file: '0_sin_cambio', inner: () => xmlEscape(text) },
