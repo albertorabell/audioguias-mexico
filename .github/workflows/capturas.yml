@@ -39,10 +39,10 @@ jobs:
           retention-days: 7
       - name: Guardar en la rama "capturas"
         run: |
-          git config user.name "capturas-bot"
-          git config user.email "capturas-bot@users.noreply.github.com"
           mkdir ../pub && cp -r capturas-salida/. ../pub/ && cd ../pub
           git init -q -b capturas
+          git config user.name "capturas-bot"
+          git config user.email "capturas-bot@users.noreply.github.com"
           git add -A
           git commit -qm "Capturas de la app"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" capturas
