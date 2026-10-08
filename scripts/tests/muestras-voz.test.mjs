@@ -231,3 +231,21 @@ test('la prueba de pronunciación en inglés usa una frase en inglés (no en esp
   }
   assert.match(bodies[1], /toh-nah-TEE-oo/);
 });
+
+test('la prueba de pronunciación en francés usa una frase en francés y fr-FR', async () => {
+  const dir = tmpProject();
+  const bodies = [];
+  const voices = [{ ShortName: 'es-MX-JorgeMultilingualNeural', Gender: 'Male', Locale: 'fr-FR', Status: 'GA' }];
+  const fetchImpl = async (url, opts) => {
+    if (url.endsWith('/voices/list')) return { ok: true, json: async () => voices };
+    bodies.push(opts.body);
+    return { ok: true, arrayBuffer: async () => new Uint8Array([1]).buffer };
+  };
+  await main(['--lang', 'fr', '--pronunciar', 'Mexicas', '--variantes', 'lang:es-MX=Mexicas', '--generar'], { root: dir, env: ENV, fetchImpl, ...quiet });
+  assert.equal(bodies.length, 2);
+  for (const b of bodies) {
+    assert.match(b, /xml:lang="fr-FR"/);
+    assert.match(b, /veille sur toute la vallée/);
+    assert.doesNotMatch(b, /fundaron|watches over/);
+  }
+});

@@ -28,7 +28,7 @@ import { pathToFileURL } from 'node:url';
 import { fixVoiceName, splitText, silentMp3, REFERENCE_PRICE_USD_PER_MILLION_CHARS } from './audio-lib.mjs';
 import { loadPronunciations, toSsmlInner, pronunciationElement, xmlEscape, KINDS, PRONUNCIATION_FILE } from './pronunciacion-lib.mjs';
 
-const LOCALES = { es: 'es-MX', en: 'en-US' };
+const LOCALES = { es: 'es-MX', en: 'en-US', fr: 'fr-FR' };
 const FORMAT = 'audio-24khz-48kbitrate-mono-mp3'; // el mismo que usan los audios reales
 
 /**
@@ -138,7 +138,9 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
     const phrase = (render) =>
       args.lang === 'en'
         ? `${render(w)}. People say that ${render(w)} watches over the whole valley, and the old stories about ${render(w)} are still told today.`
-        : `${render(w)}. ${w === w.toLowerCase() ? 'Los ' : ''}${render(w)} fundaron una gran ciudad en medio del lago.`;
+        : args.lang === 'fr'
+          ? `${render(w)}. On raconte que ${render(w)} veille sur toute la vallée, et les anciennes histoires sur ${render(w)} se racontent encore aujourd'hui.`
+          : `${render(w)}. ${w === w.toLowerCase() ? 'Los ' : ''}${render(w)} fundaron una gran ciudad en medio del lago.`;
     text = phrase((x) => x);
     variants = [
       { label: 'sin_cambio', file: '0_sin_cambio', inner: () => xmlEscape(text) },
