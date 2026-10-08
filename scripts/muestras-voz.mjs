@@ -25,7 +25,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
-import { splitText, silentMp3, REFERENCE_PRICE_USD_PER_MILLION_CHARS } from './audio-lib.mjs';
+import { fixVoiceName, splitText, silentMp3, REFERENCE_PRICE_USD_PER_MILLION_CHARS } from './audio-lib.mjs';
 import { loadPronunciations, toSsmlInner, pronunciationElement, xmlEscape, KINDS, PRONUNCIATION_FILE } from './pronunciacion-lib.mjs';
 
 const LOCALES = { es: 'es-MX', en: 'en-US' };
@@ -60,7 +60,7 @@ export function parseArgs(argv) {
     if (a === '--lang') out.lang = next();
     else if (a === '--pieza') out.pieza = next();
     else if (a === '--modo') out.modo = next();
-    else if (a === '--voces') out.voces = next().split(',').map((s) => s.trim()).filter(Boolean);
+    else if (a === '--voces') out.voces = next().split(',').map((s) => fixVoiceName(s)).filter(Boolean);
     else if (a === '--max-voces') out.maxVoces = parseInt(next(), 10);
     else if (a === '--max-caracteres') out.maxCaracteres = parseInt(next(), 10);
     else if (a === '--proveedor') out.proveedor = next();

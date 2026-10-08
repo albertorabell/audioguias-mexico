@@ -148,3 +148,11 @@ export function planAudio(pieces, manifest, { langs = ['es'], modes = MODES, onl
   const limitedChars = limit ? limited.reduce((n, i) => n + i.script.length, 0) : chars;
   return { todo: limited, pending: todo.length, move, keep, skipped, chars: limitedChars };
 }
+
+/**
+ * Los nombres de las voces Dragon HD llevan ":" (en-US-Adam:DragonHDLatestNeural). Los nombres de archivo de las muestras
+ * lo cambian por "-", y es fácil copiar ese nombre por error: aquí se vuelve a poner el ":" para que Azure reconozca la voz.
+ */
+export function fixVoiceName(name) {
+  return String(name).trim().replace(/^([a-z]{2,3}-[A-Z]{2}-[A-Za-z]+)-(DragonHD\w*)$/, '$1:$2');
+}
