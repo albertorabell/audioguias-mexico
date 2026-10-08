@@ -20,21 +20,10 @@ import { TabBar, DockTab } from './components/ui/TabBar';
 import { calculateRouteTimeMinutes } from './utils/routeOptimizer';
 import { getAssetUrl, normalizePiece, findPiece } from './utils/urlHelper';
 import { ttsPlayer } from './utils/ttsPlayer';
+import { useBackClose } from './utils/useBackClose';
 import { useLanguage } from './utils/LanguageContext';
 import { localizeSite, localizeRoute } from './i18n/content';
 import { getRoomLabel } from './utils/roomLabel';
-
-/**
- * Pantallas de la app. Se apilan: lo de arriba es lo que se ve y "regresar" quita la de arriba.
- *   home → pestaña del museo (salas · recorridos · mapa · buscar) → sala → pieza
- */
-type Screen =
-  | { kind: 'home' }
-  | { kind: 'tab'; tab: DockTab }
-  | { kind: 'room'; roomId: string }
-  | { kind: 'piece' }
-  | { kind: 'wizard' }
-  | { kind: 'tourDone' };
 
 /** Con qué se navega dentro de la ficha de una pieza (anterior / siguiente): una sala o un recorrido. */
 interface PieceNav {
@@ -42,6 +31,19 @@ interface PieceNav {
   ids: string[];
   index: number;
 }
+
+/**
+ * Pantallas de la app. Se apilan: lo de arriba es lo que se ve y "regresar" quita la de arriba.
+ *   home → pestaña del museo (salas · recorridos · mapa · buscar) → sala → pieza
+ * Cada pantalla de pieza guarda con qué se navega, así al regresar se ve la pieza que estaba.
+ */
+type Screen =
+  | { kind: 'home' }
+  | { kind: 'tab'; tab: DockTab }
+  | { kind: 'room'; roomId: string }
+  | { kind: 'piece'; nav: PieceNav }
+  | { kind: 'wizard' }
+  | { kind: 'tourDone' };
 
 const stopId = (s: { piece_id?: string; id?: string; poi_id?: string; file?: string }) => s.piece_id || s.id || s.poi_id || s.file || '';
 const roomNumber = (r: Room) => parseInt(String(r.numero_oficial ?? r.room_id.match(/\d+/)?.[0] ?? '0'), 10) || 0;
@@ -51,57 +53,97 @@ export default function App() {
   const u = t.ui;
 
   // ---------- Navegación ----------
-  const [stack, setStack] = useState<Screen[]>([{ kind: 'home' }]);
-  const screen = stack[stack.length - 1];
+  // Cada pantalla apilada tiene una entrada en el historial del navegador con su profundidad ({ depth }),
+  // así el botón "atrás" del teléfono y el de la app hacen lo mismo y nunca se desfasan.
+  const [stack, setStackState] = useState<Screen[]>([{ kind: 'home' }]);
   const stackRef = useRef(stack);
-  stackRef.current = stack;
+  const setStack = useCallback((next: Screen[]) => {
+    stackRef.current = next;
+    setStackState(next);
+  }, []);
+  const screen = stack[stack.length - 1];
   const scrollMemo = useRef<number[]>([]);
   const prevDepth = useRef(1);
-  const [paywallOpen, setPaywallOpen] = useState(false);
-  const paywallRef = useRef(false);
-  paywallRef.current = paywallOpen;
+  /** Al regresar varias pantallas de golpe (cambiar de pestaña, ir al inicio) se espera a que el navegador llegue. */
+  const rewindRef = useRef<{ depth: number; stack: Screen[] } | null>(null);
 
-  const push = useCallback((s: Screen) => {
-    scrollMemo.current[stackRef.current.length - 1] = window.scrollY;
-    setStack((prev) => [...prev, s]);
-    try {
-      window.history.pushState({ depth: stackRef.current.length + 1 }, '');
-    } catch {
-      /* sin historial */
-    }
-  }, []);
+  const push = useCallback(
+    (s: Screen) => {
+      const cur = stackRef.current;
+      scrollMemo.current[cur.length - 1] = window.scrollY;
+      setStack([...cur, s]);
+      try {
+        window.history.pushState({ depth: cur.length + 1 }, '');
+      } catch {
+        /* sin historial */
+      }
+    },
+    [setStack]
+  );
 
   /** Cambia la pantalla de arriba sin agregar otra (por ejemplo, del asistente al recorrido). */
-  const replaceTop = useCallback((s: Screen) => {
-    setStack((prev) => [...prev.slice(0, -1), s]);
-    window.scrollTo(0, 0);
-  }, []);
+  const replaceTop = useCallback(
+    (s: Screen, opts: { keepScroll?: boolean } = {}) => {
+      setStack([...stackRef.current.slice(0, -1), s]);
+      if (!opts.keepScroll) window.scrollTo(0, 0);
+    },
+    [setStack]
+  );
 
   const goBack = useCallback(() => {
     if (stackRef.current.length > 1) window.history.back();
   }, []);
 
-  // La app decide a qué altura queda cada pantalla al regresar (el navegador no debe moverla por su cuenta)
-  useEffect(() => {
-    try {
-      window.history.scrollRestoration = 'manual';
-    } catch {
-      /* navegador sin esta opción */
-    }
-  }, []);
-
-  // Botón "atrás" del teléfono o del navegador: cierra la ventana de pago o quita la pantalla de arriba
-  useEffect(() => {
-    const onPop = () => {
-      if (paywallRef.current) {
-        setPaywallOpen(false);
+  /** Regresa a una pantalla de abajo de la pila, quitando también sus entradas del historial. */
+  const rewindTo = useCallback(
+    (target: Screen[]) => {
+      const cur = stackRef.current;
+      const steps = cur.length - target.length;
+      scrollMemo.current = scrollMemo.current.slice(0, target.length - 1);
+      if (steps <= 0) {
+        setStack(target);
+        window.scrollTo(0, 0);
         return;
       }
-      setStack((prev) => (prev.length > 1 ? prev.slice(0, -1) : prev));
+      rewindRef.current = { depth: target.length, stack: target };
+      window.history.go(-steps);
+      // Por si el navegador no avisa (no debería pasar): se aplica igual
+      window.setTimeout(() => {
+        if (rewindRef.current) {
+          const r = rewindRef.current;
+          rewindRef.current = null;
+          setStack(r.stack);
+        }
+      }, 600);
+    },
+    [setStack]
+  );
+
+  useEffect(() => {
+    try {
+      // La app decide a qué altura queda cada pantalla al regresar (el navegador no debe moverla por su cuenta)
+      window.history.scrollRestoration = 'manual';
+      window.history.replaceState({ depth: 1 }, '');
+    } catch {
+      /* navegador sin estas opciones */
+    }
+    const onPop = (e: PopStateEvent) => {
+      const depth = Math.max(1, Number((e.state as { depth?: number } | null)?.depth) || 1);
+      const rw = rewindRef.current;
+      if (rw) {
+        if (depth <= rw.depth) {
+          rewindRef.current = null;
+          setStack(rw.stack);
+        }
+        return;
+      }
+      const cur = stackRef.current;
+      // Solo se quitan pantallas; "adelante" o cerrar una ventana encima no cambian la pila
+      if (depth < cur.length) setStack(cur.slice(0, depth));
     };
     window.addEventListener('popstate', onPop);
     return () => window.removeEventListener('popstate', onPop);
-  }, []);
+  }, [setStack]);
 
   // Al entrar a una pantalla se empieza arriba; al regresar se vuelve a donde estabas
   useLayoutEffect(() => {
@@ -111,28 +153,30 @@ export default function App() {
     prevDepth.current = depth;
   }, [stack]);
 
-  const goTab = useCallback((tab: DockTab) => {
-    setStack((prev) => {
-      const home = prev[0];
-      const top = prev[prev.length - 1];
-      if (top.kind === 'tab' && top.tab === tab) return prev;
-      return [home, { kind: 'tab', tab }];
-    });
-    scrollMemo.current = [scrollMemo.current[0] || 0, 0];
-    window.scrollTo(0, 0);
-  }, []);
+  const [focusSearch, setFocusSearch] = useState(false);
+  const goTab = useCallback(
+    (tab: DockTab) => {
+      const cur = stackRef.current;
+      const top = cur[cur.length - 1];
+      if (top.kind === 'tab' && top.tab === tab) return;
+      if (tab === 'teclado') setFocusSearch(true);
+      const target: Screen[] = [cur[0], { kind: 'tab', tab }];
+      if (cur.length <= 2) {
+        scrollMemo.current = scrollMemo.current.slice(0, 1);
+        setStack(target);
+        window.scrollTo(0, 0);
+      } else {
+        rewindTo(target);
+      }
+    },
+    [rewindTo, setStack]
+  );
 
-  const openPaywall = useCallback(() => {
-    setPaywallOpen(true);
-    try {
-      window.history.pushState({ overlay: 'paywall' }, '');
-    } catch {
-      /* sin historial */
-    }
-  }, []);
-  const closePaywall = useCallback(() => {
-    if (paywallRef.current) window.history.back();
-  }, []);
+  const [paywallOpen, setPaywallOpen] = useState(false);
+  const openPaywall = useCallback(() => setPaywallOpen(true), []);
+  const closePaywall = useCallback(() => setPaywallOpen(false), []);
+  // La ventana de pago se cierra también con el botón "atrás" del teléfono
+  useBackClose(paywallOpen, closePaywall);
 
   // ---------- Datos ----------
   const [rawSites, setSites] = useState<SiteSummary[]>([]);
@@ -147,16 +191,26 @@ export default function App() {
   const [currentLicense, setCurrentLicense] = useState<SiteLicense | null>(null);
   const [licenseVersion, setLicenseVersion] = useState(0);
   const [floor, setFloor] = useState<'PB' | 'PA'>('PB');
-  const [nav, setNav] = useState<PieceNav | null>(null);
+  /** Última pieza vista (para "sigue donde te quedaste" y "estás aquí" en el plano). */
+  const [lastNav, setLastNav] = useState<PieceNav | null>(null);
   const [tour, setTour] = useState<ActiveTour | null>(null);
+  const [doneRoute, setDoneRoute] = useState<SiteRoute | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
+  const selectingRef = useRef(false);
 
   const sites = useMemo(() => rawSites.map((s) => localizeSite(s, currentLanguage)), [rawSites, currentLanguage]);
   const rooms = useMemo(() => rawRooms.map((r) => localizeRoom(r)), [rawRooms, localizeRoom]);
   const pieces = useMemo(() => rawPieces.map((p) => localizePiece(p)), [rawPieces, localizePiece]);
-  const manifest = useMemo(
-    () => (rawManifest ? { ...rawManifest, routes: rawManifest.routes?.map((r) => localizeRoute(r, currentLanguage)) } : null),
-    [rawManifest, currentLanguage]
-  );
+  const manifest = useMemo(() => {
+    if (!rawManifest) return null;
+    const known = new Set(rawPieces.map((p) => p.piece_id));
+    const routes = rawManifest.routes?.map((r) => {
+      const local = localizeRoute(r, currentLanguage);
+      // Solo las paradas que existen en pieces.json (una parada que ya no existe no debe trabar el recorrido)
+      return known.size ? { ...local, stops: local.stops.filter((s) => known.has(stopId(s))) } : local;
+    });
+    return { ...rawManifest, routes };
+  }, [rawManifest, rawPieces, currentLanguage]);
   const site = useMemo(() => (selectedSite ? localizeSite(selectedSite, currentLanguage) : null), [selectedSite, currentLanguage]);
 
   useEffect(() => {
@@ -242,70 +296,91 @@ export default function App() {
         .sort((a, b) => (a.piso === b.piso ? roomNumber(a) - roomNumber(b) : a.piso === 'PB' ? -1 : 1)),
     [rooms, piecesByRoom]
   );
-  const pieceById = useCallback((id: string): PieceData | undefined => pieces.find((p) => p.piece_id === id) || findPiece(pieces, id), [pieces]);
+  const pieceIndex = useMemo(() => new Map(pieces.map((p) => [p.piece_id, p])), [pieces]);
+  const pieceById = useCallback((id: string): PieceData | undefined => pieceIndex.get(id) || findPiece(pieces, id), [pieceIndex, pieces]);
 
+  /** El recorrido en curso, con los textos en el idioma elegido (si es uno de los armados del museo). */
+  const tourRoute: SiteRoute | null = useMemo(
+    () => (tour ? manifest?.routes?.find((r) => r.id === tour.route.id) || tour.route : null),
+    [tour, manifest]
+  );
+  const activeTour: ActiveTour | null = tour && tourRoute ? { route: tourRoute, index: tour.index } : null;
+
+  const nav = screen.kind === 'piece' ? screen.nav : lastNav;
   const currentPieceId = nav ? nav.ids[nav.index] : null;
   const currentPiece = currentPieceId ? pieceById(currentPieceId) || null : null;
   const currentRoom = currentPiece ? roomById.get(currentPiece.room_id) || null : null;
   const roomTitle = (r: Room) => `${getRoomLabel(r)} · ${r.nombre_oficial}`;
 
+  /** Muestra otra pieza: en la misma pantalla si ya se está en una pieza, o abriendo la pantalla de pieza. */
+  const showPiece = useCallback(
+    (next: PieceNav, how: 'auto' | 'replace' = 'auto') => {
+      setLastNav(next);
+      const top = stackRef.current[stackRef.current.length - 1];
+      if (top.kind === 'piece' || how === 'replace') replaceTop({ kind: 'piece', nav: next });
+      else push({ kind: 'piece', nav: next });
+    },
+    [push, replaceTop]
+  );
+
+  const roomNavFor = useCallback(
+    (pieceId: string): PieceNav | null => {
+      const p = pieceById(pieceId);
+      if (!p) return null;
+      const ids = (piecesByRoom.get(p.room_id) || [p]).map((x) => x.piece_id);
+      return { kind: 'room', ids, index: Math.max(0, ids.indexOf(p.piece_id)) };
+    },
+    [pieceById, piecesByRoom]
+  );
+
   // ---------- Acciones ----------
   const handleSelectSite = async (s: SiteSummary) => {
-    if (s.status === 'coming_soon') return;
+    if (s.status === 'coming_soon' || selectingRef.current) return;
+    selectingRef.current = true;
     setErrorMessage(null);
     ttsPlayer.stop();
     try {
       const res = await fetch(getAssetUrl(s.path));
       if (!res.ok) throw new Error(`Error ${res.status}`);
       const data: SiteManifest = await res.json();
-      // De las rutas del museo solo se dejan las paradas que existen en pieces.json
-      if (data.routes && rawPieces.length > 0) {
-        data.routes = data.routes.map((route) => ({
-          ...route,
-          stops: route.stops.filter((stop) => rawPieces.some((p) => p.piece_id === stopId(stop) || p.id === stopId(stop))),
-        }));
-      }
       setSelectedSite(s);
       setManifest(data);
       push({ kind: 'tab', tab: 'salas' });
     } catch (err) {
       console.error('Error loading site manifest:', err);
       setErrorMessage(t.app.siteLoadError);
+    } finally {
+      selectingRef.current = false;
     }
   };
 
   /** Abre una pieza dentro de su sala (anterior / siguiente recorren la sala). */
   const openPieceInRoom = useCallback(
-    (pieceId: string, opts: { push?: boolean } = {}) => {
-      const p = pieceById(pieceId);
-      if (!p) {
+    (pieceId: string) => {
+      const next = roomNavFor(pieceId);
+      if (!next) {
         setErrorMessage(t.app.pieceNotFound);
         return;
       }
-      const ids = (piecesByRoom.get(p.room_id) || [p]).map((x) => x.piece_id);
-      setNav({ kind: 'room', ids, index: Math.max(0, ids.indexOf(p.piece_id)) });
-      if (opts.push !== false && stackRef.current[stackRef.current.length - 1].kind !== 'piece') push({ kind: 'piece' });
-      else window.scrollTo(0, 0);
+      showPiece(next);
     },
-    [pieceById, piecesByRoom, push, t]
+    [roomNavFor, showPiece, t]
   );
 
   /** Abre la parada i de un recorrido. */
   const openTourStop = useCallback(
-    (route: SiteRoute, i: number, how: 'push' | 'replace' | 'stay' = 'push') => {
+    (route: SiteRoute, i: number, how: 'auto' | 'replace' = 'auto') => {
       setTour({ route, index: i });
-      setNav({ kind: 'tour', ids: route.stops.map(stopId), index: i });
-      if (how === 'replace') replaceTop({ kind: 'piece' });
-      else if (how === 'push' && stackRef.current[stackRef.current.length - 1].kind !== 'piece') push({ kind: 'piece' });
-      else window.scrollTo(0, 0);
+      showPiece({ kind: 'tour', ids: route.stops.map(stopId), index: i }, how);
     },
-    [push, replaceTop]
+    [showPiece]
   );
 
   const startRoute = (route: SiteRoute) => {
     if (!route.stops?.length) return;
     const top = stackRef.current[stackRef.current.length - 1];
-    openTourStop(route, 0, top.kind === 'wizard' ? 'replace' : 'push');
+    setDoneRoute(null);
+    openTourStop(route, 0, top.kind === 'wizard' ? 'replace' : 'auto');
   };
 
   const nextRoomAfter = (roomId: string): Room | null => {
@@ -316,37 +391,52 @@ export default function App() {
   const goNext = () => {
     if (!nav) return;
     if (nav.index + 1 < nav.ids.length) {
-      setNav({ ...nav, index: nav.index + 1 });
+      showPiece({ ...nav, index: nav.index + 1 });
       if (nav.kind === 'tour' && tour) setTour({ ...tour, index: nav.index + 1 });
-      window.scrollTo(0, 0);
       return;
     }
     if (nav.kind === 'room' && currentPiece) {
       const nr = nextRoomAfter(currentPiece.room_id);
       const first = nr ? (piecesByRoom.get(nr.room_id) || [])[0] : null;
-      if (first) openPieceInRoom(first.piece_id, { push: false });
+      const next = first ? roomNavFor(first.piece_id) : null;
+      if (!nr || !next) return;
+      // Si abajo estaba la sala anterior, se cambia por la nueva (al regresar se ve la sala en la que estás)
+      const cur = stackRef.current;
+      const below = cur[cur.length - 2];
+      setLastNav(next);
+      if (below?.kind === 'room' && below.roomId === currentPiece.room_id) {
+        setStack([...cur.slice(0, -2), { kind: 'room', roomId: nr.room_id }, { kind: 'piece', nav: next }]);
+        window.scrollTo(0, 0);
+      } else {
+        replaceTop({ kind: 'piece', nav: next });
+      }
       return;
     }
-    if (nav.kind === 'tour') {
+    if (nav.kind === 'tour' && tourRoute) {
       ttsPlayer.stop();
+      setDoneRoute(tourRoute);
+      endTour();
       replaceTop({ kind: 'tourDone' });
     }
   };
 
   const goPrev = () => {
     if (!nav || nav.index === 0) return;
-    setNav({ ...nav, index: nav.index - 1 });
+    showPiece({ ...nav, index: nav.index - 1 });
     if (nav.kind === 'tour' && tour) setTour({ ...tour, index: nav.index - 1 });
-    window.scrollTo(0, 0);
   };
 
+  /** Termina el recorrido; si la última pieza vista era del recorrido, se sigue navegando por su sala. */
   const endTour = () => {
     setTour(null);
-    if (nav?.kind === 'tour' && currentPiece) {
-      const ids = (piecesByRoom.get(currentPiece.room_id) || [currentPiece]).map((x) => x.piece_id);
-      setNav({ kind: 'room', ids, index: Math.max(0, ids.indexOf(currentPiece.piece_id)) });
+    if (lastNav?.kind === 'tour') {
+      const id = lastNav.ids[lastNav.index];
+      const rn = id ? roomNavFor(id) : null;
+      setLastNav(rn);
     }
   };
+
+  const openRoom = (room: Room) => push({ kind: 'room', roomId: room.room_id });
 
   const nextInfo: NextInfo | null = useMemo(() => {
     if (!nav || !currentPiece) return null;
@@ -379,37 +469,31 @@ export default function App() {
   }, [nav, currentPiece, pieceById, roomById, piecesByRoom, roomOrder, u]);
 
   const continueInfo: ContinueInfo | null = useMemo(() => {
-    if (tour) {
-      const p = pieceById(stopId(tour.route.stops[tour.index]));
+    if (activeTour) {
+      const p = pieceById(stopId(activeTour.route.stops[activeTour.index] || {}));
       return {
         eyebrow: u.museum.yourTour,
-        title: tour.route.name,
-        detail: u.routes.progress(tour.index + 1, tour.route.stops.length) + (p ? ` · ${p.titulo}` : ''),
+        title: activeTour.route.name,
+        detail: u.routes.progress(activeTour.index + 1, activeTour.route.stops.length) + (p ? ` · ${p.titulo}` : ''),
         imageFilename: p?.image_filename,
         pieceId: p?.piece_id,
-        onContinue: () => openTourStop(tour.route, tour.index),
+        onContinue: () => openTourStop(activeTour.route, activeTour.index),
       };
     }
-    if (nav && currentPiece) {
+    if (lastNav && currentPiece) {
       return {
         eyebrow: u.museum.continueWhere,
         title: currentPiece.titulo,
         detail: currentRoom ? roomTitle(currentRoom) : '',
         imageFilename: currentPiece.image_filename,
         pieceId: currentPiece.piece_id,
-        onContinue: () => push({ kind: 'piece' }),
+        onContinue: () => showPiece(lastNav),
       };
     }
     return null;
-  }, [tour, nav, currentPiece, currentRoom, pieceById, openTourStop, push, u]);
+  }, [activeTour, lastNav, currentPiece, currentRoom, pieceById, openTourStop, showPiece, u]);
 
-  const offlineAudioPieces = useMemo(() => {
-    if (tour) {
-      const ids = new Set(tour.route.stops.map(stopId));
-      return pieces.filter((p) => ids.has(p.piece_id));
-    }
-    return hasPass ? pieces : pieces.filter((p) => p.is_free);
-  }, [tour, pieces, hasPass]);
+  const offlineAudioPieces = useMemo(() => (hasPass ? pieces : pieces.filter((p) => p.is_free)), [pieces, hasPass]);
 
   const activeTab: DockTab | null = useMemo(() => {
     for (let i = stack.length - 1; i >= 0; i--) {
@@ -429,8 +513,6 @@ export default function App() {
     revokePass(selectedSite.id);
     setCurrentLicense(null);
   };
-
-  const openRoom = (room: Room) => push({ kind: 'room', roomId: room.room_id });
 
   // ---------- Pantallas ----------
   let content: React.ReactNode = null;
@@ -470,13 +552,13 @@ export default function App() {
       content = (
         <RoutesScreen
           routes={manifest?.routes || []}
-          tour={tour}
+          tour={activeTour}
           pieces={pieces}
           rooms={rooms}
           hasPass={hasPass}
           onOpenPaywall={openPaywall}
-          onContinueTour={() => tour && openTourStop(tour.route, tour.index)}
-          onOpenStop={(i) => tour && openTourStop(tour.route, i)}
+          onContinueTour={() => activeTour && openTourStop(activeTour.route, activeTour.index)}
+          onOpenStop={(i) => activeTour && openTourStop(activeTour.route, i)}
           onStartRoute={startRoute}
           onEndTour={endTour}
           onOpenWizard={() => push({ kind: 'wizard' })}
@@ -490,7 +572,7 @@ export default function App() {
           floor={floor}
           onFloorChange={setFloor}
           hereRoomId={currentPiece?.room_id || null}
-          tour={tour}
+          tour={activeTour}
           hasPass={hasPass}
           onOpenPaywall={openPaywall}
           onSelectRoom={openRoom}
@@ -502,7 +584,11 @@ export default function App() {
           pieces={pieces}
           rooms={rooms}
           hasPass={hasPass}
-          onSelectPiece={(id) => openPieceInRoom(id)}
+          query={searchQuery}
+          onQueryChange={setSearchQuery}
+          autoFocus={focusSearch}
+          onFocused={() => setFocusSearch(false)}
+          onSelectPiece={openPieceInRoom}
           onSelectRoom={openRoom}
         />
       );
@@ -519,7 +605,7 @@ export default function App() {
         onBack={goBack}
         backLabel={below?.kind === 'tab' ? tabLabel(below.tab, u) : undefined}
         onOpenPaywall={openPaywall}
-        onSelectPiece={(id) => openPieceInRoom(id)}
+        onSelectPiece={openPieceInRoom}
       />
     ) : null;
   } else if (screen.kind === 'wizard') {
@@ -534,33 +620,25 @@ export default function App() {
       />
     );
   } else if (screen.kind === 'tourDone') {
-    const route = tour?.route;
+    const route = doneRoute;
     content = (
       <TourCompletionView
         routeName={route?.name || t.app.defaultRouteName}
         totalStops={route?.stops.length || 0}
         estimatedMinutes={route ? route.estimated_minutes || calculateRouteTimeMinutes(route.stops) : 0}
         stops={route?.stops || []}
-        onExploreRooms={() => {
-          endTour();
-          goTab('salas');
-        }}
-        onChooseRoute={() => {
-          endTour();
-          goTab('recorridos');
-        }}
-        onGoHome={() => {
-          endTour();
-          setStack([{ kind: 'home' }]);
-        }}
+        onExploreRooms={() => goTab('salas')}
+        onChooseRoute={() => goTab('recorridos')}
+        onGoHome={() => rewindTo([{ kind: 'home' }])}
         onRepeatTour={route ? () => openTourStop(route, 0, 'replace') : undefined}
         onOpenMap={() => goTab('mapa')}
       />
     );
   } else if (screen.kind === 'piece') {
     if (currentPiece && nav) {
-      const inTour = nav.kind === 'tour' && tour;
+      const inTour = nav.kind === 'tour' && !!tourRoute;
       const siblings = inTour ? piecesByRoom.get(currentPiece.room_id) || [] : [];
+      const below = stack[stack.length - 2];
       content = (
         <PieceDetail
           key="piece"
@@ -569,14 +647,24 @@ export default function App() {
           onOpenPaywall={openPaywall}
           onBack={goBack}
           onOpenSearch={() => goTab('teclado')}
-          contextTitle={inTour ? tour.route.name : currentRoom ? roomTitle(currentRoom) : site.name}
+          contextTitle={inTour && tourRoute ? tourRoute.name : currentRoom ? roomTitle(currentRoom) : site.name}
           positionLabel={inTour ? u.piece.stopPosition(nav.index + 1, nav.ids.length) : u.piece.position(nav.index + 1, nav.ids.length)}
-          onContextClick={() => (inTour ? goTab('recorridos') : currentRoom && openRoom(currentRoom))}
+          onContextClick={() => {
+            if (inTour) goTab('recorridos');
+            else if (currentRoom) {
+              // Si se llegó desde esa misma sala, se regresa a ella en vez de abrirla otra vez
+              if (below?.kind === 'room' && below.roomId === currentRoom.room_id) goBack();
+              else openRoom(currentRoom);
+            }
+          }}
           onPrev={nav.index > 0 ? goPrev : undefined}
           onNext={nextInfo ? goNext : undefined}
           next={nextInfo}
           siblings={siblings}
-          onSelectSibling={(id) => openPieceInRoom(id, { push: false })}
+          onSelectSibling={(id) => {
+            const next = roomNavFor(id);
+            if (next) showPiece(next, 'replace');
+          }}
         />
       );
     } else {
@@ -602,20 +690,20 @@ export default function App() {
                 <div
                   role="status"
                   data-testid="payment-notice"
-                  className={`pointer-events-auto max-w-[456px] mx-auto mb-2 p-3.5 pr-2 rounded-2xl border flex items-start gap-3 shadow-2xl shadow-black/40 bg-raised animate-fadeIn ${
+                  className={`pointer-events-auto max-w-[456px] mx-auto mb-2 p-3.5 pr-1.5 rounded-2xl border flex items-start gap-3 shadow-2xl shadow-black/40 bg-raised animate-fadeIn ${
                     paymentNotice.kind === 'success' ? 'border-jade/60' : paymentNotice.kind === 'error' ? 'border-tezontle/60' : 'border-line-strong'
                   }`}
                 >
                   <span className="flex-1 text-ui font-semibold text-ink pt-0.5">{paymentNotice.text}</span>
-                  <button type="button" onClick={() => setPaymentNotice(null)} aria-label={t.app.dismissAria} className="btn-icon w-9 h-9 text-ink-3">
+                  <button type="button" onClick={() => setPaymentNotice(null)} aria-label={t.app.dismissAria} className="btn-icon -my-2 text-ink-3 shrink-0">
                     <X className="w-4 h-4" />
                   </button>
                 </div>
               )}
               {errorMessage && (
-                <div className="pointer-events-auto max-w-[456px] mx-auto p-3.5 pr-2 rounded-2xl border border-tezontle/60 bg-raised flex items-start gap-3 shadow-2xl shadow-black/40 animate-fadeIn">
+                <div className="pointer-events-auto max-w-[456px] mx-auto p-3.5 pr-1.5 rounded-2xl border border-tezontle/60 bg-raised flex items-start gap-3 shadow-2xl shadow-black/40 animate-fadeIn">
                   <span className="flex-1 text-ui font-semibold text-ink pt-0.5">{errorMessage}</span>
-                  <button type="button" onClick={() => setErrorMessage(null)} aria-label={t.app.dismissAria} className="btn-icon w-9 h-9 text-ink-3">
+                  <button type="button" onClick={() => setErrorMessage(null)} aria-label={t.app.dismissAria} className="btn-icon -my-2 text-ink-3 shrink-0">
                     <X className="w-4 h-4" />
                   </button>
                 </div>

@@ -90,25 +90,18 @@ export const ThemeButton: React.FC = () => {
 export const PassButton: React.FC<{ hasPass: boolean; onClick: () => void }> = ({ hasPass, onClick }) => {
   const t = useLanguage().strings.ui.pass;
   return hasPass ? (
-    <button
-      id="btn-pass-indicator"
-      type="button"
-      onClick={onClick}
-      title={t.activeTitle}
-      className="h-9 px-3 rounded-full inline-flex items-center gap-1.5 text-cap font-bold text-jade border border-jade/40 cursor-pointer active:bg-raised"
-    >
-      <ShieldCheck className="w-4 h-4" strokeWidth={2} />
-      <span>{t.active}</span>
+    <button id="btn-pass-indicator" type="button" onClick={onClick} title={t.activeTitle} className="h-11 px-0.5 inline-flex items-center cursor-pointer group">
+      <span className="h-9 px-3 rounded-full inline-flex items-center gap-1.5 text-cap font-bold text-jade border border-jade/40 group-active:bg-raised">
+        <ShieldCheck className="w-4 h-4" strokeWidth={2} />
+        <span>{t.active}</span>
+      </span>
     </button>
   ) : (
-    <button
-      id="btn-unlock-pass-nav"
-      type="button"
-      onClick={onClick}
-      className="h-9 px-3.5 rounded-full inline-flex items-center gap-1.5 text-cap font-bold bg-oro text-on-oro cursor-pointer active:scale-[0.97] transition-transform"
-    >
-      <Lock className="w-3.5 h-3.5" strokeWidth={2.5} />
-      <span>{t.buy}</span>
+    <button id="btn-unlock-pass-nav" type="button" onClick={onClick} className="h-11 px-0.5 inline-flex items-center cursor-pointer group">
+      <span className="h-9 px-3.5 rounded-full inline-flex items-center gap-1.5 text-cap font-bold bg-oro text-on-oro group-active:scale-[0.97] transition-transform">
+        <Lock className="w-3.5 h-3.5" strokeWidth={2.5} />
+        <span>{t.buy}</span>
+      </span>
     </button>
   );
 };

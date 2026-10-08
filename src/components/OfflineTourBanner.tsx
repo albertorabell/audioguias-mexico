@@ -3,6 +3,7 @@ import { DownloadCloud, CheckCircle2, AlertCircle, RefreshCw, WifiOff, } from 'l
 import {
   downloadTourOffline,
   checkIsTourCached,
+  offlineSignature,
   clearOfflineTourCache,
   OfflineProgress,
 } from '../utils/offlineTourManager';
@@ -49,23 +50,9 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
     currentLabel: '',
   });
 
-  useEffect(() => {
-    checkIsTourCached().then((cached) => {
-      setIsCached(cached);
-      if (cached) {
-        setProgress({
-          status: 'completed',
-          progressPercent: 100,
-          cachedCount: pieces.length,
-          totalCount: pieces.length,
-          currentLabel: t.savedLabel,
-        });
-      }
-    });
-  }, [pieces.length]);
-
-  const handleStartDownload = async () => {
-    const urls: string[] = [
+  // Todo lo que se guarda: datos, fotos de las piezas y los MP3 de arriba
+  const urls = useMemo(() => {
+    const list: string[] = [
       getAssetUrl('data/sites.json'),
       getAssetUrl('data/pieces.json'),
       getAssetUrl('data/rooms.json'),
@@ -73,25 +60,37 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
       getAssetUrl('data/mna/pieces.json'),
       getAssetUrl('data/mna/rooms.json'),
     ];
-
     pieces.forEach((p) => {
       const img = p.image_filename || p.identification?.hero_image;
-      if (img) {
-        if (img.startsWith('http://') || img.startsWith('https://') || img.startsWith('data:')) {
-          urls.push(img);
-        } else {
-          urls.push(getAssetUrl(`images/pieces/${img}`));
-        }
-      }
-      if (p.audioguide?.audio_file_url) {
-        urls.push(p.audioguide.audio_file_url);
-      }
+      if (img) list.push(/^(https?:|data:)/i.test(img) ? img : getAssetUrl(`images/pieces/${img}`));
+      if (p.audioguide?.audio_file_url) list.push(p.audioguide.audio_file_url);
     });
-    audioUrls.forEach((url) => urls.push(url));
+    audioUrls.forEach((url) => list.push(url));
+    return Array.from(new Set(list));
+  }, [pieces, audioUrls]);
+  // Huella de la lista: si cambia (otro idioma, se compró el pase, hay obras nuevas) se vuelve a ofrecer la descarga
+  const signature = useMemo(() => offlineSignature(urls), [urls]);
 
+  useEffect(() => {
+    let alive = true;
+    checkIsTourCached(signature).then((cached) => {
+      if (!alive) return;
+      setIsCached(cached);
+      setProgress(
+        cached
+          ? { status: 'completed', progressPercent: 100, cachedCount: pieces.length, totalCount: pieces.length, currentLabel: t.savedLabel }
+          : { status: 'idle', progressPercent: 0, cachedCount: 0, totalCount: 0, currentLabel: '' }
+      );
+    });
+    return () => {
+      alive = false;
+    };
+  }, [signature]);
+
+  const handleStartDownload = async () => {
     const success = await downloadTourOffline(urls, (p) => {
       setProgress(p);
-    });
+    }, signature);
 
     if (success) {
       setIsCached(true);

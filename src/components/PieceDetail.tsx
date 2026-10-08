@@ -8,6 +8,7 @@ import { getAssetUrl } from '../utils/urlHelper';
 import { useLanguage } from '../utils/LanguageContext';
 import { scriptLanguage } from '../i18n/content';
 import { resolvePieceAudio } from '../utils/audioSource';
+import { useBackClose } from '../utils/useBackClose';
 import { TopBar } from './ui/TopBar';
 import { PassButton } from './ui/HeaderControls';
 import { PieceDock } from './PieceDock';
@@ -86,6 +87,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const [finished, setFinished] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [zoomOpen, setZoomOpen] = useState(false);
+  // "Atrás" del teléfono cierra la foto ampliada en vez de salir de la pieza
+  useBackClose(zoomOpen, () => setZoomOpen(false));
   const [found, setFound] = useState<Record<number, boolean>>({});
 
   const pieceId = piece.piece_id || piece.id || '';
@@ -165,7 +168,12 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     }
     setErrorMessage(null);
     setFinished(false);
-    ttsPlayer.play(mode === 'expres' ? guionCorto : guionLargo, titulo, () => setFinished(true), {
+    ttsPlayer.clearErrorMessage();
+    // Si no se pudo leer (sin voz, error) no cuenta como escuchada
+    const onEnd = () => {
+      if (!ttsPlayer.getState().errorMessage) setFinished(true);
+    };
+    ttsPlayer.play(mode === 'expres' ? guionCorto : guionLargo, titulo, onEnd, {
       roomName: contextTitle,
       artworkUrl: imageFilename ? getAssetUrl(`images/pieces/${imageFilename}`) : undefined,
       pieceId,

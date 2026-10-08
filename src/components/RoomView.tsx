@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { Lock, Pause, Play, ChevronDown } from 'lucide-react';
+import { Lock, Pause, Play, ChevronDown, AlertCircle, X } from 'lucide-react';
 import { Room, PieceData } from '../types';
 import { ttsPlayer } from '../utils/ttsPlayer';
 import { PieceImage } from './PieceImage';
@@ -38,6 +38,8 @@ export const RoomView: React.FC<RoomViewProps> = ({
   const u = strings.ui;
   const [introPlaying, setIntroPlaying] = useState(false);
   const [introOpen, setIntroOpen] = useState(false);
+  const [introError, setIntroError] = useState<string | null>(null);
+  const triedIntro = React.useRef(false);
 
   const name = room.nombre_oficial || room.name || room.room_id;
   const intro = room.introduccion_narrativa || room.short_description || '';
@@ -63,6 +65,8 @@ export const RoomView: React.FC<RoomViewProps> = ({
   useEffect(() => {
     const unsubscribe = ttsPlayer.subscribe((playing, state) => {
       setIntroPlaying(playing && !state.pieceId && state.title === `${label}: ${name}`);
+      // Si el teléfono no tiene voz para ese idioma, se avisa (si no, el botón no haría nada)
+      if (triedIntro.current && state.errorMessage) setIntroError(state.errorMessage);
     });
     return () => {
       unsubscribe();
@@ -80,6 +84,9 @@ export const RoomView: React.FC<RoomViewProps> = ({
       ttsPlayer.stop();
       return;
     }
+    setIntroError(null);
+    ttsPlayer.clearErrorMessage();
+    triedIntro.current = true;
     ttsPlayer.play(intro || room.frase_gancho || name, `${label}: ${name}`, () => setIntroPlaying(false), {
       roomName: `${label} · ${name}`,
       mode: 'inmersion',
@@ -125,6 +132,23 @@ export const RoomView: React.FC<RoomViewProps> = ({
             {introPlaying ? <Pause className="w-5 h-5" /> : <Play className="w-5 h-5" />}
             {introPlaying ? u.room.stopIntro : u.room.listenIntro}
           </button>
+          {introError && (
+            <div role="alert" className="p-3.5 pr-1.5 rounded-2xl bg-raised border border-tezontle/50 flex items-start gap-3">
+              <AlertCircle className="w-5 h-5 text-tezontle shrink-0 mt-0.5" />
+              <p className="flex-1 text-ui leading-snug">{introError}</p>
+              <button
+                type="button"
+                onClick={() => {
+                  setIntroError(null);
+                  ttsPlayer.clearErrorMessage();
+                }}
+                aria-label={strings.piece.closeNotice}
+                className="btn-icon -my-2 text-ink-3 shrink-0"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+          )}
         </div>
 
         {intro && (

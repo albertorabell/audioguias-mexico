@@ -39,7 +39,8 @@ export function useScrolledPast(px: number): boolean {
 export const TopBar: React.FC<TopBarProps> = ({ onBack, backLabel, eyebrow, title, right, onTitleClick, id, revealAfter }) => {
   const t = useStrings().chrome.nav;
   const scrolled = useScrolledPast(4);
-  const revealed = useScrolledPast(revealAfter ?? -1);
+  const scrolledPast = useScrolledPast(revealAfter ?? 0);
+  const revealed = revealAfter === undefined || scrolledPast;
   const titleBlock = (eyebrow || title) && (
     <div className={`min-w-0 flex-1 leading-tight transition-opacity duration-200 ${revealed ? 'opacity-100' : 'opacity-0'}`} aria-hidden={revealed ? undefined : true}>
       {eyebrow && <div className="text-cap text-ink-3 truncate">{eyebrow}</div>}

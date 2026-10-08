@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef } from 'react';
 import { Lock, Search, X } from 'lucide-react';
 import { PieceData, Room } from '../types';
 import { PieceImage } from './PieceImage';
@@ -11,8 +11,12 @@ interface SearchScreenProps {
   hasPass: boolean;
   onSelectPiece: (pieceId: string) => void;
   onSelectRoom: (room: Room) => void;
-  /** Al abrir la pestaña se pone el cursor en el buscador. */
+  /** Lo escrito se guarda afuera, así sigue ahí al regresar de una obra. */
+  query: string;
+  onQueryChange: (q: string) => void;
+  /** Al tocar la pestaña se pone el cursor en el buscador (no al regresar de una obra). */
   autoFocus?: boolean;
+  onFocused?: () => void;
 }
 
 /** Quita acentos y mayúsculas para que "teotihuacan" encuentre "Teotihuacán". */
@@ -23,18 +27,29 @@ const fold = (s: string) =>
     .toLowerCase();
 
 /** Pestaña "Buscar": por obra, sala o cultura. Sin texto muestra las obras destacadas. */
-export const SearchScreen: React.FC<SearchScreenProps> = ({ pieces, rooms, hasPass, onSelectPiece, onSelectRoom, autoFocus = true }) => {
+export const SearchScreen: React.FC<SearchScreenProps> = ({
+  pieces,
+  rooms,
+  hasPass,
+  onSelectPiece,
+  onSelectRoom,
+  query: q,
+  onQueryChange: setQ,
+  autoFocus = false,
+  onFocused,
+}) => {
   const { strings } = useLanguage();
   const t = strings.search;
   const u = strings.ui;
-  const [q, setQ] = useState('');
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    if (autoFocus) {
-      const id = window.setTimeout(() => inputRef.current?.focus(), 80);
-      return () => window.clearTimeout(id);
-    }
+    if (!autoFocus) return;
+    const id = window.setTimeout(() => {
+      inputRef.current?.focus();
+      onFocused?.();
+    }, 80);
+    return () => window.clearTimeout(id);
   }, [autoFocus]);
 
   const roomById = useMemo(() => new Map(rooms.map((r) => [r.room_id, r])), [rooms]);
@@ -57,7 +72,7 @@ export const SearchScreen: React.FC<SearchScreenProps> = ({ pieces, rooms, hasPa
       );
       return hay.includes(query);
     });
-  }, [pieces, query]);
+  }, [pieces, query, roomById]);
 
   return (
     <div className="min-h-dvh bg-bg text-ink pb-tabbar">
@@ -77,7 +92,7 @@ export const SearchScreen: React.FC<SearchScreenProps> = ({ pieces, rooms, hasPa
               className="flex-1 min-w-0 bg-transparent outline-none text-[16px] text-ink placeholder:text-ink-3 [&::-webkit-search-cancel-button]:hidden"
             />
             {q && (
-              <button type="button" onClick={() => setQ('')} aria-label={t.clear} className="btn-icon w-9 h-9 -mr-2 text-ink-3">
+              <button type="button" onClick={() => { setQ(''); inputRef.current?.focus(); }} aria-label={t.clear} className="btn-icon -mr-3 text-ink-3 shrink-0">
                 <X className="w-4 h-4" />
               </button>
             )}

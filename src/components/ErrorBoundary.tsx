@@ -52,7 +52,7 @@ export class ErrorBoundary extends (React.Component as any) {
             </div>
 
             <div className="space-y-2">
-              <h2 className="text-xl font-black tracking-tight text-white">
+              <h2 className="text-xl font-black tracking-tight text-ink">
                 {t.boundaryTitle}
               </h2>
               <p className="text-ui text-ink-2 leading-relaxed">
