@@ -4954,6 +4954,36 @@
           "provider": "azure"
         }
       }
+    },
+    "pl": {
+      "mna_s06_coatlicue": {
+        "corto": {
+          "hash": "eef4a2bae4b5e07d",
+          "file": "pl/mna_s06_coatlicue_corto.mp3",
+          "remote": true,
+          "seconds": 49,
+          "bytes": 293040,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_piedra_sol": {
+        "corto": {
+          "hash": "ccf26da5d761a0d3",
+          "file": "pl/mna_s06_piedra_sol_corto.mp3",
+          "remote": false,
+          "seconds": 49,
+          "bytes": 296496,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0ba945b995a94e26",
+          "file": "pl/mna_s06_piedra_sol_largo.mp3",
+          "remote": false,
+          "seconds": 121,
+          "bytes": 726768,
+          "provider": "azure"
+        }
+      }
     }
   }
 }
