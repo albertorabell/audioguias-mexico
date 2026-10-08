@@ -427,6 +427,8 @@ class TTSPlayer {
 
         audio.onended = () => {
           this.cleanup();
+          // Avisar que ya terminó (la barra de abajo deja de decir "Pausa")
+          this.notify();
           const cb = this.onEndCallback;
           this.onEndCallback = null;
           cb?.();
@@ -544,6 +546,7 @@ class TTSPlayer {
   private speakCurrentChunk(voice: SpeechSynthesisVoice) {
     if (!this.synth || !this.isSpeakingChunks || this.currentChunkIndex >= this.textChunks.length) {
       this.cleanup();
+      this.notify();
       const cb = this.onEndCallback;
       this.onEndCallback = null;
       cb?.();

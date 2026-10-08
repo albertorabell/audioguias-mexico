@@ -45,9 +45,11 @@ const ROUTES = [
     id: 'ruta-monumental',
     name: 'Obras Maestras del MNA',
     name_en: 'Masterpieces of the MNA',
+    name_fr: 'Chefs-d’œuvre du MNA',
     duration: '45 min',
     description: 'Las piezas más famosas del museo, ordenadas para recorrer la planta baja de norte a sur sin regresar.',
     description_en: "The museum's most famous pieces, ordered so you can walk the ground floor from north to south without backtracking.",
+    description_fr: 'Les pièces les plus célèbres du musée, dans un ordre qui permet de parcourir le rez-de-chaussée du nord au sud sans revenir sur ses pas.',
     stop_ids: [
       'mna_s04_chalchiuhtlicue',
       'mna_s04_disco_muerte',
@@ -63,9 +65,11 @@ const ROUTES = [
     id: 'visita-relampago',
     name: 'Visita Relámpago (Top Highlights)',
     name_en: 'Lightning Visit (Top Highlights)',
+    name_fr: 'Visite éclair (incontournables)',
     duration: '25 min',
     description: 'Si tienes poco tiempo: cuatro piezas que no te puedes perder.',
     description_en: 'Short on time? Four pieces you cannot miss.',
+    description_fr: 'Peu de temps ? Quatre pièces à ne pas manquer.',
     stop_ids: [
       'mna_s04_disco_muerte',
       'mna_s06_piedra_sol',
@@ -77,9 +81,11 @@ const ROUTES = [
     id: 'ruta-familiar',
     name: 'Para ir con niños',
     name_en: 'For visiting with kids',
+    name_fr: 'En famille avec des enfants',
     duration: '35 min',
     description: 'Un mamut, una acróbata de barro, caritas que se ríen y perros de tumba: piezas para mirar y preguntar en familia.',
     description_en: 'A mammoth, a clay acrobat, smiling little faces and tomb dogs: pieces to look at and ask questions about as a family.',
+    description_fr: 'Un mammouth, une acrobate en terre cuite, des petits visages souriants et des chiens funéraires : des pièces à regarder et à commenter en famille.',
     stop_ids: [
       'mna_s00_el_paraguas',
       'mna_s01_lucy_afarensis',
@@ -93,9 +99,11 @@ const ROUTES = [
     id: 'ruta-tumbas',
     name: 'Tumbas y tesoros',
     name_en: 'Tombs and treasures',
+    name_fr: 'Tombes et trésors',
     duration: '40 min',
     description: 'Cómo despedían a sus muertos los zapotecos, los mixtecos, los mayas y los pueblos del Occidente.',
     description_en: 'How the Zapotecs, the Mixtecs, the Maya and the peoples of West Mexico said goodbye to their dead.',
+    description_fr: 'Comment les Zapotèques, les Mixtèques, les Mayas et les peuples de l’Occident disaient adieu à leurs morts.',
     stop_ids: [
       'mna_s07_tumba_104',
       'mna_s07_pectoral_oro_tumba7',
@@ -110,9 +118,11 @@ const ROUTES = [
     id: 'ruta-mexica',
     name: 'La Sala Mexica a fondo',
     name_en: 'The Mexica Hall in depth',
+    name_fr: 'La salle Mexica en détail',
     duration: '40 min',
     description: 'Siete monumentos para entender cómo veían los mexicas el Sol, la tierra y la guerra.',
     description_en: 'Seven monuments to understand how the Mexica saw the Sun, the earth and war.',
+    description_fr: 'Sept monuments pour comprendre comment les Mexicas voyaient le Soleil, la terre et la guerre.',
     stop_ids: [
       'mna_s06_piedra_sol',
       'mna_s06_coatlicue',
@@ -482,9 +492,11 @@ function buildRoutes(pieces, rooms) {
     id: route.id,
     name: route.name,
     name_en: route.name_en,
+    name_fr: route.name_fr,
     duration: route.duration,
     description: route.description,
     description_en: route.description_en,
+    description_fr: route.description_fr,
     stops: route.stop_ids
       .map((id) => byId.get(id))
       .filter(Boolean)

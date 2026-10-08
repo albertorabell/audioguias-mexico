@@ -81,6 +81,15 @@ export default function App() {
     if (stackRef.current.length > 1) window.history.back();
   }, []);
 
+  // La app decide a qué altura queda cada pantalla al regresar (el navegador no debe moverla por su cuenta)
+  useEffect(() => {
+    try {
+      window.history.scrollRestoration = 'manual';
+    } catch {
+      /* navegador sin esta opción */
+    }
+  }, []);
+
   // Botón "atrás" del teléfono o del navegador: cierra la ventana de pago o quita la pantalla de arriba
   useEffect(() => {
     const onPop = () => {

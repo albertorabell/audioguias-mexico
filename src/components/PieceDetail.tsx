@@ -134,7 +134,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     };
   }, [pieceId]);
 
-  const isThis = tts.pieceId === pieceId && (tts.isPlaying || tts.isPaused);
+  const isThis = !finished && tts.pieceId === pieceId && (tts.isPlaying || tts.isPaused);
   const isPlaying = isThis && tts.isPlaying;
   const started = isThis;
   const timeLabel = started ? `${fmtClock(tts.currentTime)} / ${fmtClock(tts.duration)}` : durationLabel(seconds[mode]);

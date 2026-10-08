@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronLeft, ChevronRight, Lock, Pause, Play, Flag } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Lock, Pause, Play, Flag, RotateCcw } from 'lucide-react';
 import { useStrings } from '../utils/LanguageContext';
 
 interface PieceDockProps {
@@ -17,7 +17,7 @@ interface PieceDockProps {
   prevDisabled?: boolean;
   /** La siguiente acción termina el recorrido (bandera en vez de flecha). */
   nextIsFinish?: boolean;
-  /** Resalta "siguiente" cuando el audio ya terminó. */
+  /** El audio de esta pieza ya terminó: "siguiente" pasa a ser el botón principal. */
   nextHighlighted?: boolean;
   prevLabel: string;
   nextLabel: string;
@@ -68,7 +68,7 @@ export const PieceDock: React.FC<PieceDockProps> = ({
           onClick={onTogglePlay}
           aria-label={locked ? u.unlock : isPlaying ? u.pause : u.listen}
           className={`relative flex-1 min-w-0 h-12 rounded-full overflow-hidden cursor-pointer active:scale-[0.98] transition-transform ${
-            locked ? 'bg-oro text-on-oro' : started ? 'bg-raised text-ink' : 'bg-jade text-on-jade'
+            locked ? 'bg-oro text-on-oro' : started || nextHighlighted ? 'bg-raised text-ink' : 'bg-jade text-on-jade'
           }`}
         >
           {!locked && started && (
@@ -88,11 +88,13 @@ export const PieceDock: React.FC<PieceDockProps> = ({
               <>
                 {isPlaying ? (
                   <Pause className="w-5 h-5 shrink-0 fill-current" />
+                ) : nextHighlighted && !started ? (
+                  <RotateCcw className="w-5 h-5 shrink-0" />
                 ) : (
                   <Play className="w-5 h-5 shrink-0 fill-current" />
                 )}
                 <span className="text-ui font-bold truncate">
-                  {started ? (isPlaying ? u.pause : u.resume) : u.listen}
+                  {started ? (isPlaying ? u.pause : u.resume) : nextHighlighted ? u.again : u.listen}
                 </span>
                 <span className={`text-cap tabular-nums shrink-0 ${started ? 'text-ink-2' : 'opacity-80'}`}>{timeLabel}</span>
               </>
