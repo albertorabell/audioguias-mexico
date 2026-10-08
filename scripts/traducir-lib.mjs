@@ -19,9 +19,9 @@ export const ROOM_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narr
 export const SPOKEN_FIELDS = ['guion_corto', 'guion_largo'];
 
 // Idiomas que ya tienen glosario y reglas. Los demás se agregan cuando existan.
-export const LANG_NAMES = { en: 'English (US)', fr: 'French (France)' };
+export const LANG_NAMES = { en: 'English (US)', fr: 'French (France)', pl: 'Polish (Poland)' };
 // Columna del glosario con la decisión de cada idioma
-export const GLOSSARY_COLUMNS = { en: 'ingles_propuesto', fr: 'frances_propuesto' };
+export const GLOSSARY_COLUMNS = { en: 'ingles_propuesto', fr: 'frances_propuesto', pl: 'polaco_propuesto' };
 export const TRANSLATE_LANGS = Object.keys(LANG_NAMES);
 
 export const TRANSLATIONS_DIR = 'traducciones';
@@ -180,10 +180,41 @@ All texts:
 - Typography: use French quotation marks « » with a no-break space inside them (« comme ceci »), a no-break space before : ; ! and ?, and the typographic apostrophe (’), never straight quotes.`;
 }
 
+function buildPolishSystemPrompt() {
+  return `You are a professional translator for a museum audio-guide app about the National Museum of Anthropology (MNA) in Mexico City. You translate from Mexican Spanish into natural, polished Polish (Poland) for curious visitors who are not specialists. Address the visitor directly in the informal second person singular ("ty", lowercase), because the Spanish source addresses the visitor with "tú".
+
+You receive a JSON object. Translate every value and return ONE JSON object with exactly the same keys, in the same order, and nothing else: no commentary, no code fences.
+
+Keep the shapes identical:
+- Keep the JSON keys of the object exactly as they are: never translate or rename them (for example "titulo" stays "titulo"). Only the values are translated, and the labels inside "especificaciones" as described below.
+- A string stays a string.
+- An array stays an array with the same number of items, in the same order.
+- "especificaciones" is an object: keep the same number of entries, in the same order. Translate both the labels (keys) and the values. Use these fixed labels: Cultura = Kultura; Periodo = Okres; Material = Materiał; Procedencia = Pochodzenie; Medidas = Wymiary; Región = Region; Técnica/Material = Technika/Materiał; Función = Funkcja; Pueblo = Lud; Pueblo Indígena = Lud tubylczy; Autor/Cultura = Autor/Kultura; Año = Rok; Ubicación = Lokalizacja; Antigüedad = Wiek. Translate any other label plainly.
+- "faq_mito" is an object with the keys "pregunta" and "respuesta". Keep those two keys exactly as they are and translate only the values. The Spanish values begin with "Mito:" and "Realidad:"; write "Mit:" and "Rzeczywistość:".
+
+Spoken scripts ("guion_corto" and "guion_largo"):
+- They are read aloud by a text-to-speech voice. Write flowing spoken prose: no lists, no markdown, no emojis, no parenthetical asides (except glossary terms that the glossary shows with parentheses).
+- Same sentences, same information, same order. Do not add, explain, summarize or omit anything.
+- Keep years and dates as digits when the source uses digits. If the source writes a number in words, write it in words. Write years without separators (1521); write other large numbers with a no-break space as the thousands separator (12 000) and a decimal comma (2,5).
+- Keep metric units. Never convert to miles, feet or pounds.
+
+All texts:
+- Translate meaning faithfully, with the tone of the source: evocative but accurate. Do not invent facts.
+- Never leave Spanish words in the Polish text, except proper names covered by the glossary.
+- The glossary in the user message is mandatory: names marked KEEP stay exactly as written (keep their accents) but you MUST inflect them by case according to Polish grammar when the sentence needs it (for example "Quetzalcóatl" → "Quetzalcóatla", "w Teotihuacán"); the others use the Polish given, inflected by case and number as needed. Peoples given in the glossary in the nominative plural (for example "Majowie") are inflected normally ("Majów", "Majom", "kultura Majów"; adjective forms such as "majski" are fine when natural).
+- A glossary Polish term shown with a parenthetical, such as "Voladores (Latający Ludzie)", gets the parenthetical only the first time it appears within the text you are translating; afterwards use the term without it.
+- "Sala X" (a hall of the museum) becomes "Sala X".
+- Eras: "d.C." becomes "n.e." and "a.C." becomes "p.n.e.", placed after the year or range as in the source (for example "1250-1521 d.C." becomes "1250-1521 n.e.").
+- If the source spells a glossary name slightly differently from the glossary (for example "Nahui Olin" and the glossary says "Nahui Ollin"), use the glossary spelling.
+- Places: the country is "Meksyk", the city is "Miasto Meksyk", the state is "Stan Meksyk", the gulf is "Zatoka Meksykańska". Inside names the glossary marks KEEP (such as "México-Tenochtitlan") keep the accent.
+- Typography: use Polish quotation marks („ ”) and the typographic apostrophe (’), never straight quotes.`;
+}
+
 export function buildSystemPrompt(lang) {
   const name = LANG_NAMES[lang];
   if (!name) throw new Error(`Todavía no hay reglas ni glosario para el idioma "${lang}".`);
   if (lang === 'fr') return buildFrenchSystemPrompt();
+  if (lang === 'pl') return buildPolishSystemPrompt();
   return `You are a professional translator for a museum audio-guide app about the National Museum of Anthropology (MNA) in Mexico City. You translate from Mexican Spanish into natural, polished ${name} for curious visitors who are not specialists.
 
 You receive a JSON object. Translate every value and return ONE JSON object with exactly the same keys, in the same order, and nothing else: no commentary, no code fences.
@@ -281,7 +312,7 @@ const ES_ONLY_STOPWORDS = new Set(['el', 'los', 'las', 'del', 'una', 'con', 'por
 function spanishRatio(text, lang = 'en') {
   const w = words(text);
   if (!w.length) return 0;
-  const set = lang === 'fr' ? ES_ONLY_STOPWORDS : ES_STOPWORDS;
+  const set = lang === 'fr' || lang === 'pl' ? ES_ONLY_STOPWORDS : ES_STOPWORDS;
   // Solo cuentan las palabras escritas en minúscula: "El Tajín" o "El Zapotal" son nombres propios, no español sin traducir
   const lower = (String(text).match(/\p{L}+/gu) || []).filter((x) => x === x.toLowerCase());
   const hits = lower.filter((x) => set.has(x)).length;
@@ -343,7 +374,7 @@ export function validateTranslation(source, out, glossaryEntries = [], { fake = 
     }
 
     // En francés los miles llevan espacio y los decimales coma: se comparan solo los dígitos
-    const flat = lang === 'fr' ? (t) => t.replace(/(?<=\d)[\s\u00a0\u202f.,](?=\d)/g, '') : (t) => t;
+    const flat = lang === 'fr' || lang === 'pl' ? (t) => t.replace(/(?<=\d)[\s\u00a0\u202f.,](?=\d)/g, '') : (t) => t;
     const digitsIn = (sText.match(/\d[\d.,]*/g) || []).map((d) => d.replace(/[.,]+$/, ''));
     const oFlat = flat(oText);
     const lost = [...new Set(digitsIn)].filter((d) => !oFlat.includes(flat(d)));
@@ -351,7 +382,8 @@ export function validateTranslation(source, out, glossaryEntries = [], { fake = 
 
     const pl = lang === 'fr';
     const passes = (g) => (g.keep ? wordRe(g.base, pl).test(oText) : wordRe(g.base, pl).test(oText) || g.alts.some((a) => wordRe(a, pl).test(oText)));
-    for (const g of glossaryEntries) {
+    // En polaco los nombres cambian de forma según la frase (casos gramaticales): la revisión palabra por palabra no sirve y se omite
+    for (const g of lang === 'pl' ? [] : glossaryEntries) {
       if (!g.check || !g.re.some((re) => re.test(sText))) continue;
       if (passes(g)) continue;
       // Un mismo término en español puede tener dos filas (p. ej. "Nahuas": pueblo y sala): basta con que se cumpla una
@@ -384,8 +416,8 @@ export function estimateUnit(fields, glossaryEntries, lang, prices = DEFAULT_PRI
   const promptChars = buildSystemPrompt(lang).length + glossaryEntries.length * 60;
   const inTok = (chars + promptChars) / 3.2;
   // Medido en la prueba real (5 piezas): el inglés sale a ~0.5 tokens por carácter del español.
-  // El francés NO está medido: se supone 20 % más (es más largo) hasta tener una corrida real.
-  const outTok = chars * (lang === 'fr' ? 0.6 : 0.5);
+  // El francés (20 % más) y el polaco (60 % más, el polaco gasta más tokens por letra) NO están medidos: son suposiciones hasta tener una corrida real.
+  const outTok = chars * (lang === 'pl' ? 0.8 : lang === 'fr' ? 0.6 : 0.5);
   // Margen 1.28: en la corrida real de 56 unidades el costo salió 16 % arriba de lo estimado con 1.1
   return { chars, usd: ((inTok * prices.input + outTok * prices.output) / 1e6) * 1.28 };
 }
