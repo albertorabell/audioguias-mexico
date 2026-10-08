@@ -182,3 +182,23 @@ test('voces con ":" en el nombre (Dragon HD) se guardan con un nombre de archivo
   assert.deepEqual(fs.readdirSync(out).sort(), ['en-US-Adam-DragonHDLatestNeural.mp3', 'indice.md']);
   assert.match(fs.readFileSync(path.join(out, 'indice.md'), 'utf-8'), /HD: otro precio/);
 });
+
+test('--listar muestra las voces del idioma marcando multilingües y HD, sin generar nada', async () => {
+  const dir = tmpProject();
+  const voices = [
+    { ShortName: 'en-US-JennyNeural', Gender: 'Female', Locale: 'en-US', Status: 'GA' },
+    { ShortName: 'en-US-AvaMultilingualNeural', Gender: 'Female', Locale: 'en-US', Status: 'GA', SecondaryLocaleList: ['es-MX'] },
+    { ShortName: 'en-US-Adam:DragonHDLatestNeural', Gender: 'Male', Locale: 'en-US', Status: 'GA' },
+    { ShortName: 'es-MX-JorgeNeural', Gender: 'Male', Locale: 'es-MX', Status: 'GA' },
+  ];
+  const out = [];
+  const code = await main(['--lang', 'en', '--listar'], { root: dir, env: ENV, fetchImpl: async () => ({ ok: true, json: async () => voices }), log: (m) => out.push(m), warn() {} });
+  assert.equal(code, 0);
+  const text = out.join('\n');
+  assert.match(text, /3 \(1 multilingües\)/);
+  assert.match(text, /en-US-AvaMultilingualNeural · Female · MULTILINGÜE/);
+  assert.match(text, /DragonHDLatestNeural · Male · HD/);
+  assert.doesNotMatch(text, /es-MX-JorgeNeural/);
+  assert.equal(fs.existsSync(path.join(dir, 'muestras-voz')), false);
+  await assert.rejects(main(['--lang', 'en', '--listar'], { root: dir, env: {}, fetchImpl: async () => {}, ...quiet }), /Faltan las claves/);
+});
