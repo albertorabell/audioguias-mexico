@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { X, Sparkles, CheckCircle, Shield, WifiOff, Clock, ExternalLink, RefreshCw, LogOut, KeyRound, Copy, Lock } from 'lucide-react';
 import { formatRemainingHours } from '../utils/license';
-import { useTheme } from '../utils/ThemeContext';
 import { useLanguage } from '../utils/LanguageContext';
 import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
 import { PAYMENTS_ENABLED } from '../config/payments';
@@ -49,7 +48,6 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   onSimulatePurchase,
   onRevokePass,
 }) => {
-  const { isSunMode } = useTheme();
   const { strings, currentLanguage } = useLanguage();
   const t = strings.paywall;
 
@@ -114,7 +112,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const primaryPrice = currentLanguage !== 'es' && pricing?.prices.usd ? usdValue : mxn;
   const priceLine = pricing ? (currentLanguage !== 'es' && pricing.prices.usd ? usdValue : mxn) : t.price(mxn, usdValue);
 
-  const accent = isSunMode ? 'text-amber-800' : 'text-amber-400';
+  const accent = 'text-oro';
   const benefits = [
     { icon: <Clock className={`w-4 h-4 ${accent}`} />, title: t.benefits.accessTitle(hours), desc: t.benefits.accessDesc },
     { icon: <Sparkles className={`w-4 h-4 ${accent}`} />, title: t.benefits.guidesTitle, desc: t.benefits.guidesDesc },
@@ -163,71 +161,51 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   };
 
   const remaining = passExpiresAt ? formatRemainingHours(passExpiresAt) : '';
-  const cardBorder = isSunMode ? 'border-stone-200' : 'border-stone-800';
 
   return (
-    <div
-      id="modal-paywall"
-      className="fixed inset-0 z-50 bg-black/85 backdrop-blur-xs flex items-end sm:items-center justify-center p-0 sm:p-4 animate-in fade-in duration-200"
-    >
+    <div id="modal-paywall" className="fixed inset-0 z-50 bg-scrim backdrop-blur-sm flex items-end sm:items-center justify-center" onClick={onClose}>
       <div
-        className={`w-full max-w-[480px] border-t sm:border rounded-t-3xl sm:rounded-3xl p-5 max-h-[90vh] overflow-y-auto shadow-2xl transition-colors duration-200 ${
-          isSunMode ? 'bg-white border-stone-300 text-stone-900' : 'bg-stone-900 border-stone-800 text-stone-100'
-        }`}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="paywall-title"
+        onClick={(e) => e.stopPropagation()}
+        className="w-full max-w-[480px] max-h-[92dvh] overflow-y-auto overscroll-contain rounded-t-[24px] sm:rounded-[24px] bg-surface text-ink border border-line px-5 pt-3 pb-[calc(1.25rem+env(safe-area-inset-bottom,0px))] shadow-2xl animate-sheet"
       >
-        {/* Header */}
-        <div className={`flex items-start justify-between pb-3 border-b ${cardBorder}`}>
-          <div>
-            <span
-              className={`px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider border ${
-                isSunMode ? 'bg-amber-100 text-amber-900 border-amber-300' : 'bg-amber-500/20 text-amber-400 border-amber-500/30'
-              }`}
-            >
-              {t.badge}
-            </span>
-            <h3 className={`text-base font-extrabold mt-1.5 ${isSunMode ? 'text-stone-950' : 'text-white'}`}>{siteName}</h3>
+        <div className="mx-auto mb-2 h-1 w-10 rounded-full bg-line-strong sm:hidden" aria-hidden="true" />
+        <div className="flex items-start justify-between gap-3">
+          <div className="pt-1">
+            <p className="text-cap font-semibold text-oro">{t.badge}</p>
+            <h3 id="paywall-title" className="mt-0.5 font-serif text-h3 font-medium">
+              {siteName}
+            </h3>
           </div>
-          <button
-            id="btn-close-paywall-modal"
-            onClick={onClose}
-            aria-label={t.closeAria}
-            className={`min-h-[48px] min-w-[48px] flex items-center justify-center rounded-xl transition ${
-              isSunMode ? 'hover:bg-stone-100 text-stone-600' : 'hover:bg-stone-800 text-stone-400 hover:text-white'
-            }`}
-          >
+          <button id="btn-close-paywall-modal" type="button" onClick={onClose} aria-label={t.closeAria} className="btn-icon -mr-2 text-ink-2 shrink-0">
             <X className="w-5 h-5" />
           </button>
         </div>
 
         {notice && (
-          <p role="status" className={`mt-3 text-xs font-semibold ${isSunMode ? 'text-emerald-800' : 'text-emerald-300'}`}>
+          <p role="status" className="mt-3 text-ui font-semibold text-jade">
             {notice}
           </p>
         )}
 
-        {/* Pase activo */}
         {hasPass && passExpiresAt && (
-          <div
-            data-testid="pass-active"
-            className={`my-3.5 p-3.5 rounded-2xl border space-y-3 ${
-              isSunMode ? 'bg-emerald-50 border-emerald-300 text-emerald-950' : 'bg-emerald-950/80 border-emerald-600/50 text-emerald-200'
-            }`}
-          >
+          <div data-testid="pass-active" className="mt-4 p-4 rounded-2xl bg-jade/10 border border-jade/40 space-y-3">
             <div className="flex items-center justify-between gap-3">
               <div className="flex items-center gap-2.5">
-                <CheckCircle className="w-5 h-5 text-emerald-600 shrink-0" />
+                <CheckCircle className="w-5 h-5 text-jade shrink-0" />
                 <div>
-                  <p className="text-xs font-extrabold">{t.activeTitle}</p>
-                  <p className="text-[11px] font-medium">{remaining ? t.remaining(remaining) : ''}</p>
+                  <p className="text-ui font-bold">{t.activeTitle}</p>
+                  {remaining && <p className="text-cap text-ink-2">{t.remaining(remaining)}</p>}
                 </div>
               </div>
               {(canSimulate || import.meta.env.DEV) && (
                 <button
                   id="btn-revoke-pass"
+                  type="button"
                   onClick={onRevokePass}
-                  className={`min-h-[40px] flex items-center gap-1 px-3 py-1.5 rounded-lg text-[11px] font-bold transition border ${
-                    isSunMode ? 'bg-white border-rose-300 text-rose-800 hover:bg-rose-50' : 'bg-stone-900 border-rose-800/40 text-rose-300 hover:bg-stone-800'
-                  }`}
+                  className="min-h-10 inline-flex items-center gap-1.5 px-3 rounded-full text-cap font-semibold border border-tezontle/50 text-tezontle cursor-pointer"
                   title={t.signOutTitle}
                 >
                   <LogOut className="w-3.5 h-3.5" />
@@ -237,90 +215,65 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             </div>
 
             {passCode && (
-              <div className={`pt-3 border-t ${isSunMode ? 'border-emerald-200' : 'border-emerald-700/40'}`}>
-                <p className="text-[11px] font-bold">{t.codeTitle}</p>
+              <div className="pt-3 border-t border-jade/25">
+                <p className="text-cap font-semibold text-ink-2">{t.codeTitle}</p>
                 <div className="mt-1.5 flex items-center gap-2">
-                  <code data-testid="pass-code" className="px-3 py-1.5 rounded-lg font-mono text-sm font-extrabold tracking-widest bg-black/20">
+                  <code data-testid="pass-code" className="px-3 py-1.5 rounded-lg bg-bg font-mono text-[1.0625rem] font-bold tracking-[0.12em]">
                     {passCode}
                   </code>
-                  <button
-                    type="button"
-                    onClick={handleCopy}
-                    className="min-h-[36px] flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold border border-current/30 hover:bg-black/10"
-                  >
+                  <button type="button" onClick={handleCopy} className="min-h-10 inline-flex items-center gap-1.5 px-3 rounded-full text-cap font-semibold border border-line-strong cursor-pointer">
                     <Copy className="w-3.5 h-3.5" />
                     <span>{copied ? t.copied : t.copy}</span>
                   </button>
                 </div>
-                <p className="text-[10px] mt-1.5 opacity-80">{t.codeHint(maxDevices)}</p>
+                <p className="text-cap mt-2 text-ink-3">{t.codeHint(maxDevices)}</p>
               </div>
             )}
           </div>
         )}
 
-        {/* Precio */}
         {!hasPass && (
-          <div
-            className={`my-4 p-4.5 rounded-2xl text-center relative overflow-hidden border ${
-              isSunMode ? 'bg-[#F9F6F0] border-amber-300 shadow-xs' : 'bg-gradient-to-br from-amber-500/15 via-stone-950 to-stone-950 border-amber-500/40'
-            }`}
-          >
-            <p className={`text-xs uppercase font-extrabold tracking-widest ${isSunMode ? 'text-amber-800' : 'text-amber-400'}`}>
-              {t.offerTitle(hours)}
+          <div className="mt-4 p-5 rounded-2xl bg-bg border border-oro/40 text-center">
+            <p className="text-ui font-semibold text-oro">{t.offerTitle(hours)}</p>
+            <p data-testid="pass-price" className="mt-1 font-serif text-[2.5rem] leading-tight font-medium tabular-nums">
+              {priceLine}
             </p>
-            <div className="flex items-baseline justify-center gap-1.5 mt-2">
-              <span data-testid="pass-price" className={`text-3xl font-extrabold font-mono ${isSunMode ? 'text-stone-950' : 'text-white'}`}>
-                {priceLine}
-              </span>
-            </div>
-            <p className={`text-[11px] font-medium mt-1.5 ${isSunMode ? 'text-stone-600' : 'text-stone-400'}`}>{t.priceNote}</p>
+            <p className="text-cap text-ink-3 mt-1">{t.priceNote}</p>
           </div>
         )}
 
-        {/* Beneficios */}
-        <div className="space-y-2.5 mb-5">
+        <ul className="mt-4 space-y-3">
           {benefits.map((b, idx) => (
-            <div
-              key={idx}
-              className={`flex items-start gap-3 p-3 rounded-xl border ${isSunMode ? 'bg-stone-50 border-stone-200' : 'bg-stone-950/60 border-stone-800/60'}`}
-            >
-              <div
-                className={`p-2 rounded-lg shrink-0 mt-0.5 ${
-                  isSunMode ? 'bg-amber-100 text-amber-800 border border-amber-300' : 'bg-amber-500/10 text-amber-400 border border-amber-500/20'
-                }`}
-              >
-                {b.icon}
+            <li key={idx} className="flex items-start gap-3">
+              <span className="w-9 h-9 rounded-full bg-raised flex items-center justify-center shrink-0">{b.icon}</span>
+              <div className="pt-0.5">
+                <p className="text-ui font-bold">{b.title}</p>
+                <p className="text-cap leading-snug mt-0.5 text-ink-2">{b.desc}</p>
               </div>
-              <div>
-                <p className={`text-xs font-bold ${isSunMode ? 'text-stone-950' : 'text-stone-200'}`}>{b.title}</p>
-                <p className={`text-[11px] leading-snug mt-0.5 ${isSunMode ? 'text-stone-600' : 'text-stone-400'}`}>{b.desc}</p>
-              </div>
-            </div>
+            </li>
           ))}
-        </div>
+        </ul>
 
         {error && (
-          <p role="alert" data-testid="paywall-error" className={`mb-3 text-xs font-semibold ${isSunMode ? 'text-rose-800' : 'text-rose-300'}`}>
+          <p role="alert" data-testid="paywall-error" className="mt-4 text-ui font-semibold text-tezontle">
             {t.errors[error]}
           </p>
         )}
 
-        {/* Acciones (altura táctil mínima de 48 px) */}
-        <div className={`space-y-3 pt-3 border-t ${cardBorder}`}>
+        <div className="mt-5 space-y-3">
           {!hasPass && PAYMENTS_ENABLED && (
             <>
               <button
                 id="btn-stripe-checkout"
+                type="button"
                 onClick={handleCheckout}
                 disabled={busy !== null}
-                className={`w-full min-h-[48px] px-4 py-3 rounded-xl text-xs font-extrabold transition flex items-center justify-center gap-2 active:scale-98 shadow-md disabled:opacity-60 ${
-                  isSunMode ? 'bg-amber-700 hover:bg-amber-800 text-white shadow-amber-800/20' : 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-amber-500/20'
-                }`}
+                className="w-full min-h-[3.25rem] px-4 rounded-full bg-oro text-on-oro text-ui font-bold inline-flex items-center justify-center gap-2 cursor-pointer active:scale-[0.98] transition-transform disabled:opacity-60"
               >
                 <span>{busy === 'checkout' ? t.redirecting : t.payButton(primaryPrice)}</span>
                 <ExternalLink className="w-4 h-4" />
               </button>
-              <p className={`flex items-center justify-center gap-1.5 text-[10px] ${isSunMode ? 'text-stone-500' : 'text-stone-500'}`}>
+              <p className="flex items-center justify-center gap-1.5 text-[12px] text-ink-3">
                 <Lock className="w-3 h-3" />
                 <span>{t.secureNote}</span>
               </p>
@@ -328,12 +281,11 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           )}
 
           {!hasPass && !PAYMENTS_ENABLED && (
-            <p data-testid="payments-unavailable" className={`text-xs text-center ${isSunMode ? 'text-stone-600' : 'text-stone-400'}`}>
+            <p data-testid="payments-unavailable" className="text-ui text-center text-ink-2">
               {t.unavailable}
             </p>
           )}
 
-          {/* Activar con un código (segundo dispositivo) */}
           {!hasPass && PAYMENTS_ENABLED && (
             <div>
               <button
@@ -343,16 +295,15 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                   setShowCode((v) => !v);
                   setError(null);
                 }}
-                className={`w-full min-h-[44px] flex items-center justify-center gap-2 text-[11px] font-bold transition ${
-                  isSunMode ? 'text-stone-700 hover:text-stone-950' : 'text-stone-300 hover:text-white'
-                }`}
+                aria-expanded={showCode}
+                className="w-full min-h-11 inline-flex items-center justify-center gap-2 text-ui font-semibold text-ink-2 cursor-pointer rounded-full active:bg-raised"
               >
-                <KeyRound className="w-3.5 h-3.5" />
+                <KeyRound className="w-4 h-4" />
                 <span>{t.haveCode}</span>
               </button>
               {showCode && (
                 <form
-                  className="mt-1 flex items-stretch gap-2"
+                  className="mt-2 flex items-stretch gap-2"
                   onSubmit={(e) => {
                     e.preventDefault();
                     if (codeInput.trim() && busy === null) handleRedeemCode();
@@ -368,15 +319,13 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                     autoComplete="off"
                     spellCheck={false}
                     maxLength={12}
-                    className={`flex-1 min-h-[44px] px-3 rounded-xl font-mono text-sm tracking-widest border outline-hidden focus:border-amber-500 ${
-                      isSunMode ? 'bg-white border-stone-300 text-stone-900' : 'bg-black/40 border-white/10 text-white'
-                    }`}
+                    className="flex-1 min-w-0 min-h-12 px-4 rounded-full bg-bg border border-line-strong font-mono tracking-[0.12em] text-ink outline-none focus:border-jade"
                   />
                   <button
                     type="submit"
                     id="btn-redeem-code"
                     disabled={busy !== null || !codeInput.trim()}
-                    className="min-h-[44px] px-4 rounded-xl text-xs font-extrabold bg-amber-500 hover:bg-amber-400 text-stone-950 disabled:opacity-50"
+                    className="btn-primary min-h-12 disabled:opacity-50"
                   >
                     {busy === 'code' ? t.verifying : t.activate}
                   </button>
@@ -385,19 +334,17 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             </div>
           )}
 
-          {/* Pase simulado de pruebas */}
           {!hasPass && canSimulate && (
             <button
               id="btn-simulate-pass"
+              type="button"
               onClick={() => {
                 onSimulatePurchase();
                 onClose();
               }}
-              className={`w-full min-h-[48px] px-4 py-3 rounded-xl text-xs font-extrabold transition flex items-center justify-center gap-2 active:scale-98 border ${
-                isSunMode ? 'bg-emerald-100 hover:bg-emerald-200 text-emerald-900 border-emerald-400' : 'bg-emerald-950 hover:bg-emerald-900 text-emerald-300 border-emerald-700/60'
-              }`}
+              className="btn-secondary w-full"
             >
-              <RefreshCw className="w-4 h-4 text-emerald-600" />
+              <RefreshCw className="w-4 h-4" />
               <span>{t.debugSimulate}</span>
             </button>
           )}

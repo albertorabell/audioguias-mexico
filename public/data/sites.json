@@ -15,7 +15,15 @@
     "location_en": "Chapultepec Park, Mexico City",
     "badge_en": "Top 10 Museums in the World",
     "description_en": "Mexico's and Latin America's most important archaeological and ethnographic museum, with 22 halls and more than 130 masterpieces analysed in detail.",
-    "pass_price_mxn": 99
+    "pass_price_mxn": 99,
+    "name_fr": "Musée national d’anthropologie",
+    "location_fr": "Bois de Chapultepec, Mexico",
+    "badge_fr": "Parmi les 10 meilleurs musées du monde",
+    "description_fr": "Le plus important musée d’archéologie et d’ethnographie du Mexique et d’Amérique latine, avec 22 salles et plus de 130 chefs-d’œuvre expliqués en détail.",
+    "name_pl": "Narodowe Muzeum Antropologii",
+    "location_pl": "Las Chapultepec, Meksyk (miasto)",
+    "badge_pl": "Jedno z 10 najlepszych muzeów świata",
+    "description_pl": "Najważniejsze muzeum archeologii i etnografii Meksyku i Ameryki Łacińskiej, z 22 salami i ponad 130 szczegółowo objaśnionymi arcydziełami."
   },
   {
     "id": "TEOTIHUACAN",
@@ -32,7 +40,15 @@
     "name_en": "Teotihuacan Archaeological Zone",
     "location_en": "Teotihuacan Valley, State of Mexico",
     "badge_en": "UNESCO World Heritage Site",
-    "description_en": "The legendary 'City of the Gods', a ceremonial centre and one of the largest pre-Hispanic cities, home to the Pyramid of the Sun and the Pyramid of the Moon."
+    "description_en": "The legendary 'City of the Gods', a ceremonial centre and one of the largest pre-Hispanic cities, home to the Pyramid of the Sun and the Pyramid of the Moon.",
+    "name_fr": "Zone archéologique de Teotihuacan",
+    "location_fr": "Vallée de Teotihuacan, État de Mexico",
+    "badge_fr": "Patrimoine mondial de l’UNESCO",
+    "description_fr": "La légendaire « Cité des dieux », centre cérémoniel et l’une des plus grandes villes préhispaniques, avec la pyramide du Soleil et la pyramide de la Lune.",
+    "name_pl": "Strefa archeologiczna Teotihuacán",
+    "location_pl": "Dolina Teotihuacán, stan Meksyk",
+    "badge_pl": "Światowe Dziedzictwo UNESCO",
+    "description_pl": "Legendarne „Miasto Bogów”, ośrodek ceremonialny i jedno z największych miast przedhiszpańskich, z Piramidą Słońca i Piramidą Księżyca."
   },
   {
     "id": "CHAPULTEPEC",
@@ -49,7 +65,15 @@
     "name_en": "Chapultepec Castle",
     "location_en": "First Section of Chapultepec Park, Mexico City",
     "badge_en": "The only royal castle in the Americas",
-    "description_en": "The emblematic viceregal fortress and imperial residence on Grasshopper Hill, witness to decisive moments in the history of the Republic."
+    "description_en": "The emblematic viceregal fortress and imperial residence on Grasshopper Hill, witness to decisive moments in the history of the Republic.",
+    "name_fr": "Château de Chapultepec",
+    "location_fr": "Première section du bois de Chapultepec, Mexico",
+    "badge_fr": "Le seul château royal des Amériques",
+    "description_fr": "L’emblématique forteresse vice-royale et résidence impériale sur la colline des Sauterelles, témoin de moments décisifs de l’histoire de la République.",
+    "name_pl": "Zamek Chapultepec",
+    "location_pl": "Pierwsza sekcja lasu Chapultepec, Meksyk (miasto)",
+    "badge_pl": "Jedyny zamek królewski obu Ameryk",
+    "description_pl": "Symboliczna twierdza wicekrólewska i rezydencja cesarska na Wzgórzu Szarańczy, świadek przełomowych chwil w historii Republiki."
   },
   {
     "id": "TEMPLO_MAYOR",
@@ -66,7 +90,15 @@
     "name_en": "Templo Mayor (Tenochtitlan)",
     "location_en": "Historic Centre, Mexico City",
     "badge_en": "Sacred heart of the Mexica",
-    "description_en": "The cosmic axis of Mexica civilisation, where the temples of Tlaloc and Huitzilopochtli stood side by side, with its 8-hall site museum."
+    "description_en": "The cosmic axis of Mexica civilisation, where the temples of Tlaloc and Huitzilopochtli stood side by side, with its 8-hall site museum.",
+    "name_fr": "Templo Mayor (Tenochtitlan)",
+    "location_fr": "Centre historique, Mexico",
+    "badge_fr": "Cœur sacré des Mexicas",
+    "description_fr": "L’axe cosmique de la civilisation mexica, où les temples de Tlaloc et de Huitzilopochtli se dressaient côte à côte, avec son musée de site de 8 salles.",
+    "name_pl": "Templo Mayor (Tenochtitlán)",
+    "location_pl": "Centrum historyczne, Meksyk (miasto)",
+    "badge_pl": "Święte serce Mexików",
+    "description_pl": "Kosmiczna oś cywilizacji Mexików, gdzie obok siebie stały świątynie Tlaloca i Huitzilopochtli, wraz z muzeum z 8 salami."
   },
   {
     "id": "BELLAS_ARTES",
@@ -83,6 +115,14 @@
     "name_en": "Palace of Fine Arts",
     "location_en": "Historic Centre / Alameda Central, Mexico City",
     "badge_en": "Cathedral of Art in Mexico",
-    "description_en": "Mexico's finest Art Nouveau and Art Deco jewel, home to monumental murals by Rivera, Orozco, Siqueiros and Tamayo."
+    "description_en": "Mexico's finest Art Nouveau and Art Deco jewel, home to monumental murals by Rivera, Orozco, Siqueiros and Tamayo.",
+    "name_fr": "Palais des Beaux-Arts",
+    "location_fr": "Centre historique / Alameda Central, Mexico",
+    "badge_fr": "La cathédrale de l’art au Mexique",
+    "description_fr": "Le joyau Art nouveau et Art déco du Mexique, qui abrite des fresques monumentales de Rivera, Orozco, Siqueiros et Tamayo.",
+    "name_pl": "Pałac Sztuk Pięknych",
+    "location_pl": "Centrum historyczne / Alameda Central, Meksyk (miasto)",
+    "badge_pl": "Katedra sztuki w Meksyku",
+    "description_pl": "Klejnot meksykańskiej secesji i art déco, w którym znajdują się monumentalne freski Rivery, Orozco, Siqueirosa i Tamayo."
   }
 ]

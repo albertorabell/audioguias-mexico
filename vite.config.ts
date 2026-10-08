@@ -23,8 +23,8 @@ export default defineConfig(() => {
           name: 'Audioguías México',
           short_name: 'Audioguías',
           description: 'PWA de audioguías para museos y sitios arqueológicos de México con modo offline.',
-          theme_color: '#0B0B0E',
-          background_color: '#0B0B0E',
+          theme_color: '#161413',
+          background_color: '#161413',
           display: 'standalone',
           start_url: './',
           scope: './',
@@ -56,6 +56,25 @@ export default defineConfig(() => {
           // Se sube el límite para que se siga guardando para usar sin internet.
           maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
           runtimeCaching: [
+            {
+              // Tipografías de Google: la hoja de estilos se revisa en segundo plano y los archivos de letra se guardan un año,
+              // así la app conserva sus letras sin internet dentro del museo.
+              urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
+              handler: 'StaleWhileRevalidate',
+              options: {
+                cacheName: 'google-fonts-css',
+                cacheableResponse: { statuses: [0, 200] },
+              },
+            },
+            {
+              urlPattern: /^https:\/\/fonts\.gstatic\.com\/.*/i,
+              handler: 'CacheFirst',
+              options: {
+                cacheName: 'google-fonts-files',
+                expiration: { maxEntries: 30, maxAgeSeconds: 60 * 60 * 24 * 365 },
+                cacheableResponse: { statuses: [0, 200] },
+              },
+            },
             {
               urlPattern: /^https:\/\/upload\.wikimedia\.org\/.*/i,
               handler: 'CacheFirst',

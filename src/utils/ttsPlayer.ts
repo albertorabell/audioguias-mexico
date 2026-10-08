@@ -62,6 +62,8 @@ class TTSPlayer {
   private currentChunkIndex = 0;
   private isSpeakingChunks = false;
   private errorMessage: string | null = null;
+  /** Cambia cada vez que se detiene una lectura, para ignorar avisos de frases viejas. */
+  private speechGen = 0;
   private currentLang: SupportedLanguage = 'es';
 
   private constructor() {
@@ -427,26 +429,32 @@ class TTSPlayer {
 
         audio.onended = () => {
           this.cleanup();
+          // Avisar que ya terminó (la barra de abajo deja de decir "Pausa")
+          this.notify();
           const cb = this.onEndCallback;
           this.onEndCallback = null;
           cb?.();
         };
 
-        audio.onerror = () => {
-          console.warn('HTML5 Audio falló al cargar MP3, activando síntesis de voz en español');
+        // Si el MP3 no carga se lee el texto con la voz del teléfono, UNA sola vez
+        // (el error de carga y el rechazo de play() pueden llegar los dos)
+        let fellBack = false;
+        const fallBackToSpeech = () => {
+          if (fellBack || this.htmlAudio !== audio) return;
+          fellBack = true;
+          console.warn('HTML5 Audio falló al cargar MP3, activando síntesis de voz');
           this.cleanupHtmlAudio();
           this.playSpeechSynthesis(text, title, onEnd, meta);
         };
+
+        audio.onerror = fallBackToSpeech;
 
         this.playing = true;
         this.requestWakeLock();
         this.setupMediaSession(title, meta?.artworkUrl);
         this.notify();
 
-        audio.play().catch(() => {
-          this.cleanupHtmlAudio();
-          this.playSpeechSynthesis(text, title, onEnd, meta);
-        });
+        audio.play().catch(fallBackToSpeech);
         return;
       } catch {
         this.cleanupHtmlAudio();
@@ -544,12 +552,14 @@ class TTSPlayer {
   private speakCurrentChunk(voice: SpeechSynthesisVoice) {
     if (!this.synth || !this.isSpeakingChunks || this.currentChunkIndex >= this.textChunks.length) {
       this.cleanup();
+      this.notify();
       const cb = this.onEndCallback;
       this.onEndCallback = null;
       cb?.();
       return;
     }
 
+    const gen = this.speechGen;
     const chunkText = this.textChunks[this.currentChunkIndex];
     const utterance = new SpeechSynthesisUtterance(chunkText);
     utterance.voice = voice;
@@ -558,6 +568,7 @@ class TTSPlayer {
     utterance.rate = 0.95 * this.playbackRate;
 
     utterance.onend = () => {
+      if (gen !== this.speechGen) return;
       if (this.isSpeakingChunks && this.playing) {
         this.currentChunkIndex++;
         this.speakCurrentChunk(voice);
@@ -565,11 +576,13 @@ class TTSPlayer {
     };
 
     utterance.onerror = (event) => {
+      if (gen !== this.speechGen) return;
       if (event.error !== 'canceled' && event.error !== 'interrupted') {
         console.warn('Error en SpeechSynthesis:', event.error);
         this.errorMessage = getStrings(getCurrentLanguage()).errors.speechFailed;
       }
       this.cleanup();
+      this.notify();
     };
 
     try {
@@ -577,6 +590,7 @@ class TTSPlayer {
     } catch (err) {
       console.error('Error al invocar synth.speak:', err);
       this.cleanup();
+      this.notify();
     }
   }
 
@@ -664,6 +678,8 @@ class TTSPlayer {
   }
 
   private cleanup(): void {
+    // Cualquier aviso tardío de una lectura anterior se ignora a partir de aquí
+    this.speechGen++;
     this.playing = false;
     this.isPaused = false;
     this.isSpeakingChunks = false;

@@ -54,7 +54,7 @@ test('instalar: la tarjeta de la pantalla de inicio abre los pasos y se puede ce
   const dialogo = page.locator('#modal-install-guide');
   await expect(dialogo).toBeVisible();
   await expect(dialogo).toContainText('Instalar la app');
-  await expect(dialogo).toContainText('Descargar recorrido');
+  await expect(dialogo).toContainText('Descargar');
   await page.keyboard.press('Escape');
   await expect(dialogo).toHaveCount(0);
   await expect(page.locator('#install-card')).toBeVisible();

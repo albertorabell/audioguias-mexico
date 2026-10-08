@@ -1,45 +1,262 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
+@custom-variant sun (&:where(.sun, .sun *));
 
+/*
+ * Colores de la app. Se usan con clases como bg-bg, bg-surface, text-ink, text-ink-2, border-line, bg-jade, text-oro…
+ * Modo museo (oscuro, por defecto): piedra basáltica. Modo sol (claro): para sitios al aire libre.
+ *   jade     = acciones principales, "estás aquí", avance
+ *   oro      = solo el pase de pago
+ *   tezontle = mitos y errores
+ */
 :root {
-  --bg-main: #F8F6F0;
-  --bg-card: #FFFFFF;
-  --bg-subtle: #F1EFEA;
-  --border-subtle: rgba(0, 0, 0, 0.08);
-  --border-strong: rgba(0, 0, 0, 0.16);
-  --text-primary: #18181B;
-  --text-secondary: #4B5563;
-  --text-muted: #71717A;
-  --accent: #D97706;
-  --accent-hover: #B45309;
+  --c-bg: #161413;
+  --c-surface: #1f1c1a;
+  --c-raised: #2a2623;
+  --c-line: rgba(242, 236, 227, 0.1);
+  --c-line-strong: rgba(242, 236, 227, 0.2);
+  --c-ink: #f2ece3;
+  --c-ink-2: #bdb3a6;
+  --c-ink-3: #8c8278;
+  --c-jade: #57c2a0;
+  --c-on-jade: #0b1c16;
+  --c-oro: #e5ae4e;
+  --c-on-oro: #241703;
+  --c-tezontle: #e07a5f;
+  --c-scrim: rgba(10, 8, 7, 0.72);
+  color-scheme: dark;
 }
 
-.dark {
-  --bg-main: #0B0B0E;
-  --bg-card: #141419;
-  --bg-subtle: #0E0E12;
-  --border-subtle: rgba(255, 255, 255, 0.08);
-  --border-strong: rgba(255, 255, 255, 0.15);
-  --text-primary: #F3F4F6;
-  --text-secondary: #9CA3AF;
-  --text-muted: #6B7280;
-  --accent: #F59E0B;
-  --accent-hover: #FBBF24;
+.sun {
+  --c-bg: #f4f2ee;
+  --c-surface: #ffffff;
+  --c-raised: #ebe7e0;
+  --c-line: rgba(29, 26, 23, 0.11);
+  --c-line-strong: rgba(29, 26, 23, 0.22);
+  --c-ink: #1d1a17;
+  --c-ink-2: #4f4840;
+  --c-ink-3: #756c62;
+  --c-jade: #1f7a62;
+  --c-on-jade: #ffffff;
+  --c-oro: #9c650c;
+  --c-on-oro: #ffffff;
+  --c-tezontle: #b5432c;
+  --c-scrim: rgba(29, 26, 23, 0.45);
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-bg: var(--c-bg);
+  --color-surface: var(--c-surface);
+  --color-raised: var(--c-raised);
+  --color-line: var(--c-line);
+  --color-line-strong: var(--c-line-strong);
+  --color-ink: var(--c-ink);
+  --color-ink-2: var(--c-ink-2);
+  --color-ink-3: var(--c-ink-3);
+  --color-jade: var(--c-jade);
+  --color-on-jade: var(--c-on-jade);
+  --color-oro: var(--c-oro);
+  --color-on-oro: var(--c-on-oro);
+  --color-tezontle: var(--c-tezontle);
+  --color-scrim: var(--c-scrim);
+
+  --font-sans: 'Public Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Newsreader', Georgia, Cambria, 'Times New Roman', serif;
+
+  /* Escala tipográfica (móvil) */
+  --text-cap: 0.8125rem;
+  --text-cap--line-height: 1.35;
+  --text-ui: 0.9375rem;
+  --text-ui--line-height: 1.4;
+  --text-read: 1.125rem;
+  --text-read--line-height: 1.62;
+  --text-h3: 1.375rem;
+  --text-h3--line-height: 1.2;
+  --text-h2: 1.75rem;
+  --text-h2--line-height: 1.12;
+  --text-h1: 2.25rem;
+  --text-h1--line-height: 1.05;
 }
 
 @layer base {
-  html, body, #root {
+  /* clip (no hidden): así las barras fijas de arriba (sticky) siguen pegadas al desplazarse */
+  html,
+  body,
+  #root {
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: clip;
+  }
+
+  html {
+    background: var(--c-bg);
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
 
   body {
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--c-bg);
+    color: var(--c-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button,
+  [role='button'],
+  a {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Campos de 16 px o más: así iPhone no hace zoom al escribir */
+  input,
+  textarea,
+  select {
+    font-size: max(16px, 1em);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--c-jade);
+    outline-offset: 2px;
+    border-radius: 6px;
   }
 
   .font-serif {
-    font-family: 'Newsreader', Georgia, Cambria, 'Times New Roman', Times, serif;
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Márgenes seguros de iPhone (muesca y barra de inicio) */
+  .pt-safe {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  /* Altura de las barras fijas de abajo, para que el contenido no quede tapado */
+  .pb-tabbar {
+    padding-bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
+  }
+  .pb-dock {
+    padding-bottom: calc(6.5rem + env(safe-area-inset-bottom, 0px));
+  }
+
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Botón principal (jade) */
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0 1.25rem;
+    border-radius: 999px;
+    background: var(--c-jade);
+    color: var(--c-on-jade);
+    font-weight: 700;
+    font-size: var(--text-ui);
+    transition: transform 120ms ease, filter 120ms ease;
+    cursor: pointer;
+  }
+  .btn-primary:active {
+    transform: scale(0.98);
+    filter: brightness(0.95);
+  }
+
+  /* Botón secundario (contorno) */
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0 1.125rem;
+    border-radius: 999px;
+    border: 1px solid var(--c-line-strong);
+    color: var(--c-ink);
+    font-weight: 600;
+    font-size: var(--text-ui);
+    transition: transform 120ms ease, background-color 120ms ease;
+    cursor: pointer;
+  }
+  .btn-secondary:active {
+    transform: scale(0.98);
+    background: var(--c-raised);
+  }
+
+  /* Botón redondo de ícono (44 px mínimo para el dedo) */
+  .btn-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 999px;
+    color: var(--c-ink);
+    transition: background-color 120ms ease, transform 120ms ease;
+    cursor: pointer;
+  }
+  .btn-icon:active {
+    transform: scale(0.94);
+    background: var(--c-raised);
+  }
+
+  /* Fila tocable de una lista */
+  .row-press {
+    transition: background-color 120ms ease;
+    cursor: pointer;
+  }
+  .row-press:active {
+    background: var(--c-raised);
+  }
+
+  @keyframes sheet-up {
+    from {
+      transform: translateY(24px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .animate-sheet {
+    animation: sheet-up 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .animate-fadeIn {
+    animation: fade-in 180ms ease-out;
   }
 }

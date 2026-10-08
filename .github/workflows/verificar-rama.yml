@@ -30,7 +30,7 @@ jobs:
       - name: Compilar las dos versiones para las pruebas de navegador (cobro encendido y apagado)
         run: |
           # Versión de ensayo: cobro encendido (servidor simulado) y con inglés y francés visibles para probar el selector.
-          VITE_PAYMENTS_API_URL=https://pagos.test VITE_PUBLISHED_LANGUAGES=es,en,fr npx vite build --outDir dist-e2e
+          VITE_PAYMENTS_API_URL=https://pagos.test VITE_PUBLISHED_LANGUAGES=es,en,fr,pl npx vite build --outDir dist-e2e
           # Versión con cobro apagado y solo español (ensaya que con un idioma no aparezca el selector).
           VITE_PUBLISHED_LANGUAGES=es npx vite build --outDir dist-e2e-off
       - name: Instalar el navegador de pruebas (Playwright)

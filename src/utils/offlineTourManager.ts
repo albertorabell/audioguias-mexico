@@ -19,10 +19,19 @@ export interface OfflineProgress {
 export const CACHE_NAME = 'mna-offline-tour-v1';
 const LOCAL_STORAGE_OFFLINE_KEY = 'mna_tour_offline_ready';
 
-export async function checkIsTourCached(): Promise<boolean> {
+/** Huella corta de una lista de direcciones (para saber si lo guardado sigue completo). */
+export function offlineSignature(urls: string[]): string {
+  let h = 5381;
+  for (const u of [...urls].sort()) for (let i = 0; i < u.length; i++) h = ((h << 5) + h + u.charCodeAt(i)) | 0;
+  return `${urls.length}-${(h >>> 0).toString(36)}`;
+}
+
+/** true si ya se guardó esta misma lista (misma huella). Sin huella basta con que haya algo guardado. */
+export async function checkIsTourCached(signature?: string): Promise<boolean> {
   try {
     const flag = localStorage.getItem(LOCAL_STORAGE_OFFLINE_KEY);
     if (!flag) return false;
+    if (signature && flag !== signature) return false;
     if (!('caches' in window)) return false;
     return await caches.has(CACHE_NAME);
   } catch {
@@ -43,7 +52,8 @@ export async function clearOfflineTourCache(): Promise<void> {
 
 export async function downloadTourOffline(
   urlsToCache: string[],
-  onProgress?: (p: OfflineProgress) => void
+  onProgress?: (p: OfflineProgress) => void,
+  signature = 'true'
 ): Promise<boolean> {
   const t = getStrings(getCurrentLanguage()).offline;
   if (!('caches' in window)) {
@@ -100,7 +110,7 @@ export async function downloadTourOffline(
       }
     }
 
-    localStorage.setItem(LOCAL_STORAGE_OFFLINE_KEY, 'true');
+    localStorage.setItem(LOCAL_STORAGE_OFFLINE_KEY, signature);
 
     onProgress?.({
       status: 'completed',

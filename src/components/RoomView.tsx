@@ -1,285 +1,211 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import {
-  ArrowLeft,
-  Volume2,
-  Play,
-  Square,
-  Sparkles,
-  Layers,
-  Rocket,
-  ChevronRight,
-  Headphones,
-  Compass,
-} from 'lucide-react';
+import React, { useEffect, useMemo, useState } from 'react';
+import { Lock, Pause, Play, ChevronDown, AlertCircle, X } from 'lucide-react';
 import { Room, PieceData } from '../types';
 import { ttsPlayer } from '../utils/ttsPlayer';
 import { PieceImage } from './PieceImage';
 import { calculateRouteTimeMinutes, formatRouteDuration } from '../utils/routeOptimizer';
-import { getRoomLabel } from '../utils/roomLabel';
+import { getRoomShortLabel, getRoomLabel } from '../utils/roomLabel';
 import { useLanguage } from '../utils/LanguageContext';
 import { roomScriptLanguage } from '../i18n/content';
+import { TopBar } from './ui/TopBar';
+import { PassButton } from './ui/HeaderControls';
 
 interface RoomViewProps {
   room: Room;
+  /** Piezas de la sala, ya en el orden en que se recorren. */
   pieces: PieceData[];
+  hasPass: boolean;
+  /** Pieza en la que va la persona, para marcarla. */
+  currentPieceId?: string | null;
   onBack: () => void;
+  backLabel?: string;
+  onOpenPaywall: () => void;
   onSelectPiece: (pieceId: string) => void;
-  onStartRoomTour: (room: Room, startPieceId?: string) => void;
 }
 
+/** Una sala: número grande como la señalética del museo, su introducción y sus obras en orden. */
 export const RoomView: React.FC<RoomViewProps> = ({
   room,
   pieces,
+  hasPass,
+  currentPieceId,
   onBack,
+  backLabel,
+  onOpenPaywall,
   onSelectPiece,
-  onStartRoomTour,
 }) => {
-  const { strings: t, currentLanguage } = useLanguage();
-  const [isPlayingAudio, setIsPlayingAudio] = useState(false);
-  const [playingPieceId, setPlayingPieceId] = useState<string | null>(null);
+  const { strings, currentLanguage } = useLanguage();
+  const u = strings.ui;
+  const [introPlaying, setIntroPlaying] = useState(false);
+  const [introOpen, setIntroOpen] = useState(false);
+  const [introError, setIntroError] = useState<string | null>(null);
+  const triedIntro = React.useRef(false);
 
-  const isPA = room.piso === 'PA';
-  const pisoText = isPA ? t.room.floorPA : t.room.floorPB;
+  const name = room.nombre_oficial || room.name || room.room_id;
+  const intro = room.introduccion_narrativa || room.short_description || '';
+  const label = getRoomLabel(room);
 
-  const salaLabel = getRoomLabel(room);
-
-  const nombreOficial = room.nombre_oficial || room.name || room.room_id || t.room.defaultName;
-
-  const introduccionNarrativa =
-    room.introduccion_narrativa ||
-    room.short_description ||
-    room.frase_gancho ||
-    t.room.defaultIntro;
-
-  // Piezas de la sala ordenadas estrictamente por orden_sugerido (sin forzar Piedra del Sol)
-  const sortedPieces = useMemo(() => {
-    return [...pieces].sort((a, b) => (a.orden_sugerido || 99) - (b.orden_sugerido || 99));
-  }, [pieces]);
-
-  const totalMinutosEstimados = useMemo(() => {
-    const stops = sortedPieces.map((p, idx) => ({
-      poi_id: p.piece_id || p.id,
-      piece_id: p.piece_id || p.id,
-      id: p.piece_id || p.id,
+  const minutes = useMemo(() => {
+    const stops = pieces.map((p, idx) => ({
+      poi_id: p.piece_id,
+      piece_id: p.piece_id,
+      id: p.piece_id,
       title: p.titulo,
-      room_zone: nombreOficial,
+      room_zone: name,
       file: p.image_filename || '',
       map_coords: { x: p.map_x || 50, y: p.map_y || 50 },
-      estimated_minutes: 5.0,
+      estimated_minutes: 5,
       room_id: room.room_id,
       ranking: idx + 1,
       piso: room.piso,
     }));
-    return formatRouteDuration(calculateRouteTimeMinutes(stops));
-  }, [sortedPieces, nombreOficial, room]);
+    return calculateRouteTimeMinutes(stops);
+  }, [pieces, name, room]);
 
-  // Suscribirse a ttsPlayer
   useEffect(() => {
-    const unsubscribe = ttsPlayer.subscribe((playing) => {
-      setIsPlayingAudio(playing);
-      if (!playing) {
-        setPlayingPieceId(null);
-      }
+    const unsubscribe = ttsPlayer.subscribe((playing, state) => {
+      setIntroPlaying(playing && !state.pieceId && state.title === `${label}: ${name}`);
+      // Si el teléfono no tiene voz para ese idioma, se avisa (si no, el botón no haría nada)
+      if (triedIntro.current && state.errorMessage) setIntroError(state.errorMessage);
     });
     return () => {
-      ttsPlayer.stop();
       unsubscribe();
     };
+  }, [label, name]);
+
+  // Al salir de la sala se detiene la introducción (no el audio de una pieza)
+  useEffect(() => () => {
+    const s = ttsPlayer.getState();
+    if (!s.pieceId) ttsPlayer.stop();
   }, [room.room_id]);
 
-  const handleToggleNarrativeAudio = () => {
-    if (isPlayingAudio && playingPieceId === null) {
+  const toggleIntro = () => {
+    if (introPlaying) {
       ttsPlayer.stop();
-      setIsPlayingAudio(false);
-    } else {
-      setPlayingPieceId(null);
-      ttsPlayer.play(
-        introduccionNarrativa,
-        `${salaLabel}: ${nombreOficial}`,
-        () => {
-          setIsPlayingAudio(false);
-          setPlayingPieceId(null);
-        },
-        {
-          roomName: `${salaLabel} • ${nombreOficial}`,
-          mode: 'inmersion',
-          lang: roomScriptLanguage(room, currentLanguage),
-        }
-      );
-      setIsPlayingAudio(true);
+      return;
     }
+    setIntroError(null);
+    ttsPlayer.clearErrorMessage();
+    triedIntro.current = true;
+    ttsPlayer.play(intro || room.frase_gancho || name, `${label}: ${name}`, () => setIntroPlaying(false), {
+      roomName: `${label} · ${name}`,
+      mode: 'inmersion',
+      lang: roomScriptLanguage(room, currentLanguage),
+    });
   };
 
-  const handleStartContinuousTour = () => {
-    ttsPlayer.stop();
-    setIsPlayingAudio(false);
-    onStartRoomTour(room);
-  };
+  const first = pieces[0];
 
   return (
-    <div className="min-h-screen bg-[#0B0B0E] text-[#F3F4F6] flex flex-col pb-36 select-none animate-fadeIn">
-      {/* Top Header */}
-      <header className="sticky top-0 z-30 px-4 py-3 bg-[#0B0B0E]/95 backdrop-blur-xl border-b border-white/10 flex items-center justify-between">
-        <button
-          type="button"
-          onClick={onBack}
-          className="flex items-center gap-2 py-1.5 px-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-semibold text-stone-200 transition-all active:scale-95 cursor-pointer"
-        >
-          <ArrowLeft className="w-4 h-4 text-[#F59E0B]" />
-          <span>{t.room.backToExplorer}</span>
-        </button>
+    <div className="min-h-dvh bg-bg text-ink pb-tabbar">
+      <TopBar
+        onBack={onBack}
+        backLabel={backLabel}
+        title={`${label} · ${name}`}
+        revealAfter={150}
+        right={<PassButton hasPass={hasPass} onClick={onOpenPaywall} />}
+      />
 
-        <span className="text-[11px] font-mono text-[#F59E0B] font-bold tracking-widest uppercase">
-          {salaLabel.toUpperCase()}
-        </span>
-      </header>
+      <section className="px-5 pt-6">
+        <div className="font-serif text-[4.5rem] leading-[0.9] text-jade tabular-nums" aria-hidden="true">
+          {getRoomShortLabel(room)}
+        </div>
+        <h1 className="mt-3 font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{name}</h1>
+        <p className="mt-2 text-ui text-ink-3">
+          {room.piso === 'PA' ? u.floors.PA : u.floors.PB}
+          {' · '}
+          {u.worksCount(pieces.length)}
+          {minutes > 0 ? ` · ${formatRouteDuration(minutes)}` : ''}
+        </p>
+        {room.frase_gancho && (
+          <p className="mt-4 font-serif italic text-[1.1875rem] leading-snug text-ink-2 text-pretty">{room.frase_gancho}</p>
+        )}
 
-      {/* Portada Editorial */}
-      <section className="px-4 pt-5 pb-3">
-        <div className="flex items-center gap-2 mb-2">
-          <span className="text-[10px] font-black uppercase tracking-widest px-2.5 py-0.5 rounded-full bg-[#F59E0B]/20 text-[#F59E0B] border border-[#F59E0B]/40">
-            {salaLabel.toUpperCase()} • {room.piso}
-          </span>
-          <span className="text-xs font-semibold text-[#9CA3AF]">
-            {pisoText}
-          </span>
-          {room.ala && (
-            <span className="text-[10px] text-[#6B7280]">
-              • {t.room.wing(t.room.wings[room.ala] || room.ala)}
-            </span>
+        <div className="mt-6 flex flex-col gap-2.5">
+          {first && (
+            <button type="button" id="btn-start-room" onClick={() => onSelectPiece(first.piece_id)} className="btn-primary w-full">
+              <Play className="w-5 h-5 fill-current" />
+              {u.room.start}
+            </button>
+          )}
+          <button type="button" id="btn-room-intro" onClick={toggleIntro} className="btn-secondary w-full">
+            {introPlaying ? <Pause className="w-5 h-5" /> : <Play className="w-5 h-5" />}
+            {introPlaying ? u.room.stopIntro : u.room.listenIntro}
+          </button>
+          {introError && (
+            <div role="alert" className="p-3.5 pr-1.5 rounded-2xl bg-raised border border-tezontle/50 flex items-start gap-3">
+              <AlertCircle className="w-5 h-5 text-tezontle shrink-0 mt-0.5" />
+              <p className="flex-1 text-ui leading-snug">{introError}</p>
+              <button
+                type="button"
+                onClick={() => {
+                  setIntroError(null);
+                  ttsPlayer.clearErrorMessage();
+                }}
+                aria-label={strings.piece.closeNotice}
+                className="btn-icon -my-2 text-ink-3 shrink-0"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
           )}
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white leading-tight">
-          {nombreOficial}
-        </h1>
-
-        {room.frase_gancho && (
-          <p className="mt-2 text-xs sm:text-sm font-serif italic text-amber-300/90 leading-relaxed border-l-2 border-[#F59E0B] pl-3 py-0.5">
-            «{room.frase_gancho}»
-          </p>
+        {intro && (
+          <div className="mt-6">
+            <p className={`text-[1.0625rem] leading-relaxed text-ink-2 ${introOpen ? '' : 'line-clamp-3'}`}>{intro}</p>
+            {intro.length > 160 && (
+              <button
+                type="button"
+                onClick={() => setIntroOpen((v) => !v)}
+                aria-expanded={introOpen}
+                className="mt-1 h-10 inline-flex items-center gap-1 text-ui font-semibold text-jade cursor-pointer"
+              >
+                {introOpen ? u.readLess : u.readMore}
+                <ChevronDown className={`w-4 h-4 transition-transform ${introOpen ? 'rotate-180' : ''}`} />
+              </button>
+            )}
+          </div>
         )}
       </section>
 
-      {/* ================= BOTÓN PRINCIPAL DESTACADO: RECORRER ESTA SALA ================= */}
-      {sortedPieces.length > 0 && (
-        <section className="px-4 py-2">
-          <button
-            type="button"
-            onClick={handleStartContinuousTour}
-            className="w-full py-4 px-5 rounded-2xl font-black text-sm bg-gradient-to-r from-amber-500 to-amber-400 text-black shadow-xl shadow-amber-500/25 active:scale-[0.98] transition-all flex items-center justify-between cursor-pointer"
-          >
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-xl bg-black/20 flex items-center justify-center text-black">
-                <Rocket className="w-5 h-5 fill-current" />
-              </div>
-              <div className="text-left">
-                <span className="block text-sm font-black">
-                  {t.room.startTour}
-                </span>
-                <span className="text-[11px] font-medium text-black/80">
-                  {t.room.startTourSub(sortedPieces.length, totalMinutosEstimados)}
-                </span>
-              </div>
-            </div>
-            <ChevronRight className="w-5 h-5 stroke-[2.5]" />
-          </button>
-        </section>
-      )}
-
-      {/* Introducción de la sala con Audio */}
-      <section className="px-4 py-2">
-        <div className="p-4 rounded-2xl bg-[#141419] border border-white/10 shadow-xl space-y-3">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2 text-[#F59E0B]">
-              <Volume2 className="w-4 h-4" />
-              <span className="text-xs font-extrabold uppercase tracking-wider">
-                {t.room.introTitle}
-              </span>
-            </div>
-            <span className="text-[10px] font-mono text-[#9CA3AF]">
-              {t.room.audioLabel}
-            </span>
-          </div>
-
-          <p className="text-xs leading-relaxed text-[#9CA3AF]">
-            {introduccionNarrativa}
-          </p>
-
-          <button
-            type="button"
-            onClick={handleToggleNarrativeAudio}
-            className={`w-full py-2.5 px-4 rounded-xl font-bold text-xs flex items-center justify-center gap-2.5 transition-all active:scale-98 shadow-md cursor-pointer ${
-              isPlayingAudio && playingPieceId === null
-                ? 'bg-red-500/20 border border-red-500/50 text-red-300'
-                : 'bg-white/10 hover:bg-white/15 text-white border border-white/10'
-            }`}
-          >
-            {isPlayingAudio && playingPieceId === null ? (
-              <>
-                <Square className="w-4 h-4 fill-current animate-pulse text-red-400" />
-                <span>{t.room.stopRoomAudio}</span>
-              </>
-            ) : (
-              <>
-                <Play className="w-4 h-4 fill-current text-amber-400" />
-                <span>{t.room.listenRoomIntro}</span>
-              </>
-            )}
-          </button>
-        </div>
-      </section>
-
-      {/* Lista de Piezas de la Sala */}
-      <section className="px-4 pt-3 space-y-2.5">
-        <div className="flex items-center justify-between">
-          <h3 className="text-xs font-black uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>{t.room.worksInRoom(sortedPieces.length)}</span>
-          </h3>
-          <span className="text-[10px] text-stone-400">
-            {t.room.suggestedOrder}
-          </span>
-        </div>
-
-        <div className="space-y-2">
-          {sortedPieces.map((piece, idx) => {
-            const pieceId = piece.piece_id || piece.id;
+      <section className="mt-8" aria-labelledby="room-works-title">
+        <h2 id="room-works-title" className="px-5 font-serif text-h3 font-medium">
+          {u.room.works}
+        </h2>
+        <ol className="mt-3" id="room-pieces-list">
+          {pieces.map((p, i) => {
+            const locked = !p.is_free && !hasPass;
+            const here = currentPieceId === p.piece_id;
             return (
-              <div
-                key={pieceId || idx}
-                onClick={() => onSelectPiece(pieceId)}
-                role="button"
-                tabIndex={0}
-                className="p-3 rounded-2xl bg-[#141419] border border-white/10 hover:border-amber-500/40 hover:bg-[#1a1a24] transition-all flex items-center justify-between gap-3 cursor-pointer group active:scale-[0.99]"
-              >
-                {/* Thumbnail */}
-                <div className="relative w-14 h-14 rounded-xl overflow-hidden shrink-0 bg-black/60 border border-white/10">
-                  <PieceImage
-                    filename={piece.image_filename}
-                    alt={piece.titulo}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                  />
-                  <div className="absolute top-1 left-1 px-1.5 py-0.2 rounded bg-black/80 text-[9px] font-bold text-amber-400 border border-white/10">
-                    #{piece.orden_sugerido || idx + 1}
-                  </div>
-                </div>
-
-                {/* Info */}
-                <div className="flex-1 min-w-0">
-                  <h4 className="text-xs font-bold text-white truncate group-hover:text-amber-400 transition-colors">
-                    {piece.titulo}
-                  </h4>
-                  <p className="text-[10px] text-stone-400 truncate mt-0.5">
-                    {piece.frase_gancho || piece.guion_corto?.slice(0, 50)}
-                  </p>
-                </div>
-
-                <ChevronRight className="w-4 h-4 text-stone-500 group-hover:text-white group-hover:translate-x-0.5 transition-all shrink-0" />
-              </div>
+              <li key={p.piece_id}>
+                <button
+                  type="button"
+                  onClick={() => onSelectPiece(p.piece_id)}
+                  aria-current={here ? 'true' : undefined}
+                  className={`w-full flex items-center gap-3.5 px-5 py-3 text-left cursor-pointer row-press ${here ? 'bg-surface' : ''}`}
+                >
+                  <span className={`w-6 shrink-0 text-right font-serif text-[1.125rem] tabular-nums ${here ? 'text-jade' : 'text-ink-3'}`}>
+                    {i + 1}
+                  </span>
+                  <span className="w-16 h-16 rounded-xl overflow-hidden bg-raised shrink-0">
+                    <PieceImage filename={p.image_filename} pieceId={p.piece_id} alt="" className="w-full h-full object-cover" />
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block text-[1.0625rem] font-bold leading-snug text-ink">{p.titulo}</span>
+                    {p.frase_gancho && <span className="block text-cap text-ink-3 mt-0.5 line-clamp-2">{p.frase_gancho}</span>}
+                    {here && <span className="block text-cap font-semibold text-jade mt-1">{u.room.youAreHere}</span>}
+                  </span>
+                  {locked ? (
+                    <Lock className="w-4 h-4 text-oro shrink-0" aria-label={u.lockedAria} />
+                  ) : (
+                    !hasPass && <span className="text-[12px] font-semibold text-jade shrink-0">{u.free}</span>
+                  )}
+                </button>
+              </li>
             );
           })}
-        </div>
+        </ol>
       </section>
     </div>
   );

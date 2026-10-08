@@ -40,6 +40,15 @@ test('idioma: pasa a francés (interfaz completa en francés), se queda al recar
   await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
 });
 
+test('idioma: pasa a polaco (interfaz en polaco) y vuelve a español', async ({ page }) => {
+  await page.goto('/');
+  await elegirIdioma(page, 'Polski');
+  await expect(page.getByText('Posłuchaj historii każdego dzieła')).toBeVisible();
+  await expect(page.locator('html')).toHaveAttribute('lang', 'pl');
+  await elegirIdioma(page, 'Español');
+  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+});
+
 test('idioma: una pieza sin traducción se muestra y se lee en español, y avisa', async ({ page }) => {
   await sinVoces(page);
   await page.goto('/');
@@ -79,7 +88,7 @@ test('MP3 de pago: sin pase la pieza está bloqueada y abre la ventana de pago',
   await simularAudio(page);
   await page.goto('/');
   await abrirPieza(page, PREMIUM.title);
-  await expect(page.locator('#btn-master-play-piece')).toContainText('Desbloquear audioguía premium');
+  await expect(page.locator('#btn-master-play-piece')).toContainText('Desbloquear audio');
   await page.locator('#btn-master-play-piece').click();
   await expect(page.locator('#modal-paywall')).toBeVisible();
   expect(await page.evaluate(() => window.__plays.length)).toBe(0);
@@ -193,4 +202,97 @@ test('código del pase en inglés: el error sale en inglés', async ({ page }) =
   await page.locator('#input-pass-code').fill('ZZZZ-9999');
   await page.locator('#btn-redeem-code').click();
   await expect(page.getByTestId('paywall-error')).toContainText('code does not exist');
+});
+
+// ───────────────────────── Navegación ─────────────────────────
+
+test('navegación: una sala abre sus obras con anterior/siguiente, dice dónde estás y "atrás" vuelve a la sala', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await page.locator('#rooms-list button', { hasText: 'Mexica' }).click();
+  await expect(page.locator('#btn-start-room')).toBeVisible();
+  await page.locator('#btn-start-room').click();
+  // Arriba: la sala y la posición
+  await expect(page.locator('#museum-top-header')).toContainText('Mexica');
+  await expect(page.locator('#museum-top-header')).toContainText(/^\s*1 de \d+/);
+  const primero = await page.locator('#piece-detail-container h1').innerText();
+  await page.locator('#btn-piece-next-stop').click();
+  await expect(page.locator('#museum-top-header')).toContainText(/2 de \d+/);
+  await expect(page.locator('#piece-detail-container h1')).not.toHaveText(primero);
+  await page.locator('#btn-piece-prev-stop').click();
+  await expect(page.locator('#piece-detail-container h1')).toHaveText(primero);
+  // El botón atrás del teléfono regresa a la sala
+  await page.goBack();
+  await expect(page.locator('#btn-start-room')).toBeVisible();
+});
+
+test('navegación: una obra encontrada en Buscar se abre dentro de su sala (hay siguiente)', async ({ page }) => {
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await expect(page.locator('#museum-top-header')).toContainText('Mexica');
+  await expect(page.locator('#btn-piece-next-stop')).toBeEnabled();
+});
+
+test('recorrido: al empezar uno sugerido se ve "Parada 1 de N", avanza y aparece en la pestaña Recorridos', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await page.locator('#dock-tab-recorridos').click();
+  await page.getByRole('button', { name: 'Empezar recorrido' }).first().click();
+  await expect(page.locator('#museum-top-header')).toContainText(/Parada 1 de \d+/);
+  await page.locator('#btn-piece-next-stop').click();
+  await expect(page.locator('#museum-top-header')).toContainText(/Parada 2 de \d+/);
+  await page.goBack();
+  await expect(page.locator('#active-tour')).toContainText(/Parada 2 de \d+/);
+});
+
+test('mapa: muestra las salas del piso y al tocar una se abre la sala', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await page.locator('#dock-tab-mapa').click();
+  await expect(page.locator('#floor-plan')).toBeVisible();
+  await page.locator('#floor-plan button', { hasText: 'Mexica' }).click();
+  await expect(page.locator('#btn-start-room')).toBeVisible();
+});
+
+test('atrás: después de cambiar de pestaña desde una pieza, un solo "atrás" lleva al inicio (sin toques muertos)', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await page.locator('#rooms-list button', { hasText: 'Mexica' }).click();
+  await page.locator('#btn-start-room').click();
+  await page.locator('#btn-nav-quick-search').click();
+  await expect(page.locator('#input-search-pieces')).toBeVisible();
+  await page.goBack();
+  await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
+});
+
+test('atrás: cierra la ventana del pase y la foto ampliada sin salir de la pieza', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await page.locator('#btn-unlock-pass-nav').click();
+  await expect(page.locator('#modal-paywall')).toBeVisible();
+  await page.goBack();
+  await expect(page.locator('#modal-paywall')).toHaveCount(0);
+  await expect(page.locator('#btn-master-play-piece')).toBeVisible();
+  // Cerrar con su botón tampoco saca de la pieza
+  await page.locator('#btn-unlock-pass-nav').click();
+  await page.locator('#btn-close-paywall-modal').click();
+  await expect(page.locator('#modal-paywall')).toHaveCount(0);
+  await expect(page.locator('#btn-master-play-piece')).toBeVisible();
+  // Foto ampliada: "atrás" la cierra
+  await page.locator('#piece-detail-container figure button[aria-label]').last().click();
+  await expect(page.locator('#modal-image-zoom')).toBeVisible();
+  await page.goBack();
+  await expect(page.locator('#modal-image-zoom')).toHaveCount(0);
+  await expect(page.locator('#btn-master-play-piece')).toBeVisible();
+  // Y un "atrás" más sí sale de la pieza
+  await page.goBack();
+  await expect(page.locator('#input-search-pieces')).toBeVisible();
+});
+
+test('buscar: lo escrito sigue ahí al regresar de una obra', async ({ page }) => {
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await page.goBack();
+  await expect(page.locator('#input-search-pieces')).toHaveValue(FREE.title);
 });
