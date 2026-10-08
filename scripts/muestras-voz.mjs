@@ -213,7 +213,8 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
             body: ssml,
           });
           if (!res.ok) {
-            const err = new Error(`respuesta ${res.status} ${(await res.text().catch(() => '')).slice(0, 200)}`);
+            const body = (await res.text().catch(() => '')).slice(0, 200);
+            const err = new Error(`respuesta ${res.status} ${body}${res.status === 400 && !body ? ' (casi siempre es el nombre de la voz: revisa que esté exacto, sin punto ni espacios al final)' : ''}`);
             err.fatal = res.status === 401 || res.status === 403;
             throw err;
           }

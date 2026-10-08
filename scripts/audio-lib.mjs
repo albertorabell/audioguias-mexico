@@ -154,5 +154,5 @@ export function planAudio(pieces, manifest, { langs = ['es'], modes = MODES, onl
  * lo cambian por "-", y es fácil copiar ese nombre por error: aquí se vuelve a poner el ":" para que Azure reconozca la voz.
  */
 export function fixVoiceName(name) {
-  return String(name).trim().replace(/^([a-z]{2,3}-[A-Z]{2}-[A-Za-z]+)-(DragonHD\w*)$/, '$1:$2');
+  return String(name).trim().replace(/[\s.,;]+$/, '').replace(/^([a-z]{2,3}-[A-Z]{2}-[A-Za-z]+)-(DragonHD\w*)$/, '$1:$2');
 }

@@ -207,6 +207,8 @@ test('el nombre de voz copiado del archivo (con "-") se corrige al nombre real c
   const { fixVoiceName } = await import('../audio-lib.mjs');
   assert.equal(fixVoiceName('en-US-Adam-DragonHDLatestNeural'), 'en-US-Adam:DragonHDLatestNeural');
   assert.equal(fixVoiceName(' en-US-Adam:DragonHDLatestNeural '), 'en-US-Adam:DragonHDLatestNeural');
+  assert.equal(fixVoiceName('es-MX-Jorge:DragonHDLatestNeural.'), 'es-MX-Jorge:DragonHDLatestNeural', 'un punto al final (copiado de una frase) se quita');
+  assert.equal(fixVoiceName('en-US-JennyNeural, '), 'en-US-JennyNeural');
   assert.equal(fixVoiceName('en-US-JennyNeural'), 'en-US-JennyNeural');
   assert.equal(fixVoiceName('es-MX-JorgeMultilingualNeural'), 'es-MX-JorgeMultilingualNeural');
   assert.deepEqual(parseArgs(['--voces', 'en-US-Adam-DragonHDLatestNeural,en-US-JennyNeural']).voces, ['en-US-Adam:DragonHDLatestNeural', 'en-US-JennyNeural']);
