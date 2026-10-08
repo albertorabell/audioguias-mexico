@@ -580,3 +580,45 @@ test('un campo que el traductor renombró (titulo → titre) se corrige por posi
   assert.ok(buildSystemPrompt('fr').includes('never translate or rename'));
   assert.ok(buildSystemPrompt('en').includes('never translate or rename'));
 });
+
+// ---------------------------------------------------------------------------
+// Polaco
+// ---------------------------------------------------------------------------
+test('polaco: el glosario real tiene decisión para todo y los nombres propios se quedan', () => {
+  const file = path.join(process.cwd(), 'glosario/glosario.csv');
+  const pl = loadGlossary(file, 'pl');
+  const en = loadGlossary(file, 'en');
+  assert.ok(pl.length >= en.length - 2, `polaco ${pl.length} vs inglés ${en.length}`);
+  const byEs = (es) => pl.find((g) => g.es === es);
+  assert.equal(byEs('Piedra del Sol').en, 'Kamień Słońca');
+  assert.equal(byEs('Quetzalcóatl').keep, true);
+  assert.equal(byEs('Mayas').en, 'Majowie');
+});
+
+test('polaco: las reglas traen las decisiones (ty, n.e., comillas, Sala, Mit/Rzeczywistość)', () => {
+  const p = buildSystemPrompt('pl');
+  for (const must of ['Polish (Poland)', '"ty"', 'n.e.', 'p.n.e.', '„ ”', 'Mit:', 'Rzeczywistość:', 'Sala X', 'Meksyk', 'inflect']) assert.ok(p.includes(must), `falta: ${must}`);
+  assert.ok(buildSystemPrompt('en').includes('Myth:'));
+});
+
+test('polaco: el español sin traducir se detecta, el polaco normal pasa y las formas declinadas del glosario no avisan', () => {
+  const src = { guion_corto: 'Los mayas tallaron esta piedra con una fuerza que sus visitantes sienten, junto con 12,000 objetos más en 1521.' };
+  const PL = 'Majowie wyrzeźbili ten kamień z siłą, którą czują odwiedzający, razem z 12 000 innych obiektów w 1521 roku.';
+  const g = loadGlossary(path.join(process.cwd(), 'glosario/glosario.csv'), 'pl');
+  const r = validateTranslation(src, { guion_corto: PL }, glossaryFor(g, [src.guion_corto]), { lang: 'pl' });
+  assert.deepEqual(r.errors, [], JSON.stringify(r));
+  const declinado = 'Kultura Majów rzeźbiła ten kamień z siłą, którą czują odwiedzający, razem z 12 000 innych obiektów w 1521 roku.';
+  assert.deepEqual(validateTranslation(src, { guion_corto: declinado }, glossaryFor(g, [src.guion_corto]), { lang: 'pl' }).warnings, {});
+  const ES_LEFT = 'Los mayas tallaron esta piedra con una fuerza que sus visitantes sienten, pero también con una belleza como pocas.';
+  assert.ok(validateTranslation(src, { guion_corto: ES_LEFT }, [], { lang: 'pl' }).errors.some((e) => /español/.test(e)));
+});
+
+test('polaco: corrida de prueba guarda en traducciones/pl y el estimado es el más alto', async () => {
+  const root = makeRoot(2);
+  const code = await main(['--lang', 'pl', '--proveedor', 'prueba', '--generar', '--limite', '2', '--solo', 'piezas'], { root, env: {}, log: () => {}, warn: () => {} });
+  assert.equal(code, 0);
+  assert.equal(JSON.parse(fs.readFileSync(path.join(root, 'traducciones/pl/pieza_p00.json'), 'utf-8')).idioma, 'pl');
+  const { estimateUnit } = await import('../traducir-lib.mjs');
+  const f = { guion_largo: 'x'.repeat(4000) };
+  assert.ok(estimateUnit(f, [], 'pl').usd > estimateUnit(f, [], 'fr').usd);
+});

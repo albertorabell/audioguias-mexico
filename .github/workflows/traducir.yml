@@ -15,7 +15,7 @@ on:
       idioma:
         description: 'Idioma al que se traduce'
         type: choice
-        options: [en, fr]
+        options: [en, fr, pl]
         default: en
       piezas:
         description: 'Solo estas piezas (ids separados por coma). Vacío = las que sigan pendientes'
