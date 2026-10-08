@@ -274,3 +274,6 @@ En **Actions → Traducir textos → Run workflow** el campo **modo** tiene tres
 - `lote-recoger`: si el lote no alcanzó a terminar, vuelve a preguntar y guarda lo que esté listo.
 
 Los lotes terminan casi siempre en menos de 1 hora y siempre en menos de 24. Lo que falle las revisiones no se guarda y se vuelve a pedir en el siguiente lote.
+
+## Sin piezas gratis (decisión de octubre 2026)
+Hoy **ninguna pieza es gratis**: la sincronización ignora la columna `is_free` del Sheets (interruptor `PIEZAS_GRATIS` en `scripts/sync-sheets.js`). Sin pase se ve la pantalla de inicio, las salas, las rutas y los textos, pero el audio pide el pase. Después de este cambio hay que correr el botón «Generar audios MP3» con **reubicar** (no gasta voz) para pasar los MP3 de `libre/` a `pago/` en R2.

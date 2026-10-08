@@ -38,6 +38,9 @@ const REQUIRED = {
 // Si el Sheets trae menos piezas que esto, se considera una lectura incompleta y se aborta.
 const MIN_PIEZAS = 20;
 
+/** false = todo el audio requiere pase, aunque el Sheets marque piezas como gratis. Para volver a regalar piezas: true. */
+const PIEZAS_GRATIS = process.env.SYNC_PIEZAS_GRATIS === 'true';
+
 // Rutas sugeridas del MNA. Solo se usan piezas que existan en el Sheets (no se inventa nada).
 // Las paradas van ordenadas por ala del museo (Exteriores, Norte, Centro, Sur) para no regresar sobre los pasos.
 const ROUTES = [
@@ -338,7 +341,8 @@ function buildPieces(items) {
       const especificaciones = parseEspecificaciones(p.especificaciones);
       const faq = parseFaq(p.faq_mito);
 
-      const isFree = String(p.is_free || '').trim().toUpperCase() === 'TRUE';
+      // Decisión de producto: ninguna pieza es gratis (la columna is_free del Sheets se ignora mientras PIEZAS_GRATIS sea false)
+      const isFree = PIEZAS_GRATIS && String(p.is_free || '').trim().toUpperCase() === 'TRUE';
       const image = p.image_filename ? p.image_filename.trim().replace(/^.*[\\/]/, '') : '';
 
       return {
