@@ -196,7 +196,7 @@ test('--listar muestra las voces del idioma marcando multilingües y HD, sin gen
   assert.equal(code, 0);
   const text = out.join('\n');
   assert.match(text, /3 \(1 multilingües\)/);
-  assert.match(text, /en-US-AvaMultilingualNeural · Female · MULTILINGÜE/);
+  assert.match(text, /en-US-AvaMultilingualNeural · Female · MULTILINGÜE · además habla: es-MX/);
   assert.match(text, /DragonHDLatestNeural · Male · HD/);
   assert.doesNotMatch(text, /es-MX-JorgeNeural/);
   assert.equal(fs.existsSync(path.join(dir, 'muestras-voz')), false);
