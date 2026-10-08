@@ -62,8 +62,8 @@ function makeProject({ withManifest }) {
   return dir;
 }
 
-function runSync(dir) {
-  const out = execFileSync('node', [SYNC], { cwd: dir, env: { ...process.env, SYNC_LOCAL_DIR: path.join(dir, 'csv') }, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] });
+function runSync(dir, opts = {}) {
+  const out = execFileSync('node', [SYNC], { cwd: dir, env: { ...process.env, SYNC_LOCAL_DIR: path.join(dir, 'csv'), SYNC_PIEZAS_GRATIS: opts.gratis === false ? '' : 'true' }, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] });
   return out;
 }
 const read = (dir, f) => JSON.parse(fs.readFileSync(path.join(dir, 'public/data', f), 'utf8'));
@@ -147,4 +147,16 @@ test('traducciones guardadas: se unen si el español no cambió; la hoja manda; 
   assert.equal(by('p00').titulo_en, 'Piece 0');
   assert.equal(read(dir, 'rooms.json')[1].nombre_oficial_en, 'Room Two');
   assert.ok(log.includes('Traducciones guardadas (en): 2 textos unidos, 1 ignorados'), log);
+});
+
+test('sin piezas gratis: por defecto ninguna pieza queda libre aunque el Sheets diga TRUE', () => {
+  const dir = makeProject({ withManifest: false });
+  runSync(dir, { gratis: false });
+  const pieces = read(dir, 'pieces.json');
+  assert.ok(pieces.length > 0);
+  assert.equal(pieces.filter((p) => p.is_free).length, 0);
+  // con el interruptor encendido sí respeta el Sheets
+  const dir2 = makeProject({ withManifest: false });
+  runSync(dir2);
+  assert.ok(read(dir2, 'pieces.json').some((p) => p.is_free));
 });
