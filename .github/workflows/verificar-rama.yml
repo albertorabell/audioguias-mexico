@@ -48,6 +48,8 @@ jobs:
           GENERAR: 'true'
           FORZAR: 'false'
         run: |
+          # El ensayo parte de una lista de audios vacía: la real ya no coincide con los datos de ejemplo guardados en el repositorio
+          rm -f public/audio/manifest.json
           node scripts/ci-run.mjs ensayo-audio -- bash scripts/correr-generar-audio.sh
           test -f public/audio/manifest.json
           node scripts/ci-run.mjs ensayo-subida -- node scripts/subir-audio.mjs --simular

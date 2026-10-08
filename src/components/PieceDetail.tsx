@@ -12,6 +12,7 @@ import { useBackClose } from '../utils/useBackClose';
 import { TopBar } from './ui/TopBar';
 import { PassButton } from './ui/HeaderControls';
 import { PieceDock } from './PieceDock';
+import { track } from '../utils/analytics';
 
 export interface NextInfo {
   kind: 'piece' | 'room' | 'finish';
@@ -132,9 +133,11 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     setFinished(false);
     setErrorMessage(null);
     setFound({});
+    track('piece_view', { p: pieceId, l: currentLanguage });
     return () => {
       ttsPlayer.stop();
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pieceId]);
 
   const isThis = !finished && tts.pieceId === pieceId && (tts.isPlaying || tts.isPaused);
@@ -171,8 +174,12 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     ttsPlayer.clearErrorMessage();
     // Si no se pudo leer (sin voz, error) no cuenta como escuchada
     const onEnd = () => {
-      if (!ttsPlayer.getState().errorMessage) setFinished(true);
+      if (!ttsPlayer.getState().errorMessage) {
+        setFinished(true);
+        track('audio_end', { p: pieceId, l: currentLanguage, m: mode === 'expres' ? 'corto' : 'largo' });
+      }
     };
+    track('audio_play', { p: pieceId, l: currentLanguage, m: mode === 'expres' ? 'corto' : 'largo', k: audio[mode]?.url ? 'mp3' : 'voz' });
     ttsPlayer.play(mode === 'expres' ? guionCorto : guionLargo, titulo, onEnd, {
       roomName: contextTitle,
       artworkUrl: imageFilename ? getAssetUrl(`images/pieces/${imageFilename}`) : undefined,

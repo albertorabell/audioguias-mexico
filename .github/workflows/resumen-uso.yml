@@ -1,0 +1,27 @@
+name: Resumen de uso de la app (botón manual)
+
+# Pestaña Actions > "Resumen de uso de la app" > Run workflow. El resumen aparece al abrir la corrida terminada.
+on:
+  workflow_dispatch:
+    inputs:
+      dias:
+        description: 'Cuántos días atrás (1 a 90)'
+        type: string
+        default: '30'
+
+permissions:
+  contents: read
+
+jobs:
+  resumen:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Resumen
+        env:
+          PAGOS_API_URL: ${{ vars.PAGOS_API_URL }}
+          STATS_KEY: ${{ secrets.STATS_KEY }}
+        run: node scripts/resumen-uso.mjs "${{ inputs.dias }}"

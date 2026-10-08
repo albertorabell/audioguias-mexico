@@ -393,3 +393,127 @@ test('/audio: todos los tipos de Range (final abierto, últimos N bytes, recorta
 });
 
 test.after(() => { if (realFetch) globalThis.fetch = realFetch; });
+
+// ---------------------------------------------------------------------------
+// Reembolsos, disputas y conteo de uso
+// ---------------------------------------------------------------------------
+import { verifyStripeSignature } from '../src/index.js';
+import { createHmac } from 'node:crypto';
+
+const WH = 'whsec_prueba_123';
+const firmar = (cuerpo, t = Math.floor(Date.now() / 1000), secreto = WH) =>
+  `t=${t},v1=${createHmac('sha256', secreto).update(`${t}.${cuerpo}`).digest('hex')}`;
+
+function conSesionPorPago(pi, sessionId) {
+  const previa = globalThis.fetch;
+  globalThis.fetch = async (url, init = {}) => {
+    const u = String(url);
+    if (u.includes('/v1/checkout/sessions?payment_intent=')) {
+      stripeCalls.push({ url: u, method: 'GET', body: '' });
+      const ok = u.includes(`payment_intent=${pi}`) && stripeSessions[sessionId];
+      return new Response(JSON.stringify({ data: ok ? [stripeSessions[sessionId]] : [] }), { status: 200 });
+    }
+    return previa(url, init);
+  };
+}
+
+const enviarWebhook = (event, firma) => {
+  const cuerpo = JSON.stringify(event);
+  return worker.fetch(
+    new Request(API + '/stripe-webhook', { method: 'POST', headers: { 'Stripe-Signature': firma ?? firmar(cuerpo), 'Content-Type': 'application/json' }, body: cuerpo }),
+    env
+  );
+};
+
+test('firma de Stripe: válida, alterada, vieja y sin secreto', async () => {
+  const cuerpo = '{"a":1}';
+  assert.equal(await verifyStripeSignature(cuerpo, firmar(cuerpo), WH), true);
+  assert.equal(await verifyStripeSignature(cuerpo + ' ', firmar(cuerpo), WH), false);
+  assert.equal(await verifyStripeSignature(cuerpo, firmar(cuerpo, Math.floor(Date.now() / 1000) - 3600), WH), false);
+  assert.equal(await verifyStripeSignature(cuerpo, firmar(cuerpo, undefined, 'otro'), WH), false);
+  assert.equal(await verifyStripeSignature(cuerpo, 'basura', WH), false);
+  assert.equal(await verifyStripeSignature(cuerpo, firmar(cuerpo), ''), false);
+});
+
+test('reembolso total: el pase deja de servir (audio, /status, código y nuevo canje)', async () => {
+  env.STRIPE_WEBHOOK_SECRET = WH;
+  const red = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1, siteId: 'mna' } })).json();
+  const antes = await call(`/audio/pago/es/p01_corto.mp3?t=${encodeURIComponent(red.token)}`, { method: 'GET', origin: null });
+  assert.equal(antes.status, 200);
+
+  conSesionPorPago('pi_ABC123', 'cs_test_PAGADA123456');
+  const r = await enviarWebhook({ type: 'charge.refunded', data: { object: { refunded: true, payment_intent: 'pi_ABC123' } } });
+  assert.equal(r.status, 200);
+  assert.equal((await r.json()).revoked, true);
+
+  assert.equal((await call(`/audio/pago/es/p01_corto.mp3?t=${encodeURIComponent(red.token)}`, { method: 'GET', origin: null })).status, 401);
+  assert.deepEqual(await (await call('/status', { body: { token: red.token } })).json(), { valid: false, revoked: true });
+  assert.equal((await call('/code', { body: { code: red.code, deviceId: DEV2, siteId: 'mna' } })).status, 403);
+  assert.equal((await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV3, siteId: 'mna' } })).status, 403);
+});
+
+test('reembolso antes de canjear: la sesión pagada ya no se puede canjear', async () => {
+  env.STRIPE_WEBHOOK_SECRET = WH;
+  conSesionPorPago('pi_XYZ', 'cs_test_PAGADA123456');
+  await enviarWebhook({ type: 'charge.dispute.created', data: { object: { payment_intent: 'pi_XYZ' } } });
+  const r = await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1, siteId: 'mna' } });
+  assert.equal(r.status, 403);
+  assert.equal((await r.json()).error, 'revoked');
+});
+
+test('reembolso parcial, otros eventos y pagos de otro sitio no cancelan nada', async () => {
+  env.STRIPE_WEBHOOK_SECRET = WH;
+  const red = await (await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1, siteId: 'mna' } })).json();
+  conSesionPorPago('pi_ABC123', 'cs_test_PAGADA123456');
+  const parcial = await enviarWebhook({ type: 'charge.refunded', data: { object: { refunded: false, payment_intent: 'pi_ABC123' } } });
+  assert.equal((await parcial.json()).ignored, true);
+  const otro = await enviarWebhook({ type: 'payment_intent.succeeded', data: { object: { payment_intent: 'pi_ABC123' } } });
+  assert.equal((await otro.json()).ignored, true);
+  assert.equal((await (await call('/status', { body: { token: red.token } })).json()).valid, true);
+
+  conSesionPorPago('pi_OTRO', 'cs_test_OTROSITIO1234');
+  const ajeno = await enviarWebhook({ type: 'charge.refunded', data: { object: { refunded: true, payment_intent: 'pi_OTRO' } } });
+  assert.equal((await ajeno.json()).ignored, true);
+});
+
+test('webhook: firma falsa → 400; sin secreto configurado → 503; Stripe caído → 502 (para que reintente)', async () => {
+  const ev = { type: 'charge.refunded', data: { object: { refunded: true, payment_intent: 'pi_ABC123' } } };
+  assert.equal((await enviarWebhook(ev)).status, 503);
+  env.STRIPE_WEBHOOK_SECRET = WH;
+  assert.equal((await enviarWebhook(ev, 't=1,v1=00')).status, 400);
+  globalThis.fetch = async () => new Response(JSON.stringify({ error: { message: 'caído' } }), { status: 500 });
+  assert.equal((await enviarWebhook(ev)).status, 502);
+});
+
+test('/evento: cuenta lo permitido, rechaza lo raro y /estadisticas pide la clave', async () => {
+  env.STATS_KEY = 'clave-de-estadisticas';
+  const ev = (body, origin = ORIGIN) => call('/evento', { body, origin });
+  assert.equal((await ev({ e: 'piece_view', p: 'mna_s06_piedra_sol', l: 'es', s: 'MNA' })).status, 204);
+  assert.equal((await ev({ e: 'piece_view', p: 'mna_s06_piedra_sol', l: 'es' })).status, 204);
+  assert.equal((await ev({ e: 'audio_play', p: 'mna_s06_piedra_sol', l: 'fr', m: 'largo', k: 'mp3' })).status, 204);
+  assert.equal((await ev({ e: 'purchase' })).status, 400); // las compras las cuenta el servidor, no la app
+  assert.equal((await ev({ e: 'inventado' })).status, 400);
+  assert.equal((await ev({ e: 'app_open', s: 'otro' })).status, 400);
+  assert.equal((await ev({ e: 'app_open' }, 'https://malo.example')).status, 403);
+  assert.equal((await call('/evento', { body: { e: 'app_open' }, origin: null })).status, 403);
+
+  assert.equal((await call('/estadisticas', { method: 'GET', origin: null })).status, 401);
+  assert.equal((await call('/estadisticas', { method: 'GET', origin: null, headers: { Authorization: 'Bearer mala' } })).status, 401);
+  const r = await call('/estadisticas?dias=7', { method: 'GET', origin: null, headers: { Authorization: 'Bearer clave-de-estadisticas' } });
+  const { conteos } = await r.json();
+  const hoy = Object.values(conteos)[0];
+  assert.equal(hoy['piece_view|mna|mna_s06_piedra_sol|es||'], 2);
+  assert.equal(hoy['audio_play|mna|mna_s06_piedra_sol|fr|largo|mp3'], 1);
+  // sin dato personal alguno: solo contadores
+  assert.ok(!JSON.stringify(conteos).includes('dev_'));
+});
+
+test('una compra nueva se cuenta una sola vez (aunque se canjee otra vez)', async () => {
+  env.STATS_KEY = 'k';
+  await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV1, siteId: 'mna' } });
+  await call('/redeem', { body: { sessionId: 'cs_test_PAGADA123456', deviceId: DEV2, siteId: 'mna' } });
+  const { conteos } = await (await call('/estadisticas', { method: 'GET', origin: null, headers: { Authorization: 'Bearer k' } })).json();
+  const claves = Object.entries(Object.values(conteos)[0]).filter(([k]) => k.startsWith('purchase'));
+  assert.equal(claves.length, 1);
+  assert.equal(claves[0][1], 1);
+});
