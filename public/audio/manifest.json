@@ -2,6 +2,780 @@
   "version": 1,
   "items": {
     "en": {
+      "mna_s00_el_paraguas": {
+        "corto": {
+          "hash": "42db90b0979b9168",
+          "file": "en/mna_s00_el_paraguas_corto.mp3",
+          "remote": false,
+          "seconds": 43,
+          "bytes": 255600,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "deb7f72281bca82a",
+          "file": "en/mna_s00_el_paraguas_largo.mp3",
+          "remote": false,
+          "seconds": 91,
+          "bytes": 547200,
+          "provider": "azure"
+        }
+      },
+      "mna_s00_espejo_caracol": {
+        "corto": {
+          "hash": "76a63f92ab0c3dbf",
+          "file": "en/mna_s00_espejo_caracol_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 287712,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ddc3dd4de6c83a8e",
+          "file": "en/mna_s00_espejo_caracol_largo.mp3",
+          "remote": true,
+          "seconds": 71,
+          "bytes": 426528,
+          "provider": "azure"
+        }
+      },
+      "mna_s00_fachada_celosia": {
+        "corto": {
+          "hash": "2492964be2d2f538",
+          "file": "en/mna_s00_fachada_celosia_corto.mp3",
+          "remote": true,
+          "seconds": 51,
+          "bytes": 306720,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9dcb306be94a4ecf",
+          "file": "en/mna_s00_fachada_celosia_largo.mp3",
+          "remote": true,
+          "seconds": 97,
+          "bytes": 583632,
+          "provider": "azure"
+        }
+      },
+      "mna_s00_monolito_tlaloc": {
+        "corto": {
+          "hash": "fbd8575d780bbffc",
+          "file": "en/mna_s00_monolito_tlaloc_corto.mp3",
+          "remote": false,
+          "seconds": 44,
+          "bytes": 261936,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9e8ed94367f85fdf",
+          "file": "en/mna_s00_monolito_tlaloc_largo.mp3",
+          "remote": false,
+          "seconds": 90,
+          "bytes": 540288,
+          "provider": "azure"
+        }
+      },
+      "mna_s00_mural_tamayo": {
+        "corto": {
+          "hash": "c0309703102d75fe",
+          "file": "en/mna_s00_mural_tamayo_corto.mp3",
+          "remote": true,
+          "seconds": 50,
+          "bytes": 301536,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2b6a82f7947bcfc9",
+          "file": "en/mna_s00_mural_tamayo_largo.mp3",
+          "remote": true,
+          "seconds": 89,
+          "bytes": 532080,
+          "provider": "azure"
+        }
+      },
+      "mna_s01_entierro_dolni_vestonice": {
+        "corto": {
+          "hash": "3b8ca42ef1a9d4cd",
+          "file": "en/mna_s01_entierro_dolni_vestonice_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 255600,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "fe0a5a9a9e0ff320",
+          "file": "en/mna_s01_entierro_dolni_vestonice_largo.mp3",
+          "remote": true,
+          "seconds": 75,
+          "bytes": 448992,
+          "provider": "azure"
+        }
+      },
+      "mna_s01_lucy_afarensis": {
+        "corto": {
+          "hash": "ed954c19653db25e",
+          "file": "en/mna_s01_lucy_afarensis_corto.mp3",
+          "remote": false,
+          "seconds": 49,
+          "bytes": 296352,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "072813adcc5818cd",
+          "file": "en/mna_s01_lucy_afarensis_largo.mp3",
+          "remote": false,
+          "seconds": 82,
+          "bytes": 494064,
+          "provider": "azure"
+        }
+      },
+      "mna_s01_mural_tzompantli": {
+        "corto": {
+          "hash": "4fa86d23370be19c",
+          "file": "en/mna_s01_mural_tzompantli_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 282096,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f5af15ab24567f4f",
+          "file": "en/mna_s01_mural_tzompantli_largo.mp3",
+          "remote": true,
+          "seconds": 79,
+          "bytes": 473040,
+          "provider": "azure"
+        }
+      },
+      "mna_s02_mamut_iztapan": {
+        "corto": {
+          "hash": "8a1588c5c3565811",
+          "file": "en/mna_s02_mamut_iztapan_corto.mp3",
+          "remote": false,
+          "seconds": 42,
+          "bytes": 251856,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bd0e32db04c31391",
+          "file": "en/mna_s02_mamut_iztapan_largo.mp3",
+          "remote": false,
+          "seconds": 88,
+          "bytes": 528768,
+          "provider": "azure"
+        }
+      },
+      "mna_s02_puntas_clovis": {
+        "corto": {
+          "hash": "21b00b8a7e5a7728",
+          "file": "en/mna_s02_puntas_clovis_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 267120,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1681bf008acc6ff5",
+          "file": "en/mna_s02_puntas_clovis_largo.mp3",
+          "remote": true,
+          "seconds": 99,
+          "bytes": 595584,
+          "provider": "azure"
+        }
+      },
+      "mna_s02_sacro_tequixquiac": {
+        "corto": {
+          "hash": "46933cc582777dbb",
+          "file": "en/mna_s02_sacro_tequixquiac_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 259056,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3b24e94d706b71c8",
+          "file": "en/mna_s02_sacro_tequixquiac_largo.mp3",
+          "remote": true,
+          "seconds": 72,
+          "bytes": 430704,
+          "provider": "azure"
+        }
+      },
+      "mna_s03_acrobata_tlatilco": {
+        "corto": {
+          "hash": "c2aa16905a84368b",
+          "file": "en/mna_s03_acrobata_tlatilco_corto.mp3",
+          "remote": false,
+          "seconds": 47,
+          "bytes": 282528,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5ff308d3e539a506",
+          "file": "en/mna_s03_acrobata_tlatilco_largo.mp3",
+          "remote": false,
+          "seconds": 115,
+          "bytes": 690192,
+          "provider": "azure"
+        }
+      },
+      "mna_s03_baby_face_tlapacoya": {
+        "corto": {
+          "hash": "c22b773156965d59",
+          "file": "en/mna_s03_baby_face_tlapacoya_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 289872,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3f4d1170e6ec945f",
+          "file": "en/mna_s03_baby_face_tlapacoya_largo.mp3",
+          "remote": true,
+          "seconds": 144,
+          "bytes": 862416,
+          "provider": "azure"
+        }
+      },
+      "mna_s03_bailarina_cascabeles": {
+        "corto": {
+          "hash": "7d69ea835c8013a7",
+          "file": "en/mna_s03_bailarina_cascabeles_corto.mp3",
+          "remote": true,
+          "seconds": 57,
+          "bytes": 339696,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "835bc9fea8652bd7",
+          "file": "en/mna_s03_bailarina_cascabeles_largo.mp3",
+          "remote": true,
+          "seconds": 148,
+          "bytes": 885456,
+          "provider": "azure"
+        }
+      },
+      "mna_s03_huehueteotl_cuicuilco": {
+        "corto": {
+          "hash": "581a43edb201e728",
+          "file": "en/mna_s03_huehueteotl_cuicuilco_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 261360,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9de27728c0ce578e",
+          "file": "en/mna_s03_huehueteotl_cuicuilco_largo.mp3",
+          "remote": true,
+          "seconds": 117,
+          "bytes": 701712,
+          "provider": "azure"
+        }
+      },
+      "mna_s03_mascara_dualidad": {
+        "corto": {
+          "hash": "b59934dafb1c11c0",
+          "file": "en/mna_s03_mascara_dualidad_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 281088,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2cfddde4984ee4b4",
+          "file": "en/mna_s03_mascara_dualidad_largo.mp3",
+          "remote": true,
+          "seconds": 114,
+          "bytes": 686880,
+          "provider": "azure"
+        }
+      },
+      "mna_s03_mujeres_bonitas": {
+        "corto": {
+          "hash": "87628925ac5e943d",
+          "file": "en/mna_s03_mujeres_bonitas_corto.mp3",
+          "remote": true,
+          "seconds": 49,
+          "bytes": 291600,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "94d697c27c76e880",
+          "file": "en/mna_s03_mujeres_bonitas_largo.mp3",
+          "remote": true,
+          "seconds": 150,
+          "bytes": 897120,
+          "provider": "azure"
+        }
+      },
+      "mna_s03_pato_tlatilco": {
+        "corto": {
+          "hash": "50b2fdd167f58fb6",
+          "file": "en/mna_s03_pato_tlatilco_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 273024,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "46e4ba10e79de4e9",
+          "file": "en/mna_s03_pato_tlatilco_largo.mp3",
+          "remote": true,
+          "seconds": 129,
+          "bytes": 775296,
+          "provider": "azure"
+        }
+      },
+      "mna_s03_piramide_cuicuilco": {
+        "corto": {
+          "hash": "6dbc2bc907922c25",
+          "file": "en/mna_s03_piramide_cuicuilco_corto.mp3",
+          "remote": true,
+          "seconds": 54,
+          "bytes": 326592,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "41e2b2af4880487f",
+          "file": "en/mna_s03_piramide_cuicuilco_largo.mp3",
+          "remote": true,
+          "seconds": 159,
+          "bytes": 954000,
+          "provider": "azure"
+        }
+      },
+      "mna_s03_sacerdote_atlihuayan": {
+        "corto": {
+          "hash": "bc8a7e5d83bc85a1",
+          "file": "en/mna_s03_sacerdote_atlihuayan_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 281952,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dbfbabda2e0b16da",
+          "file": "en/mna_s03_sacerdote_atlihuayan_largo.mp3",
+          "remote": true,
+          "seconds": 146,
+          "bytes": 873936,
+          "provider": "azure"
+        }
+      },
+      "mna_s03_vasija_pez_tlapacoya": {
+        "corto": {
+          "hash": "d05e8dd32214cabc",
+          "file": "en/mna_s03_vasija_pez_tlapacoya_corto.mp3",
+          "remote": true,
+          "seconds": 52,
+          "bytes": 312768,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5b6deba71ceb7261",
+          "file": "en/mna_s03_vasija_pez_tlapacoya_largo.mp3",
+          "remote": true,
+          "seconds": 156,
+          "bytes": 935712,
+          "provider": "azure"
+        }
+      },
+      "mna_s04_animales_mitologicos": {
+        "corto": {
+          "hash": "f786bb28da046427",
+          "file": "en/mna_s04_animales_mitologicos_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 229248,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ef49717195ccddf1",
+          "file": "en/mna_s04_animales_mitologicos_largo.mp3",
+          "remote": true,
+          "seconds": 76,
+          "bytes": 458352,
+          "provider": "azure"
+        }
+      },
+      "mna_s04_brasero_teatro": {
+        "corto": {
+          "hash": "7eeddc4b11a762e0",
+          "file": "en/mna_s04_brasero_teatro_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 255168,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bddc59b6872bbd58",
+          "file": "en/mna_s04_brasero_teatro_largo.mp3",
+          "remote": true,
+          "seconds": 78,
+          "bytes": 466704,
+          "provider": "azure"
+        }
+      },
+      "mna_s04_caracoles_emplumados": {
+        "corto": {
+          "hash": "6499c09e3d9f8bc7",
+          "file": "en/mna_s04_caracoles_emplumados_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 275472,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "55912b004a97daff",
+          "file": "en/mna_s04_caracoles_emplumados_largo.mp3",
+          "remote": true,
+          "seconds": 92,
+          "bytes": 550944,
+          "provider": "azure"
+        }
+      },
+      "mna_s04_chalchiuhtlicue": {
+        "corto": {
+          "hash": "9676d78d0743e681",
+          "file": "en/mna_s04_chalchiuhtlicue_corto.mp3",
+          "remote": false,
+          "seconds": 45,
+          "bytes": 267552,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "03d761e6422f5c71",
+          "file": "en/mna_s04_chalchiuhtlicue_largo.mp3",
+          "remote": false,
+          "seconds": 86,
+          "bytes": 516816,
+          "provider": "azure"
+        }
+      },
+      "mna_s04_disco_muerte": {
+        "corto": {
+          "hash": "0ee71876f3b6a44d",
+          "file": "en/mna_s04_disco_muerte_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 282528,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ca6ae5575f2e0366",
+          "file": "en/mna_s04_disco_muerte_largo.mp3",
+          "remote": true,
+          "seconds": 114,
+          "bytes": 686448,
+          "provider": "azure"
+        }
+      },
+      "mna_s04_huehueteotl": {
+        "corto": {
+          "hash": "9c45bfc359235cf0",
+          "file": "en/mna_s04_huehueteotl_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243648,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ed29d0be52dff9ef",
+          "file": "en/mna_s04_huehueteotl_largo.mp3",
+          "remote": true,
+          "seconds": 71,
+          "bytes": 426096,
+          "provider": "azure"
+        }
+      },
+      "mna_s04_marcador_ventilla": {
+        "corto": {
+          "hash": "eee9b0dfd911973b",
+          "file": "en/mna_s04_marcador_ventilla_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 244224,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b5b18c0b20130378",
+          "file": "en/mna_s04_marcador_ventilla_largo.mp3",
+          "remote": true,
+          "seconds": 76,
+          "bytes": 454896,
+          "provider": "azure"
+        }
+      },
+      "mna_s04_mascara_serpentina": {
+        "corto": {
+          "hash": "5ec2a28ebcaf6469",
+          "file": "en/mna_s04_mascara_serpentina_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 222480,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0c6ea7dee2385685",
+          "file": "en/mna_s04_mascara_serpentina_largo.mp3",
+          "remote": true,
+          "seconds": 67,
+          "bytes": 402912,
+          "provider": "azure"
+        }
+      },
+      "mna_s04_mural_tepantitla": {
+        "corto": {
+          "hash": "22819150650b82c8",
+          "file": "en/mna_s04_mural_tepantitla_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243648,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ff73f5c168f9b3a8",
+          "file": "en/mna_s04_mural_tepantitla_largo.mp3",
+          "remote": true,
+          "seconds": 79,
+          "bytes": 472608,
+          "provider": "azure"
+        }
+      },
+      "mna_s04_templo_quetzalcoatl": {
+        "corto": {
+          "hash": "d663700524ff164c",
+          "file": "en/mna_s04_templo_quetzalcoatl_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 261648,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dfb201dd4784d7fe",
+          "file": "en/mna_s04_templo_quetzalcoatl_largo.mp3",
+          "remote": true,
+          "seconds": 77,
+          "bytes": 464112,
+          "provider": "azure"
+        }
+      },
+      "mna_s04_xipe_totec": {
+        "corto": {
+          "hash": "b8f234ea356f885d",
+          "file": "en/mna_s04_xipe_totec_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 230256,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7fe7377c402d2f25",
+          "file": "en/mna_s04_xipe_totec_largo.mp3",
+          "remote": true,
+          "seconds": 57,
+          "bytes": 340848,
+          "provider": "azure"
+        }
+      },
+      "mna_s05_atlante_tula": {
+        "corto": {
+          "hash": "cceaabab628c0b93",
+          "file": "en/mna_s05_atlante_tula_corto.mp3",
+          "remote": false,
+          "seconds": 46,
+          "bytes": 276768,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "badb176eaf3cbb60",
+          "file": "en/mna_s05_atlante_tula_largo.mp3",
+          "remote": false,
+          "seconds": 124,
+          "bytes": 746496,
+          "provider": "azure"
+        }
+      },
+      "mna_s05_brasero_tolteca": {
+        "corto": {
+          "hash": "5f3da11762a7ee04",
+          "file": "en/mna_s05_brasero_tolteca_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 277200,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b6c124066bdca967",
+          "file": "en/mna_s05_brasero_tolteca_largo.mp3",
+          "remote": true,
+          "seconds": 73,
+          "bytes": 438336,
+          "provider": "azure"
+        }
+      },
+      "mna_s05_chacmool_tolteca": {
+        "corto": {
+          "hash": "b0ac82e75b54e398",
+          "file": "en/mna_s05_chacmool_tolteca_corto.mp3",
+          "remote": true,
+          "seconds": 49,
+          "bytes": 295200,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "facc17a9f66c8646",
+          "file": "en/mna_s05_chacmool_tolteca_largo.mp3",
+          "remote": true,
+          "seconds": 114,
+          "bytes": 683280,
+          "provider": "azure"
+        }
+      },
+      "mna_s05_coatepantli": {
+        "corto": {
+          "hash": "cd72bd3b367c0788",
+          "file": "en/mna_s05_coatepantli_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 270864,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "051e5e4e145f16ac",
+          "file": "en/mna_s05_coatepantli_largo.mp3",
+          "remote": true,
+          "seconds": 84,
+          "bytes": 506736,
+          "provider": "azure"
+        }
+      },
+      "mna_s05_coraza_concha_tula": {
+        "corto": {
+          "hash": "16944f31f550aad0",
+          "file": "en/mna_s05_coraza_concha_tula_corto.mp3",
+          "remote": true,
+          "seconds": 54,
+          "bytes": 324432,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e235a29fbb00c8ba",
+          "file": "en/mna_s05_coraza_concha_tula_largo.mp3",
+          "remote": true,
+          "seconds": 147,
+          "bytes": 884736,
+          "provider": "azure"
+        }
+      },
+      "mna_s05_disco_tezcacuitlapilli": {
+        "corto": {
+          "hash": "56154c223e4cb11d",
+          "file": "en/mna_s05_disco_tezcacuitlapilli_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 289152,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f84b4b5de3630118",
+          "file": "en/mna_s05_disco_tezcacuitlapilli_largo.mp3",
+          "remote": true,
+          "seconds": 78,
+          "bytes": 470736,
+          "provider": "azure"
+        }
+      },
+      "mna_s05_friso_jaguares_coyotes": {
+        "corto": {
+          "hash": "bdaf1b593a36f1e2",
+          "file": "en/mna_s05_friso_jaguares_coyotes_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 279936,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0e37e4c10b688b28",
+          "file": "en/mna_s05_friso_jaguares_coyotes_largo.mp3",
+          "remote": true,
+          "seconds": 70,
+          "bytes": 417600,
+          "provider": "azure"
+        }
+      },
+      "mna_s05_guerrero_coyote": {
+        "corto": {
+          "hash": "916b179eb75e9a48",
+          "file": "en/mna_s05_guerrero_coyote_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 262080,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "12bba75ded360dc4",
+          "file": "en/mna_s05_guerrero_coyote_largo.mp3",
+          "remote": true,
+          "seconds": 83,
+          "bytes": 499824,
+          "provider": "azure"
+        }
+      },
+      "mna_s05_lapida_venus": {
+        "corto": {
+          "hash": "de5d243eb0125f12",
+          "file": "en/mna_s05_lapida_venus_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 268704,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e042062939ec935c",
+          "file": "en/mna_s05_lapida_venus_largo.mp3",
+          "remote": true,
+          "seconds": 116,
+          "bytes": 696384,
+          "provider": "azure"
+        }
+      },
+      "mna_s05_vasija_plumbate": {
+        "corto": {
+          "hash": "d818cef06863ea7e",
+          "file": "en/mna_s05_vasija_plumbate_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 277632,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7350eff88430fbb3",
+          "file": "en/mna_s05_vasija_plumbate_largo.mp3",
+          "remote": true,
+          "seconds": 87,
+          "bytes": 521136,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_chapulin": {
+        "corto": {
+          "hash": "4f058e5088b06662",
+          "file": "en/mna_s06_chapulin_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 231120,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1fc6bac0b0919526",
+          "file": "en/mna_s06_chapulin_largo.mp3",
+          "remote": true,
+          "seconds": 63,
+          "bytes": 379440,
+          "provider": "azure"
+        }
+      },
       "mna_s06_coatlicue": {
         "corto": {
           "hash": "1733c5a8aa87f4cd",
@@ -9,6 +783,140 @@
           "remote": true,
           "seconds": 47,
           "bytes": 282384,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9fe628ec77e598e7",
+          "file": "en/mna_s06_coatlicue_largo.mp3",
+          "remote": true,
+          "seconds": 106,
+          "bytes": 638208,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_coyolxauhqui": {
+        "corto": {
+          "hash": "2e6098dff5f6508b",
+          "file": "en/mna_s06_coyolxauhqui_corto.mp3",
+          "remote": true,
+          "seconds": 50,
+          "bytes": 300096,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "cb85d720c52c45da",
+          "file": "en/mna_s06_coyolxauhqui_largo.mp3",
+          "remote": true,
+          "seconds": 97,
+          "bytes": 579888,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_guerrero_aguila": {
+        "corto": {
+          "hash": "80213700d6d08491",
+          "file": "en/mna_s06_guerrero_aguila_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 276480,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "87c5456ce5b6e387",
+          "file": "en/mna_s06_guerrero_aguila_largo.mp3",
+          "remote": true,
+          "seconds": 82,
+          "bytes": 492192,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_maqueta_tlatelolco": {
+        "corto": {
+          "hash": "9584ea9633c6bceb",
+          "file": "en/mna_s06_maqueta_tlatelolco_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 266544,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2a794160c6c5ac48",
+          "file": "en/mna_s06_maqueta_tlatelolco_largo.mp3",
+          "remote": true,
+          "seconds": 75,
+          "bytes": 448272,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_mono_obsidiana": {
+        "corto": {
+          "hash": "651a3e59340f2428",
+          "file": "en/mna_s06_mono_obsidiana_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 276768,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6432df0380f49cd7",
+          "file": "en/mna_s06_mono_obsidiana_largo.mp3",
+          "remote": true,
+          "seconds": 87,
+          "bytes": 521712,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_ocelotl_cuauhxicalli": {
+        "corto": {
+          "hash": "ebedd8f00cea02ff",
+          "file": "en/mna_s06_ocelotl_cuauhxicalli_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 280800,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f31fee4f0b3d937e",
+          "file": "en/mna_s06_ocelotl_cuauhxicalli_largo.mp3",
+          "remote": true,
+          "seconds": 91,
+          "bytes": 545184,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_penacho_moctezuma": {
+        "corto": {
+          "hash": "584699e99253fe41",
+          "file": "en/mna_s06_penacho_moctezuma_corto.mp3",
+          "remote": false,
+          "seconds": 47,
+          "bytes": 279072,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3432ae2618dfe2c7",
+          "file": "en/mna_s06_penacho_moctezuma_largo.mp3",
+          "remote": false,
+          "seconds": 90,
+          "bytes": 539280,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_piedra_arzobispado": {
+        "corto": {
+          "hash": "46b60c3d34fab000",
+          "file": "en/mna_s06_piedra_arzobispado_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243936,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dcc4f94c76789a80",
+          "file": "en/mna_s06_piedra_arzobispado_largo.mp3",
+          "remote": true,
+          "seconds": 95,
+          "bytes": 570096,
           "provider": "azure"
         }
       },
@@ -27,6 +935,1626 @@
           "remote": false,
           "seconds": 116,
           "bytes": 697248,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_teocalli_guerra_sagrada": {
+        "corto": {
+          "hash": "66f747882fa8763e",
+          "file": "en/mna_s06_teocalli_guerra_sagrada_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 285552,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e3962562b1401544",
+          "file": "en/mna_s06_teocalli_guerra_sagrada_largo.mp3",
+          "remote": true,
+          "seconds": 87,
+          "bytes": 520272,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_tizoc": {
+        "corto": {
+          "hash": "f4f9897b4e70f5e7",
+          "file": "en/mna_s06_tizoc_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 275040,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "646a913cfda8e924",
+          "file": "en/mna_s06_tizoc_largo.mp3",
+          "remote": true,
+          "seconds": 91,
+          "bytes": 548496,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_tlaltecuhtli": {
+        "corto": {
+          "hash": "14110e163e5d6fe8",
+          "file": "en/mna_s06_tlaltecuhtli_corto.mp3",
+          "remote": true,
+          "seconds": 51,
+          "bytes": 306000,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "151ce8ef27d3bbdc",
+          "file": "en/mna_s06_tlaltecuhtli_largo.mp3",
+          "remote": true,
+          "seconds": 89,
+          "bytes": 533520,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_xochipilli": {
+        "corto": {
+          "hash": "11cb083bb71186cb",
+          "file": "en/mna_s06_xochipilli_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 271152,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e3c545861ac64a37",
+          "file": "en/mna_s06_xochipilli_largo.mp3",
+          "remote": true,
+          "seconds": 95,
+          "bytes": 572112,
+          "provider": "azure"
+        }
+      },
+      "mna_s07_copa_cristal_roca": {
+        "corto": {
+          "hash": "bcf78399fb90b5e3",
+          "file": "en/mna_s07_copa_cristal_roca_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 277056,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "27e6ff01ae0875fd",
+          "file": "en/mna_s07_copa_cristal_roca_largo.mp3",
+          "remote": true,
+          "seconds": 72,
+          "bytes": 432576,
+          "provider": "azure"
+        }
+      },
+      "mna_s07_craneo_turquesa": {
+        "corto": {
+          "hash": "003e1c072413c51f",
+          "file": "en/mna_s07_craneo_turquesa_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 224208,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e226f19f787a4ccf",
+          "file": "en/mna_s07_craneo_turquesa_largo.mp3",
+          "remote": true,
+          "seconds": 94,
+          "bytes": 563616,
+          "provider": "azure"
+        }
+      },
+      "mna_s07_danzante_montealban": {
+        "corto": {
+          "hash": "927e247f9459165c",
+          "file": "en/mna_s07_danzante_montealban_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 253584,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6a3f116dc34120ef",
+          "file": "en/mna_s07_danzante_montealban_largo.mp3",
+          "remote": true,
+          "seconds": 76,
+          "bytes": 455904,
+          "provider": "azure"
+        }
+      },
+      "mna_s07_grecas_mitla": {
+        "corto": {
+          "hash": "c5f76b6f2f4353b2",
+          "file": "en/mna_s07_grecas_mitla_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 250272,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "95aec3b35934af85",
+          "file": "en/mna_s07_grecas_mitla_largo.mp3",
+          "remote": true,
+          "seconds": 74,
+          "bytes": 443232,
+          "provider": "azure"
+        }
+      },
+      "mna_s07_lapida_bazan": {
+        "corto": {
+          "hash": "7da96bc4f8a9a906",
+          "file": "en/mna_s07_lapida_bazan_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 254736,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d9a5a8f3474e20f0",
+          "file": "en/mna_s07_lapida_bazan_largo.mp3",
+          "remote": true,
+          "seconds": 72,
+          "bytes": 432144,
+          "provider": "azure"
+        }
+      },
+      "mna_s07_mascara_murcielago": {
+        "corto": {
+          "hash": "299c94e87373d005",
+          "file": "en/mna_s07_mascara_murcielago_corto.mp3",
+          "remote": false,
+          "seconds": 51,
+          "bytes": 307440,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dcebd2695eef2637",
+          "file": "en/mna_s07_mascara_murcielago_largo.mp3",
+          "remote": false,
+          "seconds": 88,
+          "bytes": 525744,
+          "provider": "azure"
+        }
+      },
+      "mna_s07_pectoral_oro_tumba7": {
+        "corto": {
+          "hash": "08bf2b401ab2dfcb",
+          "file": "en/mna_s07_pectoral_oro_tumba7_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 267984,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "582a4fdc16633899",
+          "file": "en/mna_s07_pectoral_oro_tumba7_largo.mp3",
+          "remote": true,
+          "seconds": 112,
+          "bytes": 674496,
+          "provider": "azure"
+        }
+      },
+      "mna_s07_tumba_104": {
+        "corto": {
+          "hash": "fb639fc53075543c",
+          "file": "en/mna_s07_tumba_104_corto.mp3",
+          "remote": true,
+          "seconds": 49,
+          "bytes": 291024,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "da7ce4be4f6ec08d",
+          "file": "en/mna_s07_tumba_104_largo.mp3",
+          "remote": true,
+          "seconds": 107,
+          "bytes": 641952,
+          "provider": "azure"
+        }
+      },
+      "mna_s07_urna_cocijo": {
+        "corto": {
+          "hash": "8b75bbfeab840512",
+          "file": "en/mna_s07_urna_cocijo_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 280512,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "939037da991f16a2",
+          "file": "en/mna_s07_urna_cocijo_largo.mp3",
+          "remote": true,
+          "seconds": 118,
+          "bytes": 710640,
+          "provider": "azure"
+        }
+      },
+      "mna_s07_urna_cozobi": {
+        "corto": {
+          "hash": "f9918cc5d4834fb9",
+          "file": "en/mna_s07_urna_cozobi_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 259200,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "885b3d4809704f2b",
+          "file": "en/mna_s07_urna_cozobi_largo.mp3",
+          "remote": true,
+          "seconds": 69,
+          "bytes": 412848,
+          "provider": "azure"
+        }
+      },
+      "mna_s07_vaso_tecali_mono": {
+        "corto": {
+          "hash": "1786893c2626ea4a",
+          "file": "en/mna_s07_vaso_tecali_mono_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 225072,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6feaa3bed7508bca",
+          "file": "en/mna_s07_vaso_tecali_mono_largo.mp3",
+          "remote": true,
+          "seconds": 79,
+          "bytes": 474336,
+          "provider": "azure"
+        }
+      },
+      "mna_s08_adolescente_huasteco": {
+        "corto": {
+          "hash": "476b3db0d5d0bc10",
+          "file": "en/mna_s08_adolescente_huasteco_corto.mp3",
+          "remote": true,
+          "seconds": 51,
+          "bytes": 308448,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e432fc2a9aef8f5e",
+          "file": "en/mna_s08_adolescente_huasteco_largo.mp3",
+          "remote": true,
+          "seconds": 81,
+          "bytes": 485136,
+          "provider": "azure"
+        }
+      },
+      "mna_s08_cabeza_colosal_6": {
+        "corto": {
+          "hash": "b8096b095b3f6bba",
+          "file": "en/mna_s08_cabeza_colosal_6_corto.mp3",
+          "remote": false,
+          "seconds": 48,
+          "bytes": 286848,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "89cd481a5aef3af0",
+          "file": "en/mna_s08_cabeza_colosal_6_largo.mp3",
+          "remote": false,
+          "seconds": 98,
+          "bytes": 587952,
+          "provider": "azure"
+        }
+      },
+      "mna_s08_carita_sonriente": {
+        "corto": {
+          "hash": "a4c6e951c22583bd",
+          "file": "en/mna_s08_carita_sonriente_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 275760,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "925115b5342aa689",
+          "file": "en/mna_s08_carita_sonriente_largo.mp3",
+          "remote": true,
+          "seconds": 93,
+          "bytes": 560304,
+          "provider": "azure"
+        }
+      },
+      "mna_s08_cihuateteo_zapotal": {
+        "corto": {
+          "hash": "b5fc124a68394b69",
+          "file": "en/mna_s08_cihuateteo_zapotal_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b5a46419ff2ced1b",
+          "file": "en/mna_s08_cihuateteo_zapotal_largo.mp3",
+          "remote": true,
+          "seconds": 76,
+          "bytes": 458928,
+          "provider": "azure"
+        }
+      },
+      "mna_s08_estela_teayo": {
+        "corto": {
+          "hash": "4da99a5c4ee7db84",
+          "file": "en/mna_s08_estela_teayo_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 239184,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0aa420b323ec27f8",
+          "file": "en/mna_s08_estela_teayo_largo.mp3",
+          "remote": true,
+          "seconds": 69,
+          "bytes": 411840,
+          "provider": "azure"
+        }
+      },
+      "mna_s08_hacha_votiva_jade": {
+        "corto": {
+          "hash": "e5360ca1b906ad1f",
+          "file": "en/mna_s08_hacha_votiva_jade_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 265680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "038c12e40f74eeba",
+          "file": "en/mna_s08_hacha_votiva_jade_largo.mp3",
+          "remote": true,
+          "seconds": 78,
+          "bytes": 468288,
+          "provider": "azure"
+        }
+      },
+      "mna_s08_luchador_olmeca": {
+        "corto": {
+          "hash": "5b1c15c54caf02a6",
+          "file": "en/mna_s08_luchador_olmeca_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 271008,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e80b6cfa0363ab6f",
+          "file": "en/mna_s08_luchador_olmeca_largo.mp3",
+          "remote": true,
+          "seconds": 144,
+          "bytes": 864432,
+          "provider": "azure"
+        }
+      },
+      "mna_s08_ofrenda4_laventa": {
+        "corto": {
+          "hash": "3f75025f951852d2",
+          "file": "en/mna_s08_ofrenda4_laventa_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 286272,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9ddc87ffe3681931",
+          "file": "en/mna_s08_ofrenda4_laventa_largo.mp3",
+          "remote": true,
+          "seconds": 83,
+          "bytes": 500256,
+          "provider": "azure"
+        }
+      },
+      "mna_s08_palma_sacrificio": {
+        "corto": {
+          "hash": "cb39339e61234774",
+          "file": "en/mna_s08_palma_sacrificio_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 224352,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a47cecdc0dc24a3a",
+          "file": "en/mna_s08_palma_sacrificio_largo.mp3",
+          "remote": true,
+          "seconds": 77,
+          "bytes": 460368,
+          "provider": "azure"
+        }
+      },
+      "mna_s08_senor_las_limas": {
+        "corto": {
+          "hash": "94ef9ae96e3f9a52",
+          "file": "en/mna_s08_senor_las_limas_corto.mp3",
+          "remote": true,
+          "seconds": 49,
+          "bytes": 292464,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8244e6e725e5a316",
+          "file": "en/mna_s08_senor_las_limas_largo.mp3",
+          "remote": true,
+          "seconds": 89,
+          "bytes": 531648,
+          "provider": "azure"
+        }
+      },
+      "mna_s08_yugo_sapo": {
+        "corto": {
+          "hash": "dbd85b5a584b0972",
+          "file": "en/mna_s08_yugo_sapo_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243936,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a7abbeb0d4e513a9",
+          "file": "en/mna_s08_yugo_sapo_largo.mp3",
+          "remote": true,
+          "seconds": 79,
+          "bytes": 475200,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_cabeza_pakal": {
+        "corto": {
+          "hash": "7784a677eac8a322",
+          "file": "en/mna_s09_cabeza_pakal_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 277056,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c4d495d8fa8222f3",
+          "file": "en/mna_s09_cabeza_pakal_largo.mp3",
+          "remote": true,
+          "seconds": 91,
+          "bytes": 547776,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_chacmool_maya": {
+        "corto": {
+          "hash": "7d752cf32d04feb8",
+          "file": "en/mna_s09_chacmool_maya_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 256752,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d53f143a338435c7",
+          "file": "en/mna_s09_chacmool_maya_largo.mp3",
+          "remote": true,
+          "seconds": 83,
+          "bytes": 497520,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_cripta_pakal": {
+        "corto": {
+          "hash": "1510ee8da2f4334d",
+          "file": "en/mna_s09_cripta_pakal_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 250272,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6d4689d79f3d4d4d",
+          "file": "en/mna_s09_cripta_pakal_largo.mp3",
+          "remote": true,
+          "seconds": 71,
+          "bytes": 425520,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_dintel26_yaxchilan": {
+        "corto": {
+          "hash": "729d599e68b378be",
+          "file": "en/mna_s09_dintel26_yaxchilan_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 253440,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "30e9697342fcf2b5",
+          "file": "en/mna_s09_dintel26_yaxchilan_largo.mp3",
+          "remote": true,
+          "seconds": 83,
+          "bytes": 496224,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_disco_chinkultic": {
+        "corto": {
+          "hash": "04abc1e176d86fd8",
+          "file": "en/mna_s09_disco_chinkultic_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 265104,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "effbaad0ebed65e2",
+          "file": "en/mna_s09_disco_chinkultic_largo.mp3",
+          "remote": true,
+          "seconds": 76,
+          "bytes": 456480,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_estela51_calakmul": {
+        "corto": {
+          "hash": "6232c2afbc283d55",
+          "file": "en/mna_s09_estela51_calakmul_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 252864,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "42a95b16464a1c8b",
+          "file": "en/mna_s09_estela51_calakmul_largo.mp3",
+          "remote": true,
+          "seconds": 78,
+          "bytes": 468576,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_friso_placeres": {
+        "corto": {
+          "hash": "b6ab26d6a12d6223",
+          "file": "en/mna_s09_friso_placeres_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247104,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "49c68b9b55c8bd50",
+          "file": "en/mna_s09_friso_placeres_largo.mp3",
+          "remote": true,
+          "seconds": 81,
+          "bytes": 485280,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_halach_uinic_jaina": {
+        "corto": {
+          "hash": "531595df2f353a01",
+          "file": "en/mna_s09_halach_uinic_jaina_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 238176,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3caac5b0cf482142",
+          "file": "en/mna_s09_halach_uinic_jaina_largo.mp3",
+          "remote": true,
+          "seconds": 75,
+          "bytes": 448128,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_mascara_pakal": {
+        "corto": {
+          "hash": "fab2a63a8e8974fb",
+          "file": "en/mna_s09_mascara_pakal_corto.mp3",
+          "remote": false,
+          "seconds": 48,
+          "bytes": 290304,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a94c204d5b7bf706",
+          "file": "en/mna_s09_mascara_pakal_largo.mp3",
+          "remote": false,
+          "seconds": 92,
+          "bytes": 552096,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_mascaron_chaac": {
+        "corto": {
+          "hash": "1a8b68a158a5af4e",
+          "file": "en/mna_s09_mascaron_chaac_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 236880,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "677f5d156e6453bf",
+          "file": "en/mna_s09_mascaron_chaac_largo.mp3",
+          "remote": true,
+          "seconds": 79,
+          "bytes": 471600,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_reina_uxmal": {
+        "corto": {
+          "hash": "409c7518277444ea",
+          "file": "en/mna_s09_reina_uxmal_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 271728,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "86abba81e85707eb",
+          "file": "en/mna_s09_reina_uxmal_largo.mp3",
+          "remote": true,
+          "seconds": 90,
+          "bytes": 541440,
+          "provider": "azure"
+        }
+      },
+      "mna_s09_tablero_cruz": {
+        "corto": {
+          "hash": "7873bc3d5e8f9cb8",
+          "file": "en/mna_s09_tablero_cruz_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 267552,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "155db96a6530f814",
+          "file": "en/mna_s09_tablero_cruz_largo.mp3",
+          "remote": true,
+          "seconds": 89,
+          "bytes": 531936,
+          "provider": "azure"
+        }
+      },
+      "mna_s10_chacmool_purepecha": {
+        "corto": {
+          "hash": "9ca383e9c4fffdfc",
+          "file": "en/mna_s10_chacmool_purepecha_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 285552,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "53db3a57f8c1e4f7",
+          "file": "en/mna_s10_chacmool_purepecha_largo.mp3",
+          "remote": true,
+          "seconds": 86,
+          "bytes": 515376,
+          "provider": "azure"
+        }
+      },
+      "mna_s10_cobre_purepecha": {
+        "corto": {
+          "hash": "2b34cc4d24d2bc93",
+          "file": "en/mna_s10_cobre_purepecha_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 288288,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e27abad2c5a37e7b",
+          "file": "en/mna_s10_cobre_purepecha_largo.mp3",
+          "remote": true,
+          "seconds": 82,
+          "bytes": 490896,
+          "provider": "azure"
+        }
+      },
+      "mna_s10_figura_mezcala": {
+        "corto": {
+          "hash": "d488bb4ac6907259",
+          "file": "en/mna_s10_figura_mezcala_corto.mp3",
+          "remote": true,
+          "seconds": 52,
+          "bytes": 312192,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "595ec6d2e7afe1a1",
+          "file": "en/mna_s10_figura_mezcala_largo.mp3",
+          "remote": true,
+          "seconds": 88,
+          "bytes": 528192,
+          "provider": "azure"
+        }
+      },
+      "mna_s10_guerrero_jalisco": {
+        "corto": {
+          "hash": "77e987016c5a33bc",
+          "file": "en/mna_s10_guerrero_jalisco_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 246960,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "246fc9d3fb703687",
+          "file": "en/mna_s10_guerrero_jalisco_largo.mp3",
+          "remote": true,
+          "seconds": 84,
+          "bytes": 503568,
+          "provider": "azure"
+        }
+      },
+      "mna_s10_mujer_chupicuaro": {
+        "corto": {
+          "hash": "2ddcf9d2a7fa55f0",
+          "file": "en/mna_s10_mujer_chupicuaro_corto.mp3",
+          "remote": true,
+          "seconds": 52,
+          "bytes": 313632,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6e9cb8e37592f15d",
+          "file": "en/mna_s10_mujer_chupicuaro_largo.mp3",
+          "remote": true,
+          "seconds": 103,
+          "bytes": 618336,
+          "provider": "azure"
+        }
+      },
+      "mna_s10_pareja_ixtlan": {
+        "corto": {
+          "hash": "27703af899cbe938",
+          "file": "en/mna_s10_pareja_ixtlan_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 289440,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5f7810f978e24490",
+          "file": "en/mna_s10_pareja_ixtlan_largo.mp3",
+          "remote": true,
+          "seconds": 87,
+          "bytes": 519984,
+          "provider": "azure"
+        }
+      },
+      "mna_s10_perros_colima": {
+        "corto": {
+          "hash": "70430489e27d7948",
+          "file": "en/mna_s10_perros_colima_corto.mp3",
+          "remote": false,
+          "seconds": 50,
+          "bytes": 297216,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0643deb3d7ed6fec",
+          "file": "en/mna_s10_perros_colima_largo.mp3",
+          "remote": false,
+          "seconds": 106,
+          "bytes": 633456,
+          "provider": "azure"
+        }
+      },
+      "mna_s10_tumba_tiro": {
+        "corto": {
+          "hash": "3fa85ad087264f36",
+          "file": "en/mna_s10_tumba_tiro_corto.mp3",
+          "remote": true,
+          "seconds": 54,
+          "bytes": 322128,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8dfce4f4f6bd0181",
+          "file": "en/mna_s10_tumba_tiro_largo.mp3",
+          "remote": true,
+          "seconds": 103,
+          "bytes": 615312,
+          "provider": "azure"
+        }
+      },
+      "mna_s10_vasija_capacha": {
+        "corto": {
+          "hash": "4703c866993f89b9",
+          "file": "en/mna_s10_vasija_capacha_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 282240,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f9f45275177f4ce1",
+          "file": "en/mna_s10_vasija_capacha_largo.mp3",
+          "remote": true,
+          "seconds": 85,
+          "bytes": 510912,
+          "provider": "azure"
+        }
+      },
+      "mna_s10_yacata_tzintzuntzan": {
+        "corto": {
+          "hash": "97e53dd1b53467d9",
+          "file": "en/mna_s10_yacata_tzintzuntzan_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 253296,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c5b5929204af5a33",
+          "file": "en/mna_s10_yacata_tzintzuntzan_largo.mp3",
+          "remote": true,
+          "seconds": 73,
+          "bytes": 439920,
+          "provider": "azure"
+        }
+      },
+      "mna_s11_efigie_paquime": {
+        "corto": {
+          "hash": "12fecd40e601e93f",
+          "file": "en/mna_s11_efigie_paquime_corto.mp3",
+          "remote": true,
+          "seconds": 49,
+          "bytes": 295776,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2a36c467e52ae6f1",
+          "file": "en/mna_s11_efigie_paquime_largo.mp3",
+          "remote": true,
+          "seconds": 91,
+          "bytes": 544608,
+          "provider": "azure"
+        }
+      },
+      "mna_s11_fardo_candelaria": {
+        "corto": {
+          "hash": "f8006b0cd1d5cb89",
+          "file": "en/mna_s11_fardo_candelaria_corto.mp3",
+          "remote": true,
+          "seconds": 49,
+          "bytes": 295200,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "52ff4390f902f3d7",
+          "file": "en/mna_s11_fardo_candelaria_largo.mp3",
+          "remote": true,
+          "seconds": 95,
+          "bytes": 572976,
+          "provider": "azure"
+        }
+      },
+      "mna_s11_olla_paquime": {
+        "corto": {
+          "hash": "dc50507f1ef8af1d",
+          "file": "en/mna_s11_olla_paquime_corto.mp3",
+          "remote": false,
+          "seconds": 47,
+          "bytes": 284112,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e030665b581b3729",
+          "file": "en/mna_s11_olla_paquime_largo.mp3",
+          "remote": false,
+          "seconds": 86,
+          "bytes": 517392,
+          "provider": "azure"
+        }
+      },
+      "mna_s11_petroglifo_desierto": {
+        "corto": {
+          "hash": "75e32d7dd806d54d",
+          "file": "en/mna_s11_petroglifo_desierto_corto.mp3",
+          "remote": true,
+          "seconds": 49,
+          "bytes": 296784,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c77884c3215d5b95",
+          "file": "en/mna_s11_petroglifo_desierto_largo.mp3",
+          "remote": true,
+          "seconds": 90,
+          "bytes": 540864,
+          "provider": "azure"
+        }
+      },
+      "mna_s11_vaso_chalchihuites": {
+        "corto": {
+          "hash": "ae65f7738849954e",
+          "file": "en/mna_s11_vaso_chalchihuites_corto.mp3",
+          "remote": true,
+          "seconds": 52,
+          "bytes": 310464,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6196e0d9bcc59a85",
+          "file": "en/mna_s11_vaso_chalchihuites_largo.mp3",
+          "remote": true,
+          "seconds": 86,
+          "bytes": 517968,
+          "provider": "azure"
+        }
+      },
+      "mna_s12_acervo_textil": {
+        "corto": {
+          "hash": "2a0139d49315c72a",
+          "file": "en/mna_s12_acervo_textil_corto.mp3",
+          "remote": true,
+          "seconds": 68,
+          "bytes": 410688,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7a3f83e606a37a76",
+          "file": "en/mna_s12_acervo_textil_largo.mp3",
+          "remote": true,
+          "seconds": 147,
+          "bytes": 880272,
+          "provider": "azure"
+        }
+      },
+      "mna_s12_ciclo_milpa": {
+        "corto": {
+          "hash": "76f84eb3eb31f822",
+          "file": "en/mna_s12_ciclo_milpa_corto.mp3",
+          "remote": true,
+          "seconds": 66,
+          "bytes": 396576,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "db270e0b3eed9996",
+          "file": "en/mna_s12_ciclo_milpa_largo.mp3",
+          "remote": true,
+          "seconds": 179,
+          "bytes": 1071504,
+          "provider": "azure"
+        }
+      },
+      "mna_s12_mapa_lenguas": {
+        "corto": {
+          "hash": "a3039a4adad28644",
+          "file": "en/mna_s12_mapa_lenguas_corto.mp3",
+          "remote": false,
+          "seconds": 70,
+          "bytes": 421200,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b30234174921c263",
+          "file": "en/mna_s12_mapa_lenguas_largo.mp3",
+          "remote": false,
+          "seconds": 184,
+          "bytes": 1101312,
+          "provider": "azure"
+        }
+      },
+      "mna_s13_mascara_cora": {
+        "corto": {
+          "hash": "36e38f424f51dfdd",
+          "file": "en/mna_s13_mascara_cora_corto.mp3",
+          "remote": true,
+          "seconds": 71,
+          "bytes": 424800,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "51235d9303dbfb86",
+          "file": "en/mna_s13_mascara_cora_largo.mp3",
+          "remote": true,
+          "seconds": 166,
+          "bytes": 994752,
+          "provider": "azure"
+        }
+      },
+      "mna_s13_nierika_estambre": {
+        "corto": {
+          "hash": "7157cdfe052ff066",
+          "file": "en/mna_s13_nierika_estambre_corto.mp3",
+          "remote": false,
+          "seconds": 66,
+          "bytes": 397296,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "12f6c60684cf46ce",
+          "file": "en/mna_s13_nierika_estambre_largo.mp3",
+          "remote": false,
+          "seconds": 172,
+          "bytes": 1029024,
+          "provider": "azure"
+        }
+      },
+      "mna_s13_traje_wixarika": {
+        "corto": {
+          "hash": "45d1f8ffb9f406d4",
+          "file": "en/mna_s13_traje_wixarika_corto.mp3",
+          "remote": true,
+          "seconds": 63,
+          "bytes": 375840,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "db70cebcf1ebf906",
+          "file": "en/mna_s13_traje_wixarika_largo.mp3",
+          "remote": true,
+          "seconds": 167,
+          "bytes": 1001232,
+          "provider": "azure"
+        }
+      },
+      "mna_s14_cobre_martillado": {
+        "corto": {
+          "hash": "36b067f7b84b74eb",
+          "file": "en/mna_s14_cobre_martillado_corto.mp3",
+          "remote": true,
+          "seconds": 66,
+          "bytes": 395568,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0cf03aa830d85f57",
+          "file": "en/mna_s14_cobre_martillado_largo.mp3",
+          "remote": true,
+          "seconds": 148,
+          "bytes": 886320,
+          "provider": "azure"
+        }
+      },
+      "mna_s14_mascara_viejitos": {
+        "corto": {
+          "hash": "a07b6cc5d661560f",
+          "file": "en/mna_s14_mascara_viejitos_corto.mp3",
+          "remote": false,
+          "seconds": 66,
+          "bytes": 398016,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a00a542474296849",
+          "file": "en/mna_s14_mascara_viejitos_largo.mp3",
+          "remote": false,
+          "seconds": 153,
+          "bytes": 917568,
+          "provider": "azure"
+        }
+      },
+      "mna_s14_rebozo_patakua": {
+        "corto": {
+          "hash": "96a55aa43d0c0aa8",
+          "file": "en/mna_s14_rebozo_patakua_corto.mp3",
+          "remote": true,
+          "seconds": 69,
+          "bytes": 416016,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bf1968924db8e462",
+          "file": "en/mna_s14_rebozo_patakua_largo.mp3",
+          "remote": true,
+          "seconds": 149,
+          "bytes": 896256,
+          "provider": "azure"
+        }
+      },
+      "mna_s14_troje_purepecha": {
+        "corto": {
+          "hash": "8dc65a140520f51f",
+          "file": "en/mna_s14_troje_purepecha_corto.mp3",
+          "remote": true,
+          "seconds": 63,
+          "bytes": 375840,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "10b8895030bf0d0c",
+          "file": "en/mna_s14_troje_purepecha_largo.mp3",
+          "remote": true,
+          "seconds": 163,
+          "bytes": 976608,
+          "provider": "azure"
+        }
+      },
+      "mna_s15_cesteria_ixtle": {
+        "corto": {
+          "hash": "41dd376fb1b4ea06",
+          "file": "en/mna_s15_cesteria_ixtle_corto.mp3",
+          "remote": true,
+          "seconds": 67,
+          "bytes": 402048,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7cd87b7c13895627",
+          "file": "en/mna_s15_cesteria_ixtle_largo.mp3",
+          "remote": true,
+          "seconds": 148,
+          "bytes": 889920,
+          "provider": "azure"
+        }
+      },
+      "mna_s15_oratorio_familiar": {
+        "corto": {
+          "hash": "4d5da1e9ab1b0b02",
+          "file": "en/mna_s15_oratorio_familiar_corto.mp3",
+          "remote": true,
+          "seconds": 64,
+          "bytes": 385344,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "30266c2f6035da41",
+          "file": "en/mna_s15_oratorio_familiar_largo.mp3",
+          "remote": true,
+          "seconds": 159,
+          "bytes": 953712,
+          "provider": "azure"
+        }
+      },
+      "mna_s15_quechquemitl_otomi": {
+        "corto": {
+          "hash": "bace2c4da02f07a1",
+          "file": "en/mna_s15_quechquemitl_otomi_corto.mp3",
+          "remote": false,
+          "seconds": 67,
+          "bytes": 401328,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f5b153cd3a7a1ef4",
+          "file": "en/mna_s15_quechquemitl_otomi_largo.mp3",
+          "remote": false,
+          "seconds": 155,
+          "bytes": 930816,
+          "provider": "azure"
+        }
+      },
+      "mna_s15_traje_mazahua": {
+        "corto": {
+          "hash": "fe0bad617bbf197a",
+          "file": "en/mna_s15_traje_mazahua_corto.mp3",
+          "remote": true,
+          "seconds": 65,
+          "bytes": 389088,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a09157b09aa261ab",
+          "file": "en/mna_s15_traje_mazahua_largo.mp3",
+          "remote": true,
+          "seconds": 152,
+          "bytes": 912384,
+          "provider": "azure"
+        }
+      },
+      "mna_s16_corona_quetzales": {
+        "corto": {
+          "hash": "35aef0f56cee8667",
+          "file": "en/mna_s16_corona_quetzales_corto.mp3",
+          "remote": false,
+          "seconds": 64,
+          "bytes": 381024,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3354661d689b1129",
+          "file": "en/mna_s16_corona_quetzales_largo.mp3",
+          "remote": false,
+          "seconds": 154,
+          "bytes": 926928,
+          "provider": "azure"
+        }
+      },
+      "mna_s16_huipil_cuetzalan": {
+        "corto": {
+          "hash": "134f42c37b21adf0",
+          "file": "en/mna_s16_huipil_cuetzalan_corto.mp3",
+          "remote": true,
+          "seconds": 65,
+          "bytes": 392976,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f15336a9cb73758f",
+          "file": "en/mna_s16_huipil_cuetzalan_largo.mp3",
+          "remote": true,
+          "seconds": 154,
+          "bytes": 924480,
+          "provider": "azure"
+        }
+      },
+      "mna_s16_papel_amate_sanpablito": {
+        "corto": {
+          "hash": "4f0128bfe9faeb02",
+          "file": "en/mna_s16_papel_amate_sanpablito_corto.mp3",
+          "remote": true,
+          "seconds": 68,
+          "bytes": 409536,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f144630f04d9bd1d",
+          "file": "en/mna_s16_papel_amate_sanpablito_largo.mp3",
+          "remote": true,
+          "seconds": 163,
+          "bytes": 978912,
+          "provider": "azure"
+        }
+      },
+      "mna_s16_traje_volador": {
+        "corto": {
+          "hash": "4cf64902605eed12",
+          "file": "en/mna_s16_traje_volador_corto.mp3",
+          "remote": true,
+          "seconds": 64,
+          "bytes": 386064,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "28cec73ffa83d0b0",
+          "file": "en/mna_s16_traje_volador_largo.mp3",
+          "remote": true,
+          "seconds": 152,
+          "bytes": 912816,
+          "provider": "azure"
+        }
+      },
+      "mna_s17_barro_negro": {
+        "corto": {
+          "hash": "eb4cb1fd275e4470",
+          "file": "en/mna_s17_barro_negro_corto.mp3",
+          "remote": true,
+          "seconds": 71,
+          "bytes": 425520,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dbe7a3a6376f0234",
+          "file": "en/mna_s17_barro_negro_largo.mp3",
+          "remote": true,
+          "seconds": 149,
+          "bytes": 895680,
+          "provider": "azure"
+        }
+      },
+      "mna_s17_huipil_triqui": {
+        "corto": {
+          "hash": "579d9585b9727095",
+          "file": "en/mna_s17_huipil_triqui_corto.mp3",
+          "remote": true,
+          "seconds": 63,
+          "bytes": 379872,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c0827ad925493f7e",
+          "file": "en/mna_s17_huipil_triqui_largo.mp3",
+          "remote": true,
+          "seconds": 149,
+          "bytes": 892944,
+          "provider": "azure"
+        }
+      },
+      "mna_s17_mascara_diablos_costa": {
+        "corto": {
+          "hash": "abec74264dc8d454",
+          "file": "en/mna_s17_mascara_diablos_costa_corto.mp3",
+          "remote": true,
+          "seconds": 60,
+          "bytes": 362880,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "693bb02a68bc6172",
+          "file": "en/mna_s17_mascara_diablos_costa_largo.mp3",
+          "remote": true,
+          "seconds": 153,
+          "bytes": 917280,
+          "provider": "azure"
+        }
+      },
+      "mna_s17_traje_tehuana": {
+        "corto": {
+          "hash": "dbdf755706f8eebc",
+          "file": "en/mna_s17_traje_tehuana_corto.mp3",
+          "remote": false,
+          "seconds": 63,
+          "bytes": 379440,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f16658ecf7f7488b",
+          "file": "en/mna_s17_traje_tehuana_largo.mp3",
+          "remote": false,
+          "seconds": 154,
+          "bytes": 921312,
+          "provider": "azure"
+        }
+      },
+      "mna_s18_altar_xantolo": {
+        "corto": {
+          "hash": "7b9294a77d977645",
+          "file": "en/mna_s18_altar_xantolo_corto.mp3",
+          "remote": true,
+          "seconds": 67,
+          "bytes": 402624,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4f45665f8146e677",
+          "file": "en/mna_s18_altar_xantolo_largo.mp3",
+          "remote": true,
+          "seconds": 159,
+          "bytes": 954000,
+          "provider": "azure"
+        }
+      },
+      "mna_s18_dhubem_huasteco": {
+        "corto": {
+          "hash": "3cd6051a48c63cdc",
+          "file": "en/mna_s18_dhubem_huasteco_corto.mp3",
+          "remote": false,
+          "seconds": 61,
+          "bytes": 365904,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1f1a4eb9fbe028c9",
+          "file": "en/mna_s18_dhubem_huasteco_largo.mp3",
+          "remote": false,
+          "seconds": 154,
+          "bytes": 924480,
+          "provider": "azure"
+        }
+      },
+      "mna_s18_mascara_negritos": {
+        "corto": {
+          "hash": "fe0bcaaa1ceb63b4",
+          "file": "en/mna_s18_mascara_negritos_corto.mp3",
+          "remote": true,
+          "seconds": 67,
+          "bytes": 401040,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a7e80682fd665ccf",
+          "file": "en/mna_s18_mascara_negritos_largo.mp3",
+          "remote": true,
+          "seconds": 151,
+          "bytes": 904896,
+          "provider": "azure"
+        }
+      },
+      "mna_s18_traje_papantla": {
+        "corto": {
+          "hash": "167d8b123dc9a444",
+          "file": "en/mna_s18_traje_papantla_corto.mp3",
+          "remote": true,
+          "seconds": 66,
+          "bytes": 398016,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5bf6b9157e22042e",
+          "file": "en/mna_s18_traje_papantla_largo.mp3",
+          "remote": true,
+          "seconds": 146,
+          "bytes": 875952,
+          "provider": "azure"
+        }
+      },
+      "mna_s19_gaban_chamula": {
+        "corto": {
+          "hash": "9baef60e7d597dcc",
+          "file": "en/mna_s19_gaban_chamula_corto.mp3",
+          "remote": false,
+          "seconds": 60,
+          "bytes": 362736,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7effcc408a195cce",
+          "file": "en/mna_s19_gaban_chamula_largo.mp3",
+          "remote": false,
+          "seconds": 146,
+          "bytes": 876240,
+          "provider": "azure"
+        }
+      },
+      "mna_s19_incensario_lacandon": {
+        "corto": {
+          "hash": "823cdd923c837e8c",
+          "file": "en/mna_s19_incensario_lacandon_corto.mp3",
+          "remote": true,
+          "seconds": 67,
+          "bytes": 401616,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d6f5c07377588437",
+          "file": "en/mna_s19_incensario_lacandon_largo.mp3",
+          "remote": true,
+          "seconds": 155,
+          "bytes": 928224,
+          "provider": "azure"
+        }
+      },
+      "mna_s19_solar_maya": {
+        "corto": {
+          "hash": "4271bdd4bc12603a",
+          "file": "en/mna_s19_solar_maya_corto.mp3",
+          "remote": true,
+          "seconds": 63,
+          "bytes": 379584,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "48ac485ac46aa3eb",
+          "file": "en/mna_s19_solar_maya_largo.mp3",
+          "remote": true,
+          "seconds": 149,
+          "bytes": 891648,
+          "provider": "azure"
+        }
+      },
+      "mna_s19_terno_yucateco": {
+        "corto": {
+          "hash": "e9f7646c6e3eca26",
+          "file": "en/mna_s19_terno_yucateco_corto.mp3",
+          "remote": true,
+          "seconds": 66,
+          "bytes": 398160,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dea514e837bbbdcc",
+          "file": "en/mna_s19_terno_yucateco_largo.mp3",
+          "remote": true,
+          "seconds": 155,
+          "bytes": 932256,
+          "provider": "azure"
+        }
+      },
+      "mna_s20_corita_seri": {
+        "corto": {
+          "hash": "6b86204f563f40b0",
+          "file": "en/mna_s20_corita_seri_corto.mp3",
+          "remote": true,
+          "seconds": 67,
+          "bytes": 399888,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a46ca48fef55036d",
+          "file": "en/mna_s20_corita_seri_largo.mp3",
+          "remote": true,
+          "seconds": 152,
+          "bytes": 912528,
+          "provider": "azure"
+        }
+      },
+      "mna_s20_mascara_chapayeka": {
+        "corto": {
+          "hash": "b172b6019a4a9048",
+          "file": "en/mna_s20_mascara_chapayeka_corto.mp3",
+          "remote": false,
+          "seconds": 64,
+          "bytes": 381168,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "776ee81ef0a0bb59",
+          "file": "en/mna_s20_mascara_chapayeka_largo.mp3",
+          "remote": false,
+          "seconds": 157,
+          "bytes": 943488,
+          "provider": "azure"
+        }
+      },
+      "mna_s20_palo_fierro": {
+        "corto": {
+          "hash": "1fad37aa2df90804",
+          "file": "en/mna_s20_palo_fierro_corto.mp3",
+          "remote": true,
+          "seconds": 61,
+          "bytes": 365184,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "376e841b976e2c5f",
+          "file": "en/mna_s20_palo_fierro_largo.mp3",
+          "remote": true,
+          "seconds": 140,
+          "bytes": 837216,
+          "provider": "azure"
+        }
+      },
+      "mna_s20_violin_raramuri": {
+        "corto": {
+          "hash": "4cad334d484ea93a",
+          "file": "en/mna_s20_violin_raramuri_corto.mp3",
+          "remote": true,
+          "seconds": 67,
+          "bytes": 403632,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b1534f387aefe99f",
+          "file": "en/mna_s20_violin_raramuri_largo.mp3",
+          "remote": true,
+          "seconds": 153,
+          "bytes": 915552,
+          "provider": "azure"
+        }
+      },
+      "mna_s21_altar_tlamanaliztli": {
+        "corto": {
+          "hash": "008c1f7a3a352f71",
+          "file": "en/mna_s21_altar_tlamanaliztli_corto.mp3",
+          "remote": true,
+          "seconds": 71,
+          "bytes": 427536,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "104cc0899652bc7e",
+          "file": "en/mna_s21_altar_tlamanaliztli_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1008000,
+          "provider": "azure"
+        }
+      },
+      "mna_s21_huipil_nahua": {
+        "corto": {
+          "hash": "73394ecd1e14f5bf",
+          "file": "en/mna_s21_huipil_nahua_corto.mp3",
+          "remote": true,
+          "seconds": 67,
+          "bytes": 403488,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a0fa4d69efa71b47",
+          "file": "en/mna_s21_huipil_nahua_largo.mp3",
+          "remote": true,
+          "seconds": 153,
+          "bytes": 920448,
+          "provider": "azure"
+        }
+      },
+      "mna_s21_pintura_xalitla": {
+        "corto": {
+          "hash": "0c99b1b24eddfd16",
+          "file": "en/mna_s21_pintura_xalitla_corto.mp3",
+          "remote": true,
+          "seconds": 63,
+          "bytes": 380304,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9d9b777708d14279",
+          "file": "en/mna_s21_pintura_xalitla_largo.mp3",
+          "remote": true,
+          "seconds": 151,
+          "bytes": 905040,
           "provider": "azure"
         }
       }
