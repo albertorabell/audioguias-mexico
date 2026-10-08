@@ -211,3 +211,21 @@ test('el nombre de voz copiado del archivo (con "-") se corrige al nombre real c
   assert.equal(fixVoiceName('es-MX-JorgeMultilingualNeural'), 'es-MX-JorgeMultilingualNeural');
   assert.deepEqual(parseArgs(['--voces', 'en-US-Adam-DragonHDLatestNeural,en-US-JennyNeural']).voces, ['en-US-Adam:DragonHDLatestNeural', 'en-US-JennyNeural']);
 });
+
+test('la prueba de pronunciación en inglés usa una frase en inglés (no en español)', async () => {
+  const dir = tmpProject();
+  const bodies = [];
+  const voices = [{ ShortName: 'en-US-JennyNeural', Gender: 'Female', Locale: 'en-US', Status: 'GA' }];
+  const fetchImpl = async (url, opts) => {
+    if (url.endsWith('/voices/list')) return { ok: true, json: async () => voices };
+    bodies.push(opts.body);
+    return { ok: true, arrayBuffer: async () => new Uint8Array([1]).buffer };
+  };
+  await main(['--lang', 'en', '--pronunciar', 'Tonatiuh', '--variantes', 'alias:toh-nah-TEE-oo', '--generar'], { root: dir, env: ENV, fetchImpl, ...quiet });
+  assert.equal(bodies.length, 2);
+  for (const b of bodies) {
+    assert.match(b, /watches over the whole valley/);
+    assert.doesNotMatch(b, /fundaron/);
+  }
+  assert.match(bodies[1], /toh-nah-TEE-oo/);
+});
