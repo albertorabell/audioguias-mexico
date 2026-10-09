@@ -35,6 +35,10 @@ on:
         description: 'Solo mover en R2 los audios de piezas que cambiaron de gratis a pago (o al revés). No genera ni gasta voz'
         type: boolean
         default: false
+      borrar_todo:
+        description: 'PELIGRO: borra de R2 TODOS los MP3 y vacía la lista (manifiesto). Úsalo cuando los textos cambiaron y las voces viejas ya no corresponden. No gasta voz; para volver a tener voz hay que regenerar'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -57,6 +61,7 @@ jobs:
         env:
           GENERAR: ${{ inputs.generar }}
           REUBICAR: ${{ inputs.reubicar }}
+          BORRAR: ${{ inputs.borrar_todo }}
           PROVEEDOR: ${{ inputs.proveedor }}
           PIEZAS: ${{ inputs.piezas }}
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
@@ -65,7 +70,7 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          if [ "$GENERAR" != "true" ] && [ "$REUBICAR" != "true" ]; then exit 0; fi
+          if [ "$GENERAR" != "true" ] && [ "$REUBICAR" != "true" ] && [ "$BORRAR" != "true" ]; then exit 0; fi
           # Todo el audio vive en Cloudflare R2 (carpetas libre/ y pago/): sin esas claves no se puede guardar nada
           if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
             echo "::error::Los audios se guardan en Cloudflare R2: faltan los secretos CLOUDFLARE_API_TOKEN y CLOUDFLARE_ACCOUNT_ID (Settings > Secrets and variables > Actions). No se generó nada."; exit 1
@@ -82,6 +87,7 @@ jobs:
         run: node scripts/sync-sheets.js
 
       - name: Plan (o generación)
+        if: ${{ !inputs.borrar_todo }}
         env:
           IDIOMAS: ${{ inputs.idiomas }}
           PIEZAS: ${{ inputs.piezas }}
@@ -97,6 +103,14 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: bash scripts/correr-generar-audio.sh
 
+      # Botón "borrar_todo": quita de R2 todos los MP3 de la lista y deja la lista vacía (la app vuelve a la voz del teléfono)
+      - name: Borrar todos los audios de R2 y vaciar la lista
+        if: ${{ inputs.borrar_todo }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: node scripts/borrar-audios.mjs
+
       # Se sube aunque la generación se haya cortado a medias: lo que sí se generó ya se pagó y no debe perderse
       - name: Subir los audios a Cloudflare R2 (libre/ y pago/)
         if: ${{ !cancelled() && inputs.generar }}
@@ -106,7 +120,7 @@ jobs:
         run: node scripts/subir-audio.mjs
 
       - name: Guardar la lista de audios (manifiesto) en el repositorio
-        if: ${{ !cancelled() && (inputs.generar || inputs.reubicar) }}
+        if: ${{ !cancelled() && (inputs.generar || inputs.reubicar || inputs.borrar_todo) }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -122,7 +136,7 @@ jobs:
           fi
 
       - name: Publicar el sitio con los audios nuevos (solo si se corrió en main)
-        if: ${{ !cancelled() && (inputs.generar || inputs.reubicar) && github.ref_name == 'main' }}
+        if: ${{ !cancelled() && (inputs.generar || inputs.reubicar || inputs.borrar_todo) && github.ref_name == 'main' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run deploy.yml --ref main

@@ -238,3 +238,47 @@ test('la voz por defecto de Azure es la misma (Jorge Multilingual) en todos los 
   const { PROVIDERS } = await import('../generar-audio.mjs');
   for (const l of ['es', 'en', 'fr', 'pl', 'ru', 'ja']) assert.equal(PROVIDERS.azure.voiceFor(l), 'es-MX-JorgeMultilingualNeural', l);
 });
+
+test('borrar audios: borra de R2 todo lo que lista el manifiesto y lo deja vacío', async () => {
+  const { main, keysFromManifest } = await import('../borrar-audios.mjs');
+  const dir = tmpProject();
+  run(dir, '--proveedor', 'prueba', '--generar');
+  const keys = keysFromManifest(readManifest(dir)).map((k) => k.key).sort();
+  assert.deepEqual(keys, ['libre/es/a_gratis_corto.mp3', 'libre/es/a_gratis_largo.mp3', 'pago/es/b_pago_corto.mp3', 'pago/es/b_pago_largo.mp3']);
+  // En simulación no toca nada
+  const sim = await main({ root: dir, simular: true, log() {} });
+  assert.equal(sim.simulado, 4);
+  assert.equal(keysFromManifest(readManifest(dir)).length, 4);
+  // De verdad: uno "ya no existía" (cuenta como borrado), el resto se borra
+  const borradas = [];
+  const r2 = {
+    del: async (key) => {
+      if (key === 'pago/es/b_pago_corto.mp3') throw new Error('The specified key does not exist. [code: 10007]');
+      borradas.push(key);
+    },
+  };
+  const res = await main({ root: dir, r2, log() {}, concurrencia: 2 });
+  assert.equal(res.borrados, 3);
+  assert.equal(res.yaNoEstaban, 1);
+  assert.deepEqual(readManifest(dir), { version: 1, items: {} });
+  // Con el manifiesto vacío ya no hay nada que hacer
+  assert.equal((await main({ root: dir, r2, log() {} })).borrados, 0);
+});
+
+test('borrar audios: lo que no se pudo borrar se queda en el manifiesto y el botón avisa; sin claves de Cloudflare no borra nada', async () => {
+  const { main, keysFromManifest } = await import('../borrar-audios.mjs');
+  const dir = tmpProject();
+  run(dir, '--proveedor', 'prueba', '--generar');
+  const r2 = { del: async (key) => { if (key === 'pago/es/b_pago_largo.mp3') throw new Error('boom: sin permiso'); } };
+  await assert.rejects(main({ root: dir, r2, log() {} }), /No se pudieron borrar 1/);
+  assert.deepEqual(keysFromManifest(readManifest(dir)).map((k) => k.key), ['pago/es/b_pago_largo.mp3']);
+  const saved = { ...process.env };
+  delete process.env.CLOUDFLARE_API_TOKEN;
+  delete process.env.CLOUDFLARE_ACCOUNT_ID;
+  try {
+    await assert.rejects(main({ root: dir, log() {} }), /Faltan CLOUDFLARE_API_TOKEN/);
+  } finally {
+    Object.assign(process.env, saved);
+  }
+  assert.equal(keysFromManifest(readManifest(dir)).length, 1);
+});
