@@ -130,6 +130,7 @@ Referencia que usé (precios aproximados; **confírmalos en la página del prove
 5. **Tercera vez, todo lo gratis:** límite vacío, piezas `gratis`.
 6. **Después, las de pago:** piezas `premium`.
 7. **Si cambias qué piezas son gratis:** corre el botón con «reubicar» marcada (sin generar). Mueve los MP3 entre `libre/` y `pago/` en R2. Gratis.
+8. **Si reescribes los textos y las voces viejas ya no corresponden:** corre el botón con «borrar_todo» marcada (nada más). Borra de R2 todos los MP3 de la lista, deja el manifiesto vacío y vuelve a publicar el sitio; mientras no haya audios nuevos la app usa la voz del teléfono. No gasta voz, pero **no se puede deshacer**: para volver a tener voz hay que regenerar (paso 2 en adelante). Si algún archivo no se pudo borrar, el botón avisa y esa entrada se queda en la lista; vuelve a correrlo.
 
 Como TODO el audio se guarda en R2, la Parte C (Cloudflare) debe estar hecha desde la primera vez. El botón se niega a empezar si faltan las claves de Cloudflare, para no gastar en audios que luego no se puedan guardar.
 
