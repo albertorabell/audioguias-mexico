@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { ChevronRight, SlidersHorizontal, Map as MapIcon } from 'lucide-react';
+import { ChevronRight, SlidersHorizontal, Map as MapIcon, CircleHelp } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, Room, PieceData } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
 import { getRoomShortLabel } from '../utils/roomLabel';
@@ -8,6 +8,7 @@ import { TopBar } from './ui/TopBar';
 import { LanguageMenu, PassButton } from './ui/HeaderControls';
 import { PieceImage } from './PieceImage';
 import { OfflineTourBanner } from './OfflineTourBanner';
+import { IntroTour, introSeen } from './IntroTour';
 
 export interface ContinueInfo {
   eyebrow: string;
@@ -61,6 +62,8 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
 }) => {
   const { strings } = useLanguage();
   const u = strings.ui;
+  // La introducción se abre sola la primera vez que se entra al museo
+  const [introOpen, setIntroOpen] = useState<boolean>(() => !introSeen());
 
   const pieceById = useMemo(() => new Map(pieces.map((p) => [p.piece_id, p])), [pieces]);
   const piecesByRoom = useMemo(() => {
@@ -111,6 +114,15 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
         <section className="px-5 pt-5 pb-6">
           <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{site.name}</h1>
           <p className="mt-2 text-ui text-ink-3">{site.location}</p>
+          <button
+            type="button"
+            id="btn-open-intro"
+            onClick={() => setIntroOpen(true)}
+            className="mt-3 -ml-2 h-10 px-2 inline-flex items-center gap-1.5 text-ui font-semibold text-jade cursor-pointer rounded-full active:bg-raised"
+          >
+            <CircleHelp className="w-4 h-4" strokeWidth={2} />
+            {strings.intro.openLabel}
+          </button>
         </section>
 
         {continueInfo && (
@@ -247,6 +259,8 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
           <OfflineTourBanner pieces={pieces} audioPieces={audioPieces} />
         </section>
       </main>
+
+      <IntroTour open={introOpen} onClose={() => setIntroOpen(false)} onConfigureRoute={onOpenWizard} />
     </div>
   );
 };

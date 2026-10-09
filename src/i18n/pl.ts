@@ -406,4 +406,22 @@ export const PL_GROUPS: Record<string, any> = {
       noResultsHint: 'Spróbuj innego słowa, numeru sali lub kultury, np. „Majowie”.',
     },
   },
+  intro: {
+    openLabel: 'Jak to działa?',
+    dialogAria: 'Jak korzystać z przewodnika',
+    next: 'Dalej',
+    skip: 'Pomiń',
+    close: 'Zamknij',
+    stepOf: (n: number, total: number) => `Krok ${n} z ${total}`,
+    steps: [
+      { title: 'Witaj w kieszonkowym przewodniku', text: 'Stań przed dziełem, otwórz je i posłuchaj jego historii. Oto jak poruszać się po aplikacji w 30 sekund.' },
+      { title: 'Wybierz, od czego zacząć', text: 'Możesz wybrać gotową trasę albo otworzyć sale, piętro po piętrze. Każda sala pokazuje dzieła w kolejności zwiedzania.' },
+      { title: 'Słuchaj albo czytaj', text: 'Przy każdym dziele dotknij „Słuchaj”. Jest wersja krótka i pełna, a tekst można też przeczytać. Podkreślone nazwy otwierają inne dzieło bez utraty miejsca.' },
+      { title: 'Cztery zakładki na dole', text: 'Zawsze pod ręką, aby zmienić sekcję.' },
+      { title: 'Korzystaj bez internetu', text: 'W salach zasięg bywa słaby. Na dole ekranu muzeum możesz pobrać wszystko przed wejściem.' },
+      { title: 'Ułóż własną trasę', text: 'Powiedz, ile masz czasu i co Cię interesuje, a ułożymy trasę.' },
+    ],
+    configureRoute: 'Ułóż moją trasę',
+    explore: 'Zwiedzam sam',
+  },
 };
