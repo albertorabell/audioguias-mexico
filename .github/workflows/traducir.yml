@@ -74,7 +74,7 @@ jobs:
           fi
 
       - name: Traer los textos más recientes del Google Sheets
-        run: node scripts/sync-sheets.js
+        run: node scripts/ci-run.mjs "sync-sheets" -- node scripts/sync-sheets.js
 
       - name: Plan (o traducción, o envío del lote)
         if: ${{ inputs.modo != 'lote-recoger' }}
@@ -94,7 +94,7 @@ jobs:
           if [ "$MODO" = "lote-enviar" ]; then args+=(--lote enviar); fi
           if [ "$GENERAR" = "true" ]; then args+=(--generar); fi
           set +e
-          node scripts/traducir.mjs "${args[@]}" 2>&1 | tee traduccion.log
+          node scripts/ci-run.mjs "traducir" -- node scripts/traducir.mjs "${args[@]}" 2>&1 | tee traduccion.log
           CODIGO=${PIPESTATUS[0]}
           set -e
           {
