@@ -82,7 +82,7 @@ export async function simularCobro(page, opciones = {}) {
  * Agrega MP3 de mentira a dos piezas (una gratis y una de pago) sin tocar los archivos del proyecto,
  * y registra cada archivo que la app intenta reproducir en window.__plays.
  */
-export async function simularAudio(page, { privado = false } = {}) {
+export async function simularAudio(page, { privado = false, mp3 = true } = {}) {
   await page.addInitScript(() => {
     window.__plays = [];
     const original = HTMLMediaElement.prototype.play;
@@ -96,7 +96,7 @@ export async function simularAudio(page, { privado = false } = {}) {
     let pieces = await response.json();
     // privado = como en el sitio real: los datos públicos NO traen guiones, retos, mito ni ficha
     if (privado) pieces = pieces.map((p) => splitPiece(p).pub);
-    for (const p of pieces) {
+    for (const p of mp3 ? pieces : []) {
       if (p.piece_id === FREE.id) {
         p.audio = { es: { corto: { path: `libre/es/${FREE.id}_corto.mp3`, premium: false, seconds: 2 }, largo: { path: `libre/es/${FREE.id}_largo.mp3`, premium: false, seconds: 2 } } };
       }
@@ -127,4 +127,56 @@ export async function abrirPieza(page, titulo) {
   await page.locator('#input-search-pieces').fill(titulo);
   await page.locator('[role=button]', { has: page.getByText(titulo, { exact: true }) }).first().click();
   await expect(page.locator('#btn-master-play-piece')).toBeVisible();
+}
+
+/**
+ * Voz de mentira en español: guarda en window.__spoken cada frase que la app manda a leer (así se puede comprobar qué se dice)
+ * y termina cada frase enseguida.
+ */
+export async function conVozFalsa(page) {
+  await page.addInitScript(() => {
+    window.__spoken = [];
+    const voz = { name: 'Voz de prueba', lang: 'es-MX', localService: true, default: true, voiceURI: 'prueba' };
+    window.SpeechSynthesisUtterance = class {
+      constructor(text) {
+        this.text = text;
+      }
+    };
+    const falsa = {
+      speaking: false,
+      paused: false,
+      pending: false,
+      onvoiceschanged: null,
+      getVoices: () => [voz],
+      addEventListener: () => {},
+      removeEventListener: () => {},
+      cancel: () => {},
+      pause: () => {},
+      resume: () => {},
+      speak: (u) => {
+        window.__spoken.push(u.text);
+        setTimeout(() => u.onend && u.onend({}), 5);
+      },
+    };
+    Object.defineProperty(window, 'speechSynthesis', { value: falsa, configurable: true });
+  });
+}
+
+/** Ids que usan las pruebas de enlaces entre piezas. */
+export const ENLACE_A = PREMIUM; // Coatlicue
+export const ENLACE_ROTO = 'mna_s99_no_existe';
+
+/**
+ * Cambia lo que entrega el servidor de textos: al final del texto corto y del largo de la pieza FREE agrega dos enlaces,
+ * uno a una pieza que existe y otro a una que no. Se llama DESPUÉS de simularCobro (la última ruta registrada manda).
+ */
+export async function conEnlaces(page) {
+  await page.route('https://pagos.test/texto/es.json**', async (route) => {
+    const data = JSON.parse(JSON.stringify(TEXTOS.es));
+    const p = data.pieces[FREE.id];
+    const extra = `\n\nMira también a [la Coatlicue](${ENLACE_A.id}) y a [una pieza que no existe](${ENLACE_ROTO}).`;
+    p.guion_corto += extra;
+    p.guion_largo += extra;
+    await route.fulfill({ status: 200, headers: { ...CORS, 'content-type': 'application/json' }, body: JSON.stringify(data) });
+  });
 }

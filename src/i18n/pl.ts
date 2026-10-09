@@ -371,6 +371,10 @@ export const PL_GROUPS: Record<string, any> = {
       textLoading: 'Ładowanie objaśnienia…',
       textError: 'Nie udało się załadować objaśnienia. Sprawdź internet i spróbuj ponownie.',
       retry: 'Spróbuj ponownie',
+      linkedPiece: 'Powiązane dzieło',
+      peekOpen: 'Zobacz całe dzieło',
+      peekClose: 'Zamknij i czytaj dalej',
+      peekBack: 'Wstecz',
     },
     routes: {
       title: 'Trasy',

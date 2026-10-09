@@ -2,6 +2,7 @@
 // Piezas comunes del sistema de audio MP3: qué texto se lee y cómo saber si un MP3
 // quedó desactualizado (porque el texto cambió en el Sheets después de generarlo).
 import crypto from 'node:crypto';
+import { stripLinks } from '../src/utils/pieceLinks.js';
 
 export const MODES = ['corto', 'largo'];
 export const AUDIO_LANGS = ['es', 'en', 'fr', 'pl', 'ru', 'ja'];
@@ -10,7 +11,8 @@ export const AUDIO_LANGS = ['es', 'en', 'fr', 'pl', 'ru', 'ja'];
 export function scriptFor(piece, lang, mode) {
   const key = mode === 'corto' ? 'guion_corto' : 'guion_largo';
   const raw = lang === 'es' ? piece[key] : piece[`${key}_${lang}`];
-  return String(raw || '').replace(/\s+/g, ' ').trim();
+  // Los enlaces entre piezas ([texto](piece_id)) no se leen: solo cuenta el texto visible
+  return stripLinks(raw || '').replace(/\s+/g, ' ').trim();
 }
 
 /** Huella corta del texto. Si el texto cambia, la huella cambia y el MP3 deja de valer. */

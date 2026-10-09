@@ -1,6 +1,6 @@
 // Pruebas de la app con el cobro ENCENDIDO (servidor de cobro simulado en https://pagos.test).
 import { test, expect } from '@playwright/test';
-import { FREE, PREMIUM, SESSION, TOKEN, FRASE_SECRETA, aislar, simularCobro, simularAudio, sinVoces, elegirIdioma, abrirPieza } from './ayudas.mjs';
+import { FREE, PREMIUM, SESSION, TOKEN, FRASE_SECRETA, ENLACE_A, ENLACE_ROTO, aislar, simularCobro, simularAudio, sinVoces, conVozFalsa, conEnlaces, elegirIdioma, abrirPieza } from './ayudas.mjs';
 
 test.beforeEach(async ({ page }) => {
   await aislar(page);
@@ -354,4 +354,82 @@ test('textos de pago: sin internet, con pase, se usa la copia guardada en el tel
   await abrirPieza(page, FREE.title);
   await page.locator('#btn-mode-full').click();
   await expect(page.getByText(FRASE_SECRETA, { exact: false })).toBeVisible();
+});
+
+// ───────────────────────── Enlaces entre piezas ─────────────────────────
+
+/** Con pase, abre la ficha de la pieza FREE con dos enlaces al final del texto (uno válido y uno a una pieza que no existe). */
+async function abrirPiezaConEnlaces(page, { mp3 = true } = {}) {
+  await simularCobro(page);
+  await simularAudio(page, { privado: true, mp3 });
+  await conVozFalsa(page);
+  await conEnlaces(page);
+  await page.goto(`/?pago=ok&session_id=${SESSION}`);
+  await expect(page.getByTestId('payment-notice')).toContainText('Pago confirmado');
+  await abrirPieza(page, FREE.title);
+  const enlace = page.locator('button.piece-link');
+  await expect(enlace).toHaveCount(1);
+  return enlace;
+}
+
+test('enlaces: en el texto se ve solo la palabra (sin la marca) y un enlace a una pieza que no existe queda como texto normal', async ({ page }) => {
+  const enlace = await abrirPiezaConEnlaces(page);
+  await expect(enlace).toHaveText('la Coatlicue');
+  await expect(page.getByText('una pieza que no existe', { exact: false })).toBeVisible();
+  const texto = page.locator('#piece-detail-container');
+  await expect(texto).not.toContainText('](');
+  await expect(texto).not.toContainText('mna_s');
+});
+
+test('enlaces: tocar el enlace abre la ventanita; al cerrarla se vuelve al mismo lugar de la lectura', async ({ page }) => {
+  const enlace = await abrirPiezaConEnlaces(page);
+  await enlace.scrollIntoViewIfNeeded();
+  const antes = await page.evaluate(() => Math.round(window.scrollY));
+  await enlace.click();
+  const ventana = page.locator('#modal-piece-peek');
+  await expect(ventana).toBeVisible();
+  await expect(ventana.getByRole('heading', { name: ENLACE_A.title })).toBeVisible();
+  await expect(ventana.getByTestId('peek-open')).toBeVisible();
+  await ventana.getByTestId('peek-close').click();
+  await expect(ventana).toHaveCount(0);
+  await expect(page.locator('h1')).toHaveText(FREE.title);
+  expect(Math.abs((await page.evaluate(() => window.scrollY)) - antes)).toBeLessThan(4);
+});
+
+test('enlaces: el botón "atrás" del teléfono cierra la ventanita y deja la pieza que se leía', async ({ page }) => {
+  const enlace = await abrirPiezaConEnlaces(page);
+  await enlace.click();
+  await expect(page.locator('#modal-piece-peek')).toBeVisible();
+  await page.goBack();
+  await expect(page.locator('#modal-piece-peek')).toHaveCount(0);
+  await expect(page.locator('h1')).toHaveText(FREE.title);
+  // y otra vez "atrás" sí sale de la pieza (la ventana no dejó entradas de más en el historial)
+  await page.goBack();
+  await expect(page.locator('#input-search-pieces')).toBeVisible();
+});
+
+test('enlaces: "Ver la pieza completa" abre la otra pieza y con "atrás" se regresa a la que se leía', async ({ page }) => {
+  const enlace = await abrirPiezaConEnlaces(page);
+  await enlace.scrollIntoViewIfNeeded();
+  const antes = await page.evaluate(() => Math.round(window.scrollY));
+  await enlace.click();
+  await page.locator('#modal-piece-peek').getByTestId('peek-open').click();
+  await expect(page.locator('#modal-piece-peek')).toHaveCount(0);
+  await expect(page.locator('h1')).toHaveText(ENLACE_A.title);
+  await page.goBack();
+  await expect(page.locator('h1')).toHaveText(FREE.title);
+  expect(Math.abs((await page.evaluate(() => window.scrollY)) - antes)).toBeLessThan(4);
+  // una sola vez "atrás" bastó: otra más sale de la pieza
+  await page.goBack();
+  await expect(page.locator('#input-search-pieces')).toBeVisible();
+});
+
+test('enlaces: la voz lee solo el texto visible (nunca la marca ni el identificador)', async ({ page }) => {
+  await abrirPiezaConEnlaces(page, { mp3: false }); // sin MP3: lee la voz del teléfono
+  await page.locator('#btn-master-play-piece').click();
+  await expect.poll(() => page.evaluate(() => window.__spoken.join(' '))).toContain('la Coatlicue');
+  const dicho = await page.evaluate(() => window.__spoken.join(' '));
+  expect(dicho).toContain('una pieza que no existe');
+  expect(dicho).not.toMatch(/mna_s|\]\(|\[/);
+  expect(dicho).not.toContain(ENLACE_ROTO);
 });

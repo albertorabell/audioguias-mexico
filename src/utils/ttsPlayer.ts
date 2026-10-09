@@ -9,6 +9,7 @@
  */
 
 import { getAssetUrl } from './urlHelper';
+import { stripLinks } from './pieceLinks';
 import { getCurrentLanguage } from '../i18n/runtime';
 import { getStrings } from '../i18n';
 import { SupportedLanguage, SPEECH_LOCALE } from '../i18n/languages';
@@ -305,7 +306,7 @@ class TTSPlayer {
    * Calcula la duración estimada en segundos a partir de las palabras (~2.25 palabras/segundo).
    */
   public calculateDuration(text: string, rate: number = 1.0): number {
-    const cleanText = text.replace(/[#*_~`]/g, '').trim();
+    const cleanText = stripLinks(text).replace(/[#*_~`]/g, '').trim();
     const words = cleanText.split(/\s+/).filter(Boolean);
     const effectiveRate = Math.max(0.5, rate || 1.0);
     const baseSeconds = Math.max(10, Math.round(words.length / (2.25 * effectiveRate)));
@@ -377,6 +378,8 @@ class TTSPlayer {
       lang?: SupportedLanguage;
     }
   ): void {
+    // Los enlaces entre piezas ([texto](piece_id)) nunca se leen en voz alta: solo el texto visible
+    text = stripLinks(text);
     this.stop();
     this.errorMessage = null;
 

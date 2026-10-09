@@ -12,6 +12,8 @@ import { useBackClose } from '../utils/useBackClose';
 import { TopBar } from './ui/TopBar';
 import { PassButton } from './ui/HeaderControls';
 import { PieceDock } from './PieceDock';
+import { LinkedText } from './LinkedText';
+import { PiecePeek } from './PiecePeek';
 import { track } from '../utils/analytics';
 
 export interface NextInfo {
@@ -43,6 +45,10 @@ interface PieceDetailProps {
   /** Otras piezas de la misma sala (se muestran solo dentro de un recorrido). */
   siblings?: PieceData[];
   onSelectSibling?: (pieceId: string) => void;
+  /** Busca otra pieza por su id exacto (para los enlaces dentro de los textos). */
+  resolvePiece?: (pieceId: string) => PieceData | undefined;
+  /** Abre una pieza enlazada en su propia pantalla (con "atrás" se vuelve a esta). */
+  onOpenLinkedPiece?: (pieceId: string) => void;
 }
 
 type Mode = 'expres' | 'inmersion';
@@ -83,6 +89,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   next,
   siblings = [],
   onSelectSibling,
+  resolvePiece,
+  onOpenLinkedPiece,
 }) => {
   const { strings, currentLanguage } = useLanguage();
   const tp = strings.piece;
@@ -96,6 +104,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   // "Atrás" del teléfono cierra la foto ampliada en vez de salir de la pieza
   useBackClose(zoomOpen, () => setZoomOpen(false));
   const [found, setFound] = useState<Record<number, boolean>>({});
+  // Pieza que se está viendo en la ventanita (enlace dentro del texto); null = cerrada
+  const [peekId, setPeekId] = useState<string | null>(null);
 
   const pieceId = piece.piece_id || piece.id || '';
   const titulo = piece.titulo || piece.title || tp.defaultTitle;
@@ -123,6 +133,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   };
   const durationLabel = (s: number) => (s < 60 ? u.seconds(s) : u.minutes(Math.max(1, Math.round(s / 60))));
   const sameText = guionLargo.trim() === guionCorto.trim();
+  // Los enlaces solo se ofrecen cuando el texto completo está aquí (con pase) y la pieza enlazada existe
+  const linksOn = !textMissing && !!resolvePiece;
+  const canOpenLink = (id: string) => id !== pieceId && !!resolvePiece?.(id);
 
   // Estado del audio de ESTA pieza
   useEffect(() => {
@@ -140,6 +153,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     setFinished(false);
     setErrorMessage(null);
     setFound({});
+    setPeekId(null);
     track('piece_view', { p: pieceId, l: currentLanguage });
     return () => {
       ttsPlayer.stop();
@@ -358,7 +372,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         </section>
 
         <section className="px-5 mt-5">
-          <p className="font-serif text-read text-ink whitespace-pre-line text-pretty">{mode === 'expres' ? guionCorto : guionLargo}</p>
+          <p className="font-serif text-read text-ink whitespace-pre-line text-pretty">
+            <LinkedText text={mode === 'expres' ? guionCorto : guionLargo} canOpen={canOpenLink} onOpen={linksOn ? setPeekId : undefined} />
+          </p>
           {textMissing && !hasPass && (
             <div id="texto-con-pase" className="mt-5 rounded-2xl bg-surface border border-line p-4">
               <p className="flex items-center gap-2 text-ui font-bold text-ink">
@@ -553,6 +569,18 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         title={titulo}
         subtitle={contextTitle}
       />
+
+      {resolvePiece && (
+        <PiecePeek
+          pieceId={peekId}
+          resolve={resolvePiece}
+          onClose={() => setPeekId(null)}
+          onOpenFull={(id) => {
+            setPeekId(null);
+            onOpenLinkedPiece?.(id);
+          }}
+        />
+      )}
     </div>
   );
 };
