@@ -18,6 +18,7 @@ import { wizard } from './groups/wizard';
 import { app } from './groups/app';
 import { paywall } from './groups/paywall';
 import { ui } from './groups/ui';
+import { intro } from './groups/intro';
 import { PL_GROUPS } from './pl';
 
 const groups = {
@@ -40,6 +41,7 @@ const groups = {
   app,
   paywall,
   ui,
+  intro,
 };
 
 /** Todos los textos de la interfaz, con la forma definida por el español. */

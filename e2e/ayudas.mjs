@@ -25,6 +25,14 @@ const CORS = {
 
 /** Bloquea todo internet menos la app local, el servidor de cobro simulado y la página de Stripe simulada. */
 export async function aislar(page) {
+  // La introducción de la app se abre sola la primera vez; las pruebas la dan por vista (salvo las que la prueban a ella)
+  await page.addInitScript(() => {
+    try {
+      localStorage.setItem('audioguias_intro_seen', '1');
+    } catch {
+      /* sin almacenamiento */
+    }
+  });
   await page.route((url) => !['localhost', 'pagos.test', 'checkout.stripe.com'].includes(url.hostname), (route) => route.abort());
   await page.route('https://checkout.stripe.com/**', (route) =>
     route.fulfill({ status: 200, contentType: 'text/html', body: '<h1>Stripe simulado</h1>' })

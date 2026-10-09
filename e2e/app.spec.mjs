@@ -6,6 +6,64 @@ test.beforeEach(async ({ page }) => {
   await aislar(page);
 });
 
+// ───────────────────────── Introducción ─────────────────────────
+
+/** Entra al museo como si fuera la primera vez (sin la marca de «introducción vista»). */
+async function entrarComoNuevo(page) {
+  await page.goto('/');
+  await page.evaluate(() => localStorage.removeItem('audioguias_intro_seen'));
+  await page.locator('#sites-grid-section [role=button]').first().click();
+}
+
+test('introducción: la primera vez se abre sola, avanza por los seis pasos y el último lleva a armar la ruta', async ({ page }) => {
+  await entrarComoNuevo(page);
+  const intro = page.locator('#modal-intro');
+  await expect(intro).toBeVisible();
+  await expect(page.getByTestId('intro-step-label')).toHaveText('Paso 1 de 6');
+  for (let i = 2; i <= 6; i++) {
+    await page.locator('#btn-intro-next').click();
+    await expect(page.getByTestId('intro-step-label')).toHaveText(`Paso ${i} de 6`);
+  }
+  await expect(page.locator('#btn-intro-next')).toHaveCount(0);
+  await page.locator('#btn-intro-configure').click();
+  await expect(intro).toHaveCount(0);
+  await expect(page.locator('#q1-title')).toBeVisible();
+  expect(await page.evaluate(() => localStorage.getItem('audioguias_intro_seen'))).toBe('1');
+  // «Atrás» desde el asistente regresa al museo y la introducción no vuelve a abrirse sola
+  await page.goBack();
+  await expect(page.locator('#btn-open-wizard')).toBeVisible();
+  await expect(intro).toHaveCount(0);
+});
+
+test('introducción: «Omitir» la cierra y se marca como vista; «¿Cómo se usa?» la vuelve a abrir desde el paso 1', async ({ page }) => {
+  await entrarComoNuevo(page);
+  await expect(page.locator('#modal-intro')).toBeVisible();
+  await page.locator('#btn-intro-skip').click();
+  await expect(page.locator('#modal-intro')).toHaveCount(0);
+  expect(await page.evaluate(() => localStorage.getItem('audioguias_intro_seen'))).toBe('1');
+  await page.locator('#btn-open-intro').click();
+  await expect(page.getByTestId('intro-step-label')).toHaveText('Paso 1 de 6');
+  await page.locator('#btn-intro-next').click();
+  await expect(page.getByTestId('intro-step-label')).toHaveText('Paso 2 de 6');
+  // El botón «atrás» del teléfono la cierra sin salir del museo
+  await page.goBack();
+  await expect(page.locator('#modal-intro')).toHaveCount(0);
+  await expect(page.locator('#btn-open-wizard')).toBeVisible();
+});
+
+test('introducción: ya vista, no se abre sola al volver a entrar; en inglés sale en inglés', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await expect(page.locator('#btn-open-wizard')).toBeVisible();
+  await expect(page.locator('#modal-intro')).toHaveCount(0);
+  await page.goBack();
+  await elegirIdioma(page, 'English');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await page.locator('#btn-open-intro').click();
+  await expect(page.getByTestId('intro-step-label')).toHaveText('Step 1 of 6');
+  await expect(page.getByTestId('intro-title')).toHaveText('Welcome to your pocket guide');
+});
+
 // ───────────────────────── Idioma ─────────────────────────
 
 test('idioma: pasa a inglés, se queda al recargar y vuelve a español', async ({ page }) => {
