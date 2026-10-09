@@ -282,3 +282,50 @@ test('borrar audios: lo que no se pudo borrar se queda en el manifiesto y el bot
   }
   assert.equal(keysFromManifest(readManifest(dir)).length, 1);
 });
+
+test('borrar audios: el cliente de Cloudflare usa la ruta correcta, reintenta, y no confunde "ruta mala" con "ya no existe"', async () => {
+  const { restR2Async } = await import('../borrar-audios.mjs');
+  const llamadas = [];
+  const respuestas = [];
+  const fetchFn = async (url, opts) => {
+    llamadas.push({ url, method: opts.method, auth: opts.headers.Authorization, tiene_limite: Boolean(opts.signal) });
+    const r = respuestas.shift();
+    return { status: r.status, ok: r.status >= 200 && r.status < 300, text: async () => r.body };
+  };
+  const c = restR2Async({ bucket: 'cubeta', token: 'T0K', account: 'ACC', fetchFn, esperaMs: 1 });
+  // Borrar bien: 429 una vez y luego 200
+  respuestas.push({ status: 429, body: '' }, { status: 200, body: '{"success":true,"result":{}}' });
+  await c.del('pago/es/a_corto.mp3');
+  assert.equal(llamadas.length, 2);
+  assert.equal(llamadas[0].url, 'https://api.cloudflare.com/client/v4/accounts/ACC/r2/buckets/cubeta/objects/pago%2Fes%2Fa_corto.mp3');
+  assert.equal(llamadas[0].method, 'DELETE');
+  assert.equal(llamadas[0].auth, 'Bearer T0K');
+  assert.ok(llamadas[0].tiene_limite);
+  // Un objeto que no existe cuenta como "ya no estaba" (el mensaje trae el código 10007)
+  respuestas.push({ status: 404, body: '{"success":false,"errors":[{"code":10007,"message":"The specified object does not exist"}]}' });
+  await assert.rejects(c.del('x'), /10007/);
+  // existe(): 200 → true; 404 con 10007 → false; 404 de ruta equivocada o 403 → error (nunca "ya no existe")
+  respuestas.push({ status: 200, body: 'ID3' });
+  assert.equal(await c.existe('x'), true);
+  respuestas.push({ status: 404, body: '{"success":false,"errors":[{"code":10007,"message":"The specified object does not exist"}]}' });
+  assert.equal(await c.existe('x'), false);
+  respuestas.push({ status: 404, body: '{"success":false,"errors":[{"code":7000,"message":"No route for that URI"}]}' });
+  await assert.rejects(c.existe('x'), /7000/);
+  respuestas.push({ status: 403, body: '{"success":false,"errors":[{"code":10000,"message":"Authentication error"}]}' });
+  await assert.rejects(c.existe('x'), /403/);
+});
+
+test('borrar audios: si la comprobación inicial falla no se borra nada; si el primero sigue existiendo al final, se queda en el manifiesto', async () => {
+  const { main, keysFromManifest } = await import('../borrar-audios.mjs');
+  const dir = tmpProject();
+  run(dir, '--proveedor', 'prueba', '--generar');
+  const borradas = [];
+  const malo = { existe: async () => { throw new Error('Cloudflare respondió 403'); }, del: async (k) => { borradas.push(k); } };
+  await assert.rejects(main({ root: dir, r2: malo, log() {} }), /403/);
+  assert.deepEqual(borradas, []);
+  assert.equal(keysFromManifest(readManifest(dir)).length, 4);
+  // Dice "borrado" pero el primero sigue ahí
+  const mentiroso = { existe: async () => true, del: async () => {} };
+  await assert.rejects(main({ root: dir, r2: mentiroso, log() {} }), /No se pudieron borrar 1/);
+  assert.equal(keysFromManifest(readManifest(dir)).length, 1);
+});

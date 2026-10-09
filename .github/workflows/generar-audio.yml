@@ -109,7 +109,8 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: node scripts/borrar-audios.mjs
+        timeout-minutes: 20
+        run: node scripts/ci-run.mjs "borrar-audios" -- node scripts/borrar-audios.mjs
 
       # Se sube aunque la generación se haya cortado a medias: lo que sí se generó ya se pagó y no debe perderse
       - name: Subir los audios a Cloudflare R2 (libre/ y pago/)
