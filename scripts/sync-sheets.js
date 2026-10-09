@@ -20,6 +20,7 @@ import { pathToFileURL } from 'url';
 import { MODES, AUDIO_LANGS, scriptFor, textHash } from './audio-lib.mjs';
 import { applyStoredTranslations } from './traducir-lib.mjs';
 import { splitPiece, writePrivate } from './privado-lib.mjs';
+import { linkIds, hasBrokenLink } from '../src/utils/pieceLinks.js';
 
 // ===== CONFIGURACIÓN (lo único que normalmente se toca) =====================
 const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
@@ -483,8 +484,21 @@ function validate(rooms, pieces) {
   for (const [id, n] of seen) if (n > 1) errors.push(`piece_id repetido (${n} veces): ${id}`);
 
   const roomIds = new Set(rooms.map((r) => r.room_id));
+  const pieceIds = new Set(pieces.map((p) => p.piece_id));
   const hasImgDir = fs.existsSync(IMG_DIR);
   for (const p of pieces) {
+    // Enlaces entre piezas: [texto](piece_id) en los guiones (y sus traducciones)
+    for (const key of ['guion_corto', 'guion_largo']) {
+      for (const field of [key, ...TRANSLATION_LANGS.map((l) => `${key}_${l}`)]) {
+        const text = p[field];
+        if (!text) continue;
+        for (const id of new Set(linkIds(text))) {
+          if (id === p.piece_id) warn('Enlaces que apuntan a la propia pieza', `${p.piece_id} (${field})`);
+          else if (!pieceIds.has(id)) warn('Enlaces a piezas que NO existen en el Sheets (se verán como texto normal)', `${p.piece_id} (${field}) → ${id}`);
+        }
+        if (hasBrokenLink(text)) warn('Enlaces mal escritos (debe ser [texto](piece_id), sin espacios)', `${p.piece_id} (${field})`);
+      }
+    }
     if (!roomIds.has(p.room_id)) warn('Piezas cuya sala NO existe en TRABAJO_SALAS (no se verán en ninguna sala)', `${p.piece_id} → "${p.room_id}"`);
     if (!p.guion_corto) warn('Piezas sin guion_corto', p.piece_id);
     if (!p.guion_largo) warn('Piezas sin guion_largo', p.piece_id);

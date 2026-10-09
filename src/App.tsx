@@ -75,7 +75,11 @@ export default function App() {
       scrollMemo.current[cur.length - 1] = window.scrollY;
       setStack([...cur, s]);
       try {
-        window.history.pushState({ depth: cur.length + 1 }, '');
+        // Si hay una ventana abierta encima (por ejemplo la de una pieza enlazada), su entrada del historial se convierte en la
+        // de la nueva pantalla: así "atrás" regresa a la pantalla de abajo de una sola vez
+        const overlay = (window.history.state as { overlay?: boolean } | null)?.overlay;
+        if (overlay) window.history.replaceState({ depth: cur.length + 1 }, '');
+        else window.history.pushState({ depth: cur.length + 1 }, '');
       } catch {
         /* sin historial */
       }
@@ -378,10 +382,11 @@ export default function App() {
 
   /** Muestra otra pieza: en la misma pantalla si ya se está en una pieza, o abriendo la pantalla de pieza. */
   const showPiece = useCallback(
-    (next: PieceNav, how: 'auto' | 'replace' = 'auto') => {
+    (next: PieceNav, how: 'auto' | 'replace' | 'push' = 'auto') => {
       setLastNav(next);
       const top = stackRef.current[stackRef.current.length - 1];
-      if (top.kind === 'piece' || how === 'replace') replaceTop({ kind: 'piece', nav: next });
+      if (how === 'push') push({ kind: 'piece', nav: next });
+      else if (top.kind === 'piece' || how === 'replace') replaceTop({ kind: 'piece', nav: next });
       else push({ kind: 'piece', nav: next });
     },
     [push, replaceTop]
@@ -427,6 +432,19 @@ export default function App() {
         return;
       }
       showPiece(next);
+    },
+    [roomNavFor, showPiece, t]
+  );
+
+  /** Abre una pieza enlazada desde un texto: encima de la pantalla actual, para poder volver con "atrás" a donde se leía. */
+  const openLinkedPiece = useCallback(
+    (pieceId: string) => {
+      const next = roomNavFor(pieceId);
+      if (!next) {
+        setErrorMessage(t.app.pieceNotFound);
+        return;
+      }
+      showPiece(next, 'push');
     },
     [roomNavFor, showPiece, t]
   );
@@ -733,6 +751,8 @@ export default function App() {
             const next = roomNavFor(id);
             if (next) showPiece(next, 'replace');
           }}
+          resolvePiece={(id) => pieceIndex.get(id)}
+          onOpenLinkedPiece={openLinkedPiece}
         />
       );
     } else {

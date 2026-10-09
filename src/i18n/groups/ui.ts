@@ -101,6 +101,10 @@ export const ui = defineGroup(
       textLoading: 'Cargando la explicación…',
       textError: 'No se pudo cargar la explicación. Revisa tu internet e inténtalo de nuevo.',
       retry: 'Reintentar',
+      linkedPiece: 'Pieza relacionada',
+      peekOpen: 'Ver la pieza completa',
+      peekClose: 'Cerrar y seguir leyendo',
+      peekBack: 'Volver',
     },
     routes: {
       title: 'Recorridos',
@@ -227,6 +231,10 @@ export const ui = defineGroup(
       textLoading: 'Loading the explanation…',
       textError: 'The explanation could not be loaded. Check your internet and try again.',
       retry: 'Try again',
+      linkedPiece: 'Related piece',
+      peekOpen: 'See the full piece',
+      peekClose: 'Close and keep reading',
+      peekBack: 'Back',
     },
     routes: {
       title: 'Tours',
@@ -355,6 +363,10 @@ export const ui = defineGroup(
       textLoading: 'Chargement de l’explication…',
       textError: 'Impossible de charger l’explication. Vérifiez votre connexion et réessayez.',
       retry: 'Réessayer',
+      linkedPiece: 'Pièce liée',
+      peekOpen: 'Voir la pièce complète',
+      peekClose: 'Fermer et continuer à lire',
+      peekBack: 'Retour',
     },
     routes: {
       title: 'Parcours',

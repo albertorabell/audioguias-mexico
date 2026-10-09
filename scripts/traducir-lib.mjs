@@ -10,6 +10,7 @@
 import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
+import { sameLinks, hasBrokenLink } from '../src/utils/pieceLinks.js';
 
 // ---------------------------------------------------------------------------
 // Qué se traduce
@@ -210,11 +211,25 @@ All texts:
 - Typography: use Polish quotation marks („ ”) and the typographic apostrophe (’), never straight quotes.`;
 }
 
+
+// Reglas que se agregan a las instrucciones de TODOS los idiomas: enlaces entre piezas y palabras nativas (náhuatl, maya...)
+export const LINK_AND_NAME_RULES = `
+
+Links between pieces (inside "guion_corto" and "guion_largo"):
+- The Spanish text may contain internal links written as [visible text](piece_id), for example [Disco de la Muerte](mna_s04_disco_muerte). They connect to other pieces of the guide.
+- Keep EVERY link. Translate only the visible text between the square brackets (following the glossary) and copy the part in parentheses character by character: never translate, change, add or remove an id. The translation must contain exactly the same ids, the same number of times.
+- Put each link on the words that name that piece in your translation. Do not add links of your own and never use square brackets for anything else.
+- The visible text is also read aloud, so the sentence must read naturally without the brackets.
+
+Nahuatl, Maya and other native words and etymologies:
+- Native words (Nahuatl, Maya, Zapotec, etc.) and the explanations of what they mean appear in the source on purpose, for example Tlamanaliztli, «ofrenda», or Mictlantecuhtli, «señor del Mictlán». Keep every native word exactly as written, with the same spelling and without adding apostrophes or accents, and translate only the meaning given next to it (between « » or between commas).
+- Never replace a native word with a translation or with a different spelling, and never invent or "improve" an etymology. If the source hedges (se piensa, se cuenta, suele traducirse), keep that hedging in the translation.`;
+
 export function buildSystemPrompt(lang) {
   const name = LANG_NAMES[lang];
   if (!name) throw new Error(`Todavía no hay reglas ni glosario para el idioma "${lang}".`);
-  if (lang === 'fr') return buildFrenchSystemPrompt();
-  if (lang === 'pl') return buildPolishSystemPrompt();
+  if (lang === 'fr') return buildFrenchSystemPrompt() + LINK_AND_NAME_RULES;
+  if (lang === 'pl') return buildPolishSystemPrompt() + LINK_AND_NAME_RULES;
   return `You are a professional translator for a museum audio-guide app about the National Museum of Anthropology (MNA) in Mexico City. You translate from Mexican Spanish into natural, polished ${name} for curious visitors who are not specialists.
 
 You receive a JSON object. Translate every value and return ONE JSON object with exactly the same keys, in the same order, and nothing else: no commentary, no code fences.
@@ -243,7 +258,7 @@ All texts:
 - If the source spells a glossary name slightly differently from the glossary (for example "Nahui Olin" and the glossary says "Nahui Ollin"), use the glossary spelling.
 - Use the standard English forms of people and culture names, never the Spanish plural or ending: "the Maya", "the Nahua", "a Toltec ruler", "Olmec art", "Zapotec", "Mixtec", "Totonac", "Teotihuacán culture". Proper names that the glossary marks KEEP stay as written.
 - Write "Mexico" without an accent in English (for example "State of Mexico", "Mexico City"), except inside names the glossary marks KEEP (such as "México-Tenochtitlan").
-- Use typographic quotation marks (“ ”) and apostrophes (’), like the Spanish source, never straight quotes.`;
+- Use typographic quotation marks (“ ”) and apostrophes (’), like the Spanish source, never straight quotes.` + LINK_AND_NAME_RULES;
 }
 
 export function buildUserPrompt(fields, glossaryEntries) {
@@ -365,7 +380,10 @@ export function validateTranslation(source, out, glossaryEntries = [], { fake = 
     const sText = strings(src).join(' ');
     const oText = strings(val).join(' ');
     if (/```|\*\*|^#/m.test(oText)) errors.push(`${f}: trae formato (markdown) que no debería`);
+    // Los enlaces entre piezas [texto](id) deben llegar completos: mismos ids, mismo número
+    if (!sameLinks(sText, oText)) errors.push(`${f}: los enlaces [texto](id) no coinciden con los del español (mismos ids, mismo número)`);
     if (fake) continue;
+    if (hasBrokenLink(oText)) errors.push(`${f}: hay un enlace roto o corchetes de más`);
 
     if (sText.length >= 80) {
       const ratio = oText.length / sText.length;

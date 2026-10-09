@@ -5,6 +5,7 @@
 // se suben a Cloudflare R2 y el servidor de cobro solo los entrega con un pase vigente (GET /texto/<idioma>.json?t=<clave>).
 import fs from 'node:fs';
 import path from 'node:path';
+import { stripLinks } from '../src/utils/pieceLinks.js';
 
 export const PRIVATE_DIR = 'datos-privados';
 export const FULL_FILE = 'piezas-completas.json';
@@ -19,7 +20,7 @@ const nonEmpty = (v) => typeof v === 'string' && v.trim().length > 0;
 
 /** Primeras frases del texto, hasta ~max caracteres: sirve de adelanto a quien aún no tiene pase. */
 export function avance(text, max = 220) {
-  const t = String(text || '').replace(/\s+/g, ' ').trim();
+  const t = stripLinks(text || '').replace(/\s+/g, ' ').trim();
   if (!t) return '';
   const sentences = t.match(/[^.!?…]+[.!?…]+["”»)]?/g) || [t];
   let out = '';
@@ -36,7 +37,7 @@ const fold = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toL
 
 /** Lista de palabras distintas del guion corto en español (sin orden de lectura), para que el asistente de rutas pueda buscar temas sin tener el texto. */
 export function indice(text) {
-  const words = new Set(fold(text).match(/[a-zñ]{4,}/g) || []);
+  const words = new Set(fold(stripLinks(text)).match(/[a-zñ]{4,}/g) || []);
   return [...words].sort().join(' ');
 }
 
