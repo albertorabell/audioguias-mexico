@@ -8,6 +8,7 @@ Quien lo lea (persona o Claude) debe tratar lo marcado «sin verificar» como pe
 - Nada de inventar información: lo que no esté verificado se dice y se anota como duda.
 - Fotos solo con licencia de dominio público, CC0, CC BY o CC BY-SA, con crédito anotado.
 - Una sola voz para todos los idiomas: `es-MX-JorgeMultilingualNeural`. Idiomas: es, en, fr, pl.
+- Guía de estilo de los textos: `docs/GUIA_DE_ESTILO_guiones.md`.
 - Los textos nuevos viven en la hoja de Google Sheets, no en este repositorio público. Los textos de pago se suben a R2 al desplegar.
 - Gastos pequeños y por lotes; los flujos de traducir y de audio tienen un modo «plan» gratis para ver el costo antes.
 - El cobro (Stripe + Worker `pagos/`) sigue en pruebas: aún no se cobra a usuarios reales.
