@@ -25,10 +25,11 @@ const CORS = {
 
 /** Bloquea todo internet menos la app local, el servidor de cobro simulado y la página de Stripe simulada. */
 export async function aislar(page) {
-  // La introducción de la app se abre sola la primera vez; las pruebas la dan por vista (salvo las que la prueban a ella)
+  // Las guías de la app se abren solas la primera vez; las pruebas las dan por vistas (salvo las que la prueban a ella)
   await page.addInitScript(() => {
     try {
-      localStorage.setItem('audioguias_intro_seen', '1');
+      localStorage.setItem('audioguias_tour_museo', '1');
+      localStorage.setItem('audioguias_tour_pieza', '1');
     } catch {
       /* sin almacenamiento */
     }

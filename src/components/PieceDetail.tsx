@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { AlertCircle, Check, ChevronRight, Lock, Maximize2, Search, X, AudioLines, Smartphone, Flag } from 'lucide-react';
+import { AlertCircle, Check, ChevronRight, CircleHelp, Lock, Maximize2, Search, X, AudioLines, Smartphone, Flag } from 'lucide-react';
 import { Piece, PieceData, SpecItem, PieceSpecsObject } from '../types';
 import { PieceImage } from './PieceImage';
 import { ImageZoomModal } from './ImageZoomModal';
@@ -12,6 +12,7 @@ import { useBackClose } from '../utils/useBackClose';
 import { TopBar } from './ui/TopBar';
 import { PassButton } from './ui/HeaderControls';
 import { PieceDock } from './PieceDock';
+import { PieceTour, pieceTourSeen } from './PieceTour';
 import { LinkedText } from './LinkedText';
 import { PiecePeek } from './PiecePeek';
 import { track } from '../utils/analytics';
@@ -101,6 +102,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   const [finished, setFinished] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [zoomOpen, setZoomOpen] = useState(false);
+  // La guía de esta pantalla se abre sola la primera vez que se abre una obra
+  const [tourOpen, setTourOpen] = useState<boolean>(() => !pieceTourSeen());
   // "Atrás" del teléfono cierra la foto ampliada en vez de salir de la pieza
   useBackClose(zoomOpen, () => setZoomOpen(false));
   const [found, setFound] = useState<Record<number, boolean>>({});
@@ -264,6 +267,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         onTitleClick={onContextClick}
         right={
           <>
+            <button type="button" id="btn-piece-help" onClick={() => setTourOpen(true)} aria-label={strings.intro.pieceOpenLabel} className="btn-icon text-ink-2">
+              <CircleHelp className="w-5 h-5" strokeWidth={1.9} />
+            </button>
             <button type="button" id="btn-nav-quick-search" onClick={onOpenSearch} aria-label={strings.chrome.nav.searchAria} className="btn-icon text-ink-2">
               <Search className="w-5 h-5" strokeWidth={1.9} />
             </button>
@@ -345,7 +351,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         {/* Versión: lo que se lee es lo que se escucha */}
         <section className="px-5 mt-6" aria-label={u.piece.versionAria}>
           {!sameText && (
-            <div role="radiogroup" aria-label={u.piece.versionAria} className="grid grid-cols-2 p-1 rounded-2xl bg-surface border border-line">
+            <div id="version-switch" role="radiogroup" aria-label={u.piece.versionAria} className="grid grid-cols-2 p-1 rounded-2xl bg-surface border border-line">
               {(['expres', 'inmersion'] as Mode[]).map((m) => {
                 const on = mode === m;
                 return (
@@ -371,7 +377,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
           </p>
         </section>
 
-        <section className="px-5 mt-5">
+        <section id="piece-text" className="px-5 mt-5">
           <p className="font-serif text-read text-ink whitespace-pre-line text-pretty">
             <LinkedText text={mode === 'expres' ? guionCorto : guionLargo} canOpen={canOpenLink} onOpen={linksOn ? setPeekId : undefined} />
           </p>
@@ -560,6 +566,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         prevLabel={u.piece.prev}
         nextLabel={next?.kind === 'finish' ? u.piece.finish : u.piece.next}
       />
+
+      <PieceTour open={tourOpen} onClose={() => setTourOpen(false)} />
 
       <ImageZoomModal
         isOpen={zoomOpen}
