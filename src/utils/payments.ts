@@ -12,6 +12,8 @@ export type PaymentErrorCode =
   | 'device_limit'
   | 'expired'
   | 'code_not_found'
+  | 'promo_invalid'
+  | 'promo_not_for_site'
   | 'bad_request'
   | 'bad_session'
   | 'bad_return_url'
@@ -25,7 +27,7 @@ export type PaymentErrorCode =
 export type PaymentResult<T> = { ok: boolean; data?: T; error?: PaymentErrorCode };
 
 const KNOWN: PaymentErrorCode[] = [
-  'not_paid', 'session_not_found', 'device_limit', 'expired', 'code_not_found', 'bad_request', 'bad_session',
+  'not_paid', 'session_not_found', 'device_limit', 'expired', 'code_not_found', 'promo_invalid', 'promo_not_for_site', 'bad_request', 'bad_session',
   'bad_return_url', 'not_configured', 'stripe_error', 'origin_not_allowed', 'server_error',
 ];
 
@@ -61,9 +63,9 @@ export async function fetchPricing(): Promise<PricingInfo | null> {
 }
 
 /** Pide la página de pago de Stripe. Si sale bien, hay que mandar al visitante a `url`. */
-export async function startCheckout(siteId: string, lang: SupportedLanguage): Promise<PaymentResult<{ url: string }>> {
+export async function startCheckout(siteId: string, lang: SupportedLanguage, promo?: string): Promise<PaymentResult<{ url: string }>> {
   const returnUrl = `${window.location.origin}${window.location.pathname}`;
-  const r = await post('/checkout', { siteId: siteId.toLowerCase(), lang, deviceId: getOrCreateDeviceId(), returnUrl });
+  const r = await post('/checkout', { siteId: siteId.toLowerCase(), lang, deviceId: getOrCreateDeviceId(), returnUrl, ...(promo ? { promo } : {}) });
   if (!r.ok) return r;
   if (typeof r.data?.url !== 'string' || !/^https:\/\//.test(r.data.url)) return { ok: false, error: 'stripe_error' };
   return { ok: true, data: { url: r.data.url } };
@@ -164,4 +166,76 @@ export function readPaymentReturn(): PaymentReturn | null {
     /* sin acceso a la dirección: se ignora */
   }
   return result;
+}
+
+// ---------------------------------------------------------------------------
+// Códigos de descuento
+// ---------------------------------------------------------------------------
+
+/** Revisa un código de descuento sin cobrar nada. Devuelve el código en mayúsculas y su porcentaje. */
+export async function previewPromo(siteId: string, code: string): Promise<PaymentResult<{ code: string; percentOff: number }>> {
+  const r = await post('/promo', { siteId: siteId.toLowerCase(), code: code.trim() });
+  if (!r.ok) return r;
+  const pct = Number(r.data?.percentOff);
+  if (!(pct > 0 && pct <= 100)) return { ok: false, error: 'promo_invalid' };
+  return { ok: true, data: { code: String(r.data.code), percentOff: pct } };
+}
+
+const PROMO_KEY = 'audioguias_promo';
+const PROMO_MAX_AGE_MS = 30 * 24 * 3600 * 1000;
+export const PROMO_CODE_RE = /^[A-Za-z0-9-]{2,40}$/;
+
+/** Código guardado de una tarjeta o enlace (por ejemplo, el QR de un hotel). Se olvida a los 30 días. */
+export function getSavedPromo(): string | null {
+  try {
+    const raw = localStorage.getItem(PROMO_KEY);
+    if (!raw) return null;
+    const v = JSON.parse(raw) as { code?: string; at?: number };
+    if (!v.code || !PROMO_CODE_RE.test(v.code) || !v.at || Date.now() - v.at > PROMO_MAX_AGE_MS) {
+      localStorage.removeItem(PROMO_KEY);
+      return null;
+    }
+    return v.code;
+  } catch {
+    return null;
+  }
+}
+
+export function savePromo(code: string): void {
+  try {
+    localStorage.setItem(PROMO_KEY, JSON.stringify({ code, at: Date.now() }));
+  } catch {
+    /* sin almacenamiento: el código se pierde al cerrar, no pasa nada */
+  }
+}
+
+export function clearSavedPromo(): void {
+  try {
+    localStorage.removeItem(PROMO_KEY);
+  } catch {
+    /* sin almacenamiento */
+  }
+}
+
+/**
+ * Si la página se abrió con ?c=CODIGO (el QR de un hotel, por ejemplo), guarda el código y lo quita de la dirección.
+ * Devuelve el código guardado, o null.
+ */
+export function capturePromoFromUrl(): string | null {
+  if (typeof window === 'undefined') return null;
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const raw = params.get('c');
+    if (raw === null) return getSavedPromo();
+    params.delete('c');
+    const qs = params.toString();
+    window.history.replaceState(window.history.state, '', `${window.location.pathname}${qs ? `?${qs}` : ''}${window.location.hash}`);
+    if (PROMO_CODE_RE.test(raw)) {
+      savePromo(raw.toUpperCase());
+      return raw.toUpperCase();
+    }
+  } catch {
+    /* sin acceso a la dirección */
+  }
+  return getSavedPromo();
 }

@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useSta
 import { X } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, PieceData, SiteLicense, Room } from './types';
 import { getSiteLicense, activatePass, revokePass, hasActivePass } from './utils/license';
-import { readPaymentReturn, redeemPendingSession, RETRYABLE_ERRORS } from './utils/payments';
+import { readPaymentReturn, redeemPendingSession, RETRYABLE_ERRORS, capturePromoFromUrl } from './utils/payments';
 import { PASS_HOURS } from './config/pass';
 import { Home } from './components/Home';
 import { MuseumScreen, ContinueInfo, byOrder } from './components/MuseumScreen';
@@ -126,6 +126,8 @@ export default function App() {
   );
 
   useEffect(() => {
+    // Un QR o enlace con ?c=CODIGO deja guardado el código de descuento para cuando se abra la ventana de pago
+    capturePromoFromUrl();
     track('app_open', { l: currentLanguage });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
