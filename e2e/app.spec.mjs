@@ -175,7 +175,7 @@ test('código de descuento: un QR con ?c= lo deja puesto, muestra el precio reba
   const api = await simularCobro(page);
   await page.goto('/?c=hotel10');
   // La dirección queda limpia
-  expect(new URL(page.url()).search).toBe('');
+  await expect.poll(() => new URL(page.url()).search).toBe('');
   await abrirPieza(page, FREE.title);
   await page.locator('#btn-unlock-pass-nav').click();
   await expect(page.getByTestId('promo-applied')).toContainText('HOTEL10');
