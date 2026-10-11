@@ -35,8 +35,8 @@ test('guía del museo: se abre sola, señala los botones reales y el último pas
   await expect(async () => {
     const spot = await page.getByTestId('coach-spot').boundingBox();
     const card = await caja(page, '#first-route-card');
-    expect(Math.abs(spot.top - (card.y - 6))).toBeLessThan(4);
-    expect(Math.abs(spot.left - (card.x - 6))).toBeLessThan(4);
+    expect(Math.abs(spot.y - (card.y - 6))).toBeLessThan(4);
+    expect(Math.abs(spot.x - (card.x - 6))).toBeLessThan(4);
   }).toPass();
   // Tercer paso: el botón de armar ruta
   await page.locator('#btn-intro-next').click();
@@ -44,7 +44,7 @@ test('guía del museo: se abre sola, señala los botones reales y el último pas
   await expect(async () => {
     const spot = await page.getByTestId('coach-spot').boundingBox();
     const btn = await caja(page, '#btn-open-wizard');
-    expect(Math.abs(spot.top - (btn.y - 6))).toBeLessThan(4);
+    expect(Math.abs(spot.y - (btn.y - 6))).toBeLessThan(4);
   }).toPass();
   // «Anterior» regresa un paso
   await page.locator('#btn-intro-back').click();
@@ -102,8 +102,8 @@ test('guía de la obra: la primera vez señala escuchar, versión corta/completa
   await expect(async () => {
     const spot = await page.getByTestId('coach-spot').boundingBox();
     const btn = await caja(page, '#btn-master-play-piece');
-    expect(Math.abs(spot.top - (btn.y - 6))).toBeLessThan(4);
-    expect(Math.abs(spot.left - (btn.x - 6))).toBeLessThan(4);
+    expect(Math.abs(spot.y - (btn.y - 6))).toBeLessThan(4);
+    expect(Math.abs(spot.x - (btn.x - 6))).toBeLessThan(4);
   }).toPass();
   // El globo no se sale de la pantalla
   const globo = await tour.locator('[aria-live=polite]').boundingBox();
