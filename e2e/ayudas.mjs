@@ -61,7 +61,12 @@ export async function simularCobro(page, opciones = {}) {
           passHours: 72,
           maxDevices: 2,
         });
+      case '/promo':
+        return String(body?.code || '').toUpperCase() === 'HOTEL10'
+          ? json(200, { code: 'HOTEL10', percentOff: 10 })
+          : json(404, { error: 'promo_invalid' });
       case '/checkout':
+        if (body?.promo && String(body.promo).toUpperCase() !== 'HOTEL10') return json(404, { error: 'promo_invalid' });
         return json(200, { url: 'https://checkout.stripe.com/c/pay/cs_test_mock' });
       case '/redeem':
         if (api.redeem === 'html502') {

@@ -171,6 +171,38 @@ test('cobro: la ventana muestra el precio real, y "Pagar" manda a Stripe con los
   expect(checkout.body.deviceId).toMatch(/^[A-Za-z0-9_-]{8,}$/);
 });
 
+test('código de descuento: un QR con ?c= lo deja puesto, muestra el precio rebajado y se manda a Stripe', async ({ page }) => {
+  const api = await simularCobro(page);
+  await page.goto('/?c=hotel10');
+  // La dirección queda limpia
+  await expect.poll(() => new URL(page.url()).search).toBe('');
+  await abrirPieza(page, FREE.title);
+  await page.locator('#btn-unlock-pass-nav').click();
+  await expect(page.getByTestId('promo-applied')).toContainText('HOTEL10');
+  await expect(page.getByTestId('promo-applied')).toContainText('10 %');
+  await expect(page.getByTestId('pass-price')).toContainText('71.1');
+  await expect(page.getByTestId('pass-price-original')).toContainText('79');
+  await Promise.all([page.waitForURL(/checkout\.stripe\.com/), page.locator('#btn-stripe-checkout').click()]);
+  expect(api.calls.find((c) => c.path === '/checkout').body.promo).toBe('HOTEL10');
+});
+
+test('código de descuento: se escribe a mano; uno que no existe avisa y no cambia el precio', async ({ page }) => {
+  const api = await simularCobro(page);
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await page.locator('#btn-unlock-pass-nav').click();
+  await page.locator('#btn-have-promo').click();
+  await page.locator('#input-promo-code').fill('malo');
+  await page.locator('#btn-apply-promo').click();
+  await expect(page.getByTestId('promo-error')).toContainText('no existe');
+  await expect(page.getByTestId('pass-price')).toContainText('79');
+  await page.locator('#input-promo-code').fill('hotel10');
+  await page.locator('#btn-apply-promo').click();
+  await expect(page.getByTestId('promo-applied')).toContainText('10 %');
+  await expect(page.getByTestId('promo-error')).toHaveCount(0);
+  expect(api.calls.filter((c) => c.path === '/promo').length).toBe(2);
+});
+
 test('cobro en inglés: precio en dólares y lang=en hacia Stripe', async ({ page }) => {
   const api = await simularCobro(page);
   await page.goto('/');

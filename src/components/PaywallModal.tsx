@@ -1,10 +1,10 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { X, Sparkles, CheckCircle, Shield, WifiOff, Clock, ExternalLink, RefreshCw, LogOut, KeyRound, Copy, Lock } from 'lucide-react';
+import { X, Sparkles, CheckCircle, Shield, WifiOff, Clock, ExternalLink, RefreshCw, LogOut, KeyRound, Copy, Lock, Tag } from 'lucide-react';
 import { formatRemainingHours } from '../utils/license';
 import { useLanguage } from '../utils/LanguageContext';
 import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
 import { PAYMENTS_ENABLED } from '../config/payments';
-import { fetchPricing, PricingInfo, redeemCode, startCheckout, PaymentErrorCode } from '../utils/payments';
+import { fetchPricing, PricingInfo, redeemCode, startCheckout, PaymentErrorCode, previewPromo, getSavedPromo, savePromo, clearSavedPromo } from '../utils/payments';
 import { SPEECH_LOCALE } from '../i18n/languages';
 import { track } from '../utils/analytics';
 
@@ -59,6 +59,12 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const [codeInput, setCodeInput] = useState('');
   const [copied, setCopied] = useState(false);
   const [notice, setNotice] = useState<string | null>(null);
+  // Código de descuento: lo que se escribe, el que ya se revisó y se aplicó, y si se está revisando
+  const [showPromo, setShowPromo] = useState(false);
+  const [promoInput, setPromoInput] = useState('');
+  const [promo, setPromo] = useState<{ code: string; percentOff: number } | null>(null);
+  const [promoError, setPromoError] = useState<PaymentErrorCode | null>(null);
+  const [promoBusy, setPromoBusy] = useState(false);
 
   const isDebugMode = useMemo(() => {
     if (typeof window === 'undefined') return false;
@@ -93,6 +99,37 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     };
   }, [isOpen, pricing]);
 
+  const applyPromo = async (raw: string) => {
+    const code = raw.trim();
+    if (!code) return;
+    setPromoError(null);
+    setPromoBusy(true);
+    const r = await previewPromo(siteId, code);
+    setPromoBusy(false);
+    if (r.ok) {
+      setPromo(r.data);
+      setPromoInput(r.data.code);
+      savePromo(r.data.code);
+    } else {
+      setPromo(null);
+      setPromoError(r.error);
+      // Un código guardado que ya no sirve se olvida para no estorbar
+      if (r.error === 'promo_invalid' || r.error === 'promo_not_for_site') clearSavedPromo();
+    }
+  };
+
+  // Si la persona llegó con un código (QR del hotel), se revisa solo al abrir la ventana
+  useEffect(() => {
+    if (!isOpen || !PAYMENTS_ENABLED || promo || hasPass) return;
+    const saved = getSavedPromo();
+    if (saved) {
+      setShowPromo(true);
+      setPromoInput(saved);
+      void applyPromo(saved);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isOpen]);
+
   useEffect(() => {
     if (!isOpen) {
       setError(null);
@@ -113,6 +150,12 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const primaryPrice = currentLanguage !== 'es' && pricing?.prices.usd ? usdValue : mxn;
   const priceLine = pricing ? (currentLanguage !== 'es' && pricing.prices.usd ? usdValue : mxn) : t.price(mxn, usdValue);
 
+  // Precio con descuento (solo para mostrarlo; el cobro real lo calcula Stripe)
+  const usingUsd = currentLanguage !== 'es' && !!pricing?.prices.usd;
+  const baseAmount = usingUsd ? pricing!.prices.usd!.amount : pricing?.prices.mxn ? pricing.prices.mxn.amount : passPriceMxn;
+  const baseCurrency = usingUsd ? pricing!.prices.usd!.currency : pricing?.prices.mxn?.currency || 'MXN';
+  const discounted = promo ? money(Math.round(baseAmount * (100 - promo.percentOff)) / 100, baseCurrency, locale) : null;
+
   const accent = 'text-oro';
   const benefits = [
     { icon: <Clock className={`w-4 h-4 ${accent}`} />, title: t.benefits.accessTitle(hours), desc: t.benefits.accessDesc },
@@ -125,13 +168,20 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     setError(null);
     setBusy('checkout');
     track('checkout_start', { l: currentLanguage });
-    const r = await startCheckout(siteId, currentLanguage);
+    const r = await startCheckout(siteId, currentLanguage, promo?.code);
     if (r.ok) {
       // Se sale a la página segura de Stripe; al pagar, Stripe regresa a esta app
       window.location.assign(r.data.url);
       return;
     }
     setBusy(null);
+    if (r.error === 'promo_invalid' || r.error === 'promo_not_for_site') {
+      // El código dejó de servir (venció o se agotó): se quita y se avisa, sin cobrar nada
+      setPromo(null);
+      clearSavedPromo();
+      setPromoError(r.error);
+      return;
+    }
     setError(r.error);
   };
 
@@ -237,9 +287,19 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         {!hasPass && (
           <div className="mt-4 p-5 rounded-2xl bg-bg border border-oro/40 text-center">
             <p className="text-ui font-semibold text-oro">{t.offerTitle(hours)}</p>
+            {promo && discounted && (
+              <p data-testid="pass-price-original" className="mt-1 text-ui text-ink-3 tabular-nums line-through">
+                {priceLine}
+              </p>
+            )}
             <p data-testid="pass-price" className="mt-1 font-serif text-[2.5rem] leading-tight font-medium tabular-nums">
-              {priceLine}
+              {promo && discounted ? discounted : priceLine}
             </p>
+            {promo && (
+              <p data-testid="promo-applied" className="mt-1 text-cap font-semibold text-jade">
+                {t.promo.applied(promo.code, promo.percentOff)}
+              </p>
+            )}
             <p className="text-cap text-ink-3 mt-1">{t.priceNote}</p>
           </div>
         )}
@@ -272,7 +332,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                 disabled={busy !== null}
                 className="w-full min-h-[3.25rem] px-4 rounded-full bg-oro text-on-oro text-ui font-bold inline-flex items-center justify-center gap-2 cursor-pointer active:scale-[0.98] transition-transform disabled:opacity-60"
               >
-                <span>{busy === 'checkout' ? t.redirecting : t.payButton(primaryPrice)}</span>
+                <span>{busy === 'checkout' ? t.redirecting : t.payButton(promo && discounted ? discounted : primaryPrice)}</span>
                 <ExternalLink className="w-4 h-4" />
               </button>
               <p className="flex items-center justify-center gap-1.5 text-[12px] text-ink-3">
@@ -286,6 +346,54 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             <p data-testid="payments-unavailable" className="text-ui text-center text-ink-2">
               {t.unavailable}
             </p>
+          )}
+
+          {!hasPass && PAYMENTS_ENABLED && (
+            <div>
+              <button
+                type="button"
+                id="btn-have-promo"
+                onClick={() => {
+                  setShowPromo((v) => !v);
+                  setPromoError(null);
+                }}
+                aria-expanded={showPromo}
+                className="w-full min-h-11 inline-flex items-center justify-center gap-2 text-ui font-semibold text-ink-2 cursor-pointer rounded-full active:bg-raised"
+              >
+                <Tag className="w-4 h-4" />
+                <span>{t.promo.toggle}</span>
+              </button>
+              {showPromo && (
+                <form
+                  className="mt-2 flex items-stretch gap-2"
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    if (promoInput.trim() && !promoBusy) void applyPromo(promoInput);
+                  }}
+                >
+                  <input
+                    id="input-promo-code"
+                    value={promoInput}
+                    onChange={(e) => setPromoInput(e.target.value.toUpperCase())}
+                    placeholder={t.promo.placeholder}
+                    aria-label={t.promo.label}
+                    autoCapitalize="characters"
+                    autoComplete="off"
+                    spellCheck={false}
+                    maxLength={40}
+                    className="flex-1 min-w-0 min-h-12 px-4 rounded-full bg-bg border border-line-strong font-mono tracking-[0.08em] text-ink outline-none focus:border-jade"
+                  />
+                  <button type="submit" id="btn-apply-promo" disabled={promoBusy || !promoInput.trim()} className="btn-primary min-h-12 disabled:opacity-50">
+                    {promoBusy ? t.verifying : t.promo.apply}
+                  </button>
+                </form>
+              )}
+              {promoError && (
+                <p role="alert" data-testid="promo-error" className="mt-2 text-ui font-semibold text-tezontle">
+                  {t.errors[promoError]}
+                </p>
+              )}
+            </div>
           )}
 
           {!hasPass && PAYMENTS_ENABLED && (

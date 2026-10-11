@@ -1,6 +1,7 @@
 // Servidor de pagos y de audios de pago de Audioguías México (Cloudflare Worker).
 //
 //   POST /checkout   crea una sesión de pago de Stripe y devuelve la dirección a donde mandar al visitante
+//   POST /promo      revisa un código de descuento (porcentaje) para un sitio, sin cobrar nada
 //   POST /redeem     el visitante regresó de pagar: se confirma con Stripe y se le da una clave de acceso
 //   POST /code       un segundo dispositivo entra con el código corto del pase
 //   POST /status     revisa si una clave sigue vigente
@@ -290,6 +291,42 @@ async function readJson(request) {
 // La app manda el id del sitio como viene de sites.json ("MNA"); aquí siempre se compara en minúsculas.
 const siteKey = (v) => String(v || '').trim().toLowerCase();
 
+const PROMO_RE = /^[A-Za-z0-9-]{2,40}$/;
+
+/**
+ * Busca un código de descuento en Stripe (Promotion Code) y revisa que sirva para este sitio.
+ * Los códigos y cupones se crean en el panel de Stripe. Para limitarlo a ciertos museos o sitios se agrega
+ * al CÓDIGO el dato (metadata) "sitios" con los ids separados por comas (por ejemplo: mna,otro). Sin ese dato, sirve en cualquier sitio.
+ * Solo se aceptan cupones de porcentaje. Devuelve { id, code, percentOff } o { error }.
+ */
+async function lookupPromo(env, rawCode, siteId) {
+  const code = String(rawCode || '').trim();
+  if (!PROMO_RE.test(code)) return { error: 'promo_invalid' };
+  let list;
+  try {
+    list = await stripeCall(env, 'GET', `promotion_codes?code=${encodeURIComponent(code)}&active=true&limit=1`);
+  } catch (e) {
+    console.error('promo', e.message);
+    return { error: 'stripe_error' };
+  }
+  const promo = list?.data?.[0];
+  const coupon = promo?.coupon;
+  if (!promo || !promo.active || !coupon || coupon.valid === false || typeof coupon.percent_off !== 'number') return { error: 'promo_invalid' };
+  const sitios = String(promo.metadata?.sitios || '').split(',').map((x) => x.trim().toLowerCase()).filter(Boolean);
+  if (sitios.length && !sitios.includes('todos') && !sitios.includes(siteId)) return { error: 'promo_not_for_site' };
+  return { id: promo.id, code: String(promo.code || code).toUpperCase(), percentOff: coupon.percent_off };
+}
+
+async function handlePromo(request, env, cfg, cors) {
+  const body = await readJson(request);
+  if (!body) return json({ error: 'bad_request' }, 400, cors);
+  const siteId = siteKey(body.siteId);
+  if (!cfg.sites.includes(siteId)) return json({ error: 'bad_request' }, 400, cors);
+  const r = await lookupPromo(env, body.code, siteId);
+  if (r.error) return json({ error: r.error }, r.error === 'stripe_error' ? 502 : 404, cors);
+  return json({ code: r.code, percentOff: r.percentOff }, 200, cors);
+}
+
 async function handleCheckout(request, env, cfg, cors) {
   const body = await readJson(request);
   if (!body) return json({ error: 'bad_request' }, 400, cors);
@@ -312,6 +349,13 @@ async function handleCheckout(request, env, cfg, cors) {
   const priceId = useUsd ? env.STRIPE_PRICE_ID_USD : env.STRIPE_PRICE_ID_MXN;
   if (!priceId || priceId.startsWith('REEMPLAZA')) return json({ error: 'not_configured' }, 503, cors);
 
+  // Código de descuento (opcional). Si viene y no sirve, se avisa en lugar de cobrar el precio completo sin que la persona lo note.
+  let promo = null;
+  if (body.promo) {
+    promo = await lookupPromo(env, body.promo, siteId);
+    if (promo.error) return json({ error: promo.error }, promo.error === 'stripe_error' ? 502 : 404, cors);
+  }
+
   const params = new URLSearchParams();
   params.set('mode', 'payment');
   params.set('line_items[0][price]', priceId);
@@ -322,12 +366,18 @@ async function handleCheckout(request, env, cfg, cors) {
   params.set('client_reference_id', deviceId);
   params.set('metadata[site_id]', siteId);
   params.set('metadata[device_id]', deviceId);
+  if (promo) {
+    params.set('discounts[0][promotion_code]', promo.id);
+    params.set('metadata[promo]', promo.code);
+  }
 
   try {
     const session = await stripeCall(env, 'POST', 'checkout/sessions', params);
     return json({ url: session.url, sessionId: session.id }, 200, cors);
   } catch (e) {
     console.error('checkout', e.message);
+    // Un código que se agotó o venció entre la revisión y el cobro
+    if (promo && /promotion|coupon|redeem/i.test(e.message)) return json({ error: 'promo_invalid' }, 404, cors);
     return json({ error: 'stripe_error' }, 502, cors);
   }
 }
@@ -511,6 +561,7 @@ export default {
       if (request.method === 'POST') {
         if (!env.TOKEN_SECRET || !env.STRIPE_SECRET_KEY) return json({ error: 'not_configured' }, 503, cors);
         if (url.pathname === '/checkout') return handleCheckout(request, env, cfg, cors);
+        if (url.pathname === '/promo') return handlePromo(request, env, cfg, cors);
         if (url.pathname === '/redeem') return handleRedeem(request, env, cfg, cors);
         if (url.pathname === '/code') return handleCode(request, env, cfg, cors);
         if (url.pathname === '/status') return handleStatus(request, env, cors);

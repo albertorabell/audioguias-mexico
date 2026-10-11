@@ -65,6 +65,16 @@ beforeEach(() => {
     if (u.endsWith('/v1/checkout/sessions') && init.method === 'POST') return ok({ id: 'cs_test_NUEVA1234567', url: 'https://checkout.stripe.com/c/pay/cs_test_NUEVA1234567' });
     const m = u.match(/\/v1\/checkout\/sessions\/(.+)$/);
     if (m) return stripeSessions[m[1]] ? ok(stripeSessions[m[1]]) : new Response(JSON.stringify({ error: { code: 'resource_missing', message: 'No such session' } }), { status: 404 });
+    if (u.includes('/v1/promotion_codes?')) {
+      const code = new URL(u).searchParams.get('code').toLowerCase();
+      const PROMOS = {
+        'hotel-demo': { id: 'promo_1', code: 'HOTEL-DEMO', active: true, metadata: {}, coupon: { valid: true, percent_off: 10 } },
+        'solo-otro': { id: 'promo_2', code: 'SOLO-OTRO', active: true, metadata: { sitios: 'otro,mas' }, coupon: { valid: true, percent_off: 15 } },
+        'solo-mna': { id: 'promo_3', code: 'SOLO-MNA', active: true, metadata: { sitios: 'MNA' }, coupon: { valid: true, percent_off: 15 } },
+        'fijo': { id: 'promo_4', code: 'FIJO', active: true, metadata: {}, coupon: { valid: true, amount_off: 5000, percent_off: null } },
+      };
+      return ok({ data: PROMOS[code] ? [PROMOS[code]] : [] });
+    }
     const p = u.match(/\/v1\/prices\/(.+)$/);
     if (p) return ok(p[1] === 'price_mxn_1' ? { unit_amount: 7900, currency: 'mxn' } : { unit_amount: 499, currency: 'usd' });
     throw new Error('llamada inesperada: ' + u);
@@ -543,4 +553,49 @@ test('/texto: sin clave, con clave falsa, vencida o cancelada → 401; con clave
   conSesionPorPago('pi_TXT', 'cs_test_PAGADA123456');
   await enviarWebhook({ type: 'charge.refunded', data: { object: { refunded: true, payment_intent: 'pi_TXT' } } });
   assert.equal((await pedir(red.token)).status, 401);
+});
+
+// ---- Códigos de descuento ----
+const GOOD = { siteId: 'mna', lang: 'es', deviceId: DEV1, returnUrl: `${ORIGIN}/audioguias-mexico/` };
+
+test('/promo: un código válido devuelve su porcentaje (sin importar mayúsculas)', async () => {
+  const r = await call('/promo', { body: { siteId: 'mna', code: 'hotel-demo' } });
+  assert.equal(r.status, 200);
+  assert.deepEqual(await r.json(), { code: 'HOTEL-DEMO', percentOff: 10 });
+});
+
+test('/promo: código que no existe, mal escrito o de monto fijo → promo_invalid', async () => {
+  for (const code of ['NOEXISTE', 'a b', '', 'FIJO']) {
+    const r = await call('/promo', { body: { siteId: 'mna', code } });
+    assert.equal(r.status, 404, code);
+    assert.equal((await r.json()).error, 'promo_invalid');
+  }
+});
+
+test('/promo: un código limitado a otros sitios no sirve en este; uno limitado a este sí', async () => {
+  const no = await call('/promo', { body: { siteId: 'mna', code: 'SOLO-OTRO' } });
+  assert.equal(no.status, 404);
+  assert.equal((await no.json()).error, 'promo_not_for_site');
+  const si = await call('/promo', { body: { siteId: 'mna', code: 'SOLO-MNA' } });
+  assert.equal(si.status, 200);
+});
+
+test('/checkout con código: agrega el descuento a la sesión de Stripe y lo anota', async () => {
+  const r = await call('/checkout', { body: { ...GOOD, promo: 'hotel-demo' } });
+  assert.equal(r.status, 200);
+  const p = new URLSearchParams(stripeCalls[stripeCalls.length - 1].body);
+  assert.equal(p.get('discounts[0][promotion_code]'), 'promo_1');
+  assert.equal(p.get('metadata[promo]'), 'HOTEL-DEMO');
+});
+
+test('/checkout con un código que no sirve: se rechaza y NO se crea el cobro', async () => {
+  const r = await call('/checkout', { body: { ...GOOD, promo: 'NOEXISTE' } });
+  assert.equal(r.status, 404);
+  assert.equal((await r.json()).error, 'promo_invalid');
+  assert.equal(stripeCalls.some((c) => c.url.endsWith('/v1/checkout/sessions')), false);
+});
+
+test('/checkout sin código no manda descuentos', async () => {
+  await call('/checkout', { body: GOOD });
+  assert.equal(new URLSearchParams(stripeCalls[stripeCalls.length - 1].body).has('discounts[0][promotion_code]'), false);
 });
