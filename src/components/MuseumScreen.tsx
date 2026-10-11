@@ -155,12 +155,13 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
             </div>
             <p className="px-5 mt-1 text-ui text-ink-3">{u.museum.startHereSub}</p>
             <div className="mt-4 flex gap-3 overflow-x-auto snap-x snap-mandatory scrollbar-none px-5 pb-1">
-              {routes.map((route) => {
+              {routes.map((route, routeIdx) => {
                 const minutes = route.estimated_minutes || calculateRouteTimeMinutes(route.stops);
                 return (
                   <button
                     key={route.id}
                     type="button"
+                    id={routeIdx === 0 ? 'first-route-card' : undefined}
                     onClick={() => onStartRoute(route)}
                     className="snap-start shrink-0 w-[78%] max-w-[320px] text-left rounded-2xl bg-surface border border-line overflow-hidden cursor-pointer active:scale-[0.99] transition-transform"
                   >
@@ -277,7 +278,7 @@ export const FloorSwitch: React.FC<{
     { id: 'PA', label: u.floors.PA, sub: u.floors.PAsub, n: countPA },
   ];
   return (
-    <div role="tablist" aria-label={u.floors.aria} className="grid grid-cols-2 p-1 rounded-2xl bg-surface border border-line">
+    <div id="floor-switch" role="tablist" aria-label={u.floors.aria} className="grid grid-cols-2 p-1 rounded-2xl bg-surface border border-line">
       {opts.map((o) => {
         const on = floor === o.id;
         return (

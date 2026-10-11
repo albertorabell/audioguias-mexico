@@ -6,52 +6,79 @@ test.beforeEach(async ({ page }) => {
   await aislar(page);
 });
 
-// ───────────────────────── Introducción ─────────────────────────
+// ───────────────────────── Guías con flechas ─────────────────────────
 
-/** Entra al museo como si fuera la primera vez (sin la marca de «introducción vista»). */
+/** Entra al museo como si fuera la primera vez (sin la marca de «guía vista»). */
 async function entrarComoNuevo(page) {
   await page.goto('/');
-  await page.evaluate(() => localStorage.removeItem('audioguias_intro_seen'));
+  await page.evaluate(() => {
+    localStorage.removeItem('audioguias_tour_museo');
+    localStorage.removeItem('audioguias_tour_pieza');
+  });
   await page.locator('#sites-grid-section [role=button]').first().click();
 }
 
-test('introducción: la primera vez se abre sola, avanza por los seis pasos y el último lleva a armar la ruta', async ({ page }) => {
+/** Posición en pantalla de un elemento. */
+async function caja(page, selector) {
+  return page.locator(selector).first().boundingBox();
+}
+
+test('guía del museo: se abre sola, señala los botones reales y el último paso lleva a armar la ruta', async ({ page }) => {
   await entrarComoNuevo(page);
   const intro = page.locator('#modal-intro');
   await expect(intro).toBeVisible();
-  await expect(page.getByTestId('intro-step-label')).toHaveText('Paso 1 de 6');
-  for (let i = 2; i <= 6; i++) {
-    await page.locator('#btn-intro-next').click();
-    await expect(page.getByTestId('intro-step-label')).toHaveText(`Paso ${i} de 6`);
-  }
-  await expect(page.locator('#btn-intro-next')).toHaveCount(0);
+  await expect(page.getByTestId('intro-step-label')).toHaveText(/^1 de \d+$/);
+  await expect(page.getByTestId('intro-title')).toHaveText('Bienvenido a tu guía');
+  // El segundo paso señala el primer recorrido: el resaltado cae sobre esa tarjeta
+  await page.locator('#btn-intro-next').click();
+  await expect(page.getByTestId('intro-title')).toHaveText('Recorridos ya armados');
+  await expect(async () => {
+    const spot = await page.getByTestId('coach-spot').boundingBox();
+    const card = await caja(page, '#first-route-card');
+    expect(Math.abs(spot.y - (card.y - 6))).toBeLessThan(4);
+    expect(Math.abs(spot.x - (card.x - 6))).toBeLessThan(4);
+  }).toPass();
+  // Tercer paso: el botón de armar ruta
+  await page.locator('#btn-intro-next').click();
+  await expect(page.getByTestId('intro-title')).toHaveText('Arma tu propia ruta');
+  await expect(async () => {
+    const spot = await page.getByTestId('coach-spot').boundingBox();
+    const btn = await caja(page, '#btn-open-wizard');
+    expect(Math.abs(spot.y - (btn.y - 6))).toBeLessThan(4);
+  }).toPass();
+  // «Anterior» regresa un paso
+  await page.locator('#btn-intro-back').click();
+  await expect(page.getByTestId('intro-title')).toHaveText('Recorridos ya armados');
+  // Hasta el último paso
+  while ((await page.locator('#btn-intro-next').count()) > 0) await page.locator('#btn-intro-next').click();
+  await expect(page.getByTestId('intro-title')).toHaveText('¡Listo!');
   await page.locator('#btn-intro-configure').click();
   await expect(intro).toHaveCount(0);
   await expect(page.locator('#q1-title')).toBeVisible();
-  expect(await page.evaluate(() => localStorage.getItem('audioguias_intro_seen'))).toBe('1');
-  // «Atrás» desde el asistente regresa al museo y la introducción no vuelve a abrirse sola
+  expect(await page.evaluate(() => localStorage.getItem('audioguias_tour_museo'))).toBe('1');
+  // «Atrás» desde el asistente regresa al museo y la guía no vuelve a abrirse sola
   await page.goBack();
   await expect(page.locator('#btn-open-wizard')).toBeVisible();
   await expect(intro).toHaveCount(0);
 });
 
-test('introducción: «Omitir» la cierra y se marca como vista; «¿Cómo se usa?» la vuelve a abrir desde el paso 1', async ({ page }) => {
+test('guía del museo: «Omitir» la cierra y se marca como vista; «¿Cómo se usa?» la vuelve a abrir desde el paso 1', async ({ page }) => {
   await entrarComoNuevo(page);
   await expect(page.locator('#modal-intro')).toBeVisible();
   await page.locator('#btn-intro-skip').click();
   await expect(page.locator('#modal-intro')).toHaveCount(0);
-  expect(await page.evaluate(() => localStorage.getItem('audioguias_intro_seen'))).toBe('1');
+  expect(await page.evaluate(() => localStorage.getItem('audioguias_tour_museo'))).toBe('1');
   await page.locator('#btn-open-intro').click();
-  await expect(page.getByTestId('intro-step-label')).toHaveText('Paso 1 de 6');
+  await expect(page.getByTestId('intro-step-label')).toHaveText(/^1 de \d+$/);
   await page.locator('#btn-intro-next').click();
-  await expect(page.getByTestId('intro-step-label')).toHaveText('Paso 2 de 6');
+  await expect(page.getByTestId('intro-step-label')).toHaveText(/^2 de \d+$/);
   // El botón «atrás» del teléfono la cierra sin salir del museo
   await page.goBack();
   await expect(page.locator('#modal-intro')).toHaveCount(0);
   await expect(page.locator('#btn-open-wizard')).toBeVisible();
 });
 
-test('introducción: ya vista, no se abre sola al volver a entrar; en inglés sale en inglés', async ({ page }) => {
+test('guía del museo: ya vista, no se abre sola al volver a entrar; en inglés sale en inglés', async ({ page }) => {
   await page.goto('/');
   await page.locator('#sites-grid-section [role=button]').first().click();
   await expect(page.locator('#btn-open-wizard')).toBeVisible();
@@ -60,8 +87,52 @@ test('introducción: ya vista, no se abre sola al volver a entrar; en inglés sa
   await elegirIdioma(page, 'English');
   await page.locator('#sites-grid-section [role=button]').first().click();
   await page.locator('#btn-open-intro').click();
-  await expect(page.getByTestId('intro-step-label')).toHaveText('Step 1 of 6');
-  await expect(page.getByTestId('intro-title')).toHaveText('Welcome to your pocket guide');
+  await expect(page.getByTestId('intro-step-label')).toHaveText(/^1 of \d+$/);
+  await expect(page.getByTestId('intro-title')).toHaveText('Welcome to your guide');
+});
+
+test('guía de la obra: la primera vez señala escuchar, versión corta/completa, texto, siguiente, regresar y buscar', async ({ page }) => {
+  await page.goto('/');
+  await page.evaluate(() => localStorage.removeItem('audioguias_tour_pieza'));
+  await abrirPieza(page, FREE.title);
+  const tour = page.locator('#modal-piece-tour');
+  await expect(tour).toBeVisible();
+  await expect(page.getByTestId('intro-title')).toHaveText('Toca aquí para escuchar');
+  // El resaltado cae sobre el botón de escuchar
+  await expect(async () => {
+    const spot = await page.getByTestId('coach-spot').boundingBox();
+    const btn = await caja(page, '#btn-master-play-piece');
+    expect(Math.abs(spot.y - (btn.y - 6))).toBeLessThan(4);
+    expect(Math.abs(spot.x - (btn.x - 6))).toBeLessThan(4);
+  }).toPass();
+  // El globo no se sale de la pantalla
+  const globo = await tour.locator('[aria-live=polite]').boundingBox();
+  const vp = page.viewportSize();
+  expect(globo.x).toBeGreaterThanOrEqual(0);
+  expect(globo.x + globo.width).toBeLessThanOrEqual(vp.width);
+  expect(globo.y).toBeGreaterThanOrEqual(0);
+  expect(globo.y + globo.height).toBeLessThanOrEqual(vp.height);
+  // Segundo paso: versión corta/completa (si la obra tiene las dos)
+  await page.locator('#btn-intro-next').click();
+  const titulos = [];
+  titulos.push(await page.getByTestId('intro-title').innerText());
+  while ((await page.locator('#btn-intro-next').count()) > 0) {
+    await page.locator('#btn-intro-next').click();
+    titulos.push(await page.getByTestId('intro-title').innerText());
+  }
+  expect(titulos).toContain('Aquí puedes leer');
+  expect(titulos).toContain('Siguiente obra');
+  expect(titulos).toContain('Buscar');
+  await page.locator('#btn-intro-done').click();
+  await expect(tour).toHaveCount(0);
+  expect(await page.evaluate(() => localStorage.getItem('audioguias_tour_pieza'))).toBe('1');
+  // No vuelve a abrirse sola, pero el botón de ayuda de arriba la abre otra vez
+  await expect(page.locator('#btn-piece-help')).toBeVisible();
+  await page.locator('#btn-piece-help').click();
+  await expect(tour).toBeVisible();
+  await expect(page.getByTestId('intro-title')).toHaveText('Toca aquí para escuchar');
+  await page.locator('#btn-intro-skip').click();
+  await expect(tour).toHaveCount(0);
 });
 
 // ───────────────────────── Idioma ─────────────────────────
