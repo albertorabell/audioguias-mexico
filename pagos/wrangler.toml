@@ -9,6 +9,8 @@ ALLOWED_ORIGINS = "https://albertorabell.github.io"
 SITE_IDS = "mna"
 PASS_HOURS = "72"
 MAX_DEVICES = "2"
+# MODO DE PRUEBAS: "1" = todos entran gratis (no se pide pase). Para volver a cobrar, cambia a "0" y vuelve a publicar el servidor.
+ACCESO_LIBRE = "1"
 # Identificadores de precio de Stripe (empiezan con price_). Se crean en el panel de Stripe.
 STRIPE_PRICE_ID_MXN = "price_1UNkSRPWcFq3JIhnDC2ZhLZJ"
 STRIPE_PRICE_ID_USD = ""

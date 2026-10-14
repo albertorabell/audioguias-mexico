@@ -19,6 +19,28 @@ export function getOrCreateDeviceId(): string {
   }
 }
 
+const FREE_KEY = 'audioguias_acceso_libre';
+const FREE_TOKEN = 'libre';
+const FAR_FUTURE = 4102444800000; // año 2100
+
+/** Modo de pruebas: el servidor avisó que todo es gratis, así que no se pide pase. */
+export function isFreeAccess(): boolean {
+  try {
+    return localStorage.getItem(FREE_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+export function setFreeAccess(on: boolean): void {
+  try {
+    if (on) localStorage.setItem(FREE_KEY, '1');
+    else localStorage.removeItem(FREE_KEY);
+  } catch {
+    /* sin almacenamiento: no se recuerda */
+  }
+}
+
 const keyFor = (siteId: string) => `${STORAGE_KEY_PREFIX}${siteId.toLowerCase()}`;
 
 function clearPass(siteId: string): void {
@@ -35,6 +57,7 @@ function clearPass(siteId: string): void {
 
 /** El pase guardado en este dispositivo para ese sitio, si sigue vigente. */
 export function getSiteLicense(siteId: string): SiteLicense | null {
+  if (isFreeAccess()) return { site_id: siteId.toLowerCase(), expires_at: FAR_FUTURE, device_id: getOrCreateDeviceId(), token: FREE_TOKEN };
   try {
     const raw = localStorage.getItem(keyFor(siteId));
     if (raw) {
@@ -96,6 +119,7 @@ export function activatePass(siteId: string, hours = PASS_HOURS, grant: PassGran
 }
 
 export function revokePass(siteId: string): void {
+  setFreeAccess(false); // si el servidor ya no regala el acceso, se vuelve a pedir pase
   clearPass(siteId);
 }
 

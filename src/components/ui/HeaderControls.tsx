@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Check, Globe, Lock, Moon, ShieldCheck, Sun } from 'lucide-react';
 import { useLanguage } from '../../utils/LanguageContext';
 import { useTheme } from '../../utils/ThemeContext';
+import { isFreeAccess } from '../../utils/license';
 
 /** Botón de idioma con su menú. Con un solo idioma publicado no se muestra. */
 export const LanguageMenu: React.FC = () => {
@@ -89,6 +90,16 @@ export const ThemeButton: React.FC = () => {
 /** Estado del pase: "Pase" (comprar) o "Pase activo". Los ids los usan las pruebas. */
 export const PassButton: React.FC<{ hasPass: boolean; onClick: () => void }> = ({ hasPass, onClick }) => {
   const t = useLanguage().strings.ui.pass;
+  if (hasPass && isFreeAccess()) {
+    return (
+      <span id="free-access-indicator" title={t.freeTitle} className="h-11 px-0.5 inline-flex items-center">
+        <span className="h-9 px-3 rounded-full inline-flex items-center gap-1.5 text-cap font-bold text-jade border border-jade/40">
+          <ShieldCheck className="w-4 h-4" strokeWidth={2} />
+          <span>{t.free}</span>
+        </span>
+      </span>
+    );
+  }
   return hasPass ? (
     <button id="btn-pass-indicator" type="button" onClick={onClick} title={t.activeTitle} className="h-11 px-0.5 inline-flex items-center cursor-pointer group">
       <span className="h-9 px-3 rounded-full inline-flex items-center gap-1.5 text-cap font-bold text-jade border border-jade/40 group-active:bg-raised">

@@ -59,7 +59,13 @@ export interface PricingInfo {
 export async function fetchPricing(): Promise<PricingInfo | null> {
   const r = await call('/config');
   // Sin precio en pesos no hay nada confiable que mostrar: la ventana usa los precios de la ficha del sitio
-  return r.ok && r.data?.prices?.mxn ? (r.data as PricingInfo) : null;
+  return r.ok && !r.data?.free && r.data?.prices?.mxn ? (r.data as PricingInfo) : null;
+}
+
+/** ¿El servidor está en modo de pruebas (todo gratis)? null si no se pudo saber (sin internet o sin servidor): entonces no se cambia nada. */
+export async function fetchAccessMode(): Promise<boolean | null> {
+  const r = await call('/config');
+  return r.ok ? r.data?.free === true : null;
 }
 
 /** Pide la página de pago de Stripe. Si sale bien, hay que mandar al visitante a `url`. */

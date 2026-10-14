@@ -223,6 +223,19 @@ test('MP3 de pago: sin pase la pieza está bloqueada y abre la ventana de pago',
   expect(await page.evaluate(() => window.__plays.length)).toBe(0);
 });
 
+test('acceso libre (pruebas): si el servidor lo avisa, la pieza de pago se abre sin pase y se muestra "Acceso libre"', async ({ page }) => {
+  await simularCobro(page, { libre: true });
+  await simularAudio(page, { privado: true });
+  await page.goto('/');
+  await abrirPieza(page, PREMIUM.title);
+  await expect(page.locator('#free-access-indicator').first()).toBeVisible();
+  await expect(page.locator('#btn-unlock-pass-nav')).toHaveCount(0);
+  await expect(page.locator('#btn-master-play-piece')).not.toContainText('Desbloquear audio');
+  await page.locator('#btn-master-play-piece').click();
+  await expect.poll(() => page.evaluate(() => window.__plays.length)).toBeGreaterThan(0);
+  await expect(page.locator('#modal-paywall')).toHaveCount(0);
+});
+
 // ───────────────────────── Cobro ─────────────────────────
 
 test('cobro: la ventana muestra el precio real, y "Pagar" manda a Stripe con los datos correctos', async ({ page }) => {

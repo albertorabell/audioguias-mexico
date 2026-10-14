@@ -48,6 +48,8 @@ function settings(env) {
     maxDevices: num(env.MAX_DEVICES, 2),
     // Cuántos días después de pagar se puede canjear por primera vez (el pase empieza a contar al canjear)
     sessionDays: num(env.SESSION_MAX_DAYS, 30),
+    // Modo de pruebas: con "1" todo el contenido de pago se entrega sin pase (no se necesita Stripe)
+    free: String(env.ACCESO_LIBRE ?? '0').trim() === '1',
   };
 }
 
@@ -439,6 +441,7 @@ async function handleStatus(request, env, cors) {
 }
 
 async function handleConfig(env, cfg, cors) {
+  if (cfg.free) return json({ free: true, prices: {}, passHours: cfg.hours, maxDevices: cfg.maxDevices }, 200, { ...cors, 'Cache-Control': 'no-store' });
   let prices = {};
   try {
     prices = await getPrices(env);
@@ -478,7 +481,7 @@ async function handleAudio(request, env, cfg, cors, url) {
   const m = url.pathname.match(AUDIO_RE);
   if (!m) return new Response('No encontrado', { status: 404, headers: cors });
   const premium = m[1] === 'pago';
-  if (premium) {
+  if (premium && !cfg.free) {
     const payload = await verifyToken(url.searchParams.get('t'), env.TOKEN_SECRET);
     if (!payload || !cfg.sites.includes(payload.site) || (await isRevoked(env, payload.sid))) return new Response('Sin acceso', { status: 401, headers: cors });
   }
@@ -521,9 +524,11 @@ async function handleAudio(request, env, cfg, cors, url) {
 async function handleText(request, env, cfg, cors, url) {
   const m = url.pathname.match(TEXT_RE);
   if (!m) return new Response('No encontrado', { status: 404, headers: cors });
-  const payload = await verifyToken(url.searchParams.get('t'), env.TOKEN_SECRET);
-  if (!payload || !cfg.sites.includes(payload.site) || (await isRevoked(env, payload.sid))) {
-    return new Response('Sin acceso', { status: 401, headers: cors });
+  if (!cfg.free) {
+    const payload = await verifyToken(url.searchParams.get('t'), env.TOKEN_SECRET);
+    if (!payload || !cfg.sites.includes(payload.site) || (await isRevoked(env, payload.sid))) {
+      return new Response('Sin acceso', { status: 401, headers: cors });
+    }
   }
   const object = await env.AUDIO.get(`texto/${m[1]}.json`);
   if (!object) return new Response('No encontrado', { status: 404, headers: cors });

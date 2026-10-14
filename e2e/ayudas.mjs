@@ -57,6 +57,7 @@ export async function simularCobro(page, opciones = {}) {
 
     switch (url.pathname) {
       case '/config':
+        if (api.libre) return json(200, { free: true, prices: {}, passHours: 72, maxDevices: 2 });
         return json(200, {
           prices: { mxn: { amount: 79, currency: 'mxn' }, usd: { amount: 4.99, currency: 'usd' } },
           passHours: 72,
@@ -79,7 +80,7 @@ export async function simularCobro(page, opciones = {}) {
       default:
         if (url.pathname.startsWith('/texto/')) {
           const lang = url.pathname.replace('/texto/', '').replace('.json', '');
-          if (api.texto === 'denegado' || url.searchParams.get('t') !== TOKEN) return route.fulfill({ status: 401, headers: CORS, body: 'Sin acceso' });
+          if (api.texto === 'denegado' || (!api.libre && url.searchParams.get('t') !== TOKEN)) return route.fulfill({ status: 401, headers: CORS, body: 'Sin acceso' });
           if (!TEXTOS[lang]) return json(404, { error: 'not_found' });
           return json(200, TEXTOS[lang]);
         }
