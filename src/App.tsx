@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { X } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, PieceData, SiteLicense, Room } from './types';
-import { getSiteLicense, activatePass, revokePass, hasActivePass } from './utils/license';
-import { readPaymentReturn, redeemPendingSession, RETRYABLE_ERRORS, capturePromoFromUrl } from './utils/payments';
+import { getSiteLicense, activatePass, revokePass, hasActivePass, isFreeAccess, setFreeAccess } from './utils/license';
+import { fetchAccessMode, readPaymentReturn, redeemPendingSession, RETRYABLE_ERRORS, capturePromoFromUrl } from './utils/payments';
 import { PASS_HOURS } from './config/pass';
 import { Home } from './components/Home';
 import { MuseumScreen, ContinueInfo, byOrder } from './components/MuseumScreen';
@@ -294,6 +294,19 @@ export default function App() {
         setPaymentNotice(null);
       }
     })();
+  }, []);
+
+  // Modo de pruebas: se pregunta al servidor si todo es gratis. Sin respuesta (sin internet) se deja como estaba.
+  useEffect(() => {
+    let alive = true;
+    void fetchAccessMode().then((free) => {
+      if (!alive || free === null || free === isFreeAccess()) return;
+      setFreeAccess(free);
+      setLicenseVersion((v) => v + 1);
+    });
+    return () => {
+      alive = false;
+    };
   }, []);
 
   useEffect(() => {

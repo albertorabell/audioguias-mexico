@@ -311,7 +311,7 @@ export const PL_GROUPS: Record<string, any> = {
     roomsCount: rooms,
     routeMeta: (d: string, s: number) => `${d} · ${works(s)}`,
     tabs: { aria: 'Sekcje muzeum', museum: 'Muzeum', routes: 'Trasy', map: 'Mapa', search: 'Szukaj' },
-    pass: { buy: 'Karnet', active: 'Karnet aktywny', activeTitle: 'Twój karnet jest aktywny' },
+    pass: { buy: 'Karnet', active: 'Karnet aktywny', activeTitle: 'Twój karnet jest aktywny', free: 'Wolny dostęp', freeTitle: 'Trwają testy: cała zawartość jest otwarta' },
     floors: { aria: 'Piętro', PB: 'Parter', PBsub: 'Archeologia', PA: 'Piętro', PAsub: 'Etnografia' },
     home: {
       subtitle: 'Posłuchaj historii każdego dzieła przed jego gablotą, sala po sali.',

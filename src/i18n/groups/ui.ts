@@ -26,6 +26,8 @@ export const ui = defineGroup(
       buy: 'Pase',
       active: 'Pase activo',
       activeTitle: 'Tu pase está activo',
+      free: 'Acceso libre',
+      freeTitle: 'Estamos en pruebas: todo el contenido está abierto',
     },
     floors: {
       aria: 'Piso',
@@ -158,6 +160,8 @@ export const ui = defineGroup(
       buy: 'Pass',
       active: 'Pass active',
       activeTitle: 'Your pass is active',
+      free: 'Free access',
+      freeTitle: 'We are in testing: all content is open',
     },
     floors: {
       aria: 'Floor',
@@ -288,6 +292,8 @@ export const ui = defineGroup(
       buy: 'Pass',
       active: 'Pass actif',
       activeTitle: 'Votre pass est actif',
+      free: 'Accès libre',
+      freeTitle: 'Phase de test : tout le contenu est ouvert',
     },
     floors: {
       aria: 'Étage',

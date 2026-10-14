@@ -599,3 +599,22 @@ test('/checkout sin código no manda descuentos', async () => {
   await call('/checkout', { body: GOOD });
   assert.equal(new URLSearchParams(stripeCalls[stripeCalls.length - 1].body).has('discounts[0][promotion_code]'), false);
 });
+
+// ---- Modo de pruebas (ACCESO_LIBRE) ----
+test('ACCESO_LIBRE=1: /config avisa free sin llamar a Stripe; textos y audios de pago salen sin pase', async () => {
+  env.ACCESO_LIBRE = '1';
+  env.AUDIO = new FakeR2({ 'texto/es.json': Buffer.from('{"v":1,"lang":"es","pieces":{}}'), 'pago/es/p01_corto.mp3': Buffer.from('0123456789') });
+  const cfgRes = await call('/config', { method: 'GET', origin: ORIGIN });
+  assert.equal(cfgRes.status, 200);
+  assert.equal((await cfgRes.json()).free, true);
+  assert.equal(stripeCalls.length, 0);
+  assert.equal((await call('/texto/es.json', { method: 'GET', origin: ORIGIN })).status, 200);
+  assert.equal((await call('/audio/pago/es/p01_corto.mp3', { method: 'GET', origin: ORIGIN })).status, 200);
+});
+
+test('Sin ACCESO_LIBRE (o en "0"): todo sigue pidiendo pase', async () => {
+  env.ACCESO_LIBRE = '0';
+  env.AUDIO = new FakeR2({ 'texto/es.json': Buffer.from('{}'), 'pago/es/p01_corto.mp3': Buffer.from('0123456789') });
+  assert.equal((await call('/texto/es.json', { method: 'GET', origin: ORIGIN })).status, 401);
+  assert.equal((await call('/audio/pago/es/p01_corto.mp3', { method: 'GET', origin: ORIGIN })).status, 401);
+});
