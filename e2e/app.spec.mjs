@@ -227,9 +227,9 @@ test('acceso libre (pruebas): si el servidor lo avisa, la pieza de pago se abre 
   await simularCobro(page, { libre: true });
   await simularAudio(page, { privado: true });
   await page.goto('/');
+  await abrirPieza(page, PREMIUM.title);
   await expect(page.locator('#free-access-indicator').first()).toBeVisible();
   await expect(page.locator('#btn-unlock-pass-nav')).toHaveCount(0);
-  await abrirPieza(page, PREMIUM.title);
   await expect(page.locator('#btn-master-play-piece')).not.toContainText('Desbloquear audio');
   await page.locator('#btn-master-play-piece').click();
   await expect.poll(() => page.evaluate(() => window.__plays.length)).toBeGreaterThan(0);
