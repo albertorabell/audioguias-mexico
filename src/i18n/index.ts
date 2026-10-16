@@ -20,6 +20,8 @@ import { paywall } from './groups/paywall';
 import { ui } from './groups/ui';
 import { intro } from './groups/intro';
 import { PL_GROUPS } from './pl';
+import { SITE_OVERRIDES, SiteKind } from './sitio';
+import { getCurrentSiteKind } from './runtime';
 
 const groups = {
   common,
@@ -47,7 +49,7 @@ const groups = {
 /** Todos los textos de la interfaz, con la forma definida por el español. */
 export type Strings = { [K in keyof typeof groups]: (typeof groups)[K]['es'] };
 
-const cache: Partial<Record<SupportedLanguage, Strings>> = {};
+const cache: Partial<Record<string, Strings>> = {};
 
 function mergeGroup(es: any, other: any): any {
   if (!other) return es;
@@ -61,12 +63,20 @@ function mergeGroup(es: any, other: any): any {
 }
 
 /** Textos en el idioma pedido. Lo que falte en ese idioma se muestra en español. */
-export function getStrings(lang: SupportedLanguage): Strings {
-  if (cache[lang]) return cache[lang]!;
+export function getStrings(lang: SupportedLanguage, kind: SiteKind = getCurrentSiteKind()): Strings {
+  const key = `${lang}:${kind}`;
+  if (cache[key]) return cache[key]!;
   const out: any = {};
   for (const [name, g] of Object.entries(groups) as [string, any][]) {
     out[name] = lang === 'es' ? g.es : mergeGroup(g.es, g[lang] ?? (lang === 'pl' ? PL_GROUPS[name] : undefined));
   }
-  cache[lang] = out as Strings;
-  return cache[lang]!;
+  if (kind === 'site') {
+    // Palabras de sitio arqueológico: primero las del español y encima las del idioma (si las hay)
+    for (const over of [SITE_OVERRIDES.es, lang !== 'es' ? SITE_OVERRIDES[lang] : undefined]) {
+      if (!over) continue;
+      for (const name of Object.keys(over)) out[name] = mergeGroup(out[name], over[name]);
+    }
+  }
+  cache[key] = out as Strings;
+  return cache[key]!;
 }

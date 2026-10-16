@@ -44,6 +44,7 @@ const REQUIRED = {
 
 // Teotihuacán: solo dos rutas. Qué piezas lleva cada una lo decide la columna `rutas` de TEO_PIEZAS
 // (valores separados por "|": express|completa). El orden es el del recorrido: zona y luego orden_sugerido.
+// Las duraciones son estimaciones (audio + caminata + tiempo en cada parada); conviene cronometrarlas una vez en el sitio.
 const TEO_ROUTES = [
   {
     id: 'ruta-express',
@@ -52,12 +53,12 @@ const TEO_ROUTES = [
     name_en: 'Express Route',
     name_fr: 'Parcours express',
     name_pl: 'Trasa ekspresowa',
-    duration: '2–2.5 h',
-    estimated_minutes: 150,
-    description: 'Los doce lugares imprescindibles de Teotihuacán, para quien tiene dos horas y media o menos.',
-    description_en: 'The twelve essential places in Teotihuacán, for visitors with two and a half hours or less.',
-    description_fr: 'Les douze lieux incontournables de Teotihuacán, pour qui dispose de deux heures et demie ou moins.',
-    description_pl: 'Dwanaście najważniejszych miejsc w Teotihuacán, dla osób, które mają dwie i pół godziny lub mniej.',
+    duration: '2.5–3 h',
+    estimated_minutes: 165,
+    description: 'Los doce lugares imprescindibles de Teotihuacán, para quien tiene unas tres horas o menos.',
+    description_en: 'The twelve essential places in Teotihuacán, for visitors with about three hours or less.',
+    description_fr: 'Les douze lieux incontournables de Teotihuacán, pour qui dispose d’environ trois heures ou moins.',
+    description_pl: 'Dwanaście najważniejszych miejsc w Teotihuacán, dla osób, które mają około trzech godzin lub mniej.',
   },
   {
     id: 'ruta-completa',
@@ -66,8 +67,8 @@ const TEO_ROUTES = [
     name_en: 'Complete Route',
     name_fr: 'Parcours complet',
     name_pl: 'Trasa pełna',
-    duration: '4–5 h',
-    estimated_minutes: 270,
+    duration: '5–6 h',
+    estimated_minutes: 330,
     description: 'Todas las paradas: la Calzada de los Muertos, las pirámides, los palacios, los murales y los barrios. De la Puerta 1 a la salida.',
     description_en: 'Every stop: the Avenue of the Dead, the pyramids, the palaces, the murals and the neighbourhoods. From Gate 1 to the exit.',
     description_fr: 'Toutes les étapes : l’Avenue des Morts, les pyramides, les palais, les peintures murales et les quartiers. De la porte 1 à la sortie.',
