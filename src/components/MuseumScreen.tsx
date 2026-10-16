@@ -81,6 +81,10 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
     return map;
   }, [pieces]);
 
+  const countPB = rooms.filter((r) => r.piso === 'PB').length;
+  const countPA = rooms.filter((r) => r.piso === 'PA').length;
+  const showFloors = !zones && countPB > 0 && countPA > 0;
+
   const floorRooms = useMemo(
     () =>
       rooms
@@ -88,10 +92,6 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
         .sort((a, b) => (parseInt(String(a.numero_oficial), 10) || 0) - (parseInt(String(b.numero_oficial), 10) || 0)),
     [rooms, floor, showFloors]
   );
-  const countPB = rooms.filter((r) => r.piso === 'PB').length;
-  const countPA = rooms.filter((r) => r.piso === 'PA').length;
-  const showFloors = !zones && countPB > 0 && countPA > 0;
-
   const routes = useMemo(
     () =>
       [...(manifest?.routes || [])]
