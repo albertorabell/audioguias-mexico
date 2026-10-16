@@ -33,8 +33,11 @@ interface MuseumScreenProps {
   onOpenPaywall: () => void;
   onSelectRoom: (room: Room) => void;
   onStartRoute: (route: SiteRoute) => void;
-  onOpenWizard: () => void;
+  /** Sin esta función no se ofrece "arma tu ruta" (Teotihuacán solo tiene sus dos rutas). */
+  onOpenWizard?: () => void;
   onOpenMap: () => void;
+  /** Sitio al aire libre: sin selector de pisos. */
+  zones?: boolean;
 }
 
 /** Ordena las piezas de una sala como se recorren. */
@@ -59,11 +62,12 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
   onStartRoute,
   onOpenWizard,
   onOpenMap,
+  zones = false,
 }) => {
   const { strings } = useLanguage();
   const u = strings.ui;
   // La introducción se abre sola la primera vez que se entra al museo
-  const [introOpen, setIntroOpen] = useState<boolean>(() => !introSeen());
+  const [introOpen, setIntroOpen] = useState<boolean>(() => !zones && !introSeen());
 
   const pieceById = useMemo(() => new Map(pieces.map((p) => [p.piece_id, p])), [pieces]);
   const piecesByRoom = useMemo(() => {
@@ -77,16 +81,17 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
     return map;
   }, [pieces]);
 
+  const countPB = rooms.filter((r) => r.piso === 'PB').length;
+  const countPA = rooms.filter((r) => r.piso === 'PA').length;
+  const showFloors = !zones && countPB > 0 && countPA > 0;
+
   const floorRooms = useMemo(
     () =>
       rooms
-        .filter((r) => r.piso === floor)
+        .filter((r) => !showFloors || r.piso === floor)
         .sort((a, b) => (parseInt(String(a.numero_oficial), 10) || 0) - (parseInt(String(b.numero_oficial), 10) || 0)),
-    [rooms, floor]
+    [rooms, floor, showFloors]
   );
-  const countPB = rooms.filter((r) => r.piso === 'PB').length;
-  const countPA = rooms.filter((r) => r.piso === 'PA').length;
-
   const routes = useMemo(
     () =>
       [...(manifest?.routes || [])]
@@ -114,15 +119,17 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
         <section className="px-5 pt-5 pb-6">
           <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{site.name}</h1>
           <p className="mt-2 text-ui text-ink-3">{site.location}</p>
-          <button
-            type="button"
-            id="btn-open-intro"
-            onClick={() => setIntroOpen(true)}
-            className="mt-3 -ml-2 h-10 px-2 inline-flex items-center gap-1.5 text-ui font-semibold text-jade cursor-pointer rounded-full active:bg-raised"
-          >
-            <CircleHelp className="w-4 h-4" strokeWidth={2} />
-            {strings.intro.openLabel}
-          </button>
+          {!zones && (
+            <button
+              type="button"
+              id="btn-open-intro"
+              onClick={() => setIntroOpen(true)}
+              className="mt-3 -ml-2 h-10 px-2 inline-flex items-center gap-1.5 text-ui font-semibold text-jade cursor-pointer rounded-full active:bg-raised"
+            >
+              <CircleHelp className="w-4 h-4" strokeWidth={2} />
+              {strings.intro.openLabel}
+            </button>
+          )}
         </section>
 
         {continueInfo && (
@@ -189,6 +196,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 );
               })}
             </div>
+            {onOpenWizard && (
             <div className="px-5 mt-3">
               <button
                 type="button"
@@ -206,6 +214,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 <ChevronRight className="w-5 h-5 text-ink-3 shrink-0" />
               </button>
             </div>
+            )}
           </section>
         )}
 
@@ -224,9 +233,11 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
             </button>
           </div>
 
-          <div className="px-5 mt-3">
-            <FloorSwitch floor={floor} onChange={onFloorChange} countPB={countPB} countPA={countPA} />
-          </div>
+          {showFloors && (
+            <div className="px-5 mt-3">
+              <FloorSwitch floor={floor} onChange={onFloorChange} countPB={countPB} countPA={countPA} />
+            </div>
+          )}
 
           <ul className="mt-2" id="rooms-list">
             {floorRooms.map((room) => {
@@ -261,7 +272,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
         </section>
       </main>
 
-      <IntroTour open={introOpen} onClose={() => setIntroOpen(false)} onConfigureRoute={onOpenWizard} />
+      {!zones && <IntroTour open={introOpen} onClose={() => setIntroOpen(false)} onConfigureRoute={onOpenWizard ?? (() => {})} />}
     </div>
   );
 };

@@ -22,3 +22,7 @@ muestras-voz/
 
 # Textos de pago (se suben a Cloudflare R2; nunca se publican con el sitio)
 datos-privados/
+
+# Textos de Teotihuacán: se generan al compilar desde el Sheets (no se guardan en el repositorio público)
+public/data/teotihuacan/rooms.json
+public/data/teotihuacan/pieces.json

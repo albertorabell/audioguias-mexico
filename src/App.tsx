@@ -200,6 +200,8 @@ export default function App() {
   const [rawManifest, setManifest] = useState<SiteManifest | null>(null);
   const [rawRooms, setRooms] = useState<Room[]>([]);
   const [rawPieces, setPieces] = useState<PieceData[]>([]);
+  /** Salas y piezas del sitio abierto cuando no es el MNA (Teotihuacán las carga al entrar). Con el MNA queda en null. */
+  const [siteData, setSiteData] = useState<{ siteId: string; rooms: Room[]; pieces: PieceData[] } | null>(null);
   const [isLoadingSites, setIsLoadingSites] = useState(true);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const paymentCheckedRef = useRef(false);
@@ -215,23 +217,25 @@ export default function App() {
   const selectingRef = useRef(false);
 
   const sites = useMemo(() => rawSites.map((s) => localizeSite(s, currentLanguage)), [rawSites, currentLanguage]);
-  const rooms = useMemo(() => rawRooms.map((r) => localizeRoom(r)), [rawRooms, localizeRoom]);
+  const activeRawRooms = siteData && siteData.siteId === selectedSite?.id ? siteData.rooms : rawRooms;
+  const activeRawPieces = siteData && siteData.siteId === selectedSite?.id ? siteData.pieces : rawPieces;
+  const rooms = useMemo(() => activeRawRooms.map((r) => localizeRoom(r)), [activeRawRooms, localizeRoom]);
   // Los textos de pago llegan aparte, solo con pase (ver utils/premiumText.ts)
   const [privateText, setPrivateText] = useState<PremiumTextMap | null>(null);
   const [textState, setTextState] = useState<'none' | 'loading' | 'ok' | 'error'>('none');
   const [textReload, setTextReload] = useState(0);
-  const fullPieces = useMemo(() => mergePremiumText(rawPieces, privateText), [rawPieces, privateText]);
+  const fullPieces = useMemo(() => mergePremiumText(activeRawPieces, privateText), [activeRawPieces, privateText]);
   const pieces = useMemo(() => fullPieces.map((p) => localizePiece(p)), [fullPieces, localizePiece]);
   const manifest = useMemo(() => {
     if (!rawManifest) return null;
-    const known = new Set(rawPieces.map((p) => p.piece_id));
+    const known = new Set(activeRawPieces.map((p) => p.piece_id));
     const routes = rawManifest.routes?.map((r) => {
       const local = localizeRoute(r, currentLanguage);
       // Solo las paradas que existen en pieces.json (una parada que ya no existe no debe trabar el recorrido)
       return known.size ? { ...local, stops: local.stops.filter((s) => known.has(stopId(s))) } : local;
     });
     return { ...rawManifest, routes };
-  }, [rawManifest, rawPieces, currentLanguage]);
+  }, [rawManifest, activeRawPieces, currentLanguage]);
   const site = useMemo(() => (selectedSite ? localizeSite(selectedSite, currentLanguage) : null), [selectedSite, currentLanguage]);
 
   useEffect(() => {
@@ -427,6 +431,22 @@ export default function App() {
       const res = await fetch(getAssetUrl(s.path));
       if (!res.ok) throw new Error(`Error ${res.status}`);
       const data: SiteManifest = await res.json();
+      // Sitios con sus propios datos (Teotihuacán): sus zonas y piezas se cargan al entrar
+      let extra: { siteId: string; rooms: Room[]; pieces: PieceData[] } | null = null;
+      if (data.rooms_path && data.pieces_path) {
+        const [roomsRes, piecesRes] = await Promise.all([fetch(getAssetUrl(data.rooms_path)), fetch(getAssetUrl(data.pieces_path))]);
+        if (!roomsRes.ok || !piecesRes.ok) throw new Error(`Error ${roomsRes.status}/${piecesRes.status}`);
+        const roomList: Room[] = await roomsRes.json();
+        const pieceList: PieceData[] = await piecesRes.json();
+        extra = { siteId: s.id, rooms: [...roomList].sort((a, b) => roomNumber(a) - roomNumber(b)), pieces: pieceList.map((p) => normalizePiece(p)) };
+      }
+      if (selectedSite?.id !== s.id) {
+        // Otro sitio: no se arrastra el recorrido ni la última pieza del anterior
+        setTour(null);
+        setLastNav(null);
+        setFloor('PB');
+      }
+      setSiteData(extra);
       setSelectedSite(s);
       setManifest(data);
       push({ kind: 'tab', tab: 'salas' });
@@ -614,6 +634,12 @@ export default function App() {
   };
 
   // ---------- Pantallas ----------
+  /** Foto de la tarjeta del museo en el inicio (siempre del MNA, aunque se haya abierto otro sitio). */
+  const homeCover = useMemo(() => {
+    const p = rawPieces.find((x) => x.piece_id === 'mna_s06_piedra_sol') || rawPieces[0];
+    return p ? localizePiece(p) : null;
+  }, [rawPieces, localizePiece]);
+  const isZones = manifest?.layout === 'zones';
   let content: React.ReactNode = null;
   if (screen.kind === 'home' || !site) {
     const mna = rawSites.find((s) => s.status !== 'coming_soon');
@@ -622,8 +648,8 @@ export default function App() {
         sites={sites}
         onSelectSite={handleSelectSite}
         isLoading={isLoadingSites}
-        stats={{ rooms: rooms.length || mna?.total_stops || 0, works: pieces.length || mna?.highlights_count || 0, free: pieces.filter((p) => p.is_free).length }}
-        coverPiece={pieceById('mna_s06_piedra_sol') || pieces[0] || null}
+        stats={{ rooms: rawRooms.length || mna?.total_stops || 0, works: rawPieces.length || mna?.highlights_count || 0, free: rawPieces.filter((p) => p.is_free).length }}
+        coverPiece={homeCover}
       />
     );
   } else if (screen.kind === 'tab') {
@@ -643,8 +669,9 @@ export default function App() {
           onOpenPaywall={openPaywall}
           onSelectRoom={openRoom}
           onStartRoute={startRoute}
-          onOpenWizard={() => push({ kind: 'wizard' })}
+          onOpenWizard={isZones ? undefined : () => push({ kind: 'wizard' })}
           onOpenMap={() => goTab('mapa')}
+          zones={isZones}
         />
       );
     } else if (screen.tab === 'recorridos') {
@@ -660,7 +687,7 @@ export default function App() {
           onOpenStop={(i) => activeTour && openTourStop(activeTour.route, i)}
           onStartRoute={startRoute}
           onEndTour={endTour}
-          onOpenWizard={() => push({ kind: 'wizard' })}
+          onOpenWizard={isZones ? undefined : () => push({ kind: 'wizard' })}
         />
       );
     } else if (screen.tab === 'mapa') {
@@ -670,6 +697,7 @@ export default function App() {
           pieces={pieces}
           floor={floor}
           onFloorChange={setFloor}
+          zoneMap={isZones ? manifest?.zone_map : undefined}
           hereRoomId={currentPiece?.room_id || null}
           tour={activeTour}
           hasPass={hasPass}

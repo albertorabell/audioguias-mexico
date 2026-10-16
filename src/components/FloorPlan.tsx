@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { MapPin } from 'lucide-react';
-import { Room } from '../types';
+import { Room, ZoneMap } from '../types';
 import { getRoomShortLabel, getRoomLabel } from '../utils/roomLabel';
 import { useLanguage } from '../utils/LanguageContext';
 
@@ -13,6 +13,8 @@ interface FloorPlanProps {
   stopsByRoom?: Map<string, number[]>;
   worksByRoom?: Map<string, number>;
   onSelectRoom: (room: Room) => void;
+  /** Sitio al aire libre: las zonas se acomodan según este mapa (columna central, lados y fila de abajo). */
+  zoneMap?: ZoneMap;
 }
 
 const num = (r: Room) => parseInt(String(r.numero_oficial ?? r.room_id.match(/\d+/)?.[0] ?? '0'), 10) || 0;
@@ -53,8 +55,8 @@ function layoutFor(rooms: Room[], floor: 'PB' | 'PA'): Layout {
   return { north, west, east, south: [] };
 }
 
-export const FloorPlan: React.FC<FloorPlanProps> = ({ rooms, floor, hereRoomId, stopsByRoom, worksByRoom, onSelectRoom }) => {
-  const { strings } = useLanguage();
+export const FloorPlan: React.FC<FloorPlanProps> = ({ rooms, floor, hereRoomId, stopsByRoom, worksByRoom, onSelectRoom, zoneMap }) => {
+  const { strings, currentLanguage } = useLanguage();
   const u = strings.ui.map;
   const L = useMemo(() => layoutFor(rooms.filter((r) => r.piso === floor), floor), [rooms, floor]);
   const sideRows = Math.max(L.west.length, L.east.length, 1);
@@ -95,6 +97,51 @@ export const FloorPlan: React.FC<FloorPlanProps> = ({ rooms, floor, hereRoomId, 
       </button>
     );
   };
+
+  if (zoneMap) {
+    const byId = new Map(rooms.map((r) => [r.room_id, r]));
+    const pick = (ids: string[]) => ids.map((id) => byId.get(id)).filter((r): r is Room => !!r);
+    const center = pick(zoneMap.center);
+    const west = pick(zoneMap.west);
+    const east = pick(zoneMap.east);
+    const south = pick(zoneMap.south);
+    const rows = Math.max(center.length, 1);
+    const label = (l?: ZoneMap['top_label']) => (l ? l[currentLanguage as 'es' | 'en' | 'fr' | 'pl'] || l.es || '' : '');
+    // Cada lado reparte las filas de la columna central entre sus zonas
+    const side = (list: Room[], col: number) =>
+      list.map((r, i) => {
+        const start = Math.floor((i * rows) / list.length) + 1;
+        const end = Math.floor(((i + 1) * rows) / list.length) + 1;
+        return (
+          <div key={r.room_id} style={{ gridColumn: col, gridRow: `${start} / ${end}` }}>
+            {tile(r)}
+          </div>
+        );
+      });
+    return (
+      <div className="rounded-[20px] bg-raised/50 border border-line p-2.5" id="floor-plan">
+        <p className="mb-2 text-center text-[12px] font-semibold text-ink-3">{label(zoneMap.top_label)}</p>
+        <div
+          className="grid gap-2"
+          style={{ gridTemplateColumns: '1fr 1.2fr 1fr', gridTemplateRows: `repeat(${rows}, minmax(4.25rem, auto))${south.length ? ' minmax(3.5rem, auto)' : ''}` }}
+        >
+          {center.map((r, i) => (
+            <div key={r.room_id} style={{ gridColumn: 2, gridRow: i + 1 }}>
+              {tile(r)}
+            </div>
+          ))}
+          {side(west, 1)}
+          {side(east, 3)}
+          {south.length > 0 && (
+            <div className="col-span-3 grid gap-2" style={{ gridRow: rows + 1, gridTemplateColumns: `repeat(${south.length}, 1fr)` }}>
+              {south.map((r) => tile(r, true))}
+            </div>
+          )}
+        </div>
+        <p className="mt-2 text-center text-[12px] font-semibold text-ink-3">{label(zoneMap.bottom_label)}</p>
+      </div>
+    );
+  }
 
   return (
     <div className="rounded-[20px] bg-raised/50 border border-line p-2.5" id="floor-plan">

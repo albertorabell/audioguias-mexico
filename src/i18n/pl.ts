@@ -318,6 +318,8 @@ export const PL_GROUPS: Record<string, any> = {
       venuesAria: 'Muzea',
       venueStats: (r: number, w: number) => `${rooms(r)} i ${w} ${n(w, 'objaśnione dzieło', 'objaśnione dzieła', 'objaśnionych dzieł')}`,
       enter: 'Wejdź do muzeum',
+      siteStats: (z: number, s: number) => `${z} ${n(z, 'strefa', 'strefy', 'stref')} i ${s} ${n(s, 'objaśniony przystanek', 'objaśnione przystanki', 'objaśnionych przystanków')}`,
+      enterSite: 'Wejdź na stanowisko',
       soonTag: 'Wkrótce',
       howTitle: 'Jak to działa',
       howSteps: (free: number, hours: number, devices: number) => [
@@ -388,6 +390,7 @@ export const PL_GROUPS: Record<string, any> = {
     routes: {
       title: 'Trasy',
       intro: 'Wybierz gotową trasę albo stwórz własną. Aplikacja poprowadzi Cię dzieło po dziele.',
+      introFixed: 'Wybierz gotową trasę. Aplikacja poprowadzi Cię przystanek po przystanku.',
       current: 'Twoja trasa',
       progress: (a: number, t: number) => `Przystanek ${a} z ${t}`,
       continue: 'Kontynuuj',

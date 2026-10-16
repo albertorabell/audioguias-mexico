@@ -24,7 +24,8 @@ interface RoutesScreenProps {
   onOpenStop: (index: number) => void;
   onStartRoute: (route: SiteRoute) => void;
   onEndTour: () => void;
-  onOpenWizard: () => void;
+  /** Sin esta función no se ofrece "arma tu ruta". */
+  onOpenWizard?: () => void;
 }
 
 const stopId = (s: { piece_id?: string; id?: string; poi_id?: string }) => s.piece_id || s.id || s.poi_id || '';
@@ -122,7 +123,7 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
         ) : (
           <section className="px-5">
             <h1 className="font-serif text-h1 font-medium tracking-[-0.02em]">{u.routes.title}</h1>
-            <p className="mt-2 text-[1.0625rem] leading-relaxed text-ink-2">{u.routes.intro}</p>
+            <p className="mt-2 text-[1.0625rem] leading-relaxed text-ink-2">{onOpenWizard ? u.routes.intro : u.routes.introFixed}</p>
           </section>
         )}
 
@@ -164,6 +165,7 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
           </div>
         </section>
 
+        {onOpenWizard && (
         <section className="px-5 mt-6">
           <button
             type="button"
@@ -180,6 +182,7 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
             <ChevronRight className="w-5 h-5 text-ink-3 shrink-0" />
           </button>
         </section>
+        )}
       </main>
     </div>
   );

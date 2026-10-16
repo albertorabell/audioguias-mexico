@@ -41,6 +41,8 @@ export const ui = defineGroup(
       venuesAria: 'Museos',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'sala', 'salas')} y ${plural(works, 'obra', 'obras')} explicadas`,
       enter: 'Entrar al museo',
+      siteStats: (zones: number, stops: number) => `${plural(zones, 'zona', 'zonas')} y ${plural(stops, 'parada explicada', 'paradas explicadas')}`,
+      enterSite: 'Entrar al sitio',
       soonTag: 'Próximamente',
       howTitle: 'Cómo funciona',
       howSteps: (free: number, hours: number, devices: number) => [
@@ -111,6 +113,7 @@ export const ui = defineGroup(
     routes: {
       title: 'Recorridos',
       intro: 'Sigue un recorrido ya armado o crea uno a tu medida. La app te lleva obra por obra.',
+      introFixed: 'Elige un recorrido ya armado. La app te lleva parada por parada.',
       current: 'Tu recorrido',
       progress: (n: number, total: number) => `Parada ${n} de ${total}`,
       continue: 'Continuar',
@@ -175,6 +178,8 @@ export const ui = defineGroup(
       venuesAria: 'Museums',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'room', 'rooms')} and ${plural(works, 'work', 'works')} explained`,
       enter: 'Enter the museum',
+      siteStats: (zones: number, stops: number) => `${plural(zones, 'zone', 'zones')} and ${plural(stops, 'stop', 'stops')} explained`,
+      enterSite: 'Enter the site',
       soonTag: 'Coming soon',
       howTitle: 'How it works',
       howSteps: (free: number, hours: number, devices: number) => [
@@ -243,6 +248,7 @@ export const ui = defineGroup(
     routes: {
       title: 'Tours',
       intro: 'Follow a ready-made tour or build your own. The app guides you work by work.',
+      introFixed: 'Choose a ready-made route. The app guides you stop by stop.',
       current: 'Your tour',
       progress: (n: number, total: number) => `Stop ${n} of ${total}`,
       continue: 'Continue',
@@ -307,6 +313,8 @@ export const ui = defineGroup(
       venuesAria: 'Musées',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'salle', 'salles')} et ${plural(works, 'œuvre expliquée', 'œuvres expliquées')}`,
       enter: 'Entrer dans le musée',
+      siteStats: (zones: number, stops: number) => `${plural(zones, 'zone', 'zones')} et ${plural(stops, 'étape expliquée', 'étapes expliquées')}`,
+      enterSite: 'Entrer sur le site',
       soonTag: 'Bientôt',
       howTitle: 'Comment ça marche',
       howSteps: (free: number, hours: number, devices: number) => [
@@ -377,6 +385,7 @@ export const ui = defineGroup(
     routes: {
       title: 'Parcours',
       intro: 'Suivez un parcours tout prêt ou composez le vôtre. L’application vous guide œuvre par œuvre.',
+      introFixed: 'Choisissez un parcours tout prêt. L’application vous guide étape par étape.',
       current: 'Votre parcours',
       progress: (n: number, total: number) => `Étape ${n} sur ${total}`,
       continue: 'Continuer',
