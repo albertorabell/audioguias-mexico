@@ -1,0 +1,54 @@
+{
+  "id": "mna_s15_oratorio_familiar",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e3fd782d0de2dacc",
+      "texto": "Oratorium i rodzinny ołtarz Otomí"
+    },
+    "frase_gancho": {
+      "hash": "d3eedc116c526570",
+      "texto": "Mała rodzinna świątynia, w której żyją obok siebie święci, wzgórza i przodkowie."
+    },
+    "puente_narrativo": {
+      "hash": "16d9138fa638fbf4",
+      "texto": "Z rodzinnego oratorium przechodzimy do krajobrazu. Poszukaj dwóch dużych obrazów, które patrzą na siebie z naprzeciwka: jednego z suchą ziemią, agawami i nopalami, i drugiego zielonego, z polami kukurydzy i burzowym niebem."
+    },
+    "guion_corto": {
+      "hash": "54f964fc172fe1ef",
+      "texto": "To rekonstrukcja rodzinnego oratorium otomí, małej kaplicy na terenie należącym do rodziny, zbudowanej z cegły suszonej na słońcu i drewna. Wewnątrz stoi schodkowy ołtarz z wizerunkami świętych, krzyżami przyodzianymi w haftowane tkaniny, świecami, kwiatami i glinianymi kadzielnicami, w których pali się kopal. Tutaj rodzina się modli, świętuje dzień swojego patrona i prosi o urodzaj oraz o opiekę nad swoimi bliskimi. Oratorium łączy wiarę katolicką ze starożytną czcią dla wzgórz, wody i przodków. Dla wielu rodzin jest ono centrum życia duchowego, miejscem, w którym można być razem i wspominać tych, którzy już odeszli."
+    },
+    "guion_largo": {
+      "hash": "958a47dd5b50e53e",
+      "texto": "Wiele rodzin z wyżyny ma na terenie swojego domu własną małą kaplicę. Nazywa się ją oratorium. Nie jest to wielki kościół ani świątynia publiczna: to miejsce intymne, w którym modli się rodzina, przechowuje się świętych i urządza święto. A w muzeum zbudowano jedno z nich, żebyś mógł zobaczyć, jak wygląda w środku.\n\nZacznij od ołtarza, który wznosi się schodkami. Na stopniach ustawia się wizerunki świętych, krzyże, świece, kwiaty i kopal. Krzyże zwykle są przyodziane w haftowane tkaniny, jakby były ludźmi. To piękny szczegół: o krzyże dba się tak, jak o członka rodziny. Czasem ubiera się je w małe quechquémitl, takie jak te, które przed chwilą widziałeś.\n\nKopal zasługuje na chwilę zatrzymania. To żywica drzewa, która podczas palenia daje biały, pachnący dym. Używa się jej od tysięcy lat: już w Teotihuacán ofiarowywano ją bogom, a Majowie i Mexikowie palili ją w swoich świątyniach. Dym unosi się ku niebu i niesie modlitwy. Tutaj robi to samo, ale przed krzyżami i świętymi.\n\nSłowo na to zjawisko brzmi synkretyzm: mieszanie się dwóch religii. Rodziny otomí są katolickie, ale nie przestały czcić wzgórz, wód i przodków, którzy według ich tradycji chronią domy i zbiory. Dla nich nie ma w tym sprzeczności. Święty i wzgórze żyją obok siebie, tak jak hiszpański i własny język w codziennej rozmowie.\n\nNawet krzyż ma podwójne życie. W Mezoameryce, jeszcze przed przybyciem Hiszpanów, istniały już postaci w kształcie krzyża, które przedstawiały drzewo świata i cztery strony świata. Niektórzy badacze uważają, że to pomogło w przyjęciu i na nowo zinterpretowaniu krzyża chrześcijańskiego. Tak więc krzyż z oratorium może jednocześnie oznaczać „Chrystus” i „centrum wszechświata”.\n\nSą daty szczególne. W dniu świętego patrona rodziny przygotowuje się jedzenie i muzykę. A w listopadzie, dla zmarłych, wystawia się ofiarę z kwiatami cempasúchil, chlebem, świecami i jedzeniem. Pełny ołtarz tego rodzaju zobaczysz w Sali Huasteków i Totonaków. Zmarli wracają co roku, a oratorium jest częścią miejsca, w którym się ich wita.\n\nOpiekę nad świętem zwykle rozdziela się poprzez urzędy, czyli funkcje opiekunów święta: co roku jedna rodzina lub jedna osoba odpowiada za świętego, za jedzenie i za muzykę, i tak święto przechodzi z rąk do rąk. Z oratoriami dzieje się coś podobnego: dziedziczy się je, a opieka nad nimi przechodzi z rodziców na dzieci.\n\nPamiętaj, że to nie jest muzeum rzeczy minionych. Rodzinne oratoria wciąż są używane. Za każdym razem, gdy rodzina urządza święto, zbiera tych, którzy mieszkają daleko, jak ci, którzy wyjechali do miast. Oratorium jest w gruncie rzeczy miejscem ponownego spotkania, miejscem, które mówi: „tutaj zaczynamy”."
+    },
+    "retos_observacion": {
+      "hash": "a144de43f3b16aeb",
+      "texto": [
+        "Policz stopnie ołtarza i poszukaj wizerunków na każdym z nich",
+        "Zwróć uwagę na krzyże przyodziane w haftowane tkaniny",
+        "Poszukaj glinianej kadzielnicy, w której pali się kopal"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7b3ad9ec90adc13a",
+      "texto": {
+        "Lud": "Otomí (Hñähñu)",
+        "Region": "Dolina Mezquital (Hidalgo) i Półpustynia Querétaro",
+        "Technika/Materiał": "Architektura z cegły suszonej na słońcu i drewna, rzeźbione woskowe świece, glina, wycinanki z papieru i tekstylia",
+        "Funkcja": "Domowa przestrzeń sakralna służąca kultowi dusz zmarłych i obrzędom rolniczym"
+      }
+    },
+    "faq_mito": {
+      "hash": "0b42db53cd5e8bed",
+      "texto": {
+        "pregunta": "Mit: Religia dzisiejszych ludów tubylczych jest wyłącznie katolicka, bez własnych tradycji.",
+        "respuesta": "Rzeczywistość: Łączy wiarę katolicką ze starożytną czcią dla wzgórz, wody i przodków, a jedno i drugie współistnieje bez problemu."
+      }
+    }
+  }
+}

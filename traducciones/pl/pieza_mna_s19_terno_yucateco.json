@@ -1,0 +1,54 @@
+{
+  "id": "mna_s19_terno_yucateco",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "43de0a74365199d8",
+      "texto": "Tradycyjny terno mestyski z Yucatán"
+    },
+    "frase_gancho": {
+      "hash": "f4750665a3b872f6",
+      "texto": "Trzy białe części stroju haftowane w kwiaty, w których tańczy się jaranę w Yucatán."
+    },
+    "puente_narrativo": {
+      "hash": "7db62232f2664248",
+      "texto": "Od tego, w co się ubieramy, przechodzimy do tego, gdzie mieszkamy. Poszukaj domu z palmy i drewna, o zaokrąglonych narożnikach, z wiszącymi hamakami i sadem dookoła."
+    },
+    "guion_corto": {
+      "hash": "273dae2a5309870e",
+      "texto": "Ten zestaw trzech elementów nazywa się terno i jest strojem galowym kobiet z Yucatán. Tworzą go huipil, czyli biała suknia o prostym kroju; kaftanik, kwadratowy element okrywający ramiona i piersi; oraz halka, która sięga do kostek. Brzegi wszystkich trzech części zdobią ręczne hafty krzyżykowe, z różami, tulipanami i orchideami w kolorach czerwonym, żółtym, turkusowym i fioletowym, a wykończone są białą koronką. Nosi się go na vaquerías, czyli wiejskich zabawach tanecznych, a także na weselach i na świętach patrona miejscowości. To strój, który łączy elegancję, radość i świeżość, jakiej wymaga upał panujący na półwyspie."
+    },
+    "guion_largo": {
+      "hash": "43d177d908647082",
+      "texto": "Vaquerías narodziły się na hacjendach, gdy zaganiano bydło, żeby je oznakować, a z czasem stały się wielkim świętem całego półwyspu. Dziś zaczynają się od mszy, a potem trwają z orkiestrą złożoną z instrumentów dętych blaszanych i perkusyjnych, która gra jaranę, taneczną muzykę Yucatán. Pary tupią krótkimi, lekkimi krokami, a kobiety w swoich terno zdają się sunąć po podłodze.\n\nJest pewien zwyczaj, o którym się nie zapomina. W środku tańca ktoś krzyczy „¡bomba!” i muzyka cichnie. Wtedy jeden z tancerzy recytuje improwizowaną zwrotkę, prawie zawsze z humorem, a wszyscy biją brawo. Potem orkiestra zaczyna grać od nowa, jakby nigdy nic. To sposób na rozmowę wierszem, pomiędzy muzyką a tańcem.\n\nCiekawostka: w Yucatán słowo „mestyska” ma własne znaczenie. Zwykle nazywa się tak kobietę, najczęściej z rodziny Majów, która nosi huipil, więc mówi ono więcej o stroju i sposobie życia niż o jakiejś mieszance. Dlatego nazwę „terno mestyski” usłyszysz we wszystkich muzeach i we wszystkich miejscowościach półwyspu.\n\nSłowo huipil pochodzi z nahuatl, ale ta część ubioru jest dużo starsza niż Mexikowie. Długie tuniki figurek Majów z Jaina oraz postaci malowanych na naczyniach i na murali bardzo ją przypominają. Innymi słowy, biała suknia, którą tu widzisz, ma za sobą ponad tysiąc lat historii, ze zmianami mody i ozdób, ale z kształtem, który nadal można rozpoznać.\n\nHaft nazywa się xokbil chuy, co znaczy „liczona nić”. To haft krzyżykowy: hafciarka liczy nitki tkaniny i układa krzyżyk za krzyżykiem, aż powstają róże i ptaszki wyglądające jak namalowane. Dobrze wyhaftowane terno może wymagać miesięcy pracy, a wzory przechodzą z matek na córki. Istnieje też haft maszynowy, lecz ręczny wciąż jest najbardziej ceniony. Ponieważ każda hafciarka wybiera własne kwiaty i kolory, nie ma dwóch dokładnie takich samych terno, a na jednej zabawie zobaczysz różne ogrody poruszające się w rytm muzyki.\n\nTerno łączy dwa światy. Prosta tunika i praca rąk pochodzą z tradycji Majów, natomiast koronka klockowa i niektóre ozdoby przybyły wraz z Hiszpanami. Do tego dochodzą klejnoty: złoty różaniec filigranowy, często odziedziczony po rodzinie, opadający na piersi. Jeśli przyjrzysz się uważnie, w jednej sukni zobaczysz wieki wymiany.\n\nPodobnie jak [strój z Papantla](mna_s18_traje_papantla), biel Yucatán odpowiada na upał: odbija słońce i chłodzi. Ale tutaj biel jest płótnem dla ogrodu. Wyhaftowane kwiaty, które nigdy nie więdną, to sposób na to, by nosić na sobie wiosnę przez cały rok.\n\nZa każdym terno stoi kobieta, która je wyhaftowała, druga, która je odziedziczyła, i wiele takich, które pokazują je na zabawie. To ubiór, który wciąż żyje, bo się w nim tańczy: nie leży w gablocie, wychodzi na plac za każdym razem, gdy zabrzmi jarana."
+    },
+    "retos_observacion": {
+      "hash": "338a67df3a0ec246",
+      "texto": [
+        "Policz trzy części stroju: huipil, kaftanik i halkę",
+        "Poszukaj róż i orchidei haftowanych krzyżykiem",
+        "Zwróć uwagę na białą koronkę wykańczającą brzegi"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ab2892352d5389a3",
+      "texto": {
+        "Lud": "język Majów jukatańskich",
+        "Region": "Półwysep Jukatan (Mérida, Izamal, Valladolid)",
+        "Technika/Materiał": "Len/bawełna haftowana krzyżykiem (xokbilchuy), koronka klockowa i filigran",
+        "Funkcja": "Strój galowy na zabawę Vaquería, wesela i święta patronalne"
+      }
+    },
+    "faq_mito": {
+      "hash": "c86ca2d3f5ad60a8",
+      "texto": {
+        "pregunta": "Mit: Tradycyjne stroje to muzealne kostiumy.",
+        "respuesta": "Rzeczywistość: Terno nosi się dziś na vaquerías, weselach i świętach patronalnych w Yucatán."
+      }
+    }
+  }
+}

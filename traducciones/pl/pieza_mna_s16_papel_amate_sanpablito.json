@@ -1,0 +1,54 @@
+{
+  "id": "mna_s16_papel_amate_sanpablito",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "07a9e4f736c1bd75",
+      "texto": "Arkusze i rytualne figury z papieru amate z San Pablito Pahuatlán"
+    },
+    "frase_gancho": {
+      "hash": "f533e898c0f6ba4f",
+      "texto": "Wycinanki z papieru z kory, w których mieszkają duchy kukurydzy i wody."
+    },
+    "puente_narrativo": {
+      "hash": "166780019826786d",
+      "texto": "Od papieru przechodzimy do tkaniny. Poszukaj białego huipil, prawie przezroczystego, z cienkiej bawełny, haftowanego w ptaki i kwiaty, z czerwono-zielonym wełnianym nakryciem głowy."
+    },
+    "guion_corto": {
+      "hash": "3b224669d66f4a7f",
+      "texto": "Ten papier nazywa się amate i powstaje w San Pablito, wsi otomí w górach Puebla. Robi się go z kory pewnych drzew, którą gotuje się z wapnem lub popiołem, rozkłada w pasach na desce i uderza kamieniem, aż włókna zleją się w jeden arkusz. To bardzo stara technika. Tutaj zobaczysz też figury wycięte z tego papieru. Przedstawiają duchy: kukurydzy, wody, wzgórz, a także chorób. Specjaliści rytualni używają ich podczas ceremonii zwanych „zwyczajem”, aby leczyć, prosić o deszcz i błogosławić zbiory. Papier to nie tylko materiał: to sposób rozmawiania z duchami."
+    },
+    "guion_largo": {
+      "hash": "39f178d20077b869",
+      "texto": "Papier, którego używasz na co dzień, jest wynalazkiem całkiem niedawnym w porównaniu z amate. Na długo przed Hiszpanami ludy Meksyku robiły już papier z kory drzew takich jak jonote i figowiec. Mexikowie otrzymywali tysiące arkuszy jako daninę od podbitych ludów, a kodeksy starożytnego Meksyku malowano na amate albo na skórze jelenia.\n\nSłowo „amate” pochodzi z nahuatl amatl, co znaczy po prostu „papier”; kiedy więc mówimy „papier amate”, w gruncie rzeczy mówimy „papier papier”. Zobacz, jak się go robi. Najpierw ścina się korę i gotuje ją przez wiele godzin z wapnem lub popiołem, żeby ją zmiękczyć. Potem pasy rozkłada się na desce, jeden obok drugiego, w kształt kratki, i uderza się je żłobkowanym kamieniem. Uderzenia zlewają włókna, a po wyschnięciu powstaje wytrzymały arkusz w kolorze brązowym lub kremowym. Cały proces jest ręczny i trwa wiele godzin.\n\nPapier amate miał złą sławę. Hiszpańscy duchowni kojarzyli go z zakazanymi obrzędami i próbowali położyć kres jego używaniu. Uważa się, że w odległych miejscach, takich jak San Pablito, tradycja przetrwała dzięki izolacji gór i sile rytualnych zwyczajów. To historia cichego oporu.\n\nI tu dochodzimy do sedna. W San Pablito specjaliści rytualni wycinają papier, aby robić figury duchów: kukurydzy, wody, lasu, pioruna, a także chorób. Figury otrzymują dary ofiarne, ustawia się je na ołtarzach, a po zakończeniu ceremonii oddaje się je ziemi. Ta praktyka nazywa się „zwyczajem” i służy do leczenia, do proszenia o deszcz i do błogosławienia zbiorów.\n\nKolor ma znaczenie. Mówi się, że jasny papier służy dla duchów życzliwych, a ciemny dla duchów nocy i chorób. Tak więc za pomocą zaledwie dwóch odcieni papieru i nożyczek powstaje cały wszechświat. Każda wycinanka jest jedyna w swoim rodzaju, a ten, kto ją robi, zna zasady od dziecka.\n\nJest jeszcze jedna historia. W latach sześćdziesiątych rzemieślnicy Nahuowie z Guerrero zaczęli malować na tym papierze żywymi barwami sceny z życia swoich wsi i tak narodziła się nowa sztuka. Przykłady zobaczysz w sali Nahuów. W ten sposób papier rytualny stał się płótnem i dziś sprzedaje się go na targach w całym kraju. Dawne i nowe podały sobie ręce.\n\nSan Pablito jest dziś wsią słynącą z papieru: robi go prawie każda rodzina, a używa się go do malowania, do zeszytów, do lamp i do ozdób. Ten przemysł dał pracę wielu ludziom, choć zmusza do troski o drzewa, z których pochodzi kora.\n\nKiedy zobaczysz te sylwetki, pamiętaj, że to nie lalki. To istoty z imieniem, z mocą i z potrzebami. Dla tego, kto je wycina, mówią, słuchają i mogą pomagać. Muzeum pokazuje je w gablocie, ale ich pierwotnym miejscem jest ołtarz otoczony kwiatami i świecami."
+    },
+    "retos_observacion": {
+      "hash": "4f388ef7940b9b73",
+      "texto": [
+        "Poszukaj chropowatej faktury i widocznych włókien papieru",
+        "Przyjrzyj się wyciętym sylwetkom: ile różnych figur widzisz?",
+        "Zwróć uwagę na kolory papieru: które są jasne, a które ciemne?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d1d1d23060ef4f0d",
+      "texto": {
+        "Lud": "Otomí (Ñähñu)",
+        "Region": "Północne góry Puebla (San Pablito Pahuatlán)",
+        "Technika/Materiał": "Kora jonote gotowana, macerowana i gotowana z żłobkowanym kamieniem rzecznym",
+        "Funkcja": "Święte podłoże do rytuałów szamańskiego leczenia, oczyszczeń i tradycyjnego rzemiosła"
+      }
+    },
+    "faq_mito": {
+      "hash": "041aed69fa9d1b92",
+      "texto": {
+        "pregunta": "Mit: Papier amate to nowoczesne rzemiosło wytwarzane na sprzedaż turystom.",
+        "respuesta": "Rzeczywistość: To technologia sprzed ponad tysiąca lat. W San Pablito nadal używa się go w rytuałach leczenia i w prośbach o deszcz."
+      }
+    }
+  }
+}

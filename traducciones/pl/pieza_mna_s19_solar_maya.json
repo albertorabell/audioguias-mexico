@@ -1,0 +1,54 @@
+{
+  "id": "mna_s19_solar_maya",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1bb414022a10bbae",
+      "texto": "Rekonstrukcja tradycyjnego domu Majów wraz z przydomową zagrodą"
+    },
+    "frase_gancho": {
+      "hash": "ebb21d14f1f4808b",
+      "texto": "Dom z palmy i ogród, w którym mieści się cały świat Majów."
+    },
+    "puente_narrativo": {
+      "hash": "c33a3ba88d5bf821",
+      "texto": "Od domu i jego zagrody przechodzimy do malowidła ściennego. Poszukaj muralu podpisanego przez Rafaela Coronela, którego tytuł mówi o duchowym świecie Majów z Półwyspu Jukatan."
+    },
+    "guion_corto": {
+      "hash": "2dce2db588495f2c",
+      "texto": "To dom Majów z Yucatán, odtworzony w naturalnej wielkości. Zwróć uwagę na jego kształt: owalny rzut, zaokrąglone narożniki, ściany z tyczek i gliny oraz bardzo wysoki dach z palmy, który przepuszcza powietrze i utrzymuje we wnętrzu chłód. Wewnątrz są hamaki, comal, metate i mały rodzinny ołtarz. Ale domu nie sposób zrozumieć bez zagrody, czyli terenu, który go otacza: rosną tam drzewa owocowe, warzywa i rośliny lecznicze, stoją ule pszczoły bez żądła, a wszystko ogradza niski kamienny murek zwany albarrada. Dla rodziny Majów dom i zagroda tworzą jedną całość: tam się mieszka, je, leczy i modli."
+    },
+    "guion_largo": {
+      "hash": "815101fea7291755",
+      "texto": "Ten dom nie jest makietą: podobno wznieśli go w muzeum budowniczowie Majowie, którzy przybyli z Yucatán, z tych samych materiałów i według tych samych technik co zawsze, gdy na początku lat sześćdziesiątych urządzano sale etnograficzne. Dlatego po wejściu niemal czujesz zapach suchej słomy i drewna. To dom zbudowany przez ludzi, którzy wiedzą, jak w nim żyć.\n\nOwalny kształt ma praktyczny powód. Bez narożników wiatr opływa dom, zamiast na niego napierać, i mówi się, że dzięki temu lepiej znosi huragany na półwyspie. Dach z palmy zachowuje dobry stan dzięki dymowi z paleniska, który odstrasza owady. A ciepło ucieka górą, więc w środku jest chłodno. To przykład architektury, która dostosowuje się do klimatu bez żadnych urządzeń.\n\nMa też swoje znaczenie. Cztery główne słupy podtrzymują dach i interpretuje się je jako przypomnienie czterech bacabów, istot, które według mitu Majów podtrzymywały cztery narożniki nieba. Być może pamiętasz ideę czterech stron świata z kwiatu na huasteckim quechquémitl: tutaj pojawia się znowu, tym razem w postaci domu. Mieszkać w nim to mieszkać w małym, uporządkowanym wszechświecie.\n\nSpójrz na hamak. To słowo pochodzi z języka taino, używanego na wyspach Karaibów, i jest jednym z wielu, które hiszpański przejął z Ameryki. Spanie w hamaku oddziela od ziemi, wilgoci i skorpionów, a w dzień zwija się go, żeby zwolnić miejsce. Dom Majów zmienia przeznaczenie wraz z porami dnia: w nocy jest sypialnią, a w dzień kuchnią, warsztatem i miejscem odwiedzin.\n\nWyjdźmy do zagrody. To spiżarnia i apteka rodziny. Są tu drzewa owocowe, warzywa i zioła lecznicze, a wśród nich chaya, zielony liść, który gotuje się jak szpinak. Są też kury i świnie, studnia oraz kamienne murki układane bez zaprawy, czyli albarradas, które wyznaczają granice i chronią przed wiatrem. Wszystko się wykorzystuje, a to, co zostaje, wraca do ziemi.\n\nI są pszczoły. Majowie od wieków hodują pszczołę bez żądła, która w ich języku nazywa się Xunaan Kab, „pani pszczoła”. Mieszka w wydrążonych pniach, a jej miód, skąpy i o intensywnym smaku, służy jako pożywienie i lekarstwo. Dziś są rodziny, które nadal się nią opiekują, żeby nie zniknęła, a razem z nią pielęgnują też sposób współistnienia z lasem.\n\nOpowiada się, że w zagrodzie i na milpie mieszkają aluxes, małe istoty, które strzegą pola i którym czasem zostawia się czarkę z tykwy z atole, żeby były zadowolone. A za tym wszystkim stoi milpa, pole kukurydzy, fasoli i dyni, które widziałeś w pierwszej sali na górze. Bez niej dom i zagroda by nie przetrwały.\n\nGdy deszcz się spóźnia, odprawia się Cha Chaak, ceremonię, by go wyprosić. Odbywa się na polu, przy ołtarzu z gałęzi, z chlebkami kukurydzianymi i napojami rytualnymi, a prowadzi ją specjalista, który modli się w języku Majów. Bóg, do którego się zwraca, to Chaac, ten sam co na [maskaronie z Kabah](mna_s09_mascaron_chaac), który widziałeś na dole, krewny [Cocijo](mna_s07_urna_cocijo) i Tláloca. To najjaśniejszy dowód, że świat Majów nie pozostał w kamieniach: nadal prosi o wodę, z szacunkiem, żeby milpa rosła."
+    },
+    "retos_observacion": {
+      "hash": "60c78f055882c290",
+      "texto": [
+        "Zwróć uwagę na owalny kształt domu i jego dach z palmy",
+        "Poszukaj w domu hamaka, comalu i metate",
+        "Przyjrzyj się niskiemu kamiennemu murkowi, który ogradza zagrodę"
+      ]
+    },
+    "especificaciones": {
+      "hash": "14b4e176c85d1b73",
+      "texto": {
+        "Lud": "język Majów jukatańskich",
+        "Region": "Półwysep Jukatan (Campeche, Yucatán i Quintana Roo)",
+        "Technika/Materiał": "Architektura wernakularna (twarde drewno, bajareque, palma huano, henequén)",
+        "Funkcja": "Rekonstrukcja tradycyjnego domu i biokulturowej przestrzeni rodzinnej zagrody"
+      }
+    },
+    "faq_mito": {
+      "hash": "751e19273568d57c",
+      "texto": {
+        "pregunta": "Mit: Dom Majów to prymitywne schronienie.",
+        "respuesta": "Rzeczywistość: Jego owalny kształt, wysoki dach i zagroda z ogrodem są pomyślane z myślą o upale, wietrze i życiu całej rodziny."
+      }
+    }
+  }
+}

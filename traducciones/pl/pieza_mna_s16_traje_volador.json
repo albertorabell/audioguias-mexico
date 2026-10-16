@@ -1,0 +1,54 @@
+{
+  "id": "mna_s16_traje_volador",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "99041fc5b978d128",
+      "texto": "Strój ceremonialny tancerza Volador"
+    },
+    "frase_gancho": {
+      "hash": "31d754af6f18fe35",
+      "texto": "Czterech mężczyzn schodzi z nieba, wirując, przywiązani do słupa."
+    },
+    "puente_narrativo": {
+      "hash": "c389db649a26c410",
+      "texto": "Od lotów przechodzimy do dłoni, które wycinają papier. Poszukaj ludzkich sylwetek wyciętych z papieru w kolorze brązowym lub kremowym, o chropowatej fakturze."
+    },
+    "guion_corto": {
+      "hash": "015b3efb422233e3",
+      "texto": "Ten strój noszą Voladores (Latający Ludzie), którzy rzucają się ze szczytu słupa o wysokości ponad trzydziestu metrów. To strój bardzo barwny: czerwone spodnie ze złotymi frędzlami, trójkątne chusty skrzyżowane na piersi, haftowane kwiaty, lusterka odbijające słońce i stożkowata czapka ozdobiona piórami i kwiatami. W rytuale uczestniczy pięć osób. Czterech to Voladores, którzy przedstawiają cztery strony świata, a piąty to przywódca, który gra na flecie i małym bębenku na szczycie słupa. Voladores rzucają się w dół przywiązani za stopy i krążą po okręgach, aż dotkną ziemi. To bardzo stary obrzęd, uznany za dziedzictwo ludzkości."
+    },
+    "guion_largo": {
+      "hash": "94e75c1aa0c11472",
+      "texto": "Wyobraź sobie pień o wysokości ponad trzydziestu metrów, bez gałęzi, wbity pośrodku placu. Na czubku mała kwadratowa rama. A na tej ramie pięciu mężczyzn ubranych na czerwono, gotowych na coś, co wydaje się niemożliwe. Oto rytuał Voladores (Latający Ludzie), ceremonia Totonaków i Nahua, którą odprawia się w Papantla i w górach stanu Puebla, między innymi, a strój, który widzisz, to ten, który wkłada się do lotu.\n\nNajpierw drzewo. Opowiada się, że przed rytuałem wspólnota wybiera w lesie drzewo i prosi górę o pozwolenie na jego ścięcie. Odprawia się ceremonię, a pień z szacunkiem transportuje się na plac. Może dlatego dla uczestników słup nie jest zwykłym drągiem: to święte drzewo, które łączy ziemię z niebem.\n\nPotem postacie. Czterech Voladores i przywódca. Przywódca wchodzi na sam czubek, siada na platformie i gra na flecie i małym bębenku, podczas gdy pozostali czterej rzucają się w dół. Czterej Voladores to cztery strony świata, a przywódca pośrodku jest piątym: osią. Voladores są przywiązani za stopy linami owiniętymi wokół słupa, a gdy się rzucają, opadają wirując po coraz większych okręgach.\n\nA teraz liczby. Każdy z Voladores robi trzynaście okrążeń, zanim dotknie ziemi. Czterech Voladores razy trzynaście okrążeń daje pięćdziesiąt dwa, czyli dokładnie tyle lat, ile trwa cykl kalendarza mezoamerykańskiego, ten znany ci z [Kamienia Słońca](mna_s06_piedra_sol). Interpretuje się to jako sposób upamiętnienia tego cyklu, choć nie wszyscy specjaliści zgadzają się z taką interpretacją.\n\nStrój to święto barw. Czerwone spodnie ze złotymi frędzlami przypominają Słońce. Skrzyżowane chusty mają lusterka i haftowane kwiaty, i odbijają światło, gdy tancerze wirują. Stożkowata czapka z piórami i kwiatami kojarzy się z ptakiem. Kto schodzi z rozpostartymi ramionami w tych ozdobach, staje się w pewnym sensie ptakiem.\n\nUważa się, że rytuał jest stary, a kronikarze opisywali go niedługo po podboju. Na reliefach i dawnych figurach z Wybrzeża Zatoki Meksykańskiej są postacie o cechach ptaków, które wiązano z tym rytuałem. Musiał dostosować się do upływu wieków, a mimo to wciąż żyje. W dwa tysiące dziewiątym roku UNESCO wpisało go na listę niematerialnego dziedzictwa kulturowego ludzkości.\n\nRyzyko jest realne: nie ma siatki, a Voladores przygotowują się latami. Dlatego rytuał zaczyna się od modlitw i ofiar, a kończy ulgą i zabawą.\n\nDziś Voladores można zobaczyć w Papantla, w Cuetzalan, a także w Mieście Meksyk, gdzie zwykle występują na placu przed muzeum. Dla jednych to widowisko; dla innych modlitwa w powietrzu. Pewne jest jedno: każdy lot przypomina, że lud może przez wieki zachować ceremonię, nawet gdy świat wokół się zmienia."
+    },
+    "retos_observacion": {
+      "hash": "5c152a8521ab64d1",
+      "texto": [
+        "Poszukaj lusterek i haftów na chustach skrzyżowanych na piersi",
+        "Przyjrzyj się czerwonym spodniom ze złotymi frędzlami",
+        "Zwróć uwagę na stożkowatą czapkę: jakie pióra i kwiaty ją zdobią?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "082591921c4764c8",
+      "texto": {
+        "Lud": "Totonakowie / Nahua",
+        "Region": "Sierra Norte de Puebla i Totonacapan (Papantla / Cuetzalan)",
+        "Technika/Materiał": "Czerwony aksamit/atłas, złote frędzle z rurkowatych koralików, lusterka, pióra i haft",
+        "Funkcja": "Święty strój do kosmogonicznego rytuału Voladores (wywołanie deszczu)"
+      }
+    },
+    "faq_mito": {
+      "hash": "d571f45066a32a68",
+      "texto": {
+        "pregunta": "Mit: Taniec Voladores to turystyczne widowisko wymyślone zaledwie kilka lat temu.",
+        "respuesta": "Rzeczywistość: To bardzo stary rytuał, o korzeniach sięgających czasów sprzed podboju. W dwa tysiące dziewiątym roku UNESCO uznało go za niematerialne dziedzictwo kulturowe ludzkości."
+      }
+    }
+  }
+}

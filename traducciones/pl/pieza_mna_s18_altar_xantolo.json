@@ -1,0 +1,54 @@
+{
+  "id": "mna_s18_altar_xantolo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f1c0bfe25faf4c67",
+      "texto": "Łuk ołtarza Xantolo / Święto Dusz"
+    },
+    "frase_gancho": {
+      "hash": "cca20453f289f248",
+      "texto": "Łuk z żółtych kwiatów, by dusze odnalazły drogę do domu."
+    },
+    "puente_narrativo": {
+      "hash": "3e2e6b9fdb9a71f7",
+      "texto": "Od święta zmarłych przechodzimy do białych strojów Totonaków. Poszukaj stroju z białego płótna, z czerwoną chustką zawiązaną na szyi i kapeluszem z palmy."
+    },
+    "guion_corto": {
+      "hash": "12735bf8954a97c2",
+      "texto": "To rekonstrukcja ołtarza Xantolo, święta zmarłych w Huasteca, w San Luis Potosí, Hidalgo i Veracruz. Najbardziej rzuca się w oczy wielki łuk zrobiony z giętkich prętów i pokryty intensywnie żółtymi kwiatami aksamitki oraz zielonym listowiem. Uważa się, że to brama, którą dusze wracają odwiedzić swoją rodzinę. Pod łukiem zastawia się stół z jedzeniem: wielkimi tamale, chlebem, czekoladą, owocami i świecami, a do tego kopal, który wypełnia powietrze zapachem. Wszystko przygotowuje się starannie, bo zmarli wracają, a żywi witają ich tym, co lubili najbardziej. Xantolo łączy dawne wierzenia z kalendarzem katolickim i trwa kilka dni."
+    },
+    "guion_largo": {
+      "hash": "4f61700d7ba49a8d",
+      "texto": "Nazwa „Xantolo” pochodzi od słowa oznaczającego „świętych”. W Huasteca tak nazywa się święto Wszystkich Świętych i Dnia Zadusznego, obchodzone pod koniec października i na początku listopada. W całym Meksyku przygotowuje się ofiarę dla zmarłych, ale w każdym regionie ma ona swój styl. Tutaj tym stylem jest łuk z kwiatów, uczta i wielki ruch ludzi.\n\nZacznijmy od łuku. Jest zrobiony z giętkich prętów, wygiętych na kształt bramy, i pokryty kwiatami aksamitki oraz zielonym listowiem. Uważa się, że to próg, przez który zmarli wracają do domu. Ten kwiat ma swoją historię: jego nazwę w nahuatl, cempoalxóchitl, zwykle tłumaczy się jako „kwiat dwudziestu”. Mówi się, że jego intensywnie żółty kolor i mocny zapach pomagają duszom odnaleźć drogę. [Xochipilli](mna_s06_xochipilli), „książę kwiatów”, znasz już z sali Mexica; tutaj kwiaty nadal są językiem rozmowy z bogami i ze zmarłymi.\n\nStół. Pod łukiem rodzina kładzie to, co lubił zmarły: tamale, czekoladę, chleb, owoce, czasem wódkę albo kawę. W Huasteca jest ogromny tamal, który czasem ma ponad metr długości, zacahuil. To nie jest tylko potrawa: to sposób, by powiedzieć, że ten, kto odszedł, nadal jest częścią stołu. Kopal, ten pachnący dym, który znasz z [oratorium otomí](mna_s15_oratorio_familiar), pomaga zaprosić dusze.\n\nDroga zmarłych jest bardzo stara. W świecie Mexica zmarli szli do Mictlán, w długą podróż trwającą kilka lat, z pomocą psa, takiego jak ten, którego znasz z [figurek z Colima](mna_s10_perros_colima). Dziś te idee mieszają się z kalendarzem katolickim i z corocznym odwiedzinami dusz. Święto wypada w dni Wszystkich Świętych, ale wydaje się starsze, i uważa się, że w czasach przedhiszpańskich obchodzono je w innych porach roku.\n\nW Huasteca Xantolo to nie tylko ofiara dla zmarłych. Są korowody tancerzy w maskach, którzy przemierzają wsie przy dźwiękach skrzypiec i gitary. Przebrani przedstawiają zmarłych i żywych, a poruszają się wśród śmiechu i żartów. To sposób, by zawrzeć pokój ze śmiercią, i by pamiętać, że to święto jest także świętem żywych.\n\nŚmierć jest tu nie końcem, lecz wizytą. Dzieci przychodzą pierwsze, w noc trzydziestego pierwszego, a dorośli później. Każda rodzina sprząta dom, przygotowuje jedzenie i czeka. Kiedy święto się kończy, dusze wracają do swojego świata, a rodzina zostaje z poczuciem, że znów byli razem. Być może dlatego to święto, choć smutne, jest też głęboko przepełnione wdzięcznością.\n\nJest jeszcze jedna informacja. W roku dwa tysiące ósmym UNESCO uznało tubylcze święto poświęcone zmarłym w Meksyku za niematerialne dziedzictwo kulturowe ludzkości. To uznanie dla tradycji, która łączy tak różne ludy jak Purépechowie znad jeziora Pátzcuaro, Huastekowie i Nahuowie z gór. Każdy z nich stawia swój łuk, swoje kwiaty i swoje jedzenie, ale wszyscy świętują to samo: ponowne spotkanie."
+    },
+    "retos_observacion": {
+      "hash": "fdd4fb58601aeadd",
+      "texto": [
+        "Poszukaj żółtych kwiatów, które pokrywają łuk",
+        "Znajdź stół z ofiarą: jakie potrawy rozpoznajesz?",
+        "Wyobraź sobie zapach kopalu i kwiatów wypełniający salę"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ed1aa9c2c17ea7ee",
+      "texto": {
+        "Lud": "Téenek i Nahuowie z Huasteca",
+        "Region": "Huasteca w stanach San Luis Potosí, Veracruz i Hidalgo (Tempoal, Huejutla)",
+        "Technika/Materiał": "Pręty z otate, liście palmowe, aksamitki, rzeźbiony wosk, kopal, chleb i drewno",
+        "Funkcja": "Ołtarz ceremonialny i święta instalacja na święto Xantolo (Dzień Zmarłych)"
+      }
+    },
+    "faq_mito": {
+      "hash": "842d80a36224dbf1",
+      "texto": {
+        "pregunta": "Mit: Dzień Zmarłych to smutne święto żałoby.",
+        "respuesta": "Rzeczywistość: To wizyta: rodziny przyjmują swoich zmarłych kwiatami, jedzeniem i muzyką. Smutek miesza się z radością."
+      }
+    }
+  }
+}

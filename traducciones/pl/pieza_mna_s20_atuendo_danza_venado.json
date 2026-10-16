@@ -1,0 +1,54 @@
+{
+  "id": "mna_s20_atuendo_danza_venado",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "441b8af2455f9bf4",
+      "texto": "Strój do tańca jelenia ludu Yaqui"
+    },
+    "frase_gancho": {
+      "hash": "b38794fc827a3d4c",
+      "texto": "Z głową jelenia i grzechotkami mężczyzna z ludu Yaqui staje się zwierzęciem."
+    },
+    "puente_narrativo": {
+      "hash": "1c148ada216bc27a",
+      "texto": "Opuszczamy północny zachód i wracamy do centrum kraju, do Nahuów z Huasteca. Poszukaj białej bawełnianej sukni pokrytej kwiatami i ptakami haftowanymi na czerwono, różowo i pomarańczowo."
+    },
+    "guion_corto": {
+      "hash": "48820dc34da445d1",
+      "texto": "To strój tancerza jelenia, którego tańczy lud Yaqui, a także lud Mayo, w Sonora i Sinaloa. W języku Yaqui jeleń nazywa się maaso. Na głowie tancerz nosi głowę jelenia, ozdobioną kolorowymi wstążkami lub chustkami, które zastępują kwiaty. W dłoniach trzyma dwie grzechotki zrobione z tykw, które wyznaczają rytm. Od pasa zwisają kopyta jelenia, które pobrzękują przy ruchu, a na kostki zawiązuje się sznury kokonów motyla zwane tenábaris. Śpiewacy towarzyszą mu skrobakami i bębnem wodnym. Podczas tańca mężczyzna naśladuje zwierzę: staje czujny, płoszy się, ucieka i się broni. Dla ludu Yaqui jeleń jest istotą świętą."
+    },
+    "guion_largo": {
+      "hash": "86b17595475d8cde",
+      "texto": "Maaso to w języku Yaqui słowo oznaczające jelenia. To także nazwa jednego z najważniejszych tańców ludu Yaqui, czyli Yoeme. Tańczą go również ich sąsiedzi, lud Mayo, który nazywa siebie Yoreme. W tym tańcu mężczyzna się przemienia: symbolicznie porzuca swoją ludzką naturę i przeobraża się w jelenia. Jest to taniec, który tańczą wyłącznie mężczyźni.\n\nWszystko zaczyna się od głowy. Tancerz przywiązuje sobie głowę jelenia, z rogami, i ozdabia ją kolorowymi wstążkami lub chustkami, które przedstawiają kwiaty. Kwiaty są bardzo ważne w świecie ludu Yaqui i dlatego zwierzę z dziczy pojawia się nimi okryte.\n\nReszta ciała pozostaje prawie odkryta. Pierś jest naga, a od pasa zwisa tkanina. Skórzany pas podtrzymuje rzędy kopyt jelenia, które pobrzękują z każdym krokiem. Z szyi zwisa różaniec z krzyżami. Tancerz nosi też naszyjnik z masy perłowej lub z muszli, który przedstawia świat morza. Stopy są bose i owinięte tenábaris, tymi sznurami kokonów motyla, które już pojawiły się narysowane na [tancerce z Tlatilco](mna_s03_bailarina_cascabeles). W każdej dłoni trzyma grzechotkę zrobioną z tykwy, która w języku Yaqui nazywa się áyam. Wyznacza nimi swoje ruchy. Kopyta, kokony i tykwy czynią z samego tancerza instrument.\n\nMuzyka płynie osobno. Śpiewacy jelenia wykonują pieśni w bardzo starej formie języka Yaqui. Ich teksty mówią o przyrodzie: o zwierzętach, roślinach i niebie. Aby sobie akompaniować, pocierają prążkowane pałeczki i grają na bębnie wodnym, czyli dużej tykwie umieszczonej na tacy z wodą.\n\nTo, co robi tancerz, jest pantomimą. Według badaczy przedstawia etapy życia jelenia. Staje czujny, patrzy w dal, wzburza się, płoszy się, ucieka i się broni. Malarz z Arizony, który poznał ten taniec, zostawił po sobie zapisany obraz. Z początkiem nocy tancerz jest młodym jelonkiem, a w ciągu nocy dorasta, by stać się dorosłym jeleniem.\n\nJeleń nie tańczy sam. Towarzyszy mu pascola, postać, która wywołuje śmiech i o której już wspominaliśmy przy masce [chapayeka](mna_s20_mascara_chapayeka). Nosi maskę kojota lub kozła, pas z metalowymi dzwoneczkami i tańczy przy muzyce skrzypiec lub harfy. Podczas gdy pascola żartuje, jeleń przedstawia coś bardziej uroczystego: relację między ludźmi a światem dziczy. Wśród ludu Yaqui jeleń i pascola uchodzą za dwa najbardziej reprezentatywne tańce.\n\nJeleń pojawił się już na twojej trasie: w śladach na [petroglifie z pustyni](mna_s11_petroglifo_desierto) i na obrazach wixárika. Na północnym zachodzie ta idea świętego zwierzęcia nabiera ciała i jest tańczona.\n\nBadacze uważają, że taniec ma pochodzenie prekolumbijskie, częściowo ze względu na jego instrumenty. Skrobaki, grzechotki i bęben wodny nie przybyły z Europy. Mimo to nie jest to eksponat muzealny: tańczy się go do dziś podczas świąt ludu Yaqui i ludu Mayo. Dla wielu to, że wciąż żyje, jest także formą oporu w ludzie, który przez wieki bronił swojego terytorium."
+    },
+    "retos_observacion": {
+      "hash": "88ac6952de6363a8",
+      "texto": [
+        "Poszukaj głowy jelenia i kolorowych wstążek, które ją zdobią",
+        "Zwróć uwagę na grzechotki z tykw, które tancerz trzyma w dłoniach",
+        "Znajdź pas z kopytami i sznury kokonów przeznaczone na kostki"
+      ]
+    },
+    "especificaciones": {
+      "hash": "44c01c2a5b2ac5fb",
+      "texto": {
+        "Kultura": "Yaqui (Yoeme) i Mayo (Yoreme)",
+        "Okres": "Żywa tradycja, uważana za pochodzącą z czasów prekolumbijskich",
+        "Materiał": "Głowa jelenia, wstążki, tkanina, skóra z kopytami jelenia, tykwy i kokony motyli",
+        "Pochodzenie": "Sonora i Sinaloa"
+      }
+    },
+    "faq_mito": {
+      "hash": "2accc4d7de68f07a",
+      "texto": {
+        "pregunta": "Mit: Tancerz jelenia przebiera się za zwierzę tylko dla rozrywki.",
+        "respuesta": "Rzeczywistość: Dla ludu Yaqui i ludu Mayo jest to ceremonia: tancerz przedstawia święte zwierzę, a pieśni mówią o przyrodzie."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_anciano_flor_nardo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8c7ea3ca2f0f75e3",
+      "texto": "Starzec w kwiecie nardu (Jaina)"
+    },
+    "frase_gancho": {
+      "hash": "e8352075bac28f45",
+      "texto": "Gliniany starzec wyłania się spośród płatków, jakby rodził się na nowo."
+    },
+    "puente_narrativo": {
+      "hash": "d62b2cd8a1dfdce7",
+      "texto": "Od maleńkiej figurki przechodzimy do wielkoformatowego obrazu. Poszukaj malowidła ściennego poświęconego światu Majów, dzieła Riny Lazo, tej samej artystki, która skopiowała malowidła z Bonampak."
+    },
+    "guion_corto": {
+      "hash": "99e90bc529f339bf",
+      "texto": "Ta gliniana figurka pochodzi z Jainy, wyspy w Campeche, na której Majowie chowali swoich zmarłych. Przedstawia starca otoczonego płatkami, jakby wyrastał z rozwiniętego kwiatu. Powstała w okresie późnego klasyku, między rokiem sześćset a dziewięćset. Specjaliści sądzą, że ten kwiat to lilia wodna. Inni wiążą go z nardem, kwiatem, z którego według mitu Lakandonów narodzili się bogowie. Mówiło się, że starzec jest bogiem albo zmarłym, który rodzi się na nowo, ale nikt nie wie tego na pewno. Zrozumiała jest jednak główna idea: rozwijający się kwiat oznacza początek. Dlatego takie figurki towarzyszyły zmarłym."
+    },
+    "guion_largo": {
+      "hash": "3774a54b5ab58d75",
+      "texto": "Są figurki, które rozumie się po twarzy, i takie, które rozumie się po tym, co je otacza. Ta należy do drugich. Płatki nie są ozdobą. To miejsce, z którego zdaje się wychodzić starzec, jakby kwiat go chronił.\n\nZacznijmy od kwiatu, który ma dwie nazwy. Według jednych to lilia wodna, czyli nenufar, roślina unosząca się na powierzchni lagun i bagien. Jej kwiat otwiera się za dnia, a zamyka nocą. Majowie wiązali ją z wodą i z zaświatami, dlatego proponuje się, że symbolizuje odrodzenie po śmierci. W badaniach nad Jainą najczęściej mówi się właśnie o liliach.\n\nWedług innych ten kwiat to nard. Ten pomysł pochodzi z mitu Lakandonów, ludu majskiego, który żyje w dżungli Chiapas. Według badacza Boremanse’a, który zapisał to podanie, bogowie narodzili się, gdy otworzył się kwiat nardu, i nie mieli matki. Badanie INAH dodaje, że jeden z nich, Mensabak, rozdziela deszcze. Ale to podanie opowiadano i spisano w czasach nowożytnych, ponad tysiąc lat po powstaniu tych figurek. To wskazówka, a nie dowód.\n\nTo nie jest odosobniony przypadek. W 1975 roku badanie Millera objęło około trzystu figurek z Jainy i podzieliło je na trzy typy. Jeden z nich obejmuje właśnie te figurki, które wyłaniają się z kwiatu na długiej łodydze. A kim jest starzec? Proponowano, że to bóstwo. Proponowano też, że to osoba w swoich „drugich narodzinach”, czyli zmarły, który odradza się w zaświatach. Specjaliści nie są zgodni i nie ma też pewnego imienia dla niego.\n\nSą inne figurki z kwiatem, w których postać jest młoda, o głowie wydłużonej jak kolba kukurydzy. Muzea w Stanach Zjednoczonych utożsamiają je z Bogiem Kukurydzy. To ten sam bóg, którym stał się król [Pakal](mna_s09_mascara_pakal) w swojej jadeitowej masce. W innych, jak ta, postać jest stara. Przypuszczano, że młodzi i starzy ukazują wieki jednego życia, a kwiat je łączy.\n\nPrzypomnij sobie [głowę ze stiuku Pakala](mna_s09_cabeza_pakal). Trzy pąki kwiatów otaczają jego fryzurę, a dla Majów kwiaty oznaczały piękno, rzecz świętą i kiełek kukurydzy. Proponowano też, że wyobrażali sobie raj pełen kwiatów, muzyki i zapachów, w którym mieszkali przodkowie i bogowie. Figurka, która rodzi się z kwiatu, złożona obok zmarłego, pasowałaby do tej nadziei.\n\nJaina jest małą wyspą, ale szacuje się, że kryje dziesiątki tysięcy grobów. Wykopano tylko niewielką ich część. Podobnie jak siedzący pan z Jainy, którego widziałeś wcześniej, ta figurka powstała, by komuś towarzyszyć. W figurkach takich jak ta ramiona zwykle są skrzyżowane na ciele. Niektóre figurki z kwiatem są gwizdkami, więc być może dźwięk również był częścią pożegnania.\n\nZanim pójdziesz dalej, zobacz, jak płatki go otulają. Pomyśl o wodnym kwiecie, który zamyka się nocą i otwiera za dnia. Ten, kto położył ją w grobie, być może spodziewał się tego samego dla swojego zmarłego: innego poranka."
+    },
+    "retos_observacion": {
+      "hash": "d0ce6ca35dee1837",
+      "texto": [
+        "Poszukaj płatków otaczających starca i policz, ile zdołasz zobaczyć",
+        "Przyjrzyj się twarzy: jakie oznaki starości dostrzegasz?",
+        "Zobacz, gdzie spoczywają jego ramiona i dłonie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2500a905f19566b5",
+      "texto": {
+        "Kultura": "Majowie (styl Jaina)",
+        "Okres": "Późny klasyk (ok. 600-900 n.e.)",
+        "Materiał": "Modelowana glina",
+        "Pochodzenie": "Wyspa Jaina, Campeche"
+      }
+    },
+    "faq_mito": {
+      "hash": "9ef2a013cee79d4b",
+      "texto": {
+        "pregunta": "Mit: Dla Majów śmierć była końcem bez powrotu.",
+        "respuesta": "Rzeczywistość: W wielu wyobrażeniach pogrzebowych pojawia się idea odrodzenia, jak kukurydza, która kiełkuje, albo kwiat, który się otwiera. Figurki takie jak ta, znalezione w grobach Jainy, zwykle się tak odczytuje."
+      }
+    }
+  }
+}

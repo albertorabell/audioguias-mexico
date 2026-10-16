@@ -1,0 +1,54 @@
+{
+  "id": "mna_s07_danzante_montealban",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0a262e2ee8669e2",
+      "texto": "Stela „Tancerzy” z Monte Albán"
+    },
+    "frase_gancho": {
+      "hash": "cecc072f39c4d566",
+      "texto": "Oni nie tańczą: to pokonani wodzowie, wykuci w kamieniu dwa tysiące pięćset lat temu."
+    },
+    "puente_narrativo": {
+      "hash": "bff0e626bf79c3fc",
+      "texto": "Monte Albán pokazywał swoją potęgę w kamieniu, ale miał też stronę świętą. Poszukaj teraz twarzy z jadeitu, złożonej z dwudziestu pięciu zielonych elementów, która spogląda z nocy."
+    },
+    "guion_corto": {
+      "hash": "9de3d585f1b5bbdf",
+      "texto": "Ta płyta, wysoka na prawie półtora metra, to jedna z tak zwanych „Tancerzy” z Monte Albán. Pierwsi badacze uznali, że to tancerze, z powodu ich powykręcanych póz. Dziś uważa się, że to portrety wodzów i wojowników z rywalizujących ludów, schwytanych, obnażonych i złożonych w ofierze przez rodzącą się elitę miasta. Zwróć uwagę na zamknięte oczy, na bezwładnie zgięte kończyny i na linie, które tryskają z ciała: przedstawiają krew. Przy każdej postaci jest glif, który prawdopodobnie jest jej imieniem. Monte Albán założono około roku pięćsetnego przed Chrystusem, a to jedna z pierwszych rzeczy, które postanowił opowiedzieć światu: kto tu rządzi."
+    },
+    "guion_largo": {
+      "hash": "229e8cd87b6652d1",
+      "texto": "Wyobraź sobie wzgórze. W roku pięćsetnym przed Chrystusem, w środku Dolin Oaxaca, kilka ludów postanawia zrobić coś ogromnego: ręcznie wyrównać szczyt góry, by założyć miasto. To Monte Albán. Niezwykłe jest to, że zrobiły to w miejscu bez wody w pobliżu, a mimo to miasto rosło przez ponad tysiąc lat. Z tego szczytu panuje się nad całą doliną, gdzie schodzą się trzy ramiona: Etla, Zimatlán i Tlacolula. Kto siedział na górze, widział nadchodzącego każdego. A ten, kto rządzi w takim miejscu, musi przekonać innych, że nie wolno mu się sprzeciwiać.\n\nWśród pierwszych monumentów są właśnie te płyty. Było ich setki, według tego, co zwykle się mówi, ponad trzysta, ustawionych w budynku na głównym placu, który dziś nazywamy budynkiem Tancerzy. Każda płyta przedstawia nagiego mężczyznę o wiotkim ciele i zamkniętych oczach, w pozie przypominającej niezdarny taniec. Stąd wzięła się ta nazwa. Ale nazwa zwodzi.\n\nDziś uważa się, że to pokonani. Odebrać wodzowi ubranie, klejnoty i insygnia znaczyło odebrać mu tożsamość: zredukować go do samego ciała. Wielu ma okaleczenia, a z nich wychodzą zawijasy, które przedstawiają krew. To wodzowie i wojownicy z rywalizujących ludów, a ich wizerunek wykuto w kamieniu, by nikt nie zapomniał, jak kończył ten, kto się sprzeciwiał.\n\nPopatrz teraz na glif, który towarzyszy postaci. Każdy z nich to znak jednego dnia kalendarza liczącego dwieście sześćdziesiąt dni, który służył jako imię własne. To jedne z pierwszych przykładów pisma w Mezoameryce: Zapotekowie pisali imiona i daty już ponad dwa tysiące lat temu. I nie była to ich pierwsza próba. W San José Mogote, wsi w tej samej dolinie, odnaleziono jeszcze starszą płytę z tym samym tematem: złożony w ofierze jeniec i znak, który go nazywa.\n\nTo propaganda, i to najstarsza z możliwych. Dwa tysiące lat przed [Kamieniem Tizoca](mna_s06_tizoc), który widziałeś w Sali Mexica, inne miasto już używało kamienia, by powiedzieć: tak kończą ci, którzy nam się sprzeciwiają. To ta sama logika, ten sam gest władzy, powtarzany przez wieki. Być może dlatego jest to tak niepokojące: przypomina nam, że niektóre sprawy władzy się nie zmieniły.\n\nZwróć też uwagę na coś, czego nie widać na pierwszy rzut oka: prawie nie ma dwóch postaci w tej samej pozie. Każde ciało wykuto inaczej, z rękami i nogami pod różnymi kątami. To sugeruje, że każdy z tych mężczyzn był konkretną osobą, z imieniem i życiorysem, a nie ogólnym symbolem. Ktoś zadał sobie trud, by zapamiętać ich jednego po drugim, choćby po to, by ich upokorzyć.\n\nZ czasem miasto zmieniło gust: uważa się, że wiele płyt użyto ponownie jako kamienia budowlanego w późniejszych budynkach, i dlatego dziś niektóre są przycięte albo leżą nie na swoim miejscu. Ale ta zachowała się w całości.\n\nI pomyśl o tym: na ten kamień patrzyli ludzie, którzy przychodzili i odchodzili przez najważniejszy plac miasta. Była jednocześnie otwartą księgą i ostrzeżeniem. Zapotekowie mieli wiele innych sposobów opowiadania o swoim świecie, jak zaraz się przekonasz, ale ten był pierwszym, który postanowili wyryć w kamieniu."
+    },
+    "retos_observacion": {
+      "hash": "cc2ba47abb80ae22",
+      "texto": [
+        "Poszukaj zamkniętych oczu oraz bezwładnych rąk i nóg",
+        "Znajdź glif obok postaci: to jej imię",
+        "Przyjrzyj się liniom, które tryskają z ciała: co przedstawiają?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bf20bfd72137eda5",
+      "texto": {
+        "Kultura": "Zapotekowie",
+        "Okres": "Preklasyk, pierwszy etap Monte Albán (Monte Albán I)",
+        "Materiał": "Kamień",
+        "Pochodzenie": "Budynek Tancerzy, Monte Albán, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "3b4e7943e349af1a",
+      "texto": {
+        "pregunta": "Mit: Tancerze z Monte Albán to tancerze.",
+        "respuesta": "Rzeczywistość: To jeńcy: wodzowie i wojownicy z rywalizujących ludów, obnażeni i złożeni w ofierze. Nazwa „tancerze” wzięła się z ich powykręcanych póz, które pierwsi badacze wzięli za taniec."
+      }
+    }
+  }
+}

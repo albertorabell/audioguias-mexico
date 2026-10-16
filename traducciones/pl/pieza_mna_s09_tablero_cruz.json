@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_tablero_cruz",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7e147b0d606407e2",
+      "texto": "Tablica Krzyża z Palenque"
+    },
+    "frase_gancho": {
+      "hash": "739924d51876e119",
+      "texto": "Chłopiec i dorosły król, ten sam człowiek, po dwóch stronach świętego krzyża."
+    },
+    "puente_narrativo": {
+      "hash": "95c9142a818ddf57",
+      "texto": "Z Palenque przenosimy się do pałacu innego królestwa, nad brzegiem rzeki Usumacinta. Poszukaj kamiennego reliefu z dwiema postaciami stojącymi naprzeciw siebie: królem i królową, która wręcza mu hełm jaguara."
+    },
+    "guion_corto": {
+      "hash": "333aab32547f6b0c",
+      "texto": "Sześcioletni chłopiec i dorosły król pojawiają się na tym samym kamieniu i są tym samym człowiekiem: Kan Bahlamem, synem i następcą [Pakala](mna_s09_mascara_pakal). To wielka tablica z wapienia z Grupy Krzyży w Palenque, dzieło Majów z późnego klasyku, wyrzeźbione około 692 roku. Specjaliści odczytują na niej dwa momenty jego życia: jako dziecko, gdy przedstawiono go jako dziedzica, co wydarzyło się w 641 roku, i jako dorosły, gdy otrzymał władzę, w 684 roku. Pośrodku wznosi się święta roślina w kształcie krzyża. Po bokach kolumny hieroglifów opowiadają, kim był i dlaczego to jemu przypadło rządzić. To argument polityczny wyryty w kamieniu."
+    },
+    "guion_largo": {
+      "hash": "c3b90339d9f90549",
+      "texto": "Wyobraź sobie, że twój ojciec, najsłynniejszy król miasta, właśnie umarł, a teraz to ty masz rządzić. Jak przekonać wszystkich, że masz do tego prawo? Kan Bahlam, syn [Pakala](mna_s09_mascara_pakal), zrobił to za pomocą kamienia: kazał wyrzeźbić tę tablicę i umieścił ją w najświętszym miejscu świątyni.\n\nTo dzieło Majów z późnego klasyku, wyrzeźbione około 692 roku w wapieniu. Pochodzi z Palenque, w Chiapas, z Grupy Krzyży, zespołu trzech świątyń: Świątyni Krzyża, Świątyni Słońca i Świątyni Krzyża Liściastego. W swoim wewnętrznym sanktuarium każda z nich przechowywała taką wielką tablicę, ze sceną i tekstem, które czytano jako jedno przesłanie.\n\nPopatrz na postaci. Król pojawia się dwa razy: jako sześcioletni chłopiec i jako dorosły. Według odczytania specjalistów scena z dzieckiem przywołuje rok 641, kiedy przedstawiono go jako dziedzica, a scena z dorosłym rok 684, kiedy otrzymał insygnia władzy, kilka miesięcy po śmierci ojca. Między jednym a drugim momentem minęły czterdzieści trzy lata, a kamień łączy je w jednym obrazie, jakby wszystko było przesądzone od początku.\n\nPomiędzy obiema postaciami wznosi się święta roślina w kształcie krzyża. Dla Majów nie był to symbol chrześcijański: była to oś świata, drzewo albo roślina kukurydzy, która łączyła podziemny świat, ziemię i niebo. Wyrzeźbiono ją na długo przed przybyciem Hiszpanów, dlatego nazywamy ją „krzyżem” tylko ze względu na jej kształt.\n\nPo bokach biegną teksty, całe kolumny hieroglifów. To najważniejsza część, choć najtrudniejsza do zauważenia. Opowiadają, że według tradycji Palenque bogowie opiekuńczy miasta narodzili się w czasach mitycznych, a król był ich dziedzicem na ziemi. W ten sposób osobista historia Kan Bahlama łączyła się z historią bogów jego miasta, a jego prawo do rządzenia wydawało się tak dawne jak wszechświat.\n\nPomyśl o tym jak o plakacie politycznym, ale wyrzeźbionym tak, by przetrwać. Dzisiejsi władcy używają przemówień, ogłoszeń i mediów społecznościowych; Kan Bahlam użył wapienia, rzeźbiarzy i kilku lat pracy. I zadziałało: ponad tysiąc trzysta lat później jego imię dotarło aż do ciebie.\n\nJeśli przychodzisz z [krypty Pakala](mna_s09_cripta_pakal), znasz już ojca: króla, którego twarz zakrywał jadeit. Tutaj poznajesz syna, tego, który odziedziczył miasto i rządził do 702 roku. W tych latach wzniósł ten zespół świątyń, by jasno pokazać, że dynastia trwa. Jeden grobowiec dla ojca i trzy świątynie dla syna: historia rodziny opowiedziana w dwóch rodzajach kamienia.\n\nZanim pójdziesz dalej, porównaj dwie postaci króla. Co zmienia się w ciele, w nakryciu głowy i w postawie chłopca i dorosłego? Na tym kamieniu czas nie płynie: chłopiec i król są jednym człowiekiem."
+    },
+    "retos_observacion": {
+      "hash": "f033df1db6d94a2a",
+      "texto": [
+        "Znajdź dwa portrety króla: jako chłopca i jako dorosłego",
+        "Odszukaj świętą roślinę w kształcie krzyża, która znajduje się między nimi",
+        "Spójrz na kolumny hieroglifów po bokach: to tekst, który wyjaśnia scenę"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a01539b997eb1885",
+      "texto": {
+        "Kultura": "Majowie, Palenque",
+        "Okres": "Późny klasyk (około 692 n.e.)",
+        "Materiał": "Wapień, płaskorzeźba na kilku płytach",
+        "Pochodzenie": "Grupa Krzyży, Palenque, Chiapas"
+      }
+    },
+    "faq_mito": {
+      "hash": "1e7546d953929576",
+      "texto": {
+        "pregunta": "Mit: Krzyż na tablicy to symbol chrześcijański, który przybył z Hiszpanami.",
+        "respuesta": "Rzeczywistość: To święta roślina lub drzewo Majów w kształcie krzyża, wyrzeźbione około 692 roku, na długo przed przybyciem Hiszpanów."
+      }
+    }
+  }
+}

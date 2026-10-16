@@ -1,0 +1,54 @@
+{
+  "id": "mna_s01_entierro_dolni_vestonice",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "da694b2d48cffc28",
+      "texto": "Rekonstrukcja pochówku z Dolní Věstonice"
+    },
+    "frase_gancho": {
+      "hash": "6320a9e2d606d0d4",
+      "texto": "Trzech młodych mężczyzn pochowanych razem na czerwonej ziemi, przed dziesiątkami tysięcy lat."
+    },
+    "puente_narrativo": {
+      "hash": "98e1c9c337b09ecf",
+      "texto": "Od grobu przechodzimy do czaszek: kości również opowiadają historie. Poszukaj w tej sali muralu z czaszkami i porównaj ich kształty, zęby oraz ślady zwyczajów bardzo różnych ludów."
+    },
+    "guion_corto": {
+      "hash": "12aca6e878b6f5a6",
+      "texto": "Trzech młodych ludzi spoczywa razem na ziemi zabarwionej na czerwono. Ktoś ułożył ich tak ponad dwadzieścia pięć tysięcy lat temu, w paleolicie górnym. To rekonstrukcja w naturalnej wielkości pochówku z Dolní Věstonice, na Morawach, na południu dzisiejszych Czech. Byli to ludzie naszego gatunku, Homo sapiens, którzy żyli z polowania i zbieractwa. Mieli mniej więcej od szesnastu do dwudziestu lat i zostali pochowani w tym samym czasie, bez śladów śmierci w wyniku przemocy. Ciała pokrywa czerwona ochra, a towarzyszą im ozdoby wykonane z przedziurawionych zębów. Specjaliści widzą w tych szczegółach jeden z najwcześniejszych w Europie dowodów myślenia symbolicznego i rytuałów żegnania zmarłych."
+    },
+    "guion_largo": {
+      "hash": "b6d8e7a958dc3800",
+      "texto": "Kiedy myślisz o prehistorii, być może wyobrażasz sobie ludzi, którzy tylko starali się przetrwać. Ten pochówek opowiada coś innego: że ponad dwadzieścia pięć tysięcy lat temu, w osadzie łowców mamutów, ktoś poświęcił czas, by z troską pożegnać trzech młodych ludzi.\n\nTo, co widzisz, jest rekonstrukcją w naturalnej wielkości grobu odkrytego w 1986 roku w Dolní Věstonice, na Morawach, na południu dzisiejszych Czech. Wykonano ją z replik szkieletów, z narzędzi kamiennych i zwierzęcych zębów, na podłożu z ziemi z czerwoną ochrą. Trzy ciała leżą wyciągnięte jedno obok drugiego i zostały pochowane w tym samym czasie; nie znaleziono śladów śmierci w wyniku przemocy. Ci, którzy ich pochowali, żyli z polowania na mamuty, a w obozowiskach tego regionu wznoszono chaty z kości tego zwierzęcia. W następnej sali zobaczysz łowców, którzy ścigali tego samego giganta w Ameryce.\n\nZwróć uwagę, jak zostali ułożeni. Jeden z nich leży twarzą w dół. Inny opiera dłoń w stronę miednicy młodzieńca ze środka, którego, jak wykazały badania, ułożono jako pierwszego. A nad głowami rozsypano czerwoną ochrę, naturalny pigment z tlenku żelaza. W wielu kulturach czerwień kojarzono z krwią i z życiem. Coś podobnego zobaczysz w Sali Majów, gdzie ciało króla [Pakala](mna_s09_mascara_pakal) było pokryte cynobrem, innym czerwonym proszkiem.\n\nMłodzieniec ze środka skrywa tajemnicę, którą odkryto z biegiem lat. Miał wadę kości od urodzenia, która powodowała skrzywienie jego nóg. Mimo to dożył wieku młodzieńczego, a specjaliści sądzą, że jego grupa musiała się nim opiekować. To jeden z najstarszych dowodów na to, że już wtedy ludzie troszczyli się o tych, którzy potrzebowali pomocy.\n\nJest też pewna ciekawostka. Przez długi czas uważano, że młodzieniec ze środka był kobietą. W 2016 roku analiza DNA wykazała, że wszyscy trzej byli mężczyznami i że prawdopodobnie byli spokrewnieni. Nauka czasem poprawia to, co wydawało się oczywiste.\n\nCiała miały ozdoby wykonane z przedziurawionych zębów zwierząt, które prawdopodobnie przyszywano do ubrania lub do nakrycia głowy. Wyobraź sobie trud przewiercania zęba kamiennymi narzędziami i pomyśl, jak wielkie znaczenie mieli ci trzej młodzi ludzie dla tych, którzy ich żegnali. Dla specjalistów ochra i ozdoby należą do najwcześniejszych w Europie dowodów myślenia symbolicznego: idei, że przedmiot może oznaczać coś więcej niż jego użycie.\n\nTo miejsce słynie też z innego powodu. W Dolní Věstonice znaleziono figurkę kobiety z wypalonej gliny, „Wenus z Dolní Věstonice”, jedną z najstarszych znanych ceramik. To znaczy, że ci łowcy wypalali glinę na długo przed tym, zanim powstały osady rolnicze, które zobaczysz w Sali Preklasyku.\n\nPatrz na tę scenę jak na przypomnienie. Na długo przed miastami i bogami byli już ludzie, którzy z troską żegnali swoich bliskich. I ten zwyczaj, bardziej niż jakakolwiek piramida, pozwala nam rozpoznać samych siebie."
+    },
+    "retos_observacion": {
+      "hash": "09402a7ee0cbf420",
+      "texto": [
+        "Policz ciała i zwróć uwagę, jak zostały ułożone",
+        "Poszukaj czerwonej ochry na ziemi i na ciałach",
+        "Znajdź ozdoby wykonane z zębów oraz kamienne narzędzia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9f47e68a8c77408f",
+      "texto": {
+        "Kultura": "Homo sapiens, łowcy-zbieracze europejskiego paleolitu górnego (kultura graweacka)",
+        "Okres": "Około 26 000-27 000 lat przed teraźniejszością",
+        "Materiał": "Rekonstrukcja muzealna w formie dioramy w skali 1:1, z replikami trzech szkieletów, pigmentem ochry i naszyjnikami z przedziurawionych zębów",
+        "Pochodzenie oryginalne": "Dolní Věstonice, Morawy, Czechy"
+      }
+    },
+    "faq_mito": {
+      "hash": "e4ab880b6703b50d",
+      "texto": {
+        "pregunta": "Mit: Ludzie prehistorii chowali swoich zmarłych bez ceremonii, w zwykłych dołach.",
+        "respuesta": "Rzeczywistość: Ten pochówek zbiorowy, z czerwoną ochrą i ozdobami z zębów, świadczy o rytuałach pogrzebowych w paleolicie górnym."
+      }
+    }
+  }
+}

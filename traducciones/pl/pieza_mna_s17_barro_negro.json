@@ -1,0 +1,54 @@
+{
+  "id": "mna_s17_barro_negro",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4e3284425c6a4829",
+      "texto": "Manierka i naczynia z czarnej gliny z San Bartolo Coyotepec"
+    },
+    "frase_gancho": {
+      "hash": "12d5b91c76fba4e4",
+      "texto": "Glina, która dzięki dymowi i cierpliwości staje się lśniąco czarna."
+    },
+    "puente_narrativo": {
+      "hash": "de575be8b35714e1",
+      "texto": "Od ceramiki przechodzimy do święta. Poszukaj maski z rogami zwierzęcia, grzywą i brodą, a obok niej oślej szczęki używanej jako instrument."
+    },
+    "guion_corto": {
+      "hash": "6880944c9e45bddf",
+      "texto": "Te naczynia z czarnej gliny pochodzą z San Bartolo Coyotepec, zapoteckiej miejscowości w Centralnych Dolinach Oaxaca. Wyrabia się je ręcznie, bez koła garncarskiego, i poleruje bardzo gładkim kwarcem, aż powierzchnia zaczyna lśnić. Ich czerń to nie farba ani szkliwo: powstaje, gdy wypala się je w zamkniętym piecu, przy niewielkiej ilości tlenu, gdzie dym ciemnieje glinę. Zwróć uwagę na kontrast między polerowanymi miejscami, które błyszczą jak metal, a bardziej matowym tłem. Niektóre naczynia mają ażurowe wycięcia w kształcie kwiatów, wykonane z ogromną cierpliwością. W Oaxaca takie naczynia służyły do przechowywania wody i mezkalu, do ofiar i na święta. To przykład tego, jak ogień i dym mogą stać się sztuką."
+    },
+    "guion_largo": {
+      "hash": "f17856e9da7ecdc5",
+      "texto": "Gdyby naczynie mogło wyglądać jak metal, to właśnie te. Ich czerń jest tak głęboka, a połysk tak równy, że trudno uwierzyć, że są z gliny. A jednak są, i to, co nadaje im takie wykończenie, to nie farba ani szkliwo, lecz ogień, dym i mnóstwo cierpliwości.\n\nGarncarze z San Bartolo Coyotepec pracują ręcznie, bez koła garncarskiego, techniką, która polega na formowaniu naczynia w dwóch połówkach, łączeniu ich i dopasowywaniu. Potem zostawiają je do wyschnięcia, polerują gładkim kwarcem, pocierając raz po raz, aż powierzchnia staje się jak lustro, i na końcu wypalają. Cały proces wymaga staranności, bo jedno pęknięcie może zniweczyć kilka dni pracy.\n\nKluczem jest wypał. Naczynia wkłada się do zamkniętego pieca, do którego prawie nie dostaje się powietrze. W takich warunkach, zwanych redukcyjnymi, dym wnika w pory gliny, a żelazo zawarte w glinie wchodzi w reakcję. Efektem jest czerń. Gdyby do pieca docierało więcej powietrza, naczynia wyszłyby rdzawoczerwone. Innymi słowy: kolor uzyskuje się przez brak tlenu, a nie przez dodanie czegokolwiek.\n\nTa czerń ma swoich poprzedników. W Sali Oaxaca na dole widziałeś urny i naczynia z szarej gliny z czasów Monte Albán. Uważa się, że tradycja ciemnej gliny w dolinie wywodzi się z tamtej epoki i że przez stulecia się zmieniała. Bardzo lśniące wykończenie jest nowsze: zwykle przypisuje się je Doña Rosie Real, garncarce z San Bartolo Coyotepec, która w połowie dwudziestego wieku upowszechniła polerowanie kwarcem.\n\nDobre naczynie rozpoznaje się po dźwięku: gdy lekko w nie stukniesz, brzmi prawie jak dzwon. Jeśli jest pęknięcie, dźwięk cichnie. To prosty sprawdzian, który garncarze stosują od zawsze.\n\nSpójrz na ażurowe wycięcia, te nacięcia w kształcie kwiatów lub rozet. Wykonuje się je nożem, zanim naczynie zostanie wypalone, i wyglądają jak haft na glinie. To delikatna praca, bo wilgotna glina łatwo się kruszy. Niektóre naczynia są tak dekoracyjne, że uważa się je wyłącznie za ozdobę, ale wiele z nich służyło do przechowywania wody, mezkalu lub żywności.\n\nA skoro mowa o mezkalu: ta sama agawa, którą widziałeś w Sali otomí, ta, która daje ixtle i pulque, w Oaxaca daje właśnie ten trunek. Robi się go z różnych gatunków agawy i od wieków podawano go w czarkach z tykwy, glinianych kieliszkach i naczyniach takich jak te. To kolejny sposób, by zobaczyć, jak jedna roślina może ożywić cały region.\n\nJest w tym dyskretna nauka. W świecie, który ceni to, co szybkie, czarna glina zmusza do powolności. Na ten połysk nie ma skrótów: każde naczynie to godziny polerowania, piec, którego trzeba pilnować, i niepewność, czy po jego otwarciu okaże się, że wszystko się udało. Dlatego każde naczynie jest też aktem zaufania."
+    },
+    "retos_observacion": {
+      "hash": "d705449b9b1e1a40",
+      "texto": [
+        "Porównaj lśniące miejsca z matowymi",
+        "Poszukaj ażurowych wycięć w kształcie kwiatów",
+        "Wyobraź sobie zamknięty piec i dym, który zabarwił każde naczynie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "29132d856b298421",
+      "texto": {
+        "Lud": "Zapotekowie (Ben 'Zaa)",
+        "Region": "San Bartolo Coyotepec, Centralne Doliny Oaxaca",
+        "Technika/Materiał": "Czarna glina modelowana ręcznie, polerowana kwarcem i wypalana w zamkniętym piecu redukcyjnym",
+        "Funkcja": "Naczynie na wodę i mezkal, naczynia ofiarne oraz rzemiosło obrzędowe"
+      }
+    },
+    "faq_mito": {
+      "hash": "52d0ca82a2c620b6",
+      "texto": {
+        "pregunta": "Mit: Czarna glina to glina pomalowana na czarno.",
+        "respuesta": "Rzeczywistość: Jej kolor rodzi się podczas wypału: bez tlenu dym i żelazo zawarte w glinie ją ciemnią. Połysk uzyskuje się, pocierając glinę kwarcem."
+      }
+    }
+  }
+}

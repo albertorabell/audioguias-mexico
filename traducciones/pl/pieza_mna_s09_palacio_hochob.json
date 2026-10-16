@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_palacio_hochob",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f696ddc923bd2153",
+      "texto": "Replika Pałacu w Hochob"
+    },
+    "frase_gancho": {
+      "hash": "13ebf3d95ab98896",
+      "texto": "Drzwi, które naśladują otwartą paszczę potwora ziemi."
+    },
+    "puente_narrativo": {
+      "hash": "ced7ad0e799c63aa",
+      "texto": "Od kamiennej fasady wracamy do niewielkich figurek z Jaina. Poszukaj glinianego starca otoczonego płatkami, jakby wyrastał z rozwiniętego kwiatu."
+    },
+    "guion_corto": {
+      "hash": "ff9f39353b025000",
+      "texto": "Ta fasada odtwarza Pałac w Hochob, w stanie Campeche. Hochob należy do regionu Chenes, którego nazwa w języku maya znaczy „studnie”, ponieważ prawie nie ma tam rzek, a wodę przechowuje się w studniach i cysternach. Środkowe drzwi to otwarta paszcza potwora ziemi: aby wejść do budynku, trzeba było przejść przez jego szczęki. Reszta fasady była pokryta mozaiką z ciosanych kamieni, które tworzyły maski o długich nosach, takie jak maski Chaaca, boga deszczu. To budowla z okresu późnego klasyku, wzniesiona po to, by robić wrażenie. W muzeum widzisz ją od frontu, ale wyobraź sobie ją otoczoną niską dżunglą."
+    },
+    "guion_largo": {
+      "hash": "18a44e6817e80f02",
+      "texto": "Niewiele fasad wymaga tyle odwagi, by je przekroczyć: drzwi tego budynku to paszcza. Spójrz na zęby wykute w kamieniu wokół otworu, a wyżej na twarz potwornej istoty. Majowie widzieli w niej potwora ziemi, z którego rodzą się kukurydza, woda i życie, a który był zarazem progiem prowadzącym do podziemnego świata. Wejść do pałacu znaczyło dosłownie wejść do ziemi.\n\nTa idea nie jest wyłącznie majowska. Mexica przedstawiali ziemię jako [Tlaltecuhtli](mna_s06_tlaltecuhtli), przykucniętego potwora o otwartej paszczy, którego zobaczysz w Sala Mexica. W obu światach ziemia pożera zmarłych, a jednocześnie daje kukurydzę. Uważa się, że przejście przez tę paszczę było sposobem, by powiedzieć, że budynek jest miejscem pomiędzy światem żywych a światem bogów.\n\nTo jest replika Struktury dwa z Hochob. Oryginał znajduje się w Campeche, w regionie Chenes. Chen w języku Majów jukatańskich znaczy „studnia”, a Chenes to „studnie”: kraina niskiej dżungli, bez rzek, w której ludzie polegali na studniach i podziemnych cysternach, zwanych chultunes, by gromadzić deszczówkę. Znasz to już z [Maską Chaaca](mna_s09_mascaron_chaac): kiedy brakuje wody, bóg deszczu pokrywa fasady.\n\nZwróć uwagę na technikę. Fasadę pokrywała mozaika: wiele kamieni przyciętych na miarę i dopasowanych jeden po drugim, by utworzyć twarze, węże i symbole. Najłatwiej rozpoznać maski o długim, zwiniętym nosie, czyli maski boga Chaaca, które flankują wejście. To ta sama estetyka co w masce z Kabah, ale tutaj nie jest to pojedynczy element: to cała ściana.\n\nStyl Chenes ma sąsiadów i krewnych. Ze stylem Río Bec łączy go pomysł fasad jak gigantyczne maski, a ze stylem Puuc, z Uxmal i z Kabah, zamiłowanie do kamiennych mozaik. To tak, jakby cały region umówił się, by zamienić swoje budynki w twarze.\n\nNazywa się go pałacem, choć w świecie Majów granica między pałacem a świątynią była cienka: władza i sacrum szły ręka w rękę. Ten, kto rządził, rozmawiał z bogami, a fasady przypominały o tym każdemu, kto się zbliżał.\n\nWskazówka na czas podróży: większość ludzi myśli o Chichén Itzá albo o Palenque, ale Campeche kryje ogromne miasta, które prawie nikt nie odwiedza, jak Calakmul, skąd pochodzi [Stela pięćdziesiąt jeden](mna_s09_estela51_calakmul). Ta fasada jest zaproszeniem, by ich poszukać.\n\nI sztuczka muzealna: pamiętaj, że wiele eksponatów z tej sali, jak stele, nadproża i maski, nie stało luzem w gablocie. Były częścią budynków takich jak ten, pokrytych barwami. Przywróć je wyobraźnią na ich miejsce.\n\nSpójrz jeszcze raz na zęby i czoło potwora i zobacz, jak bardzo z daleka przypomina twarz. Przekrocz próg wzrokiem, ale okaż potworowi szacunek: tutaj ziemia pozwala ci przejść."
+    },
+    "retos_observacion": {
+      "hash": "a9f1e60866c72e2c",
+      "texto": [
+        "Wypatrz drzwi przypominające paszczę i przyjrzyj się jej zębom",
+        "Znajdź maski o długich nosach, które flankują wejście",
+        "Zobacz, jak małe kamienie tworzą mozaikę"
+      ]
+    },
+    "especificaciones": {
+      "hash": "66cbc0d19923c1f1",
+      "texto": {
+        "Kultura": "Majowie (styl Chenes)",
+        "Okres": "Późny klasyk",
+        "Materiał": "Replika kamiennej fasady",
+        "Pochodzenie": "Hochob, Campeche (oryginał)"
+      }
+    },
+    "faq_mito": {
+      "hash": "de7e37c7098d980e",
+      "texto": {
+        "pregunta": "Mit: Fasady Majów były z gładkiego, szarego kamienia, bez żadnych ozdób.",
+        "respuesta": "Rzeczywistość: Wiele budynków Majów było pokrytych kamiennymi mozaikami, które tworzyły twarze i symbole, i malowano je na kolorowo."
+      }
+    }
+  }
+}

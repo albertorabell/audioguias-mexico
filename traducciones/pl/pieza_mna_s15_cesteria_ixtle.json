@@ -1,0 +1,54 @@
+{
+  "id": "mna_s15_cesteria_ixtle",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "bedd207ed41e7614",
+      "texto": "Przybory i koszykarstwo z włókna ixtle z agawy"
+    },
+    "frase_gancho": {
+      "hash": "27cf21104df6fdc3",
+      "texto": "Z agawy powstaje nić, sznur, torba i igła."
+    },
+    "puente_narrativo": {
+      "hash": "dfa2b3b4190c905b",
+      "texto": "Od pracy rąk przechodzimy do modlitwy. Poszukaj stopniowanego ołtarza z krzyżami odzianymi w haftowane tkaniny, z kwiatami, świecami i glinianą kadzielnicą."
+    },
+    "guion_corto": {
+      "hash": "c4778b1789260869",
+      "texto": "Te przedmioty są zrobione z ixtle, włókna agawy, najważniejszej rośliny wyżyny. Aby je uzyskać, skrobie się grube liście, aż oddzielą się włókna, które potem się pierze, suszy i splata. Zobaczysz ayate, czyli tkaniny do noszenia ładunków, a także torby, sznury, szczotki i inne przybory codziennego użytku. Otomí z Doliny Mezquital, suchego regionu, gdzie pada niewiele deszczu, zrobili z agawy niemal wszystko: dach, jedzenie, napój, lekarstwo i odzież. Ixtle jest twarde, a zarazem giętkie, i można z niego zrobić zarówno liny do noszenia ciężarów, jak i miękkie tkaniny. Te przedmioty pokazują, że dzięki cierpliwości można żyć z jednej rośliny."
+    },
+    "guion_largo": {
+      "hash": "af99d523fc32e7a1",
+      "texto": "Wyobraź sobie, że możesz wybrać tylko jedną roślinę, żeby przetrwać. Wiele ludów wyżyny wybrałoby agawę. I nie jest to przesada: z agawy pochodzi włókno na sznury, torby i ubrania; aguamiel, słodki sok, który pije się od razu albo zostawia do fermentacji, by zamienić go w pulque; robak, którego się zjada; liść, który służy za dach; a nawet igła z nicią, bo kolec na końcu liścia wyrywa się razem z przyczepioną nitką.\n\nTutaj widzisz włókno, czyli ixtle. To samo, które widziałeś już w [zawiniątkach z jaskini Candelaria](mna_s11_fardo_candelaria) i we włosach [maski Viejitos (Staruszkowie)](mna_s14_mascara_viejitos). Uzyskuje się je, skrobiąc liście, aż zostaną same włókna. To ciężka praca, wykonywana ręcznie, której uczy się już jako dziewczynka. Potem włókno się pierze, suszy na słońcu i przędzie na glinianym wrzecionie.\n\nOtomí z Doliny Mezquital żyją w suchym regionie prosopisów i agaw. Nazwa „Mezquital” pochodzi od słowa nahuatl oznaczającego prosopis. W miejscu, gdzie pada niewiele deszczu, agawa znosi suszę i daje jedzenie, picie i odzież. Ta umiejętność wykorzystania wszystkiego to właśnie to, co zwykle nazywa się mądrością ekologiczną: dobrze żyć, nie wyczerpując tego, co cię otacza.\n\nSpójrz na ayate, ten rodzaj siatkowej tkaniny. Służy do noszenia kukurydzy, drewna na opał, owoców, a także niemowląt. Nosi się ją na plecach, przytrzymywaną za pomocą mecapal, czyli taśmy opartej na czole. Był to system, którego używali tragarze dawnego Meksyku, tlamemes. Bez zwierząt jucznych i bez kół handel dalekosiężny, zarówno w Teotihuacán, jak i w Paquimé, odbywał się pieszo, z ludźmi, którzy nieśli ładunek właśnie tak: na plecach, przytrzymywany czołem.\n\nI ayate cieszy się szczególną sławą. Według tradycji płaszcz Juana Diego, na którym, jak mówi się, ukazał się obraz Matki Boskiej z Guadalupe, był zrobiony z włókna agawy. To sposób, by pamiętać, że ten tak skromny materiał towarzyszył najważniejszym chwilom w historii kraju.\n\nAgawa miała też swoją boginię. Mexikowie czcili Mayahuel, boginię agawy, i wierzyli, że jej synowie, Czterystu Królików, byli bogami pulque, którzy przewodzili pijaństwu i zabawie. Był to święty napój, którego nie każdy mógł pić. Dziś pulque wciąż żyje w wielu miejscach wyżyny, choć już bez tych zasad.\n\nDlatego te przedmioty, tak proste, są lekcją. Sznury, szczotki, tkaniny: nic z tego, co widzisz, nie powstało w fabryce. Wszystko pochodzi z jednej rośliny, z pracy czyichś rąk i ze starożytnej wiedzy. Dziś ixtle znów jest doceniane: robi się z włókna torby, myjki i szczotki jako alternatywę dla plastiku. Jeśli dobrze się nad tym zastanowisz, to najlepszy przykład wykorzystania natury, jaki znajdziesz w całym muzeum."
+    },
+    "retos_observacion": {
+      "hash": "27209f6d0158508f",
+      "texto": [
+        "Znajdź ayate, siatkową tkaninę, i taśmy mecapal, które ją podtrzymywały",
+        "Porównaj nici ixtle: które są grubsze, a które cieńsze?",
+        "Przyjrzyj się szczotkom i sznurom: czy wiesz, do czego służy każdy z nich?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c49c13e32c1fdd54",
+      "texto": {
+        "Lud": "Otomí (Hñähñu)",
+        "Region": "Dolina Mezquital, Hidalgo i Stan Meksyk",
+        "Technika/Materiał": "Włókno agawy (ixtle) oddzielane od liści, przędzone na wrzecionie i tkane na krośnie przywiązywanym do pasa",
+        "Funkcja": "Narzędzia do noszenia ładunków w pracach rolnych, koszykarstwo, pojemniki i odzież wiejska"
+      }
+    },
+    "faq_mito": {
+      "hash": "7e1dce3cdd271ca8",
+      "texto": {
+        "pregunta": "Mit: Agawa służy tylko do robienia pulque albo tequili.",
+        "respuesta": "Rzeczywistość: Daje włókno na sznury, torby i ubrania, a także jedzenie, napój, lekarstwo, dachy, a nawet igłę i nić. Otomí z Mezquital żyją z tej wiedzy."
+      }
+    }
+  }
+}

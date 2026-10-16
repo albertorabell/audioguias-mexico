@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_cripta_pakal",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "730dfe8e3fb73576",
+      "texto": "Krypta i sarkofag Pakala (rekonstrukcja)"
+    },
+    "frase_gancho": {
+      "hash": "2133d447b64bc0bf",
+      "texto": "Grobowiec króla, odtworzony w naturalnej wielkości w czerwonym świetle."
+    },
+    "puente_narrativo": {
+      "hash": "30bd9a1a6f4a2b66",
+      "texto": "Pod tym sarkofagiem pojawiła się inna twarz, wykonana z wapna, a nie z zielonego kamienia. Poszukaj głowy ze stiuku, o wydłużonym profilu, z trzema pąkami kwiatów w uczesaniu."
+    },
+    "guion_corto": {
+      "hash": "d9d796afb01aadb4",
+      "texto": "Stoisz przed grobowcem, ale nie prawdziwym. To rekonstrukcja w naturalnej wielkości komory grobowej Pakala, w Świątyni Inskrypcji w Palenque, w miejscu, gdzie znaleziono [maskę](mna_s09_mascara_pakal), której oglądanie masz właśnie za sobą. Czerwone światło pada na rzeźbioną płytę i na kamienny sarkofag. Na płycie król ukazany jest w chwili śmierci: schodzi pniem świętego drzewa ku paszczy Potwora Ziemi, wejściu do podziemi. Interpretuje się to jako etap poprzedzający odrodzenie. Na ścianach są figury ze stiuku: to Dziewięciu Panów Nocy. Pakal został pochowany w 683 roku, a jego szkielet był pokryty cynobrem, czerwonym pigmentem."
+    },
+    "guion_largo": {
+      "hash": "27f736700e5bbe32",
+      "texto": "[Maska z jadeitu](mna_s09_mascara_pakal) nie została znaleziona w witrynie. Znaleziono ją w pewnym miejscu, a to jest właśnie to miejsce, odtworzone w naturalnej wielkości. To, co masz przed sobą, jest rekonstrukcją: prawdziwa krypta nadal znajduje się w Palenque, ponad dwadzieścia metrów pod ziemią, w sercu Świątyni Inskrypcji, i dziś nie wolno już do niej zejść. Tutaj masz jedyny sposób, by zajrzeć do środka bez podróży do Chiapas.\n\nPomyśl, co zrobili budowniczowie. Wznieśli piramidę o dziewięciu poziomach, a w jej wnętrzu zostawili ukryte schody, które prowadzą w dół do komory króla. Uważa się, że Pakal kazał przygotować ten grobowiec jeszcze za życia, a jego syn i następca, Kan Bahlam, ukończył piramidę, która go przykrywa. Król zaprojektował własną podróż, a jego rodzina zamknęła ją tonami kamienia.\n\nSpójrz na wielką płytę, która przykrywa sarkofag. Waży kilka ton, a jej płaskorzeźbę odczytuje się na trzech poziomach. Na dole król spada ku otwartej paszczy Potwora Ziemi, bramie do podziemi. Pośrodku rośnie święte drzewo w kształcie krzyża, które łączy światy. A na górze, na szczycie korony drzewa, przysiadł niebiański ptak. Pakal nie leży: on schodzi w dół, a ten obraz interpretuje się jako początek jego odrodzenia.\n\nTa scena jest tak słynna, że zrodziła ciekawą teorię: niektórzy dopatrzyli się w niej astronauty sterującego rakietą. Tak nie jest. To, co wygląda jak statek, to ciało króla nad paszczą ziemi, a to, co przypomina rury, to części drzewa i potwora. Nie ma tu astronautów, jest za to piękna idea Majów: król, który umiera, by się odrodzić, jak ziarno kukurydzy, które zostaje zakopane i znów kiełkuje.\n\nZwróć uwagę także na boki oryginalnego sarkofagu. Wyrzeźbiono tam rząd postaci, uważanych za przodków króla, a z każdej z nich wyrasta drzewo obciążone owocami. Pakal nie przybywał do tamtego świata sam: witał go jego ród.\n\nTeraz spójrz na ściany, na których są figury ze stiuku. To dziewięciu stojących panów, Dziewięciu Panów Nocy, którzy, jak się uważa, strzegli snu króla. Liczba dziewięć nie jest przypadkowa: dziewięć było poziomów piramidy, która przykrywa grobowiec, a w tradycji Majów dziewięć jest pięter podziemi. Pakal schodził w dół piramidą, która powtarzała w kamieniu drogę, jaka go czekała.\n\nJest jeszcze jeden szczegół. Z oryginalnego grobowca wychodzi kamienna rura, która biegnie w górę obok schodów aż do świątyni. Uważa się, że służyła temu, by duch króla mógł porozumiewać się ze światem żywych. Grobowiec zapieczętowany, ale z nicią prowadzącą w górę.\n\nI jest jeszcze kolor. Szkielet Pakala był pokryty cynobrem, czerwonym pigmentem, który Majowie wiązali z krwią i ze świtem. Czerwone światło tej sali przypomina ten kolor i pomaga ci wyobrazić sobie komorę, która pozostawała zamknięta przez ponad tysiąc dwieście lat, aż w 1952 roku archeolog Alberto Ruz Lhuillier otworzył drzwi.\n\nZanim pójdziemy dalej, jeszcze jedna niespodzianka z tego grobowca. Pod sarkofagiem, wśród ceramicznych naczyń, Ruz znalazł [dwie głowy ze stiuku](mna_s09_cabeza_pakal). Jedną z nich poznasz teraz."
+    },
+    "retos_observacion": {
+      "hash": "dc81d267036164d3",
+      "texto": [
+        "Poszukaj na płycie króla, który spada ku paszczy Potwora Ziemi",
+        "Zwróć uwagę na figury ze stiuku na ścianach: to Dziewięciu Panów Nocy",
+        "Zobacz, jak zmienia się wygląd kamienia w czerwonym świetle"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e8fc8aaa81a9b96a",
+      "texto": {
+        "Kultura": "Majowie, Palenque",
+        "Okres": "Oryginał z okresu późnego klasyka (600-900 n.e.); rekonstrukcja muzealna",
+        "Materiał": "Rekonstrukcja w skali rzeczywistej komory z wapienia z płytą nagrobną i sarkofagiem",
+        "Pochodzenie": "Świątynia Inskrypcji, Palenque, Chiapas",
+        "Wymiary": "Skala 1:1"
+      }
+    },
+    "faq_mito": {
+      "hash": "6d4f1f4df549aed2",
+      "texto": {
+        "pregunta": "Mit: Grobowiec Pakala, który tu widzisz, jest oryginalny i został przywieziony z Palenque.",
+        "respuesta": "Rzeczywistość: To rekonstrukcja w naturalnej wielkości. Prawdziwa krypta nadal znajduje się wewnątrz Świątyni Inskrypcji w Palenque."
+      }
+    }
+  }
+}

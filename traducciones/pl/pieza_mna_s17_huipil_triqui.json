@@ -1,0 +1,54 @@
+{
+  "id": "mna_s17_huipil_triqui",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "868d3d8f56a6165f",
+      "texto": "Tradycyjny czerwony huipil Triqui z San Juan Copala"
+    },
+    "frase_gancho": {
+      "hash": "11bb08f2d3053747",
+      "texto": "Intensywna czerwień utkana z trzech płacht, z motylami i słońcami."
+    },
+    "puente_narrativo": {
+      "hash": "8db742c6967c0422",
+      "texto": "Od tkaniny przechodzimy do gliny. Szukaj naczyń o lśniącej czarnej barwie, z ażurowymi wzorami w kształcie kwiatów, które wyglądają jak z polerowanego metalu."
+    },
+    "guion_corto": {
+      "hash": "410e060d2e4d8739",
+      "texto": "Ten długi huipil w intensywnej czerwieni należy do kobiet triqui, ludu z ziem Mixteków w Oaxaca. Jest utkany na krosnach zaplecowych, z trzech połączonych płacht, i ozdobiony poziomymi pasami brokatu: wzorami motyli, słońc, gwiazd i bruzd pola kukurydzianego. Zwróć uwagę na gęstość tkaniny i na kolorowe chwosty zwisające z tyłu. Bawełniane nici farbuje się na czerwono barwnikami, które dawniej pochodziły przede wszystkim z koszenili. Dla kobiet triqui ten huipil wszędzie zdradza, z jakiego ludu pochodzą. Dziś wiele rodzin migruje za pracą albo przed przemocą i zabiera ze sobą huipil jako sposób na to, by pozostać Triqui, gdziekolwiek są."
+    },
+    "guion_largo": {
+      "hash": "5c13fdf2899e1f94",
+      "texto": "Jeśli coś wyróżnia kobietę triqui, to jej czerwony huipil. Ta czerwień jest tak mocna, że widać ją z daleka, na placu czy na miejskiej ulicy. To nie jest strój, który ma przejść niezauważony. To deklaracja przynależności, utkana z nici.\n\nTriqui to niewielki lud z ziem Mixteków w Oaxaca, z własnym językiem, który należy do tej samej wielkiej rodziny co język mixteków. Mieszkają w górzystym regionie, w pobliżu niektórych miejsc, gdzie hodowano koszenilę. Dlatego czerwień ich huipili kojarzy się z tym barwnikiem, choć dziś używa się także barwników przemysłowych.\n\nZwróć uwagę na kształt. To trzy płachty, utkane na krosnach zaplecowych i połączone brzegami, tak jak w huipilu z wejścia, widzianym na Piętrze górnym. Huipil triqui jest długi, czasem sięga aż do kostek. Z materiału nie wycina się niczego: kształt zależy od szerokości krosien, a wzór od talentu osoby, która tka.\n\nPotem pojawia się brokat. To poziome pasy, które widzisz, wykonane dodatkową nicią wprowadzaną w wątek podczas tkania. Wzory przedstawiają motyle, słońca, gwiazdy i bruzdy pola kukurydzianego, a także linie łamane. Te geometryczne pasy przypominają swoim duchem [kamienne greki z Mitla](mna_s07_grecas_mitla), które znasz z sali Oaxaca na dole. Jakby to samo upodobanie do porządku i rytmu przeszło z kamienia na tkaninę.\n\nMotyle zasługują na chwilę zatrzymania. To zwierzę często pojawiające się w tradycji tekstylnej i w wyobraźni wielu ludów. Kojarzy się je z duszą i z przemianą, a ten motyl jest ci już znany z piersi [atlanta z Tuli](mna_s05_atlante_tula). Tutaj pojawiają się na huipilach, a kto je nosi, przywdziewa symbol życia i zmiany.\n\nJęzyk triqui jest ponadto językiem tonalnym: znaczenie słowa zmienia się zależnie od tonu, jakim się je wymawia, tak jak w chińskim. Taki huipil może powstawać całymi miesiącami, a każda kobieta zwykle tka ich kilka w ciągu życia: ten na co dzień, ten na święto i, według niektórych rodzin, ten najbardziej pielęgnowany, który będzie jej towarzyszył do końca.\n\nNiedawna historia Triqui była trudna. Ich region doświadczył konfliktów i ubóstwa, a wiele rodzin musiało opuścić swoje wsie. Dziś są wspólnoty triqui w Mieście Meksyk i w innych stanach na północy kraju. Wiele kobiet zachowuje huipil i robi to z dumą. To sposób, by powiedzieć: „mój lud wciąż tu jest, gdziekolwiek jesteśmy”.\n\nTa szata to pokazuje: huipil to nie tylko ubranie, to pamięć, która podróżuje. Można go utkać w górach Oaxaca, nosić na targu w stolicy i przekazywać z matki na córkę. Na każdym z tych etapów czerwień nadal jest czerwienią jego ludu."
+    },
+    "retos_observacion": {
+      "hash": "daf9dae69bb6d64b",
+      "texto": [
+        "Poszukaj pasów brokatu z motylami i słońcami",
+        "Policz trzy płachty, z których składa się huipil",
+        "Zwróć uwagę na kolorowe chwosty zwisające z tyłu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0eb4829b0a225655",
+      "texto": {
+        "Lud": "Triqui (Sli'anjii / Driqui)",
+        "Region": "San Juan Copala, Mixteca Baja, Oaxaca",
+        "Technika/Materiał": "Bawełna tkana na krosnach zaplecowych, z brokatem z dodatkowej nici wątku i wstążkami",
+        "Funkcja": "Strój codzienny i ceremonialny o wysokiej randze, wyraz tożsamości wspólnoty"
+      }
+    },
+    "faq_mito": {
+      "hash": "0407ad66a58c5c5e",
+      "texto": {
+        "pregunta": "Mit: Czerwone huipile z Oaxaca wszędzie wyglądają tak samo.",
+        "respuesta": "Rzeczywistość: Każdy lud ma własne wzory i własną czerwień. Huipil triqui rozpoznasz po trzech płachtach, geometrycznym brokacie i chwostach."
+      }
+    }
+  }
+}

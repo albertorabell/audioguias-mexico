@@ -1,0 +1,54 @@
+{
+  "id": "mna_s19_incensario_lacandon",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7ece604c02b3dc42",
+      "texto": "Glinany lakandoński kadziołek i kadzielnica"
+    },
+    "frase_gancho": {
+      "hash": "444c34560d5227c4",
+      "texto": "Gliniana twarz, przez którą Lakandonowie rozmawiają ze swoimi bogami."
+    },
+    "puente_narrativo": {
+      "hash": "7cd6546e0bd2c152",
+      "texto": "Z dżungli ruszamy na północ, na Półwysep Jukatan. Poszukaj białej sukni z trzech części, haftowanej dużymi kolorowymi kwiatami i wykończonej koronką."
+    },
+    "guion_corto": {
+      "hash": "68bdaf0ea74f4363",
+      "texto": "To gliniane naczynie jest kadzielnicą Lakandonów, którzy nazywają siebie hach winik, „prawdziwi ludzie”, i mieszkają w dżungli w Chiapas. Został ulepiony ręcznie, bez koła garncarskiego, a z przodu ma twarz bóstwa, z wyraźnie zaznaczonymi brwiami, okrągłymi oczami i pasami pomalowanymi na biało i na czerwono. Wewnątrz pali się kopal i kładzie się ofiary z jedzenia. Pachnący dym unosi się ku niebu i działa jak przesłanie: w ten sposób Lakandonowie dziękują za pożywienie, proszą o zdrowie dla swoich rodzin i rozmawiają z Hachakyum, swoim bogiem stwórcą. Dla nich kadzielnica nie jest zwykłym przedmiotem. Jest obecnością, która przyjmuje ofiarę i słucha."
+    },
+    "guion_largo": {
+      "hash": "08599aacb402f3a3",
+      "texto": "„Lakandon” to nazwa, którą nadali im obcy; oni sami nazywają siebie hach winik, „prawdziwi ludzie”. Ich język jest bardzo podobny do języka Majów z Yucatán, choć mieszkają wiele kilometrów stamtąd, w dżungli na wschodzie Chiapas, jednej z największych, jakie pozostały Meksykowi. To mały lud, liczący około tysiąca osób, rozproszony po wspólnotach takich jak Nahá, Metzabok i Lacanjá Chansayab.\n\nDla nich bogowie mają własny dom: dom bogów, prostą budowlę z drewna i liści palmowych, oddaloną od domostw. Tam przechowuje się kadzielnice, które są czymś znacznie więcej niż naczyniami. Podczas ceremonii odnowienia ofiarowuje się im jedzenie i napój, jak gościom: ciasto kukurydziane i balché, napój sfermentowany, który przyrządza się z kory pewnego drzewa i miodu. Mówi się, że każda kadzielnica ożywa w chwili poświęcenia i że z biegiem lat się starzeje.\n\nKopal jest głosem ceremonii. To żywica drzewa, a w kilku językach mayańskich nazywa się ją pom. Pojawił się już w [oratorium otomí](mna_s15_oratorio_familiar) i w [ołtarzu Xantolo](mna_s18_altar_xantolo): w całym Meksyku dym kopalu jest mostem ku temu, co święte. U Majów zwyczaj ten jest bardzo, bardzo stary i uważa się, że świątynie, które można zobaczyć na dole, wypełniał ten sam dym ponad tysiąc lat temu.\n\nMiejsca także opowiadają. Yaxchilán, miasto [nadproża](mna_s09_dintel26_yaxchilan) z sali Majów na dole, jest dla Lakandonów siedzibą ich bogów, a jak się opowiada, przez długi czas podróżowali tam, by palić kopal. Z tej więzi wywodzi się ciekawa anegdota: malowidła z Bonampak ujrzały światło dzienne w tysiąc dziewięćset czterdziestym szóstym roku i opowiada się, że lakandoński przewodnik zaprowadził do nich amerykańskiego fotografa.\n\nPopatrz na tę twarz w spokoju. Grube brwi, okrągłe oczy i otwarte usta nadają jej czujny wyraz, jakby glina patrzyła na tego, kto patrzy na nią. Jeśli podejdziesz bliżej, zauważysz pomalowane geometryczne pasy i wytarcia po dłoniach, które ją trzymały. Taka kadzielnica nie powstaje w pośpiechu: ma swój rytuał, swoją modlitwę i swój czas.\n\nStarsi Lakandonowie opowiadali, że dopóki odbywają się ceremonie i odnawia się kadzielnice, niebo pozostanie na swoim miejscu, a gdyby rytuał poszedł w zapomnienie, świat mógłby się skończyć. To bardzo mocny sposób, by powiedzieć coś prostego: tradycja podtrzymuje wszechświat. Pomaga też zrozumieć, dlaczego tak mały lud tak troskliwie pielęgnuje swoje ceremonie.\n\nDziś dżungla szybko się zmienia, z drogami, hodowlą bydła i turystyką, a dbanie o ceremonie jest częścią dbania o pewien sposób życia. Dlatego taki przedmiot jak ten jest tak cenny: to nie tylko ładne naczynie z gliny, ale świadectwo tego, jak lud rozmawia ze swoim światem.\n\nOd chłodu Wyżyn do upału dżungli jest zaledwie dzień drogi, ale zmieniają się okrycie, jedzenie i bogowie. Niezmienny pozostaje gest wdzięczności, dawania czegoś w zamian za to, co się otrzymuje: dymem, jedzeniem albo słowami."
+    },
+    "retos_observacion": {
+      "hash": "9848240008cd84cf",
+      "texto": [
+        "Poszukaj twarzy wymodelowanej z przodu: brwi, oczu i ust",
+        "Przyjrzyj się pasom pomalowanym na biało i na czerwono",
+        "Wyobraź sobie dym kopalu wydobywający się przez otwór"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5721a975d41b0b0e",
+      "texto": {
+        "Lud": "Lakandonowie (Hach Winik)",
+        "Region": "Dżungla Lakandońska (Nahá, Mensäbäk i Frontera Corozal, Chiapas)",
+        "Technika/Materiał": "Glina modelowana ręcznie, barwnik roślinny (annato) i żywica kopalu",
+        "Funkcja": "Święte naczynie do rytualnego palenia kopalu i ofiarowania pokarmu bóstwom"
+      }
+    },
+    "faq_mito": {
+      "hash": "19f99fd8eee844e1",
+      "texto": {
+        "pregunta": "Mit: Dawni Majowie odeszli, a ich ceremonie przepadły.",
+        "respuesta": "Rzeczywistość: Lakandonowie, lud dżungli w Chiapas, nadal palą kopal w glinianych kadzielnicach, aby rozmawiać ze swoimi bogami."
+      }
+    }
+  }
+}

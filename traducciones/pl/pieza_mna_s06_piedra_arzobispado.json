@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_piedra_arzobispado",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4a54ed08e0272ffa",
+      "texto": "Kamień z dawnego Arcybiskupstwa"
+    },
+    "frase_gancho": {
+      "hash": "c284fe419ae715d3",
+      "texto": "Kamienny walec, który spał prawie pięćset lat pod centrum miasta."
+    },
+    "puente_narrativo": {
+      "hash": "7576a0617769d562",
+      "texto": "Od walca jeńców przechodzimy do kolejnego naczynia na ofiary, tym razem w kształcie zwierzęcia. Idź w stronę kamiennego jaguara, który jest następny: na jego grzbiecie jest wgłębienie przeznaczone na serca."
+    },
+    "guion_corto": {
+      "hash": "ed48957fc0baee37",
+      "texto": "Jedenaście scen podboju okrąża ten kamienny walec. W każdej powtarza się ten sam obraz: władca z insygniami boga trzyma za włosy pokonanego wojownika, a obok każdego pokonanego widnieje glif jego ludu. To Kamień z dawnego Arcybiskupstwa, dzieło Mexica, odkryte w 1988 roku podczas robót na ulicy Moneda, w centrum Miasta Meksyk. Niektórzy specjaliści wiążą go z Motecuhzoma Ilhuicamina, tlatoani, który rządził przed Tízocem. Na górnej powierzchni znajduje się tarcza słoneczna z twarzą pośrodku. Uważa się, że służył do walk rytualnych oraz do składania ofiar z krwi i serc."
+    },
+    "guion_largo": {
+      "hash": "124b068dc4a791ad",
+      "texto": "Czasem archeologia nie zaczyna się od wyprawy, lecz od rowu. W 1988 roku, podczas robót fundamentowych przy starym budynku na ulicy Moneda, w Centrum Historycznym Miasta Meksyk, robotnicy natknęli się na wielki okrągły kamień. Leżał na swoim miejscu, niedaleko Templo Mayor, tam, gdzie Mexica umieścili go prawie pięćset lat wcześniej.\n\nBudynek był dawnym Pałacem Arcybiskupim i dlatego zabytek nosi taką nazwę, choć nie ma w nim nic kolonialnego. Jego teren był częścią Świętego Okręgu Tenochtitlan, ceremonialnego serca stolicy Mexica. Przez stulecia nowoczesne miasto rosło nad pomnikiem, o którego istnieniu nikt nie wiedział.\n\nTo szeroki, niski walec z bazaltu, o średnicy większej niż dwa metry. Jeśli obejdziesz go dookoła, zobaczysz jedenaście niemal identycznych scen, oddzielonych pasem powtarzającym ten sam motyw. W każdej z nich władca trzyma za włosy pokonanego wojownika. Chwycić kogoś za włosy to był gest całkowitego zwycięstwa. Obok każdego jeńca jest glif, nazwa jego ludu; według niektórych badań znajdują się wśród nich ludy z doliny Meksyku, takie jak Chalco czy Xochimilco.\n\nWładca nosi insygnia boga. Badania ikonograficzne utożsamiają jego strój ze strojem Xiuhtecuhtli, boga ognia; inni specjaliści odczytują go jako Tezcatlipocę. Nie ma to aż tak wielkiego znaczenia: król nie przedstawia się jako zwykły człowiek, lecz jako bóg, który podporządkowuje swoich wrogów.\n\nA kim jest ten król? Niektórzy badacze sądzą, że to Motecuhzoma Ilhuicamina, piąty tlatoani, który rządził od 1440 do 1469 roku. Jeśli tak, ten kamień jest starszy od Kamienia Tizoca, który masz właśnie za sobą. Oba łączy ta sama idea: lista zwycięstw, która była też stołem ofiarnym.\n\nGdyby dało się zajrzeć na górną powierzchnię, zobaczyłbyś tarczę słoneczną. W centralnym zagłębieniu jest ludzka twarz, twarz Słońca, a wokół niej obrzeża z symbolami ofiary: czaszkami, skrzyżowanymi kośćmi, sercami, dłońmi i nożami. Uważa się, że kamień służył jako temalácatl, platforma do walki rytualnej, oraz jako cuauhxicalli, naczynie na serca i krew ofiarowane Słońcu.\n\nTe obrzędy wiążą się z Tlacaxipehualiztli, wiosennym świętem poświęconym [Xipe Tótec](mna_s04_xipe_totec), bogu skóry, którego widać w sali Teotihuacán. W nahuatl nazwa święta znaczy mniej więcej «zdzieranie skóry z ludzi». To twarde słowo i trzeba je rozumieć w jego kontekście: dla Mexica to święto było częścią odnowy ziemi.\n\nJest tu ciekawa zbieżność. [Kamień Tizoca](mna_s06_tizoc) odnaleziono w 1791 roku, podczas robót na Plaza Mayor; kamień z Arcybiskupstwa w 1988, także podczas robót, kilka ulic dalej. Prawie dwieście lat dzieli oba odkrycia i w obu przypadkach nowoczesne miasto potknęło się o przeszłość, kopiąc.\n\nGdy będziesz odchodzić, pomyśl o tym: pod ulicami, którymi chodzisz, wciąż czeka więcej zabytków. Miasto nadal ich szuka."
+    },
+    "retos_observacion": {
+      "hash": "9b03c3251789471f",
+      "texto": [
+        "Policz sceny podboju otaczające walec",
+        "Znajdź władcę, który trzyma wojownika za włosy",
+        "Spójrz na obrzeża: są na nich czaszki, serca, dłonie i noże"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9db9be30d0a4084e",
+      "texto": {
+        "Kultura": "Mexica",
+        "Okres": "Późny postklasyk (ok. 1440-1469 n.e., panowanie Motecuhzoma Ilhuicamina)",
+        "Materiał": "Bazalt rzeźbiony w wysokim reliefie (11 scen podboju)",
+        "Pochodzenie": "Dawny Pałac Arcybiskupi, ulica Moneda 4, Centrum Historyczne, Miasto Meksyk (odnaleziony w 1988 roku)",
+        "Wymiary": "72 cm wysokości x 224 cm średnicy"
+      }
+    },
+    "faq_mito": {
+      "hash": "463f7db54f9b057c",
+      "texto": {
+        "pregunta": "Mit: Kamień z dawnego Arcybiskupstwa to kolejny kalendarz aztecki, jak Kamień Słońca.",
+        "respuesta": "Rzeczywistość: To nie jest kalendarz. To pomnik podboju: jego jedenaście scen przedstawia zwycięstwa władcy Mexica."
+      }
+    }
+  }
+}
