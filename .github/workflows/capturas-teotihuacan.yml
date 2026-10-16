@@ -22,7 +22,7 @@ jobs:
           npx vite preview --outDir dist-cap --port 4175 --strictPort &
           sleep 5
           node scripts/ci-run.mjs capturas -- node e2e/capturas.mjs
-      - run: node scripts/ci-run.mjs cap-01 -- node -e \"console.log(require('fs').readFileSync('capturas-teo/01-inicio.b64','utf8'))\"
-      - run: node scripts/ci-run.mjs cap-02 -- node -e \"console.log(require('fs').readFileSync('capturas-teo/02-teotihuacan.b64','utf8'))\"
-      - run: node scripts/ci-run.mjs cap-03 -- node -e \"console.log(require('fs').readFileSync('capturas-teo/03-mapa.b64','utf8'))\"
-      - run: node scripts/ci-run.mjs cap-04 -- node -e \"console.log(require('fs').readFileSync('capturas-teo/04-rutas.b64','utf8'))\"
+      - run: node scripts/ci-run.mjs cap-01 -- node -e "console.log(require('fs').readFileSync('capturas-teo/01-inicio.b64','utf8'))"
+      - run: node scripts/ci-run.mjs cap-02 -- node -e "console.log(require('fs').readFileSync('capturas-teo/02-teotihuacan.b64','utf8'))"
+      - run: node scripts/ci-run.mjs cap-03 -- node -e "console.log(require('fs').readFileSync('capturas-teo/03-mapa.b64','utf8'))"
+      - run: node scripts/ci-run.mjs cap-04 -- node -e "console.log(require('fs').readFileSync('capturas-teo/04-rutas.b64','utf8'))"
