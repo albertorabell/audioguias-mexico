@@ -1,6 +1,7 @@
 name: Capturas de Teotihuacán (temporal)
 on:
-  workflow_dispatch:
+  push:
+    branches: ['feature/teotihuacan-en-la-app']
 permissions:
   contents: read
 jobs:
