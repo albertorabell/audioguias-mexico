@@ -51,7 +51,7 @@ const stopId = (s: { piece_id?: string; id?: string; poi_id?: string; file?: str
 const roomNumber = (r: Room) => parseInt(String(r.numero_oficial ?? r.room_id.match(/\d+/)?.[0] ?? '0'), 10) || 0;
 
 export default function App() {
-  const { strings: t, currentLanguage, localizePiece, localizeRoom } = useLanguage();
+  const { strings: t, currentLanguage, localizePiece, localizeRoom, setSiteKind } = useLanguage();
   const u = t.ui;
 
   // ---------- Navegación ----------
@@ -640,6 +640,11 @@ export default function App() {
     return p ? localizePiece(p) : null;
   }, [rawPieces, localizePiece]);
   const isZones = manifest?.layout === 'zones';
+  // En Teotihuacán la interfaz habla de zonas y paradas; en el inicio y en el museo, de salas y obras
+  const siteWords = isZones && screen.kind !== 'home';
+  useLayoutEffect(() => {
+    setSiteKind(siteWords ? 'site' : 'museum');
+  }, [siteWords, setSiteKind]);
   let content: React.ReactNode = null;
   if (screen.kind === 'home' || !site) {
     const mna = rawSites.find((s) => s.status !== 'coming_soon');
