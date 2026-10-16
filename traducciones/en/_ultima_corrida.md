@@ -2,850 +2,204 @@
 
 Español arriba, traducción abajo. Los avisos son revisiones automáticas, no errores.
 
-## Pieza: mna_s08_palma_sacrificio
-
-### titulo
-
-**ES:** Palma de piedra con relieve de sacrificio humano
-
-**EN:** Stone Palma with Relief of Human Sacrifice
+## Pieza: mna_s06_piedra_sol
 
 ### frase_gancho
 
-**ES:** Abanico de piedra donde la sangre renueva el cosmos divino.
+**ES:** La piedra más famosa de México no es un calendario.
 
-**EN:** A stone fan where blood renews the divine cosmos.
+**EN:** Mexico’s most famous stone is not a calendar.
 
 ### puente_narrativo
 
-**ES:** Seguimos con otra pieza del juego de pelota: una palma de piedra que se acoplaba al yugo y muestra un sacrificio humano.
+**ES:** Con ella termina la Sala Mexica. Sigue a la sala de Oaxaca: allí, siglos antes de que existiera Tenochtitlan, los zapotecos aplanaron una montaña para fundar Monte Albán, y ya le rezaban a Cocijo, el hermano oaxaqueño de Tláloc.
 
-**EN:** We continue with another piece from the ballgame: a stone palma that attached to the yoke and shows a human sacrifice.
+**EN:** With it, the Mexica Hall comes to an end. Next comes the Oaxaca Hall: there, centuries before Tenochtitlan existed, the Zapotec flattened a mountain to found Monte Albán, and they were already praying to Cocijo, the Oaxacan brother of Tláloc.
 
 ### guion_corto
 
-**ES:** La palma parece un abanico de piedra, pero era una insignia del juego de pelota. Esta viene de la región central de Veracruz y es del Clásico Tardío, entre los años 600 y 900 después de Cristo. Su relieve muestra un sacrificio humano. Las palmas se acoplaban al yugo, el cinturón de piedra en forma de U que reproducía el que usaban los jugadores. Juntos formaban insignias o marcadores rituales del juego. Las piezas que aparecen en las tumbas son versiones votivas, es decir, de ofrenda, hechas para conmemorar a los capitanes del juego. En El Tajín se han descubierto más de diecisiete canchas, y eso muestra la importancia de este juego ritual.
+**ES:** Estás frente a la Piedra del Sol, un disco de basalto de más de tres metros y medio de diámetro que pesa cerca de veinticinco toneladas. Se le llama «calendario azteca», pero no servía para saber la fecha: es un monumento sagrado que cuenta cómo nació el mundo en que vivimos. En el centro está el rostro de Tonatiuh, el Sol, con la lengua en forma de cuchillo de pedernal. Alrededor, en cuatro cuadros, aparecen los cuatro soles anteriores, destruidos uno tras otro. Más afuera hay un anillo con los veinte signos de los días y, en el borde, dos serpientes de fuego que parecen guiar al Sol por el cielo. Se esculpió hacia el final del imperio y se encontró en 1790.
 
-**EN:** The palma looks like a stone fan, but it was an emblem of the ballgame. This one comes from central Veracruz and dates to the Late Classic, between 600 and 900 AD. Its relief shows a human sacrifice. Palmas were attached to the yoke, the U-shaped stone belt that reproduced the one worn by the players. Together they formed emblems or ritual markers of the game. The pieces found in tombs are votive versions, that is, offerings, made to commemorate the captains of the game. More than seventeen courts have been discovered at El Tajín, and that shows the importance of this ritual game.
+**EN:** You are standing in front of the Sun Stone, a basalt disc more than three and a half meters in diameter that weighs nearly twenty-five metric tons. It is called the “Aztec calendar,” but it was not used to tell the date: it is a sacred monument that tells how the world we live in was born. At the center is the face of Tonatiuh, the Sun, with his tongue shaped like a flint knife. Around it, in four panels, appear the four previous suns, destroyed one after another. Farther out there is a ring with the twenty day signs and, along the edge, two fire serpents that seem to guide the Sun across the sky. It was carved toward the end of the empire and was found in 1790.
 
 ### guion_largo
 
-**ES:** Un yugo, una palma y un hacha: así se completaba la parafernalia de piedra del juego de pelota. Esta es la palma. Viene de la región central de Veracruz, es del Clásico Tardío y su relieve muestra un sacrificio humano. /  / Las palmas son piezas con forma de abanico, a veces con cabezas humanas o de animales sagrados. Se acoplaban al yugo como insignias o marcadores rituales del juego. El yugo es una escultura en forma de U, o de herradura. Reproduce los cinturones protectores de cuero o madera que los jugadores llevaban en la cintura para golpear la pelota de hule macizo. /  / Las palmas y los yugos se tallaban en piedras duras, como basalto, diorita, andesita o serpentina, con bajorrelieves e incisiones. Las volutas entrelazadas son un motivo muy frecuente. /  / Las piezas que aparecen en las tumbas son versiones votivas de piedra, hechas para conmemorar a los capitanes del juego. Eso muestra que el juego era mucho más que un deporte. /  / El Tajín, en el centro de Veracruz, es el mejor ejemplo. En esa ciudad se han descubierto más de diecisiete canchas, y por eso se considera un centro principal del juego de pelota ritual. /  / Que esta palma muestre un sacrificio humano apunta al carácter ritual del juego. Qué escena exacta representa no está establecido.
+**ES:** Empecemos por lo que no es. Aunque todos la llaman «calendario azteca», los mexicas no la usaban para saber qué día era. Tenían calendarios de sobra, pintados en códices, y esta piedra no es práctica: pesa casi veinticinco toneladas y estaba tendida en el suelo. Es otra cosa: un mapa del tiempo y del destino. Cuenta de dónde viene el mundo, cuánto durará y qué hay que hacer para que no se acabe. /  / Mira el centro. Ahí está Tonatiuh, el Sol, con la cara llena de fuerza y la lengua sacada, convertida en un cuchillo de pedernal. A los lados, dos garras sostienen corazones humanos. ¿Recuerdas el [Disco de la Muerte](mna_s04_disco_muerte) de Teotihuacán, con su lengua de cuchillo? Es la misma idea: el Sol tiene hambre, y hay que alimentarlo. Alrededor del rostro se forma el signo Nahui Ollin, «Cuatro Movimiento». Era el nombre del Quinto Sol, el nuestro, y también la señal de su final, porque se esperaba que terminara en terremotos. /  / En los cuatro brazos de ese signo están los cuatro soles anteriores. Según los mitos de creación, el primero, Sol de Jaguar, se acabó cuando las fieras devoraron a los humanos. El segundo, Sol de Viento, terminó en huracanes, y la gente se volvió mono, como el de la vasija de obsidiana. El tercero, Sol de Lluvia de Fuego, acabó bajo un fuego que caía del cielo, y la gente se volvió ave. El cuarto, Sol de Agua, presidido por la diosa [Chalchiuhtlicue](mna_s04_chalchiuhtlicue), la del monolito de Teotihuacán, acabó en un diluvio, y la gente se volvió pez. Cuatro mundos, cuatro fracasos. Los mexicas vivían en el quinto, y sabían que también podía terminar. /  / El Quinto Sol, según la leyenda que ya conoces, nació en Teotihuacán, cuando el dios pobre y enfermo, Nanahuatzin, se lanzó al fuego. Pero el Sol no se movía hasta que los dioses se sacrificaron. Por eso los humanos debían corresponder con ofrendas, con sangre y corazones. No era crueldad por gusto, era una especie de contrato cósmico: el Sol te da la vida, tú le das lo que tienes. /  / Más afuera gira el anillo de los veinte signos de los días, desde Cipactli, el cocodrilo primordial, hasta Xóchitl, la flor. Búscalos: en algún lugar hay un mono, ozomatli, el mismo de la vasija de obsidiana que viste hace un momento, y la flor de [Xochipilli](mna_s06_xochipilli). En el borde exterior, dos serpientes de fuego, Xiuhcóatl, el arma con la que Huitzilopochtli venció a [Coyolxauhqui](mna_s06_coyolxauhqui) en el mito. Sus colas se juntan arriba, junto al signo 13 Caña, que muchos relacionan con el nacimiento del Quinto Sol. Sus cabezas se encuentran abajo, y de las fauces asoman dos rostros. /  / ¿Cuándo se hizo? Se discute. Algunos la fechan en tiempos del rey Axayácatl, hacia 1479; otros, en los de Moctezuma Xocoyotzin, hacia 1512. En cualquier caso, es de las últimas décadas del imperio. Se piensa que el bloque de basalto vino del sur del valle, de la zona de lava del volcán Xitle, el mismo que sepultó Cuicuilco, la pirámide circular que viste en maqueta, en la sala de las primeras aldeas. Una piedra nacida de una erupción que ya había enterrado a una ciudad. /  / Hoy la ves gris, pero hace cinco siglos estuvo pintada, con rojo y ocre, entre otros colores. Imagina el efecto: un disco coloreado, tendido en el suelo, bajo el cielo abierto de Tenochtitlan. /  / Su historia moderna parece una novela. Después de la conquista quedó enterrada bajo la Plaza Mayor, hasta el 17 de diciembre de 1790, cuando unos obreros que nivelaban y empedraban la plaza dieron con ella. Un año después, en el mismo sitio, apareció la [Piedra de Tízoc](mna_s06_tizoc). La Piedra del Sol se colocó de pie en la torre poniente de la Catedral, a la vista de todos, hasta que en 1885 la llevaron al Museo Nacional, en la calle de Moneda. Y en junio de 1964 hizo su último viaje, hasta Chapultepec. Poco antes había viajado el gigante Tláloc que ya viste en la entrada. 1964 fue el año de las grandes mudanzas. /  / Y cuando te despidas de ella, piensa que, para los mexicas, el mundo ya se había acabado cuatro veces y nada estaba garantizado. Quizá por eso cuidaban tanto cada detalle de su cosmos: si todo puede acabar, todo merece ser nombrado.
 
-**EN:** A yoke, a palma, and an hacha: this is how the stone paraphernalia of the ballgame was completed. This is the palma. It comes from central Veracruz, dates to the Late Classic, and its relief shows a human sacrifice. /  / Palmas are fan-shaped pieces, sometimes with human heads or sacred animals. They were attached to the yoke as emblems or ritual markers of the game. The yoke is a U-shaped, or horseshoe-shaped, sculpture. It reproduces the protective belts of leather or wood that players wore at the waist to strike the solid rubber ball. /  / Palmas and yokes were carved from hard stones, such as basalt, diorite, andesite, or serpentine, with low reliefs and incisions. Interlaced scrolls are a very common motif. /  / The pieces found in tombs are votive stone versions, made to commemorate the captains of the game. That shows that the game was much more than a sport. /  / El Tajín, in central Veracruz, is the best example. More than seventeen courts have been discovered in that city, and for that reason it is considered a major center of the ritual ballgame. /  / That this palma shows a human sacrifice points to the ritual character of the game. Exactly which scene it represents has not been established.
+**EN:** Let’s start with what it is not. Although everyone calls it the “Aztec calendar,” the Mexica did not use it to know what day it was. They had calendars in abundance, painted in codices, and this stone is not practical: it weighs almost twenty-five metric tons and it lay flat on the ground. It is something else: a map of time and destiny. It tells where the world comes from, how long it will last, and what must be done so that it does not come to an end. /  / Look at the center. There is Tonatiuh, the Sun, his face full of strength and his tongue stuck out, turned into a flint knife. On either side, two claws hold human hearts. Do you remember the [Disc of Death](mna_s04_disco_muerte) from Teotihuacán, with its knife tongue? It is the same idea: the Sun is hungry, and it must be fed. Around the face the sign Nahui Ollin takes shape, “Four Movement.” It was the name of the Fifth Sun, ours, and also the sign of its end, because it was expected to end in earthquakes. /  / In the four arms of that sign are the four previous suns. According to the creation myths, the first, the Jaguar Sun, ended when wild beasts devoured the humans. The second, the Wind Sun, ended in hurricanes, and the people turned into monkeys, like the one on the obsidian vessel. The third, the Fire Rain Sun, ended under a fire that fell from the sky, and the people turned into birds. The fourth, the Water Sun, presided over by the goddess [Chalchiuhtlicue](mna_s04_chalchiuhtlicue), the one from the Teotihuacán monolith, ended in a flood, and the people turned into fish. Four worlds, four failures. The Mexica lived in the fifth, and they knew that it, too, could come to an end. /  / The Fifth Sun, according to the legend you already know, was born in Teotihuacán, when the poor, sick god Nanahuatzin threw himself into the fire. But the Sun did not move until the gods sacrificed themselves. That is why humans had to repay them with offerings, with blood and hearts. It was not cruelty for its own sake; it was a kind of cosmic contract: the Sun gives you life, and you give it what you have. /  / Farther out turns the ring of the twenty day signs, from Cipactli, the primordial crocodile, to Xóchitl, the flower. Look for them: somewhere there is a monkey, ozomatli, the same as the one on the obsidian vessel you saw a moment ago, and the flower of [Xochipilli](mna_s06_xochipilli). On the outer edge, two fire serpents, Xiuhcóatl, the weapon with which Huitzilopochtli defeated [Coyolxauhqui](mna_s06_coyolxauhqui) in the myth. Their tails meet at the top, next to the sign 13 Reed, which many connect with the birth of the Fifth Sun. Their heads meet at the bottom, and two faces peer out from their jaws. /  / When was it made? That is debated. Some date it to the time of King Axayácatl, around 1479; others, to that of Moctezuma Xocoyotzin, around 1512. In any case, it comes from the last decades of the empire. The block of basalt is thought to have come from the south of the valley, from the lava field of the Xitle volcano, the same one that buried Cuicuilco, the circular pyramid you saw in the model, in the hall of the first villages. A stone born of an eruption that had already buried a city. /  / Today you see it gray, but five centuries ago it was painted, in red and ocher, among other colors. Imagine the effect: a colored disc, lying on the ground, under the open sky of Tenochtitlan. /  / Its modern history reads like a novel. After the conquest it was left buried beneath the Main Plaza, until December 17, 1790, when workers who were leveling and paving the plaza came across it. A year later, in the same spot, the [Stone of Tízoc](mna_s06_tizoc) appeared. The Sun Stone was set upright on the west tower of the Cathedral, in plain view of everyone, until in 1885 it was taken to the National Museum, on Moneda Street. And in June 1964 it made its last journey, to Chapultepec. Shortly before, the giant Tláloc that you saw at the entrance had made the same trip. 1964 was the year of the great moves. /  / And when you say goodbye to it, think that, for the Mexica, the world had already ended four times and nothing was guaranteed. Perhaps that is why they took such care over every detail of their cosmos: if everything can end, everything deserves to be named.
 
 ### retos_observacion
 
-**ES:** Busca el relieve del sacrificio humano. / Fíjate en la forma de abanico de la palma. / Imagina la palma acoplada a un yugo en forma de U.
+**ES:** Busca la lengua de cuchillo en el rostro del centro / Encuentra los veinte signos de los días: ¿puedes hallar el mono y la flor? / Rodea la piedra con la mirada y localiza las dos serpientes de fuego
 
-**EN:** Look for the relief of the human sacrifice. / Notice the fan shape of the palma. / Imagine the palma attached to a U-shaped yoke.
-
-### especificaciones
-
-**ES:** Cultura: Centro de Veracruz / El Tajín / Periodo: Clásico Tardío (600-900 d.C.) / Procedencia: Región central de Veracruz
-
-**EN:** Culture: Central Veracruz / El Tajín / Period: Late Classic (600-900 AD) / Origin: Central region of Veracruz
+**EN:** Look for the knife tongue on the face at the center / Find the twenty day signs: can you spot the monkey and the flower? / Circle the stone with your eyes and locate the two fire serpents
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Las palmas de piedra eran armas o escudos de los soldados. / respuesta: Realidad: Eran insignias del juego de pelota. Se acoplaban al yugo, el cinturón de piedra en forma de U, y juntos formaban marcadores rituales.
+**ES:** pregunta: Mito: La Piedra del Sol era el calendario con el que los mexicas sabían la fecha. / respuesta: Realidad: No era un calendario de uso diario. Es un monumento ceremonial, hecho para estar tendido en el suelo, que resume cómo los mexicas entendían el tiempo y el destino del mundo.
 
-**EN:** pregunta: Myth: Stone palmas were weapons or shields of soldiers. / respuesta: Reality: They were emblems of the ballgame. They were attached to the yoke, the U-shaped stone belt, and together they formed ritual markers.
+**EN:** pregunta: Myth: The Sun Stone was the calendar the Mexica used to know the date. / respuesta: Reality: It was not a calendar for daily use. It is a ceremonial monument, made to lie flat on the ground, that sums up how the Mexica understood time and the destiny of the world.
 
-## Pieza: mna_s08_cihuateteo_zapotal
-
-### titulo
-
-**ES:** Cihuateteo de El Zapotal
-
-**EN:** Cihuateteo of El Zapotal
+## Pieza: mna_s06_coatlicue
 
 ### frase_gancho
 
-**ES:** Diosa guerrera de barro que dio su vida al parir.
+**ES:** La diosa madre que da la vida y la reclama, hecha de serpientes.
 
-**EN:** A warrior goddess of clay who gave her life in childbirth.
+**EN:** The mother goddess who gives life and claims it back, made of serpents.
 
 ### puente_narrativo
 
-**ES:** Seguimos en el centro de Veracruz con otra figura de barro, esta vez femenina y ligada a las mujeres que morían en el parto.
+**ES:** De la madre pasamos a la hija que se levantó contra ella. Acércate a una cabeza de piedra de ojos cerrados y mejillas con cascabeles: Coyolxauhqui.
 
-**EN:** We remain in central Veracruz with another clay figure, this time a female one, linked to the women who died in childbirth.
+**EN:** From the mother we move on to the daughter who rose up against her. Step up to a stone head with closed eyes and cheeks adorned with bells: Coyolxauhqui.
 
 ### guion_corto
 
-**ES:** Cihuateteo es una palabra náhuatl. Designa a las mujeres que murieron al dar a luz, a quienes se veneraba como guerreras. Esta escultura viene de El Zapotal, en Veracruz, y es del Clásico Tardío, entre los años 600 y 900 después de Cristo. Está modelada en arcilla, es decir, es de cerámica. Hay un detalle de fechas que ayuda a mirarla. La tradición más conocida sobre las cihuateteo es la de los mexicas, que vivieron mucho después, entre 1250 y 1521. Existe una pieza afín en Calixtlahuaca, y esa sí es mexica. Así, una figura de barro de la costa comparte nombre con una tradición del Altiplano.
+**ES:** Estás ante Coatlicue, «la de la falda de serpientes», una de las esculturas más impresionantes del mundo antiguo. Mide más de dos metros y medio y no tiene cabeza humana: en su lugar, dos serpientes de perfil se enfrentan y forman un rostro monstruoso. Al cuello lleva un collar de manos cortadas y corazones, con un cráneo colgando al centro; la falda es una trenza de serpientes de cascabel y sus pies terminan en garras de águila. Es la madre de Huitzilopochtli, el dios del Sol y de la guerra, y encarna a la Tierra: la que da el maíz y la que recibe a los muertos. La encontraron en 1790, bajo la Plaza Mayor.
 
-**EN:** Cihuateteo is a Nahuatl word. It refers to women who died giving birth, who were revered as warriors. This sculpture comes from El Zapotal, in Veracruz, and dates to the Late Classic, between 600 and 900 AD. It is modeled in clay, which means it is ceramic. There is a detail about dates that helps in looking at it. The best-known tradition about the cihuateteo is that of the Mexica, who lived much later, between 1250 and 1521. A related piece exists at Calixtlahuaca, and that one is indeed Mexica. Thus, a clay figure from the coast shares a name with a tradition of the Highlands.
+**EN:** You are standing before Coatlicue, “she of the skirt of serpents,” one of the most impressive sculptures of the ancient world. She stands more than two and a half meters tall and has no human head: in its place, two serpents face each other in profile and form a monstrous face. Around her neck she wears a necklace of severed hands and hearts, with a skull hanging at the center; her skirt is a braid of rattlesnakes, and her feet end in eagle claws. She is the mother of Huitzilopochtli, the god of the Sun and of war, and she embodies the Earth: the one who gives the maize and the one who receives the dead. She was found in 1790, beneath the Main Square.
 
 ### guion_largo
 
-**ES:** Cihuateteo es el plural de cihuateotl, una palabra náhuatl que significa diosa mujer. El nombre se aplica a las mujeres que murieron durante el parto. Entre los mexicas se las veneraba como guerreras heroicas, que habían entregado su vida en lo que llamaban la batalla del nacimiento. /  / Según esa tradición, vivían en la región del poniente y acompañaban al Sol desde el mediodía hasta que se ponía en el horizonte. Su mito dio origen, ya en la época colonial, a la leyenda de La Llorona. /  / La escultura de esta sala viene de El Zapotal, en Veracruz, y está modelada en arcilla. Pertenece al Clásico Tardío, entre los años 600 y 900 después de Cristo. Eso es varios siglos antes de los mexicas, que vivieron entre 1250 y 1521. Por eso la tradición mexica sirve para entender el nombre. Pero no se puede dar por hecho que explique todo lo que esta figura significaba para quienes la hicieron. /  / Existe una pieza afín en Calixtlahuaca, en el Altiplano, y esa sí es mexica. Compararlas muestra que la idea de honrar a las mujeres que morían en el parto aparece en lugares y épocas distintas. /  / Mira la figura con calma. Es una imagen femenina modelada en barro. Pregúntate qué te dicen su postura y su rostro.
+**ES:** Para entender a Coatlicue hay que subir, en la imaginación, al cerro Coatepec, el «cerro de la serpiente». Allí barría la diosa, cuenta el mito, cuando cayó del cielo una bolita de plumas. La guardó en el pecho y quedó embarazada. Sus hijos, la luna [Coyolxauhqui](mna_s06_coyolxauhqui) y los cuatrocientos hermanos estelares, los Centzonhuitznahua, se sintieron deshonrados y decidieron matarla. En ese momento crítico el relato se detiene. Lo que pasó después lo sabrás en la siguiente pieza. /  / Mira ahora su rostro, o mejor dicho, su falta de rostro. Del cuello cortado salen dos chorros de sangre que son dos serpientes, y al mirarse de perfil forman, entre las dos, ojos, colmillos y lenguas bífidas. El escultor no quiso mostrar a una mujer, sino una idea: la vida que brota de un cuerpo que se entrega. Es una imagen que asusta y que, a la vez, parece casi tierna, porque los pechos caídos hablan de una madre que ha amamantado a muchos hijos. /  / Fíjate en el collar, que te prometí desde Tlatilco. Está hecho de manos abiertas y corazones humanos, y de él cuelga, al centro, un cráneo. Los mexicas decían que la Tierra daba todo, pero también reclamaba todo: el maíz que comemos sale de ella, y al morir volvemos a ella. Ese cráneo, que recuerda a las calaveras de Teotihuacán y al señor de los muertos, Mictlantecuhtli, es el recordatorio de que cada cosecha tiene un precio. /  / La falda se llama así por su tejido de serpientes de cascabel, y de ahí viene su nombre: coatl, serpiente, e icue, falda. Los brazos terminan en cabezas de serpiente y los pies, en garras de águila con plumas. Es una criatura hecha de pedazos de animales que dan miedo, y sin embargo está pensada como una diosa generosa. Después de las mujeres de barro de Tlatilco y de la [Chalchiuhtlicue de Teotihuacán](mna_s04_chalchiuhtlicue), aquí está la más poderosa de la familia. /  / Tiene un secreto bajo los pies. La cara inferior de la escultura, la que toca el suelo y nadie puede ver, está labrada con otra figura: la de [Tlaltecuhtli](mna_s06_tlaltecuhtli), la Tierra, en postura de parto. Una pieza de esta sala la verás entera, y entenderás por qué los mexicas esculpían a la Tierra donde ella podía sentirla. /  / La historia moderna de la Coatlicue es casi tan dramática como su mito. La encontraron el 13 de agosto de 1790, mientras nivelaban la Plaza Mayor, en el actual Zócalo. Las autoridades virreinales la llevaron a la Universidad, pero su aspecto causó tal impresión que decidieron enterrarla otra vez, en uno de los patios. Se cuenta que la gente comenzó a llevarle flores. Años después, el sabio alemán Alexander von Humboldt pidió verla, y la desenterraron un rato para que la dibujara. /  / Quien la estudió con más cuidado fue el astrónomo novohispano Antonio de León y Gama, que describió la Coatlicue y la [Piedra del Sol](mna_s06_piedra_sol), encontradas con pocos meses de diferencia, como partes de un mismo universo. Su libro de 1792 es uno de los primeros intentos de entender el mundo mexica con espíritu científico. Ya en el México independiente, la Coatlicue se desenterró para siempre y pasó al Museo Nacional. /  / Por eso conviene verla como una paradoja: la imagen más terrible del museo es también la de una madre. Y es, al mismo tiempo, un símbolo de supervivencia. Los españoles la enterraron, no la destruyeron, y esa decisión nos dejó una de las grandes esculturas del mundo.
 
-**EN:** Cihuateteo is the plural of cihuateotl, a Nahuatl word meaning woman goddess. The name is applied to women who died during childbirth. Among the Mexica they were revered as heroic warriors, who had given their lives in what they called the battle of birth. /  / According to that tradition, they lived in the region of the west and accompanied the Sun from midday until it set on the horizon. Their myth gave rise, in colonial times, to the legend of La Llorona. /  / The sculpture in this hall comes from El Zapotal, in Veracruz, and is modeled in clay. It belongs to the Late Classic, between 600 and 900 AD. That is several centuries before the Mexica, who lived between 1250 and 1521. For that reason, the Mexica tradition helps us understand the name. But it cannot be taken for granted that it explains everything this figure meant to those who made it. /  / A related piece exists at Calixtlahuaca, in the Highlands, and that one is indeed Mexica. Comparing them shows that the idea of honoring women who died in childbirth appears in different places and times. /  / Look at the figure slowly. It is a female image modeled in clay. Ask yourself what its posture and its face tell you.
+**EN:** To understand Coatlicue, you have to climb, in your imagination, the hill of Coatepec, the “hill of the serpent.” There the goddess was sweeping, the myth says, when a little ball of feathers fell from the sky. She tucked it into her chest and became pregnant. Her children, the moon [Coyolxauhqui](mna_s06_coyolxauhqui) and the four hundred star siblings, the Centzonhuitznahua, felt dishonored and decided to kill her. At that critical moment the story pauses. What happened next you will learn at the following piece. /  / Now look at her face, or rather, her lack of one. From the severed neck spring two streams of blood that are two serpents, and as they look at each other in profile they form, between them, eyes, fangs, and forked tongues. The sculptor did not want to show a woman, but an idea: life that springs from a body that gives itself up. It is an image that frightens and yet, at the same time, seems almost tender, because the sagging breasts speak of a mother who has nursed many children. /  / Look at the necklace, which I promised you back at Tlatilco. It is made of open hands and human hearts, and from it hangs, at the center, a skull. The Mexica said that the Earth gave everything, but also claimed everything: the maize we eat comes from her, and when we die we return to her. That skull, which recalls the skulls of Teotihuacán and the lord of the dead, Mictlantecuhtli, is a reminder that every harvest has a price. /  / The skirt takes its name from its weave of rattlesnakes, and that is where her name comes from: coatl, serpent, and icue, skirt. Her arms end in serpent heads and her feet in eagle claws with feathers. She is a creature made from pieces of frightening animals, and yet she is conceived as a generous goddess. After the clay women of Tlatilco and the [Chalchiuhtlicue of Teotihuacán](mna_s04_chalchiuhtlicue), here is the most powerful of the family. /  / She has a secret beneath her feet. The underside of the sculpture, the part that touches the ground and that no one can see, is carved with another figure: that of [Tlaltecuhtli](mna_s06_tlaltecuhtli), the Earth, in a birthing posture. You will see one such piece in this hall in its entirety, and you will understand why the Mexica carved the Earth where she could feel it. /  / The modern history of Coatlicue is almost as dramatic as her myth. She was found on August 13, 1790, while workers were leveling the Main Square, in what is now the Zócalo. The viceregal authorities took her to the University, but her appearance made such an impression that they decided to bury her again, in one of the courtyards. It is said that people began to bring her flowers. Years later, the German scholar Alexander von Humboldt asked to see her, and she was unearthed for a while so that he could draw her. /  / The one who studied her most carefully was the New Spain astronomer Antonio de León y Gama, who described Coatlicue and the [Sun Stone](mna_s06_piedra_sol), found only a few months apart, as parts of one and the same universe. His book of 1792 is one of the first attempts to understand the Mexica world with a scientific spirit. In independent Mexico, Coatlicue was unearthed for good and passed to the National Museum. /  / That is why it is worth seeing her as a paradox: the most terrifying image in the museum is also that of a mother. And she is, at the same time, a symbol of survival. The Spaniards buried her, they did not destroy her, and that decision left us one of the great sculptures of the world.
 
 ### retos_observacion
 
-**ES:** Fíjate en que está modelada en arcilla, no tallada en piedra. / Mira con calma los detalles del rostro y del cuerpo. / Compara esta figura con la tradición mexica de las cihuateteo, que es posterior.
+**ES:** Cuenta las dos cabezas de serpiente que forman el rostro / Busca el cráneo que cuelga en el centro del collar / Fíjate en las garras de águila de sus pies
 
-**EN:** Notice that it is modeled in clay, not carved in stone. / Take your time looking at the details of the face and the body. / Compare this figure with the Mexica tradition of the cihuateteo, which came later.
+**EN:** Count the two serpent heads that form the face / Find the skull hanging at the center of the necklace / Notice the eagle claws on her feet
 
 ### especificaciones
 
-**ES:** Cultura: Centro de Veracruz / Totonaca / Periodo: Clásico Tardío (600-900 d.C.) / Material: Arcilla, cerámica modelada / Procedencia: El Zapotal, Veracruz
+**ES:** Cultura: Mexica / Periodo: Posclásico Tardío (1325-1521 d.C.) / Material: Andesita y pigmento rojo / Procedencia: Centro Histórico, Ciudad de México (Plaza Mayor) / Medidas: 2.52 m de alto x 1.30 m de ancho x 1.30 m de profundidad
 
-**EN:** Culture: Central Veracruz / Totonac / Period: Late Classic (600-900 AD) / Material: Clay, modeled ceramic / Origin: El Zapotal, Veracruz
+**EN:** Culture: Mexica / Period: Late Postclassic (1325-1521 AD) / Material: Andesite and red pigment / Origin: Historic Center, Mexico City (Main Square) / Dimensions: 2.52 m high x 1.30 m wide x 1.30 m deep
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Las cihuateteo eran brujas o demonios de la noche. / respuesta: Realidad: La palabra designa a las mujeres que murieron al dar a luz, a quienes se veneraba como guerreras.
+**ES:** pregunta: Mito: Los españoles destruyeron todas las esculturas mexicas. / respuesta: Realidad: Muchas se enterraron en vez de romperse, y por eso hoy podemos verlas. La Coatlicue estuvo sepultada dos veces antes de llegar al museo.
 
-**EN:** pregunta: Myth: The cihuateteo were witches or demons of the night. / respuesta: Reality: The word refers to women who died giving birth, who were revered as warriors.
+**EN:** pregunta: Myth: The Spaniards destroyed all the Mexica sculptures. / respuesta: Reality: Many were buried instead of being broken, and that is why we can see them today. Coatlicue was buried twice before reaching the museum.
 
-## Pieza: mna_s06_chapulin
-
-### titulo
-
-**ES:** Chapulín de Chapultepec
-
-**EN:** Grasshopper of Chapultepec
+## Pieza: mna_s06_tizoc
 
 ### frase_gancho
 
-**ES:** Un chapulín de piedra roja que da nombre al bosque donde está el museo.
+**ES:** Un tambor de piedra donde un rey sujeta por el cabello a quince pueblos.
 
-**EN:** A red stone grasshopper that gives its name to the park where the museum stands.
+**EN:** A stone drum where a king grips fifteen peoples by the hair.
 
 ### puente_narrativo
 
-**ES:** Seguimos con otro animal de piedra, ahora un insecto: el chapulín que da nombre al bosque donde estás.
+**ES:** Los pueblos vencidos pagaban en tributo y en prisioneros. Busca ahora un cilindro hermano de este, con once escenas de conquista, que apareció en 1988 bajo las calles del centro de la ciudad.
 
-**EN:** We continue with another stone animal, this time an insect: the grasshopper that gives its name to the park where you are standing.
+**EN:** Conquered peoples paid in tribute and in prisoners. Now look for a sibling of this cylinder, with eleven scenes of conquest, which turned up in 1988 beneath the streets of the city center.
 
 ### guion_corto
 
-**ES:** Este chapulín de piedra da nombre al bosque donde está el museo. Chapultepec significa en el cerro del chapulín, y esta escultura es su glifo, es decir, su nombre escrito en imagen. Es una obra mexica del Posclásico Tardío que se halló en Chapultepec. Está tallada y pulida en una piedra de color rojo intenso. El artista cuidó los detalles: las patas traseras van dobladas sobre el cuerpo, como si el insecto estuviera por saltar. Para los mexicas, Chapultepec era un lugar muy importante. Allí había manantiales que daban agua a la ciudad, y allí vivieron antes de fundar Tenochtitlan.
+**ES:** Estás frente a la Piedra de Tízoc, un gran cilindro de casi un metro de alto y más de dos metros y medio de diámetro. La mandó labrar el tlatoani Tízoc, que gobernó de 1481 a 1486. Camina a su alrededor: hay quince escenas casi idénticas. En cada una, el rey, vestido con las insignias de un dios, sujeta por el cabello a un jefe vencido, y junto al cautivo un pequeño glifo nombra el pueblo derrotado. Es una lista de conquistas hecha en piedra. Arriba, la cara plana tiene un disco solar con un hueco al centro y un canal hacia el borde, pensados para recibir ofrendas. Por eso los mexicas la consideraban un monumento sagrado, y no solo político.
 
-**EN:** This stone grasshopper gives its name to the park where the museum stands. Chapultepec means at the hill of the grasshopper, and this sculpture is its glyph, that is, its name written as an image. It is a Mexica work from the Late Postclassic that was found in Chapultepec. It is carved and polished from a stone of intense red color. The artist took care with the details: the hind legs are folded over the body, as if the insect were about to jump. For the Mexica, Chapultepec was a very important place. There were springs there that supplied water to the city, and they lived there before founding Tenochtitlan.
+**EN:** You are standing before the Stone of Tízoc, a great cylinder almost one meter high and more than two and a half meters in diameter. It was commissioned by the tlatoani Tízoc, who ruled from 1481 to 1486. Walk around it: there are fifteen nearly identical scenes. In each one, the king, dressed in the regalia of a god, grips a defeated chief by the hair, and beside the captive a small glyph names the conquered people. It is a list of conquests set in stone. On top, the flat face has a sun disk with a hollow at the center and a channel running to the edge, designed to receive offerings. That is why the Mexica regarded it as a sacred monument, and not only a political one.
 
 ### guion_largo
 
-**ES:** Chapultepec quiere decir en el cerro del chapulín. Esta escultura es la prueba, hecha de piedra. /  / Es el glifo de ese lugar: su nombre escrito con una imagen. Es mexica, del Posclásico Tardío, y se halló en Chapultepec. Está tallada y pulida en una piedra de color rojo vivo. /  / Representa a un chapulín de forma muy natural. Tiene las patas traseras dobladas sobre el cuerpo, listas para el salto. Fíjate en esas patas plegadas. /  / Para los mexicas, Chapultepec era un lugar sagrado y político. Allí había manantiales de agua limpia que abastecían a la capital por un acueducto. En las rocas se esculpieron retratos de los gobernantes. Y allí estaba la cueva sagrada de Cincalco. /  / También fue una etapa de su historia. Antes de fundar Tenochtitlan, los mexicas vivieron un tiempo en Chapultepec, durante su migración. /  / Hoy el museo está en ese mismo bosque. Este chapulín te recuerda el nombre del lugar donde estás.
+**ES:** Esta piedra no tiene un rostro espectacular ni una leyenda de terror, y por eso muchos pasan de largo. Es un error, porque es un documento. La [Piedra del Sol](mna_s06_piedra_sol), que verás al final de la sala, habla del tiempo; esta habla del poder: quién mandaba, a quién había vencido y cómo quería que lo recordaran. /  / Fíjate en la repetición. En las quince escenas, a la izquierda aparece el rey, con el casco de colibrí de Huitzilopochtli o con las insignias de Xiuhtecuhtli, el dios del fuego. A la derecha, un jefe enemigo, al que sujeta por el cabello. Tomar a alguien del pelo era el gesto de la victoria total, y lo vas a encontrar en muchos códices. Cada vencido lleva a su lado el glifo de su pueblo; uno de ellos es Matlatzinco, en el valle de Toluca. Son quince nombres, quince derrotas: un mapa político tallado. /  / Pero ojo: no todo lo que dice una piedra es verdad. Tízoc reinó apenas cinco años, entre su hermano Axayácatl y su otro hermano Ahuízotl, y varios historiadores creen que sus campañas fueron más modestas de lo que aquí se ve. Lo que el monumento muestra no es lo que ocurrió, sino lo que el poder quería que se creyera. Hoy los gobiernos usan discursos y anuncios; los mexicas usaban basalto. /  / Detrás de esa lista hay un imperio muy joven. Hacía apenas medio siglo, en 1428, los mexicas se habían rebelado contra Azcapotzalco, a la que pagaban tributo, junto con los texcocanos de Nezahualcóyotl y con Tlacopan. Aquella Triple Alianza se volvió la fuerza más poderosa del centro de México, y piedras como esta eran su manera de recordar a todos quién mandaba ahora. /  / También tuvo un uso ritual. Los mexicas llamaban a este tipo de piedra temalácatl y cuauhxicalli, un recipiente sagrado para ofrendas. Según las crónicas de los frailes, en la fiesta de Tlacaxipehualiztli, dedicada a [Xipe Tótec](mna_s04_xipe_totec), un cautivo de guerra de alto rango era atado por la cintura a una piedra circular. Se le daba un garrote adornado con plumas, y debía pelear contra guerreros mexicas armados de verdad. Después lo sacrificaban. Los especialistas debaten si esta piedra se usó exactamente así, pero su forma encaja muy bien con esa descripción. /  / Si te asomas a la parte de arriba, verás el disco solar y el hueco central, unido a un canal. Se piensa que ahí se vertía la sangre de las ofrendas, para alimentar al Sol. Hay quien opina que el hueco y el canal se añadieron después de tallar las escenas, lo que sugiere que la piedra pudo cambiar de función con el tiempo. /  / Su historia moderna tiene una coincidencia curiosa. Apareció el 17 de diciembre de 1791, durante obras de drenaje en la Plaza de Armas, lo que hoy es el Zócalo. Exactamente un año antes, en esa misma plaza, había aparecido la Piedra del Sol. Dos hallazgos gigantes, a un año de distancia. Se cuenta que unos canteros estuvieron a punto de partirla para hacer adoquines y que unos eruditos lo impidieron. Con el tiempo, terminó en el antiguo Museo Nacional. /  / Cuando la rodees, piensa en los dos significados a la vez: un cuadro de victoria y una mesa de ofrendas. Para los mexicas no eran cosas opuestas. Ganar una guerra era también conseguir lo que el Sol necesitaba para seguir caminando.
 
-**EN:** Chapultepec means at the hill of the grasshopper. This sculpture is the proof, made of stone. /  / It is the glyph of that place: its name written with an image. It is Mexica, from the Late Postclassic, and it was found in Chapultepec. It is carved and polished from a stone of vivid red color. /  / It portrays a grasshopper in a very natural way. Its hind legs are folded over its body, ready to jump. Look closely at those folded legs. /  / For the Mexica, Chapultepec was both a sacred and a political place. There were springs of clean water there that supplied the capital through an aqueduct. Portraits of the rulers were sculpted into the rocks. And the sacred cave of Cincalco was there. /  / It was also a stage in their history. Before founding Tenochtitlan, the Mexica lived for a time in Chapultepec, during their migration. /  / Today the museum stands in that same park. This grasshopper reminds you of the name of the place where you are standing.
+**EN:** This stone has no spectacular face and no legend of terror, and that is why many people walk right past it. That is a mistake, because it is a document. The [Sun Stone](mna_s06_piedra_sol), which you will see at the end of the hall, speaks of time; this one speaks of power: who was in command, whom he had defeated, and how he wanted to be remembered. /  / Notice the repetition. In all fifteen scenes, the king appears on the left, wearing either the hummingbird helmet of Huitzilopochtli or the regalia of Xiuhtecuhtli, the god of fire. On the right is an enemy chief, whom he grips by the hair. Seizing someone by the hair was the gesture of total victory, and you will find it in many codices. Each defeated chief has beside him the glyph of his people; one of them is Matlatzinco, in the Toluca valley. Fifteen names, fifteen defeats: a political map carved in stone. /  / But be careful: not everything a stone says is true. Tízoc reigned for barely five years, between his brother Axayácatl and his other brother Ahuízotl, and several historians believe his campaigns were more modest than what is shown here. What the monument shows is not what happened, but what power wanted people to believe. Today governments use speeches and advertisements; the Mexica used basalt. /  / Behind that list stands a very young empire. Just half a century earlier, in 1428, the Mexica had rebelled against Azcapotzalco, to which they paid tribute, together with the Texcocans of Nezahualcóyotl and with Tlacopan. That Triple Alliance became the most powerful force in central Mexico, and stones like this one were its way of reminding everyone who was in command now. /  / It also had a ritual use. The Mexica called this type of stone temalácatl and cuauhxicalli, a sacred vessel for offerings. According to the chronicles of the friars, during the festival of Tlacaxipehualiztli, dedicated to [Xipe Tótec](mna_s04_xipe_totec), a high-ranking war captive was tied by the waist to a circular stone. He was given a club decorated with feathers, and he had to fight Mexica warriors armed with real weapons. Afterward he was sacrificed. Specialists debate whether this stone was used in exactly that way, but its shape fits that description very well. /  / If you lean over and look at the top, you will see the sun disk and the central hollow, joined to a channel. It is thought that the blood of the offerings was poured there, to feed the Sun. Some think the hollow and the channel were added after the scenes were carved, which suggests that the stone may have changed its function over time. /  / Its modern history holds a curious coincidence. It was found on December 17, 1791, during drainage works in the Plaza de Armas, what is today the Zócalo. Exactly one year earlier, in that same plaza, the Sun Stone had been found. Two giant discoveries, one year apart. The story goes that some stonecutters were about to break it up to make paving stones, and that some scholars stopped them. In time, it ended up in the old National Museum. /  / When you walk around it, think of both meanings at once: a picture of victory and an offering table. For the Mexica they were not opposites. Winning a war was also a way of obtaining what the Sun needed to keep on walking.
 
 ### retos_observacion
 
-**ES:** Busca las patas traseras dobladas sobre el cuerpo. / Fíjate en el color rojo intenso y en lo pulido de la piedra. / Piensa en el nombre del bosque donde está el museo.
+**ES:** Cuenta las quince escenas y busca la mano del rey en el cabello del vencido / Busca el pequeño glifo junto a cada cautivo: es el nombre de su pueblo / Asómate a la parte de arriba: ¿ves el hueco del centro y el canal?
 
-**EN:** Look for the hind legs folded over the body. / Notice the intense red color and the polished surface of the stone. / Think about the name of the park where the museum stands.
-
-### especificaciones
-
-**ES:** Cultura: Mexica / Periodo: Posclásico Tardío / Material: Piedra roja tallada y pulida / Procedencia: Chapultepec, Ciudad de México
-
-**EN:** Culture: Mexica / Period: Late Postclassic / Material: Carved and polished red stone / Origin: Chapultepec, Mexico City
+**EN:** Count the fifteen scenes and find the king’s hand in the defeated chief’s hair / Find the small glyph beside each captive: it is the name of his people / Lean over and look at the top: can you see the hollow in the center and the channel?
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Esta escultura es solo un adorno con forma de insecto. / respuesta: Realidad: Es el glifo de Chapultepec, el nombre del lugar escrito con una imagen. Significa en el cerro del chapulín.
+**ES:** pregunta: Mito: Tízoc fue el más grande conquistador mexica, y por eso su piedra lo muestra venciendo a quince pueblos. / respuesta: Realidad: Tízoc reinó solo unos cinco años, y varios historiadores creen que sus campañas fueron modestas. La piedra no cuenta lo que pasó, sino cómo quería el poder que se recordara.
 
-**EN:** pregunta: Myth: This sculpture is just an ornament shaped like an insect. / respuesta: Reality: It is the glyph of Chapultepec, the name of the place written with an image. It means at the hill of the grasshopper.
+**EN:** pregunta: Myth: Tízoc was the greatest Mexica conqueror, and that is why his stone shows him defeating fifteen peoples. / respuesta: Reality: Tízoc reigned for only about five years, and several historians believe his campaigns were modest. The stone does not tell what happened, but how power wanted it to be remembered.
 
-## Pieza: mna_s06_maqueta_tlatelolco
-
-### titulo
-
-**ES:** Maqueta y mural del Mercado de Tlatelolco
-
-**EN:** Model and Mural of the Tlatelolco Market
+## Pieza: mna_s06_coyolxauhqui
 
 ### frase_gancho
 
-**ES:** Cientos de figuras de barro en un día de mercado, antes de la llegada de los españoles.
+**ES:** La luna derrotada: una cabeza con cascabeles en las mejillas.
 
-**EN:** Hundreds of clay figures on a market day, before the Spaniards arrived.
+**EN:** The defeated moon: a head with bells on its cheeks.
 
 ### puente_narrativo
 
-**ES:** Dejamos a los dioses y bajamos a la plaza: así era un día de mercado en Tlatelolco, la ciudad gemela de Tenochtitlan.
+**ES:** El cuerpo de Coyolxauhqui rodó hasta el pie de la montaña, hasta la Tierra misma. Acércate a la Tierra con nombre propio: Tlaltecuhtli, una figura en cuclillas que apareció cuando se construía el Metro.
 
-**EN:** We leave the gods behind and step down into the plaza: this is what a market day was like in Tlatelolco, the twin city of Tenochtitlan.
+**EN:** The body of Coyolxauhqui rolled down to the foot of the mountain, to the Earth itself. Come closer to the Earth with a name of its own: Tlaltecuhtli, a squatting figure that appeared while the Metro was being built.
 
 ### guion_corto
 
-**ES:** Es día de mercado en Tlatelolco, y la plaza está llena. Lo que ves es una maqueta con cientos de figuras de barro: nobles, campesinos, artesanos, cazadores y comerciantes de larga distancia. Hay puestos de comida, cerámica, joyas, herramientas y animales vivos. Detrás, un mural panorámico del pintor Luis Covarrubias completa la escena. La maqueta se construyó en 1964. La hizo Carmen Antúnez, con la asesoría del arquitecto Ignacio Marquina. Los cronistas cuentan que allí se compraba con trueque, y también con semillas de cacao, mantas de algodón y plumas llenas de polvo de oro. Es una recreación moderna que te ayuda a imaginar el comercio mexica.
+**ES:** Esta cabeza de piedra representa a Coyolxauhqui, «la de los cascabeles en la cara», la diosa de la Luna. Mira su rostro: ojos cerrados, boca sin vida, un cascabel de oro tallado en cada mejilla, el cabello recogido en una banda con bolitas de plumón. Es la hija que, según el mito, quiso matar a su madre [Coatlicue](mna_s06_coatlicue) y fue vencida por su hermano Huitzilopochtli, el Sol, que nació armado en el cerro Coatepec y la decapitó. Fue hallada en 1830 en el centro de la ciudad, cerca del lugar donde se levantó el Templo Mayor, cuando nadie sabía todavía dónde estaba. Hoy cuenta una de las historias más importantes de los mexicas.
 
-**EN:** It is market day in Tlatelolco, and the plaza is full. What you see is a scale model with hundreds of clay figures: nobles, farmers, artisans, hunters, and long-distance merchants. There are stalls selling food, pottery, jewelry, tools, and live animals. Behind it, a panoramic mural by the painter Luis Covarrubias completes the scene. The model was built in 1964. It was made by Carmen Antúnez, with the guidance of the architect Ignacio Marquina. The chroniclers tell us that people bought goods there through barter, and also with cacao beans, cotton cloaks, and feathers filled with gold dust. It is a modern re-creation that helps you imagine Mexica trade.
+**EN:** This stone head represents Coyolxauhqui, “she of the bells on her face,” the goddess of the Moon. Look at her face: closed eyes, a lifeless mouth, a carved gold bell on each cheek, her hair gathered in a band with little balls of down. She is the daughter who, according to the myth, wanted to kill her mother [Coatlicue](mna_s06_coatlicue) and was defeated by her brother Huitzilopochtli, the Sun, who was born armed on Mount Coatepec and beheaded her. It was found in 1830 in the center of the city, near the place where the Templo Mayor once stood, when no one yet knew where it was. Today it tells one of the most important stories of the Mexica.
 
 ### guion_largo
 
-**ES:** Tlatelolco, la ciudad gemela de Tenochtitlan, tenía un gran mercado. Esta maqueta te lo muestra. /  / No es una pieza antigua, sino una recreación moderna. La construyó en 1964 Carmen Antúnez, con la asesoría del arquitecto Ignacio Marquina. Está formada por cientos de figuras modeladas a mano, vestidas con ropa de tela y rodeadas de puestos de comida, cerámica, joyas y herramientas. /  / Detrás de la maqueta hay un mural panorámico del pintor Luis Covarrubias. Juntos completan la escena. /  / Entre los puestos se mezclan nobles, campesinos, artesanos, cazadores y comerciantes de larga distancia, a quienes se llamaba pochtecas. Ellos traían productos de lujo desde tierras lejanas, como oro, turquesas, cacao y plumas de quetzal. /  / En ese mercado no circulaban monedas como las de hoy. Se hacía trueque, y también se usaban como dinero las semillas de cacao, las mantas de algodón y las plumas rellenas de polvo de oro. /  / Los cronistas españoles quedaron asombrados por la cantidad de gente. Hernán Cortés y Bernal Díaz del Castillo hablan de decenas de miles de personas en la plaza en un solo día. /  / Busca una escena que te llame la atención y piensa qué se estaría comprando allí.
+**ES:** Retomemos el relato donde lo dejó [la Coatlicue](mna_s06_coatlicue). Los cuatrocientos hermanos y su hermana mayor, Coyolxauhqui, subían armados por el cerro Coatepec para matar a su madre. Entonces nació Huitzilopochtli, ya adulto y con su armadura, y empuñando la xiuhcóatl, la serpiente de fuego. Con ella cortó la cabeza de su hermana, rodó el cuerpo cerro abajo, hasta el pie de la montaña, donde se hizo pedazos, y persiguió a los cuatrocientos hermanos hasta dispersarlos. Fue la primera batalla del Sol. /  / El mito tiene un sentido muy claro. Huitzilopochtli es el Sol; Coyolxauhqui, la Luna, y los cuatrocientos hermanos, las estrellas del sur. Cada madrugada, el Sol vence a la Luna y las estrellas y vuelve a salir. Es el mismo combate que viste, de otra manera, en el [mural de Tamayo](mna_s00_mural_tamayo) de la entrada: una lucha que no termina, porque el mundo necesita que se repita. Para los mexicas, esa victoria diaria no estaba garantizada; había que ayudar al Sol. /  / Mira la cabeza con detalle. Los ojos están cerrados y la boca, apenas abierta, tiene un gesto de abandono. En cada mejilla hay un círculo con el signo del cascabel, el coyolli, que da nombre a la diosa: Coyolxauhqui significa «la que se adorna con cascabeles». El cabello está recogido con una banda de tela con nudos, y de ella cuelgan pequeñas bolas de plumón, el adorno que se ponía a las víctimas del sacrificio. Es una cabeza hermosa y terrible. /  / Como pasaba con la Coatlicue, lo importante se esconde abajo. En la base de la cabeza hay grabada una fecha, 1 Conejo, y símbolos de agua y fuego. Esos relieves no eran para el público: eran para la tierra. Los mexicas no esculpían solo para que los vieran las personas, sino también para los dioses y para el suelo. /  / La cabeza se encontró en 1830, en la calle de Santa Teresa, justo detrás de lo que luego se descubriría como el Templo Mayor. Pero nadie sabía lo que había debajo. Hizo falta que pasaran casi ciento cincuenta años. El 21 de febrero de 1978, unos trabajadores de la Compañía de Luz y Fuerza, que cavaban una zanja en el centro de la Ciudad de México, tropezaron con una gran piedra redonda: el disco de Coyolxauhqui, de más de tres metros de diámetro, con la diosa desmembrada, con el cuerpo partido en pedazos, tal como cuenta el mito. /  / Ese hallazgo cambió la arqueología mexicana. Se había encontrado el pie de la montaña mítica, la base del santuario de Huitzilopochtli en el Templo Mayor. El arqueólogo Eduardo Matos Moctezuma dirigió el proyecto que, durante años, derribó edificios coloniales para excavar el templo. Hoy se puede visitar a pocos pasos del Zócalo, en el Museo del Templo Mayor, donde el disco sigue en su sitio. /  / Y el Templo Mayor, ahora lo sabes, tenía dos santuarios en la cima. Uno, el de Huitzilopochtli, el Sol y la guerra, representaba el cerro Coatepec. El otro, el de Tláloc, el dios de la lluvia y de la agricultura, representaba un cerro de los mantenimientos. Sol y agua compartían la cumbre de una misma pirámide, en una ciudad construida sobre un islote del lago, con calzadas que flotaban en el agua. Sin sol no hay cosecha, pero sin lluvia tampoco. /  / Dicen las crónicas que en la fiesta de Panquetzaliztli se recreaba la escena: los cuerpos de los cautivos rodaban por la escalera, hasta quedar sobre el disco de la diosa. Si es así, esta cabeza, vista de cerca, nos recuerda que el mito no era solo palabra: era un rito que se vivía con el cuerpo.
 
-**EN:** Tlatelolco, the twin city of Tenochtitlan, had a great market. This model shows it to you. /  / It is not an ancient piece, but a modern re-creation. It was built in 1964 by Carmen Antúnez, with the guidance of the architect Ignacio Marquina. It is made up of hundreds of hand-modeled figures, dressed in cloth clothing and surrounded by stalls selling food, pottery, jewelry, and tools. /  / Behind the model there is a panoramic mural by the painter Luis Covarrubias. Together they complete the scene. /  / Among the stalls, nobles, farmers, artisans, hunters, and long-distance merchants mingle, the latter known as pochtecas. They brought luxury goods from distant lands, such as gold, turquoise, cacao, and quetzal feathers. /  / In that market, coins like today’s did not circulate. People bartered, and they also used as money cacao beans, cotton cloaks, and feathers filled with gold dust. /  / The Spanish chroniclers were astonished by the number of people. Hernán Cortés and Bernal Díaz del Castillo speak of tens of thousands of people in the plaza in a single day. /  / Look for a scene that catches your eye and think about what might have been bought there.
+**EN:** Let us pick up the story where [Coatlicue](mna_s06_coatlicue) left off. The four hundred brothers and their older sister, Coyolxauhqui, were climbing Mount Coatepec in arms to kill their mother. Then Huitzilopochtli was born, already grown and in his armor, wielding the xiuhcóatl, the fire serpent. With it he cut off his sister’s head, her body rolled down the mountain to its foot, where it broke into pieces, and he chased the four hundred brothers until he had scattered them. It was the first battle of the Sun. /  / The myth has a very clear meaning. Huitzilopochtli is the Sun; Coyolxauhqui, the Moon; and the four hundred brothers, the stars of the south. Every dawn, the Sun defeats the Moon and the stars and rises again. It is the same combat you saw, in another form, in the [Tamayo mural](mna_s00_mural_tamayo) at the entrance: a struggle that never ends, because the world needs it to be repeated. For the Mexica, that daily victory was not guaranteed; the Sun had to be helped. /  / Look closely at the head. The eyes are closed and the mouth, barely open, has an expression of surrender. On each cheek there is a circle with the sign of the bell, the coyolli, which gives the goddess her name: Coyolxauhqui means “she who adorns herself with bells.” The hair is gathered with a cloth band with knots, and from it hang small balls of down, the adornment placed on sacrificial victims. It is a beautiful and terrible head. /  / As with the Coatlicue, what matters is hidden below. On the base of the head a date is carved, 1 Rabbit, along with symbols of water and fire. Those reliefs were not meant for the public: they were meant for the earth. The Mexica did not sculpt only to be seen by people, but also for the gods and for the ground. /  / The head was found in 1830, on Santa Teresa Street, right behind what would later be discovered to be the Templo Mayor. But no one knew what lay beneath. It took almost one hundred fifty years. On February 21, 1978, some workers from the Light and Power Company, digging a trench in the center of Mexico City, stumbled upon a large round stone: the disc of Coyolxauhqui, more than three meters in diameter, showing the dismembered goddess, her body cut into pieces, just as the myth tells. /  / That discovery changed Mexican archaeology. The foot of the mythical mountain had been found, the base of the shrine of Huitzilopochtli in the Templo Mayor. The archaeologist Eduardo Matos Moctezuma directed the project that, over several years, tore down colonial buildings to excavate the temple. Today you can visit it a few steps from the Zócalo, in the Templo Mayor Museum, where the disc remains in its place. /  / And the Templo Mayor, as you now know, had two shrines at the top. One, that of Huitzilopochtli, the Sun and war, represented Mount Coatepec. The other, that of Tláloc, the god of rain and agriculture, represented a mountain of sustenance. Sun and water shared the summit of a single pyramid, in a city built on an islet in the lake, with causeways that floated on the water. Without sun there is no harvest, but without rain there is none either. /  / The chronicles say that during the festival of Panquetzaliztli the scene was reenacted: the bodies of the captives rolled down the stairway, until they came to rest on the goddess’s disc. If so, this head, seen up close, reminds us that the myth was not just words: it was a rite lived with the body.
 
 ### retos_observacion
 
-**ES:** Busca los puestos de comida y de cerámica entre las figuras. / Encuentra los puestos de animales vivos, de joyas y de herramientas. / Mira el mural del fondo: completa la escena de la plaza.
+**ES:** Busca los cascabeles de las mejillas / Fíjate en los ojos cerrados y en la boca sin vida / Observa la banda del cabello y las bolitas de plumón
 
-**EN:** Look for the food and pottery stalls among the figures. / Find the stalls selling live animals, jewelry, and tools. / Look at the mural in the background: it completes the scene of the plaza.
-
-### especificaciones
-
-**ES:** Cultura: Mexica-tlatelolca (recreación museográfica) / Periodo: Representa el Posclásico Tardío; maqueta de 1964 / Material: Figuras de barro y resina modeladas a mano; mural de fondo / Procedencia: Recreación del mercado de Tlatelolco, ciudad gemela de México-Tenochtitlan / Medidas: Maqueta a escala
-
-**EN:** Culture: Mexica-Tlatelolca (museum re-creation) / Period: Represents the Late Postclassic; model from 1964 / Material: Hand-modeled clay and resin figures; background mural / Origin: Re-creation of the Tlatelolco market, twin city of México-Tenochtitlan / Dimensions: Scale model
+**EN:** Find the bells on the cheeks / Notice the closed eyes and the lifeless mouth / Observe the hair band and the little balls of down
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Los mexicas pagaban en el mercado con monedas de oro y plata. / respuesta: Realidad: No usaban monedas. Hacían trueque y empleaban como dinero semillas de cacao, mantas de algodón y plumas rellenas de polvo de oro.
+**ES:** pregunta: Mito: El Templo Mayor siempre estuvo a la vista y todos sabían dónde estaba. / respuesta: Realidad: Estaba enterrado bajo el centro de la ciudad. En 1978 unos trabajadores que cavaban una zanja encontraron el disco de Coyolxauhqui y se pudo excavar a fondo.
 
-**EN:** pregunta: Myth: The Mexica paid for goods in the market with gold and silver coins. / respuesta: Reality: They did not use coins. They bartered and used as money cacao beans, cotton cloaks, and feathers filled with gold dust.
+**EN:** pregunta: Myth: The Templo Mayor was always in plain sight and everyone knew where it was. / respuesta: Reality: It was buried beneath the center of the city. In 1978, workers digging a trench found the disc of Coyolxauhqui, and a full excavation became possible.
 
-## Pieza: mna_s01_entierro_dolni_vestonice
-
-### titulo
-
-**ES:** Recreación del entierro de Dolní Věstonice
-
-**EN:** Recreation of the Dolní Věstonice Burial
+## Pieza: mna_s06_tlaltecuhtli
 
 ### frase_gancho
 
-**ES:** Tres jóvenes sepultados juntos sobre tierra roja, hace decenas de miles de años.
+**ES:** La Tierra en cuclillas, con las fauces abiertas.
 
-**EN:** Three young people buried together on red earth, tens of thousands of years ago.
+**EN:** The Earth squatting, jaws wide open.
 
 ### puente_narrativo
 
-**ES:** Damos un salto de millones de años: de Lucy a personas como tú, Homo sapiens, que ya enterraban a sus muertos con ceremonia.
+**ES:** De la Tierra que se traga al Sol pasamos a la que da de comer a un pueblo. Mira un pequeño templo de piedra: en la parte de atrás, un águila posada en un nopal que nace del cuerpo de esta misma diosa.
 
-**EN:** We leap forward millions of years: from Lucy to people like you, Homo sapiens, who already buried their dead with ceremony.
-
-### guion_corto
-
-**ES:** Tres jóvenes descansan juntos sobre tierra teñida de rojo. Alguien los colocó así hace decenas de miles de años, en el Paleolítico Superior. Es la recreación a tamaño real de un entierro de Dolní Věstonice, en Moravia, al sur de la actual República Checa. Eran personas de la misma especie que tú, Homo sapiens, que vivían de la caza y la recolección. Tenían entre dieciséis y veinte años y fueron sepultados al mismo tiempo, sin huellas de muerte violenta. Los cuerpos llevan ocre rojo y adornos hechos con dientes perforados. Los especialistas ven en esos detalles una de las pruebas más tempranas en Europa de pensamiento simbólico y de rituales para despedir a los muertos.
-
-**EN:** Three young people rest together on earth stained red. Someone laid them out this way tens of thousands of years ago, in the Upper Paleolithic. This is a life-size recreation of a burial from Dolní Věstonice, in Moravia, in the south of today’s Czech Republic. They were people of the same species as you, Homo sapiens, who lived by hunting and gathering. They were between sixteen and twenty years old and were buried at the same time, with no signs of violent death. The bodies bear red ocher and ornaments made from pierced teeth. Specialists see in these details one of the earliest pieces of evidence in Europe of symbolic thought and of rituals for bidding farewell to the dead.
-
-### guion_largo
-
-**ES:** Cuando piensas en la prehistoria, quizá imaginas gente que solo trataba de sobrevivir. Este entierro cuenta otra cosa. /  / Es una recreación a tamaño real de un entierro que se encontró en Dolní Věstonice, en Moravia, al sur de la actual República Checa. Se hizo con réplicas de esqueletos, herramientas de piedra y dientes de animales, sobre un lecho de tierra con ocre rojo y cenizas. /  / Los tres jóvenes tenían entre dieciséis y veinte años. Fueron sepultados al mismo tiempo, tendidos, y no se encontraron huellas de muerte violenta. Uno de ellos está boca abajo. Otro apoya la mano sobre la pelvis del joven del centro. /  / Los análisis de los huesos y de los genes indican que posiblemente eran parientes. /  / El ocre rojo sobre los cuerpos y los dientes perforados usados como adorno son señales de pensamiento simbólico. Para los especialistas, están entre las pruebas más tempranas en Europa de una vida social compleja y de un culto a los muertos. /  / El mismo sitio es famoso por otro hallazgo. Allí aparecieron hornos de barro muy antiguos, que se usaron para cocer figurillas de mujeres y de animales. /  / Mira esta escena como un recordatorio: mucho antes de las ciudades, ya había personas que despedían a los suyos con cuidado.
-
-**EN:** When you think of prehistory, you may imagine people who were only trying to survive. This burial tells a different story. /  / It is a life-size recreation of a burial found at Dolní Věstonice, in Moravia, in the south of today’s Czech Republic. It was made with replicas of skeletons, stone tools and animal teeth, on a bed of earth with red ocher and ashes. /  / The three young people were between sixteen and twenty years old. They were buried at the same time, laid out at full length, and no signs of violent death were found. One of them lies face down. Another rests a hand on the pelvis of the young person in the center. /  / Analyses of the bones and of the genes indicate that they were possibly relatives. /  / The red ocher on the bodies and the pierced teeth used as ornaments are signs of symbolic thought. For specialists, they are among the earliest evidence in Europe of a complex social life and of a cult of the dead. /  / The same site is famous for another discovery. Very ancient clay kilns appeared there, which were used to fire figurines of women and animals. /  / Look at this scene as a reminder: long before cities, there were already people who bid farewell to their loved ones with care.
-
-### retos_observacion
-
-**ES:** Cuenta los cuerpos y fíjate en cómo están acomodados. / Busca el ocre rojo sobre la tierra y sobre los cuerpos. / Encuentra los adornos hechos con dientes y las herramientas de piedra.
-
-**EN:** Count the bodies and notice how they are arranged. / Look for the red ocher on the earth and on the bodies. / Find the ornaments made from teeth and the stone tools.
-
-### especificaciones
-
-**ES:** Cultura: Homo sapiens, cazadores-recolectores del Paleolítico Superior europeo / Periodo: Paleolítico Superior / Material: Recreación museográfica en diorama a escala real, con réplicas / Procedencia: Dolní Věstonice, Moravia, República Checa / Medidas: Escala 1:1
-
-**EN:** Culture: Homo sapiens, hunter-gatherers of the European Upper Paleolithic / Period: Upper Paleolithic / Material: Museum recreation as a life-size diorama, with replicas / Origin: Dolní Věstonice, Moravia, Czech Republic / Dimensions: Scale 1:1
-
-### faq_mito
-
-**ES:** pregunta: Mito: Los humanos de la prehistoria enterraban a sus muertos sin ceremonia, en simples fosas. / respuesta: Realidad: Este entierro múltiple, con ocre rojo y adornos de dientes, muestra rituales funerarios en el Paleolítico Superior.
-
-**EN:** pregunta: Myth: Prehistoric humans buried their dead without ceremony, in simple pits. / respuesta: Reality: This multiple burial, with red ocher and tooth ornaments, shows funerary rituals in the Upper Paleolithic.
-
-## Pieza: mna_s07_urna_cozobi
-
-### titulo
-
-**ES:** Urna funeraria del dios Pitao Cozobi
-
-**EN:** Funerary Urn of the God Pitao Cozobi
-
-### frase_gancho
-
-**ES:** Un dios cuyo tocado está hecho de mazorcas de maíz.
-
-**EN:** A god whose headdress is made of ears of corn.
-
-### puente_narrativo
-
-**ES:** Seguimos con otra urna zapoteca de la Tumba 104, esta vez con el dios del maíz.
-
-**EN:** We continue with another Zapotec urn from Tomb 104, this time with the Maize God (Corn God).
+**EN:** From the Earth that swallows the Sun, we move on to the Earth that feeds a people. Look at a small stone temple: on its back, an eagle perched on a prickly pear cactus that grows from the body of this very same goddess.
 
 ### guion_corto
 
-**ES:** Fíjate en lo que sale de su tocado: mazorcas de maíz, una junto a otra. Es Pitao Cozobi, el dios zapoteco del maíz, de las cosechas y del sustento. Esta urna funeraria viene de la Tumba 104 de Monte Albán, en los Valles Centrales de Oaxaca. Es del periodo Clásico, entre los años 200 y 800 después de Cristo. Está modelada a mano en arcilla gris, con apliques, líneas incisas y restos de pintura sobre estuco. La figura lleva orejeras y un pectoral plano. Sus manos descansan sobre el abdomen o sostienen recipientes rituales. Urnas como esta se colocaban en nichos y entradas de las tumbas, como guardianes de los difuntos.
+**ES:** Estás ante Tlaltecuhtli, «Señor o Señora de la Tierra», una de las poquísimas esculturas de este ser hechas en bulto redondo. Casi siempre se la tallaba aplastada bajo otras piedras, para que tocara el suelo; aquí la ves entera, en cuclillas, en postura de parto, con garras, el rostro mirando al cielo y la boca abierta. Está lista para tragarse a los muertos y al Sol cada tarde. Lleva un collar de manos y corazones, con un cráneo colgando. Por ese parecido con [la Coatlicue](mna_s06_coatlicue), cuando la encontraron durante la construcción del Metro, la bautizaron «la Coatlicue del Metro». Es la Tierra como monstruo hambriento y como madre.
 
-**EN:** Look at what rises from the headdress: ears of corn, one beside another. This is Pitao Cozobi, the Zapotec god of maize, of harvests, and of sustenance. This funerary urn comes from Tomb 104 at Monte Albán, in the Central Valleys of Oaxaca. It dates to the Classic period, between the years 200 and 800 AD. It is modeled by hand in gray clay, with applied pieces, incised lines, and traces of paint over stucco. The figure wears ear ornaments and a flat pectoral. Its hands rest on the abdomen or hold ritual vessels. Urns like this one were placed in niches and entrances of tombs, as guardians of the dead.
-
-### guion_largo
-
-**ES:** Algunos dioses se reconocen por su ropa. Este, por su corona de maíz. /  / Es Pitao Cozobi, el dios zapoteco del maíz, de las cosechas y del sustento. La urna procede de la Tumba 104 de Monte Albán, en los Valles Centrales de Oaxaca. Pertenece al periodo Clásico, entre los años 200 y 800 después de Cristo. /  / Está hecha a mano con arcilla gris. El artista añadió piezas de barro para dar relieve, marcó líneas con una herramienta y cubrió la figura con estuco pintado. Aún quedan restos de ese color. /  / Fíjate en el tocado. Del centro brotan mazorcas de maíz esculpidas. La figura lleva orejeras y un pectoral plano. Sus manos descansan sobre el abdomen o sostienen recipientes rituales. /  / Estas urnas no guardaban cenizas, como se creyó durante mucho tiempo. Se colocaban vacías en nichos, antecámaras y fachadas de las tumbas de la nobleza. Se piensa que eran guardianes que intercedían por los difuntos ante los dioses. /  / El maíz sostenía la vida de los pueblos de Oaxaca, y su dios tenía un lugar en la tumba.
-
-**EN:** Some gods are recognized by their clothing. This one, by his crown of maize. /  / This is Pitao Cozobi, the Zapotec god of maize, of harvests, and of sustenance. The urn comes from Tomb 104 at Monte Albán, in the Central Valleys of Oaxaca. It belongs to the Classic period, between the years 200 and 800 AD. /  / It is made by hand from gray clay. The artist added pieces of clay to create relief, marked lines with a tool, and covered the figure with painted stucco. Traces of that color still remain. /  / Look at the headdress. From its center spring sculpted ears of corn. The figure wears ear ornaments and a flat pectoral. Its hands rest on the abdomen or hold ritual vessels. /  / These urns did not hold ashes, as was long believed. They were placed empty in niches, antechambers, and facades of the tombs of the nobility. They are thought to have been guardians who interceded for the dead before the gods. /  / Maize sustained the life of the peoples of Oaxaca, and their god had a place in the tomb.
-
-### retos_observacion
-
-**ES:** Busca las mazorcas de maíz que salen del tocado. / Fíjate en las orejeras y en el pectoral plano. / Encuentra las manos: ¿están sobre el abdomen o sostienen un recipiente?
-
-**EN:** Look for the ears of corn rising from the headdress. / Notice the ear ornaments and the flat pectoral. / Find the hands: do they rest on the abdomen or hold a vessel?
-
-### especificaciones
-
-**ES:** Cultura: Zapoteca / Periodo: Clásico (Monte Albán III, 200-800 d.C.) / Material: Arcilla gris modelada a mano, con restos de pintura sobre estuco / Procedencia: Tumba 104, Monte Albán, Valles Centrales, Oaxaca
-
-**EN:** Culture: Zapotec / Period: Classic (Monte Albán III, 200-800 AD) / Material: Gray clay modeled by hand, with traces of paint over stucco / Origin: Tomb 104, Monte Albán, Central Valleys, Oaxaca
-
-### faq_mito
-
-**ES:** pregunta: Mito: Las urnas zapotecas servían para guardar las cenizas de los muertos. / respuesta: Realidad: No guardaban cenizas. Se colocaban vacías en nichos y fachadas de las tumbas, y se piensa que protegían a los difuntos.
-
-**EN:** pregunta: Myth: Zapotec urns were used to store the ashes of the dead. / respuesta: Reality: They did not hold ashes. They were placed empty in niches and on the facades of tombs, and they are thought to have protected the dead.
-
-## Pieza: mna_s04_xipe_totec
-
-### titulo
-
-**ES:** Estatua de Xipe Tótec teotihuacana
-
-**EN:** Teotihuacán Statue of Xipe Tótec
-
-### frase_gancho
-
-**ES:** Un sacerdote con una piel ajena, y su rostro asomando por la boca del traje.
-
-**EN:** A priest wearing another’s skin, his face peering out from the mouth of the costume.
-
-### puente_narrativo
-
-**ES:** Seguimos con otra divinidad, Xipe Tótec, el dios ligado a la renovación de la tierra.
-
-**EN:** We continue with another deity, Xipe Tótec, the god linked to the renewal of the earth.
-
-### guion_corto
-
-**ES:** Parece un hombre con un traje extraño, pero lo que lleva puesto es una piel ajena. Esta escultura muestra a un sacerdote vestido con la piel de una víctima, en honor a Xipe Tótec, cuyo nombre significa Nuestro Señor el Desollado. Es de arcilla modelada a mano, de gran tamaño, y se atribuye a la cultura teotihuacana. Mira la boca abierta del traje: por ahí asoma el rostro del sacerdote. La piel tiene ataduras en la espalda, costuras en las muñecas y una falda corta. En la cabeza lleva un tocado alto. Se interpreta que esa piel era una imagen de la tierra, que cambia de cubierta cada primavera y vuelve a dar vida.
-
-**EN:** He looks like a man in a strange costume, but what he is wearing is someone else’s skin. This sculpture shows a priest dressed in the skin of a victim, in honor of Xipe Tótec, whose name means Our Lord the Flayed One. It is made of hand-modeled clay, it is large in size, and it is attributed to the Teotihuacán culture. Look at the open mouth of the costume: the priest’s face peers out from there. The skin has ties along the back, seams at the wrists, and a short skirt. On the head he wears a tall headdress. It is interpreted that this skin was an image of the earth, which changes its covering every spring and gives life again.
+**EN:** You are standing before Tlaltecuhtli, “Lord or Lady of the Earth,” one of the very few sculptures of this being carved fully in the round. She was almost always carved crushed beneath other stones, so that she would touch the ground; here you see her whole, squatting, in the posture of childbirth, with claws, her face looking up at the sky and her mouth open. She is ready to swallow the dead and the Sun every evening. She wears a necklace of hands and hearts, with a skull hanging from it. Because of this resemblance to [the Coatlicue](mna_s06_coatlicue), when she was found during the construction of the Metro, she was nicknamed “the Coatlicue of the Metro.” She is the Earth as both a hungry monster and a mother.
 
 ### guion_largo
 
-**ES:** No es un disfraz cualquiera. Es una escultura que muestra un rito. /  / Esta estatua de arcilla modelada a mano representa a un sacerdote de pie. Es de gran tamaño, y se atribuye a la cultura teotihuacana, del periodo Clásico Tardío o del Epiclásico. /  / El sacerdote lleva la piel de una persona sacrificada en honor a Xipe Tótec, cuyo nombre significa Nuestro Señor el Desollado. La piel tiene la superficie áspera y porosa. Se ata por la espalda y tiene costuras en las muñecas. /  / Fíjate en la boca del traje. Está abierta, y de ahí emerge el rostro del sacerdote. Lleva también una falda corta y un tocado en la cabeza. /  / Vestirse con la piel de los cautivos era un acto ritual. Se interpreta que simbolizaba la muda de la tierra, la renovación de la vegetación en primavera y el renacimiento de la vida agrícola. /  / Así, una imagen fuerte hablaba de un ciclo natural: la tierra que se renueva.
+**ES:** En el principio, cuentan los mexicas, había agua, y sobre el agua flotaba un monstruo, Tlaltecuhtli, con bocas en las articulaciones. Quetzalcóatl y Tezcatlipoca, los dos dioses que ya conoces de la entrada y de Tula, se convirtieron en serpientes y la desgarraron: una mitad subió y se hizo cielo; la otra, tierra. Los demás dioses, para consolarla, dijeron que de su cuerpo saldría todo lo necesario: de su cabello, los árboles y las flores; de su piel, la hierba; de sus ojos, los manantiales y las cuevas; de su boca, los ríos y las montañas. /  / El mito tiene un final inquietante. Dicen que la Tierra lloraba de noche, pidiendo corazones, y que no daría frutos si no se le daba sangre. De ahí nace el trato: la tierra da el maíz; la gente responde con ofrendas. Es el mismo trato que ya viste en [la Coatlicue](mna_s06_coatlicue) y que verás en la [Piedra del Sol](mna_s06_piedra_sol). Todo en la Sala Mexica gira en torno a una misma idea: nada se recibe sin devolver. /  / Observa su postura. Está en cuclillas, con las rodillas levantadas y los brazos flexionados: la postura del parto, que para los mexicas era también la del combate, porque una mujer que daba a luz libraba una batalla. Las manos y los pies terminan en garras, y en las articulaciones hay ojos y bocas. La cabeza mira hacia arriba, con la boca abierta y la lengua afuera, lista para recibir al Sol cuando se ponga. /  / Por eso casi no la ves de frente. Tlaltecuhtli se esculpía en la cara que tocaba el suelo, en la base de monolitos como la Coatlicue y la [cabeza de Coyolxauhqui](mna_s06_coyolxauhqui), para que estuviera en contacto con la tierra que representaba. Es más, el famoso [Teocalli](mna_s06_teocalli_guerra_sagrada) que sigue tiene en su parte posterior a Tlaltecuhtli, y del cuerpo de ella brota el nopal. Aquí, en cambio, se la talló entera, de pie sobre sus propios pies, y por eso es tan rara. /  / Su descubrimiento tiene una anécdota muy mexicana. La encontraron durante las obras de la Línea 1 del Metro, a finales de los años sesenta, cerca de la estación Pino Suárez. Era una época en que la ciudad se excavaba por debajo, y la arqueología trabajaba al ritmo de la maquinaria. En esa misma estación apareció otro hallazgo célebre, un pequeño templo circular dedicado al dios del viento, Ehécatl, que hoy se puede ver dentro del Metro. Dos dioses de la naturaleza, uno del viento y otro de la tierra, escondidos bajo una ciudad moderna. /  / El apodo, «Coatlicue del Metro», es un buen ejemplo de cómo se aprende. Quienes la vieron por primera vez la relacionaron con la Coatlicue por el collar de manos y corazones y el cráneo. Después se comprobó que no era ella, sino la Tierra misma. Las dos se parecen porque son dos caras de la misma idea: la tierra que da y que reclama. /  / No es la única Tlaltecuhtli que ha aparecido en el centro de la ciudad. En 2006, junto al Templo Mayor, los arqueólogos hallaron otra, gigantesca, en un monolito de varias toneladas, todavía con huellas de pintura roja. Cuanto más se excava el Zócalo, más aparece esta diosa. Quizá sea porque la ciudad entera está sobre su cuerpo. /  / Y eso es lo más impresionante: esta figura, que parece un monstruo, es en realidad el suelo que pisamos, la raíz de todo lo que come México.
 
-**EN:** This is no ordinary costume. It is a sculpture that shows a ritual. /  / This hand-modeled clay statue represents a standing priest. It is large in size, and it is attributed to the Teotihuacán culture, from the Late Classic or the Epiclassic period. /  / The priest wears the skin of a person sacrificed in honor of Xipe Tótec, whose name means Our Lord the Flayed One. The skin has a rough, porous surface. It is tied at the back and has seams at the wrists. /  / Look at the mouth of the costume. It is open, and the priest’s face emerges from there. He also wears a short skirt and a headdress. /  / Dressing in the skin of captives was a ritual act. It is interpreted that it symbolized the earth shedding its skin, the renewal of vegetation in spring, and the rebirth of agricultural life. /  / Thus, a powerful image spoke of a natural cycle: the earth renewing itself.
-
-### retos_observacion
-
-**ES:** Busca el rostro del sacerdote dentro de la boca abierta del traje. / Encuentra las costuras de las muñecas y las ataduras de la espalda. / Fíjate en la textura rugosa de la piel.
-
-**EN:** Find the priest’s face inside the open mouth of the costume. / Find the seams at the wrists and the ties on the back. / Notice the rough texture of the skin.
-
-### especificaciones
-
-**ES:** Cultura: Teotihuacana / Periodo: Clásico Tardío a Epiclásico / Material: Arcilla modelada a mano, con acabado rugoso / Procedencia: Teotihuacán, Estado de México
-
-**EN:** Culture: Teotihuacán / Period: Late Classic to Epiclassic / Material: Hand-modeled clay, with a rough finish / Origin: Teotihuacán, State of Mexico
-
-### faq_mito
-
-**ES:** pregunta: Mito: El sacerdote de esta estatua está enfermo o herido de la piel. / respuesta: Realidad: No. Lleva puesta la piel de una víctima sacrificada, como parte de los ritos de Xipe Tótec, ligados a la renovación de la tierra.
-
-**EN:** pregunta: Myth: The priest in this statue is sick or has an injured skin. / respuesta: Reality: No. He is wearing the skin of a sacrificed victim, as part of the rites of Xipe Tótec, linked to the renewal of the earth.
-
-## Pieza: mna_s08_estela_teayo
-
-### titulo
-
-**ES:** Estela de Quetzalcóatl de Castillo de Teayo
-
-**EN:** Stela of Quetzalcóatl from Castillo de Teayo
-
-### frase_gancho
-
-**ES:** El dios del viento, con las plumas del tocado agitadas como por una ráfaga.
-
-**EN:** The wind god, the feathers of his headdress stirred as if by a gust.
-
-### puente_narrativo
-
-**ES:** Dejamos el juego de pelota y subimos por la costa hacia el norte de Veracruz, donde también llegó el imperio mexica.
-
-**EN:** We left the ball game behind and went up the coast to northern Veracruz, where the Mexica empire also reached.
-
-### guion_corto
-
-**ES:** Ehécatl significa viento, y en esta estela el viento parece mover hasta las plumas. Muestra a Ehécatl-Quetzalcóatl, el dios del viento, de pie, con un tocado alto en forma de cono. En el pecho lleva un adorno de caracol marino, sobre la boca una máscara y en la cintura una falda de tela. Procede de Castillo de Teayo, cerca de Tuxpan, en el norte de Veracruz, y es del Posclásico Tardío. Se considera una obra huasteca con influencia mexica. Por eso ayuda a entender hasta dónde llegó el imperio mexica en la costa del Golfo. Se piensa que, en esa zona, los mexicas establecieron una colonia estratégica.
-
-**EN:** Ehécatl means wind, and in this stela the wind seems to move even the feathers. It shows Ehécatl-Quetzalcóatl, the wind god, standing, with a tall cone-shaped headdress. On his chest he wears a seashell ornament, over his mouth a mask, and at his waist a cloth skirt. It comes from Castillo de Teayo, near Tuxpan, in northern Veracruz, and dates to the Late Postclassic. It is considered a Huastec work with Mexica influence. That is why it helps us understand how far the Mexica empire reached along the Gulf Coast. It is thought that, in this area, the Mexica established a strategic colony.
-
-> Aviso: el glosario pide "Huasteca" para "Huasteca" y no aparece
-
-### guion_largo
-
-**ES:** Un dios del viento en piedra tiene que parecer que se mueve. Esta estela lo logra. /  / Es la Estela de Quetzalcóatl de Castillo de Teayo, un sitio cercano a Tuxpan, en el norte de Veracruz. Está tallada en piedra, en un relieve alto, y es del Posclásico Tardío. /  / El dios aparece de pie. Es Ehécatl-Quetzalcóatl, la forma de Quetzalcóatl como dios del viento. Lleva un tocado alto en forma de cono, que se llama copilli. En el pecho tiene un adorno de caracol marino, llamado ehecacózcatl. Cubre su boca con una máscara y viste una falda de tela. /  / Las plumas del tocado y los adornos se ven en una composición dinámica, como si el viento los soplara. /  / Los especialistas la consideran una obra con rasgos huastecos y mexicas. A finales del Posclásico, el imperio mexica llegó hasta esta parte de la costa norte de Veracruz. Se piensa que allí se estableció una colonia estratégica. /  / Por eso esta pieza cuenta algo más que una historia de dioses. Puede leerse como una muestra de cómo el poder de Tenochtitlan se extendía lejos de la ciudad y se mezclaba con los estilos locales.
-
-**EN:** A wind god in stone has to look as if he is moving. This stela achieves it. /  / It is the Stela of Quetzalcóatl from Castillo de Teayo, a site near Tuxpan, in northern Veracruz. It is carved in stone, in high relief, and dates to the Late Postclassic. /  / The god appears standing. He is Ehécatl-Quetzalcóatl, the form of Quetzalcóatl as the wind god. He wears a tall cone-shaped headdress, called a copilli. On his chest he has a seashell ornament, called an ehecacózcatl. He covers his mouth with a mask and wears a cloth skirt. /  / The feathers of the headdress and the ornaments appear in a dynamic composition, as if the wind were blowing them. /  / Specialists consider it a work with Huastec and Mexica features. At the end of the Postclassic, the Mexica empire reached this part of the northern coast of Veracruz. It is thought that a strategic colony was established there. /  / That is why this piece tells more than a story of gods. It can be read as a sign of how the power of Tenochtitlan stretched far from the city and blended with local styles.
+**EN:** In the beginning, the Mexica say, there was water, and on the water floated a monster, Tlaltecuhtli, with mouths at her joints. Quetzalcóatl and Tezcatlipoca, the two gods you already know from the entrance and from Tula, turned into serpents and tore her apart: one half rose and became the sky; the other, the earth. The other gods, to console her, said that everything necessary would come from her body: from her hair, the trees and flowers; from her skin, the grass; from her eyes, the springs and caves; from her mouth, the rivers and mountains. /  / The myth has a disturbing ending. They say the Earth wept at night, asking for hearts, and that she would bear no fruit unless she was given blood. From this the pact is born: the earth gives maize; the people respond with offerings. It is the same pact you already saw in [the Coatlicue](mna_s06_coatlicue) and that you will see in the [Sun Stone](mna_s06_piedra_sol). Everything in the Mexica Hall revolves around a single idea: nothing is received without giving something back. /  / Observe her posture. She is squatting, with her knees raised and her arms bent: the posture of childbirth, which for the Mexica was also the posture of combat, because a woman giving birth was fighting a battle. Her hands and feet end in claws, and at her joints there are eyes and mouths. Her head looks upward, with her mouth open and her tongue out, ready to receive the Sun when it sets. /  / That is why you almost never see her from the front. Tlaltecuhtli was sculpted on the side that touched the ground, at the base of monoliths such as the Coatlicue and the [head of Coyolxauhqui](mna_s06_coyolxauhqui), so that she would be in contact with the earth she represented. What's more, the famous [Teocalli](mna_s06_teocalli_guerra_sagrada) that comes next has Tlaltecuhtli on its back, and from her body springs the prickly pear cactus. Here, in contrast, she was carved whole, standing on her own feet, and that is why she is so rare. /  / Her discovery has a very Mexican anecdote. She was found during the construction of Line 1 of the Metro, in the late 1960s, near Pino Suárez station. It was a time when the city was being excavated from below, and archaeology worked at the pace of the machinery. At that same station another famous find appeared, a small circular temple dedicated to the wind god, Ehécatl, which can still be seen today inside the Metro. Two gods of nature, one of wind and one of earth, hidden beneath a modern city. /  / The nickname, “Coatlicue of the Metro,” is a good example of how we learn. Those who saw her for the first time linked her to the Coatlicue because of the necklace of hands and hearts and the skull. Later it was confirmed that she was not the Coatlicue, but the Earth herself. The two resemble each other because they are two faces of the same idea: the earth that gives and that claims. /  / She is not the only Tlaltecuhtli to have appeared in the center of the city. In 2006, next to the Templo Mayor, archaeologists found another, gigantic, on a monolith weighing several tons, still bearing traces of red paint. The more the Zócalo is excavated, the more this goddess appears. Perhaps it is because the entire city sits on her body. /  / And that is the most impressive thing: this figure, which looks like a monster, is in fact the ground we walk on, the root of everything that Mexico eats.
 
 ### retos_observacion
 
-**ES:** Busca el tocado alto en forma de cono. / Encuentra el adorno de caracol marino en el pecho. / Fíjate en las plumas: parecen movidas por el viento.
+**ES:** Observa la postura: rodillas levantadas, como en un parto / Busca el collar de manos y corazones y el cráneo que cuelga / Fíjate en las garras y en el rostro mirando hacia arriba
 
-**EN:** Look for the tall cone-shaped headdress. / Find the seashell ornament on the chest. / Look closely at the feathers: they seem stirred by the wind.
+**EN:** Observe the posture: knees raised, as in childbirth / Look for the necklace of hands and hearts and the skull that hangs from it / Notice the claws and the face looking upward
 
 ### especificaciones
 
-**ES:** Cultura: Huasteca, con influencia mexica / Periodo: Posclásico Tardío / Material: Piedra tallada en alto relieve / Procedencia: Castillo de Teayo, cerca de Tuxpan, Veracruz
+**ES:** Cultura: Mexica / Periodo: Posclásico Tardío (1325-1521 d.C.) / Material: Andesita tallada en bulto redondo con restos de pigmento rojo / Procedencia: Centro Histórico, Ciudad de México (hallada en septiembre de 1967 durante las obras del Metro en Pino Suárez / Izazaga) / Medidas: 120 cm de alto x 85 cm de ancho x 80 cm de espesor
 
-**EN:** Culture: Huasteca, with Mexica influence / Period: Late Postclassic / Material: Stone carved in high relief / Origin: Castillo de Teayo, near Tuxpan, Veracruz
+**EN:** Culture: Mexica / Period: Late Postclassic (1325-1521 AD) / Material: Andesite carved in the round with traces of red pigment / Origin: Historic Center, Mexico City (found in September 1967 during Metro construction at Pino Suárez / Izazaga) / Dimensions: 120 cm high x 85 cm wide x 80 cm thick
 
 ### faq_mito
 
-**ES:** pregunta: Mito: Quetzalcóatl siempre se representa como una serpiente con plumas. / respuesta: Realidad: También se le representaba como Ehécatl, el dios del viento, con forma humana, tocado alto y máscara sobre la boca, como en esta estela.
+**ES:** pregunta: Mito: Esta escultura es Coatlicue, la madre de Huitzilopochtli. / respuesta: Realidad: Es Tlaltecuhtli, la Tierra como monstruo devorador. Se le dijo «Coatlicue del Metro» por el parecido del collar, pero no es la misma diosa.
 
-**EN:** pregunta: Myth: Quetzalcóatl is always depicted as a feathered serpent. / respuesta: Reality: He was also depicted as Ehécatl, the wind god, in human form, with a tall headdress and a mask over his mouth, as in this stela.
-
-## Sala: sala-00-exteriores
-
-### nombre_oficial
-
-**ES:** Arquitectura y Patio Central
-
-**EN:** Architecture and Central Courtyard
-
-### frase_gancho
-
-**ES:** Un techo sobre una sola columna, una cascada y un dios de piedra: la visita empieza afuera.
-
-**EN:** A roof on a single column, a waterfall and a stone god: the visit begins outside.
-
-### introduccion_narrativa
-
-**ES:** El museo se inauguró el 17 de septiembre de 1964, en el Bosque de Chapultepec. Su arquitecto fue Pedro Ramírez Vázquez. La visita empieza antes de entrar a las salas. Afuera te esperan una escultura de Tláloc, una fachada con celosía de aluminio, el Paraguas con su cascada y un estanque con plantas acuáticas. En el vestíbulo está el mural de Rufino Tamayo. Todo anuncia lo que viene: materiales modernos al servicio de ideas muy antiguas. Tómate un momento para mirar la luz entre la celosía y escuchar el agua.
-
-**EN:** The museum opened on September 17, 1964, in Chapultepec Forest. Its architect was Pedro Ramírez Vázquez. The visit begins before you enter the halls. Outside, you will find a sculpture of Tláloc, a facade with an aluminum lattice, the Umbrella with its waterfall, and a pond with aquatic plants. In the lobby is the mural by Rufino Tamayo. Everything announces what is to come: modern materials in the service of very ancient ideas. Take a moment to look at the light through the lattice and listen to the water.
-
-## Sala: sala-01-introduccion-antropologia
-
-### nombre_oficial
-
-**ES:** Introducción a la Antropología
-
-**EN:** Introduction to Anthropology
-
-### frase_gancho
-
-**ES:** Antes de conocer a los pueblos de México, la sala pregunta qué compartimos todos los humanos.
-
-**EN:** Before meeting the peoples of Mexico, the hall asks what all humans share.
-
-### introduccion_narrativa
-
-**ES:** Esta sala parte de una idea sencilla: todos los seres humanos compartimos un mismo origen. Desde ahí explica cómo cambiaron nuestros cuerpos, cómo aprendimos a fabricar herramientas y cómo surgieron las lenguas y las culturas. Se apoya en cuatro ramas de estudio: la antropología física, la arqueología, la lingüística y la etnología. Aquí conocerás a Lucy, una hembra de una de las especies más antiguas de la línea humana. También verás la recreación de un entierro de hace decenas de miles de años. Y un muro de cráneos que habla de nuestras diferencias y de lo que tenemos en común. Después seguirán los primeros pobladores de América.
-
-**EN:** This hall begins with a simple idea: all human beings share a common origin. From there, it explains how our bodies changed, how we learned to make tools, and how languages and cultures emerged. It draws on four branches of study: physical anthropology, archaeology, linguistics, and ethnology. Here you will meet Lucy, a female of one of the oldest species in the human lineage. You will also see the re-creation of a burial from tens of thousands of years ago. And a wall of skulls that speaks of our differences and of what we have in common. After that come the first inhabitants of the Americas.
-
-## Sala: sala-02-poblamiento-de-america
-
-### nombre_oficial
-
-**ES:** Poblamiento de América
-
-**EN:** Peopling of the Americas
-
-### frase_gancho
-
-**ES:** Cazadores que siguieron a los mamuts hasta un continente nuevo.
-
-**EN:** Hunters who followed the mammoths into a new continent.
-
-### introduccion_narrativa
-
-**ES:** Esta sala cuenta cómo llegaron los primeros grupos humanos a América. Eran bandas de cazadores y recolectores que se movían siguiendo a los grandes animales. Durante las glaciaciones el nivel del mar bajó, y apareció un puente de tierra entre Siberia y Alaska. Aquí verás un mamut cazado en Santa Isabel Iztapan, un hueso trabajado por manos humanas y puntas de proyectil hechas para la caza mayor. Más adelante la historia da un giro: aquellos pueblos aprendieron a cultivar plantas, y con ellas llegaron las primeras aldeas.
-
-**EN:** This hall tells how the first human groups reached the Americas. They were bands of hunters and gatherers who moved along with the great animals they followed. During the Ice Ages the sea level dropped, and a land bridge appeared between Siberia and Alaska. Here you will see a mammoth hunted at Santa Isabel Iztapan, a bone worked by human hands, and projectile points made for big-game hunting. Further on, the story takes a turn: those peoples learned to cultivate plants, and with them came the first villages.
-
-## Sala: sala-03-preclasico-altiplano-central
-
-### nombre_oficial
-
-**ES:** Preclásico en el Altiplano Central
-
-**EN:** Preclassic in the Central Highlands
-
-### frase_gancho
-
-**ES:** Aldeas junto a los lagos, mujeres de barro y un volcán que lo cubrió todo.
-
-**EN:** Villages beside the lakes, women made of clay, and a volcano that buried everything.
-
-### introduccion_narrativa
-
-**ES:** Aquí empieza la vida en aldeas del centro de México. Las primeras comunidades se asentaron junto a los lagos de la Cuenca, sembraron maíz, frijol y calabaza, y modelaron cerámica. En Tlatilco aparecen las figurillas de mujeres de caderas anchas, los acróbatas y las máscaras con dos rostros. Hablan de fertilidad y de dualidad. Más tarde surge Cuicuilco, con su basamento circular y una de las imágenes más antiguas del dios viejo del fuego. Su historia termina cuando el volcán Xitle lo cubre de lava, y la población se desplaza hacia Teotihuacán.
-
-**EN:** Here begins village life in central Mexico. The first communities settled beside the lakes of the Basin, planted corn, beans, and squash, and shaped pottery. At Tlatilco appear the figurines of wide-hipped women, the acrobats, and the masks with two faces. They speak of fertility and duality. Later comes Cuicuilco, with its circular base and one of the oldest images of the Old God of Fire. Its story ends when the Xitle volcano covers it in lava, and the population moves toward Teotihuacán.
-
-## Sala: sala-04-teotihuacan
-
-### nombre_oficial
-
-**ES:** Teotihuacán
-
-**EN:** Teotihuacán
-
-### frase_gancho
-
-**ES:** La ciudad donde, según los mexicas, los hombres se convierten en dioses.
-
-**EN:** The city where, according to the Mexica, men become gods.
-
-### introduccion_narrativa
-
-**ES:** Teotihuacán fue la gran metrópoli del Clásico en el Altiplano Central. Su nombre viene del náhuatl, y se suele traducir como el lugar donde los hombres se convierten en dioses. Se lo dieron los mexicas, siglos después de que la ciudad quedara abandonada. Estaba trazada sobre dos grandes ejes, y la Calzada de los Muertos era el principal. Aquí vivían artesanos, comerciantes y gente llegada de otras regiones. En esta sala verás a la diosa del agua, un disco con un cráneo, braseros y máscaras de piedra. Hay también murales y la fachada del templo de la Serpiente Emplumada. Sus ideas siguieron vivas mucho después de su caída.
-
-**EN:** Teotihuacán was the great metropolis of the Classic period in the Central Highlands. Its name comes from Nahuatl, and it is usually translated as the place where men become gods. It was given by the Mexica, centuries after the city had been abandoned. It was laid out along two great axes, and the Avenue of the Dead was the main one. Artisans, merchants, and people who had come from other regions lived here. In this hall you will see the water goddess, a disk with a skull, braziers, and stone masks. There are also murals and the facade of the temple of the Feathered Serpent. Its ideas remained alive long after its fall.
-
-## Sala: sala-05-los-toltecas-y-su-epoca
-
-### nombre_oficial
-
-**ES:** Los Toltecas y su época
-
-**EN:** The Toltecs and Their Era
-
-> Aviso: el glosario pide "Toltec" para "Tolteca / Toltecas" y no aparece
-
-### frase_gancho
-
-**ES:** Guerreros de piedra y artesanos que los mexicas recordaron como los grandes maestros.
-
-**EN:** Warriors of stone and artisans whom the Mexica remembered as the great masters.
-
-### introduccion_narrativa
-
-**ES:** Tras la caída de Teotihuacán, el centro de México se reorganizó con ciudades de carácter guerrero. De ese mundo sale Tula, la capital tolteca. En náhuatl, tolteca quiere decir artesano o sabio, y los mexicas recordaron a los toltecas como los maestros de todas las artes. Aquí verás a los atlantes, guerreros de piedra que sostenían el techo de un templo. También hay un Chac Mool, un muro de serpientes y piezas hechas con concha, turquesa y cerámica fina. El estilo tolteca llegó hasta Yucatán, y los mexicas lo tomaron como modelo de prestigio.
-
-**EN:** After the fall of Teotihuacán, central Mexico reorganized itself around cities with a warlike character. Out of that world rose Tula, the Toltec capital. In Nahuatl, Toltec means artisan or wise person, and the Mexica remembered the Toltecs as the masters of all the arts. Here you will see the Atlantean figures, warriors of stone that held up the roof of a temple. There is also a Chac Mool, a wall of serpents, and pieces made with shell, turquoise, and fine ceramic. The Toltec style reached as far as Yucatán, and the Mexica took it as a model of prestige.
-
-## Sala: sala-06-mexica
-
-### nombre_oficial
-
-**ES:** Mexica
-
-**EN:** Mexica
-
-### frase_gancho
-
-**ES:** La sala donde el Sol, la guerra y la tierra cobran forma en piedra.
-
-**EN:** The hall where the Sun, war, and earth take shape in stone.
-
-### introduccion_narrativa
-
-**ES:** Esta es una de las salas más grandes del museo, en el centro de la planta baja. Aquí se cuenta la historia de los mexicas, que fundaron México-Tenochtitlan en un islote del lago de Texcoco. Con el tiempo formaron una alianza con Texcoco y Tlacopan, y las tres ciudades cobraron tributo desde el Golfo de México hasta el Pacífico. Para los mexicas, el Sol necesitaba sangre y corazones para seguir su camino. Esa creencia ordenaba la guerra, el sacrificio y el arte. Aquí están la Piedra del Sol, la Coatlicue, la cabeza de Coyolxauhqui y el Teocalli de la Guerra Sagrada. También verás una maqueta del mercado de Tlatelolco. Cada una dice algo distinto sobre cómo entendían el mundo.
-
-**EN:** This is one of the largest halls in the museum, in the center of the ground floor. Here you will find the story of the Mexica, who founded México-Tenochtitlan on an islet in Lake Texcoco. In time they formed an alliance with Texcoco and Tlacopan, and the three cities collected tribute from the Gulf of Mexico to the Pacific. For the Mexica, the Sun needed blood and hearts to continue on its path. That belief shaped war, sacrifice, and art. Here are the Sun Stone, the Coatlicue, the head of Coyolxauhqui, and the Teocalli of the Sacred War. You will also see a scale model of the Tlatelolco market. Each one says something different about how they understood the world.
-
-## Sala: sala-07-oaxaca
-
-### nombre_oficial
-
-**ES:** Oaxaca
-
-**EN:** Oaxaca
-
-### frase_gancho
-
-**ES:** Pueblo de las nubes y pueblo de la lluvia: dos mundos que dejaron tumbas, oro y piedra labrada.
-
-**EN:** People of the clouds and people of the rain: two worlds that left behind tombs, gold, and carved stone.
-
-### introduccion_narrativa
-
-**ES:** Oaxaca guarda la historia de dos pueblos. Los zapotecos, que se llamaban a sí mismos pueblo de las nubes, construyeron Monte Albán sobre la cima nivelada de un conjunto de cerros. Los mixtecos, pueblo de la lluvia, fueron grandes orfebres. En esta sala verás urnas funerarias, una tumba recreada, los relieves de los Danzantes y los objetos que Alfonso Caso encontró en la Tumba 7. Hay también un tablero con grecas escalonadas, el estilo que se volvió símbolo de Mitla.
-
-**EN:** Oaxaca holds the history of two peoples. The Zapotecs, who called themselves the people of the clouds, built Monte Albán on the leveled summit of a group of hills. The Mixtecs, the people of the rain, were great goldsmiths. In this hall you will see funerary urns, a re-created tomb, the reliefs of the Danzantes, and the objects that Alfonso Caso found in Tomb 7. There is also a panel with stepped fret patterns, the style that became a symbol of Mitla.
-
-## Sala: sala-08-costa-del-golfo
-
-### nombre_oficial
-
-**ES:** Culturas de la Costa del Golfo
-
-**EN:** Cultures of the Gulf Coast
-
-### frase_gancho
-
-**ES:** Selvas, cabezas colosales y caritas sonrientes: tres culturas del Golfo en una sola sala.
-
-**EN:** Jungles, colossal heads, and smiling little faces: three Gulf cultures in a single hall.
-
-### introduccion_narrativa
-
-**ES:** Esta sala reúne tres tradiciones de la costa del Golfo de México. Primero están los olmecas, que vivieron entre selvas y ríos del sur de Veracruz y Tabasco. Esculpieron cabezas colosales en basalto y trabajaron el jade con gran destreza. Después viene el centro de Veracruz, con las caritas sonrientes de barro y los objetos del juego de pelota, como yugos, palmas y hachas. Y está la cultura huasteca, con el Adolescente de Tamuín y una estela de Quetzalcóatl de Castillo de Teayo. Tres maneras distintas de vivir cerca del mar y de los ríos.
-
-**EN:** This hall brings together three traditions of the coast of the Gulf of Mexico. First come the Olmec, who lived among the jungles and rivers of southern Veracruz and Tabasco. They sculpted colossal heads in basalt and worked jade with great skill. Next comes central Veracruz, with its smiling clay faces and the objects of the ballgame, such as yokes, palmas, and hachas. And there is the Huastec culture, with the Adolescent of Tamuín and a stela of Quetzalcóatl from Castillo de Teayo. Three different ways of living near the sea and the rivers.
-
-> Aviso: el glosario pide "Gulf Coast" para "Costa del Golfo" y no aparece
-
-> Aviso: el glosario pide "Huasteca" para "Huasteca" y no aparece
-
-## Sala: sala-09-maya
-
-### nombre_oficial
-
-**ES:** Maya
-
-**EN:** Maya
-
-### frase_gancho
-
-**ES:** Ciudades de reyes y escribas que midieron el tiempo con jeroglíficos.
-
-**EN:** Cities of kings and scribes who measured time with hieroglyphs.
-
-### introduccion_narrativa
-
-**ES:** Los mayas nunca formaron un solo imperio. Eran ciudades independientes, cada una con su gobernante, que se aliaban, comerciaban y también se hacían la guerra. Escribieron su historia con jeroglíficos y calcularon los ciclos del Sol, la Luna y Venus. En esta sala están la máscara y la cabeza de Pakal, la recreación de su cripta y el tablero de la Cruz de Palenque. También el dintel de Yaxchilán, la estela de Calakmul y las figurillas de Jaina. Hay también piezas de Chichén Itzá, donde la tradición maya se mezcló con influencias del centro de México.
-
-**EN:** The Maya never formed a single empire. They were independent cities, each with its own ruler, that formed alliances, traded, and also waged war on one another. They wrote their history in hieroglyphs and calculated the cycles of the Sun, the Moon, and Venus. In this hall you will find the mask and the head of Pakal, the re-creation of his crypt, and the panel of the Cross of Palenque. You will also see the lintel from Yaxchilán, the stela from Calakmul, and the figurines from Jaina. There are also pieces from Chichén Itzá, where the Maya tradition blended with influences from central Mexico.
-
-## Sala: sala-10-occidente
-
-### nombre_oficial
-
-**ES:** Culturas del Occidente
-
-**EN:** Cultures of Western Mexico
-
-### frase_gancho
-
-**ES:** Tumbas con pozo vertical, perros de barro y cobre martillado: el Occidente tuvo su propio camino.
-
-**EN:** Tombs with vertical shafts, clay dogs, and hammered copper: the West had its own path.
-
-### introduccion_narrativa
-
-**ES:** El Occidente de México no tuvo una sola capital. Fue un mosaico de pueblos, cada uno con sus formas de vivir y de enterrar a sus muertos. Las más famosas son las tumbas de tiro: un pozo vertical que lleva a una cámara subterránea, llena de figuras de barro. Aquí verás los perros de Colima, guerreros con armadura de cestería y una pareja de Ixtlán del Río. También hay vasijas de la tradición Capacha, una de las cerámicas más antiguas de México. Están además los purépechas, que trabajaron el cobre y construyeron yácatas en Tzintzuntzan.
-
-**EN:** Western Mexico had no single capital. It was a mosaic of peoples, each with its own ways of living and of burying its dead. The most famous are the shaft tombs: a vertical shaft leading to an underground chamber filled with clay figures. Here you will see the dogs of Colima, warriors in wicker armor, and a couple from Ixtlán del Río. There are also vessels from the Capacha tradition, one of the oldest ceramic traditions in Mexico. You will also find the Purépecha, who worked copper and built yácatas at Tzintzuntzan.
-
-## Sala: sala-11-norte
-
-### nombre_oficial
-
-**ES:** Culturas del Norte
-
-**EN:** Cultures of Northern Mexico
-
-### frase_gancho
-
-**ES:** Un norte seco que conservó textiles, vasijas pintadas y la memoria de pueblos del desierto.
-
-**EN:** A dry north that preserved textiles, painted vessels, and the memory of desert peoples.
-
-### introduccion_narrativa
-
-**ES:** El norte de México es una tierra seca y de grandes distancias. Allí vivieron bandas de cazadores y recolectores que recorrían el desierto, y también pueblos agricultores que construyeron ciudades. La sequedad del clima conservó objetos que casi siempre desaparecen, como las fibras y los textiles de la Cueva de la Candelaria, en Coahuila. En Chihuahua floreció Paquimé, famosa por su cerámica pintada y por la cría de guacamayas. En Alta Vista, en Zacatecas, se hicieron vasos decorados con pastas de colores vivos sobre figuras talladas.
-
-**EN:** Northern Mexico is a dry land of great distances. Bands of hunter-gatherers once roamed the desert there, alongside farming peoples who built cities. The dryness of the climate preserved objects that almost always vanish, such as the fibers and textiles of the Candelaria Cave, in Coahuila. In Chihuahua, Paquimé flourished, famous for its painted ceramics and for the raising of macaws. In Alta Vista, in Zacatecas, people made vessels decorated with brightly colored pastes over carved figures.
-
-## Sala: sala-12-pueblos-indios
-
-### nombre_oficial
-
-**ES:** Pueblos Indios
-
-**EN:** Indigenous Peoples
-
-### frase_gancho
-
-**ES:** Mosaico vivo de lenguas, cosmovisiones y tradiciones que laten con fuerza en el México contemporáneo.
-
-**EN:** A living mosaic of languages, worldviews, and traditions that beat strongly in contemporary Mexico.
-
-### introduccion_narrativa
-
-**ES:** Bienvenido a la puerta de entrada del piso etnográfico, un portal dedicado a la diversidad vibrante de las comunidades originarias que habitan nuestro país. Esta galería introductoria ofrece una visión de conjunto sobre la pluralidad lingüística, los patrones de asentamiento y la herencia cultural compartida por más de sesenta pueblos indígenas. A través de mapas, fotografías, indumentaria y objetos cotidianos, el visitante comprenderá cómo la memoria ancestral se entrelaza dinámicamente con la modernidad. Aquí se celebra la resistencia, el trabajo comunitario y las expresiones festivas que afirman la identidad identitaria y la riqueza humana del México de hoy.
-
-**EN:** Welcome to the gateway to the ethnographic floor, a portal devoted to the vibrant diversity of the native communities that inhabit our country. This introductory gallery offers an overview of the linguistic plurality, the settlement patterns, and the cultural heritage shared by more than sixty Indigenous Peoples. Through maps, photographs, clothing, and everyday objects, visitors will understand how ancestral memory is dynamically interwoven with modernity. Here we celebrate resilience, communal work, and the festive expressions that affirm the sense of identity and the human richness of Mexico today.
-
-## Sala: sala-13-gran-nayar
-
-### nombre_oficial
-
-**ES:** Gran Nayar
-
-**EN:** Gran Nayar
-
-### frase_gancho
-
-**ES:** Sierras sagradas donde los cantos rituales y el peyote tejen el orden del universo.
-
-**EN:** Sacred mountain ranges where ritual chants and peyote weave the order of the universe.
-
-### introduccion_narrativa
-
-**ES:** Adéntrese en la geografía mística de la Sierra Madre Occidental, morada ancestral de los pueblos cora, huichol, tepehuan y náhuatl. Esta galería sumerge al espectador en una cosmovisión profundamente ligada a la naturaleza, donde las peregrinaciones rituales al desierto de Wirikuta y los centros ceremoniales mantienen el equilibrio cósmico. Al recorrer sus exhibiciones, admirará las minuciosas creaciones en chaquira, las jícaras sagradas y los finos textiles elaborados en telar de cintura. La narrativa pone de relieve la vigencia del mitote y las fiestas del ciclo agrícola, mostrando cómo la devoción estética y espiritual sostiene la vida comunitaria.
-
-**EN:** Step into the mystical geography of the Sierra Madre Occidental, ancestral home of the Cora, Wixárika (Huichol), Tepehuan, and Nahuatl peoples. This gallery immerses visitors in a worldview deeply bound to nature, where ritual pilgrimages to the desert of Wirikuta and the ceremonial centers sustain the cosmic balance. As you walk through the exhibits, you will admire the meticulous beadwork creations, the sacred gourd bowls, and the fine textiles made on the backstrap loom. The narrative highlights the continued vitality of the mitote and the festivals of the agricultural cycle, showing how aesthetic and spiritual devotion sustains community life.
-
-## Sala: sala-14-purecherio
-
-### nombre_oficial
-
-**ES:** Purépecha
-
-**EN:** Purépecha
-
-### frase_gancho
-
-**ES:** Manos artesanas que moldean el barro, el cobre y la madera junto al lago sagrado.
-
-**EN:** Artisan hands that shape clay, copper, and wood beside the sacred lake.
-
-### introduccion_narrativa
-
-**ES:** Ingrese al territorio purépecha, una región definida por sus valles boscosos, mesetas volcánicas y las aguas serenas del lago de Pátzcuaro. Esta sala rinde homenaje a la maestría técnica y la organización comunitaria que caracterizan la vida cotidiana de los habitantes de Michoacán. A través del espacio, el visitante descubrirá recreaciones de las tradicionales trojes de madera, junto con muestras de alfarería vidriada, cobre martillado y textiles de lana. La exhibición destaca la fuerza de los cargueros en las fiestas patronales, el culto a los difuntos y la transmisión intergeneracional de oficios tradicionales que reafirman la identidad.
-
-**EN:** Step into Purépecha territory, a region defined by its forested valleys, volcanic plateaus, and the serene waters of Lake Pátzcuaro. This hall pays tribute to the technical mastery and community organization that characterize the daily life of the people of Michoacán. As you move through the space, you will discover re-creations of the traditional wooden granaries, along with examples of glazed pottery, hammered copper, and wool textiles. The exhibition highlights the dedication of the festival sponsors at patron saint celebrations, the cult of the dead, and the passing down across generations of traditional crafts that reaffirm identity.
-
-## Sala: sala-15-otopames
-
-### nombre_oficial
-
-**ES:** Otopames
-
-**EN:** Otopame Peoples
-
-### frase_gancho
-
-**ES:** Herederos del maguey y la fibra viva que sostienen la fe en la meseta.
-
-**EN:** Heirs of the maguey and the living fiber that sustain faith on the plateau.
-
-### introduccion_narrativa
-
-**ES:** Esta galería está dedicada a la gran familia lingüística otopame, integrada por otomíes, mazahuas, matlatzincas, tlahuicas, pames y chichimecas jonaces. Repartidos en los valles y serranías del Altiplano Central, estos pueblos han demostrado una extraordinaria adaptabilidad frente a entornos semiáridos y transformaciones históricas. El recorrido expone el aprovechamiento integral del maguey para obtener pulque y fibras de ixtle, el tejido en telar de cintura con intrincados diseños geométricos y las tallas con incrustaciones de concha. Asimismo, se visibiliza la devoción expresada en los oratorios familiares y el fervor comunitario de sus ceremonias patronales y del ciclo agrícola.
-
-**EN:** This gallery is dedicated to the great Otopame language family, made up of the Otomí, Mazahua, Matlatzinca, Tlahuica, Pame, and Chichimec Jonaz peoples. Spread across the valleys and mountain ranges of the Central Highlands, these peoples have shown extraordinary adaptability in the face of semiarid environments and historical change. The tour presents the full use of the maguey to obtain pulque and ixtle fibers, backstrap loom weaving with intricate geometric designs, and carvings inlaid with shell. It also brings to light the devotion expressed in family oratories and the communal fervor of their patron saint ceremonies and the agricultural cycle.
-
-## Sala: sala-16-sierra-de-puebla
-
-### nombre_oficial
-
-**ES:** Sierra de Puebla
-
-**EN:** Sierra de Puebla
-
-### frase_gancho
-
-**ES:** Danzas aladas entre la niebla montañosa que celebran la armonía con la tierra.
-
-**EN:** Winged dances amid the mountain mist that celebrate harmony with the earth.
-
-### introduccion_narrativa
-
-**ES:** Ubicada en la cabecera del piso superior, esta sala explora el dinámico microcosmos de la Sierra Norte de Puebla, donde conviven náhuas, totonacos, otomíes y tepehuas. A pesar de sus diferencias lingüísticas, estas comunidades comparten un territorio escarpado y una profunda devoción articulada en torno al cultivo del maíz y del café. El visitante podrá admirar la belleza ritual de vestidos tradicionales como el quechquémitl, la elaboración del papel amate ceremonial y el espectáculo simbólico de danzas ancestrales como los Voladores y Quetzales. La exhibición revela cómo el respeto a las fuerzas de la naturaleza sostiene la armonía.
-
-**EN:** Located at the head of the upper floor, this hall explores the dynamic microcosm of the Sierra Norte de Puebla, where the Nahua, Totonac, Otomi, and Tepehua live side by side. Despite their linguistic differences, these communities share a rugged territory and a deep devotion centered on the cultivation of corn and coffee. Visitors can admire the ritual beauty of traditional garments such as the quechquémitl, the making of ceremonial Amate Paper, and the symbolic spectacle of ancestral dances such as the Voladores (Flyers) and the Quetzales. The exhibition reveals how respect for the forces of nature sustains harmony.
-
-## Sala: sala-17-oaxaca
-
-### nombre_oficial
-
-**ES:** Oaxaca
-
-**EN:** Oaxaca
-
-### frase_gancho
-
-**ES:** Mosaico plurietnico donde el tequio, la fiesta y el color honran la vida.
-
-**EN:** A multiethnic mosaic where communal work, festivity and color honor life.
-
-### introduccion_narrativa
-
-**ES:** Adéntrese en la colosal riqueza etnográfica del estado de Oaxaca, territorio donde conviven más de dieciséis grupos étnicos como zapotecos, mixtecos, mixes, chinantecos y mazatecos. Esta amplia galería pone de manifiesto la vitalidad de la organización comunitaria mediante el tequio y los sistemas de cargos tradicionales. A través del recorrido, el espectador apreciará la extraordinaria variedad de huipiles bordados, la cerámica de barro negro de Coyotepec y la vestimenta ritual de las mayordomías. La narrativa enfatiza cómo la reciprocidad social, la devoción a las montañas y arroyos sagrados y la celebración festiva fortalecen la continuidad cultural.
-
-**EN:** Step into the colossal ethnographic richness of the state of Oaxaca, a land where more than sixteen ethnic groups live side by side, including the Zapotec, Mixtec, Mixe, Chinantec and Mazatec. This extensive gallery reveals the vitality of community organization through communal work and traditional systems of service posts. Along the way, visitors will appreciate the extraordinary variety of embroidered traditional blouses, the black clay pottery of Coyotepec and the ritual attire of the religious stewardships. The narrative emphasizes how social reciprocity, devotion to sacred mountains and streams, and festive celebration strengthen cultural continuity.
-
-## Sala: sala-18-huastecos-y-totonacos
-
-### nombre_oficial
-
-**ES:** Huastecos y Totonacos
-
-**EN:** Huastecs and Totonacs
-
-### frase_gancho
-
-**ES:** Aromas de vainilla y sones huastecos que alegran las llanuras del Golfo.
-
-**EN:** Aromas of vanilla and Huastec folk tunes that brighten the plains of the Gulf.
-
-### introduccion_narrativa
-
-**ES:** Esta sala celebra la herencia viva de las culturas costeras del Golfo de México, representadas por los pueblos huasteco y totonaco. Ubicados entre ríos acaudalados, cultivos de vainilla y cálidas llanuras, estos grupos conservan un valioso legado artesanal y espiritual. La exhibición presenta delicadas piezas de alfarería femenina, indumentaria de encaje e impecables bordados, además de máscaras talladas empleadas en las danzas tradicionales de diablos y tejoneros. La atmósfera envolvente permite comprender cómo la música de quinta huapanguera, el verso improvisado y las ceremonias agrícolas de petición de lluvia continúan nutriendo la vida cotidiana.
-
-**EN:** This hall celebrates the living heritage of the coastal cultures of the Gulf of Mexico, represented by the Huastec and Totonac peoples. Set among abundant rivers, vanilla plantations, and warm plains, these groups preserve a valuable artisanal and spiritual legacy. The exhibition presents delicate pieces of women’s pottery, lace clothing, and impeccable embroidery, as well as carved masks used in the traditional dances of the Diablos and the badger dancers. The immersive atmosphere helps visitors understand how huapango guitar music, improvised verse, and agricultural ceremonies to ask for rain continue to nourish daily life.
-
-## Sala: sala-19-pueblos-mayas
-
-### nombre_oficial
-
-**ES:** Pueblos Mayas
-
-**EN:** Maya Peoples
-
-### frase_gancho
-
-**ES:** Hijos de la milpa y la selva que preservan el tiempo y los saberes.
-
-**EN:** Children of the milpa and the jungle who preserve time and ancestral knowledge.
-
-### introduccion_narrativa
-
-**ES:** Ingrese al universo diverso de los contemporáneos pueblos mayas, cuyos dominios abarcan desde la península de Yucatán hasta las tierras altas de Chiapas. Esta galería muestra cómo los tzotziles, tzeltales, tojolabales, chontales y mayas peninsulares sostienen una viva continuidad cosmogónica. El visitante contemplará réplicas de la arquitectura habitacional de bajareque y guano, la riqueza textil de huipiles brocados y vestimentas de lana para el frío de la montaña. La exhibición enfatiza la devoción a la milpa sagrada, las plegarias del ritual Cha-Chaac para atraer la lluvia y la resistencia lingüística y cultural de este pueblo.
-
-**EN:** Step into the diverse universe of the contemporary Maya peoples, whose lands stretch from the Yucatán Peninsula to the highlands of Chiapas. This gallery shows how the Tzotzil, Tzeltal, Tojolabal, Chontal, and peninsular Maya sustain a living cosmological continuity. Visitors will see replicas of traditional housing architecture built of bajareque and palm thatch, the textile richness of brocaded huipiles, and woolen garments made for the cold of the mountains. The exhibition emphasizes devotion to the sacred milpa, the prayers of the Cha-Chaac ritual to bring rain, and the linguistic and cultural resistance of this people.
-
-## Sala: sala-20-noroeste
-
-### nombre_oficial
-
-**ES:** Noroeste
-
-**EN:** Northwest
-
-### frase_gancho
-
-**ES:** Voces del desierto, sierra y costa que afirman su libertad frente al horizonte.
-
-**EN:** Voices of the desert, mountains, and coast that affirm their freedom before the horizon.
-
-### introduccion_narrativa
-
-**ES:** Esta galería traslada al visitante a los vastos paisajes del noroeste mexicano, hogar de comunidades memorables como tarahumaras, yaquis, mayos, seris, puras y pápagos. A lo largo del recorrido, se documenta la profunda conexión entre el entorno geográfico y las formas de vida adaptadas a las cañadas montañosas, las planicies desérticas y el litoral marino. Se exhiben elaboradas cesterías de torote, figuras en madera de palo fierro, indumentaria ceremonial y la impactante imaginería de la Danza del Venado. La narrativa destaca la autonomía política, la fortaleza espiritual y las complejas festividades de Semana Santa que protegen su identidad.
-
-**EN:** This gallery transports visitors to the vast landscapes of the Mexican northwest, home to remarkable communities such as the Tarahumara, Yaqui, Mayo, Seri, Pura, and Pápago peoples. Along the way, it documents the deep connection between the geographic environment and ways of life adapted to mountain canyons, desert plains, and the sea coast. On display are elaborate torote baskets, ironwood carvings, ceremonial clothing, and the striking imagery of the Deer Dance. The narrative highlights their political autonomy, their spiritual strength, and the complex Holy Week festivities that protect their identity.
-
-## Sala: sala-21-nahuas
-
-### nombre_oficial
-
-**ES:** Nahuas
-
-**EN:** Nahua Peoples
-
-### frase_gancho
-
-**ES:** La palabra sagrada que florece en fiestas, campos de maíz y rituales compartidos.
-
-**EN:** The sacred word that blossoms in festivals, cornfields, and shared rituals.
-
-### introduccion_narrativa
-
-**ES:** Concluya la travesía etnográfica explorando la sala dedicada al pueblo nahua, el grupo indígena demográficamente más numeroso y extendido de México. Herederos directos de la lengua uto-azteca y de la matriz cultural mesoamericana, los nahuas habitan diversos estados de la República. Esta galería exhibe la riqueza del calendario festivo, donde destacan las peticiones de lluvia en los cerros sagrados, las danzas de moros y cristianos y las coloridas celebraciones de Xantolo para los difuntos. El espacio destaca cómo la indumentaria, la música tradicional y la oralidad en náhuatl continúan siendo el pilar fundamental que preserva la cohesión comunitaria.
-
-**EN:** Conclude your ethnographic journey by exploring the hall dedicated to the Nahua people, the most numerous and widespread Indigenous group in Mexico. Direct heirs of the Uto-Aztecan language and of the Mesoamerican cultural matrix, the Nahua live in many states of the Mexican Republic. This gallery showcases the richness of the festive calendar, where requests for rain on sacred hills, the dances of the Moors and Christians, and the colorful Xantolo celebrations for the dead stand out. The space highlights how clothing, traditional music, and oral tradition in Nahuatl continue to be the fundamental pillar that preserves community cohesion.
+**EN:** pregunta: Myth: This sculpture is Coatlicue, the mother of Huitzilopochtli. / respuesta: Reality: It is Tlaltecuhtli, the Earth as a devouring monster. It was called “Coatlicue of the Metro” because of the resemblance of the necklace, but she is not the same goddess.
