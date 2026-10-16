@@ -1,0 +1,54 @@
+{
+  "id": "mna_s19_gaban_chamula",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9356512f2e48245a",
+      "texto": "Chuj / Tradycyjna wełniana opończa z San Juan Chamula"
+    },
+    "frase_gancho": {
+      "hash": "8fda965be39f51c4",
+      "texto": "Czarna wełna, gruba jak filc, by ogrzać się we mgle Wyżyn Chiapas."
+    },
+    "puente_narrativo": {
+      "hash": "c20cc94703ec4fac",
+      "texto": "Od wełny z Wyżyn przechodzimy do malarstwa. Poszukaj niewielkiego, fantastycznego w nastroju muralu podpisanego przez Leonorę Carrington, malarkę, która podróżowała po tych samych Wyżynach Chiapas."
+    },
+    "guion_corto": {
+      "hash": "841a4b4bcbc682db",
+      "texto": "Ta opończa z czarnej wełny, która w języku tzotzil nazywa się chuj, to strój mężczyzn z San Juan Chamula, miejscowości na Wyżynach Chiapas, położonej na wysokości ponad dwóch tysięcy metrów. To krótka tunika bez rękawów, z otworem na głowę i dwoma bocznymi na ręce. Kobiety strzygą owce, myją wełnę, przędą ją na wrzecionie i tkają na krośnie biodrowym. Powstaje tkanina tak gruba i gęsta, że chroni przed chłodem i deszczem w górach. Zwróć uwagę na luźne nitki, które zwisają na dole i kołyszą się podczas chodzenia. Dla mieszkańców Chamula ten strój to dużo więcej niż okrycie: mówi, kim jesteś i do jakiej wspólnoty należysz."
+    },
+    "guion_largo": {
+      "hash": "bfa68398608a8b76",
+      "texto": "Po obejrzeniu na dole [Pakala](mna_s09_mascara_pakal), Chaaca i [Królowej z Uxmal](mna_s09_reina_uxmal) mogło ci zostać w głowie przekonanie, że Majowie to tajemnica przeszłości. Ta sala mówi coś przeciwnego. Według spisów powszechnych ponad dwa miliony osób mówi dziś w Meksyku jakimś językiem Majów, a nasza wędrówka po nich zaczyna się w górach, od języka tzotzil z Wyżyn Chiapas.\n\nSan Juan Chamula to miejscowość znana z siły swoich zwyczajów. W jej kościele nie ma ławek: podłogę pokrywają igły sosnowe, rodziny zapalają setki świec, a modli się w języku tzotzil. Patronem jest święty Jan Chrzciciel, którego przedstawia się z barankiem, i mówi się, że stąd bierze się szacunek dla owiec, hodowanych po to, by je strzyc, a nie jeść. Dzięki temu każda opończa jest wykonana z wełny zwierzęcia otoczonego szacunkiem.\n\nJest jeden fakt, który zaskakuje: przed przybyciem Hiszpanów w Ameryce nie było owiec. Majowie tkali z bawełny, która nie rośnie w chłodnych krainach, a wełna przybyła z Europejczykami w szesnastym wieku. Tzotzilowie ją przyjęli i uczynili tak bardzo swoją, że dziś wydaje się częścią krajobrazu. Nie zmieniło się za to krosno biodrowe, to samo, które pojawia się na niektórych dawnych wizerunkach bogini Ixchel, o której mówimy w sali Ludów tubylczych.\n\nKiedy tkanina schodzi z krosna, jest luźna i lekka. Wtedy gotuje się ją i bije, aby włókna splątały się ze sobą, a wełna zamieniła się w filc. Ten proces nazywa się folowaniem i to on nadaje opończy grubość. Poza tym wełna ma zaletę, której nie ma bawełna: grzeje nawet wtedy, gdy zmoknie, a to bardzo cenne w górach, gdzie zimowe poranki potrafią mrozić.\n\nKażdą wspólnotę tzotzil rozpoznaje się po ubiorze, a w obrębie wspólnoty ubiór mówi, kim jesteś. W wielu miejscowościach na Wyżynach służba wspólnocie jest urzędem, który się przekazuje kolejno, prawie zawsze na rok i bez wynagrodzenia, a kto go sprawuje, nosi własne insygnia, takie jak wstążki, laski albo pewien rodzaj opończy. Mówi się, że najgęstsze i najciemniejsze przysługują tradycyjnym władzom, takim jak majordomowie. Gdy widać ich przechodzących, wszyscy wiedzą, kto ponosi odpowiedzialność.\n\nZwróć też uwagę na to, czego brakuje: nie ma barwników. Kolory wełny, czarny, biały lub ciemnobrązowy, to te, które ma sama owca. Ubiór ma więc kolory rzeczy z gór: cieni lasu, niskich chmur, mokrej ziemi.\n\nW tej samej sali jest inne spojrzenie na Chiapas: wielki mural „Magiczny świat Majów”, autorstwa surrealistki [Leonory Carrington](mna_s19_mural_carrington), z początku lat sześćdziesiątych. Podróżowała ona po Chiapas i namalowała znachorów, zwierzęta i święte góry na podstawie opowieści z tego regionu. To nie fotografia, lecz sen, i warto przyjrzeć mu się w spokoju.\n\nJedna jedyna część ubioru kryje w sobie pracę kobiet, szacunek dla zwierzęcia, władzę wspólnoty i dumę z własnego języka. Kiedy pójdziesz dalej przez salę, sprawdź, ile razy powraca ta nić: tworzyć, pielęgnować i dzielić się."
+    },
+    "retos_observacion": {
+      "hash": "e08f76bcd6959581",
+      "texto": [
+        "Poszukaj luźnych nitek zwisających z dolnego brzegu",
+        "Zwróć uwagę na otwór na głowę i otwory na ręce",
+        "Wyobraź sobie ciężar tej wełny przemoczonej deszczem w górach"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c91e614de9d46d45",
+      "texto": {
+        "Lud": "Majowie Tzotzilowie",
+        "Region": "Wyżyny Chiapas (San Juan Chamula)",
+        "Technika/Materiał": "Czarna wełna owcza, ręcznie przędziona i tkana, kutasy z przędzy czesankowej",
+        "Funkcja": "Męski strój odświętny, wyraz hierarchii urzędów i okrycie na góry"
+      }
+    },
+    "faq_mito": {
+      "hash": "040f9491bc571896",
+      "texto": {
+        "pregunta": "Mit: Majowie zniknęli wiele wieków temu.",
+        "respuesta": "Rzeczywistość: Ponad dwa miliony osób mówi dziś w Meksyku jakimś językiem Majów, a ubierają się, tkają i świętują tak jak ich dziadkowie."
+      }
+    }
+  }
+}
