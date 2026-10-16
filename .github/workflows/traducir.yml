@@ -17,6 +17,11 @@ on:
         type: choice
         options: [en, fr, pl]
         default: en
+      sitio:
+        description: 'Qué se traduce: mna (el museo), teotihuacan o todo'
+        type: choice
+        options: [mna, teotihuacan, todo]
+        default: mna
       piezas:
         description: 'Solo estas piezas (ids separados por coma). Vacío = las que sigan pendientes'
         type: string
@@ -81,6 +86,7 @@ jobs:
         env:
           IDIOMA: ${{ inputs.idioma }}
           PIEZAS: ${{ inputs.piezas }}
+          SITIO: ${{ inputs.sitio }}
           LIMITE: ${{ inputs.limite }}
           MAX_USD: ${{ inputs.max_usd }}
           GENERAR: ${{ inputs.generar }}
@@ -89,6 +95,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           args=(--lang "$IDIOMA" --limite "${LIMITE:-5}" --max-usd "${MAX_USD:-2}")
+          args+=(--sitio "${SITIO:-mna}")
           if [ -n "$PIEZAS" ]; then args+=(--piezas "$PIEZAS"); fi
           if [ "$FORZAR" = "true" ]; then args+=(--forzar); fi
           if [ "$MODO" = "lote-enviar" ]; then args+=(--lote enviar); fi

@@ -12,6 +12,7 @@
 //   --lang en             idioma (en, fr)
 //   --solo piezas|salas|todo   (por defecto todo)
 //   --piezas id1,id2      solo esas piezas
+//   --sitio mna|teotihuacan|todo   qué sitio se traduce (por defecto mna)
 //   --limite N            traduce como máximo N piezas/salas en esta corrida (por defecto 5)
 //   --max-usd N           se detiene si el gasto de esta corrida llegaría a N dólares (por defecto 2)
 //   --forzar              vuelve a traducir aunque el texto en español no haya cambiado
@@ -57,7 +58,7 @@ export const DEFAULT_MODEL = 'claude-sonnet-5-5';
 const MAX_OUTPUT_TOKENS = 16000;
 
 export function parseArgs(argv) {
-  const out = { lang: 'en', solo: 'todo', piezas: null, limite: 5, maxUsd: 2, forzar: false, generar: false, proveedor: 'claude', modelo: null, lote: null, esperarMin: 0 };
+  const out = { lang: 'en', solo: 'todo', sitio: 'mna', piezas: null, limite: 5, maxUsd: 2, forzar: false, generar: false, proveedor: 'claude', modelo: null, lote: null, esperarMin: 0 };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     const next = () => {
@@ -66,6 +67,7 @@ export function parseArgs(argv) {
     };
     if (a === '--lang') out.lang = next().trim();
     else if (a === '--solo') out.solo = next();
+    else if (a === '--sitio') out.sitio = next();
     else if (a === '--piezas') out.piezas = next().split(',').map((s) => s.trim()).filter(Boolean);
     else if (a === '--limite') out.limite = parseInt(next(), 10);
     else if (a === '--max-usd') out.maxUsd = parseFloat(next());
@@ -78,6 +80,7 @@ export function parseArgs(argv) {
     else throw new Error(`Opción desconocida: ${a}`);
   }
   if (!LANG_NAMES[out.lang]) throw new Error(`Idioma no válido: ${out.lang}. Por ahora solo: ${Object.keys(LANG_NAMES).join(', ')}`);
+  if (!['mna', 'teotihuacan', 'todo'].includes(out.sitio)) throw new Error('--sitio debe ser mna, teotihuacan o todo');
   if (!['piezas', 'salas', 'todo'].includes(out.solo)) throw new Error('--solo debe ser piezas, salas o todo');
   if (!['claude', 'prueba'].includes(out.proveedor)) throw new Error('--proveedor debe ser claude o prueba');
   if (!Number.isFinite(out.limite) || out.limite < 1) throw new Error('--limite debe ser un número mayor que 0');
@@ -376,8 +379,13 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
   };
   const provider = makeProvider(args.proveedor, { env, fetchImpl, retryBaseMs });
 
-  const pieces = readFullPieces(root);
-  const rooms = readJson(path.join(root, 'public/data/rooms.json'));
+  // Las piezas de Teotihuacán empiezan con "teo_" y sus zonas viven en public/data/teotihuacan/rooms.json
+  const esTeo = (p) => String(p.piece_id).startsWith('teo_');
+  const pieces = readFullPieces(root).filter((p) => (args.sitio === 'todo' ? true : args.sitio === 'teotihuacan' ? esTeo(p) : !esTeo(p)));
+  const rooms = [
+    ...(args.sitio !== 'teotihuacan' ? readJson(path.join(root, 'public/data/rooms.json')) : []),
+    ...(args.sitio !== 'mna' && fs.existsSync(path.join(root, 'public/data/teotihuacan/rooms.json')) ? readJson(path.join(root, 'public/data/teotihuacan/rooms.json')) : []),
+  ];
   const glossary = loadGlossary(path.join(root, GLOSSARY_FILE), args.lang);
   if (!glossary.length) warn('⚠️  No encontré el glosario (glosario/glosario.csv): se traducirá sin lista de nombres propios.');
 

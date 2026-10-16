@@ -622,3 +622,11 @@ test('polaco: corrida de prueba guarda en traducciones/pl y el estimado es el mÃ
   const f = { guion_largo: 'x'.repeat(4000) };
   assert.ok(estimateUnit(f, [], 'pl').usd > estimateUnit(f, [], 'fr').usd);
 });
+
+test('--sitio: por defecto solo el museo; acepta teotihuacan y todo; rechaza otros valores', async () => {
+  const { parseArgs } = await import('../traducir.mjs');
+  assert.equal(parseArgs([]).sitio, 'mna');
+  assert.equal(parseArgs(['--sitio', 'teotihuacan']).sitio, 'teotihuacan');
+  assert.equal(parseArgs(['--sitio', 'todo']).sitio, 'todo');
+  assert.throws(() => parseArgs(['--sitio', 'otro']), /--sitio/);
+});
