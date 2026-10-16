@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_templo_bonampak",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "75c499a708488961",
+      "texto": "Réplique du temple des Peintures de Bonampak"
+    },
+    "frase_gancho": {
+      "hash": "f6384b0de01ca966",
+      "texto": "Trois pièces peintes qui racontent une fête, une bataille et un triomphe."
+    },
+    "puente_narrativo": {
+      "hash": "d8a34d37e83e129e",
+      "texto": "Des peintures murales, nous passons à une façade de pierre. Cherchez une porte encadrée de grandes mosaïques, qui ressemble à la bouche ouverte d’un visage monstrueux."
+    },
+    "guion_corto": {
+      "hash": "7f2b39ee6018ae57",
+      "texto": "Ce temple est une réplique du temple des Peintures de Bonampak, dans la forêt tropicale du Chiapas. À l’intérieur se trouvent des copies des peintures murales que les Mayas y réalisèrent vers l’an sept cent quatre-vingt-dix. Il y a trois pièces, et l’on a interprété chacune comme le récit d’une partie d’une même histoire : une cérémonie avec des musiciens et des nobles, une bataille avec capture de prisonniers et, pour finir, la fête du triomphe, avec de la danse et des offrandes de sang. Remarquez les couleurs, surtout le bleu maya, si vif qu’il semble tout juste peint. Les copies que vous voyez sont l’œuvre de la peintre Rina Lazo. Les originaux se trouvent toujours dans la forêt, et c’est pourquoi cette réplique nous permet de les entrevoir."
+    },
+    "guion_largo": {
+      "hash": "0d24c1a7a7e7df73",
+      "texto": "Les Mayas peignaient presque tout, mais presque tout a disparu : l’humidité de la forêt a emporté les couleurs. Bonampak est la grande exception. Ses peintures murales se sont si bien conservées que, lorsqu’elles furent révélées en 1946, elles semblaient venir d’un autre monde : des scènes avec des dizaines de personnages, des costumes, des instruments et un bleu qui avait résisté plus de mille deux cents années. Le nom, Bonampak, veut dire à peu près « murs peints », et il a été donné par les gens d’aujourd’hui, non par les Mayas.\n\nCe que vous voyez ici est une reproduction. Les originaux se trouvent toujours dans la forêt du Chiapas, relativement près de Yaxchilán, la ville du [linteau](mna_s09_dintel26_yaxchilan) que vous avez vu tout à l’heure. Ils ne peuvent pas voyager, car ils sont peints sur les murs d’un édifice qu’on ne peut pas déplacer. C’est pourquoi le musée a élevé un temple et l’a rempli de copies, pour que vous ressentiez ce que c’est d’entrer dans ces pièces.\n\nChaque pièce est un chapitre. Dans la première, selon l’interprétation, on présente un enfant, l’héritier, à la cour ; il y a des musiciens avec des tambours, des hochets et des trompettes, et des nobles vêtus de peaux de jaguar. Dans la deuxième, il y a une bataille, avec des guerriers qui attaquent et des prisonniers capturés, certains avec les mains ensanglantées. Dans la troisième, on célèbre le triomphe, avec une danse de personnages aux énormes coiffes et une cérémonie où les nobles offrent leur propre sang.\n\nLes peintures murales comportent aussi des textes en hiéroglyphes, écrits à côté des figures, qui disent qui est qui et, parfois, quand chaque scène a eu lieu. C’est pourquoi on les a tant étudiées : ce n’est pas un conte imaginaire, mais un événement survenu dans un royaume qui a un nom propre. C’est, une fois encore, l’écriture maya au service de l’histoire, comme dans le Linteau vingt-six de Yaxchilán.\n\nLe bleu maya mérite un paragraphe à part. On le fabriquait avec de l’indigo, une plante, et avec un minéral argileux, et le mélange était chauffé. Le résultat est un pigment qui résiste au soleil, à l’humidité et même aux acides. Les scientifiques l’étudient aujourd’hui parce que, mille ans après, il est toujours bleu.\n\nLes copies sont l’œuvre d’une peintre, Rina Lazo, et c’est aussi une histoire. Lazo est née au Guatemala et s’est formée à Mexico auprès de Diego Rivera. On raconte qu’elle passa une longue période dans la forêt pour copier les peintures murales originales, et que ce travail l’a liée pour toujours à ce monde. Dans cette même salle se trouve d’ailleurs un tableau d’elle, « [Avec passion pour les Mayas](mna_s09_mural_rina_lazo) ».\n\nCes peintures ont changé l’image que l’on avait des Mayas. Pendant des décennies, beaucoup les ont imaginés comme un peuple pacifique d’astronomes et de prêtres. Bonampak a montré quelque chose de plus complet : la guerre, les prisonniers et les sacrifices, mais aussi la musique, la danse et la fête. C’étaient des personnes à part entière, qui priaient, se battaient, dansaient et célébraient.\n\nSouvenez-vous de la [tête en stuc de Pakal](mna_s09_cabeza_pakal) et de la [frise de Los Placeres](mna_s09_friso_placeres) : sous la poussière et les siècles, tout cela était peint en rouge, en bleu et en jaune. Bonampak est ce qui nous permet de voir de plus près cette couleur d’origine. Entrez sans hâte et parcourez les scènes comme si vous tourniez les pages d’un livre. Plus haut, chez les Lacandons, vous saurez comment elles sont venues pour la première fois à la lumière du monde."
+    },
+    "retos_observacion": {
+      "hash": "a509be4e32da0047",
+      "texto": [
+        "Cherchez le bleu maya dans les peintures",
+        "Remarquez les hiéroglyphes qui accompagnent les personnages",
+        "Observez les coiffes et les peaux de jaguar des personnages"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ba945b7ecbc4fc8",
+      "texto": {
+        "Culture": "Maya",
+        "Période": "Classique récent (peintures murales originales, vers 790 apr. J.-C.)",
+        "Matériau": "Réplique du temple avec des copies des peintures murales",
+        "Provenance": "Bonampak, Chiapas (l’original)"
+      }
+    },
+    "faq_mito": {
+      "hash": "37f55d311664383b",
+      "texto": {
+        "pregunta": "Mythe : Les Mayas étaient un peuple pacifique, d’astronomes et de prêtres.",
+        "respuesta": "Réalité : Les peintures murales de Bonampak montrent des batailles, des prisonniers et des sacrifices, ainsi que de la musique et de la fête : une société complexe, avec la guerre et avec la célébration."
+      }
+    }
+  }
+}

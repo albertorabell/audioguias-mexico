@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_reproduccion_gran_mural",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0f68d17c40f5a56b",
+      "texto": "Reproduction de l’art rupestre du Grand Mural"
+    },
+    "frase_gancho": {
+      "hash": "05d786020a564c7e",
+      "texto": "Des figures peintes il y a des milliers d’années dans des canyons où presque personne ne parvient."
+    },
+    "puente_narrativo": {
+      "hash": "8f0f35272094ed11",
+      "texto": "Des parois peintes, nous passons à l’intérieur des grottes du désert. Cherchez une scène qui recrée les grottes sèches du nord, où l’air sec a conservé des paniers, des sandales et des ballots funéraires."
+    },
+    "guion_corto": {
+      "hash": "7b7f68960c105a21",
+      "texto": "Vous avez devant vous une reproduction des peintures rupestres de la sierra de San Francisco, en Basse-Californie du Sud. Là-bas, dans des canyons difficiles d’accès, il existe des centaines d’abris sous roche ornés de peintures, et l’UNESCO a déclaré cet ensemble patrimoine mondial en 1993. Le style s’appelle le Grand Mural : de grandes silhouettes de personnes et d’animaux, surtout des cerfs, peintes en rouge, noir, blanc et jaune. Certaines figures humaines dépassent les deux mètres, et beaucoup ont été peintes les unes sur les autres. Elles ont été réalisées par des groupes de chasseurs-cueilleurs, que l’on rattache aux ancêtres des Cochimíes. Pour voir les originaux, il faut un permis de l’INAH, un guide et, parfois, plusieurs jours de marche. Cette reproduction permet d’entrevoir ce monde sans quitter Mexico."
+    },
+    "guion_largo": {
+      "hash": "9331c7e41a5c68b0",
+      "texto": "Quelle est la taille d’un cerf peint il y a des milliers d’années ? Dans la sierra de San Francisco, entre deux et trois mètres de long. Les peintres de cette région ne faisaient pas de petites figures. Ils travaillaient sur les parois et les plafonds des abris sous roche, et certaines de leurs figures humaines dépassent les deux mètres de hauteur. On les appelle le Grand Mural.\n\nCette sierra se trouve au centre de la péninsule de Basse-Californie, dans la municipalité de Mulegé. Elle fait partie de la réserve de biosphère d’El Vizcaíno. Les canyons sont secs et profonds. Atteindre certains abris demande de une heure de marche à plusieurs jours, à pied ou à dos de mule. L’UNESCO explique que les peintures sont très bien conservées grâce au climat sec et à la difficulté d’accès. Aujourd’hui, on les visite sur réservation, avec un permis de l’INAH et un guide autorisé.\n\nRegardez comment elles sont faites. Les figures sont des silhouettes remplies de bandes, de rayures et d’autres motifs géométriques. Les personnes apparaissent généralement de face, les bras levés, tandis que les cerfs et les autres animaux sont représentés de profil. Parmi les animaux, on trouve des mouflons, des lapins, des oiseaux, des poissons et des tortues. Sur certains panneaux, des flèches ou des lances transpercent les corps des personnes et des animaux.\n\nLes couleurs sont venues de la terre. Le rouge et le jaune s’obtenaient à partir d’oxydes de fer, le blanc à partir de gypse, et le noir, selon les analyses, à partir de manganèse. Tout était broyé et mélangé avec de l’eau et avec un liant végétal qui fait encore l’objet d’études. Les spécialistes pensent que la peinture était appliquée avec des pinceaux faits de feuilles d’agave, et que, pour atteindre les plafonds, on montait des échafaudages de troncs.\n\nBeaucoup de figures sont superposées. Une nouvelle peinture était réalisée sur une plus ancienne, et dans la grotte Peinte, on a compté jusqu’à sept couches. On pense que repeindre n’était pas une négligence, mais faisait partie de rituels par lesquels on se souvenait des ancêtres et des personnages mythiques.\n\nQui les a peintes, et quand ? On les attribue aux ancêtres des Cochimíes, un peuple de chasseurs, de cueilleurs et de pêcheurs que les missionnaires jésuites ont rencontré au dix-huitième siècle. Selon les récits recueillis, les Cochimíes disaient ne pas savoir qui les avait réalisées et parlaient d’une race ancienne de géants. Les dates sont elles aussi discutées. L’UNESCO parle d’une période allant de l’an cent avant Jésus-Christ à l’an 1300 de notre ère. Des études plus récentes donnent des âges de plusieurs milliers d’années, jusqu’à environ sept mille cinq cents.\n\nLes missionnaires les ont décrites les premiers, mais le monde ne les a découvertes que bien plus tard. En 1962, l’auteur de romans policiers Erle Stanley Gardner a publié dans un magazine des photographies de plusieurs grottes, et l’archéologue Clement Meighan les a étudiées. Dans les années soixante-dix, le photographe Harry Crosby a parcouru la sierra à dos de mule, et on lui attribue le nom de Grand Mural. L’INAH y mène des recherches depuis 1981. Entre 1994 et 1996, avec l’Institut Getty de conservation, il a étudié la manière dont les peintures de la grotte de la Souris se détériorent.\n\nDans cette même salle, vous avez vu une dalle gravée par d’autres chasseurs du désert, et un ballot que la sécheresse a conservé. Ces peintures montrent une autre manière de laisser sa trace : non pas en frappant la pierre, mais en la couvrant de couleur. Une reproduction ne remplace pas l’original, mais elle a un avantage : ici, vous pouvez rester aussi longtemps que vous le souhaitez, sans chemin ni permis. Choisissez une figure et demandez-vous ce que celui qui l’a peinte a voulu dire."
+    },
+    "retos_observacion": {
+      "hash": "7c6b3f21caa03314",
+      "texto": [
+        "Cherchez les figures humaines et observez la position de leurs bras",
+        "Trouvez un animal, peut-être un cerf, et regardez s’il apparaît de face ou de profil",
+        "Regardez si certaines figures sont peintes par-dessus d’autres et comptez les couleurs"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f8e0e446a977c0f",
+      "texto": {
+        "Culture": "Tradition du Grand Mural (ancêtres des peuples cochimíes)",
+        "Période": "Entre le Ier siècle av. J.-C. et 1300 apr. J.-C. (avec des datations qui suggèrent des racines encore plus anciennes)",
+        "Matériau": "Reproduction muséographique à l’échelle d’un abri sous roche peint avec des oxydes minéraux",
+        "Provenance d’origine": "Sierra de San Francisco, Mulegé, Basse-Californie du Sud"
+      }
+    },
+    "faq_mito": {
+      "hash": "1b0539ca64a6d9a9",
+      "texto": {
+        "pregunta": "Mythe : Cette peinture est l’original, rapporté d’une grotte de Basse-Californie.",
+        "respuesta": "Réalité : Il s’agit d’une reproduction. Les originaux se trouvent toujours dans les abris sous roche de la sierra de San Francisco."
+      }
+    }
+  }
+}

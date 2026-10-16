@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_palacio_hochob",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f696ddc923bd2153",
+      "texto": "Réplique du Palais de Hochob"
+    },
+    "frase_gancho": {
+      "hash": "13ebf3d95ab98896",
+      "texto": "Une porte qui imite la gueule ouverte du monstre de la terre."
+    },
+    "puente_narrativo": {
+      "hash": "ced7ad0e799c63aa",
+      "texto": "De la façade de pierre, nous revenons aux petites figures de Jaina. Cherchez un vieillard d’argile entouré de pétales, comme s’il jaillissait d’une fleur ouverte."
+    },
+    "guion_corto": {
+      "hash": "ff9f39353b025000",
+      "texto": "Cette façade reproduit le Palais de Hochob, dans l’État de Campeche. Hochob appartient à la région des Chenes, nom qui, en maya, signifie « puits », car il n’y a presque pas de rivières et l’eau se conserve dans des puits et des citernes. La porte centrale est la gueule ouverte du monstre de la terre : pour entrer dans l’édifice, il fallait passer entre ses mâchoires. Le reste de la façade était recouvert d’une mosaïque de pierres taillées qui formaient des masques aux longs nez, comme ceux de Chaac, le dieu de la pluie. C’est un édifice de la période Classique récent, conçu pour impressionner. Au musée, vous le voyez de face, mais imaginez l’édifice entouré de forêt basse."
+    },
+    "guion_largo": {
+      "hash": "18a44e6817e80f02",
+      "texto": "Peu de façades exigent autant de courage pour être franchies : la porte de cet édifice est une gueule. Regardez les dents sculptées dans la pierre autour de l’ouverture, et au-dessus, le visage d’une créature monstrueuse. Les Mayas la concevaient comme le monstre de la terre, d’où naissent le maïs, l’eau et la vie, et qui était en même temps un seuil vers le monde souterrain. Entrer dans le palais, c’était littéralement entrer dans la terre.\n\nCette idée n’est pas propre aux Mayas. Les Mexicas représentaient la terre sous les traits de [Tlaltecuhtli](mna_s06_tlaltecuhtli), un monstre accroupi aux mâchoires ouvertes, que vous avez vu dans la Salle Mexica. Dans les deux mondes, la terre dévore les morts et donne aussi le maïs. On pense que traverser cette gueule était une manière de dire que l’édifice était un lieu situé entre le monde des vivants et celui des dieux.\n\nIl s’agit d’une reproduction de la Structure deux de Hochob. L’original se trouve à Campeche, dans la région des Chenes. Chen, en maya yucatèque, signifie « puits », et les Chenes sont « les puits » : une terre de forêt basse, sans rivières, où les gens dépendaient de puits et de citernes souterraines, appelées chultunes, pour conserver la pluie. Vous l’avez déjà vu avec le [Masque de Chaac](mna_s09_mascaron_chaac) : quand l’eau se fait rare, le dieu de la pluie recouvre les façades.\n\nRegardez la technique. La façade était recouverte d’une mosaïque : de nombreuses pierres taillées sur mesure, assemblées une à une pour former des visages, des serpents et des symboles. Les plus faciles à reconnaître sont les masques au nez long et enroulé, ceux du dieu Chaac, qui encadrent l’entrée. C’est la même esthétique que le masque de Kabah, mais ici ce n’est pas une pièce isolée : c’est un mur entier.\n\nLe style des Chenes a des voisins et des parents. Avec le style Río Bec, il partage l’idée de façades en forme de masques géants, et avec le style Puuc, d’Uxmal et de Kabah, le goût des mosaïques de pierre. C’est comme si toute une région s’était mise d’accord pour transformer ses édifices en visages.\n\nOn l’appelle palais, bien que, dans le monde maya, la frontière entre un palais et un temple ait été mince : le pouvoir et le sacré allaient de pair. Celui qui gouvernait parlait avec les dieux, et les façades le rappelaient à tous ceux qui s’approchaient.\n\nUn détail pour quand vous voyagerez : la plupart des gens pensent à Chichén Itzá ou à Palenque, mais Campeche abrite d’immenses cités que presque personne ne visite, comme Calakmul, d’où vient la [Stèle cinquante et un](mna_s09_estela51_calakmul). Cette façade est une invitation à partir à leur recherche.\n\nEt une astuce de musée : rappelez-vous que beaucoup de pièces de cette salle, comme les stèles, les linteaux et les masques, n’étaient pas isolées dans une vitrine. Elles faisaient partie d’édifices comme celui-ci, couverts de couleur. Remettez-les, par l’imagination, à leur place.\n\nRegardez une dernière fois les dents et le front du monstre, et remarquez à quel point, de loin, il ressemble à un visage. Franchissez le seuil du regard, mais respectez le monstre : ici, la terre vous laisse passer."
+    },
+    "retos_observacion": {
+      "hash": "a9f1e60866c72e2c",
+      "texto": [
+        "Cherchez la porte qui ressemble à une gueule et observez ses dents",
+        "Trouvez les masques au nez long qui encadrent l’entrée",
+        "Observez comment les petites pierres forment une mosaïque"
+      ]
+    },
+    "especificaciones": {
+      "hash": "66cbc0d19923c1f1",
+      "texto": {
+        "Culture": "Maya (style Chenes)",
+        "Période": "Classique récent",
+        "Matériau": "Réplique d’une façade de pierre",
+        "Provenance": "Hochob, Campeche (l’original)"
+      }
+    },
+    "faq_mito": {
+      "hash": "de7e37c7098d980e",
+      "texto": {
+        "pregunta": "Mythe : Les façades mayas étaient en pierre lisse et grise, sans ornements.",
+        "respuesta": "Réalité : De nombreux édifices mayas étaient recouverts de mosaïques de pierre formant des visages et des symboles, et ils étaient peints de couleurs."
+      }
+    }
+  }
+}

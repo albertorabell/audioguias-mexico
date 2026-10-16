@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_craneo_candelaria",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dd30a42ac1b7f28d",
+      "texto": "Crâne avec coiffe de la grotte de la Candelaria"
+    },
+    "frase_gancho": {
+      "hash": "aaa3d13c2c9e719f",
+      "texto": "Un crâne d’il y a mille ans qui conserve encore sa coiffe de cordons rouges."
+    },
+    "puente_narrativo": {
+      "hash": "d7288c7788d8e1f6",
+      "texto": "Des grottes du désert, nous passons à un peuple d’agriculteurs de la frontière. Cherchez un petit vase cylindrique, décoré de bandes aux couleurs vives : rouge, jaune et bleu turquoise."
+    },
+    "guion_corto": {
+      "hash": "a8c25e5161e10814",
+      "texto": "Ce crâne a appartenu à un homme adulte, âgé de trente-six à cinquante-cinq ans, qui a vécu vers l’an mille de notre ère. Il provient de la grotte de la Candelaria, dans le sud-ouest de Coahuila, le même site que le ballot funéraire. Il a une forme allongée, que les spécialistes appellent dolichocéphale. Il conserve encore sa coiffe, avec des cordons teints en rouge, qui ont pu signaler son rang ou son autorité. Entre les cheveux et les fibres sont apparus des restes de mouches et leurs œufs, signe que le corps a été exposé lors d’une cérémonie avant l’enterrement. Et ses dents, usées par la consommation de graines dures, racontent que, enfant, il a souffert de la faim."
+    },
+    "guion_largo": {
+      "hash": "16b8e3073c6632a4",
+      "texto": "Parfois, un objet raconte son histoire par de tout petits détails, et ce crâne est de ceux-là. Les scientifiques qui l’ont étudié l’ont lu comme on lit un livre : l’âge, la nourriture, les rituels, jusqu’aux insectes qui ont visité le corps.\n\nCommençons par le lieu. La grotte de la Candelaria se trouve dans le sud-ouest de Coahuila, dans le désert, au sein d’une région connue sous le nom d’Aridoamérique. C’est une grotte de roche calcaire dans laquelle on entrait par un puits vertical d’environ neuf mètres de profondeur, qui menait à plusieurs chambres contenant des centaines d’objets. Elle était connue depuis 1838, mais la grande exploration a eu lieu en 1953 et 1954. On y a alors retrouvé les restes de cent dix-sept personnes, hommes, femmes et enfants, déposés avec ordre au fil des générations.\n\nVous avez déjà vu le ballot funéraire : l’une de ces personnes, partiellement momifiée par la sécheresse, repliée et enveloppée dans des couvertures tissées. Avec les restes sont apparus des colliers de coquillages et de graines, des ornements d’oreille, des textiles décorés, des pointes de projectile avec leur manche et même un sac en filet. Ce crâne provient du même cimetière.\n\nIl appartenait à un homme de trente-six à cinquante-cinq ans, qui a vécu vers l’an mille, selon la datation au radiocarbone. Cette technique mesure la quantité de carbone radioactif qui reste dans un os ou dans une fibre ; comme ce carbone se perd à un rythme connu, elle permet de calculer depuis combien de temps la personne est morte. Son crâne est long et étroit. Sur les cheveux se conservent encore des cordons teints en rouge, qui formaient sa coiffe. On a pensé que la couleur et l’arrangement signalaient sa position sociale, peut-être celle d’un chef ou d’un personnage respecté.\n\nVoici maintenant les détails de scientifique. Dans les cheveux et dans les fibres, on a trouvé des restes de mouches et leurs œufs. Cela veut dire que le corps n’a pas été enterré tout de suite : il est resté exposé, à l’air libre, pendant un rite funéraire, avant d’être enveloppé et porté dans la grotte. Un détail minuscule a révélé toute une cérémonie.\n\nLes dents en disent davantage. Certaines portent des marques d’hypoplasie de l’émail, des lignes qui se forment lorsqu’un enfant grandit avec la faim ou la maladie. Cela suggère que, petit, il a traversé des périodes de disette, peut-être saisonnières, comme c’est normal dans le désert. Et l’usure des molaires indique qu’il mangeait des aliments durs, comme des graines. C’est la vie d’un chasseur-cueilleur écrite dans sa bouche.\n\nLa grotte a été utilisée pendant des siècles, depuis l’an neuf cents jusqu’à environ l’an mille six cents, et son histoire n’est pas terminée. En 2025, l’INAH a récupéré les restes d’au moins dix-sept personnes dans une autre grotte de la même région de Coahuila, qui avait été pillée. C’est pourquoi on protège les grottes : lorsque quelqu’un emporte un os ou un tissu, on perd justement cette information si petite, et si grande.\n\nRegardez encore la coiffe. Celui qui l’a mise ce jour-là savait qu’elle resterait avec lui. Mille ans plus tard, elle est toujours là, et elle nous raconte encore comment a vécu quelqu’un qui n’a laissé aucune écriture."
+    },
+    "retos_observacion": {
+      "hash": "bb8ed52d7bbc4381",
+      "texto": [
+        "Cherchez les cordons teints en rouge de la coiffe",
+        "Remarquez la forme allongée du crâne",
+        "Observez les dents : quels signes d’usure voit-on ?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "abe52a6265106c73",
+      "texto": {
+        "Culture": "Chasseurs-cueilleurs du nord (Aridoamérique)",
+        "Période": "Vers l’an 1000 apr. J.-C. (la grotte a été occupée entre 900 et 1600 apr. J.-C.)",
+        "Matériau": "Restes osseux et fibres végétales teintes",
+        "Provenance": "Grotte de la Candelaria, sud-ouest de Coahuila"
+      }
+    },
+    "faq_mito": {
+      "hash": "c8aab6b0a619f595",
+      "texto": {
+        "pregunta": "Mythe : Ces grottes ne renfermaient que des ossements sans histoire.",
+        "respuesta": "Réalité : Les spécialistes y lisent l’âge, le régime alimentaire, les maladies et même les rites funéraires de chaque personne."
+      }
+    }
+  }
+}

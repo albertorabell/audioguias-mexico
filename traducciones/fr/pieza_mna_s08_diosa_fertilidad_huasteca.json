@@ -1,0 +1,58 @@
+{
+  "id": "mna_s08_diosa_fertilidad_huasteca",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Huasteca\" para \"Huasteca\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2e4aaa4267828414",
+      "texto": "Déesse de la fertilité huastèque"
+    },
+    "frase_gancho": {
+      "hash": "a607fcd8611ad52d",
+      "texto": "Une femme de pierre coiffée d’un éventail : une déesse ou une gouvernante ?"
+    },
+    "puente_narrativo": {
+      "hash": "fd7d94af9e6a2382",
+      "texto": "Des déesses de la terre, nous passons aux Mayas. Dans la Salle Maya, un roi qui a gouverné plus de soixante ans fut enterré avec un masque de jade sur le visage. Autour de lui apparaissent aussi des dieux de la mort."
+    },
+    "guion_corto": {
+      "hash": "2d2a3c6c17b7caaa",
+      "texto": "Une femme de pierre, debout, les mains posées sur le ventre et coiffée d’une grande parure en forme d’éventail. Telles sont plusieurs sculptures féminines de la Huasteca, la région du nord du golfe du Mexique. L’une d’elles, de Tepetzintla, dans le Veracruz, appartient à la collection du musée. Ces sculptures furent réalisées au Postclassique, dans les siècles précédant l’arrivée des Espagnols. On les appelle Déesse de la Fertilité. Beaucoup de spécialistes les ont rattachées à Tlazoltéotl, une déesse de la terre, de la fertilité et du pardon des fautes. Mais ce nom est une étiquette d’aujourd’hui. Certaines sculptures semblables pourraient représenter des femmes de haut rang, et l’identité exacte reste débattue."
+    },
+    "guion_largo": {
+      "hash": "052c3671a46e88b4",
+      "texto": "Comment savoir si une femme de pierre est une déesse ou une personne réelle ? Les spécialistes débattent de cette question depuis des années, et cette sculpture se trouve précisément au cœur du débat.\n\nRegardez-la de face. Elle est debout, le torse nu, vêtue d’une longue jupe, les mains posées sur le ventre. Sur la tête, elle porte une parure en forme d’éventail, et de celle-ci sort un oiseau qui entoure le visage. C’est ainsi que l’on décrit une sculpture de Tepetzintla, dans le nord du Veracruz, qui appartient à la collection du musée. Il en existe d’autres très semblables dans toute la Huasteca.\n\nDepuis longtemps, on identifie ces femmes à Tlazoltéotl. Son nom, en nahuatl, se traduit généralement par « déesse de la saleté », et on l’appelait aussi « mangeuse d’immondices ». Cette saleté, c’étaient les fautes : on croyait que la déesse les prenait pour purifier les gens. C’est pourquoi on l’associait à la confession et au pardon, mais aussi à la fertilité et au désir.\n\nOn pense que cette déesse est née dans la Huasteca et que les Mexicas l’ont adoptée. Les Huastèques ont apporté des dieux, des récits et des styles de sculpture que les Mexicas ont faits leurs. Voilà pourquoi, devant une femme huastèque de pierre, il est naturel de penser à elle. Vous avez déjà vu comment l’influence de Tenochtitlan est parvenue jusqu’à cette région avec la [stèle de Castillo de Teayo](mna_s08_estela_teayo).\n\nLe geste des mains fait lui aussi débat. Certains y voient un symbole de fertilité. D’autres le rattachent à la déesse qui avale les fautes d’autrui. C’est une posture typique d’elle, mais pas uniquement la sienne, et cela rend difficile toute certitude.\n\nEn janvier 2021, il y a eu une surprise. Dans un champ d’agrumes de Hidalgo Amajac, dans le Veracruz, est apparue une sculpture féminine en pierre calcaire. Elle mesure près de deux mètres de haut et fut réalisée entre 1450 et 1521. L’archéologue de l’INAH María Eugenia Maldonado Vite a expliqué que, d’après sa posture et son vêtement, elle représente probablement une gouvernante. Elle a rappelé que presque toutes les sculptures féminines huastèques avaient été interprétées comme des déesses, surtout comme Tlazoltéotl. Celle-ci présente en outre des traits nahuas : des yeux creux pour des incrustations, ainsi que des nœuds et des rubans sur la jupe.\n\nUne autre figure, de Tempoal, est conservée aujourd’hui au musée d’Anthropologie de Xalapa. Elle porte une parure en éventail ornée de plumes et de parures d’or, et des serpents près du visage. On a dit que les serpents entrelacés étaient liés au pouvoir de gouverner. Dans ces sculptures, les hommes et les femmes apparaissent presque en nombre égal. Cela suggère que les femmes de l’élite huastèque avaient une position proche de celle des hommes. En 2024, le Musée national d’art mexicain, à Chicago, a présenté, avec des pièces prêtées par l’INAH, une exposition qui, en français, pourrait s’intituler « Femmes huastèques anciennes : déesses, guerrières et gouvernantes ».\n\nC’est pourquoi il convient de dire « la prétendue Déesse de la Fertilité ». Le nom est commode et s’appuie sur une longue tradition, mais peut-être certaines de ces figures sont-elles des portraits de femmes de haut rang. Peut-être la réponse n’est-elle pas unique : une personne puissante pouvait se vêtir en déesse. Devant la sculpture, la question reste ouverte."
+    },
+    "retos_observacion": {
+      "hash": "8cc55a3ac430a91f",
+      "texto": [
+        "Cherchez la parure en forme d’éventail et l’oiseau qui entoure le visage",
+        "Observez les mains posées sur le ventre",
+        "Regardez comment elle est vêtue : que couvre le vêtement et que laisse-t-il à découvert ?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c95ffa11ce68d2f3",
+      "texto": {
+        "Culture": "Huasteca",
+        "Période": "Postclassique (900-1521 apr. J.-C.)",
+        "Matériau": "Grès calcaire sculpté",
+        "Provenance": "Tepetzintla / Région Huasteca, nord du Veracruz"
+      }
+    },
+    "faq_mito": {
+      "hash": "51ce0c2abffd7fe4",
+      "texto": {
+        "pregunta": "Mythe : Toute sculpture ancienne représentant une femme figure une déesse.",
+        "respuesta": "Réalité : Pendant longtemps, on a interprété ainsi les femmes huastèques de pierre, mais des découvertes récentes laissent penser que certaines représentent des gouvernantes ou des femmes de haut rang."
+      }
+    }
+  }
+}
