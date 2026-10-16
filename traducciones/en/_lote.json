@@ -1,0 +1,2560 @@
+{
+  "id": "msgbatch_01MZ4mq3oZB7XYhXjUVMfQnD",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "creado": "2026-10-16T18:47:06.312Z",
+  "estimado_usd": 3.313,
+  "unidades": [
+    {
+      "custom_id": "pieza_mna_s06_piedra_sol",
+      "tipo": "pieza",
+      "id": "mna_s06_piedra_sol",
+      "huellas": {
+        "puente_narrativo": "aeba3347b63c913c"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s06_teocalli_guerra_sagrada",
+      "tipo": "pieza",
+      "id": "mna_s06_teocalli_guerra_sagrada",
+      "huellas": {
+        "frase_gancho": "5e300bc9f716c978",
+        "puente_narrativo": "85713be3c527b43f",
+        "guion_corto": "21908d0e634867c1",
+        "guion_largo": "386dfa644cfa3a95",
+        "retos_observacion": "f96b9acc94c9d79e",
+        "faq_mito": "e48efe4c249c8e6b"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s06_ocelotl_cuauhxicalli",
+      "tipo": "pieza",
+      "id": "mna_s06_ocelotl_cuauhxicalli",
+      "huellas": {
+        "frase_gancho": "451e46c323223fd1",
+        "puente_narrativo": "1ce19e79c5c21b65",
+        "guion_corto": "31d6dd338fdfde91",
+        "guion_largo": "b3548bd605095df1",
+        "retos_observacion": "b1a41e90592584e8",
+        "faq_mito": "cabf0222bc991e46"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s06_mono_obsidiana",
+      "tipo": "pieza",
+      "id": "mna_s06_mono_obsidiana",
+      "huellas": {
+        "frase_gancho": "d16403a37c765fdf",
+        "puente_narrativo": "8f1cf3b22ba941f3",
+        "guion_corto": "4426c3d44029e353",
+        "guion_largo": "988d9c71ea655f41",
+        "retos_observacion": "3183bd5171745571",
+        "faq_mito": "22024437ac7e8973"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s06_guerrero_aguila",
+      "tipo": "pieza",
+      "id": "mna_s06_guerrero_aguila",
+      "huellas": {
+        "frase_gancho": "40bfa52de8ca63e9",
+        "puente_narrativo": "f1f857d742218b37",
+        "guion_corto": "9006f9eed5c4a3b1",
+        "guion_largo": "e0a30b0db1b0f14e",
+        "retos_observacion": "b6bd9a73fa69819e",
+        "faq_mito": "f72ff7bc19350706"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s06_xochipilli",
+      "tipo": "pieza",
+      "id": "mna_s06_xochipilli",
+      "huellas": {
+        "frase_gancho": "066876687134da8c",
+        "puente_narrativo": "e4da705a792a1c41",
+        "guion_corto": "b0632c6e64a97b98",
+        "guion_largo": "17a7dba012bb5b3b",
+        "retos_observacion": "cb4f781effabbb25",
+        "faq_mito": "f23936c18c94a3c2"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_mascara_pakal",
+      "tipo": "pieza",
+      "id": "mna_s09_mascara_pakal",
+      "huellas": {
+        "frase_gancho": "dcd7014cca809c97",
+        "puente_narrativo": "b56ddb831027a898",
+        "guion_corto": "4d5c8b5c64539294",
+        "guion_largo": "dec61b0a22f0a144",
+        "retos_observacion": "68ccf6c7f5527e0b",
+        "faq_mito": "872aaaa8685ca08b"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_cabeza_pakal",
+      "tipo": "pieza",
+      "id": "mna_s09_cabeza_pakal",
+      "huellas": {
+        "frase_gancho": "81e17739786c9ebf",
+        "puente_narrativo": "138cb59094e97945",
+        "guion_corto": "5c44931fd0ee19e9",
+        "guion_largo": "5a490b546f3214e6",
+        "retos_observacion": "c44c534e1226df81",
+        "faq_mito": "a05fac64a03d78b6"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_dintel26_yaxchilan",
+      "tipo": "pieza",
+      "id": "mna_s09_dintel26_yaxchilan",
+      "huellas": {
+        "frase_gancho": "1f663bf3dbc63fc8",
+        "puente_narrativo": "7a85207a60499299",
+        "guion_corto": "89029f9ec01c1498",
+        "guion_largo": "3fa2572b7e1163e4",
+        "retos_observacion": "848d96d4a7eef3e0",
+        "faq_mito": "399085c552a5ec98"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_chacmool_maya",
+      "tipo": "pieza",
+      "id": "mna_s09_chacmool_maya",
+      "huellas": {
+        "frase_gancho": "ecc995f3bb7d77d6",
+        "puente_narrativo": "ecc000e1c39e8ddf",
+        "guion_corto": "aba540b879cfafd8",
+        "guion_largo": "4cc90744153d484f",
+        "retos_observacion": "c16972348e907dee",
+        "faq_mito": "16a968d291d57d38"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_reina_uxmal",
+      "tipo": "pieza",
+      "id": "mna_s09_reina_uxmal",
+      "huellas": {
+        "frase_gancho": "c3cef2e86c824f37",
+        "puente_narrativo": "b5ad585261322676",
+        "guion_corto": "c3ba848ae64a8e76",
+        "guion_largo": "8be95e92026a8cc2",
+        "retos_observacion": "8ca0897a56a4fe0a",
+        "faq_mito": "051c6013c91771a4"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_friso_placeres",
+      "tipo": "pieza",
+      "id": "mna_s09_friso_placeres",
+      "huellas": {
+        "frase_gancho": "d9b488daa1d2e07d",
+        "puente_narrativo": "ce5879211a4cf12b",
+        "guion_corto": "614c81f01d2fa523",
+        "guion_largo": "11e07be04dc5a8f2",
+        "retos_observacion": "382a622ad55b486b",
+        "faq_mito": "8bfc63e7e933b99d"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_mascaron_chaac",
+      "tipo": "pieza",
+      "id": "mna_s09_mascaron_chaac",
+      "huellas": {
+        "frase_gancho": "bbc3ddcd0747db53",
+        "puente_narrativo": "929d06fc2e725acb",
+        "guion_corto": "34f9d9f33c5a9044",
+        "guion_largo": "5cc8a8a353d1a4f9",
+        "retos_observacion": "1faf5dffbde41e18",
+        "especificaciones": "bdb6944614b44224",
+        "faq_mito": "fa6a5c91bcf2738d"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_estela51_calakmul",
+      "tipo": "pieza",
+      "id": "mna_s09_estela51_calakmul",
+      "huellas": {
+        "frase_gancho": "3cc628905f90a1af",
+        "puente_narrativo": "5c188b599ffc1d89",
+        "guion_corto": "55280a9d0d14a745",
+        "guion_largo": "9e23ec37328c07ed",
+        "retos_observacion": "ec03d44a956ee100",
+        "faq_mito": "3ccb8369f11d6a72"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_disco_chinkultic",
+      "tipo": "pieza",
+      "id": "mna_s09_disco_chinkultic",
+      "huellas": {
+        "frase_gancho": "631f9bc60f63f64b",
+        "puente_narrativo": "8b82f6f3fa64dad2",
+        "guion_corto": "7f7dea46b3480df8",
+        "guion_largo": "d5ab082577ddc1e5",
+        "retos_observacion": "9ab6f9b05a61ff03",
+        "faq_mito": "9b079b6c03d4b5b8"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_halach_uinic_jaina",
+      "tipo": "pieza",
+      "id": "mna_s09_halach_uinic_jaina",
+      "huellas": {
+        "frase_gancho": "b26374853e1c6704",
+        "puente_narrativo": "4a1a8bd69072a7a5",
+        "guion_corto": "dfdbe6fe8099eaf9",
+        "guion_largo": "4b151a2b75b76b32",
+        "retos_observacion": "da693f7a37e9ac2a",
+        "faq_mito": "523fd7d9b62cacc8"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s04_chalchiuhtlicue",
+      "tipo": "pieza",
+      "id": "mna_s04_chalchiuhtlicue",
+      "huellas": {
+        "frase_gancho": "f09b21281edae4ea",
+        "puente_narrativo": "95ce33b601cfcc07",
+        "guion_corto": "3bfd6395289af09a",
+        "guion_largo": "2fe843d77935ded8",
+        "retos_observacion": "b3affb3aee986f7c",
+        "faq_mito": "297b0fe37850d009"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s04_templo_quetzalcoatl",
+      "tipo": "pieza",
+      "id": "mna_s04_templo_quetzalcoatl",
+      "huellas": {
+        "frase_gancho": "a28a39704b5a8099",
+        "puente_narrativo": "5bbd9aa767b877ab",
+        "guion_corto": "9423c4797d9819d9",
+        "guion_largo": "c34e10dd545debd8",
+        "retos_observacion": "60523f3ce158d9e7",
+        "faq_mito": "a4d8bc14cd9c6d96"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s04_disco_muerte",
+      "tipo": "pieza",
+      "id": "mna_s04_disco_muerte",
+      "huellas": {
+        "frase_gancho": "f102be8246fea795",
+        "puente_narrativo": "f98a4dc292ac6e70",
+        "guion_corto": "6eabcf27ad3a7583",
+        "guion_largo": "0efb5b4f84bd1019",
+        "retos_observacion": "bdd0b60100cc4dda",
+        "faq_mito": "97dae4e57fcbae5b"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s04_huehueteotl",
+      "tipo": "pieza",
+      "id": "mna_s04_huehueteotl",
+      "huellas": {
+        "frase_gancho": "b29bd3e8100f8123",
+        "puente_narrativo": "def8c88b3828d4ab",
+        "guion_corto": "cc1d3aaf168c31e0",
+        "guion_largo": "09f6d409a4b3aa5a",
+        "retos_observacion": "e3810ec7f979bed2",
+        "especificaciones": "71e6a4007f34faed",
+        "faq_mito": "b39f897e43329e44"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s04_marcador_ventilla",
+      "tipo": "pieza",
+      "id": "mna_s04_marcador_ventilla",
+      "huellas": {
+        "frase_gancho": "e894181dac624a22",
+        "puente_narrativo": "049084981d94f2b0",
+        "guion_corto": "ea2d6c3b37790ec2",
+        "guion_largo": "d5952eefa2f6c528",
+        "retos_observacion": "27567422ab6e9c9d",
+        "faq_mito": "d79003e5061f8941"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s04_mural_tepantitla",
+      "tipo": "pieza",
+      "id": "mna_s04_mural_tepantitla",
+      "huellas": {
+        "frase_gancho": "af254108da0aa79d",
+        "puente_narrativo": "7e8093bb314b817a",
+        "guion_corto": "3c71fdc278089463",
+        "guion_largo": "c96c0d12fe238b71",
+        "retos_observacion": "a77d18478c888d58",
+        "faq_mito": "69345a35c81ca522"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s04_mascara_serpentina",
+      "tipo": "pieza",
+      "id": "mna_s04_mascara_serpentina",
+      "huellas": {
+        "frase_gancho": "ccf5fe6a2ea76f28",
+        "puente_narrativo": "225d15c17cf0c87e",
+        "guion_corto": "33e2ec9d4c6a02b8",
+        "guion_largo": "307a045d996ee1da",
+        "retos_observacion": "911784ae67436225",
+        "especificaciones": "5001d3f53c2ece67",
+        "faq_mito": "891523e6374d5756"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s04_caracoles_emplumados",
+      "tipo": "pieza",
+      "id": "mna_s04_caracoles_emplumados",
+      "huellas": {
+        "frase_gancho": "e36403cdc98d7662",
+        "puente_narrativo": "30e4178265a5016c",
+        "guion_corto": "091f47875700efd9",
+        "guion_largo": "63ff08c93aa49a63",
+        "retos_observacion": "a8e0dfb986c3b33f",
+        "faq_mito": "0ab30ea9854235bf"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s04_brasero_teatro",
+      "tipo": "pieza",
+      "id": "mna_s04_brasero_teatro",
+      "huellas": {
+        "frase_gancho": "78471353919c5ebd",
+        "puente_narrativo": "9de66df35687c9d7",
+        "guion_corto": "006ded1fb9555f3a",
+        "guion_largo": "43747d2c1e86743d",
+        "retos_observacion": "fd5803e88e8050e2",
+        "faq_mito": "2e9396442be9114b"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s04_animales_mitologicos",
+      "tipo": "pieza",
+      "id": "mna_s04_animales_mitologicos",
+      "huellas": {
+        "frase_gancho": "28bedb436b690c6b",
+        "puente_narrativo": "88b921585b47d51c",
+        "guion_corto": "5f5d87ac24f2f1c7",
+        "guion_largo": "f9cd90df2b74cae6",
+        "retos_observacion": "8d944a97bea34827",
+        "faq_mito": "848ab8bf67801fc9"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s00_monolito_tlaloc",
+      "tipo": "pieza",
+      "id": "mna_s00_monolito_tlaloc",
+      "huellas": {
+        "frase_gancho": "9be6289f8bc31e59",
+        "puente_narrativo": "9d732f5f622d9021",
+        "guion_corto": "e43283e9cdca3241",
+        "guion_largo": "cc4c0634ed63f2d7",
+        "retos_observacion": "f507728807471ca3",
+        "especificaciones": "8232ebeb09fd9ff9",
+        "faq_mito": "e8fbe28db51ea298"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s00_fachada_celosia",
+      "tipo": "pieza",
+      "id": "mna_s00_fachada_celosia",
+      "huellas": {
+        "frase_gancho": "109c1e7ee616752f",
+        "puente_narrativo": "93b38e23b5702ea6",
+        "guion_corto": "920582da5cfd0191",
+        "guion_largo": "c4d33dfc02e05e33",
+        "retos_observacion": "b3739a9175af99b1",
+        "especificaciones": "d5adf63881477cc4",
+        "faq_mito": "d0e5078b56fd3e42"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s00_el_paraguas",
+      "tipo": "pieza",
+      "id": "mna_s00_el_paraguas",
+      "huellas": {
+        "frase_gancho": "901002b574e27f6f",
+        "puente_narrativo": "21b72f2c32d768d3",
+        "guion_corto": "67262e007f22f403",
+        "guion_largo": "1c406944e149c152",
+        "retos_observacion": "8650fbe345e55a00",
+        "especificaciones": "bcd8b54b0741d9de",
+        "faq_mito": "c7752b1ca95e3679"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s00_espejo_caracol",
+      "tipo": "pieza",
+      "id": "mna_s00_espejo_caracol",
+      "huellas": {
+        "frase_gancho": "006aeabf44355693",
+        "puente_narrativo": "518a990d8c038f5a",
+        "guion_corto": "713922e6085caa0f",
+        "guion_largo": "8c1566c46a389c96",
+        "retos_observacion": "afb32f80af497b72",
+        "especificaciones": "752ed53b5d4c7abe",
+        "faq_mito": "115f5e59e6a82112"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s00_mural_tamayo",
+      "tipo": "pieza",
+      "id": "mna_s00_mural_tamayo",
+      "huellas": {
+        "frase_gancho": "196efd3cd4b55190",
+        "puente_narrativo": "38baafb3e63a4b7b",
+        "guion_corto": "861c8c650d526b1f",
+        "guion_largo": "55c37c7de66c5e6b",
+        "retos_observacion": "b57900c5e6e72f36",
+        "especificaciones": "9772370b019a1aee",
+        "faq_mito": "3b11ccdb3f6d1b2f"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_cabeza_colosal_6",
+      "tipo": "pieza",
+      "id": "mna_s08_cabeza_colosal_6",
+      "huellas": {
+        "frase_gancho": "f212205d6dba37e7",
+        "puente_narrativo": "763926f9044ac5c2",
+        "guion_corto": "ee4cc85a554b4f6e",
+        "guion_largo": "98f95ed59b48ed5e",
+        "retos_observacion": "4c641b06083b6aed",
+        "faq_mito": "7a547b2ce2fd4944"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_luchador_olmeca",
+      "tipo": "pieza",
+      "id": "mna_s08_luchador_olmeca",
+      "huellas": {
+        "frase_gancho": "722423cdf935af61",
+        "puente_narrativo": "9624e6261b2845cd",
+        "guion_corto": "8489090d7741e570",
+        "guion_largo": "8d50fae87f3161cb",
+        "retos_observacion": "07496e260584c929",
+        "faq_mito": "7d8d86bb1fdf6c8c"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_senor_las_limas",
+      "tipo": "pieza",
+      "id": "mna_s08_senor_las_limas",
+      "huellas": {
+        "frase_gancho": "80675e985d6e4984",
+        "puente_narrativo": "90757592800996b0",
+        "guion_corto": "2be4aa16e1e25bae",
+        "guion_largo": "b0fd4b0444a01465",
+        "retos_observacion": "8654e22b68c23694",
+        "especificaciones": "964db0a2688f5e7a",
+        "faq_mito": "e45f850feace264a"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_ofrenda4_laventa",
+      "tipo": "pieza",
+      "id": "mna_s08_ofrenda4_laventa",
+      "huellas": {
+        "frase_gancho": "8a6aafc5da302ef7",
+        "puente_narrativo": "c68c931cfac21e03",
+        "guion_corto": "2ee3901f9bf72c72",
+        "guion_largo": "cf40b7feea64ddb7",
+        "retos_observacion": "cb30eef2520a8a96",
+        "faq_mito": "26d3f5deae7cdca1"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_hacha_votiva_jade",
+      "tipo": "pieza",
+      "id": "mna_s08_hacha_votiva_jade",
+      "huellas": {
+        "frase_gancho": "652993826bc8c31c",
+        "puente_narrativo": "a26ea061c3857301",
+        "guion_corto": "7f7f4f2e4d36ed99",
+        "guion_largo": "8df381bba2da1b30",
+        "retos_observacion": "c643e18534cca7da",
+        "faq_mito": "0aa828d9530299b1"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_carita_sonriente",
+      "tipo": "pieza",
+      "id": "mna_s08_carita_sonriente",
+      "huellas": {
+        "frase_gancho": "4690dbae62fa72fa",
+        "puente_narrativo": "628a7691bc574dc4",
+        "guion_corto": "2ca493e41a35b271",
+        "guion_largo": "936722afbc502ecb",
+        "retos_observacion": "86760473c61314f4",
+        "faq_mito": "730d78a7393547e3"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_adolescente_huasteco",
+      "tipo": "pieza",
+      "id": "mna_s08_adolescente_huasteco",
+      "huellas": {
+        "frase_gancho": "87de2e3353d196ab",
+        "puente_narrativo": "4066bce1cd9b3364",
+        "guion_corto": "959a89e2bc13e15c",
+        "guion_largo": "e6fbdca68401d891",
+        "retos_observacion": "d140d22e0e50e090",
+        "faq_mito": "9a6f82206ad91b41"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_yugo_sapo",
+      "tipo": "pieza",
+      "id": "mna_s08_yugo_sapo",
+      "huellas": {
+        "frase_gancho": "3401700be4ef23d6",
+        "puente_narrativo": "fb7ed889b8c9b22d",
+        "guion_corto": "909fc29b56dedc01",
+        "guion_largo": "a641a8f7e556b049",
+        "retos_observacion": "f20206616421c9be",
+        "faq_mito": "18585d42be9a8dff"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_palma_sacrificio",
+      "tipo": "pieza",
+      "id": "mna_s08_palma_sacrificio",
+      "huellas": {
+        "frase_gancho": "c55386bd216335cc",
+        "puente_narrativo": "2f9d04d8bb36db4b",
+        "guion_corto": "786083689a3f5a63",
+        "guion_largo": "e03de466df60c6e0",
+        "retos_observacion": "209e11b46db575cb",
+        "faq_mito": "01aac139d0ed2cbc"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_cihuateteo_zapotal",
+      "tipo": "pieza",
+      "id": "mna_s08_cihuateteo_zapotal",
+      "huellas": {
+        "frase_gancho": "d502f3edf1a745d9",
+        "puente_narrativo": "03ae75f44bb69087",
+        "guion_corto": "bbc6ccb5c5fe1fe2",
+        "guion_largo": "8354fc52a80e8ef3",
+        "retos_observacion": "348c7100fc4f8155",
+        "faq_mito": "cc5c1b2103a5938e"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_mascara_murcielago",
+      "tipo": "pieza",
+      "id": "mna_s07_mascara_murcielago",
+      "huellas": {
+        "frase_gancho": "27386ec9cba5b343",
+        "puente_narrativo": "cc36520cdad974ba",
+        "guion_corto": "a47e81681a8224c9",
+        "guion_largo": "e57733420f42aa05",
+        "retos_observacion": "0d501e159974bc16",
+        "faq_mito": "bd446ddadb95ff45"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_pectoral_oro_tumba7",
+      "tipo": "pieza",
+      "id": "mna_s07_pectoral_oro_tumba7",
+      "huellas": {
+        "titulo": "40ef532b775a17c4",
+        "frase_gancho": "0cc171b402d9856a",
+        "puente_narrativo": "eee208f25ae589d6",
+        "guion_corto": "6e0c260efca45e28",
+        "guion_largo": "b826c5cc16178b85",
+        "retos_observacion": "44981c66805a110f",
+        "especificaciones": "ec44ba50befb19fa",
+        "faq_mito": "f6a9a92a094ff2c4"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_urna_cocijo",
+      "tipo": "pieza",
+      "id": "mna_s07_urna_cocijo",
+      "huellas": {
+        "frase_gancho": "695518adbcbcb40a",
+        "puente_narrativo": "d1a60d274011f0d3",
+        "guion_corto": "45ed45d093ecb140",
+        "guion_largo": "a7dade59c8dd2f02",
+        "retos_observacion": "aa034a933877c3f0",
+        "faq_mito": "b931574f91592854"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_tumba_104",
+      "tipo": "pieza",
+      "id": "mna_s07_tumba_104",
+      "huellas": {
+        "frase_gancho": "293bf9acef7e26ae",
+        "puente_narrativo": "fa64fc61408062c1",
+        "guion_corto": "9b82ebecf51e4b19",
+        "guion_largo": "a8054ed6361c4982",
+        "retos_observacion": "03278354881ba988",
+        "especificaciones": "4c6f3c09781440d5",
+        "faq_mito": "14de50c3c0e3b45a"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_craneo_turquesa",
+      "tipo": "pieza",
+      "id": "mna_s07_craneo_turquesa",
+      "huellas": {
+        "titulo": "232e3bb720d6ec8e",
+        "frase_gancho": "4e369a002bfae07f",
+        "puente_narrativo": "7b145f35f1291aa8",
+        "guion_corto": "f77fb6054d4e625e",
+        "guion_largo": "7c56253b047e773e",
+        "retos_observacion": "87c9c33810c3a7b1",
+        "especificaciones": "890babd618fa6584",
+        "faq_mito": "7dd7f4db2b5e2312"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_danzante_montealban",
+      "tipo": "pieza",
+      "id": "mna_s07_danzante_montealban",
+      "huellas": {
+        "frase_gancho": "cecc072f39c4d566",
+        "puente_narrativo": "bff0e626bf79c3fc",
+        "guion_corto": "9de3d585f1b5bbdf",
+        "guion_largo": "229e8cd87b6652d1",
+        "retos_observacion": "cc2ba47abb80ae22",
+        "faq_mito": "3b4e7943e349af1a"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_copa_cristal_roca",
+      "tipo": "pieza",
+      "id": "mna_s07_copa_cristal_roca",
+      "huellas": {
+        "titulo": "fa5bf861cb531ea2",
+        "frase_gancho": "08d654c049d29913",
+        "puente_narrativo": "ed65ac34e78e63fc",
+        "guion_corto": "8bf604872a82bd52",
+        "guion_largo": "0e11a62a3eeceefc",
+        "retos_observacion": "5d4e4ba5989da74d",
+        "especificaciones": "dd6a2fe70543b4b8",
+        "faq_mito": "b877f0596906831e"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_vaso_tecali_mono",
+      "tipo": "pieza",
+      "id": "mna_s07_vaso_tecali_mono",
+      "huellas": {
+        "frase_gancho": "bc9ab78e88e9cc64",
+        "puente_narrativo": "178da5260dd5c7d0",
+        "guion_corto": "c9cd69cfe23027c7",
+        "guion_largo": "04cf0b7934b45c40",
+        "retos_observacion": "be102f66e6545113",
+        "especificaciones": "eceef7eac7f72b5e",
+        "faq_mito": "d25b3086d73a6260"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_lapida_bazan",
+      "tipo": "pieza",
+      "id": "mna_s07_lapida_bazan",
+      "huellas": {
+        "frase_gancho": "da3c245edab21e62",
+        "puente_narrativo": "fb6fbb120ededad9",
+        "guion_corto": "f3c5eb39ed95136d",
+        "guion_largo": "735d2bcb816917f1",
+        "retos_observacion": "243a9872fdde3491",
+        "especificaciones": "12674bfcfbbe52ef",
+        "faq_mito": "f4448e4cac17b600"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_grecas_mitla",
+      "tipo": "pieza",
+      "id": "mna_s07_grecas_mitla",
+      "huellas": {
+        "frase_gancho": "e6248a8702ef19e6",
+        "puente_narrativo": "24a7e2bf04657169",
+        "guion_corto": "8fceac46b58ce470",
+        "guion_largo": "d59f58e37465b4ea",
+        "retos_observacion": "e702b2edcee00abd",
+        "faq_mito": "038f71fa1aee4bc0"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s05_atlante_tula",
+      "tipo": "pieza",
+      "id": "mna_s05_atlante_tula",
+      "huellas": {
+        "frase_gancho": "8911a085d18bcfb7",
+        "puente_narrativo": "8fba28bfb8f6a32c",
+        "guion_corto": "7e583069d3f61160",
+        "guion_largo": "35b257614eaf01d7",
+        "retos_observacion": "01c3aea3afcc0168",
+        "faq_mito": "89c4802e9bc654ac"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s05_chacmool_tolteca",
+      "tipo": "pieza",
+      "id": "mna_s05_chacmool_tolteca",
+      "huellas": {
+        "frase_gancho": "bfeb5bfb6cb87438",
+        "puente_narrativo": "4bda3a4e28bcb57a",
+        "guion_corto": "cce7a96275bfa9b1",
+        "guion_largo": "a5e165eeed2fbf73",
+        "retos_observacion": "7e615e701620fadf",
+        "faq_mito": "b18fe0a518d74e5d"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s05_coraza_concha_tula",
+      "tipo": "pieza",
+      "id": "mna_s05_coraza_concha_tula",
+      "huellas": {
+        "frase_gancho": "0028533d5f12d0fe",
+        "puente_narrativo": "a96253930285a3ca",
+        "guion_corto": "fb3d9c82022f91a9",
+        "guion_largo": "9cfd28fc0e2752d4",
+        "retos_observacion": "bb7c3ac3bd6e6ad0",
+        "faq_mito": "90a59dcc0b5e7c9e"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s05_lapida_venus",
+      "tipo": "pieza",
+      "id": "mna_s05_lapida_venus",
+      "huellas": {
+        "frase_gancho": "1aa00ac7d437668d",
+        "puente_narrativo": "0b75fc85aeaae307",
+        "guion_corto": "d6770eb67eb982a5",
+        "guion_largo": "2111ade701985f06",
+        "retos_observacion": "fdc19a87cdbefc62",
+        "faq_mito": "ee7b0e0ba7382747"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s05_friso_jaguares_coyotes",
+      "tipo": "pieza",
+      "id": "mna_s05_friso_jaguares_coyotes",
+      "huellas": {
+        "frase_gancho": "ab3619465afdcf08",
+        "puente_narrativo": "447a41bc3009037f",
+        "guion_corto": "3a5cb5c2bf111940",
+        "guion_largo": "e6761bc9d83b2c4f",
+        "retos_observacion": "3042366b0af461d0",
+        "faq_mito": "1185687e45d2b2d0"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s05_vasija_plumbate",
+      "tipo": "pieza",
+      "id": "mna_s05_vasija_plumbate",
+      "huellas": {
+        "titulo": "d6c6632a3841134c",
+        "frase_gancho": "0f9d7d4fe0d9114d",
+        "puente_narrativo": "b2bd25eabd9a14a6",
+        "guion_corto": "11811cd669c1074b",
+        "guion_largo": "9a614d00f96526db",
+        "retos_observacion": "362fdd23339229da",
+        "especificaciones": "b17595c9e43f00af",
+        "faq_mito": "63c04ba5d5230c4c"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s05_coatepantli",
+      "tipo": "pieza",
+      "id": "mna_s05_coatepantli",
+      "huellas": {
+        "frase_gancho": "832ed5e3ed52e0b1",
+        "puente_narrativo": "57f2e37a856c8d57",
+        "guion_corto": "03e9d481428ac190",
+        "guion_largo": "95607dc5b978505c",
+        "retos_observacion": "85cd46d429ca7976",
+        "faq_mito": "027d20f852c00c00"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s05_disco_tezcacuitlapilli",
+      "tipo": "pieza",
+      "id": "mna_s05_disco_tezcacuitlapilli",
+      "huellas": {
+        "frase_gancho": "01b37301171a6abe",
+        "puente_narrativo": "a4a3dabb1277e048",
+        "guion_corto": "3a387cafea85f561",
+        "guion_largo": "78c8a1274a545f10",
+        "retos_observacion": "7286876e990c51b9",
+        "faq_mito": "083335777557083f"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s05_guerrero_coyote",
+      "tipo": "pieza",
+      "id": "mna_s05_guerrero_coyote",
+      "huellas": {
+        "frase_gancho": "d94b4e515b95e08e",
+        "puente_narrativo": "95b67dfb2f3c5f89",
+        "guion_corto": "02c74b4dd0ec3df5",
+        "guion_largo": "094f8a40b8bb27b6",
+        "retos_observacion": "38304ca99ae60283",
+        "especificaciones": "507a4336c319ac7d",
+        "faq_mito": "b50f1512c6c587c1"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s05_brasero_tolteca",
+      "tipo": "pieza",
+      "id": "mna_s05_brasero_tolteca",
+      "huellas": {
+        "frase_gancho": "872adc878501deb2",
+        "puente_narrativo": "53bfc95f087ded9a",
+        "guion_corto": "f32e67c968c413a0",
+        "guion_largo": "034901769102e9d5",
+        "retos_observacion": "c0e6b7ee5ab98aa1",
+        "faq_mito": "b892f150e37aba41"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s03_acrobata_tlatilco",
+      "tipo": "pieza",
+      "id": "mna_s03_acrobata_tlatilco",
+      "huellas": {
+        "frase_gancho": "9946310d5115799b",
+        "puente_narrativo": "10859833c2ad5dca",
+        "guion_corto": "0dad562a77d67c43",
+        "guion_largo": "b311a8d3358e43d7",
+        "retos_observacion": "35dd8ff7ca129a70",
+        "faq_mito": "f2cbadcd04e027d1"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s03_mascara_dualidad",
+      "tipo": "pieza",
+      "id": "mna_s03_mascara_dualidad",
+      "huellas": {
+        "frase_gancho": "cb4ea4a88a8cee02",
+        "puente_narrativo": "3a92090f7e12d472",
+        "guion_corto": "41d6a720df9c2185",
+        "guion_largo": "aacaed8de3ac7fc6",
+        "retos_observacion": "8b5772943e4e8b9f",
+        "faq_mito": "ad2fdd88a3abc6ca"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s03_mujeres_bonitas",
+      "tipo": "pieza",
+      "id": "mna_s03_mujeres_bonitas",
+      "huellas": {
+        "frase_gancho": "77fad6494fa8b5a2",
+        "puente_narrativo": "beda0eb811d52f77",
+        "guion_corto": "44b7060bef746777",
+        "guion_largo": "e70b78a72ba4c718",
+        "retos_observacion": "1e885698a76d0fc3",
+        "faq_mito": "d5d30127929ab052"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s03_pato_tlatilco",
+      "tipo": "pieza",
+      "id": "mna_s03_pato_tlatilco",
+      "huellas": {
+        "frase_gancho": "436a4daebcf3905e",
+        "puente_narrativo": "cedc41e4e01a2d56",
+        "guion_corto": "7a43868d2b2ff619",
+        "guion_largo": "7a1b72c6e14a0575",
+        "retos_observacion": "2eedff3d8759aba8",
+        "faq_mito": "ae1f54a843ddf3a9"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s03_sacerdote_atlihuayan",
+      "tipo": "pieza",
+      "id": "mna_s03_sacerdote_atlihuayan",
+      "huellas": {
+        "frase_gancho": "2559d52b7baf3b6c",
+        "puente_narrativo": "92ecefdd296af27a",
+        "guion_corto": "1f248baecb2ef2b8",
+        "guion_largo": "db422e09fc4ae75b",
+        "retos_observacion": "0e0be021181817f7",
+        "faq_mito": "a17637164e82af8e"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s03_baby_face_tlapacoya",
+      "tipo": "pieza",
+      "id": "mna_s03_baby_face_tlapacoya",
+      "huellas": {
+        "frase_gancho": "8a61fb27364b1473",
+        "puente_narrativo": "b341728dc7baa171",
+        "guion_corto": "a2c3959ba5cc5aa1",
+        "guion_largo": "953d585dac989208",
+        "retos_observacion": "4ada21a11c4bb5fc",
+        "faq_mito": "01e8a11e2ee00e3f"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s03_huehueteotl_cuicuilco",
+      "tipo": "pieza",
+      "id": "mna_s03_huehueteotl_cuicuilco",
+      "huellas": {
+        "frase_gancho": "98a72493f0914425",
+        "puente_narrativo": "4d93d6c2f7580dce",
+        "guion_corto": "2df35565078d6e35",
+        "guion_largo": "d960d95041e46d40",
+        "retos_observacion": "68738a792ee70ecc",
+        "especificaciones": "689e8d61129e9d79",
+        "faq_mito": "dc6360904124798a"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s03_vasija_pez_tlapacoya",
+      "tipo": "pieza",
+      "id": "mna_s03_vasija_pez_tlapacoya",
+      "huellas": {
+        "titulo": "864a711edce9c444",
+        "frase_gancho": "3a24b9000c438d82",
+        "puente_narrativo": "280c4ceeaf4ea4bd",
+        "guion_corto": "5d6895e7679b7c14",
+        "guion_largo": "6388f25e39590d34",
+        "retos_observacion": "ff57d61bae8a98d9",
+        "especificaciones": "65886dbd11d2e7e7",
+        "faq_mito": "b37f9700fa20fb2b"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s03_piramide_cuicuilco",
+      "tipo": "pieza",
+      "id": "mna_s03_piramide_cuicuilco",
+      "huellas": {
+        "frase_gancho": "4eeeb9ca234931f7",
+        "puente_narrativo": "2a7ab2a802ca9a14",
+        "guion_corto": "2662f703495d357a",
+        "guion_largo": "cc79081160d019ae",
+        "retos_observacion": "ab6bd95865cc3879",
+        "faq_mito": "30a24034f896733d"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s03_bailarina_cascabeles",
+      "tipo": "pieza",
+      "id": "mna_s03_bailarina_cascabeles",
+      "huellas": {
+        "frase_gancho": "21251ebdf1e12ab9",
+        "puente_narrativo": "99963305adedf3ac",
+        "guion_corto": "b656341c9799ccbf",
+        "guion_largo": "09ab1a4f32e86e1c",
+        "retos_observacion": "fbbef81b62de3cdf",
+        "faq_mito": "d78a4eaada83712c"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s01_lucy_afarensis",
+      "tipo": "pieza",
+      "id": "mna_s01_lucy_afarensis",
+      "huellas": {
+        "frase_gancho": "1af5215526e89ba0",
+        "puente_narrativo": "1b2c68b219cf3e48",
+        "guion_corto": "d9b3656c024da16e",
+        "guion_largo": "e11a19b2ad59c9a7",
+        "retos_observacion": "7164b1b58f96dea0",
+        "faq_mito": "b194c7772633cca7"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s01_mural_tzompantli",
+      "tipo": "pieza",
+      "id": "mna_s01_mural_tzompantli",
+      "huellas": {
+        "frase_gancho": "b6e12565428f6f31",
+        "puente_narrativo": "0db8f5c835317cd2",
+        "guion_corto": "3a1fe1be5689a526",
+        "guion_largo": "55503ac24c113538",
+        "retos_observacion": "8a06b585982f1ea3",
+        "faq_mito": "5f7c595c5ed02c5a"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s02_mamut_iztapan",
+      "tipo": "pieza",
+      "id": "mna_s02_mamut_iztapan",
+      "huellas": {
+        "frase_gancho": "09f471e6e7179086",
+        "puente_narrativo": "47c992e3663d2a06",
+        "guion_corto": "ebd9eee6f71b4e8b",
+        "guion_largo": "f4af8e46343f8e61",
+        "retos_observacion": "a03d2d45b4ca9eed",
+        "faq_mito": "81991ca40a789e39"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s02_sacro_tequixquiac",
+      "tipo": "pieza",
+      "id": "mna_s02_sacro_tequixquiac",
+      "huellas": {
+        "frase_gancho": "dced4be84db1482d",
+        "puente_narrativo": "6c2133964e0858d9",
+        "guion_corto": "4998b3082972a4dc",
+        "guion_largo": "55225f955acb2056",
+        "retos_observacion": "fdfb949f949a337a",
+        "faq_mito": "388c29fa7b383cf4"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s02_puntas_clovis",
+      "tipo": "pieza",
+      "id": "mna_s02_puntas_clovis",
+      "huellas": {
+        "frase_gancho": "c18d415a68bcf643",
+        "puente_narrativo": "e863c8aeacce430f",
+        "guion_corto": "4a42c514cbb39616",
+        "guion_largo": "708940b9851badff",
+        "retos_observacion": "122a0d0d999d3fa1",
+        "especificaciones": "058114406ca37131",
+        "faq_mito": "36dd448a500b64f0"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_perros_colima",
+      "tipo": "pieza",
+      "id": "mna_s10_perros_colima",
+      "huellas": {
+        "frase_gancho": "e243cc14a2750995",
+        "puente_narrativo": "c791d882b5f776a8",
+        "guion_corto": "3088a5019841bf04",
+        "guion_largo": "161662df302f5453",
+        "retos_observacion": "cbe46f35d2194936",
+        "faq_mito": "3462b5498e300f76"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_mujer_chupicuaro",
+      "tipo": "pieza",
+      "id": "mna_s10_mujer_chupicuaro",
+      "huellas": {
+        "frase_gancho": "69569e13e9aa5994",
+        "puente_narrativo": "57f5674f57566e13",
+        "guion_corto": "b9b13da981217fc5",
+        "guion_largo": "5336c8195bf5c47b",
+        "retos_observacion": "99d24729585019a4",
+        "faq_mito": "df39ad648bc5dc87"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_tumba_tiro",
+      "tipo": "pieza",
+      "id": "mna_s10_tumba_tiro",
+      "huellas": {
+        "frase_gancho": "6113a3dc10a7baec",
+        "puente_narrativo": "95d266ea1d4fcdd6",
+        "guion_corto": "1ca95d7a9fb7139b",
+        "guion_largo": "a59781f3c59cea55",
+        "retos_observacion": "57e123dd1ff9fd75",
+        "faq_mito": "bf86c6acc19a37f2"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_figura_mezcala",
+      "tipo": "pieza",
+      "id": "mna_s10_figura_mezcala",
+      "huellas": {
+        "frase_gancho": "e204fd82939d8578",
+        "puente_narrativo": "e98dcd0be9f2867a",
+        "guion_corto": "958fcb045607bb53",
+        "guion_largo": "8283436b89401d6d",
+        "retos_observacion": "156c4cb15586da1c",
+        "faq_mito": "dc080d9aa30d2fca"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_chacmool_purepecha",
+      "tipo": "pieza",
+      "id": "mna_s10_chacmool_purepecha",
+      "huellas": {
+        "frase_gancho": "106d0ba1cdfd1608",
+        "puente_narrativo": "c274eec0ef389012",
+        "guion_corto": "699d6c14c20c2795",
+        "guion_largo": "051eef206364bc51",
+        "retos_observacion": "a1998edab74b84dd",
+        "faq_mito": "dbc93ba58f6cc281"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_guerrero_jalisco",
+      "tipo": "pieza",
+      "id": "mna_s10_guerrero_jalisco",
+      "huellas": {
+        "frase_gancho": "9978ce44c93cdc4b",
+        "puente_narrativo": "2fbb70e7703821db",
+        "guion_corto": "29dea7a1e3def368",
+        "guion_largo": "8647e00d4247762a",
+        "retos_observacion": "0ce25a1bde6e5d21",
+        "faq_mito": "6cfb8dd4c43a127c"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_pareja_ixtlan",
+      "tipo": "pieza",
+      "id": "mna_s10_pareja_ixtlan",
+      "huellas": {
+        "frase_gancho": "67cf669b83060492",
+        "puente_narrativo": "bdd0427fc8e5e3a5",
+        "guion_corto": "5fbc66349f7f657f",
+        "guion_largo": "b05488579fb712c1",
+        "retos_observacion": "c12b77fda43c6877",
+        "faq_mito": "cedcac31c2d0fc38"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_vasija_capacha",
+      "tipo": "pieza",
+      "id": "mna_s10_vasija_capacha",
+      "huellas": {
+        "frase_gancho": "f8787b0d5c3255b5",
+        "puente_narrativo": "55eb323d881a8179",
+        "guion_corto": "daa31d0f67ac9479",
+        "guion_largo": "49c9224989e13f38",
+        "retos_observacion": "d7d5c27f6ce81b64",
+        "faq_mito": "1d9e21acebc3407a"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_cobre_purepecha",
+      "tipo": "pieza",
+      "id": "mna_s10_cobre_purepecha",
+      "huellas": {
+        "frase_gancho": "47c90e92f1027fd3",
+        "puente_narrativo": "c19a0d26ac1fd2b6",
+        "guion_corto": "3f8c68b2ffee4568",
+        "guion_largo": "4333b2e3b41fcdfc",
+        "retos_observacion": "038ca5018b866cb1",
+        "faq_mito": "844724c5912f5e56"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_yacata_tzintzuntzan",
+      "tipo": "pieza",
+      "id": "mna_s10_yacata_tzintzuntzan",
+      "huellas": {
+        "frase_gancho": "7f668d0c44410f79",
+        "puente_narrativo": "dd0245427fba361d",
+        "guion_corto": "b6a3a72a837ba1df",
+        "guion_largo": "2fefe7f0cc3d9df6",
+        "retos_observacion": "59f52993ac30505a",
+        "faq_mito": "34c2040a75de8114"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_olla_paquime",
+      "tipo": "pieza",
+      "id": "mna_s11_olla_paquime",
+      "huellas": {
+        "frase_gancho": "ae84551d714cc3fe",
+        "puente_narrativo": "e293ebcf4dedfa1d",
+        "guion_corto": "8becf8023529dd87",
+        "guion_largo": "245ba3ce9763dd2d",
+        "retos_observacion": "c5ae9f3ee08682e7",
+        "faq_mito": "2096549822c99bec"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_efigie_paquime",
+      "tipo": "pieza",
+      "id": "mna_s11_efigie_paquime",
+      "huellas": {
+        "frase_gancho": "4ebe095be0e41a78",
+        "puente_narrativo": "bbc64dbb735c870c",
+        "guion_corto": "df4297442d8e3146",
+        "guion_largo": "52c73a15f317859c",
+        "retos_observacion": "756c280ea5a4ba84",
+        "faq_mito": "0a1466f65c1ac41e"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_fardo_candelaria",
+      "tipo": "pieza",
+      "id": "mna_s11_fardo_candelaria",
+      "huellas": {
+        "frase_gancho": "d47b72f58cd4dfae",
+        "puente_narrativo": "23e46836412b8389",
+        "guion_corto": "e61a5f0fb1b97abc",
+        "guion_largo": "2434ffbd9d3214dc",
+        "retos_observacion": "4b8899df4bd5f6d1",
+        "faq_mito": "3be9cc186355ac24"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_petroglifo_desierto",
+      "tipo": "pieza",
+      "id": "mna_s11_petroglifo_desierto",
+      "huellas": {
+        "frase_gancho": "92ad8d93a2d33580",
+        "puente_narrativo": "01df5397aec68e34",
+        "guion_corto": "5fdc131d91f72ed8",
+        "guion_largo": "3a201d0c624104cb",
+        "retos_observacion": "4c05e30bba0292a4",
+        "faq_mito": "533d401806162a0a"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_vaso_chalchihuites",
+      "tipo": "pieza",
+      "id": "mna_s11_vaso_chalchihuites",
+      "huellas": {
+        "frase_gancho": "8a464a061064f1db",
+        "puente_narrativo": "bd41a85fc33e25d3",
+        "guion_corto": "63ae5ec3bb4162a5",
+        "guion_largo": "f5382e18cef966f6",
+        "retos_observacion": "d24d7dd071b0c932",
+        "faq_mito": "1428e179987841b3"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s12_mapa_lenguas",
+      "tipo": "pieza",
+      "id": "mna_s12_mapa_lenguas",
+      "huellas": {
+        "frase_gancho": "93b79ac4d2c66bf7",
+        "puente_narrativo": "e35eec2715acb07a",
+        "guion_corto": "5c1ea5e24ef11fd1",
+        "guion_largo": "bdfa05056d394d5f",
+        "retos_observacion": "c5198251c44fabb5",
+        "especificaciones": "f1755217096522cc",
+        "faq_mito": "253d75a8d4059edf"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s12_ciclo_milpa",
+      "tipo": "pieza",
+      "id": "mna_s12_ciclo_milpa",
+      "huellas": {
+        "frase_gancho": "412a74dd665d6a3e",
+        "puente_narrativo": "b2aed25581473bf9",
+        "guion_corto": "3319b12a7a615419",
+        "guion_largo": "875f3e9464ea983b",
+        "retos_observacion": "959e1857de793fb3",
+        "faq_mito": "d7b80072501d106d"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s12_acervo_textil",
+      "tipo": "pieza",
+      "id": "mna_s12_acervo_textil",
+      "huellas": {
+        "frase_gancho": "0f1a3dabfd3d3e54",
+        "puente_narrativo": "c34a1a6fbd628df3",
+        "guion_corto": "ea57fda3fd8af113",
+        "guion_largo": "6e49f802b7b8ec55",
+        "retos_observacion": "d025a6c08a63007a",
+        "faq_mito": "a930fbe3ee210b7a"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s13_nierika_estambre",
+      "tipo": "pieza",
+      "id": "mna_s13_nierika_estambre",
+      "huellas": {
+        "frase_gancho": "fb5070058b20496a",
+        "puente_narrativo": "be7e82e1028bab9b",
+        "guion_corto": "66f42a5c7678defa",
+        "guion_largo": "f0ce3a351b77457c",
+        "retos_observacion": "7d3148d21bc685d5",
+        "faq_mito": "f9c8dd414d0dbe31"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s13_traje_wixarika",
+      "tipo": "pieza",
+      "id": "mna_s13_traje_wixarika",
+      "huellas": {
+        "frase_gancho": "7a3c3d1c894fcac4",
+        "puente_narrativo": "7bf41e7f764a4ad3",
+        "guion_corto": "a4596ca68d48a5d2",
+        "guion_largo": "7a702636ffcbfeb1",
+        "retos_observacion": "8a6cf7a075ce9083",
+        "faq_mito": "13ca03348c27e807"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s13_mascara_cora",
+      "tipo": "pieza",
+      "id": "mna_s13_mascara_cora",
+      "huellas": {
+        "frase_gancho": "fe94c2e7f0bcee25",
+        "puente_narrativo": "c040344607a048eb",
+        "guion_corto": "e1cf9cee7f9c8860",
+        "guion_largo": "a9a8ef0810bff3ab",
+        "retos_observacion": "e3bbdc6968505797",
+        "faq_mito": "5ee181914edb75bd"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s14_troje_purepecha",
+      "tipo": "pieza",
+      "id": "mna_s14_troje_purepecha",
+      "huellas": {
+        "frase_gancho": "ce708ef46cc163d1",
+        "puente_narrativo": "ad03b32e0c2e8ec8",
+        "guion_corto": "95ab4131033baa25",
+        "guion_largo": "b7d887b73a2cad0e",
+        "retos_observacion": "1e4b30e8e317cad5",
+        "faq_mito": "5e4df01437fa2195"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s14_mascara_viejitos",
+      "tipo": "pieza",
+      "id": "mna_s14_mascara_viejitos",
+      "huellas": {
+        "frase_gancho": "8a939a21223f797a",
+        "puente_narrativo": "2989924aa7c9fa1b",
+        "guion_corto": "29c63f371a46f720",
+        "guion_largo": "4d02b53d8457ae29",
+        "retos_observacion": "14300d4c0b6fed83",
+        "faq_mito": "52afa2ff75143449"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s14_cobre_martillado",
+      "tipo": "pieza",
+      "id": "mna_s14_cobre_martillado",
+      "huellas": {
+        "frase_gancho": "063076aff7641c0f",
+        "puente_narrativo": "08475c41fef40cc3",
+        "guion_corto": "b35ad014d8a673a9",
+        "guion_largo": "02102ebc0301f0d2",
+        "retos_observacion": "a5b0c4cdd062f064",
+        "faq_mito": "2d14321cbacaf08e"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s14_rebozo_patakua",
+      "tipo": "pieza",
+      "id": "mna_s14_rebozo_patakua",
+      "huellas": {
+        "frase_gancho": "2e6dbe00485ee52c",
+        "puente_narrativo": "917272fbd1e9aebb",
+        "guion_corto": "e6ad697588547932",
+        "guion_largo": "a040a7d91908eacc",
+        "retos_observacion": "e163ddc6804e8833",
+        "faq_mito": "aab442cc7b613c38"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s15_quechquemitl_otomi",
+      "tipo": "pieza",
+      "id": "mna_s15_quechquemitl_otomi",
+      "huellas": {
+        "frase_gancho": "ad22c3444a7b70e0",
+        "puente_narrativo": "1afa5d169ed196be",
+        "guion_corto": "879d960dc73ca0e3",
+        "guion_largo": "41c08250d11abe1c",
+        "retos_observacion": "287976f789970da6",
+        "faq_mito": "d19aba5c5ff71f76"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s15_oratorio_familiar",
+      "tipo": "pieza",
+      "id": "mna_s15_oratorio_familiar",
+      "huellas": {
+        "frase_gancho": "d3eedc116c526570",
+        "puente_narrativo": "16d9138fa638fbf4",
+        "guion_corto": "54f964fc172fe1ef",
+        "guion_largo": "958a47dd5b50e53e",
+        "retos_observacion": "a144de43f3b16aeb",
+        "faq_mito": "0b42db53cd5e8bed"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s15_cesteria_ixtle",
+      "tipo": "pieza",
+      "id": "mna_s15_cesteria_ixtle",
+      "huellas": {
+        "frase_gancho": "27cf21104df6fdc3",
+        "puente_narrativo": "dfa2b3b4190c905b",
+        "guion_corto": "c4778b1789260869",
+        "guion_largo": "af99d523fc32e7a1",
+        "retos_observacion": "27209f6d0158508f",
+        "faq_mito": "7e1dce3cdd271ca8"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s15_traje_mazahua",
+      "tipo": "pieza",
+      "id": "mna_s15_traje_mazahua",
+      "huellas": {
+        "frase_gancho": "e57704476942925f",
+        "puente_narrativo": "323c4666c3564bbe",
+        "guion_corto": "33eb78fecd9fcd4c",
+        "guion_largo": "9a25c3652e21122b",
+        "retos_observacion": "8a759db2d9c31b07",
+        "faq_mito": "6559d70bfe2f4de4"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s16_corona_quetzales",
+      "tipo": "pieza",
+      "id": "mna_s16_corona_quetzales",
+      "huellas": {
+        "frase_gancho": "85a9c3651f1ea939",
+        "puente_narrativo": "0e5e1afcaebff5ce",
+        "guion_corto": "08e3130dc565de12",
+        "guion_largo": "5e4785ce46ae8049",
+        "retos_observacion": "afcfdedeb2f89ac1",
+        "faq_mito": "c019f7abccde7f63"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s16_papel_amate_sanpablito",
+      "tipo": "pieza",
+      "id": "mna_s16_papel_amate_sanpablito",
+      "huellas": {
+        "frase_gancho": "f533e898c0f6ba4f",
+        "puente_narrativo": "166780019826786d",
+        "guion_corto": "3b224669d66f4a7f",
+        "guion_largo": "39f178d20077b869",
+        "retos_observacion": "4f388ef7940b9b73",
+        "faq_mito": "041aed69fa9d1b92"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s16_traje_volador",
+      "tipo": "pieza",
+      "id": "mna_s16_traje_volador",
+      "huellas": {
+        "frase_gancho": "31d754af6f18fe35",
+        "puente_narrativo": "c389db649a26c410",
+        "guion_corto": "015b3efb422233e3",
+        "guion_largo": "94e75c1aa0c11472",
+        "retos_observacion": "5c152a8521ab64d1",
+        "faq_mito": "d571f45066a32a68"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s16_huipil_cuetzalan",
+      "tipo": "pieza",
+      "id": "mna_s16_huipil_cuetzalan",
+      "huellas": {
+        "frase_gancho": "20d9372fd8535ae7",
+        "puente_narrativo": "d0c40b9ad2547027",
+        "guion_corto": "4c2e5d52d5c6c6de",
+        "guion_largo": "8e03c4f8febb72d4",
+        "retos_observacion": "ffa76831ffb34975",
+        "faq_mito": "b0844fd88b2b2ae5"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s17_traje_tehuana",
+      "tipo": "pieza",
+      "id": "mna_s17_traje_tehuana",
+      "huellas": {
+        "frase_gancho": "7c30bdea2773630b",
+        "puente_narrativo": "28b7cc6a417e1ead",
+        "guion_corto": "d98862041377642c",
+        "guion_largo": "fa420fc3b301bbfe",
+        "retos_observacion": "66648c2efd5306a0",
+        "faq_mito": "65b8f47dd401bff1"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s17_huipil_triqui",
+      "tipo": "pieza",
+      "id": "mna_s17_huipil_triqui",
+      "huellas": {
+        "frase_gancho": "11bb08f2d3053747",
+        "puente_narrativo": "8db742c6967c0422",
+        "guion_corto": "410e060d2e4d8739",
+        "guion_largo": "5c13fdf2899e1f94",
+        "retos_observacion": "daf9dae69bb6d64b",
+        "faq_mito": "0407ad66a58c5c5e"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s17_barro_negro",
+      "tipo": "pieza",
+      "id": "mna_s17_barro_negro",
+      "huellas": {
+        "frase_gancho": "12d5b91c76fba4e4",
+        "puente_narrativo": "de575be8b35714e1",
+        "guion_corto": "6880944c9e45bddf",
+        "guion_largo": "f17856e9da7ecdc5",
+        "retos_observacion": "d705449b9b1e1a40",
+        "faq_mito": "52d0ca82a2c620b6"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s17_mascara_diablos_costa",
+      "tipo": "pieza",
+      "id": "mna_s17_mascara_diablos_costa",
+      "huellas": {
+        "frase_gancho": "fe43448293a81a14",
+        "puente_narrativo": "4bbb9ca7f67a85dd",
+        "guion_corto": "ca0a93fa588741fe",
+        "guion_largo": "282bd03f5aba9282",
+        "retos_observacion": "091c967d79976194",
+        "faq_mito": "a0c3820ffe563122"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s18_dhubem_huasteco",
+      "tipo": "pieza",
+      "id": "mna_s18_dhubem_huasteco",
+      "huellas": {
+        "frase_gancho": "b211d306773398c5",
+        "puente_narrativo": "45c0df63c08f9a5f",
+        "guion_corto": "1d7752e018086d2f",
+        "guion_largo": "be2362d71ff80f6b",
+        "retos_observacion": "0b675f2017ada446",
+        "faq_mito": "3691bae8759a2733"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s18_altar_xantolo",
+      "tipo": "pieza",
+      "id": "mna_s18_altar_xantolo",
+      "huellas": {
+        "frase_gancho": "cca20453f289f248",
+        "puente_narrativo": "3e2e6b9fdb9a71f7",
+        "guion_corto": "12735bf8954a97c2",
+        "guion_largo": "4f61700d7ba49a8d",
+        "retos_observacion": "fdd4fb58601aeadd",
+        "faq_mito": "842d80a36224dbf1"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s18_traje_papantla",
+      "tipo": "pieza",
+      "id": "mna_s18_traje_papantla",
+      "huellas": {
+        "frase_gancho": "28dd21ee20a781e6",
+        "puente_narrativo": "4fd5d2fb9967fb70",
+        "guion_corto": "0ff25bdbc7a4875c",
+        "guion_largo": "143d4c51247b23b6",
+        "retos_observacion": "56758afd42663c70",
+        "faq_mito": "e5d98a1206177016"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s18_mascara_negritos",
+      "tipo": "pieza",
+      "id": "mna_s18_mascara_negritos",
+      "huellas": {
+        "frase_gancho": "5c926111887f141f",
+        "puente_narrativo": "1d7c474eec538a71",
+        "guion_corto": "8c83cc7ed6e562df",
+        "guion_largo": "5dd2ec672634a0d9",
+        "retos_observacion": "8ac13112b87c401e",
+        "faq_mito": "e04e71469f149c1a"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s19_gaban_chamula",
+      "tipo": "pieza",
+      "id": "mna_s19_gaban_chamula",
+      "huellas": {
+        "frase_gancho": "8fda965be39f51c4",
+        "puente_narrativo": "c20cc94703ec4fac",
+        "guion_corto": "841a4b4bcbc682db",
+        "guion_largo": "bfa68398608a8b76",
+        "retos_observacion": "e08f76bcd6959581",
+        "faq_mito": "040f9491bc571896"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s19_incensario_lacandon",
+      "tipo": "pieza",
+      "id": "mna_s19_incensario_lacandon",
+      "huellas": {
+        "frase_gancho": "444c34560d5227c4",
+        "puente_narrativo": "7cd6546e0bd2c152",
+        "guion_corto": "68bdaf0ea74f4363",
+        "guion_largo": "08599aacb402f3a3",
+        "retos_observacion": "9848240008cd84cf",
+        "faq_mito": "19f99fd8eee844e1"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s19_terno_yucateco",
+      "tipo": "pieza",
+      "id": "mna_s19_terno_yucateco",
+      "huellas": {
+        "frase_gancho": "f4750665a3b872f6",
+        "puente_narrativo": "7db62232f2664248",
+        "guion_corto": "273dae2a5309870e",
+        "guion_largo": "43d177d908647082",
+        "retos_observacion": "338a67df3a0ec246",
+        "faq_mito": "c86ca2d3f5ad60a8"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s19_solar_maya",
+      "tipo": "pieza",
+      "id": "mna_s19_solar_maya",
+      "huellas": {
+        "frase_gancho": "ebb21d14f1f4808b",
+        "puente_narrativo": "c33a3ba88d5bf821",
+        "guion_corto": "2dce2db588495f2c",
+        "guion_largo": "815101fea7291755",
+        "retos_observacion": "60c78f055882c290",
+        "faq_mito": "751e19273568d57c"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s20_mascara_chapayeka",
+      "tipo": "pieza",
+      "id": "mna_s20_mascara_chapayeka",
+      "huellas": {
+        "frase_gancho": "c0e497e44c13a5f1",
+        "puente_narrativo": "6b6a6b6a61eb1665",
+        "guion_corto": "b436ce2590224680",
+        "guion_largo": "aedfdea4e19cfbcf",
+        "retos_observacion": "369cc4a85825f51b",
+        "faq_mito": "98420d32404736e5"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s20_violin_raramuri",
+      "tipo": "pieza",
+      "id": "mna_s20_violin_raramuri",
+      "huellas": {
+        "frase_gancho": "88b4229e4ac10797",
+        "puente_narrativo": "ee53b775f0b879b0",
+        "guion_corto": "08b707139be9312e",
+        "guion_largo": "ff06002b7addef9f",
+        "retos_observacion": "ca9da6c2a37096d7",
+        "faq_mito": "7b104d27258aa28c"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s20_corita_seri",
+      "tipo": "pieza",
+      "id": "mna_s20_corita_seri",
+      "huellas": {
+        "frase_gancho": "2688a4a27fd91bf3",
+        "puente_narrativo": "9b3e4cdad42aa1e5",
+        "guion_corto": "c96de80d58da8073",
+        "guion_largo": "fa4c86ceeae92ac3",
+        "retos_observacion": "02fc8961f54bd9a8",
+        "faq_mito": "dd264a5b2538ae2b"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s20_palo_fierro",
+      "tipo": "pieza",
+      "id": "mna_s20_palo_fierro",
+      "huellas": {
+        "frase_gancho": "9c1a030748d84aea",
+        "puente_narrativo": "4331e0f72f915f2b",
+        "guion_corto": "3541cd51030046a1",
+        "guion_largo": "f168d477f70414f3",
+        "retos_observacion": "cd2902d2e1c64faf",
+        "faq_mito": "efec25ab38607ba3"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s06_penacho_moctezuma",
+      "tipo": "pieza",
+      "id": "mna_s06_penacho_moctezuma",
+      "huellas": {
+        "frase_gancho": "0a087d34e4aeeed1",
+        "puente_narrativo": "ca73b971e0b43ff4",
+        "guion_corto": "851db8381f8ff1de",
+        "guion_largo": "29cd5cfae90920a2",
+        "retos_observacion": "862a6c408ce048db",
+        "faq_mito": "031e28a59a677535"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s21_huipil_nahua",
+      "tipo": "pieza",
+      "id": "mna_s21_huipil_nahua",
+      "huellas": {
+        "frase_gancho": "a81ad48062fca264",
+        "puente_narrativo": "9f1df60cccb244fb",
+        "guion_corto": "99c328b7d912a360",
+        "guion_largo": "5cc3726444e6d2a4",
+        "retos_observacion": "d64accbab837f3ad",
+        "faq_mito": "f04cff40c24b7428"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s21_pintura_xalitla",
+      "tipo": "pieza",
+      "id": "mna_s21_pintura_xalitla",
+      "huellas": {
+        "frase_gancho": "d84bdadd0ffcc4bf",
+        "puente_narrativo": "268050ad1db25d17",
+        "guion_corto": "8252b7a293eed352",
+        "guion_largo": "73e710076dc6cb92",
+        "retos_observacion": "4c74138a7f75be4d",
+        "faq_mito": "35508b55decaaab9"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s21_altar_tlamanaliztli",
+      "tipo": "pieza",
+      "id": "mna_s21_altar_tlamanaliztli",
+      "huellas": {
+        "frase_gancho": "697340ada3d6a18a",
+        "puente_narrativo": "61f0568f037b14e2",
+        "guion_corto": "20e5df091003f5b4",
+        "guion_largo": "6fc0289541e37ec0",
+        "retos_observacion": "30dc81c03579ff6c",
+        "faq_mito": "a85de596524cf1ea"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_cripta_pakal",
+      "tipo": "pieza",
+      "id": "mna_s09_cripta_pakal",
+      "huellas": {
+        "frase_gancho": "2133d447b64bc0bf",
+        "puente_narrativo": "30bd9a1a6f4a2b66",
+        "guion_corto": "d9d796afb01aadb4",
+        "guion_largo": "27f736700e5bbe32",
+        "retos_observacion": "dc81d267036164d3",
+        "faq_mito": "6d4f1f4df549aed2"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_tablero_cruz",
+      "tipo": "pieza",
+      "id": "mna_s09_tablero_cruz",
+      "huellas": {
+        "puente_narrativo": "95c9142a818ddf57",
+        "guion_corto": "333aab32547f6b0c",
+        "guion_largo": "c3b90339d9f90549",
+        "retos_observacion": "f033df1db6d94a2a",
+        "especificaciones": "a01539b997eb1885",
+        "faq_mito": "1e7546d953929576"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s06_piedra_arzobispado",
+      "tipo": "pieza",
+      "id": "mna_s06_piedra_arzobispado",
+      "huellas": {
+        "frase_gancho": "c284fe419ae715d3",
+        "puente_narrativo": "7576a0617769d562",
+        "guion_corto": "ed48957fc0baee37",
+        "guion_largo": "124b068dc4a791ad",
+        "retos_observacion": "9b03c3251789471f",
+        "especificaciones": "9db9be30d0a4084e"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s06_chapulin",
+      "tipo": "pieza",
+      "id": "mna_s06_chapulin",
+      "huellas": {
+        "puente_narrativo": "732f92f463fbce05",
+        "guion_corto": "cc1a3ad318da48b4",
+        "guion_largo": "389d2db391ea4b51",
+        "retos_observacion": "8e0aabfc5584d43d",
+        "especificaciones": "e86bf9addc0a3596",
+        "faq_mito": "d64c811c146221fa"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s06_maqueta_tlatelolco",
+      "tipo": "pieza",
+      "id": "mna_s06_maqueta_tlatelolco",
+      "huellas": {
+        "frase_gancho": "d20efd8086600cb3",
+        "puente_narrativo": "0e570058ee5d39fd",
+        "guion_corto": "6ec6354ae53b2bd8",
+        "guion_largo": "82cae8c1b3ae46c5",
+        "retos_observacion": "94734307c90e9a26",
+        "especificaciones": "b854d87dd4c2262b"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s01_entierro_dolni_vestonice",
+      "tipo": "pieza",
+      "id": "mna_s01_entierro_dolni_vestonice",
+      "huellas": {
+        "puente_narrativo": "98e1c9c337b09ecf",
+        "guion_corto": "12aca6e878b6f5a6",
+        "guion_largo": "b6d8e7a958dc3800",
+        "retos_observacion": "09402a7ee0cbf420",
+        "especificaciones": "9f47e68a8c77408f"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_urna_cozobi",
+      "tipo": "pieza",
+      "id": "mna_s07_urna_cozobi",
+      "huellas": {
+        "puente_narrativo": "36fc3faf1b9e1d1d",
+        "guion_corto": "5484770524f51968",
+        "guion_largo": "860dc0f57b4dc16a",
+        "retos_observacion": "a1edcf071f62a409",
+        "especificaciones": "7050c8980adc8c05",
+        "faq_mito": "dff7b59ba763bc03"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s04_xipe_totec",
+      "tipo": "pieza",
+      "id": "mna_s04_xipe_totec",
+      "huellas": {
+        "puente_narrativo": "3b1ba7d81db9c7c7",
+        "guion_corto": "901aac3f9d610727",
+        "guion_largo": "2080e2f42bef331c",
+        "retos_observacion": "b9076d86a484b54f",
+        "especificaciones": "b786c8cd43da710a"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_estela_teayo",
+      "tipo": "pieza",
+      "id": "mna_s08_estela_teayo",
+      "huellas": {
+        "frase_gancho": "e64a476dc83fa6e0",
+        "puente_narrativo": "f91c6b85fa7413cf",
+        "guion_corto": "34ab7df46a04ea8e",
+        "guion_largo": "7c903626cc5d8998",
+        "retos_observacion": "41bae6fef8aa7491",
+        "especificaciones": "625c154f7e6c9f74"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_mictlantecuhtli_zapotal",
+      "tipo": "pieza",
+      "id": "mna_s08_mictlantecuhtli_zapotal",
+      "huellas": {
+        "titulo": "9958eb7b4ad7202f",
+        "frase_gancho": "c9d43bf03236b610",
+        "puente_narrativo": "282edbbdd3a87f3f",
+        "guion_corto": "abec9fe7bd0dd264",
+        "guion_largo": "2524794a907c0778",
+        "retos_observacion": "0026dbbd097a6681",
+        "especificaciones": "f535be3e3a6b85ff",
+        "faq_mito": "332923bb400bc08a"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_templo_bonampak",
+      "tipo": "pieza",
+      "id": "mna_s09_templo_bonampak",
+      "huellas": {
+        "titulo": "75c499a708488961",
+        "frase_gancho": "f6384b0de01ca966",
+        "puente_narrativo": "d8a34d37e83e129e",
+        "guion_corto": "7f2b39ee6018ae57",
+        "guion_largo": "0d24c1a7a7e7df73",
+        "retos_observacion": "a509be4e32da0047",
+        "especificaciones": "8ba945b7ecbc4fc8",
+        "faq_mito": "37f55d311664383b"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_palacio_hochob",
+      "tipo": "pieza",
+      "id": "mna_s09_palacio_hochob",
+      "huellas": {
+        "titulo": "f696ddc923bd2153",
+        "frase_gancho": "13ebf3d95ab98896",
+        "puente_narrativo": "ced7ad0e799c63aa",
+        "guion_corto": "ff9f39353b025000",
+        "guion_largo": "18a44e6817e80f02",
+        "retos_observacion": "a9f1e60866c72e2c",
+        "especificaciones": "66cbc0d19923c1f1",
+        "faq_mito": "de7e37c7098d980e"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_mascara_malinaltepec",
+      "tipo": "pieza",
+      "id": "mna_s10_mascara_malinaltepec",
+      "huellas": {
+        "titulo": "78f12b9d9301a359",
+        "frase_gancho": "b7148a7798ad60d6",
+        "puente_narrativo": "e5d84edaa119ea3e",
+        "guion_corto": "ae56f04f7a3e593d",
+        "guion_largo": "aab66c77e08e33e9",
+        "retos_observacion": "d4eb71f051da4f54",
+        "especificaciones": "8eac4a0f8ae1c8a1",
+        "faq_mito": "a8458f8199cdc183"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s13_vitral_goeritz",
+      "tipo": "pieza",
+      "id": "mna_s13_vitral_goeritz",
+      "huellas": {
+        "titulo": "b1d4593cd9406146",
+        "frase_gancho": "cd0efc8b8beccf0e",
+        "puente_narrativo": "f979f35bb01afa36",
+        "guion_corto": "b915c99296263e35",
+        "guion_largo": "f106a8b9c877e49c",
+        "retos_observacion": "98a4f648aaf1af1e",
+        "especificaciones": "f56d91caa7bbfa59",
+        "faq_mito": "71ee3a500c80a5c4"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s19_mural_carrington",
+      "tipo": "pieza",
+      "id": "mna_s19_mural_carrington",
+      "huellas": {
+        "titulo": "354a365d448b1917",
+        "frase_gancho": "931c9f99dc8e953e",
+        "puente_narrativo": "2fc5ceec50144868",
+        "guion_corto": "b77c09b580fc1631",
+        "guion_largo": "56e651dce465757e",
+        "retos_observacion": "ebb8e57a097c10e7",
+        "especificaciones": "ed6758154b5e3212",
+        "faq_mito": "9be7e8f62fb58bc6"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_craneo_candelaria",
+      "tipo": "pieza",
+      "id": "mna_s11_craneo_candelaria",
+      "huellas": {
+        "titulo": "dd30a42ac1b7f28d",
+        "frase_gancho": "aaa3d13c2c9e719f",
+        "puente_narrativo": "d7288c7788d8e1f6",
+        "guion_corto": "a8c25e5161e10814",
+        "guion_largo": "16b8e3073c6632a4",
+        "retos_observacion": "bb8ed52d7bbc4381",
+        "especificaciones": "abe52a6265106c73",
+        "faq_mito": "c8aab6b0a619f595"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_vasija_colibri_zaachila",
+      "tipo": "pieza",
+      "id": "mna_s07_vasija_colibri_zaachila",
+      "huellas": {
+        "titulo": "298ba51705d8d226",
+        "frase_gancho": "b20adbf87a3502c2",
+        "puente_narrativo": "119a6e845c79cb2f",
+        "guion_corto": "dfc6695b8c36e4e7",
+        "guion_largo": "3dfa3d24f3c1bc7c",
+        "retos_observacion": "5d7b9fe686924b1d",
+        "especificaciones": "ba6e6de8065e87bf",
+        "faq_mito": "b17482cd99c3c016"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_orfebreria_mixteca",
+      "tipo": "pieza",
+      "id": "mna_s07_orfebreria_mixteca",
+      "huellas": {
+        "titulo": "e199e17574987128",
+        "frase_gancho": "55828c8928c0e88c",
+        "puente_narrativo": "9ad95491a63b0b61",
+        "guion_corto": "3423af7ed51b3fd3",
+        "guion_largo": "b5223d4d8a4cc9ed",
+        "retos_observacion": "3ee075fcf1d161e6",
+        "especificaciones": "4c143dc233b3fa79",
+        "faq_mito": "d560535dc5960918"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s07_pedestal_columna",
+      "tipo": "pieza",
+      "id": "mna_s07_pedestal_columna",
+      "huellas": {
+        "titulo": "7a54563590a8cc4e",
+        "frase_gancho": "eb977b145880b6ac",
+        "puente_narrativo": "2c127249c9ba4879",
+        "guion_corto": "e28c7b90a60c6817",
+        "guion_largo": "082feb3ddccbc6de",
+        "retos_observacion": "abf9e4a5f61b4941",
+        "especificaciones": "5e8f57937fc44439",
+        "faq_mito": "c16966418aa3c879"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_figurilla_espejo_laventa",
+      "tipo": "pieza",
+      "id": "mna_s08_figurilla_espejo_laventa",
+      "huellas": {
+        "titulo": "cacb3d7021933463",
+        "frase_gancho": "be24c26739aa0cad",
+        "puente_narrativo": "d83b9a4010f96e3e",
+        "guion_corto": "651c68217bdbde0e",
+        "guion_largo": "e9c3f1cd4481cb64",
+        "retos_observacion": "08f254b0e9b50920",
+        "especificaciones": "eb7f532147e1f126",
+        "faq_mito": "ac22e05134d96fd9"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s08_diosa_fertilidad_huasteca",
+      "tipo": "pieza",
+      "id": "mna_s08_diosa_fertilidad_huasteca",
+      "huellas": {
+        "titulo": "2e4aaa4267828414",
+        "frase_gancho": "a607fcd8611ad52d",
+        "puente_narrativo": "fd7d94af9e6a2382",
+        "guion_corto": "2d2a3c6c17b7caaa",
+        "guion_largo": "052c3671a46e88b4",
+        "retos_observacion": "8cc55a3ac430a91f",
+        "especificaciones": "c95ffa11ce68d2f3",
+        "faq_mito": "51ce0c2abffd7fe4"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_anciano_flor_nardo",
+      "tipo": "pieza",
+      "id": "mna_s09_anciano_flor_nardo",
+      "huellas": {
+        "titulo": "8c7ea3ca2f0f75e3",
+        "frase_gancho": "e8352075bac28f45",
+        "puente_narrativo": "d62b2cd8a1dfdce7",
+        "guion_corto": "99e90bc529f339bf",
+        "guion_largo": "3774a54b5ab58d75",
+        "retos_observacion": "d0ce6ca35dee1837",
+        "especificaciones": "2500a905f19566b5",
+        "faq_mito": "9ef2a013cee79d4b"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s09_mural_rina_lazo",
+      "tipo": "pieza",
+      "id": "mna_s09_mural_rina_lazo",
+      "huellas": {
+        "titulo": "e2f3b9d3c1e86ec1",
+        "frase_gancho": "2f11c6417c79719a",
+        "puente_narrativo": "3e26440c038a1805",
+        "guion_corto": "7412252dca2e6978",
+        "guion_largo": "dca1d93ae6a78312",
+        "retos_observacion": "3249900e3f86a03d",
+        "especificaciones": "68754f31e7ffd8c6",
+        "faq_mito": "ab93a51922a24795"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_maquetas_nayarit_jalisco",
+      "tipo": "pieza",
+      "id": "mna_s10_maquetas_nayarit_jalisco",
+      "huellas": {
+        "titulo": "663e70e087e680f3",
+        "frase_gancho": "f8f950fcae9aad4e",
+        "puente_narrativo": "de52d0c9cd55307c",
+        "guion_corto": "d36682952436c6b4",
+        "guion_largo": "78fef7363f2ebab8",
+        "retos_observacion": "8079e524ec757812",
+        "especificaciones": "8a849453f7d278b7",
+        "faq_mito": "e012078d64c34f94"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_vasija_loro_colima",
+      "tipo": "pieza",
+      "id": "mna_s10_vasija_loro_colima",
+      "huellas": {
+        "titulo": "493ff6090170c320",
+        "frase_gancho": "43f0747dda871906",
+        "puente_narrativo": "e5fe50749e9f08a6",
+        "guion_corto": "24fe3f8e2f907e5f",
+        "guion_largo": "7ccea6df3cba95ba",
+        "retos_observacion": "255a7cd3c859d6c1",
+        "especificaciones": "f6f7515d314f6c70",
+        "faq_mito": "e698183a47051e94"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s10_murales_tzintzuntzan",
+      "tipo": "pieza",
+      "id": "mna_s10_murales_tzintzuntzan",
+      "huellas": {
+        "titulo": "6597b1a8b2581a14",
+        "frase_gancho": "416757a373c8b662",
+        "puente_narrativo": "563443ec3a1341ad",
+        "guion_corto": "b053a855b2248117",
+        "guion_largo": "acbe40f661643bab",
+        "retos_observacion": "f51e50f5b4a88562",
+        "especificaciones": "43b43d14421c481e",
+        "faq_mito": "a72e3f31ecc627d5"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_pendiente_tortuga_paquime",
+      "tipo": "pieza",
+      "id": "mna_s11_pendiente_tortuga_paquime",
+      "huellas": {
+        "titulo": "67d72cccf9e93b39",
+        "frase_gancho": "602b2b9216552bec",
+        "puente_narrativo": "c8caabb7efb99c91",
+        "guion_corto": "9a57465453cab9dc",
+        "guion_largo": "9e88bdd5d839d2c8",
+        "retos_observacion": "4f65b7a54de52379",
+        "especificaciones": "7089826d35299969",
+        "faq_mito": "39f815f54f10171e"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_vasijas_efigie_eroticas",
+      "tipo": "pieza",
+      "id": "mna_s11_vasijas_efigie_eroticas",
+      "huellas": {
+        "titulo": "6f2212df4335753c",
+        "frase_gancho": "ec71d303b32aaf0a",
+        "puente_narrativo": "b2b7d421aedf1c16",
+        "guion_corto": "73e045cb20112529",
+        "guion_largo": "32a3cefa58f65659",
+        "retos_observacion": "868d6f946f164698",
+        "especificaciones": "48cb8d4565308551",
+        "faq_mito": "c6d5812d1c0ea12f"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_vasija_silbadora_coporo",
+      "tipo": "pieza",
+      "id": "mna_s11_vasija_silbadora_coporo",
+      "huellas": {
+        "titulo": "a57386989619e2d4",
+        "frase_gancho": "dc66804bb7082a91",
+        "puente_narrativo": "2faf0d37c16a5f62",
+        "guion_corto": "9428bd36afdb987c",
+        "guion_largo": "639c96b60e0c7816",
+        "retos_observacion": "eee884d70346ff10",
+        "especificaciones": "c0d34a59607edd00",
+        "faq_mito": "597d2ba59139f532"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_figurillas_tapas_san_miguel",
+      "tipo": "pieza",
+      "id": "mna_s11_figurillas_tapas_san_miguel",
+      "huellas": {
+        "titulo": "a5a1d6e2e05f26f3",
+        "frase_gancho": "3d5cb05e8f3bd975",
+        "puente_narrativo": "0db9c414c35e842a",
+        "guion_corto": "90c9fac96cf56392",
+        "guion_largo": "0b6a07664b75d261",
+        "retos_observacion": "cdf5a733373f3dd3",
+        "especificaciones": "81d0a1efe6d970fe",
+        "faq_mito": "b9fb575c1de03f49"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_maquetas_alta_vista_quemada",
+      "tipo": "pieza",
+      "id": "mna_s11_maquetas_alta_vista_quemada",
+      "huellas": {
+        "titulo": "7fc320d38532edfa",
+        "frase_gancho": "1353aa0b936cd85c",
+        "puente_narrativo": "b8dfa79c22ba8e7d",
+        "guion_corto": "8874285e2f9a1b7a",
+        "guion_largo": "d5ed9dfb53e13843",
+        "retos_observacion": "476edf7cb9f20a02",
+        "especificaciones": "4341012d4371c749",
+        "faq_mito": "3a4a2621462a7bd2"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_reproduccion_gran_mural",
+      "tipo": "pieza",
+      "id": "mna_s11_reproduccion_gran_mural",
+      "huellas": {
+        "titulo": "0f68d17c40f5a56b",
+        "frase_gancho": "05d786020a564c7e",
+        "puente_narrativo": "8f0f35272094ed11",
+        "guion_corto": "7b7f68960c105a21",
+        "guion_largo": "9331c7e41a5c68b0",
+        "retos_observacion": "7c6b3f21caa03314",
+        "especificaciones": "0f8e0e446a977c0f",
+        "faq_mito": "1b0539ca64a6d9a9"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s11_diorama_cuevas_secas",
+      "tipo": "pieza",
+      "id": "mna_s11_diorama_cuevas_secas",
+      "huellas": {
+        "titulo": "b9828b67a5839486",
+        "frase_gancho": "a2b50dc6c671deaa",
+        "puente_narrativo": "2b3ee50683da5086",
+        "guion_corto": "439423cde22e4526",
+        "guion_largo": "9454249153af1d06",
+        "retos_observacion": "844d9a16da2e511c",
+        "especificaciones": "eb75de1e3c403d4d",
+        "faq_mito": "d786ad95de9c9868"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s14_mural_ohiggins_boda_purepecha",
+      "tipo": "pieza",
+      "id": "mna_s14_mural_ohiggins_boda_purepecha",
+      "huellas": {
+        "titulo": "ff190811e5e98464",
+        "frase_gancho": "bf5d975771cd4a6d",
+        "puente_narrativo": "048e1634de9589df",
+        "guion_corto": "bc4a466e82531e8a",
+        "guion_largo": "c5491903854d4cd3",
+        "retos_observacion": "0a303387bdf44a7b",
+        "especificaciones": "e9822286bf252ee2",
+        "faq_mito": "b39c506ad9a75e66"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s15_murales_nicolas_moreno",
+      "tipo": "pieza",
+      "id": "mna_s15_murales_nicolas_moreno",
+      "huellas": {
+        "titulo": "14569b64c6dd2cc3",
+        "frase_gancho": "8e583327337cff66",
+        "puente_narrativo": "932c72f1bdd2317c",
+        "guion_corto": "263512b4fcdb2eb7",
+        "guion_largo": "e0999e472ef6266b",
+        "retos_observacion": "4d0aa47a94b1f0f8",
+        "especificaciones": "0563968b1f9a6fb3",
+        "faq_mito": "4ab607b9e898fede"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s17_mural_garcia_bustos",
+      "tipo": "pieza",
+      "id": "mna_s17_mural_garcia_bustos",
+      "huellas": {
+        "titulo": "c9ba186e6e1ca84d",
+        "frase_gancho": "8c478c0e5cc68a2a",
+        "puente_narrativo": "c34d2d204c3148f9",
+        "guion_corto": "f22a4214331e69ae",
+        "guion_largo": "54ee5311ddc17526",
+        "retos_observacion": "7591053724213d02",
+        "especificaciones": "13e2f253cd6e0592",
+        "faq_mito": "6af425ee978b9c41"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s17_mural_estrada_procesion",
+      "tipo": "pieza",
+      "id": "mna_s17_mural_estrada_procesion",
+      "huellas": {
+        "titulo": "5a5bdb4bcffa318f",
+        "frase_gancho": "d44c838ab1be14e3",
+        "puente_narrativo": "7dea0cd9809d842f",
+        "guion_corto": "ec3d920dcbe87101",
+        "guion_largo": "73f4542b7778f7f0",
+        "retos_observacion": "bb26450e03185b78",
+        "especificaciones": "11d1c47d1ca644a2",
+        "faq_mito": "986323a58e6269bf"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s17_atuendo_danza_pluma",
+      "tipo": "pieza",
+      "id": "mna_s17_atuendo_danza_pluma",
+      "huellas": {
+        "titulo": "7e7727adf0a4fdb3",
+        "frase_gancho": "db35aa1909a23a3c",
+        "puente_narrativo": "d2bd8a52216728d9",
+        "guion_corto": "f9fe0196e7bcd594",
+        "guion_largo": "522f56b5f92099aa",
+        "retos_observacion": "a89cdb1dd2a84d8c",
+        "especificaciones": "027ad3f6e073827c",
+        "faq_mito": "a35ca06fe5991212"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s18_petob_teenek",
+      "tipo": "pieza",
+      "id": "mna_s18_petob_teenek",
+      "huellas": {
+        "titulo": "90d19a4c9cc83ede",
+        "frase_gancho": "6508ba361769f93b",
+        "puente_narrativo": "28b5f6fdc1ab332c",
+        "guion_corto": "07819aa31b221198",
+        "guion_largo": "ac1b272ca342c86d",
+        "retos_observacion": "79ce2679ae13e770",
+        "especificaciones": "440094cd3177019e",
+        "faq_mito": "ec7d415b61d8ee46"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s19_mural_coronel_mayas_peninsulares",
+      "tipo": "pieza",
+      "id": "mna_s19_mural_coronel_mayas_peninsulares",
+      "huellas": {
+        "titulo": "54c5d43192fc1746",
+        "frase_gancho": "f5775b55dfb4382b",
+        "puente_narrativo": "0c1ddcb61f20d15a",
+        "guion_corto": "5e610bedc3e886f3",
+        "guion_largo": "133caa81d5421176",
+        "retos_observacion": "9929a53acec25a9a",
+        "especificaciones": "78802e89ad78721e",
+        "faq_mito": "dfbf0d5c53db76c1"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s19_tunicas_lacandonas",
+      "tipo": "pieza",
+      "id": "mna_s19_tunicas_lacandonas",
+      "huellas": {
+        "titulo": "2194d1924121fa60",
+        "frase_gancho": "b261d259f31f2086",
+        "puente_narrativo": "c6cc8faf82151a77",
+        "guion_corto": "6e279d2073c0e560",
+        "guion_largo": "5579ba4e4d792cdc",
+        "retos_observacion": "c05a07fce543fda8",
+        "especificaciones": "97dd5bd62f36a59b",
+        "faq_mito": "3c8cc38f45b5804c"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s20_mural_ohiggins_tarahumara",
+      "tipo": "pieza",
+      "id": "mna_s20_mural_ohiggins_tarahumara",
+      "huellas": {
+        "titulo": "c8279ed38f40ae45",
+        "frase_gancho": "c3e9865978f07d2a",
+        "puente_narrativo": "133aaa38a28a8030",
+        "guion_corto": "25dad1ddc08300aa",
+        "guion_largo": "99d9cf987f1555c7",
+        "retos_observacion": "e9786f9b14046319",
+        "especificaciones": "4f45333a3cb1a7dc",
+        "faq_mito": "260f15e749553038"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s20_atuendo_danza_venado",
+      "tipo": "pieza",
+      "id": "mna_s20_atuendo_danza_venado",
+      "huellas": {
+        "titulo": "441b8af2455f9bf4",
+        "frase_gancho": "b38794fc827a3d4c",
+        "puente_narrativo": "1c148ada216bc27a",
+        "guion_corto": "48820dc34da445d1",
+        "guion_largo": "86b17595475d8cde",
+        "retos_observacion": "88ac6952de6363a8",
+        "especificaciones": "44c01c2a5b2ac5fb",
+        "faq_mito": "2accc4d7de68f07a"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s21_danza_tlacololeros",
+      "tipo": "pieza",
+      "id": "mna_s21_danza_tlacololeros",
+      "huellas": {
+        "titulo": "80fff9a06020ea2e",
+        "frase_gancho": "089df9bfb68d4bc7",
+        "puente_narrativo": "3f6cb0e22830de95",
+        "guion_corto": "14229a2b15892dfa",
+        "guion_largo": "e773d49662ee68b2",
+        "retos_observacion": "be7cb67907bdf25a",
+        "especificaciones": "f082e46e690bbd31",
+        "faq_mito": "8cd1e6214e91a144"
+      }
+    },
+    {
+      "custom_id": "pieza_mna_s21_huipil_malinche",
+      "tipo": "pieza",
+      "id": "mna_s21_huipil_malinche",
+      "huellas": {
+        "titulo": "6fd6184cd06b3c62",
+        "frase_gancho": "bf55ff65f900ec4d",
+        "puente_narrativo": "8b2cdc7903b6ecd3",
+        "guion_corto": "66fd690430f4d60b",
+        "guion_largo": "f666f2145adfb661",
+        "retos_observacion": "342f66d21addea44",
+        "especificaciones": "cb9d506f85bc43c1",
+        "faq_mito": "02e315c620c6512d"
+      }
+    },
+    {
+      "custom_id": "sala_sala-00-exteriores",
+      "tipo": "sala",
+      "id": "sala-00-exteriores",
+      "huellas": {
+        "frase_gancho": "f82b9c6d33ccdcce",
+        "introduccion_narrativa": "59e1ac3edea64e57"
+      }
+    },
+    {
+      "custom_id": "sala_sala-01-introduccion-antropologia",
+      "tipo": "sala",
+      "id": "sala-01-introduccion-antropologia",
+      "huellas": {
+        "frase_gancho": "a642dd8bfeda7bce",
+        "introduccion_narrativa": "1e3b3b024dab2cdf"
+      }
+    },
+    {
+      "custom_id": "sala_sala-02-poblamiento-de-america",
+      "tipo": "sala",
+      "id": "sala-02-poblamiento-de-america",
+      "huellas": {
+        "frase_gancho": "949b5ee0876a89c5",
+        "introduccion_narrativa": "3eecda7186591d5b"
+      }
+    },
+    {
+      "custom_id": "sala_sala-03-preclasico-altiplano-central",
+      "tipo": "sala",
+      "id": "sala-03-preclasico-altiplano-central",
+      "huellas": {
+        "frase_gancho": "ab0af0fdd68865fb",
+        "introduccion_narrativa": "c2c699d1650eab50"
+      }
+    },
+    {
+      "custom_id": "sala_sala-04-teotihuacan",
+      "tipo": "sala",
+      "id": "sala-04-teotihuacan",
+      "huellas": {
+        "frase_gancho": "e3d269094d4b3d01",
+        "introduccion_narrativa": "a644a2eb3db301dc"
+      }
+    },
+    {
+      "custom_id": "sala_sala-05-los-toltecas-y-su-epoca",
+      "tipo": "sala",
+      "id": "sala-05-los-toltecas-y-su-epoca",
+      "huellas": {
+        "frase_gancho": "7a82c65ae56983ad",
+        "introduccion_narrativa": "e2811fb2b8404915"
+      }
+    },
+    {
+      "custom_id": "sala_sala-06-mexica",
+      "tipo": "sala",
+      "id": "sala-06-mexica",
+      "huellas": {
+        "frase_gancho": "344cd98fa1db3162",
+        "introduccion_narrativa": "12d6c329f2ab1e1a"
+      }
+    },
+    {
+      "custom_id": "sala_sala-07-oaxaca",
+      "tipo": "sala",
+      "id": "sala-07-oaxaca",
+      "huellas": {
+        "frase_gancho": "d3ff171110ffa88c",
+        "introduccion_narrativa": "760a6e2038d89c11"
+      }
+    },
+    {
+      "custom_id": "sala_sala-08-costa-del-golfo",
+      "tipo": "sala",
+      "id": "sala-08-costa-del-golfo",
+      "huellas": {
+        "frase_gancho": "50dc408342617904",
+        "introduccion_narrativa": "44a3ac37f511c71a"
+      }
+    },
+    {
+      "custom_id": "sala_sala-09-maya",
+      "tipo": "sala",
+      "id": "sala-09-maya",
+      "huellas": {
+        "frase_gancho": "df7a4ae215b936eb",
+        "introduccion_narrativa": "d1a5fe6f1acc44e0"
+      }
+    },
+    {
+      "custom_id": "sala_sala-10-occidente",
+      "tipo": "sala",
+      "id": "sala-10-occidente",
+      "huellas": {
+        "frase_gancho": "4369cddec633065e",
+        "introduccion_narrativa": "de00c5fcdf4ea9ce"
+      }
+    },
+    {
+      "custom_id": "sala_sala-11-norte",
+      "tipo": "sala",
+      "id": "sala-11-norte",
+      "huellas": {
+        "frase_gancho": "465cfeb62f0bbccd",
+        "introduccion_narrativa": "3f37f093e851c6cd"
+      }
+    },
+    {
+      "custom_id": "sala_sala-12-pueblos-indios",
+      "tipo": "sala",
+      "id": "sala-12-pueblos-indios",
+      "huellas": {
+        "frase_gancho": "953febe35b9b5b53",
+        "introduccion_narrativa": "9e325d76dd76c414"
+      }
+    },
+    {
+      "custom_id": "sala_sala-13-gran-nayar",
+      "tipo": "sala",
+      "id": "sala-13-gran-nayar",
+      "huellas": {
+        "frase_gancho": "fc8490f2ac7b3a77",
+        "introduccion_narrativa": "ba21b753406c6092"
+      }
+    },
+    {
+      "custom_id": "sala_sala-14-purecherio",
+      "tipo": "sala",
+      "id": "sala-14-purecherio",
+      "huellas": {
+        "frase_gancho": "af1277496ee356f3",
+        "introduccion_narrativa": "380346cf506c6e59"
+      }
+    },
+    {
+      "custom_id": "sala_sala-15-otopames",
+      "tipo": "sala",
+      "id": "sala-15-otopames",
+      "huellas": {
+        "frase_gancho": "e270613a222149bf",
+        "introduccion_narrativa": "2fb85e1d581f538f"
+      }
+    },
+    {
+      "custom_id": "sala_sala-16-sierra-de-puebla",
+      "tipo": "sala",
+      "id": "sala-16-sierra-de-puebla",
+      "huellas": {
+        "frase_gancho": "0e15b516fc8059df",
+        "introduccion_narrativa": "c76810c5a3818944"
+      }
+    },
+    {
+      "custom_id": "sala_sala-17-oaxaca",
+      "tipo": "sala",
+      "id": "sala-17-oaxaca",
+      "huellas": {
+        "frase_gancho": "6b7baa9b43b18503",
+        "introduccion_narrativa": "f569fb2d55d6f52d"
+      }
+    },
+    {
+      "custom_id": "sala_sala-18-huastecos-y-totonacos",
+      "tipo": "sala",
+      "id": "sala-18-huastecos-y-totonacos",
+      "huellas": {
+        "frase_gancho": "caaf2b9fabe5d4ef",
+        "introduccion_narrativa": "a89567daacf3f845"
+      }
+    },
+    {
+      "custom_id": "sala_sala-19-pueblos-mayas",
+      "tipo": "sala",
+      "id": "sala-19-pueblos-mayas",
+      "huellas": {
+        "frase_gancho": "7a34001624ce1f80",
+        "introduccion_narrativa": "adce559442d0d3bc"
+      }
+    },
+    {
+      "custom_id": "sala_sala-20-noroeste",
+      "tipo": "sala",
+      "id": "sala-20-noroeste",
+      "huellas": {
+        "frase_gancho": "5a85b2fbd631797a",
+        "introduccion_narrativa": "8c8895e5539521ee"
+      }
+    },
+    {
+      "custom_id": "sala_sala-21-nahuas",
+      "tipo": "sala",
+      "id": "sala-21-nahuas",
+      "huellas": {
+        "frase_gancho": "2891a971ed39c089",
+        "introduccion_narrativa": "9cd3cd7554c38548"
+      }
+    }
+  ]
+}
