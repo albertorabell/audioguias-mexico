@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { MapPin } from 'lucide-react';
-import { Room, PieceData } from '../types';
+import { Room, PieceData, ZoneMap } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
 import { TopBar } from './ui/TopBar';
 import { PassButton } from './ui/HeaderControls';
@@ -13,6 +13,8 @@ interface MapScreenProps {
   pieces: PieceData[];
   floor: 'PB' | 'PA';
   onFloorChange: (f: 'PB' | 'PA') => void;
+  /** Sitio al aire libre: el plano se arma con las zonas de este mapa y no hay pisos. */
+  zoneMap?: ZoneMap;
   hereRoomId?: string | null;
   tour: ActiveTour | null;
   hasPass: boolean;
@@ -21,7 +23,7 @@ interface MapScreenProps {
 }
 
 /** Pestaña "Mapa": plano esquemático con salas grandes y legibles, "estás aquí" y las paradas del recorrido. */
-export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFloorChange, hereRoomId, tour, hasPass, onOpenPaywall, onSelectRoom }) => {
+export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFloorChange, zoneMap, hereRoomId, tour, hasPass, onOpenPaywall, onSelectRoom }) => {
   const { strings } = useLanguage();
   const u = strings.ui;
 
@@ -50,8 +52,8 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
     <div className="min-h-dvh bg-bg text-ink pb-tabbar">
       <TopBar title={u.map.title} right={<PassButton hasPass={hasPass} onClick={onOpenPaywall} />} />
       <main className="px-4 pt-4">
-        <FloorSwitch floor={floor} onChange={onFloorChange} countPB={countPB} countPA={countPA} />
-        {hereRoom && hereRoom.piso !== floor && (
+        {!zoneMap && countPB > 0 && countPA > 0 && <FloorSwitch floor={floor} onChange={onFloorChange} countPB={countPB} countPA={countPA} />}
+        {!zoneMap && hereRoom && hereRoom.piso !== floor && (
           <button
             type="button"
             onClick={() => onFloorChange(hereRoom.piso)}
@@ -65,6 +67,7 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
           <FloorPlan
             rooms={rooms}
             floor={floor}
+            zoneMap={zoneMap}
             hereRoomId={hereRoomId}
             stopsByRoom={stopsByRoom}
             worksByRoom={worksByRoom}

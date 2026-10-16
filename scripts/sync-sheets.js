@@ -29,13 +29,54 @@ const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
 const TAB_NAMES = {
   salas: ['📝 TRABAJO_SALAS', 'TRABAJO_SALAS'],
   piezas: ['📝 TRABAJO_PIEZAS', 'TRABAJO_PIEZAS'],
+  // Teotihuacán (misma estructura que el museo; sus "salas" son zonas del sitio)
+  teo_salas: ['📝 TEO_SALAS', 'TEO_SALAS'],
+  teo_piezas: ['📝 TEO_PIEZAS', 'TEO_PIEZAS'],
 };
 
 // Columnas que DEBEN existir (por nombre; el orden de las columnas no importa).
 const REQUIRED = {
   salas: ['room_id', 'numero_oficial', 'nombre_oficial'],
   piezas: ['piece_id', 'room_id', 'titulo', 'guion_corto', 'guion_largo'],
+  teo_salas: ['room_id', 'numero_oficial', 'nombre_oficial'],
+  teo_piezas: ['piece_id', 'room_id', 'titulo', 'guion_corto', 'guion_largo'],
 };
+
+// Teotihuacán: solo dos rutas. Qué piezas lleva cada una lo decide la columna `rutas` de TEO_PIEZAS
+// (valores separados por "|": express|completa). El orden es el del recorrido: zona y luego orden_sugerido.
+const TEO_ROUTES = [
+  {
+    id: 'ruta-express',
+    key: 'express',
+    name: 'Ruta Exprés',
+    name_en: 'Express Route',
+    name_fr: 'Parcours express',
+    name_pl: 'Trasa ekspresowa',
+    duration: '2–2.5 h',
+    estimated_minutes: 150,
+    description: 'Los doce lugares imprescindibles de Teotihuacán, para quien tiene dos horas y media o menos.',
+    description_en: 'The twelve essential places in Teotihuacán, for visitors with two and a half hours or less.',
+    description_fr: 'Les douze lieux incontournables de Teotihuacán, pour qui dispose de deux heures et demie ou moins.',
+    description_pl: 'Dwanaście najważniejszych miejsc w Teotihuacán, dla osób, które mają dwie i pół godziny lub mniej.',
+  },
+  {
+    id: 'ruta-completa',
+    key: 'completa',
+    name: 'Ruta Completa',
+    name_en: 'Complete Route',
+    name_fr: 'Parcours complet',
+    name_pl: 'Trasa pełna',
+    duration: '4–5 h',
+    estimated_minutes: 270,
+    description: 'Todas las paradas: la Calzada de los Muertos, las pirámides, los palacios, los murales y los barrios. De la Puerta 1 a la salida.',
+    description_en: 'Every stop: the Avenue of the Dead, the pyramids, the palaces, the murals and the neighbourhoods. From Gate 1 to the exit.',
+    description_fr: 'Toutes les étapes : l’Avenue des Morts, les pyramides, les palais, les peintures murales et les quartiers. De la porte 1 à la sortie.',
+    description_pl: 'Wszystkie przystanki: Aleja Zmarłych, piramidy, pałace, malowidła i dzielnice. Od bramy 1 do wyjścia.',
+  },
+];
+
+/** Cómo se llama cada zona de Teotihuacán en el selector (si el Sheets no trae la columna `etiqueta`). */
+const TEO_ZONE_LABEL = { es: 'Zona', en: 'Zone', fr: 'Zone', pl: 'Strefa' };
 
 // Si el Sheets trae menos piezas que esto, se considera una lectura incompleta y se aborta.
 const MIN_PIEZAS = 20;
@@ -226,8 +267,9 @@ async function getText(url) {
 /** Descarga una pestaña y comprueba que tenga las columnas obligatorias. */
 async function loadTab(kind) {
   if (process.env.SYNC_LOCAL_DIR) {
-    // Solo para pruebas: lee un CSV local en lugar de Google.
+    // Solo para pruebas: lee un CSV local en lugar de Google. Las pestañas de Teotihuacán son opcionales aquí.
     const file = path.join(process.env.SYNC_LOCAL_DIR, `${kind}.csv`);
+    if (kind.startsWith('teo_') && !fs.existsSync(file)) return null;
     const parsed = toObjects(parseCsv(fs.readFileSync(file, 'utf-8')));
     return checkColumns(kind, file, parsed);
   }
@@ -310,12 +352,20 @@ function translatedPieceFields(p) {
   return out;
 }
 
-function buildRooms(items) {
+/**
+ * opts.zones = true (Teotihuacán): es un sitio al aire libre sin pisos. Todo va en "PB" y cada zona se
+ * llama "Zona N" (o lo que diga la columna `etiqueta` del Sheets).
+ */
+function buildRooms(items, opts = {}) {
   const rooms = items
     .filter((r) => r.room_id)
     .map((r) => {
       const n = parseInt(r.numero_oficial, 10);
-      const piso = r.piso || (Number.isFinite(n) ? pisoDeNumero(n) : 'PB');
+      const piso = opts.zones ? 'PB' : r.piso || (Number.isFinite(n) ? pisoDeNumero(n) : 'PB');
+      const etiquetas = {};
+      if (opts.zones && Number.isFinite(n)) {
+        for (const [lang, word] of Object.entries(TEO_ZONE_LABEL)) etiquetas[lang === 'es' ? 'etiqueta' : `etiqueta_${lang}`] = `${word} ${n}`;
+      }
       return {
         room_id: r.room_id,
         numero_oficial: r.numero_oficial,
@@ -326,7 +376,8 @@ function buildRooms(items) {
         introduccion_narrativa: r.introduccion_narrativa || '',
         svg_id: r.svg_id || '',
         // Opcional: texto corto para identificar la sala, p. ej. "Eje 1". Si va vacío, la app usa "Sala NN".
-        etiqueta: r.etiqueta || '',
+        ...etiquetas,
+        ...(r.etiqueta ? { etiqueta: r.etiqueta } : {}),
         aliases: [r.room_id, `sala-${String(r.numero_oficial).padStart(2, '0')}`],
         ...translatedFields(r, ROOM_TEXT_FIELDS),
       };
@@ -335,7 +386,7 @@ function buildRooms(items) {
   return rooms;
 }
 
-function buildPieces(items) {
+function buildPieces(items, opts = {}) {
   return items
     .filter((p) => p.piece_id)
     .map((p) => {
@@ -353,7 +404,7 @@ function buildPieces(items) {
         poi_id: p.piece_id,
         room_id: p.room_id,
         roomId: p.room_id,
-        piso: p.piso || '',
+        piso: opts.zones ? 'PB' : p.piso || '',
         orden_sugerido: num(p.orden_sugerido, 1),
         titulo: p.titulo,
         title: p.titulo,
@@ -459,7 +510,7 @@ function findPremiumAudioLeaks(pieces) {
 }
 
 /** Revisa los datos. Los errores DETIENEN la publicación; los avisos solo se muestran. */
-function validate(rooms, pieces) {
+function validate(rooms, pieces, opts = {}) {
   const errors = [];
   const warnings = {};
   const warn = (kind, msg) => { (warnings[kind] ||= []).push(msg); };
@@ -472,10 +523,11 @@ function validate(rooms, pieces) {
     );
   }
 
+  const sitio = opts.label ? ` (${opts.label})` : '';
   if (pieces.length < MIN_PIEZAS) {
-    errors.push(`Solo se leyeron ${pieces.length} piezas (mínimo esperado: ${MIN_PIEZAS}). Parece una lectura incompleta.`);
+    errors.push(`Solo se leyeron ${pieces.length} piezas${sitio} (mínimo esperado: ${MIN_PIEZAS}). Parece una lectura incompleta.`);
   }
-  if (!rooms.length) errors.push('No se leyó ninguna sala.');
+  if (!rooms.length) errors.push(`No se leyó ninguna sala${sitio}.`);
 
   const seen = new Map();
   for (const p of pieces) {
@@ -499,11 +551,11 @@ function validate(rooms, pieces) {
         if (hasBrokenLink(text)) warn('Enlaces mal escritos (debe ser [texto](piece_id), sin espacios)', `${p.piece_id} (${field})`);
       }
     }
-    if (!roomIds.has(p.room_id)) warn('Piezas cuya sala NO existe en TRABAJO_SALAS (no se verán en ninguna sala)', `${p.piece_id} → "${p.room_id}"`);
+    if (!roomIds.has(p.room_id)) warn(`Piezas cuya sala NO existe en ${opts.label === 'Teotihuacán' ? 'TEO_SALAS' : 'TRABAJO_SALAS'} (no se verán en ninguna sala)`, `${p.piece_id} → "${p.room_id}"`);
     if (!p.guion_corto) warn('Piezas sin guion_corto', p.piece_id);
     if (!p.guion_largo) warn('Piezas sin guion_largo', p.piece_id);
     if (/\.pdf\]|<br|\*\*/i.test(`${p.guion_corto} ${p.guion_largo} ${p.frase_gancho}`)) warn('Textos con restos de formato (marcas [n.pdf], <br>, **)', p.piece_id);
-    if (p.map_x === 50 && p.map_y === 50) warn('Piezas con coordenadas 50/50 (posición sin definir en el mapa)', p.piece_id);
+    if (!opts.sinCoordenadas && p.map_x === 50 && p.map_y === 50) warn('Piezas con coordenadas 50/50 (posición sin definir en el mapa)', p.piece_id);
     if (p.image_filename && hasImgDir) {
       const base = p.image_filename.replace(/\.\w+$/, '');
       const ok = [p.image_filename, `${base}.webp`, `${base}.png`].some((f) => fs.existsSync(path.join(IMG_DIR, f)));
@@ -550,23 +602,90 @@ function buildRoutes(pieces, rooms) {
   }));
 }
 
+/**
+ * Las dos rutas de Teotihuacán salen de la columna `rutas` de TEO_PIEZAS (express|completa).
+ * Orden: zona (numero_oficial) y luego orden_sugerido; si empatan, el orden de las filas del Sheets.
+ */
+function buildTeoRoutes(pieces, rooms, rutasById, warn) {
+  const roomNum = new Map(rooms.map((r) => [r.room_id, parseInt(r.numero_oficial, 10) || 0]));
+  const roomName = new Map(rooms.map((r) => [r.room_id, r.nombre_oficial]));
+  const known = new Set(TEO_ROUTES.map((r) => r.key));
+  for (const [id, list] of rutasById) {
+    for (const k of list) if (!known.has(k)) warn('Teotihuacán: valores desconocidos en la columna rutas (solo se usan express y completa)', `${id} → "${k}"`);
+  }
+  return TEO_ROUTES.map(({ key, ...route }) => {
+    const stops = pieces
+      .map((p, i) => ({ p, i }))
+      .filter(({ p }) => (rutasById.get(p.piece_id) || []).includes(key))
+      .sort((a, b) =>
+        (roomNum.get(a.p.room_id) || 0) - (roomNum.get(b.p.room_id) || 0) ||
+        (a.p.orden_sugerido || 99) - (b.p.orden_sugerido || 99) ||
+        a.i - b.i
+      )
+      .map(({ p }) => ({
+        id: p.piece_id,
+        piece_id: p.piece_id,
+        poi_id: p.piece_id,
+        title: p.titulo,
+        is_premium: !p.is_free,
+        estimated_minutes: 5,
+        thumbnail: p.image_filename,
+        file: 'data/teotihuacan/pieces.json',
+        ranking: p.is_free ? 1 : 2,
+        room_zone: roomName.get(p.room_id) || '',
+        room_id: p.room_id,
+        map_coords: { x: p.map_x, y: p.map_y },
+        tags: ['arqueologia', 'teotihuacan'],
+      }));
+    return { ...route, stops };
+  });
+}
+
 export async function sync() {
   console.log('🔄 Leyendo TRABAJO_SALAS…');
   const salas = await loadTab('salas');
   console.log('🔄 Leyendo TRABAJO_PIEZAS…');
   const piezas = await loadTab('piezas');
 
+  console.log('🔄 Leyendo TEO_SALAS…');
+  const teoSalas = await loadTab('teo_salas');
+  console.log('🔄 Leyendo TEO_PIEZAS…');
+  const teoPiezas = await loadTab('teo_piezas');
+
   const rooms = buildRooms(salas.items);
   const pieces = buildPieces(piezas.items);
+  const teo = teoSalas && teoPiezas
+    ? {
+        rooms: buildRooms(teoSalas.items, { zones: true }),
+        pieces: buildPieces(teoPiezas.items, { zones: true }),
+        rutas: new Map(
+          teoPiezas.items.filter((p) => p.piece_id).map((p) => [p.piece_id, String(p.rutas || '').split('|').map((x) => x.trim().toLowerCase()).filter(Boolean)])
+        ),
+      }
+    : null;
+  const todasSalas = [...rooms, ...(teo?.rooms || [])];
+  const todasPiezas = [...pieces, ...(teo?.pieces || [])];
 
   // Traducciones hechas con scripts/traducir.mjs: solo valen si el texto en español no cambió; una celda del Sheets manda sobre ellas.
-  const guardadas = applyStoredTranslations(process.cwd(), pieces, rooms);
+  const guardadas = applyStoredTranslations(process.cwd(), todasPiezas, todasSalas);
   for (const [lang, r] of Object.entries(guardadas)) {
     console.log(`🌐 Traducciones guardadas (${lang}): ${r.applied} textos unidos${r.stale ? `, ${r.stale} ignorados porque el español cambió` : ''}.`);
   }
 
-  const { errors, warnings, sinFoto } = validate(rooms, pieces);
-  const audiosUnidos = attachAudio(pieces, (kind, msg) => { (warnings[kind] ||= []).push(msg); });
+  const { errors, warnings, sinFoto } = validate(rooms, pieces, { label: 'MNA' });
+  let teoSinFoto = 0;
+  if (teo) {
+    const v = validate(teo.rooms, teo.pieces, { label: 'Teotihuacán', sinCoordenadas: true });
+    errors.push(...v.errors);
+    teoSinFoto = v.sinFoto;
+    for (const [kind, list] of Object.entries(v.warnings)) (warnings[kind] ||= []).push(...list.map((m) => `[Teotihuacán] ${m}`));
+    // Ningún id puede repetirse entre sitios (los textos de pago se buscan por piece_id)
+    const mnaIds = new Set(pieces.map((p) => p.piece_id));
+    for (const p of teo.pieces) if (mnaIds.has(p.piece_id)) errors.push(`piece_id repetido entre MNA y Teotihuacán: ${p.piece_id}`);
+    const mnaRooms = new Set(rooms.map((r) => r.room_id));
+    for (const r of teo.rooms) if (mnaRooms.has(r.room_id)) errors.push(`room_id repetido entre MNA y Teotihuacán: ${r.room_id}`);
+  }
+  const audiosUnidos = attachAudio(todasPiezas, (kind, msg) => { (warnings[kind] ||= []).push(msg); });
 
   for (const [kind, list] of Object.entries(warnings)) {
     console.warn(`⚠️  ${kind}: ${list.length}`);
@@ -581,6 +700,15 @@ export async function sync() {
   routes.forEach((r) => {
     if (r.missing_ids.length) console.warn(`⚠️  Ruta "${r.name}": no existen en el Sheets estas piezas: ${r.missing_ids.join(', ')}`);
   });
+  const teoWarnings = {};
+  const teoRoutes = teo ? buildTeoRoutes(teo.pieces, teo.rooms, teo.rutas, (kind, msg) => { (teoWarnings[kind] ||= []).push(msg); }) : [];
+  for (const [kind, list] of Object.entries(teoWarnings)) {
+    console.warn(`⚠️  ${kind}: ${list.length}`);
+    list.slice(0, 8).forEach((m) => console.warn(`     - ${m}`));
+  }
+  for (const r of teoRoutes) {
+    if (!r.stops.length) throw new Error(`La ruta "${r.name}" de Teotihuacán quedó sin paradas. Revisa la columna rutas de TEO_PIEZAS (debe decir express y/o completa). No se publicó nada.`);
+  }
 
   // ---- Todo validado: ahora sí se escribe ----
   const mnaDir = path.join(DATA_DIR, 'mna');
@@ -589,7 +717,7 @@ export async function sync() {
 
   // Los textos de pago NO van en los datos públicos: se guardan aparte (datos-privados/) y se suben a R2
   const publicPieces = pieces.map((piece) => splitPiece(piece).pub);
-  writePrivate(process.cwd(), pieces, console.log);
+  writePrivate(process.cwd(), todasPiezas, console.log);
 
   write(path.join(DATA_DIR, 'rooms.json'), rooms);
   write(path.join(DATA_DIR, 'pieces.json'), publicPieces);
@@ -604,6 +732,20 @@ export async function sync() {
     write(siteJsonPath, manifest);
     write(mnaJsonPath, manifest);
     console.log('✅ Rutas sugeridas actualizadas en site.json y mna.json.');
+  }
+
+  if (teo) {
+    const teoDir = path.join(DATA_DIR, 'teotihuacan');
+    fs.mkdirSync(teoDir, { recursive: true });
+    write(path.join(teoDir, 'rooms.json'), teo.rooms);
+    write(path.join(teoDir, 'pieces.json'), teo.pieces.map((piece) => splitPiece(piece).pub));
+    const teoManifestPath = path.join(teoDir, 'teotihuacan.json');
+    if (fs.existsSync(teoManifestPath)) {
+      const manifest = JSON.parse(fs.readFileSync(teoManifestPath, 'utf-8'));
+      manifest.routes = teoRoutes;
+      write(teoManifestPath, manifest);
+    }
+    console.log(`✅ Teotihuacán: ${teo.rooms.length} zonas, ${teo.pieces.length} piezas (${teo.pieces.length - teoSinFoto} con foto) y rutas: ${teoRoutes.map((r) => `${r.name} (${r.stops.length})`).join(', ')}.`);
   }
 
   console.log(`✅ Sincronización exitosa: ${rooms.length} salas y ${pieces.length} piezas (${pieces.length - sinFoto} con foto, ${sinFoto} sin foto).`);

@@ -41,6 +41,8 @@ export const ui = defineGroup(
       venuesAria: 'Museos',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'sala', 'salas')} y ${plural(works, 'obra', 'obras')} explicadas`,
       enter: 'Entrar al museo',
+      siteStats: (zones: number, stops: number) => `${plural(zones, 'zona', 'zonas')} y ${plural(stops, 'parada explicada', 'paradas explicadas')}`,
+      enterSite: 'Entrar al sitio',
       soonTag: 'Próximamente',
       howTitle: 'Cómo funciona',
       howSteps: (free: number, hours: number, devices: number) => [
@@ -175,6 +177,8 @@ export const ui = defineGroup(
       venuesAria: 'Museums',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'room', 'rooms')} and ${plural(works, 'work', 'works')} explained`,
       enter: 'Enter the museum',
+      siteStats: (zones: number, stops: number) => `${plural(zones, 'zone', 'zones')} and ${plural(stops, 'stop', 'stops')} explained`,
+      enterSite: 'Enter the site',
       soonTag: 'Coming soon',
       howTitle: 'How it works',
       howSteps: (free: number, hours: number, devices: number) => [
@@ -307,6 +311,8 @@ export const ui = defineGroup(
       venuesAria: 'Musées',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'salle', 'salles')} et ${plural(works, 'œuvre expliquée', 'œuvres expliquées')}`,
       enter: 'Entrer dans le musée',
+      siteStats: (zones: number, stops: number) => `${plural(zones, 'zone', 'zones')} et ${plural(stops, 'étape expliquée', 'étapes expliquées')}`,
+      enterSite: 'Entrer sur le site',
       soonTag: 'Bientôt',
       howTitle: 'Comment ça marche',
       howSteps: (free: number, hours: number, devices: number) => [

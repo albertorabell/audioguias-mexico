@@ -189,6 +189,24 @@ export interface SiteManifest {
   floorplan_url?: string;
   rooms?: Room[];
   routes: SiteRoute[];
+  /** "zones" = sitio al aire libre sin pisos (Teotihuacán): el plano se arma con zone_map y no hay selector de pisos ni "arma tu ruta". */
+  layout?: 'zones';
+  /** Dónde están las salas y las piezas cuando no son las globales del MNA. */
+  rooms_path?: string;
+  pieces_path?: string;
+  zone_map?: ZoneMap;
+}
+
+/** Cómo se acomodan las zonas en el plano de un sitio al aire libre. Los valores son room_id. */
+export interface ZoneMap {
+  /** Columna central, de norte (arriba) a sur (abajo). */
+  center: string[];
+  west: string[];
+  east: string[];
+  /** Fila de abajo, de izquierda a derecha. */
+  south: string[];
+  top_label?: Partial<Record<'es' | 'en' | 'fr' | 'pl', string>>;
+  bottom_label?: Partial<Record<'es' | 'en' | 'fr' | 'pl', string>>;
 }
 
 export interface VisualChallengeItem {

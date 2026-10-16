@@ -66,6 +66,11 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
           {isLoading && <div className="h-80 rounded-[20px] bg-surface animate-pulse" />}
           {active.map((rawSite) => {
             const site = localizeSite(rawSite, currentLanguage);
+            // Las cifras y la foto de portada vienen de los datos del MNA; los demás sitios usan sus cifras de sites.json y no llevan foto hasta tener una con licencia
+            const isMain = rawSite.id === 'MNA';
+            const statsText = isMain
+              ? stats && stats.works > 0 ? u.venueStats(stats.rooms, stats.works) : ''
+              : rawSite.highlights_count > 0 ? u.siteStats(rawSite.total_stops, rawSite.highlights_count) : '';
             return (
               <div
                 key={site.id}
@@ -81,7 +86,7 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
                 className="block rounded-[20px] overflow-hidden bg-surface border border-line cursor-pointer active:scale-[0.99] transition-transform"
               >
                 <div className="relative aspect-[16/10] bg-raised">
-                  {coverPiece && (
+                  {isMain && coverPiece && (
                     <PieceImage
                       filename={coverPiece.image_filename}
                       pieceId={coverPiece.piece_id}
@@ -97,10 +102,8 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
                 </div>
                 <div className="p-5 pt-4">
                   <h2 className="font-serif text-h2 font-medium tracking-[-0.015em]">{site.name}</h2>
-                  {stats && stats.works > 0 && (
-                    <p className="mt-1.5 text-ui text-ink-2">{u.venueStats(stats.rooms, stats.works)}</p>
-                  )}
-                  <span className="btn-primary w-full mt-4">{u.enter}</span>
+                  {statsText && <p className="mt-1.5 text-ui text-ink-2">{statsText}</p>}
+                  <span className="btn-primary w-full mt-4">{isMain ? u.enter : u.enterSite}</span>
                 </div>
               </div>
             );

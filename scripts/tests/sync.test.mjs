@@ -185,3 +185,55 @@ test('textos de pago: los datos públicos no llevan guiones, retos, mito ni fich
   assert.equal(en.lang, 'en');
   assert.ok(!fs.existsSync(path.join(dir, 'datos-privados/texto/fr.json')));
 });
+
+test('Teotihuacán: sus zonas, piezas y las dos rutas salen de TEO_SALAS y TEO_PIEZAS (columna rutas)', () => {
+  const dir = makeProject({ withManifest: false });
+  const csvDir = path.join(dir, 'csv');
+  fs.writeFileSync(csvDir + '/teo_salas.csv', csv(['room_id', 'numero_oficial', 'nombre_oficial', 'piso'], [
+    ['teo-01-sur', '1', 'Zona Sur', 'Aire libre'],
+    ['teo-02-norte', '2', 'Zona Norte', 'Aire libre e interior'],
+  ]));
+  const h = ['piece_id', 'room_id', 'orden_sugerido', 'titulo', 'guion_corto', 'guion_largo', 'rutas', 'piso'];
+  const rows = [];
+  for (let i = 0; i < 22; i++) {
+    const id = `teo_${String(i).padStart(2, '0')}`;
+    // Las filas del Sheets no tienen que ir en orden: la zona y orden_sugerido mandan
+    rows.push([id, i < 11 ? 'teo-01-sur' : 'teo-02-norte', String((i % 11) + 1), `Parada ${i}`, `Texto corto TEO ${i}.`, `Texto largo TEO ${i}.`, i % 5 === 0 ? 'express|completa' : 'completa', 'Aire libre']);
+  }
+  rows.reverse();
+  fs.writeFileSync(csvDir + '/teo_piezas.csv', csv(h, rows));
+  fs.mkdirSync(path.join(dir, 'public/data/teotihuacan'), { recursive: true });
+  fs.writeFileSync(path.join(dir, 'public/data/teotihuacan/teotihuacan.json'), JSON.stringify({ site_id: 'TEOTIHUACAN', routes: [] }));
+
+  runSync(dir);
+  const man = JSON.parse(fs.readFileSync(path.join(dir, 'public/data/teotihuacan/teotihuacan.json'), 'utf-8'));
+  assert.deepEqual(man.routes.map((r) => r.id), ['ruta-express', 'ruta-completa']);
+  const [express, completa] = man.routes;
+  assert.deepEqual(express.stops.map((s) => s.id), ['teo_00', 'teo_05', 'teo_10', 'teo_15', 'teo_20']);
+  assert.equal(completa.stops.length, 22);
+  assert.deepEqual(completa.stops.map((s) => s.id), [...completa.stops.map((s) => s.id)].sort());
+  assert.equal(express.stops[0].file, 'data/teotihuacan/pieces.json');
+  assert.ok(express.name_en && express.description_fr && express.name_pl);
+
+  // Zonas sin pisos y con su etiqueta; piezas en la planta baja
+  const rooms = read(dir, 'teotihuacan/rooms.json');
+  assert.deepEqual(rooms.map((r) => [r.piso, r.etiqueta, r.etiqueta_en]), [['PB', 'Zona 1', 'Zone 1'], ['PB', 'Zona 2', 'Zone 2']]);
+  const pieces = read(dir, 'teotihuacan/pieces.json');
+  assert.equal(pieces.length, 22);
+  assert.ok(pieces.every((p) => p.piso === 'PB'));
+  // El museo no cambia y el texto de pago de Teotihuacán no se publica: va al archivo privado junto con el del museo
+  assert.equal(read(dir, 'pieces.json').length, 25);
+  const crudo = fs.readFileSync(path.join(dir, 'public/data/teotihuacan/pieces.json'), 'utf-8');
+  assert.ok(!crudo.includes('Texto largo TEO') && !crudo.includes('guion_corto') && !crudo.includes('guion_largo'));
+  const es = JSON.parse(fs.readFileSync(path.join(dir, 'datos-privados/texto/es.json'), 'utf-8'));
+  assert.ok(es.pieces.teo_00.guion_largo && es.pieces.p00.guion_largo);
+});
+
+test('Teotihuacán: una ruta sin paradas detiene la publicación', () => {
+  const dir = makeProject({ withManifest: false });
+  const csvDir = path.join(dir, 'csv');
+  fs.writeFileSync(csvDir + '/teo_salas.csv', csv(['room_id', 'numero_oficial', 'nombre_oficial'], [['teo-01-sur', '1', 'Zona Sur']]));
+  const rows = Array.from({ length: 21 }, (_, i) => [`teo_${i}`, 'teo-01-sur', String(i + 1), `Parada ${i}`, 'Corto.', 'Largo.', 'completa']);
+  fs.writeFileSync(csvDir + '/teo_piezas.csv', csv(['piece_id', 'room_id', 'orden_sugerido', 'titulo', 'guion_corto', 'guion_largo', 'rutas'], rows));
+  assert.throws(() => runSync(dir), (e) => /Ruta Exprés/.test(String(e.stderr) + String(e.message)));
+});
