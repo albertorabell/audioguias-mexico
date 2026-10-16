@@ -1,0 +1,27 @@
+name: Capturas de Teotihuacán (temporal)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  capturas:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install --no-audit --no-fund
+      - run: node scripts/sync-sheets.js
+      - run: VITE_PUBLISHED_LANGUAGES=es,en,fr,pl npx vite build --outDir dist-cap
+      - run: |
+          npm install --no-save --no-audit --no-fund @playwright/test@1.55.0
+          npx playwright install --with-deps chromium
+      - run: |
+          npx vite preview --outDir dist-cap --port 4175 --strictPort &
+          sleep 5
+          node e2e/capturas.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: capturas-teo
+          path: capturas-teo
