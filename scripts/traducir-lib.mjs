@@ -388,7 +388,8 @@ export function validateTranslation(source, out, glossaryEntries = [], { fake = 
     if (sText.length >= 80) {
       const ratio = oText.length / sText.length;
       if (ratio < 0.5 || ratio > 1.5) errors.push(`${f}: el largo no cuadra (${Math.round(ratio * 100)} % del español)`);
-      if (spanishRatio(oText, lang) > 0.08) errors.push(`${f}: parece que quedó texto en español`);
+      // En textos cortos unos pocos nombres propios en español (museos, títulos de obras) ya pesan mucho: se tolera más
+      if (spanishRatio(oText, lang) > (sText.length < 500 ? 0.2 : 0.08)) errors.push(`${f}: parece que quedó texto en español`);
     }
 
     // En francés los miles llevan espacio y los decimales coma: se comparan solo los dígitos
