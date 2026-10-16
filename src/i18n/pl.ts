@@ -390,6 +390,7 @@ export const PL_GROUPS: Record<string, any> = {
     routes: {
       title: 'Trasy',
       intro: 'Wybierz gotową trasę albo stwórz własną. Aplikacja poprowadzi Cię dzieło po dziele.',
+      introFixed: 'Wybierz gotową trasę. Aplikacja poprowadzi Cię przystanek po przystanku.',
       current: 'Twoja trasa',
       progress: (a: number, t: number) => `Przystanek ${a} z ${t}`,
       continue: 'Kontynuuj',

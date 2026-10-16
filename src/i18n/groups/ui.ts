@@ -113,6 +113,7 @@ export const ui = defineGroup(
     routes: {
       title: 'Recorridos',
       intro: 'Sigue un recorrido ya armado o crea uno a tu medida. La app te lleva obra por obra.',
+      introFixed: 'Elige un recorrido ya armado. La app te lleva parada por parada.',
       current: 'Tu recorrido',
       progress: (n: number, total: number) => `Parada ${n} de ${total}`,
       continue: 'Continuar',
@@ -247,6 +248,7 @@ export const ui = defineGroup(
     routes: {
       title: 'Tours',
       intro: 'Follow a ready-made tour or build your own. The app guides you work by work.',
+      introFixed: 'Choose a ready-made route. The app guides you stop by stop.',
       current: 'Your tour',
       progress: (n: number, total: number) => `Stop ${n} of ${total}`,
       continue: 'Continue',
@@ -383,6 +385,7 @@ export const ui = defineGroup(
     routes: {
       title: 'Parcours',
       intro: 'Suivez un parcours tout prêt ou composez le vôtre. L’application vous guide œuvre par œuvre.',
+      introFixed: 'Choisissez un parcours tout prêt. L’application vous guide étape par étape.',
       current: 'Votre parcours',
       progress: (n: number, total: number) => `Étape ${n} sur ${total}`,
       continue: 'Continuer',

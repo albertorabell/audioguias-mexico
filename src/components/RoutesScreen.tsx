@@ -123,7 +123,7 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
         ) : (
           <section className="px-5">
             <h1 className="font-serif text-h1 font-medium tracking-[-0.02em]">{u.routes.title}</h1>
-            <p className="mt-2 text-[1.0625rem] leading-relaxed text-ink-2">{u.routes.intro}</p>
+            <p className="mt-2 text-[1.0625rem] leading-relaxed text-ink-2">{onOpenWizard ? u.routes.intro : u.routes.introFixed}</p>
           </section>
         )}
 
