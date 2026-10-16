@@ -1,0 +1,54 @@
+{
+  "id": "mna_s21_danza_tlacololeros",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "80fff9a06020ea2e",
+      "texto": "Danza de los Tlacololeros"
+    },
+    "frase_gancho": {
+      "hash": "089df9bfb68d4bc7",
+      "texto": "Dancers with whips that crack like thunder to call the rain in Guerrero."
+    },
+    "puente_narrativo": {
+      "hash": "3f6cb0e22830de95",
+      "texto": "From the dancers, we move on to a garment with a legendary reputation. Look for an old huipil, woven with white and brown cotton, with a two-headed eagle embroidered on the front."
+    },
+    "guion_corto": {
+      "hash": "14229a2b15892dfa",
+      "texto": "Tlacolol is the name of a cultivated field on a hillside. It is cleared by burning the brush before planting corn and beans. That is where the tlacololeros get their name. They are dancers from the mountains of Guerrero who portray this work in the fields. They wear clothes of rough cloth and straw hats, and masks with exaggerated features, often painted red. In their hands they carry a whip, and its crack sounds like the thunder and the fire of the clearing. The dance is told like a small play. The farmers work the land and hunt a tiger that threatens the community and its animals. It is also a way of asking for the rain to arrive and for the harvest to be good."
+    },
+    "guion_largo": {
+      "hash": "e773d49662ee68b2",
+      "texto": "Tlacolol is a Nahuatl word that names a type of farmland. It is a piece of hillside where the brush is cut down, burned, and then planted with corn and beans. In the mountains of Guerrero, where there is almost no flat land, this system is the foundation of the agricultural cycle. That is where the tlacololeros get their name, the dancers who portray this work.\n\nTheir dance follows the tasks of the field. The dancers imitate the planting and complain to their leader about the damage done by the tiger. In one version from Guerrero that has been studied, the farmers carry the names of plants, such as Green Chile or Squash Plant. There is also a clown who parodies the others and makes faces at the audience.\n\nThe tiger is the villain. In Guerrero, as in much of Mexico, “tiger” is the popular name for the jaguar. In the dance it attacks the animals of the community, and so a hunt is organized. The leader calls his helpers. A tracking dog named Maravilla follows the trail. After a fight, the tiger dies. The names change from town to town, but the story is similar. You saw something like it in the [painting of Xalitla](mna_s21_pintura_xalitla), where the dancers of the tecuanes appear.\n\nThe part people remember most is the sound. Each tlacololero carries a whip, which they call a chirrión there, and cracks it against the padded arm of a fellow dancer. That crack is not a decoration. One study compares it to the creaking of burning trees, and another to the thunder that announces the rain. It is fire and storm at once.\n\nThe clothing and the masks are simple. The descriptions speak of outfits made of sacking or rough cloth and wide-brimmed straw hats. The masks have exaggerated features, with elongated, grimacing mouths, and they are often red. The painter Carlos Mérida, the artist of the stained-glass window in the Gran Nayar Hall, drew the dance around 1939. He did it in a lithograph from his series “Dances of Mexico,” with red masks and sackcloth outfits.\n\nAll of this has one purpose: to ask for water. A study of the Central Mountain region of Guerrero reports that the dance is part of the ceremonies to ask for rain. These ceremonies end on the hills around May second and third. A national newspaper also reports that the tlacololeros “are summoners of life.” They ask for rain so that there will be a good harvest of corn, beans, and squash.\n\nIt is, then, the fourth way of asking for rain that you encounter on the tour. The Maya do it with the Cha Chaak, the Rarámuri with the yúmari, and the Nahua with the [Tlamanaliztli altar](mna_s21_altar_tlamanaliztli) you have just seen. Here the request is made with the feet, with the masks, and with the crack of the whip.\n\nIt is not all a single dance. In Zitlala, Guerrero, there are ritual tiger fights, with leather helmets, and in other towns the tecuanes are danced. They are relatives of the tlacololeros, but they are not the same. Today the groups gather at events like the one in Chilpancingo. The INAH has warned that these traditions may be lost if younger generations lose interest."
+    },
+    "retos_observacion": {
+      "hash": "be7cb67907bdf25a",
+      "texto": [
+        "Look for the exaggerated features of the masks: mouths, noses, and eyebrows",
+        "Notice the predominant color of the mask’s face",
+        "Find the whip and the rough-cloth clothing of the dancers"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f082e46e690bbd31",
+      "texto": {
+        "Culture": "Nahua (Guerrero mountains)",
+        "Period": "Living tradition",
+        "Material": "Masks, coarse-cloth clothing, and the dancers’ whips",
+        "Origin": "Guerrero"
+      }
+    },
+    "faq_mito": {
+      "hash": "8cd1e6214e91a144",
+      "texto": {
+        "pregunta": "Myth: There are no tigers in Mexico, so the “tiger” of these dances is an invention.",
+        "respuesta": "Reality: In popular speech in Mexico, “tiger” is the name for the jaguar, and in the dance it represents an animal that threatens the community."
+      }
+    }
+  }
+}

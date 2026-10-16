@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -11,27 +11,27 @@
       "texto": "Offering 4 of La Venta"
     },
     "frase_gancho": {
-      "hash": "f082956a27403e30",
-      "texto": "Sixteen figures and six green stone axes, buried together at La Venta."
+      "hash": "8a6aafc5da302ef7",
+      "texto": "Sixteen stone figures gathered together forever in front of six axes."
     },
     "puente_narrativo": {
-      "hash": "e873d5992e8ed7e8",
-      "texto": "We leave the great head behind to look at something quieter: a group of figures and axes that were buried together, with a ritual purpose."
+      "hash": "c68c931cfac21e03",
+      "texto": "Those jade axes cut nothing. Now look for a larger one, with the face of a supernatural jaguar and a cleft at the top of its head."
     },
     "guion_corto": {
-      "hash": "01dcca7478ddc868",
-      "texto": "Sixteen stone figures and six green axes make up Offering 4 of La Venta, in Tabasco. The figures are statuettes of men and measure between 16 and 20 centimeters tall. The axes, placed upright like stelae, measure between 23 and 27. Everything is carved from serpentine, jadeite, and green granite. It is the work of the Olmec, from the Middle Preclassic. It was discovered in 1955 by the archaeologist Eduardo Contreras, in Complex A. An offering is a set of objects left with a ritual purpose. That is why the order in which the pieces were placed matters, and not just each one on its own. Look at the figures as a single group, which is how they were conceived."
+      "hash": "2ee3901f9bf72c72",
+      "texto": "This miniature scene comes from La Venta, in Tabasco, and it was discovered in 1955. It consists of sixteen little stone figures, between sixteen and twenty centimeters tall, standing in front of a row of six slender axes made of jade and serpentine. Fifteen of them face a central figure, carved from a different stone, who has his back to the axes. All of them have elongated heads, from intentional skull deformation, slanted eyes, and mouths with downturned corners. No one knows for certain what gathering it represents: a council, a ceremony, a coronation? What is certain is that the Olmec buried it on purpose and covered it with colored sands, so that the scene would stay fixed for a long time."
     },
     "guion_largo": {
-      "hash": "cfff1b0bc59a600b",
-      "texto": "La Venta is an Olmec site in the municipality of Huimanguillo, in Tabasco. There, in Complex A, this offering appeared in 1955, discovered by the archaeologist Eduardo Contreras. It brings together 16 statuettes of men and six axes, and belongs to the Middle Preclassic.\n\nThe statuettes measure between 16 and 20 centimeters tall. The axes are taller, from 23 to 27 centimeters, and are arranged upright, like stelae. Everything was carved from serpentine, jadeite, and green granite.\n\nSince it was found, it has been studied as a single group and not as separate pieces. It is a composition conceived to be seen as a whole. An offering is left buried with a ritual purpose, and nothing is placed by chance. The position of each piece, the number, and the materials are all part of the message.\n\nWhat scene the Olmec meant to represent has not been confirmed. What can be seen is quantity, order, and carefully chosen materials.\n\nLa Venta was one of the first Olmec ceremonial centers, along with San Lorenzo and Tres Zapotes. The Olmec lived in lowland rainforests and along mighty rivers in southern Veracruz and Tabasco. Count the statuettes and the axes, and compare their heights: the axes are taller than the figures."
+      "hash": "cf40b7feea64ddb7",
+      "texto": "Imagine that someone freezes a meeting in time. That is what this piece is: a complete scene, with characters, captured in a single instant and kept underground for more than two thousand six hundred years. It is Offering 4 of La Venta, and it is among the most famous in Mexican archaeology.\n\nLet us see what is there. Sixteen small figures, standing in a row. Fifteen are made of jade, serpentine, or green stone; the central one is made of a different stone, of a lighter tone, and stands with its back to six axes that rise like stelae, or like small columns. The other figures look at it. We do not know who it is: a chief, a god, a priest, someone being judged, a king taking power?\n\nThat is the question no one has been able to answer. Several ideas have been proposed: a council of lineage chiefs, an enthronement ceremony, a ritual assembly, a trial. Each specialist reads the scene differently. It is a theater of miniatures that no one has managed to read entirely, and perhaps that is its charm: whoever sees it completes the story on their own.\n\nLook at the heads. All of them are elongated, backward and upward, because from infancy the skull was shaped with small boards. You already saw this custom in the introduction hall, among the skulls with deformation and the filed teeth, and you will see it again in the Maya Hall, in the profile of [Pakal](mna_s09_mascara_pakal). It was a way of saying who you were: the head as a sign of belonging or of prestige. And the faces share the Olmec mouth with downturned corners, which you already saw in the babies of Tlatilco and in the boy of Las Limas.\n\nThe most extraordinary thing is what they did afterward. The Olmec did not leave the offering in view: they buried it on purpose, in a pit, and covered it with layers of colored sands, white, yellow, and red. It was not made for anyone to admire. It was made to exist underground, like a seed. In the Mesoamerican world, to bury was to sow: to give the earth what was most precious, so that it would return what the people needed. The Mexica would do the same at the Templo Mayor, two thousand years later, with hundreds of offerings.\n\nLa Venta was the Olmec capital that followed San Lorenzo. It stood on an island surrounded by swamps, in Tabasco, and there a great clay pyramid was built, one of the first great constructions of Mesoamerica. It also had four colossal heads, sisters of the one you saw at the beginning of the hall. And beneath its courtyards, like this one, jade offerings carefully buried were found.\n\nThis offering was discovered in 1955, during an expedition that explored La Venta. Imagine it: the archaeologists were removing the earth and suddenly the figures appeared, just as they had been left almost three thousand years earlier, looking at one another. It is one of those images that stay with you: a conversation that no one heard, and that no one has stopped wanting to understand."
     },
     "retos_observacion": {
-      "hash": "4b8de9c5941cfb7a",
+      "hash": "cb30eef2520a8a96",
       "texto": [
-        "Count the statuettes: there are sixteen figures of men.",
-        "Find the six axes placed upright, like stelae.",
-        "Compare the height of the axes with that of the figures."
+        "Count the figures and find the one that is different from the others",
+        "Observe the elongated shape of the heads",
+        "Find the six axes and notice how they are arranged"
       ]
     },
     "especificaciones": {
@@ -46,10 +46,10 @@
       }
     },
     "faq_mito": {
-      "hash": "bdab7f5bef1aef4d",
+      "hash": "26d3f5deae7cdca1",
       "texto": {
-        "pregunta": "Myth: The figures of Offering 4 of La Venta are toys or decorative dolls.",
-        "respuesta": "Reality: They form an offering. They are sixteen statuettes and six axes of serpentine, jadeite, and green granite, found in Complex A of La Venta."
+        "pregunta": "Myth: This offering is a sculpture made to be displayed.",
+        "respuesta": "Reality: It was made to be buried: no one was meant to see it. What mattered was that it existed underground, not that it be admired."
       }
     }
   }

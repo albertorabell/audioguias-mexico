@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -11,27 +11,27 @@
       "texto": "Chinkultic Ball Game Marker"
     },
     "frase_gancho": {
-      "hash": "49f2d1aa4eb3c378",
-      "texto": "A stone disc with an exact date: May 19, 591."
+      "hash": "631f9bc60f63f64b",
+      "texto": "A ballplayer in full motion, with the exact date carved around him."
     },
     "puente_narrativo": {
-      "hash": "5533b85030459571",
-      "texto": "We move on to Chiapas, with a stone disc that preserves an exact date from the ball game."
+      "hash": "8b82f6f3fa64dad2",
+      "texto": "From the game we move to the façade of a temple. Look for a long frieze, more than eight meters wide, with a king whose face is framed in feathers and two elders at his sides."
     },
     "guion_corto": {
-      "hash": "bf5e5bcd20192906",
-      "texto": "This disc preserves an exact date: May 19 in the year 591 AD. It is written in the Long Count, the system the Maya used to count the days. This is the Chinkultic Ball Game Marker, a limestone disc that was part of a ball court. It measures 56 centimeters in diameter and 12.5 in thickness. It comes from La Esperanza, in Chinkultic, Chiapas. At the center is a ball player in the middle of a play, beside a very large ball. He wears a feathered headdress. Around the edge runs a band of twelve glyphs. It is a work of the Early Classic, and more than one thousand four hundred years later, it still tells us when it was dedicated."
+      "hash": "7f7dea46b3480df8",
+      "texto": "This limestone disk, about fifty-six centimeters in diameter, is a ball court marker. It was found at La Esperanza, near Chinkultic, in Chiapas. At the center, a player resting on one knee drives a rubber ball with his hip. He wears a deerskin loincloth and a protective yoke. Look closely at the ball: inside it, a head is carved, a reference to the myth of the Popol Vuh, in which the hero twins play ball against the lords of death. Around the edge are glyphs with a date in the Maya Long Count, which corresponds to the year 591. It is a game, a myth, and a calendar in a single stone."
     },
     "guion_largo": {
-      "hash": "88cbef04ff741d0b",
-      "texto": "A stone disc can tell you the exact day it was made. This one does.\n\nIt is the Chinkultic Ball Game Marker. It is made of limestone, measures 56 centimeters in diameter and 12.5 in thickness, and was part of a ball court. It comes from La Esperanza, in Chinkultic, Chiapas. That site lies 8 kilometers west of the main zone.\n\nThe most valuable thing about it is its date. It is written in the Long Count, a Maya system for keeping track of the days. The date is 9.7.17.12.14, and it corresponds to May 19 in the year 591 AD.\n\nThat places it in the Early Classic, before the period of greatest splendor of the Maya cities.\n\nBut the disc also shows a scene. A band of twelve glyphs, with numerals made of bars and dots, surrounds the relief. At the center is a ball player in the middle of a play, beside a very large ball. He wears a feathered headdress.\n\nWhen you look at the disc, remember what it was for. It was part of the setting of one of the best-known ritual games of Mesoamerica. And it has reached us here with its date intact, more than one thousand four hundred years later."
+      "hash": "d5ab082577ddc1e5",
+      "texto": "In Teotihuacán you saw a ball court marker; on the Gulf Coast, yokes and palmas. Here, at last, you see the complete game, with the player in action. And with a date we can read.\n\nLet's begin with the date. The Maya counted days with a system called the Long Count, which fixes a single day with a series of five numbers. Here a series appears: nine, seven, seventeen, twelve, fourteen. According to the most widely used calculation, it equals May 21 of the year 591. It is one of the most precise dates in Maya art of that time. And since the Long Count begins around the year three thousand one hundred fourteen BC, this stone was made about three thousand seven hundred years after that symbolic beginning.\n\nNow the player. He is in an almost dance-like pose: one knee on the ground, the torso twisted, the arm extended. He wears the yoke you saw loose in the Gulf hall, along with a leather loincloth. Here you see it in use, although it is thought that, for actual play, the yoke was lighter. On his left arm he seems to carry a tablet with glyphs. Some identify him as one of the hero twins of the Popol Vuh, because of a lock of hair on his forehead.\n\nAnd the ball. Inside it there is a face. Remember what I told you in Oaxaca, about the giant bat Camazotz? In the Popol Vuh, that bat cuts off the head of one of the twins, Hunahpú, and the lords of death use it as a ball on their court. The other twin, through cunning, manages to recover it. Many think that this face inside the ball recalls that passage. The Popol Vuh was written in the sixteenth century, but its stories are much older, and here they seem to be already present.\n\nThe place of origin is also worth noting. Chinkultic lies beside the colorful lakes of Montebello, in Chiapas, near the border with Guatemala, in a region of hills and blue waters. This disk did not appear in the main city, but in a nearby village, La Esperanza. It is a sign that the ball game and its mythology reached even the most distant corners of the region.\n\nBehind all this lies an idea: the court was a portal to the underworld. The players were playing against death. When the ball went from one side to the other, the Sun crossed the sky and sank into the night, only to rise again. A game, like the yoke from the Gulf, that kept the world in motion.\n\nA note about a famous “prophecy.” It was said that the Maya had announced the end of the world in December of the year two thousand twelve. That is not true. That date closed a great cycle of the Long Count and opened another, like a car’s odometer when it returns to zero. No Maya text speaks of an end of the world on that date.\n\nMarkers like this one were placed on the court, along its central axis. Today the court has disappeared, and it is the marker that tells us who played and when."
     },
     "retos_observacion": {
-      "hash": "be964bbb3dfee035",
+      "hash": "9ab6f9b05a61ff03",
       "texto": [
-        "Look for the band of glyphs that surrounds the relief: the date is there.",
-        "Find the ball player and his feathered headdress.",
-        "Notice the large ball beside the player."
+        "Look at the player’s posture: which knee is he resting on?",
+        "Find the yoke and the loincloth he is wearing",
+        "Observe the face that appears inside the ball"
       ]
     },
     "especificaciones": {
@@ -45,10 +45,10 @@
       }
     },
     "faq_mito": {
-      "hash": "a6780702e50ef65f",
+      "hash": "9b079b6c03d4b5b8",
       "texto": {
-        "pregunta": "Myth: In the Maya ball game, players hit the ball with their hands, as in volleyball.",
-        "respuesta": "Reality: Players hit the ball mainly with their hips, and protected themselves with yokes and leather aprons."
+        "pregunta": "Myth: The Maya predicted the end of the world in December of two thousand twelve.",
+        "respuesta": "Reality: That date closed a great cycle of their calendar and opened another. No Maya text announces the end of the world."
       }
     }
   }

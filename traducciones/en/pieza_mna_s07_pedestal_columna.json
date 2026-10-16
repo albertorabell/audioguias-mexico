@@ -1,0 +1,55 @@
+{
+  "id": "mna_s07_pedestal_columna",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7a54563590a8cc4e",
+      "texto": "Ceramic Support in the Shape of a Vertebral Column"
+    },
+    "frase_gancho": {
+      "hash": "eb977b145880b6ac",
+      "texto": "It looks like a bone, but it is painted clay: vertebra after vertebra, with astonishing accuracy."
+    },
+    "puente_narrativo": {
+      "hash": "2c127249c9ba4879",
+      "texto": "With the bones of the ancestors, our journey through Oaxaca comes to an end. Now we descend to the hot jungles of the Gulf Coast, the land of the Olmec. Look for a giant stone head, with a helmet and a stern face."
+    },
+    "guion_corto": {
+      "hash": "e28c7b90a60c6817",
+      "texto": "It looks like a piece of a skeleton, but it is made of clay. It is a human spinal column modeled vertebra by vertebra, so faithfully that specialists consider it anatomically correct. The Zapotec made it, and it comes from Monte Albán, in Oaxaca. It is about two thousand years old and still holds traces of orange, red, and white paint. It is thought to have been a support, that is, a base for holding up other objects, although we do not know which ones. Its shape speaks of a very Zapotec idea: the bones of the ancestors mattered. The Zapotec buried their dead beneath the floors of their homes and treated them as part of the family. This piece carries that bond over into an object of clay."
+    },
+    "guion_largo": {
+      "hash": "082feb3ddccbc6de",
+      "texto": "Think about what a spinal column does: it holds up the entire body. About two thousand years ago, someone modeled one in clay so that it would hold up other things. As far as we know, that was its job: to serve as a support. But a base with this shape says much more than any plain base.\n\nThe piece is forty-three centimeters tall and is modeled with an unusual anatomical realism. Each vertebra can be told apart from the others, stacked one on top of another as in a real skeleton. Traces of orange, red, and white pigment remain, so the clay did not look as it does now: it had color. The catalogs do not say where in Monte Albán it was found. Specialists read it as a symbol of the bond between the living and the dead. It shows the importance the Zapotec gave to bones.\n\nIt comes from Monte Albán, the Zapotec city with which this hall began, the hall of [the Danzantes](mna_s07_danzante_montealban). On that flattened mountaintop, two hundred forty-nine tombs are known, according to the INAH, made for the most important people of each family. But most people did not have a formal tomb. They rested in different corners of their own dwelling, beneath the floors, in pits dug inside the houses.\n\nThat changes the way we think about death. The dead were not far away: they slept beneath the feet of those who went on living. Sometimes the room above a tomb served as an altar, and offerings were left there regularly. A Zapotec house was at once a home and a place of memory.\n\nBones carried their own weight. In 2009, archaeologists from the Field Museum of Chicago excavated a simple house at a site called the Fortress of Mitla, in Oaxaca. They found a tomb that was missing a thigh bone. Someone had removed it between twenty-five and one hundred years after the death, had sealed the tomb again, and had left a new offering. In carvings on some facades, chiefs appear carrying thigh bones in their rituals. Archaeologists think that this bone represented a line of authority that came from a founding ancestor.\n\nPerhaps whoever took a bone was claiming the office that their ancestor had held. The Mixtec thought something similar, as you saw with the turquoise-covered skull from Tomb 7. And they reopened a Zapotec tomb to bury their own lord. In Oaxaca, bones were memory, family, and power.\n\nAt the beginning of the tour, in the hall of the Peopling of the Americas, you saw another bone worked by human hands. It was the [sacrum of Tequixquiac](mna_s02_sacro_tequixquiac), the bone where the spine ends. That one was carved more than twelve thousand years ago to bring a face out of it. This one was copied in clay so that it could hold something up. In both cases, the bone matters.\n\nWe do not know what it held up or in what ceremony it was used. Even so, a spinal column of clay has something of a reminder about it. Beneath the skin of every person there is a structure that keeps them standing. The memory of the ancestors did the same for the family."
+    },
+    "retos_observacion": {
+      "hash": "abf9e4a5f61b4941",
+      "texto": [
+        "Count the vertebrae, one on top of another",
+        "Look for traces of orange, red, or white paint on the clay",
+        "Look at the ends: which part could hold up another object?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e8f57937fc44439",
+      "texto": {
+        "Culture": "Zapotec",
+        "Period": "Late Preclassic (Monte Albán II, around 200 BC-100 AD)",
+        "Material": "Modeled clay with orange, red, and white pigments",
+        "Origin": "Monte Albán, Oaxaca",
+        "Dimensions": "43 cm high x 15 cm wide"
+      }
+    },
+    "faq_mito": {
+      "hash": "c16966418aa3c879",
+      "texto": {
+        "pregunta": "Myth: The Zapotec buried their dead far from their homes, in separate cemeteries.",
+        "respuesta": "Reality: Most of them rested inside the dwellings, beneath the floors, and the dead continued to be part of the family."
+      }
+    }
+  }
+}

@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -15,33 +15,32 @@
       "texto": "Three young people buried together on red earth, tens of thousands of years ago."
     },
     "puente_narrativo": {
-      "hash": "37f6097f2da491ff",
-      "texto": "We leap forward millions of years: from Lucy to people like you, Homo sapiens, who already buried their dead with ceremony."
+      "hash": "98e1c9c337b09ecf",
+      "texto": "From a tomb we move on to skulls: bones tell stories too. Look for the skull mural in this hall and compare their shapes, their teeth, and the traces of customs left by very different peoples."
     },
     "guion_corto": {
-      "hash": "10047e92f324898f",
-      "texto": "Three young people rest together on earth stained red. Someone laid them out this way tens of thousands of years ago, in the Upper Paleolithic. This is a life-size recreation of a burial from Dolní Věstonice, in Moravia, in the south of today’s Czech Republic. They were people of the same species as you, Homo sapiens, who lived by hunting and gathering. They were between sixteen and twenty years old and were buried at the same time, with no signs of violent death. The bodies bear red ocher and ornaments made from pierced teeth. Specialists see in these details one of the earliest pieces of evidence in Europe of symbolic thought and of rituals for bidding farewell to the dead."
+      "hash": "12aca6e878b6f5a6",
+      "texto": "Three young people rest together on earth stained red. Someone laid them there more than twenty-five thousand years ago, in the Upper Paleolithic. This is a life-size re-creation of a burial from Dolní Věstonice, in Moravia, in the south of the present-day Czech Republic. They were people of our own species, Homo sapiens, who lived by hunting and gathering. They were approximately sixteen to twenty years old, and they were buried at the same time, with no signs of violent death. The bodies are covered in red ocher and adorned with pierced teeth. Specialists see in these details one of the earliest pieces of evidence in Europe of symbolic thought and of rituals for bidding farewell to the dead."
     },
     "guion_largo": {
-      "hash": "909a95134465da0f",
-      "texto": "When you think of prehistory, you may imagine people who were only trying to survive. This burial tells a different story.\n\nIt is a life-size recreation of a burial found at Dolní Věstonice, in Moravia, in the south of today’s Czech Republic. It was made with replicas of skeletons, stone tools and animal teeth, on a bed of earth with red ocher and ashes.\n\nThe three young people were between sixteen and twenty years old. They were buried at the same time, laid out at full length, and no signs of violent death were found. One of them lies face down. Another rests a hand on the pelvis of the young person in the center.\n\nAnalyses of the bones and of the genes indicate that they were possibly relatives.\n\nThe red ocher on the bodies and the pierced teeth used as ornaments are signs of symbolic thought. For specialists, they are among the earliest evidence in Europe of a complex social life and of a cult of the dead.\n\nThe same site is famous for another discovery. Very ancient clay kilns appeared there, which were used to fire figurines of women and animals.\n\nLook at this scene as a reminder: long before cities, there were already people who bid farewell to their loved ones with care."
+      "hash": "b6d8e7a958dc3800",
+      "texto": "When you think of prehistory, you may imagine people who were only trying to survive. This burial tells a different story: more than twenty-five thousand years ago, in a village of mammoth hunters, someone took the time to say farewell to three young people with care.\n\nWhat you see is a life-size re-creation of a tomb found in 1986 in Dolní Věstonice, in Moravia, in the south of the present-day Czech Republic. It was made with replicas of the skeletons, with stone tools and with animal teeth, on a bed of earth mixed with red ocher. The three bodies lie stretched out, one beside another, and they were buried at the same time; no signs of violent death were found. The people who buried them lived by hunting mammoths, and in camps of the region, huts were built with the bones of this animal. In the next hall you will see the hunters who pursued that same giant in the Americas.\n\nNotice how they are arranged. One of them lies face down. Another rests his hand toward the pelvis of the young man in the center, who, according to studies, was placed first. And red ocher was spread over their heads, a natural pigment made from iron oxide. In many cultures, red was associated with blood and with life. You will see something similar in the Maya Hall, where the body of King [Pakal](mna_s09_mascara_pakal) was covered with cinnabar, another red powder.\n\nThe young man in the center holds a secret that came to light over the years. He had a malformation in his bones from birth, which curved his legs. Even so, he lived to become a young man, and specialists think his group must have cared for him. It is one of the oldest pieces of evidence that, even then, humans looked after those who needed help.\n\nThere is also a curious detail. For a long time, the young man in the center was believed to be a woman. In 2016, a DNA analysis indicated that all three were male, and that they were possibly related. Science sometimes corrects what seemed obvious.\n\nThe bodies wore ornaments made from pierced animal teeth, which were probably sewn onto clothing or headdresses. Imagine the work of piercing a tooth with stone tools, and think of how much these three young people mattered to those who bid them farewell. For specialists, the ocher and the ornaments are among the earliest evidence in Europe of symbolic thought: the idea that an object can mean something more than its use.\n\nThe site is famous for another reason. At Dolní Věstonice, a baked clay figurine of a woman was found, the “Venus of Dolní Věstonice,” one of the oldest ceramics known. In other words: those hunters were firing clay long before the farming villages you will see in the Preclassic Hall existed.\n\nLook at this scene as a reminder. Long before cities and gods, there were already people who bid farewell to their own with care. And that custom, more than any pyramid, lets us recognize ourselves."
     },
     "retos_observacion": {
-      "hash": "7af73fc1a7804c0c",
+      "hash": "09402a7ee0cbf420",
       "texto": [
-        "Count the bodies and notice how they are arranged.",
-        "Look for the red ocher on the earth and on the bodies.",
-        "Find the ornaments made from teeth and the stone tools."
+        "Count the bodies and notice how they are arranged",
+        "Look for the red ocher on the earth and on the bodies",
+        "Find the ornaments made from teeth and the stone tools"
       ]
     },
     "especificaciones": {
-      "hash": "1158a9a9b6ddaaaf",
+      "hash": "9f47e68a8c77408f",
       "texto": {
-        "Culture": "Homo sapiens, hunter-gatherers of the European Upper Paleolithic",
-        "Period": "Upper Paleolithic",
-        "Material": "Museum recreation as a life-size diorama, with replicas",
-        "Origin": "Dolní Věstonice, Moravia, Czech Republic",
-        "Dimensions": "Scale 1:1"
+        "Culture": "Homo sapiens, hunter-gatherers of the European Upper Paleolithic (Gravettian)",
+        "Period": "Around 26,000-27,000 years before the present",
+        "Material": "Museum re-creation as a 1:1 scale diorama with replicas of the three skeletons, ocher pigment, and necklaces of pierced teeth",
+        "Original origin": "Dolní Věstonice, Moravia, Czech Republic"
       }
     },
     "faq_mito": {

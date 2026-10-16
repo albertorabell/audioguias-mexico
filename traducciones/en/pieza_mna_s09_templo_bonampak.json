@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_templo_bonampak",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "75c499a708488961",
+      "texto": "Replica of the Temple of the Paintings at Bonampak"
+    },
+    "frase_gancho": {
+      "hash": "f6384b0de01ca966",
+      "texto": "Three painted rooms that tell of a feast, a battle, and a triumph."
+    },
+    "puente_narrativo": {
+      "hash": "d8a34d37e83e129e",
+      "texto": "From the murals we move to a stone façade. Look for a doorway framed by large mosaics, which looks like the open mouth of a monstrous face."
+    },
+    "guion_corto": {
+      "hash": "7f2b39ee6018ae57",
+      "texto": "This temple is a replica of the Temple of the Paintings at Bonampak, in the jungle of Chiapas. Inside are copies of the murals that the Maya painted there around the year seven hundred ninety. There are three rooms, and each one has been interpreted as telling a part of a single story: a ceremony with musicians and nobles, a battle with the capture of prisoners and, at the end, the celebration of the triumph, with dance and offerings of blood. Notice the colors, especially the Maya blue, so vivid it looks freshly painted. The copies you see are the work of the painter Rina Lazo. The originals are still in the jungle, and that is why this replica lets us glimpse them."
+    },
+    "guion_largo": {
+      "hash": "0d24c1a7a7e7df73",
+      "texto": "The Maya painted almost everything, but almost everything was lost: the humidity of the jungle took the colors away. Bonampak is the great exception. Its murals were preserved so well that, when they became known in 1946, they seemed to come from another world: scenes with dozens of figures, costumes, instruments, and a blue that had endured for more than twelve hundred years. The name, Bonampak, means something like “painted walls,” and it was given by modern people, not by the Maya.\n\nWhat you see here is a reproduction. The originals are still in the jungle of Chiapas, relatively close to Yaxchilán, the city of the [lintel](mna_s09_dintel26_yaxchilan) you saw a while ago. They cannot travel, because they are painted on the walls of a building that cannot be moved. That is why the museum raised a temple and filled it with copies, so that you can feel what it is like to enter those rooms.\n\nEach room is a chapter. In the first, according to one interpretation, a child, the heir, is presented to the court; there are musicians with drums, rattles, and trumpets, and nobles dressed in jaguar skins. In the second there is a battle, with warriors attacking and prisoners captured, some with bleeding hands. In the third, the triumph is celebrated, with a dance of figures in enormous headdresses and a ceremony in which the nobles offer their own blood.\n\nThe murals also have hieroglyphic texts, written next to the figures, which say who is who and, at times, when each scene took place. That is why they have been studied so much: they are not an imaginary tale, but an event in a kingdom with a name of its own. It is, once again, Maya writing in the service of history, as on Lintel twenty-six of Yaxchilán.\n\nMaya blue deserves a line of its own. It was made with indigo, a plant, and with a clay-like mineral, and the mixture was heated. The result is a pigment that withstands sun, humidity, and even acids. Scientists study it today because, a thousand years later, it is still blue.\n\nThe copies are the work of a woman painter, Rina Lazo, and that too is a story. Lazo was born in Guatemala and trained in Mexico with Diego Rivera. It is said that she spent a long season in the jungle copying the original murals, and that this work bound her forever to this world. In this very hall there is also a painting of hers, “[With Passion for the Maya](mna_s09_mural_rina_lazo).”\n\nThese paintings changed the image that people had of the Maya. For decades, many imagined them as a peaceful people of astronomers and priests. Bonampak showed something more complete: war, prisoners, and sacrifices, but also music, dance, and celebration. They were whole people, who prayed, fought, danced, and celebrated.\n\nRemember the [stucco head of Pakal](mna_s09_cabeza_pakal) and the [frieze of Los Placeres](mna_s09_friso_placeres): beneath the dust and the centuries, all of that was once painted red, blue, and yellow. Bonampak is the closest we can come to seeing that original color. Enter calmly and move through the scenes as if you were turning the pages of a book. Further up, with the Lacandon, you will learn how they first came to the light of the world."
+    },
+    "retos_observacion": {
+      "hash": "a509be4e32da0047",
+      "texto": [
+        "Look for the Maya blue in the paintings",
+        "Notice the hieroglyphs that accompany the figures",
+        "Observe the headdresses and jaguar skins of the figures"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ba945b7ecbc4fc8",
+      "texto": {
+        "Culture": "Maya",
+        "Period": "Late Classic (original murals, around 790 AD)",
+        "Material": "Replica of the temple with copies of the murals",
+        "Origin": "Bonampak, Chiapas (the original)"
+      }
+    },
+    "faq_mito": {
+      "hash": "37f55d311664383b",
+      "texto": {
+        "pregunta": "Myth: The Maya were a peaceful people of astronomers and priests.",
+        "respuesta": "Reality: The murals of Bonampak show battles, prisoners, and sacrifices, together with music and celebration: a complex society, with both war and festivity."
+      }
+    }
+  }
+}

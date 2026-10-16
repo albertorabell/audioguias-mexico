@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -15,39 +15,40 @@
       "texto": "A red stone grasshopper that gives its name to the park where the museum stands."
     },
     "puente_narrativo": {
-      "hash": "f861a346d25ed729",
-      "texto": "We continue with another stone animal, this time an insect: the grasshopper that gives its name to the park where you are standing."
+      "hash": "732f92f463fbce05",
+      "texto": "From the forest we move on to the city, and from the city to its busiest square. Look for a scale model with hundreds of clay figures: it is a market day in Tlatelolco, the twin city of Tenochtitlan."
     },
     "guion_corto": {
-      "hash": "3b35f526b8a9220d",
-      "texto": "This stone grasshopper gives its name to the park where the museum stands. Chapultepec means at the hill of the grasshopper, and this sculpture is its glyph, that is, its name written as an image. It is a Mexica work from the Late Postclassic that was found in Chapultepec. It is carved and polished from a stone of intense red color. The artist took care with the details: the hind legs are folded over the body, as if the insect were about to jump. For the Mexica, Chapultepec was a very important place. There were springs there that supplied water to the city, and they lived there before founding Tenochtitlan."
+      "hash": "cc1a3ad318da48b4",
+      "texto": "This stone grasshopper gives its name to the forest where the museum stands. Chapultepec means “on the hill of the grasshopper,” and this sculpture is its glyph: the name of the place written with an image. It is a Mexica work from the Late Postclassic, carved and polished in an intensely red stone, and it was found in Chapultepec. Look at the hind legs, folded against the body as if the insect were about to jump, and at the polished surface, which gleams under the light. For the Mexica, Chapultepec was a very important place: springs flowed there that supplied the city with water, they carved portraits of their rulers there, and they lived there before founding Tenochtitlan."
     },
     "guion_largo": {
-      "hash": "7e13a2370f9a3151",
-      "texto": "Chapultepec means at the hill of the grasshopper. This sculpture is the proof, made of stone.\n\nIt is the glyph of that place: its name written with an image. It is Mexica, from the Late Postclassic, and it was found in Chapultepec. It is carved and polished from a stone of vivid red color.\n\nIt portrays a grasshopper in a very natural way. Its hind legs are folded over its body, ready to jump. Look closely at those folded legs.\n\nFor the Mexica, Chapultepec was both a sacred and a political place. There were springs of clean water there that supplied the capital through an aqueduct. Portraits of the rulers were sculpted into the rocks. And the sacred cave of Cincalco was there.\n\nIt was also a stage in their history. Before founding Tenochtitlan, the Mexica lived for a time in Chapultepec, during their migration.\n\nToday the museum stands in that same park. This grasshopper reminds you of the name of the place where you are standing."
+      "hash": "389d2db391ea4b51",
+      "texto": "There are places that carry their name drawn on them. Chapultepec is one. The word comes from Nahuatl and is built from three pieces: chapolin, the grasshopper; tepetl, the hill; and an ending, c, which means “on.” Together they say “on the hill of the grasshopper.” And this stone grasshopper is that word turned into sculpture.\n\nLook at how it is made. It is a small piece, carved and polished in an intensely red stone, and the sculptor took care over the details: the hind legs are folded against the body, ready to leap, as if the insect were only waiting for you to stop looking at it. Notice also the wings, folded over the back, and the eyes, which bulge from the head. The Mexica watched animals closely, and it shows here.\n\nThe most curious thing is that no one is sure what stone it is. Some call it carnelian, a red variety of chalcedony, a very hard semiprecious stone. A nineteenth-century traveler who saw it in a private collection believed it was red marble, and an engraver of the period thought it was a siliceous rock. The piece still keeps that small mystery.\n\nIt also had a life of its own in the centuries that followed. Historical records from the nineteenth century state that it appeared during construction work at Chapultepec Castle and was part of the collection of the Count of Peñasco before entering the old National Museum. A contemporary archaeologist, Leonardo López Luján, suspects that it came from a large pool near the hill, known as Moctezuma’s Baths.\n\nWhy did Chapultepec matter so much? Because freshwater springs flowed there and, through an aqueduct, reached Tenochtitlan, a city surrounded by brackish water. On the rocks of the hill the Mexica carved portraits of their rulers, and a legend told of a cave, Cincalco, the “house of maize,” which was imagined as an entrance to the underworld. Chapultepec was at once a source of water, a place of kings and a doorway to another world.\n\nAnd it was also a place in their history. According to the chronicles, before founding Tenochtitlan the Mexica settled for a time in Chapultepec during their migration. It did not go well: their neighbors attacked them and they had to flee until, at last, they found an islet in the lake. In other words, the forest where you now stand was, for them, a place of both hope and defeat.\n\nGrasshoppers, moreover, were not only a symbol: they were also eaten, just as they are today in Oaxaca, toasted and with lime. And it is no coincidence that the word “chapulín” is still alive in the Spanish of Mexico: it is one of the many that come from Nahuatl, along with tomato, avocado and chocolate.\n\nThe name is so ancient that the Spaniards kept it: Chapultepec Castle, which was built centuries later, still bears it. When you leave the museum, walk a little through the forest and listen for its name. Now you know that it means “on the hill of the grasshopper,” and that some five hundred years ago someone wrote it in stone."
     },
     "retos_observacion": {
-      "hash": "4cd74f567a41db2d",
+      "hash": "8e0aabfc5584d43d",
       "texto": [
-        "Look for the hind legs folded over the body.",
-        "Notice the intense red color and the polished surface of the stone.",
-        "Think about the name of the park where the museum stands."
+        "Find the hind legs folded against the body",
+        "Notice the intense red color and the polish of the stone",
+        "Think about the name of the forest where the museum stands"
       ]
     },
     "especificaciones": {
-      "hash": "032e8c2da8c3cdc4",
+      "hash": "e86bf9addc0a3596",
       "texto": {
         "Culture": "Mexica",
-        "Period": "Late Postclassic",
-        "Material": "Carved and polished red stone",
-        "Origin": "Chapultepec, Mexico City"
+        "Period": "Late Postclassic (1325-1521 AD)",
+        "Material": "Red volcanic stone and carnelian, carved and burnished",
+        "Origin": "Chapultepec Forest, Mexico City",
+        "Dimensions": "19 cm high x 47 cm long"
       }
     },
     "faq_mito": {
-      "hash": "5a352a7488e5d847",
+      "hash": "d64c811c146221fa",
       "texto": {
-        "pregunta": "Myth: This sculpture is just an ornament shaped like an insect.",
-        "respuesta": "Reality: It is the glyph of Chapultepec, the name of the place written with an image. It means at the hill of the grasshopper."
+        "pregunta": "Myth: This sculpture is just an ornament in the shape of an insect.",
+        "respuesta": "Reality: It is the glyph of Chapultepec, the name of the place written with an image. It means “on the hill of the grasshopper.”"
       }
     }
   }

@@ -1,0 +1,54 @@
+{
+  "id": "mna_s13_vitral_goeritz",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b1d4593cd9406146",
+      "texto": "Stained-glass window by Carlos Mérida and folding screens by Mathias Goeritz"
+    },
+    "frase_gancho": {
+      "hash": "cd0efc8b8beccf0e",
+      "texto": "Two twentieth-century artists look at the Wixárika (Huichol) mountains with modern eyes."
+    },
+    "puente_narrativo": {
+      "hash": "f979f35bb01afa36",
+      "texto": "We move on from the Wixárika to their neighbors, the Cora, and to their Holy Week. Look for a fierce mask, painted and with horns or animal features, made for a dance of the mountains."
+    },
+    "guion_corto": {
+      "hash": "b915c99296263e35",
+      "texto": "In this hall there are two works made for the museum by modern twentieth-century artists, not by Wixárika artisans. The first is a stained-glass window by Carlos Mérida, a painter born in Guatemala who made his home in Mexico, titled “The Magical World of the Wixárika.” Although we call it a stained-glass window, it is not made of glass: it is made of sheets of colored acrylic mounted in a wooden frame. The second is the folding screens by Mathias Goeritz, an artist of German origin: panels woven with ixtle cord, whose designs recall the symbols of the mountains. Both drew inspiration from the way these peoples see the world and translated it into the language of abstract art."
+    },
+    "guion_largo": {
+      "hash": "f106a8b9c877e49c",
+      "texto": "In this hall, among display cases full of objects made by Wixárika hands, there is something different: works of modern art. They were not made by artisans of the mountains, but by two twentieth-century artists who wanted to enter into dialogue with that world. One is a stained-glass window. The other, a set of woven folding screens. Both were conceived for this place.\n\nThe museum opened in 1964, and behind it was a very Mexican idea: that the buildings, the display cases, and the walls would work together with the art of their time. That is why, along the tour, you will see murals by painters such as [Rufino Tamayo](mna_s00_mural_tamayo), at the entrance, or [Leonora Carrington](mna_s19_mural_carrington), with the Maya of today. Here, the task fell to a Guatemalan and a German.\n\nCarlos Mérida was born in Guatemala in 1891 and lived in Mexico for many years. He was one of the pioneers of abstract art in Latin America, and he drew inspiration from the designs of textiles and Indigenous art: geometric shapes, intense colors, rhythms that repeat. His stained-glass window is titled “The Magical World of the Wixárika.”\n\nAlthough we call it a stained-glass window, it is not made of glass. It is made of sheets of colored acrylic, mounted in a wooden frame. When light passes through them, the color ignites, as in a church window. It is a way of saying that a world where everything is vision, color, and light, like the Wixárika world, also fits in a modern language.\n\nMathias Goeritz, of German origin, came to Mexico in 1949. He was a sculptor, architect, and writer, and perhaps his most famous work is the Satélite Towers, which he made together with the architect Luis Barragán. For this hall he made folding screens: textile panels woven with ixtle cord, whose designs recall Wixárika symbols.\n\nIxtle cord may already sound familiar. It is the same agave fiber with which the inhabitants of the Candelaria Cave wove their blankets, and you will see it again in the Otopame Peoples Hall. Goeritz took a humble material and turned it into a wall of art.\n\nWhat symbols do they recall? In the yarn paintings and the embroidered clothing you have just seen, there are the deer, the maize, the peyote, the sun, and the feathers. The artists did not copy those designs: they reinterpreted them. Where a Wixárika artisan sees a prayer, the modern artist sees a form as well.\n\nSome see in these works a tribute, and some wonder what happens when modern art borrows symbols that, for their creators, are sacred. The question remains open, and that is what makes it interesting: this hall lets you look at the Wixárika, and also look at how others have looked at them.\n\nBefore moving on, step up to the stained-glass window and look at the color against the light; then go to the folding screens, and notice the weave. Two modest materials, acrylic and cord, and two ways of dreaming the mountains. And it is up to you to decide: which do you prefer, the color that ignites or the weave that can be touched with the eyes?"
+    },
+    "retos_observacion": {
+      "hash": "98a4f648aaf1af1e",
+      "texto": [
+        "Look at the stained-glass window against the light and find the colors that shine the brightest",
+        "Step up to the folding screens and observe the weave of the cord",
+        "Compare the symbols on the folding screens with those on the embroidered outfit: which ones look alike?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f56d91caa7bbfa59",
+      "texto": {
+        "Authors": "Carlos Mérida (stained-glass window) and Mathias Goeritz (folding screens)",
+        "Work": "“The Magical World of the Wixárika” (stained-glass window)",
+        "Technique": "Sheets of colored acrylic in a wooden frame (stained-glass window); woven ixtle cord (folding screens)",
+        "Hall": "Gran Nayar"
+      }
+    },
+    "faq_mito": {
+      "hash": "71ee3a500c80a5c4",
+      "texto": {
+        "pregunta": "Myth: Everything on display in the museum was made by ancient peoples or their descendants.",
+        "respuesta": "Reality: The museum also brings together works by modern artists, such as the stained-glass window by Carlos Mérida or the murals by Rufino Tamayo, made to engage in dialogue with the cultures it presents."
+      }
+    }
+  }
+}

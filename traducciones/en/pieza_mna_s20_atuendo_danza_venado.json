@@ -1,0 +1,54 @@
+{
+  "id": "mna_s20_atuendo_danza_venado",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "441b8af2455f9bf4",
+      "texto": "Yaqui Deer Dance Attire"
+    },
+    "frase_gancho": {
+      "hash": "b38794fc827a3d4c",
+      "texto": "With a deer’s head and a pair of rattles, a Yaqui man becomes an animal."
+    },
+    "puente_narrativo": {
+      "hash": "1c148ada216bc27a",
+      "texto": "We leave the Northwest and return to the center of the country, to the Nahua Peoples of the Huasteca. Look for a white cotton dress covered in flowers and birds embroidered in red, pink, and orange."
+    },
+    "guion_corto": {
+      "hash": "48820dc34da445d1",
+      "texto": "This is the attire of the deer dancer, a dance performed by the Yaqui people and also by the Mayo, in Sonora and Sinaloa. In the Yaqui language, the deer is called maaso. On his head, the dancer wears a deer’s head, adorned with colored ribbons or scarves that stand in for flowers. In his hands he holds two rattles made from gourds, which mark the rhythm. From his belt hang deer hooves that sound as he moves, and around his ankles are tied strings of butterfly cocoons called tenábaris. The singers accompany him with rasps and a water drum. During the dance, the man imitates the animal: he becomes alert, gets frightened, flees, and defends himself. For the Yaqui, the deer is a sacred being."
+    },
+    "guion_largo": {
+      "hash": "86b17595475d8cde",
+      "texto": "Maaso is the Yaqui word for deer. It is also the name of one of the most important dances of the Yaqui people, or Yoeme. It is also danced by their neighbors, the Mayo, who call themselves Yoreme. In it, a man is transformed: he symbolically leaves his human condition behind and is transfigured into a deer. It is a dance performed only by men.\n\nEverything begins with the head. The dancer ties on a deer’s head, with its antlers, and adorns it with colored ribbons or scarves that represent flowers. Flowers are very important in the Yaqui world, and that is why the animal of the wilds appears covered in them.\n\nThe rest of the body is left almost bare. The chest is uncovered and a cloth hangs from the waist. A leather belt holds rows of deer hooves that sound with every step. A rosary with crosses hangs from the neck. The dancer also wears a necklace of mother-of-pearl or shell that represents the universe of the sea. The feet are bare and wrapped with tenábaris, those strings of butterfly cocoons that you already saw depicted on the [dancer from Tlatilco](mna_s03_bailarina_cascabeles). In each hand he carries a rattle made from a gourd, which in Yaqui is called áyam. With them he marks his movements. Hooves, cocoons, and gourds turn the dancer himself into an instrument.\n\nThe music comes separately. The deer singers chant songs in a very ancient form of the Yaqui language. Their lyrics speak of nature: animals, plants, and sky. To accompany themselves, they scrape notched sticks and play a water drum, which is a large gourd set on a tray of water.\n\nWhat the dancer does is mime. According to scholars, he represents the stages in the life of the deer. He becomes alert, looks into the distance, grows restless, gets frightened, flees, and defends himself. A painter from Arizona who came to know the dance left behind a written image. At nightfall, the dancer is a fawn, and over the course of the night he grows into an adult deer.\n\nThe deer does not dance alone. He is accompanied by the pascola, the character who makes people laugh and whom we already mentioned alongside the mask of the [chapayeka](mna_s20_mascara_chapayeka). He wears a coyote or goat mask and a belt with metal bells, and he dances to the music of a violin or a harp. While the pascola jokes, the deer represents something more solemn: the relationship between people and the world of the wilds. Among the Yaqui, the deer and the pascola are considered the two most representative dances.\n\nThe deer has already appeared on your tour: in the tracks of the [desert petroglyph](mna_s11_petroglifo_desierto) and in the Wixárika paintings. In the Northwest, that idea of a sacred animal takes on a body and is danced.\n\nScholars consider that the dance has pre-Hispanic origins, in part because of its instruments. Rasps, rattles, and a water drum did not come from Europe. Even so, it is not a museum piece: it is still danced today at Yaqui and Mayo festivals. For many, the fact that it remains alive is also a form of resistance, among a people who defended their territory for centuries."
+    },
+    "retos_observacion": {
+      "hash": "88ac6952de6363a8",
+      "texto": [
+        "Look for the deer’s head and the colored ribbons that adorn it",
+        "Notice the gourd rattles the dancer holds in his hands",
+        "Find the belt of hooves and the strings of cocoons for the ankles"
+      ]
+    },
+    "especificaciones": {
+      "hash": "44c01c2a5b2ac5fb",
+      "texto": {
+        "Culture": "Yaqui (Yoeme) and Mayo (Yoreme)",
+        "Period": "Living tradition, considered to be of pre-Hispanic origin",
+        "Material": "Deer head, ribbons, cloth, leather with deer hooves, gourds, and butterfly cocoons",
+        "Origin": "Sonora and Sinaloa"
+      }
+    },
+    "faq_mito": {
+      "hash": "2accc4d7de68f07a",
+      "texto": {
+        "pregunta": "Myth: The deer dancer dresses up as an animal just to entertain.",
+        "respuesta": "Reality: For the Yaqui and the Mayo it is a ceremony: the dancer represents a sacred animal, and the songs speak of nature."
+      }
+    }
+  }
+}

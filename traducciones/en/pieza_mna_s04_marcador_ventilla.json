@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -11,27 +11,27 @@
       "texto": "Ball Game Marker from La Ventilla"
     },
     "frase_gancho": {
-      "hash": "40b95a51c0dcdc21",
-      "texto": "A stone sculpture that comes apart, where the ball game comes to life."
+      "hash": "e894181dac624a22",
+      "texto": "A stone marker that was assembled and taken apart for play."
     },
     "puente_narrativo": {
-      "hash": "6bb66b859cf14c6d",
-      "texto": "We continue with the life of the city, now with an object of play and ritual: a ball game marker that could be assembled and taken apart."
+      "hash": "049084981d94f2b0",
+      "texto": "In Mesoamerica, the ball game was a lot like life: you took risks, you won, you lost. Now look straight at the other side of that coin: a stone skull sticking out its tongue amid red rays."
     },
     "guion_corto": {
-      "hash": "fca0d4e413bb7b21",
-      "texto": "A monument that can be assembled and taken apart? That is exactly what this ball game marker is. It is made of four sections carved separately, which fit together precisely by means of tenons of the same stone. At the bottom is a cylindrical post carved with braided patterns. At the top, an openwork disk or ring, decorated with feathers and spirals, which symbolize a rubber ball and movement. It is made of andesite, with stucco and polychrome pigment, and it comes from the Teotihuacán culture, from the Classic period. It was found in 1962, during explorations of the La Ventilla neighborhood, southwest of Teotihuacán."
+      "hash": "ea2d6c3b37790ec2",
+      "texto": "This andesite sculpture, more than two meters tall, is a ball game marker found in the La Ventilla neighborhood. It is assembled from four pieces: a cylindrical shaft decorated with a woven mat pattern, an intermediate ring, a bell-shaped upper section and, at the top, an openwork circle surrounded by feathers, with a solid rubber ball at the center. The curious thing is that in Teotihuacán no stone courts have been found, as in other cities. It is thought that the game was played here in plazas and courtyards, and that markers like this one set the boundaries of the playing space. An object made to be assembled and taken apart."
     },
     "guion_largo": {
-      "hash": "4e7f31e6dbd8f8c0",
-      "texto": "This marker can be assembled and taken apart. That alone makes it special.\n\nIt is a portable sculpture made up of four sections, carved independently. They fit together precisely by means of tenons of the same stone. At the bottom is a cylindrical post carved with braided patterns. On top of it, a flared section. And at the top, an openwork disk or ring, decorated with feathers and spirals that symbolize a rubber ball and movement.\n\nIt is made of andesite, with stucco and polychrome pigment. It belongs to the Teotihuacán culture, from the Classic period. It was found in 1962, during explorations of the La Ventilla neighborhood, southwest of the city.\n\nThere is a detail that makes it even more interesting. In Teotihuacán, no enclosed courts like those of other Mesoamerican cities have been found. For that reason, it is thought that the game was played in open plazas or courtyards, and that these portable markers were used for that kind of space.\n\nTheir use appears illustrated in the Tepantitla murals, where players can be seen with sticks, using identical markers.\n\nAn object designed to be moved, which tells how the game was played in a city without courts."
+      "hash": "d5952eefa2f6c528",
+      "texto": "When we think of the ball game, we imagine a long court with sloping walls, like the one at Chichén Itzá. In Teotihuacán there is nothing like it. That is why this marker matters so much: it is a clue that the game was played differently here. Its four parts fit into one another and can be separated, which suggests an object that was placed where the game was played and could be moved whenever needed.\n\nThe other clue is on the walls. In the Tlalocan mural you have just seen, players appear with curved sticks striking a ball. The La Ventilla marker and that painting explain each other: one shows the object, the other shows the action. And together they tell us something we could not know from the ruins: that in this great city the ball game was played without the need for courts.\n\nWhat was the ball made of? Of rubber, the latex of a tree that the Nahua Peoples called ulli. In the Gulf region they mixed it with the juice of a vine, the morning glory, and so obtained a rubber that was more elastic and resistant. A study published in 1999 showed that this process is similar to vulcanization, which was invented in the United States in the nineteenth century. In other words: the peoples of Mesoamerica already knew how to improve rubber more than three thousand years earlier.\n\nThat word, ulli, is hidden in a name you will see further on: “Olmec” means “inhabitant of the land of rubber.” It was the Mexica who called the inhabitants of the Gulf Coast of their time by that name, and centuries later archaeologists borrowed the name for the oldest culture of that region. In the Gulf Coast Hall you will meet these people of rubber.\n\nFor many peoples, the game was more than a sport. The ball going back and forth resembled the Sun, the Moon and Venus crossing the sky; playing was a way of representing the order of the world. Among the Maya, the Hero Twins of the Popol Vuh went down to the underworld to play against the lords of death. In the Maya Hall there is another ball game marker, the one from Chinkultic, with a player in full action.\n\nLa Ventilla was a neighborhood southwest of the city, with orderly streets and residential compounds, and it is associated with artisans’ workshops. That the marker turned up there, and not in front of a great temple, could indicate that the game was not only a matter for the elites. Teotihuacán was a city of neighborhoods with a life of their own, with their workshops, their pottery and their festivals.\n\nNow look at the circle at the top, openwork like a stone lace and surrounded by feathers, with the ball depicted as a heavy sphere at the center. Whoever carved it had no metal tools: they worked it with other stones, with sand and with water. And the shaft bears a woven pattern that imitates a petate, the mat used every day, a simple detail on a piece that, because of its size, could be seen from afar.\n\nMore than a thousand courts are known throughout Mesoamerica, and Teotihuacán is a great exception. In many places the game ended with someone’s life; in Teotihuacán we do not know whether it was so. What we do know is that the city had a very intense relationship with death, and the next piece shows it without disguise."
     },
     "retos_observacion": {
-      "hash": "adb53dcbf14b62bc",
+      "hash": "27567422ab6e9c9d",
       "texto": [
-        "Find the four sections that make up the marker.",
-        "Look at the openwork upper ring, with feathers and spirals.",
-        "Notice the braided patterns carved into the cylindrical post."
+        "Count the four parts of the marker, from bottom to top",
+        "Find the openwork circle and the feathers that surround it",
+        "Notice the woven pattern on the shaft: it imitates a petate"
       ]
     },
     "especificaciones": {
@@ -46,10 +46,10 @@
       }
     },
     "faq_mito": {
-      "hash": "ba57000db2b84785",
+      "hash": "d79003e5061f8941",
       "texto": {
-        "pregunta": "Myth: The La Ventilla marker was a fixed stone in a large enclosed court.",
-        "respuesta": "Reality: It is a portable sculpture, which can be taken apart into four sections, and in Teotihuacán no enclosed courts like those of other cities have been found."
+        "pregunta": "Myth: All the peoples of Mesoamerica played ball on I-shaped courts.",
+        "respuesta": "Reality: No courts like that have been found in Teotihuacán; it is thought that the game was played in plazas and courtyards, with portable markers like this one."
       }
     }
   }

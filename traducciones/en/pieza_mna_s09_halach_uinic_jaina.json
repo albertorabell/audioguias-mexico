@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -11,27 +11,27 @@
       "texto": "Halach Uinic of Jaina"
     },
     "frase_gancho": {
-      "hash": "7d162c442f0592a1",
-      "texto": "A clay portrait made to accompany a nobleman on his last journey."
+      "hash": "b26374853e1c6704",
+      "texto": "A small clay lord who accompanied a nobleman in his tomb."
     },
     "puente_narrativo": {
-      "hash": "b1bea603ed0dcdba",
-      "texto": "Now a figurine from the island of Jaina: it was not a toy, but the portrait of a great lord."
+      "hash": "4a1a8bd69072a7a5",
+      "texto": "We travel to the north of the peninsula, to the Puuc region. Look for a stone face with a furrowed brow emerging from the jaws of a serpent, known as the “Queen of Uxmal.”"
     },
     "guion_corto": {
-      "hash": "31f178b59bd653aa",
-      "texto": "They were not toys. The figurines of the island of Jaina were portraits of real people, made to accompany the dead. This one shows a Halach Uinic, a great lord, seated on a throne with a serene and dignified bearing. He wears a headdress with the head of a serpent, a beaded breastplate, and a trimmed beard. It stands 22 centimeters tall. It is made of clay, shaped by hand and in a mold, and dates to the Late Classic. Jaina, in Campeche, was a sanctuary on an island and the necropolis of the Maya elite. These figurines are believed to have been placed in burials to accompany the deceased on their journey to the underworld."
+      "hash": "dfdbe6fe8099eaf9",
+      "texto": "This clay figure, a little over twenty centimeters tall, comes from the island of Jaina, in Campeche, a cemetery of Maya nobles. It represents a halach uinic, “true man,” the title of a ruler. He sits upright on a circular throne. He wears an enormous headdress with a serpent with open jaws, a trimmed beard, and a breastplate of large jade beads. Look at his left hand: it holds a bag, perhaps for the copal that was burned in rituals. In such a small piece there is a great deal of detail: it is a portrait in miniature. These figures were placed beside the dead, as companions for the journey. On many of them, Maya blue is still preserved."
     },
     "guion_largo": {
-      "hash": "bfaf7a9c61db3ec2",
-      "texto": "Jaina means the house on the water. It is a small island, 32 kilometers northeast of the port of Campeche. And it was a great necropolis.\n\nThere, the Maya elite buried their dead together with clay figurines. They were not everyday ornaments. They were individualized portraits, placed in tombs to accompany the deceased on their journey to the underworld.\n\nThis figurine shows a Halach Uinic. The term translates as true man and was applied to a great lord, a dignitary. He is seated on a throne, with a serene and dignified bearing. He wears a headdress with the head of a serpent, a beaded breastplate, and a trimmed beard. It stands 22 centimeters tall.\n\nIt is made of clay, a fine ceramic shaped by hand and in a mold. The pieces from Jaina are hollow, and many work as whistles or rattles. They were decorated with slips and mineral pigments, such as Maya blue, cinnabar red, and white.\n\nIt belongs to the Late Classic, between the years 600 and 900 AD.\n\nLook at it as you would at a person. It has posture, rank, and character. And someone made it so that he would not be alone in the tomb."
+      "hash": "4b151a2b75b76b32",
+      "texto": "There are monumental works that impress with their size. This one impresses for the opposite reason: for how much fits into so little. A seated lord, with the dignity of a king, made of clay, and placed in a tomb so he would not be alone.\n\nIts place of origin is already extraordinary. Jaina is a small, low, flat island off the coast of Campeche. Its name, it is said, means “house in the water.” One thousand three hundred years ago it was a cemetery where, for generations, people of the region’s nobility were brought to be buried. Hundreds of burials have been found. For the Maya, an island was a place between two worlds, that of the living and that of the water of the underworld. Perhaps that is why it was chosen for the dead.\n\nIn those tombs, clay figures were placed beside the body, sometimes in the hands or on the chest. They were not toys or household decorations: they were company. There were nobles and warriors like this one, but also women weaving on a backstrap loom, musicians, ballplayers, elders, and supernatural beings. Some are whistles or rattles. If there are more figures from Jaina in the display case, compare them: the hairstyle, the expression, the clothing all change. It is like seeing an entire society portrayed in miniature.\n\nThe title we give this figure, halach uinic, comes from centuries later: it is what they called the rulers of northern Yucatán when the Spaniards arrived. We use it out of habit, but we do not know what title he actually held, or whether he was a king or an important nobleman. What we do see are signs of rank: the beard, rare in Mesoamerica, as you saw on [the Olmec Wrestler](mna_s08_luchador_olmeca), and some small marks at the corners of the lips, according to some descriptions.\n\nThe serpent on the headdress is a symbol you already know. The Maya saw it as a bridge between the underworld, the earth, and the sky, and soon you will see someone emerging from its jaws. And the jade beads on the chest are the most valuable stone in the hall, the same as in the [mask of Pakal](mna_s09_mascara_pakal). In twenty centimeters there is a summary of what jade was worth to the Maya.\n\nNow, the color. On many Jaina figures, Maya blue can still be seen, a pigment made from indigo, a plant, and a special clay. It is so resistant that it has lasted more than a thousand years in the tomb without fading. The Maya also used it to paint walls and vessels, and it took scientists decades, in the twentieth century, to understand what it was made of.\n\nOne final clarification: many Jaina figures were made with molds and then touched up by hand. Even so, each one has personality. This lord, seated with his back straight, seems to gaze unhurriedly for more than a thousand years. And, like almost everything in Jaina, he reached us because someone placed him in a tomb and left him there, waiting."
     },
     "retos_observacion": {
-      "hash": "d2dc9acc554809ed",
+      "hash": "da693f7a37e9ac2a",
       "texto": [
-        "Look for the headdress with the head of a serpent.",
-        "Notice the beaded breastplate and the trimmed beard.",
-        "Look at his posture: seated on a throne, with a serene bearing."
+        "Look for the headdress with the serpent’s head",
+        "Observe the bead necklace and the rectangular pectoral",
+        "Notice the trimmed beard and the hand holding a bag"
       ]
     },
     "especificaciones": {
@@ -45,10 +45,10 @@
       }
     },
     "faq_mito": {
-      "hash": "b7c99957e7b985a8",
+      "hash": "523fd7d9b62cacc8",
       "texto": {
-        "pregunta": "Myth: The Jaina figurines were toys.",
-        "respuesta": "Reality: They were individualized portraits, placed in burials to accompany the deceased on their journey to the underworld."
+        "pregunta": "Myth: The Jaina figures were children’s toys.",
+        "respuesta": "Reality: They were made to accompany the dead and were found in tombs on the island, beside the body."
       }
     }
   }

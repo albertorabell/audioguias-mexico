@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -11,27 +11,27 @@
       "texto": "Stucco Frieze of Los Placeres"
     },
     "frase_gancho": {
-      "hash": "fb19423542bc97a9",
-      "texto": "A stucco façade that was stolen and returned to Mexico."
+      "hash": "d9b488daa1d2e07d",
+      "texto": "A king among feathers, two elders at his side: a frieze saved from looting."
     },
     "puente_narrativo": {
-      "hash": "4f2605ba9b0858e2",
-      "texto": "We remain in Campeche with a painted stucco façade: the frieze of Los Placeres."
+      "hash": "ce5879211a4cf12b",
+      "texto": "After the monumental, the intimate. Look for a small clay figure, a little over twenty centimeters tall, of a lord seated and wearing a great serpent headdress."
     },
     "guion_corto": {
-      "hash": "f308cabae550859b",
-      "texto": "It measures 8.39 meters wide and 2.39 high, and it once fell into the hands of thieves. It is a polychrome stucco frieze that adorned the façade of a temple in Los Placeres, Campeche. It was torn away in the 1960s and recovered in 1968, thanks to the efforts of the Mexican Embassy. At the center is the rectangular face of a ruler, framed by a jaguar-serpent mask with feathered wings. His ear ornaments bear shark motifs, and his headdress ends in maize leaves. On either side, two elderly figures in profile, toothless, stretch out their arms holding symbols of water. It is a Maya work from the Early Classic."
+      "hash": "614c81f01d2fa523",
+      "texto": "This stucco frieze decorated the facade of a temple at Los Placeres, in Campeche. It measures more than eight meters long and still preserves traces of color. At the center, a ruler faces you head-on, his face framed by a square of feathers and a headdress of maize leaves. He sits on the mask of a monster, part jaguar and part serpent, with wings. On each side is an elder with prominent cheekbones and an almost toothless mouth, who extends his hands, from which streams of water flow. It is an image of power and fertility: the king as the center of the world, surrounded by water, by maize, and by the elders who protect him. This piece was looted and later recovered."
     },
     "guion_largo": {
-      "hash": "2bce4bf84748d856",
-      "texto": "This façade traveled a great deal before arriving here. It was stolen, and then it came back.\n\nIt is a polychrome stucco frieze, modeled on a large scale over a stone structure. It measures 2.39 meters high, 8.39 long and 60 centimeters thick. It is a Maya work from the Early Classic, and it comes from Los Placeres, in Campeche.\n\nIt adorned the main façade of a temple. In the 1960s it was torn away illegally, to be sold to foreign collectors. It was recovered in 1968, thanks to the efforts of the Mexican Embassy, and then it became part of the museum’s Maya Hall.\n\nNow let your eyes travel across it. At the center there is a rectangular face, that of a ruler. It is framed by a jaguar-serpent mask with feathered wings. On his ear ornaments appear motifs of the shark, which the Maya called Xook. His headdress is crowned with maize leaves.\n\nOn either side, in symmetrical fashion, there are two elderly figures, in profile. They have prominent cheekbones and toothless mouths. They stretch out their arms and hold symbols of flowing water and of bounty.\n\nIt is a scene of power and abundance. The ruler occupies the center, and the elders guard the façade on both sides."
+      "hash": "11e07be04dc5a8f2",
+      "texto": "In front of you is a facade that was once whole. Imagine a temple covered from top to bottom with gleaming stucco figures, red, blue, yellow. Whoever approached did not see a simple wall: they saw a king seated at the center of the universe.\n\nLet’s begin with the headdress of maize leaves. It says that the ruler is the maize god (Corn God), the same one that [Pakal](mna_s09_mascara_pakal) became in his jade mask. He does not rule merely because he was born into a noble family: he rules because he is the plant that feeds the people. And notice something else: he looks at you head-on. Many Maya kings appear in profile, as on the lintel and the stela you have just seen; this one looks you in the eye.\n\nHis throne is a monster with traits of a jaguar and a serpent, and with wings. On the wings there are two symbols. One is the sign of the woven mat, which signified royal power: “sitting on the mat” meant taking the throne. Pop, in fact, was also the name of the first month of the Maya calendar. The other symbol is a shark, which the Maya called xook, and which represents the primordial waters, the water with which the world began. The king, then, is not only on the earth: he is seated upon the origin of everything.\n\nNow the elders. They look frail, but they are powerful: from their hands come scrolls that symbolize streams of water. It has been proposed that they could be the Pawahtunes, divine elders who hold up the sky at the four corners of the world. If so, here they hold up the king, as they hold up everything else.\n\nPut it all together and read the message: without this king it does not rain, the maize does not grow, and the sky is not held up. It is political propaganda made of symbols, placed where no one could ignore it: at the entrance of a temple. Unlike stelae, which were raised in plazas, this facade served as the backdrop for ceremonies.\n\nBut there is another story, a more recent one. In the sixties, looters entered the site and cut the facade into pieces to take it out of the country. Thanks to diplomatic efforts, it was not sold abroad and was recovered. Here it was restored and put back together. It is similar to what happened to [Stela 51](mna_s09_estela51_calakmul) from Calakmul: what you see is a rescue, not just a discovery.\n\nOne more fact: stucco is not a minor material. To make reliefs of this size, the fresh mixture had to be modeled over a stone base and worked quickly, before it hardened. The people who made it were at once sculptors, painters, and masons. A facade like this was teamwork, almost an orchestra.\n\nAnd pause on the color. Although it is more than fourteen hundred years old, and is one of the oldest pieces in the hall, it still preserves traces of paint. It is a clue to how Maya cities looked: not gray, as they are today, but bright, almost like an illustrated storybook."
     },
     "retos_observacion": {
-      "hash": "d114fe71f545e8a5",
+      "hash": "382a622ad55b486b",
       "texto": [
-        "Look for the ear ornaments with shark motifs.",
-        "Find the two elderly figures in profile, on either side of the central face.",
-        "Look at the headdress: it ends in maize leaves."
+        "Find the square of feathers that frames the king’s face",
+        "Find the two elders with almost toothless mouths",
+        "Look at the maize leaves in the king’s headdress"
       ]
     },
     "especificaciones": {
@@ -45,10 +45,10 @@
       }
     },
     "faq_mito": {
-      "hash": "57032b75a2614883",
+      "hash": "8bfc63e7e933b99d",
       "texto": {
-        "pregunta": "Myth: The Los Placeres frieze is a flat mural painting.",
-        "respuesta": "Reality: It is an architectural frieze in relief, modeled in polychrome stucco over stone."
+        "pregunta": "Myth: Once an archaeological piece leaves the country, it can no longer be recovered.",
+        "respuesta": "Reality: Some pieces have been recovered through diplomatic and legal efforts, like this frieze."
       }
     }
   }

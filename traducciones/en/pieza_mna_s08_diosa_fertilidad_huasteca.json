@@ -1,0 +1,58 @@
+{
+  "id": "mna_s08_diosa_fertilidad_huasteca",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Huasteca\" para \"Huasteca\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2e4aaa4267828414",
+      "texto": "Huastec Fertility Goddess"
+    },
+    "frase_gancho": {
+      "hash": "a607fcd8611ad52d",
+      "texto": "A stone woman with a fan-shaped headdress: a goddess or a ruler?"
+    },
+    "puente_narrativo": {
+      "hash": "fd7d94af9e6a2382",
+      "texto": "From the earth goddesses we move on to the Maya. In the Maya Hall, a king who ruled for more than sixty years was buried with a jade mask on his face. Around him there are also gods of death."
+    },
+    "guion_corto": {
+      "hash": "2d2a3c6c17b7caaa",
+      "texto": "A stone woman, standing, with her hands resting on her belly and a large fan-shaped headdress. This is how several female sculptures from the Huasteca, the region on the northern Gulf of Mexico, look. One of them, from Tepetzintla, Veracruz, belongs to the museum’s collection. They were made in the Postclassic, in the centuries before the arrival of the Spaniards. They are called the Fertility Goddess. Many specialists have linked them to Tlazoltéotl, a goddess of the earth, fertility, and the forgiveness of transgressions. But that name is a label of today. Some similar sculptures could portray women of high rank, and their exact identity is still debated."
+    },
+    "guion_largo": {
+      "hash": "052c3671a46e88b4",
+      "texto": "How can you tell whether a stone woman is a goddess or a real person? Specialists have debated this question for years, and this sculpture stands right at the center of the debate.\n\nLook at her from the front. She stands with her torso bare, wearing a long skirt, her hands resting on her belly. On her head she wears a fan-shaped headdress, and from it a bird emerges and circles her face. This is how a sculpture from Tepetzintla, in northern Veracruz, is described, one that belongs to the museum’s collection. There are other very similar ones throughout the Huasteca.\n\nFor a long time these women have been identified with Tlazoltéotl. Her name, in Nahuatl, is usually translated as “goddess of filth,” and she was also called “eater of impurities.” That filth was transgressions: it was believed that the goddess took them in order to cleanse people. For that reason she was associated with confession and forgiveness, but also with fertility and desire.\n\nIt is thought that this goddess was born in the Huasteca and that the Mexica adopted her. The Huastec people contributed gods, stories, and styles of sculpture that the Mexica made their own. So, when we see a Huastec stone woman, it is natural to think of her. You have already seen how the influence of Tenochtitlan reached this region in the [Castillo de Teayo stela](mna_s08_estela_teayo).\n\nThe gesture of the hands is also debated. Some read it as a symbol of fertility. Others link it to the goddess who swallows the transgressions of others. It is a posture typical of her, but not only hers, and that makes it hard to be sure.\n\nIn January 2021 there was a surprise. In a citrus field in Hidalgo Amajac, in Veracruz, a female sculpture of limestone appeared. It stands nearly two meters tall and was made between 1450 and 1521. The INAH archaeologist María Eugenia Maldonado Vite explained that, because of her posture and clothing, she probably represents a ruler. She recalled that almost all Huastec female sculptures had been read as goddesses, especially as Tlazoltéotl. This one also has Nahua features: hollow eyes for inlays, and knots and ribbons on the skirt.\n\nAnother figure, from Tempoal, is kept today in the Xalapa Museum of Anthropology. It wears a fan-shaped headdress with feathers and gold ornaments, and serpents beside the face. It has been said that intertwined serpents were tied to the power to rule. In these sculptures, men and women appear in almost equal numbers. That suggests that the women of the Huastec elite held a position similar to that of men. In 2024, the National Museum of Mexican Art, in Chicago, presented, with pieces lent by the INAH, an exhibition that in Spanish could be called “Ancient Huastec Women: Goddesses, Warriors, and Rulers.”\n\nFor that reason it is wise to say “the so-called Fertility Goddess.” The name is convenient and has a long tradition, but perhaps some of these figures are portraits of women of high rank. Perhaps the answer is not just one: a powerful person could dress as a goddess. Standing before the sculpture, the question remains open."
+    },
+    "retos_observacion": {
+      "hash": "8cc55a3ac430a91f",
+      "texto": [
+        "Look for the fan-shaped headdress and the bird that circles the face",
+        "Notice the hands resting on the belly",
+        "See how she is dressed: what does the clothing cover, and what does it leave uncovered?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c95ffa11ce68d2f3",
+      "texto": {
+        "Culture": "Huasteca",
+        "Period": "Postclassic (900-1521 AD)",
+        "Material": "Carved calcareous sandstone",
+        "Origin": "Tepetzintla / Huasteca Region, northern Veracruz"
+      }
+    },
+    "faq_mito": {
+      "hash": "51ce0c2abffd7fe4",
+      "texto": {
+        "pregunta": "Myth: Every ancient sculpture of a woman represents a goddess.",
+        "respuesta": "Reality: For a long time, Huastec stone women were read this way, but recent discoveries suggest that some portray rulers or women of high rank."
+      }
+    }
+  }
+}

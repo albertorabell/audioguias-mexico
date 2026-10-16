@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_figurillas_tapas_san_miguel",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a5a1d6e2e05f26f3",
+      "texto": "Figurines from San Miguel de Allende"
+    },
+    "frase_gancho": {
+      "hash": "3d5cb05e8f3bd975",
+      "texto": "Three clay figures that we know more about through their region than through the figures themselves."
+    },
+    "puente_narrativo": {
+      "hash": "0db9c414c35e842a",
+      "texto": "We move from the figures to the places where the peoples of the north lived. Look for some scale models of ancient northern sites, with platforms and plazas: they are Alta Vista, in Chalchihuites, and La Quemada, in Zacatecas."
+    },
+    "guion_corto": {
+      "hash": "90c9fac96cf56392",
+      "texto": "Three highly stylized human figures made of clay come from the San Miguel de Allende region, in Guanajuato. Because of their hollow, bell-like shape, they served as ceremonial covers or finials, and each one wears a large semicircular headdress with perforations and traces of cinnabar or red pigment. They belong to the farming traditions of the Guanajuato Bajío during the Classic and Epiclassic periods. What we do know well is their surroundings. San Miguel lies in the Bajío, a land of passage between the West, the Central Highlands and the north. Very close by is Cañada de la Virgen, an Otomí center that reached its peak around the years six hundred to nine hundred. These figures are an invitation to look slowly and to keep asking questions."
+    },
+    "guion_largo": {
+      "hash": "0b6a07664b75d261",
+      "texto": "Not every piece in a museum arrives with its full story, and these three figures are among those that still raise questions. What we have is a description: stylized human figures made of clay, which served as lids or covers. Each one wears a large semicircular headdress on its head, with perforations, and may still hold traces of red paint. Beyond that, their date and their exact culture are not confirmed, and it is best not to invent them.\n\nWhat we do know is where their region lies. San Miguel de Allende is in the Bajío, in the Laja River basin, a flat and fertile land that served as a crossroads between the West, the Central Highlands and the deserts of the north. In the times this hall speaks of, the Bajío lay on the edge of Mesoamerica: beyond it began the lands of hunters and gatherers.\n\nA few kilometers from the city is Cañada de la Virgen, one of the most important archaeological zones in the region. Studies indicate that it was built by Otomí peoples. It had three stages of construction between the years five hundred forty and one thousand fifty, and its greatest flourishing came in the Epiclassic, around the years six hundred to nine hundred. It was a time when many societies of central Mexico were reorganizing themselves after the fall of Teotihuacán.\n\nThe site has pyramids more than fifteen meters high, a sunken patio and a temple with a mural painted in red and black. Its buildings follow the path of the Sun and the stars. Goods also passed through here: materials from both coasts, from the West and from the Basin of Mexico have appeared, among them obsidian, turquoise, jade and shell. They are the same materials you saw at Paquimé. The Bajío and the north were connected by roads of exchange.\n\nIn September 2022, a decree declared Cañada de la Virgen an Archaeological Monuments Zone, number forty-nine in the country and the first federal declaration in ten years. It covers seven hundred twenty-two hectares, with mounds, platforms and workshops that have still not been explored.\n\nDo the three figures come from that site? We cannot say so. That is why an object without context is a half-told piece: we know what it looks like, but not who it was with or what it did.\n\nLarge headdresses, however, are not rare in ancient art. In Tlatilco, the [Pretty Ladies](mna_s03_mujeres_bonitas) wear braided hairstyles and headdresses, and in the [Ixtlán couple](mna_s10_pareja_ixtlan) the man wears a conical helmet. Perhaps these headdresses also said who each figure was or what role it had, but for now, that is only a question.\n\nAnd Guanajuato already had a long past. Long before Cañada de la Virgen, Chupícuaro flourished, the culture of the polychrome female figure that you saw in the West Hall. Before moving on, look at the three figures one by one. Do they look alike? What changes in the headdress? When a piece is silent, looking slowly is the best way to listen to it."
+    },
+    "retos_observacion": {
+      "hash": "cdf5a733373f3dd3",
+      "texto": [
+        "Count the figures in the group and compare them with one another",
+        "Notice the headdress that each figure wears on its head",
+        "Look for the holes in the headdress and any trace of red paint"
+      ]
+    },
+    "especificaciones": {
+      "hash": "81d0a1efe6d970fe",
+      "texto": {
+        "Culture": "Bajío tradition (Laja River basin)",
+        "Period": "Classic to Epiclassic (around 400-900 AD)",
+        "Material": "Modeled clay with openwork headdress and traces of red pigment",
+        "Origin": "San Miguel de Allende region, Guanajuato"
+      }
+    },
+    "faq_mito": {
+      "hash": "b9fb575c1de03f49",
+      "texto": {
+        "pregunta": "Myth: There were no large settlements in Guanajuato before the Spanish arrived.",
+        "respuesta": "Reality: There were centers such as Cañada de la Virgen and El Cóporo, with pyramids, patios and observation of the Sun, as well as much older farming villages such as Chupícuaro."
+      }
+    }
+  }
+}

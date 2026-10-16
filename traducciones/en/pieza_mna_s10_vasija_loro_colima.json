@@ -1,0 +1,59 @@
+{
+  "id": "mna_s10_vasija_loro_colima",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {
+    "especificaciones": [
+      "el glosario pide \"Early Classic\" para \"Clásico Temprano\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "493ff6090170c320",
+      "texto": "Parrot-Shaped Vessel from Colima"
+    },
+    "frase_gancho": {
+      "hash": "43f0747dda871906",
+      "texto": "A bird of polished clay, made for the tomb and not for the kitchen."
+    },
+    "puente_narrativo": {
+      "hash": "e5fe50749e9f08a6",
+      "texto": "Now lift your eyes from the display cases to the walls. Look for two large paintings: a map of the Pacific coast and another of the city of Tzintzuntzan at its height."
+    },
+    "guion_corto": {
+      "hash": "24fe3f8e2f907e5f",
+      "texto": "This clay parrot comes from Colima and was made between fifteen hundred and two thousand years ago. It measures about twenty centimeters and is a vessel, a container shaped like a bird. Its surface is red, polished until it shines, with some lighter areas. Notice the curved beak and the rounded body, so natural that it seems about to move. The potters of Colima watched the animals of their land and turned them into vessels. They were placed in shaft tombs, beside the dead. They were not household ornaments or kitchen pieces, but offerings. Among them are dogs, turtles, crabs and parakeets like this one. Specialists interpret them as companionship and food for the journey of the deceased."
+    },
+    "guion_largo": {
+      "hash": "7ccea6df3cba95ba",
+      "texto": "Why bury a clay parrot? The answer begins in Colima, on the Pacific coast, where about two thousand years ago people dug shaft tombs with chambers at the bottom. After the burial, the entrance to the chamber was closed with stone slabs or with a large pot, and the shaft was filled in. The potters of the region left behind a great many animal-shaped vessels there. Specialists call one of its phases Comala, between the years 100 and 700 of our era.\n\nYou have already met the dogs, but the repertoire is broader. There are turtles, snakes, crabs and ducks. There are even vessels in the shape of a sea snail, an animal that served as food and whose shell was played as a trumpet. The forms of Colima can be recognized from afar: smooth, rounded volumes of a reddish color. Some texts speak of parakeets, which are the smaller parrots. To recognize the family, the curved beak is enough, and this vessel has it.\n\nThe parrot was modeled by hand. In Colima it was common to build up vessels with coiled strips of clay, which were then beaten and smoothed. Afterward they were covered with slip, a layer of liquid clay, and rubbed with a smooth stone until they gleamed. If you see dark stains on a Colima vessel, they may come from the manganese in the soil where it was buried, not from the original paint.\n\nAnd why a parrot? Parrots and macaws draw attention: they have vivid colors, they screech in flocks and they repeat sounds. In the pre-Hispanic world their feathers were a luxury good. Later on, in the North Hall, you will see in Paquimé how macaws were raised for their feathers. The remains of more than three hundred have been found there.\n\nOther Colima parrots appear as the legs of gourd-shaped vessels. They have their wings pressed against their bodies and seem to peck at the fruit. This has been interpreted as a wish for abundance: that the dead would not lack harvest in the afterlife.\n\nThis vessel may have held food or drink. Those who study the offerings of Colima say they were not objects of worship or household ornaments. The clay animals are read as guides or companions of the dead, as guardians or as ritual food. The [dogs](mna_s10_perros_colima) you saw fulfill all those roles, and the parrots perhaps do too.\n\nLike almost everything from Colima, its original tomb has probably been lost, and with it the name of the person it accompanied. That turned these pieces into market objects: Colima pieces, above all the little dogs, are among the most sought after by collectors. Diego Rivera and Frida Kahlo gathered pieces from the West beginning in the 1930s. A vessel without a tomb loses part of its history, but it keeps its beauty.\n\nA photographic publication on the museum’s collection describes it as a very realistic effigy of a parrot. It celebrates the skill with which the sculptors of the West portrayed the animals of their surroundings. Before moving on, look at the shine of the clay. After more than a thousand years, the surface still reflects the light. The parrot does not speak, but it is still there, with its curved beak, as if about to say something."
+    },
+    "retos_observacion": {
+      "hash": "255a7cd3c859d6c1",
+      "texto": [
+        "Look at the curved beak and the rounded shape of the body",
+        "Notice the shine of the red clay and the lighter areas",
+        "Find the opening through which the vessel was filled"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f6f7515d314f6c70",
+      "texto": {
+        "Culture": "Colima (Shaft Tombs tradition)",
+        "Period": "Early to Middle Classic (around 200-600 AD)",
+        "Material": "Modeled, polished clay, red with lighter areas",
+        "Origin": "Colima",
+        "Dimensions": "about 20 x 17 cm"
+      }
+    },
+    "faq_mito": {
+      "hash": "e698183a47051e94",
+      "texto": {
+        "pregunta": "Myth: Animal-shaped vessels were kitchen pieces or household ornaments.",
+        "respuesta": "Reality: They were made as offerings for shaft tombs. Specialists read them as companionship, protection or food for the deceased."
+      }
+    }
+  }
+}

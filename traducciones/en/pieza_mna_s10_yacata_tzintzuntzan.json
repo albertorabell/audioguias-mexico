@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -11,27 +11,27 @@
       "texto": "Architectural Model of a Purépecha Yácata"
     },
     "frase_gancho": {
-      "hash": "9538e261fe6d96ed",
-      "texto": "A pyramid with a rectangular body and a round one, crowned by a wooden temple."
+      "hash": "7f668d0c44410f79",
+      "texto": "The sacred building of the Purépecha: a rectangle joined to a circle."
     },
     "puente_narrativo": {
-      "hash": "d92057784f01c1bc",
-      "texto": "We close out the West with a scale model: the shape of Purépecha pyramids."
+      "hash": "dd0245427fba361d",
+      "texto": "In the ceremonial plaza of Ihuatzio, another Purépecha city, there was a figure you may already know from other halls. Look for a reclining man made of gray stone, with his head turned and a vessel on his belly."
     },
     "guion_corto": {
-      "hash": "c50df0bb470ca20d",
-      "texto": "A pyramid with a rectangular body and a round one: that is what Purépecha yácatas looked like. This is a scale model of one of them, made of clay. It belongs to the Tarascan or Purépecha culture, from the Late Postclassic, and it represents the yácatas of Tzintzuntzan and Ihuatzio, in Michoacán. A yácata is a mixed pyramidal base. It has a stepped rectangular body at the front, joined at the back to a semicircular or cylindrical body. On the summit stood conical temples of wood and straw, dedicated to the main deities, led by Curicaueri, the god of solar fire. The original structures were built with stone cores and carved slabs of volcanic stone."
+      "hash": "b6a3a72a837ba1df",
+      "texto": "This model, about sixty-five centimeters tall, reproduces the yácatas, the sacred buildings of the Purépecha, the people who dominated Michoacán before the Spaniards arrived. Unlike the pyramids of other regions, a yácata combines a rectangular body with a semicircular one, and seen from above it resembles a keyhole or the letter T. It has stepped tiers and a wide access ramp. At the top stood a temple with a thatched roof, where a fire burned in honor of Curicaueri, the god of fire and the sun. The model is made so that you can understand the complex of Tzintzuntzan, the capital, beside Lake Pátzcuaro."
     },
     "guion_largo": {
-      "hash": "9b336ccbfa2427d2",
-      "texto": "A pyramid unlike any other. The Purépecha yácata combines two shapes: a stepped rectangular body at the front and a semicircular or cylindrical body at the back.\n\nThis is a scale model, made of clay. It represents the yácatas of Tzintzuntzan and Ihuatzio, in the Lake Pátzcuaro basin, in Michoacán. It belongs to the Tarascan or Purépecha culture and dates to the Late Postclassic.\n\nThe original yácatas were built with stone cores and carved slabs of volcanic stone. On the summit, conical temples of wood and straw were raised. They were dedicated to the main deities, led by Curicaueri, the god of solar fire.\n\nIn Tzintzuntzan, whose name translates as Place of hummingbirds, five monumental yácatas still stand, lined up on a single platform. They face Lake Pátzcuaro. The great ceremonial platform measures more than four hundred meters long by two hundred fifty wide.\n\nOn their summits, priests kept sacred fires burning day and night. It was the divine nourishment of the Sun.\n\nLook at the model from above, if you can. You will see how the rectangular body and the round one join into a single structure."
+      "hash": "2fefe7f0cc3d9df6",
+      "texto": "Tzintzuntzan means “place of hummingbirds.” It is a beautiful name for a city that was the capital of an empire. It stood on the shore of Lake Pátzcuaro, in Michoacán, and from it the cazonci, the king of the Purépecha, ruled.\n\nAround the fourteenth century, the Purépecha formed one of the most powerful states in Mesoamerica. Their great rival was the Mexica empire, which tried to conquer them and failed: according to tradition, at the end of the fifteenth century the Purépecha armies defeated the Mexica. That is why here you see a culture that was never subdued by Tenochtitlan and that kept its independence until the Spaniards arrived.\n\nThey spoke Purépecha, a language with no known clear relatives in Mexico. While almost all the neighboring peoples spoke languages related to one another, they spoke something different. It is another sign of their distinct character.\n\nNow, the yácata. It was built with volcanic stone without mortar, and it was faced with flat slabs called xanamus. In Tzintzuntzan there are five yácatas lined up on an enormous platform more than four hundred meters long, facing the lake. Imagine all five, with their thatched temples at the top and the smoke of the sacred fires, above the water.\n\nThat fire was the heart of it all. Curicaueri, the main god, means something like “the great fire.” At the top of each yácata a fire was kept burning, and carrying firewood up there was a religious act. The fire was not to go out. The Purépecha saw themselves as keepers of a sacred fire.\n\nWe know a great deal about them from a sixteenth-century text, the Relación de Michoacán, which a friar wrote with the help of Purépecha nobles who told him their history, their gods, and their kings. It is one of the richest sources about an Indigenous people of that time, and it is full of stories, such as that of the hero Tariácuri, who united his people.\n\nWhy that shape, a rectangle with a semicircle? There are several ideas. One says it joins the earthly, the rectangle, with the celestial, the circle of the sun. Another says it combines the pyramid with the round shape of the temples to the wind god. We do not know for certain, and perhaps that is why the yácata still fascinates those who see it.\n\nThe Spaniards called them Tarascans, a name they did not give themselves; today they are called Purépecha. And they are a living people: in Michoacán, Purépecha is still spoken, and in the ethnography halls on the upper floor there is one dedicated to their descendants.\n\nTzintzuntzan changed with the conquest. It is thought that many stones from the ancient buildings were reused in colonial constructions, such as the convents the friars built. Part of the city ended up, quite literally, inside another.\n\nToday the yácatas of Tzintzuntzan can be visited, restored in the twentieth century, on the shore of the lake. This model lets you see them all at once, complete, like a bird above the water."
     },
     "retos_observacion": {
-      "hash": "5b61168991effb65",
+      "hash": "59f52993ac30505a",
       "texto": [
-        "Find the stepped rectangular body at the front.",
-        "Look at the round body joined at the back.",
-        "Imagine the wood and straw temple that crowned the summit."
+        "Find the rectangular body and the semicircular body",
+        "Find the ramp that was used to climb up",
+        "Imagine the thatched temple at the top, with the fire burning"
       ]
     },
     "especificaciones": {
@@ -44,10 +44,10 @@
       }
     },
     "faq_mito": {
-      "hash": "7e754307613e340c",
+      "hash": "34c2040a75de8114",
       "texto": {
-        "pregunta": "Myth: Yácatas were military forts built by invaders.",
-        "respuesta": "Reality: They were Purépecha pyramidal bases, with temples on top dedicated to Curicaueri, the god of solar fire."
+        "pregunta": "Myth: All Mesoamerican pyramids had the same shape, square and stepped.",
+        "respuesta": "Reality: Each region had its own form. In Michoacán the yácatas combine a rectangular body with a semicircular one, and in Teuchitlán, Jalisco, there were circular pyramids."
       }
     }
   }

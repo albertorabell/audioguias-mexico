@@ -3,35 +3,39 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
-  "avisos": {},
+  "fecha": "2026-10-16",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Totonac\" para \"Totonaca / Totonacas\" y no aparece"
+    ]
+  },
   "campos": {
     "titulo": {
       "hash": "81b132fbddf1330c",
       "texto": "Smiling Face Sculpture"
     },
     "frase_gancho": {
-      "hash": "3d43b36927d12b6d",
-      "texto": "An open laugh made in clay, amid the most solemn art of Mesoamerica."
+      "hash": "4690dbae62fa72fa",
+      "texto": "A clay smile more than a thousand years old that is still contagious."
     },
     "puente_narrativo": {
-      "hash": "edade37f5507ff41",
-      "texto": "We continue on to the Classic period of central Veracruz, with a clay figure that trades solemnity for laughter."
+      "hash": "628a7691bc574dc4",
+      "texto": "From joyful clay to solemn clay: look for the figure, almost life-size, of a seated woman with fixed eyes and serpents on her belt."
     },
     "guion_corto": {
-      "hash": "c7e2194915bf42a1",
-      "texto": "Mesoamerican art is usually solemn. This clay figure, by contrast, is laughing. It is one of the smiling faces of Remojadas, made in central Veracruz during the Late Classic. It is hollow ceramic, shaped by hand and in a mold. The laugh is wide open and shows the teeth and the tongue. It wears a rounded headdress, with geometric or animal motifs, and sometimes it holds a rattle or a fan with its arms raised. On some of them there are touches of chapopote, a natural asphalt, on the eyes, the mouth and the ornaments. Specialists associate them with music, fertility, agricultural renewal and ritual trance. They also link them with Xochipilli, the god of song, dance and joy."
+      "hash": "2ca493e41a35b271",
+      "texto": "This fired clay figure, about eighteen centimeters tall, is one of the so-called smiling faces of central Veracruz, made in the Remojadas area between the years six hundred and nine hundred of our era. Look at the face: the mouth wide open, the eyes half closed, and the front teeth filed, as if the figure were in the middle of a burst of laughter. It wears a rectangular headdress with relief designs and round ear ornaments, and its head is elongated, from an intentional deformation of the skull. In an ancient art that we tend to imagine as serious, these figures are a surprise. They have been interpreted as representing participants in rituals of music, dance, and trance. No one knows for certain why they smile, but their joy crosses the centuries."
     },
     "guion_largo": {
-      "hash": "c387863e8af0e7fc",
-      "texto": "The smiling faces are clay figures from the Remojadas tradition, in central Veracruz. They belong to the Late Classic, around the years 600 to 900 AD. They have been found in Remojadas and in the Tierra Blanca region.\n\nThey are hollow figures, shaped by hand and also in a mold. Sometimes they have a light-colored slip. On the eyes, mouth and ornaments they may have touches of chapopote, a natural asphalt from the region. That combination of clay, light color and black gives them a very lively look.\n\nThe laugh is wide open and shows the teeth and the tongue. It is a joyful, realistic expression, something uncommon in the art of Mesoamerica, which tends to be hieratic and solemn. They wear rounded headdresses, with geometric or animal motifs. They may have loincloths and pectorals. Sometimes they hold rattles or fans with their arms raised.\n\nSpecialists associate them with fertility rites, with music, with agricultural renewal and with states of ritual trance. Also with Xochipilli, the god of song, dance and joy. These are interpretations, because there is no text from the period that confirms them.\n\nNot all of them are the same size: they range between 15 and 35 centimeters in height. That is why people speak of the smiling faces, in the plural, as a type of figure and not as a single work. In a hall full of hard stone, clay offers something different: an open laugh made with patience."
+      "hash": "936722afbc502ecb",
+      "texto": "After so many grave stones and stern faces, isn’t it a relief to find someone who is laughing? It is one of the surprises of Mesoamerican art: not everything was solemn.\n\nRemojadas is a site in central Veracruz that gives its name to a clay tradition that lasted for centuries. These figures were made with the help of molds, touched up by hand, and painted. Many have been found, in tombs and in offerings, so they were not a rare object, but a much-loved image. On several, it is described that the pupils were marked with chapopote, the natural asphalt that seeps up in the region, a shiny black that gives the gaze an air of life.\n\nLook at the teeth again: they are filed. You already saw that custom in the introduction hall, among the skulls with decorated teeth, when we talked about the body as a canvas. And the elongated head is the same deformation you saw in [Offering 4](mna_s08_ofrenda4_laventa) and that you will see again in the profile of [Pakal](mna_s09_mascara_pakal). This smile, then, carries all the fashion of its time: a molded skull, carved teeth, ear ornaments, and a headdress.\n\nWhy do they smile? There are several ideas. Some specialists think they represent people in ceremonies of music, dance, and trance, perhaps with fermented drinks or plants that alter consciousness. Others link them to the fertility cult and to festivals held to ask for good harvests. There are even those who imagine them as part of the games and celebrations that followed the serious rituals. No idea has been proven, and perhaps all of them hold something true. And they are not all alike: smiling figures have been described standing and seated, some with arms open, as if they were dancing.\n\nCompare, too, with the first piece in the hall. The [Colossal Head](mna_s08_cabeza_colosal_6) commands respect; this smile invites you to come closer. They are two ways of imagining the human being, on the same coast and centuries apart. And there is another difference: clay, unlike stone, allowed many similar pieces to be made, so it is thought that these figures reached many more people. It was an art less of kings and more of everyone.\n\nHere is a curious fact. In Veracruz, the artisans of this period also made animal figures with wheels, which look like toys. Yes, wheels: clay figures with little wheels are known, although they never had carts or draft animals to make use of them. Remember that in Oaxaca I told you about roads without wheels. This is the exception in miniature: the principle of the wheel was known, but it was not used to transport anything. An invention that stayed a toy.\n\nOn the upper floors you will get to know the Totonacs, who still live today in this region of Veracruz, and their Voladores (Flyers). A tradition that, like this smile, has survived the centuries.\n\nSo the next time someone says that the past was only blood and stone, remember this face. Someone, more than a thousand years ago, wanted to capture in clay the exact moment when a person laughs."
     },
     "retos_observacion": {
-      "hash": "f97ba90d35af0910",
+      "hash": "86760473c61314f4",
       "texto": [
-        "Look at the open laugh: you can see the teeth and the tongue.",
-        "Look for the rounded headdress with geometric or animal motifs.",
-        "Notice whether it holds a rattle or a fan with its arms raised."
+        "Look at the smile: which teeth can you see, and how are they filed?",
+        "Notice the rectangular headdress and the round ear ornaments",
+        "Compare its expression with that of the Colossal Head"
       ]
     },
     "especificaciones": {
@@ -44,10 +48,10 @@
       }
     },
     "faq_mito": {
-      "hash": "b4fc47e2c4c2e33a",
+      "hash": "730d78a7393547e3",
       "texto": {
-        "pregunta": "Myth: The smiling faces of Veracruz are war captives smiling before being sacrificed.",
-        "respuesta": "Reality: Specialists associate them with music, fertility and ritual trance, and with Xochipilli, the god of song, dance and joy."
+        "pregunta": "Myth: The ancient peoples of Mexico were always serious and solemn.",
+        "respuesta": "Reality: They laughed, too. The smiling faces show joy, music, and celebration within an art that we tend to imagine as grave."
       }
     }
   }

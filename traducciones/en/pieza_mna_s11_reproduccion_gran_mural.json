@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_reproduccion_gran_mural",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0f68d17c40f5a56b",
+      "texto": "Reproduction of the Great Mural Rock Art"
+    },
+    "frase_gancho": {
+      "hash": "05d786020a564c7e",
+      "texto": "Figures painted thousands of years ago in canyons that almost no one reaches."
+    },
+    "puente_narrativo": {
+      "hash": "8f0f35272094ed11",
+      "texto": "From the painted walls, we move into the interior of the desert caves. Look for a scene that recreates dry caves of the north, where the dry air preserved baskets, sandals, and funerary bundles."
+    },
+    "guion_corto": {
+      "hash": "7b7f68960c105a21",
+      "texto": "This is a reproduction of the rock paintings of the Sierra de San Francisco, in Baja California Sur. There, in canyons that are hard to reach, are hundreds of rock shelters with paintings, and UNESCO declared the site a World Heritage Site in 1993. The style is called Gran Mural: large silhouettes of people and animals, especially deer, painted in red, black, white, and yellow. Some human figures are over two meters tall, and many were painted on top of one another. They were made by groups of hunter-gatherers, who are linked to the ancestors of the Cochimí. To see the originals, you need a permit from the INAH, a guide, and sometimes several days of travel. This reproduction lets you glimpse that world without leaving Mexico City."
+    },
+    "guion_largo": {
+      "hash": "9331c7e41a5c68b0",
+      "texto": "How big is a deer painted thousands of years ago? In the Sierra de San Francisco, between two and three meters long. The painters of that region did not make small figures. They worked on the walls and ceilings of rock shelters, and some of their human figures are more than two meters tall. They are known as the Gran Mural.\n\nThat mountain range is in the center of the Baja California peninsula, in the municipality of Mulegé. It lies within the El Vizcaíno Biosphere Reserve. The canyons are dry and deep. Reaching some of the shelters takes anywhere from an hour’s walk to several days on foot or by mule. UNESCO explains that the paintings are very well preserved thanks to the dry climate and the difficult access. Today they are visited by reservation, with a permit from the INAH and an authorized guide.\n\nNotice how they are made. The figures are silhouettes filled with bands, stripes, and other geometric designs. People tend to appear facing front with their arms raised, while deer and other animals are shown in profile. The animals include bighorn sheep, rabbits, birds, fish, and turtles. In some panels, arrows or spears pierce the bodies of people and animals.\n\nThe colors came from the earth. Red and yellow were obtained from iron oxides, white from gypsum, and black, according to analyses, from manganese. Everything was ground and mixed with water and with some plant-based binder that is still being studied. Specialists think the paint was applied with brushes made of agave leaves, and that scaffolds of logs were built to reach the ceilings.\n\nMany figures overlap. A new painting was made over an older one, and in the Cueva Pintada as many as seven layers have been counted. It is thought that repainting was not carelessness, but part of rituals in which ancestors and mythical figures were remembered.\n\nWho painted them, and when? They are attributed to the ancestors of the Cochimí, a people of hunters, gatherers, and fishers whom the Jesuit missionaries encountered in the eighteenth century. According to the accounts collected, the Cochimí said they did not know who had made them and spoke of an ancient race of giants. The dates are also debated. UNESCO speaks of a range between the year 100 BC and the year 1300 AD. More recent studies give ages of several thousand years, up to about seven thousand five hundred.\n\nThe missionaries described them first, but the world learned of them much later. In 1962, the detective novelist Erle Stanley Gardner published photographs of several caves in a magazine, and the archaeologist Clement Meighan studied them. In the seventies the photographer Harry Crosby traveled the sierra by mule, and he is credited with the name Gran Mural. The INAH has been doing research there since 1981. Between 1994 and 1996, together with the Getty Conservation Institute, it studied how the paintings of the Cueva del Ratón deteriorate.\n\nIn this same hall you saw a slab with engravings by other hunters of the desert, and a bundle preserved by the dryness. These paintings show another way of leaving a mark: not by striking the stone, but by covering it with color. A reproduction does not replace the original, but it has one advantage: here you can stay as long as you like, with no trail and no permits. Choose a figure and ask yourself what the person who painted it meant to say."
+    },
+    "retos_observacion": {
+      "hash": "7c6b3f21caa03314",
+      "texto": [
+        "Look for the human figures and notice the position of their arms",
+        "Find an animal, perhaps a deer, and see whether it appears facing front or in profile",
+        "Notice whether some figures are painted over others, and count the colors"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f8e0e446a977c0f",
+      "texto": {
+        "Culture": "Gran Mural tradition (ancestors of the Cochimí peoples)",
+        "Period": "Between the 1st century BC and 1300 AD (with dates suggesting even older roots)",
+        "Material": "Scale museum reproduction of a rock shelter painted with mineral oxides",
+        "Original origin": "Sierra de San Francisco, Mulegé, Baja California Sur"
+      }
+    },
+    "faq_mito": {
+      "hash": "1b0539ca64a6d9a9",
+      "texto": {
+        "pregunta": "Myth: This painting is the original, brought from a cave in Baja California.",
+        "respuesta": "Reality: It is a reproduction. The originals remain in the rock shelters of the Sierra de San Francisco."
+      }
+    }
+  }
+}

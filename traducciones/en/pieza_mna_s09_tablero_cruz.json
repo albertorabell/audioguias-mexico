@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -15,39 +15,39 @@
       "texto": "A boy and a grown king, the same man, on either side of a sacred cross."
     },
     "puente_narrativo": {
-      "hash": "67eab5a3d00a46ce",
-      "texto": "We remain in Palenque with the son and successor of Pakal, who ordered a great stone tablet carved with his story."
+      "hash": "95c9142a818ddf57",
+      "texto": "From Palenque we move on to the palace of another kingdom, on the banks of the Usumacinta River. Look for a stone relief with two figures facing each other: a king and a queen who hands him a jaguar helmet."
     },
     "guion_corto": {
-      "hash": "5968e391d3644ddb",
-      "texto": "A six-year-old boy and a grown king appear on the same stone. They are the same man, K’inich Kan B’ahlam, son and successor of Pakal. This is the Tablet of the Cross of Palenque, a Maya work of the Late Classic, carved around the year 692 AD. On the left, the young man performs a rite of self-sacrifice, which recalls an event of the year 641. On the right, now an adult, he receives the royal diadem, in an event of the year 684. At the center grows a sacred ceiba tree in the shape of a cross, and a bird perches on it. The side panels carry hieroglyphic texts about the birth of a protective god of Palenque. It is thought that they helped to justify the king’s succession."
+      "hash": "333aab32547f6b0c",
+      "texto": "A six-year-old boy and a grown king appear on the same stone, and they are the same man: Kan Bahlam, son and successor of [Pakal](mna_s09_mascara_pakal). It is a large limestone panel from the Cross Group of Palenque, a Maya work of the Late Classic, carved around the year 692. Specialists read in it two moments of his life: as a child, when he was presented as heir, an event of the year 641, and as an adult, when he received power, in the year 684. At the center rises a sacred plant in the shape of a cross. On the sides, columns of glyphs tell who he was and why it was his turn to rule. It is a political argument carved in stone."
     },
     "guion_largo": {
-      "hash": "1e963c3a119444b5",
-      "texto": "Imagine you want to prove that you have the right to rule. This king did it with a carved stone.\n\nIt is the Tablet of the Cross, from Palenque, in Chiapas. It is a Maya work of the Late Classic, carved around the year 692 AD. The relief is made of limestone and is divided into three slabs that form a single scene.\n\nThe protagonist is K’inich Kan B’ahlam, son and successor of Pakal. He appears twice. On the left he is a six-year-old boy performing a self-sacrifice, an event of the year 641. On the right he is an adult, taller in stature, receiving the royal diadem and the insignia of command, an event of the year 684.\n\nBetween the two stands the sacred ceiba. It has the shape of a cross and springs from a mask of the Earth. A sacred bird perches on it.\n\nThe side panels are full of hieroglyphs. They tell of the birth of the god GI, protector of Palenque. It is thought that this account served to justify the throne passing from Pakal to his son.\n\nThe piece comes from the Temple of the Cross. It is part of a group of three temples: the Temple of the Cross, the Temple of the Sun, and the Temple of the Foliated Cross. It has been proposed that they represented the three levels of the universe: the sky, the earth, and the underworld.\n\nThus, the personal story of a king became bound to the sacred tree and to the gods of his city."
+      "hash": "c3b90339d9f90549",
+      "texto": "Imagine that your father, the most famous king in the city, has just died, and now it falls to you to rule. How do you convince everyone that you have the right? Kan Bahlam, the son of [Pakal](mna_s09_mascara_pakal), did it with a stone: he ordered this panel carved and placed it in the most sacred spot of a temple.\n\nIt is a Maya work of the Late Classic, carved around the year 692 in limestone. It comes from Palenque, in Chiapas, from the Cross Group, a complex of three temples: the Temple of the Cross, the Temple of the Sun and the Temple of the Foliated Cross. Each one kept in its inner sanctuary a large panel like this one, with a scene and a text that were read as a single message.\n\nLook at the figures. The king appears twice: as a child, at six years old, and as an adult. According to the specialists’ reading, the scene of the child recalls the year 641, when he was presented as heir; the one of the adult, the year 684, when he received the insignia of power, only a few months after his father’s death. Forty-three years passed between one moment and the other, and the stone joins them in a single image, as if everything had been decided from the very beginning.\n\nBetween the two figures rises a sacred plant in the shape of a cross. For the Maya it was not a Christian symbol: it was the axis of the world, a tree or a maize plant that joined the underworld, the earth and the sky. These crosses were carved long before the Spaniards arrived, and that is why we call it a “cross” only because of its shape.\n\nOn the sides run the texts, entire columns of glyphs. This is the most important part, though the hardest to see. They tell that, according to the tradition of Palenque, the protective gods of the city had been born in mythical times, and that the king was their heir on earth. In this way, Kan Bahlam’s personal story was joined to that of the gods of his city, and his right to rule seemed as ancient as the universe.\n\nThink of it as a political poster, but carved to last. Today’s rulers use speeches, advertisements and social media; Kan Bahlam used limestone, sculptors and several years of work. And it worked: more than one thousand three hundred years later, his name has reached you.\n\nIf you are coming from the [crypt of Pakal](mna_s09_cripta_pakal), you already know the father: the king whose face was covered in jade. Here you meet the son, the one who inherited the city and ruled until the year 702. In those years he built this complex of temples to make it clear that the dynasty was still standing. One tomb for the father and three temples for the son: the story of a family, told in two kinds of stone.\n\nBefore moving on, compare the two figures of the king. What changes in the body, the headdress and the posture of the child and the adult? On this stone time does not pass: the boy and the king are one and the same."
     },
     "retos_observacion": {
-      "hash": "198ee63ce7618731",
+      "hash": "f033df1db6d94a2a",
       "texto": [
-        "Look for the boy on the left and the adult on the right: they are the same person.",
-        "Find the ceiba in the shape of a cross and the bird perched on it.",
-        "Look at the side panels: they are covered with hieroglyphs."
+        "Find the two portraits of the king: one as a child and one as an adult",
+        "Find the sacred plant in the shape of a cross between them",
+        "Look at the columns of glyphs on the sides: they are the text that explains the scene"
       ]
     },
     "especificaciones": {
-      "hash": "a856c92d9765295d",
+      "hash": "a01539b997eb1885",
       "texto": {
         "Culture": "Maya, Palenque",
-        "Period": "Late Classic (600-900 AD)",
-        "Material": "Limestone, bas-relief on three slabs",
-        "Origin": "Temple of the Cross, Palenque, Chiapas"
+        "Period": "Late Classic (around 692 AD)",
+        "Material": "Limestone, bas-relief on several slabs",
+        "Origin": "Cross Group, Palenque, Chiapas"
       }
     },
     "faq_mito": {
-      "hash": "d7570792099c1416",
+      "hash": "1e7546d953929576",
       "texto": {
-        "pregunta": "Myth: The cross on the tablet is a Christian symbol that arrived with the Spaniards.",
-        "respuesta": "Reality: It is a sacred ceiba tree in the shape of a cross. The Maya carved it around the year 692, long before the Spaniards arrived."
+        "pregunta": "Myth: The cross on the panel is a Christian symbol that arrived with the Spaniards.",
+        "respuesta": "Reality: It is a sacred Maya plant or tree in the shape of a cross, carved around the year 692, long before the Spaniards arrived."
       }
     }
   }

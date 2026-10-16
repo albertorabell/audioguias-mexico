@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_craneo_candelaria",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dd30a42ac1b7f28d",
+      "texto": "Skull with Headdress from the Candelaria Cave"
+    },
+    "frase_gancho": {
+      "hash": "aaa3d13c2c9e719f",
+      "texto": "A thousand-year-old skull that still keeps its headdress of red cords."
+    },
+    "puente_narrativo": {
+      "hash": "d7288c7788d8e1f6",
+      "texto": "From the caves of the desert, we move on to a farming people of the frontier. Look for a small, cylindrical vessel decorated with bands of vivid colors: red, yellow, and turquoise blue."
+    },
+    "guion_corto": {
+      "hash": "a8c25e5161e10814",
+      "texto": "This skull belonged to an adult man, between thirty-six and fifty-five years old, who lived around the year 1000 of our era. It comes from the Candelaria Cave, in southwestern Coahuila, the same site as the funerary bundle. It has an elongated shape, which specialists call dolichocephalic. It still keeps its headdress, with cords dyed red, which may have marked his rank or his authority. Among the hair and the fibers, remains of flies and their eggs were found, a sign that the body was exposed during a ceremony before burial. And his teeth, worn down from eating hard seeds, tell us that as a child he went hungry."
+    },
+    "guion_largo": {
+      "hash": "16b8e3073c6632a4",
+      "texto": "Sometimes an object tells its story through very small details, and this skull is one of those. The scientists who studied it read it the way one reads a book: the age, the food, the rituals, even the insects that visited the body.\n\nLet us begin with the place. The Candelaria Cave is in southwestern Coahuila, in the desert, within a region known as Aridoamerica. It is a limestone cave entered through a vertical shaft about nine meters deep, which led to several chambers holding hundreds of objects. It had been known since 1838, but the great exploration took place in 1953 and 1954. At that time, the remains of one hundred seventeen people were recovered, men, women, and children, laid down in an orderly way over generations.\n\nYou have already met the bundle: one of those people, partially mummified by the dryness, folded over and wrapped in woven blankets. Along with the remains, there appeared necklaces of shell and seeds, ear ornaments, decorated textiles, projectile points with their handles, and even a net bag. This skull comes from the same cemetery.\n\nIt belonged to a man between thirty-six and fifty-five years old, who lived around the year 1000, according to the radiocarbon date. That technique measures how much radioactive carbon remains in a bone or a fiber; since that carbon is lost at a known rate, it makes it possible to calculate how long ago the person died. His skull is long and narrow. Over the hair, some cords dyed red are still preserved, which formed his headdress. It has been thought that the color and the arrangement marked his social position, perhaps a chief or a respected figure.\n\nNow come the scientist’s details. In the hair and in the fibers, remains of flies and their eggs were found. That means the body was not buried right away: it was exposed, in the open air, during a funerary rite, before being wrapped and taken to the cave. One tiny detail revealed an entire ceremony.\n\nThe teeth say more. Some have marks of enamel hypoplasia, lines that form when a child grows up with hunger or illness. That suggests that as a child he went through times of scarcity, perhaps seasonal, as is normal in the desert. And the wear on the molars indicates that he ate hard foods, such as seeds. It is the life of a hunter-gatherer written in his mouth.\n\nThe cave was used for centuries, from the year nine hundred until around sixteen hundred, and its story is not over. In 2025, the INAH rescued the remains of at least seventeen people in another cave in the same region of Coahuila, which had been looted. That is why caves are protected: when someone takes away a bone or a textile, it is precisely that information, so small and so great, that is lost.\n\nLook at the headdress once more. Whoever put it on that day knew it would stay with him. A thousand years later, it is still there, and it still tells us how someone lived who left no writing."
+    },
+    "retos_observacion": {
+      "hash": "bb8ed52d7bbc4381",
+      "texto": [
+        "Look for the red-dyed cords of the headdress",
+        "Notice the elongated shape of the skull",
+        "Observe the teeth: what signs of wear can you see?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "abe52a6265106c73",
+      "texto": {
+        "Culture": "Hunter-gatherers of the north (Aridoamerica)",
+        "Period": "Around 1000 AD (the cave was occupied between 900 and 1600 AD)",
+        "Material": "Bone remains and dyed plant fibers",
+        "Origin": "Candelaria Cave, southwestern Coahuila"
+      }
+    },
+    "faq_mito": {
+      "hash": "c8aab6b0a619f595",
+      "texto": {
+        "pregunta": "Myth: These caves only held bones without a story.",
+        "respuesta": "Reality: Specialists read in them the age, the diet, the illnesses, and even the funerary rites of each person."
+      }
+    }
+  }
+}

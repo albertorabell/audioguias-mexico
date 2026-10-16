@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_murales_tzintzuntzan",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6597b1a8b2581a14",
+      "texto": "Covarrubias and O’Higgins Murals on the West"
+    },
+    "frase_gancho": {
+      "hash": "416757a373c8b662",
+      "texto": "Two twentieth-century paintings place you in the West: a map and a city."
+    },
+    "puente_narrativo": {
+      "hash": "563443ec3a1341ad",
+      "texto": "From the West we continue north, to the desert, where another way of life begins. Look for a stone slab with spirals, wavy lines and deer tracks, engraved by hunters."
+    },
+    "guion_corto": {
+      "hash": "b053a855b2248117",
+      "texto": "On the walls of this hall there are two paintings made for the museum around its opening, in 1964. One is a map of the coast of the West, by Luis Covarrubias, the painter who made maps for many halls. The other is titled “Apogee of Tzintzuntzan” and is by Pablo O’Higgins, a painter born in the United States who became Mexican. Tzintzuntzan was the capital of the Purépecha, whom you met in the [model of the yácata](mna_s10_yacata_tzintzuntzan). The museum commissioned murals like these for an educational reason. A map helps you locate the cultures, and a painting invites you to imagine how people lived. They are not ancient works but twentieth-century ones, and they are also part of the museum’s history."
+    },
+    "guion_largo": {
+      "hash": "acbe40f661643bab",
+      "texto": "The museum opened on September 17, 1964, with a clear idea: that the walls should teach too. For the 1964 opening, murals were commissioned from several painters for the different halls, with a didactic purpose. The catalog records more than twenty works, by artists such as [Rufino Tamayo](mna_s00_mural_tamayo), José Chávez Morado, Alfredo Zalce, [Leonora Carrington](mna_s19_mural_carrington) and Carlos Mérida. This hall received two.\n\nThe first is a map of the coast of the West, by Luis Covarrubias. Do not confuse him with Miguel Covarrubias, the artist who named the [Pretty Ladies](mna_s03_mujeres_bonitas) of Tlatilco. Miguel died in 1957, seven years before the museum opened. Luis is the author of the maps found in many halls, both archaeological and ethnographic. His maps carry a didactic message: they show the culture and its geography. A UNAM thesis from 2021 studies his mural work in this museum.\n\nA map seems like a simple decoration, but it does a big job. Before you look at the display cases, it tells you where you are: a region of coasts, volcanoes and lakes that today Colima, Jalisco, Nayarit, Michoacán and Guerrero share. Try this. Find Michoacán, where Tzintzuntzan stood, and then move on to the mural and think that this small point on the map was a capital.\n\nThe second mural is titled “Apogee of Tzintzuntzan” and is by Pablo O’Higgins. Apogee means the highest point, the best moment. Tzintzuntzan, on the shore of Lake Pátzcuaro, was the capital of the Purépecha, and the [model of the yácata](mna_s10_yacata_tzintzuntzan) showed you its most characteristic building. O’Higgins was born in Salt Lake City, Utah, in 1904, and as a young man he went to live in Mexico. He was an assistant to Diego Rivera, a founder of the People’s Graphic Workshop, and in 1961 he received Mexican nationality. His work often dealt with workers and Indigenous communities, so the subject suited him well.\n\nWhat scenes this mural includes you will discover by looking at it. What a stone model cannot give, a painting can: color, landscape and movement. If you look at it after the yácata, it helps you imagine the living city and not only its stones.\n\nO’Higgins painted more for the museum. The same catalog mentions “The Sierra Tarahumara,” for the Northwest Hall. It also mentions “[Purépecha Wedding](mna_s14_mural_ohiggins_boda_purepecha),” for the hall of the Purépecha of today, on the upper floor. It is curious: a painter born in Utah portrayed the peoples of Michoacán and Chihuahua.\n\nThis hall also holds more recent art. The pictorial collection linked to the hall also includes works such as “Crater B,” a painting by the artist Vicente Rojo, and a recent work by Manuel Felguérez. Among figures from two thousand years ago, there is painting from our own time.\n\nThe museum wanted to give the pieces context through painting, so that none would stand alone. Today the murals also tell how the past was imagined in the mid-twentieth century. Before moving on, think about what you have seen in this hall. The display cases gave you objects. These paintings give you the place and the era. Together they are better understood."
+    },
+    "retos_observacion": {
+      "hash": "f51e50f5b4a88562",
+      "texto": [
+        "Find the Pacific coastline on the map and follow it with your eyes",
+        "Try to locate on the map the region of a piece you have already seen",
+        "In the Tzintzuntzan mural, look for a building that recalls the yácata"
+      ]
+    },
+    "especificaciones": {
+      "hash": "43b43d14421c481e",
+      "texto": {
+        "Authors": "Luis Covarrubias (“Map of the Coast of the West”) and Pablo O’Higgins (“Apogee of Tzintzuntzan”)",
+        "Year": "around 1964",
+        "Original Location": "West Hall",
+        "Subject": "geography of the West (map) and the Purépecha city of Tzintzuntzan at its height"
+      }
+    },
+    "faq_mito": {
+      "hash": "a72e3f31ecc627d5",
+      "texto": {
+        "pregunta": "Myth: The murals in the halls are ancient paintings, from the same period as the pieces.",
+        "respuesta": "Reality: They are twentieth-century works, painted around 1964 for the museum, to help visitors understand each hall."
+      }
+    }
+  }
+}

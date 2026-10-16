@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_vasija_silbadora_coporo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a57386989619e2d4",
+      "texto": "Whistling Vessel from El Cóporo"
+    },
+    "frase_gancho": {
+      "hash": "dc66804bb7082a91",
+      "texto": "It looks like just another vessel, but it hides a whistle that sounds with water."
+    },
+    "puente_narrativo": {
+      "hash": "2faf0d37c16a5f62",
+      "texto": "From the vessel that sings, we move on to a trio of human figures made of clay. Look for three highly stylized figures from the San Miguel de Allende region, each with a large headdress."
+    },
+    "guion_corto": {
+      "hash": "9428bd36afdb987c",
+      "texto": "It looks like just another vessel, but it was made to sound. A whistling vessel is a clay container with a whistle hidden inside a figure, almost always human or animal. Liquid is poured in, the vessel is tilted, and the water pushes the air toward the whistle. Some models also sound when you blow through the mouth. This piece is attributed to El Cóporo, a site in Guanajuato on the former northern frontier of Mesoamerica, inhabited mostly between the years six hundred and nine hundred of our era. Whistling vessels have existed in Mesoamerica for more than two thousand five hundred years. Many appear in tombs, and they are thought to have been used in rituals, although their exact use remains a mystery."
+    },
+    "guion_largo": {
+      "hash": "639c96b60e0c7816",
+      "texto": "The secret of a whistling vessel is that it is made of two containers joined by a channel. One is open, and the liquid goes in there. The other is closed, shaped like a figure, and hides a round whistle inside. When the vessel is tilted, the water passes from one side to the other and pushes the air in the closed chamber. That air strikes the sharp edge of the whistle, and it sounds. Acoustic studies of similar Mesoamerican vessels show that some can also be played by blowing through the open mouth, without water.\n\nIt is not a late invention. In the Maya area and in Oaxaca they appear around the middle of the Preclassic, and later they spread across the Basin of Mexico, the West, and the Gulf Coast. At Chiapa de Corzo, examples were found in burials dating between seven hundred fifty and four hundred years before Christ. In Teotihuacán there were whistling vessels during the Classic period. In Veracruz, others were made, with a monkey mask on the rim, which were played by blowing across an opening.\n\nYou may know the whistling vessels of Peru, famous around the world. Those from Mexico are less well known. You already saw vessels shaped like people and animals in Tlatilco, such as [the Acrobat](mna_s03_acrobata_tlatilco) and the Duck. And a moment ago you saw those from Paquimé. This one adds something more: sound.\n\nWhat were they for? Many have been found in tombs, so a ritual use is suspected, perhaps a funerary one. Fertility rites or rites to ask for rain have also been proposed, although no one has proven it. On several vessels from Oaxaca, wear was noticed on the base, a sign that they were used many times before being placed in a tomb. Because their sound is faint, it is believed they were played in enclosed spaces. The truth is that little is known.\n\nEl Cóporo is in the municipality of Ocampo, in northern Guanajuato, on the western slopes of the Santa Bárbara mountain range. It was built on the former northern frontier of Mesoamerica. The INAH links it to the Tunal Grande tradition, which extended across San Luis Potosí, Aguascalientes, Zacatecas, and the Highlands of Jalisco.\n\nIts houses and temples were made of earth: walls of adobe and of wattle and daub, which is a lattice of rods filled with mud, and roofs of packed earth. One of its plazas has four platforms oriented to the four directions. On one of them there was a hall with twenty wooden columns, a detail that links it with La Quemada and with Alta Vista. That number may be related to the Mesoamerican calendar, with its twenty day signs, like those you saw on the [Sun Stone](mna_s06_piedra_sol).\n\nThe archaeologist Beatriz Braniff explored the site in 1962 and established the first sequence of its ceramics. Then came decades of pause, and the INAH resumed work in 2002. It opened to the public in 2012, and to this day only a small part has been explored.\n\nAbout this particular vessel we know little: it is attributed to that site and, therefore, to that era, but data on its exact context is lacking. Even so, knowing what it is is enough to imagine the scene. A vessel being tilted, a stream of water, and suddenly, a whistle coming from a clay figure. So many pieces in this hall are silent. This one had a voice."
+    },
+    "retos_observacion": {
+      "hash": "eee884d70346ff10",
+      "texto": [
+        "Look for the human figure that crowns the vessel",
+        "Find the opening through which the liquid would be poured",
+        "See if you can spot a small hole where the sound may have come out"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c0d34a59607edd00",
+      "texto": {
+        "Culture": "Tunal Grande Tradition / Northern Frontier of Mesoamerica",
+        "Period": "Classic to Epiclassic (around 500-900 AD)",
+        "Material": "Modeled ceramic with a double acoustic chamber",
+        "Origin": "El Cóporo, Ocampo, Guanajuato"
+      }
+    },
+    "faq_mito": {
+      "hash": "597d2ba59139f532",
+      "texto": {
+        "pregunta": "Myth: Whistling vessels existed only in the Andes, in Peru.",
+        "respuesta": "Reality: They were also made in Mesoamerica, for more than two thousand five hundred years, in places such as Oaxaca, Chiapas, the Gulf of Mexico, and Teotihuacán."
+      }
+    }
+  }
+}

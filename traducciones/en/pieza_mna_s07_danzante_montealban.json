@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -11,27 +11,27 @@
       "texto": "Stela of “Los Danzantes” from Monte Albán"
     },
     "frase_gancho": {
-      "hash": "393f60729851c417",
-      "texto": "They are called Los Danzantes, the Dancers, but nobody is dancing."
+      "hash": "cecc072f39c4d566",
+      "texto": "They are not dancing: they are defeated chiefs, carved in stone two thousand five hundred years ago."
     },
     "puente_narrativo": {
-      "hash": "b31a8294ffa7aefc",
-      "texto": "We remain in Monte Albán, the Zapotec city, with a stone whose name is deceiving: nobody is dancing on it."
+      "hash": "bff0e626bf79c3fc",
+      "texto": "Monte Albán displayed its power in stone, but it also had a sacred side. Now look for a jade face made from twenty-five green pieces, gazing out from the night."
     },
     "guion_corto": {
-      "hash": "60c254c0d7ff843f",
-      "texto": "They are called Los Danzantes, the Dancers, but nobody is dancing. Nineteenth-century explorers believed that the figures on these slabs were performing dance or swimming movements. Today we know they are portraits of war captives. This stela is Zapotec, comes from the Building of Los Danzantes, in Monte Albán, Oaxaca, and dates to the Preclassic, the first stage of the city. It shows a naked man in a contorted posture, with his eyes closed and his mouth open. Some incisions indicate mutilation or flowing blood. Beside him there are cartouches with calendrical glyphs. It was part of a gallery on the walls of Monte Albán’s first public architecture."
+      "hash": "9de3d585f1b5bbdf",
+      "texto": "This slab, almost a meter and a half tall, is one of the so-called “Danzantes” of Monte Albán. The first explorers believed they were dancers, because of their twisted postures. Today they are thought to be portraits of rival chiefs and warriors, captured, stripped naked and sacrificed by the city’s emerging elite. Notice the closed eyes, the limbs bent limp, and the lines that spring from the body: they represent blood. Near each figure there is a glyph, which is probably its name. Monte Albán was founded around the year 500 BC, and this is one of the first things it chose to tell the world: who ruled here."
     },
     "guion_largo": {
-      "hash": "a0ecae442a51f91c",
-      "texto": "Here nobody is dancing. The first explorers, in the nineteenth century, believed that the figures were performing dance or swimming movements. That is where the popular name Los Danzantes comes from.\n\nModern studies, based on epigraphy and iconography, say something else. These are portraits of war captives, sacrificed to legitimize the power of the emerging Zapotec city.\n\nThis stela comes from the Building of Los Danzantes, in Monte Albán, Oaxaca. It is Zapotec and dates to the Preclassic, the first stage of the city. It is a stone slab, carved in low relief and with incisions. It was part of a gallery on the walls of Monte Albán’s first public architecture.\n\nThe figure is a naked man, in a contorted posture. His eyes are closed and his mouth is open. Some incisions indicate mutilation or flowing blood. Beside him there are cartouches with calendrical glyphs.\n\nThe gallery was designed to display military victory, the humiliation and the sacrifice of the captured rival rulers and chiefs. It was a public message, written in stone.\n\nLook at the posture of the body. It is not that of a dance, but that of someone defeated."
+      "hash": "229e8cd87b6652d1",
+      "texto": "Imagine a hill. In the year 500 BC, in the center of the Valleys of Oaxaca, several peoples decide to do something enormous: to flatten the top of a mountain by hand in order to found a city. This is Monte Albán. What is remarkable is that they did it in a place with no water nearby, and still the city grew for more than a thousand years. From that summit you command the whole valley, where the three arms of Etla, Zimatlán and Tlacolula meet: whoever sat up here could see anyone coming. And whoever rules in such a place needs to convince others that he cannot be challenged.\n\nAmong its first monuments are these slabs. There were hundreds of them, more than three hundred by the usual account, set into a building on the main plaza that we now call the Building of the Danzantes. Each slab shows a naked man, with a slack body and closed eyes, in a pose that looks like a clumsy dance. That is where the name comes from. But the name deceives.\n\nToday they are thought to be the defeated. To strip a chief of his clothing, his jewels and his insignia was to take away his identity: to leave him reduced to a body. Several show mutilations, and from them spring scrolls that represent blood. They are chiefs and warriors of rival peoples, and their image was carved in stone so that no one would forget how it ended for those who opposed the rulers.\n\nNow look at the glyph that accompanies the figure. Each one is the sign of a day in the calendar of two hundred and sixty days, which was used as a personal name. They are among the earliest examples of writing in Mesoamerica: the Zapotecs were already writing names and dates more than two thousand years ago. And this was not the first time they had tried. In San José Mogote, a town in the same valley, an even older slab appeared with the same subject: a sacrificed captive and a sign that names him.\n\nThis is propaganda, and of the oldest kind. Two thousand years before the [Stone of Tízoc](mna_s06_tizoc), which you saw in the Mexica Hall, another city was already using stone to say: this is how those who challenge us end. It is the same logic, the same gesture of power, repeated across the centuries. Perhaps that is why it is so unsettling: it reminds us that some things about power have not changed.\n\nNotice also something that cannot be seen at first glance: hardly any two figures share the same posture. Each body was carved differently, with arms and legs at different angles. This suggests that each man was a specific individual, with a name and a biography, and not a generic symbol. Someone took the trouble to remember them one by one, even if only to humiliate them.\n\nOver time, the city’s taste changed: it is thought that several slabs were reused as building stone in later structures, and that is why today some appear cut down or out of place. But this one was preserved whole.\n\nAnd think about this: this stone was looked at by people coming and going across the most important plaza in the city. It was an open book and a warning at the same time. The Zapotecs had many other ways of telling their world, as you will see shortly, but this was the first they decided to carve in stone."
     },
     "retos_observacion": {
-      "hash": "89227847a8d673b9",
+      "hash": "cc2ba47abb80ae22",
       "texto": [
-        "Look at the twisted posture of the naked body.",
-        "Notice the closed eyes and the open mouth.",
-        "Find the cartouches with calendrical glyphs beside the figure."
+        "Look for the closed eyes and the limp arms and legs",
+        "Find the glyph beside the figure: it is his name",
+        "Look at the lines that spring from the body: what do they represent?"
       ]
     },
     "especificaciones": {
@@ -44,10 +44,10 @@
       }
     },
     "faq_mito": {
-      "hash": "a84af3fe3584deb8",
+      "hash": "3b4e7943e349af1a",
       "texto": {
-        "pregunta": "Myth: Los Danzantes are dancers celebrating a festival.",
-        "respuesta": "Reality: They are portraits of war captives, sacrificed to legitimize the power of the emerging Zapotec city. The name comes from a mistake by the first explorers."
+        "pregunta": "Myth: The Danzantes of Monte Albán are dancers.",
+        "respuesta": "Reality: They are prisoners: rival chiefs and warriors, stripped naked and sacrificed. The name “Danzantes” comes from their twisted postures, which the first explorers mistook for a dance."
       }
     }
   }

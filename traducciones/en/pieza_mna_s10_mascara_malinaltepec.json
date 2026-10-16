@@ -1,0 +1,55 @@
+{
+  "id": "mna_s10_mascara_malinaltepec",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "78f12b9d9301a359",
+      "texto": "Malinaltepec Mask"
+    },
+    "frase_gancho": {
+      "hash": "b7148a7798ad60d6",
+      "texto": "A blue-green mosaic mask that some believed to be a fake."
+    },
+    "puente_narrativo": {
+      "hash": "e5d84edaa119ea3e",
+      "texto": "We are changing centuries and empires. Look for a model of a building with a rectangular body joined to a semicircular one, like a T or a keyhole: it is a yácata, the building of the Purépecha."
+    },
+    "guion_corto": {
+      "hash": "ae56f04f7a3e593d",
+      "texto": "This mask turned up in 1921 in Malinaltepec, Guerrero, inside a large pot, next to a funerary bundle. It is barely twenty-one centimeters tall. The base is made of greenish stone, carved between the years two hundred fifty and six hundred fifty AD, in a style similar to the masks of Teotihuacán. Centuries later, between the years one thousand and one thousand five hundred, someone covered it with seven hundred fifty-two tesserae, which are tiny pieces of amazonite, turquoise, and shell, stuck on with copal. On the forehead appears the sign of the grass, malinalli, which matches the name of the place where it was found. And on the nose it wears a nose ornament in the shape of a two-headed serpent."
+    },
+    "guion_largo": {
+      "hash": "aab66c77e08e33e9",
+      "texto": "Few pieces in this hall show as much care as this mask. Look at it up close: it is not a smooth stone, but a mosaic of seven hundred fifty-two tiny pieces. Four hundred seventy-six are amazonite, a bluish-green stone, and two hundred seventy-six are turquoise. Sixty-six pieces of a red shell, called Spondylus, outline the eyebrows and the stepped nose, and the irises are made of hematite. Everything was stuck on with copal, the resin that the peoples of Mexico used as incense and also as glue.\n\nIt was found on August 20, 1921, by the archaeologist Porfirio Aguirre, a native of La Montaña, in Guerrero, during an expedition. It was inside a large pot, next to a funerary bundle. It is said that from there it was carried on foot all the way to Mexico City, with great care.\n\nThe most astonishing thing is that this mask has two ages. The stone, a greenish rock called chloritite, was carved between the years 250 and 650, in the Classic period, in the form of the masks of Teotihuacán, like the one you saw in that hall. The mosaic was added much later, between the years 1000 and 1500. According to the studies, centuries passed between the hands that carved it and the hands that dressed it in new jewels.\n\nOn the forehead you will see a sign: the grass, malinalli. That word, from Nahuatl, names a twisted grass, and it is also one of the twenty day signs of the calendar, the same ones you saw turning on the [Sun Stone](mna_s06_piedra_sol). Malinaltepec, the town where it was found, is formed from that name and from tepetl, «hill»: something like «on the hill of the malinalli.» That the sign matches the place of the discovery has drawn a great deal of attention from specialists.\n\nNow notice the nose ornament, a serpent with two heads. In the codices, an adornment like this appears on goddesses or on women of high rank, and for that reason it is thought that the mask represents a woman. No one knows, however, whether it was carved by a hand from Teotihuacán or from Guerrero itself. The question remains open.\n\nAnd now, the most novelistic part. As soon as it became known, there were those who doubted: such an extraordinary object, a mosaic on stone, seemed too good to be true. It is said that, within a few days, an archaeologist wrote to the Secretary of Public Education to tell him that it was a fake. The doubt lasted for decades, until studies of its materials and of the way it was made made it possible to confirm that it is pre-Hispanic.\n\nRemember what I told you about the [Mezcala figures](mna_s10_figura_mezcala): they are among the most imitated pieces for forgers. Here something similar happens, but in reverse: an authentic piece that was suspected for being too extraordinary. That is why it matters so much to know where each object comes from, who found it, and which analyses support it.\n\nThere is another thread to follow. It is thought that a good part of the turquoise used by the peoples of Mesoamerica arrived from the north, along trade routes. In the North Hall you will learn about Paquimé, key to that route. This mask is, among other things, a sign that those networks could reach as far as Guerrero.\n\nIn 2021 one hundred years had passed since its discovery, and the museum dedicated a special exhibition to it. A hundred years later, it still asks us the same questions: who made it, for whom, and why they dressed it anew."
+    },
+    "retos_observacion": {
+      "hash": "d4eb71f051da4f54",
+      "texto": [
+        "Look for the grass sign on the forehead",
+        "Observe the nose ornament with two serpent heads",
+        "Look at the eyes: what materials do they seem to be made of?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8eac4a0f8ae1c8a1",
+      "texto": {
+        "Culture": "Teotihuacán tradition / Guerrero (reused in the Postclassic)",
+        "Period": "Classic (base carving, 250-650 AD) and Postclassic (mosaic of 752 tesserae, around 1000-1500 AD)",
+        "Material": "Chloritite with a mosaic of amazonite, turquoise, Spondylus shell, and hematite, stuck on with copal",
+        "Origin": "Malinaltepec, Guerrero (found by Porfirio Aguirre in 1921)",
+        "Dimensions": "21 x 21 x 6.5 cm"
+      }
+    },
+    "faq_mito": {
+      "hash": "a8458f8199cdc183",
+      "texto": {
+        "pregunta": "Myth: A mask this perfect and this rare has to be a fake.",
+        "respuesta": "Reality: It was doubted from the moment it was found, but analyses of its materials and technique proved that it is pre-Hispanic."
+      }
+    }
+  }
+}

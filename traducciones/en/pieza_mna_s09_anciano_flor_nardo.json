@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_anciano_flor_nardo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8c7ea3ca2f0f75e3",
+      "texto": "Elder in the Water Lily (Jaina)"
+    },
+    "frase_gancho": {
+      "hash": "e8352075bac28f45",
+      "texto": "An old man of clay peers out from among petals, as if being born anew."
+    },
+    "puente_narrativo": {
+      "hash": "d62b2cd8a1dfdce7",
+      "texto": "From a tiny figure we move to a large-format painting. Look for a mural devoted to the Maya world, the work of Rina Lazo, the same artist who copied the paintings of Bonampak."
+    },
+    "guion_corto": {
+      "hash": "99e90bc529f339bf",
+      "texto": "This clay figure comes from Jaina, the island in Campeche where the Maya buried their dead. It shows an elderly man surrounded by petals, as if he were springing from an open flower. It was made in the Late Classic period, between the years 600 and 900. Specialists suggest that the flower is a water lily. Others link it to the tuberose, the flower from which, according to a Lacandon myth, the gods were born. The old man has been described as a god, or as a dead person who is born again, but no one knows for certain. What can be understood is the underlying idea: a flower that opens is a beginning. That is why these figures accompanied the dead."
+    },
+    "guion_largo": {
+      "hash": "3774a54b5ab58d75",
+      "texto": "Some figures are understood through the face, and others through what surrounds them. This one is of the second kind. The petals are not decoration. They are the place from which the old man seems to emerge, as if the flower were protecting him.\n\nLet us begin with the flower, which has two names. For some it is a water lily, a plant that floats in lagoons and swamps. Its flower opens with the light of day and closes at night. The Maya associated it with water and with the underworld, and for that reason it has been proposed that it symbolizes renewal after death. In studies about Jaina, it is most common to speak of lilies.\n\nFor others, the flower is a tuberose. That idea comes from a Lacandon myth, a Maya people who live in the rainforest of Chiapas. According to the scholar Boremanse, who recorded the tale, the gods were born when a tuberose flower opened, and they had no mother. A study by the INAH adds that one of them, Mensabak, distributes the rains. But that tale was told and written down in modern times, more than a thousand years after these figures. It is a clue, not proof.\n\nThis is not an isolated piece. In 1975, a study by Miller reviewed some three hundred figures from Jaina and sorted them into three types. One of them gathers precisely the figures that emerge from a long-stemmed flower. And who is the old man? It has been proposed that he is a deity. It has also been proposed that he is a person in his “other birth,” that is, the dead person who is reborn in the afterlife. Among specialists there is no agreement, and there is no certain name for him either.\n\nThere are other flower figures in which the character is young, with an elongated head like an ear of corn. Museums in the United States identify them with the Maize God (Corn God). He is the same god into whom King [Pakal](mna_s09_mascara_pakal) turned with his jade mask. In others, like this one, the character is old. It has been thought that the young and the old show the ages of a single life, and that the flower joins them.\n\nRemember the [stucco head of Pakal](mna_s09_cabeza_pakal). Three flower buds surround his hairstyle, and for the Maya flowers meant beauty, sacred things, and the sprouting of maize. It has also been proposed that they imagined a paradise full of flowers, music, and perfume, where ancestors and gods lived. A figure born from a flower, placed beside a dead person, would fit that hope.\n\nJaina is a small island, but it is estimated to hold tens of thousands of tombs. Only a tiny part has been excavated. Like the seated lord of Jaina that you saw earlier, this piece was made to accompany someone. In figures like this one, it is usual for the arms to cross over the body. Some of the flower figures are whistles, so perhaps sound was also part of the farewell.\n\nBefore moving on, look at how the petals wrap around him. Think of a water flower that closes at night and opens by day. Whoever placed it in a tomb perhaps hoped for the same for their dead: a different morning."
+    },
+    "retos_observacion": {
+      "hash": "d0ce6ca35dee1837",
+      "texto": [
+        "Find the petals that surround the old man and count how many you can see",
+        "Look at the face: what signs of age can you find?",
+        "Notice where his arms and hands rest"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2500a905f19566b5",
+      "texto": {
+        "Culture": "Maya (Jaina style)",
+        "Period": "Late Classic (around 600-900 AD)",
+        "Material": "Modeled clay",
+        "Origin": "Jaina Island, Campeche"
+      }
+    },
+    "faq_mito": {
+      "hash": "9ef2a013cee79d4b",
+      "texto": {
+        "pregunta": "Myth: For the Maya, death was an end with no return.",
+        "respuesta": "Reality: Many funerary images show the idea of rebirth, like maize that sprouts or a flower that opens. Figures like this one, found in the tombs of Jaina, are usually read this way."
+      }
+    }
+  }
+}

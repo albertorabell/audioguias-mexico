@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -11,27 +11,27 @@
       "texto": "Replica of Lucy’s Skeleton (Australopithecus afarensis)"
     },
     "frase_gancho": {
-      "hash": "605ee43a216ae97b",
-      "texto": "A 1.20-meter-tall female who walked upright 3.2 million years ago."
+      "hash": "1af5215526e89ba0",
+      "texto": "She walked upright more than three million years ago."
     },
     "puente_narrativo": {
-      "hash": "5f65dc1667760586",
-      "texto": "We begin at the beginning: one of the oldest species on the human line, before anyone ever reached the Americas."
+      "hash": "1b2c68b219cf3e48",
+      "texto": "From Lucy, one of the first creatures to walk upright, we leap to our own species. Look for a life-size scene: three young people buried together on earth stained red, tens of thousands of years ago."
     },
     "guion_corto": {
-      "hash": "cb8da953dcc5df78",
-      "texto": "3.2 million years ago, a female lived who stood about 1.20 meters tall and weighed close to 30 kilos. She is known as Lucy, and she belongs to the species Australopithecus afarensis. Her fossil skeleton was discovered in November 1974 by the American researcher Donald Johanson, in Hadar, Ethiopia. About 40 percent of the bones were recovered. What you see is a reconstruction made by the Atelier Daynes, in Paris, in 1999, based on the original remains. Analysis of the pelvis and lower limbs showed that she walked upright. That forced specialists to reorganize the human evolutionary tree. In this hall there are two representations: a full-body reconstruction and, a few meters away, the mounted skeleton."
+      "hash": "d9b3656c024da16e",
+      "texto": "This is a replica of the skeleton of Lucy, a female of the species Australopithecus afarensis who lived about three million two hundred thousand years ago in what is now Ethiopia. She stood just over one meter tall and weighed about thirty kilograms. Her brain was as small as a chimpanzee’s, but her hip and her legs tell something extraordinary: she walked upright, on two feet. It was a surprise to science, because it showed that we first stood up and only much later did our brains grow. That is why Lucy is the starting point of this museum: along this long road, thousands of generations later, come the peoples you are about to meet."
     },
     "guion_largo": {
-      "hash": "ee539908edf970d6",
-      "texto": "3.2 million years ago, in what is now Ethiopia, there lived a female of a species of bipedal hominids. Specialists call her Australopithecus afarensis. Here she is known as Lucy.\n\nHer fossil skeleton was discovered in November 1974 by the American researcher Donald Johanson, in Hadar, in East Africa. During the excavations, about 40 percent of the skeleton was recovered.\n\nWhat you see in this hall is not the fossil, but a reconstruction. It was made by the Atelier Daynes, in Paris, in 1999, based on the original fossil remains. She stood about 1.20 meters tall, and it is estimated that she weighed close to 30 kilos in life.\n\nThere is a reason she is famous. Analysis of the pelvis and lower limbs showed that she walked upright, on two feet. That forced specialists to reorganize the human evolutionary tree.\n\nIn this hall there are two complementary representations. One is the full-volume body reconstruction, which greets visitors. A few meters away is the replica of the mounted skeleton, where the original bone parts that were found can be identified.\n\nCompare her height with yours. This is how you measure the distance between that species and the civilizations you will meet in the other halls."
+      "hash": "e11a19b2ad59c9a7",
+      "texto": "Imagine the morning of November 24, 1974, in a dry ravine in the Afar region of Ethiopia. The paleoanthropologist Donald Johanson and a student, Tom Gray, are surveying the ground under a brutal sun, and suddenly Johanson spots a small piece of arm bone sticking out of the earth. Nearby there is another, and then another. That afternoon they realize that everything belongs to a single individual, and by the end of the excavation they had recovered about forty percent of her skeleton, something almost unbelievable for a fossil so ancient.\n\nThat night, the story goes, the team celebrated at camp with a cassette player that played “Lucy in the Sky with Diamonds” by the Beatles over and over. That is how she got her name. In Ethiopia they call her Dinkinesh, which in Amharic means “you are marvelous.”\n\nWhat made Lucy famous was what her bones revealed. Her pelvis is wide and low, like ours, and her femurs angle inward toward the knees to keep her balanced when walking. All of this can only be explained if she walked upright. But her arms were long and her fingers slightly curved, so she still climbed trees, probably to sleep safely. Lucy was a blend of two worlds: the savanna and the treetops.\n\nThere is also another clue that her species walked upright. In Laetoli, Tanzania, there are footprints about three million six hundred thousand years old, pressed into damp volcanic ash: they are the steps of at least two individuals walking upright, and they are attributed to Lucy’s species. It is as if evolution had left a receipt.\n\nThat blend is a useful reminder. We do not know whether she was one of our direct ancestors or a cousin from a branch that went extinct; what we do know is that she represents very well the family we came from. Her species walked the planet for about a million years, much longer than ours has so far. The genus Homo appears later, and our species, Homo sapiens, only about two hundred or three hundred thousand years ago, also in Africa.\n\nOne last detail, between science and mystery. In 2016, a team proposed that Lucy died from a fall from a tall tree, because her bones had fractures similar to those of someone who falls from a great height. Not all scientists accept this. Either way, this small inhabitant of the savanna brings us very close to her.\n\nWhat you see here is a replica; the original bones are kept in Ethiopia, under strict protection. And think about the scale: Lucy was about as tall as a child of five or six. As you move through the museum and come across the mammoth hunters, the Preclassic villages and the great cities, remember where all this begins: millions of years earlier, a small creature stood up, and the rest of history became possible."
     },
     "retos_observacion": {
-      "hash": "af8b3e915951a8b9",
+      "hash": "7164b1b58f96dea0",
       "texto": [
-        "Find the mounted skeleton, where the original bones can be distinguished.",
-        "Look at the pelvis and the legs: they show that she walked upright.",
-        "Compare her height of 1.20 meters with yours."
+        "Look at the wide pelvis of the replica: it is the key to why she walked on two feet",
+        "Notice how the femurs angle inward toward the knees",
+        "Compare the length of the arms with the legs: they were still useful for climbing"
       ]
     },
     "especificaciones": {
@@ -45,10 +45,10 @@
       }
     },
     "faq_mito": {
-      "hash": "5c1d133a2cbb677c",
+      "hash": "b194c7772633cca7",
       "texto": {
-        "pregunta": "Myth: Lucy was the first woman of our species, Homo sapiens.",
-        "respuesta": "Reality: She was a female Australopithecus afarensis, from 3.2 million years ago. She belongs to a species of bipedal hominids on the human evolutionary tree."
+        "pregunta": "Myth: Lucy was the first human woman, the “Eve” of our species.",
+        "respuesta": "Reality: Lucy was an Australopithecus afarensis; she lived millions of years before Homo sapiens existed, and we do not know whether she was a direct ancestor of ours."
       }
     }
   }

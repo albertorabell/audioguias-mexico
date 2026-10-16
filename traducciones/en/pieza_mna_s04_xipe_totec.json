@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -15,32 +15,33 @@
       "texto": "A priest wearing another’s skin, his face peering out from the mouth of the costume."
     },
     "puente_narrativo": {
-      "hash": "f8b1fbfa5689c164",
-      "texto": "We continue with another deity, Xipe Tótec, the god linked to the renewal of the earth."
+      "hash": "3b1ba7d81db9c7c7",
+      "texto": "From skin that renews itself we move to a face that never changes: a green stone mask, made for the dead, of the kind the Mexica collected centuries later."
     },
     "guion_corto": {
-      "hash": "ea3379d3b6216a67",
-      "texto": "He looks like a man in a strange costume, but what he is wearing is someone else’s skin. This sculpture shows a priest dressed in the skin of a victim, in honor of Xipe Tótec, whose name means Our Lord the Flayed One. It is made of hand-modeled clay, it is large in size, and it is attributed to the Teotihuacán culture. Look at the open mouth of the costume: the priest’s face peers out from there. The skin has ties along the back, seams at the wrists, and a short skirt. On the head he wears a tall headdress. It is interpreted that this skin was an image of the earth, which changes its covering every spring and gives life again."
+      "hash": "901aac3f9d610727",
+      "texto": "He looks like a man in a strange costume, but what he wears is someone else’s skin. This clay sculpture shows a priest dressed in the skin of a victim, in honor of Xipe Tótec, whose name means “Our Lord the Flayed One.” Notice the open mouth of the costume: the priest’s face peers out from there. It was found in the Teotihuacán neighborhood of Xolalpan and dates from the end of the great metropolis. The skin is tied at the back, has seams at the wrists and a short skirt, and on his head the figure wears a tall headdress. It is interpreted that this skin was the image of the earth, which changes its covering every spring and gives life again."
     },
     "guion_largo": {
-      "hash": "d020bba9e12b1679",
-      "texto": "This is no ordinary costume. It is a sculpture that shows a ritual.\n\nThis hand-modeled clay statue represents a standing priest. It is large in size, and it is attributed to the Teotihuacán culture, from the Late Classic or the Epiclassic period.\n\nThe priest wears the skin of a person sacrificed in honor of Xipe Tótec, whose name means Our Lord the Flayed One. The skin has a rough, porous surface. It is tied at the back and has seams at the wrists.\n\nLook at the mouth of the costume. It is open, and the priest’s face emerges from there. He also wears a short skirt and a headdress.\n\nDressing in the skin of captives was a ritual act. It is interpreted that it symbolized the earth shedding its skin, the renewal of vegetation in spring, and the rebirth of agricultural life.\n\nThus, a powerful image spoke of a natural cycle: the earth renewing itself."
+      "hash": "2080e2f42bef331c",
+      "texto": "This is no ordinary costume. It is a sculpture that shows a rite, and to understand it we need to begin with the name. Xipe Tótec comes from Nahuatl: xipehua means “to flay,” and tótec, “our lord.” Together they say “Our Lord the Flayed One.” It is one of the most striking names in the Mesoamerican pantheon, and behind it lies an idea far gentler than it seems.\n\nThis large statue is modeled by hand from clay. It represents a standing priest, dressed in the skin of a person sacrificed in honor of the god. Notice how the costume was worked out: the surface is rough and porous, the skin is tied at the back, and it has seams at the wrists, where the sleeves were closed. He wears a short skirt, and on his head, a tall headdress.\n\nNow look at the face. The mouth of the costume is open, and right there, as if peering out of a window, the priest’s face appears. It is an unsettling detail, and also a clever one: the artist shows you two faces at once, that of the god who is being worn and that of the person who embodies him.\n\nWhat did it mean? Specialists interpret the skin as an image of the earth. Each spring, the dry, gray countryside sheds its old covering and dresses in green. In the same way, the husk of a kernel of corn splits open so that the plant can be born. Xipe was the god of that shedding, of the renewal of vegetation and the rebirth of agricultural life. Today we say “shedding one’s skin” to speak of a deep change, and it is a very similar idea.\n\nAmong the Mexica, his festival was called Tlacaxipehualiztli, which is translated as “the flaying of people,” and it was celebrated in spring. According to the chronicles, the priests dressed in the skins of sacrificed captives and wore them for about twenty days, until they decayed. To our eyes it is harsh; for them, it was a way of enacting the renewal of the earth. Further ahead, in the Mexica Hall, you will see stones connected with that festival, such as the [Stone of Tízoc](mna_s06_tizoc) and the [Piedra del Arzobispado](mna_s06_piedra_arzobispado).\n\nThere is also an open question. This sculpture was discovered in 1932 by the Swedish archaeologist Sigvald Linné in the Xolalpan compound, in Teotihuacán, but specialists debate since when the cult of Xipe has existed. The best-known images of the god come from other regions, such as the Gulf Coast and Oaxaca, and from later periods. If the attribution is correct, this figure would show that the idea of the earth renewing itself is much older than the Mexica.\n\nThink about what unites this hall. Teotihuacán was a city of water and crops, with gods of rain and fertility. And Xipe fits that outlook: a god who is not about death for its own sake, but about what comes after, new life.\n\nBefore moving on, look again at the face that peers out of the costume’s mouth. Whoever modeled it wanted you to grasp something difficult: that in many cultures, for something to be born, something has to shed its old skin."
     },
     "retos_observacion": {
-      "hash": "3989608b6ff3da54",
+      "hash": "b9076d86a484b54f",
       "texto": [
-        "Find the priest’s face inside the open mouth of the costume.",
-        "Find the seams at the wrists and the ties on the back.",
-        "Notice the rough texture of the skin."
+        "Find the priest’s face inside the open mouth of the costume",
+        "Find the seams at the wrists and the ties at the back",
+        "Notice the rough texture of the skin"
       ]
     },
     "especificaciones": {
-      "hash": "4959f1e13999be79",
+      "hash": "b786c8cd43da710a",
       "texto": {
-        "Culture": "Teotihuacán",
-        "Period": "Late Classic to Epiclassic",
-        "Material": "Hand-modeled clay, with a rough finish",
-        "Origin": "Teotihuacán, State of Mexico"
+        "Culture": "Teotihuacán / Epiclassic",
+        "Period": "Late Classic to Epiclassic (around 550-750 AD)",
+        "Material": "Ceramic modeled by hand in three sections with a rough finish",
+        "Origin": "Xolalpan compound, Teotihuacán, State of Mexico (excavations by Sigvald Linné, 1932)",
+        "Dimensions": "60.5 cm high"
       }
     },
     "faq_mito": {

@@ -1,0 +1,55 @@
+{
+  "id": "mna_s08_figurilla_espejo_laventa",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cacb3d7021933463",
+      "texto": "Female Figurine from La Venta with Magnetite Mirror"
+    },
+    "frase_gancho": {
+      "hash": "be24c26739aa0cad",
+      "texto": "A tiny woman of green stone, with a shining disk on her chest."
+    },
+    "puente_narrativo": {
+      "hash": "d83b9a4010f96e3e",
+      "texto": "From La Venta, in the south of the Gulf, we move up to the Huasteca, in the north. Look for a stone sculpture of a standing woman, her hands resting on her belly and a large fan-shaped headdress."
+    },
+    "guion_corto": {
+      "hash": "651c68217bdbde0e",
+      "texto": "This seated figure is only about eight centimeters tall, and yet it came out of a tomb at La Venta, the great Olmec capital in Tabasco. She is a woman carved in green stone, with her fingers, feet, and hairstyle worked in a naturalistic style. On her chest she wears a polished disk of iron ore that serves as a mirror. For the Olmec, these mirrors were badges of rank and tools for looking into the hidden. A layer of cinnabar, a red pigment, covered the tomb and still stains the figure. It is thought that she may represent the person who was buried there. More than two thousand six hundred years ago, someone left her there forever."
+    },
+    "guion_largo": {
+      "hash": "e9c3f1cd4481cb64",
+      "texto": "A mirror that was not made for combing your hair. That is how this story begins. The seated figure in front of you is very small, but it says more than it seems. It came from La Venta, the Olmec capital that followed San Lorenzo, built on an island amid swamps, in Tabasco.\n\nIt appeared in Complex A, a sacred area with restricted access, inside a chamber made of thirty-eight basalt columns. It is known as Tomb A. It was found in 1942 by the archaeologists Matthew Stirling and Philip Drucker. Inside were two funerary bundles, jade figures, and mirrors of iron ore. A thick layer of cinnabar, a red mineral used as a pigment, covered the burial. Part of that red stayed stuck to the figure.\n\nNotice how it is made. The fingers of the hands and feet can be told apart one by one, and the face and hair are worked with realism. In the same tomb a standing figure appeared, made of blue jade and far more stylized. The Olmec knew how to carve naturalistically when they wanted to, as in the Olmec [Wrestler](mna_s08_luchador_olmeca). For supernatural beings they used abstract forms.\n\nThe title of this piece speaks of magnetite, an iron mineral. Other catalogs mention hematite or pyrite. They are different minerals, but all contain iron, and the Olmec polished them until they reflected light. These mirrors could be flat or concave, and some measured up to ten centimeters. Polished plaques of this kind also appear at San José Mogote, the village in the valleys of Oaxaca that we mentioned alongside [the Danzantes](mna_s07_danzante_montealban). One study indicated that their ore came from sources about thirty kilometers away. The title is not entirely wrong about magnetite. In another offering at La Venta, from 1943, a magnetite mirror lay among green axes placed in the shape of a cross. The specialist Michael Coe saw in that cross a world tree.\n\nThey were not vanity mirrors. Specialists consider them emblems of high office and tools of divination. In them, the play of light mattered as much as the reflection. Some researchers propose that they were used to peer into the Otherworld during shamans’ rites. And they have been called conduits of supernatural forces.\n\nThat idea appears again centuries later. In the Toltec hall you saw the mirror worn on the back. The Mexica called one of their greatest gods Tezcatlipoca, “Smoking Mirror.” The Olmec wore it on the chest, long before.\n\nIn the same tomb there was a normal-sized mirror, made of hematite. For this reason some specialists think the little figure could be a portrait of the person buried there. If so, someone wanted their image, seated and with their mirror, to accompany them forever.\n\nLike the sixteen figures of [Offering 4](mna_s08_ofrenda4_laventa), this woman ended up underground, in the dark. Today we look at her in the light. Come close to the disk on her chest and think that, more than two thousand six hundred years ago, in that shine someone perhaps believed they were peering into another world."
+    },
+    "retos_observacion": {
+      "hash": "08f254b0e9b50920",
+      "texto": [
+        "Look for the shining disk she wears on her chest",
+        "Notice the fingers of the hands and feet",
+        "Look at the surface of the stone: do you see traces of red color?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eb7f532147e1f126",
+      "texto": {
+        "Culture": "Olmec",
+        "Period": "Middle Preclassic (900-600 BC)",
+        "Material": "Blue-green jadeite with a chest mirror of iron ore (magnetite/hematite) and traces of red cinnabar",
+        "Origin": "La Venta, Tabasco (Tomb A, Mound A-2)",
+        "Dimensions": "8 cm high x 4 cm wide"
+      }
+    },
+    "faq_mito": {
+      "hash": "ac22e05134d96fd9",
+      "texto": {
+        "pregunta": "Myth: The mirrors of ancient peoples were used for grooming, like those of today.",
+        "respuesta": "Reality: They were badges of rank and ritual tools for looking into the hidden; the Olmec made them from polished iron minerals."
+      }
+    }
+  }
+}

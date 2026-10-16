@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_palacio_hochob",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f696ddc923bd2153",
+      "texto": "Replica of the Hochob Palace"
+    },
+    "frase_gancho": {
+      "hash": "13ebf3d95ab98896",
+      "texto": "A doorway that imitates the open mouth of the earth monster."
+    },
+    "puente_narrativo": {
+      "hash": "ced7ad0e799c63aa",
+      "texto": "From the stone facade, we return to the small figures of Jaina. Look for an old man made of clay, surrounded by petals, as if he were sprouting from an open flower."
+    },
+    "guion_corto": {
+      "hash": "ff9f39353b025000",
+      "texto": "This facade reproduces the Hochob Palace, in the state of Campeche. Hochob belongs to the Chenes region, a name that in Maya means “wells,” because there are almost no rivers there and water is stored in wells and cisterns. The central doorway is the open mouth of the earth monster: to enter the building, you had to pass through its jaws. The rest of the facade was covered with a mosaic of cut stones that formed masks with long noses, like those of Chaac, the god of rain. It is a Late Classic building, made to impress. In the museum you see it from the front, but imagine the building surrounded by low forest."
+    },
+    "guion_largo": {
+      "hash": "18a44e6817e80f02",
+      "texto": "Few facades demand so much courage to cross: the doorway of this building is a mouth. Look at the teeth carved in stone around the opening, and above it the face of a monstrous creature. The Maya understood it as the earth monster, from which maize, water, and life are born, and which was at the same time a threshold to the underworld. To enter the palace was, quite literally, to enter the earth.\n\nThe idea is not unique to the Maya. The Mexica depicted the earth as [Tlaltecuhtli](mna_s06_tlaltecuhtli), a crouching monster with open jaws, which you saw in the Mexica Hall. In both worlds, the earth devours the dead and also gives maize. It is thought that passing through that mouth was a way of saying that the building was a place between the world of the living and that of the gods.\n\nThis is a replica of Structure Two at Hochob. The original is in Campeche, in the Chenes region. Chen, in Yucatec Maya, means “well,” and the Chenes are “the wells”: a land of low forest, without rivers, where people depended on wells and underground cisterns, called chultunes, to store the rain. You already saw it with the [Mask of Chaac](mna_s09_mascaron_chaac): when water is scarce, the rain god covers the facades.\n\nPay attention to the technique. The facade was covered with a mosaic: many stones cut to size, fitted together one by one to form faces, serpents, and symbols. The easiest to recognize are the masks with long, curled noses, those of the god Chaac, which flank the entrance. It is the same aesthetic as the mask from Kabah, but here it is not an isolated piece: it is an entire wall.\n\nThe Chenes style has neighbors and relatives. With the Río Bec style, it shares the idea of facades as giant masks, and with the Puuc style, of Uxmal and Kabah, a taste for stone mosaics. It is as if an entire region had agreed to turn its buildings into faces.\n\nIt is called a palace, although in the Maya world the line between a palace and a temple was thin: power and the sacred went hand in hand. Whoever ruled spoke with the gods, and the facades reminded everyone who approached of this.\n\nA tip for when you travel: most people think of Chichén Itzá or Palenque, but Campeche holds enormous cities that almost no one visits, such as Calakmul, where the [Stela Fifty-One](mna_s09_estela51_calakmul) comes from. This facade is an invitation to seek them out.\n\nAnd a museum trick: remember that many pieces in this hall, such as the stelae, the lintels, and the masks, were not loose in a display case. They were part of buildings like this one, covered in color. Return them, in your imagination, to their place.\n\nLook once more at the monster’s teeth and forehead, and notice how much, from a distance, it resembles a face. Cross the threshold with your eyes, but respect the monster: here, the earth lets you pass."
+    },
+    "retos_observacion": {
+      "hash": "a9f1e60866c72e2c",
+      "texto": [
+        "Find the doorway that looks like a mouth and notice its teeth",
+        "Find the long-nosed masks that flank the entrance",
+        "Observe how the small stones form a mosaic"
+      ]
+    },
+    "especificaciones": {
+      "hash": "66cbc0d19923c1f1",
+      "texto": {
+        "Culture": "Maya (Chenes style)",
+        "Period": "Late Classic",
+        "Material": "Replica of a stone facade",
+        "Origin": "Hochob, Campeche (the original)"
+      }
+    },
+    "faq_mito": {
+      "hash": "de7e37c7098d980e",
+      "texto": {
+        "pregunta": "Myth: Maya facades were plain, gray stone, without decoration.",
+        "respuesta": "Reality: Many Maya buildings were covered with stone mosaics that formed faces and symbols, and they were painted in bright colors."
+      }
+    }
+  }
+}

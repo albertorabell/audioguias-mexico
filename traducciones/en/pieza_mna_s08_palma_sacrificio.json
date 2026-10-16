@@ -3,7 +3,7 @@
   "tipo": "pieza",
   "idioma": "en",
   "modelo": "claude-sonnet-5-5",
-  "fecha": "2026-10-07",
+  "fecha": "2026-10-16",
   "avisos": {},
   "campos": {
     "titulo": {
@@ -11,27 +11,27 @@
       "texto": "Stone Palma with Relief of Human Sacrifice"
     },
     "frase_gancho": {
-      "hash": "70bbaf14883b18e0",
-      "texto": "A stone fan where blood renews the divine cosmos."
+      "hash": "c55386bd216335cc",
+      "texto": "A stone fan that tells how the most sacred game came to an end."
     },
     "puente_narrativo": {
-      "hash": "c3ac9205859ea133",
-      "texto": "We continue with another piece from the ballgame: a stone palma that attached to the yoke and shows a human sacrifice."
+      "hash": "2f9d04d8bb36db4b",
+      "texto": "After so much solemnity, laughter. Look for a small clay figure with an elongated head, baring its teeth in a wide smile."
     },
     "guion_corto": {
-      "hash": "07221a57cce059a1",
-      "texto": "The palma looks like a stone fan, but it was an emblem of the ballgame. This one comes from central Veracruz and dates to the Late Classic, between 600 and 900 AD. Its relief shows a human sacrifice. Palmas were attached to the yoke, the U-shaped stone belt that reproduced the one worn by the players. Together they formed emblems or ritual markers of the game. The pieces found in tombs are votive versions, that is, offerings, made to commemorate the captains of the game. More than seventeen courts have been discovered at El Tajín, and that shows the importance of this ritual game."
+      "hash": "786083689a3f5a63",
+      "texto": "This stone palma, almost half a meter tall, is shaped like a fan: narrow at the base and wider at the top. That is the name given to the pieces that accompanied the yokes in the ballgame. On its main face there is a sacrifice scene carved in relief: a figure with a yoke at the waist holds a flint knife, and blood spurts out in long, interlaced curves that end in serpent heads. Take a look at those curves, so typical of the art of El Tajín. For the peoples of the Gulf, blood was the nourishment that kept the Sun alive and brought the rain. This stone is not a sports souvenir: it is a sacred message."
     },
     "guion_largo": {
-      "hash": "5394d555f8d1428b",
-      "texto": "A yoke, a palma, and an hacha: this is how the stone paraphernalia of the ballgame was completed. This is the palma. It comes from central Veracruz, dates to the Late Classic, and its relief shows a human sacrifice.\n\nPalmas are fan-shaped pieces, sometimes with human heads or sacred animals. They were attached to the yoke as emblems or ritual markers of the game. The yoke is a U-shaped, or horseshoe-shaped, sculpture. It reproduces the protective belts of leather or wood that players wore at the waist to strike the solid rubber ball.\n\nPalmas and yokes were carved from hard stones, such as basalt, diorite, andesite, or serpentine, with low reliefs and incisions. Interlaced scrolls are a very common motif.\n\nThe pieces found in tombs are votive stone versions, made to commemorate the captains of the game. That shows that the game was much more than a sport.\n\nEl Tajín, in central Veracruz, is the best example. More than seventeen courts have been discovered in that city, and for that reason it is considered a major center of the ritual ballgame.\n\nThat this palma shows a human sacrifice points to the ritual character of the game. Exactly which scene it represents has not been established."
+      "hash": "e03de466df60c6e0",
+      "texto": "It is one thing to know that the ballgame was sacred, and another to see how far that idea went. This palma shows it plainly, so it is worth looking at it slowly.\n\nLet us start with the name. It is called a “palma,” or palm, because of its silhouette, which widens toward the top like the leaf of a palm tree or a fan. It is thought that it stood upright on the front of a yoke, in the processions and ceremonies of the game. Imagine the whole set: the stone belt and, on top of it, a slab of stone with a story carved into it. Given their material and size, these were not pieces for playing, but for being seen.\n\nNow the scene. The central figure wears the yoke tight around the waist and grips a flint knife. Blood spurts out in long scrolls, like ribbons, that end up turned into serpents. According to some descriptions, a bird of prey, perhaps an eagle, flies over the scene, the same bird of the Sun that dresses the [Eagle Warrior](mna_s06_guerrero_aguila). Everything is full of movement, and there is not a single empty space left undecorated. Those long, interlaced curves, like ribbons that coil without ever ending, are almost a signature of El Tajín: if you ever see other works from that city, you will recognize them at once.\n\nWho was the victim? Here is one of the great questions of the ballgame. Some think that the losing team was sacrificed. Others, that the honor of dying belonged to the winner, or to a chosen captain. And some believe that it did not happen after every match, but on extraordinary occasions. In truth, we do not know: the images do not say who won. What we do see is that, in the reliefs of the South Court of El Tajín, a sacrificed player also appears, with a figure of death present.\n\nWhy blood in a game? Because in Mesoamerica the world worked through exchange: the Sun, the rain and the maize gave life, and in return one had to give back what was most precious, blood. You have already come across this idea: in [the Danzantes](mna_s07_danzante_montealban) of Monte Albán, blood spurts out in scrolls; in [Coyolxauhqui](mna_s06_coyolxauhqui), the dismembered body feeds the god; in [Tlaltecuhtli](mna_s06_tlaltecuhtli), the earth asks to be fed. Here the blood turns into serpents, which in turn are water. It is not cruelty for its own sake: it is a logic in which blood becomes rain, rain becomes maize and maize becomes people.\n\nThe Maya told something similar. In the Popol Vuh, the first ballplayers are defeated by the lords of death and sacrificed; the head of one of them, hung from a tree, ends up giving rise to the twins who will later defeat those lords. You will find the echo of that story again in the Maya Hall.\n\nToday it is hard for us to imagine a match that ends this way. But that was the point: it was not about winning a cup, but about sustaining the order of the world. And the sculptor, like a chronicler, carved the scene so that no one would forget it."
     },
     "retos_observacion": {
-      "hash": "4cc3ac0d14aeff66",
+      "hash": "209e11b46db575cb",
       "texto": [
-        "Look for the relief of the human sacrifice.",
-        "Notice the fan shape of the palma.",
-        "Imagine the palma attached to a U-shaped yoke."
+        "Notice the fan shape: where is the piece widest?",
+        "Look for the flint knife in the figure’s hand",
+        "Follow the long curves: what do they end in?"
       ]
     },
     "especificaciones": {
@@ -43,10 +43,10 @@
       }
     },
     "faq_mito": {
-      "hash": "6a665d791964f4ae",
+      "hash": "01aac139d0ed2cbc",
       "texto": {
-        "pregunta": "Myth: Stone palmas were weapons or shields of soldiers.",
-        "respuesta": "Reality: They were emblems of the ballgame. They were attached to the yoke, the U-shaped stone belt, and together they formed ritual markers."
+        "pregunta": "Myth: In the ballgame, the losing team was always sacrificed.",
+        "respuesta": "Reality: We do not know for certain. Some think the loser was sacrificed; others, the winner, and perhaps it did not happen after every match."
       }
     }
   }

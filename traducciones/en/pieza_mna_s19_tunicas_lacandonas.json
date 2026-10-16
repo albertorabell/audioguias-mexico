@@ -1,0 +1,54 @@
+{
+  "id": "mna_s19_tunicas_lacandonas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2194d1924121fa60",
+      "texto": "Lacandon Tunics"
+    },
+    "frase_gancho": {
+      "hash": "b261d259f31f2086",
+      "texto": "White, long and simple, the tunic still worn by the people of the Lacandon Jungle."
+    },
+    "puente_narrativo": {
+      "hash": "c6cc8faf82151a77",
+      "texto": "We leave the jungle and travel far away, to the Northwest. Look for a leather mask with very long ears, an elongated nose and paint in red, white and black."
+    },
+    "guion_corto": {
+      "hash": "6e279d2073c0e560",
+      "texto": "This is the tunic of the Lacandon, who call themselves hach winik, «the true people», and live in the jungle of Chiapas. It is a long garment of plain white cotton cloth, called xikul. Among the northern Lacandon it reaches a little below the knees, and among the southern Lacandon, down to the ankles. Those who wear it also have long hair, sometimes loose and sometimes tied back in a ponytail. In the past, for ceremonies in the jungle, these tunics were made by pounding the fibrous bark of the amate or jonote tree and decorating it with natural dyes. Today cotton ones are more common. It is clothing designed for the heat and humidity of the jungle, and also a way of recognizing oneself as a people."
+    },
+    "guion_largo": {
+      "hash": "5579ba4e4d792cdc",
+      "texto": "A Lacandon guide walks through the jungle in a white tunic, his long hair tied back in a ponytail and a machete strapped to his back. That is how a National Geographic report tells it. It is a simple image, but it sums up what stands before you: the clothing of the hach winik.\n\nUp to this point you have seen the wool gabán of Chamula and the embroidered terno of Yucatán. The Lacandon tunic is the opposite of embroidery: a white cloth, long and plain, made of cotton manta. Manta is a fabric with a simple, firm weave, cool for the climate of the jungle. The tunic is called xikul. Its length depends on the place. Among the northern Lacandon it reaches a little below the knees, and among the southern Lacandon it falls to the ankles.\n\nThat difference follows geography. The northern Lacandon live near Lake Nahá and Lake Metzabok. The southern Lacandon live near Bonampak and Yaxchilán, the city of the [Lintel 26](mna_s09_dintel26_yaxchilan) that you saw in the Maya hall. They are two regions of the same jungle and two ways of wearing the same cloth.\n\nThe other feature is the hair. Men and women wear it long, sometimes loose and sometimes tied back in a ponytail. The first scholars who reached the jungle noticed a resemblance. By their appearance and their clothing, the Lacandon recalled the figures in the murals and reliefs of the ancient Maya. But that does not mean they dress the same as a thousand years ago. Their customs come from several Maya groups of the colonial period. Moreover, images from the late nineteenth century show that their way of dressing changed quite a lot.\n\nThere was another fabric, harder to make: bark. In the past, Lacandon ritual specialists wore tunics made of tree bark in ceremonies of petition, offering and healing. It was made from fig tree bark, beaten until it became cloth and painted with achiote, and it took months of work. Those ceremonies are relatives of the ones involving copal and the incense burners you saw in this hall.\n\nOver time, cotton gained ground, because a white tunic costs less and is made more quickly. Today young people increasingly wear store-bought clothes. Even so, there are men who still wear the tunic every day, even with rubber boots for walking in the forest. Those who have been to Lacanjá Chansayab say it is not a costume for the camera.\n\nIn a hot, humid climate, a light, loose fabric makes practical sense. The same is true of the white of the [Papantla suit](mna_s18_traje_papantla) or of the Yucatán terno. The [Chamula gabán](mna_s19_gaban_chamula), of thick wool, answers to the cold of the highlands. The xikul answers to the heat of the jungle. Each garment is a response to its place.\n\nBefore moving on, keep three features in mind: white cloth, length down to the knee or the ankle, and long hair. With them you will be able to recognize Lacandon dress. But remember too that behind the cloth are people who decide how and when to dress this way."
+    },
+    "retos_observacion": {
+      "hash": "c05a07fce543fda8",
+      "texto": [
+        "Notice the length of the tunic: does it reach the knee or the ankle?",
+        "Look to see whether the cloth has decorations or embroidery, or whether it is plain and white",
+        "Imagine this cloth in the heat of the jungle and compare it with the wool gabán of Chamula"
+      ]
+    },
+    "especificaciones": {
+      "hash": "97dd5bd62f36a59b",
+      "texto": {
+        "Culture": "Lacandon (hach winik)",
+        "Period": "Living tradition",
+        "Material": "White cotton cloth (formerly, for ceremonies, beaten and painted tree bark)",
+        "Origin": "Lacandon Jungle, Chiapas"
+      }
+    },
+    "faq_mito": {
+      "hash": "3c8cc38f45b5804c",
+      "texto": {
+        "pregunta": "Myth: The Lacandon dress the same as the Maya in the ancient reliefs.",
+        "respuesta": "Reality: Their way of dressing has changed a great deal over time, and their customs come from several Maya groups of the colonial period."
+      }
+    }
+  }
+}

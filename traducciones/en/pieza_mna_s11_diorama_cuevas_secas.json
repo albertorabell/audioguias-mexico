@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_diorama_cuevas_secas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-16",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b9828b67a5839486",
+      "texto": "Dry Caves of the Desert Diorama"
+    },
+    "frase_gancho": {
+      "hash": "a2b50dc6c671deaa",
+      "texto": "Rock shelters where the dryness preserved baskets, sandals, and blankets for centuries."
+    },
+    "puente_narrativo": {
+      "hash": "2b3ee50683da5086",
+      "texto": "This cave ends the tour of the archaeology halls. Go up to the Upper Floor, where the peoples you met in the display cases are still alive. Look for a large map of Mexico showing the colors of the Indigenous languages spoken today."
+    },
+    "guion_corto": {
+      "hash": "439423cde22e4526",
+      "texto": "Here you see a re-creation of the dry caves of the northern desert, rock shelters where almost no moisture gets in. That dryness halts decay, and so these caves preserved things that almost anywhere else are lost: cords, mats, nets, baskets, sandals, and the dead wrapped in blankets. The caves of Coahuila are the best known. In the Cueva de la Candelaria, where the bundle you saw comes from, generations of hunter-gatherers buried their own. Something similar happened in the caves of Ocampo, in Tamaulipas, where very ancient cultivated plants were kept. These caves give back to us what time erases first: what the peoples of the desert made with fibers and with their hands."
+    },
+    "guion_largo": {
+      "hash": "9454249153af1d06",
+      "texto": "Imagine a cave where almost nothing rots. The moisture that makes fungus grow does not get in, and fibers, skin, and feathers dry out instead of falling apart. What someone left there centuries ago can still be there today. In the desert of northern Mexico there are caves like this, and archaeologists call them dry caves. The scene in front of you takes you into that world.\n\nThe most famous is the Cueva de la Candelaria, in the Valle de las Delicias, in Coahuila. You already know its bundle and its skull. The INAH explored it in 1953 and 1954, in its first formal project in the arid north of the country. According to the archaeologist Luis Aveleyra, it was never anyone's home, but an enormous repository of the dead. Among its objects were sandals, bags and nets made of fiber, cords, baskets, necklaces, and ear ornaments.\n\nINAH analyses have identified the plants used in each piece. The mats are made of sotol and the sandals, of lechuguilla. There is also a fisherman's net and a necklace made of snake vertebrae, joined with plant fibers and human hair. Each object shows that these hunters knew which plant served each purpose.\n\nLa Candelaria is not alone. In Coahuila there are other burial caves, such as La Paila, with dead wrapped and tied just like those of La Candelaria. In 1838 word was given of another in the Sierra de Mojada, with numerous bodies. Everything points to a widespread custom in the desert: returning the dead to the rock, sheltered from the sun and the rain.\n\nFarther east, in Ocampo, Tamaulipas, there are other dry caves. In 1954 the archaeologist Richard MacNeish explored them. The dry air preserved fiber objects there, pots, and remains of maize, beans, and squash. Those plants helped us understand how agriculture began in Mesoamerica. Dry caves hold the dead, but they also hold food.\n\nWhat comes out of these caves is not luxurious, and that is where its value lies. Worn sandals, nets, bags, and baskets are the belongings of people who did not build cities. Through them we know that they wove without a loom, that they twisted fine cords, and that they chose each plant for a particular use. Without the dry caves, these peoples would be little more than arrowheads and bones.\n\nToday those fragile fibers need care. What came out of La Candelaria was divided between the National Museum of Anthropology and the Museo Regional de La Laguna, in Torreón. An INAH project, active since 2013, studies what plants the pieces are made from and how they were woven. When a piece is missing, they replace it with dyed Japanese paper thread, so that it can be seen and can be removed. The pieces are rotated in the display case so they do not deteriorate from being exposed all the time.\n\nTheir greatest enemy, however, has not been time. Many bundles from La Candelaria were already open when the archaeologists arrived, and one study mentions that some were burned as fuel. Each looted cave loses forever what it had to tell. Before leaving the ground floor, think that even the most fragile things can survive, if someone protects them."
+    },
+    "retos_observacion": {
+      "hash": "844d9a16da2e511c",
+      "texto": [
+        "Look for objects made of fibers, such as cords, mats, baskets, or sandals",
+        "If you see wrapped and tied bundles, compare them with the bundle from La Candelaria",
+        "Look at the rock of the cave and think about why dry air preserves so much"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eb75de1e3c403d4d",
+      "texto": {
+        "Culture": "Hunter-gatherers of the desert (Aridoamerica)",
+        "Period": "Around 900-1600 AD (Cueva de la Candelaria and Cuatro Ciénegas complex)",
+        "Material": "Museum re-creation in diorama with yucca fiber textiles, basketry, and funerary bundles",
+        "Origin": "Dry caves of Coahuila and northern Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "d786ad95de9c9868",
+      "texto": {
+        "pregunta": "Myth: The hunter-gatherers of the desert lived inside the caves.",
+        "respuesta": "Reality: The Cueva de la Candelaria was used only as a cemetery, not as a dwelling."
+      }
+    }
+  }
+}
