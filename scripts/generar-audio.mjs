@@ -15,6 +15,7 @@
 //   --limite N              genera como máximo N audios en esta corrida
 //   --forzar                regenera aunque el texto no haya cambiado
 //   --proveedor azure|openai|prueba   (por defecto azure)
+//   --sitio mna|teotihuacan|todos   solo las piezas de ese sitio (por defecto todos)
 //   --reubicar              solo mueve archivos de lugar si una pieza pasó de gratis a pago (o al revés); no genera
 //
 // Dónde quedan los archivos:
@@ -40,7 +41,7 @@ const MANIFEST_FILE = path.join(PUBLIC_AUDIO, 'manifest.json');
 // Argumentos
 // ---------------------------------------------------------------------------
 export function parseArgs(argv) {
-  const out = { lang: ['es'], modo: [...MODES], solo: 'todas', piezas: null, limite: null, forzar: false, generar: false, reubicar: false, proveedor: 'azure' };
+  const out = { lang: ['es'], modo: [...MODES], solo: 'todas', piezas: null, limite: null, forzar: false, generar: false, reubicar: false, proveedor: 'azure', sitio: 'todos' };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     const next = () => argv[++i];
@@ -50,6 +51,7 @@ export function parseArgs(argv) {
     else if (a === '--piezas') out.piezas = next().split(',').map((s) => s.trim()).filter(Boolean);
     else if (a === '--limite') out.limite = parseInt(next(), 10);
     else if (a === '--proveedor') out.proveedor = next();
+    else if (a === '--sitio') out.sitio = next();
     else if (a === '--forzar') out.forzar = true;
     else if (a === '--generar') out.generar = true;
     else if (a === '--reubicar') out.reubicar = true;
@@ -59,6 +61,7 @@ export function parseArgs(argv) {
   for (const m of out.modo) if (!MODES.includes(m)) throw new Error(`Modo no válido: ${m}. Usa: ${MODES.join(', ')}`);
   if (!['todas', 'gratis', 'premium'].includes(out.solo)) throw new Error('--solo debe ser gratis o premium');
   if (!['azure', 'openai', 'prueba'].includes(out.proveedor)) throw new Error('--proveedor debe ser azure, openai o prueba');
+  if (!['todos', 'mna', 'teotihuacan'].includes(out.sitio)) throw new Error('--sitio debe ser mna, teotihuacan o todos');
   if (out.limite !== null && (!Number.isFinite(out.limite) || out.limite < 1)) throw new Error('--limite debe ser un número mayor que 0');
   return out;
 }
@@ -228,7 +231,8 @@ function needCloudflare() {
 // ---------------------------------------------------------------------------
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const pieces = readFullPieces(ROOT);
+  const prefijoSitio = { mna: 'mna_', teotihuacan: 'teo_' }[args.sitio];
+  const pieces = readFullPieces(ROOT).filter((p) => !prefijoSitio || String(p.piece_id).startsWith(prefijoSitio));
   const manifest = readManifest();
 
   const plan = planAudio(pieces, manifest, {
