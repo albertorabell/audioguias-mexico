@@ -1,0 +1,54 @@
+{
+  "id": "teo_17_plaza_columnas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "62b3b5e88d9d0695",
+      "texto": "Columns Plaza: the Maya Embassy"
+    },
+    "frase_gancho": {
+      "hash": "7db6c1ec0cb127ab",
+      "texto": "Here, bones, vessels, and paintings from distant lands were buried, and all of it on purpose."
+    },
+    "puente_narrativo": {
+      "hash": "e4519f6dfab5e34e",
+      "texto": "Walk the last few meters to the north: before you opens the great ceremonial theater of the Moon Plaza."
+    },
+    "guion_corto": {
+      "hash": "c8754ffa3f4a92bc",
+      "texto": "You are in the Columns Plaza, a large complex of plazas and temples beside the Avenue. Here a team led by Saburo Sugiyama found enormous offerings. In one there were more than two thousand four hundred human remains. In another, thousands of animal bones and pieces of mural painting in Maya style. All of it was buried with intention. What it means is still under debate. Think that beneath these floors there are deposits that were sealed centuries ago."
+    },
+    "guion_largo": {
+      "hash": "4e663feb14ffdf5b",
+      "texto": "Researchers have found very large offerings here, carefully buried inside the buildings. The so-called Offering A one held more than two thousand four hundred human remains. Some teeth were filed or had metal inlays, and at least three skulls showed cranial deformation. Offering D one contained about three thousand five hundred bones, almost all of them from animals, and about ten thousand fragments of ceramic. There was also lime and plaster with images in Maya style. In addition, more than a thousand fragments of mural painting in Maya style appeared, which were probably torn down on purpose. In another offering there were sea stones and the skeleton of a spider monkey. Archaeologists think all of this was part of great feasts, perhaps to forge alliances with other peoples. That is an interpretation, not a proven fact. There is another topic under debate. Maya texts say that a man named Siyaj Kak arrived at Tikal in January of the year three hundred seventy-eight. Many linked him to Teotihuacán. These finds lead some experts to see relationships more complex than a simple conquest. As you walk, imagine those sealed deposits beneath your feet."
+    },
+    "retos_observacion": {
+      "hash": "297ae6927a9c1ea3",
+      "texto": [
+        "Observe the mounds and platforms on the west side of the Avenue, just before it opens onto the Moon Plaza",
+        "Note their immediate proximity to the great precincts of northern power (Xalla to the east and the Moon to the north)",
+        "Look on your app screen at the fragments of glyphs and Maya-style figures recovered in these excavations"
+      ]
+    },
+    "especificaciones": {
+      "hash": "484096401c2c0119",
+      "texto": {
+        "Culture": "Teotihuacán in interaction with the Maya elite of the Early Classic",
+        "Period": "Classic (diplomatic peak between 300 and 450 AD)",
+        "Finds": "More than 500 fragments of Maya-style murals, ceramics from the Petén, and remains of feasts with cacao",
+        "Location": "Western flank of the Avenue of the Dead, adjacent to the Moon Plaza"
+      }
+    },
+    "faq_mito": {
+      "hash": "a027e54003c349ae",
+      "texto": {
+        "pregunta": "Myth: The Maya and the Teotihuacán people lived in different eras and had no direct contact.",
+        "respuesta": "Reality: They coexisted during the Classic period; Maya nobles lived in this sector of Teotihuacán and the Teotihuacán state intervened directly in Maya cities such as Tikal and Copán in the 4th century."
+      }
+    }
+  }
+}

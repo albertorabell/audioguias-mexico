@@ -1,0 +1,52 @@
+{
+  "id": "teo_32_despues",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f25f5dd61ba3ae47",
+      "texto": "Teotihuacán After Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "7178e6cb66815842",
+      "texto": "By the time the Mexica arrived, the city was already a sacred ruin."
+    },
+    "puente_narrativo": {
+      "hash": "95db2801dcc6a3e1",
+      "texto": "Here your tour of Teotihuacán comes to an end. When you visit the National Museum of Anthropology in Mexico City, look for the Teotihuacán Hall: there, the stone colossi and the murals that came out of this land await you face to face."
+    },
+    "guion_corto": {
+      "hash": "7523d26a426d0a15",
+      "texto": "Centuries after its fall, the Mexica found these ruins and respected them. They gave it the name Teotihuacán. They believed that here the gods had created the present era, the Fifth Sun. Moctezuma came on pilgrimage. They also said that giants had raised the pyramids. Today we know they were built by people like you and me, in a city with thousands of families. Much of the city still remains unexcavated. In this way, this place remained important long after its peak."
+    },
+    "guion_largo": {
+      "hash": "38dd363dd2c22003",
+      "texto": "For the Mexica, Teotihuacán was a sacred place. According to their accounts, here the gods sacrificed themselves so that the Sun of our era could exist. The myth of Tecciztécatl and Nanahuatzin, who threw themselves into the fire, is recorded in sixteenth-century sources. The Mexica thought that giants had built the pyramids. Today we know that was not the case. It was people of flesh and blood, with stone tools and a great deal of organization. The history of the excavations is also a long one. In the seventeenth century, Carlos de Sigüenza y Góngora had already visited the ruins. In nineteen oh five, Leopoldo Batres explored the Pyramid of the Sun and restored it for the Centennial of nineteen ten. Between nineteen seventeen and nineteen twenty-two, Manuel Gamio worked at the Ciudadela. In nineteen thirty-two, Sigvald Linné excavated houses in the city. Between nineteen sixty and nineteen sixty-five, the INAH carried out major works with Jorge Acosta. In nineteen seventy-one, the cave beneath the Pyramid of the Sun was discovered. Between nineteen eighty and nineteen eighty-two, the Pyramid of the Feathered Serpent and the Avenue were excavated and restored. René Millon's team drew up a map of the entire city. Thanks to that map we know that there were some two thousand residential compounds. But much of the city remains unexcavated. The Pyramid of the Sun was one of the most heavily restored. In that restoration, part of the original facades was removed, up to ten meters in some places, according to one source. For that reason, it is wise to always ask which part is original and which part was reconstructed. New findings appear every year, and so what we tell you today may change tomorrow."
+    },
+    "retos_observacion": {
+      "hash": "6f5fef485912801a",
+      "texto": [
+        "Look toward the fields of maguey, prickly pear cactus, and houses that surround the perimeter of the archaeological zone: beneath all that ground, 90% of the ancient city remains buried.",
+        "Remember the three names this metropolis has had: Ho Noom Witz for the Maya, Teotihuacán for the Mexica, and its original name, still unknown.",
+        "When you visit the National Museum of Anthropology in Chapultepec, connect this tour with the monolith of Chalchiuhtlicue, the Disc of Death, and the La Ventilla Marker."
+      ]
+    },
+    "especificaciones": {
+      "hash": "cd0389b0e362eeb2",
+      "texto": {
+        "Culture": "Mexica reception (Late Postclassic) and the history of Mexican archaeology (20th and 21st centuries)",
+        "Exploration milestones": "Leopoldo Batres (1905-1910), Manuel Gamio (1917-1922), INAH Teotihuacán Project / Jorge Acosta and Ignacio Bernal (1962-1964), René Millon's Map (1962-1970), and contemporary projects (Cabrera, Sugiyama, Manzanilla, Gómez Chávez, Ortega)"
+      }
+    },
+    "faq_mito": {
+      "hash": "1cf6fe9b63af0ccb",
+      "texto": {
+        "pregunta": "Myth: The entire city of Teotihuacán has already been unearthed.",
+        "respuesta": "Reality: The archaeological zone open to the public covers only the ceremonial core; more than eighty-five percent of the ancient city’s residential compounds still remain underground."
+      }
+    }
+  }
+}

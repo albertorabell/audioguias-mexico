@@ -1,0 +1,55 @@
+{
+  "id": "teo_09_piso_mica",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5f215a62fe41b4e4",
+      "texto": "Street of the Dead Complex and the Mica Floor"
+    },
+    "frase_gancho": {
+      "hash": "bef5c0a75d0a3ef0",
+      "texto": "A floor covered in mica that came from far away."
+    },
+    "puente_narrativo": {
+      "hash": "53f5c7c2c41ab1de",
+      "texto": "Now cross to the right-hand side of the avenue: beneath a protective roof awaits the largest painted feline preserved along the Causeway."
+    },
+    "guion_corto": {
+      "hash": "c6617f5a78802f59",
+      "texto": "Right near here, in the so-called Viking Group, a floor with layers of mica, a shiny mineral, came to light. Mica does not occur in the Teotihuacán valley. It is thought to have come from Oaxaca, from the Ejutla region. Bringing it here took great effort, so it must have been a very valuable material. What it was used for is still debated. Imagine a room with a floor shining like a mirror."
+    },
+    "guion_largo": {
+      "hash": "63504e30dbb7a516",
+      "texto": "In this sector, one of the most famous finds at Teotihuacán came to light. In the so-called Viking Group, archaeologists found a floor with layers of mica. Mica is a mineral that forms in sheets, shiny and durable. It is not found in the Teotihuacán valley. Analyses point to a source in Oaxaca, in the Ejutla region. That means someone brought it from very far away. The researcher Linda Manzanilla reports that about thirty-seven kilos of mica have been recorded at Xalla. It has also been found in other important buildings, which is why it is thought to have been valuable. What exactly it was for is still under discussion. Some think its shine imitated the reflection of the sun or of water. Others see it as a prestige material, one that showed the power of those who could obtain it. None of these ideas has been confirmed. As you walk through these courtyards, remember that there may still be more surprises beneath them. Each new discovery corrects a little of what we thought we knew."
+    },
+    "retos_observacion": {
+      "hash": "8e33077e232f60cf",
+      "texto": [
+        "Observe the groups of courtyards and stepped platforms that flank both sides of this stretch of the Causeway",
+        "Look in the stone floors for the channels and inspection openings of the Teotihuacán rainwater drainage system",
+        "Notice the thick floors of pre-Hispanic concrete made of lime, sand, and crushed volcanic gravel"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e233d93d8d42c6b9",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (around 250-550 AD)",
+        "Location": "Central stretch of the Street of the Dead Causeway (West Plaza Complex and Viking Group)",
+        "Notable find": "Chamber with a floor of two layers of mica sheets imported from Oaxaca (approx. 30 m²)",
+        "Exploration": "Pedro Sánchez (1906) and Sigvald Linné / Viking Fund (1942)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c7a4add4d7dd2f5f",
+      "texto": {
+        "pregunta": "Myth: The Mica Floor had an unknown technological or industrial function.",
+        "respuesta": "Reality: Mica was a sacred mineral of extreme luxury, imported from Oaxaca by the Teotihuacán elite to consecrate ritual spaces and to decorate walls and garments."
+      }
+    }
+  }
+}

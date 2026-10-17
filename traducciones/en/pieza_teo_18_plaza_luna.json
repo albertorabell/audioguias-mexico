@@ -1,0 +1,55 @@
+{
+  "id": "teo_18_plaza_luna",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9af37ca9ed2ff2e4",
+      "texto": "Plaza of the Moon and the Thirteen Altars"
+    },
+    "frase_gancho": {
+      "hash": "781a3cf91868679d",
+      "texto": "A great plaza where pits, green stones, and secrets beneath the floor are still being uncovered."
+    },
+    "puente_narrativo": {
+      "hash": "02ce4775c5fd0d0e",
+      "texto": "Now cross the esplanade and approach the foot of the great pyramid at the far end to discover the six buildings and the offerings it hides deep within."
+    },
+    "guion_corto": {
+      "hash": "5aac4ce286c8bd39",
+      "texto": "You have arrived at the Plaza of the Moon, at the end of the Avenue. Many people count twelve platforms around it and one altar at the center, thirteen in all. Since 2015, the INAH has been excavating Structure A. It has found deep pits, perforations in the floors, and green stones set upright. Specialists think they had a ritual use, but this has not yet been confirmed."
+    },
+    "guion_largo": {
+      "hash": "99da29875b24d155",
+      "texto": "This is the Plaza of the Moon, at the north end of the Avenue. Many authors count twelve platforms around it and one central altar. That makes thirteen in all, an important number in the Mesoamerican calendar. This reading should be taken with caution. The newest discoveries lie beneath the floor. Since 2015, the INAH has been excavating the so-called Structure A, led by Verónica Ortega Cabrera. That structure was reconstructed between 1962 and 1964. At that time, the subsoil was not explored. Now pits and perforations have been found in the floors, both inside the structure and in the plaza. Some pits measure about two meters by two and a half, with a depth of three meters. They contained green stone monoliths set upright, some weighing more than half a ton. The small pits held pebbles and shell fragments. It is still not known what they were for. Specialists think of a ritual use of the plaza and of the Pyramid of the Moon, but it is not confirmed. A map is being prepared to see whether the hollows form a pattern. Near this area the great sculpture of Chalchiuhtlicue was found, which measures more than three meters and weighs about twenty tons. In 1890 it was taken to Mexico City by train and by a cart pulled by mules. Today you will see it in the National Museum of Anthropology."
+    },
+    "retos_observacion": {
+      "hash": "d8cd689413d55f98",
+      "texto": [
+        "From the center of the esplanade, count the twelve platforms that surround you and add the central Structure A to complete the thirteen celestial levels",
+        "Line up your view from Structure A toward the Pyramid of the Moon to see how it exactly frames the summit of Cerro Gordo",
+        "At the corners of the central platform, look for the outlets of the ancient ritual channels"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e91f73f7d6659e6a",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (around 100-550 AD)",
+        "Design": "Enclosed plaza flanked by 12 talud-tablero platforms and a central altar (Structure A)",
+        "Key discoveries": "Monumental sculpture of Chalchiuhtlicue, jadeite figurines, and a ritual hydraulic system with river cobbles (Verónica Ortega, INAH)",
+        "Origin": "Northern end of the Avenue of the Dead"
+      }
+    },
+    "faq_mito": {
+      "hash": "2465153319b54016",
+      "texto": {
+        "pregunta": "Myth: The Plaza of the Moon was simply an empty esplanade for gathering people.",
+        "respuesta": "Reality: It functioned as a cosmogram of thirteen altars with hydraulic channels and river stones that turned the floor into a ritual watery landscape."
+      }
+    }
+  }
+}

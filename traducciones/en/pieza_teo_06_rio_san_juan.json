@@ -1,0 +1,55 @@
+{
+  "id": "teo_06_rio_san_juan",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3ed240c5adcc2759",
+      "texto": "The River That Turned Ninety Degrees"
+    },
+    "frase_gancho": {
+      "hash": "4f05f39398175e9a",
+      "texto": "The Teotihuacán did not adapt their city to the river: they moved the river to follow their plan."
+    },
+    "puente_narrativo": {
+      "hash": "1387c55af4930b2b",
+      "texto": "When you finish crossing the bridge, start climbing the first stretch of stairs to the north, and feel how the Avenue of the Dead plays tricks on your eyes and your ears."
+    },
+    "guion_corto": {
+      "hash": "0712e7ce71457273",
+      "texto": "As you cross the San Juan River, you are standing on a work of engineering. Its natural channel did not fit the plan of the city, so it was diverted and channeled. According to an airborne laser study, for about three kilometers it follows the orientation of the city. This was probably done in the second century. The water served to drain the city and to control heavy rains. The builders wanted an orderly city, and the landscape had to obey."
+    },
+    "guion_largo": {
+      "hash": "b7977d2889ad15ba",
+      "texto": "The San Juan River runs through the center of Teotihuacán, and it does not flow like a natural river. Its original channel cut across the space where the Ciudadela and the Great Compound were planned. That is why it was diverted. According to one study, this probably happened in the second century AD. It is a probable date, not a certain one. The canal passed beneath the north platform of the Ciudadela and carried water to a well in its central plaza. Then it ran west, went around the Great Compound and continued alongside the West Avenue. It is estimated that about three kilometers of the channel were adjusted to the grid of the city. A study using airborne laser mapping, led by Nawa Sugiyama, confirmed something more. The San Juan follows the orientation of the city for about three kilometers through the center. Another river, the San Lorenzo, has a different orientation and runs for four point nine kilometers. It was also altered. This system helped drain water and control floods. Some authors think it may have been possible to navigate it in certain seasons, but that is a hypothesis. As you cross, think that the river you see is not an accident. It was a decision made by the builders."
+    },
+    "retos_observacion": {
+      "hash": "448364b11b03f9bf",
+      "texto": [
+        "Lean out from the bridge toward the east and the west to observe the completely straight course of the channel",
+        "Look along the walls of the canal for the remains of the ancient stone retaining walls",
+        "Look south and north to notice how the river divides the avenue into two worlds"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d4699dec98f6933",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Early Classic (around 150-250 AD)",
+        "Work": "Artificial diversion at a 90° angle of about 3 km of the San Juan River channel",
+        "Functions": "Flood control, main collector of the urban drainage system, agricultural irrigation, and East-West cosmic axis",
+        "Origin": "Crossing of the San Juan River with the Avenue of the Dead"
+      }
+    },
+    "faq_mito": {
+      "hash": "fd03b2d74ff52dd9",
+      "texto": {
+        "pregunta": "Myth: The San Juan River always ran in a straight line across the Avenue.",
+        "respuesta": "Reality: Its original channel crossed the valley diagonally; the Teotihuacán diverted it by hand at a right angle to fit it into their urban grid."
+      }
+    }
+  }
+}

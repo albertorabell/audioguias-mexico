@@ -1,0 +1,54 @@
+{
+  "id": "teo_31_final_ciudad",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e2914c7686a232e1",
+      "texto": "The End of Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "02bd1aaa113e8b45",
+      "texto": "The city burned, but no one knows for certain why."
+    },
+    "puente_narrativo": {
+      "hash": "2757ce6b50929179",
+      "texto": "As you take your last steps toward the exit, listen to our epilogue: what happened when the Mexica found these empty ruins, and how archaeologists brought them back to light."
+    },
+    "guion_corto": {
+      "hash": "dcac2ef29f5ce616",
+      "texto": "Around the year five hundred fifty, some of the most important buildings along the Avenue were looted and burned. The fire hit the elite constructions above all. There are no signs of a foreign army. Experts think of an internal revolt or a crisis of drought and hunger. It is still debated how long this ending lasted and how it unfolded. What you see today is what remained of a city that had once been enormous."
+    },
+    "guion_largo": {
+      "hash": "78e4f3c64e20287f",
+      "texto": "Around the year five hundred fifty of our era, Teotihuacán suffered a heavy blow. Important monuments were looted and burned. The fire was concentrated on buildings of the ruling class along the Avenue of the Dead. In palaces such as Xalla, the sculptures were broken. The dates of the fires, measured with magnetism studies, point to the middle of the sixth century. Researchers have found no signs of a foreign invasion. For that reason, several explanations are proposed. One is an internal revolt, by people who attacked those who ruled. Another is a crisis of climate and food. In the years five hundred thirty-five and five hundred thirty-six there were severe climate events in many parts of the world. Some link them to a possible eruption of the Ilopango volcano. In Teotihuacán, the bones of children from the sixth century show malnutrition. A long drought may have made the problem worse. Some add that other centers, such as Xochicalco, began to grow, although that is only a possibility. None of these ideas is settled. Perhaps there were several causes at the same time. Xalla, one of those palaces, covers about fifty-five thousand square meters, with twenty-nine buildings and eight plazas. A good part of the damage is concentrated in structures like that one. It is possible that those who broke the sculptures knew well what they were destroying, because they targeted the symbols of power. It is an idea, not a fact. A city of about one hundred thousand people does not empty out in a week. How many years the ending took is still being investigated. It seems that central power weakened greatly. The city no longer had the strength it once had. When you look at these buildings, remember that they were raised over centuries, and that their end was a process, not a single day."
+    },
+    "retos_observacion": {
+      "hash": "1e55bdcb896388b5",
+      "texto": [
+        "Look one last time at the long line of temples and palaces along the Avenue of the Dead: all of them burned at the same time around 550 AD.",
+        "Imagine the contrast between the ceremonial center in flames and the two thousand compounds of the outlying neighborhoods that were left standing.",
+        "Think about how the ideas, gods, and art of Teotihuacán survived by traveling to Xochicalco, Cacaxtla, and the Mexica world."
+      ]
+    },
+    "especificaciones": {
+      "hash": "f67c2f282bc871c9",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Date of the great fire": "Around 550 AD (± 20 years, dated by archaeomagnetism and carbon-14)",
+        "Converging causes": "Sixth-century megadrought, food crisis, broken trade routes, and an internal uprising against the elite",
+        "Cities that received the diaspora": "Cacaxtla, Xochicalco, Cantona, Teotenango, and El Tajín"
+      }
+    },
+    "faq_mito": {
+      "hash": "32130bd7f521dabf",
+      "texto": {
+        "pregunta": "Myth: Teotihuacán was destroyed all at once by an invasion of Chichimec peoples from the north.",
+        "respuesta": "Reality: The traces of fire and selective destruction concentrated exclusively on the government buildings along the Avenue of the Dead point to an internal revolt unleashed after years of drought and social crisis."
+      }
+    }
+  }
+}

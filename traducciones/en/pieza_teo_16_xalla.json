@@ -1,0 +1,56 @@
+{
+  "id": "teo_16_xalla",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b4c420b839cf78b9",
+      "texto": "Xalla: the Palace of the Four Rulers"
+    },
+    "frase_gancho": {
+      "hash": "ecddd6420ca595a7",
+      "texto": "Fifty-five thousand square meters of palace, mica from Oaxaca, and the enigma of who ruled Teotihuacán."
+    },
+    "puente_narrativo": {
+      "hash": "d1535a222f1c324f",
+      "texto": "A few steps ahead, looking back toward the left side of the Avenue, we will find the compound where the ambassadors who came from the Maya jungles lived."
+    },
+    "guion_corto": {
+      "hash": "04b84ab796c04d08",
+      "texto": "Look now toward the right side of the Avenue, behind the facades that line this stretch between the Pyramid of the Sun and the Pyramid of the Moon. Back there lies Xalla, an enormous palace complex of about fifty-five thousand square meters, with twenty-nine buildings and eight plazas. UNAM archaeologists have been excavating it for more than twenty years. Its origins go back to around the year one hundred sixty. Many researchers think it may have been the seat of the city’s government, although that is still a hypothesis."
+    },
+    "guion_largo": {
+      "hash": "ebadcb80817a3447",
+      "texto": "Why has no king’s tomb been found in Teotihuacán, nor a stela with the portrait of a sovereign, as in the Maya cities? That question runs through all of the city’s archaeology. Linda Manzanilla, who has directed the excavations at Xalla, points out that the Teotihuacán rulers barely appear in the archaeological record. She also points out that the city left no written texts.\n\nIn the main plaza of Xalla there are four compounds at the cardinal points and a fifth temple in the center. Manzanilla thinks that, seen together, they form a flower with four petals, perhaps an emblem of the city. From that layout arose a hypothesis: that Teotihuacán was governed by a council of two or four nobles, representatives of the districts and of the most powerful households. Another researcher, Zoltán Paulinyi, proposes six or seven co-rulers. No one has proven it, and that Xalla was the seat of government is also a hypothesis.\n\nXalla was also a place of work. In one of its plazas there were carpenters, tailors, painters, potters, and lapidaries. Here, about thirty-seven kilos of golden mica were recovered, brought from the Ejutla region, in Oaxaca. Xalla and another nearby complex hold more than ninety percent of all the mica found in Teotihuacán. Imagine how these walls shone.\n\nIn the middle of the sixth century, a great fire burned the palace. Archaeologists found burned floors and charred beams over the compounds of the main plaza, and several archaeomagnetic dates confirm the fire. For the researcher, it was the first episode in the end of the city. After that came looting, occupation by other peoples, and, in the late nineteenth and early twentieth centuries, the use of the building as a stone quarry. In the 1960s, some murals were also stolen."
+    },
+    "retos_observacion": {
+      "hash": "d1aab7ffa57148fb",
+      "texto": [
+        "Locate, toward the east of this stretch of the Avenue, the great walled esplanade where the Xalla complex extends",
+        "Notice how its strategic position gave it direct control toward both the Pyramid of the Sun and the Pyramid of the Moon",
+        "Look at the plan of its Plaza Uno on your screen, with the four pyramids that support the co-rule theory"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b69fad43f631f1b1",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (seat of power around 350-550 AD)",
+        "Area": "about 37,000 m² (213 x 174 m)",
+        "Key structure": "Plaza Uno with four pyramids in a quincunx and state workshops for mica, jadeite, and human bone",
+        "Research": "Linda Manzanilla and Leonardo López Luján (UNAM)",
+        "Access": "Restricted excavation area"
+      }
+    },
+    "faq_mito": {
+      "hash": "17af173f891c69f4",
+      "texto": {
+        "pregunta": "Myth: Teotihuacán was ruled by dynasties of absolute kings who carved their deeds in stone.",
+        "respuesta": "Reality: Teotihuacán art avoided portraying individual leaders; complexes like Xalla suggest that, at its height, power rested in a council of four rulers."
+      }
+    }
+  }
+}

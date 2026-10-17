@@ -1,0 +1,57 @@
+{
+  "id": "teo_26_conjunto_departamental",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4fe88105d0bcefc7",
+      "texto": "How They Lived: Zacuala and Yayahuala"
+    },
+    "frase_gancho": {
+      "hash": "974ff9609e9e0ded",
+      "texto": "Walls without windows facing the street, and life turning inward."
+    },
+    "puente_narrativo": {
+      "hash": "004fd9b40928edf8",
+      "texto": "Walk a few meters to the neighboring compound of Tetitla: we will step beneath its roofs to see up close the splendor of the painted walls of a wealthy home."
+    },
+    "guion_corto": {
+      "hash": "defa77c9e8535176",
+      "texto": "You are standing before Zacuala and Yayahuala, two of the largest housing compounds in the city. They were like walled city blocks, with walls without windows facing the street. In Teotihuacán there were about two thousand compounds like these. In each one lived large families, from sixty to one hundred people according to one estimate. The dead were buried inside the house itself. The walls tell you so: the life of each family was turned inward."
+    },
+    "guion_largo": {
+      "hash": "1eaab402ff48100e",
+      "texto": "Zacuala and Yayahuala are among the largest housing compounds in Teotihuacán. Look at their high exterior walls. Facing the street, these houses had blank walls and few entrances. Life unfolded inward, in courtyards and rooms. The archaeologist Michael Smith estimates that Teotihuacán had about two thousand compounds like these. In each one lived between sixty and one hundred people. In general, each housing unit within the compound had between five and ten inhabitants. Think about what that means. In a single city there were thousands of small communities, each with its own organization. The compounds usually had one or two burial areas. That means the dead were buried inside the same house. The grandparents remained in the place where the family lived. Archaeologists use this information to learn what daily life was like. The compounds varied greatly in size and decoration. Tetitla, which is very close by, has very well-known murals. Only by comparing houses can the city be understood as a collection of families and not as a list of monuments."
+    },
+    "retos_observacion": {
+      "hash": "54c3a8271a8f1df0",
+      "texto": [
+        "Walk along the outside of the high perimeter walls of Zacuala or Yayahuala and check that they have no windows at all facing the street",
+        "Find the wide access staircase on the west side of Yayahuala or the columned vestibule of Zacuala",
+        "Notice inside how the open courtyards with a central altar gave light, air and rainwater to the rooms"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7572794739938d0c",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (around 250-600 AD)",
+        "Typology": "Multifamily apartment compounds (more than 2,000 across the city)",
+        "Zacuala": "approx. 4,000 m² with 13 porticoed courtyards",
+        "Yayahuala": "70 x 70 m city block with 3 temples",
+        "Excavation": "Laurette Séjourné (1955-1961)",
+        "Location": "Southwest Circuit"
+      }
+    },
+    "faq_mito": {
+      "hash": "07a598e60ae359e2",
+      "texto": {
+        "pregunta": "Myth: Ordinary people of Teotihuacán lived in poor straw huts outside the city, and the dead were taken to a cemetery.",
+        "respuesta": "Reality: The vast majority of the population lived in sturdy apartment compounds of stone and stucco with rainwater drainage, and buried their dead beneath the floors of their own rooms."
+      }
+    }
+  }
+}

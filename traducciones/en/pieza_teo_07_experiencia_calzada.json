@@ -1,0 +1,56 @@
+{
+  "id": "teo_07_experiencia_calzada",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a9996968b2314ebe",
+      "texto": "Walking the Avenue of the Dead"
+    },
+    "frase_gancho": {
+      "hash": "51f4aa454344ea50",
+      "texto": "An avenue forty meters wide that was the axis of the entire city."
+    },
+    "puente_narrativo": {
+      "hash": "cbdaa1456a1422a5",
+      "texto": "If you are following the full route, approach the buildings on the left side to discover temples buried one inside another; if you are on the express route, keep heading north until you find the great Puma Mural on your right."
+    },
+    "guion_corto": {
+      "hash": "fc4c7f94a404343f",
+      "texto": "You are on the Avenue of the Dead, the axis of Teotihuacán. It is about forty meters wide. The Mexica called it Micaohtli, and for that reason people thought there were tombs here. Most researchers have now dismissed that idea, because there are almost no burials along it. A cross street divides the city into four zones. Walk slowly and notice how the buildings appear and disappear as you pass."
+    },
+    "guion_largo": {
+      "hash": "8be26eea44610eaa",
+      "texto": "The Avenue of the Dead is the main axis of Teotihuacán. It is about forty meters wide. Sources disagree about its length. Some speak of about three kilometers, others of between two and four. The Mexica called it Micaohtli, which is translated as road of the dead. It was thought that on either side there were tombs of kings. Almost no such burials were found, so most researchers abandoned that idea. Even so, the name stuck. At several points the avenue is interrupted to form courtyards beside enormous buildings. A cross avenue intersects the Avenue and divides the city into four quadrants. That layout follows a grid that almost all the buildings respect. As you walk, notice the sensation of moving forward and stopping. The walls and plazas force you to change your pace. We do not know whether the builders were seeking an effect on those who walked here. But you can notice it yourself. If you like, clap your hands once and listen. There is no certainty that the sound was part of the design, but it is always fun to try."
+    },
+    "retos_observacion": {
+      "hash": "edeb8c1896d5d0c5",
+      "texto": [
+        "Stand right at the foot of one of the cross walls and notice how the view of the far end of the Avenue is temporarily hidden",
+        "Give a sharp clap in front of the talud-tablero walls to hear the acoustic rebound",
+        "Look at ground level for the square stone openings where the rain drained from each plaza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "98783113022c6ad8",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (formally laid out around 150-250 AD)",
+        "Total length": "more than 5 km (about 2 km can be explored in the monumental zone)",
+        "Width": "40 to 50 m",
+        "Design": "North-south axis divided by stepped plazas with rainwater drainage",
+        "Origin": "Central axis of Teotihuacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "b9ecc995b6557228",
+      "texto": {
+        "pregunta": "Myth: The Avenue of the Dead is a flat avenue designed for fast traffic.",
+        "respuesta": "Reality: It is divided by walls and changes in level that regulated rainwater and created a ritual route of ascent and descent toward the north."
+      }
+    }
+  }
+}

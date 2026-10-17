@@ -1,0 +1,57 @@
+{
+  "id": "teo_12_tunel_sol",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "69fcf2aec6942eb5",
+      "texto": "The Cave Beneath the Pyramid of the Sun"
+    },
+    "frase_gancho": {
+      "hash": "927db213e73348d7",
+      "texto": "Beneath the Pyramid of the Sun lies a tunnel that no one expected."
+    },
+    "puente_narrativo": {
+      "hash": "ad5946b33df6e53c",
+      "texto": "Now turn your gaze to the low buildings on the left side of this plaza: the priests who looked after the pyramid lived there, surrounded by jaguars painted blue."
+    },
+    "guion_corto": {
+      "hash": "811539f0f1afb570",
+      "texto": "Beneath the Pyramid of the Sun there is a tunnel and a chamber. They were discovered in 1971. The tunnel is about 103 meters long, and it is reached by going down a shaft of about six and a half meters. Today it is closed to the public. A recent study suggests that it was made by the people of Teotihuacán, not by nature. What it was used for is still debated. While you are here, think about what lies just below."
+    },
+    "guion_largo": {
+      "hash": "24b51e6e0c6c1088",
+      "texto": "Beneath the Pyramid of the Sun there is a tunnel that was discovered in 1971. You enter through a vertical shaft of about six and a half meters. After that comes a passage of about 103 meters leading to a chamber beneath the center of the pyramid. For years it was thought to be a natural cave of volcanic origin. The archaeologist Saburo Sugiyama and his team, in 2009, proposed that the Teotihuacán people made it, or modified it by hand. That idea changes its meaning. It means that someone decided to dig beneath the site where the pyramid was later raised. Offerings have been found in the tunnel, but there are differing opinions about when it was sealed. Some sources say about one thousand eight hundred years ago, others date it between 200 and 250 BC. That difference remains unresolved. One hypothesis says the cave represented the mythical origin of the world, a place from which water and life sprang forth. It is an idea held by specialists, not a established fact. Today you cannot go down, but you can imagine that beneath your feet there is a dark path of more than one hundred meters."
+    },
+    "retos_observacion": {
+      "hash": "345fab1fd1004e5c",
+      "texto": [
+        "Look at the foot of the central staircase next to the Adosada Platform: that is where the 6.5-meter descent shaft is sealed",
+        "Trace a line with your eyes from that point to the vertical axis of the pyramid’s summit, where the four-petal chamber ends",
+        "Look at the images in your app to see the clover-shaped, or four-lobed flower-shaped, plan of the tunnel"
+      ]
+    },
+    "especificaciones": {
+      "hash": "83781b3da743dae7",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Early Classic (1st-2nd century AD)",
+        "Length": "103 m",
+        "Depth": "6.5 m",
+        "Ancient closure": "17 transverse walls of tezontle and mud",
+        "Findings": "Discovered in 1971 (Jorge Acosta / René Millon); deposits excavated in 2008-2011 (Sugiyama and Sarabia)",
+        "Access": "Closed to the public"
+      }
+    },
+    "faq_mito": {
+      "hash": "1dd06005b1c32e15",
+      "texto": {
+        "pregunta": "Myth: The cave beneath the Pyramid of the Sun is an intact natural grotto.",
+        "respuesta": "Reality: Recent geological studies indicate that it was excavated and shaped into a four-petal flower by the people of Teotihuacán themselves, to sanctify the ground before raising the pyramid."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "teo_28_atetelco",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "985ec9a9b2f2453d",
+      "texto": "Atetelco: Warrior Coyotes and Pumas"
+    },
+    "frase_gancho": {
+      "hash": "f2248d4b77b914ec",
+      "texto": "A parade of coyotes and jaguars walking toward the door."
+    },
+    "puente_narrativo": {
+      "hash": "f65f72623a1c3f4c",
+      "texto": "As you leave Atetelco and head back toward the south entrance, we will listen to the stories of two neighboring districts that complete the human map of the city: the artisans of La Ventilla and the Zapotec of Oaxaca."
+    },
+    "guion_corto": {
+      "hash": "3ce958cfadd82b32",
+      "texto": "Atetelco means “at the stone wall next to the water.” It is a residential compound with decorated patios. In the White Patio, a mural shows a procession of coyotes and jaguars walking one behind another toward the central door. The Red Patio has a brightly colored altar and ornaments linked to military activity. Look closely at the animals and you will see that each one has its own details. The coyote and the jaguar do not have the same snout or the same tail."
+    },
+    "guion_largo": {
+      "hash": "841288dfd9d917cd",
+      "texto": "The White Patio has three temples from the early stages of the city, dated between the years three hundred and four hundred. In Portico 2 of the East Temple, the walls show a procession of coyotes and jaguars. In some murals, a jaguar walks in front of the coyote. In others, the coyote goes first and the jaguar follows. All of them move toward the central door. The coyotes are drawn with fine red lines. They have long tufts at the elbows and a band of small triangular feathers on the back. Their headdress is a diadem with long feathers. The jaguars have their bodies covered as if by a net. Their snout is shorter, their fangs more curved, and the tongue appears split in two. Each mural is framed by a border of fine lines. Higher up is the Red Patio, with chambers on pyramid bases and a brightly colored altar. Its decoration is linked to military activity. What exactly the procession meant, we do not know. But you can compare the two animals and discover how the artists told them apart."
+    },
+    "retos_observacion": {
+      "hash": "4753b1f1921cc09d",
+      "texto": [
+        "Enter the porticoes of the White Patio and observe the lattice of diamonds in the upper part, with warriors and coyotes inside each cell",
+        "Move on to the Red Patio (of the Canids) and look at the lower part of the walls for the row of coyotes and pumas with green plumes",
+        "In front of the animals’ snouts, find the trilobed human heart from which three drops of blood fall, and look at the center of the patio for the small altar with a sloping base and a vertical panel"
+      ]
+    },
+    "especificaciones": {
+      "hash": "84fea297416b3d11",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Late Classic (murals around 350-550 AD)",
+        "Main spaces": "White Patio (3 porticoes with a lattice of diamonds) and Painted Patio or Patio of the Canids (procession of coyotes and pumas and central altar)",
+        "Theme": "Military orders of coyotes, pumas, and eagles, and sacrificial rituals",
+        "Location": "Far southwest (1.5 km southwest of the Pyramid of the Sun)"
+      }
+    },
+    "faq_mito": {
+      "hash": "5617ebaf631c238e",
+      "texto": {
+        "pregunta": "Myth: Teotihuacán was a peaceful city with no army or human sacrifice, and ritual warfare was a later invention of the Toltec and the Mexica.",
+        "respuesta": "Reality: The murals of Atetelco show that, since the 4th century, Teotihuacán had military orders of coyote, puma, and eagle warriors linked to the sacrifice of hearts."
+      }
+    }
+  }
+}

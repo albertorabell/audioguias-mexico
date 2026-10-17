@@ -1,0 +1,56 @@
+{
+  "id": "teo_02_templo_serpiente",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "158a3fb6368f096b",
+      "texto": "Temple of the Feathered Serpent"
+    },
+    "frase_gancho": {
+      "hash": "bb40581ff6cbb46e",
+      "texto": "More than one hundred thirty people were buried beneath its foundations to consecrate this temple."
+    },
+    "puente_narrativo": {
+      "hash": "180667a4dfea84f3",
+      "texto": "If you are following the full route, stay in front of this staircase to peer with X-rays into the sealed tunnel beneath your feet; if you are on the express route, leave the Ciudadela for the Avenue of the Dead and walk north."
+    },
+    "guion_corto": {
+      "hash": "5ae5a129b00fbdfd",
+      "texto": "As you approach this building head-on, the first thing you see is a smooth gray structure called the Adosada Platform. Climb its steps and look into the narrow passage that opens behind it: there appears, hidden for centuries, the most spectacular sculpted facade in Teotihuacán. You are standing before the Temple of the Feathered Serpent, built around the year 200. Enormous stone heads project from its panels, which were once painted red, green, blue and yellow. Some are feathered serpents emerging from a flower; the others, with two rings on the forehead and no lower jaw, represent, according to many specialists, a sacred headdress from the origin of time."
+    },
+    "guion_largo": {
+      "hash": "4bba0f56ac744fec",
+      "texto": "This facade was made to be read. Two creatures alternate along the panels and the staircase. The first is the Feathered Serpent. Its sculpted head bursts from a corolla of petals and is surrounded by snails and shells, as if it were swimming in the primordial waters of creation. The second puzzled archaeologists for decades. Because of the two rings on its forehead, it was thought to be Tláloc, the god of rain. Today many specialists interpret it as the headdress of Cipactli, the monstrous crocodile of the Earth and symbol of the first day of the calendar. According to this reading, the serpent carries the beginning of time on its back.\n\nIt is estimated that between three hundred and four hundred of these heads, about one meter high, decorated the building. And all of them were painted. Imagine this entire wall, brilliant, seen from a plaza full of people.\n\nThe dates are not exact: studies place the construction between the years 150 and 250. But the most striking thing lay beneath the floor. Before the temple was raised, around the year 200, dozens of people were buried here. The archaeologists Rubén Cabrera and Saburo Sugiyama found the remains of one hundred thirty-seven, placed in great order and with their hands tied behind their backs. If the areas that have not been excavated are added, it is estimated that there were between two hundred and two hundred sixty.\n\nWho were they? Analyses of the oxygen in their bones and teeth produced a surprise. They came from several regions of Mesoamerica, but most had lived in Teotihuacán for years. They were not simply captives who had just arrived. One hypothesis proposes that they were foreigners in the service of the ruler, perhaps elite guards, because they wore very similar and very rich attire and offerings. It is a hypothesis, not a certainty. Other ideas propose that they were servants of a dynasty founder, or that they were dedicated to the Feathered Serpent or to the building itself. A treasure was buried alongside them: there is talk of around one hundred thousand precious objects.\n\nOne more thing about the history of this building. About one hundred years after its construction, around the year 350, the facade was covered by the Adosada Platform that you have just climbed. Why is debated. One reading speaks of a change in the city's internal government; another, of a respectful ritual burial. The sides that were not covered were damaged at an unknown date, and that is why the hidden part is the best preserved.\n\nBetween nineteen seventeen and nineteen twenty-two, the archaeologist Manuel Gamio opened the passage where you are standing. He brought back into the light a facade that no one had seen in more than one thousand five hundred years."
+    },
+    "retos_observacion": {
+      "hash": "cffc59d3095db4b0",
+      "texto": [
+        "Climb the Adosada Platform and look into the rear passage to see the original stepped tiers head-on",
+        "Tell the two heads apart: the Feathered Serpent surrounded by petals and the scaly headdress of Cipactli with two rings and no lower jaw",
+        "Look on the slopes and between the columns for the reliefs of snails and seashells"
+      ]
+    },
+    "especificaciones": {
+      "hash": "750d48419595a14e",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Early Classic (around 200 AD; sealed around 350 AD)",
+        "Material": "Carved volcanic stone, stucco and mural paint",
+        "Structure": "Seven original tiers in talud-tablero style with 366 stone heads",
+        "Discovery": "Uncovered by Manuel Gamio (1917-1922); burials excavated in the 1980s",
+        "Origin": "The Ciudadela, Teotihuacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "24ae0f14d4a7a0b6",
+      "texto": {
+        "pregunta": "Myth: The heads with rings on the forehead represent the rain god, Tláloc.",
+        "respuesta": "Reality: Recent iconographic studies show that they represent Cipactli, the caiman or monster of the Earth and sign of the first day of the ritual calendar."
+      }
+    }
+  }
+}

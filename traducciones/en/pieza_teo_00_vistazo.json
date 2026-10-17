@@ -1,0 +1,57 @@
+{
+  "id": "teo_00_vistazo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "30985fc7fcc29f13",
+      "texto": "Teotihuacán at a Glance"
+    },
+    "frase_gancho": {
+      "hash": "a4e9ec31641e2db7",
+      "texto": "A city laid out with a ruler and the sky, some two thousand years ago."
+    },
+    "puente_narrativo": {
+      "hash": "764cb13bf3c2379a",
+      "texto": "Head to the southern end of the avenue: there the Citadel awaits you, a sunken courtyard so large it could hold an entire crowd."
+    },
+    "guion_corto": {
+      "hash": "81b2d03851a104e7",
+      "texto": "Pause for a moment and look at the horizon. To the north, a volcanic mountain dominates the landscape: it is Cerro Gordo. Before you stretches a city that grew to have around one hundred thousand inhabitants in about twenty square kilometers, the largest in Mesoamerica. Notice the walls around you: almost all of them combine a sloping base, the slope, with a rectangular frame on top, the panel. That design repeats for several kilometers along its central axis, the Avenue of the Dead. Its original name was lost; the Mexica gave it the name Teotihuacán centuries later, and it is usually translated as “the place where the gods were born.”"
+    },
+    "guion_largo": {
+      "hash": "257dbd6a0a670d96",
+      "texto": "Almost none of the names you will hear today belonged to the people who raised these stones. Teotihuacán is the name the Mexica gave it centuries later, when the city was already empty. The Mexica also christened the central avenue the Avenue of the Dead, because they believed the mounds along its sides were tombs of ancient kings. They were not: they are temples and palaces. In Maya inscriptions, the city appears under another name, Puh, which means Place of Rushes. What its own inhabitants called it remains a mystery.\n\nWhy did a city of this scale grow here? Because the valley had almost everything. There were springs, fertile land, and clay for building. Very close by were the obsidian mines of Pachuca, the volcanic glass from which the finest blades and arrowheads in Mesoamerica were made. That obsidian was sold as far as Monte Albán and Tikal, and the state oversaw its production and trade. Some researchers think that families displaced by the volcanic eruptions in the southern Basin of Mexico also arrived. The exact order of those events is still debated.\n\nThe city planners laid out the city as a giant grid. The Avenue of the Dead runs from south to north, and two great avenues cross it at right angles. But if you carried a compass, you would notice something strange: the entire city is turned about fifteen degrees east of true north. The central part follows the orientation of the Pyramid of the Sun. Its facade faces the place where the Sun sets at the end of April and in mid-August. Between those dates, two hundred sixty days are counted, the length of the ritual calendar.\n\nThe story you are about to walk through has four great moments. Between the first and second centuries, the pyramids of the Sun and the Moon are raised. Around the year two hundred, the Citadel is built with its great temple. From the fourth century onward comes the peak: it is estimated that there were some two thousand apartment compounds, each with dozens of people. There were also neighborhoods of artisans and people who came from Oaxaca, Veracruz, and the Maya region.\n\nThe fourth moment is the end. Around the year five hundred fifty, a fire devastated the elite buildings along the Avenue. There is no trace of a foreign invasion. Among the explanations mentioned are droughts, famine, and internal revolts. The city did not disappear overnight: it emptied little by little. Almost everything we know today has been reconstructed by archaeologists over more than a century, and open questions remain.\n\nThis guide moves from south to north, just like the Avenue. Some stops show you what is in plain view. Others work like X-rays: they tell you what lies hidden beneath your feet, such as tunnels and sealed offerings."
+    },
+    "retos_observacion": {
+      "hash": "07d3ef9630cfe51e",
+      "texto": [
+        "Locate to the north the silhouette of Cerro Gordo, the mountain that gave rise to the layout of the city",
+        "Identify on any nearby structure the slope (wall angled at the bottom) and the panel (rectangular frame at the top)",
+        "Look along the Avenue of the Dead to take in the scale of its straight line"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4664b3e8bd377e7c",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (1-650 AD)",
+        "Area": "about 20 km²",
+        "Altitude": "about 2,300 m above sea level",
+        "Avenue of the Dead": "more than 5 km long and 40 to 50 m wide",
+        "Estimated population": "80,000 to 200,000 inhabitants",
+        "Origin": "Teotihuacán Valley, State of Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "08e264f25c0c4394",
+      "texto": {
+        "pregunta": "Myth: The Avenue of the Dead was a cemetery of kings.",
+        "respuesta": "Reality: The Mexica gave it that name because of a mistaken belief. The buildings that flank it were temples and elite residences."
+      }
+    }
+  }
+}

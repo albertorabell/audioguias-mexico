@@ -1,0 +1,55 @@
+{
+  "id": "teo_24_tepantitla",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b931ba0b00e1d3bf",
+      "texto": "Tepantitla: the Mural of the Tlalocan"
+    },
+    "frase_gancho": {
+      "hash": "d2fe5ad51792ea29",
+      "texto": "A paradise of water where people swim and play ball, and among the flowers there is also sacrifice."
+    },
+    "puente_narrativo": {
+      "hash": "31bb785d24f573ae",
+      "texto": "A short distance to the northeast, near the course of the San Juan River, lay the neighborhood where foreign merchants built round houses."
+    },
+    "guion_corto": {
+      "hash": "fbba2aa5840a452f",
+      "texto": "In the eastern sector of the city lies Tepantitla, an elite residence. Walk in as far as Portico Two of the main patio and stand in front of the protected wall: you are facing the most famous and most debated mural in Teotihuacán. Above, a frontal figure dominates, wearing a bird headdress, with water flowing from its hands, and over it grows a tree full of butterflies. Below, a mountain gives rise to springs and rivers where many tiny human figures swim, dive, and play ball."
+    },
+    "guion_largo": {
+      "hash": "247627a984798287",
+      "texto": "In nineteen forty-two, the archaeologist Alfonso Caso called this mural the Tlalocan: the paradise of the rain god, where, according to sixteenth-century sources, those who died by drowning or by lightning would go. Most authors accepted that reading for decades. Caso also identified the figure above as Tláloc.\n\nLook at the scene below calmly. A sacred mountain gives rise to springs and streams that flow into a pool with fish, aquatic plants, and an animal resembling a frog. Some people swim, others dive, and one rescues someone who is drowning. Butterflies appear among them everywhere.\n\nAbove, the great frontal figure is also debated. Today many call her the Great Goddess, but that is a proposal and not a fact. Peter Furst suggested in nineteen seventy-four that it was a female deity, and Esther Pasztory linked her with vegetation and fertility. Karl Taube called her the Spider Woman. Other scholars believe it could be a ruler, or a figure of mixed gender.\n\nAnd there is more. The researcher María Teresa Uriarte proposed that the central theme of the mural is the ballgame. There are matches between players with painted bodies who fight over the ball with sticks, between two portable markers. If you look closely, a severed head also appears next to the players, along with a figure who sings a hymn of death.\n\nFor the researcher Nadia Giral, human sacrifices are repeated throughout the mural. She says that the beheadings, the ritual game, and the sacrifices do not fit a paradise that is only happy. A decorative band frames the scene with faces of Tláloc and vessels bearing the year symbol and the water lily flower: water surrounds everything. Which of these readings is the correct one, no one knows yet."
+    },
+    "retos_observacion": {
+      "hash": "a38b6d96dcecd5cb",
+      "texto": [
+        "Find the Great Goddess, shown frontally, in the upper part of the mural, along with the tree of braided branches that springs from above her headdress",
+        "Look in the lower register for the small figures with wooden sticks beside the marker post of the ballgame",
+        "Find the scrolls full of flowers and butterflies that come out of the figures’ mouths as a symbol of song"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ccbd065cbed30ef1",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Late Classic (around 400-550 AD)",
+        "Technique": "Fresco painting on lime plaster",
+        "Location": "Portico 2 of Tepantitla, 500 m east of the Pyramid of the Sun",
+        "Key studies": "Alfonso Caso (1942), Esther Pasztory and María Teresa Uriarte (UNAM)"
+      }
+    },
+    "faq_mito": {
+      "hash": "0564d0c2198476ee",
+      "texto": {
+        "pregunta": "Myth: The Tepantitla mural depicts only a peaceful paradise of eternal rest.",
+        "respuesta": "Reality: Although Alfonso Caso called it the Tlalocan, modern iconographic studies have identified in it agricultural rituals, variants of the ballgame played with a stick, and scenes of human sacrifice."
+      }
+    }
+  }
+}

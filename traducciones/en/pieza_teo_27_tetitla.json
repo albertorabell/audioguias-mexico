@@ -1,0 +1,55 @@
+{
+  "id": "teo_27_tetitla",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b3ba7fd7b44ff8a8",
+      "texto": "Tetitla: The Jaguar-Man and the Hands of Jade"
+    },
+    "frase_gancho": {
+      "hash": "e9ef71502f9125c2",
+      "texto": "The house of painted walls: jaguars, red eagles, jade goddesses, and perhaps shell traders."
+    },
+    "puente_narrativo": {
+      "hash": "6075601965b56790",
+      "texto": "Follow the path a few more minutes west to the Atetelco compound. There we will move from a wealthy family’s home to the sanctuary of the warrior orders."
+    },
+    "guion_corto": {
+      "hash": "e44af23c6f82eb3d",
+      "texto": "You are now in Tetitla, one of the largest residential compounds in Teotihuacán. Some thirty-eight murals are known here, most of them still in the place where they were painted. Walk along its porticoes and look for the orange felines, the red eagles with their wings spread, the seashells, and the paintings that specialists call Jade Goddesses. Archaeologists distinguish five construction stages here, and the paintings are not all from the same period."
+    },
+    "guion_largo": {
+      "hash": "5b139d6603341a58",
+      "texto": "Stop first at the porticoes of the eagles. Portico Twenty-Five is known as the Portico of the Red Eagles, and its band of feathers was originally an intense black that has now been lost. Nearby, Portico Thirteen shows orange felines, and Portico Eleven, the Jade Goddesses. In other rooms, a figure dressed as a jaguar walks toward a temple, and there are seashells, birds, and figures that seem to dive.\n\nThese walls have a history. The house began to be built between the years two hundred and three hundred of our era, and it kept growing until the last centuries of the city. Archaeologists distinguish five construction stages. The paintings you see are not all from the same period. Some proposals place them within a span of two and a half centuries, and it is still debated when each one was painted.\n\nThe murals have been through a lot. In the forties, a private owner removed paintings before the INAH expropriated the land in nineteen forty-four. A fragment of the kneeling jaguar is today at Dumbarton Oaks, in the United States. Afterward the murals were exposed to the elements for some sixty years, and today conservation work remains pending.\n\nWho lived here? It is one of the open questions. Séjourné thought it was a religious center, because there was little household pottery. Jorge Angulo proposed that it was a residence, a palace, or even a center of government. Other researchers maintain that its inhabitants were merchants specialized in bringing seashells from the Maya area. That idea rests on the shell and diver motifs in the murals, on the pottery, and on the offerings. It is a hypothesis, not a proven fact.\n\nAnd one last thing. In one of the excavations, in two thousand eight, fragments of mural painting turned up beneath a cement floor. It is a sign that there is still painting buried in this house."
+    },
+    "retos_observacion": {
+      "hash": "5bd19734d8c00c16",
+      "texto": [
+        "Walk along the porticoes until you find the felines or jaguar-men in profile, with one knee on the ground in front of a temple",
+        "Look for the mural of the green deity with open arms, from whose hands cascades of jade beads and shells fall",
+        "On other walls, spot the eagles painted head-on with their wings spread and the borders with Venus stars"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a59cbe2db86c4055",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (murals visible around 400-550 AD; 5 overlapping construction stages)",
+        "Dimensions": "Square block of about 70 x 70 m (4,900 m²)",
+        "Murals on site": "Kneeling jaguar-man, Goddess with jade hands, royal eagles, shell-gathering divers, and Venus glyphs",
+        "Location": "Southwest Circuit, next to Zacuala"
+      }
+    },
+    "faq_mito": {
+      "hash": "f5c14317a35a64eb",
+      "texto": {
+        "pregunta": "Myth: Only the great pyramids of the Avenue of the Dead had artistic decoration.",
+        "respuesta": "Reality: Neighborhood residential compounds like Tetitla preserve more than a hundred original murals painted in fresco in their courtyards, corridors, and private rooms."
+      }
+    }
+  }
+}

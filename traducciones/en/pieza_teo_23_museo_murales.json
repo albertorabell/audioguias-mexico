@@ -1,0 +1,54 @@
+{
+  "id": "teo_23_museo_murales",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1b5c94a616703b3a",
+      "texto": "Teotihuacán Murals Museum “Beatriz de la Fuente”"
+    },
+    "frase_gancho": {
+      "hash": "cd3ebc0198c81564",
+      "texto": "Here you see the colors of a city that looks gray today."
+    },
+    "puente_narrativo": {
+      "hash": "f80a6ed26fc1b057",
+      "texto": "As you leave the museum, follow the outer circuit eastward, behind the Pyramid of the Sun: we will enter Tepantitla to see the city’s most famous mural on its original wall."
+    },
+    "guion_corto": {
+      "hash": "287ef1300d3bd8e8",
+      "texto": "You are entering the Teotihuacán Murals Museum, named after the researcher Beatriz de la Fuente. Outside you see stone and earth. Here you can imagine a city painted in color. The murals showed gods, animals, plants, and processions. In a city without long writing like that of the Maya, images were a way of telling the story of the world. Take your time in each hall."
+    },
+    "guion_largo": {
+      "hash": "101efe05804b3b0f",
+      "texto": "The Teotihuacán Murals Museum is named after Beatriz de la Fuente, the researcher who coordinated the study of pre-Hispanic mural painting. Her work on Teotihuacán, published in nineteen ninety-five, is a reference for those who study these paintings. Here are kept fragments of murals that came from compounds of the city. They help us imagine how Teotihuacán looked when its walls were painted. To make a mural, the wall was covered with a layer of lime plaster. Then it was smoothed and painted with mineral colors. As you walk through the halls, look for the figures you have already seen along the way: felines with a net, birds, maguey plants, processions of coyotes and jaguars. If you find them, remember where you were when we saw them. You do not need to remember every symbol. It is enough to notice the variety. There were scenes of gods, of animals, and of people, and each one had its place in a building. A city without long texts on stelae, like the Maya, used images to convey ideas. That is why these murals are so valuable for those who want to understand Teotihuacán."
+    },
+    "retos_observacion": {
+      "hash": "7a0bedad740f3aaa",
+      "texto": [
+        "Look for the stone burnishers or trowels that artisans used to polish the fresh plaster",
+        "Find the original panels from the Sun Compound where the body of the butterflies is a human hand holding jade",
+        "Spot the speech scrolls—those curls that spring from in front of the priests’ mouths—filled with flowers and drops"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f26159bfe02585df",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Function": "Museum specializing in pre-Hispanic mural painting (opened in 2001)",
+        "Location": "North exterior, next to Gate 3",
+        "Exhibition": "9 themed halls with original murals from the Sun Compound, Techinantitla, Tetitla, Atetelco, and La Ventilla"
+      }
+    },
+    "faq_mito": {
+      "hash": "1f6237ddd7a9f9cc",
+      "texto": {
+        "pregunta": "Myth: The pyramids and temples of Teotihuacán originally looked like bare gray stone and red tezontle.",
+        "respuesta": "Reality: All of the city’s architecture was covered in white plaster and painted in intense mineral colors, chiefly hematite red."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "teo_10_mural_puma",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "28930d61b92dac2a",
+      "texto": "The Puma Mural"
+    },
+    "frase_gancho": {
+      "hash": "3b9348d32913ae8f",
+      "texto": "A painted feline prowls along a wall, reminding us that the city was once full of color."
+    },
+    "puente_narrativo": {
+      "hash": "2b85ae60672df204",
+      "texto": "Walk a few meters farther north: the avenue suddenly opens before the city’s most colossal artificial mountain, the Pyramid of the Sun."
+    },
+    "guion_corto": {
+      "hash": "a3c94e50012e925d",
+      "texto": "In front of you is the Puma Mural. It is a painting that survives where it was made, beside the Calzada. It shows a feline in profile, framed by bands of color. Today you see the ruins in shades of gray, but the city was once covered in stucco and painted. Felines appear in other murals of Teotihuacán. That is why they are thought to have been important symbols. Come closer and take your time looking at the strokes of the lines."
+    },
+    "guion_largo": {
+      "hash": "0ef96b43f39e9990",
+      "texto": "This painting is called the Puma Mural. It stands in its original place, beside the Calzada, protected by a roof. It shows a feline in profile, with its claws extended, and a frame of colored bands. Take a moment to imagine the whole Calzada. Today we see the ruins in the tones of stone, but the buildings were once covered in stucco and decorated with paintings. Felines appear again and again in the murals of Teotihuacán. There are net-patterned jaguars and processions of coyotes and jaguars, like those at Atetelco. That is why they are thought to have been very important figures. Some link them with power and with warrior orders. This is an interpretation, and there is no agreement. Look at the frame. The bands around the animal seem to represent currents of water, but that reading is also a hypothesis. What you can certainly see is the hand of the painter. Murals were made with patience, layer by layer. Look at the outline of the feline, its lines, its colors. Whoever painted it knew very well what they were doing, and knew the rules by which paintings were made in their city."
+    },
+    "retos_observacion": {
+      "hash": "0c86d7a75568ba87",
+      "texto": [
+        "Within the panel, find the complete silhouette of the feline in profile: its four clawed paws, its long curved tail, and its slightly open jaws",
+        "Observe the wavy red and blue bands that frame the animal above and below",
+        "Notice the thickness of the white layer of lime stucco on which the artists applied the pigments fifteen hundred years ago"
+      ]
+    },
+    "especificaciones": {
+      "hash": "13b2cd37b5718298",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (around 400-550 AD)",
+        "Technique": "Fresco mural painting on lime stucco with mineral pigments (hematite, ochre, and blue)",
+        "Mural dimensions": "more than 2 m long",
+        "Location": "East side of the Calzada de los Muertos, just south of the Plaza del Sol"
+      }
+    },
+    "faq_mito": {
+      "hash": "4eafc417259c98cf",
+      "texto": {
+        "pregunta": "Myth: The Puma Mural is a modern copy placed here for tourists.",
+        "respuesta": "Reality: It is an original Teotihuacán mural preserved in situ; the roof was added to protect its pigments from rain and sun."
+      }
+    }
+  }
+}

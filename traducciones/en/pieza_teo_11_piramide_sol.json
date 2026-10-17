@@ -1,0 +1,56 @@
+{
+  "id": "teo_11_piramide_sol",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1f1088c7704a4433",
+      "texto": "Pyramid of the Sun"
+    },
+    "frase_gancho": {
+      "hash": "6284057064e1b14c",
+      "texto": "A mountain made by hand: more than a million cubic meters of earth raised in a single stage."
+    },
+    "puente_narrativo": {
+      "hash": "bac60da5ed83a96c",
+      "texto": "If you are following the full route, stay in front of the central staircase to peer with X-rays into the cave hidden beneath the pyramid; if you are on the express route, walk around the monument to its right side to enter the Site Museum."
+    },
+    "guion_corto": {
+      "hash": "5281c4611baae3cf",
+      "texto": "Stand in the center of this plaza and look up at the colossus that dominates the whole valley. You are facing the Pyramid of the Sun: it stands sixty-six meters tall and measures two hundred twenty-four meters on each side. Unlike other Mesoamerican temples that grew little by little, adding layers over centuries, this artificial mountain of more than a million cubic meters was raised in one single great building stage between the first and second centuries. The name Pyramid of the Sun was given to it by the Mexica; for those who built it, it was a sacred mountain. With the sun and the altitude of this valley, drink a little water before moving on."
+    },
+    "guion_largo": {
+      "hash": "fac8040029e6bf7f",
+      "texto": "The most surprising thing about this giant is what it holds inside. It contains no great carved blocks. Its builders filled it with earth, hardpan and sand, until reaching a volume of a little over a million cubic meters, and they raised it in four tiers. Later, between the years two hundred and three hundred fifty, they added a layer almost six meters thick. It covered the north, east and south facades, and it was made with a different building technique. Why they did it is still unknown. Structural, ideological and political reasons have been proposed.\n\nLook at the structure that juts out at the foot of the staircase, on the side of the Avenue. It is the Attached Platform, made up of three small platforms joined to the west facade. It was built after the pyramid, in at least four stages, and it was decorated with heavy sculptures of felines, feathered serpents and fantastic beings, as well as mural painting. By comparison with the murals of Atetelco and Tetitla, it is thought that they showed felines in procession.\n\nThe builders also hid offerings inside the building, along an east-to-west axis, close to the natural rock. There, archaeologists found obsidian points, vessels with the face of Tláloc, seashells, slate disks, a green stone mask, and the remains of an eagle, snakes, pumas, wolves and a condor. In the fill, a child between four and six years old also appeared, with a head deliberately deformed. Those who study these offerings see them as a way of consecrating the building as a sacred mountain. It would also have been a way of proclaiming the political and religious power of the city.\n\nThis pyramid also marks time. Its facade faces the point where the Sun sets in late April and mid-August. Between the August sunset and the following April one, two hundred sixty days go by, the count of the ritual calendar. The sunrise along that same orientation, in mid-February and late October, is also separated by two hundred sixty days.\n\nArchaeologists have also made their way through the inside of this pyramid. Between nineteen seventeen and nineteen eighteen, Manuel Gamio opened a tunnel ninety-seven meters long toward the center. In nineteen thirty-three, another one of one hundred sixteen meters was opened. This made it possible to understand how it was put together.\n\nWhat you see today is not exactly what the Teotihuacán people saw. Between nineteen oh five and nineteen oh seven, Leopoldo Batres excavated it, consolidated it and partly rebuilt it, for the celebrations of the Centennial of Independence. Since nineteen ten, it has been part of the first archaeological zone open to the public in Mexico. And beneath its foundations lies a cave that was discovered by chance in nineteen seventy-one, which we will talk about if you follow the full route.\n\nIt is sunny, and you are more than two thousand meters above sea level. Drink water before moving on."
+    },
+    "retos_observacion": {
+      "hash": "2c1cb40ee102f8af",
+      "texto": [
+        "Count the stepped tiers of the pyramid and pick out the narrower fourth level left by the reconstruction of a century ago",
+        "Find, in front of the main staircase, the Attached Platform, where the New Fire was kindled",
+        "Look from the center of the plaza toward the summit to imagine the sunset on April 29 and August 13"
+      ]
+    },
+    "especificaciones": {
+      "hash": "705a46c21e2c6b08",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Early Classic (1st and 2nd centuries AD)",
+        "Dimensions": "66 m high x 224 m per side",
+        "Volume": "more than 1,175,000 m³",
+        "Construction technique": "Core of earth, hardpan and adobe compartments with a facing of volcanic stone and stucco",
+        "Origin": "East side of the Avenue of the Dead"
+      }
+    },
+    "faq_mito": {
+      "hash": "4d3cc7eae7570084",
+      "texto": {
+        "pregunta": "Myth: The Pyramid of the Sun is built with enormous solid blocks of stone like the pyramids of Egypt.",
+        "respuesta": "Reality: Its interior is a gigantic compacted fill of earth, sand and crushed hardpan held in place by adobe walls, covered on the outside with stone and stucco painted red."
+      }
+    }
+  }
+}

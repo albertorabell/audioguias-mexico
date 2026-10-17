@@ -1,0 +1,55 @@
+{
+  "id": "teo_29_ventilla",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ebb30a8e0178f2c4",
+      "texto": "La Ventilla: The Neighborhood of Artisans and the Marker"
+    },
+    "frase_gancho": {
+      "hash": "9daa21ed9653414c",
+      "texto": "A courtyard with forty-two glyphs painted on the floor."
+    },
+    "puente_narrativo": {
+      "hash": "c3b630ac2311b5a2",
+      "texto": "Before we close our tour of the neighborhoods, let’s look toward the western side of the valley, where a community that came from Oaxaca lived for four centuries without forgetting its language or its tombs."
+    },
+    "guion_corto": {
+      "hash": "8911da31c37a03e2",
+      "texto": "You are in La Ventilla, a neighborhood southwest of the city center. Here is the Glyph Complex. Its courtyard has thirty-six signs painted on the floor and six more on nearby walls. Artisans lived close by. The La Ventilla Marker, which you will see in the museum, also comes from here. A neighborhood like this shows that the city was very well organized, with areas for living, working and gathering."
+    },
+    "guion_largo": {
+      "hash": "f7b21c563d255891",
+      "texto": "La Ventilla lies southwest of the civic center. Its large-scale excavations began in nineteen ninety-two. The Glyph Complex measures about sixty by seventy meters. Its courtyard has thirty-six glyphs painted on the floor and another six on adjoining walls, forty-two in all. One author dates them between the years three hundred fifty and four hundred fifty, and recognizes sixteen as possible place names. This is one author’s reading, not a general agreement. Nearby there is a public plaza shaped like a T, more than a hectare and a half in size. It has been proposed that it was used for the ballgame, but this is not certain. There is also the Artisans’ Complex, where each family had between three and six rooms. The first buildings in the neighborhood date from the year one hundred of our era. They already followed the orientation of the city, thirteen degrees east of north. Beneath the glyph courtyard, the oldest known theater-type brazier came to light. And the La Ventilla Marker comes from here, found in nineteen sixty-two. A neighborhood like this lets us imagine the city as ordinary people lived it: orderly streets, neighbors with trades, and places to come together."
+    },
+    "retos_observacion": {
+      "hash": "05b6c93098a3e079",
+      "texto": [
+        "As you cross back toward the parking area at Gates 1 and 2, locate the southwest plain where the neighborhood of La Ventilla was excavated",
+        "On the photo on your screen, observe the La Ventilla Marker, made of assembled pieces, which connects with the mural you saw at Tepantitla",
+        "Look at the cross-shaped design of the patolli boards engraved on the stucco floors of the neighborhood"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a27b31f8415f5d8c",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (around 200-550 AD)",
+        "Nature of the site": "Multifunctional neighborhood of lapidary artisans, neighborhood temples and the Glyph Complex",
+        "Key finds": "Ballgame Marker in andesite (1962-1963, now in the MNA), Plaza of the Glyphs and 174 burials in La Ventilla B",
+        "Location": "600 m southwest of the Ciudadela"
+      }
+    },
+    "faq_mito": {
+      "hash": "988c6baf860afdd4",
+      "texto": {
+        "pregunta": "Myth: The ballgame was not played in Teotihuacán because there are no masonry courts.",
+        "respuesta": "Reality: The discovery of the La Ventilla disassemblable marker and the murals of Tepantitla showed that the game was played in open plazas using portable posts and sticks."
+      }
+    }
+  }
+}

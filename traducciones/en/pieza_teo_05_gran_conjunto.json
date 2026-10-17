@@ -1,0 +1,56 @@
+{
+  "id": "teo_05_gran_conjunto",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3615a13ce81972b4",
+      "texto": "The Great Compound: The City’s Marketplace"
+    },
+    "frase_gancho": {
+      "hash": "b8064a9fc661ddc0",
+      "texto": "A huge plaza facing the closed sanctuary: was it the city’s marketplace or the State’s warehouse?"
+    },
+    "puente_narrativo": {
+      "hash": "5d0fa31c22875808",
+      "texto": "Take the Avenue of the Dead northward and stop as you cross the bridge over the tree-lined channel: that river was bent by hand to obey the city’s plan."
+    },
+    "guion_corto": {
+      "hash": "19bbf18ac902fc29",
+      "texto": "As you leave the Ciudadela toward the Avenue of the Dead, look to the west, toward Gate One. All of that vast esplanade now occupied by the entrance gardens, the ticket booths, and the side platforms was once the Great Compound. Notice the contrast: while the Ciudadela you have just left behind is a sunken, enclosed courtyard, this compound is the largest plaza in the city, and it stands right across from it, on the other side of the Avenue. The archaeologist René Millon, author of the great map of Teotihuacán, proposed that the city’s central market may have been here."
+    },
+    "guion_largo": {
+      "hash": "9f38eb6d56d98f9e",
+      "texto": "There is an open debate about this place, and it is worth knowing about. René Millon proposed that the central market of Teotihuacán operated in this plaza. The reasoning is logical: it is the largest plaza in the city, and it stands across from the Ciudadela, on the other side of the Avenue. Millon also interpreted some figures in the murals as merchants.\n\nBut the archaeologist Linda Manzanilla, of the UNAM, sees something else. She presents evidence that the Great Compound was rather a center for the redistribution of goods made by artisans. She also points out that no clear proof of a market has ever been found in the city. The very same images in the murals, she says, would represent priests and not merchants. Neither reading has been settled.\n\nWhat we do know is what moved through this city. It is estimated that around one hundred thousand people lived here, in some two thousand apartment compounds. Obsidian from Pachuca left here for Monte Albán and Tikal. Golden mica arrived from Oaxaca, jade from Guatemala, and shells from the coasts of the Gulf and the Caribbean. And everything traveled on the shoulders of porters, because in Mesoamerica there were no draft animals or wheeled carts.\n\nWhether it was a market or a redistribution center, this place served a function that no temple served: the economic life of the city passed through here. Across the Avenue, the Ciudadela was an enclosure with a single public entrance and an enormous ritual weight. One possible reading is that the city displayed two faces of power facing each other: sacred power, closed and ceremonial, and the power of goods and labor.\n\nYou are standing in one of the most important areas of Millon’s map. From this point it is considered the center of the city, and from here the four quadrants are organized."
+    },
+    "retos_observacion": {
+      "hash": "5dafcce088a355b7",
+      "texto": [
+        "From the Avenue, compare the two great plazas facing each other: the Ciudadela (sunken and closed to the east) and the Great Compound (open to the west)",
+        "Observe the elongated platforms and the foundations of rooms that line the esplanade",
+        "Imagine the crossing of the great avenues that divided the city here into four quadrants"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6cc9bd28d0da327c",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (around 150-600 AD)",
+        "Surface area": "more than 14 hectares",
+        "Structure": "Open esplanade framed by two U-shaped platforms and circular storehouses",
+        "Main hypothesis": "Central market and administrative seat (René Millon)",
+        "Origin": "Across from the Ciudadela, west side of the Avenue of the Dead"
+      }
+    },
+    "faq_mito": {
+      "hash": "1a5f0eef095c0fea",
+      "texto": {
+        "pregunta": "Myth: Teotihuacán was only a ceremonial center inhabited by priests.",
+        "respuesta": "Reality: It was a commercial and manufacturing metropolis; the Great Compound concentrated the exchange of goods from all over Mesoamerica."
+      }
+    }
+  }
+}

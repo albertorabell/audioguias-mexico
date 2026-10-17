@@ -1,0 +1,55 @@
+{
+  "id": "teo_04_palacios_ciudadela",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a89b8d317f24072b",
+      "texto": "North and South Palaces of the Ciudadela"
+    },
+    "frase_gancho": {
+      "hash": "8c054af18224bd4e",
+      "texto": "Two large complexes of courtyards on either side of a temple, and everything suggests that very important people lived there."
+    },
+    "puente_narrativo": {
+      "hash": "7fe3825e8210b2a9",
+      "texto": "Head back toward the entrance of the Ciudadela and look at the immense open esplanade across the avenue: we will go from the enclosed palace to the great market of the metropolis."
+    },
+    "guion_corto": {
+      "hash": "8ec98c97cb26e3e9",
+      "texto": "Look at both sides of the Temple of the Feathered Serpent. There you will see large complexes of courtyards and rooms, like apartments, which are thought to be elite residences. The Ciudadela is an enormous square with fifteen small pyramids and a central plaza. Imagine the most powerful people living next to the most sacred temple. It is likely that the fire of the sixth century also damaged them."
+    },
+    "guion_largo": {
+      "hash": "73b11ce4c65f8246",
+      "texto": "The Ciudadela is a large square esplanade surrounded by small pyramids, fifteen in all. At the center stands the Temple of the Feathered Serpent. On each side of that temple stretch dense complexes of rooms and courtyards, similar to apartments. Specialists think they were elite residences. This is a deduction, since it is not known for certain who lived there. Notice the location. Not even the largest palace is far from the temple. Whoever lived here had the most important place of worship right beside them. The excavations of Manuel Gamio, between nineteen seventeen and nineteen twenty-two, brought this part of the Ciudadela to light. Later, other archaeologists continued exploring it. The Ciudadela was also close to the Avenue and to the great open space of the Great Compound. For this reason it is thought to have been a central point of political and religious life. It is likely that the fire of the mid-sixth century also damaged these buildings, as it did many of the elite, but that has not been proven here. If you look calmly, you can imagine what it would have been like to live right beside the feathered serpent."
+    },
+    "retos_observacion": {
+      "hash": "243b8866db9a4ccd",
+      "texto": [
+        "Locate the two raised platforms to the left (North) and to the right (South) of the Temple of the Feathered Serpent",
+        "If the side passage is open, climb the steps on the north flank to see the foundations of the courtyards and rooms",
+        "Notice the difference in height from which the rulers watched over the sunken courtyard"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fbc2876aec8805d5",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (around 200-550 AD)",
+        "Estimated capacity": "about 50 people per palace",
+        "Excavation": "Ana María Jarquín and Enrique Martínez Vargas (INAH)",
+        "Origin": "The Ciudadela, north and south flanks of the Temple of the Feathered Serpent"
+      }
+    },
+    "faq_mito": {
+      "hash": "f091f166a3af1ee4",
+      "texto": {
+        "pregunta": "Myth: The palaces of the Ciudadela were family residences with large kitchens and storerooms.",
+        "respuesta": "Reality: Almost no cooking utensils were found; they functioned as ceremonial and administrative compounds where the elite received food that was already prepared."
+      }
+    }
+  }
+}

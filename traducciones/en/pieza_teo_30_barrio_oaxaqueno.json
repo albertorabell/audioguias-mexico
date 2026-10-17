@@ -1,0 +1,54 @@
+{
+  "id": "teo_30_barrio_oaxaqueno",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c7a58af6538aea1b",
+      "texto": "Tlailotlacan: the Oaxacan Quarter"
+    },
+    "frase_gancho": {
+      "hash": "beacdc551ea9314d",
+      "texto": "Three kilometers from the Avenue of the Dead lived people who had come from Oaxaca."
+    },
+    "puente_narrativo": {
+      "hash": "9aba4448ad35f030",
+      "texto": "With the full map of the city in your mind, find a patch of shade or walk toward the exit to hear the two final chapters: how Teotihuacán burned and how its legend was born."
+    },
+    "guion_corto": {
+      "hash": "b8cffbc20b969929",
+      "texto": "This neighborhood is called Tlailotlacan, and it lies about three kilometers west of the Avenue, on the slopes of Cerro Colorado Chico. People lived here who kept the customs of Oaxaca, especially those of the Zapotec. There are tombs built with stones, like the ones back there, and vessels in Zapotec style. But the neighbors also used objects from Teotihuacán. Archaeologists see it as a neighborhood of people who arrived from far away and stayed. It was a city where different peoples lived side by side, each with its own corner."
+    },
+    "guion_largo": {
+      "hash": "1cd6259928e00bd0",
+      "texto": "Tlailotlacan is the name given today to this neighborhood. It has between ten and fifteen residential compounds, on the slopes of Cerro Colorado Chico, west of the city. The first to excavate it were Paddock and Rattray, in nineteen sixty-six and sixty-seven. Later, Millon and Vidarte found a tomb with a Zapotec glyph that reads nine movement. There was a vessel in Monte Albán style, deliberately broken around the year six hundred of our era. Between nineteen eighty-seven and eighty-nine, Michael Spence excavated the compound called TL six. He found a plaza with an altar at the center, three platforms and two tombs. Between two thousand eight and two thousand fourteen, an INAH project led by Verónica Ortega Cabrera worked in several compounds. There is a difference from the rest of the city. Zapotec tombs are chambers lined with stone. Those of Teotihuacán are pits. But Zapotec pottery is barely about three percent, and it was made with local clay. In other words, the people kept their customs, but made their vessels here. Isotope analyses of the bones tell something more. Many people were born in Oaxaca, and some made return trips. Experts debate when the neighborhood began. Millon proposes between the years three hundred and six hundred fifty. Ortega finds older signs, from the year one hundred or two hundred. They also debate what it was. Some speak of an embassy, others of an enclave or a neighborhood of a foreign community. No one knows for certain. Think about what this means. About one thousand five hundred years ago, families from Oaxaca lived in a city that was not their own. They kept some customs, such as burying their dead in stone chambers. They adopted others, such as using local clay and objects from Teotihuacán. It is one possible reading of what the tombs and the vessels show. The glyph nine movement seems to be a date name from the Zapotec calendar, formed by a number and a sign. What is clear is that Teotihuacán welcomed people from other lands."
+    },
+    "retos_observacion": {
+      "hash": "b5508803f233c96f",
+      "texto": [
+        "Turn your gaze toward the west of the valley, where the ancient axis of the West Avenue connected the center with the Zapotec enclave",
+        "Look in the images in your app at the stone doorjamb carved with Zapotec glyphs and the gray clay urns of Cocijo found in this neighborhood",
+        "Reflect on how such a standardized metropolis allowed neighborhoods with another language and other gods to live together in peace for four centuries"
+      ]
+    },
+    "especificaciones": {
+      "hash": "08e8ce7b4ef2a2b5",
+      "texto": {
+        "Culture": "Zapotec (Oaxaca) settled in Teotihuacán",
+        "Period": "Classic (around 200-600 AD)",
+        "Key finds": "Masonry tombs in Monte Albán style with an antechamber and a doorjamb with Zapotec glyphs, urns of Cocijo, and gray pottery made with local clay",
+        "Location": "3 km west of the Ciudadela (San Juan Evangelista neighborhood)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c742a9523c188890",
+      "texto": {
+        "pregunta": "Myth: All the inhabitants of Teotihuacán belonged to the same ethnic group and spoke a single language.",
+        "respuesta": "Reality: Teotihuacán was a multiethnic, cosmopolitan metropolis; entire neighborhoods such as Tlailotlacan kept their Zapotec language, their gods and their Oaxacan tombs for four centuries."
+      }
+    }
+  }
+}

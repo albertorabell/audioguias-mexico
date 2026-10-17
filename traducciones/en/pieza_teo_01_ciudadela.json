@@ -1,0 +1,56 @@
+{
+  "id": "teo_01_ciudadela",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0fbe72e51926396f",
+      "texto": "The Ciudadela and the Great Plaza"
+    },
+    "frase_gancho": {
+      "hash": "67aebe3fa7b44986",
+      "texto": "The Spaniards thought it was a fortress. It was the heart of power."
+    },
+    "puente_narrativo": {
+      "hash": "151433b2866849d4",
+      "texto": "Cross the great esplanade toward the building at the eastern end: behind the gray platform that covers it, the most sacred facade in the city awaits you."
+    },
+    "guion_corto": {
+      "hash": "70a4727ffdb75508",
+      "texto": "Climb up to the entrance platform and look out over this monumental esplanade. When the Spaniards saw this compound enclosed by high walls four hundred meters on each side, they thought it was a military barracks and called it the Ciudadela. In reality, you are standing before the political and ceremonial heart of Teotihuacán. Look toward the sunken courtyard: it is so vast that it could gather an enormous crowd. All around, on the platforms that surround you, fifteen small pyramids rise, and at the far end the Temple of the Feathered Serpent dominates."
+    },
+    "guion_largo": {
+      "hash": "acb29bdf7aac8331",
+      "texto": "The word Ciudadela was invented by the Spaniards, who saw high walls and thought of a fort. But notice how this place is built. It consists of four joined platforms surrounding an immense plaza, and it has only one public entrance, on the west side. That is no use for defending against an army. It serves to control who enters and when. Archaeologists think the compound may have stayed closed most days and opened only for special ceremonies.\n\nAround the plaza stand fifteen small temples, set into the edges of the platforms: four to the west, four to the north, four to the south, and three to the east. And to the east, facing whoever enters, the Temple of the Feathered Serpent dominates. It is the third largest building in the entire city, after the Pyramids of the Sun and the Moon. The whole complex was built between the years one hundred fifty and two hundred fifty of our era. A project like this required a state capable of organizing thousands of workers and of gathering materials from all over the valley.\n\nImagine this courtyard on a festival day. It has been calculated that the plaza could hold tens of thousands of people, although that is an estimate of capacity and not a proven fact. From below, the side platforms enclose you: the landscape of the valley disappears, and all attention turns toward the priests high on the platforms and toward the temple at the far end. It was a stage designed so that anyone would feel the weight of the state and of the cosmos.\n\nSome researchers propose that the plaza was at times flooded ritually, like a mirror of water surrounded by temples. The water marks found in the tunnel that runs beneath the compound suggest this. It is a hypothesis, but it fits with the importance of water throughout the city.\n\nBeneath these platforms there are also older constructions. Before raising the Ciudadela, the builders leveled an earlier structure that resembles a ball court. Teotihuacán remade itself more than once, and here you can see it: each platform hides earlier phases that are still being studied.\n\nAround the year three hundred fifty, a profound change took place. The facade of the Temple of the Feathered Serpent was hidden behind a large platform, the Adosada Platform, which you will climb at the next stop. Some scholars read this as a change in the government of the city. Others think it was a ritual burial carried out with respect. Much later, at a date we do not know, someone damaged the sculptures on the sides that remained exposed.\n\nYou are more than two thousand meters above sea level and almost always without shade. Before leaving toward the Avenue of the Dead, take a few sips of water."
+    },
+    "retos_observacion": {
+      "hash": "3d8ce3cf397b5af5",
+      "texto": [
+        "Sweep your gaze around the courtyard and count the small pyramids on the platforms: there are fifteen in total",
+        "Locate the square altar in the center of the esplanade with its four stairways",
+        "Look east, to the far end of the courtyard, where the main building with two facades rises"
+      ]
+    },
+    "especificaciones": {
+      "hash": "caaffef9ee616a0a",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Early Classic (around 150-250 AD)",
+        "Dimensions": "about 400 m per side",
+        "Platforms": "15 smaller pyramids on 4 platforms",
+        "Function": "seat of political and religious power",
+        "Origin": "Teotihuacán, State of Mexico (southern end of the Avenue of the Dead)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c5bd19317f163227",
+      "texto": {
+        "pregunta": "Myth: The Ciudadela was a military fortress.",
+        "respuesta": "Reality: The Spaniards gave it that name by mistake. It was the political and ceremonial center of the city, with palaces, a main temple, and a great courtyard for crowds."
+      }
+    }
+  }
+}

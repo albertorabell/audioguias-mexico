@@ -1,0 +1,56 @@
+{
+  "id": "teo_25_mercaderes",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "edf9025557a15291",
+      "texto": "Merchants’ Quarter: the Round Houses"
+    },
+    "frase_gancho": {
+      "hash": "250cea649c48b854",
+      "texto": "Round adobe houses, with vessels from the coast and from Maya lands."
+    },
+    "puente_narrativo": {
+      "hash": "dd81bd60ef1139bc",
+      "texto": "From the east we move to the western and southwestern circuit, near Gates One and Two, to enter the houses where Teotihuacán families lived and admire the murals of Tetitla and Atetelco."
+    },
+    "guion_corto": {
+      "hash": "f2f7c05f85ca8066",
+      "texto": "This is the so-called Merchants’ Quarter, in the east of the city. Its structures were circular and made of adobe, unlike the rectangular houses of other areas. Objects from the Gulf Coast and from Puebla have been found, along with Maya-style vessels. Bone analyses indicate that many people came from elsewhere. That is why people think of merchants and travelers, although the name is a hypothesis. It was a place where objects and customs from many regions crossed paths."
+    },
+    "guion_largo": {
+      "hash": "85c5f3b45bfe1577",
+      "texto": "The quarter lies on the eastern edge of the city. Its circular adobe structures stand out, unlike the rectangular buildings in the rest of Teotihuacán. The ties to the Gulf Coast, in Veracruz, are strong. Objects from Puebla also appeared, along with multicolored Maya vessels. Strontium isotope analyses of the bones show that many people had arrived from other regions. The archaeologist Evelyn Rattray studied the site and published her results in nineteen eighty-eight and nineteen ninety-nine. She also followed the trail of the pottery known as Thin Orange. It came from Ixcaquixtla, in Puebla, according to neutron activation analysis. There were even molds shaped like mushrooms. From this evidence, people came to think of a merchants’ quarter. But we must be cautious. Objects travel for many reasons, and we do not know for certain what each family did for a living. The same routes that brought vessels and materials may also have brought ideas and people. That is one possibility, since objects alone do not tell the whole story. What is certain is that Teotihuacán had neighbors from many places."
+    },
+    "retos_observacion": {
+      "hash": "412563b4f83e824e",
+      "texto": [
+        "Look toward the eastern part of the valley, toward the channel of the San Juan River, where this trading enclave was settled",
+        "On your screen, compare the circular floor plan with a ramp of these dwellings against the straight walls found throughout the city",
+        "Think about the eight- to ten-day journey on foot to bring bundles of cotton and cacao from the Veracruz coast to this valley"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b22ddb348e40914",
+      "texto": {
+        "Culture": "Teotihuacán, coexisting with groups from the Gulf Coast and the Maya area",
+        "Period": "Classic (around 250-550 AD)",
+        "Arquitectura": "More than 20 circular structures of adobe and rubble masonry (approx. 9 m in diameter)",
+        "Cerámica foránea": "12 to 18% of the total",
+        "Excavación": "Evelyn Rattray",
+        "Location": "Northeastern sector, next to the San Juan River"
+      }
+    },
+    "faq_mito": {
+      "hash": "b40ce5ba8d82745d",
+      "texto": {
+        "pregunta": "Myth: In Teotihuacán it was forbidden to build outside the square design of talud and tablero.",
+        "respuesta": "Reality: In the Merchants’ Quarter, merchants originally from the Gulf Coast built circular dwellings and storehouses following the tradition of their homeland."
+      }
+    }
+  }
+}

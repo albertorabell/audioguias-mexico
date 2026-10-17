@@ -1,0 +1,55 @@
+{
+  "id": "teo_13_conjunto_sol",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "195d3efba3bb58de",
+      "texto": "Sun Complex: The House of the Priests and the Blue Jaguar"
+    },
+    "frase_gancho": {
+      "hash": "515e0bdb9f98bff3",
+      "texto": "A god descending from the sky and a jaguar embracing a plant on the walls of the Palace of the Sun."
+    },
+    "puente_narrativo": {
+      "hash": "899063eebaf7dcca",
+      "texto": "Now walk around the Pyramid of the Sun toward its south side and follow the path that leads to the Teotihuacán Culture Museum. There you will see the entire city at scale, along with the offerings that the pyramids held."
+    },
+    "guion_corto": {
+      "hash": "0aa64feb87aa094f",
+      "texto": "You are standing next to the Sun Complex, also called the Palace of the Sun. Its porticoes and rooms once held many murals. In Patio Three there appears a figure dressed as a macaw, descending from a tree. There is also a jaguar with a net-like body embracing a maguey plant. Some researchers believe these scenes tell of the sun's descent into the world of water. This is an interpretation, not a fact. The murals you see now are known through the studies of other specialists."
+    },
+    "guion_largo": {
+      "hash": "7928ce3c93e0ecec",
+      "texto": "Patio Three of the Palace of the Sun held a series of murals that have been studied extensively. On its west side you can see scenes of the so-called Butterfly Bird God. He appears dressed as a macaw, descending from a supernatural tree and surrounded by water signs. On other walls there is a reticulated jaguar, its body covered as if by a net, embracing a maguey plant. Figures associated with the rain god also appear. At least sixteen murals have been described in this patio. The researcher Paulinyi proposes that the murals tell of the sun's descent into the world of water, during a great festival. Other researchers disagree. Some see the god as a figure similar to Seven Macaw, a character from the Maya world. Others see the central figure as the Great Goddess. She herself presents her reading as a hypothesis. The murals are dated, with some doubt, between the years three hundred fifty and five hundred fifty. What is clear is that the people who lived here surrounded their home with images of water, of felines, and of birds. When you look at the walls, remember that these images were a language that their neighbors knew how to read."
+    },
+    "retos_observacion": {
+      "hash": "dcb2c64786fd677b",
+      "texto": [
+        "Find, on the north side of the esplanade, the three small shrines and the low walls of the Sun Complex",
+        "Notice how the palace had direct, privileged access to the side of the Pyramid of the Sun",
+        "Look at the image on your screen and find the turquoise-blue outline of the jaguar embracing the three branches of the maguey"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78df0899050e0885",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Late Classic (Xolalpan phase, around 450-550 AD)",
+        "Location": "North flank of the Pyramid of the Sun Plaza",
+        "Findings": "More than 30 murals (among them the Blue Jaguar with maguey and butterflies) and an extremely high concentration of ceremonial ceramics",
+        "Current custody of the murals": "Beatriz de la Fuente Mural Museum and MNA"
+      }
+    },
+    "faq_mito": {
+      "hash": "347a861544b49ce9",
+      "texto": {
+        "pregunta": "Myth: All the murals discovered in Teotihuacán are still attached to the open-air walls.",
+        "respuesta": "Reality: Many of the most delicate murals, such as the Blue Jaguar from this palace, were removed by restorers to protect them from the sun and rain and are now in the site’s museums and in Mexico City."
+      }
+    }
+  }
+}

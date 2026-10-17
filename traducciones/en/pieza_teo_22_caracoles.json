@@ -1,0 +1,55 @@
+{
+  "id": "teo_22_caracoles",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a265bb2c77b543e4",
+      "texto": "Temple of the Feathered Conches"
+    },
+    "frase_gancho": {
+      "hash": "bd074d1c17b04a60",
+      "texto": "A temple that was buried beneath a palace, and that is why it keeps its colors."
+    },
+    "puente_narrativo": {
+      "hash": "e6e840586c7dfb93",
+      "texto": "When you finish this underground tour, leave the Moon area through the neighboring Gate Three to enter the Museum of Teotihuacán Murals “Beatriz de la Fuente.”"
+    },
+    "guion_corto": {
+      "hash": "fc1062339933eb9d",
+      "texto": "Beneath the Palace of Quetzalpapálotl lies another, older building, the Temple of the Feathered Conches. It was covered over by the palace, and that protected it. It was rediscovered in the early 1960s by Jorge Acosta. It is dated between the years two hundred and three hundred of our era. Its name comes from the conches with feathers that adorn its pilasters. The good thing about having been buried is that its colors were preserved."
+    },
+    "guion_largo": {
+      "hash": "ba974b21b89e6f29",
+      "texto": "Beneath the Palace of Quetzalpapálotl lies another, older building. It is the Temple of the Feathered Conches. The Teotihuacán did not tear it down, but covered it over. That protected it from time. The archaeologist Jorge Acosta rediscovered it in the 1960s, around nineteen sixty-two. It is dated between the years two hundred and three hundred of our era. Its name comes from the conches with feathers that can be seen on its pilasters. In the Nahuatl language, a conch trumpet is called tecciztli. That word recalls Tecciztécatl, a god from Mexica stories who threw himself into the fire to become the moon. The Mexica told this centuries later, but we no longer know whether the Teotihuacán thought the same way. It is a connection that we make ourselves. According to descriptions of the site, original colors are preserved on the platform. You can see green birds facing each other in pairs, with jets of water flowing from their beaks. That painting survived because the temple was buried. If you go down into the gallery, or peer in from the steps, imagine the people of the third century. They saw this facade with freshly painted colors."
+    },
+    "retos_observacion": {
+      "hash": "c53793287611aaee",
+      "texto": [
+        "Locate, within the route through the complex, the descent to the underground galleries beneath the level of the Palace of Quetzalpapálotl",
+        "Identify on the stone pilasters the carved sea conches with feathers, four-petaled flowers, and trumpet mouthpiece",
+        "Observe the remains of green, blue, red, and yellow paint on the birds that pour jets of water from their beaks"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a86d259bf4d5270a",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Early Classic (around 200-300 AD)",
+        "Elementos destacados": "Pilasters with bas-reliefs of feathered conch trumpets, murals of birds pouring water, and the substructure of the Red Discs",
+        "Exploration": "Jorge R. Acosta (1960-1964)",
+        "Location": "Beneath the Palace of Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "ee93b99b031f61af",
+      "texto": {
+        "pregunta": "Myth: The Temple of the Feathered Conches was originally built as an underground chamber.",
+        "respuesta": "Reality: It was an open-air temple during the 3rd century; it ended up underground centuries later when the Teotihuacán themselves filled it in to build the Palace of Quetzalpapálotl on top."
+      }
+    }
+  }
+}

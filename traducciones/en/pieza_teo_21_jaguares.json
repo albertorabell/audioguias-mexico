@@ -1,0 +1,55 @@
+{
+  "id": "teo_21_jaguares",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc74b535fb871648",
+      "texto": "Palace of the Jaguars"
+    },
+    "frase_gancho": {
+      "hash": "4e1f3c73ddf683f9",
+      "texto": "A jaguar blowing into a conch shell covered in feathers."
+    },
+    "puente_narrativo": {
+      "hash": "9d28eeec92c5a12f",
+      "texto": "In this same complex, a staircase descends beneath the palace floor to the underground temple that the builders buried intact."
+    },
+    "guion_corto": {
+      "hash": "f7de04f9863fe097",
+      "texto": "This is the Patio of the Jaguars, next to the Palace of Quetzalpapálotl. On its walls are paintings of felines with a large conch shell in their mouths, as if they were blowing it. Feathers rise from the shell, and in the frame there is a face that could be Tláloc, god of rain. Other felines have bodies covered as if by a net. What they mean is still debated. Notice how many details there are on a single wall."
+    },
+    "guion_largo": {
+      "hash": "0b37c656ce22f799",
+      "texto": "The porticoes of this patio preserve two paintings. In one, felines with rich adornments walk in procession. They carry in their mouths an instrument made from a large conch shell with feathers. The body is long and dark red, and it wears a headdress of five long feathers. Along the back runs a row of shells. Beneath one paw fall three red drops. The frame has a feathered headdress and a face that could be Tláloc inside a star. In the other painting there are small jaguars with green bodies and a blue net. They have a round eye, a long, curved fang, and a plume of green feathers. Two human hands accompany them. Scholars do not agree on what they mean. Some think the conch shell called people to war. Others link it with rain and water, because of the presence of Tláloc. It has also been proposed that the star is Venus. These are ideas, not certainties. Who lived here is not known either. What you can do is look slowly and see how many details fit on a single wall."
+    },
+    "retos_observacion": {
+      "hash": "0b75af980d348e72",
+      "texto": [
+        "Approach the walls of the patio porticoes and find the reddish jaguar with a green plume holding the sea conch",
+        "In front of the conch, identify the sound scroll and the drops of liquid falling from the trumpet",
+        "Look in the borders and side rooms for the faces of Tláloc inside five-pointed stars and the felines covered with a blue net"
+      ]
+    },
+    "especificaciones": {
+      "hash": "37ed4013cedce97d",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Late Classic (Xolalpan phase, around 450-550 AD)",
+        "Technique": "Fresco mural painting on stucco with hematite, ochre, malachite green and blue",
+        "Key motifs": "Jaguars playing feathered conches, net-patterned felines and stars of Venus with Tláloc",
+        "Location": "Adjacent to the west of the Palace of Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "cdce351d3062d6cc",
+      "texto": {
+        "pregunta": "Myth: Jaguars in Teotihuacán art represented only war and destruction.",
+        "respuesta": "Reality: In Teotihuacán the jaguar was closely linked to caves, night and thunder; that is why here it appears playing a sea conch to invoke rain."
+      }
+    }
+  }
+}

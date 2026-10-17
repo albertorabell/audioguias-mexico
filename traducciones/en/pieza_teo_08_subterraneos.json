@@ -1,0 +1,56 @@
+{
+  "id": "teo_08_subterraneos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7c169ed336585ece",
+      "texto": "Superimposed Buildings, The Underground Passages"
+    },
+    "frase_gancho": {
+      "hash": "b767eec7248bf412",
+      "texto": "In this city, a new building was often built on top of an old one."
+    },
+    "puente_narrativo": {
+      "hash": "e8834ab8d1a331aa",
+      "texto": "A few steps farther along this same stretch of the avenue, the elite residences hid shining sheets of mineral beneath their floors, brought all the way from Oaxaca."
+    },
+    "guion_corto": {
+      "hash": "e23a6cdfb3bd672a",
+      "texto": "You are standing before a place where one building rests on top of an older one. In Teotihuacán, it was common to build over the old. The old structure was filled in and a new one was raised. The Temple of the Feathered Serpent is one example, since around the year three hundred fifty a platform was added in front of its facade. The Palace of Quetzalpapálotl was built over the Temple of the Feathered Conches. In this way, the buildings preserved layers of history. Seeing one of those layers is like opening an old book."
+    },
+    "guion_largo": {
+      "hash": "b65af377ec971848",
+      "texto": "In Teotihuacán, a new construction rarely erased the one before it. Many times the old structure was filled in and a new one was built on top. That left entire buildings kept inside others. In the sector in front of you, called Superimposed Buildings, you can see how one building rests on an older one. Some of the lower galleries are usually closed for conservation, but from the changes in level you can make out the difference. There are other well-known examples. The Temple of the Feathered Serpent was hidden, in part, by a platform added around the year three hundred fifty. This protected its facade with its sculptures. The Palace of Quetzalpapálotl was built on top of the Temple of the Feathered Conches. Thanks to that burial, the older temple was saved. Archaeologists make the most of these layers. Each one tells of a different stage of the city. There is a question that is still debated. Why was a building covered over instead of torn down? Some think that burying a temple was a ritual act. It is a hypothesis. Each new building holds within it the memory of the one before. As you look, imagine how many versions of this place have existed beneath your feet."
+    },
+    "retos_observacion": {
+      "hash": "dd2b7d3a0995afdd",
+      "texto": [
+        "Look into the cuts and changes in level on the west side of the Avenue to see how the upper walls rest on older structures",
+        "Find the stairs and the entrance to the underground galleries excavated in the early 20th century",
+        "On the photos on your screen, observe the red and white interlaced designs in the Veracruz style that are preserved on the lower level"
+      ]
+    },
+    "especificaciones": {
+      "hash": "70607d9b8b40de1b",
+      "texto": {
+        "Culture": "Teotihuacán, with Gulf Coast influence",
+        "Period": "Early Classic (lower stages around 150-250 AD)",
+        "Superposition": "4 to 6 construction levels",
+        "Notable feature": "Platform of the Interlaced Volute",
+        "Initial exploration": "Leopoldo Batres (1909)",
+        "Origin": "West side of the Avenue of the Dead"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0b8c41f1a51f50f",
+      "texto": {
+        "pregunta": "Myth: The Teotihuacán people tore down old buildings when they went out of fashion.",
+        "respuesta": "Reality: They carefully filled them in with stone and earth to use them as foundations, which allowed the lower temples to keep their stucco and paint."
+      }
+    }
+  }
+}

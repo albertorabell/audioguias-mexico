@@ -1,0 +1,57 @@
+{
+  "id": "teo_03_tunel_tlalocan",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "904dc9cb558da2ea",
+      "texto": "The Tlalocan Tunnel Beneath the Ciudadela"
+    },
+    "frase_gancho": {
+      "hash": "4172d403325eb274",
+      "texto": "Beneath your feet, a sealed tunnel held some fifty thousand objects and liquid mercury."
+    },
+    "puente_narrativo": {
+      "hash": "1d48126f4c3139a6",
+      "texto": "Look up at the two tall platforms that flank the temple to the north and south: this is where the most exclusive circle of priests lived."
+    },
+    "guion_corto": {
+      "hash": "b40579be6300bb44",
+      "texto": "Go back down to the esplanade and look at the ground right in front of the staircase of the Adosada Platform. Access to the underground is closed to the public for conservation reasons, but you are standing on top of one of the most important discoveries in recent archaeology. In the year two thousand three, heavy rains opened a hole in this spot. Peering in, the archaeologists Sergio Gómez and Julie Gazola discovered an artificial tunnel, about one hundred meters long, that reaches the point beneath the Temple of the Feathered Serpent."
+    },
+    "guion_largo": {
+      "hash": "e5bda1bf52666d63",
+      "texto": "This tunnel was not abandoned: it was closed on purpose. The people of Teotihuacán filled it in and sealed it about one thousand eight hundred years ago, which is why no looter ever reached the bottom. A source from the INAH even suggests an earlier date, so the exact moment is still under study. The passage has a vaulted ceiling, about two and a half meters high and four wide. In some stretches only twenty-five centimeters remain open. For that reason, in two thousand ten, a four-wheeled robot, Tlaloque Uno, with its own cameras and light, was sent in to see what lay inside.\n\nThe excavations began in two thousand nine. Since then, about nine hundred seventy tons of earth and stone have been removed, with at least twenty-five workers per shift. Near the end, in a space of about four by eight meters, the largest offering appeared: people speak of some fifty thousand objects. There are more than four thousand made of wood, bone, and the fur of big cats. There are more than fifteen thousand seeds, seashells from the Gulf of Mexico and the Caribbean, jade from Guatemala, pyrite disks, and rubber balls. There are also four human figures of green stone, about sixty centimeters tall. These offerings are dated between the years one hundred fifty and two hundred AD.\n\nBehind that offering, three chambers were detected. In one of them, liquid mercury appeared in great quantities, together with pyrite mirrors and metallic spheres. The archaeologist Sergio Gómez proposes that the mercury may have symbolized a river or a lake of the underworld. The project is called Tlalocan, Path beneath the earth, because the tunnel is interpreted as a representation of that underground world.\n\nThe question everyone asks is what lies at the end. Gómez has said he hopes to find a royal tomb. It has not been found yet, and we do not know whether it exists. If it appeared, it would be the first tomb of a ruler in Teotihuacán. It would help answer an enormous question: how this city was governed. In the meantime, every handful of earth that comes out of the tunnel is studied in the laboratory."
+    },
+    "retos_observacion": {
+      "hash": "790d40b876ca633e",
+      "texto": [
+        "Find the plaza floor in front of the staircase of the Adosada Platform: that is where the hole opened in 2003",
+        "Trace a straight line with your eyes from your feet to the center of the Temple of the Feathered Serpent to follow the 103-meter underground route",
+        "Look at the images on your screen of the green stone sculptures and the pyrite spheres found in the final chamber"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f806ac363e297a4b",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Early Classic (sealed around 250 AD)",
+        "Length": "103 m",
+        "Depth": "14 to 18 m",
+        "Finds": "more than 100,000 objects, liquid mercury, pyrite spheres, and 4 green stone sculptures",
+        "Exploration": "Tlalocan Project, directed by Sergio Gómez Chávez (INAH)",
+        "Access": "Closed to the public"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c2fc5f6617246c3",
+      "texto": {
+        "pregunta": "Myth: The tunnel beneath the Ciudadela was a natural cave that collapsed over time.",
+        "respuesta": "Reality: It was dug by hand into volcanic rock by the people of Teotihuacán and deliberately sealed with eighteen stone walls around the year 250 AD."
+      }
+    }
+  }
+}

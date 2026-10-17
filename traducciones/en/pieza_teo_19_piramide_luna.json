@@ -1,0 +1,56 @@
+{
+  "id": "teo_19_piramide_luna",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f374cc1285da90c8",
+      "texto": "Pyramid of the Moon"
+    },
+    "frase_gancho": {
+      "hash": "5856f87de45c4164",
+      "texto": "Seven pyramids, one inside another, and beneath them pumas, eagles, and people buried as offerings."
+    },
+    "puente_narrativo": {
+      "hash": "4e8601e061438f71",
+      "texto": "Now walk toward the left corner of the plaza, southwest of the pyramid: we will go down a few steps to enter the best-preserved palace in Teotihuacán."
+    },
+    "guion_corto": {
+      "hash": "d5713cf44e13509a",
+      "texto": "Stand in front of the staircase of the Pyramid of the Moon and look at its silhouette against the sky. Although it stands forty-three meters tall, about twenty meters less than the Pyramid of the Sun, the two summits are at almost the same altitude because the valley floor is higher here. Notice the sloping talud walls of the building and compare them with the slopes of Cerro Gordo rising behind it: the builders seem to have wanted the pyramid to be an echo of the mountain. And if you look at the cuts in its front façade, you will notice that it is not a single building, but several built one over another."
+    },
+    "guion_largo": {
+      "hash": "36e1aee8b4f70c5a",
+      "texto": "Unlike the Pyramid of the Sun, which was raised in a single great phase, the Pyramid of the Moon grew over centuries, like a living being. Beginning in the late 1990s, the archaeologists Rubén Cabrera and Saburo Sugiyama dug tunnels into its heart. They discovered that inside there are six earlier pyramids, one covering the other, until reaching the seventh, the one you see today. From the fourth building onward, each enlargement was consecrated with burials and offerings. And the enlargements were not small: Building 4 was nine times larger than Building 3.\n\nThe first of these discoveries appeared when Building 4 was under construction, in the first half of the third century. It was a man between forty and fifty years old, seated, with his hands tied behind his back. Analysis of his bones indicates that he spent his childhood far from Teotihuacán. He was accompanied by dozens of animals: two pumas and a wolf in wooden cages, nine golden eagles, a hawk, an owl, and rattlesnakes. There were also greenstone sculptures, obsidian figures, and eight vessels bearing the face of Tláloc. The position of his arms and legs is identical to that of the sacrificial victims beneath the Temple of the Feathered Serpent. They date to more or less the same period, which suggests the same ritual.\n\nAround the year 300, Building 5 was consecrated with four young men, bound, and with the skulls of wolves and pumas. One of them wore a necklace of shell pieces shaped like jaws. Later, when Building 6 was raised, they buried the skulls of some eighteen decapitated people, almost all of them young men, without any offering. Analyses indicate that most were foreigners.\n\nThe most enigmatic tomb marks the closing of Building 5. It held three men between forty and sixty years old, seated with their legs crossed, wearing ear ornaments and pendants of Maya-style jadeite. With them were a golden eagle, pumas, and snakes. Analyses suggest that two of them grew up in the same region. The third came from a different one, perhaps from the Gulf Coast or the Maya lowlands. The jade probably comes from Guatemala. Archaeologists debate whether it was an honorary burial or a sacrifice.\n\nWhat did they mean by all this? A widely held reading proposes that they symbolically fed the sacred mountain with the most valuable things they had: powerful animals, people who came from far away, and green stones brought from great distances. In return, they hoped that water would never be lacking in the valley. It is an interpretation, but it explains why each new layer of the pyramid demanded a more spectacular offering than the one before.\n\nYou still have some way to go. If you have water, take the chance to drink a little before moving on."
+    },
+    "retos_observacion": {
+      "hash": "0a964e669c007ca5",
+      "texto": [
+        "Compare the angle of the pyramid’s sides with the natural slope of Cerro Gordo behind it",
+        "On the Adosada Platform at the front, observe how the walls and talud slopes of the earlier construction phases peek through",
+        "Notice how from here you visually command the entire straight line of the Avenue of the Dead stretching south"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7531bf368e897ff4",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (7 construction phases between 100 and 450 AD)",
+        "Dimensions": "43 m high x 150 m (east-west) x 130 m (north-south)",
+        "Findings": "Six internal substructures and Burials 2 to 6 with dignitaries, captives, and animals in cages",
+        "Interior excavation": "Rubén Cabrera and Saburo Sugiyama (1998-2004)",
+        "Origin": "Northern end of the Avenue of the Dead"
+      }
+    },
+    "faq_mito": {
+      "hash": "413c8a2c5017064c",
+      "texto": {
+        "pregunta": "Myth: The Pyramid of the Moon is lower because it was less important than the Pyramid of the Sun.",
+        "respuesta": "Reality: Because it is built on a natural rise at the north of the valley, its summit is at practically the same altitude as that of the Sun, and its seven construction phases hold the richest state offerings in the city."
+      }
+    }
+  }
+}

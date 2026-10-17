@@ -1,0 +1,55 @@
+{
+  "id": "teo_15_cuatro_templos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "51d07dcb1a9c6d06",
+      "texto": "Courtyard of the Four Small Temples"
+    },
+    "frase_gancho": {
+      "hash": "272f77e8780410f7",
+      "texto": "A courtyard with four small temples, open toward the avenue."
+    },
+    "puente_narrativo": {
+      "hash": "8d257ba8f4b89a33",
+      "texto": "Now turn your gaze to the opposite side of the avenue, behind the eastern walls: there lies hidden the gigantic palace where four lords ruled at the same time."
+    },
+    "guion_corto": {
+      "hash": "0353978682e540fe",
+      "texto": "You are standing before the Courtyard of the Four Small Temples. A staircase rises from the Calzada to a raised platform. The courtyard is surrounded by four small platforms. It is thought to have been an important residence. That its entrance faced the avenue may not have been by chance. Many houses in the city, by contrast, closed themselves off from the street. Here, it seems, the people wanted to be seen."
+    },
+    "guion_largo": {
+      "hash": "e23acfdf9cec2681",
+      "texto": "Look toward the left side of the Calzada, heading toward the Moon. A wide staircase rises to a raised platform. This is the Courtyard of the Four Small Temples. The name comes from four small platforms around a central space. Many houses in Teotihuacán had blank walls facing the street. This complex, by contrast, seems to open toward the avenue. That position makes it very visible to anyone walking along the Calzada. It is thought that its inhabitants were important people, although it is not known for certain who they were. The four temples around a center recall an idea that appears in many cultures of Mesoamerica: four directions and a center. This is one possible reading, not a proven fact. Remains of mural painting have also been found in complexes like this one, with figures and ornaments. That tells us the house was carefully decorated. From here, the people who lived above could watch the processions pass by. Perhaps it was a way of taking part in the life of the city. What is certain is that seeing it from below tells you a great deal: whoever had a house like this wanted to be seen."
+    },
+    "retos_observacion": {
+      "hash": "f6b53ba801e81426",
+      "texto": [
+        "Find, on the western side of the Calzada, the great staircase with balustrades that gives direct access to the platform",
+        "If you climb up to the complex, identify the four small platforms that surround the central altar",
+        "Look at the foot of the walls for the carved stone channels that drained the courtyard toward the avenue"
+      ]
+    },
+    "especificaciones": {
+      "hash": "aa66c28c913f5270",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Period": "Classic (around 250-550 AD)",
+        "Estructura": "Raised complex with a monumental staircase to the Calzada, a quincunx courtyard (4 temples and a central altar), and colonnaded halls",
+        "Function": "Priestly residence and ceremonial control",
+        "Origin": "West side of the Calzada de los Muertos, between the Sun and the Moon"
+      }
+    },
+    "faq_mito": {
+      "hash": "fbb469423ee3f78d",
+      "texto": {
+        "pregunta": "Myth: All the homes in Teotihuacán were closed compounds with no view toward the main avenues.",
+        "respuesta": "Reality: The priestly palaces of the center, like this complex, had monumental staircases and porticoes opening directly onto the Calzada de los Muertos."
+      }
+    }
+  }
+}

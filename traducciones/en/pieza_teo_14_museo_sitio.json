@@ -1,0 +1,54 @@
+{
+  "id": "teo_14_museo_sitio",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "66afd054cdceee21",
+      "texto": "Teotihuacán Culture Museum (Site Museum)"
+    },
+    "frase_gancho": {
+      "hash": "992317afa0c39a86",
+      "texto": "A pause to see the city in miniature and the objects that made it possible."
+    },
+    "puente_narrativo": {
+      "hash": "65bd0db587d6ce4b",
+      "texto": "When you leave the museum, return to the Avenue of the Dead and walk north toward the Pyramid of the Moon. On the full route we will visit the government palaces along the way, and on the express route we will reach the great Plaza of the Moon."
+    },
+    "guion_corto": {
+      "hash": "1fa7bda7cc585e10",
+      "texto": "This museum gives you a pause halfway through the tour. If there is a model of the site, see how the Avenue orders the buildings. Look also for objects made of obsidian, a volcanic glass that Teotihuacán worked and carried very far. If you see orange pottery, remember that many vessels came from Puebla. Look at the faces and the offerings. They give a face to the people who built all this. Take a few minutes of shade and rest."
+    },
+    "guion_largo": {
+      "hash": "2226e1a3d4cef37e",
+      "texto": "This museum is a good pause halfway through the tour. Before looking at the display cases, take a breath and get your bearings. If you find a model of the site, make the most of it. From above you can see how the Avenue of the Dead orders the complexes and the plazas. Notice also the San Juan River, which follows the grid of the city. In the display cases, look for some objects you already know from the road. Obsidian, a volcanic glass, was worked here and carried to very distant places. Teotihuacán obtained it from Pachuca. If you see orange-colored vessels, remember that this pottery was made in Puebla, the so-called Thin Orange. And if there are clay theater-type braziers, observe their figures and ornaments. They were pieces for burning offerings. Don’t worry about remembering all the names. It is enough to observe the hands that worked each object. Behind every piece there was an artisan, a family and a neighborhood. Before moving on, drink some water and rest a little. When you leave, the pyramids will seem closer to you, because you will have seen things made by the same people."
+    },
+    "retos_observacion": {
+      "hash": "05c47c98f2c8a9c2",
+      "texto": [
+        "Stand in front of the great central model and line up your view with the large window at the back that frames the Pyramid of the Sun",
+        "Look in the display cases for the original burials from the Temple of the Feathered Serpent with their necklaces of jaws and shell",
+        "Find a theater-type incense burner decorated with butterflies and a cylindrical tripod vessel"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3df0cbfa8227a399",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Function": "Archaeological site museum",
+        "Location": "South side of the Pyramid of the Sun (access toward Gate 2 / Botanical Garden)",
+        "Key pieces": "Monumental model with a window toward the Sun, burials from the Citadel, theater-type incense burners, obsidian stonework and architectural sculpture"
+      }
+    },
+    "faq_mito": {
+      "hash": "f0e0089295546707",
+      "texto": {
+        "pregunta": "Myth: All the important pieces found at Teotihuacán were taken to Mexico City.",
+        "respuesta": "Reality: This site museum safeguards more than six hundred first-rate original pieces found in recent excavations of the pyramids and the neighborhoods."
+      }
+    }
+  }
+}
