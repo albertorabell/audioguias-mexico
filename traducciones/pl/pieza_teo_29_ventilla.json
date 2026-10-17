@@ -1,0 +1,55 @@
+{
+  "id": "teo_29_ventilla",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ebb30a8e0178f2c4",
+      "texto": "La Ventilla: dzielnica rzemieślników i marker"
+    },
+    "frase_gancho": {
+      "hash": "9daa21ed9653414c",
+      "texto": "Dziedziniec z czterdziestoma dwoma glifami namalowanymi na podłodze."
+    },
+    "puente_narrativo": {
+      "hash": "c3b630ac2311b5a2",
+      "texto": "Zanim zakończymy naszą wędrówkę po dzielnicach, zerknijmy na zachód doliny, gdzie wspólnota przybyła z Oaxaca żyła przez cztery stulecia, nie zapominając ani swojego języka, ani swoich grobów."
+    },
+    "guion_corto": {
+      "hash": "8911da31c37a03e2",
+      "texto": "Znajdujesz się w La Ventilla, dzielnicy na południowy zachód od centrum miasta. Tutaj znajduje się Zespół Glifów. Jego dziedziniec ma trzydzieści sześć znaków namalowanych na podłodze i sześć kolejnych na pobliskich murach. W pobliżu mieszkali rzemieślnicy. Stąd pochodzi też Marker z La Ventilla, który zobaczysz w muzeum. Taka dzielnica pokazuje, że miasto było bardzo dobrze zorganizowane, ze strefami do mieszkania, pracy i spotkań."
+    },
+    "guion_largo": {
+      "hash": "f7b21c563d255891",
+      "texto": "La Ventilla leży na południowy zachód od centrum cywilnego. Jej duże wykopaliska rozpoczęły się w tysiąc dziewięćset dziewięćdziesiątym drugim roku. Zespół Glifów ma około sześćdziesięciu na siedemdziesiąt metrów. Jego dziedziniec ma trzydzieści sześć glifów namalowanych na podłodze i sześć kolejnych na przylegających murach, czterdzieści dwa w sumie. Pewien autor datuje je na okres między rokiem trzysta pięćdziesiątym a czterysta pięćdziesiątym i uznaje szesnaście z nich za możliwe nazwy miejsc. To odczytanie jednego autora, a nie powszechna zgoda. W pobliżu znajduje się publiczny plac w kształcie litery T, o powierzchni ponad półtora hektara. Zaproponowano, że służył do gry w piłkę, ale nie jest to pewne. Jest tu także Zespół Rzemieślników, w którym każda rodzina miała od trzech do sześciu pomieszczeń. Pierwsze budowle dzielnicy pochodzą z roku sto naszej ery. Już wtedy podążały za orientacją miasta, trzynaście stopni na wschód od północy. Pod dziedzińcem glifów odnaleziono najstarszy znany piecyk typu teatralnego. A stąd pochodzi Marker z La Ventilla, znaleziony w tysiąc dziewięćset sześćdziesiątym drugim roku. Taka dzielnica pozwala wyobrazić sobie miasto takim, jakim znali je zwykli ludzie: uporządkowane ulice, sąsiedzi z fachem i miejsca do spotkań."
+    },
+    "retos_observacion": {
+      "hash": "05b6c93098a3e079",
+      "texto": [
+        "Wypatruj, wracając w stronę parkingów przy Bramie 1 i 2, południowo-zachodniej równiny, na której odkopano dzielnicę La Ventilla",
+        "Przyjrzyj się na zdjęciu na swoim ekranie Markerowi z La Ventilla, złożonemu z części do rozmontowania, który łączy się z malowidłem ściennym z Tepantitla, widzianym wcześniej",
+        "Spójrz na krzyżowy wzór plansz patolli wyrytych w stiukowych podłogach dzielnicy"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a27b31f8415f5d8c",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (około 200-550 n.e.)",
+        "Charakter stanowiska": "Wielofunkcyjna dzielnica rzemieślników-lapidariuszy, świątyń sąsiedzkich i zespołu Glifów",
+        "Kluczowe znaleziska": "Marker gry w piłkę z andezytu (1962-1963, obecnie w MNA), Plac Glifów i 174 pochówki w La Ventilla B",
+        "Lokalizacja": "600 m na południowy zachód od Cytadeli"
+      }
+    },
+    "faq_mito": {
+      "hash": "988c6baf860afdd4",
+      "texto": {
+        "pregunta": "Mit: W Teotihuacán nie grano w piłkę, ponieważ nie ma murowanych boisk.",
+        "respuesta": "Rzeczywistość: Odkrycie rozbieralnego markera z La Ventilla i malowideł ściennych z Tepantitla wykazało, że grano na otwartych placach, używając przenośnych słupków i kijów."
+      }
+    }
+  }
+}

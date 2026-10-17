@@ -1,0 +1,55 @@
+{
+  "id": "teo_06_rio_san_juan",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3ed240c5adcc2759",
+      "texto": "Rzeka, która skręciła o dziewięćdziesiąt stopni"
+    },
+    "frase_gancho": {
+      "hash": "4f05f39398175e9a",
+      "texto": "Mieszkańcy Teotihuacán nie dostosowali swojego miasta do rzeki: przesunęli rzekę tak, by podążała za ich planem."
+    },
+    "puente_narrativo": {
+      "hash": "1387c55af4930b2b",
+      "texto": "Gdy tylko przejdziesz przez most, zacznij wspinać się po pierwszym odcinku schodów w stronę północy, by poczuć, jak Aleja Zmarłych igra z twoimi oczami i uszami."
+    },
+    "guion_corto": {
+      "hash": "0712e7ce71457273",
+      "texto": "Kiedy przechodzisz przez rzekę San Juan, stoisz na dziele inżynierii. Jej naturalne koryto nie pasowało do planu miasta, więc rzekę odprowadzono w inną stronę i ujęto w kanał. Według badania z użyciem lotniczego skanowania laserowego przez około trzy kilometry rzeka podąża za orientacją miasta. Prawdopodobnie zrobiono to w drugim wieku. Woda służyła do odprowadzania ścieków i do kontrolowania gwałtownych deszczów. Budowniczowie chcieli uporządkowanego miasta, a krajobraz musiał się podporządkować."
+    },
+    "guion_largo": {
+      "hash": "b7977d2889ad15ba",
+      "texto": "Rzeka San Juan przecina centrum Teotihuacán i nie płynie tak, jak płynie rzeka naturalna. Jej pierwotne koryto przecinało miejsce, w którym zaplanowano Ciudadelę i Wielki Kompleks. Dlatego rzekę odprowadzono w inną stronę. Według jednego z badań stało się to prawdopodobnie w drugim wieku naszej ery. To data prawdopodobna, nie pewna. Kanał przebiegał pod północną platformą Ciudadeli i doprowadzał wodę do studni na jej centralnym placu. Potem płynął na zachód, okrążał Wielki Kompleks i biegł dalej wzdłuż Alei Zachodniej. Szacuje się, że około trzech kilometrów koryta dostosowano do siatki miasta. Badanie z użyciem lotniczego mapowania laserowego, pod kierunkiem Nawy Sugiyamy, potwierdziło coś jeszcze. San Juan podąża za orientacją miasta przez około trzy kilometry w jego centrum. Inna rzeka, San Lorenzo, ma inną orientację i liczy cztery przecinek dziewięć kilometra. Ją również zmieniono. System ten pomagał odprowadzać wodę i kontrolować powodzie. Niektórzy autorzy sądzą, że w pewnych porach roku być może można było nim pływać, ale to hipoteza. Gdy przechodzisz, pomyśl, że rzeka, którą widzisz, nie jest przypadkiem. Była decyzją budowniczych."
+    },
+    "retos_observacion": {
+      "hash": "448364b11b03f9bf",
+      "texto": [
+        "Wychyl się z mostu na wschód i na zachód, by zobaczyć zupełnie prostą linię koryta",
+        "Poszukaj na ścianach kanału pozostałości dawnych kamiennych murów oporowych",
+        "Spójrz na południe i na północ, by zauważyć, jak rzeka dzieli aleję na dwa światy"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d4699dec98f6933",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Wczesny klasyk (około 150-250 n.e.)",
+        "Dzieło": "Sztuczne przekierowanie około 3 km koryta rzeki San Juan pod kątem 90°",
+        "Funkcje": "Kontrola powodzi, główny kolektor miejskiej kanalizacji, nawadnianie pól i kosmiczna oś wschód-zachód",
+        "Pochodzenie": "Skrzyżowanie rzeki San Juan z Aleją Zmarłych"
+      }
+    },
+    "faq_mito": {
+      "hash": "fd03b2d74ff52dd9",
+      "texto": {
+        "pregunta": "Mit: Rzeka San Juan zawsze płynęła prostą linią, przecinając Aleję.",
+        "respuesta": "Rzeczywistość: Jej pierwotne koryto przecinało dolinę po przekątnej; mieszkańcy Teotihuacán przekierowali je ręcznie pod kątem prostym, by wpasować je w miejską siatkę."
+      }
+    }
+  }
+}

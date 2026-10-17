@@ -1,0 +1,55 @@
+{
+  "id": "teo_15_cuatro_templos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "51d07dcb1a9c6d06",
+      "texto": "Dziedziniec Czterech Małych Świątyń"
+    },
+    "frase_gancho": {
+      "hash": "272f77e8780410f7",
+      "texto": "Dziedziniec z czterema małymi świątyniami, otwarty na aleję."
+    },
+    "puente_narrativo": {
+      "hash": "8d257ba8f4b89a33",
+      "texto": "Obróć teraz wzrok na drugą stronę alei, za wschodnie mury: kryje się tam ogromny pałac, w którym rządziło jednocześnie czterech władców."
+    },
+    "guion_corto": {
+      "hash": "0353978682e540fe",
+      "texto": "Stoisz przed Dziedzińcem Czterech Małych Świątyń. Schody prowadzą z Alei na wyniesioną platformę. Dziedziniec otaczają cztery małe podstawy. Uważa się, że była to ważna rezydencja. To, że jej wejście zwracało się ku alei, być może nie było przypadkiem. Za to wiele domów w mieście zamykało się od strony ulicy. Tutaj wygląda na to, że chciano być widzianym."
+    },
+    "guion_largo": {
+      "hash": "e23acfdf9cec2681",
+      "texto": "Spójrz na lewą stronę Alei, w kierunku Księżyca. Szerokie schody prowadzą na wyniesioną platformę. To Dziedziniec Czterech Małych Świątyń. Nazwa pochodzi od czterech małych podstaw wokół centralnej przestrzeni. Wiele domów w Teotihuacán miało od strony ulicy ślepe mury. Ten zespół natomiast wydaje się otwierać na aleję. To położenie sprawia, że jest bardzo dobrze widoczny dla każdego, kto idzie Aleją. Uważa się, że jego mieszkańcy byli ważnymi osobami, choć nie wiadomo na pewno, kim byli. Cztery świątynie wokół centrum przywodzą na myśl ideę obecną w wielu kulturach Mezoameryki: cztery strony świata i środek. To możliwa interpretacja, a nie udowodniony fakt. W zespołach takich jak ten znaleziono też resztki malowideł ściennych z postaciami i ozdobami. Mówi nam to, że dom był starannie zdobiony. Stąd ludzie mieszkający na górze mogli patrzeć na przechodzące procesje. Być może był to sposób uczestniczenia w życiu miasta. Pewne jest jedno: widok z dołu mówi ci bardzo wiele. Kto miał taki dom, chciał, żeby go widziano."
+    },
+    "retos_observacion": {
+      "hash": "f6b53ba801e81426",
+      "texto": [
+        "Odszukaj po zachodniej stronie Alei wielkie schody z balustradami, które prowadzą prosto na platformę",
+        "Jeśli wejdziesz na zespół, wypatrz cztery małe podstawy otaczające centralny ołtarz",
+        "Poszukaj u podnóża murów kamiennych rynien z ciosanego kamienia, którymi woda z dziedzińca spływała w stronę alei"
+      ]
+    },
+    "especificaciones": {
+      "hash": "aa66c28c913f5270",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (około 250-550 n.e.)",
+        "Estructura": "Wyniesiony zespół z monumentalnymi schodami od strony Alei, dziedziniec w układzie kwinkunksu (4 świątynie i centralny ołtarz) oraz sale z portykami",
+        "Funkcja": "Rezydencja kapłanów i ceremonialna kontrola",
+        "Pochodzenie": "Zachodnia strona Alei Zmarłych, między Słońcem a Księżycem"
+      }
+    },
+    "faq_mito": {
+      "hash": "fbb469423ee3f78d",
+      "texto": {
+        "pregunta": "Mit: Wszystkie domy w Teotihuacán były zamkniętymi budowlami bez widoku na główne aleje.",
+        "respuesta": "Rzeczywistość: Pałace kapłańskie w centrum, takie jak ten zespół, miały monumentalne schody i portyki otwarte wprost na Aleję Zmarłych."
+      }
+    }
+  }
+}

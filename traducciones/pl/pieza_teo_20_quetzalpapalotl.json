@@ -1,0 +1,55 @@
+{
+  "id": "teo_20_quetzalpapalotl",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3843da50bd1f1e57",
+      "texto": "Pałac Quetzalpapálotl"
+    },
+    "frase_gancho": {
+      "hash": "92779c27def36a42",
+      "texto": "Dziedziniec rzeźbionych filarów, w których oczy miały źrenice z obsydianu, a może wcale nie są to motyle."
+    },
+    "puente_narrativo": {
+      "hash": "d8259fbb5edd47b2",
+      "texto": "Jeśli idziesz pełną trasą, przejdź korytarzem w głębi do sąsiednich dziedzińców, gdzie jaguary dmą w muszle; jeśli wybrałeś trasę ekspresową, po wyjściu z pałacu możesz posłuchać dwóch ostatnich przystanków o upadku i dziedzictwie miasta."
+    },
+    "guion_corto": {
+      "hash": "21c0e3a15eaa1fb6",
+      "texto": "Udaj się do południowo-zachodniego narożnika Placu Księżyca i wejdź schodami do tego zadaszonego zespołu. Jesteś w Pałacu Quetzalpapálotl, jednym z najlepiej zachowanych zespołów Teotihuacán. Przejdź do jego dziedzińca centralnego, otoczonego czterema portykami wspartymi na kwadratowych filarach z rzeźbionego kamienia. Podejdź do jednego z filarów i przyjrzyj się płaskorzeźbie: pióra i głowa są widoczne z profilu, a pierś od frontu. Kiedy ją odkryto, w tysiąc dziewięćset sześćdziesiątym drugim roku, uznano, że to kwezal z ciałem motyla. Stąd jego nazwa w języku nahuatl: quetzalli, czyli cenne pióro, i papálotl, czyli motyl."
+    },
+    "guion_largo": {
+      "hash": "9a15235092242e19",
+      "texto": "Spójrz teraz na koła na filarach. Dziś wyglądają na puste, ale w jednym z filarów cztery koła zachowały wstawki z czarnego, polerowanego obsydianu, a w jednym oku wciąż tkwi jego obsydian. Filary były rzeźbione i wykładane także miką. Kiedy światło wpadało na dziedziniec, kamień musiał lśnić i odwzajemniać spojrzenie każdemu, kto przechodził.\n\nI tu pojawia się zwrot. Nazwa z motylem wzięła się stąd, jak odczytano te wizerunki w chwili odkrycia, w tysiąc dziewięćset sześćdziesiątym drugim roku. Dziś niektórzy badacze proponują, że te stworzenia to nie kwezale-motyle, lecz sowy, symbol wojowników, kapłanów i elity Teotihuacán. To interpretacja, a nazwa została z przyzwyczajenia.\n\nNiektóre motywy z tych filarów, jak pas w zygzak, pojawiają się też na malowidłach ściennych w Tepantitla, Tetitla, Techinantitla i w Pałacu Jaguarów. To sugeruje, że różne zespoły miasta posługiwały się wspólnym językiem obrazów.\n\nPod miejscem, w którym stoisz, jest inny budynek. Świątynia Pierzastych Muszli, z około roku dwusetnego, została całkowicie pogrzebana pod tym pałacem i odnaleziono ją nienaruszoną. Jej filary zdobią muszle z piórami, a na podstawie widnieją malowane ptaki, prawdopodobnie zielone ary.\n\nDo czego służył ten pałac? Zwykle nazywa się go domem kapłanów, ale niektórzy badacze sugerują, że mógł być miejscem zgromadzeń. Być może łączył się z nowym ruchem politycznym lub nowym władcą. Były to wieki od czwartego do szóstego, kiedy wpływy Teotihuacán sięgały miast Majów, takich jak Tikal. To hipoteza.\n\nArcheolog Jorge Acosta odkopał i zrekonstruował ten zespół w latach sześćdziesiątych, a swoje studium o pałacu opublikował w tysiąc dziewięćset sześćdziesiątym czwartym roku. W dwa tysiące dziewiątym roku projekt konserwatorski usunął stary cement i odnowił pałac wapnem, gliną i piaskiem. Dziś czyta się go takim, jakim był: budowlą z wapna z pigmentem, a nie z cementu."
+    },
+    "retos_observacion": {
+      "hash": "5df62bb3b62143d6",
+      "texto": [
+        "Przyjrzyj się z bliska filarowi na dziedzińcu, aby dostrzec, jak profil ptaka kwezala łączy się z piersią motyla",
+        "Poszukaj w oczodołach reliefów lśniących czarnych krążków z polerowanego obsydianu",
+        "Spójrz na czerwone i białe grecy na ścianach wewnętrznych oraz stopniowane attyki wieńczące dach dziedzińca"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d14a80916ea3473",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Późny klasyk (około 450-550 n.e.)",
+        "Elementos destacados": "Dziedziniec Filarów z płaskorzeźbami Quetzalpapálotl, oczy z obsydianu, malowidła ścienne z grecami i attyki w kształcie znaku roku",
+        "Restauración": "Jorge R. Acosta (1962-1964)",
+        "Pochodzenie": "Południowo-zachodni narożnik Placu Księżyca"
+      }
+    },
+    "faq_mito": {
+      "hash": "10b50277aaae3e98",
+      "texto": {
+        "pregunta": "Mit: Drewniane stropy i attyki Pałacu Quetzalpapálotl przetrwały w stanie nienaruszonym od czasów prehiszpańskich.",
+        "respuesta": "Rzeczywistość: Kamienne filary i niskie mury były pogrzebane pod własnymi gruzami; archeolog Jorge Acosta odtworzył płaskie zadaszenia w latach sześćdziesiątych, opierając się na oryginalnych szczątkach znalezionych na posadzce."
+      }
+    }
+  }
+}

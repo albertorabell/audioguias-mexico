@@ -1,0 +1,55 @@
+{
+  "id": "teo_28_atetelco",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "985ec9a9b2f2453d",
+      "texto": "Atetelco: kojoty i pumy wojownicy"
+    },
+    "frase_gancho": {
+      "hash": "f2248d4b77b914ec",
+      "texto": "Pochód kojotów i jaguarów, które idą ku drzwiom."
+    },
+    "puente_narrativo": {
+      "hash": "f65f72623a1c3f4c",
+      "texto": "Gdy opuścisz Atetelco i będziesz wracać w stronę południowego wejścia, wysłuchamy historii dwóch sąsiednich dzielnic, które dopełniają ludzką mapę miasta: rzemieślników z La Ventilla i Zapoteków z Oaxaca."
+    },
+    "guion_corto": {
+      "hash": "3ce958cfadd82b32",
+      "texto": "Atetelco znaczy „na kamiennym murze przy wodzie”. To zespół mieszkalny z ozdobionymi dziedzińcami. Na Białym Dziedzińcu mural przedstawia procesję kojotów i jaguarów, które idą jeden za drugim ku centralnym drzwiom. Czerwony Dziedziniec ma ołtarz w żywych barwach i ozdoby związane z działalnością wojskową. Przyjrzyj się zwierzętom, a zobaczysz, że każde ma własne szczegóły. Kojot i jaguar nie mają takiego samego pyska ani takiego samego ogona."
+    },
+    "guion_largo": {
+      "hash": "841288dfd9d917cd",
+      "texto": "Biały Dziedziniec ma trzy świątynie z pierwszych etapów miasta, datowane na okres między trzechsetnym a czterechsetnym rokiem. W Portyku 2 Świątyni Wschodniej ściany ukazują procesję kojotów i jaguarów. Na jednych muralach jaguar idzie przed kojotem. Na innych kojot idzie pierwszy, a jaguar podąża za nim. Wszystkie zmierzają ku centralnym drzwiom. Kojoty są narysowane cienkimi czerwonymi liniami. Mają długie pukle na łokciach i pas z małych trójkątnych piór na grzbiecie. Ich nakrycie głowy to opaska z długimi piórami. Ciało jaguarów jest jakby pokryte siatką. Ich pysk jest krótszy, kły bardziej zakrzywione, a język wydaje się rozdwojony. Każdy mural otacza obramowanie z cienkich linii. Wyżej znajduje się Czerwony Dziedziniec, z pomieszczeniami na podstawach piramid i ołtarzem w żywych barwach. Jego dekoracja wiąże się z działalnością wojskową. Co dokładnie oznaczała ta procesja, tego nie wiemy. Ale możesz porównać oba zwierzęta i odkryć, jak artyści je od siebie odróżniali."
+    },
+    "retos_observacion": {
+      "hash": "4753b1f1921cc09d",
+      "texto": [
+        "Wejdź do portyków Białego Dziedzińca i zwróć uwagę na siatkę rombów w górnej części, z wojownikami i kojotami w każdej kratce",
+        "Przejdź na Czerwony Dziedziniec (Kanidów) i poszukaj w dolnej części ścian rzędu kojotów i pum z zielonymi pióropuszami",
+        "Odszukaj przed pyskami zwierząt trójdzielne ludzkie serce, z którego spadają trzy krople krwi, a pośrodku dziedzińca zobacz mały ołtarz w stylu talud-tablero"
+      ]
+    },
+    "especificaciones": {
+      "hash": "84fea297416b3d11",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Późny klasyk (murale ok. 350-550 n.e.)",
+        "Główne przestrzenie": "Biały Dziedziniec (3 portyki z siatką rombów) oraz Malowany Dziedziniec, czyli Dziedziniec Kanidów (procesja kojotów i pum oraz centralny ołtarz)",
+        "Tematyka": "Zakony wojskowe kojotów, pum i orłów oraz rytuały ofiarne",
+        "Lokalizacja": "Skrajny południowy zachód (1,5 km na południowy zachód od Piramidy Słońca)"
+      }
+    },
+    "faq_mito": {
+      "hash": "5617ebaf631c238e",
+      "texto": {
+        "pregunta": "Mit: Teotihuacán było miastem pokojowym, bez armii i ofiar z ludzi, a wojna rytualna była późniejszym wymysłem Tolteków i Mexików.",
+        "respuesta": "Rzeczywistość: Murale z Atetelco dowodzą, że w Teotihuacán już od IV wieku istniały zakony wojskowe wojowników kojotów, pum i orłów, powiązane z ofiarą z serc."
+      }
+    }
+  }
+}

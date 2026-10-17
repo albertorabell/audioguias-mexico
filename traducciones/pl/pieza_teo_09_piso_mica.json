@@ -1,0 +1,55 @@
+{
+  "id": "teo_09_piso_mica",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5f215a62fe41b4e4",
+      "texto": "Kompleks Alei Zmarłych i Podłoga z Miki"
+    },
+    "frase_gancho": {
+      "hash": "bef5c0a75d0a3ef0",
+      "texto": "Podłoga pokryta miką, która przybyła z bardzo daleka."
+    },
+    "puente_narrativo": {
+      "hash": "53f5c7c2c41ab1de",
+      "texto": "Przejdź teraz na prawą stronę alei: pod ochronnym zadaszeniem czeka na ciebie największy malowany kot, jaki zachował się przy Alei."
+    },
+    "guion_corto": {
+      "hash": "c6617f5a78802f59",
+      "texto": "Tutaj niedaleko, w tak zwanej Grupie Viking, odkryto podłogę z warstwami miki, błyszczącego minerału. Mika nie występuje w dolinie Teotihuacán. Przypuszcza się, że pochodziła z Oaxaca, z regionu Ejutla. Jej sprowadzenie wymagało wielkiego wysiłku, więc musiał to być bardzo cenny materiał. Wciąż się dyskutuje, do czego jej używano. Wyobraź sobie pokój z podłogą lśniącą jak lustro."
+    },
+    "guion_largo": {
+      "hash": "63504e30dbb7a516",
+      "texto": "W tej części znaleziono jedno z najsłynniejszych odkryć Teotihuacán. W tak zwanej Grupie Viking archeolodzy odkryli podłogę z warstwami miki. Mika to minerał występujący w blaszkach, błyszczący i wytrzymały. Nie występuje w dolinie Teotihuacán. Analizy wskazują na źródło w Oaxaca, w regionie Ejutla. Oznacza to, że ktoś przywiózł ją z bardzo daleka. Badaczka Linda Manzanilla informuje, że w Xalla odnotowano około trzydziestu siedmiu kilogramów miki. Znaleziono ją także w innych ważnych budynkach, dlatego sądzi się, że była cenna. Do czego dokładnie służyła, nadal jest przedmiotem dyskusji. Niektórzy sądzą, że jej blask naśladował odbicie słońca lub wody. Inni widzą w niej materiał prestiżowy, który ukazywał władzę tych, którzy mogli ją zdobyć. Żadna z tych koncepcji nie została potwierdzona. Gdy przemierzasz te dziedzińce, pomyśl, że pod nimi wciąż mogą kryć się kolejne niespodzianki. Każde nowe odkrycie trochę koryguje to, co uważaliśmy, że wiemy."
+    },
+    "retos_observacion": {
+      "hash": "8e33077e232f60cf",
+      "texto": [
+        "Zwróć uwagę na zespoły dziedzińców i schodkowych platform, które flankują obie strony tego odcinka Alei",
+        "Poszukaj w kamiennych podłogach kanałków i punktów rewizyjnych systemu odprowadzania wody deszczowej w Teotihuacán",
+        "Zwróć uwagę na grube podłogi z prehiszpańskiego betonu wykonanego z wapna, piasku i rozdrobnionego żwiru wulkanicznego"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e233d93d8d42c6b9",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (około 250-550 n.e.)",
+        "Lokalizacja": "Środkowy odcinek Alei Zmarłych (Zespół Placu Zachodniego i Grupa Viking)",
+        "Wyjątkowe odkrycie": "Komora z podłogą z dwóch warstw płytek miki sprowadzonej z Oaxaca (ok. 30 m²)",
+        "Badania": "Pedro Sánchez (1906) oraz Sigvald Linné / Fundacja Viking (1942)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c7a4add4d7dd2f5f",
+      "texto": {
+        "pregunta": "Mit: Podłoga z Miki miała nieznaną funkcję technologiczną lub przemysłową.",
+        "respuesta": "Rzeczywistość: Mika była świętym minerałem o najwyższej wartości luksusowej, sprowadzanym z Oaxaca przez elitę z Teotihuacán, by konsekrować przestrzenie rytualne oraz zdobić ściany i ubiory."
+      }
+    }
+  }
+}

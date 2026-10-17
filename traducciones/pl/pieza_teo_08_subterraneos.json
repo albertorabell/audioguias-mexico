@@ -1,0 +1,56 @@
+{
+  "id": "teo_08_subterraneos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7c169ed336585ece",
+      "texto": "Nakładające się budynki, Podziemia"
+    },
+    "frase_gancho": {
+      "hash": "b767eec7248bf412",
+      "texto": "W tym mieście nowy budynek wznoszono na starym."
+    },
+    "puente_narrativo": {
+      "hash": "e8834ab8d1a331aa",
+      "texto": "Kilka kroków dalej, na tym samym odcinku alei, rezydencje elity ukrywały pod podłogą lśniące płyty sprowadzone z Oaxaca."
+    },
+    "guion_corto": {
+      "hash": "e23a6cdfb3bd672a",
+      "texto": "Stoisz przed miejscem, w którym jeden budynek spoczywa na innym, starszym. W Teotihuacán często budowano na tym, co stare. Wypełniano dawną budowlę i wznoszono nową. Świątynia Węża Pierzastego jest tego przykładem, ponieważ około roku trzysta pięćdziesiątego dobudowano platformę przed jej fasadą. Pałac Quetzalpapálotl wzniesiono na Świątyni Pierzastych Muszli. Tak budynki zachowały warstwy historii. Zobaczyć jedną z tych warstw to jak otworzyć starą księgę."
+    },
+    "guion_largo": {
+      "hash": "b65af377ec971848",
+      "texto": "W Teotihuacán nowa budowla rzadko zacierała poprzednią. Najczęściej wypełniano ją i wznoszono nową na wierzchu. Dzięki temu całe budynki zostały zachowane wewnątrz innych. W sektorze, który masz przed sobą, zwanym Nakładające się Budynki, możesz zobaczyć, jak jeden budynek opiera się na innym, starszym. Niektóre dolne galerie bywają zamknięte ze względu na ochronę zabytków, ale z poziomu uskoków i różnic wysokości da się dostrzec tę różnicę. Znamy też inne przykłady. Świątynia Węża Pierzastego została częściowo zakryta przez platformę dobudowaną około roku trzysta pięćdziesiątego. W ten sposób ochroniono jej fasadę z rzeźbami. Pałac Quetzalpapálotl zbudowano na Świątyni Pierzastych Muszli. Dzięki temu pogrzebaniu starsza świątynia ocalała. Archeolodzy korzystają z tych warstw. Każda z nich opowiada o innym etapie życia miasta. Jest pytanie, które wciąż budzi spory. Dlaczego budynek zakrywano zamiast go zburzyć? Niektórzy sądzą, że pogrzebanie świątyni było aktem rytualnym. To tylko hipoteza. Każdy nowy budynek skrywa w środku pamięć o poprzednim. Kiedy patrzysz, wyobraź sobie, ile wersji tego miejsca istniało pod twoimi stopami."
+    },
+    "retos_observacion": {
+      "hash": "dd2b7d3a0995afdd",
+      "texto": [
+        "Zajrzyj w przekroje i uskoki po zachodniej stronie Alei, aby zobaczyć, jak górne mury opierają się na starszych konstrukcjach",
+        "Wypatrz schody i wejście do podziemnych galerii wykopanych na początku XX wieku",
+        "Obejrzyj na zdjęciach na swoim ekranie czerwone i białe splecione motywy w stylu veracruzańskim, które są chronione na dolnym poziomie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "70607d9b8b40de1b",
+      "texto": {
+        "Kultura": "Teotihuacán, z wpływami z Wybrzeża Zatoki Meksykańskiej",
+        "Okres": "Wczesny klasyk (dolne etapy około 150-250 n.e.)",
+        "Nakładanie się warstw": "od 4 do 6 poziomów budowlanych",
+        "Wyróżniający się element": "Platforma Splecionej Woluty",
+        "Pierwsze badania": "Leopoldo Batres (1909)",
+        "Pochodzenie": "Zachodnia strona Alei Zmarłych"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0b8c41f1a51f50f",
+      "texto": {
+        "pregunta": "Mit: Mieszkańcy Teotihuacán burzyli stare budynki, gdy wychodziły z mody.",
+        "respuesta": "Rzeczywistość: Starannie wypełniali je kamieniem i ziemią, aby użyć ich jako fundamentu, dzięki czemu dolne świątynie zachowały swój stiuk i malowidła."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "teo_30_barrio_oaxaqueno",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c7a58af6538aea1b",
+      "texto": "Tlailotlacan: Dzielnica z Oaxaca"
+    },
+    "frase_gancho": {
+      "hash": "beacdc551ea9314d",
+      "texto": "Trzy kilometry od Alei mieszkali ludzie, którzy przybyli z Oaxaca."
+    },
+    "puente_narrativo": {
+      "hash": "9aba4448ad35f030",
+      "texto": "Z pełną mapą miasta w głowie poszukaj cienia albo idź w stronę wyjścia, aby wysłuchać dwóch ostatnich rozdziałów: jak spłonął Teotihuacán i jak narodziła się jego legenda."
+    },
+    "guion_corto": {
+      "hash": "b8cffbc20b969929",
+      "texto": "Ta dzielnica nazywa się Tlailotlacan i leży około trzech kilometrów na zachód od Alei, na zboczach Małego Czerwonego Wzgórza. Mieszkali tu ludzie, którzy zachowali zwyczaje z Oaxaca, przede wszystkim zapoteków. Są tu groby zbudowane z kamieni, takie jak tamtejsze, oraz naczynia w stylu zapoteckim. Ale mieszkańcy używali też przedmiotów z Teotihuacán. Archeolodzy widzą w tym dzielnicę ludzi, którzy przybyli z daleka i zostali. Było to miasto, w którym żyły obok siebie różne ludy, każdy w swoim zakątku."
+    },
+    "guion_largo": {
+      "hash": "1cd6259928e00bd0",
+      "texto": "Tlailotlacan to nazwa, którą dziś nadaje się tej dzielnicy. Składa się z dziesięciu do piętnastu zespołów mieszkalnych, na zboczach Małego Czerwonego Wzgórza, na zachód od miasta. Pierwsi badali ją Paddock i Rattray, w tysiąc dziewięćset sześćdziesiątym szóstym i sześćdziesiątym siódmym roku. Później Millon i Vidarte znaleźli grób z zapoteckim glifem, który czyta się dziewięć ruch. Znajdowało się w nim naczynie w stylu Monte Albán, celowo stłuczone około roku sześćsetnego naszej ery. Między tysiąc dziewięćset osiemdziesiątym siódmym a osiemdziesiątym dziewiątym rokiem Michael Spence badał zespół zwany TL sześć. Odkrył plac z ołtarzem pośrodku, trzy platformy i dwa groby. Między dwa tysiące ósmym a dwa tysiące czternastym rokiem projekt INAH pod kierunkiem Verónici Ortegi Cabrery prowadził prace w kilku zespołach. Jest tu różnica w porównaniu z resztą miasta. Groby zapoteków to komory wyłożone kamieniem. Groby w Teotihuacán to doły. Ale zapotecka ceramika to zaledwie około trzech procent i wytwarzano ją z lokalnej gliny. Czyli ludzie zachowali swoje zwyczaje, lecz naczynia robili tutaj. Analizy izotopów w kościach mówią coś jeszcze. Wiele osób urodziło się w Oaxaca, a niektóre odbywały podróże powrotne. Eksperci spierają się, kiedy dzielnica powstała. Millon proponuje okres między rokiem trzysta a sześćset pięćdziesiąt. Ortega znajduje starsze ślady, sięgające roku stu albo dwustu. Spierają się też, czym ona była. Jedni mówią o ambasadzie, inni o enklawie lub o dzielnicy obcej społeczności. Nikt nie wie tego z pewnością. Pomyśl, co to oznacza. Mniej więcej tysiąc pięćset lat temu rodziny z Oaxaca żyły w mieście, które nie było ich własne. Zachowały niektóre zwyczaje, na przykład chowanie zmarłych w kamiennych komorach. Przyjęły inne, na przykład korzystanie z lokalnej gliny i przedmiotów z Teotihuacán. To jedno z możliwych odczytań tego, co pokazują groby i naczynia. Glif dziewięć ruch wydaje się być nazwą daty z kalendarza zapoteków, złożoną z liczby i znaku. Jasne jest natomiast to, że Teotihuacán przyjmował ludzi z innych ziem."
+    },
+    "retos_observacion": {
+      "hash": "b5508803f233c96f",
+      "texto": [
+        "Skieruj wzrok ku zachodniej części doliny, gdzie dawna oś Alei Zachodniej łączyła centrum z zapotecką enklawą",
+        "Obejrzyj w obrazach w swojej aplikacji kamienny węgar z wyrytymi zapoteckimi glifami oraz urny Cocijo z szarej gliny odnalezione w tej dzielnicy",
+        "Zastanów się, jak metropolia tak ustandaryzowana pozwoliła dzielnicom z innym językiem i innymi bogami żyć w pokoju obok siebie przez cztery wieki"
+      ]
+    },
+    "especificaciones": {
+      "hash": "08e8ce7b4ef2a2b5",
+      "texto": {
+        "Kultura": "Zapotekowie (Oaxaca) osiedleni w Teotihuacán",
+        "Okres": "Klasyk (około 200-600 n.e.)",
+        "Kluczowe znaleziska": "Groby z kamienia murowanego w stylu Monte Albán, z przedsionkiem i węgarem z zapoteckimi glifami, urny Cocijo oraz szara ceramika wykonana z lokalnej gliny",
+        "Lokalizacja": "3 km na zachód od Cytadeli (dzielnica San Juan Evangelista)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c742a9523c188890",
+      "texto": {
+        "pregunta": "Mit: Wszyscy mieszkańcy Teotihuacán należeli do jednej grupy etnicznej i mówili jednym językiem.",
+        "respuesta": "Rzeczywistość: Teotihuacán był wieloetniczną i kosmopolityczną metropolią; całe dzielnice, takie jak Tlailotlacan, przez cztery wieki zachowały język zapoteków, swoich bogów i swoje groby rodem z Oaxaca."
+      }
+    }
+  }
+}

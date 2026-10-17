@@ -1,0 +1,55 @@
+{
+  "id": "teo_24_tepantitla",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b931ba0b00e1d3bf",
+      "texto": "Tepantitla: mural Tlalocan"
+    },
+    "frase_gancho": {
+      "hash": "d2fe5ad51792ea29",
+      "texto": "Wodny raj, w którym ludzie pływają i grają w piłkę, a wśród kwiatów jest też ofiara."
+    },
+    "puente_narrativo": {
+      "hash": "31bb785d24f573ae",
+      "texto": "Niedaleko stąd, na północny wschód, w pobliżu koryta rzeki San Juan, rozciągała się dzielnica, w której przybyli z zewnątrz kupcy zbudowali okrągłe domy."
+    },
+    "guion_corto": {
+      "hash": "fbba2aa5840a452f",
+      "texto": "We wschodniej części miasta znajduje się Tepantitla, elitarna rezydencja. Wejdź aż do Portyku Drugiego na głównym patio i stań przed chronioną ścianą: masz przed sobą najsłynniejszy i najbardziej dyskutowany mural Teotihuacán. U góry dominuje postać widziana z przodu, z ptasim nakryciem głowy i wodą płynącą z jej dłoni, a nad nią rośnie drzewo pełne motyli. Na dole góra daje początek źródłom i rzekom, w których wiele ludzkich figurek pływa, nurkuje i gra w piłkę."
+    },
+    "guion_largo": {
+      "hash": "247627a984798287",
+      "texto": "W tysiąc dziewięćset czterdziestym drugim roku archeolog Alfonso Caso nazwał ten mural Tlalocan: rajem boga deszczu, do którego według źródeł z szesnastego wieku trafiali ci, którzy zginęli utopieni lub rażeni piorunem. Większość badaczy przez dziesięciolecia przyjmowała takie odczytanie. Caso utożsamiał też z Tláloceм postać z góry.\n\nPopatrz spokojnie na scenę na dole. Święta góra daje początek źródłom i strumieniom, które spływają do oczka wodnego z rybami, roślinami wodnymi i zwierzęciem podobnym do żaby. Są tu ludzie, którzy pływają, inni, którzy nurkują, i jedna osoba, która ratuje kogoś tonącego. Wśród nich wszędzie pojawiają się motyle.\n\nU góry wielka postać widziana z przodu również budzi spory. Dziś wielu nazywa ją Wielką Boginią, ale to propozycja, a nie fakt. Peter Furst zaproponował w tysiąc dziewięćset siedemdziesiątym czwartym roku, że było to bóstwo żeńskie, a Esther Pasztory powiązała je z roślinnością i płodnością. Karl Taube nazwał je Kobietą Pająkiem. Inni badacze uważają, że mógłby to być władca albo postać o mieszanej płci.\n\nA to nie wszystko. Badaczka María Teresa Uriarte zaproponowała, że głównym tematem muralu jest gra w piłkę. Widać mecze między graczami z pomalowanymi ciałami, którzy walczą o piłkę kijami, pomiędzy dwoma przenośnymi znacznikami. Jeśli przyjrzysz się uważnie, zobaczysz też ściętą głowę obok graczy i postać śpiewającą hymn śmierci.\n\nWedług badaczki Nadii Giral ofiary z ludzi powtarzają się w całym muralu. Mówi, że ścięcia głów, rytualna gra i ofiary nie pasują do raju, który byłby tylko szczęśliwy. Dekoracyjny pas otacza scenę twarzami Tláloca oraz naczyniami z symbolem roku i kwiatem lilii wodnej: woda otacza wszystko. Które z tych odczytań jest właściwe, nikt jeszcze nie wie."
+    },
+    "retos_observacion": {
+      "hash": "a38b6d96dcecd5cb",
+      "texto": [
+        "Odszukaj w górnej części muralu Wielką Boginię widzianą z przodu i drzewo o splecionych gałęziach, które wyrasta nad jej nakryciem głowy",
+        "Poszukaj w dolnym pasie malutkich postaci z drewnianymi kijami obok słupka znacznikowego do gry w piłkę",
+        "Znajdź zwoje pełne kwiatów i motyli, które wychodzą z ust postaci jako symbol śpiewu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ccbd065cbed30ef1",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Późny klasyk (ok. 400-550 n.e.)",
+        "Technika": "Fresk na wapiennym stiuku",
+        "Lokalizacja": "Portyk 2 w Tepantitla, 500 m na wschód od Piramidy Słońca",
+        "Kluczowe badania": "Alfonso Caso (1942), Esther Pasztory i María Teresa Uriarte (UNAM)"
+      }
+    },
+    "faq_mito": {
+      "hash": "0564d0c2198476ee",
+      "texto": {
+        "pregunta": "Mit: Mural z Tepantitla przedstawia wyłącznie pokojowy raj wiecznego odpoczynku.",
+        "respuesta": "Rzeczywistość: Choć Alfonso Caso nazwał go Tlalocan, współczesne badania ikonograficzne dostrzegły w nim rytuały rolnicze, odmiany gry w piłkę z kijem oraz sceny ofiar z ludzi."
+      }
+    }
+  }
+}

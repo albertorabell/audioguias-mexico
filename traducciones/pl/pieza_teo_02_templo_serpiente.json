@@ -1,0 +1,56 @@
+{
+  "id": "teo_02_templo_serpiente",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "158a3fb6368f096b",
+      "texto": "Świątynia Węża Pierzastego"
+    },
+    "frase_gancho": {
+      "hash": "bb40581ff6cbb46e",
+      "texto": "Pod fundamentami tej świątyni pochowano ponad sto trzydzieści osób, aby ją poświęcić."
+    },
+    "puente_narrativo": {
+      "hash": "180667a4dfea84f3",
+      "texto": "Jeśli idziesz pełną trasą, zostań przed tymi schodami i zajrzyj promieniami rentgenowskimi do zamkniętego tunelu pod twoimi stopami; jeśli idziesz trasą ekspresową, wyjdź z Cytadeli na Aleję Zmarłych i ruszaj na północ."
+    },
+    "guion_corto": {
+      "hash": "5ae5a129b00fbdfd",
+      "texto": "Kiedy podchodzisz do tej budowli od frontu, najpierw widzisz gładką, szarą konstrukcję zwaną Platformą Dobudowaną. Wejdź po jej stopniach i zajrzyj do wąskiego przejścia, które otwiera się za nią: tam ukazuje się, ukrywana przez wieki, najwspanialsza rzeźbiona fasada Teotihuacán. Stoisz przed Świątynią Węża Pierzastego, wzniesioną około roku dwusetnego. Z jej płyt wystają ogromne kamienne głowy, które dawniej były pomalowane na czerwono, zielono, niebiesko i żółto. Jedne to węże pierzaste wyłaniające się z kwiatu; drugie, z dwoma pierścieniami na czole i bez żuchwy, przedstawiają, zdaniem wielu specjalistów, święte nakrycie głowy związane z początkiem czasu."
+    },
+    "guion_largo": {
+      "hash": "4bba0f56ac744fec",
+      "texto": "Ta fasada powstała po to, by ją odczytywać. Dwie postacie występują na przemian wzdłuż płyt i schodów. Pierwszą jest Wąż Pierzasty. Jego rzeźbiona w pełnej bryle głowa wyrasta z korony płatków i jest otoczona ślimakami i muszlami, jakby pływał w pierwotnych wodach stworzenia. Druga postać przez dziesięciolecia zaskakiwała archeologów. Z powodu dwóch pierścieni na czole uważano, że to Tláloc, bóg deszczu. Dziś wielu specjalistów interpretuje ją jako nakrycie głowy Cipactli, potwornego krokodyla Ziemi i symbolu pierwszego dnia kalendarza. Według tego odczytania wąż niesie na grzbiecie początek czasu.\n\nSzacuje się, że budynek zdobiło od trzystu do czterystu takich głów, wysokich na blisko metr. I wszystkie były pomalowane. Wyobraź sobie tę ścianę w całości, lśniącą, widzianą z placu pełnego ludzi.\n\nDaty nie są dokładne: badania umieszczają budowę między stupięćdziesiątym a dwustupięćdziesiątym rokiem. Jednak to, co najbardziej poruszające, znajdowało się pod posadzką. Zanim wzniesiono świątynię, około roku dwusetnego, pochowano tu dziesiątki ludzi. Archeolodzy Rubén Cabrera i Saburo Sugiyama odnaleźli szczątki stu trzydziestu siedmiu osób, ułożonych w wielkim porządku, z rękami związanymi na plecach. Jeśli doliczyć obszary, których nie przebadano, szacuje się, że było ich od dwustu do dwustu sześćdziesięciu.\n\nKim byli? Analizy tlenu w ich kościach i zębach przyniosły niespodziankę. Pochodzili z różnych regionów Mezoameryki, ale większość z nich mieszkała w Teotihuacán od lat. To nie byli zwykli jeńcy, którzy dopiero co przybyli. Jedna hipoteza głosi, że byli to cudzoziemcy na służbie władcy, może gwardziści elity, ponieważ mieli bardzo podobne i bardzo bogate stroje i dary ofiarne. To hipoteza, nie pewność. Inne pomysły zakładają, że byli sługami założyciela dynastii albo że poświęcono ich Wężowi Pierzastemu lub samej budowli. Razem z nimi pochowano skarb: mówi się o około stu tysiącach cennych przedmiotów.\n\nJeszcze jedna rzecz o historii tej budowli. Około stu lat po jej wzniesieniu, około roku trzysta pięćdziesiątego, fasadę przykryła Platforma Dobudowana, na którą przed chwilą weszłaś lub wszedłeś. Spiera się o powód. Jedno odczytanie mówi o zmianie we władzach wewnętrznych miasta, inne o pełnym szacunku rytualnym pochówku. Boki, które nie zostały przykryte, zniszczono w nieznanym czasie, i dlatego ukryta część zachowała się najlepiej.\n\nMiędzy rokiem tysiąc dziewięćset siedemnastym a tysiąc dziewięćset dwudziestym drugim archeolog Manuel Gamio otworzył przejście, w którym teraz stoisz. Przywrócił światłu fasadę, której nikt nie widział od ponad tysiąca pięciuset lat."
+    },
+    "retos_observacion": {
+      "hash": "cffc59d3095db4b0",
+      "texto": [
+        "Wejdź na Platformę Dobudowaną i zajrzyj do tylnego przejścia, aby zobaczyć z frontu pierwotne kondygnacje schodkowe",
+        "Rozpoznaj obie głowy: Węża Pierzastego otoczonego płatkami oraz łuskowate nakrycie głowy Cipactli z dwoma pierścieniami i bez żuchwy",
+        "Poszukaj w skarpach i międzykolumniach reliefów ze ślimakami i muszlami morskimi"
+      ]
+    },
+    "especificaciones": {
+      "hash": "750d48419595a14e",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Wczesny klasyk (około 200 n.e.; zamknięta około 350 n.e.)",
+        "Materiał": "Rzeźbiony kamień wulkaniczny, stiuk i malowidła ścienne",
+        "Konstrukcja": "Siedem pierwotnych kondygnacji w układzie talud-tablero z 366 kamiennymi głowami",
+        "Odkrycie": "Odsłonięta przez Manuela Gamio (1917-1922); pochówki przebadano w latach osiemdziesiątych",
+        "Pochodzenie": "Cytadela, Teotihuacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "24ae0f14d4a7a0b6",
+      "texto": {
+        "pregunta": "Mit: Głowy z pierścieniami na czole przedstawiają boga deszczu, Tláloca.",
+        "respuesta": "Rzeczywistość: Najnowsze badania ikonograficzne wykazują, że przedstawiają one Cipactli, kajmana lub potwora Ziemi i znak pierwszego dnia kalendarza rytualnego."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "teo_17_plaza_columnas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "62b3b5e88d9d0695",
+      "texto": "Plac Kolumn: maiańska ambasada"
+    },
+    "frase_gancho": {
+      "hash": "7db6c1ec0cb127ab",
+      "texto": "Tutaj pochowano kości, naczynia i malowidła z odległych krain, i to wszystko celowo."
+    },
+    "puente_narrativo": {
+      "hash": "e4519f6dfab5e34e",
+      "texto": "Przejdź ostatnie metry na północ: przed tobą otwiera się wielki teatr ceremonialny Placu Księżyca."
+    },
+    "guion_corto": {
+      "hash": "c8754ffa3f4a92bc",
+      "texto": "Stoisz na Placu Kolumn, wielkim zespole placów i świątyń przy Alei. Tutaj zespół pod kierunkiem Saburo Sugiyamy znalazł ogromne depozyty ofiarne. W jednym było ponad dwa tysiące czterysta ludzkich szczątków. W innym tysiące kości zwierząt i kawałki malowideł ściennych w stylu maiańskim. Wszystko zostało pogrzebane z zamierzeniem. Co to oznacza, wciąż jest przedmiotem dyskusji. Pomyśl, że pod tymi posadzkami kryją się depozyty zamknięte przed wiekami."
+    },
+    "guion_largo": {
+      "hash": "4e663feb14ffdf5b",
+      "texto": "Badacze znaleźli tutaj bardzo duże depozyty ofiarne, starannie pogrzebane wewnątrz budowli. Tak zwany Depozyt ofiarny A jeden skrywał ponad dwa tysiące czterysta ludzkich szczątków. Niektóre zęby były piłowane albo miały wstawki z metalu, a co najmniej trzy czaszki nosiły ślady deformacji czaszki. Depozyt ofiarny D jeden zawierał około trzech tysięcy pięciuset kości, w większości zwierzęcych, oraz około dziesięciu tysięcy fragmentów ceramiki. Był tam także wapień i gips z wizerunkami w stylu maiańskim. Odkryto ponadto ponad tysiąc fragmentów malowideł ściennych w stylu maiańskim, które prawdopodobnie zostały zburzone celowo. W innym depozycie ofiarnym znajdowały się morskie kamienie i szkielet małpy pająkowatej. Archeolodzy sądzą, że wszystko to było częścią wielkich uroczystości, może po to, by zawierać sojusze z innymi ludami. To jest interpretacja, a nie udowodniony fakt. Jest jeszcze inny temat sporny. Teksty Majów mówią, że człowiek zwany Siyaj Kak przybył do Tikal w styczniu roku trzysta siedemdziesiątego ósmego. Wielu wiązało go z Teotihuacán. Te odkrycia sprawiają, że niektórzy eksperci widzą relacje bardziej złożone niż zwykły podbój. Kiedy idziesz, wyobraź sobie pod swoimi stopami te zamknięte depozyty."
+    },
+    "retos_observacion": {
+      "hash": "297ae6927a9c1ea3",
+      "texto": [
+        "Przyjrzyj się pagórkom i platformom po zachodniej stronie Alei Zmarłych, tuż przed wejściem na Plac Księżyca",
+        "Zwróć uwagę na ich bezpośrednie sąsiedztwo z wielkimi kompleksami władzy na północy (Xalla na wschodzie i Księżyc na północy)",
+        "Zobacz na ekranie swojej aplikacji fragmenty glifów i postaci w stylu maiańskim odzyskane podczas tych wykopalisk"
+      ]
+    },
+    "especificaciones": {
+      "hash": "484096401c2c0119",
+      "texto": {
+        "Kultura": "Teotihuacán w interakcji z elitą Majów z okresu Wczesnego klasyku",
+        "Okres": "Klasyk (szczyt dyplomatyczny między 300 a 450 n.e.)",
+        "Znaleziska": "Ponad 500 fragmentów malowideł w stylu maiańskim, ceramika z Petén i pozostałości uczt z kakao",
+        "Lokalizacja": "Zachodnia flanka Alei Zmarłych, przylegająca do Placu Księżyca"
+      }
+    },
+    "faq_mito": {
+      "hash": "a027e54003c349ae",
+      "texto": {
+        "pregunta": "Mit: Majowie i mieszkańcy Teotihuacán żyli w różnych epokach i nie mieli ze sobą bezpośredniego kontaktu.",
+        "respuesta": "Rzeczywistość: Współistnieli w okresie Klasyku; maiańscy szlachcice mieszkali w tej części Teotihuacán, a państwo Teotihuacán ingerowało bezpośrednio w miasta Majów, takie jak Tikal i Copán, w IV wieku."
+      }
+    }
+  }
+}

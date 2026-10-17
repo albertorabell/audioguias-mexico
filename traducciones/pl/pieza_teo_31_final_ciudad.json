@@ -1,0 +1,54 @@
+{
+  "id": "teo_31_final_ciudad",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e2914c7686a232e1",
+      "texto": "Koniec Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "02bd1aaa113e8b45",
+      "texto": "Miasto stanęło w płomieniach, ale nikt nie wie na pewno dlaczego."
+    },
+    "puente_narrativo": {
+      "hash": "2757ce6b50929179",
+      "texto": "Gdy stawiasz ostatnie kroki w stronę wyjścia, posłuchaj naszego epilogu: co się stało, gdy Mexica znaleźli te opustoszałe ruiny i jak archeolodzy przywrócili je światłu."
+    },
+    "guion_corto": {
+      "hash": "dcac2ef29f5ce616",
+      "texto": "Około roku pięćset pięćdziesiątego niektóre z najważniejszych budowli Alei zostały splądrowane i spalone. Ogień dotknął przede wszystkim budowli elity. Nie ma śladów obcej armii. Eksperci przypuszczają, że był to wewnętrzny bunt albo kryzys wywołany suszą i głodem. Wciąż trwa spór o to, jak długo trwał ten koniec i jak przebiegał. To, na co patrzysz dziś, to pozostałość miasta, które było ogromne."
+    },
+    "guion_largo": {
+      "hash": "78e4f3c64e20287f",
+      "texto": "Około roku pięćset pięćdziesiątego naszej ery Teotihuacán przeżyło potężny cios. Splądrowano i spalono ważne monumenty. Ogień skupił się na budowlach klasy rządzącej wzdłuż Alei Zmarłych. W pałacach takich jak Xalla rzeźby zostały roztrzaskane. Daty pożarów, określone za pomocą badań magnetyzmu, wskazują na połowę szóstego wieku. Badacze nie znaleźli śladów obcej inwazji. Dlatego proponuje się kilka wyjaśnień. Jedno z nich to wewnętrzny bunt ludzi, którzy zaatakowali tych, którzy rządzili. Inne to kryzys klimatyczny i żywnościowy. W roku pięćset trzydziestego piątego i pięćset trzydziestego szóstego w wielu częściach świata wystąpiły silne zjawiska klimatyczne. Niektórzy wiążą je z możliwą erupcją wulkanu Ilopango. W Teotihuacán kości dzieci z szóstego wieku noszą ślady niedożywienia. Długotrwała susza mogła pogłębić problem. Niektórzy dodają, że zaczęły rosnąć inne ośrodki, takie jak Xochicalco, choć to tylko jedna z możliwości. Żadna z tych idei nie jest rozstrzygnięta. Być może przyczyn było kilka naraz. Xalla, jeden z tych pałaców, zajmuje około pięćdziesięciu pięciu tysięcy metrów kwadratowych, z dwudziestoma dziewięcioma budowlami i ośmioma placami. Spora część zniszczeń skupia się w strukturach takich jak ta. Możliwe, że ci, którzy rozbijali rzeźby, dobrze wiedzieli, co niszczą, bo celowali w symbole władzy. To pomysł, nie fakt. Miasto liczące około stu tysięcy ludzi nie opróżnia się w tydzień. Ile lat trwał ten koniec, wciąż się bada. Wygląda na to, że władza centralna bardzo osłabła. Miasto przestało mieć siłę, którą kiedyś miało. Kiedy będziesz patrzeć na te budowle, pamiętaj, że wznoszono je przez wieki, a ich koniec był procesem, a nie jednym dniem."
+    },
+    "retos_observacion": {
+      "hash": "1e55bdcb896388b5",
+      "texto": [
+        "Spójrz ostatni raz na długą linię świątyń i pałaców Alei Zmarłych: wszystkie one spłonęły jednocześnie około roku 550 n.e.",
+        "Wyobraź sobie kontrast między płonącym centrum ceremonialnym a dwoma tysiącami zespołów mieszkalnych na obrzeżach, które ocalały",
+        "Pomyśl o tym, jak idee, bogowie i sztuka Teotihuacán przetrwały, wędrując do Xochicalco, Cacaxtla i do świata Mexica"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f67c2f282bc871c9",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Data wielkiego pożaru": "Około 550 n.e. (± 20 lat, datowane archeomagnetyzmem i węglem 14)",
+        "Zbiegające się przyczyny": "Megasusza VI wieku, kryzys żywnościowy, zerwanie szlaków handlowych i wewnętrzny bunt przeciwko elicie",
+        "Miasta przyjmujące diasporę": "Cacaxtla, Xochicalco, Cantona, Teotenango i El Tajín"
+      }
+    },
+    "faq_mito": {
+      "hash": "32130bd7f521dabf",
+      "texto": {
+        "pregunta": "Mit: Teotihuacán zostało zniszczone nagle przez najazd Czichimeków z północy.",
+        "respuesta": "Rzeczywistość: Ślady ognia i wybiórczych zniszczeń, skupione wyłącznie na budynkach władzy przy Alei Zmarłych, wskazują na wewnętrzny bunt wywołany latami suszy i kryzysem społecznym."
+      }
+    }
+  }
+}

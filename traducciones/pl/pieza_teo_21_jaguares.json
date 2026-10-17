@@ -1,0 +1,55 @@
+{
+  "id": "teo_21_jaguares",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc74b535fb871648",
+      "texto": "Pałac Jaguarów"
+    },
+    "frase_gancho": {
+      "hash": "4e1f3c73ddf683f9",
+      "texto": "Jaguar, który dmie w muszlę pokrytą piórami."
+    },
+    "puente_narrativo": {
+      "hash": "9d28eeec92c5a12f",
+      "texto": "W tym samym zespole schody schodzą pod posadzką pałacu do podziemnej świątyni, którą budowniczowie zasypali nietkniętą."
+    },
+    "guion_corto": {
+      "hash": "f7de04f9863fe097",
+      "texto": "To Dziedziniec Jaguarów, obok Pałacu Quetzalpapálotl. Na jego murach są malowidła kotów z wielką muszlą w pysku, jakby w nią dęły. Z muszli wychodzą pióra, a w ramie widać twarz, która może należeć do Tláloca, boga deszczu. Inne koty mają ciało pokryte jakby siecią. Wciąż się spiera, co to znaczy. Zwróć uwagę, ile szczegółów mieści się na jednym murze."
+    },
+    "guion_largo": {
+      "hash": "0b37c656ce22f799",
+      "texto": "Podcienia tego dziedzińca zachowały dwa malowidła. Na jednym bogato zdobione koty kroczą w procesji. W pysku trzymają instrument zrobiony z wielkiej muszli z piórami. Ciało mają wydłużone, ciemnoczerwone, a na głowie ozdobę z pięciu długich piór. Wzdłuż grzbietu biegnie rząd muszelek. Spod jednej łapy spadają trzy czerwone krople. Rama ma ozdobę z piór i twarz, która może być Tlálocem, wewnątrz gwiazdy. Na drugim malowidle są małe jaguary o zielonym ciele z niebieską siecią. Mają okrągłe oko, długi, zakrzywiony kieł i pióropusz z zielonych piór. Towarzyszą im dwie ludzkie dłonie. Badacze nie są zgodni co do tego, co to znaczy. Jedni sądzą, że muszla wzywała do wojny. Inni wiążą ją z deszczem i wodą, ze względu na obecność Tláloca. Zaproponowano też, że gwiazda to Wenus. To przypuszczenia, nie pewniki. Kim byli ci, którzy tu mieszkali, również nie wiadomo. Możesz za to spokojnie popatrzeć i zobaczyć, ile szczegółów mieści się na jednym murze."
+    },
+    "retos_observacion": {
+      "hash": "0b75af980d348e72",
+      "texto": [
+        "Podejdź do murów podcieni dziedzińca i odszukaj rudawego jaguara z zielonym pióropuszem, który trzyma morską muszlę",
+        "Rozpoznaj przed muszlą zwój dźwięku i krople płynu spadające z trąbki",
+        "Odszukaj we fryzach i pomieszczeniach bocznych twarze Tláloca wewnątrz pięcioramiennych gwiazd oraz koty pokryte niebieską siecią"
+      ]
+    },
+    "especificaciones": {
+      "hash": "37ed4013cedce97d",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Późny klasyk (faza Xolalpan, ok. 450-550 n.e.)",
+        "Technika": "Malowidło ścienne al fresco na stiuku z hematytem, ochrą, zielenią malachitową i błękitem",
+        "Kluczowe motywy": "Jaguary grające na Pierzastych Muszlach, koty z siatkowym wzorem i gwiazdy Wenus z Tlálocem",
+        "Lokalizacja": "Przylega od zachodu do Pałacu Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "cdce351d3062d6cc",
+      "texto": {
+        "pregunta": "Mit: Jaguary w sztuce Teotihuacán przedstawiały wyłącznie wojnę i zniszczenie.",
+        "respuesta": "Rzeczywistość: W Teotihuacán jaguar był ściśle związany z jaskiniami, nocą i grzmotem; dlatego tutaj gra na muszli morskiej, by przywołać deszcz."
+      }
+    }
+  }
+}

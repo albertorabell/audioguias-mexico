@@ -1,0 +1,55 @@
+{
+  "id": "teo_27_tetitla",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b3ba7fd7b44ff8a8",
+      "texto": "Tetitla: człowiek-jaguar i dłonie z jadeitu"
+    },
+    "frase_gancho": {
+      "hash": "e9ef71502f9125c2",
+      "texto": "Dom o malowanych ścianach: jaguary, czerwone orły, boginie z jadeitu i być może handlarze muszli."
+    },
+    "puente_narrativo": {
+      "hash": "6075601965b56790",
+      "texto": "Idź ścieżką jeszcze kilka minut na zachód, aż do zespołu Atetelco: tam przejdziemy od bogactwa rodzinnego do sanktuarium wojowniczych bractw."
+    },
+    "guion_corto": {
+      "hash": "e44af23c6f82eb3d",
+      "texto": "Jesteś teraz w Tetitli, jednym z największych zespołów mieszkalnych Teotihuacán. Znanych jest tu około trzydziestu ośmiu murali, a większość z nich wciąż znajduje się w miejscu, w którym je namalowano. Przejdź się po portykach i wypatruj pomarańczowych kotowatych, czerwonych orłów z rozpostartymi skrzydłami, muszli morskich i malowideł, które specjaliści nazywają Boginiami z Jadeitu. Archeolodzy wyróżniają tu pięć etapów budowy, a malowidła nie pochodzą wszystkie z tego samego czasu."
+    },
+    "guion_largo": {
+      "hash": "5b139d6603341a58",
+      "texto": "Zatrzymaj się najpierw przy portykach orłów. Portyk Dwudziesty Piąty znany jest jako Portyk Czerwonych Orłów, a pas piór miał pierwotnie intensywnie czarną barwę, która dziś zanikła. W pobliżu Portyk Trzynasty ukazuje pomarańczowe kotowate, a Portyk Jedenasty Boginie z Jadeitu. W innych pomieszczeniach postać w stroju jaguara kroczy ku świątyni, a poza tym pojawiają się muszle morskie, ptaki i postaci, które zdają się nurkować.\n\nTe ściany mają swoją historię. Budowę domu rozpoczęto między dwusetnym a trzysetnym rokiem naszej ery, a rozbudowywano go aż do ostatnich wieków istnienia miasta. Archeolodzy wyróżniają pięć etapów budowy. Malowidła, które widzisz, nie pochodzą wszystkie z tej samej epoki. Niektóre propozycje umieszczają je w przedziale dwóch i pół wieku, a wciąż trwa dyskusja, kiedy powstało każde z nich.\n\nMurale wiele przeszły. W latach czterdziestych prywatny właściciel wywiózł część malowideł, zanim INAH wywłaszczył teren w tysiąc dziewięćset czterdziestym czwartym roku. Fragment klęczącego jaguara znajduje się dziś w Dumbarton Oaks, w Stanach Zjednoczonych. Potem murale były wystawione na działanie czynników przez około sześćdziesiąt lat, a dziś czekają jeszcze zabiegi konserwatorskie.\n\nKto tu mieszkał? To jedno z otwartych pytań. Séjourné uważał, że był to ośrodek religijny, ponieważ znaleziono niewiele ceramiki użytku domowego. Jorge Angulo zaproponował, że była to rezydencja, pałac, a nawet ośrodek władzy. Inni badacze twierdzą, że mieszkańcy byli kupcami wyspecjalizowanymi w sprowadzaniu muszli morskich z obszaru Majów. Ta idea opiera się na motywach muszli i nurków na muralach, na ceramice i na darach ofiarnych. To hipoteza, a nie udowodniony fakt.\n\nI jeszcze jedno. W jednym z wykopów, w dwa tysiące ósmym roku, odnaleziono fragmenty malowideł ściennych pod betonową posadzką. To znak, że w tym domu wciąż jest zakopana farba."
+    },
+    "retos_observacion": {
+      "hash": "5bd19734d8c00c16",
+      "texto": [
+        "Przechodź przez portyki, aż znajdziesz kotowate lub ludzi-jaguary w profilu, z jednym kolanem opartym o ziemię, zwróconych ku świątyni",
+        "Poszukaj muralu z zieloną postacią o rozpostartych ramionach, z której dłoni spadają kaskady paciorków z jadeitu i muszli",
+        "Wypatruj na innych ścianach orłów namalowanych en face, z rozpostartymi skrzydłami, oraz bordiur z gwiazdami Wenus"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a59cbe2db86c4055",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (murale widoczne około 400-550 n.e.; 5 nakładających się etapów budowy)",
+        "Wymiary": "Kwadratowy kwartał o wymiarach około 70 x 70 m (4 900 m²)",
+        "Murale na miejscu": "Klęczący człowiek-jaguar, Bogini z dłońmi z jadeitem, orły królewskie, nurkowie zbierający muszle i glify Wenus",
+        "Lokalizacja": "Trasa Południowo-Zachodnia, obok Zacuala"
+      }
+    },
+    "faq_mito": {
+      "hash": "f5c14317a35a64eb",
+      "texto": {
+        "pregunta": "Mit: Tylko wielkie piramidy Alei Zmarłych miały dekoracje artystyczne.",
+        "respuesta": "Rzeczywistość: Dzielnicowe zespoły mieszkalne, takie jak Tetitla, zachowują ponad sto oryginalnych murali, malowanych techniką fresku na dziedzińcach, w korytarzach i w prywatnych pokojach."
+      }
+    }
+  }
+}

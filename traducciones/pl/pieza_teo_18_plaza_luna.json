@@ -1,0 +1,55 @@
+{
+  "id": "teo_18_plaza_luna",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9af37ca9ed2ff2e4",
+      "texto": "Plac Księżyca i trzynaście ołtarzy"
+    },
+    "frase_gancho": {
+      "hash": "781a3cf91868679d",
+      "texto": "Wielki plac, na którym wciąż odkrywa się doły, zielone kamienie i tajemnice ukryte pod posadzką."
+    },
+    "puente_narrativo": {
+      "hash": "02ce4775c5fd0d0e",
+      "texto": "Przejdź teraz przez esplanadę i podejdź do stóp wielkiej piramidy w głębi, by odkryć sześć budowli i ofiary, które kryje w swoim wnętrzu."
+    },
+    "guion_corto": {
+      "hash": "5aac4ce286c8bd39",
+      "texto": "Oto Plac Księżyca, na końcu Alei. Wielu naliczą dwanaście podstaw dookoła i jeden ołtarz pośrodku, w sumie trzynaście. Od dwa tysiące piętnastego roku INAH prowadzi wykopaliska przy Strukturze A. Odkryto głębokie doły, otwory w posadzkach i zielone kamienie ustawione pionowo. Specjaliści sądzą, że służyły do celów rytualnych, ale nie zostało to jeszcze potwierdzone."
+    },
+    "guion_largo": {
+      "hash": "99da29875b24d155",
+      "texto": "To jest Plac Księżyca, na północ od Alei. Wielu autorów nalicza dwanaście podstaw dookoła i jeden ołtarz pośrodku. W sumie jest ich trzynaście, a to liczba ważna w kalendarzu mezoamerykańskim. Do takiej interpretacji trzeba podchodzić ostrożnie. Najnowsze odkrycia leżą pod posadzką. Od dwa tysiące piętnastego roku INAH prowadzi wykopaliska przy tak zwanej Strukturze A, pod kierunkiem Verónici Ortegi Cabrery. Struktura ta została odbudowana między tysiąc dziewięćset sześćdziesiątym drugim a sześćdziesiątym czwartym rokiem. W tamtych czasach nie badano podłoża. Teraz odnaleziono doły i otwory w posadzkach, zarówno wewnątrz budowli, jak i na placu. Niektóre doły mają około dwóch metrów na dwa i pół, przy trzech metrach głębokości. Znajdowały się w nich monolity z zielonego kamienia ustawione pionowo, niektóre ważące ponad pół tony. Małe doły kryły otoczaki i fragmenty muszli. Nadal nie wiadomo, do czego służyły. Specjaliści myślą o rytualnym wykorzystaniu placu i Piramidy Księżyca, ale nie zostało to potwierdzone. Powstaje plan, który ma pokazać, czy te zagłębienia tworzą jakiś wzór. W pobliżu tego miejsca odnaleziono wielką rzeźbę Chalchiuhtlicue, która ma ponad trzy metry wysokości i waży około dwudziestu ton. W tysiąc osiemset dziewięćdziesiątym roku przewieziono ją do Miasta Meksyk koleją i na wozie ciągniętym przez muły. Dziś zobaczysz ją w Narodowym Muzeum Antropologii."
+    },
+    "retos_observacion": {
+      "hash": "d8cd689413d55f98",
+      "texto": [
+        "Policz ze środka esplanady dwanaście podstaw, które cię otaczają, i dodaj centralną Strukturę A, aby uzupełnić trzynaście poziomów nieba",
+        "Ustaw wzrok od Struktury A w stronę Piramidy Księżyca i zobacz, jak dokładnie otacza ona szczyt góry Cerro Gordo",
+        "Wypatruj w narożnikach centralnej platformy wylotów dawnych kanałów rytualnych"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e91f73f7d6659e6a",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (ok. 100-550 n.e.)",
+        "Układ": "Zamknięty plac otoczony 12 podstawami w stylu skarpy i panelu oraz centralnym ołtarzem (Struktura A)",
+        "Kluczowe znaleziska": "Monumentalna rzeźba Chalchiuhtlicue, figurki z jadeitu i rytualny system hydrauliczny z otoczakami (Verónica Ortega, INAH)",
+        "Pochodzenie": "Północny kraniec Alei Zmarłych"
+      }
+    },
+    "faq_mito": {
+      "hash": "2465153319b54016",
+      "texto": {
+        "pregunta": "Mit: Plac Księżyca był po prostu pustą esplanadą do zgromadzeń.",
+        "respuesta": "Rzeczywistość: Pełnił funkcję kosmogramu z trzynastu ołtarzy, z kanałami hydraulicznymi i rzecznymi kamieniami, które zamieniały posadzkę w rytualny pejzaż wodny."
+      }
+    }
+  }
+}

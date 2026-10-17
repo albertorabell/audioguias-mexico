@@ -1,0 +1,56 @@
+{
+  "id": "teo_07_experiencia_calzada",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a9996968b2314ebe",
+      "texto": "Spacer Aleją Zmarłych"
+    },
+    "frase_gancho": {
+      "hash": "51f4aa454344ea50",
+      "texto": "Czterdziestometrowej szerokości aleja, która była osią całego miasta."
+    },
+    "puente_narrativo": {
+      "hash": "cbdaa1456a1422a5",
+      "texto": "Jeśli idziesz pełną trasą, podejdź do budynków po lewej stronie, by odkryć świątynie ukryte jedna w drugiej; jeśli idziesz trasą ekspresową, kieruj się dalej na północ, aż po prawej stronie zobaczysz wielki Mural Pumy."
+    },
+    "guion_corto": {
+      "hash": "fc4c7f94a404343f",
+      "texto": "Stoisz na Alei Zmarłych, osi Teotihuacán. Ma około czterdziestu metrów szerokości. Mexikowie nazwali ją Micaohtli i dlatego sądzono, że znajdują się tam groby. Większość badaczy odrzuciła już ten pomysł, ponieważ pochówków jest tam niemal zupełnie brak. Poprzeczna ulica dzieli miasto na cztery strefy. Idź powoli i zwróć uwagę, jak budynki pojawiają się i znikają, gdy je mijasz."
+    },
+    "guion_largo": {
+      "hash": "8be26eea44610eaa",
+      "texto": "Aleja Zmarłych jest główną osią Teotihuacán. Jej szerokość wynosi około czterdziestu metrów. Co do jej długości źródła się nie zgadzają. Jedne mówią o mniej więcej trzech kilometrach, inne o czterech lub dwóch. Mexikowie nazwali ją Micaohtli, co tłumaczy się jako droga zmarłych. Sądzono, że po jej bokach znajdują się groby królów. Takich pochówków prawie nie odnaleziono, więc większość badaczy porzuciła ten pomysł. Mimo to nazwa pozostała. W wielu miejscach aleja jest przerwana, tworząc dziedzińce przy ogromnych budowlach. Poprzeczna aleja przecina Aleję Zmarłych i dzieli miasto na cztery kwadranty. Ten plan opiera się na siatce, której przestrzega niemal każdy budynek. Gdy idziesz, zwróć uwagę na wrażenie ruszania i zatrzymywania się. Mury i place zmuszają cię do zmiany tempa. Nie wiemy, czy budowniczowie chcieli wywołać jakiś efekt u idących. Ale ty możesz go zauważyć. Jeśli chcesz, klaśnij w dłonie i posłuchaj. Nie ma pewności, że dźwięk był częścią projektu, ale zawsze fajnie jest spróbować."
+    },
+    "retos_observacion": {
+      "hash": "edeb8c1896d5d0c5",
+      "texto": [
+        "Stań tuż u stóp jednego z poprzecznych murów i zauważ, jak na chwilę znika widok na koniec Alei",
+        "Klaśnij mocno w dłonie przed ścianami o skośnej podstawie i prostokątnym panelu, by usłyszeć akustyczne odbicie",
+        "Poszukaj tuż przy ziemi kwadratowych kamiennych otworów, którymi odpływała deszczówka z każdego placu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "98783113022c6ad8",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (wytyczona formalnie około 150-250 n.e.)",
+        "Całkowita długość": "ponad 5 km (około 2 km do zwiedzania w strefie monumentalnej)",
+        "Szerokość": "40 do 50 m",
+        "Projekt": "Oś północ-południe podzielona stopniowanymi placami z odwodnieniem deszczowym",
+        "Pochodzenie": "Centralna oś Teotihuacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "b9ecc995b6557228",
+      "texto": {
+        "pregunta": "Mit: Aleja Zmarłych to płaska droga przeznaczona do szybkiego przemieszczania się.",
+        "respuesta": "Rzeczywistość: Jest podzielona murami i różnicami poziomów, które regulowały odpływ deszczówki i tworzyły rytualną trasę wznoszenia się i schodzenia w kierunku północy."
+      }
+    }
+  }
+}

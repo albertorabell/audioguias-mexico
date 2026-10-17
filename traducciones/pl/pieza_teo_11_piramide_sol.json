@@ -1,0 +1,56 @@
+{
+  "id": "teo_11_piramide_sol",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1f1088c7704a4433",
+      "texto": "Piramida Słońca"
+    },
+    "frase_gancho": {
+      "hash": "6284057064e1b14c",
+      "texto": "Góra zbudowana ludzkimi rękami: ponad milion metrów sześciennych ziemi wzniesionych w jednym etapie."
+    },
+    "puente_narrativo": {
+      "hash": "bac60da5ed83a96c",
+      "texto": "Jeśli idziesz pełną trasą, zostań przed centralnymi schodami, by przejrzeć promieniami rentgenowskimi jaskinię ukrytą pod piramidą; jeśli wybrałeś trasę ekspresową, obejdź monument od prawej strony, by wejść do Muzeum Stanowiska."
+    },
+    "guion_corto": {
+      "hash": "5281c4611baae3cf",
+      "texto": "Stań pośrodku tego placu i unieś wzrok ku kolosowi, który góruje nad całą doliną. Stoisz przed Piramidą Słońca: ma sześćdziesiąt sześć metrów wysokości i dwieście dwadzieścia cztery metry długości każdego boku. W odróżnieniu od innych świątyń mezoamerykańskich, które rosły powoli, przez stulecia dokładając kolejne warstwy, ta sztuczna góra o objętości ponad miliona metrów sześciennych powstała w jednym wielkim etapie budowy, między pierwszym a drugim wiekiem. Nazwę Piramida Słońca nadali jej Mexikowie; dla tych, którzy ją zbudowali, była świętą górą. Przy takim słońcu i na takiej wysokości w tej dolinie wypij trochę wody, zanim ruszysz dalej."
+    },
+    "guion_largo": {
+      "hash": "fac8040029e6bf7f",
+      "texto": "Najbardziej zaskakujące w tym olbrzymie jest to, co kryje w środku. Nie ma tam wielkich ciosanych bloków. Jej budowniczowie wypełnili ją ziemią, tepetate i piaskiem, aż osiągnęła objętość nieco ponad miliona metrów sześciennych, i wznieśli ją w czterech kondygnacjach. Później, między dwusetnym a trzysta pięćdziesiątym rokiem, dodali warstwę o grubości prawie sześciu metrów. Przykryła ona fasady północną, wschodnią i południową, a powstała inną techniką budowy. Dlaczego to zrobili, nadal nie wiadomo. Podaje się przyczyny konstrukcyjne, ideologiczne i polityczne.\n\nSpójrz na budowlę wystającą u stóp schodów, od strony Alei. To Platforma Przylegająca, złożona z trzech małych platform przytulonych do fasady zachodniej. Zbudowano ją później niż piramidę, w co najmniej czterech etapach, a zdobiły ją ciężkie rzeźby kotowatych, pierzastych węży i istot fantastycznych, a także malowidła ścienne. Na podstawie porównania z malowidłami z Atetelco i Tetitli sądzi się, że przedstawiały kotowate w procesji.\n\nBudowniczowie ukryli też wewnątrz budowli ofiary, wzdłuż osi biegnącej ze wschodu na zachód, blisko naturalnej skały. Archeolodzy znaleźli tam groty z obsydianu, naczynia z twarzą Tláloca, muszle morskie, krążki z łupku, maskę z zielonego kamienia oraz szczątki orła, węży, pum, wilków i kondora. W wypełnisku odkryto także dziecko w wieku od czterech do sześciu lat, z celowo zdeformowaną głową. Badacze tych ofiar widzą w nich sposób konsekracji budowli jako świętej góry. Mogłyby też być sposobem obwieszczenia politycznej i religijnej potęgi miasta.\n\nTa piramida także odmierza czas. Jej fasada zwrócona jest tam, gdzie zachodzi Słońce pod koniec kwietnia i w połowie sierpnia. Między zachodem sierpniowym a kwietniowym następnego roku mija dwieście sześćdziesiąt dni, czyli rachuba kalendarza rytualnego. Wschód Słońca w tym samym kierunku, w połowie lutego i pod koniec października, także dzieli dwieście sześćdziesiąt dni.\n\nTę piramidę przemierzyli też od środka archeolodzy. W latach od tysiąc dziewięćset siedemnastego do tysiąc dziewięćset osiemnastego Manuel Gamio wykuł tunel długości dziewięćdziesięciu siedmiu metrów w kierunku środka. W tysiąc dziewięćset trzydziestym trzecim wykopano kolejny, długi na sto szesnaście metrów. Dzięki temu można było zrozumieć, jak ją zbudowano.\n\nTo, co widzisz dziś, nie jest dokładnie tym, co widzieli mieszkańcy Teotihuacán. W latach od tysiąc dziewięćset piątego do tysiąc dziewięćset siódmego Leopoldo Batres odkopał ją, umocnił i częściowo odbudował na obchody Stulecia Niepodległości. Od tysiąc dziewięćset dziesiątego roku jest częścią pierwszej strefy archeologicznej otwartej dla publiczności w Meksyku. A pod jej fundamentami znajduje się jaskinia, którą odkryto przypadkiem w tysiąc dziewięćset siedemdziesiątym pierwszym roku i o której opowiemy, jeśli pójdziesz pełną trasą.\n\nŚwieci słońce, a ty jesteś na wysokości ponad dwóch tysięcy metrów. Napij się wody, zanim ruszysz dalej."
+    },
+    "retos_observacion": {
+      "hash": "2c1cb40ee102f8af",
+      "texto": [
+        "Policz stopniowane kondygnacje piramidy i wyróżnij czwarty, węższy poziom, który pozostał po rekonstrukcji sprzed stu lat",
+        "Znajdź przed głównymi schodami Platformę Przylegającą, na której rozpalano Nowy Ogień",
+        "Patrz ze środka placu ku szczytowi, by wyobrazić sobie zachód Słońca 29 kwietnia i 13 sierpnia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "705a46c21e2c6b08",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Wczesny klasyk (I i II wiek n.e.)",
+        "Wymiary": "66 m wysokości x 224 m na bok",
+        "Objętość": "ponad 1 175 000 m³",
+        "Technika budowy": "Rdzeń z ziemi, tepetate i komór z adobe, z okładziną z kamienia wulkanicznego i stiuku",
+        "Pochodzenie": "Wschodnia strona Alei Zmarłych"
+      }
+    },
+    "faq_mito": {
+      "hash": "4d3cc7eae7570084",
+      "texto": {
+        "pregunta": "Mit: Piramida Słońca jest zbudowana z ogromnych litych bloków kamienia, jak piramidy w Egipcie.",
+        "respuesta": "Rzeczywistość: Jej wnętrze to gigantyczne, zagęszczone wypełnisko z ziemi, piasku i rozkruszonego tepetate, podtrzymywane przez mury z adobe, a z zewnątrz pokryte kamieniem i stiukiem pomalowanym na czerwono."
+      }
+    }
+  }
+}

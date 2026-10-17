@@ -1,0 +1,57 @@
+{
+  "id": "teo_00_vistazo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "30985fc7fcc29f13",
+      "texto": "Teotihuacán w pigułce"
+    },
+    "frase_gancho": {
+      "hash": "a4e9ec31641e2db7",
+      "texto": "Miasto wytyczone przy pomocy linijki i nieba, dwa tysiące lat temu."
+    },
+    "puente_narrativo": {
+      "hash": "764cb13bf3c2379a",
+      "texto": "Udaj się na południowy kraniec alei: czeka tam na ciebie Cytadela, zapadnięty dziedziniec tak ogromny, że mieścił cały tłum."
+    },
+    "guion_corto": {
+      "hash": "81b2d03851a104e7",
+      "texto": "Zatrzymaj się na chwilę i spójrz na horyzont. Na północy krajobraz góruje wulkaniczna góra: to Cerro Gordo. Przed tobą rozciąga się miasto, które liczyło około stu tysięcy mieszkańców na obszarze około dwudziestu kilometrów kwadratowych, największe w Mezoameryce. Przyjrzyj się murom wokół ciebie: prawie wszystkie łączą pochyłą podstawę, czyli talud, z prostokątną ramą nad nią, czyli panelem. Ten wzór powtarza się na przestrzeni kilku kilometrów wzdłuż głównej osi miasta, Alei Zmarłych. Jego pierwotna nazwa przepadła; nazwę Teotihuacán nadali mu Mexikowie wieki później i zwykle tłumaczy się ją jako „miejsce, gdzie narodzili się bogowie”."
+    },
+    "guion_largo": {
+      "hash": "257dbd6a0a670d96",
+      "texto": "Prawie żadna nazwa, którą dziś usłyszysz, nie należała do tych, którzy wznieśli te kamienie. Teotihuacán to nazwa, którą nadali temu miejscu Mexikowie wieki później, gdy miasto było już puste. Mexikowie ochrzcili też główną aleję mianem Alei Zmarłych, ponieważ sądzili, że kopce po jej bokach są grobami dawnych królów. Tak nie było: to świątynie i pałace. W inskrypcjach Majów miasto pojawia się pod innym imieniem, Puh, co znaczy Miejsce Sitowia. Jak nazywali je jego własni mieszkańcy, pozostaje tajemnicą.\n\nDlaczego właśnie tutaj wyrosło miasto o takiej skali? Bo dolina miała prawie wszystko. Były źródła, żyzna ziemia i glina do budowy. Bardzo blisko leżały kopalnie obsydianu w Pachuca, wulkanicznego szkła, z którego robiono najlepsze noże i groty strzał w całej Mezoameryce. Ten obsydian sprzedawano aż do Monte Albán i Tikal, a państwo czuwało nad jego produkcją i handlem. Niektórzy badacze uważają, że przybyły tu także rodziny wysiedlone przez erupcje wulkanów w południowej części Doliny Meksyku. Dokładna kolejność tych wydarzeń wciąż budzi spory.\n\nUrbaniści wytyczyli miasto jako gigantyczną siatkę. Aleja Zmarłych biegnie z południa na północ, a dwie wielkie arterie krzyżują ją pod kątem prostym. Ale gdybyś miał przy sobie kompas, zauważyłbyś coś dziwnego: całe miasto jest obrócone o około piętnaście stopni na wschód od prawdziwej północy. Część centralna podąża za orientacją Piramidy Słońca. Jej fasada zwrócona jest tam, gdzie słońce zachodzi pod koniec kwietnia i w połowie sierpnia. Między tymi datami mija dwieście sześćdziesiąt dni, czyli rachuba kalendarza rytualnego.\n\nHistoria, którą przejdziesz, ma cztery wielkie momenty. Między pierwszym a drugim wiekiem wznoszą się piramidy Słońca i Księżyca. Około roku dwusetnego powstaje Cytadela z jej wielką świątynią. Od czwartego wieku nadchodzi szczyt rozkwitu: szacuje się, że było około dwóch tysięcy zespołów mieszkalnych, a w każdym z nich dziesiątki osób. Były też dzielnice rzemieślników i ludzi przybyłych z Oaxaca, Veracruz i z obszaru Majów.\n\nCzwarty moment to koniec. Około roku pięćset pięćdziesiątego pożar strawił budynki elit wzdłuż Alei. Nie ma śladów obcej inwazji. Wśród wyjaśnień wymienia się susze, głód i wewnętrzne bunty. Miasto nie zniknęło z dnia na dzień: wyludniało się powoli. Prawie wszystko, co dziś wiemy, archeolodzy odtwarzają od ponad stu lat, a wciąż pozostają otwarte pytania.\n\nTen przewodnik prowadzi z południa na północ, tak jak Aleja. Niektóre przystanki pokazują ci to, co masz przed oczami. Inne działają jak promienie rentgenowskie: opowiadają o tym, co ukryte pod twoimi stopami, jak tunele i zapieczętowane ofiary."
+    },
+    "retos_observacion": {
+      "hash": "07d3ef9630cfe51e",
+      "texto": [
+        "Wypatrz na północy sylwetkę Cerro Gordo, góry, która dała początek układowi miasta",
+        "Odszukaj w dowolnej pobliskiej budowli talud (pochyły mur na dole) i panel (prostokątną ramę na górze)",
+        "Spójrz wzdłuż Alei Zmarłych, by ocenić rozmiar jej prostego przebiegu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4664b3e8bd377e7c",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (1-650 n.e.)",
+        "Powierzchnia": "około 20 km²",
+        "Wysokość": "około 2 300 m n.p.m.",
+        "Aleja Zmarłych": "ponad 5 km długości i od 40 do 50 m szerokości",
+        "Szacowana liczba ludności": "od 80 000 do 200 000 mieszkańców",
+        "Pochodzenie": "Dolina Teotihuacán, Stan Meksyk"
+      }
+    },
+    "faq_mito": {
+      "hash": "08e264f25c0c4394",
+      "texto": {
+        "pregunta": "Mit: Aleja Zmarłych była cmentarzem królów.",
+        "respuesta": "Rzeczywistość: Nazwę nadali jej Mexikowie na podstawie błędnego przekonania. Budynki po jej bokach były świątyniami i rezydencjami elit."
+      }
+    }
+  }
+}

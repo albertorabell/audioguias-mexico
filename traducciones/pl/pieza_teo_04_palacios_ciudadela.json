@@ -1,0 +1,55 @@
+{
+  "id": "teo_04_palacios_ciudadela",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a89b8d317f24072b",
+      "texto": "Pałace Północny i Południowy w Ciudadeli"
+    },
+    "frase_gancho": {
+      "hash": "8c054af18224bd4e",
+      "texto": "Dwa wielkie zespoły dziedzińców po bokach świątyni, a wszystko wskazuje na to, że mieszkały tam bardzo ważne osoby."
+    },
+    "puente_narrativo": {
+      "hash": "7fe3825e8210b2a9",
+      "texto": "Wróć w stronę wejścia do Ciudadeli i spójrz na ogromny otwarty plac po drugiej stronie alei: przejdziemy od zamkniętego pałacu do wielkiego targu metropolii."
+    },
+    "guion_corto": {
+      "hash": "8ec98c97cb26e3e9",
+      "texto": "Spójrz na oba boki Świątyni Węża Pierzastego. Stoją tam wielkie zespoły dziedzińców i pomieszczeń, podobne do mieszkań, które uważa się za rezydencje elity. Ciudadela to ogromny kwadrat z piętnastoma małymi piramidami i centralnym placem. Wyobraź sobie najpotężniejszych ludzi mieszkających obok najświętszej świątyni. Prawdopodobnie pożar z szóstego wieku również je zniszczył."
+    },
+    "guion_largo": {
+      "hash": "73b11ce4c65f8246",
+      "texto": "Ciudadela to wielki, kwadratowy plac otoczony małymi piramidami, w sumie piętnastoma. Pośrodku stoi Świątynia Węża Pierzastego. Po obu stronach tej świątyni rozciągają się gęste zespoły pomieszczeń i dziedzińców, podobne do mieszkań. Specjaliści uważają, że były to rezydencje elity. To wniosek wyciągnięty pośrednio, bo nie wiadomo na pewno, kto tam mieszkał. Zwróć uwagę na położenie. Nawet największy pałac nie leży daleko od świątyni. Ten, kto tu mieszkał, miał u swego boku najważniejsze miejsce kultu. Wykopaliska Manuela Gamio, prowadzone w latach tysiąc dziewięćset siedemnaście – tysiąc dziewięćset dwadzieścia dwa, odsłoniły tę część Ciudadeli. Później inni archeolodzy nadal ją badali. Ciudadela znajdowała się też blisko Alei i wielkiej otwartej przestrzeni Wielkiego Kompleksu. Dlatego uważa się, że był to centralny punkt życia politycznego i religijnego. Prawdopodobnie pożar z połowy szóstego wieku zniszczył również te budynki, tak jak wiele budowli elity, ale tutaj nie zostało to potwierdzone. Jeśli przyjrzysz się temu spokojnie, możesz sobie wyobrazić, jak to było mieszkać tuż obok Węża Pierzastego."
+    },
+    "retos_observacion": {
+      "hash": "243b8866db9a4ccd",
+      "texto": [
+        "Znajdź dwie podwyższone platformy po lewej (północnej) i po prawej (południowej) stronie Świątyni Węża Pierzastego",
+        "Jeśli boczne przejście jest otwarte, wejdź po schodach na północnym skrzydle, żeby zobaczyć fundamenty dziedzińców i pomieszczeń",
+        "Zwróć uwagę na różnicę wysokości, z której władcy obserwowali zagłębiony dziedziniec"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fbc2876aec8805d5",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (około 200-550 n.e.)",
+        "Szacunkowa pojemność": "około 50 osób na pałac",
+        "Wykopaliska": "Ana María Jarquín i Enrique Martínez Vargas (INAH)",
+        "Pochodzenie": "Ciudadela, północne i południowe skrzydło Świątyni Węża Pierzastego"
+      }
+    },
+    "faq_mito": {
+      "hash": "f091f166a3af1ee4",
+      "texto": {
+        "pregunta": "Mit: Pałace w Ciudadeli były rezydencjami rodzinnymi z wielkimi kuchniami i magazynami.",
+        "respuesta": "Rzeczywistość: Prawie nie znaleziono przyborów kuchennych; pełniły funkcję obiektów ceremonialnych i administracyjnych, w których elita otrzymywała gotowe posiłki."
+      }
+    }
+  }
+}

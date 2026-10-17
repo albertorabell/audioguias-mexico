@@ -1,0 +1,57 @@
+{
+  "id": "teo_26_conjunto_departamental",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4fe88105d0bcefc7",
+      "texto": "Tak się tu żyło: Zacuala i Yayahuala"
+    },
+    "frase_gancho": {
+      "hash": "974ff9609e9e0ded",
+      "texto": "Mury bez okien od strony ulicy i życie zwrócone do wnętrza."
+    },
+    "puente_narrativo": {
+      "hash": "004fd9b40928edf8",
+      "texto": "Przejdź kilka metrów do sąsiedniego zespołu Tetitla: wejdziemy pod jego dachy, by z bliska zobaczyć przepych malowanych ścian bogatego domu."
+    },
+    "guion_corto": {
+      "hash": "defa77c9e8535176",
+      "texto": "Stoisz przed Zacualą i Yayahualą, dwoma z największych zespołów mieszkalnych w mieście. Przypominały otoczone murami kwartały, z murami bez okien od strony ulicy. W Teotihuacán było około dwóch tysięcy takich zespołów. W każdym mieszkały liczne rodziny, według jednych obliczeń od sześćdziesięciu do stu osób. Zmarłych chowano wewnątrz domu. Mury mówią ci o tym wprost: życie każdej rodziny toczyło się wewnątrz."
+    },
+    "guion_largo": {
+      "hash": "1eaab402ff48100e",
+      "texto": "Zacuala i Yayahuala należą do największych zespołów mieszkalnych w Teotihuacán. Spójrz na ich wysokie mury zewnętrzne. Od strony ulicy te domy miały ślepe mury i niewiele wejść. Życie toczyło się wewnątrz, na patiach i w pomieszczeniach. Archeolog Michael Smith szacuje, że w Teotihuacán było około dwóch tysięcy takich zespołów. W każdym mieszkało od sześćdziesięciu do stu osób. Zazwyczaj każda jednostka mieszkalna w obrębie zespołu liczyła od pięciu do dziesięciu mieszkańców. Zastanów się, co to znaczy. W jednym mieście istniały tysiące małych wspólnot, a każda miała własną organizację. Zespoły miały zwykle jedno lub dwa miejsca pochówku. Oznacza to, że zmarłych chowano w tym samym domu. Dziadkowie zostawali tam, gdzie mieszkała rodzina. Archeolodzy wykorzystują te informacje, by poznać codzienne życie. Zespoły bardzo różniły się wielkością i zdobieniami. Tetitla, która leży bardzo blisko, ma bardzo znane malowidła ścienne. Dopiero porównując domy, można zrozumieć miasto jako zbiór rodzin, a nie listę monumentów."
+    },
+    "retos_observacion": {
+      "hash": "54c3a8271a8f1df0",
+      "texto": [
+        "Obejdź z zewnątrz wysokie mury obwodowe Zacuali lub Yayahuali i sprawdź, że od strony ulicy nie mają absolutnie żadnych okien",
+        "Znajdź szerokie schody wejściowe po zachodniej stronie Yayahuali lub przedsionek z kolumnami w Zacuali",
+        "Zwróć uwagę, jak wewnątrz otwarte patia z centralnym ołtarzem doprowadzały do pomieszczeń światło, powietrze i wodę deszczową"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7572794739938d0c",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (ok. 250-600 n.e.)",
+        "Typologia": "Wielorodzinne zespoły mieszkalne (ponad 2000 w całym mieście)",
+        "Zacuala": "ok. 4000 m² z 13 patiami z podcieniami",
+        "Yayahuala": "kwartał o wymiarach 70 x 70 m z 3 świątyniami",
+        "Wykopaliska": "Laurette Séjourné (1955-1961)",
+        "Lokalizacja": "Obwód południowo-zachodni"
+      }
+    },
+    "faq_mito": {
+      "hash": "07a598e60ae359e2",
+      "texto": {
+        "pregunta": "Mit: Zwykli mieszkańcy Teotihuacán żyli w lichych słomianych chatach poza miastem, a zmarłych chowano na cmentarzu.",
+        "respuesta": "Rzeczywistość: Zdecydowana większość ludności mieszkała w solidnych zespołach mieszkalnych z kamienia i stiuku, z odprowadzaniem wody deszczowej, a zmarłych chowała pod podłogami własnych pomieszczeń."
+      }
+    }
+  }
+}

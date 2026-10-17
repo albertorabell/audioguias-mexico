@@ -1,0 +1,57 @@
+{
+  "id": "teo_12_tunel_sol",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "69fcf2aec6942eb5",
+      "texto": "Jaskinia pod Piramidą Słońca"
+    },
+    "frase_gancho": {
+      "hash": "927db213e73348d7",
+      "texto": "Pod Piramidą Słońca biegnie tunel, którego nikt się nie spodziewał."
+    },
+    "puente_narrativo": {
+      "hash": "ad5946b33df6e53c",
+      "texto": "Zwróć teraz wzrok ku niskim budynkom po lewej stronie tego placu: mieszkali tam kapłani opiekujący się piramidą, otoczeni jaguarami pomalowanymi na niebiesko."
+    },
+    "guion_corto": {
+      "hash": "811539f0f1afb570",
+      "texto": "Pod Piramidą Słońca znajduje się tunel i komora. Odkryto je w 1971 roku. Tunel ma około stu trzech metrów, a schodzi się do niego przez szyb głęboki na około sześć i pół metra. Dziś jest zamknięty dla zwiedzających. Pewne niedawne badanie przypuszcza, że stworzyli go mieszkańcy Teotihuacán, a nie natura. Do czego służył, wciąż jest przedmiotem dyskusji. Gdy tu stoisz, pomyśl o tym, co znajduje się tuż pod tobą."
+    },
+    "guion_largo": {
+      "hash": "24b51e6e0c6c1088",
+      "texto": "Pod Piramidą Słońca znajduje się tunel, który odkryto w 1971 roku. Wchodzi się do niego pionowym szybem o głębokości około sześciu i pół metra. Potem biegnie przejście długie na około sto trzy metry, aż do komory pod środkiem piramidy. Przez lata sądzono, że to naturalna jaskinia pochodzenia wulkanicznego. Archeolog Saburo Sugiyama i jego zespół w 2009 roku zaproponowali, że Teotihuacán zbudowali ją lub przekształcili ręcznie jej mieszkańcy. Ta myśl zmienia jej znaczenie. Oznacza, że ktoś postanowił kopać pod miejscem, na którym później wzniósł piramidę. W tunelu znaleziono ofiary, ale zdania co do tego, kiedy został zamknięty, są podzielone. Niektóre źródła mówią, że około tysiąca ośmiuset lat temu, inne datują to na lata od dwustu do dwustu pięćdziesięciu przed naszą erą. Ta różnica wciąż nie została rozstrzygnięta. Jedna z hipotez głosi, że jaskinia przedstawiała mityczne źródło świata, miejsce, z którego tryskały woda i życie. To pomysł specjalistów, a nie fakt. Dziś nie możesz zejść na dół, ale możesz sobie wyobrazić, że pod twoimi stopami biegnie ciemna droga długa na ponad sto metrów."
+    },
+    "retos_observacion": {
+      "hash": "345fab1fd1004e5c",
+      "texto": [
+        "Spójrz na podnóże głównych schodów obok Platformy Dobudowanej: tam znajduje się zasypany szyb zejściowy o głębokości 6,5 metra",
+        "Poprowadź wzrokiem linię od tego punktu do pionowej osi szczytu piramidy, gdzie kończy się komora o czterech płatkach",
+        "Zobacz w obrazach w swojej aplikacji rzut tunelu w kształcie koniczyny lub kwiatu o czterech płatach"
+      ]
+    },
+    "especificaciones": {
+      "hash": "83781b3da743dae7",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Wczesny klasyk (I-II wiek n.e.)",
+        "Długość": "103 m",
+        "Głębokość": "6,5 m",
+        "Dawne zamknięcie": "17 poprzecznych murów z tezontle i gliny",
+        "Odkrycia": "Odkryty w 1971 roku (Jorge Acosta / René Millon); złoża odkopane w latach 2008-2011 (Sugiyama i Sarabia)",
+        "Dostęp": "Zamknięty dla zwiedzających"
+      }
+    },
+    "faq_mito": {
+      "hash": "1dd06005b1c32e15",
+      "texto": {
+        "pregunta": "Mit: Jaskinia pod Piramidą Słońca to nietknięta naturalna grota.",
+        "respuesta": "Rzeczywistość: Najnowsze badania geologiczne wskazują, że została wykopana i ukształtowana na wzór kwiatu o czterech płatkach przez samych mieszkańców Teotihuacán, aby uświęcić teren przed wzniesieniem piramidy."
+      }
+    }
+  }
+}

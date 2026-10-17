@@ -1,0 +1,54 @@
+{
+  "id": "teo_14_museo_sitio",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "66afd054cdceee21",
+      "texto": "Muzeum Kultury Teotihuacán (Muzeum Terenowe)"
+    },
+    "frase_gancho": {
+      "hash": "992317afa0c39a86",
+      "texto": "Chwila przerwy, by zobaczyć miasto w miniaturze i przedmioty, które umożliwiły jego powstanie."
+    },
+    "puente_narrativo": {
+      "hash": "65bd0db587d6ce4b",
+      "texto": "Gdy wyjdziesz z muzeum, wróć na Aleję Zmarłych i idź na północ w stronę Piramidy Księżyca: w pełnej trasie odwiedzimy pałace władzy przy tej drodze, a w wersji ekspresowej dojdziemy do wielkiego Placu Księżyca."
+    },
+    "guion_corto": {
+      "hash": "1fa7bda7cc585e10",
+      "texto": "To muzeum daje ci chwilę przerwy w połowie trasy. Jeśli jest tu makieta okolicy, zobacz, jak Aleja Zmarłych porządkuje budynki. Poszukaj też przedmiotów z obsydianu, szkliwa wulkanicznego, które Teotihuacán obrabiało i wywoziło bardzo daleko. Jeśli zobaczysz ceramikę w pomarańczowym kolorze, pamiętaj, że wiele naczyń przybyło z Puebla. Przyjrzyj się twarzom i darom ofiarnym. Nadają twarz ludziom, którzy zbudowali to wszystko. Poświęć kilka minut na cień i odpoczynek."
+    },
+    "guion_largo": {
+      "hash": "2226e1a3d4cef37e",
+      "texto": "To muzeum to dobra przerwa w połowie trasy. Zanim zaczniesz oglądać gabloty, odetchnij i zorientuj się, gdzie jesteś. Jeśli znajdziesz makietę okolicy, skorzystaj z niej. Z góry widać, jak Aleja Zmarłych porządkuje zespoły budowli i place. Zwróć uwagę także na rzekę San Juan, która biegnie zgodnie z siatką ulic miasta. W gablotach poszukaj kilku przedmiotów, które znasz już z drogi. Obsydian, szkliwo wulkaniczne, obrabiano tutaj i wywożono aż do bardzo odległych miejsc. Teotihuacán zdobywało go z Pachuca. Jeśli zobaczysz naczynia w pomarańczowym kolorze, pamiętaj, że tę ceramikę wytwarzano w Puebla, to tak zwana Naranja Delgado. A jeśli są tu gliniane paleniska typu teatralnego, przyjrzyj się ich figurom i ozdobom. Były to przedmioty do spalania darów ofiarnych. Nie martw się, że nie zapamiętasz wszystkich nazw. Wystarczy, że popatrzysz na ręce, które wykonały każdy przedmiot. Za każdym eksponatem stał rzemieślnik, rodzina i dzielnica. Zanim ruszysz dalej, napij się wody i chwilę odpocznij. Gdy wyjdziesz, piramidy wydadzą ci się bliższe, bo zobaczysz rzeczy zrobione przez tych samych ludzi."
+    },
+    "retos_observacion": {
+      "hash": "05c47c98f2c8a9c2",
+      "texto": [
+        "Stań przed wielką centralną makietą i ustaw wzrok na linii z oknem w głębi sali, które obramowuje Piramidę Słońca",
+        "Poszukaj w gablotach oryginalnych pochówków ze Świątyni Węża Pierzastego wraz z ich naszyjnikami ze szczęk i muszli",
+        "Znajdź kadzielnicę typu teatralnego ozdobioną motylami oraz cylindryczny kubek na trzech nóżkach"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3df0cbfa8227a399",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Funkcja": "Archeologiczne muzeum terenowe",
+        "Lokalizacja": "Południowy bok Piramidy Słońca (dojście w stronę Bramy 2 / Ogrodu Botanicznego)",
+        "Kluczowe eksponaty": "Monumentalna makieta z oknem skierowanym na Słońce, pochówki z Cytadeli, kadzielnice typu teatralnego, wyroby kamienne z obsydianu i rzeźba architektoniczna"
+      }
+    },
+    "faq_mito": {
+      "hash": "f0e0089295546707",
+      "texto": {
+        "pregunta": "Mit: Wszystkie ważne eksponaty znalezione w Teotihuacán zabrano do Miasta Meksyk.",
+        "respuesta": "Rzeczywistość: To muzeum terenowe przechowuje ponad sześćset oryginalnych zabytków najwyższej klasy, odkrytych podczas ostatnich wykopalisk w piramidach i dzielnicach."
+      }
+    }
+  }
+}

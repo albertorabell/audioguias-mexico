@@ -1,0 +1,57 @@
+{
+  "id": "teo_03_tunel_tlalocan",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "904dc9cb558da2ea",
+      "texto": "Tunel Tlalocan pod Ciudadelą"
+    },
+    "frase_gancho": {
+      "hash": "4172d403325eb274",
+      "texto": "Pod twoimi stopami zapieczętowany tunel skrywał około pięćdziesięciu tysięcy przedmiotów i płynną rtęć."
+    },
+    "puente_narrativo": {
+      "hash": "1d48126f4c3139a6",
+      "texto": "Podnieś wzrok ku dwóm wysokim platformom, które flankują świątynię od północy i od południa: tam mieszkał najbardziej wyłączny krąg kapłanów."
+    },
+    "guion_corto": {
+      "hash": "b40579be6300bb44",
+      "texto": "Zejdź ponownie na esplanadę i spójrz na posadzkę tuż przed schodami Platformy Przylegającej. Wejście do podziemi jest zamknięte dla zwiedzających ze względu na ochronę zabytku, ale stoisz dokładnie nad jednym z najważniejszych odkryć niedawnej archeologii. W roku dwa tysiące trzecim intensywne deszcze otworzyły w tym miejscu dziurę. Gdy zajrzeli do środka, archeolodzy Sergio Gómez i Julie Gazola odkryli sztuczny tunel, długi na prawie sto metrów, który sięga aż do punktu leżącego pod Świątynią Węża Pierzastego."
+    },
+    "guion_largo": {
+      "hash": "e5bda1bf52666d63",
+      "texto": "Ten tunel nie został porzucony: zamknięto go celowo. Mieszkańcy Teotihuacán wypełnili go i zapieczętowali około tysiąca ośmiuset lat temu i dlatego żaden szabrownik nie dotarł do jego końca. Jedno ze źródeł INAH sugeruje nawet wcześniejszą datę, więc dokładny moment wciąż jest badany. Korytarz ma sklepiony strop, około dwóch i pół metra wysokości i cztery metry szerokości. W niektórych odcinkach zostaje zaledwie dwadzieścia pięć centymetrów wolnej przestrzeni. Dlatego w dwa tysiące dziesiątym roku wysłano do środka czterokołowego robota, Tlaloque Uno, z własnymi kamerami i oświetleniem, żeby zobaczyć, co tam jest.\n\nWykopaliska rozpoczęły się w dwa tysiące dziewiątym roku. Od tamtej pory usunięto około dziewięciuset siedemdziesięciu ton ziemi i kamienia, przy czym na każdej zmianie pracowało co najmniej dwadzieścia pięć osób. Blisko końca, w przestrzeni mniej więcej cztery na osiem metrów, pojawiła się największa ofiara: mówi się o około pięćdziesięciu tysiącach przedmiotów. Jest ponad cztery tysiące przedmiotów z drewna, kości i sierści wielkich kotów. Jest ponad piętnaście tysięcy nasion, muszle ślimaków z Zatoki Meksykańskiej i z Karaibów, jadeit z Gwatemali, dyski z pirytu i gumowe piłki. Są też cztery ludzkie figury z zielonego kamienia, wysokie na około sześćdziesiąt centymetrów. Te ofiary datuje się na lata od stu pięćdziesiątego do dwóchsetnego roku naszej ery.\n\nZa tą ofiarą wykryto trzy komory. W jednej z nich znaleziono płynną rtęć w dużych ilościach, razem z lustrami z pirytu i metalowymi kulami. Archeolog Sergio Gómez uważa, że rtęć mogła symbolizować rzekę lub jezioro świata podziemnego. Projekt nazywa się Tlalocan, Droga pod ziemią, ponieważ tunel interpretuje się jako przedstawienie tego podziemnego świata.\n\nPytanie, które zadają sobie wszyscy, brzmi: co jest na końcu? Gómez powiedział, że ma nadzieję odnaleźć grobowiec królewski. Nie odnaleziono go jeszcze i nie wiemy, czy istnieje. Gdyby się pojawił, byłby to pierwszy grobowiec władcy w Teotihuacán. Pomógłby odpowiedzieć na ogromną wątpliwość: jak rządzono tym miastem. Tymczasem każda garść ziemi wydobyta z tunelu jest badana w laboratorium."
+    },
+    "retos_observacion": {
+      "hash": "790d40b876ca633e",
+      "texto": [
+        "Wypatrz posadzkę placu przed schodami Platformy Przylegającej: tam w 2003 roku otworzył się wyłom",
+        "Poprowadź wzrokiem prostą linię od swoich stóp do środka Świątyni Węża Pierzastego, aby prześledzić podziemną trasę o długości 103 metrów",
+        "Obejrzyj na ekranie zdjęcia rzeźb z zielonego kamienia i kul z pirytu odnalezionych w końcowej komorze"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f806ac363e297a4b",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Wczesny klasyk (zamknięty około 250 n.e.)",
+        "Długość": "103 m",
+        "Głębokość": "14 do 18 m",
+        "Znaleziska": "ponad 100 000 przedmiotów, płynna rtęć, kule z pirytu i 4 rzeźby z zielonego kamienia",
+        "Eksploracja": "Projekt Tlalocan, kierowany przez Sergio Gómeza Chaveza (INAH)",
+        "Dostęp": "Zamknięty dla zwiedzających"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c2fc5f6617246c3",
+      "texto": {
+        "pregunta": "Mit: Tunel pod Ciudadelą był naturalną jaskinią, która z czasem się zawaliła.",
+        "respuesta": "Rzeczywistość: Mieszkańcy Teotihuacán wykuli go ręcznie w skale wulkanicznej i celowo zapieczętowali osiemnastoma kamiennymi murami około roku 250 n.e."
+      }
+    }
+  }
+}

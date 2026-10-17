@@ -1,0 +1,56 @@
+{
+  "id": "teo_05_gran_conjunto",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3615a13ce81972b4",
+      "texto": "Wielki Kompleks: targowisko miasta"
+    },
+    "frase_gancho": {
+      "hash": "b8064a9fc661ddc0",
+      "texto": "Ogromny plac naprzeciw zamkniętego sanktuarium: targowisko miasta czy magazyn państwa?"
+    },
+    "puente_narrativo": {
+      "hash": "5d0fa31c22875808",
+      "texto": "Idź Aleją Zmarłych na północ i zatrzymaj się, gdy przejdziesz przez most nad zalesionym korytem: tę rzekę ręcznie przesunięto tak, by podporządkować ją planowi miasta."
+    },
+    "guion_corto": {
+      "hash": "19bbf18ac902fc29",
+      "texto": "Gdy wyjdziesz z Ciudadeli na Aleję Zmarłych, spójrz na stronę zachodnią, w stronę Bramy Pierwszej. Cała ta ogromna esplanada, którą dziś zajmują ogrody przy wejściu, kasy biletowe i boczne platformy, tworzyła Wielki Kompleks. Zwróć uwagę na kontrast: Ciudadela, którą właśnie zostawiasz za sobą, jest zagłębionym i zamkniętym dziedzińcem, a ten kompleks to największy plac miasta, położony tuż naprzeciw niej, po drugiej stronie Alei. Archeolog René Millon, autor wielkiej mapy Teotihuacán, zasugerował, że mogło tu znajdować się główne targowisko metropolii."
+    },
+    "guion_largo": {
+      "hash": "9f38eb6d56d98f9e",
+      "texto": "Co do tego miejsca toczy się otwarta debata i warto, żebyś ją poznał. René Millon zaproponował, że na tym placu działało główne targowisko Teotihuacán. Powód jest logiczny: to największy plac miasta, leżący naprzeciw Ciudadeli, po drugiej stronie Alei. Millon zinterpretował też niektóre postacie z malowideł ściennych jako kupców.\n\nAle archeolożka Linda Manzanilla z UNAM widzi to inaczej. Przedstawia dowody, że Wielki Kompleks był raczej ośrodkiem redystrybucji dóbr wytwarzanych przez rzemieślników. Wskazuje ponadto, że w mieście nigdy nie znaleziono jednoznacznego dowodu na istnienie targowiska. Te same obrazy z malowideł, jak mówi, przedstawiałyby kapłanów, a nie kupców. Żadna z tych interpretacji nie jest rozstrzygnięta.\n\nWiemy za to, co krążyło po tym mieście. Szacuje się, że mieszkało w nim około stu tysięcy osób w około dwóch tysiącach zespołów mieszkalnych. Obsydian z Pachuca wyruszał stąd do Monte Albán i Tikal. Złocista mika przybywała z Oaxaca, jadeit z Gwatemali, a muszle z wybrzeży Zatoki Meksykańskiej i Morza Karaibskiego. I wszystko to podróżowało na barkach tragarzy, ponieważ w Mezoameryce nie było zwierząt jucznych ani wozów na kołach.\n\nCzy to targowisko, czy ośrodek redystrybucji, to miejsce pełniło funkcję, jakiej nie pełniła żadna świątynia: tędy przepływało życie gospodarcze miasta. Po drugiej stronie Alei Ciudadela była obszarem z jednym publicznym wejściem i ogromnym ciężarem rytualnym. Jedna z możliwych interpretacji głosi, że miasto pokazywało dwa oblicza władzy, stojące naprzeciw siebie: władzę świętą, zamkniętą i ceremonialną oraz władzę dóbr i pracy.\n\nZnajdujesz się w jednej z najważniejszych stref na planie Millona. Od tego punktu uważa się centrum miasta i właśnie stąd organizują się cztery kwadranty."
+    },
+    "retos_observacion": {
+      "hash": "5dafcce088a355b7",
+      "texto": [
+        "Porównaj z Alei dwa wielkie place stojące naprzeciw siebie: Ciudadelę (zagłębioną i zamkniętą od wschodu) oraz Wielki Kompleks (otwarty na zachód)",
+        "Przyjrzyj się wydłużonym platformom i fundamentom pomieszczeń, które otaczają esplanadę",
+        "Wyobraź sobie skrzyżowanie wielkich arterii, które dzieliły tu miasto na cztery kwadranty"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6cc9bd28d0da327c",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (około 150-600 n.e.)",
+        "Powierzchnia": "ponad 14 hektarów",
+        "Struktura": "Otwarta esplanada otoczona dwiema platformami w kształcie litery U oraz okrągłymi magazynami",
+        "Główna hipoteza": "Główne targowisko i siedziba administracyjna (René Millon)",
+        "Pochodzenie": "Naprzeciw Ciudadeli, po zachodniej stronie Alei Zmarłych"
+      }
+    },
+    "faq_mito": {
+      "hash": "1a5f0eef095c0fea",
+      "texto": {
+        "pregunta": "Mit: Teotihuacán było wyłącznie ośrodkiem ceremonialnym zamieszkanym przez kapłanów.",
+        "respuesta": "Rzeczywistość: Była to metropolia handlowa i wytwórcza; Wielki Kompleks koncentrował wymianę towarów z całej Mezoameryki."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "teo_10_mural_puma",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "28930d61b92dac2a",
+      "texto": "Mural Pumy"
+    },
+    "frase_gancho": {
+      "hash": "3b9348d32913ae8f",
+      "texto": "Namalowany drapieżnik kroczy po murze i przypomina nam, że miasto było pełne kolorów."
+    },
+    "puente_narrativo": {
+      "hash": "2b85ae60672df204",
+      "texto": "Przejdź jeszcze kilka metrów na północ: aleja nagle otwiera się przed największą sztuczną górą w mieście, Piramidą Słońca."
+    },
+    "guion_corto": {
+      "hash": "a3c94e50012e925d",
+      "texto": "Przed tobą Mural Pumy. To malowidło, które przetrwało w miejscu, w którym powstało, tuż przy Calzada. Przedstawia kota z profilu, w ramie z kolorowych pasów. Dziś widzisz ruiny w szarych barwach, ale miasto było pokryte stiukiem i pomalowane. Koty pojawiają się też na innych murałach Teotihuacán. Dlatego uważa się, że były ważnymi symbolami. Podejdź bliżej i spokojnie przyjrzyj się biegowi linii."
+    },
+    "guion_largo": {
+      "hash": "0ef96b43f39e9990",
+      "texto": "To malowidło nazywa się Mural Pumy. Znajduje się w swoim pierwotnym miejscu, przy Calzada, pod ochronnym zadaszeniem. Przedstawia kota z profilu, z wyciągniętymi pazurami, w ramie z kolorowych pasów. Skorzystaj z okazji, by wyobrazić sobie całą Calzada. Dziś widzimy ruiny w kolorach kamienia, ale budowle były pokryte stiukiem i ozdobione malowidłami. Koty pojawiają się w murałach Teotihuacán raz po raz. Są tam jaguary o siatkowanym wzorze oraz procesje kojotów i jaguarów, takie jak te w Atetelco. Dlatego uważa się, że były to bardzo ważne postacie. Niektórzy łączą je z władzą i z zakonami wojowników. To jedna z interpretacji i nie ma w tej sprawie zgody. Zwróć uwagę na ramę. Pasy wokół zwierzęcia wydają się przedstawiać strumienie, ale ta interpretacja również jest hipotezą. To, co na pewno możesz zobaczyć, to ręka malarza. Murale powstawały cierpliwie, warstwa po warstwie. Spójrz na kontur kota, jego linie, jego kolory. Ten, kto go namalował, bardzo dobrze wiedział, co robi, i znał zasady, według których malowano w jego mieście."
+    },
+    "retos_observacion": {
+      "hash": "0c86d7a75568ba87",
+      "texto": [
+        "Odszukaj na planszy pełną sylwetkę kota z profilu: jego cztery łapy z pazurami, długi zakrzywiony ogon i lekko uchylony pysk",
+        "Przyjrzyj się falistym czerwonym i niebieskim pasom, które obramowują zwierzę od góry i od dołu",
+        "Zwróć uwagę na grubość białej warstwy wapiennego stiuku, na którą artyści nałożyli pigmenty tysiąc pięćset lat temu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "13b2cd37b5718298",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Klasyk (ok. 400-550 n.e.)",
+        "Technika": "Malowidło ścienne al fresco na wapiennym stiuku z pigmentami mineralnymi (hematyt, ochra i błękit)",
+        "Wymiary muralu": "ponad 2 m długości",
+        "Lokalizacja": "Wschodnia strona Calzada de los Muertos, tuż na południe od Plaza del Sol"
+      }
+    },
+    "faq_mito": {
+      "hash": "4eafc417259c98cf",
+      "texto": {
+        "pregunta": "Mit: Mural Pumy to współczesna kopia umieszczona dla turystów.",
+        "respuesta": "Rzeczywistość: To oryginalny mural z Teotihuacán, zachowany in situ; zadaszenie zostało zamontowane, by chronić jego pigmenty przed deszczem i słońcem."
+      }
+    }
+  }
+}

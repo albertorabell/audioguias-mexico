@@ -1,0 +1,55 @@
+{
+  "id": "teo_22_caracoles",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a265bb2c77b543e4",
+      "texto": "Świątynia Pierzastych Muszli"
+    },
+    "frase_gancho": {
+      "hash": "bd074d1c17b04a60",
+      "texto": "Świątynia, która została pogrzebana pod pałacem, i dzięki temu zachowała swoje kolory."
+    },
+    "puente_narrativo": {
+      "hash": "e6e840586c7dfb93",
+      "texto": "Gdy skończysz tę podziemną trasę, wyjdź ze strefy Księżyca przez sąsiednią Bramę Trzecią, aby wejść do Muzeum Malowideł Ściennych Teotihuacán „Beatriz de la Fuente”."
+    },
+    "guion_corto": {
+      "hash": "fc1062339933eb9d",
+      "texto": "Pod Pałacem Quetzalpapálotl znajduje się inny, starszy budynek, Świątynia Pierzastych Muszli. Przykryto go pałacem i to go ochroniło. Jorge Acosta odkrył go na nowo na początku lat sześćdziesiątych. Datuje się go na okres między dwusetnym a trzechsetnym rokiem naszej ery. Jego nazwa pochodzi od muszli z piórami, które zdobią jego pilastry. Dobrą stroną tego, że był zakopany, jest to, że zachowały się jego kolory."
+    },
+    "guion_largo": {
+      "hash": "ba974b21b89e6f29",
+      "texto": "Pod Pałacem Quetzalpapálotl znajduje się inny, starszy budynek. To Świątynia Pierzastych Muszli. Mieszkańcy Teotihuacán nie zburzyli jej, tylko ją przykryli. To ochroniło ją przed upływem czasu. Archeolog Jorge Acosta odkrył ją na nowo w latach sześćdziesiątych, około roku tysiąc dziewięćset sześćdziesiątego drugiego. Datuje się ją na okres między dwusetnym a trzechsetnym rokiem naszej ery. Jej nazwa pochodzi od muszli z piórami, które widać na jej pilastrach. W języku nahuatl trąbka z muszli nazywa się tecciztli. To słowo przypomina Tecciztécatla, boga z opowieści Mexików, który rzucił się w ogień, aby zamienić się w księżyc. Mexikowie opowiadali o tym wieki później, ale nie wiemy już, czy mieszkańcy Teotihuacán myśleli podobnie. To skojarzenie tworzymy my sami. Według opisów tego miejsca na platformie zachowały się oryginalne kolory. Widać zielone ptaki, które stoją naprzeciw siebie parami, a z ich dziobów tryskają strumienie wody. Ta malowidła przetrwały, ponieważ świątynia została pogrzebana. Jeśli zejdziesz do galerii albo zajrzysz tam ze schodów, wyobraź sobie ludzi z trzeciego wieku. Oni widzieli tę fasadę w świeżo malowanych kolorach."
+    },
+    "retos_observacion": {
+      "hash": "c53793287611aaee",
+      "texto": [
+        "Odszukaj w obrębie trasy zwiedzania kompleksu zejście do podziemnych galerii pod poziomem Pałacu Quetzalpapálotl",
+        "Wypatrz na kamiennych pilastrach rzeźbione muszle morskie z piórami, kwiatami o czterech płatkach i ustnikiem trąbki",
+        "Przyjrzyj się pozostałościom zielonej, niebieskiej, czerwonej i żółtej farby na ptakach, które wylewają strumienie wody z dzioba"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a86d259bf4d5270a",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Wczesny klasyk (około 200-300 n.e.)",
+        "Elementy wyróżniające się": "Pilastry z płaskorzeźbami trąbek z pierzastych muszli, malowidła ścienne z ptakami wylewającymi wodę oraz podbudowa Czerwonych Dysków",
+        "Badania": "Jorge R. Acosta (1960-1964)",
+        "Lokalizacja": "Podziemia Pałacu Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "ee93b99b031f61af",
+      "texto": {
+        "pregunta": "Mit: Świątynia Pierzastych Muszli została pierwotnie zbudowana jako podziemna komora.",
+        "respuesta": "Rzeczywistość: W III wieku była świątynią pod otwartym niebem; pod ziemią znalazła się wieki później, gdy sami mieszkańcy Teotihuacán zasypali ją, aby wznieść nad nią Pałac Quetzalpapálotl."
+      }
+    }
+  }
+}

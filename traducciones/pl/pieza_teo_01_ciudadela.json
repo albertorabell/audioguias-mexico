@@ -1,0 +1,56 @@
+{
+  "id": "teo_01_ciudadela",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0fbe72e51926396f",
+      "texto": "Cytadela i Wielki Plac"
+    },
+    "frase_gancho": {
+      "hash": "67aebe3fa7b44986",
+      "texto": "Hiszpanie wzięli ją za twierdzę. Była sercem władzy."
+    },
+    "puente_narrativo": {
+      "hash": "151433b2866849d4",
+      "texto": "Przejdź przez wielki plac w stronę budowli na jego wschodnim krańcu: za szarą platformą, która ją zasłania, czeka na ciebie najświętsza fasada miasta."
+    },
+    "guion_corto": {
+      "hash": "70a4727ffdb75508",
+      "texto": "Wejdź na platformę przy wejściu i spójrz na ten monumentalny plac. Kiedy Hiszpanie zobaczyli ten teren zamknięty wysokimi murami o długości czterystu metrów każdy, uznali, że to koszary wojskowe, i nazwali go Cytadelą. Tymczasem stoisz przed politycznym i ceremonialnym sercem Teotihuacán. Spójrz na zagłębiony dziedziniec: jest tak rozległy, że mógł pomieścić ogromny tłum. Dookoła, na otaczających cię platformach, wznosi się piętnaście małych piramid, a w głębi góruje Świątynia Węża Pierzastego."
+    },
+    "guion_largo": {
+      "hash": "acb29bdf7aac8331",
+      "texto": "Słowo „Cytadela” wymyślili Hiszpanie, którzy zobaczyli wysokie mury i pomyśleli o forcie. Ale zwróć uwagę, jak jest zbudowane to miejsce. To cztery połączone platformy otaczające ogromny plac, a wejście publiczne jest tylko jedno, od strony zachodniej. Do obrony przed armią to się nie nadaje. Służy do tego, by kontrolować, kto wchodzi i kiedy. Archeolodzy sądzą, że teren mógł pozostawać zamknięty przez prawie cały rok, a otwierano go tylko na szczególne ceremonie.\n\nWokół placu ustawionych jest w rzędach piętnaście małych świątyń, wbudowanych w krawędzie platform: cztery od zachodu, cztery od północy, cztery od południa i trzy od wschodu. A na wschodzie, naprzeciw wchodzącego, góruje Świątynia Węża Pierzastego. To trzecia pod względem wielkości budowla w całym mieście, po piramidach Słońca i Księżyca. Cały zespół wzniesiono między rokiem stu pięćdziesiątym a dwustu pięćdziesiątym naszej ery. Takie dzieło wymagało państwa zdolnego zorganizować tysiące robotników i zgromadzić materiały z całej doliny.\n\nWyobraź sobie ten dziedziniec w dniu święta. Oszacowano, że plac mógł przyjąć dziesiątki tysięcy osób, choć jest to jedynie szacunek pojemności, a nie fakt udowodniony. Z dołu boczne platformy zamykają cię w swoim obrębie: krajobraz doliny znika, a cała uwaga kieruje się ku kapłanom na szczytach podwyższeń i ku świątyni w głębi. Był to teatr zaprojektowany tak, by każdy poczuł ciężar państwa i kosmosu.\n\nNiektórzy badacze proponują, że plac bywał rytualnie zalewany wodą, jak lustro wody otoczone świątyniami. Sugerują to ślady wody, które znaleziono w tunelu biegnącym pod tym terenem. To hipoteza, ale pasuje do znaczenia wody w całym mieście.\n\nPod tymi platformami znajdują się ponadto jeszcze starsze budowle. Zanim wzniesiono Cytadelę, budowniczowie zrównali z ziemią wcześniejszą konstrukcję, która przypomina boisko do gry w piłkę. Teotihuacán przebudował się więcej niż raz i tutaj możesz to zobaczyć: każda platforma kryje wcześniejsze etapy, które nadal są badane.\n\nOkoło roku trzysta pięćdziesiątego nastąpiła głęboka zmiana. Fasada Świątyni Węża Pierzastego została ukryta za wielką platformą, Platformą Dobudowaną, na którą wejdziesz na następnym przystanku. Jedni badacze odczytują to jako zmianę we władzy nad miastem. Inni uważają, że był to rytualny pochówek dokonany z szacunkiem. Znacznie później, w nieznanym nam czasie, ktoś uszkodził rzeźby po bokach, które pozostały odsłonięte.\n\nZnajdujesz się ponad dwa tysiące metrów nad poziomem morza i prawie zawsze bez cienia. Zanim ruszysz w stronę Alei Zmarłych, wypij kilka łyków wody."
+    },
+    "retos_observacion": {
+      "hash": "3d8ce3cf397b5af5",
+      "texto": [
+        "Rozejrzyj się dookoła dziedzińca i policz małe piramidy na platformach: jest ich w sumie piętnaście",
+        "Odszukaj kwadratowy ołtarz pośrodku placu z jego czterema schodami",
+        "Spójrz na wschód, w głąb dziedzińca, gdzie wznosi się główna budowla o dwóch fasadach"
+      ]
+    },
+    "especificaciones": {
+      "hash": "caaffef9ee616a0a",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Wczesny klasyk (ok. 150-250 n.e.)",
+        "Wymiary": "około 400 m na bok",
+        "Podstawy": "15 mniejszych piramid na 4 platformach",
+        "Funkcja": "siedziba władzy politycznej i religijnej",
+        "Pochodzenie": "Teotihuacán, Stan Meksyk (południowy kraniec Alei Zmarłych)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c5bd19317f163227",
+      "texto": {
+        "pregunta": "Mit: Cytadela była twierdzą wojskową.",
+        "respuesta": "Rzeczywistość: Nazwę nadali jej Hiszpanie przez pomyłkę. Był to polityczny i ceremonialny ośrodek miasta, z pałacami, główną świątynią i wielkim dziedzińcem dla tłumów."
+      }
+    }
+  }
+}

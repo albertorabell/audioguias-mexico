@@ -1,0 +1,52 @@
+{
+  "id": "teo_32_despues",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f25f5dd61ba3ae47",
+      "texto": "Teotihuacán po Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "7178e6cb66815842",
+      "texto": "Gdy przybyli Mexica, miasto było już świętą ruiną."
+    },
+    "puente_narrativo": {
+      "hash": "95db2801dcc6a3e1",
+      "texto": "Tu kończy się twoja wędrówka po Teotihuacán. Kiedy odwiedzisz Narodowe Muzeum Antropologii w Mieście Meksyk, poszukaj Sali Teotihuacán: czekają tam na ciebie twarzą w twarz kamienne kolosy i malowidła ścienne, które wyszły z tej ziemi."
+    },
+    "guion_corto": {
+      "hash": "7523d26a426d0a15",
+      "texto": "Wieki po upadku miasta Mexica odnaleźli te ruiny i otoczyli je szacunkiem. To oni nadali mu nazwę Teotihuacán. Wierzyli, że właśnie tutaj bogowie stworzyli obecną erę, Piąte Słońce. Moctezuma przybywał tu na pielgrzymkę. Mówili też, że piramidy wznieśli olbrzymy. Dziś wiemy, że zbudowali je ludzie tacy jak ty i ja, w mieście z tysiącami rodzin. Duża część miasta wciąż nie została odkopana. Tak to miejsce pozostało ważne na długo po okresie swojego rozkwitu."
+    },
+    "guion_largo": {
+      "hash": "38dd363dd2c22003",
+      "texto": "Dla Mexica Teotihuacán było miejscem świętym. Według ich opowieści właśnie tutaj bogowie złożyli siebie w ofierze, aby mogło istnieć Słońce naszej ery. Mit o Tecciztécatlu i Nanahuatzinie, którzy rzucili się w ogień, zapisały źródła z szesnastego wieku. Mexica sądzili, że piramidy zbudowali olbrzymi. Dziś wiemy, że było inaczej. Zbudowali je ludzie z krwi i kości, posługujący się kamiennymi narzędziami i znakomicie zorganizowani. Historia wykopalisk też jest długa. W siedemnastym wieku Carlos de Sigüenza y Góngora odwiedził już te ruiny. W roku tysiąc dziewięćset piątym Leopoldo Batres zbadał Piramidę Słońca i odrestaurował ją na Stulecie w tysiąc dziewięćset dziesiątym roku. Między rokiem tysiąc dziewięćset siedemnastym a tysiąc dziewięćset dwudziestym drugim Manuel Gamio pracował w Cytadeli. W roku tysiąc dziewięćset trzydziestym drugim Sigvald Linné odkopał domy mieszkańców miasta. Między rokiem tysiąc dziewięćset sześćdziesiątym a tysiąc dziewięćset sześćdziesiątym piątym INAH przeprowadził wielkie prace pod kierunkiem Jorge Acosty. W roku tysiąc dziewięćset siedemdziesiątym pierwszym odkryto jaskinię pod Piramidą Słońca. Między rokiem tysiąc dziewięćset osiemdziesiątym a tysiąc dziewięćset osiemdziesiątym drugim odkopano i odrestaurowano Piramidę Węża Pierzastego oraz Aleję. Zespół René Millona sporządził mapę całego miasta. Dzięki tej mapie wiemy, że było tam około dwóch tysięcy zespołów mieszkalnych. Ale duża część miasta wciąż pozostaje nieodkopana. Piramida Słońca należała do najintensywniej restaurowanych. Podczas tej restauracji usunięto część oryginalnych fasad, według jednego ze źródeł nawet do dziesięciu metrów z niektórych stron. Dlatego warto zawsze pytać, która część jest oryginalna, a która została zrekonstruowana. Co roku pojawiają się nowe dane, i dlatego to, co dziś ci opowiadamy, jutro może się zmienić."
+    },
+    "retos_observacion": {
+      "hash": "6f5fef485912801a",
+      "texto": [
+        "Spójrz na pola agaw, opuncji i domy otaczające granice strefy archeologicznej: pod całą tą ziemią wciąż spoczywa 90 % dawnego miasta",
+        "Zapamiętaj trzy nazwy, które nosiła ta metropolia: Ho Noom Witz u Majów, Teotihuacán u Mexica oraz jej pierwotna nazwa, wciąż nieznana",
+        "Kiedy odwiedzisz Narodowe Muzeum Antropologii w Chapultepec, połącz tę wędrówkę z monolitem Chalchiuhtlicue, Dyskiem Śmierci i Markerem z La Ventilla"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cd0389b0e362eeb2",
+      "texto": {
+        "Kultura": "Recepcja Teotihuacán u Mexica (Późny postklasyk) i historia archeologii meksykańskiej (XX i XXI wiek)",
+        "Etapy badań": "Leopoldo Batres (1905-1910), Manuel Gamio (1917-1922), Projekt Teotihuacán INAH / Jorge Acosta i Ignacio Bernal (1962-1964), mapa René Millona (1962-1970) oraz projekty współczesne (Cabrera, Sugiyama, Manzanilla, Gómez Chávez, Ortega)"
+      }
+    },
+    "faq_mito": {
+      "hash": "1cf6fe9b63af0ccb",
+      "texto": {
+        "pregunta": "Mit: Całe miasto Teotihuacán zostało już odkopane.",
+        "respuesta": "Rzeczywistość: Strefa archeologiczna otwarta dla zwiedzających obejmuje wyłącznie jądro ceremonialne; ponad osiemdziesiąt pięć procent zespołów mieszkalnych dawnego miasta wciąż spoczywa pod ziemią."
+      }
+    }
+  }
+}

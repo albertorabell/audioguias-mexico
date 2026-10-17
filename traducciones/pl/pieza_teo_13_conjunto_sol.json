@@ -1,0 +1,55 @@
+{
+  "id": "teo_13_conjunto_sol",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "195d3efba3bb58de",
+      "texto": "Conjunto del Sol: dom kapłanów i niebieski jaguar"
+    },
+    "frase_gancho": {
+      "hash": "515e0bdb9f98bff3",
+      "texto": "Bóg zstępujący z nieba i jaguar obejmujący roślinę na ścianach pałacu Słońca."
+    },
+    "puente_narrativo": {
+      "hash": "899063eebaf7dcca",
+      "texto": "Obejdź teraz Piramidę Słońca od strony południowej i idź ścieżką, która prowadzi do Muzeum Kultury Teotihuacán: zobaczysz tam całe miasto w miniaturze oraz ofiary, które skrywały piramidy."
+    },
+    "guion_corto": {
+      "hash": "0aa64feb87aa094f",
+      "texto": "Stoisz przy Zespole, czyli Pałacu Słońca. Jego portyki i komnaty były niegdyś pokryte licznymi malowidłami. Na Patio Trzecim pojawia się postać ubrana jak ara, która schodzi z drzewa. Jest tam też jaguar z ciałem jak sieć, który obejmuje roślinę agawy. Niektórzy badacze uważają, że opowiadają one o zstąpieniu słońca do świata wody. To interpretacja, nie fakt. Malowidła, które widzisz teraz, znamy dzięki badaniom innych specjalistów."
+    },
+    "guion_largo": {
+      "hash": "7928ce3c93e0ecec",
+      "texto": "Patio Trzecie Pałacu Słońca miało serię malowideł, które były bardzo intensywnie badane. Po jego zachodniej stronie widać sceny z tak zwanym Bogiem Motylem Ptakiem. Pojawia się ubrany jak ara, zstępujący z nadprzyrodzonego drzewa i otoczony znakami wody. Na innych ścianach jest jaguar w siatkę, z ciałem pokrytym jakby siecią, który obejmuje roślinę agawy. Występują też postacie powiązane z bogiem deszczu. W tym patio opisano co najmniej szesnaście malowideł. Badaczka Paulinyi proponuje, że malowidła opowiadają o zstąpieniu słońca do świata wody podczas wielkiego święta. Inni badacze się z tym nie zgadzają. Niektórzy widzą w tym bogu postać podobną do Siedmiu Ar, bohatera świata Majów. Inni widzą w centralnej postaci Wielką Boginię. Ona sama przedstawia swoją interpretację jako hipotezę. Malowidła datuje się, z wątpliwościami, na lata od trzysta pięćdziesiątego do pięćset pięćdziesiątego. Jasne jest jednak to, że ci, którzy tu mieszkali, otaczali swój dom obrazami wody, kotowatych i ptaków. Gdy spojrzysz na mury, pomyśl, że te obrazy były językiem, który ich sąsiedzi potrafili czytać."
+    },
+    "retos_observacion": {
+      "hash": "dcb2c64786fd677b",
+      "texto": [
+        "Odszukaj po północnej stronie esplanady trzy małe ołtarze i niskie mury Zespołu Słońca",
+        "Zobacz, jak pałac miał bezpośrednie, uprzywilejowane wejście przy boku Piramidy Słońca",
+        "Spójrz na obrazie na swoim ekranie na turkusowoniebieski rysunek jaguara obejmującego trzy gałęzie agawy"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78df0899050e0885",
+      "texto": {
+        "Kultura": "Teotihuacán",
+        "Okres": "Późny klasyk (faza Xolalpan, około 450-550 n.e.)",
+        "Lokalizacja": "Północny skraj Placu Piramidy Słońca",
+        "Znaleziska": "Ponad 30 malowideł (wśród nich Niebieski Jaguar z agawą i motylami) oraz bardzo duże nagromadzenie ceramiki ceremonialnej",
+        "Obecne miejsce przechowywania malowideł": "Muzeum Malowideł Ściennych Beatriz de la Fuente i MNA"
+      }
+    },
+    "faq_mito": {
+      "hash": "347a861544b49ce9",
+      "texto": {
+        "pregunta": "Mit: Wszystkie malowidła odkryte w Teotihuacán nadal znajdują się na murach pod gołym niebem.",
+        "respuesta": "Rzeczywistość: Wiele najdelikatniejszych malowideł, jak Niebieski Jaguar z tego pałacu, zostało zdjętych przez konserwatorów, aby chronić je przed słońcem i deszczem, i trafiło do muzeów na stanowisku oraz w Mieście Meksyk."
+      }
+    }
+  }
+}

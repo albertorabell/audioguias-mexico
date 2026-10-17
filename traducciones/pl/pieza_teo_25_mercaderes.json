@@ -1,0 +1,56 @@
+{
+  "id": "teo_25_mercaderes",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "edf9025557a15291",
+      "texto": "Dzielnica Kupców: okrągłe domy"
+    },
+    "frase_gancho": {
+      "hash": "250cea649c48b854",
+      "texto": "Okrągłe domy z cegły suszonej na słońcu, z naczyniami z wybrzeża i z ziem Majów."
+    },
+    "puente_narrativo": {
+      "hash": "dd81bd60ef1139bc",
+      "texto": "Ze wschodu przenosimy się na trasę zachodnią i południowo-zachodnią, w pobliżu Bramy Pierwszej i Drugiej, by wejść do domów, w których mieszkały rodziny z Teotihuacán, i podziwiać malowidła w Tetitla i Atetelco."
+    },
+    "guion_corto": {
+      "hash": "f2f7c05f85ca8066",
+      "texto": "To tak zwana Dzielnica Kupców, we wschodniej części miasta. Jej budowle były okrągłe, z cegły suszonej na słońcu, inne niż prostokątne domy w innych strefach. Znaleziono tu przedmioty z Wybrzeża Zatoki Meksykańskiej, z Puebla oraz naczynia w stylu Majów. Analizy kości wskazują, że wielu mieszkańców przybyło z zewnątrz. Dlatego myśli się o kupcach i podróżnikach, choć sama nazwa jest hipotezą. Było to miejsce, w którym krzyżowały się przedmioty i zwyczaje z wielu regionów."
+    },
+    "guion_largo": {
+      "hash": "85c5f3b45bfe1577",
+      "texto": "Dzielnica leży na wschodnich obrzeżach miasta. Wyróżniają się w niej okrągłe budowle z cegły suszonej na słońcu, inne niż prostokątne budynki w reszcie Teotihuacán. Więzi z Wybrzeżem Zatoki Meksykańskiej, w Veracruz, są silne. Odkryto ponadto przedmioty z Puebla oraz wielobarwne naczynia Majów. Analizy izotopów strontu w kościach wskazują, że wielu mieszkańców przybyło z innych regionów. Archeolożka Evelyn Rattray badała to miejsce i opublikowała swoje wyniki w tysiąc dziewięćset osiemdziesiątym ósmym i w tysiąc dziewięćset dziewięćdziesiątym dziewiątym roku. Podążała też śladem ceramiki zwanej Cienką Pomarańczową. Pochodziła z Ixcaquixtla, w Puebla, jak wykazały analizy aktywacji neutronowej. Znaleziono nawet formy w kształcie grzyba. Na podstawie tych danych pomyślano o dzielnicy kupców. Trzeba jednak zachować ostrożność. Przedmioty podróżują z wielu powodów i nie wiemy na pewno, czym zajmowała się każda rodzina. Te same szlaki, którymi przybywały naczynia i materiały, mogły przynosić także idee i ludzi. To jedna z możliwości, bo same przedmioty nie opowiadają całej historii. Pewne jest, że Teotihuacán miało sąsiadów z wielu stron."
+    },
+    "retos_observacion": {
+      "hash": "412563b4f83e824e",
+      "texto": [
+        "Spójrz w stronę wschodniej części doliny, ku korytu rzeki San Juan, gdzie leżała ta kupiecka enklawa",
+        "Porównaj na swoim ekranie okrągły plan z rampą tych domów z prostymi murami całego miasta",
+        "Pomyśl o drodze trwającej od ośmiu do dziesięciu dni pieszo, by przynieść toboły z bawełną i kakao z wybrzeża Veracruz do tej doliny"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b22ddb348e40914",
+      "texto": {
+        "Kultura": "Teotihuacán, współistniejąca z grupami z Wybrzeża Zatoki Meksykańskiej i z obszaru Majów",
+        "Okres": "Klasyk (ok. 250-550 n.e.)",
+        "Architektura": "Ponad 20 okrągłych budowli z cegły suszonej na słońcu i kamienia na zaprawie (ok. 9 m średnicy)",
+        "Ceramika obca": "12 do 18 % całości",
+        "Wykopaliska": "Evelyn Rattray",
+        "Lokalizacja": "Sektor północno-wschodni, nad rzeką San Juan"
+      }
+    },
+    "faq_mito": {
+      "hash": "b40ce5ba8d82745d",
+      "texto": {
+        "pregunta": "Mit: W Teotihuacán zakazywano budowania poza kwadratowym wzorem skarpy i panelu.",
+        "respuesta": "Rzeczywistość: W Dzielnicy Kupców kupcy pochodzący z Wybrzeża Zatoki Meksykańskiej wznosili okrągłe domy i magazyny, zgodnie z tradycją swojej rodzinnej ziemi."
+      }
+    }
+  }
+}
