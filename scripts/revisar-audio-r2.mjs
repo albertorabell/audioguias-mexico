@@ -118,8 +118,8 @@ if (res.tamano.length) console.log('::warning title=Tamaño distinto::' + nota(r
 
 if (aplicar) {
   // Seguridad: si casi todo "falta", algo anda mal con la conexión; no se escribe nada
-  if (tareas.length && res.quitar.length > tareas.length * 0.6) {
-    console.error('❌ Faltan demasiados audios; parece un problema de conexión o permisos. No se cambia nada.');
+  if (res.ok === 0 && res.quitar.length > 0) {
+    console.error('❌ No se encontró ni un solo audio en R2; parece un problema de conexión o permisos. No se cambia nada.');
     process.exit(1);
   }
   fs.writeFileSync(MANIFEST_FILE, JSON.stringify(manifest, null, 2) + '\n', 'utf-8');
