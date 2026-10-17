@@ -14,6 +14,11 @@ on:
         description: 'Idiomas separados por coma (es, o es,en)'
         type: string
         default: 'es'
+      sitio:
+        description: 'Qué sitio: mna, teotihuacan o todos'
+        type: choice
+        options: [mna, teotihuacan, todos]
+        default: mna
       piezas:
         description: 'Qué piezas: gratis, premium o todas'
         type: choice
@@ -91,6 +96,7 @@ jobs:
         env:
           IDIOMAS: ${{ inputs.idiomas }}
           PIEZAS: ${{ inputs.piezas }}
+          SITIO: ${{ inputs.sitio }}
           PROVEEDOR: ${{ inputs.proveedor }}
           LIMITE: ${{ inputs.limite }}
           GENERAR: ${{ inputs.generar }}
