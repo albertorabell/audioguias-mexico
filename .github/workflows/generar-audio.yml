@@ -128,19 +128,9 @@ jobs:
 
       - name: Guardar la lista de audios (manifiesto) en el repositorio
         if: ${{ !cancelled() && (inputs.generar || inputs.reubicar || inputs.borrar_todo) }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/audio/manifest.json
-          if git diff --cached --quiet; then
-            echo "No hay nada nuevo que guardar."
-          else
-            git commit -m "Lista de audios MP3 actualizada (${{ inputs.proveedor }}, ${{ inputs.idiomas }}, ${{ inputs.piezas }})"
-            # Antes de traer lo nuevo hay que soltar los archivos que cambió la sincronización (public/data); git no deja hacer rebase con cambios sueltos
-            git reset --hard HEAD
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
-          fi
+        env:
+          SOLO_MIO: ${{ inputs.borrar_todo && '1' || '' }}
+        run: bash scripts/guardar-manifiesto.sh "Lista de audios MP3 actualizada (${{ inputs.proveedor }}, ${{ inputs.idiomas }}, ${{ inputs.sitio }}, ${{ inputs.piezas }})"
 
       - name: Publicar el sitio con los audios nuevos (solo si se corrió en main)
         if: ${{ !cancelled() && (inputs.generar || inputs.reubicar || inputs.borrar_todo) && github.ref_name == 'main' }}

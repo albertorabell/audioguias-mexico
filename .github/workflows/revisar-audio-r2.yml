@@ -1,0 +1,61 @@
+name: Revisar audios en R2 (no gasta voz)
+
+# Compara la lista de audios (manifiesto) con lo que de verdad está en Cloudflare R2.
+# Sirve cuando una corrida de "Generar audios" se cortó o no pudo guardar la lista.
+on:
+  workflow_dispatch:
+    inputs:
+      sitio:
+        description: 'Qué sitio: mna, teotihuacan o todos'
+        type: choice
+        options: [mna, teotihuacan, todos]
+        default: todos
+      idiomas:
+        description: 'Idiomas separados por coma'
+        type: string
+        default: 'es,en,fr,pl'
+      adoptar:
+        description: 'Anotar en la lista los MP3 que están en R2 pero no en la lista (rescata una corrida cuya lista no se guardó)'
+        type: boolean
+        default: false
+      aplicar:
+        description: 'Guardar los cambios (quita de la lista lo que no está en R2). Sin marcar, solo informa'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: generar-audio
+  cancel-in-progress: false
+
+jobs:
+  revisar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Traer los textos más recientes del Google Sheets
+        run: node scripts/sync-sheets.js
+      - name: Revisar R2
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          SITIO: ${{ inputs.sitio }}
+          IDIOMAS: ${{ inputs.idiomas }}
+          ADOPTAR: ${{ inputs.adoptar && '--adoptar' || '' }}
+          APLICAR: ${{ inputs.aplicar && '--aplicar' || '' }}
+        run: node scripts/revisar-audio-r2.mjs --sitio "$SITIO" --lang "$IDIOMAS" $ADOPTAR $APLICAR
+      - name: Guardar la lista corregida
+        if: ${{ inputs.aplicar && !cancelled() }}
+        run: bash scripts/guardar-manifiesto.sh "Lista de audios revisada contra R2 (${{ inputs.sitio }})" "$RUNNER_TEMP/quitar.json"
+      - name: Publicar el sitio
+        if: ${{ inputs.aplicar && !cancelled() && github.ref_name == 'main' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main

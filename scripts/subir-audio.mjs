@@ -48,12 +48,23 @@ export function main({ simular = process.argv.includes('--simular'), root = proc
   const client = simular ? null : r2 || wranglerR2();
   log(`${simular ? 'Se subirían' : 'Subiendo'} ${ups.length} audio(s) a R2 (${ups.filter((u) => u.key.startsWith('libre/')).length} libres, ${ups.filter((u) => u.key.startsWith('pago/')).length} de pago).`);
   let done = 0;
+  const fallidos = [];
   for (const u of ups) {
     if (simular) log(`  - ${u.key}  (${(fs.statSync(u.file).size / 1024).toFixed(0)} KB)`);
     else {
-      client.put(u.key, u.file);
-      done++;
-      if (done % 10 === 0 || done === ups.length) log(`  ${done}/${ups.length} subidos`);
+      // Si un archivo falla, se reintenta y se sigue con los demás (antes un solo fallo dejaba sin subir todo lo que venía después)
+      let ok = false;
+      for (let intento = 1; intento <= 3 && !ok; intento++) {
+        try {
+          client.put(u.key, u.file);
+          ok = true;
+        } catch (e) {
+          log(`  ⚠️ ${u.key}: intento ${intento} falló (${String(e.message || e).split('\n')[0].slice(0, 120)})`);
+        }
+      }
+      if (ok) done++;
+      else fallidos.push(u.key);
+      if ((done + fallidos.length) % 10 === 0 || done + fallidos.length === ups.length) log(`  ${done}/${ups.length} subidos${fallidos.length ? `, ${fallidos.length} fallidos` : ''}`);
     }
   }
   let borrados = 0;
@@ -69,6 +80,7 @@ export function main({ simular = process.argv.includes('--simular'), root = proc
     }
   }
   if (!simular) fs.rmSync(path.join(dir, '_borrar.json'), { force: true });
+  if (fallidos.length) throw new Error(`No se pudieron subir ${fallidos.length} audio(s): ${fallidos.join(', ')}. Corre "Revisar audios en R2" para ver qué falta.`);
   return { subidos: done, borrados };
 }
 
