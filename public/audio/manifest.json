@@ -1,4 +1,35 @@
 {
   "version": 1,
-  "items": {}
+  "items": {
+    "es": {
+      "mna_s06_coatlicue": {
+        "corto": {
+          "hash": "61055906c646afdb",
+          "file": "es/mna_s06_coatlicue_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 217008,
+          "provider": "azure"
+        }
+      },
+      "mna_s06_piedra_sol": {
+        "corto": {
+          "hash": "f4c54df8a35d7bda",
+          "file": "es/mna_s06_piedra_sol_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 235872,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "df08df1da05f95bd",
+          "file": "es/mna_s06_piedra_sol_largo.mp3",
+          "remote": true,
+          "seconds": 253,
+          "bytes": 1520352,
+          "provider": "azure"
+        }
+      }
+    }
+  }
 }
