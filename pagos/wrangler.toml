@@ -6,7 +6,7 @@ compatibility_date = "2025-01-01"
 [vars]
 # Direcciones desde las que se permite usar el servidor (la de tu sitio en GitHub Pages)
 ALLOWED_ORIGINS = "https://albertorabell.github.io"
-SITE_IDS = "mna"
+SITE_IDS = "mna,teotihuacan"
 PASS_HOURS = "72"
 MAX_DEVICES = "2"
 # MODO DE PRUEBAS: "1" = todos entran gratis (no se pide pase). Para volver a cobrar, cambia a "0" y vuelve a publicar el servidor.
