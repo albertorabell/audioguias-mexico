@@ -1,0 +1,57 @@
+{
+  "id": "teo_12_tunel_sol",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "69fcf2aec6942eb5",
+      "texto": "La grotte sous la pyramide du Soleil"
+    },
+    "frase_gancho": {
+      "hash": "927db213e73348d7",
+      "texto": "Sous la pyramide du Soleil se cache un tunnel que personne n’attendait."
+    },
+    "puente_narrativo": {
+      "hash": "ad5946b33df6e53c",
+      "texto": "Tournez maintenant le regard vers les bâtiments bas du côté gauche de cette place : c’est là que vivaient les prêtres qui veillaient sur la pyramide, entourés de jaguars peints en bleu."
+    },
+    "guion_corto": {
+      "hash": "811539f0f1afb570",
+      "texto": "Sous la pyramide du Soleil se trouvent un tunnel et une chambre. Ils ont été découverts en mille neuf cent soixante et onze. Le tunnel mesure environ cent trois mètres, et l’on y descend par un puits d’environ six mètres et demi. Aujourd’hui, il est fermé au public. Une étude récente pense qu’il a été fait par les habitants de Teotihuacán, et non par la nature. À quoi il servait, on en débat encore. Pendant que vous êtes ici, pensez à ce qui se trouve juste en dessous."
+    },
+    "guion_largo": {
+      "hash": "24b51e6e0c6c1088",
+      "texto": "Sous la pyramide du Soleil se trouve un tunnel qui a été découvert en mille neuf cent soixante et onze. On y entre par un puits vertical d’environ six mètres et demi. Ensuite, un passage d’environ cent trois mètres mène à une chambre située sous le centre de la pyramide. Pendant des années, on a pensé qu’il s’agissait d’une grotte naturelle d’origine volcanique. L’archéologue Saburo Sugiyama et son équipe ont proposé, en deux mille neuf, que les Teotihuacán l’aient creusée ou modifiée à la main. Cette idée change le sens des choses. Elle signifie que quelqu’un a décidé de creuser sous le lieu où il allait ensuite élever la pyramide. Des offrandes ont été trouvées dans le tunnel, mais les avis divergent sur le moment où il a été scellé. Certaines sources disent qu’il y a environ mille huit cents ans, d’autres le datent entre deux cents et deux cent cinquante avant notre ère. Cette différence n’est toujours pas résolue. Une hypothèse veut que la grotte ait représenté l’origine mythique du monde, un lieu d’où jaillissaient l’eau et la vie. C’est une idée de spécialistes, pas un fait. Aujourd’hui, vous ne pouvez pas descendre, mais vous pouvez imaginer que sous vos pieds s’étend un chemin obscur de plus de cent mètres."
+    },
+    "retos_observacion": {
+      "hash": "345fab1fd1004e5c",
+      "texto": [
+        "Regardez le pied de l’escalier central, près de la Plateforme adossée : c’est là que se trouve scellé le puits de descente de 6,5 mètres.",
+        "Tracez du regard une ligne depuis ce point jusqu’à l’axe vertical du sommet de la pyramide, où se termine la chambre à quatre pétales.",
+        "Observez dans les images de votre application le plan en forme de trèfle, ou de fleur à quatre lobes, du tunnel."
+      ]
+    },
+    "especificaciones": {
+      "hash": "83781b3da743dae7",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique ancien (Iᵉʳ-IIᵉ siècle apr. J.-C.)",
+        "Longueur": "103 m",
+        "Profondeur": "6,5 m",
+        "Fermeture ancienne": "17 murs transversaux de tezontle et de terre",
+        "Découvertes": "Découvert en 1971 (Jorge Acosta / René Millon) ; dépôts fouillés en 2008-2011 (Sugiyama et Sarabia)",
+        "Accès": "Fermé au public"
+      }
+    },
+    "faq_mito": {
+      "hash": "1dd06005b1c32e15",
+      "texto": {
+        "pregunta": "Mythe : La grotte sous la pyramide du Soleil est une cavité naturelle intacte.",
+        "respuesta": "Réalité : Les études géologiques récentes indiquent qu’elle a été creusée et façonnée en forme de fleur à quatre pétales par les Teotihuacán eux-mêmes, afin de sacraliser le terrain avant d’ériger la pyramide."
+      }
+    }
+  }
+}

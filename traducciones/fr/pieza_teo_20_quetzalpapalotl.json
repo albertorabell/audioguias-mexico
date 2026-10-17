@@ -1,0 +1,55 @@
+{
+  "id": "teo_20_quetzalpapalotl",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3843da50bd1f1e57",
+      "texto": "Palais de Quetzalpapálotl"
+    },
+    "frase_gancho": {
+      "hash": "92779c27def36a42",
+      "texto": "Une cour de piliers sculptés où les yeux avaient des pupilles d’obsidienne, et qui ne représentent peut-être pas des papillons."
+    },
+    "puente_narrativo": {
+      "hash": "d8259fbb5edd47b2",
+      "texto": "Si vous suivez le parcours complet, traversez le couloir du fond vers les cours voisines où les jaguars font sonner des conques ; si vous suivez le parcours express, en sortant du palais, vous pouvez écouter les deux dernières étapes sur la chute et l’héritage de la ville."
+    },
+    "guion_corto": {
+      "hash": "21c0e3a15eaa1fb6",
+      "texto": "Dirigez-vous vers l’angle sud-ouest de la place de la Lune et entrez par l’escalier dans cet ensemble couvert. Vous êtes dans le Palais de Quetzalpapálotl, l’un des ensembles les mieux conservés de Teotihuacán. Avancez jusqu’à sa cour centrale, entourée de quatre portiques soutenus par des piliers carrés en pierre sculptée. Approchez-vous de l’un des piliers et regardez le bas-relief : les plumes et la tête sont vues de profil, et la poitrine de face. Lorsqu’il a été découvert, en mille neuf cent soixante-deux, on a pensé qu’il s’agissait d’un quetzal au corps de papillon. D’où son nom en nahuatl : quetzalli, plume précieuse, et papálotl, papillon."
+    },
+    "guion_largo": {
+      "hash": "9a15235092242e19",
+      "texto": "Observez maintenant les cercles des piliers. Aujourd’hui, ils semblent vides, mais sur l’un d’eux, quatre cercles ont conservé des incrustations d’obsidienne noire polie, et un œil garde encore la sienne. Les piliers étaient aussi sculptés et incrustés de mica. Lorsque la lumière entrait dans la cour, la pierre devait briller et rendre son regard à celui qui passait.\n\nEt voici un rebondissement. Le nom de papillon vient de la façon dont on a lu les images lorsqu’elles ont été découvertes, en mille neuf cent soixante-deux. Aujourd’hui, certains spécialistes proposent que les créatures ne soient pas des quetzals-papillons, mais des hiboux, symbole des guerriers, des prêtres et de l’élite de Teotihuacán. C’est une interprétation, et le nom est resté par habitude.\n\nCertains motifs de ces piliers, comme une bande en zigzag, apparaissent aussi dans des peintures murales de Tepantitla, de Tetitla, de Techinantitla et du Palais des Jaguars. Cela suggère que les différents ensembles de la ville partageaient un même langage d’images.\n\nSous vos pieds se trouve un autre édifice. Le Temple des Conques à plumes, datant d’environ l’an deux cents, est resté complètement enseveli sous ce palais et a été retrouvé intact. Ses piliers portent des conques à plumes, et sa base montre des oiseaux peints, probablement des aras verts.\n\nÀ quoi servait ce palais ? On l’appelle souvent la maison des prêtres, mais certains chercheurs suggèrent qu’il pourrait avoir été un lieu de réunion. Il a peut-être été lié à un nouveau mouvement politique ou à un nouveau dirigeant. C’étaient les siècles quatre à six, lorsque l’influence de Teotihuacán atteignait des cités mayas comme Tikal. C’est une hypothèse.\n\nL’archéologue Jorge Acosta a fouillé et reconstruit cet ensemble dans les années soixante, et il a publié son étude sur le palais en mille neuf cent soixante-quatre. En deux mille neuf, un projet de conservation a retiré le vieux ciment et restauré le palais avec de la chaux, de l’argile et du sable. Aujourd’hui, il se lit comme ce qu’il fut : une construction de chaux pigmentée, et non de ciment."
+    },
+    "retos_observacion": {
+      "hash": "5df62bb3b62143d6",
+      "texto": [
+        "Observez de près un pilier de la cour pour distinguer comment le profil d’oiseau quetzal se fond avec la poitrine de papillon",
+        "Cherchez dans les orbites des reliefs les disques noirs brillants d’obsidienne polie",
+        "Regardez les grecques rouges et blanches des parois intérieures et les créneaux en gradins qui couronnent le toit de la cour"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d14a80916ea3473",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique récent (vers 450-550 apr. J.-C.)",
+        "Éléments remarquables": "Cour des Piliers avec bas-reliefs de Quetzalpapálotl, yeux d’obsidienne, peintures murales à grecques et créneaux du signe de l’année",
+        "Restauration": "Jorge R. Acosta (1962-1964)",
+        "Provenance": "Angle sud-ouest de la place de la Lune"
+      }
+    },
+    "faq_mito": {
+      "hash": "10b50277aaae3e98",
+      "texto": {
+        "pregunta": "Mythe : Les toits en bois et les créneaux du Palais de Quetzalpapálotl se sont conservés debout depuis l’époque préhispanique.",
+        "respuesta": "Réalité : Les piliers de pierre et les murs bas étaient ensevelis sous leurs propres décombres ; l’archéologue Jorge Acosta a restitué les toitures plates dans les années soixante en suivant les vestiges originaux retrouvés sur le sol."
+      }
+    }
+  }
+}

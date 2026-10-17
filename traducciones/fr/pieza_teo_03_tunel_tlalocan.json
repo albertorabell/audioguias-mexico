@@ -1,0 +1,57 @@
+{
+  "id": "teo_03_tunel_tlalocan",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "904dc9cb558da2ea",
+      "texto": "Le tunnel Tlalocan sous la Citadelle"
+    },
+    "frase_gancho": {
+      "hash": "4172d403325eb274",
+      "texto": "Sous vos pieds, un tunnel scellé renfermait une cinquantaine de milliers d’objets et du mercure liquide."
+    },
+    "puente_narrativo": {
+      "hash": "1d48126f4c3139a6",
+      "texto": "Levez les yeux vers les deux plateformes élevées qui flanquent le temple au nord et au sud : c’est là que vivait le cercle le plus exclusif des prêtres."
+    },
+    "guion_corto": {
+      "hash": "b40579be6300bb44",
+      "texto": "Redescendez sur l’esplanade et regardez le sol juste devant l’escalier de la Plateforme Adosada. L’accès au sous-sol est fermé au public pour des raisons de conservation, mais vous vous tenez au-dessus de l’une des découvertes les plus importantes de l’archéologie récente. En deux mille trois, des pluies intenses ont ouvert un trou à cet endroit. En se penchant, les archéologues Sergio Gómez et Julie Gazola ont découvert un tunnel artificiel, long d’environ cent mètres, qui atteint le point situé sous le Temple du Serpent à plumes."
+    },
+    "guion_largo": {
+      "hash": "e5bda1bf52666d63",
+      "texto": "Ce tunnel n’a pas été abandonné : il a été fermé à dessein. Les Teotihuacán l’ont comblé et scellé il y a environ mille huit cents ans, et c’est pourquoi aucun pillard n’en a atteint le fond. Une source de l’INAH suggère même une date plus ancienne, de sorte que le moment exact reste à l’étude. Le conduit est couvert d’une voûte, haut d’environ deux mètres et demi et large de quatre. À certains endroits, il ne reste que vingt-cinq centimètres de libres. C’est pourquoi, en deux mille dix, on y a envoyé un robot à quatre roues, Tlaloque Uno, équipé de caméras et d’un éclairage propres, pour voir ce qu’il y avait à l’intérieur.\n\nLes fouilles ont commencé en deux mille neuf. Depuis, on a retiré près de neuf cent soixante-dix tonnes de terre et de pierre, avec au moins vingt-cinq ouvriers par équipe. Près de la fin, dans un espace d’environ quatre mètres sur huit, est apparue la plus grande offrande : on parle d’une cinquantaine de milliers d’objets. Il y a plus de quatre mille objets en bois, en os et en poil de grands félins. Il y a plus de quinze mille graines, des coquillages du golfe du Mexique et des Caraïbes, du jade du Guatemala, des disques de pyrite et des balles de caoutchouc. Il y a aussi quatre figures humaines en pierre verte, d’environ soixante centimètres. Ces offrandes sont datées des années cent cinquante à deux cents après Jésus-Christ.\n\nDerrière cette offrande, on a détecté trois chambres. Dans l’une d’elles est apparu du mercure liquide en grande quantité, avec des miroirs de pyrite et des sphères métalliques. L’archéologue Sergio Gómez propose que le mercure ait pu symboliser un fleuve ou un lac du monde souterrain. Le projet s’appelle Tlalocan, Chemin sous la terre, parce que le tunnel est interprété comme une représentation de ce monde souterrain.\n\nLa question que tout le monde se pose est de savoir ce qu’il y a au bout. Gómez a dit qu’il espère y trouver une tombe royale. On ne l’a pas encore découverte, et nous ne savons pas si elle existe. Si elle apparaissait, ce serait la première tombe d’un gouvernant à Teotihuacán. Elle aiderait à répondre à un énorme doute : comment cette ville était gouvernée. En attendant, chaque poignée de terre sortie du tunnel est étudiée au laboratoire."
+    },
+    "retos_observacion": {
+      "hash": "790d40b876ca633e",
+      "texto": [
+        "Repérez le sol de la place devant l’escalier de la Plateforme Adosada : c’est là que la brèche s’est ouverte en 2003.",
+        "Tracez du regard une ligne droite depuis vos pieds jusqu’au centre du Temple du Serpent à plumes pour suivre le parcours souterrain de 103 mètres.",
+        "Observez sur votre écran les images des sculptures en pierre verte et des sphères de pyrite découvertes dans la chambre finale."
+      ]
+    },
+    "especificaciones": {
+      "hash": "f806ac363e297a4b",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique ancien (condamné vers 250 apr. J.-C.)",
+        "Longueur": "103 m",
+        "Profondeur": "14 à 18 m",
+        "Découvertes": "plus de 100 000 objets, mercure liquide, sphères de pyrite et 4 sculptures en pierre verte",
+        "Exploration": "Projet Tlalocan, dirigé par Sergio Gómez Chávez (INAH)",
+        "Accès": "Fermé au public"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c2fc5f6617246c3",
+      "texto": {
+        "pregunta": "Mythe : Le tunnel sous la Citadelle était une grotte naturelle qui s’est effondrée avec le temps.",
+        "respuesta": "Réalité : Il a été creusé à la main dans la roche volcanique par les Teotihuacán et scellé délibérément par dix-huit murs de pierre vers 250 apr. J.-C."
+      }
+    }
+  }
+}

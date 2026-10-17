@@ -1,0 +1,55 @@
+{
+  "id": "teo_15_cuatro_templos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "51d07dcb1a9c6d06",
+      "texto": "Cour des Quatre Petits Temples"
+    },
+    "frase_gancho": {
+      "hash": "272f77e8780410f7",
+      "texto": "Une cour avec quatre petits temples, ouverte sur l’avenue."
+    },
+    "puente_narrativo": {
+      "hash": "8d257ba8f4b89a33",
+      "texto": "Tournez maintenant le regard vers l’autre côté de l’avenue, derrière les murs orientaux : c’est là que se cache le gigantesque palais où gouvernaient quatre seigneurs à la fois."
+    },
+    "guion_corto": {
+      "hash": "0353978682e540fe",
+      "texto": "Vous êtes devant la Cour des Quatre Petits Temples. Un escalier monte depuis la Chaussée jusqu’à une plateforme surélevée. La cour est entourée de quatre petits soubassements. On pense qu’il s’agissait d’une résidence importante. Que son entrée soit tournée vers l’avenue n’était peut-être pas un hasard. Beaucoup de maisons de la ville, en revanche, se fermaient sur la rue. Ici, il semble qu’on voulait être vu."
+    },
+    "guion_largo": {
+      "hash": "e23acfdf9cec2681",
+      "texto": "Regardez vers le côté gauche de la Chaussée, en direction de la Lune. Un large escalier monte à une plateforme surélevée. C’est la Cour des Quatre Petits Temples. Son nom vient de quatre petits soubassements disposés autour d’un espace central. Beaucoup de maisons de Teotihuacán avaient des murs aveugles du côté de la rue. En revanche, cet ensemble semble s’ouvrir sur l’avenue. Cette position le rend très visible pour qui marche sur la Chaussée. On pense que ses habitants étaient des personnes importantes, même si l’on ne sait pas avec certitude qui ils étaient. Les quatre temples autour d’un centre rappellent une idée présente dans de nombreuses cultures de Mésoamérique : quatre directions et un centre. C’est une lecture possible, pas un fait établi. On a également trouvé des restes de peinture murale dans des ensembles comme celui-ci, avec des personnages et des ornements. Cela nous dit que la maison était décorée avec soin. D’ici, les gens qui vivaient en haut pouvaient voir passer les processions. C’était peut-être une manière de participer à la vie de la ville. Ce qui est sûr, c’est que le voir d’en bas en dit long : celui qui possédait une maison comme celle-ci voulait être vu."
+    },
+    "retos_observacion": {
+      "hash": "f6b53ba801e81426",
+      "texto": [
+        "Repérez, sur le côté ouest de la Chaussée, le grand escalier flanqué de ses rampes latérales, qui donne directement accès à la plateforme",
+        "Si vous montez dans l’ensemble, identifiez les quatre petits soubassements qui entourent l’autel central",
+        "Cherchez au pied des murs les rigoles de pierre taillée qui évacuaient l’eau de la cour vers l’avenue"
+      ]
+    },
+    "especificaciones": {
+      "hash": "aa66c28c913f5270",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (vers 250-550 apr. J.-C.)",
+        "Structure": "Ensemble surélevé avec escalier monumental donnant sur la Chaussée, cour en quinconce (4 temples et autel central) et salles à portiques",
+        "Fonction": "Résidence sacerdotale et contrôle cérémoniel",
+        "Provenance": "Côté ouest de la Chaussée des Morts, entre le Soleil et la Lune"
+      }
+    },
+    "faq_mito": {
+      "hash": "fbb469423ee3f78d",
+      "texto": {
+        "pregunta": "Mythe : Toutes les habitations de Teotihuacán étaient des enceintes fermées, sans vue sur les avenues principales.",
+        "respuesta": "Réalité : Les palais sacerdotaux du centre, comme cet ensemble, avaient des escaliers et des portiques monumentaux ouverts directement sur la Chaussée des Morts."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "teo_22_caracoles",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a265bb2c77b543e4",
+      "texto": "Temple des Conques à plumes"
+    },
+    "frase_gancho": {
+      "hash": "bd074d1c17b04a60",
+      "texto": "Un temple resté enterré sous un palais, et qui conserve ainsi ses couleurs."
+    },
+    "puente_narrativo": {
+      "hash": "e6e840586c7dfb93",
+      "texto": "À la fin de ce parcours souterrain, quittez la zone de la Lune par la Porte Trois, toute proche, pour entrer dans le Musée des fresques de Teotihuacán « Beatriz de la Fuente »."
+    },
+    "guion_corto": {
+      "hash": "fc1062339933eb9d",
+      "texto": "Sous le Palais de Quetzalpapálotl se trouve un autre édifice, plus ancien, le Temple des Conques à plumes. On l’a recouvert avec le palais, et cela l’a protégé. Il a été redécouvert au début des années soixante par Jorge Acosta. On le date entre les années deux cents et trois cents de notre ère. Son nom vient des conques à plumes qui ornent ses pilastres. L’avantage d’être resté enterré, c’est que ses couleurs se sont conservées."
+    },
+    "guion_largo": {
+      "hash": "ba974b21b89e6f29",
+      "texto": "Sous le Palais de Quetzalpapálotl se trouve un autre édifice, plus ancien. C’est le Temple des Conques à plumes. Les Teotihuacán ne l’ont pas démoli, ils l’ont recouvert. Cela l’a protégé du temps. L’archéologue Jorge Acosta l’a redécouvert dans les années soixante, vers mil neuf cent soixante-deux. On le date entre les années deux cents et trois cents de notre ère. Son nom vient des conques à plumes que l’on voit sur ses pilastres. En langue nahuatl, une trompette en conque se dit tecciztli. Ce mot rappelle Tecciztécatl, un dieu des récits mexicas qui se jeta dans le feu pour devenir lune. Les Mexicas l’ont raconté des siècles plus tard, mais nous ne savons plus si les Teotihuacán pensaient de la même manière. C’est un rapprochement que nous faisons nous-mêmes. Selon des descriptions du site, des couleurs d’origine se conservent sur la plateforme. On y voit des oiseaux verts qui se font face deux par deux, avec des jets d’eau qui sortent de leurs becs. Cette peinture s’est conservée parce que le temple a été enseveli. Si vous descendez dans la galerie, ou si vous vous penchez depuis les marches, imaginez les gens du IIIe siècle. Ils voyaient cette façade aux couleurs fraîchement peintes."
+    },
+    "retos_observacion": {
+      "hash": "c53793287611aaee",
+      "texto": [
+        "Repérez, dans le circuit de l’ensemble, la descente vers les galeries souterraines situées sous le niveau du Palais de Quetzalpapálotl",
+        "Repérez sur les pilastres de pierre les conques marines sculptées avec des plumes, des fleurs à quatre pétales et un embout de trompette",
+        "Observez les restes de peinture verte, bleue, rouge et jaune des oiseaux qui déversent des jets d’eau par le bec"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a86d259bf4d5270a",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique ancien (vers 200-300 apr. J.-C.)",
+        "Éléments remarquables": "Pilastres à bas-reliefs de trompettes en conque à plumes, fresques d’oiseaux déversant de l’eau et sous-structure des Disques rouges",
+        "Exploration": "Jorge R. Acosta (1960-1964)",
+        "Emplacement": "Sous-sol du Palais de Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "ee93b99b031f61af",
+      "texto": {
+        "pregunta": "Mythe : Le Temple des Conques à plumes a été construit à l’origine comme une chambre souterraine.",
+        "respuesta": "Réalité : C’était un temple à ciel ouvert au IIIe siècle ; il s’est retrouvé sous terre des siècles plus tard, lorsque les Teotihuacán eux-mêmes l’ont comblé pour construire par-dessus le Palais de Quetzalpapálotl."
+      }
+    }
+  }
+}

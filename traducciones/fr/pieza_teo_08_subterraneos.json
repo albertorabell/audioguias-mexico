@@ -1,0 +1,56 @@
+{
+  "id": "teo_08_subterraneos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7c169ed336585ece",
+      "texto": "Édifices superposés, les souterrains"
+    },
+    "frase_gancho": {
+      "hash": "b767eec7248bf412",
+      "texto": "Dans cette cité, on construisait un édifice neuf par-dessus un édifice ancien."
+    },
+    "puente_narrativo": {
+      "hash": "e8834ab8d1a331aa",
+      "texto": "Quelques pas plus loin, sur ce même tronçon de l’avenue, les résidences de l’élite cachaient sous le sol des plaques brillantes venues d’Oaxaca."
+    },
+    "guion_corto": {
+      "hash": "e23a6cdfb3bd672a",
+      "texto": "Vous vous trouvez devant un lieu où un édifice repose sur un autre, plus ancien. À Teotihuacán, il était courant de construire par-dessus l’ancien. On comblait, puis on bâtissait de nouveau. Le Temple du Serpent à plumes en est un exemple, car vers l’an trois cent cinquante, on lui ajouta une plateforme devant sa façade. Le Palais de Quetzalpapálotl fut élevé sur le Temple des Conques à plumes. Ainsi, les édifices ont gardé des couches d’histoire. Voir l’une de ces couches, c’est comme ouvrir un vieux livre."
+    },
+    "guion_largo": {
+      "hash": "b65af377ec971848",
+      "texto": "À Teotihuacán, une construction nouvelle effaçait rarement la précédente. Bien souvent, on comblait, puis on bâtissait par-dessus. Cela a laissé des édifices entiers conservés à l’intérieur d’autres. Dans le secteur que vous avez devant vous, appelé Édifices superposés, vous pouvez voir comment un édifice s’appuie sur un autre, plus ancien. Certaines galeries inférieures sont généralement fermées pour des raisons de conservation, mais depuis les dénivelés, on parvient à remarquer la différence. Il existe d’autres exemples connus. Le Temple du Serpent à plumes est resté en partie caché par une plateforme ajoutée vers l’an trois cent cinquante. Sa façade ornée de sculptures s’en est ainsi trouvée protégée. Le Palais de Quetzalpapálotl fut construit sur le Temple des Conques à plumes. Grâce à cet enfouissement, le temple le plus ancien a été sauvé. Les archéologues tirent parti de ces couches. Chacune raconte une étape différente de la cité. Une question fait encore débat. Pourquoi recouvrait-on un édifice au lieu de le démolir ? Certains pensent qu’enterrer un temple était un acte rituel. C’est une hypothèse. Chaque nouvel édifice garde en lui le souvenir du précédent. Pendant que vous regardez, imaginez combien de versions de ce lieu ont existé sous vos pieds."
+    },
+    "retos_observacion": {
+      "hash": "dd2b7d3a0995afdd",
+      "texto": [
+        "Penchez-vous sur les coupes et les dénivelés du côté ouest de la Chaussée pour distinguer comment les murs supérieurs s’appuient sur des structures plus anciennes.",
+        "Repérez les escaliers et l’accès aux galeries souterraines creusées au début du XXe siècle.",
+        "Observez sur les photos de votre écran les entrelacs rouges et blancs de style véracruzain qui sont conservés au niveau inférieur."
+      ]
+    },
+    "especificaciones": {
+      "hash": "70607d9b8b40de1b",
+      "texto": {
+        "Culture": "Teotihuacán, avec une influence de la côte du Golfe",
+        "Période": "Classique ancien (étapes inférieures vers 150-250 apr. J.-C.)",
+        "Superposition": "de 4 à 6 niveaux de construction",
+        "Élément remarquable": "Plateforme de la Volute entrelacée",
+        "Exploration initiale": "Leopoldo Batres (1909)",
+        "Provenance": "Côté ouest de la Chaussée des Morts"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0b8c41f1a51f50f",
+      "texto": {
+        "pregunta": "Mythe : Les Teotihuacán démolissaient les anciens édifices quand ils passaient de mode.",
+        "respuesta": "Réalité : Ils les comblaient avec soin de pierre et de terre pour s’en servir de fondation, ce qui a permis aux temples inférieurs de conserver leur stuc et leur peinture."
+      }
+    }
+  }
+}

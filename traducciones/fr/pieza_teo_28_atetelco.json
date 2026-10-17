@@ -1,0 +1,55 @@
+{
+  "id": "teo_28_atetelco",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "985ec9a9b2f2453d",
+      "texto": "Atetelco : coyotes et pumas guerriers"
+    },
+    "frase_gancho": {
+      "hash": "f2248d4b77b914ec",
+      "texto": "Un défilé de coyotes et de jaguars qui marchent vers la porte."
+    },
+    "puente_narrativo": {
+      "hash": "f65f72623a1c3f4c",
+      "texto": "En quittant Atetelco, alors que vous retournez vers l’entrée sud, nous écouterons les histoires de deux quartiers voisins qui complètent la carte humaine de la ville : les artisans de La Ventilla et les Zapotèques de Oaxaca."
+    },
+    "guion_corto": {
+      "hash": "3ce958cfadd82b32",
+      "texto": "Atetelco signifie « sur le mur de pierre près de l’eau ». C’est un ensemble d’habitations aux patios décorés. Dans le Patio Blanc, une fresque montre une procession de coyotes et de jaguars qui avancent les uns derrière les autres vers la porte centrale. Le Patio Rouge possède un autel aux couleurs vives et des ornements liés à l’activité militaire. Observez bien les animaux et vous verrez que chacun a ses détails propres. Le coyote et le jaguar n’ont ni le même museau ni la même queue."
+    },
+    "guion_largo": {
+      "hash": "841288dfd9d917cd",
+      "texto": "Le Patio Blanc compte trois temples des premières étapes de la ville, datés entre les années trois cents et quatre cents. Dans le Portique 2 du Temple Oriental, les murs montrent une procession de coyotes et de jaguars. Sur certaines fresques, un jaguar précède le coyote. Sur d’autres, le coyote va en premier et le jaguar le suit. Tous se dirigent vers la porte centrale. Les coyotes sont dessinés par de fines lignes rouges. Ils ont de longues mèches aux coudes et une bande de petites plumes triangulaires dans le dos. Leur coiffure est un diadème orné de longues plumes. Les jaguars ont le corps recouvert comme d’un filet. Leur museau est plus court, leurs crocs plus recourbés et la langue apparaît fendue en deux. Chaque fresque est encadrée par une bordure de fines lignes. Plus haut se trouve le Patio Rouge, avec des enceintes sur des bases de pyramide et un autel aux couleurs vives. Son décor est lié à l’activité militaire. Que signifiait exactement cette procession, nous l’ignorons. Mais vous pouvez comparer les deux animaux et découvrir comment les artistes les distinguaient."
+    },
+    "retos_observacion": {
+      "hash": "4753b1f1921cc09d",
+      "texto": [
+        "Entrez dans les portiques du Patio Blanc et observez, dans la partie haute, le réseau de losanges avec des guerriers et des coyotes dans chaque case",
+        "Passez au Patio Rouge (des Canidés) et cherchez, en bas des murs, la file de coyotes et de pumas aux panaches verts",
+        "Repérez devant le museau des animaux le cœur humain trilobé d’où tombent trois gouttes de sang, et regardez au centre du patio le petit autel en talud et tablero"
+      ]
+    },
+    "especificaciones": {
+      "hash": "84fea297416b3d11",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique récent (fresques vers 350-550 apr. J.-C.)",
+        "Espaces principaux": "Patio Blanc (3 portiques avec réseau de losanges) et Patio Peint ou des Canidés (procession de coyotes et de pumas et autel central)",
+        "Thématique": "Ordres militaires de coyotes, de pumas et d’aigles et rituels de sacrifice",
+        "Emplacement": "Extrémité sud-ouest (1,5 km au sud-ouest de la pyramide du Soleil)"
+      }
+    },
+    "faq_mito": {
+      "hash": "5617ebaf631c238e",
+      "texto": {
+        "pregunta": "Mythe : Teotihuacán était une ville pacifique, sans armée ni sacrifices humains, et la guerre rituelle serait une invention postérieure des Toltèques et des Mexicas.",
+        "respuesta": "Réalité : Les fresques d’Atetelco démontrent que, dès le IVe siècle, il existait à Teotihuacán des ordres militaires de guerriers coyotes, pumas et aigles liés au sacrifice de cœurs."
+      }
+    }
+  }
+}

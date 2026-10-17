@@ -1,0 +1,56 @@
+{
+  "id": "teo_02_templo_serpiente",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "158a3fb6368f096b",
+      "texto": "Temple du Serpent à plumes"
+    },
+    "frase_gancho": {
+      "hash": "bb40581ff6cbb46e",
+      "texto": "Plus de cent trente personnes ont été enterrées sous ses fondations pour consacrer ce temple."
+    },
+    "puente_narrativo": {
+      "hash": "180667a4dfea84f3",
+      "texto": "Si vous suivez le parcours complet, restez devant cet escalier pour observer, aux rayons X, le tunnel scellé sous vos pieds ; si vous êtes sur le parcours express, quittez la Ciudadela en direction de la Chaussée des Morts et marchez vers le nord."
+    },
+    "guion_corto": {
+      "hash": "5ae5a129b00fbdfd",
+      "texto": "Lorsque vous approchez de cet édifice de face, la première chose que vous voyez est une structure lisse et grise appelée la Plateforme Adossée. Montez ses marches et penchez-vous sur le couloir étroit qui s’ouvre derrière : c’est là qu’apparaît, cachée pendant des siècles, la façade sculptée la plus spectaculaire de Teotihuacán. Vous voici devant le Temple du Serpent à plumes, élevé vers l’an deux cents. De ses panneaux surgissent d’énormes têtes de pierre qui furent autrefois peintes en rouge, en vert, en bleu et en jaune. Les unes sont des serpents à plumes qui émergent d’une fleur ; les autres, avec deux anneaux sur le front et sans mâchoire inférieure, représentent, selon de nombreux spécialistes, une coiffe sacrée de l’origine du temps."
+    },
+    "guion_largo": {
+      "hash": "4bba0f56ac744fec",
+      "texto": "Cette façade a été conçue pour être lue. Deux créatures alternent le long des panneaux et de l’escalier. La première est le Serpent à plumes. Sa tête en ronde-bosse jaillit d’une corolle de pétales et elle est entourée d’escargots et de coquillages, comme s’il nageait dans les eaux primordiales de la création. La seconde a déconcerté les archéologues pendant des décennies. À cause des deux anneaux qu’elle porte sur le front, on a cru qu’il s’agissait de Tláloc, le dieu de la pluie. Aujourd’hui, de nombreux spécialistes l’interprètent comme la coiffe de Cipactli, le crocodile monstrueux de la Terre et symbole du premier jour du calendrier. Selon cette lecture, le serpent porte sur son dos le commencement du temps.\n\nOn estime qu’entre trois cents et quatre cents de ces têtes, hautes d’environ un mètre, décoraient l’édifice. Et toutes furent peintes. Imaginez ce mur entier, resplendissant, vu depuis la place remplie de monde.\n\nLes dates ne sont pas exactes : les études situent la construction entre les années cent cinquante et deux cent cinquante. Mais le plus saisissant se trouvait sous le sol. Avant d’élever le temple, vers l’an deux cents, on a enterré ici des dizaines de personnes. Les archéologues Rubén Cabrera et Saburo Sugiyama ont retrouvé les restes de cent trente-sept d’entre elles, disposées avec beaucoup d’ordre et les mains attachées dans le dos. Si l’on ajoute les zones qui n’ont pas été fouillées, on estime qu’elles furent entre deux cents et deux cent soixante.\n\nQui étaient-elles ? Les analyses de l’oxygène dans leurs os et leurs dents ont réservé une surprise. Elles venaient de plusieurs régions de Mésoamérique, mais la plupart avaient vécu à Teotihuacán pendant des années. Ce n’étaient pas de simples captifs fraîchement arrivés. Une hypothèse propose qu’il s’agissait d’étrangers au service du dirigeant, peut-être des gardes d’élite, car ils portaient des parures et des offrandes très semblables et très riches. C’est une hypothèse, pas une certitude. D’autres idées avancent qu’ils étaient les serviteurs d’un fondateur de dynastie, ou qu’ils étaient consacrés au Serpent à plumes ou à l’édifice lui-même. Avec eux, on a enterré un trésor : on parle d’environ cent mille objets précieux.\n\nUne dernière chose sur l’histoire de cet édifice. Une centaine d’années après sa construction, vers l’an trois cent cinquante, la façade a été recouverte par la Plateforme Adossée que vous venez de gravir. On discute des raisons. Une lecture évoque un changement dans le gouvernement interne de la ville ; une autre, un enterrement rituel respectueux. Les côtés qui n’ont pas été recouverts ont été endommagés à une date inconnue, et c’est pourquoi la partie cachée est celle qui s’est le mieux conservée.\n\nEntre mil neuf cent dix-sept et mil neuf cent vingt-deux, l’archéologue Manuel Gamio a ouvert le couloir où vous vous trouvez. Il a rendu à la lumière une façade que personne n’avait vue depuis plus de mille cinq cents ans."
+    },
+    "retos_observacion": {
+      "hash": "cffc59d3095db4b0",
+      "texto": [
+        "Montez sur la Plateforme Adossée et penchez-vous sur le couloir arrière pour voir de face les corps étagés d’origine",
+        "Distinguez les deux têtes : le Serpent à plumes entouré de pétales et la coiffe écailleuse de Cipactli, avec deux anneaux et sans mâchoire inférieure",
+        "Cherchez dans les talus et les entrecolonnements les reliefs d’escargots et de coquillages marins"
+      ]
+    },
+    "especificaciones": {
+      "hash": "750d48419595a14e",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique ancien (vers 200 apr. J.-C. ; fermé vers 350 apr. J.-C.)",
+        "Matériau": "Pierre volcanique sculptée, stuc et peinture murale",
+        "Structure": "Sept corps d’origine en talus-tableau avec 366 têtes de pierre",
+        "Découverte": "Dégagé par Manuel Gamio (1917-1922) ; sépultures fouillées dans les années quatre-vingt",
+        "Provenance": "La Ciudadela, Teotihuacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "24ae0f14d4a7a0b6",
+      "texto": {
+        "pregunta": "Mythe : Les têtes avec des anneaux sur le front représentent le dieu de la pluie, Tláloc.",
+        "respuesta": "Réalité : Des études iconographiques récentes démontrent qu’elles représentent Cipactli, le caïman ou monstre de la Terre et signe du premier jour du calendrier rituel."
+      }
+    }
+  }
+}

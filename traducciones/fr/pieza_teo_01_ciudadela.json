@@ -1,0 +1,56 @@
+{
+  "id": "teo_01_ciudadela",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0fbe72e51926396f",
+      "texto": "La Citadelle et la Grande Place"
+    },
+    "frase_gancho": {
+      "hash": "67aebe3fa7b44986",
+      "texto": "Les Espagnols ont cru à une forteresse. C’était le cœur du pouvoir."
+    },
+    "puente_narrativo": {
+      "hash": "151433b2866849d4",
+      "texto": "Traversez la grande esplanade vers l’édifice du fond, à l’est : derrière la plateforme grise qui le recouvre, vous attend la façade la plus sacrée de la ville."
+    },
+    "guion_corto": {
+      "hash": "70a4727ffdb75508",
+      "texto": "Montez sur la plateforme d’entrée et penchez-vous sur cette esplanade monumentale. Lorsque les Espagnols ont vu cette enceinte fermée par de hauts murs de quatre cents mètres de côté, ils ont cru à une caserne militaire et l’ont appelée la Citadelle. En réalité, vous êtes devant le cœur politique et cérémoniel de Teotihuacán. Regardez la cour en contrebas : elle est si vaste qu’elle pouvait réunir une foule immense. Tout autour, sur les plateformes qui vous entourent, s’élèvent quinze petites pyramides, et au fond domine le temple du Serpent à plumes."
+    },
+    "guion_largo": {
+      "hash": "acb29bdf7aac8331",
+      "texto": "Le mot Citadelle, ce sont les Espagnols qui l’ont inventé : ils ont vu de hauts murs et ont pensé à un fort. Mais regardez comment ce lieu est conçu. Ce sont quatre plateformes réunies qui entourent une place immense, et il n’y a qu’une seule entrée publique, du côté ouest. Cela ne sert pas à se défendre contre une armée. Cela sert à contrôler qui entre et quand. Les archéologues pensent que l’enceinte pouvait rester fermée presque tous les jours et ne s’ouvrir que pour des cérémonies spéciales.\n\nAutour de la place s’alignent quinze petits temples, encastrés dans les bords des plateformes : quatre à l’ouest, quatre au nord, quatre au sud et trois à l’est. Et à l’est, face à celui qui entre, domine le temple du Serpent à plumes. C’est le troisième plus grand édifice de toute la ville, après les pyramides du Soleil et de la Lune. L’ensemble a été construit entre les années cent cinquante et deux cent cinquante de notre ère. Un tel ouvrage a exigé un État capable d’organiser des milliers de travailleurs et de réunir des matériaux venus de toute la vallée.\n\nImaginez cette cour un jour de fête. On a calculé que la place pouvait accueillir des dizaines de milliers de personnes, bien qu’il s’agisse d’une estimation de capacité et non d’une donnée vérifiée. Vue d’en bas, les plateformes latérales vous enferment : le paysage de la vallée disparaît et toute l’attention se porte vers les prêtres, en haut des soubassements, et vers le temple du fond. C’était une scène conçue pour que chacun ressente le poids de l’État et du cosmos.\n\nCertains chercheurs proposent que la place ait fini par être inondée de manière rituelle, comme un miroir d’eau entouré de temples. Les traces d’eau apparues dans le tunnel qui court sous l’enceinte le suggèrent. C’est une hypothèse, mais elle s’accorde avec l’importance de l’eau dans toute la ville.\n\nSous ces plateformes se trouvent en outre des constructions plus anciennes. Avant d’élever la Citadelle, les bâtisseurs ont rasé une structure antérieure qui ressemble à un terrain de jeu de balle. Teotihuacán s’est refaite plus d’une fois, et ici vous pouvez le voir : chaque plateforme cache des étapes antérieures qui sont encore à l’étude.\n\nVers l’année trois cent cinquante, un changement profond s’est produit. La façade du temple du Serpent à plumes est restée cachée derrière une grande plateforme, la Plateforme adossée, que vous gravirez lors de la prochaine étape. Certains spécialistes y lisent un changement dans le gouvernement de la ville. D’autres pensent qu’il s’agissait d’un enterrement rituel fait avec respect. Bien plus tard, à une date que nous ignorons, quelqu’un a endommagé les sculptures des côtés restés découverts.\n\nVous êtes à plus de deux mille mètres au-dessus du niveau de la mer, et presque toujours sans ombre. Avant de partir vers l’Avenue des Morts, buvez quelques gorgées d’eau."
+    },
+    "retos_observacion": {
+      "hash": "3d8ce3cf397b5af5",
+      "texto": [
+        "Faites le tour de la cour du regard et comptez les petites pyramides sur les plateformes : il y en a quinze en tout",
+        "Repérez l’autel carré au centre de l’esplanade, avec ses quatre escaliers",
+        "Regardez vers l’est, au fond de la cour, là où s’élève l’édifice principal à deux façades"
+      ]
+    },
+    "especificaciones": {
+      "hash": "caaffef9ee616a0a",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique ancien (vers 150-250 apr. J.-C.)",
+        "Dimensions": "environ 400 m de côté",
+        "Soubassements": "15 pyramides secondaires sur 4 plateformes",
+        "Fonction": "siège du pouvoir politique et religieux",
+        "Provenance": "Teotihuacán, État de Mexico (extrémité sud de l’Avenue des Morts)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c5bd19317f163227",
+      "texto": {
+        "pregunta": "Mythe : La Citadelle était une forteresse militaire.",
+        "respuesta": "Réalité : Ce sont les Espagnols qui lui ont donné ce nom, par erreur. C’était le centre politique et cérémoniel de la ville, avec des palais, un temple principal et une grande cour pour les foules."
+      }
+    }
+  }
+}

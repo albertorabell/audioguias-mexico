@@ -1,0 +1,55 @@
+{
+  "id": "teo_06_rio_san_juan",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3ed240c5adcc2759",
+      "texto": "Le fleuve qui a tourné de quatre-vingt-dix degrés"
+    },
+    "frase_gancho": {
+      "hash": "4f05f39398175e9a",
+      "texto": "Les Teotihuacán n’ont pas adapté leur ville au fleuve : ils ont déplacé le fleuve pour qu’il suive leur plan."
+    },
+    "puente_narrativo": {
+      "hash": "1387c55af4930b2b",
+      "texto": "Une fois le pont traversé, commencez à monter la première volée de marches vers le nord pour sentir comment la Chaussée des Morts joue avec vos yeux et vos oreilles."
+    },
+    "guion_corto": {
+      "hash": "0712e7ce71457273",
+      "texto": "En traversant le río San Juan, vous vous trouvez sur un ouvrage d’ingénierie. Son lit naturel ne s’intégrait pas au plan de la ville, alors on l’a dévié et canalisé. Selon une étude par laser aérien, sur environ trois kilomètres, il suit l’orientation de la ville. Cela a probablement été fait au IIe siècle. L’eau servait à drainer et à maîtriser les fortes pluies. Les constructeurs voulaient une ville ordonnée, et le paysage a dû obéir."
+    },
+    "guion_largo": {
+      "hash": "b7977d2889ad15ba",
+      "texto": "Le río San Juan traverse le centre de Teotihuacán, et il ne coule pas comme un fleuve naturel. Son lit d’origine coupait l’espace où l’on avait prévu la Ciudadela et le Gran Conjunto. C’est pourquoi il a été dévié. Selon une étude, cela s’est probablement produit au IIe siècle de notre ère. C’est une date probable, non certaine. Le canal passait sous la plateforme nord de la Ciudadela et amenait l’eau jusqu’à un puits dans sa place centrale. Ensuite, il courait vers l’ouest, contournait le Gran Conjunto et longeait l’Avenida Oeste. On estime qu’environ trois kilomètres de lit ont été ajustés au quadrillage de la ville. Une étude par cartographie aérienne au laser, dirigée par Nawa Sugiyama, a confirmé autre chose. Le San Juan suit l’orientation de la ville sur environ trois kilomètres dans le centre. Un autre cours d’eau, le San Lorenzo, a une orientation différente et parcourt quatre virgule neuf kilomètres. Lui aussi a été modifié. Ce système aidait à drainer l’eau et à maîtriser les inondations. Certains auteurs pensent qu’il était peut-être navigable à certaines saisons, mais ce n’est qu’une hypothèse. Pendant que vous traversez, dites-vous que le fleuve que vous voyez n’est pas un accident. C’était une décision des constructeurs."
+    },
+    "retos_observacion": {
+      "hash": "448364b11b03f9bf",
+      "texto": [
+        "Penchez-vous depuis le pont vers l’est et vers l’ouest pour observer le tracé parfaitement droit du lit",
+        "Cherchez sur les parois du canal les vestiges des anciens murs de soutènement en pierre",
+        "Regardez vers le sud et vers le nord pour remarquer comment le fleuve divise l’avenue en deux mondes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d4699dec98f6933",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique ancien (vers 150-250 apr. J.-C.)",
+        "Ouvrage": "Déviation artificielle à angle de 90° d’environ 3 km du lit du río San Juan",
+        "Fonctions": "Contrôle des inondations, collecteur général du drainage urbain, irrigation agricole et axe cosmique est-ouest",
+        "Provenance": "Croisement du río San Juan et de la Chaussée des Morts"
+      }
+    },
+    "faq_mito": {
+      "hash": "fd03b2d74ff52dd9",
+      "texto": {
+        "pregunta": "Mythe : Le río San Juan a toujours coulé en ligne droite en traversant la Chaussée.",
+        "respuesta": "Réalité : Son lit d’origine traversait la vallée en diagonale ; les Teotihuacán l’ont dévié à la main à angle droit pour l’intégrer à leur quadrillage urbain."
+      }
+    }
+  }
+}

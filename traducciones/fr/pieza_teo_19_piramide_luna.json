@@ -1,0 +1,56 @@
+{
+  "id": "teo_19_piramide_luna",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f374cc1285da90c8",
+      "texto": "Pyramide de la Lune"
+    },
+    "frase_gancho": {
+      "hash": "5856f87de45c4164",
+      "texto": "Sept pyramides, l’une dans l’autre, et sous elles des pumas, des aigles et des personnes enterrées en offrande."
+    },
+    "puente_narrativo": {
+      "hash": "4e8601e061438f71",
+      "texto": "Marchez maintenant vers le coin gauche de la place, au sud-ouest de la pyramide : nous descendrons quelques marches pour entrer dans le palais le mieux conservé de Teotihuacán."
+    },
+    "guion_corto": {
+      "hash": "d5713cf44e13509a",
+      "texto": "Placez-vous devant l’escalier de la pyramide de la Lune et observez sa silhouette contre le ciel. Bien qu’elle mesure quarante-trois mètres de hauteur, soit une vingtaine de mètres de moins que la pyramide du Soleil, les deux sommets se trouvent presque à la même altitude, parce qu’ici le terrain de la vallée est plus élevé. Remarquez les talus inclinés de l’édifice et comparez-les aux pentes du Cerro Gordo qui apparaît derrière : les constructeurs semblent avoir voulu que la pyramide soit un écho de la montagne. Et si vous regardez les coupes de sa façade frontale, vous constaterez qu’il ne s’agit pas d’un seul édifice, mais de plusieurs superposés."
+    },
+    "guion_largo": {
+      "hash": "36e1aee8b4f70c5a",
+      "texto": "À la différence de la pyramide du Soleil, qui fut élevée en une seule grande étape, la pyramide de la Lune a grandi pendant des siècles, comme un être vivant. À partir de la fin des années quatre-vingt-dix, les archéologues Rubén Cabrera et Saburo Sugiyama ont creusé des tunnels jusqu’en son cœur. Ils ont découvert qu’à l’intérieur se trouvent six pyramides plus anciennes, l’une recouvrant l’autre, jusqu’à la septième, celle que vous voyez aujourd’hui. À partir du quatrième édifice, chaque agrandissement a été consacré par des sépultures et des offrandes. Et ces agrandissements n’étaient pas modestes : l’édifice quatre a été neuf fois plus grand que l’édifice trois.\n\nLa première de ces découvertes est apparue lors de la construction de l’édifice quatre, dans la première moitié du troisième siècle. C’était un homme d’une quarantaine à une cinquantaine d’années, assis, les mains attachées dans le dos. L’analyse de ses os indique qu’il a passé son enfance loin de Teotihuacán. Il était accompagné de dizaines d’animaux : deux pumas et un loup dans des cages en bois, neuf aigles royaux, un faucon, un hibou et des serpents à sonnette. Il y avait aussi des sculptures en pierre verte, des figures d’obsidienne et huit vases ornés du visage de Tláloc. La posture de ses bras et de ses jambes est identique à celle des sacrifiés sous le temple du Serpent à plumes. Ils datent à peu près de la même époque, ce qui suggère un même rituel.\n\nVers l’an trois cents, l’édifice cinq a été consacré avec quatre jeunes hommes, les mains attachées, et avec des crânes de loups et de pumas. L’un d’eux portait un collier de pièces de coquillage en forme de mâchoires. Plus tard, lors de l’érection de l’édifice six, on a enterré les crânes d’environ dix-huit personnes décapitées, presque toutes de jeunes hommes, sans aucune offrande. Les analyses indiquent que la plupart étaient des étrangers.\n\nLa tombe la plus énigmatique marque la clôture de l’édifice cinq. Il s’agissait de trois hommes d’une quarantaine à une soixantaine d’années, assis les jambes croisées, avec des ornements d’oreilles et des pendentifs en jadéite de style maya. Avec eux se trouvaient un aigle royal, des pumas et des serpents. Les analyses suggèrent que deux d’entre eux ont grandi dans la même région. Le troisième venait d’une autre, peut-être de la côte du Golfe ou des basses terres mayas. Le jade vient probablement du Guatemala. Les archéologues débattent pour savoir s’il s’agissait d’une sépulture d’honneur ou d’un sacrifice.\n\nQue voulaient-ils dire par tout cela ? Une lecture très répandue propose qu’ils nourrissaient symboliquement la montagne sacrée avec ce qu’ils avaient de plus précieux : des animaux puissants, des personnes venues de loin et des pierres vertes rapportées de très grandes distances. En échange, ils espéraient que l’eau ne manquerait jamais dans la vallée. C’est une interprétation, mais elle explique pourquoi chaque nouvelle couche de la pyramide exigeait une offrande plus spectaculaire que la précédente.\n\nIl vous reste encore du chemin à parcourir. Si vous avez de l’eau, profitez-en pour en boire un peu avant de poursuivre."
+    },
+    "retos_observacion": {
+      "hash": "0a964e669c007ca5",
+      "texto": [
+        "Comparez l’angle d’inclinaison des flancs de la pyramide avec la pente naturelle du Cerro Gordo derrière elle",
+        "Observez sur la Plateforme Adossée, à l’avant, comment apparaissent les murs et les talus des étapes de construction antérieures",
+        "Remarquez comment, depuis ici, le regard domine toute la ligne droite de l’Avenue des Morts vers le sud"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7531bf368e897ff4",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (7 étapes de construction entre 100 et 450 apr. J.-C.)",
+        "Dimensions": "43 m de hauteur x 150 m (est-ouest) x 130 m (nord-sud)",
+        "Découvertes": "Six sous-structures internes et les Sépultures 2 à 6 avec des dignitaires, des captifs et des animaux en cages",
+        "Fouille intérieure": "Rubén Cabrera et Saburo Sugiyama (1998-2004)",
+        "Provenance": "Extrémité nord de l’Avenue des Morts"
+      }
+    },
+    "faq_mito": {
+      "hash": "413c8a2c5017064c",
+      "texto": {
+        "pregunta": "Mythe : La pyramide de la Lune est plus basse parce qu’elle était moins importante que celle du Soleil.",
+        "respuesta": "Réalité : Construite sur une élévation naturelle au nord de la vallée, son sommet se trouve pratiquement à la même altitude que celui de la pyramide du Soleil, et ses sept étapes de construction renferment les offrandes d’État les plus riches de la cité."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "teo_17_plaza_columnas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "62b3b5e88d9d0695",
+      "texto": "Plaza de las Columnas : l’ambassade maya"
+    },
+    "frase_gancho": {
+      "hash": "7db6c1ec0cb127ab",
+      "texto": "Ici, on a enterré des ossements, des vases et des peintures venus de terres lointaines, et tout cela à dessein."
+    },
+    "puente_narrativo": {
+      "hash": "e4519f6dfab5e34e",
+      "texto": "Avancez sur les derniers mètres vers le nord : devant vous s’ouvre le grand théâtre cérémoniel de la Plaza de la Luna."
+    },
+    "guion_corto": {
+      "hash": "c8754ffa3f4a92bc",
+      "texto": "Vous êtes sur la Plaza de las Columnas, un vaste ensemble de places et de temples au bord de la Calzada. Ici, une équipe dirigée par Saburo Sugiyama a découvert d’énormes offrandes. Dans l’une d’elles se trouvaient plus de deux mille quatre cents restes humains. Dans une autre, des milliers d’ossements d’animaux et des morceaux de peinture murale de style maya. Tout fut enterré avec intention. Ce que cela signifie reste sujet à débat. Songez qu’sous ces sols se trouvent des dépôts qui ont été scellés il y a des siècles."
+    },
+    "guion_largo": {
+      "hash": "4e663feb14ffdf5b",
+      "texto": "Les chercheurs ont trouvé ici de très grandes offrandes, enterrées avec soin à l’intérieur des édifices. L’Offrande A un renfermait plus de deux mille quatre cents restes humains. Certaines dents étaient limées ou avaient des incrustations de métal, et au moins trois crânes présentaient une déformation crânienne. L’Offrande D un contenait environ trois mille cinq cents ossements, presque tous d’animaux, et environ dix mille fragments de céramique. Il y avait aussi de la chaux et du plâtre ornés d’images de style maya. Sont apparus en outre plus de mille fragments de peinture murale de style maya, qui ont probablement été détruits à dessein. Dans une autre offrande se trouvaient des pierres marines et le squelette d’un singe-araignée. Les archéologues pensent que tout cela faisait partie de grandes fêtes, peut-être pour nouer des alliances avec d’autres peuples. Il s’agit d’une interprétation, non d’un fait prouvé. Un autre sujet est débattu. Les textes mayas disent qu’un homme nommé Siyaj Kak arriva à Tikal en janvier de l’année trois cent soixante-dix-huit. Beaucoup le rattachaient à Teotihuacán. Ces découvertes amènent certains spécialistes à voir des relations plus complexes qu’une simple conquête. Pendant que vous marchez, imaginez sous vos pieds ces dépôts scellés."
+    },
+    "retos_observacion": {
+      "hash": "297ae6927a9c1ea3",
+      "texto": [
+        "Observez les monticules et les plateformes du côté ouest de la Calzada, juste avant son arrivée sur la Plaza de la Luna",
+        "Remarquez leur voisinage immédiat avec les grands complexes du pouvoir septentrional (Xalla à l’est et la Lune au nord)",
+        "Regardez sur l’écran de votre application les fragments de glyphes et de figures de style maya retrouvés lors de ces fouilles"
+      ]
+    },
+    "especificaciones": {
+      "hash": "484096401c2c0119",
+      "texto": {
+        "Culture": "Teotihuacán en interaction avec l’élite maya du Classique ancien",
+        "Période": "Classique (apogée diplomatique entre 300 et 450 apr. J.-C.)",
+        "Découvertes": "Plus de 500 fragments de peintures murales de style maya, céramique du Petén et résidus de banquets au cacao",
+        "Emplacement": "Flanc occidental de la Calzada de los Muertos, contigu à la Plaza de la Luna"
+      }
+    },
+    "faq_mito": {
+      "hash": "a027e54003c349ae",
+      "texto": {
+        "pregunta": "Mythe : Les Mayas et les Teotihuacán ont vécu à des époques différentes et n’ont eu aucun contact direct.",
+        "respuesta": "Réalité : Ils ont coexisté pendant la période classique ; des nobles mayas ont vécu dans ce secteur de Teotihuacán et l’État teotihuacán est intervenu directement dans des cités mayas comme Tikal et Copán au IVe siècle."
+      }
+    }
+  }
+}

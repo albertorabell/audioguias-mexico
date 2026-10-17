@@ -1,0 +1,55 @@
+{
+  "id": "teo_04_palacios_ciudadela",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a89b8d317f24072b",
+      "texto": "Palais nord et sud de la Ciudadela"
+    },
+    "frase_gancho": {
+      "hash": "8c054af18224bd4e",
+      "texto": "Deux grands ensembles de cours de part et d’autre d’un temple, et tout indique que des personnes très importantes y vivaient."
+    },
+    "puente_narrativo": {
+      "hash": "7fe3825e8210b2a9",
+      "texto": "Retournez vers l’entrée de la Ciudadela et regardez l’immense esplanade ouverte de l’autre côté de l’avenue : nous passerons du palais fermé au grand marché de la métropole."
+    },
+    "guion_corto": {
+      "hash": "8ec98c97cb26e3e9",
+      "texto": "Regardez les deux côtés du Temple du Serpent à plumes. On y trouve de grands ensembles de cours et de pièces, comme des appartements, que l’on considère comme des résidences de l’élite. La Ciudadela est un énorme carré avec quinze petites pyramides et une place centrale. Imaginez les personnes les plus puissantes vivant à côté du temple le plus sacré. Il est probable que l’incendie du sixième siècle les ait aussi endommagés."
+    },
+    "guion_largo": {
+      "hash": "73b11ce4c65f8246",
+      "texto": "La Ciudadela est une grande esplanade carrée entourée de petites pyramides, quinze en tout. Au centre se trouve le Temple du Serpent à plumes. De chaque côté de ce temple s’étendent des ensembles denses de pièces et de cours, semblables à des appartements. Les spécialistes pensent qu’il s’agissait de résidences de l’élite. C’est une déduction, car on ne sait pas avec certitude qui y vivait. Remarquez l’emplacement. Même le plus grand palais n’est pas loin du temple. Celui qui vivait ici avait à ses côtés le lieu le plus important du culte. Les fouilles de Manuel Gamio, entre mil neuf cent dix-sept et mil neuf cent vingt-deux, ont mis au jour cette partie de la Ciudadela. Plus tard, d’autres archéologues ont continué à l’explorer. La Ciudadela était aussi proche de la Calzada et du grand espace ouvert du Gran Conjunto. C’est pourquoi on pense qu’elle était un point central de la vie politique et religieuse. Il est probable que l’incendie du milieu du sixième siècle ait aussi endommagé ces édifices, comme beaucoup de ceux de l’élite, mais cela n’est pas prouvé ici. Si vous regardez avec calme, vous pouvez imaginer ce qu’aurait été la vie juste à côté du serpent à plumes."
+    },
+    "retos_observacion": {
+      "hash": "243b8866db9a4ccd",
+      "texto": [
+        "Repérez les deux plateformes surélevées à gauche (nord) et à droite (sud) du Temple du Serpent à plumes",
+        "Si le passage latéral est ouvert, montez les marches du flanc nord pour voir les fondations des cours et des pièces",
+        "Remarquez la différence de hauteur depuis laquelle les gouvernants surveillaient la cour en contrebas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fbc2876aec8805d5",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (vers 200-550 apr. J.-C.)",
+        "Capacité estimée": "environ 50 personnes par palais",
+        "Fouille": "Ana María Jarquín et Enrique Martínez Vargas (INAH)",
+        "Provenance": "La Ciudadela, flancs nord et sud du Temple du Serpent à plumes"
+      }
+    },
+    "faq_mito": {
+      "hash": "f091f166a3af1ee4",
+      "texto": {
+        "pregunta": "Mythe : Les palais de la Ciudadela étaient des résidences familiales dotées de grandes cuisines et de entrepôts.",
+        "respuesta": "Réalité : On n’a presque pas trouvé d’ustensiles de cuisine ; ils fonctionnaient comme des enceintes cérémonielles et administratives où l’élite recevait des aliments déjà préparés."
+      }
+    }
+  }
+}

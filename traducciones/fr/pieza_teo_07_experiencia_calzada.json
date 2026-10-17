@@ -1,0 +1,56 @@
+{
+  "id": "teo_07_experiencia_calzada",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a9996968b2314ebe",
+      "texto": "Parcourir la Calzada de los Muertos"
+    },
+    "frase_gancho": {
+      "hash": "51f4aa454344ea50",
+      "texto": "Une avenue de quarante mètres de large qui fut l’axe de toute la ville."
+    },
+    "puente_narrativo": {
+      "hash": "cbdaa1456a1422a5",
+      "texto": "Si vous suivez le parcours complet, approchez-vous des édifices du côté gauche pour découvrir des temples enfouis les uns dans les autres ; si vous suivez le parcours express, continuez vers le nord jusqu’à trouver sur votre droite le grand Mural del Puma."
+    },
+    "guion_corto": {
+      "hash": "fc4c7f94a404343f",
+      "texto": "Vous êtes sur la Calzada de los Muertos, l’axe de Teotihuacán. Elle mesure environ quarante mètres de large. Les Mexicas l’appelaient Micaohtli, et c’est pourquoi on a pensé qu’il y avait des tombes à cet endroit. La plupart des chercheurs ont désormais écarté cette idée, car on n’y trouve presque aucune sépulture. Une rue transversale divise la ville en quatre zones. Marchez lentement et remarquez comment les édifices apparaissent et disparaissent sur votre passage."
+    },
+    "guion_largo": {
+      "hash": "8be26eea44610eaa",
+      "texto": "La Calzada de los Muertos est l’axe principal de Teotihuacán. Sa largeur est d’environ quarante mètres. Sur sa longueur, les sources ne s’accordent pas. Certaines parlent d’environ trois kilomètres, d’autres de deux à quatre. Les Mexicas l’appelaient Micaohtli, ce qui se traduit par chemin des morts. On pensait qu’il y avait de chaque côté des tombes de rois. On n’a presque pas trouvé de telles sépultures, si bien que la plupart des chercheurs ont abandonné cette idée. Malgré cela, le nom est resté. En plusieurs points, l’avenue est interrompue pour former des cours près d’édifices immenses. Une avenue transversale croise la Calzada et divise la ville en quatre quadrants. Ce plan suit un quadrillage que presque tous les édifices respectent. Pendant que vous marchez, prêtez attention à la sensation d’avancer et de vous arrêter. Les murs et les places vous obligent à changer de rythme. Nous ne savons pas si les constructeurs cherchaient à produire un effet sur celui qui marchait. Mais vous pouvez le remarquer vous-même. Si vous le souhaitez, frappez dans vos mains et écoutez. Rien ne prouve que le son ait fait partie du dessin d’origine, mais c’est toujours amusant d’essayer."
+    },
+    "retos_observacion": {
+      "hash": "edeb8c1896d5d0c5",
+      "texto": [
+        "Placez-vous juste au pied de l’un des murs transversaux et remarquez comment la vue du fond de la Calzada se dérobe temporairement",
+        "Frappez un coup sec dans vos mains face aux murs à talud et tablero pour entendre la résonance acoustique",
+        "Cherchez au ras du sol les ouvertures carrées en pierre par où s’écoulait la pluie de chaque place"
+      ]
+    },
+    "especificaciones": {
+      "hash": "98783113022c6ad8",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (tracée formellement vers 150-250 apr. J.-C.)",
+        "Longueur totale": "plus de 5 km (environ 2 km explorables dans la zone monumentale)",
+        "Largeur": "40 à 50 m",
+        "Conception": "Axe nord-sud sectionné par des places étagées dotées d’un drainage pluvial",
+        "Provenance": "Axe central de Teotihuacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "b9ecc995b6557228",
+      "texto": {
+        "pregunta": "Mythe : la Calzada de los Muertos est une avenue plane conçue pour une circulation rapide.",
+        "respuesta": "Réalité : elle est divisée par des murs et des dénivelés qui régulaient l’eau de pluie et créaient un parcours rituel de montée et de descente vers le nord."
+      }
+    }
+  }
+}

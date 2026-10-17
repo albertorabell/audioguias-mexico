@@ -1,0 +1,55 @@
+{
+  "id": "teo_18_plaza_luna",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9af37ca9ed2ff2e4",
+      "texto": "La place de la Lune et les treize autels"
+    },
+    "frase_gancho": {
+      "hash": "781a3cf91868679d",
+      "texto": "Une grande place où l’on découvre encore des fosses, des pierres vertes et des secrets sous le sol."
+    },
+    "puente_narrativo": {
+      "hash": "02ce4775c5fd0d0e",
+      "texto": "Traversez maintenant l’esplanade et approchez-vous du pied de la grande pyramide du fond pour découvrir les six édifices et les offrandes qu’elle cache en ses entrailles."
+    },
+    "guion_corto": {
+      "hash": "5aac4ce286c8bd39",
+      "texto": "Vous voici sur la place de la Lune, au bout de la Chaussée. Beaucoup comptent douze soubassements tout autour et un autel au centre, soit treize en tout. Depuis 2015, l’INAH fouille la Structure A. Il y a découvert des fosses profondes, des perforations dans les sols et des pierres vertes dressées debout. Les spécialistes pensent qu’elles avaient un usage rituel, mais cela n’est pas encore confirmé."
+    },
+    "guion_largo": {
+      "hash": "99da29875b24d155",
+      "texto": "Voici la place de la Lune, au nord de la Chaussée. Beaucoup d’auteurs comptent douze soubassements tout autour et un autel central. Cela fait treize en tout, un nombre important dans le calendrier mésoaméricain. Il faut prendre cette lecture avec prudence. Ce qu’il y a de plus récent se trouve sous le sol. Depuis 2015, l’INAH fouille ce que l’on appelle la Structure A, sous la direction de Verónica Ortega Cabrera. Cette structure a été reconstruite entre 1962 et 1964. À cette époque, le sous-sol n’a pas été exploré. Aujourd’hui, on a découvert des fosses et des perforations dans les sols, à l’intérieur de la structure et sur la place. Certaines fosses mesurent environ deux mètres sur deux mètres cinquante, pour trois mètres de profondeur. Elles contenaient des monolithes de pierre verte dressés debout, dont certains pèsent plus d’une demi-tonne. Les petites fosses renfermaient des galets et des fragments de coquillage. On ne sait toujours pas à quoi elles servaient. Les spécialistes pensent à un usage rituel de la place et de la pyramide de la Lune, mais cela n’est pas confirmé. Un plan est en préparation pour voir si les creux forment un motif. Près de cette zone, on a trouvé la grande sculpture de Chalchiuhtlicue, qui mesure plus de trois mètres et pèse environ vingt tonnes. En 1890, elle a été transportée à Mexico en train et en charrette tirée par des mules. Aujourd’hui, vous la verrez au Musée national d’anthropologie."
+    },
+    "retos_observacion": {
+      "hash": "d8cd689413d55f98",
+      "texto": [
+        "Comptez depuis le centre de l’esplanade les douze soubassements qui vous entourent et ajoutez la Structure A centrale pour compléter les treize niveaux célestes",
+        "Alignez votre regard depuis la Structure A vers la pyramide de la Lune pour voir comment elle encadre exactement le sommet du Cerro Gordo",
+        "Observez aux angles de la plateforme centrale les sorties des anciens canaux rituels"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e91f73f7d6659e6a",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (vers 100-550 apr. J.-C.)",
+        "Conception": "Place fermée bordée de 12 soubassements en talud-tablero et d’un autel central (Structure A)",
+        "Découvertes majeures": "Sculpture monumentale de Chalchiuhtlicue, statuettes de jadéite et système hydraulique rituel avec galets (Verónica Ortega, INAH)",
+        "Provenance": "Extrémité nord de la Chaussée des Morts"
+      }
+    },
+    "faq_mito": {
+      "hash": "2465153319b54016",
+      "texto": {
+        "pregunta": "Mythe : la place de la Lune n’était qu’une simple esplanade vide pour rassembler la foule.",
+        "respuesta": "Réalité : elle fonctionnait comme un cosmogramme de treize autels, avec des canaux hydrauliques et des pierres de rivière qui transformaient le sol en un paysage aquatique rituel."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "teo_24_tepantitla",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b931ba0b00e1d3bf",
+      "texto": "Tepantitla : la fresque du Tlalocan"
+    },
+    "frase_gancho": {
+      "hash": "d2fe5ad51792ea29",
+      "texto": "Un paradis d’eau où l’on nage et où l’on joue à la balle, et où, parmi les fleurs, le sacrifice est aussi présent."
+    },
+    "puente_narrativo": {
+      "hash": "31bb785d24f573ae",
+      "texto": "À courte distance vers le nord-est, près du lit de la rivière San Juan, s’étendait le quartier où les marchands étrangers construisirent des maisons rondes."
+    },
+    "guion_corto": {
+      "hash": "fbba2aa5840a452f",
+      "texto": "Dans le secteur oriental de la ville se trouve Tepantitla, une résidence d’élite. Entrez jusqu’au Portique Deux du patio principal et placez-vous devant le mur protégé : vous voici face à la fresque la plus célèbre et la plus débattue de Teotihuacán. En haut domine une figure de face, coiffée d’un ornement d’oiseau, avec de l’eau qui coule de ses mains, et au-dessus d’elle pousse un arbre couvert de papillons. En bas, une montagne donne naissance à des sources et à des rivières où de nombreuses petites figures humaines nagent, plongent et jouent à la balle."
+    },
+    "guion_largo": {
+      "hash": "247627a984798287",
+      "texto": "En mille neuf cent quarante-deux, l’archéologue Alfonso Caso a appelé cette fresque le Tlalocan : le paradis du dieu de la pluie, où allaient, selon des sources du seizième siècle, ceux qui mouraient noyés ou foudroyés. La plupart des auteurs ont accepté cette lecture pendant des décennies. Caso identifiait aussi à Tláloc la figure du haut.\n\nRegardez calmement la scène du bas. Une montagne sacrée donne naissance à des sources et à des ruisseaux qui parviennent à un point d’eau peuplé de poissons, de plantes aquatiques et d’un animal qui ressemble à une grenouille. Certaines personnes nagent, d’autres plongent, et l’une d’elles sauve quelqu’un qui se noie. Parmi elles, des papillons apparaissent partout.\n\nEn haut, la grande figure de face fait elle aussi débat. Aujourd’hui, beaucoup l’appellent la Grande Déesse, mais c’est une proposition et non un fait. Peter Furst a avancé en mille neuf cent soixante-quatorze qu’il s’agissait d’une divinité féminine, et Esther Pasztory l’a associée à la végétation et à la fertilité. Karl Taube l’a appelée la Femme-Araignée. D’autres spécialistes pensent qu’il pourrait s’agir d’un souverain, ou d’une figure de genre mixte.\n\nEt ce n’est pas tout. La chercheuse María Teresa Uriarte a proposé que le thème central de la fresque soit le jeu de balle. On y voit des parties entre des joueurs au corps peint qui se disputent la balle avec des bâtons, entre deux marqueurs portatifs. Si vous cherchez attentivement, vous verrez aussi une tête coupée près des joueurs et un personnage qui chante un hymne de mort.\n\nPour la chercheuse Nadia Giral, les sacrifices humains se répètent sur toute la fresque. Elle affirme que les décapitations, le jeu rituel et les sacrifices ne s’accordent pas avec un paradis uniquement heureux. Une bande décorative encadre la scène de visages de Tláloc et de vases ornés du symbole de l’année et de la fleur de nénuphar : l’eau entoure tout. Laquelle de ces lectures est la bonne, personne ne le sait encore."
+    },
+    "retos_observacion": {
+      "hash": "a38b6d96dcecd5cb",
+      "texto": [
+        "Repérez dans la partie haute de la fresque la Grande Déesse de face et l’arbre aux branches tressées qui naît au-dessus de sa coiffe.",
+        "Cherchez dans le registre inférieur les petits personnages munis de bâtons de bois près du poteau marqueur du jeu de balle.",
+        "Trouvez les volutes remplies de fleurs et de papillons qui sortent de la bouche des figures comme symbole du chant."
+      ]
+    },
+    "especificaciones": {
+      "hash": "ccbd065cbed30ef1",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique récent (vers 400-550 apr. J.-C.)",
+        "Technique": "Peinture à fresque sur stuc de chaux",
+        "Emplacement": "Portique 2 de Tepantitla, à 500 m à l’est de la pyramide du Soleil",
+        "Études clés": "Alfonso Caso (1942), Esther Pasztory et María Teresa Uriarte (UNAM)"
+      }
+    },
+    "faq_mito": {
+      "hash": "0564d0c2198476ee",
+      "texto": {
+        "pregunta": "Mythe : la fresque de Tepantitla représente uniquement un paradis paisible de repos éternel.",
+        "respuesta": "Réalité : bien qu’Alfonso Caso l’ait appelée le Tlalocan, les études iconographiques modernes y ont identifié des rituels agricoles, des variantes du jeu de balle avec bâton et des scènes de sacrifice humain."
+      }
+    }
+  }
+}

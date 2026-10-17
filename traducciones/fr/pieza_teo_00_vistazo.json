@@ -1,0 +1,57 @@
+{
+  "id": "teo_00_vistazo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "30985fc7fcc29f13",
+      "texto": "Teotihuacán en un coup d’œil"
+    },
+    "frase_gancho": {
+      "hash": "a4e9ec31641e2db7",
+      "texto": "Une ville tracée à la règle et au ciel, il y a environ deux mille ans."
+    },
+    "puente_narrativo": {
+      "hash": "764cb13bf3c2379a",
+      "texto": "Dirigez-vous vers l’extrémité sud de l’avenue : la Citadelle vous y attend, une cour en contrebas si vaste qu’une foule entière pouvait s’y tenir."
+    },
+    "guion_corto": {
+      "hash": "81b2d03851a104e7",
+      "texto": "Arrêtez-vous un instant et regardez l’horizon. Au nord, une montagne volcanique domine le paysage : c’est le Cerro Gordo. Devant vous s’étend une ville qui compta jusqu’à environ cent mille habitants sur une vingtaine de kilomètres carrés, la plus grande de Mésoamérique. Observez les murs qui vous entourent : presque tous associent une base inclinée, le talus, à un cadre rectangulaire placé au-dessus, le panneau. Ce motif se répète sur plusieurs kilomètres le long de son axe central, l’avenue des Morts. Son nom d’origine s’est perdu ; c’est aux Mexicas, des siècles plus tard, que l’on doit le nom de Teotihuacán, que l’on traduit généralement par « le lieu où naquirent les dieux »."
+    },
+    "guion_largo": {
+      "hash": "257dbd6a0a670d96",
+      "texto": "Presque aucun des noms que vous allez entendre aujourd’hui n’appartenait à ceux qui ont dressé ces pierres. Teotihuacán est le nom que lui ont donné les Mexicas, des siècles plus tard, alors que la ville était déjà vide. Les Mexicas ont aussi baptisé l’avenue centrale « avenue des Morts », parce qu’ils croyaient que les monticules de chaque côté étaient les tombes de rois anciens. Ce n’était pas le cas : ce sont des temples et des palais. Dans les inscriptions mayas, la ville apparaît sous un autre nom, Puh, qui signifie Lieu des Joncs. Comment l’appelaient ses propres habitants reste un mystère.\n\nPourquoi une ville de cette envergure a-t-elle grandi ici ? Parce que la vallée avait presque tout. Il y avait des sources, une terre fertile et de l’argile pour construire. Tout près se trouvaient les mines d’obsidienne de Pachuca, ce verre volcanique dont on faisait les meilleures lames et les meilleures pointes de flèche de Mésoamérique. Cette obsidienne se vendait jusqu’à Monte Albán et Tikal, et l’État surveillait sa production et son commerce. Certains chercheurs pensent que des familles chassées par les éruptions volcaniques du sud du bassin de Mexico sont aussi arrivées. L’ordre exact de ces événements fait encore débat.\n\nLes urbanistes ont tracé la ville comme une gigantesque grille. L’avenue des Morts court du sud au nord, et deux grandes avenues la croisent à angle droit. Mais si vous aviez une boussole, vous remarqueriez quelque chose d’étrange : toute la ville est tournée d’environ quinze degrés vers l’est par rapport au nord véritable. La partie centrale suit l’orientation de la pyramide du Soleil. Sa façade regarde l’endroit où le Soleil se couche à la fin avril et à la mi-août. Entre ces deux dates, on compte deux cent soixante jours, la durée du calendrier rituel.\n\nL’histoire que vous allez parcourir comporte quatre grands moments. Entre le premier et le deuxième siècle, on élève les pyramides du Soleil et de la Lune. Vers l’an deux cents, on construit la Citadelle avec son grand temple. À partir du quatrième siècle arrive l’apogée : on estime qu’il y avait environ deux mille ensembles d’habitation, chacun abritant des dizaines de personnes. Il y avait aussi des quartiers d’artisans et des gens venus d’Oaxaca, de Veracruz et de la région maya.\n\nLe quatrième moment est la fin. Vers l’an cinq cent cinquante, un incendie a ravagé les édifices de l’élite le long de l’avenue. Rien n’indique une invasion étrangère. Parmi les explications, on évoque des sécheresses, la famine et des révoltes internes. La ville n’a pas disparu du jour au lendemain : elle s’est vidée peu à peu. Presque tout ce que nous savons aujourd’hui, les archéologues l’ont reconstitué pendant plus d’un siècle, et bien des questions restent ouvertes.\n\nCe guide avance du sud au nord, comme l’avenue. Certaines étapes vous montrent ce que vous avez sous les yeux. D’autres fonctionnent comme des rayons X : elles vous racontent ce qui est caché sous vos pieds, comme des tunnels et des offrandes scellées."
+    },
+    "retos_observacion": {
+      "hash": "07d3ef9630cfe51e",
+      "texto": [
+        "Repérez au nord la silhouette du Cerro Gordo, la montagne à l’origine du tracé de la ville",
+        "Identifiez sur n’importe quelle structure proche le talus (mur incliné en bas) et le panneau (cadre rectangulaire en haut)",
+        "Regardez le long de l’avenue des Morts pour mesurer l’ampleur de son tracé rectiligne"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4664b3e8bd377e7c",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (1-650 apr. J.-C.)",
+        "Superficie": "environ 20 km²",
+        "Altitude": "environ 2 300 m au-dessus du niveau de la mer",
+        "Avenue des Morts": "plus de 5 km de long et de 40 à 50 m de large",
+        "Population estimée": "de 80 000 à 200 000 habitants",
+        "Provenance": "Vallée de Teotihuacán, État de Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "08e264f25c0c4394",
+      "texto": {
+        "pregunta": "Mythe : L’avenue des Morts était un cimetière de rois.",
+        "respuesta": "Réalité : Ce sont les Mexicas qui lui ont donné ce nom, à cause d’une croyance erronée. Les édifices qui la bordent étaient des temples et des résidences de l’élite."
+      }
+    }
+  }
+}

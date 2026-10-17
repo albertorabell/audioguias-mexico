@@ -1,0 +1,55 @@
+{
+  "id": "teo_29_ventilla",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ebb30a8e0178f2c4",
+      "texto": "La Ventilla : le quartier des artisans et le marqueur"
+    },
+    "frase_gancho": {
+      "hash": "9daa21ed9653414c",
+      "texto": "Un patio avec quarante-deux glyphes peints sur le sol."
+    },
+    "puente_narrativo": {
+      "hash": "c3b630ac2311b5a2",
+      "texto": "Avant de conclure notre parcours à travers les quartiers, tournons-nous vers l’ouest de la vallée, où une communauté venue d’Oaxaca a vécu pendant quatre siècles sans oublier sa langue ni ses tombes."
+    },
+    "guion_corto": {
+      "hash": "8911da31c37a03e2",
+      "texto": "Vous êtes à La Ventilla, un quartier situé au sud-ouest du centre de la ville. Ici se trouve l’Ensemble des Glyphes. Son patio compte trente-six signes peints sur le sol et six autres sur des murs voisins. Des artisans vivaient à proximité. C’est aussi d’ici que vient le Marqueur de La Ventilla, que vous verrez au musée. Un quartier comme celui-ci montre que la ville était très bien organisée, avec des zones pour habiter, travailler et se réunir."
+    },
+    "guion_largo": {
+      "hash": "f7b21c563d255891",
+      "texto": "La Ventilla se trouve au sud-ouest du centre civique. Ses grandes fouilles ont commencé en mille neuf cent quatre-vingt-douze. L’Ensemble des Glyphes mesure environ soixante mètres sur soixante-dix. Son patio compte trente-six glyphes peints sur le sol et six autres sur des murs contigus, soit quarante-deux au total. Un auteur les date entre les années trois cent cinquante et quatre cent cinquante, et en reconnaît seize comme des noms de lieux possibles. Il s’agit de la lecture d’un auteur, non d’un accord général. Tout près se trouve une place publique en forme de T, de plus d’un hectare et demi. On a proposé qu’elle ait servi au jeu de balle, mais ce n’est pas certain. Il y a aussi l’Ensemble des Artisans, où chaque famille disposait de trois à six pièces. Les premières constructions du quartier datent de l’an cent de notre ère. Elles suivaient déjà l’orientation de la ville, treize degrés à l’est du nord. Sous le patio des glyphes est apparu le plus ancien brasero de type théâtre que l’on connaisse. Et c’est d’ici que vient le Marqueur de La Ventilla, découvert en mille neuf cent soixante-deux. Un quartier comme celui-ci permet d’imaginer la ville telle que la vivaient les gens ordinaires : des rues ordonnées, des voisins exerçant un métier et des lieux pour se retrouver."
+    },
+    "retos_observacion": {
+      "hash": "05b6c93098a3e079",
+      "texto": [
+        "Repérez, en revenant vers la zone des parkings des portes 1 et 2, la plaine du sud-ouest où le quartier de La Ventilla a été fouillé.",
+        "Observez sur la photo de votre écran le Marqueur de La Ventilla, fait de pièces assemblables, qui est lié à la peinture murale que vous avez vue à Tepantitla.",
+        "Regardez le motif en croix des plateaux de patolli gravés dans les sols de stuc du quartier."
+      ]
+    },
+    "especificaciones": {
+      "hash": "a27b31f8415f5d8c",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (vers 200-550 apr. J.-C.)",
+        "Nature du site": "Quartier plurifonctionnel d’artisans lapidaires, de temples de voisinage et d’un ensemble des Glyphes",
+        "Découvertes majeures": "Marqueur de jeu de balle en andésite (1962-1963, aujourd’hui au MNA), Place des Glyphes et 174 sépultures à La Ventilla B",
+        "Emplacement": "600 m au sud-ouest de la Citadelle"
+      }
+    },
+    "faq_mito": {
+      "hash": "988c6baf860afdd4",
+      "texto": {
+        "pregunta": "Mythe : À Teotihuacán, on ne pratiquait pas le jeu de balle, car il n’existe aucun terrain en maçonnerie.",
+        "respuesta": "Réalité : La découverte du marqueur démontable de La Ventilla et les peintures murales de Tepantitla ont démontré qu’on y jouait sur des places ouvertes, avec des poteaux portatifs et des bâtons."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "teo_27_tetitla",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b3ba7fd7b44ff8a8",
+      "texto": "Tetitla : l’homme-jaguar et les mains de jade"
+    },
+    "frase_gancho": {
+      "hash": "e9ef71502f9125c2",
+      "texto": "La maison aux murs peints : jaguars, aigles rouges, déesses de jade et peut-être marchands de coquillages."
+    },
+    "puente_narrativo": {
+      "hash": "6075601965b56790",
+      "texto": "Suivez le sentier encore quelques minutes vers l’ouest jusqu’à l’ensemble d’Atetelco : nous y passerons de la richesse familiale au sanctuaire des ordres guerriers."
+    },
+    "guion_corto": {
+      "hash": "e44af23c6f82eb3d",
+      "texto": "Vous voici à Tetitla, l’un des plus grands ensembles résidentiels de Teotihuacán. On y connaît quelque trente-huit peintures murales, la plupart encore à l’endroit où elles ont été peintes. Parcourez ses portiques et cherchez les félins orangés, les aigles rouges aux ailes ouvertes, les coquillages marins et les peintures que les spécialistes appellent Déesses de Jade. Les archéologues distinguent ici cinq étapes de construction, et les peintures ne datent pas toutes de la même époque."
+    },
+    "guion_largo": {
+      "hash": "5b139d6603341a58",
+      "texto": "Arrêtez-vous d’abord devant les portiques des aigles. Le portique Vingt-cinq est connu comme celui des Aigles rouges, et sa frange de plumes était à l’origine d’un noir intense, aujourd’hui disparu. Tout près, le portique Treize montre des félins orangés, et le portique Onze, les Déesses de Jade. Dans d’autres pièces, un personnage vêtu en jaguar marche vers un temple, et l’on voit des coquillages marins, des oiseaux et des figures qui semblent plonger.\n\nCes murs ont une histoire. La maison a commencé à être construite entre les années deux cents et trois cents de notre ère, et a continué de s’agrandir jusqu’aux derniers siècles de la ville. Les archéologues distinguent cinq étapes de construction. Les peintures que vous voyez ne datent pas toutes de la même époque. Certaines propositions les situent sur une période de deux siècles et demi, et l’on discute encore de la date de chacune.\n\nLes peintures murales ont beaucoup traversé. Dans les années quarante, un propriétaire privé a retiré des peintures avant que l’INAH n’exproprie le terrain en mille neuf cent quarante-quatre. Un fragment du jaguar agenouillé se trouve aujourd’hui à Dumbarton Oaks, aux États-Unis. Ensuite, les peintures sont restées exposées une soixantaine d’années, et il reste aujourd’hui des interventions de conservation en attente.\n\nQui vivait ici ? C’est l’une des questions ouvertes. Séjourné pensait qu’il s’agissait d’un centre religieux, parce qu’il y avait peu de céramique d’usage domestique. Jorge Angulo a proposé que ce soit une résidence, un palais ou même un centre de gouvernement. D’autres chercheurs soutiennent que ses habitants étaient des marchands spécialisés dans l’acheminement de coquillages marins depuis la région maya. Cette idée s’appuie sur les motifs de coquillages et de plongeurs des peintures murales, sur la céramique et sur les offrandes. C’est une hypothèse, non un fait avéré.\n\nEt une dernière chose. Dans l’une des fouilles, en deux mille huit, des fragments de peinture murale sont apparus sous un sol en ciment. C’est le signe qu’il reste encore de la peinture enterrée dans cette maison."
+    },
+    "retos_observacion": {
+      "hash": "5bd19734d8c00c16",
+      "texto": [
+        "Parcourez les portiques jusqu’à trouver les félins ou hommes-jaguars de profil, un genou posé au sol devant un temple",
+        "Cherchez la peinture de la divinité verte aux bras ouverts, des mains de laquelle tombent des cascades de perles de jade et de coquillages",
+        "Repérez sur d’autres murs les aigles peints de face, les ailes déployées, et les frises ornées d’étoiles de Vénus"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a59cbe2db86c4055",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (peintures murales visibles vers 400-550 apr. J.-C. ; 5 étapes de construction superposées)",
+        "Dimensions": "Îlot carré d’environ 70 x 70 m (4 900 m²)",
+        "Peintures murales in situ": "Homme-jaguar agenouillé, déesse aux mains de jade, aigles royaux, plongeurs ramasseurs de coquillages et glyphes de Vénus",
+        "Emplacement": "Circuit sud-ouest, à côté de Zacuala"
+      }
+    },
+    "faq_mito": {
+      "hash": "f5c14317a35a64eb",
+      "texto": {
+        "pregunta": "Mythe : Seules les grandes pyramides de l’Avenue des Morts avaient une décoration artistique.",
+        "respuesta": "Réalité : Des ensembles résidentiels de quartier comme Tetitla conservent plus de cent peintures murales originales, peintes à fresque dans leurs patios, leurs couloirs et leurs pièces privées."
+      }
+    }
+  }
+}

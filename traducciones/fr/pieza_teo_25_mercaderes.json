@@ -1,0 +1,56 @@
+{
+  "id": "teo_25_mercaderes",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "edf9025557a15291",
+      "texto": "Quartier des Marchands : les maisons rondes"
+    },
+    "frase_gancho": {
+      "hash": "250cea649c48b854",
+      "texto": "Des maisons rondes en adobe, avec des vases venus de la côte et des terres mayas."
+    },
+    "puente_narrativo": {
+      "hash": "dd81bd60ef1139bc",
+      "texto": "De l’est, nous passons au circuit de l’ouest et du sud-ouest, près des Portes Un et Deux, pour entrer dans les maisons où vivaient les familles de Teotihuacán et admirer les peintures murales de Tetitla et d’Atetelco."
+    },
+    "guion_corto": {
+      "hash": "f2f7c05f85ca8066",
+      "texto": "Voici ce que l’on appelle le quartier des Marchands, dans l’est de la ville. Ses structures étaient circulaires, en adobe, différentes des maisons rectangulaires d’autres zones. On a trouvé des objets de la côte du Golfe, de Puebla, ainsi que des vases de style maya. Les analyses des ossements indiquent que beaucoup de gens venaient de l’extérieur. C’est pourquoi on pense à des commerçants et à des voyageurs, bien que le nom soit une hypothèse. C’était un lieu où se croisaient des objets et des coutumes de nombreuses régions."
+    },
+    "guion_largo": {
+      "hash": "85c5f3b45bfe1577",
+      "texto": "Le quartier se trouve à la périphérie est de la ville. Ses structures circulaires en adobe se distinguent, différentes des constructions rectangulaires du reste de Teotihuacán. Les liens avec la côte du Golfe, à Veracruz, sont forts. On a aussi découvert des objets de Puebla et des vases mayas de plusieurs couleurs. Les analyses d’isotopes de strontium dans les ossements montrent que beaucoup de gens étaient venus d’autres régions. L’archéologue Evelyn Rattray a étudié le site et publié ses résultats en mille neuf cent quatre-vingt-huit et en mille neuf cent quatre-vingt-dix-neuf. Elle a aussi suivi la piste de la céramique appelée Orange Mince. Elle venait d’Ixcaquixtla, à Puebla, d’après des analyses par activation neutronique. Il y avait même des moules en forme de champignon. Avec ces données, on a pensé à un quartier de commerçants. Mais il faut rester prudent. Les objets voyagent pour de nombreuses raisons, et nous ne savons pas avec certitude à quoi se consacrait chaque famille. Les mêmes routes qui apportaient des vases et des matériaux ont pu apporter aussi des idées et des gens. C’est une possibilité, car les objets seuls ne racontent pas toute l’histoire. Ce qui est sûr, c’est que Teotihuacán avait des voisins venus de nombreux endroits."
+    },
+    "retos_observacion": {
+      "hash": "412563b4f83e824e",
+      "texto": [
+        "Regardez vers le secteur oriental de la vallée, en direction du lit de la rivière San Juan, où s’établissait cette enclave commerciale",
+        "Comparez sur votre écran le plan circulaire avec rampe de ces habitations aux murs droits du reste de la ville",
+        "Pensez à la route de huit à dix jours à pied pour rapporter des ballots de coton et de cacao depuis la côte de Veracruz jusqu’à cette vallée"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b22ddb348e40914",
+      "texto": {
+        "Culture": "Culture de Teotihuacán en cohabitation avec des groupes de la côte du Golfe et de la région maya",
+        "Période": "Classique (vers 250-550 apr. J.-C.)",
+        "Architecture": "Plus de 20 structures circulaires en adobe et en maçonnerie (env. 9 m de diamètre)",
+        "Céramique étrangère": "12 à 18 % du total",
+        "Fouille": "Evelyn Rattray",
+        "Emplacement": "Secteur nord-est, au bord de la rivière San Juan"
+      }
+    },
+    "faq_mito": {
+      "hash": "b40ce5ba8d82745d",
+      "texto": {
+        "pregunta": "Mythe : À Teotihuacán, il était interdit de construire en dehors du schéma carré du talus-tableau.",
+        "respuesta": "Réalité : Dans le quartier des Marchands, les commerçants originaires de la côte du Golfe ont construit des habitations et des entrepôts circulaires, selon la tradition de leur terre natale."
+      }
+    }
+  }
+}

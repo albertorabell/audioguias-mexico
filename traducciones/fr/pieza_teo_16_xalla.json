@@ -1,0 +1,56 @@
+{
+  "id": "teo_16_xalla",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b4c420b839cf78b9",
+      "texto": "Xalla : le palais des quatre gouvernants"
+    },
+    "frase_gancho": {
+      "hash": "ecddd6420ca595a7",
+      "texto": "Cinquante-cinq mille mètres carrés de palais, du mica d’Oaxaca et l’énigme de celui qui gouvernait Teotihuacán."
+    },
+    "puente_narrativo": {
+      "hash": "d1535a222f1c324f",
+      "texto": "Quelques pas plus loin, en tournant le regard vers le côté gauche de la Chaussée, nous trouverons l’enceinte où vivaient les ambassadeurs venus des jungles mayas."
+    },
+    "guion_corto": {
+      "hash": "04b84ab796c04d08",
+      "texto": "Regardez maintenant vers le côté droit de la Chaussée, derrière les façades qui bordent ce tronçon entre les pyramides du Soleil et de la Lune. Là-derrière s’étend Xalla, un énorme complexe palatial d’environ cinquante-cinq mille mètres carrés, avec vingt-neuf édifices et huit places. Les archéologues de l’UNAM le fouillent depuis plus de vingt ans. Son origine remonte à environ l’an cent soixante. De nombreux chercheurs pensent qu’il a pu être le siège du gouvernement de la ville, bien que ce ne soit encore qu’une hypothèse."
+    },
+    "guion_largo": {
+      "hash": "ebadcb80817a3447",
+      "texto": "Pourquoi n’a-t-on trouvé à Teotihuacán ni tombeau de roi, ni stèle portant le portrait d’un souverain, comme dans les villes mayas ? Cette question traverse toute l’archéologie de la ville. Linda Manzanilla, qui a dirigé les fouilles à Xalla, rappelle que les gouvernants de Teotihuacán n’apparaissent presque pas dans les vestiges archéologiques. Elle rappelle aussi que la ville n’a laissé aucun texte écrit.\n\nSur la place principale de Xalla se trouvent quatre enceintes aux points cardinaux et un cinquième temple au centre. Manzanilla pense que, vus ensemble, ils forment une fleur à quatre pétales, peut-être un emblème de la ville. De ce plan est née une hypothèse : que Teotihuacán ait été gouvernée par un conseil de deux ou quatre nobles, représentants des quartiers et des maisons les plus puissantes. Un autre chercheur, Zoltán Paulinyi, propose six ou sept cogouvernants. Personne ne l’a prouvé, et que Xalla ait été le siège du gouvernement est aussi une hypothèse.\n\nXalla était en outre un lieu de travail. Sur l’une de ses places, il y avait des charpentiers, des tailleurs, des peintres, des potiers et des lapidaires. On y a récupéré quelque trente-sept kilos de mica doré apporté de la région d’Ejutla, à Oaxaca. Xalla et un autre ensemble voisin concentrent plus de quatre-vingt-dix pour cent de tout le mica découvert à Teotihuacán. Imaginez comme ces murs brillaient.\n\nAu milieu du sixième siècle, un grand incendie a ravagé le palais. Les archéologues ont trouvé des sols brûlés et des poutres carbonisées au-dessus des enceintes de la place principale, et plusieurs dates archéomagnétiques confirment le feu. Pour la chercheuse, ce fut le premier épisode de la fin de la ville. Vinrent ensuite le pillage, l’occupation par d’autres peuples et, à la fin du dix-neuvième siècle et au début du vingtième, l’utilisation de l’édifice comme carrière de pierre. Dans les années soixante, on déroba en outre quelques peintures murales."
+    },
+    "retos_observacion": {
+      "hash": "d1aab7ffa57148fb",
+      "texto": [
+        "Repérez, vers l’est de ce tronçon de la Chaussée, la grande esplanade fortifiée où s’étend le complexe de Xalla",
+        "Observez comment sa position stratégique lui donnait un contrôle direct aussi bien vers la pyramide du Soleil que vers la pyramide de la Lune",
+        "Regardez sur votre écran le plan de sa Place Un avec les quatre pyramides qui étayent la théorie du cogouvernement"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b69fad43f631f1b1",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (siège du pouvoir vers 350-550 apr. J.-C.)",
+        "Superficie": "environ 37 000 m² (213 x 174 m)",
+        "Structure clé": "Place Un avec quatre pyramides en quinconce et ateliers d’État de mica, de jadéite et d’os humain",
+        "Recherche": "Linda Manzanilla et Leonardo López Luján (UNAM)",
+        "Accès": "Zone de fouilles à accès restreint"
+      }
+    },
+    "faq_mito": {
+      "hash": "17af173f891c69f4",
+      "texto": {
+        "pregunta": "Mythe : Teotihuacán était gouvernée par des dynasties de rois absolus qui gravaient leurs exploits dans la pierre.",
+        "respuesta": "Réalité : L’art de Teotihuacán a évité de représenter des chefs individuels ; des complexes comme Xalla suggèrent qu’à l’époque de son apogée, le pouvoir revenait à un conseil de quatre gouvernants."
+      }
+    }
+  }
+}

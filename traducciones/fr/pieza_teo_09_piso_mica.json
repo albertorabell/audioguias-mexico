@@ -1,0 +1,55 @@
+{
+  "id": "teo_09_piso_mica",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5f215a62fe41b4e4",
+      "texto": "Ensemble de la Calle de los Muertos et Sol de Mica"
+    },
+    "frase_gancho": {
+      "hash": "bef5c0a75d0a3ef0",
+      "texto": "Un sol recouvert de mica venue de très loin."
+    },
+    "puente_narrativo": {
+      "hash": "53f5c7c2c41ab1de",
+      "texto": "Traversez maintenant vers le côté droit de l’avenue : sous une toiture protectrice, le plus grand félin peint conservé sur la Chaussée vous attend."
+    },
+    "guion_corto": {
+      "hash": "c6617f5a78802f59",
+      "texto": "Tout près d’ici, dans ce que l’on appelle le Groupe Viking, on a découvert un sol composé de couches de mica, un minéral brillant. La mica ne se trouve pas dans la vallée de Teotihuacán. On pense qu’elle venait de Oaxaca, de la région d’Ejutla. L’acheminer demandait beaucoup d’efforts, ce devait donc être un matériau très précieux. On discute encore de son usage. Imaginez une pièce dont le sol brille comme un miroir."
+    },
+    "guion_largo": {
+      "hash": "63504e30dbb7a516",
+      "texto": "Dans ce secteur est apparue l’une des découvertes les plus célèbres de Teotihuacán. Dans ce que l’on appelle le Groupe Viking, les archéologues ont trouvé un sol composé de couches de mica. Le mica est un minéral en lamelles, brillant et résistant. On n’en trouve pas dans la vallée de Teotihuacán. Les analyses indiquent une source à Oaxaca, dans la région d’Ejutla. Cela signifie que quelqu’un l’a apporté de très loin. La chercheuse Linda Manzanilla indique qu’à Xalla, on a recensé environ trente-sept kilos de mica. On en a aussi trouvé dans d’autres édifices importants, ce qui laisse penser qu’elle était précieuse. À quoi elle servait exactement, cela reste en discussion. Certains pensent que son éclat imitait le reflet du soleil ou de l’eau. D’autres y voient un matériau de prestige, qui montrait le pouvoir de ceux qui pouvaient se la procurer. Aucune de ces idées n’est confirmée. Tandis que vous parcourez ces patios, songez que d’autres surprises peuvent encore dormir sous vos pieds. Chaque nouvelle découverte corrige un peu ce que nous croyions savoir."
+    },
+    "retos_observacion": {
+      "hash": "8e33077e232f60cf",
+      "texto": [
+        "Observez les ensembles de patios et de plateformes en gradins qui bordent les deux côtés de ce tronçon de la Chaussée",
+        "Cherchez dans les sols de pierre les rigoles et les regards du système de drainage des eaux de pluie teotihuacán",
+        "Remarquez les épais sols en béton préhispanique fait de chaux, de sable et de gravier volcanique concassé"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e233d93d8d42c6b9",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (vers 250-550 apr. J.-C.)",
+        "Emplacement": "Tronçon central de la Chaussée des Morts (Ensemble de la Place Ouest et Groupe Viking)",
+        "Découverte remarquable": "Chambre au sol composé de deux couches de plaques de mica importée de Oaxaca (environ 30 m²)",
+        "Exploration": "Pedro Sánchez (1906) et Sigvald Linné / Fondation Viking (1942)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c7a4add4d7dd2f5f",
+      "texto": {
+        "pregunta": "Mythe : Le Sol de Mica avait une fonction technologique ou industrielle inconnue.",
+        "respuesta": "Réalité : La mica était un minéral sacré et d’un très grand luxe, importé de Oaxaca par l’élite teotihuacán pour consacrer des espaces rituels et décorer murs et vêtements."
+      }
+    }
+  }
+}

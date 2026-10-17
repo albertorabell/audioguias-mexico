@@ -1,0 +1,62 @@
+{
+  "id": "teo_13_conjunto_sol",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Teotihuacán\" para \"Teotihuacana / Teotihuacano / Teotihuacanos\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Teotihuacán\" para \"Teotihuacana / Teotihuacano / Teotihuacanos\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "195d3efba3bb58de",
+      "texto": "Conjunto del Sol : la maison des prêtres et le jaguar bleu"
+    },
+    "frase_gancho": {
+      "hash": "515e0bdb9f98bff3",
+      "texto": "Un dieu descendant du ciel et un jaguar étreignant une plante sur les murs du palais du Soleil."
+    },
+    "puente_narrativo": {
+      "hash": "899063eebaf7dcca",
+      "texto": "Contournez maintenant la pyramide du Soleil par son côté sud et suivez le sentier qui mène au Musée de la culture teotihuacane : vous y verrez la ville entière à l’échelle et les offrandes que renfermaient les pyramides."
+    },
+    "guion_corto": {
+      "hash": "0aa64feb87aa094f",
+      "texto": "Vous êtes à côté de l’Ensemble ou Palais du Soleil. Ses portiques et ses pièces étaient ornés de nombreuses peintures murales. Dans le Patio Trois apparaît un personnage vêtu en ara qui descend d’un arbre. On y voit aussi un jaguar au corps en forme de filet qui étreint un plant d’agave. Certains chercheurs pensent que ces scènes racontent la descente du soleil dans le monde de l’eau. C’est une interprétation, non un fait. Les peintures murales que vous voyez aujourd’hui sont connues grâce aux études d’autres spécialistes."
+    },
+    "guion_largo": {
+      "hash": "7928ce3c93e0ecec",
+      "texto": "Le Patio Trois du Palais du Soleil abritait une série de peintures murales très étudiées. Sur son côté ouest, on voit des scènes du dieu appelé Papillon-Oiseau. Il apparaît vêtu en ara, descendant d’un arbre surnaturel et entouré de signes de l’eau. Sur d’autres parois, on trouve un jaguar réticulé, le corps couvert comme d’un filet, qui étreint un plant d’agave. Apparaissent aussi des personnages que l’on associe au dieu de la pluie. Au moins seize peintures murales ont été décrites dans ce patio. La chercheuse Paulinyi propose que les peintures racontent la descente du soleil dans le monde de l’eau, lors d’une grande fête. D’autres chercheurs ne sont pas de cet avis. Certains voient dans le dieu une figure proche de Sept Ara, un personnage du monde maya. D’autres voient dans le personnage central la Grande Déesse. Elle-même présente sa lecture comme une hypothèse. Les peintures murales sont datées, avec prudence, entre les années trois cent cinquante et cinq cent cinquante. Ce qui est clair, c’est que ceux qui vivaient ici entouraient leur maison d’images de l’eau, des félins et des oiseaux. Lorsque vous regarderez les murs, songez que ces images étaient un langage que leurs voisins savaient lire."
+    },
+    "retos_observacion": {
+      "hash": "dcb2c64786fd677b",
+      "texto": [
+        "Repérez, du côté nord de l’esplanade, les trois petits oratoires et les murs bas de l’Ensemble du Soleil",
+        "Observez comment le palais disposait d’un accès direct et privilégié sur le flanc de la pyramide du Soleil",
+        "Regardez sur l’image de votre écran le trait bleu turquoise du jaguar étreignant les trois tiges de l’agave"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78df0899050e0885",
+      "texto": {
+        "Culture": "Teotihuacane",
+        "Période": "Classique récent (phase Xolalpan, vers 450-550 apr. J.-C.)",
+        "Emplacement": "Flanc nord de la place de la pyramide du Soleil",
+        "Découvertes": "Plus de 30 peintures murales (dont le Jaguar bleu avec agave et papillons) et une très forte concentration de céramique cérémonielle",
+        "Conservation actuelle des peintures murales": "Musée des peintures murales Beatriz de la Fuente et MNA"
+      }
+    },
+    "faq_mito": {
+      "hash": "347a861544b49ce9",
+      "texto": {
+        "pregunta": "Mythe : Toutes les peintures murales découvertes à Teotihuacán sont encore fixées aux murs en plein air.",
+        "respuesta": "Réalité : Beaucoup des peintures murales les plus fragiles, comme celle du Jaguar bleu de ce palais, ont été déposées par des restaurateurs afin de les protéger du soleil et de la pluie, dans les musées du site et de Mexico."
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "teo_23_museo_murales",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Teotihuacán\" para \"Teotihuacana / Teotihuacano / Teotihuacanos\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Teotihuacán\" para \"Teotihuacana / Teotihuacano / Teotihuacanos\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "1b5c94a616703b3a",
+      "texto": "Musée des peintures murales teotihuacanes « Beatriz de la Fuente »"
+    },
+    "frase_gancho": {
+      "hash": "cd3ebc0198c81564",
+      "texto": "Ici, vous voyez les couleurs d’une ville qui paraît aujourd’hui grise."
+    },
+    "puente_narrativo": {
+      "hash": "f80a6ed26fc1b057",
+      "texto": "En sortant du musée, suivez le circuit extérieur vers l’est, derrière la pyramide du Soleil : nous entrerons à Tepantitla pour voir sur son mur d’origine la peinture murale la plus célèbre de la ville."
+    },
+    "guion_corto": {
+      "hash": "287ef1300d3bd8e8",
+      "texto": "Vous entrez dans le Musée des peintures murales teotihuacanes, qui porte le nom de la chercheuse Beatriz de la Fuente. Dehors, vous voyez de la pierre et de la terre. Ici, vous pouvez imaginer une ville peinte de mille couleurs. Les peintures murales montraient des dieux, des animaux, des plantes et des processions. Dans une ville sans longue écriture comme celle des Mayas, les images étaient une façon de raconter le monde. Prenez votre temps dans chaque salle."
+    },
+    "guion_largo": {
+      "hash": "101efe05804b3b0f",
+      "texto": "Le Musée des peintures murales teotihuacanes porte le nom de Beatriz de la Fuente, la chercheuse qui a coordonné l’étude de la peinture murale préhispanique. Son ouvrage sur Teotihuacán, publié en mille neuf cent quatre-vingt-quinze, est une référence pour ceux qui étudient ces peintures. Ici sont conservés des fragments de peintures murales provenant d’ensembles de la ville. Ils permettent d’imaginer l’aspect de Teotihuacán lorsque ses murs étaient peints. Pour réaliser une peinture murale, on recouvrait le mur d’une couche de stuc de chaux. Ensuite, on la lissait et on la peignait avec des couleurs minérales. Tout en parcourant les salles, cherchez les figures que vous avez déjà vues en chemin : des félins avec un filet, des oiseaux, des plants de maguey, des processions de coyotes et de jaguars. Si vous les trouvez, souvenez-vous de l’endroit où vous étiez quand nous les avons vues. Il n’est pas nécessaire de retenir chaque symbole. Il suffit de remarquer la variété. Il y avait des scènes de dieux, d’animaux et de gens, et chacune avait sa place dans un édifice. Une ville sans longs textes sur des stèles, comme chez les Mayas, utilisait des images pour transmettre des idées. C’est pourquoi ces peintures murales sont si précieuses pour ceux qui veulent comprendre Teotihuacán."
+    },
+    "retos_observacion": {
+      "hash": "7a0bedad740f3aaa",
+      "texto": [
+        "Observez les polissoirs ou lissoirs en pierre avec lesquels les artisans brunissaient le stuc frais",
+        "Cherchez les panneaux originaux de l’Ensemble du Soleil où le corps des papillons est une main humaine tenant du jade",
+        "Repérez les virgules de la parole, ces volutes qui jaillissent devant la bouche des prêtres, remplies de fleurs et de gouttes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f26159bfe02585df",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Fonction": "Musée spécialisé dans la peinture murale préhispanique (inauguré en 2001)",
+        "Emplacement": "Extérieur nord, près de la porte 3",
+        "Exposition": "9 salles thématiques avec des peintures murales originales de l’Ensemble du Soleil, de Techinantitla, de Tetitla, d’Atetelco et de La Ventilla"
+      }
+    },
+    "faq_mito": {
+      "hash": "1f6237ddd7a9f9cc",
+      "texto": {
+        "pregunta": "Mythe : Les pyramides et les temples de Teotihuacán étaient à l’origine en pierre grise et en tezontle rouge nu.",
+        "respuesta": "Réalité : Toute l’architecture de la ville était recouverte de stuc blanc et peinte de couleurs minérales intenses, principalement le rouge d’hématite."
+      }
+    }
+  }
+}

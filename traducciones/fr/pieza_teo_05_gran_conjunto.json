@@ -1,0 +1,56 @@
+{
+  "id": "teo_05_gran_conjunto",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3615a13ce81972b4",
+      "texto": "Le Grand Ensemble : le marché de la ville"
+    },
+    "frase_gancho": {
+      "hash": "b8064a9fc661ddc0",
+      "texto": "Une immense place face au sanctuaire fermé : marché de la ville ou entrepôt de l’État ?"
+    },
+    "puente_narrativo": {
+      "hash": "5d0fa31c22875808",
+      "texto": "Prenez la Chaussée des Morts vers le nord et arrêtez-vous en franchissant le pont au-dessus du lit arboré : cette rivière a été détournée à la main pour obéir au plan de la ville."
+    },
+    "guion_corto": {
+      "hash": "19bbf18ac902fc29",
+      "texto": "En quittant la Ciudadela en direction de la Chaussée des Morts, regardez vers le côté ouest, en direction de la Porte Un. Toute cette immense esplanade qu’occupent aujourd’hui les jardins d’accès, les guichets et les plateformes latérales formait le Grand Ensemble. Remarquez le contraste : alors que la Ciudadela que vous venez de laisser derrière vous est une cour en contrebas et fermée, cet ensemble est la plus grande place de la ville et se trouve juste en face, de l’autre côté de la Chaussée. L’archéologue René Millon, auteur de la grande carte de Teotihuacán, a proposé que le marché central de la métropole ait pu se trouver ici."
+    },
+    "guion_largo": {
+      "hash": "9f38eb6d56d98f9e",
+      "texto": "Ce lieu fait l’objet d’un débat ouvert, et il vaut la peine que vous le connaissiez. René Millon a proposé que le marché central de Teotihuacán fonctionnait sur cette place. La raison est logique : c’est la plus grande place de la ville et elle se trouve face à la Ciudadela, de l’autre côté de la Chaussée. Millon a aussi interprété comme des marchands certaines figures des peintures murales.\n\nMais l’archéologue Linda Manzanilla, de l’UNAM, voit les choses autrement. Elle présente des indices selon lesquels le Grand Ensemble aurait plutôt été un centre de redistribution des biens fabriqués par les artisans. Elle souligne en outre qu’on n’a jamais trouvé de preuve claire de l’existence d’un marché dans la ville. Ces mêmes images des peintures murales, dit-elle, représenteraient des prêtres et non des marchands. Aucune des deux lectures n’est tranchée.\n\nCe que nous savons, en revanche, c’est ce qui circulait dans cette ville. On estime qu’il y vivait environ cent mille personnes dans quelque deux mille ensembles d’habitation. L’obsidienne de Pachuca partait d’ici vers Monte Albán et Tikal. Le mica doré arrivait d’Oaxaca, le jade du Guatemala, et les coquillages des côtes du golfe du Mexique et des Caraïbes. Et tout voyageait sur le dos de porteurs, car en Mésoamérique il n’y avait ni bêtes de somme ni chariots à roues.\n\nQu’il s’agisse d’un marché ou d’un centre de redistribution, ce lieu remplissait une fonction qu’aucun temple ne remplissait : c’est par ici que passait la vie économique de la ville. De l’autre côté de la Chaussée, la Ciudadela était une enceinte dotée d’une seule entrée publique et d’un énorme poids rituel. Une lecture possible est que la ville montrait deux visages du pouvoir face à face : le pouvoir sacré, fermé et cérémoniel, et le pouvoir des biens et du travail.\n\nVous vous trouvez dans l’une des zones les plus importantes du plan de Millon. À partir de ce point, on considère que se trouve le centre de la ville, et c’est d’ici que s’organisent les quatre quadrants."
+    },
+    "retos_observacion": {
+      "hash": "5dafcce088a355b7",
+      "texto": [
+        "Comparez depuis la Chaussée les deux grandes places qui se font face : la Ciudadela (en contrebas et fermée à l’est) et le Grand Ensemble (ouvert à l’ouest)",
+        "Observez les plateformes allongées et les fondations de pièces qui bordent l’esplanade",
+        "Imaginez le croisement des grandes avenues qui divisaient ici la ville en quatre quadrants"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6cc9bd28d0da327c",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (vers 150-600 apr. J.-C.)",
+        "Superficie": "plus de 14 hectares",
+        "Structure": "Esplanade ouverte encadrée par deux plateformes en U et des entrepôts circulaires",
+        "Hypothèse principale": "Marché central et siège administratif (René Millon)",
+        "Provenance": "Face à la Ciudadela, côté ouest de la Chaussée des Morts"
+      }
+    },
+    "faq_mito": {
+      "hash": "1a5f0eef095c0fea",
+      "texto": {
+        "pregunta": "Mythe : Teotihuacán n’était qu’un centre cérémoniel habité par des prêtres.",
+        "respuesta": "Réalité : C’était une métropole commerciale et manufacturière ; le Grand Ensemble concentrait l’échange de marchandises de toute la Mésoamérique."
+      }
+    }
+  }
+}

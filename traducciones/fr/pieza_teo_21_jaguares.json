@@ -1,0 +1,55 @@
+{
+  "id": "teo_21_jaguares",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc74b535fb871648",
+      "texto": "Palais des Jaguars"
+    },
+    "frase_gancho": {
+      "hash": "4e1f3c73ddf683f9",
+      "texto": "Un jaguar qui souffle dans une conque couverte de plumes."
+    },
+    "puente_narrativo": {
+      "hash": "9d28eeec92c5a12f",
+      "texto": "Dans ce même ensemble, un escalier descend sous le sol du palais jusqu’au temple souterrain que les bâtisseurs ont enterré intact."
+    },
+    "guion_corto": {
+      "hash": "f7de04f9863fe097",
+      "texto": "Vous êtes dans la Cour des Jaguars, à côté du Palais de Quetzalpapálotl. Sur ses murs, des peintures montrent des félins avec une grande conque dans la gueule, comme s’ils soufflaient dedans. Des plumes sortent de la conque, et sur le cadre apparaît un visage qui pourrait être celui de Tláloc, dieu de la pluie. D’autres félins ont le corps recouvert comme d’un filet. On débat encore de leur signification. Regardez combien de détails se trouvent sur un seul mur."
+    },
+    "guion_largo": {
+      "hash": "0b37c656ce22f799",
+      "texto": "Les portiques de cette cour conservent deux peintures. Sur l’une, des félins richement parés avancent en procession. Ils tiennent dans la gueule un instrument fait d’une grande conque ornée de plumes. Leur corps est allongé, d’un rouge sombre, et ils portent une coiffe de cinq longues plumes. Le long du dos court une rangée de coquillages. Sous une patte tombent trois gouttes rouges. Le cadre présente une coiffe de plumes et un visage qui pourrait être Tláloc, à l’intérieur d’une étoile. Sur l’autre peinture, de petits jaguars au corps vert sont recouverts d’un filet bleu. Ils ont l’œil rond, un long croc recourbé et un panache de plumes vertes. Deux mains humaines les accompagnent. Les spécialistes ne s’accordent pas sur leur signification. Certains pensent que la conque appelait à la guerre. D’autres la lient à la pluie et à l’eau, en raison de la présence de Tláloc. On a aussi proposé que l’étoile soit Vénus. Ce sont des hypothèses, pas des certitudes. Quant à ceux qui vivaient ici, on ne le sait pas non plus. Ce que vous pouvez faire, c’est regarder tranquillement et voir combien de détails tiennent sur un seul mur."
+    },
+    "retos_observacion": {
+      "hash": "0b75af980d348e72",
+      "texto": [
+        "Approchez-vous des murs des portiques de la cour et repérez le jaguar rougeâtre au panache vert qui tient la conque marine",
+        "Repérez, devant la conque, la volute du son et les gouttes de liquide qui tombent de la trompette",
+        "Cherchez, dans les frises et les pièces latérales, les visages de Tláloc à l’intérieur d’étoiles à cinq branches et les félins recouverts d’un filet bleu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "37ed4013cedce97d",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique récent (phase Xolalpan, vers 450-550 apr. J.-C.)",
+        "Technique": "Peinture murale à fresque sur stuc avec hématite, ocre, vert malachite et bleu",
+        "Motifs clés": "Jaguars jouant de Conques à plumes, félins réticulés et étoiles de Vénus avec Tláloc",
+        "Emplacement": "Contigu, à l’ouest du Palais de Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "cdce351d3062d6cc",
+      "texto": {
+        "pregunta": "Mythe : Les jaguars dans l’art teotihuacán ne représentaient que la guerre et la destruction.",
+        "respuesta": "Réalité : À Teotihuacán, le jaguar était intimement lié aux grottes, à la nuit et au tonnerre ; c’est pourquoi il apparaît ici en train de souffler dans une conque marine pour invoquer la pluie."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "teo_10_mural_puma",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "28930d61b92dac2a",
+      "texto": "Le Mural du Puma"
+    },
+    "frase_gancho": {
+      "hash": "3b9348d32913ae8f",
+      "texto": "Un félin peint marche le long d’un mur, et nous rappelle que la ville avait de la couleur."
+    },
+    "puente_narrativo": {
+      "hash": "2b85ae60672df204",
+      "texto": "Avancez encore de quelques mètres vers le nord : l’avenue s’ouvre soudain devant la montagne artificielle la plus colossale de la ville, la pyramide du Soleil."
+    },
+    "guion_corto": {
+      "hash": "a3c94e50012e925d",
+      "texto": "Devant vous se trouve le Mural du Puma. C’est une peinture qui subsiste là où elle a été réalisée, près de la Chaussée. Elle montre un félin de profil, entouré d’un cadre de bandes de couleurs. Aujourd’hui, vous voyez les ruines dans des tons gris, mais la ville était recouverte de stuc et peinte. Les félins apparaissent dans d’autres peintures murales de Teotihuacán. C’est pourquoi on pense qu’ils étaient des symboles importants. Approchez-vous et observez le tracé des lignes avec calme."
+    },
+    "guion_largo": {
+      "hash": "0ef96b43f39e9990",
+      "texto": "Cette peinture s’appelle le Mural du Puma. Elle se trouve à son emplacement d’origine, près de la Chaussée, protégée par une toiture. Elle montre un félin de profil, les griffes étendues, et un cadre de bandes de couleurs. Profitez-en pour imaginer la Chaussée tout entière. Aujourd’hui, nous voyons les ruines dans des tons de pierre, mais les édifices étaient recouverts de stuc et décorés de peintures. Les félins reviennent sans cesse dans les peintures murales de Teotihuacán. Il y a des jaguars réticulés et des processions de coyotes et de jaguars, comme celles d’Atetelco. C’est pourquoi on pense qu’ils étaient des figures très importantes. Certains les associent au pouvoir et à des ordres guerriers. C’est une interprétation, et il n’y a pas d’accord. Regardez bien le cadre. Les bandes autour de l’animal semblent représenter des courants, mais cette lecture est elle aussi une hypothèse. Ce que vous pouvez voir, en revanche, c’est la main du peintre. Les peintures murales se réalisaient avec patience, couche après couche. Observez le contour du félin, ses lignes, ses couleurs. Celui qui l’a peint savait très bien ce qu’il faisait, et connaissait les règles selon lesquelles on peignait dans sa ville."
+    },
+    "retos_observacion": {
+      "hash": "0c86d7a75568ba87",
+      "texto": [
+        "Repérez dans le panneau la silhouette complète du félin de profil : ses quatre pattes aux griffes, sa longue queue courbe et sa gueule entrouverte",
+        "Observez les bandes ondulées rouges et bleues qui encadrent l’animal en haut et en bas",
+        "Remarquez l’épaisseur de la couche blanche de stuc de chaux sur laquelle les artistes ont appliqué les pigments il y a mille cinq cents ans"
+      ]
+    },
+    "especificaciones": {
+      "hash": "13b2cd37b5718298",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (vers 400-550 apr. J.-C.)",
+        "Technique": "Peinture murale à fresque sur stuc de chaux avec des pigments minéraux (hématite, ocre et bleu)",
+        "Dimensions du mural": "plus de 2 m de long",
+        "Emplacement": "Côté est de la Chaussée des Morts, juste au sud de la place du Soleil"
+      }
+    },
+    "faq_mito": {
+      "hash": "4eafc417259c98cf",
+      "texto": {
+        "pregunta": "Mythe : Le Mural du Puma est une copie moderne placée pour les touristes.",
+        "respuesta": "Réalité : C’est un mural original de Teotihuacán, conservé in situ ; la toiture a été posée pour protéger ses pigments de la pluie et du soleil."
+      }
+    }
+  }
+}

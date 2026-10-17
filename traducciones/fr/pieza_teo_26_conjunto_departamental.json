@@ -1,0 +1,57 @@
+{
+  "id": "teo_26_conjunto_departamental",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4fe88105d0bcefc7",
+      "texto": "Ainsi vivait-on : Zacuala et Yayahuala"
+    },
+    "frase_gancho": {
+      "hash": "974ff9609e9e0ded",
+      "texto": "Des murs sans fenêtres sur la rue, et la vie tournée vers l’intérieur."
+    },
+    "puente_narrativo": {
+      "hash": "004fd9b40928edf8",
+      "texto": "Marchez quelques mètres vers l’ensemble voisin de Tetitla : nous entrerons sous ses toits pour voir de près la splendeur des murs peints d’une riche demeure."
+    },
+    "guion_corto": {
+      "hash": "defa77c9e8535176",
+      "texto": "Vous voici devant Zacuala et Yayahuala, deux des plus grands ensembles d’habitation de la ville. C’étaient comme des îlots entourés de murailles, avec des murs sans fenêtres sur la rue. À Teotihuacán, il y avait environ deux mille ensembles de ce type. Dans chacun vivaient de grandes familles, de soixante à cent personnes selon un calcul. Les morts étaient enterrés à l’intérieur même de la maison. Les murs vous le disent : la vie de chaque famille était tournée vers l’intérieur."
+    },
+    "guion_largo": {
+      "hash": "1eaab402ff48100e",
+      "texto": "Zacuala et Yayahuala comptent parmi les plus grands ensembles d’habitation de Teotihuacán. Regardez leurs hauts murs extérieurs. Du côté de la rue, ces maisons avaient des murs aveugles et peu d’entrées. La vie se déroulait vers l’intérieur, dans les cours et les pièces. L’archéologue Michael Smith calcule que Teotihuacán a compté environ deux mille ensembles de ce type. Dans chacun vivaient entre soixante et cent personnes. En général, chaque unité d’habitation au sein de l’ensemble comptait entre cinq et dix habitants. Pensez à ce que cela signifie. Dans une seule ville, il y avait des milliers de petites communautés, chacune avec sa propre organisation. Les ensembles avaient souvent une ou deux zones de sépulture. Cela veut dire que les morts étaient enterrés dans la maison même. Les grands-parents restaient là où vivait la famille. Les archéologues utilisent cette information pour savoir comment était la vie quotidienne. Les ensembles variaient beaucoup par la taille et par les ornements. Tetitla, qui est tout près, possède des peintures murales très connues. C’est seulement en comparant les maisons que la ville se comprend comme un ensemble de familles, et non comme une liste de monuments."
+    },
+    "retos_observacion": {
+      "hash": "54c3a8271a8f1df0",
+      "texto": [
+        "Faites le tour extérieur des hauts murs d’enceinte de Zacuala ou de Yayahuala et constatez qu’ils sont entièrement dépourvus de fenêtres sur la rue",
+        "Repérez le large escalier d’accès à l’ouest de Yayahuala ou le vestibule à colonnes de Zacuala",
+        "Observez à l’intérieur comment les cours ouvertes, avec leur autel central, apportaient lumière, air et eau de pluie aux pièces"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7572794739938d0c",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Période": "Classique (vers 250-600 apr. J.-C.)",
+        "Typologie": "Ensembles d’appartements multifamiliaux (plus de 2 000 dans toute la ville)",
+        "Zacuala": "env. 4 000 m² avec 13 cours à portiques",
+        "Yayahuala": "îlot de 70 x 70 m avec 3 temples",
+        "Fouilles": "Laurette Séjourné (1955-1961)",
+        "Emplacement": "Circuit Sud-Ouest"
+      }
+    },
+    "faq_mito": {
+      "hash": "07a598e60ae359e2",
+      "texto": {
+        "pregunta": "Mythe : les gens ordinaires de Teotihuacán vivaient dans de misérables huttes de paille hors de la ville, et les morts allaient dans un cimetière.",
+        "respuesta": "Réalité : la grande majorité de la population habitait dans de solides ensembles d’appartements en pierre et en stuc, dotés d’un système d’évacuation des eaux de pluie, et enterrait ses morts sous les sols de ses propres pièces."
+      }
+    }
+  }
+}

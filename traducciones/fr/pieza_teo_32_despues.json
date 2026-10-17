@@ -1,0 +1,52 @@
+{
+  "id": "teo_32_despues",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f25f5dd61ba3ae47",
+      "texto": "Teotihuacán après Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "7178e6cb66815842",
+      "texto": "Quand les Mexicas sont arrivés, la cité n’était déjà plus qu’une ruine sacrée."
+    },
+    "puente_narrativo": {
+      "hash": "95db2801dcc6a3e1",
+      "texto": "Votre parcours à Teotihuacán s’achève ici. Lorsque vous visiterez le Musée national d’anthropologie à Mexico, cherchez la Salle de Teotihuacán : là vous attendent face à face les colosses de pierre et les peintures murales sortis de cette terre."
+    },
+    "guion_corto": {
+      "hash": "7523d26a426d0a15",
+      "texto": "Des siècles après sa chute, les Mexicas ont découvert ces ruines et les ont respectées. Ce sont eux qui lui ont donné le nom de Teotihuacán. Ils croyaient que c’était ici que les dieux avaient créé l’ère présente, le Cinquième Soleil. Moctezuma y venait en pèlerinage. Ils disaient aussi que des géants avaient élevé les pyramides. Aujourd’hui, nous savons qu’elles ont été bâties par des gens comme vous et moi, dans une cité de plusieurs milliers de familles. Une grande partie de la cité n’a toujours pas été fouillée. Ainsi, ce lieu est demeuré important bien après son apogée."
+    },
+    "guion_largo": {
+      "hash": "38dd363dd2c22003",
+      "texto": "Pour les Mexicas, Teotihuacán était un lieu sacré. Selon leurs récits, c’est ici que les dieux se sont sacrifiés pour que le Soleil de notre ère existe. Le mythe de Tecciztécatl et de Nanahuatzin, qui se jetèrent dans le feu, est rapporté par des sources du seizième siècle. Les Mexicas pensaient que des géants avaient construit les pyramides. Aujourd’hui, nous savons qu’il n’en est rien. Ce furent des gens de chair et d’os, avec des outils de pierre et une grande organisation. L’histoire des fouilles est elle aussi longue. Au dix-septième siècle, Carlos de Sigüenza y Góngora visitait déjà les ruines. En mille neuf cent cinq, Leopoldo Batres a exploré la pyramide du Soleil et l’a restaurée pour le Centenaire de mille neuf cent dix. Entre mille neuf cent dix-sept et mille neuf cent vingt-deux, Manuel Gamio a travaillé à la Citadelle. En mille neuf cent trente-deux, Sigvald Linné a fouillé des maisons de la cité. Entre mille neuf cent soixante et mille neuf cent soixante-cinq, l’INAH a mené de grands travaux avec Jorge Acosta. En mille neuf cent soixante et onze, on a découvert la grotte située sous la pyramide du Soleil. Entre mille neuf cent quatre-vingt et mille neuf cent quatre-vingt-deux, on a fouillé et restauré la pyramide du Serpent à plumes et la Chaussée. L’équipe de René Millon a dressé une carte de toute la cité. Grâce à cette carte, nous savons qu’il y avait environ deux mille ensembles d’habitation. Mais une grande partie de la cité n’a toujours pas été fouillée. La pyramide du Soleil a été l’une des plus restaurées. Lors de cette restauration, une partie des façades d’origine a été retirée, jusqu’à dix mètres par endroits, selon une source. C’est pourquoi il convient de toujours se demander quelle partie est d’origine et quelle partie a été reconstruite. Chaque année apportent de nouvelles données, et c’est pourquoi ce que nous vous racontons aujourd’hui peut changer demain."
+    },
+    "retos_observacion": {
+      "hash": "6f5fef485912801a",
+      "texto": [
+        "Regardez les champs d’agaves, les figuiers de Barbarie et les maisons qui entourent le périmètre de la zone archéologique : sous tout ce sol demeure enfouie 90 % de l’ancienne cité",
+        "Retenez les trois noms qu’a portés cette métropole : Ho Noom Witz pour les Mayas, Teotihuacán pour les Mexicas, et son nom d’origine, toujours inconnu",
+        "Lorsque vous visiterez le Musée national d’anthropologie à Chapultepec, reliez ce parcours au monolithe de Chalchiuhtlicue, au Disque de la Mort et au Marqueur de La Ventilla"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cd0389b0e362eeb2",
+      "texto": {
+        "Culture": "Réception mexica (Postclassique récent) et histoire de l’archéologie mexicaine (XXe et XXIe siècles)",
+        "Jalons de l’exploration": "Leopoldo Batres (1905-1910), Manuel Gamio (1917-1922), Projet Teotihuacán INAH / Jorge Acosta et Ignacio Bernal (1962-1964), Carte de René Millon (1962-1970) et projets contemporains (Cabrera, Sugiyama, Manzanilla, Gómez Chávez, Ortega)"
+      }
+    },
+    "faq_mito": {
+      "hash": "1cf6fe9b63af0ccb",
+      "texto": {
+        "pregunta": "Mythe : Toute la cité de Teotihuacán a déjà été mise au jour.",
+        "respuesta": "Réalité : La zone archéologique ouverte au public ne couvre que le noyau cérémoniel ; plus de quatre-vingt-cinq pour cent des ensembles d’habitation de l’ancienne cité demeurent encore sous terre."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "teo_31_final_ciudad",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-17",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e2914c7686a232e1",
+      "texto": "La fin de Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "02bd1aaa113e8b45",
+      "texto": "La ville a brûlé, mais personne ne sait avec certitude pourquoi."
+    },
+    "puente_narrativo": {
+      "hash": "2757ce6b50929179",
+      "texto": "Alors que vous faites vos derniers pas vers la sortie, écoutez notre épilogue : ce qui s’est passé lorsque les Mexicas ont découvert ces ruines désertes, et comment les archéologues les ont rendues à la lumière."
+    },
+    "guion_corto": {
+      "hash": "dcac2ef29f5ce616",
+      "texto": "Vers l’an cinq cent cinquante, certains des édifices les plus importants de la Chaussée ont été pillés et incendiés. Le feu a touché surtout les constructions de l’élite. Rien n’indique la présence d’une armée étrangère. Les spécialistes pensent à une révolte interne ou à une crise de sécheresse et de famine. On discute encore de la durée de cette fin et de la façon dont elle s’est déroulée. Ce que vous regardez aujourd’hui, c’est ce qui reste d’une ville qui avait été immense."
+    },
+    "guion_largo": {
+      "hash": "78e4f3c64e20287f",
+      "texto": "Vers l’an cinq cent cinquante de notre ère, Teotihuacán a subi un coup très dur. Des monuments importants ont été pillés et incendiés. Le feu s’est concentré sur des constructions de la classe dirigeante, le long de la Chaussée des Morts. Dans des palais comme Xalla, les sculptures ont été brisées. Les dates des incendies, mesurées grâce à des études de magnétisme, indiquent le milieu du sixième siècle. Les chercheurs n’ont trouvé aucun signe d’invasion étrangère. C’est pourquoi plusieurs explications sont proposées. L’une est une révolte interne, menée par des gens qui s’en sont pris à ceux qui commandaient. Une autre est une crise du climat et de l’alimentation. En cinq cent trente-cinq et cinq cent trente-six, des événements climatiques violents se sont produits dans de nombreuses régions du monde. Certains les relient à une possible éruption du volcan Ilopango. À Teotihuacán, les ossements d’enfants du sixième siècle montrent de la malnutrition. Une longue sécheresse a pu aggraver le problème. Certains ajoutent que d’autres centres, comme Xochicalco, ont commencé à croître, même si ce n’est qu’une possibilité. Aucune de ces idées n’est tranchée. Il y a peut-être eu plusieurs causes en même temps. Xalla, l’un de ces palais, occupe environ cinquante-cinq mille mètres carrés, avec vingt-neuf édifices et huit places. Une bonne partie des dégâts se concentre dans des structures comme celle-là. Il est possible que ceux qui ont brisé les sculptures aient bien su ce qu’ils détruisaient, car ils ont visé les symboles du pouvoir. C’est une idée, pas un fait. Une ville d’environ cent mille personnes ne se vide pas en une semaine. Combien d’années cette fin a duré, on l’étudie encore. Il semble que le pouvoir central se soit beaucoup affaibli. La ville a cessé d’avoir la force qu’elle avait eue. Lorsque vous regarderez ces édifices, souvenez-vous qu’ils ont été érigés au fil des siècles, et que leur fin a été un processus, non un seul jour."
+    },
+    "retos_observacion": {
+      "hash": "1e55bdcb896388b5",
+      "texto": [
+        "Regardez une dernière fois la longue ligne de temples et de palais de la Chaussée des Morts : tous ont brûlé simultanément vers l’an 550 apr. J.-C.",
+        "Imaginez le contraste entre le centre cérémoniel en flammes et les deux mille ensembles des quartiers périphériques qui sont restés debout",
+        "Pensez à la manière dont les idées, les dieux et l’art de Teotihuacán ont survécu en voyageant vers Xochicalco, Cacaxtla et le monde mexica"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f67c2f282bc871c9",
+      "texto": {
+        "Culture": "Teotihuacán",
+        "Date du grand incendie": "Vers 550 apr. J.-C. (± 20 ans, datée par archéomagnétisme et carbone 14)",
+        "Causes convergentes": "Mégasécheresse du VIe siècle, crise alimentaire, rupture des routes commerciales et soulèvement interne contre l’élite",
+        "Villes d’accueil de la diaspora": "Cacaxtla, Xochicalco, Cantona, Teotenango et El Tajín"
+      }
+    },
+    "faq_mito": {
+      "hash": "32130bd7f521dabf",
+      "texto": {
+        "pregunta": "Mythe : Teotihuacán aurait été détruite d’un seul coup par une invasion de peuples chichimèques venus du nord.",
+        "respuesta": "Réalité : Les traces de feu et de destruction sélective, concentrées exclusivement sur les édifices de gouvernement le long de la Chaussée des Morts, indiquent une révolte interne déclenchée après des années de sécheresse et de crise sociale."
+      }
+    }
+  }
+}
