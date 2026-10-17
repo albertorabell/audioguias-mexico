@@ -4,14 +4,7 @@
   "idioma": "fr",
   "modelo": "claude-sonnet-5-5",
   "fecha": "2026-10-17",
-  "avisos": {
-    "puente_narrativo": [
-      "el glosario pide \"Teotihuacán\" para \"Teotihuacana / Teotihuacano / Teotihuacanos\" y no aparece"
-    ],
-    "especificaciones": [
-      "el glosario pide \"Teotihuacán\" para \"Teotihuacana / Teotihuacano / Teotihuacanos\" y no aparece"
-    ]
-  },
+  "avisos": {},
   "campos": {
     "titulo": {
       "hash": "195d3efba3bb58de",
@@ -23,7 +16,7 @@
     },
     "puente_narrativo": {
       "hash": "899063eebaf7dcca",
-      "texto": "Contournez maintenant la pyramide du Soleil par son côté sud et suivez le sentier qui mène au Musée de la culture teotihuacane : vous y verrez la ville entière à l’échelle et les offrandes que renfermaient les pyramides."
+      "texto": "Contournez maintenant la pyramide du Soleil par son côté sud et suivez le sentier qui mène au Musée de la culture de Teotihuacán : vous y verrez la ville entière à l’échelle et les offrandes que renfermaient les pyramides."
     },
     "guion_corto": {
       "hash": "0aa64feb87aa094f",
@@ -44,7 +37,7 @@
     "especificaciones": {
       "hash": "78df0899050e0885",
       "texto": {
-        "Culture": "Teotihuacane",
+        "Culture": "Teotihuacán",
         "Période": "Classique récent (phase Xolalpan, vers 450-550 apr. J.-C.)",
         "Emplacement": "Flanc nord de la place de la pyramide du Soleil",
         "Découvertes": "Plus de 30 peintures murales (dont le Jaguar bleu avec agave et papillons) et une très forte concentration de céramique cérémonielle",

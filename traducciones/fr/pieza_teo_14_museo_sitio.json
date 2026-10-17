@@ -4,18 +4,11 @@
   "idioma": "fr",
   "modelo": "claude-sonnet-5-5",
   "fecha": "2026-10-17",
-  "avisos": {
-    "titulo": [
-      "el glosario pide \"Teotihuacán\" para \"Teotihuacana / Teotihuacano / Teotihuacanos\" y no aparece"
-    ],
-    "especificaciones": [
-      "el glosario pide \"Teotihuacán\" para \"Teotihuacana / Teotihuacano / Teotihuacanos\" y no aparece"
-    ]
-  },
+  "avisos": {},
   "campos": {
     "titulo": {
       "hash": "66afd054cdceee21",
-      "texto": "Musée de la culture teotihuacane (musée de site)"
+      "texto": "Musée de la culture de Teotihuacán (musée de site)"
     },
     "frase_gancho": {
       "hash": "992317afa0c39a86",
@@ -44,7 +37,7 @@
     "especificaciones": {
       "hash": "3df0cbfa8227a399",
       "texto": {
-        "Culture": "Teotihuacane",
+        "Culture": "Teotihuacán",
         "Fonction": "Musée archéologique de site",
         "Emplacement": "Côté sud de la pyramide du Soleil (accès vers la porte 2 / jardin botanique)",
         "Pièces clés": "Maquette monumentale avec baie vitrée donnant sur le Soleil, sépultures de la Ciudadela, brûle-parfums de type théâtre, pièces lithiques en obsidienne et sculpture architecturale"
