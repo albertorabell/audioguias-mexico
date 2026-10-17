@@ -59,6 +59,7 @@ export function main({ simular = process.argv.includes('--simular'), root = proc
           client.put(u.key, u.file);
           ok = true;
         } catch (e) {
+          if (intento < 3) Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, intento * 5000); // espera 5 s, luego 10 s
           log(`  ⚠️ ${u.key}: intento ${intento} falló (${String(e.message || e).split('\n')[0].slice(0, 120)})`);
         }
       }
