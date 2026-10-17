@@ -109,6 +109,13 @@ res.tamano.slice(0, 30).forEach((x) => console.log('   - ' + x));
 console.log(`No se pudo comprobar (no se toca): ${res.dudas.length}`);
 res.dudas.slice(0, 30).forEach((x) => console.log('   - ' + x));
 
+// Los registros de la corrida no se pueden leer desde fuera, pero las anotaciones sí: dejamos aquí el resumen
+const nota = (t) => t.replace(/%/g, '%25').replace(/\r/g, '').replace(/\n/g, '%0A');
+console.log('::notice title=Resumen R2::' + nota(`revisados ${tareas.length} · bien ${res.ok} · adoptados ${res.adoptados.length} · faltan en R2 ${res.quitar.length} · tamaño distinto ${res.tamano.length} · dudas ${res.dudas.length} · sin lista ni R2 ${res.sinListaNiR2}`));
+if (res.quitar.length) console.log('::warning title=Faltan en R2::' + nota(res.quitar.join('\n').slice(0, 3500)));
+if (res.dudas.length) console.log('::warning title=Sin comprobar::' + nota(res.dudas.join('\n').slice(0, 3500)));
+if (res.tamano.length) console.log('::warning title=Tamaño distinto::' + nota(res.tamano.join('\n').slice(0, 3500)));
+
 if (aplicar) {
   // Seguridad: si casi todo "falta", algo anda mal con la conexión; no se escribe nada
   if (tareas.length && res.quitar.length > tareas.length * 0.6) {
