@@ -215,7 +215,7 @@ await sesion({
       await page.waitForLoadState('networkidle').catch(() => {});
       await shot('00-inicio-preview', { full: true });
     });
-    await paso('01-chapultepec', () => verSitio('01-chapultepec', 'Chapultepec'));
+    await paso('01-chapultepec', () => verSitio('01-chapultepec', 'Castillo de Chapultepec'));
     await paso('02-centro', () => verSitio('02-centro', 'Centro Hist'));
   },
 });
