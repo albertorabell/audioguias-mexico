@@ -23,7 +23,7 @@ import { splitPiece, writePrivate } from './privado-lib.mjs';
 import { linkIds, hasBrokenLink } from '../src/utils/pieceLinks.js';
 import { hayClave, leerPestana } from './google-sheets-lib.mjs';
 import { cargarSitios, estaPublicado } from './sitios-lib.mjs';
-import { partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites } from './sitios-extra-lib.mjs';
+import { aplicarDefiniciones, partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites } from './sitios-extra-lib.mjs';
 
 // ===== CONFIGURACIÓN (lo único que normalmente se toca) =====================
 const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
@@ -761,12 +761,24 @@ export async function sync() {
     throw new Error(`Se encontraron errores en el Sheets. No se publicó nada.\n  - ${errors.join('\n  - ')}`);
   }
 
-  const routes = buildRoutes(pieces, rooms);
+  // Nombre, duración y descripciones de los recorridos del MNA y de Teotihuacán: opcionales, de la pestaña RUTAS de su Sheet
+  const defsRutasDe = async (siteId) => {
+    const s = sitiosCtl.find((x) => x.site_id === siteId);
+    if (!s || !s.sheet_id) return [];
+    try { return leerDefinicionesRutas(await leerPestana(s.sheet_id, 'RUTAS')); } catch { return []; }
+  };
+  const aplicarRutas = (rutas, defs, siteId, claveDe) => {
+    if (!defs.length) return rutas;
+    const r = aplicarDefiniciones(rutas, defs, claveDe);
+    if (r.sinUsar.length) console.warn(`⚠️  ${siteId}/RUTAS: estas rutas no existen en la app y se ignoran: ${r.sinUsar.join(', ')}`);
+    return r.rutas;
+  };
+  const routes = aplicarRutas(buildRoutes(pieces, rooms), await defsRutasDe('mna'), 'mna');
   routes.forEach((r) => {
     if (r.missing_ids.length) console.warn(`⚠️  Ruta "${r.name}": no existen en el Sheets estas piezas: ${r.missing_ids.join(', ')}`);
   });
   const teoWarnings = {};
-  const teoRoutes = teo ? buildTeoRoutes(teo.pieces, teo.rooms, teo.rutas, (kind, msg) => { (teoWarnings[kind] ||= []).push(msg); }) : [];
+  const teoRoutes = teo ? aplicarRutas(buildTeoRoutes(teo.pieces, teo.rooms, teo.rutas, (kind, msg) => { (teoWarnings[kind] ||= []).push(msg); }), await defsRutasDe('teotihuacan'), 'teotihuacan', (r) => r.id.replace(/^ruta-/, '')) : [];
   for (const [kind, list] of Object.entries(teoWarnings)) {
     console.warn(`⚠️  ${kind}: ${list.length}`);
     list.slice(0, 8).forEach((m) => console.warn(`     - ${m}`));

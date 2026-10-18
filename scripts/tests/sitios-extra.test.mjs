@@ -60,3 +60,28 @@ test('sitios genéricos: sites.json reemplaza la entrada del mismo id y agrega l
   const r = mezclarSites([{ id: 'MNA' }, { id: 'CHAPULTEPEC', status: 'coming_soon' }], [{ id: 'CHAPULTEPEC', status: 'active' }, { id: 'NUEVO', status: 'preview' }]);
   assert.deepEqual(r.map((s) => `${s.id}:${s.status || ''}`), ['MNA:', 'CHAPULTEPEC:active', 'NUEVO:preview']);
 });
+
+test('recorridos del MNA y Teotihuacán: la pestaña RUTAS pisa solo lo que trae lleno', async () => {
+  const { aplicarDefiniciones, leerDefinicionesRutas } = await import('../sitios-extra-lib.mjs');
+  const defs = leerDefinicionesRutas([
+    ['ruta', 'nombre', 'duracion', 'minutos', 'descripcion', 'descripcion_en'],
+    ['ruta-uno', 'Uno nuevo', '', '', 'Texto nuevo', 'New text'],
+    ['express', 'Exprés', '1 h', '60', '', ''],
+    ['no-existe', 'X', '', '', 'x', ''],
+  ]);
+  const rutas = [
+    { id: 'ruta-uno', name: 'Uno', duration: '45 min', description: 'viejo', description_fr: 'ancien', stops: [1] },
+    { id: 'ruta-express', name: 'Exprés', duration: '3 h', description: 'viejo2', stops: [2] },
+  ];
+  const r = aplicarDefiniciones(rutas, defs, (x) => (x.id === 'ruta-express' ? 'express' : ''));
+  assert.equal(r.rutas[0].name, 'Uno nuevo');
+  assert.equal(r.rutas[0].duration, '45 min');
+  assert.equal(r.rutas[0].description, 'Texto nuevo');
+  assert.equal(r.rutas[0].description_en, 'New text');
+  assert.equal(r.rutas[0].description_fr, 'ancien');
+  assert.deepEqual(r.rutas[0].stops, [1]);
+  assert.equal(r.rutas[1].name, 'Exprés');
+  assert.equal(r.rutas[1].duration, '1 h');
+  assert.equal(r.rutas[1].estimated_minutes, 60);
+  assert.deepEqual(r.sinUsar, ['no-existe']);
+});
