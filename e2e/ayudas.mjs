@@ -10,7 +10,7 @@ export const PREMIUM = { id: 'mna_s06_coatlicue', title: 'Coatlicue' };
 const COMPLETAS = JSON.parse(fs.readFileSync(new URL('../public/data/pieces.json', import.meta.url), 'utf-8'));
 export const TEXTOS = buildBundles(COMPLETAS, ['es', 'en']);
 export const FRASE_SECRETA = (() => {
-  const t = COMPLETAS.find((p) => p.piece_id === 'mna_s06_piedra_sol').guion_largo;
+  const t = COMPLETAS.find((p) => p.piece_id === 'mna_s06_piedra_sol')?.guion_largo ?? '';
   const mid = Math.floor(t.length / 2);
   return t.slice(mid, mid + 50);
 })();
