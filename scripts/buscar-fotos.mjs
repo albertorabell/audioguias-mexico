@@ -9,7 +9,7 @@ import { licenciaPermitida } from './descargar-fotos.mjs';
 
 const UA = 'AudioguiasMexico/1.0 (https://github.com/albertorabell/audioguias-mexico; albertorabell@gmail.com)';
 const API = 'https://commons.wikimedia.org/w/api.php';
-const limpio = (s) => String(s || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+const limpio = (x) => String(x?.value ?? '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 const pausa = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function pedir(url) {
@@ -78,6 +78,7 @@ async function main() {
       const lista = buenas(await infos(titulos), max);
       manifiesto[id] = lista;
       if (!lista.length) { console.log(`::warning::${id}: sin candidatas con licencia abierta y 1200 px o más (${titulos.length} resultados)`); continue; }
+      console.log(`${id}: ${titulos.length} resultados, ${lista.length} sirven`);
       const celdas = [];
       for (let n = 0; n < lista.length; n++) {
         const r = await pedir(lista[n].miniatura);
