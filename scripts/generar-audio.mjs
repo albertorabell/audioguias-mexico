@@ -15,7 +15,7 @@
 //   --limite N              genera como máximo N audios en esta corrida
 //   --forzar                regenera aunque el texto no haya cambiado
 //   --proveedor azure|openai|prueba   (por defecto azure)
-//   --sitio mna|teotihuacan|todos   solo las piezas de ese sitio (por defecto todos)
+//   --sitio <id de CONTROL>|todos   solo las piezas de ese sitio (por defecto todos)
 //   --reubicar              solo mueve archivos de lugar si una pieza pasó de gratis a pago (o al revés); no genera
 //
 // Dónde quedan los archivos:
@@ -61,7 +61,7 @@ export function parseArgs(argv) {
   for (const m of out.modo) if (!MODES.includes(m)) throw new Error(`Modo no válido: ${m}. Usa: ${MODES.join(', ')}`);
   if (!['todas', 'gratis', 'premium'].includes(out.solo)) throw new Error('--solo debe ser gratis o premium');
   if (!['azure', 'openai', 'prueba'].includes(out.proveedor)) throw new Error('--proveedor debe ser azure, openai o prueba');
-  if (!['todos', 'mna', 'teotihuacan'].includes(out.sitio)) throw new Error('--sitio debe ser mna, teotihuacan o todos');
+  if (!/^[a-z0-9_-]+$/.test(String(out.sitio))) throw new Error('--sitio debe ser el id de un sitio de CONTROL (por ejemplo mna) o todos');
   if (out.limite !== null && (!Number.isFinite(out.limite) || out.limite < 1)) throw new Error('--limite debe ser un número mayor que 0');
   return out;
 }
@@ -231,7 +231,7 @@ function needCloudflare() {
 // ---------------------------------------------------------------------------
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const prefijoSitio = { mna: 'mna_', teotihuacan: 'teo_' }[args.sitio];
+  const prefijoSitio = await prefijoDeSitio(args.sitio);
   const pieces = readFullPieces(ROOT).filter((p) => !prefijoSitio || String(p.piece_id).startsWith(prefijoSitio));
   const manifest = readManifest();
 
@@ -337,6 +337,7 @@ async function main() {
 }
 
 import { pathToFileURL } from 'node:url';
+import { prefijoDeSitio } from './sitios-lib.mjs';
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main().catch((e) => {
     console.error('❌ ' + (e && e.message ? e.message : e));

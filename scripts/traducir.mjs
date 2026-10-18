@@ -32,6 +32,7 @@ import fs from 'node:fs';
 import { readFullPieces } from './privado-lib.mjs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
+import { cargarSitios, prefijoDeSitio } from './sitios-lib.mjs';
 import {
   LANG_NAMES,
   GLOSSARY_FILE,
@@ -80,7 +81,7 @@ export function parseArgs(argv) {
     else throw new Error(`Opción desconocida: ${a}`);
   }
   if (!LANG_NAMES[out.lang]) throw new Error(`Idioma no válido: ${out.lang}. Por ahora solo: ${Object.keys(LANG_NAMES).join(', ')}`);
-  if (!['mna', 'teotihuacan', 'todo'].includes(out.sitio)) throw new Error('--sitio debe ser mna, teotihuacan o todo');
+  if (!/^[a-z0-9_-]+$/.test(String(out.sitio))) throw new Error('--sitio debe ser el id de un sitio de CONTROL (por ejemplo mna) o todo');
   if (!['piezas', 'salas', 'todo'].includes(out.solo)) throw new Error('--solo debe ser piezas, salas o todo');
   if (!['claude', 'prueba'].includes(out.proveedor)) throw new Error('--proveedor debe ser claude o prueba');
   if (!Number.isFinite(out.limite) || out.limite < 1) throw new Error('--limite debe ser un número mayor que 0');
@@ -379,13 +380,22 @@ export async function main(argv, { root = process.cwd(), env = process.env, fetc
   };
   const provider = makeProvider(args.proveedor, { env, fetchImpl, retryBaseMs });
 
-  // Las piezas de Teotihuacán empiezan con "teo_" y sus zonas viven en public/data/teotihuacan/rooms.json
-  const esTeo = (p) => String(p.piece_id).startsWith('teo_');
-  const pieces = readFullPieces(root).filter((p) => (args.sitio === 'todo' ? true : args.sitio === 'teotihuacan' ? esTeo(p) : !esTeo(p)));
-  const rooms = [
-    ...(args.sitio !== 'teotihuacan' ? readJson(path.join(root, 'public/data/rooms.json')) : []),
-    ...(args.sitio !== 'mna' && fs.existsSync(path.join(root, 'public/data/teotihuacan/rooms.json')) ? readJson(path.join(root, 'public/data/teotihuacan/rooms.json')) : []),
-  ];
+  // Cada sitio tiene un prefijo en CONTROL (mna_, teo_…) y sus salas viven en public/data/<sitio>/rooms.json
+  const sitiosLista = (await cargarSitios()).map((x) => x.site_id);
+  const prefijoSitio = await prefijoDeSitio(args.sitio);
+  const otrosPrefijos = (await cargarSitios()).filter((x) => x.site_id !== args.sitio && x.prefijo).map((x) => x.prefijo);
+  // El museo (mna) también recibe las piezas sin prefijo de ningún otro sitio, como siempre
+  const delSitio = (p) => {
+    const id = String(p.piece_id);
+    if (!prefijoSitio) return true;
+    return id.startsWith(prefijoSitio) || (args.sitio === 'mna' && !otrosPrefijos.some((x) => id.startsWith(x)));
+  };
+  const pieces = readFullPieces(root).filter(delSitio);
+  const salasDe = (id) => {
+    const f = path.join(root, id === 'mna' ? 'public/data/rooms.json' : `public/data/${id}/rooms.json`);
+    return fs.existsSync(f) ? readJson(f) : [];
+  };
+  const rooms = (args.sitio === 'todo' || args.sitio === 'todos' ? sitiosLista : [args.sitio]).flatMap(salasDe);
   const glossary = loadGlossary(path.join(root, GLOSSARY_FILE), args.lang);
   if (!glossary.length) warn('⚠️  No encontré el glosario (glosario/glosario.csv): se traducirá sin lista de nombres propios.');
 

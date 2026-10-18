@@ -18,9 +18,8 @@ on:
         options: [en, fr, pl]
         default: en
       sitio:
-        description: 'Qué se traduce: mna (el museo), teotihuacan o todo'
-        type: choice
-        options: [mna, teotihuacan, todo]
+        description: 'Qué se traduce: el id de la hoja CONTROL (mna, teotihuacan, chapultepec…) o todo'
+        type: string
         default: mna
       piezas:
         description: 'Solo estas piezas (ids separados por coma). Vacío = las que sigan pendientes'
@@ -58,6 +57,10 @@ permissions:
 concurrency:
   group: traducir
   cancel-in-progress: false
+
+# El robot de Google lee en privado los Sheets de la carpeta Audioguías México (ver scripts/google-sheets-lib.mjs)
+env:
+  GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
 
 jobs:
   traducir:

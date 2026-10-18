@@ -8,6 +8,9 @@ on:
 permissions:
   contents: read
 
+env:
+  GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+
 jobs:
   comparar:
     runs-on: ubuntu-24.04
@@ -19,6 +22,8 @@ jobs:
       - run: npm install
 
       - name: Leer con la fuente VIEJA
+        env:
+          SYNC_FUENTE: vieja
         run: |
           node scripts/sync-sheets.js
           mkdir -p "$RUNNER_TEMP/vieja"
@@ -28,7 +33,6 @@ jobs:
       - name: Leer con la fuente NUEVA (privada, con el robot)
         env:
           SYNC_FUENTE: nueva
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
         run: |
           node scripts/sync-sheets.js
           mkdir -p "$RUNNER_TEMP/nueva"
