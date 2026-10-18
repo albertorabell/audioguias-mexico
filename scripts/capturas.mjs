@@ -17,6 +17,15 @@ async function sesion({ nombre, ancho = 390, alto = 844, init, pasos }) {
   const ctx = await browser.newContext({ viewport: { width: ancho, height: alto }, deviceScaleFactor: 2, locale: 'es-MX', serviceWorkers: 'block', isMobile: movil, hasTouch: movil });
   const page = await ctx.newPage();
   await simularCobro(page);
+  // Las guías de la primera visita taparían los botones: se dan por vistas
+  await page.addInitScript(() => {
+    try {
+      localStorage.setItem('audioguias_tour_museo', '1');
+      localStorage.setItem('audioguias_tour_pieza', '1');
+    } catch {
+      /* sin almacenamiento */
+    }
+  });
   if (init) await page.addInitScript(init);
   const shot = async (id, { full = false } = {}) => {
     const file = `${nombre}-${id}.png`;
