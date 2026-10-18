@@ -20,6 +20,10 @@ on:
         description: 'Volver a bajar aunque la foto ya exista'
         type: boolean
         default: false
+      buscar:
+        description: 'En vez de descargar, BUSCAR candidatas en Commons para elegir (deja hojas de contacto en la rama fotos-candidatas)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -42,10 +46,28 @@ jobs:
           node-version: 20
 
       - name: Instalar sharp (convierte a webp; no se guarda en el proyecto)
-        if: ${{ !inputs.plan }}
+        if: ${{ !inputs.plan || inputs.buscar }}
         run: npm install --no-save --no-audit --no-fund sharp
 
+      - name: Buscar candidatas (solo con la casilla buscar)
+        if: ${{ inputs.buscar }}
+        env:
+          SITIO: ${{ inputs.sitio }}
+        run: |
+          set -o pipefail
+          archivo="scripts/fotos/consultas-${SITIO//_/-}.json"
+          node scripts/buscar-fotos.mjs --consultas "$archivo" --salida candidatas
+          git config user.name "fotos-bot"
+          git config user.email "fotos-bot@users.noreply.github.com"
+          git checkout -q --orphan fotos-candidatas
+          git rm -rfq --cached . > /dev/null 2>&1 || true
+          git add -f candidatas
+          git commit -qm "Fotos candidatas de $SITIO"
+          git push -f origin fotos-candidatas
+          echo "::notice::Candidatas subidas a la rama fotos-candidatas."
+
       - name: Revisar y descargar
+        if: ${{ !inputs.buscar }}
         env:
           SITIO: ${{ inputs.sitio }}
           PLAN: ${{ inputs.plan }}
@@ -58,7 +80,7 @@ jobs:
           node scripts/descargar-fotos.mjs "${args[@]}"
 
       - name: Guardar las fotos nuevas en una rama aparte
-        if: ${{ !inputs.plan }}
+        if: ${{ !inputs.plan && !inputs.buscar }}
         env:
           SITIO: ${{ inputs.sitio }}
         run: |
