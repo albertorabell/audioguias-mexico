@@ -17,6 +17,15 @@ async function sesion({ nombre, ancho = 390, alto = 844, init, pasos }) {
   const ctx = await browser.newContext({ viewport: { width: ancho, height: alto }, deviceScaleFactor: 2, locale: 'es-MX', serviceWorkers: 'block', isMobile: movil, hasTouch: movil });
   const page = await ctx.newPage();
   await simularCobro(page);
+  // Las guías de la primera visita taparían los botones: se dan por vistas
+  await page.addInitScript(() => {
+    try {
+      localStorage.setItem('audioguias_tour_museo', '1');
+      localStorage.setItem('audioguias_tour_pieza', '1');
+    } catch {
+      /* sin almacenamiento */
+    }
+  });
   if (init) await page.addInitScript(init);
   const shot = async (id, { full = false } = {}) => {
     const file = `${nombre}-${id}.png`;
@@ -178,6 +187,36 @@ await sesion({
       await entrar();
       await shot('02-museo');
     });
+  },
+});
+
+// Sitios que salen solos de la hoja CONTROL y aún están en revisión (se ven con ?preview): Chapultepec y el Centro Histórico
+await sesion({
+  nombre: 'f-sitios-nuevos',
+  pasos: async ({ page, shot, paso }) => {
+    const verSitio = async (clave, nombre) => {
+      await page.goto(base + '/?preview');
+      await page.waitForLoadState('networkidle').catch(() => {});
+      await page.locator('#sites-grid-section [role=button]', { hasText: nombre }).first().click();
+      await page.waitForTimeout(700);
+      await shot(`${clave}-salas`);
+      await shot(`${clave}-salas-completo`, { full: true });
+      await page.locator('#dock-tab-recorridos').click();
+      await shot(`${clave}-recorridos`);
+      await page.locator('#dock-tab-salas').click();
+      await page.locator('#rooms-list button').first().click();
+      await page.waitForTimeout(500);
+      await shot(`${clave}-zona`);
+      await page.locator('#btn-start-room').click();
+      await shot(`${clave}-parada`);
+    };
+    await paso('00-inicio-preview', async () => {
+      await page.goto(base + '/?preview');
+      await page.waitForLoadState('networkidle').catch(() => {});
+      await shot('00-inicio-preview', { full: true });
+    });
+    await paso('01-chapultepec', () => verSitio('01-chapultepec', 'Castillo de Chapultepec'));
+    await paso('02-centro', () => verSitio('02-centro', 'Centro Hist'));
   },
 });
 

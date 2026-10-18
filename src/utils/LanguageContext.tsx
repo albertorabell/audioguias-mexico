@@ -8,7 +8,7 @@ import {
   detectInitialLanguage,
   isActiveLanguage,
 } from '../i18n/languages';
-import { setCurrentLanguage, setCurrentSiteKind } from '../i18n/runtime';
+import { setCurrentLanguage, setCurrentSiteKind, setCurrentSiteName } from '../i18n/runtime';
 import type { SiteKind } from '../i18n/sitio';
 import { getStrings, Strings } from '../i18n';
 import { localizePiece, localizeRoom } from '../i18n/content';
@@ -25,6 +25,8 @@ interface LanguageContextType {
   strings: Strings;
   /** Palabras de la interfaz: «museum» (salas y obras) o «site» (zonas y paradas de un sitio arqueológico). */
   setSiteKind: (kind: SiteKind) => void;
+  /** Nombre del sitio abierto para la barra y la pantalla de bloqueo (null = el que traen los textos). */
+  setSiteName: (name: string | null) => void;
   /** Busca un campo traducido (p. ej. guion_corto_en) y si no existe usa el español. No inventa traducciones. */
   getLocalizedField: (obj: any, fieldPrefix: string) => string;
   localizePiece: <T extends Record<string, any>>(piece: T) => T;
@@ -37,6 +39,7 @@ const LanguageContext = createContext<LanguageContextType>({
   availableLanguages,
   strings: getStrings('es', 'museum'),
   setSiteKind: () => {},
+  setSiteName: () => {},
   getLocalizedField: () => '',
   localizePiece: (p) => p,
   localizeRoom: (r) => r,
@@ -54,6 +57,11 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   }, [currentLanguage]);
 
   const [siteKind, setSiteKindState] = useState<SiteKind>('museum');
+  const [siteName, setSiteNameState] = useState<string | null>(null);
+  const setSiteName = useCallback((name: string | null) => {
+    setCurrentSiteName(name);
+    setSiteNameState(name && name.trim() ? name.trim() : null);
+  }, []);
   const setSiteKind = useCallback((kind: SiteKind) => {
     // El código que no es de React (voz, pantalla de bloqueo) lee el tipo desde aquí
     setCurrentSiteKind(kind);
@@ -86,13 +94,14 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       currentLanguage,
       setLanguage,
       availableLanguages,
-      strings: getStrings(currentLanguage, siteKind),
+      strings: getStrings(currentLanguage, siteKind, siteName),
       setSiteKind,
+      setSiteName,
       getLocalizedField,
       localizePiece: (p) => localizePiece(p, currentLanguage),
       localizeRoom: (r) => localizeRoom(r, currentLanguage),
     };
-  }, [currentLanguage, setLanguage, siteKind, setSiteKind]);
+  }, [currentLanguage, setLanguage, siteKind, setSiteKind, siteName, setSiteName]);
 
   return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>;
 };

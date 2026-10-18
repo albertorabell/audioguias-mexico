@@ -59,4 +59,6 @@ jobs:
           node scripts/ci-run.mjs ensayo-subida -- node scripts/subir-audio.mjs --simular
       # Al final y sin guardar nada: corre la sincronización real contra el Google Sheets para ver sus avisos en las anotaciones
       - name: Revisar el Google Sheets con la sincronización real (solo para leer los avisos)
+        env:
+          SYNC_PREVIEW: '1'
         run: node scripts/ci-run.mjs sync-sheets -- node scripts/sync-sheets.js

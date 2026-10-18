@@ -51,7 +51,7 @@ const stopId = (s: { piece_id?: string; id?: string; poi_id?: string; file?: str
 const roomNumber = (r: Room) => parseInt(String(r.numero_oficial ?? r.room_id.match(/\d+/)?.[0] ?? '0'), 10) || 0;
 
 export default function App() {
-  const { strings: t, currentLanguage, localizePiece, localizeRoom, setSiteKind } = useLanguage();
+  const { strings: t, currentLanguage, localizePiece, localizeRoom, setSiteKind, setSiteName } = useLanguage();
   const u = t.ui;
 
   // ---------- Navegación ----------
@@ -645,6 +645,13 @@ export default function App() {
   useLayoutEffect(() => {
     setSiteKind(siteWords ? 'site' : 'museum');
   }, [siteWords, setSiteKind]);
+  // Los sitios que salen solos de la hoja CONTROL (todos menos el MNA y Teotihuacán) muestran su propio nombre en la barra
+  const ownName = isZones && selectedSite && selectedSite.id !== 'TEOTIHUACAN' ? site?.name || selectedSite.name : null;
+  useLayoutEffect(() => {
+    setSiteName(ownName);
+  }, [ownName, setSiteName]);
+  /** Sin plano (zone_map) no hay pestaña ni botón de mapa. */
+  const hasMap = !isZones || !!manifest?.zone_map;
   let content: React.ReactNode = null;
   if (screen.kind === 'home' || !site) {
     const mna = rawSites.find((s) => s.status !== 'coming_soon');
@@ -675,7 +682,7 @@ export default function App() {
           onSelectRoom={openRoom}
           onStartRoute={startRoute}
           onOpenWizard={isZones ? undefined : () => push({ kind: 'wizard' })}
-          onOpenMap={() => goTab('mapa')}
+          onOpenMap={hasMap ? () => goTab('mapa') : undefined}
           zones={isZones}
         />
       );
@@ -763,7 +770,7 @@ export default function App() {
         onChooseRoute={() => goTab('recorridos')}
         onGoHome={() => rewindTo([{ kind: 'home' }])}
         onRepeatTour={route ? () => openTourStop(route, 0, 'replace') : undefined}
-        onOpenMap={() => goTab('mapa')}
+        onOpenMap={hasMap ? () => goTab('mapa') : undefined}
       />
     );
   } else if (screen.kind === 'piece') {
@@ -849,7 +856,7 @@ export default function App() {
 
           {content}
 
-          {showTabBar && <TabBar activeTab={activeTab} onSelectTab={goTab} tourActive={!!tour} />}
+          {showTabBar && <TabBar activeTab={activeTab} onSelectTab={goTab} tourActive={!!tour} showMap={hasMap} />}
 
           {selectedSite && manifest && (
             <PaywallModal

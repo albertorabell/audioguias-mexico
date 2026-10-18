@@ -23,6 +23,7 @@ import { splitPiece, writePrivate } from './privado-lib.mjs';
 import { linkIds, hasBrokenLink } from '../src/utils/pieceLinks.js';
 import { hayClave, leerPestana } from './google-sheets-lib.mjs';
 import { cargarSitios, estaPublicado } from './sitios-lib.mjs';
+import { partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites } from './sitios-extra-lib.mjs';
 
 // ===== CONFIGURACIÓN (lo único que normalmente se toca) =====================
 const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
@@ -682,14 +683,27 @@ export async function sync() {
   const teoSalas = teoActivo ? await loadTab('teo_salas') : null;
   const teoPiezas = teoActivo ? await loadTab('teo_piezas') : null;
 
-  // Otros sitios de CONTROL (publicar = SI) que no tienen lógica propia: salen con sus salas y piezas, sin rutas sugeridas.
+  // Otros sitios de CONTROL (publicar = SI) que no tienen lógica propia: salen con sus zonas, piezas y recorridos (pestaña RUTAS).
+  // Con SYNC_PREVIEW=1 también entran los que aún no están publicados (status "preview": solo se ven con ?preview en la app).
+  const PREVIEW = process.env.SYNC_PREVIEW === '1';
   const extras = [];
   for (const s of sitiosCtl) {
-    if (s.site_id === 'mna' || s.site_id === 'teotihuacan' || !estaPublicado(s)) continue;
-    console.log(`🔄 Leyendo ${s.site_id}…`);
+    if (s.site_id === 'mna' || s.site_id === 'teotihuacan') continue;
+    const publicado = estaPublicado(s);
+    if (!publicado && !PREVIEW) continue;
+    console.log(`🔄 Leyendo ${s.site_id}${publicado ? '' : ' (vista previa, sin publicar)'}…`);
     const sa = await leerPestanaNueva(s.site_id, 'SALAS', 'salas');
     const pi = await leerPestanaNueva(s.site_id, 'PIEZAS', 'piezas');
-    extras.push({ site: s, rooms: buildRooms(sa.items, { zones: true }), pieces: buildPieces(pi.items, { zones: true }) });
+    let filasRutas = [];
+    try { filasRutas = await leerPestana(s.sheet_id, 'RUTAS'); } catch { /* sin pestaña RUTAS: el sitio sale sin recorridos */ }
+    extras.push({
+      site: s,
+      preview: !publicado,
+      rooms: buildRooms(sa.items, { zones: true }),
+      pieces: buildPieces(pi.items, { zones: true }),
+      rutasDefs: leerDefinicionesRutas(filasRutas),
+      rutasPorId: new Map(pi.items.filter((p) => p.piece_id).map((p) => [p.piece_id, partirRutas(p.rutas)])),
+    });
   }
 
   const rooms = buildRooms(salas.items);
@@ -799,12 +813,28 @@ export async function sync() {
     console.log(`✅ Teotihuacán: ${teo.rooms.length} zonas, ${teo.pieces.length} piezas (${teo.pieces.length - teoSinFoto} con foto) y rutas: ${teoRoutes.map((r) => `${r.name} (${r.stops.length})`).join(', ')}.`);
   }
 
+  const entradasSites = [];
   for (const e of extras) {
     const dir = path.join(DATA_DIR, e.site.site_id);
     fs.mkdirSync(dir, { recursive: true });
+    const avisosRutas = {};
+    const rutasSitio = construirRutasSitio(e.site.site_id, e.pieces, e.rooms, e.rutasDefs, e.rutasPorId, (kind, msg) => { (avisosRutas[kind] ||= []).push(msg); });
+    for (const [kind, list] of Object.entries(avisosRutas)) { console.warn(`⚠️  ${kind}: ${list.length}`); list.slice(0, 8).forEach((m) => console.warn(`     - ${m}`)); }
     write(path.join(dir, 'rooms.json'), e.rooms);
     write(path.join(dir, 'pieces.json'), e.pieces.map((piece) => splitPiece(piece).pub));
-    console.log(`✅ ${e.site.site_id}: ${e.rooms.length} zonas y ${e.pieces.length} piezas.`);
+    write(path.join(dir, `${e.site.site_id}.json`), manifiestoSitio(e.site, rutasSitio));
+    entradasSites.push({ site: e.site, entry: e });
+    console.log(`✅ ${e.site.site_id}${e.preview ? ' (vista previa)' : ''}: ${e.rooms.length} zonas, ${e.pieces.length} piezas y recorridos: ${rutasSitio.map((r) => `${r.name} (${r.stops.length})`).join(', ') || 'ninguno'}.`);
+  }
+  if (entradasSites.length) {
+    const sitesPath = path.join(DATA_DIR, 'sites.json');
+    const actual = fs.existsSync(sitesPath) ? JSON.parse(fs.readFileSync(sitesPath, 'utf-8')) : [];
+    const nuevas = entradasSites.map(({ site, entry }) => {
+      const previa = actual.find((s) => String(s.id).toUpperCase() === site.site_id.toUpperCase()) || {};
+      return entradaSitio(site, entry.rooms, entry.pieces, previa, { preview: entry.preview });
+    });
+    write(sitesPath, mezclarSites(actual, nuevas));
+    console.log(`✅ sites.json: ${nuevas.map((n) => `${n.id} (${n.status})`).join(', ')}.`);
   }
 
   console.log(`✅ Sincronización exitosa: ${rooms.length} salas y ${pieces.length} piezas (${pieces.length - sinFoto} con foto, ${sinFoto} sin foto).`);

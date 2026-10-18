@@ -32,7 +32,9 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
     window.setTimeout(() => setToast(null), 3000);
   };
 
-  const active = sites.filter((s) => s.status !== 'coming_soon');
+  // Los sitios en revisión (status "preview") solo se ven abriendo la app con ?preview al final de la dirección
+  const verPrevia = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('preview');
+  const active = sites.filter((s) => s.status === 'active' || !s.status || (verPrevia && s.status === 'preview'));
   const soon = sites.filter((s) => s.status === 'coming_soon');
 
   return (
@@ -93,6 +95,9 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
                       alt=""
                       className="w-full h-full object-cover"
                     />
+                  )}
+                  {!isMain && rawSite.cover_image && rawSite.cover_piece_id && (
+                    <PieceImage filename={rawSite.cover_image} pieceId={rawSite.cover_piece_id} alt="" className="w-full h-full object-cover" />
                   )}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/0 to-black/0 pointer-events-none" />
                   <span className="absolute left-4 bottom-3 text-cap font-semibold text-white/90 flex items-center gap-1.5">

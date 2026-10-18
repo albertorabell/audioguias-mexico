@@ -35,7 +35,8 @@ interface MuseumScreenProps {
   onStartRoute: (route: SiteRoute) => void;
   /** Sin esta función no se ofrece "arma tu ruta" (Teotihuacán solo tiene sus dos rutas). */
   onOpenWizard?: () => void;
-  onOpenMap: () => void;
+  /** Sin plano (sitios nuevos sin mapa) no hay botón "ver plano". */
+  onOpenMap?: () => void;
   /** Sitio al aire libre: sin selector de pisos. */
   zones?: boolean;
 }
@@ -223,14 +224,16 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
             <h2 id="rooms-title" className="font-serif text-h3 font-medium">
               {u.museum.rooms}
             </h2>
-            <button
-              type="button"
-              onClick={onOpenMap}
-              className="h-10 -mr-2 px-2 inline-flex items-center gap-1.5 text-ui font-semibold text-jade cursor-pointer rounded-full active:bg-raised"
-            >
-              <MapIcon className="w-4 h-4" strokeWidth={2} />
-              {u.museum.seeMap}
-            </button>
+            {onOpenMap && (
+              <button
+                type="button"
+                onClick={onOpenMap}
+                className="h-10 -mr-2 px-2 inline-flex items-center gap-1.5 text-ui font-semibold text-jade cursor-pointer rounded-full active:bg-raised"
+              >
+                <MapIcon className="w-4 h-4" strokeWidth={2} />
+                {u.museum.seeMap}
+              </button>
+            )}
           </div>
 
           {showFloors && (

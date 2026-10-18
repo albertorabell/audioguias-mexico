@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   # También al subir cambios a una rama de diseño, para revisar cómo se ve sin tocar el sitio publicado
   push:
-    branches: ['feature/diseno**']
+    branches: ['feature/diseno**', 'feature/sitios-desde-control']
 
 concurrency:
   group: capturas
@@ -33,6 +33,8 @@ jobs:
         env:
           VITE_PAYMENTS_API_URL: https://pagos.test
           VITE_PUBLISHED_LANGUAGES: es,en,fr,pl
+          # Incluye los sitios en revisión (se ven con ?preview); estas capturas no se publican
+          SYNC_PREVIEW: '1'
         run: |
           node scripts/ci-run.mjs datos -- node scripts/sync-sheets.js
           node scripts/ci-run.mjs compilar -- npx vite build --outDir dist-capturas

@@ -24,3 +24,14 @@ export function getCurrentSiteKind(): 'museum' | 'site' {
 export function setCurrentSiteKind(kind: 'museum' | 'site'): void {
   currentKind = kind;
 }
+
+/** Nombre del sitio abierto cuando no es el MNA ni Teotihuacán (que traen el suyo en los textos): sale de la lista de sitios. */
+let currentSiteName: string | null = null;
+
+export function getCurrentSiteName(): string | null {
+  return currentSiteName;
+}
+
+export function setCurrentSiteName(name: string | null): void {
+  currentSiteName = name && name.trim() ? name.trim() : null;
+}

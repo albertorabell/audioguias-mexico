@@ -43,6 +43,9 @@ jobs:
           # Dirección del servidor de cobro. Si la variable no existe, el cobro queda apagado ("Disponible pronto").
           # Se crea en: Settings > Secrets and variables > Actions > Variables > PAGOS_API_URL
           VITE_PAYMENTS_API_URL: ${{ vars.PAGOS_API_URL }}
+          # Los sitios que aún están en revisión (publicar = NO en CONTROL) no salen en la lista, pero se pueden ver
+          # agregando ?preview a la dirección. Para quitarlos del todo, borra esta línea.
+          SYNC_PREVIEW: '1'
 
       # Los textos de pago (guiones, retos, mito y ficha técnica) NO van en el sitio: se guardan en Cloudflare R2 y el servidor
       # de cobro solo los entrega con un pase vigente. Si esto falla, no se publica el sitio (así nunca queda una app sin textos).
