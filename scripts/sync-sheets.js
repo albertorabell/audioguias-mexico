@@ -22,24 +22,28 @@ import { applyStoredTranslations } from './traducir-lib.mjs';
 import { splitPiece, writePrivate } from './privado-lib.mjs';
 import { linkIds, hasBrokenLink } from '../src/utils/pieceLinks.js';
 import { hayClave, leerPestana } from './google-sheets-lib.mjs';
+import { cargarSitios, estaPublicado } from './sitios-lib.mjs';
 
 // ===== CONFIGURACIÓN (lo único que normalmente se toca) =====================
 const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
 
-// FUENTE NUEVA (en prueba): los Sheets de cada sitio viven en la carpeta "Audioguías México" y se leen en privado
-// con el robot de Google. La lista de sitios sale del Sheet CONTROL. Se activa con SYNC_FUENTE=nueva.
-// Mientras no se active, todo sigue leyéndose del Sheet de siempre.
-const CONTROL_ID = process.env.CONTROL_SHEET_ID || '1e4BQCAULQq6zABdMTD0trSpuzknPTV3ZS9gzp6Qx93Q';
-const FUENTE_NUEVA = process.env.SYNC_FUENTE === 'nueva';
+// FUENTE DE DATOS: los Sheets de cada sitio viven en la carpeta "Audioguías México" de Drive y se leen en privado
+// con el robot de Google. La lista de sitios sale de la hoja CONTROL. SYNC_FUENTE=vieja vuelve al Sheet de antes (solo para comparar).
+const FUENTE_NUEVA = process.env.SYNC_FUENTE !== 'vieja' && !process.env.SYNC_LOCAL_DIR; // las pruebas locales leen CSV
 const KIND_SITE = { salas: ['mna', 'SALAS'], piezas: ['mna', 'PIEZAS'], teo_salas: ['teotihuacan', 'SALAS'], teo_piezas: ['teotihuacan', 'PIEZAS'] };
-let sitiosCache = null;
-async function sitiosDeControl() {
-  if (!sitiosCache) {
-    if (!hayClave()) throw new Error('SYNC_FUENTE=nueva necesita el secreto GOOGLE_SERVICE_ACCOUNT_JSON.');
-    const rows = await leerPestana(CONTROL_ID, 'SITIOS');
-    sitiosCache = new Map(toObjects(rows).items.map((s) => [s.site_id, s]));
+
+/** Lee SALAS o PIEZAS de un sitio (según CONTROL) y deja solo las filas con publicar = SI (si la columna existe). */
+async function leerPestanaNueva(siteId, tab, kind) {
+  if (!hayClave()) throw new Error('Falta el secreto GOOGLE_SERVICE_ACCOUNT_JSON (GitHub > Settings > Secrets and variables > Actions) para leer los Sheets privados.');
+  const sitio = (await cargarSitios({ estricto: true })).find((x) => x.site_id === siteId);
+  if (!sitio || !sitio.sheet_id) throw new Error(`El sitio "${siteId}" no está en la hoja CONTROL (pestaña SITIOS) o no tiene sheet_id.`);
+  const parsed = toObjects(await leerPestana(sitio.sheet_id, tab));
+  if (parsed.headers.includes('publicar')) {
+    const antes = parsed.items.length;
+    parsed.items = parsed.items.filter((it) => String(it.publicar || '').trim().toUpperCase() === 'SI');
+    if (antes !== parsed.items.length) console.log(`   (${siteId}/${tab}: ${antes - parsed.items.length} fila(s) ocultas por publicar distinto de SI)`);
   }
-  return sitiosCache;
+  return checkColumns(kind, `${siteId}/${tab}`, parsed);
 }
 
 // Nombres de las pestañas. Se prueba en orden hasta encontrar la que tiene las columnas correctas.
@@ -293,16 +297,7 @@ async function loadTab(kind) {
   }
   if (FUENTE_NUEVA) {
     const [siteId, tab] = KIND_SITE[kind];
-    const sitio = (await sitiosDeControl()).get(siteId);
-    if (!sitio || !sitio.sheet_id) throw new Error(`El sitio "${siteId}" no está en la hoja CONTROL (pestaña SITIOS) o no tiene sheet_id.`);
-    const parsed = toObjects(await leerPestana(sitio.sheet_id, tab));
-    // Columna "publicar": solo sale en la app lo que dice SI. Si la columna no existe, sale todo.
-    if (parsed.headers.includes('publicar')) {
-      const antes = parsed.items.length;
-      parsed.items = parsed.items.filter((it) => String(it.publicar || '').trim().toUpperCase() === 'SI');
-      if (antes !== parsed.items.length) console.log(`   (${siteId}/${tab}: ${antes - parsed.items.length} fila(s) ocultas por publicar≠SI)`);
-    }
-    return checkColumns(kind, `${siteId}/${tab}`, parsed);
+    return leerPestanaNueva(siteId, tab, kind);
   }
   const problems = [];
   for (const name of TAB_NAMES[kind]) {
@@ -678,10 +673,24 @@ export async function sync() {
   console.log('🔄 Leyendo TRABAJO_PIEZAS…');
   const piezas = await loadTab('piezas');
 
-  console.log('🔄 Leyendo TEO_SALAS…');
-  const teoSalas = await loadTab('teo_salas');
-  console.log('🔄 Leyendo TEO_PIEZAS…');
-  const teoPiezas = await loadTab('teo_piezas');
+  // Lista de sitios de la hoja CONTROL (si se usa la fuente nueva). Un sitio con publicar distinto de SI no sale en la app.
+  const sitiosCtl = FUENTE_NUEVA ? await cargarSitios({ estricto: true }) : [];
+  const teoCtl = sitiosCtl.find((x) => x.site_id === 'teotihuacan');
+  const teoActivo = !FUENTE_NUEVA || (teoCtl && estaPublicado(teoCtl));
+  if (!teoActivo) console.log('ℹ️  Teotihuacán está en publicar=NO en CONTROL: no se publica.');
+  console.log('🔄 Leyendo salas y piezas de Teotihuacán…');
+  const teoSalas = teoActivo ? await loadTab('teo_salas') : null;
+  const teoPiezas = teoActivo ? await loadTab('teo_piezas') : null;
+
+  // Otros sitios de CONTROL (publicar = SI) que no tienen lógica propia: salen con sus salas y piezas, sin rutas sugeridas.
+  const extras = [];
+  for (const s of sitiosCtl) {
+    if (s.site_id === 'mna' || s.site_id === 'teotihuacan' || !estaPublicado(s)) continue;
+    console.log(`🔄 Leyendo ${s.site_id}…`);
+    const sa = await leerPestanaNueva(s.site_id, 'SALAS', 'salas');
+    const pi = await leerPestanaNueva(s.site_id, 'PIEZAS', 'piezas');
+    extras.push({ site: s, rooms: buildRooms(sa.items, { zones: true }), pieces: buildPieces(pi.items, { zones: true }) });
+  }
 
   const rooms = buildRooms(salas.items);
   const pieces = buildPieces(piezas.items);
@@ -694,8 +703,8 @@ export async function sync() {
         ),
       }
     : null;
-  const todasSalas = [...rooms, ...(teo?.rooms || [])];
-  const todasPiezas = [...pieces, ...(teo?.pieces || [])];
+  const todasSalas = [...rooms, ...(teo?.rooms || []), ...extras.flatMap((e) => e.rooms)];
+  const todasPiezas = [...pieces, ...(teo?.pieces || []), ...extras.flatMap((e) => e.pieces)];
 
   // Traducciones hechas con scripts/traducir.mjs: solo valen si el texto en español no cambió; una celda del Sheets manda sobre ellas.
   const guardadas = applyStoredTranslations(process.cwd(), todasPiezas, todasSalas);
@@ -715,6 +724,17 @@ export async function sync() {
     for (const p of teo.pieces) if (mnaIds.has(p.piece_id)) errors.push(`piece_id repetido entre MNA y Teotihuacán: ${p.piece_id}`);
     const mnaRooms = new Set(rooms.map((r) => r.room_id));
     for (const r of teo.rooms) if (mnaRooms.has(r.room_id)) errors.push(`room_id repetido entre MNA y Teotihuacán: ${r.room_id}`);
+  }
+  // Otros sitios: se validan igual y ningún id puede repetirse entre sitios
+  const idsVistos = new Set([...pieces, ...(teo?.pieces || [])].map((p) => p.piece_id));
+  const salasVistas = new Set([...rooms, ...(teo?.rooms || [])].map((r) => r.room_id));
+  for (const e of extras) {
+    const v = validate(e.rooms, e.pieces, { label: e.site.nombre || e.site.site_id, sinCoordenadas: true });
+    errors.push(...v.errors);
+    for (const [kind, list] of Object.entries(v.warnings)) (warnings[kind] ||= []).push(...list.map((m) => `[${e.site.site_id}] ${m}`));
+    for (const p of e.pieces) { if (idsVistos.has(p.piece_id)) errors.push(`piece_id repetido entre sitios: ${p.piece_id}`); idsVistos.add(p.piece_id); }
+    for (const r of e.rooms) { if (salasVistas.has(r.room_id)) errors.push(`room_id repetido entre sitios: ${r.room_id}`); salasVistas.add(r.room_id); }
+    if (e.site.prefijo) for (const p of e.pieces) if (!String(p.piece_id).startsWith(e.site.prefijo)) errors.push(`[${e.site.site_id}] la pieza ${p.piece_id} no empieza con el prefijo ${e.site.prefijo}`);
   }
   const audiosUnidos = attachAudio(todasPiezas, (kind, msg) => { (warnings[kind] ||= []).push(msg); });
 
@@ -777,6 +797,14 @@ export async function sync() {
       write(teoManifestPath, manifest);
     }
     console.log(`✅ Teotihuacán: ${teo.rooms.length} zonas, ${teo.pieces.length} piezas (${teo.pieces.length - teoSinFoto} con foto) y rutas: ${teoRoutes.map((r) => `${r.name} (${r.stops.length})`).join(', ')}.`);
+  }
+
+  for (const e of extras) {
+    const dir = path.join(DATA_DIR, e.site.site_id);
+    fs.mkdirSync(dir, { recursive: true });
+    write(path.join(dir, 'rooms.json'), e.rooms);
+    write(path.join(dir, 'pieces.json'), e.pieces.map((piece) => splitPiece(piece).pub));
+    console.log(`✅ ${e.site.site_id}: ${e.rooms.length} zonas y ${e.pieces.length} piezas.`);
   }
 
   console.log(`✅ Sincronización exitosa: ${rooms.length} salas y ${pieces.length} piezas (${pieces.length - sinFoto} con foto, ${sinFoto} sin foto).`);

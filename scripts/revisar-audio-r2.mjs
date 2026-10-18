@@ -13,6 +13,7 @@ import { promisify } from 'node:util';
 import { MODES, scriptFor, textHash, mp3Duration } from './audio-lib.mjs';
 import { r2Key, DEFAULT_BUCKET } from './r2-lib.mjs';
 import { readFullPieces } from './privado-lib.mjs';
+import { prefijoDeSitio } from './sitios-lib.mjs';
 
 const run = promisify(execFile);
 const ROOT = process.cwd();
@@ -33,7 +34,7 @@ if (!process.env.CLOUDFLARE_API_TOKEN || !process.env.CLOUDFLARE_ACCOUNT_ID) {
   process.exit(1);
 }
 
-const prefijo = { mna: 'mna_', teotihuacan: 'teo_' }[sitio];
+const prefijo = await prefijoDeSitio(sitio);
 const pieces = readFullPieces(ROOT).filter((p) => !prefijo || String(p.piece_id).startsWith(prefijo));
 const manifest = fs.existsSync(MANIFEST_FILE) ? JSON.parse(fs.readFileSync(MANIFEST_FILE, 'utf-8')) : { version: 1, items: {} };
 manifest.items ||= {};

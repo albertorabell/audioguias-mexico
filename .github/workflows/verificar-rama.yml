@@ -9,6 +9,10 @@ on:
 permissions:
   contents: read
 
+# El robot de Google lee en privado los Sheets de la carpeta Audioguías México (ver scripts/google-sheets-lib.mjs)
+env:
+  GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+
 jobs:
   verificar:
     runs-on: ubuntu-24.04

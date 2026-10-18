@@ -15,9 +15,8 @@ on:
         type: string
         default: 'es'
       sitio:
-        description: 'Qué sitio: mna, teotihuacan o todos'
-        type: choice
-        options: [mna, teotihuacan, todos]
+        description: 'Qué sitio: el id de la hoja CONTROL (mna, teotihuacan, chapultepec…) o todos'
+        type: string
         default: mna
       piezas:
         description: 'Qué piezas: gratis, premium o todas'
@@ -52,6 +51,10 @@ permissions:
 concurrency:
   group: generar-audio
   cancel-in-progress: false
+
+# El robot de Google lee en privado los Sheets de la carpeta Audioguías México (ver scripts/google-sheets-lib.mjs)
+env:
+  GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
 
 jobs:
   audio:
