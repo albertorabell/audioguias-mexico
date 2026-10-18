@@ -65,7 +65,7 @@ async function respaldarTextosEnDrive() {
 
 async function asegurarBucket() {
   try {
-    await wr(['r2', 'bucket', 'create', BUCKET_RESPALDO]);
+    await run('npx', ['--yes', 'wrangler@4', 'r2', 'bucket', 'create', BUCKET_RESPALDO], { maxBuffer: 1 << 24 }); // este comando no usa --remote
     log(`🪣 Bucket ${BUCKET_RESPALDO} creado.`);
   } catch (e) {
     const msg = String(e.stderr || '') + String(e.stdout || '') + String(e.message || '');
