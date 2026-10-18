@@ -20,6 +20,10 @@ on:
         description: 'Volver a bajar aunque la foto ya exista'
         type: boolean
         default: false
+      consultas:
+        description: 'Solo con buscar: archivo de consultas (por ejemplo scripts/fotos/consultas-centro-historico-2.json). Vacío = el normal del sitio'
+        type: string
+        default: ''
       buscar:
         description: 'En vez de descargar, BUSCAR candidatas en Commons para elegir (deja hojas de contacto en la rama fotos-candidatas)'
         type: boolean
@@ -53,9 +57,11 @@ jobs:
         if: ${{ inputs.buscar }}
         env:
           SITIO: ${{ inputs.sitio }}
+          CONSULTAS: ${{ inputs.consultas }}
         run: |
           set -o pipefail
           archivo="scripts/fotos/consultas-${SITIO//_/-}.json"
+          if [ -n "$CONSULTAS" ]; then archivo="$CONSULTAS"; fi
           node scripts/buscar-fotos.mjs --consultas "$archivo" --salida candidatas
           git config user.name "fotos-bot"
           git config user.email "fotos-bot@users.noreply.github.com"

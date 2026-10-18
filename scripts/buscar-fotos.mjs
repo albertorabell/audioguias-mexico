@@ -26,7 +26,7 @@ async function pedir(url) {
 const api = async (params) => (await pedir(`${API}?${new URLSearchParams({ format: 'json', ...params })}`)).json();
 
 async function buscarTitulos(consulta) {
-  const j = await api({ action: 'query', list: 'search', srsearch: consulta, srnamespace: '6', srlimit: '15' });
+  const j = await api({ action: 'query', list: 'search', srsearch: consulta, srnamespace: '6', srlimit: '30' });
   return (j?.query?.search || []).map((x) => x.title);
 }
 
