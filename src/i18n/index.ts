@@ -21,7 +21,7 @@ import { ui } from './groups/ui';
 import { intro } from './groups/intro';
 import { PL_GROUPS } from './pl';
 import { SITE_OVERRIDES, SiteKind } from './sitio';
-import { getCurrentSiteKind } from './runtime';
+import { getCurrentSiteKind, getCurrentSiteName } from './runtime';
 
 const groups = {
   common,
@@ -63,7 +63,21 @@ function mergeGroup(es: any, other: any): any {
 }
 
 /** Textos en el idioma pedido. Lo que falte en ese idioma se muestra en español. */
-export function getStrings(lang: SupportedLanguage, kind: SiteKind = getCurrentSiteKind()): Strings {
+export function getStrings(lang: SupportedLanguage, kind: SiteKind = getCurrentSiteKind(), siteName: string | null = getCurrentSiteName()): Strings {
+  const base = baseStrings(lang, kind);
+  return kind === 'site' && siteName ? withSiteName(base, siteName) : base;
+}
+
+/** Los textos con el nombre del sitio abierto en lugar del de Teotihuacán (que es el que traen las palabras de «sitio»). */
+function withSiteName(base: Strings, name: string): Strings {
+  return {
+    ...base,
+    common: { ...base.common, museumName: name },
+    chrome: { ...base.chrome, nav: { ...base.chrome.nav, museumName: name.toUpperCase() } },
+  };
+}
+
+function baseStrings(lang: SupportedLanguage, kind: SiteKind): Strings {
   const key = `${lang}:${kind}`;
   if (cache[key]) return cache[key]!;
   const out: any = {};

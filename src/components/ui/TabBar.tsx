@@ -10,16 +10,20 @@ interface TabBarProps {
   onSelectTab: (tab: DockTab) => void;
   /** Muestra un punto en "Recorridos" cuando hay un recorrido en curso. */
   tourActive?: boolean;
+  /** false = el sitio no tiene plano: se quita la pestaña "Mapa". */
+  showMap?: boolean;
 }
 
-export const TabBar: React.FC<TabBarProps> = ({ activeTab, onSelectTab, tourActive }) => {
+export const TabBar: React.FC<TabBarProps> = ({ activeTab, onSelectTab, tourActive, showMap = true }) => {
   const t = useStrings().ui.tabs;
-  const tabs: { id: DockTab; label: string; Icon: React.ComponentType<{ className?: string; strokeWidth?: number }> }[] = [
+  type TabItem = { id: DockTab; label: string; Icon: React.ComponentType<{ className?: string; strokeWidth?: number }> };
+  const all: TabItem[] = [
     { id: 'salas', label: t.museum, Icon: Landmark },
     { id: 'recorridos', label: t.routes, Icon: RouteIcon },
     { id: 'mapa', label: t.map, Icon: MapIcon },
     { id: 'teclado', label: t.search, Icon: Search },
   ];
+  const tabs = all.filter((x) => showMap || x.id !== 'mapa');
 
   return (
     <nav
@@ -27,7 +31,7 @@ export const TabBar: React.FC<TabBarProps> = ({ activeTab, onSelectTab, tourActi
       aria-label={t.aria}
       className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[480px] z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line"
     >
-      <div className="max-w-[480px] mx-auto grid grid-cols-4 h-16">
+      <div className={`max-w-[480px] mx-auto grid ${tabs.length === 3 ? 'grid-cols-3' : 'grid-cols-4'} h-16`}>
         {tabs.map(({ id, label, Icon }) => {
           const active = activeTab === id;
           return (

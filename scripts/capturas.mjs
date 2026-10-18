@@ -181,6 +181,36 @@ await sesion({
   },
 });
 
+// Sitios que salen solos de la hoja CONTROL y aún están en revisión (se ven con ?preview): Chapultepec y el Centro Histórico
+await sesion({
+  nombre: 'f-sitios-nuevos',
+  pasos: async ({ page, shot, paso }) => {
+    const verSitio = async (clave, nombre) => {
+      await page.goto(base + '/?preview');
+      await page.waitForLoadState('networkidle').catch(() => {});
+      await page.locator('#sites-grid-section [role=button]', { hasText: nombre }).first().click();
+      await page.waitForTimeout(700);
+      await shot(`${clave}-salas`);
+      await shot(`${clave}-salas-completo`, { full: true });
+      await page.locator('#dock-tab-recorridos').click();
+      await shot(`${clave}-recorridos`);
+      await page.locator('#dock-tab-salas').click();
+      await page.locator('#rooms-list button').first().click();
+      await page.waitForTimeout(500);
+      await shot(`${clave}-zona`);
+      await page.locator('#btn-start-room').click();
+      await shot(`${clave}-parada`);
+    };
+    await paso('00-inicio-preview', async () => {
+      await page.goto(base + '/?preview');
+      await page.waitForLoadState('networkidle').catch(() => {});
+      await shot('00-inicio-preview', { full: true });
+    });
+    await paso('01-chapultepec', () => verSitio('01-chapultepec', 'Chapultepec'));
+    await paso('02-centro', () => verSitio('02-centro', 'Centro Hist'));
+  },
+});
+
 await browser.close();
 fs.writeFileSync(path.join(out, 'RESULTADO.txt'), resultados.join('\n') + '\n');
 console.log(resultados.join('\n'));

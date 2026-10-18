@@ -9,8 +9,12 @@ export interface SiteSummary {
   description: string;
   highlights_count: number;
   total_stops: number;
-  status?: 'active' | 'coming_soon';
+  /** "preview" = sitio aún sin publicar: solo aparece en el inicio con ?preview en la dirección. */
+  status?: 'active' | 'coming_soon' | 'preview';
   pass_price_mxn?: number;
+  /** Foto de portada (archivo en public/images/pieces) y la pieza a la que pertenece. */
+  cover_image?: string;
+  cover_piece_id?: string;
 }
 
 export interface MapCoords {
