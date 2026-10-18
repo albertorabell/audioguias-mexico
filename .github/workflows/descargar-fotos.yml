@@ -1,0 +1,98 @@
+name: Descargar fotos de un sitio (botón manual)
+
+# Pestaña Actions > "Descargar fotos de un sitio" > Run workflow.
+# Lee las columnas foto_url e image_filename de la hoja del sitio, revisa la licencia en Wikimedia Commons
+# (solo dominio público, CC0, CC BY y CC BY-SA) y baja cada foto como .webp a public/images/pieces.
+# Con "plan" marcado (lo normal la primera vez) solo revisa y avisa; no baja nada.
+# Sin plan, deja las fotos nuevas en una rama aparte (fotos-<sitio>) para revisarlas antes de mezclar con main.
+on:
+  workflow_dispatch:
+    inputs:
+      sitio:
+        description: 'Id del sitio en la hoja CONTROL (por ejemplo centro_historico)'
+        type: string
+        default: 'centro_historico'
+      plan:
+        description: 'Solo revisar licencias y fotos (no baja nada)'
+        type: boolean
+        default: true
+      forzar:
+        description: 'Volver a bajar aunque la foto ya exista'
+        type: boolean
+        default: false
+      buscar:
+        description: 'En vez de descargar, BUSCAR candidatas en Commons para elegir (deja hojas de contacto en la rama fotos-candidatas)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+env:
+  GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+
+concurrency:
+  group: descargar-fotos-${{ inputs.sitio }}
+  cancel-in-progress: false
+
+jobs:
+  fotos:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar sharp (convierte a webp; no se guarda en el proyecto)
+        if: ${{ !inputs.plan || inputs.buscar }}
+        run: npm install --no-save --no-audit --no-fund sharp
+
+      - name: Buscar candidatas (solo con la casilla buscar)
+        if: ${{ inputs.buscar }}
+        env:
+          SITIO: ${{ inputs.sitio }}
+        run: |
+          set -o pipefail
+          archivo="scripts/fotos/consultas-${SITIO//_/-}.json"
+          node scripts/buscar-fotos.mjs --consultas "$archivo" --salida candidatas
+          git config user.name "fotos-bot"
+          git config user.email "fotos-bot@users.noreply.github.com"
+          git checkout -q --orphan fotos-candidatas
+          git rm -rfq --cached . > /dev/null 2>&1 || true
+          git add -f candidatas
+          git commit -qm "Fotos candidatas de $SITIO"
+          git push -f origin fotos-candidatas
+          echo "::notice::Candidatas subidas a la rama fotos-candidatas."
+
+      - name: Revisar y descargar
+        if: ${{ !inputs.buscar }}
+        env:
+          SITIO: ${{ inputs.sitio }}
+          PLAN: ${{ inputs.plan }}
+          FORZAR: ${{ inputs.forzar }}
+        run: |
+          set -o pipefail
+          args=(--sitio "$SITIO")
+          if [ "$PLAN" = "true" ]; then args+=(--plan); fi
+          if [ "$FORZAR" = "true" ]; then args+=(--forzar); fi
+          node scripts/descargar-fotos.mjs "${args[@]}"
+
+      - name: Guardar las fotos nuevas en una rama aparte
+        if: ${{ !inputs.plan && !inputs.buscar }}
+        env:
+          SITIO: ${{ inputs.sitio }}
+        run: |
+          rama="fotos-$SITIO"
+          git config user.name "fotos-bot"
+          git config user.email "fotos-bot@users.noreply.github.com"
+          git checkout -q -B "$rama"
+          git add public/images/pieces
+          if git diff --cached --quiet; then
+            echo "::notice::No hay fotos nuevas que guardar."
+            exit 0
+          fi
+          git commit -qm "Fotos de $SITIO (descargadas de Wikimedia Commons con licencia abierta)"
+          git push -f origin "$rama"
+          echo "::notice::Fotos subidas a la rama $rama. Revísalas y abre un PR hacia main."
