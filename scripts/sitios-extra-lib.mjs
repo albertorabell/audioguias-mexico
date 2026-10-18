@@ -111,3 +111,24 @@ export function mezclarSites(actual, nuevas) {
   }
   return lista;
 }
+
+/**
+ * Pone nombre, duración y descripciones (es/en/fr/pl) de la pestaña RUTAS sobre recorridos que ya existen en el código
+ * (MNA y Teotihuacán). Se enlaza por la columna `ruta` = id del recorrido ("ruta-monumental") o su clave ("express").
+ * Solo pisa lo que la celda trae lleno; las paradas no cambian. Devuelve los recorridos y las claves que no encontró.
+ */
+export function aplicarDefiniciones(rutas, defs, claveDe = () => '') {
+  const usadas = new Set();
+  const salida = rutas.map((r) => {
+    const d = defs.find((x) => x.key === r.id || x.id === r.id || (claveDe(r) && x.key === claveDe(r)));
+    if (!d) return r;
+    usadas.add(d.key);
+    const nueva = { ...r };
+    for (const campo of ['name', 'duration', 'description', 'name_en', 'name_fr', 'name_pl', 'description_en', 'description_fr', 'description_pl']) {
+      if (d[campo]) nueva[campo] = d[campo];
+    }
+    if (d.estimated_minutes > 0) nueva.estimated_minutes = d.estimated_minutes;
+    return nueva;
+  });
+  return { rutas: salida, sinUsar: defs.filter((d) => !usadas.has(d.key)).map((d) => d.key) };
+}
