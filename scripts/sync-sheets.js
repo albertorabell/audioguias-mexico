@@ -21,9 +21,26 @@ import { MODES, AUDIO_LANGS, scriptFor, textHash } from './audio-lib.mjs';
 import { applyStoredTranslations } from './traducir-lib.mjs';
 import { splitPiece, writePrivate } from './privado-lib.mjs';
 import { linkIds, hasBrokenLink } from '../src/utils/pieceLinks.js';
+import { hayClave, leerPestana } from './google-sheets-lib.mjs';
 
 // ===== CONFIGURACIÓN (lo único que normalmente se toca) =====================
 const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
+
+// FUENTE NUEVA (en prueba): los Sheets de cada sitio viven en la carpeta "Audioguías México" y se leen en privado
+// con el robot de Google. La lista de sitios sale del Sheet CONTROL. Se activa con SYNC_FUENTE=nueva.
+// Mientras no se active, todo sigue leyéndose del Sheet de siempre.
+const CONTROL_ID = process.env.CONTROL_SHEET_ID || '1e4BQCAULQq6zABdMTD0trSpuzknPTV3ZS9gzp6Qx93Q';
+const FUENTE_NUEVA = process.env.SYNC_FUENTE === 'nueva';
+const KIND_SITE = { salas: ['mna', 'SALAS'], piezas: ['mna', 'PIEZAS'], teo_salas: ['teotihuacan', 'SALAS'], teo_piezas: ['teotihuacan', 'PIEZAS'] };
+let sitiosCache = null;
+async function sitiosDeControl() {
+  if (!sitiosCache) {
+    if (!hayClave()) throw new Error('SYNC_FUENTE=nueva necesita el secreto GOOGLE_SERVICE_ACCOUNT_JSON.');
+    const rows = await leerPestana(CONTROL_ID, 'SITIOS');
+    sitiosCache = new Map(toObjects(rows).items.map((s) => [s.site_id, s]));
+  }
+  return sitiosCache;
+}
 
 // Nombres de las pestañas. Se prueba en orden hasta encontrar la que tiene las columnas correctas.
 const TAB_NAMES = {
@@ -273,6 +290,19 @@ async function loadTab(kind) {
     if (kind.startsWith('teo_') && !fs.existsSync(file)) return null;
     const parsed = toObjects(parseCsv(fs.readFileSync(file, 'utf-8')));
     return checkColumns(kind, file, parsed);
+  }
+  if (FUENTE_NUEVA) {
+    const [siteId, tab] = KIND_SITE[kind];
+    const sitio = (await sitiosDeControl()).get(siteId);
+    if (!sitio || !sitio.sheet_id) throw new Error(`El sitio "${siteId}" no está en la hoja CONTROL (pestaña SITIOS) o no tiene sheet_id.`);
+    const parsed = toObjects(await leerPestana(sitio.sheet_id, tab));
+    // Columna "publicar": solo sale en la app lo que dice SI. Si la columna no existe, sale todo.
+    if (parsed.headers.includes('publicar')) {
+      const antes = parsed.items.length;
+      parsed.items = parsed.items.filter((it) => String(it.publicar || '').trim().toUpperCase() === 'SI');
+      if (antes !== parsed.items.length) console.log(`   (${siteId}/${tab}: ${antes - parsed.items.length} fila(s) ocultas por publicar≠SI)`);
+    }
+    return checkColumns(kind, `${siteId}/${tab}`, parsed);
   }
   const problems = [];
   for (const name of TAB_NAMES[kind]) {

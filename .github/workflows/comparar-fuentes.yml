@@ -1,0 +1,50 @@
+name: Comparar fuente vieja y nueva de datos
+
+# Prueba sin riesgo: lee los datos de las dos formas (Sheet de siempre y Sheets nuevos de la carpeta,
+# leídos en privado con el robot de Google), y compara lo que saldría publicado. No guarda ni publica nada.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  comparar:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+
+      - name: Leer con la fuente VIEJA
+        run: |
+          node scripts/sync-sheets.js
+          mkdir -p "$RUNNER_TEMP/vieja"
+          cp -r public/data "$RUNNER_TEMP/vieja/data"
+          [ -d datos-privados ] && cp -r datos-privados "$RUNNER_TEMP/vieja/privados" || true
+
+      - name: Leer con la fuente NUEVA (privada, con el robot)
+        env:
+          SYNC_FUENTE: nueva
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          node scripts/sync-sheets.js
+          mkdir -p "$RUNNER_TEMP/nueva"
+          cp -r public/data "$RUNNER_TEMP/nueva/data"
+          [ -d datos-privados ] && cp -r datos-privados "$RUNNER_TEMP/nueva/privados" || true
+
+      - name: Comparar
+        run: |
+          if diff -rq "$RUNNER_TEMP/vieja" "$RUNNER_TEMP/nueva" > "$RUNNER_TEMP/dif.txt"; then
+            echo "::notice title=Comparación::IDÉNTICOS. Los datos de la fuente nueva son iguales a los de la vieja ($(find "$RUNNER_TEMP/vieja" -type f | wc -l) archivos)."
+          else
+            n=$(wc -l < "$RUNNER_TEMP/dif.txt")
+            echo "::error title=Comparación::HAY DIFERENCIAS en $n archivo(s): $(head -c 600 "$RUNNER_TEMP/dif.txt" | tr '\n' ' ')"
+            for f in $(diff -rq "$RUNNER_TEMP/vieja" "$RUNNER_TEMP/nueva" | grep '^Files' | awk '{print $2}' | head -5); do
+              g="${f/vieja/nueva}"
+              echo "::warning title=Primeras líneas distintas en $(basename "$f")::$(diff "$f" "$g" | head -c 500 | tr '\n' ' ')"
+            done
+            exit 1
+          fi
