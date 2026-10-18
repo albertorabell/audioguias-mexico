@@ -1,0 +1,60 @@
+name: Respaldo semanal
+
+# Cada domingo (4 a.m. hora de CDMX) guarda copias de seguridad:
+#  - Drive: todos los textos de todos los idiomas, en el Sheet "RESPALDO - Textos todos los idiomas"
+#  - Cloudflare R2 (bucket audioguias-respaldo): un .tar.gz con textos, traducciones, imágenes y datos (se guardan los últimos 8)
+#  - Cloudflare R2: copia de todos los MP3 (solo copia los nuevos o cambiados)
+# No cambia nada del sitio ni de los Sheets de trabajo. También se puede lanzar a mano.
+on:
+  schedule:
+    - cron: '0 10 * * 0'
+  workflow_dispatch:
+    inputs:
+      textos:
+        description: 'Escribir los textos en el Sheet de respaldo de Drive'
+        type: boolean
+        default: true
+      archivo:
+        description: 'Subir el .tar.gz (textos, imágenes y datos) a R2'
+        type: boolean
+        default: true
+      audio:
+        description: 'Copiar los MP3 que falten al bucket de respaldo'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+env:
+  GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+  CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+  CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+concurrency:
+  group: respaldo-semanal
+  cancel-in-progress: false
+
+jobs:
+  respaldo:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - name: Leer los datos actuales (Sheets de la carpeta + traducciones guardadas)
+        run: node scripts/sync-sheets.js
+      - name: Respaldar
+        env:
+          TEXTOS: ${{ github.event_name == 'schedule' && 'true' || inputs.textos }}
+          ARCHIVO: ${{ github.event_name == 'schedule' && 'true' || inputs.archivo }}
+          AUDIO: ${{ github.event_name == 'schedule' && 'true' || inputs.audio }}
+        run: |
+          args=()
+          [ "$TEXTOS" = "true" ] && args+=(--textos)
+          [ "$ARCHIVO" = "true" ] && args+=(--archivo)
+          [ "$AUDIO" = "true" ] && args+=(--audio)
+          node scripts/respaldo.mjs "${args[@]}"

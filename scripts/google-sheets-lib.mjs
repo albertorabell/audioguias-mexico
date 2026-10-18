@@ -63,3 +63,34 @@ export async function leerPestana(spreadsheetId, pestana) {
   const ancho = filas.reduce((m, f) => Math.max(m, f.length), 0);
   return filas.map((f) => Array.from({ length: ancho }, (_, i) => String(f[i] ?? '')));
 }
+
+async function apiEscribir(url, metodo, cuerpo) {
+  let ultimo;
+  for (let intento = 1; intento <= 3; intento++) {
+    try {
+      const token = await pedirToken('https://www.googleapis.com/auth/spreadsheets');
+      const res = await fetch(url, { method: metodo, headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify(cuerpo), signal: AbortSignal.timeout(120000) });
+      if (res.ok) return await res.json();
+      const txt = await res.text();
+      ultimo = new Error(`HTTP ${res.status}: ${txt.slice(0, 300)}`);
+      if (res.status < 500 && res.status !== 429) throw Object.assign(ultimo, { fatal: true });
+    } catch (e) {
+      if (e.fatal) throw e;
+      ultimo = e;
+    }
+    if (intento < 3) await new Promise((r) => setTimeout(r, 3000 * intento));
+  }
+  throw ultimo;
+}
+
+/** Borra una pestaña y la vuelve a llenar con `filas` (texto tal cual, sin interpretar fórmulas). La hoja debe tener filas de sobra. */
+export async function reemplazarPestana(spreadsheetId, pestana, filas, tamanoLote = 1500) {
+  const q = encodeURIComponent(`'${pestana.replace(/'/g, "''")}'`);
+  const base = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values`;
+  await apiEscribir(`${base}/${q}:clear`, 'POST', {});
+  for (let i = 0; i < filas.length; i += tamanoLote) {
+    const lote = filas.slice(i, i + tamanoLote);
+    const rango = encodeURIComponent(`'${pestana.replace(/'/g, "''")}'!A${i + 1}`);
+    await apiEscribir(`${base}/${rango}?valueInputOption=RAW`, 'PUT', { majorDimension: 'ROWS', values: lote });
+  }
+}
