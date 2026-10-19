@@ -15,7 +15,7 @@ import { sameLinks, hasBrokenLink } from '../src/utils/pieceLinks.js';
 // ---------------------------------------------------------------------------
 // Qué se traduce
 // ---------------------------------------------------------------------------
-export const PIECE_FIELDS = ['titulo', 'frase_gancho', 'puente_narrativo', 'guion_corto', 'guion_largo', 'retos_observacion', 'especificaciones', 'faq_mito'];
+export const PIECE_FIELDS = ['titulo', 'frase_gancho', 'puente_narrativo', 'como_llegar', 'guion_corto', 'guion_largo', 'retos_observacion', 'especificaciones', 'faq_mito'];
 export const ROOM_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narrativa'];
 export const SPOKEN_FIELDS = ['guion_corto', 'guion_largo'];
 

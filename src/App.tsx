@@ -11,6 +11,7 @@ import { MapScreen } from './components/MapScreen';
 import { SearchScreen } from './components/SearchScreen';
 import { RoomView } from './components/RoomView';
 import { PieceDetail, NextInfo } from './components/PieceDetail';
+import { walkingMapsUrl } from './utils/maps';
 import { RouteWizard } from './components/RouteWizard';
 import { PaywallModal } from './components/PaywallModal';
 import { TourCompletionView } from './components/TourCompletionView';
@@ -571,6 +572,8 @@ export default function App() {
         detail: nav.kind === 'tour' && nr ? roomTitle(nr) : np.frase_gancho,
         imageFilename: np.image_filename,
         pieceId: np.piece_id,
+        howTo: np.como_llegar && np.como_llegar_desde === currentPiece.piece_id ? np.como_llegar : '',
+        mapsUrl: walkingMapsUrl(np),
       };
     }
     if (nav.kind === 'tour') return { kind: 'finish', eyebrow: u.piece.lastStop, title: u.piece.finishTour };
@@ -586,6 +589,14 @@ export default function App() {
       pieceId: first?.piece_id,
     };
   }, [nav, currentPiece, pieceById, roomById, piecesByRoom, roomOrder, u]);
+
+  // Primera parada de un recorrido: cómo llegar a ella (el texto solo vale si está escrito "desde la entrada", es decir, sin parada de origen)
+  const arrival = useMemo(() => {
+    if (!nav || nav.kind !== 'tour' || nav.index !== 0 || !currentPiece) return null;
+    const text = currentPiece.como_llegar && !currentPiece.como_llegar_desde ? currentPiece.como_llegar : '';
+    const mapsUrl = walkingMapsUrl(currentPiece);
+    return text || mapsUrl ? { text, mapsUrl } : null;
+  }, [nav, currentPiece]);
 
   const continueInfo: ContinueInfo | null = useMemo(() => {
     if (activeTour) {
@@ -801,6 +812,7 @@ export default function App() {
           onPrev={nav.index > 0 ? goPrev : undefined}
           onNext={nextInfo ? goNext : undefined}
           next={nextInfo}
+          arrival={arrival}
           siblings={siblings}
           onSelectSibling={(id) => {
             const next = roomNavFor(id);
