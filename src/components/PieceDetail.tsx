@@ -267,7 +267,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         onTitleClick={onContextClick}
         right={
           <>
-            <button type="button" id="btn-piece-help" onClick={() => setTourOpen(true)} aria-label={strings.intro.pieceOpenLabel} className="btn-icon text-ink-2">
+            <button type="button" id="btn-piece-help" onClick={() => setTourOpen(true)} aria-label={strings.intro.pieceOpenLabel} className="btn-icon text-ink-2 max-[339px]:hidden">
               <CircleHelp className="w-5 h-5" strokeWidth={1.9} />
             </button>
             <button type="button" id="btn-nav-quick-search" onClick={onOpenSearch} aria-label={strings.chrome.nav.searchAria} className="btn-icon text-ink-2">

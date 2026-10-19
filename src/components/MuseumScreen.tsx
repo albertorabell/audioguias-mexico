@@ -242,7 +242,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
             </div>
           )}
 
-          <ul className="mt-2" id="rooms-list">
+          <ul className="mt-2 md:grid md:grid-cols-2 md:gap-x-2" id="rooms-list">
             {floorRooms.map((room) => {
               const list = piecesByRoom.get(room.room_id) || [];
               const cover = list[0];

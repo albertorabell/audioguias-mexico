@@ -826,14 +826,14 @@ export default function App() {
     <ErrorBoundary>
       <div className="min-h-dvh w-full bg-bg text-ink sm:bg-[radial-gradient(circle_at_50%_0%,var(--c-raised),var(--c-bg)_60%)]">
         <OfflineIndicator />
-        <div className="relative w-full max-w-[480px] mx-auto min-h-dvh bg-bg sm:border-x sm:border-line">
+        <div className="relative w-full max-w-[var(--app-w)] mx-auto min-h-dvh bg-bg sm:border-x sm:border-line">
           {(paymentNotice || errorMessage) && (
             <div className="fixed top-[calc(env(safe-area-inset-top,0px)+0.5rem)] inset-x-0 z-[60] px-3 pointer-events-none">
               {paymentNotice && (
                 <div
                   role="status"
                   data-testid="payment-notice"
-                  className={`pointer-events-auto max-w-[456px] mx-auto mb-2 p-3.5 pr-1.5 rounded-2xl border flex items-start gap-3 shadow-2xl shadow-black/40 bg-raised animate-fadeIn ${
+                  className={`pointer-events-auto max-w-[calc(var(--app-w)-24px)] mx-auto mb-2 p-3.5 pr-1.5 rounded-2xl border flex items-start gap-3 shadow-2xl shadow-black/40 bg-raised animate-fadeIn ${
                     paymentNotice.kind === 'success' ? 'border-jade/60' : paymentNotice.kind === 'error' ? 'border-tezontle/60' : 'border-line-strong'
                   }`}
                 >
@@ -844,7 +844,7 @@ export default function App() {
                 </div>
               )}
               {errorMessage && (
-                <div className="pointer-events-auto max-w-[456px] mx-auto p-3.5 pr-1.5 rounded-2xl border border-tezontle/60 bg-raised flex items-start gap-3 shadow-2xl shadow-black/40 animate-fadeIn">
+                <div className="pointer-events-auto max-w-[calc(var(--app-w)-24px)] mx-auto p-3.5 pr-1.5 rounded-2xl border border-tezontle/60 bg-raised flex items-start gap-3 shadow-2xl shadow-black/40 animate-fadeIn">
                   <span className="flex-1 text-ui font-semibold text-ink pt-0.5">{errorMessage}</span>
                   <button type="button" onClick={() => setErrorMessage(null)} aria-label={t.app.dismissAria} className="btn-icon -my-2 text-ink-3 shrink-0">
                     <X className="w-4 h-4" />
