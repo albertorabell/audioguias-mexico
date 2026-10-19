@@ -150,7 +150,7 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
                   <div className="p-4">
                     <h3 className="text-[1.125rem] font-bold leading-snug">{route.name}</h3>
                     <p className="mt-1 text-cap text-ink-3">{u.routeMeta(formatRouteDuration(minutes), route.stops.length)}</p>
-                    {route.description && <p className="mt-2 text-ui leading-relaxed text-ink-2 line-clamp-2">{route.description}</p>}
+                    {route.description && <p className="mt-2 text-ui leading-relaxed text-ink-2 text-pretty">{route.description}</p>}
                     <button
                       type="button"
                       onClick={() => (running ? onContinueTour() : onStartRoute(route))}
