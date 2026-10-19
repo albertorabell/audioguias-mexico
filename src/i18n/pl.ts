@@ -358,6 +358,7 @@ export const PL_GROUPS: Record<string, any> = {
       resume: 'Dalej',
       again: 'Jeszcze raz',
       unlock: 'Odblokuj audio',
+      speedAria: 'Prędkość głosu',
       prev: 'Poprzednie dzieło',
       next: 'Następne dzieło',
       finish: 'Zakończ trasę',
