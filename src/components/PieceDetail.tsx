@@ -565,6 +565,8 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
         nextHighlighted={finished}
         prevLabel={u.piece.prev}
         nextLabel={next?.kind === 'finish' ? u.piece.finish : u.piece.next}
+        speed={tts.playbackRate}
+        onSpeed={(r) => ttsPlayer.setPlaybackRate(r)}
       />
 
       <PieceTour open={tourOpen} onClose={() => setTourOpen(false)} />

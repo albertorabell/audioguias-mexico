@@ -14,6 +14,19 @@ import { getCurrentLanguage } from '../i18n/runtime';
 import { getStrings } from '../i18n';
 import { SupportedLanguage, SPEECH_LOCALE } from '../i18n/languages';
 
+/** Velocidades que ofrece la app. La elegida se recuerda en este teléfono. */
+export const PLAYBACK_RATES = [0.75, 1, 1.5, 2] as const;
+const RATE_KEY = 'audioguias_velocidad';
+
+function loadSavedRate(): number {
+  try {
+    const n = Number(localStorage.getItem(RATE_KEY));
+    return (PLAYBACK_RATES as readonly number[]).includes(n) ? n : 1.0;
+  } catch {
+    return 1.0;
+  }
+}
+
 export interface TTSState {
   isPlaying: boolean;
   isPaused: boolean;
@@ -50,7 +63,7 @@ class TTSPlayer {
   private currentScript = '';
   private currentPieceId?: string;
   private audioMode: 'expres' | 'inmersion' = 'expres';
-  private playbackRate = 1.0;
+  private playbackRate = loadSavedRate();
   private currentTime = 0;
   private estimatedDuration = 60;
   private timer: any = null;
@@ -413,6 +426,9 @@ class TTSPlayer {
         }
         audio.src = rawAudioUrl;
         this.htmlAudio = audio;
+        // Al acelerar o frenar, la voz no cambia de tono
+        (audio as any).preservesPitch = true;
+        (audio as any).webkitPreservesPitch = true;
         audio.playbackRate = this.playbackRate;
 
         audio.onloadedmetadata = () => {
@@ -740,6 +756,11 @@ class TTSPlayer {
 
   public setPlaybackRate(rate: number): void {
     this.playbackRate = Math.max(0.5, Math.min(2.0, rate));
+    try {
+      localStorage.setItem(RATE_KEY, String(this.playbackRate));
+    } catch {
+      /* sin almacenamiento */
+    }
     if (this.isHtmlAudio && this.htmlAudio) {
       this.htmlAudio.playbackRate = this.playbackRate;
     }

@@ -1,6 +1,10 @@
 import React from 'react';
 import { ChevronLeft, ChevronRight, Lock, Pause, Play, Flag, RotateCcw } from 'lucide-react';
 import { useStrings } from '../utils/LanguageContext';
+import { PLAYBACK_RATES } from '../utils/ttsPlayer';
+
+/** 0.75 → "0.75×", 1 → "1×" */
+const rateLabel = (r: number) => `${r}×`;
 
 interface PieceDockProps {
   /** El audio de esta pieza está sonando. */
@@ -21,6 +25,9 @@ interface PieceDockProps {
   nextHighlighted?: boolean;
   prevLabel: string;
   nextLabel: string;
+  /** Velocidad actual de la voz (0.75, 1, 1.5 o 2) y cómo cambiarla. Sin esto la fila no aparece. */
+  speed?: number;
+  onSpeed?: (rate: number) => void;
 }
 
 /**
@@ -41,6 +48,8 @@ export const PieceDock: React.FC<PieceDockProps> = ({
   nextHighlighted,
   prevLabel,
   nextLabel,
+  speed = 1,
+  onSpeed,
 }) => {
   const u = useStrings().ui.piece;
   const pct = Math.max(0, Math.min(100, progress * 100));
@@ -50,6 +59,33 @@ export const PieceDock: React.FC<PieceDockProps> = ({
       id="piece-dock"
       className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[480px] z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line"
     >
+      {onSpeed && !locked && (
+        <div
+          id="speed-control"
+          role="group"
+          aria-label={u.speedAria}
+          className="max-w-[480px] mx-auto px-3 pt-2 flex items-center justify-center gap-1.5"
+        >
+          {PLAYBACK_RATES.map((r) => {
+            const on = Math.abs(speed - r) < 0.001;
+            return (
+              <button
+                key={r}
+                id={`btn-speed-${String(r).replace('.', '_')}`}
+                type="button"
+                onClick={() => onSpeed(r)}
+                aria-pressed={on}
+                aria-label={`${u.speedAria}: ${rateLabel(r)}`}
+                className={`h-7 min-w-[3.25rem] px-2 rounded-full text-cap font-bold tabular-nums transition-colors ${
+                  on ? 'bg-jade text-on-jade' : 'bg-raised text-ink-2 border border-line'
+                }`}
+              >
+                {rateLabel(r)}
+              </button>
+            );
+          })}
+        </div>
+      )}
       <div className="max-w-[480px] mx-auto h-[4.5rem] px-3 flex items-center gap-2">
         <button
           id="btn-piece-prev-stop"

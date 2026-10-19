@@ -607,3 +607,37 @@ test('enlaces: la voz lee solo el texto visible (nunca la marca ni el identifica
   expect(dicho).not.toMatch(/mna_s|\]\(|\[/);
   expect(dicho).not.toContain(ENLACE_ROTO);
 });
+
+test('velocidad de la voz: 0.75×, 1×, 1.5× y 2×; se aplica al MP3, se marca la elegida y se recuerda al volver', async ({ page }) => {
+  await simularCobro(page);
+  await simularAudio(page);
+  await sinVoces(page);
+  await page.addInitScript(() => {
+    window.__rates = [];
+    const original = HTMLMediaElement.prototype.play;
+    HTMLMediaElement.prototype.play = function (...args) {
+      window.__rates.push(this.playbackRate);
+      return original.apply(this, args);
+    };
+  });
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  const control = page.locator('#speed-control');
+  await expect(control.getByRole('button')).toHaveText(['0.75×', '1×', '1.5×', '2×']);
+  // Por defecto: 1×
+  await expect(page.locator('#btn-speed-1')).toHaveAttribute('aria-pressed', 'true');
+  await page.locator('#btn-speed-1_5').click();
+  await expect(page.locator('#btn-speed-1_5')).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.locator('#btn-speed-1')).toHaveAttribute('aria-pressed', 'false');
+  await page.locator('#btn-master-play-piece').click();
+  await expect.poll(() => page.evaluate(() => window.__rates.length)).toBeGreaterThan(0);
+  expect(await page.evaluate(() => window.__rates[0])).toBe(1.5);
+  // Cambiarla con el audio sonando
+  await page.locator('#btn-speed-2').click();
+  await expect(page.locator('#btn-speed-2')).toHaveAttribute('aria-pressed', 'true');
+  // Se recuerda al recargar
+  await page.reload();
+  await abrirPieza(page, FREE.title);
+  await expect(page.locator('#btn-speed-2')).toHaveAttribute('aria-pressed', 'true');
+  expect(await page.evaluate(() => localStorage.getItem('audioguias_velocidad'))).toBe('2');
+});
