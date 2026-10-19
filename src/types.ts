@@ -72,6 +72,8 @@ export interface PieceBase {
   como_llegar_desde?: string;
   lat?: number;
   lng?: number;
+  /** Nombre del lugar para buscarlo en el mapa cuando no hay coordenadas (p. ej. "Palacio de Bellas Artes, Ciudad de México"). */
+  lugar_mapa?: string;
   guion_corto: string;
   guion_largo: string;
   retos_observacion: string[]; // Viene de celda separada por ' | '

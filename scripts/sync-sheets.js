@@ -449,6 +449,7 @@ function buildPieces(items, opts = {}) {
         // Cómo llegar a esta parada: texto a pie, desde qué parada (vacío = desde la entrada o punto de inicio) y coordenadas para abrir el mapa
         como_llegar: (p.como_llegar || '').trim(),
         como_llegar_desde: (p.como_llegar_desde || '').trim(),
+        lugar_mapa: (p.lugar_mapa || '').trim(),
         ...coordenadas(p),
         guion_corto: p.guion_corto,
         guion_largo: p.guion_largo,
