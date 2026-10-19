@@ -13,6 +13,7 @@ const PIECE_FIELDS = [
   'titulo',
   'frase_gancho',
   'puente_narrativo',
+  'como_llegar',
   'avance',
   'guion_corto',
   'guion_largo',

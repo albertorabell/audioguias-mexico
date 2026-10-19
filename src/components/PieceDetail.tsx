@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { AlertCircle, Check, ChevronRight, CircleHelp, Lock, Maximize2, Search, X, AudioLines, Smartphone, Flag } from 'lucide-react';
+import { AlertCircle, Check, ChevronRight, CircleHelp, Lock, Maximize2, Search, X, AudioLines, Smartphone, Flag, Footprints } from 'lucide-react';
 import { Piece, PieceData, SpecItem, PieceSpecsObject } from '../types';
 import { PieceImage } from './PieceImage';
 import { ImageZoomModal } from './ImageZoomModal';
@@ -24,6 +24,31 @@ export interface NextInfo {
   detail?: string;
   imageFilename?: string;
   pieceId?: string;
+  /** Cómo caminar desde la parada actual hasta esta (texto del Sheet; vacío si no se conoce desde aquí). */
+  howTo?: string;
+  /** Enlace para abrir el camino a pie en el mapa del teléfono (solo si la parada tiene coordenadas). */
+  mapsUrl?: string;
+}
+
+/** Cómo llegar a una parada: texto a pie y botón al mapa. Sin ninguno de los dos no se muestra. */
+function HowToGet({ title, text, mapsUrl, id }: { title: string; text?: string; mapsUrl?: string; id: string }) {
+  const { strings } = useLanguage();
+  const u = (strings as any).ui;
+  if (!text && !mapsUrl) return null;
+  return (
+    <div id={id} className="mt-4 rounded-2xl bg-raised border border-line p-4">
+      <p className="flex items-center gap-2 text-cap font-semibold text-jade">
+        <Footprints className="w-4 h-4" strokeWidth={2.25} />
+        {title}
+      </p>
+      {text && <p className="mt-2 text-ui leading-relaxed text-ink">{text}</p>}
+      {mapsUrl && (
+        <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary w-full mt-3">
+          {u.piece.mapsBtn}
+        </a>
+      )}
+    </div>
+  );
 }
 
 interface PieceDetailProps {
@@ -43,6 +68,8 @@ interface PieceDetailProps {
   onPrev?: () => void;
   onNext?: () => void;
   next?: NextInfo | null;
+  /** Primera parada del recorrido: cómo llegar a ella antes de empezar. */
+  arrival?: { text?: string; mapsUrl?: string } | null;
   /** Otras piezas de la misma sala (se muestran solo dentro de un recorrido). */
   siblings?: PieceData[];
   onSelectSibling?: (pieceId: string) => void;
@@ -88,6 +115,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
   onPrev,
   onNext,
   next,
+  arrival,
   siblings = [],
   onSelectSibling,
   resolvePiece,
@@ -348,6 +376,12 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
           )}
         </header>
 
+        {arrival && (
+          <div className="px-5">
+            <HowToGet id="how-to-start" title={u.piece.startTitle} text={arrival.text} mapsUrl={arrival.mapsUrl} />
+          </div>
+        )}
+
         {/* Versión: lo que se lee es lo que se escucha */}
         <section className="px-5 mt-6" aria-label={u.piece.versionAria}>
           {!sameText && (
@@ -524,6 +558,9 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               </span>
               <ChevronRight className="w-5 h-5 text-jade shrink-0" />
             </button>
+            {next.kind === 'piece' && (
+              <HowToGet id="how-to-next" title={u.piece.howTitle} text={next.howTo || (next.mapsUrl ? u.piece.goToward(next.title) : undefined)} mapsUrl={next.mapsUrl} />
+            )}
           </section>
         )}
 

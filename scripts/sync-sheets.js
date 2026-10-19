@@ -223,7 +223,7 @@ const AUDIO_MANIFEST = path.join(AUDIO_DIR, 'manifest.json');
 // Idiomas con columnas opcionales de traducción (p. ej. guion_corto_en). Si la columna no existe o la celda va vacía,
 // la app muestra el texto en español. No se inventa ninguna traducción.
 const TRANSLATION_LANGS = ['en', 'fr', 'pl', 'ru', 'ja'];
-const PIECE_TEXT_FIELDS = ['titulo', 'frase_gancho', 'puente_narrativo', 'guion_corto', 'guion_largo'];
+const PIECE_TEXT_FIELDS = ['titulo', 'frase_gancho', 'puente_narrativo', 'como_llegar', 'guion_corto', 'guion_largo'];
 const ROOM_TEXT_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narrativa', 'etiqueta'];
 
 /** Lee un CSV completo (respeta comillas, comas y saltos de línea dentro de una celda). */
@@ -413,6 +413,15 @@ function buildRooms(items, opts = {}) {
   return rooms;
 }
 
+/** lat y lng de la pieza (columnas opcionales). Solo salen si son números dentro de México. */
+function coordenadas(p) {
+  const lat = parseFloat(String(p.lat ?? '').replace(',', '.'));
+  const lng = parseFloat(String(p.lng ?? '').replace(',', '.'));
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return {};
+  if (lat < 14 || lat > 33 || lng < -119 || lng > -86) return {};
+  return { lat, lng };
+}
+
 function buildPieces(items, opts = {}) {
   return items
     .filter((p) => p.piece_id)
@@ -437,6 +446,10 @@ function buildPieces(items, opts = {}) {
         title: p.titulo,
         frase_gancho: p.frase_gancho || '',
         puente_narrativo: p.puente_narrativo || '',
+        // Cómo llegar a esta parada: texto a pie, desde qué parada (vacío = desde la entrada o punto de inicio) y coordenadas para abrir el mapa
+        como_llegar: (p.como_llegar || '').trim(),
+        como_llegar_desde: (p.como_llegar_desde || '').trim(),
+        ...coordenadas(p),
         guion_corto: p.guion_corto,
         guion_largo: p.guion_largo,
         retos_observacion: retos,

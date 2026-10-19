@@ -67,6 +67,11 @@ export interface PieceBase {
   titulo: string;
   frase_gancho: string;
   puente_narrativo: string;
+  /** Cómo llegar a esta parada a pie (texto), desde qué parada (vacío = desde la entrada) y coordenadas para abrir el mapa. */
+  como_llegar?: string;
+  como_llegar_desde?: string;
+  lat?: number;
+  lng?: number;
   guion_corto: string;
   guion_largo: string;
   retos_observacion: string[]; // Viene de celda separada por ' | '
@@ -134,7 +139,7 @@ export interface PieceBase {
 
 /** Traducciones opcionales (columnas del Sheets con sufijo de idioma, p. ej. guion_corto_en). */
 export type TranslatedPieceFields = {
-  [K in `${'titulo' | 'frase_gancho' | 'puente_narrativo' | 'guion_corto' | 'guion_largo' | 'avance'}_${'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]?: string;
+  [K in `${'titulo' | 'frase_gancho' | 'puente_narrativo' | 'como_llegar' | 'guion_corto' | 'guion_largo' | 'avance'}_${'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]?: string;
 };
 
 /** Traducciones opcionales de salas. El sufijo _es guarda el original cuando la app muestra otro idioma. */
