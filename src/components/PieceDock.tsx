@@ -25,7 +25,7 @@ interface PieceDockProps {
   nextHighlighted?: boolean;
   prevLabel: string;
   nextLabel: string;
-  /** Velocidad actual de la voz (0.75, 1, 1.5 o 2) y cómo cambiarla. Sin esto la fila no aparece. */
+  /** Velocidad actual de la voz (0.75, 1, 1.5 o 2) y cómo cambiarla. Sin esto la fila no aparece (se ve también con la obra bloqueada, para poder elegirla de antemano). */
   speed?: number;
   onSpeed?: (rate: number) => void;
 }
@@ -59,7 +59,7 @@ export const PieceDock: React.FC<PieceDockProps> = ({
       id="piece-dock"
       className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[480px] z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line"
     >
-      {onSpeed && !locked && (
+      {onSpeed && (
         <div
           id="speed-control"
           role="group"
