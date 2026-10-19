@@ -29,9 +29,9 @@ export const TabBar: React.FC<TabBarProps> = ({ activeTab, onSelectTab, tourActi
     <nav
       id="museum-dock-bar"
       aria-label={t.aria}
-      className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[480px] z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line"
+      className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[var(--app-w)] z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line"
     >
-      <div className={`max-w-[480px] mx-auto grid ${tabs.length === 3 ? 'grid-cols-3' : 'grid-cols-4'} h-16`}>
+      <div className={`max-w-[var(--app-w)] mx-auto grid ${tabs.length === 3 ? 'grid-cols-3' : 'grid-cols-4'} h-16`}>
         {tabs.map(({ id, label, Icon }) => {
           const active = activeTab === id;
           return (

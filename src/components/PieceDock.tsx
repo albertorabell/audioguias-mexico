@@ -57,14 +57,14 @@ export const PieceDock: React.FC<PieceDockProps> = ({
   return (
     <div
       id="piece-dock"
-      className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[480px] z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line"
+      className="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[var(--app-w)] z-40 pb-safe bg-bg/94 backdrop-blur-xl border-t border-line"
     >
       {onSpeed && (
         <div
           id="speed-control"
           role="group"
           aria-label={u.speedAria}
-          className="max-w-[480px] mx-auto px-3 pt-2 flex items-center justify-center gap-1.5"
+          className="max-w-[var(--app-w)] mx-auto px-3 pt-2 flex items-center justify-center gap-1.5"
         >
           {PLAYBACK_RATES.map((r) => {
             const on = Math.abs(speed - r) < 0.001;
@@ -86,7 +86,7 @@ export const PieceDock: React.FC<PieceDockProps> = ({
           })}
         </div>
       )}
-      <div className="max-w-[480px] mx-auto h-[4.5rem] px-3 flex items-center gap-2">
+      <div className="max-w-[var(--app-w)] mx-auto h-[4.5rem] px-3 flex items-center gap-2">
         <button
           id="btn-piece-prev-stop"
           type="button"
@@ -114,7 +114,7 @@ export const PieceDock: React.FC<PieceDockProps> = ({
               aria-hidden="true"
             />
           )}
-          <span className="relative flex items-center justify-center gap-2 px-4 h-full">
+          <span className="relative flex items-center justify-center gap-2 px-2 min-[360px]:px-4 h-full">
             {locked ? (
               <>
                 <Lock className="w-4 h-4 shrink-0" strokeWidth={2.5} />

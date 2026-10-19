@@ -26,6 +26,14 @@
   --c-tezontle: #e07a5f;
   --c-scrim: rgba(10, 8, 7, 0.72);
   color-scheme: dark;
+  /* Ancho de la columna de la app: celular y pantallas chicas 480 px; tablet y computadora 720 px */
+  --app-w: 480px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --app-w: 720px;
+  }
 }
 
 .sun {

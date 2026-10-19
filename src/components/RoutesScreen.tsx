@@ -131,12 +131,12 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
           <h2 id="suggested-title" className="px-5 font-serif text-h3 font-medium">
             {tour ? u.routes.others : u.routes.suggested}
           </h2>
-          <div className="mt-3 px-5 space-y-3">
+          <div className="mt-3 px-5 grid gap-3 md:grid-cols-2">
             {sorted.map((route) => {
               const minutes = route.estimated_minutes || calculateRouteTimeMinutes(route.stops);
               const running = tour?.route.id === route.id;
               return (
-                <div key={route.id} className="rounded-2xl bg-surface border border-line overflow-hidden">
+                <div key={route.id} className="rounded-2xl bg-surface border border-line overflow-hidden flex flex-col">
                   <div className="grid grid-cols-4 gap-px bg-line h-24">
                     {route.stops.slice(0, 4).map((s) => {
                       const p = pieceById.get(stopId(s));
@@ -147,17 +147,19 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
                       );
                     })}
                   </div>
-                  <div className="p-4">
+                  <div className="p-4 flex-1 flex flex-col">
                     <h3 className="text-[1.125rem] font-bold leading-snug">{route.name}</h3>
                     <p className="mt-1 text-cap text-ink-3">{u.routeMeta(formatRouteDuration(minutes), route.stops.length)}</p>
                     {route.description && <p className="mt-2 text-ui leading-relaxed text-ink-2 text-pretty">{route.description}</p>}
-                    <button
-                      type="button"
-                      onClick={() => (running ? onContinueTour() : onStartRoute(route))}
-                      className={`${running ? 'btn-secondary' : 'btn-primary'} w-full mt-4`}
-                    >
-                      {running ? u.routes.continue : u.routes.start}
-                    </button>
+                    <div className="mt-auto pt-4">
+                      <button
+                        type="button"
+                        onClick={() => (running ? onContinueTour() : onStartRoute(route))}
+                        className={`${running ? 'btn-secondary' : 'btn-primary'} w-full`}
+                      >
+                        {running ? u.routes.continue : u.routes.start}
+                      </button>
+                    </div>
                   </div>
                 </div>
               );

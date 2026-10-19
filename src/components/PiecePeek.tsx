@@ -75,7 +75,7 @@ export const PiecePeek: React.FC<PiecePeekProps> = ({ pieceId, resolve, onClose,
         role="dialog"
         aria-modal="true"
         aria-label={titulo}
-        className="relative w-full max-w-[480px] max-h-[85dvh] flex flex-col bg-surface rounded-t-3xl border-t border-x border-line shadow-2xl shadow-black/40 animate-sheet"
+        className="relative w-full max-w-[var(--app-w)] max-h-[85dvh] flex flex-col bg-surface rounded-t-3xl border-t border-x border-line shadow-2xl shadow-black/40 animate-sheet"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center gap-1 px-2 pt-2 pb-1">
