@@ -41,7 +41,7 @@ function HowToGet({ title, text, mapsUrl, id }: { title: string; text?: string; 
         <Footprints className="w-4 h-4" strokeWidth={2.25} />
         {title}
       </p>
-      {text && <p className="mt-2 text-ui leading-relaxed text-ink">{text}</p>}
+      {text && <p className="mt-2 text-ui leading-relaxed text-ink">{text.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')}</p>}
       {mapsUrl && (
         <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary w-full mt-3">
           {u.piece.mapsBtn}
