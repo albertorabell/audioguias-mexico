@@ -190,6 +190,45 @@ await sesion({
   },
 });
 
+// Pantallas clave en distintos tamaños: celulares chicos y grandes, tablet (vertical y horizontal) y computadora
+const TAMANOS = [
+  ['320', 320, 568],
+  ['390', 390, 844],
+  ['430', 430, 932],
+  ['tablet-v', 768, 1024],
+  ['tablet-h', 1024, 768],
+  ['pc', 1280, 800],
+];
+for (const [etiqueta, ancho, alto] of TAMANOS) {
+  await sesion({
+    nombre: `g-${etiqueta}`,
+    ancho,
+    alto,
+    pasos: async ({ page, shot, paso, entrar }) => {
+      await paso('01-inicio', () => shot('01-inicio'));
+      await paso('02-museo', async () => {
+        await entrar();
+        await shot('02-museo');
+      });
+      await paso('03-recorridos', async () => {
+        await page.locator('#dock-tab-recorridos').click();
+        await shot('03-recorridos');
+        await shot('03b-recorridos-completo', { full: true });
+      });
+      await paso('04-sala', async () => {
+        await page.locator('#dock-tab-salas').click();
+        await abrirSala(page, 'Mexica');
+        await shot('04-sala');
+      });
+      await paso('05-pieza', async () => {
+        await page.locator('#btn-start-room').click();
+        await shot('05-pieza');
+        await shot('05b-pieza-completa', { full: true });
+      });
+    },
+  });
+}
+
 // Sitios que salen solos de la hoja CONTROL y aún están en revisión (se ven con ?preview): Chapultepec y el Centro Histórico
 await sesion({
   nombre: 'f-sitios-nuevos',
