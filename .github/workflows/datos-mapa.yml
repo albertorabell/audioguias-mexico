@@ -39,17 +39,23 @@ jobs:
         run: node scripts/mapa/obtener-coordenadas.mjs "candidatas-mapa/${{ inputs.sitio }}" "${{ inputs.lat }}" "${{ inputs.lng }}" "${{ inputs.radio }}"
       - name: Recortar el mapa de la zona
         if: ${{ inputs.recortar_mapa == 'sí' || inputs.recortar_mapa == 'si' }}
+        continue-on-error: true
         run: |
-          set -e
           cd "$RUNNER_TEMP"
-          curl -sSL https://github.com/protomaps/go-pmtiles/releases/download/v1.22.3/go-pmtiles_1.22.3_Linux_x86_64.tar.gz | tar xz pmtiles
-          ./pmtiles --version
-          # Última versión diaria del mapa mundial de Protomaps
-          build=$(curl -sS https://build-metadata.protomaps.dev/builds.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(sorted(b['key'] for b in d)[-1])")
-          echo "Mapa base: $build"
-          ./pmtiles extract "https://build.protomaps.com/$build" "$GITHUB_WORKSPACE/candidatas-mapa/${{ inputs.sitio }}/${{ inputs.sitio }}.pmtiles" --bbox="${{ inputs.bbox_mapa }}" --maxzoom=17
-          ls -la "$GITHUB_WORKSPACE/candidatas-mapa/${{ inputs.sitio }}"
+          aviso() { echo "::warning::$1" | tr '\n' ' '; }
+          curl -sSL -o pm.tgz https://github.com/protomaps/go-pmtiles/releases/download/v1.22.3/go-pmtiles_1.22.3_Linux_x86_64.tar.gz || { aviso "No se pudo bajar pmtiles"; exit 1; }
+          tar xzf pm.tgz pmtiles || { aviso "No se pudo abrir pmtiles: $(file pm.tgz)"; exit 1; }
+          aviso "pmtiles: $(./pmtiles --version 2>&1)"
+          meta=$(curl -sS -m 60 https://build-metadata.protomaps.dev/builds.json 2>&1 | head -c 300)
+          aviso "builds.json: $meta"
+          build=$(echo "$meta" | head -c 0; curl -sS -m 60 https://build-metadata.protomaps.dev/builds.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(sorted(b['key'] for b in d)[-1])") || { aviso "No se pudo leer builds.json"; exit 1; }
+          aviso "Mapa base: $build"
+          salida="$GITHUB_WORKSPACE/candidatas-mapa/${{ inputs.sitio }}/${{ inputs.sitio }}.pmtiles"
+          ./pmtiles extract "https://build.protomaps.com/$build" "$salida" --bbox="${{ inputs.bbox_mapa }}" --maxzoom=17 > extract.log 2>&1 || { aviso "extract falló: $(tail -c 600 extract.log)"; exit 1; }
+          aviso "extract: $(tail -c 300 extract.log) $(ls -la "$salida")"
+
       - name: Guardar en la rama mapa-candidatas
+        if: always()
         run: |
           git config user.name "mapa-bot"
           git config user.email "mapa-bot@users.noreply.github.com"
