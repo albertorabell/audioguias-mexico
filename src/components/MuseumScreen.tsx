@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { ChevronRight, SlidersHorizontal, Map as MapIcon, CircleHelp, Compass } from 'lucide-react';
+import { ChevronRight, SlidersHorizontal, Map as MapIcon, CircleHelp } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, Room, PieceData } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
 import { getRoomShortLabel } from '../utils/roomLabel';
@@ -69,8 +69,6 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
   const u = strings.ui;
   // La bienvenida de arriba ya orienta; la guía paso a paso queda solo en «¿Cómo se usa?»
   const [introOpen, setIntroOpen] = useState<boolean>(false);
-
-  const [chooserOpen, setChooserOpen] = useState(false);
 
   const pieceById = useMemo(() => new Map(pieces.map((p) => [p.piece_id, p])), [pieces]);
   const piecesByRoom = useMemo(() => {
@@ -147,7 +145,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
         <section className="px-5 pt-5 pb-6">
           <div className="rounded-3xl bg-surface border border-line overflow-hidden">
             {coverPiece && (
-              <div className="relative h-44 bg-raised">
+              <div className="relative h-36 bg-raised">
                 <PieceImage filename={coverPiece.image_filename} pieceId={coverPiece.piece_id} alt="" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/10 to-transparent" aria-hidden="true" />
               </div>
@@ -155,21 +153,9 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
             <div className="px-5 pb-5 pt-3">
               <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{site.name}</h1>
               <p className="mt-1.5 text-ui text-ink-3">{site.location}</p>
-              {site.description && <p className="mt-3 text-ui text-ink-2 leading-relaxed line-clamp-4">{site.description}</p>}
+              {site.description && <p className="mt-3 text-ui text-ink-2 leading-relaxed line-clamp-3">{site.description}</p>}
               {routes.length > 0 && (
-                <button
-                  type="button"
-                  id="btn-start-visit"
-                  aria-expanded={chooserOpen}
-                  onClick={() => setChooserOpen((v) => !v)}
-                  className="btn-primary w-full h-14 mt-5 text-[1.0625rem]"
-                >
-                  <Compass className="w-5 h-5" />
-                  {u.museum.welcomeCta}
-                </button>
-              )}
-              {chooserOpen && (
-                <div id="time-chooser" className="mt-5">
+                <div id="time-chooser" className="mt-6 pt-5 border-t border-line">
                   <h2 className="font-serif text-h3 font-medium">{u.museum.timeTitle}</h2>
                   <div className="mt-3 flex flex-col gap-2.5">
                     {timeOptions.map(({ route, label }, i) => {
@@ -195,7 +181,6 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                     <button
                       type="button"
                       onClick={() => {
-                        setChooserOpen(false);
                         document.getElementById('rooms-title')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
                       }}
                       className="w-full text-left rounded-2xl border border-line px-4 py-3.5 flex items-center gap-3 cursor-pointer active:scale-[0.99] transition-transform"
