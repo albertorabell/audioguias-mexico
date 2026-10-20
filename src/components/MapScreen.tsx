@@ -57,7 +57,7 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
   const stopId = (s: { piece_id?: string; id?: string; poi_id?: string }) => s.piece_id || s.id || s.poi_id || '';
   const routeIds = useMemo(() => (tour ? tour.route.stops.map(stopId) : []), [tour]);
   const liveStops = useMemo<LiveStop[]>(() => {
-    const idx = new Map(routeIds.map((id, i) => [id, i]));
+    const idx = new Map<string, number>(routeIds.map((id, i): [string, number] => [id, i]));
     return pieces
       .filter((p) => typeof p.lat === 'number' && typeof p.lng === 'number')
       .map((p) => {
