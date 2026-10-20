@@ -26,6 +26,7 @@ async function sesion({ nombre, ancho = 390, alto = 844, init, pasos, contexto =
       /* sin almacenamiento */
     }
   });
+  page.on('console', (m) => { if (m.type() === 'error') resultados.push(`  consola(${nombre}): ${m.text().slice(0, 200)}`); });
   if (init) await page.addInitScript(init);
   const shot = async (id, { full = false } = {}) => {
     const file = `${nombre}-${id}.png`;
@@ -38,6 +39,7 @@ async function sesion({ nombre, ancho = 390, alto = 844, init, pasos, contexto =
       await fn();
     } catch (e) {
       resultados.push(`FALLÓ ${nombre}-${id}: ${String(e.message).split('\n')[0]}`);
+      await page.screenshot({ path: path.join(out, `${nombre}-${id}-FALLO.png`) }).catch(() => {});
     }
   };
   const entrar = async () => {
