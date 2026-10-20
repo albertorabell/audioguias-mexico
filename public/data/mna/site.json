@@ -2675,5 +2675,24 @@
         }
       ]
     }
-  ]
+  ],
+  "live_map": {
+    "pmtiles": "maps/chapultepec.pmtiles",
+    "center": [
+      -99.1861,
+      19.426
+    ],
+    "zoom": 17,
+    "bounds": [
+      -99.205,
+      19.408,
+      -99.16,
+      19.436
+    ],
+    "maxZoom": 17,
+    "near_meters": 3000,
+    "labels": true,
+    "solo_prueba": true,
+    "labels_route_only": true
+  }
 }

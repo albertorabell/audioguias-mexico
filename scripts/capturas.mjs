@@ -26,6 +26,7 @@ async function sesion({ nombre, ancho = 390, alto = 844, init, pasos, contexto =
       /* sin almacenamiento */
     }
   });
+  page.on('console', (m) => { if (m.type() === 'error') resultados.push(`  consola(${nombre}): ${m.text().slice(0, 200)}`); });
   if (init) await page.addInitScript(init);
   const shot = async (id, { full = false } = {}) => {
     const file = `${nombre}-${id}.png`;
@@ -38,6 +39,7 @@ async function sesion({ nombre, ancho = 390, alto = 844, init, pasos, contexto =
       await fn();
     } catch (e) {
       resultados.push(`FALLÓ ${nombre}-${id}: ${String(e.message).split('\n')[0]}`);
+      await page.screenshot({ path: path.join(out, `${nombre}-${id}-FALLO.png`) }).catch(() => {});
     }
   };
   const entrar = async () => {
@@ -305,6 +307,57 @@ await sesion({
       await page.locator('#btn-locate').click();
       await page.waitForTimeout(3500);
       await shot('02-posicion');
+    });
+  },
+});
+
+// Chapultepec: mapa real del cerro con ubicación simulada frente al Castillo
+await sesion({
+  nombre: 'j-chap-mapa',
+  contexto: { geolocation: { latitude: 19.4209, longitude: -99.1805, accuracy: 15 }, permissions: ['geolocation'] },
+  pasos: async ({ page, shot, paso }) => {
+    await paso('01-mapa', async () => {
+      await page.goto(base + '/?preview');
+      await page.waitForLoadState('networkidle').catch(() => {});
+      await page.locator('#sites-grid-section [role=button]', { hasText: 'Castillo de Chapultepec' }).first().click();
+      await page.waitForTimeout(700);
+      await page.locator('#dock-tab-mapa').click();
+      await page.locator('#live-map canvas').first().waitFor({ timeout: 15000 });
+      await page.waitForTimeout(3000);
+      await shot('01-mapa');
+    });
+    await paso('02-posicion', async () => {
+      await page.locator('#btn-locate').click();
+      await page.waitForTimeout(3500);
+      await shot('02-posicion');
+    });
+  },
+});
+
+// MNA (mapa real en prueba, solo con ?preview): plano de salas y mapa real
+await sesion({
+  nombre: 'k-mna-mapa',
+  contexto: { geolocation: { latitude: 19.4258, longitude: -99.1862, accuracy: 15 }, permissions: ['geolocation'] },
+  pasos: async ({ page, shot, paso }) => {
+    await paso('01-plano', async () => {
+      await page.goto(base + '/?preview');
+      await page.waitForLoadState('networkidle').catch(() => {});
+      await page.locator('#sites-grid-section [role=button]', { hasText: 'Antropolog' }).first().click();
+      await page.waitForTimeout(700);
+      await page.locator('#dock-tab-mapa').click();
+      await page.waitForTimeout(1200);
+      await shot('01-plano');
+    });
+    await paso('02-mapa-real', async () => {
+      await page.locator('#map-view-live').click();
+      await page.locator('#live-map canvas').first().waitFor({ timeout: 15000 });
+      await page.waitForTimeout(3000);
+      await shot('02-mapa-real');
+    });
+    await paso('03-posicion', async () => {
+      await page.locator('#btn-locate').click();
+      await page.waitForTimeout(3500);
+      await shot('03-posicion');
     });
   },
 });

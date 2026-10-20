@@ -662,7 +662,10 @@ export default function App() {
     setSiteName(ownName);
   }, [ownName, setSiteName]);
   /** Sin plano (zone_map) no hay pestaña ni botón de mapa. */
-  const hasMap = !isZones || !!manifest?.zone_map || !!manifest?.live_map;
+  // Mapa en vivo marcado "solo_prueba": solo aparece abriendo la app con ?preview
+  const verPrevia = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('preview');
+  const liveMap = manifest?.live_map && (!manifest.live_map.solo_prueba || verPrevia) ? manifest.live_map : undefined;
+  const hasMap = !isZones || !!manifest?.zone_map || !!liveMap;
   let content: React.ReactNode = null;
   if (screen.kind === 'home' || !site) {
     const mna = rawSites.find((s) => s.status !== 'coming_soon');
@@ -726,7 +729,8 @@ export default function App() {
           hasPass={hasPass}
           onOpenPaywall={openPaywall}
           onSelectRoom={openRoom}
-          liveMap={isZones ? manifest?.live_map : undefined}
+          liveMap={liveMap}
+          hasScheme={!isZones || !!manifest?.zone_map}
           onOpenPiece={openPieceInRoom}
         />
       );
