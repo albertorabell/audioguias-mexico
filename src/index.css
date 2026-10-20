@@ -298,6 +298,9 @@
   transform: translateY(-50%);
   display: none;
   white-space: nowrap;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-size: 11px;
   font-weight: 700;
   color: #1c1a17;
