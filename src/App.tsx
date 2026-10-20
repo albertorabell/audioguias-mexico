@@ -662,7 +662,7 @@ export default function App() {
     setSiteName(ownName);
   }, [ownName, setSiteName]);
   /** Sin plano (zone_map) no hay pestaña ni botón de mapa. */
-  const hasMap = !isZones || !!manifest?.zone_map;
+  const hasMap = !isZones || !!manifest?.zone_map || !!manifest?.live_map;
   let content: React.ReactNode = null;
   if (screen.kind === 'home' || !site) {
     const mna = rawSites.find((s) => s.status !== 'coming_soon');
