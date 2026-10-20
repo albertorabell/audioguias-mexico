@@ -60,6 +60,9 @@ function registerSource(url: string): string {
   return url;
 }
 
+/** Nombre corto para el mapa: lo que va antes de los dos puntos o de la primera coma. */
+const shortTitle = (t: string) => t.split(/[:,]/)[0].trim();
+
 type GpsState = 'idle' | 'locating' | 'ok' | 'denied' | 'far';
 
 export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, currentId, onOpenStop }) => {
@@ -148,7 +151,7 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
       el.textContent = inTour ? String(s.tourNum) : '';
       const label = document.createElement('span');
       label.className = 'live-label';
-      label.textContent = s.title;
+      label.textContent = shortTitle(s.title);
       el.appendChild(label);
       el.addEventListener('click', (ev) => {
         ev.stopPropagation();
@@ -245,8 +248,8 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
       <div className="mt-3 space-y-1.5 px-1 text-ui" aria-live="polite">
         {gps === 'denied' && <p className="text-ink-2">{m.locationDenied}</p>}
         {gps === 'far' && <p className="text-ink-2">{m.farAway}</p>}
-        {next && <p className="text-ink font-semibold">{m.toNext(next.s.title, roundMeters(next.d))}</p>}
-        {!next && nearest && <p className="text-ink font-semibold">{m.nearest(nearest.s.title, roundMeters(nearest.d))}</p>}
+        {next && <p className="text-ink font-semibold">{m.toNext(shortTitle(next.s.title), roundMeters(next.d))}</p>}
+        {!next && nearest && <p className="text-ink font-semibold">{m.nearest(shortTitle(nearest.s.title), roundMeters(nearest.d))}</p>}
         {here && <p className="text-cap text-ink-3">{m.accuracy(Math.max(5, roundMeters(here.acc)))}</p>}
       </div>
 
