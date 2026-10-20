@@ -1,0 +1,60 @@
+name: Datos del mapa (coordenadas y pedazo de mapa de un sitio)
+
+# Trae coordenadas candidatas desde OpenStreetMap y Wikipedia y, si se pide, recorta el mapa de la zona
+# (Protomaps, datos de OpenStreetMap) para guardarlo en el repo. No publica nada en el sitio.
+on:
+  workflow_dispatch:
+    inputs:
+      sitio:
+        description: 'Nombre corto del sitio (carpeta de salida), por ejemplo teotihuacan'
+        default: 'teotihuacan'
+      lat:
+        description: 'Latitud del centro'
+        default: '19.6925'
+      lng:
+        description: 'Longitud del centro'
+        default: '-98.8438'
+      radio:
+        description: 'Radio en metros para buscar lugares'
+        default: '3500'
+      recortar_mapa:
+        description: 'Recortar también el pedazo de mapa sin internet (sí/no)'
+        default: 'no'
+      bbox_mapa:
+        description: 'Recuadro del mapa: oeste,sur,este,norte (solo si recortas)'
+        default: '-98.885,19.655,-98.805,19.725'
+
+permissions:
+  contents: write
+
+jobs:
+  datos:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Traer lugares con coordenadas
+        run: node scripts/mapa/obtener-coordenadas.mjs "candidatas-mapa/${{ inputs.sitio }}" "${{ inputs.lat }}" "${{ inputs.lng }}" "${{ inputs.radio }}"
+      - name: Recortar el mapa de la zona
+        if: ${{ inputs.recortar_mapa == 'sí' || inputs.recortar_mapa == 'si' }}
+        run: |
+          set -e
+          cd "$RUNNER_TEMP"
+          curl -sSL https://github.com/protomaps/go-pmtiles/releases/download/v1.22.3/go-pmtiles_1.22.3_Linux_x86_64.tar.gz | tar xz pmtiles
+          ./pmtiles --version
+          # Última versión diaria del mapa mundial de Protomaps
+          build=$(curl -sS https://build-metadata.protomaps.dev/builds.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(sorted(b['key'] for b in d)[-1])")
+          echo "Mapa base: $build"
+          ./pmtiles extract "https://build.protomaps.com/$build" "$GITHUB_WORKSPACE/candidatas-mapa/${{ inputs.sitio }}/${{ inputs.sitio }}.pmtiles" --bbox="${{ inputs.bbox_mapa }}" --maxzoom=17
+          ls -la "$GITHUB_WORKSPACE/candidatas-mapa/${{ inputs.sitio }}"
+      - name: Guardar en la rama mapa-candidatas
+        run: |
+          git config user.name "mapa-bot"
+          git config user.email "mapa-bot@users.noreply.github.com"
+          git checkout -q --orphan mapa-candidatas
+          git rm -rfq --cached . > /dev/null 2>&1 || true
+          git add -f candidatas-mapa
+          git commit -qm "Datos de mapa de ${{ inputs.sitio }}"
+          git push -f origin mapa-candidatas
