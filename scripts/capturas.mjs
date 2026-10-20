@@ -319,7 +319,7 @@ await sesion({
     await paso('01-mapa', async () => {
       await page.goto(base + '/?preview');
       await page.waitForLoadState('networkidle').catch(() => {});
-      await page.locator('#sites-grid-section [role=button]', { hasText: 'Chapultepec' }).first().click();
+      await page.locator('#sites-grid-section [role=button]', { hasText: 'Castillo de Chapultepec' }).first().click();
       await page.waitForTimeout(700);
       await page.locator('#dock-tab-mapa').click();
       await page.locator('#live-map canvas').first().waitFor({ timeout: 15000 });

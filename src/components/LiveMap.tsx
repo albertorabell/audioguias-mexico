@@ -152,7 +152,7 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
       const label = document.createElement('span');
       label.className = 'live-label';
       label.textContent = shortTitle(s.title);
-      el.appendChild(label);
+      if (!config.labels_route_only || inTour) el.appendChild(label);
       el.addEventListener('click', (ev) => {
         ev.stopPropagation();
         setSelected(s.id);

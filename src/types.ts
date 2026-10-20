@@ -221,6 +221,8 @@ export interface LiveMapConfig {
   maxZoom?: number;
   /** true = el mapa en vivo solo se ve abriendo la app con ?preview (en prueba). */
   solo_prueba?: boolean;
+  /** true = solo llevan nombre visible las paradas del recorrido en curso (sitios con muchas paradas juntas). */
+  labels_route_only?: boolean;
   /** Si la persona está más lejos que esto del centro, se avisa que no está en el sitio. */
   near_meters?: number;
   /** true = el mapa muestra los nombres de las calles (necesita las letras en public/fonts). */
