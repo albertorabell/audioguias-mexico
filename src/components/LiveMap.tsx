@@ -81,12 +81,14 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
   useEffect(() => {
     if (!box.current) return;
     const url = registerSource(new URL(config.pmtiles, document.baseURI).href);
-    // Mapa claro siempre: se lee mejor con el sol de afuera. Sin letreros: así el mapa no necesita bajar tipografías y funciona sin internet. Los números los pone la app.
-    const baseLayers = (layers('protomaps', namedFlavor('light'), { lang: 'es' }) as any[]).filter((l) => l.type !== 'symbol');
+    // Mapa claro siempre: se lee mejor con el sol de afuera. Sin letreros salvo los nombres de calles (si el sitio los pide): las letras viajan dentro de la app y todo funciona sin internet.
+    const todas = layers('protomaps', namedFlavor('light'), { lang: 'es' }) as any[];
+    const baseLayers = todas.filter((l) => l.type !== 'symbol' || (config.labels && String(l.id).includes('roads_labels')));
     const map = new maplibregl.Map({
       container: box.current,
       style: {
         version: 8,
+        ...(config.labels ? { glyphs: `${new URL('fonts/', document.baseURI).href}{fontstack}/{range}.pbf` } : {}),
         sources: { protomaps: { type: 'vector', url: `pmtiles://${url}`, attribution: m.attribution } },
         layers: baseLayers,
       } as any,

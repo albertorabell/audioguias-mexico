@@ -414,6 +414,15 @@ function buildRooms(items, opts = {}) {
 }
 
 /** lat y lng de la pieza (columnas opcionales). Solo salen si son números dentro de México. */
+/** Sitios con mapa real sin internet (scripts/mapas-en-vivo.json): se agrega live_map a su manifiesto. */
+const MAPAS_EN_VIVO = (() => {
+  try {
+    return JSON.parse(fs.readFileSync(new URL('./mapas-en-vivo.json', import.meta.url), 'utf-8'));
+  } catch {
+    return {};
+  }
+})();
+
 function coordenadas(p) {
   const lat = parseFloat(String(p.lat ?? '').replace(',', '.'));
   const lng = parseFloat(String(p.lng ?? '').replace(',', '.'));
@@ -848,7 +857,7 @@ export async function sync() {
     for (const [kind, list] of Object.entries(avisosRutas)) { console.warn(`⚠️  ${kind}: ${list.length}`); list.slice(0, 8).forEach((m) => console.warn(`     - ${m}`)); }
     write(path.join(dir, 'rooms.json'), e.rooms);
     write(path.join(dir, 'pieces.json'), e.pieces.map((piece) => splitPiece(piece).pub));
-    write(path.join(dir, `${e.site.site_id}.json`), manifiestoSitio(e.site, rutasSitio));
+    write(path.join(dir, `${e.site.site_id}.json`), manifiestoSitio(e.site, rutasSitio, MAPAS_EN_VIVO[e.site.site_id]));
     entradasSites.push({ site: e.site, entry: e });
     console.log(`✅ ${e.site.site_id}${e.preview ? ' (vista previa)' : ''}: ${e.rooms.length} zonas, ${e.pieces.length} piezas y recorridos: ${rutasSitio.map((r) => `${r.name} (${r.stops.length})`).join(', ') || 'ninguno'}.`);
   }

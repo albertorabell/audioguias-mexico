@@ -1,0 +1,19 @@
+{
+  "centro_historico": {
+    "pmtiles": "maps/centro_historico.pmtiles",
+    "center": [
+      -99.1335,
+      19.434
+    ],
+    "zoom": 15,
+    "bounds": [
+      -99.17,
+      19.418,
+      -99.115,
+      19.447
+    ],
+    "maxZoom": 17,
+    "near_meters": 4000,
+    "labels": true
+  }
+}

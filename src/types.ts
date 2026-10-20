@@ -221,6 +221,8 @@ export interface LiveMapConfig {
   maxZoom?: number;
   /** Si la persona está más lejos que esto del centro, se avisa que no está en el sitio. */
   near_meters?: number;
+  /** true = el mapa muestra los nombres de las calles (necesita las letras en public/fonts). */
+  labels?: boolean;
 }
 
 /** Cómo se acomodan las zonas en el plano de un sitio al aire libre. Los valores son room_id. */

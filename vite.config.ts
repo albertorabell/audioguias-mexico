@@ -51,7 +51,7 @@ export default defineConfig(() => {
           ],
         },
         workbox: {
-          globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff,woff2,pmtiles}'],
+          globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff,woff2,pmtiles,pbf}'],
           // pieces.json crece con cada idioma traducido (más de 2 MB con inglés, francés y polaco).
           // Se sube el límite para que se siga guardando para usar sin internet.
           maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
