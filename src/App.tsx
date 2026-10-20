@@ -726,6 +726,8 @@ export default function App() {
           hasPass={hasPass}
           onOpenPaywall={openPaywall}
           onSelectRoom={openRoom}
+          liveMap={isZones ? manifest?.live_map : undefined}
+          onOpenPiece={openPieceInRoom}
         />
       );
     } else {

@@ -206,6 +206,21 @@ export interface SiteManifest {
   rooms_path?: string;
   pieces_path?: string;
   zone_map?: ZoneMap;
+  /** Mapa real sin internet con la posición de la persona (solo sitios al aire libre con coordenadas). */
+  live_map?: LiveMapConfig;
+}
+
+export interface LiveMapConfig {
+  /** Archivo .pmtiles dentro de public/ (por ejemplo maps/teotihuacan.pmtiles). */
+  pmtiles: string;
+  /** [longitud, latitud] del centro. */
+  center: [number, number];
+  zoom: number;
+  /** [oeste, sur, este, norte] del pedazo de mapa guardado. */
+  bounds: [number, number, number, number];
+  maxZoom?: number;
+  /** Si la persona está más lejos que esto del centro, se avisa que no está en el sitio. */
+  near_meters?: number;
 }
 
 /** Cómo se acomodan las zonas en el plano de un sitio al aire libre. Los valores son room_id. */

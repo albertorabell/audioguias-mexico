@@ -9,12 +9,12 @@ const out = path.resolve(process.argv[2] || 'capturas');
 const base = process.argv[3] || 'http://localhost:4173';
 fs.mkdirSync(out, { recursive: true });
 
-const browser = await chromium.launch();
+const browser = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] });
 const resultados = [];
 
-async function sesion({ nombre, ancho = 390, alto = 844, init, pasos }) {
+async function sesion({ nombre, ancho = 390, alto = 844, init, pasos, contexto = {} }) {
   const movil = ancho < 700;
-  const ctx = await browser.newContext({ viewport: { width: ancho, height: alto }, deviceScaleFactor: 2, locale: 'es-MX', serviceWorkers: 'block', isMobile: movil, hasTouch: movil });
+  const ctx = await browser.newContext({ viewport: { width: ancho, height: alto }, deviceScaleFactor: 2, locale: 'es-MX', serviceWorkers: 'block', isMobile: movil, hasTouch: movil, ...contexto });
   const page = await ctx.newPage();
   await simularCobro(page);
   // Las guías de la primera visita taparían los botones: se dan por vistas
@@ -256,6 +256,33 @@ await sesion({
     });
     await paso('01-chapultepec', () => verSitio('01-chapultepec', 'Castillo de Chapultepec'));
     await paso('02-centro', () => verSitio('02-centro', 'Centro Hist'));
+  },
+});
+
+// Teotihuacán: mapa real con la posición de la persona (ubicación simulada junto a la Pirámide del Sol)
+await sesion({
+  nombre: 'h-teo-mapa',
+  contexto: { geolocation: { latitude: 19.6910, longitude: -98.8460, accuracy: 12 }, permissions: ['geolocation'] },
+  pasos: async ({ page, shot, paso }) => {
+    await paso('01-mapa', async () => {
+      await page.goto(base + '/');
+      await page.waitForLoadState('networkidle').catch(() => {});
+      await page.locator('#sites-grid-section [role=button]', { hasText: 'Teotihuac' }).first().click();
+      await page.waitForTimeout(700);
+      await page.locator('#dock-tab-mapa').click();
+      await page.locator('#live-map canvas').first().waitFor({ timeout: 15000 });
+      await page.waitForTimeout(3000);
+      await shot('01-mapa');
+    });
+    await paso('02-posicion', async () => {
+      await page.locator('#btn-locate').click();
+      await page.waitForTimeout(3500);
+      await shot('02-posicion');
+    });
+    await paso('03-esquema', async () => {
+      await page.locator('#map-view-scheme').click();
+      await shot('03-esquema');
+    });
   },
 });
 
