@@ -23,8 +23,11 @@ async function caja(page, selector) {
   return page.locator(selector).first().boundingBox();
 }
 
-test('guía del museo: se abre sola, señala los botones reales y el último paso lleva a armar la ruta', async ({ page }) => {
+test('guía del museo: se abre con «¿Cómo se usa?», señala los botones reales y el último paso lleva a armar la ruta', async ({ page }) => {
   await entrarComoNuevo(page);
+  // Ya no se abre sola: la bienvenida de la pantalla orienta y la guía queda en «¿Cómo se usa?»
+  await expect(page.locator('#modal-intro')).toHaveCount(0);
+  await page.locator('#btn-open-intro').click();
   const intro = page.locator('#modal-intro');
   await expect(intro).toBeVisible();
   await expect(page.getByTestId('intro-step-label')).toHaveText(/^1 de \d+$/);
@@ -64,6 +67,7 @@ test('guía del museo: se abre sola, señala los botones reales y el último pas
 
 test('guía del museo: «Omitir» la cierra y se marca como vista; «¿Cómo se usa?» la vuelve a abrir desde el paso 1', async ({ page }) => {
   await entrarComoNuevo(page);
+  await page.locator('#btn-open-intro').click();
   await expect(page.locator('#modal-intro')).toBeVisible();
   await page.locator('#btn-intro-skip').click();
   await expect(page.locator('#modal-intro')).toHaveCount(0);
