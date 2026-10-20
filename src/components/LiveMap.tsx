@@ -60,6 +60,9 @@ function registerSource(url: string): string {
   return url;
 }
 
+/** Nombre corto para el mapa: lo que va antes de los dos puntos o de la primera coma. */
+const shortTitle = (t: string) => t.split(/[:,]/)[0].trim();
+
 type GpsState = 'idle' | 'locating' | 'ok' | 'denied' | 'far';
 
 export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, currentId, onOpenStop }) => {
@@ -81,12 +84,14 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
   useEffect(() => {
     if (!box.current) return;
     const url = registerSource(new URL(config.pmtiles, document.baseURI).href);
-    // Mapa claro siempre: se lee mejor con el sol de afuera. Sin letreros: así el mapa no necesita bajar tipografías y funciona sin internet. Los números los pone la app.
-    const baseLayers = (layers('protomaps', namedFlavor('light'), { lang: 'es' }) as any[]).filter((l) => l.type !== 'symbol');
+    // Mapa claro siempre: se lee mejor con el sol de afuera. Sin letreros salvo los nombres de calles (si el sitio los pide): las letras viajan dentro de la app y todo funciona sin internet.
+    const todas = layers('protomaps', namedFlavor('light'), { lang: 'es' }) as any[];
+    const baseLayers = todas.filter((l) => l.type !== 'symbol' || (config.labels && String(l.id).includes('roads_labels')));
     const map = new maplibregl.Map({
       container: box.current,
       style: {
         version: 8,
+        ...(config.labels ? { glyphs: `${new URL('fonts/', document.baseURI).href}{fontstack}/{range}.pbf` } : {}),
         sources: { protomaps: { type: 'vector', url: `pmtiles://${url}`, attribution: m.attribution } },
         layers: baseLayers,
       } as any,
@@ -146,7 +151,7 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
       el.textContent = inTour ? String(s.tourNum) : '';
       const label = document.createElement('span');
       label.className = 'live-label';
-      label.textContent = s.title;
+      label.textContent = shortTitle(s.title);
       el.appendChild(label);
       el.addEventListener('click', (ev) => {
         ev.stopPropagation();
@@ -243,8 +248,8 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
       <div className="mt-3 space-y-1.5 px-1 text-ui" aria-live="polite">
         {gps === 'denied' && <p className="text-ink-2">{m.locationDenied}</p>}
         {gps === 'far' && <p className="text-ink-2">{m.farAway}</p>}
-        {next && <p className="text-ink font-semibold">{m.toNext(next.s.title, roundMeters(next.d))}</p>}
-        {!next && nearest && <p className="text-ink font-semibold">{m.nearest(nearest.s.title, roundMeters(nearest.d))}</p>}
+        {next && <p className="text-ink font-semibold">{m.toNext(shortTitle(next.s.title), roundMeters(next.d))}</p>}
+        {!next && nearest && <p className="text-ink font-semibold">{m.nearest(shortTitle(nearest.s.title), roundMeters(nearest.d))}</p>}
         {here && <p className="text-cap text-ink-3">{m.accuracy(Math.max(5, roundMeters(here.acc)))}</p>}
       </div>
 

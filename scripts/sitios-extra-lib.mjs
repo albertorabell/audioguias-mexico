@@ -63,7 +63,7 @@ export function construirRutasSitio(siteId, piezas, salas, defs, rutasPorId, avi
 }
 
 /** Manifiesto data/<sitio>/<sitio>.json que la app abre al entrar al sitio. */
-export function manifiestoSitio(sitio, rutas) {
+export function manifiestoSitio(sitio, rutas, mapaEnVivo) {
   const precio = Number(String(sitio.precio_mxn || '').replace(',', '.'));
   return {
     site_id: sitio.site_id.toUpperCase(),
@@ -73,6 +73,7 @@ export function manifiestoSitio(sitio, rutas) {
     rooms_path: `data/${sitio.site_id}/rooms.json`,
     pieces_path: `data/${sitio.site_id}/pieces.json`,
     routes: rutas,
+    ...(mapaEnVivo ? { live_map: mapaEnVivo } : {}),
   };
 }
 

@@ -286,6 +286,29 @@ await sesion({
   },
 });
 
+// Centro Histórico (en revisión: se ve con ?preview): mapa real con nombres de calles y ubicación simulada cerca del Zócalo
+await sesion({
+  nombre: 'i-centro-mapa',
+  contexto: { geolocation: { latitude: 19.4338, longitude: -99.1368, accuracy: 15 }, permissions: ['geolocation'] },
+  pasos: async ({ page, shot, paso }) => {
+    await paso('01-mapa', async () => {
+      await page.goto(base + '/?preview');
+      await page.waitForLoadState('networkidle').catch(() => {});
+      await page.locator('#sites-grid-section [role=button]', { hasText: 'Centro Hist' }).first().click();
+      await page.waitForTimeout(700);
+      await page.locator('#dock-tab-mapa').click();
+      await page.locator('#live-map canvas').first().waitFor({ timeout: 15000 });
+      await page.waitForTimeout(3000);
+      await shot('01-mapa');
+    });
+    await paso('02-posicion', async () => {
+      await page.locator('#btn-locate').click();
+      await page.waitForTimeout(3500);
+      await shot('02-posicion');
+    });
+  },
+});
+
 await browser.close();
 fs.writeFileSync(path.join(out, 'RESULTADO.txt'), resultados.join('\n') + '\n');
 console.log(resultados.join('\n'));

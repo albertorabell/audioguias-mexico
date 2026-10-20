@@ -53,7 +53,8 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
   }, [tour, roomOfPiece]);
 
   const [view, setView] = useState<'live' | 'scheme'>('live');
-  const showLive = !!liveMap && view === 'live';
+  // Sin esquema de zonas (Centro Histórico) solo hay mapa real
+  const showLive = !!liveMap && (view === 'live' || !zoneMap);
   const stopId = (s: { piece_id?: string; id?: string; poi_id?: string }) => s.piece_id || s.id || s.poi_id || '';
   const routeIds = useMemo(() => (tour ? tour.route.stops.map(stopId) : []), [tour]);
   const liveStops = useMemo<LiveStop[]>(() => {
@@ -76,7 +77,7 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
     <div className="min-h-dvh bg-bg text-ink pb-tabbar">
       <TopBar title={u.map.title} right={<PassButton hasPass={hasPass} onClick={onOpenPaywall} />} />
       <main className="px-4 pt-4">
-        {liveMap && (
+        {liveMap && zoneMap && (
           <div role="tablist" className="grid grid-cols-2 p-1 rounded-2xl bg-surface border border-line mb-4">
             {([['live', u.map.liveTab], ['scheme', u.map.schemeTab]] as const).map(([id, label]) => (
               <button
