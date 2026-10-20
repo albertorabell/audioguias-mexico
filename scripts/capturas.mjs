@@ -74,6 +74,9 @@ await sesion({
       await entrar();
       await shot('04-museo');
       await shot('05-museo-completo', { full: true });
+      await page.locator('#btn-start-visit').click();
+      await shot('05b-empezar-visita');
+      await page.locator('#btn-start-visit').click();
     });
     await paso('06-sala', async () => {
       await abrirSala(page, 'Mexica');
