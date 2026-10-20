@@ -28,10 +28,12 @@ interface MapScreenProps {
   /** Mapa real con la posición de la persona (solo sitios al aire libre que lo tienen). */
   liveMap?: LiveMapConfig;
   onOpenPiece?: (pieceId: string) => void;
+  /** Hay plano esquemático (zonas o plano de salas) además del mapa real. */
+  hasScheme?: boolean;
 }
 
 /** Pestaña "Mapa": plano esquemático con salas grandes y legibles, "estás aquí" y las paradas del recorrido. */
-export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFloorChange, zoneMap, hereRoomId, tour, hasPass, onOpenPaywall, onSelectRoom, liveMap, onOpenPiece }) => {
+export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFloorChange, zoneMap, hereRoomId, tour, hasPass, onOpenPaywall, onSelectRoom, liveMap, onOpenPiece, hasScheme }) => {
   const { strings } = useLanguage();
   const u = strings.ui;
 
@@ -52,9 +54,11 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
     return m;
   }, [tour, roomOfPiece]);
 
-  const [view, setView] = useState<'live' | 'scheme'>('live');
-  // Sin esquema de zonas (Centro Histórico) solo hay mapa real
-  const showLive = !!liveMap && (view === 'live' || !zoneMap);
+  const scheme = hasScheme ?? !!zoneMap;
+  // Sitios al aire libre abren en el mapa real; un museo con plano de salas abre en el plano
+  const [view, setView] = useState<'live' | 'scheme'>(zoneMap || !scheme ? 'live' : 'scheme');
+  // Sin esquema (Centro Histórico) solo hay mapa real
+  const showLive = !!liveMap && (view === 'live' || !scheme);
   const stopId = (s: { piece_id?: string; id?: string; poi_id?: string }) => s.piece_id || s.id || s.poi_id || '';
   const routeIds = useMemo(() => (tour ? tour.route.stops.map(stopId) : []), [tour]);
   const liveStops = useMemo<LiveStop[]>(() => {
@@ -77,7 +81,7 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
     <div className="min-h-dvh bg-bg text-ink pb-tabbar">
       <TopBar title={u.map.title} right={<PassButton hasPass={hasPass} onClick={onOpenPaywall} />} />
       <main className="px-4 pt-4">
-        {liveMap && zoneMap && (
+        {liveMap && scheme && (
           <div role="tablist" className="grid grid-cols-2 p-1 rounded-2xl bg-surface border border-line mb-4">
             {([['live', u.map.liveTab], ['scheme', u.map.schemeTab]] as const).map(([id, label]) => (
               <button

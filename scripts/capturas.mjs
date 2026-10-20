@@ -309,6 +309,57 @@ await sesion({
   },
 });
 
+// Chapultepec: mapa real del cerro con ubicación simulada frente al Castillo
+await sesion({
+  nombre: 'j-chap-mapa',
+  contexto: { geolocation: { latitude: 19.4209, longitude: -99.1805, accuracy: 15 }, permissions: ['geolocation'] },
+  pasos: async ({ page, shot, paso }) => {
+    await paso('01-mapa', async () => {
+      await page.goto(base + '/?preview');
+      await page.waitForLoadState('networkidle').catch(() => {});
+      await page.locator('#sites-grid-section [role=button]', { hasText: 'Chapultepec' }).first().click();
+      await page.waitForTimeout(700);
+      await page.locator('#dock-tab-mapa').click();
+      await page.locator('#live-map canvas').first().waitFor({ timeout: 15000 });
+      await page.waitForTimeout(3000);
+      await shot('01-mapa');
+    });
+    await paso('02-posicion', async () => {
+      await page.locator('#btn-locate').click();
+      await page.waitForTimeout(3500);
+      await shot('02-posicion');
+    });
+  },
+});
+
+// MNA (mapa real en prueba, solo con ?preview): plano de salas y mapa real
+await sesion({
+  nombre: 'k-mna-mapa',
+  contexto: { geolocation: { latitude: 19.4258, longitude: -99.1862, accuracy: 15 }, permissions: ['geolocation'] },
+  pasos: async ({ page, shot, paso }) => {
+    await paso('01-plano', async () => {
+      await page.goto(base + '/?preview');
+      await page.waitForLoadState('networkidle').catch(() => {});
+      await page.locator('#sites-grid-section [role=button]', { hasText: 'Antropolog' }).first().click();
+      await page.waitForTimeout(700);
+      await page.locator('#dock-tab-mapa').click();
+      await page.waitForTimeout(1200);
+      await shot('01-plano');
+    });
+    await paso('02-mapa-real', async () => {
+      await page.locator('#map-view-live').click();
+      await page.locator('#live-map canvas').first().waitFor({ timeout: 15000 });
+      await page.waitForTimeout(3000);
+      await shot('02-mapa-real');
+    });
+    await paso('03-posicion', async () => {
+      await page.locator('#btn-locate').click();
+      await page.waitForTimeout(3500);
+      await shot('03-posicion');
+    });
+  },
+});
+
 await browser.close();
 fs.writeFileSync(path.join(out, 'RESULTADO.txt'), resultados.join('\n') + '\n');
 console.log(resultados.join('\n'));
