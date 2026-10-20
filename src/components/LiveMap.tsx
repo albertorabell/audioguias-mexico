@@ -74,15 +74,15 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
   const [me, setMe] = useState<{ lat: number; lng: number; acc: number } | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
 
+  const fitted = useRef(false);
   const stopById = useMemo(() => new Map(stops.map((s) => [s.id, s])), [stops]);
 
   // --- Crear el mapa una sola vez ---
   useEffect(() => {
     if (!box.current) return;
     const url = registerSource(new URL(config.pmtiles, document.baseURI).href);
-    const dark = document.documentElement.getAttribute('data-theme') !== 'sun';
-    // Sin letreros: así el mapa no necesita bajar tipografías y funciona sin internet. Los números los pone la app.
-    const baseLayers = (layers('protomaps', namedFlavor(dark ? 'dark' : 'light'), { lang: 'es' }) as any[]).filter((l) => l.type !== 'symbol');
+    // Mapa claro siempre: se lee mejor con el sol de afuera. Sin letreros: así el mapa no necesita bajar tipografías y funciona sin internet. Los números los pone la app.
+    const baseLayers = (layers('protomaps', namedFlavor('light'), { lang: 'es' }) as any[]).filter((l) => l.type !== 'symbol');
     const map = new maplibregl.Map({
       container: box.current,
       style: {
@@ -109,6 +109,9 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
       map.addLayer({ id: 'me-acc-fill', type: 'fill', source: 'me-acc', paint: { 'fill-color': '#3b82f6', 'fill-opacity': 0.15 } });
       map.addSource('me', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
       map.addLayer({ id: 'me-dot', type: 'circle', source: 'me', paint: { 'circle-radius': 8, 'circle-color': '#3b82f6', 'circle-stroke-color': '#ffffff', 'circle-stroke-width': 3 } });
+      const upd = () => box.current?.classList.toggle('live-zoomed', map.getZoom() >= 16);
+      map.on('zoom', upd);
+      upd();
       setReady(true);
     });
     return () => {
@@ -137,15 +140,25 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
       el.className = [
         'rounded-full flex items-center justify-center font-bold border-2 cursor-pointer shadow',
         inTour ? 'w-8 h-8 text-[13px]' : 'w-4 h-4',
-        inTour ? (s.done ? 'bg-raised text-ink-3 border-line' : 'bg-jade text-on-jade border-white') : 'bg-white/80 border-jade',
+        inTour ? (s.done ? 'bg-raised text-ink-3 border-line' : 'bg-jade text-on-jade border-white') : 'bg-white border-jade',
         isCurrent ? 'ring-4 ring-jade/40' : '',
       ].join(' ');
       el.textContent = inTour ? String(s.tourNum) : '';
+      const label = document.createElement('span');
+      label.className = 'live-label';
+      label.textContent = s.title;
+      el.appendChild(label);
       el.addEventListener('click', (ev) => {
         ev.stopPropagation();
         setSelected(s.id);
       });
       markersRef.current.set(s.id, new maplibregl.Marker({ element: el }).setLngLat([s.lng, s.lat]).addTo(map));
+    }
+    if (!fitted.current && stops.length > 1) {
+      fitted.current = true;
+      const b = new maplibregl.LngLatBounds();
+      stops.forEach((s) => b.extend([s.lng, s.lat]));
+      map.fitBounds(b, { padding: 50, maxZoom: 16, duration: 0 });
     }
     const line = routeIds.map((id) => stopById.get(id)).filter(Boolean).map((s) => [s!.lng, s!.lat]);
     (map.getSource('route') as maplibregl.GeoJSONSource | undefined)?.setData({
@@ -220,7 +233,7 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
           type="button"
           id="btn-locate"
           onClick={locate}
-          className="absolute left-3 bottom-3 h-11 px-4 rounded-full bg-jade text-on-jade text-ui font-bold inline-flex items-center gap-2 shadow-lg cursor-pointer active:scale-95 transition-transform"
+          className="absolute left-3 top-3 h-11 px-4 rounded-full bg-jade text-on-jade text-ui font-bold inline-flex items-center gap-2 shadow-lg cursor-pointer active:scale-95 transition-transform"
         >
           <LocateFixed className="w-5 h-5" />
           {gps === 'locating' ? m.locating : m.locate}
