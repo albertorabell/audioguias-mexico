@@ -37,5 +37,21 @@
       "pl": "Południe · Brama 1"
     }
   },
-  "routes": []
+  "routes": [],
+  "live_map": {
+    "pmtiles": "maps/teotihuacan.pmtiles",
+    "center": [
+      -98.8445,
+      19.6925
+    ],
+    "zoom": 15,
+    "bounds": [
+      -98.885,
+      19.655,
+      -98.805,
+      19.725
+    ],
+    "maxZoom": 17,
+    "near_meters": 4000
+  }
 }
