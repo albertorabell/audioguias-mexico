@@ -20,6 +20,9 @@ on:
       recortar_mapa:
         description: 'Recortar también el pedazo de mapa sin internet (sí/no)'
         default: 'no'
+      bajar_tipografias:
+        description: 'Bajar también las letras del mapa para los nombres de calles (sí/no)'
+        default: 'no'
       bbox_mapa:
         description: 'Recuadro del mapa: oeste,sur,este,norte (solo si recortas)'
         default: '-98.885,19.655,-98.805,19.725'
@@ -54,6 +57,18 @@ jobs:
           ./pmtiles extract "https://build.protomaps.com/$build" "$salida" --bbox="${{ inputs.bbox_mapa }}" --maxzoom=17 > extract.log 2>&1 || { aviso "extract falló: $(tail -c 600 extract.log)"; exit 1; }
           aviso "extract: $(tail -c 300 extract.log) $(ls -la "$salida")"
 
+      - name: Bajar las letras del mapa (nombres de calles sin internet)
+        if: ${{ inputs.bajar_tipografias == 'sí' || inputs.bajar_tipografias == 'si' }}
+        continue-on-error: true
+        run: |
+          base=https://protomaps.github.io/basemaps-assets/fonts
+          for fuente in "Noto Sans Regular" "Noto Sans Medium" "Noto Sans Italic"; do
+            mkdir -p "candidatas-mapa/fuentes/$fuente"
+            for rango in 0-255 256-511; do
+              curl -sSfL "$base/${fuente// /%20}/$rango.pbf" -o "candidatas-mapa/fuentes/$fuente/$rango.pbf" || echo "::warning::No se pudo bajar $fuente $rango"
+            done
+          done
+          ls -laR candidatas-mapa/fuentes | head -30
       - name: Guardar en la rama mapa-candidatas
         if: always()
         run: |
