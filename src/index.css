@@ -310,3 +310,23 @@
 #live-map.live-zoomed .live-label { display: block; }
 #live-map .maplibregl-ctrl-attrib { font-size: 10px; line-height: 1.3; }
 #live-map .maplibregl-ctrl-attrib a, #live-map .maplibregl-ctrl-attrib-inner { font-size: 10px; }
+
+/* Anti-copia: no se pueden seleccionar los textos (los campos para escribir sí). Ver src/utils/antiCopia.ts */
+html.sin-copia body {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+html.sin-copia input,
+html.sin-copia textarea {
+  -webkit-user-select: text;
+  user-select: text;
+}
+html.sin-copia img {
+  -webkit-user-drag: none;
+}
+@media print {
+  html.sin-copia body {
+    display: none !important;
+  }
+}
