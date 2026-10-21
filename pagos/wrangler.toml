@@ -5,7 +5,7 @@ compatibility_date = "2025-01-01"
 
 [vars]
 # Direcciones desde las que se permite usar el servidor (la de tu sitio en GitHub Pages)
-ALLOWED_ORIGINS = "https://albertorabell.github.io"
+ALLOWED_ORIGINS = "https://albertorabell.github.io,https://xolotli.com"
 SITE_IDS = "mna,teotihuacan,chapultepec,centro_historico"
 PASS_HOURS = "72"
 MAX_DEVICES = "2"
