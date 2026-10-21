@@ -5,6 +5,9 @@ import App from './App.tsx';
 import { ThemeProvider } from './utils/ThemeContext';
 import { LanguageProvider } from './utils/LanguageContext';
 import './index.css';
+import { activarAntiCopia } from './utils/antiCopia';
+
+activarAntiCopia();
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
