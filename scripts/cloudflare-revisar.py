@@ -3,7 +3,7 @@ import json
 import os
 import urllib.request
 
-TOKEN = os.environ.get("CLOUDFLARE_API_TOKEN", "")
+TOKEN = os.environ.get("CLOUDFLARE_API_TOKEN_DNS") or os.environ.get("CLOUDFLARE_API_TOKEN", "")
 CUENTA = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
 
 
@@ -41,7 +41,15 @@ if not TOKEN:
     print("::error::No hay CLOUDFLARE_API_TOKEN")
     raise SystemExit(1)
 
-aviso("llave: " + resumen(api("/user/tokens/verify")))
+v = api("/user/tokens/verify")
+aviso("llave: " + resumen(v))
+if v.get("success"):
+    tid = v["result"].get("id")
+    t = api(f"/user/tokens/{tid}")
+    pol = []
+    for p in (t.get("result") or {}).get("policies", []):
+        pol.append([x.get("name") for x in p.get("permission_groups", [])])
+    aviso("permisos de la llave: " + str(pol))
 aviso("cuenta: " + resumen(api(f"/accounts/{CUENTA}")))
 z = api("/zones?name=xolotli.com")
 aviso("zona xolotli.com: " + resumen(z))
