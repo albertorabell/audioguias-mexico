@@ -1,0 +1,49 @@
+name: Publicar la app en Cloudflare Pages
+
+# Se corre a mano. Compila la app igual que la publicación de GitHub y la sube a Cloudflare Pages (proyecto "audioguias").
+# No cambia el sitio actual de GitHub Pages. Con "conectar_dominio" = si, también conecta xolotli.com.
+on:
+  workflow_dispatch:
+    inputs:
+      conectar_dominio:
+        description: 'Conectar también el dominio xolotli.com (si/no)'
+        default: 'no'
+
+permissions:
+  contents: read
+
+env:
+  GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+
+jobs:
+  cloudflare:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Instalar paquetes
+        run: npm install
+      - name: Compilar proyecto con Vite
+        run: npm run build
+        env:
+          VITE_PAYMENTS_API_URL: ${{ vars.PAGOS_API_URL }}
+          SYNC_PREVIEW: '1'
+      - name: Crear el proyecto en Cloudflare Pages (si no existe)
+        continue-on-error: true
+        run: npx --yes wrangler@4 pages project create audioguias --production-branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN_DNS }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - name: Subir la app a Cloudflare Pages
+        run: npx --yes wrangler@4 pages deploy dist --project-name=audioguias --branch=main --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN_DNS }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - name: Conectar el dominio xolotli.com
+        if: ${{ inputs.conectar_dominio == 'si' || inputs.conectar_dominio == 'sí' }}
+        run: python3 scripts/cloudflare-dominio.py
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN_DNS }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
