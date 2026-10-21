@@ -1,0 +1,42 @@
+name: Revisar permisos de Cloudflare
+
+# Se corre a mano. Solo LEE: dice si la llave de Cloudflare sirve y qué puede hacer (no cambia nada).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  revisar:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Revisar la llave y la cuenta
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          api() { curl -sS -m 30 -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "https://api.cloudflare.com/client/v4$1"; }
+          resumen() { python3 -c "import sys,json
+try:
+  d=json.load(sys.stdin)
+except Exception as e:
+  print('respuesta ilegible'); sys.exit()
+ok=d.get('success'); errs=[e.get('message') for e in d.get('errors',[])]
+r=d.get('result')
+extra=''
+if isinstance(r,list): extra=' resultados='+str(len(r))+' '+str([x.get('name') or x.get('id') for x in r][:10])
+elif isinstance(r,dict): extra=' '+str({k:r[k] for k in ('status','name') if k in r})
+print('ok' if ok else 'FALLA', errs, extra)"; }
+          aviso() { echo "::notice::$1"; }
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then echo "::error::No hay CLOUDFLARE_API_TOKEN"; exit 1; fi
+          aviso "llave: $(api /user/tokens/verify | resumen)"
+          aviso "cuenta: $(api /accounts/$CLOUDFLARE_ACCOUNT_ID | resumen)"
+          aviso "zona xolotli.com: $(api '/zones?name=xolotli.com' | resumen)"
+          aviso "proyectos Pages: $(api /accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects | resumen)"
+          zid=$(api '/zones?name=xolotli.com' | python3 -c "import sys,json
+try:
+  r=json.load(sys.stdin)['result']; print(r[0]['id'] if r else '')
+except Exception: print('')")
+          if [ -n "$zid" ]; then aviso "DNS de la zona: $(api /zones/$zid/dns_records | resumen)"; else aviso "No encontré la zona xolotli.com con esta llave"; fi
+          aviso "Workers: $(api /accounts/$CLOUDFLARE_ACCOUNT_ID/workers/scripts | resumen)"
