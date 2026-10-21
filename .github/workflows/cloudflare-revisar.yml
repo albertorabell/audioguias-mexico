@@ -15,5 +15,6 @@ jobs:
       - name: Revisar la llave y la cuenta
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN_DNS: ${{ secrets.CLOUDFLARE_API_TOKEN_DNS }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: python3 scripts/cloudflare-revisar.py
