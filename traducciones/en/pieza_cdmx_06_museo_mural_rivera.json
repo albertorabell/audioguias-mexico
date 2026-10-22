@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_06_museo_mural_rivera",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "62afee6955648785",
+      "texto": "Diego Rivera Mural Museum: A Sunday in the Alameda"
+    },
+    "frase_gancho": {
+      "hash": "8be975d5fb002bf2",
+      "texto": "A mural weighing thirty-five tons changed location twice and survived the 1985 earthquakes."
+    },
+    "puente_narrativo": {
+      "hash": "ed3dc04e2d81cc69",
+      "texto": "Head back through the Alameda toward Eje Central and continue to Tacuba Street. Just a few steps away, the Palacio Postal awaits you."
+    },
+    "como_llegar": {
+      "hash": "290bda5aaacf6075",
+      "texto": "Continue toward the west side of the park, in the direction of Balderas Street. At the corner with Colón stands the museum that holds a mural about this very Alameda."
+    },
+    "guion_corto": {
+      "hash": "d57018a95952ef26",
+      "texto": "In nineteen forty-seven, Diego Rivera painted a fresco for the dining room of the Hotel del Prado. It is called Sueño de una tarde dominical en la Alameda Central. It condenses some four hundred years of Mexican history into a stroll through the park you have just walked. It measures more than fifteen meters long. When the earthquakes of nineteen eighty-five damaged the hotel, the mural was saved. On December fourteenth, nineteen eighty-six, it was moved in about twelve hours, with more than three hundred workers, to this site. The museum that shelters it was built here, and it opened on February nineteenth, nineteen eighty-eight."
+    },
+    "guion_largo": {
+      "hash": "cc36a5affba2aa53",
+      "texto": "The mural that gives this museum its name is called Sueño de una tarde dominical en la Alameda Central. Diego Rivera painted it between July and September of nineteen forty-seven. He was helped by the painter Rina Lazo and by Pedro Peñaloza, and Andrés Sánchez Flores collaborated in preparing the wall. It is a fresco four meters and seventeen centimeters high. It measures fifteen meters and sixty-seven centimeters long and weighs about thirty-five tons.\n\nThe architect Carlos Obregón Santacilia proposed it for the Versalles dining room of the Hotel del Prado. That hotel stood at the corner of Revillagigedo and Avenida Juárez, facing the Alameda, and was built between nineteen thirty-three and nineteen forty-six.\n\nThe scene is a Sunday stroll in the Alameda. Rivera described it as memories of his childhood and youth, with figures who dream, some asleep on the benches and others walking and talking. At the center appears the Catrina. She holds the hand of the boy Diego and takes the arm of José Guadalupe Posada, the engraver who made her famous. Behind the boy, Frida Kahlo embraces him in a maternal gesture. The work brings together more than one hundred fifty figures, among them Hernán Cortés, Benito Juárez, Maximilian of Habsburg, Francisco I. Madero and Porfirio Díaz, along with street vendors and revolutionaries.\n\nThe mural had a turbulent life. On the scroll held by one figure, Rivera painted the phrase “Dios no existe,” meaning “God does not exist.” It is attributed to Ignacio Ramírez, the Nigromante, who is said to have spoken it at the age of eighteen at the Academia de Letrán. In June of nineteen forty-eight, a group of conservative students attacked the painting and scratched out the phrase and Rivera’s face. Afterward, the work was covered with screens. In April of nineteen fifty-six, Rivera replaced the phrase. In its place he put a reference to the lecture at the Academia de Letrán in eighteen thirty-six.\n\nIn nineteen sixty, the mural was moved to the hotel lobby on a new metal structure. The earthquakes of September nineteen eighty-five badly damaged the building, and the hotel was demolished. The mural was saved. On December fourteenth, nineteen eighty-six, it was moved in about twelve hours, with more than three hundred workers. They took it to the lot that had been the parking lot of the Hotel Regis, at Balderas and Colón. That is, right here. The museum was built on that lot, and it opened on February nineteenth, nineteen eighty-eight.\n\nThe museum is centered on that work, which is its main collection. The museum also offers guided tours, readings and workshops. Admission is charged, and the painting cannot be seen from the street. If you decide to go in, check the current hours and conditions. And if not, the Alameda right in front of you is the best preview: it is the setting of Rivera’s dream.\n\nRivera reappears in this first area of the tour. At the [Palacio de Bellas Artes](cdmx_01_bellas_artes) his mural El hombre controlador del universo is on display. And Juárez, whose hemicycle you left behind, is one of the figures Rivera included in this mural."
+    },
+    "retos_observacion": {
+      "hash": "c63a8b937434edd8",
+      "texto": [
+        "Find the corner of Balderas and Colón, where the museum was built",
+        "Look toward the Alameda, which is the setting of the mural, and notice its trees, walkways and benches",
+        "Notice the people resting or chatting on the park benches: Rivera painted a similar scene"
+      ]
+    },
+    "especificaciones": {
+      "hash": "16281dc71852006e",
+      "texto": {
+        "Period": "mural from 1947; museum opened on February 19, 1988",
+        "Author": "Diego Rivera, with Rina Lazo, Pedro Peñaloza and Andrés Sánchez Flores",
+        "Technique and dimensions": "fresco measuring 4.17 by 15.67 meters, about 35 tons",
+        "Location": "Balderas s/n at the corner of Colón, Centro",
+        "Key fact": "moved on December 14, 1986 in about 12 hours"
+      }
+    },
+    "faq_mito": {
+      "hash": "9f79702c94dc025e",
+      "texto": {
+        "pregunta": "Myth: Rivera invented the phrase “Dios no existe” to provoke the Church.",
+        "respuesta": "Reality: The phrase is attributed to Ignacio Ramírez, the Nigromante, who is said to have spoken it at the Academia de Letrán in 1836; Rivera placed it on the scroll of that figure."
+      }
+    }
+  }
+}

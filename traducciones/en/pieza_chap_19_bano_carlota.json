@@ -1,0 +1,55 @@
+{
+  "id": "chap_19_bano_carlota",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7ba66d64f1b59450",
+      "texto": "Grooming Room"
+    },
+    "frase_gancho": {
+      "hash": "77e356572d24bd3e",
+      "texto": "The water for the emperors’ baths came up from the springs on the hill by mule or by cart."
+    },
+    "puente_narrativo": {
+      "hash": "4c2d6b8661224f1d",
+      "texto": "Continue on to the rooms of Maximilian, the man who named this palace Miravalle."
+    },
+    "guion_corto": {
+      "hash": "ca63bc1f4a96a541",
+      "texto": "What was an emperor’s bath like in the middle of the nineteenth century? According to the National Museum of History, people of that era used tubs or troughs, with ewers and wash basins, that is, pitchers and basins. At the Alcázar, the water came from the springs on the hill, on the back of a mule or by cart. Maximilian and Carlota each had their own grooming room. Every trip required the work of someone who almost never appears in portraits. It seems like a minor detail, but the imperial government aspired to modernity: it planned drinking-water pipes to replace the water carrier, drainage for the Valley of Mexico, paved streets, and gas lighting."
+    },
+    "guion_largo": {
+      "hash": "1337fac42ca88606",
+      "texto": "The word grooming sounds modest, but this room tells us a great deal. The National Museum of History explains that bathing in those years was done in tubs or troughs, with ewers and wash basins. None of that was exclusive to emperors. What changed was the labor behind it. At the Alcázar, the water came from the springs on the hill by mule or by cart. Someone had to haul it and carry it up to the room, and that someone almost never appears in portraits.\n\nThat invisible labor is one of the museum’s themes. It devotes a hall to the household staff and to the dumbwaiter that lifted food up from the kitchen. It also points out that there were stairways reserved for the servants. This grooming room invites us to think about the same people, but from another corner of the house.\n\nThe room also speaks of the ambitions of the Empire. Maximilian’s government sought, in the museum’s words, to place Mexico among the advances of civilization. To do so, it set out to renew the services of the capital. It wanted drinking-water pipes to replace the water carrier, drainage for the Valley of Mexico, paved streets, and gas lighting. It was an ambitious plan, in a country where the Empire and Juárez’s Republic were disputing power.\n\nA curious fact from the museum: Maximilian and Carlota each had their own grooming room. The Alcázar thus had at least two spaces devoted to that purpose. That is why it is wise to treat with caution the descriptions of marble tubs and hydraulic systems that circulate about the Castle: the museum does not document them.\n\nThe museum’s chronology shows how the functions of a room change. In eighteen sixty-six, this space was the bedroom of the lady-in-waiting, a close companion of the empress. In eighteen seventy-seven it was the director’s room, in the years when the hill housed scientific facilities. In eighteen eighty-two, under President Manuel González, it already appears as a grooming room. In nineteen oh six, under Porfirio Díaz, and in nineteen thirty-two, under Abelardo Rodríguez, the list records it as a bathroom. The museum relates that Díaz wanted to showcase Mexico’s technical progress. Among his works were elevators, one of them rising from the base of the hill. Going up without carrying anything was another kind of comfort. To see how Díaz lived, visit the stop ahead at the [bedrooms of Porfirio Díaz and Carmen Romero](chap_21_recamara_porfirio_carmen).\n\nThere is another layer of history in the water. The chronicler Ángeles González Gamio recalls an earlier precedent. In the middle of the fifteenth century, Nezahualcóyotl had an aqueduct built that carried water from the springs of Chapultepec to Tenochtitlan. In other words, those same springs fed the city centuries before the European emperors arrived.\n\nToday we only need to turn a tap to have water, and we almost never think about the path it travels. This room invites us to imagine it."
+    },
+    "retos_observacion": {
+      "hash": "9b6cae370b1e4559",
+      "texto": [
+        "Look on the wall label for the mention of the mules and carts that brought the water up",
+        "Look for the ewers and wash basins, the pitchers and basins of the period’s grooming routine",
+        "Notice the timeline of the space, which runs from eighteen sixty-six to nineteen thirty-two"
+      ]
+    },
+    "especificaciones": {
+      "hash": "188decb1319e66b6",
+      "texto": {
+        "Name in the museum": "Gabinete de Aseo",
+        "Record of the space": "1866 lady-in-waiting’s bedroom; 1882 grooming room; 1906 and 1932 bathroom",
+        "Water": "came from the springs on the hill by mule or cart",
+        "Bath of the period": "tubs or troughs, with ewers and wash basins",
+        "Key fact": "Maximilian and Carlota each had their own grooming room"
+      }
+    },
+    "faq_mito": {
+      "hash": "259633011db59aad",
+      "texto": {
+        "pregunta": "Myth: In Maximilian’s time, the Castle already had piped water and marble tubs like a modern hotel.",
+        "respuesta": "Reality: the National Museum of History explains that bathing in that period was done in tubs or troughs with ewers and wash basins, and that at the Alcázar the water came from the springs on the hill by mule or cart. Drinking-water pipes were a project of the imperial government for the city."
+      }
+    }
+  }
+}

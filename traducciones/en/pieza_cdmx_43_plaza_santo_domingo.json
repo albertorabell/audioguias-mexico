@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_43_plaza_santo_domingo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae632bd997c52faf",
+      "texto": "Santo Domingo Plaza and the Scribes of the Arcades"
+    },
+    "frase_gancho": {
+      "hash": "96bdc3a09f05522b",
+      "texto": "Beneath these arcades, since the nineteenth century, scribes wrote letters and handled paperwork for people who could not write."
+    },
+    "puente_narrativo": {
+      "hash": "f500d6bb9b4c0457",
+      "texto": "Walk toward the north side of the plaza, where the tile-covered tower announces the [Santo Domingo Church](cdmx_44_templo_santo_domingo)."
+    },
+    "como_llegar": {
+      "hash": "fb665259b4c47993",
+      "texto": "Continue to the [Santo Domingo Plaza](cdmx_43_plaza_santo_domingo), where the route carries on among arcades, churches, and schools."
+    },
+    "guion_corto": {
+      "hash": "9cb082db2cff0823",
+      "texto": "Beneath these arcades, more than a century ago, a man with a pen, an inkwell, and paper wrote other people’s letters. They were called evangelistas. They were scribes who wrote letters and handled paperwork for people who could neither read nor write, and later they worked with a typewriter. The plaza where they set up shop is even older. The Dominican friars laid it out to give their church a view and splendor, and since the middle of the sixteenth century it has had the dimensions you see today. Over the years a tribunal of the Inquisition, a customs house, and a fountain with a heroine of Independence were added. In this plaza, faith, law, and the paperwork of several centuries of city life live side by side."
+    },
+    "guion_largo": {
+      "hash": "3921416fc9d9e7ad",
+      "texto": "Before this plaza existed, what was here? No one knows for certain. The catalog of historic monuments of the National Institute of Anthropology and History (INAH) records one idea. It is thought that the house of Cuauhtémoc, the last Mexica ruler, stood here, and that this is why the land remained free when the city was divided up. It is a supposition, not a proven fact. From it springs another story, that of the treasure Cuauhtémoc is said to have hidden in the ponds of his gardens. It is a legend, without documentary evidence, and it is best heard as a legend.\n\nWhat is documented is the work of the Dominicans. They were the ones who created the plaza to give their church a view and splendor. It has existed with its current dimensions, about fifty meters by one hundred fifty, since the middle of the sixteenth century. On a map from seventeen ninety-three it already appears under the name Plazuela de Santo Domingo. The buildings that surround it, however, are younger. The church, the tribunal, and the customs house were built or rebuilt during the eighteenth century.\n\nThat mix of powers can be felt on every side. To the north is the church of the Dominicans. To the east, the former Customs House, which today is part of the complex of the Ministry of Public Education. And facing the plaza stands the building of the Holy Office. The architect Pedro de Arrieta built it between seventeen thirty-two and seventeen thirty-six. Mexico City remembers that this plaza was linked to the Tribunal of the Inquisition and that sentences were read here at autos de fe, public ceremonies where the decisions of the Holy Office were announced. It is a harsh part of the place’s history, and it should be told with restraint.\n\nThe plaza also served for welcomes. When a viceroy arrived in the capital, two triumphal arches were raised to receive him. One stood in the Plaza del Empedradillo, next to the Cathedral. The other, here, in Santo Domingo.\n\nNow look at the fountain in the center. On top of it stands the statue of Josefa Ortiz de Domínguez, one of the figures of the struggle for Independence. It was placed in eighteen ninety, and it is the work of the Italian sculptor Enrico Alciati, the same artist behind the Angel of Independence on Reforma. The fountain, however, seems older. It is thought to have been designed in the late eighteenth century, with the architect Ignacio Castera.\n\nAnd there are the arcades on the west side, with parts that date from the seventeenth century. In the nineteenth century, the evangelistas set up shop beneath those arches. They wrote letters and handled paperwork for anyone who could not read or write, first by hand and later on a typewriter. In time, the area became a neighborhood of printing shops, and even today the plaza is associated with documents. That trade shows what life was like when knowing how to write was not within everyone’s reach.\n\nOne last detail. The plaza on the north side is also known as Plaza Veintitrés de Mayo. The name recalls Student Day and the student movement of nineteen twenty-nine, which led to university autonomy. For centuries, this plaza was surrounded by schools and colleges, and within a few steps you will still find some very important ones."
+    },
+    "retos_observacion": {
+      "hash": "2b33ca6a113f400c",
+      "texto": [
+        "Count the arches of the arcade on the west side",
+        "Find the statue of the woman at the center of the fountain",
+        "Spot the tile-covered tower on the north side of the plaza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "45d402a37ef9c519",
+      "texto": {
+        "Period": "laid out around the middle of the 16th century; current buildings from the 18th century",
+        "Location": "República de Brasil Street, Historic Center",
+        "Dimensions": "about 50 by 150 meters (INAH catalog)",
+        "Statue": "Josefa Ortiz de Domínguez, by Enrico Alciati, placed in 1890",
+        "Key fact": "home of the scribes, or evangelistas, since the 19th century",
+        "Protection": "Historic Monument, INAH catalog"
+      }
+    },
+    "faq_mito": {
+      "hash": "a6c8aa834cf9a52a",
+      "texto": {
+        "pregunta": "Myth: There is a hidden treasure in the ponds of Cuauhtémoc’s garden, beneath this plaza.",
+        "respuesta": "Reality: It is only thought, without proof, that Cuauhtémoc’s house stood here; the treasure is a rumor and a legend, without documentary evidence."
+      }
+    }
+  }
+}

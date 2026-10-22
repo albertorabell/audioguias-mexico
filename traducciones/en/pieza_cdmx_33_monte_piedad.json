@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_33_monte_piedad",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "59b60f79a6679a95",
+      "texto": "Nacional Monte de Piedad: Pawnshop, Charity, and a Mexica Palace"
+    },
+    "frase_gancho": {
+      "hash": "5db6a74bfdd05e99",
+      "texto": "This pawnshop was born in seventeen seventy-five as a work of charity, and beneath its courtyard lie Mexica remains."
+    },
+    "puente_narrativo": {
+      "hash": "31d7a4e97f6d60ea",
+      "texto": "Walk around the Cathedral along its east side to Seminario Street, where the ruins of the Templo Mayor await you."
+    },
+    "como_llegar": {
+      "hash": "eca0b029f636493b",
+      "texto": "Head back toward the plaza and continue to its northwest corner, where Monte de Piedad Street runs along the Cathedral."
+    },
+    "guion_corto": {
+      "hash": "7810936d0c9403cf",
+      "texto": "Its first name was extremely long: Sacro y Real Monte de Piedad de Ánimas. It was founded by Pedro Romero de Terreros, Count of Regla, and began operating on February twenty-fifth, seventeen seventy-five. The idea was to lend money against pledged goods in order to fight usury, and at first without charging interest. Today it is called Nacional Monte de Piedad, and it acquired this building, next to the Cathedral, in eighteen thirty-six. On the façade you can see the coat of arms of the Count of Regla. Beneath the courtyard, INAH archaeologists identified remains that they attribute to the palace of Axayácatl, a Mexica ruler. Two eras of the city live side by side on a single corner."
+    },
+    "guion_largo": {
+      "hash": "3cfa1cc05c0d968f",
+      "texto": "The Monte de Piedad was born as a work of charity. A historian from UNAM, María Eugenia Romero Ibarra, reconstructed its origins. Pedro Romero de Terreros proposed the idea to the viceroy in seventeen sixty-seven. He offered to donate three hundred thousand pesos fuertes. King Charles the Third approved the project on July thirtieth, seventeen seventy-three. The royal decree was signed in Aranjuez on June second, seventeen seventy-four. The institution began operating a year after the decree.\n\nIt lent money in exchange for pledged goods, in order to fight usury. At first it charged no interest and lived on voluntary alms. From seventeen eighty-two, in practice, it began to charge interest. The institution explains that its founder conceived of it as a perpetual foundation. He did not want a for-profit business. Any surplus was meant to go to other charitable works.\n\nHere is a curious fact: the model for these institutions comes from the Monte di Pietà of Perugia, in Italy, from fourteen fifty.\n\nIt took years before it arrived at this corner. Its first headquarters was the former College of San Pedro and San Pablo, run by the Society of Jesus, on what is now San Ildefonso Street. In eighteen eighteen it moved to a house rented from the nuns of Santa Brígida. In eighteen thirty-six it acquired the property facing the Zócalo. Its façade is made of tezontle. Above the entrance is the count’s coat of arms.\n\nBut the most surprising part lies below. This plot is attributed to the palace of Axayácatl, father of Moctezuma the Second. Axayácatl ruled Tenochtitlan between fourteen sixty-nine and fourteen eighty-one. Hernán Cortés stayed there when he arrived in Tenochtitlan. In July of two thousand twenty, the INAH announced findings in the main courtyard: floors of basalt slabs, probably part of an open space of the palace, and the remains of a room of basalt and tezontle. The archaeological rescue took place between September two thousand seventeen and August two thousand eighteen, during rehabilitation work on the building.\n\nResearchers suggest that, after the Conquest, the palace was torn down. Its materials would have been reused in a house believed to have been Cortés’s. This is a hypothesis, not a certainty, and that is why it is best to say that the remains are attributed to the palace of Axayácatl.\n\nToday the building is still the main house of the institution. As you walk past this corner, think about the two layers that live together here: a pawnshop more than two hundred fifty years old and, beneath it, the trace of a Mexica palace. From the sidewalk, it is enough to look at the façade. And a few steps away, at the [Templo Mayor](cdmx_34_templo_mayor), you will see the ceremonial center of the Mexica, whose world this palace was part of."
+    },
+    "retos_observacion": {
+      "hash": "f7cbe154bde73301",
+      "texto": [
+        "Look above the entrance for the coat of arms of the Count of Regla",
+        "Notice the reddish tezontle of the façade",
+        "On the corner, read the name of the street, which bears the name of the institution"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c46eae7b696e261c",
+      "texto": {
+        "Foundation": "February 25, 1775",
+        "Founder": "Pedro Romero de Terreros, first Count of Regla",
+        "Original name": "Sacro y Real Monte de Piedad de Ánimas",
+        "Building": "acquired in 1836, on the site attributed to the palace of Axayácatl",
+        "Façade": "tezontle, with the coat of arms of the Count of Regla",
+        "Location": "Monte de Piedad Street, northwest side of the Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "e8e99585b9df312a",
+      "texto": {
+        "pregunta": "Myth: The Monte de Piedad is a government agency.",
+        "respuesta": "Reality: It is a private nonprofit institution, founded by a private individual, the Count of Regla."
+      }
+    }
+  }
+}

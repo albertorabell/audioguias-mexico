@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_17_calle_madero",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "22ffe56348470578",
+      "texto": "Madero Street: San Francisco, Plateros, and a Name from 1914"
+    },
+    "frase_gancho": {
+      "hash": "c0df6cac65fcd83e",
+      "texto": "A street that was once San Francisco, then Plateros, and that since nineteen fourteen has carried the name Madero."
+    },
+    "puente_narrativo": {
+      "hash": "ca8e83faa3ac4dc9",
+      "texto": "Continue along Madero to number seventeen, where the [Iturbide Palace](cdmx_18_palacio_iturbide) awaits you."
+    },
+    "como_llegar": {
+      "hash": "52b9b73c044c7165",
+      "texto": "Return to Madero Street and continue toward the Zócalo; the pedestrian stretch of [Madero Street](cdmx_17_calle_madero) begins."
+    },
+    "guion_corto": {
+      "hash": "d0c0022d0429b3ae",
+      "texto": "On September twenty-seventh, eighteen twenty-one, a triumphal arch awaited Agustín de Iturbide near the western end of this street. It was then called San Francisco Street, after the convent you have just left behind. Later it became Plateros Street, and since December nineteen fourteen it has borne the name of Francisco I. Madero. Today it is pedestrian-only and runs all the way to the Zócalo. Every facade along this stretch holds a different story: palaces of counts, a church that once belonged to the Jesuits, shops from every era. Walk it unhurriedly and look at mid-height, where the buildings show off their balconies and their doorways."
+    },
+    "guion_largo": {
+      "hash": "d2e0ad1b16885d4e",
+      "texto": "This street has had three names. The first was San Francisco Street, after the Franciscan convent you have just visited. The second was Plateros Street, because the silversmiths settled along it. For a long time people knew it by that name. The chronicler Juan Becerra Acosta recalls that, by sections, the one near Eje Central was San Francisco, the next was La Profesa, after the church, and the last, toward the Zócalo, was Plateros.\n\nThe third name is the current one. On December eighth, nineteen fourteen, when Francisco Villa entered the center of the city, the Plateros plaque was taken down and the Madero one was put up. The historian Karem Celso, of the Museo Nacional de la Revolución, says that Villa first wrote Maderito and then corrected himself. Francisco I. Madero had been president of Mexico and was assassinated in nineteen thirteen. The name of the street is a tribute to him.\n\nThis has also been a street of triumphal entrances. On September twenty-seventh, eighteen twenty-one, the Army of the Three Guarantees entered the capital, led by Agustín de Iturbide. At the western entrance of San Francisco Street, the city council had raised a triumphal arch, built in haste. There the president of the council handed Iturbide the keys to the city, and Iturbide gave them back. From there the procession continued to the Imperial Palace, today the National Palace. One legend says that Iturbide wanted to pass along this street so that La Güera Rodríguez, who lived near La Profesa, could see him.\n\nWalk with your gaze at mid-height and you will see the Historic Center as a book of layers. In just a few steps, buildings from the viceregal period, the Porfiriato, and the twentieth century follow one another. Farther along, the Iturbide Palace and the church of La Profesa await you. All of them are just around the corner from a few arcades, and each one explains something different about the city.\n\nThere is a detail that many people walk right past. At the corner of Madero and Motolinía there is a stone mask in the shape of a lion’s head. Tradition says it marks the height the water reached in the flood of sixteen twenty-nine, and the magazine Km Cero, from the Historic Center Trust, tells it that way. When you reach that corner, look for it on the facade. That flood, known as the flood of San Mateo, kept the city under water for years.\n\nToday the street is pedestrian-only, and so you can walk down the middle without dodging cars. It connects the Eje Central area with the main plaza of the country, and a great many people walk it every day, so it is wise to be patient during busy hours.\n\nOn this stretch you will pass from the old world of the convents to the country’s main plaza. Take it slowly. Every corner offers you a different pause: a doorway, a balcony, a wooden door. And remember that almost everything you will see has been gazed at before by soldiers, emperors, and ordinary people who came to buy silver."
+    },
+    "retos_observacion": {
+      "hash": "5af3cb649296cf33",
+      "texto": [
+        "Look at mid-height for the balconies and doorways of the buildings, and compare which ones look older",
+        "Find a sign with the name Francisco I. Madero and remember the street’s two earlier names",
+        "Look back and find the silhouette of the Torre Latinoamericana at the end of the stretch"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ee1580ad70581b0e",
+      "texto": {
+        "Names": "San Francisco Street, then Plateros, Madero since December 1914",
+        "Stretch": "From Eje Central to the Plaza de la Constitución",
+        "Key event": "Entry of the Army of the Three Guarantees into the capital, September 27, 1821",
+        "Location": "Av. Francisco I. Madero, Historic Center",
+        "Current use": "Pedestrian street"
+      }
+    },
+    "faq_mito": {
+      "hash": "df6e1daa80a58ac0",
+      "texto": {
+        "pregunta": "Myth: The street is called Madero because Francisco I. Madero entered triumphantly along it in nineteen eleven.",
+        "respuesta": "Reality: Madero entered the capital on June seventh, nineteen eleven, heading to the Zócalo by way of Paseo de la Reforma. The street received its name on December eighth, nineteen fourteen, when he had already been assassinated."
+      }
+    }
+  }
+}

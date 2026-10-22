@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_48_templo_ensenanza",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "de63cb6607344e3b",
+      "texto": "Templo de la Enseñanza, the Girls’ School of New Spain"
+    },
+    "frase_gancho": {
+      "hash": "d9aa1917a450452b",
+      "texto": "Above the door there is a star-shaped window, and in it the Virgin of the Pillar looks out."
+    },
+    "puente_narrativo": {
+      "hash": "e697dc790e84dc31",
+      "texto": "Walk a few steps along the same Donceles street to the [Museo de la Caricatura](cdmx_49_museo_caricatura), in the former Colegio de Cristo."
+    },
+    "como_llegar": {
+      "hash": "a47a8e1fa4f733a0",
+      "texto": "Continue along Donceles, the street that Justo Sierra becomes after crossing República de Argentina, to the [Templo de la Enseñanza](cdmx_48_templo_ensenanza)."
+    },
+    "guion_corto": {
+      "hash": "21b8cb2dc3d44207",
+      "texto": "Above the entrance door there is a window shaped like a flared star. It lights the choir loft and frames the image of the Virgin of the Pillar. It is a detail by Francisco Guerrero y Torres, the architect who was commissioned to build this church in seventeen seventy-two. Here stood a convent and school of the Company of Mary, known as La Enseñanza, founded by Mother María Ignacia Azlor. It was one of the most renowned schools for girls in New Spain. Of the original complex, which was much larger, only the church survives today, one of the last great buildings of its style in the city, now the parish of Our Lady of the Pillar."
+    },
+    "guion_largo": {
+      "hash": "91476849d9fe82cf",
+      "texto": "Look at the main door. The arch is low, and the central stone, the keystone, sits lower than usual. Above it, the flared star-shaped window lights the choir loft. And in the center of the facade there is an alabaster sculpture of the Virgin of the Pillar. This devotion was the one dearest to the founder, and it gives the church its name.\n\nThe story begins with María Ignacia Azlor. She was the daughter of a governor of Texas and Coahuila, and she wanted to devote herself to teaching girls. She traveled to Spain to join the Company of Mary, an order dedicated to teaching. She wanted to promote the education of girls from all social classes. Her convent and school were built on the street that was then called Cordobanes, and that today is Donceles.\n\nMother María Ignacia died before seeing the church. In seventeen seventy-two the church was commissioned from Francisco Guerrero y Torres, a great architect of the eighteenth century. He is the same architect of the Capilla del Pocito and of the [Iturbide Palace](cdmx_18_palacio_iturbide), which you already know. He worked here from seventeen seventy-two to seventeen seventy-eight. That places the church at the end of the viceregal period, about four decades before Independence. The convent and the school are attributed to Ignacio Castera, around eighteen oh-five.\n\nIf the church is open and you decide to enter respectfully, its construction holds a trick. An arch with three lobes supports the upper choir and allows a nave without columns, so that nothing blocks the view toward the altar. The windows of the central vault also have three lobes, something considered unique in Mexican Baroque.\n\nInside, the main altarpiece stands out, considered one of the finest works of Guerrero y Torres. On the vault there is a fresco of the apparition of the Virgin of the Pillar to the apostle Saint James. Canvases by Andrés López accompany the altarpiece. Access and guided tours change, so check the current hours.\n\nThere is one last human detail. Mexico City remembers that, in the twentieth century, the Spanish community exiled by the civil war had a special devotion to this church. They came every twelfth of October, the day of the Virgin of the Pillar.\n\nWith the Reform Laws, the complex lost its character as a school and convent. Today the church is the parish of Our Lady of the Pillar, and it is what remains of a much larger complex, probably one of the last buildings of its kind.\n\nThink about what this school meant, a place created to educate girls. It was one of the most renowned in New Spain. A few steps away stands another viceregal school, the Colegio de Cristo, which now houses a museum of caricatures. Between the two, Donceles street tells the story of education in the city."
+    },
+    "retos_observacion": {
+      "hash": "e6b7718cf00c993a",
+      "texto": [
+        "Find the star-shaped window above the main door",
+        "Locate the sculpture of the Virgin of the Pillar on the facade",
+        "Notice the low arch of the entrance door"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e050a53a7ec7ee87",
+      "texto": {
+        "Period": "church commissioned in 1772; built from 1772 to 1778",
+        "Architect": "Francisco Guerrero y Torres; convent and school attributed to Ignacio Castera (1805)",
+        "Style": "late New Spanish Baroque",
+        "Location": "Donceles 102, Historic Center",
+        "Founder": "María Ignacia Azlor, Company of Mary",
+        "Key fact": "nave without columns thanks to the choir loft resting on a three-lobed arch"
+      }
+    },
+    "faq_mito": {
+      "hash": "4835b7386d721684",
+      "texto": {
+        "pregunta": "Myth: Because of its old look, La Enseñanza must be one of the first churches in the city.",
+        "respuesta": "Reality: Its church was commissioned in 1772 and built until 1778, at the end of the viceregal period."
+      }
+    }
+  }
+}

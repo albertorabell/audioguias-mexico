@@ -1,0 +1,55 @@
+{
+  "id": "chap_01_rampa",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d9f43da925a1471b",
+      "texto": "Chapultepec: the Hill of the Grasshopper and Its Springs"
+    },
+    "frase_gancho": {
+      "hash": "9604ddc6f2cdd70d",
+      "texto": "Before it was a castle, this hill was a source of fresh water that kept the Mexica capital alive."
+    },
+    "puente_narrativo": {
+      "hash": "405a650038748245",
+      "texto": "Follow the path up to the top of the hill. Soon you will reach the main entrance of the Castle, where the story of the building begins."
+    },
+    "guion_corto": {
+      "hash": "ceeae5ec271316a8",
+      "texto": "Chapultepec comes from the Nahuatl chapulin, which means grasshopper, and tepetl, which means hill. The final c indicates place, so the name means on the hill of the grasshopper. People lived here about three thousand years ago, on the shore of the ancient Lake Texcoco. The Mexica considered it a sacred and strategic site from the founding of Tenochtitlan, in the year thirteen twenty-five. The reason was practical: freshwater springs flowed from this hill, and the water of the lake could not be drunk. An aqueduct carried that treasure to the capital. As you climb, remember that you are walking on a mountain of water, long before there was a palace."
+    },
+    "guion_largo": {
+      "hash": "5849bab9a26294c8",
+      "texto": "This climb crosses several layers of history, and the oldest one has no walls. It is water.\n\nThere are pottery and burials from the Preclassic period, between the year twenty-five hundred before Christ and the year two hundred after Christ. They show that people settled here about three thousand years ago. They chose the shore of the ancient Lake Texcoco, beside a hill that overlooked the landscape.\n\nThe Mexica came to know this place during their long migration. They stopped here for a time, until the Chalca and the Xochimilca drove them out. When they founded Tenochtitlan, they looked back toward this place. The National Museum of History explains that Chapultepec was considered a sacred and strategic place because of its springs. A study from UNAM recalls the detail that explains everything: the water of Lake Texcoco was not drinkable. Without these springs, the Mexica capital would have gone thirsty.\n\nFor that reason aqueducts were built, though the sources do not fully agree on the dates. An INAH study says that the people of Texcoco brought water to the city in the year fourteen sixty-six. This was by order of Nezahualcóyotl, during the reign of Moctezuma Ilhuicamina. Other INAH reports speak of a first simple channel, made of reeds, stones and mud, around fourteen eighteen. What is clear is its function: to bring fresh water to a city built on the lake.\n\nThe hill also served to leave a record for posterity. INAH reports that Mexica rulers had their portraits carved into the nearby rocks. A text from the Institute of Historical Research of UNAM adds that several of those images were destroyed over the centuries.\n\nWater was also a weapon. During the siege of Tenochtitlan, the Spanish troops under Cristóbal de Olid destroyed the first aqueduct of Chapultepec. Years later, in fifteen thirty, a royal decree from Emperor Charles V gave the forest to Mexico City. The trees with thick trunks that grow at the foot of the hill are ahuehuetes, a Nahuatl word that means old man of the water. A letter from Viceroy Antonio de Mendoza, from fifteen thirty-seven, already mentions them. Tradition credits Nezahualcóyotl with planting the oldest ones.\n\nThe summit was slow to receive a palace. According to the museum, a gunpowder explosion destroyed a viceroy’s country house in seventeen eighty-four. It stood on the slope of the hill. A year later, Bernardo de Gálvez began work on a new palace at the top. That is the origin of the Castle you are about to visit.\n\nSince then, these slopes have seen cadets, emperors and presidents pass by. In the battle of eighteen forty-seven, the San Blas battalion was the only reinforcement for the defenders. According to the National Institute of Historical Studies of the Revolutions of Mexico, it only managed to climb as far as the first ramp.\n\nSo, before you reach the door, keep this idea in mind: the hill was first a spring, then a protected forest, and much later a palace. Now [the main entrance to the grounds](chap_02_fachada_puerta) awaits you."
+    },
+    "retos_observacion": {
+      "hash": "d2fe29701143e71d",
+      "texto": [
+        "Look among the trees of the forest for an ahuehuete, which you can recognize by its thick trunk and drooping branches",
+        "Notice how the path climbs, and see how much forest lies at your feet",
+        "Look toward the horizon and imagine the valley with Lake Texcoco, which can no longer be seen today"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e5520fd6148063d",
+      "texto": {
+        "Name": "Chapultepec, from the Nahuatl chapulin (grasshopper) and tepetl (hill): on the hill of the grasshopper",
+        "Ancient occupation": "Preclassic pottery and burials, from 2500 before Christ to 200 after Christ",
+        "Mexica importance": "sacred and strategic place because of its springs, from the founding of Tenochtitlan in 1325",
+        "City forest": "decree of Charles V, 1530",
+        "Key fact": "in 1785 Viceroy Bernardo de Gálvez began the palace at the summit"
+      }
+    },
+    "faq_mito": {
+      "hash": "bc68ce1c15e2ac94",
+      "texto": {
+        "pregunta": "Myth: Chapultepec Castle was built by Emperor Maximilian.",
+        "respuesta": "Reality: Construction began in 1785, under Viceroy Bernardo de Gálvez. Maximilian and Carlota lived in it from 1864 to 1867 and transformed it into a palace."
+      }
+    }
+  }
+}

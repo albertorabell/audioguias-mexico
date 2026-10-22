@@ -1,0 +1,56 @@
+{
+  "id": "chap_28_salon_gobelinos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5246c8622a6c01fd",
+      "texto": "The Gobelins Salon"
+    },
+    "frase_gancho": {
+      "hash": "09ceebeb2c461b0a",
+      "texto": "A hazelwood suite and tapestries that Napoleon III gave to Maximilian, and four portraits of two pairs of monarchs."
+    },
+    "puente_narrativo": {
+      "hash": "411fd8fa951161ca",
+      "texto": "Continue to Carlota’s Bedchamber, the empress who ruled while her husband was far away."
+    },
+    "guion_corto": {
+      "hash": "a582dd68048f1934",
+      "texto": "This hall is called the Gobelins Salon, and its museum label titles it Nostalgia for Europe. It holds a suite of hazelwood furniture in the Louis Quinze style, with Aubusson upholstery showing the fables of La Fontaine, a personal gift from Napoleon the Third to Maximilian. On the walls hang four portraits painted by Albert Graefle in eighteen sixty-five, and there are two pianos, one French and one English."
+    },
+    "guion_largo": {
+      "hash": "f3cd2ce0bd404558",
+      "texto": "When Maximilian and Carlota settled in Chapultepec, they brought a piece of Europe to Mexico. The label in this hall says so in its title: Nostalgia for Europe.\n\nThe most valuable piece is a suite of hazelwood seating, in the Louis Quinze style, with Aubusson upholstery. The upholstery shows the fables of Jean de La Fontaine, the French author of the frogs, the foxes and the crows. It was not a purchase: it was a personal gift from Emperor Napoleon the Third to Maximilian.\n\nNow look at the walls. There are four portraits painted by Albert Graefle in eighteen sixty-five: Maximilian, Carlota, Napoleon the Third and his wife, Eugénie de Montijo. The French monarchs were the political guardians of the imperial couple. They are two couples on a single wall: the one that ruled Mexico and the one that had placed it on the throne.\n\nIn the hall there are also two pianos, one French and one English, which belonged personally to Maximilian and Carlota.\n\nThis room was not always a salon. The label includes a box, This space in other times, which lists its uses. In eighteen sixty-six it held employees’ rooms and a cloakroom. In eighteen seventy-seven it was the room of the director of the observatory. In eighteen eighty-two, under President Manuel González, it was the housekeeper’s room. And in nineteen oh six, under Porfirio Díaz, it became the Lower Hall. Four eras, four trades, and a hazelwood suite that brings them all together today.\n\nDo not confuse it with the neighboring [Ambassadors’ Salon](chap_17_salon_embajadores), which tells another story. The next stop is [Carlota’s bedchamber](chap_18_recamara_carlota), the empress who traveled to Europe to ask for help when the Empire was falling apart."
+    },
+    "retos_observacion": {
+      "hash": "bc21a04080b9faba",
+      "texto": [
+        "Find the four portraits by Albert Graefle and recognize the two pairs of monarchs",
+        "Locate the two pianos, one French and one English",
+        "Look at the upholstery of the seats: they show scenes from La Fontaine’s fables"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1ab09abec71f2720",
+      "texto": {
+        "Name on the label": "Gobelins Salon (Nostalgia for Europe)",
+        "Portraits": "Albert Graefle, 1865 (Maximilian, Carlota, Napoleon III and Eugénie de Montijo)",
+        "Pianos": "one French and one English",
+        "Seating": "hazelwood, Louis XV style, Aubusson upholstery with fables by La Fontaine",
+        "Origin": "personal gift from Napoleon III to Maximilian",
+        "Former uses": "1866 cloakroom and employees’ rooms; 1877 director of the observatory; 1882 housekeeper; 1906 Lower Hall"
+      }
+    },
+    "faq_mito": {
+      "hash": "19aa53acaa4f7c55",
+      "texto": {
+        "pregunta": "Myth: Maximilian bought the furniture in this salon to impress the ambassadors.",
+        "respuesta": "Reality: The hazelwood suite with Aubusson upholstery was a personal gift from Napoleon III to Maximilian. The Ambassadors’ Salon is a different room, from the era of Porfirio Díaz."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "chap_03_patio_canones",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9cbfe4de364e985",
+      "texto": "The Cannon Courtyard and the Old Military College"
+    },
+    "frase_gancho": {
+      "hash": "7c8edf0fd411512c",
+      "texto": "The esplanade where teenagers between thirteen and nineteen years old faced an artillery bombardment."
+    },
+    "puente_narrativo": {
+      "hash": "2dde7b42255ab23f",
+      "texto": "Head toward the entrance door of the western building, at the far end of the courtyard: you will cross into the National Museum of History, where the tour begins in the halls on the encounter between the Indigenous world and Spain."
+    },
+    "guion_corto": {
+      "hash": "e79a0f8b8d523c6c",
+      "texto": "You are standing in the old parade ground of the Military College. All around you, historic bronze cannons rest on carriages of wood and iron, pointing toward the horizon, while the sober two-story façade shows you the wing where the cadets studied and slept in the nineteenth century. This open space was the heart of the Mexican resistance on the twelfth and thirteenth of September, eighteen forty-seven, when the United States army bombarded the hill for more than a full day before launching the final hand-to-hand assault up the slopes."
+    },
+    "guion_largo": {
+      "hash": "3f57df6a27005b86",
+      "texto": "To understand what happened in this courtyard, you have to imagine the dawn of the twelfth of September, eighteen forty-seven. The American troops, under the command of General Winfield Scott, knew that Chapultepec was the last military key before reaching the gates of Mexico City. From the batteries set up at Molino del Rey and the south of the woods, they opened continuous artillery fire against these very walls. Inside the compound there were barely eight hundred Mexican soldiers, supported by the San Blas battalion and about fifty young cadets who refused to evacuate their school, despite the order from the director, General Nicolás Bravo, that they leave with their families. Many of them were barely more than children: Francisco Márquez was only thirteen years old. The next morning, when the cannon fire ceased and the invading columns climbed the hill with ladders through the gunpowder smoke, this courtyard and the [upper terraces](chap_25_terraza_ninos_heroes) became a battlefield of desperate fighting with fixed bayonets. Decades after that battle, in nineteen thirty-nine, President Lázaro Cárdenas decreed that the Castle would cease to be the home of the nation’s rulers and would be given to the people as the seat of the National Museum of History, whose halls lie just behind the door in front of you."
+    },
+    "retos_observacion": {
+      "hash": "bcfc900c3ebab971",
+      "texto": [
+        "Step up to the cannons in the courtyard and look for the engravings and shields cast into the bronze",
+        "Observe the sober, military symmetry of the arches and balconies of the College building",
+        "Lean over the courtyard parapet to understand the visual advantage this esplanade gave over the valley"
+      ]
+    },
+    "especificaciones": {
+      "hash": "55ace62d522e97f5",
+      "texto": {
+        "Period": "19th century (Military College era, 1841-1847 and 1883-1913)",
+        "Historic battle": "September 12 and 13, 1847",
+        "Decree as National Museum of History": "February 3, 1939 (President Lázaro Cárdenas)",
+        "Museum inauguration": "September 27, 1944",
+        "Notable features": "Bronze artillery pieces and neoclassical military façade"
+      }
+    },
+    "faq_mito": {
+      "hash": "63e8a5681ad7a1d5",
+      "texto": {
+        "pregunta": "Myth: Lázaro Cárdenas lived in Chapultepec Castle throughout his entire term before turning it into a museum.",
+        "respuesta": "Reality: Cárdenas refused to live in the castle, considering it a monarchical and imperial symbol far removed from the people; he moved the official residence to Los Pinos and turned the entire building into a public museum."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "chap_22_despacho_presidencial",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "107ddb46a2147314",
+      "texto": "President’s Office, Telephone and Elevators"
+    },
+    "frase_gancho": {
+      "hash": "f16c02b0c5300575",
+      "texto": "From this castle, Mexico’s first experimental telephone transmission was made, and a president showed off two elevators here."
+    },
+    "puente_narrativo": {
+      "hash": "72d036445534dc65",
+      "texto": "Continue along the tour until you reach the inner garden of the Alcázar. There, light corridors with iron columns and open air await you."
+    },
+    "guion_corto": {
+      "hash": "27be743aa7850d61",
+      "texto": "At the end of the nineteenth century, the Mexico City telephone directory had barely eight pages. Across the whole country there were more than five thousand telephones. Even so, on September sixteenth, eighteen seventy-eight, Mexico’s first experimental telephone transmission was made in this castle. President Porfirio Díaz’s voice was heard at the same time here and at the National Palace. Díaz also showed off modernity with two elevators, one electric and the other hydraulic. And his office was, according to the museum, a place for reading, with books on history and law. Telegraph, telephone and study lived side by side in the president’s residence."
+    },
+    "guion_largo": {
+      "hash": "b88dedd3106bf020",
+      "texto": "This office has changed use several times. According to the museum’s wall texts, around eighteen sixty-six it was Carlota’s study, in the days of Maximilian’s residence. In eighteen seventy-seven, when the castle housed the National Observatory, it served as the meteorological department. By nineteen oh six it appears as the green salon of Díaz’s residence. What you see is one more layer of a long history. You can get to know the empress in her [bedroom](chap_18_recamara_carlota).\n\nPorfirio Díaz came to the presidency after a military career, but his education began in the classroom. He completed his secondary studies at the Tridentine Seminary in his native Oaxaca and studied law in that same city. The wall text for the office says he put together a library. It held works of history and jurisprudence, as well as texts that extolled the peace and progress of his government. The museum stresses that he always found moments for reading and study. It is a useful nuance for looking at a figure who is usually remembered above all for his campaigns and for his long years in power.\n\nThe second thread of this story is communication. In eighteen seventy-eight the National Observatory was installed in the castle. One of its rooms received telegraph equipment that connected the president with the rest of the country. That same year the first experimental telephone transmission in Mexico took place, between this building and the National Palace. The wall text points out that only two years had passed since the invention of the telephone in the United States. Another wall text recalls that in nineteen oh six a neighboring room was called, precisely, the telephone room.\n\nThe third symbol of modernity is the elevators. The museum explains that Díaz showed off his modernity with two of them. One was electric, made in France, with a steel and glass car, and it connected the kitchens with the two floors of bedrooms and salons. The other was hydraulic. From eighteen ninety-six it linked the base of the hill with the first floor and with the garden of the Alcázar. The novelty did not begin with Díaz. The wall text for the interior staircase, opened under President Manuel González, mentions an electric elevator reserved for the president and his family.\n\nWith so much technology, one might think that the country was governed from here every day, but the museum’s sources tell a different story. The presidential family lived most of the year on La Cadena street, today Venustiano Carranza. Díaz worked at the National Palace and visited the castle mainly in summer, when it was adapted for balls and receptions.\n\nAfter Díaz, other presidents used the Alcázar. The wall text for the Cabinet Room mentions Manuel González in eighteen eighty-two. It also mentions Abelardo Rodríguez in nineteen thirty-two. The era ends with Lázaro Cárdenas. He moved his official residence to Los Pinos and handed the castle over to the people of Mexico in nineteen thirty-nine. The National Museum of History opened its doors in nineteen forty-four.\n\nTo follow the trail of the era, the [Lions’ Staircase](chap_13_escalera_leones) came about when the terrace was enlarged for the observatory. Then Díaz drove its transformation. And the [stained-glass windows](chap_14_vitrales_emplomados), commissioned in Paris around nineteen hundred, show the president’s taste for displaying the latest of his time."
+    },
+    "retos_observacion": {
+      "hash": "4cc23dd159cbff74",
+      "texto": [
+        "Notice the light and the windows of the room: Carlota’s study was here, and later the observatory offices",
+        "If you see bookcases or shelves with books, think of the library of history and law that Díaz gathered",
+        "If there is any entrance, sign or wall text about the old elevator in view, read it and think about how life on the hill changed"
+      ]
+    },
+    "especificaciones": {
+      "hash": "18680783289b8569",
+      "texto": {
+        "Space": "President’s Office, upper floor of the Alcázar",
+        "Previous uses according to the museum": "Carlota’s study (1866) and meteorological department of the observatory (1877)",
+        "First experimental telephone transmission in Mexico": "September 16, 1878, between the Castle and the National Palace",
+        "Hydraulic elevator": "since 1896, from the foot of the hill to the first floor and the garden of the Alcázar",
+        "Electric elevator": "made in France, with a steel and glass car"
+      }
+    },
+    "faq_mito": {
+      "hash": "59e48156304143e9",
+      "texto": {
+        "pregunta": "Myth: Porfirio Díaz governed Mexico every day from this office in Chapultepec Castle.",
+        "respuesta": "Reality: According to the museum’s wall texts, the presidential family lived most of the year on La Cadena street, today Venustiano Carranza, and Díaz worked at the National Palace; the castle was used mainly in summer for balls and receptions."
+      }
+    }
+  }
+}

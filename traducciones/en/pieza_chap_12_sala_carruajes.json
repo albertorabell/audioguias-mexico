@@ -1,0 +1,56 @@
+{
+  "id": "chap_12_sala_carruajes",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2ea081b1178ddcdb",
+      "texto": "The Carriage Hall of the Alcázar"
+    },
+    "frase_gancho": {
+      "hash": "80f057a99988f61c",
+      "texto": "A Baroque state carriage made in Milan and an everyday coach that changed coats of arms when the government changed."
+    },
+    "puente_narrativo": {
+      "hash": "d9073dedd52a5abd",
+      "texto": "The tour continues to the Staircase of the Lions, where a stairway with an imperial air hides a scientific origin."
+    },
+    "guion_corto": {
+      "hash": "f5cc41e47d99bea9",
+      "texto": "Before it became the entrance to the Alcázar, this space served as the castle’s carriage house, according to the museum. Today it brings together carriages from two different governments. The gala carriage of Maximilian and Carlota left the house of Cesare Scala, in Milan, around eighteen sixty-four. It is Baroque in style, with silver and bronze moldings, sculpted children and angels, imperial coats of arms, and a motto in Spanish: Equidad en la justicia. In this hall the museum also presents the carriage that Maximilian and Carlota used every day. Later it was used by Benito Juárez, and the arms of the Empire gave way to the arms of the Republic. It is one and the same coach with two histories."
+    },
+    "guion_largo": {
+      "hash": "ac5560762e61ea5f",
+      "texto": "The plans of Viceroy Bernardo de Gálvez, from seventeen eighty-five, already included a carriage house on the ground floor of the palace. The palace was never finished, and the building has had many lives. According to the museum, this hall later served as the castle’s carriage house, and today it is the entrance to the Alcázar. It is a good beginning for the floor of the emperors: where carriages were once kept, carriages are kept now, but of a different kind.\n\nThe most ostentatious piece is the gala carriage of Maximilian and Carlota. The museum attributes it to the house of Cesare Scala, of Milan, and dates it to around eighteen sixty-four. Its style is Baroque. It has silver and bronze moldings, sculptures of children and angels, imperial coats of arms, and a motto in Spanish, Equidad en la justicia. A gala carriage is not made to get somewhere quickly. It is made to be seen passing by.\n\nMaximilian of Habsburg arrived at the castle on the twelfth of June, eighteen sixty-four. He ruled with the support of the French army of Napoleon the Third. His reign ended in eighteen sixty-seven. He was executed by firing squad on the Hill of the Bells, in Querétaro, along with the generals Miguel Miramón and Tomás Mejía. This period is called the Second Empire, because Mexico had already had a first one before, that of [Agustín de Iturbide](chap_06_morelos_iturbide).\n\nIn the same hall there is another story, a more republican one. The museum explains that the carriage Maximilian and Carlota used every day later passed to Benito Juárez. For that, the imperial coats of arms were replaced with the arms of the Republic. The object was the same, but the message changed. The museum also mentions a calash. In it, the museum says, Juárez entered Mexico City on the fifteenth of July, eighteen sixty-seven, twenty-six days after the execution. The calash was made in Paris and decorated with the National Coat of Arms and pre-Hispanic motifs. It is a good moment to recall [Juárez’s carriage](chap_07_carruaje_juarez) from an earlier stop.\n\nIt is worth noticing the contrast. On one side, a carriage with silver moldings, angels, and coats of arms; on the other, vehicles that changed owners just by changing an emblem. They are two ways of saying who is in charge: with ornament or with national symbols.\n\nBehind these objects there is also the history of the museum. In nineteen thirty-nine, President Lázaro Cárdenas decreed that the castle become a museum. Manuel Ávila Camacho inaugurated it on the twenty-seventh of September, nineteen forty-four. Today it holds more than sixty-five thousand objects, including paintings, furniture, clothing, documents, and carriages.\n\nAs you go up to the Alcázar, take this idea with you. An object of government is rarely just an object: it carries coats of arms, mottos, and emblems that change when power changes, and for that reason they can be read like a document."
+    },
+    "retos_observacion": {
+      "hash": "573235bb5f6bdaf7",
+      "texto": [
+        "Look on the gala carriage for the silver and bronze moldings and the figures of children and angels",
+        "Find the motto in Spanish, Equidad en la justicia, and the imperial coats of arms",
+        "Compare the everyday carriage with the gala carriage and notice which one has more decoration and which emblem it displays"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8dda3689baf17655",
+      "texto": {
+        "Era": "Second Empire, around 1864",
+        "Workshop of the gala carriage": "house of Cesare Scala, Milan",
+        "Style and materials": "Baroque, with silver and bronze moldings",
+        "Motto": "Equidad en la justicia",
+        "Key fact": "the everyday carriage of Maximilian and Carlota was later used by Benito Juárez, with republican arms",
+        "Location": "Carriage Hall, entrance to the Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "e319dbbd98f47c9e",
+      "texto": {
+        "pregunta": "Myth: Emperor Maximilian’s carriages were destroyed or left unused when the Empire fell.",
+        "respuesta": "Reality: According to the National Museum of History, the carriage that Maximilian and Carlota used every day passed to Benito Juárez, and its imperial coats of arms were replaced with the arms of the Republic."
+      }
+    }
+  }
+}

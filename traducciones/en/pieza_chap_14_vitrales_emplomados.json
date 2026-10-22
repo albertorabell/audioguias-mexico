@@ -1,0 +1,56 @@
+{
+  "id": "chap_14_vitrales_emplomados",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "74dd03045b8f0b38",
+      "texto": "Galería de Emplomados: las cinco diosas"
+    },
+    "frase_gancho": {
+      "hash": "680e4fea9ed0026b",
+      "texto": "Around nineteen hundred, five goddesses made of glass and lead arrived from Paris to enclose a corridor of the Alcázar."
+    },
+    "puente_narrativo": {
+      "hash": "a244aff27e8d5b88",
+      "texto": "The tour continues to the Dining Room, where the silver of the Empire and the glassware of the Porfiriato share the table."
+    },
+    "guion_corto": {
+      "hash": "8c39a6b0e356e26d",
+      "texto": "Look at the feet of the goddess Flora. The blue vase that looks like Sèvres porcelain is, according to an INAH conservation study, engraved flashed glass. The entire gallery is work of this kind. Porfirio Díaz had it made in Paris around nineteen hundred, and the study attributes it to the workshop of Charles Champigneulle. It depicts five Greco-Roman goddesses: Pomona, Flora, Hebe, Diana, and Ceres. An INAH publication explains that it served to protect the corridor of the presidential residence from drafts. The glass was fire-painted and the pieces were joined with lead cames, like a jigsaw puzzle of light."
+    },
+    "guion_largo": {
+      "hash": "a9007d1092f72f62",
+      "texto": "A leaded glass window is a stained glass work assembled from pieces of glass joined by lead cames. In this gallery the technique serves a practical purpose. According to an INAH publication, Porfirio Díaz had the corridor enclosed to protect the presidential residence from drafts. The museum says the windows were made in Paris at his commission, around nineteen hundred. A conservation study attributes them to the workshop of Charles Champigneulle and dates them to nineteen hundred.\n\nThe five goddesses come from Roman and Greek mythology. Pomona looked after fruit trees and orchards. Hebe, daughter of Zeus and Hera, was the goddess of youth and served drink to the gods. Ceres presided over the growth of crops. Flora and Diana complete the set, one of flowers and the other of the hunt. The museum lists them from right to left in this order: Pomona, Flora, Hebe, Diana, and Ceres. None of the sources consulted explains why these five were chosen, so any reading of their meaning is a guess. What the study does say is that the museum's stained glass windows were made to embellish the building with elements that were modern for their time.\n\nThe technique is richer than it looks. The glass is mostly colorless and was decorated with grisaille, enamels, and silver stain, materials that are fixed with fire. The blue vase at Flora's feet was made with engraved flashed glass. The structure is held up by iron angles and rods, and a lead came runs between each fragment.\n\nNot everything you see dates from nineteen hundred. The study explains that the lower row, with architectural elements, female masks, and cartouches bearing the names of the goddesses, was added later. A photograph of the visit of Elihu Root, United States Secretary of State, shows this. He was in Mexico between September and October of nineteen hundred and seven. In that image, the base of the window had twenty-five panels with rosettes made of another material.\n\nA stained glass window is more fragile than it looks. The study records restorations in nineteen ninety-four and between nineteen ninety-eight and two thousand one. In two thousand seven, museum staff intervened. In two thousand eleven an accident damaged a panel of Flora. In two thousand twelve that panel arrived at the workshop of the restorer María del Pilar Leñero Llaca.\n\nThere is also a common misunderstanding. Many visitors believe this gallery was the promenade of Empress Carlota. The museum, however, says it was Díaz who installed a large stained glass window on the eastern terrace of the Alcázar. That area is part of your tour, at the [eastern terrace](chap_26_terraza_oriente_reforma). And the top floor of the Alcázar preserves furniture and belongings of Porfirio Díaz and Carmen Romero Rubio, as you will see in their [bedroom](chap_21_recamara_porfirio_carmen).\n\nBefore moving on, watch how the light works. A stained glass window is, at once, decoration and archive. It holds the hand of the one who made it and the mark of those who have restored it."
+    },
+    "retos_observacion": {
+      "hash": "a931b282eec79a52",
+      "texto": [
+        "Find Flora and the blue vase that, according to an INAH study, imitates a piece of Sèvres porcelain",
+        "Find the cartouches with the name of each goddess in the lower row",
+        "Notice how the light passing through the glass tints the floor or nearby walls"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5cae7d976b2ce32a",
+      "texto": {
+        "Era": "around 1900, during the Porfiriato",
+        "Commission": "Porfirio Díaz",
+        "Workshop": "Charles Champigneulle, Paris (INAH study, 2022)",
+        "Goddesses": "Pomona, Flora, Hebe, Diana, and Ceres",
+        "Technique": "glass with grisaille, enamel, and silver stain, joined with lead cames",
+        "Location": "Galería de Emplomados, Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e4f1c16aacec606",
+      "texto": {
+        "pregunta": "Myth: The goddess stained glass windows were ordered by Maximilian for Carlota.",
+        "respuesta": "Reality: According to the National Museum of History and the INAH, they were made in Paris around 1900 at the commission of Porfirio Díaz, more than thirty years after Maximilian’s execution."
+      }
+    }
+  }
+}

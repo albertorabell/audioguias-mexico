@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_44_templo_santo_domingo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "29fe076e61b78755",
+      "texto": "Santo Domingo Church and the Old Customs House"
+    },
+    "frase_gancho": {
+      "hash": "af40932c5d72c27b",
+      "texto": "This is the third Dominican church on this site, and the flooding of the city on the lake weighed heavily on its history."
+    },
+    "puente_narrativo": {
+      "hash": "0297b4ccc15bb766",
+      "texto": "Continue to República de Brasil Street, across from the plaza, where the [Palace of the Inquisition](cdmx_45_inquisicion) stands."
+    },
+    "como_llegar": {
+      "hash": "f500d6bb9b4c0457",
+      "texto": "Walk toward the north side of the plaza, where the tower with tiles announces the [Santo Domingo Church](cdmx_44_templo_santo_domingo)."
+    },
+    "guion_corto": {
+      "hash": "8e05d6e90d0de60b",
+      "texto": "This is the third church the Dominicans have built on this site, and the city's construction on the lake had a lot to do with it. The friars arrived in Mexico in fifteen twenty-six. Their first church was small, and floods damaged it. In seventeen sixteen another flood affected the second church, and the following year work began on the third, the one in front of you. It is Baroque, with a tower whose top level is covered in tiles, and it holds a main altarpiece by Manuel Tolsá. Much of the enormous convent that surrounded it disappeared when Leandro Valle Street was opened. What you see is what water, time, and the Reform left standing."
+    },
+    "guion_largo": {
+      "hash": "14a5958777b132f5",
+      "texto": "The Dominicans arrived in New Spain in fifteen twenty-six, and very soon began to build here. Their first church, around fifteen twenty-seven, was small and simple. This part of the city was marshy ground beside a canal of the lake. Floods damaged what was built again and again, and the convent and the church were rebuilt several times because of the weak soil.\n\nThe second church was consecrated around fifteen ninety. In seventeen sixteen, a flood damaged it so badly that worship had to be suspended. The following year the third church was begun, the one you see. It was blessed in seventeen thirty-six, and in January of seventeen fifty-five it was consecrated. Since then the church has looked almost as you see it today.\n\nLook at the façade. It is Baroque. The tower ends in a pyramidal prism covered in tiles. The arches on the left side are not original. They were added in the twentieth century, to disguise the passage toward Leandro Valle Street and to harmonize the complex with the plaza.\n\nIf the church is open for worship, and you wish to peek in respectfully, the interior has a Latin cross floor plan. The main altarpiece is a Neoclassical work by Manuel Tolsá, the same artist behind the Caballito and the Palace of Mining. In the arms of the transept there are gilded altarpieces from the eighteenth century. The oldest image in the church is the Christ of the Novitiate, from the sixteenth century, made with cornstalk paste. A legend says two angels gave it to the Dominicans, but that is only tradition.\n\nThe remains of Pedro de Moctezuma Tlacahuepantzin, son of Moctezuma Xocoyotzin, rest in the church.\n\nWater marked the history of this place so deeply that it gave rise to a devotion. After a serious flood, the city council named Santo Domingo patron of the waters and of the city. It was on July thirty-first, sixteen thirty.\n\nThe convent, by contrast, did not withstand political change. In the mid-nineteenth century, with the Reform, religious properties were confiscated. When Leandro Valle Street was opened, a good part of the monastery and several chapels were destroyed. Mexico City notes that the courtyard called the Courtyard of the Generals survives inside the Centro Cultural del México Contemporáneo, on that street.\n\nOn the eastern side of the plaza stands the old Customs House. The Royal Customs House of Mexico was founded in fifteen seventy-four, to sustain the fiscal system of the Spanish empire. Its building beside this plaza was constructed and expanded in the eighteenth century. In nineteen twenty-one it passed into the hands of the Ministry of Public Education. Today it is part of the complex of the [Living Museum of Muralism](cdmx_46_museo_vivo_muralismo). Thus, in a single plaza, a church, a tribunal, and a customs house tell how faith, justice, and money were organized."
+    },
+    "retos_observacion": {
+      "hash": "7bd01f36bffa5646",
+      "texto": [
+        "Find the tower with its top level covered in tiles",
+        "Look for the arches on the left side of the church, which are not original",
+        "Pick out the sober building of the old Customs House on the eastern side of the plaza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07b5d3a53b2eb89c",
+      "texto": {
+        "Period": "third church begun in 1717, blessed in 1736, and consecrated in January 1755",
+        "Author": "main altarpiece by Manuel Tolsá",
+        "Style": "Baroque, Latin cross floor plan",
+        "Location": "north side of Santo Domingo Plaza",
+        "Key fact": "of the great Dominican convent, only the church and a few spaces survive",
+        "Old Customs House": "Royal Customs House founded in 1574; today part of the SEP complex"
+      }
+    },
+    "faq_mito": {
+      "hash": "ed13b4732489b7c0",
+      "texto": {
+        "pregunta": "Myth: The Santo Domingo church is the same one the Dominicans built upon their arrival, in the sixteenth century.",
+        "respuesta": "Reality: It is the third church on the site; the previous one suffered a flood in 1716 and the current one was begun the following year."
+      }
+    }
+  }
+}

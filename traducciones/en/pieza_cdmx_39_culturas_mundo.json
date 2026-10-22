@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_39_culturas_mundo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ea7428c2733554af",
+      "texto": "National Museum of World Cultures, the Former Royal Mint"
+    },
+    "frase_gancho": {
+      "hash": "ee83d0f5840604a6",
+      "texto": "Here the coinage of New Spain was minted, then came an imperial museum, and today a museum with cultures from all over the world."
+    },
+    "puente_narrativo": {
+      "hash": "284946adf56458b4",
+      "texto": "Walk back a few steps along Moneda, toward the Cathedral, to the corner with Licenciado Primo de Verdad. There you will find the [House of the First Printing Press in the Americas](cdmx_40_primera_imprenta)."
+    },
+    "como_llegar": {
+      "hash": "b20b057ef9097865",
+      "texto": "Continue along Moneda toward number thirteen. There, the former house where coins were minted is now the [National Museum of World Cultures](cdmx_39_culturas_mundo)."
+    },
+    "guion_corto": {
+      "hash": "ce76c9a9f938db69",
+      "texto": "Seventeen thirty-one was the year construction began on this building as the Royal Mint. It was finished in seventeen thirty-four. Coin minting moved to another building in eighteen forty-seven. In eighteen sixty-five, Emperor Maximilian ordered a public museum of natural history, archaeology, and history to be installed here. In the time of Benito Juárez, the building also housed the Supreme Court of Justice. Since December nineteen sixty-five it has been the National Museum of Cultures, now called the National Museum of World Cultures, with collections from Asia, the Mediterranean, and other regions."
+    },
+    "guion_largo": {
+      "hash": "a9e7e6f5e2d6e315",
+      "texto": "Before this building existed, the site already had a reputation. According to the chronicler Antonio de León y Gama, the Casa Denegrida, Moctezuma’s second palace, once stood here. The INAH also mentions it as Moctezuma’s black house. A Royal Decree of fifteen twenty-nine granted the property to Hernán Cortés. Later, Martín Cortés sold the properties he had inherited from his father to King Philip the Second, and the site afterward housed the Royal Mint.\n\nThe building you see today came later. Construction began on April sixteenth, seventeen thirty-one, and on December sixteenth, seventeen thirty-four, the building and its minting equipment were finished. The plans are attributed to Nicolás Peinado de Valenzuela, and the work was directed by the engineer Luis Díez Navarro. After Independence, mints were opened in other cities. In eighteen forty-seven, minting moved to the Casa del Apartado.\n\nThen came a second life. Maximilian of Habsburg ruled the Second Mexican Empire between eighteen sixty-four and eighteen sixty-seven. In eighteen sixty-five, by his order, the Public Museum of Natural History, Archaeology, and History was established here. Its official inauguration was on July sixth, eighteen sixty-six. The same building also housed the Supreme Court of Justice in the time of Benito Juárez.\n\nThe national collections left here in stages. In nineteen oh nine, the natural history section was moved elsewhere, and was later known as the Museo del Chopo. In nineteen thirty-eight, the building was the home of the National School of Anthropology and History. In nineteen sixty-four, the National Museum of Anthropology was inaugurated in Chapultepec, and the collections moved there.\n\nWith the building empty, a museum devoted to the cultures of the world was planned. Eusebio Dávalos Hurtado and his team developed the concept between nineteen sixty-three and nineteen sixty-four, and the museum opened in December nineteen sixty-five. The library was inaugurated that same year, and since nineteen ninety it has borne the name of Pedro Bosch Gimpera, a Catalan archaeologist exiled in Mexico.\n\nToday the museum has three galleries: the International, the Mediterranean, and the Chinese. Its halls cover, among others, China, Korea, Japan, Egypt, Mesopotamia, and the Sami people of northern Europe, who have been in the permanent exhibition since the opening. It also has a photo archive and a historical archive. For visitors, it is a chance to step out of the history of Mexico for a moment and look at it from the outside.\n\nThis building sums up the Historic Center. It had a site with Mexica legend, a viceregal mint, a museum of the Second Empire, and a seat of justice. Today it is a museum for seeing the world. If you decide to go in, check the current hours and admission fees. From the street you can take in its facade, which is part of [Moneda Street](cdmx_37_calle_moneda) along with the other stops."
+    },
+    "retos_observacion": {
+      "hash": "90f2f7ce71ae4a21",
+      "texto": [
+        "Look for number thirteen on Moneda at the building’s entrance",
+        "Count the levels of the facade of the former Royal Mint",
+        "Compare its appearance with that of the previous museum on the route, the former archbishops’ palace"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8f7f728d7cd4b18c",
+      "texto": {
+        "Period": "built between 1731 and 1734",
+        "Plans": "Nicolás Peinado de Valenzuela; construction director: Luis Díez Navarro",
+        "Uses": "Royal Mint; public museum since 1865, by decree of Maximilian; seat of the Supreme Court in the time of Juárez",
+        "Current museum": "National Museum of World Cultures, of the INAH, opened in December 1965",
+        "Location": "Moneda 13, Historic Center",
+        "Key fact": "minting moved to the Casa del Apartado in 1847"
+      }
+    },
+    "faq_mito": {
+      "hash": "3a9300de487e1cca",
+      "texto": {
+        "pregunta": "Myth: The National Museum of Anthropology was born in the Chapultepec Forest.",
+        "respuesta": "Reality: The national collections were housed in this building on Moneda from the nineteenth century, and in nineteen sixty-four they moved to the National Museum of Anthropology, in Chapultepec."
+      }
+    }
+  }
+}

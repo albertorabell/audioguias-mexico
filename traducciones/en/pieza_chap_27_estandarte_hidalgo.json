@@ -1,0 +1,61 @@
+{
+  "id": "chap_27_estandarte_hidalgo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {
+    "especificaciones": [
+      "no encuentro estos números del español: 17"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f341b68cd75663da",
+      "texto": "The Guadalupe Standard and the Relics of Hidalgo"
+    },
+    "frase_gancho": {
+      "hash": "5facb397c8c952ed",
+      "texto": "A priest who played the violin, a canvas taken down from a sanctuary and a stick: this is how the standard of Independence was born."
+    },
+    "puente_narrativo": {
+      "hash": "ed751b336ffff191",
+      "texto": "Continue to the next stop, where the war that began with that canvas goes on with two men who faced each other: José María Morelos and Agustín de Iturbide."
+    },
+    "guion_corto": {
+      "hash": "94af4d86fd7c564b",
+      "texto": "Hidalgo was fifty-seven years old when he took up arms. He was a scholarly priest and a remarkable violinist, who played at the gatherings in his home. He left Dolores at eleven in the morning and reached the sanctuary of Atotonilco at five thirty in the afternoon. There, according to the chaplain’s statement, a rancher asked one of the lay sisters for an image and fixed it to a stick. That canvas of the Virgin of Guadalupe is the standard of Independence."
+    },
+    "guion_largo": {
+      "hash": "e65a9939fbdddc82",
+      "texto": "Miguel Hidalgo was fifty-seven years old when he took up arms. He was not a warrior. He was a scholarly priest, known in Dolores for his learning and for his violin: he played at the gatherings held in his home. This is the person whose traces this hall preserves.\n\nIn the early hours of the sixteenth of September, eighteen ten, the bell of Dolores called the people together. At first, eighty men gathered with swords and lances. The wall labels in the hall tell us that within a few hours there were already six hundred. The column left Dolores at eleven in the morning, ate and rested at the Hacienda de la Erre, and reached the sanctuary of Atotonilco at five thirty in the afternoon.\n\nAt Atotonilco, something happened that changed the insurrection. Someone took a canvas of the Virgin of Guadalupe from the sanctuary and raised it high. But no one knows for certain who took it. Ignacio Allende, at his trial, declared that he did not know on whose orders the canvas was taken. The chaplain of Atotonilco declared that it was a rancher who asked one of the sanctuary’s lay sisters for an image and fixed it to a stick. Thus the standard was born: not from a plan, but from an improvised gesture that became a symbol.\n\nThe standard went on its way with the insurgents. It was captured by the army of Félix María Calleja at San Jerónimo Aculco. In eighteen fifty-three, an inscription was added to its back. Today it is displayed on a carved wooden pedestal, made in nineteen eleven.\n\nAround the standard are the relics. In the whole museum, barely fifty objects of Hidalgo are preserved, a large part of them recovered around nineteen ten, when the Centennial was celebrated. The wall label that introduces them is titled “The Modesty of History.” Among them are intimate pieces: the baptismal font in which he was baptized, the confessional of the parish church of Dolores, the vestment he wore to administer the sacraments and a reliquary with the Virgin of Sorrows.\n\nThis is the other side of the man you have already seen twice in [O’Gorman’s mural](chap_04_retablo_independencia). There he is a symbol on a wall; here he is a person, with his violin, his confessional and his baptismal font. The war that began with that canvas continued with other leaders. The next is [Morelos](chap_06_morelos_iturbide), who had been a student of Hidalgo."
+    },
+    "retos_observacion": {
+      "hash": "b35c7e8187a953aa",
+      "texto": [
+        "Find the standard of the Virgin of Guadalupe and look at the carved wooden pedestal that holds it",
+        "Locate the confessional of the parish church of Dolores and the baptismal font",
+        "Find the reliquary with the Virgin of Sorrows and the vestment he wore to administer the sacraments"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b4e7e40a2c7c6a6c",
+      "texto": {
+        "Object": "Guadalupe standard of Miguel Hidalgo",
+        "Place where it was taken": "sanctuary of Atotonilco, September 16, 1810",
+        "Departure from Dolores": "11:00 a.m.; arrival at Atotonilco: 5:30 p.m.",
+        "Capture": "San Jerónimo Aculco, by Calleja",
+        "Inscription on the back": "1853",
+        "Pedestal": "carved wood, 1911",
+        "Relics": "baptismal font, confessional from Dolores, sacramental vestment, reliquary with the Virgin of Sorrows"
+      }
+    },
+    "faq_mito": {
+      "hash": "844663168a3d225a",
+      "texto": {
+        "pregunta": "Myth: Hidalgo prepared the standard in advance.",
+        "respuesta": "Reality: Allende declared at his trial that he did not know on whose orders the canvas was taken, and the chaplain of Atotonilco said that a rancher asked a lay sister for an image and fixed it to a stick."
+      }
+    }
+  }
+}

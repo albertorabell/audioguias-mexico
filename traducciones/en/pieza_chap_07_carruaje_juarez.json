@@ -1,0 +1,56 @@
+{
+  "id": "chap_07_carruaje_juarez",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b0c865b173c3c8e4",
+      "texto": "Benito Juárez’s Carriage"
+    },
+    "frase_gancho": {
+      "hash": "308bdea563c24d9d",
+      "texto": "A president without a capital, a republic on the move and a carriage: this is how the government of Mexico resisted the French intervention."
+    },
+    "puente_narrativo": {
+      "hash": "966cb66803ff9700",
+      "texto": "Climb the staircase to the upper level of the museum: you will leave behind the wars against foreign empires and enter the enveloping chamber where Siqueiros painted the fall of Porfirio Díaz."
+    },
+    "guion_corto": {
+      "hash": "5ab271b2a003d66e",
+      "texto": "On the night of May thirty-first, eighteen sixty-three, President Benito Juárez left the capital. The French army was advancing toward it. With him departed his family, ministers, deputies and government employees. Thus began a republic that changed its seat according to the danger: San Luis Potosí, Saltillo, Monterrey, Chihuahua and Paso del Norte. The National Museum of History presents this calash as the one Juárez used in his wanderings through several states during the French intervention. While that government traveled, Maximilian of Habsburg reigned from the capital and lived in this castle. Juárez’s wager was simple: if the government remained standing, the Republic would too."
+    },
+    "guion_largo": {
+      "hash": "80d76f1ed2c42075",
+      "texto": "A carriage seems like a minor object in a museum full of paintings, weapons and furniture. Yet during the French intervention, a vehicle like this was the transport, the office and the refuge of an entire government. The National Museum of History presents it as a calash that Benito Juárez used in his wanderings through several states. He did so, the museum explains, during the years of the French intervention and the Second Empire.\n\nOn May thirty-first, eighteen sixty-three, Juárez announced before Congress that the government had to leave the capital. That same night he departed, accompanied by his family, by members of the cabinet, by many deputies and by numerous public employees. It was a wager: if the Republic did not depend on a single city, occupying the center of the country would not be enough to destroy it.\n\nFrom then on, the government changed its seat according to the danger. There are documents signed in San Luis Potosí in June of eighteen sixty-three. Others are dated in Saltillo in January of eighteen sixty-four. Afterward it settled in Monterrey. In eighteen sixty-five and eighteen sixty-six it alternated between Chihuahua and Paso del Norte. That border city became a bastion of republican resistance. Historians call this stage the itinerant republic.\n\nMeanwhile, this castle took a different course. Maximilian of Habsburg and Carlota made Chapultepec their imperial residence, and the museum preserves objects that they brought or used. Among them is the [state coach of the emperors](chap_12_sala_carruajes), from the Milanese house of Cesare Scala. The museum also speaks of the imperial couple’s everyday carriage, and explains that it later served President Juárez himself. It is a historical irony: a vehicle of the Empire ended up in the service of the Republic.\n\nThe man who traveled these roads had not been born in a palace. According to the Casa Juárez Site Museum, of the INAH, Benito Juárez arrived in the city of Oaxaca at the age of twelve. He was looking for his sister Josefa, who worked as a servant. He lived with the bookbinder Antonio Salanueva, who taught him to read and write. Later he studied law, became governor of his state and, finally, president of Mexico.\n\nWhen Maximilian was executed by firing squad in Querétaro, on June nineteenth, eighteen sixty-seven, the republican government began its return. On the eve of his entry into the capital, July fourteenth, Juárez spent the night here, within the walls of this very castle. On July fifteenth he entered Mexico City along Chapultepec Avenue, with a modest cabinet. Since May of eighteen sixty-five, the Congress of Colombia had declared him Benemérito of the Americas. That day, in his manifesto to the nation, he left the phrase that made him immortal: among individuals, as among nations, respect for the rights of others is peace. In the Plaza Mayor, Porfirio Díaz handed him the flag so that he could raise it as a symbol of triumph. This calash is the closest material testimony to that four-year journey.\n\nThe museum associates two murals by Antonio González Orozco with this space. One, from nineteen sixty-seven, shows Juárez’s triumphal entry into the National Palace with his cabinet. The other, from nineteen seventy-two, presents him as a symbol of the Republic in the face of the French intervention.\n\nJuárez was reelected, offered an amnesty and saw Porfirio Díaz rebel against him in eighteen seventy-one with the Plan de la Noria. He remained in the presidency until his death, on July eighteenth, eighteen seventy-two.\n\nThe general who handed him the flag in the Plaza Mayor would later govern Mexico for decades. How that regime ended is told, on the level above, by the [Siqueiros mural](chap_09_mural_siqueiros)."
+    },
+    "retos_observacion": {
+      "hash": "c6f903f53c0ee6ad",
+      "texto": [
+        "Look at the wheels and the shape of the cabin, and think about the roads the government traveled",
+        "Find the two murals by Antonio González Orozco with Juárez as the main figure",
+        "Compare the size and decoration of this carriage with the state coach of Maximilian and Carlota, if you have both in view"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0a2b4043d34c8fdf",
+      "texto": {
+        "Object": "Calash used by Benito Juárez",
+        "Use": "Wanderings of the republican government during the French intervention and the Second Empire, 1863-1867",
+        "Departure from the capital": "May 31, 1863",
+        "Night of July 14, 1867": "Juárez spends it in Chapultepec Castle (information from the museum’s wall label)",
+        "Return to the capital": "July 15, 1867",
+        "González Orozco murals": "1967 and 1972"
+      }
+    },
+    "faq_mito": {
+      "hash": "f10a01b9f170ba4f",
+      "texto": {
+        "pregunta": "Myth: Juárez governed for four years inside his carriage, without settling in any government building.",
+        "respuesta": "Reality: The carriage was the means of travel, but the government settled in cities such as San Luis Potosí, Saltillo, Monterrey, Chihuahua and Paso del Norte, and signed official documents from there."
+      }
+    }
+  }
+}

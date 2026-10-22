@@ -1,0 +1,58 @@
+{
+  "id": "chap_09_batalla_puebla_orozco",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {
+    "titulo": [
+      "no encuentro estos números del español: 5"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "953a19591bafcff6",
+      "texto": "The Fifth of May and the Juárez Mural (Orozco)"
+    },
+    "frase_gancho": {
+      "hash": "ce4cad8d63fb8d2b",
+      "texto": "From Zaragoza’s triumph in the rain of Puebla to the mummified corpse of Maximilian painted by José Clemente Orozco."
+    },
+    "puente_narrativo": {
+      "hash": "164a7587ffc571be",
+      "texto": "Continue to the next stop, the carriage of Benito Juárez, which traveled the country during the years of the war against the Empire, until the return of the Republic."
+    },
+    "guion_corto": {
+      "hash": "4b7c1f6a9c4b4f4a",
+      "texto": "In this section of the nineteenth-century halls, three fundamental works stand face to face, telling the story of the struggle for Mexico’s sovereignty: the oil portrait of General Ignacio Zaragoza, painted in eighteen sixty-one; the great panoramic canvas of the Battle of Puebla of May fifth, eighteen sixty-two, by the Catalan painter José Cusachs; and, high on the wall, the imposing fresco “The Reform and the Fall of the Empire,” painted in nineteen forty-eight by José Clemente Orozco, where the gigantic, unyielding face of Benito Juárez dominates the entire room."
+    },
+    "guion_largo": {
+      "hash": "913a4f21087787fb",
+      "texto": "The story these walls tell began in eighteen sixty-one, when the government of [Benito Juárez](chap_07_carruaje_juarez), suffocated by a lack of resources after years of civil war, had to temporarily suspend payment of the foreign debt. England, Spain, and France sent their war fleets to Veracruz; but while the Spanish and the English agreed to negotiate in the Preliminaries of La Soledad and withdrew, the French emperor Napoleon the Third decided to invade the country to hold back the United States and seize Mexico’s riches. On May fifth, eighteen sixty-two, the Count of Lorencez launched what was then considered the best army in the world against the forts of Puebla. Look closely at the painting by José Cusachs: among the maguey leaves and the gunpowder smoke, the Mexican soldiers and the Zacapoaxtla Indigenous fighters push back the famous French Zouaves in their red trousers. The hero of that day, the young General Ignacio Zaragoza, born in Texas in eighteen twenty-nine, who had chosen to remain Mexican after the territorial loss of eighteen forty-seven, did not live to see the end of the war: barely four months after his victory he died of typhoid fever at the age of thirty-three. Five years later the Republic triumphed for good, and José Clemente Orozco summed up that outcome with brutal force in the mural before you: above, the stone face of Juárez shines, flanked by the flag of the Battalion of the Supreme Powers and a soldier with the number fifty-seven on his kepi in honor of the Constitution; while below, as in a gloomy underworld, the mummified body of [Maximilian](chap_20_recamara_maximiliano) is carried by the ghostly figures of the bishops, generals, and nobles who brought him to the throne."
+    },
+    "retos_observacion": {
+      "hash": "25a2cb414bd1b234",
+      "texto": [
+        "Look in José Cusachs’s painting for the hand-to-hand clash between the red-trousered French Zouaves and the Mexican troops among the maguey plants",
+        "Pause in front of the portrait of Ignacio Zaragoza with his round glasses, painted just a few months before his victory in Puebla",
+        "Raise your eyes to Orozco’s mural and look for the number 57 on the military cap of the soldier with the torch, and for the mummified body of Maximilian in the lower band"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78d89ae901ee30cc",
+      "texto": {
+        "Main works": "Mural “The Reform and the Fall of the Empire” by José Clemente Orozco (fresco, 1948); “Battle of Puebla, May 5, 1862” by José Cusachs (oil on canvas, 1903); Portrait of Ignacio Zaragoza signed by Tejada (oil, 1861)",
+        "Mexican commanders on May 5": "Ignacio Zaragoza, Miguel Negrete, Felipe Berriozábal, Francisco Lamadrid, and Porfirio Díaz",
+        "French commander": "Charles F. Latrille, Count of Lorencez",
+        "Location": "Hall of the Reform and the Second Empire, MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "06202b533ecc51c3",
+      "texto": {
+        "pregunta": "Myth: After losing the Battle of Puebla on May 5, 1862, the French army surrendered and immediately returned to Europe.",
+        "respuesta": "Reality: The victory of May 5 halted the invaders’ advance for a whole year, but Napoleon III sent thirty thousand more soldiers; in 1863 the French besieged Puebla for seventy-two days until they took it and advanced toward Mexico City to establish Maximilian’s empire."
+      }
+    }
+  }
+}

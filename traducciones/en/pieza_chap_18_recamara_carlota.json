@@ -1,0 +1,55 @@
+{
+  "id": "chap_18_recamara_carlota",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b684f52114147af1",
+      "texto": "Carlota’s Bedroom"
+    },
+    "frase_gancho": {
+      "hash": "4161408d79597900",
+      "texto": "The French furniture in this bedroom was believed to be Carlota’s, but the museum tells a different story."
+    },
+    "puente_narrativo": {
+      "hash": "dfa5ddeee1eceb1c",
+      "texto": "Continue to the washroom, where bathwater arrived by mule or by cart from the springs on the hill."
+    },
+    "guion_corto": {
+      "hash": "c7ed139f0d34231f",
+      "texto": "A well-meant mistake defines this bedroom. President Manuel González acquired a French bedroom set in the Boulle style because he believed it had belonged to Carlota. The museum now presents it as a mistaken attribution. The brass bed, by contrast, is Maximilian’s, and it remained in the Castle after his death. Carlota arrived in the capital in June of eighteen sixty-four, at the age of twenty-three. She founded charity houses and presided over the Council of Ministers when her husband was away. In eighteen sixty-six she traveled to Europe to ask for help that never came, and she never returned to Mexico."
+    },
+    "guion_largo": {
+      "hash": "b02f8c8fab32e62b",
+      "texto": "This bedroom bears Carlota’s name, but its story is a tangled one. According to the museum, President Manuel González acquired a French bedroom set in the Boulle style. That name comes from a seventeenth-century cabinetmaker who worked for the court of Louis the Fourteenth and made brass inlay fashionable. González believed that the furniture had belonged to Carlota, and it had not. Over time, the space changed its purpose several times. The museum’s timeline records it as a bedroom in eighteen eighty-two. In nineteen oh six it appears as the blue bedroom, under Porfirio Díaz. By nineteen thirty-two it is listed as Carlota’s bedroom.\n\nWhat, then, happened to the authentic furniture? Maximilian had three residences: the Imperial Palace, which today is the National Palace, Chapultepec, and the Quinta Borda, in Cuernavaca. All of them were filled with European tapestries, carpets, tableware, and ornaments that had been very costly to buy. At the end of eighteen sixty-six, when he left Mexico City, Maximilian ordered his palaces to be dismantled. The brass bed was part of what remained in the Castle.\n\nTo understand the woman who gives this room its name, we must go back to her youth. Marie Charlotte Amélie, Princess of Belgium, married Maximilian at the age of seventeen. She was the daughter of King Leopold of Belgium and a cousin of Victoria, sovereign of England. She studied the Catholic religion, science, art, and politics, and before traveling she reviewed the history of Mexico. The museum relates that her curiosity about the customs of the country irritated some of her Mexican ladies-in-waiting. She arrived in the capital in June of eighteen sixty-four, at the age of twenty-three.\n\nAt Chapultepec, her life involved a great deal of work. She founded charity houses for the needy classes. When Maximilian traveled, she presided over councils and received ministers and ambassadors. According to National Geographic, she also held public audiences on Sundays and sought a middle path between conservatives and liberals, although she ended up alienating both sides.\n\nIn eighteen sixty-six she left Mexico to seek support in Europe. She met with Napoleon the Third, who refused to keep sustaining the enterprise, and with Pope Pius the Ninth, who did not back it either. Then her mental health broke down. She believed that people wanted to poison her and distrusted almost everyone. She spent some time confined in Miramar Castle and later in Bouchout Castle, near Brussels. There she died on January 19, nineteen twenty-seven, at the age of eighty-six, after some sixty years of seclusion.\n\nMeanwhile, Maximilian was executed by firing squad in Querétaro in eighteen sixty-seven, when she was already in Europe. To learn more about the man whose decisions led her on that journey, visit the stop for [Maximilian at Chapultepec](chap_20_recamara_maximiliano) further along. And for the politics surrounding the Empire, remember the [Juárez carriage](chap_07_carruaje_juarez), the president whose government never recognized the empire."
+    },
+    "retos_observacion": {
+      "hash": "41ba52913e2e679f",
+      "texto": [
+        "Look for the brass bed: the museum associates it with Maximilian",
+        "Notice the brass inlay on the Boulle-style furniture",
+        "Look on the information panel for the timeline that runs from eighteen sixty-six to nineteen thirty-two"
+      ]
+    },
+    "especificaciones": {
+      "hash": "dcb060b7b56d3481",
+      "texto": {
+        "Character": "Charlotte of Belgium, wife of Maximilian; arrived in the capital in June 1864",
+        "Furniture": "French bedroom set in the Boulle style, acquired by Manuel González, who believed it was Carlota’s",
+        "Bed": "brass, associated with Maximilian",
+        "Museum record": "blue bedroom in 1906 and Carlota’s bedroom in 1932",
+        "Location": "Alcázar, ground floor"
+      }
+    },
+    "faq_mito": {
+      "hash": "75e991612651b21b",
+      "texto": {
+        "pregunta": "Myth: Carlota went mad because in Mexico she was given a tea made with toloache or hallucinogenic mushrooms.",
+        "respuesta": "Reality: that explanation has never been proven. Her crisis broke out in Europe, in eighteen sixty-six, after she was rejected by Napoleon the Third and by Pope Pius the Ninth, and her psychosis still has no confirmed medical explanation. The mushroom idea was suggested by the writer Fernando del Paso in nineteen eighty-seven."
+      }
+    }
+  }
+}

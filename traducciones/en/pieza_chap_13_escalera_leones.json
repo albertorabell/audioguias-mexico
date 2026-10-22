@@ -1,0 +1,56 @@
+{
+  "id": "chap_13_escalera_leones",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6a7e9f78e88d8bf8",
+      "texto": "The Staircase of the Lions"
+    },
+    "frase_gancho": {
+      "hash": "7d5ad72a0abcc7b8",
+      "texto": "A marble staircase that was not opened for a court, but to reach an observatory."
+    },
+    "puente_narrativo": {
+      "hash": "4c00cef1930ffc24",
+      "texto": "The tour continues to the Stained Glass Gallery, where five glass goddesses filter the daylight."
+    },
+    "guion_corto": {
+      "hash": "b785a48931937cce",
+      "texto": "In eighteen seventy-eight, an access to the upper floor of the Alcázar was opened, and it was not for a party. It was so that scientists could reach the National Astronomical, Meteorological and Magnetic Observatory, which operated in the castle. Later, on the initiative of Porfirio Díaz, a white marble staircase with brass handrails was built. Around nineteen fifteen, under Venustiano Carranza, it was remodeled and the lion sculptures that give it its name were placed there, according to the museum. In other words, a staircase with an imperial air that was opened eleven years after the execution of Maximilian. Its origin is scientific, and its hands, republican. Each era left its layer here."
+    },
+    "guion_largo": {
+      "hash": "ce122e6a67c92044",
+      "texto": "Many people imagine this staircase as part of the dream of Maximilian and Carlota. The date says otherwise. According to the National Museum of History, the access was opened in eighteen seventy-eight, eleven years after the emperor was executed. The reason was scientific: the National Astronomical Observatory was then operating in the castle.\n\nThe observatory was founded by presidential decree on the eighteenth of December, eighteen seventy-six. Its first director was the engineer Ángel Anguiano, and formal work at Chapultepec began on the fifth of May, eighteen seventy-eight. An article in the Revista de la Universidad de México recounts what the astronomer Joaquín Gallo told. President Porfirio Díaz wanted more accurate maps of the country. For that, a reference point was needed to calculate the longitude of towns and cities. The museum adds that in those years a dome was added to the tower of the [Caballero Alto](chap_24_caballero_alto).\n\nIn eighteen eighty-three the observatory moved to the former Archbishop’s Palace, in Tacubaya. The astronomers left, the castle became the seat of the Military College again, and Díaz used it as a summer residence. The staircase, however, stayed. According to the museum, it was Díaz who ordered it rebuilt in white marble, with brass handrails.\n\nIt is not the only staircase in the Alcázar. The museum explains that another, interior one was opened during the government of Manuel González, between eighteen eighty and eighteen eighty-four. It connected the rooms of the presidential family with the reception halls and the dining room. It had an electric elevator for the exclusive use of that family. The servants used other staircases. A palace is also a map of who can go up, and where.\n\nThe lions came later. According to the museum, around nineteen fifteen the staircase was remodeled, during the government of Venustiano Carranza. The sculptures that gave it its name were placed then. The Revolution thus left its mark on a castle conceived for viceroys, emperors and presidents. In nineteen sixteen, the same Carranza ordered the demolition of a Porfirian building to give the Alcázar more visibility.\n\nAn INAH conservation study describes a stained glass window in this staircase with the National Coat of Arms at the center. On either side are two glyphs of Chapultepec: a hill, a grasshopper at the top and water at the base. It is the ancient way of writing the name of the place, which is translated as hill of the grasshopper. According to that study, in nineteen forty-one Francisco Goitia proposed closing the opening with plain panes of glass. The reason was the budget. In nineteen forty-three, colorless beveled glass was installed.\n\nEach era left a layer here: the observatory, Díaz’s marble, the lions of the Revolution and the glass of the nineteen forties. Further on, the [Stained Glass Gallery](chap_14_vitrales_emplomados) shows another way of working with light, very different from that of the telescope."
+    },
+    "retos_observacion": {
+      "hash": "6df92d19d968c298",
+      "texto": [
+        "Compare the two marble lions and look for what makes them alike or different",
+        "Look at the handrail, which according to the museum is made of brass, and compare it with the white marble of the steps",
+        "If you see a stained glass window at the top of the staircase, look for the glyph of Chapultepec: a hill with a grasshopper at the top"
+      ]
+    },
+    "especificaciones": {
+      "hash": "615130e47621d863",
+      "texto": {
+        "Opening of the access": "1878, for the National Astronomical, Meteorological and Magnetic Observatory",
+        "Reconstruction": "white marble and brass handrails, on the initiative of Porfirio Díaz",
+        "Lions": "placed around 1915 under Venustiano Carranza, according to the MNH",
+        "Interior staircase": "opened during the government of Manuel González (1880-1884), with an electric elevator for the presidential family",
+        "Stained glass window": "National Coat of Arms and two glyphs of Chapultepec, according to an INAH study",
+        "Location": "Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "c10f0fa812051c24",
+      "texto": {
+        "pregunta": "Myth: The Staircase of the Lions is part of the palace that Maximilian and Carlota designed for their court.",
+        "respuesta": "Reality: According to the National Museum of History, the access was opened in 1878, eleven years after the execution of Maximilian, to reach the National Astronomical Observatory; the marble dates from the Díaz era and the lions were placed around 1915."
+      }
+    }
+  }
+}

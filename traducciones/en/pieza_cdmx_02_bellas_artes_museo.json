@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_02_bellas_artes_museo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5ede0d98df8e2613",
+      "texto": "Palace of Fine Arts Museum: Cradle of Art Museums"
+    },
+    "frase_gancho": {
+      "hash": "d286d8db1a9902ad",
+      "texto": "Seventeen murals by seven artists live here, including the second version of a mural that was destroyed in New York."
+    },
+    "puente_narrativo": {
+      "hash": "75e35678e350f2b0",
+      "texto": "Leave the palace and cross toward the Alameda Central, the park that stretches out in front of the esplanade. Follow its walkways to the next stop."
+    },
+    "como_llegar": {
+      "hash": "4151fe65286163ae",
+      "texto": "Walk toward the entrance of the palace. The next stop tells what it holds inside, and you can listen to it even if you decide not to go in."
+    },
+    "guion_corto": {
+      "hash": "681e671286e6153f",
+      "texto": "There is a mural here that Diego Rivera painted for a second time. The first version was in Rockefeller Center in New York and was chiseled off the wall in nineteen thirty-four. Rivera recreated the work in Mexico, under the title El hombre controlador del universo, and today it is on display in this palace. It is one of the pieces of the first art museum in Mexico. Today it brings together seventeen permanent murals by seven Mexican artists, created between nineteen twenty-eight and nineteen sixty-three. Admission to the museum is paid, so listen to this piece as an invitation. If you decide to go in, check the current opening hours."
+    },
+    "guion_largo": {
+      "hash": "4641789469f49971",
+      "texto": "This museum is almost as old as the palace that houses it. It opened on November twenty-ninth, nineteen thirty-four, two months after the building was inaugurated. At that time it was called the Museo de Artes Plásticas, and it was the first art museum in Mexico. Today it is considered the origin of the country’s system of art museums.\n\nIts original collection was very different from what you see now. It included works from the sixteenth century through the murals that Diego Rivera and José Clemente Orozco painted in nineteen thirty-four. It also had halls of Mesoamerican sculpture, of Mexican prints, and a museum of folk art with the collection of Roberto Montenegro. The holdings were formed from government collections, acquisitions, donations, bequests, and the holdings of the former Academy of San Carlos.\n\nOver the years, those holdings were gradually distributed elsewhere. The surplus works fed other museums in the system. Among them are the Museum of Modern Art, the Viceregal Pinacoteca, and the National Museum of San Carlos. There is also the National Museum of Art, the Munal, which is just a few blocks away and which we are going to visit. When the National Institute of Fine Arts was created, Fernando Gamboa, Julio Castellanos, and Julio Prieto transformed the project into the National Museum of Plastic Arts. Since nineteen sixty-eight it has been called the Palace of Fine Arts Museum.\n\nToday the museum is known above all for its murals. It permanently exhibits seventeen works by seven Mexican artists, created between nineteen twenty-eight and nineteen sixty-three. Many pieces of the historical collection are no longer in this building. Among the murals are La eterna lucha de la humanidad por un mundo mejor, also called Katharsis, by José Clemente Orozco, from nineteen thirty-four. There is La nueva democracia, by David Alfaro Siqueiros, from nineteen forty-five, and there are works by Rufino Tamayo. There is also Liberación, by González Camarena, from nineteen sixty-three.\n\nSome murals arrived later. As part of a conservation program, works by Manuel Rodríguez Lozano and Roberto Montenegro were moved to this museum. Other murals by Rivera also arrived.\n\nThe best-known story is that of Rivera. In nineteen thirty-two he received the commission to paint a mural in Rockefeller Center, in New York. The work caused a controversy because of its political content. It was chiseled off the wall in nineteen thirty-four. Rivera recreated it in Mexico under the title El hombre controlador del universo, and today it is on display in this palace.\n\nYou will see that Rivera reappears at other stops. Very soon you will find him in the Alameda, with a mural that has this very park as its setting. At the [Diego Rivera Mural Museum](cdmx_06_museo_mural_rivera) you can learn more about that work.\n\nThe museum offers guided tours, and its program includes workshops and concerts. Admission is paid. If you decide to go in, check the current opening hours and conditions before you come. And if you prefer not to, you are not missing the essentials. The façade, the esplanade, and the Pegasuses can be enjoyed for free from the street, and the previous stop told you their story."
+    },
+    "retos_observacion": {
+      "hash": "b3819cb30f1d99cd",
+      "texto": [
+        "Find the main entrance of the palace, where you enter the museum if you decide to go in",
+        "Scan the marble façade with your eyes and look for the highest point of the building",
+        "Choose the Pegasus closest to you and notice which way it spreads its wings"
+      ]
+    },
+    "especificaciones": {
+      "hash": "668766425e4d29af",
+      "texto": {
+        "Época": "Inaugurated on November 29, 1934",
+        "Nombre actual": "Palace of Fine Arts Museum, since 1968",
+        "Colección": "17 permanent murals by seven Mexican artists, from 1928 to 1963",
+        "Ubicación": "Av. Juárez at the corner of Eje Central Lázaro Cárdenas",
+        "Dato clave": "It was the first art museum in Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "a4e20d546b656635",
+      "texto": {
+        "pregunta": "Myth: The Rivera mural seen at Bellas Artes is the same one he painted at Rockefeller Center.",
+        "respuesta": "Reality: The one in New York was chiseled off the wall in 1934; Rivera painted a new version, titled El hombre controlador del universo, which is on display in this palace."
+      }
+    }
+  }
+}

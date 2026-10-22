@@ -1,0 +1,56 @@
+{
+  "id": "chap_10_mural_madero",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "eb390d687f959dff",
+      "texto": "Altarpiece of the Revolution: the March of Loyalty"
+    },
+    "frase_gancho": {
+      "hash": "730c6b8bf5415518",
+      "texto": "Two hyenas above an ambassador and a general: this is how Juan O’Gorman painted the betrayal that followed Madero’s departure from this castle."
+    },
+    "puente_narrativo": {
+      "hash": "76ec556ad323d12a",
+      "texto": "Head to the Constitution hall of nineteen seventeen, where a mural by Jorge González Camarena shows Venustiano Carranza writing while an eagle dictates to him."
+    },
+    "guion_corto": {
+      "hash": "a3d789c0360abf0b",
+      "texto": "Above two men passing a presidential sash between them, Juan O’Gorman painted two hyenas, a symbol of betrayal. The men are the American ambassador Henry Lane Wilson and General Victoriano Huerta. The scene is part of this fresco from nineteen sixty-eight, dedicated to the March of Loyalty. On February ninth, nineteen thirteen, President Francisco I. Madero left this castle, escorted by cadets of the Military College, heading for the National Palace to face a military rebellion. A red banner carries his motto, effective suffrage, no reelection. On the horizon, Chapultepec Castle itself is the vanishing point of the composition."
+    },
+    "guion_largo": {
+      "hash": "0819d61bb67bcd75",
+      "texto": "Francisco Ignacio Madero was born on October thirtieth, eighteen seventy-three, on the hacienda of El Rosario, in Parras, Coahuila, into a wealthy family. Ignacio, not Indalecio, as it is sometimes written. In nineteen oh eight he wrote the book The Presidential Succession, which he published in early nineteen oh nine under the title The Presidential Succession in nineteen ten. That year he founded the Anti-Reelectionist Center. In nineteen ten he was jailed, escaped to San Antonio, Texas, and from there proclaimed the Plan of San Luis.\n\nThe motto of this mural was born in that period. On October fifth, nineteen ten, Madero published the Plan of San Luis and called for taking up arms against the government of Porfirio Díaz on November twentieth. His slogan was effective suffrage, no reelection. In May of nineteen eleven, Pascual Orozco, Francisco Villa and Abraham González took Ciudad Juárez, while Emiliano Zapata and other leaders attacked in Morelos and Guerrero. On May twenty-fifth, Díaz resigned. Once president, Madero lived in this castle, and from here he set out on the day that Juan O’Gorman chose to paint.\n\nOn February ninth, nineteen thirteen, Generals Manuel Mondragón and Gregorio Ruiz rose up together with cadets of the Military School of Aspirants. They freed Bernardo Reyes and Félix Díaz, a nephew of Porfirio Díaz, who were being held prisoner, and sought to seize the National Palace. Madero was in Chapultepec. On learning of the uprising, he headed to the Palace, escorted by cadets of the Military College. That journey is called the March of Loyalty.\n\nAt the National Palace there was fighting. Historians tell two versions of how the attack unfolded, but they agree that General Lauro Villar, head of the defense, was wounded. Madero then put General Victoriano Huerta in command. The rebels fell back to the Citadel, an arsenal. Ten days of fighting in the city began, known as the Decena Trágica, the Ten Tragic Days.\n\nHuerta negotiated with Félix Díaz the Pact of the Citadel, also called the Pact of the Embassy. The American ambassador Henry Lane Wilson took part. Madero and Vice President José María Pino Suárez were arrested and signed their resignations, with the promise that their lives would be spared. On the night of February twenty-second, they were being transferred to the Lecumberri prison. They were taken out of the cars behind the penitentiary and killed. The official version said that an armed group attacked the vehicles. The chronology of the National Human Rights Commission describes a staged attack, on Huerta’s orders.\n\nO’Gorman’s fresco dates from nineteen sixty-eight. It measures four meters fifty centimeters high by six fifty wide. A red banner carries Madero’s motto. Farther back, Ambassador Wilson hands the presidential sash to Huerta, and above the two of them, two hyenas symbolize betrayal. It is an allegory: the painter condensed into a single image the role that history attributes to the ambassador. On the opposite side appear Pino Suárez, Madero’s wife, Sara Pérez, and his brother Gustavo A. Madero, with doves above them. On the horizon stands Chapultepec Castle, the place where you are now, as the vanishing point.\n\nO’Gorman also painted the [Altarpiece of Independence](chap_04_retablo_independencia), between nineteen sixty and nineteen sixty-one. For the Madero Hall he also made Porfirian Feudalism, between nineteen seventy and nineteen seventy-three. Another mural in the museum, from nineteen thirty-three, also recalls that departure. It is the Allegory of the Revolution, by Eduardo Solares.\n\nThe Military College operated in this very castle. The cadets had fought here in eighteen forty-seven, as told in the [hall on the war with the United States](chap_08_intervencion_1847). Madero was buried on February twenty-fourth, nineteen thirteen, in the La Piedad cemetery. Since nineteen sixty his remains have rested in the Monument to the Revolution. Every February twenty-second the national flag flies at half-staff in his memory."
+    },
+    "retos_observacion": {
+      "hash": "85529d1e51514e16",
+      "texto": [
+        "Find the red banner with the motto effective suffrage, no reelection",
+        "Find the two hyenas above the ambassador and the general",
+        "Locate Chapultepec Castle on the horizon, which serves as the vanishing point of the entire scene"
+      ]
+    },
+    "especificaciones": {
+      "hash": "20058d1cc1dc71f2",
+      "texto": {
+        "Work": "Altarpiece of the Revolution (Effective Suffrage, No Reelection)",
+        "Author": "Juan O’Gorman",
+        "Year": "1968",
+        "Technique": "Fresco",
+        "Dimensions": "4.50 m high by 6.50 m wide",
+        "Episode": "March of Loyalty, February 9, 1913"
+      }
+    },
+    "faq_mito": {
+      "hash": "e2aff85ca8dbd42e",
+      "texto": {
+        "pregunta": "Myth: Madero died in a shootout, when an armed group attacked the cars taking him to prison.",
+        "respuesta": "Reality: That was Huerta’s official version. The chronology of the CNDH describes a staged attack to kill Madero and Pino Suárez, on Huerta’s orders."
+      }
+    }
+  }
+}

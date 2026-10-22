@@ -1,0 +1,56 @@
+{
+  "id": "chap_02_fachada_puerta",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a1635e04078536c3",
+      "texto": "The Entrance to the Castle and Its Viceregal Origins"
+    },
+    "frase_gancho": {
+      "hash": "525275c3f40a2f5b",
+      "texto": "It was said that the viceroy who ordered this building raised wanted to make himself king; the documents tell a different story."
+    },
+    "puente_narrativo": {
+      "hash": "3712d97d74d58f8c",
+      "texto": "Continue to the open space where the cadets of the Military College studied and lived. The Patio de los Cañones awaits you there."
+    },
+    "guion_corto": {
+      "hash": "31b793ac0193eac3",
+      "texto": "Some claimed that Viceroy Bernardo de Gálvez built this building as a fortress, so that he could proclaim himself king of New Spain. It is an old story, and a UNAM study dismisses it: there are no documents showing that Gálvez sought the crown. What is documented is something else. Work began in seventeen eighty-five, under the engineers Francisco Bambitelli and, later, Manuel Agustín Mascaró. Gálvez died in seventeen eighty-six, and according to the museum the work was left unfinished. When the Crown ordered the land to be auctioned, no one was interested. That eighteenth-century country retreat would later have many lives: military college, imperial palace, presidential residence, and museum."
+    },
+    "guion_largo": {
+      "hash": "ccef97c094013df0",
+      "texto": "Bernardo de Gálvez was born in seventeen forty-six, in Macharaviaya, Spain. Before coming to Mexico he was already known as a military man: he led the siege of Pensacola, in Florida, which ended in May of seventeen eighty-one with a Spanish victory. In seventeen eighty-five he moved to New Spain to succeed his father, Matías de Gálvez, as viceroy.\n\nThe idea of a palace on the summit of Chapultepec predated his arrival. According to the National Museum of History, after the explosion of a nearby gunpowder depot, the architects proposed a new palace up high. It was by order of Matías de Gálvez. An INAH study records that the plans were presented on the twenty-ninth of May, seventeen eighty-four. Under Bernardo, in seventeen eighty-five, construction began. The INAH describes it as a country retreat, not as a fortress.\n\nThen illness came. A UNAM article about his government says that the symptoms appear from July of seventeen eighty-six. By October he was already gravely ill, and he was taken to Tacubaya. He died there on the thirtieth of November of that year, at the age of forty. His funerals were attended by huge crowds, and his body lay in state for three days before a people who, according to the chronicles, loved him dearly.\n\nFrom there the rumors were born. Some said he had been poisoned, even by order of King Charles the Third, to keep him from seizing the kingdom. Others maintained that he had built this building as a fortress in order to crown himself. The author of the study rejects them. The illness lasted at least four months, and a slow poison would have been noticed by the doctors. Moreover, there are no documents suggesting that Gálvez sought the crown. It is a good example of how the sudden death of a beloved figure can be filled with legends.\n\nWithout the viceroy, the palace lost its driving force. The Crown suspended the work and ordered the land to be auctioned, but the auction failed because no one was interested. Afterward, the ministers of the Royal Treasury sold the glass panes, the doors, and the windows. In eighteen oh-six, the City Council of Mexico City acquired the property.\n\nThe name Castle came much later. In eighteen thirty-three it was decided to turn the palace into the seat of the Military College. In eighteen forty-one the reconstruction began. A large tower was then raised, the Caballero Alto, which gave the building the look of a fortress and led people to call it the Castle. Further on you will see the [Caballero Alto](chap_24_caballero_alto).\n\nThe entrance also changed with the eras. On the plan of seventeen eighty-five, a main entrance appears. Under Maximilian, the architect Ramón Rodríguez Arangoity adapted the building as a palace, between eighteen sixty-four and eighteen sixty-seven. Arcades and balconies were added on the south facade. A central portico of five semicircular arches was also built. In eighteen eighty-three, when the Military College returned to the Castle, Porfirio Díaz used it as a summer residence. That is why the facade is a sum of eras, rather than the result of a single project.\n\nIf you keep just one idea, let it be this: the building that a viceroy began as a country retreat ended up being a school, a palace, and a museum."
+    },
+    "retos_observacion": {
+      "hash": "6493575589db9f2f",
+      "texto": [
+        "Count how many different types of openings you see on the facade: doors, windows, balconies, or arches",
+        "Compare the solid walls with the lighter, more decorated parts, and ask yourself which looks older",
+        "Look up high for the Castle’s tower, which arrived with the reconstruction of eighteen forty-one"
+      ]
+    },
+    "especificaciones": {
+      "hash": "12bba7d7c8bf6e2e",
+      "texto": {
+        "Start of construction": "1785, Viceroy Bernardo de Gálvez",
+        "Engineers": "Francisco Bambitelli and, later, Manuel Agustín Mascaró",
+        "Original use": "viceregal country retreat",
+        "Purchase by the City Council of Mexico City": "1806",
+        "Military College": "decided in 1833, reconstruction from 1841, with the Caballero Alto tower",
+        "Central portico of five semicircular arches": "Maximilian era, 1864 to 1867"
+      }
+    },
+    "faq_mito": {
+      "hash": "d64a889e4b371292",
+      "texto": {
+        "pregunta": "Myth: The building is called a castle because it was built for a European king.",
+        "respuesta": "Reality: A viceroy began it in 1785 as a pleasure palace. The name came later: the Caballero Alto tower, built during the 1841 reconstruction for the Military College, gave it the look of a fortress."
+      }
+    }
+  }
+}

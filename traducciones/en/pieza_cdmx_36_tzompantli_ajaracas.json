@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_36_tzompantli_ajaracas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "91a3f948a4e5e0f1",
+      "texto": "Huei Tzompantli and the Casa de las Ajaracas"
+    },
+    "frase_gancho": {
+      "hash": "690986df655442ec",
+      "texto": "On a single street, a reinforcement project uncovered a Mexica skull altar, and a viceregal house preserves its mudéjar façade."
+    },
+    "puente_narrativo": {
+      "hash": "7e43f3d2b22e2c4e",
+      "texto": "Continue to [Moneda Street](cdmx_37_calle_moneda), right beside the [National Palace](cdmx_29_palacio_nacional). There begins a block of museums and viceregal buildings with many layers of history."
+    },
+    "como_llegar": {
+      "hash": "787fcc1b0a74619a",
+      "texto": "Continue to República de Guatemala, behind the Cathedral, where the [Huei Tzompantli and the Casa de las Ajaracas](cdmx_36_tzompantli_ajaracas) await you. A single street brings together a Mexica skull altar and a viceregal house."
+    },
+    "guion_corto": {
+      "hash": "7280adad4452bd0c",
+      "texto": "Around six hundred fifty complete skulls were counted by archaeologists on a single lot along this street. In twenty fifteen, a reinforcement project at República de Guatemala twenty-four revealed remains of the Huei Tzompantli. It was the great skull altar of Tenochtitlan, from the last two stages of the Templo Mayor, between fourteen eighty-six and fifteen twenty-one. This site is not open to the public, so its story is told from the street. Farther along, at Guatemala thirty-four, stands the Casa de las Ajaracas, named for the interlaced stuccos of its mudéjar façade. Two discoveries, two eras, one street."
+    },
+    "guion_largo": {
+      "hash": "e5a92a55164fea9f",
+      "texto": "A tzompantli was a Mexica structure where the skulls of sacrificed people were placed. Chroniclers of the sixteenth century described it with amazement. The conquistador Andrés de Tapia spoke of more than one hundred thirty-six thousand skulls in a single structure. What archaeology has recorded is hundreds, in a recent excavation behind the Cathedral.\n\nIn June of twenty fifteen, a preventive excavation revealed remains of the Huei Tzompantli. It was being carried out to reinforce a building at República de Guatemala twenty-four, and the remains lay beneath a nineteenth-century tenement. The INAH Urban Archaeology Program, directed by Raúl Barrera Rodríguez, worked two field seasons between twenty fifteen and twenty seventeen. They found a low platform, about seventy centimeters high, and a circular tower of skulls joined with lime and mud, arranged in concentric rings.\n\nThe real numbers are more modest and more precise. More than eleven thousand skull fragments have been recorded, along with a minimum of six hundred fifty whole skulls. A sample of one hundred seventy-nine was studied in depth. Most were young adult men, but there were also women and children. This qualifies the idea that all the victims were captured warriors.\n\nThe INAH distinguishes two phases of the tzompantli. The first, between fourteen eighty-six and fifteen oh two, corresponds to the reign of Ahuízotl and to stage six of the Templo Mayor. The second, until fifteen twenty-one, corresponds to stage seven. Friar Bernardino de Sahagún recorded seven structures of this kind in Tenochtitlan. In twenty twenty and twenty twenty-one, conservation work exposed the outer façade of the tower.\n\nThis site is not open to the public. That is why we tell its story from the street, with respect for the subject and with the facts known today.\n\nFarther along the same street, at number thirty-four, stands the Casa de las Ajaracas. It was originally called the Nava Chávez Entailed Estate House, and an entailed estate was a set of assets that passed whole to the eldest son. Its present name comes from the decoration of the façade, in mudéjar style, with stuccos that draw interlaced lines and rosettes. The house was rebuilt in seventeen fifty-five over an older one.\n\nThe corner of Guatemala and Argentina has another meaning. Between fifteen twenty-one and fifteen twenty-two, on the orders of Hernán Cortés, the master builder Alonso García Bravo laid out the grid of the new city. According to the historian Lucía Mier y Rocha, this intersection was one starting point of that layout.\n\nThe subsoil took its toll. The sinking that followed the Templo Mayor excavations and the earthquakes of nineteen eighty-five damaged the walls. In nineteen ninety-four, the neighboring buildings at Guatemala thirty-six and thirty-eight, and at Argentina six, were demolished. The Casa de las Ajaracas, by contrast, was restored. Today it houses the Photography Archive Museum, with about two million images spanning more than a century of the city.\n\nAnd there is one last coincidence. On the second of October, two thousand six, on the lot of the former Nava Chávez entailed estate, the monolith of Tlaltecuhtli appeared. Today it is on display at the [Templo Mayor](cdmx_34_templo_mayor) museum. A skull altar and a mudéjar house seem to belong to different worlds. Yet they share a street, the ground beneath them, and one question: what lies beneath the city we walk on."
+    },
+    "retos_observacion": {
+      "hash": "f995f1a942fd3419",
+      "texto": [
+        "On República de Guatemala, look for the façade of interlaced stuccos of the Casa de las Ajaracas",
+        "Find number twenty-four on the street: the Huei Tzompantli was excavated there, and today it cannot be visited inside",
+        "Compare the height and materials of the Casa de las Ajaracas with the neighboring buildings"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1b17deccae971723",
+      "texto": {
+        "Era": "Huei Tzompantli, late 15th and early 16th centuries",
+        "Discovery": "June 2015, INAH Urban Archaeology Program, directed by Raúl Barrera Rodríguez",
+        "Location": "República de Guatemala 24 (Huei Tzompantli) and 34 (Casa de las Ajaracas)",
+        "Casa de las Ajaracas": "formerly the Nava Chávez Entailed Estate House, mudéjar façade",
+        "Access": "the Huei Tzompantli site is not open to the public",
+        "Key fact": "the monolith of Tlaltecuhtli was found near here on October 2, 2006"
+      }
+    },
+    "faq_mito": {
+      "hash": "e417d3bcc84236bb",
+      "texto": {
+        "pregunta": "Myth: The skulls of the tzompantli all belonged to male warriors captured in battle.",
+        "respuesta": "Reality: Most of the skulls studied belonged to young adult men, but there were also women and children."
+      }
+    }
+  }
+}

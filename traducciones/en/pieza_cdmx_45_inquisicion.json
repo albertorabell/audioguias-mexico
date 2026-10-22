@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_45_inquisicion",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3b85ee8220e99e76",
+      "texto": "Palace of the Inquisition and Museum of Mexican Medicine"
+    },
+    "frase_gancho": {
+      "hash": "12ffa21ce2b06d65",
+      "texto": "For eighty-four years the tribunal of the Holy Office operated here; afterward, generations of doctors learned within these walls."
+    },
+    "puente_narrativo": {
+      "hash": "3a5e937adaf94510",
+      "texto": "Continue toward República de Argentina Street, where the entrance to the [Living Museum of Muralism](cdmx_46_museo_vivo_muralismo) is located, in the Secretariat of Public Education building."
+    },
+    "como_llegar": {
+      "hash": "0297b4ccc15bb766",
+      "texto": "Continue toward República de Brasil Street, across from the plaza, where the [Palace of the Inquisition](cdmx_45_inquisicion) stands."
+    },
+    "guion_corto": {
+      "hash": "2a9a9418da1f0d70",
+      "texto": "Eighty-four years. That is how long this building served as the seat of the Tribunal of the Holy Office. The architect Pedro de Arrieta built it between seventeen thirty-two and seventeen thirty-six. Inside there were hearing rooms, a jail, and quarters for the inquisitors. In eighteen twenty the tribunal was abolished for good, and the palace changed course. In eighteen fifty-four the School of Medicine took it over, and it taught here for more than a century. Today it is the Museum of Mexican Medicine. Few facades in the Historic Center show, in a single building, how fear, law, and science have changed."
+    },
+    "guion_largo": {
+      "hash": "c772193877a93713",
+      "texto": "This building has two almost opposite lives, and both are true. First it was the seat of a tribunal. Later it was a school where people studied how to heal.\n\nThe Inquisition arrived in New Spain in fifteen seventy-one. Its full name was the Tribunal of the Holy Office. It watched over the faith and judged crimes such as heresy and blasphemy. This palace was built for the tribunal. Construction began in December of seventeen thirty-two and ended in seventeen thirty-six. A plaque from the Office of Colonial Monuments, placed in nineteen sixty-three, repeats those years.\n\nThe person who directed the work was Pedro de Arrieta, master builder of the Holy Office's works. He also worked on the Cathedral and on La Profesa. He died shortly after finishing this palace. The building then had two floors, and the third was added in the nineteenth century. Its courtyard has Tuscan Doric columns and arches with moldings.\n\nInside there were hearing rooms, secret chambers, lodgings for inquisitors, and a prison. The tribunal operated in this building for eighty-four years. The Cortes of Cádiz suppressed it in eighteen thirteen, it was restored in eighteen fourteen, and it was abolished for good in eighteen twenty.\n\nThen a period of neglect began. In eighteen thirty-eight the palace was put up for public auction and no one bought it. After that came an unexpected turn. The School of Medicine occupied the former convent of San Hipólito. A government of Santa Anna took it over as a barracks in eighteen fifty-three, and the school needed another place. The Conciliar Seminary sold it the main courtyard of this building. In eighteen fifty-four the school settled here.\n\nFor more than a hundred years, these walls watched generations of medical students pass through. In the mid-nineteen fifties, the faculty moved to University City. The building closed in nineteen fifty-six. A historical museum of medicine was planned. In nineteen eighty the Museum of Mexican Medicine, belonging to the University, was inaugurated.\n\nIf you decide to go in, the museum is devoted to the history of medicine in Mexico. Its collections cover subjects such as anatomy, the apothecary, herbal medicine, pre-Hispanic medicine, wax models, embryology, and reconstructive surgery. The Faculty of Medicine added an ophthalmology hall in two thousand twelve. Some halls include anatomical and embryological material, something worth knowing beforehand. Exhibitions change and so do opening hours, so check the current information before you come.\n\nFrom the street, the facade already tells a story. It has three levels, and the top one is the nineteenth-century expansion. The Dominican church and this palace were neighbors for centuries. Today one is still a church, and the other tells how medicine changed in Mexico."
+    },
+    "retos_observacion": {
+      "hash": "8494edf6d7609b9d",
+      "texto": [
+        "Count the levels of the facade; the top one was added in the 19th century",
+        "Look for a plaque on the facade that recalls its history",
+        "Compare this building with the tower of the Church of Santo Domingo on the plaza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0aff5a2846e2d8bc",
+      "texto": {
+        "Period": "built from December 1732 to 1736",
+        "Architect": "Pedro de Arrieta",
+        "Original use": "seat of the Tribunal of the Holy Office, abolished for good in 1820",
+        "School of Medicine": "1854 to the mid-1950s",
+        "Museum": "Museum of Mexican Medicine (UNAM), inaugurated in 1980",
+        "Location": "República de Brasil 33, Historic Center"
+      }
+    },
+    "faq_mito": {
+      "hash": "e16adf29a2067d8e",
+      "texto": {
+        "pregunta": "Myth: This palace is the original Inquisition building, from the sixteenth century.",
+        "respuesta": "Reality: The tribunal had operated in New Spain since 1571, but this palace was built between December 1732 and 1736."
+      }
+    }
+  }
+}

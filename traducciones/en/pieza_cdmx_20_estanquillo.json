@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_20_estanquillo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dfe355cad11ce13c",
+      "texto": "El Estanquillo: The Jewelry Store That Became a Museum"
+    },
+    "frase_gancho": {
+      "hash": "a6dfc4559f7b97ff",
+      "texto": "A French jewelry store from eighteen ninety-two is now home to the cartoons, photographs, and objects collected by Carlos Monsiváis."
+    },
+    "puente_narrativo": {
+      "hash": "8fd51d63437bdc53",
+      "texto": "Walk one block up Isabel la Católica to Cinco de Mayo Avenue, turn west, and look, toward Motolinia Street, for a candy shop with more than a century of history."
+    },
+    "como_llegar": {
+      "hash": "f081927ef70da3a1",
+      "texto": "Walk a few steps to the neighboring corner, where the [Museo del Estanquillo](cdmx_20_estanquillo) awaits you."
+    },
+    "guion_corto": {
+      "hash": "0dcc197c754d7953",
+      "texto": "An estanquillo was a small neighborhood store where you could find a little of everything. That is where this museum takes its name, since it brings together the variety of things collected by the writer Carlos Monsiváis. You are at the corner of Madero and Isabel la Católica. The building is known as La Esmeralda, after the jewelry store that opened here on November twenty-seventh, eighteen ninety-two. Think about the contrast. Where jewels and watches were once sold, today cartoons, photographs, engravings, and objects from everyday life in Mexico are kept. Let your eyes follow the cornices and pilasters of the facade, and look nearby for the dome of La Profesa."
+    },
+    "guion_largo": {
+      "hash": "bfdc500afa3999e0",
+      "texto": "Before it was a museum, this building was a display window. The La Esmeralda jewelry store opened its doors on November twenty-seventh, eighteen ninety-two, and the building had been constructed for it. It sold jewels, watches, and art objects brought from France. At that time, this street was called Plateros and was not yet Madero.\n\nThe design is by the architects Eleuterio Méndez and Francisco Serrano, from the late nineteenth century. Its air is French, with abundant ornamentation. If you look at the facade, you will see restored friezes, cornices, and pilasters. The building was rescued with support from the National Institute of Anthropology and History (INAH) and the architect Gabriel Mérigo Basurto. The work began in two thousand three.\n\nBetween one era and another, the building had many lives. It was an art gallery, a French clothing store, a bank, offices, and even a nightclub for a brief time. It is a good lesson about the Historic Center: the walls remain, but what happens inside changes with each generation.\n\nIn the year two thousand six, the Museo del Estanquillo opened here. Its foundation is the collection of Carlos Monsiváis, who was born in nineteen thirty-eight and died in two thousand ten. Monsiváis was a writer, journalist, and chronicler of the city, and he spent years gathering objects that others would have thrown away. Part of that collection remained in his home in the Portales neighborhood, and his family has made donations over time.\n\nThe name also tells something. An estanquillo was a little store where very different goods lived side by side. That is what this collection is like: a little of everything, but with a clear thread, popular life and twentieth-century art in Mexico. The museum holds more than twenty thousand objects and images.\n\nIf you decide to go in, here is what you can expect, in very general terms. The museum brings together political cartoons, photography, engraving, painting, drawing, miniatures, scale models, and everyday objects. It is a museum of popular culture more than of grand individual works. What is on display changes over time. It is wise to check the museum’s current information, including hours and access conditions. Monsiváis asked that the museum be free of charge, and a cultural association, acting as a board of trustees, helps sustain it.\n\nThis kind of collection has a direct connection to another stop on your tour. Mexican caricature, which has an important place here, appears again in the [Museo de la Caricatura](cdmx_49_museo_caricatura), already on the second day.\n\nMeanwhile, stay a moment at the corner. Nearby are La Profesa, your previous stop, and the [Palacio de Iturbide](cdmx_18_palacio_iturbide). This corner sums up well what Madero is. It is a street that has changed its uses many times and that today lives alongside the popular memory that Monsiváis knew how to preserve.\n\nOne last detail. Museums are usually housed in noble palaces or convents. This one is in a former shop. That difference is a reminder that the history of a city is not written only with viceroys and presidents. It is also made by jewelers, vendors, cartoonists, and collectors of the everyday."
+    },
+    "retos_observacion": {
+      "hash": "a0a526ea5b057d39",
+      "texto": [
+        "Look on the facade for the restored cornices, friezes, and pilasters of the La Esmeralda building",
+        "Find the dome and towers of the La Profesa church, very close to this corner",
+        "Identify exactly which corner you are on and which two streets cross here: Madero and Isabel la Católica"
+      ]
+    },
+    "especificaciones": {
+      "hash": "dc04f3f5f53b38b3",
+      "texto": {
+        "Era": "building from the late 19th century; jewelry store inaugurated on November 27, 1892",
+        "Authors": "Eleuterio Méndez and Francisco Serrano (original design)",
+        "Restoration": "architect Gabriel Mérigo Basurto, with INAH; work since 2003",
+        "Museum": "opened in 2006 with the collection of Carlos Monsiváis",
+        "Location": "Isabel la Católica 26, corner of Madero",
+        "Key fact": "more than 20,000 objects and images"
+      }
+    },
+    "faq_mito": {
+      "hash": "a756f0d79fa164eb",
+      "texto": {
+        "pregunta": "Myth: El Estanquillo is a museum of ancient art or expensive art, like the palaces in the area.",
+        "respuesta": "Reality: It is a museum of twentieth-century popular culture, formed from the personal collection of the chronicler Carlos Monsiváis, with cartoons, photography, engraving, miniatures, and everyday objects, in a building that was once a jewelry store."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_37_calle_moneda",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc5fd4a8e328b316",
+      "texto": "Moneda Street: The Block of Museums"
+    },
+    "frase_gancho": {
+      "hash": "3a6e927c7e2f85ba",
+      "texto": "Next to the National Palace, a single street brings together an archbishops’ palace, a mint, a printing house, and several convents."
+    },
+    "puente_narrativo": {
+      "hash": "4617ef355a9a3503",
+      "texto": "Continue along Moneda to number four, where a former archbishops’ palace now houses art. It is the [Museo de Arte de la SHCP](cdmx_38_museo_shcp)."
+    },
+    "como_llegar": {
+      "hash": "7e43f3d2b22e2c4e",
+      "texto": "Continue toward [Moneda Street](cdmx_37_calle_moneda), right beside the [National Palace](cdmx_29_palacio_nacional). There begins a block of museums and viceregal buildings with many layers of history."
+    },
+    "guion_corto": {
+      "hash": "1d4d0dd373c5f4d1",
+      "texto": "A street named after money. Moneda owes its name to the Real Casa de Moneda, the building where the coinage of New Spain was minted. But this block, which begins between the Cathedral and the National Palace, holds much more than coins. Here once stood an archbishops’ palace, and a few steps away the first printing press in the Americas was set up. Nearby is a convent where Sor Juana spent a few months. Today several of these buildings are museums, and we will visit them one by one. The stretch is short, but each number hides a different story. This street is the gateway to a small neighborhood of history."
+    },
+    "guion_largo": {
+      "hash": "fa327954c4eae698",
+      "texto": "Moneda is one of those short streets with a long memory. It begins between the Cathedral and the National Palace, at the corner with Seminario, and runs toward the east. On that first corner stood the first university in the Americas, and later a cantina. Its name comes from the Real Casa de Moneda, which today is the [Museo Nacional de las Culturas del Mundo](cdmx_39_culturas_mundo). We tell the history of that building and its land at its own stop.\n\nSee how the powers of the viceroyalty lived side by side here. Beside the street stands the [National Palace](cdmx_29_palacio_nacional), the seat of government. At number four stood the archbishops’ palace, today the [Museo de Arte de la SHCP](cdmx_38_museo_shcp). And at number thirteen, the house where coins were minted. The Church, the government, and money occupied neighboring buildings, on the same block.\n\nA few steps away, at the corner with Primo de Verdad, the first printing press in the Americas was set up. Its press arrived in fifteen thirty-nine, backed by Fray Juan de Zumárraga and the viceroy Antonio de Mendoza. When you reach the [Casa de la Primera Imprenta de América](cdmx_40_primera_imprenta), you will see why a plaque gives another date.\n\nVery close by, the convents begin. The convent of Santa Teresa la Antigua, of the Discalced Carmelites, is today divided between [Ex Teresa Arte Actual](cdmx_41_ex_teresa) and the [Palacio de la Autonomía](cdmx_42_palacio_autonomia). Sor Juana Inés de la Cruz entered the Carmelites in sixteen sixty-seven. She left after a few months, because of health problems.\n\nThe order of the stops has a slight back-and-forth. First you will see number four, then number thirteen, which lies farther east, and then you will walk back a few steps to the corner of Primo de Verdad, where the printing house and the convents are grouped. It is half a block, and it is worth it for what each building tells. As you walk, history moves from the Mexica world to the viceroyalty and from there to the republic: first the land of Moctezuma, then the archbishops and the printing press, and finally today’s museums.\n\nNear the corner with Correo Mayor there are two Baroque mansions, one facing the other, which form the Casas del Mayorazgo de Guerrero. They are a reminder that this street had not only churches and offices, but also the homes of powerful families.\n\nA short distance away, on Academia Street, is the Museo José Luis Cuevas. It has no stop of its own on this tour, but it is worth mentioning. It occupies the former convent of Santa Inés and opened as a museum in nineteen ninety-two. The convent was rebuilt in the late eighteenth century, largely under the direction of Manuel Tolsá. It holds about one thousand eight hundred sixty works, mostly by Latin American painters and illustrators.\n\nThis street teaches you to look at the Center in layers. Each facade was a palace, a convent, an office, or a school. Almost all of them repeat the same lesson: the city changes how it uses a place, but the ground keeps its memory. Before moving on, find number four on Moneda, which is your next destination."
+    },
+    "retos_observacion": {
+      "hash": "60fd3508c8d52dc7",
+      "texto": [
+        "Find number four on Moneda, the entrance to the former archbishops’ palace",
+        "Find number thirteen, the building of the former Casa de Moneda",
+        "Locate the corner with Primo de Verdad and the plaque commemorating the first printing press in the Americas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "44ac57f5dd908f7b",
+      "texto": {
+        "Location": "Moneda Street, beside the National Palace",
+        "Origin of the name": "the Real Casa de Moneda",
+        "Casa de Moneda": "building constructed between 1731 and 1734",
+        "Moneda 4": "Museo de Arte de la SHCP, former Archbishop’s Palace",
+        "Moneda 13": "Museo Nacional de las Culturas del Mundo",
+        "Nearby": "First Printing House, Ex Teresa, Palacio de la Autonomía, and Museo José Luis Cuevas"
+      }
+    },
+    "faq_mito": {
+      "hash": "1bdfaf973703a71c",
+      "texto": {
+        "pregunta": "Myth: The Casa de Moneda building dates from the time of Hernán Cortés.",
+        "respuesta": "Reality: The site has a history that goes back to the Conquest, but the current building was constructed between seventeen thirty-one and seventeen thirty-four."
+      }
+    }
+  }
+}

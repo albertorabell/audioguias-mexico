@@ -1,0 +1,55 @@
+{
+  "id": "chap_05_nueva_espana_plata",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a28105ad7c5d082d",
+      "texto": "The Kingdom of New Spain: Silver, Galleons, and Ivories"
+    },
+    "frase_gancho": {
+      "hash": "0a796012b1c98d73",
+      "texto": "The Mexican silver that paid for the Battle of Trafalgar, and the hundred shops that sold cinnamon from Ceylon and silk from Manila."
+    },
+    "puente_narrativo": {
+      "hash": "915392e641f9f178",
+      "texto": "Keep going to the end of the viceregal halls: as you turn the corridor, the gigantic concave mural where Juan O’Gorman painted the outbreak of Independence will open up before you."
+    },
+    "guion_corto": {
+      "hash": "31d2c1bdc0e7a2a7",
+      "texto": "These halls unfold the material splendor and the deep contradictions of the three hundred years of the viceroyalty of New Spain. All around you shine Asian lacquer chests, Christs and figures carved in Philippine ivory, porcelain jars, folding screens painted in oils with views of Tepeyac, objects of worked silver, and casta paintings. This entire universe was born when the American land of maize, cacao, vanilla, and cochineal fused with the wheat, livestock, sugarcane, and plow brought from Europe, turning Mexico City into the commercial hub that linked Europe with Asia."
+    },
+    "guion_largo": {
+      "hash": "c3dcc9437a62ecd4",
+      "texto": "We rarely stop to think that, in the eighteenth century, the coin that merchants used in China and the silver that financed the armies of Europe came from the depths of Mexico. It all began in fifteen twenty-eight, when Taxco was founded, the first American mine worked with European techniques, soon followed by the gigantic veins of Zacatecas in fifteen forty-six and of Guanajuato in fifteen fifty-four, linked by the Camino Real de Tierra Adentro. The silver of New Spain was so powerful that it financed everything from the Thirty Years’ War in the seventeenth century to the Spanish and French ships that fought in the Battle of Trafalgar in eighteen oh five, and even the English subsidies to defeat Napoleon Bonaparte. In exchange for that silver, for the pearls of Baja California, and for the red dye of cochineal, the Manila Galleon filled the capital with treasures. Around the year eighteen oh four, Mexico City had some one hundred seven pulperías, the grocery and imported-goods shops of the era, where you could buy wine from La Rioja, olives from Seville, cinnamon from Ceylon, cacao from Caracas, cloves from the Philippines, Manila shawls, fans with tortoiseshell ribs, and even the first cotton kerchiefs that [José María Morelos](chap_06_morelos_iturbide) would later wear. But this wealth rested on a human wound: besides Indigenous labor on the haciendas, over three centuries about two hundred fifty thousand enslaved people were brought from Africa and treated as merchandise, and their rebelliousness and racial mixing prepared the ground for the revolution of Independence that you will see in the next hall."
+    },
+    "retos_observacion": {
+      "hash": "997ac149671a1558",
+      "texto": [
+        "Look at the delicate religious sculptures carved from ivory tusks and the lacquer boxes brought on the Manila Galleon",
+        "Look for the viceregal paintings and folding screens that portray the sanctuary of Tepeyac and the daily life of the capital",
+        "Notice the objects of worked silver, wrought iron, and ceramics from Puebla and Guanajuato that were exported to three continents"
+      ]
+    },
+    "especificaciones": {
+      "hash": "08cbd7618a7ae398",
+      "texto": {
+        "Period": "Viceroyalty of New Spain (1521-1821)",
+        "Mining milestones": "Taxco (1528), Zacatecas (1546), and Guanajuato (1554)",
+        "Urban commerce": "About 107 pulperías registered in Mexico City around 1804",
+        "Forced demographics": "Approximately 250,000 enslaved Africans brought in over three centuries",
+        "Location": "Halls 3 to 6 (The Kingdom of New Spain), Ground Floor MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "c41b406a4d225f0f",
+      "texto": {
+        "pregunta": "Myth: During the viceroyalty, New Spain traded only with Spain and was isolated from the rest of the world.",
+        "respuesta": "Reality: New Spain was the bridge of the first global trade: its silver circulated as currency in China and financed European wars such as Trafalgar (1805), while silks from Asia, cinnamon from Ceylon, cacao from Caracas, and ivories from the Philippines arrived in Mexico City."
+      }
+    }
+  }
+}

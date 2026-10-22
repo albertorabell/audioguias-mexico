@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_46_museo_vivo_muralismo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f7669e631da928a3",
+      "texto": "Living Museum of Muralism, the Historic Home of the SEP"
+    },
+    "frase_gancho": {
+      "hash": "ee74a83f9d366407",
+      "texto": "It was a government office building, and its walls became one of the most famous schools of public painting of the twentieth century."
+    },
+    "puente_narrativo": {
+      "hash": "989dfa102b367108",
+      "texto": "Continue along República de Argentina toward the corner with Justo Sierra, where the [Antiguo Colegio de San Ildefonso](cdmx_47_san_ildefonso) stands."
+    },
+    "como_llegar": {
+      "hash": "3a5e937adaf94510",
+      "texto": "Continue toward República de Argentina street, where the entrance to the [Living Museum of Muralism](cdmx_46_museo_vivo_muralismo) is located, in the building of the Ministry of Public Education."
+    },
+    "guion_corto": {
+      "hash": "304cd605984b3a16",
+      "texto": "It was a government office building, and it ended up full of murals. This was the home of the Ministry of Public Education, created in nineteen twenty-one, with José Vasconcelos as its first head. Vasconcelos invited Diego Rivera to paint the walls, and between nineteen twenty-three and nineteen twenty-eight Rivera covered corridors and stairways. Over the years, works by other artists were added. In September of two thousand twenty-four, the Living Museum of Muralism opened here, presenting muralism as the work of many hands and not just a few names. It is a visit for those who want to go in with time to spare, but the facade and the street already tell part of the story. The main entrance is on República de Argentina street."
+    },
+    "guion_largo": {
+      "hash": "00f224b24ec15c1b",
+      "texto": "Let us begin with a simple question. Why is an office building full of paintings? The answer has a name, José Vasconcelos. The Ministry of Public Education was created in nineteen twenty-one, and Vasconcelos was its first head. It was he who invited Diego Rivera to paint the walls of the new headquarters.\n\nThe building was raised on the site of the former convent of La Encarnación. The architect Federico Méndez Rivas remodeled it to house the ministry. Here began a story that changed Mexican art.\n\nDiego Rivera painted the walls of the corridors between nineteen twenty-three and nineteen twenty-eight. There are more than two hundred panels, overdoor paintings and grisailles. A grisaille is a painting made in shades of gray. Two of the courtyards are called the Courtyard of Labor and the Courtyard of the Festivals.\n\nRivera was not alone. The building also preserves murals by Roberto Montenegro, Jean Charlot and Amado de la Cueva. There is also a ceramic work by Luis Nishizawa and one by Raúl Anguiano. There is also a former theater, the Teatro Orientación, from nineteen thirty-one, with paintings about socialist education. These works and their placement may change, so it is a good idea to check the current floor plan on arrival.\n\nNext to this complex stands the building of the former Customs House, which is now part of the museum. David Alfaro Siqueiros worked there, on and off, between nineteen forty-five and nineteen seventy-one. The work in question is the mural Patricios y patricidas. In two thousand ten, the artist Manuel Felguérez created a mural sculpture in steel for the Bicentennial and the Centennial.\n\nThe Living Museum of Muralism opened on the twenty-fifth of September, two thousand twenty-four. According to The Art Newspaper, it covers about eight thousand five hundred square meters, with more than three thousand of murals, and has twelve exhibition halls. Its central idea is that muralism was not only the work of Rivera, Orozco and Siqueiros. It was a collective effort, with many more artists, among them women such as Aurora Reyes and María Izquierdo.\n\nThe museum recalls one case. In nineteen forty-six, a mural commission given to María Izquierdo was canceled, and the press speaks of sabotage by colleagues. Among the works cited is also Atentado a las maestras rurales, by Aurora Reyes.\n\nAn honest warning. Some works are on loan, and what is on display changes over time. For that reason, it is not possible to promise what you will see on each visit. It is a museum of three levels, best explored at a calm pace. Admission conditions and opening hours should be checked on the official website before going.\n\nA few steps away stands San Ildefonso, where muralism also had an early chapter. On the first day you passed the [Diego Rivera Mural Museum](cdmx_06_museo_mural_rivera), with another work by the same painter. It all forms a common thread, that of a country that decided to tell its story on its walls."
+    },
+    "retos_observacion": {
+      "hash": "b16dfd86b47033fe",
+      "texto": [
+        "Find the main entrance on República de Argentina",
+        "Compare the SEP building with the sober facade of the former Customs House on the plaza",
+        "Count the levels of the building’s facade"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de13761b9bc54ed9",
+      "texto": {
+        "Era": "headquarters of the SEP since the 1920s; museum opened on September 25, 2024",
+        "Authors": "Diego Rivera (1923-1928), Roberto Montenegro, Jean Charlot, Amado de la Cueva, Luis Nishizawa, Raúl Anguiano, David Alfaro Siqueiros, Manuel Felguérez",
+        "Building": "on the site of the former convent of La Encarnación; remodeled by Federico Méndez Rivas",
+        "Location": "República de Argentina 28, Historic Center",
+        "Key fact": "more than 3,000 m2 of murals (The Art Newspaper)"
+      }
+    },
+    "faq_mito": {
+      "hash": "9f366aa93f2795e4",
+      "texto": {
+        "pregunta": "Myth: The murals of the SEP are all by Diego Rivera.",
+        "respuesta": "Reality: Rivera painted the corridors between 1923 and 1928, but the building and the museum also bring together works by Montenegro, Charlot, Amado de la Cueva, Nishizawa, Anguiano, Siqueiros and Felguérez."
+      }
+    }
+  }
+}

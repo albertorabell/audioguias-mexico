@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_19_la_profesa",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18991febd2f16657",
+      "texto": "La Profesa: Jesuits, Oratorians, and a Disputed Conspiracy"
+    },
+    "frase_gancho": {
+      "hash": "80a430ddf17fb439",
+      "texto": "A church that was once a Jesuit house, then an Oratorian oratory, and to which a conspiracy is attributed that historians still debate."
+    },
+    "puente_narrativo": {
+      "hash": "f081927ef70da3a1",
+      "texto": "Walk a few steps to the neighboring corner, where the [Estanquillo Museum](cdmx_20_estanquillo) awaits you."
+    },
+    "como_llegar": {
+      "hash": "a99a21cf3ca279e8",
+      "texto": "Continue along Madero toward the Zócalo to the corner with Isabel la Católica, where the church of [La Profesa](cdmx_19_la_profesa) stands."
+    },
+    "guion_corto": {
+      "hash": "9e248e9a36d2096f",
+      "texto": "La Profesa comes from “professed house,” the name of the Jesuit residence that stood on this spot. The first church opened in sixteen ten. The one you see today is the work of the architect Pedro de Arrieta, built between seventeen fourteen and seventeen twenty. The Jesuits were expelled in seventeen sixty-seven. The building then passed to the Congregation of the Oratory of Saint Philip Neri, and that is why its official name is oratory. Inside, the master Manuel Tolsá renewed it in the neoclassical style at the beginning of the nineteenth century. One tradition says that a conspiracy against the Constitution of Cádiz was plotted here in eighteen twenty. Historians debate how much truth there is in it."
+    },
+    "guion_largo": {
+      "hash": "9880ef4e65dca0c1",
+      "texto": "To understand the name, we have to begin with the Jesuits. The Society of Jesus arrived in Mexico City at the end of the sixteenth century and established a professed house here. It was the residence of priests who, in addition to the usual vows, took a fourth vow of special obedience to the Pope. That is where the popular name La Profesa comes from. The first church opened on this spot in sixteen ten.\n\nThe building you see is later. The earlier church had deteriorated, and so a new one was raised. It was designed and built by the architect Pedro de Arrieta. He began work on the project in seventeen fourteen, and the construction was finished in seventeen twenty, with the dedication a week later.\n\nIn seventeen sixty-seven the Spanish Crown expelled the Jesuits from its dominions. The building then passed to the Congregation of the Oratory of Saint Philip Neri, whose members are known as Oratorians. That is why the official name is the Oratory of Saint Philip Neri. At the beginning of the nineteenth century, the Oratorian fathers commissioned Manuel Tolsá to renew the interior in the neoclassical style, with a new main altar.\n\nLa Profesa is famous for a conspiracy. Tradition says that, in eighteen twenty, a group of supporters of absolutism met here. They rejected the Constitution of Cádiz, restored that year. They are said to have planned an independence that would preserve their privileges, and Agustín de Iturbide is said to have served that plan. This is how this church is linked to the story of the Iturbide Palace, which you have just seen.\n\nHere we have to be careful. Historians call that conspiracy alleged, almost mythical. The abundant documentation of the period neither confirms nor denies categorically that it existed. Some think the meetings never took place. Others think they succeeded and therefore left no trace. The historian Jaime del Arenal argues, in the journal Historia Mexicana, that the Plan of Iguala was a different project. It would not have been the work of that group. In short, what is known is little. And what is told as certain, that La Profesa decided Independence, is a thesis that several historians question.\n\nThe church was declared a national monument in nineteen thirty-two and houses an important collection of paintings from the viceregal period. It suffered damage in the earthquake of September two thousand seventeen, so it is wise to check whether it is open before you approach. If you decide to go in, do so during worship hours and with the respect that a place of prayer asks for.\n\nFrom the street you can see its Baroque façade on Isabel la Católica and its silhouette among more recent buildings. It is a good example of how the Historic Center brings different centuries together on a single corner.\n\nJust a step away, the Estanquillo Museum occupies another building with a history of its own, which we will tell you about at the next stop."
+    },
+    "retos_observacion": {
+      "hash": "a6abaeef5afb03e6",
+      "texto": [
+        "Find the church’s Baroque façade on Isabel la Católica Street",
+        "Locate the corner where Madero and Isabel la Católica meet",
+        "Compare the height of the church with the commercial buildings around it"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d371c02e9e90dd7",
+      "texto": {
+        "Era": "First church from 1610; current building constructed between 1714 and 1720",
+        "Author": "Pedro de Arrieta (building); Manuel Tolsá (neoclassical interior)",
+        "Style": "Baroque, with a neoclassical interior",
+        "Location": "Isabel la Católica 21, at the corner with Madero",
+        "Key fact": "After the expulsion of the Jesuits in 1767, it passed to the Oratory of Saint Philip Neri"
+      }
+    },
+    "faq_mito": {
+      "hash": "1e98a05f7999199f",
+      "texto": {
+        "pregunta": "Myth: Mexican Independence was plotted at La Profesa to preserve privileges, and Iturbide’s plan came out of it.",
+        "respuesta": "Reality: The so-called La Profesa Conspiracy is a tradition. Historians consider it alleged, because the documentation of the period neither confirms nor denies that it existed, and some argue that the Plan of Iguala was not the work of that group."
+      }
+    }
+  }
+}

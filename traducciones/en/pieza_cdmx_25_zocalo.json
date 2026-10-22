@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_25_zocalo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0be09e00cdadd1bc",
+      "texto": "Zócalo: the Plaza Named for a Base Without a Monument"
+    },
+    "frase_gancho": {
+      "hash": "0195248b2e9f4404",
+      "texto": "This plaza takes its name from a stone base that never ended up holding any monument."
+    },
+    "puente_narrativo": {
+      "hash": "02ab666f13961fab",
+      "texto": "Walk slowly toward the center of the plaza and stay there for a moment, because recent history also passed through this place."
+    },
+    "como_llegar": {
+      "hash": "6aa832cf785ae3c7",
+      "texto": "Continue along Dieciséis de Septiembre Avenue toward the east, until you reach the great plaza of the Zócalo."
+    },
+    "guion_corto": {
+      "hash": "85502b555541c9f4",
+      "texto": "It is called Plaza de la Constitución, but almost nobody calls it that. Everyone says Zócalo, a word that means base or pedestal. The nickname was born in eighteen forty-three, when the first stone of a monument to Independence was laid here. The column was never raised. Only the base remained, and over the years people began to call the whole plaza the zócalo. The custom later spread to the main plazas of many cities in Mexico. Beneath your feet stood the sacred precinct of Tenochtitlan. Around you are the Cathedral, the National Palace, and the buildings of the city government. Turn slowly all the way around to get your bearings."
+    },
+    "guion_largo": {
+      "hash": "29bf7613d2640096",
+      "texto": "Before it was a plaza, this place was the ceremonial heart of Tenochtitlan. Fray Bernardino de Sahagún spoke of seventy-eight buildings within the sacred precinct, and archaeologists have located and explored twenty-four. After the fall of the city in fifteen twenty-one, the land became the Plaza Mayor of New Spain.\n\nDuring the viceregal period the plaza was above all a market. It filled with wooden stalls, and in sixteen ninety-two a corn crisis ended in a riot. The rioters set fire to the viceregal palace, the City Hall, and two hundred eighty wooden stalls. Years later the Parián was built, a great market on the southwest side that opened in seventeen oh three. On the twenty-seventh of June, eighteen forty-three, Santa Anna ordered it demolished.\n\nThe plaza also brought the past to light. Around seventeen eighty-nine, the viceroy, the Count of Revillagigedo, ordered the ground level lowered, the canal covered, and the gallows and the pillory removed. With those works, two great Mexica sculptures appeared, the Coatlicue and the Sun Stone. The Sun Stone appeared in December of seventeen ninety. The viceroy handed it over to the Cathedral officials, on the condition that they preserve it and display it in a public place. It was mounted on a tower of the Cathedral until eighteen eighty-five, when it passed to the National Museum.\n\nThe name and the monuments changed several times. In September of eighteen twelve, the Constitution of Cádiz was sworn in the capital, and the plaza came to be called Plaza de la Constitución. In eighteen oh three, an equestrian bronze statue of King Charles the Fourth, the work of Manuel Tolsá, had been unveiled here. In eighteen twenty-four it was moved to the courtyard of the University.\n\nThen came the base that gives the plaza its name. It was Santa Anna who promoted a monument to Independence. The project of the architect Lorenzo de la Hidalga was chosen, although the Academy of San Carlos had favored another. On the sixteenth of September, a first stone of white marble was laid, with a zinc box that held documents, medals, and coins. The foundation and the base were built, and the work went no further. That base, the zócalo, ended up giving its name to the whole plaza. In twenty seventeen, during the renovation of the plaza, the INAH documented its remains, covered them over again, and marked them with plaques.\n\nHere is a curious fact: the Royal Spanish Academy also defines zócalo as the main plaza of a city, especially that of Mexico City.\n\nToday the Historic Center, with this plaza at its heart, has been a UNESCO World Heritage Site since nineteen eighty-seven. It is a living plaza, almost always occupied by some activity, so you may find it with stages, fences, or stalls. That does not change the essential: from here you can see, all at once, the layers of the city, the Mexica, the viceregal, and the republican. At the next stop, without moving from this spot, we will talk about what this plaza has lived through in more recent times."
+    },
+    "retos_observacion": {
+      "hash": "e87c59fe36b09c1d",
+      "texto": [
+        "Turn all the way around and name the buildings that surround the plaza: the Cathedral, the National Palace, and the Old City Hall",
+        "Find the flagpole in the center and estimate how much open space you have around you",
+        "If the ground is clear, look north of the flagpole for the plaques that mark the remains of the base from eighteen forty-three"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f9c99863a0a34c1",
+      "texto": {
+        "Era": "Mexica sacred precinct, viceregal Plaza Mayor, and republican plaza",
+        "Official name": "Plaza de la Constitución, since 1812",
+        "Origin of the popular name": "base of the monument to Independence, first stone laid on September 16, 1843",
+        "Location": "center of the Historic Center, surrounded by the Cathedral, the National Palace, and the Old City Hall",
+        "Heritage": "Historic Center inscribed on the UNESCO list in 1987"
+      }
+    },
+    "faq_mito": {
+      "hash": "710703dad0c978b9",
+      "texto": {
+        "pregunta": "Myth: Zócalo is the official name of the plaza.",
+        "respuesta": "Reality: The official name is Plaza de la Constitución. Zócalo comes from the base of a monument to Independence whose first stone was laid in 1843 and which was never completed."
+      }
+    }
+  }
+}

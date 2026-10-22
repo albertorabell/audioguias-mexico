@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_11_palacio_mineria",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ddd5ffea7c5fed05",
+      "texto": "Palacio de Minería, Tolsá’s Great Work"
+    },
+    "frase_gancho": {
+      "hash": "a540c99e57fd99d1",
+      "texto": "It was built to train mining engineers, and the INAH calls it the most outstanding example of Neoclassical architecture in Mexico."
+    },
+    "puente_narrativo": {
+      "hash": "3eb62ba8e3ce97ca",
+      "texto": "Cross Tacuba Street toward the National Museum of Art, the MUNAL, the building across the way that faces this plaza."
+    },
+    "como_llegar": {
+      "hash": "adc1cf509d0f1616",
+      "texto": "Cross Tacuba Street toward the Palacio de Minería, the Neoclassical building with columns across the way, facing this plaza."
+    },
+    "guion_corto": {
+      "hash": "d1e3ae1983841102",
+      "texto": "Why build a palace devoted to stones? To teach mining, an activity that was the foundation of the economy of New Spain. This building was the home of the Royal Mining Seminary. It was designed and directed by Manuel Tolsá, and construction ran from seventeen ninety-seven to eighteen thirteen. Look at the central portico, with Doric columns and a triangular pediment. It is the image of the Neoclassical style, which seeks order, symmetry, and sobriety. The INAH considers it the most outstanding example of that style in Mexico. Today it is under the care of the UNAM, which opens it to lectures, courses, and cultural activities."
+    },
+    "guion_largo": {
+      "hash": "6c935029fd1c9cfb",
+      "texto": "The Palacio de Minería was born of a practical idea. Mining was the economic backbone of New Spain, and trained people were needed to run it. For that reason, at the end of the eighteenth century, the Royal Mining Seminary was founded, linked to the Mining Tribunal. In seventeen ninety-three, the land where you are standing today was purchased.\n\nConstruction began on March twenty-second, seventeen ninety-seven, under the direction of Manuel Tolsá. It was declared complete on April third, eighteen thirteen. That was almost sixteen years of work. Tolsá had been born in Valencia and trained as a sculptor, but in New Spain he also worked as an architect.\n\nThe building has three levels and three façades around a central courtyard. Its walls are made of stone, and so is its U-shaped staircase. On the main façade, the central portico stands out, with Doric columns. On the Upper Floor there is a chapel dedicated to the Virgin of Guadalupe, with paintings by Rafael Ximeno y Planes, with whom Tolsá collaborated.\n\nBut the history of this palace was not a quiet one. Almost as soon as it was finished, it began to sink, because of the weakness of the ground of the ancient lake. In eighteen thirteen, Fausto de Elhuyar, director of the College, issued a report on the cracks. That same year Tolsá himself acknowledged that the staircase had sunk more than sixty centimeters. There were repairs. In eighteen thirty there was even talk of demolishing the building, but between that year and eighteen forty-two the French architect Antonio Villard rebuilt it without changing its form.\n\nBecause of all this, today the palace can be seen as the work of many hands. Even so, it keeps the form that Tolsá gave it.\n\nThere was also an imperial episode. Around eighteen sixty-five, this palace was considered as a residence for Maximilian of Habsburg, but the emperor chose Chapultepec Castle. From eighteen sixty-seven until nineteen fifty-four, the building housed the Special School of Engineers, until the faculty moved to University City. In nineteen thirty-one it was declared a Historic Monument.\n\nWithin its classrooms, a scientific story unfolded. Andrés Manuel del Río had been teaching mineralogy here since seventeen ninety-five. In eighteen oh one he analyzed a mineral from Zimapán, known as brown lead, and proposed the name erythronium for the new element, because of the red color of its salts. Later a French chemist concluded that it was chromium, and del Río accepted the result. Years later, in eighteen thirty, the Swede Nils Sefström found the element and called it vanadium. The history of science now recognizes del Río’s work.\n\nIn the vestibule are kept four meteorites that fell on Mexican territory. And today the palace is still alive, with lectures, courses, and the Palacio de Minería International Book Fair.\n\nThis stretch can be explored freely from the street. Some guided visits to the interior require a fee and have schedules that change, so it is best to check them beforehand.\n\nTolsá also appears in the history of other places you will see. He took part in the final stage of the [Metropolitan Cathedral](cdmx_27_catedral). And you have already seen his Caballito in the plaza."
+    },
+    "retos_observacion": {
+      "hash": "3597f1a51d2a4f14",
+      "texto": [
+        "Count the columns of the central portico and look for the triangular pediment that crowns them",
+        "Check the symmetry of the façade: trace a line with your eyes that divides it into two equal halves",
+        "Find El Caballito from here, a work by the same author as this palace"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ec507f99340d8f6c",
+      "texto": {
+        "Period": "Construction from March 22, 1797 to April 3, 1813",
+        "Architect": "Manuel Tolsá",
+        "Style": "Neoclassical",
+        "Original use": "Royal Mining Seminary",
+        "Location": "Tacuba Street, across from Manuel Tolsá Plaza",
+        "Status": "Historic Monument, declared on February 9, 1931"
+      }
+    },
+    "faq_mito": {
+      "hash": "e5e07e58fbb2c44f",
+      "texto": {
+        "pregunta": "Myth: The Palacio de Minería was made for Emperor Maximilian.",
+        "respuesta": "Reality: It was built between 1797 and 1813 for the Royal Mining Seminary; around 1865 it was considered as an imperial residence, but Maximilian chose Chapultepec Castle."
+      }
+    }
+  }
+}

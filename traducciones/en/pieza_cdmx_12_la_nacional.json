@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_12_la_nacional",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8ce4492e09e7f374",
+      "texto": "La Nacional Building, a 1932 Skyscraper"
+    },
+    "frase_gancho": {
+      "hash": "02cc5cd419ab277e",
+      "texto": "In nineteen thirty-two, thirteen floors were enough for this corner to be considered a skyscraper."
+    },
+    "puente_narrativo": {
+      "hash": "4062fe95af090198",
+      "texto": "Continue along Eje Central toward Madero Street, where the Torre Latinoamericana rises over the corner."
+    },
+    "como_llegar": {
+      "hash": "5c95c4e5ac54d72c",
+      "texto": "Walk toward Eje Central Lázaro Cárdenas and continue along it toward Avenida Juárez, where the La Nacional building awaits you."
+    },
+    "guion_corto": {
+      "hash": "532c8ccb4de26853",
+      "texto": "The name is not a nickname. It belongs to an insurance company, the Compañía Nacional de Seguros. This building was constructed between nineteen twenty-nine and nineteen thirty-two. The architect was Manuel Ortiz Monasterio, who in those years was director of the National School of Architecture. It has thirteen floors and stands more than fifty meters tall, and in its day it was considered a skyscraper, although other towers surpassed it in that same decade. Its style is Art Deco. To hold it up on the soft ground of the ancient lake, Bernardo Calderón designed one hundred foundation piles. You are standing at the corner of Avenida Juárez and Eje Central, across from Bellas Artes."
+    },
+    "guion_largo": {
+      "hash": "62f4833bbf200dd3",
+      "texto": "This corner tells a story of a city that was growing upward. Here Eje Central, Avenida Juárez, which leads to the Alameda Central, and the Madero Street corridor all cross. It is one of the most important intersections in the Historic Center.\n\nIn nineteen twenty-nine, work began on La Nacional. It was finished in nineteen thirty-two. By then Eje Central was still called San Juan de Letrán Street, and the city was getting ready to change scale. The building arrived before the great avenues and before the tall buildings that would come later.\n\nThe project was by the architect Manuel Ortiz Monasterio, who directed the National School of Architecture. Bernardo Calderón designed the one hundred piles that support the building. The number matters, because here the subsoil is the bed of the ancient lake, soft and prone to sinking. Building tall was not just a matter of aesthetics.\n\nIt has thirteen floors and stands more than fifty meters tall. Today it may look like a mid-sized building among so many taller ones. In its day it drew attention. It was the tallest of its time, although other buildings from that same decade surpassed it. That is why it is spoken of as the beginning of a race for the heights.\n\nIts style is Art Deco, a movement of the nineteen twenties and thirties that sought clean lines, symmetry, and an air of modernity. That decoration shines in the lobby, in the entrance portal, and in the stair railing, although to see them you would have to go inside.\n\nLa Nacional has been through the earthquakes that have shaken the city. It is one of the few buildings of some height in this area that have survived the capital’s quakes. In 2012, when it turned eighty years old, it suffered minor damage.\n\nIn nineteen forty-nine an annex was added, known as La Nacional Dos.\n\nIf you are looking for its address, it is number eleven, Eje Central Lázaro Cárdenas. Stand on the sidewalk, count the thirteen floors, and compare them with the buildings around you. That way you will understand why in nineteen thirty-two this building drew so much attention, and why today you need to look up to appreciate it.\n\nPeople walking this corner tend to look toward Bellas Artes. It is worth looking up at La Nacional too, because it tells how the city began to climb. The building also speaks to what you saw earlier. It stands directly across from the [Palacio de Bellas Artes](cdmx_01_bellas_artes), and the [Alameda Central](cdmx_03_alameda) is just a few steps away. Now look along Eje Central toward Madero Street. There the Torre Latinoamericana peeks out, which arrived twenty-four years later.\n\nThe comparison is worthwhile. At La Nacional the floors are counted in tens. At the Torre, which you will see shortly, the count exceeds forty. Between one and the other there is a difference in height, and also in engineering. The Latino was designed with a major earthquake as its reference."
+    },
+    "retos_observacion": {
+      "hash": "1fdd0e2f755519c4",
+      "texto": [
+        "Look toward the Palacio de Bellas Artes, which stands across from this building, and compare its style with that of La Nacional",
+        "Count the floors of La Nacional from the corner and compare them with those of the neighboring buildings",
+        "Look for the La Nacional Dos annex, next to the original building"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0521e1e688431808",
+      "texto": {
+        "Period": "Built from 1929 to 1932; annex from 1949",
+        "Architect": "Manuel Ortiz Monasterio",
+        "Foundation": "One hundred piles designed by Bernardo Calderón",
+        "Style": "Art Deco",
+        "Location": "Corner of Eje Central and Avenida Juárez, across from Bellas Artes",
+        "Key fact": "Thirteen floors and more than fifty meters tall"
+      }
+    },
+    "faq_mito": {
+      "hash": "db0cb00241176b53",
+      "texto": {
+        "pregunta": "Myth: The Torre Latinoamericana was the first skyscraper in Mexico City.",
+        "respuesta": "Reality: La Nacional, completed in 1932, was already considered a skyscraper in its day, twenty-four years before the Torre."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "chap_23_jardin_alcazar",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f21edc01e541b6db",
+      "texto": "Alcázar Garden"
+    },
+    "frase_gancho": {
+      "hash": "c035e123c0b6b0b7",
+      "texto": "Maximilian said that happiness was building castles with garden terraces, and this intimate garden was born from that idea."
+    },
+    "puente_narrativo": {
+      "hash": "364745cc532e5f44",
+      "texto": "Continue the tour to the highest point of the hill, where the Caballero Alto tower rises."
+    },
+    "guion_corto": {
+      "hash": "29fcd6e89058d10c",
+      "texto": "Building castles with garden terraces. That is how Maximilian of Habsburg defined happiness, according to a museum wall text. A fan of botany, he turned this space into an intimate garden, surrounded by corridors with light roofs on slender iron columns. Here he listened to and dictated his correspondence. The garden opened onto a view of the Chapultepec Forest, as in European palaces. In the north corridor, Santiago Rebull painted the Bacchantes. They are Pompeian-style figures who play the tambourine, dance beside a lioness, or hold grapevine branches. And on the south terrace stands the Grasshopper Fountain, the work of the sculptor Luis Albarrán. Among paintings, iron, and plants, the garden was designed for reading, writing, and resting."
+    },
+    "guion_largo": {
+      "hash": "2652f4509932ebcf",
+      "texto": "When Maximilian and Carlota arrived at Chapultepec, they chose the ground-floor rooms that faced east. That is why they had a panoramic terrace built in front of them, from which they could see Mexico City, Lake Texcoco, and the volcanoes. The garden you are walking through is another piece of that idea. An article from UNAM describes it as a classic-style garden on the upper terrace of the castle. According to that text, Maximilian himself designed it. It was carried out by the Austrian architect Julius Hofmann and the imperial gardener Wilhelm Knechtel.\n\nThe work of adapting the building as a palace was directed by Ramón Rodríguez Arangoity, a Mexican architect and former student of the Military College. According to the museum, it included a central portico, a loggia with iron columns, and a new garden design. In other words, the iron and the plants were conceived together.\n\nKnechtel’s name appears in several histories of the castle. The National Museum of History says that this Austrian botanist redesigned the gardens. It also recalls some words from Carlota: the result was due more to Max’s hand. It is a useful clue for anyone who imagines that the empress was the castle’s gardener.\n\nMaximilian had personal reasons for devoting time to it. According to the garden’s wall text, he was a fan of botany. He also used the corridor to dictate and listen to his correspondence. To follow that clue, visit the [reading room](chap_16_sala_lectura_goces). The museum relates it to his palace of Miramar and to the idea of reading and writing on the terraces.\n\nThe north corridor holds a story from two eras. Santiago Rebull, the court’s favorite painter, made four Bacchantes there in eighteen sixty-five. Almost thirty years later, in eighteen ninety-four, with Porfirio Díaz in the presidency, he returned to paint two more. Rebull was then sixty-five years old. The paintings imitate the Pompeian style and are done in oil on a shiny base of lime and marble dust. One and the same painter thus worked for the empire and for the Porfiriato, with almost three decades in between.\n\nOver time, the garden and its surroundings changed function. In eighteen seventy-eight the terrace was enlarged for the observatory and an access to the upper floor was opened. Later, on Díaz’s initiative, that access became the [Lions’ Staircase](chap_13_escalera_leones), made of white marble with a brass handrail. The museum explains that around nineteen fifteen, on the instructions of Venustiano Carranza, it was remodeled again. The [stained-glass windows of the gallery](chap_14_vitrales_emplomados), made in Paris around nineteen hundred, complete the picture of how each era left its mark.\n\nOne last thought about the landscape. The wall text explains that the garden blended visually into the forest, as happened in European palaces. From the summit, moreover, you command the Basin of Mexico, with the Sierra Nevada to the east. That is why this place is not just a garden: it is a way of bringing the entire landscape inside the palace."
+    },
+    "retos_observacion": {
+      "hash": "945efeb904bc3394",
+      "texto": [
+        "Notice the corridors with light roofs held up by slender iron columns",
+        "Look in the north corridor for the Pompeian-style paintings with figures who dance, play the tambourine, or hold grapevine branches",
+        "Find the Grasshopper Fountain on the south terrace and see how the garden opens toward the forest"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a9bfeb7bc84c95a2",
+      "texto": {
+        "Era": "Second Empire, 1864-1867",
+        "Design": "Maximilian of Habsburg; execution attributed to Julius Hofmann and the gardener Wilhelm Knechtel",
+        "Bacchantes of the north corridor": "Santiago Rebull, 1865 and 1894",
+        "Grasshopper Fountain": "Luis Albarrán, south terrace",
+        "Location": "interior garden of the Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "cd46a51647312b80",
+      "texto": {
+        "pregunta": "Myth: The Alcázar Garden was a whim of Empress Carlota.",
+        "respuesta": "Reality: The National Museum of History quotes Carlota herself, who wrote that the result was due more to Max’s hand; the wall text describes him as a fan of botany, and a UNAM article attributes the design to Maximilian."
+      }
+    }
+  }
+}

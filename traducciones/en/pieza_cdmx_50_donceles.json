@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_50_donceles",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d0c2156672443700",
+      "texto": "Donceles Street and Its Used Bookstores, End of the Tour"
+    },
+    "frase_gancho": {
+      "hash": "d742f95c4709d22e",
+      "texto": "No one quite knows why this street is called Donceles, but everyone knows that books have been sold here for generations."
+    },
+    "puente_narrativo": {
+      "hash": "8ab9e0718d513c92",
+      "texto": "The tour ends here. Continue along Donceles to Eje Central, and if you still have the energy, head back slowly toward [Bellas Artes](cdmx_01_bellas_artes), where it all began."
+    },
+    "como_llegar": {
+      "hash": "b9f1be6ccfdd69cf",
+      "texto": "Continue along Donceles toward Eje Central, to the point where the used bookstores of [Donceles Street](cdmx_50_donceles) begin."
+    },
+    "guion_corto": {
+      "hash": "5f10366b6e654bb7",
+      "texto": "Donceles. Why is it called that? No one quite knows. One version says it comes from the young nobles, the donceles, who strolled along here while ladies watched them from the balconies. Another says it was one of the first streets laid out in the city, around fifteen twenty-four. The street had other names, such as Canoa and Cordobanes. And in nineteen sixty-eight, the Librería Selecta opened at number seventy-nine, the first used bookstore on this street. Since then, and over time, Donceles has become synonymous with secondhand books. Today bookstores, theaters, historic buildings and a great deal of the city’s memory live side by side here, and that is why it is a good ending for the tour."
+    },
+    "guion_largo": {
+      "hash": "28f43e8aae9e9343",
+      "texto": "Before we say goodbye, spend a few minutes on this street. It looks like any other street, but it holds several layers of the city.\n\nLet’s begin with the name. Donceles comes from doncel, which in old Spanish means a young nobleman who has not yet been knighted. It could also mean a page at court. Two versions are told. One says it was one of the first streets laid out in New Spain, around fifteen twenty-four. There, the legend says, young nobles built elegant houses. The other says that wealthy young men strolled along so that ladies could admire them from the balconies. These are versions, not proven facts.\n\nWhat is documented is that the street was divided into four sections with different names. They were called Puerta Falsa de San Andrés, Canoa, Donceles and Cordobanes. On the street called Cordobanes stood the convent and school of the Company of Mary, which you have just seen at the [Templo de la Enseñanza](cdmx_48_templo_ensenanza). Today the street runs from Eje Central to República de Argentina, where it becomes Justo Sierra and reaches [San Ildefonso](cdmx_47_san_ildefonso).\n\nIn the twentieth century, Donceles had a lively public life. The Chamber of Deputies operated here, which today is the Legislative Assembly. Also here were the Porrúa bookstore, the Colegio Nacional and popular theaters such as the Fru Fru. The novelist Carlos Fuentes placed his character from the novel Aura on this street.\n\nAnd the Teatro de la Ciudad Esperanza Iris still stands, at number thirty-six. The singer herself, known as the Queen of Operetta, financed it, and it was designed by the architects Federico Mariscal and Ignacio Capetillo y Servín. It opened on the twenty-fifth of May, nineteen eighteen, in the presence of President Venustiano Carranza. A fire nearly destroyed it in nineteen eighty-four, and it reopened in nineteen ninety-nine.\n\nAnd then, of course, there are the books. In the thirties, the bookseller Nicolás López Casillas bought used books in large lots. He resold them on weekends in Tepito and La Lagunilla. His family opened the Librería Selecta in nineteen sixty-eight, at number seventy-nine Donceles. It was the first used bookstore on the street, and over time the family opened others. The place has served as a setting for film. One example is El callejón de los milagros, a nineteen ninety-five film by Jorge Fons.\n\nAnother famous bookstore is La Regia, at number forty-eight. It boasts more than a million copies. This is not an audited figure, but it gives an idea of the size of that world of paper.\n\nIt must also be said that the street is changing. Some booksellers say that in the last year about five bookstores closed. They attribute these closures to rising rents, the pandemic, online commerce and fewer visitors. The booksellers who remain open are trying to adapt with specialized catalogs and online sales.\n\nAnd now, look back. You began this tour in front of the [Palacio de Bellas Artes](cdmx_01_bellas_artes) and crossed the Alameda. You continued along Madero to the [Zócalo](cdmx_25_zocalo). You glimpsed the Mexica world at the [Templo Mayor](cdmx_34_templo_mayor), walked through Moneda and Santo Domingo, and ended among schools, museums and books. In two days you walked through many centuries of the city. Thank you for exploring it with us."
+    },
+    "retos_observacion": {
+      "hash": "8bb694ef007bc83d",
+      "texto": [
+        "Count how many bookstores with books displayed outside you can see on a single block",
+        "Look for number seventy-nine on the street, where the first used bookstore stood",
+        "As you approach Eje Central, look for the facade of the Teatro de la Ciudad Esperanza Iris, at number thirty-six"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fd337569964fca06",
+      "texto": {
+        "Period": "laid out around 1524, according to tradition; former names Canoa, Cordobanes and Puerta Falsa de San Andrés",
+        "Location": "from Eje Central to República de Argentina, where it continues as Justo Sierra",
+        "Key fact": "first used bookstore, Librería Selecta, Donceles 79, in 1968",
+        "Bookstore mentioned": "La Regia, Donceles 48, with more than a million copies, according to the press",
+        "Buildings": "Teatro de la Ciudad Esperanza Iris (Donceles 36, inaugurated on May 25, 1918), former Chamber of Deputies",
+        "Literature": "Aura, by Carlos Fuentes"
+      }
+    },
+    "faq_mito": {
+      "hash": "9001a56bc71c001f",
+      "texto": {
+        "pregunta": "Myth: The street is called Donceles because of the maidens who lived here.",
+        "respuesta": "Reality: A doncel is a young nobleman who was not yet a knight. The origin of the name is uncertain and there are only versions: one says that young men strolled here to be seen from the balconies."
+      }
+    }
+  }
+}

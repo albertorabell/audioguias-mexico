@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_40_primera_imprenta",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "48e9b18750edd88f",
+      "texto": "House of the First Printing Press in the Americas"
+    },
+    "frase_gancho": {
+      "hash": "73eb85a2ee5bf8d9",
+      "texto": "In a house known as the House of the Bells, the first printing press on the continent arrived, and with it the printed word."
+    },
+    "puente_narrativo": {
+      "hash": "39fba66a4e258a51",
+      "texto": "Stay on the same street, Licenciado Primo de Verdad, just a few steps away. At number eight, the [Ex Teresa Arte Actual Museum](cdmx_41_ex_teresa) awaits you, in a former Carmelite church."
+    },
+    "como_llegar": {
+      "hash": "284946adf56458b4",
+      "texto": "Walk back a few steps along Moneda, toward the Cathedral, to the corner with Licenciado Primo de Verdad. There you will find the [House of the First Printing Press in the Americas](cdmx_40_primera_imprenta)."
+    },
+    "guion_corto": {
+      "hash": "93550a2e7dc1ab3b",
+      "texto": "House of the Bells: that was the name of this place. A bell foundry operated here. But its fame comes from something else. Around fifteen thirty-nine, the first printing press in the Americas arrived in the city. It was promoted by Friar Juan de Zumárraga and the viceroy Antonio de Mendoza. The man who operated it was a printer born in Brescia, Giovanni Paoli, whom we know as Juan Pablos. A plaque from nineteen seventeen says fifteen thirty-six, but studies place its arrival in fifteen thirty-nine. The house was rebuilt in the eighteenth century and today it is a cultural center and a museum."
+    },
+    "guion_largo": {
+      "hash": "71eaeca9abeb02ff",
+      "texto": "This house has two names. The first, House of the Bells, refers to a bell foundry. The second, House of the First Printing Press in the Americas, refers to what happened afterward. In the fifteen twenties, Jerónimo de Aguilar, Hernán Cortés’s interpreter, built a house here.\n\nThe printing press was born of an alliance. Friar Juan de Zumárraga, the first bishop of Mexico, and the viceroy Antonio de Mendoza promoted it. Juan Cromberger, a printer from Seville of German descent, financed the venture. To run it, he sent an officer from his workshop, Juan Pablos, born in Brescia, Italy. His original name was Giovanni Paoli, which was Hispanicized as Juan Pablos.\n\nJuan Pablos arrived in the city with his wife, Gerónima Gutiérrez, between September and October of fifteen thirty-nine. The workshop opened around April of fifteen forty. A plaque placed on December thirty-first, nineteen seventeen, says something different: that the viceroy Mendoza established the first printing press in the Americas here in fifteen thirty-six. Studies that review the documentation place Pablos’s contract with Cromberger in fifteen thirty-nine.\n\nWhat was printed? One of the most famous titles was the Breve y más compendiosa doctrina cristiana, written by Zumárraga himself. The first book is believed to have been the Manual de adultos, from fifteen forty. By order of the viceroy, the first non-religious work was also printed, a compilation of ordinances and laws.\n\nThe workshop changed hands. Juan Cromberger died on September eighth, fifteen forty. The house continued operating under his name until fifteen forty-eight, and from that year Juan Pablos was the owner. His name appears for the first time in a Doctrina cristiana completed on January seventeenth, fifteen forty-eight. Pablos died around fifteen sixty, and in fifteen sixty-three his widow leased the press to Pedro Ocharte. Between three hundred eight and three hundred twenty printed works from the sixteenth century are estimated to survive.\n\nThe current building was rebuilt in the eighteenth century. The Universidad Autónoma Metropolitana bought it in nineteen eighty-nine to restore it, and today it functions as a cultural center and museum. During the work, a serpent-head sculpture weighing a ton and a half appeared. It is believed to have belonged to the temple of Tezcatlipoca. The Museo del Libro brings together that piece, others of archaeological origin, and some of the oldest books in Mexico. Check the current hours before you go.\n\nWhen you arrive, look for the nineteen seventeen plaque on the corner and compare its date with the one you have just heard.\n\nThis corner connects with your other stops. A few steps away is the [Museo de Arte de la SHCP](cdmx_38_museo_shcp), a former archbishop’s palace, and nearby, the convent of [Ex Teresa](cdmx_41_ex_teresa). Books, faith, and power shared the same block."
+    },
+    "retos_observacion": {
+      "hash": "ded50c4d947bccf7",
+      "texto": [
+        "Find the corner of Moneda and Primo de Verdad and the plaque of the first printing press in the Americas",
+        "Locate number ten Primo de Verdad on the façade of the house",
+        "Count how many levels the house has and compare its height with that of the neighboring buildings"
+      ]
+    },
+    "especificaciones": {
+      "hash": "49b437cc735a8cd5",
+      "texto": {
+        "Era": "printing press installed between 1539 and 1540",
+        "Printer": "Juan Pablos, born Giovanni Paoli in Brescia",
+        "Promoters": "Friar Juan de Zumárraga and the viceroy Antonio de Mendoza",
+        "Building": "rebuilt in the 18th century; purchased by the UAM in 1989",
+        "Location": "Licenciado Primo de Verdad 10, at the corner of Moneda",
+        "Key fact": "a 1917 plaque dates the printing press to 1536"
+      }
+    },
+    "faq_mito": {
+      "hash": "f97ca424fc7fcd03",
+      "texto": {
+        "pregunta": "Myth: The first printing press in the Americas was installed in fifteen thirty-six, as the plaque on the house says.",
+        "respuesta": "Reality: The plaque placed in nineteen seventeen says fifteen thirty-six, but studies place Juan Pablos’s contract with Cromberger in fifteen thirty-nine and his arrival in Mexico between September and October of that year."
+      }
+    }
+  }
+}

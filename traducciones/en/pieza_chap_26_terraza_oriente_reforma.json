@@ -1,0 +1,55 @@
+{
+  "id": "chap_26_terraza_oriente_reforma",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7873da8d3a1aec21",
+      "texto": "East Terrace and the Paseo de la Reforma"
+    },
+    "frase_gancho": {
+      "hash": "ca9021c5aed84b4a",
+      "texto": "The capital’s most famous avenue was born to link this castle with the heart of the city."
+    },
+    "puente_narrativo": {
+      "hash": "bb2b1bab40dc15df",
+      "texto": "Your tour ends here. Walk calmly toward the exit, following the museum’s signs, and take with you the image of the castle and the city joined by a single avenue."
+    },
+    "guion_corto": {
+      "hash": "eb4a729acd294653",
+      "texto": "Why does the capital’s most famous avenue point toward this hill? Because it was created to link the hill with the center of the city. When Maximilian and Carlota settled in Chapultepec, the emperor had land acquired to open a promenade. It ran from the entrance of the forest to the roundabout of El Caballito. The historian Barbara Tenenbaum recounts that it was ready in eighteen sixty-five and was called Calzada de la Emperatriz. With the Republic it changed its name. Around eighteen seventy-five, by order of President Sebastián Lerdo de Tejada, it was adorned with groves of trees, lawns, roundabouts and benches. Since then it has been called Paseo de la Reforma."
+    },
+    "guion_largo": {
+      "hash": "a9a4f36bfcf00815",
+      "texto": "Maximilian and Carlota chose to live in the ground-floor rooms that faced east. That is why they had a panoramic terrace built in front of them. The National Museum of History explains that from there one could see Mexico City, Lake Texcoco and the volcanoes Iztaccíhuatl and Popocatépetl. A museum wall label adds that from the summit one commands the Basin of Mexico, with the Sierra Nevada to the east. That view is the reason this terrace exists.\n\nYears later, during the Porfiriato, a large stained-glass window was installed on the east terrace of the Upper Floor. According to the museum, it survives to this day. To see more of the taste of that era, there is the [gallery of stained-glass windows](chap_14_vitrales_emplomados).\n\nThe avenue you can see from here has an imperial origin. The historian Michael Drewes, in an article from UNAM, writes that Maximilian acquired the land and ordered the construction of what is now the Paseo de la Reforma. It ran from the plaza of the statue of Charles the Fourth to the foot of the castle. With it, an access ramp to the esplanade was also built, the subject of the [first stop](chap_01_rampa).\n\nThe names change depending on the source. The museum speaks of the Paseo del Emperador. Barbara Tenenbaum, in a study published by UNAM in nineteen ninety-two, calls it the Calzada de la Emperatriz, in honor of Carlota. According to her, the purpose was to link the Alcázar of Chapultepec with the National Palace, and the avenue was ready in eighteen sixty-five.\n\nTenenbaum also qualifies a much-repeated idea. Some historians have maintained that Maximilian copied the transformed Paris of his time. She believes that the emperor admired that new Paris very little and that he wanted the avenue, above all, for his own personal convenience. She also recounts that the emperor entrusted the details of the construction to Francisco Somera, an urban developer.\n\nThe empire ended in eighteen sixty-seven. According to Tenenbaum, President Benito Juárez wanted nothing to do with the causeway. It was Sebastián Lerdo de Tejada who took it up again, and the road came to be called Paseo de la Reforma. The museum’s wall label places those changes around eighteen seventy-five. It was then that groves of trees were planted and lawns, roundabouts and benches were added. The same author devoted to the avenue and the Porfiriato a study with a very vivid title, Murales en piedra.\n\nToday the museum describes it as one of the most representative avenues of the capital. Perhaps that is the best way to close the visit. The castle began as a viceregal retreat, became a military school and the setting of a defense remembered every year. Later it was an imperial and presidential residence, and now it is a museum. All those eras left their mark on this hill, and the avenue that stretches out from here continues to link it with the city.\n\nThank you for joining us on this tour. If you would like to return to the imperial era, [Maximilian’s bedchamber](chap_20_recamara_maximiliano) and the [ambassadors’ hall](chap_17_salon_embajadores) await you. May the castle leave you eager to keep asking questions about the history of Mexico."
+    },
+    "retos_observacion": {
+      "hash": "faba42f76ae01bad",
+      "texto": [
+        "Look east and follow with your eyes the line of the avenue that leaves from the foot of the hill, if the haze allows it",
+        "Look on the horizon for the volcanoes Iztaccíhuatl and Popocatépetl if the day is clear",
+        "If the terrace allows it, take a look at the large stained-glass window on the east terrace of the Upper Floor, installed in the time of Díaz"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1642e2cfc40d5686",
+      "texto": {
+        "Work": "Promenade opened during the Second Empire, around 1864-1865",
+        "Name during the empire": "Paseo del Emperador according to the museum; Calzada de la Emperatriz according to B. Tenenbaum",
+        "Original route": "from the plaza of the statue of Charles IV (El Caballito) to the foot of the castle",
+        "Name change": "Paseo de la Reforma, around 1875, under Sebastián Lerdo de Tejada",
+        "View from the eastern rooms": "Mexico City, Lake Texcoco, Iztaccíhuatl and Popocatépetl"
+      }
+    },
+    "faq_mito": {
+      "hash": "813295da9da11f88",
+      "texto": {
+        "pregunta": "Myth: Maximilian copied the Champs-Élysées of Paris to lay out this avenue.",
+        "respuesta": "Reality: The historian Barbara Tenenbaum, in a study published by UNAM, qualifies that idea: she says the emperor admired the new Paris very little and that he wanted the avenue above all for his personal convenience, by linking the Alcázar with the National Palace."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "chap_24_caballero_alto",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2f75f1f51c4efe5a",
+      "texto": "The Caballero Alto, Tower and First Observatory"
+    },
+    "frase_gancho": {
+      "hash": "daf1ed1e5f285cb3",
+      "texto": "It looks like a medieval tower, but it was built in the eighteen forties and went on to become the first National Astronomical Observatory."
+    },
+    "puente_narrativo": {
+      "hash": "ce931520fe8a4a8b",
+      "texto": "Continue along the tour toward the castle terraces. There the hill drops away toward the forest, and the defense of September eighteen forty-seven is remembered."
+    },
+    "guion_corto": {
+      "hash": "ab56b933935ba35a",
+      "texto": "It looks like a medieval tower, but it is less than two hundred years old. The Caballero Alto was built at the highest point of the hill. It rose during the works begun in eighteen forty-one, when the building was being adapted as the Military College. It gave the complex the look of a fortress, and from that came the name castle. Decades later it had another life. In eighteen seventy-eight it received a dome and the main telescope of the first National Astronomical Observatory. The astronomers worked here until eighteen eighty-three. That year they moved to Tacubaya, and the castle could once again become a military school."
+    },
+    "guion_largo": {
+      "hash": "f69056f45b717a56",
+      "texto": "The spot where this tower stands already had a history before the castle existed. According to a museum wall text, there was once a pre-Hispanic temple at the summit. In the sixteenth century a chapel dedicated to Saint Michael the Archangel was built, and it was demolished in the eighteenth century. Then came the tower. The same wall text dates it to around eighteen forty-two. It says that it stands about forty-five meters above the level of Mexico City.\n\nThat height explains its original function. From Chapultepec you command the basin of Mexico, and an INAH bulletin recalls that the hill was always a strategic point for military campaigns. When the building was adapted for the Military College, the tower completed the image of a fortress. The stop on the [intervention](chap_08_intervencion_1847) and the [Boy Heroes terrace](chap_25_terraza_ninos_heroes) speak of the defense of the castle in eighteen forty-seven.\n\nThe tower's second life began with a scientific question. In eighteen seventy-four, a transit of Venus took a Mexican commission all the way to Japan. On returning, its members reported that the next transit, in eighteen eighty-two, would be visible from Mexico. That spurred the creation of an observatory. On December eighteenth, eighteen seventy-six, the Minister of Development, Vicente Riva Palacio, gave an assignment. The engineer Ángel Anguiano was to rebuild it at the castle. That date is considered the founding date of the National Astronomical Observatory.\n\nWork began in eighteen seventy-seven. A dome was built on top of the Caballero Alto, which according to the wall text was made of metal and glass and lasted until the early twentieth century. On May fifth, eighteen seventy-eight, a solemn inauguration took place. The historian of astronomy Felipe Valle mentions that the building came to have a telegraph office and a library. The first instruments included a zenith telescope, a small altazimuth, and a sidereal pendulum, according to an article in the University of Mexico magazine. To reach that floor, the terrace was extended and an access was opened, the origin of the [Staircase of the Lions](chap_13_escalera_leones).\n\nThe astronomers stayed only a short time. In eighteen eighty-one, Anguiano traveled to Europe to obtain instruments and to visit observatories. Shortly after the transit of Venus of eighteen eighty-two, the observatory moved to the former Archbishop’s Palace in Tacubaya. The National Museum of History gives the official reason: that the castle was to become the Military College again. Valle adds that Anguiano asked Porfirio Díaz for help in postponing the move until after the transit.\n\nThus, a tower designed to watch over the valley later served to study the sky. Today the tower is a symbol of the castle. Its history, however, is that of several institutions that took turns on the hill: military school, observatory, presidential residence, and museum. If you are coming from the [garden](chap_23_jardin_alcazar) or from [Díaz’s office](chap_22_despacho_presidencial), remember that all those eras share the same hill."
+    },
+    "retos_observacion": {
+      "hash": "d62e8c304b97fdb9",
+      "texto": [
+        "Raise your eyes to the top of the tower and look for the cylindrical silhouette that gives the castle the look of a fortress",
+        "Compare its walls with the palace style of the Alcázar: they are works from different eras",
+        "Look toward the horizon from where you stand and estimate how much of the valley could be commanded from the highest point of the hill"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2625759213b59caa",
+      "texto": {
+        "Name": "Caballero Alto, tower of Chapultepec Castle",
+        "Construction": "works begun in 1841; the museum wall text dates it to around 1842, as part of the Military College",
+        "Height": "highest part of the promontory, about 45 m above the level of Mexico City",
+        "Observatory": "commissioned on December 18, 1876, inaugurated on May 5, 1878",
+        "Move of the observatory to Tacubaya": "1883"
+      }
+    },
+    "faq_mito": {
+      "hash": "72210ac36231c515",
+      "texto": {
+        "pregunta": "Myth: The Caballero Alto is a medieval or viceregal tower, much older than the rest of the palace.",
+        "respuesta": "Reality: According to the National Museum of History, it was built during the works begun in eighteen forty-one for the Military College, and the Alcázar wall text dates it to around eighteen forty-two; its fortress-like appearance gave rise to the name castle."
+      }
+    }
+  }
+}

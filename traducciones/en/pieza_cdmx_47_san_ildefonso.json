@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_47_san_ildefonso",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "faf1541d0fbb4f3f",
+      "texto": "Antiguo Colegio de San Ildefonso, Cradle of the Preparatoria and of Muralism"
+    },
+    "frase_gancho": {
+      "hash": "5c304ffdaae6451f",
+      "texto": "It was a Jesuit college, a barracks, Juárez’s preparatory school, and the stage for the first muralism, and all of it fits in a single city block."
+    },
+    "puente_narrativo": {
+      "hash": "a47a8e1fa4f733a0",
+      "texto": "Continue along Donceles, the street that Justo Sierra becomes when it crosses República de Argentina, to the [Templo de la Enseñanza](cdmx_48_templo_ensenanza)."
+    },
+    "como_llegar": {
+      "hash": "989dfa102b367108",
+      "texto": "Continue along República de Argentina toward the corner with Justo Sierra, where the [Antiguo Colegio de San Ildefonso](cdmx_47_san_ildefonso) stands."
+    },
+    "guion_corto": {
+      "hash": "b0bf17edcad7f70f",
+      "texto": "Real y Más Antiguo Colegio de San Ildefonso. That was its name around 1618, in the time of King Philip the Third. It was a college founded by the Jesuits at the end of the sixteenth century. Over the centuries it had many uses. In 1847 and in 1862 foreign troops occupied it. In 1867 it became the Escuela Nacional Preparatoria, by decision of the government of Benito Juárez. Orozco, Siqueiros, Charlot, and Rivera painted on its walls. Since 1992 it has operated as a cultural space, and an essential part of the history of education in Mexico is preserved there."
+    },
+    "guion_largo": {
+      "hash": "86a98766e5f5f4ae",
+      "texto": "Everything begins with a long name, Real y Más Antiguo Colegio de San Ildefonso. It received that name around 1618, in the time of King Philip the Third. The college already existed. The Jesuits had founded it at the end of the sixteenth century, around 1588, by merging smaller colleges that had been operating for a few years before.\n\nThe building you see is much younger. It was rebuilt in the first half of the eighteenth century, when the economy of New Spain was enjoying a good moment. The architect was Pedro de Arrieta. The work cost about four hundred thousand silver pesos, and it was built by Indigenous and mestizo artisans from Tacuba. Behind the great viceregal buildings there were always anonymous hands.\n\nAfter its Jesuit period, the college changed its use many times. It served as a barracks, housed a battalion of the Regimiento de Flandes, the School of Jurisprudence on a temporary basis, and medical classes. In 1847, during the war with the United States, American troops occupied it. In 1862, during the intervention, French troops occupied it.\n\nIn 1867 came the most important change. The government of Benito Juárez founded the Escuela Nacional Preparatoria here, which the site itself presents as the first secular institution of independent Mexico. The stained-glass windows and the Bolívar Amphitheater, designed by Samuel Chávez, date from that era. On September 22, 1910, the Universidad Nacional de México, forerunner of today’s UNAM, was founded in this place.\n\nThere is a curious detail in the Generalito, a classroom of the college. The choir stalls from the church of San Agustín are there. They were removed from that church in 1867, when it was expropriated, and installed here in 1895.\n\nBut San Ildefonso is famous, above all, for its walls. With José Vasconcelos at the head of education, the Preparatoria filled up with painters. The site itself maintains that Mexican muralism was born on the staircase of the second level of this building. It mentions José Clemente Orozco, David Alfaro Siqueiros, and Jean Charlot, and also Fernando Leal, Ramón Alva de la Canal, and Fermín Revueltas. And La Creación was Diego Rivera’s first mural.\n\nIf you decide to go in, the museum occupies a historic building with courtyards and murals from the Preparatoria. It cannot be guaranteed which specific work you will see or in which hall. Admission conditions change, so check the official website before you go. Since 1992, the former college has operated as a cultural space, with seminars, workshops, and educational activities.\n\nThere is also a painful page. It happened in the early morning of July 30, 1968, during the student movement. The Army knocked down the Baroque door of Preparatoria Number One, which was then operating here, with a bazooka shot. The soldiers entered and detained students who were inside. It was one of the episodes that marked those months in the city. The original door was Baroque and from the eighteenth century, and it no longer exists.\n\nThat explains why this place matters to the city. Here the colonial era, the Reform, the Revolution, public art, and student struggles crossed paths. San Ildefonso remains a place where history is studied, painted, and also remembered."
+    },
+    "retos_observacion": {
+      "hash": "8a9b514f57515a05",
+      "texto": [
+        "Find the main façade on Justo Sierra street",
+        "Look for the corner with República de Argentina and notice how the building takes up a good part of the block",
+        "Remember that the original door was destroyed in 1968 and compare it with the one you see today"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a97065198b16c8f9",
+      "texto": {
+        "Period": "founded by the Jesuits around 1588; current building from the first half of the 18th century",
+        "Architect": "Pedro de Arrieta",
+        "Style": "viceregal Baroque",
+        "Location": "Justo Sierra 16, Historic Center",
+        "Key fact": "home of the Escuela Nacional Preparatoria since 1867 and cradle of muralism",
+        "Museum": "cultural space since 1992"
+      }
+    },
+    "faq_mito": {
+      "hash": "266d9ed8d8da3818",
+      "texto": {
+        "pregunta": "Myth: San Ildefonso stopped being a school because of the 1968 bazooka blast, and that is why it is a museum.",
+        "respuesta": "Reality: The Preparatoria continued to operate in the building until 1978; the cultural space reopened in 1992."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_27_catedral",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a9aed796863efd38",
+      "texto": "Metropolitan Cathedral: More Than Two Centuries on Sinking Ground"
+    },
+    "frase_gancho": {
+      "hash": "c62289eead62b660",
+      "texto": "It took nearly two hundred forty years to finish, and it is still under watch because the ground that holds it up is sinking."
+    },
+    "puente_narrativo": {
+      "hash": "34bc1e21dc898d10",
+      "texto": "Walk a few steps to the eastern side of the Cathedral, right up against it, to see the smallest and most ornate church of the complex."
+    },
+    "como_llegar": {
+      "hash": "46c7aa396dbe8979",
+      "texto": "Walk toward the north side of the square, where the façade of the Cathedral rises, the next stop."
+    },
+    "guion_corto": {
+      "hash": "99bb16c59fdad53d",
+      "texto": "How do you raise an enormous cathedral on an ancient lake? With great patience: this one took nearly two hundred forty years. The foundations of the current building were begun in fifteen seventy-three, following the design of Claudio de Arciniega. Construction was declared finished in eighteen thirteen. That is why it combines styles from different eras. The great problem was always the ground, which is soft and sinks unevenly, and so it has called for reinforcements and corrections. Even so, it still stands, with its two towers facing the Zócalo. Before you step closer, run your eyes over it from bottom to top and notice how many eras you can tell apart."
+    },
+    "guion_largo": {
+      "hash": "d8e0ef94ec22e964",
+      "texto": "This Cathedral was not built all at once. The first one, a small church, was begun in fifteen twenty-four, a little south of where the current one stands. It had three naves and was considered uncomfortable, dark and damp. For that reason, in the middle of the sixteenth century it was decided to build another, much larger one. A plan signed by King Philip the Second in fifteen sixty-nine was followed starting in fifteen seventy-three. The old church was demolished only once it became possible to celebrate Mass in a part of the new one, already in the seventeenth century.\n\nThe greatest enemy of the project was the ground. The Cathedral occupies the southwest corner of what was the precinct of the Templo Mayor, on soft terrain and landfill from the ancient island. Beneath it lie pre-Hispanic remains. As early as fifteen sixty-two, the foundation began to sink. It was rebuilt with a stone mass, a rubble platform, set on piles, and that work was declared complete in sixteen fifteen.\n\nThe vaults were closed gradually starting in fifteen eighty-one, and the last one on the twenty-second of June, sixteen sixty-seven. The towers took much longer. They were built by the Mexican architect José Damián Ortiz de Castro in the late eighteenth century. Manuel Tolsá completed the exterior with the dome and the balustrades, and in eighteen thirteen the work was declared finished. That is why, on a single façade, different hands and eras live side by side.\n\nInside, the Cathedral works as a museum of several centuries. Among its best-known works is the Altar of the Kings, by Jerónimo de Balbás. It was made between seventeen eighteen and seventeen thirty-seven. The INAH considers it the first altarpiece made in Mexico with estipites, the characteristic baroque columns that taper downward. The Altar of Forgiveness is also by Balbás. In the choir there are two large organs from the viceregal period, whose cases measure about nine meters wide by eleven high. Here Agustín de Iturbide was crowned emperor, on the twenty-first of July, eighteen twenty-two.\n\nOn the seventeenth of January, nineteen sixty-seven, a short circuit started a fire in the Altar of Forgiveness. It destroyed about eighty percent of that altar and most of the choir stalls. It damaged the upper part of the Altar of the Kings, burned a painting of the Assumption of the Virgin and affected the organs. There was conservation work in nineteen seventy-six and another intervention between two thousand seven and two thousand eight.\n\nOver the centuries, the sinking became worrying. After an alarming deterioration around nineteen eighty-nine, engineers chose a technique called controlled underexcavation. It consists of slowly removing clay from deep layers, between eighteen and twenty meters underground. This way the ground drops beneath the higher areas and the building straightens. The work lasted from nineteen ninety-three to the early two thousands, finishing in two thousand three. About four thousand two hundred twenty cubic meters of clay were removed. The goal was not to return to perfect verticality, but to recover roughly half of the deformation. A study by UNAM warns that the sinking has not disappeared and that the complex is monitored with instruments.\n\nA curious fact: the Sun Stone was mounted on one of these towers until eighteen eighty-five. A catalog from eighteen eighty-two still places it next to one of them.\n\nIf you decide to go in, remember that it is still a working church. It is best to visit with respect and to check the current hours, because they change with the celebrations. If you prefer to stay outside, simply looking at the complex is enough. Right up against this façade is the [Sagrario](cdmx_28_sagrario). Farther on, behind the Cathedral, appears the [Templo Mayor](cdmx_34_templo_mayor), with the remains of the Mexica ceremonial center."
+    },
+    "retos_observacion": {
+      "hash": "f38fbd294af82e07",
+      "texto": [
+        "Compare the two towers with the dome that peeks out between them: they are the work of different hands and eras, even though the whole reads as one",
+        "Run your eyes over the façade from bottom to top and count how many levels you can make out",
+        "Look at the atrium in front of the façade and notice where the Cathedral ends and where the Zócalo begins"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4bf30fede9801b1c",
+      "texto": {
+        "Period": "1573 to 1813",
+        "Design": "Claudio de Arciniega",
+        "Towers": "José Damián Ortiz de Castro, late 18th century",
+        "Dome and exterior crowning": "Manuel Tolsá",
+        "Style": "various styles from the 16th to the 19th century",
+        "Location": "north side of the Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "9beab69a75303d8c",
+      "texto": {
+        "pregunta": "Myth: The Cathedral is about to fall down because it is sinking.",
+        "respuesta": "Reality: It has been sinking unevenly since it was built, but between 1993 and 2003 it was corrected with controlled underexcavation and today it is monitored with instruments; the sinking has not disappeared."
+      }
+    }
+  }
+}

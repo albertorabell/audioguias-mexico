@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_28_sagrario",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b9ae52d6afa278f0",
+      "texto": "Sagrario Metropolitano: a Stone Altarpiece Next to the Cathedral"
+    },
+    "frase_gancho": {
+      "hash": "b3807fc4e0867316",
+      "texto": "Right beside the Cathedral stands a smaller church whose facade looks like an altarpiece carved in stone."
+    },
+    "puente_narrativo": {
+      "hash": "6954dddec98a1b75",
+      "texto": "Cross to the east side of the plaza, where the National Palace fills the entire front, and look up to its central balcony."
+    },
+    "como_llegar": {
+      "hash": "34bc1e21dc898d10",
+      "texto": "Continue a few steps toward the east side of the Cathedral, right up against it, to see the smallest and most ornate church of the complex."
+    },
+    "guion_corto": {
+      "hash": "20a94b3c467acaa9",
+      "texto": "It looks like an ornament that got stuck onto the Cathedral, but it is a complete church. It is called the Sagrario Metropolitano, and the architect Lorenzo Rodríguez built it starting in seventeen forty-nine. Rodríguez was born in Guadix, in Spain, and arrived in New Spain in seventeen thirty-one. This facade, covered with estípites, is a major monument of the Churrigueresque style. An estípite is a support that narrows toward the bottom and gives the stone a sense of movement. One main facade faces the plaza, and another, on the side, faces east. Take a moment to read it as if it were a page."
+    },
+    "guion_largo": {
+      "hash": "979860e2215130af",
+      "texto": "A sagrario is the place where the most sacred things of a church are kept, above all the sacrament of the Eucharist. In this building, documents and the garments of the clergy were also meant to be kept. In time, the Sagrario became the parish church of the cathedral complex, a space where the records and administration of the sacraments were handled. In other words, it is not just an ornament of the Cathedral. It is a church with its own history.\n\nIts architect was Lorenzo Rodríguez. He was born in Guadix and trained with his father, who was the chief architect of the bishopric of that city. Later he worked as a master mason in Cádiz. In the capital of New Spain he worked at first as a carpenter at the Mint. Around seventeen forty-one he earned the rank of master in the architects’ guild. Later he became an inspector of that guild.\n\nConstruction began in seventeen forty-nine and lasted almost twenty years. The result is one of the great monuments of New Spain’s Baroque, in the style called Churrigueresque. Its main feature is the estípite, a support that grows thinner toward the base and covers the main facade from top to bottom. Rodríguez knew that tradition in the Andalusia of his youth, but here he took it further, with more detail and relief.\n\nThe bachelor Juan de Viera described the city in seventeen seventy-seven. He spoke of the marvelous estípites and the very beautiful statues of this facade, and added that many craftsmen copied that sculpture. That explains why the style traveled far: it had great influence in the mining region of Guanajuato.\n\nNotice that not all the ornamentation is the same. The historian Manuel González Galván observes that the main facade is full of estípites, while the minor portals use plainer pilasters, with fluting. That contrast makes the central part stand out even more. González Galván also studied a relief on one portal that depicts the baptism of the Virgin. It is a subject that does not appear in the gospels, and he reports that it has a twin relief with the baptism of Christ on the east portal.\n\nThe ground has also left its mark here. In nineteen thirty-three, the buildings on the east side of the Cathedral were demolished, among them the old Seminary. The following year the re-underpinning of the Sagrario began, and it was still under way in November of nineteen thirty-five. Very close by, on that side, is the [Seminary Plaza](cdmx_35_plaza_seminario), which you will see later on.\n\nRodríguez left his hand in other places along the route. He made the rear facade of the old College of [San Ildefonso](cdmx_47_san_ildefonso), which you will reach later on. He also made the facade of the chapel of the Vizcaínas College.\n\nIf you decide to go in, remember that it is a church open for worship, so it is wise to check the current hours. From the street, looking is enough: each level of carved stone asks to be viewed slowly. And remember that this work took almost twenty years to complete."
+    },
+    "retos_observacion": {
+      "hash": "ee6ba7b006995930",
+      "texto": [
+        "Look for the estípites on the main facade, those supports that narrow toward the bottom",
+        "Compare the main portal with the minor portals and notice which has more ornamentation",
+        "Scan the facade from bottom to top, as if reading an altarpiece, and count how many levels you can distinguish"
+      ]
+    },
+    "especificaciones": {
+      "hash": "395d4ebce5a22eba",
+      "texto": {
+        "Period": "1749 to 1768",
+        "Architect": "Lorenzo Rodríguez",
+        "Style": "Churrigueresque Baroque",
+        "Function": "parish church of the cathedral complex",
+        "Location": "attached to the Cathedral, on its east side"
+      }
+    },
+    "faq_mito": {
+      "hash": "a0780b2309a0d977",
+      "texto": {
+        "pregunta": "Myth: The Sagrario is just another chapel of the Cathedral, built at the same time.",
+        "respuesta": "Reality: It is a separate building, the work of Lorenzo Rodríguez starting in 1749, while the Cathedral followed an earlier plan and was considered complete in 1813."
+      }
+    }
+  }
+}

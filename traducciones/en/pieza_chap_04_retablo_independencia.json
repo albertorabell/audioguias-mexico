@@ -1,0 +1,56 @@
+{
+  "id": "chap_04_retablo_independencia",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d561a85b4adfde87",
+      "texto": "Retablo de la Independencia, by Juan O’Gorman"
+    },
+    "frase_gancho": {
+      "hash": "3379f0a76f80b7a8",
+      "texto": "Count how many times Miguel Hidalgo appears in this mural: the painter chose to portray him twice."
+    },
+    "puente_narrativo": {
+      "hash": "4fde3c8e684f446e",
+      "texto": "Continue your tour through this hall. The next stop holds the banner and relics of Miguel Hidalgo, the man with whom the war began."
+    },
+    "guion_corto": {
+      "hash": "0eece65c8fb869cc",
+      "texto": "Hidalgo appears twice in this mural. Young, with the banner of the Virgin of Guadalupe, and older, with a torch and the Guadalajara decree. This is how Juan O’Gorman tells the story of Independence. It is a fresco four meters forty centimeters high by fifteen meters sixty-nine centimeters long. He painted it between nineteen sixty and nineteen sixty-one. It reads from left to right, in four acts: the inequality of New Spain, the forerunners of the ideas, the insurgent movement, and the Congress of Chilpancingo, led by Morelos. Above, the moon at one end and the rising sun at the other mark the passage from the colonial night to autonomy."
+    },
+    "guion_largo": {
+      "hash": "7b88b978f3409b09",
+      "texto": "This mural has a history that begins with another painter. According to studies published in the journal Educación Química and in the Gaceta de Museos of the INAH, the commission was first given to Diego Rivera. Rivera went looking for portraits for his figures. He died in nineteen fifty-seven, before the work had progressed, and the project passed to Juan O’Gorman.\n\nO’Gorman worked in fresco on a curved wall. In this technique, the pigment sets when the lime in the wet plaster hardens. For that reason, each day only the section that can stay wet can be painted. The Gaceta de Museos reports that, under raking light, those days of work can still be told apart. Before painting, the artist made many study drawings and numbered, gridded tracings that he transferred to the wall, because a fresco allows no corrections.\n\nThe museum describes the work in four acts. In the first appears the inequality of New Spain. In the second, beneath a neoclassical building that symbolizes Enlightenment thought, are the forerunners of the ideas. The third shows the insurgent movement, with Hidalgo portrayed twice. The fourth presents the Congress of Chilpancingo, led by José María Morelos. If you look closely, there are real landscapes: the city of Guanajuato, the church of Dolores, and the Alhóndiga de Granaditas.\n\nA study in the journal Educación Química counts about three hundred figures in three planes of depth, and of these about eighty have been identified. Among the women appear Josefa Ortiz de Domínguez, Gertrudis Bocanegra, Mariana Rodríguez del Toro, and Leona Vicario. In the foreground, the same study recognizes ten Indigenous groups. Not all the faces are faithful portraits: for lack of images, O’Gorman had to imagine some of them, and the historian Mariano Cruz Pérez points to the case of José María Jiménez.\n\nThere is another curious detail, which comes from an INAH bulletin from two thousand twenty-five. O’Gorman did research before each project, and in the three murals that the museum safeguards, objects from the collection appear, such as weapons and flags. The historian Salvador Rueda Smithers stated: Don Juan O’Gorman wrote history on the murals. In other words, the mural does not merely illustrate history; it also speaks with the museum’s pieces.\n\nIt is worth looking at the work with a critical eye. An academic article describes it as a widely circulated visual document, reproduced in textbooks. Remember that it expresses a liberal reading of history: light against darkness, the people against absolutism. It is the vision of an artist of nineteen sixty, not a neutral record. And that makes it interesting: it tells you how Independence was told in the twentieth century.\n\nThe sources also do not entirely agree on the period it covers. The museum cites a label from the work itself that speaks of a history between seventeen ninety-five and eighteen thirteen. Other studies count it from seventeen eighty-four to eighteen fourteen.\n\nAt the end of the wall, the mural stops at Morelos and his Congress. There O’Gorman’s brush ends, but the war went on. To get to know the man with whom it all began, the next stop holds his [banner and relics](chap_27_estandarte_hidalgo). After that come [Morelos and Iturbide](chap_06_morelos_iturbide), two men who faced each other and whose paths crossed."
+    },
+    "retos_observacion": {
+      "hash": "adaffbe319bc3fdb",
+      "texto": [
+        "Count the two times Miguel Hidalgo appears and compare how the artist painted him",
+        "Find the sky landscape: the moon at one end and the rising sun at the other",
+        "Locate the neoclassical building in the second act, which represents culture and Enlightenment thought"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cad2cd24552e4c89",
+      "texto": {
+        "Author": "Juan O’Gorman",
+        "Date": "1960 to 1961",
+        "Technique": "fresco on masonry plaster",
+        "Dimensions": "4.40 m high by 15.69 m wide",
+        "Structure": "four acts, from viceregal inequality to the Congress of Chilpancingo",
+        "Location": "Hall 6, The War of Independence, National Museum of History"
+      }
+    },
+    "faq_mito": {
+      "hash": "b558d742ee31a8cc",
+      "texto": {
+        "pregunta": "Myth: All the faces in the mural are faithful portraits of the historical figures.",
+        "respuesta": "Reality: Among about three hundred figures there are documented portraits and also faces imagined for lack of images. O’Gorman did research before each project, and the mural includes objects from the museum’s collection."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_30_antiguo_ayuntamiento",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae1da1f921671d09",
+      "texto": "Old City Hall: The House of the City’s Government"
+    },
+    "frase_gancho": {
+      "hash": "73d0f327051768b7",
+      "texto": "Here the city’s government met for centuries, and in sixteen ninety-two a mob set it on fire."
+    },
+    "puente_narrativo": {
+      "hash": "f03c786251d6d028",
+      "texto": "Continue toward the west side of the plaza, to the arches of the Portal de Mercaderes, where commerce has occupied the ground floor for centuries."
+    },
+    "como_llegar": {
+      "hash": "08e79ee7f9deeae1",
+      "texto": "Cross the plaza toward its south side, where the Old City Hall stands, to continue with the history of the city’s government."
+    },
+    "guion_corto": {
+      "hash": "0aa9df9dce669b3d",
+      "texto": "A crowd angry over the corn shortage set fire, in sixteen ninety-two, to the council houses on this plaza. It was the seat of the city’s government, and so it stood at the center of the outcry. The building was rebuilt in the following years and, in the twentieth century, received new floors. Today it is still part of the capital’s government. Beside it rises another building, constructed to complement it. Inside, the Council Chamber preserves a decoration from eighteen ninety-three and a ceiling painted in oil. Together, the two buildings add up to centuries of municipal history."
+    },
+    "guion_largo": {
+      "hash": "cd6b4e6bfd61b671",
+      "texto": "Ayuntamiento is the old name for a city’s government. And the capital of New Spain needed a house of its own very early on. A royal decree of fifteen twenty-seven set aside lots on this plaza for the council houses, the jail, the slaughterhouse and the shops.\n\nThe original building was marked by fire. On the eighth of June, sixteen ninety-two, a corn crisis set off a riot. The crowd burned the viceregal palace, the city hall and hundreds of wooden stalls in the plaza. The council houses were rebuilt in the following years. By the early eighteenth century they stood again, in the Baroque style of Spain.\n\nThe upper floors are more recent. They were added in the twentieth century. The third floor came in nineteen ten, for the Centennial of Independence, and the fourth in nineteen thirty-four. Of the original construction, only the foundations and some walls survive.\n\nInside, the highlight is the Council Chamber, decorated in eighteen ninety-three in the Art Nouveau style. It has a dais with one hundred nineteen carved wooden chairs and, on the ceiling, an oil painting by Francisco Parra that is an allegory of the Homeland. In this chamber, the keys to the city are presented to distinguished visitors. Next to it, the Viceroys’ Hall brings together portraits of the sixty-two viceroys of New Spain. On the second floor, the Ágora Gallery deals with the struggles of the city’s residents for their rights. If you would like to see the inside, check the current information, because access may be limited during official events.\n\nThe building next door is its sibling. The Mexico City Government Building was constructed between nineteen forty-one and nineteen forty-eight. It occupies the site of the old Portal de las Flores, and much of its design sought to complement the Old City Hall. During the construction, remains of a house associated with doña Marina and a ball court were found. The earthquake of nineteen eighty-five damaged it severely, as we recall when speaking of the [memory of the Zócalo](cdmx_26_zocalo_memoria).\n\nA curious fact: the capital’s government was called the Ayuntamiento from fifteen nineteen to nineteen twenty-eight. That is almost four centuries under the same name.\n\nIf you arrive unhurried, run your eyes over the two facades from corner to corner and notice how the new building seeks to accompany the old one.\n\nThis plaza thus tells the history of power in layers. To the east stands the palace of the national government, to the north the Cathedral and here, on the south side, the house of the city’s government. While the country changed its regime, the city kept a place of its own to gather and decide. That use, governing itself from the plaza, is still alive in these buildings."
+    },
+    "retos_observacion": {
+      "hash": "b4cc6b22630cdca7",
+      "texto": [
+        "Count the floors of the Old City Hall: the last ones were added in the twentieth century",
+        "Find the neighboring Government of the City building and compare the two facades",
+        "Locate the south side of the plaza and remember that the council house stood there from the sixteenth century"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f3c0bf98e71a5c5e",
+      "texto": {
+        "Period": "origins in the 16th century, rebuilt after the riot of 1692",
+        "Style": "Baroque style of Spain with 20th-century renovations",
+        "Council Chamber": "decorated in 1893 in the Art Nouveau style",
+        "Neighboring building": "Mexico City Government Building, 1941 to 1948",
+        "Location": "Plaza de la Constitución 2, south side of the Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "9bf9e5f63b85b476",
+      "texto": {
+        "pregunta": "Myth: Hernán Cortés ordered the construction of the building you see today.",
+        "respuesta": "Reality: The council house dates back to the 16th century, but the current building is the result of reconstructions after the fire of 1692 and of 20th-century renovations."
+      }
+    }
+  }
+}

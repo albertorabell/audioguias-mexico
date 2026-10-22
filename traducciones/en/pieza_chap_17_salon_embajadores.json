@@ -1,0 +1,55 @@
+{
+  "id": "chap_17_salon_embajadores",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5bcc9bda2318d2a5",
+      "texto": "Ambassadors’ Hall"
+    },
+    "frase_gancho": {
+      "hash": "049a0c9979c65a3a",
+      "texto": "A French carpet with a view of this very Castle woven into it adorned the hall where Porfirio Díaz received diplomats."
+    },
+    "puente_narrativo": {
+      "hash": "8b299b373439964b",
+      "texto": "Continue to the Gobelins Hall, the neighboring hall, where a gift from Napoleon III to Maximilian tells another story."
+    },
+    "guion_corto": {
+      "hash": "8c323626d8db469c",
+      "texto": "This hall has changed its purpose many times. The National Museum of History keeps a timeline for each space. In eighteen sixty-six, this was Carlota’s salon and a billiard room. In eighteen eighty-two, under President Manuel González, it was used as a ballroom. By nineteen oh six it appears as the grand salon of Porfirio Díaz. The name it bears today comes from its function in that era: receiving foreign diplomats. The French-style decor is the work of Epitacio Calvo. The furniture follows the Louis Sixteenth taste, and the carpet, from the house of Aubusson, shows a view of the Castle."
+    },
+    "guion_largo": {
+      "hash": "cf4dfdce6a907cdc",
+      "texto": "Museums often show their halls as if they had always been this way. This one is different. The timeline that accompanies the halls of the Alcázar records a series of uses for this space that almost no one would guess. In eighteen sixty-six, Maximilian and Carlota still lived here. For that year, the record speaks of the empress’s salon and a billiard room. In eighteen seventy-seven, the Meteorological Department and Directorate appear. These were the years of the first National Astronomical Observatory. It was installed in the Castle in eighteen seventy-eight and moved to Tacubaya in eighteen eighty-three. In eighteen eighty-two, during the government of Manuel González, there was a ballroom with an annex.\n\nIt was under Porfirio Díaz that the place became a grand salon. The museum explains that Díaz wanted to show the artistic and technological progress of Mexico, and that desire is evident throughout the Alcázar. He ordered elevators installed and turned the neighboring forest into a public park. He also commissioned from Paris the stained glass windows of the [Leaded Glass Gallery](chap_14_vitrales_emplomados), made around nineteen hundred. A hall for receiving foreign diplomats fit that purpose.\n\nThe decor, according to the wall label, is French in style and blends Baroque and Neoclassical elements. Its author is Epitacio Calvo. The furniture follows the Louis Sixteenth style. That style takes its name from a French king of the eighteenth century and is recognized by lines that are straighter and more restrained than those of the Baroque. The museum notes that both the furniture and the carpet were made in France. It was the European taste adopted by the upper classes of the time.\n\nThe carpet deserves a closer look. It is from the house of Aubusson, famous for centuries for its tapestries, and it shows a view of the Castle itself. In other words, the building appears depicted within itself, like a woven mirror.\n\nIt is best not to imagine Díaz living here all year round. According to the museum, his family lived most of the year in a house on La Cadena Street, today Venustiano Carranza. The Castle served in summer for balls and receptions. On those occasions, the world was received here. The family’s rooms were connected by an interior staircase, opened under Manuel González. There was also an electric elevator for the exclusive use of the president and his family. The [Lions’ Staircase](chap_13_escalera_leones), by contrast, was left for the guests.\n\nOther changes came afterward. In nineteen thirty-nine, President Lázaro Cárdenas handed the Castle over to the people. The National Museum of History opened its doors in nineteen forty-four. Today, instead of ambassadors, visitors with headphones like you pass through here. If you stay a moment, think about how many versions of this room fit between one date and another: empress’s salon, billiard room, ballroom, and reception hall."
+    },
+    "retos_observacion": {
+      "hash": "2ad6eb1fe801ec71",
+      "texto": [
+        "Look in the carpet for the view of the Castle itself",
+        "Notice the legs and backs of the furniture: the Louis XVI style prefers straight lines",
+        "Find the wall label that mentions the name of the decorator, Epitacio Calvo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e1b8acc0b9ffeaf",
+      "texto": {
+        "Era": "Porfiriato; the museum records the space as a grand salon in 1906",
+        "Decoración": "French style with Baroque and Neoclassical elements, by Epitacio Calvo",
+        "Mobiliario": "Louis XVI style, made in France",
+        "Alfombra": "house of Aubusson, France, with a view of the Castle",
+        "Function": "receiving foreign diplomats during the presidency of Porfirio Díaz"
+      }
+    },
+    "faq_mito": {
+      "hash": "1376eab2f35e9a3d",
+      "texto": {
+        "pregunta": "Myth: This is the hall where Maximilian and Carlota received the ambassadors of the Empire.",
+        "respuesta": "Reality: according to the National Museum of History, the hall received foreign diplomats during the presidency of Porfirio Díaz, and the museum’s timeline records this space in eighteen sixty-six as Carlota’s salon and a billiard room."
+      }
+    }
+  }
+}

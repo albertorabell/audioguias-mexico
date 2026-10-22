@@ -1,0 +1,55 @@
+{
+  "id": "chap_25_terraza_ninos_heroes",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "aa4dfea33dbed2f7",
+      "texto": "Terrace and Memory of the Niños Héroes"
+    },
+    "frase_gancho": {
+      "hash": "50a141a01cdacfee",
+      "texto": "Every September 13, six names are remembered; historians separate what is documented from what legend added."
+    },
+    "puente_narrativo": {
+      "hash": "c2471779be950390",
+      "texto": "Now walk toward the viewpoint on the east side of the Alcázar. From there we will close the visit, with the city and the line of the Paseo de la Reforma in front of you."
+    },
+    "guion_corto": {
+      "hash": "9463a46f4ef6a019",
+      "texto": "Eight hundred thirty-two defenders against more than seven thousand attackers. These are the figures given by a Mexican government history institute for September 13, 1847. After two days of bombardment, General Nicolás Bravo ordered some one hundred cadets to leave the castle, because reinforcements were not arriving. About half of them stayed to fight. From that group, six names are remembered: Juan de la Barrera, Juan Escutia, Agustín Melgar, Fernando Montes de Oca, Vicente Suárez, and Francisco Márquez. Their sacrifice is documented in archives. Some details of the legend, however, are still debated among historians."
+    },
+    "guion_largo": {
+      "hash": "e79e1dae5030542b",
+      "texto": "On the morning of September 13, 1847, the castle had been under bombardment for two days. According to the Instituto Nacional de Estudios Históricos de las Revoluciones de México, at six o’clock General Nicolás Bravo ordered the cadets to leave. He had asked General Santa Anna for help again and again, and help never came. The only force that arrived was the San Blas Battalion, which tried to halt the advance at the foot of the first ramp. Almost all of its men died, including its commander, Felipe Santiago Xicoténcatl, at half past nine. You can learn more about the war context at the stop on the [intervention of 1847](chap_08_intervencion_1847).\n\nAmong those who stayed were the six young men whose names tradition remembers. According to historians, Francisco Márquez and Vicente Suárez were around fourteen years old. Agustín Melgar and Fernando Montes de Oca, eighteen. Juan de la Barrera, nineteen, and Juan Escutia, twenty. Ages vary from one source to another, and the institute itself notes that they are approximate.\n\nIt is worth separating what is documented from what is debated. The institute states that there is documentary support for several facts. These are the cadets’ requests, the orders to withdraw, and the deaths of Xicoténcatl and of six cadets. This rests on archives and on a speech from 1851 by General Joaquín Rangel. By contrast, the image of Juan Escutia wrapped in the flag has been questioned. The historian Alejandro Rosas maintains that Escutia was shot down along with Márquez and Montes de Oca as they tried to flee toward the Botanical Garden. Salvador Rueda Smithers, a historian at the National Museum of History, places the origin of the legend in Lieutenant Margarito Zuazo. Zuazo had fought at Molino del Rey five days earlier.\n\nThere is another name that connects this place with the rest of the tour. Miguel Miramón entered the Military College in 1846. He fought at Molino del Rey and in the defense of Chapultepec, was wounded in the face, and was taken prisoner on September 13. He is counted among the defenders of that day, though not among the six. Years later he became president of the Republic, in 1859. On June 19, 1867, he was executed by firing squad at the Cerro de las Campanas. He was accompanied by [Maximilian](chap_20_recamara_maximiliano) and Tomás Mejía.\n\nThe memory that came afterward also has its own history. According to Rosas, a century after the battle six skulls were found in excavations at the foot of the hill. They were attributed to the six young men without scientific or documentary proof. With the backing of the INAH and President Miguel Alemán, the remains were placed in the Altar a la Patria. It was inaugurated in 1952. This does not diminish the value of what happened that day, but it helps us understand how the official memory was formed.\n\nRosas insists on one last point: all those who fell in that defense should be remembered, not only six. Knowing the historians’ debate and honoring the young men who stayed do not contradict each other. Both help us imagine more vividly that morning at the top of the hill."
+    },
+    "retos_observacion": {
+      "hash": "27d2ed938ab758f9",
+      "texto": [
+        "Notice the height of the hill and the slopes surrounding the terraces, from which the attackers came",
+        "If you find commemorative plaques or inscriptions in this area, read the names that appear",
+        "Look for where the valley can be seen from here: that is why the site was strategic"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d2173308dd08462f",
+      "texto": {
+        "Date": "September 13, 1847",
+        "Commander of the defense": "General Nicolás Bravo",
+        "Defenders and attackers": "832 Mexicans against more than 7,000 Americans, according to the INEHRM",
+        "San Blas Battalion": "its commander, Felipe Santiago Xicoténcatl, died that day",
+        "Six names from tradition": "Juan de la Barrera, Juan Escutia, Agustín Melgar, Fernando Montes de Oca, Vicente Suárez, and Francisco Márquez"
+      }
+    },
+    "faq_mito": {
+      "hash": "388c1913ebe0c840",
+      "texto": {
+        "pregunta": "Myth: Juan Escutia threw himself into the void wrapped in the flag so that it would not fall into enemy hands.",
+        "respuesta": "Reality: The historian Alejandro Rosas maintains that Escutia was shot down while trying to flee, and Salvador Rueda Smithers, of the National Museum of History, places the origin of the image in the feat of Lieutenant Margarito Zuazo at Molino del Rey; what is documented is the death of six cadets that day."
+      }
+    }
+  }
+}

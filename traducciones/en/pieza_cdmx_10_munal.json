@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_10_munal",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7beed5333bc22561",
+      "texto": "MUNAL, from Jesuit Novitiate to Palace of Communications"
+    },
+    "frase_gancho": {
+      "hash": "b9a8853951906358",
+      "texto": "One single plot of land was a Jesuit novitiate, a hospital and a Palace of Communications before becoming a museum of Mexican art."
+    },
+    "puente_narrativo": {
+      "hash": "845282a5c8dd1b21",
+      "texto": "The next museum shares a building with this one: the Telegraph Museum occupies a section of the former Palace of Communications."
+    },
+    "como_llegar": {
+      "hash": "3eb62ba8e3ce97ca",
+      "texto": "Cross Tacuba Street toward the National Museum of Art, the MUNAL, the building across the way that faces this plaza."
+    },
+    "guion_corto": {
+      "hash": "5f934dbcfe26f5bd",
+      "texto": "In sixteen twenty-six, the Jesuits opened a novitiate on this site. Over time the site became a hospital, until in the early twentieth century it was demolished to build a palace. It was designed by the Italian architect Silvio Contri, and construction lasted from nineteen oh four to nineteen eleven. It was the seat of the Ministry of Communications and Public Works. Its architecture is eclectic, with touches of the Italian Renaissance and French classicism. Door knockers, window frames, stained-glass windows and lamps were finished in Florence. After serving as offices and an archive, since nineteen eighty-two it has been home to the National Museum of Art, with Mexican works spanning four centuries."
+    },
+    "guion_largo": {
+      "hash": "106cc60686c6c8b3",
+      "texto": "This building has several lives layered on top of one another, and the oldest is religious. In sixteen twenty-six, a novitiate of the Society of Jesus was opened here. In seventeen sixty-seven the Jesuits were expelled. The property passed to other institutions and eventually became the Hospital de San Andrés.\n\nIn the hospital chapel lay the embalmed body of Archduke Maximilian of Habsburg. This was after his execution by firing squad and before his remains traveled to Europe. It is a little-known episode in the history of this place.\n\nIn the early twentieth century, at the height of the Porfiriato, the earlier building was demolished. In nineteen oh four, construction began on a palace for the Ministry of Communications and Public Works, and the work was completed in nineteen eleven. The project was designed by the Italian architect Silvio Contri. Mexican laborers and Italian artisans worked on it, and pieces such as door knockers, window frames, leaded glass, furniture and lamps were finished in Florence.\n\nIts style is eclectic. It blends ideas from the Italian Renaissance and French classicism, with Neo-Baroque touches. The palace was meant to showcase the modernization of the country. On the second floor there was a reception hall where Porfirio Díaz made public statements and received foreign visitors.\n\nThe palace was inaugurated in nineteen twelve, already in the years of the Revolution, with Francisco I. Madero as president. The Ministry left the building in the middle of the twentieth century. Later it was occupied by the National Archive, until the archive moved to the former Lecumberri Palace and the building was left vacant.\n\nThen the Ministry of Public Education restored the building and handed it over to the National Institute of Fine Arts. The National Museum of Art opened its doors on July twenty-third, nineteen eighty-two. In nineteen ninety-nine it closed for a major transformation of the building, and it reopened in the year two thousand.\n\nIf you decide to go in, keep in mind that admission is paid, and that it is wise to check the current opening hours. The museum holds Mexican art from the mid-sixteenth century to nineteen fifty-four. Its tour is organized into three major periods. They are the viceregal era, the century following Independence, and the period running from the Revolution to the middle of the twentieth century.\n\nBut you don't need to go inside to understand the place. From the street you can walk along the facade and notice how the materials are combined. The plaza of El Caballito, which you left behind, was once the garden of this palace. And in one section of the building you will also find the [Telegraph Museum](cdmx_08_museo_telegrafo), which you will reach shortly. The history of communications and the history of art thus share the same palace.\n\nNotice the distance in time between this palace and the Mining Palace, which you have just seen. Contri finished his work around nineteen eleven. Tolsá completed his in eighteen thirteen, almost a century earlier. They are two buildings made for different purposes: training engineers and administering the country's communications."
+    },
+    "retos_observacion": {
+      "hash": "6d4c8e5a6dd3a494",
+      "texto": [
+        "Count the levels of the facade and look for the window frames, part of the elements that were worked on in Florence",
+        "Compare the look of this eclectic palace with the columned portico of the Mining Palace",
+        "From the plaza, locate El Caballito and remember that this space was once the garden of the Palace of Communications"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6d704153a79d6144",
+      "texto": {
+        "Period": "Construction from 1904 to 1911; palace inaugurated in 1912; museum inaugurated on July 23, 1982",
+        "Architect": "Silvio Contri",
+        "Style": "Eclectic, with Italian Renaissance and French classicism",
+        "Location": "Tacuba 8, Historic Center",
+        "Original use": "Ministry of Communications and Public Works",
+        "Collection": "Mexican art from the second half of the 16th century to 1954"
+      }
+    },
+    "faq_mito": {
+      "hash": "9e36cf337d8822d0",
+      "texto": {
+        "pregunta": "Myth: The MUNAL is a viceregal palace.",
+        "respuesta": "Reality: The current building dates from the Porfiriato, built from 1904 to 1911 by Silvio Contri; what was viceregal were the Jesuit novitiate and the hospital that previously occupied the site."
+      }
+    }
+  }
+}

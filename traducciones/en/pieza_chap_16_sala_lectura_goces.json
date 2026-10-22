@@ -1,0 +1,55 @@
+{
+  "id": "chap_16_sala_lectura_goces",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c3af75998b97aa20",
+      "texto": "Reading Hall and Games Room"
+    },
+    "frase_gancho": {
+      "hash": "9817d7d29f811f67",
+      "texto": "French tapestries show spinning tops and cup-and-ball toys, and the Reading Hall was once a billiard room."
+    },
+    "puente_narrativo": {
+      "hash": "c6da8431408543e9",
+      "texto": "Continue to the Ambassadors’ Hall, the room for the Alcázar’s diplomatic receptions."
+    },
+    "guion_corto": {
+      "hash": "e5ad5e299aeaa0f1",
+      "texto": "In tapestries made in France, a spinning top, a cup-and-ball toy, a badminton set and some ninepins appear. According to the Games Room wall label, Napoleon the Third gave them to Maximilian for his birthday, on the sixth of July. There, the museum says, the rulers played bowling, billiards, cards and chess with their guests. The Reading Hall recalls another side of him: Maximilian named his palace Miravalle, and he read and wrote decrees and correspondence on its terraces. The records the museum cites, however, show another use for that room. It was a billiard room in eighteen eighty-two, in nineteen oh six and in nineteen thirty-two."
+    },
+    "guion_largo": {
+      "hash": "7bfa1347b3ea548a",
+      "texto": "It is easy to imagine Maximilian reading in this room, but the records tell a different story. The museum cites occupancy lists for the building. In eighteen seventy-seven, the reading hall appears as the second astronomer’s room. In eighteen eighty-two, nineteen oh six and nineteen thirty-two, it appears as a billiard room. Those are the years of the observatory you saw on the [Lions’ Staircase](chap_13_escalera_leones). What the museum does say is that Maximilian read and wrote on the terraces of his palace. There he dispatched decrees and correspondence. He called the palace Miravalle.\n\nThe name Miravalle says it all: a place to look out over the valley. The wall label also recalls the Habsburg family motto, in Latin: Austria est imperare orbi universo. It means that it falls to Austria to rule the entire world. The official Habsburg website cautions that this reading came later. Frederick the Third, the fifteenth-century emperor who used the five vowels as his device, never explained their meaning. More than three hundred interpretations have been proposed.\n\nThe tapestries in the Games Room are lighter in spirit. According to the museum, they were made in France, and Napoleon the Third gave them to Maximilian for his birthday, on the sixth of July. They depict games such as the spinning top, the cup-and-ball toy, badminton and ninepins. The museum also speaks of another room with Aubusson tapestries, based on the fables of Jean de La Fontaine, a gift from the same Napoleon the Third. It is the Gobelins Room.\n\nThe museum’s records show how the use of the rooms changed. In eighteen eighty-two, one salon appears as a tresillo room, a card game. In nineteen oh six, it appears as a small games parlor, and in nineteen thirty-two, as a game room. According to the museum, the rulers played bowling, billiards, cards and chess with their guests.\n\nThat life of leisure had its modern side under Porfirio Díaz. The museum says that Díaz installed elevators and a bowling alley in the castle. And in August of eighteen ninety-six, he received there the envoys of the Lumière brothers, who presented the cinematograph to him. According to an article in the Revista de la Universidad, a small group of about twenty people close to his family attended. The screening began early and, at the audience’s request, ran until one in the morning. The article does not specify which room it was in. Díaz and his circle agreed to be filmed. In a second session, on the twenty-fifth of August, what the article describes as the first films shot in Mexico were screened.\n\nAnother trace remains of Maximilian’s birthday. According to the Revista Bicentenario, the banquet for his birthday began at six in the evening. It was on the sixth of July, eighteen sixty-five. The magazine does not specify in which residence it was held. In this way, Napoleon the Third’s gifts, the celebrations of the Empire and parlor games all intersect.\n\nFarther on, the [Ambassadors’ Hall](chap_17_salon_embajadores) shows the most formal side of the house."
+    },
+    "retos_observacion": {
+      "hash": "49ef68730774c12d",
+      "texto": [
+        "Look in the tapestries for a spinning top, a cup-and-ball toy, a badminton set and some ninepins, the games the museum mentions",
+        "Notice the light in the hall and imagine writing decrees here or on a terrace",
+        "Compare the size of this space with that of a dining room: does it fit a large group or an intimate one?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bf15c968ad3ac598",
+      "texto": {
+        "Palace": "Miravalle, a name given by Maximilian, according to the MNH",
+        "Tapestries": "made in France; a gift from Napoleon III to Maximilian for his birthday, on July 6",
+        "Games depicted": "spinning top, cup-and-ball toy, badminton and ninepins",
+        "Former uses recorded by the MNH": "second astronomer’s room (1877); billiard room (1882, 1906 and 1932); tresillo room (1882)",
+        "Location": "Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "064b24ca5cd741a0",
+      "texto": {
+        "pregunta": "Myth: The Reading Hall was always Maximilian’s private library.",
+        "respuesta": "Reality: According to the records cited by the National Museum of History, in 1877 it was the second astronomer’s room, and in 1882, 1906 and 1932 it appears as a billiard room; about Maximilian, it is known that he read and wrote on the terraces of his palace."
+      }
+    }
+  }
+}

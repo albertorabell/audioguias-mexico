@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_29_palacio_nacional",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6f992028ab1b6a47",
+      "texto": "National Palace: Seat of Power Over the Houses of Moctezuma"
+    },
+    "frase_gancho": {
+      "hash": "83420dbcd6e830ce",
+      "texto": "This building occupies the entire east side of the plaza and holds centuries of power, fire, and murals."
+    },
+    "puente_narrativo": {
+      "hash": "08e79ee7f9deeae1",
+      "texto": "Cross the plaza to its south side, where the Former City Council Palace stands, to continue with the history of the city’s government."
+    },
+    "como_llegar": {
+      "hash": "6954dddec98a1b75",
+      "texto": "Cross to the east side of the plaza, where the National Palace takes up the entire front, and walk to its central balcony."
+    },
+    "guion_corto": {
+      "hash": "e3d099008ae237a6",
+      "texto": "Every September fifteenth, a balcony of this building becomes one of the best-known in the country. Above it, in a niche, hangs the Bell of Dolores. It was cast in seventeen sixty-eight and arrived in the capital in eighteen ninety-six. But the building is much older than that ceremony. Hernán Cortés began the first palace on the ruins of the houses of Moctezuma II, and ever since, this has been the seat of power: first the viceroys, then the presidents. It occupies the entire east side of the plaza, and inside it holds the murals of Diego Rivera."
+    },
+    "guion_largo": {
+      "hash": "9678d700ecc5f804",
+      "texto": "Before it was a government palace, this site was already a seat of power. Hernán Cortés began the first building on the ruins of the tecpan calli, the royal houses of Moctezuma II. During the viceroyalty it was the residence of the viceroy and the seat of the main authorities. Floods and fires struck it. The most remembered was the one during the corn riot of sixteen ninety-two, which burned the viceregal palace. It was rebuilt, and the main courtyard that exists today dates from the end of the seventeenth century.\n\nWith Independence, it continued to be the seat of the national government. Between eighteen twenty-two and eighteen eighty-four, the presidents lived here. The exception was Maximilian, who lived in Chapultepec Castle. During the American occupation, on September fourteenth, eighteen forty-seven, the flag of the United States was raised over this building. The capital was evacuated on June twelfth, eighteen forty-eight. In nineteen twenty-six the facade was renovated and a floor was added, and that is the general form you see today.\n\nThe bell above has its own history. It bears the name San Joseph and July twenty-second of the year it was cast. In eighteen ninety-six, by order of Porfirio Díaz, it was moved from the parish church of Dolores. It reached the capital on September fourteenth, on an allegorical float pulled by six horses. The following night, Díaz had it rung while the flag was raised. Since then it has been rung every September fifteenth. Tradition holds that it was Miguel Hidalgo who rang it in Dolores in eighteen ten.\n\nThis palace also appears in the recent history of the plaza. Its loudspeakers gave the students five minutes to leave the plaza. It was the early morning of August twenty-eighth, nineteen sixty-eight. I told that story when I spoke of the [memory of the Zócalo](cdmx_26_zocalo_memoria).\n\nIf you decide to go in, do so knowing that access to the interior changes often and usually requires prior registration, so check the current information. The best-known works are the murals by Diego Rivera on the main staircase, the Epic of the Mexican People. He painted them in fresco between nineteen twenty-nine and nineteen thirty-five, in the form of a triptych. One wall is devoted to the pre-Hispanic world, with scenes of the daily life of the Mexica. Another traces history from the Conquest, with the invasions of the nineteenth century. The third shows the Mexico of his time and its conflicts. In it, Rivera included Karl Marx and Frida Kahlo with a group of schoolchildren.\n\nRivera went on painting later in the corridors of the upper floor. He worked there during the nineteen forties, and in nineteen fifty-one he finished eleven panels on the Mesoamerican cultures and the arrival of the Spaniards at Veracruz.\n\nAnyone touring the interior will also come upon the Parliamentary Chamber. It recreates the session hall of the Chamber of Deputies, destroyed by a fire in eighteen seventy-two. In that hall the Constitution of eighteen fifty-seven was drafted. And there are archaeological windows that let you see remains of the first palace and materials from the houses of Moctezuma II.\n\nOne last fact: the Historic Center, with this building at its heart, has been a UNESCO World Heritage Site since nineteen eighty-seven. Look once more at the central balcony and the bell. From there, every year, a ceremony joins the memory of eighteen ten with this plaza."
+    },
+    "retos_observacion": {
+      "hash": "0320b8db4d968919",
+      "texto": [
+        "Find the central balcony and, right above it, the niche where the Bell of Dolores hangs",
+        "Count the levels of the facade and remember that one was added in the renovation of nineteen twenty-six",
+        "Take in the building from one end to the other with your eyes: it occupies the entire east side of the plaza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "162a2968ad86b94a",
+      "texto": {
+        "Era": "16th to 20th centuries",
+        "Origin": "first building by Hernán Cortés over the houses of Moctezuma II",
+        "Murals": "Diego Rivera, Epic of the Mexican People, main staircase, 1929 to 1935",
+        "Renovation": "in 1926 the facade was renovated and a floor was added",
+        "Location": "east side of the Zócalo",
+        "Heritage": "Historic Center, UNESCO 1987"
+      }
+    },
+    "faq_mito": {
+      "hash": "37016274cc85e599",
+      "texto": {
+        "pregunta": "Myth: The Cry of Independence is given on the night of September fifteenth because it is Porfirio Díaz’s birthday.",
+        "respuesta": "Reality: It is a widely repeated explanation, but it is not the reason: the celebration on the night of the fifteenth was already held decades before Díaz came to power. His contribution was bringing the Bell of Dolores to this balcony in 1896."
+      }
+    }
+  }
+}

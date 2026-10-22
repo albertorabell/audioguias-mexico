@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_31_portal_mercaderes",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9b7ebce867f5cbbf",
+      "texto": "Portal de Mercaderes: the Arcades of Commerce Beside the Zócalo"
+    },
+    "frase_gancho": {
+      "hash": "3fbc52518485ac1a",
+      "texto": "Goods have been sold under these arches since the earliest years of the viceregal city, although the facades are considerably more recent."
+    },
+    "puente_narrativo": {
+      "hash": "0a260dfda73070b3",
+      "texto": "Keep going along the sidewalk, under the arches, until you reach Dieciséis de Septiembre Avenue, where the Gran Hotel stands."
+    },
+    "como_llegar": {
+      "hash": "f03c786251d6d028",
+      "texto": "Continue toward the west side of the plaza, to the arches of the Portal de Mercaderes, where commerce has occupied the ground floor for centuries."
+    },
+    "guion_corto": {
+      "hash": "bd131a35469e8889",
+      "texto": "Why does a plaza have arches? Here the answer is practical: to sell under cover. In fifteen twenty-four the town council approved a measure allowing the owners of the lots to build portales. They could rent them to merchants. Work on the arcades began in fifteen twenty-seven. By fifteen thirty-two there were already cloth shops. The arches you see today are not those ones: the facades were rebuilt in the nineteen fifties, in neocolonial style, with reddish tezontle and gray quarry stone. But the purpose remains the same, because under these arches there are still jewelry stores and shops. This stretch can be walked freely, along the sidewalk and without hurry."
+    },
+    "guion_largo": {
+      "hash": "ef36e77e745d950b",
+      "texto": "A portal is a gallery with arches that protects from the sun and the rain. Here the portals were rented to merchants. Perhaps they also served against floods, something the city knew well. Work on the arcades began in fifteen twenty-seven, under the direction of Melchor Dávila, and was finished around fifteen twenty-nine.\n\nBusiness arrived early. In time, cloth came to dominate almost the entire arcade. After Independence, the name Portal de los Mercaderes became common. In sixteen seventy-three a section was handed over to the Augustinians for commercial use. That is why that stretch became known as Portal de Agustinos. By the eighteenth century, almost everything was being sold here. Even the street names speak of that commerce: the street that is now Dieciséis de Septiembre was called Tlapaleros, and the one that is now Madero was called Plateros.\n\nThe arcade grew over centuries without a prior plan and was given order only in seventeen fifty-four. It was rebuilt more than once, and each era left its mark on the arches, on the shops and on the names of the neighboring streets.\n\nAs you walk under the arches, imagine the noise of the street cries and the movement of goods: fabrics, cloth and objects of every kind that changed hands every day.\n\nNear here stood the Parián, a great market on the southwest side of the plaza. It was built between sixteen ninety-five and seventeen oh three. It was looted in eighteen twenty-eight and demolished by order of Santa Anna in eighteen forty-three. The portal survived many things: earthquakes, floods, military uprisings and popular riots.\n\nIn the middle of the nineteenth century, the street of Plateros, which you now know as Madero, was opened and split the portal in two. The north section ended up lost. In eighteen ninety-five, parts of the portal were demolished because of their poor condition, it was renovated, and the plaza was cleared of stalls. Later, in the middle of the twentieth century, the facades were rebuilt in neocolonial style, with tezontle, the red volcanic stone, and quarry stone. What you see is a blend: an arcade with sixteenth-century roots and twentieth-century facades.\n\nThere is also a story of faith. An event considered miraculous gave rise to a popular devotion. It is that of a Christ of Patience, known as the Santo Ecce Homo del Portal.\n\nAnd commercial life goes on. There are jewelry stores and other businesses, among them a hat shop with more than a century of history. The shops preserve the purpose the arcade has had since its earliest years. If you walked along [Madero Street](cdmx_17_calle_madero) on the first day, here you close the circle: that street of silversmiths and this arcade of merchants were, centuries ago, part of one and the same world of shops around the plaza."
+    },
+    "retos_observacion": {
+      "hash": "f6dfc3ff1878c252",
+      "texto": [
+        "Walk under the arcade and notice how the roof protects you from the sun and the rain, just as it did the merchants",
+        "Look for the contrast between the reddish tezontle and the gray quarry stone on the facades",
+        "Find where the arcade ends beside Dieciséis de Septiembre Avenue"
+      ]
+    },
+    "especificaciones": {
+      "hash": "13c4735567aa84c1",
+      "texto": {
+        "Period": "1524 ordinance, arcades built 1527 to 1529",
+        "Initial builder": "Melchor Dávila, 1527",
+        "Current facades": "rebuilt in the 1950s, neocolonial style",
+        "Former name of one section": "Portal de Agustinos, since 1673",
+        "Location": "west side of the Zócalo, as far as 16 de Septiembre Avenue"
+      }
+    },
+    "faq_mito": {
+      "hash": "57dd0762d4837353",
+      "texto": {
+        "pregunta": "Myth: These arches are the same ones that were built in the 16th century.",
+        "respuesta": "Reality: The portal was rebuilt several times; there were partial demolitions in 1895, the opening of Plateros Street divided it in the 19th century, and the current facades date from the 1950s."
+      }
+    }
+  }
+}

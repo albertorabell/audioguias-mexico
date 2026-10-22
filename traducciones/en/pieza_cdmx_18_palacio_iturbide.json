@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_18_palacio_iturbide",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ca786e6bd144c4fd",
+      "texto": "Iturbide Palace: An Emperor’s House"
+    },
+    "frase_gancho": {
+      "hash": "847666b7b8341bdd",
+      "texto": "Agustín de Iturbide, emperor of the First Mexican Empire, lived in this palace for about a year and a half."
+    },
+    "puente_narrativo": {
+      "hash": "a99a21cf3ca279e8",
+      "texto": "Continue along Madero toward the Zócalo until the corner with Isabel la Católica, where the church of [La Profesa](cdmx_19_la_profesa) stands."
+    },
+    "como_llegar": {
+      "hash": "ca8e83faa3ac4dc9",
+      "texto": "Continue along Madero to number seventeen, where the [Iturbide Palace](cdmx_18_palacio_iturbide) awaits you."
+    },
+    "guion_corto": {
+      "hash": "ef3728bf7bdcf13e",
+      "texto": "This palace was built between seventeen seventy-nine and seventeen eighty-five. Its name came more than three decades later. It was designed by the architect Francisco Antonio Guerrero y Torres for a noble family, and finished by his brother-in-law, Agustín Durán. The façade combines reddish tezontle with pale quarry stone, and its balconies rest on small atlantes. Agustín de Iturbide lived here for about a year and a half, between eighteen twenty-one and eighteen twenty-three, when he was proclaimed emperor. Later it became a school, a hotel and, since nineteen seventy-two, the home of Fomento Cultural Banamex. Look at the balconies and find the figures that hold them up."
+    },
+    "guion_largo": {
+      "hash": "c21d7d6794bfeb44",
+      "texto": "This palace was built in the last stage of the viceroyalty, between seventeen seventy-nine and seventeen eighty-five. It was commissioned by Don Miguel de Berrio y Zaldívar, who held two titles: Count of San Mateo de Valparaíso and Marquis of Jaral de Berrio. It was conceived as a wedding gift for his daughter, María Ana de Berrio, who married Pedro Moncada. That is why it is sometimes called the Moncada Palace.\n\nThe architect Francisco Antonio Guerrero y Torres drew up the project, but he left the work. Before that, some arches and the vault of the entrance hall had collapsed. It was finished by his brother-in-law, Agustín Durán, in seventeen eighty-five. Today the INAH considers it one of the most outstanding examples of eighteenth-century viceregal architecture.\n\nThe façade tells its style. It combines the Baroque with local materials, such as tezontle, a reddish volcanic stone, and chiluca stone. It has a gallery of five arches, balconies held up by small atlantes, and a patio of very slender columns.\n\nThe current name comes from its most famous guest. Agustín de Iturbide had entered the capital at the head of the Army of the Three Guarantees on the twenty-seventh of September, eighteen twenty-one. On the night of the eighteenth of May, eighteen twenty-two, civilians and soldiers proclaimed him emperor, spurred on by Pío Marcha. The next day, Congress validated the proclamation. Iturbide was crowned in the Cathedral on the twenty-first of July of that year.\n\nIturbide and his wife, Ana María, lived first in this palace, on what was then San Francisco Street. Later they moved to the old palace of the viceroys, today the National Palace. Iturbide abdicated in March of eighteen twenty-three. Many people believe he was crowned here, but that was not the case. He lived here. The proclamation took place at night, Congress validated it, and the crown was placed on his head in the Cathedral.\n\nAfter the imperial period, the building had other uses. It housed government offices, a school and a hotel. In the mid-sixties of the twentieth century it was bought by the National Bank of Mexico. In nineteen seventy-two it became the home of Fomento Cultural Banamex. After a restoration, it reopened in two thousand four as a cultural center, the Banamex Cultural Palace.\n\nToday it is a cultural center with changing programming. The building can be appreciated well from the street: the main doorway, the balconies and the colors of the stone. If you decide to go in, check the current hours and conditions.\n\nThe palace connects with other stops. Iturbide arrived in the city along this very street, at the head of his army. A little farther along is La Profesa, the church where a disputed tradition places the plans that are said to have set Independence on its course. And in the Zócalo, the [Cathedral](cdmx_27_catedral) was the setting for the coronation."
+    },
+    "retos_observacion": {
+      "hash": "4286068be8ba568b",
+      "texto": [
+        "Look for the small figures that hold up the balconies, the atlantes",
+        "Compare the dark red of the volcanic stone with the pale quarry stone of the frames",
+        "Find the main doorway and count the arches of the gallery on the upper level"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8fc400be2bd67236",
+      "texto": {
+        "Period": "Built between 1779 and 1785",
+        "Author": "Francisco Antonio Guerrero y Torres; finished by Agustín Durán",
+        "Style": "Novohispanic Baroque, with tezontle and quarry stone",
+        "Location": "17 Francisco I. Madero Ave., Historic Center",
+        "Key fact": "Residence of Agustín de Iturbide between 1821 and 1823",
+        "Current use": "Banamex Cultural Palace, of Fomento Cultural Banamex"
+      }
+    },
+    "faq_mito": {
+      "hash": "79e8f0e1a3505899",
+      "texto": {
+        "pregunta": "Myth: Agustín de Iturbide was crowned emperor in this palace.",
+        "respuesta": "Reality: Iturbide lived here, but he was proclaimed on the night of the eighteenth of May, eighteen twenty-two, Congress validated it the next day, and the coronation took place on the twenty-first of July in the Metropolitan Cathedral."
+      }
+    }
+  }
+}

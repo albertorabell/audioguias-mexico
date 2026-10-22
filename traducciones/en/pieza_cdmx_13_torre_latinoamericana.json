@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_13_torre_latinoamericana",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "53dc25c0e946d745",
+      "texto": "Torre Latinoamericana, la Latino"
+    },
+    "frase_gancho": {
+      "hash": "d2e0d28495fc0c09",
+      "texto": "A steel tower raised on the soft ground of the ancient lake, still standing after three major earthquakes."
+    },
+    "puente_narrativo": {
+      "hash": "45da8f48c482ce6e",
+      "texto": "Continue along Madero Street to the east, just a few steps, to the Casa de los Azulejos."
+    },
+    "como_llegar": {
+      "hash": "4062fe95af090198",
+      "texto": "Continue along Eje Central toward Madero Street, where the Torre Latinoamericana rises over the corner."
+    },
+    "guion_corto": {
+      "hash": "f64660ee460bca30",
+      "texto": "Three hundred sixty-one. That is the number of concrete piles that hold up the Torre Latinoamericana. They reach a layer of hard sand, thirty-three meters deep. Here the ground is that of the ancient lake, soft and shifting. The tower opened on April thirtieth, nineteen fifty-six, with a steel structure. Engineer Leonardo Zeevaert and architect Augusto H. Álvarez took part in the project. Its design took the earthquake of nineteen eleven as a reference. In nineteen fifty-seven a strong tremor put it to the test. Then came those of nineteen eighty-five and two thousand seventeen."
+    },
+    "guion_largo": {
+      "hash": "728ec7a3ddb91dcc",
+      "texto": "The story of the Latino begins more than twenty-five years before it opened. In nineteen thirty the company La Latinoamericana de Seguros acquired this plot, at the corner of Madero and San Juan de Letrán. Part of it had belonged to the convent of San Francisco, which you will soon come to know, and before that to Moctezuma’s menagerie. This ground has kept more than one story. Construction began in nineteen forty-eight and continued until nineteen fifty-six.\n\nThe inauguration was on April thirtieth of that year, the same year in which the company, founded in nineteen oh six, turned fifty. The tower is more than one hundred eighty meters tall and has forty-four floors. For years it was the tallest building in the city.\n\nThe great difficulty was the ground. The center of the city rests on the soft terrain of the ancient lake. In nineteen forty-nine, studies of the subsoil were carried out. Afterward, three hundred sixty-one concrete piles were driven down until they reached the hard sand, thirty-three meters deep. On top of them a foundation slab was built, at a depth of thirteen and a half meters. Above it rose a steel structure with concrete slabs. Building so high on ground like this demanded a great deal of study before the first beam was set in place, and that preparation explains much of its fame.\n\nEngineer Leonardo Zeevaert was key to that design, and his brother Adolfo directed the project. The architects Augusto H. Álvarez and Alfonso González Paullada took part in the design of the building. The reference was the magnitude seven point one earthquake of nineteen eleven, the most recent of the strong ones known at the time.\n\nThe test came soon. On July twenty-eighth, nineteen fifty-seven, one year after the opening, an earthquake of nearly magnitude seven point nine shook the capital. The tower remained standing, while other buildings in the city suffered damage. In the lobby, a plaque recalls the award that the American Institute of Steel Construction gave it for withstanding the tremors.\n\nThen came September nineteenth, nineteen eighty-five, with enormous damage in the center of the city. The tower remained standing. And again in two thousand seventeen, another earthquake of magnitude seven point one.\n\nThe Latino also helps us understand the city. Today it holds offices, museums, and a paid observation deck at the top. If you decide to go up, check the current hours. From this corner you can look at it without paying.\n\nThink about its relationship with La Nacional, which you have just seen. Twenty-four years separate the two buildings. Between them lies part of the history of skyscrapers in the capital. La Nacional announced the change, and the Latino made it a symbol of the city."
+    },
+    "retos_observacion": {
+      "hash": "b9fbea154c1aadbf",
+      "texto": [
+        "Look up and find the antennas that crown the tower",
+        "Compare its height with that of the neighboring buildings on Madero Street",
+        "Look toward La Nacional, at the corner of Avenida Juárez, and compare the two heights"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d754fb04810b0883",
+      "texto": {
+        "Época": "Built from 1948 to 1956; inaugurated on April 30, 1956",
+        "Ingeniería": "Leonardo Zeevaert",
+        "Arquitectura": "Augusto H. Álvarez",
+        "Estructura": "Steel frame and 361 concrete piles",
+        "Ubicación": "Eje Central Lázaro Cárdenas at the corner of Francisco I. Madero",
+        "Dato clave": "Withstood the earthquakes of 1957, 1985, and 2017"
+      }
+    },
+    "faq_mito": {
+      "hash": "29467f101fcf7b62",
+      "texto": {
+        "pregunta": "Myth: The Torre Latinoamericana was the first skyscraper in Mexico City.",
+        "respuesta": "Reality: La Nacional, completed in 1932, was already considered a skyscraper in its day; the Latino was, for years, the tallest building."
+      }
+    }
+  }
+}

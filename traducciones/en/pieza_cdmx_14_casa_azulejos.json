@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_14_casa_azulejos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4b32fbec7de191fb",
+      "texto": "House of Tiles: The Palace That Dressed in Puebla"
+    },
+    "frase_gancho": {
+      "hash": "039046f637e182cf",
+      "texto": "A viceregal house clad in tiles from Puebla, which has been a palace of counts, an elite club, and a restaurant."
+    },
+    "puente_narrativo": {
+      "hash": "babe28bff7205673",
+      "texto": "Take the Callejón de la Condesa, which runs alongside the house, to Cinco de Mayo Avenue; just steps from Eje Central, the [Bank of Mexico Building](cdmx_15_banco_mexico) awaits you."
+    },
+    "como_llegar": {
+      "hash": "45da8f48c482ce6e",
+      "texto": "Continue along Madero Street heading east, just a few steps, to the House of Tiles."
+    },
+    "guion_corto": {
+      "hash": "051b7056c66cc052",
+      "texto": "What is a house covered in Puebla ceramic tiles doing in the middle of Madero Street? This is the House of Tiles, the former palace of the Counts of Valle de Orizaba. Its walls are dressed in blue and white tiles from Puebla, a fashion that spread across New Spain during the eighteenth century. Over the years it became an elite club and the headquarters of the Casa del Obrero Mundial. In the late 1910s, the Sanborn brothers opened their restaurant here. You can enjoy the entire facade from the street, without paying anything. Run your eyes over it from bottom to top and notice how the blue and white cover almost the whole wall."
+    },
+    "guion_largo": {
+      "hash": "598ba0a7be5eb6d3",
+      "texto": "This house has had so many lives that it is hard to decide which one to begin with. Let’s start with the oldest. In the sixteenth century, the site held two houses separated by an alley. In time, the property passed to the Counts of Valle de Orizaba, a noble family of New Spain. The neighboring alley is still called Callejón de la Condesa, which is why this building is also known as the palace of the counts. That alley connects Madero with Cinco de Mayo.\n\nThe name comes from its facade. The blue and white tiles came from Puebla, a city famous for its ceramics. Around the early eighteenth century, tiles became a dominant fashion in New Spain. They covered the walls of churches and houses, and this palace is one of the most frequently cited examples. Here the blue of Puebla dresses an entire palace, and that is why it is also called the Blue Palace.\n\nIn 1904, when Cinco de Mayo Avenue was widened, a new facade was built facing that street. It is a reminder that the Historic Center was never standing still. The building had steam baths, housed the Jockey Club, an exclusive club of the capital’s elite, and was the headquarters of the Casa del Obrero Mundial, a workers’ organization. Few buildings pass from nobility to the elite and from there to the labor movement.\n\nThen came the brothers Walter and Frank Sanborn, originally from California. They had already opened a drugstore with a soda fountain on another street in the Center, and a few years later they expanded into this house, in the late 1910s. The remodeling lasted two years and included a stained-glass roof over the courtyard, which became a dining room. That courtyard has high galleries on slender columns, a Baroque fountain, and a mural of peacocks. On the staircase, a tile frieze has been preserved, like an echo of the facade.\n\nInside there is also a work of interest to anyone who loves muralism. In 1925, José Clemente Orozco painted the mural Omnisciencia here, on the restaurant’s staircase. It is one of the most outstanding pieces of the place.\n\nTo see the courtyard, the staircase, and the mural, you would have to go into the restaurant, a business open to the public. It is not necessary for this stop. The restaurant opens every day from very early until the small hours, so you can come back whenever you want to sit down for a while. The facade, which is the most celebrated part, can be seen in full from the street. Take a moment to look at the two faces of the corner, the one on Madero and the one on the alley, and notice how the Puebla ceramic wraps around the building.\n\nVery close by, the [Torre Latinoamericana](cdmx_13_torre_latinoamericana) comes into view, speaking of the twentieth century. This palace, by contrast, keeps the memory of the viceregal city. At the next stop we move from tile to marble, in the building where the story of money is told today."
+    },
+    "retos_observacion": {
+      "hash": "77f7f626e07537c3",
+      "texto": [
+        "Count the shades you see in the facade’s tiles and notice how much of the wall they cover",
+        "Find the Callejón de la Condesa, which runs alongside the house",
+        "Look for the silhouette of the Torre Latinoamericana and compare it with this low-rise house"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1d87d5f8738b9a35",
+      "texto": {
+        "Era": "Viceregal palace with Puebla tiles; new facade facing Cinco de Mayo in 1904",
+        "Historical owners": "Counts of Valle de Orizaba",
+        "Style": "New Spanish Baroque with tiles from Puebla",
+        "Location": "Av. Francisco I. Madero 4, next to Callejón de la Condesa",
+        "Key fact": "Mural Omnisciencia by José Clemente Orozco, 1925"
+      }
+    },
+    "faq_mito": {
+      "hash": "fb47065c967cf326",
+      "texto": {
+        "pregunta": "Myth: A count warned his spendthrift son that he would never get far or build a house of tiles, and the young man covered the facade with tiles to prove him wrong.",
+        "respuesta": "Reality: It is a popular legend, repeated in newspaper articles, with no document to support it. What is documented is that the palace belonged to the Counts of Valle de Orizaba and that its tiles come from Puebla."
+      }
+    }
+  }
+}

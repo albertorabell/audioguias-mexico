@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_21_dulceria_celaya",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "11e1e60aed5d27a7",
+      "texto": "Dulcería de Celaya: Sweets Since Eighteen Seventy-Four"
+    },
+    "frase_gancho": {
+      "hash": "35e03e2b5ec8a1fe",
+      "texto": "Why does a candy shop in the capital carry the name of a city in Guanajuato? The answer lies in the cajeta."
+    },
+    "puente_narrativo": {
+      "hash": "c8ebf60ba9497789",
+      "texto": "Continue toward Tacuba Street and look, next to its intersection with Isabel la Católica, for the café that opened in nineteen twelve."
+    },
+    "como_llegar": {
+      "hash": "8fd51d63437bdc53",
+      "texto": "Walk one block up Isabel la Católica to Cinco de Mayo Avenue, turn west, and look, toward Motolinia Street, for a candy shop with more than a century of history."
+    },
+    "guion_corto": {
+      "hash": "7ec0e7f88625e18a",
+      "texto": "Why is a candy shop in the capital named after a city in Guanajuato? Because Celaya is famous for its sweets, above all its cajeta, and the Guízar family wanted to pay tribute to that city. The shop opened in eighteen seventy-four, on the old Plateros Street, today Madero. Around the year nineteen hundred it moved to Cinco de Mayo. Here, a plaque from the city government says something precise. The shop's marquee is the oldest one that exists in the city. Look for that sign above the entrance, and notice that it speaks of the marquee, not of the sweets."
+    },
+    "guion_largo": {
+      "hash": "1b12c53aec4f474d",
+      "texto": "This candy shop began with a question asked by merchants: where was the best cajeta in the country? The history of the house says that the Guízar family searched for it and found it in Celaya, Guanajuato. That is why the shop, opened in eighteen seventy-four, carries the name of that city.\n\nIts first address was on the old Plateros Street, today Madero, the very street you have just walked along. It operated there for about twenty-six years. Around the year nineteen hundred it moved to this location on Cinco de Mayo Avenue, where it still stands. That was when this street was being developed, at the beginning of the twentieth century. By the time the Casa Boker opened, which you will see farther ahead, the shop was already more than two decades old.\n\nThe sweets have a history of their own. Many recipes come from the confectionery of the convents of New Spain. The nuns made sweets that confectioners went on preserving and passing down from generation to generation. Production is still done in the traditional way. In the display cases there are jamoncillos, meringues, cocadas, nougats, pepitorias, walnut princes, suspiros and candied fruits. It is a way of seeing how convent cooking ended up in the everyday life of the city.\n\nNow, a detail you can check with your own eyes. In the shop there is a plaque placed by the Government of Mexico City. It says, word for word, that the marquee of this shop, founded in eighteen seventy-four, is the oldest one that exists in the city. Notice the precision. The plaque speaks of the marquee, that element that covers the entrance and carries the sign. It does not claim that this is the oldest business in the capital. It is a good example of why it pays to read plaques carefully.\n\nThe interior decoration preserves the air of the Porfirian era. The display cases, the decoration and the sign on the facade keep the look of the founders' times. You can peek in from the entrance; going in or buying something is a personal decision and is not part of the tour.\n\nThe house also boasts that it has remained open since its founding, even during the Revolution. It is a family tradition that today has reached its fifth generation.\n\nThis stop connects with others of the day. Madero Street, where the business was born, is the one you have just walked. The Café de Tacuba, your next stop, is another example of a business that has passed one hundred years. And the Casa Boker, farther ahead, tells the other side of Porfirian commerce, that of hardware and imports.\n\nBefore going on, look up. On these streets, the upper floors of the buildings often preserve details that the signs below hide. A candy shop like this one is a reminder that the Historic Center holds not only churches and palaces. It also holds trades and recipes that are inherited from one family to the next."
+    },
+    "retos_observacion": {
+      "hash": "9b09622de6f93ea0",
+      "texto": [
+        "Find the city government plaque that speaks of the oldest marquee",
+        "Look for the sign and the marquee above the entrance and compare them with the neighboring shops",
+        "Look up at the upper floors of the building and compare its facade with those of the shops across the street"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3007e5278e97eb4",
+      "texto": {
+        "Foundation": "1874",
+        "Founders": "Guízar family",
+        "First location": "Plateros Street, today Madero; since around 1900 on Cinco de Mayo",
+        "Location": "Avenida Cinco de Mayo 39, Historic Center",
+        "City government plaque": "the marquee is the oldest one that exists in the city",
+        "Key fact": "the name pays tribute to Celaya, Guanajuato, for its cajeta"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e498f48c4eda66f",
+      "texto": {
+        "pregunta": "Myth: The Dulcería de Celaya is officially the oldest candy shop in the city.",
+        "respuesta": "Reality: The shop’s plaque claims something more limited: that its marquee, from a shop founded in eighteen seventy-four, is the oldest one that exists in the city. The plaque does not prove that it is the oldest business."
+      }
+    }
+  }
+}

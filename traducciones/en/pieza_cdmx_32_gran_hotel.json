@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_32_gran_hotel",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0bcdd469b1c4920f",
+      "texto": "Gran Hotel Ciudad de México: From French Department Store to Hotel with a Stained-Glass Ceiling"
+    },
+    "frase_gancho": {
+      "hash": "82524e4c34f396b2",
+      "texto": "Before it welcomed guests, this building sold hats, fabrics, and suits imported from Europe."
+    },
+    "puente_narrativo": {
+      "hash": "eca0b029f636493b",
+      "texto": "Head back toward the plaza and continue to its northwest corner, where Monte de Piedad Street runs alongside the Cathedral."
+    },
+    "como_llegar": {
+      "hash": "0a260dfda73070b3",
+      "texto": "Keep walking along the sidewalk, under the arches, until you reach Dieciséis de Septiembre Avenue, where the Gran Hotel stands."
+    },
+    "guion_corto": {
+      "hash": "0bd8f6307805ac52",
+      "texto": "Today it is a hotel, but it was born as a department store. It opened in eighteen ninety-nine under the name Centro Mercantil, and President Porfirio Díaz presided over the ceremony. A French immigrant, Sebastien Robert, had it built to sell clothing, fabrics, and hats brought from Europe. It operated as a store for several decades. In nineteen sixty-eight it opened as a hotel, in time for the visitors to the Olympic Games. Its jewel is inside: a ceiling of colored glass in the lobby, attributed to the French artist Jacques Gruber. From the street you can see the façade, along Dieciséis de Septiembre Avenue."
+    },
+    "guion_largo": {
+      "hash": "145081a88cad08d3",
+      "texto": "Department stores arrived in the capital in the days of Porfirio Díaz, and this was one of the first. It was called El Centro Mercantil and opened its doors in the last year of the nineteenth century, with President Díaz in charge of the inauguration. It sold merchandise imported from Europe. The construction work took several years.\n\nIts grand original staircase was demolished in the nineteen sixties. Of the original ensemble, the stained-glass ceiling and the wrought-iron elevators stand out.\n\nThe stained-glass ceiling is what made the building famous. It is a canopy of colored glass over the lobby, in the Art Nouveau style, and it is attributed to Jacques Gruber, an artist from France. Gruber was a decorator and a painter on glass, and he was part of the governing committee of the School of Nancy from its creation, in nineteen oh one. He also made the dome of the Galeries Lafayette department store in Paris, in nineteen eleven. That is why the stained glass in the lobby is attributed to him; it was finished in the early twentieth century, when the building was already operating as a store. If the lobby is open to the public, it is worth pausing for a few minutes and noticing how the light passes through the glass and changes the colors throughout the day.\n\nThe store stopped operating in nineteen fifty-eight. Ten years later, the building opened as a hotel. Its guests were those arriving for the Olympic Games in Mexico. That same year, this plaza witnessed the events of the student movement that we tell about when we discuss the [memory of the Zócalo](cdmx_26_zocalo_memoria). Between two thousand three and two thousand five, the building was remodeled and took the name Gran Hotel Ciudad de México.\n\nImagine the lobby in the days of the store: customers coming in to buy fabrics, hats, and suits that arrived from Europe, beneath a colored light that fell from above. It was a city that looked across the ocean to get dressed and to shop.\n\nOutside, the style is eclectic, and it is inside that Art Nouveau stands out. Now take a calm look at the façade and the entrance doors. The lobby is for hotel use, so if you want to see it, respect the rules of the place and check what is open. From the street, you already have the essentials: a building that tells the story of the modernity of the Porfiriato, trade with Europe, and the change of use from one century to the next.\n\nTo close, walk a few steps toward the arcade of the Portal de Mercaderes and compare: there, the commerce of the viceregal centuries, and here, that of Porfirian modernity. One last detail: the hats, fabrics, and suits imported by the original store speak of a city that bought European fashion in the late nineteenth century. Today those goods are gone, but the building preserves the trace of that commerce."
+    },
+    "retos_observacion": {
+      "hash": "f240aa2cc99db008",
+      "texto": [
+        "Count the floors of the building from the sidewalk",
+        "Find the name of the hotel above the entrance",
+        "Compare its façade with the arcade of the Portal de Mercaderes, which you have just walked through: which eras can you tell apart?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e819d6b08753344a",
+      "texto": {
+        "Era": "Centro Mercantil opened in 1899, hotel since 1968",
+        "Founder": "Sebastien Robert, French immigrant",
+        "Style": "eclectic façade, Art Nouveau interior",
+        "Stained-glass ceiling": "attributed to Jacques Gruber",
+        "Location": "16 de Septiembre Avenue 82, southwest corner of the Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "cf16c18cfa82d9ac",
+      "texto": {
+        "pregunta": "Myth: This building has always been a hotel.",
+        "respuesta": "Reality: It was born in 1899 as a department store, the Centro Mercantil; the store closed in 1958 and it opened as a hotel in 1968."
+      }
+    }
+  }
+}

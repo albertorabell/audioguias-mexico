@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_08_museo_telegrafo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d2587d2a9b151fa5",
+      "texto": "Telegraph Museum: When Messages Traveled by Wire"
+    },
+    "frase_gancho": {
+      "hash": "3e0b1ec490b697f2",
+      "texto": "In eighteen fifty-one, a cable linked Mexico City with a town in Puebla called Nopalucan."
+    },
+    "puente_narrativo": {
+      "hash": "5c95c4e5ac54d72c",
+      "texto": "Walk toward Eje Central Lázaro Cárdenas and follow it toward Avenida Juárez, where the La Nacional building awaits you."
+    },
+    "como_llegar": {
+      "hash": "845282a5c8dd1b21",
+      "texto": "The next museum shares a building with this one: the Telegraph Museum occupies a section of the former Palacio de Comunicaciones."
+    },
+    "guion_corto": {
+      "hash": "5262ebb3f084ba16",
+      "texto": "Nopalucan, a town in Puebla, was the destination of Mexico’s first telegraph line. In eighteen forty-nine, Juan de la Granja, a merchant and diplomat of Spanish origin, obtained the concession to install the telegraph. In eighteen fifty-one the line was inaugurated. More than a century later, in nineteen ninety-two, Morse code was officially discontinued in the country’s telegraph system. That story, of messages crossing the country by wire, is the subject of the Telegraph Museum. It operates in one wing of the building constructed by the Italian architect Silvio Contri for the Secretaría de Comunicaciones y Obras Públicas."
+    },
+    "guion_largo": {
+      "hash": "19ca01b108cd602a",
+      "texto": "This museum tells the story of telecommunications in Mexico, and to understand it we have to travel back to eighteen forty-four. On May twenty-fourth of that year, Samuel Morse sent the first public telegraph message in the United States, from Washington to Baltimore. It was a phrase from the Bible, “What hath God wrought?”, suggested by Annie Ellsworth, the young daughter of a friend of his.\n\nThe principle of the telegraph was simple. An operator opened and closed an electrical circuit, and short and long pulses arrived at the other end of the wire. Each letter had its own combination of dots and dashes, and that combination is Morse code. Thanks to it, a message could cross a country without anyone traveling with it.\n\nMexico was not long in joining in. Juan de la Granja, a merchant and diplomat of Spanish origin, lived in the United States and was Mexico’s consul in New York. He returned to the country in eighteen forty-six. In eighteen forty-nine he obtained the concession to introduce the electromagnetic telegraph, and in eighteen fifty-one the country’s first telegraph line was inaugurated, between Mexico City and the town of Nopalucan, in Puebla. De la Granja died in eighteen fifty-three. After his death, the town came to be called Nopalucan de la Granja in his honor.\n\nThe network grew over the years. In eighteen sixty-seven, President Juárez decreed the federalization of the telegraphs that operated under concessions held by private businessmen. In other words, the lines passed into the hands of the federal government.\n\nThe cable also became a satellite. In nineteen sixty-eight the Tulancingo earth station went into service, broadcasting the Mexico Olympic Games to other countries. That leap, from cable to satellite, is the span of time covered by the subject of this museum.\n\nThe end of Morse code came almost at the close of the twentieth century. In nineteen ninety-two, the government’s telegraph equipment, which still used it, was dismantled. More than one hundred forty years passed between the first line and that last day of Morse code.\n\nThe museum occupies one wing of a building that the Italian architect Silvio Contri constructed between nineteen oh four and nineteen eleven for the Secretaría de Comunicaciones y Obras Públicas. The complete history of that building was just told by the stop at the Museo Nacional de Arte. Here it is enough to remember that a few minutes ago you passed in front of the Palacio Postal, and that both were born in the final years of the Porfiriato for state institutions devoted to communications.\n\nAdmission to the museum is free, although it is wise to check the current hours before coming. It shares the complex with the [Museo Nacional de Arte](cdmx_10_munal), which you have just seen. If you decide to go in, the museum tells you how the way of sending a message changed. And if you prefer to keep walking, the façade already speaks of that era."
+    },
+    "retos_observacion": {
+      "hash": "c4aa73f8a8172ef4",
+      "texto": [
+        "Scan the façade with your eyes and notice the variety of its ornaments, because it mixes elements from several older styles",
+        "Count how many floors Contri’s building has from the street",
+        "Look toward the neighboring plaza: the Caballito is there, just steps from this building"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b1831d95078a8859",
+      "texto": {
+        "Period": "building constructed 1904 to 1911; museum open since 2006",
+        "Architect": "Silvio Contri",
+        "Style": "eclectic, with elements of several older styles",
+        "Location": "Tacuba 8, Historic Center",
+        "Theme": "history of telecommunications in Mexico"
+      }
+    },
+    "faq_mito": {
+      "hash": "361b901dade8b43e",
+      "texto": {
+        "pregunta": "Myth: The telegraph came to Mexico with Porfirio Díaz.",
+        "respuesta": "Reality: The concession was granted in 1849 and the first line was inaugurated in 1851, decades before Díaz governed."
+      }
+    }
+  }
+}

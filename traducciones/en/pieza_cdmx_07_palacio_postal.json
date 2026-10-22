@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_07_palacio_postal",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6db03b79813513b9",
+      "texto": "Palacio Postal: A Post Office Palace Still in Service"
+    },
+    "frase_gancho": {
+      "hash": "1cd54201b5afb1ad",
+      "texto": "It is an eclectic palace inaugurated in nineteen oh seven that still works as a post office today."
+    },
+    "puente_narrativo": {
+      "hash": "c97784ee341518e6",
+      "texto": "Continue along Tacuba Street, just a few steps toward the neighboring plaza, where you will find the equestrian sculpture known as the Caballito."
+    },
+    "como_llegar": {
+      "hash": "ed3dc04e2d81cc69",
+      "texto": "Head back through the Alameda toward Eje Central and continue toward Tacuba Street. The Palacio Postal awaits you just a few steps away."
+    },
+    "guion_corto": {
+      "hash": "2719365080488442",
+      "texto": "Is this palace still working as a post office? Yes. This is the Palacio Postal, the fifth building to house the postal service in Mexico City. It was inaugurated on February seventeenth, nineteen oh seven. It was designed by the Italian architect Adamo Boari, the same man behind Bellas Artes, and the engineer Gonzalo Garita was in charge of the structure. Unlike its famous neighbor, this palace was finished in five years. Its exterior blends Venetian Gothic, Elizabethan, and Plateresque styles, with a quarry stone facade. The ironwork and the bronzes were made in Florence, and its structure is a steel frame. More than a century later, the building still provides postal service."
+    },
+    "guion_largo": {
+      "hash": "81061dc7f7420f6b",
+      "texto": "The site where you are standing has an earlier history. Around seventeen fifty, the Franciscans founded the Hospital de Terceros here, on San Andrés Street, today Tacuba. That hospital was demolished to make way for the new palace.\n\nPorfirio Díaz hired the Italian architect Adamo Boari, the same man who was already working on the Bellas Artes project. Alongside him was Gonzalo Garita, a Mexican military engineer who was in charge of the foundations and the structure. Together they introduced to Mexico the system known as the Chicago system, a combination of steel and concrete. Garita also built other buildings in the city, such as El Centro Mercantil and La Mutua. Construction began in nineteen oh two, and the palace was inaugurated on February seventeenth, nineteen oh seven.\n\nThe structure is a frame of steel columns and beams, which made thinner walls possible. The foundation was built with steel joists over a reinforced concrete slab.\n\nThe style is eclectic. The exterior blends Venetian Gothic with the Elizabethan style, and there are also traces of the Plateresque. The facade is made of quarry stone. The main staircase, the railings, and the decorative bronzes were made at the Pignone foundry in Florence, Italy. At the top there is a clock imported from Germany, which was assembled in Mexico with pulleys and hydraulic and electrical systems. Inside, some halls have frescoes by Bartolomé Gallotti on twenty-four-karat gold bases. Their themes relate to written communication and the sending of messages.\n\nA curious fact: the Palacio Postal and Bellas Artes share creators, but had different fates. While Bellas Artes took thirty years to finish, this palace was completed in five. And it stands without showing any sinking, even though Boari and Garita built it before the theater.\n\nToday the building still provides postal service. On its second floor there is a permanent exhibition on postal culture, with an interactive philately hall, philately being the study of stamps. The floors and the landings of the staircases combine marble with ironwork, and stone from Mexican quarries was used in its construction. So, although it was designed by an Italian architect, it is made with materials from the country.\n\nThink, too, that for centuries the mail was the way to hear from someone far away: letters, packages, and news passed through buildings like this one. Here it still happens, just a few steps from the theater you have just left behind, the one of [Bellas Artes](cdmx_01_bellas_artes).\n\nGonzalo Garita did not only work here. He also built the Casa Boker, which you will see later on the tour, on [Madero Street](cdmx_24_casa_boker).\n\nWhen you walk away, turn around once more toward the facade. The next stop is on the same Tacuba Street. It was also born in the final years of the Porfiriato, for a state institution devoted to communications."
+    },
+    "retos_observacion": {
+      "hash": "7a5df2a76e2b01ec",
+      "texto": [
+        "Look for the clock on the building’s tower",
+        "Scan the quarry stone facade with your eyes and look for the decorative details that recall the Gothic",
+        "Notice the ironwork of the railings and balconies, and their decorative motifs"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3e28a7d5054e4a70",
+      "texto": {
+        "Period": "construction from 1902 to 1907; inaugurated on February 17, 1907",
+        "Authors": "Adamo Boari (design) and Gonzalo Garita (engineering and construction)",
+        "Style": "eclectic, with Venetian Gothic, Elizabethan, and Plateresque",
+        "Location": "Tacuba 1, corner of Eje Central Lázaro Cárdenas",
+        "Key fact": "it is the fifth building to house the post office in Mexico City and it is still in service"
+      }
+    },
+    "faq_mito": {
+      "hash": "bab6f85e92bb8b0e",
+      "texto": {
+        "pregunta": "Myth: The Palacio Postal no longer works as a post office and is now just a museum.",
+        "respuesta": "Reality: It still works as a post office and also houses a museum on its second floor."
+      }
+    }
+  }
+}

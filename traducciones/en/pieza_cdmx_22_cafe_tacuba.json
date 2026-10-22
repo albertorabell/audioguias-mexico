@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_22_cafe_tacuba",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0fe323f1aad21c77",
+      "texto": "Café de Tacuba: the Mansion and Papá Nicho’s Business"
+    },
+    "frase_gancho": {
+      "hash": "fb67ae5b4535bfed",
+      "texto": "Papá Nicho opened this café in nineteen twelve, but the mansion that houses it is centuries older than the business."
+    },
+    "puente_narrativo": {
+      "hash": "b71a8a4e38de51ed",
+      "texto": "Go back to Isabel la Católica and head south, crossing Madero, to number twenty-nine, where a Spanish club built its home in nineteen oh five."
+    },
+    "como_llegar": {
+      "hash": "c8ebf60ba9497789",
+      "texto": "Continue toward Tacuba Street and look, next to where it crosses Isabel la Católica, for the café that opened in nineteen twelve."
+    },
+    "guion_corto": {
+      "hash": "4ffd3e62d9cfc437",
+      "texto": "Papá Nicho was the nickname of Dionisio Mollinedo, a man from Tabasco who opened this place in nineteen twelve, in the midst of the Revolution. A plaque at the entrance recalls its founding and calls it one of the oldest restaurants. But the business is younger than the building. The mansion dates from the seventeenth century, and its rear section once belonged to a hospital for women. Before it was a restaurant, it operated as a dairy shop. Today it has six rooms with talavera tile and stained glass, but from the street it is enough to read the plaque and look at the façade. Here, in nineteen twenty-two, the wedding banquet of Diego Rivera and Guadalupe Marín was held."
+    },
+    "guion_largo": {
+      "hash": "681260745fcdbfa9",
+      "texto": "Let’s begin with the name. Dionisio Mollinedo, a native of Tabasco, came to the capital and opened this business in nineteen twelve. Many knew him as Papá Nicho. His wife, Josefina García, remembered as Pepita, turned into dishes the regional recipes he had been gathering in markets and evening food stalls. That couple is the origin of the house. The plaque beside the entrance sums it up: one of the oldest restaurants, founded in nineteen twelve by Dionisio Mollinedo.\n\nNow notice the difference between the business and the building. This was one of the palatial houses of the Center, built in the seventeenth century. Its rear section was part of the Hospital del Divino Salvador, a hospital for women. In other words, the café occupies a site with a long history. It did not begin with the dairy shop that operated here before the restaurant.\n\nOne thing must be made clear, because it is often confused. The café has not been operating for centuries. What is centuries old is the mansion. Mollinedo’s business opened when the Revolution was barely two years old, and it took its name from the street where it stands: Tacuba.\n\nIf you decide to go in someday, you already know that it is a restaurant and that you go in to dine. It has six rooms with talavera tile and stained glass. On the walls there are replicas of paintings that decorate Chapultepec Castle, and also a portrait of José de la Borda. All of that stays inside. From the street you have the façade, the plaque, and the story we are telling you.\n\nSome dated anecdotes accompany this house. In nineteen twenty-two, the wedding banquet of the painter Diego Rivera and Guadalupe Marín was held here. In the twenties and thirties it was a meeting place for writers, politicians, actors, and intellectuals. And on the twenty-fifth of June, nineteen thirty-six, Manlio Fabio Altamirano, governor-elect of Veracruz, was murdered here. He was having dinner with his wife. It is an episode of the political violence of those years, and here we keep to what is documented.\n\nEvery thirteenth of December, for the anniversary of the place, organ grinders sing the traditional birthday song. And it is often said that all the presidents of Mexico have eaten here, a phrase that is repeated a lot but that no one can verify.\n\nThis stop also helps you look at the street. On this very Tacuba Street were two earlier stops on your route. They are the [National Museum of Art](cdmx_10_munal) and the [Palace of Mining](cdmx_11_palacio_mineria). A café that opened in the middle of the twentieth century lives alongside buildings from earlier centuries. That mix is precisely what makes the Center special: there is not just one era, there are layers.\n\nFor the next stretch, you return to Isabel la Católica. On that street, two buildings from around nineteen hundred await you. They are the Casino Español and, after it, the Casa Boker, linked to a German family."
+    },
+    "retos_observacion": {
+      "hash": "fa220942a578f1b2",
+      "texto": [
+        "Look for the plaque beside the entrance that commemorates the founding of the café in nineteen twelve",
+        "Look at the façade of the mansion and try to imagine that it predates the business by several centuries",
+        "Read the street sign to confirm that you are on Tacuba, near the intersection with Isabel la Católica"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e977fc248bc6c134",
+      "texto": {
+        "Business founded": "1912, by Dionisio Mollinedo",
+        "Building": "seventeenth-century mansion; its rear section belonged to the Hospital del Divino Salvador",
+        "Previous use": "dairy shop",
+        "Location": "Tacuba Street 28, west of Isabel la Católica",
+        "Key fact": "wedding banquet of Diego Rivera and Guadalupe Marín in 1922",
+        "Interior": "six rooms with talavera tile and stained glass"
+      }
+    },
+    "faq_mito": {
+      "hash": "1705a6ddf279e1a0",
+      "texto": {
+        "pregunta": "Myth: Café de Tacuba has been operating as a café for several centuries.",
+        "respuesta": "Reality: The business opened in nineteen twelve, as the plaque at the site recalls; what dates from the seventeenth century is the mansion that houses it."
+      }
+    }
+  }
+}

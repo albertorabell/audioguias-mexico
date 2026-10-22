@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_42_palacio_autonomia",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "85ee471721763756",
+      "texto": "Palace of University Autonomy"
+    },
+    "frase_gancho": {
+      "hash": "0e26312021aa71d8",
+      "texto": "In this building, the autonomy of the university was declared in nineteen twenty-nine, on land that had once been a convent and a sacred Mexica space."
+    },
+    "puente_narrativo": {
+      "hash": "fb665259b4c47993",
+      "texto": "Continue to [Plaza de Santo Domingo](cdmx_43_plaza_santo_domingo), where the route carries on among arcades, temples, and schools."
+    },
+    "como_llegar": {
+      "hash": "1d56f61e478bd9c7",
+      "texto": "Walk a few steps farther along the same street to the [Palace of University Autonomy](cdmx_42_palacio_autonomia), at number two, which belonged to the same convent complex."
+    },
+    "guion_corto": {
+      "hash": "48484bc6a7821275",
+      "texto": "It looks like a school building from the early twentieth century, but it preserves remains of a seventeenth-century convent. Part of the land was once the sacred precinct of Tenochtitlan. Later, the convent of Santa Teresa la Antigua, home to the Discalced Carmelite nuns, stood here. After the Reform Laws, the land passed to the government and became a barracks and a tenement. In the Porfirian era, the current building was constructed in an eclectic style, and in nineteen ten the National Teachers' School was installed. In nineteen twenty-nine, the autonomy of the National University was declared here. Today it works as a university museum and has three archaeological windows, opened by the INAH Urban Archaeology Program."
+    },
+    "guion_largo": {
+      "hash": "3837f861d214647b",
+      "texto": "This building has three lives layered on top of one another. The oldest belongs to the Mexica city, since part of this land lay within the sacred precinct of Tenochtitlan. Today it is the Museum of University Autonomy, and its history is explored from the bottom up: first the Mexica ground, then the convent, and finally the university. After the Conquest, the lot passed to Juan Luis de Rivera, a councilman of the City Council and treasurer of the Mint. Later it became part of the convent of Santa Teresa la Antigua.\n\nThe convent was established in the early seventeenth century, and the INAH gives the date as sixteen fifteen. Discalced Carmelite nuns lived there. On today's Licenciado Verdad Street, the convent church still stands, now [Ex Teresa Arte Actual](cdmx_41_ex_teresa). During the Reform War, the Church lost the property, and the complex became a barracks and later a tenement.\n\nIn the era of Porfirio Díaz, the federal government acquired the lot to set up a teachers' training school, and the current building was raised in an eclectic style. In nineteen ten the National Teachers' School was installed, part of the National University of Mexico. That same year the National University was inaugurated, the direct predecessor of the UNAM.\n\nThen comes the episode that gives the palace its name. In May of nineteen twenty-nine, students went on strike. They were protesting changes to the exams at the School of Law and to the curriculum of the Preparatory School. Interim President Emilio Portes Gil enacted the university's Organic Law on July tenth of that year. Ignacio García Téllez was appointed rector on July eleventh. It was a student strike that ended in a law. Autonomy was declared on the second floor of this building.\n\nLater, the building housed other university schools. These included the School of University Initiation, the School of Commerce and Administration, the School of Dentistry, and the School of Nursing. Preparatory School number two also remained here until nineteen seventy-eight.\n\nBetween nineteen ninety-eight and two thousand, the INAH Urban Archaeology Program left three archaeological windows. The second and the third show remains of the former convent of Santa Teresa la Antigua. The third works as an archaeological garden. It preserves two porticoes, a staircase with tiles from the late seventeenth and early eighteenth centuries, and the remains of a circular pool.\n\nToday the building is the Museum of University Autonomy. It exhibits documents on autonomy, has a hall dedicated to Mexican dentistry, an archaeological hall, and another for temporary exhibitions. Check the current hours and guided tours before you go.\n\nHere the Historic Center becomes a lesson in layers. A sacred Mexica precinct, a Baroque convent, a Porfirian school, and an autonomous university share the same ground. Think about that sequence as you continue to [Plaza de Santo Domingo](cdmx_43_plaza_santo_domingo)."
+    },
+    "retos_observacion": {
+      "hash": "305157d87d8929e9",
+      "texto": [
+        "Look for the museum entrance, at number two on Primo de Verdad",
+        "Notice the style of the facade, from the early twentieth century, and compare it with the nearby church",
+        "Find a sign or plaque that mentions university autonomy"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0b33e89f5be0329f",
+      "texto": {
+        "Era": "17th-century convent; current building from the Porfirian era",
+        "Style": "eclectic",
+        "Current use": "Museum of University Autonomy, UNAM",
+        "Key event": "in 1929 the autonomy of the National University was declared here",
+        "Archaeological windows": "three, from the Urban Archaeology Program, between 1998 and 2000",
+        "Location": "Licenciado Primo de Verdad 2, Historic Center"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7b05104222f4b68",
+      "texto": {
+        "pregunta": "Myth: The national university was autonomous from the moment it was founded.",
+        "respuesta": "Reality: The National University was inaugurated in nineteen ten, and autonomy came in nineteen twenty-nine, when the Organic Law was enacted on July tenth, after a student strike."
+      }
+    }
+  }
+}

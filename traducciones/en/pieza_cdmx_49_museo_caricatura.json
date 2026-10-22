@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_49_museo_caricatura",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b6e30066fcb78fba",
+      "texto": "Museum of Caricature and the Former Colegio de Cristo"
+    },
+    "frase_gancho": {
+      "hash": "501fa40bb9ce114d",
+      "texto": "Inside a caricature museum stands a viceregal wall with the head of a Mexica crocodile carved in stone."
+    },
+    "puente_narrativo": {
+      "hash": "b9f1be6ccfdd69cf",
+      "texto": "Continue along Donceles toward Eje Central, to where the used bookstores of [Donceles Street](cdmx_50_donceles) begin."
+    },
+    "como_llegar": {
+      "hash": "e697dc790e84dc31",
+      "texto": "Continue a few steps along the same Donceles Street to the [Museum of Caricature](cdmx_49_museo_caricatura), in the former Colegio de Cristo."
+    },
+    "guion_corto": {
+      "hash": "f1f2c703b2befc78",
+      "texto": "A caricature museum with a Mexica crocodile inside? Almost. This building was the Colegio de Cristo, and it preserves an archaeological window with viceregal and Mexica remains. Among them is a bas-relief with the head of a Cipactli, a crocodile. It is set in a viceregal wall built with carved stones from Mexica neighborhoods. The school was founded by the will of Cristóbal de Vargas Valadez. The building was declared a historic monument in nineteen thirty-one. After the earthquakes of nineteen eighty-five it was restored. On March nineteenth, nineteen eighty-seven, the Museum of Caricature opened here, and ever since, Mexican caricature has had a home of its own in the Historic Center."
+    },
+    "guion_largo": {
+      "hash": "c10d1d93cde08102",
+      "texto": "Let's begin with the façade. It is Mexican Baroque, and it belongs to what was once the Colegio de Cristo. This school was founded by the will of Cristóbal de Vargas Valadez, who stipulated in his will that a school be established on his property. The National Institute of Anthropology and History (INAH) records that the viceroy attended its inauguration in sixteen thirty-eight, and that the school closed in seventeen seventy-four for lack of funds. The current building dates from the eighteenth century. The property was declared a historic monument on February ninth, nineteen thirty-one.\n\nThe most surprising part is inside the museum. It preserves two archaeological windows, openings that reveal remains from the different periods of the site. The Urban Archaeology Program of the Institute records a first window two meters six centimeters wide by three meters forty-five centimeters long. It shows viceregal walls, floors, and drains, and a Mexica foundation with two construction stages.\n\nThose two Mexica stages could be contemporary with stages six and seven of the [Templo Mayor](cdmx_34_templo_mayor). Those stages correspond to the years fourteen eighty-six to fifteen nineteen. You can recall that pyramid at the Templo Mayor stop. Here, in a viceregal wall, something even rarer appears. A bas-relief with the head of a Cipactli, which means crocodile in Nahuatl. The viceregal builders raised the wall with carved ashlar blocks that came from the Mexica neighborhoods. In other words, the wall reuses stones that had belonged to the Mexica city.\n\nLet's move on to the museum. After the earthquakes of nineteen eighty-five, the Mexican Society of Caricaturists needed a new place. The building was restored for exhibitions, and the museum opened on March nineteenth, nineteen eighty-seven, under the supervision of David Carrillo and Pedro Sol. There had been an earlier attempt. In nineteen sixty-two, the Journalists' Club presented an exhibition of José Guadalupe Posada.\n\nIf you decide to go in, the museum is devoted to Mexican caricature. Its permanent exhibition traces political and social caricature from the nineteenth century, with work by various authors. The pieces on display change over time, but the theme is clear. Caricature has been a way of commenting on power with humor, and sometimes with harshness. Opening hours and admission fees change, so check the current information.\n\nOne idea ties these layers together. In a single building there is room for a Mexica foundation, a viceregal school, and a caricature museum. Each era used the same ground for something different, and each left a visible mark on the walls. That is the lesson of many streets in the Center.\n\nIf you enjoy caricature, remember the [Museo del Estanquillo](cdmx_20_estanquillo), which you visited on Madero Street."
+    },
+    "retos_observacion": {
+      "hash": "928032c7386e45fb",
+      "texto": [
+        "Look for the Baroque façade of the former Colegio de Cristo on Donceles",
+        "Find number ninety-nine on the street",
+        "Compare the stone walls of this building with those of the Templo de la Enseñanza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d66cdff492ad5e6f",
+      "texto": {
+        "Era": "viceregal school; current building from the 18th century; declared a historic monument on February 9, 1931 (INAH)",
+        "Style": "Mexican Baroque",
+        "Museum": "opened on March 19, 1987",
+        "Location": "Donceles 99, Historic Center",
+        "Archaeological window": "2.06 by 3.45 meters, with viceregal remains and a Mexica foundation",
+        "Key fact": "bas-relief of a Cipactli (crocodile) in a viceregal wall"
+      }
+    },
+    "faq_mito": {
+      "hash": "dc8e28f402be3b1b",
+      "texto": {
+        "pregunta": "Myth: In the Historic Center, Mexica remains are found only at the Templo Mayor.",
+        "respuesta": "Reality: Beneath this building lie remains of a Mexica foundation from two stages and a Cipactli carved in a viceregal wall, according to the INAH Urban Archaeology Program."
+      }
+    }
+  }
+}

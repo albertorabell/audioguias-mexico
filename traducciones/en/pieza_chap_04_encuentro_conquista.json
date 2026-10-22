@@ -1,0 +1,54 @@
+{
+  "id": "chap_04_encuentro_conquista",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "478bfdd9e731deee",
+      "texto": "Two Worlds and the Tzompantli of Tecoaque"
+    },
+    "frase_gancho": {
+      "hash": "c9e86832374112c3",
+      "texto": "Twelve perforated skulls from fifteen twenty-one that confirm the harshest chronicles of the Conquest."
+    },
+    "puente_narrativo": {
+      "hash": "2b223e60afd5db89",
+      "texto": "Move on to the next hall, where the roar of war gives way to three centuries of ships laden with silver, Manila silks, and viceregal haciendas."
+    },
+    "guion_corto": {
+      "hash": "5532a0891bb67dc3",
+      "texto": "As you cross the doorway of the former Military College, you enter the first halls of the National Museum of History, devoted to the clash between two worlds that had lived apart, separated by an ocean, until the end of the fifteenth century. Among iron armor, Castilian swords, and pre-Hispanic reliefs, stop in front of the most startling display case in the hall: the tzompantli, or altar of skulls, from Tecoaque, Tlaxcala. There you will see twelve real skulls lined up, pierced at the temples in the year fifteen twenty-one: five belong to Spanish soldiers from the caravan of Juan de Yuste, and seven to Cempoalteca indigenous warriors who marched as allies of Hernán Cortés."
+    },
+    "guion_largo": {
+      "hash": "88e53afaa19ebbcd",
+      "texto": "To understand this hall, you have to look at both sides without rosy or dark legends, just as the pieces in front of you show them. On the Mesoamerican side there was no single united country, but a mosaic of autonomous lordships, or altépetl. The Mexica dominated much of the territory by force of arms, collecting tribute and capturing warriors for sacrifice, which sowed deep resentment among the subjugated peoples, who would soon ally themselves with the newcomers. From across the Atlantic came men hardened by centuries of war against Islam in the Reconquest of Granada, and survivors of a Europe battered by hunger and epidemics, where one in three children died before reaching the age of one. When, in the year ce-ácatl, fifteen nineteen, news reached Moctezuma Xocoyotzin that towers or small hills were floating on the sea, the tlatoani believed that the eight omens about the return of Quetzalcóatl were being fulfilled. But the war that broke out in fifteen twenty-one was relentless for both sides: when the Acolhua of Tecoaque captured a Spanish caravan traveling from Veracruz toward Tenochtitlan, they sacrificed the prisoners and mounted their heads on this tzompantli, discovered by archaeologists in May of nineteen ninety-three, before Cortés sent Gonzalo de Sandoval to raze the town in revenge."
+    },
+    "retos_observacion": {
+      "hash": "45271f30ff5dac4b",
+      "texto": [
+        "Approach the display case of the Tzompantli of Tecoaque and count the twelve skulls, pierced at the sides so that the wooden crossbeam could pass through them",
+        "Observe the European steel weapons, helmets, and breastplates that contrast with the Mesoamerican stone carvings",
+        "Look for the wall labels that explain the meaning of altépetl (water-hill) and the eight omens of Moctezuma"
+      ]
+    },
+    "especificaciones": {
+      "hash": "785c6f120c4eb30e",
+      "texto": {
+        "Central piece": "Tzompantli («wall of skulls») from Tecoaque (formerly Zultepec), Tlaxcala",
+        "Date of the remains": "Early 1521 (discovered in May 1993)",
+        "Composition of the find": "12 skulls (5 of Spaniards from the company of Juan de Yuste and 7 of allied Cempoalteca indigenous people)",
+        "Location": "Halls 1 and 2 (Two Isolated Continents / On the Eve of Contact), Ground Floor, MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "3e98c041d6edf348",
+      "texto": {
+        "pregunta": "Myth: In 1519 there was a single united Mexican nation, and all the indigenous peoples defended Moctezuma together against the Spanish.",
+        "respuesta": "Reality: Mesoamerica was divided into independent lordships, or altépetl. The harsh system of tribute and wars of capture imposed by the Mexica led the Cempoalteca, the Tlaxcalans, and other peoples to see in the Spanish an opportunity to free themselves from Tenochtitlan."
+      }
+    }
+  }
+}

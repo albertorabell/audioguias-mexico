@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_38_museo_shcp",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e0d2c97a3a1aca51",
+      "texto": "SHCP Art Museum: From Archbishop’s Palace to Museum"
+    },
+    "frase_gancho": {
+      "hash": "f34938ff81740ec8",
+      "texto": "It was home to archbishops, then a Treasury office, and today it safeguards art that Mexican artists handed over in exchange for taxes."
+    },
+    "puente_narrativo": {
+      "hash": "b20b057ef9097865",
+      "texto": "Continue along Moneda toward number thirteen. There, the old house where coins were minted is now the [National Museum of World Cultures](cdmx_39_culturas_mundo)."
+    },
+    "como_llegar": {
+      "hash": "4617ef355a9a3503",
+      "texto": "Continue along Moneda to number four, where a former archbishops’ palace now houses art. It is the [SHCP Art Museum](cdmx_38_museo_shcp)."
+    },
+    "guion_corto": {
+      "hash": "7619fd042d95b1f2",
+      "texto": "Artists in Mexico can pay their taxes with their own work. Some of those pieces are kept in this building on Moneda Street. It is the former Archbishop’s Palace. It was already serving as the archbishop’s seat around fifteen thirty, although the current construction is mostly from the eighteenth century. It is said that Friar Juan de Zumárraga ordered it built over a temple dedicated to Tezcatlipoca, and that he died before moving in. In the nineteenth century it was nationalized, and later it housed federal Treasury offices. Today it is a museum whose collection grew out of that payment in kind. In this way, a single building joins the power of the viceregal Church with the public accounts of modern Mexico."
+    },
+    "guion_largo": {
+      "hash": "0027404680ecd161",
+      "texto": "This façade holds two questions. The first is who lived here. The second, why there is modern art in a building of archbishops. The answer to both begins in the sixteenth century, when Friar Juan de Zumárraga, the first bishop of Mexico, looked for a place to build his residence.\n\nAround fifteen thirty the palace was already serving as the archbishop’s seat. Tradition places it over a temple dedicated to Tezcatlipoca, and Zumárraga died before moving in. In the mid-eighteenth century the building was completely rebuilt, under Archbishop Juan Antonio Vizarrón y Eguiarreta. José Miguel de Rivera Sarabia added the façade. In seventeen seventy-one, Alonso Núñez de Haro expanded the complex with an adjoining house.\n\nAbout thirty-three bishops passed through the palace. It was nationalized in eighteen fifty-nine and sold in eighteen sixty-one. One bishop lived here briefly during Maximilian’s Second Empire, but abandoned it in eighteen sixty-seven. Afterward, federal offices for accounting, treasury, pensions, and payroll were installed, along with their printing presses. The building went from the bishop’s miter to the tax window.\n\nBeneath it lies another layer. After the earthquake of nineteen eighty-five, the restoration revealed part of an ancient platform and several Mexica objects. These remains are associated with the temple of Tezcatlipoca, one of the most important in Tenochtitlan. Around nineteen ninety-four, once restored, the building was designated to house the art collection of the Ministry of Finance.\n\nNow, the second question. Mexico has a program that allows artists to pay taxes with their own works. In this way a collection was formed of painting, sculpture, printmaking, metalwork, coins, furniture, and ornamental objects. David Alfaro Siqueiros was a great champion of the program. Among the artists in the collection are Juan Correa, Rufino Tamayo, Federico Cantú, Antonio Ruiz, Adolfo Best Maugard, and Raúl Anguiano.\n\nWhoever decides to go in will find Mexican art from different eras inside a building that is also part of the visit. Here a viceregal palace, the remains of a Mexica temple, and a collection formed in the twentieth century live side by side. Francisco Toledo, Vicente Rojo, Juan Soriano, and Leonora Carrington, among others, also have works in the collection. That list shows how Mexican art and the State met in this program. Check the current hours and admission conditions before you go.\n\nFrom here, Moneda Street becomes a reading of the city. Alongside stands the [National Palace](cdmx_29_palacio_nacional), seat of the government. The Church and the mint occupied neighboring buildings, on the same block, and today both are museums. And it was Zumárraga, the same man who sought a residence here, who promoted the first printing press in the Americas, which you will see at the [House of the First Printing Press](cdmx_40_primera_imprenta). A single building changed owners and uses many times: bishops’ residence, government office, archaeological site, and museum."
+    },
+    "retos_observacion": {
+      "hash": "ff26f6f6d7df84b8",
+      "texto": [
+        "Look for number four on Moneda at the museum entrance",
+        "Notice the main doorway and the windows of the colonial façade of the former palace",
+        "Compare this building with those across the street and count how many floors each one has"
+      ]
+    },
+    "especificaciones": {
+      "hash": "854afeeb00b65a64",
+      "texto": {
+        "Period": "archbishop’s seat from around 1530; rebuilt in the mid-18th century",
+        "Architecture": "façade added by José Miguel de Rivera Sarabia",
+        "Current use": "SHCP Art Museum, with a collection formed through payment of taxes in kind",
+        "Location": "Moneda 4, Historic Center",
+        "Key fact": "the restoration after the 1985 earthquake revealed part of a Mexica platform",
+        "Museum": "opened around 1994"
+      }
+    },
+    "faq_mito": {
+      "hash": "ef67745539a33d99",
+      "texto": {
+        "pregunta": "Myth: This building preserves its sixteenth-century appearance, from the time of Zumárraga.",
+        "respuesta": "Reality: The palace was completely rebuilt in the mid-eighteenth century."
+      }
+    }
+  }
+}

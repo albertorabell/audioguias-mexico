@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_26_zocalo_memoria",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2e9bb63d71fc9543",
+      "texto": "The Zócalo as a Plaza of Memory: The Grito, Protests, and 1968"
+    },
+    "frase_gancho": {
+      "hash": "8665cc986bde78c5",
+      "texto": "This plaza has been used to celebrate, to protest, and to remember, and each generation sees it differently."
+    },
+    "puente_narrativo": {
+      "hash": "46c7aa396dbe8979",
+      "texto": "Walk toward the north side of the plaza, where the facade of the Cathedral rises, the next stop."
+    },
+    "como_llegar": {
+      "hash": "02ab666f13961fab",
+      "texto": "Walk slowly toward the center of the plaza and stay there for a moment, because recent history also passed through this place."
+    },
+    "guion_corto": {
+      "hash": "86e4f0105c2ea8ff",
+      "texto": "On the afternoon of August twenty-seventh, nineteen sixty-eight, this plaza filled with students and the people who stood with them. The bells of the Cathedral rang out. It was a rally of the student movement. In the early hours of the morning, the Army entered and cleared the Zócalo. More than a month later, on October second, the Tlatelolco massacre took place. It did not happen here, but in the Plaza de las Tres Culturas. The plaza has always been a shared stage. Every September fifteenth it fills for the Grito de Independencia, and on other dates it receives very different marches and celebrations. That is why the Zócalo is called a place of memory."
+    },
+    "guion_largo": {
+      "hash": "b82a3b2db549ac2b",
+      "texto": "The Zócalo is not just an open space. It is the place where many people gather to celebrate, to demand, and to remember, and so the memories it holds do not always agree. Here I will tell you about some of them, with documented facts and without taking sides.\n\nLet's begin with a celebration. Independence celebrations were held in enclosed spaces until eighteen eighty-six. That year it was proposed to hold them from the balcony of the National Palace. Porfirio Díaz led the ceremony. In eighteen ninety-six the Campana de Dolores arrived in the capital, and since then it has been part of the ceremony. Every September fifteenth the plaza fills for the Grito.\n\nNow, nineteen sixty-eight. It was the year of the student movement, and the Zócalo lived through two decisive days. On August twenty-seventh, a march left the National Museum of Anthropology and reached this plaza. Estimates of attendance range from about thirty thousand people to hundreds of thousands, and there is no number that everyone accepts. At the rally a red-and-black flag, a symbol of the strikes, was raised, and the bells of the Cathedral were rung in full peal. Between three thousand and five thousand students stayed to camp in the plaza.\n\nIn the early hours, already August twenty-eighth, the loudspeakers of the National Palace gave a deadline of five minutes to leave the plaza. Then the Army entered with armored vehicles and soldiers, and cleared the Zócalo. The students left along Madero Street singing the national anthem.\n\nOn September first, in his state of the union address, President Gustavo Díaz Ordaz spoke about the government's attitude. He said it had been tolerant to the point of criticizable excess. Five weeks later, on October second, took place what many people associate with that year: the Tlatelolco massacre. Here it is worth being clear. That day the rally was in Tlatelolco, not in the Zócalo. The numbers of victims are still debated. The official version spoke of thirty dead, the United States embassy reported between one hundred fifty and two hundred, and some reports go as high as three hundred fifty.\n\nThe plaza also holds the memory of other blows. The earthquake of nineteen eighty-five badly damaged the building of the City Government. Inside, steel reinforcements can still be seen.\n\nWhoever walks here today treads on a place where memories of celebrations, of mourning, and of demands are mixed together, and all of them are part of the same history of the city.\n\nAnd the plaza is still in use. It hosts concerts, fairs, rallies, and marches for very diverse causes, and so sometimes you find it with stages, fences, or platforms. Think about this as you look around: the same ground has held celebrations, strikes, parades, and silences. Remembering what happened here is not taking sides. It is understanding why each generation sees this plaza in a different way."
+    },
+    "retos_observacion": {
+      "hash": "c7d35ee73ed512b9",
+      "texto": [
+        "Find the central balcony of the National Palace, from which the Grito is given every September fifteenth",
+        "Locate, on the west side of the plaza, the entrance to Madero Street, where the students left in the early hours of August twenty-eighth",
+        "Look up at the towers of the Cathedral, where the bells that rang that afternoon were located"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0aeab27729f1a73f",
+      "texto": {
+        "Era": "nineteenth to twenty-first centuries",
+        "Place": "Plaza de la Constitución, Historic Center",
+        "Events of 1968 in the plaza": "march and rally on August 27, Army clearing on August 28",
+        "Tlatelolco": "October 2, 1968, in the Plaza de las Tres Culturas, not in the Zócalo",
+        "Tradition of the Grito": "the Campana de Dolores arrived in the capital in 1896"
+      }
+    },
+    "faq_mito": {
+      "hash": "00db5e0d722822d0",
+      "texto": {
+        "pregunta": "Myth: The massacre of October second, nineteen sixty-eight took place in the Zócalo.",
+        "respuesta": "Reality: It took place in the Plaza de las Tres Culturas, in Tlatelolco. The events in the Zócalo in 1968 were the rally on August twenty-seventh and the clearing on the twenty-eighth."
+      }
+    }
+  }
+}

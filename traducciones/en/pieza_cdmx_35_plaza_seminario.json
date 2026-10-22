@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_35_plaza_seminario",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8b4e81a9b8de5806",
+      "texto": "Plaza del Seminario, also called Plaza Manuel Gamio"
+    },
+    "frase_gancho": {
+      "hash": "c83c165e5d71a241",
+      "texto": "This plaza has two names: one recalls a seminary from the seventeenth century, and the other, the archaeologist who found a corner of the Templo Mayor here."
+    },
+    "puente_narrativo": {
+      "hash": "787fcc1b0a74619a",
+      "texto": "Continue to República de Guatemala Street, behind the Cathedral, where the [Huei Tzompantli and the Casa de las Ajaracas](cdmx_36_tzompantli_ajaracas) await you. A single street brings together a Mexica altar of skulls and a viceregal house."
+    },
+    "como_llegar": {
+      "hash": "f4c9f1fe2e908762",
+      "texto": "Walk a few steps toward the plaza that opens beside the museum entrance. This is the [Plaza del Seminario](cdmx_35_plaza_seminario), and here history peeks out onto the street."
+    },
+    "guion_corto": {
+      "hash": "7ba996aca68ed28a",
+      "texto": "Why does this plaza have two names? Officially it is Plaza Manuel Gamio. It is also known as Plaza del Seminario, after the Seminario Conciliar de San Pablo, which was built here in sixteen eighty-nine. Gamio was the archaeologist who, in nineteen thirteen, discovered a corner of the Templo Mayor here. Before that, people believed the temple lay beneath the Cathedral. The seminary was ordered demolished in eighteen sixty-one, although it did not disappear completely until nineteen twenty-eight. The plaza took on its present appearance with the archaeological zone, in nineteen seventy-eight. It was completed with a fountain that includes a model of Tenochtitlan."
+    },
+    "guion_largo": {
+      "hash": "d1ed940824c491c6",
+      "texto": "Imagine what lies beneath this plaza. You are on the eastern side of the Cathedral, across from the Plazuela del Marqués, within what was the sacred precinct of Tenochtitlan. Today the plaza serves as the entrance to the [Templo Mayor](cdmx_34_templo_mayor) museum, but before that it was a soldier's house, a university classroom, a seminary, a hotel, and even a cantina.\n\nThe official name honors Manuel Gamio, an archaeologist and anthropologist, a pioneer of anthropology in Mexico. In nineteen thirteen, Gamio discovered a corner of the Templo Mayor at this spot. Until then, people believed the temple lay beneath the Cathedral. The find showed that part of the sacred precinct was right here. Sixty-five years passed until the appearance of the Coyolxauhqui, in nineteen seventy-eight, set off the large-scale excavation.\n\nAfter the fall of Tenochtitlan, this area became part of the layout of the new city. Between fifteen twenty-one and fifteen twenty-two, on the orders of Hernán Cortés, the master builder Alonso García Bravo drew up the grid of the capital, and this plaza lies near where that first plan was made. In time, the lot became the house of a Spanish soldier named Pedro González Trujillo. It also housed the first chair of the Royal and Pontifical University, established in fifteen fifty-one.\n\nThe better-known name, Plaza del Seminario, comes from the Seminario Conciliar de San Pablo, from sixteen eighty-nine, where priests were trained. In eighteen sixty-one its demolition was ordered, although the building did not disappear entirely until nineteen twenty-eight. Afterward the land was used as a hotel and as a pharmacy. The neighboring street still keeps the name Seminario. A cantina called El Nivel also operated here, and it held license number one.\n\nBeneath the plaza, archaeology keeps finding pieces of the puzzle. In two thousand thirteen, remains were recovered of the quarters occupied by Mexica priests, near the temple of Tezcatlipoca. It is a reminder that the precinct was not only pyramids: there were also places where those who served the gods lived.\n\nThe plaza took on its present appearance when the archaeological zone was formed, in nineteen seventy-eight. It was completed at the end of that decade with a fountain that includes a model of Tenochtitlan. It helps you imagine the city that existed before the Cathedral.\n\nCount up the discoveries in this area. In seventeen ninety, the Coatlicue appeared in the main plaza and, months later, the Sun Stone. Then came nineteen thirteen, with Gamio, and nineteen seventy-eight, with the Coyolxauhqui. In two thousand six, the monolith of Tlaltecuhtli appeared. In two thousand thirteen, the priests' quarters, and in two thousand fifteen, the Huei Tzompantli. Six dates within a few blocks.\n\nIf you put it all together, four layers of time overlap here. They are the Mexica precinct, the viceregal city with its university and its seminary, the twentieth-century excavation, and the plaza of today. It is the history of the capital told in a single space. A few steps away are the [Metropolitan Cathedral](cdmx_27_catedral) and the entrance to the Templo Mayor museum."
+    },
+    "retos_observacion": {
+      "hash": "7414e76023acb886",
+      "texto": [
+        "Look for the fountain in the plaza and notice whether it includes a model of Tenochtitlan",
+        "Find the neighboring street that keeps the name Seminario",
+        "Spot the towers of the Cathedral and remember that the plaza lies on its eastern side"
+      ]
+    },
+    "especificaciones": {
+      "hash": "dc1a8143de5a5661",
+      "texto": {
+        "Official name": "Plaza Manuel Gamio",
+        "Other names": "Plaza del Seminario, Plaza del Templo Mayor",
+        "Location": "eastern side of the Cathedral, across from the Plazuela del Marqués",
+        "Key fact": "in 1913 Manuel Gamio discovered a corner of the Templo Mayor here",
+        "Seminario Conciliar de San Pablo": "1689; demolition ordered in 1861; disappears in 1928",
+        "Current form": "1978, with a fountain and a model of Tenochtitlan at the end of that decade"
+      }
+    },
+    "faq_mito": {
+      "hash": "4bd5348c1ddfa79c",
+      "texto": {
+        "pregunta": "Myth: The Templo Mayor was always beneath the Cathedral, and that is why no one could excavate it.",
+        "respuesta": "Reality: For a long time people believed that, but in nineteen thirteen Manuel Gamio discovered a corner of the temple in this plaza, and the sacred precinct extended alongside the Cathedral."
+      }
+    }
+  }
+}

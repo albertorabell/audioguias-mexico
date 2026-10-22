@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_15_banco_mexico",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "82a1631a4715e9c5",
+      "texto": "Bank of Mexico: From La Mutua to the Central Bank Headquarters"
+    },
+    "frase_gancho": {
+      "hash": "00373db394279738",
+      "texto": "A building raised for a New York insurance company ended up as the headquarters of Mexico’s central bank."
+    },
+    "puente_narrativo": {
+      "hash": "140c303f49b083a9",
+      "texto": "Continue to the corner of Eje Central and Madero, where the church of [San Francisco](cdmx_16_san_francisco_gante) holds a history older than the bank’s."
+    },
+    "como_llegar": {
+      "hash": "babe28bff7205673",
+      "texto": "Take the Condesa alley, which runs alongside the house, to Cinco de Mayo Avenue; just steps from Eje Central, the [Bank of Mexico Building](cdmx_15_banco_mexico) awaits you."
+    },
+    "guion_corto": {
+      "hash": "470b18f8584c8ea3",
+      "texto": "The vault of this building has walls, ceiling and floor more than two meters thick. What you see on the corner looks made for a bank, but it was not born as one. It was built between nineteen oh three and nineteen oh five for a New York insurance company that everyone called La Mutua. Years later the Bank of Mexico bought it, and on October twelfth, nineteen twenty-seven, it was inaugurated as the bank’s headquarters. Outside it keeps a Neoclassical air, with great Ionic columns. Inside, the architect Carlos Obregón Santacilia transformed it with Art Deco finishes. Today it also houses a museum for understanding how money works."
+    },
+    "guion_largo": {
+      "hash": "31ca124d6d7da615",
+      "texto": "Mexico was slow to get a central bank. The Constitution of nineteen seventeen foresaw a single bank, with the power to issue currency. The Bank of Mexico began to exist in nineteen twenty-five. It needed a home of its own, and it found it here. A decree of August fourth of that year authorized the purchase of this building, on the corner of Cinco de Mayo and what is now Eje Central.\n\nThe building already existed. The architect Theodore de Lemos and the engineer Gonzalo Garita y Frontera built it between nineteen oh three and nineteen oh five. It was for a New York insurance company, Mutual Life, which was known as La Mutua.\n\nTo turn it into a bank, the architect Carlos Obregón Santacilia and the engineer Federico Ramos remodeled it in nineteen twenty-six. They kept part of the facade from the Porfirian era and created an Art Deco interior. President Plutarco Elías Calles led the inauguration on October twelfth, nineteen twenty-seven. One day earlier, the bank had moved its gold and silver reserves, more than twenty million pesos, to this building from the Bank of London building.\n\nFrom the street you can read the building. The symmetrical facade faces Cinco de Mayo. Four great Ionic columns rise from the first to the third floor, with round-arched windows between them. Above the entrance are two limestone figures, a man and a woman, the work of the sculptor Manuel Centurión, from Puebla. They represent labor and abundance, and they flank the name of the bank. There used to be caryatids there, which were removed.\n\nIf you enter the museum you will see another part of the story. The lobby has eight columns about nine meters tall. They are black marble with golden veins, brought from Portoro, in Italy, set on bases of Belgian marble. There is also a staircase with bronze balusters.\n\nThe vault is another story. Walls, ceiling and floor are more than two meters thick, made of concrete reinforced with steel. The door weighs about fifty-nine metric tons.\n\nThere is another story that the museum also tells. In nineteen thirty-five, the director of the bank commissioned the muralist Fermín Revueltas to make a stained-glass window for the lobby staircase. Revueltas died that year and the work was left unfinished. The museum offers a digital re-creation of its colors.\n\nThe building was declared an Artistic Monument on May fourth, nineteen eighty-seven. In twenty twenty-one it underwent a restoration that removed office installations and partitions and recovered spaces in the lobby, the mezzanine and the vaults.\n\nIf you decide to go in, the Bank of Mexico Museum occupies this building and explains how money works and what a central bank does. It also holds a numismatic collection that the museum itself considers among the most important in the world. Check its current hours and access conditions before you go.\n\nAs you continue on your way, keep in mind that this building had two lives. First it was the office of a foreign insurance company of the Porfirian era. Then, once the Revolution had ended, it became the home of the central bank, which today opens its doors to explain what it does."
+    },
+    "retos_observacion": {
+      "hash": "91f47436dbf6443e",
+      "texto": [
+        "Count the great Ionic columns that rise along the Cinco de Mayo facade",
+        "Look above the entrance for the two stone figures, a man and a woman, and the name of the bank between them",
+        "Notice the round-arched windows set between the columns"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cc4b3dc0898bffb4",
+      "texto": {
+        "Era": "Built between 1903 and 1905; remodeled in 1926 and inaugurated as the bank’s headquarters on October 12, 1927",
+        "Author": "Theodore de Lemos (original); Carlos Obregón Santacilia and Federico Ramos (remodeling)",
+        "Style": "Eclectic, Neoclassical exterior and Art Deco interior",
+        "Location": "Av. 5 de Mayo 2, at the corner of Eje Central Lázaro Cárdenas",
+        "Key fact": "Sculptures by Manuel Centurión above the entrance",
+        "Designation": "Artistic Monument, May 4, 1987"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2c5ddbc6794ae60",
+      "texto": {
+        "pregunta": "Myth: The vaults of this building still hold Mexico’s gold.",
+        "respuesta": "Reality: The basement vaults were made to safeguard valuables, and today the museum has recovered those spaces. In 1927 the bank moved its reserves to this building, but that does not mean they are there today."
+      }
+    }
+  }
+}

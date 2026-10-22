@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_01_bellas_artes",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e1ea0258585e5e32",
+      "texto": "Palacio de Bellas Artes: The Theater That Took Thirty Years"
+    },
+    "frase_gancho": {
+      "hash": "9eeabd059995069e",
+      "texto": "It was designed for the Centennial of nineteen ten and did not open until nineteen thirty-four, with a different style inside."
+    },
+    "puente_narrativo": {
+      "hash": "4151fe65286163ae",
+      "texto": "Walk toward the entrance of the palace. The next stop tells what it holds inside, and you can listen to it even if you decide not to go in."
+    },
+    "como_llegar": {
+      "hash": "b69450a6deb97ada",
+      "texto": "Head to the Palacio de Bellas Artes, at the corner of Avenida Juárez and Eje Central Lázaro Cárdenas, next to the Alameda Central. The nearest Metro station is Bellas Artes (lines 2 and 8)."
+    },
+    "guion_corto": {
+      "hash": "dd8f969e9bc19b16",
+      "texto": "Thirty years it took to finish this palace. It began as a project for a National Theater, and President Porfirio Díaz wanted it ready for the Centennial of Independence, in nineteen ten. He did not succeed. The Italian architect Adamo Boari began the work in nineteen oh four, and the Revolution stopped it. Years later, the Mexican architect Federico Mariscal took it up again and gave it an Art Deco interior. That is why this building has two eras. On the outside, white marble and Art Nouveau ornaments. On the inside, geometric lines and marbles from Mexico. It was inaugurated on September twenty-ninth, nineteen thirty-four. Today it is a theater, a concert hall and a museum, and here our tour begins."
+    },
+    "guion_largo": {
+      "hash": "94f9a90459fc69a6",
+      "texto": "Before this palace existed, there was a convent here. In the viceregal period, the convent of Santa Isabel stood on this site. After the disentailment of Church property, the convent was turned into private homes, and the church into a silk factory. Years later, the engineer Gonzalo Garita proposed that plot of land for building the new theater.\n\nThe project was entrusted to the Italian architect Adamo Boari, hired by the government of Porfirio Díaz. Working at his side was Garita, a Mexican military engineer responsible for the structure. Together they introduced to Mexico the system known as Chicago, which combines reinforced concrete and steel. Boari imagined a great glass greenhouse, crowned by three translucent domes, with ornamentation in the Art Nouveau style. Construction began in nineteen oh four. The goal was to open in time for the Centennial of Independence, in nineteen ten.\n\nBut the ground of Mexico City is that of an ancient lake, and the building was sinking. In nineteen twenty-eight, the sunken part of the base had to be dug out. Then came the Revolution. Between nineteen thirteen and nineteen thirty-two there were several attempts to finish the work. Boari left the country and never saw his theater completed.\n\nIn nineteen thirty, Federico Mariscal presented his definitive project. Work resumed in July of nineteen thirty-two, and construction was completed in March of nineteen thirty-four. Mariscal kept Boari’s exterior and designed the interior in the Art Deco style, with geometric forms and elements that evoke the pre-Hispanic world. For those interiors, marbles from different regions of Mexico were used.\n\nThe inauguration took place on September twenty-ninth, nineteen thirty-four, with President Abelardo L. Rodríguez. At the gala performance, the audience heard the Orquesta Sinfónica de México, conducted by Carlos Chávez, and watched a staging of La verdad sospechosa, by Juan Ruiz de Alarcón. What had been born as a tribute from the Porfiriato to the Centennial was finally opening in a postrevolutionary Mexico. The palace also included a museum of visual arts, which opened two months later. We will talk about it at the next stop.\n\nThe four Pegasuses on the esplanade are the work of the Spanish sculptor Agustí Querol. They arrived from Spain in nineteen eleven and were meant to crown the corners of the theater’s roof. After several moves, including a stay in the Zócalo, they ended up here. Pegasus is the winged horse of Greek mythology and is associated with imagination and creativity.\n\nThere is one piece that cannot be seen from the street and that appears only at certain performances. It is the glass curtain of the auditorium, designed by the stage designer Harry Stoner and made by the Tiffany company of New York. The contract was signed in nineteen oh nine, and the curtain was installed in nineteen twelve. It is made up of nearly a million pieces of opalescent glass, weighs more than twenty tons and depicts the volcanoes Popocatépetl and Iztaccíhuatl.\n\nAnd there is one fact that surprises. The Palacio Postal, which Boari and Garita built before this theater, still stands without showing any sinking. We will visit it later on. For now, turn toward the Alameda, because this esplanade is only the beginning."
+    },
+    "retos_observacion": {
+      "hash": "973093e286afbdc2",
+      "texto": [
+        "Count the winged horses on the esplanade: there are four Pegasuses",
+        "Run your eyes along the white marble facade and look for its ornaments of curving lines, typical of Art Nouveau",
+        "Turn toward the park in front of the palace: it is the Alameda Central, which we will explore next"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8de1a5eb3fe1050d",
+      "texto": {
+        "Period": "1904 to 1934",
+        "Authors": "Adamo Boari (design), Gonzalo Garita (engineering) and Federico Mariscal (completion and interior)",
+        "Style": "Art Nouveau exterior, Art Deco interior",
+        "Location": "Av. Juárez at the corner of Eje Central Lázaro Cárdenas",
+        "Key fact": "inaugurated on September 29, 1934 by President Abelardo L. Rodríguez"
+      }
+    },
+    "faq_mito": {
+      "hash": "f71539a76814152e",
+      "texto": {
+        "pregunta": "Myth: The Palacio de Bellas Artes was inaugurated by Porfirio Díaz for the Centennial of nineteen ten.",
+        "respuesta": "Reality: It was designed for that Centennial, but the work was interrupted by the Revolution, and the palace was inaugurated on September 29, 1934, with President Abelardo L. Rodríguez."
+      }
+    }
+  }
+}

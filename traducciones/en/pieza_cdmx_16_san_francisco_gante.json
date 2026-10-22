@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_16_san_francisco_gante",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1757e6c5a283ed24",
+      "texto": "San Francisco and Calle de Gante: The Convent That Was Broken Apart"
+    },
+    "frase_gancho": {
+      "hash": "016bca116f36665a",
+      "texto": "Of a single Franciscan convent, there remain a church, a chapel, a street, and the memory of a friar who was a teacher."
+    },
+    "puente_narrativo": {
+      "hash": "52b9b73c044c7165",
+      "texto": "Return to Madero Street and continue toward the Zócalo; the pedestrian stretch of [Madero Street](cdmx_17_calle_madero) begins."
+    },
+    "como_llegar": {
+      "hash": "140c303f49b083a9",
+      "texto": "Continue to the corner of Eje Central and Madero, where the church of [San Francisco](cdmx_16_san_francisco_gante) holds a history older than that of the bank."
+    },
+    "guion_corto": {
+      "hash": "a7f8a83afae66316",
+      "texto": "There was a time when this church, Gante Street, and several neighboring buildings belonged to a single convent. It was the convent of San Francisco, where the first Franciscans, who had arrived in 1524, settled in 1525. With the Reform, in the mid-nineteenth century, the convent was divided into lots and Gante Street was opened. What you see is what remained: the church, rebuilt in the early eighteenth century, and the Balvanera chapel with its Baroque portal. If you walk along Gante, you will find the statue of Friar Pedro de Gante, the Flemish friar who taught Indigenous people to read, sing, and work."
+    },
+    "guion_largo": {
+      "hash": "81604d9fb99f66a6",
+      "texto": "Before this was a church with a street beside it, it was an evangelization project. The Flemish friar Pedro de Gante arrived in New Spain in 1523, together with two other Flemish friars. A year later, in 1524, the group of twelve Franciscans led by Friar Martín de Valencia landed in Veracruz. Hernán Cortés gave them land in the city.\n\nThe historian Josefina Muriel explains that the first convent stood in another part of the city, on Tacuba Street, on land within the former precinct of the Templo Mayor. The friars occupied it from mid-June 1524. At the end of May 1525 they moved here, to a site that had been Moctezuma’s house of wild animals. A document from June second of that year already speaks of San Francisco el Nuevo.\n\nFriar Pedro de Gante ran a school in this convent, the school of San José de los Naturales. He taught children and adults to read, write, sing, and play instruments. Later he added trades such as painting, blacksmithing, carpentry, masonry, and tailoring. A catechism in Nahuatl was published in 1528. He died in Mexico City on April nineteenth, 1572. The historian Joaquín García Icazbalceta called his work a complete center of civilization.\n\nThe church you see today is not the one from those times. It is the third one that stood on this site, and it was built between 1710 and 1716. The Balvanera chapel, beside it, has a façade from 1766.\n\nThe Reform changed everything. On September sixteenth, 1856, President Ignacio Comonfort decreed the suppression of the convent and the opening of Independencia Street, today Dieciséis de Septiembre, which meant that parts of the complex were demolished. The Franciscans left for good on December twenty-eighth, 1860. In 1861 the complex was divided into nine lots. Then Gante Street was opened and several chapels were demolished. The church later served as stables and storage for the Chiarini Circus, and later still for Protestant worship.\n\nScattered parts of that complex survive. Three chapels, a cloister, the atrium, and the original church are preserved. On the site of the old cloister stands today the Methodist Church of the Most Holy Trinity. The rest of the land was sold to private owners and divided into parcels.\n\nOn Gante Street there is a monument to Friar Pedro de Gante. It was inaugurated in 1976, as a gift from Belgium, the friar’s homeland.\n\nThis stop explains the name of the street you will follow next. Madero was first called San Francisco Street, after this convent. As you walk its first stretch, remember that much of what you see once belonged to friars."
+    },
+    "retos_observacion": {
+      "hash": "bd738c90adf01446",
+      "texto": [
+        "Find the Baroque portal of the Balvanera chapel on Madero Street",
+        "Compare the simplicity of the church with the tall buildings that surround it",
+        "Walk to Gante Street and look for the statue of the friar with the plaque from Belgium"
+      ]
+    },
+    "especificaciones": {
+      "hash": "392e860106389c88",
+      "texto": {
+        "Era": "Convent from 1525; current church built between 1710 and 1716",
+        "Order": "Franciscans",
+        "Style": "Baroque; portal of the Balvanera chapel from 1766",
+        "Location": "Av. Francisco I. Madero 7, east of Eje Central; Calle de Gante alongside",
+        "Key fact": "Monument to Friar Pedro de Gante, inaugurated in 1976, a gift from Belgium"
+      }
+    },
+    "faq_mito": {
+      "hash": "e200371a454cc724",
+      "texto": {
+        "pregunta": "Myth: Friar Pedro de Gante, the teacher of this convent, was the son of Emperor Maximilian I.",
+        "respuesta": "Reality: Some versions link him to emperors such as Charles V or Maximilian I, but these are traditions without proof. Even the year of his birth is uncertain: historians place it between 1480 and 1486."
+      }
+    }
+  }
+}
