@@ -52,7 +52,8 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
       <header className="pt-safe">
         <div className="flex items-center justify-between h-14 pl-5 pr-2">
           <span className="flex items-center gap-2.5">
-            <img src={getAssetUrl('icon.svg')} alt="" width={32} height={32} className="w-8 h-8 rounded-lg" draggable={false} />
+            <img src={getAssetUrl('icon.svg')} alt="" width={32} height={32} className="w-8 h-8 rounded-lg dark:hidden" draggable={false} />
+            <img src={getAssetUrl('icon-oscuro.svg')} alt="" width={32} height={32} className="w-8 h-8 rounded-lg hidden dark:block" draggable={false} />
             <span className="font-serif text-[1.125rem] font-semibold tracking-[-0.01em]">{strings.common.appName}</span>
           </span>
           <div className="flex items-center">
@@ -64,8 +65,9 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
 
       <main className="px-5">
         <section className="pt-4 pb-8">
-          <div className="rounded-[20px] bg-[#fbf6ee] border border-line px-4 py-3 mb-6">
-            <img src={getAssetUrl('logo-xolo.svg')} alt="xolo — El camino de la historia" width={792} height={336} className="w-full max-w-[340px] mx-auto h-auto" draggable={false} />
+          <div className="rounded-[20px] overflow-hidden border border-line mb-6">
+            <img src={getAssetUrl('logo-xolo.svg')} alt="xolo — El camino de la historia" width={792} height={336} className="w-full h-auto bg-[#fbf6ee] px-4 py-3 dark:hidden" draggable={false} />
+            <img src={getAssetUrl('logo-xolo-oscuro.svg')} alt="xolo — El camino de la historia" width={757} height={324} className="w-full h-auto hidden dark:block" draggable={false} />
           </div>
           <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{t.heroTitle}</h1>
           <p className="mt-3 text-[1.0625rem] leading-relaxed text-ink-2 max-w-[34ch]">{u.subtitle}</p>
