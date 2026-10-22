@@ -41,7 +41,7 @@ export const TourCompletionView: React.FC<TourCompletionViewProps> = ({
   return (
     <div id="tour-completion-screen" className="min-h-dvh bg-bg text-ink pt-safe flex flex-col">
       <main className="flex-1 px-5 pt-16 pb-10">
-        <span className="w-16 h-16 rounded-full bg-jade/15 text-jade flex items-center justify-center">
+        <span className="w-16 h-16 rounded-full bg-jade/15 text-jade-ink flex items-center justify-center">
           <Flag className="w-8 h-8" strokeWidth={1.8} />
         </span>
         <h1 className="mt-6 font-serif text-h1 font-medium tracking-[-0.02em]">{t.completedTitle}</h1>

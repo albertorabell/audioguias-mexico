@@ -63,7 +63,7 @@ export const TopBar: React.FC<TopBarProps> = ({ onBack, backLabel, eyebrow, titl
             aria-label={t.back}
             className={`${backLabel ? 'pl-1 pr-2.5 rounded-full' : 'btn-icon'} h-11 inline-flex items-center gap-0.5 text-ink shrink-0 cursor-pointer active:bg-raised`}
           >
-            <ChevronLeft className="w-6 h-6 text-jade" strokeWidth={2.25} />
+            <ChevronLeft className="w-6 h-6 text-jade-ink" strokeWidth={2.25} />
             {backLabel && <span className="text-ui font-semibold max-w-[7.5rem] truncate">{backLabel}</span>}
           </button>
         )}

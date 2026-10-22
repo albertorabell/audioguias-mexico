@@ -362,6 +362,19 @@ await sesion({
   },
 });
 
+// Marca xolo: el modo museo (oscuro) con la paleta nueva
+await sesion({
+  nombre: 'l-marca-oscuro',
+  init: () => localStorage.setItem('audioguias_theme', 'museum'),
+  pasos: async ({ page, shot, paso, entrar }) => {
+    await paso('01-inicio', () => shot('01-inicio'));
+    await paso('02-museo', async () => {
+      await entrar();
+      await shot('02-museo');
+    });
+  },
+});
+
 await browser.close();
 fs.writeFileSync(path.join(out, 'RESULTADO.txt'), resultados.join('\n') + '\n');
 console.log(resultados.join('\n'));

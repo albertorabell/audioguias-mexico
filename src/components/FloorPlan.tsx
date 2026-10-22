@@ -77,7 +77,7 @@ export const FloorPlan: React.FC<FloorPlanProps> = ({ rooms, floor, hereRoomId, 
           here ? 'bg-jade/15 border-jade' : 'bg-surface border-line active:bg-raised'
         } ${wide ? 'flex items-center gap-3' : 'flex flex-col justify-between'}`}
       >
-        <span className={`font-serif text-[1.375rem] leading-none tabular-nums ${here ? 'text-jade' : 'text-ink-3'}`}>
+        <span className={`font-serif text-[1.375rem] leading-none tabular-nums ${here ? 'text-jade-ink' : 'text-ink-3'}`}>
           {getRoomShortLabel(room)}
         </span>
         <span className={`block text-[12.5px] font-semibold leading-tight text-ink ${wide ? 'text-[14px]' : 'line-clamp-2 mt-1'}`}>
@@ -89,7 +89,7 @@ export const FloorPlan: React.FC<FloorPlanProps> = ({ rooms, floor, hereRoomId, 
           </span>
         )}
         {!here && stops.length > 0 && (
-          <span className="absolute -top-2 -right-1.5 min-w-6 h-6 px-1.5 rounded-full bg-bg border-2 border-jade text-jade text-[11px] font-bold flex items-center justify-center tabular-nums" aria-hidden="true">
+          <span className="absolute -top-2 -right-1.5 min-w-6 h-6 px-1.5 rounded-full bg-bg border-2 border-jade text-jade-ink text-[11px] font-bold flex items-center justify-center tabular-nums" aria-hidden="true">
             {stops.slice(0, 2).join('·')}
             {stops.length > 2 ? '…' : ''}
           </span>

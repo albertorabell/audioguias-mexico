@@ -108,7 +108,7 @@ export const SearchScreen: React.FC<SearchScreenProps> = ({
               {matchingRooms.map((r) => (
                 <li key={r.room_id}>
                   <button type="button" onClick={() => onSelectRoom(r)} className="w-full px-5 py-3 flex items-center gap-4 text-left cursor-pointer row-press">
-                    <span className="font-serif text-[1.5rem] leading-none text-jade w-9 tabular-nums">{getRoomLabel(r).match(/\d+$/)?.[0]}</span>
+                    <span className="font-serif text-[1.5rem] leading-none text-jade-ink w-9 tabular-nums">{getRoomLabel(r).match(/\d+$/)?.[0]}</span>
                     <span className="text-[1.0625rem] font-bold">{r.nombre_oficial}</span>
                   </button>
                 </li>
@@ -141,7 +141,7 @@ export const SearchScreen: React.FC<SearchScreenProps> = ({
                       <span className="block text-[1rem] font-bold leading-snug">{p.titulo}</span>
                       <span className="block text-cap text-ink-3 truncate">{roomLine(p)}</span>
                     </span>
-                    {!p.is_free && !hasPass && <Lock className="w-4 h-4 text-oro shrink-0" aria-label={u.lockedAria} />}
+                    {!p.is_free && !hasPass && <Lock className="w-4 h-4 text-oro-ink shrink-0" aria-label={u.lockedAria} />}
                   </button>
                 </li>
               ))}

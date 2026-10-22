@@ -156,7 +156,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const baseCurrency = usingUsd ? pricing!.prices.usd!.currency : pricing?.prices.mxn?.currency || 'MXN';
   const discounted = promo ? money(Math.round(baseAmount * (100 - promo.percentOff)) / 100, baseCurrency, locale) : null;
 
-  const accent = 'text-oro';
+  const accent = 'text-oro-ink';
   const benefits = [
     { icon: <Clock className={`w-4 h-4 ${accent}`} />, title: t.benefits.accessTitle(hours), desc: t.benefits.accessDesc },
     { icon: <Sparkles className={`w-4 h-4 ${accent}`} />, title: t.benefits.guidesTitle, desc: t.benefits.guidesDesc },
@@ -226,7 +226,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         <div className="mx-auto mb-2 h-1 w-10 rounded-full bg-line-strong sm:hidden" aria-hidden="true" />
         <div className="flex items-start justify-between gap-3">
           <div className="pt-1">
-            <p className="text-cap font-semibold text-oro">{t.badge}</p>
+            <p className="text-cap font-semibold text-oro-ink">{t.badge}</p>
             <h3 id="paywall-title" className="mt-0.5 font-serif text-h3 font-medium">
               {siteName}
             </h3>
@@ -237,7 +237,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         </div>
 
         {notice && (
-          <p role="status" className="mt-3 text-ui font-semibold text-jade">
+          <p role="status" className="mt-3 text-ui font-semibold text-jade-ink">
             {notice}
           </p>
         )}
@@ -246,7 +246,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           <div data-testid="pass-active" className="mt-4 p-4 rounded-2xl bg-jade/10 border border-jade/40 space-y-3">
             <div className="flex items-center justify-between gap-3">
               <div className="flex items-center gap-2.5">
-                <CheckCircle className="w-5 h-5 text-jade shrink-0" />
+                <CheckCircle className="w-5 h-5 text-jade-ink shrink-0" />
                 <div>
                   <p className="text-ui font-bold">{t.activeTitle}</p>
                   {remaining && <p className="text-cap text-ink-2">{t.remaining(remaining)}</p>}
@@ -286,7 +286,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
         {!hasPass && (
           <div className="mt-4 p-5 rounded-2xl bg-bg border border-oro/40 text-center">
-            <p className="text-ui font-semibold text-oro">{t.offerTitle(hours)}</p>
+            <p className="text-ui font-semibold text-oro-ink">{t.offerTitle(hours)}</p>
             {promo && discounted && (
               <p data-testid="pass-price-original" className="mt-1 text-ui text-ink-3 tabular-nums line-through">
                 {priceLine}
@@ -296,7 +296,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
               {promo && discounted ? discounted : priceLine}
             </p>
             {promo && (
-              <p data-testid="promo-applied" className="mt-1 text-cap font-semibold text-jade">
+              <p data-testid="promo-applied" className="mt-1 text-cap font-semibold text-jade-ink">
                 {t.promo.applied(promo.code, promo.percentOff)}
               </p>
             )}

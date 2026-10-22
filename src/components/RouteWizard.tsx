@@ -170,7 +170,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                     on ? 'bg-jade/12 border-jade' : 'bg-surface border-line active:bg-raised'
                   }`}
                 >
-                  <span className={`block text-[1.0625rem] font-bold ${on ? 'text-jade' : 'text-ink'}`}>{opt.label}</span>
+                  <span className={`block text-[1.0625rem] font-bold ${on ? 'text-jade-ink' : 'text-ink'}`}>{opt.label}</span>
                   <span className="block mt-1 text-cap leading-snug text-ink-3">{opt.desc}</span>
                 </button>
               );
@@ -231,7 +231,7 @@ export const RouteWizard: React.FC<RouteWizardProps> = ({
                   <span className="block text-ui font-semibold leading-snug">{stop.title}</span>
                   <span className="block text-cap text-ink-3 truncate">{stop.room_zone}</span>
                 </span>
-                {stop.poi_id === MANDATORY_MNA_PIECE_ID && <Star className="w-4 h-4 text-oro shrink-0" aria-label={t.mustSee} />}
+                {stop.poi_id === MANDATORY_MNA_PIECE_ID && <Star className="w-4 h-4 text-oro-ink shrink-0" aria-label={t.mustSee} />}
               </li>
             ))}
           </ol>
