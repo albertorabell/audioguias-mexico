@@ -109,7 +109,7 @@ export const LiveMap: React.FC<LiveMapProps> = ({ config, stops, routeIds, curre
     map.addControl(new maplibregl.NavigationControl({ showCompass: true, visualizePitch: false }), 'top-right');
     map.on('load', () => {
       map.addSource('route', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
-      map.addLayer({ id: 'route-line', type: 'line', source: 'route', layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': '#14b8a6', 'line-width': 4, 'line-dasharray': [1.5, 1.5] } });
+      map.addLayer({ id: 'route-line', type: 'line', source: 'route', layout: { 'line-cap': 'round', 'line-join': 'round' }, paint: { 'line-color': '#04a4b1', 'line-width': 4, 'line-dasharray': [1.5, 1.5] } });
       map.addSource('me-acc', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
       map.addLayer({ id: 'me-acc-fill', type: 'fill', source: 'me-acc', paint: { 'fill-color': '#3b82f6', 'fill-opacity': 0.15 } });
       map.addSource('me', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
