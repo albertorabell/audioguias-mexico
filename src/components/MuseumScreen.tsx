@@ -169,7 +169,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/10 to-transparent" aria-hidden="true" />
               </div>
             )}
-            <div className="px-5 pb-6 pt-3">
+            <div className="px-5 pb-4 pt-3">
               <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{site.name}</h1>
               <p className="mt-1.5 text-ui text-ink-3">{site.location}</p>
               <p className="mt-3 text-cap font-semibold text-ink-3">
@@ -177,7 +177,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
               </p>
               <div id="site-intro" className="mt-4 space-y-3.5">
                 {(introMore ? introParagraphs : introParagraphs.slice(0, 1)).map((text, i) => (
-                  <p key={i} className="text-[1.0625rem] leading-relaxed text-ink-2 text-pretty">
+                  <p key={i} className="text-[1rem] leading-[1.55] text-ink-2 text-pretty">
                     {text}
                   </p>
                 ))}
