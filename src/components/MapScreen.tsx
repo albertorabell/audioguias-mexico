@@ -55,8 +55,8 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
   }, [tour, roomOfPiece]);
 
   const scheme = hasScheme ?? !!zoneMap;
-  // Sitios al aire libre abren en el mapa real; un museo con plano de salas abre en el plano
-  const [view, setView] = useState<'live' | 'scheme'>(zoneMap || !scheme ? 'live' : 'scheme');
+  // Si hay mapa real (OpenStreetMap) se abre primero; el esquema queda en la otra pestaña
+  const [view, setView] = useState<'live' | 'scheme'>('live');
   // Sin esquema (Centro Histórico) solo hay mapa real
   const showLive = !!liveMap && (view === 'live' || !scheme);
   const stopId = (s: { piece_id?: string; id?: string; poi_id?: string }) => s.piece_id || s.id || s.poi_id || '';
