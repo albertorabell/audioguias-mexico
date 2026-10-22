@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_43_plaza_santo_domingo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae632bd997c52faf",
+      "texto": "Place de Santo Domingo et les écrivains publics des portiques"
+    },
+    "frase_gancho": {
+      "hash": "96bdc3a09f05522b",
+      "texto": "Sous ces portiques, depuis le dix-neuvième siècle, les écrivains publics rédigeaient lettres et démarches pour ceux qui ne savaient pas écrire."
+    },
+    "puente_narrativo": {
+      "hash": "f500d6bb9b4c0457",
+      "texto": "Marchez vers le côté nord de la place, où la tour aux carreaux de céramique annonce le [temple de Santo Domingo](cdmx_44_templo_santo_domingo)."
+    },
+    "como_llegar": {
+      "hash": "fb665259b4c47993",
+      "texto": "Poursuivez vers la [place de Santo Domingo](cdmx_43_plaza_santo_domingo), où le parcours continue entre portiques, temples et écoles."
+    },
+    "guion_corto": {
+      "hash": "9cb082db2cff0823",
+      "texto": "Sous ces portiques, il y a plus d’un siècle, un homme muni d’une plume, d’un encrier et de papier écrivait les lettres des autres. On les appelait les évangélistes. C’étaient des écrivains publics qui rédigeaient lettres et démarches pour ceux qui ne savaient ni lire ni écrire, et qui, plus tard, travaillèrent avec une machine à écrire. La place où ils s’installèrent est plus ancienne encore. Les frères dominicains la tracèrent pour donner vue et éclat à leur église, et depuis le milieu du seizième siècle, elle a les dimensions que vous lui connaissez aujourd’hui. Avec les années s’y ajoutèrent un tribunal de l’Inquisition, une douane et une fontaine ornée d’une héroïne de l’Indépendance. Sur cette place cohabitent la foi, la loi et la paperasse de plusieurs siècles de ville."
+    },
+    "guion_largo": {
+      "hash": "3921416fc9d9e7ad",
+      "texto": "Avant que cette place n’existe, qu’y avait-il ici ? Personne ne le sait avec certitude. Le catalogue des monuments historiques de l’Institut national d’anthropologie et d’histoire (INAH) rapporte une idée. On pense qu’ici se trouvait la maison de Cuauhtémoc, le dernier gouvernant mexica, et que c’est pour cela que le terrain est resté libre lors du partage de la ville. C’est une supposition, non un fait démontré. De là naît une autre histoire, celle du trésor que Cuauhtémoc aurait caché dans les bassins de ses jardins. C’est une légende, sans preuve documentaire, et c’est comme légende qu’il convient de l’écouter.\n\nCe qui est bien documenté, en revanche, c’est le travail des dominicains. Ce sont eux qui créèrent la place pour donner vue et éclat à leur église. Elle existe avec ses dimensions actuelles, d’environ cinquante mètres sur cent cinquante, depuis le milieu du seizième siècle. Sur un plan de mille sept cent quatre-vingt-treize, elle apparaît déjà sous le nom de petite place de Santo Domingo. Les édifices qui l’entourent, eux, sont plus jeunes. Temple, tribunal et douane furent élevés ou reconstruits au cours du dix-huitième siècle.\n\nCe mélange de pouvoirs se remarque de chaque côté. Au nord se dresse le temple des dominicains. À l’est, l’ancienne douane, qui fait aujourd’hui partie de l’ensemble du secrétariat à l’Éducation publique. Et face à la place se trouve l’édifice du Saint-Office. L’architecte Pedro de Arrieta le fit construire entre mille sept cent trente-deux et mille sept cent trente-six. Mexico rappelle que cette place fut liée au tribunal de l’Inquisition et qu’on y lut des sentences lors d’autodafés, cérémonies publiques où l’on faisait connaître les décisions du Saint-Office. C’est une page dure de l’histoire du lieu, et il convient de la raconter avec sobriété.\n\nLa place servait aussi à l’accueil. Lorsqu’un vice-roi arrivait dans la capitale, on dressait deux arcs de triomphe pour le recevoir. L’un se trouvait sur la place de l’Empedradillo, près de la cathédrale. L’autre, ici, à Santo Domingo.\n\nRegardez maintenant la fontaine du centre. Au-dessus d’elle se dresse la statue de Josefa Ortiz de Domínguez, l’une des figures de la geste de l’Indépendance. Elle fut installée en mille huit cent quatre-vingt-dix, et c’est l’œuvre du sculpteur italien Enrico Alciati, celui-là même de l’Ange de l’Indépendance, sur la Reforma. La fontaine, elle, semble plus ancienne. On pense qu’elle fut conçue à la fin du dix-huitième siècle, avec l’architecte Ignacio Castera.\n\nEt il y a les portiques du côté ouest, dont certaines parties datent du dix-septième siècle. Au dix-neuvième siècle, sous ces arcades, les évangélistes s’installèrent. Ils rédigeaient lettres et démarches pour qui ne savait ni lire ni écrire, d’abord à la main, puis à la machine. Avec le temps, le quartier devint un quartier d’imprimeries, et aujourd’hui encore la place reste associée aux documents. Ce métier raconte ce qu’était la vie quand savoir écrire n’était pas à la portée de tous.\n\nUn dernier détail. La place du côté nord est aussi connue sous le nom de place du Vingt-Trois-Mai. Ce nom rappelle la Journée de l’étudiant et le mouvement étudiant de mille neuf cent vingt-neuf, qui mena à l’autonomie universitaire. Pendant des siècles, cette place fut entourée d’écoles et de collèges, et à quelques pas, vous en trouverez encore de très importants."
+    },
+    "retos_observacion": {
+      "hash": "2b33ca6a113f400c",
+      "texto": [
+        "Comptez les arcs du portique du côté ouest",
+        "Cherchez la statue de la femme au centre de la fontaine",
+        "Repérez la tour aux carreaux de céramique du côté nord de la place"
+      ]
+    },
+    "especificaciones": {
+      "hash": "45d402a37ef9c519",
+      "texto": {
+        "Époque": "tracée vers le milieu du XVIe siècle ; édifices actuels du XVIIIe siècle",
+        "Emplacement": "rue República de Brasil, Centre historique",
+        "Dimensions": "environ 50 sur 150 mètres (catalogue de l’INAH)",
+        "Statue": "Josefa Ortiz de Domínguez, d’Enrico Alciati, installée en 1890",
+        "Donnée clé": "siège des écrivains publics ou évangélistes depuis le XIXe siècle",
+        "Protection": "Monument historique, catalogue de l’INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "a6c8aa834cf9a52a",
+      "texto": {
+        "pregunta": "Mythe : Dans les bassins du jardin de Cuauhtémoc, sous cette place, se cache un trésor.",
+        "respuesta": "Réalité : On pense seulement, sans preuve, que la maison de Cuauhtémoc se trouvait ici ; le trésor n’est qu’une rumeur et une légende, sans preuve documentaire."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_25_zocalo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0be09e00cdadd1bc",
+      "texto": "Zócalo : la place qui porte le nom d’un socle sans monument"
+    },
+    "frase_gancho": {
+      "hash": "0195248b2e9f4404",
+      "texto": "Cette place porte le nom d’un socle de pierre qui n’a jamais fini par soutenir le moindre monument."
+    },
+    "puente_narrativo": {
+      "hash": "02ab666f13961fab",
+      "texto": "Avancez lentement vers le centre de la place et arrêtez-vous là un instant, car l’histoire récente est elle aussi passée par ce lieu."
+    },
+    "como_llegar": {
+      "hash": "6aa832cf785ae3c7",
+      "texto": "Poursuivez sur l’avenue Dieciséis de Septiembre en direction de l’est, jusqu’à déboucher sur la grande place du Zócalo."
+    },
+    "guion_corto": {
+      "hash": "85502b555541c9f4",
+      "texto": "Elle s’appelle la place de la Constitution, mais presque personne ne l’appelle ainsi. Tout le monde dit le Zócalo, un mot qui signifie socle ou piédestal. Ce surnom est né en mil huit cent quarante-trois, lorsque l’on posa ici la première pierre d’un monument à l’Indépendance. La colonne ne fut jamais élevée. Seul le socle resta, et avec les années, on se mit à appeler zócalo toute la place. L’usage s’étendit ensuite aux places principales de nombreuses villes du Mexique. Sous vos pieds se trouvait l’enceinte sacrée de Tenochtitlan. Autour de vous, vous avez la cathédrale, le Palais national et les bâtiments du gouvernement de la ville. Faites lentement un tour sur vous-même pour vous repérer."
+    },
+    "guion_largo": {
+      "hash": "29bf7613d2640096",
+      "texto": "Avant d’être une place, ce lieu fut le cœur cérémoniel de Tenochtitlan. Fray Bernardino de Sahagún parla de soixante-dix-huit édifices à l’intérieur de l’enceinte sacrée, et les archéologues en ont localisé et exploré vingt-quatre. Après la chute de la ville en mil cinq cent vingt et un, le terrain devint la Place Majeure de la Nouvelle-Espagne.\n\nPendant la vice-royauté, la place fut surtout un marché. Elle se remplit d’étals de bois, et en mil six cent quatre-vingt-douze, une crise du maïs se termina par une émeute. Les émeutiers incendièrent le palais vice-royal, la maison de la municipalité et deux cent quatre-vingts étals de bois. Des années plus tard, on construisit le Parián, un grand marché du côté sud-ouest, inauguré en mil sept cent trois. Le vingt-sept juin mil huit cent quarante-trois, Santa Anna ordonna de le démolir.\n\nLa place a aussi fait ressurgir le passé. Vers mil sept cent quatre-vingt-neuf, le vice-roi comte de Revillagigedo fit abaisser le sol, couvrir le canal et retirer la potence et le pilori. Ces travaux firent apparaître deux grandes sculptures mexicas, la Coatlicue et la Pierre du Soleil. La Pierre du Soleil apparut en décembre mil sept cent quatre-vingt-dix. Le vice-roi la confia aux responsables de la cathédrale, à condition de la conserver et de l’exposer dans un lieu public. Elle fut fixée sur une tour de la cathédrale jusqu’en mil huit cent quatre-vingt-cinq, date à laquelle elle passa au Musée national.\n\nLe nom et les monuments changèrent plusieurs fois. En septembre mil huit cent douze, on jura dans la capitale la Constitution de Cadix, et la place prit le nom de place de la Constitution. En mil huit cent trois, on avait inauguré ici une statue équestre en bronze du roi Charles IV, œuvre de Manuel Tolsá. En mil huit cent vingt-quatre, elle fut transférée dans la cour de l’Université.\n\nVint ensuite le socle qui donne son nom à la place. C’est Santa Anna qui promut un monument à l’Indépendance. On choisit le projet de l’architecte Lorenzo de la Hidalga, bien que l’Académie de San Carlos en eût favorisé un autre. Le seize septembre, on posa une première pierre de marbre blanc, avec une boîte de zinc qui renfermait des documents, des médailles et des pièces de monnaie. On parvint à construire les fondations et le socle, et le chantier n’avança pas davantage. Ce socle, le zócalo, finit par donner son nom à toute la place. En deux mille dix-sept, lors de la réhabilitation de la place, l’INAH en documenta les vestiges, les recouvrit de nouveau et les signala par des plaques.\n\nUne anecdote : la Real Academia Española définit aussi zócalo comme la place principale d’une ville, surtout celle de Mexico.\n\nAujourd’hui, le Centre historique, avec cette place en son centre, est inscrit au patrimoine mondial de l’UNESCO depuis mil neuf cent quatre-vingt-sept. C’est une place vivante, presque toujours occupée par quelque activité, si bien que vous pourrez la trouver avec des scènes, des barrières ou des étals. Cela ne change pas l’essentiel : d’ici, on voit à la fois les strates de la ville, la mexica, la vice-royale et la républicaine. Lors de la prochaine étape, sans bouger de cet endroit, nous parlerons de ce que cette place a vécu à des époques plus récentes."
+    },
+    "retos_observacion": {
+      "hash": "e87c59fe36b09c1d",
+      "texto": [
+        "Faites un tour complet et nommez les bâtiments qui entourent la place : la cathédrale, le Palais national et l’ancien hôtel de ville",
+        "Repérez le mât du drapeau au centre et estimez l’étendue d’espace dégagé autour de vous",
+        "Si le sol est dégagé, cherchez au nord du mât les plaques qui signalent les vestiges du socle de mil huit cent quarante-trois"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f9c99863a0a34c1",
+      "texto": {
+        "Époque": "enceinte sacrée mexica, Place Majeure vice-royale et place républicaine",
+        "Nom officiel": "place de la Constitution, depuis 1812",
+        "Origine du nom populaire": "socle du monument à l’Indépendance, première pierre posée le 16 septembre 1843",
+        "Emplacement": "au centre du Centre historique, entourée par la cathédrale, le Palais national et l’ancien hôtel de ville",
+        "Patrimoine": "Centre historique inscrit sur la liste de l’UNESCO en 1987"
+      }
+    },
+    "faq_mito": {
+      "hash": "710703dad0c978b9",
+      "texto": {
+        "pregunta": "Mythe : Zócalo est le nom officiel de la place.",
+        "respuesta": "Réalité : Le nom officiel est place de la Constitution. Zócalo vient du socle d’un monument à l’Indépendance dont la première pierre fut posée en 1843 et qui ne fut jamais achevé."
+      }
+    }
+  }
+}

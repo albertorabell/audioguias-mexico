@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_31_portal_mercaderes",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9b7ebce867f5cbbf",
+      "texto": "Portail des Marchands : les arcades du commerce près du Zócalo"
+    },
+    "frase_gancho": {
+      "hash": "3fbc52518485ac1a",
+      "texto": "Sous ces arcades, on vend depuis les premières années de la ville vice-royale, même si les façades sont bien plus récentes."
+    },
+    "puente_narrativo": {
+      "hash": "0a260dfda73070b3",
+      "texto": "Poursuivez sur le trottoir, sous les arcades, jusqu’à l’avenue du Seize Septembre, où se trouve le Grand Hôtel."
+    },
+    "como_llegar": {
+      "hash": "f03c786251d6d028",
+      "texto": "Poursuivez vers l’ouest de la place, jusqu’aux arcades du Portail des Marchands, où le commerce occupe le rez-de-chaussée depuis des siècles."
+    },
+    "guion_corto": {
+      "hash": "bd131a35469e8889",
+      "texto": "Pourquoi une place a-t-elle des arcades ? Ici, la réponse est pratique : pour vendre à l’abri. En mille cinq cent vingt-quatre, le conseil municipal a autorisé les propriétaires des terrains à construire des portails. Ils pouvaient les louer à des commerçants. Les arcades ont commencé à s’élever en mille cinq cent vingt-sept. En mille cinq cent trente-deux, il y avait déjà des boutiques de draps. Les arcades que vous voyez aujourd’hui ne sont pas celles-là : les façades ont été refaites dans les années cinquante du vingtième siècle, en style néocolonial, avec du tezontle rougeâtre et de la pierre de taille grise. Mais la vocation reste la même, car sous ces arcades, il y a encore des bijouteries et des commerces. Ce tronçon se parcourt librement, sur le trottoir et sans se presser."
+    },
+    "guion_largo": {
+      "hash": "ef36e77e745d950b",
+      "texto": "Un portail est une galerie à arcades qui protège du soleil et de la pluie. Ici, les portails étaient loués à des commerçants. Peut-être servaient-ils aussi contre les inondations, un fléau que la ville connaissait bien. Les arcades ont été commencées en mille cinq cent vingt-sept, sous la direction de Melchor Dávila, et achevées vers mille cinq cent vingt-neuf.\n\nLe négoce est arrivé vite. Avec le temps, les draps ont dominé presque toute l’arcade. Après l’Indépendance, le nom de Portail des Marchands s’est répandu. En mille six cent soixante-treize, une partie a été cédée aux Augustins pour un usage commercial. C’est pourquoi ce tronçon a été connu sous le nom de Portail des Augustins. Au dix-huitième siècle, on y vendait déjà presque de tout. Même les noms des rues parlent de ce commerce : la rue qui porte aujourd’hui le nom du Seize Septembre s’appelait Tlapaleros, et celle qui porte aujourd’hui le nom de Madero, rue des Orfèvres.\n\nL’arcade s’est développée pendant des siècles sans plan préalable et n’a reçu d’ordonnancement qu’en mille sept cent cinquante-quatre. Elle a été refaite plus d’une fois, et chaque époque a laissé sa trace dans les arcades, dans les boutiques et dans les noms des rues voisines.\n\nTandis que vous marchez sous les arcades, imaginez le bruit des cris des vendeurs et le mouvement des marchandises : des tissus, des draps et des objets de toutes sortes qui changeaient de mains chaque jour.\n\nPrès d’ici se dressait le Parián, un grand marché sur le côté sud-ouest de la place. Il a été construit entre mille six cent quatre-vingt-quinze et mille sept cent trois. Il a été pillé en mille huit cent vingt-huit et démoli sur ordre de Santa Anna en mille huit cent quarante-trois. Le portail a survécu à bien des épreuves : des tremblements de terre, des inondations, des soulèvements militaires et des émeutes populaires.\n\nAu milieu du dix-neuvième siècle, la rue des Orfèvres, que vous connaissez aujourd’hui sous le nom de Madero, a été ouverte et a coupé le portail en deux. Le tronçon nord a fini par disparaître. En mille huit cent quatre-vingt-quinze, des parties du portail ont été démolies en raison de leur mauvais état, il a été rénové et la place a été débarrassée de ses étals. Plus tard, au milieu du vingtième siècle, les façades ont été refaites en style néocolonial, avec du tezontle, la pierre volcanique rouge, et de la pierre de taille. Ce que vous voyez est un mélange : une arcade aux racines du seizième siècle et des façades du vingtième.\n\nIl y a aussi une histoire de foi. Un événement considéré comme miraculeux a donné naissance à une dévotion populaire. C’est celle d’un Christ de la Patience, connu sous le nom de Saint Ecce Homo du Portail.\n\nEt la vie commerciale continue. Il y a des bijouteries et des commerces, dont une chapellerie qui a plus d’un siècle d’histoire. Les boutiques conservent la vocation qu’avait l’arcade depuis ses premières années. Si vous avez parcouru la [rue de Madero](cdmx_17_calle_madero) le premier jour, vous bouclez ici la boucle : cette rue d’orfèvres et cette arcade de marchands faisaient partie, il y a des siècles, d’un même monde de boutiques autour de la place."
+    },
+    "retos_observacion": {
+      "hash": "f6dfc3ff1878c252",
+      "texto": [
+        "Marchez sous l’arcade et remarquez comment le toit vous protège du soleil et de la pluie, tout comme les marchands",
+        "Cherchez le contraste entre le tezontle rougeâtre et la pierre de taille grise sur les façades",
+        "Repérez l’endroit où l’arcade se termine, près de l’avenue du Seize Septembre"
+      ]
+    },
+    "especificaciones": {
+      "hash": "13c4735567aa84c1",
+      "texto": {
+        "Époque": "ordonnance de 1524, arcades de 1527 à 1529",
+        "Constructeur initial": "Melchor Dávila, 1527",
+        "Façades actuelles": "refaites dans les années cinquante du XXe siècle, style néocolonial",
+        "Ancien nom d’un tronçon": "Portail des Augustins, depuis 1673",
+        "Emplacement": "côté ouest du Zócalo, jusqu’à l’avenue du 16 Septembre"
+      }
+    },
+    "faq_mito": {
+      "hash": "57dd0762d4837353",
+      "texto": {
+        "pregunta": "Mythe : Ces arcades sont les mêmes que celles construites au XVIe siècle.",
+        "respuesta": "Réalité : Le portail a été refait plusieurs fois ; il y a eu des démolitions partielles en 1895, l’ouverture de la rue des Orfèvres l’a divisé au XIXe siècle et les façades actuelles datent des années cinquante du XXe siècle."
+      }
+    }
+  }
+}

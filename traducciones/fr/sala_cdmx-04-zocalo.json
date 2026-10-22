@@ -1,0 +1,22 @@
+{
+  "id": "cdmx-04-zocalo",
+  "tipo": "sala",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "a91a164355e5a9b2",
+      "texto": "Zócalo, cathédrale métropolitaine et Palais national"
+    },
+    "frase_gancho": {
+      "hash": "835c776c8b8aa080",
+      "texto": "La plus grande place de la ville et les édifices où s’est décidée une bonne partie de l’histoire du pays."
+    },
+    "introduccion_narrativa": {
+      "hash": "23c94ed6e751b0d3",
+      "texto": "Vous arrivez au Zócalo, la grande place de Mexico. Tout autour se trouvent la cathédrale métropolitaine et le Sagrario, le Palais national, l’ancien hôtel de ville, les portiques des marchands, le Gran Hotel Ciudad de México et le Nacional Monte de Piedad. Dans ce secteur, il y a neuf étapes. Certaines sont des édifices que l’on voit bien depuis la place, et d’autres ont des intérieurs qui méritent d’être découverts. Ici, le sol cache une autre ville : la capitale mexica, qui se trouvait juste en dessous."
+    }
+  }
+}

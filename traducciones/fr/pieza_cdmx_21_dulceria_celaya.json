@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_21_dulceria_celaya",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "11e1e60aed5d27a7",
+      "texto": "Confiserie de Celaya : des douceurs depuis mille huit cent soixante-quatorze"
+    },
+    "frase_gancho": {
+      "hash": "35e03e2b5ec8a1fe",
+      "texto": "Pourquoi une confiserie de la capitale porte-t-elle le nom d’une ville de Guanajuato ? La réponse se trouve dans le caramel au lait."
+    },
+    "puente_narrativo": {
+      "hash": "c8ebf60ba9497789",
+      "texto": "Poursuivez vers la rue Tacuba et cherchez, près de son croisement avec la rue Isabel la Católica, le café qui a ouvert ses portes en mille neuf cent douze."
+    },
+    "como_llegar": {
+      "hash": "8fd51d63437bdc53",
+      "texto": "Montez d’un pâté de maisons par la rue Isabel la Católica jusqu’à l’avenue Cinco de Mayo, tournez vers l’ouest et cherchez, en direction de la rue Motolinia, une confiserie riche de plus d’un siècle d’histoire."
+    },
+    "guion_corto": {
+      "hash": "7ec0e7f88625e18a",
+      "texto": "Pourquoi une confiserie de la capitale porte-t-elle le nom d’une ville de Guanajuato ? Parce que Celaya est célèbre pour ses douceurs, surtout pour son caramel au lait, et que la famille Guízar a voulu rendre hommage à cette ville. La boutique a ouvert en mille huit cent soixante-quatorze, dans l’ancienne rue de Plateros, aujourd’hui rue Madero. Vers l’an mille neuf cents, elle a déménagé avenue Cinco de Mayo. Ici, une plaque du gouvernement de la ville dit quelque chose de précis. La marquise de la boutique est la plus ancienne qui existe dans la ville. Cherchez cette inscription au-dessus de l’entrée, et remarquez qu’elle parle de la marquise, pas des douceurs."
+    },
+    "guion_largo": {
+      "hash": "1b12c53aec4f474d",
+      "texto": "Cette confiserie est née d’une question de commerçants : où se trouvait le meilleur caramel au lait du pays ? L’histoire de la maison raconte que la famille Guízar l’a cherché et l’a trouvé à Celaya, dans l’État de Guanajuato. C’est pourquoi la boutique, ouverte en mille huit cent soixante-quatorze, porte le nom de cette ville.\n\nSon premier domicile se trouvait dans l’ancienne rue de Plateros, aujourd’hui rue Madero, celle que vous venez de parcourir. Elle y a fonctionné environ vingt-six ans. Vers l’an mille neuf cents, elle a déménagé dans ce local de l’avenue Cinco de Mayo, où elle se trouve encore. C’était l’époque où cette rue était en cours d’aménagement, au début du vingtième siècle. Quand la Casa Boker, que vous verrez plus loin, a été inaugurée, la boutique avait déjà plus de vingt ans d’existence.\n\nLes douceurs ont leur propre histoire. De nombreuses recettes viennent de la pâtisserie des couvents de la Nouvelle-Espagne. Les religieuses élaboraient des friandises que les confiseurs ont peu à peu conservées et transmises de génération en génération. La production continue de se faire de manière traditionnelle. Dans les vitrines, il y a des fondants au lait, des meringues, des friandises à la noix de coco, des nougats, des nougatines de graines de courge, des princes de noix, des soupirs et des fruits confits. C’est une façon de voir comment la cuisine des couvents a fini par entrer dans la vie quotidienne de la ville.\n\nVoici maintenant l’information que vous pouvez vérifier de vos propres yeux. Dans la boutique, il y a une plaque posée par le Gouvernement de Mexico. Elle dit, textuellement, que la marquise de cette boutique, fondée en mille huit cent soixante-quatorze, est la plus ancienne qui existe dans la ville. Remarquez la précision. La plaque parle de la marquise, cet élément qui couvre l’entrée et porte l’enseigne. Elle n’affirme pas qu’il s’agisse du plus ancien commerce de la capitale. C’est un bon exemple de la façon dont il convient de lire les plaques avec attention.\n\nLa décoration intérieure conserve l’air de l’époque porfirienne. Les vitrines, la décoration et l’enseigne de la façade gardent l’aspect du temps des fondateurs. Vous pouvez jeter un coup d’œil depuis l’entrée ; entrer ou acheter relève d’une décision personnelle et ne fait pas partie du parcours.\n\nLa maison se vante en outre d’être restée ouverte depuis sa fondation, y compris pendant la Révolution. C’est une tradition familiale qui en est aujourd’hui à sa cinquième génération.\n\nCette étape rejoint d’autres étapes de la journée. La rue Madero, où le commerce est né, est celle que vous venez de parcourir. Le Café de Tacuba, votre prochaine étape, est un autre exemple de commerce qui a dépassé les cent ans. Et la Casa Boker, plus loin, raconte l’autre visage du commerce de l’époque porfirienne, celui de la quincaillerie et des importations.\n\nAvant de poursuivre, regardez vers le haut. Dans ces rues, les étages supérieurs des bâtiments conservent souvent des détails que les enseignes du bas dissimulent. Une confiserie comme celle-ci rappelle que le Centre historique ne garde pas seulement des églises et des palais. Il garde aussi des métiers et des recettes qui se transmettent d’une famille à l’autre."
+    },
+    "retos_observacion": {
+      "hash": "9b09622de6f93ea0",
+      "texto": [
+        "Repérez la plaque du gouvernement de la ville qui parle de la plus ancienne marquise",
+        "Cherchez l’enseigne et la marquise au-dessus de l’entrée et comparez-les avec celles des boutiques voisines",
+        "Regardez les étages supérieurs du bâtiment et comparez leur façade avec celle des locaux du trottoir d’en face"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3007e5278e97eb4",
+      "texto": {
+        "Fondation": "1874",
+        "Fondateurs": "famille Guízar",
+        "Premier siège": "rue de Plateros, aujourd’hui rue Madero ; depuis environ 1900 avenue Cinco de Mayo",
+        "Emplacement": "avenue Cinco de Mayo 39, Centre historique",
+        "Plaque du gouvernement de la ville": "la marquise est la plus ancienne qui existe dans la ville",
+        "Information clé": "le nom rend hommage à Celaya, dans l’État de Guanajuato, pour son caramel au lait"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e498f48c4eda66f",
+      "texto": {
+        "pregunta": "Mythe : La Confiserie de Celaya est officiellement la plus ancienne confiserie de la ville.",
+        "respuesta": "Réalité : La plaque de la boutique affirme quelque chose de plus limité : que sa marquise, celle d’une boutique fondée en mille huit cent soixante-quatorze, est la plus ancienne qui existe dans la ville. La plaque ne prouve pas qu’il s’agisse du plus ancien commerce."
+      }
+    }
+  }
+}

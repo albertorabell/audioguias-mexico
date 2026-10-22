@@ -1,0 +1,55 @@
+{
+  "id": "chap_18_recamara_carlota",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b684f52114147af1",
+      "texto": "Chambre de Charlotte"
+    },
+    "frase_gancho": {
+      "hash": "4161408d79597900",
+      "texto": "Les meubles français de cette chambre ont longtemps passé pour avoir appartenu à Charlotte, mais le musée raconte une tout autre histoire."
+    },
+    "puente_narrativo": {
+      "hash": "dfa5ddeee1eceb1c",
+      "texto": "Poursuivez vers le cabinet de toilette, où l’eau du bain arrivait à dos de mule ou en charrette depuis les sources de la colline."
+    },
+    "guion_corto": {
+      "hash": "c7ed139f0d34231f",
+      "texto": "Une erreur de bonne foi marque cette chambre. Le président Manuel González a acquis un mobilier de chambre français de style Boulle parce qu’il croyait qu’il avait appartenu à Charlotte. Le musée le présente aujourd’hui comme une attribution erronée. Le lit en laiton, en revanche, est bien celui de Maximilien, et il est resté au Château après sa mort. Charlotte arriva dans la capitale en juin mille huit cent soixante-quatre, à l’âge de vingt-trois ans. Elle fonda des maisons de bienfaisance et présida le Conseil des ministres quand son mari était loin. En mille huit cent soixante-six, elle se rendit en Europe pour demander une aide qui ne vint jamais, et elle ne revint pas au Mexique."
+    },
+    "guion_largo": {
+      "hash": "b02f8c8fab32e62b",
+      "texto": "Cette chambre porte le nom de Charlotte, mais son histoire est pleine d’embrouilles. Selon le musée, le président Manuel González a acquis une chambre française de style Boulle. Ce nom vient d’un ébéniste du dix-septième siècle qui travailla pour la cour de Louis Quatorze et mit à la mode les incrustations de laiton. González croyait que ces meubles avaient appartenu à Charlotte, et il n’en était rien. Avec le temps, la pièce a changé plusieurs fois de fonction. La frise chronologique du musée l’enregistre comme chambre en mille huit cent quatre-vingt-deux. En mille neuf cent six, elle apparaît comme chambre bleue, sous Porfirio Díaz. En mille neuf cent trente-deux, elle figure déjà comme chambre de Charlotte.\n\nQue sont alors devenus les meubles authentiques ? Maximilien possédait trois résidences : le Palais impérial, qui est aujourd’hui le Palais national, Chapultepec et la Quinta Borda, à Cuernavaca. Toutes étaient remplies de tapisseries, de tapis, de vaisselles et d’ornements européens achetés fort cher. À la fin de mille huit cent soixante-six, en quittant Mexico, Maximilien ordonna de démanteler ses palais. Le lit en laiton faisait partie de ce qui resta au Château.\n\nPour comprendre la femme qui donne son nom à cette pièce, il faut revenir à sa jeunesse. Marie Charlotte Amélie, princesse de Belgique, épousa Maximilien à dix-sept ans. Elle était la fille du roi Léopold de Belgique et la cousine de Victoria, souveraine d’Angleterre. Elle étudia la religion catholique, les sciences, l’art et la politique, et, avant son voyage, elle révisa l’histoire du Mexique. Le musée raconte que sa curiosité pour les coutumes du pays irritait certaines de ses dames d’honneur mexicaines. Elle arriva dans la capitale en juin mille huit cent soixante-quatre, à vingt-trois ans.\n\nÀ Chapultepec, sa vie fut faite de beaucoup de travail. Elle fonda des maisons de bienfaisance pour les classes nécessiteuses. Quand Maximilien voyageait, elle présidait des conseils et recevait des ministres et des ambassadeurs. Selon National Geographic, elle donnait aussi des audiences publiques le dimanche et chercha une voie moyenne entre conservateurs et libéraux, même si elle finit par s’éloigner des deux camps.\n\nEn mille huit cent soixante-six, elle quitta le Mexique pour demander du soutien en Europe. Elle rencontra Napoléon Trois, qui refusa de continuer à soutenir l’entreprise, puis le pape Pie Neuf, qui ne l’appuya pas non plus. C’est alors que sa santé mentale se brisa. Elle croyait qu’on voulait l’empoisonner et se méfiait de presque tout le monde. Elle passa un temps confinée au château de Miramar, puis à celui de Bouchout, près de Bruxelles. Elle y mourut le dix-neuf janvier mille neuf cent vingt-sept, à quatre-vingt-six ans, après une soixantaine d’années de réclusion.\n\nEntre-temps, Maximilien fut fusillé à Querétaro en mille huit cent soixante-sept, alors qu’elle se trouvait déjà en Europe. Pour mieux connaître l’homme dont les décisions l’ont menée à ce voyage, visitez plus loin l’étape de [Maximilien à Chapultepec](chap_20_recamara_maximiliano). Et pour la politique qui entourait l’Empire, rappelez-vous le [carrosse de Juárez](chap_07_carruaje_juarez), le président dont le gouvernement ne reconnut jamais l’empire."
+    },
+    "retos_observacion": {
+      "hash": "41ba52913e2e679f",
+      "texto": [
+        "Cherchez le lit en laiton : le musée l’associe à Maximilien",
+        "Observez les incrustations de laiton des meubles de style Boulle",
+        "Cherchez sur le cartel la frise chronologique qui va de mille huit cent soixante-six à mille neuf cent trente-deux"
+      ]
+    },
+    "especificaciones": {
+      "hash": "dcb060b7b56d3481",
+      "texto": {
+        "Personnage": "Charlotte de Belgique, épouse de Maximilien ; arrivée dans la capitale en juin 1864",
+        "Mobilier": "chambre française de style Boulle, acquise par Manuel González, qui croyait qu’elle avait appartenu à Charlotte",
+        "Lit": "en laiton, associé à Maximilien",
+        "Registre du musée": "chambre bleue en 1906 et chambre de Charlotte en 1932",
+        "Emplacement": "Alcazar, rez-de-chaussée"
+      }
+    },
+    "faq_mito": {
+      "hash": "75e991612651b21b",
+      "texto": {
+        "pregunta": "Mythe : Charlotte a perdu la raison parce qu’au Mexique on lui aurait donné une tisane de toloache ou de champignons hallucinogènes.",
+        "respuesta": "Réalité : cette explication n’a jamais été prouvée. Sa crise a éclaté en Europe, en mille huit cent soixante-six, après le refus de Napoléon Trois et du pape Pie Neuf, et sa psychose reste sans explication médicale confirmée. L’idée du champignon a été suggérée par l’écrivain Fernando del Paso en mille neuf cent quatre-vingt-sept."
+      }
+    }
+  }
+}

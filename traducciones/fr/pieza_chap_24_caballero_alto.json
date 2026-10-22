@@ -1,0 +1,55 @@
+{
+  "id": "chap_24_caballero_alto",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2f75f1f51c4efe5a",
+      "texto": "Le Caballero Alto, tour et premier observatoire"
+    },
+    "frase_gancho": {
+      "hash": "daf1ed1e5f285cb3",
+      "texto": "On dirait une tour médiévale, mais elle a été élevée dans les années 1840 et est devenue le premier Observatoire astronomique national."
+    },
+    "puente_narrativo": {
+      "hash": "ce931520fe8a4a8b",
+      "texto": "Poursuivez le parcours vers les terrasses du château. Là, la colline descend vers le bois et l’on se souvient de la défense de septembre mil huit cent quarante-sept."
+    },
+    "guion_corto": {
+      "hash": "ab56b933935ba35a",
+      "texto": "On dirait une tour médiévale, mais elle a moins de deux cents ans. Le Caballero Alto a été élevé sur la partie la plus haute de la colline. C’est lors des travaux commencés en 1841, quand l’édifice était aménagé en Collège militaire. Il a donné à l’ensemble un aspect de forteresse, et c’est de là qu’est venu le nom de château. Des décennies plus tard, il a connu une autre vie. En 1878, il a reçu une coupole et le télescope principal du premier Observatoire astronomique national. Les astronomes y ont travaillé jusqu’en 1883. Cette année-là, ils se sont installés à Tacubaya, et le château a pu redevenir une école militaire."
+    },
+    "guion_largo": {
+      "hash": "f69056f45b717a56",
+      "texto": "L’endroit où se dresse cette tour avait déjà une histoire avant l’existence du château. Selon un cartel du musée, il y avait autrefois au sommet un temple préhispanique. Au XVIe siècle, on y a construit une chapelle dédiée à saint Michel Archange, démolie au XVIIIe siècle. Puis est venue la tour. Le même cartel la date des environs de 1842. Il indique qu’elle se trouve à environ quarante-cinq mètres au-dessus du niveau de Mexico.\n\nCette hauteur explique sa fonction d’origine. Depuis Chapultepec, on domine le bassin de Mexico, et un bulletin de l’INAH rappelle que la colline a toujours été un point stratégique pour les campagnes militaires. Quand l’édifice a été aménagé pour le Collège militaire, la tour a complété l’image de forteresse. De la défense du château en 1847, parlent l’arrêt consacré à l’[intervention](chap_08_intervencion_1847) et la [terrasse des Niños Héroes](chap_25_terraza_ninos_heroes).\n\nLa seconde vie de la tour a commencé par une question scientifique. En 1874, un transit de Vénus a mené une commission mexicaine jusqu’au Japon. À son retour, ses membres ont annoncé que le transit suivant, celui de 1882, serait visible depuis le Mexique. Cela a poussé à la création d’un observatoire. Le 18 décembre 1876, le ministre du Développement Vicente Riva Palacio a confié une mission. L’ingénieur Ángel Anguiano devait le reconstruire dans le château. Cette date est considérée comme celle de la fondation de l’Observatoire astronomique national.\n\nLes travaux ont commencé en 1877. Sur le Caballero Alto, on a élevé une coupole, qui selon le cartel était en métal et en verre et a duré jusqu’au début du XXe siècle. Le 5 mai 1878, il y a eu une inauguration solennelle. L’historien de l’astronomie Felipe Valle mentionne que l’édifice a fini par avoir un bureau télégraphique et une bibliothèque. Les premiers instruments comprenaient une lunette zénithale, un petit altazimut et un pendule sidéral, selon un article de la Revista de la Universidad de México. Pour monter jusqu’à cet étage, on a agrandi la terrasse et ouvert un accès, à l’origine de l’[Escalier des Lions](chap_13_escalera_leones).\n\nLes astronomes ne sont restés que peu de temps. En 1881, Anguiano est parti en Europe pour obtenir des instruments et visiter des observatoires. Peu après le transit de Vénus de 1882, l’observatoire a déménagé dans l’ancien Palais de l’Archevêché, à Tacubaya. Le Musée national d’histoire indique le motif officiel : que le château redevienne Collège militaire. Valle ajoute qu’Anguiano a demandé de l’aide à Porfirio Díaz pour reporter le déménagement après le transit.\n\nAinsi, une tour conçue pour surveiller la vallée a ensuite servi à étudier le ciel. Aujourd’hui, la tour est un symbole du château. Son histoire, pourtant, est celle de plusieurs institutions qui se sont succédé sur la colline : école militaire, observatoire, résidence présidentielle et musée. Si vous venez du [jardin](chap_23_jardin_alcazar) ou du [bureau de Díaz](chap_22_despacho_presidencial), rappelez-vous que toutes ces époques partagent la même colline."
+    },
+    "retos_observacion": {
+      "hash": "d62e8c304b97fdb9",
+      "texto": [
+        "Levez les yeux vers le couronnement de la tour et cherchez la silhouette cylindrique qui donne au château son aspect de forteresse",
+        "Comparez ses murs avec le style de palais de l’Alcázar : ce sont des ouvrages d’époques différentes",
+        "Regardez vers l’horizon depuis l’endroit où vous êtes et estimez quelle part de la vallée on dominait depuis le point le plus haut de la colline"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2625759213b59caa",
+      "texto": {
+        "Nom": "Caballero Alto, tour du château de Chapultepec",
+        "Construction": "travaux commencés en 1841 ; le cartel du musée la date des environs de 1842, dans le cadre du Collège militaire",
+        "Hauteur": "partie la plus haute de la butte, environ 45 m au-dessus du niveau de Mexico",
+        "Observatoire": "commandé le 18 décembre 1876, inauguré le 5 mai 1878",
+        "Transfert de l’observatoire à Tacubaya": "1883"
+      }
+    },
+    "faq_mito": {
+      "hash": "72210ac36231c515",
+      "texto": {
+        "pregunta": "Mythe : Le Caballero Alto est une tour médiévale ou de l’époque vice-royale, bien plus ancienne que le reste du palais.",
+        "respuesta": "Réalité : Selon le Musée national d’histoire, elle a été élevée lors des travaux commencés en 1841 pour le Collège militaire, et le cartel de l’Alcázar la date des environs de 1842 ; son aspect de forteresse est à l’origine du nom de château."
+      }
+    }
+  }
+}

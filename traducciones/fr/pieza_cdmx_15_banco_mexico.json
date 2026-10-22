@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_15_banco_mexico",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "82a1631a4715e9c5",
+      "texto": "Banque du Mexique : de la Mutuelle au siège de la banque centrale"
+    },
+    "frase_gancho": {
+      "hash": "00373db394279738",
+      "texto": "Un édifice construit pour une compagnie d’assurances de New York a fini par devenir le siège de la banque centrale du Mexique."
+    },
+    "puente_narrativo": {
+      "hash": "140c303f49b083a9",
+      "texto": "Poursuivez vers l’angle de l’Eje Central et de Madero, où le temple de [Saint-François](cdmx_16_san_francisco_gante) garde une histoire plus ancienne que celle de la banque."
+    },
+    "como_llegar": {
+      "hash": "babe28bff7205673",
+      "texto": "Prenez la ruelle de la Condesa, qui longe la maison, jusqu’à l’avenue Cinco de Mayo ; à deux pas de l’Eje Central, l’[édifice de la Banque du Mexique](cdmx_15_banco_mexico) vous attend."
+    },
+    "guion_corto": {
+      "hash": "470b18f8584c8ea3",
+      "texto": "La chambre forte de cet édifice a des murs, un plafond et un sol de plus de deux mètres d’épaisseur. Ce que vous voyez au coin de la rue semble fait pour une banque, mais il n’est pas né comme tel. Il a été construit entre mille neuf cent trois et mille neuf cent cinq pour une compagnie d’assurances de New York que tout le monde appelait la Mutuelle. Des années plus tard, la Banque du Mexique l’a acheté, et le douze octobre mille neuf cent vingt-sept, il a été inauguré comme son siège. À l’extérieur, il conserve un air néoclassique, avec de grandes colonnes ioniques. À l’intérieur, l’architecte Carlos Obregón Santacilia l’a transformé avec des finitions art déco. Aujourd’hui, il abrite aussi un musée pour comprendre comment fonctionne l’argent."
+    },
+    "guion_largo": {
+      "hash": "31ca124d6d7da615",
+      "texto": "Le Mexique a tardé à se doter d’une banque centrale. La Constitution de mille neuf cent dix-sept prévoyait une banque unique, dotée de la faculté d’émettre la monnaie. La Banque du Mexique a commencé à exister en mille neuf cent vingt-cinq. Il lui fallait une maison à elle, et elle l’a trouvée ici. Un décret du quatre août de cette année-là a autorisé l’achat de cet édifice, à l’angle de Cinco de Mayo et de l’actuel Eje Central.\n\nL’édifice existait déjà. Il a été construit entre mille neuf cent trois et mille neuf cent cinq par l’architecte Theodore de Lemos et l’ingénieur Gonzalo Garita y Frontera. Il était destiné à une compagnie d’assurances de New York, la Mutual Life, que l’on appelait la Mutuelle.\n\nPour en faire une banque, l’architecte Carlos Obregón Santacilia et l’ingénieur Federico Ramos l’ont remodelé en mille neuf cent vingt-six. Ils ont conservé une partie de la façade de l’époque porfirienne et créé un intérieur art déco. Le président Plutarco Elías Calles a présidé l’inauguration le douze octobre mille neuf cent vingt-sept. Un jour auparavant, la banque avait transféré dans cet édifice ses réserves d’or et d’argent, plus de vingt millions de pesos, depuis l’édifice de la Banque de Londres.\n\nDepuis la rue, vous pouvez lire l’édifice. La façade symétrique donne sur Cinco de Mayo. Quatre grandes colonnes ioniques montent du premier au troisième étage, avec des fenêtres en plein cintre entre elles. Au-dessus de l’entrée se trouvent deux figures en pierre calcaire, un homme et une femme, œuvre du sculpteur originaire de Puebla Manuel Centurión. Elles représentent le travail et l’abondance, et encadrent le nom de la banque. Auparavant, il y avait là des cariatides, qui ont été retirées.\n\nSi vous entrez dans le musée, vous découvrirez une autre partie de l’histoire. Le vestibule compte huit colonnes d’environ neuf mètres. Elles sont en marbre noir veiné d’or, venu de Portoro, en Italie, sur des bases en marbre belge. Il y a aussi un escalier à balustres de bronze.\n\nLa chambre forte est une autre histoire. Les murs, le plafond et le sol mesurent plus de deux mètres d’épaisseur, en béton armé avec de l’acier. La porte pèse environ cinquante-neuf tonnes.\n\nIl y a une autre histoire que le musée raconte aussi. En mille neuf cent trente-cinq, le directeur de la banque a commandé au muraliste Fermín Revueltas un vitrail pour l’escalier du vestibule. Revueltas est mort cette année-là et l’œuvre est restée inachevée. Le musée propose une recréation numérique de ses couleurs.\n\nL’édifice a été déclaré Monument artistique le quatre mai mille neuf cent quatre-vingt-sept. En deux mille vingt et un, il a connu une restauration qui a retiré des installations et des cloisons de bureau et a restitué des espaces du vestibule, de l’entresol et des chambres fortes.\n\nSi vous décidez d’entrer, le Musée de la Banque du Mexique occupe cet édifice et explique comment fonctionne l’argent et ce que fait une banque centrale. Il conserve en outre une collection numismatique que le musée lui-même considère comme l’une des plus importantes du monde. Consultez ses horaires et ses conditions d’accès en vigueur avant d’y aller.\n\nEn poursuivant votre chemin, gardez à l’esprit que cet édifice a connu deux vies. Il a d’abord été le bureau d’une compagnie d’assurances étrangère de l’époque porfirienne. Puis, une fois la Révolution terminée, il est devenu la maison de la banque centrale, qui ouvre aujourd’hui ses portes pour expliquer ce qu’elle fait."
+    },
+    "retos_observacion": {
+      "hash": "91f47436dbf6443e",
+      "texto": [
+        "Comptez les grandes colonnes ioniques qui montent le long de la façade de Cinco de Mayo",
+        "Cherchez au-dessus de l’entrée les deux figures de pierre, un homme et une femme, et le nom de la banque entre elles",
+        "Observez les fenêtres en plein cintre situées entre les colonnes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cc4b3dc0898bffb4",
+      "texto": {
+        "Époque": "Construit entre 1903 et 1905 ; remodelé en 1926 et inauguré comme siège de la banque le 12 octobre 1927",
+        "Auteur": "Theodore de Lemos (édifice d’origine) ; Carlos Obregón Santacilia et Federico Ramos (remodelage)",
+        "Style": "Éclectique, extérieur néoclassique et intérieur art déco",
+        "Emplacement": "Av. 5 de Mayo 2, à l’angle de l’Eje Central Lázaro Cárdenas",
+        "Information clé": "Sculptures de Manuel Centurión au-dessus de l’entrée",
+        "Classement": "Monument artistique, 4 mai 1987"
+      }
+    },
+    "faq_mito": {
+      "hash": "f2c5ddbc6794ae60",
+      "texto": {
+        "pregunta": "Mythe : Les chambres fortes de cet édifice gardent toujours l’or du Mexique.",
+        "respuesta": "Réalité : Les chambres fortes du sous-sol ont été conçues pour protéger des valeurs, et aujourd’hui le musée a récupéré ces espaces. En 1927, la banque a transféré ses réserves dans cet édifice, mais cela ne signifie pas qu’elles s’y trouvent aujourd’hui."
+      }
+    }
+  }
+}

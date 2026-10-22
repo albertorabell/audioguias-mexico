@@ -1,0 +1,54 @@
+{
+  "id": "chap_04_encuentro_conquista",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "478bfdd9e731deee",
+      "texto": "Deux mondes et le Tzompantli de Tecoaque"
+    },
+    "frase_gancho": {
+      "hash": "c9e86832374112c3",
+      "texto": "Douze crânes perforés en mille cinq cent vingt et un, qui confirment les chroniques les plus crues de la Conquête."
+    },
+    "puente_narrativo": {
+      "hash": "2b223e60afd5db89",
+      "texto": "Avancez vers la salle suivante, où le fracas de la guerre cède la place à trois siècles de navires chargés d’argent, de soies de Manille et de haciendas vice-royales."
+    },
+    "guion_corto": {
+      "hash": "5532a0891bb67dc3",
+      "texto": "En franchissant la porte de l’ancien Collège militaire, vous entrez dans les premières salles du Musée national d’Histoire, consacrées au choc entre deux mondes qui avaient vécu séparés par un océan jusqu’à la fin du quinzième siècle. Entre armures de fer, épées castillanes et reliefs préhispaniques, arrêtez-vous devant la vitrine la plus saisissante de la salle : le Tzompantli, ou autel de crânes, provenant de Tecoaque, dans l’État de Tlaxcala. Vous y verrez alignés douze crânes bien réels, perforés aux tempes en l’an mille cinq cent vingt et un : cinq appartiennent à des soldats espagnols du convoi de Juan de Yuste et sept à des guerriers indigènes cempoaltèques qui marchaient comme alliés de Hernán Cortés."
+    },
+    "guion_largo": {
+      "hash": "88e53afaa19ebbcd",
+      "texto": "Pour comprendre cette salle, il faut regarder les deux camps sans légende rose ni noire, comme le montrent les pièces qui se trouvent devant vous. Du côté mésoaméricain, il n’existait pas un seul pays uni, mais une mosaïque de seigneuries ou altépetl autonomes ; les Mexicas dominaient par les armes une grande partie du territoire, levant des tributs et capturant des guerriers pour le sacrifice, ce qui sema un profond ressentiment parmi les peuples soumis, qui allaient bientôt s’allier aux nouveaux venus. De l’autre côté de l’Atlantique arrivaient des hommes endurcis par des siècles de guerre contre l’islam, lors de la Reconquête de Grenade, et des survivants d’une Europe frappée par la faim et les épidémies, où un enfant sur trois mourait avant son premier anniversaire. Lorsque, en l’année ce-ácatl de mille cinq cent dix-neuf, la nouvelle parvint aux oreilles de Moctezuma Xocoyotzin que des tours, ou de petites collines, flottaient sur la mer, le tlatoani crut que s’accomplissaient les huit présages annonçant le retour de Quetzalcóatl. Mais la guerre qui éclata en mille cinq cent vingt et un fut implacable pour les deux camps : lorsque les Acolhuas de Tecoaque capturèrent un convoi espagnol qui allait de Veracruz vers Tenochtitlan, ils sacrifièrent les prisonniers et dressèrent leurs têtes sur ce Tzompantli, découvert par les archéologues en mai mille neuf cent quatre-vingt-treize, avant que Cortés n’envoie Gonzalo de Sandoval raser le village pour se venger."
+    },
+    "retos_observacion": {
+      "hash": "45271f30ff5dac4b",
+      "texto": [
+        "Approchez-vous de la vitrine du Tzompantli de Tecoaque et comptez les douze crânes perforés latéralement pour laisser passer la traverse de bois.",
+        "Observez les armes en acier, les casques et les plastrons européens, qui contrastent avec les sculptures de pierre mésoaméricaines.",
+        "Cherchez les cartels qui expliquent la signification d’altépetl (eau-montagne) et les huit présages de Moctezuma."
+      ]
+    },
+    "especificaciones": {
+      "hash": "785c6f120c4eb30e",
+      "texto": {
+        "Pièce centrale": "Tzompantli (« mur de crânes ») provenant de Tecoaque (ancienne Zultepec), Tlaxcala",
+        "Date des vestiges": "Début 1521 (découverts en mai 1993)",
+        "Composition de la découverte": "12 crânes (5 d’Espagnols de la compagnie de Juan de Yuste et 7 d’indigènes cempoaltèques alliés)",
+        "Emplacement": "Salles 1 et 2 (Deux continents isolés / À la veille du contact), rez-de-chaussée du MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "3e98c041d6edf348",
+      "texto": {
+        "pregunta": "Mythe : En 1519, il existait une seule nation mexicaine unie, et tous les peuples autochtones ont défendu ensemble Moctezuma contre les Espagnols.",
+        "respuesta": "Réalité : La Mésoamérique était divisée en seigneuries ou altépetl indépendants ; le sévère système de tributs et de guerres de capture imposé par les Mexicas a poussé les Cempoaltèques, les Tlaxcaltèques et d’autres peuples à voir dans les Espagnols une occasion de se libérer de Tenochtitlan."
+      }
+    }
+  }
+}

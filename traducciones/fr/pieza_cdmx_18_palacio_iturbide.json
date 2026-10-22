@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_18_palacio_iturbide",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ca786e6bd144c4fd",
+      "texto": "Palais d’Iturbide : la maison d’un empereur"
+    },
+    "frase_gancho": {
+      "hash": "847666b7b8341bdd",
+      "texto": "Dans ce palais a vécu Agustín de Iturbide, empereur du Premier Empire mexicain, pendant près d’un an et demi."
+    },
+    "puente_narrativo": {
+      "hash": "a99a21cf3ca279e8",
+      "texto": "Poursuivez par la rue Madero en direction du Zócalo jusqu’à l’angle de la rue Isabel la Católica, où se trouve l’église de [La Profesa](cdmx_19_la_profesa)."
+    },
+    "como_llegar": {
+      "hash": "ca8e83faa3ac4dc9",
+      "texto": "Poursuivez par la rue Madero jusqu’au numéro dix-sept, où le [Palais d’Iturbide](cdmx_18_palacio_iturbide) vous attend."
+    },
+    "guion_corto": {
+      "hash": "ef3728bf7bdcf13e",
+      "texto": "Ce palais a été construit entre mille sept cent soixante-dix-neuf et mille sept cent quatre-vingt-cinq. Son nom ne lui est venu que plus de trois décennies plus tard. Il a été conçu par l’architecte Francisco Antonio Guerrero y Torres pour une famille noble, et achevé par son beau-frère, Agustín Durán. La façade associe le tezontle rougeâtre à la pierre claire, et ses balcons reposent sur de petits atlantes. Agustín de Iturbide a vécu ici pendant près d’un an et demi, entre mille huit cent vingt et un et mille huit cent vingt-trois, lorsqu’il a été proclamé empereur. Le bâtiment a ensuite été collège, hôtel et, depuis mille neuf cent soixante-douze, siège de Promotion culturelle Banamex. Regardez les balcons et cherchez les figures qui les soutiennent."
+    },
+    "guion_largo": {
+      "hash": "c21d7d6794bfeb44",
+      "texto": "Ce palais a été construit lors de la dernière période de la vice-royauté, entre mille sept cent soixante-dix-neuf et mille sept cent quatre-vingt-cinq. Il fut commandé par don Miguel de Berrio y Zaldívar, qui cumulait deux titres : comte de San Mateo de Valparaíso et marquis de Jaral de Berrio. Il fut pensé comme cadeau de mariage pour sa fille, María Ana de Berrio, épouse de Pedro Moncada. C’est pourquoi on l’appelle parfois le palais Moncada.\n\nL’architecte Francisco Antonio Guerrero y Torres établit le projet, mais abandonna le chantier. Auparavant, des arcs et la voûte du vestibule s’étaient effondrés. Son beau-frère, Agustín Durán, l’acheva en mille sept cent quatre-vingt-cinq. Aujourd’hui, l’INAH le considère comme l’un des exemples les plus remarquables de l’architecture de la vice-royauté du dix-huitième siècle.\n\nLa façade raconte son style. Elle associe le baroque à des matériaux de la région, comme le tezontle, une pierre volcanique rougeâtre, et la pierre de chiluca. Elle comporte une galerie de cinq arcs, des balcons soutenus par de petits atlantes et un patio aux colonnes très fines.\n\nLe nom actuel vient de son hôte le plus célèbre. Agustín de Iturbide était entré dans la capitale à la tête de l’armée des Trois Garanties le vingt-sept septembre mille huit cent vingt et un. Dans la nuit du dix-huit mai mille huit cent vingt-deux, civils et soldats le proclamèrent empereur, sous l’impulsion de Pío Marcha. Le lendemain, le Congrès valida la proclamation. Iturbide fut couronné dans la [cathédrale](cdmx_27_catedral) le vingt et un juillet de cette année-là.\n\nIturbide et son épouse, Ana María, vécurent d’abord dans ce palais, situé alors rue de San Francisco. Ils s’installèrent ensuite dans l’ancien palais des vice-rois, aujourd’hui le Palais national. Iturbide abdiqua en mars mille huit cent vingt-trois. Beaucoup de gens croient qu’il a été couronné ici, mais ce n’est pas le cas. Ici, il a vécu. La proclamation a eu lieu de nuit, le Congrès l’a validée et la couronne lui a été posée dans la cathédrale.\n\nAprès l’époque impériale, le bâtiment a connu d’autres usages. Il a abrité des bureaux du gouvernement, un collège et un hôtel. Au milieu des années soixante du vingtième siècle, la Banque nationale de Mexico l’a acheté. En mille neuf cent soixante-douze, il est devenu le siège de Promotion culturelle Banamex. Après une restauration, il a été réinauguré en deux mille quatre comme centre culturel, le Palais de la Culture Banamex.\n\nAujourd’hui, c’est un centre culturel dont la programmation change. On apprécie bien le bâtiment depuis la rue : le grand portail, les balcons et les couleurs de la pierre. Si vous décidez d’entrer, renseignez-vous sur les horaires et les conditions en vigueur.\n\nLe palais est relié à d’autres étapes. Iturbide est arrivé dans la ville par cette même rue, à la tête de son armée. Un peu plus loin se trouve La Profesa, l’église où une tradition discutée situe les plans qui auraient mené à l’Indépendance. Et sur le Zócalo, la cathédrale fut le théâtre du couronnement."
+    },
+    "retos_observacion": {
+      "hash": "4286068be8ba568b",
+      "texto": [
+        "Cherchez les petites figures qui soutiennent les balcons, les atlantes",
+        "Comparez le rouge sombre de la pierre volcanique avec la pierre claire des encadrements",
+        "Repérez le grand portail et comptez les arcs de la galerie du niveau supérieur"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8fc400be2bd67236",
+      "texto": {
+        "Époque": "Construit entre 1779 et 1785",
+        "Auteur": "Francisco Antonio Guerrero y Torres ; achevé par Agustín Durán",
+        "Style": "Baroque de Nouvelle-Espagne, avec tezontle et pierre de taille",
+        "Emplacement": "Av. Francisco I. Madero 17, Centre historique",
+        "Donnée clé": "Résidence d’Agustín de Iturbide entre 1821 et 1823",
+        "Usage actuel": "Palais de la Culture Banamex, de Promotion culturelle Banamex"
+      }
+    },
+    "faq_mito": {
+      "hash": "79e8f0e1a3505899",
+      "texto": {
+        "pregunta": "Mythe : Agustín de Iturbide a été couronné empereur dans ce palais.",
+        "respuesta": "Réalité : Iturbide a vécu ici, mais il a été proclamé empereur la nuit du dix-huit mai mille huit cent vingt-deux, le Congrès l’a validé le lendemain et le couronnement a eu lieu le vingt et un juillet dans la cathédrale métropolitaine."
+      }
+    }
+  }
+}

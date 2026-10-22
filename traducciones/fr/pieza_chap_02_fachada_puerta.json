@@ -1,0 +1,56 @@
+{
+  "id": "chap_02_fachada_puerta",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a1635e04078536c3",
+      "texto": "L’entrée du Château et son origine vice-royale"
+    },
+    "frase_gancho": {
+      "hash": "525275c3f40a2f5b",
+      "texto": "On a dit que le vice-roi qui fit édifier ce bâtiment voulait se faire roi ; les documents racontent une tout autre histoire."
+    },
+    "puente_narrativo": {
+      "hash": "3712d97d74d58f8c",
+      "texto": "Poursuivez vers l’espace ouvert où les cadets du Collège militaire ont étudié et vécu. La cour des Canons vous y attend."
+    },
+    "guion_corto": {
+      "hash": "31b793ac0193eac3",
+      "texto": "Certains ont affirmé que le vice-roi Bernardo de Gálvez avait fait élever ce bâtiment comme forteresse, afin de se proclamer roi de la Nouvelle-Espagne. C’est une vieille histoire, et une étude de la UNAM l’écarte : aucun document ne montre que Gálvez ait aspiré à la couronne. Ce qui est documenté, c’est autre chose. Les travaux commencèrent en mille sept cent quatre-vingt-cinq, sous la direction des ingénieurs Francisco Bambitelli puis Manuel Agustín Mascaró. Gálvez mourut en mille sept cent quatre-vingt-six, et selon le musée, l’ouvrage resta inachevé. Lorsque la Couronne ordonna de vendre le terrain aux enchères, personne ne s’y intéressa. Cette retraite champêtre du dix-huitième siècle allait connaître ensuite bien des vies : collège militaire, palais impérial, résidence présidentielle et musée."
+    },
+    "guion_largo": {
+      "hash": "ccef97c094013df0",
+      "texto": "Bernardo de Gálvez naquit en mille sept cent quarante-six, à Macharaviaya, en Espagne. Avant d’arriver au Mexique, il était déjà connu comme militaire : il dirigea le siège de Pensacola, en Floride, qui s’acheva en mai mille sept cent quatre-vingt-un par une victoire espagnole. En mille sept cent quatre-vingt-cinq, il se rendit en Nouvelle-Espagne pour succéder à son père, Matías de Gálvez, comme vice-roi.\n\nL’idée d’un palais au sommet de Chapultepec était antérieure à son arrivée. Selon le Musée national d’Histoire, après l’explosion d’une poudrière voisine, les architectes proposèrent un nouveau palais sur les hauteurs. Ce fut sur ordre de Matías de Gálvez. Une étude de l’INAH signale que les plans furent présentés le vingt-neuf mai mille sept cent quatre-vingt-quatre. Avec Bernardo, en mille sept cent quatre-vingt-cinq, la construction commença. L’INAH le décrit comme une retraite champêtre, et non comme une forteresse.\n\nPuis vint la maladie. Un article de la UNAM sur son gouvernement raconte que les symptômes apparaissent dès juillet mille sept cent quatre-vingt-six. En octobre, il était déjà gravement malade, et on le transporta à Tacubaya. Il y mourut le trente novembre de cette année-là, à l’âge de quarante ans. Ses funérailles furent massives, et son corps resta exposé pendant trois jours devant un peuple qui, selon les chroniques, l’aimait beaucoup.\n\nDe là naquirent les rumeurs. Certains dirent qu’on l’avait empoisonné, même sur ordre du roi Charles III, pour l’empêcher de s’emparer du royaume. D’autres soutenaient qu’il avait construit ce bâtiment comme forteresse pour se faire couronner. L’auteur de l’étude les rejette. La maladie dura au moins quatre mois, et un poison lent aurait été remarqué par les médecins. De plus, aucun document ne suggère que Gálvez aspirât à la couronne. C’est un bon exemple de la manière dont la mort soudaine d’un personnage aimé peut se couvrir de légendes.\n\nSans le vice-roi, le palais perdit son promoteur. La Couronne suspendit les travaux et ordonna de vendre le terrain aux enchères, mais la vente échoua, car personne ne s’y intéressa. Ensuite, les ministres du Trésor royal vendirent les vitres, les portes et les fenêtres. En mille huit cent six, la municipalité de Mexico acquit l’immeuble.\n\nLe nom de Château vint bien plus tard. En mille huit cent trente-trois, on décida de faire du palais le siège du Collège militaire. En mille huit cent quarante et un, la reconstruction commença. On éleva alors une grosse tour, le Cavalier Haut, qui donna au bâtiment l’aspect d’une forteresse et fit qu’on l’appela Château. Plus loin, vous verrez le [Cavalier Haut](chap_24_caballero_alto).\n\nL’entrée aussi a changé au fil des époques. Sur le plan de mille sept cent quatre-vingt-cinq apparaît une entrée principale. Sous Maximilien, l’architecte Ramón Rodríguez Arangoity adapta le bâtiment en palais, entre mille huit cent soixante-quatre et mille huit cent soixante-sept. On ajouta des arcades et des balcons sur la façade sud. On construisit aussi un portique central de cinq arcs en plein cintre. En mille huit cent quatre-vingt-trois, lorsque le Collège militaire revint au Château, Porfirio Díaz s’en servit comme résidence d’été. C’est pourquoi la façade est une somme d’époques, plus que le résultat d’un seul projet.\n\nSi vous ne devez retenir qu’une idée, que ce soit celle-ci : le bâtiment qu’un vice-roi commença comme retraite champêtre a fini par devenir école, palais et musée."
+    },
+    "retos_observacion": {
+      "hash": "6493575589db9f2f",
+      "texto": [
+        "Comptez combien de types différents d’ouvertures vous voyez sur la façade : portes, fenêtres, balcons ou arcs",
+        "Comparez les murs pleins avec les parties plus légères et décorées, et demandez-vous laquelle semble la plus ancienne",
+        "Cherchez du regard, en hauteur, la grosse tour du Château, arrivée avec la reconstruction de mille huit cent quarante et un"
+      ]
+    },
+    "especificaciones": {
+      "hash": "12bba7d7c8bf6e2e",
+      "texto": {
+        "Début des travaux": "1785, vice-roi Bernardo de Gálvez",
+        "Ingénieurs": "Francisco Bambitelli puis Manuel Agustín Mascaró",
+        "Usage d’origine": "retraite champêtre vice-royale",
+        "Achat par la municipalité de Mexico": "1806",
+        "Collège militaire": "décidé en 1833, reconstruction à partir de 1841, avec la tour du Cavalier Haut",
+        "Portique central de cinq arcs en plein cintre": "époque de Maximilien, de 1864 à 1867"
+      }
+    },
+    "faq_mito": {
+      "hash": "d64a889e4b371292",
+      "texto": {
+        "pregunta": "Mythe : Le bâtiment s’appelle château parce qu’il a été construit pour un roi européen.",
+        "respuesta": "Réalité : Il a été commencé par un vice-roi en 1785 comme palais de plaisance. Le nom est venu après : la tour du Cavalier Haut, construite lors de la reconstruction de 1841 pour le Collège militaire, lui a donné l’aspect d’une forteresse."
+      }
+    }
+  }
+}

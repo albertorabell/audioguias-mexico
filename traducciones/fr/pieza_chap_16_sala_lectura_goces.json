@@ -1,0 +1,55 @@
+{
+  "id": "chap_16_sala_lectura_goces",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c3af75998b97aa20",
+      "texto": "Salle de Lecture et Salon des Jeux"
+    },
+    "frase_gancho": {
+      "hash": "9817d7d29f811f67",
+      "texto": "Des tapisseries françaises montrent des toupies et des bilboquets, et la Salle de Lecture fut autrefois une salle de billard."
+    },
+    "puente_narrativo": {
+      "hash": "c6da8431408543e9",
+      "texto": "Avancez vers le Salon des Ambassadeurs, la salle des réceptions diplomatiques de l’Alcazar."
+    },
+    "guion_corto": {
+      "hash": "e5ad5e299aeaa0f1",
+      "texto": "Sur des tapisseries fabriquées en France apparaissent une toupie, un bilboquet, un badminton et des quilles. Selon le cartel du Salon des Jeux, Napoléon Trois les offrit à Maximilien pour son anniversaire, le six juillet. Là, dit le musée, les gouvernants jouaient au bowling, au billard, aux cartes et aux échecs avec leurs invités. La Salle de Lecture évoque une autre facette : Maximilien appela son palais Miravalle, et il y lisait et y écrivait des décrets et de la correspondance sur ses terrasses. Les registres que cite le musée montrent pourtant un autre usage pour cette pièce. Elle fut salle de billard en mille huit cent quatre-vingt-deux, en mille neuf cent six et en mille neuf cent trente-deux."
+    },
+    "guion_largo": {
+      "hash": "7bfa1347b3ea548a",
+      "texto": "Il est facile d’imaginer Maximilien en train de lire dans cette pièce, mais les registres racontent autre chose. Le musée cite des listes d’occupation du bâtiment. En mille huit cent soixante-dix-sept, la salle de lecture apparaît comme la chambre du second astronome. En mille huit cent quatre-vingt-deux, mille neuf cent six et mille neuf cent trente-deux, comme salle de billard. Ce sont les années de l’observatoire que vous avez vu dans l’[Escalier des Lions](chap_13_escalera_leones). Ce que le musée affirme, en revanche, c’est que Maximilien lisait et écrivait sur les terrasses de son palais. Il y expédiait des décrets et de la correspondance. Il appela ce palais Miravalle.\n\nLe nom Miravalle dit tout : un lieu pour contempler la vallée. Le cartel rappelle aussi la devise familiale des Habsbourg, en latin : Austria est imperare orbi universo. Elle signifie qu’il revient à l’Autriche de gouverner le monde entier. Le site officiel des Habsbourg avertit que cette lecture est postérieure. Frédéric Trois, l’empereur du quinzième siècle qui utilisait les cinq voyelles comme devise, n’en a jamais expliqué la signification. Plus de trois cents interprétations ont été proposées.\n\nLes tapisseries du Salon des Jeux sont plus légères. Selon le musée, elles furent fabriquées en France, et Napoléon Trois les offrit à Maximilien pour son anniversaire, le six juillet. Elles représentent des jeux comme la toupie, le bilboquet, le badminton et les quilles. Le musée parle aussi d’une autre salle ornée de tapisseries d’Aubusson, inspirées des fables de Jean de La Fontaine, cadeau du même Napoléon Trois. C’est le Salon des Gobelins.\n\nLes registres du musée montrent comment l’usage des salles changeait. En mille huit cent quatre-vingt-deux, un salon apparaît comme salle de tressillo, un jeu de cartes. En mille neuf cent six, comme petit salon de jeux, et en mille neuf cent trente-deux, comme salle de jeu. Selon le musée, les gouvernants jouaient au bowling, au billard, aux cartes et aux échecs avec leurs invités.\n\nCette vie de loisirs eut son versant moderne sous Porfirio Díaz. Le musée raconte que Díaz fit installer dans le château des ascenseurs et un bowling. Et en août mille huit cent quatre-vingt-seize, il y reçut les envoyés des frères Lumière, qui lui présentèrent le cinématographe. Selon un article de la Revue de l’Université, un groupe restreint d’environ vingt personnes proches de sa famille y assista. La séance commença tôt et, à la demande du public, se prolongea jusqu’à une heure du matin. L’article ne précise pas dans quel salon elle eut lieu. Díaz et les siens acceptèrent d’être filmés. Lors d’une seconde séance, le vingt-cinq août, furent projetés ce que l’article décrit comme les premiers films tournés au Mexique.\n\nL’anniversaire de Maximilien a laissé une autre trace. Selon la Revue Bicentenaire, le banquet de son anniversaire commença à six heures du soir. C’était le six juillet mille huit cent soixante-cinq. La revue ne précise pas dans quelle résidence il fut célébré. Ainsi se croisent les cadeaux de Napoléon Trois, les fêtes de l’Empire et les jeux de salon.\n\nPlus loin, le [Salon des Ambassadeurs](chap_17_salon_embajadores) montre le côté le plus formel de la demeure."
+    },
+    "retos_observacion": {
+      "hash": "49ef68730774c12d",
+      "texto": [
+        "Cherchez dans les tapisseries une toupie, un bilboquet, un badminton et des quilles, les jeux que mentionne le musée",
+        "Observez la lumière de la salle et imaginez écrire des décrets ici ou sur une terrasse",
+        "Comparez la taille de cet espace à celle d’une salle à manger : un grand groupe y tiendrait-il, ou plutôt un cercle intime ?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bf15c968ad3ac598",
+      "texto": {
+        "Palais": "Miravalle, nom donné par Maximilien, selon le MNH",
+        "Tapisseries": "fabriquées en France ; cadeau de Napoléon III à Maximilien pour son anniversaire, le 6 juillet",
+        "Jeux représentés": "toupie, bilboquet, badminton et quilles",
+        "Anciens usages enregistrés par le MNH": "chambre du second astronome (1877) ; salle de billard (1882, 1906 et 1932) ; salle de tressillo (1882)",
+        "Emplacement": "Alcazar"
+      }
+    },
+    "faq_mito": {
+      "hash": "064b24ca5cd741a0",
+      "texto": {
+        "pregunta": "Mythe : La Salle de Lecture a toujours été la bibliothèque privée de Maximilien.",
+        "respuesta": "Réalité : Selon les registres que cite le Musée national d’Histoire, en 1877 c’était la chambre du second astronome et en 1882, 1906 et 1932 elle apparaît comme salle de billard ; de Maximilien, on sait qu’il lisait et écrivait sur les terrasses de son palais."
+      }
+    }
+  }
+}

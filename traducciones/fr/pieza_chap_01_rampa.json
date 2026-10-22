@@ -1,0 +1,55 @@
+{
+  "id": "chap_01_rampa",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d9f43da925a1471b",
+      "texto": "Chapultepec : la colline de la sauterelle et ses sources"
+    },
+    "frase_gancho": {
+      "hash": "9604ddc6f2cdd70d",
+      "texto": "Avant d’être un château, cette colline était une source d’eau douce qui maintenait en vie la capitale mexica."
+    },
+    "puente_narrativo": {
+      "hash": "405a650038748245",
+      "texto": "Suivez le chemin vers le haut de la colline. Vous arriverez bientôt à l’entrée principale du Château, où commence l’histoire de l’édifice."
+    },
+    "guion_corto": {
+      "hash": "ceeae5ec271316a8",
+      "texto": "Chapultepec vient du nahuatl chapulin, qui veut dire sauterelle, et tepetl, qui veut dire colline. Le c final indique le lieu, si bien que le nom signifie sur la colline de la sauterelle. Des gens vivaient ici il y a environ trois mille ans, au bord de l’ancien lac de Texcoco. Les Mexicas en ont fait un site sacré et stratégique dès la fondation de Tenochtitlan, en l’an mille trois cent vingt-cinq. La raison était pratique : des sources d’eau douce jaillissaient de cette colline, alors que l’eau du lac n’était pas potable. Un aqueduc acheminait ce trésor jusqu’à la capitale. Pendant que vous montez, rappelez-vous que vous marchez sur une montagne d’eau, bien avant l’existence d’un palais."
+    },
+    "guion_largo": {
+      "hash": "5849bab9a26294c8",
+      "texto": "Cette montée traverse plusieurs couches d’histoire, et la plus ancienne n’a pas de murs. C’est l’eau.\n\nOn y trouve de la céramique et des sépultures de la période Préclassique, entre l’an deux mille cinq cents avant Jésus-Christ et l’an deux cents après Jésus-Christ. Elles montrent qu’il y avait ici des habitants il y a environ trois mille ans. Ils ont choisi la rive de l’ancien lac de Texcoco, près d’une colline qui dominait le paysage.\n\nLes Mexicas ont connu ce lieu pendant leur longue migration. Ils s’y sont arrêtés un temps, jusqu’à ce que les Chalcas et les Xochimilcas les en chassent. Lorsqu’ils ont fondé Tenochtitlan, ils ont de nouveau tourné leur regard vers ici. Le Musée national d’histoire explique que Chapultepec était considéré comme un lieu sacré et stratégique en raison de ses sources. Une recherche de l’UNAM rappelle le détail qui explique tout : l’eau du lac de Texcoco n’était pas potable. Sans ces sources, la capitale mexica aurait eu soif.\n\nC’est pourquoi on a construit des aqueducs, et les sources ne concordent pas tout à fait sur les dates. Une étude de l’INAH raconte que les Texcocans ont amené l’eau jusqu’à la ville en l’an mille quatre cent soixante-six. Ce fut sur l’ordre de Nezahualcóyotl, sous le gouvernement de Moctezuma Ilhuicamina. D’autres notes de l’INAH parlent d’un premier canal simple, fait de roseau, de pierres et de boue, vers mille quatre cent dix-huit. Ce qui est clair, c’est sa fonction : amener l’eau douce à une ville construite sur le lac.\n\nLa colline a aussi servi à laisser une mémoire. L’INAH indique que les souverains mexicas ont fait sculpter leur effigie dans les rochers voisins. Un texte de l’Institut de recherches historiques de l’UNAM ajoute que plusieurs de ces images ont été détruites au fil des siècles.\n\nL’eau a aussi été une arme. Pendant le siège de Tenochtitlan, les troupes espagnoles commandées par Cristóbal de Olid ont détruit le premier aqueduc de Chapultepec. Des années plus tard, en mille cinq cent trente, une ordonnance de l’empereur Charles Quint a remis la forêt à la ville de Mexico. Les arbres au tronc épais qui poussent au pied de la colline sont des ahuehuetes, mot nahuatl qui signifie vieux de l’eau. Une lettre du vice-roi Antonio de Mendoza, datée de mille cinq cent trente-sept, en parle déjà. La tradition attribue à Nezahualcóyotl la plantation des plus anciens.\n\nLe sommet a mis du temps à recevoir un palais. Selon le musée, une explosion de poudre a détruit en mille sept cent quatre-vingt-quatre la maison de plaisance d’un vice-roi. Elle se trouvait au pied de la colline. Un an plus tard, Bernardo de Gálvez a commencé la construction d’un nouveau palais en haut. C’est l’origine du Château que vous allez visiter.\n\nDepuis, ces versants ont vu passer des cadets, des empereurs et des présidents. Lors de la bataille de mille huit cent quarante-sept, le bataillon de San Blas a été le seul renfort des défenseurs. Selon l’Institut national d’études historiques des révolutions du Mexique, il n’a réussi à monter que jusqu’à la première rampe.\n\nAlors, avant d’arriver à la porte, retenez cette idée : la colline a d’abord été une source, puis une forêt protégée, et bien plus tard un palais. Maintenant, [l’entrée principale du site](chap_02_fachada_puerta) vous attend."
+    },
+    "retos_observacion": {
+      "hash": "d2fe29701143e71d",
+      "texto": [
+        "Cherchez parmi les arbres de la forêt un ahuehuete, que l’on reconnaît à son tronc épais et à ses branches retombantes",
+        "Observez la façon dont le chemin monte et regardez combien de forêt s’étend à vos pieds",
+        "Regardez vers l’horizon et imaginez la vallée avec le lac de Texcoco, que l’on ne voit plus aujourd’hui"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e5520fd6148063d",
+      "texto": {
+        "Nom": "Chapultepec, du nahuatl chapulin (sauterelle) et tepetl (colline) : sur la colline de la sauterelle",
+        "Occupation ancienne": "céramique et sépultures du Préclassique, de l’an 2500 avant J.-C. à l’an 200 après J.-C.",
+        "Importance mexica": "lieu sacré et stratégique grâce à ses sources, dès la fondation de Tenochtitlan en 1325",
+        "Forêt de la ville": "ordonnance de Charles Quint, 1530",
+        "Fait clé": "en 1785, le vice-roi Bernardo de Gálvez a entrepris la construction du palais du sommet"
+      }
+    },
+    "faq_mito": {
+      "hash": "bc68ce1c15e2ac94",
+      "texto": {
+        "pregunta": "Mythe : Le Château de Chapultepec a été construit par l’empereur Maximilien.",
+        "respuesta": "Réalité : La construction a commencé en 1785, sous le vice-roi Bernardo de Gálvez. Maximilien et Charlotte l’ont habité de 1864 à 1867 et l’ont transformé en palais."
+      }
+    }
+  }
+}

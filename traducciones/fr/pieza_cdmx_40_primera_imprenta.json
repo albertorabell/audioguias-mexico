@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_40_primera_imprenta",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "48e9b18750edd88f",
+      "texto": "Maison de la Première Imprimerie d’Amérique"
+    },
+    "frase_gancho": {
+      "hash": "73eb85a2ee5bf8d9",
+      "texto": "Dans une maison connue sous le nom de Maison des Cloches arriva la première presse à imprimer du continent, et avec elle la parole imprimée."
+    },
+    "puente_narrativo": {
+      "hash": "39fba66a4e258a51",
+      "texto": "Poursuivez dans la même rue, Licenciado Primo de Verdad, à quelques pas. Au numéro huit vous attend le [Musée Ex Teresa Arte Actual](cdmx_41_ex_teresa), dans une ancienne église de carmélites."
+    },
+    "como_llegar": {
+      "hash": "284946adf56458b4",
+      "texto": "Revenez de quelques pas par la rue Moneda, en direction de la cathédrale, jusqu’à l’angle avec Licenciado Primo de Verdad. C’est là que se trouve la [Maison de la Première Imprimerie d’Amérique](cdmx_40_primera_imprenta)."
+    },
+    "guion_corto": {
+      "hash": "93550a2e7dc1ab3b",
+      "texto": "Maison des Cloches : c’est ainsi que ce lieu fut appelé. Ici fonctionnait une fonderie de cloches. Mais sa renommée vient d’autre chose. Vers mille cinq cent trente-neuf arriva dans la ville la première presse à imprimer d’Amérique. Elle fut encouragée par frère Juan de Zumárraga et le vice-roi Antonio de Mendoza. Celui qui la fit fonctionner était un imprimeur né à Brescia, Giovanni Paoli, que nous connaissons sous le nom de Juan Pablos. Une plaque de mille neuf cent dix-sept indique mille cinq cent trente-six, mais les études situent son arrivée en mille cinq cent trente-neuf. La maison fut reconstruite au dix-huitième siècle et c’est aujourd’hui un centre culturel et un musée."
+    },
+    "guion_largo": {
+      "hash": "71eaeca9abeb02ff",
+      "texto": "Cette maison porte deux noms. Le premier, Maison des Cloches, fait allusion à une fonderie de cloches. Le second, Maison de la Première Imprimerie d’Amérique, fait allusion à ce qui s’est passé ensuite. Dans les années mille cinq cent vingt, Jerónimo de Aguilar, l’interprète de Hernán Cortés, fit construire ici une maison.\n\nL’imprimerie est née d’une alliance. Frère Juan de Zumárraga, premier évêque de Mexico, et le vice-roi Antonio de Mendoza l’encouragèrent. Juan Cromberger, imprimeur sévillan d’origine allemande, finança l’entreprise. Pour la diriger, il envoya un compagnon de son atelier, Juan Pablos, né à Brescia, en Italie. Son nom d’origine était Giovanni Paoli, qui fut hispanisé en Juan Pablos.\n\nJuan Pablos arriva dans la ville avec son épouse, Gerónima Gutiérrez, entre septembre et octobre mille cinq cent trente-neuf. L’atelier ouvrit vers avril mille cinq cent quarante. Une plaque posée le trente et un décembre mille neuf cent dix-sept dit autre chose : que le vice-roi Mendoza établit ici la première imprimerie d’Amérique en mille cinq cent trente-six. Les études qui réexaminent la documentation situent le contrat de Pablos avec Cromberger en mille cinq cent trente-neuf.\n\nQu’imprima-t-on ? L’un des titres les plus célèbres fut la Brève et très compendieuse doctrine chrétienne, écrite par Zumárraga lui-même. On croit que le premier livre fut le Manuel des adultes, de mille cinq cent quarante. Sur ordre du vice-roi, on imprima aussi la première œuvre non religieuse, un recueil d’ordonnances et de lois.\n\nL’atelier changea de mains. Juan Cromberger mourut le huit septembre mille cinq cent quarante. La maison continua de fonctionner sous son nom jusqu’en mille cinq cent quarante-huit, et à partir de cette année-là Juan Pablos en fut le propriétaire. Son nom apparaît pour la première fois dans une Doctrine chrétienne achevée le dix-sept janvier mille cinq cent quarante-huit. Pablos mourut vers mille cinq cent soixante, et en mille cinq cent soixante-trois sa veuve loua l’imprimerie à Pedro Ocharte. On estime entre trois cent huit et trois cent vingt le nombre d’imprimés du seizième siècle.\n\nL’édifice actuel fut reconstruit au dix-huitième siècle. L’Université autonome métropolitaine l’acheta en mille neuf cent quatre-vingt-neuf pour le restaurer, et il fonctionne aujourd’hui comme centre culturel et musée. Pendant les travaux apparut une sculpture de tête de serpent pesant une tonne et demie. On croit qu’elle appartenait au temple de Tezcatlipoca. Le Musée du Livre rassemble cette pièce, d’autres d’origine archéologique et quelques-uns des plus anciens livres du Mexique. Consultez les horaires en vigueur avant de venir.\n\nLorsque vous arriverez, cherchez la plaque de mille neuf cent dix-sept à l’angle de la rue et comparez sa date avec celle que vous venez d’entendre.\n\nCet angle de rue est relié à vos étapes. À quelques pas se trouve le [Musée d’Art de la SHCP](cdmx_38_museo_shcp), ancien palais archiépiscopal, et tout près, le couvent d’[Ex Teresa](cdmx_41_ex_teresa). Livres, foi et pouvoir ont partagé le même pâté de maisons."
+    },
+    "retos_observacion": {
+      "hash": "ded50c4d947bccf7",
+      "texto": [
+        "Cherchez l’angle de Moneda et de Primo de Verdad, et la plaque de la première imprimerie d’Amérique",
+        "Repérez le numéro dix de Primo de Verdad sur la façade de la maison",
+        "Comptez combien de niveaux compte la maison et comparez sa hauteur à celle des bâtiments voisins"
+      ]
+    },
+    "especificaciones": {
+      "hash": "49b437cc735a8cd5",
+      "texto": {
+        "Époque": "imprimerie installée entre 1539 et 1540",
+        "Imprimeur": "Juan Pablos, né Giovanni Paoli à Brescia",
+        "Promoteurs": "frère Juan de Zumárraga et le vice-roi Antonio de Mendoza",
+        "Édifice": "reconstruit au XVIIIe siècle ; acheté par l’UAM en 1989",
+        "Emplacement": "Licenciado Primo de Verdad 10, à l’angle de Moneda",
+        "Information clé": "une plaque de 1917 date l’imprimerie de 1536"
+      }
+    },
+    "faq_mito": {
+      "hash": "f97ca424fc7fcd03",
+      "texto": {
+        "pregunta": "Mythe : La première imprimerie d’Amérique fut installée en mille cinq cent trente-six, comme l’indique la plaque de la maison.",
+        "respuesta": "Réalité : La plaque posée en mille neuf cent dix-sept indique mille cinq cent trente-six, mais les études situent le contrat de Juan Pablos avec Cromberger en mille cinq cent trente-neuf et son arrivée au Mexique entre septembre et octobre de cette année-là."
+      }
+    }
+  }
+}

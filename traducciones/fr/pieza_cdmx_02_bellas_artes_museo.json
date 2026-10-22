@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_02_bellas_artes_museo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5ede0d98df8e2613",
+      "texto": "Musée du Palais des Beaux-Arts : berceau des musées d’art"
+    },
+    "frase_gancho": {
+      "hash": "d286d8db1a9902ad",
+      "texto": "Ici vivent dix-sept peintures murales de sept artistes, dont la seconde version d’une fresque détruite à New York."
+    },
+    "puente_narrativo": {
+      "hash": "75e35678e350f2b0",
+      "texto": "Quittez le palais et traversez vers l’Alameda Central, le parc qui s’étend devant l’esplanade. Suivez ses allées jusqu’à la prochaine étape."
+    },
+    "como_llegar": {
+      "hash": "4151fe65286163ae",
+      "texto": "Marchez vers l’entrée du palais. La prochaine étape raconte ce qu’il abrite à l’intérieur, et vous pouvez l’écouter même si vous décidez de ne pas entrer."
+    },
+    "guion_corto": {
+      "hash": "681e671286e6153f",
+      "texto": "Il y a ici une peinture murale que Diego Rivera a peinte une seconde fois. La première version se trouvait au Rockefeller Center de New York et fut retirée au ciseau en mille neuf cent trente-quatre. Rivera a recréé l’œuvre à Mexico, sous le titre El hombre controlador del universo, et elle est aujourd’hui exposée dans ce palais. C’est l’une des pièces du premier musée d’art du Mexique. Aujourd’hui, il réunit dix-sept peintures murales permanentes de sept artistes mexicains, réalisées entre mille neuf cent vingt-huit et mille neuf cent soixante-trois. L’entrée du musée est payante, alors écoutez cette pièce comme une invitation. Si vous décidez d’entrer, consultez les horaires en vigueur."
+    },
+    "guion_largo": {
+      "hash": "4641789469f49971",
+      "texto": "Ce musée est presque aussi ancien que le palais qui l’abrite. Il a ouvert le vingt-neuf novembre mille neuf cent trente-quatre, deux mois après l’inauguration du bâtiment. Il s’appelait alors Museo de Artes Plásticas, et ce fut le premier musée d’art du Mexique. Aujourd’hui, on le considère comme l’origine du système des musées d’art du pays.\n\nSa collection d’origine était très différente de ce que l’on voit maintenant. Elle comprenait des œuvres allant du seizième siècle jusqu’aux peintures murales que Diego Rivera et José Clemente Orozco ont peintes en mille neuf cent trente-quatre. Elle comptait aussi des salles de sculpture mésoaméricaine, d’estampe mexicaine et un musée d’art populaire avec la collection de Roberto Montenegro. Le fonds s’est constitué à partir de collections du gouvernement, d’acquisitions, de dons, de legs et des fonds de l’ancienne Académie de San Carlos.\n\nAu fil des ans, ce fonds a été réparti. Les œuvres excédentaires ont nourri d’autres musées du système. Parmi eux figurent le Museo de Arte Moderno, la Pinacoteca Virreinal et le Museo Nacional de San Carlos. Il y a aussi le Museo Nacional de Arte, le Munal, qui se trouve à quelques rues et que nous allons visiter. Lorsque l’Institut national des beaux-arts a été créé, Fernando Gamboa, Julio Castellanos et Julio Prieto ont transformé le projet en Museo Nacional de Artes Plásticas. Depuis mille neuf cent soixante-huit, il s’appelle Musée du Palais des Beaux-Arts.\n\nAujourd’hui, le musée est connu surtout pour ses peintures murales. Il expose de façon permanente dix-sept œuvres de sept artistes mexicains, réalisées entre mille neuf cent vingt-huit et mille neuf cent soixante-trois. Beaucoup de pièces du fonds historique ne se trouvent plus dans ce bâtiment. Parmi les peintures murales, il y a La eterna lucha de la humanidad por un mundo mejor, aussi appelée Katharsis, de José Clemente Orozco, datant de mille neuf cent trente-quatre. On y trouve La nueva democracia, de David Alfaro Siqueiros, datant de mille neuf cent quarante-cinq, et il y a des œuvres de Rufino Tamayo. On y trouve aussi Liberación, de González Camarena, datant de mille neuf cent soixante-trois.\n\nCertaines peintures murales sont arrivées plus tard. Dans le cadre d’un programme de conservation, des œuvres de Manuel Rodríguez Lozano et de Roberto Montenegro ont été transférées dans ce musée. D’autres peintures murales de Rivera sont également arrivées.\n\nL’histoire la plus connue est celle de Rivera. En mille neuf cent trente-deux, il reçut la commande d’une peinture murale pour le Rockefeller Center, à New York. L’œuvre provoqua une polémique en raison de son contenu politique. Elle fut retirée du mur au ciseau en mille neuf cent trente-quatre. Rivera la recréa à Mexico sous le titre El hombre controlador del universo, et elle est aujourd’hui exposée dans ce palais.\n\nVous verrez que Rivera réapparaît dans d’autres étapes. Très bientôt, vous le retrouverez à l’Alameda, avec une peinture murale qui a ce même parc pour décor. Au [Museo Mural Diego Rivera](cdmx_06_museo_mural_rivera), vous pourrez en savoir plus sur cette œuvre.\n\nLe musée propose des visites guidées, et son programme comprend des ateliers et des concerts. L’entrée est payante. Si vous décidez d’entrer, consultez les horaires et les conditions en vigueur avant de venir. Et si vous préférez ne pas le faire, vous ne manquez pas l’essentiel. La façade, l’esplanade et les Pégases s’admirent gratuitement depuis la rue, et l’étape précédente vous en a raconté l’histoire."
+    },
+    "retos_observacion": {
+      "hash": "b3819cb30f1d99cd",
+      "texto": [
+        "Repérez l’entrée principale du palais, par où l’on accède au musée si vous décidez d’entrer",
+        "Parcourez du regard la façade de marbre et cherchez le point le plus haut du bâtiment",
+        "Choisissez le Pégase le plus proche de vous et observez dans quelle direction il déploie ses ailes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "668766425e4d29af",
+      "texto": {
+        "Époque": "inauguré le 29 novembre 1934",
+        "Nom actuel": "Musée du Palais des Beaux-Arts, depuis 1968",
+        "Collection": "17 peintures murales permanentes de sept artistes mexicains, de 1928 à 1963",
+        "Emplacement": "Av. Juárez, angle Eje Central Lázaro Cárdenas",
+        "Donnée clé": "ce fut le premier musée d’art du Mexique"
+      }
+    },
+    "faq_mito": {
+      "hash": "a4e20d546b656635",
+      "texto": {
+        "pregunta": "Mythe : La peinture murale de Rivera que l’on voit au Palais des Beaux-Arts est la même que celle qu’il a peinte au Rockefeller Center.",
+        "respuesta": "Réalité : Celle de New York a été retirée au ciseau en 1934 ; Rivera a peint une nouvelle version, intitulée El hombre controlador del universo, qui est exposée dans ce palais."
+      }
+    }
+  }
+}

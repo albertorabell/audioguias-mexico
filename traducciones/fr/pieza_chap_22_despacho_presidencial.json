@@ -1,0 +1,55 @@
+{
+  "id": "chap_22_despacho_presidencial",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "107ddb46a2147314",
+      "texto": "Bureau du Président, téléphone et ascenseurs"
+    },
+    "frase_gancho": {
+      "hash": "f16c02b0c5300575",
+      "texto": "C’est depuis ce château qu’eut lieu la première transmission téléphonique expérimentale du Mexique, et c’est ici qu’un président se vanta de posséder deux ascenseurs."
+    },
+    "puente_narrativo": {
+      "hash": "72d036445534dc65",
+      "texto": "Poursuivez la visite jusqu’à sortir dans le jardin intérieur de l’Alcázar. Là, des galeries légères, aux colonnes de fer et ouvertes sur le plein air, vous attendent."
+    },
+    "guion_corto": {
+      "hash": "27be743aa7850d61",
+      "texto": "L’annuaire téléphonique de Mexico, à la fin du dix-neuvième siècle, ne comptait que huit feuilles. Dans tout le pays, il y avait plus de cinq mille appareils. Malgré cela, le seize septembre mille huit cent soixante-dix-huit, la première transmission téléphonique expérimentale du Mexique eut lieu dans ce château. La voix du président Porfirio Díaz fut entendue en même temps ici et au Palais national. Díaz afficha aussi sa modernité avec deux ascenseurs, l’un électrique et l’autre hydraulique. Et son bureau était, selon le musée, un lieu de lecture, avec des livres d’histoire et de droit. Télégraphe, téléphone et cabinet d’étude cohabitaient dans la résidence du président."
+    },
+    "guion_largo": {
+      "hash": "b88dedd3106bf020",
+      "texto": "Ce bureau a changé plusieurs fois d’usage. Selon les cartels du musée, vers mille huit cent soixante-six, il fut le cabinet d’étude de Charlotte, du temps de la résidence de Maximilien. En mille huit cent soixante-dix-sept, lorsque le château abrita l’Observatoire national, il servit de service météorologique. En mille neuf cent six, il apparaît comme le salon vert de la résidence de Díaz. Ce que vous voyez est une couche de plus d’une longue histoire. Vous pouvez faire connaissance avec l’impératrice dans sa [chambre](chap_18_recamara_carlota).\n\nPorfirio Díaz accéda à la présidence après une vie militaire, mais sa formation commença sur les bancs de l’école. Il fit ses études secondaires au séminaire tridentin de sa ville natale, Oaxaca, et étudia le droit dans cette même ville. Le cartel du bureau raconte qu’il y réunit une bibliothèque. On y trouvait des ouvrages d’histoire et de jurisprudence, ainsi que des textes qui exaltaient la paix et le progrès de son gouvernement. Le musée souligne qu’il trouva toujours des moments pour la lecture et l’étude. C’est une nuance utile pour regarder un personnage que l’on retient surtout pour ses campagnes et ses longues années au pouvoir.\n\nLe deuxième fil de cette histoire est la communication. En mille huit cent soixante-dix-huit, l’Observatoire national fut installé dans le château. L’une de ses pièces reçut des installations télégraphiques qui reliaient le président au reste du pays. Cette même année eut lieu la première transmission téléphonique expérimentale au Mexique, entre cet édifice et le Palais national. Le cartel souligne que deux ans à peine s’étaient écoulés depuis l’invention du téléphone aux États-Unis. Un autre cartel rappelle qu’en mille neuf cent six, une salle voisine s’appelait, justement, la salle du téléphone.\n\nLe troisième symbole de modernité, ce sont les ascenseurs. Le musée explique que Díaz fit étalage de modernité avec deux d’entre eux. L’un était électrique, fabriqué en France, avec une cabine d’acier et de verre, et il reliait les cuisines aux deux étages de chambres et de salons. L’autre était hydraulique. Depuis mille huit cent quatre-vingt-seize, il reliait la base de la colline au premier étage et au jardin de l’Alcázar. La nouveauté n’a pas commencé avec Díaz. Le cartel de l’escalier intérieur, ouvert sous la présidence de Manuel González, mentionne un ascenseur électrique réservé au président et à sa famille.\n\nAvec tant de technique, on pourrait penser que l’on gouvernait ici tous les jours, mais les sources du musée racontent autre chose. La famille présidentielle vivait la plus grande partie de l’année rue de La Cadena, aujourd’hui Venustiano Carranza. Díaz travaillait au Palais national et fréquentait surtout le château en été, lorsqu’il était aménagé pour des bals et des réceptions.\n\nAprès Díaz, d’autres présidents utilisèrent l’Alcázar. Le cartel du salon des Accords mentionne Manuel González en mille huit cent quatre-vingt-deux. Il mentionne aussi Abelardo Rodríguez en mille neuf cent trente-deux. Cette période s’achève avec Lázaro Cárdenas. Il transféra sa résidence officielle à Los Pinos et remit le château au peuple du Mexique en mille neuf cent trente-neuf. Le Musée national d’Histoire ouvrit ses portes en mille neuf cent quarante-quatre.\n\nPour suivre la trace de l’époque, l’[escalier des Lions](chap_13_escalera_leones) est né de l’agrandissement de la terrasse pour l’observatoire. Ensuite, Díaz en impulsa la transformation. Et les [vitraux](chap_14_vitrales_emplomados), commandés à Paris vers mille neuf cents, montrent le goût du président pour afficher ce qu’il y avait de plus récent à son époque."
+    },
+    "retos_observacion": {
+      "hash": "4cc23dd159cbff74",
+      "texto": [
+        "Observez la lumière et les fenêtres de la pièce : ici ont fonctionné le cabinet d’étude de Charlotte, puis les bureaux de l’observatoire",
+        "Si vous voyez des bibliothèques ou des étagères avec des livres, pensez à la bibliothèque d’histoire et de droit que Díaz réunit",
+        "Si un accès, un panneau ou un cartel sur l’ancien ascenseur est visible, lisez-le et pensez à la façon dont la vie a changé sur la colline"
+      ]
+    },
+    "especificaciones": {
+      "hash": "18680783289b8569",
+      "texto": {
+        "Espace": "Bureau du Président, Étage supérieur de l’Alcázar",
+        "Usages antérieurs selon le musée": "Cabinet d’étude de Charlotte (1866) et service météorologique de l’observatoire (1877)",
+        "Première transmission téléphonique expérimentale au Mexique": "16 septembre 1878, entre le château et le Palais national",
+        "Ascenseur hydraulique": "depuis 1896, du pied de la colline au premier étage et au jardin de l’Alcázar",
+        "Ascenseur électrique": "fabriqué en France, avec une cabine d’acier et de verre"
+      }
+    },
+    "faq_mito": {
+      "hash": "59e48156304143e9",
+      "texto": {
+        "pregunta": "Mythe : Porfirio Díaz gouvernait le Mexique tous les jours depuis ce bureau du château de Chapultepec.",
+        "respuesta": "Réalité : Selon les cartels du musée, la famille présidentielle vivait la plus grande partie de l’année rue de La Cadena, aujourd’hui Venustiano Carranza, et Díaz travaillait au Palais national ; le château était utilisé surtout en été pour des bals et des réceptions."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_42_palacio_autonomia",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "85ee471721763756",
+      "texto": "Palais de l’Autonomie universitaire"
+    },
+    "frase_gancho": {
+      "hash": "0e26312021aa71d8",
+      "texto": "C’est dans cet édifice que l’autonomie de l’université fut déclarée en mille neuf cent vingt-neuf, sur des terrains qui furent un couvent et un espace sacré mexica."
+    },
+    "puente_narrativo": {
+      "hash": "fb665259b4c47993",
+      "texto": "Poursuivez vers la [place de Santo Domingo](cdmx_43_plaza_santo_domingo), où le parcours continue entre portiques, temples et écoles."
+    },
+    "como_llegar": {
+      "hash": "1d56f61e478bd9c7",
+      "texto": "Faites quelques pas le long de la même rue jusqu’au [Palais de l’Autonomie universitaire](cdmx_42_palacio_autonomia), au numéro deux, qui appartenait au même ensemble conventuel."
+    },
+    "guion_corto": {
+      "hash": "48484bc6a7821275",
+      "texto": "On dirait un bâtiment scolaire du début du vingtième siècle, mais il conserve des vestiges d’un couvent du dix-septième siècle. Une partie du terrain faisait partie de l’espace sacré de Tenochtitlan. Plus tard s’éleva ici le couvent de Santa Teresa la Antigua, celui des carmélites déchaussées. Après les lois de la Réforme, le terrain passa au gouvernement et devint caserne, puis habitation collective. À l’époque porfirienne, on construisit l’édifice actuel, de style éclectique, et en mille neuf cent dix s’y installa l’École nationale du Maître. En mille neuf cent vingt-neuf, c’est ici que fut déclarée l’autonomie de l’Université nationale. Aujourd’hui, il fait office de musée universitaire et compte trois fenêtres archéologiques, ouvertes par le Programme d’archéologie urbaine de l’INAH."
+    },
+    "guion_largo": {
+      "hash": "3837f861d214647b",
+      "texto": "Cet édifice compte trois vies superposées. La plus ancienne appartient à la ville mexica, car une partie de ce terrain se trouvait dans l’espace sacré de Tenochtitlan. Aujourd’hui, c’est le Musée de l’Autonomie universitaire, et son histoire se parcourt de bas en haut : d’abord le sol mexica, puis le couvent, et enfin l’université. Après la Conquête, le terrain passa à Juan Luis de Rivera, conseiller municipal et trésorier de l’Hôtel de la Monnaie. Il devint ensuite une partie du couvent de Santa Teresa la Antigua.\n\nLe couvent fut fondé au début du dix-septième siècle, et l’INAH donne la date de mille six cent quinze. Des carmélites déchaussées y vécurent. Dans l’actuelle rue Licenciado Verdad, on conserve encore l’église du couvent, aujourd’hui [Ex Teresa Arte Actual](cdmx_41_ex_teresa). Pendant la guerre de la Réforme, l’Église perdit la propriété, et l’ensemble devint caserne, puis habitation collective.\n\nÀ l’époque de Porfirio Díaz, le gouvernement fédéral acquit le terrain pour y installer une école normale d’instituteurs, et l’on éleva l’édifice actuel, de style éclectique. En mille neuf cent dix s’y installa l’École nationale du Maître, rattachée à l’Université nationale de Mexico. Cette même année fut inaugurée l’Université nationale, ancêtre directe de l’UNAM.\n\nVient ensuite l’épisode qui donne son nom au palais. En mai mille neuf cent vingt-neuf, les étudiants se mirent en grève. Ils protestaient contre des changements dans les examens de l’École de droit et dans le programme de l’École préparatoire. Le président provisoire Emilio Portes Gil promulgua la loi organique de l’université le dix juillet de cette année-là. Ignacio García Téllez fut nommé recteur le onze juillet. Ce fut une grève d’étudiants qui s’acheva en une loi. L’autonomie fut déclarée au premier étage de cet édifice.\n\nPlus tard, le bâtiment accueillit d’autres écoles universitaires. Il y eut l’École d’initiation universitaire, celle de commerce et d’administration, celle d’odontologie et celle de soins infirmiers. Il y eut aussi l’École préparatoire numéro deux, qui resta ici jusqu’en mille neuf cent soixante-dix-huit.\n\nEntre mille neuf cent quatre-vingt-dix-huit et deux mille, le Programme d’archéologie urbaine de l’INAH laissa trois fenêtres archéologiques. La deuxième et la troisième montrent des vestiges de l’ancien couvent de Santa Teresa la Antigua. La troisième fait office de jardin archéologique. Elle conserve deux portiques, un escalier orné de carreaux de faïence de la fin du dix-septième siècle et du début du dix-huitième, et les restes d’un bassin circulaire.\n\nAujourd’hui, l’édifice est le Musée de l’Autonomie universitaire. Il expose des documents sur l’autonomie, possède un salon consacré à l’odontologie mexicaine, une salle archéologique et une autre pour les expositions temporaires. Consultez les horaires en vigueur et les visites guidées avant de vous y rendre.\n\nIci, le Centre historique devient une leçon de strates. Un enceinte sacrée mexica, un couvent baroque, une école porfirienne et une université autonome partagent le même sol. Pensez à cette succession en poursuivant vers la [place de Santo Domingo](cdmx_43_plaza_santo_domingo)."
+    },
+    "retos_observacion": {
+      "hash": "305157d87d8929e9",
+      "texto": [
+        "Cherchez l’entrée du musée, au numéro deux de la rue Primo de Verdad",
+        "Observez le style de la façade, du début du vingtième siècle, et comparez-le avec le temple voisin",
+        "Repérez un panneau ou une plaque qui mentionne l’autonomie universitaire"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0b33e89f5be0329f",
+      "texto": {
+        "Époque": "couvent du XVIIe siècle ; édifice actuel de l’époque porfirienne",
+        "Style": "éclectique",
+        "Usage actuel": "Musée de l’Autonomie universitaire, UNAM",
+        "Fait clé": "en 1929, l’autonomie de l’Université nationale y fut déclarée",
+        "Fenêtres archéologiques": "trois, du Programme d’archéologie urbaine, entre 1998 et 2000",
+        "Emplacement": "Licenciado Primo de Verdad 2, Centre historique"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7b05104222f4b68",
+      "texto": {
+        "pregunta": "Mythe : L’université nationale a été autonome dès sa fondation.",
+        "respuesta": "Réalité : L’Université nationale fut inaugurée en mille neuf cent dix et l’autonomie arriva en mille neuf cent vingt-neuf, lorsque la loi organique fut promulguée le dix juillet, à la suite d’une grève étudiante."
+      }
+    }
+  }
+}

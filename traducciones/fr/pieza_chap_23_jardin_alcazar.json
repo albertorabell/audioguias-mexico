@@ -1,0 +1,55 @@
+{
+  "id": "chap_23_jardin_alcazar",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f21edc01e541b6db",
+      "texto": "Jardin de l’Alcazar"
+    },
+    "frase_gancho": {
+      "hash": "c035e123c0b6b0b7",
+      "texto": "Maximilien disait que le bonheur consistait à construire des châteaux avec des terrasses en jardins, et ce jardin intime est né de cette idée."
+    },
+    "puente_narrativo": {
+      "hash": "364745cc532e5f44",
+      "texto": "Poursuivez la visite vers le point le plus haut de la colline, où se dresse la tour du Cavalier haut."
+    },
+    "guion_corto": {
+      "hash": "29fcd6e89058d10c",
+      "texto": "Construire des châteaux avec des terrasses en jardins. C’est ainsi que Maximilien de Habsbourg définissait le bonheur, selon un cartel du musée. Passionné de botanique, il fit de cet espace un jardin intime, entouré de couloirs aux toits légers posés sur de fines colonnes de fer. Ici, il écoutait et dictait sa correspondance. Le jardin s’ouvrait sur la vue du bois de Chapultepec, comme dans les palais européens. Dans le couloir nord, Santiago Rebull peignit les Bacchantes. Ce sont des figures de style pompéien qui jouent du tambourin, dansent auprès d’une lionne ou portent des branches de vigne. Et sur la terrasse sud se trouve la Fontaine de la Sauterelle, œuvre du sculpteur Luis Albarrán. Entre peinture, fer et plantes, le jardin fut pensé pour lire, écrire et se reposer."
+    },
+    "guion_largo": {
+      "hash": "2652f4509932ebcf",
+      "texto": "Lorsque Maximilien et Charlotte arrivèrent à Chapultepec, ils choisirent les pièces du rez-de-chaussée qui donnaient à l’est. C’est pourquoi ils firent construire devant elles une terrasse panoramique, d’où l’on voyait Mexico, le lac de Texcoco et les volcans. Le jardin que vous parcourez est un autre élément de cette idée. Un article de l’UNAM le décrit comme un jardin de style classique sur la terrasse supérieure du château. Selon ce texte, Maximilien lui-même en fut le concepteur. Il fut réalisé par l’architecte autrichien Julius Hofmann et par le jardinier impérial Wilhelm Knechtel.\n\nLes travaux d’adaptation de l’édifice en palais furent confiés à Ramón Rodríguez Arangoity, architecte mexicain et ancien élève du Collège militaire. Selon le musée, ils comprenaient un portique central, une loggia à colonnes de fer et un nouveau plan des jardins. Autrement dit, le fer et les plantes furent pensés ensemble.\n\nLe nom de Knechtel apparaît dans plusieurs histoires du château. Le Musée national d’Histoire raconte que ce botaniste autrichien redessina les jardins. Il rappelle aussi quelques mots de Charlotte : le résultat devait davantage à la main de Max. C’est un indice utile pour qui imagine que l’impératrice fut la jardinière du château.\n\nMaximilien avait des raisons personnelles de lui consacrer du temps. Selon le cartel du jardin, il était passionné de botanique. Il utilisait aussi le couloir pour dicter et écouter sa correspondance. Pour suivre cette piste, visitez la [salle de lecture](chap_16_sala_lectura_goces). Le musée la met en relation avec son palais de Miramar et avec l’idée de lire et d’écrire sur les terrasses.\n\nLe couloir nord garde une histoire de deux époques. Santiago Rebull, peintre favori de la cour, y réalisa quatre Bacchantes en mille huit cent soixante-cinq. Presque trente ans plus tard, en mille huit cent quatre-vingt-quatorze, sous la présidence de Porfirio Díaz, il revint en peindre deux autres. Rebull avait alors soixante-cinq ans. Les peintures imitent le style pompéien et sont réalisées à l’huile sur une base brillante de chaux et de poudre de marbre. Un même peintre travailla ainsi pour l’Empire et pour le porfiriato, avec près de trois décennies entre les deux.\n\nAu fil du temps, le jardin et ses alentours changèrent de fonction. En mille huit cent soixante-dix-huit, la terrasse fut agrandie pour l’observatoire et un accès à l’Étage supérieur fut ouvert. Plus tard, à l’initiative de Díaz, cet accès devint l’[Escalier des Lions](chap_13_escalera_leones), en marbre blanc avec une rampe en laiton. Le musée explique que vers mille neuf cent quinze, sur les instructions de Venustiano Carranza, il fut de nouveau remanié. Les [vitraux de la galerie](chap_14_vitrales_emplomados), réalisés à Paris vers mille neuf cent, complètent la lecture de la façon dont chaque époque a laissé sa marque.\n\nUne dernière idée sur le paysage. Le cartel explique que le jardin s’intégrait visuellement au bois, comme dans les palais européens. Depuis le sommet, on domine en outre le bassin de Mexico, avec la Sierra Nevada à l’est. C’est pourquoi ce lieu n’est pas seulement un jardin : c’est une manière de faire entrer tout le paysage dans le palais."
+    },
+    "retos_observacion": {
+      "hash": "945efeb904bc3394",
+      "texto": [
+        "Observez les couloirs aux toits légers soutenus par de fines colonnes de fer",
+        "Cherchez dans le couloir nord les peintures de style pompéien aux figures qui dansent, jouent du tambourin ou portent des branches de vigne",
+        "Repérez la Fontaine de la Sauterelle sur la terrasse sud et regardez comment le jardin s’ouvre vers le bois"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a9bfeb7bc84c95a2",
+      "texto": {
+        "Époque": "Second Empire, 1864-1867",
+        "Conception": "Maximilien de Habsbourg ; réalisation attribuée à Julius Hofmann et au jardinier Wilhelm Knechtel",
+        "Bacchantes du couloir nord": "Santiago Rebull, 1865 et 1894",
+        "Fontaine de la Sauterelle": "Luis Albarrán, terrasse sud",
+        "Emplacement": "jardin intérieur de l’Alcazar"
+      }
+    },
+    "faq_mito": {
+      "hash": "cd46a51647312b80",
+      "texto": {
+        "pregunta": "Mythe : Le jardin de l’Alcazar fut un caprice de l’impératrice Charlotte.",
+        "respuesta": "Réalité : Le Musée national d’Histoire cite Charlotte elle-même, qui écrivit que le résultat devait davantage à la main de Max ; le cartel décrit Maximilien comme un passionné de botanique et un article de l’UNAM lui attribue la conception."
+      }
+    }
+  }
+}

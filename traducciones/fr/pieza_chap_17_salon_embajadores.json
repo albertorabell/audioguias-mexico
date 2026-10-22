@@ -1,0 +1,55 @@
+{
+  "id": "chap_17_salon_embajadores",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5bcc9bda2318d2a5",
+      "texto": "Salon des Ambassadeurs"
+    },
+    "frase_gancho": {
+      "hash": "049a0c9979c65a3a",
+      "texto": "Un tapis français, dans lequel était tissée la vue de ce même Château, ornait le salon où Porfirio Díaz recevait les diplomates."
+    },
+    "puente_narrativo": {
+      "hash": "8b299b373439964b",
+      "texto": "Poursuivez vers le salon des Gobelins, la salle voisine, où un cadeau de Napoléon III à Maximilien raconte une autre histoire."
+    },
+    "guion_corto": {
+      "hash": "8c323626d8db469c",
+      "texto": "Ce salon a souvent changé de fonction. Le Musée national d’Histoire propose une frise chronologique de chaque espace. En mille huit cent soixante-six, ce fut le salon de Charlotte et une salle de billard. En mille huit cent quatre-vingt-deux, sous le président Manuel González, il servit de salle de fêtes. En mille neuf cent six, il apparaît déjà comme le grand salon de Porfirio Díaz. Le nom qu’il porte aujourd’hui vient de sa fonction à cette époque : recevoir les diplomates étrangers. Le décor, de style français, est dû à Epitacio Calvo. Le mobilier suit le goût Louis Seize, et le tapis, de la maison Aubusson, montre une vue du Château."
+    },
+    "guion_largo": {
+      "hash": "cf4dfdce6a907cdc",
+      "texto": "Les musées présentent souvent les salons comme s’ils avaient toujours été ainsi. Pas celui-ci. La frise chronologique qui accompagne les salles du palais enregistre pour cet espace une série d’usages que presque personne ne devinerait. En mille huit cent soixante-six, Maximilien et Charlotte vivaient encore ici. Pour cette année-là, le registre parle du salon de l’impératrice et d’une salle de billard. En mille huit cent soixante-dix-sept apparaissent le Département et la Direction de la Météorologie. C’étaient les années du premier Observatoire astronomique national. Il s’installa au Château en mille huit cent soixante-dix-huit et déménagea à Tacubaya en mille huit cent quatre-vingt-trois. En mille huit cent quatre-vingt-deux, pendant le gouvernement de Manuel González, il y avait une salle de fêtes avec une annexe.\n\nC’est avec Porfirio Díaz que le lieu devint un grand salon. Le musée explique que Díaz voulut montrer le progrès artistique et technologique du Mexique, et ce désir se remarque dans tout le palais. Il fit installer des ascenseurs et transforma le bois voisin en parc public. Il commanda en outre à Paris les vitraux de la [galerie des Vitraux au plomb](chap_14_vitrales_emplomados), réalisés vers mille neuf cents. Un salon pour recevoir les diplomates étrangers s’accordait avec ce dessein.\n\nLe décor, selon le cartel, est de style français et mêle des éléments baroques et néoclassiques. Son auteur est Epitacio Calvo. Le mobilier suit le style Louis Seize. Ce style tire son nom d’un roi français du dix-huitième siècle et se reconnaît à des lignes plus droites et plus sobres que celles du baroque. Le musée signale que les meubles comme le tapis ont été fabriqués en France. C’était le goût européen qu’adoptaient les classes aisées de l’époque.\n\nLe tapis mérite qu’on s’y arrête. Il vient de la maison Aubusson, célèbre depuis des siècles pour ses tapisseries, et montre une vue du Château lui-même. Autrement dit, l’édifice y est représenté à l’intérieur de lui-même, comme dans un miroir tissé.\n\nMieux vaut ne pas imaginer Díaz vivant ici toute l’année. Selon le musée, sa famille vivait la majeure partie de l’année dans une maison de la rue de La Cadena, aujourd’hui Venustiano Carranza. Le Château servait en été pour des bals et des réceptions. À ces occasions, on recevait le monde. Les appartements de la famille étaient reliés par un escalier intérieur, ouvert sous Manuel González. Il y avait aussi un ascenseur électrique à l’usage exclusif du président et des siens. L’[escalier des Lions](chap_13_escalera_leones) était, en revanche, réservé aux invités.\n\nD’autres changements suivirent. En mille neuf cent trente-neuf, le président Lázaro Cárdenas remit le Château au peuple. Le Musée national d’Histoire ouvrit ses portes en mille neuf cent quarante-quatre. Aujourd’hui, à la place des ambassadeurs, passent ici des visiteurs avec des casques audio comme vous. Si vous vous arrêtez un instant, pensez à toutes les versions de cette pièce qui tiennent entre une date et une autre : salon d’impératrice, salle de billard, salle de fêtes et salon de réceptions."
+    },
+    "retos_observacion": {
+      "hash": "2ad6eb1fe801ec71",
+      "texto": [
+        "Cherchez sur le tapis la vue du Château lui-même",
+        "Observez les pieds et les dossiers des meubles : le style Louis Seize préfère les lignes droites",
+        "Cherchez le cartel qui mentionne le nom du décorateur, Epitacio Calvo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e1b8acc0b9ffeaf",
+      "texto": {
+        "Époque": "Porfiriat ; le musée enregistre l’espace comme grand salon en 1906",
+        "Décoration": "style français avec des éléments baroques et néoclassiques, d’Epitacio Calvo",
+        "Mobilier": "style Louis XVI, fabriqué en France",
+        "Tapis": "maison Aubusson, France, avec une vue du Château",
+        "Fonction": "recevoir les diplomates étrangers durant la présidence de Porfirio Díaz"
+      }
+    },
+    "faq_mito": {
+      "hash": "1376eab2f35e9a3d",
+      "texto": {
+        "pregunta": "Mythe : C’est le salon où Maximilien et Charlotte recevaient les ambassadeurs de l’Empire.",
+        "respuesta": "Réalité : selon le Musée national d’Histoire, le salon a reçu des diplomates étrangers durant la présidence de Porfirio Díaz, et la frise chronologique du musée enregistre cet espace en mille huit cent soixante-six comme salon de Charlotte et salle de billard."
+      }
+    }
+  }
+}

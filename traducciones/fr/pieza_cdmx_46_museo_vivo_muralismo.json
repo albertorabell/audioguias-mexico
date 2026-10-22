@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_46_museo_vivo_muralismo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f7669e631da928a3",
+      "texto": "Musée vivant du muralisme, le siège historique de la SEP"
+    },
+    "frase_gancho": {
+      "hash": "ee74a83f9d366407",
+      "texto": "C’était un immeuble de bureaux du gouvernement, et ses murs sont devenus l’une des écoles de peinture publique les plus célèbres du vingtième siècle."
+    },
+    "puente_narrativo": {
+      "hash": "989dfa102b367108",
+      "texto": "Poursuivez par la rue República de Argentina jusqu’à l’angle avec la rue Justo Sierra, où se trouve l’[Ancien Collège de San Ildefonso](cdmx_47_san_ildefonso)."
+    },
+    "como_llegar": {
+      "hash": "3a5e937adaf94510",
+      "texto": "Poursuivez vers la rue República de Argentina, où se trouve l’entrée du [Musée vivant du muralisme](cdmx_46_museo_vivo_muralismo), dans le bâtiment du Secrétariat à l’Éducation publique."
+    },
+    "guion_corto": {
+      "hash": "304cd605984b3a16",
+      "texto": "C’était un immeuble de bureaux du gouvernement, et il s’est retrouvé couvert de peintures murales. Ici siégeait le Secrétariat à l’Éducation publique, créé en mille neuf cent vingt et un, avec José Vasconcelos comme premier titulaire. Vasconcelos invita Diego Rivera à peindre les murs, et entre mille neuf cent vingt-trois et mille neuf cent vingt-huit, Rivera couvrit couloirs et escaliers. Au fil des ans, des œuvres d’autres artistes sont venues s’y ajouter. En septembre deux mille vingt-quatre, le Musée vivant du muralisme a ouvert ses portes ici ; il présente le muralisme comme une œuvre de nombreuses mains, et non de quelques noms seulement. C’est une visite pour qui souhaite entrer en prenant son temps, mais la façade et la rue racontent déjà une part de l’histoire. L’entrée principale se trouve rue República de Argentina."
+    },
+    "guion_largo": {
+      "hash": "00f224b24ec15c1b",
+      "texto": "Commençons par une question simple. Pourquoi un immeuble de bureaux est-il couvert de peintures ? La réponse tient en un nom : José Vasconcelos. Le Secrétariat à l’Éducation publique fut créé en mille neuf cent vingt et un, et Vasconcelos en fut le premier titulaire. C’est lui qui invita Diego Rivera à peindre les murs du nouveau siège.\n\nL’édifice a été élevé sur le site de l’ancien couvent de l’Incarnation. L’architecte Federico Méndez Rivas l’a remanié pour y loger le secrétariat. C’est ici que commença une histoire qui a changé l’art mexicain.\n\nDiego Rivera a peint les murs des couloirs entre mille neuf cent vingt-trois et mille neuf cent vingt-huit. On y compte plus de deux cents panneaux, dessus-de-porte et grisailles. Une grisaille est une peinture réalisée dans des tons de gris. Deux des cours s’appellent la cour du Travail et la cour des Fêtes.\n\nRivera n’était pas seul. L’édifice conserve aussi des peintures murales de Roberto Montenegro, de Jean Charlot et d’Amado de la Cueva. Il y a en outre une œuvre en céramique de Luis Nishizawa et une autre de Raúl Anguiano. On y trouve aussi un ancien théâtre, le Théâtre Orientation, datant de mille neuf cent trente et un, orné de peintures sur l’éducation socialiste. Ces œuvres et leur emplacement peuvent changer, aussi convient-il de consulter le plan en vigueur à votre arrivée.\n\nSur un côté de cet ensemble se trouve le bâtiment de l’ancienne Douane, qui fait désormais partie du musée. David Alfaro Siqueiros y a travaillé, de façon intermittente, entre mille neuf cent quarante-cinq et mille neuf cent soixante et onze. Il s’agit de la peinture murale Patriciens et patricides. En deux mille dix, l’artiste Manuel Felguérez a créé une sculpture murale en acier pour le Bicentenaire et le Centenaire.\n\nLe Musée vivant du muralisme a ouvert le vingt-cinq septembre deux mille vingt-quatre. Selon The Art Newspaper, il occupe environ huit mille cinq cents mètres carrés, dont plus de trois mille de peintures murales, et compte douze salles d’exposition. Son idée centrale est que le muralisme n’a pas été l’affaire de Rivera, d’Orozco et de Siqueiros seulement. Ce fut un effort collectif, avec beaucoup d’autres artistes, parmi lesquels des femmes comme Aurora Reyes et María Izquierdo.\n\nLe musée rappelle un cas. En mille neuf cent quarante-six, une commande murale confiée à María Izquierdo fut annulée, et la presse parle de sabotage de la part de collègues. Parmi les œuvres citées figure aussi Attentat contre les institutrices rurales, d’Aurora Reyes.\n\nUne mise en garde honnête. Certaines œuvres sont en prêt, et ce qui est exposé change avec le temps. C’est pourquoi on ne peut pas promettre ce que vous verrez à chaque visite. C’est un musée sur trois niveaux, que l’on parcourt à son rythme. Les conditions d’entrée et les horaires doivent être consultés sur le site officiel avant de venir.\n\nÀ quelques pas se trouve San Ildefonso, où le muralisme a lui aussi connu un chapitre précoce. Le premier jour, vous avez croisé le [Musée mural Diego Rivera](cdmx_06_museo_mural_rivera), avec une autre œuvre du même peintre. Tout cela forme un fil commun, celui d’un pays qui a décidé de raconter son histoire sur les murs."
+    },
+    "retos_observacion": {
+      "hash": "b16dfd86b47033fe",
+      "texto": [
+        "Repérez l’entrée principale par la rue República de Argentina",
+        "Comparez le bâtiment de la SEP avec la façade sobre de l’ancienne Douane sur la place",
+        "Comptez les niveaux de la façade du bâtiment"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de13761b9bc54ed9",
+      "texto": {
+        "Époque": "siège de la SEP depuis les années 1920 ; musée ouvert le 25 septembre 2024",
+        "Auteurs": "Diego Rivera (1923-1928), Roberto Montenegro, Jean Charlot, Amado de la Cueva, Luis Nishizawa, Raúl Anguiano, David Alfaro Siqueiros, Manuel Felguérez",
+        "Bâtiment": "sur le site de l’ancien couvent de l’Incarnation ; remaniement de Federico Méndez Rivas",
+        "Emplacement": "República de Argentina 28, Centre historique",
+        "Donnée clé": "plus de 3 000 m² de peintures murales (The Art Newspaper)"
+      }
+    },
+    "faq_mito": {
+      "hash": "9f366aa93f2795e4",
+      "texto": {
+        "pregunta": "Mythe : Les peintures murales de la SEP sont toutes de Diego Rivera.",
+        "respuesta": "Réalité : Rivera a peint les couloirs entre 1923 et 1928, mais le bâtiment et le musée réunissent aussi des œuvres de Montenegro, Charlot, Amado de la Cueva, Nishizawa, Anguiano, Siqueiros et Felguérez."
+      }
+    }
+  }
+}

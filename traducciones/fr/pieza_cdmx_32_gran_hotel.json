@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_32_gran_hotel",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0bcdd469b1c4920f",
+      "texto": "Gran Hotel Mexico : d’un magasin français à un hôtel à verrière"
+    },
+    "frase_gancho": {
+      "hash": "82524e4c34f396b2",
+      "texto": "Avant d’accueillir des clients, ce bâtiment a vendu des chapeaux, des tissus et des costumes importés d’Europe."
+    },
+    "puente_narrativo": {
+      "hash": "eca0b029f636493b",
+      "texto": "Revenez vers la place et poursuivez jusqu’à son angle Nord-Ouest, où la rue Monte de Piedad longe la cathédrale."
+    },
+    "como_llegar": {
+      "hash": "0a260dfda73070b3",
+      "texto": "Continuez sur le trottoir, sous les arcades, jusqu’à l’avenue du Seize-Septembre, où se trouve le Gran Hotel."
+    },
+    "guion_corto": {
+      "hash": "0bd8f6307805ac52",
+      "texto": "Aujourd’hui, c’est un hôtel, mais il est né comme grand magasin. Il a été inauguré en mille huit cent quatre-vingt-dix-neuf sous le nom de Centro Mercantil, et le président Porfirio Díaz a présidé la cérémonie. Un immigré français, Sebastien Robert, l’a fait construire pour vendre des vêtements, des tissus et des chapeaux venus d’Europe. Il a fonctionné comme magasin pendant plusieurs décennies. En mille neuf cent soixante-huit, il a ouvert comme hôtel, juste à temps pour les visiteurs des Jeux olympiques. Son joyau est à l’intérieur : un plafond de verre coloré dans le hall, que l’on attribue à l’artiste français Jacques Gruber. Depuis la rue, vous pouvez voir la façade, sur l’avenue du Seize-Septembre."
+    },
+    "guion_largo": {
+      "hash": "145081a88cad08d3",
+      "texto": "Les grands magasins sont arrivés dans la capitale à l’époque de Porfirio Díaz, et celui-ci fut l’un des premiers. Il s’appelait El Centro Mercantil et a ouvert ses portes durant la dernière année du dix-neuvième siècle, le président Díaz se chargeant de l’inauguration. On y vendait des marchandises importées d’Europe. Les travaux ont duré plusieurs années.\n\nSon grand escalier d’origine a été démoli dans les années soixante. De l’ensemble d’origine, on retient surtout la verrière et les ascenseurs en ferronnerie.\n\nLa verrière est ce qui a rendu le bâtiment célèbre. C’est une couverture de verre coloré au-dessus du hall, de style art nouveau, et on l’attribue à Jacques Gruber, un artiste originaire de France. Gruber était décorateur et peintre sur verre, et il a fait partie du comité directeur de l’École de Nancy dès sa création, en mille neuf cent un. Il a aussi réalisé la coupole des grands magasins des Galeries Lafayette, à Paris, en mille neuf cent onze. C’est pourquoi on lui attribue la verrière du hall, qui a été achevée au début du vingtième siècle, alors que le bâtiment fonctionnait déjà comme magasin. Si le hall est ouvert au public, cela vaut la peine de vous arrêter quelques minutes et d’observer comment la lumière traverse le verre et change les couleurs au fil de la journée.\n\nLe magasin a cessé son activité en mille neuf cent cinquante-huit. Dix ans plus tard, le bâtiment a ouvert comme hôtel. Sa clientèle était composée de ceux qui arrivaient pour les Jeux olympiques de Mexico. Cette même année, cette place a vécu les événements du mouvement étudiant que nous racontons en parlant de la [mémoire du Zócalo](cdmx_26_zocalo_memoria). Entre deux mille trois et deux mille cinq, le bâtiment a été rénové et a pris le nom de Gran Hotel Mexico.\n\nImaginez le hall à l’époque du magasin : des clients qui entrent acheter des tissus, des chapeaux et des costumes arrivés d’Europe, sous une lumière colorée qui tombait d’en haut. C’était une ville qui regardait de l’autre côté de l’océan pour s’habiller et pour acheter.\n\nÀ l’extérieur, le style est éclectique, et c’est à l’intérieur que l’art nouveau se distingue. Regardez maintenant tranquillement la façade et les portes d’entrée. Le hall est réservé à l’usage de l’hôtel ; si vous souhaitez le voir, respectez donc les règles des lieux et renseignez-vous sur ce qui est ouvert. Depuis la rue, vous avez déjà l’essentiel : un bâtiment qui raconte la modernité du Porfiriato, le commerce avec l’Europe et le changement d’usage d’un siècle à l’autre.\n\nPour finir, marchez quelques pas vers l’arcade du Portal de Mercaderes et comparez : là-bas, le commerce des siècles vice-royaux, et ici, celui de la modernité porfirienne. Un dernier détail : les chapeaux, les tissus et les costumes importés du magasin d’origine parlent d’une ville qui achetait la mode européenne à la fin du dix-neuvième siècle. Aujourd’hui, ces marchandises ne sont plus là, mais le bâtiment conserve la trace de ce commerce."
+    },
+    "retos_observacion": {
+      "hash": "f240aa2cc99db008",
+      "texto": [
+        "Comptez les étages du bâtiment depuis le trottoir",
+        "Cherchez le nom de l’hôtel au-dessus de l’entrée",
+        "Comparez sa façade avec l’arcade du Portal de Mercaderes, que vous venez de parcourir : quelles époques distinguez-vous ?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e819d6b08753344a",
+      "texto": {
+        "Époque": "Centro Mercantil ouvert en 1899, hôtel depuis 1968",
+        "Fondateur": "Sebastien Robert, immigré français",
+        "Style": "façade éclectique, intérieur art nouveau",
+        "Verrière": "attribuée à Jacques Gruber",
+        "Emplacement": "82, avenue du 16-Septembre, angle sud-ouest du Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "cf16c18cfa82d9ac",
+      "texto": {
+        "pregunta": "Mythe : Ce bâtiment a toujours été un hôtel.",
+        "respuesta": "Réalité : Il est né en 1899 comme grand magasin, le Centro Mercantil ; le magasin a fermé en 1958 et le bâtiment a ouvert comme hôtel en 1968."
+      }
+    }
+  }
+}

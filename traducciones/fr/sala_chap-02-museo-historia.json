@@ -1,0 +1,22 @@
+{
+  "id": "chap-02-museo-historia",
+  "tipo": "sala",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "ffbfbecd1ac16f2f",
+      "texto": "Musée d’Histoire (ancien Collège militaire)"
+    },
+    "frase_gancho": {
+      "hash": "d97128f016e6c65d",
+      "texto": "Un édifice qui fut école militaire, observatoire et résidence raconte aujourd’hui l’histoire du Mexique sous le nom de Musée national d’Histoire."
+    },
+    "introduccion_narrativa": {
+      "hash": "77af98a7d4cd4c49",
+      "texto": "Avant de devenir un musée, cette partie de l’édifice fut une école. Après les travaux commencés en mille huit cent quarante et un, le château fut aménagé en Collège militaire. Il fut le théâtre de la défense du treize septembre mille huit cent quarante-sept, qui laissa de graves dégâts dans le bâtiment. Le collège n’y resta pas toujours. Selon l’historien Michael Drewes, en mille huit cent cinquante-huit, le général Miramón transféra les élèves. L’école revint vers mille huit cent quatre-vingt-deux. Le Musée national d’Histoire ajoute une précision. En mille huit cent quatre-vingt-trois, l’observatoire déménagea à Tacubaya afin que le château redevienne Collège militaire. L’étape du musée arriva avec le président Lázaro Cárdenas, qui transféra sa résidence officielle à Los Pinos. Le trois février mille neuf cent trente-neuf, le château fut déclaré Musée national d’Histoire. Il fut inauguré le vingt-sept septembre mille neuf cent quarante-quatre."
+    }
+  }
+}

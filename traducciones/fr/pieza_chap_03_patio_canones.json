@@ -1,0 +1,55 @@
+{
+  "id": "chap_03_patio_canones",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9cbfe4de364e985",
+      "texto": "La cour des Canons et l’ancien Collège militaire"
+    },
+    "frase_gancho": {
+      "hash": "7c8edf0fd411512c",
+      "texto": "L’esplanade où des adolescents de treize à dix-neuf ans ont affronté un bombardement d’artillerie."
+    },
+    "puente_narrativo": {
+      "hash": "2dde7b42255ab23f",
+      "texto": "Dirigez-vous vers la porte d’entrée du bâtiment occidental, au fond de la cour : vous passerez à l’intérieur du Musée national d’histoire, où le parcours commence dans les salles de la rencontre entre le monde autochtone et l’Espagne."
+    },
+    "guion_corto": {
+      "hash": "e79a0f8b8d523c6c",
+      "texto": "Vous vous trouvez dans l’ancienne place d’armes du Collège militaire. Autour de vous, sur des affûts de bois et de fer, reposent des canons historiques en bronze qui pointent vers l’horizon, tandis que la façade sobre à deux niveaux vous montre l’aile où les cadets étudiaient et dormaient au dix-neuvième siècle. Cet espace ouvert fut le cœur de la résistance mexicaine les douze et treize septembre mille huit cent quarante-sept, lorsque l’armée des États-Unis bombarda la colline pendant plus d’une journée entière avant de lancer l’assaut final au corps à corps sur les pentes."
+    },
+    "guion_largo": {
+      "hash": "3f57df6a27005b86",
+      "texto": "Pour comprendre ce qui s’est passé dans cette cour, il faut imaginer l’aube du douze septembre mille huit cent quarante-sept. Les troupes américaines, sous le commandement du général Winfield Scott, savaient que Chapultepec était la dernière clé militaire avant d’atteindre les portes de la ville de Mexico. Depuis les batteries installées au Molino del Rey et au sud du bois, elles ouvrirent un feu d’artillerie continu contre ces mêmes murs. À l’intérieur de l’enceinte se trouvaient à peine huit cents soldats mexicains, soutenus par le bataillon de San Blas, et près de cinquante jeunes cadets qui refusèrent d’évacuer leur école malgré l’ordre du directeur, le général Nicolás Bravo, de partir avec leurs familles. Beaucoup d’entre eux étaient presque des enfants : Francisco Márquez n’avait que treize ans. Le lendemain matin, quand le canonnade cessa et que les colonnes envahissantes escaladèrent la colline avec des échelles à travers la fumée de la poudre, cette cour et les [terrasses supérieures](chap_25_terraza_ninos_heroes) devinrent un champ de bataille désespéré, à la baïonnette. Des décennies après cette bataille, en mille neuf cent trente-neuf, le président Lázaro Cárdenas décréta que le château cesserait d’être la demeure des gouvernants pour être remis au peuple en tant que siège du Musée national d’histoire, dont les salles se trouvent juste derrière la porte qui est devant vous."
+    },
+    "retos_observacion": {
+      "hash": "bcfc900c3ebab971",
+      "texto": [
+        "Approchez-vous des canons de la cour et cherchez les gravures et les écussons fondus dans le bronze",
+        "Observez la symétrie sobre et militaire des arcs et des balcons du bâtiment du Collège",
+        "Penchez-vous au parapet de la cour pour comprendre l’avantage visuel que cette esplanade offrait sur la vallée"
+      ]
+    },
+    "especificaciones": {
+      "hash": "55ace62d522e97f5",
+      "texto": {
+        "Période": "XIXe siècle (époque du Collège militaire, 1841-1847 et 1883-1913)",
+        "Bataille historique": "12 et 13 septembre 1847",
+        "Décret de création du Musée national d’histoire": "3 février 1939 (président Lázaro Cárdenas)",
+        "Inauguration du musée": "27 septembre 1944",
+        "Éléments remarquables": "Pièces d’artillerie en bronze et façade néoclassique militaire"
+      }
+    },
+    "faq_mito": {
+      "hash": "63e8a5681ad7a1d5",
+      "texto": {
+        "pregunta": "Mythe : Lázaro Cárdenas a vécu au château de Chapultepec pendant tout son mandat avant d’en faire un musée.",
+        "respuesta": "Réalité : Cárdenas a refusé d’habiter le château, qu’il considérait comme un symbole monarchique et impérial éloigné du peuple ; il a transféré la résidence officielle à Los Pinos et a transformé tout l’édifice en musée public."
+      }
+    }
+  }
+}

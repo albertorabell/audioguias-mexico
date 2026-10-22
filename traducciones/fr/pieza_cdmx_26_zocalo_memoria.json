@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_26_zocalo_memoria",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2e9bb63d71fc9543",
+      "texto": "Le Zócalo, place de mémoire : le Cri, les manifestations et 1968"
+    },
+    "frase_gancho": {
+      "hash": "8665cc986bde78c5",
+      "texto": "Cette place a servi à fêter, à protester et à se souvenir, et chaque génération la regarde différemment."
+    },
+    "puente_narrativo": {
+      "hash": "46c7aa396dbe8979",
+      "texto": "Dirigez-vous vers le côté nord de la place, où se dresse la façade de la cathédrale, prochaine étape."
+    },
+    "como_llegar": {
+      "hash": "02ab666f13961fab",
+      "texto": "Avancez lentement vers le centre de la place et restez-y un instant, car l’histoire récente est elle aussi passée par ce lieu."
+    },
+    "guion_corto": {
+      "hash": "86e4f0105c2ea8ff",
+      "texto": "L’après-midi du vingt-sept août mille neuf cent soixante-huit, cette place s’est remplie d’étudiants et de gens qui les accompagnaient. Les cloches de la cathédrale ont sonné. C’était un meeting du mouvement étudiant. Au petit matin, l’armée est entrée et a évacué le Zócalo. Plus d’un mois après, le deux octobre, a eu lieu le massacre de Tlatelolco. Ce n’était pas ici, mais sur la place des Trois Cultures. La place a toujours été une scène partagée. Chaque quinze septembre, elle se remplit pour le Cri de l’Indépendance, et à d’autres dates, elle accueille des marches et des célébrations très différentes. C’est pourquoi on dit que le Zócalo est un lieu de mémoire."
+    },
+    "guion_largo": {
+      "hash": "b82a3b2db549ac2b",
+      "texto": "Le Zócalo n’est pas seulement un espace ouvert. C’est le lieu où beaucoup de gens se réunissent pour célébrer, pour réclamer et pour se souvenir, et c’est pourquoi les mémoires qu’il garde ne coïncident pas toujours. Je vais vous en raconter quelques-unes, avec des faits documentés et sans prendre parti.\n\nCommençons par une fête. Les célébrations de l’Indépendance se tenaient dans des espaces fermés jusqu’en mille huit cent quatre-vingt-six. Cette année-là, on a proposé de les faire depuis le balcon du Palais national. Porfirio Díaz a présidé la cérémonie. En mille huit cent quatre-vingt-seize, la cloche de Dolores est arrivée dans la capitale, et depuis lors elle fait partie de la cérémonie. Chaque quinze septembre, la place se remplit pour le Cri.\n\nVoyons maintenant mille neuf cent soixante-huit. Ce fut l’année du mouvement étudiant, et le Zócalo a vécu deux jours décisifs. Le vingt-sept août, une marche est partie du Musée national d’anthropologie et est arrivée sur cette place. Les chiffres de participants vont d’environ trente mille personnes à des centaines de milliers, et il n’existe pas de nombre que tout le monde accepte. Pendant le meeting, on a hissé un drapeau rouge et noir, symbole des grèves, et les cloches de la cathédrale ont sonné à toute volée. Entre trois mille et cinq mille étudiants sont restés camper sur la place.\n\nAu petit matin, le vingt-huit août déjà, les haut-parleurs du Palais national ont accordé un délai de cinq minutes pour quitter la place. Ensuite, l’armée est entrée avec des véhicules blindés et des soldats, et a évacué le Zócalo. Les étudiants sont sortis par la rue Madero en chantant l’hymne national.\n\nLe premier septembre, dans son rapport de gouvernement, le président Gustavo Díaz Ordaz a parlé de l’attitude du gouvernement. Il a dit qu’il avait été tolérant jusqu’à des excès critiquables. Cinq semaines plus tard, le deux octobre, s’est produit ce que beaucoup de personnes associent à cette année-là : le massacre de Tlatelolco. Ici, il convient d’être clair. Ce jour-là, le meeting avait lieu à Tlatelolco, et non au Zócalo. Les chiffres des victimes continuent d’être débattus. La version officielle a parlé de trente morts, l’ambassade des États-Unis en a rapporté entre cent cinquante et deux cents, et certains rapports vont jusqu’à trois cent cinquante.\n\nLa place garde aussi la mémoire d’autres secousses. Le séisme de mille neuf cent quatre-vingt-cinq a gravement endommagé le bâtiment du Gouvernement de la Ville. À l’intérieur, on voit encore des renforts en acier.\n\nCelui qui marche aujourd’hui ici foule un lieu où se mêlent les souvenirs de fêtes, de deuils et de revendications, et tous font partie de la même histoire de la ville.\n\nEt la place est toujours en usage. Elle accueille des concerts, des foires, des meetings et des marches de causes très diverses, et c’est pourquoi vous la trouvez parfois avec des scènes, des barrières ou des estrades. Pensez-y en regardant autour de vous : le même sol a porté des fêtes, des grèves, des défilés et des silences. Se souvenir de ce qui s’est passé ici n’est pas prendre parti. C’est comprendre pourquoi chaque génération regarde cette place autrement."
+    },
+    "retos_observacion": {
+      "hash": "c7d35ee73ed512b9",
+      "texto": [
+        "Cherchez le balcon central du Palais national, d’où l’on donne le Cri chaque quinze septembre",
+        "Repérez sur le côté ouest de la place l’entrée de la rue Madero, par où les étudiants sont sortis au petit matin du vingt-huit août",
+        "Levez les yeux vers les tours de la cathédrale, où se trouvaient les cloches qui ont sonné cet après-midi-là"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0aeab27729f1a73f",
+      "texto": {
+        "Époque": "du dix-neuvième au vingt et unième siècle",
+        "Lieu": "Place de la Constitution, Centre historique",
+        "Faits de 1968 sur la place": "marche et meeting du 27 août, évacuation par l’armée le 28 août",
+        "Tlatelolco": "2 octobre 1968, sur la place des Trois Cultures, et non au Zócalo",
+        "Tradition du Cri": "la cloche de Dolores est arrivée dans la capitale en 1896"
+      }
+    },
+    "faq_mito": {
+      "hash": "00db5e0d722822d0",
+      "texto": {
+        "pregunta": "Mythe : Le massacre du deux octobre mille neuf cent soixante-huit a eu lieu au Zócalo.",
+        "respuesta": "Réalité : Il a eu lieu sur la place des Trois Cultures, à Tlatelolco. Les événements du Zócalo en 1968 ont été le meeting du vingt-sept août et l’évacuation du vingt-huit."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_13_torre_latinoamericana",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "53dc25c0e946d745",
+      "texto": "Torre Latinoamericana, la Latino"
+    },
+    "frase_gancho": {
+      "hash": "d2e0d28495fc0c09",
+      "texto": "Une tour d’acier dressée sur le sol meuble de l’ancien lac, qui tient toujours debout après trois grands séismes."
+    },
+    "puente_narrativo": {
+      "hash": "45da8f48c482ce6e",
+      "texto": "Poursuivez par la rue Madero vers l’est, à quelques pas, jusqu’à la Casa de los Azulejos."
+    },
+    "como_llegar": {
+      "hash": "4062fe95af090198",
+      "texto": "Poursuivez par l’Eje Central en direction de la rue Madero, où la Torre Latinoamericana s’élève à l’angle."
+    },
+    "guion_corto": {
+      "hash": "f64660ee460bca30",
+      "texto": "Trois cent soixante et un. C’est le nombre de pilotis de béton qui soutiennent la Torre Latinoamericana. Ils descendent jusqu’à une couche de sable dur, à trente-trois mètres de profondeur. Ici, le sol est celui de l’ancien lac, meuble et changeant. La tour fut inaugurée le trente avril mille neuf cent cinquante-six, avec une structure d’acier. L’ingénieur Leonardo Zeevaert et l’architecte Augusto H. Álvarez ont participé au projet. Sa conception a pris pour référence le séisme de mille neuf cent onze. En mille neuf cent cinquante-sept, une forte secousse l’a mise à l’épreuve. Puis sont venues celles de mille neuf cent quatre-vingt-cinq et de deux mille dix-sept."
+    },
+    "guion_largo": {
+      "hash": "728ec7a3ddb91dcc",
+      "texto": "L’histoire de la Latino commence plus de vingt-cinq ans avant son ouverture. En mille neuf cent trente, la compagnie La Latinoamericana de Seguros acquit ce terrain, à l’angle de Madero et de San Juan de Letrán. Une partie de ce terrain avait appartenu au couvent de San Francisco, que vous découvrirez bientôt, et, avant cela, à la ménagerie de Moctezuma. Ce sol a gardé plus d’une histoire. Les travaux commencèrent en mille neuf cent quarante-huit et se prolongèrent jusqu’en mille neuf cent cinquante-six.\n\nL’inauguration eut lieu le trente avril de cette année-là, celle où la compagnie, fondée en mille neuf cent six, fêtait ses cinquante ans. La tour mesure plus de cent quatre-vingts mètres et compte quarante-quatre étages. Pendant des années, elle fut l’édifice le plus haut de la ville.\n\nLa grande difficulté, c’était le sol. Le centre de la ville repose sur le terrain meuble de l’ancien lac. En mille neuf cent quarante-neuf, on réalisa des études du sous-sol. Ensuite, on enfonça trois cent soixante et un pilotis de béton jusqu’à atteindre le sable dur, à trente-trois mètres. Sur eux, on construisit une dalle de fondation, à treize mètres et demi de profondeur. Au-dessus, on éleva une structure d’acier avec des dalles de béton. Monter si haut sur un tel sol exigeait beaucoup d’études avant de poser la première poutre, et cette préparation explique une bonne part de sa renommée.\n\nL’ingénieur Leonardo Zeevaert fut essentiel dans cette conception, et son frère Adolfo dirigea le projet. Les architectes Augusto H. Álvarez et Alfonso González Paullada participèrent à la conception de l’édifice. On prit pour référence le séisme de magnitude sept virgule un de mille neuf cent onze, le plus récent des séismes forts que l’on connaissait alors.\n\nL’épreuve arriva vite. Le vingt-huit juillet mille neuf cent cinquante-sept, un an après l’ouverture, un séisme de magnitude proche de sept virgule neuf secoua la capitale. La tour resta debout, tandis que d’autres édifices de la ville subissaient des dégâts. Dans le hall, une plaque rappelle le prix que l’Institut américain de la construction en acier lui a remis pour avoir résisté aux secousses.\n\nPuis vint le dix-neuf septembre mille neuf cent quatre-vingt-cinq, avec d’énormes dégâts dans le centre de la ville. La tour resta debout. Et de nouveau en deux mille dix-sept, lors d’un autre séisme de magnitude sept virgule un.\n\nLa Latino aide aussi à comprendre la ville. Aujourd’hui, elle abrite des bureaux, des musées et un belvédère payant tout en haut. Si vous décidez de monter, consultez les horaires en vigueur. Depuis cet angle de rue, vous pouvez la regarder sans payer.\n\nPensez à sa relation avec La Nacional, que vous venez de voir. Vingt-quatre ans séparent les deux édifices. Entre elles se raconte une part de l’histoire des gratte-ciel de la capitale. La Nacional annonça le changement, et la Latino en fit un symbole de la ville."
+    },
+    "retos_observacion": {
+      "hash": "b9fbea154c1aadbf",
+      "texto": [
+        "Levez les yeux et cherchez les antennes qui couronnent la tour",
+        "Comparez sa hauteur à celle des immeubles voisins de la rue Madero",
+        "Regardez vers La Nacional, à l’angle de l’avenue Juárez, et comparez les deux hauteurs"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d754fb04810b0883",
+      "texto": {
+        "Époque": "Construite de 1948 à 1956 ; inaugurée le 30 avril 1956",
+        "Ingénierie": "Leonardo Zeevaert",
+        "Architecture": "Augusto H. Álvarez",
+        "Structure": "Ossature d’acier et 361 pilotis de béton",
+        "Emplacement": "Eje Central Lázaro Cárdenas, à l’angle de la rue Francisco I. Madero",
+        "Donnée clé": "A résisté aux séismes de 1957, 1985 et 2017"
+      }
+    },
+    "faq_mito": {
+      "hash": "29467f101fcf7b62",
+      "texto": {
+        "pregunta": "Mythe : La Torre Latinoamericana a été le premier gratte-ciel de Mexico.",
+        "respuesta": "Réalité : La Nacional, achevée en 1932, était déjà considérée comme un gratte-ciel à son époque ; la Latino a été, pendant des années, l’édifice le plus haut."
+      }
+    }
+  }
+}

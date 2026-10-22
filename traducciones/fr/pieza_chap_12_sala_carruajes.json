@@ -1,0 +1,56 @@
+{
+  "id": "chap_12_sala_carruajes",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2ea081b1178ddcdb",
+      "texto": "La Salle des Carrosses de l’Alcazar"
+    },
+    "frase_gancho": {
+      "hash": "80f057a99988f61c",
+      "texto": "Un carrosse baroque construit à Milan et une voiture de tous les jours qui a changé d’armoiries en même temps que de gouvernement."
+    },
+    "puente_narrativo": {
+      "hash": "d9073dedd52a5abd",
+      "texto": "Poursuivez la visite vers l’escalier des Lions, où un grand escalier d’allure impériale cache une origine scientifique."
+    },
+    "guion_corto": {
+      "hash": "f5cc41e47d99bea9",
+      "texto": "Avant d’être l’entrée de l’Alcazar, cet espace a servi de remise du château, selon le musée. Aujourd’hui, il réunit des voitures de deux gouvernements différents. Le carrosse de gala de Maximilien et Charlotte est sorti vers mille huit cent soixante-quatre de la maison Cesare Scala, à Milan. Il est de style baroque, avec des moulures d’argent et de bronze, des enfants et des anges sculptés, des armoiries impériales et une devise en espagnol : « Équité dans la justice ». Dans cette salle, le musée présente aussi la voiture que Maximilien et Charlotte utilisaient chaque jour. Benito Juárez s’en est servi ensuite, et les armoiries de l’Empire ont cédé la place à celles de la République. C’est une seule et même voiture, avec deux histoires."
+    },
+    "guion_largo": {
+      "hash": "ac5560762e61ea5f",
+      "texto": "Les plans du vice-roi Bernardo de Gálvez, datant de mille sept cent quatre-vingt-cinq, prévoyaient déjà une remise au rez-de-chaussée du palais. Le palais n’a jamais été achevé, et le bâtiment a connu bien des vies. Selon le musée, cette salle a servi ensuite de remise du château, et c’est aujourd’hui l’entrée de l’Alcazar. C’est un bon début pour l’étage des empereurs : là où l’on rangeait autrefois des voitures, on range encore des voitures, mais d’une tout autre sorte.\n\nLa pièce la plus fastueuse est le carrosse de gala de Maximilien et Charlotte. Le musée l’attribue à la maison Cesare Scala, de Milan, et le date de vers mille huit cent soixante-quatre. Son style est baroque. Il présente des moulures d’argent et de bronze, des sculptures d’enfants et d’anges, des armoiries impériales et une devise en espagnol : « Équité dans la justice ». Un carrosse de gala n’est pas fait pour arriver vite quelque part. Il est fait pour qu’on le voie passer.\n\nMaximilien de Habsbourg est arrivé au château le douze juin mille huit cent soixante-quatre. Il a gouverné avec le soutien de l’armée française de Napoléon III. Son règne a pris fin en mille huit cent soixante-sept. Il a été fusillé sur la colline des Cloches, à Querétaro, avec les généraux Miguel Miramón et Tomás Mejía. On appelle cette période le Second Empire, car le Mexique avait déjà connu un premier empire, celui d’[Agustín de Iturbide](chap_06_morelos_iturbide).\n\nDans la même salle se trouve une autre histoire, plus républicaine. Le musée explique que la voiture de tous les jours de Maximilien et Charlotte est passée ensuite à Benito Juárez. Pour cela, les armoiries impériales ont été remplacées par celles de la République. L’objet était le même, mais le message avait changé. Le musée mentionne en outre une calèche. Dans celle-ci, dit-il, Juárez est entré à Mexico le quinze juillet mille huit cent soixante-sept, vingt-six jours après la fusillade. La calèche a été fabriquée à Paris et décorée des armoiries nationales et de motifs préhispaniques. C’est le bon moment pour vous rappeler le [carrosse de Juárez](chap_07_carruaje_juarez) d’un arrêt précédent.\n\nCe contraste mérite votre attention. D’un côté, un carrosse aux moulures d’argent, aux anges et aux armoiries ; de l’autre, des véhicules qui ont changé de propriétaire par le simple remplacement d’un emblème. Ce sont deux façons de dire qui commande : par l’ornement ou par les symboles nationaux.\n\nDerrière ces objets se trouve aussi l’histoire du musée. En mille neuf cent trente-neuf, le président Lázaro Cárdenas a décrété que le château deviendrait un musée. Manuel Ávila Camacho l’a inauguré le vingt-sept septembre mille neuf cent quarante-quatre. Aujourd’hui, il réunit plus de soixante-cinq mille objets, parmi lesquels des peintures, du mobilier, des vêtements, des documents et des voitures.\n\nEn montant à l’Alcazar, emportez avec vous cette idée. Un objet de gouvernement est rarement un simple objet : il porte des armoiries, des devises et des emblèmes qui changent quand le pouvoir change, et c’est pourquoi on peut les lire comme un document."
+    },
+    "retos_observacion": {
+      "hash": "573235bb5f6bdaf7",
+      "texto": [
+        "Cherchez sur le carrosse de gala les moulures d’argent et de bronze ainsi que les figures d’enfants et d’anges",
+        "Trouvez la devise en espagnol, « Équité dans la justice », et les armoiries impériales",
+        "Comparez la voiture de tous les jours avec le carrosse de gala et observez laquelle porte le plus d’ornements et quel emblème elle affiche"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8dda3689baf17655",
+      "texto": {
+        "Époque": "Second Empire, vers 1864",
+        "Atelier du carrosse de gala": "maison Cesare Scala, Milan",
+        "Style et matériaux": "baroque, avec des moulures d’argent et de bronze",
+        "Devise": "Équité dans la justice",
+        "À retenir": "la voiture de tous les jours de Maximilien et Charlotte a ensuite été utilisée par Benito Juárez, avec des armoiries républicaines",
+        "Emplacement": "Salle des Carrosses, entrée de l’Alcazar"
+      }
+    },
+    "faq_mito": {
+      "hash": "e319dbbd98f47c9e",
+      "texto": {
+        "pregunta": "Mythe : Les carrosses de l’empereur Maximilien ont été détruits ou laissés à l’abandon à la chute de l’Empire.",
+        "respuesta": "Réalité : Selon le Musée national d’Histoire, la voiture que Maximilien et Charlotte utilisaient chaque jour est passée à Benito Juárez, et ses armoiries impériales ont été remplacées par celles de la République."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "chap_27_estandarte_hidalgo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f341b68cd75663da",
+      "texto": "L’Étendard de Guadalupe et les Reliques d’Hidalgo"
+    },
+    "frase_gancho": {
+      "hash": "5facb397c8c952ed",
+      "texto": "Un curé qui jouait du violon, une toile décrochée dans un sanctuaire et un bâton : ainsi naquit l’étendard de l’Indépendance."
+    },
+    "puente_narrativo": {
+      "hash": "ed751b336ffff191",
+      "texto": "Poursuivez vers la prochaine étape, où la guerre qui a commencé avec cette toile se poursuit avec deux hommes qui se sont affrontés : José María Morelos et Agustín de Iturbide."
+    },
+    "guion_corto": {
+      "hash": "94af4d86fd7c564b",
+      "texto": "Hidalgo avait cinquante-sept ans lorsqu’il prit les armes. C’était un curé érudit et un violoniste remarquable, qui jouait lors des soirées organisées chez lui. Il quitta Dolores à onze heures du matin et arriva au sanctuaire d’Atotonilco à cinq heures et demie de l’après-midi. Là, selon la déclaration du chapelain, un paysan demanda une image à l’une des dévotes et la fixa sur un bâton. Cette toile de la Vierge de Guadalupe est l’étendard de l’Indépendance."
+    },
+    "guion_largo": {
+      "hash": "e65a9939fbdddc82",
+      "texto": "Miguel Hidalgo avait cinquante-sept ans lorsqu’il prit les armes. Ce n’était pas un guerrier. C’était un curé érudit, connu à Dolores pour sa culture et pour son violon : il jouait lors des soirées qui se tenaient chez lui. Voilà la personne dont cette salle garde les traces.\n\nAu petit matin du seize septembre mille huit cent dix, la cloche de Dolores appela la population. Au début, quatre-vingts hommes armés d’épées et de lances se rassemblèrent. Les cartels de la salle racontent qu’en quelques heures ils étaient déjà six cents. La colonne quitta Dolores à onze heures du matin, mangea et se reposa à la hacienda de la Erre, et arriva au sanctuaire d’Atotonilco à cinq heures et demie de l’après-midi.\n\nÀ Atotonilco, il se passa quelque chose qui changea l’insurrection. Quelqu’un prit au sanctuaire une toile de la Vierge de Guadalupe et la brandit bien haut. Mais personne ne sait avec certitude qui l’a prise. Ignacio Allende, lors de son procès, déclara qu’il ignorait sur l’ordre de qui la toile avait été prise. Le chapelain d’Atotonilco déclara que c’était un paysan qui avait demandé une image à l’une des dévotes du sanctuaire et l’avait fixée sur un bâton. Ainsi naquit l’étendard : non d’un plan, mais d’un geste improvisé devenu symbole.\n\nL’étendard poursuivit sa route avec les insurgés. Il fut capturé par l’armée de Félix María Calleja à San Jerónimo Aculco. En mille huit cent cinquante-trois, une inscription fut gravée à son revers. Aujourd’hui, il est exposé sur un piédestal en bois sculpté, fabriqué en mille neuf cent onze.\n\nAutour de l’étendard se trouvent les reliques. Dans l’ensemble du musée, on ne conserve guère plus d’une cinquantaine d’objets ayant appartenu à Hidalgo, sauvés pour une grande part vers mille neuf cent dix, lors des fêtes du Centenaire. Le cartel qui les présente s’intitule « La pudeur de l’histoire ». Parmi eux figurent des pièces intimes : les fonts baptismaux où il fut baptisé, le confessionnal de la paroisse de Dolores, l’habit qu’il portait pour administrer les sacrements et un reliquaire avec la Vierge des Douleurs.\n\nVoici l’autre visage de l’homme que vous avez déjà vu deux fois dans le [retable d’O’Gorman](chap_04_retablo_independencia). Là-bas, il est un symbole sur un mur ; ici, il est une personne, avec son violon, son confessionnal et ses fonts baptismaux. La guerre qui a commencé avec cette toile s’est poursuivie avec d’autres chefs. Le suivant est [Morelos](chap_06_morelos_iturbide), qui avait été l’élève d’Hidalgo."
+    },
+    "retos_observacion": {
+      "hash": "b35c7e8187a953aa",
+      "texto": [
+        "Cherchez l’étendard de la Vierge de Guadalupe et observez le piédestal en bois sculpté qui le soutient",
+        "Repérez le confessionnal de la paroisse de Dolores et les fonts baptismaux",
+        "Cherchez le reliquaire avec la Vierge des Douleurs et l’habit qu’il portait pour administrer les sacrements"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b4e7e40a2c7c6a6c",
+      "texto": {
+        "Objet": "Étendard de Guadalupe de Miguel Hidalgo",
+        "Lieu où il fut pris": "sanctuaire d’Atotonilco, 16 septembre 1810",
+        "Départ de Dolores": "11 h 00 ; arrivée à Atotonilco : 17 h 30",
+        "Capture": "San Jerónimo Aculco, par Calleja",
+        "Inscription au revers": "1853",
+        "Piédestal": "bois sculpté, 1911",
+        "Reliques": "fonts baptismaux, confessionnal de Dolores, habit sacramentel, reliquaire avec la Vierge des Douleurs"
+      }
+    },
+    "faq_mito": {
+      "hash": "844663168a3d225a",
+      "texto": {
+        "pregunta": "Mythe : Hidalgo avait préparé l’étendard à l’avance.",
+        "respuesta": "Réalité : Allende déclara lors de son procès qu’il ignorait sur l’ordre de qui la toile avait été prise, et le chapelain d’Atotonilco dit qu’un paysan avait demandé une image à une dévote et l’avait fixée sur un bâton."
+      }
+    }
+  }
+}

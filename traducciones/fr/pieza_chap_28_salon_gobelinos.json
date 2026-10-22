@@ -1,0 +1,56 @@
+{
+  "id": "chap_28_salon_gobelinos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5246c8622a6c01fd",
+      "texto": "Le Salon des Gobelins"
+    },
+    "frase_gancho": {
+      "hash": "09ceebeb2c461b0a",
+      "texto": "Un ensemble de sièges en noisetier et de tapisseries que Napoléon III offrit à Maximilien, et quatre portraits de deux couples de monarques."
+    },
+    "puente_narrativo": {
+      "hash": "411fd8fa951161ca",
+      "texto": "Poursuivez vers la chambre de Charlotte, l’impératrice qui gouverna lorsque son mari était loin."
+    },
+    "guion_corto": {
+      "hash": "a582dd68048f1934",
+      "texto": "Cette salle s’appelle le Salon des Gobelins, et son cartel l’intitule Nostalgie de l’Europe. Elle abrite un ensemble de sièges en bois de noisetier de style Louis Quinze, avec une tapisserie d’Aubusson illustrant les fables de La Fontaine, cadeau personnel de Napoléon Trois à Maximilien. Sur les murs sont accrochés quatre portraits peints par Albert Graefle en mille huit cent soixante-cinq, et il y a deux pianos, l’un français et l’autre anglais."
+    },
+    "guion_largo": {
+      "hash": "f3cd2ce0bd404558",
+      "texto": "Lorsque Maximilien et Charlotte se sont installés à Chapultepec, ils ont apporté à Mexico un morceau d’Europe. Le cartel de cette salle le dit dans son titre : Nostalgie de l’Europe.\n\nL’élément le plus précieux est un ensemble de sièges en bois de noisetier, de style Louis Quinze, avec une tapisserie d’Aubusson. Sur cette tapisserie apparaissent les fables de Jean de La Fontaine, l’auteur français des grenouilles, des renards et des corbeaux. Ce ne fut pas un achat : ce fut un cadeau personnel de l’empereur Napoléon Trois à Maximilien.\n\nRegardez maintenant les murs. Quatre portraits peints par Albert Graefle en mille huit cent soixante-cinq y sont accrochés : Maximilien, Charlotte, Napoléon Trois et son épouse, Eugénie de Montijo. Les monarques français furent les tuteurs politiques du couple impérial. Ce sont deux couples sur un même mur : celui qui gouvernait Mexico et celui qui l’avait placé sur le trône.\n\nDans la salle se trouvent aussi deux pianos, l’un français et l’autre anglais, qui appartinrent personnellement à Maximilien et à Charlotte.\n\nCette pièce n’a pas toujours été un salon. Le cartel comporte un encadré, Cet espace à d’autres époques, qui énumère ses usages. En mille huit cent soixante-six, c’étaient des chambres d’employés et une garde-robe. En mille huit cent soixante-dix-sept, ce fut la chambre du directeur de l’observatoire. En mille huit cent quatre-vingt-deux, sous la présidence de Manuel González, ce fut la chambre de la gouvernante. Et en mille neuf cent six, sous Porfirio Díaz, elle devint la Salle Basse. Quatre époques, quatre fonctions, et un ensemble en noisetier qui les réunit aujourd’hui.\n\nNe le confondez pas avec son voisin, le [Salon des Ambassadeurs](chap_17_salon_embajadores), qui raconte une autre histoire. La prochaine étape est la [chambre de Charlotte](chap_18_recamara_carlota), l’impératrice qui voyagea en Europe pour demander de l’aide lorsque l’Empire s’effondrait."
+    },
+    "retos_observacion": {
+      "hash": "bc21a04080b9faba",
+      "texto": [
+        "Cherchez les quatre portraits d’Albert Graefle et reconnaissez les deux couples de monarques",
+        "Repérez les deux pianos, l’un français et l’autre anglais",
+        "Observez la tapisserie des sièges : ce sont des scènes des fables de La Fontaine"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1ab09abec71f2720",
+      "texto": {
+        "Nom sur le cartel": "Salon des Gobelins (Nostalgie de l’Europe)",
+        "Portraits": "Albert Graefle, 1865 (Maximilien, Charlotte, Napoléon III et Eugénie de Montijo)",
+        "Pianos": "l’un français et l’autre anglais",
+        "Sièges": "bois de noisetier, style Louis XV, tapisserie d’Aubusson avec des fables de La Fontaine",
+        "Origine": "cadeau personnel de Napoléon III à Maximilien",
+        "Usages antérieurs": "1866 garde-robe et employés ; 1877 directeur de l’observatoire ; 1882 gouvernante ; 1906 Salle Basse"
+      }
+    },
+    "faq_mito": {
+      "hash": "19aa53acaa4f7c55",
+      "texto": {
+        "pregunta": "Mythe : Les meubles de ce salon ont été achetés par Maximilien pour impressionner les ambassadeurs.",
+        "respuesta": "Réalité : L’ensemble en noisetier avec tapisserie d’Aubusson fut un cadeau personnel de Napoléon III à Maximilien. Le Salon des Ambassadeurs est une autre salle, datant de l’époque de Porfirio Díaz."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "chap_09_batalla_puebla_orozco",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "953a19591bafcff6",
+      "texto": "Le 5 mai et la fresque de Juárez (Orozco)"
+    },
+    "frase_gancho": {
+      "hash": "ce4cad8d63fb8d2b",
+      "texto": "De la victoire de Zaragoza sous la pluie de Puebla au cadavre momifié de Maximilien peint par José Clemente Orozco."
+    },
+    "puente_narrativo": {
+      "hash": "164a7587ffc571be",
+      "texto": "Poursuivez vers la prochaine étape, le carrosse de Benito Juárez, qui a parcouru le pays pendant les années de la guerre contre l’Empire, jusqu’au retour de la République."
+    },
+    "guion_corto": {
+      "hash": "4b7c1f6a9c4b4f4a",
+      "texto": "Dans ce secteur des salles du dix-neuvième siècle se font face trois œuvres fondamentales qui racontent la lutte pour la souveraineté du Mexique : le portrait à l’huile du général Ignacio Zaragoza peint en mille huit cent soixante et un, le grand tableau panoramique de la bataille de Puebla du cinq mai mille huit cent soixante-deux réalisé par le peintre catalan José Cusachs, et en haut du mur l’imposante fresque « La Réforme et la chute de l’Empire », peinte en mille neuf cent quarante-huit par José Clemente Orozco, où le visage gigantesque et impassible de Benito Juárez domine toute la pièce."
+    },
+    "guion_largo": {
+      "hash": "913a4f21087787fb",
+      "texto": "L’histoire que racontent ces murs a commencé en mille huit cent soixante et un, lorsque le gouvernement de [Benito Juárez](chap_07_carruaje_juarez), asphyxié par le manque de ressources après des années de guerre civile, a dû suspendre temporairement le paiement de la dette extérieure. L’Angleterre, l’Espagne et la France ont envoyé leurs flottes de guerre à Veracruz ; mais tandis que les Espagnols et les Anglais acceptaient de négocier lors des préliminaires de La Soledad et se retiraient, l’empereur français Napoléon Trois a décidé d’envahir le pays pour freiner les États-Unis et s’emparer des richesses mexicaines. Le cinq mai mille huit cent soixante-deux, le comte de Lorencez a lancé celle que l’on considérait alors comme la meilleure armée du monde contre les forts de Puebla. Regardez attentivement le tableau de José Cusachs : entre les feuilles d’agave et la fumée de la poudre, les soldats mexicains et les indigènes zacapoaxtlas font reculer les fameux zouaves français aux pantalons rouges. Le héros de cette journée, le jeune général Ignacio Zaragoza, né au Texas en mille huit cent vingt-neuf et qui avait choisi de rester mexicain après la perte territoriale de mille huit cent quarante-sept, n’a pas pu voir la fin de la guerre : à peine quatre mois après sa victoire, il est mort de la fièvre typhoïde à trente-trois ans. Cinq ans plus tard, la République a définitivement triomphé, et José Clemente Orozco a résumé ce dénouement avec une force brutale dans la fresque que vous avez devant vous : en haut resplendit le visage de pierre de Juárez, escorté par le drapeau du bataillon des Pouvoirs suprêmes et par un soldat portant le numéro cinquante-sept sur son képi en l’honneur de la Constitution ; tandis qu’en bas, comme dans un monde souterrain sombre, le corps momifié de [Maximilien](chap_20_recamara_maximiliano) est porté par les figures fantomatiques des évêques, des généraux et des nobles qui l’ont conduit sur le trône."
+    },
+    "retos_observacion": {
+      "hash": "25a2cb414bd1b234",
+      "texto": [
+        "Observez dans le tableau de José Cusachs le choc au corps à corps entre les zouaves français au pantalon rouge et les troupes mexicaines parmi les agaves",
+        "Arrêtez-vous devant le portrait d’Ignacio Zaragoza avec ses lunettes rondes, peint à peine quelques mois avant sa victoire à Puebla",
+        "Levez les yeux vers la fresque d’Orozco et cherchez le numéro 57 sur le képi du soldat à la torche, ainsi que le corps momifié de Maximilien dans la bande inférieure"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78d89ae901ee30cc",
+      "texto": {
+        "Œuvres principales": "Fresque « La Réforme et la chute de l’Empire » de José Clemente Orozco (fresque, 1948) ; « Bataille de Puebla, 5 mai 1862 » de José Cusachs (huile sur toile, 1903) ; Portrait d’Ignacio Zaragoza signé par Tejada (huile, 1861)",
+        "Commandants mexicains du 5 mai": "Ignacio Zaragoza, Miguel Negrete, Felipe Berriozábal, Francisco Lamadrid et Porfirio Díaz",
+        "Commandant français": "Charles F. Latrille, comte de Lorencez",
+        "Emplacement": "Salle de la Réforme et du Second Empire, MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "06202b533ecc51c3",
+      "texto": {
+        "pregunta": "Mythe : Après avoir perdu la bataille de Puebla le 5 mai 1862, l’armée française s’est rendue et est immédiatement rentrée en Europe.",
+        "respuesta": "Réalité : La victoire du 5 mai a arrêté l’avancée des envahisseurs pendant toute une année, mais Napoléon III a envoyé trente mille soldats de plus ; en 1863, les Français ont assiégé Puebla pendant soixante-douze jours jusqu’à la prendre, puis ont avancé vers Mexico pour instaurer l’empire de Maximilien."
+      }
+    }
+  }
+}

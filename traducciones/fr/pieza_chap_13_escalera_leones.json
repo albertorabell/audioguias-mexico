@@ -1,0 +1,56 @@
+{
+  "id": "chap_13_escalera_leones",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6a7e9f78e88d8bf8",
+      "texto": "L’escalier des Lions"
+    },
+    "frase_gancho": {
+      "hash": "7d5ad72a0abcc7b8",
+      "texto": "Un escalier de marbre qui ne s’est pas ouvert pour une cour, mais pour mener à un observatoire."
+    },
+    "puente_narrativo": {
+      "hash": "4c00cef1930ffc24",
+      "texto": "Poursuivez la visite vers la Galerie des Vitraux au plomb, où cinq déesses de verre filtrent la lumière du jour."
+    },
+    "guion_corto": {
+      "hash": "b785a48931937cce",
+      "texto": "En 1878, un accès à l’étage supérieur de l’Alcázar a été ouvert, et ce n’était pas pour une fête. C’était pour que les scientifiques puissent rejoindre l’Observatoire astronomique, météorologique et magnétique national, qui fonctionnait dans le château. Plus tard, à l’initiative de Porfirio Díaz, on construisit un escalier de marbre blanc avec une rampe en laiton. Vers 1915, sous Venustiano Carranza, il fut remanié et l’on y plaça les sculptures de lions qui lui donnent son nom, selon le musée. Autrement dit, un escalier d’allure impériale, ouvert onze ans après l’exécution de Maximilien. Son origine est scientifique, et ses mains, républicaines. Chaque époque a laissé ici sa couche."
+    },
+    "guion_largo": {
+      "hash": "ce122e6a67c92044",
+      "texto": "Beaucoup de gens imaginent cet escalier comme une part du rêve de Maximilien et de Charlotte. La date raconte autre chose. Selon le Musée national d’histoire, l’accès a été ouvert en 1878, onze ans après l’exécution de l’empereur. La raison était scientifique : le château abritait alors l’Observatoire astronomique national.\n\nL’observatoire a été fondé par décret présidentiel le dix-huit décembre 1876. Son premier directeur fut l’ingénieur Ángel Anguiano, et les travaux officiels à Chapultepec ont commencé le cinq mai 1878. Un article de la Revista de la Universidad de México rapporte ce qu’a raconté l’astronome Joaquín Gallo. Le président Porfirio Díaz voulait des cartes plus exactes du pays. Pour cela, il fallait un point de référence permettant de calculer la longitude des villages et des villes. Le musée ajoute qu’à cette époque, on a coiffé d’une coupole la tour du [Caballero Alto](chap_24_caballero_alto).\n\nEn 1883, l’observatoire a déménagé dans l’ancien palais de l’Archevêché, à Tacubaya. Les astronomes sont partis, le château est redevenu le siège du Collège militaire et Díaz s’en est servi comme résidence d’été. L’escalier, lui, est resté. Selon le musée, c’est Díaz qui l’a fait reconstruire en marbre blanc, avec une rampe en laiton.\n\nCe n’est pas le seul escalier de l’Alcázar. Le musée raconte qu’un autre, intérieur, a été ouvert sous le gouvernement de Manuel González, entre 1880 et 1884. Il reliait les appartements de la famille présidentielle aux salons de réception et à la salle à manger. Il comportait un ascenseur électrique réservé à cette famille. Les domestiques empruntaient d’autres escaliers. Un palais est aussi une carte de qui peut monter, et par où.\n\nLes lions sont venus plus tard. Selon le musée, vers 1915, l’escalier a été remanié, sous le gouvernement de Venustiano Carranza. On y a alors placé les sculptures qui lui ont donné son nom. La Révolution a ainsi laissé son empreinte dans un château pensé pour des vice-rois, des empereurs et des présidents. En 1916, ce même Carranza a ordonné la démolition d’un bâtiment de l’époque de Díaz pour donner plus de visibilité à l’Alcázar.\n\nUne étude de conservation de l’INAH décrit dans cet escalier un vitrail avec l’Écusson national au centre. Sur les côtés figurent deux glyphes de Chapultepec : une colline, une sauterelle à son sommet et de l’eau à sa base. C’est l’ancienne manière d’écrire le nom du lieu, qui se traduit par colline de la sauterelle. Selon cette étude, en 1941, Francisco Goitia a proposé de fermer l’ouverture avec de simples vitres. Le motif était budgétaire. En 1943, on a posé des verres biseautés incolores.\n\nChaque époque a laissé ici une couche : l’observatoire, le marbre de Díaz, les lions de la Révolution et les vitres des années 1940. Plus loin, la [Galerie des Vitraux au plomb](chap_14_vitrales_emplomados) montre une autre manière de travailler avec la lumière, très différente de celle du télescope."
+    },
+    "retos_observacion": {
+      "hash": "6df92d19d968c298",
+      "texto": [
+        "Comparez les deux lions de marbre et cherchez ce qui les rend semblables ou différents",
+        "Observez la rampe, qui est en laiton selon le musée, et comparez-la au marbre blanc des marches",
+        "Si vous voyez un vitrail à l’extrémité de l’escalier, cherchez le glyphe de Chapultepec : une colline avec une sauterelle à son sommet"
+      ]
+    },
+    "especificaciones": {
+      "hash": "615130e47621d863",
+      "texto": {
+        "Ouverture de l’accès": "1878, pour l’Observatoire astronomique, météorologique et magnétique national",
+        "Reconstruction": "marbre blanc et rampe en laiton, à l’initiative de Porfirio Díaz",
+        "Lions": "placés vers 1915 sous Venustiano Carranza, selon le MNH",
+        "Escalier intérieur": "ouvert sous le gouvernement de Manuel González (1880-1884), avec ascenseur électrique pour la famille présidentielle",
+        "Vitrail": "Écusson national et deux glyphes de Chapultepec, selon une étude de l’INAH",
+        "Emplacement": "Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "c10f0fa812051c24",
+      "texto": {
+        "pregunta": "Mythe : l’escalier des Lions fait partie du palais que Maximilien et Charlotte ont conçu pour leur cour.",
+        "respuesta": "Réalité : selon le Musée national d’histoire, l’accès a été ouvert en 1878, onze ans après l’exécution de Maximilien, pour monter à l’Observatoire astronomique national ; le marbre date de l’époque de Díaz et les lions ont été placés vers 1915."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_24_casa_boker",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7962bebea20ef0d2",
+      "texto": "Maison Boker : la quincaillerie d’acier inaugurée par Porfirio Díaz"
+    },
+    "frase_gancho": {
+      "hash": "a4426503611a4f1c",
+      "texto": "L’escalier de la Maison Boker n’est pas dans la Maison Boker : c’est aujourd’hui le grand escalier d’entrée du palais du Gouvernement de Xalapa."
+    },
+    "puente_narrativo": {
+      "hash": "6aa832cf785ae3c7",
+      "texto": "Poursuivez par l’avenue du Seize-Septembre en direction de l’est, jusqu’à déboucher sur la grande place du Zócalo."
+    },
+    "como_llegar": {
+      "hash": "70c1a806614a7c57",
+      "texto": "Poursuivez par la rue Isabelle la Catholique en direction de l’avenue du Seize-Septembre, où se trouve la Maison Boker, un édifice à structure métallique qui abrita une quincaillerie historique."
+    },
+    "guion_corto": {
+      "hash": "e558b1f460a9b6a1",
+      "texto": "Le grand escalier de cet édifice n’est pas ici, mais à Xalapa. Le gouvernement de Veracruz l’a acheté en mille neuf cent huit, et il sert aujourd’hui d’entrée au palais du Gouvernement de cette ville. La maison qui l’abritait est la Maison Boker. Porfirio Díaz l’a inaugurée le trois juillet mille neuf cent, avec une structure de colonnes et de poutres métalliques conçue par des architectes de New York. Robert Boker, venu d’Allemagne, avait ouvert sa première boutique le premier novembre mille huit cent soixante-cinq. La quincaillerie a fermé en décembre deux mille vingt-quatre, mais le nom Boker est toujours sur la façade."
+    },
+    "guion_largo": {
+      "hash": "662a7531d926214d",
+      "texto": "Avant que cet édifice n’existe, le nom Boker vendait déjà des outils au Mexique. Robert Boker était originaire de Remscheid, en Allemagne, où sa famille fabriquait et vendait des outils depuis des siècles. Le premier novembre mille huit cent soixante-cinq, il ouvrit sa première boutique, Robert Boker et Compagnie, alors que Maximilien de Habsbourg gouvernait le pays.\n\nL’édifice que vous avez devant vous est arrivé trente-cinq ans plus tard. Porfirio Díaz l’a inauguré le trois juillet mille neuf cent. Il a été conçu par le cabinet De Lemos et Cordes, de New York, qui avait aussi réalisé les premiers magasins Macy’s. L’ingénieur mexicain Gonzalo Garita a participé au chantier. Lui aussi a travaillé avec ce cabinet sur l’édifice de la [Banque du Mexique](cdmx_15_banco_mexico), une autre étape de votre parcours.\n\nLa nouveauté résidait dans la structure. C’était l’un des premiers édifices du pays construits avec des colonnes et des poutres métalliques, et à son époque, l’un des plus modernes. C’était un grand magasin de trois niveaux, où l’on vendait de la quincaillerie, de la mercerie, de la coutellerie, des outils pour l’agriculture et pour les mines, et des articles pour la maison. Parmi les produits les plus célèbres figuraient les machines à coudre Singer.\n\nVoici maintenant l’anecdote qui donne son titre à cette étape. Un escalier monumental reliait le rez-de-chaussée à l’étage suivant, dans la cour ouest. La maison elle-même raconte qu’en mille neuf cent huit, il a été vendu au gouvernement de Veracruz. C’est aujourd’hui le grand escalier d’entrée du palais du Gouvernement de Xalapa. Cela montre comment les éléments d’un édifice peuvent voyager à travers le pays.\n\nL’édifice a aussi survécu à des catastrophes. Un incendie, le huit février mille neuf cent soixante-quinze, a obligé à renforcer les colonnes depuis les fondations et les poutres avec des tiges d’acier. Pendant ces années, on a ajouté des nœuds parasismiques, et ce renforcement a aidé l’édifice à résister aux séismes de septembre mille neuf cent quatre-vingt-cinq. En mille neuf cent soixante-seize, une partie de l’édifice a été louée à Sanborns. Cette succursale a fermé en août deux mille vingt-quatre.\n\nLa quincaillerie était entre les mains de la quatrième génération de la famille. Elle a fermé en décembre deux mille vingt-quatre, après cent cinquante-neuf ans de service. Beaucoup de guides touristiques continuent de la décrire comme un lieu que l’on peut visiter à l’intérieur. C’est pourquoi, pour ce parcours, la Maison Boker est racontée depuis la rue. Ce que vous pouvez voir, c’est sa façade, avec le nom Boker et une couleur verte caractéristique, ainsi que le volume de l’édifice à l’angle de la rue.\n\nCette fin de la zone de Madero vous laisse une idée. Entre mille huit cent soixante-cinq et mille neuf cent, cette famille est passée d’une boutique à un grand édifice conçu à New York. Cela montre comment le commerce et les investissements venus de l’extérieur ont changé le visage du Centre au début du vingtième siècle.\n\nIl est maintenant temps d’arriver au Zócalo. Vous laissez derrière vous les commerces de l’époque porfirienne. Devant vous s’étend la place centrale de la capitale, où se croisent de nombreux siècles d’histoire."
+    },
+    "retos_observacion": {
+      "hash": "4f0f3e6f21c706ea",
+      "texto": [
+        "Cherchez le nom Boker sur la façade et comparez ses lettres à celles des enseignes voisines",
+        "Remarquez la couleur verte de l’édifice et les parties métalliques que l’on aperçoit",
+        "Repérez l’angle de la rue Isabelle la Catholique et de l’avenue du Seize-Septembre, et regardez combien de niveaux compte l’édifice"
+      ]
+    },
+    "especificaciones": {
+      "hash": "82c0cf88d4b3d7eb",
+      "texto": {
+        "Commerce fondé": "1865, par Robert Boker",
+        "Édifice": "inauguré le 3 juillet 1900 par Porfirio Díaz",
+        "Architectes": "De Lemos et Cordes, de New York",
+        "Structure": "colonnes et poutres métalliques sur trois niveaux",
+        "Emplacement": "avenue du Seize-Septembre 58, à l’angle de la rue Isabelle la Catholique",
+        "Fait clé": "la quincaillerie a fermé en décembre 2024"
+      }
+    },
+    "faq_mito": {
+      "hash": "dba5d665d817ecdc",
+      "texto": {
+        "pregunta": "Mythe : La Maison Boker continue de fonctionner comme une quincaillerie que l’on peut visiter à l’intérieur.",
+        "respuesta": "Réalité : La quincaillerie a fermé en décembre deux mille vingt-quatre après cent cinquante-neuf ans, et le Sanborns de l’édifice a fermé en août de cette même année ; certains guides touristiques la décrivent encore comme visitable."
+      }
+    }
+  }
+}

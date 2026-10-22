@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_19_la_profesa",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18991febd2f16657",
+      "texto": "La Profesa : jésuites, philippins et une conspiration discutée"
+    },
+    "frase_gancho": {
+      "hash": "80a430ddf17fb439",
+      "texto": "Un temple qui fut maison de jésuites, puis oratoire philippin, et auquel on attribue une conspiration que les historiens discutent."
+    },
+    "puente_narrativo": {
+      "hash": "f081927ef70da3a1",
+      "texto": "Marchez quelques pas jusqu’à l’angle voisin, où vous attend le [musée de l’Estanquillo](cdmx_20_estanquillo)."
+    },
+    "como_llegar": {
+      "hash": "a99a21cf3ca279e8",
+      "texto": "Continuez sur la rue Madero en direction du Zócalo jusqu’à l’angle avec la rue Isabel la Católica, où se trouve le temple de [La Profesa](cdmx_19_la_profesa)."
+    },
+    "guion_corto": {
+      "hash": "9e248e9a36d2096f",
+      "texto": "La Profesa vient de « maison professe », le nom de la résidence des jésuites qui se trouvait en ce lieu. Le premier temple fut inauguré en mille six cent dix. Celui que vous voyez aujourd’hui est l’œuvre de l’architecte Pedro de Arrieta, élevé entre mille sept cent quatorze et mille sept cent vingt. Les jésuites furent expulsés en mille sept cent soixante-sept. Le temple passa alors à la Congrégation de l’Oratoire de Saint-Philippe-Néri, et c’est pourquoi son nom officiel est oratoire. À l’intérieur, le maître Manuel Tolsá le rénova dans le style néoclassique au début du dix-neuvième siècle. Une tradition affirme qu’on y conspira en mille huit cent vingt contre la Constitution de Cadix. Les historiens discutent de la part de vérité qu’il y a là-dedans."
+    },
+    "guion_largo": {
+      "hash": "9880ef4e65dca0c1",
+      "texto": "Pour comprendre le nom, il faut commencer par les jésuites. La Compagnie de Jésus arriva à Mexico à la fin du seizième siècle et y établit une maison professe. C’était la résidence de prêtres qui, outre les vœux habituels, faisaient un quatrième vœu d’obéissance spéciale au pape. De là vient le nom populaire de La Profesa. Le premier temple fut inauguré en ce lieu en mille six cent dix.\n\nL’édifice que vous voyez est postérieur. Le temple précédent s’était détérioré, et l’on en éleva donc un nouveau. Il fut conçu et construit par l’architecte Pedro de Arrieta. Celui-ci commença à travailler sur le projet en mille sept cent quatorze, et l’ouvrage fut terminé en mille sept cent vingt, avec la dédicace une semaine plus tard.\n\nEn mille sept cent soixante-sept, la Couronne espagnole expulsa les jésuites de ses domaines. L’édifice passa alors à la Congrégation de l’Oratoire de Saint-Philippe-Néri, dont les membres sont connus sous le nom de philippins. C’est pourquoi le nom officiel est oratoire de Saint-Philippe-Néri. Au début du dix-neuvième siècle, les pères philippins chargèrent Manuel Tolsá de rénover l’intérieur dans le style néoclassique, avec un nouveau maître-autel.\n\nLa Profesa est célèbre pour une conspiration. La tradition raconte qu’en mille huit cent vingt, un groupe de partisans de l’absolutisme s’y réunit. Ils rejetaient la Constitution de Cadix, rétablie cette année-là. Ils auraient prévu une indépendance qui conserverait leurs privilèges, et Agustín de Iturbide aurait servi ce plan. Ainsi, ce temple se rattache à l’histoire du palais d’Iturbide, que vous venez de voir.\n\nIl faut ici rester prudent. Les historiens qualifient cette conspiration de supposée, presque mythique. L’abondante documentation de l’époque ne confirme ni n’infirme de façon catégorique qu’elle ait existé. Certains pensent que les réunions n’ont jamais eu lieu. D’autres, qu’elles ont réussi et n’ont donc laissé aucune trace. L’historien Jaime del Arenal soutient, dans la revue Historia Mexicana, que le Plan de Iguala fut un projet différent. Il ne serait pas l’œuvre de ce groupe. En résumé, ce que l’on sait est peu de chose. Et ce que l’on présente comme certain, à savoir que La Profesa a décidé de l’Indépendance, est une thèse que plusieurs historiens remettent en question.\n\nLe temple fut déclaré monument national en mille neuf cent trente-deux et abrite une importante pinacothèque d’art vice-royal. Il a subi des dégâts lors du séisme de septembre deux mille dix-sept, aussi convient-il de vérifier s’il est ouvert avant de vous en approcher. Si vous décidez d’y entrer, faites-le pendant les horaires de culte et avec le respect que demande un lieu de prière.\n\nDepuis la rue, vous pouvez voir son portail baroque sur la rue Isabel la Católica et sa silhouette parmi des immeubles plus récents. C’est un bon exemple de la façon dont le Centre historique rassemble des siècles différents à un même angle de rue.\n\nÀ deux pas, le musée de l’Estanquillo occupe un autre édifice qui a sa propre histoire, que nous vous raconterons à la prochaine étape."
+    },
+    "retos_observacion": {
+      "hash": "a6abaeef5afb03e6",
+      "texto": [
+        "Cherchez le portail baroque du temple sur la rue Isabel la Católica",
+        "Repérez l’angle où se croisent la rue Madero et la rue Isabel la Católica",
+        "Comparez la hauteur du temple avec celle des immeubles commerciaux qui l’entourent"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d371c02e9e90dd7",
+      "texto": {
+        "Époque": "Premier temple de 1610 ; édifice actuel construit entre 1714 et 1720",
+        "Auteur": "Pedro de Arrieta (édifice) ; Manuel Tolsá (intérieur néoclassique)",
+        "Style": "Baroque, avec intérieur néoclassique",
+        "Emplacement": "Isabel la Católica 21, à l’angle de la rue Madero",
+        "Fait clé": "Après l’expulsion des jésuites en 1767, il passa à l’Oratoire de Saint-Philippe-Néri"
+      }
+    },
+    "faq_mito": {
+      "hash": "1e98a05f7999199f",
+      "texto": {
+        "pregunta": "Mythe : C’est à La Profesa que l’on a ourdi l’Indépendance du Mexique pour conserver des privilèges, et c’est de là qu’est sorti le plan d’Iturbide.",
+        "respuesta": "Réalité : La prétendue Conspiration de La Profesa est une tradition. Les historiens la jugent supposée, car la documentation de l’époque ne confirme ni n’infirme son existence, et certains soutiennent que le Plan de Iguala n’était pas l’œuvre de ce groupe."
+      }
+    }
+  }
+}

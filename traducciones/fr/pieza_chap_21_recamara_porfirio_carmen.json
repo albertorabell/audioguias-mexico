@@ -1,0 +1,56 @@
+{
+  "id": "chap_21_recamara_porfirio_carmen",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "81a31a50bf386b90",
+      "texto": "Chambres de Porfirio Díaz et de Carmen Romero Rubio"
+    },
+    "frase_gancho": {
+      "hash": "08bb0cde6f491f53",
+      "texto": "Porfirio Díaz ne vivait pas au Château toute l’année : il l’utilisait en été, pour des bals et des réceptions."
+    },
+    "puente_narrativo": {
+      "hash": "fa52be94894a1563",
+      "texto": "Avancez vers le bureau présidentiel, le cabinet de travail où Díaz avait sa bibliothèque."
+    },
+    "guion_corto": {
+      "hash": "5ac80c9b423f73a3",
+      "texto": "Avant l’aube, le président était déjà debout. Selon le musée, Porfirio Díaz se levait au petit matin, faisait de la gymnastique et nageait. Mais il passait surtout l’été ici : sa famille vivait la plus grande partie de l’année dans la maison numéro huit de la rue de La Cadena, aujourd’hui Venustiano Carranza. Le Château fut aménagé pour des bals et des réceptions. Les chambres du couple, celle de Díaz et celle de Carmen Romero Rubio, furent importées de France. Elle avait dix-sept ans quand elle l’épousa, lui en avait cinquante et un, en novembre mille huit cent quatre-vingt-un. Le musée décrit la chambre de Carmen comme un mélange de sobriété et d’élégance."
+    },
+    "guion_largo": {
+      "hash": "973c05d2fbed00f4",
+      "texto": "Si vous imaginez le président Díaz installé toute l’année au Château, il convient de corriger la scène. Sa maison de tous les jours se trouvait rue de La Cadena, dans le centre. C’est là que sa famille vécut la plus grande partie de l’année. Il recevait ses ministres au Palais national. Le Château était le lieu de l’été : il fut aménagé pour des bals et des réceptions. Sa routine, selon le musée, commençait au petit matin, avec de la gymnastique et de la natation, et, à d’autres périodes, comprenait la chasse à Querétaro, à Michoacán et à Jalisco.\n\nLa femme qui donna un autre ton à cette vie est Carmen Romero Rubio. Elle naquit en mille huit cent soixante-quatre, en pleine guerre contre l’Intervention française, et son parrain de baptême fut Sebastián Lerdo de Tejada. Sa famille appartenait à un courant politique opposé à celui de Díaz. Malgré cela, en novembre mille huit cent quatre-vingt-un, ils se marièrent. Díaz était veuf, il avait cinquante et un ans et il était ministre du Développement. Elle en avait dix-sept. Le mariage civil eut lieu le cinq novembre et le mariage religieux deux jours plus tard, dans l’oratoire de l’archevêque Pelagio Antonio de Labastida. Un mémoire de licence de l’UNAM signale que la cérémonie fut présentée comme un geste de bonne volonté envers l’Église.\n\nLe musée décrit Carmen comme éduquée, élégante, discrète et pieuse. Il dit qu’elle gagna l’acceptation de secteurs qui n’étaient pas favorables au gouvernement et qu’elle améliora l’image publique de Díaz, sans se mêler de politique. On raconte parfois qu’elle lui apprit l’anglais. Le même mémoire a trouvé quelque chose de plus modeste. Des cours d’anglais, organisés par le docteur Eduardo Liceaga avant le mariage, sont décrits comme infructueux. Ils eurent lieu au printemps mille huit cent quatre-vingt-un.\n\nLes chambres du couple furent importées de France, selon le musée. Celle de Carmen allie sobriété et élégance, reflet du goût européen qu’adoptaient les classes aisées de l’époque. Les appartements du couple se trouvaient à l’étage supérieur. Un escalier intérieur, ouvert sous le gouvernement de Manuel González, les reliait aux salons de réception et à la salle à manger. Il y avait aussi un ascenseur électrique, à l’usage exclusif du président et de sa famille, qui desservait les deux niveaux et le sous-sol. L’[Escalier des Lions](chap_13_escalera_leones), en revanche, était destiné aux invités.\n\nLa maison se remplissait de monde. Carmen et Díaz n’eurent pas d’enfants, mais ils vivaient avec Luz, Porfirio et Amada, les enfants de lui, et avec certains de ses seize petits-enfants. Du goût de Díaz pour montrer le progrès du pays, il reste aussi les vitraux de la [Galerie des Vitraux](chap_14_vitrales_emplomados), commandés à Paris vers mille neuf cent.\n\nCe monde s’acheva vite. Díaz démissionna le vingt-cinq mai mille neuf cent onze. Le trente et un, il quitta Veracruz à bord du vapeur Ypiranga avec sa famille, et le navire arriva en France le vingt juin. Il mourut à Paris le deux juillet mille neuf cent quinze, et le couple resta uni jusqu’alors. Carmen revint à Mexico et mourut dans la capitale en mille neuf cent quarante-quatre."
+    },
+    "retos_observacion": {
+      "hash": "d305610faa5bbc1b",
+      "texto": [
+        "Cherchez le cartel qui mentionne la maison de la rue de La Cadena",
+        "Observez le contraste entre la sobriété et l’élégance que le musée attribue à la chambre de Carmen",
+        "Cherchez une référence à l’escalier intérieur ou à l’ascenseur électrique de la famille présidentielle"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07063aa551ea6ebb",
+      "texto": {
+        "Personnages": "Porfirio Díaz et Carmen Romero Rubio, mariés en novembre 1881",
+        "Usage du Château": "résidence d’été de la famille présidentielle, aménagée pour des bals et des réceptions",
+        "Résidence habituelle": "maison numéro 8 de la rue de La Cadena, aujourd’hui Venustiano Carranza",
+        "Chambres": "importées de France, de sobriété et d’élégance",
+        "Ascenseur": "électrique, à l’usage exclusif du président et de sa famille",
+        "Emplacement": "Alcázar, étage supérieur"
+      }
+    },
+    "faq_mito": {
+      "hash": "50a9cf6a000f80e9",
+      "texto": {
+        "pregunta": "Mythe : Porfirio Díaz vivait au château de Chapultepec pendant toute la durée de son gouvernement.",
+        "respuesta": "Réalité : selon le Musée national d’histoire, la famille présidentielle vivait la plus grande partie de l’année dans la maison numéro huit de la rue de La Cadena, aujourd’hui Venustiano Carranza, et utilisait le Château en été, aménagé pour des bals et des réceptions."
+      }
+    }
+  }
+}

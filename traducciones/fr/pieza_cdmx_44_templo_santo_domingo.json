@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_44_templo_santo_domingo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "29fe076e61b78755",
+      "texto": "Temple de Santo Domingo et l’ancienne Douane"
+    },
+    "frase_gancho": {
+      "hash": "af40932c5d72c27b",
+      "texto": "Voici la troisième église des dominicains sur ce terrain, et les inondations de la ville bâtie sur le lac ont pesé sur son histoire."
+    },
+    "puente_narrativo": {
+      "hash": "0297b4ccc15bb766",
+      "texto": "Poursuivez vers la rue République du Brésil, face à la place, où se trouve le [Palais de l’Inquisition](cdmx_45_inquisicion)."
+    },
+    "como_llegar": {
+      "hash": "f500d6bb9b4c0457",
+      "texto": "Marchez vers le côté nord de la place, où la tour aux carreaux de faïence annonce le [temple de Santo Domingo](cdmx_44_templo_santo_domingo)."
+    },
+    "guion_corto": {
+      "hash": "8e05d6e90d0de60b",
+      "texto": "Voici la troisième église que les dominicains élèvent sur ce terrain, et la ville construite sur le lac y est pour beaucoup. Les frères sont arrivés à Mexico en mille cinq cent vingt-six. Leur premier temple était petit, et les inondations l’ont endommagé. En mille sept cent seize, une autre inondation a touché la deuxième église, et l’année suivante a commencé la troisième, celle que vous avez devant vous. Elle est baroque, avec une tour dont le dernier niveau est recouvert de carreaux de faïence, et elle abrite un retable majeur de Manuel Tolsá. De l’énorme couvent qui l’entourait, une bonne partie a disparu lorsque l’on a ouvert la rue Leandro Valle. Ce que vous voyez est ce que l’eau, le temps et la Réforme ont laissé debout."
+    },
+    "guion_largo": {
+      "hash": "14a5958777b132f5",
+      "texto": "Les dominicains sont arrivés en Nouvelle-Espagne en mille cinq cent vingt-six, et ils ont très vite commencé à construire ici. Leur premier temple, vers mille cinq cent vingt-sept, était petit et simple. Cette partie de la ville était un terrain marécageux, au bord d’un canal du lac. Les inondations ont endommagé encore et encore ce que l’on élevait, et le couvent et l’église ont été reconstruits plusieurs fois à cause de la faiblesse du sol.\n\nLa deuxième église a été consacrée vers mille cinq cent quatre-vingt-dix. En mille sept cent seize, une inondation l’a tellement endommagée qu’il a fallu suspendre le culte. L’année suivante a commencé la troisième église, celle que vous voyez. Elle a été bénie en mille sept cent trente-six, et consacrée en janvier de mille sept cent cinquante-cinq. Depuis lors, le temple a presque l’aspect qu’il a aujourd’hui.\n\nRegardez la façade. Elle est baroque. La tour se termine par un prisme pyramidal recouvert de carreaux de faïence. Les arcs du côté gauche ne sont pas d’origine. Ils ont été ajoutés au vingtième siècle, pour dissimuler le passage vers la rue Leandro Valle et harmoniser l’ensemble avec la place.\n\nSi le temple est ouvert au culte et que vous souhaitez jeter un regard respectueux à l’intérieur, il a un plan en croix latine. Le retable majeur est une œuvre néoclassique de Manuel Tolsá, le même artiste que celui du Petit Cheval et du palais des Mines. Dans les bras du transept, il y a des retables dorés du dix-huitième siècle. L’image la plus ancienne du temple est le Christ du Noviciat, du seizième siècle, fait de pâte de tige de maïs. Une légende raconte que deux anges l’auraient offert aux dominicains, mais ce n’est qu’une tradition.\n\nDans le temple reposent les restes de Pedro de Moctezuma Tlacahuepantzin, fils de Moctezuma Xocoyotzin.\n\nL’eau a tellement marqué l’histoire de ce lieu qu’elle a donné naissance à une dévotion. Après une grave inondation, le conseil municipal de la ville a nommé saint Dominique patron des eaux et de la ville. C’était le trente et un juillet mille six cent trente.\n\nLe couvent, en revanche, n’a pas résisté aux changements politiques. Au milieu du dix-neuvième siècle, avec la Réforme, les biens religieux ont été confisqués. Lorsque l’on a ouvert la rue Leandro Valle, une bonne partie du monastère et plusieurs chapelles ont été détruites. Mexico signale que la cour appelée des Généraux subsiste à l’intérieur du Centre culturel du Mexique contemporain, sur cette rue.\n\nSur le côté est de la place se trouve l’ancienne Douane. La Douane royale de Mexico a été fondée en mille cinq cent soixante-quatorze, pour soutenir le système fiscal de l’empire espagnol. Son bâtiment, près de cette place, a été construit et agrandi au dix-huitième siècle. En mille neuf cent vingt et un, il est passé aux mains du secrétariat à l’Éducation publique. Aujourd’hui, il fait partie de l’ensemble du [Musée vivant du muralisme](cdmx_46_museo_vivo_muralismo). Ainsi, sur une seule place, un temple, un tribunal et une douane racontent comment s’organisaient la foi, la justice et l’argent."
+    },
+    "retos_observacion": {
+      "hash": "7bd01f36bffa5646",
+      "texto": [
+        "Repérez la tour dont le dernier niveau est recouvert de carreaux de faïence",
+        "Cherchez les arcs du côté gauche du temple, qui ne sont pas d’origine",
+        "Identifiez le bâtiment sobre de l’ancienne Douane sur le côté est de la place"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07b5d3a53b2eb89c",
+      "texto": {
+        "Époque": "troisième église commencée en 1717, bénie en 1736 et consacrée en janvier 1755",
+        "Auteur": "retable majeur de Manuel Tolsá",
+        "Style": "baroque, plan en croix latine",
+        "Emplacement": "côté nord de la place de Santo Domingo",
+        "Donnée clé": "du grand couvent dominicain, seuls survivent le temple et quelques espaces",
+        "Ancienne Douane": "Douane royale fondée en 1574 ; aujourd’hui intégrée à l’ensemble du secrétariat à l’Éducation publique"
+      }
+    },
+    "faq_mito": {
+      "hash": "ed13b4732489b7c0",
+      "texto": {
+        "pregunta": "Mythe : Le temple de Santo Domingo est celui que les dominicains ont élevé à leur arrivée, au seizième siècle.",
+        "respuesta": "Réalité : C’est la troisième église du lieu ; la précédente a subi une inondation en 1716 et l’actuelle a été commencée l’année suivante."
+      }
+    }
+  }
+}

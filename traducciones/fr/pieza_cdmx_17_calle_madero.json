@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_17_calle_madero",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "22ffe56348470578",
+      "texto": "Calle de Madero : San Francisco, Plateros et un nom de 1914"
+    },
+    "frase_gancho": {
+      "hash": "c0df6cac65fcd83e",
+      "texto": "Une rue qui fut celle de San Francisco, puis celle des Plateros, et qui porte depuis mille neuf cent quatorze le nom de Madero."
+    },
+    "puente_narrativo": {
+      "hash": "ca8e83faa3ac4dc9",
+      "texto": "Poursuivez sur la rue Madero jusqu’au numéro dix-sept, où vous attend le [Palais d’Iturbide](cdmx_18_palacio_iturbide)."
+    },
+    "como_llegar": {
+      "hash": "52b9b73c044c7165",
+      "texto": "Revenez sur la rue Madero et continuez vers le Zócalo ; le tronçon piéton de la [rue Madero](cdmx_17_calle_madero) commence là."
+    },
+    "guion_corto": {
+      "hash": "d0c0022d0429b3ae",
+      "texto": "Le vingt-sept septembre mille huit cent vingt et un, un arc de triomphe attendait Agustín de Iturbide près de l’extrémité ouest de cette rue. Elle s’appelait alors la rue de San Francisco, du nom du couvent que vous venez de laisser derrière vous. Plus tard, elle devint la rue des Plateros, et depuis décembre mille neuf cent quatorze, elle porte le nom de Francisco I. Madero. Aujourd’hui, elle est piétonne et mène jusqu’au Zócalo. Chaque façade de ce tronçon garde une histoire différente : des palais de comtes, une église qui fut jésuite, des boutiques de toutes les époques. Parcourez-la sans hâte et regardez à mi-hauteur, là où les édifices montrent leurs balcons et leurs portails."
+    },
+    "guion_largo": {
+      "hash": "d2e0ad1b16885d4e",
+      "texto": "Cette rue a porté trois noms. Le premier fut rue de San Francisco, du nom du couvent franciscain que vous venez de visiter. Le deuxième, rue des Plateros, parce que les orfèvres s’y étaient établis. Pendant longtemps, les gens l’ont connue ainsi. Le chroniqueur Juan Becerra Acosta rappelle que, selon les tronçons, celui proche de l’Eje Central s’appelait San Francisco, le suivant La Profesa, du nom de l’église, et le dernier, vers le Zócalo, Plateros.\n\nLe troisième nom est l’actuel. Le huit décembre mille neuf cent quatorze, lorsque Francisco Villa est entré dans le centre de la ville, on a retiré la plaque de Plateros et posé celle de Madero. L’historienne Karem Celso, du Musée national de la Révolution, raconte que Villa a d’abord écrit Maderito, puis s’est corrigé. Francisco I. Madero avait été président du Mexique et fut assassiné en mille neuf cent treize. Le nom de la rue est un hommage à son égard.\n\nCette rue a aussi été une rue d’entrées triomphales. Le vingt-sept septembre mille huit cent vingt et un, l’armée Trigarante est entrée dans la capitale, conduite par Agustín de Iturbide. À l’entrée ouest de la rue de San Francisco, la municipalité avait élevé un arc de triomphe, construit à la hâte. Là, le président de la municipalité a remis à Iturbide les clés de la ville, et Iturbide les lui a rendues. De là, le cortège a poursuivi vers le Palais impérial, aujourd’hui Palais national. Une légende raconte qu’Iturbide voulut passer par cette rue pour que La Güera Rodríguez puisse le voir, elle qui vivait près de La Profesa.\n\nMarchez en regardant à mi-hauteur et vous verrez le Centre historique comme un livre aux multiples couches. En quelques pas se succèdent des édifices de l’époque vice-royale, du Porfiriat et du vingtième siècle. Plus loin, vous attendent le Palais d’Iturbide et l’église de La Profesa. Tous se trouvent à quelques arcades de distance, et chacun explique un aspect différent de la ville.\n\nIl est un détail que beaucoup de gens ne remarquent pas. À l’angle de Madero et de Motolinía, il y a un mascaron de pierre en forme de tête de lion. La tradition dit qu’il marque la hauteur atteinte par l’eau lors de l’inondation de mille six cent vingt-neuf, et la revue Km Cero, de la Fiducie du Centre historique, le raconte ainsi. Quand vous arriverez à cet angle, cherchez-le sur la façade. Cette inondation, connue sous le nom de déluge de San Mateo, a maintenu la ville sous l’eau pendant des années.\n\nAujourd’hui, la rue est piétonne, et vous pouvez donc marcher au milieu sans esquiver les voitures. Elle relie le quartier de l’Eje Central à la place principale du pays, et un très grand nombre de personnes la parcourent chaque jour, de sorte qu’il vaut mieux s’armer de patience aux heures d’affluence.\n\nSur ce tronçon, vous passerez de l’ancien monde des couvents à la place principale du pays. Prenez votre temps. Chaque angle vous offre une pause différente : un portail, un balcon, une porte en bois. Et rappelez-vous que presque tout ce que vous verrez a déjà été regardé par des soldats, des empereurs et des gens ordinaires qui venaient acheter de l’argent."
+    },
+    "retos_observacion": {
+      "hash": "5af3cb649296cf33",
+      "texto": [
+        "Cherchez à mi-hauteur les balcons et les portails des édifices, et comparez ceux qui paraissent les plus anciens",
+        "Trouvez une plaque portant le nom Francisco I. Madero et souvenez-vous des deux noms précédents de la rue",
+        "Regardez derrière vous et cherchez la silhouette de la Torre Latinoamericana au bout du tronçon"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ee1580ad70581b0e",
+      "texto": {
+        "Noms": "Rue de San Francisco, puis Plateros, Madero depuis décembre 1914",
+        "Tronçon": "De l’Eje Central à la Plaza de la Constitución",
+        "Fait clé": "Entrée de l’armée Trigarante dans la capitale, 27 septembre 1821",
+        "Emplacement": "Av. Francisco I. Madero, Centre historique",
+        "Usage actuel": "Rue piétonne"
+      }
+    },
+    "faq_mito": {
+      "hash": "df6e1daa80a58ac0",
+      "texto": {
+        "pregunta": "Mythe : La rue s’appelle Madero parce que Francisco I. Madero y est entré en triomphe en mille neuf cent onze.",
+        "respuesta": "Réalité : Madero est entré dans la capitale le sept juin mille neuf cent onze, en direction du Zócalo par le Paseo de la Reforma. La rue a reçu son nom le huit décembre mille neuf cent quatorze, alors qu’il avait déjà été assassiné."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_45_inquisicion",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3b85ee8220e99e76",
+      "texto": "Palais de l’Inquisition et Musée de la médecine mexicaine"
+    },
+    "frase_gancho": {
+      "hash": "12ffa21ce2b06d65",
+      "texto": "Pendant quatre-vingt-quatre ans, le tribunal du Saint-Office a siégé ici ; ensuite, des générations de médecins ont étudié entre ces murs."
+    },
+    "puente_narrativo": {
+      "hash": "3a5e937adaf94510",
+      "texto": "Poursuivez vers la rue République d’Argentine, où se trouve l’entrée du [Musée vivant du muralisme](cdmx_46_museo_vivo_muralismo), dans l’édifice du secrétariat à l’Éducation publique."
+    },
+    "como_llegar": {
+      "hash": "0297b4ccc15bb766",
+      "texto": "Poursuivez vers la rue République du Brésil, face à la place, où se trouve le [Palais de l’Inquisition](cdmx_45_inquisicion)."
+    },
+    "guion_corto": {
+      "hash": "2a9a9418da1f0d70",
+      "texto": "Quatre-vingt-quatre ans. C’est le temps pendant lequel cet édifice a servi de siège au tribunal du Saint-Office. L’architecte Pedro de Arrieta l’a élevé entre mille sept cent trente-deux et mille sept cent trente-six. À l’intérieur se trouvaient des salles d’audience, une prison et des logements pour les inquisiteurs. En mille huit cent vingt, le tribunal a été définitivement aboli, et le palais a changé de cap. En mille huit cent cinquante-quatre, l’École de médecine l’a occupé, et elle y a enseigné pendant plus d’un siècle. Aujourd’hui, c’est le Musée de la médecine mexicaine. Peu de façades du Centre historique racontent, dans un seul édifice, comment la peur, la loi et la science ont changé."
+    },
+    "guion_largo": {
+      "hash": "c772193877a93713",
+      "texto": "Cet édifice a deux vies presque opposées, et toutes deux sont vraies. Il fut d’abord le siège d’un tribunal. Ensuite, il devint une école où l’on apprenait à soigner.\n\nL’Inquisition est arrivée en Nouvelle-Espagne en mille cinq cent soixante et onze. Son nom complet était tribunal du Saint-Office. Elle veillait sur la foi et jugeait des délits comme l’hérésie et le blasphème. Ce palais a été construit pour le tribunal. Les travaux ont commencé en décembre mille sept cent trente-deux et se sont achevés en mille sept cent trente-six. Une plaque de la Direction des monuments coloniaux, posée en mille neuf cent soixante-trois, répète ces dates.\n\nCelui qui a dirigé le chantier est Pedro de Arrieta, maître d’œuvre en chef des travaux du Saint-Office. Il a aussi travaillé à la cathédrale et à La Profesa. Il est mort peu après avoir terminé ce palais. L’édifice comptait alors deux étages, et le troisième a été ajouté au dix-neuvième siècle. Sa cour a des colonnes doriques toscanes et des arcs moulurés.\n\nÀ l’intérieur se trouvaient des salles d’audience, des chambres secrètes, des logements pour les inquisiteurs et une prison. Le tribunal a fonctionné dans cet édifice pendant quatre-vingt-quatre ans. Les Cortes de Cadix l’ont supprimé en mille huit cent treize, il a été rétabli en mille huit cent quatorze et a été aboli définitivement en mille huit cent vingt.\n\nUne époque d’abandon a alors commencé. En mille huit cent trente-huit, le palais a été mis aux enchères publiques et personne ne l’a acheté. Puis est arrivé un tournant inattendu. L’École de médecine occupait l’ancien couvent de San Hipólito. Un gouvernement de Santa Anna l’a pris comme caserne en mille huit cent cinquante-trois, et l’école a eu besoin d’un autre lieu. Le séminaire conciliaire lui a vendu la cour principale de cet édifice. En mille huit cent cinquante-quatre, l’école s’y est installée.\n\nPendant plus de cent ans, ces murs ont vu passer des générations d’étudiants en médecine. Au milieu des années mille neuf cent cinquante, la faculté a déménagé à la Cité universitaire. L’édifice a fermé en mille neuf cent cinquante-six. On a prévu un musée historique de la médecine. En mille neuf cent quatre-vingts, le Musée de la médecine mexicaine, de l’Université, a été inauguré.\n\nSi vous décidez d’entrer, le musée est consacré à l’histoire de la médecine au Mexique. Ses collections traitent de thèmes comme l’anatomie, l’apothicairerie, la phytothérapie, la médecine préhispanique, les modèles en cire, l’embryologie et la chirurgie reconstructive. La faculté de médecine a ajouté une salle d’ophtalmologie en deux mille douze. Certaines salles comprennent du matériel anatomique et embryologique, ce qu’il vaut mieux savoir à l’avance. Les expositions changent et les horaires aussi, alors consultez les informations en vigueur avant de venir.\n\nDepuis la rue, la façade raconte déjà quelque chose. Elle compte trois niveaux, et le dernier est l’agrandissement du dix-neuvième siècle. L’église des dominicains et ce palais ont été voisins pendant des siècles. Aujourd’hui, l’une est toujours une église, et l’autre raconte comment la médecine a changé au Mexique."
+    },
+    "retos_observacion": {
+      "hash": "8494edf6d7609b9d",
+      "texto": [
+        "Comptez les niveaux de la façade ; le dernier a été ajouté au XIXe siècle",
+        "Cherchez s’il y a sur la façade une plaque qui rappelle son histoire",
+        "Comparez cet édifice avec la tour de l’église de Santo Domingo sur la place"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0aff5a2846e2d8bc",
+      "texto": {
+        "Époque": "construit de décembre 1732 à 1736",
+        "Architecte": "Pedro de Arrieta",
+        "Usage d’origine": "siège du tribunal du Saint-Office, aboli définitivement en 1820",
+        "École de médecine": "de 1854 au milieu des années 1950",
+        "Musée": "Musée de la médecine mexicaine (UNAM), inauguré en 1980",
+        "Emplacement": "33, rue République du Brésil, Centre historique"
+      }
+    },
+    "faq_mito": {
+      "hash": "e16adf29a2067d8e",
+      "texto": {
+        "pregunta": "Mythe : Ce palais est l’édifice original de l’Inquisition, du seizième siècle.",
+        "respuesta": "Réalité : Le tribunal fonctionnait en Nouvelle-Espagne depuis 1571, mais ce palais a été construit entre décembre 1732 et 1736."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_49_museo_caricatura",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b6e30066fcb78fba",
+      "texto": "Musée de la Caricature et ancien Collège du Christ"
+    },
+    "frase_gancho": {
+      "hash": "501fa40bb9ce114d",
+      "texto": "Dans un musée de caricatures, un mur vice-royal porte la tête d’un crocodile mexica sculptée dans la pierre."
+    },
+    "puente_narrativo": {
+      "hash": "b9f1be6ccfdd69cf",
+      "texto": "Poursuivez sur Donceles en direction de l’Axe central, jusqu’à l’endroit où commencent les librairies d’ancien de la [rue de Donceles](cdmx_50_donceles)."
+    },
+    "como_llegar": {
+      "hash": "e697dc790e84dc31",
+      "texto": "Poursuivez quelques pas dans la même rue de Donceles jusqu’au [Musée de la Caricature](cdmx_49_museo_caricatura), dans l’ancien Collège du Christ."
+    },
+    "guion_corto": {
+      "hash": "f1f2c703b2befc78",
+      "texto": "Un musée de caricatures avec un crocodile mexica à l’intérieur ? Presque. Cet édifice fut le Collège du Christ, et il conserve une fenêtre archéologique avec des vestiges de l’époque vice-royale et mexicas. Parmi eux se trouve un bas-relief avec la tête d’un Cipactli, un crocodile. Il est dans un mur vice-royal bâti avec des pierres taillées provenant de quartiers mexicas. Le collège est né de la volonté testamentaire de Cristóbal de Vargas Valadez. L’édifice fut déclaré monument historique en mille neuf cent trente et un. Après les séismes de mille neuf cent quatre-vingt-cinq, il fut restauré. Le dix-neuf mars mille neuf cent quatre-vingt-sept, le Musée de la Caricature y fut inauguré, et depuis, la caricature mexicaine a sa propre maison dans le centre-ville."
+    },
+    "guion_largo": {
+      "hash": "c10d1d93cde08102",
+      "texto": "Commençons par la façade. Elle est de style baroque mexicain, et elle appartient à ce qui fut le Collège du Christ. Cette école est née de la volonté de Cristóbal de Vargas Valadez, qui prévut dans son testament la fondation d’un collège sur sa propriété. L’Institut national d’anthropologie et d’histoire (INAH) rapporte que le vice-roi assista à son inauguration en mille six cent trente-huit, et que l’école ferma en mille sept cent soixante-quatorze faute de ressources. L’édifice actuel date du dix-huitième siècle. Le bâtiment fut déclaré monument historique le neuf février mille neuf cent trente et un.\n\nLe plus surprenant se trouve à l’intérieur du musée. Il conserve deux fenêtres archéologiques, des ouvertures qui laissent voir des vestiges des différentes époques du site. Le Programme d’archéologie urbaine de l’Institut recense une première fenêtre de deux mètres six centimètres de large sur trois mètres quarante-cinq centimètres de long. Elle montre des murs, des sols et des canalisations de l’époque vice-royale, ainsi que des fondations mexicas en deux étapes de construction.\n\nCes deux étapes mexicas pourraient être contemporaines des étapes six et sept du Templo Mayor. Ces étapes correspondent aux années mille quatre cent quatre-vingt-six à mille cinq cent dix-neuf. Vous pouvez vous rappeler cette pyramide à l’arrêt du [Templo Mayor](cdmx_34_templo_mayor). Ici, dans un mur vice-royal, apparaît quelque chose d’encore plus rare. Un bas-relief avec la tête d’un Cipactli, qui signifie crocodile en nahuatl. Les bâtisseurs de l’époque vice-royale ont élevé le mur avec des pierres de taille sculptées provenant des quartiers mexicas. Autrement dit, le mur réutilise des pierres qui avaient appartenu à la ville mexica.\n\nPassons au musée. Après les séismes de mille neuf cent quatre-vingt-cinq, la Société mexicaine des caricaturistes avait besoin d’un nouveau lieu. L’édifice fut restauré pour accueillir des expositions, et le musée fut inauguré le dix-neuf mars mille neuf cent quatre-vingt-sept, sous la supervision de David Carrillo et Pedro Sol. Il y avait déjà eu une tentative antérieure. En mille neuf cent soixante-deux, le Club des journalistes présenta une exposition de José Guadalupe Posada.\n\nSi vous décidez d’entrer, le musée est consacré à la caricature mexicaine. Son exposition permanente parcourt la caricature politique et sociale depuis le dix-neuvième siècle, avec des œuvres de différents auteurs. Les pièces exposées changent avec le temps, mais le thème est clair. La caricature a été une façon de commenter le pouvoir avec humour, et parfois avec dureté. Les horaires et la contribution d’entrée changent, alors consultez les informations en vigueur.\n\nUne idée relie ces strates. Dans un même édifice tiennent une fondation mexica, un collège de l’époque vice-royale et un musée de caricatures. Chaque époque a utilisé le même terrain pour quelque chose de différent, et chacune a laissé une trace visible dans les murs. C’est la leçon de beaucoup de rues du centre-ville.\n\nSi vous aimez la caricature, souvenez-vous du [Musée de l’Estanquillo](cdmx_20_estanquillo), que vous avez visité rue Madero."
+    },
+    "retos_observacion": {
+      "hash": "928032c7386e45fb",
+      "texto": [
+        "Cherchez la façade baroque de l’ancien Collège du Christ sur Donceles",
+        "Repérez le numéro quatre-vingt-dix-neuf de la rue",
+        "Comparez les murs de pierre de cet édifice avec ceux du temple de l’Enseignement"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d66cdff492ad5e6f",
+      "texto": {
+        "Époque": "collège vice-royal ; édifice actuel du XVIIIe siècle ; déclaré monument historique le 9 février 1931 (INAH)",
+        "Style": "baroque mexicain",
+        "Musée": "inauguré le 19 mars 1987",
+        "Emplacement": "Donceles 99, Centre historique",
+        "Fenêtre archéologique": "2,06 sur 3,45 mètres, avec des vestiges de l’époque vice-royale et des fondations mexicas",
+        "Donnée clé": "bas-relief d’un Cipactli (crocodile) dans un mur vice-royal"
+      }
+    },
+    "faq_mito": {
+      "hash": "dc8e28f402be3b1b",
+      "texto": {
+        "pregunta": "Mythe : Dans le Centre historique, ce qui est mexica ne se trouve qu’au Templo Mayor.",
+        "respuesta": "Réalité : Sous cet édifice se trouvent des vestiges de fondations mexicas en deux étapes et un Cipactli sculpté dans un mur vice-royal, d’après le Programme d’archéologie urbaine de l’INAH."
+      }
+    }
+  }
+}

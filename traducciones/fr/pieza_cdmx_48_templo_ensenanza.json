@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_48_templo_ensenanza",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "de63cb6607344e3b",
+      "texto": "Temple de l’Enseignement, l’école de filles de la Nouvelle-Espagne"
+    },
+    "frase_gancho": {
+      "hash": "d9aa1917a450452b",
+      "texto": "Au-dessus de la porte s’ouvre une fenêtre en forme d’étoile, et la Vierge du Pilar s’y laisse apercevoir."
+    },
+    "puente_narrativo": {
+      "hash": "e697dc790e84dc31",
+      "texto": "Faites quelques pas le long de la même rue Donceles jusqu’au [Musée de la Caricature](cdmx_49_museo_caricatura), dans l’ancien collège du Christ."
+    },
+    "como_llegar": {
+      "hash": "a47a8e1fa4f733a0",
+      "texto": "Poursuivez sur Donceles, la rue dans laquelle se prolonge Justo Sierra après le croisement avec República de Argentina, jusqu’au [Temple de l’Enseignement](cdmx_48_templo_ensenanza)."
+    },
+    "guion_corto": {
+      "hash": "21b8cb2dc3d44207",
+      "texto": "Au-dessus de la porte d’entrée se trouve une fenêtre en forme d’étoile évasée. Elle éclaire le chœur et encadre l’image de la Vierge du Pilar. C’est un détail dû à Francisco Guerrero y Torres, l’architecte à qui l’on confia ce temple en mille sept cent soixante-douze. Ici fonctionnaient un couvent et un collège de la Compagnie de Marie, connus sous le nom de L’Enseignement, fondés par la mère María Ignacia Azlor. Ce fut l’une des écoles de filles les plus renommées de la Nouvelle-Espagne. De l’ensemble d’origine, beaucoup plus vaste, il ne subsiste aujourd’hui que le temple, l’un des derniers grands édifices de son style dans la ville, devenu la paroisse de Notre-Dame du Pilar."
+    },
+    "guion_largo": {
+      "hash": "91476849d9fe82cf",
+      "texto": "Regardez bien la porte principale. L’arc est bas, et la pierre centrale, la clé de voûte, se trouve plus bas que d’ordinaire. Au-dessus, la fenêtre en forme d’étoile évasée éclaire le chœur. Et au centre de la façade se dresse une sculpture en albâtre de la Vierge du Pilar. Cette invocation était la dévotion de la fondatrice, et elle donne son nom au temple.\n\nL’histoire commence avec María Ignacia Azlor. Elle était la fille d’un gouverneur du Texas et du Coahuila, et elle voulut se consacrer à l’enseignement des filles. Elle voyagea en Espagne pour rejoindre la Compagnie de Marie, un ordre voué à l’enseignement. Elle voulait promouvoir l’éducation des filles de toutes les classes sociales. Son couvent et son collège furent construits dans la rue qui s’appelait alors rue des Cordobanes, et qui est aujourd’hui Donceles.\n\nLa mère María Ignacia mourut avant de voir le temple. En mille sept cent soixante-douze, l’église fut confiée à Francisco Guerrero y Torres, grand architecte du dix-huitième siècle. C’est le même qui a réalisé la chapelle du Pocito et le [Palais d’Iturbide](cdmx_18_palacio_iturbide), que vous connaissez déjà. Il travailla ici de mille sept cent soixante-douze à mille sept cent soixante-dix-huit. Cela situe le temple à la fin de la période vice-royale, environ quatre décennies avant l’Indépendance. Le couvent et le collège sont attribués à Ignacio Castera, vers mille huit cent cinq.\n\nSi le temple est ouvert et que vous décidez d’y entrer avec respect, sa construction recèle une astuce. Un arc à trois lobes soutient le chœur haut et permet une nef sans colonnes, de sorte que rien ne gêne la vue vers l’autel. Les fenêtres de la voûte centrale ont elles aussi trois lobes, ce qui est considéré comme singulier dans le baroque mexicain.\n\nÀ l’intérieur, le retable principal se distingue, considéré comme l’une des meilleures œuvres de Guerrero y Torres. Sur la voûte, une fresque représente l’apparition de la Vierge du Pilar à l’apôtre saint Jacques. Des toiles d’Andrés López accompagnent le retable. L’accès et les visites guidées changent, alors consultez les horaires en vigueur.\n\nVoici un dernier détail humain. Mexico se souvient qu’au vingtième siècle, la communauté espagnole exilée à cause de la guerre civile avait une dévotion particulière pour ce temple. Elle s’y rendait chaque douze octobre, jour de la Vierge du Pilar.\n\nAvec les lois de Réforme, l’ensemble perdit son caractère de collège et de couvent. Aujourd’hui, le temple est la paroisse de Notre-Dame du Pilar, et il est ce qui reste d’un ensemble beaucoup plus vaste, probablement l’un des derniers édifices de ce type.\n\nPensez à ce que représentait cette école, un lieu créé pour éduquer les filles. Ce fut l’une des plus renommées de la Nouvelle-Espagne. À quelques pas se trouve un autre collège vice-royal, celui du Christ, qui abrite aujourd’hui un musée de la caricature. Entre les deux, la rue Donceles raconte l’histoire de l’éducation dans la ville."
+    },
+    "retos_observacion": {
+      "hash": "e6b7718cf00c993a",
+      "texto": [
+        "Cherchez la fenêtre en forme d’étoile au-dessus de la porte principale",
+        "Repérez la sculpture de la Vierge du Pilar sur la façade",
+        "Observez l’arc bas de la porte d’entrée"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e050a53a7ec7ee87",
+      "texto": {
+        "Époque": "temple commandé en 1772 ; travaux de 1772 à 1778",
+        "Architecte": "Francisco Guerrero y Torres ; couvent et collège attribués à Ignacio Castera (1805)",
+        "Style": "baroque tardif de la Nouvelle-Espagne",
+        "Emplacement": "Donceles 102, Centre historique",
+        "Fondatrice": "María Ignacia Azlor, Compagnie de Marie",
+        "Point clé": "nef sans colonnes grâce au chœur reposant sur un arc trilobé"
+      }
+    },
+    "faq_mito": {
+      "hash": "4835b7386d721684",
+      "texto": {
+        "pregunta": "Mythe : L’Enseignement, avec son aspect ancien, serait l’une des premières églises de la ville.",
+        "respuesta": "Réalité : Son temple fut commandé en 1772 et les travaux durèrent jusqu’en 1778, à la fin de la période vice-royale."
+      }
+    }
+  }
+}

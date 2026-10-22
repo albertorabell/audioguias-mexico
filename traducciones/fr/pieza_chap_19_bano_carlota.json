@@ -1,0 +1,55 @@
+{
+  "id": "chap_19_bano_carlota",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7ba66d64f1b59450",
+      "texto": "Cabinet de toilette"
+    },
+    "frase_gancho": {
+      "hash": "77e356572d24bd3e",
+      "texto": "L’eau du bain des empereurs montait depuis les sources de la colline, à dos de mule ou en charrette."
+    },
+    "puente_narrativo": {
+      "hash": "4c2d6b8661224f1d",
+      "texto": "Poursuivez votre chemin vers les appartements de Maximilien, l’homme qui a nommé ce palais Miravalle."
+    },
+    "guion_corto": {
+      "hash": "ca63bc1f4a96a541",
+      "texto": "Comment se déroulait le bain d’un empereur au milieu du dix-neuvième siècle ? Selon le Musée national d’Histoire, on utilisait à cette époque des baignoires ou des auges, avec des aiguières et des cuvettes, c’est-à-dire des cruches et des bassines. À l’Alcázar, l’eau arrivait des sources de la colline, à dos de mule ou en charrette. Maximilien et Charlotte avaient chacun leur cabinet de toilette. Chaque transport exigeait le travail de quelqu’un qui n’apparaît presque jamais dans les portraits. Cela semble un détail mineur, mais le gouvernement impérial aspirait à la modernité : il projetait des conduites d’eau potable qui remplaceraient le porteur d’eau, un réseau d’évacuation pour la vallée de Mexico, des rues pavées et un éclairage au gaz."
+    },
+    "guion_largo": {
+      "hash": "1337fac42ca88606",
+      "texto": "Le mot toilette sonne modestement, mais cette pièce en dit long. Le Musée national d’Histoire explique que le bain, à cette époque, se prenait dans des baignoires ou des auges, avec des aiguières et des cuvettes. Rien de tout cela n’était réservé aux empereurs. Ce qui changeait, c’était le travail qu’il y avait derrière. À l’Alcázar, l’eau arrivait des sources de la colline, à dos de mule ou en charrette. Quelqu’un devait la transporter et la monter jusqu’à la chambre, et ce quelqu’un n’apparaît presque jamais dans les portraits.\n\nCe travail invisible est l’un des thèmes du musée. Il consacre une salle au personnel de service et au monte-charge qui montait les aliments depuis la cuisine. Il signale aussi qu’il existait des escaliers réservés à la domesticité. Ce cabinet de toilette invite à penser à ces mêmes personnes, mais depuis un autre recoin de la maison.\n\nLa pièce parle aussi des ambitions de l’Empire. Le gouvernement de Maximilien cherchait, selon les mots du musée, à placer le Mexique parmi les progrès de la civilisation. Pour cela, il se proposait de renouveler les services de la capitale. Il voulait des conduites d’eau potable qui remplaceraient le porteur d’eau, l’évacuation des eaux de la vallée de Mexico, le pavage des rues et l’éclairage au gaz. C’était un plan ambitieux, dans un pays où l’Empire et la République de Juárez se disputaient le pouvoir.\n\nUne anecdote du musée : Maximilien et Charlotte avaient chacun leur propre cabinet de toilette. L’Alcázar comptait donc au moins deux espaces consacrés à cet usage. C’est pourquoi il convient d’accueillir avec prudence les descriptions de baignoires de marbre et de systèmes hydrauliques qui circulent au sujet du château : le musée ne les documente pas.\n\nLa chronologie du musée montre comment les fonctions d’une pièce changent. En mille huit cent soixante-six, cet espace fut la chambre de la dame de chambre, une proche compagne de l’impératrice. En mille huit cent soixante-dix-sept, il devint la chambre du directeur, dans les années où la colline abritait des installations scientifiques. En mille huit cent quatre-vingt-deux, sous le président Manuel González, il apparaît déjà comme cabinet de toilette. En mille neuf cent six, avec Porfirio Díaz, et en mille neuf cent trente-deux, avec Abelardo Rodríguez, la liste l’enregistre comme salle de bains. Le musée raconte que Díaz voulut exhiber le progrès technique du Mexique. Parmi ses réalisations figurent des ascenseurs, dont l’un partait de la base de la colline. Monter sans rien porter était une autre sorte de confort. Pour voir comment vécut Díaz, rendez-vous plus loin à l’arrêt des [chambres de Porfirio Díaz et Carmen Romero](chap_21_recamara_porfirio_carmen).\n\nL’eau recèle une autre strate d’histoire. La chroniqueuse Ángeles González Gamio rappelle un antécédent. Au milieu du quinzième siècle, Nezahualcóyotl fit construire un aqueduc qui conduisait l’eau des sources de Chapultepec jusqu’à Tenochtitlan. Autrement dit, ces mêmes sources alimentaient la ville des siècles avant l’arrivée des empereurs européens.\n\nAujourd’hui, il suffit de tourner un robinet pour avoir de l’eau, et nous ne pensons presque jamais au chemin qu’elle parcourt. Cette pièce invite à l’imaginer."
+    },
+    "retos_observacion": {
+      "hash": "9b6cae370b1e4559",
+      "texto": [
+        "Cherchez sur le cartel la mention des mules et des charrettes qui montaient l’eau",
+        "Cherchez les aiguières et les cuvettes, les cruches et les bassines de la toilette de l’époque",
+        "Repérez la frise chronologique de l’espace, qui va de mille huit cent soixante-six à mille neuf cent trente-deux"
+      ]
+    },
+    "especificaciones": {
+      "hash": "188decb1319e66b6",
+      "texto": {
+        "Nom au musée": "Cabinet de toilette",
+        "Registre de l’espace": "1866 chambre de la dame de chambre ; 1882 cabinet de toilette ; 1906 et 1932 salle de bains",
+        "Eau": "elle arrivait des sources de la colline, à dos de mule ou en charrette",
+        "Bain de l’époque": "baignoires ou auges, avec des aiguières et des cuvettes",
+        "Information clé": "Maximilien et Charlotte avaient chacun un cabinet de toilette"
+      }
+    },
+    "faq_mito": {
+      "hash": "259633011db59aad",
+      "texto": {
+        "pregunta": "Mythe : Du temps de Maximilien, le château avait déjà l’eau courante et des baignoires de marbre comme un hôtel moderne.",
+        "respuesta": "Réalité : le Musée national d’Histoire explique que le bain de l’époque se prenait dans des baignoires ou des auges, avec des aiguières et des cuvettes, et qu’à l’Alcázar l’eau arrivait des sources de la colline, à dos de mule ou en charrette. Les conduites d’eau potable étaient un projet du gouvernement impérial pour la ville."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "chap_05_nueva_espana_plata",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a28105ad7c5d082d",
+      "texto": "Le Royaume de la Nouvelle-Espagne : argent, galions et ivoires"
+    },
+    "frase_gancho": {
+      "hash": "0a796012b1c98d73",
+      "texto": "L’argent mexicain qui paya la bataille de Trafalgar et les cent boutiques où l’on vendait de la cannelle de Ceylan et de la soie de Manille."
+    },
+    "puente_narrativo": {
+      "hash": "915392e641f9f178",
+      "texto": "Continuez d’avancer jusqu’au bout des salles vice-royales : en tournant au bout du couloir, s’ouvrira devant vous l’immense mural concave où Juan O’Gorman a peint l’éclatement de l’Indépendance."
+    },
+    "guion_corto": {
+      "hash": "31d2c1bdc0e7a2a7",
+      "texto": "Ces salles déploient la splendeur matérielle et les profondes contradictions des trois cents ans de la vice-royauté de la Nouvelle-Espagne. Autour de vous brillent des coffres de laque asiatique, des Christs et des figures sculptés dans l’ivoire philippin, de grands vases de porcelaine, des paravents peints à l’huile avec des vues du Tepeyac, des objets d’argent ciselé et des tableaux de castes. Tout cet univers est né lorsque la terre américaine du maïs, du cacao, de la vanille et de la cochenille s’est fondue avec le blé, le bétail, la canne à sucre et la charrue apportés d’Europe, faisant de Mexico le centre commercial qui reliait l’Europe à l’Asie."
+    },
+    "guion_largo": {
+      "hash": "c3dcc9437a62ecd4",
+      "texto": "Nous nous arrêtons rarement pour penser qu’au dix-huitième siècle, la monnaie qu’utilisaient les marchands en Chine et l’argent qui finançait les armées d’Europe sortaient des entrailles du Mexique. Tout commença en mille cinq cent vingt-huit, avec la fondation de Taxco, la première mine américaine exploitée avec des techniques européennes, suivie très vite par les gigantesques filons de Zacatecas en mille cinq cent quarante-six et de Guanajuato en mille cinq cent cinquante-quatre, reliés par le Chemin royal de l’intérieur des terres. L’argent néo-espagnol fut si puissant qu’il finança aussi bien la guerre de Trente Ans au dix-septième siècle que les navires espagnols et français qui combattirent à la bataille de Trafalgar en mille huit cent cinq, et même les subsides anglais destinés à vaincre Napoléon Bonaparte. En échange de cet argent, des perles de Basse-Californie et du colorant rouge de la cochenille, le Galion de Manille remplissait la capitale de trésors. Vers l’année mille huit cent quatre, il existait à Mexico quelque cent sept épiceries — les magasins de denrées et de produits d’outre-mer de l’époque — où l’on pouvait acheter du vin de La Rioja, des olives de Séville, de la cannelle de Ceylan, du cacao de Caracas, du clou de girofle des Philippines, des châles de Manille, des éventails à baguettes d’écaille et même les premiers foulards de coton que [José María Morelos](chap_06_morelos_iturbide) porterait plus tard. Mais cette richesse reposait sur une blessure humaine : outre le travail des autochtones dans les domaines agricoles, durant trois siècles, près de deux cent cinquante mille esclaves furent amenés d’Afrique, traités comme des marchandises, et leur rébellion et leur métissage préparèrent le terrain de la révolution d’Indépendance que vous verrez dans la salle suivante."
+    },
+    "retos_observacion": {
+      "hash": "997ac149671a1558",
+      "texto": [
+        "Observez les délicates sculptures religieuses taillées dans des défenses d’ivoire et les boîtes de laque apportées par le Galion de Manille.",
+        "Cherchez les peintures et les paravents vice-royaux qui représentent le sanctuaire du Tepeyac et la vie quotidienne de la capitale.",
+        "Remarquez les objets d’argent ciselé, de fer forgé et de céramique de Puebla et de Guanajuato qui s’exportaient vers trois continents."
+      ]
+    },
+    "especificaciones": {
+      "hash": "08cbd7618a7ae398",
+      "texto": {
+        "Période": "Vice-royauté de la Nouvelle-Espagne (1521-1821)",
+        "Jalons miniers": "Taxco (1528), Zacatecas (1546) et Guanajuato (1554)",
+        "Commerce urbain": "Environ 107 épiceries recensées à Mexico vers 1804",
+        "Démographie forcée": "Environ 250 000 esclaves africains introduits durant trois siècles",
+        "Emplacement": "Salles 3 à 6 (Le Royaume de la Nouvelle-Espagne), rez-de-chaussée MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "c41b406a4d225f0f",
+      "texto": {
+        "pregunta": "Mythe : Pendant la vice-royauté, la Nouvelle-Espagne ne commerçait qu’avec l’Espagne et était isolée du reste du monde.",
+        "respuesta": "Réalité : La Nouvelle-Espagne fut le pont du premier commerce mondial : son argent circulait comme monnaie en Chine et finança des guerres européennes comme Trafalgar (1805), tandis qu’arrivaient à Mexico des soies d’Asie, de la cannelle de Ceylan, du cacao de Caracas et des ivoires des Philippines."
+      }
+    }
+  }
+}

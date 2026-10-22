@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_38_museo_shcp",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e0d2c97a3a1aca51",
+      "texto": "Musée d’art du SHCP : d’un palais archiépiscopal à un musée"
+    },
+    "frase_gancho": {
+      "hash": "f34938ff81740ec8",
+      "texto": "Il fut la demeure d’archevêques, puis un bureau des Finances, et il abrite aujourd’hui des œuvres que des artistes mexicains ont remises en échange de leurs impôts."
+    },
+    "puente_narrativo": {
+      "hash": "b20b057ef9097865",
+      "texto": "Continuez par la rue Moneda jusqu’au numéro treize. Là, l’ancienne maison où l’on frappait la monnaie est aujourd’hui le [Musée national des Cultures du monde](cdmx_39_culturas_mundo)."
+    },
+    "como_llegar": {
+      "hash": "4617ef355a9a3503",
+      "texto": "Continuez par la rue Moneda jusqu’au numéro quatre, où un ancien palais d’archevêques abrite aujourd’hui de l’art. C’est le [Musée d’art du SHCP](cdmx_38_museo_shcp)."
+    },
+    "guion_corto": {
+      "hash": "7619fd042d95b1f2",
+      "texto": "Les artistes du Mexique peuvent payer leurs impôts avec leur propre œuvre. Une partie de ces pièces est conservée dans cet édifice de la rue Moneda. C’est l’ancien palais de l’Archevêché. Il fonctionnait déjà comme siège archiépiscopal vers mille cinq cent trente, bien que la construction actuelle date surtout du dix-huitième siècle. On raconte que frère Juan de Zumárraga le fit bâtir sur un temple consacré à Tezcatlipoca et qu’il mourut avant d’y emménager. Au dix-neuvième siècle, il fut nationalisé, puis il accueillit des bureaux fédéraux des Finances. Aujourd’hui, c’est un musée dont la collection est née de ce paiement en nature. Ainsi, un même édifice réunit le pouvoir de l’Église vice-royale et les comptes publics du Mexique moderne."
+    },
+    "guion_largo": {
+      "hash": "0027404680ecd161",
+      "texto": "Cette façade renferme deux questions. La première est de savoir qui a vécu ici. La seconde, pourquoi il y a de l’art moderne dans un édifice d’archevêques. La réponse à l’une et à l’autre commence au seizième siècle, quand frère Juan de Zumárraga, premier évêque de Mexico, chercha où bâtir sa résidence.\n\nVers mille cinq cent trente, le palais fonctionnait déjà comme siège archiépiscopal. La tradition le situe sur un temple consacré à Tezcatlipoca, et Zumárraga mourut avant d’y emménager. Au milieu du dix-huitième siècle, l’édifice fut entièrement reconstruit, sous l’archevêque Juan Antonio Vizarrón y Eguiarreta. José Miguel de Rivera Sarabia y ajouta la façade. En mille sept cent soixante et onze, Alonso Núñez de Haro agrandit l’ensemble avec une maison voisine.\n\nUne trentaine d’évêques, trente-trois environ, passèrent par le palais. Il fut nationalisé en mille huit cent cinquante-neuf et vendu en mille huit cent soixante et un. Un évêque y vécut brièvement pendant le Second Empire de Maximilien, mais il l’abandonna en mille huit cent soixante-sept. Ensuite, des bureaux fédéraux de comptabilité, de trésorerie, de pensions et de paie s’y installèrent, avec leurs presses d’impression. L’édifice passa de la mitre au guichet des impôts.\n\nEn dessous, il y a une autre couche. Après le séisme de mille neuf cent quatre-vingt-cinq, la restauration a laissé apparaître une partie d’une plateforme ancienne et plusieurs objets mexicas. Ces vestiges sont associés au temple de Tezcatlipoca, l’un des plus importants de Tenochtitlan. Vers mille neuf cent quatre-vingt-quatorze, une fois restauré, l’édifice fut destiné à abriter la collection d’art du ministère des Finances.\n\nVoici maintenant la seconde question. Le Mexique a un programme qui permet aux artistes de payer leurs impôts avec leurs propres œuvres. C’est ainsi que s’est constituée peu à peu une collection de peinture, de sculpture, de gravure, de travail du métal, de monnaies, de mobilier et d’objets ornementaux. David Alfaro Siqueiros fut un grand défenseur du programme. Parmi les artistes de la collection figurent Juan Correa, Rufino Tamayo, Federico Cantú, Antonio Ruiz, Adolfo Best Maugard et Raúl Anguiano.\n\nCelui qui décidera d’entrer y trouvera de l’art mexicain de différentes époques dans un édifice qui fait lui aussi partie de la visite. Ici cohabitent un palais vice-royal, des vestiges d’un temple mexica et une collection constituée au vingtième siècle. Francisco Toledo, Vicente Rojo, Juan Soriano et Leonora Carrington, entre autres, ont aussi des œuvres dans la collection. Cette liste montre comment l’art mexicain et l’État se sont rencontrés grâce à ce programme. Consultez les horaires et les conditions d’entrée en vigueur avant de vous y rendre.\n\nD’ici, la rue Moneda devient une lecture de la ville. À côté se trouve le [Palais national](cdmx_29_palacio_nacional), siège du gouvernement. L’Église et la monnaie ont occupé des édifices voisins, dans le même pâté de maisons, et aujourd’hui les deux sont des musées. Et c’est Zumárraga, celui-là même qui chercha ici une résidence, qui encouragea la première imprimerie d’Amérique, que vous verrez dans la [Maison de la première imprimerie](cdmx_40_primera_imprenta). Un même édifice a souvent changé de propriétaire et d’usage : résidence d’évêques, bureau du gouvernement, site archéologique et musée."
+    },
+    "retos_observacion": {
+      "hash": "ff26f6f6d7df84b8",
+      "texto": [
+        "Cherchez le numéro quatre de la rue Moneda à l’entrée du musée",
+        "Observez le portail et les fenêtres de la façade de style colonial du Mexique espagnol de l’ancien palais",
+        "Comparez cet édifice avec ceux du trottoir d’en face et comptez combien d’étages a chacun"
+      ]
+    },
+    "especificaciones": {
+      "hash": "854afeeb00b65a64",
+      "texto": {
+        "Époque": "siège archiépiscopal dès 1530 environ ; reconstruit au milieu du XVIIIe siècle",
+        "Architecture": "façade ajoutée par José Miguel de Rivera Sarabia",
+        "Usage actuel": "Musée d’art du SHCP, avec une collection constituée par le paiement des impôts en nature",
+        "Emplacement": "Moneda 4, Centre historique",
+        "Donnée clé": "la restauration après le séisme de 1985 a laissé apparaître une partie d’une plateforme mexica",
+        "Musée": "ouvert vers 1994"
+      }
+    },
+    "faq_mito": {
+      "hash": "ef67745539a33d99",
+      "texto": {
+        "pregunta": "Mythe : Cet édifice conserve son aspect du seizième siècle, du temps de Zumárraga.",
+        "respuesta": "Réalité : Le palais a été entièrement reconstruit au milieu du dix-huitième siècle."
+      }
+    }
+  }
+}

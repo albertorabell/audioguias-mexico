@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_33_monte_piedad",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "59b60f79a6679a95",
+      "texto": "Nacional Monte de Piedad : mont-de-piété, charité et un palais mexica"
+    },
+    "frase_gancho": {
+      "hash": "5db6a74bfdd05e99",
+      "texto": "Ce mont-de-piété est né en mille sept cent soixante-quinze comme œuvre de charité, et sous son patio se trouvent des vestiges mexicas."
+    },
+    "puente_narrativo": {
+      "hash": "31d7a4e97f6d60ea",
+      "texto": "Contournez la cathédrale par son côté est jusqu’à la rue Seminario, où les ruines du Templo Mayor vous attendent."
+    },
+    "como_llegar": {
+      "hash": "eca0b029f636493b",
+      "texto": "Retournez vers la place et poursuivez jusqu’à son angle nord-ouest, là où la rue Monte de Piedad longe la cathédrale."
+    },
+    "guion_corto": {
+      "hash": "7810936d0c9403cf",
+      "texto": "Son premier nom était interminable : Sacro y Real Monte de Piedad de Ánimas. Il fut fondé par Pedro Romero de Terreros, comte de Regla, et commença son activité le vingt-cinq février mille sept cent soixante-quinze. L’idée était de prêter de l’argent contre des gages pour lutter contre l’usure, et au début sans prélever d’intérêts. Aujourd’hui, il s’appelle Nacional Monte de Piedad, et il a acquis cet édifice, à côté de la cathédrale, en mille huit cent trente-six. Sur la façade, on voit les armoiries du comte de Regla. Sous le patio, des archéologues de l’INAH ont identifié des vestiges qu’ils attribuent au palais d’Axayácatl, un souverain mexica. Deux époques de la ville cohabitent dans un même angle de rue."
+    },
+    "guion_largo": {
+      "hash": "3cfa1cc05c0d968f",
+      "texto": "Le Monte de Piedad est né comme une œuvre de charité. Une historienne de l’UNAM, María Eugenia Romero Ibarra, en a reconstitué l’origine. Pedro Romero de Terreros proposa l’idée au vice-roi en mille sept cent soixante-sept. Il offrit de donner trois cent mille pesos fuertes. Le roi Charles III approuva le projet le trente juillet mille sept cent soixante-treize. La cédule royale fut signée à Aranjuez le deux juin mille sept cent soixante-quatorze. L’institution commença son activité un an après la cédule.\n\nElle prêtait de l’argent contre des gages, afin de lutter contre l’usure. Au début, elle ne prélevait pas d’intérêts et vivait d’aumônes volontaires. À partir de mille sept cent quatre-vingt-deux, dans la pratique, elle se mit à percevoir un intérêt. L’institution explique que son fondateur l’avait conçue comme une fondation perpétuelle. Il ne voulait pas d’une entreprise à but lucratif. Les excédents devaient aller à d’autres œuvres de bienfaisance.\n\nUne anecdote : le modèle de ces institutions vient du Monte di Pietà de Pérouse, en Italie, en mille quatre cent cinquante.\n\nIl fallut des années avant qu’elle n’arrive à cet angle de rue. Son premier siège fut l’ancien collège de San Pedro y San Pablo, de la Compagnie de Jésus, dans l’actuelle rue San Ildefonso. En mille huit cent dix-huit, elle s’installa dans une maison louée aux religieuses de Sainte-Brigitte. En mille huit cent trente-six, elle acquit l’édifice qui fait face au Zócalo. Sa façade est en tezontle. Au-dessus de l’entrée se trouvent les armoiries du comte.\n\nMais le plus surprenant se trouve en dessous. Ce terrain est attribué au palais d’Axayácatl, père de Moctezuma II. Axayácatl gouverna Tenochtitlan entre 1469 et 1481. C’est là que Hernán Cortés fut logé lorsqu’il arriva à Tenochtitlan. En juillet deux mille vingt, l’INAH a dévoilé des découvertes faites dans le patio principal : des sols de dalles de basalte, probablement une partie d’un espace ouvert du palais, et les restes d’une pièce en basalte et en tezontle. Les fouilles de sauvetage archéologique ont eu lieu entre septembre deux mille dix-sept et août deux mille dix-huit, lors des travaux de réhabilitation de l’édifice.\n\nLes chercheurs suggèrent qu’après la Conquête, le palais fut démoli. Ses matériaux auraient été réutilisés dans une maison que l’on croit avoir été celle de Cortés. C’est une hypothèse, non une certitude, et c’est pourquoi il convient de dire que les vestiges sont attribués au palais d’Axayácatl.\n\nAujourd’hui, l’édifice reste le siège principal de l’institution. Quand vous marcherez dans cet angle de rue, pensez aux deux couches qui cohabitent : un mont-de-piété de plus de deux cent cinquante ans et, en dessous, la trace d’un palais mexica. Depuis le trottoir, il suffit de regarder la façade. Et à quelques pas, au [Templo Mayor](cdmx_34_templo_mayor), vous verrez le centre cérémoniel des Mexicas, dont ce palais faisait partie du monde."
+    },
+    "retos_observacion": {
+      "hash": "f7cbe154bde73301",
+      "texto": [
+        "Cherchez au-dessus de l’entrée les armoiries du comte de Regla",
+        "Observez le tezontle rougeâtre de la façade",
+        "Lisez à l’angle le nom de la rue, qui porte le nom de l’institution"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c46eae7b696e261c",
+      "texto": {
+        "Fondation": "25 février 1775",
+        "Fondateur": "Pedro Romero de Terreros, premier comte de Regla",
+        "Nom d’origine": "Sacro y Real Monte de Piedad de Ánimas",
+        "Édifice": "acquis en 1836, sur le site attribué au palais d’Axayácatl",
+        "Façade": "tezontle, avec les armoiries du comte de Regla",
+        "Emplacement": "rue Monte de Piedad, côté Nord-Ouest du Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "e8e99585b9df312a",
+      "texto": {
+        "pregunta": "Mythe : Le Monte de Piedad est un organisme du gouvernement.",
+        "respuesta": "Réalité : C’est une institution privée à but non lucratif, fondée par un particulier, le comte de Regla."
+      }
+    }
+  }
+}
