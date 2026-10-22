@@ -2,7 +2,7 @@ import { defineGroup } from '../define';
 
 export const home = defineGroup(
   {
-    officialBadge: 'Contenido editorial de Audio guía Xolo',
+    officialBadge: 'Contenido editorial de Audioguía Xolo',
     langMenuTitle: 'Idioma / Language',
     langSelectTitle: 'Seleccionar idioma',
     langSelectAria: 'Selector de idioma',
@@ -47,7 +47,7 @@ export const home = defineGroup(
     siteSoonToast: (name: string) => `Próximamente: ${name} se encuentra en desarrollo.`,
   },
   {
-    officialBadge: 'Editorial content by Audio guía Xolo',
+    officialBadge: 'Editorial content by Audioguía Xolo',
     langMenuTitle: 'Idioma / Language',
     langSelectTitle: 'Choose language',
     langSelectAria: 'Language selector',
@@ -92,7 +92,7 @@ export const home = defineGroup(
     siteSoonToast: (name: string) => `Coming soon: ${name} is still in development.`,
   },
   {
-    officialBadge: 'Contenu éditorial d’Audio guía Xolo',
+    officialBadge: 'Contenu éditorial d’Audioguía Xolo',
     langMenuTitle: 'Idioma / Language',
     langSelectTitle: 'Choisir la langue',
     langSelectAria: 'Sélecteur de langue',
