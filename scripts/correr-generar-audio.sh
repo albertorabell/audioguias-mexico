@@ -11,4 +11,4 @@ if [ -n "${LIMITE:-}" ]; then args+=(--limite "$LIMITE"); fi
 if [ "${FORZAR:-false}" = "true" ]; then args+=(--forzar); fi
 if [ "${GENERAR:-false}" = "true" ]; then args+=(--generar); fi
 if [ "${REUBICAR:-false}" = "true" ]; then args+=(--reubicar); fi
-exec node scripts/generar-audio.mjs "${args[@]}"
+exec node scripts/ci-run.mjs "generar-audio" -- node scripts/generar-audio.mjs "${args[@]}"
