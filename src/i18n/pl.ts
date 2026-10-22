@@ -346,6 +346,8 @@ export const PL_GROUPS: Record<string, any> = {
       exploreFree: 'Wolę zwiedzać sam',
       buildOwn: 'Ułóż własną',
       introTitle: 'Zanim wejdziesz',
+      readMore: 'Czytaj dalej',
+      readLess: 'Pokaż mniej',
       routesTitle: 'Wybierz, jak zwiedzać',
       routesSub: 'Każda trasa prowadzi dzieło po dziele, w kolejności zwiedzania.',
       seeAllRoutes: 'Zobacz wszystkie trasy',

@@ -386,7 +386,15 @@ for (const [tema, init] of [['claro', () => localStorage.setItem('audioguias_the
         await entrar();
         await shot('01-arriba');
       });
-      await paso('02-completo', () => shot('02-completo', { full: true }));
+      await paso('01b-recorridos', async () => {
+        await page.locator('#time-chooser').scrollIntoViewIfNeeded();
+        await page.evaluate(() => window.scrollBy(0, -120));
+        await shot('01b-recorridos');
+      });
+      await paso('02-completo', async () => {
+        await page.locator('#btn-intro-more').click().catch(() => {});
+        await shot('02-completo', { full: true });
+      });
       await paso('03-recorridos', async () => {
         await page.locator('#dock-tab-recorridos').click();
         await page.waitForTimeout(800);

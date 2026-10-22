@@ -646,3 +646,26 @@ test('velocidad de la voz: 0.75×, 1×, 1.5× y 2×; se aplica al MP3, se marca 
   await expect(page.locator('#btn-speed-2')).toHaveAttribute('aria-pressed', 'true');
   expect(await page.evaluate(() => localStorage.getItem('audioguias_velocidad'))).toBe('2');
 });
+
+test('inicio del sitio: presentación con «Seguir leyendo» y estante de recorridos con su duración', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await expect(page.locator('#site-intro p')).toHaveCount(1);
+  await page.locator('#btn-intro-more').click();
+  expect(await page.locator('#site-intro p').count()).toBeGreaterThan(1);
+  await expect(page.locator('#first-route-card')).toContainText(/\d+ min|\d+ h/);
+});
+
+test('armar a tu medida: más tiempo, más obras; se puede quitar una obra y el recorrido arranca', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await page.locator('#btn-open-wizard').click();
+  await page.getByRole('radio', { name: /^30 min/ }).click();
+  const filas = page.locator('#preview-title ~ div ol li');
+  const pocas = await filas.count();
+  await page.getByRole('radio', { name: /^3 horas/ }).click();
+  await expect.poll(async () => filas.count()).toBeGreaterThan(pocas);
+  await filas.first().getByRole('button').click();
+  await page.locator('#btn-start-route-fixed').click();
+  await expect(page.locator('#museum-top-header')).toContainText(/Parada 1 de \d+/);
+});

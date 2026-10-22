@@ -72,6 +72,8 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
   const u = strings.ui;
   // La bienvenida de arriba ya orienta; la guía paso a paso queda solo en «¿Cómo se usa?»
   const [introOpen, setIntroOpen] = useState<boolean>(false);
+  // La presentación del sitio muestra el primer párrafo y el resto se abre con «Seguir leyendo» (así los recorridos quedan a la vista)
+  const [introMore, setIntroMore] = useState<boolean>(false);
 
   const pieceById = useMemo(() => new Map(pieces.map((p) => [p.piece_id, p])), [pieces]);
   const piecesByRoom = useMemo(() => {
@@ -174,12 +176,23 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 {!zones && `${u.roomsCount(rooms.length)} · `}{u.worksCount(pieces.length)}
               </p>
               <div id="site-intro" className="mt-4 space-y-3.5">
-                {introParagraphs.map((text, i) => (
+                {(introMore ? introParagraphs : introParagraphs.slice(0, 1)).map((text, i) => (
                   <p key={i} className="text-[1.0625rem] leading-relaxed text-ink-2 text-pretty">
                     {text}
                   </p>
                 ))}
               </div>
+              {introParagraphs.length > 1 && (
+                <button
+                  type="button"
+                  id="btn-intro-more"
+                  aria-expanded={introMore}
+                  onClick={() => setIntroMore((v) => !v)}
+                  className="mt-2 -ml-1 h-10 px-1 text-ui font-semibold text-jade-ink cursor-pointer rounded-full"
+                >
+                  {introMore ? u.museum.readLess : u.museum.readMore}
+                </button>
+              )}
             </div>
           </div>
           {!zones && (
