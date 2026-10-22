@@ -85,7 +85,8 @@ export function manifiestoSitio(sitio, rutas, mapaEnVivo) {
  * actualizan los que vienen de CONTROL y del Sheet. `preview` = el sitio aún no está publicado (solo se ve con ?preview).
  */
 export function entradaSitio(sitio, salas, piezas, previa = {}, { preview = false } = {}) {
-  const conFoto = piezas.find((p) => p.image_filename);
+  // Foto de portada: la pieza que se pone en la columna `portada` de CONTROL; si no, la primera con foto
+  const conFoto = piezas.find((p) => p.image_filename && p.piece_id === String(sitio.portada || '').trim()) || piezas.find((p) => p.image_filename);
   const precio = Number(String(sitio.precio_mxn || '').replace(',', '.'));
   const out = {
     ...previa,
