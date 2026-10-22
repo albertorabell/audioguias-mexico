@@ -11,23 +11,23 @@
  *   tezontle = mitos y errores
  */
 :root {
-  --c-bg: #161413;
-  --c-surface: #1f1c1a;
-  --c-raised: #2a2623;
-  --c-line: rgba(242, 236, 227, 0.1);
-  --c-line-strong: rgba(242, 236, 227, 0.2);
-  --c-ink: #f2ece3;
-  --c-ink-2: #bdb3a6;
-  --c-ink-3: #8c8278;
-  --c-jade: #14b8a6;
-  --c-jade-ink: #14b8a6;
-  --c-on-jade: #1a1a1a;
+  --c-bg: #151729;
+  --c-surface: #1e2139;
+  --c-raised: #292d4a;
+  --c-line: rgba(254, 247, 237, 0.1);
+  --c-line-strong: rgba(254, 247, 237, 0.2);
+  --c-ink: #fef7ed;
+  --c-ink-2: #c9c6d1;
+  --c-ink-3: #9593a8;
+  --c-jade: #e5195f;
+  --c-jade-ink: #ff5c8d;
+  --c-on-jade: #ffffff;
   --c-oro: #f59e0b;
   --c-oro-ink: #f59e0b;
   --c-on-oro: #1a1a1a;
-  --c-tezontle: #f43f5e;
+  --c-tezontle: #ff8a5b;
   --c-rosa: #ec4899;
-  --c-scrim: rgba(10, 8, 7, 0.72);
+  --c-scrim: rgba(8, 9, 20, 0.72);
   color-scheme: dark;
   /* Ancho de la columna de la app: celular y pantallas chicas 480 px; tablet y computadora 720 px */
   --app-w: 480px;
@@ -48,13 +48,13 @@
   --c-ink: #1a1a1a;
   --c-ink-2: #4a443d;
   --c-ink-3: #6f675d;
-  --c-jade: #14b8a6;
-  --c-jade-ink: #0b7a6e;
-  --c-on-jade: #1a1a1a;
+  --c-jade: #e5195f;
+  --c-jade-ink: #c4104f;
+  --c-on-jade: #ffffff;
   --c-oro: #f59e0b;
   --c-oro-ink: #92560a;
   --c-on-oro: #1a1a1a;
-  --c-tezontle: #d81b45;
+  --c-tezontle: #d4501a;
   --c-rosa: #ec4899;
   --c-scrim: rgba(26, 26, 26, 0.45);
   color-scheme: light;
