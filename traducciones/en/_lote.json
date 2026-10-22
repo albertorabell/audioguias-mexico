@@ -1,0 +1,1359 @@
+{
+  "id": "msgbatch_019vJHyu4s4Q67vFcVphtcC5",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "creado": "2026-10-22T17:15:55.790Z",
+  "estimado_usd": 1.727,
+  "unidades": [
+    {
+      "custom_id": "pieza_chap_01_rampa",
+      "tipo": "pieza",
+      "id": "chap_01_rampa",
+      "huellas": {
+        "titulo": "d9f43da925a1471b",
+        "frase_gancho": "9604ddc6f2cdd70d",
+        "puente_narrativo": "405a650038748245",
+        "guion_corto": "ceeae5ec271316a8",
+        "guion_largo": "5849bab9a26294c8",
+        "retos_observacion": "d2fe29701143e71d",
+        "especificaciones": "5e5520fd6148063d",
+        "faq_mito": "bc68ce1c15e2ac94"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_02_fachada_puerta",
+      "tipo": "pieza",
+      "id": "chap_02_fachada_puerta",
+      "huellas": {
+        "titulo": "a1635e04078536c3",
+        "frase_gancho": "525275c3f40a2f5b",
+        "puente_narrativo": "3712d97d74d58f8c",
+        "guion_corto": "31b793ac0193eac3",
+        "guion_largo": "ccef97c094013df0",
+        "retos_observacion": "6493575589db9f2f",
+        "especificaciones": "12bba7d7c8bf6e2e",
+        "faq_mito": "d64a889e4b371292"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_03_patio_canones",
+      "tipo": "pieza",
+      "id": "chap_03_patio_canones",
+      "huellas": {
+        "titulo": "e9cbfe4de364e985",
+        "frase_gancho": "7c8edf0fd411512c",
+        "puente_narrativo": "2dde7b42255ab23f",
+        "guion_corto": "e79a0f8b8d523c6c",
+        "guion_largo": "3f57df6a27005b86",
+        "retos_observacion": "bcfc900c3ebab971",
+        "especificaciones": "55ace62d522e97f5",
+        "faq_mito": "63e8a5681ad7a1d5"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_04_encuentro_conquista",
+      "tipo": "pieza",
+      "id": "chap_04_encuentro_conquista",
+      "huellas": {
+        "titulo": "478bfdd9e731deee",
+        "frase_gancho": "c9e86832374112c3",
+        "puente_narrativo": "2b223e60afd5db89",
+        "guion_corto": "5532a0891bb67dc3",
+        "guion_largo": "88e53afaa19ebbcd",
+        "retos_observacion": "45271f30ff5dac4b",
+        "especificaciones": "785c6f120c4eb30e",
+        "faq_mito": "3e98c041d6edf348"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_05_nueva_espana_plata",
+      "tipo": "pieza",
+      "id": "chap_05_nueva_espana_plata",
+      "huellas": {
+        "titulo": "a28105ad7c5d082d",
+        "frase_gancho": "0a796012b1c98d73",
+        "puente_narrativo": "915392e641f9f178",
+        "guion_corto": "31d2c1bdc0e7a2a7",
+        "guion_largo": "c3dcc9437a62ecd4",
+        "retos_observacion": "997ac149671a1558",
+        "especificaciones": "08cbd7618a7ae398",
+        "faq_mito": "c41b406a4d225f0f"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_04_retablo_independencia",
+      "tipo": "pieza",
+      "id": "chap_04_retablo_independencia",
+      "huellas": {
+        "titulo": "d561a85b4adfde87",
+        "frase_gancho": "3379f0a76f80b7a8",
+        "puente_narrativo": "4fde3c8e684f446e",
+        "guion_corto": "0eece65c8fb869cc",
+        "guion_largo": "7b88b978f3409b09",
+        "retos_observacion": "adaffbe319bc3fdb",
+        "especificaciones": "cad2cd24552e4c89",
+        "faq_mito": "b558d742ee31a8cc"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_06_morelos_iturbide",
+      "tipo": "pieza",
+      "id": "chap_06_morelos_iturbide",
+      "huellas": {
+        "titulo": "80ba72f458f6694c",
+        "frase_gancho": "24e8d2db5830c229",
+        "puente_narrativo": "fdb58fb0601fcfae",
+        "guion_corto": "328dda3b5b6d3c9c",
+        "guion_largo": "a28ed12553e703b2",
+        "retos_observacion": "1d6e7f843d2e5554",
+        "especificaciones": "2f2a8ca035185120",
+        "faq_mito": "b39eaa09e5051fe9"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_07_carruaje_juarez",
+      "tipo": "pieza",
+      "id": "chap_07_carruaje_juarez",
+      "huellas": {
+        "titulo": "b0c865b173c3c8e4",
+        "frase_gancho": "308bdea563c24d9d",
+        "puente_narrativo": "966cb66803ff9700",
+        "guion_corto": "5ab271b2a003d66e",
+        "guion_largo": "80d76f1ed2c42075",
+        "retos_observacion": "c6f903f53c0ee6ad",
+        "especificaciones": "0a2b4043d34c8fdf",
+        "faq_mito": "f10a01b9f170ba4f"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_09_batalla_puebla_orozco",
+      "tipo": "pieza",
+      "id": "chap_09_batalla_puebla_orozco",
+      "huellas": {
+        "titulo": "953a19591bafcff6",
+        "frase_gancho": "ce4cad8d63fb8d2b",
+        "puente_narrativo": "164a7587ffc571be",
+        "guion_corto": "4b7c1f6a9c4b4f4a",
+        "guion_largo": "913a4f21087787fb",
+        "retos_observacion": "25a2cb414bd1b234",
+        "especificaciones": "78d89ae901ee30cc",
+        "faq_mito": "06202b533ecc51c3"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_08_intervencion_1847",
+      "tipo": "pieza",
+      "id": "chap_08_intervencion_1847",
+      "huellas": {
+        "titulo": "f9f8d144954af5a8",
+        "frase_gancho": "888fb7d28fc445e2",
+        "puente_narrativo": "74404ccf0786a5d4",
+        "guion_corto": "4d6c71c9fb2812e9",
+        "guion_largo": "ccc7e3ce244ef5f0",
+        "retos_observacion": "9b08fd8f20890a12",
+        "especificaciones": "8a76ee577eac31d3",
+        "faq_mito": "09a1ab631d9d6553"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_09_mural_siqueiros",
+      "tipo": "pieza",
+      "id": "chap_09_mural_siqueiros",
+      "huellas": {
+        "titulo": "c88628dccd80dd95",
+        "frase_gancho": "a57733a56f648a3c",
+        "puente_narrativo": "db00731618f5ddbc",
+        "guion_corto": "363112d678ad9952",
+        "guion_largo": "2d7724d306b69349",
+        "retos_observacion": "c5f7f694ce8f81ac",
+        "especificaciones": "3e433a17e7003a2d",
+        "faq_mito": "37dd4ee54da2c865"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_10_mural_madero",
+      "tipo": "pieza",
+      "id": "chap_10_mural_madero",
+      "huellas": {
+        "titulo": "eb390d687f959dff",
+        "frase_gancho": "730c6b8bf5415518",
+        "puente_narrativo": "76ec556ad323d12a",
+        "guion_corto": "a3d789c0360abf0b",
+        "guion_largo": "0819d61bb67bcd75",
+        "retos_observacion": "85529d1e51514e16",
+        "especificaciones": "20058d1cc1dc71f2",
+        "faq_mito": "e2aff85ca8dbd42e"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_11_constitucion_1917",
+      "tipo": "pieza",
+      "id": "chap_11_constitucion_1917",
+      "huellas": {
+        "titulo": "5f6170763254f40e",
+        "frase_gancho": "24a2de78e8da7937",
+        "puente_narrativo": "9eae567023a5db45",
+        "guion_corto": "c1a5e064ebd57841",
+        "guion_largo": "8641437b080ee61d",
+        "retos_observacion": "8458e588ffbf819d",
+        "especificaciones": "dba54ed33dadc246",
+        "faq_mito": "ee5e4b8ad495691d"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_12_sala_carruajes",
+      "tipo": "pieza",
+      "id": "chap_12_sala_carruajes",
+      "huellas": {
+        "titulo": "2ea081b1178ddcdb",
+        "frase_gancho": "80f057a99988f61c",
+        "puente_narrativo": "d9073dedd52a5abd",
+        "guion_corto": "f5cc41e47d99bea9",
+        "guion_largo": "ac5560762e61ea5f",
+        "retos_observacion": "573235bb5f6bdaf7",
+        "especificaciones": "8dda3689baf17655",
+        "faq_mito": "e319dbbd98f47c9e"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_13_escalera_leones",
+      "tipo": "pieza",
+      "id": "chap_13_escalera_leones",
+      "huellas": {
+        "titulo": "6a7e9f78e88d8bf8",
+        "frase_gancho": "7d5ad72a0abcc7b8",
+        "puente_narrativo": "4c00cef1930ffc24",
+        "guion_corto": "b785a48931937cce",
+        "guion_largo": "ce122e6a67c92044",
+        "retos_observacion": "6df92d19d968c298",
+        "especificaciones": "615130e47621d863",
+        "faq_mito": "c10f0fa812051c24"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_14_vitrales_emplomados",
+      "tipo": "pieza",
+      "id": "chap_14_vitrales_emplomados",
+      "huellas": {
+        "titulo": "74dd03045b8f0b38",
+        "frase_gancho": "680e4fea9ed0026b",
+        "puente_narrativo": "a244aff27e8d5b88",
+        "guion_corto": "8c39a6b0e356e26d",
+        "guion_largo": "a9007d1092f72f62",
+        "retos_observacion": "a931b282eec79a52",
+        "especificaciones": "5cae7d976b2ce32a",
+        "faq_mito": "5e4f1c16aacec606"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_15_comedor_imperial",
+      "tipo": "pieza",
+      "id": "chap_15_comedor_imperial",
+      "huellas": {
+        "titulo": "068bf1f9d1350eff",
+        "frase_gancho": "c9407e44d5401eff",
+        "puente_narrativo": "480948573b816506",
+        "guion_corto": "0a4a1ce1df04a93c",
+        "guion_largo": "7653b561af308943",
+        "retos_observacion": "63a2812e1fcb45a5",
+        "especificaciones": "d04989c41018342c",
+        "faq_mito": "f1352cc6bb7724d7"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_16_sala_lectura_goces",
+      "tipo": "pieza",
+      "id": "chap_16_sala_lectura_goces",
+      "huellas": {
+        "titulo": "c3af75998b97aa20",
+        "frase_gancho": "9817d7d29f811f67",
+        "puente_narrativo": "c6da8431408543e9",
+        "guion_corto": "e5ad5e299aeaa0f1",
+        "guion_largo": "7bfa1347b3ea548a",
+        "retos_observacion": "49ef68730774c12d",
+        "especificaciones": "bf15c968ad3ac598",
+        "faq_mito": "064b24ca5cd741a0"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_17_salon_embajadores",
+      "tipo": "pieza",
+      "id": "chap_17_salon_embajadores",
+      "huellas": {
+        "titulo": "5bcc9bda2318d2a5",
+        "frase_gancho": "049a0c9979c65a3a",
+        "puente_narrativo": "8b299b373439964b",
+        "guion_corto": "8c323626d8db469c",
+        "guion_largo": "cf4dfdce6a907cdc",
+        "retos_observacion": "2ad6eb1fe801ec71",
+        "especificaciones": "5e1b8acc0b9ffeaf",
+        "faq_mito": "1376eab2f35e9a3d"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_18_recamara_carlota",
+      "tipo": "pieza",
+      "id": "chap_18_recamara_carlota",
+      "huellas": {
+        "titulo": "b684f52114147af1",
+        "frase_gancho": "4161408d79597900",
+        "puente_narrativo": "dfa5ddeee1eceb1c",
+        "guion_corto": "c7ed139f0d34231f",
+        "guion_largo": "b02f8c8fab32e62b",
+        "retos_observacion": "41ba52913e2e679f",
+        "especificaciones": "dcb060b7b56d3481",
+        "faq_mito": "75e991612651b21b"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_19_bano_carlota",
+      "tipo": "pieza",
+      "id": "chap_19_bano_carlota",
+      "huellas": {
+        "titulo": "7ba66d64f1b59450",
+        "frase_gancho": "77e356572d24bd3e",
+        "puente_narrativo": "4c2d6b8661224f1d",
+        "guion_corto": "ca63bc1f4a96a541",
+        "guion_largo": "1337fac42ca88606",
+        "retos_observacion": "9b6cae370b1e4559",
+        "especificaciones": "188decb1319e66b6",
+        "faq_mito": "259633011db59aad"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_20_recamara_maximiliano",
+      "tipo": "pieza",
+      "id": "chap_20_recamara_maximiliano",
+      "huellas": {
+        "titulo": "a7a079d204ab678c",
+        "frase_gancho": "a3bfe2ca11a1191e",
+        "puente_narrativo": "c42d77a3a000ef21",
+        "guion_corto": "48b08dffe976e4d2",
+        "guion_largo": "36020a5408a15520",
+        "retos_observacion": "b9b3f5779f66b3e4",
+        "especificaciones": "abc215959ca54e44",
+        "faq_mito": "5ddd32ae8ae38a28"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_21_recamara_porfirio_carmen",
+      "tipo": "pieza",
+      "id": "chap_21_recamara_porfirio_carmen",
+      "huellas": {
+        "titulo": "81a31a50bf386b90",
+        "frase_gancho": "08bb0cde6f491f53",
+        "puente_narrativo": "fa52be94894a1563",
+        "guion_corto": "5ac80c9b423f73a3",
+        "guion_largo": "973c05d2fbed00f4",
+        "retos_observacion": "d305610faa5bbc1b",
+        "especificaciones": "07063aa551ea6ebb",
+        "faq_mito": "50a9cf6a000f80e9"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_22_despacho_presidencial",
+      "tipo": "pieza",
+      "id": "chap_22_despacho_presidencial",
+      "huellas": {
+        "titulo": "107ddb46a2147314",
+        "frase_gancho": "f16c02b0c5300575",
+        "puente_narrativo": "72d036445534dc65",
+        "guion_corto": "27be743aa7850d61",
+        "guion_largo": "b88dedd3106bf020",
+        "retos_observacion": "4cc23dd159cbff74",
+        "especificaciones": "18680783289b8569",
+        "faq_mito": "59e48156304143e9"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_23_jardin_alcazar",
+      "tipo": "pieza",
+      "id": "chap_23_jardin_alcazar",
+      "huellas": {
+        "titulo": "f21edc01e541b6db",
+        "frase_gancho": "c035e123c0b6b0b7",
+        "puente_narrativo": "364745cc532e5f44",
+        "guion_corto": "29fcd6e89058d10c",
+        "guion_largo": "2652f4509932ebcf",
+        "retos_observacion": "945efeb904bc3394",
+        "especificaciones": "a9bfeb7bc84c95a2",
+        "faq_mito": "cd46a51647312b80"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_24_caballero_alto",
+      "tipo": "pieza",
+      "id": "chap_24_caballero_alto",
+      "huellas": {
+        "titulo": "2f75f1f51c4efe5a",
+        "frase_gancho": "daf1ed1e5f285cb3",
+        "puente_narrativo": "ce931520fe8a4a8b",
+        "guion_corto": "ab56b933935ba35a",
+        "guion_largo": "f69056f45b717a56",
+        "retos_observacion": "d62e8c304b97fdb9",
+        "especificaciones": "2625759213b59caa",
+        "faq_mito": "72210ac36231c515"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_25_terraza_ninos_heroes",
+      "tipo": "pieza",
+      "id": "chap_25_terraza_ninos_heroes",
+      "huellas": {
+        "titulo": "aa4dfea33dbed2f7",
+        "frase_gancho": "50a141a01cdacfee",
+        "puente_narrativo": "c2471779be950390",
+        "guion_corto": "9463a46f4ef6a019",
+        "guion_largo": "e79e1dae5030542b",
+        "retos_observacion": "27d2ed938ab758f9",
+        "especificaciones": "d2173308dd08462f",
+        "faq_mito": "388c1913ebe0c840"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_26_terraza_oriente_reforma",
+      "tipo": "pieza",
+      "id": "chap_26_terraza_oriente_reforma",
+      "huellas": {
+        "titulo": "7873da8d3a1aec21",
+        "frase_gancho": "ca9021c5aed84b4a",
+        "puente_narrativo": "bb2b1bab40dc15df",
+        "guion_corto": "eb4a729acd294653",
+        "guion_largo": "a9a4f36bfcf00815",
+        "retos_observacion": "faba42f76ae01bad",
+        "especificaciones": "1642e2cfc40d5686",
+        "faq_mito": "813295da9da11f88"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_27_estandarte_hidalgo",
+      "tipo": "pieza",
+      "id": "chap_27_estandarte_hidalgo",
+      "huellas": {
+        "titulo": "f341b68cd75663da",
+        "frase_gancho": "5facb397c8c952ed",
+        "puente_narrativo": "ed751b336ffff191",
+        "guion_corto": "94af4d86fd7c564b",
+        "guion_largo": "e65a9939fbdddc82",
+        "retos_observacion": "b35c7e8187a953aa",
+        "especificaciones": "b4e7e40a2c7c6a6c",
+        "faq_mito": "844663168a3d225a"
+      }
+    },
+    {
+      "custom_id": "pieza_chap_28_salon_gobelinos",
+      "tipo": "pieza",
+      "id": "chap_28_salon_gobelinos",
+      "huellas": {
+        "titulo": "5246c8622a6c01fd",
+        "frase_gancho": "09ceebeb2c461b0a",
+        "puente_narrativo": "411fd8fa951161ca",
+        "guion_corto": "a582dd68048f1934",
+        "guion_largo": "f3cd2ce0bd404558",
+        "retos_observacion": "bc21a04080b9faba",
+        "especificaciones": "1ab09abec71f2720",
+        "faq_mito": "19aa53acaa4f7c55"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_01_bellas_artes",
+      "tipo": "pieza",
+      "id": "cdmx_01_bellas_artes",
+      "huellas": {
+        "titulo": "e1ea0258585e5e32",
+        "frase_gancho": "9eeabd059995069e",
+        "puente_narrativo": "4151fe65286163ae",
+        "como_llegar": "b69450a6deb97ada",
+        "guion_corto": "dd8f969e9bc19b16",
+        "guion_largo": "94f9a90459fc69a6",
+        "retos_observacion": "973093e286afbdc2",
+        "especificaciones": "8de1a5eb3fe1050d",
+        "faq_mito": "f71539a76814152e"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_02_bellas_artes_museo",
+      "tipo": "pieza",
+      "id": "cdmx_02_bellas_artes_museo",
+      "huellas": {
+        "titulo": "5ede0d98df8e2613",
+        "frase_gancho": "d286d8db1a9902ad",
+        "puente_narrativo": "75e35678e350f2b0",
+        "como_llegar": "4151fe65286163ae",
+        "guion_corto": "681e671286e6153f",
+        "guion_largo": "4641789469f49971",
+        "retos_observacion": "b3819cb30f1d99cd",
+        "especificaciones": "668766425e4d29af",
+        "faq_mito": "a4e20d546b656635"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_03_alameda",
+      "tipo": "pieza",
+      "id": "cdmx_03_alameda",
+      "huellas": {
+        "titulo": "ded8d6b770c24687",
+        "frase_gancho": "8055c200ccf0e994",
+        "puente_narrativo": "dcaa4fd3ebd2729b",
+        "como_llegar": "75e35678e350f2b0",
+        "guion_corto": "ca64f4b129c16667",
+        "guion_largo": "cc3e48b3ef4396fe",
+        "retos_observacion": "2c0ca2d7284492d7",
+        "especificaciones": "b0d75770eeed2b69",
+        "faq_mito": "e6dcca7759eeca00"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_04_alameda_fuentes",
+      "tipo": "pieza",
+      "id": "cdmx_04_alameda_fuentes",
+      "huellas": {
+        "titulo": "c7ca97acaa946faa",
+        "frase_gancho": "81fd9554df017a46",
+        "puente_narrativo": "8d76e9a0c25016af",
+        "como_llegar": "dcaa4fd3ebd2729b",
+        "guion_corto": "659f98b46d9d4969",
+        "guion_largo": "112263562f93bebf",
+        "retos_observacion": "0b268df5d0bfcc70",
+        "especificaciones": "f89abf594595100c",
+        "faq_mito": "b326dfc2d519b616"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_05_hemiciclo_juarez",
+      "tipo": "pieza",
+      "id": "cdmx_05_hemiciclo_juarez",
+      "huellas": {
+        "titulo": "508430550a37b8d7",
+        "frase_gancho": "f89736c417a312e7",
+        "puente_narrativo": "290bda5aaacf6075",
+        "como_llegar": "8d76e9a0c25016af",
+        "guion_corto": "febe9c3daa89aa55",
+        "guion_largo": "48b69c0d730a2eae",
+        "retos_observacion": "86ff85867ebaf92b",
+        "especificaciones": "4cf7321345fc6ad9",
+        "faq_mito": "5484bcec95e326da"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_06_museo_mural_rivera",
+      "tipo": "pieza",
+      "id": "cdmx_06_museo_mural_rivera",
+      "huellas": {
+        "titulo": "62afee6955648785",
+        "frase_gancho": "8be975d5fb002bf2",
+        "puente_narrativo": "ed3dc04e2d81cc69",
+        "como_llegar": "290bda5aaacf6075",
+        "guion_corto": "d57018a95952ef26",
+        "guion_largo": "cc36a5affba2aa53",
+        "retos_observacion": "c63a8b937434edd8",
+        "especificaciones": "16281dc71852006e",
+        "faq_mito": "9f79702c94dc025e"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_07_palacio_postal",
+      "tipo": "pieza",
+      "id": "cdmx_07_palacio_postal",
+      "huellas": {
+        "titulo": "6db03b79813513b9",
+        "frase_gancho": "1cd54201b5afb1ad",
+        "puente_narrativo": "c97784ee341518e6",
+        "como_llegar": "ed3dc04e2d81cc69",
+        "guion_corto": "2719365080488442",
+        "guion_largo": "81061dc7f7420f6b",
+        "retos_observacion": "7a5df2a76e2b01ec",
+        "especificaciones": "3e28a7d5054e4a70",
+        "faq_mito": "bab6f85e92bb8b0e"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_08_museo_telegrafo",
+      "tipo": "pieza",
+      "id": "cdmx_08_museo_telegrafo",
+      "huellas": {
+        "titulo": "d2587d2a9b151fa5",
+        "frase_gancho": "3e0b1ec490b697f2",
+        "puente_narrativo": "5c95c4e5ac54d72c",
+        "como_llegar": "845282a5c8dd1b21",
+        "guion_corto": "5262ebb3f084ba16",
+        "guion_largo": "19ca01b108cd602a",
+        "retos_observacion": "c4aa73f8a8172ef4",
+        "especificaciones": "b1831d95078a8859",
+        "faq_mito": "361b901dade8b43e"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_09_plaza_tolsa_caballito",
+      "tipo": "pieza",
+      "id": "cdmx_09_plaza_tolsa_caballito",
+      "huellas": {
+        "titulo": "2d46cd2eaedf811f",
+        "frase_gancho": "3d41bc48303bd3e7",
+        "puente_narrativo": "adc1cf509d0f1616",
+        "como_llegar": "c97784ee341518e6",
+        "guion_corto": "a9ead8f12e68bfba",
+        "guion_largo": "55d8369e04a5983c",
+        "retos_observacion": "577af6d69a8e78f5",
+        "especificaciones": "52848f9fcf5de98c",
+        "faq_mito": "f0136942adaf29b6"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_10_munal",
+      "tipo": "pieza",
+      "id": "cdmx_10_munal",
+      "huellas": {
+        "titulo": "7beed5333bc22561",
+        "frase_gancho": "b9a8853951906358",
+        "puente_narrativo": "845282a5c8dd1b21",
+        "como_llegar": "3eb62ba8e3ce97ca",
+        "guion_corto": "5f934dbcfe26f5bd",
+        "guion_largo": "106cc60686c6c8b3",
+        "retos_observacion": "6d4c8e5a6dd3a494",
+        "especificaciones": "6d704153a79d6144",
+        "faq_mito": "9e36cf337d8822d0"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_11_palacio_mineria",
+      "tipo": "pieza",
+      "id": "cdmx_11_palacio_mineria",
+      "huellas": {
+        "titulo": "ddd5ffea7c5fed05",
+        "frase_gancho": "a540c99e57fd99d1",
+        "puente_narrativo": "3eb62ba8e3ce97ca",
+        "como_llegar": "adc1cf509d0f1616",
+        "guion_corto": "d1e3ae1983841102",
+        "guion_largo": "6c935029fd1c9cfb",
+        "retos_observacion": "3597f1a51d2a4f14",
+        "especificaciones": "ec507f99340d8f6c",
+        "faq_mito": "e5e07e58fbb2c44f"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_12_la_nacional",
+      "tipo": "pieza",
+      "id": "cdmx_12_la_nacional",
+      "huellas": {
+        "titulo": "8ce4492e09e7f374",
+        "frase_gancho": "02cc5cd419ab277e",
+        "puente_narrativo": "4062fe95af090198",
+        "como_llegar": "5c95c4e5ac54d72c",
+        "guion_corto": "532c8ccb4de26853",
+        "guion_largo": "62f4833bbf200dd3",
+        "retos_observacion": "1fdd0e2f755519c4",
+        "especificaciones": "0521e1e688431808",
+        "faq_mito": "db0cb00241176b53"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_13_torre_latinoamericana",
+      "tipo": "pieza",
+      "id": "cdmx_13_torre_latinoamericana",
+      "huellas": {
+        "titulo": "53dc25c0e946d745",
+        "frase_gancho": "d2e0d28495fc0c09",
+        "puente_narrativo": "45da8f48c482ce6e",
+        "como_llegar": "4062fe95af090198",
+        "guion_corto": "f64660ee460bca30",
+        "guion_largo": "728ec7a3ddb91dcc",
+        "retos_observacion": "b9fbea154c1aadbf",
+        "especificaciones": "d754fb04810b0883",
+        "faq_mito": "29467f101fcf7b62"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_14_casa_azulejos",
+      "tipo": "pieza",
+      "id": "cdmx_14_casa_azulejos",
+      "huellas": {
+        "titulo": "4b32fbec7de191fb",
+        "frase_gancho": "039046f637e182cf",
+        "puente_narrativo": "babe28bff7205673",
+        "como_llegar": "45da8f48c482ce6e",
+        "guion_corto": "051b7056c66cc052",
+        "guion_largo": "598ba0a7be5eb6d3",
+        "retos_observacion": "77f7f626e07537c3",
+        "especificaciones": "1d87d5f8738b9a35",
+        "faq_mito": "fb47065c967cf326"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_15_banco_mexico",
+      "tipo": "pieza",
+      "id": "cdmx_15_banco_mexico",
+      "huellas": {
+        "titulo": "82a1631a4715e9c5",
+        "frase_gancho": "00373db394279738",
+        "puente_narrativo": "140c303f49b083a9",
+        "como_llegar": "babe28bff7205673",
+        "guion_corto": "470b18f8584c8ea3",
+        "guion_largo": "31ca124d6d7da615",
+        "retos_observacion": "91f47436dbf6443e",
+        "especificaciones": "cc4b3dc0898bffb4",
+        "faq_mito": "f2c5ddbc6794ae60"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_16_san_francisco_gante",
+      "tipo": "pieza",
+      "id": "cdmx_16_san_francisco_gante",
+      "huellas": {
+        "titulo": "1757e6c5a283ed24",
+        "frase_gancho": "016bca116f36665a",
+        "puente_narrativo": "52b9b73c044c7165",
+        "como_llegar": "140c303f49b083a9",
+        "guion_corto": "a7f8a83afae66316",
+        "guion_largo": "81604d9fb99f66a6",
+        "retos_observacion": "bd738c90adf01446",
+        "especificaciones": "392e860106389c88",
+        "faq_mito": "e200371a454cc724"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_17_calle_madero",
+      "tipo": "pieza",
+      "id": "cdmx_17_calle_madero",
+      "huellas": {
+        "titulo": "22ffe56348470578",
+        "frase_gancho": "c0df6cac65fcd83e",
+        "puente_narrativo": "ca8e83faa3ac4dc9",
+        "como_llegar": "52b9b73c044c7165",
+        "guion_corto": "d0c0022d0429b3ae",
+        "guion_largo": "d2e0ad1b16885d4e",
+        "retos_observacion": "5af3cb649296cf33",
+        "especificaciones": "ee1580ad70581b0e",
+        "faq_mito": "df6e1daa80a58ac0"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_18_palacio_iturbide",
+      "tipo": "pieza",
+      "id": "cdmx_18_palacio_iturbide",
+      "huellas": {
+        "titulo": "ca786e6bd144c4fd",
+        "frase_gancho": "847666b7b8341bdd",
+        "puente_narrativo": "a99a21cf3ca279e8",
+        "como_llegar": "ca8e83faa3ac4dc9",
+        "guion_corto": "ef3728bf7bdcf13e",
+        "guion_largo": "c21d7d6794bfeb44",
+        "retos_observacion": "4286068be8ba568b",
+        "especificaciones": "8fc400be2bd67236",
+        "faq_mito": "79e8f0e1a3505899"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_19_la_profesa",
+      "tipo": "pieza",
+      "id": "cdmx_19_la_profesa",
+      "huellas": {
+        "titulo": "18991febd2f16657",
+        "frase_gancho": "80a430ddf17fb439",
+        "puente_narrativo": "f081927ef70da3a1",
+        "como_llegar": "a99a21cf3ca279e8",
+        "guion_corto": "9e248e9a36d2096f",
+        "guion_largo": "9880ef4e65dca0c1",
+        "retos_observacion": "a6abaeef5afb03e6",
+        "especificaciones": "3d371c02e9e90dd7",
+        "faq_mito": "1e98a05f7999199f"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_20_estanquillo",
+      "tipo": "pieza",
+      "id": "cdmx_20_estanquillo",
+      "huellas": {
+        "titulo": "dfe355cad11ce13c",
+        "frase_gancho": "a6dfc4559f7b97ff",
+        "puente_narrativo": "8fd51d63437bdc53",
+        "como_llegar": "f081927ef70da3a1",
+        "guion_corto": "0dcc197c754d7953",
+        "guion_largo": "bfdc500afa3999e0",
+        "retos_observacion": "a0a526ea5b057d39",
+        "especificaciones": "dc04f3f5f53b38b3",
+        "faq_mito": "a756f0d79fa164eb"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_21_dulceria_celaya",
+      "tipo": "pieza",
+      "id": "cdmx_21_dulceria_celaya",
+      "huellas": {
+        "titulo": "11e1e60aed5d27a7",
+        "frase_gancho": "35e03e2b5ec8a1fe",
+        "puente_narrativo": "c8ebf60ba9497789",
+        "como_llegar": "8fd51d63437bdc53",
+        "guion_corto": "7ec0e7f88625e18a",
+        "guion_largo": "1b12c53aec4f474d",
+        "retos_observacion": "9b09622de6f93ea0",
+        "especificaciones": "a3007e5278e97eb4",
+        "faq_mito": "4e498f48c4eda66f"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_22_cafe_tacuba",
+      "tipo": "pieza",
+      "id": "cdmx_22_cafe_tacuba",
+      "huellas": {
+        "titulo": "0fe323f1aad21c77",
+        "frase_gancho": "fb67ae5b4535bfed",
+        "puente_narrativo": "b71a8a4e38de51ed",
+        "como_llegar": "c8ebf60ba9497789",
+        "guion_corto": "4ffd3e62d9cfc437",
+        "guion_largo": "681260745fcdbfa9",
+        "retos_observacion": "fa220942a578f1b2",
+        "especificaciones": "e977fc248bc6c134",
+        "faq_mito": "1705a6ddf279e1a0"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_23_casino_espanol",
+      "tipo": "pieza",
+      "id": "cdmx_23_casino_espanol",
+      "huellas": {
+        "titulo": "50693d85b506f09d",
+        "frase_gancho": "ea8c01325d0701fc",
+        "puente_narrativo": "70c1a806614a7c57",
+        "como_llegar": "b71a8a4e38de51ed",
+        "guion_corto": "6e2259471a510290",
+        "guion_largo": "57976993d459acb4",
+        "retos_observacion": "9fe1b1f38b2bc6af",
+        "especificaciones": "fa8eb66c32b539de",
+        "faq_mito": "5b1c66321cedbefe"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_24_casa_boker",
+      "tipo": "pieza",
+      "id": "cdmx_24_casa_boker",
+      "huellas": {
+        "titulo": "7962bebea20ef0d2",
+        "frase_gancho": "a4426503611a4f1c",
+        "puente_narrativo": "6aa832cf785ae3c7",
+        "como_llegar": "70c1a806614a7c57",
+        "guion_corto": "e558b1f460a9b6a1",
+        "guion_largo": "662a7531d926214d",
+        "retos_observacion": "4f0f3e6f21c706ea",
+        "especificaciones": "82c0cf88d4b3d7eb",
+        "faq_mito": "dba5d665d817ecdc"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_25_zocalo",
+      "tipo": "pieza",
+      "id": "cdmx_25_zocalo",
+      "huellas": {
+        "titulo": "0be09e00cdadd1bc",
+        "frase_gancho": "0195248b2e9f4404",
+        "puente_narrativo": "02ab666f13961fab",
+        "como_llegar": "6aa832cf785ae3c7",
+        "guion_corto": "85502b555541c9f4",
+        "guion_largo": "29bf7613d2640096",
+        "retos_observacion": "e87c59fe36b09c1d",
+        "especificaciones": "0f9c99863a0a34c1",
+        "faq_mito": "710703dad0c978b9"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_26_zocalo_memoria",
+      "tipo": "pieza",
+      "id": "cdmx_26_zocalo_memoria",
+      "huellas": {
+        "titulo": "2e9bb63d71fc9543",
+        "frase_gancho": "8665cc986bde78c5",
+        "puente_narrativo": "46c7aa396dbe8979",
+        "como_llegar": "02ab666f13961fab",
+        "guion_corto": "86e4f0105c2ea8ff",
+        "guion_largo": "b82a3b2db549ac2b",
+        "retos_observacion": "c7d35ee73ed512b9",
+        "especificaciones": "0aeab27729f1a73f",
+        "faq_mito": "00db5e0d722822d0"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_27_catedral",
+      "tipo": "pieza",
+      "id": "cdmx_27_catedral",
+      "huellas": {
+        "titulo": "a9aed796863efd38",
+        "frase_gancho": "c62289eead62b660",
+        "puente_narrativo": "34bc1e21dc898d10",
+        "como_llegar": "46c7aa396dbe8979",
+        "guion_corto": "99bb16c59fdad53d",
+        "guion_largo": "d8e0ef94ec22e964",
+        "retos_observacion": "f38fbd294af82e07",
+        "especificaciones": "4bf30fede9801b1c",
+        "faq_mito": "9beab69a75303d8c"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_28_sagrario",
+      "tipo": "pieza",
+      "id": "cdmx_28_sagrario",
+      "huellas": {
+        "titulo": "b9ae52d6afa278f0",
+        "frase_gancho": "b3807fc4e0867316",
+        "puente_narrativo": "6954dddec98a1b75",
+        "como_llegar": "34bc1e21dc898d10",
+        "guion_corto": "20a94b3c467acaa9",
+        "guion_largo": "979860e2215130af",
+        "retos_observacion": "ee6ba7b006995930",
+        "especificaciones": "395d4ebce5a22eba",
+        "faq_mito": "a0780b2309a0d977"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_29_palacio_nacional",
+      "tipo": "pieza",
+      "id": "cdmx_29_palacio_nacional",
+      "huellas": {
+        "titulo": "6f992028ab1b6a47",
+        "frase_gancho": "83420dbcd6e830ce",
+        "puente_narrativo": "08e79ee7f9deeae1",
+        "como_llegar": "6954dddec98a1b75",
+        "guion_corto": "e3d099008ae237a6",
+        "guion_largo": "9678d700ecc5f804",
+        "retos_observacion": "0320b8db4d968919",
+        "especificaciones": "162a2968ad86b94a",
+        "faq_mito": "37016274cc85e599"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_30_antiguo_ayuntamiento",
+      "tipo": "pieza",
+      "id": "cdmx_30_antiguo_ayuntamiento",
+      "huellas": {
+        "titulo": "ae1da1f921671d09",
+        "frase_gancho": "73d0f327051768b7",
+        "puente_narrativo": "f03c786251d6d028",
+        "como_llegar": "08e79ee7f9deeae1",
+        "guion_corto": "0aa9df9dce669b3d",
+        "guion_largo": "cd6b4e6bfd61b671",
+        "retos_observacion": "b4cc6b22630cdca7",
+        "especificaciones": "f3c0bf98e71a5c5e",
+        "faq_mito": "9bf9e5f63b85b476"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_31_portal_mercaderes",
+      "tipo": "pieza",
+      "id": "cdmx_31_portal_mercaderes",
+      "huellas": {
+        "titulo": "9b7ebce867f5cbbf",
+        "frase_gancho": "3fbc52518485ac1a",
+        "puente_narrativo": "0a260dfda73070b3",
+        "como_llegar": "f03c786251d6d028",
+        "guion_corto": "bd131a35469e8889",
+        "guion_largo": "ef36e77e745d950b",
+        "retos_observacion": "f6dfc3ff1878c252",
+        "especificaciones": "13c4735567aa84c1",
+        "faq_mito": "57dd0762d4837353"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_32_gran_hotel",
+      "tipo": "pieza",
+      "id": "cdmx_32_gran_hotel",
+      "huellas": {
+        "titulo": "0bcdd469b1c4920f",
+        "frase_gancho": "82524e4c34f396b2",
+        "puente_narrativo": "eca0b029f636493b",
+        "como_llegar": "0a260dfda73070b3",
+        "guion_corto": "0bd8f6307805ac52",
+        "guion_largo": "145081a88cad08d3",
+        "retos_observacion": "f240aa2cc99db008",
+        "especificaciones": "e819d6b08753344a",
+        "faq_mito": "cf16c18cfa82d9ac"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_33_monte_piedad",
+      "tipo": "pieza",
+      "id": "cdmx_33_monte_piedad",
+      "huellas": {
+        "titulo": "59b60f79a6679a95",
+        "frase_gancho": "5db6a74bfdd05e99",
+        "puente_narrativo": "31d7a4e97f6d60ea",
+        "como_llegar": "eca0b029f636493b",
+        "guion_corto": "7810936d0c9403cf",
+        "guion_largo": "3cfa1cc05c0d968f",
+        "retos_observacion": "f7cbe154bde73301",
+        "especificaciones": "c46eae7b696e261c",
+        "faq_mito": "e8e99585b9df312a"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_34_templo_mayor",
+      "tipo": "pieza",
+      "id": "cdmx_34_templo_mayor",
+      "huellas": {
+        "titulo": "672d6f0eae8fabaf",
+        "frase_gancho": "2c4d3040c122a6fe",
+        "puente_narrativo": "f4c9f1fe2e908762",
+        "como_llegar": "31d7a4e97f6d60ea",
+        "guion_corto": "f1002c6dfb46b5d3",
+        "guion_largo": "df87b83f509c0026",
+        "retos_observacion": "102c8f05d610d100",
+        "especificaciones": "95952f7d2f78a487",
+        "faq_mito": "ee0f6d792ce0a415"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_35_plaza_seminario",
+      "tipo": "pieza",
+      "id": "cdmx_35_plaza_seminario",
+      "huellas": {
+        "titulo": "8b4e81a9b8de5806",
+        "frase_gancho": "c83c165e5d71a241",
+        "puente_narrativo": "787fcc1b0a74619a",
+        "como_llegar": "f4c9f1fe2e908762",
+        "guion_corto": "7ba996aca68ed28a",
+        "guion_largo": "d1ed940824c491c6",
+        "retos_observacion": "7414e76023acb886",
+        "especificaciones": "dc1a8143de5a5661",
+        "faq_mito": "4bd5348c1ddfa79c"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_36_tzompantli_ajaracas",
+      "tipo": "pieza",
+      "id": "cdmx_36_tzompantli_ajaracas",
+      "huellas": {
+        "titulo": "91a3f948a4e5e0f1",
+        "frase_gancho": "690986df655442ec",
+        "puente_narrativo": "7e43f3d2b22e2c4e",
+        "como_llegar": "787fcc1b0a74619a",
+        "guion_corto": "7280adad4452bd0c",
+        "guion_largo": "e5a92a55164fea9f",
+        "retos_observacion": "f995f1a942fd3419",
+        "especificaciones": "1b17deccae971723",
+        "faq_mito": "e417d3bcc84236bb"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_37_calle_moneda",
+      "tipo": "pieza",
+      "id": "cdmx_37_calle_moneda",
+      "huellas": {
+        "titulo": "dc5fd4a8e328b316",
+        "frase_gancho": "3a6e927c7e2f85ba",
+        "puente_narrativo": "4617ef355a9a3503",
+        "como_llegar": "7e43f3d2b22e2c4e",
+        "guion_corto": "1d4d0dd373c5f4d1",
+        "guion_largo": "fa327954c4eae698",
+        "retos_observacion": "60fd3508c8d52dc7",
+        "especificaciones": "44ac57f5dd908f7b",
+        "faq_mito": "1bdfaf973703a71c"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_38_museo_shcp",
+      "tipo": "pieza",
+      "id": "cdmx_38_museo_shcp",
+      "huellas": {
+        "titulo": "e0d2c97a3a1aca51",
+        "frase_gancho": "f34938ff81740ec8",
+        "puente_narrativo": "b20b057ef9097865",
+        "como_llegar": "4617ef355a9a3503",
+        "guion_corto": "7619fd042d95b1f2",
+        "guion_largo": "0027404680ecd161",
+        "retos_observacion": "ff26f6f6d7df84b8",
+        "especificaciones": "854afeeb00b65a64",
+        "faq_mito": "ef67745539a33d99"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_39_culturas_mundo",
+      "tipo": "pieza",
+      "id": "cdmx_39_culturas_mundo",
+      "huellas": {
+        "titulo": "ea7428c2733554af",
+        "frase_gancho": "ee83d0f5840604a6",
+        "puente_narrativo": "284946adf56458b4",
+        "como_llegar": "b20b057ef9097865",
+        "guion_corto": "ce76c9a9f938db69",
+        "guion_largo": "a9e7e6f5e2d6e315",
+        "retos_observacion": "90f2f7ce71ae4a21",
+        "especificaciones": "8f7f728d7cd4b18c",
+        "faq_mito": "3a9300de487e1cca"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_40_primera_imprenta",
+      "tipo": "pieza",
+      "id": "cdmx_40_primera_imprenta",
+      "huellas": {
+        "titulo": "48e9b18750edd88f",
+        "frase_gancho": "73eb85a2ee5bf8d9",
+        "puente_narrativo": "39fba66a4e258a51",
+        "como_llegar": "284946adf56458b4",
+        "guion_corto": "93550a2e7dc1ab3b",
+        "guion_largo": "71eaeca9abeb02ff",
+        "retos_observacion": "ded50c4d947bccf7",
+        "especificaciones": "49b437cc735a8cd5",
+        "faq_mito": "f97ca424fc7fcd03"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_41_ex_teresa",
+      "tipo": "pieza",
+      "id": "cdmx_41_ex_teresa",
+      "huellas": {
+        "titulo": "670cbda18c6b3464",
+        "frase_gancho": "5e43f1b10bf2cc00",
+        "puente_narrativo": "1d56f61e478bd9c7",
+        "como_llegar": "39fba66a4e258a51",
+        "guion_corto": "f44b56fb2c2c3505",
+        "guion_largo": "95bd6506b057eaf6",
+        "retos_observacion": "f381893b100f1c27",
+        "especificaciones": "c39355c82589ee4b",
+        "faq_mito": "32e24739eebbba92"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_42_palacio_autonomia",
+      "tipo": "pieza",
+      "id": "cdmx_42_palacio_autonomia",
+      "huellas": {
+        "titulo": "85ee471721763756",
+        "frase_gancho": "0e26312021aa71d8",
+        "puente_narrativo": "fb665259b4c47993",
+        "como_llegar": "1d56f61e478bd9c7",
+        "guion_corto": "48484bc6a7821275",
+        "guion_largo": "3837f861d214647b",
+        "retos_observacion": "305157d87d8929e9",
+        "especificaciones": "0b33e89f5be0329f",
+        "faq_mito": "d7b05104222f4b68"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_43_plaza_santo_domingo",
+      "tipo": "pieza",
+      "id": "cdmx_43_plaza_santo_domingo",
+      "huellas": {
+        "titulo": "ae632bd997c52faf",
+        "frase_gancho": "96bdc3a09f05522b",
+        "puente_narrativo": "f500d6bb9b4c0457",
+        "como_llegar": "fb665259b4c47993",
+        "guion_corto": "9cb082db2cff0823",
+        "guion_largo": "3921416fc9d9e7ad",
+        "retos_observacion": "2b33ca6a113f400c",
+        "especificaciones": "45d402a37ef9c519",
+        "faq_mito": "a6c8aa834cf9a52a"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_44_templo_santo_domingo",
+      "tipo": "pieza",
+      "id": "cdmx_44_templo_santo_domingo",
+      "huellas": {
+        "titulo": "29fe076e61b78755",
+        "frase_gancho": "af40932c5d72c27b",
+        "puente_narrativo": "0297b4ccc15bb766",
+        "como_llegar": "f500d6bb9b4c0457",
+        "guion_corto": "8e05d6e90d0de60b",
+        "guion_largo": "14a5958777b132f5",
+        "retos_observacion": "7bd01f36bffa5646",
+        "especificaciones": "07b5d3a53b2eb89c",
+        "faq_mito": "ed13b4732489b7c0"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_45_inquisicion",
+      "tipo": "pieza",
+      "id": "cdmx_45_inquisicion",
+      "huellas": {
+        "titulo": "3b85ee8220e99e76",
+        "frase_gancho": "12ffa21ce2b06d65",
+        "puente_narrativo": "3a5e937adaf94510",
+        "como_llegar": "0297b4ccc15bb766",
+        "guion_corto": "2a9a9418da1f0d70",
+        "guion_largo": "c772193877a93713",
+        "retos_observacion": "8494edf6d7609b9d",
+        "especificaciones": "0aff5a2846e2d8bc",
+        "faq_mito": "e16adf29a2067d8e"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_46_museo_vivo_muralismo",
+      "tipo": "pieza",
+      "id": "cdmx_46_museo_vivo_muralismo",
+      "huellas": {
+        "titulo": "f7669e631da928a3",
+        "frase_gancho": "ee74a83f9d366407",
+        "puente_narrativo": "989dfa102b367108",
+        "como_llegar": "3a5e937adaf94510",
+        "guion_corto": "304cd605984b3a16",
+        "guion_largo": "00f224b24ec15c1b",
+        "retos_observacion": "b16dfd86b47033fe",
+        "especificaciones": "de13761b9bc54ed9",
+        "faq_mito": "9f366aa93f2795e4"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_47_san_ildefonso",
+      "tipo": "pieza",
+      "id": "cdmx_47_san_ildefonso",
+      "huellas": {
+        "titulo": "faf1541d0fbb4f3f",
+        "frase_gancho": "5c304ffdaae6451f",
+        "puente_narrativo": "a47a8e1fa4f733a0",
+        "como_llegar": "989dfa102b367108",
+        "guion_corto": "b0bf17edcad7f70f",
+        "guion_largo": "86a98766e5f5f4ae",
+        "retos_observacion": "8a9b514f57515a05",
+        "especificaciones": "a97065198b16c8f9",
+        "faq_mito": "266d9ed8d8da3818"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_48_templo_ensenanza",
+      "tipo": "pieza",
+      "id": "cdmx_48_templo_ensenanza",
+      "huellas": {
+        "titulo": "de63cb6607344e3b",
+        "frase_gancho": "d9aa1917a450452b",
+        "puente_narrativo": "e697dc790e84dc31",
+        "como_llegar": "a47a8e1fa4f733a0",
+        "guion_corto": "21b8cb2dc3d44207",
+        "guion_largo": "91476849d9fe82cf",
+        "retos_observacion": "e6b7718cf00c993a",
+        "especificaciones": "e050a53a7ec7ee87",
+        "faq_mito": "4835b7386d721684"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_49_museo_caricatura",
+      "tipo": "pieza",
+      "id": "cdmx_49_museo_caricatura",
+      "huellas": {
+        "titulo": "b6e30066fcb78fba",
+        "frase_gancho": "501fa40bb9ce114d",
+        "puente_narrativo": "b9f1be6ccfdd69cf",
+        "como_llegar": "e697dc790e84dc31",
+        "guion_corto": "f1f2c703b2befc78",
+        "guion_largo": "c10d1d93cde08102",
+        "retos_observacion": "928032c7386e45fb",
+        "especificaciones": "d66cdff492ad5e6f",
+        "faq_mito": "dc8e28f402be3b1b"
+      }
+    },
+    {
+      "custom_id": "pieza_cdmx_50_donceles",
+      "tipo": "pieza",
+      "id": "cdmx_50_donceles",
+      "huellas": {
+        "titulo": "d0c2156672443700",
+        "frase_gancho": "d742f95c4709d22e",
+        "puente_narrativo": "8ab9e0718d513c92",
+        "como_llegar": "b9f1be6ccfdd69cf",
+        "guion_corto": "5f10366b6e654bb7",
+        "guion_largo": "28f43e8aae9e9343",
+        "retos_observacion": "8bb694ef007bc83d",
+        "especificaciones": "fd337569964fca06",
+        "faq_mito": "9001a56bc71c001f"
+      }
+    },
+    {
+      "custom_id": "sala_chap-01-exteriores",
+      "tipo": "sala",
+      "id": "chap-01-exteriores",
+      "huellas": {
+        "nombre_oficial": "4ea0f6187c7eceae",
+        "frase_gancho": "dbcaf59c0e511d48",
+        "introduccion_narrativa": "6fb90e889189758f"
+      }
+    },
+    {
+      "custom_id": "sala_chap-02-museo-historia",
+      "tipo": "sala",
+      "id": "chap-02-museo-historia",
+      "huellas": {
+        "nombre_oficial": "ffbfbecd1ac16f2f",
+        "frase_gancho": "d97128f016e6c65d",
+        "introduccion_narrativa": "77af98a7d4cd4c49"
+      }
+    },
+    {
+      "custom_id": "sala_chap-03-alcazar",
+      "tipo": "sala",
+      "id": "chap-03-alcazar",
+      "huellas": {
+        "nombre_oficial": "8afa4def7cabdd78",
+        "frase_gancho": "f902b126298409ce",
+        "introduccion_narrativa": "be5a4701f394824b"
+      }
+    },
+    {
+      "custom_id": "sala_chap-04-terrazas-jardines",
+      "tipo": "sala",
+      "id": "chap-04-terrazas-jardines",
+      "huellas": {
+        "nombre_oficial": "6e365a16baf73924",
+        "frase_gancho": "6c6d1ae5bd2c9a4a",
+        "introduccion_narrativa": "cc1b236e03b4f32f"
+      }
+    },
+    {
+      "custom_id": "sala_cdmx-01-bellas-artes",
+      "tipo": "sala",
+      "id": "cdmx-01-bellas-artes",
+      "huellas": {
+        "nombre_oficial": "b6dfefbfa5983409",
+        "frase_gancho": "81b1bfc2e9b3304f",
+        "introduccion_narrativa": "65a681cfd6f70b8c"
+      }
+    },
+    {
+      "custom_id": "sala_cdmx-02-tolsa-eje-central",
+      "tipo": "sala",
+      "id": "cdmx-02-tolsa-eje-central",
+      "huellas": {
+        "nombre_oficial": "f2a2642546b8a669",
+        "frase_gancho": "b68433f6543f1806",
+        "introduccion_narrativa": "9afa5de039b7c5c9"
+      }
+    },
+    {
+      "custom_id": "sala_cdmx-03-madero",
+      "tipo": "sala",
+      "id": "cdmx-03-madero",
+      "huellas": {
+        "nombre_oficial": "a4533b24dac78a4c",
+        "frase_gancho": "dac8a85b82cd9c18",
+        "introduccion_narrativa": "be82ef3628969d19"
+      }
+    },
+    {
+      "custom_id": "sala_cdmx-04-zocalo",
+      "tipo": "sala",
+      "id": "cdmx-04-zocalo",
+      "huellas": {
+        "nombre_oficial": "a91a164355e5a9b2",
+        "frase_gancho": "835c776c8b8aa080",
+        "introduccion_narrativa": "23c94ed6e751b0d3"
+      }
+    },
+    {
+      "custom_id": "sala_cdmx-05-templo-mayor-moneda",
+      "tipo": "sala",
+      "id": "cdmx-05-templo-mayor-moneda",
+      "huellas": {
+        "nombre_oficial": "76f9c636757513ad",
+        "frase_gancho": "cc3909568970674c",
+        "introduccion_narrativa": "91b49e1ee82cd3c2"
+      }
+    },
+    {
+      "custom_id": "sala_cdmx-06-santo-domingo",
+      "tipo": "sala",
+      "id": "cdmx-06-santo-domingo",
+      "huellas": {
+        "nombre_oficial": "791fe3a119155eb3",
+        "frase_gancho": "6a33925960535588",
+        "introduccion_narrativa": "9ebade5074fc219c"
+      }
+    }
+  ]
+}
