@@ -85,3 +85,16 @@ test('recorridos del MNA y Teotihuacán: la pestaña RUTAS pisa solo lo que trae
   assert.equal(r.rutas[1].estimated_minutes, 60);
   assert.deepEqual(r.sinUsar, ['no-existe']);
 });
+
+test('sitios genéricos: el grupo del recorrido (tiempo, tema, completo) pasa a la ruta y la pieza lleva su piso', () => {
+  const ds = leerDefinicionesRutas([
+    ['ruta', 'nombre', 'grupo'],
+    ['a', 'A', 'Tiempo'],
+    ['b', 'B', 'raro'],
+    ['c', 'C', ''],
+  ]);
+  assert.deepEqual(ds.map((d) => d.group), ['tiempo', undefined, undefined]);
+  const rutas = construirRutasSitio('x', [{ ...piezas[0], piso: 'PA' }], salas, ds, new Map([['x_b', ['a']]]));
+  assert.equal(rutas[0].group, 'tiempo');
+  assert.equal(rutas[0].stops[0].piso, 'PA');
+});

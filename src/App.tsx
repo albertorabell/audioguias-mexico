@@ -697,6 +697,7 @@ export default function App() {
           onStartRoute={startRoute}
           onOpenWizard={isZones ? undefined : () => push({ kind: 'wizard' })}
           onOpenMap={hasMap ? () => goTab('mapa') : undefined}
+          onOpenRoutes={() => goTab('recorridos')}
           zones={isZones}
         />
       );

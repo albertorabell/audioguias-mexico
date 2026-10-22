@@ -2693,5 +2693,55 @@
     "near_meters": 3000,
     "labels": true,
     "labels_route_only": true
-  }
+  },
+  "themes": [
+    {
+      "id": "origenes",
+      "room_ids": [
+        "sala-00-exteriores",
+        "sala-01-introduccion-antropologia",
+        "sala-02-poblamiento-de-america",
+        "sala-03-preclasico-altiplano-central"
+      ]
+    },
+    {
+      "id": "altiplano",
+      "room_ids": [
+        "sala-04-teotihuacan",
+        "sala-05-los-toltecas-y-su-epoca",
+        "sala-06-mexica"
+      ]
+    },
+    {
+      "id": "oaxaca-golfo",
+      "room_ids": [
+        "sala-07-oaxaca",
+        "sala-08-costa-del-golfo",
+        "sala-10-occidente",
+        "sala-11-norte"
+      ]
+    },
+    {
+      "id": "maya",
+      "room_ids": [
+        "sala-09-maya",
+        "sala-19-pueblos-mayas"
+      ]
+    },
+    {
+      "id": "pueblos-hoy",
+      "room_ids": [
+        "sala-12-pueblos-indios",
+        "sala-13-gran-nayar",
+        "sala-14-purecherio",
+        "sala-15-otopames",
+        "sala-16-sierra-de-puebla",
+        "sala-17-oaxaca",
+        "sala-18-huastecos-y-totonacos",
+        "sala-19-pueblos-mayas",
+        "sala-20-noroeste",
+        "sala-21-nahuas"
+      ]
+    }
+  ]
 }

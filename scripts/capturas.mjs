@@ -375,6 +375,48 @@ await sesion({
   },
 });
 
+
+// Inicio de cada sitio, recorridos y «Armar a tu medida» (rediseño del inicio de sitio)
+for (const [tema, init] of [['claro', () => localStorage.setItem('audioguias_theme', 'sun')], ['oscuro', () => localStorage.setItem('audioguias_theme', 'museum')]]) {
+  await sesion({
+    nombre: `m-inicio-sitio-${tema}`,
+    init,
+    pasos: async ({ page, shot, paso, entrar }) => {
+      await paso('01-arriba', async () => {
+        await entrar();
+        await shot('01-arriba');
+      });
+      await paso('01b-recorridos', async () => {
+        await page.locator('#time-chooser').scrollIntoViewIfNeeded();
+        await page.evaluate(() => window.scrollBy(0, -120));
+        await shot('01b-recorridos');
+      });
+      await paso('02-completo', async () => {
+        await page.locator('#btn-intro-more').click().catch(() => {});
+        await shot('02-completo', { full: true });
+      });
+      await paso('03-recorridos', async () => {
+        await page.locator('#dock-tab-recorridos').click();
+        await page.waitForTimeout(800);
+        await shot('03-recorridos', { full: true });
+      });
+      await paso('04-armar', async () => {
+        await page.locator('#dock-tab-salas').click();
+        await page.waitForTimeout(500);
+        await page.locator('#btn-open-wizard').click();
+        await page.waitForTimeout(900);
+        await shot('04-armar', { full: true });
+      });
+      await paso('05-armar-temas', async () => {
+        await page.getByRole('radio', { name: /1 hora/ }).click();
+        await page.getByRole('checkbox', { name: /Mundo maya/ }).click();
+        await page.waitForTimeout(600);
+        await shot('05-armar-temas', { full: true });
+      });
+    },
+  });
+}
+
 await browser.close();
 fs.writeFileSync(path.join(out, 'RESULTADO.txt'), resultados.join('\n') + '\n');
 console.log(resultados.join('\n'));

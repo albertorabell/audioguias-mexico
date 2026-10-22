@@ -18,6 +18,8 @@ export function leerDefinicionesRutas(filas) {
     if (!key || !o.nombre) continue;
     const minutos = Number(String(o.minutos).replace(',', '.')) || 0;
     const def = { key, id: `ruta-${key.replace(/[^a-z0-9]+/g, '-')}`, name: o.nombre, duration: o.duracion, estimated_minutes: minutos, description: o.descripcion };
+    // grupo = cómo se agrupa en la app: tiempo | tema | completo (vacío = sin agrupar)
+    if (['tiempo', 'tema', 'completo'].includes(String(o.grupo || '').toLowerCase())) def.group = String(o.grupo).toLowerCase();
     for (const l of ['en', 'fr', 'pl']) {
       if (o[`nombre_${l}`]) def[`name_${l}`] = o[`nombre_${l}`];
       if (o[`descripcion_${l}`]) def[`description_${l}`] = o[`descripcion_${l}`];
@@ -55,6 +57,7 @@ export function construirRutasSitio(siteId, piezas, salas, defs, rutasPorId, avi
         ranking: p.is_free ? 1 : 2,
         room_zone: nomSala.get(p.room_id) || '',
         room_id: p.room_id,
+        ...(p.piso ? { piso: p.piso } : {}),
         map_coords: { x: p.map_x, y: p.map_y },
         tags: [siteId],
       }));
@@ -95,6 +98,8 @@ export function entradaSitio(sitio, salas, piezas, previa = {}, { preview = fals
     status: preview ? 'preview' : 'active',
     path: `data/${sitio.site_id}/${sitio.site_id}.json`,
     description: sitio.descripcion || previa.description || '',
+    // Presentación larga del sitio (columna `introduccion` de CONTROL; párrafos separados por una línea en blanco)
+    intro: sitio.introduccion || previa.intro || '',
     highlights_count: piezas.length,
     total_stops: salas.length,
   };
@@ -125,6 +130,7 @@ export function aplicarDefiniciones(rutas, defs, claveDe = () => '') {
     if (!d) return r;
     usadas.add(d.key);
     const nueva = { ...r };
+    if (d.group) nueva.group = d.group;
     for (const campo of ['name', 'duration', 'description', 'name_en', 'name_fr', 'name_pl', 'description_en', 'description_fr', 'description_pl']) {
       if (d[campo]) nueva[campo] = d[campo];
     }

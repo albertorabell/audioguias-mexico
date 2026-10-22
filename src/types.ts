@@ -7,6 +7,8 @@ export interface SiteSummary {
   badge: string;
   path: string;
   description: string;
+  /** Texto de presentación del sitio (varios párrafos separados por una línea en blanco). */
+  intro?: string;
   highlights_count: number;
   total_stops: number;
   /** "preview" = sitio aún sin publicar: solo aparece en el inicio con ?preview en la dirección. */
@@ -64,6 +66,8 @@ export interface PieceBase {
   room_id: string;
   piso: 'PB' | 'PA';
   orden_sugerido: number;
+  /** 1 = imprescindible, 2 = muy recomendable, 3 = complementaria. */
+  prioridad?: number;
   titulo: string;
   frase_gancho: string;
   puente_narrativo: string;
@@ -186,10 +190,18 @@ export interface SiteRoute {
   duration: string;
   description: string;
   stops: RouteStop[];
+  /** tiempo = según cuánto tengas; tema = por interés; completo = ver todo (varias visitas). */
+  group?: 'tiempo' | 'tema' | 'completo';
   is_custom?: boolean;
   route_id?: string;
   title?: string;
   estimated_minutes?: number;
+}
+
+/** Tema del asistente «Armar a tu medida»: un conjunto de salas. */
+export interface RouteTheme {
+  id: string;
+  room_ids: string[];
 }
 
 export interface SiteManifest {
@@ -200,6 +212,7 @@ export interface SiteManifest {
   floorplan_url?: string;
   rooms?: Room[];
   routes: SiteRoute[];
+  themes?: RouteTheme[];
   /** "zones" = sitio al aire libre sin pisos (Teotihuacán): el plano se arma con zone_map y no hay selector de pisos ni "arma tu ruta". */
   layout?: 'zones';
   /** Dónde están las salas y las piezas cuando no son las globales del MNA. */
