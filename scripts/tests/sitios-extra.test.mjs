@@ -51,6 +51,9 @@ test('sitios genéricos: manifiesto y entrada de sites.json', () => {
   assert.equal(e.total_stops, 2);
   assert.equal(e.highlights_count, 3);
   assert.equal(e.cover_image, 'x_b.webp');
+  const conPortada = entradaSitio({ ...sitio, portada: 'x_c' }, salas, piezas, {});
+  assert.equal(conPortada.cover_piece_id, 'x_c');
+  assert.equal(conPortada.cover_image, 'x_c.webp');
   const sin = entradaSitio({ site_id: 'y', nombre: 'Y' }, [], [], {});
   assert.equal(sin.status, 'active');
   assert.equal(sin.pass_price_mxn, undefined);
