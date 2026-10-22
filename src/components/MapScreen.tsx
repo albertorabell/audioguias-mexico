@@ -111,7 +111,7 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
           <button
             type="button"
             onClick={() => onFloorChange(hereRoom.piso)}
-            className="mt-3 w-full h-11 rounded-full border border-jade/40 text-ui font-semibold text-jade inline-flex items-center justify-center gap-2 cursor-pointer active:bg-raised"
+            className="mt-3 w-full h-11 rounded-full border border-jade/40 text-ui font-semibold text-jade-ink inline-flex items-center justify-center gap-2 cursor-pointer active:bg-raised"
           >
             <MapPin className="w-4 h-4" />
             {u.map.youAreOn(hereRoom.piso)}
@@ -138,7 +138,7 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
           </span>
           {tour && (
             <span className="inline-flex items-center gap-2">
-              <span className="w-5 h-5 rounded-full border-2 border-jade text-jade text-[10px] font-bold flex items-center justify-center">1</span>
+              <span className="w-5 h-5 rounded-full border-2 border-jade text-jade-ink text-[10px] font-bold flex items-center justify-center">1</span>
               {u.map.tourStop}
             </span>
           )}

@@ -37,7 +37,7 @@ function HowToGet({ title, text, mapsUrl, id }: { title: string; text?: string; 
   if (!text && !mapsUrl) return null;
   return (
     <div id={id} className="mt-4 rounded-2xl bg-raised border border-line p-4">
-      <p className="flex items-center gap-2 text-cap font-semibold text-jade">
+      <p className="flex items-center gap-2 text-cap font-semibold text-jade-ink">
         <Footprints className="w-4 h-4" strokeWidth={2.25} />
         {title}
       </p>
@@ -406,7 +406,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             </div>
           )}
           <p className="mt-2.5 text-cap text-ink-3 flex items-center gap-1.5">
-            {hasAudioFile ? <AudioLines className="w-4 h-4 text-jade" /> : <Smartphone className="w-4 h-4" />}
+            {hasAudioFile ? <AudioLines className="w-4 h-4 text-jade-ink" /> : <Smartphone className="w-4 h-4" />}
             {hasAudioFile ? tp.realAudio : tp.voiceIn(strings.common.languageNames[readLang])}
           </p>
         </section>
@@ -418,7 +418,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
           {textMissing && !hasPass && (
             <div id="texto-con-pase" className="mt-5 rounded-2xl bg-surface border border-line p-4">
               <p className="flex items-center gap-2 text-ui font-bold text-ink">
-                <Lock className="w-4 h-4 text-oro shrink-0" strokeWidth={2.5} />
+                <Lock className="w-4 h-4 text-oro-ink shrink-0" strokeWidth={2.5} />
                 {u.piece.lockedTitle}
               </p>
               <p className="mt-1.5 text-cap text-ink-3">{u.piece.lockedBody}</p>
@@ -443,7 +443,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             </div>
           )}
           {readLang !== currentLanguage && (
-            <p className="mt-3 text-cap text-oro" data-testid="script-lang-note">
+            <p className="mt-3 text-cap text-oro-ink" data-testid="script-lang-note">
               {strings.player.scriptOnlySpanish}
             </p>
           )}
@@ -458,7 +458,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
               <h2 id="retos-title" className="font-serif text-h3 font-medium">
                 {u.piece.lookTitle}
               </h2>
-              <span className={`text-cap font-semibold tabular-nums ${foundCount === retos.length ? 'text-jade' : 'text-ink-3'}`}>
+              <span className={`text-cap font-semibold tabular-nums ${foundCount === retos.length ? 'text-jade-ink' : 'text-ink-3'}`}>
                 {u.piece.foundOf(foundCount, retos.length)}
               </span>
             </div>
@@ -511,7 +511,7 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
                 <p className="mt-1 text-[1.0625rem] leading-snug text-ink">{stripLabel(mito.pregunta)}</p>
               </div>
               <div className="p-4 border-t border-line">
-                <p className="text-cap font-bold text-jade">{u.piece.mythReal}</p>
+                <p className="text-cap font-bold text-jade-ink">{u.piece.mythReal}</p>
                 <p className="mt-1 text-[1rem] leading-relaxed text-ink-2">{stripLabel(mito.respuesta)}</p>
               </div>
             </div>
@@ -546,17 +546,17 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
             >
               <span className="w-[4.5rem] h-[4.5rem] rounded-xl overflow-hidden bg-raised shrink-0 flex items-center justify-center">
                 {next.kind === 'finish' ? (
-                  <Flag className="w-7 h-7 text-jade" />
+                  <Flag className="w-7 h-7 text-jade-ink" />
                 ) : (
                   <PieceImage filename={next.imageFilename} pieceId={next.pieceId} alt="" className="w-full h-full object-cover" />
                 )}
               </span>
               <span className="min-w-0 flex-1">
-                <span className="block text-cap font-semibold text-jade">{next.eyebrow}</span>
+                <span className="block text-cap font-semibold text-jade-ink">{next.eyebrow}</span>
                 <span className="block text-[1.0625rem] font-bold leading-snug text-ink">{next.title}</span>
                 {next.detail && <span className="block text-cap text-ink-3 truncate mt-0.5">{next.detail}</span>}
               </span>
-              <ChevronRight className="w-5 h-5 text-jade shrink-0" />
+              <ChevronRight className="w-5 h-5 text-jade-ink shrink-0" />
             </button>
             {next.kind === 'piece' && (
               <HowToGet id="how-to-next" title={u.piece.howTitle} text={next.howTo || (next.mapsUrl ? u.piece.goToward(next.title) : undefined)} mapsUrl={next.mapsUrl} />

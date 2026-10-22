@@ -42,7 +42,7 @@ export const TabBar: React.FC<TabBarProps> = ({ activeTab, onSelectTab, tourActi
               onClick={() => onSelectTab(id)}
               aria-current={active ? 'page' : undefined}
               className={`relative flex flex-col items-center justify-center gap-1 cursor-pointer transition-colors ${
-                active ? 'text-jade' : 'text-ink-3 active:text-ink'
+                active ? 'text-jade-ink' : 'text-ink-3 active:text-ink'
               }`}
             >
               {active && <span className="absolute top-0 h-[3px] w-8 rounded-b-full bg-jade" aria-hidden="true" />}

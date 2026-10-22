@@ -107,7 +107,7 @@ export const RoomView: React.FC<RoomViewProps> = ({
       />
 
       <section className="px-5 pt-6">
-        <div className="font-serif text-[4.5rem] leading-[0.9] text-jade tabular-nums" aria-hidden="true">
+        <div className="font-serif text-[4.5rem] leading-[0.9] text-jade-ink tabular-nums" aria-hidden="true">
           {getRoomShortLabel(room)}
         </div>
         <h1 className="mt-3 font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{name}</h1>
@@ -159,7 +159,7 @@ export const RoomView: React.FC<RoomViewProps> = ({
                 type="button"
                 onClick={() => setIntroOpen((v) => !v)}
                 aria-expanded={introOpen}
-                className="mt-1 h-10 inline-flex items-center gap-1 text-ui font-semibold text-jade cursor-pointer"
+                className="mt-1 h-10 inline-flex items-center gap-1 text-ui font-semibold text-jade-ink cursor-pointer"
               >
                 {introOpen ? u.readLess : u.readMore}
                 <ChevronDown className={`w-4 h-4 transition-transform ${introOpen ? 'rotate-180' : ''}`} />
@@ -185,7 +185,7 @@ export const RoomView: React.FC<RoomViewProps> = ({
                   aria-current={here ? 'true' : undefined}
                   className={`w-full flex items-center gap-3.5 px-5 py-3 text-left cursor-pointer row-press ${here ? 'bg-surface' : ''}`}
                 >
-                  <span className={`w-6 shrink-0 text-right font-serif text-[1.125rem] tabular-nums ${here ? 'text-jade' : 'text-ink-3'}`}>
+                  <span className={`w-6 shrink-0 text-right font-serif text-[1.125rem] tabular-nums ${here ? 'text-jade-ink' : 'text-ink-3'}`}>
                     {i + 1}
                   </span>
                   <span className="w-16 h-16 rounded-xl overflow-hidden bg-raised shrink-0">
@@ -194,12 +194,12 @@ export const RoomView: React.FC<RoomViewProps> = ({
                   <span className="min-w-0 flex-1">
                     <span className="block text-[1.0625rem] font-bold leading-snug text-ink">{p.titulo}</span>
                     {p.frase_gancho && <span className="block text-cap text-ink-3 mt-0.5 line-clamp-2">{p.frase_gancho}</span>}
-                    {here && <span className="block text-cap font-semibold text-jade mt-1">{u.room.youAreHere}</span>}
+                    {here && <span className="block text-cap font-semibold text-jade-ink mt-1">{u.room.youAreHere}</span>}
                   </span>
                   {locked ? (
-                    <Lock className="w-4 h-4 text-oro shrink-0" aria-label={u.lockedAria} />
+                    <Lock className="w-4 h-4 text-oro-ink shrink-0" aria-label={u.lockedAria} />
                   ) : (
-                    !hasPass && <span className="text-[12px] font-semibold text-jade shrink-0">{u.free}</span>
+                    !hasPass && <span className="text-[12px] font-semibold text-jade-ink shrink-0">{u.free}</span>
                   )}
                 </button>
               </li>

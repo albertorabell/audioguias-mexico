@@ -7,6 +7,7 @@ import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
 import { InstallCard } from './InstallHelp';
 import { LanguageMenu, ThemeButton } from './ui/HeaderControls';
 import { PieceImage } from './PieceImage';
+import { getAssetUrl } from '../utils/urlHelper';
 
 interface HomeProps {
   sites: SiteSummary[];
@@ -50,7 +51,10 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
 
       <header className="pt-safe">
         <div className="flex items-center justify-between h-14 pl-5 pr-2">
-          <span className="font-serif text-[1.125rem] font-semibold tracking-[-0.01em]">{strings.common.appName}</span>
+          <span className="flex items-center gap-2.5">
+            <img src={getAssetUrl('icon.svg')} alt="" width={32} height={32} className="w-8 h-8 rounded-lg" draggable={false} />
+            <span className="font-serif text-[1.125rem] font-semibold tracking-[-0.01em]">{strings.common.appName}</span>
+          </span>
           <div className="flex items-center">
             <LanguageMenu />
             <ThemeButton />
@@ -59,7 +63,10 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
       </header>
 
       <main className="px-5">
-        <section className="pt-6 pb-8">
+        <section className="pt-4 pb-8">
+          <div className="rounded-[20px] bg-[#fbf6ee] border border-line px-4 py-3 mb-6">
+            <img src={getAssetUrl('logo-xolo.svg')} alt="xolo — El camino de la historia" width={792} height={336} className="w-full max-w-[340px] mx-auto h-auto" draggable={false} />
+          </div>
           <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{t.heroTitle}</h1>
           <p className="mt-3 text-[1.0625rem] leading-relaxed text-ink-2 max-w-[34ch]">{u.subtitle}</p>
         </section>
@@ -149,7 +156,7 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
           <ol className="mt-4 space-y-4">
             {u.howSteps(stats?.free || 0, PASS_HOURS, PASS_MAX_DEVICES).map((step, i) => (
               <li key={i} className="flex gap-4">
-                <span className="font-serif text-[1.375rem] leading-none text-jade w-5 shrink-0 pt-0.5">{i + 1}</span>
+                <span className="font-serif text-[1.375rem] leading-none text-jade-ink w-5 shrink-0 pt-0.5">{i + 1}</span>
                 <p className="text-[1rem] leading-relaxed text-ink-2">{step}</p>
               </li>
             ))}

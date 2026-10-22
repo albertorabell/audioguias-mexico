@@ -4,7 +4,7 @@
 @custom-variant sun (&:where(.sun, .sun *));
 
 /*
- * Colores de la app. Se usan con clases como bg-bg, bg-surface, text-ink, text-ink-2, border-line, bg-jade, text-oro…
+ * Colores de la app. Se usan con clases como bg-bg, bg-surface, text-ink, text-ink-2, border-line, bg-jade, text-oro-ink…
  * Modo museo (oscuro, por defecto): piedra basáltica. Modo sol (claro): para sitios al aire libre.
  *   jade     = acciones principales, "estás aquí", avance
  *   oro      = solo el pase de pago
@@ -19,11 +19,14 @@
   --c-ink: #f2ece3;
   --c-ink-2: #bdb3a6;
   --c-ink-3: #8c8278;
-  --c-jade: #57c2a0;
-  --c-on-jade: #0b1c16;
-  --c-oro: #e5ae4e;
-  --c-on-oro: #241703;
-  --c-tezontle: #e07a5f;
+  --c-jade: #14b8a6;
+  --c-jade-ink: #14b8a6;
+  --c-on-jade: #1a1a1a;
+  --c-oro: #f59e0b;
+  --c-oro-ink: #f59e0b;
+  --c-on-oro: #1a1a1a;
+  --c-tezontle: #f43f5e;
+  --c-rosa: #ec4899;
   --c-scrim: rgba(10, 8, 7, 0.72);
   color-scheme: dark;
   /* Ancho de la columna de la app: celular y pantallas chicas 480 px; tablet y computadora 720 px */
@@ -37,20 +40,23 @@
 }
 
 .sun {
-  --c-bg: #f4f2ee;
+  --c-bg: #fbf6ee;
   --c-surface: #ffffff;
-  --c-raised: #ebe7e0;
-  --c-line: rgba(29, 26, 23, 0.11);
-  --c-line-strong: rgba(29, 26, 23, 0.22);
-  --c-ink: #1d1a17;
-  --c-ink-2: #4f4840;
-  --c-ink-3: #756c62;
-  --c-jade: #1f7a62;
-  --c-on-jade: #ffffff;
-  --c-oro: #9c650c;
-  --c-on-oro: #ffffff;
-  --c-tezontle: #b5432c;
-  --c-scrim: rgba(29, 26, 23, 0.45);
+  --c-raised: #f3eadb;
+  --c-line: rgba(26, 26, 26, 0.11);
+  --c-line-strong: rgba(26, 26, 26, 0.22);
+  --c-ink: #1a1a1a;
+  --c-ink-2: #4a443d;
+  --c-ink-3: #6f675d;
+  --c-jade: #14b8a6;
+  --c-jade-ink: #0b7a6e;
+  --c-on-jade: #1a1a1a;
+  --c-oro: #f59e0b;
+  --c-oro-ink: #92560a;
+  --c-on-oro: #1a1a1a;
+  --c-tezontle: #d81b45;
+  --c-rosa: #ec4899;
+  --c-scrim: rgba(26, 26, 26, 0.45);
   color-scheme: light;
 }
 
@@ -64,8 +70,11 @@
   --color-ink-2: var(--c-ink-2);
   --color-ink-3: var(--c-ink-3);
   --color-jade: var(--c-jade);
+  --color-jade-ink: var(--c-jade-ink);
   --color-on-jade: var(--c-on-jade);
   --color-oro: var(--c-oro);
+  --color-oro-ink: var(--c-oro-ink);
+  --color-rosa: var(--c-rosa);
   --color-on-oro: var(--c-on-oro);
   --color-tezontle: var(--c-tezontle);
   --color-scrim: var(--c-scrim);

@@ -45,7 +45,7 @@ export const InstallCard: React.FC = () => {
         className="rounded-2xl bg-surface border border-line p-4"
       >
         <div className="flex items-start gap-3">
-          <Smartphone className="w-5 h-5 mt-0.5 shrink-0 text-jade" aria-hidden="true" />
+          <Smartphone className="w-5 h-5 mt-0.5 shrink-0 text-jade-ink" aria-hidden="true" />
           <div className="min-w-0">
             <h2 className="text-ui font-bold text-ink">{t.cardTitle}</h2>
             <p className="text-cap mt-1 leading-relaxed text-ink-2">{t.cardBody}</p>
@@ -134,7 +134,7 @@ const InstallGuide: React.FC<{ pwa: ReturnType<typeof usePWAInstall>; onClose: (
             >
               <h4 className="text-ui font-bold mb-1.5">
                 {sec.title}
-                {sec.current && <span className="ml-2 font-semibold text-jade">· {t.yourDevice}</span>}
+                {sec.current && <span className="ml-2 font-semibold text-jade-ink">· {t.yourDevice}</span>}
               </h4>
               <ol className="list-decimal pl-5 space-y-1 text-ui leading-relaxed text-ink-2">
                 {sec.steps.map((step) => (

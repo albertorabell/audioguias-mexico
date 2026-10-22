@@ -21,7 +21,8 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     } catch {
       // ignore
     }
-    return 'museum';
+    // Imagen de marca: papel amate (claro) por defecto; el modo museo (oscuro) se elige con el botón
+    return 'sun';
   });
 
   const setTheme = (t: AppTheme) => {
@@ -55,7 +56,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
       const metaThemeColor = document.querySelector("meta[name='theme-color']");
       if (metaThemeColor) {
-        metaThemeColor.setAttribute('content', isDark ? '#161413' : '#F4F2EE');
+        metaThemeColor.setAttribute('content', isDark ? '#161413' : '#FBF6EE');
       }
     }
   }, [theme]);

@@ -67,7 +67,7 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
       <main className="pt-5">
         {tour ? (
           <section className="px-5" aria-labelledby="tour-title" id="active-tour">
-            <p className="text-cap font-semibold text-jade">{u.routes.current}</p>
+            <p className="text-cap font-semibold text-jade-ink">{u.routes.current}</p>
             <h1 id="tour-title" className="mt-1 font-serif text-h2 font-medium tracking-[-0.015em] text-balance">
               {tour.route.name}
             </h1>
@@ -103,7 +103,7 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
                     >
                       <span
                         className={`relative z-10 w-8 h-8 rounded-full shrink-0 flex items-center justify-center text-cap font-bold tabular-nums ${
-                          here ? 'bg-jade text-on-jade' : done ? 'bg-jade/20 text-jade' : 'bg-bg border-2 border-line-strong text-ink-3'
+                          here ? 'bg-jade text-on-jade' : done ? 'bg-jade/20 text-jade-ink' : 'bg-bg border-2 border-line-strong text-ink-3'
                         }`}
                       >
                         {done ? <Check className="w-4 h-4" strokeWidth={3} /> : i + 1}
@@ -175,7 +175,7 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
             className="w-full rounded-2xl border border-dashed border-line-strong p-4 flex items-center gap-3.5 text-left cursor-pointer active:bg-raised"
           >
             <span className="w-11 h-11 rounded-full bg-raised flex items-center justify-center shrink-0">
-              <SlidersHorizontal className="w-5 h-5 text-jade" strokeWidth={1.8} />
+              <SlidersHorizontal className="w-5 h-5 text-jade-ink" strokeWidth={1.8} />
             </span>
             <span className="min-w-0 flex-1">
               <span className="block text-[1.0625rem] font-bold">{u.museum.buildRoute}</span>

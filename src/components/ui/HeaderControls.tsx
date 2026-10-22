@@ -60,7 +60,7 @@ export const LanguageMenu: React.FC = () => {
                 }`}
               >
                 <span>{lang.label}</span>
-                {active && <Check className="w-4 h-4 text-jade" strokeWidth={2.5} />}
+                {active && <Check className="w-4 h-4 text-jade-ink" strokeWidth={2.5} />}
               </button>
             );
           })}
@@ -93,7 +93,7 @@ export const PassButton: React.FC<{ hasPass: boolean; onClick: () => void }> = (
   if (hasPass && isFreeAccess()) {
     return (
       <span id="free-access-indicator" title={t.freeTitle} className="h-11 px-0.5 inline-flex items-center">
-        <span className="h-9 px-3 rounded-full inline-flex items-center gap-1.5 text-cap font-bold text-jade border border-jade/40">
+        <span className="h-9 px-3 rounded-full inline-flex items-center gap-1.5 text-cap font-bold text-jade-ink border border-jade/40">
           <ShieldCheck className="w-4 h-4" strokeWidth={2} />
           <span>{t.free}</span>
         </span>
@@ -102,7 +102,7 @@ export const PassButton: React.FC<{ hasPass: boolean; onClick: () => void }> = (
   }
   return hasPass ? (
     <button id="btn-pass-indicator" type="button" onClick={onClick} title={t.activeTitle} className="h-11 px-0.5 inline-flex items-center cursor-pointer group">
-      <span className="h-9 px-3 rounded-full inline-flex items-center gap-1.5 text-cap font-bold text-jade border border-jade/40 group-active:bg-raised">
+      <span className="h-9 px-3 rounded-full inline-flex items-center gap-1.5 text-cap font-bold text-jade-ink border border-jade/40 group-active:bg-raised">
         <ShieldCheck className="w-4 h-4" strokeWidth={2} />
         <span>{t.active}</span>
       </span>

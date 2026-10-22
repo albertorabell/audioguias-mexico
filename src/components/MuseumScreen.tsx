@@ -174,7 +174,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                               {route.name} · {u.routeMeta(formatRouteDuration(minutes), route.stops.length)}
                             </span>
                           </span>
-                          <ChevronRight className="w-5 h-5 text-jade shrink-0" />
+                          <ChevronRight className="w-5 h-5 text-jade-ink shrink-0" />
                         </button>
                       );
                     })}
@@ -194,7 +194,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                       type="button"
                       id="btn-open-wizard"
                       onClick={onOpenWizard}
-                      className="mt-2 h-11 px-1 inline-flex items-center gap-2 text-ui font-semibold text-jade cursor-pointer rounded-full"
+                      className="mt-2 h-11 px-1 inline-flex items-center gap-2 text-ui font-semibold text-jade-ink cursor-pointer rounded-full"
                     >
                       <SlidersHorizontal className="w-4 h-4" strokeWidth={2} />
                       {u.museum.buildOwn}
@@ -209,7 +209,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
               type="button"
               id="btn-open-intro"
               onClick={() => setIntroOpen(true)}
-              className="mt-2 -ml-2 h-10 px-2 inline-flex items-center gap-1.5 text-ui font-semibold text-jade cursor-pointer rounded-full active:bg-raised"
+              className="mt-2 -ml-2 h-10 px-2 inline-flex items-center gap-1.5 text-ui font-semibold text-jade-ink cursor-pointer rounded-full active:bg-raised"
             >
               <CircleHelp className="w-4 h-4" strokeWidth={2} />
               {strings.intro.openLabel}
@@ -229,11 +229,11 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 <PieceImage filename={continueInfo.imageFilename} pieceId={continueInfo.pieceId} alt="" className="w-full h-full object-cover" />
               </span>
               <span className="min-w-0 flex-1">
-                <span className="block text-cap font-semibold text-jade">{continueInfo.eyebrow}</span>
+                <span className="block text-cap font-semibold text-jade-ink">{continueInfo.eyebrow}</span>
                 <span className="block text-[1.0625rem] font-bold text-ink truncate">{continueInfo.title}</span>
                 <span className="block text-cap text-ink-3 truncate">{continueInfo.detail}</span>
               </span>
-              <ChevronRight className="w-5 h-5 text-jade shrink-0" />
+              <ChevronRight className="w-5 h-5 text-jade-ink shrink-0" />
             </button>
           </section>
         )}
@@ -247,7 +247,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
               <button
                 type="button"
                 onClick={onOpenMap}
-                className="h-10 -mr-2 px-2 inline-flex items-center gap-1.5 text-ui font-semibold text-jade cursor-pointer rounded-full active:bg-raised"
+                className="h-10 -mr-2 px-2 inline-flex items-center gap-1.5 text-ui font-semibold text-jade-ink cursor-pointer rounded-full active:bg-raised"
               >
                 <MapIcon className="w-4 h-4" strokeWidth={2} />
                 {u.museum.seeMap}

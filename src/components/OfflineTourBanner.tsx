@@ -117,7 +117,7 @@ export const OfflineTourBanner: React.FC<OfflineTourBannerProps> = ({
       <div className="flex items-start gap-3">
         <span
           className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 ${
-            isCached ? 'bg-jade/15 text-jade' : 'bg-raised text-ink-2'
+            isCached ? 'bg-jade/15 text-jade-ink' : 'bg-raised text-ink-2'
           }`}
         >
           {isCached ? (
