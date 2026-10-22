@@ -451,6 +451,8 @@ function buildPieces(items, opts = {}) {
         roomId: p.room_id,
         piso: opts.zones ? 'PB' : p.piso || '',
         orden_sugerido: num(p.orden_sugerido, 1),
+        // 1 = imprescindible, 2 = muy recomendable, 3 = complementaria. La usa «Armar a tu medida» para elegir qué entra primero.
+        prioridad: Math.min(3, Math.max(1, Math.round(num(p.prioridad, 3)))),
         titulo: p.titulo,
         title: p.titulo,
         frase_gancho: p.frase_gancho || '',
@@ -796,9 +798,19 @@ export async function sync() {
     if (r.sinUsar.length) console.warn(`⚠️  ${siteId}/RUTAS: estas rutas no existen en la app y se ignoran: ${r.sinUsar.join(', ')}`);
     return r.rutas;
   };
-  const routes = aplicarRutas(buildRoutes(pieces, rooms), await defsRutasDe('mna'), 'mna');
+  // Recorridos del MNA: si el Sheet trae la columna `rutas` en PIEZAS y las definiciones en RUTAS, salen de ahí
+  // (se editan sin tocar código). Si no, se usan los recorridos fijos de este archivo (ROUTES).
+  const defsMna = await defsRutasDe('mna');
+  const rutasMna = new Map(piezas.items.filter((p) => p.piece_id).map((p) => [p.piece_id, partirRutas(p.rutas)]));
+  const clavesUsadasMna = new Set([...rutasMna.values()].flat());
+  const defsMnaUsadas = defsMna.filter((d) => clavesUsadasMna.has(d.key));
+  const mnaDesdeSheet = defsMnaUsadas.length > 0;
+  const routes = mnaDesdeSheet
+    ? construirRutasSitio('mna', pieces, rooms, defsMnaUsadas, rutasMna, (kind, msg) => console.warn(`⚠️  ${kind}: ${msg}`))
+    : aplicarRutas(buildRoutes(pieces, rooms), defsMna, 'mna');
+  if (mnaDesdeSheet) console.log(`✅ MNA: ${routes.length} recorridos desde el Sheet: ${routes.map((r) => `${r.name} (${r.stops.length})`).join(', ')}.`);
   routes.forEach((r) => {
-    if (r.missing_ids.length) console.warn(`⚠️  Ruta "${r.name}": no existen en el Sheets estas piezas: ${r.missing_ids.join(', ')}`);
+    if (r.missing_ids?.length) console.warn(`⚠️  Ruta "${r.name}": no existen en el Sheets estas piezas: ${r.missing_ids.join(', ')}`);
   });
   const teoWarnings = {};
   const teoRoutes = teo ? aplicarRutas(buildTeoRoutes(teo.pieces, teo.rooms, teo.rutas, (kind, msg) => { (teoWarnings[kind] ||= []).push(msg); }), await defsRutasDe('teotihuacan'), 'teotihuacan', (r) => r.id.replace(/^ruta-/, '')) : [];

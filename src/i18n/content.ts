@@ -23,7 +23,7 @@ const PIECE_FIELDS = [
 ] as const;
 
 const ROOM_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narrativa', 'etiqueta'] as const;
-const SITE_FIELDS = ['name', 'location', 'badge', 'description'] as const;
+const SITE_FIELDS = ['name', 'location', 'badge', 'description', 'intro'] as const;
 const ROUTE_FIELDS = ['name', 'description'] as const;
 
 /** ¿Las dos versiones de lectura (corta y larga) de esta pieza existen en ese idioma? */

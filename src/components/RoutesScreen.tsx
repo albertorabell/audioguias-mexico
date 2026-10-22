@@ -55,10 +55,29 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
     return r ? `${getRoomLabel(r)} · ${r.nombre_oficial}` : '';
   };
 
-  const sorted = useMemo(
-    () => [...routes].filter((r) => r.stops?.length && r.id !== tour?.route.id).sort((a, b) => a.stops.length - b.stops.length),
-    [routes, tour?.route.id]
-  );
+  const minutesOf = (r: SiteRoute) => r.estimated_minutes || calculateRouteTimeMinutes(r.stops);
+
+  /** Recorridos en secciones: según tu tiempo, por tema y para verlo todo (o una sola lista si el sitio no los agrupa). */
+  const sections = useMemo(() => {
+    const list = [...routes].filter((r) => r.stops?.length && r.id !== tour?.route.id).sort((a, b) => minutesOf(a) - minutesOf(b));
+    if (!list.some((r) => r.group)) return [{ key: 'all', title: tour ? u.routes.others : u.routes.suggested, routes: list }];
+    const defs: { key: string; title: string; test: (r: SiteRoute) => boolean }[] = [
+      { key: 'tiempo', title: u.routes.groupTiempo, test: (r) => !r.group || r.group === 'tiempo' },
+      { key: 'tema', title: u.routes.groupTema, test: (r) => r.group === 'tema' },
+      { key: 'completo', title: u.routes.groupCompleto, test: (r) => r.group === 'completo' },
+    ];
+    return defs.map((d) => ({ key: d.key, title: d.title, routes: list.filter(d.test) })).filter((x) => x.routes.length > 0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [routes, tour?.route.id, u]);
+
+  /** Las 4 fotos de un recorrido: sus obras más importantes que tengan imagen. */
+  const coverStops = (route: SiteRoute) =>
+    [...route.stops]
+      .map((s, i) => ({ s, i, pr: pieceById.get(stopId(s))?.prioridad || 3 }))
+      .sort((a, b) => a.pr - b.pr || a.i - b.i)
+      .slice(0, 4)
+      .sort((a, b) => a.i - b.i)
+      .map((x) => x.s);
 
   return (
     <div className="min-h-dvh bg-bg text-ink pb-tabbar">
@@ -127,45 +146,48 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
           </section>
         )}
 
-        <section className="mt-10" aria-labelledby="suggested-title">
-          <h2 id="suggested-title" className="px-5 font-serif text-h3 font-medium">
-            {tour ? u.routes.others : u.routes.suggested}
-          </h2>
-          <div className="mt-3 px-5 grid gap-3 md:grid-cols-2">
-            {sorted.map((route) => {
-              const minutes = route.estimated_minutes || calculateRouteTimeMinutes(route.stops);
-              const running = tour?.route.id === route.id;
-              return (
-                <div key={route.id} className="rounded-2xl bg-surface border border-line overflow-hidden flex flex-col">
-                  <div className="grid grid-cols-4 gap-px bg-line h-24">
-                    {route.stops.slice(0, 4).map((s) => {
-                      const p = pieceById.get(stopId(s));
-                      return (
-                        <span key={stopId(s)} className="bg-raised overflow-hidden">
-                          <PieceImage filename={p?.image_filename || s.thumbnail} pieceId={stopId(s)} alt="" className="w-full h-full object-cover" />
-                        </span>
-                      );
-                    })}
-                  </div>
-                  <div className="p-4 flex-1 flex flex-col">
-                    <h3 className="text-[1.125rem] font-bold leading-snug">{route.name}</h3>
-                    <p className="mt-1 text-cap text-ink-3">{u.routeMeta(formatRouteDuration(minutes), route.stops.length)}</p>
-                    {route.description && <p className="mt-2 text-ui leading-relaxed text-ink-2 text-pretty">{route.description}</p>}
-                    <div className="mt-auto pt-4">
-                      <button
-                        type="button"
-                        onClick={() => (running ? onContinueTour() : onStartRoute(route))}
-                        className={`${running ? 'btn-secondary' : 'btn-primary'} w-full`}
-                      >
-                        {running ? u.routes.continue : u.routes.start}
-                      </button>
+        {sections.map((section, idx) => (
+          <section key={section.key} className="mt-10" aria-labelledby={`routes-${section.key}`}>
+            <h2 id={`routes-${section.key}`} className="px-5 font-serif text-h3 font-medium">
+              {section.title}
+            </h2>
+            {idx === 0 && <p className="mt-1 px-5 text-cap text-ink-3">{u.routes.timeNote}</p>}
+            <div className="mt-3 px-5 grid gap-3 md:grid-cols-2">
+              {section.routes.map((route) => {
+                const minutes = minutesOf(route);
+                const running = tour?.route.id === route.id;
+                return (
+                  <div key={route.id} className="rounded-2xl bg-surface border border-line overflow-hidden flex flex-col">
+                    <div className="grid grid-cols-4 gap-px bg-line h-24">
+                      {coverStops(route).map((s) => {
+                        const p = pieceById.get(stopId(s));
+                        return (
+                          <span key={stopId(s)} className="bg-raised overflow-hidden">
+                            <PieceImage filename={p?.image_filename || s.thumbnail} pieceId={stopId(s)} alt="" className="w-full h-full object-cover" />
+                          </span>
+                        );
+                      })}
+                    </div>
+                    <div className="p-4 flex-1 flex flex-col">
+                      <h3 className="text-[1.125rem] font-bold leading-snug">{route.name}</h3>
+                      <p className="mt-1 text-cap text-ink-3">{u.routeMeta(formatRouteDuration(minutes), route.stops.length)}</p>
+                      {route.description && <p className="mt-2 text-ui leading-relaxed text-ink-2 text-pretty">{route.description}</p>}
+                      <div className="mt-auto pt-4">
+                        <button
+                          type="button"
+                          onClick={() => (running ? onContinueTour() : onStartRoute(route))}
+                          className={`${running ? 'btn-secondary' : 'btn-primary'} w-full`}
+                        >
+                          {running ? u.routes.continue : u.routes.start}
+                        </button>
+                      </div>
                     </div>
                   </div>
-                </div>
-              );
-            })}
-          </div>
-        </section>
+                );
+              })}
+            </div>
+          </section>
+        ))}
 
         {onOpenWizard && (
         <section className="px-5 mt-6">
