@@ -65,7 +65,7 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
 
       <main className="px-5">
         <section className="pt-4 pb-8">
-          <div className="rounded-[20px] overflow-hidden border border-line mb-6">
+          <div className="rounded-[16px] overflow-hidden border border-line mb-6 w-1/2 min-w-[170px] max-w-[260px]">
             <img src={getAssetUrl('logo-xolo.svg')} alt="xolo — El camino de la historia" width={792} height={336} className="w-full h-auto bg-[#fbf6ee] px-4 py-3 dark:hidden" draggable={false} />
             <img src={getAssetUrl('logo-xolo-oscuro.svg')} alt="xolo — El camino de la historia" width={757} height={324} className="w-full h-auto hidden dark:block" draggable={false} />
           </div>

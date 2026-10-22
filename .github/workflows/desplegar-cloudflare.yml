@@ -1,8 +1,13 @@
 name: Publicar la app en Cloudflare Pages
 
-# Se corre a mano. Compila la app igual que la publicación de GitHub y la sube a Cloudflare Pages (proyecto "audioguias").
+# Se corre solo con cada cambio en main y cada 6 horas, o a mano. Compila la app igual que la publicación de GitHub y la sube a Cloudflare Pages (proyecto "audioguias").
 # No cambia el sitio actual de GitHub Pages. Con "conectar_dominio" = si, también conecta xolotli.com.
 on:
+  push:
+    branches: ['main']
+  # Reconstruye cada 6 horas para leer los cambios de los Google Sheets (igual que la publicación de GitHub)
+  schedule:
+    - cron: '41 */6 * * *'
   workflow_dispatch:
     inputs:
       conectar_dominio:
@@ -11,6 +16,10 @@ on:
 
 permissions:
   contents: read
+
+concurrency:
+  group: cloudflare-pages
+  cancel-in-progress: true
 
 env:
   GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}

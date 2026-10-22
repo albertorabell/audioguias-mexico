@@ -20,8 +20,8 @@ export default defineConfig(() => {
         ],
         manifest: {
           id: '/',
-          name: 'Audioguías México',
-          short_name: 'Audioguías',
+          name: 'Audio guía Xolo',
+          short_name: 'Xolo',
           description: 'PWA de audioguías para museos y sitios arqueológicos de México con modo offline.',
           theme_color: '#FBF6EE',
           background_color: '#FBF6EE',
