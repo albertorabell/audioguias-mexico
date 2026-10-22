@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_21_dulceria_celaya",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "11e1e60aed5d27a7",
+      "texto": "Sklep ze słodyczami Celaya: słodycze od tysiąc osiemset siedemdziesiątego czwartego roku"
+    },
+    "frase_gancho": {
+      "hash": "35e03e2b5ec8a1fe",
+      "texto": "Dlaczego sklep ze słodyczami w stolicy nosi nazwę miasta z Guanajuato? Odpowiedź kryje się w kajecie."
+    },
+    "puente_narrativo": {
+      "hash": "c8ebf60ba9497789",
+      "texto": "Idź dalej ulicą Tacuba i szukaj, tuż przy jej skrzyżowaniu z Isabel la Católica, kawiarni, która otworzyła się w tysiąc dziewięćset dwunastym roku."
+    },
+    "como_llegar": {
+      "hash": "8fd51d63437bdc53",
+      "texto": "Przejdź jedną przecznicę ulicą Isabel la Católica aż do alei Cinco de Mayo, skręć na zachód i szukaj, w stronę ulicy Motolinia, sklepu ze słodyczami z ponadstuletnią historią."
+    },
+    "guion_corto": {
+      "hash": "7ec0e7f88625e18a",
+      "texto": "Dlaczego sklep ze słodyczami w stolicy nazywa się tak jak miasto z Guanajuato? Bo Celaya słynie ze swoich słodyczy, zwłaszcza z kajety, a rodzina Guízar chciała złożyć hołd temu miastu. Sklep otworzył się w tysiąc osiemset siedemdziesiątym czwartym roku, przy dawnej ulicy Plateros, dziś Madero. Około roku tysiąc dziewięćset przeniósł się na Cinco de Mayo. Tutaj tablica rządu miasta mówi coś bardzo precyzyjnego. Markiza tego sklepu jest najstarszą, jaka istnieje w mieście. Poszukaj tego napisu nad wejściem i zwróć uwagę, że mowa w nim o markizie, a nie o słodyczach."
+    },
+    "guion_largo": {
+      "hash": "1b12c53aec4f474d",
+      "texto": "Ten sklep ze słodyczami zaczął się od pytania kupców: gdzie w kraju jest najlepsza kajeta. Historia firmy mówi, że rodzina Guízar szukała jej i znalazła ją w Celaya, w Guanajuato. Dlatego sklep, otwarty w tysiąc osiemset siedemdziesiątym czwartym roku, nosi nazwę tego miasta.\n\nJego pierwszy adres znajdował się przy dawnej ulicy Plateros, dziś Madero, tej samej, którą dopiero co szedłeś. Działał tam około dwudziestu sześciu lat. Około roku tysiąc dziewięćset przeniósł się do tego lokalu przy alei Cinco de Mayo, w którym mieści się do dziś. Było to wtedy, gdy ta ulica była zabudowywana, na początku dwudziestego wieku. Kiedy otwarto Casa Boker, którą zobaczysz nieco dalej, sklep miał już za sobą ponad dwie dekady istnienia.\n\nSłodycze mają własną historię. Wiele receptur pochodzi z cukiernictwa klasztorów Nowej Hiszpanii. Zakonnice przygotowywały słodycze, które cukiernicy zachowywali i przekazywali z pokolenia na pokolenie. Produkcja nadal odbywa się w tradycyjny sposób. W witrynach leżą cukierki mleczne, bezy, kokosanki, nugat, krokanty z pestek dyni, orzechowe książęta, westchnienia i owoce kandyzowane. To sposób, by zobaczyć, jak kuchnia klasztorna trafiła do codziennego życia miasta.\n\nTeraz informacja, którą możesz sprawdzić na własne oczy. W sklepie wisi tablica umieszczona przez Rząd Miasta Meksyk. Mówi dosłownie, że markiza tego sklepu, założonego w tysiąc osiemset siedemdziesiątym czwartym roku, jest najstarszą, jaka istnieje w mieście. Zwróć uwagę na tę precyzję. Tablica mówi o markizie, czyli elemencie, który osłania wejście i niesie szyld. Nie twierdzi, że to najstarszy interes w stolicy. To dobry przykład tego, że tablice warto czytać uważnie.\n\nWnętrze zachowuje klimat epoki porfiriańskiej. Witryny, wystrój i szyld na fasadzie zachowały wygląd z czasów założycieli. Możesz zajrzeć od wejścia; wejście do środka czy zakup to osobista decyzja i nie należy do trasy zwiedzania.\n\nSklep chwali się ponadto, że działa nieprzerwanie od założenia, także podczas Rewolucji. To rodzinna tradycja, która dziś dociera do piątego pokolenia.\n\nTen przystanek łączy się z innymi z dzisiejszej trasy. Ulica Madero, gdzie narodził się interes, to ta, którą dopiero co przeszedłeś. Café de Tacuba, twój następny przystanek, to kolejny przykład handlu, który przekroczył sto lat. A Casa Boker, nieco dalej, pokazuje drugą stronę handlu epoki porfiriatu, czyli handel wyrobami żelaznymi i importem.\n\nZanim ruszysz dalej, spójrz w górę. Na tych ulicach wyższe piętra budynków często zachowują detale, które szyldy na dole zasłaniają. Taki sklep ze słodyczami przypomina, że Centrum Historyczne strzeże nie tylko kościołów i pałaców. Strzeże też rzemiosł i receptur, które dziedziczy się z rodziny na rodzinę."
+    },
+    "retos_observacion": {
+      "hash": "9b09622de6f93ea0",
+      "texto": [
+        "Znajdź tablicę rządu miasta, która mówi o najstarszej markizie",
+        "Poszukaj szyldu i markizy nad wejściem i porównaj je z sąsiednimi sklepami",
+        "Spójrz na wyższe piętra budynku i porównaj jego fasadę z lokalami po przeciwnej stronie ulicy"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3007e5278e97eb4",
+      "texto": {
+        "Założenie": "1874",
+        "Założyciele": "rodzina Guízar",
+        "Pierwsza siedziba": "ulica Plateros, dziś Madero; od około 1900 roku przy Cinco de Mayo",
+        "Lokalizacja": "aleja Cinco de Mayo 39, Centrum Historyczne",
+        "Tablica rządu miasta": "markiza jest najstarszą, jaka istnieje w mieście",
+        "Kluczowa informacja": "nazwa jest hołdem dla Celaya w Guanajuato, z racji tamtejszej kajety"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e498f48c4eda66f",
+      "texto": {
+        "pregunta": "Mit: Sklep Celaya jest oficjalnie najstarszym sklepem ze słodyczami w mieście.",
+        "respuesta": "Rzeczywistość: Tablica na sklepie głosi coś węższego: że jego markiza, należąca do sklepu założonego w tysiąc osiemset siedemdziesiątym czwartym roku, jest najstarszą, jaka istnieje w mieście. To, że jest to najstarszy interes, nie zostało przez tablicę potwierdzone."
+      }
+    }
+  }
+}

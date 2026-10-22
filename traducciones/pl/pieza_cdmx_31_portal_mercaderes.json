@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_31_portal_mercaderes",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9b7ebce867f5cbbf",
+      "texto": "Portal Kupców: arkady handlu przy Zócalo"
+    },
+    "frase_gancho": {
+      "hash": "3fbc52518485ac1a",
+      "texto": "Pod tymi arkadami handluje się od pierwszych lat miasta wicekrólewskiego, choć fasady są znacznie młodsze."
+    },
+    "puente_narrativo": {
+      "hash": "0a260dfda73070b3",
+      "texto": "Idź dalej chodnikiem, pod arkadami, aż dojdziesz do alei Szesnastego Września, gdzie stoi Gran Hotel."
+    },
+    "como_llegar": {
+      "hash": "f03c786251d6d028",
+      "texto": "Idź dalej na zachód od placu, do arkad Portalu Kupców, gdzie handel zajmuje parter od wieków."
+    },
+    "guion_corto": {
+      "hash": "bd131a35469e8889",
+      "texto": "Dlaczego plac ma arkady? Odpowiedź jest tu praktyczna: żeby sprzedawać pod dachem. W roku tysiąc pięćset dwudziestym czwartym rada miejska zatwierdziła, że właściciele działek mogą budować portale. Mogli je wynajmować kupcom. Arkady zaczęto wznosić w roku tysiąc pięćset dwudziestym siódmym. Do roku tysiąc pięćset trzydziestego drugiego były już sklepy z suknem. Arkady, które widzisz dziś, nie są tamtymi: fasady odbudowano w latach pięćdziesiątych dwudziestego wieku, w stylu neokolonialnym, z czerwonawego tezontle i szarego kamienia łamanego. Ale przeznaczenie pozostaje to samo, bo pod tymi arkadami wciąż są jubilerzy i sklepy. Ten odcinek możesz przejść swobodnie, chodnikiem i bez pośpiechu."
+    },
+    "guion_largo": {
+      "hash": "ef36e77e745d950b",
+      "texto": "Portal to galeria z arkadami, która chroni przed słońcem i deszczem. Tutaj portale wynajmowano kupcom. Być może chroniły też przed powodziami, które miasto dobrze znało. Arkady zaczęto wznosić w roku tysiąc pięćset dwudziestym siódmym, pod kierunkiem Melchora Dávili, a ukończono je około roku tysiąc pięćset dwudziestego dziewiątego.\n\nInteres pojawił się szybko. Z czasem sukno zajęło niemal całą arkadę. Po Niepodległości upowszechniła się nazwa Portal Kupców. W roku tysiąc sześćset siedemdziesiątym trzecim część arkad przekazano augustianom na użytek handlowy. Dlatego ten odcinek znano jako Portal Augustianów. W osiemnastym wieku sprzedawano już niemal wszystko. Nawet nazwy ulic mówią o tamtym handlu: ta, która dziś nazywa się Szesnastego Września, nazywała się Tlapaleros, a ta, która dziś nazywa się Madero, Srebrników.\n\nArkada rosła przez wieki bez wcześniejszego planu i uporządkowano ją dopiero w roku tysiąc siedemset pięćdziesiątym czwartym. Przebudowywano ją nie raz, a każda epoka zostawiła ślad w arkadach, w sklepach i w nazwach sąsiednich ulic.\n\nGdy idziesz pod arkadami, wyobraź sobie hałas okrzyków handlarzy i ruch towarów: tkanin, sukna i przedmiotów wszelkiego rodzaju, które codziennie zmieniały właściciela.\n\nBlisko stąd stał Parián, wielki targ po południowo-zachodniej stronie placu. Zbudowano go między rokiem tysiąc sześćset dziewięćdziesiątym piątym a tysiąc siedemset trzecim. Splądrowano go w roku tysiąc osiemset dwudziestym ósmym, a w roku tysiąc osiemset czterdziestym trzecim zburzono z rozkazu Santa Anny. Portal przetrwał wiele: trzęsienia ziemi, powodzie, wojskowe zamachy i ludowe rozruchy.\n\nW połowie dziewiętnastego wieku wytyczono ulicę Srebrników, którą dziś znasz jako Madero, i przecięła ona portal na dwie części. Północny odcinek w końcu zaginął. W roku tysiąc osiemset dziewięćdziesiątym piątym zburzono części portalu z powodu złego stanu, odnowiono go, a plac oczyszczono ze straganów. Później, w połowie dwudziestego wieku, fasady odbudowano w stylu neokolonialnym, z tezontle, czerwonym kamieniem wulkanicznym, i szarym kamieniem łamanym. To, co widzisz, jest mieszanką: arkadą z korzeniami z szesnastego wieku i fasadami z dwudziestego.\n\nJest tu także historia wiary. Wydarzenie uznane za cudowne dało początek ludowemu kultowi. To kult Chrystusa Cierpliwości, znanego jako Święty Ecce Homo z Portalu.\n\nA życie handlowe trwa nadal. Są tu jubilerzy i sklepy, a wśród nich kapelusznik z ponadstuletnią historią. Sklepy zachowują przeznaczenie, jakie arkada miała od pierwszych lat. Jeśli pierwszego dnia masz za sobą spacer [ulicą Madero](cdmx_17_calle_madero), tutaj zamykasz koło: tamta ulica złotników i ta arkada kupców tworzyły przed wiekami część jednego świata sklepów wokół placu."
+    },
+    "retos_observacion": {
+      "hash": "f6dfc3ff1878c252",
+      "texto": [
+        "Przejdź się pod arkadami i zauważ, jak dach chroni cię przed słońcem i deszczem, tak samo jak kupców",
+        "Poszukaj kontrastu między czerwonawym tezontle a szarym kamieniem łamanym na fasadach",
+        "Sprawdź, gdzie kończą się arkady przy alei Szesnastego Września"
+      ]
+    },
+    "especificaciones": {
+      "hash": "13c4735567aa84c1",
+      "texto": {
+        "Epoka": "zarządzenie z 1524 roku, arkady z lat 1527-1529",
+        "Pierwszy budowniczy": "Melchor Dávila, 1527",
+        "Obecne fasady": "odbudowane w latach pięćdziesiątych XX wieku, styl neokolonialny",
+        "Dawna nazwa jednego odcinka": "Portal Augustianów, od 1673",
+        "Lokalizacja": "zachodnia strona Zócalo, aż do alei 16 Września"
+      }
+    },
+    "faq_mito": {
+      "hash": "57dd0762d4837353",
+      "texto": {
+        "pregunta": "Mit: Te arkady są takie same, jakie zbudowano w XVI wieku.",
+        "respuesta": "Rzeczywistość: Portal przebudowywano kilka razy; w 1895 roku częściowo go zburzono, w XIX wieku wytyczenie ulicy Srebrników podzieliło go na dwie części, a obecne fasady pochodzą z lat pięćdziesiątych XX wieku."
+      }
+    }
+  }
+}

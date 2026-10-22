@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_44_templo_santo_domingo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "29fe076e61b78755",
+      "texto": "Kościół Santo Domingo i Dawny Urząd Celny"
+    },
+    "frase_gancho": {
+      "hash": "af40932c5d72c27b",
+      "texto": "To trzeci kościół dominikanów na tym terenie, a powodzie w mieście zbudowanym na jeziorze mocno wpłynęły na jego dzieje."
+    },
+    "puente_narrativo": {
+      "hash": "0297b4ccc15bb766",
+      "texto": "Idź dalej ulicą República de Brasil, naprzeciw placu, gdzie stoi [Pałac Inkwizycji](cdmx_45_inquisicion)."
+    },
+    "como_llegar": {
+      "hash": "f500d6bb9b4c0457",
+      "texto": "Idź w stronę północnej części placu, gdzie wieża z azulejos zapowiada [kościół Santo Domingo](cdmx_44_templo_santo_domingo)."
+    },
+    "guion_corto": {
+      "hash": "8e05d6e90d0de60b",
+      "texto": "To trzeci kościół, który dominikanie wznieśli na tym terenie, a miasto zbudowane na jeziorze miało w tym spory udział. Zakonnicy przybyli do Meksyku w tysiąc pięćset dwudziestym szóstym roku. Ich pierwsza świątynia była niewielka, a powodzie ją uszkodziły. W tysiąc siedemset szesnastym roku kolejna powódź dotknęła drugi kościół, a rok później rozpoczęto trzeci, ten, który masz przed sobą. Jest barokowy, ma wieżę, której ostatnia kondygnacja jest pokryta azulejos, i skrywa ołtarz główny autorstwa Manuela Tolsy. Z ogromnego klasztoru, który go otaczał, spora część zniknęła, gdy przeprowadzono ulicę Leandro Valle. To, co widzisz, to wszystko, co zostawiły woda, czas i Reforma."
+    },
+    "guion_largo": {
+      "hash": "14a5958777b132f5",
+      "texto": "Dominikanie przybyli do Nowej Hiszpanii w tysiąc pięćset dwudziestym szóstym roku i bardzo szybko zaczęli tu budować. Ich pierwsza świątynia, wzniesiona około tysiąc pięćset dwudziestego siódmego roku, była mała i prosta. Ta część miasta była terenem podmokłym, tuż przy kanale jeziora. Powodzie raz po raz niszczyły to, co powstawało, a klasztor i kościół odbudowywano kilkakrotnie z powodu słabego gruntu.\n\nDrugi kościół konsekrowano około tysiąc pięćset dziewięćdziesiątego roku. W tysiąc siedemset szesnastym roku powódź uszkodziła go tak bardzo, że trzeba było wstrzymać nabożeństwa. Rok później rozpoczęto trzeci kościół, ten, który widzisz. Poświęcono go w tysiąc siedemset trzydziestym szóstym roku, a w styczniu tysiąc siedemset pięćdziesiątego piątego roku został konsekrowany. Od tamtej pory świątynia wygląda niemal tak, jak ją widzisz dziś.\n\nSpójrz na fasadę. Jest barokowa. Wieża kończy się ostrosłupem pokrytym azulejos. Arkady po lewej stronie nie są oryginalne. Dodano je w dwudziestym wieku, aby ukryć przejście w stronę ulicy Leandro Valle i zharmonizować całość z placem.\n\nJeśli kościół jest otwarty dla wiernych i chcesz zajrzeć do środka z szacunkiem, wnętrze ma plan krzyża łacińskiego. Ołtarz główny to neoklasyczne dzieło Manuela Tolsy, tego samego artysty, który stworzył Caballito i Pałac Górnictwa. W ramionach transeptu znajdują się złocone ołtarze z osiemnastego wieku. Najstarszym wizerunkiem w kościele jest Chrystus z Nowicjatu, z szesnastego wieku, wykonany z pasty z trzciny kukurydzianej. Legenda mówi, że podarowali go dominikanom dwaj aniołowie, ale to tylko tradycja.\n\nW kościele spoczywają szczątki Pedra de Moctezumy Tlacahuepantzina, syna Moctezumy Xocoyotzina.\n\nWoda tak mocno naznaczyła dzieje tego miejsca, że dała początek kultowi. Po wielkiej powodzi rada miejska ogłosiła świętego Dominika patronem wód i miasta. Było to trzydziestego pierwszego lipca tysiąc sześćset trzydziestego roku.\n\nKlasztor natomiast nie przetrwał zmian politycznych. W połowie dziewiętnastego wieku, wraz z Reformą, skonfiskowano dobra kościelne. Gdy wytyczono ulicę Leandro Valle, zniszczono dużą część klasztoru i kilka kaplic. Miasto Meksyk wskazuje, że dziedziniec zwany dziedzińcem Generałów przetrwał w Centrum Kultury Współczesnego Meksyku, przy tej właśnie ulicy.\n\nPo wschodniej stronie placu stoi dawny Urząd Celny. Królewski Urząd Celny Meksyku założono w tysiąc pięćset siedemdziesiątym czwartym roku, aby wspierać system fiskalny imperium hiszpańskiego. Jego budynek przy tym placu zbudowano i rozbudowano w osiemnastym wieku. W tysiąc dziewięćset dwudziestym pierwszym roku przeszedł w ręce Sekretariatu Edukacji Publicznej. Dziś jest częścią kompleksu [Żywego Muzeum Muralizmu](cdmx_46_museo_vivo_muralismo). Tak oto na jednym placu świątynia, trybunał i urząd celny opowiadają, jak organizowano wiarę, sprawiedliwość i pieniądze."
+    },
+    "retos_observacion": {
+      "hash": "7bd01f36bffa5646",
+      "texto": [
+        "Znajdź wieżę, której ostatnia kondygnacja jest pokryta azulejos",
+        "Poszukaj arkad po lewej stronie kościoła, które nie są oryginalne",
+        "Wskaż surowy budynek dawnego Urzędu Celnego po wschodniej stronie placu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07b5d3a53b2eb89c",
+      "texto": {
+        "Epoka": "trzeci kościół rozpoczęty w 1717 roku, poświęcony w 1736 i konsekrowany w styczniu 1755",
+        "Autor": "ołtarz główny Manuela Tolsy",
+        "Styl": "barokowy, plan krzyża łacińskiego",
+        "Lokalizacja": "północna strona Plaza de Santo Domingo",
+        "Kluczowa informacja": "z wielkiego klasztoru dominikanów zachowały się tylko kościół i kilka pomieszczeń",
+        "Dawny Urząd Celny": "Królewski Urząd Celny założony w 1574 roku; dziś część kompleksu Sekretariatu Edukacji Publicznej"
+      }
+    },
+    "faq_mito": {
+      "hash": "ed13b4732489b7c0",
+      "texto": {
+        "pregunta": "Mit: Kościół Santo Domingo to ten sam, który dominikanie wznieśli po przybyciu, w szesnastym wieku.",
+        "respuesta": "Rzeczywistość: To trzeci kościół w tym miejscu; poprzedni ucierpiał w powodzi w 1716 roku, a obecny rozpoczęto rok później."
+      }
+    }
+  }
+}

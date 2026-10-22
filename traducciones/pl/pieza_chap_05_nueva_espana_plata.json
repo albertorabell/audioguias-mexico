@@ -1,0 +1,55 @@
+{
+  "id": "chap_05_nueva_espana_plata",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a28105ad7c5d082d",
+      "texto": "Królestwo Nowej Hiszpanii: srebro, galeony i wyroby z kości słoniowej"
+    },
+    "frase_gancho": {
+      "hash": "0a796012b1c98d73",
+      "texto": "Meksykańskie srebro, które opłaciło bitwę pod Trafalgarem, i sto sklepów, w których sprzedawano cynamon z Cejlonu i jedwab z Manili."
+    },
+    "puente_narrativo": {
+      "hash": "915392e641f9f178",
+      "texto": "Idź dalej aż do końca sal wicekrólewskich: za zakrętem korytarza otworzy się przed tobą gigantyczne, wklęsłe malowidło ścienne, na którym Juan O’Gorman przedstawił wybuch walki o Niepodległość."
+    },
+    "guion_corto": {
+      "hash": "31d2c1bdc0e7a2a7",
+      "texto": "Te sale odsłaniają materialny przepych i głębokie sprzeczności trzystu lat wicekrólestwa Nowej Hiszpanii. Wokół ciebie lśnią azjatyckie skrzynie lakierowane, Chrystusy i figury rzeźbione w filipińskiej kości słoniowej, porcelanowe wazy, parawany malowane olejem z widokami Tepeyac, przedmioty z grawerowanego srebra i obrazy kastowe. Cały ten świat narodził się wtedy, gdy amerykańska ziemia kukurydzy, kakao, wanilii i koszenili spotkała się z pszenicą, bydłem, trzciną cukrową i pługiem przywiezionymi z Europy, a Miasto Meksyk stało się centrum handlowym łączącym Europę z Azją."
+    },
+    "guion_largo": {
+      "hash": "c3dcc9437a62ecd4",
+      "texto": "Rzadko zatrzymujemy się, by pomyśleć, że w osiemnastym wieku moneta, której używali kupcy w Chinach, i srebro, które finansowało armie Europy, pochodziły z wnętrza Meksyku. Wszystko zaczęło się w tysiąc pięćset dwudziestym ósmym roku, kiedy założono Taxco, pierwszą amerykańską kopalnię eksploatowaną europejskimi metodami, a wkrótce potem przyszły ogromne żyły Zacatecas w tysiąc pięćset czterdziestym szóstym roku i Guanajuato w tysiąc pięćset pięćdziesiątym czwartym, połączone Królewskim Szlakiem Wnętrza Lądu. Srebro Nowej Hiszpanii było tak potężne, że sfinansowało wszystko: od wojny trzydziestoletniej w siedemnastym wieku po hiszpańskie i francuskie okręty, które walczyły w bitwie pod Trafalgarem w tysiąc osiemset piątym roku, a nawet angielskie subsydia na pokonanie Napoleona Bonapartego. W zamian za to srebro, za perły z Kalifornii Dolnej i za czerwony barwnik z koszenili Galeon z Manili zapełniał stolicę skarbami. Około roku tysiąc osiemset czwartego w Mieście Meksyk działało około stu siedmiu sklepów spożywczych i kolonialnych, ówczesnych sklepów z artykułami codziennymi i towarami zamorskimi, w których mogłeś kupić wino z La Rioja, oliwki z Sewilli, cynamon z Cejlonu, kakao z Caracas, goździki z Filipin, szale z Manili, wachlarze z żeberkami z szylkretu, a nawet pierwsze bawełniane chustki, których później używał [José María Morelos](chap_06_morelos_iturbide). Lecz to bogactwo spoczywało na ludzkiej ranie: oprócz pracy ludności tubylczej w hacjendach przez trzy stulecia sprowadzono z Afryki około dwustu pięćdziesięciu tysięcy niewolników, traktowanych jak towar, których bunt i mieszanie się ludów przygotowały grunt pod rewolucję niepodległościową, którą zobaczysz w następnej sali."
+    },
+    "retos_observacion": {
+      "hash": "997ac149671a1558",
+      "texto": [
+        "Przyjrzyj się delikatnym rzeźbom religijnym wyrzeźbionym w kłach słoniowych i lakierowanym szkatułkom przywiezionym Galeonem z Manili",
+        "Wypatruj wicekrólewskich obrazów i parawanów, które przedstawiają sanktuarium na Tepeyac i codzienne życie stolicy",
+        "Zwróć uwagę na przedmioty z grawerowanego srebra, kute żelazo oraz ceramikę z Puebla i Guanajuato, którą eksportowano na trzy kontynenty"
+      ]
+    },
+    "especificaciones": {
+      "hash": "08cbd7618a7ae398",
+      "texto": {
+        "Okres": "Wicekrólestwo Nowej Hiszpanii (1521-1821)",
+        "Kamienie milowe górnictwa": "Taxco (1528), Zacatecas (1546) i Guanajuato (1554)",
+        "Handel miejski": "Około 107 zarejestrowanych sklepów spożywczo-kolonialnych w Mieście Meksyk około 1804 roku",
+        "Przymusowa demografia": "Około 250 000 afrykańskich niewolników sprowadzonych w ciągu trzech stuleci",
+        "Lokalizacja": "Sale 3–6 (Królestwo Nowej Hiszpanii), parter MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "c41b406a4d225f0f",
+      "texto": {
+        "pregunta": "Mit: W czasach wicekrólestwa Nowa Hiszpania handlowała tylko z Hiszpanią i była odizolowana od reszty świata.",
+        "respuesta": "Rzeczywistość: Nowa Hiszpania była pomostem pierwszego handlu globalnego: jej srebro krążyło jako moneta w Chinach i sfinansowało europejskie wojny, takie jak ta zakończona pod Trafalgarem (1805), a do Miasta Meksyk docierały jedwabie z Azji, cynamon z Cejlonu, kakao z Caracas i wyroby z kości słoniowej z Filipin."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "chap_27_estandarte_hidalgo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f341b68cd75663da",
+      "texto": "Sztandar z Guadalupe i relikwie Hidalga"
+    },
+    "frase_gancho": {
+      "hash": "5facb397c8c952ed",
+      "texto": "Ksiądz grający na skrzypcach, płótno zdjęte w sanktuarium i kij: tak narodził się sztandar niepodległości."
+    },
+    "puente_narrativo": {
+      "hash": "ed751b336ffff191",
+      "texto": "Ruszaj do kolejnego przystanku, gdzie wojna, która zaczęła się od tego płótna, toczy się dalej z udziałem dwóch mężczyzn, którzy stanęli naprzeciw siebie: José Maríi Morelosa i Agustína de Iturbide."
+    },
+    "guion_corto": {
+      "hash": "94af4d86fd7c564b",
+      "texto": "Hidalgo miał pięćdziesiąt siedem lat, gdy chwycił za broń. Był uczonym księdzem i znakomitym skrzypkiem, który grał na spotkaniach towarzyskich w swoim domu. Wyruszył z Dolores o jedenastej rano, a do sanktuarium w Atotonilco dotarł o wpół do szóstej po południu. Tam, jak zeznał kapelan, człowiek z rancza poprosił jedną z pobożnych kobiet o obraz i umieścił go na kiju. To płótno z Matką Bożą z Guadalupe jest sztandarem niepodległości."
+    },
+    "guion_largo": {
+      "hash": "e65a9939fbdddc82",
+      "texto": "Miguel Hidalgo miał pięćdziesiąt siedem lat, gdy chwycił za broń. Nie był wojownikiem. Był uczonym księdzem, znanym w Dolores z wykształcenia i ze swoich skrzypiec: grał na spotkaniach towarzyskich, które odbywały się w jego domu. To właśnie o tym człowieku przechowuje ślady ta sala.\n\nWczesnym rankiem szesnastego września tysiąc osiemset dziesiątego roku dzwon w Dolores zwołał ludzi. Na początku zebrało się osiemdziesięciu mężczyzn z mieczami i lancami. Tabliczki w sali opowiadają, że w ciągu kilku godzin było ich już sześciuset. Kolumna wyruszyła z Dolores o jedenastej rano, zjadła posiłek i odpoczęła w hacjendzie de la Erre, a do sanktuarium w Atotonilco dotarła o wpół do szóstej po południu.\n\nW Atotonilco wydarzyło się coś, co odmieniło powstanie. Ktoś zabrał z sanktuarium płótno z Matką Bożą z Guadalupe i podniósł je wysoko. Ale nikt nie wie na pewno, kto je zabrał. Ignacio Allende podczas procesu zeznał, że nie wie, z czyjego polecenia zdjęto płótno. Kapelan z Atotonilco zeznał, że to człowiek z rancza poprosił jedną z pobożnych kobiet z sanktuarium o obraz i umieścił go na kiju. Tak narodził się sztandar: nie z planu, lecz z improwizowanego gestu, który stał się symbolem.\n\nSztandar podążał dalej z powstańcami. Został zdobyty przez armię Félixa Maríi Calleji w San Jerónimo Aculco. W tysiąc osiemset pięćdziesiątym trzecim roku na jego odwrocie umieszczono napis. Dziś jest wystawiony na piedestale z rzeźbionego drewna, wykonanym w tysiąc dziewięćset jedenastym roku.\n\nWokół sztandaru znajdują się relikwie. W całym muzeum zachowało się zaledwie pół setki przedmiotów należących do Hidalga, w dużej części odzyskanych około tysiąc dziewięćset dziesiątego roku, gdy obchodzono stulecie. Tabliczka, która je przedstawia, nosi tytuł „Wstydliwość historii”. Są wśród nich rzeczy bardzo osobiste: chrzcielnica, w której go ochrzczono, konfesjonał z parafii w Dolores, strój, który nosił podczas udzielania sakramentów, i relikwiarz z Matką Bożą Bolesną.\n\nTo druga twarz człowieka, którego widziałeś już dwa razy na [malowidle O’Gormana](chap_04_retablo_independencia). Tam jest symbolem na murze; tutaj jest człowiekiem, ze swoimi skrzypcami, konfesjonałem i chrzcielnicą. Wojna, która zaczęła się od tego płótna, toczyła się dalej pod wodzą innych przywódców. Następnym jest [Morelos](chap_06_morelos_iturbide), który był uczniem Hidalga."
+    },
+    "retos_observacion": {
+      "hash": "b35c7e8187a953aa",
+      "texto": [
+        "Znajdź sztandar z Matką Bożą z Guadalupe i zwróć uwagę na rzeźbiony drewniany piedestał, na którym spoczywa",
+        "Odszukaj konfesjonał z parafii w Dolores i chrzcielnicę",
+        "Znajdź relikwiarz z Matką Bożą Bolesną i strój, który nosił podczas udzielania sakramentów"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b4e7e40a2c7c6a6c",
+      "texto": {
+        "Obiekt": "Sztandar z Guadalupe Miguela Hidalga",
+        "Miejsce zabrania": "sanktuarium w Atotonilco, 16 września 1810",
+        "Wyjazd z Dolores": "11:00; przybycie do Atotonilco: 17:30",
+        "Zdobycie": "San Jerónimo Aculco, przez Calleję",
+        "Napis na odwrocie": "1853",
+        "Piedestał": "rzeźbione drewno, 1911",
+        "Relikwie": "chrzcielnica, konfesjonał z Dolores, strój sakramentalny, relikwiarz z Matką Bożą Bolesną"
+      }
+    },
+    "faq_mito": {
+      "hash": "844663168a3d225a",
+      "texto": {
+        "pregunta": "Mit: Hidalgo przygotował sztandar z wyprzedzeniem.",
+        "respuesta": "Rzeczywistość: Allende zeznał podczas procesu, że nie wie, z czyjego polecenia zdjęto płótno, a kapelan z Atotonilco powiedział, że człowiek z rancza poprosił pobożną kobietę o obraz i umieścił go na kiju."
+      }
+    }
+  }
+}

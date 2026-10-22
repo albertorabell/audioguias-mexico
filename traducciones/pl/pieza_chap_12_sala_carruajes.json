@@ -1,0 +1,56 @@
+{
+  "id": "chap_12_sala_carruajes",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2ea081b1178ddcdb",
+      "texto": "Sala Powozów w Alkazarze"
+    },
+    "frase_gancho": {
+      "hash": "80f057a99988f61c",
+      "texto": "Barokowa karoca wykonana w Mediolanie i powóz na co dzień, który zmienił herby wraz ze zmianą rządu."
+    },
+    "puente_narrativo": {
+      "hash": "d9073dedd52a5abd",
+      "texto": "Idź dalej trasą ku Schodom Lwów, gdzie schody o cesarskim wyglądzie skrywają naukowe pochodzenie."
+    },
+    "guion_corto": {
+      "hash": "f5cc41e47d99bea9",
+      "texto": "Zanim stało się wejściem do Alkazaru, to miejsce służyło jako powozownia zamku, według muzeum. Dziś gromadzi powozy dwóch różnych rządów. Karoca galowa Maksymiliana i Charlotty wyszła około roku tysiąc osiemset sześćdziesiątego czwartego z domu Cesare Scala w Mediolanie. Jest w stylu barokowym, ma ozdobne listwy ze srebra i brązu, rzeźbione dzieci i anioły, cesarskie herby oraz dewizę po hiszpańsku: Słuszność w sprawiedliwości. W tej sali muzeum prezentuje także powóz, którego Maksymilian i Charlotta używali na co dzień. Potem korzystał z niego Benito Juárez, a herby Cesarstwa ustąpiły herbowi Republiki. To ten sam powóz i dwie historie."
+    },
+    "guion_largo": {
+      "hash": "ac5560762e61ea5f",
+      "texto": "Plany wicekróla Bernarda de Gálvez, z roku tysiąc siedemset osiemdziesiątego piątego, przewidywały już powozownię na parterze pałacu. Pałac nigdy nie został ukończony, a budynek przeżył wiele żywotów. Według muzeum ta sala posłużyła później jako powozownia zamku, a dziś jest wejściem do Alkazaru. To dobry początek dla piętra cesarzy: tam, gdzie dawniej trzymano powozy, teraz też trzyma się powozy, ale innego rodzaju.\n\nNajbardziej okazałym eksponatem jest karoca galowa Maksymiliana i Charlotty. Muzeum przypisuje ją domowi Cesare Scala z Mediolanu i datuje na około rok tysiąc osiemset sześćdziesiąty czwarty. Jej styl jest barokowy. Ma ozdobne listwy ze srebra i brązu, rzeźby dzieci i aniołów, cesarskie herby oraz dewizę po hiszpańsku: Słuszność w sprawiedliwości. Karoca galowa nie powstaje po to, by szybko dojechać na miejsce. Powstaje po to, by patrzono, jak przejeżdża.\n\nMaksymilian Habsburg przybył do zamku dwunastego czerwca tysiąc osiemset sześćdziesiątego czwartego roku. Rządził dzięki poparciu francuskiej armii Napoleona Trzeciego. Jego panowanie skończyło się w roku tysiąc osiemset sześćdziesiątym siódmym. Został rozstrzelany na Wzgórzu Dzwonów w Querétaro, razem z generałami Miguelem Miramónem i Tomásem Mejíą. Ten okres nazywa się Drugim Cesarstwem, ponieważ wcześniej Meksyk miał już pierwsze, to [Agustína de Iturbide](chap_06_morelos_iturbide).\n\nW tej samej sali jest jeszcze jedna historia, bardziej republikańska. Muzeum wyjaśnia, że powóz, którego Maksymilian i Charlotta używali na co dzień, przeszedł później do Benita Juáreza. W tym celu cesarskie herby zastąpiono herbem Republiki. Przedmiot był ten sam, ale przesłanie się zmieniło. Muzeum wspomina ponadto o bryczce. Jak mówi, w niej Juárez wjechał do Miasta Meksyk piętnastego lipca tysiąc osiemset sześćdziesiątego siódmego roku, dwadzieścia sześć dni po rozstrzelaniu. Bryczkę wykonano w Paryżu i ozdobiono Godłem Narodowym oraz motywami z czasów przedhiszpańskich. To dobry moment, by przypomnieć sobie [powóz Juáreza](chap_07_carruaje_juarez) z wcześniejszego przystanku.\n\nWarto przyjrzeć się kontrastowi. Z jednej strony karoca z listwami ze srebra, aniołami i herbami; z drugiej pojazdy, które zmieniły właściciela po prostu przez zmianę godła. To dwa sposoby, by powiedzieć, kto rządzi: ozdobą albo symbolami narodowymi.\n\nZa tymi przedmiotami kryje się także historia samego muzeum. W roku tysiąc dziewięćset trzydziestym dziewiątym prezydent Lázaro Cárdenas zarządził, by zamek stał się muzeum. Manuel Ávila Camacho otworzył je dwudziestego siódmego września tysiąc dziewięćset czterdziestego czwartego roku. Dziś zgromadzono tu ponad sześćdziesiąt pięć tysięcy obiektów, wśród nich obrazy, meble, ubrania, dokumenty i powozy.\n\nWchodząc do Alkazaru, zabierz ze sobą tę myśl. Przedmiot władzy rzadko bywa tylko przedmiotem: nosi herby, dewizy i godła, które zmieniają się, gdy zmienia się władza, i dlatego można je czytać jak dokument."
+    },
+    "retos_observacion": {
+      "hash": "573235bb5f6bdaf7",
+      "texto": [
+        "Poszukaj na karocy galowej ozdobnych listew ze srebra i brązu oraz figur dzieci i aniołów",
+        "Znajdź dewizę po hiszpańsku, Słuszność w sprawiedliwości, oraz cesarskie herby",
+        "Porównaj powóz na co dzień z karocą galową i zwróć uwagę, który ma więcej ozdób i jakie godło pokazuje"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8dda3689baf17655",
+      "texto": {
+        "Epoka": "Drugie Cesarstwo, około 1864",
+        "Pracownia karocy galowej": "dom Cesare Scala, Mediolan",
+        "Styl i materiały": "barok, z listwami ze srebra i brązu",
+        "Dewiza": "Słuszność w sprawiedliwości",
+        "Kluczowa informacja": "powóz, którego Maksymilian i Charlotta używali na co dzień, wykorzystywał potem Benito Juárez, już z herbami republikańskimi",
+        "Lokalizacja": "Salon Powozów, wejście do Alkazaru"
+      }
+    },
+    "faq_mito": {
+      "hash": "e319dbbd98f47c9e",
+      "texto": {
+        "pregunta": "Mit: Powozy cesarza Maksymiliana zostały zniszczone albo przestały być używane po upadku Cesarstwa.",
+        "respuesta": "Rzeczywistość: Według Narodowego Muzeum Historii powóz, którego Maksymilian i Charlotta używali na co dzień, przeszedł do Benita Juáreza, a jego cesarskie herby zastąpiono herbem Republiki."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "chap_09_batalla_puebla_orozco",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "953a19591bafcff6",
+      "texto": "5 maja i mural Juáreza (Orozco)"
+    },
+    "frase_gancho": {
+      "hash": "ce4cad8d63fb8d2b",
+      "texto": "Od triumfu Zaragozy w deszczu Puebli po zmumifikowane zwłoki Maksymiliana namalowane przez José Clemente Orozca."
+    },
+    "puente_narrativo": {
+      "hash": "164a7587ffc571be",
+      "texto": "Idź dalej, do kolejnego przystanku, czyli powozu Benita Juáreza, który przemierzał kraj w latach wojny z Cesarstwem, aż do powrotu Republiki."
+    },
+    "guion_corto": {
+      "hash": "4b7c1f6a9c4b4f4a",
+      "texto": "W tej części sal poświęconych dziewiętnastemu wiekowi naprzeciw siebie stoją trzy fundamentalne dzieła, które opowiadają o walce o suwerenność Meksyku: olejny portret generała Ignacia Zaragozy namalowany w roku tysiąc osiemset sześćdziesiątym pierwszym, wielkie panoramiczne płótno przedstawiające Bitwę pod Pueblą z piątego maja tysiąc osiemset sześćdziesiątego drugiego roku, dzieło katalońskiego malarza José Cusachsa, a wysoko na ścianie imponujący fresk „Reforma i upadek Cesarstwa”, namalowany w roku tysiąc dziewięćset czterdziestym ósmym przez José Clemente Orozca, na którym gigantyczna, niewzruszona twarz Benita Juáreza dominuje nad całą salą."
+    },
+    "guion_largo": {
+      "hash": "913a4f21087787fb",
+      "texto": "Historia, którą opowiadają te ściany, zaczęła się w roku tysiąc osiemset sześćdziesiątym pierwszym, kiedy rząd [Benita Juáreza](chap_07_carruaje_juarez), uduszony brakiem środków po latach wojny domowej, musiał czasowo zawiesić spłatę długu zagranicznego. Anglia, Hiszpania i Francja wysłały swoje floty wojenne do Veracruz; jednak podczas gdy Hiszpanie i Anglicy zgodzili się negocjować w Preliminariach z La Soledad i wycofali się, cesarz Francuzów Napoleon Trzeci postanowił najechać kraj, by powstrzymać Stany Zjednoczone i zawładnąć meksykańskimi bogactwami. Piątego maja tysiąc osiemset sześćdziesiątego drugiego roku hrabia de Lorencez rzucił to, co wówczas uchodziło za najlepszą armię świata, na forty Puebli. Przyjrzyj się uważnie obrazowi José Cusachsa: wśród liści agawy i dymu prochowego meksykańscy żołnierze i rdzenni Zacapoaxtlas zmuszają do odwrotu słynnych francuskich zuawów w czerwonych spodniach. Bohater tamtego dnia, młody generał Ignacio Zaragoza, urodzony w Teksasie w roku tysiąc osiemset dwudziestym dziewiątym, który po utracie terytoriów w roku tysiąc osiemset czterdziestym siódmym postanowił pozostać Meksykaninem, nie doczekał końca wojny: zaledwie cztery miesiące po swoim zwycięstwie zmarł na dur brzuszny w wieku trzydziestu trzech lat. Pięć lat później Republika odniosła ostateczne zwycięstwo, a José Clemente Orozco z brutalną siłą streścił ten finał w murze, który masz przed sobą: na górze jaśnieje kamienna twarz Juáreza, w otoczeniu sztandaru Batalionu Najwyższych Władz i żołnierza z numerem pięćdziesiąt siedem na kepi, na cześć Konstytucji; podczas gdy na dole, jak w ponurym zaświecie, zmumifikowane ciało [Maksymiliana](chap_20_recamara_maximiliano) niosą upiorne postacie biskupów, generałów i szlachciców, którzy przywiedli go na tron."
+    },
+    "retos_observacion": {
+      "hash": "25a2cb414bd1b234",
+      "texto": [
+        "Zobacz na obrazie José Cusachsa walkę wręcz między francuskimi zuawami w czerwonych spodniach a wojskami meksykańskimi wśród agaw",
+        "Zatrzymaj się przed portretem Ignacia Zaragozy w okrągłych okularach, namalowanym zaledwie kilka miesięcy przed jego zwycięstwem pod Pueblą",
+        "Podnieś wzrok na mural Orozca i wypatrz numer 57 na czapce wojskowej żołnierza z pochodnią oraz zmumifikowane ciało Maksymiliana w dolnym pasie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78d89ae901ee30cc",
+      "texto": {
+        "Najważniejsze dzieła": "Mural „Reforma i upadek Cesarstwa” José Clemente Orozca (fresk, 1948); „Bitwa pod Pueblą, 5 maja 1862” José Cusachsa (olej na płótnie, 1903); Portret Ignacia Zaragozy sygnowany przez Tejadę (olej, 1861)",
+        "Meksykańscy dowódcy z 5 maja": "Ignacio Zaragoza, Miguel Negrete, Felipe Berriozábal, Francisco Lamadrid i Porfirio Díaz",
+        "Dowódca francuski": "Charles F. Latrille, hrabia de Lorencez",
+        "Lokalizacja": "Sala Reformy i Drugiego Cesarstwa, MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "06202b533ecc51c3",
+      "texto": {
+        "pregunta": "Mit: Po przegranej Bitwie pod Pueblą 5 maja 1862 roku armia francuska poddała się i natychmiast wróciła do Europy.",
+        "respuesta": "Rzeczywistość: Zwycięstwo z 5 maja powstrzymało natarcie najeźdźców na cały rok, ale Napoleon III wysłał jeszcze trzydzieści tysięcy żołnierzy; w 1863 roku Francuzi oblegali Pueblę przez siedemdziesiąt dwa dni, aż ją zdobyli i ruszyli na Miasto Meksyk, by ustanowić cesarstwo Maksymiliana."
+      }
+    }
+  }
+}

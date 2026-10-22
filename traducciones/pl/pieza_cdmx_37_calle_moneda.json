@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_37_calle_moneda",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc5fd4a8e328b316",
+      "texto": "Ulica Moneda: kwartał muzeów"
+    },
+    "frase_gancho": {
+      "hash": "3a6e927c7e2f85ba",
+      "texto": "Obok Pałacu Narodowego jedna jedyna ulica skupia pałac arcybiskupów, mennicę, drukarnię i kilka klasztorów."
+    },
+    "puente_narrativo": {
+      "hash": "4617ef355a9a3503",
+      "texto": "Idź dalej ulicą Moneda do numeru cztery, gdzie dawny pałac arcybiskupów skrywa dziś sztukę. To [Muzeum Sztuki SHCP](cdmx_38_museo_shcp)."
+    },
+    "como_llegar": {
+      "hash": "7e43f3d2b22e2c4e",
+      "texto": "Idź w stronę [ulicy Moneda](cdmx_37_calle_moneda), obok [Pałacu Narodowego](cdmx_29_palacio_nacional). Tam zaczyna się kwartał muzeów i budynków z czasów wicekrólestwa, w których historia układa się w wiele warstw."
+    },
+    "guion_corto": {
+      "hash": "1d4d0dd373c5f4d1",
+      "texto": "Ulica, która nazywa się jak pieniądz. Moneda zawdzięcza swoją nazwę Królewskiej Mennicy, budynkowi, w którym bito monety Nowej Hiszpanii. Ale ten kwartał, który zaczyna się między Katedrą a Pałacem Narodowym, kryje znacznie więcej niż monety. Stał tu pałac arcybiskupów, a kilka kroków dalej powstała pierwsza drukarnia Ameryki. Niedaleko jest klasztor, w którym siostra Juana spędziła kilka miesięcy. Dziś kilka z tych budynków to muzea i odwiedzimy je jedno po drugim. Ten odcinek jest krótki, ale każdy numer skrywa inną historię. Ta ulica to brama do małej dzielnicy historii."
+    },
+    "guion_largo": {
+      "hash": "fa327954c4eae698",
+      "texto": "Moneda to jedna z tych krótkich ulic, które mają wielką pamięć. Zaczyna się między Katedrą a Pałacem Narodowym, na rogu z ulicą Seminario, i biegnie na wschód. Na tym pierwszym rogu działał pierwszy uniwersytet Ameryki, a potem kantyna. Nazwę ulica wzięła od Królewskiej Mennicy, w której dziś mieści się [Narodowe Muzeum Kultur Świata](cdmx_39_culturas_mundo). Historię tego budynku i jego terenu opowiadamy na jego przystanku.\n\nZobacz, jak współistnieją tu władze wicekrólestwa. Obok stoi [Pałac Narodowy](cdmx_29_palacio_nacional), siedziba rządu. Pod numerem cztery mieścił się pałac arcybiskupów, dziś [Muzeum Sztuki SHCP](cdmx_38_museo_shcp). A pod numerem trzynaście stał dom, w którym bito monety. Kościół, rząd i pieniądze zajmowały sąsiednie budynki, w tym samym kwartale.\n\nKilka kroków dalej, na rogu z ulicą Primo de Verdad, powstała pierwsza drukarnia Ameryki. Jej prasa przypłynęła w tysiąc pięćset trzydziestym dziewiątym roku, z inicjatywy brata Juana de Zumárragi i wicekróla Antonia de Mendozy. Kiedy dojdziesz do [Domu Pierwszej Drukarni Ameryki](cdmx_40_primera_imprenta), zobaczysz, dlaczego tablica podaje inną datę.\n\nBardzo blisko zaczynają się klasztory. Klasztor Santa Teresa la Antigua, należący do karmelitanek bosych, dziś dzieli się między [Ex Teresa Arte Actual](cdmx_41_ex_teresa) a [Pałac Autonomii](cdmx_42_palacio_autonomia). Siostra Juana Inés de la Cruz wstąpiła do karmelitanek w tysiąc sześćset sześćdziesiątym siódmym roku. Wyszła po kilku miesiącach z powodu kłopotów ze zdrowiem.\n\nKolejność przystanków ma niewielki zygzak. Najpierw zobaczysz numer cztery, potem trzynaście, który leży bardziej na wschód, a następnie wrócisz kilka kroków do rogu z Primo de Verdad, gdzie skupiają się drukarnia i klasztory. To pół kwartału, a warto je przejść dla tego, co opowiada każdy budynek. W miarę jak idziesz, historia przechodzi od świata Mexica do wicekrólestwa, a stamtąd do republiki: najpierw teren Moctezumy, potem arcybiskupi i drukarnia, a na końcu dzisiejsze muzea.\n\nw pobliżu rogu z Correo Mayor stoją dwa barokowe domy, jeden naprzeciw drugiego, które tworzą Domy Majoratu Guerrero. Przypominają, że na tej ulicy stały nie tylko kościoły i urzędy, ale także domy potężnych rodzin.\n\nNiedaleko, przy ulicy Academia, znajduje się Muzeum José Luis Cuevas. Nie ma w tej trasie własnego przystanku, ale warto o nim wspomnieć. Zajmuje dawny klasztor Santa Inés, a jako muzeum otwarto je w tysiąc dziewięćset dziewięćdziesiątym drugim roku. Klasztor odbudowano pod koniec osiemnastego wieku, w dużej części pod kierunkiem Manuela Tolsy. Zgromadzono tam około tysiąca ośmiuset sześćdziesięciu dzieł, przede wszystkim malarzy i ilustratorów latynoamerykańskich.\n\nTa ulica uczy patrzeć na Centrum warstwami. Każda fasada była pałacem, klasztorem, biurem albo szkołą. Prawie wszystkie powtarzają tę samą lekcję: miasto zmienia przeznaczenie budynków, ale ziemia zachowuje pamięć. Zanim ruszysz dalej, znajdź numer cztery przy ulicy Moneda, który jest twoim następnym celem."
+    },
+    "retos_observacion": {
+      "hash": "60fd3508c8d52dc7",
+      "texto": [
+        "Znajdź numer cztery przy ulicy Moneda, wejście do dawnego pałacu arcybiskupów",
+        "Znajdź numer trzynaście, budynek dawnej Mennicy",
+        "Odszukaj róg z ulicą Primo de Verdad i tablicę upamiętniającą pierwszą drukarnię Ameryki"
+      ]
+    },
+    "especificaciones": {
+      "hash": "44ac57f5dd908f7b",
+      "texto": {
+        "Lokalizacja": "ulica Moneda, obok Pałacu Narodowego",
+        "Pochodzenie nazwy": "Królewska Mennica",
+        "Mennica": "budynek wzniesiony w latach 1731–1734",
+        "Moneda 4": "Muzeum Sztuki SHCP, dawny Pałac Arcybiskupi",
+        "Moneda 13": "Narodowe Muzeum Kultur Świata",
+        "W pobliżu": "Pierwsza Drukarnia, Ex Teresa, Pałac Autonomii i Muzeum José Luis Cuevas"
+      }
+    },
+    "faq_mito": {
+      "hash": "1bdfaf973703a71c",
+      "texto": {
+        "pregunta": "Mit: Budynek Mennicy pochodzi z czasów Hernána Cortésa.",
+        "respuesta": "Rzeczywistość: Historia tej parceli sięga czasów Podboju, ale obecny budynek wzniesiono w latach od tysiąc siedemset trzydziestego pierwszego do tysiąc siedemset trzydziestego czwartego."
+      }
+    }
+  }
+}

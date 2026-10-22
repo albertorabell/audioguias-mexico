@@ -1,0 +1,55 @@
+{
+  "id": "chap_03_patio_canones",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9cbfe4de364e985",
+      "texto": "Dziedziniec Dział i dawne Kolegium Wojskowe"
+    },
+    "frase_gancho": {
+      "hash": "7c8edf0fd411512c",
+      "texto": "Esplanada, na której nastolatkowie w wieku od trzynastu do dziewiętnastu lat stawili czoła ostrzałowi artylerii."
+    },
+    "puente_narrativo": {
+      "hash": "2dde7b42255ab23f",
+      "texto": "Ruszaj w stronę drzwi wejściowych zachodniego budynku, w głębi dziedzińca: przejdziesz do wnętrza Narodowego Muzeum Historii, gdzie zwiedzanie zaczyna się w salach poświęconych spotkaniu świata tubylczego z Hiszpanią."
+    },
+    "guion_corto": {
+      "hash": "e79a0f8b8d523c6c",
+      "texto": "Stoisz na dawnym dziedzińcu apelowym Kolegium Wojskowego. Wokół ciebie na drewnianych i żelaznych lawetach spoczywają historyczne spiżowe armaty wycelowane w horyzont, a surowa, dwupoziomowa fasada pokazuje ci skrzydło, w którym w XIX wieku uczyli się i spali kadeci. Ta otwarta przestrzeń była sercem meksykańskiego oporu dwunastego i trzynastego września tysiąc osiemset czterdziestego siódmego roku, kiedy armia Stanów Zjednoczonych ostrzeliwała wzgórze przez ponad całą dobę, zanim przypuściła ostateczny szturm wręcz na jego zboczach."
+    },
+    "guion_largo": {
+      "hash": "3f57df6a27005b86",
+      "texto": "Aby zrozumieć, co wydarzyło się na tym dziedzińcu, musisz wyobrazić sobie świt dwunastego września tysiąc osiemset czterdziestego siódmego roku. Wojska amerykańskie pod dowództwem generała Winfielda Scotta wiedziały, że Chapultepec jest ostatnim wojskowym kluczem przed wejściem do bram Miasta Meksyk. Z baterii ustawionych w Molino del Rey i na południu lasu otworzyły ciągły ogień artyleryjski na te właśnie mury. Wewnątrz twierdzy było zaledwie około ośmiuset meksykańskich żołnierzy, wspieranych przez batalion San Blas, oraz blisko pięćdziesięciu młodych kadetów, którzy nie chcieli opuścić swojej szkoły, choć dyrektor, generał Nicolás Bravo, rozkazał im odejść wraz z rodzinami. Wielu z nich było jeszcze niemal dziećmi: Francisco Márquez miał zaledwie trzynaście lat. Następnego ranka, kiedy ustał ostrzał, a oddziały najeźdźców wspinały się na wzgórze po drabinach szturmowych wśród dymu prochu, ten dziedziniec i [górne tarasy](chap_25_terraza_ninos_heroes) stały się polem rozpaczliwej walki na bagnety. Dziesięciolecia po tej bitwie, w tysiąc dziewięćset trzydziestym dziewiątym roku, prezydent Lázaro Cárdenas zadecydował dekretem, że Zamek przestanie być domem władców i zostanie oddany ludowi jako siedziba Narodowego Muzeum Historii, którego sale znajdują się tuż za drzwiami naprzeciw ciebie."
+    },
+    "retos_observacion": {
+      "hash": "bcfc900c3ebab971",
+      "texto": [
+        "Podejdź do dział na dziedzińcu i poszukaj rytów oraz herbów odlanych w spiżu",
+        "Przyjrzyj się surowej, wojskowej symetrii łuków i balkonów budynku Kolegium",
+        "Wychyl się nad parapet dziedzińca, aby zrozumieć, jaką przewagę widokową nad doliną dawała ta esplanada"
+      ]
+    },
+    "especificaciones": {
+      "hash": "55ace62d522e97f5",
+      "texto": {
+        "Okres": "XIX wiek (okres Kolegium Wojskowego, 1841-1847 i 1883-1913)",
+        "Bitwa historyczna": "12 i 13 września 1847",
+        "Dekret o utworzeniu Narodowego Muzeum Historii": "3 lutego 1939 (prezydent Lázaro Cárdenas)",
+        "Otwarcie muzeum": "27 września 1944",
+        "Wyróżniające się elementy": "Spiżowe działa artyleryjskie i neoklasycystyczna wojskowa fasada"
+      }
+    },
+    "faq_mito": {
+      "hash": "63e8a5681ad7a1d5",
+      "texto": {
+        "pregunta": "Mit: Lázaro Cárdenas mieszkał w Zamku Chapultepec przez całą kadencję, zanim zamienił go w muzeum.",
+        "respuesta": "Rzeczywistość: Cárdenas odmówił zamieszkania w zamku, uznając go za symbol monarchii i imperium, oddalony od ludu; przeniósł oficjalną rezydencję do Los Pinos i przekształcił cały budynek w muzeum publiczne."
+      }
+    }
+  }
+}

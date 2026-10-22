@@ -1,0 +1,55 @@
+{
+  "id": "chap_01_rampa",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d9f43da925a1471b",
+      "texto": "Chapultepec: wzgórze konika polnego i jego źródła"
+    },
+    "frase_gancho": {
+      "hash": "9604ddc6f2cdd70d",
+      "texto": "Zanim stało się zamkiem, to wzgórze było źródłem słodkiej wody, która utrzymywała przy życiu stolicę Mexica."
+    },
+    "puente_narrativo": {
+      "hash": "405a650038748245",
+      "texto": "Idź dalej drogą na szczyt wzgórza. Wkrótce dotrzesz do głównego wejścia do Zamku, gdzie zaczyna się historia budowli."
+    },
+    "guion_corto": {
+      "hash": "ceeae5ec271316a8",
+      "texto": "Nazwa Chapultepec pochodzi z nahuatl od słów chapulin, które oznacza konika polnego, i tepetl, które oznacza wzgórze. Końcowe c wskazuje miejsce, więc nazwa znaczy na wzgórzu konika polnego. Mieszkali tu ludzie już jakieś trzy tysiące lat temu, na brzegu dawnego jeziora Texcoco. Mexica uznali to miejsce za święte i strategiczne od założenia Tenochtitlan w roku tysiąc trzysta dwudziestym piątym. Powód był praktyczny: ze wzgórza tryskały źródła słodkiej wody, a wody z jeziora nie dało się pić. Akwedukt doprowadzał ten skarb aż do stolicy. Kiedy idziesz pod górę, pamiętaj, że wspinasz się po górze wody, na długo zanim powstał pałac."
+    },
+    "guion_largo": {
+      "hash": "5849bab9a26294c8",
+      "texto": "Ta droga pod górę przecina kilka warstw historii, a najstarsza z nich nie ma murów. To woda.\n\nZnaleziono tu ceramikę i pochówki z okresu Preklasyk, z czasów między rokiem dwa tysiące pięćset przed Chrystusem a rokiem dwusetnym po Chrystusie. Pokazują one, że mieszkali tu ludzie już jakieś trzy tysiące lat temu. Wybrali brzeg dawnego jeziora Texcoco, obok wzgórza, które górowało nad krajobrazem.\n\nMexica poznali to miejsce podczas swojej długiej wędrówki. Zatrzymali się tu na jakiś czas, dopóki nie wypędzili ich Chalcowie i Xochimilcowie. Gdy założyli Tenochtitlan, znów spojrzeli w tę stronę. Narodowe Muzeum Historii wyjaśnia, że Chapultepec uważano za miejsce święte i strategiczne ze względu na jego źródła. Badanie UNAM przypomina szczegół, który wszystko tłumaczy: woda z jeziora Texcoco nie nadawała się do picia. Bez tych źródeł stolica Mexica cierpiałaby pragnienie.\n\nDlatego zbudowano akwedukty, choć źródła nie są całkiem zgodne co do dat. Opracowanie INAH podaje, że mieszkańcy Texcoco doprowadzili wodę do miasta w roku tysiąc czterysta sześćdziesiątym szóstym. Stało się to z rozkazu Nezahualcóyotla, za rządów Moctezumy Ilhuicaminy. Inne doniesienia INAH mówią o pierwszym prostym kanale z trzciny, kamieni i błota, około roku tysiąc czterysta osiemnastego. Jasne jest natomiast, do czego służył: doprowadzał słodką wodę do miasta zbudowanego na jeziorze.\n\nWzgórze służyło też temu, by zostawić po sobie pamięć. INAH informuje, że władcy Mexica kazali wykuć swoje wizerunki w pobliskich skałach. Tekst z Instytutu Badań Historycznych UNAM dodaje, że wiele z tych obrazów zniszczyło się z biegiem wieków.\n\nWoda była także bronią. Podczas oblężenia Tenochtitlan wojska hiszpańskie pod dowództwem Cristóbala de Olida zniszczyły pierwszy akwedukt z Chapultepec. Kilka lat później, w roku tysiąc pięćset trzydziestym, dekret cesarza Karola Piątego oddał las Miastu Meksyk. Drzewa o grubych pniach, które rosną u stóp wzgórza, to ahuehuete, słowo w nahuatl, które oznacza starca wody. Wspomina o nich już list wicekróla Antonia de Mendozy z roku tysiąc pięćset trzydziestego siódmego. Tradycja przypisuje Nezahualcóyotlowi zasadzenie najstarszych z nich.\n\nNa szczyt pałac trafił dopiero po jakimś czasie. Według muzeum wybuch prochu zniszczył w roku tysiąc siedemset osiemdziesiątym czwartym letnią rezydencję pewnego wicekróla. Stała ona u stóp wzgórza. Rok później Bernardo de Gálvez rozpoczął budowę nowego pałacu na szczycie. To początek Zamku, który zaraz zwiedzisz.\n\nOd tamtej pory te zbocza widziały kadetów, cesarzy i prezydentów. W bitwie w roku tysiąc osiemset czterdziestym siódmym batalion San Blas był jedynym posiłkiem obrońców. Według Narodowego Instytutu Studiów Historycznych nad Rewolucjami Meksyku zdołał wspiąć się tylko do pierwszej rampy.\n\nWięc zanim dojdziesz do bramy, zapamiętaj tę myśl: wzgórze było najpierw źródłem, potem chronionym lasem, a znacznie później pałacem. Teraz czeka na ciebie [główne wejście do kompleksu](chap_02_fachada_puerta)."
+    },
+    "retos_observacion": {
+      "hash": "d2fe29701143e71d",
+      "texto": [
+        "Poszukaj wśród drzew w lesie jakiegoś ahuehuete, które poznasz po grubym pniu i zwisających gałęziach",
+        "Zwróć uwagę, jak wznosi się droga, i zobacz, ile lasu zostaje u twoich stóp",
+        "Spójrz na horyzont i wyobraź sobie dolinę z jeziorem Texcoco, którego dziś już nie widać"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e5520fd6148063d",
+      "texto": {
+        "Nazwa": "Chapultepec, z nahuatl chapulin (konik polny) i tepetl (wzgórze): na wzgórzu konika polnego",
+        "Dawne osadnictwo": "ceramika i pochówki z okresu Preklasyk, od 2500 roku przed Chrystusem do 200 roku po Chrystusie",
+        "Znaczenie dla Mexica": "miejsce święte i strategiczne ze względu na źródła, od założenia Tenochtitlan w 1325 roku",
+        "Las miejski": "dekret Karola V, 1530",
+        "Kluczowy fakt": "w 1785 roku wicekról Bernardo de Gálvez rozpoczął budowę pałacu na szczycie"
+      }
+    },
+    "faq_mito": {
+      "hash": "bc68ce1c15e2ac94",
+      "texto": {
+        "pregunta": "Mit: Zamek Chapultepec zbudował cesarz Maksymilian.",
+        "respuesta": "Rzeczywistość: Budowę rozpoczęto w 1785 roku za wicekróla Bernarda de Gálveza. Maksymilian i Carlota mieszkali w nim od 1864 do 1867 roku i przekształcili go w pałac."
+      }
+    }
+  }
+}

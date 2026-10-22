@@ -1,0 +1,22 @@
+{
+  "id": "chap-02-museo-historia",
+  "tipo": "sala",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "ffbfbecd1ac16f2f",
+      "texto": "Muzeum Historii (dawna Akademia Wojskowa)"
+    },
+    "frase_gancho": {
+      "hash": "d97128f016e6c65d",
+      "texto": "Budynek, który był szkołą wojskową, obserwatorium i rezydencją, dziś opowiada historię Meksyku jako Narodowe Muzeum Historii."
+    },
+    "introduccion_narrativa": {
+      "hash": "77af98a7d4cd4c49",
+      "texto": "Zanim stała się muzeum, ta część budynku była szkołą. Po pracach rozpoczętych w roku tysiąc osiemset czterdziestym pierwszym zamek został przystosowany na Akademię Wojskową. Był areną obrony z trzynastego września tysiąc osiemset czterdziestego siódmego roku, która poważnie uszkodziła budynek. Akademia nie pozostała tu jednak na zawsze. Według historyka Michaela Drewesa w roku tysiąc osiemset pięćdziesiątym ósmym generał Miramón przeniósł uczniów. Szkoła wróciła około roku tysiąc osiemset osiemdziesiątego drugiego. Narodowe Muzeum Historii dodaje jeszcze jeden szczegół. W roku tysiąc osiemset osiemdziesiątym trzecim obserwatorium przeniosło się do Tacubaya, aby zamek mógł znów być Akademią Wojskową. Czas muzeum nadszedł za prezydenta Lázara Cárdenasa, który przeniósł swoją oficjalną rezydencję do Los Pinos. Trzeciego lutego tysiąc dziewięćset trzydziestego dziewiątego roku ogłoszono go Narodowym Muzeum Historii. Otwarto je dwudziestego siódmego września tysiąc dziewięćset czterdziestego czwartego roku."
+    }
+  }
+}

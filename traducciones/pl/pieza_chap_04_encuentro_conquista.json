@@ -1,0 +1,54 @@
+{
+  "id": "chap_04_encuentro_conquista",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "478bfdd9e731deee",
+      "texto": "Dwa światy i Tzompantli z Tecoaque"
+    },
+    "frase_gancho": {
+      "hash": "c9e86832374112c3",
+      "texto": "Dwanaście przebitych czaszek z roku tysiąc pięćset dwudziestego pierwszego, które potwierdzają najokrutniejsze kroniki Podboju."
+    },
+    "puente_narrativo": {
+      "hash": "2b223e60afd5db89",
+      "texto": "Przejdź do następnej sali, gdzie huk wojny ustępuje miejsca trzem wiekom statków wyładowanych srebrem, manilskimi jedwabiami i wicekrólewskimi hacjendami."
+    },
+    "guion_corto": {
+      "hash": "5532a0891bb67dc3",
+      "texto": "Gdy przekraczasz drzwi dawnej Akademii Wojskowej, wchodzisz do pierwszych sal Narodowego Muzeum Historii, poświęconych zderzeniu dwóch światów, które do końca piętnastego wieku żyły oddzielone oceanem. Wśród żelaznych zbroi, kastylijskich mieczy i przedhiszpańskich płaskorzeźb zatrzymaj się przed najbardziej wstrząsającą gablotą w sali: Tzompantli, czyli ołtarzem czaszek z Tecoaque w Tlaxcali. Zobaczysz tam w rzędzie dwanaście prawdziwych czaszek przebitych na skroniach w roku tysiąc pięćset dwudziestym pierwszym: pięć należy do hiszpańskich żołnierzy z karawany Juana de Yuste, a siedem do tubylczych wojowników z Cempoali, którzy szli jako sojusznicy Hernána Cortésa."
+    },
+    "guion_largo": {
+      "hash": "88e53afaa19ebbcd",
+      "texto": "Aby zrozumieć tę salę, trzeba spojrzeć na obie strony bez różowych i czarnych legend, tak jak pokazują to eksponaty przed tobą. Po stronie mezoamerykańskiej nie istniał jeden zjednoczony kraj, lecz mozaika samodzielnych władztw, czyli altépetl; Mexikowie panowali bronią nad dużą częścią terytorium, pobierali daniny i chwytali wojowników na ofiary, co zasiało głęboką urazę wśród podbitych ludów, które wkrótce miały sprzymierzyć się z nowo przybyłymi. Po drugiej stronie Atlantyku przypłynęli ludzie zahartowani wiekami wojen z islamem w rekonkwiście Granady oraz ocaleńcy z Europy dotkniętej głodem i epidemiami, gdzie jedno na troje dzieci umierało przed ukończeniem pierwszego roku życia. Kiedy w roku ce-ácatl tysiąc pięćset dziewiętnastego do uszu Moctezumy Xocoyotzina dotarły wieści, że na morzu unoszą się wieże albo małe wzgórza, tlatoani uwierzył, że spełnia się osiem wróżb o powrocie Quetzalcóatla. Ale wojna, która wybuchła w roku tysiąc pięćset dwudziestym pierwszym, była bezlitosna dla obu stron: gdy Acolhuowie z Tecoaque pojmali hiszpańską karawanę zmierzającą z Veracruz do Tenochtitlanu, złożyli jeńców w ofierze, a ich głowy nadziali na ten Tzompantli, odkryty przez archeologów w maju tysiąc dziewięćset dziewięćdziesiątego trzeciego roku, zanim Cortés wysłał Gonzala de Sandovala, by w odwecie zrównał osadę z ziemią."
+    },
+    "retos_observacion": {
+      "hash": "45271f30ff5dac4b",
+      "texto": [
+        "Podejdź do gabloty z Tzompantli z Tecoaque i policz dwanaście czaszek przebitych z boku, aby nawlec je na drewnianą belkę",
+        "Przyjrzyj się stalowej broni, hełmom i napierśnikom z Europy, które kontrastują z mezoamerykańskimi rzeźbami w kamieniu",
+        "Poszukaj tabliczek objaśniających znaczenie słowa altépetl (woda-góra) oraz osiem wróżb Moctezumy"
+      ]
+    },
+    "especificaciones": {
+      "hash": "785c6f120c4eb30e",
+      "texto": {
+        "Główny eksponat": "Tzompantli („mur czaszek”) z Tecoaque (dawniej Zultepec), Tlaxcala",
+        "Datowanie szczątków": "Początek 1521 roku (odkryte w maju 1993 roku)",
+        "Skład znaleziska": "12 czaszek (5 należących do Hiszpanów z oddziału Juana de Yuste i 7 należących do tubylczych sojuszników z Cempoali)",
+        "Lokalizacja": "Sala 1 i Sala 2 (Dwa odizolowane kontynenty / W przededniu kontaktu), Parter MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "3e98c041d6edf348",
+      "texto": {
+        "pregunta": "Mit: W 1519 roku istniał jeden zjednoczony naród meksykański, a wszystkie ludy tubylcze wspólnie broniły Moctezumy przed Hiszpanami.",
+        "respuesta": "Rzeczywistość: Mezoameryka była podzielona na niezależne władztwa, czyli altépetl; surowy system danin i wojen o jeńców narzucony przez Mexików sprawił, że Cempoalteków, Tlaxcalteków i inne ludy zobaczyły w Hiszpanach szansę na uwolnienie się od Tenochtitlanu."
+      }
+    }
+  }
+}

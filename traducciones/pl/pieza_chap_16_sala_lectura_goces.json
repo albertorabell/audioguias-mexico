@@ -1,0 +1,55 @@
+{
+  "id": "chap_16_sala_lectura_goces",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c3af75998b97aa20",
+      "texto": "Sala Czytelni i Salon Gier"
+    },
+    "frase_gancho": {
+      "hash": "9817d7d29f811f67",
+      "texto": "Francuskie tapiserie przedstawiają bąki i zabawki zręcznościowe, a Sala Czytelni była dawniej salą bilardową."
+    },
+    "puente_narrativo": {
+      "hash": "c6da8431408543e9",
+      "texto": "Idź dalej do Salonu Ambasadorów, sali przyjęć dyplomatycznych Alkazaru."
+    },
+    "guion_corto": {
+      "hash": "e5ad5e299aeaa0f1",
+      "texto": "Na tapiseriach wykonanych we Francji widać bąk, zabawkę zręcznościową balero, badminton i kręgle. Według opisu w Salonie Gier Napoleon Trzeci podarował je Maksymilianowi na urodziny, szóstego lipca. Tam, jak podaje muzeum, władcy grali ze swoimi gośćmi w bowling, bilard, karty i szachy. Sala Czytelni przypomina inną stronę tej historii: Maksymilian nazwał swój pałac Miravalle, a w jego tarasach czytał i pisał dekrety oraz korespondencję. Zapisy, które przywołuje muzeum, pokazują jednak inne przeznaczenie tego pokoju. Była salą bilardową w roku tysiąc osiemset osiemdziesiątym drugim, w tysiąc dziewięćset szóstym i w tysiąc dziewięćset trzydziestym drugim."
+    },
+    "guion_largo": {
+      "hash": "7bfa1347b3ea548a",
+      "texto": "Łatwo wyobrazić sobie Maksymiliana czytającego w tym pokoju, ale zapisy mówią co innego. Muzeum przywołuje wykazy zajmowania budynku. W roku tysiąc osiemset siedemdziesiątym siódmym sala czytelni figuruje jako pokój drugiego astronoma. W roku tysiąc osiemset osiemdziesiątym drugim, tysiąc dziewięćset szóstym i tysiąc dziewięćset trzydziestym drugim jako sala bilardowa. To lata obserwatorium znanego ci już ze [Schodów Lwów](chap_13_escalera_leones). Muzeum mówi natomiast z pewnością, że Maksymilian czytał i pisał na tarasach swojego pałacu. Tam załatwiał dekrety i korespondencję. Pałac nazwał Miravalle.\n\nNazwa Miravalle mówi wszystko: miejsce, z którego patrzy się na dolinę. Opis przypomina także rodowe motto Habsburgów, po łacinie: Austria est imperare orbi universo. Znaczy ono, że to Austrii przypada rządzenie całym światem. Oficjalna strona Habsburgów zwraca uwagę, że taka interpretacja pojawiła się później. Fryderyk Trzeci, cesarz z piętnastego wieku, który używał pięciu samogłosek jako dewizy, nigdy nie wyjaśnił ich znaczenia. Zaproponowano ponad trzysta interpretacji.\n\nTapiserie w Salonie Gier są lżejsze w tonie. Według muzeum wykonano je we Francji, a Napoleon Trzeci podarował je Maksymilianowi na urodziny, szóstego lipca. Przedstawiają gry i zabawy, takie jak bąk, zabawka zręcznościowa balero, badminton i kręgle. Muzeum wspomina też o innej sali z tapiseriami z Aubusson, opartymi na bajkach Jeana de La Fontaine’a, które także były darem tego samego Napoleona Trzeciego. To Salon Gobelinów.\n\nZapisy muzeum pokazują, jak zmieniało się przeznaczenie sal. W roku tysiąc osiemset osiemdziesiątym drugim jeden z salonów figuruje jako sala tresillo, gry karcianej. W tysiąc dziewięćset szóstym jako salonik gier, a w tysiąc dziewięćset trzydziestym drugim jako sala gier. Według muzeum władcy grali ze swoimi gośćmi w bowling, bilard, karty i szachy.\n\nTo życie w dostatku miało swoją nowoczesną stronę za rządów Porfirio Díaza. Muzeum opowiada, że Díaz zainstalował w zamku windy i kręgielnię. A w sierpniu tysiąc osiemset dziewięćdziesiątego szóstego roku przyjął tam wysłanników braci Lumière, którzy pokazali mu kinematograf. Według artykułu z „Magazynu Uniwersytetu” przyszła niewielka grupa około dwudziestu osób z kręgu jego rodziny. Pokaz zaczął się wcześnie i na prośbę publiczności przeciągnął się do pierwszej w nocy. Artykuł nie precyzuje, w którym salonie to było. Díaz i jego bliscy zgodzili się dać sfilmować. Podczas drugiego seansu, dwudziestego piątego sierpnia, wyświetlono filmy, które artykuł opisuje jako pierwsze filmy nakręcone w Meksyku.\n\nZ urodzin Maksymiliana zachował się jeszcze jeden ślad. Według „Magazynu Dwusetlecia” bankiet urodzinowy zaczął się o szóstej po południu. Było to szóstego lipca tysiąc osiemset sześćdziesiątego piątego roku. Magazyn nie precyzuje, w której rezydencji się odbył. Tak splatają się dary Napoleona Trzeciego, uroczystości Cesarstwa i salonowe gry.\n\nDalej [Salon Ambasadorów](chap_17_salon_embajadores) pokazuje bardziej oficjalną stronę tego domu."
+    },
+    "retos_observacion": {
+      "hash": "49ef68730774c12d",
+      "texto": [
+        "Poszukaj na tapiseriach bąka, zabawki zręcznościowej balero, badmintona i kręgli, czyli gier, o których wspomina muzeum",
+        "Zwróć uwagę na światło w sali i wyobraź sobie, że piszesz tu dekrety albo na tarasie",
+        "Porównaj rozmiar tej przestrzeni z jadalnią: zmieści się w niej duża grupa czy kameralne grono?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bf15c968ad3ac598",
+      "texto": {
+        "Pałac": "Miravalle, nazwa nadana przez Maksymiliana, według MNH",
+        "Tapiserie": "wykonane we Francji; dar Napoleona III dla Maksymiliana na urodziny, 6 lipca",
+        "Przedstawione gry": "bąk, balero, badminton i kręgle",
+        "Dawne funkcje odnotowane przez MNH": "pokój drugiego astronoma (1877); sala bilardowa (1882, 1906 i 1932); sala tresillo (1882)",
+        "Lokalizacja": "Alkazar"
+      }
+    },
+    "faq_mito": {
+      "hash": "064b24ca5cd741a0",
+      "texto": {
+        "pregunta": "Mit: Sala Czytelni zawsze była prywatną biblioteką Maksymiliana.",
+        "respuesta": "Rzeczywistość: Według zapisów, które przywołuje Narodowe Muzeum Historii, w 1877 roku był to pokój drugiego astronoma, a w latach 1882, 1906 i 1932 figuruje jako sala bilardowa; o Maksymilianie wiadomo, że czytał i pisał na tarasach swojego pałacu."
+      }
+    }
+  }
+}

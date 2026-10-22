@@ -1,0 +1,55 @@
+{
+  "id": "chap_23_jardin_alcazar",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f21edc01e541b6db",
+      "texto": "Ogród Alkazaru"
+    },
+    "frase_gancho": {
+      "hash": "c035e123c0b6b0b7",
+      "texto": "Maksymilian mawiał, że szczęściem jest budowanie zamków z tarasami ogrodowymi, i z tej myśli narodził się ten kameralny ogród."
+    },
+    "puente_narrativo": {
+      "hash": "364745cc532e5f44",
+      "texto": "Ruszaj dalej w stronę najwyższego punktu wzgórza, gdzie wznosi się baszta Wysokiego Rycerza."
+    },
+    "guion_corto": {
+      "hash": "29fcd6e89058d10c",
+      "texto": "Budować zamki z tarasami ogrodowymi. Tak według tabliczki informacyjnej w muzeum Maksymilian Habsburg określał szczęście. Z zamiłowania botanik, zamienił to miejsce w kameralny ogród, otoczony korytarzami z lekkimi dachami wspartymi na smukłych żelaznych kolumnach. Tutaj słuchał korespondencji i ją dyktował. Ogród otwierał się na widok Lasu Chapultepec, jak w pałacach europejskich. W korytarzu północnym Santiago Rebull namalował Bachantki. To postacie w stylu pompejańskim, które uderzają w tamburyn, tańczą obok lwicy albo trzymają gałęzie winorośli. A na tarasie południowym stoi Fontanna Konika Polnego, dzieło rzeźbiarza Luisa Albarrána. Wśród malowideł, żelaza i roślin ogród zaprojektowano do czytania, pisania i odpoczynku."
+    },
+    "guion_largo": {
+      "hash": "2652f4509932ebcf",
+      "texto": "Kiedy Maksymilian i Charlotta przybyli do Chapultepec, wybrali pokoje na parterze, wychodzące na wschód. Dlatego kazali zbudować przed nimi taras widokowy, z którego widać było Miasto Meksyk, jezioro Texcoco i wulkany. Ogród, po którym teraz spacerujesz, jest kolejnym elementem tego samego pomysłu. Artykuł UNAM opisuje go jako ogród w stylu klasycznym na górnym tarasie zamku. Według tego tekstu zaprojektował go sam Maksymilian. Wykonali go austriacki architekt Julius Hofmann i cesarski ogrodnik Wilhelm Knechtel.\n\nPrace adaptacyjne, które zamieniły budynek w pałac, prowadził Ramón Rodríguez Arangoity, meksykański architekt i były uczeń Kolegium Wojskowego. Według muzeum obejmowały centralny portyk, loggię z żelaznymi kolumnami i nowy projekt ogrodów. Innymi słowy, żelazo i rośliny zaplanowano razem.\n\nNazwisko Knechtela pojawia się w wielu opowieściach o zamku. Narodowe Muzeum Historii opowiada, że ten austriacki botanik zaprojektował ogrody na nowo. Przypomina też słowa Charlotty: efekt zawdzięczano bardziej ręce Maxa. To przydatna wskazówka dla tych, którzy wyobrażają sobie, że to cesarzowa była ogrodniczką zamku.\n\nMaksymilian miał osobiste powody, by poświęcać temu miejscu czas. Według tabliczki informacyjnej przy ogrodzie był miłośnikiem botaniki. Poza tym korzystał z korytarza, by dyktować i słuchać swojej korespondencji. Aby pójść tym tropem, odwiedź [salę czytelni](chap_16_sala_lectura_goces). Muzeum wiąże ją z jego pałacem Miramare i z ideą czytania i pisania na tarasach.\n\nKorytarz północny kryje historię z dwóch epok. Santiago Rebull, ulubiony malarz dworu, namalował tam cztery Bachantki w roku tysiąc osiemset sześćdziesiątym piątym. Prawie trzydzieści lat później, w roku tysiąc osiemset dziewięćdziesiątym czwartym, gdy prezydentem był Porfirio Díaz, wrócił, by namalować jeszcze dwie. Rebull miał wtedy sześćdziesiąt pięć lat. Malowidła naśladują styl pompejański i są wykonane farbą olejną na lśniącym podłożu z wapna i pyłu marmurowego. Ten sam malarz pracował więc dla cesarstwa i dla porfiriatu, z odstępem prawie trzech dekad.\n\nWraz z upływem czasu ogród i jego okolice zmieniły funkcję. W roku tysiąc osiemset siedemdziesiątym ósmym powiększono taras na potrzeby obserwatorium i otwarto wejście na Piętro górne. Potem, z inicjatywy Díaza, to wejście zamieniono w [Schody Lwów](chap_13_escalera_leones), z białego marmuru i mosiężną poręczą. Muzeum wyjaśnia, że około roku tysiąc dziewięćset piętnastego, na polecenie Venustiana Carranzy, przebudowano je ponownie. [Witraże galerii](chap_14_vitrales_emplomados), wykonane w Paryżu około roku tysiąc dziewięćsetnego, dopełniają obrazu tego, jak każda epoka zostawiła swój ślad.\n\nJeszcze jedna myśl o krajobrazie. Tabliczka informacyjna wyjaśnia, że ogród wizualnie łączył się z lasem, tak jak w pałacach europejskich. Ze szczytu ponadto panuje się nad Doliną Meksyku, z Sierra Nevada na wschodzie. Dlatego to miejsce nie jest tylko ogrodem: to sposób, by wprowadzić cały krajobraz do wnętrza pałacu."
+    },
+    "retos_observacion": {
+      "hash": "945efeb904bc3394",
+      "texto": [
+        "Zwróć uwagę na korytarze z lekkimi dachami wspartymi na smukłych żelaznych kolumnach",
+        "Poszukaj w korytarzu północnym malowideł w stylu pompejańskim z postaciami, które tańczą, uderzają w tamburyn albo trzymają gałęzie winorośli",
+        "Znajdź Fontannę Konika Polnego na tarasie południowym i zobacz, jak ogród otwiera się na las"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a9bfeb7bc84c95a2",
+      "texto": {
+        "Epoka": "Drugie Cesarstwo, 1864-1867",
+        "Projekt": "Maksymilian Habsburg; wykonanie przypisywane Juliusowi Hofmannowi i ogrodnikowi Wilhelmowi Knechtelowi",
+        "Bachantki z korytarza północnego": "Santiago Rebull, 1865 i 1894",
+        "Fontanna Konika Polnego": "Luis Albarrán, taras południowy",
+        "Lokalizacja": "wewnętrzny ogród Alkazaru"
+      }
+    },
+    "faq_mito": {
+      "hash": "cd46a51647312b80",
+      "texto": {
+        "pregunta": "Mit: Ogród Alkazaru był kaprysem cesarzowej Charlotty.",
+        "respuesta": "Rzeczywistość: Narodowe Muzeum Historii przywołuje samą Charlottę, która napisała, że efekt zawdzięczano bardziej ręce Maxa; tabliczka informacyjna opisuje go jako miłośnika botaniki, a artykuł UNAM przypisuje projekt Maksymilianowi."
+      }
+    }
+  }
+}

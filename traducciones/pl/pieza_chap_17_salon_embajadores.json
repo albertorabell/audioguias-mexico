@@ -1,0 +1,55 @@
+{
+  "id": "chap_17_salon_embajadores",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5bcc9bda2318d2a5",
+      "texto": "Salon Ambasadorów"
+    },
+    "frase_gancho": {
+      "hash": "049a0c9979c65a3a",
+      "texto": "Francuski dywan z utkanym widokiem tego samego Zamku zdobił salon, w którym Porfirio Díaz przyjmował dyplomatów."
+    },
+    "puente_narrativo": {
+      "hash": "8b299b373439964b",
+      "texto": "Idź dalej do Salonu Gobelinów, sąsiedniej sali, w której dar Napoleona III dla Maksymiliana opowiada inną historię."
+    },
+    "guion_corto": {
+      "hash": "8c323626d8db469c",
+      "texto": "Ten salon wielokrotnie zmieniał przeznaczenie. Narodowe Muzeum Historii prowadzi oś czasu każdego pomieszczenia. W tysiąc osiemset sześćdziesiątym szóstym roku był to salon Carloty i sala bilardowa. W tysiąc osiemset osiemdziesiątym drugim roku, za prezydenta Manuela Gonzáleza, służył jako sala balowa. W tysiąc dziewięćset szóstym roku figuruje już jako wielki salon Porfirio Díaza. Nazwa, którą nosi dziś, wywodzi się z jego funkcji w tamtych czasach: przyjmowania zagranicznych dyplomatów. Wystrój w stylu francuskim jest dziełem Epitacia Calvo. Meble utrzymane są w guście Ludwika Szesnastego, a dywan z manufaktury Aubusson przedstawia widok Zamku."
+    },
+    "guion_largo": {
+      "hash": "cf4dfdce6a907cdc",
+      "texto": "Muzea zwykle pokazują salony tak, jakby zawsze wyglądały tak samo. Ten nie. Oś czasu, która towarzyszy salom Alkazaru, odnotowuje dla tego pomieszczenia szereg zastosowań, których prawie nikt by nie odgadł. W tysiąc osiemset sześćdziesiątym szóstym roku mieszkali tu jeszcze Maksymilian i Carlota. Dla tego roku rejestr mówi o salonie cesarzowej i o sali bilardowej. W tysiąc osiemset siedemdziesiątym siódmym roku pojawia się Departament i Dyrekcja Meteorologiczna. Były to lata pierwszego Narodowego Obserwatorium Astronomicznego. Zainstalowano je w Zamku w tysiąc osiemset siedemdziesiątym ósmym roku, a w tysiąc osiemset osiemdziesiątym trzecim przeniesiono do Tacubaya. W tysiąc osiemset osiemdziesiątym drugim roku, za rządów Manuela Gonzáleza, mieściła się tu sala balowa z aneksem.\n\nDopiero za Porfirio Díaza to miejsce stało się wielkim salonem. Muzeum wyjaśnia, że Díaz chciał pokazać postęp artystyczny i technologiczny Meksyku, a to pragnienie widać w całym Alkazarze. Kazał zainstalować windy i zamienił sąsiedni las w park publiczny. Zamówił ponadto w Paryżu witraże do [Galerii Witraży Ołowiowych](chap_14_vitrales_emplomados), wykonane około tysiąc dziewięćsetnego roku. Salon do przyjmowania zagranicznych dyplomatów doskonale pasował do tego zamysłu.\n\nWystrój, według tabliczki informacyjnej, jest w stylu francuskim i łączy elementy barokowe i neoklasyczne. Jego autorem jest Epitacio Calvo. Meble utrzymane są w stylu Ludwika Szesnastego. Styl ten bierze nazwę od francuskiego króla z osiemnastego wieku i rozpoznaje się go po liniach prostszych i bardziej powściągliwych niż w baroku. Muzeum wskazuje, że zarówno meble, jak i dywan wyprodukowano we Francji. Był to europejski gust, który przyjęły wyższe warstwy tamtej epoki.\n\nDywan zasługuje na osobne spojrzenie. Pochodzi z manufaktury Aubusson, od wieków słynnej ze swoich tkanin ściennych, i przedstawia widok samego Zamku. To znaczy, że budynek jest ukazany wewnątrz samego siebie, jak w utkanym lustrze.\n\nWarto nie wyobrażać sobie Díaza mieszkającego tu przez cały rok. Według muzeum jego rodzina przez większą część roku mieszkała w domu przy ulicy La Cadena, dziś Venustiano Carranza. Zamek służył latem do balów i przyjęć. Przy takich okazjach gościł tu cały świat. Pokoje rodziny łączyły się wewnętrznymi schodami, otwartymi za Manuela Gonzáleza. Była też winda elektryczna, z której korzystał wyłącznie prezydent i jego bliscy. [Schody Lwów](chap_13_escalera_leones) natomiast były przeznaczone dla gości.\n\nPotem przyszły kolejne zmiany. W tysiąc dziewięćset trzydziestym dziewiątym roku prezydent Lázaro Cárdenas oddał Zamek narodowi. Narodowe Muzeum Historii otworzyło swoje podwoje w tysiąc dziewięćset czterdziestym czwartym roku. Dziś zamiast ambasadorów przechodzą tędy zwiedzający ze słuchawkami, tacy jak ty. Jeśli zatrzymasz się na chwilę, pomyśl, ile wersji tego pokoju mieści się między jedną datą a drugą: salon cesarzowej, sala bilardowa, sala balowa i salon recepcyjny."
+    },
+    "retos_observacion": {
+      "hash": "2ad6eb1fe801ec71",
+      "texto": [
+        "Poszukaj na dywanie widoku samego Zamku",
+        "Zwróć uwagę na nogi i oparcia mebli: styl Ludwika Szesnastego preferuje linie proste",
+        "Poszukaj tabliczki informacyjnej, która wymienia nazwisko dekoratora, Epitacia Calvo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e1b8acc0b9ffeaf",
+      "texto": {
+        "Epoka": "Porfiriat; muzeum odnotowuje to pomieszczenie jako wielki salon w 1906 roku",
+        "Wystrój": "styl francuski z elementami barokowymi i neoklasycznymi, autorstwa Epitacia Calvo",
+        "Meble": "styl Ludwika XVI, wyprodukowane we Francji",
+        "Dywan": "manufaktura Aubusson, Francja, z widokiem Zamku",
+        "Funkcja": "przyjmowanie zagranicznych dyplomatów za prezydentury Porfirio Díaza"
+      }
+    },
+    "faq_mito": {
+      "hash": "1376eab2f35e9a3d",
+      "texto": {
+        "pregunta": "Mit: To salon, w którym Maksymilian i Carlota przyjmowali ambasadorów Cesarstwa.",
+        "respuesta": "Rzeczywistość: według Narodowego Muzeum Historii salon gościł zagranicznych dyplomatów za prezydentury Porfirio Díaza, a oś czasu muzeum odnotowuje to pomieszczenie w tysiąc osiemset sześćdziesiątym szóstym roku jako salon Carloty i salę bilardową."
+      }
+    }
+  }
+}

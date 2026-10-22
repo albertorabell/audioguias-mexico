@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_48_templo_ensenanza",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "de63cb6607344e3b",
+      "texto": "Świątynia Nauczania, szkoła dla dziewcząt w Nowej Hiszpanii"
+    },
+    "frase_gancho": {
+      "hash": "d9aa1917a450452b",
+      "texto": "Nad drzwiami jest okno w kształcie gwiazdy, a w nim ukazuje się Matka Boża z Pilar."
+    },
+    "puente_narrativo": {
+      "hash": "e697dc790e84dc31",
+      "texto": "Przejdź kilka kroków tą samą ulicą Donceles do [Muzeum Karykatury](cdmx_49_museo_caricatura), mieszczącego się w dawnym Kolegium Chrystusa."
+    },
+    "como_llegar": {
+      "hash": "a47a8e1fa4f733a0",
+      "texto": "Idź dalej ulicą Donceles, w którą zamienia się Justo Sierra po przecięciu República de Argentina, aż do [Świątyni Nauczania](cdmx_48_templo_ensenanza)."
+    },
+    "guion_corto": {
+      "hash": "21b8cb2dc3d44207",
+      "texto": "Nad głównym wejściem jest okno w kształcie rozszerzającej się gwiazdy. Oświetla chór i otacza wizerunek Matki Bożej z Pilar. To detal autorstwa Francisca Guerrero y Torresa, architekta, któremu w tysiąc siedemset siedemdziesiątym drugim roku zlecono budowę tej świątyni. Mieścił się tu klasztor i kolegium Towarzystwa Maryi, znane jako Nauczanie, założone przez matkę María Ignacia Azlor. Była to jedna z najsłynniejszych szkół dla dziewcząt w Nowej Hiszpanii. Z pierwotnego, znacznie większego zespołu budynków przetrwała dziś świątynia, jeden z ostatnich wielkich budynków swojego stylu w mieście, obecnie parafia Matki Bożej z Pilar."
+    },
+    "guion_largo": {
+      "hash": "91476849d9fe82cf",
+      "texto": "Przyjrzyj się głównym drzwiom. Łuk jest niski, a środkowy kamień, zwornik, znajduje się niżej niż zwykle. Wyżej okno w kształcie rozszerzającej się gwiazdy oświetla chór. A pośrodku fasady stoi alabastrowa rzeźba Matki Bożej z Pilar. To wezwanie było nabożeństwem założycielki i od niego świątynia bierze nazwę.\n\nHistorię zaczyna María Ignacia Azlor. Była córką gubernatora Teksasu i Coahuili i chciała poświęcić się nauczaniu dziewcząt. Pojechała do Hiszpanii, aby wstąpić do Towarzystwa Maryi, zakonu oddanego nauczaniu. Pragnęła wspierać edukację dziewcząt ze wszystkich warstw społecznych. Jej klasztor i kolegium wzniesiono przy ulicy, która wówczas nazywała się Cordobanes, a dziś nosi nazwę Donceles.\n\nMatka María Ignacia zmarła, zanim zobaczyła świątynię. W tysiąc siedemset siedemdziesiątym drugim roku budowę kościoła zlecono Franciscowi Guerrero y Torresowi, wielkiemu architektowi osiemnastego wieku. To ten sam, który stworzył Kaplicę Studzienki i [Pałac Iturbide](cdmx_18_palacio_iturbide), który już znasz. Pracował tutaj od tysiąc siedemset siedemdziesiątego drugiego do tysiąc siedemset siedemdziesiątego ósmego roku. To umieszcza świątynię pod koniec okresu wicekrólewskiego, około czterech dekad przed niepodległością. Klasztor i kolegium przypisuje się Ignaciowi Castera, około tysiąc osiemset piątego roku.\n\nJeśli świątynia jest otwarta i zdecydujesz się wejść z szacunkiem, jej konstrukcja skrywa pewien trik. Łuk trójlistny podtrzymuje wysoki chór i pozwala na nawę bez kolumn, tak że nic nie zasłania widoku na ołtarz. Okna centralnego sklepienia również mają trzy listki, co uważa się za wyjątkowe w baroku meksykańskim.\n\nWe wnętrzu wyróżnia się ołtarz główny, uznawany za jedno z najlepszych dzieł Guerrero y Torresa. Na sklepieniu znajduje się fresk przedstawiający objawienie Matki Bożej z Pilar apostołowi Jakubowi. Obrazy Andrésa Lópeza towarzyszą ołtarzowi. Wejście i zwiedzanie z przewodnikiem się zmieniają, więc sprawdź aktualne godziny.\n\nJest jeszcze jeden ludzki szczegół. Miasto Meksyk pamięta, że w dwudziestym wieku społeczność hiszpańska na wygnaniu po wojnie domowej darzyła tę świątynię szczególnym nabożeństwem. Przychodziła tu co roku dwunastego października, w dniu Matki Bożej z Pilar.\n\nWraz z Prawami Reformy zespół utracił charakter kolegium i klasztoru. Dziś świątynia jest parafią Matki Bożej z Pilar i jest tym, co zostało z dużo większego zespołu, prawdopodobnie jednego z ostatnich budynków tego typu.\n\nPomyśl, czym była ta szkoła, miejsce stworzone, by kształcić dziewczęta. Była jedną z najsłynniejszych w Nowej Hiszpanii. Zaledwie kilka kroków dalej stoi inne kolegium z czasów wicekrólewskich, Chrystusa, które dziś mieści muzeum karykatury. Między nimi dwiema ulica Donceles opowiada historię edukacji w mieście."
+    },
+    "retos_observacion": {
+      "hash": "e6b7718cf00c993a",
+      "texto": [
+        "Znajdź okno w kształcie gwiazdy nad głównymi drzwiami",
+        "Odszukaj na fasadzie rzeźbę Matki Bożej z Pilar",
+        "Przyjrzyj się niskiemu łukowi drzwi wejściowych"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e050a53a7ec7ee87",
+      "texto": {
+        "Epoka": "świątynia zlecona w 1772 roku; budowa w latach 1772-1778",
+        "Architekt": "Francisco Guerrero y Torres; klasztor i kolegium przypisywane Ignaciowi Castera (1805)",
+        "Styl": "późne baroko nowohiszpańskie",
+        "Lokalizacja": "Donceles 102, Centrum Historyczne",
+        "Założycielka": "María Ignacia Azlor, Towarzystwo Maryi",
+        "Kluczowa informacja": "nawa bez kolumn dzięki chórowi wspartemu na łuku trójlistnym"
+      }
+    },
+    "faq_mito": {
+      "hash": "4835b7386d721684",
+      "texto": {
+        "pregunta": "Mit: Nauczanie, ze względu na swój stary wygląd, miałoby być jednym z pierwszych kościołów w mieście.",
+        "respuesta": "Rzeczywistość: Jego świątynię zlecono w 1772 roku, a prace trwały do 1778 roku, pod koniec okresu wicekrólewskiego."
+      }
+    }
+  }
+}

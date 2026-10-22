@@ -1,0 +1,56 @@
+{
+  "id": "chap_28_salon_gobelinos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-22",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5246c8622a6c01fd",
+      "texto": "Salon Gobelinów"
+    },
+    "frase_gancho": {
+      "hash": "09ceebeb2c461b0a",
+      "texto": "Komplet z drewna leszczynowego i gobeliny, które Napoleon III podarował Maksymilianowi, oraz cztery portrety dwóch par monarchów."
+    },
+    "puente_narrativo": {
+      "hash": "411fd8fa951161ca",
+      "texto": "Przejdź do Sypialni Karloty, cesarzowej, która rządziła, gdy jej mąż był daleko."
+    },
+    "guion_corto": {
+      "hash": "a582dd68048f1934",
+      "texto": "Ta sala nazywa się Salon Gobelinów, a jej tabliczka nosi tytuł „Nostalgia za Europą”. Stoi tu komplet mebli z drewna leszczynowego w stylu Ludwika Piętnastego, z obiciem z Aubusson, ozdobionym bajkami La Fontaine’a, osobisty dar Napoleona Trzeciego dla Maksymiliana. Na ścianach wiszą cztery portrety namalowane przez Alberta Graefle’a w tysiąc osiemset sześćdziesiątym piątym roku, a w sali stoją dwa pianina, jedno francuskie i drugie angielskie."
+    },
+    "guion_largo": {
+      "hash": "f3cd2ce0bd404558",
+      "texto": "Gdy Maksymilian i Karlota zamieszkali w Chapultepec, przywieźli do Meksyku kawałek Europy. Tabliczka w tej sali mówi o tym już w tytule: „Nostalgia za Europą”.\n\nNajcenniejszy jest komplet siedzeń z drewna leszczynowego, w stylu Ludwika Piętnastego, z obiciem z Aubusson. Na tym obiciu widać bajki Jeana de La Fontaine’a, francuskiego twórcy żab, lisów i kruków. Nie był to zakup: był to osobisty dar cesarza Napoleona Trzeciego dla Maksymiliana.\n\nSpójrz teraz na ściany. Wiszą tu cztery portrety namalowane przez Alberta Graefle’a w tysiąc osiemset sześćdziesiątym piątym roku: Maksymiliana, Karloty, Napoleona Trzeciego i jego żony, Eugenii de Montijo. Francuscy monarchowie byli politycznymi opiekunami pary cesarskiej. Na jednej ścianie wiszą więc dwie pary: ta, która rządziła Meksykiem, i ta, która osadziła ją na tronie.\n\nW sali stoją ponadto dwa pianina, jedno francuskie i drugie angielskie, które należały osobiście do Maksymiliana i Karloty.\n\nTo pomieszczenie nie zawsze było salonem. Na tabliczce znajduje się ramka, „Ta przestrzeń dawniej”, która wylicza jego dawne zastosowania. W tysiąc osiemset sześćdziesiątym szóstym roku były tu pokoje pracowników i garderoba. W tysiąc osiemset siedemdziesiątym siódmym roku był to pokój dyrektora obserwatorium. W tysiąc osiemset osiemdziesiątym drugim roku, za prezydenta Manuela Gonzáleza, był to pokój klucznicy. A w tysiąc dziewięćset szóstym roku, za Porfiria Díaza, zamieniono go w Sala Baja. Cztery epoki, cztery zajęcia i komplet z drewna leszczynowego, który dziś je łączy.\n\nNie myl go z sąsiednim [Salonem Ambasadorów](chap_17_salon_embajadores), który opowiada inną historię. Następny przystanek to [sypialnia Karloty](chap_18_recamara_carlota), cesarzowej, która pojechała do Europy prosić o pomoc, gdy cesarstwo chyliło się ku upadkowi."
+    },
+    "retos_observacion": {
+      "hash": "bc21a04080b9faba",
+      "texto": [
+        "Znajdź cztery portrety Alberta Graefle’a i rozpoznaj dwie pary monarchów",
+        "Odszukaj dwa pianina, jedno francuskie i drugie angielskie",
+        "Przyjrzyj się obiciu siedzeń: to sceny z bajek La Fontaine’a"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1ab09abec71f2720",
+      "texto": {
+        "Nazwa na tabliczce": "Salon Gobelinów („Nostalgia za Europą”)",
+        "Portrety": "Albert Graefle, 1865 (Maksymilian, Karlota, Napoleon III i Eugenia de Montijo)",
+        "Pianina": "jedno francuskie i drugie angielskie",
+        "Siedziska": "drewno leszczynowe, styl Ludwika XV, obicie z Aubusson z bajkami La Fontaine’a",
+        "Pochodzenie": "osobisty dar Napoleona III dla Maksymiliana",
+        "Dawne zastosowania": "1866 garderoba i pracownicy; 1877 dyrektor obserwatorium; 1882 klucznica; 1906 Sala Baja"
+      }
+    },
+    "faq_mito": {
+      "hash": "19aa53acaa4f7c55",
+      "texto": {
+        "pregunta": "Mit: Meble w tym salonie kupił Maksymilian, żeby zaimponować ambasadorom.",
+        "respuesta": "Rzeczywistość: Komplet z drewna leszczynowego z obiciem z Aubusson był osobistym darem Napoleona III dla Maksymiliana. Salon Ambasadorów to inna sala, z czasów Porfiria Díaza."
+      }
+    }
+  }
+}
