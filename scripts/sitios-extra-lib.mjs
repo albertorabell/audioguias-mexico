@@ -100,6 +100,7 @@ export function entradaSitio(sitio, salas, piezas, previa = {}, { preview = fals
     description: sitio.descripcion || previa.description || '',
     // Presentación larga del sitio (columna `introduccion` de CONTROL; párrafos separados por una línea en blanco)
     intro: sitio.introduccion || previa.intro || '',
+    ...Object.fromEntries(['en', 'fr', 'pl'].map((l) => [`intro_${l}`, sitio[`introduccion_${l}`] || previa[`intro_${l}`] || '']).filter(([, v]) => v)),
     highlights_count: piezas.length,
     total_stops: salas.length,
   };
