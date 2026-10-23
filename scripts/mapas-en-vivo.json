@@ -33,5 +33,22 @@
     "near_meters": 3000,
     "labels": true,
     "labels_route_only": true
+  },
+  "templo_mayor_catedral": {
+    "pmtiles": "maps/centro_historico.pmtiles",
+    "center": [
+      -99.1322,
+      19.4345
+    ],
+    "zoom": 17,
+    "bounds": [
+      -99.145,
+      19.425,
+      -99.12,
+      19.444
+    ],
+    "maxZoom": 17,
+    "near_meters": 3000,
+    "labels": true
   }
 }
