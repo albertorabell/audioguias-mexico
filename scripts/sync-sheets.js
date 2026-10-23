@@ -701,6 +701,7 @@ export async function sync() {
 
   // Lista de sitios de la hoja CONTROL (si se usa la fuente nueva). Un sitio con publicar distinto de SI no sale en la app.
   const sitiosCtl = FUENTE_NUEVA ? await cargarSitios({ estricto: true }) : [];
+  console.log('::notice title=DBG-SITIOS::'+JSON.stringify(sitiosCtl.map((x)=>[x.site_id,x.publicar,x.prefijo])));
   const teoCtl = sitiosCtl.find((x) => x.site_id === 'teotihuacan');
   const teoActivo = !FUENTE_NUEVA || (teoCtl && estaPublicado(teoCtl));
   if (!teoActivo) console.log('ℹ️  Teotihuacán está en publicar=NO en CONTROL: no se publica.');
@@ -742,6 +743,7 @@ export async function sync() {
         ),
       }
     : null;
+  console.log('::notice title=DBG-EXTRAS::'+JSON.stringify(extras.map((e)=>[e.site.site_id,e.rooms.length,e.pieces.length])));
   const todasSalas = [...rooms, ...(teo?.rooms || []), ...extras.flatMap((e) => e.rooms)];
   const todasPiezas = [...pieces, ...(teo?.pieces || []), ...extras.flatMap((e) => e.pieces)];
 
