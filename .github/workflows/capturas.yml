@@ -15,10 +15,6 @@ concurrency:
 permissions:
   contents: write
 
-# El robot de Google lee en privado los Sheets de la carpeta Audioguías México (ver scripts/google-sheets-lib.mjs)
-env:
-  GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-
 jobs:
   capturas:
     runs-on: ubuntu-24.04
@@ -35,6 +31,9 @@ jobs:
           VITE_PUBLISHED_LANGUAGES: es,en,fr,pl
           # Incluye los sitios en revisión (se ven con ?preview); estas capturas no se publican
           SYNC_PREVIEW: '1'
+          # El robot de Google lee en privado los Sheets de la carpeta Audioguías México (ver scripts/google-sheets-lib.mjs).
+          # Solo este paso lo necesita: no se le da a la instalación de paquetes ni al resto.
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
         run: |
           node scripts/ci-run.mjs datos -- node scripts/sync-sheets.js
           node scripts/ci-run.mjs compilar -- npx vite build --outDir dist-capturas
@@ -54,6 +53,9 @@ jobs:
           path: capturas-salida
           retention-days: 7
       - name: Guardar en la rama "capturas"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
         run: |
           mkdir ../pub && cp -r capturas-salida/. ../pub/ && cd ../pub
           git init -q -b capturas
@@ -61,4 +63,6 @@ jobs:
           git config user.email "capturas-bot@users.noreply.github.com"
           git add -A
           git commit -qm "Capturas de la app"
-          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" capturas
+          # El permiso viaja en una cabecera, no dentro de la dirección
+          cabecera="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
+          git -c http.extraheader="$cabecera" push -f "https://github.com/$REPO.git" capturas

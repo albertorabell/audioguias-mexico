@@ -121,6 +121,10 @@ jobs:
 
       - name: Guardar (en un lote anota el número del lote para no perderlo)
         if: ${{ inputs.generar && inputs.modo != 'lote-recoger' }}
+        env:
+          IDIOMA: ${{ inputs.idioma }}
+          MODO: ${{ inputs.modo }}
+          LIMITE: ${{ inputs.limite }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -128,7 +132,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No hay nada nuevo que guardar."
           else
-            git commit -m "Traducciones (${{ inputs.idioma }}): ${{ inputs.modo }}, límite ${{ inputs.limite }}"
+            git commit -m "Traducciones ($IDIOMA): $MODO, límite $LIMITE"
             # Antes de traer lo nuevo hay que soltar los archivos que cambió la sincronización (public/data); git no deja hacer rebase con cambios sueltos
             git reset --hard HEAD
             git pull --rebase origin "${GITHUB_REF_NAME}"
@@ -166,6 +170,8 @@ jobs:
 
       - name: Guardar las traducciones recogidas
         if: ${{ inputs.modo == 'lote-recoger' || (inputs.modo == 'lote-enviar' && inputs.generar) }}
+        env:
+          IDIOMA: ${{ inputs.idioma }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -173,7 +179,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No hay nada nuevo que guardar."
           else
-            git commit -m "Traducciones (${{ inputs.idioma }}): lote recogido"
+            git commit -m "Traducciones ($IDIOMA): lote recogido"
             git reset --hard HEAD
             git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin "HEAD:${GITHUB_REF_NAME}"
