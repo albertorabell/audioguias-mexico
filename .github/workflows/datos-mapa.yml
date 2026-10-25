@@ -33,13 +33,20 @@ permissions:
 jobs:
   datos:
     runs-on: ubuntu-24.04
+    # Lo que se escribe en el formulario llega por variables: así no puede convertirse en parte de un comando.
+    env:
+      SITIO: ${{ inputs.sitio }}
+      LAT: ${{ inputs.lat }}
+      LNG: ${{ inputs.lng }}
+      RADIO: ${{ inputs.radio }}
+      BBOX: ${{ inputs.bbox_mapa }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - name: Traer lugares con coordenadas
-        run: node scripts/mapa/obtener-coordenadas.mjs "candidatas-mapa/${{ inputs.sitio }}" "${{ inputs.lat }}" "${{ inputs.lng }}" "${{ inputs.radio }}"
+        run: node scripts/mapa/obtener-coordenadas.mjs "candidatas-mapa/$SITIO" "$LAT" "$LNG" "$RADIO"
       - name: Recortar el mapa de la zona
         if: ${{ inputs.recortar_mapa == 'sí' || inputs.recortar_mapa == 'si' }}
         continue-on-error: true
@@ -53,8 +60,8 @@ jobs:
           aviso "builds.json: $meta"
           build=$(echo "$meta" | head -c 0; curl -sS -m 60 https://build-metadata.protomaps.dev/builds.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(sorted(b['key'] for b in d)[-1])") || { aviso "No se pudo leer builds.json"; exit 1; }
           aviso "Mapa base: $build"
-          salida="$GITHUB_WORKSPACE/candidatas-mapa/${{ inputs.sitio }}/${{ inputs.sitio }}.pmtiles"
-          ./pmtiles extract "https://build.protomaps.com/$build" "$salida" --bbox="${{ inputs.bbox_mapa }}" --maxzoom=17 > extract.log 2>&1 || { aviso "extract falló: $(tail -c 600 extract.log)"; exit 1; }
+          salida="$GITHUB_WORKSPACE/candidatas-mapa/$SITIO/$SITIO.pmtiles"
+          ./pmtiles extract "https://build.protomaps.com/$build" "$salida" --bbox="$BBOX" --maxzoom=17 > extract.log 2>&1 || { aviso "extract falló: $(tail -c 600 extract.log)"; exit 1; }
           aviso "extract: $(tail -c 300 extract.log) $(ls -la "$salida")"
 
       - name: Bajar las letras del mapa (nombres de calles sin internet)
@@ -77,5 +84,5 @@ jobs:
           git checkout -q --orphan mapa-candidatas
           git rm -rfq --cached . > /dev/null 2>&1 || true
           git add -f candidatas-mapa
-          git commit -qm "Datos de mapa de ${{ inputs.sitio }}"
+          git commit -qm "Datos de mapa de $SITIO"
           git push -f origin mapa-candidatas

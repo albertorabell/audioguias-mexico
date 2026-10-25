@@ -2,10 +2,10 @@
 // "Audioguías México" en Drive. Si no hay clave del robot (por ejemplo en pruebas locales), se usa una lista fija.
 import { hayClave, leerPestana } from './google-sheets-lib.mjs';
 
-export const CONTROL_ID = process.env.CONTROL_SHEET_ID || '1e4BQCAULQq6zABdMTD0trSpuzknPTV3ZS9gzp6Qx93Q';
+const CONTROL_ID = process.env.CONTROL_SHEET_ID || '1e4BQCAULQq6zABdMTD0trSpuzknPTV3ZS9gzp6Qx93Q';
 
 // Solo se usa si no se puede leer CONTROL.
-export const SITIOS_RESPALDO = [
+const SITIOS_RESPALDO = [
   { site_id: 'mna', prefijo: 'mna_', nombre: 'Museo Nacional de Antropología', sheet_id: '', publicar: 'SI' },
   { site_id: 'teotihuacan', prefijo: 'teo_', nombre: 'Zona Arqueológica de Teotihuacán', sheet_id: '', publicar: 'SI' },
 ];
@@ -25,7 +25,13 @@ export async function cargarSitios({ estricto = false } = {}) {
   const sitios = resto
     .filter((r) => r.some((v) => String(v).trim()))
     .map((r) => Object.fromEntries(h.map((k, i) => [k, String(r[i] ?? '').trim()])))
-    .filter((s) => s.site_id);
+    .filter((s) => s.site_id)
+    .filter((s) => {
+      // El site_id se usa como nombre de carpeta y de archivo: solo minúsculas, números y guion bajo.
+      if (/^[a-z0-9_]{2,40}$/.test(s.site_id)) return true;
+      console.warn(`::warning title=CONTROL: site_id inválido::Se omite «${s.site_id.slice(0, 60)}» (solo minúsculas, números y _).`);
+      return false;
+    });
   if (!sitios.length) throw new Error('La hoja CONTROL (pestaña SITIOS) no tiene sitios.');
   return (cache = sitios);
 }

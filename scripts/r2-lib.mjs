@@ -10,7 +10,7 @@ import { execFileSync } from 'node:child_process';
 
 export const DEFAULT_BUCKET = 'audioguias-audio';
 export const GENERATED_DIR = 'audio-generado';
-export const FILE_RE = /^[a-z]{2}\/[A-Za-z0-9_-]+_(corto|largo)\.mp3$/;
+const FILE_RE = /^[a-z]{2}\/[A-Za-z0-9_-]+_(corto|largo)\.mp3$/;
 
 /** Carpeta en R2 según el tipo de pieza. premium = true → "pago". */
 export const prefixFor = (premium) => (premium ? 'pago' : 'libre');

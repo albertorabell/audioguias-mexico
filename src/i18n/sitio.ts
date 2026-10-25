@@ -19,15 +19,11 @@ const es = {
   common: {
     museumName: 'Zona Arqueológica de Teotihuacán',
     roomWord: 'Zona',
-    pieceWord: 'Parada',
-    roomsLabel: (c: number) => plural(c, 'zona', 'zonas'),
-    piecesLabel: (c: number) => plural(c, 'parada', 'paradas'),
   },
   chrome: { nav: { museumName: 'ZONA ARQUEOLÓGICA DE TEOTIHUACÁN' } },
   ui: {
     worksCount: (c: number) => plural(c, 'parada', 'paradas'),
     roomsCount: (c: number) => plural(c, 'zona', 'zonas'),
-    routeMeta: (duration: string, stops: number) => `${duration} · ${plural(stops, 'parada', 'paradas')}`,
     tabs: { aria: 'Secciones del sitio', museum: 'Sitio' },
     museum: {
       startHereSub: 'Dos recorridos ya armados: el exprés y el completo.',
@@ -59,7 +55,6 @@ const es = {
     completedDesc: (routeName: string) => `Has completado la ruta «${routeName}» en Teotihuacán.`,
     rooms: 'Zonas',
     pieces: 'Paradas',
-    piecesSub: 'paradas vistas',
     backToExplorer: 'Ver las zonas del sitio',
   },
   offline: { notCachedDesc: 'En la zona arqueológica la señal puede ser débil. Descarga las fotos y los audios antes de llegar.' },
@@ -70,10 +65,7 @@ const es = {
   app: {
     backToRooms: 'Volver a las zonas',
     defaultRouteName: 'Recorrido por el sitio',
-    mapDefaultTitle: 'Plano del sitio',
     pieceNotFound: 'No se encontró información para esta parada.',
-    pieceLoadFailDesc: 'Ocurrió un inconveniente al cargar esta parada. Tu progreso en el recorrido está a salvo.',
-    roomFallback: 'la zona',
   },
   media: { defaultAlt: 'Parada de Teotihuacán' },
   player: {
@@ -87,15 +79,11 @@ const en = {
   common: {
     museumName: 'Teotihuacan Archaeological Zone',
     roomWord: 'Zone',
-    pieceWord: 'Stop',
-    roomsLabel: (c: number) => plural(c, 'zone', 'zones'),
-    piecesLabel: (c: number) => plural(c, 'stop', 'stops'),
   },
   chrome: { nav: { museumName: 'TEOTIHUACAN ARCHAEOLOGICAL ZONE' } },
   ui: {
     worksCount: (c: number) => plural(c, 'stop', 'stops'),
     roomsCount: (c: number) => plural(c, 'zone', 'zones'),
-    routeMeta: (duration: string, stops: number) => `${duration} · ${plural(stops, 'stop', 'stops')}`,
     tabs: { aria: 'Site sections', museum: 'Site' },
     museum: {
       startHereSub: 'Two ready-made routes: the express and the complete one.',
@@ -127,7 +115,6 @@ const en = {
     completedDesc: (routeName: string) => `You have completed the “${routeName}” route at Teotihuacan.`,
     rooms: 'Zones',
     pieces: 'Stops',
-    piecesSub: 'stops seen',
     backToExplorer: 'See the zones of the site',
   },
   offline: { notCachedDesc: 'The signal can be weak at the archaeological site. Download the photos and audio before you arrive.' },
@@ -138,10 +125,7 @@ const en = {
   app: {
     backToRooms: 'Back to the zones',
     defaultRouteName: 'Route through the site',
-    mapDefaultTitle: 'Site plan',
     pieceNotFound: 'No information was found for this stop.',
-    pieceLoadFailDesc: 'Something went wrong while loading this stop. Your progress on the route is safe.',
-    roomFallback: 'the zone',
   },
   media: { defaultAlt: 'Stop at Teotihuacan' },
   player: {
@@ -155,15 +139,11 @@ const fr = {
   common: {
     museumName: 'Zone archéologique de Teotihuacan',
     roomWord: 'Zone',
-    pieceWord: 'Étape',
-    roomsLabel: (c: number) => plural(c, 'zone', 'zones'),
-    piecesLabel: (c: number) => plural(c, 'étape', 'étapes'),
   },
   chrome: { nav: { museumName: 'ZONE ARCHÉOLOGIQUE DE TEOTIHUACAN' } },
   ui: {
     worksCount: (c: number) => plural(c, 'étape', 'étapes'),
     roomsCount: (c: number) => plural(c, 'zone', 'zones'),
-    routeMeta: (duration: string, stops: number) => `${duration} · ${plural(stops, 'étape', 'étapes')}`,
     tabs: { aria: 'Sections du site', museum: 'Site' },
     museum: {
       startHereSub: 'Deux parcours tout prêts : l’express et le complet.',
@@ -195,7 +175,6 @@ const fr = {
     completedDesc: (routeName: string) => `Vous avez terminé le parcours « ${routeName} » à Teotihuacan.`,
     rooms: 'Zones',
     pieces: 'Étapes',
-    piecesSub: 'étapes vues',
     backToExplorer: 'Voir les zones du site',
   },
   offline: { notCachedDesc: 'Le signal peut être faible sur le site archéologique. Téléchargez les photos et les audios avant d’arriver.' },
@@ -206,10 +185,7 @@ const fr = {
   app: {
     backToRooms: 'Retour aux zones',
     defaultRouteName: 'Parcours du site',
-    mapDefaultTitle: 'Plan du site',
     pieceNotFound: 'Aucune information trouvée pour cette étape.',
-    pieceLoadFailDesc: 'Un problème est survenu au chargement de cette étape. Votre progression dans le parcours est sauvegardée.',
-    roomFallback: 'la zone',
   },
   media: { defaultAlt: 'Étape de Teotihuacan' },
   player: {

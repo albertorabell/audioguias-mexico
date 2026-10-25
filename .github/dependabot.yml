@@ -1,0 +1,12 @@
+# Avisa con un PR cuando hay versiones nuevas de las acciones de GitHub y de los paquetes (una vez por semana).
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 3

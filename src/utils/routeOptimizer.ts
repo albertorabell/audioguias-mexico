@@ -16,12 +16,12 @@ export interface RoutePreferences {
  * Tiempos de una visita real (medidos sobre los textos del MNA: el audio corto dura ~1.3 min y el completo ~3.1 min;
  * a eso se suma mirar la pieza y acercarse a ella).
  */
-export const MINUTES_PER_STOP_SHORT = 3;
-export const MINUTES_PER_STOP_FULL = 5;
+const MINUTES_PER_STOP_SHORT = 3;
+const MINUTES_PER_STOP_FULL = 5;
 /** Pasar de una sala a otra (las salas son grandes). */
-export const MINUTES_PER_ROOM_CHANGE = 2;
+const MINUTES_PER_ROOM_CHANGE = 2;
 /** Subir o bajar de piso, una sola vez por recorrido. */
-export const MINUTES_PER_FLOOR_CHANGE = 4;
+const MINUTES_PER_FLOOR_CHANGE = 4;
 
 /**
  * Formats duration in minutes to human-readable string:

@@ -33,9 +33,3 @@ export function getRoomShortLabel(room: Partial<Room> | null | undefined): strin
   const m = label.match(/(\d+)\s*$/);
   return m ? m[1] : label.slice(0, 3);
 }
-
-/** Palabra para contar los espacios de la planta alta: "ejes" si se llaman "Eje N", si no "salas". */
-export function getUnitWord(rooms: Partial<Room>[]): string {
-  const o = getStrings(getCurrentLanguage()).overview;
-  return rooms.length > 0 && rooms.every((r) => /^eje\b/i.test((r.etiqueta || '').trim())) ? o.unitAxes : o.unitRooms;
-}

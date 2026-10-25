@@ -133,7 +133,8 @@ jobs:
         if: ${{ !cancelled() && (inputs.generar || inputs.reubicar || inputs.borrar_todo) }}
         env:
           SOLO_MIO: ${{ inputs.borrar_todo && '1' || '' }}
-        run: bash scripts/guardar-manifiesto.sh "Lista de audios MP3 actualizada (${{ inputs.proveedor }}, ${{ inputs.idiomas }}, ${{ inputs.sitio }}, ${{ inputs.piezas }})"
+          MENSAJE: Lista de audios MP3 actualizada (${{ inputs.proveedor }}, ${{ inputs.idiomas }}, ${{ inputs.sitio }}, ${{ inputs.piezas }})
+        run: bash scripts/guardar-manifiesto.sh "$MENSAJE"
 
       - name: Publicar el sitio con los audios nuevos (solo si se corrió en main)
         if: ${{ !cancelled() && (inputs.generar || inputs.reubicar || inputs.borrar_todo) && github.ref_name == 'main' }}

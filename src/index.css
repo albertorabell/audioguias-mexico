@@ -26,7 +26,6 @@
   --c-oro-ink: #f59e0b;
   --c-on-oro: #1a1a1a;
   --c-tezontle: #ff8a5b;
-  --c-rosa: #ec4899;
   --c-scrim: rgba(8, 9, 20, 0.72);
   color-scheme: dark;
   /* Ancho de la columna de la app: celular y pantallas chicas 480 px; tablet y computadora 720 px */
@@ -55,7 +54,6 @@
   --c-oro-ink: #92560a;
   --c-on-oro: #1a1a1a;
   --c-tezontle: #d4501a;
-  --c-rosa: #ec4899;
   --c-scrim: rgba(26, 26, 26, 0.45);
   color-scheme: light;
 }
@@ -74,7 +72,6 @@
   --color-on-jade: var(--c-on-jade);
   --color-oro: var(--c-oro);
   --color-oro-ink: var(--c-oro-ink);
-  --color-rosa: var(--c-rosa);
   --color-on-oro: var(--c-on-oro);
   --color-tezontle: var(--c-tezontle);
   --color-scrim: var(--c-scrim);

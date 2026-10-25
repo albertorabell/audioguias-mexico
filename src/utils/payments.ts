@@ -82,7 +82,7 @@ function storeGrant(fallbackSite: string, d: any): SiteLicense {
 }
 
 /** El visitante regresó de Stripe: se confirma el pago y el pase queda guardado en este dispositivo. */
-export async function redeemSession(sessionId: string, siteId = ''): Promise<PaymentResult<SiteLicense>> {
+async function redeemSession(sessionId: string, siteId = ''): Promise<PaymentResult<SiteLicense>> {
   const r = await post('/redeem', { sessionId, deviceId: getOrCreateDeviceId(), ...(siteId ? { siteId: siteId.toLowerCase() } : {}) });
   return r.ok ? { ok: true, data: storeGrant(siteId || 'mna', r.data) } : r;
 }
@@ -101,7 +101,7 @@ const PENDING_SINCE_KEY = 'audioguias_pending_since';
 const PENDING_MAX_AGE_MS = 7 * 24 * 3600 * 1000;
 
 /** Pago de regreso de Stripe que todavía no se pudo canjear (por ejemplo, no había internet). Se reintenta al abrir la app. */
-export function getPendingSession(): string | null {
+function getPendingSession(): string | null {
   try {
     const v = localStorage.getItem(PENDING_KEY);
     if (!v || !/^cs_(test|live)_[A-Za-z0-9]{10,200}$/.test(v)) return null;
@@ -116,7 +116,7 @@ export function getPendingSession(): string | null {
   }
 }
 
-export function clearPendingSession(): void {
+function clearPendingSession(): void {
   try {
     localStorage.removeItem(PENDING_KEY);
     localStorage.removeItem(PENDING_SINCE_KEY);
@@ -189,7 +189,7 @@ export async function previewPromo(siteId: string, code: string): Promise<Paymen
 
 const PROMO_KEY = 'audioguias_promo';
 const PROMO_MAX_AGE_MS = 30 * 24 * 3600 * 1000;
-export const PROMO_CODE_RE = /^[A-Za-z0-9-]{2,40}$/;
+const PROMO_CODE_RE = /^[A-Za-z0-9-]{2,40}$/;
 
 /** Código guardado de una tarjeta o enlace (por ejemplo, el QR de un hotel). Se olvida a los 30 días. */
 export function getSavedPromo(): string | null {

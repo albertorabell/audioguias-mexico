@@ -13,7 +13,6 @@ interface TourCompletionViewProps {
   onChooseRoute: () => void;
   onGoHome: () => void;
   onRepeatTour?: () => void;
-  onOpenMap?: () => void;
 }
 
 /** Fin de un recorrido: lo que se vio y qué hacer después. */

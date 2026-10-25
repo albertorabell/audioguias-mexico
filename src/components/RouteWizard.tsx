@@ -1,12 +1,11 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Check, Play, X } from 'lucide-react';
-import { SiteManifest, SiteRoute, SiteSummary, Room, PieceData } from '../types';
+import { SiteManifest, SiteRoute, Room, PieceData } from '../types';
 import { generateOptimizedRoute, calculateRouteTimeMinutes, formatRouteDuration } from '../utils/routeOptimizer';
 import { useStrings } from '../utils/LanguageContext';
 import { TopBar } from './ui/TopBar';
 
 interface RouteWizardProps {
-  site: SiteSummary;
   manifest: SiteManifest;
   rooms?: Room[];
   pieces?: PieceData[];

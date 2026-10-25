@@ -107,6 +107,17 @@ export default defineConfig(() => {
               },
             },
             {
+              // Fotos de las obras: las .webp ya no se guardan al instalar la app (antes se guardaban los .png, 35 MB).
+              // Ahora cada foto que se ve con internet queda guardada para verla sin conexión.
+              urlPattern: ({ url }: { url: URL }) => /\/images\/pieces\/.+\.(webp|png|jpe?g)$/i.test(url.pathname),
+              handler: 'CacheFirst',
+              options: {
+                cacheName: 'piece-images-v1',
+                expiration: { maxEntries: 600, maxAgeSeconds: 60 * 60 * 24 * 90 },
+                cacheableResponse: { statuses: [200] },
+              },
+            },
+            {
               urlPattern: /\/data\/.*\.json$/i,
               handler: 'StaleWhileRevalidate',
               options: {
@@ -123,7 +134,7 @@ export default defineConfig(() => {
           ],
         },
         devOptions: {
-          enabled: true,
+          enabled: false,
           type: 'module',
         },
       }),

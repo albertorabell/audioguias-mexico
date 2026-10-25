@@ -10,7 +10,6 @@ export const paywall = defineGroup(
     remaining: (time: string) => `${time} restantes`,
     signOut: 'Cerrar sesión',
     signOutTitle: 'Cerrar sesión del pase para probar el candado',
-    signOutHint: 'Cerrar sesión de pase para volver a probar el candado',
     codeTitle: 'Tu código para el segundo dispositivo',
     codeHint: (max: number) => `Escríbelo en el otro dispositivo. El pase funciona hasta en ${max} dispositivos.`,
     copy: 'Copiar',
@@ -28,7 +27,6 @@ export const paywall = defineGroup(
       freeDesc: 'Un único pago transparente, sin cobros automáticos posteriores.',
     },
     payButton: (price: string) => `Pagar ${price} con tarjeta`,
-    payButtonNoPrice: 'Pagar con tarjeta',
     redirecting: 'Abriendo el pago seguro…',
     secureNote: 'Pago seguro con Stripe. Esta app no guarda los datos de tu tarjeta.',
     promo: {
@@ -78,7 +76,6 @@ export const paywall = defineGroup(
     remaining: (time: string) => `${time} left`,
     signOut: 'Sign out',
     signOutTitle: 'Sign out of the pass to test the lock',
-    signOutHint: 'Sign out of the pass to test the lock again',
     codeTitle: 'Your code for the second device',
     codeHint: (max: number) => `Type it on the other device. The pass works on up to ${max} devices.`,
     copy: 'Copy',
@@ -96,7 +93,6 @@ export const paywall = defineGroup(
       freeDesc: 'A single transparent payment, with no automatic charges afterwards.',
     },
     payButton: (price: string) => `Pay ${price} by card`,
-    payButtonNoPrice: 'Pay by card',
     redirecting: 'Opening secure checkout…',
     secureNote: 'Secure payment with Stripe. This app does not store your card details.',
     promo: {
@@ -146,7 +142,6 @@ export const paywall = defineGroup(
     remaining: (time: string) => `${time} restantes`,
     signOut: 'Se déconnecter',
     signOutTitle: 'Se déconnecter du pass pour tester le verrou',
-    signOutHint: 'Se déconnecter du pass pour tester à nouveau le verrou',
     codeTitle: 'Votre code pour le deuxième appareil',
     codeHint: (max: number) => `Saisissez-le sur l’autre appareil. Le pass fonctionne sur ${max} appareils au maximum.`,
     copy: 'Copier',
@@ -164,7 +159,6 @@ export const paywall = defineGroup(
       freeDesc: 'Un seul paiement transparent, sans prélèvement automatique par la suite.',
     },
     payButton: (price: string) => `Payer ${price} par carte`,
-    payButtonNoPrice: 'Payer par carte',
     redirecting: 'Ouverture du paiement sécurisé…',
     secureNote: 'Paiement sécurisé avec Stripe. Cette appli ne conserve pas les données de votre carte.',
     promo: {

@@ -24,4 +24,5 @@ jobs:
         env:
           PAGOS_API_URL: ${{ vars.PAGOS_API_URL }}
           STATS_KEY: ${{ secrets.STATS_KEY }}
-        run: node scripts/resumen-uso.mjs "${{ inputs.dias }}"
+          DIAS: ${{ inputs.dias }}
+        run: node scripts/resumen-uso.mjs "$DIAS"

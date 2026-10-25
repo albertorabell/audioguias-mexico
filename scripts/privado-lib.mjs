@@ -8,13 +8,13 @@ import path from 'node:path';
 import { stripLinks } from '../src/utils/pieceLinks.js';
 
 export const PRIVATE_DIR = 'datos-privados';
-export const FULL_FILE = 'piezas-completas.json';
-export const TEXT_LANGS = ['en', 'fr', 'pl', 'ru', 'ja'];
+const FULL_FILE = 'piezas-completas.json';
+const TEXT_LANGS = ['en', 'fr', 'pl', 'ru', 'ja'];
 /** Campos de la pieza que solo reciben quienes tienen pase. */
-export const PRIVATE_BASE = ['guion_corto', 'guion_largo', 'retos_observacion', 'especificaciones', 'faq_mito'];
+const PRIVATE_BASE = ['guion_corto', 'guion_largo', 'retos_observacion', 'especificaciones', 'faq_mito'];
 
 const suffixes = ['', ...TEXT_LANGS.map((l) => `_${l}`)];
-export const PRIVATE_FIELDS = new Set(PRIVATE_BASE.flatMap((f) => suffixes.map((s) => `${f}${s}`)));
+const PRIVATE_FIELDS = new Set(PRIVATE_BASE.flatMap((f) => suffixes.map((s) => `${f}${s}`)));
 
 const nonEmpty = (v) => typeof v === 'string' && v.trim().length > 0;
 
@@ -42,7 +42,7 @@ export function indice(text) {
 }
 
 /** Idiomas en los que la pieza tiene corto y largo traducidos. */
-export function idiomasConTexto(piece) {
+function idiomasConTexto(piece) {
   return TEXT_LANGS.filter((l) => nonEmpty(piece[`guion_corto_${l}`]) && nonEmpty(piece[`guion_largo_${l}`]));
 }
 

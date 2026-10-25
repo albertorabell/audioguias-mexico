@@ -56,7 +56,9 @@ jobs:
         run: node scripts/revisar-audio-r2.mjs --sitio "$SITIO" --lang "$IDIOMAS" $ADOPTAR $APLICAR
       - name: Guardar la lista corregida
         if: ${{ inputs.aplicar && !cancelled() }}
-        run: bash scripts/guardar-manifiesto.sh "Lista de audios revisada contra R2 (${{ inputs.sitio }})" "$RUNNER_TEMP/quitar.json"
+        env:
+          SITIO: ${{ inputs.sitio }}
+        run: bash scripts/guardar-manifiesto.sh "Lista de audios revisada contra R2 ($SITIO)" "$RUNNER_TEMP/quitar.json"
       - name: Publicar el sitio
         if: ${{ inputs.aplicar && !cancelled() && github.ref_name == 'main' }}
         env:
