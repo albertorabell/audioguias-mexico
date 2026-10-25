@@ -2,11 +2,10 @@ import React, { useMemo } from 'react';
 import { Check, ChevronRight, SlidersHorizontal } from 'lucide-react';
 import { SiteRoute, PieceData, Room } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
-import { calculateRouteTimeMinutes, formatRouteDuration } from '../utils/routeOptimizer';
+import { calculateRouteTimeMinutes, formatRouteDurationShort } from '../utils/routeOptimizer';
 import { getRoomLabel } from '../utils/roomLabel';
 import { TopBar } from './ui/TopBar';
 import { PassButton } from './ui/HeaderControls';
-import { PieceImage } from './PieceImage';
 
 export interface ActiveTour {
   route: SiteRoute;
@@ -69,15 +68,6 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
     return defs.map((d) => ({ key: d.key, title: d.title, routes: list.filter(d.test) })).filter((x) => x.routes.length > 0);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [routes, tour?.route.id, u]);
-
-  /** Las 4 fotos de un recorrido: sus obras más importantes que tengan imagen. */
-  const coverStops = (route: SiteRoute) =>
-    [...route.stops]
-      .map((s, i) => ({ s, i, pr: pieceById.get(stopId(s))?.prioridad || 3 }))
-      .sort((a, b) => a.pr - b.pr || a.i - b.i)
-      .slice(0, 4)
-      .sort((a, b) => a.i - b.i)
-      .map((x) => x.s);
 
   return (
     <div className="min-h-dvh bg-bg text-ink pb-tabbar">
@@ -152,40 +142,32 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
               {section.title}
             </h2>
             {idx === 0 && <p className="mt-1 px-5 text-cap text-ink-3">{u.routes.timeNote}</p>}
-            <div className="mt-3 px-5 grid gap-3 md:grid-cols-2">
+            <ul className="mt-4 mx-5 border-t border-line md:grid md:grid-cols-2 md:gap-x-6">
               {section.routes.map((route) => {
-                const minutes = minutesOf(route);
                 const running = tour?.route.id === route.id;
                 return (
-                  <div key={route.id} className="rounded-2xl bg-surface border border-line overflow-hidden flex flex-col">
-                    <div className="grid grid-cols-4 gap-px bg-line h-24">
-                      {coverStops(route).map((s) => {
-                        const p = pieceById.get(stopId(s));
-                        return (
-                          <span key={stopId(s)} className="bg-raised overflow-hidden">
-                            <PieceImage filename={p?.image_filename || s.thumbnail} pieceId={stopId(s)} alt="" className="w-full h-full object-cover" />
-                          </span>
-                        );
-                      })}
+                  <li key={route.id} className="border-b border-line py-4 flex items-start gap-4">
+                    <span className="w-[4.75rem] shrink-0 pt-0.5">
+                      <span className="block font-serif text-[1.375rem] leading-none tabular-nums text-ink whitespace-nowrap">
+                        {formatRouteDurationShort(minutesOf(route))}
+                      </span>
+                      <span className="block mt-1.5 text-cap text-ink-3">{u.worksCount(route.stops.length)}</span>
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <h3 className="text-[1.0625rem] font-bold leading-snug">{route.name}</h3>
+                      {route.description && <p className="mt-1 text-cap leading-[1.5] text-ink-2 text-pretty">{route.description}</p>}
+                      <button
+                        type="button"
+                        onClick={() => (running ? onContinueTour() : onStartRoute(route))}
+                        className={`${running ? 'btn-secondary' : 'btn-primary'} mt-3 min-h-10 px-4 text-ui`}
+                      >
+                        {running ? u.routes.continue : u.routes.start}
+                      </button>
                     </div>
-                    <div className="p-4 flex-1 flex flex-col">
-                      <h3 className="text-[1.125rem] font-bold leading-snug">{route.name}</h3>
-                      <p className="mt-1 text-cap text-ink-3">{u.routeMeta(formatRouteDuration(minutes), route.stops.length)}</p>
-                      {route.description && <p className="mt-2 text-ui leading-relaxed text-ink-2 text-pretty">{route.description}</p>}
-                      <div className="mt-auto pt-4">
-                        <button
-                          type="button"
-                          onClick={() => (running ? onContinueTour() : onStartRoute(route))}
-                          className={`${running ? 'btn-secondary' : 'btn-primary'} w-full`}
-                        >
-                          {running ? u.routes.continue : u.routes.start}
-                        </button>
-                      </div>
-                    </div>
-                  </div>
+                  </li>
                 );
               })}
-            </div>
+            </ul>
           </section>
         ))}
 

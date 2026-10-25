@@ -351,6 +351,7 @@ export const PL_GROUPS: Record<string, any> = {
       routesTitle: 'Trasy',
       routesSub: 'Wybierz trasę na tyle czasu, ile masz. Prowadzi dzieło po dziele, w kolejności zwiedzania.',
       allRoutes: (n: number) => `Zobacz wszystkie trasy (${n}), także tematyczne`,
+      allRoutesPlain: (n: number) => `Zobacz wszystkie trasy (${n})`,
       facts: (works: string, rooms: string) => `${works}, ${rooms}.`,
       routeRange: (a: string, b: string) => `Trasy od ${a} do ${b}.`,
       routeOne: (a: string) => `Jedna trasa: ${a}.`,

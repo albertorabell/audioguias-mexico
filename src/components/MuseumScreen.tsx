@@ -21,7 +21,7 @@ import {
 import { SiteSummary, SiteManifest, SiteRoute, Room, PieceData, BeforeVisitItem } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
 import { getRoomShortLabel } from '../utils/roomLabel';
-import { calculateRouteTimeMinutes, formatRouteDuration } from '../utils/routeOptimizer';
+import { calculateRouteTimeMinutes, formatRouteDuration, formatRouteDurationShort } from '../utils/routeOptimizer';
 import { localizeBeforeVisit } from '../i18n/content';
 import { TopBar } from './ui/TopBar';
 import { LanguageMenu, PassButton } from './ui/HeaderControls';
@@ -66,14 +66,8 @@ interface MuseumScreenProps {
 export const byOrder = (a: PieceData, b: PieceData) => (a.orden_sugerido || 99) - (b.orden_sugerido || 99);
 
 const minutesOf = (r: SiteRoute) => r.estimated_minutes || calculateRouteTimeMinutes(r.stops);
-
-/** Duración corta para la columna de tiempos: «40 min», «3 h», «1 h 10». */
-function compactDuration(minutes: number): string {
-  if (minutes < 60) return `${minutes} min`;
-  const h = Math.floor(minutes / 60);
-  const m = minutes % 60;
-  return m ? `${h} h ${String(m).padStart(2, '0')}` : `${h} h`;
-}
+/** Duración dentro de una frase, sin que se parta entre dos líneas («7 h 30 min»). */
+const inlineDuration = (m: number) => formatRouteDuration(m).replace(/ /g, '\u00a0');
 
 /** Ícono de cada tema de «Antes de ir» (columna `tema` del Sheet). */
 const TOPIC_ICONS: Record<string, React.ElementType> = {
@@ -258,7 +252,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
             {lead && <p className="mt-5 font-serif text-[1.1875rem] leading-[1.5] text-ink-2 text-pretty">{lead}</p>}
             <p id="site-facts" className="mt-4 text-ui text-ink-2">
               {m.facts(u.worksCount(pieces.length), u.roomsCount(rooms.length))}
-              {range && ` ${range.min === range.max ? m.routeOne(formatRouteDuration(range.min)) : m.routeRange(formatRouteDuration(range.min), formatRouteDuration(range.max))}`}
+              {range && ` ${range.min === range.max ? m.routeOne(inlineDuration(range.min)) : m.routeRange(inlineDuration(range.min), inlineDuration(range.max))}`}
             </p>
             {before.length > 0 && (
               <button
@@ -313,13 +307,13 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                   >
                     <span className="w-[4.75rem] shrink-0 pt-0.5">
                       <span className="block font-serif text-[1.375rem] leading-none tabular-nums text-ink whitespace-nowrap">
-                        {compactDuration(minutesOf(route))}
+                        {formatRouteDurationShort(minutesOf(route))}
                       </span>
                       <span className="block mt-1.5 text-cap text-ink-3">{u.worksCount(route.stops.length)}</span>
                     </span>
                     <span className="min-w-0 flex-1">
                       <span className="block text-[1.0625rem] font-bold leading-snug text-ink">{route.name}</span>
-                      {route.description && <span className="mt-1 block text-cap leading-[1.45] text-ink-3 line-clamp-2">{route.description}</span>}
+                      {route.description && <span className="mt-1 text-cap leading-[1.45] text-ink-3 line-clamp-2">{route.description}</span>}
                     </span>
                     <ChevronRight className="w-5 h-5 text-ink-3 shrink-0 self-center" aria-hidden="true" />
                   </button>
@@ -347,7 +341,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 onClick={onOpenRoutes}
                 className="mt-2 -ml-1 h-11 px-1 inline-flex items-center gap-1 text-ui font-semibold text-jade-ink cursor-pointer rounded-lg"
               >
-                {m.allRoutes(routes.length)}
+                {routes.some((r) => r.group === 'tema') ? m.allRoutes(routes.length) : m.allRoutesPlain(routes.length)}
                 <ChevronRight className="w-4 h-4" />
               </button>
             )}

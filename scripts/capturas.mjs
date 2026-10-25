@@ -446,6 +446,9 @@ for (const [tema, init] of [['claro', () => localStorage.setItem('audioguias_the
           await page.locator('#sites-grid-section [role=button]', { hasText: nombre }).first().click();
           await page.waitForTimeout(900);
           await verPantallas(page, shot, clave, 5);
+          await page.locator('#dock-tab-recorridos').click();
+          await page.waitForTimeout(600);
+          await verPantallas(page, shot, `${clave}-recorridos`, 2);
         });
       }
     },
