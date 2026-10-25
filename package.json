@@ -9,7 +9,8 @@
     "build": "npm run sync-data && tsc && vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "test": "node --test scripts/tests/*.test.mjs pagos/test/*.test.mjs"
   },
   "dependencies": {
     "@protomaps/basemaps": "^5.0.0",
