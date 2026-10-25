@@ -5,7 +5,6 @@ export const offline = defineGroup(
   {
     readyTitle: 'Listo para usar sin internet',
     downloadTitle: 'Úsalo sin internet',
-    offlineBadge: 'Offline ✓',
     cachedDesc: (routeTitle?: string) =>
       routeTitle
         ? `Todas las explicaciones e imágenes de «${routeTitle}» están guardadas en tu dispositivo.`
@@ -30,7 +29,6 @@ export const offline = defineGroup(
   {
     readyTitle: 'Ready to use without internet',
     downloadTitle: 'Use it without internet',
-    offlineBadge: 'Offline ✓',
     cachedDesc: (routeTitle?: string) =>
       routeTitle
         ? `All the explanations and images of “${routeTitle}” are saved on your device.`
@@ -55,7 +53,6 @@ export const offline = defineGroup(
   {
     readyTitle: 'Prêt à utiliser sans internet',
     downloadTitle: 'Utilisez-le sans internet',
-    offlineBadge: 'Hors ligne ✓',
     cachedDesc: (routeTitle?: string) =>
       routeTitle
         ? `Toutes les explications et les images de « ${routeTitle} » sont enregistrées sur votre appareil.`

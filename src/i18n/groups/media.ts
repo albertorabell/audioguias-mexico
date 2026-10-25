@@ -5,7 +5,6 @@ export const media = defineGroup(
   {
     defaultAlt: 'Pieza del Museo Nacional de Antropología',
     fallbackAria: (title: string) => `Respaldo visual para ${title}`,
-    glyphAria: 'Glifo arqueológico',
     photoSoon: 'Foto próximamente',
     zoomClose: 'Cerrar ampliación',
     zoomPending: 'Fotografía del acervo en resguardo (foto próximamente)',
@@ -17,7 +16,6 @@ export const media = defineGroup(
   {
     defaultAlt: 'Piece from the National Museum of Anthropology',
     fallbackAria: (title: string) => `Visual placeholder for ${title}`,
-    glyphAria: 'Archaeological glyph',
     photoSoon: 'Photo coming soon',
     zoomClose: 'Close enlarged view',
     zoomPending: 'Photograph of the collection piece in storage (photo coming soon)',
@@ -29,7 +27,6 @@ export const media = defineGroup(
   {
     defaultAlt: 'Pièce du Musée national d’anthropologie',
     fallbackAria: (title: string) => `Image de remplacement pour ${title}`,
-    glyphAria: 'Glyphe archéologique',
     photoSoon: 'Photo bientôt disponible',
     zoomClose: 'Fermer l’agrandissement',
     zoomPending: 'Photographie de la pièce, actuellement en réserve (photo bientôt disponible)',

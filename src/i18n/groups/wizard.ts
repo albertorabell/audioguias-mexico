@@ -5,7 +5,6 @@ export const wizard = defineGroup(
   {
     back: 'Volver al museo',
     title: (siteName: string) => `Arma tu recorrido en ${siteName}`,
-    defaultSite: 'el museo',
     intro: 'Dinos cuánto tiempo tienes y qué te interesa. Elegimos las obras que más valen la pena y las ordenamos como se camina: primero la planta baja y luego la alta.',
     q1: '¿Cuánto tiempo tienes?',
     timeOptions: [
@@ -41,7 +40,6 @@ export const wizard = defineGroup(
   {
     back: 'Back to the museum',
     title: (siteName: string) => `Build your tour of ${siteName}`,
-    defaultSite: 'the museum',
     intro: 'Tell us how much time you have and what interests you. We pick the works most worth seeing and order them the way you walk: ground floor first, then upstairs.',
     q1: 'How much time do you have?',
     timeOptions: [
@@ -77,7 +75,6 @@ export const wizard = defineGroup(
   {
     back: 'Retour au musée',
     title: (siteName: string) => `Composez votre visite : ${siteName}`,
-    defaultSite: 'le musée',
     intro: 'Dites-nous combien de temps vous avez et ce qui vous intéresse. Nous choisissons les œuvres qui valent le plus le détour et les ordonnons comme on marche : d’abord le rez-de-chaussée, puis l’étage.',
     q1: 'Combien de temps avez-vous ?',
     timeOptions: [
