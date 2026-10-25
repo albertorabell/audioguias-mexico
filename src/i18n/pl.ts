@@ -11,7 +11,6 @@ const n = (c: number, one: string, few: string, many: string) => {
 };
 const works = (c: number) => `${c} ${n(c, 'dzieło', 'dzieła', 'dzieł')}`;
 const rooms = (c: number) => `${c} ${n(c, 'sala', 'sale', 'sal')}`;
-const stopsW = (c: number) => `${c} ${n(c, 'przystanek', 'przystanki', 'przystanków')}`;
 
 export const PL_GROUPS: Record<string, any> = {
   common: {

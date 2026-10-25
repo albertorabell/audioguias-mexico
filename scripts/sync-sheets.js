@@ -383,9 +383,18 @@ function translatedPieceFields(p) {
  * opts.zones = true (Teotihuacán): es un sitio al aire libre sin pisos. Todo va en "PB" y cada zona se
  * llama "Zona N" (o lo que diga la columna `etiqueta` del Sheets).
  */
+/** Un id que llega del Sheets solo puede tener letras, números, guion y guion bajo: se usa en rutas de archivo y en direcciones. */
+const ID_VALIDO = /^[A-Za-z0-9_-]{1,80}$/;
+function idValido(id, tipo) {
+  if (!id) return false;
+  if (ID_VALIDO.test(id)) return true;
+  console.warn(`::warning title=${tipo} con id inválido::Se omite «${String(id).slice(0, 60)}» (solo letras, números, - y _).`);
+  return false;
+}
+
 function buildRooms(items, opts = {}) {
   const rooms = items
-    .filter((r) => r.room_id)
+    .filter((r) => idValido(r.room_id, 'Sala'))
     .map((r) => {
       const n = parseInt(r.numero_oficial, 10);
       const piso = opts.zones ? 'PB' : r.piso || (Number.isFinite(n) ? pisoDeNumero(n) : 'PB');
@@ -433,7 +442,7 @@ function coordenadas(p) {
 
 function buildPieces(items, opts = {}) {
   return items
-    .filter((p) => p.piece_id)
+    .filter((p) => idValido(p.piece_id, 'Pieza'))
     .map((p) => {
       const retos = parseRetos(p.retos_observacion);
       const especificaciones = parseEspecificaciones(p.especificaciones);

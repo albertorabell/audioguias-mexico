@@ -25,7 +25,13 @@ export async function cargarSitios({ estricto = false } = {}) {
   const sitios = resto
     .filter((r) => r.some((v) => String(v).trim()))
     .map((r) => Object.fromEntries(h.map((k, i) => [k, String(r[i] ?? '').trim()])))
-    .filter((s) => s.site_id);
+    .filter((s) => s.site_id)
+    .filter((s) => {
+      // El site_id se usa como nombre de carpeta y de archivo: solo minúsculas, números y guion bajo.
+      if (/^[a-z0-9_]{2,40}$/.test(s.site_id)) return true;
+      console.warn(`::warning title=CONTROL: site_id inválido::Se omite «${s.site_id.slice(0, 60)}» (solo minúsculas, números y _).`);
+      return false;
+    });
   if (!sitios.length) throw new Error('La hoja CONTROL (pestaña SITIOS) no tiene sitios.');
   return (cache = sitios);
 }

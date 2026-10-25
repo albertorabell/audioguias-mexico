@@ -26,3 +26,11 @@ datos-privados/
 # Textos de Teotihuacán: se generan al compilar desde el Sheets (no se guardan en el repositorio público)
 public/data/teotihuacan/rooms.json
 public/data/teotihuacan/pieces.json
+
+# Caché de herramientas y salidas locales
+.vite/
+*.tsbuildinfo
+.wrangler/
+dist-capturas/
+capturas-salida/
+candidatas-mapa/

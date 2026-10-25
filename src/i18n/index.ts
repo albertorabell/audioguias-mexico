@@ -2,7 +2,6 @@ import type { SupportedLanguage } from './languages';
 import { common } from './groups/common';
 import { chrome } from './groups/chrome';
 import { home } from './groups/home';
-import { overview } from './groups/overview';
 import { player } from './groups/player';
 import { errors } from './groups/errors';
 import { room } from './groups/room';
@@ -13,7 +12,6 @@ import { offline } from './groups/offline';
 import { piece } from './groups/piece';
 import { media } from './groups/media';
 import { map } from './groups/map';
-import { liveRoute } from './groups/liveRoute';
 import { wizard } from './groups/wizard';
 import { app } from './groups/app';
 import { paywall } from './groups/paywall';
@@ -27,7 +25,6 @@ const groups = {
   common,
   chrome,
   home,
-  overview,
   player,
   errors,
   room,
@@ -38,7 +35,6 @@ const groups = {
   piece,
   media,
   map,
-  liveRoute,
   wizard,
   app,
   paywall,
