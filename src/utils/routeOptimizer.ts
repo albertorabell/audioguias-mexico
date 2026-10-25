@@ -36,6 +36,14 @@ export function formatRouteDuration(minutes: number): string {
   return `${hours} h ${remainingMinutes} min`;
 }
 
+/** Duración corta para listas de recorridos: «40 min», «3 h», «1 h 10». */
+export function formatRouteDurationShort(minutes: number): string {
+  if (minutes < 60) return `${minutes} min`;
+  const hours = Math.floor(minutes / 60);
+  const rest = minutes % 60;
+  return rest ? `${hours} h ${String(rest).padStart(2, '0')}` : `${hours} h`;
+}
+
 /** Piso de una parada: el que trae, el de su sala en el catálogo o, por el número de sala, 12 en adelante = planta alta. */
 function floorOfStop(stop: RouteStop, roomsCatalog?: Room[]): 'PB' | 'PA' {
   if (stop.piso) return stop.piso === 'PA' ? 'PA' : 'PB';

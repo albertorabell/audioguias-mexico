@@ -417,6 +417,81 @@ for (const [tema, init] of [['claro', () => localStorage.setItem('audioguias_the
   });
 }
 
+// Inicio de cada sitio (rediseño del landing): todos los sitios, en modo claro y oscuro, pantalla por pantalla
+const SITIOS_LANDING = [
+  ['mna', 'Antropolog'],
+  ['teo', 'Teotihuac'],
+  ['chap', 'Castillo de Chapultepec'],
+  ['cdmx', 'Centro Hist'],
+  ['chi', 'Chich'],
+  ['tmc', 'Templo Mayor y Catedral'],
+];
+const verPantallas = async (page, shot, clave, veces = 4) => {
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await shot(`${clave}-1`);
+  for (let i = 2; i <= veces; i++) {
+    await page.evaluate(() => window.scrollBy(0, Math.round(window.innerHeight * 0.8)));
+    await shot(`${clave}-${i}`);
+  }
+};
+for (const [tema, init] of [['claro', () => localStorage.setItem('audioguias_theme', 'sun')], ['oscuro', () => localStorage.setItem('audioguias_theme', 'museum')]]) {
+  await sesion({
+    nombre: `n-landing-${tema}`,
+    init,
+    pasos: async ({ page, shot, paso }) => {
+      for (const [clave, nombre] of SITIOS_LANDING) {
+        await paso(clave, async () => {
+          await page.goto(base + '/?preview');
+          await page.waitForLoadState('networkidle').catch(() => {});
+          await page.locator('#sites-grid-section [role=button]', { hasText: nombre }).first().click();
+          await page.waitForTimeout(900);
+          await verPantallas(page, shot, clave, 5);
+          await page.locator('#dock-tab-recorridos').click();
+          await page.waitForTimeout(600);
+          await verPantallas(page, shot, `${clave}-recorridos`, 2);
+        });
+      }
+    },
+  });
+}
+
+// Ejemplo de «Antes de ir» con textos de muestra (solo para ver el diseño: se inyectan en la captura, no vienen del Sheet)
+const ANTES_EJEMPLO = [
+  { topic: 'llegar', title: 'Cómo llegar', text: 'Chichén Itzá está a unos 120 km de Mérida y a unos 200 km de Cancún, por la autopista 180D. Hay estacionamiento junto a la entrada.\n\nDesde Valladolid salen camionetas y autobuses cada hora, más o menos.', link: 'https://www.google.com/maps/search/?api=1&query=Chichen+Itza', link_label: 'Abrir en Google Maps' },
+  { topic: 'horario', title: 'Horarios y boletos', text: 'Texto de ejemplo: aquí van los días y horas de apertura, el último acceso y dónde se compran los boletos.' },
+  { topic: 'cuando', title: 'Cuándo ir', text: 'Llega a la apertura: hay menos gente y menos calor. Los grupos de Cancún suelen llegar a media mañana.' },
+  { topic: 'llevar', title: 'Qué llevar', text: '- Agua, gorra y bloqueador\n- Calzado cómodo: caminarás de 3 a 6 km\n- El teléfono cargado y los audios descargados' },
+  { topic: 'accesibilidad', title: 'Accesibilidad', text: 'Texto de ejemplo: senderos, rampas, sillas de ruedas y baños accesibles.' },
+  { topic: 'reglas', title: 'Reglas del lugar', text: 'No se puede subir a las estructuras. Texto de ejemplo para tripiés, drones y comida.' },
+];
+await sesion({
+  nombre: 'o-antes-de-ir-ejemplo',
+  init: () => localStorage.setItem('audioguias_theme', 'sun'),
+  pasos: async ({ page, shot, paso }) => {
+    await page.route('**/data/chichen_itza/chichen_itza.json', async (route) => {
+      const res = await route.fetch();
+      const json = await res.json();
+      await route.fulfill({ response: res, json: { ...json, before_visit: ANTES_EJEMPLO } });
+    });
+    await paso('chi', async () => {
+      await page.goto(base + '/?preview');
+      await page.waitForLoadState('networkidle').catch(() => {});
+      await page.locator('#sites-grid-section [role=button]', { hasText: 'Chich' }).first().click();
+      await page.waitForTimeout(900);
+      await shot('01-arriba');
+      await page.locator('#btn-before-link').click();
+      await page.waitForTimeout(900);
+      await shot('02-antes-de-ir');
+      await page.locator('#before-topic-0').click();
+      await page.locator('#before-topic-3').click();
+      await page.waitForTimeout(400);
+      await page.locator('#before-visit').scrollIntoViewIfNeeded();
+      await page.evaluate(() => window.scrollBy(0, -70));
+      await shot('03-temas-abiertos');
+    });
+  },
+});
+
 await browser.close();
 fs.writeFileSync(path.join(out, 'RESULTADO.txt'), resultados.join('\n') + '\n');
 console.log(resultados.join('\n'));

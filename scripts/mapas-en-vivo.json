@@ -33,5 +33,39 @@
     "near_meters": 3000,
     "labels": true,
     "labels_route_only": true
+  },
+  "chichen_itza": {
+    "pmtiles": "maps/chichen_itza.pmtiles",
+    "center": [
+      -88.5705,
+      20.6815
+    ],
+    "zoom": 16,
+    "bounds": [
+      -88.595,
+      20.668,
+      -88.55,
+      20.697
+    ],
+    "maxZoom": 17,
+    "near_meters": 1800,
+    "labels": false
+  },
+  "templo_mayor_catedral": {
+    "pmtiles": "maps/centro_historico.pmtiles",
+    "center": [
+      -99.1322,
+      19.4345
+    ],
+    "zoom": 17,
+    "bounds": [
+      -99.145,
+      19.425,
+      -99.12,
+      19.444
+    ],
+    "maxZoom": 17,
+    "near_meters": 3000,
+    "labels": true
   }
 }

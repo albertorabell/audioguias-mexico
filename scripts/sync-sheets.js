@@ -23,7 +23,7 @@ import { splitPiece, writePrivate } from './privado-lib.mjs';
 import { linkIds, hasBrokenLink } from '../src/utils/pieceLinks.js';
 import { hayClave, leerPestana } from './google-sheets-lib.mjs';
 import { cargarSitios, estaPublicado } from './sitios-lib.mjs';
-import { aplicarDefiniciones, partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites } from './sitios-extra-lib.mjs';
+import { aplicarDefiniciones, partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites, leerAntesDeIr } from './sitios-extra-lib.mjs';
 
 // ===== CONFIGURACIÓN (lo único que normalmente se toca) =====================
 const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
@@ -720,6 +720,11 @@ export async function sync() {
   // Otros sitios de CONTROL (publicar = SI) que no tienen lógica propia: salen con sus zonas, piezas y recorridos (pestaña RUTAS).
   // Con SYNC_PREVIEW=1 también entran los que aún no están publicados (status "preview": solo se ven con ?preview en la app).
   const PREVIEW = process.env.SYNC_PREVIEW === '1';
+  // «Antes de ir» (pestaña ANTES_DE_IR del Sheet de cada sitio). Si la pestaña no existe, el sitio sale sin esa sección.
+  const antesDeIrDe = async (sitio) => {
+    if (!sitio || !sitio.sheet_id) return [];
+    try { return leerAntesDeIr(await leerPestana(sitio.sheet_id, 'ANTES_DE_IR')); } catch { return []; }
+  };
   const extras = [];
   for (const s of sitiosCtl) {
     if (s.site_id === 'mna' || s.site_id === 'teotihuacan') continue;
@@ -730,6 +735,7 @@ export async function sync() {
     const pi = await leerPestanaNueva(s.site_id, 'PIEZAS', 'piezas');
     let filasRutas = [];
     try { filasRutas = await leerPestana(s.sheet_id, 'RUTAS'); } catch { /* sin pestaña RUTAS: el sitio sale sin recorridos */ }
+    const antesDeIr = await antesDeIrDe(s);
     extras.push({
       site: s,
       preview: !publicado,
@@ -737,6 +743,7 @@ export async function sync() {
       pieces: buildPieces(pi.items, { zones: true }),
       rutasDefs: leerDefinicionesRutas(filasRutas),
       rutasPorId: new Map(pi.items.filter((p) => p.piece_id).map((p) => [p.piece_id, partirRutas(p.rutas)])),
+      antesDeIr,
     });
   }
 
@@ -810,6 +817,8 @@ export async function sync() {
   // Recorridos del MNA: si el Sheet trae la columna `rutas` en PIEZAS y las definiciones en RUTAS, salen de ahí
   // (se editan sin tocar código). Si no, se usan los recorridos fijos de este archivo (ROUTES).
   const defsMna = await defsRutasDe('mna');
+  const antesMna = await antesDeIrDe(sitiosCtl.find((x) => x.site_id === 'mna'));
+  const antesTeo = teo ? await antesDeIrDe(sitiosCtl.find((x) => x.site_id === 'teotihuacan')) : [];
   const rutasMna = new Map(piezas.items.filter((p) => p.piece_id).map((p) => [p.piece_id, partirRutas(p.rutas)]));
   const clavesUsadasMna = new Set([...rutasMna.values()].flat());
   const defsMnaUsadas = defsMna.filter((d) => clavesUsadasMna.has(d.key));
@@ -822,7 +831,18 @@ export async function sync() {
     if (r.missing_ids?.length) console.warn(`⚠️  Ruta "${r.name}": no existen en el Sheets estas piezas: ${r.missing_ids.join(', ')}`);
   });
   const teoWarnings = {};
-  const teoRoutes = teo ? aplicarRutas(buildTeoRoutes(teo.pieces, teo.rooms, teo.rutas, (kind, msg) => { (teoWarnings[kind] ||= []).push(msg); }), await defsRutasDe('teotihuacan'), 'teotihuacan', (r) => r.id.replace(/^ruta-/, '')) : [];
+  // Recorridos de Teotihuacán: igual que el MNA, si la pestaña RUTAS define recorridos que la columna `rutas` de PIEZAS usa,
+  // salen todos de ahí (se agregan o quitan sin tocar código). Si no, se usan los dos fijos de este archivo (TEO_ROUTES).
+  const defsTeo = teo ? await defsRutasDe('teotihuacan') : [];
+  const clavesUsadasTeo = new Set(teo ? [...teo.rutas.values()].flat() : []);
+  const defsTeoUsadas = defsTeo.filter((d) => clavesUsadasTeo.has(d.key));
+  const teoDesdeSheet = defsTeoUsadas.length > 0;
+  const teoRoutes = !teo
+    ? []
+    : teoDesdeSheet
+      ? construirRutasSitio('teotihuacan', teo.pieces, teo.rooms, defsTeoUsadas, teo.rutas, (kind, msg) => { (teoWarnings[kind] ||= []).push(msg); })
+      : aplicarRutas(buildTeoRoutes(teo.pieces, teo.rooms, teo.rutas, (kind, msg) => { (teoWarnings[kind] ||= []).push(msg); }), defsTeo, 'teotihuacan', (r) => r.id.replace(/^ruta-/, ''));
+  if (teoDesdeSheet) console.log(`✅ Teotihuacán: ${teoRoutes.length} recorridos desde el Sheet.`);
   for (const [kind, list] of Object.entries(teoWarnings)) {
     console.warn(`⚠️  ${kind}: ${list.length}`);
     list.slice(0, 8).forEach((m) => console.warn(`     - ${m}`));
@@ -850,6 +870,8 @@ export async function sync() {
   if (fs.existsSync(siteJsonPath)) {
     const manifest = JSON.parse(fs.readFileSync(siteJsonPath, 'utf-8'));
     manifest.routes = routes.map(({ missing_ids, ...route }) => route);
+    if (antesMna.length) manifest.before_visit = antesMna;
+    else delete manifest.before_visit;
     write(siteJsonPath, manifest);
     write(mnaJsonPath, manifest);
     console.log('✅ Rutas sugeridas actualizadas en site.json y mna.json.');
@@ -864,6 +886,8 @@ export async function sync() {
     if (fs.existsSync(teoManifestPath)) {
       const manifest = JSON.parse(fs.readFileSync(teoManifestPath, 'utf-8'));
       manifest.routes = teoRoutes;
+      if (antesTeo.length) manifest.before_visit = antesTeo;
+      else delete manifest.before_visit;
       write(teoManifestPath, manifest);
     }
     console.log(`✅ Teotihuacán: ${teo.rooms.length} zonas, ${teo.pieces.length} piezas (${teo.pieces.length - teoSinFoto} con foto) y rutas: ${teoRoutes.map((r) => `${r.name} (${r.stops.length})`).join(', ')}.`);
@@ -878,7 +902,7 @@ export async function sync() {
     for (const [kind, list] of Object.entries(avisosRutas)) { console.warn(`⚠️  ${kind}: ${list.length}`); list.slice(0, 8).forEach((m) => console.warn(`     - ${m}`)); }
     write(path.join(dir, 'rooms.json'), e.rooms);
     write(path.join(dir, 'pieces.json'), e.pieces.map((piece) => splitPiece(piece).pub));
-    write(path.join(dir, `${e.site.site_id}.json`), manifiestoSitio(e.site, rutasSitio, MAPAS_EN_VIVO[e.site.site_id]));
+    write(path.join(dir, `${e.site.site_id}.json`), manifiestoSitio(e.site, rutasSitio, MAPAS_EN_VIVO[e.site.site_id], e.antesDeIr));
     entradasSites.push({ site: e.site, entry: e });
     console.log(`✅ ${e.site.site_id}${e.preview ? ' (vista previa)' : ''}: ${e.rooms.length} zonas, ${e.pieces.length} piezas y recorridos: ${rutasSitio.map((r) => `${r.name} (${r.stops.length})`).join(', ') || 'ninguno'}.`);
   }

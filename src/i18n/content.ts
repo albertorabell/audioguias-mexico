@@ -25,6 +25,7 @@ const PIECE_FIELDS = [
 const ROOM_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narrativa', 'etiqueta'] as const;
 const SITE_FIELDS = ['name', 'location', 'badge', 'description', 'intro'] as const;
 const ROUTE_FIELDS = ['name', 'description'] as const;
+const BEFORE_FIELDS = ['title', 'text', 'link_label'] as const;
 
 /** ¿Las dos versiones de lectura (corta y larga) de esta pieza existen en ese idioma? */
 export function hasTranslatedScripts(piece: any, lang: SupportedLanguage): boolean {
@@ -82,4 +83,9 @@ export function localizeSite<T extends Record<string, any>>(site: T, lang: Suppo
 
 export function localizeRoute<T extends Record<string, any>>(route: T, lang: SupportedLanguage): T {
   return localize(route, lang, ROUTE_FIELDS, { name: ['title'] });
+}
+
+/** Temas de «Antes de ir» con sus columnas *_en, *_fr… cuando existan. */
+export function localizeBeforeVisit<T extends Record<string, any>>(item: T, lang: SupportedLanguage): T {
+  return localize(item, lang, BEFORE_FIELDS, {});
 }
