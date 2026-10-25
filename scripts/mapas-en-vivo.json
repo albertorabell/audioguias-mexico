@@ -33,5 +33,22 @@
     "near_meters": 3000,
     "labels": true,
     "labels_route_only": true
+  },
+  "chichen_itza": {
+    "pmtiles": "maps/chichen_itza.pmtiles",
+    "center": [
+      -88.5705,
+      20.6815
+    ],
+    "zoom": 16,
+    "bounds": [
+      -88.595,
+      20.668,
+      -88.55,
+      20.697
+    ],
+    "maxZoom": 17,
+    "near_meters": 1800,
+    "labels": false
   }
 }
