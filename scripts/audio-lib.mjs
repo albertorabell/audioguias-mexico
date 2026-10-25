@@ -20,10 +20,6 @@ export function textHash(text) {
   return crypto.createHash('sha1').update(String(text).normalize('NFC')).digest('hex').slice(0, 16);
 }
 
-export function audioFileName(lang, pieceId, mode) {
-  return `${lang}/${pieceId}_${mode}.mp3`;
-}
-
 // ---------------------------------------------------------------------------
 // Utilidades para generar y revisar los MP3
 // ---------------------------------------------------------------------------

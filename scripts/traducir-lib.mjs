@@ -17,15 +17,14 @@ import { sameLinks, hasBrokenLink } from '../src/utils/pieceLinks.js';
 // ---------------------------------------------------------------------------
 export const PIECE_FIELDS = ['titulo', 'frase_gancho', 'puente_narrativo', 'como_llegar', 'guion_corto', 'guion_largo', 'retos_observacion', 'especificaciones', 'faq_mito'];
 export const ROOM_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narrativa'];
-export const SPOKEN_FIELDS = ['guion_corto', 'guion_largo'];
 
 // Idiomas que ya tienen glosario y reglas. Los demás se agregan cuando existan.
 export const LANG_NAMES = { en: 'English (US)', fr: 'French (France)', pl: 'Polish (Poland)' };
 // Columna del glosario con la decisión de cada idioma
-export const GLOSSARY_COLUMNS = { en: 'ingles_propuesto', fr: 'frances_propuesto', pl: 'polaco_propuesto' };
-export const TRANSLATE_LANGS = Object.keys(LANG_NAMES);
+const GLOSSARY_COLUMNS = { en: 'ingles_propuesto', fr: 'frances_propuesto', pl: 'polaco_propuesto' };
+const TRANSLATE_LANGS = Object.keys(LANG_NAMES);
 
-export const TRANSLATIONS_DIR = 'traducciones';
+const TRANSLATIONS_DIR = 'traducciones';
 export const GLOSSARY_FILE = 'glosario/glosario.csv';
 
 const isEmptyValue = (v) =>
@@ -213,7 +212,7 @@ All texts:
 
 
 // Reglas que se agregan a las instrucciones de TODOS los idiomas: enlaces entre piezas y palabras nativas (náhuatl, maya...)
-export const LINK_AND_NAME_RULES = `
+const LINK_AND_NAME_RULES = `
 
 Links between pieces (inside "guion_corto" and "guion_largo"):
 - The Spanish text may contain internal links written as [visible text](piece_id), for example [Disco de la Muerte](mna_s04_disco_muerte). They connect to other pieces of the guide.

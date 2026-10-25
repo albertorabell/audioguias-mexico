@@ -3,8 +3,8 @@ import { PASS_HOURS } from '../config/pass';
 
 const STORAGE_KEY_PREFIX = 'audioguias_pass_';
 const DEVICE_ID_KEY = 'audioguias_device_id';
-export const MNA_TOUR_PASS_KEY = 'mna_tour_pass_active';
-export const MNA_TOUR_EXPIRES_KEY = 'mna_tour_pass_expires';
+const MNA_TOUR_PASS_KEY = 'mna_tour_pass_active';
+const MNA_TOUR_EXPIRES_KEY = 'mna_tour_pass_expires';
 
 export function getOrCreateDeviceId(): string {
   try {

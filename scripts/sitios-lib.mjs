@@ -2,10 +2,10 @@
 // "Audioguías México" en Drive. Si no hay clave del robot (por ejemplo en pruebas locales), se usa una lista fija.
 import { hayClave, leerPestana } from './google-sheets-lib.mjs';
 
-export const CONTROL_ID = process.env.CONTROL_SHEET_ID || '1e4BQCAULQq6zABdMTD0trSpuzknPTV3ZS9gzp6Qx93Q';
+const CONTROL_ID = process.env.CONTROL_SHEET_ID || '1e4BQCAULQq6zABdMTD0trSpuzknPTV3ZS9gzp6Qx93Q';
 
 // Solo se usa si no se puede leer CONTROL.
-export const SITIOS_RESPALDO = [
+const SITIOS_RESPALDO = [
   { site_id: 'mna', prefijo: 'mna_', nombre: 'Museo Nacional de Antropología', sheet_id: '', publicar: 'SI' },
   { site_id: 'teotihuacan', prefijo: 'teo_', nombre: 'Zona Arqueológica de Teotihuacán', sheet_id: '', publicar: 'SI' },
 ];

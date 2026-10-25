@@ -2,7 +2,7 @@
  * URL and Data Resolution Helpers for GitHub Pages and Local Environments
  */
 
-export const PIECE_ALIASES: Record<string, string> = {
+const PIECE_ALIASES: Record<string, string> = {
   'disco-de-la-muerte': 'mna_s04_disco_muerte',
   'disco-de-la-muerte-mictlantecuhtli': 'mna_s04_disco_muerte',
   'piedra-del-sol': 'mna_s06_piedra_sol',

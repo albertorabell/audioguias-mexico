@@ -21,12 +21,12 @@ export interface ResolvedAudio {
 }
 
 /** Dirección del servidor de audio (donde están TODOS los MP3, en R2). null = no hay servidor configurado. */
-export function getAudioBase(): string | null {
+function getAudioBase(): string | null {
   return PAYMENTS_API_URL || null;
 }
 
 /** Dirección + clave para pedir audios de pago al servidor. null = no hay pase con clave o no hay servidor. */
-export function getRemoteAudioAccess(siteId: string): { base: string; token: string } | null {
+function getRemoteAudioAccess(siteId: string): { base: string; token: string } | null {
   if (!PAYMENTS_API_URL) return null;
   const token = getSiteLicense(siteId)?.token;
   return token ? { base: PAYMENTS_API_URL, token } : null;
@@ -39,7 +39,7 @@ export function audioUrl(base: string, filePath: string): string {
 }
 
 /** Igual que audioUrl, con la clave del pase. La clave va en la dirección porque un reproductor de audio no puede mandar encabezados. */
-export function remoteAudioUrl(base: string, filePath: string, token: string): string {
+function remoteAudioUrl(base: string, filePath: string, token: string): string {
   return `${audioUrl(base, filePath)}?t=${encodeURIComponent(token)}`;
 }
 
