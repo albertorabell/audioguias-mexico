@@ -1,7 +1,7 @@
 // Pruebas de los sitios genéricos de CONTROL: recorridos, manifiesto y entrada de sites.json.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites } from '../sitios-extra-lib.mjs';
+import { partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites, leerAntesDeIr } from '../sitios-extra-lib.mjs';
 
 const defs = leerDefinicionesRutas([
   ['ruta', 'nombre', 'duracion', 'minutos', 'descripcion', 'nombre_en'],
@@ -100,4 +100,30 @@ test('sitios genéricos: el grupo del recorrido (tiempo, tema, completo) pasa a 
   const rutas = construirRutasSitio('x', [{ ...piezas[0], piso: 'PA' }], salas, ds, new Map([['x_b', ['a']]]));
   assert.equal(rutas[0].group, 'tiempo');
   assert.equal(rutas[0].stops[0].piso, 'PA');
+});
+
+test('antes de ir: filas con título y texto, en el orden de la columna orden, con traducciones y enlace válido', () => {
+  const items = leerAntesDeIr([
+    ['orden', 'Tema', 'titulo', 'texto', 'enlace', 'enlace_texto', 'publicar', 'titulo_en', 'texto_en'],
+    ['2', 'horario', 'Horarios', 'De martes a domingo.', '', '', 'SI', 'Opening hours', 'Tuesday to Sunday.'],
+    ['1', 'Llegar', 'Cómo llegar', 'En metro.', 'https://maps.google.com/?q=x', 'Abrir en el mapa', '', '', ''],
+    ['3', 'consejo', 'Sin texto todavía', '', '', '', 'SI', '', ''],
+    ['4', 'reglas', 'Oculto', 'No se publica.', '', '', 'NO', '', ''],
+    ['', '', 'Sin orden', 'Va al final.', 'no-es-un-enlace', 'x', '', '', ''],
+  ]);
+  assert.deepEqual(items.map((x) => x.title), ['Cómo llegar', 'Horarios', 'Sin orden']);
+  assert.equal(items[0].topic, 'llegar');
+  assert.equal(items[0].link, 'https://maps.google.com/?q=x');
+  assert.equal(items[0].link_label, 'Abrir en el mapa');
+  assert.equal(items[1].title_en, 'Opening hours');
+  assert.equal(items[1].text_en, 'Tuesday to Sunday.');
+  assert.equal(items[2].topic, 'consejo');
+  assert.equal(items[2].link, undefined);
+  assert.deepEqual(leerAntesDeIr([]), []);
+});
+
+test('antes de ir: el manifiesto lo incluye solo si hay temas', () => {
+  const sitio = { site_id: 'x', nombre: 'X' };
+  assert.equal(manifiestoSitio(sitio, [], undefined).before_visit, undefined);
+  assert.equal(manifiestoSitio(sitio, [], undefined, [{ topic: 'llegar', title: 'a', text: 'b' }]).before_visit.length, 1);
 });

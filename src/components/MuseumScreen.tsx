@@ -1,9 +1,28 @@
 import React, { useMemo, useState } from 'react';
-import { ChevronRight, SlidersHorizontal, Map as MapIcon, CircleHelp } from 'lucide-react';
-import { SiteSummary, SiteManifest, SiteRoute, Room, PieceData } from '../types';
+import {
+  Accessibility,
+  Backpack,
+  CalendarDays,
+  ChevronDown,
+  ChevronRight,
+  CircleHelp,
+  Clock,
+  Coffee,
+  ExternalLink,
+  Info,
+  Lightbulb,
+  Map as MapIcon,
+  MapPin,
+  ShieldCheck,
+  SlidersHorizontal,
+  Sun,
+  Ticket,
+} from 'lucide-react';
+import { SiteSummary, SiteManifest, SiteRoute, Room, PieceData, BeforeVisitItem } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
 import { getRoomShortLabel } from '../utils/roomLabel';
 import { calculateRouteTimeMinutes, formatRouteDuration } from '../utils/routeOptimizer';
+import { localizeBeforeVisit } from '../i18n/content';
 import { TopBar } from './ui/TopBar';
 import { LanguageMenu, PassButton } from './ui/HeaderControls';
 import { PieceImage } from './PieceImage';
@@ -33,7 +52,7 @@ interface MuseumScreenProps {
   onOpenPaywall: () => void;
   onSelectRoom: (room: Room) => void;
   onStartRoute: (route: SiteRoute) => void;
-  /** Sin esta función no se ofrece "arma tu ruta" (Teotihuacán solo tiene sus dos rutas). */
+  /** Sin esta función no se ofrece "arma tu ruta" (los sitios al aire libre solo tienen sus rutas armadas). */
   onOpenWizard?: () => void;
   /** Sin plano (sitios nuevos sin mapa) no hay botón "ver plano". */
   onOpenMap?: () => void;
@@ -46,8 +65,61 @@ interface MuseumScreenProps {
 /** Ordena las piezas de una sala como se recorren. */
 export const byOrder = (a: PieceData, b: PieceData) => (a.orden_sugerido || 99) - (b.orden_sugerido || 99);
 
+const minutesOf = (r: SiteRoute) => r.estimated_minutes || calculateRouteTimeMinutes(r.stops);
+
+/** Duración corta para la columna de tiempos: «40 min», «3 h», «1 h 10». */
+function compactDuration(minutes: number): string {
+  if (minutes < 60) return `${minutes} min`;
+  const h = Math.floor(minutes / 60);
+  const m = minutes % 60;
+  return m ? `${h} h ${String(m).padStart(2, '0')}` : `${h} h`;
+}
+
+/** Ícono de cada tema de «Antes de ir» (columna `tema` del Sheet). */
+const TOPIC_ICONS: Record<string, React.ElementType> = {
+  llegar: MapPin,
+  horario: Clock,
+  boletos: Ticket,
+  cuando: CalendarDays,
+  llevar: Backpack,
+  clima: Sun,
+  accesibilidad: Accessibility,
+  servicios: Coffee,
+  reglas: ShieldCheck,
+  consejo: Lightbulb,
+};
+
+/** Párrafos (separados por una línea en blanco) y listas (líneas que empiezan con «- »). */
+function RichText({ text }: { text: string }) {
+  const blocks = text.split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean);
+  return (
+    <>
+      {blocks.map((block, i) => {
+        const lines = block.split('\n').map((l) => l.trim()).filter(Boolean);
+        if (lines.length && lines.every((l) => /^[-•]\s+/.test(l))) {
+          return (
+            <ul key={i} className="space-y-1.5">
+              {lines.map((l, j) => (
+                <li key={j} className="relative pl-4 before:content-[''] before:absolute before:left-0 before:top-[0.7em] before:w-1.5 before:h-1.5 before:rounded-full before:bg-ink-3">
+                  {l.replace(/^[-•]\s+/, '')}
+                </li>
+              ))}
+            </ul>
+          );
+        }
+        return (
+          <p key={i} className="whitespace-pre-line text-pretty">
+            {block}
+          </p>
+        );
+      })}
+    </>
+  );
+}
+
 /**
- * Pestaña "Museo": dónde estás, por dónde empezar (recorridos armados) y todas las salas por piso.
+ * Inicio de un sitio (pestaña «Museo» o «Sitio»). De arriba abajo: portada con lo esencial del lugar, los recorridos
+ * ordenados por duración, «Antes de ir» (si el Sheet lo trae), las salas o zonas, la presentación larga y el uso sin internet.
  */
 export const MuseumScreen: React.FC<MuseumScreenProps> = ({
   site,
@@ -68,12 +140,13 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
   onOpenRoutes,
   zones = false,
 }) => {
-  const { strings } = useLanguage();
+  const { strings, currentLanguage } = useLanguage();
   const u = strings.ui;
-  // La bienvenida de arriba ya orienta; la guía paso a paso queda solo en «¿Cómo se usa?»
+  const m = u.museum;
   const [introOpen, setIntroOpen] = useState<boolean>(false);
-  // La presentación del sitio muestra el primer párrafo y el resto se abre con «Seguir leyendo» (así los recorridos quedan a la vista)
+  // La presentación larga muestra el primer párrafo; el resto se abre con «Seguir leyendo»
   const [introMore, setIntroMore] = useState<boolean>(false);
+  const [openTopics, setOpenTopics] = useState<Set<number>>(() => new Set());
 
   const pieceById = useMemo(() => new Map(pieces.map((p) => [p.piece_id, p])), [pieces]);
   const piecesByRoom = useMemo(() => {
@@ -98,52 +171,52 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
         .sort((a, b) => (parseInt(String(a.numero_oficial), 10) || 0) - (parseInt(String(b.numero_oficial), 10) || 0)),
     [rooms, floor, showFloors]
   );
-  const routes = useMemo(
-    () =>
-      [...(manifest?.routes || [])]
-        .filter((r) => r.stops?.length)
-        .sort((a, b) => a.stops.length - b.stops.length),
-    [manifest]
-  );
+  const routes = useMemo(() => (manifest?.routes || []).filter((r) => r.stops?.length), [manifest]);
+
+  /** Los recorridos del inicio: los de «según tu tiempo» (o todos si el sitio no los agrupa), del más corto al más largo. */
+  const shelf = useMemo(() => {
+    const byTime = routes.filter((r) => !r.group || r.group === 'tiempo');
+    return [...(byTime.length ? byTime : routes)].sort((a, b) => minutesOf(a) - minutesOf(b)).slice(0, 6);
+  }, [routes]);
+
+  const range = useMemo(() => {
+    const all = routes.map(minutesOf).filter((x) => x > 0);
+    return all.length ? { min: Math.min(...all), max: Math.max(...all) } : null;
+  }, [routes]);
 
   /** Foto de la portada: la del sitio, o la primera obra de un recorrido que tenga imagen. */
   const coverPiece = useMemo(() => {
     const byId = (id?: string) => (id ? pieceById.get(id) : undefined);
     const direct = byId(site.cover_piece_id) || pieces.find((p) => p.image_filename === site.cover_image);
-    if (direct) return direct;
-    for (const r of routes) for (const s of r.stops) {
+    if (direct?.image_filename) return direct;
+    for (const r of shelf) for (const s of r.stops) {
       const p = byId(s.piece_id || s.id || s.poi_id);
       if (p?.image_filename) return p;
     }
-    return undefined;
-  }, [site, pieces, pieceById, routes]);
+    return pieces.find((p) => p.image_filename);
+  }, [site, pieces, pieceById, shelf]);
 
-  /** Los recorridos que se ofrecen en el inicio: los de "según tu tiempo" (o todos si el sitio no los agrupa), del más corto al más largo. */
-  const shelf = useMemo(() => {
-    const byTime = routes.filter((r) => !r.group || r.group === 'tiempo');
-    return (byTime.length ? byTime : routes)
-      .map((r) => ({ r, m: r.estimated_minutes || calculateRouteTimeMinutes(r.stops) }))
-      .sort((a, b) => a.m - b.m)
-      .slice(0, 6)
-      .map((x) => x.r);
-  }, [routes]);
+  const before = useMemo(
+    () => (manifest?.before_visit || []).map((item) => localizeBeforeVisit(item, currentLanguage) as BeforeVisitItem),
+    [manifest, currentLanguage]
+  );
 
-  /** Foto de un recorrido: la de su obra más importante que tenga imagen. */
-  const routeCover = (route: SiteRoute): PieceData | undefined => {
-    let best: PieceData | undefined;
-    for (const s of route.stops) {
-      const p = pieceById.get(s.piece_id || s.id || s.poi_id);
-      if (!p?.image_filename) continue;
-      if (!best || (p.prioridad || 3) < (best.prioridad || 3)) best = p;
-    }
-    return best;
-  };
-
-  /** Presentación del sitio: párrafos separados por una línea en blanco (si no hay, la descripción corta). */
+  // La descripción corta abre la página; la presentación larga va más abajo, en «Sobre el museo / el sitio»
+  const lead = (site.description || '').trim();
   const introParagraphs = useMemo(() => {
-    const text = (site.intro || site.description || '').trim();
+    const text = (site.intro || '').trim();
     return text ? text.split(/\n\s*\n/).map((t) => t.trim()).filter(Boolean) : [];
-  }, [site.intro, site.description]);
+  }, [site.intro]);
+
+  const toggleTopic = (i: number) =>
+    setOpenTopics((prev) => {
+      const next = new Set(prev);
+      if (next.has(i)) next.delete(i);
+      else next.add(i);
+      return next;
+    });
+
+  const scrollToBefore = () => document.getElementById('before-visit')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
   return (
     <div className="min-h-dvh bg-bg text-ink pb-tabbar">
@@ -151,7 +224,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
         onBack={onBack}
         backLabel={u.homeLabel}
         title={site.name}
-        revealAfter={110}
+        revealAfter={coverPiece ? 300 : 90}
         right={
           <>
             <LanguageMenu />
@@ -161,128 +234,55 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
       />
 
       <main>
-        <section className="px-5 pt-5">
-          <div className="rounded-3xl bg-surface border border-line overflow-hidden">
-            {coverPiece && (
-              <div className="relative h-36 bg-raised">
-                <PieceImage filename={coverPiece.image_filename} pieceId={coverPiece.piece_id} alt="" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-surface via-surface/10 to-transparent" aria-hidden="true" />
-              </div>
-            )}
-            <div className="px-5 pb-4 pt-3">
-              <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{site.name}</h1>
-              <p className="mt-1.5 text-ui text-ink-3">{site.location}</p>
-              <p className="mt-3 text-cap font-semibold text-ink-3">
-                {!zones && `${u.roomsCount(rooms.length)} · `}{u.worksCount(pieces.length)}
-              </p>
-              <div id="site-intro" className="mt-4 space-y-3.5">
-                {(introMore ? introParagraphs : introParagraphs.slice(0, 1)).map((text, i) => (
-                  <p key={i} className="text-[1rem] leading-[1.55] text-ink-2 text-pretty">
-                    {text}
-                  </p>
-                ))}
-              </div>
-              {introParagraphs.length > 1 && (
-                <button
-                  type="button"
-                  id="btn-intro-more"
-                  aria-expanded={introMore}
-                  onClick={() => setIntroMore((v) => !v)}
-                  className="mt-2 -ml-1 h-10 px-1 text-ui font-semibold text-jade-ink cursor-pointer rounded-full"
-                >
-                  {introMore ? u.museum.readLess : u.museum.readMore}
-                </button>
-              )}
+        {/* Portada: foto a todo lo ancho y, debajo, el nombre, dónde está y de qué trata */}
+        <header id="site-hero">
+          {coverPiece && (
+            <div className="bg-raised">
+              <PieceImage
+                filename={coverPiece.image_filename}
+                pieceId={coverPiece.piece_id}
+                alt=""
+                className="block w-full aspect-[3/2] max-h-[22rem] object-cover"
+              />
             </div>
-          </div>
-          {!zones && (
-            <button
-              type="button"
-              id="btn-open-intro"
-              onClick={() => setIntroOpen(true)}
-              className="mt-2 -ml-2 h-10 px-2 inline-flex items-center gap-1.5 text-ui font-semibold text-jade-ink cursor-pointer rounded-full active:bg-raised"
-            >
-              <CircleHelp className="w-4 h-4" strokeWidth={2} />
-              {strings.intro.openLabel}
-            </button>
           )}
-        </section>
-
-        {shelf.length > 0 && (
-          <section id="time-chooser" className="mt-6" aria-labelledby="routes-title">
-            <div className="px-5">
-              <h2 id="routes-title" className="font-serif text-h3 font-medium">
-                {u.museum.routesTitle}
-              </h2>
-              <p className="mt-1 text-cap text-ink-3">{u.museum.routesSub}</p>
-            </div>
-            <div className="mt-3 flex gap-3 overflow-x-auto px-5 pb-2 snap-x snap-mandatory scrollbar-none scroll-px-5">
-              {shelf.map((route, i) => {
-                const minutes = route.estimated_minutes || calculateRouteTimeMinutes(route.stops);
-                const cover = routeCover(route);
-                return (
-                  <button
-                    key={route.id}
-                    type="button"
-                    id={i === 0 ? 'first-route-card' : undefined}
-                    onClick={() => onStartRoute(route)}
-                    className="snap-start shrink-0 w-[15.5rem] text-left rounded-2xl bg-surface border border-line overflow-hidden cursor-pointer active:scale-[0.99] transition-transform"
-                  >
-                    <span className="relative block h-28 bg-raised">
-                      {cover && <PieceImage filename={cover.image_filename} pieceId={cover.piece_id} alt="" className="w-full h-full object-cover" />}
-                      <span className="absolute left-2.5 top-2.5 rounded-full bg-bg/90 px-2.5 py-1 text-cap font-bold text-ink backdrop-blur">
-                        {formatRouteDuration(minutes)}
-                      </span>
-                    </span>
-                    <span className="block p-3.5">
-                      <span className="block text-[1.0625rem] font-bold leading-snug">{route.name}</span>
-                      <span className="mt-0.5 block text-cap text-ink-3">{u.worksCount(route.stops.length)}</span>
-                    </span>
-                  </button>
-                );
-              })}
-              {onOpenWizard && (
-                <button
-                  type="button"
-                  id="btn-open-wizard"
-                  onClick={onOpenWizard}
-                  className="snap-start shrink-0 w-[15.5rem] text-left rounded-2xl border border-dashed border-line-strong p-4 flex flex-col justify-between cursor-pointer active:bg-raised"
-                >
-                  <span className="w-10 h-10 rounded-full bg-raised flex items-center justify-center">
-                    <SlidersHorizontal className="w-5 h-5 text-jade-ink" strokeWidth={1.8} />
-                  </span>
-                  <span className="block mt-6">
-                    <span className="block text-[1.0625rem] font-bold leading-snug">{u.museum.buildOwn}</span>
-                    <span className="mt-0.5 block text-cap text-ink-3">{u.museum.buildOwnSub}</span>
-                  </span>
-                </button>
-              )}
-            </div>
-            {onOpenRoutes && routes.length > shelf.length && (
+          <div className="px-5 pt-6">
+            <h1 className="font-serif text-h1 font-medium tracking-[-0.02em] text-balance">{site.name}</h1>
+            {(site.location || site.badge) && (
+              <p className="mt-2 text-ui text-ink-3">
+                {site.location}
+                {site.location && site.badge && <br />}
+                {site.badge}
+              </p>
+            )}
+            {lead && <p className="mt-5 font-serif text-[1.1875rem] leading-[1.5] text-ink-2 text-pretty">{lead}</p>}
+            <p id="site-facts" className="mt-4 text-ui text-ink-2">
+              {m.facts(u.worksCount(pieces.length), u.roomsCount(rooms.length))}
+              {range && ` ${range.min === range.max ? m.routeOne(formatRouteDuration(range.min)) : m.routeRange(formatRouteDuration(range.min), formatRouteDuration(range.max))}`}
+            </p>
+            {before.length > 0 && (
               <button
                 type="button"
-                id="btn-all-routes"
-                onClick={onOpenRoutes}
-                className="mt-1 mx-5 h-11 px-1 inline-flex items-center gap-1 text-ui font-semibold text-jade-ink cursor-pointer rounded-full"
+                id="btn-before-link"
+                onClick={scrollToBefore}
+                className="mt-3 -ml-1 min-h-10 px-1 inline-flex items-center gap-1.5 text-ui font-semibold text-jade-ink cursor-pointer rounded-lg text-left"
               >
-                {u.museum.seeAllRoutes}
-                <ChevronRight className="w-4 h-4" />
+                <Info className="w-4 h-4 shrink-0" strokeWidth={2} />
+                {m.beforeLink}
               </button>
             )}
-          </section>
-        )}
-
-        <div className="h-8" aria-hidden="true" />
+          </div>
+        </header>
 
         {continueInfo && (
-          <section className="px-5 pb-8">
+          <section className="px-5 mt-8">
             <button
               type="button"
               id="btn-continue"
               onClick={continueInfo.onContinue}
               className="w-full text-left rounded-2xl bg-surface border border-jade/35 p-3 pr-4 flex items-center gap-3.5 cursor-pointer active:scale-[0.99] transition-transform"
             >
-              <span className="w-16 h-16 rounded-xl overflow-hidden bg-raised shrink-0">
+              <span className="w-14 h-14 rounded-xl overflow-hidden bg-raised shrink-0">
                 <PieceImage filename={continueInfo.imageFilename} pieceId={continueInfo.pieceId} alt="" className="w-full h-full object-cover" />
               </span>
               <span className="min-w-0 flex-1">
@@ -295,10 +295,117 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
           </section>
         )}
 
-        <section aria-labelledby="rooms-title">
-          <div className="px-5 flex items-end justify-between gap-3">
-            <h2 id="rooms-title" className="font-serif text-h3 font-medium">
-              {u.museum.rooms}
+        {/* Recorridos: una lista de horario, con la duración a la izquierda */}
+        {shelf.length > 0 && (
+          <section id="time-chooser" className="mt-10 px-5" aria-labelledby="routes-title">
+            <h2 id="routes-title" className="font-serif text-[1.625rem] leading-tight font-medium">
+              {m.routesTitle}
+            </h2>
+            <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.routesSub}</p>
+            <ul className="mt-4 border-t border-line">
+              {shelf.map((route, i) => (
+                <li key={route.id} className="border-b border-line">
+                  <button
+                    type="button"
+                    id={i === 0 ? 'first-route-card' : undefined}
+                    onClick={() => onStartRoute(route)}
+                    className="w-full flex items-start gap-4 py-4 text-left cursor-pointer row-press"
+                  >
+                    <span className="w-[4.75rem] shrink-0 pt-0.5">
+                      <span className="block font-serif text-[1.375rem] leading-none tabular-nums text-ink whitespace-nowrap">
+                        {compactDuration(minutesOf(route))}
+                      </span>
+                      <span className="block mt-1.5 text-cap text-ink-3">{u.worksCount(route.stops.length)}</span>
+                    </span>
+                    <span className="min-w-0 flex-1">
+                      <span className="block text-[1.0625rem] font-bold leading-snug text-ink">{route.name}</span>
+                      {route.description && <span className="mt-1 block text-cap leading-[1.45] text-ink-3 line-clamp-2">{route.description}</span>}
+                    </span>
+                    <ChevronRight className="w-5 h-5 text-ink-3 shrink-0 self-center" aria-hidden="true" />
+                  </button>
+                </li>
+              ))}
+              {onOpenWizard && (
+                <li className="border-b border-line">
+                  <button type="button" id="btn-open-wizard" onClick={onOpenWizard} className="w-full flex items-center gap-4 py-4 text-left cursor-pointer row-press">
+                    <span className="w-[4.75rem] shrink-0">
+                      <SlidersHorizontal className="w-6 h-6 text-jade-ink" strokeWidth={1.8} />
+                    </span>
+                    <span className="min-w-0 flex-1">
+                      <span className="block text-[1.0625rem] font-bold leading-snug text-ink">{m.buildOwn}</span>
+                      <span className="mt-0.5 block text-cap text-ink-3">{m.buildOwnSub}</span>
+                    </span>
+                    <ChevronRight className="w-5 h-5 text-ink-3 shrink-0" aria-hidden="true" />
+                  </button>
+                </li>
+              )}
+            </ul>
+            {onOpenRoutes && routes.length > shelf.length && (
+              <button
+                type="button"
+                id="btn-all-routes"
+                onClick={onOpenRoutes}
+                className="mt-2 -ml-1 h-11 px-1 inline-flex items-center gap-1 text-ui font-semibold text-jade-ink cursor-pointer rounded-lg"
+              >
+                {m.allRoutes(routes.length)}
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            )}
+          </section>
+        )}
+
+        {/* Antes de ir: temas que se abren uno por uno */}
+        {before.length > 0 && (
+          <section id="before-visit" className="mt-12 px-5 scroll-mt-20" aria-labelledby="before-title">
+            <h2 id="before-title" className="font-serif text-[1.625rem] leading-tight font-medium">
+              {m.beforeTitle}
+            </h2>
+            <ul className="mt-4 border-t border-line">
+              {before.map((item, i) => {
+                const Icon = TOPIC_ICONS[item.topic] || Info;
+                const open = openTopics.has(i);
+                return (
+                  <li key={`${item.topic}-${i}`} className="border-b border-line">
+                    <button
+                      type="button"
+                      id={`before-topic-${i}`}
+                      aria-expanded={open}
+                      aria-controls={`before-panel-${i}`}
+                      onClick={() => toggleTopic(i)}
+                      className="w-full flex items-center gap-3.5 py-4 text-left cursor-pointer row-press"
+                    >
+                      <Icon className="w-5 h-5 text-jade-ink shrink-0" strokeWidth={1.9} aria-hidden="true" />
+                      <span className="min-w-0 flex-1 text-[1.0625rem] font-bold leading-snug text-ink">{item.title}</span>
+                      <ChevronDown className={`w-5 h-5 text-ink-3 shrink-0 transition-transform duration-200 ${open ? 'rotate-180' : ''}`} aria-hidden="true" />
+                    </button>
+                    {open && (
+                      <div id={`before-panel-${i}`} className="pl-[2.125rem] pb-5 -mt-1 space-y-3 text-[1rem] leading-[1.6] text-ink-2">
+                        <RichText text={item.text} />
+                        {item.link && (
+                          <a
+                            href={item.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 min-h-10 text-ui font-semibold text-jade-ink"
+                          >
+                            {item.link_label || m.moreInfo}
+                            <ExternalLink className="w-4 h-4" aria-hidden="true" />
+                          </a>
+                        )}
+                      </div>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        )}
+
+        {/* Salas o zonas: lista sencilla con su número */}
+        <section className="mt-12" aria-labelledby="rooms-title">
+          <div className="px-5 flex items-baseline justify-between gap-3">
+            <h2 id="rooms-title" className="font-serif text-[1.625rem] leading-tight font-medium">
+              {m.rooms}
             </h2>
             {onOpenMap && (
               <button
@@ -307,7 +414,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 className="h-10 -mr-2 px-2 inline-flex items-center gap-1.5 text-ui font-semibold text-jade-ink cursor-pointer rounded-full active:bg-raised"
               >
                 <MapIcon className="w-4 h-4" strokeWidth={2} />
-                {u.museum.seeMap}
+                {m.seeMap}
               </button>
             )}
           </div>
@@ -318,27 +425,18 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
             </div>
           )}
 
-          <ul className="mt-2 md:grid md:grid-cols-2 md:gap-x-2" id="rooms-list">
+          <ul className="mt-3 mx-5 border-t border-line md:grid md:grid-cols-2 md:gap-x-6" id="rooms-list">
             {floorRooms.map((room) => {
               const list = piecesByRoom.get(room.room_id) || [];
-              const cover = list[0];
               return (
-                <li key={room.room_id} className="relative after:content-[''] after:absolute after:bottom-0 after:left-[4.75rem] after:right-5 after:h-px after:bg-line last:after:hidden">
-                  <button
-                    type="button"
-                    onClick={() => onSelectRoom(room)}
-                    className="w-full flex items-center gap-4 px-5 py-3.5 text-left cursor-pointer row-press"
-                  >
-                    <span className="font-serif text-[1.75rem] leading-none text-ink-3 w-10 shrink-0 tabular-nums">
-                      {getRoomShortLabel(room)}
-                    </span>
+                <li key={room.room_id} className="border-b border-line">
+                  <button type="button" onClick={() => onSelectRoom(room)} className="w-full flex items-center gap-4 py-3.5 text-left cursor-pointer row-press">
+                    <span className="font-serif text-[1.25rem] leading-none text-ink-3 w-8 shrink-0 tabular-nums">{getRoomShortLabel(room)}</span>
                     <span className="min-w-0 flex-1">
                       <span className="block text-[1.0625rem] font-bold leading-snug text-ink">{room.nombre_oficial}</span>
                       <span className="block text-cap text-ink-3 mt-0.5">{u.worksCount(list.length)}</span>
                     </span>
-                    <span className="w-14 h-14 rounded-xl overflow-hidden bg-raised shrink-0">
-                      {cover && <PieceImage filename={cover.image_filename} pieceId={cover.piece_id} alt="" className="w-full h-full object-cover" />}
-                    </span>
+                    <ChevronRight className="w-5 h-5 text-ink-3 shrink-0" aria-hidden="true" />
                   </button>
                 </li>
               );
@@ -346,8 +444,47 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
           </ul>
         </section>
 
-        <section className="px-5 mt-10">
+        {/* Sobre el sitio: la presentación larga */}
+        {introParagraphs.length > 0 && (
+          <section className="mt-12 px-5" aria-labelledby="about-title">
+            <h2 id="about-title" className="font-serif text-[1.625rem] leading-tight font-medium">
+              {m.aboutTitle}
+            </h2>
+            <div id="site-intro" className="mt-4 space-y-4">
+              {(introMore ? introParagraphs : introParagraphs.slice(0, 1)).map((text, i) => (
+                <p key={i} className="text-[1rem] leading-[1.6] text-ink-2 text-pretty">
+                  {text}
+                </p>
+              ))}
+            </div>
+            {introParagraphs.length > 1 && (
+              <button
+                type="button"
+                id="btn-intro-more"
+                aria-expanded={introMore}
+                aria-controls="site-intro"
+                onClick={() => setIntroMore((v) => !v)}
+                className="mt-2 -ml-1 h-10 px-1 text-ui font-semibold text-jade-ink cursor-pointer rounded-lg"
+              >
+                {introMore ? m.readLess : m.readMore}
+              </button>
+            )}
+          </section>
+        )}
+
+        <section className="px-5 mt-12">
           <OfflineTourBanner pieces={pieces} audioPieces={audioPieces} />
+          {!zones && (
+            <button
+              type="button"
+              id="btn-open-intro"
+              onClick={() => setIntroOpen(true)}
+              className="mt-3 -ml-1 h-10 px-1 inline-flex items-center gap-1.5 text-ui font-semibold text-jade-ink cursor-pointer rounded-lg"
+            >
+              <CircleHelp className="w-4 h-4" strokeWidth={2} />
+              {strings.intro.openLabel}
+            </button>
+          )}
         </section>
       </main>
 
