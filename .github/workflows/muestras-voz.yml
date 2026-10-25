@@ -113,7 +113,7 @@ jobs:
 
       - name: Dejar las muestras para descargar
         if: ${{ inputs.generar && !inputs.listar }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: muestras-de-voz-${{ inputs.idioma }}
           path: muestras-voz/${{ inputs.idioma }}/
