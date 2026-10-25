@@ -18,8 +18,6 @@ export const overview = defineGroup(
     pieceCount: (n: number) => `${n} obras`,
     customizeTitle: '¿Tienes poco tiempo? Diseña tu Ruta',
     customizeSub: 'Filtra por tiempo (30 min, 1h, 2h) e intereses culturales',
-    unitRooms: 'salas',
-    unitAxes: 'ejes',
   },
   {
     backTitle: 'Back to the list of sites',
@@ -38,8 +36,6 @@ export const overview = defineGroup(
     pieceCount: (n: number) => `${n} pieces`,
     customizeTitle: 'Short on time? Design your Route',
     customizeSub: 'Filter by time (30 min, 1 h, 2 h) and cultural interests',
-    unitRooms: 'rooms',
-    unitAxes: 'axes',
   },
   {
     backTitle: 'Retour à la liste des sites',
@@ -58,7 +54,5 @@ export const overview = defineGroup(
     pieceCount: (n: number) => `${n} œuvres`,
     customizeTitle: 'Peu de temps ? Composez votre parcours',
     customizeSub: 'Filtrez par durée (30 min, 1 h, 2 h) et par centres d’intérêt culturels',
-    unitRooms: 'salles',
-    unitAxes: 'axes',
   }
 );

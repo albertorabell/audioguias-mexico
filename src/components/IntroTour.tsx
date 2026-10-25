@@ -5,14 +5,6 @@ import { CoachTour, CoachStep } from './CoachTour';
 
 export const INTRO_SEEN_KEY = 'audioguias_tour_museo';
 
-export function introSeen(): boolean {
-  try {
-    return localStorage.getItem(INTRO_SEEN_KEY) === '1';
-  } catch {
-    return false;
-  }
-}
-
 function markIntroSeen(): void {
   try {
     localStorage.setItem(INTRO_SEEN_KEY, '1');

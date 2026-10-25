@@ -768,7 +768,6 @@ export default function App() {
   } else if (screen.kind === 'wizard') {
     content = (
       <RouteWizard
-        site={site}
         manifest={manifest!}
         rooms={rooms}
         pieces={pieces}
@@ -788,7 +787,6 @@ export default function App() {
         onChooseRoute={() => goTab('recorridos')}
         onGoHome={() => rewindTo([{ kind: 'home' }])}
         onRepeatTour={route ? () => openTourStop(route, 0, 'replace') : undefined}
-        onOpenMap={hasMap ? () => goTab('mapa') : undefined}
       />
     );
   } else if (screen.kind === 'piece') {
