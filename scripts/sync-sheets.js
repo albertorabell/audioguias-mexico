@@ -813,7 +813,18 @@ export async function sync() {
     if (r.missing_ids?.length) console.warn(`⚠️  Ruta "${r.name}": no existen en el Sheets estas piezas: ${r.missing_ids.join(', ')}`);
   });
   const teoWarnings = {};
-  const teoRoutes = teo ? aplicarRutas(buildTeoRoutes(teo.pieces, teo.rooms, teo.rutas, (kind, msg) => { (teoWarnings[kind] ||= []).push(msg); }), await defsRutasDe('teotihuacan'), 'teotihuacan', (r) => r.id.replace(/^ruta-/, '')) : [];
+  // Recorridos de Teotihuacán: igual que el MNA, si la pestaña RUTAS define recorridos que la columna `rutas` de PIEZAS usa,
+  // salen todos de ahí (se agregan o quitan sin tocar código). Si no, se usan los dos fijos de este archivo (TEO_ROUTES).
+  const defsTeo = teo ? await defsRutasDe('teotihuacan') : [];
+  const clavesUsadasTeo = new Set(teo ? [...teo.rutas.values()].flat() : []);
+  const defsTeoUsadas = defsTeo.filter((d) => clavesUsadasTeo.has(d.key));
+  const teoDesdeSheet = defsTeoUsadas.length > 0;
+  const teoRoutes = !teo
+    ? []
+    : teoDesdeSheet
+      ? construirRutasSitio('teotihuacan', teo.pieces, teo.rooms, defsTeoUsadas, teo.rutas, (kind, msg) => { (teoWarnings[kind] ||= []).push(msg); })
+      : aplicarRutas(buildTeoRoutes(teo.pieces, teo.rooms, teo.rutas, (kind, msg) => { (teoWarnings[kind] ||= []).push(msg); }), defsTeo, 'teotihuacan', (r) => r.id.replace(/^ruta-/, ''));
+  if (teoDesdeSheet) console.log(`✅ Teotihuacán: ${teoRoutes.length} recorridos desde el Sheet.`);
   for (const [kind, list] of Object.entries(teoWarnings)) {
     console.warn(`⚠️  ${kind}: ${list.length}`);
     list.slice(0, 8).forEach((m) => console.warn(`     - ${m}`));
