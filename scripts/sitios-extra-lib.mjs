@@ -65,8 +65,36 @@ export function construirRutasSitio(siteId, piezas, salas, defs, rutasPorId, avi
   });
 }
 
+/**
+ * «Antes de ir» desde la pestaña ANTES_DE_IR del Sheet del sitio: cómo llegar, horarios, qué llevar…
+ * Columnas: orden, tema, titulo, texto, enlace, enlace_texto, publicar (y titulo_en, texto_en, enlace_texto_en, … _fr, _pl).
+ * Solo salen las filas con título y texto, y con publicar distinto de NO. Se ordenan por la columna orden.
+ */
+export function leerAntesDeIr(filas) {
+  if (!Array.isArray(filas) || filas.length < 2) return [];
+  const cab = filas[0].map((x) => String(x).trim().toLowerCase());
+  const items = [];
+  filas.slice(1).forEach((fila, i) => {
+    const o = Object.fromEntries(cab.map((k, j) => [k, String(fila[j] ?? '').trim()]));
+    if (!o.titulo || !o.texto || String(o.publicar || '').toUpperCase() === 'NO') return;
+    const item = { topic: (o.tema || 'consejo').toLowerCase(), title: o.titulo, text: o.texto };
+    if (/^https?:\/\//i.test(o.enlace || '')) {
+      item.link = o.enlace;
+      if (o.enlace_texto) item.link_label = o.enlace_texto;
+    }
+    for (const l of ['en', 'fr', 'pl']) {
+      if (o[`titulo_${l}`]) item[`title_${l}`] = o[`titulo_${l}`];
+      if (o[`texto_${l}`]) item[`text_${l}`] = o[`texto_${l}`];
+      if (o[`enlace_texto_${l}`]) item[`link_label_${l}`] = o[`enlace_texto_${l}`];
+    }
+    const orden = Number(String(o.orden).replace(',', '.'));
+    items.push({ item, orden: Number.isFinite(orden) && o.orden !== '' ? orden : 1000 + i, fila: i });
+  });
+  return items.sort((a, b) => a.orden - b.orden || a.fila - b.fila).map((x) => x.item);
+}
+
 /** Manifiesto data/<sitio>/<sitio>.json que la app abre al entrar al sitio. */
-export function manifiestoSitio(sitio, rutas, mapaEnVivo) {
+export function manifiestoSitio(sitio, rutas, mapaEnVivo, antesDeIr = []) {
   const precio = Number(String(sitio.precio_mxn || '').replace(',', '.'));
   return {
     site_id: sitio.site_id.toUpperCase(),
@@ -77,6 +105,7 @@ export function manifiestoSitio(sitio, rutas, mapaEnVivo) {
     pieces_path: `data/${sitio.site_id}/pieces.json`,
     routes: rutas,
     ...(mapaEnVivo ? { live_map: mapaEnVivo } : {}),
+    ...(antesDeIr.length ? { before_visit: antesDeIr } : {}),
   };
 }
 

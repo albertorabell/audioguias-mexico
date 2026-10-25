@@ -221,6 +221,18 @@ export interface SiteManifest {
   zone_map?: ZoneMap;
   /** Mapa real sin internet con la posición de la persona (solo sitios al aire libre con coordenadas). */
   live_map?: LiveMapConfig;
+  /** «Antes de ir»: cómo llegar, horarios, qué llevar… (pestaña ANTES_DE_IR del Sheet del sitio). */
+  before_visit?: BeforeVisitItem[];
+}
+
+/** Un tema de «Antes de ir». `topic` elige el ícono; el texto admite párrafos (línea en blanco) y listas (líneas con «- »). */
+export interface BeforeVisitItem {
+  topic: string;
+  title: string;
+  text: string;
+  link?: string;
+  link_label?: string;
+  [key: string]: string | undefined;
 }
 
 export interface LiveMapConfig {

@@ -29,7 +29,12 @@ const es = {
     roomsCount: (c: number) => plural(c, 'zona', 'zonas'),
     routeMeta: (duration: string, stops: number) => `${duration} · ${plural(stops, 'parada', 'paradas')}`,
     tabs: { aria: 'Secciones del sitio', museum: 'Sitio' },
-    museum: { startHereSub: 'Dos recorridos ya armados: el exprés y el completo.', rooms: 'Zonas' },
+    museum: {
+      startHereSub: 'Dos recorridos ya armados: el exprés y el completo.',
+      rooms: 'Zonas',
+      routesSub: 'Elige uno según el tiempo que tengas. Te lleva parada por parada, en el orden en que se camina.',
+      aboutTitle: 'Sobre el sitio',
+    },
     room: { start: 'Recorrer la zona', works: 'Paradas en esta zona' },
     piece: {
       prev: 'Parada anterior',
@@ -92,7 +97,12 @@ const en = {
     roomsCount: (c: number) => plural(c, 'zone', 'zones'),
     routeMeta: (duration: string, stops: number) => `${duration} · ${plural(stops, 'stop', 'stops')}`,
     tabs: { aria: 'Site sections', museum: 'Site' },
-    museum: { startHereSub: 'Two ready-made routes: the express and the complete one.', rooms: 'Zones' },
+    museum: {
+      startHereSub: 'Two ready-made routes: the express and the complete one.',
+      rooms: 'Zones',
+      routesSub: 'Pick one for the time you have. It takes you stop by stop, in the order you walk.',
+      aboutTitle: 'About the site',
+    },
     room: { start: 'Walk this zone', works: 'Stops in this zone' },
     piece: {
       prev: 'Previous stop',
@@ -155,7 +165,12 @@ const fr = {
     roomsCount: (c: number) => plural(c, 'zone', 'zones'),
     routeMeta: (duration: string, stops: number) => `${duration} · ${plural(stops, 'étape', 'étapes')}`,
     tabs: { aria: 'Sections du site', museum: 'Site' },
-    museum: { startHereSub: 'Deux parcours tout prêts : l’express et le complet.', rooms: 'Zones' },
+    museum: {
+      startHereSub: 'Deux parcours tout prêts : l’express et le complet.',
+      rooms: 'Zones',
+      routesSub: 'Choisissez-en un selon le temps dont vous disposez. Il vous mène étape par étape, dans l’ordre de la marche.',
+      aboutTitle: 'À propos du site',
+    },
     room: { start: 'Parcourir la zone', works: 'Étapes de cette zone' },
     piece: {
       prev: 'Étape précédente',
@@ -220,7 +235,12 @@ const pl_ = {
     roomsCount: plz,
     routeMeta: (duration: string, stops: number) => `${duration} · ${pls(stops)}`,
     tabs: { aria: 'Sekcje stanowiska', museum: 'Stanowisko' },
-    museum: { startHereSub: 'Dwie gotowe trasy: ekspresowa i pełna.', rooms: 'Strefy' },
+    museum: {
+      startHereSub: 'Dwie gotowe trasy: ekspresowa i pełna.',
+      rooms: 'Strefy',
+      routesSub: 'Wybierz trasę na tyle czasu, ile masz. Prowadzi przystanek po przystanku, w kolejności zwiedzania.',
+      aboutTitle: 'O stanowisku',
+    },
     room: { start: 'Przejdź strefę', works: 'Przystanki w tej strefie' },
     piece: {
       prev: 'Poprzedni przystanek',
