@@ -701,6 +701,7 @@ export default function App() {
           audioPieces={offlineAudioPieces}
           onBack={goBack}
           onOpenPaywall={openPaywall}
+          onOpenPiece={openPieceInRoom}
           onSelectRoom={openRoom}
           onStartRoute={startRoute}
           onOpenWizard={isZones ? undefined : () => push({ kind: 'wizard' })}

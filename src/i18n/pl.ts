@@ -310,6 +310,9 @@ export const PL_GROUPS: Record<string, any> = {
       seeMap: 'Zobacz plan',
       yourTour: 'Twoja trasa',
       continueWhere: 'Kontynuuj, gdzie skończyłeś',
+      freeTitle: (n: number) => (n === 1 ? 'Posłuchaj jednego dzieła za darmo przed zakupem' : `Posłuchaj ${n} dzieł za darmo przed zakupem`),
+      freeSub: 'Bez rejestracji i bez karty. Jeśli spodoba Ci się, jak to brzmi, odblokuj resztę trasy.',
+      freeUnlock: 'Odblokuj wszystkie dzieła',
     },
     room: {
       start: 'Zwiedź salę',

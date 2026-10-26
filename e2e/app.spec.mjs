@@ -259,6 +259,33 @@ test('cobro: la ventana muestra el precio real, y "Pagar" manda a Stripe con los
   expect(checkout.body.deviceId).toMatch(/^[A-Za-z0-9_-]{8,}$/);
 });
 
+test('inicio del sitio: invita a escuchar las obras gratis antes de comprar y abre la obra', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  const bloque = page.locator('#free-pieces');
+  await expect(bloque).toContainText('gratis antes de comprar');
+  const tarjeta = bloque.getByTestId('free-piece-card').filter({ hasText: FREE.title });
+  await expect(tarjeta).toHaveCount(1);
+  await expect(tarjeta).toContainText('Gratis');
+  // los de pago no aparecen en el bloque
+  await expect(bloque.getByTestId('free-piece-card').filter({ hasText: PREMIUM.title })).toHaveCount(0);
+  await tarjeta.click();
+  await expect(page.locator('#btn-master-play-piece')).toBeVisible();
+});
+
+test('inicio del sitio: el botón del bloque gratis abre la ventana del pase, y con pase el bloque ya no aparece', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await page.locator('#btn-free-unlock').click();
+  await expect(page.locator('#modal-paywall')).toBeVisible();
+  await page.goto(`/?pago=ok&session_id=${SESSION}`);
+  await expect(page.getByTestId('payment-notice')).toContainText('Pago confirmado');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await expect(page.locator('#free-pieces')).toHaveCount(0);
+});
+
 test('pase combinado: se ofrece con su precio y se compra con el sitio "todos"', async ({ page }) => {
   const api = await simularCobro(page, { combo: true });
   await page.goto('/');
