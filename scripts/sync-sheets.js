@@ -22,8 +22,8 @@ import { applyStoredTranslations } from './traducir-lib.mjs';
 import { splitPiece, writePrivate } from './privado-lib.mjs';
 import { linkIds, hasBrokenLink } from '../src/utils/pieceLinks.js';
 import { hayClave, leerPestana } from './google-sheets-lib.mjs';
-import { cargarSitios, estaPublicado } from './sitios-lib.mjs';
-import { aplicarDefiniciones, partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites, leerAntesDeIr } from './sitios-extra-lib.mjs';
+import { cargarSitios, estaPublicado, CONTROL_ID as CONTROL_ID_PRECIOS } from './sitios-lib.mjs';
+import { aplicarDefiniciones, partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites, leerAntesDeIr, leerComboPase, construirPrecios, aplicarPreciosASites } from './sitios-extra-lib.mjs';
 
 // ===== CONFIGURACIÓN (lo único que normalmente se toca) =====================
 const SPREADSHEET_ID = '1D6Tu8qLVchpsKqFLDF1poEvxOOJO600DLHv05-weOcY';
@@ -915,6 +915,19 @@ export async function sync() {
     });
     write(sitesPath, mezclarSites(actual, nuevas));
     console.log(`✅ sites.json: ${nuevas.map((n) => `${n.id} (${n.status})`).join(', ')}.`);
+  }
+
+  // Precios y forma de acceso por sitio (SITIOS + PASE_COMBINADO de CONTROL). El servidor de pagos lee precios.json.
+  if (sitiosCtl.length) {
+    let combo = null;
+    try { combo = leerComboPase(await leerPestana(CONTROL_ID_PRECIOS, 'PASE_COMBINADO')); } catch { /* sin pestaña: no hay pase combinado */ }
+    const avisosPrecios = [];
+    const tabla = construirPrecios(sitiosCtl.filter(estaPublicado), combo, (m) => avisosPrecios.push(m));
+    for (const m of avisosPrecios) console.warn(`::warning title=Precios::${m}`);
+    write(path.join(DATA_DIR, 'precios.json'), tabla);
+    const sitesPath = path.join(DATA_DIR, 'sites.json');
+    if (fs.existsSync(sitesPath)) write(sitesPath, aplicarPreciosASites(JSON.parse(fs.readFileSync(sitesPath, 'utf-8')), tabla));
+    console.log(`✅ precios.json: ${Object.entries(tabla.sites).map(([id, x]) => `${id} (${x.acceso}${x.mxn ? ` $${x.mxn}` : ''})`).join(', ')}${tabla.combo ? ` · pase combinado $${tabla.combo.mxn}` : ''}.`);
   }
 
   console.log(`✅ Sincronización exitosa: ${rooms.length} salas y ${pieces.length} piezas (${pieces.length - sinFoto} con foto, ${sinFoto} sin foto).`);

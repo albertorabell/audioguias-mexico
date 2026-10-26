@@ -96,10 +96,12 @@ export function leerAntesDeIr(filas) {
 /** Manifiesto data/<sitio>/<sitio>.json que la app abre al entrar al sitio. */
 export function manifiestoSitio(sitio, rutas, mapaEnVivo, antesDeIr = []) {
   const precio = Number(String(sitio.precio_mxn || '').replace(',', '.'));
+  const usd = Number(String(sitio.precio_usd || '').replace(',', '.'));
   return {
     site_id: sitio.site_id.toUpperCase(),
     name: sitio.nombre,
     ...(precio > 0 ? { pass_price_mxn: precio } : {}),
+    ...(usd > 0 ? { pass_price_usd: usd } : {}),
     layout: 'zones',
     rooms_path: `data/${sitio.site_id}/rooms.json`,
     pieces_path: `data/${sitio.site_id}/pieces.json`,
@@ -169,4 +171,63 @@ export function aplicarDefiniciones(rutas, defs, claveDe = () => '') {
     return nueva;
   });
   return { rutas: salida, sinUsar: defs.filter((d) => !usadas.has(d.key)).map((d) => d.key) };
+}
+
+// ---------------------------------------------------------------------------
+// Precios y forma de acceso por sitio (hoja CONTROL: pestañas SITIOS y PASE_COMBINADO)
+// ---------------------------------------------------------------------------
+
+const quitarAcentos = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '');
+const monto = (v) => {
+  const n = Number(String(v ?? '').replace(/[^0-9.,-]/g, '').replace(',', '.'));
+  return Number.isFinite(n) && n > 0 ? Math.round(n * 100) / 100 : null;
+};
+
+/** "Pago", "gratis", "solo código"… → pago | gratis | codigo. Vacío = pago. Devuelve null si no se entiende. */
+export function leerAcceso(valor) {
+  const v = quitarAcentos(valor).trim().toLowerCase();
+  if (!v || v.includes('pag')) return 'pago';
+  if (v.startsWith('grat') || v === 'libre') return 'gratis';
+  if (v.includes('cod')) return 'codigo';
+  return null;
+}
+
+/** Pestaña PASE_COMBINADO: encabezado `activo, nombre, precio_mxn, precio_usd` y una fila. Sin fila, o activo = NO → no hay combo. */
+export function leerComboPase(filas) {
+  if (!Array.isArray(filas) || filas.length < 2) return null;
+  const cab = filas[0].map((x) => quitarAcentos(x).trim().toLowerCase());
+  const o = Object.fromEntries(cab.map((k, j) => [k, String(filas[1][j] ?? '').trim()]));
+  if (String(o.activo || '').toUpperCase() === 'NO') return null;
+  const mxn = monto(o.precio_mxn);
+  return mxn ? { nombre: o.nombre || '', mxn, usd: monto(o.precio_usd) } : null;
+}
+
+/**
+ * Tabla que lee el servidor de pagos (public/data/precios.json). Solo sitios publicados y con prefijo válido.
+ * `avisar(texto)` recibe los problemas que conviene que Alberto vea (un acceso mal escrito se trata como "pago").
+ */
+export function construirPrecios(sitios, combo = null, avisar = () => {}) {
+  const sites = {};
+  for (const s of sitios) {
+    const prefijo = String(s.prefijo || '').trim().toLowerCase();
+    if (!/^[a-z0-9]{1,12}_$/.test(prefijo)) { avisar(`El sitio ${s.site_id} no tiene un prefijo válido (ejemplo: mna_); no se podrá cobrar.`); continue; }
+    let acceso = leerAcceso(s.acceso);
+    if (acceso === null) { avisar(`Sitio ${s.site_id}: acceso «${s.acceso}» no se entiende (usa pago, gratis o código). Se tomó como pago.`); acceso = 'pago'; }
+    sites[s.site_id] = { prefijo, nombre: s.nombre || s.site_id, acceso, mxn: monto(s.precio_mxn), usd: monto(s.precio_usd) };
+    if (acceso === 'pago' && !sites[s.site_id].mxn) avisar(`Sitio ${s.site_id}: sin precio_mxn; se cobrará el precio general de Stripe.`);
+  }
+  return { sites, combo: combo ? { nombre: combo.nombre || '', mxn: combo.mxn, usd: combo.usd ?? null } : null };
+}
+
+/** Pone en sites.json el precio y el acceso de cada sitio de la tabla. Un precio vacío en la hoja no borra el que ya había. */
+export function aplicarPreciosASites(lista, tabla) {
+  const ACCESO = { pago: 'paid', gratis: 'free', codigo: 'code' };
+  return (Array.isArray(lista) ? lista : []).map((s) => {
+    const p = tabla.sites[String(s.id).toLowerCase()];
+    if (!p) return s;
+    const out = { ...s, access: ACCESO[p.acceso] };
+    if (p.mxn) out.pass_price_mxn = p.mxn;
+    if (p.usd) out.pass_price_usd = p.usd;
+    return out;
+  });
 }
