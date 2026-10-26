@@ -19,7 +19,7 @@
 // "¿esta sesión está pagada?" con la clave secreta, y entrega una clave firmada que dura lo que dura el pase.
 
 import { signToken, verifyToken } from './token.js';
-import { COMBO, getPrecios, siteForPiece } from './precios.js';
+import { COMBO, coverageOf, coversSite, getPrecios, siteForPiece } from './precios.js';
 
 const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'; // sin 0, O, 1, I, L para que no se confundan al dictarlo
 const SESSION_RE = /^cs_(test|live)_[A-Za-z0-9]{10,200}$/;
@@ -61,22 +61,25 @@ function settings(env) {
  */
 async function loadBook(env, cfg) {
   const table = await getPrecios(env);
-  const ids = new Set(table ? [...Object.keys(table.sites), ...(table.combo ? [COMBO] : [])] : cfg.sites);
+  const ids = new Set(table ? [...Object.keys(table.sites), ...Object.keys(table.combos)] : cfg.sites);
   return { table, ids, first: table ? Object.keys(table.sites)[0] : cfg.sites[0] };
 }
 
 /** ¿Este sitio es gratis para todos? (columna `acceso` = gratis) */
 const isFreeSite = (book, site) => book.table?.sites[site]?.acceso === 'gratis';
 
+/** ¿El pase de este «sitio» (un sitio o un pase combinado) abre ese sitio? Sin tabla de precios solo cuenta el mismo sitio, y "todos". */
+const covers = (book, passSite, site) => coversSite(book.table, passSite, site);
+
 /**
- * ¿La clave sirve para esta pieza? El sitio de la clave debe ser el de la pieza (o "todos" si es el pase combinado).
+ * ¿La clave sirve para esta pieza? El sitio de la clave debe ser el de la pieza, o un pase combinado que lo incluya.
  * Sin tabla de precios no se puede saber a qué sitio pertenece la pieza, y vale lo de siempre: que el sitio de la clave exista.
  */
 function tokenAllowsPiece(book, payload, pieceId) {
   if (!payload) return false;
   if (!book.table) return book.ids.has(payload.site);
   const site = siteForPiece(book.table, pieceId);
-  return Boolean(site) && (payload.site === COMBO || payload.site === site);
+  return Boolean(site) && covers(book, payload.site, site);
 }
 
 function corsHeaders(request, cfg) {
@@ -155,7 +158,7 @@ async function savePass(env, cfg, sessionId, pass) {
 }
 
 /** Agrega el dispositivo al pase (si cabe) y devuelve la respuesta con la clave. */
-async function grantAccess(env, cfg, sessionId, pass, deviceId) {
+async function grantAccess(env, cfg, book, sessionId, pass, deviceId) {
   const now = Date.now();
   if (pass.revoked || (await isRevoked(env, sid12(sessionId)))) return { error: 'revoked', status: 403 };
   if (pass.expiresAt <= now) return { error: 'expired', status: 410 };
@@ -167,7 +170,7 @@ async function grantAccess(env, cfg, sessionId, pass, deviceId) {
   const token = await signToken({ sid: sessionId.slice(-12), site: pass.site, dev: deviceId, exp: pass.expiresAt }, env.TOKEN_SECRET);
   return {
     status: 200,
-    body: { token, site: pass.site, expiresAt: pass.expiresAt, code: pass.code, devices: pass.devices.length, maxDevices: cfg.maxDevices },
+    body: { token, site: pass.site, covers: coverageOf(book.table, pass.site), expiresAt: pass.expiresAt, code: pass.code, devices: pass.devices.length, maxDevices: cfg.maxDevices },
   };
 }
 
@@ -372,17 +375,18 @@ const usable = (id) => Boolean(id) && !String(id).startsWith('REEMPLAZA');
  * Español cobra en pesos; los demás idiomas en dólares si hay precio en dólares y, si no, en pesos.
  */
 function quote(env, book, siteId, lang) {
-  const entry = siteId === COMBO ? book.table?.combo : book.table?.sites[siteId];
-  if (book.table && siteId !== COMBO && entry && entry.acceso !== 'pago') return { error: 'not_for_sale' };
+  const combo = book.table?.combos[siteId];
+  const entry = combo || book.table?.sites[siteId];
+  if (book.table && entry && (entry.acceso ?? 'pago') !== 'pago') return { error: 'not_for_sale' };
   if (entry && (entry.mxn || entry.usd)) {
     const usd = lang !== 'es' && entry.usd ? entry.usd : null;
     const amount = usd ?? entry.mxn;
     if (amount) {
-      const name = siteId === COMBO ? `${PASS_NAME[lang]} · ${entry.nombre || 'Audioguías México'}` : `${PASS_NAME[lang]} · ${entry.nombre}`;
-      return { inline: { currency: usd ? 'usd' : 'mxn', cents: Math.round(amount * 100), name } };
+      const label = combo ? combo.nombre[lang] || combo.nombre.es : entry.nombre;
+      return { inline: { currency: usd ? 'usd' : 'mxn', cents: Math.round(amount * 100), name: `${PASS_NAME[lang]} · ${label}` } };
     }
   }
-  if (siteId === COMBO) return { error: 'bad_request' };
+  if (combo || siteId === COMBO) return { error: 'bad_request' };
   const useUsd = lang !== 'es' && usable(env.STRIPE_PRICE_ID_USD);
   const priceId = useUsd ? env.STRIPE_PRICE_ID_USD : env.STRIPE_PRICE_ID_MXN;
   return usable(priceId) ? { priceId } : { error: 'not_configured' };
@@ -466,7 +470,7 @@ async function handleRedeem(request, env, cfg, cors) {
   if (session.payment_status !== 'paid') return json({ error: 'not_paid' }, 402, cors);
   const site = session.metadata?.site_id;
   const book = await loadBook(env, cfg);
-  if (!book.ids.has(site) || (siteId && siteId !== site && site !== COMBO)) return json({ error: 'bad_session' }, 403, cors);
+  if (!book.ids.has(site) || (siteId && !covers(book, site, siteId))) return json({ error: 'bad_session' }, 403, cors);
 
   if (await isRevoked(env, sid12(sessionId))) return json({ error: 'revoked' }, 403, cors);
   let pass = await loadPass(env, sessionId);
@@ -481,7 +485,7 @@ async function handleRedeem(request, env, cfg, cors) {
     await savePass(env, cfg, sessionId, pass);
     await countEvent(env, 'purchase', { s: site, k: String(session.currency || '').toLowerCase() });
   }
-  const r = await grantAccess(env, cfg, sessionId, pass, deviceId);
+  const r = await grantAccess(env, cfg, book, sessionId, pass, deviceId);
   return r.error ? json({ error: r.error }, r.status, cors) : json(r.body, 200, cors);
 }
 
@@ -493,13 +497,13 @@ const ACCESS_CODE_RE = /^[A-Z0-9]{4,24}$/;
 const accessKey = (c) => `a:${normalizeCode(c)}`;
 
 /** Canjea un código de acceso. Devuelve { error, status } o { pass, sessionId }. */
-async function redeemAccessCode(env, cfg, rawCode, siteId, deviceId) {
+async function redeemAccessCode(env, cfg, book, rawCode, siteId, deviceId) {
   const norm = normalizeCode(rawCode);
   if (!ACCESS_CODE_RE.test(norm)) return null;
   const raw = await env.PASES.get(accessKey(norm));
   if (!raw) return null;
   const acc = JSON.parse(raw);
-  if (siteId && acc.site !== COMBO && acc.site !== siteId) return { error: 'code_not_found', status: 404 };
+  if (siteId && !covers(book, acc.site, siteId)) return { error: 'code_not_found', status: 404 };
   if (acc.expiresAt && acc.expiresAt <= Date.now()) return { error: 'code_expired', status: 410 };
 
   // El mismo dispositivo que vuelve a escribir el código recupera su pase (no gasta otro uso)
@@ -530,17 +534,18 @@ async function handleCode(request, env, cfg, cors) {
   const norm = normalizeCode(code);
   if (norm.length < 4 || norm.length > 24) return json({ error: 'bad_request' }, 400, cors);
 
+  const book = await loadBook(env, cfg);
   let sessionId = norm.length === 8 ? await env.PASES.get(codeKey(code)) : null;
   let pass = sessionId ? await loadPass(env, sessionId) : null;
-  if (pass && siteId && siteId !== pass.site && pass.site !== COMBO) return json({ error: 'code_not_found' }, 404, cors);
+  if (pass && siteId && !covers(book, pass.site, siteId)) return json({ error: 'code_not_found' }, 404, cors);
   if (!pass) {
     // No es el código de un pase comprado: puede ser un código de acceso
-    const r = await redeemAccessCode(env, cfg, code, siteId, deviceId);
+    const r = await redeemAccessCode(env, cfg, book, code, siteId, deviceId);
     if (!r) return json({ error: 'code_not_found' }, 404, cors);
     if (r.error) return json({ error: r.error }, r.status, cors);
     ({ pass, sessionId } = r);
   }
-  const r = await grantAccess(env, cfg, sessionId, pass, deviceId);
+  const r = await grantAccess(env, cfg, book, sessionId, pass, deviceId);
   return r.error ? json({ error: r.error }, r.status, cors) : json(r.body, 200, cors);
 }
 
@@ -596,8 +601,12 @@ const toPrices = (e) => ({
 async function handleConfig(env, cfg, cors, url) {
   if (cfg.free) return json({ free: true, prices: {}, passHours: cfg.hours, maxDevices: cfg.maxDevices }, 200, { ...cors, 'Cache-Control': 'no-store' });
   const book = await loadBook(env, cfg);
-  const site = book.table ? book.table.sites[siteKey(url.searchParams.get('site'))] : null;
-  const combo = book.table?.combo ? { name: book.table.combo.nombre, prices: toPrices(book.table.combo) } : null;
+  const siteId = siteKey(url.searchParams.get('site'));
+  const site = book.table ? book.table.sites[siteId] : null;
+  // Pases combinados que abren este sitio (todos, si no se pidió uno)
+  const combos = Object.entries(book.table?.combos || {})
+    .filter(([id]) => !siteId || coversSite(book.table, id, siteId))
+    .map(([id, c]) => ({ id, name: c.nombre, sites: c.sitios, prices: toPrices(c) }));
   let prices = toPrices(site);
   // Sitio sin precio propio (o sin tabla): el precio general de Stripe
   if (!prices.mxn) {
@@ -608,7 +617,7 @@ async function handleConfig(env, cfg, cors, url) {
       return json({ error: 'stripe_error' }, 502, cors);
     }
   }
-  return json({ prices, access: site?.acceso || 'pago', ...(combo ? { combo } : {}), passHours: cfg.hours, maxDevices: cfg.maxDevices }, 200, { ...cors, 'Cache-Control': 'public, max-age=300' });
+  return json({ prices, access: site?.acceso || 'pago', ...(combos.length ? { combos } : {}), passHours: cfg.hours, maxDevices: cfg.maxDevices }, 200, { ...cors, 'Cache-Control': 'public, max-age=300' });
 }
 
 /**
@@ -700,21 +709,25 @@ async function handleText(request, env, cfg, cors, url) {
       scope = free;
     }
   }
-  // Quien tiene acceso a todo (combo o modo de pruebas) puede pedir solo un sitio con ?site=, para no bajar de más
+  // Qué sitios entrega: los que abre el pase (todos, si es "todos" o el modo de pruebas). Con ?site= se pide solo uno de ellos, para no bajar de más
   const asked = siteKey(url.searchParams.get('site'));
-  const only = scope !== COMBO ? scope : book.table?.sites[asked] ? asked : COMBO;
+  const opens = coverageOf(book.table, scope);
+  const everything = opens[0] === COMBO;
+  let only = everything ? null : opens;
+  if (asked && book.table?.sites[asked] && (everything || opens.includes(asked))) only = [asked];
+  const tag = only ? only.join('+') : '';
   const object = await env.AUDIO.get(`texto/${m[1]}.json`);
   if (!object) return new Response('No encontrado', { status: 404, headers: cors });
   const headers = new Headers(cors);
   headers.set('Content-Type', 'application/json; charset=utf-8');
   // Solo el navegador de quien pagó lo guarda (para usarlo sin internet); ninguna red intermedia debe compartirlo
   headers.set('Cache-Control', 'private, max-age=300');
-  const etag = object.httpEtag ? (only === COMBO ? object.httpEtag : `${object.httpEtag.replace(/"$/, '')}-${only}"`) : '';
+  const etag = object.httpEtag ? (!tag ? object.httpEtag : `${object.httpEtag.replace(/"$/, '')}-${tag}"`) : '';
   if (etag) headers.set('ETag', etag);
   if (etag && request.headers.get('If-None-Match') === etag) return new Response(null, { status: 304, headers });
   if (request.method === 'HEAD') return new Response(null, { status: 200, headers });
-  // Con un pase de un solo sitio, solo salen los textos de las piezas de ese sitio
-  if (only === COMBO || !book.table) return new Response(object.body, { status: 200, headers });
+  // Con un pase que no abre todo, solo salen los textos de las piezas de sus sitios
+  if (!only || !book.table) return new Response(object.body, { status: 200, headers });
   let data;
   try {
     data = JSON.parse(await object.text());
@@ -722,7 +735,7 @@ async function handleText(request, env, cfg, cors, url) {
     return new Response('No encontrado', { status: 404, headers: cors });
   }
   const pieces = {};
-  for (const [id, value] of Object.entries(data?.pieces || {})) if (siteForPiece(book.table, id) === only) pieces[id] = value;
+  for (const [id, value] of Object.entries(data?.pieces || {})) if (only.includes(siteForPiece(book.table, id))) pieces[id] = value;
   return new Response(JSON.stringify({ ...data, pieces }), { status: 200, headers });
 }
 

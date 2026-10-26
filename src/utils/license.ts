@@ -77,13 +77,32 @@ function readStored(siteId: string): SiteLicense | null {
   return null;
 }
 
-/** El pase guardado en este dispositivo para ese sitio (el suyo o el combinado de todos los sitios), si sigue vigente. */
+/** Pases guardados que no son del propio sitio pero lo abren (un pase combinado). El primero vigente. */
+function readCovering(siteId: string): SiteLicense | null {
+  const wanted = siteId.toLowerCase();
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i) || '';
+    if (!key.startsWith(STORAGE_KEY_PREFIX)) continue;
+    const id = key.slice(STORAGE_KEY_PREFIX.length);
+    if (id === wanted) continue;
+    let license: SiteLicense | null = null;
+    try {
+      license = readStored(id);
+    } catch {
+      continue;
+    }
+    if (license && (id === COMBO_SITE || license.covers?.includes(COMBO_SITE) || license.covers?.includes(wanted))) return license;
+  }
+  return null;
+}
+
+/** El pase guardado en este dispositivo para ese sitio (el suyo o un pase combinado que lo incluya), si sigue vigente. */
 export function getSiteLicense(siteId: string): SiteLicense | null {
   if (isFreeAccess() || isFreeSite(siteId)) return { site_id: siteId.toLowerCase(), expires_at: FAR_FUTURE, device_id: getOrCreateDeviceId(), token: FREE_TOKEN };
   try {
     const own = readStored(siteId);
     if (own) return own;
-    const combo = readStored(COMBO_SITE);
+    const combo = readCovering(siteId);
     if (combo) return combo;
 
     // Pases guardados por versiones anteriores de la app (solo MNA, sin clave)
@@ -109,6 +128,8 @@ export function hasActivePass(siteId: string): boolean {
 export interface PassGrant {
   /** Clave firmada por el servidor de pagos (da acceso a los audios de pago). */
   token?: string;
+  /** Sitios que abre el pase (un pase combinado abre varios). */
+  covers?: string[];
   /** Vencimiento en milisegundos; si falta se cuentan PASS_HOURS desde ahora. */
   expiresAt?: number;
   /** Código corto para activar el pase en un segundo dispositivo. */
@@ -124,6 +145,7 @@ export function activatePass(siteId: string, hours = PASS_HOURS, grant: PassGran
     device_id: getOrCreateDeviceId(),
     ...(grant.token ? { token: grant.token } : {}),
     ...(grant.code ? { code: grant.code } : {}),
+    ...(grant.covers?.length ? { covers: grant.covers } : {}),
   };
   try {
     localStorage.setItem(keyFor(siteId), JSON.stringify(license));
@@ -139,14 +161,19 @@ export function activatePass(siteId: string, hours = PASS_HOURS, grant: PassGran
 
 export function revokePass(siteId: string): void {
   setFreeAccess(false); // si el servidor ya no regala el acceso, se vuelve a pedir pase
-  // Si el sitio no tiene pase propio, la clave que el servidor rechazó es la del pase combinado
-  let tienePropio = false;
+  // Si el sitio no tiene pase propio, la clave que el servidor rechazó es la de un pase combinado
   try {
-    tienePropio = localStorage.getItem(keyFor(siteId)) !== null;
+    if (localStorage.getItem(keyFor(siteId)) === null) {
+      const combinado = readCovering(siteId);
+      if (combinado) {
+        clearPass(combinado.site_id);
+        return;
+      }
+    }
   } catch {
     /* sin almacenamiento */
   }
-  clearPass(tienePropio ? siteId : COMBO_SITE);
+  clearPass(siteId);
 }
 
 /** Tiempo que le queda al pase, como "3h 20m" o "12m". Vacío si ya venció. (Sin palabras: sirve en cualquier idioma.) */

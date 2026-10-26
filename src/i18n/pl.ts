@@ -185,10 +185,10 @@ export const PL_GROUPS: Record<string, any> = {
     offerTitle: (h: number) => `Pełny dostęp na ${h} godz.`,
     priceNote: 'Jednorazowa płatność • bez subskrypcji',
     combo: {
-      title: 'Wszystkie miejsca',
-      desc: (h: number) => `Jeden karnet na ${h} godz., który otwiera wszystkie miejsca w aplikacji.`,
-      button: (p: string) => `Karnet na wszystkie miejsca · ${p}`,
-      active: 'Karnet na wszystkie miejsca aktywny',
+      includes: (names: string) => `W cenie: ${names}.`,
+      all: 'Wszystkie miejsca w aplikacji',
+      button: (p: string) => `Kup ten karnet · ${p}`,
+      active: 'Karnet łączony aktywny',
     },
     codeOnly: {
       title: 'Dostęp z kodem',

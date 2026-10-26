@@ -36,7 +36,10 @@ const TABLA = {
     hotel: { prefijo: 'hot_', nombre: 'Solo por código', acceso: 'codigo', mxn: 50 },
     templo_mayor_catedral: { prefijo: 'tmc_', nombre: 'Templo Mayor y Catedral', acceso: 'pago', mxn: 120, usd: 7.5 },
   },
-  combo: { nombre: 'Todos los sitios', mxn: 249, usd: 14 },
+  combos: {
+    todos: { nombre: { es: 'Todos los sitios', en: 'All sites' }, sitios: 'todos', mxn: 249, usd: 14 },
+    centro: { nombre: { es: 'Centro Histórico completo', en: 'Historic Centre' }, sitios: ['teotihuacan', 'templo_mayor_catedral', 'noexiste'], mxn: 139, usd: 8 },
+  },
 };
 
 const TEXTOS = JSON.stringify({ lang: 'es', pieces: { mna_p1: { x: 1 }, teo_p1: { x: 2 }, mue_p1: { x: 3 }, tmc_p1: { x: 4 } } });
@@ -111,17 +114,21 @@ test('parsePrecios: acepta lo válido y descarta lo dudoso', () => {
       gratis: { prefijo: 'gra_', acceso: 'otra-cosa', mxn: -5 },
       todos: { prefijo: 'tod_', mxn: 5 }, // "todos" está reservado
     },
-    combo: { mxn: 200 },
+    combos: { todos: { nombre: 'Todos', sitios: 'todos', mxn: 200 }, falso: { sitios: ['mna'], mxn: 0 }, vacio: { sitios: ['nada'], mxn: 50 }, mna: { sitios: 'todos', mxn: 5 }, todos2: { sitios: ['gratis', 'mna', 'mna'], mxn: 90, usd: 6, nombre: { es: 'Duo', en: 'Duo', ru: 'x' } } },
   });
   assert.deepEqual(Object.keys(t.sites).sort(), ['gratis', 'mna']);
   assert.equal(t.sites.mna.mxn, 99);
   assert.equal(t.sites.mna.usd, null);
   assert.equal(t.sites.gratis.acceso, 'pago');
   assert.equal(t.sites.gratis.mxn, null);
-  assert.equal(t.combo.mxn, 200);
+  assert.deepEqual(Object.keys(t.combos).sort(), ['todos', 'todos2']); // sin precio, sin sitios válidos o con el id de un sitio: se descartan
+  assert.equal(t.combos.todos.mxn, 200);
+  assert.deepEqual(t.combos.todos2.sitios, ['gratis', 'mna']);
+  assert.deepEqual(t.combos.todos2.nombre, { es: 'Duo', en: 'Duo' });
   assert.equal(parsePrecios(null), null);
   assert.equal(parsePrecios({ sites: {} }), null);
-  assert.equal(parsePrecios({ sites: { aa: { prefijo: 'a_' } }, combo: { mxn: 0 } }).combo, null);
+  assert.deepEqual(parsePrecios({ sites: { aa: { prefijo: 'a_' } }, combos: { x1: { sitios: 'todos', mxn: 0 } } }).combos, {});
+  assert.equal(parsePrecios({ sites: { aa: { prefijo: 'a_' } }, combos: { todos: { sitios: ['aa'], mxn: 9 } } }).combos.todos, undefined); // «todos» siempre abre todo
 });
 
 test('siteForPiece: gana el prefijo más largo', () => {
@@ -192,6 +199,7 @@ test('/checkout del pase combinado cobra su precio y admite códigos de descuent
 test('sin pase combinado en la tabla, "todos" no existe', async () => {
   tabla = { sites: TABLA.sites };
   assert.equal((await checkout('todos')).status, 400);
+  assert.equal((await checkout('centro')).status, 400);
 });
 
 // ---------------------------------------------------------------------------
@@ -200,7 +208,13 @@ test('/config?site= devuelve el precio y el acceso de ese sitio, y el del combo'
   const d = await r.json();
   assert.deepEqual(d.prices, { mxn: { amount: 99, currency: 'mxn' }, usd: { amount: 6, currency: 'usd' } });
   assert.equal(d.access, 'pago');
-  assert.deepEqual(d.combo.prices, { mxn: { amount: 249, currency: 'mxn' }, usd: { amount: 14, currency: 'usd' } });
+  // Del sitio MNA solo abre el combo "todos"; Teotihuacán también está en "centro"
+  assert.deepEqual(d.combos.map((c) => c.id), ['todos']);
+  assert.deepEqual(d.combos[0].prices, { mxn: { amount: 249, currency: 'mxn' }, usd: { amount: 14, currency: 'usd' } });
+  const teo = await (await call('/config?site=teotihuacan', { method: 'GET' })).json();
+  assert.deepEqual(teo.combos.map((c) => c.id), ['todos', 'centro']);
+  assert.deepEqual(teo.combos[1].sites, ['teotihuacan', 'templo_mayor_catedral']); // el sitio que no existe se descartó
+  assert.equal(teo.combos[1].name.en, 'Historic Centre');
 
   const h = await (await call('/config?site=hotel', { method: 'GET' })).json();
   assert.equal(h.access, 'codigo');
@@ -374,4 +388,60 @@ test('la clave de un código de acceso abre audios y textos del sitio, y no los 
   const texts = await (await call(`/texto/es.json?t=${t}`, { method: 'GET', origin: null })).json();
   assert.deepEqual(Object.keys(texts.pieces), ['tmc_p1']);
   assert.equal((await call(`/audio/pago/es/mna_p1_corto.mp3?t=${t}`, { method: 'GET', origin: null })).status, 401);
+});
+
+// ---------------------------------------------------------------------------
+test('pase combinado por sitios: el checkout cobra su precio con su nombre en el idioma', async () => {
+  let r = await checkout('centro', 'en');
+  assert.equal(r.status, 200);
+  let p = lastCheckout();
+  assert.equal(p.get('line_items[0][price_data][unit_amount]'), '800');
+  assert.equal(p.get('line_items[0][price_data][currency]'), 'usd');
+  assert.match(p.get('line_items[0][price_data][product_data][name]'), /Visitor pass · Historic Centre/);
+  assert.equal(p.get('metadata[site_id]'), 'centro');
+  await checkout('centro', 'fr'); // sin nombre en francés → español
+  assert.match(lastCheckout().get('line_items[0][price_data][product_data][name]'), /Pass visiteur · Centro Histórico completo/);
+});
+
+test('un pase "centro" abre los audios y textos de sus sitios y de ningún otro', async () => {
+  const t = await token('centro');
+  const audio = (id) => call(`/audio/pago/es/${id}_corto.mp3?t=${encodeURIComponent(t)}`, { method: 'GET', origin: null });
+  assert.equal((await audio('teo_p1')).status, 200);
+  assert.equal((await audio('mna_p1')).status, 401);
+  const texts = await (await call(`/texto/es.json?t=${encodeURIComponent(t)}`, { method: 'GET', origin: null })).json();
+  assert.deepEqual(Object.keys(texts.pieces).sort(), ['teo_p1', 'tmc_p1']);
+  const one = await (await call(`/texto/es.json?t=${encodeURIComponent(t)}&site=templo_mayor_catedral`, { method: 'GET', origin: null })).json();
+  assert.deepEqual(Object.keys(one.pieces), ['tmc_p1']);
+  const other = await (await call(`/texto/es.json?t=${encodeURIComponent(t)}&site=mna`, { method: 'GET', origin: null })).json(); // pedir otro sitio no amplía
+  assert.deepEqual(Object.keys(other.pieces).sort(), ['teo_p1', 'tmc_p1']);
+});
+
+test('canjear el pago de un combo por sitios dice qué sitios abre y sirve en cualquiera de ellos', async () => {
+  stripeSessions.cs_test_CENTROPAGADO1 = { id: 'cs_test_CENTROPAGADO1', payment_status: 'paid', created: Math.floor(Date.now() / 1000), metadata: { site_id: 'centro' } };
+  const bad = await call('/redeem', { body: { sessionId: 'cs_test_CENTROPAGADO1', deviceId: DEV1, siteId: 'mna' } }); // MNA no está en el combo
+  assert.equal(bad.status, 403);
+  const ok = await call('/redeem', { body: { sessionId: 'cs_test_CENTROPAGADO1', deviceId: DEV1, siteId: 'templo_mayor_catedral' } });
+  assert.equal(ok.status, 200);
+  const d = await ok.json();
+  assert.equal(d.site, 'centro');
+  assert.deepEqual(d.covers, ['teotihuacan', 'templo_mayor_catedral']);
+  const code = await call('/code', { body: { code: d.code, siteId: 'teotihuacan', deviceId: DEV2 } });
+  assert.equal(code.status, 200);
+  assert.equal((await call('/code', { body: { code: d.code, siteId: 'mna', deviceId: DEV3 } })).status, 404);
+});
+
+test('un código de acceso puede dar un combo por sitios', async () => {
+  await publish([{ code: 'CENTRO01', site: 'centro', hours: 48 }]);
+  assert.equal((await useCode('CENTRO01', DEV1, 'mna')).status, 404);
+  const r = await useCode('CENTRO01', DEV1, 'teotihuacan');
+  assert.equal(r.status, 200);
+  assert.deepEqual((await r.json()).covers, ['teotihuacan', 'templo_mayor_catedral']);
+});
+
+test('si un combo sale de la tabla, su pase deja de abrir sitios (el de "todos" no)', async () => {
+  tabla = { ...TABLA, combos: { todos: TABLA.combos.todos } };
+  resetPreciosCache();
+  const audio = (id, t) => call(`/audio/pago/es/${id}_corto.mp3?t=${encodeURIComponent(t)}`, { method: 'GET', origin: null });
+  assert.equal((await audio('teo_p1', await token('centro'))).status, 401);
+  assert.equal((await audio('teo_p1', await token('todos'))).status, 200);
 });

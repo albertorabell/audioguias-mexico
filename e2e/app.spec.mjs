@@ -264,10 +264,16 @@ test('pase combinado: se ofrece con su precio y se compra con el sitio "todos"',
   await page.goto('/');
   await abrirPieza(page, FREE.title);
   await page.locator('#btn-unlock-pass-nav').click();
-  await expect(page.getByTestId('combo-offer')).toContainText('199');
-  await Promise.all([page.waitForURL(/checkout\.stripe\.com/), page.locator('#btn-stripe-checkout-combo').click()]);
+  const ofertas = page.getByTestId('combo-offer');
+  await expect(ofertas).toHaveCount(2);
+  await expect(ofertas.first()).toContainText('199');
+  await expect(ofertas.first()).toContainText('Todos los sitios de la app');
+  await expect(ofertas.nth(1)).toContainText('MNA + Teotihuacán');
+  await expect(ofertas.nth(1)).toContainText('149');
+  await expect(ofertas.nth(1)).toContainText('Incluye:');
+  await Promise.all([page.waitForURL(/checkout\.stripe\.com/), page.locator('#btn-stripe-checkout-combo-dupla').click()]);
   const checkout = api.calls.find((c) => c.path === '/checkout');
-  expect(checkout.body.siteId).toBe('todos');
+  expect(checkout.body.siteId).toBe('dupla');
   expect(checkout.body.promo).toBeUndefined();
   // El servidor recibió el precio del sitio pidiendo la configuración de ese sitio
   expect(api.calls.some((c) => c.path === '/config' && c.search.includes('site=mna'))).toBe(true);

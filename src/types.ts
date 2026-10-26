@@ -318,4 +318,6 @@ export interface SiteLicense {
   token?: string;
   /** Código corto del pase, para activarlo en un segundo dispositivo. */
   code?: string;
+  /** Sitios que abre este pase: los ids, o ["todos"]. Si falta, solo abre el suyo (`site_id`). */
+  covers?: string[];
 }

@@ -61,8 +61,8 @@ export interface PricingInfo {
   prices: PriceSet;
   /** Cómo se entra a este sitio: pase de pago o solo con un código. */
   access?: 'pago' | 'codigo' | 'gratis';
-  /** Pase combinado de todos los sitios, si existe. */
-  combo?: { name?: string; prices: PriceSet };
+  /** Pases combinados que abren este sitio. `sites` son los ids de los sitios que abre, o "todos". */
+  combos?: Array<{ id: string; name: Partial<Record<'es' | 'en' | 'fr' | 'pl', string>>; sites: string[] | 'todos'; prices: PriceSet }>;
   passHours: number;
   maxDevices: number;
 }
@@ -90,7 +90,7 @@ export async function startCheckout(siteId: string, lang: SupportedLanguage, pro
 }
 
 function storeGrant(fallbackSite: string, d: any): SiteLicense {
-  return activatePass(String(d.site || fallbackSite), PASS_HOURS, { token: d.token, expiresAt: d.expiresAt, code: d.code });
+  return activatePass(String(d.site || fallbackSite), PASS_HOURS, { token: d.token, expiresAt: d.expiresAt, code: d.code, covers: Array.isArray(d.covers) ? d.covers.map(String) : undefined });
 }
 
 /** El visitante regresó de Stripe: se confirma el pago y el pase queda guardado en este dispositivo. */

@@ -238,6 +238,7 @@ export default function App() {
     return { ...rawManifest, routes };
   }, [rawManifest, activeRawPieces, currentLanguage]);
   const site = useMemo(() => (selectedSite ? localizeSite(selectedSite, currentLanguage) : null), [selectedSite, currentLanguage]);
+  const siteNames = useMemo(() => Object.fromEntries(sites.map((s) => [s.id.toLowerCase(), s.name])), [sites]);
 
   useEffect(() => {
     (async () => {
@@ -894,6 +895,7 @@ export default function App() {
               access={selectedSite.access}
               hasPass={hasPass}
               passSite={currentLicense?.site_id}
+              siteNames={siteNames}
               passExpiresAt={currentLicense?.expires_at}
               passCode={currentLicense?.code}
               onPassChanged={() => setCurrentLicense(getSiteLicense(selectedSite.id))}

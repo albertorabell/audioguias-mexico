@@ -19,8 +19,10 @@ interface PaywallModalProps {
   /** Cómo se entra a este sitio. Sin dato = pase de pago. Si el servidor dice otra cosa, manda el servidor. */
   access?: 'paid' | 'free' | 'code';
   hasPass: boolean;
-  /** Sitio al que pertenece el pase activo ("todos" = pase combinado). */
+  /** Sitio al que pertenece el pase activo (si es otro distinto de este sitio, es un pase combinado). */
   passSite?: string;
+  /** Nombre de cada sitio por id, para decir qué incluye un pase combinado. */
+  siteNames?: Record<string, string>;
   passExpiresAt?: number;
   /** Código del pase activo (para el segundo dispositivo). */
   passCode?: string;
@@ -49,6 +51,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   access,
   hasPass,
   passSite,
+  siteNames,
   passExpiresAt,
   passCode,
   onPassChanged,
@@ -59,7 +62,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const t = strings.paywall;
 
   const [pricing, setPricing] = useState<PricingInfo | null>(null);
-  const [busy, setBusy] = useState<'checkout' | 'combo' | 'code' | null>(null);
+  const [busy, setBusy] = useState<string | null>(null); // 'checkout', 'code' o 'combo:<id>'
   const [error, setError] = useState<PaymentErrorCode | null>(null);
   const [showCode, setShowCode] = useState(false);
   const [codeInput, setCodeInput] = useState('');
@@ -172,15 +175,26 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
   // Solo con código: el sitio no se vende con pase (lo dice la ficha del sitio o, si responde, el servidor)
   const codeOnly = pricing?.access ? pricing.access === 'codigo' : access === 'code';
-  const comboPrices = pricing?.combo?.prices;
-  const comboAmount = comboPrices ? (currentLanguage !== 'es' && comboPrices.usd ? comboPrices.usd : comboPrices.mxn) : undefined;
-  const comboPrice = comboAmount ? money(comboAmount.amount, comboAmount.currency, locale) : '';
+  // Pases combinados que abren este sitio, con su precio en la moneda del idioma
+  const combos = (pricing?.combos || []).flatMap((c) => {
+    const amount = currentLanguage !== 'es' && c.prices.usd ? c.prices.usd : c.prices.mxn;
+    if (!amount) return [];
+    const names = c.name as Record<string, string | undefined>;
+    return [
+      {
+        id: c.id,
+        name: names[currentLanguage] || names.es || c.id,
+        includes: c.sites === 'todos' ? t.combo.all : t.combo.includes(c.sites.map((id) => siteNames?.[id] || id).join(', ')),
+        price: money(amount.amount, amount.currency, locale),
+      },
+    ];
+  });
 
-  // `target` es el sitio que se compra, o "todos" para el pase combinado (ese no lleva código de descuento)
+  // `target` es el sitio que se compra, o el id de un pase combinado (esos no llevan código de descuento)
   const handleCheckout = async (target: string = siteId) => {
-    const isCombo = target === 'todos';
+    const isCombo = target.toLowerCase() !== siteId.toLowerCase();
     setError(null);
-    setBusy(isCombo ? 'combo' : 'checkout');
+    setBusy(isCombo ? `combo:${target}` : 'checkout');
     track('checkout_start', { l: currentLanguage, s: target });
     const r = await startCheckout(target, currentLanguage, isCombo ? undefined : promo?.code);
     if (r.ok) {
@@ -262,7 +276,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
               <div className="flex items-center gap-2.5">
                 <CheckCircle className="w-5 h-5 text-jade-ink shrink-0" />
                 <div>
-                  <p className="text-ui font-bold">{passSite === 'todos' ? t.combo.active : t.activeTitle}</p>
+                  <p className="text-ui font-bold">{passSite && passSite.toLowerCase() !== siteId.toLowerCase() ? t.combo.active : t.activeTitle}</p>
                   {remaining && <p className="text-cap text-ink-2">{t.remaining(remaining)}</p>}
                 </div>
               </div>
@@ -369,22 +383,24 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             </p>
           )}
 
-          {!hasPass && PAYMENTS_ENABLED && comboPrice && (
-            <div data-testid="combo-offer" className="p-4 rounded-2xl border border-line text-center">
-              <p className="text-ui font-bold">{t.combo.title}</p>
-              <p className="text-cap leading-snug mt-1 text-ink-2">{t.combo.desc(hours)}</p>
-              <button
-                id="btn-stripe-checkout-combo"
-                type="button"
-                onClick={() => handleCheckout('todos')}
-                disabled={busy !== null}
-                className="mt-3 w-full min-h-12 px-4 rounded-full border border-oro text-oro-ink text-ui font-bold inline-flex items-center justify-center gap-2 cursor-pointer active:scale-[0.98] transition-transform disabled:opacity-60"
-              >
-                <span>{busy === 'combo' ? t.redirecting : t.combo.button(comboPrice)}</span>
-                <ExternalLink className="w-4 h-4" />
-              </button>
-            </div>
-          )}
+          {!hasPass &&
+            PAYMENTS_ENABLED &&
+            combos.map((c) => (
+              <div key={c.id} data-testid="combo-offer" className="p-4 rounded-2xl border border-line text-center">
+                <p className="text-ui font-bold">{c.name}</p>
+                <p className="text-cap leading-snug mt-1 text-ink-2">{c.includes}</p>
+                <button
+                  id={`btn-stripe-checkout-combo-${c.id}`}
+                  type="button"
+                  onClick={() => handleCheckout(c.id)}
+                  disabled={busy !== null}
+                  className="mt-3 w-full min-h-12 px-4 rounded-full border border-oro text-oro-ink text-ui font-bold inline-flex items-center justify-center gap-2 cursor-pointer active:scale-[0.98] transition-transform disabled:opacity-60"
+                >
+                  <span>{busy === `combo:${c.id}` ? t.redirecting : t.combo.button(c.price)}</span>
+                  <ExternalLink className="w-4 h-4" />
+                </button>
+              </div>
+            ))}
 
           {!hasPass && PAYMENTS_ENABLED && !codeOnly && (
             <div>

@@ -192,21 +192,39 @@ export function leerAcceso(valor) {
   return null;
 }
 
-/** Pestaña PASE_COMBINADO: encabezado `activo, nombre, precio_mxn, precio_usd` y una fila. Sin fila, o activo = NO → no hay combo. */
-export function leerComboPase(filas) {
-  if (!Array.isArray(filas) || filas.length < 2) return null;
+/**
+ * Pestaña PASE_COMBINADO: un renglón por paquete. Columnas: id, nombre (y nombre_en, nombre_fr, nombre_pl), sitios
+ * (ids separados por coma, o «todos»), precio_mxn, precio_usd, activo (NO lo apaga), notas.
+ * Devuelve la lista de paquetes sin validar contra los sitios (eso lo hace construirPrecios).
+ */
+export function leerCombos(filas, avisar = () => {}) {
+  if (!Array.isArray(filas) || filas.length < 2) return [];
   const cab = filas[0].map((x) => quitarAcentos(x).trim().toLowerCase());
-  const o = Object.fromEntries(cab.map((k, j) => [k, String(filas[1][j] ?? '').trim()]));
-  if (String(o.activo || '').toUpperCase() === 'NO') return null;
-  const mxn = monto(o.precio_mxn);
-  return mxn ? { nombre: o.nombre || '', mxn, usd: monto(o.precio_usd) } : null;
+  const out = [];
+  const vistos = new Set();
+  filas.slice(1).forEach((fila, i) => {
+    const o = Object.fromEntries(cab.map((k, j) => [k, String(fila[j] ?? '').trim()]));
+    if (!o.id && !o.nombre && !o.sitios) return;
+    if (/^(no|n)$/i.test(o.activo)) return;
+    const id = quitarAcentos(o.id).toLowerCase().replace(/[^a-z0-9_]/g, '');
+    if (!/^[a-z0-9_]{2,40}$/.test(id)) { avisar(`PASE_COMBINADO fila ${i + 2}: el id «${o.id}» debe tener de 2 a 40 letras minúsculas, números o _ (ejemplo: centro).`); return; }
+    if (vistos.has(id)) { avisar(`PASE_COMBINADO fila ${i + 2}: el id ${id} está repetido; se usa la primera fila.`); return; }
+    vistos.add(id);
+    const mxn = monto(o.precio_mxn);
+    if (!mxn) { avisar(`PASE_COMBINADO: «${id}» no tiene precio_mxn; no se vende.`); return; }
+    const sitios = quitarAcentos(o.sitios).toLowerCase().trim() === 'todos' ? 'todos' : o.sitios.split(/[,;]/).map((x) => x.trim().toLowerCase()).filter(Boolean);
+    const nombre = { es: o.nombre || id };
+    for (const l of ['en', 'fr', 'pl']) if (o[`nombre_${l}`]) nombre[l] = o[`nombre_${l}`];
+    out.push({ id, nombre, sitios, mxn, usd: monto(o.precio_usd) });
+  });
+  return out;
 }
 
 /**
  * Tabla que lee el servidor de pagos (public/data/precios.json). Solo sitios publicados y con prefijo válido.
- * `avisar(texto)` recibe los problemas que conviene que Alberto vea (un acceso mal escrito se trata como "pago").
+ * `avisar(texto)` recibe los problemas que conviene que Alberto vea (un acceso mal escrito se trata como «pago»).
  */
-export function construirPrecios(sitios, combo = null, avisar = () => {}) {
+export function construirPrecios(sitios, combos = [], avisar = () => {}) {
   const sites = {};
   for (const s of sitios) {
     const prefijo = String(s.prefijo || '').trim().toLowerCase();
@@ -216,7 +234,20 @@ export function construirPrecios(sitios, combo = null, avisar = () => {}) {
     sites[s.site_id] = { prefijo, nombre: s.nombre || s.site_id, acceso, mxn: monto(s.precio_mxn), usd: monto(s.precio_usd) };
     if (acceso === 'pago' && !sites[s.site_id].mxn) avisar(`Sitio ${s.site_id}: sin precio_mxn; se cobrará el precio general de Stripe.`);
   }
-  return { sites, combo: combo ? { nombre: combo.nombre || '', mxn: combo.mxn, usd: combo.usd ?? null } : null };
+  const out = {};
+  for (const c of combos) {
+    if (sites[c.id]) { avisar(`PASE_COMBINADO: el id «${c.id}» ya es el de un sitio; se omite.`); continue; }
+    let lista = c.sitios;
+    if (lista !== 'todos') {
+      const desconocidos = lista.filter((x) => !sites[x]);
+      if (desconocidos.length) avisar(`PASE_COMBINADO «${c.id}»: sitios que no existen o no están publicados: ${desconocidos.join(', ')}.`);
+      lista = [...new Set(lista.filter((x) => sites[x]))];
+      if (!lista.length) { avisar(`PASE_COMBINADO «${c.id}»: no queda ningún sitio válido; no se vende.`); continue; }
+    }
+    if (c.id === 'todos' && lista !== 'todos') { avisar('PASE_COMBINADO: el id «todos» está reservado para el paquete que abre todos los sitios.'); continue; }
+    out[c.id] = { nombre: c.nombre, sitios: lista, mxn: c.mxn, usd: c.usd ?? null };
+  }
+  return { sites, combos: out };
 }
 
 /** Pone en sites.json el precio y el acceso de cada sitio de la tabla. Un precio vacío en la hoja no borra el que ya había. */

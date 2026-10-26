@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { leerAcceso, leerComboPase, construirPrecios, aplicarPreciosASites, manifiestoSitio } from '../sitios-extra-lib.mjs';
+import { leerAcceso, leerCombos, construirPrecios, aplicarPreciosASites, manifiestoSitio } from '../sitios-extra-lib.mjs';
 import { leerCodigos } from '../publicar-codigos.mjs';
 
 test('leerAcceso entiende pago, gratis y código con o sin acentos', () => {
@@ -10,13 +10,29 @@ test('leerAcceso entiende pago, gratis y código con o sin acentos', () => {
   assert.equal(leerAcceso('quizá'), null);
 });
 
-test('leerComboPase: lee la fila, respeta activo=NO y exige precio en pesos', () => {
-  const cab = ['activo', 'nombre', 'precio_mxn', 'precio_usd'];
-  assert.deepEqual(leerComboPase([cab, ['SI', 'Todos los sitios', '$249', '14.5']]), { nombre: 'Todos los sitios', mxn: 249, usd: 14.5 });
-  assert.equal(leerComboPase([cab, ['NO', 'x', '249', '14']]), null);
-  assert.equal(leerComboPase([cab, ['SI', 'x', '', '14']]), null);
-  assert.equal(leerComboPase([cab]), null);
-  assert.equal(leerComboPase(null), null);
+test('leerCombos: lee un renglón por paquete, con nombres por idioma, y avisa de lo dudoso', () => {
+  const cab = ['id', 'nombre', 'nombre_en', 'sitios', 'precio_mxn', 'precio_usd', 'activo', 'notas'];
+  const avisos = [];
+  const c = leerCombos(
+    [
+      cab,
+      ['Centro', 'Centro Histórico completo', 'Historic Centre', 'centro_historico, templo_mayor_catedral', '$139', '8', '', 'nota'],
+      ['todos', 'Todos los sitios', '', 'TODOS', '399', '24', 'SI', ''],
+      ['apagado', 'X', '', 'mna', '10', '', 'NO', ''],
+      ['sinprecio', 'Y', '', 'mna', '', '', '', ''],
+      ['m', 'id corto', '', 'mna', '10', '', '', ''],
+      ['centro', 'Repetido', '', 'mna', '10', '', '', ''],
+      ['', '', '', '', '', '', '', ''],
+    ],
+    (m) => avisos.push(m)
+  );
+  assert.deepEqual(c, [
+    { id: 'centro', nombre: { es: 'Centro Histórico completo', en: 'Historic Centre' }, sitios: ['centro_historico', 'templo_mayor_catedral'], mxn: 139, usd: 8 },
+    { id: 'todos', nombre: { es: 'Todos los sitios' }, sitios: 'todos', mxn: 399, usd: 24 },
+  ]);
+  assert.equal(avisos.length, 3);
+  assert.deepEqual(leerCombos([cab]), []);
+  assert.deepEqual(leerCombos(null), []);
 });
 
 test('construirPrecios arma la tabla y avisa de lo que falta', () => {
@@ -29,16 +45,22 @@ test('construirPrecios arma la tabla y avisa de lo que falta', () => {
       { site_id: 'torpe', prefijo: 'tor_', nombre: 'Torpe', precio_mxn: '80', acceso: 'quizá' },
       { site_id: 'sinprecio', prefijo: 'sin_', nombre: 'Sin precio' },
     ],
-    { nombre: 'Todos', mxn: 249, usd: null },
+    [
+      { id: 'duo', nombre: { es: 'Dúo' }, sitios: ['mna', 'torpe', 'fantasma'], mxn: 150, usd: null },
+      { id: 'vacio', nombre: { es: 'Vacío' }, sitios: ['fantasma'], mxn: 10, usd: null },
+      { id: 'mna', nombre: { es: 'Choca' }, sitios: 'todos', mxn: 10, usd: null },
+      { id: 'todos', nombre: { es: 'Mal' }, sitios: ['mna'], mxn: 10, usd: null },
+    ],
     (m) => avisos.push(m)
   );
   assert.deepEqual(Object.keys(t.sites), ['mna', 'muestra', 'torpe', 'sinprecio']);
   assert.deepEqual(t.sites.mna, { prefijo: 'mna_', nombre: 'MNA', acceso: 'pago', mxn: 99, usd: 6 });
   assert.equal(t.sites.muestra.acceso, 'gratis');
   assert.equal(t.sites.torpe.acceso, 'pago');
-  assert.equal(t.combo.mxn, 249);
-  assert.equal(avisos.length, 3); // prefijo inválido, acceso que no se entiende, pago sin precio
-  assert.equal(construirPrecios([], null).combo, null);
+  assert.deepEqual(t.combos, { duo: { nombre: { es: 'Dúo' }, sitios: ['mna', 'torpe'], mxn: 150, usd: null } });
+  // prefijo inválido, acceso que no se entiende, pago sin precio, sitio inexistente (2 veces), id de sitio, «todos» mal usado
+  assert.equal(avisos.length, 8);
+  assert.deepEqual(construirPrecios([], undefined).combos, {});
 });
 
 test('aplicarPreciosASites pone acceso y precios sin borrar los que ya había', () => {

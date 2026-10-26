@@ -17,10 +17,10 @@ export const paywall = defineGroup(
     offerTitle: (hours: number) => `Acceso total ${hours} horas`,
     priceNote: 'Pago único • Sin suscripción',
     combo: {
-      title: 'Todos los sitios',
-      desc: (hours: number) => `Un solo pase de ${hours} horas que abre todos los sitios de la app.`,
-      button: (price: string) => `Pase de todos los sitios · ${price}`,
-      active: 'Pase de todos los sitios activo',
+      includes: (names: string) => `Incluye: ${names}.`,
+      all: 'Todos los sitios de la app',
+      button: (price: string) => `Comprar este pase · ${price}`,
+      active: 'Pase combinado activo',
     },
     codeOnly: {
       title: 'Acceso con código',
@@ -96,10 +96,10 @@ export const paywall = defineGroup(
     offerTitle: (hours: number) => `Full access for ${hours} hours`,
     priceNote: 'One-time payment • No subscription',
     combo: {
-      title: 'All sites',
-      desc: (hours: number) => `A single ${hours}-hour pass that opens every site in the app.`,
-      button: (price: string) => `All-sites pass · ${price}`,
-      active: 'All-sites pass active',
+      includes: (names: string) => `Includes: ${names}.`,
+      all: 'Every site in the app',
+      button: (price: string) => `Buy this pass · ${price}`,
+      active: 'Combined pass active',
     },
     codeOnly: {
       title: 'Access with a code',
@@ -175,10 +175,10 @@ export const paywall = defineGroup(
     offerTitle: (hours: number) => `Accès total ${hours} heures`,
     priceNote: 'Paiement unique • Sans abonnement',
     combo: {
-      title: 'Tous les sites',
-      desc: (hours: number) => `Un seul pass de ${hours} heures qui ouvre tous les sites de l’appli.`,
-      button: (price: string) => `Pass tous les sites · ${price}`,
-      active: 'Pass tous les sites actif',
+      includes: (names: string) => `Comprend : ${names}.`,
+      all: 'Tous les sites de l’appli',
+      button: (price: string) => `Acheter ce pass · ${price}`,
+      active: 'Pass combiné actif',
     },
     codeOnly: {
       title: 'Accès avec un code',
