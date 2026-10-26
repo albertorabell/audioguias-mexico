@@ -85,7 +85,7 @@ function corsHeaders(request, cfg) {
   if (origin && cfg.origins.includes(origin)) {
     h['Access-Control-Allow-Origin'] = origin;
     h['Access-Control-Allow-Methods'] = 'GET, POST, HEAD, OPTIONS';
-    h['Access-Control-Allow-Headers'] = 'Content-Type, Range';
+    h['Access-Control-Allow-Headers'] = 'Content-Type, Range, Authorization';
     h['Access-Control-Expose-Headers'] = 'Content-Range, Accept-Ranges, Content-Length';
     h['Access-Control-Max-Age'] = '86400';
   }
@@ -288,8 +288,9 @@ async function handleEvent(request, env, cfg, cors) {
   const body = await readJson(request);
   if (!body || typeof body.e !== 'string' || !EVENTS.has(body.e) || body.e === 'purchase' || body.e === 'refund') return json({ error: 'bad_request' }, 400, cors);
   const book = await loadBook(env, cfg);
-  const site = siteKey(body.s) || book.first;
-  if (!book.ids.has(site)) return json({ error: 'bad_request' }, 400, cors);
+  // Sin sitio (por ejemplo, la pantalla de inicio) el evento se cuenta sin sitio, no en el primero de la lista
+  const site = siteKey(body.s);
+  if (site && !book.ids.has(site)) return json({ error: 'bad_request' }, 400, cors);
   await countEvent(env, body.e, { s: site, p: body.p, l: body.l, m: body.m, k: body.k });
   return new Response(null, { status: 204, headers: cors });
 }

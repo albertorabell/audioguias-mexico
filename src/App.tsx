@@ -25,7 +25,7 @@ import { useBackClose } from './utils/useBackClose';
 import { useLanguage } from './utils/LanguageContext';
 import { localizeSite, localizeRoute } from './i18n/content';
 import { getRoomLabel } from './utils/roomLabel';
-import { track } from './utils/analytics';
+import { track, setAnalyticsSite } from './utils/analytics';
 import { cachedPremiumText, clearPremiumText, loadPremiumText, mergePremiumText, PremiumTextMap } from './utils/premiumText';
 
 /** Con qué se navega dentro de la ficha de una pieza (anterior / siguiente): una sala o un recorrido. */
@@ -321,6 +321,9 @@ export default function App() {
   useEffect(() => {
     setCurrentLicense(selectedSite ? getSiteLicense(selectedSite.id) : null);
   }, [selectedSite, licenseVersion]);
+  useEffect(() => {
+    setAnalyticsSite(selectedSite?.id);
+  }, [selectedSite]);
   const hasPass = selectedSite ? hasActivePass(selectedSite.id) : false;
 
   // Con pase: se piden los textos de pago del idioma (primero lo guardado, para que aparezcan al instante). Sin pase: se borran.

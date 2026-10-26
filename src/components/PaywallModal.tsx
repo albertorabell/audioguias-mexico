@@ -181,7 +181,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     const isCombo = target === 'todos';
     setError(null);
     setBusy(isCombo ? 'combo' : 'checkout');
-    track('checkout_start', { l: currentLanguage });
+    track('checkout_start', { l: currentLanguage, s: target });
     const r = await startCheckout(target, currentLanguage, isCombo ? undefined : promo?.code);
     if (r.ok) {
       // Se sale a la página segura de Stripe; al pagar, Stripe regresa a esta app

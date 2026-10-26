@@ -512,8 +512,9 @@ test('/evento: cuenta lo permitido, rechaza lo raro y /estadisticas pide la clav
   const r = await call('/estadisticas?dias=7', { method: 'GET', origin: null, headers: { Authorization: 'Bearer clave-de-estadisticas' } });
   const { conteos } = await r.json();
   const hoy = Object.values(conteos)[0];
-  assert.equal(hoy['piece_view|mna|mna_s06_piedra_sol|es||'], 2);
-  assert.equal(hoy['audio_play|mna|mna_s06_piedra_sol|fr|largo|mp3'], 1);
+  assert.equal(hoy['piece_view|mna|mna_s06_piedra_sol|es||'], 1);
+  assert.equal(hoy['piece_view||mna_s06_piedra_sol|es||'], 1); // sin sitio: se cuenta sin sitio, no en el primero de la lista
+  assert.equal(hoy['audio_play||mna_s06_piedra_sol|fr|largo|mp3'], 1);
   // sin dato personal alguno: solo contadores
   assert.ok(!JSON.stringify(conteos).includes('dev_'));
 });

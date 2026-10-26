@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Uso de la app</title>
+<style>
+  :root { --bg:#f7f5f0; --card:#fff; --ink:#1d2421; --ink2:#5b6560; --line:#dcd8cf; --bar:#1f6f5c; --bar2:#c28a2c; --bad:#b3402a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161a18; --card:#1f2522; --ink:#eceae4; --ink2:#a3aca7; --line:#343c38; --bar:#4fb59a; --bar2:#e0ac4d; --bad:#e8826c; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui, sans-serif; }
+  main { max-width:960px; margin:0 auto; padding:20px 16px 56px; }
+  h1 { font-size:1.5rem; margin:0 0 4px; }
+  h2 { font-size:1.1rem; margin:32px 0 10px; }
+  p.sub { color:var(--ink2); margin:0 0 16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; }
+  form.login { display:grid; gap:10px; max-width:460px; }
+  label { display:grid; gap:4px; font-size:.9rem; color:var(--ink2); }
+  input, select, button { font:inherit; padding:10px 12px; border-radius:8px; border:1px solid var(--line); background:var(--card); color:var(--ink); }
+  button { cursor:pointer; background:var(--bar); color:#fff; border-color:var(--bar); font-weight:600; }
+  .row { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:12px; }
+  .tiles { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr)); gap:10px; }
+  .tile b { display:block; font-size:1.7rem; line-height:1.2; font-variant-numeric:tabular-nums; }
+  .tile span { color:var(--ink2); font-size:.85rem; }
+  table { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; }
+  th, td { text-align:right; padding:8px 6px; border-bottom:1px solid var(--line); }
+  th:first-child, td:first-child { text-align:left; }
+  th { font-size:.8rem; color:var(--ink2); font-weight:600; }
+  .scroll { overflow-x:auto; }
+  .bars { display:flex; align-items:flex-end; gap:3px; height:120px; }
+  .bars div { flex:1; min-width:3px; background:var(--bar); border-radius:2px 2px 0 0; position:relative; }
+  .bars div.b2 { background:var(--bar2); }
+  .legend { display:flex; gap:16px; font-size:.85rem; color:var(--ink2); margin-top:8px; }
+  .legend i { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:6px; }
+  .hbar { display:grid; grid-template-columns:minmax(90px,200px) 1fr 56px; gap:8px; align-items:center; margin:6px 0; font-size:.92rem; }
+  .hbar .track { background:var(--line); border-radius:4px; height:10px; }
+  .hbar .fill { background:var(--bar); height:10px; border-radius:4px; }
+  .hbar .n { text-align:right; font-variant-numeric:tabular-nums; }
+  .err { color:var(--bad); font-weight:600; }
+  .note { color:var(--ink2); font-size:.85rem; margin-top:28px; }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Uso de la app</h1>
+  <p class="sub">Conteos anónimos: no se guarda IP, ni cookies, ni nada que identifique a una persona.</p>
+
+  <section id="login" class="card">
+    <form class="login" id="loginForm">
+      <label>Dirección del servidor de pagos
+        <input id="api" type="url" placeholder="https://audioguias-pagos.….workers.dev" required autocomplete="off">
+      </label>
+      <label>Clave de estadísticas
+        <input id="key" type="password" required autocomplete="off">
+      </label>
+      <button type="submit">Ver números</button>
+      <p class="note" style="margin:0">Se guardan solo en este navegador.</p>
+    </form>
+    <p id="loginErr" class="err" hidden></p>
+  </section>
+
+  <section id="view" hidden>
+    <div class="row">
+      <label style="display:flex;align-items:center;gap:8px">Periodo
+        <select id="days"><option value="7">7 días</option><option value="30" selected>30 días</option><option value="90">90 días</option></select>
+      </label>
+      <label style="display:flex;align-items:center;gap:8px">Sitio
+        <select id="site"><option value="">Todos</option></select>
+      </label>
+      <button id="logout" type="button" style="background:transparent;color:var(--ink2);border-color:var(--line)">Salir</button>
+    </div>
+    <div class="tiles" id="tiles"></div>
+
+    <h2>Visitas y compras por día</h2>
+    <div class="card"><div class="bars" id="daily"></div>
+      <div class="legend"><span><i style="background:var(--bar)"></i>Aperturas de la app</span><span><i style="background:var(--bar2)"></i>Compras</span></div></div>
+
+    <h2>Del primer vistazo al pago, por sitio</h2>
+    <div class="card scroll"><table id="funnel"></table></div>
+
+    <h2>Qué se escucha más</h2>
+    <div class="card" id="pieces"></div>
+
+    <h2>Idiomas</h2>
+    <div class="card" id="langs"></div>
+
+    <p class="note">«Visitas» son aperturas de la app, no personas: quien vuelve cuenta otra vez. Los días van en hora UTC. Las cifras son aproximadas (dos eventos exactamente simultáneos pueden contarse como uno).</p>
+  </section>
+</main>
+<script>
+(function () {
+  var $ = function (id) { return document.getElementById(id); };
+  var store = {
+    get: function (k) { try { return localStorage.getItem(k) || ''; } catch (e) { return ''; } },
+    set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
+    del: function (k) { try { localStorage.removeItem(k); } catch (e) {} }
+  };
+  var data = null;
+
+  $('api').value = store.get('panel_api');
+  $('key').value = store.get('panel_key');
+
+  function fmt(n) { return Number(n || 0).toLocaleString('es-MX'); }
+  function pct(a, b) { return b ? (Math.round((a / b) * 1000) / 10).toLocaleString('es-MX') + ' %' : '–'; }
+  function el(tag, text, cls) { var e = document.createElement(tag); if (text !== undefined) e.textContent = text; if (cls) e.className = cls; return e; }
+
+  async function load() {
+    var api = $('api').value.trim().replace(/\/+$/, '');
+    var key = $('key').value.trim();
+    var days = $('days').value;
+    $('loginErr').hidden = true;
+    var res;
+    try {
+      res = await fetch(api + '/estadisticas?dias=' + days, { headers: { Authorization: 'Bearer ' + key } });
+    } catch (e) {
+      return fail('No se pudo conectar con el servidor. Revisa la dirección.');
+    }
+    if (res.status === 401) return fail('La clave no es correcta.');
+    if (!res.ok) return fail('El servidor respondió ' + res.status + '.');
+    data = (await res.json()).conteos || {};
+    store.set('panel_api', api);
+    store.set('panel_key', key);
+    $('login').hidden = true;
+    $('view').hidden = false;
+    fillSites();
+    render();
+  }
+
+  function fail(msg) { $('loginErr').textContent = msg; $('loginErr').hidden = false; $('login').hidden = false; $('view').hidden = true; }
+
+  // Cada clave: evento|sitio|obra|idioma|modo|tipo
+  function rows() {
+    var out = [];
+    Object.keys(data).sort().forEach(function (day) {
+      Object.keys(data[day]).forEach(function (k) {
+        if (k === '_descartados') return;
+        var p = k.split('|');
+        out.push({ day: day, e: p[0], s: p[1] || '', p: p[2] || '', l: p[3] || '', m: p[4] || '', k: p[5] || '', n: data[day][k] });
+      });
+    });
+    return out;
+  }
+
+  function fillSites() {
+    var seen = {};
+    rows().forEach(function (r) { if (r.s) seen[r.s] = 1; });
+    var sel = $('site'), cur = sel.value;
+    sel.innerHTML = '<option value="">Todos</option>';
+    Object.keys(seen).sort().forEach(function (s) { var o = el('option', s); o.value = s; sel.appendChild(o); });
+    sel.value = cur;
+  }
+
+  function sum(rs, e) { return rs.filter(function (r) { return r.e === e; }).reduce(function (a, r) { return a + r.n; }, 0); }
+
+  function render() {
+    var site = $('site').value;
+    var all = rows();
+    var rs = site ? all.filter(function (r) { return r.s === site; }) : all;
+
+    var tiles = [
+      ['Aperturas de la app', sum(rs, 'app_open')],
+      ['Vieron el pase', sum(rs, 'paywall_open')],
+      ['Iniciaron el pago', sum(rs, 'checkout_start')],
+      ['Compras', sum(rs, 'purchase')],
+      ['Entraron con código', sum(rs, 'code_redeem')],
+      ['Reembolsos', sum(rs, 'refund')],
+      ['Audios iniciados', sum(rs, 'audio_play')],
+      ['App instalada', sum(rs, 'install')]
+    ];
+    $('tiles').innerHTML = '';
+    tiles.forEach(function (t) { var d = el('div', undefined, 'card tile'); d.appendChild(el('b', fmt(t[1]))); d.appendChild(el('span', t[0])); $('tiles').appendChild(d); });
+
+    // Por día
+    var days = {};
+    rs.forEach(function (r) { var d = days[r.day] || (days[r.day] = { v: 0, c: 0 }); if (r.e === 'app_open') d.v += r.n; if (r.e === 'purchase') d.c += r.n; });
+    var keys = Object.keys(days).sort(), max = 1;
+    keys.forEach(function (k) { max = Math.max(max, days[k].v, days[k].c * 5); });
+    var box = $('daily'); box.innerHTML = '';
+    keys.forEach(function (k) {
+      var v = el('div'); v.style.height = Math.max(2, (days[k].v / max) * 100) + '%'; v.title = k + ': ' + days[k].v + ' aperturas';
+      box.appendChild(v);
+    });
+    if (!keys.length) box.appendChild(el('span', 'Todavía no hay datos en este periodo.'));
+
+    // Embudo por sitio (siempre muestra todos los sitios; el filtro de arriba no aplica)
+    var by = {};
+    all.forEach(function (r) {
+      var s = r.s || '(sin sitio)';
+      var o = by[s] || (by[s] = { open: 0, pay: 0, co: 0, buy: 0, code: 0 });
+      if (r.e === 'app_open') o.open += r.n;
+      if (r.e === 'paywall_open') o.pay += r.n;
+      if (r.e === 'checkout_start') o.co += r.n;
+      if (r.e === 'purchase') o.buy += r.n;
+      if (r.e === 'code_redeem') o.code += r.n;
+    });
+    var t = $('funnel'); t.innerHTML = '';
+    var head = t.appendChild(el('tr'));
+    ['Sitio', 'Aperturas', 'Vieron el pase', 'Iniciaron pago', 'Compraron', 'Con código', 'Compra / pase visto'].forEach(function (h) { head.appendChild(el('th', h)); });
+    Object.keys(by).sort(function (a, b) { return by[b].open - by[a].open; }).forEach(function (s) {
+      var o = by[s], tr = t.appendChild(el('tr'));
+      [s, fmt(o.open), fmt(o.pay), fmt(o.co), fmt(o.buy), fmt(o.code), pct(o.buy, o.pay)].forEach(function (c) { tr.appendChild(el('td', c)); });
+    });
+
+    // Piezas más escuchadas
+    var pcs = {};
+    rs.forEach(function (r) { if (r.p && (r.e === 'audio_play' || r.e === 'audio_end' || r.e === 'piece_view')) { var o = pcs[r.p] || (pcs[r.p] = { play: 0, end: 0, view: 0 }); if (r.e === 'audio_play') o.play += r.n; else if (r.e === 'audio_end') o.end += r.n; else o.view += r.n; } });
+    var list = Object.keys(pcs).sort(function (a, b) { return pcs[b].play - pcs[a].play || pcs[b].view - pcs[a].view; }).slice(0, 12);
+    var pbox = $('pieces'); pbox.innerHTML = '';
+    var pm = list.length ? Math.max(pcs[list[0]].play, 1) : 1;
+    list.forEach(function (p) {
+      var r = el('div', undefined, 'hbar');
+      r.appendChild(el('span', p));
+      var tr = el('div', undefined, 'track'), f = el('div', undefined, 'fill'); f.style.width = (pcs[p].play / pm) * 100 + '%'; tr.appendChild(f); r.appendChild(tr);
+      r.appendChild(el('span', pcs[p].play + ' · ' + pcs[p].view + ' vistas', 'n'));
+      r.lastChild.title = 'Audios iniciados · veces que se abrió la ficha. Terminados: ' + pcs[p].end;
+      pbox.appendChild(r);
+    });
+    if (!list.length) pbox.textContent = 'Todavía no hay datos.';
+
+    // Idiomas
+    var ls = {}, lt = 0;
+    rs.forEach(function (r) { if (r.e === 'app_open' && r.l) { ls[r.l] = (ls[r.l] || 0) + r.n; lt += r.n; } });
+    var lbox = $('langs'); lbox.innerHTML = '';
+    var names = { es: 'Español', en: 'English', fr: 'Français', pl: 'Polski', ru: 'Русский', ja: '日本語' };
+    Object.keys(ls).sort(function (a, b) { return ls[b] - ls[a]; }).forEach(function (l) {
+      var r = el('div', undefined, 'hbar');
+      r.appendChild(el('span', names[l] || l));
+      var tr = el('div', undefined, 'track'), f = el('div', undefined, 'fill'); f.style.width = (ls[l] / lt) * 100 + '%'; tr.appendChild(f); r.appendChild(tr);
+      r.appendChild(el('span', pct(ls[l], lt), 'n'));
+      lbox.appendChild(r);
+    });
+    if (!lt) lbox.textContent = 'Todavía no hay datos.';
+  }
+
+  $('loginForm').addEventListener('submit', function (e) { e.preventDefault(); load(); });
+  $('days').addEventListener('change', load);
+  $('site').addEventListener('change', render);
+  $('logout').addEventListener('click', function () { store.del('panel_key'); $('key').value = ''; $('view').hidden = true; $('login').hidden = false; });
+  if ($('api').value && $('key').value) load();
+})();
+</script>
+</body>
+</html>
