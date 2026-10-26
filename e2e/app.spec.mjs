@@ -259,6 +259,76 @@ test('cobro: la ventana muestra el precio real, y "Pagar" manda a Stripe con los
   expect(checkout.body.deviceId).toMatch(/^[A-Za-z0-9_-]{8,}$/);
 });
 
+test('inicio del sitio: invita a escuchar las obras gratis antes de comprar y abre la obra', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  const bloque = page.locator('#free-pieces');
+  await expect(bloque).toContainText('gratis antes de comprar');
+  const tarjeta = bloque.getByTestId('free-piece-card').filter({ hasText: FREE.title });
+  await expect(tarjeta).toHaveCount(1);
+  await expect(tarjeta).toContainText('Gratis');
+  // los de pago no aparecen en el bloque
+  await expect(bloque.getByTestId('free-piece-card').filter({ hasText: PREMIUM.title })).toHaveCount(0);
+  await tarjeta.click();
+  await expect(page.locator('#btn-master-play-piece')).toBeVisible();
+});
+
+test('inicio del sitio: el botón del bloque gratis abre la ventana del pase, y con pase el bloque ya no aparece', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await page.locator('#btn-free-unlock').click();
+  await expect(page.locator('#modal-paywall')).toBeVisible();
+  await page.goto(`/?pago=ok&session_id=${SESSION}`);
+  await expect(page.getByTestId('payment-notice')).toContainText('Pago confirmado');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await expect(page.locator('#free-pieces')).toHaveCount(0);
+});
+
+test('pase combinado: se ofrece con su precio y se compra con el sitio "todos"', async ({ page }) => {
+  const api = await simularCobro(page, { combo: true });
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await page.locator('#btn-unlock-pass-nav').click();
+  const ofertas = page.getByTestId('combo-offer');
+  await expect(ofertas).toHaveCount(2);
+  await expect(ofertas.first()).toContainText('199');
+  await expect(ofertas.first()).toContainText('Todos los sitios de la app');
+  await expect(ofertas.nth(1)).toContainText('MNA + Teotihuacán');
+  await expect(ofertas.nth(1)).toContainText('149');
+  await expect(ofertas.nth(1)).toContainText('Incluye:');
+  await Promise.all([page.waitForURL(/checkout\.stripe\.com/), page.locator('#btn-stripe-checkout-combo-dupla').click()]);
+  const checkout = api.calls.find((c) => c.path === '/checkout');
+  expect(checkout.body.siteId).toBe('dupla');
+  expect(checkout.body.promo).toBeUndefined();
+  // El servidor recibió el precio del sitio pidiendo la configuración de ese sitio
+  expect(api.calls.some((c) => c.path === '/config' && c.search.includes('site=mna'))).toBe(true);
+});
+
+test('sin pase combinado en el servidor, no aparece la oferta', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await page.locator('#btn-unlock-pass-nav').click();
+  await expect(page.getByTestId('pass-price')).toContainText('79');
+  await expect(page.getByTestId('combo-offer')).toHaveCount(0);
+});
+
+test('sitio solo por código: no se ofrece pagar, se muestra el campo del código y se activa', async ({ page }) => {
+  const api = await simularCobro(page, { acceso: 'codigo' });
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await page.locator('#btn-unlock-pass-nav').click();
+  await expect(page.getByTestId('code-only')).toBeVisible();
+  await expect(page.locator('#btn-stripe-checkout')).toHaveCount(0);
+  await expect(page.getByTestId('pass-price')).toHaveCount(0);
+  await page.locator('#input-pass-code').fill('hotel-mx1');
+  await page.locator('#btn-redeem-code').click();
+  await expect(page.getByTestId('pass-active')).toBeVisible();
+  expect(api.calls.find((c) => c.path === '/code').body.code).toBe('HOTEL-MX1');
+});
+
 test('código de descuento: un QR con ?c= lo deja puesto, muestra el precio rebajado y se manda a Stripe', async ({ page }) => {
   const api = await simularCobro(page);
   await page.goto('/?c=hotel10');
@@ -504,7 +574,7 @@ test('textos de pago: con pase se piden al servidor con la clave y aparece la ex
   await page.locator('#btn-mode-full').click();
   await expect(page.getByText(FRASE_SECRETA, { exact: false })).toBeVisible();
   const pedido = api.calls.find((c) => c.path === '/texto/es.json');
-  expect(pedido.search).toBe(`?t=${TOKEN}`);
+  expect(pedido.search).toBe(`?t=${TOKEN}&site=mna`);
 });
 
 test('textos de pago: si el servidor ya no reconoce la clave (reembolso), el pase se quita y vuelve el candado', async ({ page }) => {

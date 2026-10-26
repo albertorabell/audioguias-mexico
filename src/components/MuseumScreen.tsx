@@ -50,6 +50,8 @@ interface MuseumScreenProps {
   audioPieces: PieceData[];
   onBack: () => void;
   onOpenPaywall: () => void;
+  /** Abre una obra por su id (las obras gratis del inicio). Sin esta función no se muestra ese bloque. */
+  onOpenPiece?: (pieceId: string) => void;
   onSelectRoom: (room: Room) => void;
   onStartRoute: (route: SiteRoute) => void;
   /** Sin esta función no se ofrece "arma tu ruta" (los sitios al aire libre solo tienen sus rutas armadas). */
@@ -127,6 +129,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
   audioPieces,
   onBack,
   onOpenPaywall,
+  onOpenPiece,
   onSelectRoom,
   onStartRoute,
   onOpenWizard,
@@ -210,6 +213,9 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
       return next;
     });
 
+  /** Obras que se pueden escuchar sin pase: la invitación a probar antes de comprar. Solo para quien aún no tiene pase. */
+  const freePieces = useMemo(() => (hasPass || !onOpenPiece ? [] : pieces.filter((p) => p.is_free).sort(byOrder).slice(0, 8)), [pieces, hasPass, onOpenPiece]);
+
   const scrollToBefore = () => document.getElementById('before-visit')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
   return (
@@ -286,6 +292,45 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
               </span>
               <ChevronRight className="w-5 h-5 text-jade-ink shrink-0" />
             </button>
+          </section>
+        )}
+
+        {/* Prueba gratis: las obras abiertas, para que se escuche cómo suena antes de comprar */}
+        {freePieces.length > 0 && onOpenPiece && (
+          <section id="free-pieces" className="mt-10" aria-labelledby="free-title">
+            <div className="px-5">
+              <h2 id="free-title" className="font-serif text-[1.625rem] leading-tight font-medium text-balance">
+                {m.freeTitle(freePieces.length)}
+              </h2>
+              <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.freeSub}</p>
+            </div>
+            <ul className="mt-4 flex gap-3 overflow-x-auto px-5 pb-1 snap-x snap-mandatory [scrollbar-width:none]">
+              {freePieces.map((p) => (
+                <li key={p.piece_id} className="snap-start shrink-0 w-[11.5rem]">
+                  <button
+                    type="button"
+                    data-testid="free-piece-card"
+                    onClick={() => onOpenPiece(p.piece_id)}
+                    className="w-full text-left rounded-2xl bg-surface border border-line overflow-hidden cursor-pointer active:scale-[0.98] transition-transform"
+                  >
+                    <span className="relative block bg-raised">
+                      <PieceImage filename={p.image_filename} pieceId={p.piece_id} alt="" className="block w-full aspect-[4/3] object-cover" />
+                      <span className="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-jade text-on-jade text-[12px] font-bold">{u.free}</span>
+                    </span>
+                    <span className="block p-3">
+                      <span className="block text-[1rem] font-bold leading-snug text-ink">{p.title}</span>
+                      {p.frase_gancho && <span className="mt-1 block text-cap leading-[1.4] text-ink-3 line-clamp-2">{p.frase_gancho}</span>}
+                    </span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+            <div className="px-5 mt-3">
+              <button type="button" id="btn-free-unlock" onClick={onOpenPaywall} className="min-h-11 px-1 -ml-1 inline-flex items-center gap-1.5 text-ui font-semibold text-jade-ink cursor-pointer rounded-lg text-left">
+                {m.freeUnlock}
+                <ChevronRight className="w-4 h-4" aria-hidden="true" />
+              </button>
+            </div>
           </section>
         )}
 

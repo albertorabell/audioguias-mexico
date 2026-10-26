@@ -16,6 +16,16 @@ export const paywall = defineGroup(
     copied: '¡Copiado!',
     offerTitle: (hours: number) => `Acceso total ${hours} horas`,
     priceNote: 'Pago único • Sin suscripción',
+    combo: {
+      includes: (names: string) => `Incluye: ${names}.`,
+      all: 'Todos los sitios de la app',
+      button: (price: string) => `Comprar este pase · ${price}`,
+      active: 'Pase combinado activo',
+    },
+    codeOnly: {
+      title: 'Acceso con código',
+      desc: 'Este sitio se abre con un código que te dan en el lugar (hotel, taquilla o convenio). Escríbelo abajo.',
+    },
     benefits: {
       accessTitle: (hours: number) => `${hours} horas de acceso completo`,
       accessDesc: 'Disfruta tu recorrido a tu propio ritmo con vigencia extendida.',
@@ -61,6 +71,9 @@ export const paywall = defineGroup(
       origin_not_allowed: 'Esta dirección no está autorizada para pagar.',
       server_error: 'Algo falló en el servidor. Inténtalo de nuevo.',
       unknown: 'No se pudo completar. Inténtalo de nuevo.',
+      not_for_sale: 'Este sitio no se vende con pase. Entra con un código.',
+      code_expired: 'Ese código ya venció.',
+      code_exhausted: 'Ese código ya se usó el máximo de veces.',
     } as Record<PaymentErrorCode, string>,
     notice: {
       confirming: 'Confirmando tu pago…',
@@ -82,6 +95,16 @@ export const paywall = defineGroup(
     copied: 'Copied!',
     offerTitle: (hours: number) => `Full access for ${hours} hours`,
     priceNote: 'One-time payment • No subscription',
+    combo: {
+      includes: (names: string) => `Includes: ${names}.`,
+      all: 'Every site in the app',
+      button: (price: string) => `Buy this pass · ${price}`,
+      active: 'Combined pass active',
+    },
+    codeOnly: {
+      title: 'Access with a code',
+      desc: 'This site opens with a code you are given on the spot (hotel, ticket office or partner). Type it below.',
+    },
     benefits: {
       accessTitle: (hours: number) => `${hours} hours of full access`,
       accessDesc: 'Enjoy your visit at your own pace with extended validity.',
@@ -127,6 +150,9 @@ export const paywall = defineGroup(
       origin_not_allowed: 'This address is not authorized to take payments.',
       server_error: 'Something went wrong on the server. Try again.',
       unknown: 'Could not complete. Try again.',
+      not_for_sale: 'This site is not sold with a pass. Enter with a code.',
+      code_expired: 'That code has expired.',
+      code_exhausted: 'That code has already been used the maximum number of times.',
     } as Record<PaymentErrorCode, string>,
     notice: {
       confirming: 'Confirming your payment…',
@@ -148,6 +174,16 @@ export const paywall = defineGroup(
     copied: 'Copié !',
     offerTitle: (hours: number) => `Accès total ${hours} heures`,
     priceNote: 'Paiement unique • Sans abonnement',
+    combo: {
+      includes: (names: string) => `Comprend : ${names}.`,
+      all: 'Tous les sites de l’appli',
+      button: (price: string) => `Acheter ce pass · ${price}`,
+      active: 'Pass combiné actif',
+    },
+    codeOnly: {
+      title: 'Accès avec un code',
+      desc: 'Ce site s’ouvre avec un code remis sur place (hôtel, billetterie ou partenaire). Saisissez-le ci-dessous.',
+    },
     benefits: {
       accessTitle: (hours: number) => `${hours} heures d’accès complet`,
       accessDesc: 'Profitez de votre visite à votre rythme, avec une validité étendue.',
@@ -193,6 +229,9 @@ export const paywall = defineGroup(
       origin_not_allowed: 'Cette adresse n’est pas autorisée à effectuer des paiements.',
       server_error: 'Un problème est survenu sur le serveur. Réessayez.',
       unknown: 'Impossible de terminer. Réessayez.',
+      not_for_sale: 'Ce site n’est pas vendu avec un pass. Entrez avec un code.',
+      code_expired: 'Ce code a expiré.',
+      code_exhausted: 'Ce code a déjà été utilisé le nombre maximal de fois.',
     } as Record<PaymentErrorCode, string>,
     notice: {
       confirming: 'Confirmation de votre paiement…',

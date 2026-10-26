@@ -2,7 +2,7 @@
 // "Audioguías México" en Drive. Si no hay clave del robot (por ejemplo en pruebas locales), se usa una lista fija.
 import { hayClave, leerPestana } from './google-sheets-lib.mjs';
 
-const CONTROL_ID = process.env.CONTROL_SHEET_ID || '1e4BQCAULQq6zABdMTD0trSpuzknPTV3ZS9gzp6Qx93Q';
+export const CONTROL_ID = process.env.CONTROL_SHEET_ID || '1e4BQCAULQq6zABdMTD0trSpuzknPTV3ZS9gzp6Qx93Q';
 
 // Solo se usa si no se puede leer CONTROL.
 const SITIOS_RESPALDO = [

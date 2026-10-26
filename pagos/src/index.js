@@ -8,7 +8,8 @@
 //   POST /stripe-webhook  Stripe avisa de reembolsos y disputas: el pase se cancela solo
 //   POST /evento      la app cuenta (sin datos personales) qué se usa: obra vista, audio, pantalla del pase...
 //   GET  /estadisticas  resumen de esos conteos (solo con la clave STATS_KEY)
-//   GET  /config     precios reales (los lee de Stripe) y reglas del pase
+//   GET  /config     precios y forma de acceso (del sitio pedido con ?site=, o los de Stripe si no hay tabla) y reglas del pase
+//   POST /admin/codigos  el robot de GitHub publica los códigos de acceso (hoja CODIGOS); solo con la clave CODES_KEY
 //   GET  /audio/libre/<idioma>/<pieza>_<modo>.mp3          audios de piezas gratis (públicos, sin clave)
 //   GET  /audio/pago/<idioma>/<pieza>_<modo>.mp3?t=<clave> audios de piezas de pago (solo con clave vigente)
 //   (en el bucket R2 están en las carpetas libre/ y pago/ con el mismo nombre)
@@ -18,6 +19,7 @@
 // "¿esta sesión está pagada?" con la clave secreta, y entrega una clave firmada que dura lo que dura el pase.
 
 import { signToken, verifyToken } from './token.js';
+import { COMBO, coverageOf, coversSite, getPrecios, siteForPiece } from './precios.js';
 
 const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'; // sin 0, O, 1, I, L para que no se confundan al dictarlo
 const SESSION_RE = /^cs_(test|live)_[A-Za-z0-9]{10,200}$/;
@@ -53,13 +55,40 @@ function settings(env) {
   };
 }
 
+/**
+ * Qué sitios existen y cuánto cuestan. Con tabla de precios (PRECIOS_URL) manda la tabla; sin ella, la lista fija SITE_IDS.
+ * `ids` incluye "todos" cuando hay pase combinado.
+ */
+async function loadBook(env, cfg) {
+  const table = await getPrecios(env);
+  const ids = new Set(table ? [...Object.keys(table.sites), ...Object.keys(table.combos)] : cfg.sites);
+  return { table, ids, first: table ? Object.keys(table.sites)[0] : cfg.sites[0] };
+}
+
+/** ¿Este sitio es gratis para todos? (columna `acceso` = gratis) */
+const isFreeSite = (book, site) => book.table?.sites[site]?.acceso === 'gratis';
+
+/** ¿El pase de este «sitio» (un sitio o un pase combinado) abre ese sitio? Sin tabla de precios solo cuenta el mismo sitio, y "todos". */
+const covers = (book, passSite, site) => coversSite(book.table, passSite, site);
+
+/**
+ * ¿La clave sirve para esta pieza? El sitio de la clave debe ser el de la pieza, o un pase combinado que lo incluya.
+ * Sin tabla de precios no se puede saber a qué sitio pertenece la pieza, y vale lo de siempre: que el sitio de la clave exista.
+ */
+function tokenAllowsPiece(book, payload, pieceId) {
+  if (!payload) return false;
+  if (!book.table) return book.ids.has(payload.site);
+  const site = siteForPiece(book.table, pieceId);
+  return Boolean(site) && covers(book, payload.site, site);
+}
+
 function corsHeaders(request, cfg) {
   const origin = request.headers.get('Origin');
   const h = { Vary: 'Origin' };
   if (origin && cfg.origins.includes(origin)) {
     h['Access-Control-Allow-Origin'] = origin;
     h['Access-Control-Allow-Methods'] = 'GET, POST, HEAD, OPTIONS';
-    h['Access-Control-Allow-Headers'] = 'Content-Type, Range';
+    h['Access-Control-Allow-Headers'] = 'Content-Type, Range, Authorization';
     h['Access-Control-Expose-Headers'] = 'Content-Range, Accept-Ranges, Content-Length';
     h['Access-Control-Max-Age'] = '86400';
   }
@@ -122,12 +151,14 @@ async function loadPass(env, sessionId) {
 // El registro del pase debe vivir MÁS que la ventana en que una sesión pagada todavía se puede canjear
 // (sessionDays) más lo que dura el pase. Si se borrara antes, la misma sesión pagada daría otro pase nuevo.
 async function savePass(env, cfg, sessionId, pass) {
-  const ttl = cfg.sessionDays * 86400 + cfg.hours * 3600 + 86400;
+  // Lo que falte para que venza este pase (puede ser más que PASS_HOURS si viene de un código con más horas)
+  const left = Math.max(Math.ceil((pass.expiresAt - Date.now()) / 1000), cfg.hours * 3600);
+  const ttl = cfg.sessionDays * 86400 + left + 86400;
   await env.PASES.put(`s:${sessionId}`, JSON.stringify(pass), { expirationTtl: ttl });
 }
 
 /** Agrega el dispositivo al pase (si cabe) y devuelve la respuesta con la clave. */
-async function grantAccess(env, cfg, sessionId, pass, deviceId) {
+async function grantAccess(env, cfg, book, sessionId, pass, deviceId) {
   const now = Date.now();
   if (pass.revoked || (await isRevoked(env, sid12(sessionId)))) return { error: 'revoked', status: 403 };
   if (pass.expiresAt <= now) return { error: 'expired', status: 410 };
@@ -139,7 +170,7 @@ async function grantAccess(env, cfg, sessionId, pass, deviceId) {
   const token = await signToken({ sid: sessionId.slice(-12), site: pass.site, dev: deviceId, exp: pass.expiresAt }, env.TOKEN_SECRET);
   return {
     status: 200,
-    body: { token, site: pass.site, expiresAt: pass.expiresAt, code: pass.code, devices: pass.devices.length, maxDevices: cfg.maxDevices },
+    body: { token, site: pass.site, covers: coverageOf(book.table, pass.site), expiresAt: pass.expiresAt, code: pass.code, devices: pass.devices.length, maxDevices: cfg.maxDevices },
   };
 }
 
@@ -188,6 +219,7 @@ function timingSafeEqual(a, b) {
 }
 
 async function handleStripeWebhook(request, env, cfg, cors) {
+  const book = await loadBook(env, cfg);
   if (!env.STRIPE_WEBHOOK_SECRET) return json({ error: 'not_configured' }, 503, cors);
   const raw = await request.text();
   if (raw.length > 200_000) return json({ error: 'bad_request' }, 400, cors);
@@ -214,7 +246,7 @@ async function handleStripeWebhook(request, env, cfg, cors) {
     return json({ error: 'stripe_error' }, 502, cors); // Stripe lo reintenta
   }
   const session = list?.data?.[0];
-  if (!session || !cfg.sites.includes(session.metadata?.site_id)) return json({ received: true, ignored: true }, 200, cors);
+  if (!session || !book.ids.has(session.metadata?.site_id)) return json({ received: true, ignored: true }, 200, cors);
   await revokeSession(env, cfg, session.id);
   await countEvent(env, 'refund', { s: session.metadata.site_id, k: event.type === 'charge.dispute.created' ? 'disputa' : 'reembolso' });
   return json({ received: true, revoked: true }, 200, cors);
@@ -226,7 +258,7 @@ async function handleStripeWebhook(request, env, cfg, cors) {
 // ---------------------------------------------------------------------------
 const EVENTS = new Set([
   'app_open', 'piece_view', 'audio_play', 'audio_end', 'paywall_open', 'checkout_start', 'lang_change',
-  'route_start', 'tour_done', 'install', 'offline_download', 'search', 'purchase', 'refund',
+  'route_start', 'tour_done', 'install', 'offline_download', 'search', 'purchase', 'refund', 'code_redeem',
 ]);
 const PIECE_RE = /^[a-z0-9_]{3,60}$/;
 const DAILY_KEY_LIMIT = 3000;
@@ -237,7 +269,7 @@ const dayKey = (d = new Date()) => `ev:${d.toISOString().slice(0, 10)}`;
 async function countEvent(env, name, f = {}) {
   if (!EVENTS.has(name)) return;
   const field = (v, re) => (typeof v === 'string' && re.test(v) ? v : '');
-  const key = [name, field(f.s, /^[a-z0-9_-]{1,20}$/i).toLowerCase(), field(f.p, PIECE_RE), field(f.l, /^[a-z]{2}$/), field(f.m, /^(corto|largo)$/), field(f.k, /^[a-z0-9_-]{1,20}$/i)].join('|');
+  const key = [name, field(f.s, /^[a-z0-9_-]{1,40}$/i).toLowerCase(), field(f.p, PIECE_RE), field(f.l, /^[a-z]{2}$/), field(f.m, /^(corto|largo)$/), field(f.k, /^[a-z0-9_-]{1,20}$/i)].join('|');
   try {
     const dk = dayKey();
     const raw = await env.PASES.get(dk);
@@ -258,8 +290,10 @@ async function handleEvent(request, env, cfg, cors) {
   if (!cors['Access-Control-Allow-Origin']) return json({ error: 'origin_not_allowed' }, 403);
   const body = await readJson(request);
   if (!body || typeof body.e !== 'string' || !EVENTS.has(body.e) || body.e === 'purchase' || body.e === 'refund') return json({ error: 'bad_request' }, 400, cors);
-  const site = siteKey(body.s) || cfg.sites[0];
-  if (!cfg.sites.includes(site)) return json({ error: 'bad_request' }, 400, cors);
+  const book = await loadBook(env, cfg);
+  // Sin sitio (por ejemplo, la pantalla de inicio) el evento se cuenta sin sitio, no en el primero de la lista
+  const site = siteKey(body.s);
+  if (site && !book.ids.has(site)) return json({ error: 'bad_request' }, 400, cors);
   await countEvent(env, body.e, { s: site, p: body.p, l: body.l, m: body.m, k: body.k });
   return new Response(null, { status: 204, headers: cors });
 }
@@ -323,10 +357,39 @@ async function handlePromo(request, env, cfg, cors) {
   const body = await readJson(request);
   if (!body) return json({ error: 'bad_request' }, 400, cors);
   const siteId = siteKey(body.siteId);
-  if (!cfg.sites.includes(siteId)) return json({ error: 'bad_request' }, 400, cors);
+  if (!(await loadBook(env, cfg)).ids.has(siteId)) return json({ error: 'bad_request' }, 400, cors);
   const r = await lookupPromo(env, body.code, siteId);
   if (r.error) return json({ error: r.error }, r.error === 'stripe_error' ? 502 : 404, cors);
   return json({ code: r.code, percentOff: r.percentOff }, 200, cors);
+}
+
+const PASS_NAME = { es: 'Pase de visitante', en: 'Visitor pass', fr: 'Pass visiteur', pl: 'Karnet zwiedzającego', ru: 'Пропуск посетителя', ja: '訪問者パス' };
+
+const usable = (id) => Boolean(id) && !String(id).startsWith('REEMPLAZA');
+
+/**
+ * Qué se cobra por el pase de un sitio (o del combo) en ese idioma.
+ *  - { inline: { currency, cents, name } }  precio propio del sitio, tomado de la tabla (Stripe lo recibe como precio en línea)
+ *  - { priceId }                            el precio general de Stripe (sitio sin precio propio, o sin tabla)
+ *  - { error }                              el sitio no se vende (gratis o solo por código) o falta configurar
+ * Español cobra en pesos; los demás idiomas en dólares si hay precio en dólares y, si no, en pesos.
+ */
+function quote(env, book, siteId, lang) {
+  const combo = book.table?.combos[siteId];
+  const entry = combo || book.table?.sites[siteId];
+  if (book.table && entry && (entry.acceso ?? 'pago') !== 'pago') return { error: 'not_for_sale' };
+  if (entry && (entry.mxn || entry.usd)) {
+    const usd = lang !== 'es' && entry.usd ? entry.usd : null;
+    const amount = usd ?? entry.mxn;
+    if (amount) {
+      const label = combo ? combo.nombre[lang] || combo.nombre.es : entry.nombre;
+      return { inline: { currency: usd ? 'usd' : 'mxn', cents: Math.round(amount * 100), name: `${PASS_NAME[lang]} · ${label}` } };
+    }
+  }
+  if (combo || siteId === COMBO) return { error: 'bad_request' };
+  const useUsd = lang !== 'es' && usable(env.STRIPE_PRICE_ID_USD);
+  const priceId = useUsd ? env.STRIPE_PRICE_ID_USD : env.STRIPE_PRICE_ID_MXN;
+  return usable(priceId) ? { priceId } : { error: 'not_configured' };
 }
 
 async function handleCheckout(request, env, cfg, cors) {
@@ -335,7 +398,8 @@ async function handleCheckout(request, env, cfg, cors) {
   const { deviceId, returnUrl } = body;
   const lang = normalizeLang(body.lang);
   const siteId = siteKey(body.siteId);
-  if (!cfg.sites.includes(siteId) || !DEVICE_RE.test(String(deviceId || ''))) return json({ error: 'bad_request' }, 400, cors);
+  const book = await loadBook(env, cfg);
+  if (!book.ids.has(siteId) || !DEVICE_RE.test(String(deviceId || ''))) return json({ error: 'bad_request' }, 400, cors);
 
   let ret;
   try {
@@ -346,10 +410,8 @@ async function handleCheckout(request, env, cfg, cors) {
   if (!cfg.origins.includes(ret.origin)) return json({ error: 'bad_return_url' }, 400, cors);
   const base = `${ret.origin}${ret.pathname}`;
 
-  // Español: precio en pesos. Otros idiomas: en dólares si hay precio en dólares; si no, el de pesos.
-  const useUsd = lang !== 'es' && env.STRIPE_PRICE_ID_USD && !env.STRIPE_PRICE_ID_USD.startsWith('REEMPLAZA');
-  const priceId = useUsd ? env.STRIPE_PRICE_ID_USD : env.STRIPE_PRICE_ID_MXN;
-  if (!priceId || priceId.startsWith('REEMPLAZA')) return json({ error: 'not_configured' }, 503, cors);
+  const q = quote(env, book, siteId, lang);
+  if (q.error) return json({ error: q.error }, q.error === 'not_configured' ? 503 : 400, cors);
 
   // Código de descuento (opcional). Si viene y no sirve, se avisa en lugar de cobrar el precio completo sin que la persona lo note.
   let promo = null;
@@ -360,7 +422,13 @@ async function handleCheckout(request, env, cfg, cors) {
 
   const params = new URLSearchParams();
   params.set('mode', 'payment');
-  params.set('line_items[0][price]', priceId);
+  if (q.inline) {
+    params.set('line_items[0][price_data][currency]', q.inline.currency);
+    params.set('line_items[0][price_data][unit_amount]', String(q.inline.cents));
+    params.set('line_items[0][price_data][product_data][name]', q.inline.name);
+  } else {
+    params.set('line_items[0][price]', q.priceId);
+  }
   params.set('line_items[0][quantity]', '1');
   params.set('success_url', `${base}?pago=ok&session_id={CHECKOUT_SESSION_ID}`);
   params.set('cancel_url', `${base}?pago=cancelado`);
@@ -401,7 +469,8 @@ async function handleRedeem(request, env, cfg, cors) {
   }
   if (session.payment_status !== 'paid') return json({ error: 'not_paid' }, 402, cors);
   const site = session.metadata?.site_id;
-  if (!cfg.sites.includes(site) || (siteId && siteId !== site)) return json({ error: 'bad_session' }, 403, cors);
+  const book = await loadBook(env, cfg);
+  if (!book.ids.has(site) || (siteId && !covers(book, site, siteId))) return json({ error: 'bad_session' }, 403, cors);
 
   if (await isRevoked(env, sid12(sessionId))) return json({ error: 'revoked' }, 403, cors);
   let pass = await loadPass(env, sessionId);
@@ -416,8 +485,44 @@ async function handleRedeem(request, env, cfg, cors) {
     await savePass(env, cfg, sessionId, pass);
     await countEvent(env, 'purchase', { s: site, k: String(session.currency || '').toLowerCase() });
   }
-  const r = await grantAccess(env, cfg, sessionId, pass, deviceId);
+  const r = await grantAccess(env, cfg, book, sessionId, pass, deviceId);
   return r.error ? json({ error: r.error }, r.status, cors) : json(r.body, 200, cors);
+}
+
+// ---------------------------------------------------------------------------
+// Códigos de acceso (convenios, hoteles, taquilla, cortesías). Los define Alberto en la hoja CODIGOS de CONTROL;
+// el robot de GitHub los publica aquí. Cada uso crea un pase propio (con su código para el segundo dispositivo).
+// ---------------------------------------------------------------------------
+const ACCESS_CODE_RE = /^[A-Z0-9]{4,24}$/;
+const accessKey = (c) => `a:${normalizeCode(c)}`;
+
+/** Canjea un código de acceso. Devuelve { error, status } o { pass, sessionId }. */
+async function redeemAccessCode(env, cfg, book, rawCode, siteId, deviceId) {
+  const norm = normalizeCode(rawCode);
+  if (!ACCESS_CODE_RE.test(norm)) return null;
+  const raw = await env.PASES.get(accessKey(norm));
+  if (!raw) return null;
+  const acc = JSON.parse(raw);
+  if (siteId && !covers(book, acc.site, siteId)) return { error: 'code_not_found', status: 404 };
+  if (acc.expiresAt && acc.expiresAt <= Date.now()) return { error: 'code_expired', status: 410 };
+
+  // El mismo dispositivo que vuelve a escribir el código recupera su pase (no gasta otro uso)
+  const again = await env.PASES.get(`ad:${norm}:${deviceId}`);
+  const known = again ? await loadPass(env, again) : null;
+  if (known) return { pass: known, sessionId: again };
+
+  if (acc.maxUses && (acc.uses || 0) >= acc.maxUses) return { error: 'code_exhausted', status: 410 };
+  const bytes = crypto.getRandomValues(new Uint8Array(12));
+  const sessionId = `acc_${Array.from(bytes, (b) => b.toString(16).padStart(2, '0')).join('')}`;
+  const hours = acc.hours || cfg.hours;
+  const pass = { site: acc.site, devices: [], createdAt: Date.now(), expiresAt: Date.now() + hours * 3600_000, code: makeCode(), via: 'codigo' };
+  await env.PASES.put(codeKey(pass.code), sessionId, { expirationTtl: hours * 3600 + 7 * 86400 });
+  await savePass(env, cfg, sessionId, pass);
+  await env.PASES.put(`ad:${norm}:${deviceId}`, sessionId, { expirationTtl: hours * 3600 + 7 * 86400 });
+  acc.uses = (acc.uses || 0) + 1;
+  await env.PASES.put(accessKey(norm), JSON.stringify(acc));
+  await countEvent(env, 'code_redeem', { s: acc.site });
+  return { pass, sessionId };
 }
 
 async function handleCode(request, env, cfg, cors) {
@@ -425,12 +530,60 @@ async function handleCode(request, env, cfg, cors) {
   if (!body) return json({ error: 'bad_request' }, 400, cors);
   const { code, deviceId } = body;
   const siteId = siteKey(body.siteId);
-  if (normalizeCode(code).length !== 8 || !DEVICE_RE.test(String(deviceId || ''))) return json({ error: 'bad_request' }, 400, cors);
-  const sessionId = await env.PASES.get(codeKey(code));
-  const pass = sessionId ? await loadPass(env, sessionId) : null;
-  if (!pass || (siteId && siteId !== pass.site)) return json({ error: 'code_not_found' }, 404, cors);
-  const r = await grantAccess(env, cfg, sessionId, pass, deviceId);
+  if (!DEVICE_RE.test(String(deviceId || ''))) return json({ error: 'bad_request' }, 400, cors);
+  const norm = normalizeCode(code);
+  if (norm.length < 4 || norm.length > 24) return json({ error: 'bad_request' }, 400, cors);
+
+  const book = await loadBook(env, cfg);
+  let sessionId = norm.length === 8 ? await env.PASES.get(codeKey(code)) : null;
+  let pass = sessionId ? await loadPass(env, sessionId) : null;
+  if (pass && siteId && !covers(book, pass.site, siteId)) return json({ error: 'code_not_found' }, 404, cors);
+  if (!pass) {
+    // No es el código de un pase comprado: puede ser un código de acceso
+    const r = await redeemAccessCode(env, cfg, book, code, siteId, deviceId);
+    if (!r) return json({ error: 'code_not_found' }, 404, cors);
+    if (r.error) return json({ error: r.error }, r.status, cors);
+    ({ pass, sessionId } = r);
+  }
+  const r = await grantAccess(env, cfg, book, sessionId, pass, deviceId);
   return r.error ? json({ error: r.error }, r.status, cors) : json(r.body, 200, cors);
+}
+
+/** El robot de GitHub publica aquí los códigos de la hoja CODIGOS. Solo con la clave CODES_KEY. */
+async function handleAdminCodes(request, env, cors) {
+  const auth = request.headers.get('Authorization') || '';
+  if (!env.CODES_KEY) return json({ error: 'not_configured' }, 503, cors);
+  if (!timingSafeEqual(auth, `Bearer ${env.CODES_KEY}`)) return json({ error: 'unauthorized' }, 401, cors);
+  let body;
+  try {
+    const text = await request.text();
+    if (text.length > 200_000) return json({ error: 'bad_request' }, 400, cors);
+    body = JSON.parse(text);
+  } catch {
+    return json({ error: 'bad_request' }, 400, cors);
+  }
+  const book = await loadBook(env, settings(env));
+  const result = { saved: 0, removed: 0, rejected: [] };
+  for (const c of Array.isArray(body?.codes) ? body.codes.slice(0, 500) : []) {
+    const norm = normalizeCode(c?.code);
+    const site = siteKey(c?.site);
+    if (!ACCESS_CODE_RE.test(norm) || !book.ids.has(site)) {
+      result.rejected.push(String(c?.code || '').slice(0, 24));
+      continue;
+    }
+    const key = accessKey(norm);
+    if (c.active === false) {
+      await env.PASES.delete?.(key);
+      result.removed++;
+      continue;
+    }
+    const prev = JSON.parse((await env.PASES.get(key)) || 'null');
+    const num = (v) => (Number.isFinite(Number(v)) && Number(v) > 0 ? Math.floor(Number(v)) : 0);
+    const expiresAt = c.expires ? Date.parse(`${String(c.expires).slice(0, 10)}T23:59:59-06:00`) : 0;
+    await env.PASES.put(key, JSON.stringify({ site, hours: Math.min(num(c.hours), 24 * 30) || 0, maxUses: num(c.uses), expiresAt: Number.isFinite(expiresAt) ? expiresAt : 0, uses: prev?.uses || 0 }));
+    result.saved++;
+  }
+  return json(result, 200, cors);
 }
 
 async function handleStatus(request, env, cors) {
@@ -440,16 +593,31 @@ async function handleStatus(request, env, cors) {
   return payload ? json({ valid: true, expiresAt: payload.exp, site: payload.site }, 200, cors) : json({ valid: false }, 200, cors);
 }
 
-async function handleConfig(env, cfg, cors) {
+const toPrices = (e) => ({
+  ...(e?.mxn ? { mxn: { amount: e.mxn, currency: 'mxn' } } : {}),
+  ...(e?.usd ? { usd: { amount: e.usd, currency: 'usd' } } : {}),
+});
+
+async function handleConfig(env, cfg, cors, url) {
   if (cfg.free) return json({ free: true, prices: {}, passHours: cfg.hours, maxDevices: cfg.maxDevices }, 200, { ...cors, 'Cache-Control': 'no-store' });
-  let prices = {};
-  try {
-    prices = await getPrices(env);
-  } catch (e) {
-    console.error('config', e.message);
-    return json({ error: 'stripe_error' }, 502, cors);
+  const book = await loadBook(env, cfg);
+  const siteId = siteKey(url.searchParams.get('site'));
+  const site = book.table ? book.table.sites[siteId] : null;
+  // Pases combinados que abren este sitio (todos, si no se pidió uno)
+  const combos = Object.entries(book.table?.combos || {})
+    .filter(([id]) => !siteId || coversSite(book.table, id, siteId))
+    .map(([id, c]) => ({ id, name: c.nombre, sites: c.sitios, prices: toPrices(c) }));
+  let prices = toPrices(site);
+  // Sitio sin precio propio (o sin tabla): el precio general de Stripe
+  if (!prices.mxn) {
+    try {
+      prices = await getPrices(env);
+    } catch (e) {
+      console.error('config', e.message);
+      return json({ error: 'stripe_error' }, 502, cors);
+    }
   }
-  return json({ prices, passHours: cfg.hours, maxDevices: cfg.maxDevices }, 200, { ...cors, 'Cache-Control': 'public, max-age=300' });
+  return json({ prices, access: site?.acceso || 'pago', ...(combos.length ? { combos } : {}), passHours: cfg.hours, maxDevices: cfg.maxDevices }, 200, { ...cors, 'Cache-Control': 'public, max-age=300' });
 }
 
 /**
@@ -482,8 +650,12 @@ async function handleAudio(request, env, cfg, cors, url) {
   if (!m) return new Response('No encontrado', { status: 404, headers: cors });
   const premium = m[1] === 'pago';
   if (premium && !cfg.free) {
-    const payload = await verifyToken(url.searchParams.get('t'), env.TOKEN_SECRET);
-    if (!payload || !cfg.sites.includes(payload.site) || (await isRevoked(env, payload.sid))) return new Response('Sin acceso', { status: 401, headers: cors });
+    const book = await loadBook(env, cfg);
+    // Un sitio marcado como gratis entrega también sus audios "de pago" sin clave
+    if (!isFreeSite(book, siteForPiece(book.table, m[3]))) {
+      const payload = await verifyToken(url.searchParams.get('t'), env.TOKEN_SECRET);
+      if (!tokenAllowsPiece(book, payload, m[3]) || (await isRevoked(env, payload.sid))) return new Response('Sin acceso', { status: 401, headers: cors });
+    }
   }
 
   const key = `${m[1]}/${m[2]}/${m[3]}_${m[4]}.mp3`;
@@ -524,21 +696,47 @@ async function handleAudio(request, env, cfg, cors, url) {
 async function handleText(request, env, cfg, cors, url) {
   const m = url.pathname.match(TEXT_RE);
   if (!m) return new Response('No encontrado', { status: 404, headers: cors });
+  // Qué sitios puede leer quien pide: todos (modo de pruebas o pase combinado), uno solo (su pase) o el de un sitio gratis
+  let scope = COMBO;
+  const book = await loadBook(env, cfg);
   if (!cfg.free) {
     const payload = await verifyToken(url.searchParams.get('t'), env.TOKEN_SECRET);
-    if (!payload || !cfg.sites.includes(payload.site) || (await isRevoked(env, payload.sid))) {
-      return new Response('Sin acceso', { status: 401, headers: cors });
+    if (payload && (payload.site === COMBO || book.ids.has(payload.site)) && !(await isRevoked(env, payload.sid))) {
+      scope = payload.site;
+    } else {
+      const free = siteKey(url.searchParams.get('site'));
+      if (!isFreeSite(book, free)) return new Response('Sin acceso', { status: 401, headers: cors });
+      scope = free;
     }
   }
+  // Qué sitios entrega: los que abre el pase (todos, si es "todos" o el modo de pruebas). Con ?site= se pide solo uno de ellos, para no bajar de más
+  const asked = siteKey(url.searchParams.get('site'));
+  const opens = coverageOf(book.table, scope);
+  const everything = opens[0] === COMBO;
+  let only = everything ? null : opens;
+  if (asked && book.table?.sites[asked] && (everything || opens.includes(asked))) only = [asked];
+  const tag = only ? only.join('+') : '';
   const object = await env.AUDIO.get(`texto/${m[1]}.json`);
   if (!object) return new Response('No encontrado', { status: 404, headers: cors });
   const headers = new Headers(cors);
   headers.set('Content-Type', 'application/json; charset=utf-8');
   // Solo el navegador de quien pagó lo guarda (para usarlo sin internet); ninguna red intermedia debe compartirlo
   headers.set('Cache-Control', 'private, max-age=300');
-  if (object.httpEtag) headers.set('ETag', object.httpEtag);
-  if (object.httpEtag && request.headers.get('If-None-Match') === object.httpEtag) return new Response(null, { status: 304, headers });
-  return new Response(request.method === 'HEAD' ? null : object.body, { status: 200, headers });
+  const etag = object.httpEtag ? (!tag ? object.httpEtag : `${object.httpEtag.replace(/"$/, '')}-${tag}"`) : '';
+  if (etag) headers.set('ETag', etag);
+  if (etag && request.headers.get('If-None-Match') === etag) return new Response(null, { status: 304, headers });
+  if (request.method === 'HEAD') return new Response(null, { status: 200, headers });
+  // Con un pase que no abre todo, solo salen los textos de las piezas de sus sitios
+  if (!only || !book.table) return new Response(object.body, { status: 200, headers });
+  let data;
+  try {
+    data = JSON.parse(await object.text());
+  } catch {
+    return new Response('No encontrado', { status: 404, headers: cors });
+  }
+  const pieces = {};
+  for (const [id, value] of Object.entries(data?.pieces || {})) if (only.includes(siteForPiece(book.table, id))) pieces[id] = value;
+  return new Response(JSON.stringify({ ...data, pieces }), { status: 200, headers });
 }
 
 // ---------------------------------------------------------------------------
@@ -558,7 +756,8 @@ export default {
 
       if (url.pathname === '/estadisticas' && request.method === 'GET') return handleStats(request, env, url, cors);
       if (url.pathname === '/health') return json({ ok: true }, 200, cors);
-      if (url.pathname === '/config' && request.method === 'GET') return handleConfig(env, cfg, cors);
+      if (url.pathname === '/config' && request.method === 'GET') return handleConfig(env, cfg, cors, url);
+      if (url.pathname === '/admin/codigos' && request.method === 'POST') return handleAdminCodes(request, env, cors);
       if (url.pathname.startsWith('/texto/') && (request.method === 'GET' || request.method === 'HEAD')) return handleText(request, env, cfg, cors, url);
       if (url.pathname.startsWith('/audio/') && (request.method === 'GET' || request.method === 'HEAD')) return handleAudio(request, env, cfg, cors, url);
       if (request.method === 'POST' && url.pathname === '/stripe-webhook') return handleStripeWebhook(request, env, cfg, cors);

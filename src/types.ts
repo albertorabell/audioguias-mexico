@@ -14,6 +14,9 @@ export interface SiteSummary {
   /** "preview" = sitio aún sin publicar: solo aparece en el inicio con ?preview en la dirección. */
   status?: 'active' | 'coming_soon' | 'preview';
   pass_price_mxn?: number;
+  pass_price_usd?: number;
+  /** Cómo se entra: pase de pago (paid), sin pase (free) o solo con un código (code). Sin dato = pase de pago. */
+  access?: 'paid' | 'free' | 'code';
   /** Foto de portada (archivo en public/images/pieces) y la pieza a la que pertenece. */
   cover_image?: string;
   cover_piece_id?: string;
@@ -315,4 +318,6 @@ export interface SiteLicense {
   token?: string;
   /** Código corto del pase, para activarlo en un segundo dispositivo. */
   code?: string;
+  /** Sitios que abre este pase: los ids, o ["todos"]. Si falta, solo abre el suyo (`site_id`). */
+  covers?: string[];
 }

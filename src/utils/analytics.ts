@@ -18,7 +18,16 @@ export type AnalyticsEvent =
   | 'install'
   | 'offline_download';
 
+let currentSite = '';
+
+/** Sitio que se está viendo. Se agrega solo a cada evento para saber qué sitios se usan; no identifica a nadie. */
+export function setAnalyticsSite(siteId: string | null | undefined): void {
+  currentSite = siteId ? siteId.toLowerCase() : '';
+}
+
 export interface AnalyticsFields {
+  /** Sitio (si no se pone, el que se está viendo). Para el pase combinado: «todos». */
+  s?: string;
   /** Identificador de la obra */
   p?: string;
   /** Idioma */
@@ -37,7 +46,7 @@ export function track(e: AnalyticsEvent, fields: AnalyticsFields = {}): void {
       method: 'POST',
       keepalive: true,
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ e, ...fields }),
+      body: JSON.stringify({ e, ...(currentSite ? { s: currentSite } : {}), ...fields }),
     }).catch(() => undefined);
   } catch {
     /* sin red o sin fetch: no pasa nada */

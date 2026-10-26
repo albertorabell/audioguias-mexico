@@ -14,9 +14,15 @@ interface PaywallModalProps {
   siteName: string;
   siteId: string;
   /** Precios de la ficha del sitio. Se muestran solo si el servidor de pagos no responde. */
-  passPriceMxn: number;
-  passPriceUsd: number;
+  passPriceMxn?: number;
+  passPriceUsd?: number;
+  /** Cómo se entra a este sitio. Sin dato = pase de pago. Si el servidor dice otra cosa, manda el servidor. */
+  access?: 'paid' | 'free' | 'code';
   hasPass: boolean;
+  /** Sitio al que pertenece el pase activo (si es otro distinto de este sitio, es un pase combinado). */
+  passSite?: string;
+  /** Nombre de cada sitio por id, para decir qué incluye un pase combinado. */
+  siteNames?: Record<string, string>;
   passExpiresAt?: number;
   /** Código del pase activo (para el segundo dispositivo). */
   passCode?: string;
@@ -42,7 +48,10 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   siteId,
   passPriceMxn,
   passPriceUsd,
+  access,
   hasPass,
+  passSite,
+  siteNames,
   passExpiresAt,
   passCode,
   onPassChanged,
@@ -53,7 +62,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const t = strings.paywall;
 
   const [pricing, setPricing] = useState<PricingInfo | null>(null);
-  const [busy, setBusy] = useState<'checkout' | 'code' | null>(null);
+  const [busy, setBusy] = useState<string | null>(null); // 'checkout', 'code' o 'combo:<id>'
   const [error, setError] = useState<PaymentErrorCode | null>(null);
   const [showCode, setShowCode] = useState(false);
   const [codeInput, setCodeInput] = useState('');
@@ -91,13 +100,13 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   useEffect(() => {
     if (!isOpen || !PAYMENTS_ENABLED || pricing) return;
     let cancelled = false;
-    fetchPricing().then((p) => {
+    fetchPricing(siteId).then((p) => {
       if (!cancelled && p) setPricing(p);
     });
     return () => {
       cancelled = true;
     };
-  }, [isOpen, pricing]);
+  }, [isOpen, pricing, siteId]);
 
   const applyPromo = async (raw: string) => {
     const code = raw.trim();
@@ -145,14 +154,14 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
   const maxDevices = pricing?.maxDevices ?? PASS_MAX_DEVICES;
 
   // Moneda: español → pesos; otros idiomas → dólares si el sitio tiene precio en dólares
-  const mxn = pricing?.prices.mxn ? money(pricing.prices.mxn.amount, pricing.prices.mxn.currency, locale) : money(passPriceMxn, 'MXN', locale);
+  const mxn = pricing?.prices.mxn ? money(pricing.prices.mxn.amount, pricing.prices.mxn.currency, locale) : passPriceMxn ? money(passPriceMxn, 'MXN', locale) : '';
   const usdValue = pricing?.prices.usd ? money(pricing.prices.usd.amount, pricing.prices.usd.currency, locale) : passPriceUsd ? money(passPriceUsd, 'USD', locale) : '';
   const primaryPrice = currentLanguage !== 'es' && pricing?.prices.usd ? usdValue : mxn;
   const priceLine = pricing ? (currentLanguage !== 'es' && pricing.prices.usd ? usdValue : mxn) : t.price(mxn, usdValue);
 
   // Precio con descuento (solo para mostrarlo; el cobro real lo calcula Stripe)
   const usingUsd = currentLanguage !== 'es' && !!pricing?.prices.usd;
-  const baseAmount = usingUsd ? pricing!.prices.usd!.amount : pricing?.prices.mxn ? pricing.prices.mxn.amount : passPriceMxn;
+  const baseAmount = usingUsd ? pricing!.prices.usd!.amount : pricing?.prices.mxn ? pricing.prices.mxn.amount : passPriceMxn || 0;
   const baseCurrency = usingUsd ? pricing!.prices.usd!.currency : pricing?.prices.mxn?.currency || 'MXN';
   const discounted = promo ? money(Math.round(baseAmount * (100 - promo.percentOff)) / 100, baseCurrency, locale) : null;
 
@@ -164,11 +173,30 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
     { icon: <Shield className={`w-4 h-4 ${accent}`} />, title: t.benefits.freeTitle, desc: t.benefits.freeDesc },
   ];
 
-  const handleCheckout = async () => {
+  // Solo con código: el sitio no se vende con pase (lo dice la ficha del sitio o, si responde, el servidor)
+  const codeOnly = pricing?.access ? pricing.access === 'codigo' : access === 'code';
+  // Pases combinados que abren este sitio, con su precio en la moneda del idioma
+  const combos = (pricing?.combos || []).flatMap((c) => {
+    const amount = currentLanguage !== 'es' && c.prices.usd ? c.prices.usd : c.prices.mxn;
+    if (!amount) return [];
+    const names = c.name as Record<string, string | undefined>;
+    return [
+      {
+        id: c.id,
+        name: names[currentLanguage] || names.es || c.id,
+        includes: c.sites === 'todos' ? t.combo.all : t.combo.includes(c.sites.map((id) => siteNames?.[id] || id).join(', ')),
+        price: money(amount.amount, amount.currency, locale),
+      },
+    ];
+  });
+
+  // `target` es el sitio que se compra, o el id de un pase combinado (esos no llevan código de descuento)
+  const handleCheckout = async (target: string = siteId) => {
+    const isCombo = target.toLowerCase() !== siteId.toLowerCase();
     setError(null);
-    setBusy('checkout');
-    track('checkout_start', { l: currentLanguage });
-    const r = await startCheckout(siteId, currentLanguage, promo?.code);
+    setBusy(isCombo ? `combo:${target}` : 'checkout');
+    track('checkout_start', { l: currentLanguage, s: target });
+    const r = await startCheckout(target, currentLanguage, isCombo ? undefined : promo?.code);
     if (r.ok) {
       // Se sale a la página segura de Stripe; al pagar, Stripe regresa a esta app
       window.location.assign(r.data.url);
@@ -248,7 +276,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
               <div className="flex items-center gap-2.5">
                 <CheckCircle className="w-5 h-5 text-jade-ink shrink-0" />
                 <div>
-                  <p className="text-ui font-bold">{t.activeTitle}</p>
+                  <p className="text-ui font-bold">{passSite && passSite.toLowerCase() !== siteId.toLowerCase() ? t.combo.active : t.activeTitle}</p>
                   {remaining && <p className="text-cap text-ink-2">{t.remaining(remaining)}</p>}
                 </div>
               </div>
@@ -284,7 +312,14 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
           </div>
         )}
 
-        {!hasPass && (
+        {!hasPass && codeOnly && (
+          <div data-testid="code-only" className="mt-4 p-5 rounded-2xl bg-bg border border-oro/40 text-center">
+            <p className="text-ui font-semibold text-oro-ink">{t.codeOnly.title}</p>
+            <p className="text-cap text-ink-2 mt-1.5">{t.codeOnly.desc}</p>
+          </div>
+        )}
+
+        {!hasPass && !codeOnly && (
           <div className="mt-4 p-5 rounded-2xl bg-bg border border-oro/40 text-center">
             <p className="text-ui font-semibold text-oro-ink">{t.offerTitle(hours)}</p>
             {promo && discounted && (
@@ -323,12 +358,12 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
         )}
 
         <div className="mt-5 space-y-3">
-          {!hasPass && PAYMENTS_ENABLED && (
+          {!hasPass && PAYMENTS_ENABLED && !codeOnly && (
             <>
               <button
                 id="btn-stripe-checkout"
                 type="button"
-                onClick={handleCheckout}
+                onClick={() => handleCheckout()}
                 disabled={busy !== null}
                 className="w-full min-h-[3.25rem] px-4 rounded-full bg-oro text-on-oro text-ui font-bold inline-flex items-center justify-center gap-2 cursor-pointer active:scale-[0.98] transition-transform disabled:opacity-60"
               >
@@ -348,7 +383,26 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
             </p>
           )}
 
-          {!hasPass && PAYMENTS_ENABLED && (
+          {!hasPass &&
+            PAYMENTS_ENABLED &&
+            combos.map((c) => (
+              <div key={c.id} data-testid="combo-offer" className="p-4 rounded-2xl border border-line text-center">
+                <p className="text-ui font-bold">{c.name}</p>
+                <p className="text-cap leading-snug mt-1 text-ink-2">{c.includes}</p>
+                <button
+                  id={`btn-stripe-checkout-combo-${c.id}`}
+                  type="button"
+                  onClick={() => handleCheckout(c.id)}
+                  disabled={busy !== null}
+                  className="mt-3 w-full min-h-12 px-4 rounded-full border border-oro text-oro-ink text-ui font-bold inline-flex items-center justify-center gap-2 cursor-pointer active:scale-[0.98] transition-transform disabled:opacity-60"
+                >
+                  <span>{busy === `combo:${c.id}` ? t.redirecting : t.combo.button(c.price)}</span>
+                  <ExternalLink className="w-4 h-4" />
+                </button>
+              </div>
+            ))}
+
+          {!hasPass && PAYMENTS_ENABLED && !codeOnly && (
             <div>
               <button
                 type="button"
@@ -398,20 +452,22 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
 
           {!hasPass && PAYMENTS_ENABLED && (
             <div>
-              <button
-                type="button"
-                id="btn-have-code"
-                onClick={() => {
-                  setShowCode((v) => !v);
-                  setError(null);
-                }}
-                aria-expanded={showCode}
-                className="w-full min-h-11 inline-flex items-center justify-center gap-2 text-ui font-semibold text-ink-2 cursor-pointer rounded-full active:bg-raised"
-              >
-                <KeyRound className="w-4 h-4" />
-                <span>{t.haveCode}</span>
-              </button>
-              {showCode && (
+              {!codeOnly && (
+                <button
+                  type="button"
+                  id="btn-have-code"
+                  onClick={() => {
+                    setShowCode((v) => !v);
+                    setError(null);
+                  }}
+                  aria-expanded={showCode}
+                  className="w-full min-h-11 inline-flex items-center justify-center gap-2 text-ui font-semibold text-ink-2 cursor-pointer rounded-full active:bg-raised"
+                >
+                  <KeyRound className="w-4 h-4" />
+                  <span>{t.haveCode}</span>
+                </button>
+              )}
+              {(showCode || codeOnly) && (
                 <form
                   className="mt-2 flex items-stretch gap-2"
                   onSubmit={(e) => {
@@ -428,7 +484,7 @@ export const PaywallModal: React.FC<PaywallModalProps> = ({
                     autoCapitalize="characters"
                     autoComplete="off"
                     spellCheck={false}
-                    maxLength={12}
+                    maxLength={24}
                     className="flex-1 min-w-0 min-h-12 px-4 rounded-full bg-bg border border-line-strong font-mono tracking-[0.12em] text-ink outline-none focus:border-jade"
                   />
                   <button

@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { X } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, PieceData, SiteLicense, Room } from './types';
-import { getSiteLicense, activatePass, revokePass, hasActivePass, isFreeAccess, setFreeAccess } from './utils/license';
+import { getSiteLicense, activatePass, revokePass, hasActivePass, isFreeAccess, setFreeAccess, setFreeSites } from './utils/license';
 import { fetchAccessMode, readPaymentReturn, redeemPendingSession, RETRYABLE_ERRORS, capturePromoFromUrl } from './utils/payments';
 import { PASS_HOURS } from './config/pass';
 import { Home } from './components/Home';
@@ -25,7 +25,7 @@ import { useBackClose } from './utils/useBackClose';
 import { useLanguage } from './utils/LanguageContext';
 import { localizeSite, localizeRoute } from './i18n/content';
 import { getRoomLabel } from './utils/roomLabel';
-import { track } from './utils/analytics';
+import { track, setAnalyticsSite } from './utils/analytics';
 import { cachedPremiumText, clearPremiumText, loadPremiumText, mergePremiumText, PremiumTextMap } from './utils/premiumText';
 
 /** Con qué se navega dentro de la ficha de una pieza (anterior / siguiente): una sala o un recorrido. */
@@ -238,6 +238,7 @@ export default function App() {
     return { ...rawManifest, routes };
   }, [rawManifest, activeRawPieces, currentLanguage]);
   const site = useMemo(() => (selectedSite ? localizeSite(selectedSite, currentLanguage) : null), [selectedSite, currentLanguage]);
+  const siteNames = useMemo(() => Object.fromEntries(sites.map((s) => [s.id.toLowerCase(), s.name])), [sites]);
 
   useEffect(() => {
     (async () => {
@@ -245,7 +246,11 @@ export default function App() {
       try {
         const res = await fetch(getAssetUrl('data/sites.json'));
         if (!res.ok) throw new Error(`Error ${res.status}`);
-        setSites(await res.json());
+        const list: SiteSummary[] = await res.json();
+        // Los sitios marcados como gratis en la hoja no piden pase
+        setFreeSites(list.filter((s) => s.access === 'free').map((s) => s.id));
+        setSites(list);
+        setLicenseVersion((v) => v + 1);
       } catch (err) {
         console.error('Error fetching sites:', err);
         setErrorMessage(t.app.sitesLoadError);
@@ -317,6 +322,9 @@ export default function App() {
   useEffect(() => {
     setCurrentLicense(selectedSite ? getSiteLicense(selectedSite.id) : null);
   }, [selectedSite, licenseVersion]);
+  useEffect(() => {
+    setAnalyticsSite(selectedSite?.id);
+  }, [selectedSite]);
   const hasPass = selectedSite ? hasActivePass(selectedSite.id) : false;
 
   // Con pase: se piden los textos de pago del idioma (primero lo guardado, para que aparezcan al instante). Sin pase: se borran.
@@ -332,7 +340,7 @@ export default function App() {
     if (!hasPass) {
       setPrivateText(null);
       setTextState('none');
-      void clearPremiumText();
+      void clearPremiumText(siteIdForText);
       return;
     }
     if (!passToken) {
@@ -342,12 +350,12 @@ export default function App() {
     let alive = true;
     setTextState('loading');
     (async () => {
-      const cached = await cachedPremiumText(currentLanguage);
+      const cached = await cachedPremiumText(currentLanguage, siteIdForText);
       if (alive && cached) {
         setPrivateText(cached);
         setTextState('ok');
       }
-      const r = await loadPremiumText(currentLanguage, passToken);
+      const r = await loadPremiumText(currentLanguage, passToken, siteIdForText);
       if (!alive) return;
       if (r.status === 'ok') {
         setPrivateText(r.map);
@@ -693,6 +701,7 @@ export default function App() {
           audioPieces={offlineAudioPieces}
           onBack={goBack}
           onOpenPaywall={openPaywall}
+          onOpenPiece={openPieceInRoom}
           onSelectRoom={openRoom}
           onStartRoute={startRoute}
           onOpenWizard={isZones ? undefined : () => push({ kind: 'wizard' })}
@@ -877,13 +886,17 @@ export default function App() {
 
           {selectedSite && manifest && (
             <PaywallModal
+              key={selectedSite.id}
               isOpen={paywallOpen}
               onClose={closePaywall}
               siteName={site?.name || selectedSite.name}
               siteId={selectedSite.id}
-              passPriceMxn={manifest.pass_price_mxn}
-              passPriceUsd={manifest.pass_price_usd}
+              passPriceMxn={selectedSite.pass_price_mxn ?? manifest.pass_price_mxn}
+              passPriceUsd={selectedSite.pass_price_usd ?? manifest.pass_price_usd}
+              access={selectedSite.access}
               hasPass={hasPass}
+              passSite={currentLicense?.site_id}
+              siteNames={siteNames}
               passExpiresAt={currentLicense?.expires_at}
               passCode={currentLicense?.code}
               onPassChanged={() => setCurrentLicense(getSiteLicense(selectedSite.id))}

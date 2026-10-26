@@ -184,6 +184,16 @@ export const PL_GROUPS: Record<string, any> = {
     copied: 'Skopiowano!',
     offerTitle: (h: number) => `Pełny dostęp na ${h} godz.`,
     priceNote: 'Jednorazowa płatność • bez subskrypcji',
+    combo: {
+      includes: (names: string) => `W cenie: ${names}.`,
+      all: 'Wszystkie miejsca w aplikacji',
+      button: (p: string) => `Kup ten karnet · ${p}`,
+      active: 'Karnet łączony aktywny',
+    },
+    codeOnly: {
+      title: 'Dostęp z kodem',
+      desc: 'To miejsce otwiera się kodem, który dostaniesz na miejscu (hotel, kasa lub partner). Wpisz go poniżej.',
+    },
     benefits: {
       accessTitle: (h: number) => `${h} godzin pełnego dostępu`,
       accessDesc: 'Zwiedzaj we własnym tempie, z wydłużonym okresem ważności.',
@@ -227,6 +237,9 @@ export const PL_GROUPS: Record<string, any> = {
       origin_not_allowed: 'Ten adres nie ma uprawnień do płatności.',
       server_error: 'Coś poszło nie tak na serwerze. Spróbuj ponownie.',
       unknown: 'Nie udało się dokończyć. Spróbuj ponownie.',
+      not_for_sale: 'To miejsce nie jest sprzedawane z karnetem. Wejdź z kodem.',
+      code_expired: 'Ten kod wygasł.',
+      code_exhausted: 'Ten kod został już wykorzystany maksymalną liczbę razy.',
     },
     notice: {
       confirming: 'Potwierdzam płatność…',
@@ -297,6 +310,9 @@ export const PL_GROUPS: Record<string, any> = {
       seeMap: 'Zobacz plan',
       yourTour: 'Twoja trasa',
       continueWhere: 'Kontynuuj, gdzie skończyłeś',
+      freeTitle: (n: number) => (n === 1 ? 'Posłuchaj jednego dzieła za darmo przed zakupem' : `Posłuchaj ${n} dzieł za darmo przed zakupem`),
+      freeSub: 'Bez rejestracji i bez karty. Jeśli spodoba Ci się, jak to brzmi, odblokuj resztę trasy.',
+      freeUnlock: 'Odblokuj wszystkie dzieła',
     },
     room: {
       start: 'Zwiedź salę',

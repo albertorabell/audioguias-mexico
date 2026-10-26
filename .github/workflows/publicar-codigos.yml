@@ -1,0 +1,24 @@
+name: Publicar códigos de acceso (botón manual)
+
+# Pestaña Actions > "Publicar códigos de acceso" > Run workflow.
+# Lee la hoja CODIGOS de CONTROL y la manda al servidor de pagos. Hazlo cada vez que agregues, cambies o apagues un código.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publicar:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Publicar
+        env:
+          PAGOS_API_URL: ${{ vars.PAGOS_API_URL }}
+          CODES_KEY: ${{ secrets.CODES_KEY }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: node scripts/publicar-codigos.mjs

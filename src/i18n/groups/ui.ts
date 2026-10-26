@@ -74,6 +74,9 @@ export const ui = defineGroup(
       seeMap: 'Ver plano',
       yourTour: 'Tu recorrido',
       continueWhere: 'Sigue donde te quedaste',
+      freeTitle: (n: number) => (n === 1 ? 'Escucha una obra gratis antes de comprar' : `Escucha ${n} obras gratis antes de comprar`),
+      freeSub: 'Sin registro y sin tarjeta. Si te gusta cómo suena, desbloquea el resto del recorrido.',
+      freeUnlock: 'Desbloquear todas las obras',
     },
     room: {
       start: 'Recorrer la sala',
@@ -242,6 +245,9 @@ export const ui = defineGroup(
       seeMap: 'See map',
       yourTour: 'Your tour',
       continueWhere: 'Pick up where you left off',
+      freeTitle: (n: number) => (n === 1 ? 'Listen to one work free before you buy' : `Listen to ${n} works free before you buy`),
+      freeSub: 'No sign-up and no card. If you like how it sounds, unlock the rest of the tour.',
+      freeUnlock: 'Unlock every work',
     },
     room: {
       start: 'Walk through the room',
@@ -412,6 +418,9 @@ export const ui = defineGroup(
       seeMap: 'Voir le plan',
       yourTour: 'Votre parcours',
       continueWhere: 'Reprenez où vous en étiez',
+      freeTitle: (n: number) => (n === 1 ? 'Écoutez une œuvre gratuitement avant d’acheter' : `Écoutez ${n} œuvres gratuitement avant d’acheter`),
+      freeSub: 'Sans inscription et sans carte. Si le rendu vous plaît, débloquez le reste du parcours.',
+      freeUnlock: 'Débloquer toutes les œuvres',
     },
     room: {
       start: 'Parcourir la salle',

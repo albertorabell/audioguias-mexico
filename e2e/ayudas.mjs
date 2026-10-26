@@ -60,6 +60,15 @@ export async function simularCobro(page, opciones = {}) {
         if (api.libre) return json(200, { free: true, prices: {}, passHours: 72, maxDevices: 2 });
         return json(200, {
           prices: { mxn: { amount: 79, currency: 'mxn' }, usd: { amount: 4.99, currency: 'usd' } },
+          ...(api.acceso ? { access: api.acceso } : {}),
+          ...(api.combo
+            ? {
+                combos: [
+                  { id: 'todos', name: { es: 'Todos los sitios' }, sites: 'todos', prices: { mxn: { amount: 199, currency: 'mxn' }, usd: { amount: 11.5, currency: 'usd' } } },
+                  { id: 'dupla', name: { es: 'MNA + Teotihuacán' }, sites: ['mna', 'teotihuacan'], prices: { mxn: { amount: 149, currency: 'mxn' } } },
+                ],
+              }
+            : {}),
           passHours: 72,
           maxDevices: 2,
         });
