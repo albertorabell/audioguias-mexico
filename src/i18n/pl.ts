@@ -184,6 +184,16 @@ export const PL_GROUPS: Record<string, any> = {
     copied: 'Skopiowano!',
     offerTitle: (h: number) => `Pełny dostęp na ${h} godz.`,
     priceNote: 'Jednorazowa płatność • bez subskrypcji',
+    combo: {
+      title: 'Wszystkie miejsca',
+      desc: (h: number) => `Jeden karnet na ${h} godz., który otwiera wszystkie miejsca w aplikacji.`,
+      button: (p: string) => `Karnet na wszystkie miejsca · ${p}`,
+      active: 'Karnet na wszystkie miejsca aktywny',
+    },
+    codeOnly: {
+      title: 'Dostęp z kodem',
+      desc: 'To miejsce otwiera się kodem, który dostaniesz na miejscu (hotel, kasa lub partner). Wpisz go poniżej.',
+    },
     benefits: {
       accessTitle: (h: number) => `${h} godzin pełnego dostępu`,
       accessDesc: 'Zwiedzaj we własnym tempie, z wydłużonym okresem ważności.',
@@ -227,6 +237,9 @@ export const PL_GROUPS: Record<string, any> = {
       origin_not_allowed: 'Ten adres nie ma uprawnień do płatności.',
       server_error: 'Coś poszło nie tak na serwerze. Spróbuj ponownie.',
       unknown: 'Nie udało się dokończyć. Spróbuj ponownie.',
+      not_for_sale: 'To miejsce nie jest sprzedawane z karnetem. Wejdź z kodem.',
+      code_expired: 'Ten kod wygasł.',
+      code_exhausted: 'Ten kod został już wykorzystany maksymalną liczbę razy.',
     },
     notice: {
       confirming: 'Potwierdzam płatność…',

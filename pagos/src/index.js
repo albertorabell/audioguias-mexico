@@ -699,18 +699,21 @@ async function handleText(request, env, cfg, cors, url) {
       scope = free;
     }
   }
+  // Quien tiene acceso a todo (combo o modo de pruebas) puede pedir solo un sitio con ?site=, para no bajar de más
+  const asked = siteKey(url.searchParams.get('site'));
+  const only = scope !== COMBO ? scope : book.table?.sites[asked] ? asked : COMBO;
   const object = await env.AUDIO.get(`texto/${m[1]}.json`);
   if (!object) return new Response('No encontrado', { status: 404, headers: cors });
   const headers = new Headers(cors);
   headers.set('Content-Type', 'application/json; charset=utf-8');
   // Solo el navegador de quien pagó lo guarda (para usarlo sin internet); ninguna red intermedia debe compartirlo
   headers.set('Cache-Control', 'private, max-age=300');
-  const etag = object.httpEtag ? (scope === COMBO ? object.httpEtag : `${object.httpEtag.replace(/"$/, '')}-${scope}"`) : '';
+  const etag = object.httpEtag ? (only === COMBO ? object.httpEtag : `${object.httpEtag.replace(/"$/, '')}-${only}"`) : '';
   if (etag) headers.set('ETag', etag);
   if (etag && request.headers.get('If-None-Match') === etag) return new Response(null, { status: 304, headers });
   if (request.method === 'HEAD') return new Response(null, { status: 200, headers });
   // Con un pase de un solo sitio, solo salen los textos de las piezas de ese sitio
-  if (scope === COMBO || !book.table) return new Response(object.body, { status: 200, headers });
+  if (only === COMBO || !book.table) return new Response(object.body, { status: 200, headers });
   let data;
   try {
     data = JSON.parse(await object.text());
@@ -718,7 +721,7 @@ async function handleText(request, env, cfg, cors, url) {
     return new Response('No encontrado', { status: 404, headers: cors });
   }
   const pieces = {};
-  for (const [id, value] of Object.entries(data?.pieces || {})) if (siteForPiece(book.table, id) === scope) pieces[id] = value;
+  for (const [id, value] of Object.entries(data?.pieces || {})) if (siteForPiece(book.table, id) === only) pieces[id] = value;
   return new Response(JSON.stringify({ ...data, pieces }), { status: 200, headers });
 }
 

@@ -259,6 +259,43 @@ test('cobro: la ventana muestra el precio real, y "Pagar" manda a Stripe con los
   expect(checkout.body.deviceId).toMatch(/^[A-Za-z0-9_-]{8,}$/);
 });
 
+test('pase combinado: se ofrece con su precio y se compra con el sitio "todos"', async ({ page }) => {
+  const api = await simularCobro(page, { combo: true });
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await page.locator('#btn-unlock-pass-nav').click();
+  await expect(page.getByTestId('combo-offer')).toContainText('199');
+  await Promise.all([page.waitForURL(/checkout\.stripe\.com/), page.locator('#btn-stripe-checkout-combo').click()]);
+  const checkout = api.calls.find((c) => c.path === '/checkout');
+  expect(checkout.body.siteId).toBe('todos');
+  expect(checkout.body.promo).toBeUndefined();
+  // El servidor recibió el precio del sitio pidiendo la configuración de ese sitio
+  expect(api.calls.some((c) => c.path === '/config' && c.search.includes('site=mna'))).toBe(true);
+});
+
+test('sin pase combinado en el servidor, no aparece la oferta', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await page.locator('#btn-unlock-pass-nav').click();
+  await expect(page.getByTestId('pass-price')).toContainText('79');
+  await expect(page.getByTestId('combo-offer')).toHaveCount(0);
+});
+
+test('sitio solo por código: no se ofrece pagar, se muestra el campo del código y se activa', async ({ page }) => {
+  const api = await simularCobro(page, { acceso: 'codigo' });
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await page.locator('#btn-unlock-pass-nav').click();
+  await expect(page.getByTestId('code-only')).toBeVisible();
+  await expect(page.locator('#btn-stripe-checkout')).toHaveCount(0);
+  await expect(page.getByTestId('pass-price')).toHaveCount(0);
+  await page.locator('#input-pass-code').fill('hotel-mx1');
+  await page.locator('#btn-redeem-code').click();
+  await expect(page.getByTestId('pass-active')).toBeVisible();
+  expect(api.calls.find((c) => c.path === '/code').body.code).toBe('HOTEL-MX1');
+});
+
 test('código de descuento: un QR con ?c= lo deja puesto, muestra el precio rebajado y se manda a Stripe', async ({ page }) => {
   const api = await simularCobro(page);
   await page.goto('/?c=hotel10');

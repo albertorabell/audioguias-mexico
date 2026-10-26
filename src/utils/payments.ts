@@ -14,6 +14,9 @@ export type PaymentErrorCode =
   | 'code_not_found'
   | 'promo_invalid'
   | 'promo_not_for_site'
+  | 'not_for_sale'
+  | 'code_expired'
+  | 'code_exhausted'
   | 'bad_request'
   | 'bad_session'
   | 'bad_return_url'
@@ -27,7 +30,7 @@ export type PaymentErrorCode =
 export type PaymentResult<T> = { ok: boolean; data?: T; error?: PaymentErrorCode };
 
 const KNOWN: PaymentErrorCode[] = [
-  'not_paid', 'session_not_found', 'device_limit', 'expired', 'code_not_found', 'promo_invalid', 'promo_not_for_site', 'bad_request', 'bad_session',
+  'not_paid', 'session_not_found', 'device_limit', 'expired', 'code_not_found', 'promo_invalid', 'promo_not_for_site', 'not_for_sale', 'code_expired', 'code_exhausted', 'bad_request', 'bad_session',
   'bad_return_url', 'not_configured', 'stripe_error', 'origin_not_allowed', 'server_error',
 ];
 
@@ -49,15 +52,24 @@ async function call(path: string, init?: RequestInit): Promise<PaymentResult<any
 
 const post = (path: string, body: unknown) => call(path, { method: 'POST', body: JSON.stringify(body) });
 
+export interface PriceSet {
+  mxn?: { amount: number; currency: string };
+  usd?: { amount: number; currency: string };
+}
+
 export interface PricingInfo {
-  prices: { mxn?: { amount: number; currency: string }; usd?: { amount: number; currency: string } };
+  prices: PriceSet;
+  /** Cómo se entra a este sitio: pase de pago o solo con un código. */
+  access?: 'pago' | 'codigo' | 'gratis';
+  /** Pase combinado de todos los sitios, si existe. */
+  combo?: { name?: string; prices: PriceSet };
   passHours: number;
   maxDevices: number;
 }
 
-/** Precios reales (los lee el servidor de Stripe). null si no hay servidor o no responde: se usan los de la ficha del sitio. */
-export async function fetchPricing(): Promise<PricingInfo | null> {
-  const r = await call('/config');
+/** Precios reales de ese sitio (los da el servidor de pagos). null si no hay servidor o no responde: se usan los de la ficha del sitio. */
+export async function fetchPricing(siteId: string): Promise<PricingInfo | null> {
+  const r = await call(`/config?site=${encodeURIComponent(siteId.toLowerCase())}`);
   // Sin precio en pesos no hay nada confiable que mostrar: la ventana usa los precios de la ficha del sitio
   return r.ok && !r.data?.free && r.data?.prices?.mxn ? (r.data as PricingInfo) : null;
 }

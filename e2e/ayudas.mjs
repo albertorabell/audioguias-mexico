@@ -60,6 +60,8 @@ export async function simularCobro(page, opciones = {}) {
         if (api.libre) return json(200, { free: true, prices: {}, passHours: 72, maxDevices: 2 });
         return json(200, {
           prices: { mxn: { amount: 79, currency: 'mxn' }, usd: { amount: 4.99, currency: 'usd' } },
+          ...(api.acceso ? { access: api.acceso } : {}),
+          ...(api.combo ? { combo: { name: 'Todos los sitios', prices: { mxn: { amount: 199, currency: 'mxn' }, usd: { amount: 11.5, currency: 'usd' } } } } : {}),
           passHours: 72,
           maxDevices: 2,
         });

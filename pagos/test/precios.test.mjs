@@ -255,6 +255,12 @@ test('los textos de pago salen solo del sitio del pase', async () => {
   assert.deepEqual(Object.keys(d.pieces), ['mna_p1']);
   d = await (await get(`t=${encodeURIComponent(await token('todos'))}`)).json();
   assert.deepEqual(Object.keys(d.pieces).sort(), ['mna_p1', 'mue_p1', 'teo_p1', 'tmc_p1'].sort());
+  // El combo puede pedir solo un sitio
+  d = await (await get(`t=${encodeURIComponent(await token('todos'))}&site=teotihuacan`)).json();
+  assert.deepEqual(Object.keys(d.pieces), ['teo_p1']);
+  // Con pase de un sitio, pedir otro no amplía el alcance
+  d = await (await get(`t=${encodeURIComponent(await token('mna'))}&site=teotihuacan`)).json();
+  assert.deepEqual(Object.keys(d.pieces), ['mna_p1']);
   // Sitio gratis: sin clave, solo sus textos
   d = await (await get('site=muestra')).json();
   assert.deepEqual(Object.keys(d.pieces), ['mue_p1']);

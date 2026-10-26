@@ -55,17 +55,36 @@ function clearPass(siteId: string): void {
   }
 }
 
-/** El pase guardado en este dispositivo para ese sitio, si sigue vigente. */
+/** Sitio ficticio del pase combinado: lo compra una vez y abre todos los sitios. */
+export const COMBO_SITE = 'todos';
+
+let freeSites = new Set<string>();
+
+/** Sitios que no piden pase (columna `acceso` = gratis en la hoja CONTROL). La app los recibe en sites.json. */
+export function setFreeSites(ids: string[]): void {
+  freeSites = new Set(ids.map((id) => id.toLowerCase()));
+}
+
+export const isFreeSite = (siteId: string): boolean => freeSites.has(siteId.toLowerCase());
+
+/** El pase guardado con esa clave, si sigue vigente (si venció, se borra). */
+function readStored(siteId: string): SiteLicense | null {
+  const raw = localStorage.getItem(keyFor(siteId));
+  if (!raw) return null;
+  const license: SiteLicense = JSON.parse(raw);
+  if (license.expires_at && license.expires_at > Date.now()) return license;
+  clearPass(siteId); // venció
+  return null;
+}
+
+/** El pase guardado en este dispositivo para ese sitio (el suyo o el combinado de todos los sitios), si sigue vigente. */
 export function getSiteLicense(siteId: string): SiteLicense | null {
-  if (isFreeAccess()) return { site_id: siteId.toLowerCase(), expires_at: FAR_FUTURE, device_id: getOrCreateDeviceId(), token: FREE_TOKEN };
+  if (isFreeAccess() || isFreeSite(siteId)) return { site_id: siteId.toLowerCase(), expires_at: FAR_FUTURE, device_id: getOrCreateDeviceId(), token: FREE_TOKEN };
   try {
-    const raw = localStorage.getItem(keyFor(siteId));
-    if (raw) {
-      const license: SiteLicense = JSON.parse(raw);
-      if (license.expires_at && license.expires_at > Date.now()) return license;
-      clearPass(siteId); // venció
-      return null;
-    }
+    const own = readStored(siteId);
+    if (own) return own;
+    const combo = readStored(COMBO_SITE);
+    if (combo) return combo;
 
     // Pases guardados por versiones anteriores de la app (solo MNA, sin clave)
     if (siteId.toLowerCase() === 'mna') {
@@ -120,7 +139,14 @@ export function activatePass(siteId: string, hours = PASS_HOURS, grant: PassGran
 
 export function revokePass(siteId: string): void {
   setFreeAccess(false); // si el servidor ya no regala el acceso, se vuelve a pedir pase
-  clearPass(siteId);
+  // Si el sitio no tiene pase propio, la clave que el servidor rechazó es la del pase combinado
+  let tienePropio = false;
+  try {
+    tienePropio = localStorage.getItem(keyFor(siteId)) !== null;
+  } catch {
+    /* sin almacenamiento */
+  }
+  clearPass(tienePropio ? siteId : COMBO_SITE);
 }
 
 /** Tiempo que le queda al pase, como "3h 20m" o "12m". Vacío si ya venció. (Sin palabras: sirve en cualquier idioma.) */

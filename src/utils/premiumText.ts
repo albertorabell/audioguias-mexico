@@ -11,21 +11,25 @@ export type PremiumTextResult =
   | { status: 'denied' } // el servidor dice que esa clave ya no vale (venció o se canceló)
   | { status: 'error' }; // sin internet y sin copia guardada, o el servidor falló
 
-const CACHE_NAME = 'audioguias-texto-v1';
-const cacheRequest = (lang: string) => new Request(`${location.origin}/__texto/${lang}.json`);
+const CACHE_NAME = 'audioguias-texto-v2';
+const OLD_CACHE_NAME = 'audioguias-texto-v1'; // guardaba una sola copia para todos los sitios
+// Una copia por idioma y por sitio: así los textos de un sitio ya visitado siguen disponibles sin internet
+const cacheRequest = (lang: string, siteId: string) => new Request(`${location.origin}/__texto/${lang}/${siteId.toLowerCase()}.json`);
 
 async function openCache(): Promise<Cache | null> {
   try {
-    return typeof caches !== 'undefined' ? await caches.open(CACHE_NAME) : null;
+    if (typeof caches === 'undefined') return null;
+    void caches.delete(OLD_CACHE_NAME);
+    return await caches.open(CACHE_NAME);
   } catch {
     return null;
   }
 }
 
-async function readCache(lang: string): Promise<PremiumTextMap | null> {
+async function readCache(lang: string, siteId: string): Promise<PremiumTextMap | null> {
   try {
     const cache = await openCache();
-    const hit = cache ? await cache.match(cacheRequest(lang)) : null;
+    const hit = cache ? await cache.match(cacheRequest(lang, siteId)) : null;
     if (!hit) return null;
     const data = await hit.json();
     return data?.pieces || null;
@@ -34,23 +38,31 @@ async function readCache(lang: string): Promise<PremiumTextMap | null> {
   }
 }
 
-/** Borra los textos guardados (el pase venció o se canceló). */
-export async function clearPremiumText(): Promise<void> {
+/** Borra los textos guardados de un sitio (el pase venció o se canceló). Sin sitio, borra los de todos. */
+export async function clearPremiumText(siteId?: string): Promise<void> {
   try {
-    if (typeof caches !== 'undefined') await caches.delete(CACHE_NAME);
+    if (typeof caches === 'undefined') return;
+    if (!siteId) {
+      await caches.delete(CACHE_NAME);
+      return;
+    }
+    const cache = await caches.open(CACHE_NAME);
+    const suffix = `/${siteId.toLowerCase()}.json`;
+    for (const req of await cache.keys()) if (new URL(req.url).pathname.endsWith(suffix)) await cache.delete(req);
   } catch {
     /* nada que borrar */
   }
 }
 
 /** Solo lo que ya está guardado en el teléfono (para mostrar algo al instante mientras llega lo nuevo). */
-export async function cachedPremiumText(lang: string): Promise<PremiumTextMap | null> {
-  return (await readCache(lang)) ?? (lang !== 'es' ? await readCache('es') : null);
+export async function cachedPremiumText(lang: string, siteId: string): Promise<PremiumTextMap | null> {
+  return (await readCache(lang, siteId)) ?? (lang !== 'es' ? await readCache('es', siteId) : null);
 }
 
-async function fetchOne(lang: string, token: string): Promise<{ kind: 'ok'; map: PremiumTextMap } | { kind: 'missing' } | { kind: 'denied' } | { kind: 'error' }> {
+async function fetchOne(lang: string, token: string, siteId: string): Promise<{ kind: 'ok'; map: PremiumTextMap } | { kind: 'missing' } | { kind: 'denied' } | { kind: 'error' }> {
   try {
-    const res = await fetch(`${PAYMENTS_API_URL}/texto/${lang}.json?t=${encodeURIComponent(token)}`);
+    // `site` sirve para dos cosas: pedir solo los textos de este sitio y, si es gratis, entrar sin clave
+    const res = await fetch(`${PAYMENTS_API_URL}/texto/${lang}.json?t=${encodeURIComponent(token)}&site=${encodeURIComponent(siteId.toLowerCase())}`);
     if (res.status === 401) return { kind: 'denied' };
     if (res.status === 404) return { kind: 'missing' };
     if (!res.ok) return { kind: 'error' };
@@ -60,7 +72,7 @@ async function fetchOne(lang: string, token: string): Promise<{ kind: 'ok'; map:
     const cache = await openCache();
     if (cache) {
       try {
-        await cache.put(cacheRequest(lang), new Response(raw, { headers: { 'Content-Type': 'application/json' } }));
+        await cache.put(cacheRequest(lang, siteId), new Response(raw, { headers: { 'Content-Type': 'application/json' } }));
       } catch {
         /* sin espacio: se usa sin guardar */
       }
@@ -75,19 +87,19 @@ async function fetchOne(lang: string, token: string): Promise<{ kind: 'ok'; map:
  * Pide al servidor los textos del idioma (si ese idioma no tiene archivo, los de español).
  * Sin internet usa la copia guardada.
  */
-export async function loadPremiumText(lang: string, token: string): Promise<PremiumTextResult> {
+export async function loadPremiumText(lang: string, token: string, siteId: string): Promise<PremiumTextResult> {
   if (!PAYMENTS_API_URL || !token) return { status: 'error' };
   for (const l of lang === 'es' ? ['es'] : [lang, 'es']) {
-    const r = await fetchOne(l, token);
+    const r = await fetchOne(l, token, siteId);
     if (r.kind === 'ok') return { status: 'ok', map: r.map, lang: l, fromCache: false };
     if (r.kind === 'denied') {
-      await clearPremiumText();
+      await clearPremiumText(siteId);
       return { status: 'denied' };
     }
     if (r.kind === 'error') {
       // Sin internet o el servidor falló: se usa lo guardado en el teléfono
       for (const c of l === 'es' ? ['es'] : [l, 'es']) {
-        const cached = await readCache(c);
+        const cached = await readCache(c, siteId);
         if (cached) return { status: 'ok', map: cached, lang: c, fromCache: true };
       }
       return { status: 'error' };

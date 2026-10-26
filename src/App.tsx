@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { X } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, PieceData, SiteLicense, Room } from './types';
-import { getSiteLicense, activatePass, revokePass, hasActivePass, isFreeAccess, setFreeAccess } from './utils/license';
+import { getSiteLicense, activatePass, revokePass, hasActivePass, isFreeAccess, setFreeAccess, setFreeSites } from './utils/license';
 import { fetchAccessMode, readPaymentReturn, redeemPendingSession, RETRYABLE_ERRORS, capturePromoFromUrl } from './utils/payments';
 import { PASS_HOURS } from './config/pass';
 import { Home } from './components/Home';
@@ -245,7 +245,11 @@ export default function App() {
       try {
         const res = await fetch(getAssetUrl('data/sites.json'));
         if (!res.ok) throw new Error(`Error ${res.status}`);
-        setSites(await res.json());
+        const list: SiteSummary[] = await res.json();
+        // Los sitios marcados como gratis en la hoja no piden pase
+        setFreeSites(list.filter((s) => s.access === 'free').map((s) => s.id));
+        setSites(list);
+        setLicenseVersion((v) => v + 1);
       } catch (err) {
         console.error('Error fetching sites:', err);
         setErrorMessage(t.app.sitesLoadError);
@@ -332,7 +336,7 @@ export default function App() {
     if (!hasPass) {
       setPrivateText(null);
       setTextState('none');
-      void clearPremiumText();
+      void clearPremiumText(siteIdForText);
       return;
     }
     if (!passToken) {
@@ -342,12 +346,12 @@ export default function App() {
     let alive = true;
     setTextState('loading');
     (async () => {
-      const cached = await cachedPremiumText(currentLanguage);
+      const cached = await cachedPremiumText(currentLanguage, siteIdForText);
       if (alive && cached) {
         setPrivateText(cached);
         setTextState('ok');
       }
-      const r = await loadPremiumText(currentLanguage, passToken);
+      const r = await loadPremiumText(currentLanguage, passToken, siteIdForText);
       if (!alive) return;
       if (r.status === 'ok') {
         setPrivateText(r.map);
@@ -877,13 +881,16 @@ export default function App() {
 
           {selectedSite && manifest && (
             <PaywallModal
+              key={selectedSite.id}
               isOpen={paywallOpen}
               onClose={closePaywall}
               siteName={site?.name || selectedSite.name}
               siteId={selectedSite.id}
-              passPriceMxn={manifest.pass_price_mxn}
-              passPriceUsd={manifest.pass_price_usd}
+              passPriceMxn={selectedSite.pass_price_mxn ?? manifest.pass_price_mxn}
+              passPriceUsd={selectedSite.pass_price_usd ?? manifest.pass_price_usd}
+              access={selectedSite.access}
               hasPass={hasPass}
+              passSite={currentLicense?.site_id}
               passExpiresAt={currentLicense?.expires_at}
               passCode={currentLicense?.code}
               onPassChanged={() => setCurrentLicense(getSiteLicense(selectedSite.id))}
