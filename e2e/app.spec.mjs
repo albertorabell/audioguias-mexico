@@ -541,7 +541,7 @@ test('textos de pago: con pase se piden al servidor con la clave y aparece la ex
   await page.locator('#btn-mode-full').click();
   await expect(page.getByText(FRASE_SECRETA, { exact: false })).toBeVisible();
   const pedido = api.calls.find((c) => c.path === '/texto/es.json');
-  expect(pedido.search).toBe(`?t=${TOKEN}`);
+  expect(pedido.search).toBe(`?t=${TOKEN}&site=mna`);
 });
 
 test('textos de pago: si el servidor ya no reconoce la clave (reembolso), el pase se quita y vuelve el candado', async ({ page }) => {
