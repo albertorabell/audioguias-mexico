@@ -6,7 +6,10 @@ compatibility_date = "2025-01-01"
 [vars]
 # Direcciones desde las que se permite usar el servidor (la de tu sitio en GitHub Pages)
 ALLOWED_ORIGINS = "https://albertorabell.github.io,https://xolotli.com"
-SITE_IDS = "mna,teotihuacan,chapultepec,centro_historico"
+# Respaldo: solo se usa si no se puede leer la tabla de precios (PRECIOS_URL)
+SITE_IDS = "mna,teotihuacan,chapultepec,centro_historico,chichen_itza,templo_mayor_catedral"
+# Tabla de precios y acceso por sitio (la genera la sincronización desde la hoja CONTROL). Si no se puede leer, se usa el precio general de Stripe.
+PRECIOS_URL = "https://xolotli.com/data/precios.json"
 PASS_HOURS = "72"
 MAX_DEVICES = "2"
 # MODO DE PRUEBAS: "1" = todos entran gratis (no se pide pase). Para volver a cobrar, cambia a "0" y vuelve a publicar el servidor.
@@ -28,3 +31,4 @@ bucket_name = "audioguias-audio"
 # Los secretos NO se escriben aquí. Se guardan con:
 #   npx wrangler secret put STRIPE_SECRET_KEY
 #   npx wrangler secret put TOKEN_SECRET
+#   npx wrangler secret put CODES_KEY      (opcional: clave con la que GitHub publica los códigos de acceso de la hoja CODIGOS)
