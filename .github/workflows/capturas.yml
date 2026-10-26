@@ -47,7 +47,7 @@ jobs:
           for i in $(seq 1 30); do curl -sf http://localhost:4173/ >/dev/null && break; sleep 1; done
           node scripts/ci-run.mjs capturas -- node scripts/capturas.mjs capturas-salida http://localhost:4173
       - name: Guardar como archivo descargable
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: capturas-de-la-app
           path: capturas-salida
