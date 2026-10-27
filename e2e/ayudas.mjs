@@ -6,14 +6,23 @@ import { expect } from '@playwright/test';
 
 export const FREE = { id: 'mna_s06_piedra_sol', title: 'Piedra del Sol' };
 export const PREMIUM = { id: 'mna_s06_coatlicue', title: 'Coatlicue' };
-// Piezas completas guardadas en el repositorio (para armar, en las pruebas, lo público y lo de pago por separado)
-const COMPLETAS = JSON.parse(fs.readFileSync(new URL('../public/data/pieces.json', import.meta.url), 'utf-8'));
+// Los textos reales de pago NO están en el repositorio (es público). Las pruebas usan textos inventados sobre las piezas reales.
+export const FRASE_SECRETA = 'frase secreta que solo ven quienes pagan';
+export function conTextoDePrueba(p) {
+  const largo = `Texto largo de prueba de ${p.titulo}. Aquí va el desarrollo completo de la pieza, con varias frases para poder leerlo. ${
+    p.piece_id === 'mna_s06_piedra_sol' ? FRASE_SECRETA + '. ' : ''
+  }Fin del texto largo.`;
+  return {
+    ...p,
+    guion_corto: `Texto corto de prueba de ${p.titulo}. Es una introducción breve para escuchar en un minuto.`,
+    guion_largo: largo,
+    retos_observacion: [`Primer reto de prueba de ${p.titulo}`, 'Segundo reto de prueba', 'Tercer reto de prueba'],
+    especificaciones: { Cultura: 'Mexica', Periodo: 'Periodo de prueba', Material: 'Material de prueba' },
+    faq_mito: { pregunta: `Mito: pregunta de prueba de ${p.titulo}.`, respuesta: 'Realidad: respuesta de prueba.' },
+  };
+}
+const COMPLETAS = JSON.parse(fs.readFileSync(new URL('../public/data/pieces.json', import.meta.url), 'utf-8')).map(conTextoDePrueba);
 export const TEXTOS = buildBundles(COMPLETAS, ['es', 'en']);
-export const FRASE_SECRETA = (() => {
-  const t = COMPLETAS.find((p) => p.piece_id === 'mna_s06_piedra_sol')?.guion_largo ?? '';
-  const mid = Math.floor(t.length / 2);
-  return t.slice(mid, mid + 50);
-})();
 export const SESSION = 'cs_test_a1b2c3d4e5f6g7h8i9';
 export const TOKEN = 'tok_PRUEBA.firma';
 
@@ -117,7 +126,7 @@ export async function simularAudio(page, { privado = false, mp3 = true } = {}) {
   });
   await page.route(/\/data\/(mna\/)?pieces\.json$/, async (route) => {
     const response = await route.fetch();
-    let pieces = await response.json();
+    let pieces = (await response.json()).map(conTextoDePrueba);
     // privado = como en el sitio real: los datos públicos NO traen guiones, retos, mito ni ficha
     if (privado) pieces = pieces.map((p) => splitPiece(p).pub);
     for (const p of mp3 ? pieces : []) {
