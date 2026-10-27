@@ -48,7 +48,8 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       - name: Marcar las pruebas como «no indexar» (Google no debe guardar las direcciones de prueba)
         if: ${{ github.ref_name != 'main' }}
-        run: printf '\n/*\n  X-Robots-Tag: noindex, nofollow\n' >> dist/_headers
+        run: |
+          printf '\n/*\n  X-Robots-Tag: noindex, nofollow\n' >> dist/_headers
       - name: Subir la app a Cloudflare Pages
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN_DNS }}
