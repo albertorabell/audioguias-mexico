@@ -9,11 +9,13 @@ export const PREMIUM = { id: 'mna_s06_coatlicue', title: 'Coatlicue' };
 // Los textos reales de pago NO están en el repositorio (es público). Las pruebas usan textos inventados sobre las piezas reales.
 export const FRASE_SECRETA = 'frase secreta que solo ven quienes pagan';
 export function conTextoDePrueba(p) {
+  // Lo que agrega splitPiece a los datos públicos (adelanto, índice...) se quita: aquí se arma la pieza completa, como antes de separar el texto de pago
+  const base = Object.fromEntries(Object.entries(p).filter(([k]) => !/^(avance(_[a-z]{2})?|indice|idiomas_texto|cultura)$/.test(k)));
   const largo = `Texto largo de prueba de ${p.titulo}. Aquí va el desarrollo completo de la pieza, con varias frases para poder leerlo. ${
     p.piece_id === 'mna_s06_piedra_sol' ? FRASE_SECRETA + '. ' : ''
   }Fin del texto largo.`;
   return {
-    ...p,
+    ...base,
     guion_corto: `Texto corto de prueba de ${p.titulo}. Es una introducción breve para escuchar en un minuto.`,
     guion_largo: largo,
     retos_observacion: [`Primer reto de prueba de ${p.titulo}`, 'Segundo reto de prueba', 'Tercer reto de prueba'],
