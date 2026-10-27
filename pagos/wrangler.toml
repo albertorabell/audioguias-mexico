@@ -4,8 +4,8 @@ main = "src/index.js"
 compatibility_date = "2025-01-01"
 
 [vars]
-# Direcciones desde las que se permite usar el servidor (la de tu sitio en GitHub Pages)
-ALLOWED_ORIGINS = "https://albertorabell.github.io,https://xolotli.com"
+# Direcciones desde las que se permite usar el servidor. Para probar pagos desde una dirección de prueba (https://<rama>.audioguias.pages.dev), agrégala aquí por separado.
+ALLOWED_ORIGINS = "https://xolotli.com"
 # Respaldo: solo se usa si no se puede leer la tabla de precios (PRECIOS_URL)
 SITE_IDS = "mna,teotihuacan,chapultepec,centro_historico,chichen_itza,templo_mayor_catedral"
 # Tabla de precios y acceso por sitio (la genera la sincronización desde la hoja CONTROL). Si no se puede leer, se usa el precio general de Stripe.
