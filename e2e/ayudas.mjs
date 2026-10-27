@@ -118,6 +118,7 @@ export async function simularCobro(page, opciones = {}) {
  * y registra cada archivo que la app intenta reproducir en window.__plays.
  */
 export async function simularAudio(page, { privado = false, mp3 = true } = {}) {
+  page.__piezasSimuladas = true;
   await page.addInitScript(() => {
     window.__plays = [];
     const original = HTMLMediaElement.prototype.play;
@@ -149,6 +150,8 @@ export async function sinVoces(page) {
     if (window.speechSynthesis) window.speechSynthesis.getVoices = () => [];
   });
   // Los datos públicos ya no traen el texto de pago: se le agrega el de prueba para que haya algo que leer en voz alta
+  // (si la prueba ya llamó a simularAudio, esa ruta se encarga de eso y no se registra otra encima)
+  if (page.__piezasSimuladas) return;
   await page.route(/\/data\/(mna\/)?pieces\.json$/, async (route) => {
     const response = await route.fetch();
     await route.fulfill({ response, json: (await response.json()).map(conTextoDePrueba) });
