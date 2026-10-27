@@ -101,8 +101,8 @@ const TEO_ROUTES = [
 /** Cómo se llama cada zona de Teotihuacán en el selector (si el Sheets no trae la columna `etiqueta`). */
 const TEO_ZONE_LABEL = { es: 'Zona', en: 'Zone', fr: 'Zone', pl: 'Strefa' };
 
-// Si el Sheets trae menos piezas que esto, se considera una lectura incompleta y se aborta.
-const MIN_PIEZAS = 20;
+// Si un sitio trae menos piezas que esto, se considera una lectura incompleta y se aborta (los sitios chicos, como la Casa Azul con 18, deben pasar).
+const MIN_PIEZAS = 10;
 
 /** false = todo el audio requiere pase, aunque el Sheets marque piezas como gratis. Para volver a regalar piezas: true. */
 const PIEZAS_GRATIS = process.env.SYNC_PIEZAS_GRATIS === 'true';
