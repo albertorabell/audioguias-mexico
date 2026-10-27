@@ -146,6 +146,11 @@ export async function sinVoces(page) {
   await page.addInitScript(() => {
     if (window.speechSynthesis) window.speechSynthesis.getVoices = () => [];
   });
+  // Los datos públicos ya no traen el texto de pago: se le agrega el de prueba para que haya algo que leer en voz alta
+  await page.route(/\/data\/(mna\/)?pieces\.json$/, async (route) => {
+    const response = await route.fetch();
+    await route.fulfill({ response, json: (await response.json()).map(conTextoDePrueba) });
+  });
 }
 
 export async function elegirIdioma(page, nombre) {
