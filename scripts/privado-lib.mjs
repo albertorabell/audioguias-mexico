@@ -121,5 +121,10 @@ export function readFullPieces(root) {
   const full = path.join(root, PRIVATE_DIR, FULL_FILE);
   const file = fs.existsSync(full) ? full : path.join(root, 'public/data/pieces.json');
   if (!fs.existsSync(file)) throw new Error('No existen los datos de piezas. Corre antes: npm run sync-data');
-  return JSON.parse(fs.readFileSync(file, 'utf-8'));
+  const pieces = JSON.parse(fs.readFileSync(file, 'utf-8'));
+  // Los datos públicos ya no traen el texto de pago: sin datos-privados/ no hay nada que leer, traducir ni convertir en audio
+  if (file !== full && pieces.length && !pieces.some((p) => nonEmpty(p.guion_corto))) {
+    throw new Error('Faltan los textos completos (datos-privados/). Corre antes: npm run sync-data');
+  }
+  return pieces;
 }
