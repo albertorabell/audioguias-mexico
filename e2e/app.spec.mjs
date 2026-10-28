@@ -144,11 +144,11 @@ test('guía de la obra: la primera vez señala escuchar, versión corta/completa
 test('idioma: pasa a inglés, se queda al recargar y vuelve a español', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByText('Tu curador personal de bolsillo')).toBeVisible();
-  await expect(page.locator('#btn-language-selector')).toHaveText(/^\s*es\s*$/i);
+  await expect(page.locator('#btn-language-selector')).toHaveText(/\bes\s*$/i);
 
   await elegirIdioma(page, 'English');
   await expect(page.getByText('Your personal pocket curator')).toBeVisible();
-  await expect(page.locator('#btn-language-selector')).toHaveText(/^\s*en\s*$/i);
+  await expect(page.locator('#btn-language-selector')).toHaveText(/\ben\s*$/i);
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');
   // El nombre del museo también cambia de idioma
   await expect(page.getByText('National Museum of Anthropology').first()).toBeVisible();
@@ -165,7 +165,7 @@ test('idioma: pasa a francés (interfaz completa en francés), se queda al recar
   await page.goto('/');
   await elegirIdioma(page, 'Français');
   await expect(page.getByText('Votre conservateur personnel de poche')).toBeVisible();
-  await expect(page.locator('#btn-language-selector')).toHaveText(/^\s*fr\s*$/i);
+  await expect(page.locator('#btn-language-selector')).toHaveText(/\bfr\s*$/i);
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
   await page.reload();
   await expect(page.getByText('Votre conservateur personnel de poche')).toBeVisible();

@@ -26,6 +26,7 @@ export const LanguageMenu: React.FC = () => {
   }, [open]);
 
   if (availableLanguages.length <= 1) return null;
+  const currentFlag = availableLanguages.find((l) => l.code === currentLanguage)?.flag;
 
   return (
     <div className="relative" ref={ref}>
@@ -38,6 +39,7 @@ export const LanguageMenu: React.FC = () => {
         className="h-11 px-3 rounded-full inline-flex items-center gap-1.5 text-ink cursor-pointer active:bg-raised"
       >
         <Globe className="w-5 h-5 text-ink-2" strokeWidth={1.8} />
+        {currentFlag && <span aria-hidden="true" className="text-lg leading-none">{currentFlag}</span>}
         <span className="text-ui font-bold uppercase">{currentLanguage}</span>
       </button>
       {open && (
@@ -59,7 +61,10 @@ export const LanguageMenu: React.FC = () => {
                   active ? 'bg-raised text-ink font-bold' : 'text-ink-2 active:bg-raised'
                 }`}
               >
-                <span>{lang.label}</span>
+                <span className="flex items-center gap-2.5">
+                  <span aria-hidden="true" className="text-xl leading-none">{lang.flag}</span>
+                  <span>{lang.label}</span>
+                </span>
                 {active && <Check className="w-4 h-4 text-jade-ink" strokeWidth={2.5} />}
               </button>
             );
