@@ -286,6 +286,22 @@ test('inicio del sitio: el botón del bloque gratis abre la ventana del pase, y 
   await expect(page.locator('#free-pieces')).toHaveCount(0);
 });
 
+test('inicio del sitio: explica qué incluye el pase y cómo se compra, abre la ventana del pase, y con pase ya no aparece', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  const bloque = page.locator('#pass-info');
+  await expect(bloque).toContainText('Qué incluye el pase');
+  await expect(bloque).toContainText('con audio y texto');
+  await expect(bloque).toContainText('Cómo se compra');
+  await bloque.locator('#btn-pass-unlock').click();
+  await expect(page.locator('#modal-paywall')).toBeVisible();
+  await page.goto(`/?pago=ok&session_id=${SESSION}`);
+  await expect(page.getByTestId('payment-notice')).toContainText('Pago confirmado');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await expect(page.locator('#pass-info')).toHaveCount(0);
+});
+
 test('pase combinado: se ofrece con su precio y se compra con el sitio "todos"', async ({ page }) => {
   const api = await simularCobro(page, { combo: true });
   await page.goto('/');

@@ -9,17 +9,24 @@ import {
   Clock,
   Coffee,
   ExternalLink,
+  Eye,
+  Headphones,
   Info,
   Lightbulb,
   Map as MapIcon,
   MapPin,
+  Route as RouteIcon,
   ShieldCheck,
+  Smartphone,
   SlidersHorizontal,
   Sun,
   Ticket,
+  WifiOff,
 } from 'lucide-react';
 import { SiteSummary, SiteManifest, SiteRoute, Room, PieceData, BeforeVisitItem } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
+import { PASS_HOURS, PASS_MAX_DEVICES } from '../config/pass';
+import { SPEECH_LOCALE } from '../i18n/languages';
 import { getRoomShortLabel } from '../utils/roomLabel';
 import { calculateRouteTimeMinutes, formatRouteDuration, formatRouteDurationShort } from '../utils/routeOptimizer';
 import { localizeBeforeVisit } from '../i18n/content';
@@ -70,6 +77,21 @@ export const byOrder = (a: PieceData, b: PieceData) => (a.orden_sugerido || 99) 
 const minutesOf = (r: SiteRoute) => r.estimated_minutes || calculateRouteTimeMinutes(r.stops);
 /** Duración dentro de una frase, sin que se parta entre dos líneas («7 h 30 min»). */
 const inlineDuration = (m: number) => formatRouteDuration(m).replace(/ /g, '\u00a0');
+
+/** Íconos de «Qué incluye el pase», en el mismo orden que los textos (museum.passItems). */
+const PASS_ICONS: React.ElementType[] = [Headphones, Eye, RouteIcon, WifiOff, Smartphone];
+
+/** Precio en la moneda del idioma: pesos en español, dólares en los demás (si el sitio tiene precio en dólares). Vacío si no hay precio. */
+function passPrice(site: SiteSummary, lang: string, locale: string): string {
+  const usd = lang !== 'es' && site.pass_price_usd ? site.pass_price_usd : 0;
+  const amount = usd || site.pass_price_mxn || 0;
+  if (!amount) return '';
+  try {
+    return new Intl.NumberFormat(locale, { style: 'currency', currency: usd ? 'USD' : 'MXN', maximumFractionDigits: 0 }).format(amount);
+  } catch {
+    return `${amount} ${usd ? 'USD' : 'MXN'}`;
+  }
+}
 
 /** Ícono de cada tema de «Antes de ir» (columna `tema` del Sheet). */
 const TOPIC_ICONS: Record<string, React.ElementType> = {
@@ -216,6 +238,10 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
   /** Obras que se pueden escuchar sin pase: la invitación a probar antes de comprar. Solo para quien aún no tiene pase. */
   const freePieces = useMemo(() => (hasPass || !onOpenPiece ? [] : pieces.filter((p) => p.is_free).sort(byOrder).slice(0, 8)), [pieces, hasPass, onOpenPiece]);
 
+  /** Qué se compra y cómo: solo para quien aún no tiene pase y en sitios que se venden con pase (no los de código ni los gratis). */
+  const showPass = !hasPass && site.access !== 'code' && site.access !== 'free';
+  const price = passPrice(site, currentLanguage, SPEECH_LOCALE[currentLanguage]);
+
   const scrollToBefore = () => document.getElementById('before-visit')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
   return (
@@ -331,6 +357,42 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
                 <ChevronRight className="w-4 h-4" aria-hidden="true" />
               </button>
             </div>
+          </section>
+        )}
+
+        {/* Qué incluye el pase: lo que se compra, cuánto cuesta y cómo se paga */}
+        {showPass && (
+          <section id="pass-info" className="mt-12 px-5" aria-labelledby="pass-title">
+            <h2 id="pass-title" className="font-serif text-[1.625rem] leading-tight font-medium">
+              {m.passTitle}
+            </h2>
+            <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.passLead(PASS_HOURS)}</p>
+            <ul className="mt-4 border-t border-line">
+              {m.passItems(u.worksCount(pieces.length), PASS_MAX_DEVICES).map((item, i) => {
+                const Icon = PASS_ICONS[i] || Info;
+                return (
+                  <li key={i} className="flex items-start gap-3.5 py-4 border-b border-line">
+                    <Icon className="w-5 h-5 mt-0.5 text-jade-ink shrink-0" strokeWidth={1.9} aria-hidden="true" />
+                    <div className="min-w-0">
+                      <p className="text-[1.0625rem] font-bold leading-snug text-ink">{item.title}</p>
+                      <p className="mt-0.5 text-ui leading-[1.5] text-ink-2 text-pretty">{item.desc}</p>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
+            <h3 className="mt-6 text-ui font-bold text-ink-2">{m.passHowTitle}</h3>
+            <ol className="mt-2 space-y-2.5">
+              {m.passHow.map((step, i) => (
+                <li key={i} className="flex gap-3.5">
+                  <span className="font-serif text-[1.25rem] leading-none text-jade-ink w-4 shrink-0 pt-0.5">{i + 1}</span>
+                  <p className="text-ui leading-[1.5] text-ink-2 text-pretty">{step}</p>
+                </li>
+              ))}
+            </ol>
+            <button type="button" id="btn-pass-unlock" onClick={onOpenPaywall} className="btn-primary w-full mt-5">
+              {m.passCta(price)}
+            </button>
           </section>
         )}
 
