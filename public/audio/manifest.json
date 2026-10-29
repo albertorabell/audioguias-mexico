@@ -1432,6 +1432,572 @@
           "seconds": 45,
           "bytes": 270720,
           "provider": "azure"
+        },
+        "largo": {
+          "hash": "fbcbf8f409b17f49",
+          "file": "en/chi_00_vistazo_largo.mp3",
+          "remote": false,
+          "seconds": 163,
+          "bytes": 977040,
+          "provider": "azure"
+        }
+      },
+      "chi_01_muralla_acceso": {
+        "corto": {
+          "hash": "2b531b6c8e75464e",
+          "file": "en/chi_01_muralla_acceso_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 250272,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a7e5c57480930c3d",
+          "file": "en/chi_01_muralla_acceso_largo.mp3",
+          "remote": true,
+          "seconds": 149,
+          "bytes": 891936,
+          "provider": "azure"
+        }
+      },
+      "chi_02_castillo_general": {
+        "corto": {
+          "hash": "eff0b9d48fcb4bce",
+          "file": "en/chi_02_castillo_general_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 263664,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "04b0c89b2b4cc128",
+          "file": "en/chi_02_castillo_general_largo.mp3",
+          "remote": true,
+          "seconds": 167,
+          "bytes": 999216,
+          "provider": "azure"
+        }
+      },
+      "chi_03_equinoccio_acustica": {
+        "corto": {
+          "hash": "25d1ba5dfbc08df3",
+          "file": "en/chi_03_equinoccio_acustica_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 237600,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4d668c3273aab72a",
+          "file": "en/chi_03_equinoccio_acustica_largo.mp3",
+          "remote": true,
+          "seconds": 146,
+          "bytes": 878688,
+          "provider": "azure"
+        }
+      },
+      "chi_04_subestructura_castillo": {
+        "corto": {
+          "hash": "a969ab125f8b8501",
+          "file": "en/chi_04_subestructura_castillo_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 237024,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3325c7f70552945b",
+          "file": "en/chi_04_subestructura_castillo_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1061136,
+          "provider": "azure"
+        }
+      },
+      "chi_05_plataforma_venus": {
+        "corto": {
+          "hash": "1305b08be8c60c99",
+          "file": "en/chi_05_plataforma_venus_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 208080,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9be75fe1199a0b6c",
+          "file": "en/chi_05_plataforma_venus_largo.mp3",
+          "remote": true,
+          "seconds": 102,
+          "bytes": 609264,
+          "provider": "azure"
+        }
+      },
+      "chi_06_aguilas_jaguares": {
+        "corto": {
+          "hash": "b55253456eb7b682",
+          "file": "en/chi_06_aguilas_jaguares_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 205344,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "36454c5486146c95",
+          "file": "en/chi_06_aguilas_jaguares_largo.mp3",
+          "remote": true,
+          "seconds": 121,
+          "bytes": 727920,
+          "provider": "azure"
+        }
+      },
+      "chi_07_tzompantli": {
+        "corto": {
+          "hash": "926349f21a510619",
+          "file": "en/chi_07_tzompantli_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 220032,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7310586aa7c19d0e",
+          "file": "en/chi_07_tzompantli_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1005120,
+          "provider": "azure"
+        }
+      },
+      "chi_08_gran_juego_pelota": {
+        "corto": {
+          "hash": "ae5c3f20e735b3ee",
+          "file": "en/chi_08_gran_juego_pelota_corto.mp3",
+          "remote": false,
+          "seconds": 35,
+          "bytes": 211824,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c994504aa147a780",
+          "file": "en/chi_08_gran_juego_pelota_largo.mp3",
+          "remote": false,
+          "seconds": 169,
+          "bytes": 1011888,
+          "provider": "azure"
+        }
+      },
+      "chi_09_banquetas_decapitacion": {
+        "corto": {
+          "hash": "a2618b343efa2726",
+          "file": "en/chi_09_banquetas_decapitacion_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 216864,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "15fcebb701ab40f9",
+          "file": "en/chi_09_banquetas_decapitacion_largo.mp3",
+          "remote": true,
+          "seconds": 134,
+          "bytes": 805824,
+          "provider": "azure"
+        }
+      },
+      "chi_10_templo_hombre_barbado": {
+        "corto": {
+          "hash": "7c475ff8079e7f07",
+          "file": "en/chi_10_templo_hombre_barbado_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 205488,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "777e1e6ed21b44db",
+          "file": "en/chi_10_templo_hombre_barbado_largo.mp3",
+          "remote": true,
+          "seconds": 104,
+          "bytes": 623088,
+          "provider": "azure"
+        }
+      },
+      "chi_12_templo_jaguares": {
+        "corto": {
+          "hash": "a8768600767bb6d5",
+          "file": "en/chi_12_templo_jaguares_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 212112,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e7eaf7abc982fbc3",
+          "file": "en/chi_12_templo_jaguares_largo.mp3",
+          "remote": true,
+          "seconds": 156,
+          "bytes": 935424,
+          "provider": "azure"
+        }
+      },
+      "chi_13_sacbe_uno": {
+        "corto": {
+          "hash": "18e2cdbbe3fe4ae3",
+          "file": "en/chi_13_sacbe_uno_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 194400,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e8c5326e9eb87b13",
+          "file": "en/chi_13_sacbe_uno_largo.mp3",
+          "remote": true,
+          "seconds": 122,
+          "bytes": 729504,
+          "provider": "azure"
+        }
+      },
+      "chi_14_cenote_sagrado": {
+        "corto": {
+          "hash": "02329e19e58fb458",
+          "file": "en/chi_14_cenote_sagrado_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 217872,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e3cc8312972779a3",
+          "file": "en/chi_14_cenote_sagrado_largo.mp3",
+          "remote": true,
+          "seconds": 176,
+          "bytes": 1055664,
+          "provider": "azure"
+        }
+      },
+      "chi_16_templo_guerreros": {
+        "corto": {
+          "hash": "dde6c39152947a70",
+          "file": "en/chi_16_templo_guerreros_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 260064,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "25297e22ae40502f",
+          "file": "en/chi_16_templo_guerreros_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1005696,
+          "provider": "azure"
+        }
+      },
+      "chi_19_grupo_mil_columnas": {
+        "corto": {
+          "hash": "6757002d8094e3fc",
+          "file": "en/chi_19_grupo_mil_columnas_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 201456,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e883c3081c368668",
+          "file": "en/chi_19_grupo_mil_columnas_largo.mp3",
+          "remote": true,
+          "seconds": 112,
+          "bytes": 671472,
+          "provider": "azure"
+        }
+      },
+      "chi_20_templo_mesas": {
+        "corto": {
+          "hash": "a17feec5113128c0",
+          "file": "en/chi_20_templo_mesas_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 187344,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bfe6d38bbb9a03f5",
+          "file": "en/chi_20_templo_mesas_largo.mp3",
+          "remote": true,
+          "seconds": 79,
+          "bytes": 475920,
+          "provider": "azure"
+        }
+      },
+      "chi_21_bano_vapor": {
+        "corto": {
+          "hash": "3ca21e392bed7803",
+          "file": "en/chi_21_bano_vapor_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 177408,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a121d33aee8dc434",
+          "file": "en/chi_21_bano_vapor_largo.mp3",
+          "remote": true,
+          "seconds": 189,
+          "bytes": 1135152,
+          "provider": "azure"
+        }
+      },
+      "chi_22_el_mercado": {
+        "corto": {
+          "hash": "aadf09f1e636bd81",
+          "file": "en/chi_22_el_mercado_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 180864,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b3a34b9d2fdd6423",
+          "file": "en/chi_22_el_mercado_largo.mp3",
+          "remote": true,
+          "seconds": 117,
+          "bytes": 699984,
+          "provider": "azure"
+        }
+      },
+      "chi_23_el_osario": {
+        "corto": {
+          "hash": "45eaf52dc7661058",
+          "file": "en/chi_23_el_osario_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 190368,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6609273125f22b22",
+          "file": "en/chi_23_el_osario_largo.mp3",
+          "remote": true,
+          "seconds": 121,
+          "bytes": 726480,
+          "provider": "azure"
+        }
+      },
+      "chi_25_casa_venado_colorada": {
+        "corto": {
+          "hash": "a6f4ac3a6334fe30",
+          "file": "en/chi_25_casa_venado_colorada_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 192240,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "26440d937ec1eb5f",
+          "file": "en/chi_25_casa_venado_colorada_largo.mp3",
+          "remote": true,
+          "seconds": 85,
+          "bytes": 509616,
+          "provider": "azure"
+        }
+      },
+      "chi_26_cenote_xtoloc": {
+        "corto": {
+          "hash": "d48e68e979408130",
+          "file": "en/chi_26_cenote_xtoloc_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 204480,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c3bec000c28078db",
+          "file": "en/chi_26_cenote_xtoloc_largo.mp3",
+          "remote": true,
+          "seconds": 116,
+          "bytes": 694224,
+          "provider": "azure"
+        }
+      },
+      "chi_27_el_caracol": {
+        "corto": {
+          "hash": "221c6892d6fd43f2",
+          "file": "en/chi_27_el_caracol_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 193248,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "55bc7300595f0a31",
+          "file": "en/chi_27_el_caracol_largo.mp3",
+          "remote": true,
+          "seconds": 119,
+          "bytes": 716256,
+          "provider": "azure"
+        }
+      },
+      "chi_29_las_monjas": {
+        "corto": {
+          "hash": "b88a6f21ff13644b",
+          "file": "en/chi_29_las_monjas_corto.mp3",
+          "remote": true,
+          "seconds": 26,
+          "bytes": 154512,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6e7ea3b2ffc48709",
+          "file": "en/chi_29_las_monjas_largo.mp3",
+          "remote": true,
+          "seconds": 139,
+          "bytes": 836928,
+          "provider": "azure"
+        }
+      },
+      "chi_30_anexo_este_monjas": {
+        "corto": {
+          "hash": "270508db737a08e5",
+          "file": "en/chi_30_anexo_este_monjas_corto.mp3",
+          "remote": true,
+          "seconds": 29,
+          "bytes": 171072,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2d0bdd04df3338aa",
+          "file": "en/chi_30_anexo_este_monjas_largo.mp3",
+          "remote": true,
+          "seconds": 102,
+          "bytes": 610416,
+          "provider": "azure"
+        }
+      },
+      "chi_31_la_iglesia": {
+        "corto": {
+          "hash": "24d046afa7b8d9c2",
+          "file": "en/chi_31_la_iglesia_corto.mp3",
+          "remote": true,
+          "seconds": 28,
+          "bytes": 165312,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b849fb30d8f665c0",
+          "file": "en/chi_31_la_iglesia_largo.mp3",
+          "remote": true,
+          "seconds": 124,
+          "bytes": 741168,
+          "provider": "azure"
+        }
+      },
+      "chi_32_akab_dzib": {
+        "corto": {
+          "hash": "2c9e5c3f8e6946a4",
+          "file": "en/chi_32_akab_dzib_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 163296,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "eca8e419c709ef9c",
+          "file": "en/chi_32_akab_dzib_largo.mp3",
+          "remote": true,
+          "seconds": 95,
+          "bytes": 567936,
+          "provider": "azure"
+        }
+      },
+      "chi_34_templo_serie_inicial": {
+        "corto": {
+          "hash": "8ef1577c60f0e8ab",
+          "file": "en/chi_34_templo_serie_inicial_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 162288,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "45bb4ac82b124212",
+          "file": "en/chi_34_templo_serie_inicial_largo.mp3",
+          "remote": true,
+          "seconds": 144,
+          "bytes": 863280,
+          "provider": "azure"
+        }
+      },
+      "chi_35_templo_falos": {
+        "corto": {
+          "hash": "6436c45e1f47612e",
+          "file": "en/chi_35_templo_falos_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 159840,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b0b4bb3fb4db449b",
+          "file": "en/chi_35_templo_falos_largo.mp3",
+          "remote": true,
+          "seconds": 119,
+          "bytes": 714816,
+          "provider": "azure"
+        }
+      },
+      "chi_36_casa_caracoles_tortuga": {
+        "corto": {
+          "hash": "d1e24c49eb855fc2",
+          "file": "en/chi_36_casa_caracoles_tortuga_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 162576,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2760bee2208c706f",
+          "file": "en/chi_36_casa_caracoles_tortuga_largo.mp3",
+          "remote": true,
+          "seconds": 134,
+          "bytes": 804960,
+          "provider": "azure"
+        }
+      },
+      "chi_38_galeria_monos": {
+        "corto": {
+          "hash": "393b017094b55cc0",
+          "file": "en/chi_38_galeria_monos_corto.mp3",
+          "remote": true,
+          "seconds": 28,
+          "bytes": 170928,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8c7d2f529287861c",
+          "file": "en/chi_38_galeria_monos_largo.mp3",
+          "remote": true,
+          "seconds": 139,
+          "bytes": 833040,
+          "provider": "azure"
+        }
+      },
+      "chi_39_final_memoria": {
+        "corto": {
+          "hash": "374da9c6b0c30cf0",
+          "file": "en/chi_39_final_memoria_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 178992,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d7eb5396d181a57d",
+          "file": "en/chi_39_final_memoria_largo.mp3",
+          "remote": true,
+          "seconds": 149,
+          "bytes": 891792,
+          "provider": "azure"
         }
       },
       "fri_00_fachada_azul": {
@@ -6712,6 +7278,564 @@
           "provider": "azure"
         }
       },
+      "chi_01_muralla_acceso": {
+        "corto": {
+          "hash": "8b899678738c5a57",
+          "file": "es/chi_01_muralla_acceso_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 239472,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dec66319e4f26d21",
+          "file": "es/chi_01_muralla_acceso_largo.mp3",
+          "remote": true,
+          "seconds": 142,
+          "bytes": 849744,
+          "provider": "azure"
+        }
+      },
+      "chi_02_castillo_general": {
+        "corto": {
+          "hash": "197a292bb9c332c0",
+          "file": "es/chi_02_castillo_general_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 239328,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d36581ab2ec1a3b3",
+          "file": "es/chi_02_castillo_general_largo.mp3",
+          "remote": true,
+          "seconds": 159,
+          "bytes": 952848,
+          "provider": "azure"
+        }
+      },
+      "chi_03_equinoccio_acustica": {
+        "corto": {
+          "hash": "b6a3e64c4e8fd94c",
+          "file": "es/chi_03_equinoccio_acustica_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 224640,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ca81e4e11259f60a",
+          "file": "es/chi_03_equinoccio_acustica_largo.mp3",
+          "remote": true,
+          "seconds": 142,
+          "bytes": 850608,
+          "provider": "azure"
+        }
+      },
+      "chi_04_subestructura_castillo": {
+        "corto": {
+          "hash": "858f0c8f32e37ac0",
+          "file": "es/chi_04_subestructura_castillo_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 225216,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "02ee4e4eaad4e435",
+          "file": "es/chi_04_subestructura_castillo_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1016496,
+          "provider": "azure"
+        }
+      },
+      "chi_05_plataforma_venus": {
+        "corto": {
+          "hash": "6c0a3904be679634",
+          "file": "es/chi_05_plataforma_venus_corto.mp3",
+          "remote": true,
+          "seconds": 33,
+          "bytes": 200880,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d3c8733fd0bb6107",
+          "file": "es/chi_05_plataforma_venus_largo.mp3",
+          "remote": true,
+          "seconds": 100,
+          "bytes": 599040,
+          "provider": "azure"
+        }
+      },
+      "chi_06_aguilas_jaguares": {
+        "corto": {
+          "hash": "7096509d123696f6",
+          "file": "es/chi_06_aguilas_jaguares_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 206640,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "142037054b0729ec",
+          "file": "es/chi_06_aguilas_jaguares_largo.mp3",
+          "remote": true,
+          "seconds": 120,
+          "bytes": 720720,
+          "provider": "azure"
+        }
+      },
+      "chi_07_tzompantli": {
+        "corto": {
+          "hash": "f12afa964c959aaa",
+          "file": "es/chi_07_tzompantli_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 211104,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f96a4a52e84d7f00",
+          "file": "es/chi_07_tzompantli_largo.mp3",
+          "remote": true,
+          "seconds": 164,
+          "bytes": 982080,
+          "provider": "azure"
+        }
+      },
+      "chi_08_gran_juego_pelota": {
+        "corto": {
+          "hash": "82ffd409cad34dba",
+          "file": "es/chi_08_gran_juego_pelota_corto.mp3",
+          "remote": false,
+          "seconds": 35,
+          "bytes": 209952,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5860d621a7e2c927",
+          "file": "es/chi_08_gran_juego_pelota_largo.mp3",
+          "remote": false,
+          "seconds": 161,
+          "bytes": 963360,
+          "provider": "azure"
+        }
+      },
+      "chi_09_banquetas_decapitacion": {
+        "corto": {
+          "hash": "f720e219401bb3e4",
+          "file": "es/chi_09_banquetas_decapitacion_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 220176,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "384ef87e26943ffe",
+          "file": "es/chi_09_banquetas_decapitacion_largo.mp3",
+          "remote": true,
+          "seconds": 132,
+          "bytes": 792720,
+          "provider": "azure"
+        }
+      },
+      "chi_10_templo_hombre_barbado": {
+        "corto": {
+          "hash": "dfa6af38b11bbc7d",
+          "file": "es/chi_10_templo_hombre_barbado_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 204336,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0d73e8bb6ac505a1",
+          "file": "es/chi_10_templo_hombre_barbado_largo.mp3",
+          "remote": true,
+          "seconds": 105,
+          "bytes": 628992,
+          "provider": "azure"
+        }
+      },
+      "chi_12_templo_jaguares": {
+        "corto": {
+          "hash": "97e174e6381314ef",
+          "file": "es/chi_12_templo_jaguares_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 211104,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "69760050fe3e2b86",
+          "file": "es/chi_12_templo_jaguares_largo.mp3",
+          "remote": true,
+          "seconds": 154,
+          "bytes": 925920,
+          "provider": "azure"
+        }
+      },
+      "chi_13_sacbe_uno": {
+        "corto": {
+          "hash": "8c6cc7322b2e9609",
+          "file": "es/chi_13_sacbe_uno_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 190656,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7f59b2a730144024",
+          "file": "es/chi_13_sacbe_uno_largo.mp3",
+          "remote": true,
+          "seconds": 113,
+          "bytes": 680976,
+          "provider": "azure"
+        }
+      },
+      "chi_14_cenote_sagrado": {
+        "corto": {
+          "hash": "ef5c552420d07e51",
+          "file": "es/chi_14_cenote_sagrado_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 208800,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f172bd270d2735ae",
+          "file": "es/chi_14_cenote_sagrado_largo.mp3",
+          "remote": true,
+          "seconds": 170,
+          "bytes": 1020528,
+          "provider": "azure"
+        }
+      },
+      "chi_16_templo_guerreros": {
+        "corto": {
+          "hash": "743ed2a5716ba0d2",
+          "file": "es/chi_16_templo_guerreros_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 248256,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e4583c487c775491",
+          "file": "es/chi_16_templo_guerreros_largo.mp3",
+          "remote": true,
+          "seconds": 159,
+          "bytes": 952704,
+          "provider": "azure"
+        }
+      },
+      "chi_19_grupo_mil_columnas": {
+        "corto": {
+          "hash": "e8bf5fbb22ba8c21",
+          "file": "es/chi_19_grupo_mil_columnas_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 193104,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f0f309b684aa5385",
+          "file": "es/chi_19_grupo_mil_columnas_largo.mp3",
+          "remote": true,
+          "seconds": 109,
+          "bytes": 651600,
+          "provider": "azure"
+        }
+      },
+      "chi_20_templo_mesas": {
+        "corto": {
+          "hash": "071315a029d3f2c5",
+          "file": "es/chi_20_templo_mesas_corto.mp3",
+          "remote": true,
+          "seconds": 29,
+          "bytes": 175824,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "703d4e68901fbdd0",
+          "file": "es/chi_20_templo_mesas_largo.mp3",
+          "remote": true,
+          "seconds": 76,
+          "bytes": 453888,
+          "provider": "azure"
+        }
+      },
+      "chi_21_bano_vapor": {
+        "corto": {
+          "hash": "25be454fb190df4c",
+          "file": "es/chi_21_bano_vapor_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 184320,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ece20cd23fc5eeb4",
+          "file": "es/chi_21_bano_vapor_largo.mp3",
+          "remote": true,
+          "seconds": 183,
+          "bytes": 1095408,
+          "provider": "azure"
+        }
+      },
+      "chi_22_el_mercado": {
+        "corto": {
+          "hash": "c60fe350a50adfd8",
+          "file": "es/chi_22_el_mercado_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 177984,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b800694904a825f6",
+          "file": "es/chi_22_el_mercado_largo.mp3",
+          "remote": true,
+          "seconds": 113,
+          "bytes": 676800,
+          "provider": "azure"
+        }
+      },
+      "chi_23_el_osario": {
+        "corto": {
+          "hash": "550c7d1e845767a8",
+          "file": "es/chi_23_el_osario_corto.mp3",
+          "remote": true,
+          "seconds": 29,
+          "bytes": 176688,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "00d20946645e98d4",
+          "file": "es/chi_23_el_osario_largo.mp3",
+          "remote": true,
+          "seconds": 114,
+          "bytes": 684000,
+          "provider": "azure"
+        }
+      },
+      "chi_25_casa_venado_colorada": {
+        "corto": {
+          "hash": "01b2cad0bce6c95d",
+          "file": "es/chi_25_casa_venado_colorada_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 177552,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a4c87a68e6b0561f",
+          "file": "es/chi_25_casa_venado_colorada_largo.mp3",
+          "remote": true,
+          "seconds": 82,
+          "bytes": 492336,
+          "provider": "azure"
+        }
+      },
+      "chi_26_cenote_xtoloc": {
+        "corto": {
+          "hash": "d5f82a4f0d3f0208",
+          "file": "es/chi_26_cenote_xtoloc_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 189072,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "77ada81f14c4d599",
+          "file": "es/chi_26_cenote_xtoloc_largo.mp3",
+          "remote": true,
+          "seconds": 106,
+          "bytes": 636624,
+          "provider": "azure"
+        }
+      },
+      "chi_27_el_caracol": {
+        "corto": {
+          "hash": "e39b3dc1963fe422",
+          "file": "es/chi_27_el_caracol_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 178992,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "69d9abba52db2f2f",
+          "file": "es/chi_27_el_caracol_largo.mp3",
+          "remote": true,
+          "seconds": 114,
+          "bytes": 682848,
+          "provider": "azure"
+        }
+      },
+      "chi_29_las_monjas": {
+        "corto": {
+          "hash": "7b943526947a937b",
+          "file": "es/chi_29_las_monjas_corto.mp3",
+          "remote": true,
+          "seconds": 26,
+          "bytes": 158544,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e57932d20822ea8e",
+          "file": "es/chi_29_las_monjas_largo.mp3",
+          "remote": true,
+          "seconds": 132,
+          "bytes": 793872,
+          "provider": "azure"
+        }
+      },
+      "chi_30_anexo_este_monjas": {
+        "corto": {
+          "hash": "81f1c09fb5a45544",
+          "file": "es/chi_30_anexo_este_monjas_corto.mp3",
+          "remote": true,
+          "seconds": 26,
+          "bytes": 155808,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bb16c4171b102a0c",
+          "file": "es/chi_30_anexo_este_monjas_largo.mp3",
+          "remote": true,
+          "seconds": 97,
+          "bytes": 580176,
+          "provider": "azure"
+        }
+      },
+      "chi_31_la_iglesia": {
+        "corto": {
+          "hash": "5802916208e8e9c4",
+          "file": "es/chi_31_la_iglesia_corto.mp3",
+          "remote": true,
+          "seconds": 26,
+          "bytes": 153360,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f0e6c5896dfb29b5",
+          "file": "es/chi_31_la_iglesia_largo.mp3",
+          "remote": true,
+          "seconds": 119,
+          "bytes": 711792,
+          "provider": "azure"
+        }
+      },
+      "chi_32_akab_dzib": {
+        "corto": {
+          "hash": "a1bb7a8e932b2535",
+          "file": "es/chi_32_akab_dzib_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 159696,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b5ae7ed60cb67996",
+          "file": "es/chi_32_akab_dzib_largo.mp3",
+          "remote": true,
+          "seconds": 89,
+          "bytes": 531936,
+          "provider": "azure"
+        }
+      },
+      "chi_34_templo_serie_inicial": {
+        "corto": {
+          "hash": "761145d6c794277e",
+          "file": "es/chi_34_templo_serie_inicial_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 159120,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "648ddc6848e1f088",
+          "file": "es/chi_34_templo_serie_inicial_largo.mp3",
+          "remote": true,
+          "seconds": 135,
+          "bytes": 807264,
+          "provider": "azure"
+        }
+      },
+      "chi_35_templo_falos": {
+        "corto": {
+          "hash": "6ac81e23d09f0216",
+          "file": "es/chi_35_templo_falos_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 161136,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8eda4fe9b9eefa3e",
+          "file": "es/chi_35_templo_falos_largo.mp3",
+          "remote": true,
+          "seconds": 113,
+          "bytes": 675792,
+          "provider": "azure"
+        }
+      },
+      "chi_36_casa_caracoles_tortuga": {
+        "corto": {
+          "hash": "f57696cc2d5a4c60",
+          "file": "es/chi_36_casa_caracoles_tortuga_corto.mp3",
+          "remote": true,
+          "seconds": 26,
+          "bytes": 156816,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b47c81bce12af118",
+          "file": "es/chi_36_casa_caracoles_tortuga_largo.mp3",
+          "remote": true,
+          "seconds": 129,
+          "bytes": 771696,
+          "provider": "azure"
+        }
+      },
+      "chi_38_galeria_monos": {
+        "corto": {
+          "hash": "4c0344ea135080e5",
+          "file": "es/chi_38_galeria_monos_corto.mp3",
+          "remote": true,
+          "seconds": 28,
+          "bytes": 165024,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1fd3b33acfc6f55d",
+          "file": "es/chi_38_galeria_monos_largo.mp3",
+          "remote": true,
+          "seconds": 132,
+          "bytes": 792864,
+          "provider": "azure"
+        }
+      },
+      "chi_39_final_memoria": {
+        "corto": {
+          "hash": "4d005e7c4b5d0cfe",
+          "file": "es/chi_39_final_memoria_corto.mp3",
+          "remote": true,
+          "seconds": 29,
+          "bytes": 175392,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3ffbcd328c249950",
+          "file": "es/chi_39_final_memoria_largo.mp3",
+          "remote": true,
+          "seconds": 145,
+          "bytes": 867600,
+          "provider": "azure"
+        }
+      },
       "fri_00_fachada_azul": {
         "corto": {
           "hash": "9dffaa68da05eaa7",
@@ -11962,6 +13086,132 @@
           "provider": "azure"
         }
       },
+      "chi_01_muralla_acceso": {
+        "corto": {
+          "hash": "bb255d6a067e7de7",
+          "file": "fr/chi_01_muralla_acceso_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 231552,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "31ea92d9abc6baec",
+          "file": "fr/chi_01_muralla_acceso_largo.mp3",
+          "remote": true,
+          "seconds": 142,
+          "bytes": 849456,
+          "provider": "azure"
+        }
+      },
+      "chi_02_castillo_general": {
+        "corto": {
+          "hash": "739c0fc8b05a6c55",
+          "file": "fr/chi_02_castillo_general_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 239328,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5d3293617802b7a6",
+          "file": "fr/chi_02_castillo_general_largo.mp3",
+          "remote": true,
+          "seconds": 160,
+          "bytes": 957024,
+          "provider": "azure"
+        }
+      },
+      "chi_03_equinoccio_acustica": {
+        "corto": {
+          "hash": "7a36a7f38f901c80",
+          "file": "fr/chi_03_equinoccio_acustica_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 221616,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "40b645941b79e1d0",
+          "file": "fr/chi_03_equinoccio_acustica_largo.mp3",
+          "remote": true,
+          "seconds": 139,
+          "bytes": 836352,
+          "provider": "azure"
+        }
+      },
+      "chi_04_subestructura_castillo": {
+        "corto": {
+          "hash": "09268535867d57ca",
+          "file": "fr/chi_04_subestructura_castillo_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 220896,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3f46bd36ff3b0cab",
+          "file": "fr/chi_04_subestructura_castillo_largo.mp3",
+          "remote": true,
+          "seconds": 175,
+          "bytes": 1047024,
+          "provider": "azure"
+        }
+      },
+      "chi_05_plataforma_venus": {
+        "corto": {
+          "hash": "af00d15a1babf575",
+          "file": "fr/chi_05_plataforma_venus_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 194544,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4c4f1095dd703195",
+          "file": "fr/chi_05_plataforma_venus_largo.mp3",
+          "remote": true,
+          "seconds": 100,
+          "bytes": 597024,
+          "provider": "azure"
+        }
+      },
+      "chi_06_aguilas_jaguares": {
+        "corto": {
+          "hash": "de45a7954253a8cb",
+          "file": "fr/chi_06_aguilas_jaguares_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 201600,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8ad4d4ce9368dc59",
+          "file": "fr/chi_06_aguilas_jaguares_largo.mp3",
+          "remote": true,
+          "seconds": 120,
+          "bytes": 722448,
+          "provider": "azure"
+        }
+      },
+      "chi_07_tzompantli": {
+        "corto": {
+          "hash": "2d9c97a803b0edcd",
+          "file": "fr/chi_07_tzompantli_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 224208,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "91a46a25f57dbc4a",
+          "file": "fr/chi_07_tzompantli_largo.mp3",
+          "remote": true,
+          "seconds": 164,
+          "bytes": 985248,
+          "provider": "azure"
+        }
+      },
       "chi_08_gran_juego_pelota": {
         "corto": {
           "hash": "91d44c92eceb18b8",
@@ -11969,6 +13219,428 @@
           "remote": false,
           "seconds": 35,
           "bytes": 211968,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4d41b389ee7e32e4",
+          "file": "fr/chi_08_gran_juego_pelota_largo.mp3",
+          "remote": false,
+          "seconds": 159,
+          "bytes": 951120,
+          "provider": "azure"
+        }
+      },
+      "chi_09_banquetas_decapitacion": {
+        "corto": {
+          "hash": "4706426cdc0023e4",
+          "file": "fr/chi_09_banquetas_decapitacion_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 221040,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "15f1d293ec08c781",
+          "file": "fr/chi_09_banquetas_decapitacion_largo.mp3",
+          "remote": true,
+          "seconds": 132,
+          "bytes": 789552,
+          "provider": "azure"
+        }
+      },
+      "chi_10_templo_hombre_barbado": {
+        "corto": {
+          "hash": "488ea0afeb4f72d1",
+          "file": "fr/chi_10_templo_hombre_barbado_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 204048,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2b49722d394ee746",
+          "file": "fr/chi_10_templo_hombre_barbado_largo.mp3",
+          "remote": true,
+          "seconds": 108,
+          "bytes": 646848,
+          "provider": "azure"
+        }
+      },
+      "chi_12_templo_jaguares": {
+        "corto": {
+          "hash": "8ad9f278d2966c9c",
+          "file": "fr/chi_12_templo_jaguares_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 213840,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c0203fcba1405c1d",
+          "file": "fr/chi_12_templo_jaguares_largo.mp3",
+          "remote": true,
+          "seconds": 155,
+          "bytes": 927504,
+          "provider": "azure"
+        }
+      },
+      "chi_13_sacbe_uno": {
+        "corto": {
+          "hash": "11326402f3794789",
+          "file": "fr/chi_13_sacbe_uno_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 192384,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "cbe7ac8aaac5678d",
+          "file": "fr/chi_13_sacbe_uno_largo.mp3",
+          "remote": true,
+          "seconds": 116,
+          "bytes": 698400,
+          "provider": "azure"
+        }
+      },
+      "chi_14_cenote_sagrado": {
+        "corto": {
+          "hash": "37a0ac6f163b2fe1",
+          "file": "fr/chi_14_cenote_sagrado_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 211248,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c8590bcbc45f6e4c",
+          "file": "fr/chi_14_cenote_sagrado_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1060992,
+          "provider": "azure"
+        }
+      },
+      "chi_16_templo_guerreros": {
+        "corto": {
+          "hash": "54daec1d5bb1d552",
+          "file": "fr/chi_16_templo_guerreros_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 245952,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e266ac89dc76b059",
+          "file": "fr/chi_16_templo_guerreros_largo.mp3",
+          "remote": true,
+          "seconds": 163,
+          "bytes": 975168,
+          "provider": "azure"
+        }
+      },
+      "chi_19_grupo_mil_columnas": {
+        "corto": {
+          "hash": "12760a4bdbe4f595",
+          "file": "fr/chi_19_grupo_mil_columnas_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 188784,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9b3870355a523126",
+          "file": "fr/chi_19_grupo_mil_columnas_largo.mp3",
+          "remote": true,
+          "seconds": 106,
+          "bytes": 634464,
+          "provider": "azure"
+        }
+      },
+      "chi_20_templo_mesas": {
+        "corto": {
+          "hash": "f5ba512ca49069e6",
+          "file": "fr/chi_20_templo_mesas_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 181440,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0ad3b5027867e9b1",
+          "file": "fr/chi_20_templo_mesas_largo.mp3",
+          "remote": true,
+          "seconds": 79,
+          "bytes": 475920,
+          "provider": "azure"
+        }
+      },
+      "chi_21_bano_vapor": {
+        "corto": {
+          "hash": "bec389c6ebb23660",
+          "file": "fr/chi_21_bano_vapor_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 182016,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9f93559ef5846673",
+          "file": "fr/chi_21_bano_vapor_largo.mp3",
+          "remote": true,
+          "seconds": 184,
+          "bytes": 1103328,
+          "provider": "azure"
+        }
+      },
+      "chi_22_el_mercado": {
+        "corto": {
+          "hash": "61db1009dbc571cb",
+          "file": "fr/chi_22_el_mercado_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 182304,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "052de9ea21544948",
+          "file": "fr/chi_22_el_mercado_largo.mp3",
+          "remote": true,
+          "seconds": 115,
+          "bytes": 690624,
+          "provider": "azure"
+        }
+      },
+      "chi_23_el_osario": {
+        "corto": {
+          "hash": "836938594f01871b",
+          "file": "fr/chi_23_el_osario_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 188496,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a1913ffd1185e237",
+          "file": "fr/chi_23_el_osario_largo.mp3",
+          "remote": true,
+          "seconds": 117,
+          "bytes": 704160,
+          "provider": "azure"
+        }
+      },
+      "chi_25_casa_venado_colorada": {
+        "corto": {
+          "hash": "66453bbd5dd60ddb",
+          "file": "fr/chi_25_casa_venado_colorada_corto.mp3",
+          "remote": true,
+          "seconds": 29,
+          "bytes": 174528,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d58ae0b590df6809",
+          "file": "fr/chi_25_casa_venado_colorada_largo.mp3",
+          "remote": true,
+          "seconds": 83,
+          "bytes": 497088,
+          "provider": "azure"
+        }
+      },
+      "chi_26_cenote_xtoloc": {
+        "corto": {
+          "hash": "23b5b14143e3744b",
+          "file": "fr/chi_26_cenote_xtoloc_corto.mp3",
+          "remote": true,
+          "seconds": 33,
+          "bytes": 200160,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f79ad3bddef639fa",
+          "file": "fr/chi_26_cenote_xtoloc_largo.mp3",
+          "remote": true,
+          "seconds": 110,
+          "bytes": 657504,
+          "provider": "azure"
+        }
+      },
+      "chi_27_el_caracol": {
+        "corto": {
+          "hash": "f06629d77154af81",
+          "file": "fr/chi_27_el_caracol_corto.mp3",
+          "remote": true,
+          "seconds": 29,
+          "bytes": 176688,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7d2e28ab46d8522b",
+          "file": "fr/chi_27_el_caracol_largo.mp3",
+          "remote": true,
+          "seconds": 115,
+          "bytes": 689328,
+          "provider": "azure"
+        }
+      },
+      "chi_29_las_monjas": {
+        "corto": {
+          "hash": "3853158c560e2945",
+          "file": "fr/chi_29_las_monjas_corto.mp3",
+          "remote": true,
+          "seconds": 26,
+          "bytes": 156240,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c1765329c39aafe3",
+          "file": "fr/chi_29_las_monjas_largo.mp3",
+          "remote": true,
+          "seconds": 135,
+          "bytes": 808128,
+          "provider": "azure"
+        }
+      },
+      "chi_30_anexo_este_monjas": {
+        "corto": {
+          "hash": "6adc443353224f8c",
+          "file": "fr/chi_30_anexo_este_monjas_corto.mp3",
+          "remote": true,
+          "seconds": 25,
+          "bytes": 150624,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "605403fe8ac1a273",
+          "file": "fr/chi_30_anexo_este_monjas_largo.mp3",
+          "remote": true,
+          "seconds": 97,
+          "bytes": 579456,
+          "provider": "azure"
+        }
+      },
+      "chi_31_la_iglesia": {
+        "corto": {
+          "hash": "bea77980d1e76a59",
+          "file": "fr/chi_31_la_iglesia_corto.mp3",
+          "remote": true,
+          "seconds": 26,
+          "bytes": 153792,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "51d68d77e6eac45b",
+          "file": "fr/chi_31_la_iglesia_largo.mp3",
+          "remote": true,
+          "seconds": 118,
+          "bytes": 706608,
+          "provider": "azure"
+        }
+      },
+      "chi_32_akab_dzib": {
+        "corto": {
+          "hash": "2ec35b7f915c9389",
+          "file": "fr/chi_32_akab_dzib_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 164592,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "773fb6b23f390b98",
+          "file": "fr/chi_32_akab_dzib_largo.mp3",
+          "remote": true,
+          "seconds": 94,
+          "bytes": 561456,
+          "provider": "azure"
+        }
+      },
+      "chi_34_templo_serie_inicial": {
+        "corto": {
+          "hash": "db98655039342800",
+          "file": "fr/chi_34_templo_serie_inicial_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 160128,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "529a9b30b29bd07a",
+          "file": "fr/chi_34_templo_serie_inicial_largo.mp3",
+          "remote": true,
+          "seconds": 133,
+          "bytes": 797904,
+          "provider": "azure"
+        }
+      },
+      "chi_35_templo_falos": {
+        "corto": {
+          "hash": "023524b03bc70feb",
+          "file": "fr/chi_35_templo_falos_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 163296,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8af108824e4a823f",
+          "file": "fr/chi_35_templo_falos_largo.mp3",
+          "remote": true,
+          "seconds": 115,
+          "bytes": 687600,
+          "provider": "azure"
+        }
+      },
+      "chi_36_casa_caracoles_tortuga": {
+        "corto": {
+          "hash": "ccf07e0af87ca1a7",
+          "file": "fr/chi_36_casa_caracoles_tortuga_corto.mp3",
+          "remote": true,
+          "seconds": 26,
+          "bytes": 158976,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "564352a9acd2b3ef",
+          "file": "fr/chi_36_casa_caracoles_tortuga_largo.mp3",
+          "remote": true,
+          "seconds": 129,
+          "bytes": 771408,
+          "provider": "azure"
+        }
+      },
+      "chi_38_galeria_monos": {
+        "corto": {
+          "hash": "6f57df5e517ce140",
+          "file": "fr/chi_38_galeria_monos_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 159840,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e59f9ee1fad34119",
+          "file": "fr/chi_38_galeria_monos_largo.mp3",
+          "remote": true,
+          "seconds": 136,
+          "bytes": 818208,
+          "provider": "azure"
+        }
+      },
+      "chi_39_final_memoria": {
+        "corto": {
+          "hash": "c4a0a928504e4777",
+          "file": "fr/chi_39_final_memoria_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 177120,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bd19655699b581b7",
+          "file": "fr/chi_39_final_memoria_largo.mp3",
+          "remote": true,
+          "seconds": 146,
+          "bytes": 873504,
           "provider": "azure"
         }
       },
@@ -17142,6 +18814,132 @@
           "provider": "azure"
         }
       },
+      "chi_01_muralla_acceso": {
+        "corto": {
+          "hash": "3016e5373be4b99c",
+          "file": "pl/chi_01_muralla_acceso_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 260640,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "101e47ee0c9b3228",
+          "file": "pl/chi_01_muralla_acceso_largo.mp3",
+          "remote": true,
+          "seconds": 152,
+          "bytes": 914400,
+          "provider": "azure"
+        }
+      },
+      "chi_02_castillo_general": {
+        "corto": {
+          "hash": "77f6c6da9c1fd9e3",
+          "file": "pl/chi_02_castillo_general_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 274032,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "84f0c03f99723c7d",
+          "file": "pl/chi_02_castillo_general_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 1084320,
+          "provider": "azure"
+        }
+      },
+      "chi_03_equinoccio_acustica": {
+        "corto": {
+          "hash": "5f21be592fda13c9",
+          "file": "pl/chi_03_equinoccio_acustica_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 254880,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "31bea21f8634d665",
+          "file": "pl/chi_03_equinoccio_acustica_largo.mp3",
+          "remote": true,
+          "seconds": 159,
+          "bytes": 953424,
+          "provider": "azure"
+        }
+      },
+      "chi_04_subestructura_castillo": {
+        "corto": {
+          "hash": "450d658610626479",
+          "file": "pl/chi_04_subestructura_castillo_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 254736,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a020e339ea72d6d4",
+          "file": "pl/chi_04_subestructura_castillo_largo.mp3",
+          "remote": true,
+          "seconds": 191,
+          "bytes": 1146096,
+          "provider": "azure"
+        }
+      },
+      "chi_05_plataforma_venus": {
+        "corto": {
+          "hash": "98fe7dc0703fcc3c",
+          "file": "pl/chi_05_plataforma_venus_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 218016,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c2173f910c3f891e",
+          "file": "pl/chi_05_plataforma_venus_largo.mp3",
+          "remote": true,
+          "seconds": 108,
+          "bytes": 647280,
+          "provider": "azure"
+        }
+      },
+      "chi_06_aguilas_jaguares": {
+        "corto": {
+          "hash": "30366d98b3295740",
+          "file": "pl/chi_06_aguilas_jaguares_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 209808,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d30ca08d2550c2b6",
+          "file": "pl/chi_06_aguilas_jaguares_largo.mp3",
+          "remote": true,
+          "seconds": 128,
+          "bytes": 767232,
+          "provider": "azure"
+        }
+      },
+      "chi_07_tzompantli": {
+        "corto": {
+          "hash": "3e83587c7dd042a7",
+          "file": "pl/chi_07_tzompantli_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 239472,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e4f60c3be4e7cb75",
+          "file": "pl/chi_07_tzompantli_largo.mp3",
+          "remote": true,
+          "seconds": 179,
+          "bytes": 1076400,
+          "provider": "azure"
+        }
+      },
       "chi_08_gran_juego_pelota": {
         "corto": {
           "hash": "c67556f4b26578c7",
@@ -17149,6 +18947,428 @@
           "remote": false,
           "seconds": 40,
           "bytes": 240048,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "df412382461545da",
+          "file": "pl/chi_08_gran_juego_pelota_largo.mp3",
+          "remote": false,
+          "seconds": 179,
+          "bytes": 1074960,
+          "provider": "azure"
+        }
+      },
+      "chi_09_banquetas_decapitacion": {
+        "corto": {
+          "hash": "08d314c39c6e9697",
+          "file": "pl/chi_09_banquetas_decapitacion_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 212832,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "df66b01dd570b183",
+          "file": "pl/chi_09_banquetas_decapitacion_largo.mp3",
+          "remote": true,
+          "seconds": 139,
+          "bytes": 834192,
+          "provider": "azure"
+        }
+      },
+      "chi_10_templo_hombre_barbado": {
+        "corto": {
+          "hash": "2a9b05d9f0e0cf8d",
+          "file": "pl/chi_10_templo_hombre_barbado_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 234144,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d1328b65ace6bf5c",
+          "file": "pl/chi_10_templo_hombre_barbado_largo.mp3",
+          "remote": true,
+          "seconds": 117,
+          "bytes": 703296,
+          "provider": "azure"
+        }
+      },
+      "chi_12_templo_jaguares": {
+        "corto": {
+          "hash": "521efa5d9a30d900",
+          "file": "pl/chi_12_templo_jaguares_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 232992,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c960b0dc6803cbe0",
+          "file": "pl/chi_12_templo_jaguares_largo.mp3",
+          "remote": true,
+          "seconds": 170,
+          "bytes": 1018656,
+          "provider": "azure"
+        }
+      },
+      "chi_13_sacbe_uno": {
+        "corto": {
+          "hash": "f298925c66d56645",
+          "file": "pl/chi_13_sacbe_uno_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 209952,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "cfb1674816787bb0",
+          "file": "pl/chi_13_sacbe_uno_largo.mp3",
+          "remote": true,
+          "seconds": 122,
+          "bytes": 729216,
+          "provider": "azure"
+        }
+      },
+      "chi_14_cenote_sagrado": {
+        "corto": {
+          "hash": "276e11a753aefe70",
+          "file": "pl/chi_14_cenote_sagrado_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 238320,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c5f8dfccc8034f23",
+          "file": "pl/chi_14_cenote_sagrado_largo.mp3",
+          "remote": true,
+          "seconds": 194,
+          "bytes": 1165824,
+          "provider": "azure"
+        }
+      },
+      "chi_16_templo_guerreros": {
+        "corto": {
+          "hash": "faf16e08e63d9754",
+          "file": "pl/chi_16_templo_guerreros_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 282528,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "adbec1e2866cae08",
+          "file": "pl/chi_16_templo_guerreros_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 1088208,
+          "provider": "azure"
+        }
+      },
+      "chi_19_grupo_mil_columnas": {
+        "corto": {
+          "hash": "a2826d463b155a5e",
+          "file": "pl/chi_19_grupo_mil_columnas_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 213696,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5bbdf4533674a631",
+          "file": "pl/chi_19_grupo_mil_columnas_largo.mp3",
+          "remote": true,
+          "seconds": 119,
+          "bytes": 715824,
+          "provider": "azure"
+        }
+      },
+      "chi_20_templo_mesas": {
+        "corto": {
+          "hash": "65ae6a514905df17",
+          "file": "pl/chi_20_templo_mesas_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 208080,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e1624c9f7c25c936",
+          "file": "pl/chi_20_templo_mesas_largo.mp3",
+          "remote": true,
+          "seconds": 82,
+          "bytes": 490608,
+          "provider": "azure"
+        }
+      },
+      "chi_21_bano_vapor": {
+        "corto": {
+          "hash": "412a7e00daa0ca77",
+          "file": "pl/chi_21_bano_vapor_corto.mp3",
+          "remote": true,
+          "seconds": 33,
+          "bytes": 199296,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "02dd1834b9774272",
+          "file": "pl/chi_21_bano_vapor_largo.mp3",
+          "remote": true,
+          "seconds": 203,
+          "bytes": 1215216,
+          "provider": "azure"
+        }
+      },
+      "chi_22_el_mercado": {
+        "corto": {
+          "hash": "f54afb9381338db9",
+          "file": "pl/chi_22_el_mercado_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 191088,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f86331297befbb32",
+          "file": "pl/chi_22_el_mercado_largo.mp3",
+          "remote": true,
+          "seconds": 129,
+          "bytes": 776160,
+          "provider": "azure"
+        }
+      },
+      "chi_23_el_osario": {
+        "corto": {
+          "hash": "20cbc01131d73dfe",
+          "file": "pl/chi_23_el_osario_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 205200,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "332d6edcda317884",
+          "file": "pl/chi_23_el_osario_largo.mp3",
+          "remote": true,
+          "seconds": 128,
+          "bytes": 767088,
+          "provider": "azure"
+        }
+      },
+      "chi_25_casa_venado_colorada": {
+        "corto": {
+          "hash": "db25bde97c1737c7",
+          "file": "pl/chi_25_casa_venado_colorada_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 186768,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "825a3e568933bfe4",
+          "file": "pl/chi_25_casa_venado_colorada_largo.mp3",
+          "remote": true,
+          "seconds": 86,
+          "bytes": 514080,
+          "provider": "azure"
+        }
+      },
+      "chi_26_cenote_xtoloc": {
+        "corto": {
+          "hash": "a4a228a9c521fdb6",
+          "file": "pl/chi_26_cenote_xtoloc_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 227088,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d8ae3261e81a6d4b",
+          "file": "pl/chi_26_cenote_xtoloc_largo.mp3",
+          "remote": true,
+          "seconds": 126,
+          "bytes": 756288,
+          "provider": "azure"
+        }
+      },
+      "chi_27_el_caracol": {
+        "corto": {
+          "hash": "537dc5c7ccb58674",
+          "file": "pl/chi_27_el_caracol_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 190080,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bdfad3cef8679706",
+          "file": "pl/chi_27_el_caracol_largo.mp3",
+          "remote": true,
+          "seconds": 121,
+          "bytes": 728208,
+          "provider": "azure"
+        }
+      },
+      "chi_29_las_monjas": {
+        "corto": {
+          "hash": "d93dbe30ed99c1b0",
+          "file": "pl/chi_29_las_monjas_corto.mp3",
+          "remote": true,
+          "seconds": 28,
+          "bytes": 167184,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "aec645450a7880b0",
+          "file": "pl/chi_29_las_monjas_largo.mp3",
+          "remote": true,
+          "seconds": 147,
+          "bytes": 880848,
+          "provider": "azure"
+        }
+      },
+      "chi_30_anexo_este_monjas": {
+        "corto": {
+          "hash": "ecfbb1b1a1d65a89",
+          "file": "pl/chi_30_anexo_este_monjas_corto.mp3",
+          "remote": true,
+          "seconds": 27,
+          "bytes": 164736,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8341b89226bae34a",
+          "file": "pl/chi_30_anexo_este_monjas_largo.mp3",
+          "remote": true,
+          "seconds": 105,
+          "bytes": 632304,
+          "provider": "azure"
+        }
+      },
+      "chi_31_la_iglesia": {
+        "corto": {
+          "hash": "bd8ce659e15b5008",
+          "file": "pl/chi_31_la_iglesia_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 179280,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "33888ae7b9949728",
+          "file": "pl/chi_31_la_iglesia_largo.mp3",
+          "remote": true,
+          "seconds": 128,
+          "bytes": 770112,
+          "provider": "azure"
+        }
+      },
+      "chi_32_akab_dzib": {
+        "corto": {
+          "hash": "0b86a4b28d6c73bc",
+          "file": "pl/chi_32_akab_dzib_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 185616,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d6ecb2901cee9180",
+          "file": "pl/chi_32_akab_dzib_largo.mp3",
+          "remote": true,
+          "seconds": 98,
+          "bytes": 588816,
+          "provider": "azure"
+        }
+      },
+      "chi_34_templo_serie_inicial": {
+        "corto": {
+          "hash": "e2ae2683550c5c29",
+          "file": "pl/chi_34_templo_serie_inicial_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 183600,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "221cf27773b82ff4",
+          "file": "pl/chi_34_templo_serie_inicial_largo.mp3",
+          "remote": true,
+          "seconds": 155,
+          "bytes": 927504,
+          "provider": "azure"
+        }
+      },
+      "chi_35_templo_falos": {
+        "corto": {
+          "hash": "bb061a73af17fd8d",
+          "file": "pl/chi_35_templo_falos_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 184896,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3f2c9954a42fbb65",
+          "file": "pl/chi_35_templo_falos_largo.mp3",
+          "remote": true,
+          "seconds": 125,
+          "bytes": 748800,
+          "provider": "azure"
+        }
+      },
+      "chi_36_casa_caracoles_tortuga": {
+        "corto": {
+          "hash": "40d3ed8701d04703",
+          "file": "pl/chi_36_casa_caracoles_tortuga_corto.mp3",
+          "remote": true,
+          "seconds": 30,
+          "bytes": 182304,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "eb2f60a6e5d6b215",
+          "file": "pl/chi_36_casa_caracoles_tortuga_largo.mp3",
+          "remote": true,
+          "seconds": 145,
+          "bytes": 871344,
+          "provider": "azure"
+        }
+      },
+      "chi_38_galeria_monos": {
+        "corto": {
+          "hash": "8d06d690cd168948",
+          "file": "pl/chi_38_galeria_monos_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 186768,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3e67d5632b8d4e6b",
+          "file": "pl/chi_38_galeria_monos_largo.mp3",
+          "remote": true,
+          "seconds": 151,
+          "bytes": 907488,
+          "provider": "azure"
+        }
+      },
+      "chi_39_final_memoria": {
+        "corto": {
+          "hash": "2235c5f856c4d036",
+          "file": "pl/chi_39_final_memoria_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 206352,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "efa870551334250b",
+          "file": "pl/chi_39_final_memoria_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1008720,
           "provider": "azure"
         }
       },
