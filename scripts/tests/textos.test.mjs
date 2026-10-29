@@ -38,6 +38,16 @@ test('splitPiece: lo privado sale de lo público y se agregan adelanto, cultura,
   assert.ok(!JSON.stringify(pub).includes('secreto'));
 });
 
+test('splitPiece: una pieza gratis se publica completa y no va a los archivos privados', () => {
+  const gratis = { ...pieza, is_free: true };
+  const { pub, priv } = splitPiece(gratis);
+  assert.ok(pub.guion_corto && pub.guion_largo && pub.retos_observacion && pub.faq_mito_fr);
+  assert.deepEqual(priv, {});
+  assert.ok(!buildBundles([gratis], ['es']).es.pieces.p1);
+  // una pieza marcada como de pago sigue escondida
+  assert.ok(!('guion_corto' in splitPiece({ ...pieza, is_free: false }).pub));
+});
+
 test('archivos por idioma: español sin lo de otros idiomas; inglés con lo base y lo suyo; solo idiomas con texto', () => {
   assert.deepEqual(bundleLangs([pieza]).sort(), ['en', 'es']);
   const b = buildBundles([pieza], ['es', 'en', 'fr']);
