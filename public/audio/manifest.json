@@ -5231,6 +5231,16 @@
           "bytes": 662976,
           "provider": "azure"
         }
+      },
+      "tmc_01_recinto_bajo_plaza": {
+        "corto": {
+          "hash": "94e9575c2650feb6",
+          "file": "en/tmc_01_recinto_bajo_plaza_corto.mp3",
+          "remote": false,
+          "seconds": 47,
+          "bytes": 279360,
+          "provider": "azure"
+        }
       }
     },
     "es": {
@@ -10479,6 +10489,24 @@
           "remote": true,
           "seconds": 102,
           "bytes": 614448,
+          "provider": "azure"
+        }
+      },
+      "tmc_01_recinto_bajo_plaza": {
+        "corto": {
+          "hash": "348879c6d6bb2302",
+          "file": "es/tmc_01_recinto_bajo_plaza_corto.mp3",
+          "remote": false,
+          "seconds": 44,
+          "bytes": 262080,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "079e41fe9eff6540",
+          "file": "es/tmc_01_recinto_bajo_plaza_largo.mp3",
+          "remote": false,
+          "seconds": 172,
+          "bytes": 1034496,
           "provider": "azure"
         }
       }
