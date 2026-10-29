@@ -1,0 +1,56 @@
+{
+  "id": "chi_02_castillo_general",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1bd1fd9856689c7d",
+      "texto": "El Castillo (Pyramid of Kukulcán)"
+    },
+    "frase_gancho": {
+      "hash": "53bb7013dd4d1a8b",
+      "texto": "A thirty-meter pyramid that blends the calendar, the sky, and the water hidden beneath the earth."
+    },
+    "puente_narrativo": {
+      "hash": "9a6b239ee20123d4",
+      "texto": "Stay in front of the north staircase, the one with the serpent heads. When you finish looking, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "2a2bff3292c10405",
+      "texto": "You are standing in front of El Castillo, the temple of Kukulcán, the Feathered Serpent. It stands about twenty-four meters tall, and the temple on top adds another six. The base is a square about fifty-five meters on each side. Each of the four staircases has approximately ninety-one steps. If you add them up, together with the platform on top, you get three hundred sixty-five, just like the days of the year. That number has led people to think of a calendar in stone, although specialists think its connection to rituals matters more than the arithmetic. Since around the year two thousand six, the INAH has not allowed visitors to climb it. But walking around it is already a way of reading it."
+    },
+    "guion_largo": {
+      "hash": "15b1351f42e928ea",
+      "texto": "El Castillo is, probably, the most photographed building in Mexico. But it deserves a slow look, because each of its measurements seems to speak of time and of the cosmos.\n\nLet's begin with the numbers. The body of the pyramid measures about twenty-four meters, and the temple at the top adds about six, for a total of about thirty. The base is a square of fifty-five meters and thirty centimeters. Each side has a staircase of roughly ninety-one steps. With the upper platform counted as the last step, the total comes to three hundred sixty-five. The south side is heavily eroded, and that is why the figure is approximate. And although the number recalls the solar year of three hundred sixty-five days, it is probably related above all to rituals.\n\nOther explanations are widely repeated. It is often said that the nine terraces, split in two by the stairways, form eighteen sections, like the eighteen months of the Maya solar calendar, and that each face has fifty-two panels, like the years of the Calendar Round cycle. These readings are very common, and they are worth hearing as interpretations, not as measured facts.\n\nThere is another clue in its orientation. The pyramid is not aligned exactly with the cardinal points. One explanation proposes that its main face points to two sunsets, on May 20 and July 24. Between one and the other, sixty-five and three hundred days pass, multiples of thirteen and twenty, which are the numbers of the ritual calendar. Another temple, the one at Tulum, marks the same dates, and the coincidence of the other faces with the zenith and the nadir is probably accidental.\n\nThere is also debate about when it was built. People speak of the eighth to the twelfth centuries, and for the last stage there are two estimates: between the year nine hundred and one thousand, or the eleventh century. There is no single certain date.\n\nIts recent history matters too. The Carnegie Institution asked for permission to work in nineteen twenty-four and began the restoration in nineteen twenty-seven, with Mexican archaeologists. In the thirties, in order to explore the interior, a passage was opened at the northeast corner of the north staircase. For years, tourists could also climb it. Around two thousand six, after the fatal fall of a visitor, the INAH closed the climb. Today you can walk around the building, but you cannot climb it or go inside.\n\nAnd there is still more below. This pyramid encloses another, older pyramid, and beneath it there is a cavity with water. Part of that story is told at other stops on the tour.\n\nFor now, stay here for a moment and look at the north staircase, the one with the serpent heads."
+    },
+    "retos_observacion": {
+      "hash": "814b6c43c5a59b61",
+      "texto": [
+        "Find the two stone serpent heads at the foot of the north staircase",
+        "Count the nine stepped levels: the stairways split them in half and form eighteen sections",
+        "Walk around the building and compare the more eroded south side with the north face"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5dc286df61145e29",
+      "texto": {
+        "Height": "about 24 m of base plus 6 m of temple, about 30 m in total",
+        "Base": "square, 55.3 m per side",
+        "Steps": "about 91 on each side; with the upper platform they add up to 365 (approximate)",
+        "Era": "between the 8th and 12th centuries; the last stage is estimated at around 900-1000 or in the 11th century",
+        "Restoration": "since 1927, with the Carnegie Institution and Mexican archaeologists",
+        "Access": "since around 2006, climbing and entering are not allowed"
+      }
+    },
+    "faq_mito": {
+      "hash": "dafe28e71e1d6526",
+      "texto": {
+        "pregunta": "Myth: You can climb to the top of El Castillo and enter its inner temple.",
+        "respuesta": "Reality: Since around 2006 the INAH has closed the climb and the entrance to the pyramid. You can walk around it and look at it up close, but not climb it."
+      }
+    }
+  }
+}

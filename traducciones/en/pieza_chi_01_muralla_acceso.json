@@ -1,0 +1,56 @@
+{
+  "id": "chi_01_muralla_acceso",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "835a9b8786305840",
+      "texto": "The Great Leveling and the Ceremonial Center"
+    },
+    "frase_gancho": {
+      "hash": "7fe3d488e8494c49",
+      "texto": "An artificial esplanade, leveled stone by stone, to set the center of the city on a single plane."
+    },
+    "puente_narrativo": {
+      "hash": "89169c7cd73c8990",
+      "texto": "Walk toward the center of the esplanade and stop in front of [El Castillo](chi_02_castillo_general), the great pyramid that dominates the plaza."
+    },
+    "guion_corto": {
+      "hash": "728e5bfd6649227e",
+      "texto": "It looks like a natural plain, but it is not. The esplanade you are standing on is called the Great Leveling. It is an artificial platform about six hundred meters long by four hundred wide, and according to a technical report from the University of California San Diego, it is the largest construction in Chichén Itzá. The original terrain had bedrock and uneven ground. The builders filled it in, flattened it, and covered the floor with stucco and with sascab, a white limestone soil. The floors have a gentle slope, of barely one percent, so that rainwater would run toward where it was meant to go. On this great stage rose El Castillo, the Ball Court, and the Temple of the Warriors."
+    },
+    "guion_largo": {
+      "hash": "bf3c2733ef4d63ab",
+      "texto": "It is worth stopping for a moment. Almost no one realizes that the ground beneath your feet is a work of engineering.\n\nThe natural terrain of this part of Yucatán is irregular, with rocks jutting out and hollows. The builders leveled the land to support the great building complexes, and the greatest effort went into the area around El Castillo. A technical report from a University of California San Diego project, from two thousand nine, estimates the space at about six hundred meters by four hundred. It calls it the largest construction in Chichén Itzá, and one of the largest platforms in the Maya world.\n\nIt was built in stages: the researchers propose ten. In some, a layer of earth and stone was laid over the natural bedrock, and in others the outcrops were leveled with sascab. The stucco floors were not white, as is commonly imagined. In different stages, yellow stucco and red stucco were used. And all the floors have a slope of roughly one percent. Between El Castillo and the colonnade you will see further on, the floor drops about seventy-five centimeters over about seventy-seven meters. It is an almost imperceptible slope, designed so that rainwater would be channeled toward where the builders wanted it.\n\nThe timing has also been estimated. The largest stages of this platform correspond to what archaeologists call the Sotuta phase, between the years eight hundred and one thousand fifty or one thousand one hundred. And the entire construction process would have lasted less than five hundred years, and probably no more than three hundred.\n\nThis esplanade also had a wall. It was a rampart that surrounded the ceremonial center. Archaeologists excavated a section of about ninety meters between the Great Ball Court and the current western pedestrian entrance. It was a tall, thin wall, with no parapet on the inside, so it is believed that its function went beyond defense. Later, a buttress made of stones reused from other buildings was added to it, and that, they do interpret as a defensive reinforcement.\n\nAll this changes what you see. The buildings do not stand on a plain. They stand on a planned platform, with slopes, colored floors, and a built boundary. It is the stage on which the most important events in the life of the city took place.\n\nNow walk toward the center. In front of you rises [El Castillo](chi_02_castillo_general), the building that organizes this entire plaza."
+    },
+    "retos_observacion": {
+      "hash": "a7d7da0b43e0134a",
+      "texto": [
+        "Look at the edge of the esplanade and find where the drop to the natural terrain begins",
+        "Imagine the floor covered in yellow or red stucco, rather than today’s green grass",
+        "Walk toward the center of the plaza and look for the silhouette of El Castillo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "33412e54bcacba79",
+      "texto": {
+        "Name": "the Great Leveling",
+        "Approximate dimensions": "600 × 400 meters (UC San Diego, 2009)",
+        "Proposed construction stages": "10",
+        "Slope of the floors": "about 1%",
+        "Stucco of the floors": "yellow and red, depending on the stage",
+        "Excavated wall": "about 90 meters between the Great Ball Court and the western pedestrian entrance"
+      }
+    },
+    "faq_mito": {
+      "hash": "3052c5f83760e118",
+      "texto": {
+        "pregunta": "Myth: The esplanade is a natural plain covered in grass.",
+        "respuesta": "Reality: It is an artificial platform, built in stages with fill, stucco floors, and a gentle slope for rainwater. The grass is a modern addition."
+      }
+    }
+  }
+}

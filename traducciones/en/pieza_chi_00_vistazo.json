@@ -1,0 +1,60 @@
+{
+  "id": "chi_00_vistazo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Toltec\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3b0bff030db10d27",
+      "texto": "Chichén Itzá at a Glance"
+    },
+    "frase_gancho": {
+      "hash": "5e1b57cf61aa438b",
+      "texto": "A city built beside natural wells of water, in a land without rivers."
+    },
+    "puente_narrativo": {
+      "hash": "8d8b49e3baf8b546",
+      "texto": "Follow the tree-lined entrance path until the great esplanade opens up. There, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "aa4d1c9935dd8b5e",
+      "texto": "You are walking toward one of the most famous cities of the Maya world, and it all begins with a question: how do you found a capital where there are no rivers? In northern Yucatán, the limestone soaks up the rain like a sponge, and the water runs underground. It only shows up where the roof of a cave has collapsed: the cenotes. That is where the name comes from. Chichén Itzá means, in Maya, at the mouth of the well of the Itzá. Itzá is usually translated as water sorcerers, although that translation is debated. The city developed mostly between the years seven hundred fifty and eleven hundred, and since nineteen eighty-eight it has been a UNESCO World Heritage Site. In a few steps you will step out of the trees and see the great esplanade."
+    },
+    "guion_largo": {
+      "hash": "9713ff64ba37524e",
+      "texto": "Almost everything you will see today can be explained by two things: the water hidden beneath the earth and the meeting of different traditions of Mesoamerica.\n\nLet's begin with the water. In this part of Yucatán there is not a single river on the surface. Rain seeps through the limestone and runs through underground caves. The cenotes are the places where the roof of those caves sank in and left the water exposed. The Castle, the best-known building, sits at the crossing of two imaginary lines that join four cenotes: one runs from the Sacred Cenote, in the north, to Xtoloc, in the south, and the other from Holtún, in the west, to Kanjuyum, in the east. That is how the Great Maya Aquifer project describes it. That is why, before it is a city of stone, Chichén Itzá is a city of wells.\n\nThe name says it. Chi means mouth or edge, and ch'een means well. Itzá is the name of the group that gives the city its identity. One of the proposed translations links it with itz, which means sorcerer, and ha, which means water: hence the water sorcerers. But it is not the only reading. It is said that the people of the region called the Itzá those who speak our language halfway. And the books of the Chilam Balam mention older names for this place, such as Uuc Yabnal, which has been translated as seven great houses.\n\nAs for its history, archaeologists usually divide it like this. The central layout took shape between the years seven hundred fifty and nine hundred, and the city reached its final form after the year nine hundred. The earliest hieroglyphic date at the site corresponds to the year eight hundred thirty-two of our era. The latest known one is in the Ossuary temple, and it corresponds to the year nine hundred ninety-eight. Around the year eleven hundred, Chichén Itzá had already lost weight as a regional center.\n\nThere is a debate worth knowing about. For a long time it was thought that buildings in a style similar to that of central Mexico, such as the Temple of the Warriors, were the mark of an invasion from Tula. Today, most interpretations speak instead of influence and contact between regions, not of a conquest. You will see this dialogue of styles throughout your tour.\n\nOne practical warning. The INAH has closed off the climb and the entrance of many of the monuments. You can walk around them and look at them up close, but you cannot climb them or enter their chambers. That is why some stops tell you what is inside, and you imagine it from the outside.\n\nNow follow the path. When you step out of the trees, you will have in front of you the great esplanade, the artificial platform on which the ceremonial center rises."
+    },
+    "retos_observacion": {
+      "hash": "6b7b5e61e0c3a70e",
+      "texto": [
+        "Notice the white, porous limestone of the ground and the walls, the same rock that soaks up the rainwater",
+        "Observe the vegetation: it is low forest, with no rivers or lakes in sight",
+        "As you step out of the trees, look for the pyramid silhouette of the Castle in the center of the esplanade"
+      ]
+    },
+    "especificaciones": {
+      "hash": "31971c4db987001c",
+      "texto": {
+        "Name": "“at the mouth of the well of the Itzá”",
+        "Main development": "approximately between 750 and 1100 AD",
+        "Hieroglyphic dates": "from 832 (the earliest) to 998 (at the Ossuary)",
+        "Cenotes": "Sacred, Xtoloc, Kanjuyum, and Holtún",
+        "UNESCO designation": "World Heritage Site since 1988",
+        "Access": "the INAH does not allow climbing or entering most of the monuments"
+      }
+    },
+    "faq_mito": {
+      "hash": "ab6c68e0c235e559",
+      "texto": {
+        "pregunta": "Myth: The Toltecs of central Mexico conquered Chichén Itzá and built half of the city.",
+        "respuesta": "Reality: Most current interpretations speak of influence and cultural contact between the Maya area and central Mexico, not of a conquest."
+      }
+    }
+  }
+}
