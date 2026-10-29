@@ -6,7 +6,7 @@
   "scripts": {
     "sync-data": "node scripts/sync-sheets.js",
     "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "npm run sync-data && tsc && vite build",
+    "build": "npm run sync-data && tsc && vite build && node scripts/generar-paginas-seo.mjs",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",

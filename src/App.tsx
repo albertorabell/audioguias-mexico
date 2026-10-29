@@ -467,6 +467,21 @@ export default function App() {
     }
   };
 
+  // Enlace directo a un sitio (?sitio=MNA): lo usan las páginas de guía que ve Google. Se abre una sola vez al cargar y la marca se quita de la dirección.
+  const enlaceDirectoUsado = useRef(false);
+  useEffect(() => {
+    if (enlaceDirectoUsado.current || rawSites.length === 0) return;
+    enlaceDirectoUsado.current = true;
+    const url = new URL(window.location.href);
+    const pedido = url.searchParams.get('sitio');
+    if (!pedido) return;
+    url.searchParams.delete('sitio');
+    window.history.replaceState(window.history.state, '', url);
+    const sitio = rawSites.find((s) => s.id.toLowerCase() === pedido.toLowerCase() && s.status !== 'coming_soon');
+    if (sitio) void handleSelectSite(sitio);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [rawSites]);
+
   /** Abre una pieza dentro de su sala (anterior / siguiente recorren la sala). */
   const openPieceInRoom = useCallback(
     (pieceId: string) => {
