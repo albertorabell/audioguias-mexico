@@ -579,6 +579,18 @@ test('textos de pago: sin pase la ficha solo muestra el adelanto y el candado, y
   await expect(page.locator('#modal-paywall')).toBeVisible();
 });
 
+test('piezas gratis: sin pase se lee su texto completo, sin candado y sin pedir nada al servidor de textos', async ({ page }) => {
+  const api = await simularCobro(page);
+  await simularAudio(page, { privado: true, gratisPublico: true });
+  await sinVoces(page);
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await expect(page.locator('#texto-con-pase')).toHaveCount(0);
+  await page.locator('#btn-mode-full').click();
+  await expect(page.getByText(FRASE_SECRETA, { exact: false })).toBeVisible();
+  expect(api.calls.some((c) => c.path.startsWith('/texto/'))).toBe(false);
+});
+
 test('textos de pago: con pase se piden al servidor con la clave y aparece la explicación completa', async ({ page }) => {
   const api = await simularCobro(page);
   await simularAudio(page, { privado: true });

@@ -117,7 +117,7 @@ export async function simularCobro(page, opciones = {}) {
  * Agrega MP3 de mentira a dos piezas (una gratis y una de pago) sin tocar los archivos del proyecto,
  * y registra cada archivo que la app intenta reproducir en window.__plays.
  */
-export async function simularAudio(page, { privado = false, mp3 = true } = {}) {
+export async function simularAudio(page, { privado = false, mp3 = true, gratisPublico = false } = {}) {
   page.__piezasSimuladas = true;
   await page.addInitScript(() => {
     window.__plays = [];
@@ -131,7 +131,9 @@ export async function simularAudio(page, { privado = false, mp3 = true } = {}) {
     const response = await route.fetch();
     let pieces = (await response.json()).map(conTextoDePrueba);
     // privado = como en el sitio real: los datos públicos NO traen guiones, retos, mito ni ficha
-    if (privado) pieces = pieces.map((p) => splitPiece(p).pub);
+    // Por defecto el texto se esconde en todas las piezas (la pieza gratis del ensayo hace de pieza con texto de pago, aunque su audio sea libre).
+    // Con gratisPublico se ve el comportamiento real: una pieza gratis se publica completa.
+    if (privado) pieces = pieces.map((p) => (gratisPublico ? splitPiece(p).pub : { ...splitPiece({ ...p, is_free: false }).pub, is_free: p.is_free }));
     for (const p of mp3 ? pieces : []) {
       if (p.piece_id === FREE.id) {
         p.audio = { es: { corto: { path: `libre/es/${FREE.id}_corto.mp3`, premium: false, seconds: 2 }, largo: { path: `libre/es/${FREE.id}_largo.mp3`, premium: false, seconds: 2 } } };
