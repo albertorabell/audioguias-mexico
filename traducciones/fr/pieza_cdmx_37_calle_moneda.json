@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_37_calle_moneda",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc5fd4a8e328b316",
+      "texto": "Rue de la Monnaie : le pâté de maisons des musées"
+    },
+    "frase_gancho": {
+      "hash": "3a6e927c7e2f85ba",
+      "texto": "À côté du Palais national, une seule rue réunit un palais d’archevêques, un hôtel de la monnaie, une imprimerie et plusieurs couvents."
+    },
+    "puente_narrativo": {
+      "hash": "4617ef355a9a3503",
+      "texto": "Suivez la rue de la Monnaie jusqu’au numéro quatre, où un ancien palais d’archevêques abrite aujourd’hui de l’art. C’est le [Musée d’art de la SHCP](cdmx_38_museo_shcp)."
+    },
+    "como_llegar": {
+      "hash": "7e43f3d2b22e2c4e",
+      "texto": "Poursuivez vers la [rue de la Monnaie](cdmx_37_calle_moneda), sur le flanc du [Palais national](cdmx_29_palacio_nacional). C’est là que commence un pâté de maisons de musées et d’édifices de l’époque vice-royale, riches de nombreuses strates d’histoire."
+    },
+    "guion_corto": {
+      "hash": "1d4d0dd373c5f4d1",
+      "texto": "Une rue qui porte le nom de la monnaie. La rue de la Monnaie doit son nom à l’Hôtel royal de la Monnaie, l’édifice où l’on frappait la monnaie de la Nouvelle-Espagne. Mais ce pâté de maisons, qui naît entre la cathédrale et le Palais national, garde bien plus que des pièces. Il y eut ici un palais d’archevêques, et à quelques pas s’installa la première imprimerie d’Amérique. Tout près se trouve un couvent où sœur Juana passa quelques mois. Aujourd’hui, plusieurs de ces édifices sont des musées, et nous les visiterons un par un. Le tronçon est court, mais chaque numéro cache une histoire différente. Cette rue est la porte d’entrée d’un petit quartier d’histoire."
+    },
+    "guion_largo": {
+      "hash": "fa327954c4eae698",
+      "texto": "La rue de la Monnaie est l’une de ces rues courtes chargées de mémoire. Elle naît entre la cathédrale et le Palais national, à l’angle de la rue Seminario, et se dirige vers l’est. À ce premier angle fonctionna la première université d’Amérique, puis une cantine. Son nom vient de l’Hôtel royal de la Monnaie, qui est aujourd’hui le [Musée national des cultures du monde](cdmx_39_culturas_mundo). L’histoire de cet édifice et de son terrain, nous la racontons à son arrêt.\n\nRegardez comme les pouvoirs de la vice-royauté cohabitent ici. Sur le côté se dresse le [Palais national](cdmx_29_palacio_nacional), siège du gouvernement. Au numéro quatre se trouvait le palais des archevêques, aujourd’hui [Musée d’art de la SHCP](cdmx_38_museo_shcp). Et au numéro treize, la maison où l’on frappait la monnaie. L’Église, le gouvernement et l’argent occupèrent des édifices voisins, dans le même pâté de maisons.\n\nÀ quelques pas, à l’angle de la rue Primo de Verdad, s’installa la première imprimerie d’Amérique. Sa presse arriva en mille cinq cent trente-neuf, à l’initiative de frère Juan de Zumárraga et du vice-roi Antonio de Mendoza. Quand vous arriverez à la [Maison de la première imprimerie d’Amérique](cdmx_40_primera_imprenta), vous verrez pourquoi une plaque indique une autre date.\n\nTout près commencent les couvents. Celui de Santa Teresa la Antigua, des carmélites déchaussées, se partage aujourd’hui entre [Ex Teresa Arte Actual](cdmx_41_ex_teresa) et le [Palais de l’Autonomie](cdmx_42_palacio_autonomia). Sœur Juana Inés de la Cruz entra chez les carmélites en mille six cent soixante-sept. Elle en sortit au bout de quelques mois, pour des raisons de santé.\n\nL’ordre des arrêts connaît un petit va-et-vient. Vous verrez d’abord le numéro quatre, puis le treize, qui se trouve plus à l’est, et ensuite vous reviendrez de quelques pas jusqu’à l’angle de la rue Primo de Verdad, où se regroupent l’imprimerie et les couvents. C’est un demi-pâté de maisons, et il vaut le détour pour ce que raconte chaque édifice. Tandis que vous avancez, l’histoire passe du monde mexica à la vice-royauté, puis de là à la république : d’abord le terrain de Moctezuma, ensuite les archevêques et l’imprimerie, et enfin les musées d’aujourd’hui.\n\nPrès de l’angle de la rue Correo Mayor, deux grandes demeures baroques, face à face, forment les Maisons du majorat de Guerrero. Elles rappellent que cette rue n’a pas seulement compté des églises et des bureaux, mais aussi les maisons de familles puissantes.\n\nUn peu plus loin, dans la rue Academia, se trouve le Musée José Luis Cuevas. Il n’a pas d’arrêt propre dans ce parcours, mais il mérite d’être mentionné. Il occupe l’ancien couvent de Santa Inés et ouvrit comme musée en mille neuf cent quatre-vingt-douze. Le couvent fut reconstruit à la fin du dix-huitième siècle, en grande partie sous la direction de Manuel Tolsá. Il réunit environ mille huit cent soixante œuvres, surtout de peintres et d’illustrateurs latino-américains.\n\nCette rue apprend à regarder le Centre par strates. Chaque façade fut palais, couvent, bureau ou école. Presque toutes répètent la même leçon : la ville change d’usage, mais le sol garde la mémoire. Avant de poursuivre, repérez le numéro quatre de la rue de la Monnaie, qui est votre prochaine destination."
+    },
+    "retos_observacion": {
+      "hash": "60fd3508c8d52dc7",
+      "texto": [
+        "Cherchez le numéro quatre de la rue de la Monnaie, l’entrée de l’ancien palais des archevêques",
+        "Trouvez le numéro treize, l’édifice de l’ancien Hôtel de la Monnaie",
+        "Repérez l’angle de la rue Primo de Verdad et la plaque qui rappelle la première imprimerie d’Amérique"
+      ]
+    },
+    "especificaciones": {
+      "hash": "44ac57f5dd908f7b",
+      "texto": {
+        "Emplacement": "rue de la Monnaie, à côté du Palais national",
+        "Origine du nom": "l’Hôtel royal de la Monnaie",
+        "Hôtel de la Monnaie": "édifice construit entre 1731 et 1734",
+        "4, rue de la Monnaie": "Musée d’art de la SHCP, ancien Palais de l’Archevêché",
+        "13, rue de la Monnaie": "Musée national des cultures du monde",
+        "À proximité": "Première Imprimerie, Ex Teresa, Palais de l’Autonomie et Musée José Luis Cuevas"
+      }
+    },
+    "faq_mito": {
+      "hash": "1bdfaf973703a71c",
+      "texto": {
+        "pregunta": "Mythe : L’édifice de l’Hôtel de la Monnaie date de l’époque d’Hernán Cortés.",
+        "respuesta": "Réalité : Le terrain a une histoire qui remonte à la Conquête, mais l’édifice actuel fut construit entre mille sept cent trente et un et mille sept cent trente-quatre."
+      }
+    }
+  }
+}

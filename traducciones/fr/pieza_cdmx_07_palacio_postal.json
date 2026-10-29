@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_07_palacio_postal",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6db03b79813513b9",
+      "texto": "Palais de la Poste : un palais postal qui reste en service"
+    },
+    "frase_gancho": {
+      "hash": "1cd54201b5afb1ad",
+      "texto": "C’est un palais éclectique inauguré en mille neuf cent sept, qui fonctionne encore aujourd’hui comme bureau de poste."
+    },
+    "puente_narrativo": {
+      "hash": "c97784ee341518e6",
+      "texto": "Poursuivez par la rue de Tacuba, à quelques pas, vers la place voisine, où se dresse la sculpture équestre connue sous le nom de Caballito."
+    },
+    "como_llegar": {
+      "hash": "ed3dc04e2d81cc69",
+      "texto": "Revenez par l’Alameda vers l’Eje Central, puis continuez vers la rue de Tacuba. À quelques pas, le Palais de la Poste vous attend."
+    },
+    "guion_corto": {
+      "hash": "2719365080488442",
+      "texto": "Ce palais fonctionne-t-il toujours comme bureau de poste ? Oui. C’est le Palais de la Poste, le cinquième édifice à avoir abrité le service postal à Mexico. Il a été inauguré le dix-sept février mille neuf cent sept. Il a été conçu par l’architecte italien Adamo Boari, celui de Bellas Artes, et l’ingénieur Gonzalo Garita s’est chargé de la structure. Contrairement à son célèbre voisin, ce palais a été achevé en cinq ans. Son extérieur mêle gothique vénitien, style isabélin et plateresque, avec une façade en pierre de carrière. La ferronnerie et les bronzes ont été réalisés à Florence, et sa structure est une ossature d’acier. Plus d’un siècle plus tard, l’édifice continue d’assurer le service postal."
+    },
+    "guion_largo": {
+      "hash": "81061dc7f7420f6b",
+      "texto": "Le lieu où vous vous trouvez a une histoire antérieure. Vers mille sept cent cinquante, les franciscains ont fondé ici l’hôpital des Tertiaires, dans la rue de San Andrés, aujourd’hui rue de Tacuba. Cet hôpital a été démoli pour laisser place au nouveau palais.\n\nPorfirio Díaz a engagé l’architecte italien Adamo Boari, celui-là même qui travaillait déjà au projet de Bellas Artes. À ses côtés se trouvait Gonzalo Garita, ingénieur militaire mexicain, qui s’est chargé des fondations et de la structure. Tous deux ont introduit au Mexique le système dit de Chicago, une combinaison d’acier et de béton. Garita a aussi construit d’autres édifices de la ville, comme El Centro Mercantil et La Mutua. Les travaux ont commencé en mille neuf cent deux, et le palais a été inauguré le dix-sept février mille neuf cent sept.\n\nLa structure est une ossature de colonnes et de poutres d’acier, qui a permis de construire des murs plus minces. Les fondations ont été réalisées avec des poutrelles d’acier sur une dalle de béton armé.\n\nLe style est éclectique. L’extérieur mêle le gothique vénitien au style isabélin, et l’on y trouve aussi des traits du plateresque. La façade est en pierre de carrière. L’escalier principal, les grilles et les bronzes décoratifs ont été fabriqués à la fonderie Pignone, à Florence, en Italie. En haut se trouve une horloge importée d’Allemagne, qui a été assemblée au Mexique avec des poulies et des systèmes hydrauliques et électriques. À l’intérieur, certains salons ont des fresques de Bartolomé Gallotti sur des fonds d’or de vingt-quatre carats. Leurs thèmes se rapportent à la communication écrite et à l’envoi de messages.\n\nUne anecdote : le Palais de la Poste et Bellas Artes ont des auteurs communs, mais des destins différents. Alors que Bellas Artes a mis trente ans à être achevé, ce palais a été terminé en cinq. Et il se maintient debout sans signe d’affaissement, bien que Boari et Garita l’aient construit avant le théâtre.\n\nAujourd’hui, l’édifice continue d’assurer le service postal. À son deuxième étage se trouve une exposition permanente sur la culture postale, avec un salon interactif de philatélie, c’est-à-dire l’étude des timbres et des vignettes postales. Les sols et les paliers des escaliers allient marbres et ferronnerie, et la pierre de carrières mexicaines a servi à sa construction. Ainsi, bien qu’il ait été dessiné par un architecte italien, il est fait de matériaux du pays.\n\nPensez aussi que le courrier a été pendant des siècles le moyen d’avoir des nouvelles d’une personne lointaine : lettres, colis et nouvelles passaient par des édifices comme celui-ci. Ici, cela continue, à quelques pas du théâtre que vous venez de laisser derrière vous, celui de [Bellas Artes](cdmx_01_bellas_artes).\n\nGonzalo Garita n’a pas travaillé qu’ici. Il a aussi construit la Casa Boker, que vous verrez plus loin dans le parcours, dans la [rue de Madero](cdmx_24_casa_boker).\n\nQuand vous vous éloignerez, tournez-vous encore une fois vers la façade. La prochaine étape se trouve dans cette même rue de Tacuba. Elle est née elle aussi dans les dernières années du Porfiriat, pour une institution de l’État consacrée aux communications."
+    },
+    "retos_observacion": {
+      "hash": "7a5df2a76e2b01ec",
+      "texto": [
+        "Cherchez l’horloge de la tour de l’édifice",
+        "Parcourez du regard la façade en pierre de carrière et cherchez les détails décoratifs qui rappellent le gothique",
+        "Observez la ferronnerie des grilles et des balcons, ainsi que ses motifs décoratifs"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3e28a7d5054e4a70",
+      "texto": {
+        "Époque": "travaux de 1902 à 1907 ; inauguré le 17 février 1907",
+        "Auteurs": "Adamo Boari (projet) et Gonzalo Garita (ingénierie et construction)",
+        "Style": "éclectique, avec du gothique vénitien, de l’isabélin et du plateresque",
+        "Emplacement": "Tacuba 1, angle de l’Eje Central Lázaro Cárdenas",
+        "Donnée clé": "c’est le cinquième édifice à avoir abrité la poste à Mexico, et il est toujours en service"
+      }
+    },
+    "faq_mito": {
+      "hash": "bab6f85e92bb8b0e",
+      "texto": {
+        "pregunta": "Mythe : Le Palais de la Poste ne fonctionne plus comme bureau de poste et n’est plus aujourd’hui qu’un musée.",
+        "respuesta": "Réalité : Il fonctionne toujours comme bureau de poste et abrite en outre un musée à son deuxième étage."
+      }
+    }
+  }
+}
