@@ -127,3 +127,19 @@ test('antes de ir: el manifiesto lo incluye solo si hay temas', () => {
   assert.equal(manifiestoSitio(sitio, [], undefined).before_visit, undefined);
   assert.equal(manifiestoSitio(sitio, [], undefined, [{ topic: 'llegar', title: 'a', text: 'b' }]).before_visit.length, 1);
 });
+
+test('columna principal de RUTAS: marca el recorrido del botón «Empezar recorrido» y pasa a los recorridos', async () => {
+  const { aplicarDefiniciones } = await import('../sitios-extra-lib.mjs');
+  const d = leerDefinicionesRutas([
+    ['ruta', 'nombre', 'duracion', 'minutos', 'descripcion', 'principal'],
+    ['corto', 'Corto', '1 h', '60', '', 'SI'],
+    ['largo', 'Largo', '3 h', '180', '', ''],
+    ['otro', 'Otro', '2 h', '120', '', 'no'],
+  ]);
+  assert.deepEqual(d.map((x) => !!x.principal), [true, false, false]);
+  const rutas = construirRutasSitio('x', piezas, salas, d.slice(0, 2), new Map([['x_b', ['corto', 'largo']]]));
+  assert.equal(rutas[0].principal, true);
+  assert.equal(rutas[1].principal, undefined);
+  const r = aplicarDefiniciones([{ id: 'ruta-uno', name: 'U', stops: [1] }], leerDefinicionesRutas([['ruta', 'nombre', 'principal'], ['ruta-uno', 'U', 'TRUE']]));
+  assert.equal(r.rutas[0].principal, true);
+});

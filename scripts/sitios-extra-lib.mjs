@@ -20,6 +20,8 @@ export function leerDefinicionesRutas(filas) {
     const def = { key, id: `ruta-${key.replace(/[^a-z0-9]+/g, '-')}`, name: o.nombre, duration: o.duracion, estimated_minutes: minutos, description: o.descripcion };
     // grupo = cómo se agrupa en la app: tiempo | tema | completo (vacío = sin agrupar)
     if (['tiempo', 'tema', 'completo'].includes(String(o.grupo || '').toLowerCase())) def.group = String(o.grupo).toLowerCase();
+    // principal = SI: es el recorrido que arranca el botón «Empezar recorrido» de la portada
+    if (/^(si|sí|true|verdadero|1|x)$/i.test(String(o.principal || ''))) def.principal = true;
     for (const l of ['en', 'fr', 'pl']) {
       if (o[`nombre_${l}`]) def[`name_${l}`] = o[`nombre_${l}`];
       if (o[`descripcion_${l}`]) def[`description_${l}`] = o[`descripcion_${l}`];
@@ -164,6 +166,7 @@ export function aplicarDefiniciones(rutas, defs, claveDe = () => '') {
     usadas.add(d.key);
     const nueva = { ...r };
     if (d.group) nueva.group = d.group;
+    if (d.principal) nueva.principal = true;
     for (const campo of ['name', 'duration', 'description', 'name_en', 'name_fr', 'name_pl', 'description_en', 'description_fr', 'description_pl']) {
       if (d[campo]) nueva[campo] = d[campo];
     }

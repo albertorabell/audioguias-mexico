@@ -198,6 +198,9 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
     return [...(byTime.length ? byTime : routes)].sort((a, b) => minutesOf(a) - minutesOf(b)).slice(0, 6);
   }, [routes]);
 
+  /** El recorrido del botón «Empezar recorrido»: el que el Sheet marca como principal, o el más corto. */
+  const mainRoute = useMemo(() => routes.find((r) => r.principal) || shelf[0], [routes, shelf]);
+
   const range = useMemo(() => {
     const all = routes.map(minutesOf).filter((x) => x > 0);
     return all.length ? { min: Math.min(...all), max: Math.max(...all) } : null;
@@ -286,13 +289,13 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
               {m.facts(u.worksCount(pieces.length), u.roomsCount(rooms.length))}
               {range && ` ${range.min === range.max ? m.routeOne(inlineDuration(range.min)) : m.routeRange(inlineDuration(range.min), inlineDuration(range.max))}`}
             </p>
-            {shelf.length > 0 && !continueInfo && (
+            {mainRoute && !continueInfo && (
               <div className="mt-6">
-                <button type="button" id="btn-start-tour" onClick={() => onStartRoute(shelf[0])} className="btn-primary w-full">
+                <button type="button" id="btn-start-tour" onClick={() => onStartRoute(mainRoute)} className="btn-primary w-full">
                   {m.startTour}
                 </button>
                 <p className="mt-2 text-cap text-ink-3 text-center text-pretty">
-                  {shelf[0].name} · {inlineDuration(minutesOf(shelf[0]))}
+                  {mainRoute.name} · {inlineDuration(minutesOf(mainRoute))}
                 </p>
                 <button
                   type="button"
