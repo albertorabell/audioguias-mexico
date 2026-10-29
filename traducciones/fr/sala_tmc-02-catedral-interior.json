@@ -1,0 +1,22 @@
+{
+  "id": "tmc-02-catedral-interior",
+  "tipo": "sala",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "c3d4a174d2b422f8",
+      "texto": "L’intérieur de la cathédrale"
+    },
+    "frase_gancho": {
+      "hash": "30670f3cc6968f75",
+      "texto": "Un édifice vivant qui s’enfonce lentement et qui garde cinq siècles d’art."
+    },
+    "introduccion_narrativa": {
+      "hash": "0a724d9f2790ecb0",
+      "texto": "Vous entrez dans la cathédrale. Vous verrez la nef centrale, le chœur avec ses orgues, l’autel du Pardon et l’autel des Rois, les chapelles latérales, celle de San Felipe de Jesús avec les restes d’Iturbide, la sacristie avec la crypte et, pour finir, le sol et l’affaissement qui a endommagé l’édifice. Cela fait huit étapes. L’ordre des chapelles peut varier selon les travaux et les restrictions d’accès du jour."
+    }
+  }
+}

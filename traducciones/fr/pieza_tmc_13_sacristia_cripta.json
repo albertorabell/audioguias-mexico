@@ -1,0 +1,56 @@
+{
+  "id": "tmc_13_sacristia_cripta",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1fa89b4b488419e3",
+      "texto": "Les espaces réservés : la sacristie et la Crypte des Archevêques"
+    },
+    "frase_gancho": {
+      "hash": "4ef71167f0c9b52a",
+      "texto": "Soixante-quinze cryptes, quarante et une occupées, et une sacristie qui abrite des œuvres de deux grands peintres de l’époque vice-royale."
+    },
+    "puente_narrativo": {
+      "hash": "775b72d14d19c740",
+      "texto": "Revenez par la nef vers la sortie. Avant de partir, il reste un sujet : le sol qui porte toute la cathédrale."
+    },
+    "guion_corto": {
+      "hash": "4d604042952ee7ca",
+      "texto": "Près du chevet de la cathédrale se trouvent deux espaces qui ne se visitent pas toujours. L’un est la Grande Sacristie, où l’on conserve les objets du culte et où, à la fin du dix-septième siècle, ont travaillé les peintres Cristóbal de Villalpando et Juan Correa. L’autre est la Crypte des Archevêques, sous le chevet, avec soixante-quinze cryptes, dont quarante et une sont occupées. Là reposent frère Juan de Zumárraga, le premier évêque de Mexico, et le cardinal Ernesto Corripio Ahumada, décédé en deux mille huit. L’accès à ces espaces est limité et se fait par des visites guidées. Renseignez-vous au point d’accueil de la cathédrale."
+    },
+    "guion_largo": {
+      "hash": "4de87852595aafb7",
+      "texto": "Cette étape s’adresse à ceux qui veulent voir la cathédrale au-delà de ses autels dorés. Près du chevet se trouvent des espaces réservés qui ne sont pas toujours ouverts. Si vous les trouvez fermés aujourd’hui, écoutez cette étape depuis la nef et pensez à ce qui se cache derrière ces portes.\n\nCommençons par la Grande Sacristie. Une sacristie est le lieu où l’on conserve les objets du culte et où les clercs se préparent pour les cérémonies. Dans la sacristie de cette cathédrale, on trouve des œuvres de deux des peintres les plus importants de la Nouvelle-Espagne, Cristóbal de Villalpando et Juan Correa, datant de la fin du dix-septième siècle. À côté se trouve la Salle capitulaire, le lieu où se réunissait le chapitre, c’est-à-dire le groupe de chanoines qui dirigeait la cathédrale. Le style de ces salles est herrérien, un style espagnol sobre, qui contraste avec le baroque des autels.\n\nLe trésor de la cathédrale comprend aussi des tissus et des ornements liturgiques, en plus de peintures, même s’ils ne sont pas toujours exposés.\n\nDescendons maintenant à la crypte. La Crypte des Archevêques se trouve sous le chevet, à l’extrémité nord du temple. Sa construction a commencé entre mille neuf cent trente-huit et mille neuf cent trente-neuf, et s’est achevée en mille neuf cent quarante-deux. Autrement dit, elle est bien plus récente que l’édifice.\n\nLà reposent des évêques et des archevêques de l’histoire de l’archidiocèse. Le plus ancien est frère Juan de Zumárraga, premier évêque de Mexico, qui a vécu de mille quatre cent soixante-huit à mille cinq cent quarante-huit. Un mémorial le relie à l’histoire de la Vierge de Guadalupe. Le dernier inhumé est le cardinal Ernesto Corripio Ahumada, qui a vécu de mille neuf cent douze à deux mille huit. On y trouve aussi les restes de Juan de Palafox y Mendoza, évêque de Mexico et de Puebla, et de Francisco de Aguiar y Seijas, confesseur de sœur Juana Inés de la Cruz.\n\nL’espace compte soixante-quinze cryptes, dont quarante et une sont occupées. Il y a aussi quatre pourrissoirs, qui faisaient partie des anciens procédés funéraires. L’Église n’acceptait pas la crémation : les corps étaient donc placés au cimetière pendant un certain temps, puis les ossements étaient transportés dans les cryptes.\n\nLa porte d’accès a une histoire curieuse. Elle est en marbre et porte l’écusson des rois. Elle fut d’abord la pierre tombale de l’archevêque Juan de Mañozca y Zamora, et elle conserve une biographie en latin. L’entrée de la crypte est donc une tombe réutilisée.\n\nPour visiter ces espaces, l’accès est limité et il existe des visites guidées. Renseignez-vous au point d’accueil de la cathédrale, car les horaires et les tarifs changent. Certains espaces, comme le chœur, la sacristie, la crypte et les tours, demandent un don ou une participation financière.\n\nEn sortant, pensez au contraste. En haut, l’or de l’autel des Rois. En bas, le silence des sépulcres. Et sous tout cela, le terrain meuble qui porte l’un et l’autre, et dont nous parlerons tout de suite."
+    },
+    "retos_observacion": {
+      "hash": "4438ea91a14e47da",
+      "texto": [
+        "Demandez au point d’accueil s’il existe des visites de la sacristie ou de la crypte",
+        "Si vous parvenez à entrer dans la crypte, cherchez la porte de marbre avec l’écusson et son inscription en latin",
+        "Comparez la sobriété de la sacristie avec les autels dorés de la nef"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a1b4893f7eeafd97",
+      "texto": {
+        "Peintres de la Grande Sacristie": "Cristóbal de Villalpando et Juan Correa, fin du XVIIe siècle",
+        "Cryptes": "75, dont 41 occupées",
+        "Pourrissoirs": "4",
+        "Construction de la crypte actuelle": "de 1938 ou 1939 à 1942",
+        "Frère Juan de Zumárraga": "1468 à 1548",
+        "Cardinal Ernesto Corripio Ahumada": "1912 à 2008"
+      }
+    },
+    "faq_mito": {
+      "hash": "83779f3e92636fea",
+      "texto": {
+        "pregunta": "Mythe : La crypte de la cathédrale renferme les restes de tous les vice-rois.",
+        "respuesta": "Réalité : La Crypte des Archevêques abrite les restes d’évêques et d’archevêques de l’archidiocèse ; les restes d’Iturbide se trouvent dans la chapelle de San Felipe de Jesús."
+      }
+    }
+  }
+}

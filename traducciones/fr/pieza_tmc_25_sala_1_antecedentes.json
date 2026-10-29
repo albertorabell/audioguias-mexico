@@ -1,0 +1,55 @@
+{
+  "id": "tmc_25_sala_1_antecedentes",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d65b72e47e60637d",
+      "texto": "Salle un : antécédents et découvertes depuis mille sept cent quatre-vingt-dix"
+    },
+    "frase_gancho": {
+      "hash": "2f29ce8d060a1843",
+      "texto": "Deux siècles de découvertes, d’une trouvaille sur la place aux fouilles modernes."
+    },
+    "puente_narrativo": {
+      "hash": "c24757a6737cba82",
+      "texto": "La visite se poursuit à la salle deux, où sont exposées les offrandes du sanctuaire de Huitzilopochtli."
+    },
+    "guion_corto": {
+      "hash": "e0d388d0d0804442",
+      "texto": "La salle un raconte comment le Templo Mayor a peu à peu été découvert. Elle commence avec les trouvailles survenues à partir de mille sept cent quatre-vingt-dix, lorsque des sculptures mexicas sont apparues sur la place, et se poursuit jusqu’aux fouilles du vingtième siècle. Elle explique aussi ce que sont les offrandes. On en a trouvé plus de cent, de trois types : de remplissage, de ciste et de coffre. Chaque type est lié à la manière de déposer les objets. La salle évoque en outre le travail du Programme d’archéologie urbaine en mille neuf cent quatre-vingt-onze. C’est un bon point de départ pour comprendre d’où vient ce que vous verrez ensuite, et comment on est parvenu à le connaître."
+    },
+    "guion_largo": {
+      "hash": "927f9242f15b7373",
+      "texto": "La salle un s’intitule Antécédents. C’est une salle d’introduction, conçue pour expliquer comment et pourquoi nous connaissons aujourd’hui le Templo Mayor. Beaucoup de visiteurs la traversent rapidement pour rejoindre les grandes pièces, mais il convient de s’y arrêter, car elle donne les clés pour lire tout le reste.\n\nElle commence avec les trouvailles survenues à partir de mille sept cent quatre-vingt-dix. Cette année-là, de grandes sculptures mexicas sont apparues sur la place. Plus loin, dans la dernière salle du musée, vous verrez une offrande coloniale de cette même année.\n\nDe là, la salle avance vers les fouilles du vingtième siècle. Manuel Gamio a travaillé en ce lieu entre mille neuf cent treize et mille neuf cent quatorze. Plus tard, en mille neuf cent soixante-dix-huit, la découverte de Coyolxauhqui a donné naissance au Projet Templo Mayor. Ce sont les épisodes que vous avez vus dans la zone archéologique, racontés cette fois avec des objets et des explications. Il s’est écoulé beaucoup de temps entre une découverte et l’autre, et cet écart aide à comprendre pourquoi le Templo Mayor n’est connu en détail que depuis quelques décennies.\n\nLes offrandes sont un autre thème central de la salle. Une offrande est un ensemble d’objets que l’on enterrait dans le cadre d’un rituel. Au Templo Mayor, on en a trouvé plus de cent. Elles se classent en trois types : de remplissage, de ciste et de coffre, selon la manière de les déposer. Ne vous souciez pas de retenir ces noms. L’essentiel est que chaque offrande avait un emplacement et un sens, et que les archéologues les ont enregistrées une à une.\n\nLa salle mentionne aussi le travail du Programme d’archéologie urbaine, qui, en mille neuf cent quatre-vingt-onze, a réalisé des explorations dans le centre de la ville. Ce programme existe parce que, dans une ville vivante, n’importe quel chantier peut tomber sur des vestiges anciens, et quelqu’un doit les examiner à temps. Ce programme est le même qui, des années plus tard, explorerait le Huei Tzompantli, dont nous avons déjà parlé.\n\nCette salle aide à changer de regard. Les objets que vous verrez dans les salles suivantes proviennent de fouilles méthodiques, avec un relevé de l’endroit où ils se trouvaient et de la façon dont ils étaient disposés. Cette information fait partie de leur valeur, car un objet sans contexte en dit beaucoup moins. C’est pourquoi les archéologues notent chaque détail du lieu où apparaît une pièce.\n\nSi vous prenez votre temps, observez les plans ou les photographies présents dans la salle. S’ils montrent la zone avant la fouille, comparez-les avec ce que vous venez de parcourir. C’est une façon de se rappeler que la ville d’aujourd’hui continue de vivre sur l’ancienne.\n\nEn sortant de cette salle, vous aurez une idée claire de la manière dont le temple a été découvert, du temps qu’il a fallu à la ville pour voir ce qu’elle avait sous ses pieds et des raisons pour lesquelles chaque offrande compte. Vous serez ainsi prêt à entrer de plain-pied dans le monde rituel. La salle suivante traite du rituel et du sacrifice, et commence par les offrandes du sanctuaire de Huitzilopochtli."
+    },
+    "retos_observacion": {
+      "hash": "8931829a12769bed",
+      "texto": [
+        "Observez les plans ou les photographies des fouilles, s’il y en a, et comparez-les avec la zone que vous venez de parcourir",
+        "Repérez les trois types d’offrande : de remplissage, de ciste et de coffre",
+        "Remarquez la date de 1790 et songez au temps écoulé jusqu’aux fouilles modernes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d9d136ac22d0d5bd",
+      "texto": {
+        "Salle": "1, Antécédents",
+        "Découvertes depuis": "1790",
+        "Offrandes découvertes": "plus de 100",
+        "Types d’offrande": "remplissage, ciste et coffre",
+        "Programme d’archéologie urbaine": "1991"
+      }
+    },
+    "faq_mito": {
+      "hash": "b5f7b6828d1d5852",
+      "texto": {
+        "pregunta": "Mythe : Toutes les offrandes du Templo Mayor sont identiques.",
+        "respuesta": "Réalité : On en a trouvé plus de 100 et elles se classent en 3 types : de remplissage, de ciste et de coffre."
+      }
+    }
+  }
+}

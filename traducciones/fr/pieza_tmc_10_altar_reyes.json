@@ -1,0 +1,55 @@
+{
+  "id": "tmc_10_altar_reyes",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "717ece26ec5d7c3c",
+      "texto": "L’Autel des Rois : la caverne dorée"
+    },
+    "frase_gancho": {
+      "hash": "127bcda5b65b79b0",
+      "texto": "Le premier retable à estipites du Mexique, réalisé entre mille sept cent dix-huit et mille sept cent trente-sept."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "Quand vous serez prêt, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "ba40c288a5ee1e0b",
+      "texto": "Au fond du temple, derrière le maître-autel, s’élève l’Autel des Rois. Il fut réalisé par Jerónimo de Balbás entre mille sept cent dix-huit et mille sept cent trente-sept, et l’INAH le considère comme le premier retable fait au Mexique avec des estipites. On l’appelle la caverne dorée, à cause de l’éclat de ses feuilles d’or. Il couvre le mur du chevet comme une immense paroi sculptée, pleine de colonnes, d’images et d’ornements. L’incendie de mille neuf cent soixante-sept a endommagé sa partie haute, qui a été restaurée par la suite. Sous cette zone se trouve la crypte des archevêques. Regardez lentement : chaque niveau cache des figures que l’on découvre avec le temps."
+    },
+    "guion_largo": {
+      "hash": "878c52d01ec6c336",
+      "texto": "Vous vous trouvez devant l’œuvre la plus grande et la plus éblouissante de la cathédrale. Elle occupe le fond du temple, dans la chapelle majeure, derrière le maître-autel, et c’est pourquoi on l’appelle aussi le retable majeur.\n\nC’est une création de Jerónimo de Balbás. Elle fut travaillée entre mille sept cent dix-huit et mille sept cent trente-sept, c’est-à-dire pendant près de vingt ans. On dit qu’un autre artiste, Francisco Martínez, l’aurait terminée après le départ de Balbás. L’essentiel est que l’INAH le considère comme le premier retable fait au Mexique avec des pilastres estipites, un support qui s’amincit vers le bas. Après cet autel, l’estipite est devenu très fréquent dans le baroque de la Nouvelle-Espagne.\n\nL’autel est fait de bois de cèdre blanc et d’ayacahuite, recouvert de feuilles d’or. Il mesure environ vingt-cinq mètres de haut, presque quatorze de large et sept de profondeur, des chiffres qui aident à imaginer sa taille. Ce que l’on constate au premier regard, c’est qu’il occupe tout le mur du chevet, de bas en haut, sans laisser le moindre espace libre.\n\nPour son éclat, on le connaît comme la caverne dorée. C’est une belle image, car le retable ressemble à une grotte d’or avec des niches, des balcons et des sculptures. Chaque niveau possède des niches avec des images. Pour le lire avec calme, commencez par la partie basse et montez du regard.\n\nL’autel a subi des dommages. Le dix-sept janvier mille neuf cent soixante-sept, l’incendie qui avait commencé dans l’Autel du Pardon a atteint la partie haute de ce retable. Il a été restauré par la suite. Aujourd’hui, il se conserve comme l’une des plus grandes œuvres de la sculpture dorée de l’époque vice-royale.\n\nIl vaut aussi la peine de regarder ce qui se trouve devant. Le maître-autel actuel est une table, du début de ce siècle. C’est une pièce simple, qui contraste avec le fond surchargé. La table sert à la messe d’aujourd’hui, et le retable conserve la mémoire du culte des siècles passés.\n\nSous cette zone de la cathédrale se trouve la crypte des archevêques. Là reposent Juan de Zumárraga, premier évêque de Mexico, et d’autres archevêques de l’histoire de la ville. Nous en parlerons plus tard.\n\nComme beaucoup de monuments de la ville, cet autel cohabite avec la mémoire préhispanique du lieu. La cathédrale a été bâtie près de l’ancienne Enceinte sacrée, et l’abside se trouve à l’extrémité nord du temple, loin de la place. Si vous marchez d’ici vers l’est, en sortant de la cathédrale, vous arriverez en quelques minutes aux ruines du Templo Mayor.\n\nPour terminer, un conseil de lecture. N’essayez pas de voir tout le retable d’un seul coup. Commencez par la base, montez niveau par niveau et revenez au centre quand vous serez fatigué. C’est une œuvre qui se comprend mieux avec du temps et sans hâte."
+    },
+    "retos_observacion": {
+      "hash": "2ffdf425e4bc1e4f",
+      "texto": [
+        "Commencez par la base du retable et montez du regard niveau par niveau",
+        "Comptez les estipites que vous parvenez à distinguer sur la façade du retable",
+        "Cherchez le contraste entre le maître-autel, simple, et le retable surchargé du fond"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2978582453ae8d36",
+      "texto": {
+        "Auteur": "Jerónimo de Balbás",
+        "Années de réalisation": "1718 à 1737",
+        "Matériaux": "cèdre blanc et ayacahuite avec feuille d’or",
+        "Dimensions approximatives": "environ 25 m de haut, 13,75 m de large et 7,5 m de profondeur",
+        "Emplacement": "Chapelle majeure, extrémité nord du temple"
+      }
+    },
+    "faq_mito": {
+      "hash": "e075b243fb469c68",
+      "texto": {
+        "pregunta": "Mythe : L’Autel des Rois est en or massif.",
+        "respuesta": "Réalité : C’est un retable en bois sculpté, recouvert de feuille d’or ; c’est pourquoi on l’appelle la caverne dorée."
+      }
+    }
+  }
+}

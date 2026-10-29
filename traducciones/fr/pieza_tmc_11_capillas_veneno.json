@@ -1,0 +1,56 @@
+{
+  "id": "tmc_11_capillas_veneno",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "832c184ecb17da30",
+      "texto": "Les chapelles latérales et le Señor del Veneno"
+    },
+    "frase_gancho": {
+      "hash": "32ed46a0fe420af1",
+      "texto": "Seize chapelles, quatorze ouvertes, et un Christ en pâte de tige de maïs vénéré depuis des siècles."
+    },
+    "puente_narrativo": {
+      "hash": "8c835d5c9e5385eb",
+      "texto": "Parmi les chapelles, cherchez celle de San Felipe de Jesús, où reposent les restes d’Agustín de Iturbide."
+    },
+    "guion_corto": {
+      "hash": "e8cac4bffec00841",
+      "texto": "De part et d’autre des nefs s’ouvrent les chapelles latérales. La cathédrale en compte seize, dont quatorze sont ouvertes au public. Chacune est dédiée à un saint ou à une invocation et, à l’époque vice-royale, elle était financée par un ordre religieux ou une confrérie. Parmi elles figurent les chapelles des Reliques, des Anges, de San Pedro et de San Felipe de Jesús. L’une des images les plus vénérées est le Señor del Veneno, un Christ crucifié fait de pâte de tige de maïs, du dix-huitième siècle. Il provient du noviciat dominicain de Porta Coeli. Une autre est le Señor del Cacao."
+    },
+    "guion_largo": {
+      "hash": "95f34d1b5f81801c",
+      "texto": "Marchez le long de l’une des nefs latérales et vous verrez se succéder des chapelles, chacune avec son autel, son retable et son atmosphère. C’est l’un des lieux les plus riches de la cathédrale, car chaque chapelle fonctionne comme une petite église à l’intérieur de la grande.\n\nLa cathédrale compte seize chapelles, dont quatorze sont ouvertes aux visiteurs. Elles portent le nom de leur saint ou de leur invocation. Parmi elles figurent les chapelles des Reliques, des Anges, de San Pedro et de San José. Il y a aussi celles de Notre-Dame de Guadalupe, de San Felipe de Jesús, des Douleurs et de la Solitude. Les noms et l’ordre peuvent varier selon les travaux et les restrictions du jour.\n\nLa raison de tant de chapelles tient à la manière dont l’édifice a été construit. Chacune était financée par un ordre religieux, une corporation de métier ou une confrérie, qui payait l’autel et se réservait en échange un espace pour son culte et, parfois, pour ses sépultures. C’est pourquoi les chapelles ont des styles différents. Certaines sont sobres et d’autres couvertes d’or, selon l’époque et l’argent de celui qui les a commandées.\n\nDans cet ensemble, il y a des images que les gens continuent de venir voir. L’une est le Señor del Veneno, aussi appelé Christ Noir. C’est une sculpture d’un Christ crucifié, faite en pâte de tige de maïs, une technique de la Nouvelle-Espagne qui permettait de réaliser des figures légères. Selon l’INAH, elle date du dix-huitième siècle et provient du noviciat dominicain de Porta Coeli, à Mexico. Elle est arrivée à la cathédrale au vingtième siècle, vers les années vingt ou trente.\n\nC’est l’une des images les plus visitées de la cathédrale. Cette dévotion fait partie de la vie actuelle du temple, et non d’un décor pour touristes.\n\nUne autre image célèbre est celle du Señor del Cacao, que l’on associe à la chapelle de San José. À l’époque coloniale, on lui laissait des offrandes de cacao, qui était alors une graine précieuse et servait aussi de monnaie. C’est un rappel que les offrandes dépendaient de ce que les gens avaient sous la main, et que le culte se mêlait à l’économie.\n\nLes chapelles abritent aussi des retables, des peintures et des sculptures de différentes époques. Se distinguent la chapelle des Reliques, celle des Anges et celle de San Pedro. Si vous avez le temps, entrez dans celles qui sont ouvertes et attardez-vous un moment dans l’une d’elles. Vous verrez comme l’atmosphère change quand on passe de la nef principale, vaste et solennelle, à un espace plus intime.\n\nIl y en a une autre qui mérite un arrêt à part. C’est la chapelle de San Felipe de Jesús, qui abrite l’urne contenant les restes d’Agustín de Iturbide. Nous en parlerons tout de suite.\n\nEn parcourant les chapelles, souvenez-vous que certaines sont fermées pour restauration, pour des messes ou pour des célébrations. Ce n’est pas un musée, mais un temple en activité, et certains espaces ne s’ouvrent qu’à certaines heures. Si vous en trouvez une fermée, regardez depuis la grille et poursuivez votre chemin."
+    },
+    "retos_observacion": {
+      "hash": "a4136e89936b2bd7",
+      "texto": [
+        "Comptez combien de chapelles vous voyez d’un seul côté de la nef",
+        "Cherchez dans une chapelle le nom du saint ou de l’invocation en haut du retable",
+        "Observez s’il y a des personnes en prière devant une image vénérée"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d6c8a3b101ac4ee",
+      "texto": {
+        "Chapelles": "16, ouvertes au public : 14",
+        "Señor del Veneno": "Christ en pâte de tige de maïs, XVIIIe siècle",
+        "Provenance": "noviciat dominicain de Porta Coeli",
+        "Arrivée à la cathédrale": "XXe siècle",
+        "Señor del Cacao": "associé à la chapelle de San José",
+        "Financement": "ordres religieux et confréries"
+      }
+    },
+    "faq_mito": {
+      "hash": "2b25b9689c6abfb2",
+      "texto": {
+        "pregunta": "Mythe : le Señor del Veneno est une sculpture préhispanique.",
+        "respuesta": "Réalité : c’est un Christ crucifié du XVIIIe siècle, fait en pâte de tige de maïs, qui provient du noviciat dominicain de Porta Coeli."
+      }
+    }
+  }
+}

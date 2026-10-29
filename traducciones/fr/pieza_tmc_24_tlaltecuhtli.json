@@ -1,0 +1,57 @@
+{
+  "id": "tmc_24_tlaltecuhtli",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "40b4f3414eba042b",
+      "texto": "Le musée et Tlaltecuhtli dans le vestibule"
+    },
+    "frase_gancho": {
+      "hash": "7afbe91bfcfbe71b",
+      "texto": "Une déesse de la terre de douze tonnes accueille ceux qui entrent dans le musée."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "Quand vous serez prêt, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "3df9664b33ff414f",
+      "texto": "Le musée du Templo Mayor a été inauguré le douze octobre mil neuf cent quatre-vingt-sept, sur un projet de Pedro Ramírez Vázquez. Dans le vestibule, Tlaltecuhtli, la monstrueuse déesse de la terre, vous accueille. C’est un monolithe de quatre mètres dix-sept sur trois mètres soixante-deux, d’un poids d’environ douze tonnes. Il a été découvert le deux octobre deux mille six, et sa restauration a pris trois ans. Il conserve des restes de sa peinture d’origine, et le voir de près aide à imaginer son aspect d’alors. Il a été réalisé entre mille cinq cent deux et mille cinq cent vingt et un, durant les dernières années de l’empire. L’archéologue Eduardo Matos Moctezuma souligne que son culte était réservé aux prêtres."
+    },
+    "guion_largo": {
+      "hash": "8b2ece5889ddb0f7",
+      "texto": "Bienvenue au musée du Templo Mayor. Avant d’entrer dans les salles, deux choses méritent d’être connues : comment est né ce bâtiment, et quelle pièce vous accueille dans le vestibule.\n\nLe musée a été inauguré le douze octobre mil neuf cent quatre-vingt-sept. Le projet est l’œuvre de l’architecte Pedro Ramírez Vázquez, avec Javier Ramírez Campuzano. Il a été construit près des ruines, à la suite du projet Templo Mayor, pour présenter les objets récupérés lors des fouilles. Il compte huit salles. Les premières donnent le contexte, puis viennent celles consacrées aux deux sanctuaires, au tribut et à la nature, et la dernière traite de la conquête et de ce qui est venu après. Il est préférable de suivre cet ordre, car il raconte une histoire.\n\nDans le vestibule, Tlaltecuhtli vous attend. Son nom se traduit généralement par seigneur ou dame de la terre. Dans la tradition mexica, la terre était perçue comme une force vivante, qui donnait la vie et recevait aussi les morts. C’est pourquoi son image est l’une des plus puissantes du panthéon.\n\nLa sculpture est apparue le deux octobre deux mille six. Elle mesure quatre mètres dix-sept sur trois mètres soixante-deux, et pèse près de douze tonnes, selon les informations de l’INAH. C’était une pièce énorme et fragile, et sa restauration a pris trois ans. En raison de sa taille, la déplacer et l’étudier a représenté un défi technique considérable. Elle conserve des restes de sa polychromie d’origine, c’est-à-dire de la couleur dont elle fut peinte à son époque.\n\nElle est datée entre mille cinq cent deux et mille cinq cent vingt et un, c’est-à-dire des dernières années de l’empire. Selon l’archéologue Eduardo Matos Moctezuma, le culte de Tlaltecuhtli était restreint aux prêtres. Autrement dit, ce n’était pas une image destinée au grand public, et cela la rend plus intéressante encore.\n\nAujourd’hui, vous la voyez en pleine lumière et de près, dans le vestibule d’un musée. C’est une manière de la voir que ses créateurs n’avaient sûrement pas imaginée. Prenez un moment pour la regarder tranquillement, sous différents angles, avant d’entrer dans les salles. Rien ne presse : c’est l’une des plus grandes pièces du musée, et l’une de celles qui méritent le plus de temps.\n\nPendant que vous l’observez, prêtez attention aux détails de la surface : les reliefs, les formes qui se répètent et les restes de couleur. Si le musée propose une explication sur un cartel, lisez-la, car elle aide à reconnaître les éléments de la figure.\n\nUn dernier point. Cette pièce montre comment l’archéologie continue de faire des découvertes, même dans une ville aussi explorée. Il y a tout juste environ deux décennies, personne ne savait que Tlaltecuhtli se trouvait sous terre. Avec cette idée en tête, passez dans les salles. Vous y trouverez des objets cachés depuis des siècles, sortis de la terre grâce aux fouilles que vous connaissez déjà."
+    },
+    "retos_observacion": {
+      "hash": "8ba9a2764f7102b8",
+      "texto": [
+        "Prêtez attention aux reliefs de la surface et aux formes qui se répètent",
+        "Cherchez les restes de couleur qui se sont conservés",
+        "Regardez-la sous différents angles avant de passer à la salle 1"
+      ]
+    },
+    "especificaciones": {
+      "hash": "62bb42ed206be0fd",
+      "texto": {
+        "Musée inauguré": "12 octobre 1987",
+        "Projet": "Pedro Ramírez Vázquez avec Javier Ramírez Campuzano",
+        "Tlaltecuhtli": "découverte le 2 octobre 2006",
+        "Dimensions": "4,17 sur 3,62 m",
+        "Poids": "environ 12 tonnes",
+        "Restauration": "3 ans",
+        "Date": "1502 à 1521"
+      }
+    },
+    "faq_mito": {
+      "hash": "fa460102487ede5d",
+      "texto": {
+        "pregunta": "Mythe : Tlaltecuhtli était une image publique, vue de tous.",
+        "respuesta": "Réalité : Selon Matos Moctezuma, son culte était réservé aux prêtres."
+      }
+    }
+  }
+}

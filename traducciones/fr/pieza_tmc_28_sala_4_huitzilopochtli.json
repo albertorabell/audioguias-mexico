@@ -1,0 +1,54 @@
+{
+  "id": "tmc_28_sala_4_huitzilopochtli",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6493b908a00789ee",
+      "texto": "Salle quatre : Huitzilopochtli, le Guerrier-Aigle et Mictlantecuhtli"
+    },
+    "frase_gancho": {
+      "hash": "c58338c4dbeafe06",
+      "texto": "La salle du dieu protecteur, avec un Guerrier-Aigle en céramique et le dieu de la mort."
+    },
+    "puente_narrativo": {
+      "hash": "9a978f2b93449317",
+      "texto": "Approchez-vous du fond de la salle quatre, là où se trouve le grand disque de pierre de Coyolxauhqui."
+    },
+    "guion_corto": {
+      "hash": "5c92867a6ee84daf",
+      "texto": "La salle quatre est consacrée à Huitzilopochtli et à ce que l’on a trouvé de son côté du temple. Elle réunit un Guerrier-Aigle en céramique, découvert dans la Maison des Aigles, et une figure de Mictlantecuhtli. Elle présente aussi la tête d’une Xiuhcóatl, ou serpent de feu, et des figures des Centzonhuitznahua, les frères de Huitzilopochtli. Il y a en outre des représentations de Huehuetéotl, dieu du feu, et de Mayáhuel. Et au fond se dresse le grand monolithe de Coyolxauhqui. C’est la salle qui explique le mieux pourquoi le côté sud du temple était celui de la guerre et du Soleil, et pourquoi les Mexicas le vénéraient autant."
+    },
+    "guion_largo": {
+      "hash": "10025f46a3fb0af3",
+      "texto": "Vous êtes dans la salle quatre, consacrée à Huitzilopochtli, et c’est celle qui rassemble certaines des pièces les plus connues du musée.\n\nSouvenez-vous que le côté sud du temple appartenait à ce dieu, le protecteur des Mexicas. Il était dieu de la guerre et du Soleil. Son sanctuaire s’élevait sur le Coatépetl, la colline du serpent, comme vous l’avez vu depuis la passerelle. Les objets de cette salle se rattachent à ce côté du temple et à la mythologie de son dieu. Il convient donc d’y entrer avec l’histoire du Coatépetl bien présente à l’esprit.\n\nL’un des objets principaux est le Guerrier-Aigle en céramique, qui a été découvert dans la Maison des Aigles. L’archéologue Leonardo López Luján préfère l’appeler homme-aigle. C’est une figure aux traits humains et aux détails d’oiseau, et elle est souvent l’une des pièces les plus photographiées. Une lecture fréquente la rattache aux guerriers d’élite associés à l’aigle, bien que les spécialistes en débattent.\n\nÀ côté de lui se trouve une figure de Mictlantecuhtli, le dieu de la mort. Il était déjà apparu dans la Maison des Aigles, et vous le revoyez ici. C’est une bonne occasion de l’observer de près.\n\nLa salle expose aussi la tête d’une Xiuhcóatl. Ce nom signifie serpent de feu, et c’était une arme mythique de Huitzilopochtli. Il y a en outre des figures des Centzonhuitznahua, les frères qui, selon le mythe, attaquèrent leur mère alors que Huitzilopochtli était sur le point de naître. Si vous vous rappelez l’histoire de Coyolxauhqui, ils sont les autres personnages du récit.\n\nParmi les objets figurent des représentations de Huehuetéotl, le Vieux Dieu du Feu, et de Mayáhuel, déesse associée au maguey. La présence de ces figures montre que le monde de Huitzilopochtli comprenait beaucoup d’autres personnages, et pas seulement lui.\n\nAu fond de la salle se trouve la pièce la plus importante : le monolithe de Coyolxauhqui. Nous en parlerons à la prochaine étape, plus à loisir, car il mérite une place à part.\n\nPendant que vous parcourez la salle, pensez à la manière dont les pièces se relient au mythe. C’est une salle à lire avec l’histoire en tête, et pas seulement à regarder comme des objets isolés. Huitzilopochtli naît en armes et vainc ses frères et sa sœur. Le temple est la montagne où cela s’est produit. Les figures de la salle sont les personnages de cette histoire, changés en pierre et en céramique, et ensemble ils forment une sorte de distribution du mythe.\n\nSi le temps vous le permet, faites un tour complet avant de passer au monolithe. Les objets plus petits, comme les figures de dieux, passent souvent inaperçus, mais ils racontent la même histoire à une autre échelle. Prenez le temps de lire les cartels, car ils identifient chaque personnage."
+    },
+    "retos_observacion": {
+      "hash": "2965e538c6540b7b",
+      "texto": [
+        "Cherchez le Guerrier-Aigle en céramique et observez ses détails d’oiseau",
+        "Repérez la tête de Xiuhcóatl, le serpent de feu",
+        "Identifiez Huehuetéotl et Mayáhuel parmi les figures"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7a3d81fe8cc8c24a",
+      "texto": {
+        "Salle": "4, Huitzilopochtli",
+        "Guerrier-Aigle": "céramique, découvert dans la Maison des Aigles",
+        "Autres pièces": "Mictlantecuhtli, tête de Xiuhcóatl, Centzonhuitznahua, Huehuetéotl, Mayáhuel",
+        "Pièce principale": "monolithe de Coyolxauhqui"
+      }
+    },
+    "faq_mito": {
+      "hash": "87a23ef48cde3c4c",
+      "texto": {
+        "pregunta": "Mythe : Le Guerrier-Aigle est une sculpture en pierre.",
+        "respuesta": "Réalité : C’est une figure en céramique, découverte dans la Maison des Aigles."
+      }
+    }
+  }
+}

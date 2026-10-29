@@ -1,0 +1,54 @@
+{
+  "id": "tmc_12_san_felipe_iturbide",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9239a9e5e3793ff2",
+      "texto": "San Felipe de Jesús et l’urne d’Iturbide"
+    },
+    "frase_gancho": {
+      "hash": "331c7819a966c979",
+      "texto": "La chapelle du premier saint mexicain abrite les restes d’un empereur qui a gouverné quelques mois."
+    },
+    "puente_narrativo": {
+      "hash": "2ddb0ce9d521c859",
+      "texto": "Retournez dans la nef principale. Quand vous serez prêt, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "d7e5a2f5252a1248",
+      "texto": "Dans cette chapelle se rencontrent un saint et un empereur. San Felipe de Jesús est né à Mexico et il est considéré comme le premier saint mexicain. Il est mort martyr à Nagasaki, au Japon, en mille cinq cent quatre-vingt-dix-sept. Dans la même chapelle, une urne d’acajou à vitres abrite les restes d’Agustín de Iturbide. Il a consommé l’indépendance et il a été couronné empereur dans cette cathédrale, le vingt et un juillet mille huit cent vingt-deux. Il a été exécuté en mille huit cent vingt-quatre, et ses restes sont arrivés ici en mille huit cent trente-huit."
+    },
+    "guion_largo": {
+      "hash": "2fcf6a0c6a500332",
+      "texto": "Cette chapelle réunit deux histoires qui semblent très éloignées. L’une est religieuse, l’autre est politique, et toutes deux passent par Mexico.\n\nLa chapelle est dédiée à San Felipe de Jesús, qui est né dans cette ville et qui est considéré comme le premier saint mexicain. Ce jeune frère franciscain a voyagé jusqu’aux Philippines et, sur le chemin du retour, il a fait naufrage sur les côtes du Japon. Là, il a été arrêté et il est mort crucifié à Nagasaki, en mille cinq cent quatre-vingt-dix-sept, avec d’autres chrétiens. L’Église l’a canonisé au dix-neuvième siècle. La chapelle lui est dédiée et conserve une sculpture de lui.\n\nDans cette même chapelle, depuis mille huit cent trente-huit, se trouve l’urne qui contient les restes d’Agustín de Iturbide. Elle est en acajou, elle a des vitres transparentes et elle se trouve là de façon permanente. À côté, on trouve généralement une banderole portant les armoiries du Premier Empire mexicain et des répliques de documents de l’époque. Dans la cathédrale est aussi conservé le cœur d’un autre président de l’époque, Anastasio Bustamante.\n\nIturbide est une figure difficile à résumer. Il est né à Valladolid, aujourd’hui Morelia, en mille sept cent quatre-vingt-trois. Il a mené la consommation de l’indépendance. Il est entré en triomphe à Mexico le vingt-sept septembre mille huit cent vingt et un. En mai mille huit cent vingt-deux, le Congrès l’a proclamé empereur, et le vingt et un juillet de cette année-là il a été couronné dans cette cathédrale. Il a gouverné environ dix mois. Il a abdiqué face aux rébellions et au manque de ressources, il s’est exilé, et en mille huit cent vingt-quatre il est revenu au Mexique. Le Congrès l’avait déclaré traître, et il a été exécuté le dix-neuf juillet de cette année-là à Padilla, dans le Tamaulipas, à quarante ans.\n\nPendant quatorze ans, ses restes ont reposé dans une fosse modeste dans ce village. En mille huit cent trente-huit, le président Antonio López de Santa Anna a décrété qu’il soit déclaré héros de la patrie et que ses restes soient transférés dans la capitale. Ils sont arrivés à la cathédrale cette même année, et une messe de requiem a été célébrée. Depuis, ils se trouvent dans cette chapelle.\n\nLes opinions sur Iturbide changent selon la personne qui raconte l’histoire. Pour les uns, il fut l’homme qui obtint l’indépendance en s’entendant avec les insurgés, et pour les autres, un militaire qui voulut se couronner. Ici, dans cette chapelle, ce que l’on voit est la trace matérielle de cette discussion : une urne, une bannière et des documents.\n\nSi vous souhaitez suivre cette histoire, rappelez-vous que le couronnement a eu lieu dans la chapelle principale, près de l’autel. Ce geste, une cérémonie religieuse pour légitimer un gouvernant, montrait jusqu’à quel point la cathédrale était le centre du pouvoir, comme elle l’avait été pendant la vice-royauté.\n\nAvant de sortir, regardez attentivement la sculpture de San Felipe de Jesús. Pensez à ce que réunit cette chapelle : un saint de Mexico qui est mort au Japon, un empereur qui est mort dans le Tamaulipas et une chapelle qui les rassemble. Peu de chapelles de la ville peuvent raconter une histoire aussi longue en si peu de mètres."
+    },
+    "retos_observacion": {
+      "hash": "b2c1db0ec3dccd50",
+      "texto": [
+        "Cherchez l’urne d’acajou à vitres et la banderole portant les armoiries du Premier Empire",
+        "Repérez la sculpture de San Felipe de Jesús et observez sa posture",
+        "Regardez la voûte de la chapelle et comparez-la à celles des nefs"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d99686ad5457e58",
+      "texto": {
+        "San Felipe de Jesús": "né à Mexico, mort à Nagasaki en 1597, premier saint mexicain",
+        "Iturbide": "couronné le 21 juillet 1822, exécuté le 19 juillet 1824",
+        "Restes d’Iturbide dans la cathédrale": "depuis 1838",
+        "Urne": "acajou à vitres"
+      }
+    },
+    "faq_mito": {
+      "hash": "21b8ea46b0a0762a",
+      "texto": {
+        "pregunta": "Mythe : Iturbide est enterré dans la Rotonde des Personnes illustres.",
+        "respuesta": "Réalité : Ses restes se trouvent dans une urne de la chapelle de San Felipe de Jesús, dans la cathédrale métropolitaine, depuis 1838."
+      }
+    }
+  }
+}

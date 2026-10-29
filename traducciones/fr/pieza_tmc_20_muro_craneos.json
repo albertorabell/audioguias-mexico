@@ -1,0 +1,53 @@
+{
+  "id": "tmc_20_muro_craneos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "aae241fa71eb47a5",
+      "texto": "L’autel Tzompantli et le mur de crânes"
+    },
+    "frase_gancho": {
+      "hash": "179284e2773e2a04",
+      "texto": "Des crânes de pierre devant le sanctuaire de Huitzilopochtli."
+    },
+    "puente_narrativo": {
+      "hash": "796764b3c2506ae9",
+      "texto": "Poursuivez par la passerelle vers les Temples rouges et la Maison des Aigles."
+    },
+    "guion_corto": {
+      "hash": "6aa5f6d177a2f57a",
+      "texto": "Devant le sanctuaire de Huitzilopochtli, on a découvert en mille neuf cent quatre-vingt une plateforme décorée de rangées de crânes sculptés dans la pierre. On l’appelle l’autel Tzompantli. Un Tzompantli était une structure où les Mexicas exposaient les crânes de personnes sacrifiées, et les chroniques racontent qu’il y en avait plusieurs dans l’enceinte sacrée. Cet autel ne renferme pas de vrais crânes dans ses murs, mais leur représentation en pierre, et il évoquait le sacrifice et la guerre. C’est l’un des passages incontournables de la visite, avec la Maison des Aigles et les Temples rouges."
+    },
+    "guion_largo": {
+      "hash": "f396022218e0f523",
+      "texto": "Regardez la plateforme qui se trouve devant vous. Elle est décorée de rangées de petits crânes de pierre, et c’est l’une des images les plus reconnaissables du Templo Mayor.\n\nOn l’appelle l’autel Tzompantli, ou mur de crânes. Il a été découvert en mille neuf cent quatre-vingt, devant le sanctuaire de Huitzilopochtli. C’est l’un des passages incontournables de la visite, avec la Maison des Aigles, les Temples rouges et l’étape II.\n\nLe mot Tzompantli vient du nahuatl et se rattache à l’idée de rangée de crânes. C’était une structure où les Mexicas exposaient les têtes de personnes sacrifiées. Les chroniques espagnoles parlent de plusieurs Tzompantli à Tenochtitlan, et l’archéologie en a confirmé au moins un de grande taille. Frère Bernardino de Sahagún, par exemple, mentionne plusieurs structures de ce type dans l’enceinte sacrée.\n\nIl est important de distinguer l’autel que vous voyez ici d’un véritable Tzompantli. Sur cet autel, les crânes sont des sculptures de pierre, taillées les unes à côté des autres, et ils décorent les murs de la plateforme. Ce ne sont pas de vrais crânes. Il fonctionnait comme une représentation symbolique, et son emplacement devant le sanctuaire de Huitzilopochtli le relie au thème de la guerre et du sacrifice.\n\nPourquoi le sacrifice comptait-il tant pour les Mexicas ? Selon cette vision, les dieux avaient donné leur sang pour créer la vie. Les humains devaient le leur rendre pour maintenir l’ordre de l’univers. C’est l’explication que l’on donne habituellement, même si les spécialistes la discutent et la nuancent. C’est une idée difficile, qu’il convient de comprendre dans son contexte, et vous retrouverez ce thème dans plusieurs salles du musée.\n\nSi vous observez attentivement, vous remarquerez que les crânes de pierre sont disposés en rangées et que chacun a des traits semblables mais non identiques. L’effet visuel est celui d’un mur rempli d’yeux et de dents. C’est une façon de rappeler à celui qui s’approchait que ce lieu était consacré à la guerre.\n\nPlus loin, nous parlerons d’un Tzompantli bien plus grand, découvert en deux mille quinze à quelques mètres d’ici, dans une rue voisine. Celui-là contenait de vrais crânes.\n\nPour l’instant, remarquez l’emplacement de l’autel. Il se trouve devant le sanctuaire de Huitzilopochtli, dans l’axe de la pyramide, et c’est pourquoi on le lit comme faisant partie du même ensemble. Tout dans cette zone suit un ordre, et l’autel aide à situer le sanctuaire du sud au milieu des ruines. Si vous avez déjà distingué les deux moitiés de la pyramide, c’est un bon point de repère pour ne pas vous perdre en marchant. D’ici, la prochaine étape vous mène vers d’autres édifices de l’enceinte, plus petits mais tout aussi intéressants, qui complètent l’idée d’un ensemble sacré."
+    },
+    "retos_observacion": {
+      "hash": "6832dfe1d2ff5ad0",
+      "texto": [
+        "Comptez combien de rangées de crânes vous parvenez à distinguer sur la plateforme",
+        "Remarquez que les crânes sont en pierre sculptée, et non de vrais crânes",
+        "Situez l’autel par rapport au sanctuaire de Huitzilopochtli"
+      ]
+    },
+    "especificaciones": {
+      "hash": "dd67613a03002092",
+      "texto": {
+        "Découverte": "1980",
+        "Emplacement": "devant le sanctuaire de Huitzilopochtli",
+        "Matériau": "pierre avec crânes sculptés"
+      }
+    },
+    "faq_mito": {
+      "hash": "f5cb51b9c0ec002f",
+      "texto": {
+        "pregunta": "Mythe : L’autel Tzompantli est fait de vrais crânes humains.",
+        "respuesta": "Réalité : Les crânes de cet autel sont des sculptures de pierre ; les vrais crânes sont apparus dans le Huei Tzompantli, découvert en 2015."
+      }
+    }
+  }
+}

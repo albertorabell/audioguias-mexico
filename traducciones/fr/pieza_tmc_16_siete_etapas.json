@@ -1,0 +1,56 @@
+{
+  "id": "tmc_16_siete_etapas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d6872db1a6cf04c8",
+      "texto": "Sept étapes : un temple qui a grandi sur lui-même"
+    },
+    "frase_gancho": {
+      "hash": "dea1a931c72f0f9f",
+      "texto": "Chaque fois qu’un nouveau tlatoani gouvernait, le temple devenait plus grand."
+    },
+    "puente_narrativo": {
+      "hash": "3c1ad9813c90dd00",
+      "texto": "Avancez sur la passerelle vers le côté sud de la pyramide, où l’on voit les murs des étapes les plus anciennes."
+    },
+    "guion_corto": {
+      "hash": "e5a8163a3c4835eb",
+      "texto": "Le Templo Mayor n’a pas été construit d’un seul coup. Il a été agrandi par étapes, et chacune recouvrait la précédente comme les couches d’un oignon. Il y a eu sept étapes, depuis les premières années de Tenochtitlan jusqu’à la conquête. La plus ancienne que l’on voit est l’étape II, d’environ mille trois cent quatre-vingt-dix. Puis sont venus les agrandissements sous Itzcóatl, Moctezuma Ilhuicamina, Axayácatl et Ahuízotl. Chaque dirigeant voulait un temple plus grand que celui de son prédécesseur, et c’est ainsi que la pyramide a grandi avec la puissance de Tenochtitlan. Aujourd’hui, les étapes apparaissent comme des couches dans les coupes des fouilles, et certaines ont conservé des offrandes enterrées à l’intérieur."
+    },
+    "guion_largo": {
+      "hash": "74f7961a04327650",
+      "texto": "Si vous regardez la pyramide avec attention, vous remarquerez qu’il ne s’agit pas d’une seule construction. C’est un ensemble de couches, les unes à l’intérieur des autres, et comprendre cela est la clé de tout le site.\n\nLes Mexicas avaient l’habitude d’agrandir leurs temples à intervalles réguliers. Au lieu de démolir l’édifice précédent, ils le recouvraient d’un autre plus grand, de sorte que l’ancien restait à l’intérieur, comme une poupée russe. On compte sept étapes, depuis les premiers temples de Tenochtitlan jusqu’aux dernières années avant la conquête. Les archéologues les numérotent avec des chiffres romains.\n\nLes dates sont approximatives, surtout les plus anciennes. L’étape II se situe vers mille trois cent quatre-vingt-dix. L’étape III est attribuée à Itzcóatl, qui a gouverné de mille quatre cent vingt-six à mille quatre cent quarante. L’étape IV est associée à Moctezuma Ilhuicamina, et son agrandissement, l’IV b, à Axayácatl, de mille quatre cent soixante-neuf à mille quatre cent quatre-vingt-un. L’étape VI correspond à Ahuízotl, entre mille quatre cent quatre-vingt-six et mille cinq cent deux. L’étape VII, la dernière, va jusqu’à la conquête, en mille cinq cent vingt et un.\n\nLa raison de cette habitude tient au pouvoir politique. Lorsqu’un tlatoani, c’est-à-dire un dirigeant, accédait au trône, l’une des manières de montrer sa force était d’agrandir le temple principal. Chaque étape était plus grande et plus riche que la précédente. En même temps, le temple fonctionnait comme une archive de pierre, car chaque couche gardait ce qui avait été enterré à l’intérieur.\n\nChaque agrandissement s’accompagnait d’offrandes. Avant de recouvrir un temple, on enterrait des objets à l’intérieur de la nouvelle construction. C’est pourquoi les archéologues ont trouvé plus de cent offrandes dans cette zone, selon le musée. Elles se répartissent en trois types : de remplissage, de ciste et de caisse. Chaque couche conservait ainsi un ensemble d’objets qui y avait été laissé volontairement.\n\nLes étapes les plus tardives, la VI et la VII, sont celles qui ont été le plus détruites. Les Espagnols ont utilisé ces pierres pour construire la nouvelle ville, si bien qu’il ne reste presque rien des niveaux les plus hauts. En revanche, les étapes les plus anciennes se sont mieux conservées parce qu’elles sont restées enterrées, protégées par les nouvelles couches.\n\nC’est pourquoi on peut voir aujourd’hui, sur un même mur, le mur d’une étape masqué par celui d’une autre. Si vous trouvez un tronçon où l’on distingue deux types de pierre, ou deux niveaux de marches, vous êtes en train de voir la frontière entre deux étapes.\n\nPensez à ce que cela signifie. Pour les Mexicas, le temple était un édifice vivant, qui grandissait avec la ville et avec chaque nouveau dirigeant. Pour les archéologues, cette habitude a été une chance, car elle a conservé les édifices anciens à l’intérieur des nouveaux.\n\nNous allons maintenant observer les deux sanctuaires qui couronnaient la pyramide, car leur différence explique une grande partie de la pensée mexica."
+    },
+    "retos_observacion": {
+      "hash": "56ea466d3f3f00c3",
+      "texto": [
+        "Cherchez une coupe où l’on distingue deux couches de construction",
+        "Observez si vous voyez deux types de pierre ou des marches à des niveaux différents dans le même mur",
+        "Comptez les étapes que vous parvenez à distinguer depuis la passerelle"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6f713e2069019443",
+      "texto": {
+        "Étapes de construction": "7",
+        "Étape II": "vers 1390",
+        "Étape III": "Itzcóatl, de 1426 à 1440",
+        "Étape IV b": "Axayácatl, de 1469 à 1481",
+        "Étape VI": "Ahuízotl, de 1486 à 1502",
+        "Étape VII": "jusqu’en 1521"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e9db4aae7399bb3",
+      "texto": {
+        "pregunta": "Mythe : Le temple a été construit en une seule fois.",
+        "respuesta": "Réalité : Il a été agrandi sept fois ; chaque dirigeant recouvrait le temple précédent par un temple plus grand."
+      }
+    }
+  }
+}

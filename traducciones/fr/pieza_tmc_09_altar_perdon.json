@@ -1,0 +1,56 @@
+{
+  "id": "tmc_09_altar_perdon",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "782654ea8c0c37cb",
+      "texto": "L’autel du Pardon et l’incendie de mille neuf cent soixante-sept"
+    },
+    "frase_gancho": {
+      "hash": "db43fc34e45a49da",
+      "texto": "Un retable baroque qui a failli disparaître en une nuit, et deux légendes sur son nom."
+    },
+    "puente_narrativo": {
+      "hash": "1a4f9690905fd1d1",
+      "texto": "Poursuivez vers la tête de l’église, où se trouve le maître-autel et, derrière lui, l’autel des Rois."
+    },
+    "guion_corto": {
+      "hash": "906179d79ce4c361",
+      "texto": "Derrière le chœur, face à l’entrée, se dresse l’autel du Pardon. C’est un retable baroque attribué à Jerónimo de Balbás, de la première moitié du dix-huitième siècle. Le dix-sept janvier mille neuf cent soixante-sept, un court-circuit a déclenché un incendie précisément sur cet autel. Il a détruit près de quatre-vingts pour cent de l’œuvre, et a aussi endommagé les stalles du chœur et d’autres pièces. On raconte deux légendes sur son nom. L’une dit qu’ici, les condamnés par l’Inquisition demandaient pardon. L’autre, qu’un peintre prisonnier a peint ici une image de la Vierge. Ni l’une ni l’autre n’a de preuve définitive."
+    },
+    "guion_largo": {
+      "hash": "7c44499394097739",
+      "texto": "Vous voici devant l’autel du Pardon, l’un des deux grands retables de la cathédrale. Il se trouve au revers du chœur, c’est-à-dire à l’arrière du chœur, du côté qui regarde vers l’entrée.\n\nC’est une œuvre du baroque de la Nouvelle-Espagne, attribuée à Jerónimo de Balbás, le même maître qui a réalisé l’autel des Rois. Elle a été faite dans la première moitié du dix-huitième siècle. Un retable est une structure de bois sculpté et doré qui porte des images, des peintures et des sculptures. Celui-ci a été construit avec des estipites, les supports qui s’amincissent vers le bas, qui furent une nouveauté dans l’architecture de la Nouvelle-Espagne à cette époque.\n\nSon nom a deux explications, et aucune n’est sûre. Une légende dit que devant cet autel, les condamnés par l’Inquisition demandaient pardon avant de recevoir leur châtiment. L’autre raconte que le peintre Simón Pereyns, emprisonné sur ordre du Saint-Office, promit de peindre une image de la Vierge si on le libérait, et que cette peinture fut placée ici. Comme pour beaucoup d’histoires de la cathédrale, elles viennent de la tradition, et non d’un document que l’on ait pu vérifier.\n\nLe plus important à retenir de cet autel, c’est ce qui lui est arrivé en mille neuf cent soixante-sept. Le dix-sept janvier, un court-circuit a déclenché un incendie. Il a détruit près de quatre-vingts pour cent de cet autel et la plus grande partie des stalles du chœur, qui se trouvaient juste devant. Il a aussi endommagé la partie haute de l’autel des Rois, brûlé une peinture de l’Assomption de la Vierge et touché les orgues. Des peintures d’artistes de l’époque vice-royale ont également été endommagées, dont une Vierge du Pardon de Simón Pereyns.\n\nAprès l’incendie a commencé un long travail de sauvetage. Selon les documents de l’INAH, il y a eu des travaux de conservation en mille neuf cent soixante-seize et une autre intervention entre deux mille sept et deux mille huit. Cela signifie que ce que vous voyez aujourd’hui n’a pas le même âge dans toutes ses parties. Certaines ont survécu au feu, et d’autres ont été restaurées ensuite.\n\nCet autel est une bonne porte d’entrée pour comprendre comment on conserve le patrimoine religieux. Il ne s’agit pas seulement de réparer. Il faut d’abord décider ce que l’on sauve, ce que l’on remplace et ce que l’on laisse comme témoignage des dégâts. Dans ce cas, le feu fait partie de l’histoire de l’œuvre, tout comme sa construction.\n\nCela vaut aussi la peine de regarder l’autel du Pardon pour ce qu’il montre du baroque. Les estipites, les feuilles dorées et les images remplissent l’espace, comme si l’artiste avait craint de laisser un vide. Comparez-le avec la sobriété des voûtes au-dessus : le contraste tient au fait que l’édifice et les autels ont été faits à des époques différentes, avec des goûts différents.\n\nLorsque vous aurez fini de regarder cet autel, avancez vers le fond de l’église. Là se trouve le maître-autel et, derrière lui, la plus grande et la plus célèbre œuvre de Balbás : l’autel des Rois."
+    },
+    "retos_observacion": {
+      "hash": "1eb612a091a1d061",
+      "texto": [
+        "Regardez de près les estipites du retable et comparez-les avec ceux du Sagrario",
+        "Cherchez des zones plus sombres et plus claires dans le bois doré",
+        "Observez l’espace que couvre le retable et le nombre d’images qui y tiennent"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5dab2f95f924078f",
+      "texto": {
+        "Auteur": "attribué à Jerónimo de Balbás",
+        "Date": "première moitié du XVIIIe siècle",
+        "Incendie": "17 janvier 1967, à cause d’un court-circuit",
+        "Dommages à l’autel": "près de 80 pour cent",
+        "Restaurations documentées": "1976 et de 2007 à 2008",
+        "Emplacement": "revers du chœur, derrière le chœur"
+      }
+    },
+    "faq_mito": {
+      "hash": "bdf2cbf0affe86c7",
+      "texto": {
+        "pregunta": "Mythe : L’autel du Pardon a échappé à l’incendie de 1967 sans dommages.",
+        "respuesta": "Réalité : Le feu a détruit près de 80 pour cent de l’autel, et tout ce que l’on voit aujourd’hui n’a pas le même âge, car il y a eu des restaurations."
+      }
+    }
+  }
+}

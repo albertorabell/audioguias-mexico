@@ -1,0 +1,57 @@
+{
+  "id": "tmc_23_huei_tzompantli",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "12f3b33cd8d131d3",
+      "texto": "Le Huei Tzompantli : la découverte de la rue Guatemala"
+    },
+    "frase_gancho": {
+      "hash": "818f65628b41abc8",
+      "texto": "Un mur de crânes réels apparu sous un édifice colonial en deux mille quinze."
+    },
+    "puente_narrativo": {
+      "hash": "f16a627bc5658cdc",
+      "texto": "Contournez la cathédrale pour revenir vers la place, où se trouve le dernier arrêt."
+    },
+    "guion_corto": {
+      "hash": "e75ff58d870cf1b8",
+      "texto": "À quelques mètres d’ici, au numéro vingt-quatre de la rue Guatemala, on a découvert en deux mille quinze le Huei Tzompantli, un grand mur de crânes mexicas. Il a été exploré par le Programme d’archéologie urbaine de l’INAH, avec Raúl Barrera. Il comprenait une plateforme de trente-cinq mètres sur douze et une tour faite de crânes liés avec de la chaux. On a récupéré environ onze mille fragments de crânes, et les spécialistes étudient un échantillon de deux cent quatorze. Il ne se visite pas dans le cadre de ce parcours, mais il complète l’histoire que vous avez vue dans l’Autel Tzompantli. Ici, les crânes étaient bien réels, et leur nombre oblige à réfléchir à l’échelle du rituel."
+    },
+    "guion_largo": {
+      "hash": "e437403f747a0609",
+      "texto": "Cet arrêt se trouve en dehors de la zone archéologique, à quelques mètres vers l’ouest, et c’est l’un des plus importants de l’histoire récente du centre. Ici est apparue, en deux mille quinze, une découverte qui a changé ce que l’on savait des tzompantli.\n\nTout s’est passé au numéro vingt-quatre de la rue Guatemala, dans un immeuble où l’on faisait des travaux. Là, l’équipe de l’INAH a commencé à fouiller. Le Programme d’archéologie urbaine de l’INAH, dirigé par l’archéologue Raúl Barrera, a exploré le site. Les archéologues ont trouvé une plateforme d’environ trente-cinq mètres de long sur douze de large. Au-dessus se dressait une tour de crânes. D’après les rapports de fouille, elle mesurait environ quatre mètres soixante-dix de diamètre. Elle était faite de crânes liés avec de la chaux, un mélange semblable au ciment.\n\nLes chiffres donnent une idée de l’échelle. On a récupéré environ onze mille fragments de crânes. En août deux mille vingt-cinq, selon un communiqué de l’INAH, un échantillon de deux cent quatorze crânes était en cours de nettoyage, de consolidation et d’étude au musée du Templo Mayor. Les chiffres peuvent changer à mesure que l’analyse avance.\n\nLe Huei Tzompantli a été construit en cinq étapes, selon l’INAH. L’une d’elles correspond à la période d’Ahuízotl, entre mille quatre cent quatre-vingt-six et mille cinq cent deux, qui fut la sixième étape du Templo Mayor. La structure a continué d’être utilisée jusqu’en mille cinq cent vingt et un. Elle est très liée au Templo Mayor et au rituel qui s’y déroulait.\n\nUn détail important : les chroniques espagnoles parlaient de tzompantli contenant un très grand nombre de crânes. Andrés de Tapia, qui accompagnait les Espagnols, a parlé de cent trente-six mille crânes dans l’un d’eux. L’archéologie n’a rien trouvé qui ressemble à ce chiffre. C’est un rappel que les textes coloniaux doivent être lus avec prudence et confrontés à ce qui apparaît dans la terre. La découverte du numéro vingt-quatre de la rue Guatemala est précieuse parce qu’elle offre une preuve physique, bien que très inférieure à ce chiffre.\n\nC’est pourquoi ce lieu compte pour les spécialistes. Il permet d’étudier les crânes pour savoir qui étaient ces personnes, comment elles ont vécu et comment elles sont mortes. Cette recherche se poursuit, et ses résultats ne sont pas encore complets. Chaque année, de nouvelles données peuvent apparaître et corriger ou confirmer ce que l’on croit aujourd’hui.\n\nSi vous vous approchez de la rue, vous verrez que le site n’est pas ouvert dans le cadre de cette visite. Cela vaut tout de même la peine de vous arrêter quelques minutes pour repérer le lieu, regarder la façade de l’immeuble et observer comment il se mêle aux constructions environnantes. Pensez que, sous les édifices d’aujourd’hui, la ville mexica continue de garder des histoires.\n\nVoilà le type de découverte qui montre pourquoi le centre de la ville est une zone archéologique vivante. Un édifice colonial s’est transformé en porte vers un monde plus ancien."
+    },
+    "retos_observacion": {
+      "hash": "a363f65756786eb8",
+      "texto": [
+        "Repérez la rue Guatemala et cherchez le numéro 24",
+        "Observez à quelle distance ces vestiges se trouvent de la zone archéologique principale",
+        "Comparez ce que vous savez de l’Autel Tzompantli avec cette découverte"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e3bfe00ddbd92992",
+      "texto": {
+        "Emplacement": "rue Guatemala 24",
+        "Année de la découverte": "2015",
+        "Plateforme": "environ 35 sur 12 m",
+        "Tour": "environ 4,7 m de diamètre, selon les rapports de fouille",
+        "Fragments récupérés": "environ 11 000",
+        "Échantillon à l’étude en août 2025": "214 crânes",
+        "Étapes de construction": "cinq ; une de la période d’Ahuízotl (1486 à 1502) ; en usage jusqu’en 1521"
+      }
+    },
+    "faq_mito": {
+      "hash": "2f86d2fc1b484f7c",
+      "texto": {
+        "pregunta": "Mythe : Les Espagnols ont compté 136 000 crânes dans un tzompantli, et l’archéologie l’a confirmé.",
+        "respuesta": "Réalité : L’archéologie n’a pas trouvé de chiffre comparable ; du Huei Tzompantli, on a récupéré environ 11 000 fragments de crânes."
+      }
+    }
+  }
+}

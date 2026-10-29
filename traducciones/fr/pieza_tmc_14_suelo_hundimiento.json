@@ -1,0 +1,56 @@
+{
+  "id": "tmc_14_suelo_hundimiento",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ec17cb68d8cb0345",
+      "texto": "Le sol qui s’affaisse : la correction de la Cathédrale"
+    },
+    "frase_gancho": {
+      "hash": "69ebd04fb7ea400b",
+      "texto": "Quatre mille deux cent vingt mètres cubes d’argile retirés pour redresser un édifice de pierre."
+    },
+    "puente_narrativo": {
+      "hash": "827553e3a09718a9",
+      "texto": "Sortez de la Cathédrale sans vous presser. Si vous poursuivez vers le Templo Mayor, passez par le côté est, vers la rue Seminario, où commence la zone archéologique."
+    },
+    "guion_corto": {
+      "hash": "0f7449d3232fa859",
+      "texto": "Cette Cathédrale s’enfonce depuis sa construction, et elle s’enfonce de façon inégale. Elle repose sur le terrain mou d’un ancien lac. Vers mille neuf cent quatre-vingt-neuf, la détérioration était alarmante, et les ingénieurs ont choisi une technique appelée sous-excavation contrôlée. Elle consiste à retirer peu à peu de l’argile dans des couches profondes, entre dix-huit et vingt mètres sous terre, pour que le sol descende sous les zones les plus hautes et que l’édifice se redresse. Les travaux ont commencé en mille neuf cent quatre-vingt-treize et ont extrait près de quatre mille deux cent vingt mètres cubes d’argile. Le but n’était pas de retrouver une verticalité parfaite, mais de récupérer à peu près la moitié de la déformation."
+    },
+    "guion_largo": {
+      "hash": "2fbb748e026aae57",
+      "texto": "Avant de quitter la Cathédrale, il convient de comprendre le problème qui l’a le plus préoccupée tout au long de son histoire : le sol. Cet édifice de pierre, lourd et immense, repose sur un terrain qui n’est pas ferme.\n\nLa Cathédrale a été élevée dans un coin de l’ancienne île de Tenochtitlan, sur le fond mou et humide d’un lac qui a été comblé. En dessous se trouvent des couches d’argile qui se compriment sous le poids et avec le temps. De plus, le sous-sol n’est pas homogène : sous certaines zones, on trouve des vestiges préhispaniques, d’anciennes fondations et des remblais différents. C’est pourquoi la Cathédrale ne s’enfonce pas de manière uniforme. Certaines parties descendent plus que d’autres, ce qui produit des inclinaisons et des fissures.\n\nLe problème s’est fait remarquer dès la construction. Dès mille cinq cent soixante-deux, les fondations ont commencé à s’affaisser, et elles ont été refaites avec un empierrement sur pieux, achevé en mille six cent quinze. Au cours des siècles suivants, elles ont été renforcées plusieurs fois. On estime que l’édifice, avec ses fondations, pèse cent vingt-sept mille tonnes.\n\nVers mille neuf cent quatre-vingt-neuf, la détérioration était devenue alarmante. Les experts ont cherché une solution qui n’endommagerait pas le monument. Ils ont choisi une technique appelée sous-excavation contrôlée. Elle fonctionne à l’inverse de ce que l’on attendrait : on ne renforce pas le sol, on lui retire un peu d’argile. On creuse des puits profonds, dits puits d’accès, et c’est depuis ceux-ci que l’on extrait de petites quantités d’argile dans des couches situées entre dix-huit et vingt mètres sous terre. Une fois l’argile retirée, le terrain descend un peu sous les zones les plus hautes de l’édifice, et l’ensemble se redresse.\n\nLes travaux ont commencé en mille neuf cent quatre-vingt-treize. L’étape principale a duré de mille neuf cent quatre-vingt-treize à mille neuf cent quatre-vingt-dix-huit, avec trente-deux puits de vingt mètres, et les travaux se sont prolongés jusqu’au début de deux mille trois. Au total, on a retiré près de quatre mille deux cent vingt mètres cubes d’argile.\n\nLe but n’était pas de retrouver un édifice parfaitement vertical. L’objectif était de récupérer à peu près la moitié de la déformation accumulée. Le dénivelé maximal dépassait deux mètres et il a été réduit d’un peu plus de quatre-vingts centimètres, soit environ un tiers. C’est un résultat modeste en chiffres, mais important pour la stabilité.\n\nGrâce à ce travail, la Cathédrale est sortie de la liste des monuments les plus menacés du World Monuments Fund, en l’an deux mille. Cela ne signifie pas que le problème a disparu. Une étude de l’UNAM avertit que l’affaissement ne s’est pas arrêté, et que l’ensemble est surveillé avec des instruments qui mesurent chaque mouvement.\n\nLes sols intérieurs de la Cathédrale sont irréguliers. Ce n’est pas un défaut de l’ouvrage, mais la trace d’une ville qui continue de se tasser sur un lac.\n\nIl y a une ironie dans tout cela. Les Mexicas ont eux aussi construit sur un lac. Le Templo Mayor a été élevé par étapes, chacune au-dessus de la précédente, et ses ruines se trouvent à quelques pas d’ici."
+    },
+    "retos_observacion": {
+      "hash": "ddb14b720ec66acb",
+      "texto": [
+        "Regardez une colonne de la nef et voyez si elle vous paraît droite ou inclinée",
+        "Marchez sur le sol et cherchez des tronçons où vous remarquez une légère pente",
+        "Retenez le nom de la technique : sous-excavation contrôlée"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b8dbc8374ac426b",
+      "texto": {
+        "Début des problèmes de fondations": "1562",
+        "Empierrement sur pieux achevé": "1615",
+        "Détérioration alarmante": "vers 1989",
+        "Sous-excavation contrôlée": "depuis 1993",
+        "Argile retirée": "près de 4 220 m³",
+        "Profondeur de l’extraction": "entre 18 et 20 m"
+      }
+    },
+    "faq_mito": {
+      "hash": "41465c46cebcb0f3",
+      "texto": {
+        "pregunta": "Mythe : La Cathédrale est sur le point de s’effondrer parce qu’elle s’enfonce.",
+        "respuesta": "Réalité : Elle s’enfonce de façon inégale depuis sa construction, mais depuis 1993 elle a été corrigée par sous-excavation contrôlée et elle est aujourd’hui surveillée avec des instruments ; l’affaissement n’a pas disparu."
+      }
+    }
+  }
+}

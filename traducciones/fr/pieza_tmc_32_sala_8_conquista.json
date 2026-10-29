@@ -1,0 +1,59 @@
+{
+  "id": "tmc_32_sala_8_conquista",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Templo Mayor\" para \"Templo Mayor\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "47d3f3a8a67bf6e1",
+      "texto": "Salle huit : la Conquête et l’offrande coloniale de dix-sept cent quatre-vingt-dix"
+    },
+    "frase_gancho": {
+      "hash": "a867d7649a511eed",
+      "texto": "Quand le temple est tombé, la ville nouvelle s’est élevée par-dessus, et elle a laissé sa propre offrande."
+    },
+    "puente_narrativo": {
+      "hash": "9c5d7b89c3cfc29e",
+      "texto": "Sortez du musée et marchez vers l’ouest par la rue Guatemala, jusqu’au numéro vingt-quatre."
+    },
+    "guion_corto": {
+      "hash": "17f96668d522a408",
+      "texto": "La salle huit raconte ce qui s’est passé à l’arrivée des Espagnols. Elle retrace la conquête, entre quinze cent dix-neuf et quinze cent vingt et un. Elle présente des fragments d’une autre Coyolxauhqui de grande taille, qui fut détruite par les Espagnols. Elle expose aussi des objets liés au galion de Manille, en référence à l’année quinze cent soixante-quinze, et une offrande coloniale de dix-sept cent quatre-vingt-dix. Cette offrande fut réalisée pour la chapelle des Âmes, et elle a été localisée le six novembre mille neuf cent quatre-vingt-seize. C’est la salle qui relie la ville mexica à la ville vice-royale. Il convient de la parcourir sans se presser, car elle clôt la visite du musée."
+    },
+    "guion_largo": {
+      "hash": "b44ddd0c6b88e157",
+      "texto": "Vous arrivez à la dernière salle du musée, celle qui raconte ce qui s’est passé ensuite. Son sujet est l’archéologie historique, c’est-à-dire les vestiges de l’époque coloniale qui ont été découverts à côté de ceux des Mexicas.\n\nLa salle commence par la conquête. Le processus s’est déroulé entre quinze cent dix-neuf et quinze cent vingt et un. Ce furent des années de guerre, d’alliances et, pour finir, de chute de Tenochtitlan, la ville que vous foulez aujourd’hui. Ce qui importe ici, c’est ce qui est arrivé aux temples : les Espagnols les ont détruits, et sur eux la ville nouvelle a peu à peu grandi. Cette transformation a été profonde et très rapide, si on la compare aux siècles qu’il a fallu pour construire le temple.\n\nCette destruction laisse une trace dans la salle. On y expose des fragments d’une autre grande figure de la déesse, qui fut détruite par les Espagnols. Si vous avez encore bien en mémoire le monolithe original que vous avez vu il y a un moment, cette pièce devient très éloquente. Ce que vous avez devant vous est une pièce brisée, et son état raconte l’histoire de ce qui s’est perdu.\n\nEnsuite, la salle passe à d’autres objets de l’époque vice-royale. Parmi eux se trouvent des pièces liées au galion de Manille, le navire qui reliait les Philippines à la Nouvelle-Espagne. Le musée mentionne l’année quinze cent soixante-quinze. C’est un rappel que la ville, devenue capitale vice-royale, faisait partie d’un réseau de commerce qui traversait l’océan. La salle permet de voir ce lien à travers des objets concrets.\n\nIl y a aussi une offrande coloniale, de l’année dix-sept cent quatre-vingt-dix. Elle fut réalisée pour la chapelle des Âmes, et elle a été localisée le six novembre mille neuf cent quatre-vingt-seize. C’est une offrande différente de celles des Mexicas, car elle appartient à la tradition chrétienne, mais elle partage l’idée d’enterrer des objets avec une intention. C’est un pont entre deux mondes. La regarder de près aide à comprendre que, sous la place, il n’y a pas une seule époque mais plusieurs, empilées.\n\nLa date, dix-sept cent quatre-vingt-dix, est déjà apparue dans cette visite. C’est l’année où des sculptures mexicas ont été trouvées sur la place, d’après la salle un. Que les deux événements coïncident par l’année n’est qu’une coïncidence de dates, mais cela invite à réfléchir à ce qui se passait alors dans la ville. Ainsi, la dernière salle rejoint la première.\n\nAvant de sortir, pensez à ce que vous avez parcouru. Vous avez commencé par le grand temple des Mexicas et vous terminez avec des objets d’une ville vice-royale. En un même lieu, sous la même place, cohabitent des couches de plus de cinq siècles. C’est ce qui rend ce site si particulier.\n\nQuand vous sortirez du musée, vous retournerez dans la rue. La dernière étape de cette visite vous invite à regarder l’ensemble : le temple, la cathédrale et le sol qui les unit."
+    },
+    "retos_observacion": {
+      "hash": "b879de7e77285faa",
+      "texto": [
+        "Cherchez les fragments de la Coyolxauhqui monumentale détruite",
+        "Repérez les objets liés au galion de Manille",
+        "Trouvez l’offrande coloniale de 1790 et comparez-la avec les offrandes mexicas de la salle 2"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bcfabae1544c0e4e",
+      "texto": {
+        "Salle": "8, Archéologie historique",
+        "Conquête": "de 1519 à 1521",
+        "Galion de Manille": "référence à l’année 1575",
+        "Offrande coloniale": "1790, pour la chapelle des Âmes",
+        "Localisée": "6 novembre 1996"
+      }
+    },
+    "faq_mito": {
+      "hash": "4883f8b14c28d64b",
+      "texto": {
+        "pregunta": "Mythe : On n’a trouvé que des vestiges mexicas au Templo Mayor.",
+        "respuesta": "Réalité : La salle 8 présente des vestiges de l’époque vice-royale, comme une offrande coloniale de 1790."
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "tmc_33_dos_ciudades_un_suelo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f38709486341dda6",
+      "texto": "Deux villes sur un seul sol"
+    },
+    "frase_gancho": {
+      "hash": "19628bfd938714aa",
+      "texto": "De mille neuf cent treize à deux mille quinze, la ville n’a jamais fini d’être découverte."
+    },
+    "puente_narrativo": {
+      "hash": "c796504652a996d4",
+      "texto": "Restez un moment sur la place, avec la cathédrale devant vous et les ruines à quelques pas."
+    },
+    "guion_corto": {
+      "hash": "0790e38670b6d1ff",
+      "texto": "Cette visite s’achève là où elle a commencé : sur un même sol qui porte deux villes. En bas se trouvait Tenochtitlan, avec son temple, et au-dessus se sont élevées la cathédrale et la ville vice-royale. En mille neuf cent treize et mille neuf cent quatorze, Manuel Gamio a mis au jour une partie du temple. En mille neuf cent soixante-dix-huit, Coyolxauhqui est apparue. En deux mille six, Tlaltecuhtli. En deux mille quinze, le Huei Tzompantli. Chaque découverte a montré que le centre de la ville garde encore beaucoup, et qu’il reste encore à découvrir. Ce sont quatre moments qui ont changé ce que l’on savait de ce lieu. La cathédrale, à son tour, a dû être corrigée pour ne pas s’enfoncer davantage, et les deux histoires partagent le même terrain."
+    },
+    "guion_largo": {
+      "hash": "5116f5df6474d958",
+      "texto": "Vous avez parcouru une cathédrale et un temple, et les deux histoires vous ont menés vers un même sol. Cette dernière étape est faite pour regarder l’ensemble avec calme.\n\nCommençons par le commencement. Avant la conquête, les Mexicas ont élevé ici leur temple principal, le Huey Teocalli. C’était le centre de leur monde. Après mille cinq cent vingt et un, les Espagnols ont détruit les temples et se sont servis de leurs pierres pour construire la nouvelle ville. L’une de ces constructions fut la cathédrale, qui s’est élevée peu à peu pendant des siècles, depuis l’époque vice-royale. Ses voûtes furent fermées entre mille cinq cent quatre-vingt-un et mille six cent soixante-sept.\n\nDes siècles ont passé pendant lesquels le temple est resté enterré. Les premiers indices de ce qui se trouvait en dessous sont apparus en mille sept cent quatre-vingt-dix, avec des sculptures mexicas découvertes sur la place. Puis, entre mille neuf cent treize et mille neuf cent quatorze, l’archéologue Manuel Gamio a mis au jour une partie du temple. C’était le début d’une aventure qui n’était pas encore terminée, et qui a changé la manière de voir le centre de la ville.\n\nEn mille neuf cent soixante-dix-huit, des ouvriers de Lumière et Force ont découvert le monolithe de Coyolxauhqui, et le projet Templo Mayor a commencé. En deux mille six est apparue Tlaltecuhtli, qui accueille aujourd’hui les visiteurs dans le hall. En deux mille quinze, le Programme d’archéologie urbaine a trouvé le Huei Tzompantli, rue Guatemala. Chaque découverte a changé ce que l’on savait. La prochaine qui apparaîtra le changera encore, car l’exploration n’est pas terminée.\n\nEn attendant, la cathédrale a elle aussi son histoire avec le sol. Le terrain meuble sous elle s’est enfoncé de manière inégale depuis sa construction. Depuis mille neuf cent quatre-vingt-treize, on le corrige avec une technique appelée sous-excavation contrôlée, qui consiste à retirer l’argile petit à petit. C’est une autre façon de cohabiter avec ce qui se trouve sous la ville. L’affaissement et les découvertes sont les deux faces d’un même terrain.\n\nUne idée unit tout cela. Les Mexicas ont construit leur temple par couches, chacune au-dessus de la précédente. La ville d’aujourd’hui a fait de même : une couche coloniale sur la couche mexica, et une couche moderne sur la coloniale. Vous marchez sur la dernière. Chaque couche a laissé des traces, et les archéologues les lisent avec patience, une à une.\n\nSi vous avez encore du temps, asseyez-vous quelques minutes sur la place. Regardez la cathédrale, au nord de la place, et rappelez-vous qu’à quelques pas vers l’est se trouvent les ruines du Templo Mayor. Ce sont deux façons de comprendre le monde, et aucune n’a tout à fait effacé l’autre. L’une est debout, l’autre est ouverte sous le niveau de la rue.\n\nMerci d’avoir parcouru ce lieu. Si vous revenez un autre jour, vous remarquerez des choses qui vous avaient échappé. Il y a toujours quelque chose de nouveau à voir dans le sol de cette ville. Et si vous passez devant la cathédrale, rappelez-vous que l’édifice lui-même est toujours en mouvement, surveillé par des instruments."
+    },
+    "retos_observacion": {
+      "hash": "8be81b594ed21583",
+      "texto": [
+        "Regardez la cathédrale depuis la place et repérez dans quelle direction se trouvent les ruines du Templo Mayor, à l’est",
+        "Cherchez la différence de niveau entre la rue et les ruines",
+        "Rappelez-vous les 4 découvertes clés : 1913, 1978, 2006 et 2015"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8f8fbe0c19b5a9f3",
+      "texto": {
+        "Découvertes": "1790, sculptures sur la place",
+        "Cathédrale": "sous-excavation contrôlée depuis 1993"
+      }
+    },
+    "faq_mito": {
+      "hash": "aa581f112f47b823",
+      "texto": {
+        "pregunta": "Mythe : Tout ce qui se trouvait sous le centre a déjà été découvert.",
+        "respuesta": "Réalité : Les découvertes de 1978, 2006 et 2015 montrent que l’exploration continue ; on ne sait pas ce qui apparaîtra ensuite."
+      }
+    }
+  }
+}

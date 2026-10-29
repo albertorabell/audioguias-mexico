@@ -1,0 +1,54 @@
+{
+  "id": "tmc_18_etapa_ii",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "42fadf862f85f2d5",
+      "texto": "L’étape II : les plus anciens sanctuaires conservés"
+    },
+    "frase_gancho": {
+      "hash": "4e67437e95cc95aa",
+      "texto": "Le petit temple de Tláloc garde encore des traces de peinture."
+    },
+    "puente_narrativo": {
+      "hash": "d6eec3db67b18743",
+      "texto": "Regardez vers le pied de l’escalier du côté sud et cherchez l’endroit où l’on a découvert la grande pierre de Coyolxauhqui."
+    },
+    "guion_corto": {
+      "hash": "92a863ec2afa39cb",
+      "texto": "L’étape II est la partie la plus ancienne du temple que l’on puisse voir en entier. Elle conserve deux petits sanctuaires sur une plateforme. Au sud, celui de Huitzilopochtli présente à son entrée une pierre des sacrifices, et sous le sol on a trouvé des urnes contenant des restes de crémation. Au nord, celui de Tláloc conserve un Chac Mool et des restes de peinture murale. Elle date d’environ treize cent quatre-vingt-dix, elle a été protégée parce que d’autres étapes l’ont recouverte, et c’est pourquoi elle se conserve aujourd’hui mieux que les plus récentes. Voir ces sanctuaires, c’est se pencher sur un moment précoce de Tenochtitlan, quand le temple était encore petit."
+    },
+    "guion_largo": {
+      "hash": "3f34190a0486a6ed",
+      "texto": "Vous voilà devant la partie la plus ancienne du Templo Mayor qui soit conservée en bon état. Elle s’appelle l’étape II, et c’est un véritable joyau pour comprendre comment étaient les sanctuaires des Mexicas avant que l’empire ne s’étende.\n\nIl s’agit d’une plateforme surmontée de deux petits sanctuaires, l’un du côté sud et l’autre du côté nord. Ils sont plus modestes que ceux des étapes postérieures, mais ils ont un avantage : ils se sont conservés parce que des constructions plus grandes les ont recouverts. Cette étape se situe vers treize cent quatre-vingt-dix, une date approximative.\n\nDu côté sud se trouve le sanctuaire de Huitzilopochtli. À son entrée, il y a une pierre des sacrifices, un bloc où l’on accomplissait des offrandes rituelles. Sous le sol du sanctuaire, on a trouvé des urnes contenant des restes d’ossements brûlés, qui font partie des offrandes. Plus loin dans la visite du musée, vous verrez que les offrandes de ce temple sont l’une des sources d’information les plus importantes sur le rituel mexica.\n\nDu côté nord se trouve le sanctuaire de Tláloc. Il y a là un Chac Mool, une figure allongée qui tient un récipient sur le ventre. On conserve aussi des restes de peinture murale sur les parois, ce qui est rare, car la couleur finit généralement par disparaître avec le temps.\n\nPrêtez attention aux dimensions. Ces sanctuaires sont de taille modeste, bien plus petits que ceux des étapes postérieures. Avec le temps, les étapes suivantes ont agrandi l’édifice, mais elles ont gardé la même logique de deux sanctuaires, l’un au nord et l’autre au sud. Cette idée n’a pas changé durant toute l’histoire du temple, même si sa taille et son décor, eux, ont changé.\n\nIl convient aussi de regarder ce que l’on ne voit pas. Cette étape se trouve à l’intérieur de la pyramide postérieure. Ce que vous voyez aujourd’hui est une petite fenêtre ouverte sur le passé, parce que les étapes postérieures l’ont recouverte. C’est pourquoi elle est protégée par des toits et des passerelles.\n\nSi vous avez le temps, approchez-vous des barrières et regardez le sol du sanctuaire. Vous pourrez imaginer les offrandes que l’on y déposait, et que vous verrez au musée dans des vitrines. Beaucoup d’objets de ce type se trouvent maintenant au musée, que nous visiterons plus tard.\n\nUn dernier détail aide à lire ce lieu. Les deux moitiés de l’étape II ne sont pas identiques. Le côté de Tláloc conserve des figures et de la peinture, tandis que celui de Huitzilopochtli se distingue par la pierre des sacrifices et les urnes. Cela confirme que, dès l’étape la plus précoce, chaque sanctuaire avait son propre caractère et son propre type d’offrande. En comparant calmement les deux côtés, vous commencez à distinguer comment le culte s’organisait en haut de la pyramide.\n\nL’étape II nous rappelle une chose importante. Avant l’empire et les grandes pyramides, ce temple a été petit, et sa croissance a accompagné l’essor de Tenochtitlan."
+    },
+    "retos_observacion": {
+      "hash": "5673df87ba264e70",
+      "texto": [
+        "Cherchez la pierre des sacrifices à l’entrée du sanctuaire sud",
+        "Repérez le Chac Mool dans le sanctuaire nord",
+        "Regardez si vous voyez des restes de peinture murale sur les parois"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f42edfb409b0240",
+      "texto": {
+        "Étape II": "vers 1390",
+        "Sanctuaire sud": "Huitzilopochtli, pierre des sacrifices et urnes contenant des restes de crémation",
+        "Sanctuaire nord": "Tláloc, Chac Mool et restes de peinture murale",
+        "Protection": "toits et passerelles"
+      }
+    },
+    "faq_mito": {
+      "hash": "d8945338268bbea4",
+      "texto": {
+        "pregunta": "Mythe : Les sanctuaires de l’étape II ont été entièrement reconstruits.",
+        "respuesta": "Réalité : Ils se sont conservés parce que les étapes postérieures les ont recouverts ; aujourd’hui, ils sont protégés par des toits."
+      }
+    }
+  }
+}

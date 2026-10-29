@@ -1,0 +1,56 @@
+{
+  "id": "tmc_06_piedras_1790",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc8571f404f14433",
+      "texto": "Les pierres de mille sept cent quatre-vingt-dix"
+    },
+    "frase_gancho": {
+      "hash": "53e720e22dbbbb60",
+      "texto": "En une seule année sont apparues sur cette place la Coatlicue et la Pierre du Soleil, et la seconde a fini collée à une tour de la cathédrale."
+    },
+    "puente_narrativo": {
+      "hash": "1ff1f8faa20d6dca",
+      "texto": "Dirigez-vous maintenant vers la cathédrale et entrez dans la nef centrale."
+    },
+    "guion_corto": {
+      "hash": "8610dd492ffd4aa3",
+      "texto": "En mille sept cent quatre-vingt-dix, des ouvriers qui creusaient une tranchée pour un canal sur cette place sont tombés sur deux grandes pierres mexicas. La première est apparue le treize août et c’est la Coatlicue, une sculpture en andésite de deux mètres et demi de haut. La seconde est sortie de terre le dix-sept décembre et c’est la Pierre du Soleil. La Coatlicue fut emportée à l’université, où elle fut de nouveau enterrée. La Pierre du Soleil fut fixée sur l’une des tours de cette cathédrale, où elle est restée jusqu’en mille huit cent quatre-vingt-cinq. Aujourd’hui, les deux se trouvent au Musée national d’anthropologie. Ces découvertes furent les premiers signes de la ville enterrée."
+    },
+    "guion_largo": {
+      "hash": "391a5d8c1918542a",
+      "texto": "En mille sept cent quatre-vingt-dix, cette place était en cours de pavage et l’on y menait des travaux d’adduction d’eau. Cette année-là, la terre a rendu deux énormes pierres qui étaient enfouies depuis presque trois siècles.\n\nLa première fut la Coatlicue. Elle est apparue le treize août, lorsqu’on a creusé une tranchée pour un canal, près de ce qui est aujourd’hui le Palais national. C’est une sculpture en andésite, taillée en ronde-bosse, d’environ deux mètres et demi de haut. Elle est symétrique devant et derrière, et chaque partie est couverte de reliefs. On l’identifie à la déesse Coatlicue, dont le nom signifie celle à la jupe de serpents. Cette identification est encore débattue, et certaines spécialistes ont proposé qu’elle représente d’autres figures, comme les étoiles appelées tzitzimime.\n\nLes hommes de l’époque ne savaient pas quoi en faire. Elle fut emportée à l’université pour être conservée et étudiée. Mais certains religieux craignirent que les autochtones se remettent à la vénérer, et ils la firent enterrer de nouveau dans une cour. Elle fut déterrée en mille huit cent trois pour qu’Alexander von Humboldt puisse la dessiner, puis une autre fois en mille huit cent vingt-trois, pour en tirer un moule. Elle y resta jusqu’à la fondation du premier Musée national.\n\nLa seconde pierre a vu le jour le dix-sept décembre mille sept cent quatre-vingt-dix, près de la première. C’est la Pierre du Soleil, aussi appelée Calendrier aztèque. C’est une énorme sculpture en basalte. Au centre, on voit un visage entouré des signes des vingt jours du calendrier de deux cent soixante jours. Pendant près d’un siècle, on a cru que c’était un calendrier, parce que c’est ainsi que l’a interprétée Antonio de León y Gama, qui l’a étudiée aussitôt. Aujourd’hui, on pense qu’elle fut un autel de sacrifices, un cuauhxicalli, ce qui veut dire vase des aigles. On dit que Moctezuma Deux l’a dédiée peu d’années avant la conquête.\n\nVoici maintenant le détail qui relie cette pierre à la cathédrale. Après son apparition, la Pierre du Soleil fut fixée sur l’une des tours de ce temple. Elle resta encastrée dans le mur du clocher jusqu’en mille huit cent quatre-vingt-cinq, date à laquelle elle fut transférée au Musée national. Un catalogue de mille huit cent quatre-vingt-deux la situe encore près d’une des tours. Autrement dit, pendant près d’un siècle, les gens ont traversé cette place et ont vu, collée à la cathédrale, l’une des œuvres les plus représentatives de la culture mexica. Elle n’avait pas d’explication claire quant à sa nature.\n\nCes découvertes occupent une place particulière dans l’histoire de l’archéologie mexicaine. Elles furent les premiers signes que la ville de Tenochtitlan se trouvait toujours là, en dessous. Le musée du Templo Mayor, d’ailleurs, raconte l’histoire de la recherche depuis mille sept cent quatre-vingt-dix. Ainsi se relient la place, la cathédrale et le site archéologique.\n\nAujourd’hui, la Coatlicue comme la Pierre du Soleil se trouvent au Musée national d’anthropologie, à Chapultepec. Elles ne font pas partie de ce parcours, mais elles méritent d’être découvertes là-bas.\n\nPendant que vous êtes ici, imaginez la scène. Une tranchée, un groupe d’ouvriers, un coup de pioche et soudain un visage de pierre. La ville que l’on croyait oubliée réapparaissait sans prévenir, et les autorités de l’époque ne surent pas s’il fallait l’exposer, l’étudier ou la cacher. Ce doute accompagne les découvertes jusqu’à aujourd’hui."
+    },
+    "retos_observacion": {
+      "hash": "d0de566e044714e8",
+      "texto": [
+        "Repérez le Palais national : la Coatlicue est apparue près de lui",
+        "Regardez les tours de la cathédrale et imaginez une grande pierre circulaire encastrée dans l’une d’elles",
+        "Cherchez l’endroit où se dresse aujourd’hui le mât du drapeau, au centre de la place"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8dbad0296172f1af",
+      "texto": {
+        "Coatlicue": "découverte le 13 août 1790, andésite, environ 2,52 m de haut",
+        "Pierre du Soleil": "découverte le 17 décembre 1790, basalte",
+        "Pierre du Soleil sur la tour de la cathédrale": "jusqu’en 1885",
+        "Fonction proposée aujourd’hui pour la Pierre du Soleil": "cuauhxicalli, autel de sacrifices",
+        "Emplacement actuel des deux": "Musée national d’anthropologie",
+        "Emplacement de la découverte": "place de la Constitution, Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "af2c8cb7afd1974e",
+      "texto": {
+        "pregunta": "Mythe : La Pierre du Soleil est le calendrier que les Mexicas utilisaient tous les jours.",
+        "respuesta": "Réalité : Bien qu’elle montre les vingt jours du calendrier de 260 jours, on l’interprète aujourd’hui comme un autel de sacrifices, un cuauhxicalli, et non comme un calendrier d’usage quotidien."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "tmc_29_coyolxauhqui_monolito",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0ef9a1a1d2021d98",
+      "texto": "Le monolithe de Coyolxauhqui au musée"
+    },
+    "frase_gancho": {
+      "hash": "1b8d051e0750b142",
+      "texto": "La pierre originale que vous avez vue à l’endroit où elle est apparue, désormais de près."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "Quand vous serez prêt, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "cabe5ad9013f0d1d",
+      "texto": "Devant vous se trouve le monolithe de Coyolxauhqui, le disque de pierre découvert le vingt et un février mil neuf cent soixante-dix-huit, au pied de l’escalier sud. Il mesure trois mètres vingt-cinq de diamètre et pèse près de huit tonnes, selon l’INAH. La figure est une femme démembrée, la tête séparée du corps. Son nom signifie celle qui a le visage peint de grelots. Selon le mythe, elle est la sœur de Huitzilopochtli, qui fut vaincue par lui. Observez les bras et les jambes coupés, ainsi que les détails des vêtements et des parures. C’est une pièce que l’on apprécie mieux en en faisant complètement le tour."
+    },
+    "guion_largo": {
+      "hash": "6907468e569d4ac5",
+      "texto": "C’est la pièce la plus importante du musée, et sans doute celle que le public connaît le mieux. C’est le monolithe de Coyolxauhqui, le disque apparu en mil neuf cent soixante-dix-huit, qui est à l’origine de tout le projet.\n\nD’abord, les chiffres, selon l’INAH. Le disque mesure trois mètres vingt-cinq de diamètre et pèse près de huit tonnes. Autrement dit, c’est une pierre énorme, et déplacer une pièce pareille fut une tâche considérable pour l’équipe qui l’a récupérée. Elle a été découverte le vingt et un février mil neuf cent soixante-dix-huit, au pied de l’escalier sud du temple, où vous étiez il y a un moment.\n\nVoyons maintenant la scène. La figure sculptée est une femme, et son corps est démembré : la tête, les bras et les jambes apparaissent séparés du tronc, mais disposés à l’intérieur du cercle. C’est une composition qui oblige le regard à parcourir chaque partie, l’une après l’autre, jusqu’à reconstituer le corps. Le relief est travaillé avec beaucoup de soin, et cela se voit dans les parures, dans les détails des vêtements et dans les formes du corps.\n\nLe nom, selon l’INAH, veut dire celle qui a le visage peint de grelots. Dans la tradition mexica, Coyolxauhqui est la sœur de Huitzilopochtli. À la naissance de celui-ci, elle a mené ses frères, les Centzonhuitznahua, dans une attaque contre leur mère. Huitzilopochtli en est sorti armé, l’a vaincue, et son corps est tombé le long de la pente du Coatépetl.\n\nC’est pourquoi la pierre se trouvait au pied de l’escalier du sanctuaire. La scène de la pierre répétait, au sol, ce que le mythe racontait sur la montagne. Celui qui la voyait comprenait le message sans avoir besoin de mots : le dieu triomphe de ses ennemis.\n\nIl y a encore une chose qu’il est bon de savoir. La salle huit du musée, la dernière, présente des fragments d’une autre Coyolxauhqui, elle aussi monumentale, qui fut détruite par les Espagnols. Cette autre pièce ne s’est pas conservée entière, et cela en dit long. Cela rend le monolithe que vous avez devant vous encore plus précieux, car il a échappé à la destruction.\n\nRegardez aussi la manière dont la pièce est présentée. Au musée, vous pouvez la voir de face. Dans le temple, en revanche, elle se trouvait au pied de l’escalier, à la vue de quiconque s’approchait du sanctuaire. Imaginez l’effet qu’elle produisait là-bas, à la lumière du jour. Si vous vous souvenez de Tlaltecuhtli, qui conserve des restes de couleur, vous comprendrez que ces sculptures ont pu être peintes, et qu’il convient de les imaginer en pleines couleurs.\n\nPrenez le temps d’en faire le tour et de la regarder sous différents angles. Cherchez d’abord la tête, puis les bras et les jambes, et enfin les parures. Cette pièce mérite quelques minutes d’attention, car elle résume en un seul objet le mythe, l’archéologie et l’histoire de la ville. Sans elle, vous ne seriez probablement pas aujourd’hui dans ce musée, et le centre de la ville aurait un autre visage."
+    },
+    "retos_observacion": {
+      "hash": "73bef5ae695cdbd9",
+      "texto": [
+        "Cherchez la tête séparée du corps, à l’intérieur du cercle",
+        "Observez les bras et les jambes coupés et la façon dont ils s’organisent sur le disque",
+        "Comparez le disque avec l’endroit de l’escalier sud où vous l’avez vu sur le site"
+      ]
+    },
+    "especificaciones": {
+      "hash": "89501281611a612a",
+      "texto": {
+        "Découverte": "21 février 1978",
+        "Diamètre": "3,25 m selon l’INAH",
+        "Poids": "près de 8 tonnes",
+        "Nom": "celle qui a le visage peint de grelots",
+        "Lieu de la découverte": "pied de l’escalier sud",
+        "Salle": "4"
+      }
+    },
+    "faq_mito": {
+      "hash": "57254f34ad9d8a71",
+      "texto": {
+        "pregunta": "Mythe : Ce monolithe est le seul de Coyolxauhqui à avoir existé.",
+        "respuesta": "Réalité : La salle 8 présente des fragments d’une autre Coyolxauhqui monumentale détruite par les Espagnols."
+      }
+    }
+  }
+}

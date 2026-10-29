@@ -1,0 +1,54 @@
+{
+  "id": "tmc_31_salas_6_7_naturaleza",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6fa1ef27a1f7897c",
+      "texto": "Salles six et sept : flore, faune et agriculture"
+    },
+    "frase_gancho": {
+      "hash": "585751c37cfdc253",
+      "texto": "Chalchiuhtlicue, Chicomecóatl, Xipe Tótec et les maquettes d’une chinampa et d’un tianguis."
+    },
+    "puente_narrativo": {
+      "hash": "5dfa2880babb09ab",
+      "texto": "Entrez dans la salle huit, la dernière, où l’histoire passe des Mexicas à la ville coloniale."
+    },
+    "guion_corto": {
+      "hash": "513d5f144b6d2f6d",
+      "texto": "Les salles six et sept présentent le monde naturel et agricole. La salle six, consacrée à la flore et à la faune, comprend des images de Chalchiuhtlicue, de Chicomecóatl et de Xipe Tótec, des dieux liés à l’eau, au maïs et au renouveau. La salle sept, consacrée à l’agriculture, présente les cultures, une maquette de chinampa et une autre du tianguis de Tlatelolco. Ce sont des salles qui déplacent l’attention des grands rituels vers la vie quotidienne : ce que l’on cultivait, ce que l’on mangeait et la façon dont le marché était organisé. Elles aident à comprendre la base de l’économie de la ville, et rapprochent de nous une culture que l’on imagine parfois seulement à travers ses rituels."
+    },
+    "guion_largo": {
+      "hash": "036d7015ca688375",
+      "texto": "Après les salles des deux grands dieux, le parcours change d’échelle. Les salles six et sept s’intéressent à la nature et au monde rural, c’est-à-dire à ce qui soutenait la vie dans la ville.\n\nLa salle six est consacrée à la flore et à la faune. On y voit des images de trois figures importantes : Chalchiuhtlicue, Chicomecóatl et Xipe Tótec. Chalchiuhtlicue est associée aux eaux, Chicomecóatl au maïs et aux subsistances, et Xipe Tótec au renouvellement de la végétation. Les spécialistes peuvent nuancer ces associations, mais il est clair que ce sont des dieux liés à la vie naturelle, aux plantes et aux cycles de l’année.\n\nPensez à la façon dont ce thème se relie à ce que vous avez vu auparavant. Le côté de Tláloc du temple était dédié à l’eau et à la fertilité. Ces figures sont, d’une certaine manière, des parentes de ce monde : elles montrent différents visages d’une même réalité, la terre, l’eau et le cycle des plantes.\n\nLa salle sept, consacrée à l’agriculture, présente les cultures et deux maquettes. L’une représente une chinampa, c’est-à-dire une parcelle de culture construite sur l’eau. Les chinampas furent une forme d’agriculture propre au bassin de Mexico, et elles contribuèrent à nourrir la ville. L’autre maquette représente le tianguis de Tlatelolco, le grand marché. Les regarder aide à imaginer ce qu’était la vie quotidienne autour du temple.\n\nCes maquettes ont une valeur particulière. Les vestiges du temple montrent la part rituelle de la ville, mais ils ne disent pas grand-chose de ce qui se passait dans les rues et sur les canaux. Une maquette permet d’imaginer le mouvement, les produits et les gens, et cela complète ce que l’on apprend dans les salles précédentes. C’est un bon moment pour reposer votre regard des pièces de pierre et pour observer des scènes entières.\n\nSi vous avez peu de temps, ce sont les salles que l’on peut parcourir le plus vite. Mais si la vie quotidienne des Mexicas vous intéresse, elles méritent une pause. Prêtez attention aux cultures présentées : elles sont la base de l’alimentation et de l’économie. Sans elles, il n’y aurait eu ni empire ni temple. C’est l’idée qui relie tout ce que vous avez vu dans le musée.\n\nVous pouvez aussi comparer le tianguis aux marchés que vous connaissez. Certains marchés de Mexico restent des lieux d’échange très vivants, et l’idée du tianguis fait partie de cet héritage. C’est une manière de relier ce que vous voyez dans le musée à la ville d’aujourd’hui, et de constater que certaines coutumes ont des racines très profondes.\n\nLa dernière salle vous attend avec un changement d’époque. Prenez un moment pour souffler avant d’entrer, car le ton change beaucoup. Nous passerons des Mexicas à la conquête et à ce qui est venu ensuite."
+    },
+    "retos_observacion": {
+      "hash": "15de58507b9ba01a",
+      "texto": [
+        "Cherchez les images de Chalchiuhtlicue, de Chicomecóatl et de Xipe Tótec",
+        "Observez la maquette de la chinampa et la façon dont la culture y est organisée",
+        "Comparez le tianguis de Tlatelolco avec un marché actuel"
+      ]
+    },
+    "especificaciones": {
+      "hash": "588552c7f5aaf76b",
+      "texto": {
+        "Salle 6": "flore et faune",
+        "Salle 7": "agriculture",
+        "Figures": "Chalchiuhtlicue, Chicomecóatl, Xipe Tótec",
+        "Maquettes": "chinampa et tianguis de Tlatelolco"
+      }
+    },
+    "faq_mito": {
+      "hash": "780c2ede5536f3fd",
+      "texto": {
+        "pregunta": "Mythe : le Templo Mayor ne renfermait que des objets de guerre et de sacrifice.",
+        "respuesta": "Réalité : ses salles présentent aussi la flore, la faune, les cultures, une chinampa et le tianguis de Tlatelolco."
+      }
+    }
+  }
+}

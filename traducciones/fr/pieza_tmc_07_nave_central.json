@@ -1,0 +1,57 @@
+{
+  "id": "tmc_07_nave_central",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8b135bfca9215da1",
+      "texto": "La nef centrale et ses cinquante et une voûtes"
+    },
+    "frase_gancho": {
+      "hash": "a630e145bfa4429b",
+      "texto": "Cinq nefs, quarante colonnes et un sol qui n’est pas tout à fait plat."
+    },
+    "puente_narrativo": {
+      "hash": "6d0aa78644adfd61",
+      "texto": "Avancez par la nef centrale jusqu’au centre de l’église. Quand vous serez prêt, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "46e1938e5efca4ea",
+      "texto": "Cinq nefs, cinquante et une voûtes, soixante-quatorze arcs et quarante colonnes. Tels sont les chiffres de cet intérieur. Les voûtes se sont refermées peu à peu à partir de mille cinq cent quatre-vingt-un, et la dernière, en mille six cent soixante-sept. C’est pourquoi l’espace a des proportions claires et un air sobre, avant que les autels ne se couvrent d’or. La nef centrale est la plus large et la plus haute. Par elle, vous avancez vers le chœur, les orgues et le maître-autel. Marchez lentement et regardez le sol, car il n’est pas tout à fait plat. Le terrain sous la cathédrale bouge depuis des siècles, et l’édifice en porte la trace."
+    },
+    "guion_largo": {
+      "hash": "edc554e076b03db1",
+      "texto": "Vous venez d’entrer dans l’une des plus grandes églises d’Amérique. Avant de chercher les autels et les chapelles, il vaut la peine de comprendre comment cet espace est construit.\n\nLa cathédrale compte cinq nefs et un transept, c’est-à-dire l’espace transversal qui traverse l’église. L’intérieur réunit cinquante et une voûtes, soixante-quatorze arcs, quarante colonnes et environ cent cinquante fenêtres. Ce sont des chiffres ronds, qui aident à imaginer l’échelle. Ce que l’on voit au premier regard, c’est que la nef centrale est la plus large et la plus haute, et que les nefs latérales l’accompagnent comme des couloirs plus bas.\n\nCette disposition obéit à une logique. La nef centrale mène de l’entrée à l’autel, et sur son passage se trouvent les éléments qui organisent l’église. D’abord apparaît le chœur, avec ses stalles en bois et ses deux grandes orgues. Ensuite, l’autel du Pardon et le transept. Au fond, dans le chevet, se trouve la chapelle majeure avec l’autel des Rois. Les nefs latérales donnent accès aux chapelles, chacune dédiée à un saint et patronnée par un ordre religieux, une corporation ou une confrérie.\n\nLa construction de cet espace a pris des décennies. Les voûtes se sont refermées peu à peu à partir de mille cinq cent quatre-vingt-un, et la dernière a été fermée le vingt-deux juin mille six cent soixante-sept. Cette année-là est considérée comme la fin des travaux de l’intérieur. C’est alors que l’église fut dédiée. Vous pouvez en voir le résultat dans la sobriété des lignes. Le dessin d’origine a un air de Renaissance, et son ordre contraste avec les autels baroques ajoutés par la suite.\n\nMaintenant, levez les yeux et parcourez les voûtes du regard. Rappelez-vous que l’église compte environ cent cinquante fenêtres, et que c’est d’elles que dépend la lumière qui tombe sur la nef.\n\nEnsuite, baissez les yeux vers le sol et marchez avec prudence. Le sol de la cathédrale n’est pas parfaitement horizontal. Cette église repose sur le terrain mou de ce qui fut un lac, et depuis sa construction, elle s’enfonce de manière inégale. En un point de l’édifice, le dénivelé maximal a fini par dépasser deux mètres, et il a été réduit par une intervention ultérieure. Plus loin, lors d’une autre étape, vous verrez comment elle a été redressée. Pour l’instant, il suffit de remarquer que le sol est une sorte de carte du terrain.\n\nUne dernière observation. Malgré sa taille, l’espace ne semble pas vide. Il est occupé par la présence des autels, des grilles, des bancs des fidèles et des chapelles latérales, et tout garde un ordre. Si vous tombez sur une messe, l’atmosphère change du tout au tout. On entend l’orgue, ou le chant, et l’espace se remplit d’un sens que l’on ne perçoit pas dans le silence. Respectez ce rituel : parlez à voix basse, évitez le flash et ne dérangez pas ceux qui prient.\n\nQuand vous serez prêt, poursuivez par la nef vers le centre de l’église."
+    },
+    "retos_observacion": {
+      "hash": "46dae89079775f10",
+      "texto": [
+        "Comptez combien de colonnes vous distinguez sur une seule rangée de la nef centrale",
+        "Levez les yeux et suivez la ligne d’une voûte jusqu’à l’endroit où elle se ferme",
+        "Marchez lentement et cherchez un tronçon du sol où l’on remarque une pente"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2f950365bb6f4480",
+      "texto": {
+        "Nefs": "5, plus un transept",
+        "Voûtes": "51",
+        "Arcs": "74",
+        "Colonnes": "40",
+        "Fenêtres": "environ 150",
+        "Dernière voûte fermée": "22 juin 1667",
+        "Emplacement": "intérieur de la cathédrale métropolitaine"
+      }
+    },
+    "faq_mito": {
+      "hash": "97510d9485f40686",
+      "texto": {
+        "pregunta": "Mythe : L’intérieur de la cathédrale a toujours été aussi doré qu’aujourd’hui.",
+        "respuesta": "Réalité : Le dessin d’origine est sobre, d’influence Renaissance, et les autels baroques dorés ont été ajoutés pendant les XVIIe et XVIIIe siècles."
+      }
+    }
+  }
+}

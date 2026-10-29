@@ -1,0 +1,56 @@
+{
+  "id": "tmc_15_entrada_ombligo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a565290328a4d04b",
+      "texto": "Le Huey Teocalli : le nombril de l’univers mexica"
+    },
+    "frase_gancho": {
+      "hash": "d999fae1472507c8",
+      "texto": "Ici se trouvait le centre du monde mexica, et aujourd’hui vous le découvrez depuis une passerelle."
+    },
+    "puente_narrativo": {
+      "hash": "6f4040200719f5aa",
+      "texto": "Suivez la passerelle sans vous presser. Quand vous êtes prêt, passez à l’étape suivante de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "62051446462ba074",
+      "texto": "Vous êtes sur le site où les Mexicas ont placé le centre de leur monde. Ils l’appelaient Huey Teocalli, le grand temple, et le concevaient comme le nombril de l’univers. C’était une pyramide double, avec deux sanctuaires au sommet, l’un pour Huitzilopochtli et l’autre pour Tláloc. Dans sa dernière étape, il mesurait environ quatre-vingts mètres de côté et environ quarante-cinq mètres de haut. Ce que vous voyez aujourd’hui, c’est la base, car le reste a disparu après la conquête. Tandis que vous parcourez la passerelle, gardez à l’esprit que c’était le centre d’une ville entière et qu’elle se trouve en grande partie sous vos pieds. La cathédrale et le Zócalo ont été construits au-dessus de cette ville, et les fouilles ont peu à peu dégagé ce qui restait en dessous."
+    },
+    "guion_largo": {
+      "hash": "9debfffc51e13022",
+      "texto": "Vous êtes dans la zone archéologique du Templo Mayor. Avant de regarder pierre après pierre, il convient de vous situer, car ce que vous voyez n’est qu’une petite partie d’un ensemble bien plus vaste.\n\nLes Mexicas appelaient cet édifice Huey Teocalli, ce qui signifie le grand temple. Il se dressait au cœur de l’enceinte sacrée de Tenochtitlan, la ville qu’ils avaient fondée sur une île du lac. Pour eux, ce lieu était le nombril de l’univers, le point où se rejoignaient le ciel, la terre et le monde des morts. Ce n’était pas seulement un temple important. C’était l’axe de leur façon de comprendre le monde.\n\nLa forme de l’édifice avait elle aussi un sens. C’était une pyramide à deux escaliers et à deux sanctuaires au sommet. Du côté nord se trouvait celui de Tláloc, dieu de la pluie, et au sud celui de Huitzilopochtli, dieu de la guerre et du Soleil. Dans sa dernière étape, la pyramide mesurait environ quatre-vingts mètres de côté et environ quarante-cinq mètres de haut, et elle a connu sept étapes de construction. Ce sont des chiffres de référence, car ce qui subsiste, c’est la base de plusieurs étapes.\n\nL’enceinte sacrée comptait d’autres édifices tout autour. Il y avait des temples, des maisons de prêtres, des jeux de balle et des plateformes. Les fouilles ont mis au jour les vestiges de plusieurs d’entre eux, comme les Temples Rouges et la Maison des Aigles, que nous visiterons plus loin. Ce qui est certain, c’est que la zone que vous parcourez aujourd’hui n’est qu’une partie de cet ensemble, et que le reste se trouve toujours sous les rues et les bâtiments alentour.\n\nLa conquête a tout changé. Après 1521, les Espagnols ont détruit les temples et utilisé leurs pierres pour bâtir la nouvelle ville. Sur ce terrain se sont élevés des maisons, la cathédrale et la place. Pendant des siècles, personne n’a vu ces ruines, et seules quelques découvertes isolées rappelaient qu’il y avait quelque chose en dessous. L’une d’elles date de 1790, lorsque de grandes sculptures mexicas sont apparues sur la place, et nous en parlerons dans le musée.\n\nLes fouilles officielles sont venues bien plus tard. En 1913 et 1914, l’archéologue Manuel Gamio a mis au jour une partie de l’angle sud-ouest de l’édifice. Mais la grande exploration a commencé en 1978, lorsque la grande pierre de Coyolxauhqui est apparue. Cette découverte a donné naissance au Proyecto Templo Mayor, de 1978 à 1982, qui a permis de récupérer plus de 7 000 objets. Nous en reparlerons.\n\nPour parcourir la zone, suivez les passerelles. Elles sont conçues pour que vous puissiez voir les ruines sans les piétiner. Vous verrez que les couches apparaissent comme des coupes : chaque étape du temple a été construite par-dessus la précédente, de sorte que certaines parties sont restées enfouies et d’autres ont été laissées visibles.\n\nRegardez maintenant vers le haut et vers l’ouest. De là, on voit la cathédrale, à quelques mètres. Il est difficile de trouver un autre endroit où deux mondes si différents soient aussi proches. Le temple mexica a été le centre d’une ville, et la cathédrale a été le centre d’une autre, élevée au-dessus de la première.\n\nPour commencer la visite, n’essayez pas de tout comprendre d’un coup. Regardez d’abord la forme générale des ruines. Ensuite, aux étapes suivantes, nous verrons comment le temple a grandi, ce qu’il y avait dans chaque sanctuaire et quelles offrandes ont été enterrées ici."
+    },
+    "retos_observacion": {
+      "hash": "8158d388e0f90a9a",
+      "texto": [
+        "Repérez la base de la pyramide et distinguez les deux escaliers",
+        "Cherchez depuis la passerelle l’endroit d’où l’on voit la cathédrale",
+        "Observez les coupes dans les murs où l’on distingue les couches des différentes étapes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e34d71cc7f6c3c90",
+      "texto": {
+        "Nom mexica": "Huey Teocalli, grand temple",
+        "Dimensions approximatives de la pyramide": "environ 80 m de côté et environ 45 m de haut",
+        "Étapes de construction": "7",
+        "Sanctuaires": "Tláloc au nord, Huitzilopochtli au sud",
+        "Fouilles de Gamio": "1913 à 1914",
+        "Proyecto Templo Mayor": "1978 à 1982"
+      }
+    },
+    "faq_mito": {
+      "hash": "fdb2068e98620c36",
+      "texto": {
+        "pregunta": "Mythe : Le Templo Mayor se conserve presque entièrement.",
+        "respuesta": "Réalité : Ce que vous voyez, ce sont les bases de plusieurs étapes, car les Espagnols ont détruit les temples après 1521."
+      }
+    }
+  }
+}

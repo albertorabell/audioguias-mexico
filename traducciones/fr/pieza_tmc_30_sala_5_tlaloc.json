@@ -1,0 +1,54 @@
+{
+  "id": "tmc_30_sala_5_tlaloc",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a1f526c4afb496d8",
+      "texto": "Salle cinq : Tláloc, la jarre bleue et l’offrande quarante et un"
+    },
+    "frase_gancho": {
+      "hash": "97b0c32e1ceb4642",
+      "texto": "Une jarre bleue, une offrande numérotée et les auxiliaires de la pluie."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "Quand vous êtes prêt, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "77e42eda85862196",
+      "texto": "La salle cinq correspond au côté nord du temple, celui de Tláloc. Elle réunit une jarre peinte en bleu, l’offrande quarante et un et des représentations des tlaloque, les auxiliaires de la pluie. Ce côté du temple était lié à l’eau et à la fertilité, et il complétait le côté sud, celui de la guerre. La salle invite à réfléchir à ce que la pluie signifiait pour une ville bâtie sur un lac, et à la raison pour laquelle les Mexicas l’ont placée au centre de leur temple principal. C’est une salle plus sereine que la précédente, et il convient de la parcourir sans se presser, en regardant chaque vitrine séparément."
+    },
+    "guion_largo": {
+      "hash": "d108448206a627d5",
+      "texto": "Vous passez maintenant de l’autre côté du temple. La salle cinq est consacrée à Tláloc, le dieu de la pluie, et à ce que l’on a découvert dans le sanctuaire du côté nord.\n\nRappelez-vous ce que vous avez vu dans la zone archéologique, à l’étape des deux sanctuaires. La pyramide avait deux sanctuaires : au sud, Huitzilopochtli, et au nord, Tláloc. Chacun était une montagne sacrée, et chacun demandait des offrandes différentes. Cette salle est le miroir de la précédente : au lieu de la guerre et du Soleil, le thème est l’eau, la fertilité et les subsistances.\n\nL’un des objets principaux est une jarre peinte en bleu. C’est une pièce cérémonielle. La couleur bleue est souvent associée à l’eau, et c’est l’un des traits qui aident à reconnaître ce dieu. En entrant dans la salle, remarquez comment cette couleur change l’ambiance par rapport à la précédente.\n\nLa salle présente aussi l’offrande quarante et un. Les archéologues numérotent les offrandes du Templo Mayor, et celle-ci est l’une de celles qui ont été trouvées du côté de Tláloc. Plus de cent offrandes ont été découvertes au total, comme vous l’avez vu dans la salle un. Chacune a son propre numéro et sa propre liste d’objets, et c’est pourquoi on peut les étudier une par une. Cet ordre fait partie du travail des archéologues, qui consignent où se trouvait chaque chose avant de la déplacer.\n\nIl y a en outre des représentations des tlaloque. Selon la tradition, ils étaient les auxiliaires de Tláloc, chargés de la pluie. On les imaginait comme de petits êtres qui versaient l’eau depuis des vases. Dans la salle, vous pouvez chercher leurs figures et observer la manière dont elles ont été représentées. Les cartels de la salle vous en diront plus sur chacune, et il vaut la peine de les lire avec calme.\n\nPensez à la raison pour laquelle Tláloc se trouvait au centre de la ville. Tenochtitlan était sur une île, entourée de lacs, et dépendait de la pluie et du niveau des eaux. Une sécheresse ou une inondation pouvaient être catastrophiques. Avoir le dieu de la pluie dans le temple principal était une manière de reconnaître cette dépendance.\n\nUn conseil pour mieux regarder : comparez cette salle avec la précédente. Là, il y avait un Guerrier-Aigle, un serpent de feu et des figures de dieux du feu et de la mort. Ici, l’attention se tourne vers l’eau et vers la terre qui donne des fruits. Les deux salles, ensemble, racontent la dualité du temple.\n\nAvant de sortir, revenez un instant à la jarre bleue et comparez-la avec ce que vous avez vu du côté de Huitzilopochtli. Cette comparaison vous aide à voir les deux côtés du temple. En sortant, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "retos_observacion": {
+      "hash": "e4f4199af694339a",
+      "texto": [
+        "Cherchez la jarre peinte en bleu",
+        "Repérez l’offrande portant le numéro 41",
+        "Trouvez les figures des tlaloque, les auxiliaires de la pluie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e315b2c96057d85d",
+      "texto": {
+        "Salle": "5, Tláloc",
+        "Côté du temple": "nord",
+        "Objets": "jarre bleue, offrande 41, tlaloque",
+        "Offrandes au total dans le Templo Mayor": "plus de 100"
+      }
+    },
+    "faq_mito": {
+      "hash": "9489e1408c53c9e4",
+      "texto": {
+        "pregunta": "Mythe : Tláloc était un dieu secondaire dans le Templo Mayor.",
+        "respuesta": "Réalité : Il partageait le sommet de la pyramide avec Huitzilopochtli ; chacun avait son propre sanctuaire."
+      }
+    }
+  }
+}

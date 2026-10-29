@@ -1,0 +1,56 @@
+{
+  "id": "tmc_08_coro_organos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "409d8a6d001014ee",
+      "texto": "Le chœur, les stalles et les deux orgues"
+    },
+    "frase_gancho": {
+      "hash": "6ddfe9292d7c2574",
+      "texto": "Un temple dans le temple, avec des stalles sculptées et deux orgues monumentales."
+    },
+    "puente_narrativo": {
+      "hash": "3e700836d33c4c21",
+      "texto": "Poursuivez vers le côté de l’autel du Pardon, à l’arrière du chœur."
+    },
+    "guion_corto": {
+      "hash": "22ef2aad20fca309",
+      "texto": "Au centre de la nef centrale se trouve un autre espace, entouré de grilles et de bois sculpté : le chœur. Les chanoines s’y asseyaient pour prier et chanter. Les stalles sont l’œuvre de Juan de Rojas, de la fin du dix-septième siècle, et leurs sièges portent des reliefs sculptés. Au-dessus se dressent les deux grandes orgues de la période vice-royale, dont les façades mesurent environ neuf mètres de large sur onze de haut. Dans cette cathédrale, Agustín de Iturbide fut couronné empereur, le vingt et un juillet mille huit cent vingt-deux, dans la chapelle principale, près de l’autel. En mille neuf cent soixante-sept, un incendie a endommagé la plus grande partie de ces stalles et touché les orgues, puis il y a eu des restaurations."
+    },
+    "guion_largo": {
+      "hash": "59de813442ed413c",
+      "texto": "Vous êtes au centre du temple, là où s’élève l’un des espaces les plus particuliers d’une cathédrale ancienne : le chœur. Dans les cathédrales de la Nouvelle-Espagne, le chœur se trouvait au milieu de la nef, fermé par des grilles, et c’est là que les chanoines se réunissaient pour prier et chanter l’office plusieurs fois par jour.\n\nLa partie la plus frappante est constituée par les stalles, cet ensemble de sièges en bois sculpté. Elles ont été réalisées par Juan de Rojas entre mille six cent quatre-vingt-seize et mille six cent quatre-vingt-dix-sept, dans un bois appelé tapincerán, et elles comptent cinquante-neuf reliefs. Chaque siège montrait des scènes et des figures, et on l’utilisait selon le rang de celui qui l’occupait. C’est un type d’œuvre qui réunit sculpture, menuiserie et liturgie dans un même meuble.\n\nAu-dessus des stalles s’élèvent les deux orgues. Elles sont énormes : leurs façades mesurent environ neuf mètres de large sur onze de haut, selon l’INAH, et elles furent construites au dix-huitième siècle. Les orgues actuelles sont attribuées à José Nassarre, et datées entre mille sept cent trente-quatre et mille sept cent trente-six. Auparavant, il y eut un orgue plus ancien, de la fin du dix-septième siècle. C’est avec ces instruments que résonnait le culte de la cathédrale la plus importante de la vice-royauté.\n\nDans cette cathédrale s’est aussi déroulé un moment politique. Agustín de Iturbide fut couronné empereur du Mexique le vingt et un juillet mille huit cent vingt-deux. La cérémonie n’eut pas lieu dans le chœur, mais dans la chapelle principale, près de l’autel, où l’on avait placé les trônes. Il venait de consommer l’indépendance l’année précédente. Iturbide gouverna quelques mois seulement et abdiqua en mille huit cent vingt-trois. Ses restes reposent dans une autre chapelle de la cathédrale.\n\nLe dix-sept janvier mille neuf cent soixante-sept, un court-circuit provoqua un incendie qui commença dans l’autel du Pardon, juste derrière le chœur. Le feu endommagea la plus grande partie des stalles, puisque soixante-quinze de leurs quatre-vingt-dix-neuf sièges furent perdus. Il toucha aussi les orgues. Ensuite, des travaux de restauration furent menés, avec des interventions en mille neuf cent soixante-seize, puis entre deux mille sept et deux mille huit.\n\nLa grille qui ferme le chœur a elle aussi son histoire. Elle fut fabriquée à Macao, dans le sud de la Chine, en mille sept cent vingt-deux, et placée dans la cathédrale en mille sept cent trente. Elle montre que cette cathédrale a possédé des pièces faites très loin.\n\nLe chœur demande souvent une donation pour y entrer, et il est parfois fermé en raison de célébrations. Si vous ne pouvez pas y entrer, on l’apprécie aussi très bien depuis la nef, à travers les grilles, et les orgues se voient bien depuis n’importe quel point du transept.\n\nPensez à tout le son qui a traversé ce lieu. Pendant des siècles, le chœur a été la voix de la cathédrale. Derrière lui, vers l’autel, se trouve une pièce qui a elle aussi souffert de l’incendie et qui porte un nom très évocateur : l’autel du Pardon."
+    },
+    "retos_observacion": {
+      "hash": "a7a86f624e98a67d",
+      "texto": [
+        "Levez les yeux et comparez les façades des deux orgues",
+        "Cherchez sur les stalles les reliefs sculptés des dossiers",
+        "Repérez la grille du chœur et observez comment elle ferme l’espace"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c0bc73d810ef3d93",
+      "texto": {
+        "Stalles": "Juan de Rojas, 1696 à 1697, bois de tapincerán",
+        "Reliefs des stalles": "59",
+        "Orgues": "José Nassarre, 1734 à 1736",
+        "Façades des orgues": "environ 9 m de large sur 11 m de haut",
+        "Couronnement d’Iturbide": "21 juillet 1822, dans la chapelle principale",
+        "Incendie": "17 janvier 1967"
+      }
+    },
+    "faq_mito": {
+      "hash": "b943cf0983a443de",
+      "texto": {
+        "pregunta": "Mythe : Le chœur de la cathédrale a entièrement brûlé en 1967 et n’existe plus.",
+        "respuesta": "Réalité : L’incendie a détruit une grande partie des stalles et touché les orgues, mais le chœur et les orgues ont été restaurés en plusieurs étapes."
+      }
+    }
+  }
+}

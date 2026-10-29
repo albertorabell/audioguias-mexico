@@ -1,0 +1,54 @@
+{
+  "id": "tmc_17_dos_santuarios",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3c57190d976b777d",
+      "texto": "Tláloc et Huitzilopochtli : deux montagnes dans une pyramide"
+    },
+    "frase_gancho": {
+      "hash": "78fddda6872c5565",
+      "texto": "Une moitié pour la pluie et l’autre pour la guerre, réunies dans le même édifice."
+    },
+    "puente_narrativo": {
+      "hash": "30bf70687bd72e0b",
+      "texto": "Poursuivez sur la passerelle. Quand vous serez prêt, passez à la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "9765a9829ec357a3",
+      "texto": "Au sommet de la pyramide se trouvaient deux sanctuaires. Au nord, celui de Tláloc, dieu de la pluie et de la fertilité, et au sud, celui de Huitzilopochtli, dieu de la guerre et du Soleil. Pour les Mexicas, chaque côté était une montagne sacrée : celui de Tláloc représentait le Tonacatépetl, la montagne des subsistances, et celui de Huitzilopochtli, le Coatépetl, la montagne du serpent. C’était une façon de réunir dans un seul édifice, et d’un même regard, l’eau qui donne la vie et la guerre qui soutenait l’empire. Chaque côté avait son escalier et son atmosphère propre. Les deux moitiés se complétaient et avaient besoin l’une de l’autre."
+    },
+    "guion_largo": {
+      "hash": "09372f63661f2c5a",
+      "texto": "L’une des idées les plus intéressantes du Templo Mayor, c’est qu’il n’était pas un temple pour un seul dieu. C’étaient deux édifices en un, et chaque moitié avait son sens.\n\nEn haut de la pyramide se trouvaient deux sanctuaires, l’un à côté de l’autre. Celui du côté nord était dédié à Tláloc, le dieu de la pluie, de la foudre et de la fertilité. Celui du côté sud était dédié à Huitzilopochtli, le dieu de la guerre et du Soleil, patron des Mexicas. Chaque sanctuaire avait son propre escalier, de sorte que la pyramide se présentait avec deux entrées tournées vers l’ouest.\n\nChaque côté était en outre une montagne sacrée. La moitié de Tláloc représentait le Tonacatépetl, la montagne des subsistances, où l’on gardait les graines et l’eau. La moitié de Huitzilopochtli représentait le Coatépetl, la montagne du serpent, où, selon le mythe, le dieu était né. L’édifice était donc une montagne double, faite de pierre.\n\nCette union a tout son sens si vous songez à la façon dont vivaient les Mexicas. Leur ville était bâtie sur un lac, et ils avaient besoin d’eau pour l’agriculture, si bien que Tláloc était essentiel. Mais leur pouvoir politique dépendait de la guerre et du tribut des peuples conquis, si bien que Huitzilopochtli était tout aussi important. Le Templo Mayor plaçait les deux ensemble, et disait en quelque sorte que la vie de la ville reposait sur ces deux choses.\n\nLes deux côtés se distinguaient aussi par ce que l’on y a trouvé. Du côté de Tláloc, on conserve un Chac Mool et des restes de peinture. Du côté de Huitzilopochtli, devant son sanctuaire, on a découvert la pierre des sacrifices. Ces détails marquaient le caractère de chaque espace. Celui qui montait par l’escalier sud n’entrait pas dans le même monde que celui qui montait par le nord.\n\nCette différence se retrouvera aussi dans le musée. Il y a là une salle pour chaque dieu, avec les offrandes qui ont été découvertes de chaque côté. Dans celle de Tláloc, une jarre peinte en bleu se distingue, et dans celle de Huitzilopochtli, une sculpture de Guerrier-Aigle et le monolithe de Coyolxauhqui. Vous pourrez y comparer ce que chaque moitié renfermait.\n\nQuand vous regarderez les ruines, essayez de séparer mentalement les deux moitiés. Vous verrez que la base nord et la base sud ont des escaliers différents, et que chacune a eu sa propre histoire d’offrandes. Cela vous aidera à vous repérer pour la suite, car les découvertes les plus importantes de la zone se trouvent d’un côté ou de l’autre de cette division.\n\nCette idée de dualité, de deux forces qui ont besoin l’une de l’autre, apparaît en de nombreux endroits de la pensée mexica : eau et feu, pluie et guerre, vie et mort. Le Templo Mayor l’a mise dans la pierre, au centre de la ville."
+    },
+    "retos_observacion": {
+      "hash": "dfa9ef5a572db6e7",
+      "texto": [
+        "Distinguez dans les ruines le côté nord, celui de Tláloc, et le côté sud, celui de Huitzilopochtli",
+        "Cherchez les deux escaliers de la pyramide",
+        "Comparez la quantité de vestiges conservés de chaque sanctuaire"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c38347b8eef379d8",
+      "texto": {
+        "Sanctuaire nord": "Tláloc, dieu de la pluie, le Tonacatépetl",
+        "Sanctuaire sud": "Huitzilopochtli, dieu de la guerre et du Soleil, le Coatépetl",
+        "Entrée": "vers l’ouest",
+        "Escaliers": "2"
+      }
+    },
+    "faq_mito": {
+      "hash": "3a35efacdf431816",
+      "texto": {
+        "pregunta": "Mythe : Le Templo Mayor était dédié uniquement à Huitzilopochtli.",
+        "respuesta": "Réalité : C’était un temple double, dédié à Tláloc et à Huitzilopochtli."
+      }
+    }
+  }
+}

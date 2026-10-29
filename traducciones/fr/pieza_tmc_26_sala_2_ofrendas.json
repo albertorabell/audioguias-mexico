@@ -1,0 +1,54 @@
+{
+  "id": "tmc_26_sala_2_ofrendas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "179f714ad117da21",
+      "texto": "Salle deux : rituel et sacrifice, les offrandes de Huitzilopochtli"
+    },
+    "frase_gancho": {
+      "hash": "0b01ef04fb241137",
+      "texto": "Quatre offrandes du premier sanctuaire et une urne avec le dieu de la mort."
+    },
+    "puente_narrativo": {
+      "hash": "93957916cffcec67",
+      "texto": "Passez à la salle trois, celle du tribut et du commerce, qui montre d’où venait la richesse qui affluait à Tenochtitlan."
+    },
+    "guion_corto": {
+      "hash": "6f1cdad483d2e28f",
+      "texto": "La salle deux traite du rituel et du sacrifice. Elle présente quatre offrandes du sanctuaire de Huitzilopochtli, de l’étape II, la plus ancienne que vous avez vue dans la zone. Parmi les objets, une urne à l’effigie de Mictlantecuhtli, le dieu de la mort, se distingue tout particulièrement. Ces offrandes étaient des dépôts d’objets enterrés sous le sol du sanctuaire, avec une intention rituelle claire. C’est l’une des salles qui nous aident le plus à comprendre ce qui se faisait en ce lieu, et quelle relation les Mexica entretenaient avec la mort et avec les dieux. Regardez chaque vitrine avec calme, l’une après l’autre, car chaque ensemble a sa propre logique."
+    },
+    "guion_largo": {
+      "hash": "c54c9e399e86cb28",
+      "texto": "Dans la salle deux, vous entrez dans le monde des rituels. Son thème est le sacrifice et les offrandes, deux notions difficiles à comprendre aujourd’hui, mais qui ont été centrales pour les Mexica.\n\nLa salle présente quatre offrandes découvertes dans le sanctuaire de Huitzilopochtli, à l’étape II. C’est l’étape la plus ancienne que vous avez vue dans la zone archéologique, celle des deux petits sanctuaires, et c’est pourquoi ces offrandes se rattachent aux premières phases du temple. Rappelez-vous que l’on y a trouvé, sous le sol, des urnes contenant des restes d’os brûlés.\n\nUne offrande est un ensemble d’objets que l’on déposait sous terre ou à l’intérieur d’un édifice dans le cadre d’un rituel. Ce n’étaient pas des cadeaux faits au hasard. Quand vous regardez une vitrine de cette salle, vous voyez ce qui reste d’une cérémonie qui a eu lieu il y a plus de cinq siècles. Les objets se sont conservés, mais le sens complet du rituel se reconstitue avec l’aide des archéologues et des chroniques, et il reste un sujet d’étude. C’est pourquoi les explications sont des lectures possibles, non des vérités closes.\n\nParmi les objets, une urne à l’effigie de Mictlantecuhtli, le dieu de la mort, se distingue. Son nom se rattache au Mictlán, le lieu où, selon la tradition mexica, allaient beaucoup de défunts. Il apparaît en de nombreux endroits du Templo Mayor. Vous l’avez déjà vu dans la Maison des Aigles, où l’on a trouvé deux grandes figures de ce dieu en mille neuf cent quatre-vingt-quatorze. Ici, vous le retrouvez à plus petite échelle, dans une urne qui sert à conserver les restes de la crémation. Ces deux présences montrent que la mort faisait partie de l’édifice, et n’était pas quelque chose qui lui était étranger. Cela change la manière de voir le temple : ce n’était pas seulement un lieu de guerre et de pluie, mais aussi un lieu où l’on conversait avec la mort.\n\nIl convient de regarder ces pièces avec respect et sans hâte. Pour les Mexica, le sacrifice se comprenait comme une façon de maintenir l’ordre de l’univers et de payer une dette envers les dieux. C’est l’explication que donnent habituellement les spécialistes, même si elle est discutée et nuancée. Au-delà de ce que nous pensons aujourd’hui, ces objets montrent un système de croyances complet, avec ses règles et ses symboles.\n\nSi vous avez le temps, observez chaque vitrine séparément et comparez-les entre elles. Chaque offrande se présente comme un ensemble, et la regarder ainsi aide à comprendre que les objets ont été enterrés ensemble avec une intention. La salle suivante, consacrée au tribut et au commerce, vous aidera à comprendre d’où pouvaient venir beaucoup d’entre eux.\n\nEn sortant de cette salle, vous connaissez déjà Huitzilopochtli, Mictlantecuhtli et le rôle des offrandes. La salle suivante vous mène par un chemin différent : celui du tribut et du commerce."
+    },
+    "retos_observacion": {
+      "hash": "297ee4ea2ecd6e38",
+      "texto": [
+        "Cherchez l’urne à l’effigie de Mictlantecuhtli",
+        "Comptez les 4 offrandes que présente la salle",
+        "Rappelez-vous les figures de la Maison des Aigles et comparez leur échelle"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ec84dbd71bcdbc88",
+      "texto": {
+        "Salle": "2, Rituel et sacrifice",
+        "Offrandes exposées": "4, du sanctuaire de Huitzilopochtli",
+        "Étape du temple": "II",
+        "Objet remarquable": "urne avec Mictlantecuhtli"
+      }
+    },
+    "faq_mito": {
+      "hash": "30012f9d3382faaf",
+      "texto": {
+        "pregunta": "Mythe : Les offrandes étaient des objets jetés au hasard.",
+        "respuesta": "Réalité : C’étaient des dépôts rituels ; les archéologues les enregistrent une par une, car chaque ensemble a son sens propre."
+      }
+    }
+  }
+}
