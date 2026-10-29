@@ -367,6 +367,17 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
               {m.passTitle}
             </h2>
             <p className="mt-1.5 text-cap text-ink-3 text-pretty">{m.passLead(PASS_HOURS)}</p>
+            {freePieces.length > 0 && (
+              <button
+                type="button"
+                id="btn-pass-try-free"
+                onClick={() => document.getElementById('free-pieces')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+                className="mt-2 -ml-1 min-h-11 px-1 inline-flex items-center gap-1.5 text-ui font-semibold text-jade-ink cursor-pointer rounded-lg text-left"
+              >
+                {m.passTryFree(u.worksCount(freePieces.length))}
+                <ChevronRight className="w-4 h-4 -rotate-90" aria-hidden="true" />
+              </button>
+            )}
             <ul className="mt-4 border-t border-line">
               {m.passItems(u.worksCount(pieces.length), PASS_MAX_DEVICES).map((item, i) => {
                 const Icon = PASS_ICONS[i] || Info;
@@ -393,16 +404,6 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
             <button type="button" id="btn-pass-unlock" onClick={onOpenPaywall} className="btn-primary w-full mt-5">
               {m.passCta(price)}
             </button>
-            {freePieces.length > 0 && (
-              <button
-                type="button"
-                id="btn-pass-try-free"
-                onClick={() => document.getElementById('free-pieces')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-                className="mt-1 w-full min-h-11 inline-flex items-center justify-center text-ui font-semibold text-jade-ink cursor-pointer rounded-full active:bg-raised"
-              >
-                {m.passTryFree(u.worksCount(freePieces.length))}
-              </button>
-            )}
           </section>
         )}
 
