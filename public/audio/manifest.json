@@ -10648,6 +10648,24 @@
           "provider": "azure"
         }
       },
+      "cdmx_07_palacio_postal": {
+        "corto": {
+          "hash": "77503c91c1a0684f",
+          "file": "fr/cdmx_07_palacio_postal_corto.mp3",
+          "remote": false,
+          "seconds": 42,
+          "bytes": 253584,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "646b349e48117f80",
+          "file": "fr/cdmx_07_palacio_postal_largo.mp3",
+          "remote": false,
+          "seconds": 175,
+          "bytes": 1048608,
+          "provider": "azure"
+        }
+      },
       "cdmx_08_museo_telegrafo": {
         "corto": {
           "hash": "8ba4cb8b35c9c377",
@@ -16237,6 +16255,16 @@
           "remote": true,
           "seconds": 192,
           "bytes": 1151136,
+          "provider": "azure"
+        }
+      },
+      "cdmx_29_palacio_nacional": {
+        "corto": {
+          "hash": "9cedd45650d5680c",
+          "file": "pl/cdmx_29_palacio_nacional_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 219456,
           "provider": "azure"
         }
       },
