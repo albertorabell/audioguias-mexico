@@ -1,0 +1,56 @@
+{
+  "id": "tmc_03_torres_campanas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1f470ba4a2b3120b",
+      "texto": "Les tours et les cloches qui ont un nom"
+    },
+    "frase_gancho": {
+      "hash": "8b952131b8a4622a",
+      "texto": "Trente-cinq cloches, et la plus ancienne a été fondue en mille cinq cent soixante-dix-huit."
+    },
+    "puente_narrativo": {
+      "hash": "65a583829e791ee1",
+      "texto": "Reculez de quelques pas et regardez la cathédrale tout entière, d’une tour à l’autre. Quand vous serez prêt, passez à la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "e6f62f47198a2c46",
+      "texto": "Trente-cinq cloches sont suspendues dans ces deux tours, et toutes portent un nom. La plus ancienne est Sainte-Marie de l’Assomption, que tout le monde appelle Dame Marie. Elle a été fondue en mille cinq cent soixante-dix-huit et pèse environ sept tonnes. Une autre des grandes se fait appeler L’Enrouée. Les tours n’ont pas été achevées en même temps que le reste de la façade. À la fin du dix-huitième siècle, c’est l’architecte mexicain José Damián Ortiz de Castro qui les a élevées, et leur couronnement a la forme d’une cloche. Dans la tour est, il y a vingt-trois cloches, et dans la tour ouest, onze. Si vous avez la chance de les entendre, chacune sonne différemment, car chacune a un poids différent."
+    },
+    "guion_largo": {
+      "hash": "a0a6c62efc84c146",
+      "texto": "Levez les yeux vers les deux tours. Elles semblent jumelles, mais elles ont été construites à des moments différents et cachent un trésor qui s’entend plus qu’il ne se voit.\n\nLa base et le premier niveau de la tour est datent du dix-septième siècle. Les tours, telles que vous les voyez, ont été élevées à la fin du dix-huitième siècle par l’architecte mexicain José Damián Ortiz de Castro. Il avait remporté un concours pour diriger les travaux, et il est mort avant de les voir achevés. Manuel Tolsá, arrivé à Mexico en mille sept cent quatre-vingt-onze, a poursuivi le travail et l’a mené à son terme. Le couronnement de chaque tour imite la forme d’une cloche, et il est fait de tezontle, cette pierre volcanique rougeâtre que l’on emploie beaucoup dans la ville.\n\nDans les tours, il y a trente-cinq cloches. Dans la tour est, vingt-trois sont suspendues, et dans la tour ouest, onze. Il y en a une autre dans un autre endroit du temple, près du chœur. Les clochers ont de la place pour bien d’autres cloches, mais ils n’ont jamais été remplis. La raison que l’on raconte est que, pendant la construction, l’urgence était de fermer les toits pour pouvoir célébrer la messe, et que les cloches sont passées au second plan.\n\nChaque cloche a son nom. La plus ancienne est Sainte-Marie de l’Assomption, que les gens connaissent sous le nom de Dame Marie. Elle a été fondue en mille cinq cent soixante-dix-huit, et pèse environ sept tonnes. On dit qu’elle se trouve dans sa tour depuis mille six cent cinquante-quatre. Une autre grande cloche est Saint-Joseph, que l’on surnomme L’Enrouée, et elle pèse un peu plus de quatre tonnes. La plus grande est Sainte-Marie de Guadalupe, d’environ treize tonnes.\n\nLe bronze de chaque cloche, son poids et sa forme changent le son. C’est pourquoi, lorsque plusieurs sonnent à la fois, on n’entend pas une seule note, mais un ensemble de voix graves et aiguës. Elles sonnent à certains moments de la journée, et lors de dates spéciales, beaucoup sonnent ensemble. Parmi ces dates, on mentionne Noël, la fin de l’année, Pâques et la fête de l’Assomption, le quinze août, qui est la fête de la patronne de la cathédrale. Si vous tombez sur un carillon, cela vaut la peine de vous arrêter quelques minutes.\n\nIl y a aussi une curiosité de charpenterie. L’escalier du clocher est en cèdre, avec des marches assemblées et non clouées, et ses poteaux sont d’une seule pièce. Il se conserve ainsi depuis l’époque où l’ouvrage a été achevé. Ceux qui montent ont une vaste vue sur la ville et sur la place.\n\nEt il est possible de monter. Il existe des visites guidées du clocher, que l’on réserve à l’entrée du côté est de la cathédrale, moyennant un petit droit d’entrée. Les horaires et les prix changent, il vaut donc mieux se renseigner le jour même. Si vous préférez rester en bas, il suffit de lever les yeux et de compter les ouvertures où pendent les cloches.\n\nUn dernier détail. Dans l’une de ces tours, la Pierre du Soleil a été montée jusqu’en mille huit cent quatre-vingt-cinq. Cette pierre a sa propre histoire, liée à cette place. Pour l’instant, reculez de quelques pas et regardez la cathédrale tout entière, d’une tour à l’autre. Quand vous serez prêt, passez à la prochaine étape de votre parcours."
+    },
+    "retos_observacion": {
+      "hash": "745d211a3c6d758d",
+      "texto": [
+        "Comptez les tours et cherchez en hauteur les ouvertures où pendent les cloches",
+        "Observez le couronnement de chaque tour : il a la forme d’une cloche",
+        "Si vous êtes là au moment d’un carillon, écoutez combien de tons différents vous distinguez"
+      ]
+    },
+    "especificaciones": {
+      "hash": "288fdac5e96e6f5f",
+      "texto": {
+        "Nombre total de cloches": "35 (23 dans la tour est, 11 dans la tour ouest et une autre ailleurs)",
+        "Sainte-Marie de l’Assomption, Dame Marie": "fondue en 1578, environ 7 tonnes",
+        "Saint-Joseph, L’Enrouée": "un peu plus de 4 tonnes",
+        "Tours": "Ortiz de Castro, de 1787 à 1791, et Manuel Tolsá",
+        "Couronnement": "en forme de cloche, en tezontle",
+        "Escalier du clocher": "cèdre"
+      }
+    },
+    "faq_mito": {
+      "hash": "f3379d788e70aff9",
+      "texto": {
+        "pregunta": "Mythe : Les tours de la cathédrale ont été construites en même temps que la façade principale.",
+        "respuesta": "Réalité : La partie centrale de la façade a été achevée en 1675, et les tours ont été élevées à la fin du XVIIIe siècle."
+      }
+    }
+  }
+}

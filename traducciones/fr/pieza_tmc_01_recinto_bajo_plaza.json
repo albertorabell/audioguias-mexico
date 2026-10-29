@@ -1,0 +1,56 @@
+{
+  "id": "tmc_01_recinto_bajo_plaza",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "79af81581984d7b3",
+      "texto": "La place et l’Enceinte sacrée de Tenochtitlan"
+    },
+    "frase_gancho": {
+      "hash": "ad729a7aeb7e4fdd",
+      "texto": "Toute cette zone du Centre est bâtie sur une ville lacustre qui possédait une enceinte comptant jusqu’à soixante-dix-huit temples."
+    },
+    "puente_narrativo": {
+      "hash": "6366e5a1f836733b",
+      "texto": "Traversez vers le côté nord de la place, face à la cathédrale, et commencez par sa façade principale."
+    },
+    "guion_corto": {
+      "hash": "2345b9c18b61a9f4",
+      "texto": "Tout ce que vous voyez autour de vous est bâti sur une autre ville. Selon la tradition, les Mexicas s’établirent sur un îlot du lac de Texcoco vers mille trois cent vingt-cinq. Ils gagnèrent du terrain sur l’eau grâce à des remblais, des pieux, des canaux, des digues et des ponts. Au centre de Tenochtitlan se trouvait une enceinte sacrée, et les chroniques disent qu’elle finit par compter jusqu’à soixante-dix-huit temples. Aujourd’hui, cette ville est recouverte, mais elle n’a pas disparu. Ce guide vous mène à travers deux de ses strates. La première est la cathédrale métropolitaine, que les Espagnols commencèrent à construire au seizième siècle. La seconde est le Templo Mayor, qui resta enterré pendant des siècles. Nous commençons ici, sur la place, pour que vous sachiez où vous vous trouvez."
+    },
+    "guion_largo": {
+      "hash": "06f3e2531575521b",
+      "texto": "Ce guide va de la ville espagnole à la ville mexica, et il convient de commencer par comprendre ce qui se trouve sous vos pieds.\n\nSelon la tradition, les Mexicas s’établirent sur un îlot du lac de Texcoco vers mille trois cent vingt-cinq. Le terrain était réduit, et c’est pourquoi ils l’agrandirent peu à peu. Avec des remblais, des pieux de bois, des canaux, des digues et des ponts, ils gagnèrent de la terre sur le lac jusqu’à atteindre environ treize kilomètres carrés et demi. Cette ville s’appela México-Tenochtitlan. Elle eut onze souverains, et sa chute survint en mille cinq cent vingt et un, après la guerre contre les Espagnols et leurs alliés autochtones.\n\nAu centre de la ville se trouvait un espace à part, l’Enceinte sacrée. C’est là que se dressait le Templo Mayor, que les Mexicas appelaient Huey Teocalli, la grande maison du dieu. Ils le considéraient comme le nombril de l’univers. Selon les chroniques de la Nouvelle-Espagne, l’enceinte finit par compter jusqu’à soixante-dix-huit édifices, parmi lesquels des temples, des autels, des plateformes, des écoles et des terrains de jeu de balle. Tout le monde ne pouvait pas y entrer. Les prêtres, les guerriers, les gouvernants et les élèves du Calmécac, l’école des fils de nobles, y avaient un accès permanent. Les gens du peuple y entraient pendant les fêtes.\n\nQuand la ville tomba, Hernán Cortés décida que la capitale de la Nouvelle-Espagne s’élèverait à cet endroit même. Les Espagnols démolirent le Templo Mayor, et ses pierres furent réutilisées comme fondations d’édifices de l’époque vice-royale. C’est une bonne façon de comprendre ce qui s’est passé. On n’a pas bâti une ville nouvelle dans un lieu vide, mais sur une autre qui était encore debout. La cathédrale que vous avez en face de vous fait partie de cette histoire. Elle fut construite sur une partie des terrains de l’ancienne enceinte, et c’est pourquoi son sol meuble et ses fondations ont causé tant de problèmes.\n\nDu Templo Mayor, on sut peu de chose pendant des siècles. Il y eut des découvertes isolées en mille sept cent quatre-vingt-dix, et Manuel Gamio mit au jour un angle de l’édifice en mille neuf cent treize. Mais la grande découverte eut lieu en mille neuf cent soixante-dix-huit, lorsqu’une pierre circulaire apparut par hasard. Nous en reparlerons plus tard.\n\nVoici comment ce parcours est organisé. Vous ferez d’abord le tour de la cathédrale par l’extérieur, puis vous y entrerez, si elle est ouverte. Ensuite, vous irez à la zone archéologique du Templo Mayor et à son musée. La cathédrale est généralement d’entrée libre, bien que certaines zones demandent un droit d’entrée ou un don. La zone archéologique et le musée ont un billet unique, et il convient de vérifier les jours et les horaires en vigueur avant d’y aller. Si aujourd’hui vous ne souhaitez voir qu’une partie, choisissez l’un des parcours plus courts.\n\nMaintenant, regardez autour de vous. La cathédrale ferme le côté nord de la place. Les ruines du Templo Mayor ne se voient pas d’ici : elles se trouvent derrière la cathédrale, vers l’est, à quelques centaines de mètres. Cette courte distance traverse deux mondes. Commencez par celui que vous voyez en face de vous, et emportez avec vous cette question : combien de strates peuvent tenir dans un même lieu ?"
+    },
+    "retos_observacion": {
+      "hash": "c402ee26ef0db43e",
+      "texto": [
+        "Cherchez la cathédrale sur le côté nord de la place et estimez sa largeur",
+        "Imaginez le lac s’étendant jusqu’à l’endroit où vous vous trouvez : la ville était entourée d’eau",
+        "Repérez vers l’est la direction dans laquelle se trouvent les ruines du Templo Mayor, derrière la cathédrale"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a0bf74e217269cad",
+      "texto": {
+        "Fondation selon la tradition": "vers 1325",
+        "Surface gagnée sur le lac": "environ 13,5 km²",
+        "Souverains de Tenochtitlan": "11",
+        "Chute de la ville": "1521",
+        "Édifices de l’Enceinte sacrée selon les chroniques": "jusqu’à 78",
+        "Emplacement": "place de la Constitution, Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "8193d03a93403e36",
+      "texto": {
+        "pregunta": "Mythe : Les Espagnols ont construit Mexico dans un lieu vide.",
+        "respuesta": "Réalité : La capitale de la Nouvelle-Espagne s’est élevée sur Tenochtitlan, et les pierres du Templo Mayor ont été réutilisées comme fondations d’édifices de l’époque vice-royale."
+      }
+    }
+  }
+}

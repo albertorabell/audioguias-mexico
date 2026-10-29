@@ -1,0 +1,56 @@
+{
+  "id": "tmc_02_fachada_principal",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "84e9a5f6638efbb8",
+      "texto": "La façade principale de la cathédrale"
+    },
+    "frase_gancho": {
+      "hash": "56c89bfd0bc46464",
+      "texto": "Trois portails, un relief de marbre et trois vertus de bronze : la façade qui s’est achevée peu à peu pendant plus d’un siècle."
+    },
+    "puente_narrativo": {
+      "hash": "6c02446457e22da4",
+      "texto": "Levez les yeux vers les côtés de la façade, où se dressent les deux tours avec leurs cloches."
+    },
+    "guion_corto": {
+      "hash": "67f8706270147144",
+      "texto": "La façade principale de la cathédrale compte trois portails, et celui du centre est le plus grand. Au-dessus s’étend un relief de marbre de l’Assomption de la Vierge, à qui le temple est dédié. Sur les portes latérales, on voit des reliefs de saint Pierre, qui reçoit les clés, et de la nef de l’Église. Plus haut se trouve une horloge, et au-dessus, trois sculptures de Manuel Tolsá : la Foi, l’Espérance et la Charité. Cette façade n’appartient pas à une seule époque. La partie centrale a été achevée en mille six cent soixante-quinze, et Tolsá l’a couronnée plus d’un siècle plus tard. Parcourez-la de bas en haut et observez comment changent le style et le ton de la pierre."
+    },
+    "guion_largo": {
+      "hash": "915575febea2b77a",
+      "texto": "Vous êtes face à la façade qui regarde le Zócalo. Bien qu’elle semble une œuvre unique, elle est le résultat de plusieurs mains.\n\nLa cathédrale est dédiée à l’Assomption de Marie, et c’est cette image qui couronne le portail central. Il s’agit d’un relief de marbre. De part et d’autre de cette porte se trouvent les figures de saint Pierre et de saint Paul. Sur les portails latéraux, il y a d’autres reliefs. L’un montre saint Pierre recevant les clés, et l’autre, la nef de l’Église. Ce sont trois portes, celle du centre étant la plus grande, et chacune fonctionne comme une lecture différente du même message religieux.\n\nL’ordre dans lequel la façade a été réalisée explique ses changements de style. La partie centrale a été dirigée par l’architecte Cristóbal de Medina Vargas, et elle a été achevée en mille six cent soixante-quinze. C’est une œuvre baroque, avec beaucoup de colonnes et beaucoup de relief. Plus d’un siècle après, à la fin du dix-huitième siècle, est arrivé le sculpteur et architecte Manuel Tolsá, qui a terminé l’édifice. Tolsá a travaillé avec des idées néoclassiques, plus sobres, qui recherchaient l’ordre et la symétrie. C’est pourquoi la cathédrale réunit des traits de la Renaissance, du baroque et du néoclassicisme dans une même vue.\n\nAu-dessus de la porte principale se trouve une horloge, et sur elle ont été placées trois sculptures attribuées à Tolsá. Ce sont les trois vertus théologales : la Foi, l’Espérance et la Charité. Lors du séisme de deux mille dix-sept, l’Espérance est tombée d’une hauteur d’environ quarante-cinq mètres. Elle a été restaurée, avec une nouvelle tête taillée dans la pierre, et les trois sculptures ont regagné leur place en février deux mille vingt-quatre. C’est un rappel que cette pierre a, elle aussi, besoin de soins constants.\n\nPour vous faire une idée de l’échelle, la cathédrale mesure environ cent vingt-huit mètres de long sur une soixantaine de large, et environ soixante-sept mètres jusqu’au sommet des tours. Avant celle-ci, il y a eu une autre cathédrale, plus petite, commencée en mille cinq cent vingt-quatre.\n\nIl y a encore quelque chose qui mérite d’être observé. La pierre n’a pas le même ton sur toute la façade, ce qui est naturel pour une œuvre de tant d’étapes. Si vous reculez un peu, jusqu’au centre de la place, la façade se lit mieux. Vous verrez que les deux tours l’encadrent comme une paire de parenthèses.\n\nCette façade est la plus visible, mais pas la seule. La cathédrale a quatre façades, avec des portails latéraux sur les côtés est, ouest et nord. Celle du nord est la plus ancienne et la moins haute. On lui attribue le seizième siècle et un style plus austère.\n\nAvant de poursuivre, il convient de rappeler que ce temple est en usage. Si vous décidez d’entrer plus tard, faites-le avec respect, les épaules et les genoux couverts, et consultez les horaires des messes. Levez maintenant les yeux. Les tours ont leur propre histoire, et leurs cloches ont un nom."
+    },
+    "retos_observacion": {
+      "hash": "2dd61c4b006c27f4",
+      "texto": [
+        "Repérez le relief de marbre de l’Assomption au-dessus de la porte centrale",
+        "Cherchez l’horloge et les trois figures qui se trouvent au-dessus",
+        "Comparez la pierre de la partie centrale avec celle des tours : remarquez-vous des différences de ton ?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ddf87b9029fab64",
+      "texto": {
+        "Dédicace": "Assomption de Marie",
+        "Partie centrale de la façade": "achevée en 1675, Cristóbal de Medina Vargas",
+        "Couronnement et sculptures": "Manuel Tolsá, vers 1813",
+        "Portails": "3 sur la façade principale",
+        "Dimensions approximatives": "environ 60 m de large, 128 m de long et 67 m jusqu’au sommet des tours",
+        "Emplacement": "côté nord du Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "da6ea111cf54871d",
+      "texto": {
+        "pregunta": "Mythe : La cathédrale a été construite dans un seul style.",
+        "respuesta": "Réalité : Elle réunit des traits de la Renaissance, du baroque et du néoclassicisme parce qu’elle a été construite entre 1573 et 1813 avec différents architectes."
+      }
+    }
+  }
+}

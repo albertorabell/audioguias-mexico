@@ -1,0 +1,56 @@
+{
+  "id": "tmc_04_obra_larga",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2d010ffa1ecaa778",
+      "texto": "Deux cent quarante ans de chantier"
+    },
+    "frase_gancho": {
+      "hash": "57a692ea6663751a",
+      "texto": "Une première église modeste, un plan signé par le roi et une cathédrale achevée en mille huit cent treize."
+    },
+    "puente_narrativo": {
+      "hash": "95f7be65697c1ca8",
+      "texto": "Dirigez-vous vers le flanc de la cathédrale et cherchez le bâtiment le plus petit et le plus orné, collé à elle."
+    },
+    "guion_corto": {
+      "hash": "c824aae4d16c2412",
+      "texto": "La cathédrale a mis près de deux cent quarante ans à être achevée. Auparavant, il y eut une première église, plus petite, commencée en mille cinq cent vingt-quatre, mais jugée incommode et sombre. Au milieu du seizième siècle, on décida d’en élever une autre, bien plus grande. Un plan signé par le roi Philippe Deux en mille cinq cent soixante-neuf fut suivi à partir de mille cinq cent soixante-treize, d’après le tracé de Claudio de Arciniega. La nouvelle église put être utilisée de l’intérieur bien avant d’être complète, car elle fut construite par parties. L’intérieur fut fermé au dix-septième siècle, et l’extérieur fut considéré comme terminé en mille huit cent treize."
+    },
+    "guion_largo": {
+      "hash": "42ca3fd8216e4afc",
+      "texto": "Une cathédrale comme celle-ci ne se construit pas d’un seul coup. Celle-ci a pris près de deux cent quarante ans, et c’est pourquoi il convient d’en comprendre les étapes.\n\nIl y eut d’abord une église antérieure. Elle fut commencée en mille cinq cent vingt-quatre, peu après la conquête, et se trouvait un peu au sud de l’emplacement de l’actuelle. C’était une église à trois nefs, et avec le temps, elle fut jugée incommode, sombre et humide. Au milieu du seizième siècle, la ville était déjà la capitale d’une vice-royauté et voulait un temple à sa hauteur. On décida donc d’en construire un autre, bien plus grand.\n\nLe plan que l’on suivit fut signé par le roi Philippe Deux en mille cinq cent soixante-neuf. Les travaux officiels démarrèrent en mille cinq cent soixante-treize. Le tracé est attribué à Claudio de Arciniega, un architecte qui travailla en Nouvelle-Espagne. L’ancienne église resta debout jusqu’à ce qu’il soit possible de célébrer la messe dans une partie de la nouvelle. Ainsi, la ville ne resta jamais sans cathédrale pendant que l’autre était en construction.\n\nLe sol compliqua tout dès le début. La cathédrale repose sur le terrain meuble et remblayé de l’ancienne île. En dessous se trouvent des vestiges préhispaniques. Dès mille cinq cent soixante-deux, les fondations commencèrent à s’enfoncer. On les refit avec un massif de pierre sur pieux, et ce travail fut considéré comme achevé en mille six cent quinze. Dans ces fondations, on enfonça des milliers de pilotis de bois.\n\nLes voûtes furent fermées peu à peu à partir de mille cinq cent quatre-vingt-un. La dernière fut fermée le vingt-deux juin mille six cent soixante-sept, et l’on considère que les travaux de l’intérieur s’achèvent cette année-là. Il manquait encore les tours et une grande partie de l’extérieur. Une inondation, en mille six cent vingt-neuf, obligea à interrompre le chantier. Ensuite, l’architecte Juan Gómez de Trasmonte le poursuivit. La partie centrale de la façade fut achevée par Cristóbal de Medina Vargas en mille six cent soixante-quinze.\n\nÀ la fin du dix-huitième siècle, on éleva les tours, sous la direction de José Damián Ortiz de Castro. À sa mort, le sculpteur et architecte Manuel Tolsá se chargea de terminer l’extérieur. Il refit la coupole, posa les balustrades et sculpta des figures. En mille huit cent treize, l’ouvrage fut considéré comme achevé. Près de deux siècles et demi s’étaient écoulés.\n\nC’est pourquoi cette cathédrale ressemble à un résumé visible des styles de la Nouvelle-Espagne. Le plan original a un air de Renaissance, avec son ordre et sa sobriété. À l’intérieur et sur la façade centrale, le baroque domine. Dans le couronnement et la coupole apparaît le néoclassicisme, qui préférait les lignes épurées. Il n’y a pas d’unité parfaite, mais bien une unité construite avec le temps.\n\nPour terminer cette étape, pensez à ce que signifie construire quelque chose que ni vous ni vos enfants ne verrez achevé. Dans ce genre de projet, on travaille avec patience et avec foi. Plus loin, vous verrez combien cette patience reste nécessaire, car le sol ne cesse de bouger."
+    },
+    "retos_observacion": {
+      "hash": "366372509b33ce44",
+      "texto": [
+        "Cherchez sur la façade les parties les plus anciennes et les plus récentes",
+        "Comparez la sobriété du plan général avec l’ornementation du portail central",
+        "Imaginez le terrain sans la cathédrale, avec l’ancienne église un peu plus au sud"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9e57c6fb2bbf5194",
+      "texto": {
+        "Première église": "commencée en 1524",
+        "Plan signé par Philippe II": "1569",
+        "Début officiel des travaux actuels": "1573",
+        "Dernière voûte fermée": "22 juin 1667",
+        "Partie centrale de la façade": "1675",
+        "Travaux extérieurs achevés": "1813"
+      }
+    },
+    "faq_mito": {
+      "hash": "f929265d356b3240",
+      "texto": {
+        "pregunta": "Mythe : La cathédrale a été construite par-dessus le Templo Mayor.",
+        "respuesta": "Réalité : La cathédrale occupe une partie de l’ancienne enceinte sacrée, mais le Templo Mayor se trouvait à l’est, derrière elle, et n’a été découvert qu’au XXe siècle."
+      }
+    }
+  }
+}
