@@ -21132,6 +21132,14 @@
           "seconds": 45,
           "bytes": 272448,
           "provider": "azure"
+        },
+        "largo": {
+          "hash": "d44412d6646f784d",
+          "file": "pl/chap_10_mural_madero_largo.mp3",
+          "remote": true,
+          "seconds": 274,
+          "bytes": 1645632,
+          "provider": "azure"
         }
       },
       "chap_11_constitucion_1917": {
@@ -21167,6 +21175,24 @@
           "remote": true,
           "seconds": 192,
           "bytes": 1152288,
+          "provider": "azure"
+        }
+      },
+      "chap_13_escalera_leones": {
+        "corto": {
+          "hash": "cc84e56e7a475e9c",
+          "file": "pl/chap_13_escalera_leones_corto.mp3",
+          "remote": true,
+          "seconds": 51,
+          "bytes": 303696,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9b497a500ecdae1d",
+          "file": "pl/chap_13_escalera_leones_largo.mp3",
+          "remote": true,
+          "seconds": 189,
+          "bytes": 1134432,
           "provider": "azure"
         }
       },
