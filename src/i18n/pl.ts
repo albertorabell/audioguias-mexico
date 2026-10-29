@@ -289,6 +289,8 @@ export const PL_GROUPS: Record<string, any> = {
     },
     museum: {
       startRoute: 'Start',
+      startTour: 'Zacznij trasę',
+      otherTour: 'Wybierz inną trasę',
       buildRoute: 'Ułóż własną trasę',
       buildRouteSub: 'Według Twojego czasu i zainteresowań',
       buildOwn: 'Ułóż własną',

@@ -755,6 +755,22 @@ test('inicio del sitio: presentación con «Seguir leyendo» y estante de recorr
   await expect(page.locator('#first-route-card')).toContainText(/\d+ min|\d+ h/);
 });
 
+test('inicio del sitio: el botón principal "Empezar recorrido" arranca el recorrido más corto', async ({ page }) => {
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  const boton = page.locator('#btn-start-tour');
+  await expect(boton).toContainText('Empezar recorrido');
+  await expect(boton.locator('xpath=following-sibling::p')).toContainText(/\d+\s*min|\d+\s*h/);
+  await page.locator('#btn-other-tour').click();
+  await expect(page.locator('#first-route-card')).toBeVisible();
+  await boton.click();
+  await expect(boton).toBeHidden(); // salió de la portada: está dentro de la primera parada
+  await page.goBack();
+  // con un recorrido empezado, la portada ofrece seguirlo en lugar de empezar otro
+  await expect(page.locator('#btn-continue')).toBeVisible();
+  await expect(boton).toHaveCount(0);
+});
+
 test('armar a tu medida: más tiempo, más obras; se puede quitar una obra y el recorrido arranca', async ({ page }) => {
   await page.goto('/');
   await page.locator('#sites-grid-section [role=button]').first().click();

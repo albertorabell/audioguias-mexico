@@ -198,6 +198,9 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
     return [...(byTime.length ? byTime : routes)].sort((a, b) => minutesOf(a) - minutesOf(b)).slice(0, 6);
   }, [routes]);
 
+  /** El recorrido del botón «Empezar recorrido»: el que el Sheet marca como principal, o el más corto. */
+  const mainRoute = useMemo(() => routes.find((r) => r.principal) || shelf[0], [routes, shelf]);
+
   const range = useMemo(() => {
     const all = routes.map(minutesOf).filter((x) => x > 0);
     return all.length ? { min: Math.min(...all), max: Math.max(...all) } : null;
@@ -286,6 +289,24 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
               {m.facts(u.worksCount(pieces.length), u.roomsCount(rooms.length))}
               {range && ` ${range.min === range.max ? m.routeOne(inlineDuration(range.min)) : m.routeRange(inlineDuration(range.min), inlineDuration(range.max))}`}
             </p>
+            {mainRoute && !continueInfo && (
+              <div className="mt-6">
+                <button type="button" id="btn-start-tour" onClick={() => onStartRoute(mainRoute)} className="btn-primary w-full">
+                  {m.startTour}
+                </button>
+                <p className="mt-2 text-cap text-ink-3 text-center text-pretty">
+                  {mainRoute.name} · {inlineDuration(minutesOf(mainRoute))}
+                </p>
+                <button
+                  type="button"
+                  id="btn-other-tour"
+                  onClick={() => document.getElementById('time-chooser')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+                  className="mt-1 w-full min-h-11 inline-flex items-center justify-center text-ui font-semibold text-jade-ink cursor-pointer rounded-full active:bg-raised"
+                >
+                  {m.otherTour}
+                </button>
+              </div>
+            )}
             {before.length > 0 && (
               <button
                 type="button"
@@ -409,7 +430,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
 
         {/* Recorridos: una lista de horario, con la duración a la izquierda */}
         {shelf.length > 0 && (
-          <section id="time-chooser" className="mt-10 px-5" aria-labelledby="routes-title">
+          <section id="time-chooser" className="mt-10 px-5 scroll-mt-20" aria-labelledby="routes-title">
             <h2 id="routes-title" className="font-serif text-[1.625rem] leading-tight font-medium">
               {m.routesTitle}
             </h2>
