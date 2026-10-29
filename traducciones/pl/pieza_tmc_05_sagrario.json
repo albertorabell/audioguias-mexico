@@ -1,0 +1,56 @@
+{
+  "id": "tmc_05_sagrario",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fbbc0372b4bb2a9b",
+      "texto": "Sakrarium: kamienny retabulum"
+    },
+    "frase_gancho": {
+      "hash": "a06640b6e96839e3",
+      "texto": "Osobny kościół, przylegający do Katedry, którego fasada wygląda jak ołtarz wyrzeźbiony w kamieniu."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "Kiedy będziesz gotowy, przejdź do kolejnego przystanku na swojej trasie."
+    },
+    "guion_corto": {
+      "hash": "fcbcae763acb7000",
+      "texto": "Przy Katedrze stoi inna świątynia, znacznie mniejsza i znacznie bogaciej zdobiona. To Sakrarium Metropolitalne. Sakrarium to miejsce, w którym przechowuje się to, co w kościele najświętsze, a z czasem ta budowla stała się parafią całego kompleksu. Zaprojektował ją architekt Lorenzo Rodríguez, a jej budowa rozpoczęła się w tysiąc siedemset czterdziestym dziewiątym roku. To jeden z wielkich przykładów nowohiszpańskiego baroku w stylu zwanym churrigueryzmem. Jego główną cechą jest estipit, podpora zwężająca się ku dołowi, która pokrywa fasadę od góry do dołu. Z ulicy każdy poziom rzeźbionego kamienia prosi, by przyglądać mu się powoli."
+    },
+    "guion_largo": {
+      "hash": "140eb2c6a2708b9e",
+      "texto": "Przy wschodnim boku Katedry stoi Sakrarium Metropolitalne. Jeśli Katedra jest wielka i złożona z różnych części, ten budynek jest zwarty i podporządkowany jednej idei.\n\nSłowo sakrarium pochodzi od tego, co święte. To miejsce, w którym przechowuje się to, co w kościele najbardziej czczone, zwłaszcza sakrament Eucharystii. W tym przypadku przechowywano tu także dokumenty i szaty duchownych. Z czasem Sakrarium stało się kościołem parafialnym kompleksu Katedry, miejscem, w którym prowadzono rejestr i zarządzano udzielaniem sakramentów. Nie jest ozdobą Katedry, lecz kościołem z własną historią.\n\nJego architektem był Lorenzo Rodríguez. Urodził się w Guadix, na południu Hiszpanii, a kształcił się u swojego ojca, który był głównym architektem biskupstwa w tym mieście. Potem pracował w Kadyksie, a później przybył do stolicy Nowej Hiszpanii. Na początku pracował jako cieśla w Mennicy. Około tysiąc siedemset czterdziestego pierwszego roku uzyskał stopień mistrza w cechu architektów. Jego najsłynniejszym dziełem jest to Sakrarium, którego budowa rozpoczęła się w tysiąc siedemset czterdziestym dziewiątym roku i trwała prawie dwadzieścia lat.\n\nEfektem jest jeden z wielkich pomników nowohiszpańskiego baroku, w stylu zwanym churrigueryzmem. Jego główną cechą jest estipit. To podpora, która zwęża się ku dołowi, inaczej niż zwykła kolumna, i która tutaj pokrywa fasadę główną od góry do dołu. Rodríguez poznał tę tradycję w Andaluzji swojej młodości, ale poprowadził ją dalej, z większą szczegółowością i większym reliefem. Między estipitami znajdują się nisze z posągami apostołów i innych postaci.\n\nPewien historyk z tamtych czasów, bakałarz Juan de Viera, opisał miasto w tysiąc siedemset siedemdziesiątym siódmym roku. Pisał o cudownych estipitach i przepięknych posągach tej fasady, a dodał, że wielu twórców kopiowało tę rzeźbę. To wyjaśnia, dlaczego ten styl dotarł tak daleko. Miał wielki wpływ na region górniczy Guanajuato.\n\nZwróć uwagę, że nie wszystkie zdobienia są takie same. Historyk Manuel González Galván zauważył, że fasada główna jest pełna estipitów, podczas gdy mniejsze portale mają bardziej powściągliwe pilastry, z kanelurami. Ten kontrast sprawia, że część środkowa wyróżnia się jeszcze bardziej. Jeden z reliefów na portalach przedstawia chrzest Dziewicy, temat, który nie występuje w ewangeliach. Bliźniaczy relief z chrztem Chrystusa znajduje się na portalu od strony wschodniej.\n\nMateriał również opowiada historię. Fasada łączy jasny kamień ciosowy z tezontle, czerwonawą skałą wulkaniczną. Kamień ciosowy pochodzi z Chiluca, złoża kamienia, które szeroko wykorzystywano przy budowie gmachów w mieście. Kontrast między obiema barwami sprawia, że reliefy wyraźnie się wybijają.\n\nGrunt także zostawił swój ślad. W tysiąc dziewięćset trzydziestym trzecim roku zburzono budynki przy wschodnim boku Katedry, wśród nich dawne Seminarium. W następnym roku rozpoczęto podbudowę fundamentów Sakrarium, która trwała jeszcze w listopadzie tysiąc dziewięćset trzydziestego piątego roku. Trzęsienie ziemi z roku dwa tysiące siedemnastego spowodowało szkody w całym kompleksie Katedry.\n\nJeśli zdecydujesz się wejść, pamiętaj, że to świątynia otwarta dla kultu, więc warto sprawdzić godziny otwarcia. Z ulicy samo odczytanie fasady w zupełności wystarcza. Kiedy będziesz gotowy, przejdź do kolejnego przystanku na swojej trasie."
+    },
+    "retos_observacion": {
+      "hash": "6a7a957e4445d694",
+      "texto": [
+        "Policz estipity na portalu: widzisz, jak zwężają się ku dołowi?",
+        "Poszukaj kontrastu między jasnym kamieniem ciosowym a czerwonawym tezontle",
+        "Porównaj portal główny z portalami bocznymi, bardziej powściągliwymi"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6a5dc5fa75196190",
+      "texto": {
+        "Architekt": "Lorenzo Rodríguez",
+        "Początek budowy": "1749, budowa trwała prawie 20 lat",
+        "Styl": "nowohiszpański barok, churrigueryzm",
+        "Materiały": "jasny kamień ciosowy i tezontle",
+        "Podbudowa fundamentów": "rozpoczęta w 1934",
+        "Lokalizacja": "wschodni bok Katedry"
+      }
+    },
+    "faq_mito": {
+      "hash": "6115a82e8436d53f",
+      "texto": {
+        "pregunta": "Mit: Sakrarium to kaplica Katedry.",
+        "respuesta": "Rzeczywistość: Było kościołem parafialnym kompleksu katedralnego, z własną historią i własnym budynkiem, zaprojektowanym przez Lorenzo Rodrígueza."
+      }
+    }
+  }
+}

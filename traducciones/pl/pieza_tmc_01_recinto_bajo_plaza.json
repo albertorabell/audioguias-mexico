@@ -1,0 +1,56 @@
+{
+  "id": "tmc_01_recinto_bajo_plaza",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "79af81581984d7b3",
+      "texto": "Plac i Święty Okręg Tenochtitlan"
+    },
+    "frase_gancho": {
+      "hash": "ad729a7aeb7e4fdd",
+      "texto": "Cała ta część Centrum stoi na jeziornym mieście, które miało okręg liczący nawet siedemdziesiąt osiem świątyń."
+    },
+    "puente_narrativo": {
+      "hash": "6366e5a1f836733b",
+      "texto": "Przejdź na północną stronę placu, naprzeciwko Katedry, i zacznij od jej głównej fasady."
+    },
+    "guion_corto": {
+      "hash": "2345b9c18b61a9f4",
+      "texto": "Wszystko, co widzisz wokół siebie, stoi na innym mieście. Według tradycji Mexica osiedlili się na wysepce jeziora Texcoco około tysiąc trzysta dwudziestego piątego roku. Zdobywali teren kosztem wody za pomocą nasypów, pali, kanałów, grobli i mostów. W centrum Tenochtitlan znajdował się święty okręg, a kroniki mówią, że miał nawet siedemdziesiąt osiem świątyń. Dziś to miasto jest przykryte, ale nie zniknęło. Ten przewodnik prowadzi cię przez dwie z jego warstw. Pierwszą jest Katedra Metropolitalna, którą Hiszpanie zaczęli budować w szesnastym wieku. Drugą jest Templo Mayor, które przez wieki leżało pod ziemią. Zaczynamy tutaj, na placu, żebyś wiedział, gdzie stoisz."
+    },
+    "guion_largo": {
+      "hash": "06f3e2531575521b",
+      "texto": "Ten przewodnik prowadzi od miasta hiszpańskiego do miasta Mexica i warto zacząć od zrozumienia, co znajduje się pod twoimi stopami.\n\nWedług tradycji Mexica osiedlili się na wysepce jeziora Texcoco około tysiąc trzysta dwudziestego piątego roku. Ziemi było mało, więc stopniowo ją powiększali. Dzięki nasypom, drewnianym palom, kanałom, groblom i mostom zdobyli ląd kosztem jeziora, aż osiągnęli około trzynastu i pół kilometra kwadratowego. To miasto nazywało się México-Tenochtitlan. Miało jedenastu władców, a jego upadek nastąpił w tysiąc pięćset dwudziestym pierwszym roku, po wojnie z Hiszpanami i ich indiańskimi sojusznikami.\n\nW centrum miasta znajdowała się wydzielona przestrzeń, Święty Okręg. Stało tam Templo Mayor, które Mexica nazywali Huey Teocalli, wielki dom boga. Uważali je za pępek wszechświata. Według kronik nowohiszpańskich okręg liczył nawet siedemdziesiąt osiem budowli, wśród nich świątynie, ołtarze, platformy, szkoły i boiska do gry w piłkę. Nie każdy mógł tam wejść. Stały dostęp mieli kapłani, wojownicy, władcy i uczniowie Calmécac, szkoły dla dzieci szlachty. Zwykli ludzie wchodzili podczas świąt.\n\nGdy miasto upadło, Hernán Cortés postanowił, że właśnie tutaj stanie stolica Nowej Hiszpanii. Hiszpanie zburzyli Templo Mayor, a jego kamienie wykorzystano ponownie jako fundamenty budynków z czasów wicekrólestwa. To dobry sposób, by zrozumieć, co się wydarzyło. Nie wzniesiono nowego miasta w pustym miejscu, tylko na innym, które jeszcze stało. Katedra, którą masz przed sobą, jest częścią tej historii. Zbudowano ją na części terenów dawnego okręgu, i dlatego jej miękki grunt i fundamenty sprawiły tyle kłopotów.\n\nPrzez wieki wiedziano o Templo Mayor niewiele. W tysiąc siedemset dziewięćdziesiątym roku dokonano pojedynczych odkryć, a Manuel Gamio odkrył narożnik budowli w tysiąc dziewięćset trzynastym. Jednak wielkie odkrycie nastąpiło w tysiąc dziewięćset siedemdziesiątym ósmym roku, gdy przypadkiem znaleziono okrągły kamień. Opowiemy o nim później.\n\nTak zorganizowana jest ta trasa. Najpierw obejdziesz Katedrę na zewnątrz, a potem wejdziesz do środka, jeśli będzie otwarta. Następnie udasz się do strefy archeologicznej Templo Mayor i do jego muzeum. Wstęp do Katedry zazwyczaj jest wolny, choć za niektóre części trzeba zapłacić opłatę lub wrzucić datek. Strefa archeologiczna i muzeum mają jeden wspólny bilet, a przed wizytą warto sprawdzić aktualne dni i godziny otwarcia. Jeśli dziś chcesz zobaczyć tylko jedną część, wybierz jedną z krótszych tras.\n\nTeraz rozejrzyj się. Katedra zamyka północną stronę placu. Ruin Templo Mayor stąd nie widać: leżą za Katedrą, na wschód, kilkaset metrów dalej. Ten krótki dystans przecina dwa światy. Zacznij od tego, który widzisz przed sobą, i zabierz ze sobą pytanie, ile warstw mieści się w jednym miejscu."
+    },
+    "retos_observacion": {
+      "hash": "c402ee26ef0db43e",
+      "texto": [
+        "Znajdź Katedrę po północnej stronie placu i oszacuj, jaką ma szerokość",
+        "Wyobraź sobie jezioro sięgające aż do miejsca, w którym stoisz: miasto było otoczone wodą",
+        "Wskaż na wschodzie kierunek, w którym leżą ruiny Templo Mayor, za Katedrą"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a0bf74e217269cad",
+      "texto": {
+        "Założenie według tradycji": "około 1325",
+        "Powierzchnia zdobyta kosztem jeziora": "około 13,5 km²",
+        "Władcy Tenochtitlan": "11",
+        "Upadek miasta": "1521",
+        "Budowle Świętego Okręgu według kronik": "do 78",
+        "Lokalizacja": "plac Konstytucji, Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "8193d03a93403e36",
+      "texto": {
+        "pregunta": "Mit: Hiszpanie zbudowali Miasto Meksyk w pustym miejscu.",
+        "respuesta": "Rzeczywistość: Stolica Nowej Hiszpanii powstała na Tenochtitlan, a kamienie Templo Mayor zostały ponownie wykorzystane jako fundamenty budynków z czasów wicekrólestwa."
+      }
+    }
+  }
+}

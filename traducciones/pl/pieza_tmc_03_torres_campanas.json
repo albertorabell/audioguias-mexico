@@ -1,0 +1,56 @@
+{
+  "id": "tmc_03_torres_campanas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1f470ba4a2b3120b",
+      "texto": "Wieże i dzwony z imionami"
+    },
+    "frase_gancho": {
+      "hash": "8b952131b8a4622a",
+      "texto": "Trzydzieści pięć dzwonów, a najstarszy odlano w tysiąc pięćset siedemdziesiątym ósmym roku."
+    },
+    "puente_narrativo": {
+      "hash": "65a583829e791ee1",
+      "texto": "Cofnij się o kilka kroków i spójrz na całą Katedrę, od jednej wieży do drugiej. Gdy będziesz gotowy, przejdź do kolejnego przystanku swojej trasy."
+    },
+    "guion_corto": {
+      "hash": "e6f62f47198a2c46",
+      "texto": "Trzydzieści pięć dzwonów wisi w tych dwóch wieżach i każdy ma swoje imię. Najstarszy to Santa María de la Asunción, który wszyscy nazywają Doña María. Odlano go w tysiąc pięćset siedemdziesiątym ósmym roku i waży około siedmiu ton. Inny z wielkich dzwonów znany jest jako La Ronca. Wież nie ukończono w tym samym czasie co reszty fasady. Pod koniec osiemnastego wieku wzniósł je meksykański architekt José Damián Ortiz de Castro, a ich zwieńczenie ma kształt dzwonu. W wieży wschodniej jest dwadzieścia trzy dzwony, a w zachodniej jedenaście. Jeśli zdarzy ci się ich posłuchać, każdy brzmi inaczej, bo każdy waży inaczej."
+    },
+    "guion_largo": {
+      "hash": "a0a6c62efc84c146",
+      "texto": "Podnieś wzrok na dwie wieże. Wyglądają jak bliźniacze, ale powstały w różnych momentach i kryją skarb, który słychać bardziej, niż widać.\n\nPodstawa i pierwsza kondygnacja wschodniej wieży pochodzą z siedemnastego wieku. Wieże, takie jakie je widzisz, wzniósł pod koniec osiemnastego wieku meksykański architekt José Damián Ortiz de Castro. Wygrał konkurs na kierowanie budową i zmarł, zanim zobaczył ją ukończoną. Manuel Tolsá, który przybył do Miasta Meksyk w tysiąc siedemset dziewięćdziesiątym pierwszym roku, kontynuował pracę i doprowadził ją do końca. Zwieńczenie każdej wieży naśladuje kształt dzwonu i jest wykonane z tezontle, czerwonawego kamienia wulkanicznego, który jest w tym mieście bardzo powszechny.\n\nW wieżach wisi trzydzieści pięć dzwonów. W wschodniej jest ich dwadzieścia trzy, a w zachodniej jedenaście. Jeszcze jeden dzwon znajduje się w innej części świątyni, w pobliżu chóru. Dzwonnice mają miejsce na znacznie więcej dzwonów, ale nigdy ich nie zapełniono. Mówi się, że powodem było to, że w trakcie budowy najpilniejsze było zamknięcie dachów, by można było odprawiać mszę, a dzwony zeszły na dalszy plan.\n\nKażdy dzwon ma swoje imię. Najstarszy to Santa María de la Asunción, znany ludziom jako Doña María. Odlano go w tysiąc pięćset siedemdziesiątym ósmym roku i waży około siedmiu ton. Mówi się, że wisi w swojej wieży od tysiąc sześćset pięćdziesiątego czwartego roku. Kolejny duży dzwon to San José, nazywany La Ronca, który waży nieco ponad cztery tony. Największy to Santa María de Guadalupe, o wadze około trzynastu ton.\n\nBrąz każdego dzwonu, jego ciężar i kształt zmieniają dźwięk. Dlatego gdy rozbrzmiewa kilka naraz, nie słychać jednego tonu, lecz zespół niskich i wysokich głosów. Dzwony biją o określonych porach dnia, a w szczególne dni rozbrzmiewa wiele naraz. Wymienia się wśród nich Boże Narodzenie, koniec roku, Wielkanoc i święto Wniebowzięcia, piętnastego sierpnia, czyli święto patronki Katedry. Jeśli trafisz na bicie dzwonów, warto zatrzymać się na kilka minut.\n\nJest też ciekawostka ciesielska. Schody dzwonnicy są z cedru, ze stopniami łączonymi na wpust, a nie przybijanymi gwoźdźmi, a ich słupy są z jednego kawałka. Zachowały się w takim stanie od czasu ukończenia budowy. Ci, którzy wchodzą na górę, mają szeroki widok na miasto i plac.\n\nI można tam wejść. Są zwiedzania z przewodnikiem po dzwonnicy, na które zapisuje się przy wejściu od strony wschodniej Katedry, za niewielką opłatą. Godziny i ceny się zmieniają, więc warto zapytać tego samego dnia. Jeśli wolisz zostać na dole, wystarczy podnieść wzrok i policzyć otwory, w których wiszą dzwony.\n\nOstatni szczegół. W jednej z tych wież był osadzony Kamień Słońca, aż do tysiąc osiemset osiemdziesiątego piątego roku. Ten kamień ma własną historię, związaną z tym placem. Na razie cofnij się o kilka kroków i spójrz na całą Katedrę, od jednej wieży do drugiej. Gdy będziesz gotowy, przejdź do kolejnego przystanku swojej trasy."
+    },
+    "retos_observacion": {
+      "hash": "745d211a3c6d758d",
+      "texto": [
+        "Policz wieże i poszukaj wysoko otworów, w których wiszą dzwony",
+        "Zwróć uwagę na zwieńczenie każdej wieży: ma kształt dzwonu",
+        "Jeśli trafisz na bicie dzwonów, posłuchaj, ile różnych tonów potrafisz rozróżnić"
+      ]
+    },
+    "especificaciones": {
+      "hash": "288fdac5e96e6f5f",
+      "texto": {
+        "Dzwony łącznie": "35 (23 w wieży wschodniej, 11 w zachodniej i jeden w innej części)",
+        "Santa María de la Asunción, Doña María": "odlany w 1578 roku, około 7 ton",
+        "San José, La Ronca": "nieco ponad 4 tony",
+        "Wieże": "Ortiz de Castro, w latach 1787–1791, oraz Manuel Tolsá",
+        "Zwieńczenie": "w kształcie dzwonu, z tezontle",
+        "Schody dzwonnicy": "cedr"
+      }
+    },
+    "faq_mito": {
+      "hash": "f3379d788e70aff9",
+      "texto": {
+        "pregunta": "Mit: Wieże Katedry powstały razem z główną fasadą.",
+        "respuesta": "Rzeczywistość: Środkową część fasady ukończono w 1675 roku, a wieże wzniesiono pod koniec XVIII wieku."
+      }
+    }
+  }
+}

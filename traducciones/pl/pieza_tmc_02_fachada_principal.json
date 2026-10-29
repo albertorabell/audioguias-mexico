@@ -1,0 +1,56 @@
+{
+  "id": "tmc_02_fachada_principal",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "84e9a5f6638efbb8",
+      "texto": "Fasada główna Katedry"
+    },
+    "frase_gancho": {
+      "hash": "56c89bfd0bc46464",
+      "texto": "Trzy portale, marmurowy relief i trzy spiżowe cnoty: fasada, która powstawała przez ponad sto lat."
+    },
+    "puente_narrativo": {
+      "hash": "6c02446457e22da4",
+      "texto": "Spójrz w górę, na boki fasady, gdzie wznoszą się dwie wieże z dzwonami."
+    },
+    "guion_corto": {
+      "hash": "67f8706270147144",
+      "texto": "Fasada główna Katedry ma trzy portale, a środkowy jest największy. Nad nim znajduje się marmurowy relief przedstawiający Wniebowzięcie Maryi Panny, której poświęcona jest świątynia. Na portalach bocznych są reliefy ze świętym Piotrem, który otrzymuje klucze, oraz z okrętem Kościoła. Wyżej jest zegar, a nad nim trzy rzeźby Manuela Tolsá: Wiara, Nadzieja i Miłość. Ta fasada nie pochodzi z jednej epoki. Część środkowa została ukończona w tysiąc sześćset siedemdziesiątym piątym roku, a Tolsá wieńczył ją ponad sto lat później. Przejdź po niej wzrokiem od dołu do góry i zwróć uwagę, jak zmieniają się styl i odcień kamienia."
+    },
+    "guion_largo": {
+      "hash": "915575febea2b77a",
+      "texto": "Stoisz przed fasadą zwróconą ku Zócalo. Choć wygląda na jedno dzieło, jest owocem pracy wielu rąk.\n\nKatedra jest poświęcona Wniebowzięciu Maryi i właśnie ten obraz wieńczy portal środkowy. To marmurowy relief. Po bokach tych drzwi stoją figury świętego Piotra i świętego Pawła. Na portalach bocznych są inne reliefy. Jeden ukazuje świętego Piotra otrzymującego klucze, a drugi okręt Kościoła. Są to trzy drzwi, a środkowe jest największe, i każde z nich działa jak inne odczytanie tego samego religijnego przesłania.\n\nKolejność, w jakiej powstawała fasada, tłumaczy zmiany stylu. Część środkową prowadził architekt Cristóbal de Medina Vargas i została ukończona w tysiąc sześćset siedemdziesiątym piątym roku. To dzieło barokowe, z wieloma kolumnami i bogatym reliefem. Ponad sto lat później, pod koniec osiemnastego wieku, przybył rzeźbiarz i architekt Manuel Tolsá, który ukończył budowlę. Tolsá pracował z ideami neoklasycznymi, bardziej powściągliwymi, które dążyły do ładu i symetrii. Dlatego Katedra łączy w jednym widoku cechy renesansu, baroku i neoklasycyzmu.\n\nNad drzwiami głównymi jest zegar, a nad nim umieszczono trzy rzeźby przypisywane Tolsá. To trzy cnoty teologalne: Wiara, Nadzieja i Miłość. Podczas trzęsienia ziemi w dwa tysiące siedemnastym roku Nadzieja spadła z wysokości około czterdziestu pięciu metrów. Została odrestaurowana, z nową głową wyrzeźbioną w kamieniu, a wszystkie trzy rzeźby wróciły na swoje miejsce w lutym dwa tysiące dwudziestego czwartego roku. To przypomnienie, że ten kamień również wymaga nieustannej troski.\n\nAby wyobrazić sobie skalę, Katedra ma około stu dwudziestu ośmiu metrów długości i około sześćdziesięciu szerokości, a do szczytu wież mierzy około sześćdziesięciu siedmiu. Przed tą katedrą stała inna, mniejsza, którą rozpoczęto w tysiąc pięćset dwudziestym czwartym roku.\n\nJest jeszcze coś, na co warto spojrzeć. Kamień nie ma takiego samego odcienia na całej fasadzie, co jest naturalne w dziele powstającym w tak wielu etapach. Jeśli odsuniesz się trochę, aż do środka placu, fasadę łatwiej odczytać. Zobaczysz, że dwie wieże ujmują ją jak parę nawiasów.\n\nTo najbardziej widoczna fasada, ale nie jedyna. Katedra ma cztery fasady, z portalami bocznymi po stronie wschodniej, zachodniej i północnej. Ta północna jest najstarsza i najniższa. Przypisuje się jej szesnasty wiek i bardziej surowy styl.\n\nZanim pójdziemy dalej, warto pamiętać, że to świątynia, w której odbywają się nabożeństwa. Jeśli później zdecydujesz się wejść, zrób to z szacunkiem, z zakrytymi ramionami i kolanami, i sprawdź godziny mszy. A teraz unieś wzrok. Wieże mają własną historię, a ich dzwony mają imiona."
+    },
+    "retos_observacion": {
+      "hash": "2dd61c4b006c27f4",
+      "texto": [
+        "Znajdź marmurowy relief Wniebowzięcia nad drzwiami środkowymi",
+        "Wypatrz zegar i trzy figury, które są nad nim",
+        "Porównaj kamień części środkowej z kamieniem wież: czy dostrzegasz różnice w odcieniu?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ddf87b9029fab64",
+      "texto": {
+        "Dedykacja": "Wniebowzięcie Maryi",
+        "Część środkowa fasady": "ukończona w 1675 roku, Cristóbal de Medina Vargas",
+        "Zwieńczenie i rzeźby": "Manuel Tolsá, około 1813",
+        "Portale": "3 w fasadzie głównej",
+        "Przybliżone wymiary": "około 60 m szerokości, 128 m długości i 67 m do szczytu wież",
+        "Lokalizacja": "północna strona Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "da6ea111cf54871d",
+      "texto": {
+        "pregunta": "Mit: Katedra powstała w jednym stylu.",
+        "respuesta": "Rzeczywistość: Łączy cechy renesansu, baroku i neoklasycyzmu, ponieważ budowano ją w latach 1573-1813 pod kierunkiem różnych architektów."
+      }
+    }
+  }
+}
