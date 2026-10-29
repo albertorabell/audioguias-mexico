@@ -231,6 +231,39 @@ class TTSPlayer {
     }
   }
 
+  /** Botones «parada anterior / siguiente» de la pantalla bloqueada y de los audífonos (los registra la pantalla de la pieza). */
+  private trackHandlers: { previous?: (() => void) | null; next?: (() => void) | null } = {};
+  /** Se pide desde la pantalla bloqueada: la pieza nueva debe empezar sola en cuanto esté lista. */
+  private autoplayPending = false;
+
+  public setTrackHandlers(handlers: { previous?: (() => void) | null; next?: (() => void) | null }): void {
+    this.trackHandlers = handlers;
+    this.applyTrackHandlers();
+  }
+
+  public consumeAutoplayRequest(): boolean {
+    const pending = this.autoplayPending;
+    this.autoplayPending = false;
+    return pending;
+  }
+
+  private applyTrackHandlers() {
+    if (typeof navigator === 'undefined' || !('mediaSession' in navigator)) return;
+    const go = (fn?: (() => void) | null) =>
+      fn
+        ? () => {
+            this.autoplayPending = true;
+            fn();
+          }
+        : null;
+    try {
+      navigator.mediaSession.setActionHandler('previoustrack', go(this.trackHandlers.previous));
+      navigator.mediaSession.setActionHandler('nexttrack', go(this.trackHandlers.next));
+    } catch {
+      // Algunos navegadores no aceptan estas acciones
+    }
+  }
+
   private setupMediaSession(title: string, artworkUrl?: string) {
     if (typeof navigator !== 'undefined' && 'mediaSession' in navigator) {
       try {
@@ -261,6 +294,7 @@ class TTSPlayer {
         navigator.mediaSession.setActionHandler('stop', () => this.stop());
         navigator.mediaSession.setActionHandler('seekbackward', () => this.skip(-15));
         navigator.mediaSession.setActionHandler('seekforward', () => this.skip(15));
+        this.applyTrackHandlers();
 
         navigator.mediaSession.playbackState = 'playing';
       } catch (err) {

@@ -247,6 +247,22 @@ export const PieceDetail: React.FC<PieceDetailProps> = ({
     });
   };
 
+  // Pantalla bloqueada y audífonos: «parada anterior / siguiente» (la pieza nueva empieza sola cuando está lista)
+  useEffect(() => {
+    ttsPlayer.setTrackHandlers({ previous: onPrev || null, next: onNext || null });
+    return () => ttsPlayer.setTrackHandlers({});
+  }, [onPrev, onNext]);
+
+  useEffect(() => {
+    if (locked) {
+      ttsPlayer.consumeAutoplayRequest(); // sin pase no se arranca nada solo
+      return;
+    }
+    if (textMissing && !audio[mode]) return; // espera a que llegue el texto
+    if (ttsPlayer.consumeAutoplayRequest()) togglePlay();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pieceId, locked, textMissing]);
+
   const retos: string[] = useMemo(() => {
     if (piece.retos_observacion?.length) return piece.retos_observacion.filter(Boolean);
     if (piece.observation_challenges?.length)
