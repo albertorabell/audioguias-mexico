@@ -1,7 +1,7 @@
 // Páginas públicas para Google: lo que dicen, y que NUNCA lleven texto de pago.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { armarPagina, armarSitemap, duracion, recorridoPrincipal, textoEnHtml, recortar, idiomaDisponible, direccion, contar } from '../seo-lib.mjs';
+import { armarPagina, armarSitemap, duracion, recorridoPrincipal, textoEnHtml, recortar, idiomaDisponible, direccion, contar, slugificar, armarPiezaPagina, piezaPublicable, direccionPieza } from '../seo-lib.mjs';
 
 const cfg = { articulo: 'el', slugs: { es: 'museo', en: 'museum', fr: 'musee', pl: 'muzeum' }, nombres: { en: 'The Museum', fr: 'Le Musée', pl: 'Muzeum' } };
 
@@ -120,4 +120,43 @@ test('sitio sin publicar: la página dice «próximamente» y no lleva botón ni
   assert.ok(!html.includes('/?sitio='));
   assert.ok(!html.includes('72 horas'));
   assert.ok(!html.includes('gratis'));
+});
+
+const libre = { piece_id: 'a', titulo: 'Piedra del Sol', frase_gancho: 'El calendario mexica.', is_free: true, guion_corto: 'Corto con [Disco](mna_x).', guion_largo: 'Largo.\n\nOtro párrafo <b>.', titulo_en: 'Sun Stone', guion_corto_en: 'English text.' };
+
+test('slug: sin acentos ni signos', () => {
+  assert.equal(slugificar('Máscara de Pakal'), 'mascara-de-pakal');
+  assert.equal(slugificar('Łódź – « Œuvre »'), 'lodz-oeuvre');
+});
+
+test('pieza: solo las gratis con título y texto en ese idioma tienen página', () => {
+  assert.equal(piezaPublicable(libre, 'es'), true);
+  assert.equal(piezaPublicable(libre, 'en'), true);
+  assert.equal(piezaPublicable(libre, 'fr'), false);
+  assert.equal(piezaPublicable({ ...libre, is_free: false }, 'es'), false);
+  assert.equal(direccionPieza(cfg, libre, 'en'), '/en/guides/museum/sun-stone/');
+});
+
+test('pieza: página con su texto, sin marcas de enlace, escapada, y botón a la app', () => {
+  const { html, url } = armarPiezaPagina({ sitio, manifiesto, cfg, pieza: libre, sala: salas[1], lang: 'es', idiomas: ['es', 'en'] });
+  assert.equal(url, 'https://xolotli.com/guias/museo/piedra-del-sol/');
+  assert.ok(html.includes('<h1>Piedra del Sol</h1>'));
+  assert.ok(html.includes('Otro párrafo &lt;b&gt;.'));
+  assert.ok(!html.includes('mna_x'));
+  assert.ok(html.includes('Ubicación: Sala Uno, Museo Nacional de Antropología.'));
+  assert.ok(html.includes('hreflang="en" href="https://xolotli.com/en/guides/museum/sun-stone/"'));
+  assert.ok(html.includes('href="/?sitio=MNA&amp;idioma=es"'));
+});
+
+test('pieza en inglés: nada de español', () => {
+  const { html } = armarPiezaPagina({ sitio: { ...sitio, name_en: 'National Museum' }, manifiesto, cfg, pieza: libre, lang: 'en', idiomas: ['es', 'en'] });
+  assert.ok(html.includes('<h1>Sun Stone</h1>'));
+  assert.ok(html.includes('English text.'));
+  assert.ok(!html.includes('Corto') && !html.includes('Largo') && !html.includes('calendario'));
+});
+
+test('página del sitio: lista las piezas gratis con enlace', () => {
+  const { html } = armarPagina({ sitio, manifiesto, salas, piezas, cfg, gratisEnlaces: [{ titulo: 'Piedra del Sol', url: '/guias/museo/piedra-del-sol/' }] });
+  assert.ok(html.includes('<h2>Obras para probar gratis</h2>'));
+  assert.ok(html.includes('<a href="/guias/museo/piedra-del-sol/">Piedra del Sol</a>'));
 });
