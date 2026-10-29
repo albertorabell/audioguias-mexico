@@ -1,0 +1,56 @@
+{
+  "id": "chi_06_aguilas_jaguares",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b3effe4c5400637f",
+      "texto": "Platform of the Eagles and Jaguars"
+    },
+    "frase_gancho": {
+      "hash": "7997417a91bd05c0",
+      "texto": "Eagles and jaguars devouring human hearts, on a platform with a staircase on each side."
+    },
+    "puente_narrativo": {
+      "hash": "1658110b6c226dc8",
+      "texto": "Head toward the [Great Ball Court](chi_08_gran_juego_pelota), the enormous court that closes off this side of the esplanade."
+    },
+    "guion_corto": {
+      "hash": "0bc6d550dd3ca405",
+      "texto": "This platform has a staircase on each of its four sides. Its panels show eagles and jaguars eating human hearts. It combines Maya styles with features from central Mexico, and it is one of the proofs that traditions mixed at Chichén Itzá. It stands just east of the Great Ball Court, and one of its sculptures is famous: the first Chac Mool that archaeologists discovered came from this platform. Eagles with hearts also appear on the Tzompantli and at the Temple of the Warriors. It is an image that repeats on the most important buildings of this plaza."
+    },
+    "guion_largo": {
+      "hash": "4e63205e3f364591",
+      "texto": "After the skulls, now come the eagles and the jaguars. Two animals that, in Mesoamerica, were associated with power and with war.\n\nThis platform is square, with a staircase on each of its four sides. It blends the Maya style with the style of central Mexico. The carved panels show eagles and jaguars devouring human hearts. It is located east of the Great Ball Court, very close to the Tzompantli you have just seen.\n\nA common reading of this image comes from the tradition of central Mexico. There, eagles and jaguars symbolized elite warriors, and hearts were an offering to feed the Sun. It is an interpretation, not a certain claim about what people thought at Chichén Itzá. What can be said is that these images repeat on other buildings of the site. Eagles with hearts also appear on the Tzompantli and on the panels of the Temple of the Warriors.\n\nThis platform has a special history. The first Chac Mool that archaeologists discovered came from here. A Chac Mool is a reclining stone figure that holds a vessel on its belly. There are others in the Temple of the Warriors and inside El Castillo. They are one of the visual signatures of Chichén Itzá, and science still debates what they meant exactly.\n\nNotice also how this platform and the Tzompantli form a set. A common explanation is that, together, these buildings represent a way of understanding war and sacrifice as part of the order of the world. It is a plausible reading, but we must remember that these are modern readings of images more than a thousand years old. The only certain thing is that the builders wanted the message to be seen.\n\nIf you have time, walk around the platform and compare its four sides. On some, the reliefs will be better preserved than on others.\n\nNow head toward the [Great Ball Court](chi_08_gran_juego_pelota). It is the largest known court in Mesoamerica, and there another violent image awaits you: the decapitation panels."
+    },
+    "retos_observacion": {
+      "hash": "64df8bda76c8ff9e",
+      "texto": [
+        "Look in the panels for the eagles and jaguars with a heart between their claws or jaws",
+        "Count the staircases: there is one on each of the four sides",
+        "Compare this platform with the Tzompantli you have just seen and notice which images repeat"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3324311b6ba8a5d8",
+      "texto": {
+        "Shape": "platform with a staircase on each of its four sides",
+        "Reliefs": "eagles and jaguars devouring human hearts",
+        "Style": "combines Maya features and features from central Mexico",
+        "Location": "just east of the Great Ball Court",
+        "Key fact": "the first Chac Mool discovered by archaeologists came from this platform",
+        "Repeated image": "eagles with hearts, also on the Tzompantli and the Temple of the Warriors"
+      }
+    },
+    "faq_mito": {
+      "hash": "db9dd5e7555b9b5b",
+      "texto": {
+        "pregunta": "Myth: The reliefs prove that there was a military order of eagles and jaguars.",
+        "respuesta": "Reality: That is a modern interpretation, drawn from the tradition of central Mexico. It is not known for certain what these images meant to the people of Chichén Itzá."
+      }
+    }
+  }
+}

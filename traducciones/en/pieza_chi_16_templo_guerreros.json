@@ -1,0 +1,64 @@
+{
+  "id": "chi_16_templo_guerreros",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Toltec\" para \"Tolteca / Toltecas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Toltec\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "cd6f64b01a908be4",
+      "texto": "Temple of the Warriors and the Northwest Colonnade"
+    },
+    "frase_gancho": {
+      "hash": "6d01b78e2c4d509d",
+      "texto": "Columns carved with warriors, a Chac Mool at the top and, inside, another, older temple."
+    },
+    "puente_narrativo": {
+      "hash": "cd9bfdc1b8314878",
+      "texto": "Continue along the temple toward the [Group of the Thousand Columns](chi_19_grupo_mil_columnas), the largest forest of pillars on the plaza."
+    },
+    "guion_corto": {
+      "hash": "76b13d969224ffde",
+      "texto": "This is the Temple of the Warriors. It is a great stepped pyramid, and at the front and along the sides it has rows of columns carved with warriors; the Northwest Colonnade is part of that complex. These columns are believed to have held up gallery roofs that no longer exist. At the top of the stairway there is a Chac Mool, the reclining figure holding a vessel. Archaeologists compare it with Temple B at Tula, in central Mexico, and that resemblance fed the idea of a Toltec invasion for decades. Today scholars speak more of influence. Inside the temple there is another, older one, the Temple of the Chac Mool, which the Carnegie Institution excavated between nineteen twenty-five and nineteen twenty-eight."
+    },
+    "guion_largo": {
+      "hash": "9b21f07b27085ac7",
+      "texto": "You are standing before one of the most famous buildings at Chichén Itzá, and also one of those that has provoked the most debate.\n\nIt is a great stepped pyramid, with rows of columns carved with warriors at the front and along the sides, about forty meters on each side and four levels high. At the top there is a temple with two rooms and an entrance portico, whose lintel rests on two columns shaped like giant rattlesnakes. At the summit, beside the stairway, there is a Chac Mool, a reclining figure holding a plate or vessel on its belly.\n\nArchaeologists compare it with Temple B at Tula, the city in central Mexico that for a long time was considered the capital of the Toltecs. The resemblance is real, and that is why people thought Chichén Itzá had been conquered. Most current interpretations see instead a dialogue of styles, the product of contact. Notice that here there is not only imitation: the columns, the serpents and the halls blend with a tradition of their own.\n\nThe date is also debated. Some place it around the year twelve hundred. But the chronology of Chichén Itzá is still being adjusted, and there is no single date accepted by everyone.\n\nThe most interesting part is inside. This pyramid covers another, older one, called the Temple of the Chac Mool. The Carnegie Institution excavated and restored it between nineteen twenty-five and nineteen twenty-eight. The archaeologist Earl Morris published the work in two volumes. Inside, murals with battle scenes are preserved. Since that whole area is closed, you cannot enter, but it is worth knowing that it is there. It is a pyramid inside another, like El Castillo.\n\nIt is also worth knowing that the building was restored. The work began in nineteen twenty-five. What you see today is a mixture of original stone and stone put back in place, so not everything is just as the builders left it.\n\nNow look at the columns slowly. In front of the temple and along its sides there are rows of stone columns, and those of the Northwest Colonnade, next to the temple, almost all bear figures of warriors. They are believed to have held up roofs of wood and stone, now gone, with open galleries underneath. That is why you see them uncovered today. Many figures are shown in profile, with headdresses, ornaments and weapons. If you find a clear relief, stop to look at it. Little specific information is known about this colonnade: it has no well-documented dimensions or date, and a technical study from two thousand sixteen only mentions it among the nearby constructions that bear warrior symbols.\n\nNow continue along the temple toward the [Group of the Thousand Columns](chi_19_grupo_mil_columnas). There the columns are no longer a single row, but a forest."
+    },
+    "retos_observacion": {
+      "hash": "721a38f04107f8fe",
+      "texto": [
+        "Find the Chac Mool at the top of the stairway, the reclining figure holding a vessel",
+        "Look for the two rattlesnake-shaped columns that hold up the lintel of the portico",
+        "Scan the rows of columns of the Northwest Colonnade with your eyes and look for the best-preserved warriors"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6ab36c0e3d6d34a8",
+      "texto": {
+        "Shape": "great stepped pyramid with four levels, with rows of columns carved with warriors",
+        "Size": "about 40 meters on each side",
+        "Comparison": "resembles Temple B at Tula, in central Mexico",
+        "Substructure": "the Temple of the Chac Mool, excavated by the Carnegie Institution between 1925 and 1928",
+        "Northwest Colonnade": "rows of columns with warriors in profile next to the temple; believed to have held up gallery roofs",
+        "Date": "some place it around the year 1200 (the chronology is still debated)",
+        "Access": "it is not possible to climb or enter the substructure"
+      }
+    },
+    "faq_mito": {
+      "hash": "9ab61d54962f38ee",
+      "texto": {
+        "pregunta": "Myth: The Temple of the Warriors proves that the Toltecs conquered Chichén Itzá.",
+        "respuesta": "Reality: The resemblance to Temple B at Tula is real, but most current interpretations speak of influence and contact, not of a conquest."
+      }
+    }
+  }
+}

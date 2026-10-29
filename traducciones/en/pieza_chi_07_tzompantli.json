@@ -1,0 +1,56 @@
+{
+  "id": "chi_07_tzompantli",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1b402fb72d217f3c",
+      "texto": "The Tzompantli, Wall of Skulls"
+    },
+    "frase_gancho": {
+      "hash": "19537684377b1b04",
+      "texto": "A wall of skulls carved in stone, and no two skulls are alike."
+    },
+    "puente_narrativo": {
+      "hash": "01a3506df1ed7256",
+      "texto": "Walk a few steps to the neighboring platform, the [Platform of the Eagles and Jaguars](chi_06_aguilas_jaguares), where eagles hold hearts."
+    },
+    "guion_corto": {
+      "hash": "dfb61fc4c2bbe393",
+      "texto": "Tzompantli is a Nahuatl word that is usually translated as row of skulls. This T-shaped platform, about fifty-five meters by twelve, has walls covered in carved skulls. There are estimated to be about two thousand four hundred, and they differ noticeably from one another. The skulls appear strung vertically, as if on poles, and not horizontally, as in central Mexico. That helps distinguish this Maya version from the Mexica ones. It is the first known place in Mesoamerica with a tzompantli carved in stone. What you see was reconstructed in nineteen fifty-one."
+    },
+    "guion_largo": {
+      "hash": "bf94a21f91844e39",
+      "texto": "It is one of the most striking images at Chichén Itzá, and it deserves to be viewed calmly, without forgetting that it is a religious monument from a thousand years ago.\n\nFirst, the word. Tzompantli comes from Nahuatl and is usually translated as row or wall of skulls. In central Mexico, the Mexica placed real skulls on wooden poles. Here, the builders carved them in stone. Chichén Itzá is the first known place in Mesoamerica with a stone tzompantli, and the idea of making it permanent may have been born among the Maya of the Terminal Classic period, between the years eight hundred and eleven hundred.\n\nThe platform is T-shaped. It measures about fifty-five meters by twelve, with a central staircase about six and a half meters wide on the east side. It is oriented about seventeen degrees east of north. The walls have four rows of skulls: the top row and the bottom row form moldings, and the others cover the walls, which rest on a sloping talud.\n\nHow many skulls are there? About two thousand four hundred are estimated, although other estimates give much lower figures, of five hundred or of a few hundred. What is clear is that the skulls vary noticeably. Perhaps several artists made them, or perhaps they represent specific people. They appear in profile, strung on vertical poles. The Mexica, by contrast, strung them horizontally.\n\nOn the east side, near the staircase, there are male figures in profile, twenty in all, advancing in procession. Between them alternate sixteen large eagles, each with a human heart in its talons. Traces of blue and red paint still remain. The moldings that frame the reliefs are rattlesnakes: feathered above and segmented below. They could allude to the sky and the earth.\n\nThe building also has a history of research. Eduard Seler described it in nineteen oh nine, and called it Mausoleum Two. José Erosa Peniche excavated it in nineteen twenty-seven, and Manuel Cirerol Sansores continued in nineteen forty. In nineteen fifty-one, Jorge Acosta and Ponciano Salazar reconstructed it. Inside they found two human skulls with offerings of jade, shell beads, and mirrors with pyrite mosaic.\n\nThere is another fact worth noting. In Tula, the city in central Mexico to which Chichén Itzá is usually compared, there is an undecorated structure that could be contemporary. Specialists still debate what the relationship between the two cities was like, although they shared a way of understanding war and art.\n\nNow continue to the neighboring platform, the [Platform of the Eagles and Jaguars](chi_06_aguilas_jaguares). There you will see eagles with hearts again, but on a different scale."
+    },
+    "retos_observacion": {
+      "hash": "3151853ba5aac088",
+      "texto": [
+        "Notice that the skulls appear in profile, and compare two or three: they are not alike",
+        "Find the eagles with hearts in their talons, on the east side",
+        "Look for the rattlesnakes that frame the reliefs, feathered above and segmented below"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ae5012650ebac817",
+      "texto": {
+        "Shape": "T-shaped platform, about 55 × 12 meters",
+        "Skulls": "about 2,400 (other estimates give fewer)",
+        "Figures": "20 male figures in profile and 16 eagles with hearts, on the east side",
+        "Era": "Terminal Classic, around 800-1100",
+        "Exploration": "Seler (1909), Erosa Peniche (1927), Cirerol Sansores (1940)",
+        "Reconstruction": "Jorge Acosta and Ponciano Salazar, 1951"
+      }
+    },
+    "faq_mito": {
+      "hash": "a35b1fc3a11efe0b",
+      "texto": {
+        "pregunta": "Myth: The skulls of the Tzompantli are real.",
+        "respuesta": "Reality: They are reliefs carved in stone. Two human skulls with offerings were found inside the platform, but the ones you see on the walls are sculptures."
+      }
+    }
+  }
+}

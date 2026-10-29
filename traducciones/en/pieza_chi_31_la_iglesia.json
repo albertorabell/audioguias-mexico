@@ -1,0 +1,57 @@
+{
+  "id": "chi_31_la_iglesia",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f731c9e645f7a9ce",
+      "texto": "La Iglesia"
+    },
+    "frase_gancho": {
+      "hash": "4b93a4804689435d",
+      "texto": "A single-room temple with three masks of Chaac and four figures that hold up the sky."
+    },
+    "puente_narrativo": {
+      "hash": "af0e04c2f847a9a7",
+      "texto": "Continue east and stop at the [Akab Dzib](chi_32_akab_dzib), the house of dark writing."
+    },
+    "guion_corto": {
+      "hash": "67635864737aeca3",
+      "texto": "This is La Iglesia, a small temple next to Las Monjas. It has a single vaulted room and a single doorway, with its facade facing west. It looks like a rectangular chapel, and that is where its name comes from. Its frieze has three masks of Chaac made with stone mosaic, one in the center and one at each corner. On either side there are niches with seated figures, which are identified with the four Bacabes, the gods who held up the sky."
+    },
+    "guion_largo": {
+      "hash": "95c76c8338e30ccb",
+      "texto": "It is the smallest building in the group and one of the most richly decorated.\n\nLa Iglesia is a small structure, with a single room and a single doorway, similar to a rectangular chapel. Its name came later, and no one knows for certain where it comes from. It stands just east of Las Monjas. According to the INAH, it is a structure with a facade decorated with geometric elements and representations of deities, in the Puuc style.\n\nIn more detail, the building has a rectangular plan, with a single vaulted room. Its facade faces west, with an entrance topped by a stone lintel. Above the doorway there are two bands of step-fret patterns: one plain, bounded by two moldings, and another, above the frieze, formed by serrated bars in a zigzag, which give the impression of a serpent.\n\nThe frieze has three masks of Chaac in stone mosaic, one in the center and one at each corner, with curled noses. On each side of the central mask there is a niche with two seated figures. On the north side appear a winged figure with an oval pectoral, and another with a snail shell on its back. On the south side, a figure with a kind of shell around its body, and another with a turtle shell. They are identified with the four Bacabes, the gods who held up the sky at the four directions, and some consider them to be disguised as a crab, a snail, an armadillo and a turtle. This is an interpretation, not a proven fact.\n\nAbove the building rises a roof comb decorated with stone mosaics, in the Puuc style. When it was discovered, it drew attention for its good state of preservation and the richness of its ornaments.\n\nThe INAH record gives the group an approximate date of six hundred to eight hundred AD, although other descriptions place it in the Terminal Classic. The dates do not agree.\n\nNo published measurements are known, nor the kind of rituals that were performed inside. The prudent thing is to say that it was a temple or a chapel of unknown use.\n\nNow continue to the [Akab Dzib](chi_32_akab_dzib), east of El Caracol."
+    },
+    "retos_observacion": {
+      "hash": "43d34f853ff59d41",
+      "texto": [
+        "Find the three masks of Chaac on the frieze: one in the center and one at each corner",
+        "Locate the side niches with seated figures",
+        "Look at the band of zigzag bars and think about whether it looks like a serpent to you"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de8be6f7848acbcc",
+      "texto": {
+        "Size": "small, with a single vaulted room and one doorway",
+        "Facade": "faces west",
+        "Frieze": "three masks of Chaac in stone mosaic",
+        "Side niches": "two seated figures on each side (identified with the four Bacabes)",
+        "Style": "Puuc",
+        "Location": "just east of Las Monjas",
+        "Date": "Terminal Classic, or 600-800 AD according to the INAH record"
+      }
+    },
+    "faq_mito": {
+      "hash": "d831c92e8eac8a12",
+      "texto": {
+        "pregunta": "Myth: It is called La Iglesia because the Maya used it as a church.",
+        "respuesta": "Reality: The name came later. It is a pre-Hispanic temple with a single room, similar to a chapel, and the exact origin of the name is not known for certain."
+      }
+    }
+  }
+}

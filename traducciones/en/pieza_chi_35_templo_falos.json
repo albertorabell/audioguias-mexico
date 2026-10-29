@@ -1,0 +1,56 @@
+{
+  "id": "chi_35_templo_falos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc78b15121f84caa",
+      "texto": "The Palace of the Phalli"
+    },
+    "frase_gancho": {
+      "hash": "6a5d4dc68294a314",
+      "texto": "A labyrinth of rooms, corridors, and courtyards, with an interior staircase that climbs to the second floor."
+    },
+    "puente_narrativo": {
+      "hash": "a04e633cfbbff075",
+      "texto": "Cross over to the [House of the Snails](chi_36_casa_caracoles_tortuga), where a family tree measures about twenty meters."
+    },
+    "guion_corto": {
+      "hash": "4948f3fd5554d993",
+      "texto": "This is the Palace of the Phalli, a two-story complex that is part of Old Chichén. It is a labyrinth of rooms, corridors, and interior courtyards, with a staircase that climbs to two rooms on the second floor. On its benches there are reliefs of Venus stars reused from another building. It has been said that other reliefs tell the origin and life of an important figure. The palace’s fallen stones were later reused in another building."
+    },
+    "guion_largo": {
+      "hash": "4a91ce4a8af95625",
+      "texto": "With a name like this, one would expect a striking description. The truth is that what is documented is more architectural than anything else.\n\nThe archaeologist Peter Schmidt and Rocío González de la Mata describe the House of the Phalli, or Palace Complex of the Phalli, as a group of three structures, which the Carnegie map numbers five C five, five C fourteen, and five C fifteen. It contains a labyrinth of rooms, corridors, and interior courtyards, and a staircase that climbs to two rooms on the second floor. Another study, from two thousand fourteen, describes it as a two-story complex on the south side of the north plaza. The two descriptions place the building in somewhat different locations; they probably refer to different parts of a large complex.\n\nThe two thousand fourteen study adds a curious detail: the palace’s benches have reliefs of four-pointed Venus stars, which were reused from the Temple of the Initial Series. In other words, the builders recycled pieces from another building.\n\nThe facade has small tablets of God N in his snail and spider aspects. And Schmidt describes, in another work, reliefs that have been read as phallic and as showing self-sacrifice, as well as panels on the second floor. These are brief descriptions: neither the number nor the shape of the sculptures that give the place its name is known with precision.\n\nA news article from two thousand twenty-three says that the palace tells the origin and life of an important figure, with battles, sacrifices, and rituals. It is a general reading, without technical support.\n\nThe palace had a curious fate. When it collapsed, its stones were reused in another building, structure five C eight, along with those from the Gallery of the Monkeys and those from another neighboring structure.\n\nThe INAH restored the palace in the two thousand twenty-three intervention, reintegrating construction elements. Part of what you see was put back in place.\n\nContinue to the [House of the Snails](chi_36_casa_caracoles_tortuga)."
+    },
+    "retos_observacion": {
+      "hash": "456000a7aa8b9fc7",
+      "texto": [
+        "Observe the two floors of the palace and try to follow the route of the interior staircase with your eyes",
+        "Look for the small tablets on the facade and the elements reintegrated during the restoration",
+        "Compare its size with that of the Temple of the Initial Series that you saw earlier"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3125872ca055a14d",
+      "texto": {
+        "Complex": "House or Palace Complex of the Phalli (structures 5C5, 5C14, and 5C15)",
+        "Layout": "labyrinth of rooms, corridors, and courtyards, with an interior staircase to two rooms on the second floor",
+        "Benches": "reliefs of Venus stars reused from the Temple of the Initial Series",
+        "Facade": "small tablets of God N in snail and spider aspect",
+        "Ruin": "its stones were reused in structure 5C8",
+        "Restoration": "reintegration of elements (INAH, 2023)"
+      }
+    },
+    "faq_mito": {
+      "hash": "137f4f3208e0bbfa",
+      "texto": {
+        "pregunta": "Myth: The Palace of the Phalli was a temple dedicated to a single fertility ritual.",
+        "respuesta": "Reality: It is a two-story palace, with rooms, courtyards, and a staircase. The sculptures that give it its name are not well known."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chi_12_templo_jaguares",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0c6b3f3927b517dd",
+      "texto": "Temple of the Jaguars"
+    },
+    "frase_gancho": {
+      "hash": "50da5f977047cf94",
+      "texto": "A small temple with murals of battles and another one, below, with a procession of more than a hundred figures."
+    },
+    "puente_narrativo": {
+      "hash": "6953c20041fbfbd8",
+      "texto": "When you finish looking at the temples of the ball court, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "d120546e59de0150",
+      "texto": "Here there are two temples, one on top of the other. The Upper Temple of the Jaguars is sixteen meters high. Inside, there are murals of battles, under the gaze of two ancestors: the Captain Serpent and the Captain Sun Shield, or Sun Disk. Below, at plaza level, the Lower Temple is a small chamber, a little more than nine meters long. It faces east, toward the Temple of the Warriors. Its interior holds a procession in six levels, of which one hundred eleven standing figures survive. Researchers interpret it as the ascent of a ruler."
+    },
+    "guion_largo": {
+      "hash": "4d99211b83ebe962",
+      "texto": "These two temples, one above the other, are part of the Ball Court complex, and they tell a story of war and power.\n\nLet's start at the top. According to a technical study from two thousand seventeen, the Upper Temple of the Jaguars measures about seventeen meters from north to south and about eleven from east to west, and its total height is about sixteen meters. Inside, murals with scenes of battles of the Itza have been preserved. There are two main figures: the Captain Serpent and the Captain Sun Disk, or Sun Shield, depending on who names them. These are modern names for figures that specialists interpret as ancestors. A wooden lintel remains in its original position.\n\nThe specialist Linda Schele proposed one reading. According to her, this temple recalls the wars that founded the empire of the Itza, and its emblems link the game with the Flint Shield and the War Serpent. It is an interpretation, but it shows how, for the ancient inhabitants, the game, war, and history were closely bound together.\n\nNow lower your gaze. At plaza level stands the Lower Temple of the Jaguars. It is a small chamber: about nine and a half meters long, three wide, and four and a half high. Its facade faces east, toward the Temple of the Warriors. Ten figures appear on it.\n\nThe most impressive part is inside. The walls and the vaults are covered by a procession organized in six levels. One hundred eleven standing figures survive. Researchers interpret the scene as the ascent of a ruler. The central figure would be on the third level of the west wall. They also propose that the ancestor K’ak’upakal is represented as the Captain Sun Shield. These are hypotheses, and it is important to hear them as such.\n\nThere is one more clue about the date. In the Great Ball Court there is a circular stone with a Long Count date, which corresponds to November seventeenth of the year eight hundred sixty-four. It has been taken as the dedication of the court. But some researchers believe the court was built around the year nine hundred, perhaps over an earlier one, and that the Lower Temple was added later, on the east side.\n\nIf you get closer, you will see that the Lower Temple sits at ground level, and its interior murals are not visible from outside. Most visitors know them from photographs and drawings.\n\nWhen you finish, continue to the next stop on your tour. If you head northeast, you will see a straight causeway disappearing into the vegetation: it is Sacbé number one, the white road that leads to the Sacred Cenote."
+    },
+    "retos_observacion": {
+      "hash": "0ce19557ed54cadf",
+      "texto": [
+        "Find the small temple on the eastern platform of the ball court: it is the Upper Temple of the Jaguars",
+        "Locate, at plaza level, the facade of the Lower Temple, which faces the Temple of the Warriors",
+        "Imagine inside the lower temple a procession of more than a hundred figures in six levels"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c5a39157ff76c62f",
+      "texto": {
+        "Upper Temple": "about 17.1 × 11.1 meters at the base and about 16 meters in total height",
+        "Murals of the Upper Temple": "battles of the Itza, with two ancestors, the Captain Serpent and the Captain Sun Shield (or Sun Disk)",
+        "Lower Temple": "about 9.46 × 3.06 meters, 4.56 meters high",
+        "Interior procession": "six levels; 111 standing figures survive",
+        "Facade of the Lower Temple": "ten figures",
+        "Study": "González et al., 2017; Arqueología Mexicana (Velázquez Morlet)"
+      }
+    },
+    "faq_mito": {
+      "hash": "22f1e4a60ae353e8",
+      "texto": {
+        "pregunta": "Myth: The two captains in the murals are historical figures with those names.",
+        "respuesta": "Reality: These are modern names that specialists give to figures they interpret as ancestors. Different names are even used: Sun Disk and Sun Shield."
+      }
+    }
+  }
+}

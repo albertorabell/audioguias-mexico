@@ -1,0 +1,56 @@
+{
+  "id": "chi_22_el_mercado",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "77f290ac9bd6716d",
+      "texto": "The Market"
+    },
+    "frase_gancho": {
+      "hash": "e9eca5738bff012c",
+      "texto": "A long building of pillars, with serpents on its benches and warriors trampling captives."
+    },
+    "puente_narrativo": {
+      "hash": "3e8d12812746f916",
+      "texto": "Continue to the [Ossuary](chi_23_el_osario), a pyramid with an opening at its summit that descends to a cave."
+    },
+    "guion_corto": {
+      "hash": "d896f82fe0c03816",
+      "texto": "It is called the Market because the first explorers thought trading took place here. Today archaeologists see it more as a ceremonial building than a commercial one. It has a front platform of about eighty meters by fifteen, made with a row of pillars, a vaulted portico, and a square patio with columns. Its benches have feathered serpents, and a talud shows a procession of warriors trampling captives. Beneath the floor of the patio, a small offering of beads and a tiny jadeite head was found."
+    },
+    "guion_largo": {
+      "hash": "6f3da82da251edca",
+      "texto": "The name Market is a good example of an idea that stuck, even though specialists now think otherwise.\n\nThe first explorers believed this building was a marketplace, because of its long gallery with a stone bench running around it, and its patio. Today archaeologists think its function was more ceremonial than commercial. So the name comes from an old interpretation, not from proof.\n\nThe most complete description is by the archaeologist Alexandre Guida Navarro, who worked on the Gran Nivelación between two thousand four and two thousand seven, and who follows Marquina's plan of nineteen sixty-four. The front is a platform of about eighty meters by fifteen, formed by a row of pillars. Behind it there is a roofed portico with a vault. Through an entrance in the center of the south wall you reach a square patio surrounded by columns. The jambs of that entrance bear three warriors on each side.\n\nThe decoration is the most striking feature. There are two benches with feathered serpents. On the talud, the sloping wall, a procession of warriors advances, trampling captives. Beneath the floor of the patio, Marquina found a masonry box with an offering: beads of green stone and shell, and a small jadeite head.\n\nGuida Navarro proposes a reading. According to him, the feathered serpent iconography of this building and of the Tzompantli alludes to a figure he calls Captain Serpent, and the two buildings would have commemorated his enthronement as ruler during the Terminal Classic, between the years eight hundred and one thousand fifty. It is the hypothesis of one author, not a consensus.\n\nThere is a practical detail: the pilasters of this building, like those of the Thousand Columns, lost almost all of their paint. What you see today is bare stone.\n\nThe descriptions do not agree on its shape: one calls it square and another, T-shaped. Perhaps they are speaking of different parts of the building.\n\nNow walk to the [Ossuary](chi_23_el_osario)."
+    },
+    "retos_observacion": {
+      "hash": "e5af8b7c01a49a0f",
+      "texto": [
+        "Look for the pillars at the front and estimate how many people could fit in such a long gallery",
+        "See if you can make out the feathered serpents on the benches",
+        "Imagine the procession of warriors trampling captives, on the talud"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ba35cb916ed77def",
+      "texto": {
+        "Front platform": "about 80 × 15 m, with a row of pillars",
+        "Elements": "vaulted portico and square patio with columns",
+        "Patio entrance": "three warriors on each jamb",
+        "Decoration": "two benches with feathered serpents and a talud with a procession of warriors trampling captives",
+        "Offering beneath the patio": "beads of green stone and shell, tiny jadeite head (Marquina, 1964)",
+        "Proposed reading (Guida Navarro)": "commemorates the enthronement of a “Captain Serpent,” around 800-1050"
+      }
+    },
+    "faq_mito": {
+      "hash": "a5721cd81e1cdb28",
+      "texto": {
+        "pregunta": "Myth: It was the market where the Maya traded their goods.",
+        "respuesta": "Reality: It is the name given to it by the first explorers. Today archaeologists consider it a building that was more ceremonial than commercial."
+      }
+    }
+  }
+}

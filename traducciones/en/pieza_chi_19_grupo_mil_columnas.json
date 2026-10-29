@@ -1,0 +1,56 @@
+{
+  "id": "chi_19_grupo_mil_columnas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9d78d8ea0a3e8d37",
+      "texto": "The Great Plaza of the Thousand Columns"
+    },
+    "frase_gancho": {
+      "hash": "3056d52a533c7607",
+      "texto": "A forest of pillars: more than two hundred forty in a single colonnade."
+    },
+    "puente_narrativo": {
+      "hash": "09ec4387a33f03a6",
+      "texto": "Take your time walking through the forest of columns, in the shade. When you finish, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "653793cca26b973e",
+      "texto": "This is the Plaza of the Thousand Columns. The name exaggerates, but not by much. In a study from 2013, the archaeologist Peter Schmidt counted two hundred forty-three columns and thirteen pilasters, in five rows, in the north colonnade alone. That colonnade measures eighty-nine meters from east to west by twenty-nine from north to south, on a low platform. The whole plaza measures about twenty-four thousand square meters, a little over two hectares. Several columns preserve reliefs of figures that look like warriors."
+    },
+    "guion_largo": {
+      "hash": "85cd0f81d819b54d",
+      "texto": "Before you opens one of the strangest plazas in Chichén Itzá, because its appeal is not the pyramids, but the pillars.\n\nLet's start with the name. The name says a thousand columns, but the figure is not exact: it is a way of saying many. What the archaeologist Peter Schmidt did count, in a study from 2013, is the following. The north colonnade, which he calls structure two D ten, rises on a low platform less than one meter seventy high. It measures eighty-nine meters by twenty-nine, has two staircases, and once held two hundred forty-three columns and thirteen pilasters, arranged in five rows.\n\nA study by González and his colleagues, from 2016, estimates the whole plaza at about twenty-three thousand nine hundred ninety-one square meters, a little over two hectares. It describes it as an enclosed plaza with limited access, surrounded by buildings with galleries of several rows of columns. The same study places in this group a steam bath and three ball courts. That bath has its own stop on the longer tours.\n\nSchmidt recovered four carved columns. The decorated part of each one measures between two and a half and three meters, and the reliefs are organized in horizontal bands, one above another. Their figures wear military attire. From this comes a proposal by Schmidt: that they might represent a special guard or a military corps, and not an ethnic group that came from elsewhere. It is a hypothesis. For years people spoke of the Toltec, and this reading proposes something else.\n\nThe recording of these reliefs was begun by the archaeologists of the Carnegie Institution, under Sylvanus Morley. The Chichén Itzá Archaeological Project documented them again between 1983 and 2000.\n\nWhen you finish, continue to the next stop on your tour."
+    },
+    "retos_observacion": {
+      "hash": "15a626d9dfd66516",
+      "texto": [
+        "Walk among the columns and count one row: you will see how many it takes to hold up such a long roof",
+        "Find a column with reliefs and pick out the horizontal bands of figures",
+        "Imagine the roof and the shade it gave to those who gathered here"
+      ]
+    },
+    "especificaciones": {
+      "hash": "912aa735992d92eb",
+      "texto": {
+        "North colonnade": "89 × 29 m, on a platform up to 1.70 m high",
+        "Columns and pilasters": "243 columns and 13 pilasters in five rows",
+        "Whole plaza": "about 23,991 m² (a little over two hectares)",
+        "Carved columns recovered by Schmidt": "four, with a decorated section of 2.50 to 3 m",
+        "Within the group": "a steam bath and three ball courts",
+        "Studies": "Schmidt, 2013; González et al., 2016"
+      }
+    },
+    "faq_mito": {
+      "hash": "327a20c445543ea0",
+      "texto": {
+        "pregunta": "Myth: There are exactly one thousand columns.",
+        "respuesta": "Reality: It is a modern name. The north colonnade had 243 columns and 13 pilasters, and other descriptions speak of about 200."
+      }
+    }
+  }
+}

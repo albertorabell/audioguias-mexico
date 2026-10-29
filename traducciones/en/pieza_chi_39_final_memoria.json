@@ -1,0 +1,56 @@
+{
+  "id": "chi_39_final_memoria",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0ecee9076e3fd397",
+      "texto": "Abandonment, Rediscovery, and Memory"
+    },
+    "frase_gancho": {
+      "hash": "56c76f2e1d20d638",
+      "texto": "A city that lost its power, but was never entirely forgotten."
+    },
+    "puente_narrativo": {
+      "hash": "8f44808bd217e255",
+      "texto": "This is the end of the tour. Thank you for walking through Chichén Itzá, and if you would like to keep exploring, return to [El Castillo](chi_02_castillo_general) with fresh eyes."
+    },
+    "guion_corto": {
+      "hash": "ecef37086bff969a",
+      "texto": "Around the year 1100, Chichén Itzá had already lost its role as a regional center. Even so, the city may never have been completely abandoned: when the Spanish arrived, people were living there or nearby. In 1532, Francisco de Montejo the Younger tried to make it his capital, and in 1534 he abandoned it at night, after a siege. By 1588 it was a cattle ranch. Since 1988 it has been a World Heritage Site."
+    },
+    "guion_largo": {
+      "hash": "3023abbc0e80a253",
+      "texto": "Let us close with a question: what happened to Chichén Itzá?\n\nAround the year 1100, the city had already declined as a regional center, before Mayapán rose. The activity of the elites ceased, but the city may not have been left empty. When the Spanish arrived, there was a population at the site or in a nearby settlement. Moreover, during the conquest, Maya pilgrims were still performing rituals at the Sacred Cenote, at El Castillo, and at the Ossuary.\n\nThere is a story about the fall that appears in colonial sources: that of Hunac Ceel and the war with Mayapán. But archaeology disputes it, because Mayapán could not have sacked a city that was still active. The cause of the decline remains unresolved.\n\nThe Spanish presence was brief. Francisco de Montejo obtained permission to conquer Yucatán in 1526. In 1532, his son, Francisco de Montejo the Younger, wanted to make Chichén Itzá his capital, and renamed it Ciudad Real. The Maya laid siege to the Spaniards. After losing one hundred fifty soldiers in a failed assault, Montejo abandoned the city at night, in 1534. In 1588 the site was a cattle ranch. Diego de Landa, the friar, visited it in the sixteenth century and was impressed by its size.\n\nThe modern world rediscovered it. The 1843 book by John Lloyd Stephens, illustrated by Frederick Catherwood, made it famous. Désiré Charnay photographed it around 1860. In 1894, Edward Thompson bought the ranch, and between 1904 and 1910 he dredged the Sacred Cenote. In 1923 the Carnegie Institution arrived. In 1926 the Mexican government confiscated Thompson's ranch, and the Supreme Court ruled in its favor years later; the dates vary between 1944 and 45. Some of the objects returned to Mexico in 1970 and in 2008.\n\nIn 1988, UNESCO declared it a World Heritage Site. In 2007, El Castillo was chosen as one of the new seven wonders, in a vote with commercial sponsorship whose method was criticized.\n\nThat is why Chichén Itzá is not just a ruin: it is a place with memory, which kept welcoming the people of the region even when it was no longer a capital.\n\nThank you for walking with us."
+    },
+    "retos_observacion": {
+      "hash": "8c8e85427e5a2160",
+      "texto": [
+        "Take one last look at El Castillo and ask yourself which part of what you saw is original and which part was restored",
+        "Think about how many different people have explored, drawn, and studied it",
+        "Remember a detail that surprised you and share it with someone"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4413e33c0de2215a",
+      "texto": {
+        "Decline": "around the year 1100, as a regional center",
+        "Conquest": "Montejo, 1526 letter; attempt to make it a capital in 1532; abandonment in 1534",
+        "Cattle ranch": "already by 1588",
+        "Rediscovery": "Stephens and Catherwood (1843 book), Charnay (around 1860), Thompson (1894), Carnegie (1923)",
+        "World Heritage Site": "UNESCO, 1988",
+        "New Seven Wonders": "2007 (method criticized)"
+      }
+    },
+    "faq_mito": {
+      "hash": "b71e92300d0f0761",
+      "texto": {
+        "pregunta": "Myth: Chichén Itzá was abandoned all at once and remained empty until the explorers arrived.",
+        "respuesta": "Reality: The activity of the elites ceased around 1100, but the city may never have been completely abandoned: there was a population when the Spanish arrived, and rituals continued to be performed."
+      }
+    }
+  }
+}

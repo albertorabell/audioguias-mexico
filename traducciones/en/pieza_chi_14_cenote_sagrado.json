@@ -1,0 +1,56 @@
+{
+  "id": "chi_14_cenote_sagrado",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2e1a11bdf7134302",
+      "texto": "The Sacred Cenote"
+    },
+    "frase_gancho": {
+      "hash": "fff0e3b277b7af2d",
+      "texto": "A sinkhole sixty meters across, into which gold, jade, copal and people were thrown."
+    },
+    "puente_narrativo": {
+      "hash": "94569c1a60960f94",
+      "texto": "When you have finished peering into the sinkhole, walk back calmly along the sacbé toward the plaza. From there, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "45ecbe7456a60709",
+      "texto": "You are standing before the Sacred Cenote. According to the INAH, it is an open cenote sixty meters across. The walls drop vertically to the water. The Maya associated it with Chaac, the god of rain, and for centuries offerings were thrown in here: gold, copper, jade, pottery, copal, textiles and also people. Edward Thompson dredged it between nineteen oh four and nineteen ten, and the human remains he found belong to men, women and children. The friar Diego de Landa wrote in fifteen sixty-six that living people were thrown in during times of drought."
+    },
+    "guion_largo": {
+      "hash": "67b9c3db8da34093",
+      "texto": "This sinkhole is one of the places most charged with meaning in all of Chichén Itzá, and also one of the most debated.\n\nLet's begin with the physical facts. The INAH describes it as an open-air cenote, sixty meters across. The walls drop about twenty-seven meters to the water level, although other measurements give about fifteen. Whatever the figure, it is an impressive vertical drop. Unlike the Xtoloc cenote, which was traditionally seen as the one that supplied the population with water, this one is associated with rituals dedicated to Chaac, the god of rain.\n\nIts fame comes from what was found here. In eighteen ninety-three, Edward Herbert Thompson bought the hacienda of Chichén Itzá. In nineteen oh four he began to dredge the cenote with a dredge and pulleys. In nineteen oh nine he even dove in with two Greek divers. The work lasted until nineteen ten, although it was officially declared finished in nineteen twenty-three. Out of it came gold, copper, carved jade, pottery, incense, cloth and wooden weapons, as well as human remains.\n\nThere is an important detail about those objects. Neither the gold, nor the copper, nor the jade is native to Yucatán. They came from other regions of Central America. In addition, many objects appeared deliberately damaged before being thrown in. Some scholars think this was a way of killing the object, as an offering.\n\nAs for the human remains, the researcher Guillermo de Anda reported, in two thousand seven, that there were men, women and children. Many victims were young, between six and twelve years old, and mostly male. Some skeletons have wounds consistent with sacrifice, and others do not. This is still under discussion.\n\nThe most important written testimony is that of the friar Diego de Landa. In fifteen sixty-six he wrote that, in times of drought, living people were thrown into this sinkhole to ask for rain. But he does not say how often this happened, and his testimony is not enough to know how many times it occurred.\n\nAfter Thompson there were more explorations. In nineteen sixty-one, an expedition of the INAH, the National Geographic and the CEDAM group recovered objects with gold and jade mosaics. In nineteen sixty-seven and sixty-eight the water level was lowered by about four meters. Most of Thompson's material ended up in the Peabody Museum at Harvard, and the museum returned half to Mexico in nineteen seventy, and more in two thousand eight.\n\nNow think about the journey. This is the end of the sacbé, the causeway that leads here. Whoever arrived had crossed the plaza, had walked along the causeway and then looked over a vertical edge at green water. It is hard to imagine a more powerful staging.\n\nWalk back calmly along the sacbé toward the plaza and continue to the next stop on your tour."
+    },
+    "retos_observacion": {
+      "hash": "06959ee5065843ec",
+      "texto": [
+        "Marvel at the vertical drop of the walls down to the water, and estimate its height by eye",
+        "Notice the color of the water and the vegetation hanging from the edges",
+        "Look back toward the sacbé and imagine the journey of those who came here"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9eaa12bde83e82ef",
+      "texto": {
+        "Diameter": "about 60 meters (INAH)",
+        "Drop to the water": "about 27 meters (other measurements give about 15)",
+        "Dredging": "Edward H. Thompson, from 1904 to 1910 (officially until 1923)",
+        "Finds": "gold, copper, carved jade, pottery, copal, cloth, wooden weapons and human remains",
+        "Origin of the metals": "gold, copper and jade are not from Yucatán",
+        "Written testimony": "Diego de Landa, 1566, on people thrown in during times of drought"
+      }
+    },
+    "faq_mito": {
+      "hash": "1df925db81bbf6c3",
+      "texto": {
+        "pregunta": "Myth: Every year a young woman was thrown into the Sacred Cenote, and all the human remains are those of women.",
+        "respuesta": "Reality: The remains are those of men, women and children, and many victims were young males. Landa speaks of people thrown in during droughts, but he does not say how often."
+      }
+    }
+  }
+}

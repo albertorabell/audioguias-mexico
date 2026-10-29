@@ -1,0 +1,57 @@
+{
+  "id": "chi_32_akab_dzib",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d56b03a259b5f440",
+      "texto": "The Akab Dzib"
+    },
+    "frase_gancho": {
+      "hash": "5b42bf3a629cd747",
+      "texto": "The house of the mysterious writing: fifty meters long, with a lintel no one forgets."
+    },
+    "puente_narrativo": {
+      "hash": "f549109391a8d021",
+      "texto": "When you finish looking at the building, continue to the next stop on your tour. Old Chichén, to the southwest, is visited separately: only on Fridays and Saturdays, by reservation and with an INAH guide."
+    },
+    "guion_corto": {
+      "hash": "7191c6faeddf380d",
+      "texto": "Akab Dzib means house of the mysterious or dark writing. It is a Puuc-style building, about six meters high, fifty long and fifteen wide, dated to around the year eight hundred sixty-nine. It has seven doorways on the west facade and four on the east. In a room at the south end there is a lintel with carved hieroglyphs, which gave the building its name. Near the ceiling, inside a chamber, the painted imprint of a hand has been preserved."
+    },
+    "guion_largo": {
+      "hash": "fd2f7a7f03f2c0e1",
+      "texto": "The name says it all: Akab Dzib, or Akab Tzib, is the house of the mysterious writing.\n\nThe building stands east of El Caracol. It is Puuc in style, about six meters high, fifty long and fifteen wide. Its date is around the year eight hundred sixty-nine. On the west facade, which is the long one, there are seven doorways. On the east facade there are four, interrupted by a large staircase that climbs to the roof. It has been suggested that this side was the front, because it faces a dry cenote with steep walls.\n\nAt the south end there is an entrance to a small room. On the other side, a doorway has a lintel with finely carved glyphs. That is the mysterious writing that gives the building its name. Below the lintel, on the jamb, there is a panel with a seated figure surrounded by glyphs. Inside one of the chambers, near the ceiling, there is a painted handprint.\n\nThe building had another ancient name. Based on the hieroglyphs of the Casa Colorada, it has been read as Wakwak Puh Ak Na, which means, loosely, the flat house with an excess of chambers. It is said to have been the house of Yahawal Cho' K'ak', an administrator of Chichén Itzá from the Kokom dynasty. It is not clear whether he had it built or whether he lived in it later.\n\nThe INAH completed a restoration in two thousand seven.\n\nWhen you finish, continue to the next stop on your tour. Old Chichén, to the southwest, is visited separately, with an INAH guide and only on Fridays and Saturdays."
+    },
+    "retos_observacion": {
+      "hash": "a8214c3aa0d64751",
+      "texto": [
+        "Count the doorways on the long facade: there are seven on the west side",
+        "Look for the staircase on the east side that climbs to the roof",
+        "Find, if you can make it out, the lintel with hieroglyphs at the south end"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4201c25d1b38410c",
+      "texto": {
+        "Dimensions": "about 6 m high, 50 m long and 15 m wide",
+        "Date": "around the year 869",
+        "Style": "Puuc",
+        "Doorways": "7 on the west facade, 4 on the east",
+        "Ancient name": "Wakwak Puh Ak Na, “flat house with an excess of chambers”",
+        "Restoration": "INAH, 2007",
+        "Structure code": "4D1"
+      }
+    },
+    "faq_mito": {
+      "hash": "b04f59e330a40515",
+      "texto": {
+        "pregunta": "Myth: No one has been able to read the writing of the Akab Dzib because it is a secret code.",
+        "respuesta": "Reality: The name says “mysterious writing,” but it is a Maya hieroglyphic text. There is no reason to think it is indecipherable."
+      }
+    }
+  }
+}

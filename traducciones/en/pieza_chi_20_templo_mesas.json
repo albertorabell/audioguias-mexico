@@ -1,0 +1,56 @@
+{
+  "id": "chi_20_templo_mesas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1b9e78d71fe5518f",
+      "texto": "Temple of the Great Tables"
+    },
+    "frase_gancho": {
+      "hash": "351b4ce108ae3a38",
+      "texto": "A four-tiered pyramid with pilasters that still preserve their paint."
+    },
+    "puente_narrativo": {
+      "hash": "93ca4a279e253701",
+      "texto": "Look at the temple from the outside. When you finish, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "4d0afb88cfeaafb8",
+      "texto": "This is the Temple of the Great Tables, north of the Temple of the Warriors. It was discovered during the excavations of nineteen ninety-three and ninety-four, coordinated by the archaeologist Peter Schmidt. It has a base of four tiers and a small shrine on top, with a single entrance, facing west. Its pilasters preserve their painted finish almost completely. There are two serpents at the ends of the balustrades, reliefs of warriors in the center, and a table held up by Atlantean figures at the northeast corner."
+    },
+    "guion_largo": {
+      "hash": "9bafe6b07128c633",
+      "texto": "This temple holds something that is almost never seen at Chichén Itzá: color.\n\nThe Temple of the Great Tables lies north of the Temple of the Warriors. It was discovered during the excavations of nineteen ninety-three and ninety-four, coordinated by Peter Schmidt. It is a pyramidal structure with a base of four tiers and a small shrine at the top. Its main facade faces west, and it is the only access.\n\nMost remarkable are its pilasters. They still preserve their painted finish almost entirely, that is, the original paint. So far, only two sides of each pilaster have been left exposed. In most of the neighboring plaza, by contrast, the pilasters of the Group of the Thousand Columns and of the Market lost almost all of their polychromy.\n\nThe decoration includes two serpents at the ends of the balustrades, reliefs of warriors in the center, and a table held up by Atlantean figures at the northeast corner. That is where the name comes from. These are altars resting on small male figures, with their arms raised. In the first vault, a mural with a serpent was found.\n\nDo not confuse this building with the Temple of the Little Tables, which another study places near the Palace of the Sculpted Columns.\n\nWhen you finish, continue to the next stop on your tour."
+    },
+    "retos_observacion": {
+      "hash": "02dd50adcec16306",
+      "texto": [
+        "Count the tiers of the base: there are four",
+        "Look for the serpents at the ends of the balustrades, next to the staircase",
+        "See if you can make out traces of paint on the pilasters"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bd8a76ef53f9f165",
+      "texto": {
+        "Location": "north of the Temple of the Warriors",
+        "Excavation": "1993-1994, coordinated by Peter Schmidt",
+        "Form": "base of four tiers and a small shrine; a single entrance, facing west",
+        "Pilasters": "preserve their painted finish almost completely",
+        "Decoration": "two serpents on the balustrades, warriors in the center, table with Atlantean figures at the northeast corner",
+        "Find in the vault": "mural with a serpent"
+      }
+    },
+    "faq_mito": {
+      "hash": "f990703cf60dbca1",
+      "texto": {
+        "pregunta": "Myth: All the buildings at Chichén Itzá were made of gray stone, without color.",
+        "respuesta": "Reality: There was paint. In this temple, the pilasters preserve their painted finish almost completely, something uncommon at the site."
+      }
+    }
+  }
+}

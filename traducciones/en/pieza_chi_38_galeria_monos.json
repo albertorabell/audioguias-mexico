@@ -1,0 +1,57 @@
+{
+  "id": "chi_38_galeria_monos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "abd897725ed4146e",
+      "texto": "The Gallery of the Monkeys"
+    },
+    "frase_gancho": {
+      "hash": "a7bc72ae119bf235",
+      "texto": "A thirty-six-meter gallery with more than sixty carved monkeys and the birds that attack them."
+    },
+    "puente_narrativo": {
+      "hash": "7b2c809aa3a8afc3",
+      "texto": "Your visit to Old Chichén ends here. When you have finished looking at the gallery, return with your guide along the entrance path."
+    },
+    "guion_corto": {
+      "hash": "f32e69f40f82d29a",
+      "texto": "The Gallery of the Monkeys, or Temple of the Monkeys, stands on the west side of the southwest plaza of Old Chichén. It measures almost thirty-six meters long by five and a half wide, and about four and a half meters high. Its moldings carry more than sixty monkeys in high relief. The frieze has sixteen large panels: six with lords seated on celestial bands, and ten with birds attacking dancing monkeys. One of the lords has been read as Ten Deer."
+    },
+    "guion_largo": {
+      "hash": "93bd315f86679e93",
+      "texto": "This gallery explains its own name: all you have to do is look at the façade.\n\nAccording to the report by Peter Schmidt and Rocío González de la Mata, from two thousand seven, Structure five C six lies on the west side of the southwest plaza. The Chichén Itzá Archaeological Project excavated it and partly restored it between nineteen ninety-nine and two thousand five. It measures almost thirty-six meters from north to south and five forty-five wide, with an exterior height of four and a half meters. On the east side, open toward the plaza, there are nine columns, and a second row of ten behind them. Karl Ruppert, in nineteen fifty-two, had counted only eight.\n\nTo understand the name, you only need to see what it shows. More than sixty monkeys in high relief decorate the moldings. The frieze has sixteen large panels. In six, principal lords are seated on celestial bands and hold stalks that end in serpent heads. Their glyphs read as ten dog or ten deer, although specialists leave the reading with a question mark. In the other ten panels, bird-man figures, perhaps in disguise, attack monkeys that dance. Each corner has two superimposed masks. A study from two thousand fourteen links the lord in the relief to Ten Deer, the highest-ranking occupant of the group.\n\nAs for its use, Schmidt and González de la Mata rule out the most obvious options. The objects found do not correspond to a house, a shrine, or a military post. They compare it to the pilgrim arcades of the colonial era, galleries where people lodged and worked, and propose that the side open toward the plaza made it possible to supervise the work from outside.\n\nThe gallery came to a bad end. The wooden beams fell and burned, and it is considered likely that the fire was intentional. Afterward there was a brief occupation. On the surface, almost four thousand five hundred potsherds were collected, nearly all of them from the Sotuta phase.\n\nNearby, a chultún, which is a cistern dug into the rock, is about five meters deep. Near the bottom, six skulls turned up. It is interpreted as a hasty cleanup after a disaster.\n\nYour visit to Old Chichén ends here. Return with your guide along the entrance path."
+    },
+    "retos_observacion": {
+      "hash": "5170575d86256d6e",
+      "texto": [
+        "Look for the monkeys in high relief on the moldings and count a few",
+        "Find the frieze with the birds attacking the monkeys and the seated lords",
+        "Look at the columns on the side open toward the plaza: there are nine"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c8060c9a73c89c9e",
+      "texto": {
+        "Structure": "5C6, west side of the southwest plaza",
+        "Dimensions": "almost 36 m long, 5.45 m wide, 4.50 m high",
+        "Columns on the east side": "9, and a second row of 10",
+        "Frieze": "16 panels; 6 with lords seated on celestial bands and 10 with birds attacking monkeys",
+        "Monkeys on the moldings": "more than 60",
+        "Work carried out": "excavation and partial restoration, 1999-2005",
+        "Figure": "Ten Deer (reading with a question mark)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c259fa225bffe34a",
+      "texto": {
+        "pregunta": "Myth: The monkeys of the gallery were real monkeys raised in the temple.",
+        "respuesta": "Reality: They are reliefs. More than 60 monkeys decorate the moldings, and the frieze shows birds attacking dancing monkeys."
+      }
+    }
+  }
+}

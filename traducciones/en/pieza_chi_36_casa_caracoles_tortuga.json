@@ -1,0 +1,57 @@
+{
+  "id": "chi_36_casa_caracoles_tortuga",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3c97d858880aeb8b",
+      "texto": "The House of the Snails and the Turtle Platform"
+    },
+    "frase_gancho": {
+      "hash": "4aa2e6a7f230b634",
+      "texto": "A family tree about twenty meters long and a platform shaped like a turtle."
+    },
+    "puente_narrativo": {
+      "hash": "3ffdd99fc99a5203",
+      "texto": "Move on to the south plaza, to the [Gallery of the Monkeys](chi_38_galeria_monos), where a ruler named Ten Deer appears."
+    },
+    "guion_corto": {
+      "hash": "fa2603d70430dfa8",
+      "texto": "The House of the Snails has on its west facade a scene about twenty meters long that looks like a family tree. A figure, half human and half animal, emerges from a fruit, surrounded by snails, birds, flowers and plants. A founding deity rises from a stem that multiplies into other figures, and one of them is identified by the glyph Nine Coyote. In the center of the north plaza stands the Turtle Platform, with its head facing east."
+    },
+    "guion_largo": {
+      "hash": "cfd91a9349eddbd8",
+      "texto": "This stop brings together two things: a facade that tells of a lineage and a platform that marks the center.\n\nThe House of the Snails, structure five C five, is part of the Complex of the Phalli. Its name comes from the snails that appear in its decoration. It has an elaborate frieze of a figure, half human and half animal, emerging from a fruit, surrounded by snails, birds, flowers, plants and fruits. The facade had collapsed into rubble and the Carnegie Institution left it untouched, and that helped Peter Schmidt rebuild it piece by piece.\n\nAccording to the INAH bulletin from two thousand twenty-three, the west facade has a scene about twenty meters long that shows a family tree. A founding deity emerges from a stem, and the stem multiplies into other figures. The INAH proposes that one of them, identified by the glyph Nine Coyote, could be the founder who ordered most of the reliefs in the group to be made. It is a proposal, not a fact.\n\nThe INAH links this place to the Cupul lineage, one of the noble families of Chichén Itzá. Its name refers to a wild jicama, which in Maya is called kup. They also recovered about fifteen linear meters of decorative elements from an altar, with a carved war scene, which had fallen along with a vault. It is not clearly stated which building they came from.\n\nNow the Turtle Platform, structure five C seventeen, in the center of the north plaza. It is low: it measures about one meter twenty in height, nine meters sixty-three in diameter and twelve meters eighty-three in length. It has two staircases. A sculpted turtle head faces east, toward the Temple of the Initial Series, and the tail points west. The side walls of the staircases form the legs, and the turtle wears a carved collar. In an earlier substructure, the excavators found a hexagonal stone box with fifteen unused flint points. It is said that the Maya saw it as the center of the universe.\n\nIn two thousand seven, next to another structure in the north plaza, a collective tomb was found, along with about seven thousand five hundred paste beads that imitated turquoise.\n\nFrom here, continue to the [Gallery of the Monkeys](chi_38_galeria_monos)."
+    },
+    "retos_observacion": {
+      "hash": "01940c47a2d046a9",
+      "texto": [
+        "Find the long scene on the west facade and trace with your eyes the figures that emerge from the stem",
+        "Locate the low platform shaped like a turtle: head toward the east, tail toward the west",
+        "Notice the side staircases, which form the turtle’s legs"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a22276c53190276e",
+      "texto": {
+        "House of the Snails": "structure 5C5, part of the Complex of the Phalli",
+        "West facade scene": "about 20 m, family tree with a founding deity",
+        "Glyph": "Nine Coyote, possible founder (INAH)",
+        "Lineage": "Cupul",
+        "Turtle Platform (5C17)": "maximum height 1.20 m, diameter 9.63 m, length 12.83 m; two staircases; head to the east",
+        "Offering": "hexagonal box with 15 unused flint points",
+        "Tomb of 2007": "about 7,500 paste beads imitating turquoise"
+      }
+    },
+    "faq_mito": {
+      "hash": "c9f051630f30f82a",
+      "texto": {
+        "pregunta": "Myth: The House of the Snails is named after a collection of shells.",
+        "respuesta": "Reality: The name comes from the snails in its decoration: a frieze with a figure emerging from a fruit, surrounded by snails, birds and plants."
+      }
+    }
+  }
+}

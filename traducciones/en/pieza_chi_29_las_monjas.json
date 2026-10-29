@@ -1,0 +1,57 @@
+{
+  "id": "chi_29_las_monjas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e0d005c4ea4cde31",
+      "texto": "The Nunnery Building"
+    },
+    "frase_gancho": {
+      "hash": "475d498c34e10fd7",
+      "texto": "A palace with the name of a convent, built in at least six stages."
+    },
+    "puente_narrativo": {
+      "hash": "19b16a457b1a7166",
+      "texto": "Walk around the building at an unhurried pace to see it from its different sides. When you are done, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "6510c0af105d0a21",
+      "texto": "This is the Nunnery Building. The Spaniards gave it that name, perhaps because its many rooms reminded them of their convents, but it was a governmental palace. It went through at least six stages of construction, has three levels, and combines Maya-Toltec and Puuc styles. The second floor has long inscriptions on the lintels and stone mosaics in the late Puuc style. The texts often mention the ruler K’ak’upakal."
+    },
+    "guion_largo": {
+      "hash": "43b39cc587248af1",
+      "texto": "The name is misleading, so it is best to begin with what this place is not. The Nunnery was not a convent. It was a governmental palace. One likely explanation for the name is that the buildings, with so many rooms, reminded the Spaniards of their convents. It is a possibility, not a fact.\n\nThe INAH places this complex in a group separate from the Main Plaza. Here, Puuc and Chenes architecture dominates. In the great plaza, by contrast, the buildings are in the Maya-Toltec style. That difference helps us understand that Chichén Itzá had several traditions at once. The group includes the Nunnery House, its Annex, the Church, and a ball court that has not been excavated.\n\nThe main building went through at least six stages of construction, with changes in form, decoration, and style, which speaks of a long period of occupation. It has three levels that combine Maya-Toltec and Puuc styles. On the second floor there are long inscriptions on the lintels, mural painting, and stone mosaics in the late Puuc style. According to some descriptions, the original temple, already enlarged, measures about fifty meters by twenty-three, and the upper section of the most recent building, about ten meters.\n\nThe building faces north and has three parts: the Nunnery proper, the east wing, and the southeast wing. The hieroglyphic texts of this complex often mention the ruler K’ak’upakal. The INAH also speaks of woven-mat designs, a symbol of power, and of a throne in the shape of a two-headed jaguar beside the main staircase.\n\nThe first known drawings are by Frederick Catherwood, from the expedition of John Stephens, between eighteen thirty-nine and eighteen forty. Later came the photographs of Alfred Maudslay. Maudslay published the lintels incompletely, and today they are badly worn.\n\nThere is a disagreement over dates. Some place it in the Terminal Classic, and the INAH record gives the group an approximate date of six hundred to eight hundred of our era. An inscription in the annex is estimated at around the year eight hundred eighty. Do not settle on a single number.\n\nWalk around the building at an unhurried pace. When you reach the east side, take a look at the masks of the East Annex."
+    },
+    "retos_observacion": {
+      "hash": "647e5425756f744b",
+      "texto": [
+        "Look at the facade and find the geometric elements and the masks of the Puuc style",
+        "Compare this building with the Temple of the Warriors: they are two different traditions",
+        "Find, beside the main staircase, the throne in the shape of a two-headed jaguar"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78713fbcc8e9ae09",
+      "texto": {
+        "Style": "Puuc and Chenes (INAH); Maya-Toltec and Puuc",
+        "Stages": "at least 6",
+        "Levels": "3",
+        "Orientation": "faces north",
+        "Parts": "The Nunnery, east wing (Annex), and southeast wing",
+        "Approximate dimensions": "about 50 × 23 m for the original temple, already enlarged; about 10 m for the upper section of the recent building",
+        "First drawings": "Catherwood (1839-1840); photographs by Maudslay"
+      }
+    },
+    "faq_mito": {
+      "hash": "14cdfb3bb6535ab1",
+      "texto": {
+        "pregunta": "Myth: The Nunnery was a convent for Maya women.",
+        "respuesta": "Reality: It is a name the Spaniards gave it. It is a governmental palace, with texts that mention a ruler."
+      }
+    }
+  }
+}

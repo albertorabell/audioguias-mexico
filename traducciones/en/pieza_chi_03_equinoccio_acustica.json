@@ -1,0 +1,56 @@
+{
+  "id": "chi_03_equinoccio_acustica",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "544f559577dfb49e",
+      "texto": "The Descent of Kukulcán and the Echo of the Quetzal"
+    },
+    "frase_gancho": {
+      "hash": "d6ee7e666c11297c",
+      "texto": "Light that draws a serpent on the stairway, and a clap that returns like the song of a bird."
+    },
+    "puente_narrativo": {
+      "hash": "3af23a6afb12ecfa",
+      "texto": "Stay at the corner of the stairway, where the echo is heard best. When you finish, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "07b815dff791f9eb",
+      "texto": "Look at the slanted edge that runs alongside the steps, the balustrade. Around the spring and autumn equinoxes, in the late afternoon, the Sun strikes the northwest corner of the pyramid and casts triangles of shadow onto that balustrade. As the Sun moves, it looks as if a serpent is descending the stairway. It is said that there are seven triangles, and thousands of people come to see it. No one knows for certain whether the builders designed it on purpose, because the effect can be seen for several weeks around those dates. Now try a test: give a loud clap in front of the stairway. The echo that returns sounds like the song of a quetzal."
+    },
+    "guion_largo": {
+      "hash": "7c4e778231b2e00a",
+      "texto": "This stairway holds two phenomena, one of light and one of sound. Both have made El Castillo famous.\n\nThe first is the one of light. Around the equinoxes of March and September, in the late afternoon, the Sun touches the northwest corner of the pyramid. The corners of the terraces cast triangle-shaped shadows onto the northwest balustrade, the slanted edge that runs alongside the stairway. As the Sun sinks, the shadows move and give the impression of a serpent crawling from the top down to the stone head at the base. It is usually said that there are seven triangles, and on the dates of the spring equinox, thousands of people gather to see it.\n\nBut there is a question that specialists leave open. No one knows whether the phenomenon was designed on purpose. The effect can be seen for several weeks around each equinox, not only on one exact day. That makes it hard to claim that the builders intended it, although the Feathered Serpent that crowns the stairway and the stone heads at its foot do make the image feel very natural.\n\nThe second phenomenon is the sound. Stand in front of the stairway and give a sharp clap. What returns is not an ordinary echo. It is a short chirp that drops in pitch, similar to the song of the quetzal, the green-feathered bird associated with Kukulcán. This was studied, since nineteen ninety-eight, by the acoustic engineer David Lubman. His proposal is that the sound is due to the shape of the stairway: each step sends back a small echo, and the sum of all of them sounds like a falling tone. Some researchers believe the builders sought this effect on purpose. It is a hypothesis, not a proven fact.\n\nIt is worth trying calmly. If there are many people, background noise can drown out the effect. If it is quiet, you will hear it clearly. It is one of the few times a pyramid answers when you speak to it.\n\nBoth tests have something in common. At the equinox, the stairway becomes a serpent that descends. With the clap, the stairway sings like the bird that gives its feathers to that serpent. Whether intentional or not, the building shows a relationship between light, sound, and the god who dwells in it.\n\nThe pyramid holds still more. Beneath these stones there is another temple and, according to recent studies, a cavity with water. When you finish here, continue to the next stop on your tour."
+    },
+    "retos_observacion": {
+      "hash": "8265d6a5d3e34cfe",
+      "texto": [
+        "Stand in front of the north stairway, give a loud, sharp clap, and listen to the echo that returns",
+        "Follow the balustrade, the slanted edge of the stairway, with your eyes up to the stone serpent head",
+        "Imagine the shadows of the terraces falling on the balustrade at sunset"
+      ]
+    },
+    "especificaciones": {
+      "hash": "064c62ca325479b1",
+      "texto": {
+        "Light phenomenon": "triangular shadows on the northwest balustrade, around the equinoxes (March and September), in the late afternoon",
+        "Number of triangles": "usually said to be seven",
+        "Duration": "the effect can be seen for several weeks around each equinox",
+        "Sound phenomenon": "the clap returns as a chirp that drops in pitch, similar to the quetzal",
+        "Study": "David Lubman, since 1998",
+        "Intention": "it is not known for certain whether it was designed on purpose"
+      }
+    },
+    "faq_mito": {
+      "hash": "feb182b9756c1d67",
+      "texto": {
+        "pregunta": "Myth: The serpent effect can only be seen on the exact day of the equinox.",
+        "respuesta": "Reality: It can be seen for several weeks around each equinox, and specialists do not know for certain whether the builders designed it on purpose."
+      }
+    }
+  }
+}

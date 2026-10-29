@@ -1,0 +1,57 @@
+{
+  "id": "chi_34_templo_serie_inicial",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e4c4238afd6a019e",
+      "texto": "Temple of the Initial Series"
+    },
+    "frase_gancho": {
+      "hash": "58d1c3fd3f4f2df6",
+      "texto": "The entrance to Old Chichén: a three-tiered temple with a lintel dated to the year eight hundred seventy-eight."
+    },
+    "puente_narrativo": {
+      "hash": "9957d7b813e7aa17",
+      "texto": "Walk across the north plaza to the [Temple of the Phalli](chi_35_templo_falos), a two-story palace."
+    },
+    "guion_corto": {
+      "hash": "ce780e7a286833a9",
+      "texto": "You are at the Initial Series Group, also known as Old Chichén. It is a residential and ceremonial complex southwest of the center of Chichén Itzá, with about twenty-five structures around two plazas on a walled platform. The temple that gives the group its name is a three-tiered pyramid with a single staircase. A lintel dated to the year eight hundred seventy-eight, which was probably moved from its original location, is one of its most remarkable pieces."
+    },
+    "guion_largo": {
+      "hash": "e8140b9f80f106e1",
+      "texto": "Old Chichén is the popular name of a place that for decades was difficult to visit.\n\nAccording to an INAH bulletin from February two thousand twenty-three, the Initial Series Group lies southwest of the center of Chichén Itzá, covers about fourteen thousand six hundred five square meters, and includes twenty-five structures organized around two plazas, on a large walled platform. It combines residential, administrative, and religious areas. Other counts give somewhat different figures: twenty-seven buildings, or more than twenty-three. It is best to keep in mind the idea of a complex of between twenty and thirty constructions.\n\nThe date changed what people thought about this place. INAH says the occupation falls in the Late Classic, between the years six hundred and eight hundred fifty. It was once believed to date only to the Terminal Classic and the Early Postclassic, around the years eight hundred to one thousand two hundred. The Palace of the Stuccos yielded the oldest evidence of architecture at Chichén Itzá: modeled, colored stucco.\n\nThe main temple, structure five C four, is a three-tiered pyramid with a single staircase. Its upper temple dates to the Sotuta period. According to INAH, the front staircase faces west and is associated with a sacrificial stone; on the lower level there is a Chac Mool, and two atlantean figures serve as doorjambs at the entrance. Its lintel bears a date that corresponds to July thirtieth, eight hundred seventy-eight. A technical study from two thousand fourteen says it was probably moved from its original location, and that it mentions some women and men and refers to gods and rituals.\n\nEdward Thompson explored this area around eighteen ninety-five, and the Carnegie Institution became interested in it in nineteen twenty-three. Peter Schmidt directed a large-scale intervention in the nineties.\n\nINAH opened Old Chichén to the public in September two thousand twenty-three. According to INAH, it can now be visited on Fridays and Saturdays, in two shifts: from nine to eleven thirty, and from twelve to two thirty. You have to reserve at the ticket office of the archaeological zone, and you always go with INAH staff and a guide. Groups are up to fifty people, and the tour lasts about two and a half hours. These rules may change, so confirm them before you go.\n\nNow continue on to the [Temple of the Phalli](chi_35_templo_falos)."
+    },
+    "retos_observacion": {
+      "hash": "f6f609f3572ee677",
+      "texto": [
+        "Observe the three-tiered pyramid with a single staircase",
+        "Look for the Chac Mool on the lower level and the atlantean figures that serve as doorjambs",
+        "Notice the wall that surrounds the platform of the complex"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f43608b3284221c",
+      "texto": {
+        "Complex": "Initial Series Group (Old Chichén), about 14,605 m², about 25 structures around two plazas",
+        "Temple of the Initial Series (5C4)": "three-tiered pyramid with a single staircase",
+        "Lintel": "date of July 30, 878; probably moved",
+        "Occupation": "600-850 (Late Classic), according to INAH",
+        "Exploration": "Thompson (around 1895), Carnegie (1923), Schmidt (1990s)",
+        "Visit": "Friday and Saturday, from 9:00 to 11:30 and from 12:00 to 14:30, with reservation at the zone’s ticket office, guide and INAH staff; up to 50 people per group and about 2.5 hours (INAH; confirm before going)",
+        "Opening to the public": "September 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "d949c73d58de3a80",
+      "texto": {
+        "pregunta": "Myth: Old Chichén is a separate city, older than Chichén Itzá.",
+        "respuesta": "Reality: It is the popular name of a group within Chichén Itzá. INAH places its occupation as early as the Late Classic, before the best-known period of the site."
+      }
+    }
+  }
+}

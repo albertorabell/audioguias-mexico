@@ -1,0 +1,57 @@
+{
+  "id": "chi_05_plataforma_venus",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18353759b58471de",
+      "texto": "Venus Platform"
+    },
+    "frase_gancho": {
+      "hash": "8d4d34dc5f31ef26",
+      "texto": "A platform dedicated to the planet Venus, just steps from El Castillo."
+    },
+    "puente_narrativo": {
+      "hash": "ab63f4a503e22021",
+      "texto": "Stay beside the low platform and look around: you are standing in the heart of the plaza. When you are done, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "6d8c7a104b80e113",
+      "texto": "This platform lies north of El Castillo, just steps from the pyramid, on the path toward the Sacred Cenote. It is dedicated to the planet Venus. According to an INAH plaque, it was originally painted red, green, ochre, blue and black, and at its center it bears the relief of a bird-serpent-man who is interpreted as Kukulcán in his aspect as the morning star. Large carved stone cones were found inside it, and no one knows what they were used for. The Maya followed the movements of Venus very closely, and recorded them in codices such as the Dresden Codex."
+    },
+    "guion_largo": {
+      "hash": "6ab9759f32ccb9a9",
+      "texto": "This stop is short, but it connects with an idea that runs through all of Chichén Itzá: the Maya read the sky.\n\nThe Venus Platform lies north of El Castillo, just steps from the pyramid, on the path toward the Sacred Cenote. It is dedicated to the planet Venus. Large carved stone cones were found inside the platform, and their function is unknown. It is one of those questions that archaeology has not yet answered.\n\nAccording to an INAH plaque, the platform was originally painted red, green, ochre, blue and black. It has a staircase, and among its reliefs there is a central figure: a bird-serpent-man. The plaque interprets it as an image of Quetzalcóatl-Kukulcán in his aspect as the morning star. At the corners appears the year bundle alongside the planet Venus. It also says that an offering was found on the east staircase, and that the platform probably served as a stage for ceremonies, rites or dances. These are interpretations: the plaque gives neither measurements nor a date.\n\nTo understand why Venus mattered, it is worth remembering how the Maya looked at the sky. They paid special attention to that planet, which appears as a morning star and as an evening star. The Dresden Codex, one of the few Maya books that survive, includes tables for following its cycles. It is a way of understanding that the sky was not a backdrop: it was a calendar that organized war, rituals and the decisions of rulers.\n\nFrom here, to the north, a straight stone causeway leaves and disappears into the vegetation, leading to the cenote: Sacbé number one.\n\nWhen you have finished looking, continue to the next stop on your tour."
+    },
+    "retos_observacion": {
+      "hash": "d4cd314182eb6543",
+      "texto": [
+        "Find the low platform north of El Castillo, just steps from the pyramid",
+        "Look for the reliefs that can still be made out, such as the central figure or those at the corners, if any",
+        "Look north and find the straight causeway that disappears into the vegetation"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1752b5b24fa4e82d",
+      "texto": {
+        "Location": "north of El Castillo, just steps from the pyramid, on the way to the Sacred Cenote",
+        "Dedication": "to the planet Venus",
+        "Original colors": "red, green, ochre, blue and black (INAH plaque)",
+        "Central relief": "bird-serpent-man, interpreted as Kukulcán in his aspect as the morning star (INAH plaque)",
+        "Finds": "large carved stone cones inside the platform, of unknown function; an offering on the east staircase",
+        "Possible use": "stage for ceremonies, rites or dances",
+        "Reference": "the Dresden Codex includes tables of Venus"
+      }
+    },
+    "faq_mito": {
+      "hash": "f6f97bf0600d0da8",
+      "texto": {
+        "pregunta": "Myth: This platform was a proven astronomical observatory.",
+        "respuesta": "Reality: It is dedicated to Venus, but there is no evidence that it was an observatory. What is documented are its stone cones, of unknown function, and reliefs that are interpreted as a stage for ceremonies."
+      }
+    }
+  }
+}

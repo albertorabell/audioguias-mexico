@@ -1,0 +1,56 @@
+{
+  "id": "chi_10_templo_hombre_barbado",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "00b0d8f77c65c680",
+      "texto": "The North and South Temples of the Ball Court"
+    },
+    "frase_gancho": {
+      "hash": "fd380cf00287dea3",
+      "texto": "At the ends of the court stand two temples: one with a carved bearded man, the other with a long gallery."
+    },
+    "puente_narrativo": {
+      "hash": "354a6317b719bef8",
+      "texto": "Now look at the east side of the court. At the south end of that platform stands the [Temple of the Jaguars](chi_12_templo_jaguares), with murals of battles."
+    },
+    "guion_corto": {
+      "hash": "c7a1abf38b0722f8",
+      "texto": "At the ends of the court stand two temples. The one to the north is called the Temple of the Bearded Man, after a bearded figure carved inside it. It has a single chamber about eight meters by four. Its reliefs show a ceremony before an empty jaguar throne. The one to the south is a long vaulted gallery about twenty-four meters long. Only six pilasters have reliefs, showing well-adorned warriors standing, and a Chac Mool was found among the rubble. It is thought that rituals tied to the game were held in these temples, but not every detail is known."
+    },
+    "guion_largo": {
+      "hash": "74debd32c33bcdfa",
+      "texto": "These two temples close off the court at its ends. They are less famous than the rings or the panels, but they hold very valuable images.\n\nThe one to the north is called the Temple of the Bearded Man, after a bearded figure carved inside it. It rises on a square base, about fourteen meters from east to west by seven and a half from north to south, and has a single chamber about eight meters long by four wide. It has finely sculpted pillars and reliefs of flowers, birds, and trees.\n\nWhat draws the most attention is inside. The interior reliefs show a ceremony in which a main figure is seated or standing before an empty jaguar throne. According to Enrique Vela, this temple holds a panel with more than forty figures in different scenes. It is a complex image, which specialists are still studying.\n\nThe one to the south is very different. It is a long vaulted gallery, about twenty-four meters long by four and a half wide, built on the south end of the court. Reliefs appear only on six pilasters, and they show warriors standing, well adorned. A Chac Mool was found among the rubble.\n\nWhat were they for? It is thought that rituals tied to the game were surely held in them. The important word is surely: there is no proof to confirm it. What can be said is that they closed off the court at both ends, and that the images inside speak of ceremonies, warriors, and power.\n\nAn idea that is often repeated among guides is that the North Temple has special acoustics, but there is no documented evidence of this.\n\nNow, when you finish looking at the ends, turn to the east side of the court. At the south end of that platform stands the [Temple of the Jaguars](chi_12_templo_jaguares), with murals of battles."
+    },
+    "retos_observacion": {
+      "hash": "8e81f3682a6b0918",
+      "texto": [
+        "Find the North Temple, the Temple of the Bearded Man, at the north end of the court, and its single chamber",
+        "Locate the South Temple, a long, low gallery, at the opposite end",
+        "Look from a distance at the pillars of the North Temple and find the reliefs of flowers, birds, and trees"
+      ]
+    },
+    "especificaciones": {
+      "hash": "67e7dbeb3fa227b2",
+      "texto": {
+        "North Temple (of the Bearded Man)": "a single chamber of about 8.13 × 4 m, on a base of about 14 × 7.3 m",
+        "Interior reliefs": "ceremony before an empty jaguar throne; a panel with more than 40 figures",
+        "South Temple": "vaulted gallery of about 24.3 × 4.4 m",
+        "South Temple reliefs": "standing warriors on six pilasters; a Chac Mool was found among the rubble",
+        "Use": "it is thought that rituals tied to the game were held there",
+        "Study": "González et al., 2017; Vela, Arqueología Mexicana"
+      }
+    },
+    "faq_mito": {
+      "hash": "c42a502b32a2cb7d",
+      "texto": {
+        "pregunta": "Myth: The Temple of the Bearded Man has special acoustics that amplify the voice from side to side.",
+        "respuesta": "Reality: There is no documented evidence of this. What is documented is its single chamber, its reliefs of flowers, birds, and trees, and the bearded figure that gives it its name."
+      }
+    }
+  }
+}

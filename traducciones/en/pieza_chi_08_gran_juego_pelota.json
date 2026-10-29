@@ -1,0 +1,56 @@
+{
+  "id": "chi_08_gran_juego_pelota",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ef611bef583fdc40",
+      "texto": "The Great Ball Court"
+    },
+    "frase_gancho": {
+      "hash": "ae1be7f22c00f74d",
+      "texto": "The largest known ball court in Mesoamerica: more than one hundred sixty meters long."
+    },
+    "puente_narrativo": {
+      "hash": "c2d5568588337440",
+      "texto": "Move closer to the base of the court walls, where the benches with reliefs are. When you finish, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "e2d5fed09dbc6b16",
+      "texto": "You are at the Great Ball Court, the largest one known in Mesoamerica. The INAH describes it as more than one hundred sixty-eight meters long and seventy wide, although other measurements give somewhat smaller figures. It is the main one of the thirteen known at Chichén Itzá, and it was built around the year nine hundred. On the side walls there are stone rings about eight meters high, with two intertwined feathered serpents. They look like basketball hoops, but they are interpreted rather as portals to the underworld. The specialist Linda Schele summed it up this way: it was not a sport."
+    },
+    "guion_largo": {
+      "hash": "139ddbcc57aa6c00",
+      "texto": "You are standing at the largest ball court known in Mesoamerica. You understand why when you see how far it stretches.\n\nThe INAH describes it as more than one hundred sixty-eight meters long and seventy wide. Another, more technical description gives a total length of one hundred fifty-two and a half meters, and a width of about seventy-one. The court proper measures about thirty meters wide, and each side wall about ninety-six and a half meters. The measurements vary depending on what is being measured. What is certain is that it is enormous.\n\nIt was built around the year nine hundred, in the Terminal Classic period. It was a time when several Maya cities in the north moved from the rule of a single governor to a council of nobles. It is the main one of the thirteen ball courts that have been documented at Chichén Itzá. An inscription on a circular stone gives the date of November seventeenth of the year eight hundred sixty-four, according to a reading by the researcher Ruth Krochock, and some have taken it as the dedication of the court. However, some studies suggest that the court was built around the year nine hundred, perhaps over an earlier one.\n\nThe complex has four large structures. To the east and the west there are two long platforms with benches, which carry the reliefs. At the back of those platforms, stairways rise to five small temples and to the Upper Temple of the Jaguars. And at the ends of the court there are two more temples, the North and the South.\n\nLook at the rings. They are on the side walls, very high above the floor. The INAH records one ring at about eight meters. They are carved with two feathered rattlesnakes that intertwine around six concentric circles. The INAH recalls that it was believed that the players tried to pass the rubber ball through the hoop, and that the image could symbolize a portal to the underworld and a cycle of death and rebirth. A carved ring is on display today in the Great Museum of Chichén Itzá, inside the archaeological zone.\n\nThere is an important idea behind all this. The specialist Linda Schele maintained that the ball game was not a sport, but a serious matter, tied to the continuity of the state and to contact with the other world. That is why the reliefs on the benches speak of sacrifice, and the rings, of the underworld.\n\nThere is still one more piece needed to understand the place. Archaeologists excavated a section of about ninety meters of the wall that surrounded the ceremonial center, right between this court and the western pedestrian entrance. One hypothesis proposes that the Ball Court was raised after that wall and after the Lower Temple of the Jaguars.\n\nWhen you finish, continue to the next stop on your tour. The benches with reliefs are at the base of the walls, at floor level."
+    },
+    "retos_observacion": {
+      "hash": "0a341eec1b3d84d1",
+      "texto": [
+        "Look toward the side walls and find the stone rings, many meters above the floor",
+        "Gauge by eye the length of the court from one end to the other",
+        "Identify the two temples at the ends, the North and the South, and the side platform with the benches"
+      ]
+    },
+    "especificaciones": {
+      "hash": "54ec939de8bbf154",
+      "texto": {
+        "Length and width": "more than 168 × 70 meters according to the INAH; another description gives about 152.5 × 70.75 meters",
+        "Era": "around the year 900, Terminal Classic",
+        "Rings": "about 8 meters above the floor, with two intertwined feathered serpents",
+        "Structures": "two side platforms with benches, five small temples, the Upper Temple of the Jaguars, and the North and South temples",
+        "Courts documented at Chichén Itzá": "13",
+        "Museum": "a carved ring is on display at the Great Museum of Chichén Itzá"
+      }
+    },
+    "faq_mito": {
+      "hash": "e8e01786bc275d1d",
+      "texto": {
+        "pregunta": "Myth: The Maya ball game was played to pass the ball through the hoop, as in a modern sport.",
+        "respuesta": "Reality: The rings are interpreted as portals to the underworld. The specialist Linda Schele maintained that the game “was not a sport,” but something tied to the state and to the other world."
+      }
+    }
+  }
+}

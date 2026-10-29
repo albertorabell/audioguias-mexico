@@ -1,0 +1,56 @@
+{
+  "id": "chi_04_subestructura_castillo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1ac227c526f6584b",
+      "texto": "The Hidden Temple, the Jaguar Throne and the Cenote Beneath the Castle"
+    },
+    "frase_gancho": {
+      "hash": "bf81af0d4d048aa7",
+      "texto": "Inside the pyramid there is another one, with a red jaguar throne, and beneath it, according to UNAM, a cavity with water."
+    },
+    "puente_narrativo": {
+      "hash": "49b1f21d9326a11b",
+      "texto": "Stay in front of the pyramid: what this stop tells is inside it and beneath it. When you finish, continue to the next stop on your route."
+    },
+    "guion_corto": {
+      "hash": "263391c9c6d6c4d4",
+      "texto": "This pyramid holds another pyramid. In nineteen thirty-one, archaeologists began to explore the interior to prove that the Castle had been built over an older temple. And they found it. In its chamber were a Chac Mool with nails, teeth and eyes of mother-of-pearl, and a jaguar-shaped throne painted red with cinnabar, with jade inlays. Today that interior has been closed to the public since around two thousand six. And there is more. In two thousand fifteen, researchers from UNAM and INAH reported, using a technique called electrical tomography, a cavity with water beneath the pyramid, without excavating a single stone."
+    },
+    "guion_largo": {
+      "hash": "c1dd9e878c89fd92",
+      "texto": "What you see is only the outer layer. Inside the Castle there is an older temple, and beneath it lies a mystery of water.\n\nLet's start with the inside. In April of nineteen thirty-one, archaeologists began to explore the building to test an idea: that this pyramid had been built over another one. They were right. Inside there is an earlier temple, about thirty-three meters wide and about seventeen high up to the base of its temple. Its date is uncertain. One estimate places it between the years six hundred and eight hundred.\n\nTwo chambers appeared in that inner pyramid. In April of nineteen thirty-five they found a Chac Mool, a reclining figure that holds a vessel on its belly. The eyes, nails and teeth were inlaid with mother-of-pearl. In August of nineteen thirty-six they found another chamber, a few meters from the first. It was called the Chamber of the Sacrifices. It held two rows of human bones and a sculpture of a red jaguar.\n\nThat sculpture is the Red Jaguar Throne. Later analyses using X-ray fluorescence detected that the red paint contains cinnabar, a mercury mineral. The spots on the skin were believed to be flint disks, but they turned out to be jadeite, a variety of jade. The fangs are sea snail shells. Since two thousand six, the interior has been closed to the public, and the throne is not on display.\n\nNow, the water. The National Autonomous University of Mexico and INAH reported in two thousand fifteen a finding beneath the pyramid. A team from the Institute of Geophysics, led by René Chávez, with engineer Andrés Tejero and archaeologist Denisse Argote, used a technique called three-dimensional electrical resistivity tomography. It consists of sending current into the ground and measuring how it responds. To avoid damaging the ancient floors, they used ninety-six flat plates, stuck down with medical gel. The results were published in the journal Scientific Reports.\n\nWhat they detected is a cavity filled with fresh water. According to the UNAM Gazette, it lies about eight meters beneath the pyramid. Other news reports from two thousand fifteen gave larger figures, about twenty meters deep and a size of twenty-five by thirty-five. The figures do not match, so it is best to keep to the basics: there are signs of a body of water beneath the Castle. No one has excavated it.\n\nResearcher Chávez mentioned that there could be a system with inflows and outflows of water. Some archaeologists think it might connect with the Xtoloc and Sacred cenotes. That has not yet been confirmed.\n\nWith the substructure, the jaguar and the water, the pyramid takes on a deeper meaning. It is a building that rises to the sky, but that also rests on the water of the underworld.\n\nWhen you finish here, continue to the next stop on your route."
+    },
+    "retos_observacion": {
+      "hash": "acc04f90321bf734",
+      "texto": [
+        "Look in the northeast corner of the north staircase for the passage that was opened in the 1930s to explore the interior",
+        "Imagine, inside the pyramid, the red jaguar throne with jade spots and shell fangs",
+        "Think that, according to UNAM, beneath the ground you are standing on there is a cavity with water"
+      ]
+    },
+    "especificaciones": {
+      "hash": "32412be0b5bfe96e",
+      "texto": {
+        "Substructure": "earlier temple about 33 m wide and about 17 m high up to the base of the temple; its date is uncertain",
+        "Exploration": "since April 1931",
+        "Chac Mool": "found in April 1935, with eyes, nails and teeth of mother-of-pearl",
+        "Red Jaguar Throne": "paint with cinnabar, spots of jadeite and shell fangs",
+        "Electrical tomography study": "UNAM and INAH, 2015; published in Scientific Reports",
+        "Access": "the interior has been closed to the public since around 2006"
+      }
+    },
+    "faq_mito": {
+      "hash": "0fbd8b801250570d",
+      "texto": {
+        "pregunta": "Myth: There is an open tunnel that lets you go down to the cenote beneath the Castle.",
+        "respuesta": "Reality: The cavity with water was detected through studies from the surface, and no one has excavated it. The interior of the pyramid is closed to the public."
+      }
+    }
+  }
+}

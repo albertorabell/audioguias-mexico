@@ -1,0 +1,56 @@
+{
+  "id": "chi_25_casa_venado_colorada",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e128551d4843eb2b",
+      "texto": "The Casa Colorada and the House of the Deer"
+    },
+    "frase_gancho": {
+      "hash": "6f893303c47d49e9",
+      "texto": "One house still bears the trace of its color, and another has only half left standing."
+    },
+    "puente_narrativo": {
+      "hash": "d7d58e3809fffd90",
+      "texto": "Continue to [El Caracol](chi_27_el_caracol), the round tower on the east side."
+    },
+    "guion_corto": {
+      "hash": "bd84eef619aa0c67",
+      "texto": "You are standing before the Casa Colorada, one of the best-preserved buildings at Chichén Itzá. In the nineteenth century, red paint could still be seen. Its Maya name is Chichanchob, which the INAH links to small holes. A carved inscription bears a date that corresponds to the year eight hundred sixty-nine, and it mentions fire ceremonies carried out by the lords under the supervision of the king. Beside it stands the House of the Deer, badly deteriorated, named for a painting of a deer that no longer exists."
+    },
+    "guion_largo": {
+      "hash": "c91ee1c27e6dddbf",
+      "texto": "Two nearby buildings, with very different fates: one well preserved and the other almost gone.\n\nThe Casa Colorada is the largest and best preserved of the four buildings in this group. Its name comes from a red stripe that can be seen in the vestibule, and in the nineteenth century red paint was still visible. In Maya it is known as Chichanchob. The INAH says it could mean small holes, perhaps because of the openings in the roof comb. \n\nInside there is a hieroglyphic text with a date that converts to the year eight hundred sixty-nine. The text speaks of fire ceremonies carried out by the lords under the supervision of the king, and it is one of the oldest dates at the site. Another ancient name for the Akab Dzib, which you will see further on, was taken from the same hieroglyphs. Behind the house, the INAH restored a small ball court in two thousand nine.\n\nNext to it is the House of the Deer. It is badly deteriorated and only part of it remains standing. The name comes, as the story goes, from a painting of a deer that no longer exists. Its architecture closely resembles that of Chichanchob: a platform with rounded corners, a simple façade, and an undecorated frieze. It has been suggested that it was probably a residential complex linked to the Osario. This is a hypothesis.\n\nNow continue to [El Caracol](chi_27_el_caracol), a round tower on a platform."
+    },
+    "retos_observacion": {
+      "hash": "b64c3ff060b89ace",
+      "texto": [
+        "Look for the remains of red paint in the vestibule and the stripe that gives the house its name",
+        "Observe the openings in the roof comb, which may have given Chichanchob its name",
+        "Compare the well-preserved Casa Colorada with the House of the Deer, of which only half remains"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ec4ab25cc2457b3",
+      "texto": {
+        "Maya name": "Chichanchob, which the INAH links to “small holes”",
+        "Carved date": "corresponds to the year 869",
+        "Red paint": "still visible in the 19th century",
+        "Restoration": "the INAH restored a small ball court behind the house in 2009",
+        "House of the Deer": "badly deteriorated; architecture similar to Chichanchob",
+        "Proposed use of the House of the Deer": "residential complex probably linked to the Osario (hypothesis)"
+      }
+    },
+    "faq_mito": {
+      "hash": "3a2a6cd3e6f1ff11",
+      "texto": {
+        "pregunta": "Myth: The Casa Colorada is called that because it is still painted red.",
+        "respuesta": "Reality: The name comes from a red stripe in the vestibule. In the 19th century red paint was still visible, but very little remains today."
+      }
+    }
+  }
+}

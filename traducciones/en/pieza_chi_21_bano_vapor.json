@@ -1,0 +1,60 @@
+{
+  "id": "chi_21_bano_vapor",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "31bb3efa0b8f36e9",
+      "texto": "The Steam Bath (Temazcal)"
+    },
+    "frase_gancho": {
+      "hash": "250da0e0ff9176c4",
+      "texto": "A Maya steam bath: a waiting room, a water bath, and a chamber heated with stones."
+    },
+    "puente_narrativo": {
+      "hash": "1f86bb6cc3dd0b82",
+      "texto": "Look at the bath’s entrance and its three parts from the outside. When you finish, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "5445090daa857d6d",
+      "texto": "This is a steam bath, which in Yucatec Maya is called pibná and in Nahuatl, temazcal. It has three parts: a waiting gallery, a water bath, and a steam chamber heated with stones. It worked like a small sauna: stones were heated in a hearth and water was poured over them to produce steam. It is in the Thousand Columns group and is the only steam bath on the Great Leveling. Specialists think these baths may have had ritual, healing, or restful uses, and that they served the elites."
+    },
+    "guion_largo": {
+      "hash": "22758c04d2725d89",
+      "texto": "A temazcal is a steam bath. The word is of Nahuatl origin. In Yucatec Maya the steam bath is called pibná, and pib, according to the Cordemex Maya Dictionary, means a bath of hot water and water vapor. An article from two thousand fourteen, published in the journal Studies in Maya Culture, describes them as one of the most unusual and least studied types of building of Maya civilization.\n\nTo understand what you are seeing, it helps to know how it worked. According to a study by Antonio Benavides and Heber Ojeda, published by the INAH in two thousand fifteen, these baths share five features: a hearth that heats stones, over which water is poured to produce steam; a small chamber that holds in the steam; benches; a channel or slope in the floor that carries off the excess water; and a low, narrow entrance that keeps the heat from escaping. Sometimes there were niches in the walls and small windows to regulate the temperature.\n\nSteam baths are very old in the Maya world. The oldest one known is the one at Cuello, in Belize, around the year nine hundred BC. Many were built toward the end of the Classic period, between the years eight hundred fifty and one thousand. Today a little more than fifty are known across the whole Maya area.\n\nThe one at Chichén Itzá has three parts. First there is a waiting gallery. Then, a water bath. And at the end, a steam chamber, which was heated with stones. It is a logical order: you wait, you wash your body, and you enter the heat. The study by Benavides and Ojeda cites two baths at Chichén Itzá, with the codes three E three and three C fifteen, and says that their interior space is around fifteen square meters, which is the average for these buildings. One curious difference: the hearths at Chichén Itzá are in a very small chamber, unlike in other cities, where the hearth is on the wall opposite the entrance.\n\nWhat were they used for? The studies propose several uses. One is healing: in the traditions that survive, the steam bath returns heat to the body and helps sweat out fevers. Another is ritual: at another site, Acanmul, it has been proposed that it served to purify the elite. It may also have been a place of rest. These baths were in the hands of the elites who had them built, and they were part of the civic-ceremonial zones: they were not a service for all the people. In colonial times, moreover, it was forbidden to use them for the worship of non-Christian deities.\n\nThe studies do not fully agree on how many baths there are at Chichén Itzá. A study from two thousand sixteen says that the steam bath of the Thousand Columns group is the only one on the Great Leveling, and that its access is reserved, leaving the plaza toward the east. That is why it is better not to give a number of baths at the site.\n\nThere are also no precise dates: Benavides only places them in ceremonial centers of the Classic period. It is one of the stops with the least data on the whole tour, but at least you know what you are looking at: a small stone sauna, made for heat, water, and purification.\n\nWhen you finish looking, continue to the next stop on your tour."
+    },
+    "retos_observacion": {
+      "hash": "2c157897c3f33aaa",
+      "texto": [
+        "Find the bath’s entrance and the waiting gallery",
+        "Imagine the steam chamber, small and heated with stones",
+        "Think about the order: waiting, water, heat",
+        "Think about why these baths had a low, narrow entrance: so the heat would not escape"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4561c8ab83ec514b",
+      "texto": {
+        "Parts": "waiting gallery, water bath, and steam chamber with hot stones",
+        "How it worked": "a hearth heated stones and water was poured over them to produce steam",
+        "Interior space": "about 15 m² (average for these baths, according to Benavides and Ojeda)",
+        "Location": "Thousand Columns group (González et al., 2016)",
+        "Maya name": "pibná (plural pibnaob)",
+        "Known steam baths in the Maya area": "a little more than 50",
+        "Oldest known": "Cuello, Belize, around 900 BC",
+        "Proposed uses": "ritual, healing, or rest, in the service of the elites",
+        "Dates at Chichén Itzá": "no precise data"
+      }
+    },
+    "faq_mito": {
+      "hash": "24233368d642b3f0",
+      "texto": {
+        "pregunta": "Myth: These baths were places of cleansing for all the people.",
+        "respuesta": "Reality: The studies associate them with the elites and with ritual, healing, or restful uses, not with the daily use of the whole population."
+      }
+    }
+  }
+}

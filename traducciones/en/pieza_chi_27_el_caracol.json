@@ -1,0 +1,56 @@
+{
+  "id": "chi_27_el_caracol",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6dddd829991935e9",
+      "texto": "El Caracol"
+    },
+    "frase_gancho": {
+      "hash": "1855dae43d6d6ae4",
+      "texto": "A round tower with a spiral staircase inside: the only circular building at Chichén Itzá."
+    },
+    "puente_narrativo": {
+      "hash": "8b5248a870f086d2",
+      "texto": "Walk toward [Las Monjas](chi_29_las_monjas), a great palace in the Puuc style."
+    },
+    "guion_corto": {
+      "hash": "79c38490dd6839a8",
+      "texto": "This is the only round structure at Chichén Itzá, a tower on top of a large square platform. It is called El Caracol, “the snail,” because of the spiral staircase inside. A stone on the upper platform makes it possible to date it to around the year nine hundred six. It is proposed that it was an observatory. The astronomer Anthony Aveni and his team found sight lines in the building for twenty of twenty-nine sky events that may have interested its inhabitants, but part of the tower was lost, so not everything can be verified."
+    },
+    "guion_largo": {
+      "hash": "68f1c7954ed1c81f",
+      "texto": "El Caracol breaks the geometry of Chichén Itzá. Almost everything else is square, stepped or rectangular. This is a round tower.\n\nIt is the only circular structure on the site. It rises on a large square platform. The Spaniards gave it the name El Caracol, “the snail,” because of the spiral staircase inside. A stela on the upper platform makes it possible to date it to around the year nine hundred six.\n\nThe idea that it was an observatory is the best known. The argument is simple: in the flat landscape of Yucatán there are no mountains to serve as a reference, and a tower made it possible to see the sky above the vegetation. The astronomer Anthony Aveni studied the building’s orientation starting in the mid-1970s. According to a report in The New York Times from nineteen eighty-six, his team found sight lines toward the positions of the Sun at the solstices, toward the two passages of the Sun through the zenith between May and August, and toward the extreme points of Venus. They concluded that, out of twenty-nine possible astronomical events, the building had alignments for twenty.\n\nVenus was important. Maya astronomers knew, from naked-eye observation, that its cycle lasts about five hundred eighty-four days, and that five cycles equal eight solar years.\n\nIt is worth remembering the limits. Part of the tower that stood on the platform was lost, so some observations may never be confirmed. And these alignments are the results of one team, not facts accepted by everyone. We are speaking of a hypothesis, though a solid one.\n\nThe building also has its own history of exploration. Alfred Maudslay drew and photographed it in eighteen eighty-nine, and William Holmes visited it in eighteen ninety-four. The Carnegie Institution restored El Caracol after nineteen twenty-three.\n\nNow continue to [Las Monjas](chi_29_las_monjas), a very different building, with its facade covered in masks."
+    },
+    "retos_observacion": {
+      "hash": "cce356069a3334d6",
+      "texto": [
+        "Look at the round tower on the square platform: it is the only one on the site",
+        "Notice the small openings in the upper part that are associated with the alignments",
+        "Imagine the upper part that was lost and what someone climbing up could see"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f169095e68d4f60b",
+      "texto": {
+        "Shape": "circular tower on a large square platform",
+        "Name": "from the interior spiral staircase",
+        "Date": "around the year 906, based on a stela on the upper platform",
+        "Proposed alignments (Aveni)": "20 of 29 possible astronomical events",
+        "Venus cycle": "about 584 days; 5 cycles = 8 solar years",
+        "Exploration": "Maudslay (1889), Holmes (1894), Aveni (1970s)"
+      }
+    },
+    "faq_mito": {
+      "hash": "532a8b4701bd38ae",
+      "texto": {
+        "pregunta": "Myth: It has been proven that El Caracol was an official astronomical observatory.",
+        "respuesta": "Reality: It is a well-studied hypothesis. Sight lines were found toward 20 of 29 events, but part of the tower was lost and not everything can be verified."
+      }
+    }
+  }
+}

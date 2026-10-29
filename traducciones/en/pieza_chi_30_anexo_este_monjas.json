@@ -1,0 +1,55 @@
+{
+  "id": "chi_30_anexo_este_monjas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5b336e81005050e0",
+      "texto": "The East Annex"
+    },
+    "frase_gancho": {
+      "hash": "ec2b597fa5308e55",
+      "texto": "A doorway that is the mouth of a gigantic rain mask."
+    },
+    "puente_narrativo": {
+      "hash": "e6097543bb17c89d",
+      "texto": "Take a close look at the masks on the façade. When you are done, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "0cfb77ae9959f816",
+      "texto": "The East Annex is part of the original building of Las Monjas. Its façade is covered with masks of Chaac, the rain god. The main portal is an enormous mask of Chaac, or of Witz, the mountain spirit, with the doorway as its mouth. Above it runs a carved, undulating serpent. The INAH says that a doorway with an inscription recalls the Chenes style. Its inscription is estimated to date to around the year eight hundred eighty."
+    },
+    "guion_largo": {
+      "hash": "c97dcb3632ee3317",
+      "texto": "This is one of the most spectacular façades at the site, and also one of the hardest to explain with certainty.\n\nAccording to the INAH, the Annex is part of the original construction of Las Monjas. Its façade has many masks of Chaac, the rain god, and a doorway with an inscription that recalls the Chenes style. The main building has three parts, and the East Annex corresponds to the east wing.\n\nSeveral descriptions offer details. The main façade is carved as an enormous face of Chaac, or of Witz, the spirit that dwells in the mountains, and the doorway works as its mouth. Both figures are connected to rain. On the cornice there is an undulating serpent, which could be the Feathered Serpent. The east chamber is also described, with its doorway framed by the curved noses of Chaac, with four masks on each side, two stacked at each corner, and a crest with latticework and masks.\n\nThe details vary depending on who describes them. What is worth remembering is the essential: masks of Chaac, a portal in the Chenes style, and a cornice with a serpent.\n\nThe hieroglyphic inscription on the lintel of the east chamber is estimated to date to around the year eight hundred eighty, according to the katun count. The epigrapher Hermann Beyer recorded the decoration of the East Annex façade in nineteen thirty-seven, although he gives no construction dates. The styles that this building blends, Puuc, Chenes, and Río Bec, were common in the Late Classic in Yucatán.\n\nTake your time looking at the repetition of the masks. In a region without rivers, asking for water was asking for life.\n\nWhen you are done, continue to the next stop on your tour."
+    },
+    "retos_observacion": {
+      "hash": "3a9d4932a0b44167",
+      "texto": [
+        "Find the doorway and try to see, around it, the shape of a mouth and curved noses",
+        "Count how many times the mask of Chaac repeats along one section of the façade",
+        "Look at the cornice and find the undulating serpent"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c1bba47855940429",
+      "texto": {
+        "Location": "east wing of Las Monjas",
+        "Decoration": "many masks of Chaac; portal that has been described as a mask of Chaac or Witz with the doorway as its mouth",
+        "Cornice": "undulating serpent",
+        "Style": "Chenes (INAH); Puuc, Chenes, and Río Bec",
+        "Lintel inscription": "around the year 880 (approximate)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0890c02d0e7da80",
+      "texto": {
+        "pregunta": "Myth: The masks on the façade represent different rulers.",
+        "respuesta": "Reality: The INAH identifies them as masks of the rain god, Chaac, repeated throughout the decoration."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chi_23_el_osario",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e57e46b4e415af1c",
+      "texto": "The Osario and Its Platforms"
+    },
+    "frase_gancho": {
+      "hash": "1cbb35eceb0f44f5",
+      "texto": "A pyramid with nine tiers and an opening at the top that descends to a cave."
+    },
+    "puente_narrativo": {
+      "hash": "ca47d89ab6f88925",
+      "texto": "Walk around the platform and look at the pyramid from different angles. When you are done, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "b4b9fef89ff4f3b1",
+      "texto": "The Osario is a stepped pyramid, smaller than El Castillo and very similar to it, with stairways on all four sides. It has nine tiers and stands more than ten meters tall. At the center there is an opening that descends to a natural cave, about ten or twelve meters deep. In the late nineteenth century, Edward Thompson explored it and found skeletons and jade beads. For that reason he called it the Tomb of the High Priest. Today it is thought that it was neither a tomb nor a burial of priests."
+    },
+    "guion_largo": {
+      "hash": "7bebd8932377388a",
+      "texto": "This building has two names, and neither is accurate. It is called the Osario, meaning ossuary, because of the bones that were found, and the Tomb of the High Priest because that is what its explorer named it.\n\nLet's begin with what you can see. It is a stepped pyramid of nine tiers, more than ten meters tall, with stairways on all four sides. It looks a lot like El Castillo, though smaller, and for that reason some people call it a replica. The reliefs on the frieze are mythological, and at the corners there are masks of the rain god, Chaac. The stairways have balustrades with serpents.\n\nWhat is special lies at the center. An opening at the top descends through a shaft to a natural cave. Descriptions give different depths: between about ten and about twelve meters. In the late nineteenth century, Edward Thompson climbed down into that cave. He found skeletons and jade beads, and concluded that it was the tomb of a high priest. Today archaeologists think that it was neither a tomb nor a burial of priests.\n\nIn nineteen thirty-six, J. C. Harrington, while mapping the shaft, found part of the vault of an earlier temple. In other words, the Osario was also built over an older temple, just like El Castillo and the Temple of the Warriors. A radiocarbon study from two thousand nineteen, by Saldaña and Brady, dates the end of the earlier structure and the construction of the Osario to the early eighth century. A pillar of the temple on top bears a date that corresponds to the year nine hundred ninety-eight.\n\nThere is a symbolic reading that is often repeated: that the cave was an entrance to the underworld, and that the nine tiers refer to its nine levels. It is a popular interpretation. The Maya did associate caves and cenotes with the underworld, but the connection with the nine levels has not been proven.\n\nFrom this platform a path leads to the Xtoloc Cenote. When you are done here, continue to the next stop on your tour."
+    },
+    "retos_observacion": {
+      "hash": "1a98a44a14b466e7",
+      "texto": [
+        "Count the tiers of the pyramid: there are nine",
+        "Look at the corners for the masks of the rain god, Chaac",
+        "Compare its proportions with those of El Castillo, which you have already seen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6ff3ac66d851e907",
+      "texto": {
+        "Height": "more than 10 m",
+        "Stepped tiers": "9, with stairways on all four sides",
+        "Central opening": "descends to a natural cave, about 10-12 m",
+        "Exploration": "Edward Thompson, late nineteenth century; J. C. Harrington (1936) found an earlier temple",
+        "Date": "early eighth century (radiocarbon, 2019); pillar of the upper temple dated to the year 998",
+        "Names": "Osario and Tomb of the High Priest"
+      }
+    },
+    "faq_mito": {
+      "hash": "8faa303ff8b4a790",
+      "texto": {
+        "pregunta": "Myth: It is the tomb of a Maya high priest.",
+        "respuesta": "Reality: That is what Thompson named it, but today it is thought that it was neither a tomb nor a burial of priests."
+      }
+    }
+  }
+}

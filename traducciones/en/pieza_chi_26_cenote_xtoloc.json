@@ -1,0 +1,56 @@
+{
+  "id": "chi_26_cenote_xtoloc",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3d23ef01bc868fa3",
+      "texto": "The Xtoloc Cenote"
+    },
+    "frase_gancho": {
+      "hash": "943c2d93b5a65133",
+      "texto": "The other cenote of Chichén Itzá, long believed to be only a source of drinking water and perhaps far more than that."
+    },
+    "puente_narrativo": {
+      "hash": "a8d9e98ffb3e296f",
+      "texto": "Lean carefully over the edge of the cenote. When you are done, head back along the path and continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "fd84ee3acdce473f",
+      "texto": "This is the Xtoloc Cenote, the second largest at Chichén Itzá. Its name comes from a Maya word that means iguana. For a long time it was said that the Sacred Cenote was the religious one and that this one was the profane one, the one that supplied water to the population. Today, several researchers say that this separation is too simple. A study from 2018 found stairways from the path down to the water, masonry platforms, and three caves in the northwest wall. The temple that faces it has columns with figures of warriors."
+    },
+    "guion_largo": {
+      "hash": "0f57e8dfaa38f81a",
+      "texto": "When people think of the cenotes of Chichén Itzá, they almost always think of the Sacred one. This is the other one, and its story helps us understand how ideas change.\n\nThe Xtoloc Cenote is the second largest at the site. Its name is taken from a Maya word for iguana. Beside it stands the Temple of Xtoloc, with pilasters carved with human figures, plants, birds, and mythological scenes. Its central entrance faces west, aligned with the sacbé that leads to the Osario, and the altar inside has bas-reliefs of plants, birds, and mythic scenes.\n\nFor decades one idea was repeated: that the Sacred Cenote was the place of rituals, and that Xtoloc was the profane cenote, the one that provided water for daily use. An abstract presented in 2018 by Cristina Verdugo, Jeremy Coltman, James Brady, and Guillermo de Anda says that this assumption became a repeated truth, and that for this reason it received little attention. As an example, the temple does not even appear on the Carnegie Institution map, even though Ann Axtell Morris excavated there in the 1920s.\n\nWhen the Gran Acuífero Maya project surveyed all the water sources at the site, it found stairways from the sacbé down to the water, masonry platforms that shaped the space, and three caves in the northwest wall of the cenote. Another abstract, by Brian Waldo, from 2019, says that separating the sacred from the profane is a simplistic idea, typical of our own culture. He argues that the sacbés connected the bodies of water with the center of the city.\n\nThese are conference abstracts, not published articles, so they are a line of research still in progress. They do not say how deep the cenote is or what objects were found.\n\nThe lesson is that the water of Chichén Itzá was at once practical and sacred. When you are done, head back along the path and continue to the next stop on your tour."
+    },
+    "retos_observacion": {
+      "hash": "bed325aec35d6819",
+      "texto": [
+        "Find the edge of the cenote and notice the vegetation hanging over the water",
+        "Locate the temple that faces it and its pilasters with figures",
+        "Think about the path that leads here from the Osario"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a36ffb04e66019c7",
+      "texto": {
+        "Size": "second largest cenote at Chichén Itzá",
+        "Name": "from Maya, “iguana”",
+        "Temple of Xtoloc": "pilasters with people, plants, and birds; central entrance to the west",
+        "Gran Acuífero Maya findings": "stairways from the sacbé, masonry platforms, three caves in the northwest wall",
+        "Excavation at the temple": "Ann Axtell Morris, 1920s",
+        "Depth and objects": "no published data"
+      }
+    },
+    "faq_mito": {
+      "hash": "ce9d8e8343da4b48",
+      "texto": {
+        "pregunta": "Myth: The Xtoloc Cenote was only an everyday water well, with no ritual value.",
+        "respuesta": "Reality: This is a traditional idea that several researchers question today. They found stairways, platforms, and caves that suggest the place was also formally shaped and cared for."
+      }
+    }
+  }
+}

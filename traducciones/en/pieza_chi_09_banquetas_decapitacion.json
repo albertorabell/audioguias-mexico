@@ -1,0 +1,56 @@
+{
+  "id": "chi_09_banquetas_decapitacion",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fabb47fec5083adf",
+      "texto": "The Decapitation Panels"
+    },
+    "frase_gancho": {
+      "hash": "e6da41f967a5b673",
+      "texto": "Six panels repeat the same scene: a player holding another’s head, and six serpents of blood."
+    },
+    "puente_narrativo": {
+      "hash": "2be332556f9c70a3",
+      "texto": "Crouch down beside the benches and let your eyes travel across the scenes. When you’re done, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "fbf9d78e9b3ebee4",
+      "texto": "Crouch down beside the base of the side platforms. On the benches, a scene repeats six times, three on each side. It shows two teams of players with their captains, and a large flint ball in the center, with a skull inside. On one side of the scene, a player holds the severed head of another, who is kneeling and bleeding. The blood comes out as six serpents, and a plant grows among them. Specialists do not agree on whether the decapitated player was the winner or the loser. One specialist sees in the scene a world tree. The details are still being studied."
+    },
+    "guion_largo": {
+      "hash": "08c73639da6b2e35",
+      "texto": "You are standing before the most famous scene of the Great Ball Court. It repeats six times, three on each side platform.\n\nAccording to the archaeologist Adriana Velázquez Morlet, the scene shows a ceremonial game between two teams of six players, plus their captains. In the center there is a large flint ball with a skull inside. That skull speaks, and the author identifies it as a way, a companion spirit, because of the tuft of hair on its head.\n\nOn one side of the scene, a player holds the severed head of another. On the other side, the decapitated captain appears kneeling and bleeding. Six serpents come out of his neck, and the author identifies them with a type of serpent called wak kan, which would represent the world tree. Among the serpents grows a squash plant, which Linda Schele also read as a world tree. The other players watch the scene, and scrolls around them suggest that they were singing or chanting.\n\nOne question remains open: who is the decapitated figure. Velázquez Morlet reads the one holding the head as the victor and the decapitated one as the defeated. But specialists do not agree on whether the sacrificed player was the winner or the loser of the game, and there is no answer accepted by everyone.\n\nAnother specialist, Enrique Vela, says something similar: that the reliefs on the benches show scenes of player sacrifice.\n\nIt must be said clearly that this is one reading, and that the details of the scene are still being studied. What you see is a powerful image: a scene of sacrifice joined with the idea of rebirth, because a plant sprouts from the blood. For this reason, the game is often spoken of as a way of asking for fertility and of keeping the order of the world.\n\nThis was not the only such scene. In the North Temple, at the end of the court, there is another panel with more than forty figures. And the rings you saw at the previous stop have intertwined serpents, like these.\n\nTake a moment to look at the details. You will see faces in profile, headdresses, neck ornaments, the folds of clothing. These reliefs were made with great care, and they can still be read even though the stone has lost its paint.\n\nWhen you’re ready, continue to the next stop on your tour."
+    },
+    "retos_observacion": {
+      "hash": "327146aa12ebd663",
+      "texto": [
+        "Find the large flint ball in the center of the scene, with the skull inside",
+        "Spot the six serpents coming out of the kneeling captain’s neck",
+        "Notice the plant growing among the serpents, a symbol of rebirth"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e06dbf56dd289a7a",
+      "texto": {
+        "Scene": "repeats six times, three on each side platform",
+        "Players": "two teams of six, plus their captains",
+        "Central element": "a large flint ball with a speaking skull",
+        "Blood": "six wak kan serpents; a squash plant grows among them",
+        "Reading": "Adriana Velázquez Morlet",
+        "Interpretation": "this is one specialist’s reading, and the details are still being studied"
+      }
+    },
+    "faq_mito": {
+      "hash": "c20655e7987bb040",
+      "texto": {
+        "pregunta": "Myth: It is known for certain that the decapitated figure on the panels was the loser of the game.",
+        "respuesta": "Reality: Specialists do not agree on whether the decapitated figure was the winner or the loser. Velázquez Morlet’s reading sees the victor holding the head of the defeated, but the details of the scene are still being studied."
+      }
+    }
+  }
+}

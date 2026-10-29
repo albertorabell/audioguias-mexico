@@ -1,0 +1,56 @@
+{
+  "id": "chi_13_sacbe_uno",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b2a51451617dbeb9",
+      "texto": "Sacbé Number 1"
+    },
+    "frase_gancho": {
+      "hash": "2969530dd5e5f238",
+      "texto": "A white stone road, straight and raised, leading from the plaza to the edge of the sacred water."
+    },
+    "puente_narrativo": {
+      "hash": "b36faea0950c1878",
+      "texto": "Follow the causeway to the end. There, among the trees, is the [Sacred Cenote](chi_14_cenote_sagrado), the most famous well in Chichén Itzá."
+    },
+    "guion_corto": {
+      "hash": "1b0bf67611f67142",
+      "texto": "You are standing on a sacbé, a Maya word that means white road. It is a raised limestone causeway, the largest and most elaborate at the site: it measures about two hundred seventy meters long and nine meters wide on average. Other measurements give about three hundred meters. It connects the main plaza with the Sacred Cenote. As you walk, think about who traveled it: priests, rulers, and perhaps visitors from distant lands, because the offerings found in the cenote include gold, copper, and jade that are not from Yucatán."
+    },
+    "guion_largo": {
+      "hash": "d1059db2ffaeea2c",
+      "texto": "A sacbé is a road, but it is also an idea. In Maya, sacbé means white road. These were raised stone causeways that joined groups of buildings.\n\nThis is Sacbé Number One, the largest and most elaborate causeway in Chichén Itzá. It measures about two hundred seventy meters long and nine wide on average. Other measurements give about three hundred meters. The difference most likely comes from how it is measured, and it is best to keep in mind the idea that it is long, straight, and wide.\n\nIts function was to unite. At one end is the great plaza, with El Castillo and the Ball Court. At the other, the Sacred Cenote. It is likely that processions passed along here. Archaeology cannot confirm it, but the shape of the road suggests it: straight, raised, and aimed at a destination.\n\nAnd that destination explains a great deal. The Sacred Cenote received offerings for centuries. Among them are gold, copper, and jade. None of those materials exists naturally in Yucatán, so they arrived from other regions of Central America. That means this road also connects to a much larger world. When it is said that Chichén Itzá was a pilgrimage center, this is one of the clues.\n\nOne must also be careful with a very repeated idea: that this whole road was only ceremonial. Perhaps it was in part. But sacbés also connected areas of the city with one another. The two functions are not mutually exclusive.\n\nThis road is a good opportunity to think about the scale of the site. From the plaza you cannot see the cenote. You have to walk a few hundred meters, among trees, to reach it. That distance is part of the experience: you leave the open space and enter a more enclosed one.\n\nWalk calmly to the end. There the [Sacred Cenote](chi_14_cenote_sagrado) awaits you, a natural well sixty meters in diameter."
+    },
+    "retos_observacion": {
+      "hash": "f9eca1067d4b4565",
+      "texto": [
+        "Notice how straight and raised the road is compared to the terrain on either side",
+        "Look at the stone of the ground: it is limestone, and that is why the road is called white",
+        "As you move forward, notice how the space closes in with the trees until the edge of the cenote appears"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e0232a33e69ff209",
+      "texto": {
+        "Name": "sacbé, “white road” in Maya",
+        "Length": "about 270 meters (other measurements give about 300)",
+        "Width": "about 9 meters on average",
+        "Connects": "the main plaza with the Sacred Cenote",
+        "Importance": "it is the largest and most elaborate causeway in Chichén Itzá",
+        "Related fact": "the offerings in the cenote include gold, copper, and jade that are not from Yucatán"
+      }
+    },
+    "faq_mito": {
+      "hash": "3e1675f174763f4b",
+      "texto": {
+        "pregunta": "Myth: Sacbés were only roads for religious processions.",
+        "respuesta": "Reality: They were likely used in rituals, but they also joined areas of the site. The two functions are not mutually exclusive."
+      }
+    }
+  }
+}
