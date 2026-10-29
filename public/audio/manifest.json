@@ -11842,6 +11842,34 @@
           "provider": "azure"
         }
       },
+      "chi_00_vistazo": {
+        "corto": {
+          "hash": "a26ba08ad9b1afdf",
+          "file": "fr/chi_00_vistazo_corto.mp3",
+          "remote": false,
+          "seconds": 42,
+          "bytes": 254160,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "976d37b9eca1895e",
+          "file": "fr/chi_00_vistazo_largo.mp3",
+          "remote": false,
+          "seconds": 153,
+          "bytes": 916704,
+          "provider": "azure"
+        }
+      },
+      "chi_08_gran_juego_pelota": {
+        "corto": {
+          "hash": "91d44c92eceb18b8",
+          "file": "fr/chi_08_gran_juego_pelota_corto.mp3",
+          "remote": false,
+          "seconds": 35,
+          "bytes": 211968,
+          "provider": "azure"
+        }
+      },
       "mna_s00_el_paraguas": {
         "corto": {
           "hash": "51f1753fea59cf50",
