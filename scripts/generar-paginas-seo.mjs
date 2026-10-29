@@ -17,7 +17,8 @@ const hechas = [];
 
 for (const [id, cfg] of Object.entries(PAGINAS)) {
   const sitio = sitios.find((s) => String(s.id).toUpperCase() === id);
-  if (!sitio || (!sitio._seo && sitio.status && sitio.status !== 'active')) {
+  const aceptable = sitio && (sitio._seo || !sitio.status || sitio.status === 'active' || (cfg.proximamente && sitio.status === 'preview'));
+  if (!aceptable) {
     console.log(`SEO: ${id} no está publicado, se salta`);
     continue;
   }
