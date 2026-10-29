@@ -24,7 +24,8 @@ export function conTextoDePrueba(p) {
   };
 }
 const COMPLETAS = JSON.parse(fs.readFileSync(new URL('../public/data/pieces.json', import.meta.url), 'utf-8')).map(conTextoDePrueba);
-export const TEXTOS = buildBundles(COMPLETAS, ['es', 'en']);
+// El servidor de textos entrega lo de pago; para el ensayo todas las piezas cuentan como de pago (las gratis se publican completas y no pasan por aquí)
+export const TEXTOS = buildBundles(COMPLETAS.map((p) => ({ ...p, is_free: false })), ['es', 'en']);
 export const SESSION = 'cs_test_a1b2c3d4e5f6g7h8i9';
 export const TOKEN = 'tok_PRUEBA.firma';
 
