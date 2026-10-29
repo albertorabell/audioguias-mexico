@@ -1,0 +1,54 @@
+{
+  "id": "fri_01_primeras_salas_retratos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "12fb34f9f0d6aacb",
+      "texto": "Moja rodzina i portret jej ojca"
+    },
+    "frase_gancho": {
+      "hash": "deeb9297eeac821b",
+      "texto": "Namalowane drzewo genealogiczne z rodzicami, dziadkami, siostrami, siostrzeńcami i nieznanym niemowlęciem."
+    },
+    "puente_narrativo": {
+      "hash": "c2a8779e86be6f80",
+      "texto": "Idź dalej przez sale malarstwa do martwej natury z arbuzami, jednego z ostatnich dużych obrazów, jakie namalowała Frida."
+    },
+    "guion_corto": {
+      "hash": "fa50a9b4070b113b",
+      "texto": "W tych salach, które dawniej były rodzinnym salonem, Frida jest otoczona swoimi bliskimi. Obraz Moja rodzina z roku tysiąc dziewięćset czterdziestego dziewiątego to drzewo genealogiczne. Widać na nim malarkę, jej rodziców, dziadków, siostry, dwóch siostrzeńców i nieznane niemowlę. Niedaleko wisi portret jej ojca, Guillermo Kahlo, fotografa, który fotografował budynki, a także portretował samego siebie. Frida namalowała ten obraz na podstawie jednego z takich autoportretów. A jeszcze wcześniej w czasie powstał jej pierwszy autoportret, z roku tysiąc dziewięćset dwudziestego szóstego, wykonany jako prezent dla ówczesnego narzeczonego. Tutaj zaczynasz rozumieć, skąd wzięło się jej spojrzenie na świat."
+    },
+    "guion_largo": {
+      "hash": "7ebd529623d353ad",
+      "texto": "Pierwsze sale domu przekształcono w galerię. Dawniej był to rodzinny salon z kominkiem z kamienia wulkanicznego, zaprojektowanym przez Diego Riverę. Dziś wiszą tu obrazy Fridy i Diega, a także fotografie ojca Fridy. Jeśli zaczniesz od portretów, zrozumiesz, skąd bierze się cała reszta.\n\nObraz Moja rodzina pochodzi z roku tysiąc dziewięćset czterdziestego dziewiątego. To namalowane drzewo genealogiczne. Według muzeum widać na nim Fridę, jej rodziców, dziadków, siostry, dwóch siostrzeńców i nieznane niemowlę. Namalowała go wiele lat po tym, jak zostawiła za sobą dzieciństwo, a mimo to wciąż opowiada o tym, kto był w jej domu. Dla Fridy rodzina była miejscem, w którym zaczynała się historia.\n\nJej ojciec, Guillermo Kahlo, urodził się w roku tysiąc osiemset siedemdziesiątym drugim, a do Meksyku przyjechał w roku tysiąc osiemset dziewięćdziesiątym. Był fotografem i fotografował budynki swoich czasów. Cierpiał na epilepsję. Wiele razy fotografował też samego siebie. Po latach Frida wzięła jeden z tych autoportretów i zamieniła go w obraz Portret mojego ojca Guillermo Kahlo. Muzeum stawia dzieciom, które zwiedzają salę, proste pytanie: spójrz na tło i zastanów się, co Frida tam narysowała.\n\nOd ojca nauczyła się czegoś więcej niż patrzenia. To on nauczył ją obsługiwać aparat. Frida dorastała wśród negatywów, rodzinnych zdjęć i portretów i stąd bierze się ten jej zwyczaj patrzenia na siebie z dystansem. Jej matka, Matilde Calderón, pochodziła z Oaxaca.\n\nW młodości Frida uczyła się także u Fernanda Fernándeza, grawera, przyjaciela jej ojca, i pracowała u niego jako uczennica. Stąd bierze się jej precyzyjna ręka do rysunku, którą widać w każdym szczególe jej obrazów.\n\nNajstarszym dziełem w sali jest Autoportret w aksamitnej sukni z roku tysiąc dziewięćset dwudziestego szóstego. To pierwszy autoportret Fridy. Namalowała go jako prezent dla swojego narzeczonego, Alejandra GómezaAriasa, a przypomina on styl włoskiego renesansu, zwłaszcza Botticellego. Spójrz na długą szyję i na postawę. To młoda Frida, która wciąż sprawdza, jak chce się pokazać.\n\nDom przechowuje także prace, które Frida zostawiła niedokończone, jak Frida i cesarskie cięcie z roku tysiąc dziewięćset trzydziestego pierwszego. Mówi ono o macierzyństwie, którego nigdy nie doświadczyła. Nie zawsze jest wystawione, ponieważ sale zmieniają się wraz z wystawami.\n\nZatrzymaj się na chwilę przed portretami. Nie ma tu jeszcze bólu ani polityki. Jest rodzina, malarka, która dopiero zaczyna, i dom, w którym wszystko się wydarzyło."
+    },
+    "retos_observacion": {
+      "hash": "d8f5d4f051c63814",
+      "texto": [
+        "Poszukaj na obrazie Moja rodzina ciał dziadków, rodziców i ssióstr, i znajdź niemowlę, które muzeum nazywa nieznanym",
+        "Porównaj portret jej ojca z myślą, że on również fotografował budynki i portretował samego siebie",
+        "Przyjrzyj się szyi i postawie na Autoportrecie w aksamitnej sukni i poszukaj podobieństwa do malarstwa renesansu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7572ba4279de7651",
+      "texto": {
+        "Moja rodzina": "1949, drzewo genealogiczne",
+        "Portret mojego ojca Guillermo Kahlo": "namalowany na podstawie fotograficznego autoportretu jej ojca",
+        "Autoportret w aksamitnej sukni": "1926, jej pierwszy autoportret",
+        "Frida i cesarskie cięcie": "1931, niedokończony, olej na płótnie, 620 na 730 mm, według Google Arts and Culture"
+      }
+    },
+    "faq_mito": {
+      "hash": "9cd78df271e15105",
+      "texto": {
+        "pregunta": "Mit: Frida nauczyła się malować w akademii, a jej nauczycielem był Diego Rivera.",
+        "respuesta": "Rzeczywistość: Uczyła się głównie na własną rękę. Od ojca nauczyła się fotograficznego oka, a od Fernanda Fernándeza, grawera, przyjaciela rodziny, precyzyjnego rysunku."
+      }
+    }
+  }
+}

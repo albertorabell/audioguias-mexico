@@ -1,0 +1,53 @@
+{
+  "id": "fri_04_comedor_mexicano",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6b49529913196bf0",
+      "texto": "Jadalnia: sztuka ludowa do codziennego użytku"
+    },
+    "frase_gancho": {
+      "hash": "039b24c556b3b7f0",
+      "texto": "Tutaj siadali Trocki, Breton i Eisenstein, otoczeni maskami, gliną i dmuchanym szkłem."
+    },
+    "puente_narrativo": {
+      "hash": "2bc3f18392edd311",
+      "texto": "Z jadalni zajrzyj do kuchni, gdzie gotowano na palenisku opalanym drewnem."
+    },
+    "guion_corto": {
+      "hash": "05bae9fa87152233",
+      "texto": "Spójrz na żółte kredensy i długi stół. W jadalni Niebieskiego Domu Frida i Diego nie postawili luksusowych mebli. Postawili meksykańską sztukę ludową. Są tu naczynia z Puebla, z Oaxaca, z Michoacán i ze Stanu Meksyk, dmuchane szkło, maski i Judasz w kształcie szkieletu torreadora. Ale to nie była dekoracja. Zbierali te przedmioty, a także z nich korzystali. Frida kładła obrusy z różnych regionów kraju. Przy tym stole bywali goście tacy jak André Breton, Tina Modotti, Lew Trocki i Siergiej Eisenstein. Tutaj widać, że dla nich Meksyk nie był ozdobą. Był codziennym życiem. Spokojnie obejrzyj każdy zakątek pokoju."
+    },
+    "guion_largo": {
+      "hash": "e73367196bebce49",
+      "texto": "Ta jadalnia należy do najweselszych pokoi w domu. Pierwsze, co zwraca uwagę, to żółty kolor kredensów, czyli mebli z półkami, na których trzyma się talerze i szklanki. Na ścianach wiszą ludowe obrazy z dziewiętnastego wieku, z martwymi naturami i scenami z życia codziennego. Na stole i na półkach gromadzą się glina, szkło i papier mâché.\n\nMuzeum opowiada, że Frida i Diego pobrali się w tysiąc dziewięćset dwudziestym dziewiątym roku i od tamtej pory zbierali meksykańską sztukę ludową. Z czasem zgromadzili maski, figury z papier mâché i przedmioty z gliny. W jadalni stoi Judasz w kształcie szkieletu torreadora oraz figura konia na dwóch nogach. Jest też niebieski talerz z dmuchanego szkła w kształcie muszli. Naczynia pochodzą z różnych regionów. Na liście są Puebla, Oaxaca, Michoacán i Stan Meksyk, a także szkło z Carretones i z Guadalajary.\n\nNajważniejsze jest to, że te przedmioty były używane. Frida kładła obrusy z różnych regionów kraju, a stół przygotowywano tak, jakby miano przyjmować gości. Przedmioty nie stały za szkłem. Były częścią codziennych posiłków. Dla nich sztuka ludowa była sposobem życia, a nie kolekcją do oglądania z daleka.\n\nTaki sposób urządzania wnętrz był też postawą. Pomalować dom na niebiesko, wypełnić go gliną i papier mâché, jeść z naczyń z Oaxaca. Każda decyzja stawiała to, co meksykańskie, w centrum.\n\nDo tej jadalni przybywali ludzie z wielu stron świata. Muzeum wspomina o André Bretonie, francuskim poecie, który promował surrealizm. Wspomina też o fotografce Tinie Modotti i o rosyjskim reżyserze filmowym Siergieju Eisensteinie. Wspomina o Lwie Trockim, który mieszkał w domu ze swoją żoną od tysiąc dziewięćset trzydziestego siódmego do tysiąc dziewięćset trzydziestego dziewiątego roku. Łatwo sobie wyobrazić długie rozmowy przy tym stole.\n\nSztuka ludowa to ta, którą tworzą rzemieślniczki i rzemieślnicy w swoich pracowniach, najczęściej po to, by służyła w codziennym życiu. Dzban, talerz, maska czy figura z papieru mogą być dziełami wielkiej jakości. Frida i Diego o tym wiedzieli, dlatego umieścili je w samym centrum swojego domu.\n\nSpójrz teraz w górę, na półki. Zobaczysz bardzo intensywne kolory, zabawki, figurki zwierząt i przedmioty, które wydają się małe, ale każdy pochodzi z jakiejś pracowni i od konkretnej osoby. Razem tworzą coś w rodzaju mapy kraju."
+    },
+    "retos_observacion": {
+      "hash": "b42572f9de953890",
+      "texto": [
+        "Znajdź żółte kredensy i policz, ile rodzajów naczyń potrafisz rozróżnić",
+        "Odszukaj Judasza w kształcie szkieletu torreadora i figurę konia na dwóch nogach",
+        "Wyobraź sobie Trockiego, Bretona, Modotti i Eisensteina siedzących przy tym samym stole"
+      ]
+    },
+    "especificaciones": {
+      "hash": "628f0f25f7e0ee00",
+      "texto": {
+        "Przestrzeń": "jadalnia na parterze",
+        "Kolekcja": "sztuka ludowa z Puebla, Oaxaca, Michoacán i Stanu Meksyk; dmuchane szkło i papier mâché",
+        "Goście wymieniani przez muzeum": "André Breton, Tina Modotti, Lew Trocki, Siergiej Eisenstein"
+      }
+    },
+    "faq_mito": {
+      "hash": "214f7a38c7c86c52",
+      "texto": {
+        "pregunta": "Mit: Przedmioty sztuki ludowej w domu służyły tylko do dekoracji i nie były używane.",
+        "respuesta": "Rzeczywistość: Frida i Diego je zbierali i używali na co dzień. Frida kładła obrusy z różnych regionów, by przyjmować gości."
+      }
+    }
+  }
+}
