@@ -6,7 +6,7 @@
         "corto": {
           "hash": "a539ac980b2b8b12",
           "file": "en/cdmx_01_bellas_artes_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 48,
           "bytes": 285840,
           "provider": "azure"
@@ -14,7 +14,7 @@
         "largo": {
           "hash": "9d712b24d3570937",
           "file": "en/cdmx_01_bellas_artes_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 206,
           "bytes": 1236240,
           "provider": "azure"
@@ -114,7 +114,7 @@
         "corto": {
           "hash": "44d8ebe064ef7fcb",
           "file": "en/cdmx_07_palacio_postal_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 45,
           "bytes": 269712,
           "provider": "azure"
@@ -122,7 +122,7 @@
         "largo": {
           "hash": "fba0666c8129ef53",
           "file": "en/cdmx_07_palacio_postal_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 179,
           "bytes": 1073376,
           "provider": "azure"
@@ -888,7 +888,7 @@
         "corto": {
           "hash": "5b212a467cc9cca5",
           "file": "en/chap_01_rampa_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 40,
           "bytes": 240912,
           "provider": "azure"
@@ -896,7 +896,7 @@
         "largo": {
           "hash": "db60020c2db59bbe",
           "file": "en/chap_01_rampa_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 188,
           "bytes": 1128528,
           "provider": "azure"
@@ -1014,7 +1014,7 @@
         "corto": {
           "hash": "ee3a369fd1146088",
           "file": "en/chap_07_carruaje_juarez_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 43,
           "bytes": 258048,
           "provider": "azure"
@@ -1022,7 +1022,7 @@
         "largo": {
           "hash": "f4967ddfef01f5df",
           "file": "en/chap_07_carruaje_juarez_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 233,
           "bytes": 1400112,
           "provider": "azure"
@@ -1428,7 +1428,7 @@
         "corto": {
           "hash": "29b5f97b8851387e",
           "file": "en/mna_s00_el_paraguas_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 44,
           "bytes": 261504,
           "provider": "azure"
@@ -1436,7 +1436,7 @@
         "largo": {
           "hash": "84c81389a52324a0",
           "file": "en/mna_s00_el_paraguas_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 160,
           "bytes": 960480,
           "provider": "azure"
@@ -1482,7 +1482,7 @@
         "corto": {
           "hash": "9a264d4d2884eda3",
           "file": "en/mna_s00_monolito_tlaloc_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 46,
           "bytes": 274032,
           "provider": "azure"
@@ -1490,7 +1490,7 @@
         "largo": {
           "hash": "dca21c0656fb61d1",
           "file": "en/mna_s00_monolito_tlaloc_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 189,
           "bytes": 1134288,
           "provider": "azure"
@@ -4632,7 +4632,7 @@
         "corto": {
           "hash": "a01a1d9e12948884",
           "file": "en/teo_00_vistazo_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 41,
           "bytes": 243504,
           "provider": "azure"
@@ -4640,7 +4640,7 @@
         "largo": {
           "hash": "b7bf21da08aedad3",
           "file": "en/teo_00_vistazo_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 172,
           "bytes": 1033920,
           "provider": "azure"
@@ -4668,7 +4668,7 @@
         "corto": {
           "hash": "ade3f69ca6d64829",
           "file": "en/teo_02_templo_serpiente_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 39,
           "bytes": 236448,
           "provider": "azure"
@@ -4676,7 +4676,7 @@
         "largo": {
           "hash": "f18b2b92b0bcf40e",
           "file": "en/teo_02_templo_serpiente_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 170,
           "bytes": 1017216,
           "provider": "azure"
@@ -5228,7 +5228,7 @@
         "corto": {
           "hash": "86e969effca6b78e",
           "file": "es/cdmx_01_bellas_artes_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 45,
           "bytes": 268416,
           "provider": "azure"
@@ -5236,7 +5236,7 @@
         "largo": {
           "hash": "245ec89f27dca6ac",
           "file": "es/cdmx_01_bellas_artes_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 197,
           "bytes": 1179936,
           "provider": "azure"
@@ -5336,7 +5336,7 @@
         "corto": {
           "hash": "b68e8488f6218c5d",
           "file": "es/cdmx_07_palacio_postal_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 42,
           "bytes": 254160,
           "provider": "azure"
@@ -5344,7 +5344,7 @@
         "largo": {
           "hash": "0351bc4b5dd418fe",
           "file": "es/cdmx_07_palacio_postal_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 170,
           "bytes": 1022256,
           "provider": "azure"
@@ -6128,7 +6128,7 @@
         "corto": {
           "hash": "cced00946c7b3fb2",
           "file": "es/chap_01_rampa_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 40,
           "bytes": 239616,
           "provider": "azure"
@@ -6136,7 +6136,7 @@
         "largo": {
           "hash": "76ef77ee02f511e3",
           "file": "es/chap_01_rampa_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 181,
           "bytes": 1086768,
           "provider": "azure"
@@ -6254,7 +6254,7 @@
         "corto": {
           "hash": "4778144c288fb4a2",
           "file": "es/chap_07_carruaje_juarez_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 42,
           "bytes": 251280,
           "provider": "azure"
@@ -6262,7 +6262,7 @@
         "largo": {
           "hash": "95000d4a526b6be9",
           "file": "es/chap_07_carruaje_juarez_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 223,
           "bytes": 1338768,
           "provider": "azure"
@@ -6668,7 +6668,7 @@
         "corto": {
           "hash": "e62983583324f379",
           "file": "es/mna_s00_el_paraguas_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 41,
           "bytes": 247968,
           "provider": "azure"
@@ -6676,7 +6676,7 @@
         "largo": {
           "hash": "af09d34ab0e9ff14",
           "file": "es/mna_s00_el_paraguas_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 155,
           "bytes": 929952,
           "provider": "azure"
@@ -6722,7 +6722,7 @@
         "corto": {
           "hash": "24197468134f554c",
           "file": "es/mna_s00_monolito_tlaloc_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 44,
           "bytes": 262800,
           "provider": "azure"
@@ -6730,7 +6730,7 @@
         "largo": {
           "hash": "b05dd095891e4a33",
           "file": "es/mna_s00_monolito_tlaloc_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 179,
           "bytes": 1074960,
           "provider": "azure"
@@ -9872,7 +9872,7 @@
         "largo": {
           "hash": "3e4d833b721aa243",
           "file": "es/teo_00_vistazo_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 165,
           "bytes": 987552,
           "provider": "azure"
@@ -9900,7 +9900,7 @@
         "largo": {
           "hash": "eec144a7ab51f2a2",
           "file": "es/teo_02_templo_serpiente_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 160,
           "bytes": 959616,
           "provider": "azure"
@@ -9908,7 +9908,7 @@
         "corto": {
           "hash": "16dc661670c05959",
           "file": "es/teo_02_templo_serpiente_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 40,
           "bytes": 240192,
           "provider": "azure"
@@ -10460,7 +10460,7 @@
         "corto": {
           "hash": "ad2a09b421781d2c",
           "file": "fr/cdmx_01_bellas_artes_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 48,
           "bytes": 286416,
           "provider": "azure"
@@ -10468,7 +10468,7 @@
         "largo": {
           "hash": "90d6d0d719856f31",
           "file": "fr/cdmx_01_bellas_artes_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 196,
           "bytes": 1176912,
           "provider": "azure"
@@ -11306,7 +11306,7 @@
         "corto": {
           "hash": "c50592f2cef9d8a8",
           "file": "fr/chap_01_rampa_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 39,
           "bytes": 233424,
           "provider": "azure"
@@ -11314,7 +11314,7 @@
         "largo": {
           "hash": "62b2fcf18c818082",
           "file": "fr/chap_01_rampa_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 181,
           "bytes": 1084320,
           "provider": "azure"
@@ -11432,7 +11432,7 @@
         "corto": {
           "hash": "9aed013a82236c2d",
           "file": "fr/chap_07_carruaje_juarez_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 44,
           "bytes": 263088,
           "provider": "azure"
@@ -11440,7 +11440,7 @@
         "largo": {
           "hash": "f12ca5712651a6d7",
           "file": "fr/chap_07_carruaje_juarez_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 228,
           "bytes": 1369584,
           "provider": "azure"
@@ -11846,7 +11846,7 @@
         "corto": {
           "hash": "51f1753fea59cf50",
           "file": "fr/mna_s00_el_paraguas_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 40,
           "bytes": 237744,
           "provider": "azure"
@@ -11854,7 +11854,7 @@
         "largo": {
           "hash": "22499301d0309032",
           "file": "fr/mna_s00_el_paraguas_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 153,
           "bytes": 918864,
           "provider": "azure"
@@ -11900,7 +11900,7 @@
         "corto": {
           "hash": "aafab962a44e4578",
           "file": "fr/mna_s00_monolito_tlaloc_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 42,
           "bytes": 249264,
           "provider": "azure"
@@ -11908,7 +11908,7 @@
         "largo": {
           "hash": "4cee8732c8c79308",
           "file": "fr/mna_s00_monolito_tlaloc_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 182,
           "bytes": 1091808,
           "provider": "azure"
@@ -15032,7 +15032,7 @@
         "largo": {
           "hash": "95a16265ace37be2",
           "file": "fr/teo_00_vistazo_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 165,
           "bytes": 987408,
           "provider": "azure"
@@ -15040,7 +15040,7 @@
         "corto": {
           "hash": "aa985dbd49c419ac",
           "file": "fr/teo_00_vistazo_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 39,
           "bytes": 233568,
           "provider": "azure"
@@ -15068,7 +15068,7 @@
         "corto": {
           "hash": "f138d56c794614d0",
           "file": "fr/teo_02_templo_serpiente_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 39,
           "bytes": 231264,
           "provider": "azure"
@@ -15076,7 +15076,7 @@
         "largo": {
           "hash": "d35e73c04a81fb27",
           "file": "fr/teo_02_templo_serpiente_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 160,
           "bytes": 961056,
           "provider": "azure"
@@ -15628,7 +15628,7 @@
         "corto": {
           "hash": "dcb67083e477be73",
           "file": "pl/cdmx_01_bellas_artes_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 50,
           "bytes": 298656,
           "provider": "azure"
@@ -15636,7 +15636,7 @@
         "largo": {
           "hash": "3113eb291f47f2d0",
           "file": "pl/cdmx_01_bellas_artes_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 214,
           "bytes": 1282320,
           "provider": "azure"
@@ -15736,7 +15736,7 @@
         "corto": {
           "hash": "4544147460b6dd8d",
           "file": "pl/cdmx_07_palacio_postal_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 46,
           "bytes": 275616,
           "provider": "azure"
@@ -15744,7 +15744,7 @@
         "largo": {
           "hash": "3450885928777d37",
           "file": "pl/cdmx_07_palacio_postal_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 189,
           "bytes": 1132848,
           "provider": "azure"
@@ -16474,7 +16474,7 @@
         "corto": {
           "hash": "9a539d36385eb8ea",
           "file": "pl/chap_01_rampa_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 43,
           "bytes": 259344,
           "provider": "azure"
@@ -16482,7 +16482,7 @@
         "largo": {
           "hash": "389fdcef46aa419e",
           "file": "pl/chap_01_rampa_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 197,
           "bytes": 1182672,
           "provider": "azure"
@@ -16582,7 +16582,7 @@
         "corto": {
           "hash": "4f98d756bbdc8581",
           "file": "pl/chap_07_carruaje_juarez_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 48,
           "bytes": 286848,
           "provider": "azure"
@@ -16590,7 +16590,7 @@
         "largo": {
           "hash": "04ee86d06992be4a",
           "file": "pl/chap_07_carruaje_juarez_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 252,
           "bytes": 1512576,
           "provider": "azure"
@@ -16960,7 +16960,7 @@
         "corto": {
           "hash": "40137c4a857cb34f",
           "file": "pl/mna_s00_el_paraguas_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 47,
           "bytes": 283536,
           "provider": "azure"
@@ -16968,7 +16968,7 @@
         "largo": {
           "hash": "e19e33ef7964fb0a",
           "file": "pl/mna_s00_el_paraguas_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 165,
           "bytes": 990576,
           "provider": "azure"
@@ -17014,7 +17014,7 @@
         "corto": {
           "hash": "d7ecfa53a3d8119d",
           "file": "pl/mna_s00_monolito_tlaloc_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 48,
           "bytes": 286704,
           "provider": "azure"
@@ -17022,7 +17022,7 @@
         "largo": {
           "hash": "79887420d229c0d3",
           "file": "pl/mna_s00_monolito_tlaloc_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 194,
           "bytes": 1164096,
           "provider": "azure"
@@ -20146,7 +20146,7 @@
         "corto": {
           "hash": "a80e14e9fcdfb4ee",
           "file": "pl/teo_00_vistazo_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 42,
           "bytes": 251856,
           "provider": "azure"
@@ -20154,7 +20154,7 @@
         "largo": {
           "hash": "afdacb19a066ba8c",
           "file": "pl/teo_00_vistazo_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 178,
           "bytes": 1067328,
           "provider": "azure"
@@ -20182,7 +20182,7 @@
         "corto": {
           "hash": "db4ce8e35a336290",
           "file": "pl/teo_02_templo_serpiente_corto.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 44,
           "bytes": 261792,
           "provider": "azure"
@@ -20190,7 +20190,7 @@
         "largo": {
           "hash": "8e2d2dbe5e463a8c",
           "file": "pl/teo_02_templo_serpiente_largo.mp3",
-          "remote": true,
+          "remote": false,
           "seconds": 175,
           "bytes": 1047600,
           "provider": "azure"
