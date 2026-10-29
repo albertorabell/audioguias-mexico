@@ -51,7 +51,6 @@ export const PAGINAS = {
   },
   MUSEO_FRIDA_KAHLO: {
     articulo: 'el',
-    proximamente: true, // aún no está publicado en la app: su página dice «próximamente» y no lleva botón
     slugs: { es: 'museo-frida-kahlo-casa-azul', en: 'frida-kahlo-museum-blue-house', fr: 'musee-frida-kahlo-maison-bleue', pl: 'muzeum-fridy-kahlo-niebieski-dom' },
     nombres: { en: 'Frida Kahlo Museum (The Blue House)', fr: 'Musée Frida Kahlo (La Maison Bleue)', pl: 'Muzeum Fridy Kahlo (Niebieski Dom)' },
   },
