@@ -1,0 +1,56 @@
+{
+  "id": "fri_00_fachada_azul",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8228df08ee07bd98",
+      "texto": "The Blue House from Londres Street"
+    },
+    "frase_gancho": {
+      "hash": "f32f859282a44981",
+      "texto": "Painted blue outside and in: that is how Carlos Pellicer described this house in nineteen fifty-five."
+    },
+    "puente_narrativo": {
+      "hash": "edd1689016d5ab6b",
+      "texto": "Step into the house: the visit begins inside, with Frida’s paintings and belongings."
+    },
+    "guion_corto": {
+      "hash": "1b504df7bded2cdc",
+      "texto": "This corner of Coyoacán saw Frida Kahlo born, and it also saw her die. Her father, Guillermo Kahlo, a photographer born in Germany, built the house in nineteen oh four, with the rooms arranged around a central courtyard. Frida was born here on July sixth, nineteen oh seven, although she preferred to say it was in nineteen ten. Years later, Diego Rivera saved the property by paying off the family’s debts. The poet Carlos Pellicer described it in nineteen fifty-five as a house painted blue, outside and in. Before you cross the entrance, notice that color. It is part of the way Frida and Diego chose to live."
+    },
+    "guion_largo": {
+      "hash": "892ac154ffc21efe",
+      "texto": "The house is more than a century old. Guillermo Kahlo built it in nineteen oh four, on the corner of Londres and Allende streets. He was a photographer born in Germany who had come to Mexico in eighteen ninety. He built a house of its time, with a courtyard at the center and the rooms around it, in the style of the second half of the nineteenth century. Today it has about eight hundred square meters of built space, on a lot of one thousand two hundred.\n\nFrida was born here on July sixth, nineteen oh seven. She used to say she had been born in nineteen ten, the year the Mexican Revolution began, because she wanted to see herself as a daughter of that era. At the age of six she fell ill with polio, and the illness left her right leg thinner and shorter. After the bus accident of nineteen twenty-five, she came back to this house to recover. Of her forty-seven years of life, she lived thirty-six here.\n\nThe property came close to being lost. In the early nineteen thirties, Diego Rivera paid the mortgages and debts that Guillermo Kahlo had left behind, and so he rescued the house.\n\nIn nineteen thirty-seven, Leon Trotsky, a Russian revolutionary fleeing from Stalin, came to live here with his wife, Natalia Sedova. To protect them, some walls were closed off with brick and the neighboring lot was bought, measuring one thousand and forty square meters. The garden you see today was planted there. The Trotskys lived in the house until nineteen thirty-nine.\n\nBlue is the first thing anyone notices. The poet Carlos Pellicer, a friend of Frida and Diego, wrote in November of nineteen fifty-five that the house was painted blue, outside and in, and that it seemed to hold a little piece of sky.\n\nWhen Frida died, in nineteen fifty-four, Diego wanted the house to become a museum for all Mexicans. In nineteen fifty-seven he created a trust with the Bank of Mexico to look after it, and he asked Pellicer to prepare the museography. The Blue House opened to the public in nineteen fifty-eight, four years after Frida’s death.\n\nThe visit takes you through the house from the inside, as a journey through a life: the painting halls, the studio and the bedrooms, and the hall where part of Frida’s wardrobe is displayed. Depending on the route you choose, you will also pass through the dining room, the kitchen and the garden. Diego commissioned the studio in nineteen forty-six from the architect Juan O’Gorman.\n\nAs you enter, on a blue wall you will see a niche with an inscription. It says that Frida and Diego lived in this house from nineteen twenty-nine to nineteen fifty-four. Below it there are small pre-Hispanic sculptures. It is one of the first things you will see as you cross the entrance, and it sums up well what comes next.\n\nThe museum is cared for today by the Diego Rivera and Frida Kahlo Museums Trust, of the Bank of Mexico. Carlos Pellicer was its first director.\n\nBefore going in, look at the corner, the color and the great door. Every room that follows holds a part of the story you have just heard."
+    },
+    "retos_observacion": {
+      "hash": "161a2da9831c1223",
+      "texto": [
+        "Look at the color of the walls from the sidewalk. Pellicer described it in nineteen fifty-five as blue outside and in",
+        "Notice that the house looks simple from the street. It is built around a courtyard, and the most interesting part lies within",
+        "Before you cross, think that Frida was born here, lived here for most of her life, and died here"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4d00cf81f820d23f",
+      "texto": {
+        "Construction": "1904, by Guillermo Kahlo",
+        "Current area": "about 800 m² of built space on a lot of 1,200 m²",
+        "Garden": "neighboring lot of 1,040 m², bought in 1937",
+        "Studio": "built in 1946 by Juan O’Gorman",
+        "Museum": "opened in 1958, with museography by Carlos Pellicer",
+        "Address": "Londres 247, Del Carmen neighborhood, Coyoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "7987b00110b1d6bf",
+      "texto": {
+        "pregunta": "Myth: Frida Kahlo was born in nineteen ten, together with the Mexican Revolution.",
+        "respuesta": "Reality: She was born on July sixth, nineteen oh seven, in this house. It was she who changed the year to nineteen ten to present herself as a daughter of the Revolution."
+      }
+    }
+  }
+}

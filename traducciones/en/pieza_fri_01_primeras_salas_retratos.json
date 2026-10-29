@@ -1,0 +1,54 @@
+{
+  "id": "fri_01_primeras_salas_retratos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "12fb34f9f0d6aacb",
+      "texto": "My Family and the Portrait of Her Father"
+    },
+    "frase_gancho": {
+      "hash": "deeb9297eeac821b",
+      "texto": "A painted family tree, with parents, grandparents, sisters, nephews and an unknown baby."
+    },
+    "puente_narrativo": {
+      "hash": "c2a8779e86be6f80",
+      "texto": "Continue through the painting halls to a still life of watermelons, one of the last large paintings Frida painted."
+    },
+    "guion_corto": {
+      "hash": "fa50a9b4070b113b",
+      "texto": "In these rooms, which used to be the family’s living room, Frida is surrounded by her people. The painting My Family, from nineteen forty-nine, is a family tree. It shows the painter, her parents, her grandparents, her sisters, two nephews and an unknown baby. Nearby is the portrait of her father, Guillermo Kahlo, a photographer who took pictures of buildings and also photographed himself. Frida painted the picture from one of those self-portraits. And further back in time is her first self-portrait, from nineteen twenty-six, made as a gift for her boyfriend at the time. Here you begin to understand where her way of looking came from."
+    },
+    "guion_largo": {
+      "hash": "7ebd529623d353ad",
+      "texto": "The first rooms of the house were reorganized as a gallery. They used to be the family’s living room, with a volcanic stone fireplace designed by Diego Rivera. Today paintings by Frida and Diego hang here, along with photographs by Frida’s father. If you start with the portraits, you understand where everything else comes from.\n\nThe painting My Family is from nineteen forty-nine. It is a painted family tree. According to the museum, it shows Frida, her parents, her grandparents, her sisters, two nephews and an unknown baby. She painted it many years after leaving childhood behind, and even so it keeps telling who was in her home. For Frida, the family was the place where the story began.\n\nHer father, Guillermo Kahlo, was born in eighteen seventy-two and arrived in Mexico in eighteen ninety. He was a photographer, and he photographed buildings of his time. He suffered from epilepsy. He also photographed himself many times. Years later, Frida took one of those self-portraits and turned it into the painting Portrait of My Father Guillermo Kahlo. The museum offers a simple question for children visiting the hall: look at the background and think about what Frida drew there.\n\nFrom her father she learned something more than the way of looking. He taught her to use the camera. Frida grew up among negatives, family photos and portraits, and that habit of looking at herself from a distance comes from there. Her mother, Matilde Calderón, was from Oaxaca.\n\nIn her youth, Frida also learned from Fernando Fernández, an engraver and friend of her father, and worked as an apprentice with him. That is where her fine touch for drawing comes from, which shows in every detail of her paintings.\n\nThe oldest piece in the hall is the Self-Portrait in a Velvet Dress, from nineteen twenty-six. It is Frida’s first self-portrait. She made it as a gift for her boyfriend, Alejandro Gómez Arias, and it recalls the style of the Italian Renaissance, especially that of Botticelli. Look at the long neck and the posture. It is a young Frida who is still trying out how she wants to present herself.\n\nThe house also preserves works that Frida left unfinished, such as Frida and the Caesarean Section, from nineteen thirty-one. It speaks of motherhood, which she never experienced. It is not always on view, because the halls change with the exhibitions.\n\nStay a moment in front of the portraits. Here there is not yet any pain or politics. There is a family, a painter who is just beginning, and the house where everything happened."
+    },
+    "retos_observacion": {
+      "hash": "d8f5d4f051c63814",
+      "texto": [
+        "Look in My Family for the bodies of the grandparents, the parents and the sisters, and find the baby the museum calls unknown",
+        "Compare the portrait of her father with the idea that he also photographed buildings and photographed himself",
+        "Look at the neck and the posture in the Self-Portrait in a Velvet Dress and look for the resemblance to Renaissance painting"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7572ba4279de7651",
+      "texto": {
+        "My Family": "1949, family tree",
+        "Portrait of My Father Guillermo Kahlo": "painted from a photographic self-portrait of her father",
+        "Self-Portrait in a Velvet Dress": "1926, her first self-portrait",
+        "Frida and the Caesarean Section": "1931, unfinished, oil on canvas, 620 by 730 mm, according to Google Arts and Culture"
+      }
+    },
+    "faq_mito": {
+      "hash": "9cd78df271e15105",
+      "texto": {
+        "pregunta": "Myth: Frida learned to paint at an academy, with Diego Rivera as her teacher.",
+        "respuesta": "Reality: She learned mostly on her own. From her father she learned the photographic eye, and from Fernando Fernández, an engraver and friend of the family, fine drawing."
+      }
+    }
+  }
+}

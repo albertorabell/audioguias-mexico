@@ -1,0 +1,53 @@
+{
+  "id": "fri_04_comedor_mexicano",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6b49529913196bf0",
+      "texto": "The Dining Room: Folk Art Made to Be Used"
+    },
+    "frase_gancho": {
+      "hash": "039b24c556b3b7f0",
+      "texto": "Trotsky, Breton and Eisenstein once sat here, surrounded by masks, clay and blown glass."
+    },
+    "puente_narrativo": {
+      "hash": "2bc3f18392edd311",
+      "texto": "From the dining room, step over and peek into the kitchen, where meals were cooked over a wood-burning stove."
+    },
+    "guion_corto": {
+      "hash": "05bae9fa87152233",
+      "texto": "Look at the yellow cupboards and the long table. In the dining room of the Casa Azul, Frida and Diego did not put in luxury furniture. They filled it with Mexican folk art. There is earthenware from Puebla, from Oaxaca, from Michoacán and from the State of Mexico, blown glass, masks and a Judas figure shaped like a bullfighter’s skeleton. But it was not decoration. They collected these pieces and they also used them. Frida set the table with tablecloths from different regions of the country. Visitors such as André Breton, Tina Modotti, León Trotsky and Sergei Eisenstein passed through this table. Here you can understand that for them Mexico was not an ornament. It was daily life. Take your time looking at every corner of the room."
+    },
+    "guion_largo": {
+      "hash": "e73367196bebce49",
+      "texto": "This dining room is one of the most cheerful rooms in the house. The first thing you notice is the yellow of the cupboards, those pieces of furniture with shelves where plates and glasses are kept. On the walls there are popular paintings from the nineteenth century, with still lifes and scenes of everyday life. On the table and on the shelves, clay, glass and papier-mâché pile up.\n\nThe museum tells us that Frida and Diego married in nineteen twenty-nine and from then on collected Mexican folk art. Over time they gathered masks, papier-mâché figures and clay pieces. In the dining room there is a Judas figure shaped like a bullfighter’s skeleton and a figure of a horse on two legs. There is also a blue blown-glass dish in the shape of a shell. The earthenware comes from different regions. The list includes Puebla, Oaxaca, Michoacán and the State of Mexico, as well as glass from Carretones and from Guadalajara.\n\nWhat matters is that these objects were used. Frida set the table with tablecloths from different regions of the country, and the table was prepared as if to welcome guests. The pieces were not kept behind glass. They were part of everyday meals. For them, folk art was a way of living, not a collection to be looked at from a distance.\n\nDecorating this way was also a statement. Painting the house blue, filling it with clay and papier-mâché, eating from Oaxaca earthenware. Every decision put what is Mexican at the center.\n\nAnd people from many parts of the world came to this dining room. The museum mentions André Breton, the French poet who championed surrealism. It also mentions the photographer Tina Modotti and the Russian film director Sergei Eisenstein. It mentions León Trotsky, who lived in the house with his wife from nineteen thirty-seven to nineteen thirty-nine. It is easy to imagine long conversations around this table.\n\nFolk art is the kind made by artisans in their workshops, almost always to be used in daily life. A jug, a plate, a mask or a papier-mâché figure can be works of great quality. Frida and Diego knew this, and that is why they placed them at the center of their home.\n\nNow look up, toward the shelves. You will see very strong colors, toys, animal figures and objects that seem small, but each one comes from a workshop and from a person. Together they form a kind of map of the country."
+    },
+    "retos_observacion": {
+      "hash": "b42572f9de953890",
+      "texto": [
+        "Find the yellow cupboards and count how many kinds of earthenware you can tell apart",
+        "Find the Judas figure shaped like a bullfighter’s skeleton and the figure of a horse on two legs",
+        "Imagine Trotsky, Breton, Modotti and Eisenstein sitting at this very table"
+      ]
+    },
+    "especificaciones": {
+      "hash": "628f0f25f7e0ee00",
+      "texto": {
+        "Space": "ground-floor dining room",
+        "Collection": "folk art from Puebla, Oaxaca, Michoacán and the State of Mexico; blown glass and papier-mâché",
+        "Visitors mentioned by the museum": "André Breton, Tina Modotti, León Trotsky, Sergei Eisenstein"
+      }
+    },
+    "faq_mito": {
+      "hash": "214f7a38c7c86c52",
+      "texto": {
+        "pregunta": "Myth: The folk art pieces in the house were only for decoration and were not used.",
+        "respuesta": "Reality: Frida and Diego collected them and used them in daily life. Frida set the table with tablecloths from different regions to welcome her guests."
+      }
+    }
+  }
+}
