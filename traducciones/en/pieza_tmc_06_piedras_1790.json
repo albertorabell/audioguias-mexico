@@ -1,0 +1,56 @@
+{
+  "id": "tmc_06_piedras_1790",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc8571f404f14433",
+      "texto": "The Stones of Seventeen Ninety"
+    },
+    "frase_gancho": {
+      "hash": "53e720e22dbbbb60",
+      "texto": "In a single year, both the Coatlicue and the Sun Stone turned up in this plaza, and the second ended up attached to a tower of the Cathedral."
+    },
+    "puente_narrativo": {
+      "hash": "1ff1f8faa20d6dca",
+      "texto": "Now continue toward the Cathedral and enter the central nave."
+    },
+    "guion_corto": {
+      "hash": "8610dd492ffd4aa3",
+      "texto": "In seventeen ninety, workers digging a trench for a canal in this plaza came upon two great Mexica stones. The first appeared on August thirteenth and is the Coatlicue, an andesite sculpture two and a half meters tall. The second came out on December seventeenth and is the Sun Stone. The Coatlicue was taken to the university and was buried again there. The Sun Stone was mounted on one of the towers of this Cathedral, where it stayed until eighteen eighty-five. Today both are in the National Museum of Anthropology. These discoveries were the first warnings of the buried city."
+    },
+    "guion_largo": {
+      "hash": "391a5d8c1918542a",
+      "texto": "In seventeen ninety, this plaza was being paved and water works were under way. That year, the earth gave back two enormous stones that had lain buried for almost three centuries.\n\nThe first was the Coatlicue. It appeared on August thirteenth, when a trench was being dug for a canal, near what is now the National Palace. It is an andesite sculpture, carved in the round, about two and a half meters tall. It is symmetrical front and back, and every part is covered in reliefs. It is identified with the goddess Coatlicue, whose name means she of the skirt of serpents. Its identification is still debated, and some scholars have proposed that it represents other figures, such as the stars known as the tzitzimime.\n\nThe men of the time did not know what to do with it. It was taken to the university to be preserved and studied. But some clergymen feared that the Indigenous people would begin to venerate it again, and they ordered it buried once more in a courtyard. It was dug up in eighteen oh three so that Alexander von Humboldt could draw it, and again in eighteen twenty-three, to make a mold. It remained there until the first National Museum was founded.\n\nThe second stone came to light on December seventeenth, seventeen ninety, near the first. It is the Sun Stone, also called the Aztec Calendar. It is an enormous basalt sculpture. At the center is a face surrounded by the signs of the twenty days of the two-hundred-and-sixty-day calendar. For almost a century it was believed to be a calendar, because that is how Antonio de León y Gama interpreted it, having studied it right away. Today it is thought to have been a sacrificial altar, a cuauhxicalli, which means vessel of the eagles. It is said that Moctezuma the Second dedicated it a few years before the conquest.\n\nHere is the detail that connects with the Cathedral. After it appeared, the Sun Stone was mounted on one of the towers of this church. It stayed set into the wall of the bell tower until eighteen eighty-five, when it was moved to the National Museum. A catalog from eighteen eighty-two still places it next to one of the towers. In other words, for almost a century people walked through this plaza and saw, attached to the Cathedral, one of the most representative works of Mexica culture. There was no clear explanation of what it was.\n\nThese discoveries hold a special place in the history of Mexican archaeology. They were the first signs that the city of Tenochtitlan was still down there. The Templo Mayor Museum, in fact, tells the story of the research starting in seventeen ninety. In this way the plaza, the Cathedral and the archaeological zone are linked.\n\nToday, both the Coatlicue and the Sun Stone are in the National Museum of Anthropology, in Chapultepec. They are not on this tour, but they are well worth seeing there.\n\nWhile you are here, imagine the scene. A trench, a group of workers, a blow of the pickax and suddenly a face of stone. The city that seemed forgotten reappeared without warning, and the authorities of the day did not know whether to display it, study it or hide it. That doubt has accompanied these discoveries to this day."
+    },
+    "retos_observacion": {
+      "hash": "d0de566e044714e8",
+      "texto": [
+        "Find the National Palace: the Coatlicue appeared near it",
+        "Look at the towers of the Cathedral and imagine a great circular stone set into one of them",
+        "Find the spot where the flagpole stands today, in the center of the plaza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8dbad0296172f1af",
+      "texto": {
+        "Coatlicue": "found on August 13, 1790, andesite, about 2.52 m tall",
+        "Sun Stone": "found on December 17, 1790, basalt",
+        "Sun Stone on the Cathedral tower": "until 1885",
+        "Function of the Sun Stone proposed today": "cuauhxicalli, sacrificial altar",
+        "Current location of both": "National Museum of Anthropology",
+        "Location of the discovery": "Plaza de la Constitución, Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "af2c8cb7afd1974e",
+      "texto": {
+        "pregunta": "Myth: The Sun Stone is the calendar the Mexica used every day.",
+        "respuesta": "Reality: Although it shows the twenty days of the 260-day calendar, today it is interpreted as a sacrificial altar, a cuauhxicalli, and not as a calendar for daily use."
+      }
+    }
+  }
+}

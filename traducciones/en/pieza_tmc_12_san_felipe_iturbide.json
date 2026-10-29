@@ -1,0 +1,54 @@
+{
+  "id": "tmc_12_san_felipe_iturbide",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9239a9e5e3793ff2",
+      "texto": "San Felipe de Jesús and the Urn of Iturbide"
+    },
+    "frase_gancho": {
+      "hash": "331c7819a966c979",
+      "texto": "The chapel of the first Mexican saint holds the remains of an emperor who ruled for only a few months."
+    },
+    "puente_narrativo": {
+      "hash": "2ddb0ce9d521c859",
+      "texto": "Return to the main nave. When you are ready, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "d7e5a2f5252a1248",
+      "texto": "In this chapel, a saint and an emperor come together. San Felipe de Jesús was born in Mexico City and is considered the first Mexican saint. He died a martyr in Nagasaki, Japan, in fifteen ninety-seven. In the same chapel, a mahogany urn with glass panes holds the remains of Agustín de Iturbide. He brought about the completion of independence and was crowned emperor in this Cathedral on July twenty-first, eighteen twenty-two. He was executed in eighteen twenty-four, and his remains arrived here in eighteen thirty-eight."
+    },
+    "guion_largo": {
+      "hash": "2fcf6a0c6a500332",
+      "texto": "This chapel brings together two stories that seem very distant from each other. One is religious, the other is political, and both pass through Mexico City.\n\nThe chapel is dedicated to San Felipe de Jesús, who was born in this city and is considered the first Mexican saint. He was a young Franciscan friar who traveled to the Philippines and, on his way back, was shipwrecked off the coast of Japan. There he was arrested and died crucified in Nagasaki, in fifteen ninety-seven, along with other Christians. The Church canonized him in the nineteenth century. The chapel is dedicated to him and holds a sculpture of him.\n\nIn this same chapel, since eighteen thirty-eight, stands the urn with the remains of Agustín de Iturbide. It is made of mahogany, has clear glass panes, and is kept here permanently. Next to it there is usually a banner with the coat of arms of the First Mexican Empire and replicas of documents from the period. The Cathedral also keeps the heart of another president of that era, Anastasio Bustamante.\n\nIturbide is a difficult figure to sum up. He was born in Valladolid, today Morelia, in seventeen eighty-three. He led the completion of independence. He entered Mexico City in triumph on September twenty-seventh, eighteen twenty-one. In May of eighteen twenty-two, Congress proclaimed him emperor, and on July twenty-first of that year he was crowned in this Cathedral. He ruled for about ten months. He abdicated in the face of rebellions and a lack of resources, went into exile, and in eighteen twenty-four returned to Mexico. Congress had declared him a traitor, and he was executed on July nineteenth of that year in Padilla, Tamaulipas, at the age of forty.\n\nFor fourteen years his remains rested in a modest grave in that town. In eighteen thirty-eight, President Antonio López de Santa Anna decreed that he be declared a hero of the nation and that his remains be moved to the capital. They arrived at the Cathedral that same year, and a requiem Mass was held. Since then they have been in this chapel.\n\nOpinions about Iturbide change depending on who tells the story. For some he was the man who achieved independence by making a pact with the insurgents, and for others, a military man who wanted to crown himself. Here, in this chapel, what you see is the material trace of that debate: an urn, a banner, and some documents.\n\nIf you are interested in following that story, remember that the coronation took place in the main chapel, next to the altar. That gesture, a religious ceremony to legitimize a ruler, showed the extent to which the Cathedral was the center of power, just as it had been during the viceroyalty.\n\nBefore you leave, look closely at the sculpture of San Felipe de Jesús. Think about what this chapel brings together: a saint from Mexico City who died in Japan, an emperor who died in Tamaulipas, and a chapel that joins them. Few chapels in the city can tell such a long story in so few meters."
+    },
+    "retos_observacion": {
+      "hash": "b2c1db0ec3dccd50",
+      "texto": [
+        "Find the mahogany urn with glass panes and the banner with the coat of arms of the First Empire",
+        "Locate the sculpture of San Felipe de Jesús and notice his posture",
+        "Look at the chapel’s vault and compare it with those of the naves"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d99686ad5457e58",
+      "texto": {
+        "San Felipe de Jesús": "born in Mexico City, died in Nagasaki in 1597, first Mexican saint",
+        "Iturbide": "crowned on July 21, 1822, executed on July 19, 1824",
+        "Restos de Iturbide en la Catedral": "since 1838",
+        "Urna": "mahogany with glass panes"
+      }
+    },
+    "faq_mito": {
+      "hash": "21b8ea46b0a0762a",
+      "texto": {
+        "pregunta": "Myth: Iturbide is buried in the Rotunda of Illustrious Persons.",
+        "respuesta": "Reality: His remains have been in an urn in the chapel of San Felipe de Jesús, in the Metropolitan Cathedral, since 1838."
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "tmc-04-museo",
+  "tipo": "sala",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "bdbf70e509d37de2",
+      "texto": "The Templo Mayor Museum"
+    },
+    "frase_gancho": {
+      "hash": "2eba85b9ca40aced",
+      "texto": "What was found beneath the city’s ground."
+    },
+    "introduccion_narrativa": {
+      "hash": "59d39bb743f29257",
+      "texto": "You enter the Templo Mayor Museum, which holds what came to light in the excavations beginning in nineteen seventy-eight. There are nine stops across its eight halls, arranged around the temple’s two chapels. You will see the Tlaltecuhtli, the antecedents of Tenochtitlan, the offerings, the tribute, the hall of Huitzilopochtli with the Coyolxauhqui, the hall of Tláloc, nature, and the conquest. Hall numbers and the order may change with the museum’s renovations."
+    }
+  }
+}

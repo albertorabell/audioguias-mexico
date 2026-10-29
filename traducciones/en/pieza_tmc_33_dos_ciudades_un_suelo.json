@@ -1,0 +1,52 @@
+{
+  "id": "tmc_33_dos_ciudades_un_suelo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f38709486341dda6",
+      "texto": "Two Cities on a Single Ground"
+    },
+    "frase_gancho": {
+      "hash": "19628bfd938714aa",
+      "texto": "From nineteen thirteen to two thousand fifteen, the city was never finished being discovered."
+    },
+    "puente_narrativo": {
+      "hash": "c796504652a996d4",
+      "texto": "Stay a while in the plaza, with the Cathedral in front of you and the ruins just a few steps away."
+    },
+    "guion_corto": {
+      "hash": "0790e38670b6d1ff",
+      "texto": "This visit ends where it began: on a single ground holding two cities. Below lay Tenochtitlan, with its temple, and above it rose the Cathedral and the viceregal city. In nineteen thirteen and nineteen fourteen, Manuel Gamio uncovered a part of the temple. In nineteen seventy-eight, Coyolxauhqui appeared. In two thousand six, Tlaltecuhtli. In two thousand fifteen, the Huei Tzompantli. Each discovery showed that the heart of the city still holds a great deal, and that much remains to be discovered. These are four moments that changed what was known about this place. The Cathedral, in turn, had to be corrected so that it would not sink any further, and the two histories share the same ground."
+    },
+    "guion_largo": {
+      "hash": "5116f5df6474d958",
+      "texto": "You have walked through a Cathedral and a temple, and both stories have led you to the same ground. This last stop is for looking at the whole picture calmly.\n\nLet us begin at the beginning. Before the conquest, the Mexica built their main temple here, the Huey Teocalli. It was the center of their world. After fifteen twenty-one, the Spaniards destroyed the temples and used their stones to build the new city. One of those constructions was the Cathedral, which was built up over centuries, starting in the viceregal period. Its vaults were closed between fifteen eighty-one and sixteen sixty-seven.\n\nCenturies went by in which the temple lay buried. The first signs of what was underneath appeared in seventeen ninety, with Mexica sculptures found in the plaza. Later, between nineteen thirteen and nineteen fourteen, the archaeologist Manuel Gamio uncovered a part of the temple. It was the beginning of something that was not yet finished, and that changed the way of seeing the center of the city.\n\nIn nineteen seventy-eight, workers of the Light and Power electric company found the monolith of Coyolxauhqui, and the Templo Mayor Project began. In two thousand six, Tlaltecuhtli appeared, and today it welcomes visitors in the lobby. In two thousand fifteen, the Urban Archaeology Program found the Huei Tzompantli, on Guatemala Street. Each discovery changed what was known. Whatever appears next will keep changing it, because the exploration is not over.\n\nMeanwhile, the Cathedral also has its own history with the ground. The soft soil beneath it has sunk unevenly since its construction. Since nineteen ninety-three it has been corrected with a technique called controlled subexcavation, which consists of removing clay little by little. It is another way of living with what lies beneath the city. The sinking and the discoveries are two sides of the same ground.\n\nThere is an idea that ties all this together. The Mexica built their temple in layers, each one on top of the previous one. Today's city did the same: a colonial layer over the Mexica one, and a modern one over the colonial. You are walking on the last one. Each layer left traces, and archaeologists read them patiently, one by one.\n\nIf you have time, sit for a few minutes in the plaza. Look at the Cathedral, on the north side of the plaza, and remember that a few steps to the east are the ruins of the Templo Mayor. They are two ways of understanding the world, and neither one completely erased the other. One stands upright, the other lies open below street level.\n\nThank you for exploring this place. If you return another day, you will notice things you overlooked before. There is always something new to see in the ground of this city. And if you pass by the Cathedral, remember that the building itself is still in motion, monitored with instruments."
+    },
+    "retos_observacion": {
+      "hash": "8be81b594ed21583",
+      "texto": [
+        "Look at the Cathedral from the plaza and find which way the ruins of the Templo Mayor lie, to the east",
+        "Look for the difference in level between the street and the ruins",
+        "Remember the 4 key discoveries: 1913, 1978, 2006 and 2015"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8f8fbe0c19b5a9f3",
+      "texto": {
+        "Discoveries": "1790, sculptures in the plaza",
+        "Cathedral": "controlled subexcavation since 1993"
+      }
+    },
+    "faq_mito": {
+      "hash": "aa581f112f47b823",
+      "texto": {
+        "pregunta": "Myth: Everything beneath the city center has already been discovered.",
+        "respuesta": "Reality: The discoveries of 1978, 2006 and 2015 show that the exploration continues; no one knows what will appear next."
+      }
+    }
+  }
+}

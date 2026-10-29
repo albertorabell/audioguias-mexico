@@ -1,0 +1,56 @@
+{
+  "id": "tmc_15_entrada_ombligo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a565290328a4d04b",
+      "texto": "The Huey Teocalli: The Navel of the Mexica Universe"
+    },
+    "frase_gancho": {
+      "hash": "d999fae1472507c8",
+      "texto": "This was the center of the Mexica world, and today you see it from a walkway."
+    },
+    "puente_narrativo": {
+      "hash": "6f4040200719f5aa",
+      "texto": "Follow the walkway at an easy pace. When you are ready, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "62051446462ba074",
+      "texto": "You are standing where the Mexica placed the center of their world. They called it the Huey Teocalli, the great temple, and they thought of it as the navel of the universe. It was a double pyramid, with two shrines on top, one for Huitzilopochtli and the other for Tláloc. In its final stage it measured about eighty meters on each side and about forty-five meters high. What you see today is the base, because the rest was lost after the conquest. As you walk along the walkway, keep in mind that this was the center of an entire city, and that much of it still lies beneath your feet. The Cathedral and the Zócalo were built on top of this city, and the excavations have been bringing out what remained underneath."
+    },
+    "guion_largo": {
+      "hash": "9debfffc51e13022",
+      "texto": "You are in the archaeological zone of the Templo Mayor. Before looking at it stone by stone, it helps to get your bearings, because what you see is only a small part of something much larger.\n\nThe Mexica called this building the Huey Teocalli, which means great temple. It stood in the heart of the sacred precinct of Tenochtitlan, the city they founded on an island in the lake. For them, this place was the navel of the universe, the point where the sky, the earth, and the world of the dead came together. It was not just an important temple. It was the axis of how they understood the world.\n\nThe shape of the building also said something. It was a pyramid with two stairways and two shrines on top. On the north side stood the shrine of Tláloc, god of rain, and on the south side that of Huitzilopochtli, god of war and the Sun. In its final stage, the pyramid measured about eighty meters on each side and about forty-five meters high, and it went through seven stages of construction. These are reference figures, because what survives is the base of several stages.\n\nThe sacred precinct had more buildings around it. There were temples, priests’ houses, ball courts, and platforms. Excavations have found remains of several of them, such as the Red Temples and the House of the Eagles, which we will visit later. What is clear is that the area you walk through today is only a part of that complex, and that the rest still lies beneath the surrounding streets and buildings.\n\nThe conquest changed everything. After fifteen twenty-one, the Spaniards destroyed the temples and used their stones to build the new city. Houses, the Cathedral, and the plaza were raised on this ground. For centuries, no one saw these ruins, and only a few isolated discoveries reminded people that something lay below. One of them was in seventeen ninety, when great Mexica sculptures appeared in the plaza, and we will talk about it in the museum.\n\nFormal excavations came much later. In nineteen thirteen and nineteen fourteen, the archaeologist Manuel Gamio uncovered part of the southwest corner of the building. But the great exploration began in nineteen seventy-eight, when the great stone of Coyolxauhqui appeared. That discovery gave rise to the Templo Mayor Project, from nineteen seventy-eight to nineteen eighty-two, which recovered more than seven thousand objects. We will talk about it soon.\n\nTo tour the zone, follow the walkways. They are designed so that you can see the ruins without stepping on them. You will notice that the layers look like cross-sections: each stage of the temple was built on top of the previous one, so some parts were left buried and others were left in view.\n\nNow look up and toward the west. There you can see the Cathedral, just a few meters away. It is hard to find another place where two such different worlds stand so close together. The Mexica temple was the center of one city, and the Cathedral was the center of another, raised on top of the first.\n\nTo begin your visit, do not try to understand everything at once. First look at the general shape of the ruins. Then, at the next stops, we will see how the temple grew, what was in each shrine, and what offerings were buried here."
+    },
+    "retos_observacion": {
+      "hash": "8158d388e0f90a9a",
+      "texto": [
+        "Find the base of the pyramid and pick out the two stairways",
+        "Look from the walkway for the spot where the Cathedral can be seen",
+        "Observe the cuts in the walls where layers from different stages can be seen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e34d71cc7f6c3c90",
+      "texto": {
+        "Mexica name": "Huey Teocalli, great temple",
+        "Approximate dimensions of the pyramid": "about 80 m on each side and about 45 m high",
+        "Construction stages": "7",
+        "Shrines": "Tláloc to the north, Huitzilopochtli to the south",
+        "Gamio’s excavations": "1913 to 1914",
+        "Templo Mayor Project": "1978 to 1982"
+      }
+    },
+    "faq_mito": {
+      "hash": "fdb2068e98620c36",
+      "texto": {
+        "pregunta": "Myth: The Templo Mayor survives almost complete.",
+        "respuesta": "Reality: What you see are the bases of several stages, because the Spaniards destroyed the temples after 1521."
+      }
+    }
+  }
+}

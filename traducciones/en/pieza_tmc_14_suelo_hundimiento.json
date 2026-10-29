@@ -1,0 +1,56 @@
+{
+  "id": "tmc_14_suelo_hundimiento",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ec17cb68d8cb0345",
+      "texto": "The Sinking Ground: Correcting the Cathedral"
+    },
+    "frase_gancho": {
+      "hash": "69ebd04fb7ea400b",
+      "texto": "Four thousand two hundred twenty cubic meters of clay removed to straighten a stone building."
+    },
+    "puente_narrativo": {
+      "hash": "827553e3a09718a9",
+      "texto": "Leave the Cathedral unhurriedly. If you continue toward the Templo Mayor, go along the east side, toward Seminario Street, where the archaeological zone begins."
+    },
+    "guion_corto": {
+      "hash": "0f7449d3232fa859",
+      "texto": "This Cathedral has been sinking since it was built, and it sinks unevenly. It stands on the soft ground of an ancient lake. Around nineteen eighty-nine the damage was alarming, and engineers chose a technique called controlled subexcavation. It consists of gradually removing clay from deep layers, between eighteen and twenty meters underground, so that the ground drops beneath the higher areas and the building straightens. The work began in nineteen ninety-three and removed about four thousand two hundred twenty cubic meters of clay. The goal was not to return to perfect verticality, but to recover roughly half of the deformation."
+    },
+    "guion_largo": {
+      "hash": "2fbb748e026aae57",
+      "texto": "Before leaving the Cathedral, it is worth understanding the problem that has worried it most throughout its history: the ground. This heavy, enormous stone building stands on terrain that is not firm.\n\nThe Cathedral was raised in the corner of the ancient island of Tenochtitlan, on the soft, damp bed of a lake that was filled in. Beneath it lie layers of clay that compress under the weight and with the passing of time. Moreover, the subsoil is not even: under certain areas there are pre-Hispanic remains, ancient foundations, and different kinds of fill. That is why the Cathedral does not sink uniformly. Some parts go down more than others, and this produces tilting and cracks.\n\nThe problem was noticed during construction. As early as 1562, the foundation began to sink, and it was rebuilt with a rubble embankment on piles, which was declared complete in 1615. Over the following centuries it was reinforced several times. The building, together with its foundations, is estimated to weigh one hundred twenty-seven thousand tons.\n\nAround nineteen eighty-nine the deterioration had become alarming. Experts looked for a solution that would not damage the monument. They chose a technique called controlled subexcavation. It works the opposite way from what one would expect: the ground is not reinforced; instead, a little clay is taken away. Deep shafts, called lumbreras, are made, and from them small amounts of clay are extracted from layers lying between eighteen and twenty meters underground. As the clay is removed, the ground drops slightly beneath the highest parts of the building, and the whole structure straightens.\n\nThe work began in nineteen ninety-three. The main stage ran from nineteen ninety-three to nineteen ninety-eight, with thirty-two shafts twenty meters deep, and the work continued until early two thousand three. In total, about four thousand two hundred twenty cubic meters of clay were removed.\n\nThe goal was not to return to a perfectly vertical building. The objective was to recover roughly half of the accumulated deformation. The maximum difference in level was more than two meters, and it was reduced by a little over eighty centimeters, about a third. It is a modest result in numbers, but an important one for stability.\n\nThanks to that work, the Cathedral came off the World Monuments Fund list of the monuments at greatest risk, in the year two thousand. That does not mean the problem has disappeared. A UNAM study warns that the sinking has not stopped, and that the complex is monitored with instruments that measure every movement.\n\nThe interior floors of the Cathedral are uneven. It is not a flaw in the construction, but the mark of a city that keeps settling on a lake.\n\nThere is an irony in all this. The Mexica also built on a lake. The Templo Mayor was raised in stages, each one on top of the previous one, and its ruins are just a few steps from here."
+    },
+    "retos_observacion": {
+      "hash": "ddb14b720ec66acb",
+      "texto": [
+        "Look at a column in the nave and see whether it seems straight or tilted",
+        "Walk across the floor and look for stretches where you notice a slight slope",
+        "Remember the name of the technique: controlled subexcavation"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b8dbc8374ac426b",
+      "texto": {
+        "Start of foundation problems": "1562",
+        "Rubble embankment on piles completed": "1615",
+        "Alarming deterioration": "around 1989",
+        "Controlled subexcavation": "since 1993",
+        "Clay removed": "about 4,220 m³",
+        "Extraction depth": "between 18 and 20 m"
+      }
+    },
+    "faq_mito": {
+      "hash": "41465c46cebcb0f3",
+      "texto": {
+        "pregunta": "Myth: The Cathedral is about to collapse because it is sinking.",
+        "respuesta": "Reality: It has been sinking unevenly since it was built, but since 1993 it has been corrected with controlled subexcavation and today it is monitored with instruments; the sinking has not disappeared."
+      }
+    }
+  }
+}

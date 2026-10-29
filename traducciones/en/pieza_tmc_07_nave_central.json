@@ -1,0 +1,57 @@
+{
+  "id": "tmc_07_nave_central",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8b135bfca9215da1",
+      "texto": "The Central Nave and Its Fifty-One Vaults"
+    },
+    "frase_gancho": {
+      "hash": "a630e145bfa4429b",
+      "texto": "Five naves, forty columns, and a floor that is not entirely level."
+    },
+    "puente_narrativo": {
+      "hash": "6d0aa78644adfd61",
+      "texto": "Continue along the central nave to the center of the temple. When you are ready, move on to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "46e1938e5efca4ea",
+      "texto": "Five naves, fifty-one vaults, seventy-four arches, and forty columns. Those are the numbers of this interior. The vaults were closed one by one beginning in fifteen eighty-one, and the last one in sixteen sixty-seven. That is why the space has clear proportions and a sober air, from before the altars were filled with gold. The central nave is the widest and the tallest. Along it you move toward the choir, the organs, and the main altar. Walk slowly and look at the floor, because it is not entirely level. The ground beneath the Cathedral has been shifting for centuries, and the building shows it."
+    },
+    "guion_largo": {
+      "hash": "edc554e076b03db1",
+      "texto": "You have just entered one of the largest churches in the Americas. Before you look for altars and chapels, it is worth understanding how this space is built.\n\nThe Cathedral has five naves and a transept, that is, the transverse space that crosses the church. The interior adds up to fifty-one vaults, seventy-four arches, forty columns, and around one hundred fifty windows. These are round figures, which help you imagine the scale. What you can see at a glance is that the central nave is the widest and the tallest, and that the side naves accompany it like lower corridors.\n\nThis arrangement has its own logic. The central nave leads from the entrance to the altar, and along the way you find the elements that organize the temple. First comes the choir, with its wooden stalls and the two great organs. Then, the Altar del Perdón and the transept. At the far end, in the apse, stands the Capilla Mayor with the Altar de los Reyes. The side naves give access to the chapels, each one dedicated to a saint and sponsored by a religious order, a guild, or a confraternity.\n\nBuilding this space took decades. The vaults were closed one by one beginning in fifteen eighty-one, and the last one was closed on the twenty-second of June, sixteen sixty-seven. That year is considered the end of the work on the interior. It was then that the temple was dedicated. You can see the result in the sobriety of its lines. The original design has a Renaissance air, and its order contrasts with the Baroque altars that were added later.\n\nNow look up and trace the vaults with your eyes. Remember that the temple has some one hundred fifty windows, and that the light falling on the nave depends on them.\n\nThen lower your gaze to the floor and walk with care. The floor of the Cathedral is not perfectly horizontal. This church stands on the soft ground of what was once a lake, and since its construction it has been sinking unevenly. At one point in the building the maximum unevenness reached more than two meters, and it was reduced by a later intervention. Further on, at another stop, you will see how it was straightened. For now, it is enough to notice that the floor is a kind of map of the ground.\n\nOne last observation. Despite its size, the space does not feel empty. It is filled by the presence of the altars, the iron screens, the pews of the faithful, and the side chapels, and everything keeps an order. If you happen to be here during a Mass, the atmosphere changes completely. You hear the organ, or singing, and the space fills with a meaning that cannot be appreciated when it is silent. Respect that ritual: speak in a low voice, avoid the flash, and do not disturb those who are praying.\n\nWhen you are ready, continue along the nave toward the center of the temple."
+    },
+    "retos_observacion": {
+      "hash": "46dae89079775f10",
+      "texto": [
+        "Count how many columns you can make out in a single row of the central nave",
+        "Look up and follow the line of a vault to the point where it closes",
+        "Walk slowly and look for a stretch of the floor where you can notice a slope"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2f950365bb6f4480",
+      "texto": {
+        "Naves": "5, plus a transept",
+        "Bóvedas": "51",
+        "Arcos": "74",
+        "Columnas": "40",
+        "Ventanas": "about 150",
+        "Última bóveda cerrada": "June 22, 1667",
+        "Location": "interior of the Metropolitan Cathedral"
+      }
+    },
+    "faq_mito": {
+      "hash": "97510d9485f40686",
+      "texto": {
+        "pregunta": "Myth: The interior of the Cathedral was always as golden as it is today.",
+        "respuesta": "Reality: The original design is sober, with Renaissance influence, and the golden Baroque altars were added during the 17th and 18th centuries."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "tmc_32_sala_8_conquista",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Templo Mayor\" para \"Templo Mayor\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "47d3f3a8a67bf6e1",
+      "texto": "Hall Eight: the Conquest and the Colonial Offering of seventeen ninety"
+    },
+    "frase_gancho": {
+      "hash": "a867d7649a511eed",
+      "texto": "When the temple fell, the new city rose on top of it, and left its own offering."
+    },
+    "puente_narrativo": {
+      "hash": "9c5d7b89c3cfc29e",
+      "texto": "Leave the museum and walk west along Guatemala Street, to number twenty-four."
+    },
+    "guion_corto": {
+      "hash": "17f96668d522a408",
+      "texto": "Hall eight tells what happened when the Spanish arrived. It reviews the conquest, between fifteen nineteen and fifteen twenty-one. It shows fragments of another large Coyolxauhqui, which was destroyed by the Spanish. It also presents objects related to the Manila Galleon, with a reference to the year fifteen seventy-five, and a colonial offering from seventeen ninety. That offering was made for the Chapel of the Souls, and it was found on the sixth of November, nineteen ninety-six. It is the hall that joins the Mexica city with the viceregal city. It is worth seeing it unhurried, because it closes the museum tour."
+    },
+    "guion_largo": {
+      "hash": "b44ddd0c6b88e157",
+      "texto": "You reach the last hall of the museum, and it is the one that tells what happened afterward. Its subject is historical archaeology, that is, the remains of the colonial era that were found alongside those of the Mexica.\n\nThe hall begins with the conquest. The process took place between fifteen nineteen and fifteen twenty-one. Those were years of war, of alliances and, in the end, of the fall of Tenochtitlan, the city you are standing on today. What matters here is what happened to the temples: the Spanish destroyed them, and the new city gradually grew over them. That transformation was profound and very fast, compared with the centuries it took to build the temple.\n\nThat destruction leaves a mark in the hall. Fragments of another great figure of the goddess are on display there, one that was destroyed by the Spanish. If the original monolith you saw a while ago is still fresh in your memory, this piece becomes very eloquent. What you have in front of you is a broken piece, and its condition tells the story of what was lost.\n\nThen the hall moves on to other objects from the viceregal era. Among them are pieces related to the Manila Galleon, the ship that linked the Philippines with New Spain. The museum mentions the year fifteen seventy-five. It is a reminder that the city, by then turned into a viceregal capital, was part of a trade network that crossed the ocean. The hall lets you see that connection through concrete objects.\n\nThere is also a colonial offering, from the year seventeen ninety. It was made for the Chapel of the Souls, and it was found on the sixth of November, nineteen ninety-six. It is an offering different from those of the Mexica, because it belongs to the Christian tradition, but it shares the idea of burying objects with an intention. It is a bridge between two worlds. Looking at it up close helps you understand that, beneath the plaza, there is not just one era but several, piled one on top of another.\n\nThe date, seventeen ninety, has already appeared on this visit. It was the year when Mexica sculptures were found in the plaza, according to Hall one. That the two events coincide in the year is only a coincidence of dates, but it invites you to think about what was happening in the city then. In this way the last hall connects with the first.\n\nBefore leaving, think about what you have seen. You began with the great temple of the Mexica and you end with objects from a viceregal city. In one single place, beneath the same plaza, layers of more than five centuries live side by side. That is what makes this site so special.\n\nWhen you leave the museum, you will return to the street. The last stop on this visit invites you to look at the whole: the temple, the Cathedral and the ground that joins them."
+    },
+    "retos_observacion": {
+      "hash": "b879de7e77285faa",
+      "texto": [
+        "Find the fragments of the destroyed monumental Coyolxauhqui",
+        "Locate the objects related to the Manila Galleon",
+        "Find the colonial offering of 1790 and compare it with the Mexica offerings in Hall 2"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bcfabae1544c0e4e",
+      "texto": {
+        "Hall": "8, Historical Archaeology",
+        "Conquest": "from 1519 to 1521",
+        "Manila Galleon": "reference to the year 1575",
+        "Colonial offering": "1790, for the Chapel of the Souls",
+        "Found": "November 6, 1996"
+      }
+    },
+    "faq_mito": {
+      "hash": "4883f8b14c28d64b",
+      "texto": {
+        "pregunta": "Myth: Only Mexica remains have been found at the Templo Mayor.",
+        "respuesta": "Reality: Hall 8 displays remains from the viceregal era, such as a colonial offering from 1790."
+      }
+    }
+  }
+}

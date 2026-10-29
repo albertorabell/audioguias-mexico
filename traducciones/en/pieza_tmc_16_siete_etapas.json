@@ -1,0 +1,56 @@
+{
+  "id": "tmc_16_siete_etapas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d6872db1a6cf04c8",
+      "texto": "Seven Stages: A Temple That Grew Over Itself"
+    },
+    "frase_gancho": {
+      "hash": "dea1a931c72f0f9f",
+      "texto": "Every time a new tlatoani took power, the temple grew larger."
+    },
+    "puente_narrativo": {
+      "hash": "3c1ad9813c90dd00",
+      "texto": "Walk along the walkway toward the south side of the pyramid, where you can see the walls of the oldest stages."
+    },
+    "guion_corto": {
+      "hash": "e5a8163a3c4835eb",
+      "texto": "The Templo Mayor was not built all at once. It was enlarged in stages, and each one covered the one before it like the layers of an onion. There were seven stages, from the early years of Tenochtitlan until the conquest. The oldest one you can see is Stage II, from around thirteen ninety. Then came expansions under Itzcóatl, Moctezuma Ilhuicamina, Axayácatl and Ahuízotl. Each ruler wanted a greater temple than his predecessor’s, and so the pyramid grew along with the power of Tenochtitlan. Today the stages can be seen as layers in the cross-sections of the excavations, and some preserved offerings buried inside."
+    },
+    "guion_largo": {
+      "hash": "74f7961a04327650",
+      "texto": "If you look at the pyramid closely, you will notice that it is not a single construction. It is a set of layers, one inside another, and understanding this is the key to the whole site.\n\nThe Mexica had the custom of enlarging their temples every so often. Instead of tearing down the earlier building, they covered it with a bigger one, so that the old one remained inside, like a Russian nesting doll. Seven stages are counted, from the first temples of Tenochtitlan to the last years before the conquest. Archaeologists number them with Roman numerals.\n\nThe dates are approximate, especially the oldest ones. Stage II is placed around thirteen ninety. Stage III is attributed to Itzcóatl, who ruled from fourteen twenty-six to fourteen forty. Stage IV is associated with Moctezuma Ilhuicamina, and its expansion, IV b, with Axayácatl, from fourteen sixty-nine to fourteen eighty-one. Stage VI corresponds to Ahuízotl, between fourteen eighty-six and fifteen oh two. Stage VII, the last, runs until the conquest, in fifteen twenty-one.\n\nThe reason for this custom has to do with political power. When a tlatoani, that is, a ruler, came to the throne, one of the ways of showing his strength was to enlarge the main temple. Each stage was bigger and richer than the one before. At the same time, the temple worked as an archive in stone, because each layer kept what had been buried inside it.\n\nEvery expansion came with offerings. Before covering a temple, objects were buried inside the new construction. That is why archaeologists have found more than one hundred offerings in this area, according to the museum. They fall into three types: fill, cist and box. In this way, each layer kept a set of objects that had been left there on purpose.\n\nThe latest stages, VI and VII, are the ones that were most destroyed. The Spaniards used those stones to build the new city, so almost nothing remains of the highest levels. The older stages, on the other hand, were better preserved because they were buried, protected by the new layers.\n\nThat is why today you can see, on a single wall, the wall of one stage covered by that of another. If you find a stretch where two types of stone can be told apart, or two levels of steps, you are looking at the boundary between two stages.\n\nThink about what this means. For the Mexica, the temple was a living building, one that grew with the city and with each new ruler. For archaeologists, that custom was a stroke of luck, because it preserved the ancient buildings inside the new ones.\n\nNext we are going to look at the two shrines that crowned the pyramid, because their difference explains much about Mexica thought."
+    },
+    "retos_observacion": {
+      "hash": "56ea466d3f3f00c3",
+      "texto": [
+        "Find a cross-section where two layers of construction can be told apart",
+        "See if you can spot two types of stone or steps at different levels in the same wall",
+        "Count the stages you can make out from the walkway"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6f713e2069019443",
+      "texto": {
+        "Construction stages": "7",
+        "Stage II": "around 1390",
+        "Stage III": "Itzcóatl, 1426 to 1440",
+        "Stage IV b": "Axayácatl, 1469 to 1481",
+        "Stage VI": "Ahuízotl, 1486 to 1502",
+        "Stage VII": "until 1521"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e9db4aae7399bb3",
+      "texto": {
+        "pregunta": "Myth: The temple was built all at once.",
+        "respuesta": "Reality: It was enlarged seven times; each ruler covered the earlier temple with a bigger one."
+      }
+    }
+  }
+}

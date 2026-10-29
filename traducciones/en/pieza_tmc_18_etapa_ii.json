@@ -1,0 +1,54 @@
+{
+  "id": "tmc_18_etapa_ii",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "42fadf862f85f2d5",
+      "texto": "Stage II: The Oldest Surviving Shrines"
+    },
+    "frase_gancho": {
+      "hash": "4e67437e95cc95aa",
+      "texto": "The small temple of Tláloc still holds traces of paint."
+    },
+    "puente_narrativo": {
+      "hash": "d6eec3db67b18743",
+      "texto": "Look toward the foot of the staircase on the south side and find the place where the great Coyolxauhqui stone was discovered."
+    },
+    "guion_corto": {
+      "hash": "92a863ec2afa39cb",
+      "texto": "Stage II is the oldest part of the temple that can be seen in full. It preserves two small shrines on a platform. To the south, the shrine of Huitzilopochtli has a sacrificial stone at its entrance, and beneath the floor, urns with cremated remains were found. To the north, the shrine of Tláloc preserves a Chac Mool and traces of mural painting. It dates to around thirteen ninety, and it was protected because later stages covered it, which is why it is better preserved today than the more recent ones. To see these shrines is to glimpse an early moment in Tenochtitlan, when the temple was still small."
+    },
+    "guion_largo": {
+      "hash": "3f34190a0486a6ed",
+      "texto": "You are standing before the oldest part of the Templo Mayor that survives in good condition. It is called Stage II, and it is a jewel for understanding what the shrines of the Mexica were like before the empire grew.\n\nIt is a platform with two small shrines on top, one on the south side and one on the north side. They are more modest than those of later stages, but they have an advantage: they survived because they were covered by larger constructions. This stage dates to around thirteen ninety, an approximate date.\n\nOn the south side is the shrine of Huitzilopochtli. At its entrance there is a sacrificial stone, a block where ritual offerings were made. Beneath the floor of the shrine, urns were found containing the remains of burned bones, which are part of the offerings. Later in your visit to the museum, you will see that the offerings from this temple are among the most important sources of information about Mexica ritual.\n\nOn the north side is the shrine of Tláloc. There is a Chac Mool here, a reclining figure holding a vessel on its belly. Traces of mural painting also survive on the walls, and that is rare, because color tends to fade over time.\n\nPay attention to the dimensions. These shrines are modest in size, much smaller than those of later stages. Over time, the later stages made the building larger, but they kept the same logic of two shrines, one to the north and one to the south. That idea did not change throughout the whole history of the temple, although its size and decoration did.\n\nIt is also worth looking at what cannot be seen. This stage lies inside the later pyramid. What you see today is a small window opened onto the past, because the later stages covered it. That is why it is protected with roofs and walkways.\n\nIf you have time, step up to the railings and look at the floor of the shrine. You can imagine the offerings that were placed there, which you will see in display cases at the museum. Many objects of this kind are now in the museum, which we will visit later.\n\nOne more detail helps in reading this place. The two halves of Stage II are not the same. The side of Tláloc preserves figures and paint, while that of Huitzilopochtli stands out for its sacrificial stone and its urns. This confirms, from the earliest stage, that each shrine had its own character and its own kind of offering. When you compare the two sides calmly, you begin to see how worship was organized at the top of the pyramid.\n\nStage II reminds us of something important. Before the empire and the great pyramids, this temple was small, and its growth accompanied the rise of Tenochtitlan."
+    },
+    "retos_observacion": {
+      "hash": "5673df87ba264e70",
+      "texto": [
+        "Find the sacrificial stone at the entrance of the south shrine",
+        "Locate the Chac Mool in the north shrine",
+        "See if you can spot traces of mural painting on the walls"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f42edfb409b0240",
+      "texto": {
+        "Stage II": "around 1390",
+        "South shrine": "Huitzilopochtli, sacrificial stone, and urns with cremated remains",
+        "North shrine": "Tláloc, Chac Mool, and traces of mural painting",
+        "Protection": "roofs and walkways"
+      }
+    },
+    "faq_mito": {
+      "hash": "d8945338268bbea4",
+      "texto": {
+        "pregunta": "Myth: The shrines of Stage II were completely reconstructed.",
+        "respuesta": "Reality: They survive because they were covered by later stages; today they are protected with roofs."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "tmc_13_sacristia_cripta",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1fa89b4b488419e3",
+      "texto": "The Restricted Areas: The Sacristy and the Crypt of the Archbishops"
+    },
+    "frase_gancho": {
+      "hash": "4ef71167f0c9b52a",
+      "texto": "Seventy-five crypts, forty-one of them occupied, and a sacristy with works by two great viceregal painters."
+    },
+    "puente_narrativo": {
+      "hash": "775b72d14d19c740",
+      "texto": "Head back along the nave toward the exit. Before you go, one subject remains: the ground that supports the entire Cathedral."
+    },
+    "guion_corto": {
+      "hash": "4d604042952ee7ca",
+      "texto": "Next to the head of the Cathedral there are two spaces that cannot always be visited. One is the Main Sacristy, where the objects of worship are kept and where, in the late seventeenth century, the painters Cristóbal de Villalpando and Juan Correa worked. The other is the Crypt of the Archbishops, beneath the head of the church, with seventy-five crypts, of which forty-one are occupied. Resting there are Friar Juan de Zumárraga, the first bishop of Mexico, and Cardinal Ernesto Corripio Ahumada, who died in two thousand eight. Access to these areas is limited and is by guided tour only. Ask at the Cathedral’s information desk."
+    },
+    "guion_largo": {
+      "hash": "4de87852595aafb7",
+      "texto": "This stop is for those who want to see the Cathedral beyond its golden altars. Next to the head of the church there are restricted spaces that are not always open. If you find them closed today, listen to this stop from the nave and think about what lies behind those doors.\n\nLet’s begin with the Main Sacristy. A sacristy is the place where the objects of worship are kept and where the clergy prepare for ceremonies. In the sacristy of this Cathedral there are works by two of the most important painters of New Spain, Cristóbal de Villalpando and Juan Correa, from the late seventeenth century. Next to it is the Chapter Hall, the place where the cabildo met, that is, the group of canons who ran the Cathedral. The style of these rooms is Herrerian, a sober Spanish style that contrasts with the Baroque of the altars.\n\nThe Cathedral’s treasury also includes textiles and liturgical vestments, as well as paintings, although they are not always on display.\n\nNow let’s go down to the crypt. The Crypt of the Archbishops lies beneath the head of the church, at the northern end of the building. Its construction began between nineteen thirty-eight and nineteen thirty-nine, and was completed in nineteen forty-two. In other words, it is much more recent than the building itself.\n\nBishops and archbishops from the history of the archdiocese rest there. The oldest is Friar Juan de Zumárraga, the first bishop of Mexico, who lived from fourteen sixty-eight to fifteen forty-eight. He has a memorial that links him to the story of the Virgin of Guadalupe. The last person interred is Cardinal Ernesto Corripio Ahumada, who lived from nineteen twelve to two thousand eight. There are also remains of Juan de Palafox y Mendoza, bishop of Mexico and of Puebla, and of Francisco de Aguiar y Seijas, confessor of Sor Juana Inés de la Cruz.\n\nThe space has seventy-five crypts, and forty-one are occupied. There are also four rotting chambers, part of the old funerary processes. The Church did not accept cremation, so bodies were placed in the cemetery for a time, and then the bones were taken to the crypts.\n\nThe entrance door has a curious history. It is made of marble and bears the royal coat of arms. It was formerly the tombstone of Archbishop Juan de Mañozca y Zamora, and it preserves a biography in Latin. The entrance to the crypt is, then, a reused tomb.\n\nTo visit these areas, access is limited and there are guided tours. Ask at the Cathedral’s information desk, because schedules and fees change. Some areas, such as the choir, the sacristy, the crypt, and the towers, ask for a donation or a fee.\n\nAs you leave, think about the contrast. Above, the gold of the Altar of the Kings. Below, the silence of the tombs. And beneath it all, the soft ground that supports both, and which we will talk about next."
+    },
+    "retos_observacion": {
+      "hash": "4438ea91a14e47da",
+      "texto": [
+        "Ask at the information desk whether there are tours of the sacristy or the crypt",
+        "If you manage to enter the crypt, look for the marble door with the coat of arms and its Latin inscription",
+        "Compare the sobriety of the sacristy with the golden altars of the nave"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a1b4893f7eeafd97",
+      "texto": {
+        "Painters in the Main Sacristy": "Cristóbal de Villalpando and Juan Correa, late seventeenth century",
+        "Crypts": "75, 41 occupied",
+        "Rotting chambers": "4",
+        "Construction of the current crypt": "from 1938 or 1939 to 1942",
+        "Friar Juan de Zumárraga": "1468 to 1548",
+        "Cardinal Ernesto Corripio Ahumada": "1912 to 2008"
+      }
+    },
+    "faq_mito": {
+      "hash": "83779f3e92636fea",
+      "texto": {
+        "pregunta": "Myth: The Cathedral crypt holds the remains of all the viceroys.",
+        "respuesta": "Reality: The Crypt of the Archbishops holds the remains of bishops and archbishops of the archdiocese; Iturbide’s remains are in the Chapel of San Felipe de Jesús."
+      }
+    }
+  }
+}

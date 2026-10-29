@@ -1,0 +1,54 @@
+{
+  "id": "tmc_28_sala_4_huitzilopochtli",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6493b908a00789ee",
+      "texto": "Four Hall: Huitzilopochtli, the eagle warrior and Mictlantecuhtli"
+    },
+    "frase_gancho": {
+      "hash": "c58338c4dbeafe06",
+      "texto": "The hall of the patron god, with a ceramic eagle warrior and the god of death."
+    },
+    "puente_narrativo": {
+      "hash": "9a978f2b93449317",
+      "texto": "Head to the back of Four Hall, where the great stone disk of Coyolxauhqui stands."
+    },
+    "guion_corto": {
+      "hash": "5c92867a6ee84daf",
+      "texto": "Four Hall is dedicated to Huitzilopochtli and to what was found on his side of the temple. It brings together a ceramic eagle warrior, found in the House of the Eagles, and a figure of Mictlantecuhtli. It also displays the head of a Xiuhcóatl, or fire serpent, and figures of the centzonhuitznahua, the brothers of Huitzilopochtli. There are also representations of Huehuetéotl, the god of fire, and of Mayáhuel. And at the back stands the great monolith of Coyolxauhqui. This is the hall that best explains why the south side of the temple was the side of war and of the Sun, and why the Mexica revered it so deeply."
+    },
+    "guion_largo": {
+      "hash": "10025f46a3fb0af3",
+      "texto": "You are in Four Hall, dedicated to Huitzilopochtli, and it holds some of the best-known pieces in the museum.\n\nRemember that the south side of the temple belonged to this god, the patron of the Mexica. He was the god of war and of the Sun. His shrine rose on the Coatépetl, the hill of the serpent, as you saw from the walkway. The objects in this hall are connected to that side of the temple and to the mythology of its god. That is why it helps to enter with the story of the Coatépetl fresh in your mind.\n\nOne of the main objects is the ceramic eagle warrior, which was found in the House of the Eagles. The archaeologist Leonardo López Luján prefers to call it an eagle man. It is a figure with human features and bird details, and it tends to be one of the pieces that attracts the most photographs. A common reading links it to the elite warriors associated with the eagle, although specialists debate this.\n\nNext to it there is a figure of Mictlantecuhtli, the god of death. He already appeared in the House of the Eagles, and here you see him again. It is a good chance to look at him up close.\n\nThe hall also displays the head of a Xiuhcóatl. The name means fire serpent, and it was a mythical weapon of Huitzilopochtli. There are also figures of the centzonhuitznahua, the brothers who, according to the myth, attacked their mother when Huitzilopochtli was about to be born. If you remember the story of Coyolxauhqui, they are the other characters in the tale.\n\nAmong the objects there are representations of Huehuetéotl, the old god of fire, and of Mayáhuel, a goddess associated with the maguey. The presence of these figures shows that the world of Huitzilopochtli included many other characters, not just him.\n\nAt the back of the hall stands the most important piece: the monolith of Coyolxauhqui. We will talk about her at the next stop, more calmly, because she deserves a place of her own.\n\nAs you walk through the hall, think about how the pieces connect to the myth. This is a hall to read with the story in your head, not just to look at isolated objects. Huitzilopochtli is born armed and defeats his brothers and his sister. The temple is the mountain where it happened. The figures in the hall are the characters of that story, turned into stone and ceramic, and together they form a kind of cast of the myth.\n\nIf time allows, take a full turn around the hall before moving on to the monolith. The smaller objects, such as the figures of gods, often go unnoticed, but they tell the same story on a different scale. Take the time to read the labels, because they identify each character."
+    },
+    "retos_observacion": {
+      "hash": "2965e538c6540b7b",
+      "texto": [
+        "Find the ceramic eagle warrior and notice its bird details",
+        "Locate the head of Xiuhcóatl, the fire serpent",
+        "Identify Huehuetéotl and Mayáhuel among the figures"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7a3d81fe8cc8c24a",
+      "texto": {
+        "Hall": "4, Huitzilopochtli",
+        "Eagle warrior": "ceramic, found in the House of the Eagles",
+        "Other pieces": "Mictlantecuhtli, head of Xiuhcóatl, centzonhuitznahua, Huehuetéotl, Mayáhuel",
+        "Main piece": "monolith of Coyolxauhqui"
+      }
+    },
+    "faq_mito": {
+      "hash": "87a23ef48cde3c4c",
+      "texto": {
+        "pregunta": "Myth: The eagle warrior is a stone sculpture.",
+        "respuesta": "Reality: It is a ceramic figure, found in the House of the Eagles."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "tmc_17_dos_santuarios",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3c57190d976b777d",
+      "texto": "Tláloc and Huitzilopochtli: Two Mountains in One Pyramid"
+    },
+    "frase_gancho": {
+      "hash": "78fddda6872c5565",
+      "texto": "One half for the rain and the other for war, together in the same building."
+    },
+    "puente_narrativo": {
+      "hash": "30bf70687bd72e0b",
+      "texto": "Continue along the walkway. When you're ready, move on to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "9765a9829ec357a3",
+      "texto": "At the top, the pyramid had two shrines. To the north was the shrine of Tláloc, god of rain and fertility, and to the south that of Huitzilopochtli, god of war and the Sun. For the Mexica, each side was a sacred mountain: Tláloc’s represented the Tonacatépetl, the mountain of sustenance, and Huitzilopochtli’s, the Coatépetl, the mountain of the serpent. It was a way of uniting in a single building, and in a single glance, the water that gives life and the war that sustained the empire. Each side had its own staircase and its own atmosphere. The two halves complemented each other and needed each other."
+    },
+    "guion_largo": {
+      "hash": "09372f63661f2c5a",
+      "texto": "One of the most interesting ideas about the Templo Mayor is that it was not a temple for just one god. It was two buildings in one, and each half had its own meaning.\n\nAt the top of the pyramid there were two shrines, side by side. The one on the north side was dedicated to Tláloc, the god of rain, lightning, and fertility. The one on the south side was dedicated to Huitzilopochtli, the god of war and the Sun, patron of the Mexica. Each shrine had its own staircase, so that the pyramid appeared to have two entrances facing west.\n\nEach side was also a sacred mountain. Tláloc’s half represented the Tonacatépetl, the mountain of sustenance, where seeds and water were kept. Huitzilopochtli’s half represented the Coatépetl, the mountain of the serpent, where, according to the myth, the god had been born. The building was, then, a double mountain made of stone.\n\nThis union makes a great deal of sense if you think about how the Mexica lived. Their city stood on a lake, and they needed water for agriculture, so Tláloc was essential. But their political power depended on war and on the tribute of conquered peoples, so Huitzilopochtli was just as important. The Templo Mayor placed the two together, and in a way it said that the life of the city rested on both things.\n\nThe two sides also differed in what has been found in them. On Tláloc’s side, a Chac Mool and traces of paint have been preserved. On Huitzilopochtli’s side, in front of his shrine, the sacrificial stone was found. These details set the character of each space. Whoever climbed the south staircase did not enter the same world as whoever climbed the north one.\n\nThat difference can also be seen in the museum. There is a hall for each god, with the offerings that were found on each side. In Tláloc’s hall, a vessel painted blue stands out, and in Huitzilopochtli’s, a sculpture of an Eagle Warrior and the monolith of Coyolxauhqui. There you will be able to compare what each half held.\n\nWhen you look at the ruins, try to separate the two halves in your mind. You will see that the north base and the south base have different staircases, and that each had its own history of offerings. That will help you find your bearings in what comes next, because the most important finds in the area lie on one side or the other of this division.\n\nThis idea of duality, of two forces that need each other, appears in many places in Mexica thought: water and fire, rain and war, life and death. The Templo Mayor set it in stone, at the center of the city."
+    },
+    "retos_observacion": {
+      "hash": "dfa9ef5a572db6e7",
+      "texto": [
+        "Pick out in the ruins the north side, Tláloc’s, and the south side, Huitzilopochtli’s",
+        "Look for the two staircases of the pyramid",
+        "Compare how much of each shrine has been preserved"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c38347b8eef379d8",
+      "texto": {
+        "North shrine": "Tláloc, god of rain, the Tonacatépetl",
+        "South shrine": "Huitzilopochtli, god of war and the Sun, the Coatépetl",
+        "Entrance": "facing west",
+        "Staircases": "2"
+      }
+    },
+    "faq_mito": {
+      "hash": "3a35efacdf431816",
+      "texto": {
+        "pregunta": "Myth: The Templo Mayor was dedicated only to Huitzilopochtli.",
+        "respuesta": "Reality: It was a double temple, dedicated to Tláloc and to Huitzilopochtli."
+      }
+    }
+  }
+}

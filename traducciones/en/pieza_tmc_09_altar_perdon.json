@@ -1,0 +1,56 @@
+{
+  "id": "tmc_09_altar_perdon",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "782654ea8c0c37cb",
+      "texto": "The Altar of Forgiveness and the Fire of nineteen sixty-seven"
+    },
+    "frase_gancho": {
+      "hash": "db43fc34e45a49da",
+      "texto": "A Baroque altarpiece that was almost lost in a single night, and two legends about its name."
+    },
+    "puente_narrativo": {
+      "hash": "1a4f9690905fd1d1",
+      "texto": "Continue toward the head of the church, where the main altar stands and, behind it, the Altar of the Kings."
+    },
+    "guion_corto": {
+      "hash": "906179d79ce4c361",
+      "texto": "Behind the choir, facing the entrance, rises the Altar of Forgiveness. It is a Baroque altarpiece attributed to Jerónimo de Balbás, from the first half of the eighteenth century. On January seventeenth, nineteen sixty-seven, a short circuit started a fire right at this altar. It destroyed about eighty percent of the work, and it also damaged the choir stalls and other pieces. Two legends are told about the name. One says that people condemned by the Inquisition came here to ask for forgiveness. The other says that an imprisoned painter painted an image of the Virgin here. Neither of them has definitive proof."
+    },
+    "guion_largo": {
+      "hash": "7c44499394097739",
+      "texto": "You are standing before the Altar of Forgiveness, one of the two great altarpieces of the Cathedral. It is in the trascoro, that is, at the back of the choir, on the side that faces the entrance.\n\nIt is a work of New Spanish Baroque attributed to Jerónimo de Balbás, the same master who made the Altar of the Kings. It was made in the first half of the eighteenth century. An altarpiece is a structure of carved and gilded wood that holds images, paintings, and sculptures. This one was built with estípites, the supports that grow narrower toward the bottom, which were a novelty in the architecture of New Spain at that time.\n\nIts name has two explanations, and neither is certain. One legend says that before this altar, people condemned by the Inquisition asked for forgiveness before receiving their punishment. The other tells that the painter Simón Pereyns, who was imprisoned by order of the Holy Office, promised to paint an image of the Virgin if they set him free, and that this painting was placed here. As with many stories about the Cathedral, they come from tradition, not from a document that could be verified.\n\nThe most important thing about this altar is what happened to it in nineteen sixty-seven. On January seventeenth, a short circuit started a fire. It destroyed about eighty percent of this altar and most of the choir stalls, which stood right in front of it. It also damaged the upper part of the Altar of the Kings, burned a painting of the Assumption of the Virgin, and affected the organs. Paintings by viceregal artists were also damaged, among them a Virgin of Forgiveness by Simón Pereyns.\n\nAfter the fire, a long rescue effort began. According to INAH documents, there was conservation work in nineteen seventy-six and another intervention between two thousand seven and two thousand eight. That means that what you see today is not equally old in all its parts. Some parts survived the fire, and others were restored afterward.\n\nThis altar is a good doorway to understanding how religious heritage is preserved. It is not just a matter of repairing. First you have to decide what is saved, what is replaced, and what is left as testimony of the damage. In this case, the fire is part of the history of the work, just like its construction.\n\nIt is also worth looking at the Altar of Forgiveness for what it shows about the Baroque. The estípites, the gold leaf, and the images fill the space, as if the artist feared leaving an empty gap. Compare it with the sobriety of the vaults above: the contrast is because the building and the altars were made in different periods, with different tastes.\n\nWhen you finish looking at this altar, walk toward the back of the church. There stands the main altar and, behind it, Balbás’s largest and most famous work: the Altar of the Kings."
+    },
+    "retos_observacion": {
+      "hash": "1eb612a091a1d061",
+      "texto": [
+        "Look closely at the estípites of the altarpiece and compare them with those of the Sagrario",
+        "Look for darker and lighter areas in the gilded wood",
+        "Notice how much space the altarpiece covers and how many images fit in it"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5dab2f95f924078f",
+      "texto": {
+        "Author": "attributed to Jerónimo de Balbás",
+        "Date": "first half of the 18th century",
+        "Fire": "January 17, 1967, caused by a short circuit",
+        "Damage to the altar": "about 80 percent",
+        "Documented restorations": "1976 and 2007 to 2008",
+        "Location": "trascoro, behind the choir"
+      }
+    },
+    "faq_mito": {
+      "hash": "bdf2cbf0affe86c7",
+      "texto": {
+        "pregunta": "Myth: The Altar of Forgiveness survived the 1967 fire without damage.",
+        "respuesta": "Reality: The fire destroyed about 80 percent of the altar, and not everything you see today is equally old, because there were restorations."
+      }
+    }
+  }
+}

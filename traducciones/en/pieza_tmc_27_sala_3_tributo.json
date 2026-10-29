@@ -1,0 +1,54 @@
+{
+  "id": "tmc_27_sala_3_tributo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "de7c0ebcce50c657",
+      "texto": "Hall Three: Tribute and Trade"
+    },
+    "frase_gancho": {
+      "hash": "21eacfa29d5a2494",
+      "texto": "An empire that collected tribute and merchants who traveled far."
+    },
+    "puente_narrativo": {
+      "hash": "ef06fdfe87d006b2",
+      "texto": "Enter Hall Four, the one dedicated to Huitzilopochtli, where the pieces from the south side of the temple are displayed."
+    },
+    "guion_corto": {
+      "hash": "0fa082c558c08b1f",
+      "texto": "Hall Three explains how Tenochtitlan became rich. Mexica rule over other peoples extended from fourteen thirty to fifteen nineteen, and tribute flowed from those peoples to the city. The hall also speaks of the pochtecas, the merchants, who traveled to distant regions. Among the objects is an Olmec mask, much older than the Mexica, which they kept as a valuable piece, showing their interest in the past. This is the hall that helps explain why objects from so many different places appear in the Templo Mayor. It also shows why the city needed wide-ranging trade routes."
+    },
+    "guion_largo": {
+      "hash": "00f73c9cdc4a2efb",
+      "texto": "In Hall Three, your gaze widens from the temple to the empire. Its theme is tribute and trade, that is, how wealth reached Tenochtitlan.\n\nMexica rule over other peoples extended from fourteen thirty to fifteen nineteen. In those almost nine decades, the city became the center of a very large territory. From the conquered peoples, tribute was received, that is, goods that had to be delivered regularly to Tenochtitlan.\n\nThis helps in understanding the Templo Mayor. Behind every offering there was a network of roads, markets, and tribute-payers that made it possible. When you look at a piece, think also of the journey it made to reach this place. A building so large, with such varied offerings, could only be sustained with resources that came from far away. This hall offers the context for thinking about where the objects you saw in the previous hall might have come from.\n\nThe hall also speaks of the pochtecas. They were the Mexica merchants, who traveled to distant regions to trade and obtain goods. The pochtecas had an important role, because they not only carried merchandise, but also brought back news about the places they passed through. That information was valuable to a city with interests in such a vast territory. The merchants were also the eyes of the city far from home. Their work joined trade with information and with power.\n\nAmong the objects in the hall is an Olmec mask. The Olmec lived many centuries before the Mexica, in the region of the Gulf of Mexico. The fact that an Olmec piece appears in the Templo Mayor is a very interesting detail. It means that the Mexica kept, or acquired, objects from much older cultures, and that they valued them.\n\nThink about what this says about them as a society. They did not see themselves as a people without a past. They kept, and also buried, very ancient pieces. That tells us about how they understood time and the heritage of other peoples.\n\nThis hall also changes the image we might have of the Templo Mayor as a purely ritual place. It was also a political and economic center, where the power of the city was displayed before the conquered peoples.\n\nIf you look at the display cases slowly, ask yourself where each object might have come from. Notice the variety of materials and forms, and the labels that accompany them. The objects come from different places and reflect diverse styles. That mixture is a clue to the trade networks that sustained life in the capital. No city of that scale could live only on what its island produced.\n\nWhen you finish this hall, move on calmly to the next one. There the most important god of the city awaits you: Huitzilopochtli."
+    },
+    "retos_observacion": {
+      "hash": "5994c2bff30b947a",
+      "texto": [
+        "Find the Olmec mask and think about how many centuries separate the Olmec from the Mexica",
+        "Observe the variety of materials in the display cases",
+        "Identify the material of two objects and ask what region it might have come from"
+      ]
+    },
+    "especificaciones": {
+      "hash": "34a01ad3b1658235",
+      "texto": {
+        "Hall": "3, Tribute and Trade",
+        "Mexica rule": "from 1430 to 1519",
+        "Merchants": "pochtecas",
+        "Featured object": "Olmec mask"
+      }
+    },
+    "faq_mito": {
+      "hash": "b13891c69822b14f",
+      "texto": {
+        "pregunta": "Myth: The Templo Mayor was only a religious center.",
+        "respuesta": "Reality: It was also a political and economic center, sustained by tribute from the conquered peoples and by trade."
+      }
+    }
+  }
+}

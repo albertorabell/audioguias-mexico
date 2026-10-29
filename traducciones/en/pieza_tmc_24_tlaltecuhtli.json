@@ -1,0 +1,57 @@
+{
+  "id": "tmc_24_tlaltecuhtli",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "40b4f3414eba042b",
+      "texto": "The Museum and Tlaltecuhtli in the Lobby"
+    },
+    "frase_gancho": {
+      "hash": "7afbe91bfcfbe71b",
+      "texto": "A twelve-ton earth goddess welcomes everyone who enters the museum."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "When you’re ready, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "3df9664b33ff414f",
+      "texto": "The Templo Mayor Museum opened on October twelfth, nineteen eighty-seven, in a project by Pedro Ramírez Vázquez. In the lobby, Tlaltecuhtli, the monstrous goddess of the earth, welcomes you. It is a monolith measuring four meters seventeen by three sixty-two, weighing about twelve tons. It was found on October second, two thousand six, and its restoration took three years. It preserves traces of its original paint, and seeing it up close helps you imagine how it once looked. It was made between fifteen oh two and fifteen twenty-one, in the final years of the empire. The archaeologist Eduardo Matos Moctezuma notes that its worship was reserved for priests."
+    },
+    "guion_largo": {
+      "hash": "8b2ece5889ddb0f7",
+      "texto": "Welcome to the Templo Mayor Museum. Before entering the halls, there are two things worth knowing: how this building came to be, and which piece greets you in the lobby.\n\nThe museum opened on October twelfth, nineteen eighty-seven. The project was by the architect Pedro Ramírez Vázquez, with Javier Ramírez Campuzano. It was built next to the ruins, as a result of the Templo Mayor Project, to display the objects recovered in the excavations. It has eight halls. The first ones provide context, then come those devoted to the two shrines, to tribute, and to nature, and the last one deals with the conquest and what came after. It is best to follow that order, because it tells a story.\n\nIn the lobby, Tlaltecuhtli awaits you. Its name is usually translated as lord or lady of the earth. In the Mexica tradition, the earth was seen as a living force, one that gave life and also received the dead. That is why its image is one of the most powerful in the pantheon.\n\nThe sculpture appeared on October second, two thousand six. It measures four meters seventeen by three meters sixty-two, and weighs close to twelve tons, according to INAH. It was an enormous and fragile piece, and its restoration took three years. Because of its size, moving and studying it was a considerable technical challenge. It preserves traces of its original polychromy, that is, the color with which it was painted in its day.\n\nIt is dated between fifteen oh two and fifteen twenty-one, that is, to the final years of the empire. According to the archaeologist Eduardo Matos Moctezuma, the worship of Tlaltecuhtli was restricted to priests. That is, it was not an image for the general public, and that makes it even more interesting.\n\nToday you see it in full light and up close, in the lobby of a museum. That is a way of seeing it that its creators surely never had in mind. Take a moment to look at it calmly, from different angles, before entering the halls. There is no rush: it is one of the largest pieces in the museum and one of those that deserve the most time.\n\nAs you observe it, notice the details of the surface: the reliefs, the forms that repeat, and the traces of color. If the museum offers an explanation on a wall label, read it, because it helps you recognize the elements of the figure.\n\nOne last point. This piece shows how archaeology keeps discovering things, even in a city as thoroughly explored as this one. Barely two decades ago, no one knew that Tlaltecuhtli lay underground. With that idea in mind, move on to the halls. There you will find objects that have been hidden for centuries, and that came out of the earth thanks to the excavations you already know about."
+    },
+    "retos_observacion": {
+      "hash": "8ba9a2764f7102b8",
+      "texto": [
+        "Notice the reliefs on the surface and the forms that repeat",
+        "Look for the traces of color that survive",
+        "View it from different angles before moving on to Hall 1"
+      ]
+    },
+    "especificaciones": {
+      "hash": "62bb42ed206be0fd",
+      "texto": {
+        "Museum opened": "October 12, 1987",
+        "Project": "Pedro Ramírez Vázquez with Javier Ramírez Campuzano",
+        "Tlaltecuhtli": "found on October 2, 2006",
+        "Dimensions": "4.17 by 3.62 m",
+        "Weight": "about 12 tons",
+        "Restoration": "3 years",
+        "Date": "1502 to 1521"
+      }
+    },
+    "faq_mito": {
+      "hash": "fa460102487ede5d",
+      "texto": {
+        "pregunta": "Myth: Tlaltecuhtli was a public image, seen by everyone.",
+        "respuesta": "Reality: According to Matos Moctezuma, its worship was reserved for priests."
+      }
+    }
+  }
+}

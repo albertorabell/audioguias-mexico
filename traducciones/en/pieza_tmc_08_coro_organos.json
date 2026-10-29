@@ -1,0 +1,56 @@
+{
+  "id": "tmc_08_coro_organos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "409d8a6d001014ee",
+      "texto": "The Choir, the Choir Stalls and the Two Organs"
+    },
+    "frase_gancho": {
+      "hash": "6ddfe9292d7c2574",
+      "texto": "A temple within the temple, with carved choir stalls and two monumental organs."
+    },
+    "puente_narrativo": {
+      "hash": "3e700836d33c4c21",
+      "texto": "Continue toward the side of the Altar of Forgiveness, at the back of the choir."
+    },
+    "guion_corto": {
+      "hash": "22ef2aad20fca309",
+      "texto": "In the center of the central nave there is another space, surrounded by iron screens and carved wood: the choir. Here the canons sat to pray and sing. The choir stalls are the work of Juan de Rojas, from the late seventeenth century, and their seats have carved reliefs. Above them are the two great organs of the viceregal period, whose facades measure about nine meters wide by eleven high. In this Cathedral, Agustín de Iturbide was crowned emperor on the twenty-first of July, eighteen twenty-two, in the main chapel, next to the altar. In nineteen sixty-seven a fire damaged most of these choir stalls and affected the organs, and restorations followed."
+    },
+    "guion_largo": {
+      "hash": "59de813442ed413c",
+      "texto": "You are standing in the center of the temple, where one of the most special spaces of an old cathedral rises: the choir. In the cathedrals of New Spain, the choir stood in the middle of the nave, closed off by iron screens, and the canons gathered there to pray and to sing the divine office several times a day.\n\nThe most striking part is the choir stalls, the set of carved wooden seats. Juan de Rojas made them between sixteen ninety-six and sixteen ninety-seven, using a wood called tapincerán, and they have fifty-nine reliefs. Each seat showed scenes and figures, and was used according to the rank of the person who occupied it. It is the kind of work that brings together sculpture, carpentry and liturgy in a single piece of furniture.\n\nAbove the choir stalls rise the two organs. They are enormous: their facades measure about nine meters wide by eleven high, according to the INAH, and they were built in the eighteenth century. The current ones are attributed to José Nassarre, and are dated between seventeen thirty-four and seventeen thirty-six. Before them there was an earlier organ, from the late seventeenth century. With these instruments, the worship of the most important cathedral in the viceroyalty came to life in sound.\n\nA political moment also took place in this Cathedral. Agustín de Iturbide was crowned emperor of Mexico on the twenty-first of July, eighteen twenty-two. The ceremony was not held in the choir, but in the main chapel, next to the altar, where the thrones were placed. He had just completed independence the year before. Iturbide ruled for only a few months and abdicated in eighteen twenty-three. His remains rest in another chapel of the Cathedral.\n\nOn the seventeenth of January, nineteen sixty-seven, a short circuit caused a fire that began in the Altar of Forgiveness, right behind the choir. The fire damaged most of the choir stalls, as seventy-five of their ninety-nine seats were lost. It also affected the organs. Restoration work followed, with interventions in nineteen seventy-six and between two thousand seven and two thousand eight.\n\nThe iron screen that encloses the choir also has a history. It was made in Macao, in southern China, in seventeen twenty-two, and it was installed in the Cathedral in seventeen thirty. It shows that this cathedral held pieces made very far away.\n\nThe choir usually asks for a donation to enter, and sometimes it is closed for celebrations. If you cannot go in, it can also be appreciated very well from the nave, through the screens, and the organs can be seen clearly from any point of the crossing.\n\nThink of how much sound has passed through this place. For centuries, the choir was the voice of the Cathedral. Behind it, toward the altar, there is a piece that also suffered in the fire and that has a very evocative name: the Altar of Forgiveness."
+    },
+    "retos_observacion": {
+      "hash": "a7a86f624e98a67d",
+      "texto": [
+        "Look up high and compare the facades of the two organs",
+        "Look for the carved reliefs on the backs of the choir stalls",
+        "Find the choir screen and notice how it encloses the space"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c0bc73d810ef3d93",
+      "texto": {
+        "Choir stalls": "Juan de Rojas, 1696 to 1697, tapincerán wood",
+        "Reliefs on the choir stalls": "59",
+        "Organs": "José Nassarre, 1734 to 1736",
+        "Organ facades": "about 9 m wide by 11 m high",
+        "Coronation of Iturbide": "July 21, 1822, in the main chapel",
+        "Fire": "January 17, 1967"
+      }
+    },
+    "faq_mito": {
+      "hash": "b943cf0983a443de",
+      "texto": {
+        "pregunta": "Myth: The Cathedral’s choir burned down completely in 1967 and no longer exists.",
+        "respuesta": "Reality: The fire destroyed much of the choir stalls and affected the organs, but the choir and the organs were restored in several stages."
+      }
+    }
+  }
+}

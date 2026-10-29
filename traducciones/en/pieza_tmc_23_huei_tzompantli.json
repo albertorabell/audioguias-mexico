@@ -1,0 +1,57 @@
+{
+  "id": "tmc_23_huei_tzompantli",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "12f3b33cd8d131d3",
+      "texto": "The Huei Tzompantli: The Discovery on Guatemala Street"
+    },
+    "frase_gancho": {
+      "hash": "818f65628b41abc8",
+      "texto": "A wall of real skulls that appeared beneath a colonial building in twenty fifteen."
+    },
+    "puente_narrativo": {
+      "hash": "f16a627bc5658cdc",
+      "texto": "Walk around the Cathedral to return to the plaza, where the last stop is."
+    },
+    "guion_corto": {
+      "hash": "e75ff58d870cf1b8",
+      "texto": "A few meters from here, at number twenty-four Guatemala Street, the Huei Tzompantli was discovered in twenty fifteen, a great wall of Mexica skulls. It was explored by the INAH Urban Archaeology Program, with Raúl Barrera. It had a platform measuring thirty-five by twelve meters and a tower made of skulls joined with lime. About eleven thousand skull fragments were recovered, and specialists are studying a sample of two hundred fourteen. It is not visited as part of this tour, but it completes the story you saw at the Tzompantli Altar. Here the skulls were real, and their number makes us think about the scale of the ritual."
+    },
+    "guion_largo": {
+      "hash": "e437403f747a0609",
+      "texto": "This stop lies outside the archaeological zone, a few meters to the west, and it is one of the most important in the recent history of the downtown area. Here, in twenty fifteen, a discovery appeared that changed what was known about the tzompantli.\n\nIt all happened at number twenty-four Guatemala Street, in a building where construction work was under way. There the INAH team began to dig. The INAH Urban Archaeology Program, directed by archaeologist Raúl Barrera, explored the site. They found a platform about thirty-five meters long by twelve wide. On top of it stood a tower of skulls. According to the excavation reports, it measured about four point seven meters in diameter. It was made of skulls joined with lime, a mixture similar to cement.\n\nThe figures give an idea of the scale. About eleven thousand skull fragments were recovered. In August of twenty twenty-five, according to an INAH bulletin, a sample of two hundred fourteen skulls was being cleaned, consolidated and studied at the Templo Mayor Museum. The numbers may change as the analysis moves forward.\n\nThe Huei Tzompantli was built in five stages, according to the INAH. One of them corresponds to the period of Ahuízotl, between fourteen eighty-six and fifteen oh two, which was stage six of the Templo Mayor. The structure continued to be used until fifteen twenty-one. It is closely tied to the Templo Mayor and to the ritual that took place there.\n\nOne important detail: Spanish chronicles spoke of tzompantli with huge numbers of skulls. Andrés de Tapia, who accompanied the Spaniards, spoke of one hundred thirty-six thousand skulls in one of them. Archaeology has not found anything close to that figure. It is a reminder that colonial texts must be read carefully and checked against what appears in the ground. The Guatemala twenty-four discovery is valuable because it offers physical evidence, though far smaller than that figure.\n\nThat is why this place matters to specialists. It makes it possible to study the skulls to learn who the people were, how they lived and how they died. That research continues, and its results are not yet complete. Every year new data may appear that correct or confirm what is believed today.\n\nIf you walk up to the street, you will see that the site is not open as part of this visit. Even so, it is worth stopping for a few minutes to locate the place, look at the facade of the building and notice how it blends in with the surrounding constructions. Think that, beneath today’s buildings, the Mexica city still keeps its stories.\n\nThis is the kind of discovery that shows why the center of the city is a living archaeological zone. A colonial building became a doorway to an earlier world."
+    },
+    "retos_observacion": {
+      "hash": "a363f65756786eb8",
+      "texto": [
+        "Locate Guatemala Street and look for number 24",
+        "Notice how far these remains are from the main archaeological zone",
+        "Compare what you know about the Tzompantli Altar with this discovery"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e3bfe00ddbd92992",
+      "texto": {
+        "Location": "Guatemala Street 24",
+        "Year of discovery": "2015",
+        "Platform": "about 35 by 12 m",
+        "Tower": "about 4.7 m in diameter, according to the excavation reports",
+        "Fragments recovered": "about 11,000",
+        "Sample under study in August 2025": "214 skulls",
+        "Construction stages": "five; one from the period of Ahuízotl (1486 to 1502); in use until 1521"
+      }
+    },
+    "faq_mito": {
+      "hash": "2f86d2fc1b484f7c",
+      "texto": {
+        "pregunta": "Myth: The Spaniards counted 136,000 skulls in a tzompantli and archaeology confirmed it.",
+        "respuesta": "Reality: Archaeology has not found a similar figure; about 11,000 skull fragments have been recovered from the Huei Tzompantli."
+      }
+    }
+  }
+}

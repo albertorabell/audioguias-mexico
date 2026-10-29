@@ -1,0 +1,55 @@
+{
+  "id": "tmc_25_sala_1_antecedentes",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d65b72e47e60637d",
+      "texto": "Hall One: Background and Discoveries Since 1790"
+    },
+    "frase_gancho": {
+      "hash": "2f29ce8d060a1843",
+      "texto": "Two centuries of discoveries, from a find in the plaza to modern excavations."
+    },
+    "puente_narrativo": {
+      "hash": "c24757a6737cba82",
+      "texto": "Continue to Hall Two, where the offerings from the sanctuary of Huitzilopochtli are on display."
+    },
+    "guion_corto": {
+      "hash": "e0d388d0d0804442",
+      "texto": "Hall One tells how the Templo Mayor was gradually discovered. It begins with the finds that took place starting in 1790, when Mexica sculptures appeared in the plaza, and continues through the excavations of the twentieth century. It also explains what offerings are. More than a hundred have been found, of three types: fill, cist, and box. Each type is related to the way the objects were deposited. The hall also mentions the work of the Urban Archaeology Program in 1991. It is a good place to understand where what you will see next comes from, and how it came to be known."
+    },
+    "guion_largo": {
+      "hash": "927f9242f15b7373",
+      "texto": "Hall One is called Background. It is an introductory hall, designed to explain how and why we know the Templo Mayor today. Many people pass quickly through it to reach the large pieces, but it is worth pausing, because it gives the keys to reading everything else.\n\nIt begins with the finds that took place starting in 1790. That year, great Mexica sculptures appeared in the plaza. Later on, in the last hall of the museum, you will see a colonial offering from that same year.\n\nFrom there the hall moves on to the excavations of the twentieth century. Manuel Gamio worked at this site between 1913 and 1914. Later, in 1978, the discovery of Coyolxauhqui gave rise to the Templo Mayor Project. These are the episodes you saw in the archaeological zone, now told with objects and explanations. A long time passed between one discovery and the next, and that distance helps explain why the Templo Mayor has been known in detail only for the past few decades.\n\nAnother central theme of the hall is the offerings. An offering is a set of objects that was buried as part of a ritual. At the Templo Mayor, more than a hundred have been found. They are classified into three types: fill, cist, and box, according to the way they were deposited. Don't worry about memorizing the names. What matters is that each offering had a location and a meaning, and that archaeologists recorded them one by one.\n\nThe hall also mentions the work of the Urban Archaeology Program, which in 1991 carried out explorations in the city center. That program exists because in a living city, any construction work can run into ancient remains, and someone has to examine them in time. That is the same program that, years later, would explore the Huei Tzompantli (Tzompantli), which we already talked about.\n\nThis hall helps change the way you look. The objects you will see in the following halls came from orderly excavations, with a record of where and how they were found. That information is part of their value, because an object without context says much less. That is why archaeologists note every detail of the place where a piece appears.\n\nIf you take your time, look at any plans or photographs in the hall. If they show the area before the excavation, compare them with what you have just walked through. It is a way of remembering that today's city continues to live on top of the ancient one.\n\nWhen you finish this hall, you will have a clear idea of how the temple was discovered, of how long it took the city to see what lay beneath it, and of why each offering matters. With that, you will be ready to enter fully into the ritual world. The next hall deals with ritual and sacrifice, and it begins with the offerings from the sanctuary of Huitzilopochtli."
+    },
+    "retos_observacion": {
+      "hash": "8931829a12769bed",
+      "texto": [
+        "Look at the plans or photographs of the excavations, if there are any, and compare them with the area you have just walked through",
+        "Identify the three types of offering: fill, cist, and box",
+        "Note the date 1790 and think about how much time passed until the modern excavations"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d9d136ac22d0d5bd",
+      "texto": {
+        "Hall": "1, Background",
+        "Finds since": "1790",
+        "Offerings found": "more than 100",
+        "Types of offering": "fill, cist, and box",
+        "Urban Archaeology Program": "1991"
+      }
+    },
+    "faq_mito": {
+      "hash": "b5f7b6828d1d5852",
+      "texto": {
+        "pregunta": "Myth: All the offerings at the Templo Mayor are the same.",
+        "respuesta": "Reality: More than 100 have been found, and they are classified into 3 types: fill, cist, and box."
+      }
+    }
+  }
+}

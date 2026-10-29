@@ -1,0 +1,56 @@
+{
+  "id": "tmc_11_capillas_veneno",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "832c184ecb17da30",
+      "texto": "The Side Chapels and the Lord of Poison"
+    },
+    "frase_gancho": {
+      "hash": "32ed46a0fe420af1",
+      "texto": "Sixteen chapels, fourteen of them open, and a Christ made of corn-cane paste that has been venerated for centuries."
+    },
+    "puente_narrativo": {
+      "hash": "8c835d5c9e5385eb",
+      "texto": "Among the chapels, look for the Chapel of San Felipe de Jesús, where the remains of Agustín de Iturbide rest."
+    },
+    "guion_corto": {
+      "hash": "e8cac4bffec00841",
+      "texto": "Along the sides of the naves open the side chapels. The Cathedral has sixteen, and fourteen are open to the public. Each one is dedicated to a saint or to a devotional title of the Virgin or of Christ, and in the viceregal era it was sponsored by a religious order or a confraternity. Among them are the chapels of the Relics, of the Angels, of San Pedro and of San Felipe de Jesús. One of the most venerated images is the Lord of Poison, a crucified Christ made of corn-cane paste, from the eighteenth century. It comes from the Dominican novitiate of Porta Coeli. Another is the Lord of Cacao."
+    },
+    "guion_largo": {
+      "hash": "95f34d1b5f81801c",
+      "texto": "Walk along one of the side naves and you will see a succession of chapels, each with its own altar, its altarpiece and its own atmosphere. This is one of the richest places in the Cathedral, because each chapel works like a small church inside the larger one.\n\nThe Cathedral has sixteen chapels, of which fourteen are open to visitors. They are named for their saint or for their devotional title. Among them are the chapels of the Relics, of the Angels, of San Pedro and of San José. There are also those of Our Lady of Guadalupe, of San Felipe de Jesús, of the Sorrows and of Solitude. The names and the order may vary depending on works in progress and the restrictions of the day.\n\nThe reason for so many chapels lies in the way the building was constructed. Each one was sponsored by a religious order, a guild or a confraternity, which paid for the altar and in return reserved a space for its worship and, at times, for its burials. That is why the chapels have different styles. Some are sober and others full of gold, depending on the era and the money of whoever commissioned them.\n\nIn this ensemble there are images that people still come to visit. One is the Lord of Poison, also called the Black Christ. It is a sculpture of a crucified Christ, made of corn-cane paste, a technique from New Spain that allowed for lightweight figures. According to INAH, it dates from the eighteenth century and comes from the Dominican novitiate of Porta Coeli, in Mexico City. It came to the Cathedral in the twentieth century, around the 1920s or 1930s.\n\nIt is one of the most visited images in the Cathedral. That devotion is part of the living present of the church, not an ornament for tourists.\n\nAnother well-known image is the Lord of Cacao, which is associated with the Chapel of San José. In colonial times, offerings of cacao were left for it, since cacao was then a valuable seed and was also used as currency. It is a reminder that offerings depended on what people had at hand, and that worship was intertwined with the economy.\n\nThe chapels also hold altarpieces, paintings and sculptures from different eras. Of special note are the Chapel of the Relics, the Chapel of the Angels and the Chapel of San Pedro. If you have time, step into those that are open and stay for a while in one of them. You will see how the atmosphere changes when you pass from the main nave, wide and solemn, into a more intimate space.\n\nThere is one more that deserves a stop of its own. It is the Chapel of San Felipe de Jesús, which holds the urn with the remains of Agustín de Iturbide. We will speak of it shortly.\n\nAs you walk through the chapels, remember that some are closed for restoration, for Masses or for celebrations. This is not a museum but a church in use, and some spaces open only at certain hours. If you find one closed, look in through the grille and move on."
+    },
+    "retos_observacion": {
+      "hash": "a4136e89936b2bd7",
+      "texto": [
+        "Count how many chapels you can see along one side of the nave",
+        "Look in one of the chapels for the name of the saint or the devotional title at the top of the altarpiece",
+        "Notice whether there are people praying before a venerated image"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d6c8a3b101ac4ee",
+      "texto": {
+        "Chapels": "16, open to the public: 14",
+        "Lord of Poison": "Christ made of corn-cane paste, 18th century",
+        "Origin": "Dominican novitiate of Porta Coeli",
+        "Arrival at the Cathedral": "20th century",
+        "Lord of Cacao": "associated with the Chapel of San José",
+        "Sponsorship": "religious orders and confraternities"
+      }
+    },
+    "faq_mito": {
+      "hash": "2b25b9689c6abfb2",
+      "texto": {
+        "pregunta": "Myth: The Lord of Poison is a pre-Hispanic sculpture.",
+        "respuesta": "Reality: It is a crucified Christ from the 18th century, made of corn-cane paste, that comes from the Dominican novitiate of Porta Coeli."
+      }
+    }
+  }
+}

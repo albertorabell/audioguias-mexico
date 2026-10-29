@@ -1,0 +1,53 @@
+{
+  "id": "tmc_20_muro_craneos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "aae241fa71eb47a5",
+      "texto": "The Tzompantli Altar and the Wall of Skulls"
+    },
+    "frase_gancho": {
+      "hash": "179284e2773e2a04",
+      "texto": "Stone skulls in front of the shrine of Huitzilopochtli."
+    },
+    "puente_narrativo": {
+      "hash": "796764b3c2506ae9",
+      "texto": "Continue along the walkway toward the Red Temples and the House of the Eagles."
+    },
+    "guion_corto": {
+      "hash": "6aa5f6d177a2f57a",
+      "texto": "In front of the shrine of Huitzilopochtli, a platform decorated with rows of skulls carved in stone was found in nineteen eighty. It is known as the Tzompantli Altar. A tzompantli was a structure where the Mexica displayed the skulls of sacrificed people, and the chronicles say there were several in the sacred precinct. The walls of this altar hold no real skulls, only their representation in stone, and it evoked sacrifice and war. It is one of the essential stops on the visit, along with the House of the Eagles and the Red Temples."
+    },
+    "guion_largo": {
+      "hash": "f396022218e0f523",
+      "texto": "Look at the platform in front of you. It is decorated with rows of small stone skulls, and it is one of the most recognizable images of the Templo Mayor.\n\nIt is known as the Tzompantli Altar, or the wall of skulls. It was found in nineteen eighty, in front of the shrine of Huitzilopochtli. It is one of the essential stops on the visit, along with the House of the Eagles, the Red Temples, and Stage II.\n\nThe word tzompantli comes from Nahuatl and is related to the idea of a row of skulls. It was a structure where the Mexica displayed the heads of sacrificed people. The Spanish chronicles speak of several tzompantli in Tenochtitlan, and archaeology has confirmed at least one of great size. Friar Bernardino de Sahagún, for example, mentions several structures of this kind in the sacred precinct.\n\nIt is important to distinguish between the altar you see here and a real tzompantli. In this altar, the skulls are stone sculptures, carved one next to another, and they decorate the walls of the platform. They are not real skulls. It worked as a symbolic representation, and its location in front of the shrine of Huitzilopochtli connects it with the theme of war and sacrifice.\n\nWhy did sacrifice matter so much to the Mexica? According to that worldview, the gods had given their blood to create life. Humans had to give it back to maintain the order of the universe. That is the explanation usually given, although specialists debate it and qualify it. It is a difficult idea, best understood within its context, and you will see the theme in several halls of the museum.\n\nIf you look closely, you will notice that the stone skulls are arranged in rows and that each one has similar but not identical features. The visual effect is that of a wall full of eyes and teeth. It was a way of reminding those who approached that this place was dedicated to war.\n\nLater on we will talk about a much larger tzompantli, discovered in two thousand fifteen just a few meters from here, on a nearby street. That one did have real skulls.\n\nFor now, notice the location of the altar. It stands in front of the shrine of Huitzilopochtli, on the axis of the pyramid, and for that reason it reads as part of the same complex. Everything in this area follows an order, and the altar helps you locate the southern shrine among the ruins. If you have already made out the two halves of the pyramid, this is a good reference point so you do not get lost as you walk. From here, the next stop takes you to other buildings of the precinct, smaller but just as interesting, which complete the idea of a sacred complex."
+    },
+    "retos_observacion": {
+      "hash": "6832dfe1d2ff5ad0",
+      "texto": [
+        "Count how many rows of skulls you can make out on the platform",
+        "Notice that the skulls are carved stone, not real",
+        "Locate the altar in relation to the shrine of Huitzilopochtli"
+      ]
+    },
+    "especificaciones": {
+      "hash": "dd67613a03002092",
+      "texto": {
+        "Discovery": "1980",
+        "Location": "in front of the shrine of Huitzilopochtli",
+        "Material": "stone with carved skulls"
+      }
+    },
+    "faq_mito": {
+      "hash": "f5cb51b9c0ec002f",
+      "texto": {
+        "pregunta": "Myth: The Tzompantli Altar is made of real human skulls.",
+        "respuesta": "Reality: The skulls on this altar are stone sculptures; the real skulls appeared in the Huei Tzompantli, discovered in 2015."
+      }
+    }
+  }
+}

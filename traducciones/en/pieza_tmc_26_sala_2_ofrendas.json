@@ -1,0 +1,54 @@
+{
+  "id": "tmc_26_sala_2_ofrendas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "179f714ad117da21",
+      "texto": "Hall Two: Ritual and Sacrifice, the Offerings of Huitzilopochtli"
+    },
+    "frase_gancho": {
+      "hash": "0b01ef04fb241137",
+      "texto": "Four offerings from the first shrine and an urn with the god of death."
+    },
+    "puente_narrativo": {
+      "hash": "93957916cffcec67",
+      "texto": "Move on to hall three, the hall of tribute and trade, which shows where the wealth that reached Tenochtitlan came from."
+    },
+    "guion_corto": {
+      "hash": "6f1cdad483d2e28f",
+      "texto": "Hall two is about ritual and sacrifice. It presents four offerings from the shrine of Huitzilopochtli, from Stage II, the oldest one you saw in the area. Among the objects, one stands out: an urn with the figure of Mictlantecuhtli, the god of death. These offerings were deposits of objects buried beneath the floor of the shrine, made with a clear ritual purpose. It is one of the halls that helps us most to understand what was done in that place, and what relationship the Mexica had with death and with the gods. Look at each display case calmly, one by one, because each group has its own logic."
+    },
+    "guion_largo": {
+      "hash": "c54c9e399e86cb28",
+      "texto": "In hall two you enter the world of ritual. Its theme is sacrifice and offerings, two ideas that are hard to understand today, but that were central for the Mexica.\n\nThe hall presents four offerings found in the shrine of Huitzilopochtli, in Stage II. It is the oldest stage you saw in the archaeological zone, the one with the two small shrines, and that is why these offerings are linked to the early phases of the temple. Remember that urns with remains of burned bones were found there, beneath the floor.\n\nAn offering is a group of objects that was placed underground or inside a building as part of a ritual. They were not random gifts. When you look at a display case in this hall, you are seeing what remains of a ceremony that took place more than five centuries ago. The objects have survived, but the full meaning of the ritual is reconstructed with the help of archaeologists and chronicles, and it remains a subject of study. That is why the explanations are possible readings, not closed truths.\n\nAmong the objects, one stands out: an urn with the figure of Mictlantecuhtli, the god of death. His name is related to Mictlán, the place where, according to Mexica tradition, many of the dead went. He appears in many places in the Templo Mayor. You already saw him in the House of the Eagles, where two large figures of this god were found in nineteen ninety-four. Here you find him on a smaller scale, in an urn, used to hold the remains of cremation. Both presences show that death was part of the building, not something foreign to it. That changes the way we see the temple: it was not only a place of war and rain, but also a place where people conversed with death.\n\nIt is worth looking at these pieces with respect and without hurry. For the Mexica, sacrifice was understood as a way of maintaining the order of the universe and of paying a debt to the gods. That is the explanation specialists usually give, although it is debated and nuanced. Beyond what we may think today, these objects show a complete belief system, with its own rules and its own symbols.\n\nIf you have time, observe each display case separately and compare one with another. Each offering is presented as a group, and looking at it that way helps you understand that the objects were buried together with a purpose. The next hall, on tribute and trade, will help you understand where many of them could have come from.\n\nAs you leave this hall, you now know Huitzilopochtli, Mictlantecuhtli and the role of offerings. The next hall takes you down a different path: that of tribute and trade."
+    },
+    "retos_observacion": {
+      "hash": "297ee4ea2ecd6e38",
+      "texto": [
+        "Find the urn with the figure of Mictlantecuhtli",
+        "Count the 4 offerings presented in the hall",
+        "Remember the figures from the House of the Eagles and compare their scale"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ec84dbd71bcdbc88",
+      "texto": {
+        "Hall": "2, Ritual and Sacrifice",
+        "Offerings on display": "4, from the shrine of Huitzilopochtli",
+        "Temple stage": "II",
+        "Featured object": "urn with Mictlantecuhtli"
+      }
+    },
+    "faq_mito": {
+      "hash": "30012f9d3382faaf",
+      "texto": {
+        "pregunta": "Myth: The offerings were objects thrown down at random.",
+        "respuesta": "Reality: They were ritual deposits; archaeologists record them one by one because each group has its own meaning."
+      }
+    }
+  }
+}
