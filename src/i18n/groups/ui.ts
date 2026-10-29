@@ -93,6 +93,7 @@ export const ui = defineGroup(
         'Descarga el recorrido para usarlo sin internet.',
       ],
       passCta: (price: string) => (price ? `Desbloquear · ${price}` : 'Desbloquear todo'),
+      passTryFree: (works: string) => `Probar primero ${works} gratis`,
     },
     room: {
       start: 'Recorrer la sala',
@@ -280,6 +281,7 @@ export const ui = defineGroup(
         'Download the tour to use it offline.',
       ],
       passCta: (price: string) => (price ? `Unlock · ${price}` : 'Unlock everything'),
+      passTryFree: (works: string) => `Try ${works} free first`,
     },
     room: {
       start: 'Walk through the room',
@@ -469,6 +471,7 @@ export const ui = defineGroup(
         'Téléchargez le parcours pour l’utiliser hors ligne.',
       ],
       passCta: (price: string) => (price ? `Débloquer · ${price}` : 'Tout débloquer'),
+      passTryFree: (works: string) => `Essayer d’abord ${works} gratuitement`,
     },
     room: {
       start: 'Parcourir la salle',

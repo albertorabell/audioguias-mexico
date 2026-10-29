@@ -323,7 +323,7 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
 
         {/* Prueba gratis: las obras abiertas, para que se escuche cómo suena antes de comprar */}
         {freePieces.length > 0 && onOpenPiece && (
-          <section id="free-pieces" className="mt-10" aria-labelledby="free-title">
+          <section id="free-pieces" className="mt-10 scroll-mt-20" aria-labelledby="free-title">
             <div className="px-5">
               <h2 id="free-title" className="font-serif text-[1.625rem] leading-tight font-medium text-balance">
                 {m.freeTitle(freePieces.length)}
@@ -393,6 +393,16 @@ export const MuseumScreen: React.FC<MuseumScreenProps> = ({
             <button type="button" id="btn-pass-unlock" onClick={onOpenPaywall} className="btn-primary w-full mt-5">
               {m.passCta(price)}
             </button>
+            {freePieces.length > 0 && (
+              <button
+                type="button"
+                id="btn-pass-try-free"
+                onClick={() => document.getElementById('free-pieces')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+                className="mt-1 w-full min-h-11 inline-flex items-center justify-center text-ui font-semibold text-jade-ink cursor-pointer rounded-full active:bg-raised"
+              >
+                {m.passTryFree(u.worksCount(freePieces.length))}
+              </button>
+            )}
           </section>
         )}
 

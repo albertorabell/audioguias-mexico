@@ -329,6 +329,7 @@ export const PL_GROUPS: Record<string, any> = {
         'Pobierz trasę, by korzystać z niej offline.',
       ],
       passCta: (price: string) => (price ? `Odblokuj · ${price}` : 'Odblokuj wszystko'),
+      passTryFree: (works: string) => `Najpierw posłuchaj za darmo: ${works}`,
     },
     room: {
       start: 'Zwiedź salę',

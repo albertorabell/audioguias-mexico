@@ -294,6 +294,7 @@ test('inicio del sitio: explica qué incluye el pase y cómo se compra, abre la 
   await expect(bloque).toContainText('Qué incluye el pase');
   await expect(bloque).toContainText('con audio y texto');
   await expect(bloque).toContainText('Cómo se compra');
+  await expect(bloque.locator('#btn-pass-try-free')).toContainText('gratis');
   await bloque.locator('#btn-pass-unlock').click();
   await expect(page.locator('#modal-paywall')).toBeVisible();
   await page.goto(`/?pago=ok&session_id=${SESSION}`);
