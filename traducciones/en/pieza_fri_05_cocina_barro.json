@@ -1,0 +1,54 @@
+{
+  "id": "fri_05_cocina_barro",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "89f2ec9c84065314",
+      "texto": "The Kitchen: A Wood-Fired Hearth"
+    },
+    "frase_gancho": {
+      "hash": "bb3e618ae3787f2f",
+      "texto": "Frida wanted a kitchen like the one in an old hacienda, with wooden and clay utensils."
+    },
+    "puente_narrativo": {
+      "hash": "0a3137f3ae8d0945",
+      "texto": "The visit continues through the house: head on to the next stop on your route."
+    },
+    "guion_corto": {
+      "hash": "12422eea9bd54f19",
+      "texto": "The kitchen of the Casa Azul looks like it was taken from another century, and that was on purpose. Frida wanted it to look and work like the hearth of an old hacienda, with wooden and clay utensils. Pots and casseroles hang from the walls, there are Talavera tiles, and there is a wood-fired hearth that she and Diego preferred to the gas stove that already existed. One of their favorite dishes was mole poblano, and according to Frida, Lupe Marín, who had been Diego’s wife before Frida, taught her how to make it. On the wall, small clay jugs spell out the names of Frida and Diego. Here people cooked, and here they lived."
+    },
+    "guion_largo": {
+      "hash": "5a969c502c1ca22b",
+      "texto": "Step into this kitchen slowly, because every wall has something to look at. Clay pots, casseroles, and wooden spoons hang from the walls. The hearth is covered in Talavera tiles, with yellow and blue designs. There is a table that, according to what is said, was used by the household staff.\n\nThe museum explains the idea. Frida wanted a kitchen that looked and worked like the hearth of an old colonial hacienda. That is why there are wooden and clay utensils, and why the kitchen moves away from the modern. In those years gas stoves already existed, but Frida and Diego preferred the wood-fired hearth. They wanted their stews to have the flavor of traditional cooking.\n\nIn this kitchen, dishes of every kind were prepared, of pre-Hispanic, colonial, and popular origin. One of Frida’s favorites was mole poblano. According to Frida, Lupe Marín, who had been Diego’s wife before Frida, had taught her how to make moles.\n\nLook at the wall closely. Small clay jugs form the names of Frida and Diego, and between them there are two doves. It is a detail that is easy to miss. It resembles the way someone signs a love letter, but instead of ink it uses clay and nails.\n\nIn this kitchen Frida received many people and hosted meals. That is why the kitchen is not a hidden service room. It is the center of the house. Here the stews and the conversations mingled, and the conversations then carried on in the dining room.\n\nFor Frida, food was another way of affirming what is Mexican. Like the masks in the dining room or the Tehuana dresses, mole poblano was a way of saying where she came from.\n\nThere are many pieces worth looking at closely. Among the pots and casseroles you can see metates, vessels for pulque, and molcajetes. The metate is a stone for grinding corn, and the molcajete is used to grind chiles and spices. The Talavera tiles are ceramic from Puebla, glazed and hand-painted.\n\nThe wood-fired hearth gives an even heat and a smoky flavor to stews, and that is why many cooks still prefer it. The metate has been used for centuries in Mesoamerica. These things are not museum curiosities. They are tools of a cuisine that is still alive in many homes in Mexico.\n\nBefore moving on, try to imagine the smoke from the hearth, the casseroles simmering, and Frida giving instructions."
+    },
+    "retos_observacion": {
+      "hash": "ffa8ba622af3b654",
+      "texto": [
+        "Find the small clay jugs that form the names of Frida and Diego, with the two doves",
+        "Look at the Talavera tiles on the hearth, in yellow and blue",
+        "Count how many pots, casseroles, and wooden utensils hang from the walls"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ab28db492bccb34e",
+      "texto": {
+        "Space": "ground-floor kitchen",
+        "Central element": "wood-fired hearth with Talavera tiles",
+        "Utensils": "clay pots and casseroles, wooden spoons",
+        "Frida’s favorite dish": "mole poblano"
+      }
+    },
+    "faq_mito": {
+      "hash": "b7e9508b9d7d7263",
+      "texto": {
+        "pregunta": "Myth: Because she was an artist, Frida did not cook and was not interested in the kitchen.",
+        "respuesta": "Reality: It mattered to her so much that she designed the kitchen as a traditional hearth. She herself said that Lupe Marín, who had been Diego’s wife before Frida, taught her how to make moles."
+      }
+    }
+  }
+}

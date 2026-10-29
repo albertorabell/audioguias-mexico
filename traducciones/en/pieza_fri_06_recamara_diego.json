@@ -1,0 +1,54 @@
+{
+  "id": "fri_06_recamara_diego",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "256da2c7a1777709",
+      "texto": "Diego’s Bedroom"
+    },
+    "frase_gancho": {
+      "hash": "37ff5e2a86f01353",
+      "texto": "A small room that Frida prepared for a man who stood one meter ninety tall."
+    },
+    "puente_narrativo": {
+      "hash": "1f413a10fc88c5d8",
+      "texto": "From Diego’s room, take the stone staircase that goes up to the studio. On the walls hang small tin paintings."
+    },
+    "guion_corto": {
+      "hash": "96a5d784c6bab616",
+      "texto": "This room is small and simple, and Frida prepared it for Diego. He stood one meter ninety tall, and during the day he liked to enjoy the light of the house and the garden. Here are kept his cotton muslin clothing, his hats, and his canes from Apizaco. There are also paintings by Mariano Silva Vandeira. Frida and Diego married in nineteen twenty-nine, divorced in nineteen thirty-nine, and married again in nineteen forty. They never lived as a conventional couple. Each had their own space, and this room shows it. It is a simple room, and that is why it says so much. Look at the coat rack and the light that comes into the room."
+    },
+    "guion_largo": {
+      "hash": "f92c6b5f0d196591",
+      "texto": "Unlike the dining room, here there is almost nothing that surprises you. There is a simple bed, and a coat rack with hats, clothing, and a few personal objects. But that is exactly what makes it interesting. This is the room where one of the most important painters of Mexico slept, and its simplicity is striking.\n\nThe museum tells us that Frida prepared this room so that Diego could sleep here. He stood one meter ninety tall. During the day, Diego enjoyed the light of the house and the garden. His cotton muslin clothing, his hats, and his canes from Apizaco are preserved here. There is also a lacquered wooden box from Michoacán, a photo of Frida, and paintings by Mariano Silva Vandeira, among them Eve in Paradise.\n\nTo understand the story of this bedroom, you need to know the couple’s life. They married in nineteen twenty-nine. Diego was more than twenty years older than Frida and was already famous. They divorced in nineteen thirty-nine and married again on the eighth of December, nineteen forty. Even so, they never lived as a conventional couple. In San Ángel they had two separate houses, joined by a bridge. In the Casa Azul, each had their own space.\n\nDiego also collected pre-Hispanic art, and from that passion the Anahuacalli Museum was born. You will see it in more detail next to the pyramid in the garden.\n\nDiego Rivera was born in Guanajuato in eighteen eighty-six and died on the twenty-fourth of November, nineteen fifty-seven, three years after Frida. He painted great murals on public buildings, such as the National Palace in Mexico City. His art filled enormous walls. Here, by contrast, he sleeps in a simple bed.\n\nThat contrast is part of the room’s charm. A very big man, with big ideas, in a small, quiet space in the house of the woman he loved.\n\nLook at the coat rack once more. When a person dies, the things that remain speak of the way they lived. Here there are hats, canes, and a room open to the light. It is the portrait of a big man who did not need much to feel at home."
+    },
+    "retos_observacion": {
+      "hash": "385c471d9892aeb9",
+      "texto": [
+        "Notice the size of the bed and remember that Diego stood one meter ninety tall",
+        "Find the coat rack with its hats, the cotton muslin clothing, and the canes from Apizaco",
+        "Look at the light that comes into the room and think about what the museum says: during the day, Diego enjoyed the light of the house and the garden"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c2cec2fbfae03fec",
+      "texto": {
+        "Space": "Diego’s bedroom, ground floor",
+        "Objects": "cotton muslin clothing, hats and canes from Apizaco, lacquered wooden box from Michoacán",
+        "Paintings": "works by Mariano Silva Vandeira",
+        "Marriage": "1929; divorce: 1939; second marriage: December 8, 1940"
+      }
+    },
+    "faq_mito": {
+      "hash": "2584c00d58f4b5df",
+      "texto": {
+        "pregunta": "Myth: Diego Rivera and Frida Kahlo shared the same bedroom their whole lives.",
+        "respuesta": "Reality: They always had separate spaces. In San Ángel they lived in two houses joined by a bridge, and in the Casa Azul Frida prepared this room for Diego."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "fri_10_recamara_noche_cenizas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "816ef170dfc45b3b",
+      "texto": "The Night Bedroom and Frida’s Ashes"
+    },
+    "frase_gancho": {
+      "hash": "34bee29ddcb02f37",
+      "texto": "A pre-Hispanic urn shaped like a toad holds her ashes on a dressing table."
+    },
+    "puente_narrativo": {
+      "hash": "479447b6b5422348",
+      "texto": "Take a breath before leaving the bedrooms, then continue to the next stop on your route."
+    },
+    "guion_corto": {
+      "hash": "8934f49f812a1b21",
+      "texto": "In the night bedroom, Frida rested when the day was done. There are framed butterflies, a gift from the sculptor Isamu Noguchi, a portrait of Frida made by the photographer Nickolas Muray, and papier-mâché objects that she and Diego treasured. On a dressing table stands a pre-Hispanic urn shaped like a toad. Inside are Frida’s ashes. She died in this house on July thirteenth, nineteen fifty-four, at the age of forty-seven. Her body lay in state at the Palacio de Bellas Artes, and was cremated afterward. Her ashes are kept today in the house where she was born. Look at the urn first, and then at the butterflies."
+    },
+    "guion_largo": {
+      "hash": "8bcf76f317d7966c",
+      "texto": "The night bedroom feels different from the rest of the house. It is a quiet room, full of small objects. The museum speaks of a collection of framed butterflies, a gift from the sculptor Isamu Noguchi, and of a photographic portrait of Frida made by Nickolas Muray. There are also toys and papier-mâché objects, which Frida and Diego greatly treasured. Some guides also mention dolls, which Frida collected.\n\nOn a dressing table rests a pre-Hispanic urn shaped like a toad. Inside are Frida’s ashes. The museum describes it as an urn on a dressing table that serves as an altar. It is not a tomb, nor a monument. It is a clay object from an ancient people, placed in the house where she lived.\n\nFrida died on July thirteenth, nineteen fifty-four, around six in the morning, at the age of forty-seven. The official cause was a pulmonary embolism. Eleven days earlier, on July second, she had taken part in a protest march in a wheelchair.\n\nHer body lay in state at the Palacio de Bellas Artes. The coffin was covered with the flag of the Mexican Communist Party. That gesture caused a political scandal, and the director of the Instituto Nacional de Bellas Artes, Andrés Iduarte, was dismissed for allowing it. The next day there was a funeral at the Panteón Civil de Dolores, and her body was cremated.\n\nToday her ashes are kept in the house where she was born. That is why many people enter here with a mix of curiosity and respect.\n\nThe toad-shaped urn has another possible reading. It is said that Frida called Diego her frog-toad. And for several cultures of ancient Mexico, toads and frogs were associated with water and rain. These are possible readings, not an explanation that the museum gives for the urn.\n\nDiego died in nineteen fifty-seven, three years after Frida, the same year he created the trust that looks after the house. Some guides also speak of more than forty dolls in this bedroom, although their number may change depending on how they are displayed.\n\nEvery year, for the Day of the Dead, the Casa Azul sets up an offering dedicated to Frida. It is a way of remembering her with flowers, candles and objects, following Mexican tradition. If you visit the museum at that time, you may see it.\n\nStay a moment in silence, without looking for anything else. This is the house where Frida began and ended her story."
+    },
+    "retos_observacion": {
+      "hash": "a7d4e04fed600565",
+      "texto": [
+        "Look on the dressing table for the pre-Hispanic urn shaped like a toad, which holds Frida’s ashes",
+        "Look at the framed butterflies and remember that they were a gift from Isamu Noguchi",
+        "Find the photographic portrait of Frida made by Nickolas Muray"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e2e2494855a7e674",
+      "texto": {
+        "Space": "night bedroom, Upper Floor",
+        "Urn": "pre-Hispanic piece shaped like a toad, on a dressing table",
+        "Collection": "framed butterflies, a gift from Isamu Noguchi; portrait of Frida by Nickolas Muray; toys and papier-mâché",
+        "Death": "July 13, 1954, at age 47",
+        "Funeral": "lying in state at the Palacio de Bellas Artes; funeral at the Panteón Civil de Dolores"
+      }
+    },
+    "faq_mito": {
+      "hash": "ab755b149753625e",
+      "texto": {
+        "pregunta": "Myth: Frida Kahlo is buried in the Rotonda de las Personas Ilustres or in a cemetery.",
+        "respuesta": "Reality: She was cremated after her funeral at the Panteón Civil de Dolores. Her ashes are kept in a pre-Hispanic urn at the Casa Azul."
+      }
+    }
+  }
+}

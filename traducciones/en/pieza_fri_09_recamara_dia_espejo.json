@@ -1,0 +1,55 @@
+{
+  "id": "fri_09_recamara_dia_espejo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4a7760b98213ca6b",
+      "texto": "The Daytime Bedroom: The Mirror Above the Bed"
+    },
+    "frase_gancho": {
+      "hash": "fa427f8e65553349",
+      "texto": "Her mother hung a mirror above the bed so that Frida could paint herself while she was unable to move."
+    },
+    "puente_narrativo": {
+      "hash": "04f00442f0dd4b1e",
+      "texto": "Continue to the nighttime bedroom next door, where there are framed butterflies and an urn on a dressing table."
+    },
+    "guion_corto": {
+      "hash": "5319df7c1a68510b",
+      "texto": "Look up. Above this bed, her mother had a mirror placed after the bus accident of September nineteen twenty-five. Frida then spent about nine months unable to move, and she began to paint during that convalescence. The mirror allowed her to see herself. That is how her first self-portraits were born. It is one of the best-known stories of her life, and this is the bed where it happened. In the bedroom there is also a mask of her face, which Diego had made after her death. At the foot of the bed there are photographs of Lenin, Mao, and other figures Frida admired. Frida spent the day here because of her rest."
+    },
+    "guion_largo": {
+      "hash": "da2d1cf77cb9395c",
+      "texto": "This is the daytime bedroom. Frida spent many hours here during her periods of rest. You will see a bed with its mirror above it and, on the bedspread, a mask of her face. It is a small room. And yet, this is where the painter began.\n\nOn the seventeenth of September, nineteen twenty-five, Frida was riding on a bus that collided with an electric streetcar. She was eighteen years old. A metal rail pierced her pelvis. She fractured her spine in three places, her right leg in eleven, her collarbone, and other bones. She spent a month in the hospital and then returned to the Casa Azul. She lay immobile in a plaster corset for months. The museum speaks of about nine months of rest. At first, she wanted to be a doctor. She had entered the Escuela Nacional Preparatoria, where she was one of the few women of her generation.\n\nDuring that convalescence, her family looked for ways to help her. Her mother had a special easel made, so that she could paint lying down. Her father lent her his oil paints. And her mother placed a large mirror above the bed, so that she could see herself. Frida explained it years later. She painted self-portraits because she spent a lot of time alone and because it was the subject she knew best.\n\nNow look at the mask on the bedspread. After Frida's death, Diego had a mask made of her face and put it in this bedroom. It is a still image, in contrast with the mirror, which always gives back the image of whoever looks into it.\n\nAt the foot of the bed there are photographs of figures Frida admired. According to the museum, Lenin and Mao Tse Tung are there, along with other communist leaders. It was what Frida wanted to see when she woke up.\n\nOn the bus that day was also her boyfriend, Alejandro Gómez Arias. She later gave him her first self-portrait, the one from nineteen twenty-six, . In this bedroom there is also a photograph of Frida painting. In this way, the image in the mirror is completed by the portrait of the painter herself at work.\n\nLook at the bedroom as a time capsule. Here a bed, a mirror, a mask, and portraits of people Frida admired are all mixed together. In that mixture lies the character of the house. The intimate, the political, and the artistic live side by side in the same room.\n\nThere is one scene that sums up this room. A young woman of eighteen, lying down, her body broken, looks at her face in a mirror and begins to paint it. From there come more than fifty self-portraits. Here is where it all began."
+    },
+    "retos_observacion": {
+      "hash": "505bac60164edef3",
+      "texto": [
+        "Look at the mirror above the bed and imagine that Frida saw herself from that position",
+        "Find the mask on the bedspread, made on Diego’s orders after her death",
+        "Notice the framed photographs at the foot of the bed and find Lenin and Mao"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e8b45b8319b74b0",
+      "texto": {
+        "Space": "daytime bedroom, Upper Floor",
+        "Key element": "bed with a mirror placed by her mother after the 1925 accident",
+        "Mask": "of Frida’s face, made on the orders of Diego Rivera after her death",
+        "Date of the accident": "September 17, 1925",
+        "Rest after the accident": "about nine months, according to the museum"
+      }
+    },
+    "faq_mito": {
+      "hash": "f0e4340994bde534",
+      "texto": {
+        "pregunta": "Myth: Frida put the mirror above the bed so she could paint herself.",
+        "respuesta": "Reality: The mirror was her mother’s idea, and she also had an easel made for painting while lying down. Frida took advantage of that mirror to paint her first self-portraits."
+      }
+    }
+  }
+}

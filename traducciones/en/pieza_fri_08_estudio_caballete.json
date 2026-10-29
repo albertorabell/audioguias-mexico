@@ -1,0 +1,54 @@
+{
+  "id": "fri_08_estudio_caballete",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "27d778d22f52e3c0",
+      "texto": "Frida’s Studio"
+    },
+    "frase_gancho": {
+      "hash": "8dfd4b5c4fd9cc4a",
+      "texto": "An easel given by Nelson Rockefeller, designed for painting from a wheelchair."
+    },
+    "puente_narrativo": {
+      "hash": "e0266b625565bfb8",
+      "texto": "Move from the studio to the daytime bedroom, where there is a bed with a mirror above it."
+    },
+    "guion_corto": {
+      "hash": "068be53a3678f498",
+      "texto": "Frida’s studio is a bright, orderly room. The architect Juan O’Gorman built it in nineteen forty-six, commissioned by Diego Rivera, and it was not part of the original house. Here is her easel, a gift from the businessman Nelson Rockefeller, with mechanisms to raise and lower the canvas when Frida painted from her wheelchair. Her brushes, her paints, and her books of poetry, art, geography, biology, and medicine are here too. If you look closely, you will discover jars of varnish and perfume that she reused as containers for paint. It is a space made for work. It is a room where real work was done."
+    },
+    "guion_largo": {
+      "hash": "8043355b1d5ee220",
+      "texto": "This is the brightest room in the house. It did not exist when Guillermo Kahlo built the Casa Azul. In nineteen forty-six, Diego Rivera asked the architect Juan O’Gorman to build a studio for Frida. O’Gorman used volcanic stone, basalt, the same stone the ancient Mexicans used in their pyramids, and gave it a simple, functional design. Later, Frida and Diego decorated it with mosaics on the ceilings, snail shells on the walls, and built-in jars that serve as nests for doves.\n\nLook at the easel. It is a gift from Nelson Rockefeller, an American businessman. It has mechanisms that made it possible to adjust the height of the canvas when Frida painted from her wheelchair. Her wheelchair is also preserved here. The studio was designed for her body, not the other way around.\n\nOn the tables and shelves you will see her brushes and her paints. Frida reused jars of varnish and perfume as containers for her colors. She mixed everyday life with the work of the studio. That habit of making use of whatever was at hand appears throughout the house.\n\nThe bookcases held books of poetry, art, geography, biology, and medicine. Medicine was not a distant subject for her. She wanted to study to become a doctor, and life gave her decades of hospitals. The books on anatomy and biology help explain why her paintings show organs, bones, and fetuses with such precision. There are also some pre-Hispanic pieces and cardboard filing boxes that Frida decorated. On their spines you can see cards from a popular Mexican game.\n\nFrida painted here, but not only on canvas. It is known that she also painted in notebooks, in the margins of books, on her clothing, and on her corsets. Everything served as a surface.\n\nJuan O’Gorman was an architect, a painter, and a friend of Diego. He also designed the houses that Diego and Frida had in San Ángel. In the studio of the Casa Azul, her palettes, her paints, and the mirrors she used to make her self-portraits are also preserved. With those objects, the room is still a workshop.\n\nFrida read a great deal: there were also books of history, literature, and philosophy. A painter who knows about anatomy, politics, and poetry does not limit herself to painting what she sees. She paints what she thinks.\n\nLook also at the windows and the light, which change throughout the day. A painter’s studio needs good natural light, and this one was designed for that.\n\nAs you walk through the studio, try to notice the details. A jar, a brush, an open book. There is no staged scene here. There is a workshop that was used every day, until the last months of her life."
+    },
+    "retos_observacion": {
+      "hash": "112c4226d8a2c54a",
+      "texto": [
+        "Find the easel and notice the mechanisms that made it possible to adjust the height of the canvas",
+        "Find the wheelchair and imagine Frida in front of the easel",
+        "Look at the jars of varnish and perfume that Frida reused as containers for her paints"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b8fe1f7352bdcb0e",
+      "texto": {
+        "Construction": "1946, by Juan O’Gorman, commissioned by Diego Rivera",
+        "Material": "basalt, volcanic stone",
+        "Objects": "Nelson Rockefeller’s easel, wheelchair, brushes, paints, and books",
+        "Decoration": "mosaics on the ceiling, snail shells on the walls, and jars as dove nests"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e6d0b55f62a36b2",
+      "texto": {
+        "pregunta": "Myth: When Frida began using a wheelchair, she stopped painting.",
+        "respuesta": "Reality: She did not stop painting. Her easel had mechanisms to adjust the height of the canvas while she worked from the wheelchair, and she kept painting until the last year of her life."
+      }
+    }
+  }
+}

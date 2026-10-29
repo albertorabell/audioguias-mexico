@@ -1,0 +1,55 @@
+{
+  "id": "fri_17_cierre_legado",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f1398eaafb93fc5b",
+      "texto": "From Coyoacán to the World"
+    },
+    "frase_gancho": {
+      "hash": "0fa2068c43996e61",
+      "texto": "In her lifetime, Frida had only one solo exhibition in Mexico. She arrived by ambulance and lay down in her bed."
+    },
+    "puente_narrativo": {
+      "hash": "e9b453a70ebf50c5",
+      "texto": "The tour ends here. Before you leave, stay a moment in the courtyard."
+    },
+    "guion_corto": {
+      "hash": "024207dd862b675f",
+      "texto": "Today there are lines to get into this house. But in Frida’s lifetime, things were different. Her only solo exhibition in Mexico was in April of nineteen fifty-three, at the Galería de Arte Contemporáneo of Lola Álvarez Bravo. Her doctors had ordered her to rest. Frida arrived by ambulance, and her four-poster bed was carried to the gallery so she could receive her guests. Her fame grew greatly after her death. In the nineteen seventies and eighties, books and exhibitions appeared, and in nineteen eighty-four Mexico declared her work a cultural heritage. That frankness is what connected with so many people."
+    },
+    "guion_largo": {
+      "hash": "8150078e1b9ef787",
+      "texto": "You are at the end of the visit. It is worth looking back and asking yourself a question. How did a woman who had only one solo exhibition in Mexico in her lifetime come to be known all over the world?\n\nLet’s begin with that exhibition. It was in April of nineteen fifty-three, at the Galería de Arte Contemporáneo, organized by the photographer Lola Álvarez Bravo. Frida had medical orders to rest. Even so, she wanted to be at her own opening. She arrived by ambulance, on a stretcher, and her four-poster bed was moved to the gallery. There she received her guests, lying down.\n\nIt was her only solo exhibition in Mexico during her lifetime. In those years, many knew her as the wife of Diego Rivera, an already very famous muralist. Her paintings were small and personal, very different from the large public murals.\n\nThe years passed. Frida died in nineteen fifty-four. In nineteen fifty-eight, the Casa Azul opened as a museum, at Diego’s initiative. Her work was slow to reach a wide audience.\n\nEverything changed from the late nineteen seventies. Her work was rediscovered. Between nineteen seventy-six and nineteen seventy-seven, the first books about her appeared. In nineteen seventy-eight, the first retrospectives were organized. In nineteen eighty-three, the writer Hayden Herrera published a biography, Frida, which reached many readers. In nineteen eighty-four, Mexico declared her work a cultural heritage and prohibited taking it out of the country.\n\nMany readers, and above all many women readers, found in her work something uncommon in the history of art. A woman who painted herself, with her body, her pain, her heartbreak, her politics and her pride in Mexico. Frida painted fewer than two hundred paintings, most of them small, and many are self-portraits. That frankness is what connected with so many people.\n\nToday many people stand in line to get in. But when you walk through the house, the impression is not of a monument. It is of a home. There is a studio, a bed with a mirror, and an urn on a dressing table. Frida’s story is better understood here, in the small rooms, than in any portrait.\n\nThe museum recalls a phrase about the place. Since it opened, the atmosphere of the house has remained as if Frida still lived in it. It is a good way to say goodbye. The visit does not end with a famous painting, but with the idea that a person lived here.\n\nWhen you leave, look once more at the blue walls of the courtyard. Now you know what they hold."
+    },
+    "retos_observacion": {
+      "hash": "5fff3accc0ebe05f",
+      "texto": [
+        "Look one last time at the blue walls of the courtyard and review what you saw in each room",
+        "Remember the scene from April of nineteen fifty-three, with the four-poster bed inside a gallery",
+        "Think about which part of the house told you the most about Frida"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ae8d98c2bdf49e0b",
+      "texto": {
+        "Only solo exhibition in Mexico during her lifetime": "April 1953, Galería de Arte Contemporáneo, organized by Lola Álvarez Bravo",
+        "First retrospectives": "1978",
+        "Biography by Hayden Herrera": "1983",
+        "Work declared cultural heritage of Mexico": "1984",
+        "Work": "fewer than 200 paintings, almost all of them small"
+      }
+    },
+    "faq_mito": {
+      "hash": "25d7004d3d4832df",
+      "texto": {
+        "pregunta": "Myth: Frida Kahlo was more famous than Diego Rivera while they were alive.",
+        "respuesta": "Reality: In their lifetime, Diego was the better known. Frida’s fame grew from the late nineteen seventies, with books, exhibitions and her biography of nineteen eighty-three."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "fri_11_jardin_flora_animales",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "12eb388f42cd7dc9",
+      "texto": "The Garden of the Blue House"
+    },
+    "frase_gancho": {
+      "hash": "09335901cd8da388",
+      "texto": "A plot of one thousand forty square meters that was bought in nineteen thirty-seven to protect Trotsky."
+    },
+    "puente_narrativo": {
+      "hash": "2c16efd55d1a08be",
+      "texto": "Walk along the garden paths to the red pyramid."
+    },
+    "guion_corto": {
+      "hash": "031c481a55bf50de",
+      "texto": "The garden was not part of the original house. It was made in nineteen thirty-seven. The neighboring plot, of one thousand forty square meters, was bought then, and walls were raised to protect Leon Trotsky, who was fleeing Stalin. Today there are cacti, subtropical plants, trees, fountains, and Mesoamerican sculptures. Frida’s animals also lived in this garden. There were xoloitzcuintle dogs, spider monkeys, and parrots, and she painted them in several paintings. Today the garden is a place to rest, with art in every corner and plenty of shade for pausing a while. Walk slowly along the stone paths and look at the sculptures among the plants."
+    },
+    "guion_largo": {
+      "hash": "ef1487e521e456f4",
+      "texto": "This garden is, in truth, a piece of land that the house did not have. When Guillermo Kahlo built the Blue House in 1904, there was only the Central Courtyard. In 1937, Leon Trotsky and his wife Natalia Sedova came to live here. To protect them from Stalin’s persecution, some walls were closed off and the neighboring lot, of one thousand forty square meters, was bought. There the garden was planted.\n\nFor that reason, this space has a political origin. It is the result of a decision to look after a person. Over time it became a place for living, like everything else in the house.\n\nLook around. There are cacti, subtropical plants, trees, stone paths, and fountains. In several corners, pre-Hispanic sculptures from the cultures of Mesoamerica were placed. The museum mentions a basalt sculpture of Chicomecóatl, a goddess of maize and of sustenance, installed in the garden. It was Diego’s way of showing the pieces outdoors, as part of life and not as display-case objects.\n\nThis garden was also the home of many animals. In Frida’s life there were spider monkeys, xoloitzcuintle dogs, which are hairless Mexican dogs, and parrots. They appear in her self-portraits. One of her monkeys, Fulang-Chang, keeps her company in the painting Fulang-Chang and I. And a young deer named Granizo is the protagonist of the painting The Wounded Deer, in which it has Frida’s face. They were not invented symbols. They were the animals she lived with.\n\nThe garden also changes with the seasons of the year and with the exhibitions. Sometimes an offering is set up for the Day of the Dead, with candles and cempasúchil flowers. If you come in that season, it is another way of seeing the house.\n\nSculptures by the Mexican artist Mardonio Magaña appear here, whom the museum mentions in several corners of the house. A museum garden changes with the seasons, and for that reason it does not look the same in every month.\n\nThe xoloitzcuintle is a hairless dog that already existed in pre-Hispanic Mexico. Spider monkeys live naturally in the jungles of Mexico and Central America, and so do parrots. Perhaps having these animals was a way of bringing nature and Mexican tradition closer to daily life.\n\nWalk slowly. Notice the stone paths, the colors of the blue wall, and the green of the plants. It is the place where the house opens outward and stops being just a museum."
+    },
+    "retos_observacion": {
+      "hash": "9ccb94187b86156d",
+      "texto": [
+        "Look for the cacti and the subtropical plants among the stone paths",
+        "Notice the pre-Hispanic sculptures placed among the plants, such as the one of Chicomecóatl",
+        "Imagine the xoloitzcuintles, the spider monkeys, and the deer Granizo roaming these paths"
+      ]
+    },
+    "especificaciones": {
+      "hash": "20d1bb8f205ba3c1",
+      "texto": {
+        "Garden plot": "1,040 m², bought in 1937",
+        "Elements": "cacti, Mexican plants, fountains, and Mesoamerican sculptures",
+        "Sculpture mentioned by the museum": "Chicomecóatl, made of basalt",
+        "Frida’s animals": "xoloitzcuintles, spider monkeys, parrots, and a deer named Granizo"
+      }
+    },
+    "faq_mito": {
+      "hash": "c2ab7e8355700ba3",
+      "texto": {
+        "pregunta": "Myth: The animals in Frida’s self-portraits were invented symbols that she never had nearby.",
+        "respuesta": "Reality: They were her pets. Frida had spider monkeys, xoloitzcuintle dogs, and parrots, and they lived in the house and the garden."
+      }
+    }
+  }
+}
