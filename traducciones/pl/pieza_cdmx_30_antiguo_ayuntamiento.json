@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_30_antiguo_ayuntamiento",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae1da1f921671d09",
+      "texto": "Dawny Pałac Ratusza: siedziba rządu miasta"
+    },
+    "frase_gancho": {
+      "hash": "73d0f327051768b7",
+      "texto": "Przez wieki zbierał się tu rząd miasta, a w tysiąc sześćset dziewięćdziesiątym drugim roku podpalił go tłum."
+    },
+    "puente_narrativo": {
+      "hash": "f03c786251d6d028",
+      "texto": "Idź dalej na zachód od placu, do arkad Portal de Mercaderes, czyli Arkad Kupców, gdzie handel zajmuje parter od wielu stuleci."
+    },
+    "como_llegar": {
+      "hash": "08e79ee7f9deeae1",
+      "texto": "Przejdź przez plac na jego południową stronę, gdzie stoi Dawny Pałac Ratusza, żeby kontynuować opowieść o rządzie miasta."
+    },
+    "guion_corto": {
+      "hash": "0aa9df9dce669b3d",
+      "texto": "Tłum rozgniewany brakiem kukurydzy podpalił w tysiąc sześćset dziewięćdziesiątym drugim roku siedzibę rady miejskiej na tym placu. Mieścił się tu rząd miasta, dlatego właśnie tu skierowano gniew. Budynek odbudowano w kolejnych latach, a już w dwudziestym wieku dostał nowe piętra. Dziś nadal jest częścią rządu stolicy. Obok wznosi się drugi budynek, zbudowany, by go uzupełniać. W środku Sala Rady Miejskiej zachowała wystrój z tysiąc osiemset dziewięćdziesiątego trzeciego roku i sufit malowany farbami olejnymi. Oba budynki razem to wieki historii samorządu."
+    },
+    "guion_largo": {
+      "hash": "cd6b4e6bfd61b671",
+      "texto": "Rada Miejska to dawna nazwa rządu miasta. A stolica Nowej Hiszpanii potrzebowała własnego domu bardzo wcześnie. Dekret królewski z tysiąc pięćset dwudziestego siódmego roku przeznaczył na tym placu działki na budynki rady miejskiej, więzienie, rzeźnię i sklepy.\n\nPierwotny budynek został naznaczony ogniem. Ósmego czerwca tysiąc sześćset dziewięćdziesiątego drugiego roku kryzys kukurydziany wywołał bunt. Tłum podpalił pałac wicekrólów, ratusz i setki drewnianych straganów na placu. Siedzibę rady miejskiej odbudowano w kolejnych latach. Na początku osiemnastego wieku stała znów, w stylu barokowym półwyspowym.\n\nWyższe piętra są nowsze. Dobudowano je dopiero w dwudziestym wieku. Trzecie piętro przybyło w tysiąc dziewięćset dziesiątym roku, z okazji stulecia Niepodległości, a czwarte w tysiąc dziewięćset trzydziestym czwartym. Z pierwotnej budowli zachowały się tylko fundamenty i niektóre mury.\n\nW środku wyróżnia się Sala Rady Miejskiej, ozdobiona w tysiąc osiemset dziewięćdziesiątym trzecim roku w stylu art nouveau. Ma podium ze stu dziewiętnastoma krzesłami z rzeźbionego drewna, a na suficie obraz olejny Francisca Parry, który alegorycznie przedstawia Ojczyznę. W tej sali wręcza się klucze do miasta znamienitym gościom. Obok znajduje się Sala Wicekrólów, w której zebrano portrety sześćdziesięciu dwóch wicekrólów Nowej Hiszpanii. Na drugim piętrze Galeria Agora opowiada o walkach mieszkańców miasta o ich prawa. Jeśli chcesz zobaczyć wnętrza, sprawdź aktualne informacje, bo podczas uroczystości oficjalnych wejście może być ograniczone.\n\nBudynek obok to jego brat. Rząd Miasta Meksyk zbudowano między tysiąc dziewięćset czterdziestym pierwszym a tysiąc dziewięćset czterdziestym ósmym rokiem. Stoi na miejscu dawnych Arkad Kwiatów, a duża część jego projektu miała uzupełniać Dawny Ratusz. Podczas prac odkryto pozostałości domu związanego z doñą Mariną oraz boisko do gry w piłkę. Trzęsienie ziemi z tysiąc dziewięćset osiemdziesiątego piątego roku poważnie go uszkodziło, o czym przypominamy, mówiąc o [pamięci Zócalo](cdmx_26_zocalo_memoria).\n\nCiekawostka: rząd stolicy nazywał się Radą Miejską od tysiąc pięćset dziewiętnastego do tysiąc dziewięćset dwudziestego ósmego roku. To prawie cztery wieki pod tą samą nazwą.\n\nJeśli przychodzisz bez pośpiechu, obejrzyj wzrokiem obie fasady od rogu do rogu i zobacz, jak nowy budynek stara się towarzyszyć staremu.\n\nTen plac opowiada więc historię władzy w warstwach. Na wschodzie stoi pałac rządu krajowego, na północy katedra, a tu, po stronie południowej, siedziba rządu miasta. Gdy kraj zmieniał ustrój, miasto zachowało własne miejsce, by się zbierać i decydować. Ten zwyczaj, czyli rządzenie się z placu, wciąż żyje w tych budynkach."
+    },
+    "retos_observacion": {
+      "hash": "b4cc6b22630cdca7",
+      "texto": [
+        "Policz piętra Dawnego Ratusza: ostatnie dobudowano w dwudziestym wieku",
+        "Znajdź sąsiedni budynek Rządu Miasta i porównaj obie fasady",
+        "Wskaż południową stronę placu i pamiętaj, że od szesnastego wieku stała tam siedziba rady miejskiej"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f3c0bf98e71a5c5e",
+      "texto": {
+        "Epoka": "początki w XVI wieku, odbudowa po buncie w 1692 roku",
+        "Styl": "barok półwyspowy z przebudowami z XX wieku",
+        "Sala Rady Miejskiej": "ozdobiona w 1893 roku w stylu art nouveau",
+        "Sąsiedni budynek": "Rząd Miasta Meksyk, od 1941 do 1948 roku",
+        "Lokalizacja": "Plac Konstytucji 2, południowa strona Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "9bf9e5f63b85b476",
+      "texto": {
+        "pregunta": "Mit: Hernán Cortés kazał zbudować budynek, który widzisz dzisiaj.",
+        "respuesta": "Rzeczywistość: Siedziba rady miejskiej sięga XVI wieku, ale obecny budynek jest wynikiem odbudowy po pożarze z 1692 roku oraz przebudów z XX wieku."
+      }
+    }
+  }
+}
