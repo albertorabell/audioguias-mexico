@@ -286,6 +286,23 @@ test('inicio del sitio: el botón del bloque gratis abre la ventana del pase, y 
   await expect(page.locator('#free-pieces')).toHaveCount(0);
 });
 
+test('inicio del sitio: explica qué incluye el pase y cómo se compra, abre la ventana del pase, y con pase ya no aparece', async ({ page }) => {
+  await simularCobro(page);
+  await page.goto('/');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  const bloque = page.locator('#pass-info');
+  await expect(bloque).toContainText('Qué incluye el pase');
+  await expect(bloque).toContainText('con audio y texto');
+  await expect(bloque).toContainText('Cómo se compra');
+  await expect(bloque.locator('#btn-pass-try-free')).toContainText('gratis');
+  await bloque.locator('#btn-pass-unlock').click();
+  await expect(page.locator('#modal-paywall')).toBeVisible();
+  await page.goto(`/?pago=ok&session_id=${SESSION}`);
+  await expect(page.getByTestId('payment-notice')).toContainText('Pago confirmado');
+  await page.locator('#sites-grid-section [role=button]').first().click();
+  await expect(page.locator('#pass-info')).toHaveCount(0);
+});
+
 test('pase combinado: se ofrece con su precio y se compra con el sitio "todos"', async ({ page }) => {
   const api = await simularCobro(page, { combo: true });
   await page.goto('/');
@@ -560,6 +577,18 @@ test('textos de pago: sin pase la ficha solo muestra el adelanto y el candado, y
   // el botón abre la ventana del pase
   await page.locator('#btn-unlock-text').click();
   await expect(page.locator('#modal-paywall')).toBeVisible();
+});
+
+test('piezas gratis: sin pase se lee su texto completo, sin candado y sin pedir nada al servidor de textos', async ({ page }) => {
+  const api = await simularCobro(page);
+  await simularAudio(page, { privado: true, gratisPublico: true });
+  await sinVoces(page);
+  await page.goto('/');
+  await abrirPieza(page, FREE.title);
+  await expect(page.locator('#texto-con-pase')).toHaveCount(0);
+  await page.locator('#btn-mode-full').click();
+  await expect(page.getByText(FRASE_SECRETA, { exact: false })).toBeVisible();
+  expect(api.calls.some((c) => c.path.startsWith('/texto/'))).toBe(false);
 });
 
 test('textos de pago: con pase se piden al servidor con la clave y aparece la explicación completa', async ({ page }) => {

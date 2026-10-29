@@ -63,7 +63,7 @@ function makeProject({ withManifest }) {
 }
 
 function runSync(dir, opts = {}) {
-  const out = execFileSync('node', [SYNC], { cwd: dir, env: { ...process.env, SYNC_LOCAL_DIR: path.join(dir, 'csv'), SYNC_PIEZAS_GRATIS: opts.gratis === false ? '' : 'true' }, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] });
+  const out = execFileSync('node', [SYNC], { cwd: dir, env: { ...process.env, SYNC_LOCAL_DIR: path.join(dir, 'csv'), SYNC_PIEZAS_GRATIS: opts.gratis === false ? 'false' : 'true' }, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] });
   return out;
 }
 const read = (dir, f) => JSON.parse(fs.readFileSync(path.join(dir, 'public/data', f), 'utf8'));
@@ -162,9 +162,23 @@ test('sin piezas gratis: por defecto ninguna pieza queda libre aunque el Sheets 
   assert.ok(read(dir2, 'pieces.json').some((p) => p.is_free));
 });
 
-test('textos de pago: los datos públicos no llevan guiones, retos, mito ni ficha; van en datos-privados/ por idioma', () => {
+test('piezas gratis: se publican con su texto completo y no van a los archivos privados; las de pago siguen escondidas', () => {
   const dir = makeProject({ withManifest: false });
   runSync(dir);
+  const pub = read(dir, 'pieces.json');
+  const p0 = pub.find((p) => p.piece_id === 'p00');
+  assert.equal(p0.is_free, true);
+  assert.equal(p0.guion_largo, 'Largo 0.');
+  assert.equal(p0.guion_corto_en, 'Short 0.');
+  const p1 = pub.find((p) => p.piece_id === 'p01');
+  assert.ok(!('guion_largo' in p1));
+  const es = JSON.parse(fs.readFileSync(path.join(dir, 'datos-privados/texto/es.json'), 'utf-8'));
+  assert.ok(!es.pieces.p00 && es.pieces.p01.guion_largo);
+});
+
+test('textos de pago: los datos públicos no llevan guiones, retos, mito ni ficha; van en datos-privados/ por idioma', () => {
+  const dir = makeProject({ withManifest: false });
+  runSync(dir, { gratis: false });
   const pub = read(dir, 'pieces.json');
   const prohibido = ['guion_corto', 'guion_largo', 'retos_observacion', 'especificaciones', 'faq_mito'];
   for (const p of pub) {
@@ -205,7 +219,7 @@ test('Teotihuacán: sus zonas, piezas y las dos rutas salen de TEO_SALAS y TEO_P
   fs.mkdirSync(path.join(dir, 'public/data/teotihuacan'), { recursive: true });
   fs.writeFileSync(path.join(dir, 'public/data/teotihuacan/teotihuacan.json'), JSON.stringify({ site_id: 'TEOTIHUACAN', routes: [] }));
 
-  runSync(dir);
+  runSync(dir, { gratis: false });
   const man = JSON.parse(fs.readFileSync(path.join(dir, 'public/data/teotihuacan/teotihuacan.json'), 'utf-8'));
   assert.deepEqual(man.routes.map((r) => r.id), ['ruta-express', 'ruta-completa']);
   const [express, completa] = man.routes;

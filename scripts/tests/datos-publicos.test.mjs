@@ -18,12 +18,13 @@ function archivosPieces(dir) {
   return out;
 }
 
-test('public/data/**/pieces.json no trae guiones, retos, mitos ni fichas técnicas', () => {
+test('public/data/**/pieces.json no trae guiones, retos, mitos ni fichas técnicas (salvo las piezas gratis)', () => {
   const archivos = archivosPieces(path.join(ROOT, 'public/data'));
   assert.ok(archivos.length > 0);
   for (const f of archivos) {
     const piezas = JSON.parse(fs.readFileSync(f, 'utf8'));
     for (const pieza of piezas) {
+      if (pieza.is_free === true) continue; // las piezas gratis se publican completas a propósito
       const campos = Object.keys(pieza).filter((k) => PRIVADOS.test(k) && String(pieza[k] || '').trim());
       assert.deepEqual(campos, [], `${path.relative(ROOT, f)} · ${pieza.piece_id || pieza.id}: trae texto de pago (${campos.join(', ')})`);
     }

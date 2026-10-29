@@ -104,8 +104,8 @@ const TEO_ZONE_LABEL = { es: 'Zona', en: 'Zone', fr: 'Zone', pl: 'Strefa' };
 // Si un sitio trae menos piezas que esto, se considera una lectura incompleta y se aborta (los sitios chicos, como la Casa Azul con 18, deben pasar).
 const MIN_PIEZAS = 10;
 
-/** false = todo el audio requiere pase, aunque el Sheets marque piezas como gratis. Para volver a regalar piezas: true. */
-const PIEZAS_GRATIS = process.env.SYNC_PIEZAS_GRATIS === 'true';
+/** Las piezas que el Sheets marca como gratis (columna is_free = TRUE) se abren sin pase. Para que todo pida pase aunque el Sheets marque piezas: SYNC_PIEZAS_GRATIS=false. */
+const PIEZAS_GRATIS = process.env.SYNC_PIEZAS_GRATIS !== 'false';
 
 // Rutas sugeridas del MNA. Solo se usan piezas que existan en el Sheets (no se inventa nada).
 // Las paradas van ordenadas por ala del museo (Exteriores, Norte, Centro, Sur) para no regresar sobre los pasos.
@@ -448,7 +448,7 @@ function buildPieces(items, opts = {}) {
       const especificaciones = parseEspecificaciones(p.especificaciones);
       const faq = parseFaq(p.faq_mito);
 
-      // Decisión de producto: ninguna pieza es gratis (la columna is_free del Sheets se ignora mientras PIEZAS_GRATIS sea false)
+      // Gratis = la columna is_free del Sheets (se ignora solo si PIEZAS_GRATIS está apagado)
       const isFree = PIEZAS_GRATIS && String(p.is_free || '').trim().toUpperCase() === 'TRUE';
       const image = p.image_filename ? p.image_filename.trim().replace(/^.*[\\/]/, '') : '';
 

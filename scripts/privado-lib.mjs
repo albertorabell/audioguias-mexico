@@ -46,12 +46,13 @@ function idiomasConTexto(piece) {
   return TEXT_LANGS.filter((l) => nonEmpty(piece[`guion_corto_${l}`]) && nonEmpty(piece[`guion_largo_${l}`]));
 }
 
-/** Parte la pieza en lo público y lo privado. */
+/** Parte la pieza en lo público y lo privado. Las piezas gratis son públicas por completo: su texto no se esconde. */
 export function splitPiece(piece) {
   const pub = {};
   const priv = {};
+  const gratis = piece.is_free === true;
   for (const [k, v] of Object.entries(piece)) {
-    if (PRIVATE_FIELDS.has(k)) priv[k] = v;
+    if (!gratis && PRIVATE_FIELDS.has(k)) priv[k] = v;
     else pub[k] = v;
   }
   const esp = piece.especificaciones || {};

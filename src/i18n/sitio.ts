@@ -59,7 +59,7 @@ const es = {
   },
   offline: { notCachedDesc: 'En la zona arqueológica la señal puede ser débil. Descarga las fotos y los audios antes de llegar.' },
   paywall: {
-    benefits: { guidesDesc: 'Todas las paradas del sitio, explicadas con detalle.', offlineTitle: 'Modo 100% sin conexión en el sitio' },
+    benefits: { guidesTitle: 'Audio y texto de cada parada' },
     unavailable: 'El pago en línea estará disponible muy pronto. Mientras tanto puedes escuchar las paradas gratuitas.',
   },
   app: {
@@ -119,7 +119,7 @@ const en = {
   },
   offline: { notCachedDesc: 'The signal can be weak at the archaeological site. Download the photos and audio before you arrive.' },
   paywall: {
-    benefits: { guidesDesc: 'Every stop of the site, explained in detail.', offlineTitle: '100% offline mode at the site' },
+    benefits: { guidesTitle: 'Audio and text for every stop' },
     unavailable: 'Online payment will be available very soon. In the meantime you can listen to the free stops.',
   },
   app: {
@@ -179,7 +179,7 @@ const fr = {
   },
   offline: { notCachedDesc: 'Le signal peut être faible sur le site archéologique. Téléchargez les photos et les audios avant d’arriver.' },
   paywall: {
-    benefits: { guidesDesc: 'Toutes les étapes du site, expliquées en détail.', offlineTitle: 'Mode 100 % hors ligne sur le site' },
+    benefits: { guidesTitle: 'Audio et texte de chaque étape' },
     unavailable: 'Le paiement en ligne sera disponible très bientôt. En attendant, vous pouvez écouter les étapes gratuites.',
   },
   app: {
@@ -246,7 +246,7 @@ const pl_ = {
   },
   offline: { notCachedDesc: 'Na stanowisku archeologicznym zasięg może być słaby. Pobierz zdjęcia i nagrania, zanim dojedziesz.' },
   paywall: {
-    benefits: { guidesDesc: 'Wszystkie przystanki stanowiska, objaśnione ze szczegółami.', offlineTitle: 'Tryb w pełni offline na stanowisku' },
+    benefits: { guidesTitle: 'Nagranie i tekst każdego przystanku' },
     unavailable: 'Płatności online będą dostępne już wkrótce. Do tego czasu możesz słuchać bezpłatnych przystanków.',
   },
   app: {
