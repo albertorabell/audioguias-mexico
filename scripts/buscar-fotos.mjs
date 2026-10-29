@@ -74,8 +74,11 @@ async function main() {
     try {
       const vistos = new Set();
       let titulos = [];
-      for (const q of qs) for (const t of await buscarTitulos(q)) if (!vistos.has(t)) { vistos.add(t); titulos.push(t); }
-      const lista = buenas(await infos(titulos), max);
+      // Si todas las consultas empiezan con "File:" se toman tal cual (sin buscar) y se muestran todas.
+      const exactas = qs.every((q) => /^File:/i.test(q));
+      if (exactas) for (const q of qs) { const t = q.replace(/_/g, ' '); if (!vistos.has(t)) { vistos.add(t); titulos.push(t); } }
+      else for (const q of qs) for (const t of await buscarTitulos(q)) if (!vistos.has(t)) { vistos.add(t); titulos.push(t); }
+      const lista = buenas(await infos(titulos), exactas ? Math.max(max, titulos.length) : max);
       manifiesto[id] = lista;
       if (!lista.length) { console.log(`::warning::${id}: sin candidatas con licencia abierta y 1200 px o más (${titulos.length} resultados)`); continue; }
       console.log(`${id}: ${titulos.length} resultados, ${lista.length} sirven`);
