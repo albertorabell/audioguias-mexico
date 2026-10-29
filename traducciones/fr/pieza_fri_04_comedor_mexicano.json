@@ -1,0 +1,53 @@
+{
+  "id": "fri_04_comedor_mexicano",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6b49529913196bf0",
+      "texto": "La salle à manger : un art populaire fait pour servir"
+    },
+    "frase_gancho": {
+      "hash": "039b24c556b3b7f0",
+      "texto": "Ici se sont assis Trotsky, Breton et Eisenstein, entourés de masques, de terre cuite et de verre soufflé."
+    },
+    "puente_narrativo": {
+      "hash": "2bc3f18392edd311",
+      "texto": "Depuis la salle à manger, jetez un coup d’œil à la cuisine, où l’on cuisinait sur un foyer à bois."
+    },
+    "guion_corto": {
+      "hash": "05bae9fa87152233",
+      "texto": "Regardez les vaisseliers jaunes et la longue table. Dans la salle à manger de la Casa Azul, Frida et Diego n’ont pas installé de meubles de luxe. Ils ont mis de l’art populaire mexicain. On y trouve de la vaisselle de Puebla, de Oaxaca, de Michoacán et de l’État de Mexico, du verre soufflé, des masques et un Judas en forme de squelette de torero. Mais ce n’était pas de la décoration. Ils ont collectionné ces pièces, et ils s’en sont aussi servis. Frida mettait des nappes venues de différentes régions du pays. Autour de cette table sont passés des visiteurs comme André Breton, Tina Modotti, León Trotsky et Sergueï Eisenstein. Ici, on comprend que pour eux, le Mexique n’était pas un ornement. C’était la vie de tous les jours. Prenez le temps de regarder chaque recoin de la pièce."
+    },
+    "guion_largo": {
+      "hash": "e73367196bebce49",
+      "texto": "Cette salle à manger est l’une des pièces les plus joyeuses de la maison. Ce que l’on remarque d’abord, c’est le jaune des vaisseliers, ces meubles à étagères où l’on range les assiettes et les verres. Sur les murs, on voit des peintures populaires du dix-neuvième siècle, avec des natures mortes et des scènes de la vie quotidienne. Sur la table et sur les étagères s’accumulent la terre cuite, le verre et le carton.\n\nLe musée raconte que Frida et Diego se sont mariés en mille neuf cent vingt-neuf et qu’ils ont, dès lors, collectionné l’art populaire mexicain. Avec le temps, ils ont réuni des masques, des figures en papier mâché et des pièces de terre cuite. Dans la salle à manger, il y a un Judas en forme de squelette de torero et une figure de cheval dressé sur deux pattes. Il y a aussi une assiette bleue en verre soufflé, en forme de coquillage. La vaisselle vient de différentes régions. La liste comprend Puebla, Oaxaca, Michoacán et l’État de Mexico, ainsi que du verre de Carretones et de Guadalajara.\n\nCe qui compte, c’est que ces objets servaient. Frida mettait des nappes de différentes régions du pays, et la table était dressée comme pour recevoir du monde. Les pièces n’étaient pas derrière une vitre. Elles faisaient partie des repas de tous les jours. Pour eux, l’art populaire était une façon de vivre, et non une collection que l’on regarde de loin.\n\nDécorer ainsi était aussi une prise de position. Peindre la maison en bleu, la remplir de terre cuite et de papier mâché, manger dans de la vaisselle de Oaxaca. Chaque choix plaçait ce qui est mexicain au centre.\n\nEt dans cette salle à manger arrivaient des personnes venues de nombreux endroits du monde. Le musée mentionne André Breton, le poète français qui a défendu le surréalisme. Il mentionne aussi la photographe Tina Modotti et le réalisateur de cinéma russe Sergueï Eisenstein. Il mentionne León Trotsky, qui a vécu dans la maison avec son épouse de mille neuf cent trente-sept à mille neuf cent trente-neuf. Il est facile d’imaginer de longues conversations autour de cette table.\n\nL’art populaire est celui que réalisent des artisanes et des artisans dans leurs ateliers, presque toujours pour servir dans la vie de tous les jours. Une cruche, une assiette, un masque ou une figure en carton peuvent être des œuvres d’une grande qualité. Frida et Diego le savaient, et c’est pourquoi ils les ont placés au centre de leur maison.\n\nRegardez maintenant vers le haut, du côté des étagères. Vous verrez des couleurs très vives, des jouets, des figures d’animaux et des objets qui semblent petits, mais chacun vient d’un atelier et d’une personne. Tous ensemble, ils forment une sorte de carte du pays."
+    },
+    "retos_observacion": {
+      "hash": "b42572f9de953890",
+      "texto": [
+        "Cherchez les vaisseliers jaunes et comptez combien de sortes de vaisselle vous distinguez",
+        "Trouvez le Judas en forme de squelette de torero et la figure de cheval dressé sur deux pattes",
+        "Imaginez Trotsky, Breton, Modotti et Eisenstein assis à cette même table"
+      ]
+    },
+    "especificaciones": {
+      "hash": "628f0f25f7e0ee00",
+      "texto": {
+        "Espace": "salle à manger du rez-de-chaussée",
+        "Collection": "art populaire de Puebla, de Oaxaca, de Michoacán et de l’État de Mexico ; verre soufflé et papier mâché",
+        "Visiteurs mentionnés par le musée": "André Breton, Tina Modotti, León Trotsky, Sergueï Eisenstein"
+      }
+    },
+    "faq_mito": {
+      "hash": "214f7a38c7c86c52",
+      "texto": {
+        "pregunta": "Mythe : Les pièces d’art populaire de la maison n’étaient là que pour décorer et ne servaient pas.",
+        "respuesta": "Réalité : Frida et Diego les ont collectionnées et s’en servaient dans la vie de tous les jours. Frida mettait des nappes de différentes régions pour recevoir ses invités."
+      }
+    }
+  }
+}

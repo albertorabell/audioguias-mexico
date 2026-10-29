@@ -1,0 +1,54 @@
+{
+  "id": "fri_01_primeras_salas_retratos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "12fb34f9f0d6aacb",
+      "texto": "Ma famille et le portrait de son père"
+    },
+    "frase_gancho": {
+      "hash": "deeb9297eeac821b",
+      "texto": "Un arbre généalogique peint, avec des parents, des grands-parents, des sœurs, des neveux et un bébé inconnu."
+    },
+    "puente_narrativo": {
+      "hash": "c2a8779e86be6f80",
+      "texto": "Poursuivez par les salles de peinture jusqu’à une nature morte aux pastèques, l’un des derniers grands tableaux que Frida ait peints."
+    },
+    "guion_corto": {
+      "hash": "fa50a9b4070b113b",
+      "texto": "Dans ces salles, qui furent le salon de la famille, Frida est entourée des siens. Le tableau Ma famille, de mille neuf cent quarante-neuf, est un arbre généalogique. On y voit la peintre, ses parents, ses grands-parents, ses sœurs, deux neveux et un bébé inconnu. Tout près se trouve le portrait de son père, Guillermo Kahlo, photographe qui photographiait des édifices et qui a aussi fait son propre portrait. Frida a peint ce tableau à partir de l’un de ces autoportraits. Et plus loin dans le temps se trouve son premier autoportrait, de mille neuf cent vingt-six, réalisé comme cadeau pour son fiancé d’alors. Ici, on commence à comprendre d’où venait sa manière de regarder."
+    },
+    "guion_largo": {
+      "hash": "7ebd529623d353ad",
+      "texto": "Les premières salles de la maison ont été réorganisées en galerie. Autrefois, c’était le salon de la famille, avec une cheminée en pierre volcanique dessinée par Diego Rivera. Aujourd’hui, on y accroche des peintures de Frida et de Diego, ainsi que des photographies du père de Frida. Si vous commencez par les portraits, vous comprenez d’où vient tout le reste.\n\nLe tableau Ma famille date de mille neuf cent quarante-neuf. C’est un arbre généalogique peint. Selon le musée, on y voit Frida, ses parents, ses grands-parents, ses sœurs, deux neveux et un bébé inconnu. Elle l’a peint bien des années après avoir quitté l’enfance, et pourtant elle continue de raconter qui se trouvait dans sa maison. Pour Frida, la famille était le lieu où commençait l’histoire.\n\nSon père, Guillermo Kahlo, est né en mille huit cent soixante-douze et est arrivé au Mexique en mille huit cent quatre-vingt-dix. Il était photographe et photographiait des édifices de son époque. Il souffrait d’épilepsie. Il s’est aussi photographié lui-même à de nombreuses reprises. Des années plus tard, Frida a pris l’un de ces autoportraits et en a fait le tableau Portrait de mon père Guillermo Kahlo. Le musée propose une question simple aux enfants qui visitent la salle : regardez le fond et réfléchissez à ce que Frida y a dessiné.\n\nDe son père, elle a appris bien plus que le regard. C’est lui qui lui a appris à se servir de l’appareil photo. Frida a grandi entre négatifs, photos de famille et portraits, et cette habitude de se regarder elle-même avec distance vient de là. Sa mère, Matilde Calderón, était originaire d’Oaxaca.\n\nDans sa jeunesse, Frida a aussi appris auprès de Fernando Fernández, un graveur ami de son père, et a travaillé avec lui comme apprentie. De là vient sa main précise pour le dessin, que l’on remarque dans chaque détail de ses tableaux.\n\nLa pièce la plus ancienne de la salle est l’Autoportrait à la robe de velours, de mille neuf cent vingt-six. C’est le premier autoportrait de Frida. Elle l’a réalisé comme cadeau pour son fiancé, Alejandro Gómez Arias, et il rappelle le style de la Renaissance italienne, surtout celui de Botticelli. Regardez le long cou et la posture. C’est une Frida jeune, qui est encore en train d’essayer comment elle veut se montrer.\n\nLa maison conserve aussi des œuvres que Frida a laissées inachevées, comme Frida et la césarienne, de mille neuf cent trente et un. Elle parle de la maternité, qu’elle n’a jamais vécue. Elle n’est pas toujours exposée, car les salles changent au gré des expositions.\n\nArrêtez-vous un moment devant les portraits. Ici, il n’y a encore ni douleur ni politique. Il y a une famille, une peintre qui ne fait que commencer et la maison où tout s’est passé."
+    },
+    "retos_observacion": {
+      "hash": "d8f5d4f051c63814",
+      "texto": [
+        "Cherchez dans Ma famille les corps des grands-parents, des parents et des sœurs, et trouvez le bébé que le musée appelle inconnu",
+        "Comparez le portrait de son père avec l’idée qu’il photographiait aussi des édifices et se photographiait lui-même",
+        "Regardez le cou et la posture de l’Autoportrait à la robe de velours et cherchez la ressemblance avec la peinture de la Renaissance"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7572ba4279de7651",
+      "texto": {
+        "Ma famille": "1949, arbre généalogique",
+        "Portrait de mon père Guillermo Kahlo": "peint à partir d’un autoportrait photographique de son père",
+        "Autoportrait à la robe de velours": "1926, son premier autoportrait",
+        "Frida et la césarienne": "1931, inachevé, huile sur toile, 620 par 730 mm, d’après Google Arts and Culture"
+      }
+    },
+    "faq_mito": {
+      "hash": "9cd78df271e15105",
+      "texto": {
+        "pregunta": "Mythe : Frida a appris à peindre dans une académie, avec Diego Rivera pour maître.",
+        "respuesta": "Réalité : Elle a surtout appris par elle-même. De son père, elle a appris l’œil photographique, et de Fernando Fernández, un graveur ami de la famille, le dessin fin."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "fri_00_fachada_azul",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8228df08ee07bd98",
+      "texto": "La Casa Azul vue depuis la rue Londres"
+    },
+    "frase_gancho": {
+      "hash": "f32f859282a44981",
+      "texto": "Peinte en bleu à l’extérieur comme à l’intérieur : c’est ainsi que Carlos Pellicer décrivit cette maison en mille neuf cent cinquante-cinq."
+    },
+    "puente_narrativo": {
+      "hash": "edd1689016d5ab6b",
+      "texto": "Entrez dans la maison : la visite commence à l’intérieur, avec les tableaux et les objets de Frida."
+    },
+    "guion_corto": {
+      "hash": "1b504df7bded2cdc",
+      "texto": "Ce coin de Coyoacán a vu naître Frida Kahlo, et il l’a aussi vue mourir. Son père, Guillermo Kahlo, un photographe né en Allemagne, éleva la maison en mille neuf cent quatre, avec les pièces disposées autour d’une cour centrale. Frida est née ici le six juillet mille neuf cent sept, bien qu’elle préférât dire que c’était en mille neuf cent dix. Des années plus tard, Diego Rivera sauva la propriété en payant les dettes de la famille. Le poète Carlos Pellicer la décrivit en mille neuf cent cinquante-cinq comme une maison peinte en bleu, à l’extérieur comme à l’intérieur. Avant de franchir l’entrée, remarquez cette couleur. Elle fait partie de la manière dont Frida et Diego ont décidé de vivre."
+    },
+    "guion_largo": {
+      "hash": "892ac154ffc21efe",
+      "texto": "La maison a plus d’un siècle. Guillermo Kahlo l’a construite en mille neuf cent quatre, à l’angle des rues Londres et Allende. C’était un photographe né en Allemagne, arrivé au Mexique en mille huit cent quatre-vingt-dix. Il éleva une maison de son temps, avec une cour au centre et les pièces tout autour, dans le style de la seconde moitié du dix-neuvième siècle. Aujourd’hui, elle compte environ huit cents mètres carrés construits, sur un terrain de mille deux cents.\n\nC’est ici que Frida est née, le six juillet mille neuf cent sept. Elle disait être née en mille neuf cent dix, l’année où a commencé la Révolution mexicaine, parce qu’elle voulait se voir comme une fille de cette époque. À six ans, elle fut atteinte de la polio, et cette maladie lui laissa la jambe droite plus mince et plus courte. Après l’accident d’autobus de mille neuf cent vingt-cinq, elle est revenue dans cette maison pour se rétablir. Sur ses quarante-sept années de vie, elle en a passé trente-six ici.\n\nLa propriété a failli être perdue. Au début des années trente, Diego Rivera a payé les hypothèques et les dettes laissées par Guillermo Kahlo, et c’est ainsi qu’il a sauvé la maison.\n\nEn mille neuf cent trente-sept sont venus vivre ici Léon Trotski, un révolutionnaire russe qui fuyait Staline, et son épouse, Natalia Sedova. Pour les protéger, on a fermé certains murs à la brique et on a acheté le terrain voisin, de mille quarante mètres carrés. On y a planté ce qui est aujourd’hui le jardin. Les Trotski ont vécu dans la maison jusqu’en mille neuf cent trente-neuf.\n\nLe bleu est la première chose que chacun remarque. Le poète Carlos Pellicer, ami de Frida et de Diego, écrivit en novembre mille neuf cent cinquante-cinq que la maison était peinte en bleu, à l’extérieur comme à l’intérieur, et qu’elle semblait garder un peu de ciel.\n\nQuand Frida est morte, en mille neuf cent cinquante-quatre, Diego a voulu que la maison devienne un musée pour tous les Mexicains. En mille neuf cent cinquante-sept, il a créé une fiducie avec la Banque du Mexique pour en prendre soin, et il a demandé à Pellicer de préparer la muséographie. La Casa Azul a ouvert au public en mille neuf cent cinquante-huit, quatre ans après la mort de Frida.\n\nLa visite parcourt l’intérieur de la maison, comme un parcours de vie : les salles de peinture, l’atelier et les chambres, et la salle où est présentée une partie de la garde-robe de Frida. Selon l’itinéraire que vous choisirez, vous passerez aussi par la salle à manger, la cuisine et le jardin. L’atelier a été commandé par Diego en mille neuf cent quarante-six à l’architecte Juan O’Gorman.\n\nEn entrant, vous verrez sur un mur bleu une niche avec une phrase. Elle dit que Frida et Diego ont vécu dans cette maison de mille neuf cent vingt-neuf à mille neuf cent cinquante-quatre. En dessous se trouvent de petites sculptures préhispaniques. C’est l’une des premières choses que vous verrez en franchissant l’entrée, et elle résume bien ce qui suit.\n\nLe musée est aujourd’hui géré par la Fiducie des musées Diego Rivera et Frida Kahlo, de la Banque du Mexique. Carlos Pellicer en fut le premier directeur.\n\nAvant d’entrer, regardez l’angle de la rue, la couleur et le portail. Chaque pièce qui suit garde une part de l’histoire que vous venez d’entendre."
+    },
+    "retos_observacion": {
+      "hash": "161a2da9831c1223",
+      "texto": [
+        "Regardez la couleur des murs depuis le trottoir. Pellicer l’a décrite en mille neuf cent cinquante-cinq comme bleue à l’extérieur comme à l’intérieur.",
+        "Remarquez que la maison semble simple vue de la rue. Elle est construite autour d’une cour, et le plus intéressant se trouve à l’intérieur.",
+        "Avant d’entrer, songez qu’ici Frida est née, a vécu presque toute sa vie et est morte."
+      ]
+    },
+    "especificaciones": {
+      "hash": "4d00cf81f820d23f",
+      "texto": {
+        "Construction": "1904, par Guillermo Kahlo",
+        "Superficie actuelle": "environ 800 m² construits sur un terrain de 1 200 m²",
+        "Jardin": "terrain voisin de 1 040 m², acheté en 1937",
+        "Atelier": "construit en 1946 par Juan O’Gorman",
+        "Musée": "ouvre en 1958, avec une muséographie de Carlos Pellicer",
+        "Adresse": "247, rue Londres, quartier Del Carmen, Coyoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "7987b00110b1d6bf",
+      "texto": {
+        "pregunta": "Mythe : Frida Kahlo est née en mille neuf cent dix, en même temps que la Révolution mexicaine.",
+        "respuesta": "Réalité : Elle est née le six juillet mille neuf cent sept, dans cette maison. C’est elle qui a changé l’année pour mille neuf cent dix afin de se présenter comme une fille de la Révolution."
+      }
+    }
+  }
+}
