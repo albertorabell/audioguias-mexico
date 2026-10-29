@@ -54,7 +54,8 @@ export default defineConfig(() => {
           globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff,woff2,pmtiles,pbf}'],
           // El tablero de uso (panel.html) es solo para el dueño: no se guarda en el teléfono de los visitantes
           globIgnores: ['panel.html'],
-          navigateFallbackDenylist: [/^\/panel\.html/],
+          // Las páginas de guía (/guias/...) son páginas completas para Google: la app no debe reemplazarlas por su pantalla de inicio
+          navigateFallbackDenylist: [/^\/panel\.html/, /^\/guias\//, /^\/en\/guides\//, /^\/fr\/guides\//, /^\/pl\/przewodniki\//],
           // pieces.json crece con cada idioma traducido (más de 2 MB con inglés, francés y polaco).
           // Se sube el límite para que se siga guardando para usar sin internet.
           maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,

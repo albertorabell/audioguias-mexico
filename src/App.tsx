@@ -23,6 +23,7 @@ import { getAssetUrl, normalizePiece, findPiece } from './utils/urlHelper';
 import { ttsPlayer } from './utils/ttsPlayer';
 import { useBackClose } from './utils/useBackClose';
 import { useLanguage } from './utils/LanguageContext';
+import { isActiveLanguage } from './i18n/languages';
 import { localizeSite, localizeRoute } from './i18n/content';
 import { getRoomLabel } from './utils/roomLabel';
 import { track, setAnalyticsSite } from './utils/analytics';
@@ -52,7 +53,7 @@ const stopId = (s: { piece_id?: string; id?: string; poi_id?: string; file?: str
 const roomNumber = (r: Room) => parseInt(String(r.numero_oficial ?? r.room_id.match(/\d+/)?.[0] ?? '0'), 10) || 0;
 
 export default function App() {
-  const { strings: t, currentLanguage, localizePiece, localizeRoom, setSiteKind, setSiteName } = useLanguage();
+  const { strings: t, currentLanguage, localizePiece, localizeRoom, setSiteKind, setSiteName, setLanguage } = useLanguage();
   const u = t.ui;
 
   // ---------- Navegación ----------
@@ -466,6 +467,24 @@ export default function App() {
       selectingRef.current = false;
     }
   };
+
+  // Enlace directo a un sitio (?sitio=MNA): lo usan las páginas de guía que ve Google. Se abre una sola vez al cargar y la marca se quita de la dirección.
+  const enlaceDirectoUsado = useRef(false);
+  useEffect(() => {
+    if (enlaceDirectoUsado.current || rawSites.length === 0) return;
+    enlaceDirectoUsado.current = true;
+    const url = new URL(window.location.href);
+    const pedido = url.searchParams.get('sitio');
+    if (!pedido) return;
+    url.searchParams.delete('sitio');
+    const idioma = url.searchParams.get('idioma');
+    url.searchParams.delete('idioma');
+    if (isActiveLanguage(idioma)) setLanguage(idioma);
+    window.history.replaceState(window.history.state, '', url);
+    const sitio = rawSites.find((s) => s.id.toLowerCase() === pedido.toLowerCase() && s.status !== 'coming_soon');
+    if (sitio) void handleSelectSite(sitio);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [rawSites]);
 
   /** Abre una pieza dentro de su sala (anterior / siguiente recorren la sala). */
   const openPieceInRoom = useCallback(

@@ -771,6 +771,15 @@ test('inicio del sitio: el botón principal "Empezar recorrido" arranca el recor
   await expect(boton).toHaveCount(0);
 });
 
+test('enlace directo ?sitio=mna (el de las páginas de guía): abre el sitio y quita la marca de la dirección', async ({ page }) => {
+  await page.goto('/?sitio=mna');
+  await expect(page.locator('#site-hero')).toBeVisible();
+  expect(page.url()).not.toContain('sitio=');
+  // un sitio que no existe no rompe nada: se queda en el inicio
+  await page.goto('/?sitio=no-existe');
+  await expect(page.locator('#sites-grid-section')).toBeVisible();
+});
+
 test('armar a tu medida: más tiempo, más obras; se puede quitar una obra y el recorrido arranca', async ({ page }) => {
   await page.goto('/');
   await page.locator('#sites-grid-section [role=button]').first().click();
