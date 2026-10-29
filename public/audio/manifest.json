@@ -1434,6 +1434,16 @@
           "provider": "azure"
         }
       },
+      "fri_00_fachada_azul": {
+        "corto": {
+          "hash": "3c64b516ca06abe9",
+          "file": "en/fri_00_fachada_azul_corto.mp3",
+          "remote": false,
+          "seconds": 39,
+          "bytes": 234144,
+          "provider": "azure"
+        }
+      },
       "mna_s00_el_paraguas": {
         "corto": {
           "hash": "29b5f97b8851387e",
@@ -6699,6 +6709,24 @@
           "remote": false,
           "seconds": 152,
           "bytes": 914688,
+          "provider": "azure"
+        }
+      },
+      "fri_00_fachada_azul": {
+        "corto": {
+          "hash": "9dffaa68da05eaa7",
+          "file": "es/fri_00_fachada_azul_corto.mp3",
+          "remote": false,
+          "seconds": 39,
+          "bytes": 234144,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "600372da449d4820",
+          "file": "es/fri_00_fachada_azul_largo.mp3",
+          "remote": false,
+          "seconds": 174,
+          "bytes": 1046304,
           "provider": "azure"
         }
       },
