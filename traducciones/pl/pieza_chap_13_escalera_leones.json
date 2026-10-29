@@ -1,0 +1,56 @@
+{
+  "id": "chap_13_escalera_leones",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6a7e9f78e88d8bf8",
+      "texto": "Schody Lwów"
+    },
+    "frase_gancho": {
+      "hash": "7d5ad72a0abcc7b8",
+      "texto": "Marmurowe schody, które otwarto nie dla dworu, lecz po to, by dojść do obserwatorium."
+    },
+    "puente_narrativo": {
+      "hash": "4c00cef1930ffc24",
+      "texto": "Ruszaj dalej do Galerii Witraży Ołowiowych, gdzie pięć szklanych bogtodiń filtruje dzienne światło."
+    },
+    "guion_corto": {
+      "hash": "b785a48931937cce",
+      "texto": "W tysiąc osiemset siedemdziesiątym ósmym roku otwarto dojście na piętro górne Alkazaru, i nie po to, by wyprawić przyjęcie. Chodziło o to, by naukowcy mogli dotrzeć do Narodowego Obserwatorium Astronomicznego, Meteorologicznego i Magnetycznego, które działało w zamku. Później, z inicjatywy Porfirio Díaza, zbudowano schody z białego marmuru z mosiężną poręczą. Około tysiąc dziewięćset piętnastego roku, za rządów Venustiana Carranzy, przebudowano je i ustawiono rzeźby lwów, od których wzięły nazwę, jak podaje muzeum. Innymi słowy, schody o cesarskim wyglądzie otwarto jedenaście lat po rozstrzelaniu Maksymiliana. Ich początek jest naukowy, a ręce, które je ukształtowały, republikańskie. Każda epoka zostawiła tu swoją warstwę."
+    },
+    "guion_largo": {
+      "hash": "ce122e6a67c92044",
+      "texto": "Wiele osób wyobraża sobie te schody jako część snu Maksymiliana i Charlotty. Data mówi jednak co innego. Według Narodowego Muzeum Historii dojście otwarto w tysiąc osiemset siedemdziesiątym ósmym roku, jedenaście lat po rozstrzelaniu cesarza. Powód był naukowy: w zamku działało wówczas Narodowe Obserwatorium Astronomiczne.\n\nObserwatorium założono dekretem prezydenta osiemnastego grudnia tysiąc osiemset siedemdziesiątego szóstego roku. Jego pierwszym dyrektorem był inżynier Ángel Anguiano, a oficjalne prace w Chapultepec rozpoczęły się piątego maja tysiąc osiemset siedemdziesiątego ósmego roku. Artykuł z czasopisma Uniwersytetu Meksyku przytacza opowieść astronoma Joaquína Gallo. Prezydent Porfirio Díaz chciał dokładniejszych map kraju. Do tego potrzebny był punkt odniesienia, który pozwoliłby obliczyć długość geograficzną miasteczek i miast. Muzeum dodaje, że w tamtych latach wieża [Wysokiego Rycerza](chap_24_caballero_alto) otrzymała kopułę.\n\nW tysiąc osiemset osiemdziesiątym trzecim roku obserwatorium przeniosło się do dawnego Pałacu Arcybiskupiego w Tacubaya. Astronomowie odeszli, zamek znów stał się siedzibą Akademii Wojskowej, a Díaz używał go jako letniej rezydencji. Schody natomiast zostały. Według muzeum to Díaz kazał odbudować je z białego marmuru, z mosiężną poręczą.\n\nTo nie jedyne schody Alkazaru. Muzeum opowiada, że inne, wewnętrzne, otwarto za rządów Manuela Gonzáleza, między tysiąc osiemset osiemdziesiątym a tysiąc osiemset osiemdziesiątym czwartym rokiem. Łączyły pokoje rodziny prezydenckiej z salami recepcyjnymi i jadalnią. Miały elektryczną windę, z której korzystała wyłącznie ta rodzina. Służba chodziła innymi schodami. Pałac jest też mapą tego, kto może wejść którędy.\n\nLwy przybyły później. Według muzeum około tysiąc dziewięćset piętnastego roku schody przebudowano, za rządów Venustiana Carranzy. Wtedy ustawiono rzeźby, od których wzięły nazwę. Rewolucja zostawiła tak swój ślad w zamku pomyślanym dla wicekrólów, cesarzy i prezydentów. W tysiąc dziewięćset szesnastym roku ten sam Carranza kazał zburzyć budynek z czasów Porfiria, by Alkazar był lepiej widoczny.\n\nBadanie konserwatorskie INAH opisuje na tych schodach witraż z Godłem Narodowym pośrodku. Po bokach znajdują się dwa glify Chapultepec: wzgórze, konik polny na szczycie i woda u podstawy. To dawny sposób zapisu nazwy tego miejsca, którą tłumaczy się jako wzgórze konika polnego. Według tego badania w tysiąc dziewięćset czterdziestym pierwszym roku Francisco Goitia zaproponował zamknięcie otworu zwykłymi szybami. Powodem był budżet. W tysiąc dziewięćset czterdziestym trzecim roku założono bezbarwne szkła fazowane.\n\nKażda epoka zostawiła tu swoją warstwę: obserwatorium, marmur Díaza, lwy Rewolucji i szyby z lat czterdziestych. Dalej [Galeria Witraży Ołowiowych](chap_14_vitrales_emplomados) pokazuje inny sposób pracy ze światłem, bardzo odległy od światła teleskopu."
+    },
+    "retos_observacion": {
+      "hash": "6df92d19d968c298",
+      "texto": [
+        "Porównaj dwa marmurowe lwy i sprawdź, co je upodabnia, a co różni",
+        "Przyjrzyj się poręczy, która według muzeum jest mosiężna, i porównaj ją z białym marmurem stopni",
+        "Jeśli zobaczysz witraż na zakończeniu schodów, poszukaj glifu Chapultepec: wzgórza z konikiem polnym na szczycie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "615130e47621d863",
+      "texto": {
+        "Otwarcie wejścia": "1878, dla Narodowego Obserwatorium Astronomicznego, Meteorologicznego i Magnetycznego",
+        "Odbudowa": "biały marmur i mosiężna poręcz, z inicjatywy Porfirio Díaza",
+        "Lwy": "ustawione około 1915 roku za rządów Venustiana Carranzy, według Narodowego Muzeum Historii",
+        "Schody wewnętrzne": "otwarte za rządów Manuela Gonzáleza (1880-1884), z windą elektryczną dla rodziny prezydenckiej",
+        "Witraż": "Godło Narodowe i dwa glify Chapultepec, według badania INAH",
+        "Lokalizacja": "Alkazar"
+      }
+    },
+    "faq_mito": {
+      "hash": "c10f0fa812051c24",
+      "texto": {
+        "pregunta": "Mit: Schody Lwów są częścią pałacu, który Maksymilian i Charlotta zaprojektowali dla swojego dworu.",
+        "respuesta": "Rzeczywistość: Według Narodowego Muzeum Historii dojście otwarto w 1878 roku, jedenaście lat po rozstrzelaniu Maksymiliana, by można było wejść do Narodowego Obserwatorium Astronomicznego; marmur pochodzi z czasów Díaza, a lwy ustawiono około 1915 roku."
+      }
+    }
+  }
+}
