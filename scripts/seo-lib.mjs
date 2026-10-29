@@ -5,6 +5,8 @@
 // Direcciones:  es → /guias/<nombre>/   en → /en/guides/<nombre>/   fr → /fr/guides/<nombre>/   pl → /pl/przewodniki/<nombre>/
 // Un idioma solo sale si el sitio tiene sus textos traducidos (nunca se publica una página en inglés con texto en español).
 
+import { stripLinks } from '../src/utils/pieceLinks.js';
+
 export const DOMINIO = 'https://xolotli.com';
 export const IDIOMAS = ['es', 'en', 'fr', 'pl'];
 
@@ -130,6 +132,12 @@ const T = {
     h1: (n) => `${n}: audioguía para tu visita`,
     desc: (n, cuantas, rango, gratis) => `${n}: audioguía en tu celular con ${cuantas} explicadas${rango ? `, recorridos de ${rango}` : ''}${gratis ? `, ${gratis} gratis para probar` : ''} y uso sin internet.`,
     pronto: 'Próximamente: esta audioguía estará disponible muy pronto.',
+    gratisTitulo: (aire) => (aire ? 'Paradas para probar gratis' : 'Obras para probar gratis'),
+    piezaTitulo: (p, n) => `${p}: historia y ubicación (${n})`,
+    ubic: (sala, n) => `Ubicación: ${sala ? `${sala}, ` : ''}${n}.`,
+    piezaCta: (n) => `Escucha la audioguía completa de ${n}`,
+    volver: (n) => `Ver la guía de ${n}`,
+    piezaDesc: (p, n) => `${p} en ${n}: su historia, qué significa y dónde encontrarla. Texto gratuito de la audioguía.`,
     abrir: 'Abrir la audioguía',
     precio: (p) => `Pase de 72 horas por ${p}, sin suscripción. `,
     gratis: (c) => `${c} para escuchar gratis, sin registro.`,
@@ -148,6 +156,12 @@ const T = {
     h1: (n) => `${n}: audio guide for your visit`,
     desc: (n, cuantas, rango, gratis) => `${n}: audio guide on your phone with ${cuantas} explained${rango ? `, tours from ${rango}` : ''}${gratis ? `, ${gratis} free to try` : ''} and offline use.`,
     pronto: 'Coming soon: this audio guide will be available shortly.',
+    gratisTitulo: (aire) => (aire ? 'Free stops to try' : 'Free works to try'),
+    piezaTitulo: (p, n) => `${p}: history and location (${n})`,
+    ubic: (sala, n) => `Location: ${sala ? `${sala}, ` : ''}${n}.`,
+    piezaCta: (n) => `Listen to the full audio guide for ${n}`,
+    volver: (n) => `See the guide to ${n}`,
+    piezaDesc: (p, n) => `${p} at ${n}: its story, what it means and where to find it. Free text from the audio guide.`,
     abrir: 'Open the audio guide',
     precio: (p) => `72-hour pass for ${p}, no subscription. `,
     gratis: (c) => `${c} to listen to for free, no sign-up.`,
@@ -166,6 +180,12 @@ const T = {
     h1: (n) => `${n} : l’audioguide pour votre visite`,
     desc: (n, cuantas, rango, gratis) => `${n} : audioguide sur votre téléphone avec ${cuantas} expliquées${rango ? `, parcours de ${rango}` : ''}${gratis ? `, ${gratis} gratuites à essayer` : ''} et utilisation hors ligne.`,
     pronto: 'Bientôt disponible : cet audioguide sera prêt très prochainement.',
+    gratisTitulo: (aire) => (aire ? 'Étapes gratuites à essayer' : 'Œuvres gratuites à essayer'),
+    piezaTitulo: (p, n) => `${p} : histoire et emplacement (${n})`,
+    ubic: (sala, n) => `Emplacement : ${sala ? `${sala}, ` : ''}${n}.`,
+    piezaCta: (n) => `Écoutez l’audioguide complet de ${n}`,
+    volver: (n) => `Voir le guide : ${n}`,
+    piezaDesc: (p, n) => `${p} – ${n} : son histoire, sa signification et où la trouver. Texte gratuit de l’audioguide.`,
     abrir: 'Ouvrir l’audioguide',
     precio: (p) => `Pass de 72 heures pour ${p}, sans abonnement. `,
     gratis: (c) => `${c} à écouter gratuitement, sans inscription.`,
@@ -184,6 +204,12 @@ const T = {
     h1: (n) => `${n}: audioprzewodnik na Twoją wizytę`,
     desc: (n, cuantas, rango, gratis) => `${n}: audioprzewodnik w telefonie, ${cuantas} objaśnionych${rango ? `, trasy od ${rango}` : ''}${gratis ? `, ${gratis} za darmo na próbę` : ''} i działanie bez internetu.`,
     pronto: 'Wkrótce: ten audioprzewodnik będzie dostępny już niedługo.',
+    gratisTitulo: (aire) => (aire ? 'Przystanki do wypróbowania za darmo' : 'Dzieła do wypróbowania za darmo'),
+    piezaTitulo: (p, n) => `${p}: historia i lokalizacja (${n})`,
+    ubic: (sala, n) => `Lokalizacja: ${sala ? `${sala}, ` : ''}${n}.`,
+    piezaCta: (n) => `Posłuchaj pełnego audioprzewodnika: ${n}`,
+    volver: (n) => `Zobacz przewodnik: ${n}`,
+    piezaDesc: (p, n) => `${p} – ${n}: historia, znaczenie i miejsce, gdzie ją znaleźć. Bezpłatny tekst z audioprzewodnika.`,
     abrir: 'Otwórz audioprzewodnik',
     precio: (p) => `Karnet na 72 godziny za ${p}, bez subskrypcji. `,
     gratis: (c) => `${c} do posłuchania za darmo, bez rejestracji.`,
@@ -225,11 +251,78 @@ export function idiomaDisponible({ sitio, manifiesto = {}, cfg }, lang) {
   return hechas >= 2;
 }
 
+const ESTILOS = `<style>
+:root{--bg:#FBF6EE;--ink:#2a1f1a;--ink2:#5a4a40;--linea:#e4d9c9;--acento:#a30f48}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1613;--ink:#f1e8dc;--ink2:#c4b5a5;--linea:#3a2f28;--acento:#ff6b9a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:1.0625rem/1.65 Georgia,'Times New Roman',serif}
+.envoltura{max-width:42rem;margin:0 auto;padding:0 1.25rem 3rem}
+header.marca{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--linea);font:600 1rem system-ui,sans-serif}
+header.marca a{color:var(--ink);text-decoration:none}
+nav.idiomas{display:flex;gap:.9rem;font:600 .875rem system-ui,sans-serif}
+nav.idiomas a{color:var(--ink2)}
+nav.idiomas span{color:var(--acento)}
+h1{font-size:2rem;line-height:1.2;margin:1.5rem 0 .75rem;font-weight:500;text-wrap:balance}
+h2{font-size:1.5rem;line-height:1.25;margin:2.5rem 0 .75rem;font-weight:500}
+h3{margin:1.5rem 0 .25rem;font:600 1.0625rem system-ui,sans-serif}
+.lead{font-size:1.1875rem;color:var(--ink2)}
+.portada{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:12px;margin-top:1.25rem;background:var(--linea)}
+ul,ol{padding-left:1.25rem}
+li{margin:.5rem 0}
+.gancho{color:var(--ink2)}
+.dato{font:.875rem system-ui,sans-serif;color:var(--ink2)}
+.nota{font:.9375rem system-ui,sans-serif;color:var(--ink2);margin-top:.5rem}
+.cta{margin:1.5rem 0 0}
+a.boton{display:block;text-align:center;background:var(--acento);color:#fff;text-decoration:none;font:700 1.0625rem system-ui,sans-serif;padding:.9rem 1rem;border-radius:999px}
+a{color:var(--acento)}
+ul.otras{list-style:none;padding:0}
+footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--linea);font:.9375rem system-ui,sans-serif;color:var(--ink2)}
+</style>`;
+
+/** Cascarón común de todas las páginas: cabecera, datos para Google, estilos y pie. */
+function plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, selector, cuerpo, pie }) {
+  return `<!doctype html>
+<html lang="${lang}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(titulo)}</title>
+<meta name="description" content="${esc(descripcion)}">
+<link rel="canonical" href="${url}">
+${hreflang}
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Audioguía Xolo">
+<meta property="og:locale" content="${OG_LOCALE[lang]}">
+<meta property="og:title" content="${esc(titulo)}">
+<meta property="og:description" content="${esc(descripcion)}">
+<meta property="og:url" content="${url}">
+${portada ? `<meta property="og:image" content="${DOMINIO}${esc(portada)}">\n` : ''}<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FBF6EE">
+<link rel="icon" type="image/svg+xml" href="/icon.svg">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+${ESTILOS}
+<script type="application/ld+json">${jsonld}</script>
+</head>
+<body>
+<div class="envoltura">
+<header class="marca"><a href="/">Audioguía Xolo</a>${selector}</header>
+<main>
+${cuerpo}
+</main>
+<footer><p><a href="/">Audioguía Xolo</a>: ${esc(pie)}</p></footer>
+</div>
+</body>
+</html>
+`;
+}
+
 /**
  * Arma el HTML de la página de un sitio en un idioma.
  * datos: { sitio, manifiesto, salas, piezas, cfg (de PAGINAS), lang, idiomas (los que sí salen), otras: [{ nombre, url }], portada }
  */
-export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], cfg, lang = 'es', idiomas = [lang], otras = [], portada = '' }) {
+export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], cfg, lang = 'es', idiomas = [lang], otras = [], portada = '', gratisEnlaces = [] }) {
   const t = T[lang];
   const slug = cfg.slugs[lang];
   const url = `${DOMINIO}${direccion(slug, lang)}`;
@@ -333,61 +426,7 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
     ? `<h2>${esc(t.otras)}</h2>\n<ul class="otras">${otras.map((o) => `<li><a href="${esc(o.url)}">${esc(o.nombre)}</a></li>`).join('')}</ul>`
     : '';
 
-  const html = `<!doctype html>
-<html lang="${lang}">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(titulo)}</title>
-<meta name="description" content="${esc(descripcion)}">
-<link rel="canonical" href="${url}">
-${hreflang}
-<meta name="robots" content="index, follow, max-image-preview:large">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Audioguía Xolo">
-<meta property="og:locale" content="${OG_LOCALE[lang]}">
-<meta property="og:title" content="${esc(titulo)}">
-<meta property="og:description" content="${esc(descripcion)}">
-<meta property="og:url" content="${url}">
-${portada ? `<meta property="og:image" content="${DOMINIO}${esc(portada)}">\n` : ''}<meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#FBF6EE">
-<link rel="icon" type="image/svg+xml" href="/icon.svg">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<style>
-:root{--bg:#FBF6EE;--ink:#2a1f1a;--ink2:#5a4a40;--linea:#e4d9c9;--acento:#a30f48}
-@media (prefers-color-scheme:dark){:root{--bg:#1c1613;--ink:#f1e8dc;--ink2:#c4b5a5;--linea:#3a2f28;--acento:#ff6b9a}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:1.0625rem/1.65 Georgia,'Times New Roman',serif}
-.envoltura{max-width:42rem;margin:0 auto;padding:0 1.25rem 3rem}
-header.marca{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--linea);font:600 1rem system-ui,sans-serif}
-header.marca a{color:var(--ink);text-decoration:none}
-nav.idiomas{display:flex;gap:.9rem;font:600 .875rem system-ui,sans-serif}
-nav.idiomas a{color:var(--ink2)}
-nav.idiomas span{color:var(--acento)}
-h1{font-size:2rem;line-height:1.2;margin:1.5rem 0 .75rem;font-weight:500;text-wrap:balance}
-h2{font-size:1.5rem;line-height:1.25;margin:2.5rem 0 .75rem;font-weight:500}
-h3{margin:1.5rem 0 .25rem;font:600 1.0625rem system-ui,sans-serif}
-.lead{font-size:1.1875rem;color:var(--ink2)}
-.portada{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:12px;margin-top:1.25rem;background:var(--linea)}
-ul,ol{padding-left:1.25rem}
-li{margin:.5rem 0}
-.gancho{color:var(--ink2)}
-.dato{font:.875rem system-ui,sans-serif;color:var(--ink2)}
-.nota{font:.9375rem system-ui,sans-serif;color:var(--ink2);margin-top:.5rem}
-.cta{margin:1.5rem 0 0}
-a.boton{display:block;text-align:center;background:var(--acento);color:#fff;text-decoration:none;font:700 1.0625rem system-ui,sans-serif;padding:.9rem 1rem;border-radius:999px}
-a{color:var(--acento)}
-ul.otras{list-style:none;padding:0}
-footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--linea);font:.9375rem system-ui,sans-serif;color:var(--ink2)}
-</style>
-<script type="application/ld+json">${jsonld}</script>
-</head>
-<body>
-<div class="envoltura">
-<header class="marca"><a href="/">Audioguía Xolo</a>${selector}</header>
-<main>
-<h1>${esc(t.h1(nombre))}</h1>
+  const cuerpo = `<h1>${esc(t.h1(nombre))}</h1>
 ${lead ? `<p class="lead">${esc(lead)}</p>` : ''}
 ${portada ? `<img class="portada" src="${esc(portada)}" alt="${esc(nombre)}" width="1200" height="800" fetchpriority="high">` : ''}
 ${cta()}
@@ -396,14 +435,10 @@ ${principal ? `<h2>${esc(t.queVer(nombre, lang === 'es' ? cfg.articulo : '', pri
 ${rutas.length ? `<h2>${esc(t.recorridos)}</h2>\n<p>${esc(t.recorridosSub(aireLibre))}</p>\n<ul>\n${listaRutas}\n</ul>` : ''}
 ${listaSalas ? `<h2>${esc(t.lugares(aireLibre))}</h2>\n<ul>\n${listaSalas}\n</ul>` : ''}
 ${antes.length ? `<h2>${esc(t.antes)}</h2>\n${bloqueAntes}` : ''}
+${gratisEnlaces.length ? `<h2>${esc(t.gratisTitulo(aireLibre))}</h2>\n<ul>${gratisEnlaces.map((g) => `<li><a href="${esc(g.url)}">${esc(g.titulo)}</a></li>`).join('')}</ul>` : ''}
 ${cta()}
-${enlacesOtras}
-</main>
-<footer><p><a href="/">Audioguía Xolo</a>: ${esc(t.pie)}</p></footer>
-</div>
-</body>
-</html>
-`;
+${enlacesOtras}`;
+  const html = plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, selector, cuerpo, pie: t.pie });
   return { html, url, titulo, descripcion };
 }
 
@@ -420,4 +455,99 @@ export function armarSitemap(paginas, fecha = new Date()) {
     for (const g of grupo) items.push(`  <url><loc>${esc(g.url)}</loc><lastmod>${dia}</lastmod>${alt(grupo)}\n  </url>`);
   }
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${items.join('\n')}\n</urlset>\n`;
+}
+
+
+// ───────────────────────── Páginas de piezas gratis ─────────────────────────
+// Solo piezas marcadas is_free: su texto ya es público en la app. Las de pago NUNCA tienen página.
+
+/** «Piedra del Sol» → «piedra-del-sol» (sin acentos, solo letras y números). */
+export function slugificar(texto) {
+  return String(texto || '')
+    .toLowerCase()
+    .replace(/ł/g, 'l')
+    .replace(/œ/g, 'oe')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 70)
+    .replace(/-+$/g, '');
+}
+
+/** Texto de la pieza en un idioma (el más largo disponible); '' si no existe en ese idioma. */
+export function textoPieza(p, lang) {
+  const sfx = lang === 'es' ? '' : `_${lang}`;
+  const largo = p[`guion_largo${sfx}`];
+  const corto = p[`guion_corto${sfx}`];
+  return String(lleno(largo) ? largo : lleno(corto) ? corto : '').trim();
+}
+
+export const tituloDePieza = (p, lang) => String((lang === 'es' ? p.titulo || p.title : p[`titulo_${lang}`]) || '').trim();
+
+/** ¿Esta pieza tiene página en este idioma? Gratis, con título y texto en ese idioma. */
+export const piezaPublicable = (p, lang) => p.is_free === true && lleno(tituloDePieza(p, lang)) && lleno(textoPieza(p, lang));
+
+/** Dirección de una pieza: la de su sitio + el nombre de la pieza. */
+export const direccionPieza = (cfg, p, lang) => `${direccion(cfg.slugs[lang], lang)}${slugificar(tituloDePieza(p, lang))}/`;
+
+/**
+ * Página de una pieza gratis. datos: { sitio, cfg, pieza, sala, lang, idiomas (en los que esta pieza tiene página), idiomasSitio, portada }
+ */
+export function armarPiezaPagina({ sitio, manifiesto = {}, cfg, pieza, sala = null, lang = 'es', idiomas = [lang], portada = '' }) {
+  const t = T[lang];
+  const nombre = (lang === 'es' ? sitio.name : sitio[`name_${lang}`] || cfg.nombres?.[lang]) || sitio.name;
+  const nombrePieza = tituloDePieza(pieza, lang);
+  const url = `${DOMINIO}${direccionPieza(cfg, pieza, lang)}`;
+  const urlSitio = `${DOMINIO}${direccion(cfg.slugs[lang], lang)}`;
+  const loc = (obj, campo) => (lang === 'es' ? obj?.[campo] : obj?.[`${campo}_${lang}`]);
+  const nombreSala = sala ? String((lang === 'es' ? sala.nombre_oficial : sala[`nombre_oficial_${lang}`]) || '').trim() : '';
+  const gancho = String(loc(pieza, 'frase_gancho') || '').trim();
+  const texto = stripLinks(textoPieza(pieza, lang));
+  const precio = moneda(lang, sitio, manifiesto);
+  const abrir = `/?sitio=${encodeURIComponent(sitio.id)}&idioma=${lang}`;
+
+  const titulo = t.piezaTitulo(nombrePieza, nombre);
+  const descripcion = recortar(gancho ? `${gancho} ${t.piezaDesc(nombrePieza, nombre)}` : t.piezaDesc(nombrePieza, nombre));
+
+  const alt = idiomas.map((l) => ({ l, href: `${DOMINIO}${direccionPieza(cfg, pieza, l)}` }));
+  const hreflang = [...alt.map((a) => `<link rel="alternate" hreflang="${a.l}" href="${a.href}">`), `<link rel="alternate" hreflang="x-default" href="${alt.find((a) => a.l === 'es')?.href || url}">`].join('\n');
+  const selector = idiomas.length > 1 ? `<nav class="idiomas" aria-label="Idioma">${alt.map((a) => (a.l === lang ? `<span aria-current="true">${a.l.toUpperCase()}</span>` : `<a href="${a.href}" hreflang="${a.l}" lang="${a.l}">${a.l.toUpperCase()}</a>`)).join('')}</nav>` : '';
+
+  const grafo = [
+    {
+      '@type': 'WebPage',
+      '@id': url,
+      url,
+      name: titulo,
+      description: descripcion,
+      inLanguage: lang,
+      ...(portada ? { primaryImageOfPage: { '@type': 'ImageObject', url: `${DOMINIO}${portada}` } } : {}),
+      isPartOf: { '@type': 'WebSite', name: 'Audioguía Xolo', url: `${DOMINIO}/` },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Audioguía Xolo', item: `${DOMINIO}/` },
+        { '@type': 'ListItem', position: 2, name: nombre, item: urlSitio },
+        { '@type': 'ListItem', position: 3, name: nombrePieza, item: url },
+      ],
+    },
+  ];
+  const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': grafo }).replace(/</g, '\\u003c');
+
+  const cta = `<p class="cta"><a class="boton" href="${esc(abrir)}">${esc(t.piezaCta(nombre))}</a></p>
+<p class="nota">${precio ? esc(t.precio(precio)) : ''}</p>`;
+
+  const cuerpo = `<p class="dato"><a href="${urlSitio}">${esc(nombre)}</a></p>
+<h1>${esc(nombrePieza)}</h1>
+${gancho ? `<p class="lead">${esc(gancho)}</p>` : ''}
+${portada ? `<img class="portada" src="${esc(portada)}" alt="${esc(nombrePieza)}" width="1200" height="800" fetchpriority="high">` : ''}
+<p class="dato">${esc(t.ubic(nombreSala, nombre))}</p>
+${textoEnHtml(texto)}
+${cta}
+<p><a href="${urlSitio}">${esc(t.volver(nombre))}</a></p>`;
+
+  const html = plantilla({ lang, titulo, descripcion, url, hreflang, portada, jsonld, selector, cuerpo, pie: t.pie });
+  return { html, url, titulo, descripcion };
 }
