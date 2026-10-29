@@ -1,0 +1,56 @@
+{
+  "id": "tmc_08_coro_organos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "409d8a6d001014ee",
+      "texto": "Chór, stalle i dwa organy"
+    },
+    "frase_gancho": {
+      "hash": "6ddfe9292d7c2574",
+      "texto": "Świątynia we wnętrzu świątyni, z rzeźbionymi stallami i dwoma monumentalnymi organami."
+    },
+    "puente_narrativo": {
+      "hash": "3e700836d33c4c21",
+      "texto": "Idź dalej w stronę Ołtarza Przebaczenia, z tyłu chóru."
+    },
+    "guion_corto": {
+      "hash": "22ef2aad20fca309",
+      "texto": "W samym środku nawy głównej znajduje się inna przestrzeń, otoczona kratami i rzeźbionym drewnem: chór. Tam siadali kanonicy, żeby się modlić i śpiewać. Stalle są dziełem Juana de Rojasa, z końca siedemnastego wieku, a ich siedzenia zdobią rzeźbione płaskorzeźby. Nad nimi stoją dwa wielkie organy z okresu wicekrólewskiego, których fasady mają około dziewięciu metrów szerokości i jedenaście wysokości. W tej katedrze koronowano Agustína de Iturbide na cesarza, dwudziestego pierwszego lipca tysiąc osiemset dwudziestego drugiego roku, w kaplicy głównej, obok ołtarza. W tysiąc dziewięćset sześćdziesiątym siódmym roku pożar zniszczył większą część tych stall i uszkodził organy, a później przeprowadzono renowacje."
+    },
+    "guion_largo": {
+      "hash": "59de813442ed413c",
+      "texto": "Stoisz w samym środku świątyni, tam gdzie wznosi się jedno z najbardziej wyjątkowych miejsc dawnej katedry: chór. W katedrach Nowej Hiszpanii chór znajdował się pośrodku nawy, zamknięty kratami, i właśnie tam zbierali się kanonicy, żeby modlić się i śpiewać oficjum kilka razy dziennie.\n\nNajbardziej rzucają się w oczy stalle, czyli zespół siedzisk z rzeźbionego drewna. Wykonał je Juan de Rojas między tysiąc sześćset dziewięćdziesiątym szóstym a tysiąc sześćset dziewięćdziesiątym siódmym rokiem, z drewna zwanego tapincerán, i zdobi je pięćdziesiąt dziewięć płaskorzeźb. Każde siedzenie ukazywało sceny i postacie, a korzystano z niego zgodnie z rangą osoby, która je zajmowała. To rodzaj dzieła, które łączy rzeźbę, stolarstwo i liturgię w jednym meblu.\n\nNad stallami wznoszą się dwa organy. Są ogromne: ich fasady mają około dziewięciu metrów szerokości i jedenaście wysokości, według INAH, a zbudowano je w osiemnastym wieku. Obecne organy przypisuje się José Nassarre i datuje się je na lata od tysiąc siedemset trzydziestego czwartego do tysiąc siedemset trzydziestego szóstego. Wcześniej istniał starszy organ, z końca siedemnastego wieku. Dzięki tym instrumentom rozbrzmiewało nabożeństwo w najważniejszej katedrze wicekrólestwa.\n\nW tej katedrze rozegrał się też ważny moment polityczny. Agustín de Iturbide został koronowany na cesarza Meksyku dwudziestego pierwszego lipca tysiąc osiemset dwudziestego drugiego roku. Ceremonia odbyła się nie w chórze, lecz w kaplicy głównej, obok ołtarza, gdzie ustawiono trony. Rok wcześniej doprowadził do ostatecznego uzyskania niepodległości. Iturbide rządził zaledwie kilka miesięcy i abdykował w tysiąc osiemset dwudziestym trzecim roku. Jego szczątki spoczywają w innej kaplicy katedry.\n\nSiedemnastego stycznia tysiąc dziewięćset sześćdziesiątego siódmego roku zwarcie elektryczne wywołało pożar, który zaczął się w Ołtarzu Przebaczenia, tuż za chórem. Ogień zniszczył większą część stall, ponieważ z dziewięćdziesięciu dziewięciu siedzisk przepadło siedemdziesiąt pięć. Uszkodził też organy. Później przeprowadzono prace renowacyjne, z interwencjami w tysiąc dziewięćset siedemdziesiątym szóstym roku oraz w latach od dwutysięcznego siódmego do dwutysięcznego ósmego.\n\nKrata zamykająca chór również ma swoją historię. Wykonano ją w Makau, na południu Chin, w tysiąc siedemset dwudziestym drugim roku, a w katedrze umieszczono ją w tysiąc siedemset trzydziestym. Pokazuje, że w tej katedrze znalazły się przedmioty wykonane bardzo daleko stąd.\n\nZa wejście do chóru zwykle prosi się o datek, a czasem bywa on zamknięty z powodu uroczystości. Jeśli nie możesz wejść, wiele widać także z nawy, przez kraty, a organy dobrze widać z każdego miejsca w transepcie.\n\nPomyśl, ile dźwięku przeszło przez to miejsce. Przez wieki chór był głosem katedry. Za nim, w stronę ołtarza, znajduje się element, który również ucierpiał w pożarze i który nosi bardzo sugestywną nazwę: Ołtarz Przebaczenia."
+    },
+    "retos_observacion": {
+      "hash": "a7a86f624e98a67d",
+      "texto": [
+        "Spójrz w górę i porównaj fasady dwóch organów",
+        "Poszukaj na stallach płaskorzeźb wyrzeźbionych na oparciach",
+        "Odszukaj kratę chóru i zwróć uwagę, jak zamyka przestrzeń"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c0bc73d810ef3d93",
+      "texto": {
+        "Stalle": "Juan de Rojas, 1696 do 1697, drewno tapincerán",
+        "Płaskorzeźby stall": "59",
+        "Organy": "José Nassarre, 1734 do 1736",
+        "Fasady organów": "około 9 m szerokości na 11 m wysokości",
+        "Koronacja Iturbidego": "21 lipca 1822, w kaplicy głównej",
+        "Pożar": "17 stycznia 1967"
+      }
+    },
+    "faq_mito": {
+      "hash": "b943cf0983a443de",
+      "texto": {
+        "pregunta": "Mit: Chór katedry spłonął doszczętnie w 1967 roku i już nie istnieje.",
+        "respuesta": "Rzeczywistość: Pożar zniszczył dużą część stall i uszkodził organy, ale chór i organy zostały odnowione w kilku etapach."
+      }
+    }
+  }
+}

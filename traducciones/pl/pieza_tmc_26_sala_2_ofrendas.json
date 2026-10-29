@@ -1,0 +1,54 @@
+{
+  "id": "tmc_26_sala_2_ofrendas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "179f714ad117da21",
+      "texto": "Sala druga: rytuał i ofiara, dary ofiarne Huitzilopochtli"
+    },
+    "frase_gancho": {
+      "hash": "0b01ef04fb241137",
+      "texto": "Cztery dary ofiarne z pierwszego sanktuarium i urna z bogiem śmierci."
+    },
+    "puente_narrativo": {
+      "hash": "93957916cffcec67",
+      "texto": "Przejdź do sali trzeciej, poświęconej trybutowi i handlowi, gdzie pokazano, skąd do Tenochtitlan napływało bogactwo."
+    },
+    "guion_corto": {
+      "hash": "6f1cdad483d2e28f",
+      "texto": "Sala druga mówi o rytuale i ofierze. Prezentuje cztery dary ofiarne z sanktuarium Huitzilopochtli, z Etapu II, najstarszego, który znasz już ze strefy archeologicznej. Wśród przedmiotów wyróżnia się urna z postacią Mictlantecuhtli, boga śmierci. Te dary ofiarne były depozytami przedmiotów zakopanych pod podłogą sanktuarium, złożonymi z wyraźnym zamiarem rytualnym. To jedna z sal, które najbardziej pomagają zrozumieć, co działo się w tym miejscu i jaki stosunek mieli Mexica do śmierci i do bogów. Oglądaj każdą gablotę spokojnie, jedną po drugiej, bo każdy zestaw ma własną logikę."
+    },
+    "guion_largo": {
+      "hash": "c54c9e399e86cb28",
+      "texto": "W sali drugiej wchodzisz w świat rytuałów. Jej tematem są ofiara i dary ofiarne, dwie idee trudne dziś do zrozumienia, a jednak centralne dla Mexica.\n\nSala przedstawia cztery dary ofiarne znalezione w sanktuarium Huitzilopochtli, w Etapie II. To najstarszy etap, który znasz już ze strefy archeologicznej, etap dwóch małych sanktuariów, i dlatego te dary wiążą się z pierwszymi fazami świątyni. Pamiętaj, że znaleziono tam, pod podłogą, urny z resztkami spalonych kości.\n\nDar ofiarny to zestaw przedmiotów, który składano pod ziemią lub wewnątrz budowli jako część rytuału. Nie były to przypadkowe podarunki. Kiedy patrzysz na gablotę w tej sali, widzisz to, co zostało po ceremonii sprzed ponad pięciu wieków. Przedmioty się zachowały, ale pełny sens rytuału odtwarza się dzięki pracy archeologów i kronikom, i nadal jest on tematem badań. Dlatego wyjaśnienia są możliwymi odczytaniami, a nie prawdami zamkniętymi.\n\nWśród przedmiotów wyróżnia się urna z postacią Mictlantecuhtli, boga śmierci. Jego imię wiąże się z Mictlán, miejscem, do którego według tradycji Mexica trafiało wielu zmarłych. Pojawia się w wielu miejscach Templo Mayor. Znasz go już z Domu Orłów, gdzie w tysiąc dziewięćset dziewięćdziesiątym czwartym roku znaleziono dwie wielkie figury tego boga. Tutaj spotykasz go w mniejszej skali, w urnie, która służy do przechowywania szczątków po kremacji. Obie obecności pokazują, że śmierć była częścią budowli, a nie czymś jej obcym. To zmienia sposób patrzenia na świątynię: nie była tylko miejscem wojny i deszczu, lecz także miejscem, gdzie rozmawiano ze śmiercią.\n\nWarto oglądać te dzieła z szacunkiem i bez pośpiechu. Dla Mexica ofiara była rozumiana jako sposób utrzymywania porządku wszechświata i spłacania długu wobec bogów. Takie wyjaśnienie zwykle podają specjaliści, choć jest ono dyskutowane i doprecyzowywane. Niezależnie od tego, co myślimy dzisiaj, te przedmioty pokazują kompletny system wierzeń, z jego regułami i symbolami.\n\nJeśli masz czas, obejrzyj każdą gablotę osobno i porównaj jedną z drugą. Każdy dar ofiarny jest przedstawiony jako zestaw, a patrzenie na niego w ten sposób pomaga zrozumieć, że przedmioty zakopano razem z jakimś zamiarem. Następna sala, o trybucie i handlu, pomoże ci zrozumieć, skąd mogło pochodzić wiele z nich.\n\nOpuszczając tę salę, znasz już Huitzilopochtli, Mictlantecuhtli i rolę darów ofiarnych. Następna sala prowadzi cię inną drogą: drogą trybutu i handlu."
+    },
+    "retos_observacion": {
+      "hash": "297ee4ea2ecd6e38",
+      "texto": [
+        "Znajdź urnę z postacią Mictlantecuhtli",
+        "Policz 4 dary ofiarne prezentowane w sali",
+        "Przypomnij sobie figury z Domu Orłów i porównaj ich skalę"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ec84dbd71bcdbc88",
+      "texto": {
+        "Sala": "2, Rytuał i ofiara",
+        "Wystawione dary ofiarne": "4, z sanktuarium Huitzilopochtli",
+        "Etap świątyni": "II",
+        "Wyróżniony obiekt": "urna z Mictlantecuhtli"
+      }
+    },
+    "faq_mito": {
+      "hash": "30012f9d3382faaf",
+      "texto": {
+        "pregunta": "Mit: Dary ofiarne były przedmiotami rzuconymi przypadkowo.",
+        "respuesta": "Rzeczywistość: Były to depozyty rytualne; archeolodzy rejestrują je jeden po drugim, bo każdy zestaw ma własny sens."
+      }
+    }
+  }
+}

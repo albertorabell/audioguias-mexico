@@ -1,0 +1,57 @@
+{
+  "id": "tmc_24_tlaltecuhtli",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "40b4f3414eba042b",
+      "texto": "Muzeum i Tlaltecuhtli w holu"
+    },
+    "frase_gancho": {
+      "hash": "7afbe91bfcfbe71b",
+      "texto": "Dwunastotonowa bogini ziemi wita każdego, kto wchodzi do muzeum."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "Gdy będziesz gotów, przejdź do kolejnego przystanku na swojej trasie."
+    },
+    "guion_corto": {
+      "hash": "3df9664b33ff414f",
+      "texto": "Muzeum Templo Mayor zostało otwarte dwunastego października tysiąc dziewięćset osiemdziesiątego siódmego roku, według projektu Pedra Ramíreza Vázqueza. W holu wita cię Tlaltecuhtli, potworna bogini ziemi. To monolit o wymiarach cztery metry siedemnaście na trzy sześćdziesiąt dwa, ważący około dwunastu ton. Odnaleziono go drugiego października dwa tysiące szóstego roku, a jego konserwacja trwała trzy lata. Zachowały się na nim resztki oryginalnej farby, a gdy patrzysz z bliska, łatwiej wyobrazić sobie, jak wyglądał. Powstał między tysiąc pięćset drugim a tysiąc pięćset dwudziestym pierwszym rokiem, w ostatnich latach imperium. Archeolog Eduardo Matos Moctezuma zauważa, że jego kult był zarezerwowany dla kapłanów."
+    },
+    "guion_largo": {
+      "hash": "8b2ece5889ddb0f7",
+      "texto": "Witaj w Muzeum Templo Mayor. Zanim wejdziesz do sal, warto wiedzieć dwie rzeczy: jak powstał ten budynek i jaki eksponat wita cię w holu.\n\nMuzeum zostało otwarte dwunastego października tysiąc dziewięćset osiemdziesiątego siódmego roku. Projekt opracował architekt Pedro Ramírez Vázquez wraz z Javierem Ramírezem Campuzano. Budynek wzniesiono obok ruin, w następstwie Projektu Templo Mayor, aby pokazać przedmioty odzyskane podczas wykopalisk. Muzeum ma osiem sal. Pierwsze wprowadzają w kontekst, potem przychodzą te poświęcone dwóm sanktuariom, daninie i przyrodzie, a ostatnia opowiada o podboju i o tym, co nastąpiło później. Warto trzymać się tej kolejności, bo opowiada ona pewną historię.\n\nW holu czeka na ciebie Tlaltecuhtli. Jego imię zwykle tłumaczy się jako pan lub pani ziemi. W tradycji mexica ziemię postrzegano jako żywą siłę, która dawała życie, a także przyjmowała zmarłych. Dlatego jej wizerunek należy do najpotężniejszych w panteonie.\n\nRzeźba została odnaleziona drugiego października dwa tysiące szóstego roku. Ma wymiary cztery metry siedemnaście na trzy metry sześćdziesiąt dwa i waży około dwunastu ton, według informacji INAH. Był to eksponat ogromny i delikatny, a jego konserwacja zajęła trzy lata. Ze względu na rozmiary przeniesienie go i zbadanie było poważnym wyzwaniem technicznym. Zachowały się na nim resztki oryginalnej polichromii, czyli koloru, którym został pomalowany w swoich czasach.\n\nDatuje się go na okres między tysiąc pięćset drugim a tysiąc pięćset dwudziestym pierwszym rokiem, czyli na ostatnie lata imperium. Według archeologa Eduarda Matosa Moctezumy kult Tlaltecuhtli był ograniczony do kapłanów. Innymi słowy, nie był to wizerunek dla szerokiej publiczności, i to czyni go jeszcze ciekawszym.\n\nDziś oglądasz go w pełnym świetle i z bliska, w holu muzeum. To sposób patrzenia, o którym jego twórcy z pewnością nie myśleli. Poświęć chwilę, by spokojnie przyjrzeć mu się z różnych stron, zanim wejdziesz do sal. Nie ma pośpiechu: to jeden z największych eksponatów muzeum i jeden z tych, które zasługują na najwięcej czasu.\n\nPodczas oglądania zwróć uwagę na szczegóły powierzchni: reliefy, powtarzające się formy i resztki koloru. Jeśli muzeum udostępnia objaśnienie na tabliczce, przeczytaj je, bo pomaga rozpoznać elementy postaci.\n\nJeszcze jedna uwaga. Ten eksponat pokazuje, że archeologia wciąż odkrywa nowe rzeczy, nawet w mieście tak dobrze zbadanym. Zaledwie około dwóch dekad temu nikt nie wiedział, że Tlaltecuhtli leży pod ziemią. Z tą myślą przejdź do sal. Znajdziesz tam przedmioty, które przez wieki pozostawały ukryte i które wydobyto z ziemi dzięki wykopaliskom, które już znasz."
+    },
+    "retos_observacion": {
+      "hash": "8ba9a2764f7102b8",
+      "texto": [
+        "Zwróć uwagę na reliefy na powierzchni i na powtarzające się formy",
+        "Poszukaj zachowanych resztek koloru",
+        "Obejrzyj ją z różnych stron, zanim przejdziesz do Sali 1"
+      ]
+    },
+    "especificaciones": {
+      "hash": "62bb42ed206be0fd",
+      "texto": {
+        "Muzeum otwarte": "12 października 1987",
+        "Projekt": "Pedro Ramírez Vázquez wraz z Javierem Ramírezem Campuzano",
+        "Tlaltecuhtli": "odnaleziona 2 października 2006",
+        "Wymiary": "4,17 na 3,62 m",
+        "Waga": "około 12 ton",
+        "Konserwacja": "3 lata",
+        "Data": "1502-1521"
+      }
+    },
+    "faq_mito": {
+      "hash": "fa460102487ede5d",
+      "texto": {
+        "pregunta": "Mit: Tlaltecuhtli był wizerunkiem publicznym, widzianym przez wszystkich.",
+        "respuesta": "Rzeczywistość: Według Matosa Moctezumy jego kult był zarezerwowany dla kapłanów."
+      }
+    }
+  }
+}

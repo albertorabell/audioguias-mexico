@@ -1,0 +1,56 @@
+{
+  "id": "tmc_29_coyolxauhqui_monolito",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0ef9a1a1d2021d98",
+      "texto": "Monolit Coyolxauhqui w muzeum"
+    },
+    "frase_gancho": {
+      "hash": "1b8d051e0750b142",
+      "texto": "Oryginalny kamień z miejsca odkrycia, który już znasz, teraz z bliska."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "Gdy tylko zechcesz, ruszaj dalej, na kolejny przystanek swojej trasy."
+    },
+    "guion_corto": {
+      "hash": "cabe5ad9013f0d1d",
+      "texto": "Przed tobą stoi monolit Coyolxauhqui, kamienny dysk odnaleziony dwudziestego pierwszego lutego tysiąc dziewięćset siedemdziesiątego ósmego roku u stóp południowych schodów. Ma trzy metry dwadzieścia pięć średnicy i waży prawie osiem ton, według INAH. Postać przedstawia kobietę z rozczłonkowanym ciałem, z głową oddzieloną od tułowia. Jej imię oznacza tę, która ma na twarzy malunek z dzwoneczków. Według mitu jest siostrą Huitzilopochtli, która została przez niego pokonana. Przyjrzyj się odciętym rękom i nogom oraz szczegółom ubioru i ozdób. To dzieło, które najlepiej podziwiać, okrążając je dookoła."
+    },
+    "guion_largo": {
+      "hash": "6907468e569d4ac5",
+      "texto": "To najważniejsze dzieło w muzeum i prawdopodobnie to, które publiczność zna najlepiej. To monolit Coyolxauhqui, dysk, który pojawił się w tysiąc dziewięćset siedemdziesiątym ósmym roku i dał początek całemu projektowi.\n\nNajpierw liczby, według INAH. Dysk ma trzy metry dwadzieścia pięć średnicy i waży prawie osiem ton. Innymi słowy, to ogromny kamień, a przeniesienie takiego dzieła było nie lada zadaniem dla zespołu, który go wydobył. Odnaleziono go dwudziestego pierwszego lutego tysiąc dziewięćset siedemdziesiątego ósmego roku, u stóp południowych schodów świątyni, tam, gdzie jakiś czas temu dotarła twoja trasa.\n\nTeraz scena. Wyrzeźbiona postać to kobieta, a jej ciało jest rozczłonkowane: głowa, ręce i nogi leżą oddzielnie od tułowia, ale zostały ułożone wewnątrz koła. Ta kompozycja zmusza wzrok, by przechodził od jednej części do drugiej, po kolei, aż złoży się z nich całe ciało. Płaskorzeźba jest wykonana bardzo starannie i widać to w ozdobach, w szczegółach ubioru i w kształtach ciała.\n\nImię, według INAH, oznacza tę, która ma na twarzy malunek z dzwoneczków. W tradycji Mexica Coyolxauhqui jest siostrą Huitzilopochtli. Kiedy on się narodził, ona poprowadziła swoich braci, Centzonhuitznahua, do ataku na własną matkę. Huitzilopochtli przyszedł na świat uzbrojony, pokonał ją, a jej ciało stoczyło się po zboczu Coatépetl.\n\nDlatego kamień leżał u stóp schodów prowadzących do sanktuarium. Scena na kamieniu powtarzała na ziemi to, co mit opowiadał o górze. Kto ją widział, rozumiał przesłanie bez słów: bóg triumfuje nad swoimi wrogami.\n\nJest jeszcze coś, co warto wiedzieć. Sala osiem muzeum, ostatnia, pokazuje fragmenty innej Coyolxauhqui, również monumentalnej, którą zniszczyli Hiszpanie. Tamto dzieło nie zachowało się w całości i to mówi wszystko. Sprawia to, że monolit, który masz przed sobą, jest jeszcze cenniejszy, bo uniknął zniszczenia.\n\nZwróć też uwagę na to, jak prezentowane jest to dzieło. W muzeum możesz zobaczyć je z przodu. W świątyni natomiast leżało u stóp schodów, na widoku każdego, kto zbliżał się do sanktuarium. Wyobraź sobie, jak mogło wyglądać tam, w świetle dnia. Jeśli pamiętasz Tlaltecuhtli, który zachował resztki koloru, zrozumiesz, że te rzeźby mogły być malowane i że warto wyobrażać je sobie w pełnych barwach.\n\nDaj sobie czas, żeby obejść ją dookoła i spojrzeć z różnych stron. Najpierw poszukaj głowy, potem rąk i nóg, a na koniec ozdób. To dzieło zasługuje na kilka minut uwagi, bo streszcza w jednym przedmiocie mit, archeologię i historię miasta. Bez niego prawdopodobnie nie byłoby cię dziś w tym muzeum, a centrum miasta wyglądałoby inaczej."
+    },
+    "retos_observacion": {
+      "hash": "73bef5ae695cdbd9",
+      "texto": [
+        "Poszukaj głowy oddzielonej od ciała, wewnątrz koła",
+        "Przyjrzyj się odciętym rękom i nogom oraz temu, jak zostały ułożone na dysku",
+        "Porównaj dysk z miejscem przy południowych schodach, w którym był widoczny na stanowisku"
+      ]
+    },
+    "especificaciones": {
+      "hash": "89501281611a612a",
+      "texto": {
+        "Odkrycie": "21 lutego 1978",
+        "Średnica": "3,25 m według INAH",
+        "Waga": "prawie 8 ton",
+        "Nazwa": "ta, która ma na twarzy malunek z dzwoneczków",
+        "Miejsce odkrycia": "u stóp południowych schodów",
+        "Sala": "4"
+      }
+    },
+    "faq_mito": {
+      "hash": "57254f34ad9d8a71",
+      "texto": {
+        "pregunta": "Mit: Ten monolit to jedyna Coyolxauhqui, jaka kiedykolwiek istniała.",
+        "respuesta": "Rzeczywistość: Sala 8 pokazuje fragmenty innej monumentalnej Coyolxauhqui, zniszczonej przez Hiszpanów."
+      }
+    }
+  }
+}

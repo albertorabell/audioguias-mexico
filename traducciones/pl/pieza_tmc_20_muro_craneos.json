@@ -1,0 +1,53 @@
+{
+  "id": "tmc_20_muro_craneos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "aae241fa71eb47a5",
+      "texto": "Ołtarz Tzompantli i mur czaszek"
+    },
+    "frase_gancho": {
+      "hash": "179284e2773e2a04",
+      "texto": "Kamienne czaszki przed sanktuarium Huitzilopochtli."
+    },
+    "puente_narrativo": {
+      "hash": "796764b3c2506ae9",
+      "texto": "Idź dalej kładką w stronę Czerwonych Świątyń i Domu Orłów."
+    },
+    "guion_corto": {
+      "hash": "6aa5f6d177a2f57a",
+      "texto": "Przed sanktuarium Huitzilopochtli odnaleziono w roku tysiąc dziewięćset osiemdziesiątym platformę ozdobioną rzędami czaszek wyrzeźbionych w kamieniu. Znana jest jako Ołtarz Tzompantli. Tzompantli było konstrukcją, na której Mexikowie wystawiali czaszki ofiarowanych ludzi, a kroniki mówią, że w świętym obrębie stało ich kilka. W murach tego ołtarza nie ma prawdziwych czaszek, lecz ich kamienne przedstawienie, które przywoływało ofiarę i wojnę. To jeden z miejsc obowiązkowych podczas zwiedzania, obok Domu Orłów i Czerwonych Świątyń."
+    },
+    "guion_largo": {
+      "hash": "f396022218e0f523",
+      "texto": "Spójrz na platformę, która jest przed tobą. Jest ozdobiona rzędami małych kamiennych czaszek i należy do najbardziej rozpoznawalnych obrazów Templo Mayor.\n\nZnana jest jako Ołtarz Tzompantli, czyli mur czaszek. Odnaleziono ją w roku tysiąc dziewięćset osiemdziesiątym, przed sanktuarium Huitzilopochtli. To jedno z miejsc obowiązkowych podczas zwiedzania, obok Domu Orłów, Czerwonych Świątyń i Etapu II.\n\nSłowo tzompantli pochodzi z nahuatl i wiąże się z ideą rzędu czaszek. Była to konstrukcja, na której Mexikowie wystawiali głowy ofiarowanych ludzi. Kroniki hiszpańskie mówią o kilku tzompantli w Tenochtitlan, a archeologia potwierdziła istnienie co najmniej jednego, bardzo dużego. Brat Bernardino de Sahagún wspomina na przykład o kilku budowlach tego rodzaju w świętym obrębie.\n\nWażne jest, by odróżnić ołtarz, który tu widzisz, od prawdziwego tzompantli. W tym ołtarzu czaszki są kamiennymi rzeźbami, wykutymi jedna obok drugiej, i zdobią mury platformy. To nie są prawdziwe czaszki. Ołtarz pełnił funkcję symbolicznego przedstawienia, a jego położenie przed sanktuarium Huitzilopochtli łączy go z tematem wojny i ofiary.\n\nDlaczego ofiara miała dla Mexików takie znaczenie? Według ich wizji bogowie oddali własną krew, aby stworzyć życie. Ludzie musieli ją zwracać, by podtrzymywać porządek wszechświata. To wyjaśnienie podaje się zazwyczaj, choć specjaliści je dyskutują i doprecyzowują. To trudna idea, którą warto zrozumieć w jej kontekście, a ten temat spotkasz w kilku salach muzeum.\n\nJeśli przyjrzysz się uważnie, zauważysz, że kamienne czaszki są ułożone w rzędy, a każda ma rysy podobne, lecz nie identyczne. Wizualnie robi to wrażenie ściany pełnej oczu i zębów. To sposób, by przypomnieć każdemu, kto się zbliżał, że to miejsce poświęcone było wojnie.\n\nPóźniej opowiemy o znacznie większym tzompantli, odkrytym w dwa tysiące piętnastym roku kilka metrów stąd, przy pobliskiej ulicy. Tamten miał prawdziwe czaszki.\n\nNa razie zwróć uwagę na położenie ołtarza. Znajduje się przed sanktuarium Huitzilopochtli, na osi piramidy, i dlatego odczytuje się go jako część tego samego zespołu. Wszystko w tej strefie podlega pewnemu porządkowi, a ołtarz pomaga odnaleźć południowe sanktuarium pośród ruin. Jeśli już rozróżniasz dwie połowy piramidy, to dobry punkt odniesienia, by nie zgubić się podczas spaceru. Stąd kolejny przystanek poprowadzi cię do innych budowli świętego obrębu, mniejszych, ale równie interesujących, które dopełniają obraz świętego zespołu."
+    },
+    "retos_observacion": {
+      "hash": "6832dfe1d2ff5ad0",
+      "texto": [
+        "Policz, ile rzędów czaszek potrafisz rozróżnić na platformie",
+        "Zwróć uwagę, że czaszki są z rzeźbionego kamienia, a nie prawdziwe",
+        "Określ położenie ołtarza względem sanktuarium Huitzilopochtli"
+      ]
+    },
+    "especificaciones": {
+      "hash": "dd67613a03002092",
+      "texto": {
+        "Odkrycie": "1980",
+        "Lokalizacja": "przed sanktuarium Huitzilopochtli",
+        "Materiał": "kamień z rzeźbionymi czaszkami"
+      }
+    },
+    "faq_mito": {
+      "hash": "f5cb51b9c0ec002f",
+      "texto": {
+        "pregunta": "Mit: Ołtarz Tzompantli został zbudowany z prawdziwych ludzkich czaszek.",
+        "respuesta": "Rzeczywistość: Czaszki na tym ołtarzu to kamienne rzeźby; prawdziwe czaszki odkryto w Huei Tzompantli, w 2015 roku."
+      }
+    }
+  }
+}

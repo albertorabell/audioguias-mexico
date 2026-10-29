@@ -1,0 +1,54 @@
+{
+  "id": "tmc_28_sala_4_huitzilopochtli",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6493b908a00789ee",
+      "texto": "Sala cztery: Huitzilopochtli, Wojownik Orzeł i Mictlantecuhtli"
+    },
+    "frase_gancho": {
+      "hash": "c58338c4dbeafe06",
+      "texto": "Sala boga patrona, z ceramicznym Wojownikiem Orłem i bogiem śmierci."
+    },
+    "puente_narrativo": {
+      "hash": "9a978f2b93449317",
+      "texto": "Podejdź na koniec sali cztery, gdzie znajduje się wielki kamienny dysk Coyolxauhqui."
+    },
+    "guion_corto": {
+      "hash": "5c92867a6ee84daf",
+      "texto": "Sala cztery poświęcona jest Huitzilopochtli i temu, co odnaleziono po jego stronie świątyni. Zebrano w niej ceramicznego Wojownika Orła, znalezionego w Domu Orłów, oraz figurę Mictlantecuhtli. Można tu też zobaczyć głowę Xiuhcóatl, czyli ognistego węża, oraz figury Centzonhuitznahua, braci Huitzilopochtli. Są ponadto przedstawienia Huehuetéotl, boga ognia, i Mayáhuel. A na końcu sali stoi wielki monolit Coyolxauhqui. To sala, która najlepiej wyjaśnia, dlaczego południowa strona świątyni była stroną wojny i Słońca oraz dlaczego Mexikowie darzyli ją takim czcią."
+    },
+    "guion_largo": {
+      "hash": "10025f46a3fb0af3",
+      "texto": "Jesteś w Sali cztery, poświęconej Huitzilopochtli, i to właśnie tutaj zgromadzono niektóre z najsłynniejszych eksponatów muzeum.\n\nPamiętaj, że południowa strona świątyni należała do tego boga, patrona Mexików. Był bogiem wojny i Słońca. Jego sanktuarium wznosiło się na Coatépetl, wzgórzu węża, jak widziałeś z kładki. Przedmioty z tej sali łączą się z tą stroną świątyni i z mitologią jej boga. Dlatego warto wejść do niej z historią Coatépetl świeżo w pamięci.\n\nJednym z głównych eksponatów jest ceramiczny Wojownik Orzeł, który został znaleziony w Domu Orłów. Archeolog Leonardo López Luján woli nazywać go człowiekiem orłem. To figura o ludzkich rysach i ptasich szczegółach, często jeden z eksponatów, które przyciągają najwięcej fotografii. Jedna z częstych interpretacji wiąże ją z elitarnymi wojownikami skojarzonymi z orłem, choć specjaliści to dyskutują.\n\nObok niego stoi figura Mictlantecuhtli, boga śmierci. Pojawił się już w Domu Orłów, a tutaj widzisz go ponownie. To dobra okazja, by przyjrzeć mu się z bliska.\n\nW sali znajdziesz także głowę Xiuhcóatl. Nazwa oznacza ognistego węża, a był to mityczny oręż Huitzilopochtli. Są też figury Centzonhuitznahua, braci, którzy według mitu zaatakowali swoją matkę, gdy Huitzilopochtli miał się narodzić. Jeśli pamiętasz historię Coyolxauhqui, oni są pozostałymi bohaterami opowieści.\n\nWśród eksponatów są przedstawienia Huehuetéotl, Starego Boga Ognia, oraz Mayáhuel, bogini związanej z agawą. Obecność tych figur pokazuje, że świat Huitzilopochtli obejmował wiele innych postaci, nie tylko jego samego.\n\nNa końcu sali znajduje się najważniejszy eksponat: monolit Coyolxauhqui. Opowiemy o nim na następnym przystanku, ze spokojem, bo zasługuje na własne miejsce.\n\nGdy zwiedzasz salę, zastanów się, jak eksponaty łączą się z mitem. To sala do czytania z historią w głowie, a nie tylko do oglądania pojedynczych przedmiotów. Huitzilopochtli rodzi się uzbrojony i pokonuje swoich braci i swoją siostrę. Świątynia jest górą, na której to się wydarzyło. Figury w tej sali są bohaterami tej opowieści, przemienionymi w kamień i ceramikę, a razem tworzą coś w rodzaju obsady mitu.\n\nJeśli czas pozwala, obejdź całą salę dookoła, zanim podejdziesz do monolitu. Mniejsze przedmioty, jak figury bogów, łatwo przeoczyć, ale opowiadają tę samą historię w innej skali. Nie spiesz się i przeczytaj tabliczki, bo to one wskazują, kim jest każda z postaci."
+    },
+    "retos_observacion": {
+      "hash": "2965e538c6540b7b",
+      "texto": [
+        "Znajdź ceramicznego Wojownika Orła i przyjrzyj się jego ptasim szczegółom",
+        "Odszukaj głowę Xiuhcóatl, ognistego węża",
+        "Rozpoznaj Huehuetéotl i Mayáhuel wśród figur"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7a3d81fe8cc8c24a",
+      "texto": {
+        "Sala": "4, Huitzilopochtli",
+        "Wojownik Orzeł": "ceramika, znaleziony w Domu Orłów",
+        "Inne eksponaty": "Mictlantecuhtli, głowa Xiuhcóatl, Centzonhuitznahua, Huehuetéotl, Mayáhuel",
+        "Główny eksponat": "monolit Coyolxauhqui"
+      }
+    },
+    "faq_mito": {
+      "hash": "87a23ef48cde3c4c",
+      "texto": {
+        "pregunta": "Mit: Wojownik Orzeł to rzeźba z kamienia.",
+        "respuesta": "Rzeczywistość: To ceramiczna figura, znaleziona w Domu Orłów."
+      }
+    }
+  }
+}

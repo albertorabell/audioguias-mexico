@@ -1,0 +1,56 @@
+{
+  "id": "tmc_06_piedras_1790",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc8571f404f14433",
+      "texto": "Kamienie z roku tysiąc siedemset dziewięćdziesiątego"
+    },
+    "frase_gancho": {
+      "hash": "53e720e22dbbbb60",
+      "texto": "W ciągu jednego roku na tym placu pojawiły się Coatlicue i Kamień Słońca, a ten drugi wylądował przy wieży katedry."
+    },
+    "puente_narrativo": {
+      "hash": "1ff1f8faa20d6dca",
+      "texto": "Idź teraz do katedry i wejdź do nawy głównej."
+    },
+    "guion_corto": {
+      "hash": "8610dd492ffd4aa3",
+      "texto": "W roku tysiąc siedemset dziewięćdziesiątym robotnicy kopiący na tym placu rów pod kanał natrafili na dwa wielkie kamienie Mexica. Pierwszy pojawił się trzynastego sierpnia i jest to Coatlicue, rzeźba z andezytu, wysoka na dwa i pół metra. Drugi wydobyto siedemnastego grudnia i jest to Kamień Słońca. Coatlicue zawieziono na uniwersytet i tam znów ją pogrzebano. Kamień Słońca zamontowano w jednej z wież tej katedry, gdzie przebywał do roku tysiąc osiemset osiemdziesiątego piątego. Dziś oba są w Narodowym Muzeum Antropologii. Te odkrycia były pierwszymi zapowiedziami zakopanego miasta."
+    },
+    "guion_largo": {
+      "hash": "391a5d8c1918542a",
+      "texto": "W roku tysiąc siedemset dziewięćdziesiątym ten plac był brukowany i prowadzono na nim roboty wodne. Tamtego roku ziemia oddała dwa ogromne kamienie, które leżały pogrzebane od prawie trzech stuleci.\n\nPierwszą była Coatlicue. Odnaleziono ją trzynastego sierpnia, podczas kopania rowu pod kanał, w pobliżu miejsca, gdzie dziś stoi Pałac Narodowy. To rzeźba z andezytu, wykuta w pełnej bryle, wysoka na około dwa i pół metra. Jest symetryczna z przodu i z tyłu, a każda jej część jest pokryta reliefami. Utożsamia się ją z boginią Coatlicue, której imię znaczy ta w spódnicy z węży. Jej identyfikacja wciąż budzi spory, a niektóre badaczki zaproponowały, że przedstawia ona inne postaci, jak gwiazdy zwane tzitzimime.\n\nLudzie tamtej epoki nie wiedzieli, co z nią zrobić. Zawieziono ją na uniwersytet, aby ją zachować i badać. Jednak niektórzy duchowni obawiali się, że rdzenni mieszkańcy znów zaczną ją czcić, i kazali pochować ją ponownie na jednym z dziedzińców. Wykopano ją w roku tysiąc osiemset trzecim, żeby Alexander von Humboldt mógł ją narysować, i jeszcze raz w roku tysiąc osiemset dwudziestym trzecim, aby zrobić odlew. Leżała tam, aż założono pierwsze Muzeum Narodowe.\n\nDrugi kamień ujrzał światło dzienne siedemnastego grudnia roku tysiąc siedemset dziewięćdziesiątego, w pobliżu pierwszego. To Kamień Słońca, zwany także Kalendarzem Azteckim. Jest to ogromna rzeźba z bazaltu. Pośrodku widnieje twarz otoczona znakami dwudziestu dni kalendarza liczącego dwieście sześćdziesiąt dni. Przez prawie sto lat sądzono, że to kalendarz, ponieważ tak zinterpretował go Antonio de León y Gama, który zbadał go zaraz po odkryciu. Dziś uważa się, że był to ołtarz ofiarny, cuauhxicalli, co znaczy naczynie orłów. Mówi się, że poświęcił go Moctezuma Drugi kilka lat przed podbojem.\n\nOto fakt, który łączy się z katedrą. Po odnalezieniu Kamień Słońca zamontowano w jednej z wież tej świątyni. Był wmurowany w ścianę dzwonnicy aż do roku tysiąc osiemset osiemdziesiątego piątego, kiedy przeniesiono go do Muzeum Narodowego. Katalog z roku tysiąc osiemset osiemdziesiątego drugiego wciąż umieszcza go przy jednej z wież. Innymi słowy, przez prawie sto lat ludzie przechodzili przez ten plac i widzieli, przylegające do katedry, jedno z najbardziej reprezentatywnych dzieł kultury Mexica. Nie było jasnego wyjaśnienia, czym jest.\n\nTe odkrycia zajmują szczególne miejsce w historii meksykańskiej archeologii. Były pierwszymi zapowiedziami, że miasto Tenochtitlan wciąż leży tam, pod ziemią. Muzeum Templo Mayor zresztą opowiada historię badań od roku tysiąc siedemset dziewięćdziesiątego. W ten sposób łączą się plac, katedra i strefa archeologiczna.\n\nDziś zarówno Coatlicue, jak i Kamień Słońca znajdują się w Narodowym Muzeum Antropologii, w Chapultepec. Nie ma ich na tej trasie, ale warto zobaczyć je właśnie tam.\n\nGdy tu jesteś, wyobraź sobie tę scenę. Rów, grupa robotników, uderzenie kilofa i nagle kamienna twarz. Miasto, które zdawało się zapomniane, ukazało się bez ostrzeżenia, a ówczesne władze nie wiedziały, czy je wystawić, badać, czy ukryć. Ta wątpliwość towarzyszy odkryciom aż do dziś."
+    },
+    "retos_observacion": {
+      "hash": "d0de566e044714e8",
+      "texto": [
+        "Znajdź Pałac Narodowy: Coatlicue odnaleziono w jego pobliżu",
+        "Spójrz na wieże katedry i wyobraź sobie wielki okrągły kamień wmurowany w jedną z nich",
+        "Poszukaj miejsca, w którym dziś stoi maszt flagowy, pośrodku placu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8dbad0296172f1af",
+      "texto": {
+        "Coatlicue": "odnaleziona 13 sierpnia 1790, andezyt, około 2,52 m wysokości",
+        "Kamień Słońca": "odnaleziony 17 grudnia 1790, bazalt",
+        "Kamień Słońca na wieży katedry": "do 1885",
+        "Proponowana dziś funkcja Kamienia Słońca": "cuauhxicalli, ołtarz ofiarny",
+        "Obecna lokalizacja obu rzeźb": "Narodowe Muzeum Antropologii",
+        "Lokalizacja znaleziska": "plac Konstytucji, Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "af2c8cb7afd1974e",
+      "texto": {
+        "pregunta": "Mit: Kamień Słońca to kalendarz, którego Mexica używali codziennie.",
+        "respuesta": "Rzeczywistość: Choć przedstawia dwadzieścia dni kalendarza liczącego 260 dni, dziś interpretuje się go jako ołtarz ofiarny, cuauhxicalli, a nie jako kalendarz do codziennego użytku."
+      }
+    }
+  }
+}

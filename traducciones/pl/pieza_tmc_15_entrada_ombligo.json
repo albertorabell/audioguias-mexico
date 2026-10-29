@@ -1,0 +1,56 @@
+{
+  "id": "tmc_15_entrada_ombligo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a565290328a4d04b",
+      "texto": "Huey Teocalli: pępek wszechświata Mexica"
+    },
+    "frase_gancho": {
+      "hash": "d999fae1472507c8",
+      "texto": "Tu było centrum świata Mexica, a dziś oglądasz je z kładki."
+    },
+    "puente_narrativo": {
+      "hash": "6f4040200719f5aa",
+      "texto": "Idź spokojnie dalej kładką. Gdy będziesz gotowy, przejdź do kolejnego przystanku swojej trasy."
+    },
+    "guion_corto": {
+      "hash": "62051446462ba074",
+      "texto": "Stoisz w miejscu, w którym Mexica umieścili centrum swojego świata. Nazywali je Huey Teocalli, czyli wielka świątynia, i uważali je za pępek wszechświata. Była to podwójna piramida z dwoma sanktuariami na szczycie, jednym dla Huitzilopochtli, a drugim dla Tláloca. W ostatnim etapie miała około osiemdziesięciu metrów długości boku i około czterdziestu pięciu metrów wysokości. To, co widzisz dziś, to podstawa, bo reszta przepadła po podboju. Gdy idziesz kładką, pamiętaj, że to było centrum całego miasta i że w dużej części nadal znajduje się ono pod twoimi stopami. Katedra i Zócalo wyrosły na tym mieście, a wykopaliska stopniowo odsłaniają to, co zostało pod spodem."
+    },
+    "guion_largo": {
+      "hash": "9debfffc51e13022",
+      "texto": "Jesteś w strefie archeologicznej Templo Mayor. Zanim zaczniesz oglądać kamień po kamieniu, warto się zorientować, bo to, co widzisz, to tylko niewielka część czegoś znacznie większego.\n\nMexica nazywali ten budynek Huey Teocalli, co znaczy wielka świątynia. Stał w sercu świętego obszaru Tenochtitlan, miasta, które założyli na wyspie jeziora. Dla nich to miejsce było pępkiem wszechświata, punktem, w którym spotykały się niebo, ziemia i świat zmarłych. Nie była to tylko ważna świątynia. Była osią tego, jak rozumieli świat.\n\nKształt budowli również coś mówił. Była to piramida z dwiema schodami i dwoma sanktuariami na szczycie. Po stronie północnej znajdowało się sanktuarium Tláloca, boga deszczu, a po południowej Huitzilopochtli, boga wojny i Słońca. W ostatnim etapie piramida miała około osiemdziesięciu metrów długości boku i około czterdziestu pięciu metrów wysokości, a jej budowa przebiegała w siedmiu etapach. To liczby orientacyjne, bo zachowała się podstawa z kilku etapów.\n\nŚwięty obszar miał wokół siebie więcej budynków. Były tam świątynie, domy kapłanów, boiska do gry w piłkę i platformy. Wykopaliska odsłoniły pozostałości kilku z nich, takich jak Czerwone Świątynie i Dom Orłów, które odwiedzimy nieco później. Pewne jest natomiast, że strefa, którą dziś zwiedzasz, to tylko część tego zespołu, a reszta nadal leży pod ulicami i okolicznymi budynkami.\n\nPodbój zmienił wszystko. Po roku tysiąc pięćset dwudziestym pierwszym Hiszpanie zniszczyli świątynie i użyli ich kamieni do budowy nowego miasta. Na tym terenie wyrosły domy, Katedra i plac. Przez wieki nikt nie widział tych ruin, a o tym, że pod ziemią coś jest, przypominały tylko pojedyncze znaleziska. Jednym z nich było to z roku tysiąc siedemset dziewięćdziesiątego, kiedy na placu pojawiły się wielkie rzeźby Mexica, a opowiemy o nim w muzeum.\n\nRegularne wykopaliska przyszły znacznie później. W roku tysiąc dziewięćset trzynastym i czternastym archeolog Manuel Gamio odkrył fragment południowo-zachodniego narożnika budowli. Jednak wielka eksploracja zaczęła się w roku tysiąc dziewięćset siedemdziesiątym ósmym, kiedy odnaleziono wielki kamień Coyolxauhqui. To odkrycie dało początek Projektowi Templo Mayor, prowadzonemu od roku tysiąc dziewięćset siedemdziesiątego ósmego do tysiąc dziewięćset osiemdziesiątego drugiego, który pozwolił odzyskać ponad siedem tysięcy obiektów. Jeszcze o nim opowiemy.\n\nBy zwiedzić strefę, idź kładkami. Zaprojektowano je tak, byś mógł oglądać ruiny, nie depcząc ich. Zobaczysz, że warstwy wyglądają jak przekroje: każdy etap świątyni budowano na poprzednim, więc niektóre części zostały zasypane, a inne pozostawiono na widoku.\n\nSpójrz teraz w górę i na zachód. Widać stamtąd Katedrę, oddaloną o kilka metrów. Trudno znaleźć inne miejsce, w którym dwa tak różne światy są tak blisko siebie. Świątynia Mexica była centrum jednego miasta, a Katedra stała się centrum drugiego, wzniesionego na pierwszym.\n\nNa początek zwiedzania nie próbuj zrozumieć wszystkiego naraz. Najpierw przyjrzyj się ogólnemu kształtowi ruin. Potem, na kolejnych przystankach, zobaczymy, jak rosła świątynia, co znajdowało się w każdym sanktuarium i jakie ofiary tu zakopano."
+    },
+    "retos_observacion": {
+      "hash": "8158d388e0f90a9a",
+      "texto": [
+        "Znajdź podstawę piramidy i wskaż dwie schody",
+        "Poszukaj na kładce miejsca, z którego widać Katedrę",
+        "Przyjrzyj się przekrojom w ścianach, w których widać warstwy z różnych etapów"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e34d71cc7f6c3c90",
+      "texto": {
+        "Nazwa Mexica": "Huey Teocalli, wielka świątynia",
+        "Przybliżone wymiary piramidy": "około 80 m długości boku i około 45 m wysokości",
+        "Etapy budowy": "7",
+        "Sanktuaria": "Tláloc na północy, Huitzilopochtli na południu",
+        "Wykopaliska Manuela Gamio": "1913–1914",
+        "Projekt Templo Mayor": "1978–1982"
+      }
+    },
+    "faq_mito": {
+      "hash": "fdb2068e98620c36",
+      "texto": {
+        "pregunta": "Mit: Templo Mayor zachowało się prawie w całości.",
+        "respuesta": "Rzeczywistość: To, co widzisz, to podstawy z kilku etapów, bo Hiszpanie zniszczyli świątynie po 1521 roku."
+      }
+    }
+  }
+}

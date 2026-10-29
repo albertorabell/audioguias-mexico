@@ -1,0 +1,52 @@
+{
+  "id": "tmc_33_dos_ciudades_un_suelo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f38709486341dda6",
+      "texto": "Dwa miasta na jednym gruncie"
+    },
+    "frase_gancho": {
+      "hash": "19628bfd938714aa",
+      "texto": "Od roku tysiąc dziewięćset trzynastego do dwa tysiące piętnastego miasto nigdy nie przestało być odkrywane."
+    },
+    "puente_narrativo": {
+      "hash": "c796504652a996d4",
+      "texto": "Zatrzymaj się na chwilę na placu, z Katedrą przed sobą i ruinami w odległości kilku kroków."
+    },
+    "guion_corto": {
+      "hash": "0790e38670b6d1ff",
+      "texto": "Ta wizyta kończy się tam, gdzie się zaczęła: na jednym gruncie, na którym stoją dwa miasta. Na dole była Tenochtitlan ze swoją świątynią, a nad nią wzniesiono Katedrę i miasto z czasów wicekrólestwa. W roku tysiąc dziewięćset trzynastym i tysiąc dziewięćset czternastym Manuel Gamio odkrył część świątyni. W roku tysiąc dziewięćset siedemdziesiątym ósmym pojawiła się Coyolxauhqui. W roku dwa tysiące szóstym Tlaltecuhtli. W roku dwa tysiące piętnastym Huei Tzompantli. Każde odkrycie pokazało, że centrum miasta wciąż skrywa wiele i że nadal jest coś do odkrycia. To cztery momenty, które zmieniły wiedzę o tym miejscu. Katedrę z kolei trzeba było korygować, żeby nie zapadała się dalej, a obie historie dzielą ten sam grunt."
+    },
+    "guion_largo": {
+      "hash": "5116f5df6474d958",
+      "texto": "Za tobą Katedra i świątynia, a obie historie zaprowadziły cię na ten sam grunt. Ten ostatni przystanek służy temu, by spokojnie spojrzeć na całość.\n\nZacznijmy od początku. Przed podbojem Mexica wznieśli tutaj swoją główną świątynię, Huey Teocalli. Była centrum ich świata. Po roku tysiąc pięćset dwudziestym pierwszym Hiszpanie zburzyli świątynie i użyli ich kamieni do budowy nowego miasta. Jedną z tych budowli była Katedra, wznoszona przez stulecia, od czasów wicekrólestwa. Jej sklepienia zamknięto między rokiem tysiąc pięćset osiemdziesiątym pierwszym a tysiąc sześćset sześćdziesiątym siódmym.\n\nMinęły stulecia, w których świątynia leżała pod ziemią. Pierwsze ślady tego, co kryje się pod spodem, pojawiły się w roku tysiąc siedemset dziewięćdziesiątym, wraz z rzeźbami Mexica znalezionymi na placu. Potem, między rokiem tysiąc dziewięćset trzynastym a tysiąc dziewięćset czternastym, archeolog Manuel Gamio odkrył część świątyni. To był początek czegoś, co jeszcze się nie skończyło i co zmieniło sposób patrzenia na centrum miasta.\n\nW roku tysiąc dziewięćset siedemdziesiątym ósmym pracownicy przedsiębiorstwa energetycznego Światło i Siła znaleźli monolit Coyolxauhqui i rozpoczął się Projekt Templo Mayor. W roku dwa tysiące szóstym pojawiła się Tlaltecuhtli, która dziś wita zwiedzających w westybulu. W roku dwa tysiące piętnastym Program Archeologii Miejskiej odnalazł Huei Tzompantli przy ulicy Guatemala. Każde odkrycie zmieniało dotychczasową wiedzę. To, co pojawi się następnie, będzie ją zmieniać dalej, bo eksploracja się nie skończyła.\n\nTymczasem Katedra również ma swoją historię z gruntem. Miękkie podłoże pod nią zapada się nierównomiernie od czasu jej budowy. Od roku tysiąc dziewięćset dziewięćdziesiątego trzeciego korygowano to techniką zwaną kontrolowanym podkopywaniem, która polega na stopniowym usuwaniu gliny. To kolejny sposób współistnienia z tym, co leży pod miastem. Zapadanie się budowli i odkrycia to dwie strony tego samego gruntu.\n\nJest pewna myśl, która łączy to wszystko. Mexica budowali swoją świątynię warstwami, każdą na poprzedniej. Dzisiejsze miasto zrobiło to samo: warstwa kolonialna na warstwie Mexica, a nowoczesna na kolonialnej. Ty idziesz po ostatniej. Każda warstwa zostawiła ślady, a archeolodzy czytają je cierpliwie, jeden po drugim.\n\nJeśli masz jeszcze czas, usiądź na kilka minut na placu. Spójrz na Katedrę, położoną na północ od placu, i pamiętaj, że kilka kroków na wschód leżą ruiny Templo Mayor. To dwa sposoby rozumienia świata i żaden nie zatarł całkiem drugiego. Jeden stoi nadal, drugi jest odsłonięty poniżej poziomu ulicy.\n\nDziękuję, że przeszedłeś przez to miejsce. Jeśli wrócisz innego dnia, zauważysz rzeczy, które wcześniej ci umknęły. Zawsze jest coś nowego do zobaczenia w gruncie tego miasta. A jeśli będziesz przechodzić obok Katedry, pamiętaj, że sam budynek wciąż się porusza, nadzorowany za pomocą przyrządów."
+    },
+    "retos_observacion": {
+      "hash": "8be81b594ed21583",
+      "texto": [
+        "Spójrz na Katedrę z placu i zlokalizuj, w którą stronę leżą ruiny Templo Mayor, na wschodzie",
+        "Poszukaj różnicy poziomów między ulicą a ruinami",
+        "Zapamiętaj 4 kluczowe odkrycia: 1913, 1978, 2006 i 2015"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8f8fbe0c19b5a9f3",
+      "texto": {
+        "Odkrycia": "1790, rzeźby na placu",
+        "Katedra": "kontrolowane podkopywanie od 1993"
+      }
+    },
+    "faq_mito": {
+      "hash": "aa581f112f47b823",
+      "texto": {
+        "pregunta": "Mit: Odkryto już wszystko, co leżało pod centrum.",
+        "respuesta": "Rzeczywistość: Odkrycia z lat 1978, 2006 i 2015 pokazują, że eksploracja trwa; nie wiadomo, co pojawi się następnie."
+      }
+    }
+  }
+}

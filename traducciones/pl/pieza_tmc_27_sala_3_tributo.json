@@ -1,0 +1,54 @@
+{
+  "id": "tmc_27_sala_3_tributo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "de7c0ebcce50c657",
+      "texto": "Sala trzecia: trybut i handel"
+    },
+    "frase_gancho": {
+      "hash": "21eacfa29d5a2494",
+      "texto": "Imperium, które pobierało trybut, i kupcy, którzy podróżowali daleko."
+    },
+    "puente_narrativo": {
+      "hash": "ef06fdfe87d006b2",
+      "texto": "Wejdź do Sali czwartej, poświęconej Huitzilopochtli, gdzie znajdują się eksponaty z południowej strony świątyni."
+    },
+    "guion_corto": {
+      "hash": "0fa082c558c08b1f",
+      "texto": "Sala trzecia wyjaśnia, jak Tenochtitlan się wzbogaciło. Panowanie Mexica nad innymi ludami trwało między rokiem tysiąc czterysta trzydziestym a rokiem tysiąc pięćset dziewiętnastym, a od tych ludów do miasta napływał trybut. Sala opowiada też o pochtecas, czyli kupcach, którzy podróżowali do odległych regionów. Wśród przedmiotów znajduje się maska olmecka, znacznie starsza niż Mexica, którą oni zachowali jako cenny eksponat, co pokazuje ich zainteresowanie przeszłością. To sala, która pomaga zrozumieć, dlaczego w Templo Mayor pojawiają się przedmioty z tak wielu różnych miejsc. Pokazuje też, dlaczego miasto potrzebowało szerokich szlaków wymiany."
+    },
+    "guion_largo": {
+      "hash": "00f73c9cdc4a2efb",
+      "texto": "W Sali trzeciej spojrzenie przenosi się ze świątyni na imperium. Jej tematem są trybut i handel, czyli to, jak bogactwo trafiało do Tenochtitlan.\n\nPanowanie Mexica nad innymi ludami trwało między rokiem tysiąc czterysta trzydziestym a rokiem tysiąc pięćset dziewiętnastym. W ciągu tych prawie dziewięciu dekad miasto stało się centrum bardzo rozległego terytorium. Od podbitych ludów otrzymywano trybut, czyli dobra, które trzeba było regularnie dostarczać do Tenochtitlan.\n\nTo pomaga zrozumieć Templo Mayor. Za każdą ofiarą stała sieć dróg, targów i płacących trybut, która czyniła ją możliwą. Kiedy zobaczysz jakiś eksponat, pomyśl także o drodze, którą przebył, zanim tu trafił. Tak wielka budowla, z tak różnorodnymi ofiarami, mogła się utrzymać tylko dzięki zasobom, które przychodziły z daleka. Ta sala daje kontekst, by zastanowić się, skąd mogły pochodzić przedmioty, które widziałeś w poprzedniej sali.\n\nSala opowiada też o pochtecas. Byli to kupcy Mexica, którzy podróżowali do odległych regionów, by wymieniać i zdobywać towary. Pochtecas odgrywali ważną rolę, bo nie tylko wozili towary, lecz także przynosili wieści o miejscach, przez które przechodzili. Ta wiedza była cenna dla miasta, które miało interesy na tak wielkim terytorium. Kupcy byli też oczami miasta z dala od niego. Ich praca łączyła handel z informacją i władzą.\n\nWśród przedmiotów w sali znajduje się maska olmecka. Olmekowie żyli wiele wieków przed Mexica, w regionie Zatoki Meksykańskiej. Fakt, że olmecki eksponat pojawia się w Templo Mayor, jest bardzo interesujący. Oznacza, że Mexica zachowywali lub zdobywali przedmioty z kultur znacznie starszych i że nadawali im wartość.\n\nPomyśl o tym, co to mówi o nich jako o społeczeństwie. Nie postrzegali siebie jako ludu bez przeszłości. Zachowywali, a także zakopywali, bardzo stare przedmioty. To mówi nam o tym, jak rozumieli czas i dziedzictwo innych ludów.\n\nTa sala zmienia również obraz, jaki moglibyśmy mieć o Templo Mayor jako o miejscu wyłącznie rytualnym. Było ono także ośrodkiem politycznym i gospodarczym, w którym pokazywano potęgę miasta wobec podbitych ludów.\n\nJeśli spokojnie przyjrzysz się gablotom, zastanów się, skąd mógł pochodzić każdy przedmiot. Zwróć uwagę na różnorodność materiałów i form oraz na podpisy, które im towarzyszą. Przedmioty pochodzą z różnych miejsc i odzwierciedlają odmienne style. Ta mieszanka jest wskazówką dotyczącą sieci wymiany, które utrzymywały życie stolicy. Żadne miasto tej skali nie mogło żyć wyłącznie z tego, co wytwarzała jego wyspa.\n\nGdy skończysz zwiedzać tę salę, spokojnie przejdź do następnej. Czeka tam na ciebie najważniejszy bóg miasta: Huitzilopochtli."
+    },
+    "retos_observacion": {
+      "hash": "5994c2bff30b947a",
+      "texto": [
+        "Poszukaj maski olmeckiej i pomyśl, ile wieków dzieli Olmeków od Mexica",
+        "Przyjrzyj się różnorodności materiałów w gablotach",
+        "Rozpoznaj materiał dwóch przedmiotów i zastanów się, z jakiego regionu mogły pochodzić"
+      ]
+    },
+    "especificaciones": {
+      "hash": "34a01ad3b1658235",
+      "texto": {
+        "Sala": "3, Trybut i handel",
+        "Panowanie Mexica": "od 1430 do 1519",
+        "Kupcy": "pochtecas",
+        "Wyróżniony eksponat": "maska olmecka"
+      }
+    },
+    "faq_mito": {
+      "hash": "b13891c69822b14f",
+      "texto": {
+        "pregunta": "Mit: Templo Mayor było wyłącznie ośrodkiem religijnym.",
+        "respuesta": "Rzeczywistość: Było także ośrodkiem politycznym i gospodarczym, utrzymywanym dzięki trybutowi podbitych ludów oraz handlowi."
+      }
+    }
+  }
+}

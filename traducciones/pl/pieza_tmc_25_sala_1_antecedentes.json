@@ -1,0 +1,55 @@
+{
+  "id": "tmc_25_sala_1_antecedentes",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d65b72e47e60637d",
+      "texto": "Sala pierwsza: tło historyczne i odkrycia od roku tysiąc siedemset dziewięćdziesiątego"
+    },
+    "frase_gancho": {
+      "hash": "2f29ce8d060a1843",
+      "texto": "Dwa stulecia odkryć, od znaleziska na placu po nowoczesne wykopaliska."
+    },
+    "puente_narrativo": {
+      "hash": "c24757a6737cba82",
+      "texto": "Idź dalej do Sali drugiej, gdzie wystawione są dary ofiarne z sanktuarium Huitzilopochtli."
+    },
+    "guion_corto": {
+      "hash": "e0d388d0d0804442",
+      "texto": "Sala pierwsza opowiada, jak krok po kroku odkrywano Templo Mayor. Zaczyna się od znalezisk z lat od tysiąc siedemset dziewięćdziesiątego, kiedy na placu pojawiły się rzeźby Mexików, i sięga aż do wykopalisk z wieku dwudziestego. Wyjaśnia też, czym są dary ofiarne. Odnaleziono ich ponad sto, a dzielą się na trzy rodzaje: wypełnieniowe, w cyście i w skrzyni. Każdy rodzaj wiąże się ze sposobem składania przedmiotów. Sala wspomina ponadto o pracy Programu Archeologii Miejskiej w roku tysiąc dziewięćset dziewięćdziesiątym pierwszym. To dobry punkt, by zrozumieć, skąd pochodzi to, co zobaczysz później, i jak doszło do jego poznania."
+    },
+    "guion_largo": {
+      "hash": "927f9242f15b7373",
+      "texto": "Sala pierwsza nosi nazwę Tło historyczne. To sala wprowadzająca, która ma wyjaśnić, jak i dlaczego znamy dziś Templo Mayor. Wiele osób przechodzi przez nią szybko, by dotrzeć do wielkich eksponatów, ale warto się tu zatrzymać, bo daje klucze do czytania całej reszty.\n\nZaczyna się od znalezisk, do których doszło od roku tysiąc siedemset dziewięćdziesiątego. W tym roku na placu pojawiły się wielkie rzeźby Mexików. Dalej, w ostatniej sali muzeum, zobaczysz kolonialny dar ofiarny z tego samego roku.\n\nStąd sala prowadzi do wykopalisk z wieku dwudziestego. Manuel Gamio pracował w tym miejscu między rokiem tysiąc dziewięćset trzynastym a tysiąc dziewięćset czternastym. Później, w roku tysiąc dziewięćset siedemdziesiątym ósmym, odkrycie Coyolxauhqui dało początek Projektowi Templo Mayor. To epizody, które widziałeś w strefie archeologicznej, teraz opowiedziane za pomocą przedmiotów i objaśnień. Między jednym odkryciem a drugim minęło dużo czasu, a ten dystans pomaga zrozumieć, dlaczego Templo Mayor znamy ze szczegółami dopiero od kilkudziesięciu lat.\n\nInnym głównym tematem sali są dary ofiarne. Dar ofiarny to zbiór przedmiotów, który zakopywano w ramach rytuału. W Templo Mayor odnaleziono ich ponad sto. Dzielą się na trzy rodzaje: wypełnieniowe, w cyście i w skrzyni, zależnie od sposobu ich składania. Nie martw się, że nie zapamiętasz tych nazw. Ważne jest to, że każdy dar miał swoje miejsce i znaczenie, a archeolodzy rejestrowali je jeden po drugim.\n\nSala wspomina też o pracy Programu Archeologii Miejskiej, który w roku tysiąc dziewięćset dziewięćdziesiątym pierwszym prowadził badania w centrum miasta. Ten program istnieje dlatego, że w żywym mieście każda budowa może natrafić na dawne pozostałości i ktoś musi je sprawdzić na czas. To ten sam program, który wiele lat później zbadał Huei Tzompantli, o którym już mówiliśmy.\n\nTa sala pomaga zmienić sposób patrzenia. Przedmioty, które zobaczysz w kolejnych salach, pochodzą z uporządkowanych wykopalisk, z zapisem tego, gdzie i w jaki sposób się znajdowały. Ta informacja jest częścią ich wartości, bo przedmiot bez kontekstu mówi znacznie mniej. Dlatego archeolodzy notują każdy szczegół miejsca, w którym pojawia się eksponat.\n\nJeśli zwiedzasz bez pośpiechu, zwróć uwagę na plany lub fotografie, które są w sali. Jeśli pokazują teren przed wykopaliskami, porównaj je z tym, co właśnie obejrzałeś. To sposób, by pamiętać, że dzisiejsze miasto wciąż żyje na szczycie dawnego.\n\nPo wyjściu z tej sali będziesz mieć jasne wyobrażenie o tym, jak odkryto świątynię, jak długo miasto dochodziło do tego, co miało pod sobą, i dlaczego każdy dar ofiarny ma znaczenie. Dzięki temu będziesz gotowy, by wejść na dobre w świat rytuału. Następna sala dotyczy rytuału i ofiary, a zaczyna się od darów ofiarnych z sanktuarium Huitzilopochtli."
+    },
+    "retos_observacion": {
+      "hash": "8931829a12769bed",
+      "texto": [
+        "Zwróć uwagę na plany lub fotografie wykopalisk, jeśli są, i porównaj je z terenem, który właśnie obejrzałeś",
+        "Rozpoznaj trzy rodzaje darów ofiarnych: wypełnieniowe, w cyście i w skrzyni",
+        "Zwróć uwagę na datę 1790 i pomyśl, ile czasu minęło do nowoczesnych wykopalisk"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d9d136ac22d0d5bd",
+      "texto": {
+        "Sala": "1, Tło historyczne",
+        "Odkrycia od": "1790",
+        "Odnalezione dary ofiarne": "ponad 100",
+        "Rodzaje darów ofiarnych": "wypełnieniowe, w cyście i w skrzyni",
+        "Program Archeologii Miejskiej": "1991"
+      }
+    },
+    "faq_mito": {
+      "hash": "b5f7b6828d1d5852",
+      "texto": {
+        "pregunta": "Mit: Wszystkie dary ofiarne z Templo Mayor są takie same.",
+        "respuesta": "Rzeczywistość: Odnaleziono ich ponad 100 i dzielą się na 3 rodzaje: wypełnieniowe, w cyście i w skrzyni."
+      }
+    }
+  }
+}

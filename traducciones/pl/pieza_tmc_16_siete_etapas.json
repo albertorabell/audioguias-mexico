@@ -1,0 +1,56 @@
+{
+  "id": "tmc_16_siete_etapas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d6872db1a6cf04c8",
+      "texto": "Siedem etapów: świątynia, która rosła na samej sobie"
+    },
+    "frase_gancho": {
+      "hash": "dea1a931c72f0f9f",
+      "texto": "Za każdym razem, gdy władzę obejmował nowy tlatoani, świątynia stawała się większa."
+    },
+    "puente_narrativo": {
+      "hash": "3c1ad9813c90dd00",
+      "texto": "Idź kładką w stronę południowej strony piramidy, gdzie widać mury najstarszych etapów."
+    },
+    "guion_corto": {
+      "hash": "e5a8163a3c4835eb",
+      "texto": "Templo Mayor nie powstał za jednym razem. Rozbudowywano go etapami, a każdy z nich przykrywał poprzedni jak warstwy cebuli. Było siedem etapów, od pierwszych lat Tenochtitlan aż do podboju. Najstarszy, jaki widać, to Etap II, z około tysiąc trzysta dziewięćdziesiątego roku. Potem przyszły rozbudowy za czasów Itzcóatla, Moctezumy Ilhuicamiliny, Axayácatla i Ahuízotla. Każdy władca chciał mieć świątynię większą niż jego poprzednik, dlatego piramida rosła wraz z potęgą Tenochtitlan. Dziś etapy widać jak warstwy w przekrojach wykopalisk, a w niektórych zachowały się ofiary zakopane w środku."
+    },
+    "guion_largo": {
+      "hash": "74f7961a04327650",
+      "texto": "Jeśli przyjrzysz się uważnie piramidzie, zauważysz, że to nie jest jedna budowla. To zespół warstw, jedna wewnątrz drugiej, a zrozumienie tego jest kluczem do całego stanowiska.\n\nMexica mieli zwyczaj rozbudowywać swoje świątynie co jakiś czas. Zamiast burzyć poprzedni budynek, przykrywali go większym, tak że stary zostawał w środku, jak w matrioszce. Wyróżnia się siedem etapów, od pierwszych świątyń Tenochtitlan aż do ostatnich lat przed podbojem. Archeolodzy numerują je cyframi rzymskimi.\n\nDaty są przybliżone, zwłaszcza te najstarsze. Etap II umieszcza się około tysiąc trzysta dziewięćdziesiątego roku. Etap III przypisuje się Itzcóatlowi, który rządził od tysiąc czterysta dwudziestego szóstego do tysiąc czterysta czterdziestego roku. Etap IV wiąże się z Moctezumą Ilhuicamiliną, a jego rozbudowę, IV b, z Axayácatlem, od tysiąc czterysta sześćdziesiątego dziewiątego do tysiąc czterysta osiemdziesiątego pierwszego roku. Etap VI odpowiada Ahuízotlowi, między tysiąc czterysta osiemdziesiątym szóstym a tysiąc pięćset drugim rokiem. Etap VII, ostatni, trwa aż do podboju, w tysiąc pięćset dwudziestym pierwszym roku.\n\nPowód tego zwyczaju ma związek z władzą polityczną. Kiedy tlatoani, czyli władca, wstępował na tron, jednym ze sposobów okazania siły była rozbudowa głównej świątyni. Każdy etap był większy i bogatszy od poprzedniego. Jednocześnie świątynia pełniła rolę kamiennego archiwum, bo każda warstwa przechowywała to, co zostało w niej zakopane.\n\nKażdej rozbudowie towarzyszyły ofiary. Zanim przykryto świątynię, w nowej konstrukcji zakopywano przedmioty. Dlatego archeolodzy znaleźli w tej strefie ponad sto ofiar, według muzeum. Dzielą się na trzy typy: wypełnieniowe, cystowe i skrzynkowe. Każda warstwa przechowywała więc zbiór przedmiotów, które zostawiono tam celowo.\n\nNajpóźniejsze etapy, VI i VII, uległy największemu zniszczeniu. Hiszpanie użyli tych kamieni do budowy nowego miasta, dlatego z najwyższych poziomów prawie nic nie zostało. Za to najstarsze etapy zachowały się lepiej, ponieważ zostały zakopane, chronione przez nowe warstwy.\n\nDlatego dziś można zobaczyć na jednej ścianie mur jednego etapu zasłonięty murem innego. Jeśli znajdziesz fragment, w którym odróżniają się dwa rodzaje kamienia albo dwa poziomy schodów, patrzysz na granicę między dwoma etapami.\n\nPomyśl, co to znaczy. Dla Mexica świątynia była żywym budynkiem, który rósł wraz z miastem i z każdym nowym władcą. Dla archeologów ten zwyczaj był szczęściem, bo zachował dawne budowle wewnątrz nowych.\n\nTeraz przyjrzymy się dwóm sanktuariom, które wieńczyły piramidę, ponieważ ich różnica wiele wyjaśnia z myśli Mexica."
+    },
+    "retos_observacion": {
+      "hash": "56ea466d3f3f00c3",
+      "texto": [
+        "Poszukaj przekroju, w którym widać dwie warstwy budowy",
+        "Sprawdź, czy w tym samym murze widzisz dwa rodzaje kamienia albo stopnie na różnych poziomach",
+        "Policz etapy, które uda ci się rozróżnić z kładki"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6f713e2069019443",
+      "texto": {
+        "Etapy budowy": "7",
+        "Etap II": "około 1390",
+        "Etap III": "Itzcóatl, 1426 do 1440",
+        "Etap IV b": "Axayácatl, 1469 do 1481",
+        "Etap VI": "Ahuízotl, 1486 do 1502",
+        "Etap VII": "do 1521"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e9db4aae7399bb3",
+      "texto": {
+        "pregunta": "Mit: Świątynia została zbudowana za jednym razem.",
+        "respuesta": "Rzeczywistość: Rozbudowano ją siedem razy; każdy władca przykrywał poprzednią świątynię większą."
+      }
+    }
+  }
+}

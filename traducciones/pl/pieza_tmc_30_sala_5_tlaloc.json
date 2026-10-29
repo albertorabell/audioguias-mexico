@@ -1,0 +1,54 @@
+{
+  "id": "tmc_30_sala_5_tlaloc",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a1f526c4afb496d8",
+      "texto": "Sala pięć: Tláloc, niebieski garnek i ofiara numer czterdzieści jeden"
+    },
+    "frase_gancho": {
+      "hash": "97b0c32e1ceb4642",
+      "texto": "Niebieski garnek, ponumerowana ofiara i pomocnicy deszczu."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "Kiedy będziesz gotowy, przejdź do kolejnego przystanku swojej trasy."
+    },
+    "guion_corto": {
+      "hash": "77e42eda85862196",
+      "texto": "Sala pięć odpowiada północnej stronie świątyni, stronie Tláloca. Zgromadzono w niej garnek pomalowany na niebiesko, ofiarę numer czterdzieści jeden oraz przedstawienia tlaloque, pomocników deszczu. Ta strona świątyni wiązała się z wodą i płodnością i dopełniała stronę południową, stronę wojny. Sala skłania do zastanowienia się, co deszcz znaczył dla miasta na jeziorze i dlaczego Mexikowie umieścili go w samym środku swojej głównej świątyni. To sala spokojniejsza od poprzedniej i warto zwiedzać ją bez pośpiechu, oglądając każdą gablotę osobno."
+    },
+    "guion_largo": {
+      "hash": "d108448206a627d5",
+      "texto": "Przechodzisz teraz na drugą stronę świątyni. Sala pięć jest poświęcona Tláloca, bogowi deszczu, oraz temu, co odnaleziono w sanktuarium po stronie północnej.\n\nPrzypomnij sobie, co widziałeś w strefie archeologicznej, na przystanku przy dwóch sanktuariach. Piramida miała dwa sanktuaria: na południu Huitzilopochtli, a na północy Tláloca. Każde z nich było świętą górą i każde domagało się innych ofiar. Ta sala jest lustrem poprzedniej: zamiast wojny i Słońca tematem są woda, płodność i pożywienie.\n\nJednym z głównych obiektów jest garnek pomalowany na niebiesko. To przedmiot ceremonialny. Kolor niebieski zwykle kojarzy się z wodą i jest jedną z cech, które pomagają rozpoznać tego boga. Gdy wejdziesz do sali, zwróć uwagę, jak ten kolor zmienia atmosferę w porównaniu z poprzednią.\n\nW sali pokazano też ofiarę numer czterdzieści jeden. Archeolodzy numerują ofiary z Templo Mayor, a ta jest jedną z tych, które odnaleziono po stronie Tláloca. W sumie znaleziono ponad sto ofiar, jak widziałeś w sali pierwszej. Każda ma swój własny numer i własną listę przedmiotów, dzięki czemu można badać je jedna po drugiej. Ten porządek jest częścią pracy archeologów, którzy zapisują, gdzie znajdowała się każda rzecz, zanim ją przesuną.\n\nSą tu także przedstawienia tlaloque. Według tradycji byli to pomocnicy Tláloca, odpowiedzialni za deszcz. Wyobrażano ich sobie jako małe istoty, które wylewały wodę z naczyń. W sali możesz poszukać ich figur i przyjrzeć się, jak je ukazano. Tabliczki w sali powiedzą ci więcej o każdej z nich i warto przeczytać je spokojnie.\n\nZastanów się, dlaczego Tláloc znajdował się w centrum miasta. Tenochtitlan leżało na wyspie, otoczone jeziorami, i zależało od deszczu oraz poziomu wody. Susza albo powódź mogły być katastrofalne. Umieszczenie boga deszczu w głównej świątyni było sposobem uznania tej zależności.\n\nWskazówka, by patrzeć uważniej: porównaj tę salę z poprzednią. Był tam Wojownik Orzeł, wąż ognia oraz figury bogów ognia i śmierci. Tutaj uwaga kieruje się ku wodzie i ku ziemi, która rodzi plony. Obie sale razem opowiadają o dwoistości świątyni.\n\nZanim wyjdziesz, wróć na chwilę do niebieskiego garnka i porównaj go z tym, co widziałeś po stronie Huitzilopochtli. To porównanie pomaga zobaczyć obie strony świątyni. Gdy wyjdziesz, przejdź do kolejnego przystanku swojej trasy."
+    },
+    "retos_observacion": {
+      "hash": "e4f4199af694339a",
+      "texto": [
+        "Znajdź garnek pomalowany na niebiesko",
+        "Odszukaj ofiarę oznaczoną numerem 41",
+        "Odnajdź figury tlaloque, pomocników deszczu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e315b2c96057d85d",
+      "texto": {
+        "Sala": "5, Tláloc",
+        "Strona świątyni": "północna",
+        "Obiekty": "niebieski garnek, ofiara 41, tlaloque",
+        "Łączna liczba ofiar w Templo Mayor": "ponad 100"
+      }
+    },
+    "faq_mito": {
+      "hash": "9489e1408c53c9e4",
+      "texto": {
+        "pregunta": "Mit: Tláloc był bogiem drugorzędnym w Templo Mayor.",
+        "respuesta": "Rzeczywistość: Dzielił szczyt piramidy z Huitzilopochtli; każdy z nich miał własne sanktuarium."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "tmc_07_nave_central",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8b135bfca9215da1",
+      "texto": "Nawa główna i jej pięćdziesiąt jeden sklepień"
+    },
+    "frase_gancho": {
+      "hash": "a630e145bfa4429b",
+      "texto": "Pięć naw, czterdzieści kolumn i podłoga, która nie jest całkiem płaska."
+    },
+    "puente_narrativo": {
+      "hash": "6d0aa78644adfd61",
+      "texto": "Idź nawą główną do środka świątyni. Gdy będziesz gotowy, przejdź do kolejnego przystanku swojej trasy."
+    },
+    "guion_corto": {
+      "hash": "46e1938e5efca4ea",
+      "texto": "Pięć naw, pięćdziesiąt jeden sklepień, siedemdziesiąt cztery łuki i czterdzieści kolumn. Takie są rachunki tego wnętrza. Sklepienia zamykano stopniowo od roku tysiąc pięćset osiemdziesiątego pierwszego, a ostatnie w roku tysiąc sześćset sześćdziesiątym siódmym. Dlatego przestrzeń ma wyraźne proporcje i surowy charakter, zanim jeszcze ołtarze zalały się złotem. Nawa główna jest najszersza i najwyższa. Nią idziesz w stronę chóru, organów i ołtarza głównego. Idź powoli i zwróć uwagę na podłogę, bo nie jest całkiem płaska. Grunt pod Katedrą przesuwa się od wieków, a budowla to pokazuje."
+    },
+    "guion_largo": {
+      "hash": "edc554e076b03db1",
+      "texto": "Właśnie weszłaś do jednego z największych kościołów Ameryki. Zanim zaczniesz szukać ołtarzy i kaplic, warto zrozumieć, jak zbudowana jest ta przestrzeń.\n\nKatedra ma pięć naw i transept, czyli poprzeczną przestrzeń, która przecina kościół. Wnętrze liczy pięćdziesiąt jeden sklepień, siedemdziesiąt cztery łuki, czterdzieści kolumn i około stu pięćdziesięciu okien. To okrągłe liczby, które pomagają wyobrazić sobie skalę. Gołym okiem widać, że nawa główna jest najszersza i najwyższa, a nawy boczne towarzyszą jej jak niższe korytarze.\n\nTen układ ma swoją logikę. Nawa główna prowadzi od wejścia do ołtarza, a po drodze spotykasz elementy, które porządkują świątynię. Najpierw pojawia się chór z drewnianymi stallami i dwoma wielkimi organami. Potem Ołtarz Przebaczenia i transept. W głębi, w prezbiterium, znajduje się Kaplica Główna z Ołtarzem Królów. Nawy boczne prowadzą do kaplic, z których każda jest poświęcona jakiemuś świętemu i ufundowana przez zakon, cech lub bractwo.\n\nBudowa tej przestrzeni trwała dziesiątki lat. Sklepienia zamykano stopniowo od roku tysiąc pięćset osiemdziesiątego pierwszego, a ostatnie zamknięto dwudziestego drugiego czerwca tysiąc sześćset sześćdziesiątego siódmego roku. Ten rok uważa się za koniec prac nad wnętrzem. Wtedy właśnie świątynię poświęcono. Efekt widać w surowości linii. Pierwotny projekt ma charakter renesansowy, a jego ład kontrastuje z barokowymi ołtarzami, które dodano później.\n\nTeraz spójrz w górę i przesuń wzrokiem po sklepieniach. Pamiętaj, że świątynia ma około stu pięćdziesięciu okien i od nich zależy światło, które pada na nawę.\n\nPotem spuść wzrok na podłogę i idź ostrożnie. Posadzka Katedry nie jest idealnie pozioma. Ten kościół stoi na miękkim gruncie dawnego jeziora i od czasu budowy osiada nierównomiernie. W pewnym miejscu budowli różnica poziomów sięgała ponad dwóch metrów, a późniejsza interwencja ją zmniejszyła. Dalej, na innym przystanku, zobaczysz, jak go wyprostowano. Na razie wystarczy zauważyć, że podłoga jest czymś w rodzaju mapy gruntu.\n\nJeszcze jedna uwaga. Mimo rozmiarów przestrzeń nie sprawia wrażenia pustej. Wypełnia ją obecność ołtarzy, krat, ławek wiernych i kaplic bocznych, a wszystko zachowuje porządek. Jeśli trafisz na mszę, atmosfera zmienia się całkowicie. Słychać organy albo śpiew, a przestrzeń napełnia się sensem, którego nie dostrzeżesz, gdy panuje w niej cisza. Uszanuj ten rytuał: mów cicho, nie używaj lampy błyskowej i nie przeszkadzaj tym, którzy się modlą.\n\nGdy będziesz gotowy, idź nawą w stronę środka świątyni."
+    },
+    "retos_observacion": {
+      "hash": "46dae89079775f10",
+      "texto": [
+        "Policz, ile kolumn rozróżniasz w jednym rzędzie nawy głównej",
+        "Spójrz w górę i podążaj za linią sklepienia aż do miejsca, w którym się zamyka",
+        "Idź powoli i poszukaj fragmentu posadzki, w którym widać pochylenie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2f950365bb6f4480",
+      "texto": {
+        "Nawy": "5, plus transept",
+        "Sklepienia": "51",
+        "Łuki": "74",
+        "Kolumny": "40",
+        "Okna": "około 150",
+        "Ostatnie zamknięte sklepienie": "22 czerwca 1667",
+        "Lokalizacja": "wnętrze Katedry Metropolitalnej"
+      }
+    },
+    "faq_mito": {
+      "hash": "97510d9485f40686",
+      "texto": {
+        "pregunta": "Mit: Wnętrze Katedry zawsze było tak złocone jak dziś.",
+        "respuesta": "Rzeczywistość: Pierwotny projekt jest surowy, o wpływach renesansowych, a złocone barokowe ołtarze dodano w XVII i XVIII wieku."
+      }
+    }
+  }
+}

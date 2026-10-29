@@ -1,0 +1,56 @@
+{
+  "id": "tmc_13_sacristia_cripta",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1fa89b4b488419e3",
+      "texto": "Obszary zamknięte dla zwiedzających: zakrystia i Krypta Arcybiskupów"
+    },
+    "frase_gancho": {
+      "hash": "4ef71167f0c9b52a",
+      "texto": "Siedemdziesiąt pięć krypt, czterdzieści jeden zajętych i zakrystia z dziełami dwóch wielkich malarzy z czasów wicekrólestwa."
+    },
+    "puente_narrativo": {
+      "hash": "775b72d14d19c740",
+      "texto": "Wróć nawą w stronę wyjścia. Zanim wyjdziesz, został jeszcze jeden temat: grunt, który podtrzymuje całą Katedrę."
+    },
+    "guion_corto": {
+      "hash": "4d604042952ee7ca",
+      "texto": "Obok prezbiterium Katedry znajdują się dwie przestrzenie, które nie zawsze można zwiedzać. Pierwsza to Zakrystia Główna, w której przechowuje się przedmioty kultu i w której pod koniec siedemnastego wieku pracowali malarze Cristóbal de Villalpando i Juan Correa. Druga to Krypta Arcybiskupów, pod prezbiterium, z siedemdziesięcioma pięcioma kryptami, z których czterdzieści jeden jest zajętych. Spoczywają tam brat Juan de Zumárraga, pierwszy biskup Meksyku, oraz kardynał Ernesto Corripio Ahumada, zmarły w dwa tysiące ósmym roku. Wstęp do tych miejsc jest ograniczony i odbywa się w ramach zwiedzania z przewodnikiem. Zapytaj w punkcie informacyjnym Katedry."
+    },
+    "guion_largo": {
+      "hash": "4de87852595aafb7",
+      "texto": "Ten przystanek jest dla tych, którzy chcą zobaczyć Katedrę poza złoconymi ołtarzami. Obok prezbiterium znajdują się zarezerwowane przestrzenie, które nie zawsze są otwarte. Jeśli dziś zastaniesz je zamknięte, posłuchaj tego przystanku z nawy i pomyśl o tym, co kryje się za tymi drzwiami.\n\nZacznijmy od Zakrystii Głównej. Zakrystia to miejsce, w którym przechowuje się przedmioty kultu i w którym duchowni przygotowują się do ceremonii. W zakrystii tej Katedry znajdują się dzieła dwóch z najważniejszych malarzy Nowej Hiszpanii, Cristóbala de Villalpando i Juana Correi, z końca siedemnastego wieku. Obok niej mieści się Sala Capitular, miejsce, w którym zbierała się kapituła, czyli grono kanoników kierujące Katedrą. Styl tych sal jest herreriański, to surowy styl hiszpański, który kontrastuje z barokiem ołtarzy.\n\nSkarbiec Katedry obejmuje również tkaniny i paramenty liturgiczne, a także obrazy, choć nie zawsze są wystawiane.\n\nZejdźmy teraz do krypty. Krypta Arcybiskupów znajduje się pod prezbiterium, w północnej części świątyni. Jej budowa rozpoczęła się między tysiąc dziewięćset trzydziestym ósmym a tysiąc dziewięćset trzydziestym dziewiątym rokiem, a zakończyła w roku tysiąc dziewięćset czterdziestym drugim. To znaczy, że jest o wiele młodsza niż sam budynek.\n\nSpoczywają tam biskupi i arcybiskupi z dziejów archidiecezji. Najstarszy z nich to brat Juan de Zumárraga, pierwszy biskup Meksyku, który żył od tysiąc czterysta sześćdziesiątego ósmego do tysiąc pięćset czterdziestego ósmego roku. Ma upamiętnienie, które łączy go z historią Matki Bożej z Guadalupe. Ostatnim pochowanym jest kardynał Ernesto Corripio Ahumada, który żył od tysiąc dziewięćset dwunastego do dwa tysiące ósmego roku. Są tu także szczątki Juana de Palafox y Mendozy, biskupa Meksyku i Puebli, oraz Francisca de Aguiar y Seijasa, spowiednika siostry Juany Inés de la Cruz.\n\nW tej przestrzeni jest siedemdziesiąt pięć krypt, a czterdzieści jeden z nich jest zajętych. Są tu także cztery komory rozkładu, część dawnych procesów pogrzebowych. Kościół nie akceptował kremacji, więc ciała na pewien czas składano na cmentarzu, a potem kości przenoszono do krypt.\n\nDrzwi wejściowe mają ciekawą historię. Są z marmuru i noszą herb królów. Wcześniej były płytą nagrobną arcybiskupa Juana de Mañozcy y Zamory i zachowały jego biografię po łacinie. Wejście do krypty jest więc ponownie wykorzystanym grobem.\n\nAby zwiedzić te obszary, wstęp jest ograniczony i odbywa się w ramach zwiedzania z przewodnikiem. Zapytaj w punkcie informacyjnym Katedry, ponieważ godziny i opłaty się zmieniają. W niektórych miejscach, takich jak chór, zakrystia, krypta i wieże, prosi się o datek lub opłatę.\n\nGdy będziesz wychodzić, pomyśl o tym kontraście. Na górze złoto Ołtarza Królów. Na dole cisza grobowców. A pod tym wszystkim miękki grunt, który podtrzymuje jedno i drugie i o którym opowiemy za chwilę."
+    },
+    "retos_observacion": {
+      "hash": "4438ea91a14e47da",
+      "texto": [
+        "Zapytaj w punkcie informacyjnym, czy są zwiedzania zakrystii lub krypty",
+        "Jeśli uda ci się wejść do krypty, poszukaj marmurowych drzwi z herbem i łacińskim napisem",
+        "Porównaj surowość zakrystii ze złoconymi ołtarzami w nawie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a1b4893f7eeafd97",
+      "texto": {
+        "Malarze w Zakrystii Głównej": "Cristóbal de Villalpando i Juan Correa, koniec XVII wieku",
+        "Krypty": "75, zajętych 41",
+        "Komory rozkładu": "4",
+        "Budowa obecnej krypty": "od 1938 lub 1939 do 1942",
+        "Brat Juan de Zumárraga": "1468 do 1548",
+        "Kardynał Ernesto Corripio Ahumada": "1912 do 2008"
+      }
+    },
+    "faq_mito": {
+      "hash": "83779f3e92636fea",
+      "texto": {
+        "pregunta": "Mit: Krypta Katedry kryje szczątki wszystkich wicekrólów.",
+        "respuesta": "Rzeczywistość: Krypta Arcybiskupów mieści szczątki biskupów i arcybiskupów archidiecezji; szczątki Iturbide znajdują się w kaplicy świętego Filipa od Jezusa."
+      }
+    }
+  }
+}

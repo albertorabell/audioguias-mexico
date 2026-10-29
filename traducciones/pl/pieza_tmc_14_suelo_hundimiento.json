@@ -1,0 +1,56 @@
+{
+  "id": "tmc_14_suelo_hundimiento",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ec17cb68d8cb0345",
+      "texto": "Zapadający się grunt: korekta Katedry"
+    },
+    "frase_gancho": {
+      "hash": "69ebd04fb7ea400b",
+      "texto": "Cztery tysiące dwieście dwadzieścia metrów sześciennych gliny usunięto, aby wyprostować kamienny budynek."
+    },
+    "puente_narrativo": {
+      "hash": "827553e3a09718a9",
+      "texto": "Wyjdź z Katedry spokojnie. Jeśli idziesz dalej w stronę Templo Mayor, idź wschodnią stroną, w kierunku ulicy Seminario, gdzie zaczyna się strefa archeologiczna."
+    },
+    "guion_corto": {
+      "hash": "0f7449d3232fa859",
+      "texto": "Ta Katedra zapada się od chwili, gdy ją zbudowano, i zapada się nierównomiernie. Stoi na miękkim gruncie dawnego jeziora. Około roku tysiąc dziewięćset osiemdziesiątego dziewiątego pogorszenie jej stanu było alarmujące, a inżynierowie wybrali technikę zwaną kontrolowanym podkopywaniem. Polega ona na stopniowym usuwaniu gliny z głębokich warstw, między osiemnastoma a dwudziestoma metrami pod ziemią, aby grunt obniżył się pod wyższymi częściami budowli, a budynek się wyprostował. Prace rozpoczęły się w roku tysiąc dziewięćset dziewięćdziesiątym trzecim i wydobyto podczas nich około czterech tysięcy dwustu dwudziestu metrów sześciennych gliny. Celem nie było przywrócenie idealnego pionu, lecz odzyskanie mniej więcej połowy odkształcenia."
+    },
+    "guion_largo": {
+      "hash": "2fbb748e026aae57",
+      "texto": "Zanim opuścisz Katedrę, warto zrozumieć problem, który martwił ją najbardziej w całej jej historii: grunt. Ten kamienny budynek, ciężki i ogromny, stoi na podłożu, które nie jest stabilne.\n\nKatedrę wzniesiono w narożniku dawnej wyspy Tenochtitlan, na miękkim i wilgotnym dnie jeziora, które zostało zasypane. Pod spodem leżą warstwy gliny, które ściskają się pod ciężarem budowli i z upływem czasu. Co więcej, podłoże nie jest równe: pod niektórymi miejscami znajdują się pozostałości z czasów przedhiszpańskich, dawne fundamenty i różne zasypki. Dlatego Katedra nie zapada się równomiernie. Jedne jej części opadają bardziej niż inne, a to powoduje przechyły i pęknięcia.\n\nProblem dostrzeżono już podczas budowy. Już w roku tysiąc pięćset sześćdziesiątym drugim fundamenty zaczęły się zapadać i odbudowano je jako kamienny nasyp na palach, który uznano za ukończony w roku tysiąc sześćset piętnastym. W następnych stuleciach wzmacniano je kilkakrotnie. Szacuje się, że budynek wraz z fundamentami waży sto dwadzieścia siedem tysięcy ton.\n\nOkoło roku tysiąc dziewięćset osiemdziesiątego dziewiątego pogorszenie stanu budowli stało się alarmujące. Eksperci szukali rozwiązania, które nie zaszkodzi zabytkowi. Wybrali technikę zwaną kontrolowanym podkopywaniem. Działa ona odwrotnie, niż można by się spodziewać: nie wzmacnia się gruntu, lecz usuwa się z niego trochę gliny. Wierci się głębokie szyby, zwane szybami roboczymi, i z nich wydobywa się niewielkie ilości gliny z warstw leżących między osiemnastoma a dwudziestoma metrami pod ziemią. Gdy się ją usunie, grunt obniża się nieco pod wyższymi częściami budynku, a cała bryła się prostuje.\n\nPrace rozpoczęły się w roku tysiąc dziewięćset dziewięćdziesiątym trzecim. Główny etap trwał od roku tysiąc dziewięćset dziewięćdziesiątego trzeciego do tysiąc dziewięćset dziewięćdziesiątego ósmego i obejmował trzydzieści dwa szyby o głębokości dwudziestu metrów, a roboty przeciągnęły się do początku roku dwa tysiące trzeciego. W sumie usunięto około czterech tysięcy dwustu dwudziestu metrów sześciennych gliny.\n\nCelem nie było przywrócenie budynku idealnie pionowego. Chodziło o odzyskanie mniej więcej połowy nagromadzonego odkształcenia. Maksymalna różnica poziomów wynosiła ponad dwa metry i zmniejszono ją o nieco ponad osiemdziesiąt centymetrów, czyli mniej więcej o jedną trzecią. To skromny wynik w liczbach, ale ważny dla stabilności.\n\nDzięki tej pracy Katedra zniknęła z listy zabytków najbardziej zagrożonych organizacji World Monuments Fund w roku dwutysięcznym. Nie oznacza to, że problem zniknął. Badanie UNAM ostrzega, że zapadanie się nie ustało, a cały zespół budowli jest nadzorowany za pomocą instrumentów, które mierzą każdy ruch.\n\nPosadzki wewnątrz Katedry są nierówne. To nie wada wykonania, lecz ślad miasta, które wciąż osiada na jeziorze.\n\nJest w tym wszystkim ironia. Mexikowie również budowali na jeziorze. Templo Mayor wznoszono etapami, każdy na poprzednim, a jego ruiny leżą kilka kroków stąd."
+    },
+    "retos_observacion": {
+      "hash": "ddb14b720ec66acb",
+      "texto": [
+        "Spójrz na kolumnę w nawie i zobacz, czy wydaje ci się prosta, czy przechylona",
+        "Przejdź się po posadzce i poszukaj odcinków, na których poczujesz lekki spadek",
+        "Zapamiętaj nazwę techniki: kontrolowane podkopywanie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b8dbc8374ac426b",
+      "texto": {
+        "Początek problemów z fundamentami": "1562",
+        "Kamienny nasyp na palach ukończony": "1615",
+        "Alarmujące pogorszenie stanu": "około 1989",
+        "Kontrolowane podkopywanie": "od 1993",
+        "Usunięta glina": "około 4 220 m³",
+        "Głębokość wydobycia": "od 18 do 20 m"
+      }
+    },
+    "faq_mito": {
+      "hash": "41465c46cebcb0f3",
+      "texto": {
+        "pregunta": "Mit: Katedra lada chwila się zawali, bo się zapada.",
+        "respuesta": "Rzeczywistość: Zapada się nierównomiernie od czasu budowy, ale od 1993 roku korygowano to kontrolowanym podkopywaniem, a dziś jest nadzorowana za pomocą instrumentów; zapadanie się nie ustało."
+      }
+    }
+  }
+}

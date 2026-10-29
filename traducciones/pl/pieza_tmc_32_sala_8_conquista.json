@@ -1,0 +1,55 @@
+{
+  "id": "tmc_32_sala_8_conquista",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "47d3f3a8a67bf6e1",
+      "texto": "Sala osiem: podbój i kolonialna ofiara z roku tysiąc siedemset dziewięćdziesiątego"
+    },
+    "frase_gancho": {
+      "hash": "a867d7649a511eed",
+      "texto": "Kiedy świątynia upadła, nowe miasto wyrosło na jej szczątkach i zostawiło własną ofiarę."
+    },
+    "puente_narrativo": {
+      "hash": "9c5d7b89c3cfc29e",
+      "texto": "Wyjdź z muzeum i idź na zachód ulicą Guatemala, aż do numeru dwadzieścia cztery."
+    },
+    "guion_corto": {
+      "hash": "17f96668d522a408",
+      "texto": "Sala osiem opowiada o tym, co wydarzyło się po przybyciu Hiszpanów. Przypomina podbój, który trwał od tysiąc pięćset dziewiętnastego do tysiąc pięćset dwudziestego pierwszego roku. Pokazuje fragmenty innej, ogromnej Coyolxauhqui, którą zniszczyli Hiszpanie. Prezentuje też przedmioty związane z Galeonem z Manili, z odniesieniem do roku tysiąc pięćset siedemdziesiątego piątego, oraz kolonialną ofiarę z roku tysiąc siedemset dziewięćdziesiątego. Ofiarę tę złożono dla Kaplicy Dusz, a odnaleziono ją szóstego listopada tysiąc dziewięćset dziewięćdziesiątego szóstego roku. To sala, która łączy miasto Mexica z miastem wicekrólewskim. Warto obejrzeć ją spokojnie, bo zamyka zwiedzanie muzeum."
+    },
+    "guion_largo": {
+      "hash": "b44ddd0c6b88e157",
+      "texto": "Docierasz do ostatniej sali muzeum, a to właśnie ona opowiada o tym, co wydarzyło się później. Jej tematem jest archeologia historyczna, czyli pozostałości z czasów kolonialnych, które odnaleziono obok śladów Mexica.\n\nSala zaczyna się od podboju. Proces ten trwał od tysiąc pięćset dziewiętnastego do tysiąc pięćset dwudziestego pierwszego roku. Były to lata wojny, sojuszy i w końcu upadku Tenochtitlan, miasta, po którym dziś stąpasz. Najważniejsze jest tu to, co stało się ze świątyniami: Hiszpanie je zniszczyli, a na nich stopniowo rosło nowe miasto. Ta przemiana była głęboka i bardzo szybka, jeśli porównać ją z wiekami, które zajęło wzniesienie świątyni.\n\nTo zniszczenie zostawia ślad w sali. Wystawiono tam fragmenty innej wielkiej postaci bogini, którą zniszczyli Hiszpanie. Jeśli masz jeszcze świeżo w pamięci oryginalny monolit, który widziałeś jakiś czas temu, ten eksponat staje się bardzo wymowny. To, co masz przed sobą, jest rozbitym dziełem, a jego stan opowiada historię tego, co przepadło.\n\nPotem sala przechodzi do innych przedmiotów z czasów wicekrólestwa. Są wśród nich eksponaty związane z Galeonem z Manili, statkiem, który łączył Filipiny z Nową Hiszpanią. Muzeum wspomina rok tysiąc pięćset siedemdziesiąty piąty. To przypomnienie, że miasto, już jako stolica wicekrólestwa, było częścią sieci handlowej przecinającej ocean. Sala pozwala dostrzec to połączenie na konkretnych przedmiotach.\n\nJest tu także kolonialna ofiara z roku tysiąc siedemset dziewięćdziesiątego. Złożono ją dla Kaplicy Dusz, a odnaleziono szóstego listopada tysiąc dziewięćset dziewięćdziesiątego szóstego roku. To ofiara inna niż te składane przez Mexica, bo należy do tradycji chrześcijańskiej, ale łączy je pomysł zakopywania przedmiotów z określonym zamiarem. To most między dwoma światami. Przyjrzenie się jej z bliska pomaga zrozumieć, że pod placem nie ma jednej epoki, lecz kilka, ułożonych jedna na drugiej.\n\nData, tysiąc siedemset dziewięćdziesiąty, pojawiła się już podczas tej wizyty. Według sali pierwszej był to rok, w którym na placu odnaleziono rzeźby Mexica. To, że obie sprawy zbiegają się w tym samym roku, jest tylko zbiegiem dat, ale zachęca do zastanowienia się, co działo się wtedy w mieście. W ten sposób ostatnia sala łączy się z pierwszą.\n\nZanim wyjdziesz, pomyśl o tym, co już zobaczyłeś. Zacząłeś od wielkiej świątyni Mexica, a kończysz na przedmiotach z miasta wicekrólewskiego. W jednym miejscu, pod tym samym placem, współistnieją warstwy z ponad pięciu wieków. To właśnie sprawia, że to miejsce jest tak wyjątkowe.\n\nGdy wyjdziesz z muzeum, wrócisz na ulicę. Ostatni przystanek tej wizyty zaprasza cię, byś spojrzał na całość: świątynię, katedrę i grunt, który je łączy."
+    },
+    "retos_observacion": {
+      "hash": "b879de7e77285faa",
+      "texto": [
+        "Poszukaj fragmentów zniszczonej monumentalnej Coyolxauhqui",
+        "Znajdź przedmioty związane z Galeonem z Manili",
+        "Odszukaj kolonialną ofiarę z 1790 roku i porównaj ją z ofiarami Mexica z sali 2"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bcfabae1544c0e4e",
+      "texto": {
+        "Sala": "8, Archeologia historyczna",
+        "Podbój": "od 1519 do 1521",
+        "Galeon z Manili": "odniesienie do roku 1575",
+        "Ofiara kolonialna": "1790, dla Kaplicy Dusz",
+        "Odnaleziona": "6 listopada 1996"
+      }
+    },
+    "faq_mito": {
+      "hash": "4883f8b14c28d64b",
+      "texto": {
+        "pregunta": "Mit: W Templo Mayor odnaleziono wyłącznie pozostałości po Mexica.",
+        "respuesta": "Rzeczywistość: Sala 8 pokazuje pozostałości z czasów wicekrólestwa, takie jak kolonialna ofiara z 1790 roku."
+      }
+    }
+  }
+}

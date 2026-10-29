@@ -1,0 +1,56 @@
+{
+  "id": "tmc_11_capillas_veneno",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "832c184ecb17da30",
+      "texto": "Kaplice boczne i Pan Trucizny"
+    },
+    "frase_gancho": {
+      "hash": "32ed46a0fe420af1",
+      "texto": "Szesnaście kaplic, czternaście otwartych i Chrystus z trzciny kukurydzianej, otaczany czcią od wielu wieków."
+    },
+    "puente_narrativo": {
+      "hash": "8c835d5c9e5385eb",
+      "texto": "Wśród kaplic poszukaj kaplicy świętego Filipa od Jezusa, w której spoczywają szczątki Agustína de Iturbide."
+    },
+    "guion_corto": {
+      "hash": "e8cac4bffec00841",
+      "texto": "Po bokach naw otwierają się kaplice boczne. Katedra ma ich szesnaście, a czternaście jest dostępnych dla zwiedzających. Każda jest poświęcona jakiemuś świętemu albo wezwaniu, a w czasach wicekrólewskich była ufundowana przez zakon lub bractwo. Są wśród nich kaplice Relikwii, Aniołów, świętego Piotra i świętego Filipa od Jezusa. Jednym z najbardziej czczonych wizerunków jest Pan Trucizny, ukrzyżowany Chrystus wykonany z masy z trzciny kukurydzianej, z osiemnastego wieku. Pochodzi z dominikańskiego nowicjatu Porta Coeli. Innym jest Pan Kakao."
+    },
+    "guion_largo": {
+      "hash": "95f34d1b5f81801c",
+      "texto": "Przejdź jedną z naw bocznych, a zobaczysz szereg kaplic, każda z własnym ołtarzem, retabulum i swoją atmosferą. To jedno z najbogatszych miejsc w Katedrze, bo każda kaplica działa jak mały kościół wewnątrz tego dużego.\n\nKatedra ma szesnaście kaplic, z których czternaście jest otwartych dla zwiedzających. Noszą nazwy od swojego świętego albo wezwania. Są wśród nich kaplice Relikwii, Aniołów, świętego Piotra i świętego Józefa. Są też kaplice Matki Bożej z Guadalupe, świętego Filipa od Jezusa, Matki Bożej Bolesnej i Matki Bożej Samotnej. Nazwy i kolejność mogą się różnić w zależności od prac remontowych i ograniczeń danego dnia.\n\nPowód istnienia tak wielu kaplic tkwi w sposobie, w jaki budowano ten gmach. Każdą z nich ufundował zakon, cech lub bractwo, które płaciło za ołtarz, a w zamian zarezerwowało sobie miejsce na swój kult, a czasem także na swoje pochówki. Dlatego kaplice mają różne style. Jedne są surowe, inne pełne złota, zależnie od epoki i od pieniędzy tego, kto je zamówił.\n\nW tym zespole są wizerunki, które ludzie wciąż odwiedzają. Jednym z nich jest Pan Trucizny, zwany też Czarnym Chrystusem. To rzeźba ukrzyżowanego Chrystusa, wykonana z masy z trzciny kukurydzianej, techniki znanej w Nowej Hiszpanii, która pozwalała tworzyć lekkie figury. Według INAH pochodzi z osiemnastego wieku i z dominikańskiego nowicjatu Porta Coeli w Mieście Meksyk. Do Katedry trafiła w dwudziestym wieku, mniej więcej w latach dwudziestych lub trzydziestych.\n\nTo jeden z najczęściej odwiedzanych wizerunków w Katedrze. Ta pobożność jest częścią dzisiejszego życia świątyni, a nie ozdobą dla turystów.\n\nInnym znanym wizerunkiem jest Pan Kakao, kojarzony z kaplicą świętego Józefa. W czasach kolonialnych zostawiano mu w darze kakao, które było wtedy cennym nasionem i służyło także jako pieniądz. To przypomnienie, że dary zależały od tego, co ludzie mieli pod ręką, i że kult mieszał się z gospodarką.\n\nKaplice kryją też retabula, obrazy i rzeźby z różnych epok. Wyróżniają się kaplica Relikwii, kaplica Aniołów i kaplica świętego Piotra. Jeśli masz czas, wejdź do tych, które są otwarte, i zostań w którejś chwilę. Zobaczysz, jak zmienia się atmosfera, gdy z przestronnej i uroczystej nawy głównej przechodzisz do bardziej intymnej przestrzeni.\n\nJest jeszcze jedna, która zasługuje na osobny przystanek. To kaplica świętego Filipa od Jezusa, w której znajduje się urna ze szczątkami Agustína de Iturbide. Opowiemy o niej za chwilę.\n\nZwiedzając kaplice, pamiętaj, że niektóre są zamknięte z powodu renowacji, mszy lub uroczystości. To nie muzeum, lecz czynna świątynia, a niektóre przestrzenie otwierane są tylko o określonych godzinach. Jeśli trafisz na zamkniętą, spójrz przez kratę i idź dalej."
+    },
+    "retos_observacion": {
+      "hash": "a4136e89936b2bd7",
+      "texto": [
+        "Policz, ile kaplic widzisz po jednej stronie nawy",
+        "Poszukaj w którejś kaplicy imienia świętego lub wezwania w górnej części retabulum",
+        "Zobacz, czy ktoś modli się przed jakimś czczonym wizerunkiem"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d6c8a3b101ac4ee",
+      "texto": {
+        "Kaplice": "16, otwartych dla zwiedzających: 14",
+        "Pan Trucizny": "Chrystus z masy z trzciny kukurydzianej, XVIII wiek",
+        "Pochodzenie": "dominikański nowicjat Porta Coeli",
+        "Przybycie do Katedry": "XX wiek",
+        "Pan Kakao": "kojarzony z kaplicą świętego Józefa",
+        "Fundacja": "zakony i bractwa"
+      }
+    },
+    "faq_mito": {
+      "hash": "2b25b9689c6abfb2",
+      "texto": {
+        "pregunta": "Mit: Pan Trucizny to rzeźba z czasów prehiszpańskich.",
+        "respuesta": "Rzeczywistość: To ukrzyżowany Chrystus z XVIII wieku, wykonany z masy z trzciny kukurydzianej, pochodzący z dominikańskiego nowicjatu Porta Coeli."
+      }
+    }
+  }
+}
