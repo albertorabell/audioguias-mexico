@@ -1,0 +1,54 @@
+{
+  "id": "fri_11_jardin_flora_animales",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "12eb388f42cd7dc9",
+      "texto": "Ogród Niebieskiego Domu"
+    },
+    "frase_gancho": {
+      "hash": "09335901cd8da388",
+      "texto": "Teren o powierzchni tysiąca czterdziestu metrów kwadratowych, kupiony w tysiąc dziewięćset trzydziestym siódmym roku, by chronić Trockiego."
+    },
+    "puente_narrativo": {
+      "hash": "2c16efd55d1a08be",
+      "texto": "Idź ścieżkami ogrodu aż do czerwonej piramidy."
+    },
+    "guion_corto": {
+      "hash": "031c481a55bf50de",
+      "texto": "Ogrodu nie było przy pierwotnym domu. Powstał w tysiąc dziewięćset trzydziestym siódmym roku. Wtedy kupiono sąsiednią działkę o powierzchni tysiąca czterdziestu metrów kwadratowych i wzniesiono mury, by chronić Leona Trockiego, który uciekał przed Stalinem. Dziś rosną tu kaktusy, rośliny subtropikalne i drzewa, a wśród nich stoją fontanny i rzeźby mezoamerykańskie. W tym ogrodzie mieszkały też zwierzęta Fridy. Były tu psy xoloitzcuintle, małpy czepiaki i papugi, a ona namalowała je na kilku obrazach. Dziś ogród jest miejscem odpoczynku, ze sztuką w każdym zakątku i z dużą ilością cienia, w którym można się na chwilę zatrzymać. Idź powoli kamiennymi ścieżkami i patrz na rzeźby ukryte wśród roślin."
+    },
+    "guion_largo": {
+      "hash": "ef1487e521e456f4",
+      "texto": "Ten ogród to w rzeczywistości teren, którego dom pierwotnie nie miał. Kiedy Guillermo Kahlo zbudował Niebieski Dom w tysiąc dziewięćset czwartym roku, istniał tylko Dziedziniec Centralny. W tysiąc dziewięćset trzydziestym siódmym roku zamieszkali tu Leon Trocki i jego żona Natalia Siedowa. Aby chronić ich przed prześladowaniami ze strony Stalina, zamurowano niektóre ściany i kupiono sąsiednią działkę o powierzchni tysiąca czterdziestu metrów kwadratowych. Tam posadzono ogród.\n\nDlatego to miejsce ma polityczne pochodzenie. Jest wynikiem decyzji podjętej, by zadbać o drugiego człowieka. Z czasem stało się miejscem do życia, tak jak wszystko inne w tym domu.\n\nRozejrzyj się. Rosną tu kaktusy, rośliny subtropikalne i drzewa, są kamienne ścieżki i fontanny. W kilku zakątkach ustawiono rzeźby przedhiszpańskie z kultur Mezoameryki. Muzeum wspomina o bazaltowej rzeźbie Chicomecóatl, bogini kukurydzy i pożywienia, która stoi w ogrodzie. To był sposób Diega na pokazywanie dzieł na świeżym powietrzu, jako części życia, a nie przedmiotów za szkłem.\n\nTen ogród był też domem wielu zwierząt. W życiu Fridy były małpy czepiaki, psy xoloitzcuintle, czyli meksykańskie psy bez sierści, oraz papugi. Pojawiają się w jej autoportretach. Jedna z jej małp, Fulang-Chang, towarzyszy jej na obrazie „Fulang-Chang i ja”. A młody jeleń o imieniu Granizo jest bohaterem obrazu „Ranny jeleń”, na którym ma twarz Fridy. To nie były wymyślone symbole. To były zwierzęta, z którymi żyła.\n\nOgród zmienia się też wraz z porami roku i wystawami. Czasem ustawia się w nim ofiarę na Dzień Zmarłych, ze świecami i kwiatami cempasúchil. Jeśli przyjdziesz w tym okresie, zobaczysz dom w zupełnie inny sposób.\n\nPojawiają się rzeźby meksykańskiego artysty Mardonia Magañi, o którym muzeum wspomina w kilku zakątkach domu. Ogród muzealny zmienia się wraz z porami roku, dlatego nie wygląda tak samo w każdym miesiącu.\n\nXoloitzcuintle to pies bez sierści, który istniał już w prehiszpańskim Meksyku. Małpy czepiaki żyją naturalnie w lasach tropikalnych Meksyku i Ameryki Środkowej, podobnie jak papugi. Być może posiadanie tych zwierząt było sposobem na przybliżenie przyrody i meksykańskiej tradycji do codziennego życia.\n\nIdź powoli. Zwróć uwagę na kamienne ścieżki, na kolory niebieskiego muru i na zieleń roślin. To miejsce, w którym dom otwiera się na zewnątrz i przestaje być tylko muzeum."
+    },
+    "retos_observacion": {
+      "hash": "9ccb94187b86156d",
+      "texto": [
+        "Poszukaj kaktusów i roślin subtropikalnych wśród kamiennych ścieżek",
+        "Zwróć uwagę na rzeźby przedhiszpańskie ustawione wśród roślin, takie jak rzeźba Chicomecóatl",
+        "Wyobraź sobie, jak psy xoloitzcuintle, małpy czepiaki i jeleń Granizo przemierzają te ścieżki"
+      ]
+    },
+    "especificaciones": {
+      "hash": "20d1bb8f205ba3c1",
+      "texto": {
+        "Teren ogrodu": "1040 m², kupiony w 1937 roku",
+        "Elementy": "kaktusy, rośliny meksykańskie, fontanny i rzeźby mezoamerykańskie",
+        "Rzeźba wymieniona przez muzeum": "Chicomecóatl, z bazaltu",
+        "Zwierzęta Fridy": "psy xoloitzcuintle, małpy czepiaki, papugi i jeleń o imieniu Granizo"
+      }
+    },
+    "faq_mito": {
+      "hash": "c2ab7e8355700ba3",
+      "texto": {
+        "pregunta": "Mit: Zwierzęta z autoportretów Fridy były wymyślonymi symbolami, których nigdy nie miała w pobliżu.",
+        "respuesta": "Rzeczywistość: To były jej zwierzęta domowe. Frida miała małpy czepiaki, psy xoloitzcuintle i papugi, a mieszkały one w domu i w ogrodzie."
+      }
+    }
+  }
+}

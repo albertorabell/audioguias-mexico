@@ -1,0 +1,54 @@
+{
+  "id": "fri_05_cocina_barro",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "89f2ec9c84065314",
+      "texto": "Kuchnia: palenisko opalane drewnem"
+    },
+    "frase_gancho": {
+      "hash": "bb3e618ae3787f2f",
+      "texto": "Frida chciała kuchni takiej jak w starej hacjendzie, z drewnianymi i glinianymi naczyniami."
+    },
+    "puente_narrativo": {
+      "hash": "0a3137f3ae8d0945",
+      "texto": "Zwiedzanie domu trwa: ruszaj dalej, do kolejnego punktu na swojej trasie."
+    },
+    "guion_corto": {
+      "hash": "12422eea9bd54f19",
+      "texto": "Kuchnia Niebieskiego Domu wygląda, jakby przeniesiono ją z innego stulecia, i to nie przypadek. Frida chciała, żeby przypominała palenisko ze starej hacjendy i tak samo działała, z drewnianymi i glinianymi naczyniami. Na ścianach wiszą garnki i rondle, są kafelki z Talavery oraz palenisko, które ona i Diego woleli od kuchenki gazowej, jaka już istniała. Jedną z jej ulubionych potraw było mole poblano, a według Fridy nauczyła ją je przyrządzać Lupe Marín, która była żoną Diega przed Fridą. Na ścianie z małych glinianych dzbanków ułożono imiona Fridy i Diega. Tutaj się gotowało i tutaj się żyło."
+    },
+    "guion_largo": {
+      "hash": "5a969c502c1ca22b",
+      "texto": "Wejdź spokojnie do tej kuchni, bo na każdej ścianie jest na co popatrzeć. Na murach wiszą gliniane garnki, rondle i drewniane łyżki. Palenisko pokrywają kafelki z Talavery, z żółtymi i niebieskimi wzorami. Stoi tu stół, który, jak się opowiada, służył pracownikom domu.\n\nMuzeum wyjaśnia ten pomysł. Frida chciała kuchni, która wyglądałaby i działała jak palenisko w starej hacjendzie z czasów kolonialnych. Dlatego są tu drewniane i gliniane naczynia i dlatego kuchnia stroni od nowoczesności. W tamtych latach istniały już kuchenki gazowe, ale Frida i Diego woleli palenisko opalane drewnem. Chcieli, żeby potrawy miały smak tradycyjnej kuchni.\n\nW tej kuchni przygotowywano potrawy wszelkiego rodzaju, pochodzenia przedhiszpańskiego, kolonialnego i ludowego. Jedną z ulubionych potraw Fridy było mole poblano. Według Fridy Lupe Marín, która była żoną Diega przed Fridą, nauczyła ją przyrządzać mole.\n\nPopatrz uważnie na ścianę. Z małych glinianych dzbanków ułożono imiona Fridy i Diega, a między nimi są dwie gołębice. To szczegół, który łatwo przeoczyć. Przypomina sposób, w jaki ktoś podpisuje list miłosny, tyle że zamiast atramentu używa gliny i gwoździ.\n\nW tej kuchni Frida przyjmowała wielu gości i urządzała przyjęcia. Dlatego kuchnia nie jest ukrytym pomieszczeniem dla służby. Jest sercem domu. Tutaj mieszały się potrawy i rozmowy, które potem toczyły się dalej w jadalni.\n\nDla Fridy jedzenie było kolejnym sposobem na podkreślenie meksykańskości. Tak jak maski w jadalni czy stroje tehuana, mole poblano było sposobem, by powiedzieć, skąd się pochodzi.\n\nJest tu wiele przedmiotów, którym warto przyjrzeć się z bliska. Wśród garnków i rondli widać metate, naczynia na pulque i molcajete. Metate to kamień do mielenia kukurydzy, a molcajete służy do ucierania chili i przypraw. Kafelki z Talavery to ceramika z Puebla, glazurowana i ręcznie malowana.\n\nPalenisko opalane drewnem daje równomierne ciepło i dymny smak potrawom, i dlatego wiele kucharek nadal je woli. Metate jest używane od wieków w Mezoameryce. Te przedmioty nie są muzealnymi dziwactwami. To narzędzia kuchni, która wciąż żyje w wielu domach w Meksyku.\n\nZanim ruszysz dalej, spróbuj wyobrazić sobie dym z paleniska, gotujące się rondle i Fridę wydającą polecenia."
+    },
+    "retos_observacion": {
+      "hash": "ffa8ba622af3b654",
+      "texto": [
+        "Poszukaj glinianych dzbanków, które tworzą imiona Fridy i Diega, z dwiema gołębicami",
+        "Zwróć uwagę na kafelki z Talavery na palenisku, żółte i niebieskie",
+        "Policz, ile garnków, rondli i drewnianych naczyń wisi na ścianach"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ab28db492bccb34e",
+      "texto": {
+        "Przestrzeń": "kuchnia na parterze",
+        "Główny element": "palenisko opalane drewnem z kafelkami z Talavery",
+        "Naczynia": "gliniane garnki i rondle, drewniane łyżki",
+        "Ulubiona potrawa Fridy": "mole poblano"
+      }
+    },
+    "faq_mito": {
+      "hash": "b7e9508b9d7d7263",
+      "texto": {
+        "pregunta": "Mit: Skoro Frida była artystką, nie gotowała i kuchnia jej nie interesowała.",
+        "respuesta": "Rzeczywistość: Kuchnia tak wiele dla niej znaczyła, że zaprojektowała ją jako tradycyjne palenisko. Sama opowiadała, że Lupe Marín, która była żoną Diega przed Fridą, nauczyła ją przyrządzać mole."
+      }
+    }
+  }
+}

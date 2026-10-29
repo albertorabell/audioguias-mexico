@@ -1,0 +1,55 @@
+{
+  "id": "fri_17_cierre_legado",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f1398eaafb93fc5b",
+      "texto": "Z Coyoacán w świat"
+    },
+    "frase_gancho": {
+      "hash": "0fa2068c43996e61",
+      "texto": "Za życia Frida miała w Meksyku tylko jedną wystawę indywidualną. Przyjechała na nią karetką i położyła się w swoim łóżku."
+    },
+    "puente_narrativo": {
+      "hash": "e9b453a70ebf50c5",
+      "texto": "Tu kończy się zwiedzanie. Zanim wyjdziesz, zatrzymaj się na chwilę na patio."
+    },
+    "guion_corto": {
+      "hash": "024207dd862b675f",
+      "texto": "Dziś do tego domu ustawiają się kolejki. Ale za życia Fridy było inaczej. Jej jedyna wystawa indywidualna w Meksyku odbyła się w kwietniu tysiąc dziewięćset pięćdziesiątego trzeciego roku w Galería de Arte Contemporáneo Loli Álvarez Bravo. Lekarze zalecili jej odpoczynek. Frida przyjechała karetką, a jej łóżko z czterema słupkami przewieziono do galerii, żeby mogła przyjmować gości. Jej sława urosła dopiero długo po jej śmierci. W latach siedemdziesiątych i osiemdziesiątych ukazały się książki i odbyły się wystawy, a w tysiąc dziewięćset osiemdziesiątym czwartym roku Meksyk uznał jej twórczość za dziedzictwo kulturowe. To właśnie ta szczerość trafiła do tak wielu ludzi."
+    },
+    "guion_largo": {
+      "hash": "8150078e1b9ef787",
+      "texto": "Jesteś pod koniec zwiedzania. Warto spojrzeć wstecz i zadać sobie pytanie. Jak to się stało, że kobieta, która za życia miała w Meksyku tylko jedną wystawę indywidualną, stała się znana na całym świecie?\n\nZacznijmy od tej wystawy. Odbyła się w kwietniu tysiąc dziewięćset pięćdziesiątego trzeciego roku w Galería de Arte Contemporáneo, a zorganizowała ją fotografka Lola Álvarez Bravo. Frida miała zalecenie lekarzy, by odpoczywać. Mimo to chciała być na własnym wernisażu. Przyjechała karetką, na noszach, a jej łóżko z czterema słupkami przewieziono do galerii. Tam, leżąc, witała gości.\n\nByła to jej jedyna wystawa indywidualna w Meksyku za życia. W tamtych latach wielu znało ją jako żonę Diega Rivery, już bardzo sławnego muralisty. Jej obrazy były małe, osobiste, bardzo różne od wielkich murali w przestrzeni publicznej.\n\nMinęły lata. Frida zmarła w tysiąc dziewięćset pięćdziesiątym czwartym roku. W tysiąc dziewięćset pięćdziesiątym ósmym roku Casa Azul została otwarta jako muzeum, z inicjatywy Diega. Jej twórczość długo docierała do szerokiej publiczności.\n\nWszystko zmieniło się od końca lat siedemdziesiątych. Jej twórczość odkryto na nowo. Między rokiem tysiąc dziewięćset siedemdziesiątym szóstym a tysiąc dziewięćset siedemdziesiątym siódmym ukazały się pierwsze książki o niej. W tysiąc dziewięćset siedemdziesiątym ósmym roku zorganizowano pierwsze retrospektywy. W tysiąc dziewięćset osiemdziesiątym trzecim roku pisarka Hayden Herrera opublikowała biografię Frida, która dotarła do wielu czytelników. W tysiąc dziewięćset osiemdziesiątym czwartym roku Meksyk uznał jej twórczość za dziedzictwo kulturowe i zakazał wywożenia jej z kraju.\n\nWielu czytelników, a zwłaszcza wiele czytelniczek, znalazło w jej twórczości coś niezwykłego w historii sztuki. Kobietę, która malowała samą siebie: swoje ciało, swój ból, swój zawód miłosny, swoją politykę i swoją dumę z Meksyku. Frida namalowała mniej niż dwieście obrazów, w większości małych, a wiele z nich to autoportrety. To właśnie ta szczerość trafiła do tak wielu ludzi.\n\nDziś wielu ludzi stoi w kolejce, żeby tu wejść. Ale kiedy chodzisz po domu, nie masz wrażenia, że jesteś w pomniku. Masz wrażenie, że jesteś w domu. Jest pracownia, łóżko z lustrem i urna na toaletce. Historię Fridy lepiej zrozumieć tutaj, w małych pokojach, niż w jakimkolwiek portrecie.\n\nMuzeum przywołuje pewne zdanie o tym miejscu. Od chwili otwarcia atmosfera domu trwa tak, jakby Frida wciąż w nim mieszkała. To dobry sposób na pożegnanie. Zwiedzanie nie kończy się słynnym obrazem, lecz myślą, że mieszkał tu prawdziwy człowiek.\n\nKiedy wyjdziesz, spójrz jeszcze raz na niebieskie mury patio. Już wiesz, co skrywają."
+    },
+    "retos_observacion": {
+      "hash": "5fff3accc0ebe05f",
+      "texto": [
+        "Spójrz ostatni raz na niebieskie mury patio i przypomnij sobie, co zobaczyłeś w każdym pokoju",
+        "Przypomnij sobie scenę z kwietnia tysiąc dziewięćset pięćdziesiątego trzeciego roku, z łóżkiem z czterema słupkami w galerii",
+        "Zastanów się, która część domu powiedziała ci najwięcej o Fridzie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ae8d98c2bdf49e0b",
+      "texto": {
+        "Jedyna wystawa indywidualna w Meksyku za życia": "kwiecień 1953, Galería de Arte Contemporáneo, zorganizowana przez Lolę Álvarez Bravo",
+        "Pierwsze retrospektywy": "1978",
+        "Biografia autorstwa Hayden Herrera": "1983",
+        "Twórczość uznana za dziedzictwo kulturowe Meksyku": "1984",
+        "Dorobek": "mniej niż 200 obrazów, prawie wszystkie małe"
+      }
+    },
+    "faq_mito": {
+      "hash": "25d7004d3d4832df",
+      "texto": {
+        "pregunta": "Mit: Frida Kahlo była za życia bardziej znana niż Diego Rivera.",
+        "respuesta": "Rzeczywistość: Za życia najbardziej znany był Diego. Sława Fridy urosła od końca lat siedemdziesiątych, wraz z książkami, wystawami i jej biografią z tysiąc dziewięćset osiemdziesiątego trzeciego roku."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "fri_08_estudio_caballete",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "27d778d22f52e3c0",
+      "texto": "Pracownia Fridy"
+    },
+    "frase_gancho": {
+      "hash": "8dfd4b5c4fd9cc4a",
+      "texto": "Sztaluga podarowana przez Nelsona Rockefellera, zaprojektowana do malowania z wózka inwalidzkiego."
+    },
+    "puente_narrativo": {
+      "hash": "e0266b625565bfb8",
+      "texto": "Przejdź z pracowni do sypialni dziennej, gdzie stoi łóżko z lustrem nad nim."
+    },
+    "guion_corto": {
+      "hash": "068be53a3678f498",
+      "texto": "Pracownia Fridy to jasny i uporządkowany pokój. Zbudował ją architekt Juan O’Gorman w tysiąc dziewięćset czterdziestym szóstym roku, na zlecenie Diega Rivery, i nie była częścią pierwotnego domu. Stoi tu jej sztaluga, prezent od przedsiębiorcy Nelsona Rockefellera, z mechanizmami do podnoszenia i opuszczania płótna, gdy Frida malowała z wózka inwalidzkiego. Są też jej pędzle, farby i książki o poezji, sztuce, geografii, biologii i medycynie. Jeśli przyjrzysz się uważnie, odkryjesz pojemniczki po werniksie i perfumach, których używała jako naczyń na farbę. To przestrzeń stworzona do pracy. To pokój, w którym naprawdę się pracowało."
+    },
+    "guion_largo": {
+      "hash": "8043355b1d5ee220",
+      "texto": "To najjaśniejszy pokój w domu. Nie istniał, gdy Guillermo Kahlo budował Casa Azul. Diego Rivera poprosił w tysiąc dziewięćset czterdziestym szóstym roku architekta Juana O’Gormana, by zbudował pracownię dla Fridy. O’Gorman użył skały wulkanicznej, bazaltu, tego samego, którego dawni Meksykanie używali do budowy swoich piramid, i nadał pracowni prosty, funkcjonalny kształt. Potem Frida i Diego ozdobili ją mozaikami na sufitach, muszlami na ścianach i wmurowanymi dzbankami, które służą gołębiom za gniazda.\n\nSpójrz na sztalugę. To prezent od Nelsona Rockefellera, amerykańskiego przedsiębiorcy. Ma mechanizmy, które pozwalały regulować wysokość płótna, gdy Frida malowała z wózka inwalidzkiego. Zachował się też jej wózek. Pracownia była dostosowana do jej ciała, a nie odwrotnie.\n\nNa stołach i na półkach zobaczysz jej pędzle i farby. Frida używała pojemniczków po werniksie i perfumach jako naczyń na swoje kolory. Mieszała to, co codzienne, z pracą w pracowni. Ten zwyczaj wykorzystywania tego, co akurat było pod ręką, widać w całym domu.\n\nRegały skrywały książki o poezji, sztuce, geografii, biologii i medycynie. Medycyna nie była dla niej tematem odległym. Chciała studiować, by zostać lekarką, a życie dało jej dziesięciolecia w szpitalach. Książki o anatomii i biologii pomagają zrozumieć, dlaczego na jej obrazach widać organy, kości i płody z taką dokładnością. Są tu również niektóre przedmioty z czasów przedhiszpańskich i kartonowe pudła archiwalne, które Frida ozdobiła. Na ich grzbietach widać karty popularnej meksykańskiej gry.\n\nFrida malowała tutaj, ale nie tylko na płótnie. Wiadomo, że malowała też w notesach, na marginesach książek, na swoich ubraniach i na gorsetach. Wszystko służyło jej za powierzchnię.\n\nJuan O’Gorman był architektem, malarzem i przyjacielem Diega. Zaprojektował także domy, które Diego i Frida mieli w San Ángel. W pracowni w Casa Azul zachowały się ponadto jej palety, farby i lustra, których używała do malowania autoportretów. Dzięki tym przedmiotom pokój nadal jest pracownią.\n\nFrida dużo czytała: były tu także książki o historii, literaturze i filozofii. Malarka, która zna się na anatomii, polityce i poezji, nie ogranicza się do malowania tego, co widzi. Maluje to, co myśli.\n\nZwróć też uwagę na okna i światło, które zmienia się w ciągu dnia. Pracownia malarza potrzebuje dobrego światła naturalnego, a ta została zaprojektowana właśnie z myślą o tym.\n\nGdy zwiedzasz pracownię, spróbuj dostrzec szczegóły. Dzbanek, pędzel, otwartą książkę. Nie ma tu przygotowanej inscenizacji. Jest pracownia, z której korzystano każdego dnia, aż do ostatnich miesięcy jej życia."
+    },
+    "retos_observacion": {
+      "hash": "112c4226d8a2c54a",
+      "texto": [
+        "Znajdź sztalugę i zwróć uwagę na mechanizmy, które pozwalały regulować wysokość płótna",
+        "Odszukaj wózek inwalidzki i wyobraź sobie Fridę przy sztaludze",
+        "Spójrz na pojemniczki po werniksie i perfumach, których Frida używała jako naczyń na farby"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b8fe1f7352bdcb0e",
+      "texto": {
+        "Budowa": "1946, Juan O’Gorman, na zlecenie Diega Rivery",
+        "Materiał": "bazalt, skała wulkaniczna",
+        "Przedmioty": "sztaluga od Nelsona Rockefellera, wózek inwalidzki, pędzle, farby i książki",
+        "Dekoracja": "mozaiki na suficie, muszle na ścianach i dzbanki jako gołębie gniazda"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e6d0b55f62a36b2",
+      "texto": {
+        "pregunta": "Mit: Gdy Frida zaczęła poruszać się na wózku inwalidzkim, przestała malować.",
+        "respuesta": "Rzeczywistość: Nie przestała malować. Jej sztaluga miała mechanizmy do regulowania wysokości płótna, gdy pracowała z wózka inwalidzkiego, i malowała aż do ostatniego roku życia."
+      }
+    }
+  }
+}
