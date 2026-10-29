@@ -5816,6 +5816,572 @@
           "seconds": 47,
           "bytes": 279360,
           "provider": "azure"
+        },
+        "largo": {
+          "hash": "39bc0ef59a2f531d",
+          "file": "en/tmc_01_recinto_bajo_plaza_largo.mp3",
+          "remote": false,
+          "seconds": 181,
+          "bytes": 1087344,
+          "provider": "azure"
+        }
+      },
+      "tmc_02_fachada_principal": {
+        "corto": {
+          "hash": "430f75fc694a14f0",
+          "file": "en/tmc_02_fachada_principal_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 234144,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b0ce56f517d1da1f",
+          "file": "en/tmc_02_fachada_principal_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1013328,
+          "provider": "azure"
+        }
+      },
+      "tmc_03_torres_campanas": {
+        "corto": {
+          "hash": "3ebc37562d88bfa0",
+          "file": "en/tmc_03_torres_campanas_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243360,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "402403a846c2c66e",
+          "file": "en/tmc_03_torres_campanas_largo.mp3",
+          "remote": true,
+          "seconds": 184,
+          "bytes": 1102320,
+          "provider": "azure"
+        }
+      },
+      "tmc_04_obra_larga": {
+        "corto": {
+          "hash": "f049423515530b2f",
+          "file": "en/tmc_04_obra_larga_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 238608,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b3f771fde1384505",
+          "file": "en/tmc_04_obra_larga_largo.mp3",
+          "remote": true,
+          "seconds": 186,
+          "bytes": 1118304,
+          "provider": "azure"
+        }
+      },
+      "tmc_05_sagrario": {
+        "corto": {
+          "hash": "ec02361e2549d8e7",
+          "file": "en/tmc_05_sagrario_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 237744,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b2539a319bf2fe81",
+          "file": "en/tmc_05_sagrario_largo.mp3",
+          "remote": true,
+          "seconds": 203,
+          "bytes": 1220400,
+          "provider": "azure"
+        }
+      },
+      "tmc_06_piedras_1790": {
+        "corto": {
+          "hash": "64abcd54ac7eb861",
+          "file": "en/tmc_06_piedras_1790_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 216576,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "641e7a1afeaff2a4",
+          "file": "en/tmc_06_piedras_1790_largo.mp3",
+          "remote": true,
+          "seconds": 194,
+          "bytes": 1162800,
+          "provider": "azure"
+        }
+      },
+      "tmc_07_nave_central": {
+        "corto": {
+          "hash": "4f0e9ab4834478e9",
+          "file": "en/tmc_07_nave_central_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 234432,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c09e6e688f8a1bda",
+          "file": "en/tmc_07_nave_central_largo.mp3",
+          "remote": true,
+          "seconds": 173,
+          "bytes": 1035792,
+          "provider": "azure"
+        }
+      },
+      "tmc_08_coro_organos": {
+        "corto": {
+          "hash": "95689a2689090cee",
+          "file": "en/tmc_08_coro_organos_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 241056,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0027d0c3ecbb0477",
+          "file": "en/tmc_08_coro_organos_largo.mp3",
+          "remote": true,
+          "seconds": 174,
+          "bytes": 1046304,
+          "provider": "azure"
+        }
+      },
+      "tmc_09_altar_perdon": {
+        "corto": {
+          "hash": "965b792bb9830366",
+          "file": "en/tmc_09_altar_perdon_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 236736,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "89d4478312f888c1",
+          "file": "en/tmc_09_altar_perdon_largo.mp3",
+          "remote": true,
+          "seconds": 171,
+          "bytes": 1024128,
+          "provider": "azure"
+        }
+      },
+      "tmc_10_altar_reyes": {
+        "corto": {
+          "hash": "788d4371ee4e7a4a",
+          "file": "en/tmc_10_altar_reyes_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 234000,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a07283e752f1b342",
+          "file": "en/tmc_10_altar_reyes_largo.mp3",
+          "remote": true,
+          "seconds": 164,
+          "bytes": 982224,
+          "provider": "azure"
+        }
+      },
+      "tmc_11_capillas_veneno": {
+        "corto": {
+          "hash": "c3cd5eff987cded7",
+          "file": "en/tmc_11_capillas_veneno_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 231264,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "962958d3ce811510",
+          "file": "en/tmc_11_capillas_veneno_largo.mp3",
+          "remote": true,
+          "seconds": 178,
+          "bytes": 1066032,
+          "provider": "azure"
+        }
+      },
+      "tmc_12_san_felipe_iturbide": {
+        "corto": {
+          "hash": "62852d55425b0274",
+          "file": "en/tmc_12_san_felipe_iturbide_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 203040,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0092019635971f71",
+          "file": "en/tmc_12_san_felipe_iturbide_largo.mp3",
+          "remote": true,
+          "seconds": 183,
+          "bytes": 1099008,
+          "provider": "azure"
+        }
+      },
+      "tmc_13_sacristia_cripta": {
+        "corto": {
+          "hash": "9f87fbf96a01a5a7",
+          "file": "en/tmc_13_sacristia_cripta_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 235584,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2dd9d312a81ded64",
+          "file": "en/tmc_13_sacristia_cripta_largo.mp3",
+          "remote": true,
+          "seconds": 176,
+          "bytes": 1054224,
+          "provider": "azure"
+        }
+      },
+      "tmc_14_suelo_hundimiento": {
+        "corto": {
+          "hash": "17f11f12f531ad65",
+          "file": "en/tmc_14_suelo_hundimiento_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 227664,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "40d1abd97b4323ee",
+          "file": "en/tmc_14_suelo_hundimiento_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 1085328,
+          "provider": "azure"
+        }
+      },
+      "tmc_15_entrada_ombligo": {
+        "corto": {
+          "hash": "6f5ffc7d49b952e4",
+          "file": "en/tmc_15_entrada_ombligo_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 261936,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7bf6696df8679374",
+          "file": "en/tmc_15_entrada_ombligo_largo.mp3",
+          "remote": true,
+          "seconds": 197,
+          "bytes": 1181376,
+          "provider": "azure"
+        }
+      },
+      "tmc_16_siete_etapas": {
+        "corto": {
+          "hash": "fdaabdeba38b8cbd",
+          "file": "en/tmc_16_siete_etapas_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 236448,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "204bf6eda549f9e8",
+          "file": "en/tmc_16_siete_etapas_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1016496,
+          "provider": "azure"
+        }
+      },
+      "tmc_17_dos_santuarios": {
+        "corto": {
+          "hash": "0425e7fa1e54ce09",
+          "file": "en/tmc_17_dos_santuarios_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 233424,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3fa1bf84214d63e4",
+          "file": "en/tmc_17_dos_santuarios_largo.mp3",
+          "remote": true,
+          "seconds": 158,
+          "bytes": 949536,
+          "provider": "azure"
+        }
+      },
+      "tmc_18_etapa_ii": {
+        "corto": {
+          "hash": "e31d46b6e8bd6992",
+          "file": "en/tmc_18_etapa_ii_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 220176,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "544c25ff08400fa4",
+          "file": "en/tmc_18_etapa_ii_largo.mp3",
+          "remote": true,
+          "seconds": 162,
+          "bytes": 971280,
+          "provider": "azure"
+        }
+      },
+      "tmc_19_coyolxauhqui_escalinata": {
+        "corto": {
+          "hash": "5edaa9ba5d38851b",
+          "file": "en/tmc_19_coyolxauhqui_escalinata_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247824,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dcbc3273291c7061",
+          "file": "en/tmc_19_coyolxauhqui_escalinata_largo.mp3",
+          "remote": true,
+          "seconds": 173,
+          "bytes": 1039392,
+          "provider": "azure"
+        }
+      },
+      "tmc_20_muro_craneos": {
+        "corto": {
+          "hash": "4caf8be80c5f0a57",
+          "file": "en/tmc_20_muro_craneos_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 189216,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "aaecbc18d5025472",
+          "file": "en/tmc_20_muro_craneos_largo.mp3",
+          "remote": true,
+          "seconds": 159,
+          "bytes": 954144,
+          "provider": "azure"
+        }
+      },
+      "tmc_22_casa_aguilas": {
+        "corto": {
+          "hash": "31c4535e84d21ec8",
+          "file": "en/tmc_22_casa_aguilas_corto.mp3",
+          "remote": true,
+          "seconds": 53,
+          "bytes": 319248,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "68f12f6feca005b2",
+          "file": "en/tmc_22_casa_aguilas_largo.mp3",
+          "remote": true,
+          "seconds": 247,
+          "bytes": 1484784,
+          "provider": "azure"
+        }
+      },
+      "tmc_23_huei_tzompantli": {
+        "corto": {
+          "hash": "8e7d3a2bc2bc62c1",
+          "file": "en/tmc_23_huei_tzompantli_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 230976,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "91b3b6e7cdcbdde8",
+          "file": "en/tmc_23_huei_tzompantli_largo.mp3",
+          "remote": true,
+          "seconds": 170,
+          "bytes": 1018944,
+          "provider": "azure"
+        }
+      },
+      "tmc_24_tlaltecuhtli": {
+        "corto": {
+          "hash": "0567fa78ea7ecdbd",
+          "file": "en/tmc_24_tlaltecuhtli_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 254736,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7255bb7d1324c652",
+          "file": "en/tmc_24_tlaltecuhtli_largo.mp3",
+          "remote": true,
+          "seconds": 172,
+          "bytes": 1029456,
+          "provider": "azure"
+        }
+      },
+      "tmc_25_sala_1_antecedentes": {
+        "corto": {
+          "hash": "f1ff402c4a177ffe",
+          "file": "en/tmc_25_sala_1_antecedentes_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 223488,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9c17a74cbeda06ae",
+          "file": "en/tmc_25_sala_1_antecedentes_largo.mp3",
+          "remote": true,
+          "seconds": 172,
+          "bytes": 1032480,
+          "provider": "azure"
+        }
+      },
+      "tmc_26_sala_2_ofrendas": {
+        "corto": {
+          "hash": "01c213fec99794a5",
+          "file": "en/tmc_26_sala_2_ofrendas_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 226944,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9ebc8806cd69ea48",
+          "file": "en/tmc_26_sala_2_ofrendas_largo.mp3",
+          "remote": true,
+          "seconds": 155,
+          "bytes": 931536,
+          "provider": "azure"
+        }
+      },
+      "tmc_27_sala_3_tributo": {
+        "corto": {
+          "hash": "537d0293ec53c6a2",
+          "file": "en/tmc_27_sala_3_tributo_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 212112,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "eafcfc4ffe491aba",
+          "file": "en/tmc_27_sala_3_tributo_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1012896,
+          "provider": "azure"
+        }
+      },
+      "tmc_28_sala_4_huitzilopochtli": {
+        "corto": {
+          "hash": "60f8dbec0b8adedc",
+          "file": "en/tmc_28_sala_4_huitzilopochtli_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 230256,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2a9d9112535f5ab6",
+          "file": "en/tmc_28_sala_4_huitzilopochtli_largo.mp3",
+          "remote": true,
+          "seconds": 160,
+          "bytes": 959184,
+          "provider": "azure"
+        }
+      },
+      "tmc_29_coyolxauhqui_monolito": {
+        "corto": {
+          "hash": "59c07dce4bef7ef3",
+          "file": "en/tmc_29_coyolxauhqui_monolito_corto.mp3",
+          "remote": false,
+          "seconds": 40,
+          "bytes": 239616,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9727f56885cd557c",
+          "file": "en/tmc_29_coyolxauhqui_monolito_largo.mp3",
+          "remote": false,
+          "seconds": 175,
+          "bytes": 1051488,
+          "provider": "azure"
+        }
+      },
+      "tmc_30_sala_5_tlaloc": {
+        "corto": {
+          "hash": "e7fbd80141a16462",
+          "file": "en/tmc_30_sala_5_tlaloc_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 204048,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bd93dd56c0073810",
+          "file": "en/tmc_30_sala_5_tlaloc_largo.mp3",
+          "remote": true,
+          "seconds": 151,
+          "bytes": 906912,
+          "provider": "azure"
+        }
+      },
+      "tmc_31_salas_6_7_naturaleza": {
+        "corto": {
+          "hash": "f7acf34fb207cd61",
+          "file": "en/tmc_31_salas_6_7_naturaleza_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 221904,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2178c408de18a5e8",
+          "file": "en/tmc_31_salas_6_7_naturaleza_largo.mp3",
+          "remote": true,
+          "seconds": 156,
+          "bytes": 936576,
+          "provider": "azure"
+        }
+      },
+      "tmc_32_sala_8_conquista": {
+        "corto": {
+          "hash": "2ee492c32e02478f",
+          "file": "en/tmc_32_sala_8_conquista_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 227088,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e91f69953d0e6f06",
+          "file": "en/tmc_32_sala_8_conquista_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1010880,
+          "provider": "azure"
+        }
+      },
+      "tmc_33_dos_ciudades_un_suelo": {
+        "corto": {
+          "hash": "4f976b57f684aec5",
+          "file": "en/tmc_33_dos_ciudades_un_suelo_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 272592,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6b3e665725290fff",
+          "file": "en/tmc_33_dos_ciudades_un_suelo_largo.mp3",
+          "remote": true,
+          "seconds": 175,
+          "bytes": 1051920,
+          "provider": "azure"
         }
       }
     },
@@ -11661,6 +12227,564 @@
           "bytes": 1034496,
           "provider": "azure"
         }
+      },
+      "tmc_02_fachada_principal": {
+        "corto": {
+          "hash": "4912313a18964b7a",
+          "file": "es/tmc_02_fachada_principal_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 225504,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "af2efbd22a8b7bb6",
+          "file": "es/tmc_02_fachada_principal_largo.mp3",
+          "remote": true,
+          "seconds": 163,
+          "bytes": 977184,
+          "provider": "azure"
+        }
+      },
+      "tmc_03_torres_campanas": {
+        "corto": {
+          "hash": "1ada9c461cc72018",
+          "file": "es/tmc_03_torres_campanas_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 229680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f3f4dff0136ec0af",
+          "file": "es/tmc_03_torres_campanas_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1062144,
+          "provider": "azure"
+        }
+      },
+      "tmc_04_obra_larga": {
+        "corto": {
+          "hash": "4c1859c563f9e088",
+          "file": "es/tmc_04_obra_larga_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 225072,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "20ec867e3d5c385a",
+          "file": "es/tmc_04_obra_larga_largo.mp3",
+          "remote": true,
+          "seconds": 172,
+          "bytes": 1029312,
+          "provider": "azure"
+        }
+      },
+      "tmc_05_sagrario": {
+        "corto": {
+          "hash": "71e4b62479dbe960",
+          "file": "es/tmc_05_sagrario_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 216000,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "43c6b469d5f57834",
+          "file": "es/tmc_05_sagrario_largo.mp3",
+          "remote": true,
+          "seconds": 195,
+          "bytes": 1167696,
+          "provider": "azure"
+        }
+      },
+      "tmc_06_piedras_1790": {
+        "corto": {
+          "hash": "0f27c89e94d31424",
+          "file": "es/tmc_06_piedras_1790_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 218736,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2f001e6ab4477d04",
+          "file": "es/tmc_06_piedras_1790_largo.mp3",
+          "remote": true,
+          "seconds": 186,
+          "bytes": 1116144,
+          "provider": "azure"
+        }
+      },
+      "tmc_07_nave_central": {
+        "corto": {
+          "hash": "5e7d157e021e71f6",
+          "file": "es/tmc_07_nave_central_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 222624,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ddd822056d6b4ca0",
+          "file": "es/tmc_07_nave_central_largo.mp3",
+          "remote": true,
+          "seconds": 164,
+          "bytes": 986400,
+          "provider": "azure"
+        }
+      },
+      "tmc_08_coro_organos": {
+        "corto": {
+          "hash": "c9624ad949cd4645",
+          "file": "es/tmc_08_coro_organos_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243504,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2bb90ff903589298",
+          "file": "es/tmc_08_coro_organos_largo.mp3",
+          "remote": true,
+          "seconds": 161,
+          "bytes": 967248,
+          "provider": "azure"
+        }
+      },
+      "tmc_09_altar_perdon": {
+        "corto": {
+          "hash": "9d01369b23c03599",
+          "file": "es/tmc_09_altar_perdon_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 219888,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1249d2b090568ee0",
+          "file": "es/tmc_09_altar_perdon_largo.mp3",
+          "remote": true,
+          "seconds": 159,
+          "bytes": 954288,
+          "provider": "azure"
+        }
+      },
+      "tmc_10_altar_reyes": {
+        "corto": {
+          "hash": "78c469ab9faf8a22",
+          "file": "es/tmc_10_altar_reyes_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 224208,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "07e1c2914a234311",
+          "file": "es/tmc_10_altar_reyes_largo.mp3",
+          "remote": true,
+          "seconds": 155,
+          "bytes": 928944,
+          "provider": "azure"
+        }
+      },
+      "tmc_11_capillas_veneno": {
+        "corto": {
+          "hash": "38dbdb9dc6af86c5",
+          "file": "es/tmc_11_capillas_veneno_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 211392,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b289ab4cdd0e0fce",
+          "file": "es/tmc_11_capillas_veneno_largo.mp3",
+          "remote": true,
+          "seconds": 165,
+          "bytes": 987840,
+          "provider": "azure"
+        }
+      },
+      "tmc_12_san_felipe_iturbide": {
+        "corto": {
+          "hash": "7067b9ea2541a6b8",
+          "file": "es/tmc_12_san_felipe_iturbide_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 193968,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a3f074badbbccf28",
+          "file": "es/tmc_12_san_felipe_iturbide_largo.mp3",
+          "remote": true,
+          "seconds": 172,
+          "bytes": 1032336,
+          "provider": "azure"
+        }
+      },
+      "tmc_13_sacristia_cripta": {
+        "corto": {
+          "hash": "a991aae22dfc437e",
+          "file": "es/tmc_13_sacristia_cripta_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 224496,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f241733350b9fdea",
+          "file": "es/tmc_13_sacristia_cripta_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1016352,
+          "provider": "azure"
+        }
+      },
+      "tmc_14_suelo_hundimiento": {
+        "corto": {
+          "hash": "9a45a79d7a76b903",
+          "file": "es/tmc_14_suelo_hundimiento_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 234144,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ce5aeb54349647c0",
+          "file": "es/tmc_14_suelo_hundimiento_largo.mp3",
+          "remote": true,
+          "seconds": 173,
+          "bytes": 1038096,
+          "provider": "azure"
+        }
+      },
+      "tmc_15_entrada_ombligo": {
+        "corto": {
+          "hash": "7b9ceb24c8dfa7c5",
+          "file": "es/tmc_15_entrada_ombligo_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 231984,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "731e41f688fa9eb4",
+          "file": "es/tmc_15_entrada_ombligo_largo.mp3",
+          "remote": true,
+          "seconds": 188,
+          "bytes": 1125504,
+          "provider": "azure"
+        }
+      },
+      "tmc_16_siete_etapas": {
+        "corto": {
+          "hash": "47bce88dc3bae11d",
+          "file": "es/tmc_16_siete_etapas_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 222912,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a315c956fd576a6d",
+          "file": "es/tmc_16_siete_etapas_largo.mp3",
+          "remote": true,
+          "seconds": 167,
+          "bytes": 1000512,
+          "provider": "azure"
+        }
+      },
+      "tmc_17_dos_santuarios": {
+        "corto": {
+          "hash": "26d64357ea119fad",
+          "file": "es/tmc_17_dos_santuarios_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 214992,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "68a10146586ea12f",
+          "file": "es/tmc_17_dos_santuarios_largo.mp3",
+          "remote": true,
+          "seconds": 153,
+          "bytes": 916416,
+          "provider": "azure"
+        }
+      },
+      "tmc_18_etapa_ii": {
+        "corto": {
+          "hash": "76bb29e443691af4",
+          "file": "es/tmc_18_etapa_ii_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 208080,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "30eb0f6be2140253",
+          "file": "es/tmc_18_etapa_ii_largo.mp3",
+          "remote": true,
+          "seconds": 160,
+          "bytes": 958032,
+          "provider": "azure"
+        }
+      },
+      "tmc_19_coyolxauhqui_escalinata": {
+        "corto": {
+          "hash": "316bd31b19d9d20c",
+          "file": "es/tmc_19_coyolxauhqui_escalinata_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 222192,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "fd7470d896a81e6b",
+          "file": "es/tmc_19_coyolxauhqui_escalinata_largo.mp3",
+          "remote": true,
+          "seconds": 159,
+          "bytes": 955872,
+          "provider": "azure"
+        }
+      },
+      "tmc_20_muro_craneos": {
+        "corto": {
+          "hash": "1b24fab88fe53a89",
+          "file": "es/tmc_20_muro_craneos_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 194256,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "565abd513b320459",
+          "file": "es/tmc_20_muro_craneos_largo.mp3",
+          "remote": true,
+          "seconds": 152,
+          "bytes": 912384,
+          "provider": "azure"
+        }
+      },
+      "tmc_22_casa_aguilas": {
+        "corto": {
+          "hash": "a185ad7b2ad2db37",
+          "file": "es/tmc_22_casa_aguilas_corto.mp3",
+          "remote": true,
+          "seconds": 49,
+          "bytes": 296064,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4f5c4fd2ffa3e5a6",
+          "file": "es/tmc_22_casa_aguilas_largo.mp3",
+          "remote": true,
+          "seconds": 238,
+          "bytes": 1426464,
+          "provider": "azure"
+        }
+      },
+      "tmc_23_huei_tzompantli": {
+        "corto": {
+          "hash": "8312aae8f22f3f5c",
+          "file": "es/tmc_23_huei_tzompantli_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 219168,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d0d610b3ffa6a0b1",
+          "file": "es/tmc_23_huei_tzompantli_largo.mp3",
+          "remote": true,
+          "seconds": 162,
+          "bytes": 969696,
+          "provider": "azure"
+        }
+      },
+      "tmc_24_tlaltecuhtli": {
+        "corto": {
+          "hash": "371129de75ab45c4",
+          "file": "es/tmc_24_tlaltecuhtli_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 238464,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8fdb9f99ac4fa13c",
+          "file": "es/tmc_24_tlaltecuhtli_largo.mp3",
+          "remote": true,
+          "seconds": 159,
+          "bytes": 951984,
+          "provider": "azure"
+        }
+      },
+      "tmc_25_sala_1_antecedentes": {
+        "corto": {
+          "hash": "f400712bee13f3fd",
+          "file": "es/tmc_25_sala_1_antecedentes_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 215856,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "fd1a43cd54ad83c1",
+          "file": "es/tmc_25_sala_1_antecedentes_largo.mp3",
+          "remote": true,
+          "seconds": 163,
+          "bytes": 977904,
+          "provider": "azure"
+        }
+      },
+      "tmc_26_sala_2_ofrendas": {
+        "corto": {
+          "hash": "8379cf91497dbc11",
+          "file": "es/tmc_26_sala_2_ofrendas_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 206928,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ec16296dadd5c3c5",
+          "file": "es/tmc_26_sala_2_ofrendas_largo.mp3",
+          "remote": true,
+          "seconds": 153,
+          "bytes": 917856,
+          "provider": "azure"
+        }
+      },
+      "tmc_27_sala_3_tributo": {
+        "corto": {
+          "hash": "e859f21165765eea",
+          "file": "es/tmc_27_sala_3_tributo_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 225936,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "276de196f0d2e481",
+          "file": "es/tmc_27_sala_3_tributo_largo.mp3",
+          "remote": true,
+          "seconds": 162,
+          "bytes": 970416,
+          "provider": "azure"
+        }
+      },
+      "tmc_28_sala_4_huitzilopochtli": {
+        "corto": {
+          "hash": "6a4cfaed08a6148e",
+          "file": "es/tmc_28_sala_4_huitzilopochtli_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 203184,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9104807d10b58104",
+          "file": "es/tmc_28_sala_4_huitzilopochtli_largo.mp3",
+          "remote": true,
+          "seconds": 153,
+          "bytes": 916272,
+          "provider": "azure"
+        }
+      },
+      "tmc_29_coyolxauhqui_monolito": {
+        "corto": {
+          "hash": "7d36d2c866e3a318",
+          "file": "es/tmc_29_coyolxauhqui_monolito_corto.mp3",
+          "remote": false,
+          "seconds": 37,
+          "bytes": 223056,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "22c46fa7b921b91f",
+          "file": "es/tmc_29_coyolxauhqui_monolito_largo.mp3",
+          "remote": false,
+          "seconds": 162,
+          "bytes": 973008,
+          "provider": "azure"
+        }
+      },
+      "tmc_30_sala_5_tlaloc": {
+        "corto": {
+          "hash": "9e2234f8ff974bcc",
+          "file": "es/tmc_30_sala_5_tlaloc_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 192240,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "045627438453f2b9",
+          "file": "es/tmc_30_sala_5_tlaloc_largo.mp3",
+          "remote": true,
+          "seconds": 145,
+          "bytes": 871344,
+          "provider": "azure"
+        }
+      },
+      "tmc_31_salas_6_7_naturaleza": {
+        "corto": {
+          "hash": "7c52b82807eb912a",
+          "file": "es/tmc_31_salas_6_7_naturaleza_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 212688,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f21b9f4321b8e717",
+          "file": "es/tmc_31_salas_6_7_naturaleza_largo.mp3",
+          "remote": true,
+          "seconds": 151,
+          "bytes": 906480,
+          "provider": "azure"
+        }
+      },
+      "tmc_32_sala_8_conquista": {
+        "corto": {
+          "hash": "54a04b2378c92092",
+          "file": "es/tmc_32_sala_8_conquista_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 229248,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8d1064b0717d48d0",
+          "file": "es/tmc_32_sala_8_conquista_largo.mp3",
+          "remote": true,
+          "seconds": 158,
+          "bytes": 946800,
+          "provider": "azure"
+        }
+      },
+      "tmc_33_dos_ciudades_un_suelo": {
+        "corto": {
+          "hash": "802d45c9e0ef7129",
+          "file": "es/tmc_33_dos_ciudades_un_suelo_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 253440,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "94cbcc9dfd4d43b7",
+          "file": "es/tmc_33_dos_ciudades_un_suelo_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1009440,
+          "provider": "azure"
+        }
       }
     },
     "fr": {
@@ -17423,6 +18547,582 @@
           "bytes": 632880,
           "provider": "azure"
         }
+      },
+      "tmc_01_recinto_bajo_plaza": {
+        "corto": {
+          "hash": "7a7cde1c8721c67a",
+          "file": "fr/tmc_01_recinto_bajo_plaza_corto.mp3",
+          "remote": false,
+          "seconds": 45,
+          "bytes": 267552,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "311e9eb165fd25c2",
+          "file": "fr/tmc_01_recinto_bajo_plaza_largo.mp3",
+          "remote": false,
+          "seconds": 178,
+          "bytes": 1067904,
+          "provider": "azure"
+        }
+      },
+      "tmc_02_fachada_principal": {
+        "corto": {
+          "hash": "d8923799f96acd3c",
+          "file": "fr/tmc_02_fachada_principal_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 229680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "10d982bac7c9bb83",
+          "file": "fr/tmc_02_fachada_principal_largo.mp3",
+          "remote": true,
+          "seconds": 166,
+          "bytes": 998496,
+          "provider": "azure"
+        }
+      },
+      "tmc_03_torres_campanas": {
+        "corto": {
+          "hash": "0caff96fe2985f83",
+          "file": "fr/tmc_03_torres_campanas_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 237600,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3564cd3fe596b54e",
+          "file": "fr/tmc_03_torres_campanas_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1061712,
+          "provider": "azure"
+        }
+      },
+      "tmc_04_obra_larga": {
+        "corto": {
+          "hash": "3fd6fb156fd248b1",
+          "file": "fr/tmc_04_obra_larga_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 224496,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "70109d273908a841",
+          "file": "fr/tmc_04_obra_larga_largo.mp3",
+          "remote": true,
+          "seconds": 179,
+          "bytes": 1076544,
+          "provider": "azure"
+        }
+      },
+      "tmc_05_sagrario": {
+        "corto": {
+          "hash": "5e1a32d5c5a83f3f",
+          "file": "fr/tmc_05_sagrario_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 228816,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "814cfd6cd4a54ba9",
+          "file": "fr/tmc_05_sagrario_largo.mp3",
+          "remote": true,
+          "seconds": 199,
+          "bytes": 1195776,
+          "provider": "azure"
+        }
+      },
+      "tmc_06_piedras_1790": {
+        "corto": {
+          "hash": "b29ad72d00e51894",
+          "file": "fr/tmc_06_piedras_1790_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 221616,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "71e57f057761e425",
+          "file": "fr/tmc_06_piedras_1790_largo.mp3",
+          "remote": true,
+          "seconds": 191,
+          "bytes": 1148112,
+          "provider": "azure"
+        }
+      },
+      "tmc_07_nave_central": {
+        "corto": {
+          "hash": "181f2e626112de44",
+          "file": "fr/tmc_07_nave_central_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 219888,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "465dd9bfb98f7216",
+          "file": "fr/tmc_07_nave_central_largo.mp3",
+          "remote": true,
+          "seconds": 163,
+          "bytes": 978768,
+          "provider": "azure"
+        }
+      },
+      "tmc_08_coro_organos": {
+        "corto": {
+          "hash": "b89d683f4d0a1b1d",
+          "file": "fr/tmc_08_coro_organos_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 234720,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "445d6243cfd6c759",
+          "file": "fr/tmc_08_coro_organos_largo.mp3",
+          "remote": true,
+          "seconds": 166,
+          "bytes": 997200,
+          "provider": "azure"
+        }
+      },
+      "tmc_09_altar_perdon": {
+        "corto": {
+          "hash": "e263b1082760fc7b",
+          "file": "fr/tmc_09_altar_perdon_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 221472,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "661f45e152d73c96",
+          "file": "fr/tmc_09_altar_perdon_largo.mp3",
+          "remote": true,
+          "seconds": 163,
+          "bytes": 976320,
+          "provider": "azure"
+        }
+      },
+      "tmc_10_altar_reyes": {
+        "corto": {
+          "hash": "2a52fb07dafac473",
+          "file": "fr/tmc_10_altar_reyes_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 225216,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "29b6956a5e0187ef",
+          "file": "fr/tmc_10_altar_reyes_largo.mp3",
+          "remote": true,
+          "seconds": 158,
+          "bytes": 945936,
+          "provider": "azure"
+        }
+      },
+      "tmc_11_capillas_veneno": {
+        "corto": {
+          "hash": "ddf3344c7d0d0586",
+          "file": "fr/tmc_11_capillas_veneno_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 212112,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0c8d16c08d7c1982",
+          "file": "fr/tmc_11_capillas_veneno_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1010304,
+          "provider": "azure"
+        }
+      },
+      "tmc_12_san_felipe_iturbide": {
+        "corto": {
+          "hash": "f1dd745e3cf702db",
+          "file": "fr/tmc_12_san_felipe_iturbide_corto.mp3",
+          "remote": true,
+          "seconds": 32,
+          "bytes": 193536,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e691c8b76d407f27",
+          "file": "fr/tmc_12_san_felipe_iturbide_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1063008,
+          "provider": "azure"
+        }
+      },
+      "tmc_13_sacristia_cripta": {
+        "corto": {
+          "hash": "44e6b2ceb1c8c80c",
+          "file": "fr/tmc_13_sacristia_cripta_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 217872,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "43967066610cbeec",
+          "file": "fr/tmc_13_sacristia_cripta_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1015920,
+          "provider": "azure"
+        }
+      },
+      "tmc_14_suelo_hundimiento": {
+        "corto": {
+          "hash": "6ffada44db3fb22c",
+          "file": "fr/tmc_14_suelo_hundimiento_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 232128,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "be0feab73299e5a3",
+          "file": "fr/tmc_14_suelo_hundimiento_largo.mp3",
+          "remote": true,
+          "seconds": 173,
+          "bytes": 1039104,
+          "provider": "azure"
+        }
+      },
+      "tmc_15_entrada_ombligo": {
+        "corto": {
+          "hash": "66d8abd8b329ffd6",
+          "file": "fr/tmc_15_entrada_ombligo_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 246960,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c3b21af3f6b9d521",
+          "file": "fr/tmc_15_entrada_ombligo_largo.mp3",
+          "remote": true,
+          "seconds": 192,
+          "bytes": 1151424,
+          "provider": "azure"
+        }
+      },
+      "tmc_16_siete_etapas": {
+        "corto": {
+          "hash": "8f178ad8f218b135",
+          "file": "fr/tmc_16_siete_etapas_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 237744,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "52079a5c2ca57de7",
+          "file": "fr/tmc_16_siete_etapas_largo.mp3",
+          "remote": true,
+          "seconds": 169,
+          "bytes": 1011024,
+          "provider": "azure"
+        }
+      },
+      "tmc_17_dos_santuarios": {
+        "corto": {
+          "hash": "1f1feb23e6349c26",
+          "file": "fr/tmc_17_dos_santuarios_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 229104,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "749bc5c04d433a5c",
+          "file": "fr/tmc_17_dos_santuarios_largo.mp3",
+          "remote": true,
+          "seconds": 155,
+          "bytes": 929664,
+          "provider": "azure"
+        }
+      },
+      "tmc_18_etapa_ii": {
+        "corto": {
+          "hash": "41d53bd3b0970101",
+          "file": "fr/tmc_18_etapa_ii_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 217872,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "51da332573de476b",
+          "file": "fr/tmc_18_etapa_ii_largo.mp3",
+          "remote": true,
+          "seconds": 163,
+          "bytes": 979200,
+          "provider": "azure"
+        }
+      },
+      "tmc_19_coyolxauhqui_escalinata": {
+        "corto": {
+          "hash": "7c1922d4a41ca9dc",
+          "file": "fr/tmc_19_coyolxauhqui_escalinata_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 229680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "66726dded45d8ee5",
+          "file": "fr/tmc_19_coyolxauhqui_escalinata_largo.mp3",
+          "remote": true,
+          "seconds": 165,
+          "bytes": 989856,
+          "provider": "azure"
+        }
+      },
+      "tmc_20_muro_craneos": {
+        "corto": {
+          "hash": "ff7b8b48c9f08cf7",
+          "file": "fr/tmc_20_muro_craneos_corto.mp3",
+          "remote": true,
+          "seconds": 31,
+          "bytes": 186336,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "62b9ae734a623a57",
+          "file": "fr/tmc_20_muro_craneos_largo.mp3",
+          "remote": true,
+          "seconds": 150,
+          "bytes": 899712,
+          "provider": "azure"
+        }
+      },
+      "tmc_22_casa_aguilas": {
+        "corto": {
+          "hash": "917393b6477f6ded",
+          "file": "fr/tmc_22_casa_aguilas_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 290736,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d6c5b7d5bfa4ef42",
+          "file": "fr/tmc_22_casa_aguilas_largo.mp3",
+          "remote": true,
+          "seconds": 235,
+          "bytes": 1409616,
+          "provider": "azure"
+        }
+      },
+      "tmc_23_huei_tzompantli": {
+        "corto": {
+          "hash": "b4ed02b747dda542",
+          "file": "fr/tmc_23_huei_tzompantli_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 226800,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b96adf575e52c09a",
+          "file": "fr/tmc_23_huei_tzompantli_largo.mp3",
+          "remote": true,
+          "seconds": 165,
+          "bytes": 989280,
+          "provider": "azure"
+        }
+      },
+      "tmc_24_tlaltecuhtli": {
+        "corto": {
+          "hash": "1651ceaefe128daf",
+          "file": "fr/tmc_24_tlaltecuhtli_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c2db740e788f15a9",
+          "file": "fr/tmc_24_tlaltecuhtli_largo.mp3",
+          "remote": true,
+          "seconds": 161,
+          "bytes": 967680,
+          "provider": "azure"
+        }
+      },
+      "tmc_25_sala_1_antecedentes": {
+        "corto": {
+          "hash": "81b93f8e83b370a6",
+          "file": "fr/tmc_25_sala_1_antecedentes_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 224784,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c4e8265c8f85ceca",
+          "file": "fr/tmc_25_sala_1_antecedentes_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1005264,
+          "provider": "azure"
+        }
+      },
+      "tmc_26_sala_2_ofrendas": {
+        "corto": {
+          "hash": "b49d875e8e4e3469",
+          "file": "fr/tmc_26_sala_2_ofrendas_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 220320,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "fa17e3b2107b9f0c",
+          "file": "fr/tmc_26_sala_2_ofrendas_largo.mp3",
+          "remote": true,
+          "seconds": 154,
+          "bytes": 926064,
+          "provider": "azure"
+        }
+      },
+      "tmc_27_sala_3_tributo": {
+        "corto": {
+          "hash": "d279936c71bc5c43",
+          "file": "fr/tmc_27_sala_3_tributo_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 217584,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ed12878fb23ff248",
+          "file": "fr/tmc_27_sala_3_tributo_largo.mp3",
+          "remote": true,
+          "seconds": 164,
+          "bytes": 986976,
+          "provider": "azure"
+        }
+      },
+      "tmc_28_sala_4_huitzilopochtli": {
+        "corto": {
+          "hash": "0600e1956a6f2472",
+          "file": "fr/tmc_28_sala_4_huitzilopochtli_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 211536,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "817b81c888b7c03c",
+          "file": "fr/tmc_28_sala_4_huitzilopochtli_largo.mp3",
+          "remote": true,
+          "seconds": 152,
+          "bytes": 911376,
+          "provider": "azure"
+        }
+      },
+      "tmc_29_coyolxauhqui_monolito": {
+        "corto": {
+          "hash": "f2fbdfc816a8ed7f",
+          "file": "fr/tmc_29_coyolxauhqui_monolito_corto.mp3",
+          "remote": false,
+          "seconds": 35,
+          "bytes": 209232,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "13b2e2ca6486b5f8",
+          "file": "fr/tmc_29_coyolxauhqui_monolito_largo.mp3",
+          "remote": false,
+          "seconds": 164,
+          "bytes": 986400,
+          "provider": "azure"
+        }
+      },
+      "tmc_30_sala_5_tlaloc": {
+        "corto": {
+          "hash": "cfa1e2a0dd28f227",
+          "file": "fr/tmc_30_sala_5_tlaloc_corto.mp3",
+          "remote": true,
+          "seconds": 33,
+          "bytes": 200016,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e5de3a0fc954cc64",
+          "file": "fr/tmc_30_sala_5_tlaloc_largo.mp3",
+          "remote": true,
+          "seconds": 151,
+          "bytes": 908784,
+          "provider": "azure"
+        }
+      },
+      "tmc_31_salas_6_7_naturaleza": {
+        "corto": {
+          "hash": "25e2e5bff439cd95",
+          "file": "fr/tmc_31_salas_6_7_naturaleza_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 221472,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1175b6b215867694",
+          "file": "fr/tmc_31_salas_6_7_naturaleza_largo.mp3",
+          "remote": true,
+          "seconds": 150,
+          "bytes": 902304,
+          "provider": "azure"
+        }
+      },
+      "tmc_32_sala_8_conquista": {
+        "corto": {
+          "hash": "9d6fb03a8eb58dcc",
+          "file": "fr/tmc_32_sala_8_conquista_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 226944,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d1c34d34cd64d517",
+          "file": "fr/tmc_32_sala_8_conquista_largo.mp3",
+          "remote": true,
+          "seconds": 161,
+          "bytes": 964080,
+          "provider": "azure"
+        }
+      },
+      "tmc_33_dos_ciudades_un_suelo": {
+        "corto": {
+          "hash": "22ca3e7501895870",
+          "file": "fr/tmc_33_dos_ciudades_un_suelo_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 257616,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a3bfbded83ac9bec",
+          "file": "fr/tmc_33_dos_ciudades_un_suelo_largo.mp3",
+          "remote": true,
+          "seconds": 174,
+          "bytes": 1041552,
+          "provider": "azure"
+        }
       }
     },
     "pl": {
@@ -23149,6 +24849,582 @@
           "remote": true,
           "seconds": 121,
           "bytes": 726048,
+          "provider": "azure"
+        }
+      },
+      "tmc_01_recinto_bajo_plaza": {
+        "corto": {
+          "hash": "53f5c7c34e00f2dd",
+          "file": "pl/tmc_01_recinto_bajo_plaza_corto.mp3",
+          "remote": false,
+          "seconds": 48,
+          "bytes": 288720,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "754e7437f4dc0c72",
+          "file": "pl/tmc_01_recinto_bajo_plaza_largo.mp3",
+          "remote": false,
+          "seconds": 190,
+          "bytes": 1137888,
+          "provider": "azure"
+        }
+      },
+      "tmc_02_fachada_principal": {
+        "corto": {
+          "hash": "4bf39fa23597febd",
+          "file": "pl/tmc_02_fachada_principal_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 254448,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bc728b50aa58c133",
+          "file": "pl/tmc_02_fachada_principal_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 1080000,
+          "provider": "azure"
+        }
+      },
+      "tmc_03_torres_campanas": {
+        "corto": {
+          "hash": "d06dcb670ce01197",
+          "file": "pl/tmc_03_torres_campanas_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247392,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "03a64727c04147b1",
+          "file": "pl/tmc_03_torres_campanas_largo.mp3",
+          "remote": true,
+          "seconds": 198,
+          "bytes": 1186128,
+          "provider": "azure"
+        }
+      },
+      "tmc_04_obra_larga": {
+        "corto": {
+          "hash": "2441f669efd413b2",
+          "file": "pl/tmc_04_obra_larga_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 260064,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "82aff8876cd14bec",
+          "file": "pl/tmc_04_obra_larga_largo.mp3",
+          "remote": true,
+          "seconds": 193,
+          "bytes": 1157904,
+          "provider": "azure"
+        }
+      },
+      "tmc_05_sagrario": {
+        "corto": {
+          "hash": "6a1fa6f3a87af2a0",
+          "file": "pl/tmc_05_sagrario_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 252288,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "dabc48a956ec634d",
+          "file": "pl/tmc_05_sagrario_largo.mp3",
+          "remote": true,
+          "seconds": 220,
+          "bytes": 1319040,
+          "provider": "azure"
+        }
+      },
+      "tmc_06_piedras_1790": {
+        "corto": {
+          "hash": "10f40cd6825eddb4",
+          "file": "pl/tmc_06_piedras_1790_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 227088,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "de31b444063dcc6b",
+          "file": "pl/tmc_06_piedras_1790_largo.mp3",
+          "remote": true,
+          "seconds": 207,
+          "bytes": 1240272,
+          "provider": "azure"
+        }
+      },
+      "tmc_07_nave_central": {
+        "corto": {
+          "hash": "99da0f95b8750850",
+          "file": "pl/tmc_07_nave_central_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 239184,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a3396d6deb6ea7d1",
+          "file": "pl/tmc_07_nave_central_largo.mp3",
+          "remote": true,
+          "seconds": 171,
+          "bytes": 1027872,
+          "provider": "azure"
+        }
+      },
+      "tmc_08_coro_organos": {
+        "corto": {
+          "hash": "25b90b3ae7887a1b",
+          "file": "pl/tmc_08_coro_organos_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 273168,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "60ac771a8fe5d55b",
+          "file": "pl/tmc_08_coro_organos_largo.mp3",
+          "remote": true,
+          "seconds": 187,
+          "bytes": 1121904,
+          "provider": "azure"
+        }
+      },
+      "tmc_09_altar_perdon": {
+        "corto": {
+          "hash": "aa9ed5c3b7e89360",
+          "file": "pl/tmc_09_altar_perdon_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 245376,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "56d9a113024e3f56",
+          "file": "pl/tmc_09_altar_perdon_largo.mp3",
+          "remote": true,
+          "seconds": 179,
+          "bytes": 1076544,
+          "provider": "azure"
+        }
+      },
+      "tmc_10_altar_reyes": {
+        "corto": {
+          "hash": "c601b6778a798c57",
+          "file": "pl/tmc_10_altar_reyes_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 257760,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "56fee0685bf963d2",
+          "file": "pl/tmc_10_altar_reyes_largo.mp3",
+          "remote": true,
+          "seconds": 175,
+          "bytes": 1048320,
+          "provider": "azure"
+        }
+      },
+      "tmc_11_capillas_veneno": {
+        "corto": {
+          "hash": "6d49faaaa6ff2da5",
+          "file": "pl/tmc_11_capillas_veneno_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 223920,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1f2d788f7008e7f2",
+          "file": "pl/tmc_11_capillas_veneno_largo.mp3",
+          "remote": true,
+          "seconds": 184,
+          "bytes": 1101024,
+          "provider": "azure"
+        }
+      },
+      "tmc_12_san_felipe_iturbide": {
+        "corto": {
+          "hash": "d8dfa16a75928155",
+          "file": "pl/tmc_12_san_felipe_iturbide_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 232560,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f604c0737602e04d",
+          "file": "pl/tmc_12_san_felipe_iturbide_largo.mp3",
+          "remote": true,
+          "seconds": 197,
+          "bytes": 1179936,
+          "provider": "azure"
+        }
+      },
+      "tmc_13_sacristia_cripta": {
+        "corto": {
+          "hash": "51d52f3397219c1b",
+          "file": "pl/tmc_13_sacristia_cripta_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 253008,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b830b7e3541be937",
+          "file": "pl/tmc_13_sacristia_cripta_largo.mp3",
+          "remote": true,
+          "seconds": 189,
+          "bytes": 1134144,
+          "provider": "azure"
+        }
+      },
+      "tmc_14_suelo_hundimiento": {
+        "corto": {
+          "hash": "051eaed804bc449b",
+          "file": "pl/tmc_14_suelo_hundimiento_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 269712,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "172ad736e602cbe1",
+          "file": "pl/tmc_14_suelo_hundimiento_largo.mp3",
+          "remote": true,
+          "seconds": 193,
+          "bytes": 1155744,
+          "provider": "azure"
+        }
+      },
+      "tmc_15_entrada_ombligo": {
+        "corto": {
+          "hash": "4de5bbab61dfb768",
+          "file": "pl/tmc_15_entrada_ombligo_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 272880,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "bb83316a342344bb",
+          "file": "pl/tmc_15_entrada_ombligo_largo.mp3",
+          "remote": true,
+          "seconds": 212,
+          "bytes": 1271664,
+          "provider": "azure"
+        }
+      },
+      "tmc_16_siete_etapas": {
+        "corto": {
+          "hash": "f29fe7256bb3d11c",
+          "file": "pl/tmc_16_siete_etapas_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247536,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "1e7833cbe5ce42be",
+          "file": "pl/tmc_16_siete_etapas_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1062576,
+          "provider": "azure"
+        }
+      },
+      "tmc_17_dos_santuarios": {
+        "corto": {
+          "hash": "ecf0fb651bcae853",
+          "file": "pl/tmc_17_dos_santuarios_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 239040,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2558b74bcee1f584",
+          "file": "pl/tmc_17_dos_santuarios_largo.mp3",
+          "remote": true,
+          "seconds": 164,
+          "bytes": 986256,
+          "provider": "azure"
+        }
+      },
+      "tmc_18_etapa_ii": {
+        "corto": {
+          "hash": "4b69cd0ad580a56c",
+          "file": "pl/tmc_18_etapa_ii_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 232416,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "30ac64dc33c01ff0",
+          "file": "pl/tmc_18_etapa_ii_largo.mp3",
+          "remote": true,
+          "seconds": 172,
+          "bytes": 1031472,
+          "provider": "azure"
+        }
+      },
+      "tmc_19_coyolxauhqui_escalinata": {
+        "corto": {
+          "hash": "f1f3b9c4ba1737b8",
+          "file": "pl/tmc_19_coyolxauhqui_escalinata_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 248400,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8be80e4f09791977",
+          "file": "pl/tmc_19_coyolxauhqui_escalinata_largo.mp3",
+          "remote": true,
+          "seconds": 180,
+          "bytes": 1081440,
+          "provider": "azure"
+        }
+      },
+      "tmc_20_muro_craneos": {
+        "corto": {
+          "hash": "677075e017433618",
+          "file": "pl/tmc_20_muro_craneos_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 204192,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "fdde2b0de49a92a4",
+          "file": "pl/tmc_20_muro_craneos_largo.mp3",
+          "remote": true,
+          "seconds": 164,
+          "bytes": 985824,
+          "provider": "azure"
+        }
+      },
+      "tmc_22_casa_aguilas": {
+        "corto": {
+          "hash": "9e37febe4c002843",
+          "file": "pl/tmc_22_casa_aguilas_corto.mp3",
+          "remote": true,
+          "seconds": 58,
+          "bytes": 350640,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ced318a5f2791b3c",
+          "file": "pl/tmc_22_casa_aguilas_largo.mp3",
+          "remote": true,
+          "seconds": 264,
+          "bytes": 1582272,
+          "provider": "azure"
+        }
+      },
+      "tmc_23_huei_tzompantli": {
+        "corto": {
+          "hash": "ae3cb7e6347cfd06",
+          "file": "pl/tmc_23_huei_tzompantli_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 240192,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "224d92c206f8b12a",
+          "file": "pl/tmc_23_huei_tzompantli_largo.mp3",
+          "remote": true,
+          "seconds": 177,
+          "bytes": 1062720,
+          "provider": "azure"
+        }
+      },
+      "tmc_24_tlaltecuhtli": {
+        "corto": {
+          "hash": "1d7614784d78e8b4",
+          "file": "pl/tmc_24_tlaltecuhtli_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 283680,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "30545f58db2dd54d",
+          "file": "pl/tmc_24_tlaltecuhtli_largo.mp3",
+          "remote": true,
+          "seconds": 175,
+          "bytes": 1050624,
+          "provider": "azure"
+        }
+      },
+      "tmc_25_sala_1_antecedentes": {
+        "corto": {
+          "hash": "f91cdcbe77efab81",
+          "file": "pl/tmc_25_sala_1_antecedentes_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 252720,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "584fa9d5f0a69775",
+          "file": "pl/tmc_25_sala_1_antecedentes_largo.mp3",
+          "remote": true,
+          "seconds": 183,
+          "bytes": 1099008,
+          "provider": "azure"
+        }
+      },
+      "tmc_26_sala_2_ofrendas": {
+        "corto": {
+          "hash": "ea81dc01603f7a62",
+          "file": "pl/tmc_26_sala_2_ofrendas_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 237312,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "956695cb6fc14538",
+          "file": "pl/tmc_26_sala_2_ofrendas_largo.mp3",
+          "remote": true,
+          "seconds": 162,
+          "bytes": 970992,
+          "provider": "azure"
+        }
+      },
+      "tmc_27_sala_3_tributo": {
+        "corto": {
+          "hash": "c34ab23f85c4905e",
+          "file": "pl/tmc_27_sala_3_tributo_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 254448,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e65aeb08f66837eb",
+          "file": "pl/tmc_27_sala_3_tributo_largo.mp3",
+          "remote": true,
+          "seconds": 179,
+          "bytes": 1073808,
+          "provider": "azure"
+        }
+      },
+      "tmc_28_sala_4_huitzilopochtli": {
+        "corto": {
+          "hash": "784d2558fb9bec1a",
+          "file": "pl/tmc_28_sala_4_huitzilopochtli_corto.mp3",
+          "remote": true,
+          "seconds": 39,
+          "bytes": 235872,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0fe3b799033f87d9",
+          "file": "pl/tmc_28_sala_4_huitzilopochtli_largo.mp3",
+          "remote": true,
+          "seconds": 166,
+          "bytes": 993600,
+          "provider": "azure"
+        }
+      },
+      "tmc_29_coyolxauhqui_monolito": {
+        "corto": {
+          "hash": "b46d7737b13e09a3",
+          "file": "pl/tmc_29_coyolxauhqui_monolito_corto.mp3",
+          "remote": false,
+          "seconds": 40,
+          "bytes": 242496,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "def55d1c73018141",
+          "file": "pl/tmc_29_coyolxauhqui_monolito_largo.mp3",
+          "remote": false,
+          "seconds": 176,
+          "bytes": 1057824,
+          "provider": "azure"
+        }
+      },
+      "tmc_30_sala_5_tlaloc": {
+        "corto": {
+          "hash": "43dc1455413dfd11",
+          "file": "pl/tmc_30_sala_5_tlaloc_corto.mp3",
+          "remote": true,
+          "seconds": 35,
+          "bytes": 210672,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "fbd229abfc87f217",
+          "file": "pl/tmc_30_sala_5_tlaloc_largo.mp3",
+          "remote": true,
+          "seconds": 157,
+          "bytes": 943920,
+          "provider": "azure"
+        }
+      },
+      "tmc_31_salas_6_7_naturaleza": {
+        "corto": {
+          "hash": "01522597ffd16e21",
+          "file": "pl/tmc_31_salas_6_7_naturaleza_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 238176,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "313bee952a229a82",
+          "file": "pl/tmc_31_salas_6_7_naturaleza_largo.mp3",
+          "remote": true,
+          "seconds": 160,
+          "bytes": 959904,
+          "provider": "azure"
+        }
+      },
+      "tmc_32_sala_8_conquista": {
+        "corto": {
+          "hash": "0652c783763ce916",
+          "file": "pl/tmc_32_sala_8_conquista_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 266112,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "807ac4379d18da17",
+          "file": "pl/tmc_32_sala_8_conquista_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 1083312,
+          "provider": "azure"
+        }
+      },
+      "tmc_33_dos_ciudades_un_suelo": {
+        "corto": {
+          "hash": "d0bf84ca54690ce1",
+          "file": "pl/tmc_33_dos_ciudades_un_suelo_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 289152,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3d8f3997a4946ddf",
+          "file": "pl/tmc_33_dos_ciudades_un_suelo_largo.mp3",
+          "remote": true,
+          "seconds": 191,
+          "bytes": 1144368,
           "provider": "azure"
         }
       }
