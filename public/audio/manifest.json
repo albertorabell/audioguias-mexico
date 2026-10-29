@@ -596,6 +596,24 @@
           "provider": "azure"
         }
       },
+      "cdmx_34_templo_mayor": {
+        "corto": {
+          "hash": "35fddcc1023e2e72",
+          "file": "en/cdmx_34_templo_mayor_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 261792,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "87bf829cb1bc2cd6",
+          "file": "en/cdmx_34_templo_mayor_largo.mp3",
+          "remote": true,
+          "seconds": 245,
+          "bytes": 1472256,
+          "provider": "azure"
+        }
+      },
       "cdmx_35_plaza_seminario": {
         "corto": {
           "hash": "25b352ab53f270db",
@@ -14056,6 +14074,24 @@
           "provider": "azure"
         }
       },
+      "cdmx_37_calle_moneda": {
+        "corto": {
+          "hash": "9cff6224882b6dbf",
+          "file": "fr/cdmx_37_calle_moneda_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 225936,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "9fe62a4371f59daf",
+          "file": "fr/cdmx_37_calle_moneda_largo.mp3",
+          "remote": true,
+          "seconds": 176,
+          "bytes": 1054800,
+          "provider": "azure"
+        }
+      },
       "cdmx_38_museo_shcp": {
         "corto": {
           "hash": "f5eed177286bc968",
@@ -14215,6 +14251,24 @@
           "remote": true,
           "seconds": 182,
           "bytes": 1092816,
+          "provider": "azure"
+        }
+      },
+      "cdmx_47_san_ildefonso": {
+        "corto": {
+          "hash": "d409981b54bfa231",
+          "file": "fr/cdmx_47_san_ildefonso_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 242928,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "56cfb44349d02411",
+          "file": "fr/cdmx_47_san_ildefonso_largo.mp3",
+          "remote": true,
+          "seconds": 204,
+          "bytes": 1224288,
           "provider": "azure"
         }
       },
@@ -20582,6 +20636,32 @@
           "seconds": 37,
           "bytes": 219456,
           "provider": "azure"
+        },
+        "largo": {
+          "hash": "1f2f1e7930f8140b",
+          "file": "pl/cdmx_29_palacio_nacional_largo.mp3",
+          "remote": true,
+          "seconds": 234,
+          "bytes": 1404288,
+          "provider": "azure"
+        }
+      },
+      "cdmx_30_antiguo_ayuntamiento": {
+        "corto": {
+          "hash": "8408dea756e011b2",
+          "file": "pl/cdmx_30_antiguo_ayuntamiento_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 220752,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "544c90de9e9f09d3",
+          "file": "pl/cdmx_30_antiguo_ayuntamiento_largo.mp3",
+          "remote": true,
+          "seconds": 172,
+          "bytes": 1034928,
+          "provider": "azure"
         }
       },
       "cdmx_31_portal_mercaderes": {
@@ -20653,6 +20733,24 @@
           "remote": true,
           "seconds": 255,
           "bytes": 1527840,
+          "provider": "azure"
+        }
+      },
+      "cdmx_35_plaza_seminario": {
+        "corto": {
+          "hash": "9902fb76eb4a41ef",
+          "file": "pl/cdmx_35_plaza_seminario_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 268848,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8ab3054b3d0df2fe",
+          "file": "pl/cdmx_35_plaza_seminario_largo.mp3",
+          "remote": true,
+          "seconds": 210,
+          "bytes": 1259424,
           "provider": "azure"
         }
       },
