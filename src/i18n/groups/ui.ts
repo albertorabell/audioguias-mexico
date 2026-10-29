@@ -53,6 +53,8 @@ export const ui = defineGroup(
     },
     museum: {
       startRoute: 'Empezar',
+      startTour: 'Empezar recorrido',
+      otherTour: 'Elegir otro recorrido',
       buildRoute: 'Arma tu recorrido',
       buildRouteSub: 'Según tu tiempo y lo que te interesa',
       buildOwn: 'Armar uno a mi medida',
@@ -241,6 +243,8 @@ export const ui = defineGroup(
     },
     museum: {
       startRoute: 'Start',
+      startTour: 'Start a tour',
+      otherTour: 'Choose another tour',
       buildRoute: 'Build your tour',
       buildRouteSub: 'Based on your time and interests',
       buildOwn: 'Build one for me',
@@ -431,6 +435,8 @@ export const ui = defineGroup(
     },
     museum: {
       startRoute: 'Commencer',
+      startTour: 'Commencer un parcours',
+      otherTour: 'Choisir un autre parcours',
       buildRoute: 'Composez votre parcours',
       buildRouteSub: 'Selon votre temps et vos intérêts',
       buildOwn: 'Composer le mien',
