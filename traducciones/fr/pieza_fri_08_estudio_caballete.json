@@ -1,0 +1,54 @@
+{
+  "id": "fri_08_estudio_caballete",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "27d778d22f52e3c0",
+      "texto": "L’atelier de Frida"
+    },
+    "frase_gancho": {
+      "hash": "8dfd4b5c4fd9cc4a",
+      "texto": "Un chevalet offert par Nelson Rockefeller, conçu pour peindre depuis un fauteuil roulant."
+    },
+    "puente_narrativo": {
+      "hash": "e0266b625565bfb8",
+      "texto": "Passez de l’atelier à la chambre de jour, où se trouve un lit surmonté d’un miroir."
+    },
+    "guion_corto": {
+      "hash": "068be53a3678f498",
+      "texto": "L’atelier de Frida est une pièce lumineuse et ordonnée. Il a été construit par l’architecte Juan O’Gorman en mille neuf cent quarante-six, à la demande de Diego Rivera, et ne faisait pas partie de la maison d’origine. Voici son chevalet, un cadeau de l’homme d’affaires Nelson Rockefeller, doté de mécanismes pour monter et descendre la toile lorsque Frida peignait depuis son fauteuil roulant. Il y a aussi ses pinceaux, ses peintures et ses livres de poésie, d’art, de géographie, de biologie et de médecine. Si vous regardez bien, vous découvrirez des flacons de vernis et de parfum qu’elle réutilisait comme récipients pour sa peinture. C’est un espace fait pour travailler. C’est une pièce où l’on a vraiment travaillé."
+    },
+    "guion_largo": {
+      "hash": "8043355b1d5ee220",
+      "texto": "Voici la pièce la plus lumineuse de la maison. Elle n’existait pas lorsque Guillermo Kahlo a construit la Maison bleue. En mille neuf cent quarante-six, Diego Rivera a demandé à l’architecte Juan O’Gorman de construire un atelier pour Frida. O’Gorman a utilisé de la pierre volcanique, du basalte, la même que les anciens Mexicains employaient pour leurs pyramides, et lui a donné un style simple et fonctionnel. Ensuite, Frida et Diego l’ont décoré avec des mosaïques au plafond, des coquillages sur les murs et des pots encastrés qui servent de nids aux pigeons.\n\nRegardez le chevalet. C’est un cadeau de Nelson Rockefeller, un homme d’affaires américain. Il possède des mécanismes qui permettaient de régler la hauteur de la toile lorsque Frida peignait depuis son fauteuil roulant. Son fauteuil roulant est également conservé. L’atelier était pensé pour son corps, et non l’inverse.\n\nSur les tables et sur les étagères, vous verrez ses pinceaux et ses peintures. Frida réutilisait des flacons de vernis et de parfum comme récipients pour ses couleurs. Elle mêlait le quotidien au travail de l’atelier. Cette habitude de tirer parti de ce qu’on avait sous la main se retrouve dans toute la maison.\n\nLes bibliothèques renfermaient des livres de poésie, d’art, de géographie, de biologie et de médecine. La médecine n’était pas un sujet lointain pour elle. Elle a voulu étudier pour devenir médecin, et la vie lui a offert des décennies d’hôpitaux. Les livres d’anatomie et de biologie aident à comprendre pourquoi ses tableaux montrent des organes, des os et des fœtus avec tant de précision. Il y a aussi quelques pièces préhispaniques et des classeurs en carton que Frida a décorés. Sur leur dos, on voit des cartes d’un jeu populaire mexicain.\n\nFrida peignait ici, mais pas seulement sur la toile. On sait qu’elle a aussi peint dans des carnets, dans les marges des livres, sur ses vêtements et sur ses corsets. Tout lui servait de surface.\n\nJuan O’Gorman fut architecte, peintre et ami de Diego. Il a aussi conçu les maisons que Diego et Frida ont eues à San Ángel. Dans l’atelier de la Maison bleue, on conserve en outre ses palettes, ses peintures et les miroirs qu’elle utilisait pour réaliser ses autoportraits. Grâce à ces objets, la pièce reste un atelier.\n\nFrida lisait beaucoup : il y avait aussi des livres d’histoire, de littérature et de philosophie. Une peintre qui connaît l’anatomie, la politique et la poésie ne se limite pas à peindre ce qu’elle voit. Elle peint ce qu’elle pense.\n\nRegardez aussi les fenêtres et la lumière, qui changent au cours de la journée. Un atelier de peintre a besoin d’une bonne lumière naturelle, et celui-ci a été conçu pour cela.\n\nPendant que vous parcourez l’atelier, essayez de voir les détails. Un pot, un pinceau, un livre ouvert. Ici, il n’y a pas de scène préparée. Il y a un atelier qui a été utilisé tous les jours, jusqu’aux derniers mois de sa vie."
+    },
+    "retos_observacion": {
+      "hash": "112c4226d8a2c54a",
+      "texto": [
+        "Cherchez le chevalet et observez les mécanismes qui permettaient de régler la hauteur de la toile",
+        "Trouvez le fauteuil roulant et imaginez Frida devant le chevalet",
+        "Regardez les flacons de vernis et de parfum que Frida réutilisait comme récipients pour ses peintures"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b8fe1f7352bdcb0e",
+      "texto": {
+        "Construction": "1946, par Juan O’Gorman, à la demande de Diego Rivera",
+        "Matériau": "basalte, pierre volcanique",
+        "Objets": "chevalet de Nelson Rockefeller, fauteuil roulant, pinceaux, peintures et livres",
+        "Décoration": "mosaïques au plafond, coquillages sur les murs et pots servant de nids aux pigeons"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e6d0b55f62a36b2",
+      "texto": {
+        "pregunta": "Mythe : Quand Frida s’est retrouvée en fauteuil roulant, elle a cessé de peindre.",
+        "respuesta": "Réalité : Elle n’a pas cessé de peindre. Son chevalet possédait des mécanismes pour régler la hauteur de la toile pendant qu’elle travaillait depuis son fauteuil roulant, et elle a continué à peindre jusqu’à la dernière année de sa vie."
+      }
+    }
+  }
+}

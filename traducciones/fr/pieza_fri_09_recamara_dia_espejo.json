@@ -1,0 +1,55 @@
+{
+  "id": "fri_09_recamara_dia_espejo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4a7760b98213ca6b",
+      "texto": "La chambre de jour : le miroir au-dessus du lit"
+    },
+    "frase_gancho": {
+      "hash": "fa427f8e65553349",
+      "texto": "Sa mère a accroché un miroir au-dessus du lit pour que Frida puisse se peindre pendant qu’elle ne pouvait pas bouger."
+    },
+    "puente_narrativo": {
+      "hash": "04f00442f0dd4b1e",
+      "texto": "La visite se poursuit dans la chambre de nuit, juste à côté, où l’on trouve des papillons encadrés et une urne posée sur une coiffeuse."
+    },
+    "guion_corto": {
+      "hash": "5319df7c1a68510b",
+      "texto": "Regardez vers le haut. Au-dessus de ce lit, sa mère a fait installer un miroir après l’accident d’autobus de septembre mille neuf cent vingt-cinq. Frida est alors restée environ neuf mois sans pouvoir bouger, et c’est durant cette convalescence qu’elle a commencé à peindre. Le miroir lui permettait de se voir. Ainsi sont nés ses premiers autoportraits. C’est l’une des histoires les plus connues de sa vie, et voici le lit où elle s’est produite. Dans la chambre, il y a aussi un masque de son visage, que Diego a fait réaliser après sa mort. Au pied du lit, on trouve des photographies de Lénine, de Mao et d’autres personnages que Frida admirait. Frida passait ici la journée en raison de son repos."
+    },
+    "guion_largo": {
+      "hash": "da2d1cf77cb9395c",
+      "texto": "Voici la chambre de jour. Frida passait ici de longues heures pendant ses périodes de repos. Vous verrez un lit surmonté de son miroir et, sur le couvre-lit, un masque de son visage. C’est une petite pièce. Pourtant, c’est ici que la peintre est née.\n\nLe dix-sept septembre mille neuf cent vingt-cinq, Frida voyageait dans un autobus qui est entré en collision avec un tramway électrique. Elle avait dix-huit ans. Une barre de métal lui a transpercé le bassin. Elle s’est fracturé la colonne vertébrale en trois endroits, la jambe droite en onze, la clavicule et d’autres os. Elle a passé un mois à l’hôpital, puis elle est retournée à la Maison bleue. Elle est restée immobile, dans un corset de plâtre, pendant des mois. Le musée parle d’environ neuf mois de repos. Au début, elle voulait devenir médecin. Elle était entrée à l’École nationale préparatoire, où elle était l’une des rares femmes de sa génération.\n\nPendant cette convalescence, sa famille a cherché des moyens de l’aider. Sa mère a fait fabriquer un chevalet spécial, pour qu’elle puisse peindre allongée. Son père lui a prêté ses peintures à l’huile. Et sa mère a installé un grand miroir au-dessus du lit, pour qu’elle puisse se voir. Frida l’a expliqué des années plus tard. Elle peignait des autoportraits parce qu’elle passait beaucoup de temps seule et parce que c’était le sujet qu’elle connaissait le mieux.\n\nRegardez maintenant le masque posé sur le couvre-lit. Après la mort de Frida, Diego a fait réaliser un masque de son visage et l’a placé dans cette chambre. C’est une image immobile, qui contraste avec le miroir, lequel renvoie toujours son image à celui qui le regarde.\n\nAu pied du lit, il y a des photographies de personnages que Frida admirait. Selon le musée, on y trouve Lénine et Mao Tsé-toung, ainsi que d’autres dirigeants communistes. C’était ce que Frida voulait voir en se réveillant.\n\nDans l’autobus, ce jour-là, se trouvait aussi son petit ami, Alejandro Gómez Arias. C’est à lui qu’elle a offert ensuite son premier autoportrait, celui de mille neuf cent vingt-six. Dans cette chambre, il y a en outre une photographie de Frida en train de peindre. Ainsi, l’image du miroir se complète par le portrait de la peintre elle-même au travail.\n\nConsidérez cette chambre comme une capsule temporelle. Un lit, un miroir, un masque et des portraits de personnes que Frida admirait s’y mêlent. Dans ce mélange se trouve la manière d’être de la maison. L’intime, le politique et l’artistique cohabitent dans la même pièce.\n\nUne scène résume cette pièce. Une jeune fille de dix-huit ans, allongée, le corps brisé, regarde son visage dans un miroir et commence à le peindre. De là naîtront plus de cinquante autoportraits. Tout a commencé ici."
+    },
+    "retos_observacion": {
+      "hash": "505bac60164edef3",
+      "texto": [
+        "Regardez le miroir au-dessus du lit et imaginez que Frida se voyait elle-même depuis cette position",
+        "Cherchez le masque posé sur le couvre-lit, fait sur ordre de Diego après sa mort",
+        "Observez les photographies encadrées au pied du lit et trouvez Lénine et Mao"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e8b45b8319b74b0",
+      "texto": {
+        "Espace": "chambre de jour, Étage supérieur",
+        "Élément clé": "lit avec un miroir installé par sa mère après l’accident de 1925",
+        "Masque": "du visage de Frida, réalisé sur ordre de Diego Rivera après sa mort",
+        "Date de l’accident": "17 septembre 1925",
+        "Repos après l’accident": "environ neuf mois, selon le musée"
+      }
+    },
+    "faq_mito": {
+      "hash": "f0e4340994bde534",
+      "texto": {
+        "pregunta": "Mythe : Frida a placé le miroir au-dessus du lit pour pouvoir se peindre.",
+        "respuesta": "Réalité : Le miroir était une idée de sa mère, qui a aussi fait fabriquer un chevalet pour peindre allongée. Frida a profité de ce miroir pour peindre ses premiers autoportraits."
+      }
+    }
+  }
+}

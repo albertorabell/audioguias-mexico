@@ -1,0 +1,54 @@
+{
+  "id": "fri_06_recamara_diego",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "256da2c7a1777709",
+      "texto": "La chambre de Diego"
+    },
+    "frase_gancho": {
+      "hash": "37ff5e2a86f01353",
+      "texto": "Une petite pièce que Frida a préparée pour un homme d’un mètre quatre-vingt-dix."
+    },
+    "puente_narrativo": {
+      "hash": "1f413a10fc88c5d8",
+      "texto": "Depuis la chambre de Diego, prenez l’escalier de pierre qui monte à l’atelier. Sur les murs, on voit de petits tableaux sur tôle."
+    },
+    "guion_corto": {
+      "hash": "96a5d784c6bab616",
+      "texto": "Cette chambre est petite et simple, et Frida l’a préparée pour Diego. Il mesurait un mètre quatre-vingt-dix, et pendant la journée il aimait profiter de la lumière de la maison et du jardin. On y conserve ses vêtements en toile de coton, ses chapeaux et ses cannes d’Apizaco. Il y a aussi des peintures de Mariano Silva Vandeira. Frida et Diego se sont mariés en mille neuf cent vingt-neuf, ont divorcé en mille neuf cent trente-neuf et se sont remariés en mille neuf cent quarante. Ils n’ont jamais vécu comme un couple conventionnel. Chacun avait son espace, et cette chambre le montre. C’est une chambre simple, et c’est pour cela qu’elle en dit long. Regardez le portemanteau et la lumière qui entre dans la pièce."
+    },
+    "guion_largo": {
+      "hash": "f92c6b5f0d196591",
+      "texto": "Contrairement à la salle à manger, il n’y a presque rien ici qui surprenne. Il y a un lit simple, un portemanteau avec des chapeaux, des vêtements et quelques objets personnels. Mais c’est justement ce qui est intéressant. C’est la chambre où dormait l’un des plus importants peintres du Mexique, et sa simplicité est surprenante.\n\nLe musée raconte que Frida a préparé cette chambre pour que Diego puisse y dormir. Il mesurait un mètre quatre-vingt-dix. Pendant la journée, Diego profitait de la lumière de la maison et du jardin. On y conserve ses vêtements en toile de coton, ses chapeaux et ses cannes d’Apizaco. Il y a aussi une boîte en bois laqué de Michoacán, une photo de Frida et des peintures de Mariano Silva Vandeira, parmi lesquelles Ève au paradis.\n\nPour comprendre l’histoire de cette chambre, il faut connaître la vie du couple. Ils se sont mariés en mille neuf cent vingt-neuf. Diego avait plus de vingt ans de plus que Frida et il était déjà célèbre. Ils ont divorcé en mille neuf cent trente-neuf et se sont remariés le huit décembre mille neuf cent quarante. Malgré cela, ils n’ont jamais vécu comme un couple conventionnel. À San Ángel, ils avaient deux maisons distinctes, reliées par un pont. Dans la Maison bleue, chacun avait son propre espace.\n\nDiego collectionnait aussi l’art préhispanique, et de cette passion est né le musée Anahuacalli. Vous le verrez plus en détail près de la pyramide du jardin.\n\nDiego Rivera est né à Guanajuato en mille huit cent quatre-vingt-six et il est mort le vingt-quatre novembre mille neuf cent cinquante-sept, trois ans après Frida. Il a peint de grandes fresques dans des édifices publics, comme le Palais national, à Mexico. Son art couvrait d’immenses murs. Ici, en revanche, il dort dans un lit simple.\n\nCe contraste fait partie du charme de la chambre. Un homme très grand, aux idées grandes, avec un espace petit et tranquille dans la maison de la femme qu’il aimait.\n\nRegardez encore une fois le portemanteau. Quand une personne meurt, les choses qui restent parlent de sa façon de vivre. Ici, il y a des chapeaux, des cannes et une chambre ouverte à la lumière. C’est le portrait d’un grand homme qui n’avait pas besoin de beaucoup pour se sentir chez lui."
+    },
+    "retos_observacion": {
+      "hash": "385c471d9892aeb9",
+      "texto": [
+        "Observez la taille du lit et rappelez-vous que Diego mesurait un mètre quatre-vingt-dix",
+        "Cherchez le portemanteau avec ses chapeaux, les vêtements en toile de coton et les cannes d’Apizaco",
+        "Regardez la lumière qui entre dans la chambre et pensez à ce que dit le musée : pendant la journée, Diego profitait de la lumière de la maison et du jardin"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c2cec2fbfae03fec",
+      "texto": {
+        "Espace": "chambre de Diego, rez-de-chaussée",
+        "Objets": "vêtements en toile de coton, chapeaux et cannes d’Apizaco, boîte en bois laqué de Michoacán",
+        "Peintures": "œuvres de Mariano Silva Vandeira",
+        "Mariage": "1929 ; divorce : 1939 ; second mariage : 8 décembre 1940"
+      }
+    },
+    "faq_mito": {
+      "hash": "2584c00d58f4b5df",
+      "texto": {
+        "pregunta": "Mythe : Diego Rivera et Frida Kahlo partageaient la même chambre toute leur vie.",
+        "respuesta": "Réalité : Ils ont toujours eu des espaces séparés. À San Ángel, ils vivaient dans deux maisons reliées par un pont, et dans la Maison bleue, Frida a préparé cette chambre pour Diego."
+      }
+    }
+  }
+}

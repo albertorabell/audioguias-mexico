@@ -1,0 +1,55 @@
+{
+  "id": "fri_17_cierre_legado",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f1398eaafb93fc5b",
+      "texto": "De Coyoacán au monde"
+    },
+    "frase_gancho": {
+      "hash": "0fa2068c43996e61",
+      "texto": "De son vivant, Frida n’a eu qu’une seule exposition individuelle au Mexique. Elle y est arrivée en ambulance et s’est allongée dans son lit."
+    },
+    "puente_narrativo": {
+      "hash": "e9b453a70ebf50c5",
+      "texto": "Le parcours s’achève ici. Avant de sortir, restez un moment dans le patio."
+    },
+    "guion_corto": {
+      "hash": "024207dd862b675f",
+      "texto": "Aujourd’hui, on fait la queue pour entrer dans cette maison. Mais du vivant de Frida, les choses étaient différentes. Sa seule exposition individuelle au Mexique a eu lieu en avril mille neuf cent cinquante-trois, à la Galerie d’Art contemporain de Lola Álvarez Bravo. Les médecins lui avaient demandé de se reposer. Frida est arrivée en ambulance, et son lit à quatre colonnes a été transporté à la galerie pour qu’elle puisse recevoir les invités. Sa célébrité a beaucoup grandi après sa mort. Dans les années soixante-dix et quatre-vingt sont apparus des livres et des expositions, et en mille neuf cent quatre-vingt-quatre, le Mexique a déclaré son œuvre patrimoine culturel. C’est cette franchise qui a touché tant de personnes."
+    },
+    "guion_largo": {
+      "hash": "8150078e1b9ef787",
+      "texto": "Vous voici à la fin de la visite. Cela vaut la peine de regarder en arrière et de se poser une question. Comment une femme qui, de son vivant, n’a eu qu’une seule exposition individuelle au Mexique est-elle devenue connue dans le monde entier ?\n\nCommençons par cette exposition. Elle a eu lieu en avril mille neuf cent cinquante-trois, à la Galerie d’Art contemporain, organisée par la photographe Lola Álvarez Bravo. Frida avait des consignes médicales de rester au repos. Malgré cela, elle a voulu être présente à son propre vernissage. Elle est arrivée en ambulance, sur un brancard, et son lit à quatre colonnes a été transporté à la galerie. Là, elle a reçu les invités, allongée.\n\nCe fut sa seule exposition individuelle au Mexique de son vivant. À cette époque, beaucoup la connaissaient comme l’épouse de Diego Rivera, un muraliste déjà très célèbre. Ses tableaux étaient petits, personnels, très différents des grandes fresques publiques.\n\nLes années ont passé. Frida est morte en mille neuf cent cinquante-quatre. En mille neuf cent cinquante-huit, la Maison bleue a ouvert comme musée, à l’initiative de Diego. Son œuvre a mis du temps à atteindre un large public.\n\nTout a changé à partir de la fin des années soixante-dix. Son œuvre a été redécouverte. Entre mille neuf cent soixante-seize et mille neuf cent soixante-dix-sept sont parus les premiers livres sur elle. En mille neuf cent soixante-dix-huit, les premières rétrospectives ont été organisées. En mille neuf cent quatre-vingt-trois, l’écrivaine Hayden Herrera a publié une biographie, Frida, qui a touché de nombreux lecteurs. En mille neuf cent quatre-vingt-quatre, le Mexique a déclaré son œuvre patrimoine culturel et a interdit de la sortir du pays.\n\nDe nombreux lecteurs, et surtout de nombreuses lectrices, ont trouvé dans son œuvre quelque chose de rare dans l’histoire de l’art. Une femme qui se peignait elle-même, avec son corps, sa douleur, son chagrin d’amour, sa politique et sa fierté pour le Mexique. Frida a peint moins de deux cents tableaux, pour la plupart petits, et beaucoup sont des autoportraits. C’est cette franchise qui a touché tant de personnes.\n\nAujourd’hui, beaucoup de gens font la queue pour entrer. Mais quand vous parcourez la maison, l’impression n’est pas celle d’un monument. C’est celle d’une maison. Il y a un atelier, un lit avec un miroir et une urne posée sur une coiffeuse. L’histoire de Frida se comprend mieux ici, dans les petites pièces, que devant n’importe quel portrait.\n\nLe musée rappelle une phrase sur ce lieu. Depuis son ouverture, l’atmosphère de la maison demeure comme si Frida l’habitait. C’est une belle façon de prendre congé. La visite ne s’achève pas sur un tableau célèbre, mais sur l’idée qu’une personne a vécu ici.\n\nQuand vous sortirez, regardez encore une fois les murs bleus du patio. Vous savez maintenant ce qu’ils gardent."
+    },
+    "retos_observacion": {
+      "hash": "5fff3accc0ebe05f",
+      "texto": [
+        "Regardez une dernière fois les murs bleus du patio et repassez en revue ce que vous avez vu dans chaque pièce",
+        "Rappelez-vous la scène d’avril mille neuf cent cinquante-trois, avec le lit à quatre colonnes au milieu d’une galerie",
+        "Pensez à la partie de la maison qui vous a le plus appris sur Frida"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ae8d98c2bdf49e0b",
+      "texto": {
+        "Seule exposition individuelle au Mexique de son vivant": "avril 1953, Galerie d’Art contemporain, organisée par Lola Álvarez Bravo",
+        "Premières rétrospectives": "1978",
+        "Biographie de Hayden Herrera": "1983",
+        "Œuvre déclarée patrimoine culturel du Mexique": "1984",
+        "Œuvre": "moins de 200 peintures, presque toutes petites"
+      }
+    },
+    "faq_mito": {
+      "hash": "25d7004d3d4832df",
+      "texto": {
+        "pregunta": "Mythe : Frida Kahlo était plus célèbre que Diego Rivera de leur vivant.",
+        "respuesta": "Réalité : De son vivant, Diego était le plus connu. La célébrité de Frida a grandi à partir de la fin des années soixante-dix, avec des livres, des expositions et sa biographie de mille neuf cent quatre-vingt-trois."
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "fri-02-comedor-cocina",
+  "tipo": "sala",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "a3ddc934a31e8d87",
+      "texto": "La salle à manger, la cuisine et la chambre de Diego"
+    },
+    "frase_gancho": {
+      "hash": "c16810d90faaf97c",
+      "texto": "Là où l’art populaire servait au quotidien et où les amis s’asseyaient à la même table."
+    },
+    "introduccion_narrativa": {
+      "hash": "17dcebb2b8a69358",
+      "texto": "Vous quittez les salles de peinture et entrez dans la vie domestique de la Casa Azul. Dans la salle à manger aux vaisseliers jaunes, Frida et Diego recevaient des visiteurs comme André Breton, Tina Modotti, Léon Trotski et Sergueï Eisenstein. À quelques pas se trouve la cuisine, avec son fourneau à bois et les noms de Frida et de Diego formés avec de petits pots en terre cuite. Tout près se trouve la chambre simple où dormait Diego."
+    }
+  }
+}

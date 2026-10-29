@@ -1,0 +1,54 @@
+{
+  "id": "fri_05_cocina_barro",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "89f2ec9c84065314",
+      "texto": "La cuisine : un foyer à bois"
+    },
+    "frase_gancho": {
+      "hash": "bb3e618ae3787f2f",
+      "texto": "Frida voulait une cuisine comme celle d’une vieille hacienda, avec des ustensiles en bois et en terre cuite."
+    },
+    "puente_narrativo": {
+      "hash": "0a3137f3ae8d0945",
+      "texto": "La visite se poursuit dans la maison : passez à la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "12422eea9bd54f19",
+      "texto": "La cuisine de la Casa Azul semble sortie d’un autre siècle, et ce n’est pas un hasard. Frida voulait qu’elle ressemble au foyer d’une ancienne hacienda et qu’elle fonctionne comme lui, avec des ustensiles en bois et en terre cuite. Des marmites et des faitouts sont accrochés aux murs, il y a des carreaux de Talavera et un foyer que Diego et elle ont préféré à la cuisinière à gaz qui existait déjà. L’un de ses plats favoris était le mole poblano, et selon Frida, c’est Lupe Marín, qui avait été l’épouse de Diego avant elle, qui lui avait appris à le préparer. Au mur, de petits pots en terre cuite forment les noms de Frida et de Diego. Ici, on cuisinait et on vivait."
+    },
+    "guion_largo": {
+      "hash": "5a969c502c1ca22b",
+      "texto": "Entrez sans hâte dans cette cuisine, car chaque mur a quelque chose à regarder. Aux murs sont accrochés des marmites en terre cuite, des faitouts et des cuillères en bois. Le foyer est recouvert de carreaux de Talavera, aux motifs jaunes et bleus. Il y a une table que, selon ce que l’on raconte, les employés de la maison utilisaient.\n\nLe musée explique l’idée. Frida voulait une cuisine qui ressemble au foyer d’une ancienne hacienda coloniale et qui fonctionne comme lui. C’est pourquoi on y trouve des ustensiles en bois et en terre cuite, et c’est pourquoi la cuisine s’éloigne du moderne. À cette époque, les cuisinières à gaz existaient déjà, mais Frida et Diego ont préféré le foyer à bois. Ils voulaient que les plats aient le goût de la cuisine traditionnelle.\n\nDans cette cuisine, on préparait des plats de toute sorte, d’origine préhispanique, coloniale et populaire. L’un des préférés de Frida était le mole poblano. Selon Frida, Lupe Marín, qui avait été l’épouse de Diego avant elle, lui avait appris à préparer des moles.\n\nRegardez attentivement le mur. De petits pots en terre cuite y forment les noms de Frida et de Diego, et entre eux se trouvent deux colombes. C’est un détail qui peut passer inaperçu. Cela ressemble à la manière dont on signe une lettre d’amour, mais au lieu d’encre, on utilise de la terre cuite et des clous.\n\nDans cette cuisine, Frida recevait beaucoup de monde et organisait des repas. C’est pourquoi la cuisine n’est pas une pièce de service cachée. C’est le centre de la maison. Ici se mêlaient les plats mijotés et les conversations qui se poursuivaient ensuite dans la salle à manger.\n\nPour Frida, la nourriture était une autre manière d’affirmer ce qui est mexicain. Comme les masques de la salle à manger ou les robes de Tehuana, le mole poblano était une manière de dire d’où elle venait.\n\nBeaucoup de pièces méritent d’être regardées de près. Parmi les marmites et les faitouts, on voit des metates, des récipients pour le pulque et des molcajetes. Le metate est une pierre pour moudre le maïs, et le molcajete sert à écraser les piments et les épices. Les carreaux de Talavera sont en céramique de Puebla, émaillée et peinte à la main.\n\nLe foyer à bois donne une chaleur régulière et un goût fumé aux plats, et c’est pourquoi beaucoup de cuisinières le préfèrent encore. Le metate est utilisé depuis des siècles en Mésoamérique. Ces objets ne sont pas des curiosités de musée. Ce sont les outils d’une cuisine qui reste vivante dans beaucoup de foyers du Mexique.\n\nAvant de poursuivre, essayez d’imaginer la fumée du foyer, les faitouts qui mijotent et Frida donnant ses instructions."
+    },
+    "retos_observacion": {
+      "hash": "ffa8ba622af3b654",
+      "texto": [
+        "Cherchez les petits pots en terre cuite qui forment les noms de Frida et de Diego, avec les deux colombes",
+        "Observez les carreaux de Talavera du foyer, en jaune et bleu",
+        "Comptez combien de marmites, de faitouts et d’ustensiles en bois sont accrochés aux murs"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ab28db492bccb34e",
+      "texto": {
+        "Espace": "cuisine du rez-de-chaussée",
+        "Élément central": "foyer à bois avec carreaux de Talavera",
+        "Ustensiles": "marmites et faitouts en terre cuite, cuillères en bois",
+        "Plat préféré de Frida": "mole poblano"
+      }
+    },
+    "faq_mito": {
+      "hash": "b7e9508b9d7d7263",
+      "texto": {
+        "pregunta": "Mythe : Comme elle était artiste, Frida ne cuisinait pas et ne s’intéressait pas à la cuisine.",
+        "respuesta": "Réalité : Elle s’y intéressait tant qu’elle a conçu la cuisine comme un foyer traditionnel. Elle racontait elle-même que Lupe Marín, qui avait été l’épouse de Diego avant elle, lui avait appris à préparer des moles."
+      }
+    }
+  }
+}

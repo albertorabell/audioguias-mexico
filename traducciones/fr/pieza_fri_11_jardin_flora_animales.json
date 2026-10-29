@@ -1,0 +1,54 @@
+{
+  "id": "fri_11_jardin_flora_animales",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "12eb388f42cd7dc9",
+      "texto": "Le jardin de la Maison bleue"
+    },
+    "frase_gancho": {
+      "hash": "09335901cd8da388",
+      "texto": "Un terrain de mille quarante mètres carrés, acheté en mille neuf cent trente-sept pour protéger Trotsky."
+    },
+    "puente_narrativo": {
+      "hash": "2c16efd55d1a08be",
+      "texto": "Suivez les sentiers du jardin jusqu’à la pyramide rouge."
+    },
+    "guion_corto": {
+      "hash": "031c481a55bf50de",
+      "texto": "Le jardin ne faisait pas partie de la maison d’origine. Il a été créé en mille neuf cent trente-sept. À cette date, on a acheté le terrain voisin, de mille quarante mètres carrés, et on a élevé des murs pour protéger León Trotsky, qui fuyait Stalin. Aujourd’hui, on y trouve des cactus, des plantes subtropicales, des arbres, des fontaines et des sculptures mésoaméricaines. Dans ce jardin ont aussi vécu les animaux de Frida. Il y avait des chiens xoloitzcuintles, des singes-araignées et des perroquets, et elle les a peints dans plusieurs tableaux. Aujourd’hui, le jardin est un lieu où se reposer, avec de l’art dans chaque recoin et beaucoup d’ombre pour s’arrêter un moment. Avancez lentement sur les sentiers de pierre et regardez les sculptures parmi les plantes."
+    },
+    "guion_largo": {
+      "hash": "ef1487e521e456f4",
+      "texto": "Ce jardin est, en réalité, un terrain que la maison n’avait pas. Quand Guillermo Kahlo a construit la Maison bleue en mille neuf cent quatre, il n’existait que la Cour centrale. En mille neuf cent trente-sept, León Trotsky et son épouse Natalia Sedova sont venus vivre ici. Pour les protéger de la persécution de Stalin, on a fermé certains murs et on a acheté le terrain voisin, de mille quarante mètres carrés. C’est là que le jardin a été planté.\n\nCet espace a donc une origine politique. C’est le résultat d’une décision prise pour protéger une personne. Avec le temps, il est devenu un lieu de vie, comme tout le reste dans la maison.\n\nRegardez autour de vous. Il y a des cactus, des plantes subtropicales, des arbres, des sentiers de pierre et des fontaines. Dans plusieurs recoins, on a placé des sculptures préhispaniques des cultures de Mésoamérique. Le musée mentionne une sculpture en basalte de Chicomecóatl, une déesse du maïs et des subsistances, installée dans le jardin. C’était la manière qu’avait Diego de montrer les pièces en plein air, comme une part de la vie et non comme des objets de vitrine.\n\nCe jardin a aussi été le foyer de nombreux animaux. Dans la vie de Frida, il y a eu des singes-araignées, des chiens xoloitzcuintles, qui sont des chiens mexicains sans poils, et des perroquets. Ils apparaissent dans ses autoportraits. L’un de ses singes, Fulang-Chang, l’accompagne dans le tableau Fulang-Chang et moi. Et un jeune cerf nommé Granizo est le protagoniste du tableau Le Cerf blessé, où il a le visage de Frida. Ce n’étaient pas des symboles inventés. C’étaient les animaux avec lesquels elle vivait.\n\nLe jardin change aussi au fil des saisons et des expositions. Parfois, on y installe une offrande pour le Jour des Morts, avec des bougies et des fleurs de cempasúchil. Si vous venez à cette période, c’est une autre façon de voir la maison.\n\nOn y trouve des sculptures de l’artiste mexicain Mardonio Magaña, que le musée mentionne dans plusieurs recoins de la maison. Un jardin de musée change avec les saisons, et c’est pourquoi il n’a pas le même aspect tous les mois.\n\nLe xoloitzcuintle est un chien sans poils qui existait déjà dans le Mexique préhispanique. Les singes-araignées vivent à l’état naturel dans les forêts tropicales du Mexique et d’Amérique centrale, et les perroquets aussi. Avoir ces animaux était peut-être une manière de rapprocher la nature et la tradition mexicaine de la vie quotidienne.\n\nAvancez lentement. Observez les sentiers de pierre, les couleurs du mur bleu et le vert des plantes. C’est l’endroit où la maison s’ouvre vers l’extérieur et cesse d’être seulement un musée."
+    },
+    "retos_observacion": {
+      "hash": "9ccb94187b86156d",
+      "texto": [
+        "Cherchez les cactus et les plantes subtropicales entre les sentiers de pierre",
+        "Observez les sculptures préhispaniques placées parmi les plantes, comme celle de Chicomecóatl",
+        "Imaginez les xoloitzcuintles, les singes-araignées et le cerf Granizo parcourant ces sentiers"
+      ]
+    },
+    "especificaciones": {
+      "hash": "20d1bb8f205ba3c1",
+      "texto": {
+        "Terrain du jardin": "1 040 m², acheté en 1937",
+        "Éléments": "cactus, plantes mexicaines, fontaines et sculptures mésoaméricaines",
+        "Sculpture mentionnée par le musée": "Chicomecóatl, en basalte",
+        "Animaux de Frida": "xoloitzcuintles, singes-araignées, perroquets et un cerf nommé Granizo"
+      }
+    },
+    "faq_mito": {
+      "hash": "c2ab7e8355700ba3",
+      "texto": {
+        "pregunta": "Mythe : Les animaux des autoportraits de Frida étaient des symboles inventés qu’elle n’a jamais eus près d’elle.",
+        "respuesta": "Réalité : C’étaient ses animaux de compagnie. Frida a eu des singes-araignées, des chiens xoloitzcuintles et des perroquets, et ils vivaient dans la maison et dans le jardin."
+      }
+    }
+  }
+}

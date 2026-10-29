@@ -1,0 +1,55 @@
+{
+  "id": "fri_10_recamara_noche_cenizas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "816ef170dfc45b3b",
+      "texto": "La chambre de nuit et les cendres de Frida"
+    },
+    "frase_gancho": {
+      "hash": "34bee29ddcb02f37",
+      "texto": "Une urne préhispanique en forme de crapaud garde ses cendres sur une coiffeuse."
+    },
+    "puente_narrativo": {
+      "hash": "479447b6b5422348",
+      "texto": "Respirez un moment avant de quitter les chambres et poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "8934f49f812a1b21",
+      "texto": "Dans la chambre de nuit, Frida se reposait quand la journée s’achevait. Il y a des papillons encadrés, un cadeau du sculpteur Isamu Noguchi, un portrait de Frida réalisé par le photographe Nickolas Muray et des objets en papier mâché que Diego et elle appréciaient. Sur une coiffeuse se trouve une urne préhispanique en forme de crapaud. À l’intérieur reposent les cendres de Frida, qui est morte dans cette maison le treize juillet mille neuf cent cinquante-quatre, à quarante-sept ans. Son corps a été veillé au Palais des Beaux-Arts, puis incinéré. Ses cendres sont conservées aujourd’hui dans la maison où elle est née. Regardez d’abord l’urne, puis les papillons."
+    },
+    "guion_largo": {
+      "hash": "8bcf76f317d7966c",
+      "texto": "La chambre de nuit a quelque chose de différent du reste de la maison. C’est une pièce calme, remplie de petits objets. Le musée évoque une collection de papillons encadrés, un cadeau du sculpteur Isamu Noguchi, et un portrait photographique de Frida réalisé par Nickolas Muray. On y trouve aussi des jouets et des objets en papier mâché, que Frida et Diego appréciaient beaucoup. Certains guides mentionnent en outre des poupées, que Frida collectionnait.\n\nSur une coiffeuse repose une urne préhispanique en forme de crapaud. À l’intérieur se trouvent les cendres de Frida. Le musée la décrit comme une urne posée sur une coiffeuse qui fait office d’autel. Ce n’est ni une tombe ni un monument. C’est un objet d’argile d’un peuple ancien, placé dans la maison où elle a vécu.\n\nFrida est morte le treize juillet mille neuf cent cinquante-quatre, vers six heures du matin, à quarante-sept ans. La cause officielle fut une embolie pulmonaire. Onze jours plus tôt, le deux juillet, elle avait participé en fauteuil roulant à une marche de protestation.\n\nSon corps a été veillé au Palais des Beaux-Arts. Le cercueil fut recouvert du drapeau du Parti communiste mexicain. Ce geste provoqua un scandale politique, et le directeur de l’Institut national des beaux-arts, Andrés Iduarte, fut renvoyé pour l’avoir permis. Le lendemain eurent lieu des funérailles au Panthéon civil de Dolores, et son corps fut incinéré.\n\nAujourd’hui, ses cendres sont conservées dans la maison où elle est née. C’est pourquoi beaucoup de personnes entrent ici avec un mélange de curiosité et de respect.\n\nL’urne en forme de crapaud admet une autre lecture possible. On dit que Frida appelait Diego son crapaud-grenouille. Et pour plusieurs cultures du Mexique ancien, les crapauds et les grenouilles étaient associés à l’eau et à la pluie. Ce sont des lectures possibles, et non une explication que le musée donne de l’urne.\n\nDiego est mort en mille neuf cent cinquante-sept, trois ans après Frida, l’année même où il a créé la fiducie qui veille sur la maison. Certains guides parlent en outre de plus de quarante poupées dans cette chambre, bien que leur nombre puisse changer selon la manière de les exposer.\n\nChaque année, à l’occasion du Jour des Morts, la Maison bleue installe une offrande dédiée à Frida. C’est une façon de se souvenir d’elle avec des fleurs, des bougies et des objets, selon la tradition mexicaine. Si vous visitez le musée à cette période, vous la verrez peut-être.\n\nRestez un moment en silence, sans chercher autre chose. C’est la maison où Frida a commencé et terminé son histoire."
+    },
+    "retos_observacion": {
+      "hash": "a7d4e04fed600565",
+      "texto": [
+        "Cherchez sur la coiffeuse l’urne préhispanique en forme de crapaud, qui contient les cendres de Frida",
+        "Regardez les papillons encadrés et rappelez-vous qu’ils furent un cadeau d’Isamu Noguchi",
+        "Trouvez le portrait photographique de Frida réalisé par Nickolas Muray"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e2e2494855a7e674",
+      "texto": {
+        "Espace": "chambre de nuit, étage supérieur",
+        "Urne": "pièce préhispanique en forme de crapaud, sur une coiffeuse",
+        "Collection": "papillons encadrés, cadeau d’Isamu Noguchi ; portrait de Frida par Nickolas Muray ; jouets et objets en papier mâché",
+        "Décès": "13 juillet 1954, à 47 ans",
+        "Funérailles": "veillée au Palais des Beaux-Arts ; funérailles au Panthéon civil de Dolores"
+      }
+    },
+    "faq_mito": {
+      "hash": "ab755b149753625e",
+      "texto": {
+        "pregunta": "Mythe : Frida Kahlo est enterrée dans la Rotonde des Personnes illustres ou dans un cimetière.",
+        "respuesta": "Réalité : Elle a été incinérée après ses funérailles au Panthéon civil de Dolores. Ses cendres sont conservées dans une urne préhispanique à la Maison bleue."
+      }
+    }
+  }
+}
