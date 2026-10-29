@@ -1,0 +1,56 @@
+{
+  "id": "chi_13_sacbe_uno",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b2a51451617dbeb9",
+      "texto": "Sacbé numer 1"
+    },
+    "frase_gancho": {
+      "hash": "2969530dd5e5f238",
+      "texto": "Biała kamienna droga, prosta i wyniesiona, która prowadzi z placu na brzeg świętej wody."
+    },
+    "puente_narrativo": {
+      "hash": "b36faea0950c1878",
+      "texto": "Idź groblą aż do końca. Tam, wśród drzew, znajdziesz [Świętą Cenotę](chi_14_cenote_sagrado), najsłynniejszą studnię Chichén Itzá."
+    },
+    "guion_corto": {
+      "hash": "1b0bf67611f67142",
+      "texto": "Stoisz na sacbé, słowie z języka maya, które znaczy biała droga. To wyniesiona grobla z wapienia, największa i najbardziej rozbudowana w całym tym miejscu: ma około dwustu siedemdziesięciu metrów długości i średnio dziewięć metrów szerokości. Inne pomiary podają około trzystu metrów. Łączy główny plac ze Świętą Cenotą. Kiedy idziesz, pomyśl o tych, którzy nią chodzili: kapłanach, władcach, a może także gościach z odległych krain, bo wśród darów znalezionych w cenocie są złoto, miedź i jadeit, które nie pochodzą z Yucatán."
+    },
+    "guion_largo": {
+      "hash": "d1059db2ffaeea2c",
+      "texto": "Sacbé to droga, ale też pewna idea. W języku maya sacbé znaczy biała droga. Były to wyniesione, kamienne groble, które łączyły grupy budowli.\n\nTo jest Sacbé numer jeden, największa i najbardziej rozbudowana grobla w Chichén Itzá. Ma około dwustu siedemdziesięciu metrów długości i średnio dziewięć metrów szerokości. Inne pomiary podają około trzystu metrów. Różnica prawdopodobnie wynika ze sposobu pomiaru i warto zapamiętać przede wszystkim, że droga jest długa, prosta i szeroka.\n\nJej zadaniem było łączyć. Na jednym końcu leży wielki plac z Zamkiem i Boiskiem do gry w piłkę. Na drugim jest Święta Cenota. Prawdopodobnie przechodziły tędy procesje. Archeologia nie może tego potwierdzić, ale sugeruje to sam kształt drogi: prosta, wyniesiona i skierowana ku jednemu celowi.\n\nA ten cel wiele wyjaśnia. Święta Cenota przyjmowała dary przez całe stulecia. Wśród nich są złoto, miedź i jadeit. Żaden z tych materiałów nie występuje naturalnie w Yucatán, więc dotarły z innych regionów Ameryki Środkowej. To znaczy, że ta droga łączy też z o wiele większym światem. Kiedy mówi się, że Chichén Itzá było ośrodkiem pielgrzymkowym, to jedna ze wskazówek.\n\nTrzeba też uważać na często powtarzaną opinię: że cała ta droga miała wyłącznie charakter ceremonialny. Być może częściowo tak było. Ale sacbé łączyły też ze sobą różne części miasta. Te dwie funkcje się nie wykluczają.\n\nTa droga to dobra okazja, by pomyśleć o skali tego miejsca. Z placu nie widać cenoty. Trzeba przejść kilkaset metrów wśród drzew, żeby do niej dotrzeć. Ten dystans jest częścią doświadczenia: opuszcza się otwartą przestrzeń i wchodzi w bardziej zamkniętą.\n\nIdź spokojnie aż do końca. Tam czeka na ciebie [Święta Cenota](chi_14_cenote_sagrado), naturalna studnia o średnicy sześćdziesięciu metrów."
+    },
+    "retos_observacion": {
+      "hash": "f9eca1067d4b4565",
+      "texto": [
+        "Zwróć uwagę, jak prosta i wyniesiona jest droga w porównaniu z terenem po bokach",
+        "Spójrz na kamień pod stopami: to wapień, i dlatego droga nazywa się biała",
+        "Idąc, obserwuj, jak drzewa zamykają przestrzeń, aż pojawia się brzeg cenoty"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e0232a33e69ff209",
+      "texto": {
+        "Nazwa": "sacbé, „biała droga” w języku maya",
+        "Długość": "około 270 metrów (inne pomiary podają około 300)",
+        "Szerokość": "średnio około 9 metrów",
+        "Łączy": "główny plac ze Świętą Cenotą",
+        "Znaczenie": "to największa i najbardziej rozbudowana grobla w Chichén Itzá",
+        "Powiązana informacja": "wśród darów z cenoty są złoto, miedź i jadeit, które nie pochodzą z Yucatán"
+      }
+    },
+    "faq_mito": {
+      "hash": "3e1675f174763f4b",
+      "texto": {
+        "pregunta": "Mit: Sacbé były tylko drogami dla procesji religijnych.",
+        "respuesta": "Rzeczywistość: Prawdopodobnie używano ich podczas rytuałów, ale łączyły też różne części miejsca. Te dwie funkcje się nie wykluczają."
+      }
+    }
+  }
+}

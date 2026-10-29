@@ -1,0 +1,56 @@
+{
+  "id": "chi_01_muralla_acceso",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "835a9b8786305840",
+      "texto": "Wielka Niwelacja i centrum ceremonialne"
+    },
+    "frase_gancho": {
+      "hash": "7fe3d488e8494c49",
+      "texto": "Sztuczna esplanada, wyrównywana kamień po kamieniu, aby centrum miasta stanęło na jednej płaszczyźnie."
+    },
+    "puente_narrativo": {
+      "hash": "89169c7cd73c8990",
+      "texto": "Przejdź na środek esplanady i zatrzymaj się przed [Zamkiem](chi_02_castillo_general), wielką piramidą, która góruje nad placem."
+    },
+    "guion_corto": {
+      "hash": "728e5bfd6649227e",
+      "texto": "Wygląda na naturalną równinę, ale nią nie jest. Esplanada, po której stąpasz, nazywa się Wielka Niwelacja. To sztuczna platforma o długości około sześciuset metrów i szerokości czterystu, a według raportu technicznego Uniwersytetu Kalifornijskiego w San Diego jest to największa budowla Chichén Itzá. Pierwotny teren miał skałę i nierówności. Budowniczowie zasypali go, wyrównali i pokryli podłoże stiukiem oraz sascabem, białą ziemią wapienną. Posadzki mają łagodny spadek, zaledwie jeden procent, aby woda deszczowa spływała tam, dokąd miała. Na tej wielkiej scenie wzniesiono Zamek, Boisko do gry w piłkę i Świątynię Wojowników."
+    },
+    "guion_largo": {
+      "hash": "bf3c2733ef4d63ab",
+      "texto": "Warto zatrzymać się na chwilę. Prawie nikt nie zdaje sobie sprawy, że ziemia, po której stąpasz, jest dziełem inżynierii.\n\nNaturalny teren tej części Yucatánu jest nierówny, z wystającymi skałami i zagłębieniami. Budowniczowie wyrównali go, aby utrzymał wielkie zespoły budowli, a największy wysiłek włożono w okolice Zamku. Raport techniczny projektu Uniwersytetu Kalifornijskiego w San Diego z roku dwa tysiące dziewiątego szacuje tę przestrzeń na około sześćset metrów na czterysta. Nazywa ją największą budowlą Chichén Itzá i jedną z największych platform świata Majów.\n\nTo dzieło powstawało etapami: badacze proponują dziesięć. W niektórych etapach nasypano warstwę ziemi i kamieni na naturalną skałę, a w innych wyrównano wychodnie skalne sascabem. Stiukowe posadzki nie były białe, jak zwykle się wyobrażamy. W różnych etapach używano stiuku żółtego i czerwonego. A wszystkie posadzki mają spadek wynoszący mniej więcej jeden procent. Między Zamkiem a kolumnadą, którą zobaczysz dalej, posadzka obniża się o około siedemdziesiąt pięć centymetrów na odcinku około siedemdziesięciu siedmiu metrów. To spadek prawie niezauważalny, pomyślany tak, aby woda deszczowa spływała tam, dokąd chcieli budowniczowie.\n\nObliczono też czas. Największe etapy tej platformy odpowiadają temu, co archeolodzy nazywają fazą Sotuta, między rokiem osiemsetnym a tysiąc pięćdziesiątym lub tysiąc setnym. Cały proces budowy trwałby krócej niż pięćset lat, a prawdopodobnie nie dłużej niż trzysta.\n\nTa esplanada miała też mur. Był to wał obronny otaczający centrum ceremonialne. Archeolodzy odkopali odcinek długości około dziewięćdziesięciu metrów między Wielkim Boiskiem do gry w piłkę a obecnym zachodnim wejściem dla pieszych. Był to mur wysoki i cienki, bez parapetu od wewnątrz, dlatego uważa się, że jego funkcja wykraczała poza obronę. Później dobudowano do niego przyporę z kamieni użytych ponownie z innych budowli, i to już interpretuje się jako umocnienie obronne.\n\nTo wszystko zmienia to, co widzisz. Budowle nie stoją na równinie. Stoją na przemyślanej platformie, ze spadkami, kolorowymi posadzkami i zbudowaną granicą. To scena, na której rozgrywało się to, co najważniejsze w życiu miasta.\n\nTeraz idź na środek. Przed tobą wznosi się [Zamek](chi_02_castillo_general), budowla, która porządkuje cały ten plac."
+    },
+    "retos_observacion": {
+      "hash": "a7d7da0b43e0134a",
+      "texto": [
+        "Spójrz na skraj esplanady i poszukaj miejsca, w którym zaczyna się różnica poziomów z naturalnym terenem",
+        "Wyobraź sobie posadzkę pokrytą żółtym lub czerwonym stiukiem, a nie dzisiejszą zieloną trawą",
+        "Przejdź na środek placu i poszukaj sylwetki Zamku"
+      ]
+    },
+    "especificaciones": {
+      "hash": "33412e54bcacba79",
+      "texto": {
+        "Nazwa": "Wielka Niwelacja",
+        "Przybliżone wymiary": "600 × 400 metrów (UC San Diego, 2009)",
+        "Proponowane etapy budowy": "10",
+        "Nachylenie posadzek": "około 1%",
+        "Stiuk posadzek": "żółty i czerwony, zależnie od etapu",
+        "Odkopany mur obronny": "około 90 metrów między Wielkim Boiskiem do gry w piłkę a zachodnim wejściem dla pieszych"
+      }
+    },
+    "faq_mito": {
+      "hash": "3052c5f83760e118",
+      "texto": {
+        "pregunta": "Mit: Esplanada to naturalna równina porośnięta trawą.",
+        "respuesta": "Rzeczywistość: To sztuczna platforma, zbudowana etapami z nasypów, stiukowych posadzek i łagodnego spadku dla wody deszczowej. Trawa jest dzisiejsza."
+      }
+    }
+  }
+}

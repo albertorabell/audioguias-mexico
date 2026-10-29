@@ -1,0 +1,56 @@
+{
+  "id": "chi_19_grupo_mil_columnas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9d78d8ea0a3e8d37",
+      "texto": "Wielki Plac Tysiąca Kolumn"
+    },
+    "frase_gancho": {
+      "hash": "3056d52a533c7607",
+      "texto": "Las filarów: ponad dwieście czterdzieści w jednej kolumnadzie."
+    },
+    "puente_narrativo": {
+      "hash": "09ec4387a33f03a6",
+      "texto": "Przejdź się spokojnie po lesie kolumn, w cieniu. Kiedy skończysz, ruszaj do kolejnego przystanku na swojej trasie."
+    },
+    "guion_corto": {
+      "hash": "653793cca26b973e",
+      "texto": "To jest plac Tysiąca Kolumn. Nazwa przesadza, ale niewiele. Archeolog Peter Schmidt naliczył w badaniu z roku dwa tysiące trzynaście dwieście czterdzieści trzy kolumny i trzynaście pilastrów, w pięciu rzędach, tylko w kolumnadzie północnej. Ta kolumnada ma osiemdziesiąt dziewięć metrów ze wschodu na zachód i dwadzieścia dziewięć z północy na południe, i stoi na niskiej platformie. Cały plac ma około dwudziestu czterech tysięcy metrów kwadratowych, czyli nieco więcej niż dwa hektary. Na kilku kolumnach zachowały się płaskorzeźby postaci o wyglądzie wojowników."
+    },
+    "guion_largo": {
+      "hash": "85cd0f81d819b54d",
+      "texto": "Przed tobą rozciąga się jeden z najdziwniejszych placów Chichén Itzá, bo jego urok tworzą nie piramidy, lecz filary.\n\nZacznijmy od nazwy. Nazwa mówi o tysiącu kolumn, ale ta liczba nie jest dokładna: to sposób, by powiedzieć „bardzo wiele”. To, co naprawdę policzył archeolog Peter Schmidt w badaniu z roku dwa tysiące trzynaście, wygląda tak. Kolumnada północna, którą nazywa strukturą dwa D dziesięć, wznosi się na niskiej platformie o wysokości mniejszej niż metr siedemdziesiąt. Ma osiemdziesiąt dziewięć metrów na dwadzieścia dziewięć, dwoje schodów, a stało na niej dwieście czterdzieści trzy kolumny i trzynaście pilastrów, rozmieszczonych w pięciu rzędach.\n\nBadanie Gonzáleza i jego współpracowników z roku dwa tysiące szesnaście szacuje cały plac na około dwadzieścia trzy tysiące dziewięćset dziewięćdziesiąt jeden metrów kwadratowych, czyli nieco więcej niż dwa hektary. Opisuje go jako plac zamknięty, o ograniczonym dostępie, otoczony budowlami z galeriami o kilku rzędach kolumn. To samo badanie umieszcza w tym zespole łaźnię parową i trzy boiska do gry w piłkę. Ta łaźnia ma własny przystanek na dłuższych trasach.\n\nSchmidt odzyskał cztery rzeźbione kolumny. Zdobiona część każdej z nich ma od dwóch i pół do trzech metrów, a płaskorzeźby układają się w poziome pasy, jeden nad drugim. Ich postaci noszą strój wojskowy. Stąd bierze się propozycja Schmidta: że mogą przedstawiać specjalną straż albo oddział wojskowy, a nie przybyłą z zewnątrz grupę etniczną. To hipoteza. Przez lata mówiło się o Toltekach, a ta interpretacja proponuje coś innego.\n\nDokumentację tych płaskorzeźb rozpoczęli archeolodzy z Instytutu Carnegie pod kierunkiem Sylvanusa Morleya. Projekt Archeologiczny Chichén Itzá udokumentował je ponownie między rokiem tysiąc dziewięćset osiemdziesiątym trzecim a dwutysięcznym.\n\nKiedy skończysz, ruszaj do kolejnego przystanku na swojej trasie."
+    },
+    "retos_observacion": {
+      "hash": "15a626d9dfd66516",
+      "texto": [
+        "Przejdź się między kolumnami i policz jeden rząd: zobaczysz, ile ich potrzeba, by utrzymać tak długi dach",
+        "Poszukaj kolumny z płaskorzeźbami i odszukaj poziome pasy z postaciami",
+        "Wyobraź sobie dach i cień, jaki dawał tym, którzy się tu gromadzili"
+      ]
+    },
+    "especificaciones": {
+      "hash": "912aa735992d92eb",
+      "texto": {
+        "Kolumnada północna": "89 × 29 m, na platformie o wysokości do 1,70 m",
+        "Kolumny i pilastry": "243 kolumny i 13 pilastrów w pięciu rzędach",
+        "Cały plac": "około 23 991 m² (nieco więcej niż dwa hektary)",
+        "Rzeźbione kolumny odzyskane przez Schmidta": "cztery, o zdobionej części od 2,50 do 3 m",
+        "W obrębie zespołu": "łaźnia parowa i trzy boiska do gry w piłkę",
+        "Badania": "Schmidt, 2013; González i in., 2016"
+      }
+    },
+    "faq_mito": {
+      "hash": "327a20c445543ea0",
+      "texto": {
+        "pregunta": "Mit: Jest dokładnie tysiąc kolumn.",
+        "respuesta": "Rzeczywistość: To nazwa współczesna. Kolumnada północna miała 243 kolumny i 13 pilastrów, a inne opisy mówią o około 200."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chi_09_banquetas_decapitacion",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fabb47fec5083adf",
+      "texto": "Panele dekapitacji"
+    },
+    "frase_gancho": {
+      "hash": "e6da41f967a5b673",
+      "texto": "Sześć paneli powtarza tę samą scenę: gracz z głową innego gracza i sześć wężów krwi."
+    },
+    "puente_narrativo": {
+      "hash": "2be332556f9c70a3",
+      "texto": "Przykucnij przy ławach i przesuń wzrokiem po scenach. Gdy skończysz, ruszaj do kolejnego przystanku swojej trasy."
+    },
+    "guion_corto": {
+      "hash": "fbf9d78e9b3ebee4",
+      "texto": "Przykucnij przy podstawie bocznych platform. Na ławach widać scenę, która powtarza się sześć razy, po trzy z każdej strony. To dwie drużyny graczy wraz z kapitanami i wielka piłka z krzemienia pośrodku, a w niej czaszka. Po jednej stronie sceny jeden gracz trzyma odciętą głowę drugiego, który klęczy i krwawi. Krew wypływa jak sześć węży, a między nimi rośnie roślina. Badacze nie są zgodni, czy ścięty był zwycięzcą, czy przegranym. Jedna z badaczek widzi w tej scenie drzewo świata. Szczegóły są wciąż badane."
+    },
+    "guion_largo": {
+      "hash": "08c73639da6b2e35",
+      "texto": "Stoisz przed najsłynniejszą sceną Wielkiego Boiska do Gry w Piłkę. Powtarza się sześć razy, po trzy na każdej bocznej platformie.\n\nWedług archeolożki Adriany Velázquez Morlet scena ukazuje ceremonialną grę dwóch drużyn po sześciu graczy, a do tego ich kapitanów. Pośrodku leży wielka piłka z krzemienia, a w niej czaszka. Ta czaszka mówi, a autorka rozpoznaje w niej way, ducha towarzysza, po kosmyku włosów na głowie.\n\nPo jednej stronie sceny jeden gracz trzyma odciętą głowę drugiego. Po drugiej stronie widać ściętego kapitana, który klęczy i krwawi. Z jego szyi wychodzi sześć węży, a autorka rozpoznaje w nich rodzaj węża zwanego wak kan, który miałby przedstawiać drzewo świata. Między wężami rośnie roślina dyni, którą także Linda Schele odczytała jako drzewo świata. Pozostali gracze przyglądają się scenie, a woluty wokół nich sugerują, że śpiewali lub recytowali.\n\nJedno pytanie pozostaje otwarte: kim jest ścięty. Velázquez Morlet odczytuje tego, który trzyma głowę, jako zwycięzcę, a ściętego jako pokonanego. Ale badacze nie są zgodni, czy złożony w ofierze był zwycięzcą, czy przegranym w grze, i nie ma odpowiedzi przyjętej przez wszystkich.\n\nInny badacz, Enrique Vela, mówi coś podobnego: że płaskorzeźby na ławach ukazują sceny ofiar z graczy.\n\nTrzeba jasno powiedzieć, że to jedno z odczytań i że szczegóły sceny są wciąż badane. To, co widzisz, jest potężnym obrazem: sceną ofiary połączoną z ideą odrodzenia, bo z krwi wyrasta roślina. Dlatego często mówi się o grze jako o sposobie proszenia o urodzaj i podtrzymywania porządku świata.\n\nTa scena nie była jedyna. W Świątyni Północnej, na końcu boiska, jest inny panel z ponad czterdziestoma postaciami. A pierścienie, które widziałeś na poprzednim przystanku, mają splecione węże, podobnie jak te.\n\nPoświęć chwilę na przyjrzenie się szczegółom. Zobaczysz twarze z profilu, nakrycia głowy, ozdoby szyi, fałdy szat. To płaskorzeźby wykonane z wielką starannością i wciąż je odczytasz, choć kamień stracił już farbę.\n\nGdy będziesz gotowy, ruszaj do kolejnego przystanku swojej trasy."
+    },
+    "retos_observacion": {
+      "hash": "327146aa12ebd663",
+      "texto": [
+        "Znajdź wielką piłkę z krzemienia pośrodku sceny, z czaszką w środku",
+        "Odszukaj sześć węży wychodzących z szyi klęczącego kapitana",
+        "Zwróć uwagę na roślinę rosnącą między wężami, symbol odrodzenia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e06dbf56dd289a7a",
+      "texto": {
+        "Scena": "powtarza się sześć razy, po trzy na każdej bocznej platformie",
+        "Gracze": "dwie drużyny po sześciu graczy, a do tego ich kapitanowie",
+        "Element centralny": "wielka piłka z krzemienia z mówiącą czaszką",
+        "Krew": "sześć węży wak kan; między nimi rośnie roślina dyni",
+        "Odczytanie": "Adriana Velázquez Morlet",
+        "Interpretacja": "to odczytanie jednej z badaczek, a szczegóły są wciąż badane"
+      }
+    },
+    "faq_mito": {
+      "hash": "c20655e7987bb040",
+      "texto": {
+        "pregunta": "Mit: Wiadomo na pewno, że ścięty z paneli był przegranym w grze.",
+        "respuesta": "Rzeczywistość: Badacze nie są zgodni, czy ścięty był zwycięzcą, czy przegranym. Odczytanie Velázquez Morlet widzi zwycięzcę trzymającego głowę pokonanego, ale szczegóły sceny są wciąż badane."
+      }
+    }
+  }
+}

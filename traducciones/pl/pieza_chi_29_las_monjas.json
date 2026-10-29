@@ -1,0 +1,57 @@
+{
+  "id": "chi_29_las_monjas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e0d005c4ea4cde31",
+      "texto": "Budynek Zakonnic"
+    },
+    "frase_gancho": {
+      "hash": "475d498c34e10fd7",
+      "texto": "Pałac z nazwą klasztoru, wznoszony w co najmniej sześciu etapach."
+    },
+    "puente_narrativo": {
+      "hash": "19b16a457b1a7166",
+      "texto": "Obejdź budynek spokojnie, żeby zobaczyć go z różnych stron. Gdy skończysz, przejdź do kolejnego przystanku na swojej trasie."
+    },
+    "guion_corto": {
+      "hash": "6510c0af105d0a21",
+      "texto": "To jest Budynek Zakonnic. Hiszpanie nadali mu tę nazwę, być może dlatego, że liczne pomieszczenia przypominały im ich klasztory, ale w rzeczywistości był to pałac rządzący. Budowano go w co najmniej sześciu etapach, ma trzy poziomy i łączy style majowsko-tolteckie oraz Puuc. Drugie piętro ma długie inskrypcje na nadprożach i kamienne mozaiki w późnym stylu Puuc. Teksty często wspominają o władcy K'ak'upakalu."
+    },
+    "guion_largo": {
+      "hash": "43b39cc587248af1",
+      "texto": "Nazwa jest myląca, dlatego warto zacząć od tego, czym ten budynek nie był. Budynek Zakonnic nie był klasztorem. Był pałacem rządzącym. Prawdopodobne wyjaśnienie nazwy jest takie, że budynki z tak wieloma pomieszczeniami przypominały Hiszpanom ich klasztory. To możliwość, nie fakt.\n\nINAH umieszcza ten zespół w innej grupie niż Główny Plac. Tutaj dominuje architektura Puuc i Chenes. Na wielkim placu natomiast budynki są w stylu majowsko-tolteckim. Ta różnica pomaga zrozumieć, że w Chichén Itzá istniało jednocześnie kilka tradycji. Do tej grupy należą Dom Zakonnic, jego Aneks, Kościół oraz boisko do gry w piłkę, które nie zostało przebadane wykopaliskowo.\n\nGłówny budynek miał co najmniej sześć etapów budowy, ze zmianami formy, dekoracji i stylu, co świadczy o długim okresie zamieszkiwania. Ma trzy poziomy, które łączą style majowsko-tolteckie i Puuc. Na drugim piętrze znajdują się długie inskrypcje na nadprożach, malowidła ścienne i kamienne mozaiki w późnym stylu Puuc. Według niektórych opisów pierwotna świątynia, już rozbudowana, mierzy około pięćdziesięciu metrów na dwadzieścia trzy, a wysoka część najnowszego budynku około dziesięciu metrów.\n\nBudynek jest zwrócony na północ i składa się z trzech części: samego Budynku Zakonnic, skrzydła wschodniego i skrzydła południowo-wschodniego. Teksty hieroglificzne tego zespołu często wspominają o władcy K'ak'upakalu. INAH mówi ponadto o wzorach plecionej maty, symbolu władzy, oraz o tronie w kształcie dwugłowego jaguara obok głównych schodów.\n\nNajwcześniejsze znane rysunki wykonał Frederick Catherwood, uczestnik wyprawy Johna Stephensa, w latach od tysiąc osiemset trzydziestego dziewiątego do tysiąc osiemset czterdziestego. Potem pojawiły się fotografie Alfreda Maudslaya. Maudslay opublikował nadproża w sposób niepełny, a dziś są one bardzo zniszczone.\n\nIstnieje spór co do dat. Niektórzy umieszczają ten zespół w Klasyku Terminalnym, a karta INAH podaje dla tej grupy przybliżoną datę od sześciuset do ośmiuset lat naszej ery. Inskrypcję z aneksu datuje się na około roku osiemset osiemdziesiątego. Nie poprzestawaj na jednej liczbie.\n\nObejdź budynek spokojnie. Gdy dojdziesz do strony wschodniej, zwróć uwagę na maski Wschodniego Aneksu."
+    },
+    "retos_observacion": {
+      "hash": "647e5425756f744b",
+      "texto": [
+        "Przyjrzyj się fasadzie i poszukaj elementów geometrycznych oraz masek w stylu Puuc",
+        "Porównaj ten budynek ze Świątynią Wojowników: to dwie różne tradycje",
+        "Poszukaj obok głównych schodów tronu w kształcie dwugłowego jaguara"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78713fbcc8e9ae09",
+      "texto": {
+        "Styl": "Puuc i Chenes (INAH); majowsko-tolteckie i Puuc",
+        "Etapy": "co najmniej 6",
+        "Poziomy": "3",
+        "Orientacja": "zwrócony na północ",
+        "Części": "Budynek Zakonnic, skrzydło wschodnie (Aneks) i skrzydło południowo-wschodnie",
+        "Przybliżone wymiary": "około 50 × 23 m pierwotna świątynia już rozbudowana; około 10 m wysoka część najnowszego budynku",
+        "Pierwsze rysunki": "Catherwood (1839-1840); fotografie Maudslaya"
+      }
+    },
+    "faq_mito": {
+      "hash": "14cdfb3bb6535ab1",
+      "texto": {
+        "pregunta": "Mit: Budynek Zakonnic był klasztorem majowskich kobiet.",
+        "respuesta": "Rzeczywistość: Tę nazwę nadali mu Hiszpanie. To pałac rządzący, z tekstami wspominającymi o władcy."
+      }
+    }
+  }
+}

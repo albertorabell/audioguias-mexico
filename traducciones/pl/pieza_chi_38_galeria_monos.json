@@ -1,0 +1,57 @@
+{
+  "id": "chi_38_galeria_monos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "abd897725ed4146e",
+      "texto": "Galeria Małp"
+    },
+    "frase_gancho": {
+      "hash": "a7bc72ae119bf235",
+      "texto": "Trzydziestosześciometrowa galeria z ponad sześćdziesięcioma wyrzeźbionymi małpami i ptakami, które je atakują."
+    },
+    "puente_narrativo": {
+      "hash": "7b2c809aa3a8afc3",
+      "texto": "Tu kończy się wizyta w Starym Chichén. Kiedy skończysz oglądać galerię, wróć ze swoim przewodnikiem drogą, którą tu przyszedłeś."
+    },
+    "guion_corto": {
+      "hash": "f32e69f40f82d29a",
+      "texto": "Galeria Małp, czyli Świątynia Małp, znajduje się po zachodniej stronie południowo-zachodniego placu Starego Chichén. Ma prawie trzydzieści sześć metrów długości, pięć i pół metra szerokości i około czterech i pół metra wysokości. Na jej profilach widnieje ponad sześćdziesiąt małp w wysokim reliefie. Fryz składa się z szesnastu wielkich paneli: na sześciu siedzą panowie na niebiańskich pasmach, a na dziesięciu ptaki atakują tańczące małpy. Jednego z panów odczytano jako Dziesięć Jeleń."
+    },
+    "guion_largo": {
+      "hash": "93bd315f86679e93",
+      "texto": "Ta galeria sama wyjaśnia swoją nazwę: wystarczy spojrzeć na fasadę.\n\nWedług raportu Petera Schmidta i Rocío Gonzáles de la Mata z roku dwa tysiące siódmego struktura pięć C sześć leży po zachodniej stronie południowo-zachodniego placu. Projekt Archeologiczny Chichén Itzá wykopał ją i częściowo odrestaurował między rokiem tysiąc dziewięćset dziewięćdziesiątym dziewiątym a dwa tysiące piątym. Ma prawie trzydzieści sześć metrów z północy na południe i pięć metrów czterdzieści pięć centymetrów szerokości, a jej zewnętrzna wysokość wynosi cztery i pół metra. Po stronie wschodniej, otwartej na plac, stoi dziewięć kolumn, a za nimi drugi rząd z dziesięcioma. Karl Ruppert w roku tysiąc dziewięćset pięćdziesiątym drugim naliczył tylko osiem.\n\nAby zrozumieć nazwę, wystarczy zobaczyć, co ta galeria opowiada. Ponad sześćdziesiąt małp w wysokim reliefie zdobi jej profile. Fryz ma szesnaście wielkich paneli. Na sześciu z nich główni panowie siedzą na niebiańskich pasmach i trzymają łodygi zakończone głowami węży. Ich glify odczytuje się jako dziesięć pies lub dziesięć jeleń, choć specjaliści zostawiają to odczytanie ze znakiem zapytania. Na pozostałych dziesięciu panelach postacie ptakoludzi, być może przebrane, atakują tańczące małpy. Każdy narożnik ma dwie nałożone na siebie maski. Badanie z roku dwa tysiące czternastego wiąże pana z reliefu z Dziesięć Jeleń, najwyższym rangą mieszkańcem tego zespołu.\n\nCo do jej przeznaczenia, Schmidt i González de la Mata odrzucają to, co najbardziej oczywiste. Znalezione przedmioty nie pasują ani do domu, ani do sanktuarium, ani do posterunku wojskowego. Porównują ją z podcieniami dla pielgrzymów z epoki kolonialnej, galeriami, w których nocowano i pracowano, i proponują, że strona otwarta na plac pozwalała nadzorować pracę z zewnątrz.\n\nGaleria skończyła źle. Drewniane belki spadły i spłonęły, a za prawdopodobne uważa się, że ogień został wzniecony celowo. Potem nastąpiło krótkie zasiedlenie. Na powierzchni zebrano prawie cztery tysiące pięćset skorup, prawie wszystkie z fazy Sotuta.\n\nW pobliżu chultún, czyli cysterna wykuta w skale, ma około pięciu metrów głębokości. Blisko dna znaleziono sześć czaszek. Interpretuje się to jako pospieszne sprzątanie po katastrofie.\n\nTu kończy się wizyta w Starym Chichén. Wróć ze swoim przewodnikiem drogą, którą tu przyszedłeś."
+    },
+    "retos_observacion": {
+      "hash": "5170575d86256d6e",
+      "texto": [
+        "Poszukaj na profilach małp w wysokim reliefie i policz kilka z nich",
+        "Odszukaj fryz z ptakami atakującymi małpy i siedzącymi panami",
+        "Spójrz na kolumny po stronie otwartej na plac: jest ich dziewięć"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c8060c9a73c89c9e",
+      "texto": {
+        "Struktura": "5C6, zachodnia strona południowo-zachodniego placu",
+        "Wymiary": "prawie 36 m długości, 5,45 m szerokości, 4,50 m wysokości",
+        "Kolumny po stronie wschodniej": "9, a za nimi drugi rząd z 10",
+        "Fryz": "16 paneli; 6 z siedzącymi panami na niebiańskich pasmach i 10 z ptakami atakującymi małpy",
+        "Małpy na profilach": "ponad 60",
+        "Prace": "wykopaliska i częściowa restauracja, 1999-2005",
+        "Postać": "Dziesięć Jeleń (odczytanie ze znakiem zapytania)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c259fa225bffe34a",
+      "texto": {
+        "pregunta": "Mit: Małpy z galerii były prawdziwymi małpami hodowanymi w świątyni.",
+        "respuesta": "Rzeczywistość: To płaskorzeźby. Ponad 60 małp zdobi profile, a fryz przedstawia ptaki atakujące tańczące małpy."
+      }
+    }
+  }
+}

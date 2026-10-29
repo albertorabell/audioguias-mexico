@@ -1,0 +1,56 @@
+{
+  "id": "chi_02_castillo_general",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1bd1fd9856689c7d",
+      "texto": "Zamek (Piramida Kukulcána)"
+    },
+    "frase_gancho": {
+      "hash": "53bb7013dd4d1a8b",
+      "texto": "Trzydziestometrowa piramida, w której spotykają się kalendarz, niebo i woda ukryta pod ziemią."
+    },
+    "puente_narrativo": {
+      "hash": "9a6b239ee20123d4",
+      "texto": "Zostań przed schodami północnymi, tymi z głowami węży. Kiedy skończysz patrzeć, idź dalej, do kolejnego przystanku na swojej trasie."
+    },
+    "guion_corto": {
+      "hash": "2a2bff3292c10405",
+      "texto": "Stoisz przed Zamkiem, świątynią Kukulcána, Węża Pierzastego. Ma około dwudziestu czterech metrów wysokości, a świątynia na szczycie dodaje jeszcze sześć. Podstawa to kwadrat o boku około pięćdziesięciu pięciu metrów. Każde z czterech schodów ma mniej więcej dziewięćdziesiąt jeden stopni. Jeśli je zsumujesz, razem z platformą na górze, wychodzi trzysta sześćdziesiąt pięć, tyle samo co dni w roku. Ta liczba skłoniła niektórych do myślenia o kamiennym kalendarzu, choć specjaliści uważają, że jej związek z rytuałami znaczy więcej niż arytmetyka. Mniej więcej od roku dwa tysiące szóstego INAH nie pozwala wchodzić na górę. Ale samo obejście piramidy dookoła to już sposób, by ją odczytać."
+    },
+    "guion_largo": {
+      "hash": "15b1351f42e928ea",
+      "texto": "Zamek jest prawdopodobnie najczęściej fotografowaną budowlą Meksyku. Warto jednak oglądać go powoli, bo każdy jego wymiar zdaje się opowiadać o czasie i kosmosie.\n\nZacznijmy od liczb. Korpus piramidy ma około dwudziestu czterech metrów, a świątynia na szczycie dodaje około sześciu, co daje razem około trzydziestu. Podstawa to kwadrat o boku pięćdziesięciu pięciu metrów i trzydziestu centymetrów. Z każdej strony prowadzą schody liczące mniej więcej dziewięćdziesiąt jeden stopni. Jeśli platformę na górze policzyć jako ostatni stopień, wychodzi trzysta sześćdziesiąt pięć. Strona południowa jest bardzo zerodowana, dlatego ta liczba jest przybliżona. I chociaż przypomina ona rok słoneczny liczący trzysta sześćdziesiąt pięć dni, prawdopodobnie wiąże się przede wszystkim z rytuałami.\n\nKrąży też wiele innych wyjaśnień. Zwykle mówi się, że dziewięć tarasów, przedzielonych schodami na pół, tworzy osiemnaście sekcji, jak osiemnaście miesięcy słonecznego kalendarza Majów, a każda ściana ma pięćdziesiąt dwa panele, jak pięćdziesiąt dwa lata cyklu koła kalendarzowego. To odczytania bardzo często powtarzane i warto słuchać ich jako interpretacji, a nie jako zmierzonych danych.\n\nJest jeszcze jedna wskazówka w jej orientacji. Piramida nie jest ustawiona dokładnie według stron świata. Jedno z wyjaśnień zakłada, że jej główna ściana wskazuje dwa zachody Słońca: dwudziestego maja i dwudziestego czwartego lipca. Między jednym a drugim mija sześćdziesiąt pięć i trzysta dni, czyli wielokrotności trzynastu i dwudziestu, które są liczbami kalendarza rytualnego. Inna świątynia, ta w Tulum, wyznacza te same daty, a zbieżność pozostałych ścian ze zenitem i nadirem prawdopodobnie jest przypadkowa.\n\nSpiera się też o to, kiedy ją zbudowano. Mówi się o wiekach od ósmego do dwunastego, a dla ostatniego etapu istnieją dwa szacunki: między rokiem dziewięćsetnym a tysięcznym albo jedenasty wiek. Nie ma jednej pewnej daty.\n\nLiczy się także jej niedawna historia. Instytut Carnegie poprosił o pozwolenie na pracę w tysiąc dziewięćset dwudziestym czwartym roku, a renowację rozpoczął w tysiąc dziewięćset dwudziestym siódmym, razem z meksykańskimi archeologami. W latach trzydziestych, aby wejść do wnętrza i je zbadać, wykuto przejście w północno-wschodnim narożniku schodów północnych. Przez wiele lat turyści mogli też wchodzić na górę. Mniej więcej w roku dwa tysiące szóstym, po śmiertelnym upadku jednej z odwiedzających, INAH zamknął wejście na szczyt. Dziś możesz obejść budowlę dookoła, ale nie możesz ani wejść na górę, ani do środka.\n\nA to jeszcze nie wszystko, bo pod spodem kryje się więcej. Ta piramida skrywa w sobie inną, starszą piramidę, a pod nią znajduje się jaskinia z wodą. Część tej historii opowiadają inne przystanki na trasie.\n\nNa razie zostań tu przez chwilę i spójrz na schody północne, te z głowami węży."
+    },
+    "retos_observacion": {
+      "hash": "814b6c43c5a59b61",
+      "texto": [
+        "Znajdź dwie kamienne głowy węży u stóp schodów północnych",
+        "Policz dziewięć tarasów: schody dzielą je na pół i tworzą osiemnaście sekcji",
+        "Obejdź budowlę dookoła i porównaj bardziej zerodowaną stronę południową ze ścianą północną"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5dc286df61145e29",
+      "texto": {
+        "Wysokość": "około 24 m podstawy plus 6 m świątyni, razem około 30 m",
+        "Podstawa": "kwadratowa, 55,3 m na bok",
+        "Stopnie": "około 91 z każdej strony; razem z platformą na górze daje to 365 (w przybliżeniu)",
+        "Epoka": "między VIII a XII wiekiem; ostatni etap datuje się na około 900-1000 lub na XI wiek",
+        "Renowacja": "od 1927 roku, z udziałem Instytutu Carnegie i meksykańskich archeologów",
+        "Dostęp": "mniej więcej od 2006 roku nie wolno wchodzić na górę ani do środka"
+      }
+    },
+    "faq_mito": {
+      "hash": "dafe28e71e1d6526",
+      "texto": {
+        "pregunta": "Mit: Można wejść na szczyt Zamku i do jego wewnętrznej świątyni.",
+        "respuesta": "Rzeczywistość: Mniej więcej od 2006 roku INAH zamknął wejście na szczyt i do wnętrza piramidy. Można ją obejść i obejrzeć z bliska, ale nie wolno wchodzić na górę."
+      }
+    }
+  }
+}

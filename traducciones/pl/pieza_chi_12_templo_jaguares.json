@@ -1,0 +1,56 @@
+{
+  "id": "chi_12_templo_jaguares",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0c6b3f3927b517dd",
+      "texto": "Świątynia Jaguarów"
+    },
+    "frase_gancho": {
+      "hash": "50da5f977047cf94",
+      "texto": "Mała świątynia z muralami przedstawiającymi bitwy i druga, poniżej, z procesją ponad stu postaci."
+    },
+    "puente_narrativo": {
+      "hash": "6953c20041fbfbd8",
+      "texto": "Gdy skończysz oglądać świątynie przy boisku, przejdź do kolejnego przystanku na swojej trasie."
+    },
+    "guion_corto": {
+      "hash": "d120546e59de0150",
+      "texto": "Znajdują się tu dwie świątynie, jedna nad drugą. Górna Świątynia Jaguarów ma szesnaście metrów wysokości. W jej wnętrzu są murale z bitwami, nad którymi czuwają dwaj przodkowie: Kapitan Wąż i Kapitan Tarcza Słoneczna, zwany też Dyskiem Słonecznym. Niżej, na poziomie placu, Dolna Świątynia to niewielka komora, długa na trochę ponad dziewięć metrów. Patrzy na wschód, w stronę Świątyni Wojowników. W jej wnętrzu zachowała się procesja na sześciu poziomach, z której przetrwało sto jedenaście stojących postaci. Badacze interpretują ją jako wstępowanie władcy na szczyt."
+    },
+    "guion_largo": {
+      "hash": "4d99211b83ebe962",
+      "texto": "Te dwie świątynie, jedna nad drugą, należą do zespołu Gry w Piłkę i opowiadają historię wojny i władzy.\n\nZacznijmy od góry. Według badania technicznego z roku dwa tysiące siedemnastego Górna Świątynia Jaguarów ma około siedemnastu metrów z północy na południe i około jedenastu ze wschodu na zachód, a jej całkowita wysokość wynosi około szesnastu metrów. W jej wnętrzu zachowały się murale ze scenami bitew Itzów. Głównych postaci jest dwie: Kapitan Wąż i Kapitan Dysk Słoneczny, zwany też Tarczą Słoneczną, zależnie od tego, kto je nazywa. To współczesne imiona postaci, które specjaliści interpretują jako przodków. Drewniane nadproże zachowało się w pierwotnym położeniu.\n\nSpecjalistka Linda Schele zaproponowała pewną interpretację. Według niej ta świątynia przypomina wojny, które dały początek imperium Itzów, a jej godła łączą grę z Tarczą z Krzemienia i Wężem Wojny. To interpretacja, ale pokazuje, jak ściśle dla dawnych mieszkańców splatały się gra, wojna i historia.\n\nA teraz spuść wzrok. Na poziomie placu znajduje się Dolna Świątynia Jaguarów. To niewielka komora: około dziewięciu i pół metra długości, trzy szerokości i cztery i pół wysokości. Jej fasada patrzy na wschód, w stronę Świątyni Wojowników. Widnieje na niej dziesięć postaci.\n\nNajbardziej imponujące jest to, co w środku. Ściany i sklepienia pokrywa procesja ułożona na sześciu poziomach. Przetrwało sto jedenaście stojących postaci. Badacze interpretują tę scenę jako wstępowanie władcy na szczyt. Postać centralna znajdowałaby się na trzecim poziomie ściany zachodniej. Proponują też, że przodek K'ak'upakal jest przedstawiony jako Kapitan Tarcza Słoneczna. To hipotezy i warto słuchać ich właśnie w ten sposób.\n\nJest jeszcze jedna wskazówka dotycząca daty. Na Wielkim Boisku do Gry w Piłkę znajduje się okrągły kamień z datą Długiej Rachuby, która odpowiada siedemnastemu listopada roku osiemset sześćdziesiątego czwartego. Uznano ją za datę poświęcenia boiska. Są jednak badacze, którzy uważają, że boisko zbudowano około roku dziewięćsetnego, być może na miejscu wcześniejszego, a Dolną Świątynię dobudowano później, od strony wschodniej.\n\nGdy podejdziesz bliżej, zobaczysz, że Dolna Świątynia leży równo z poziomem ziemi, a jej murali we wnętrzu nie widać z zewnątrz. Większość zwiedzających zna je z fotografii i rysunków.\n\nGdy skończysz, przejdź do kolejnego przystanku na swojej trasie. Jeśli ruszysz na północny wschód, zobaczysz prostą drogę, która ginie wśród roślinności: to Sacbé numer jeden, biała droga prowadząca do Świętego Cenote."
+    },
+    "retos_observacion": {
+      "hash": "0ce19557ed54cadf",
+      "texto": [
+        "Poszukaj małej świątyni na wschodniej platformie boiska: to Górna Świątynia Jaguarów",
+        "Znajdź na poziomie placu fasadę Dolnej Świątyni, która patrzy w stronę Świątyni Wojowników",
+        "Wyobraź sobie wewnątrz dolnej świątyni procesję ponad stu postaci na sześciu poziomach"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c5a39157ff76c62f",
+      "texto": {
+        "Górna Świątynia": "około 17,1 × 11,1 metra podstawy i około 16 metrów całkowitej wysokości",
+        "Murale Górnej Świątyni": "bitwy Itzów, z dwoma przodkami, Kapitanem Wężem i Kapitanem Tarczą Słoneczną (lub Dyskiem Słonecznym)",
+        "Dolna Świątynia": "około 9,46 × 3,06 metra, 4,56 metra wysokości",
+        "Procesja wewnątrz": "sześć poziomów; przetrwało 111 stojących postaci",
+        "Fasada Dolnej Świątyni": "dziesięć postaci",
+        "Badanie": "González et al., 2017; Arqueología Mexicana (Velázquez Morlet)"
+      }
+    },
+    "faq_mito": {
+      "hash": "22f1e4a60ae353e8",
+      "texto": {
+        "pregunta": "Mit: Dwaj kapitanowie z murali to postaci historyczne o takich imionach.",
+        "respuesta": "Rzeczywistość: To współczesne imiona, które specjaliści nadają postaciom interpretowanym jako przodkowie. Używa się nawet różnych nazw: Dysk Słoneczny i Tarcza Słoneczna."
+      }
+    }
+  }
+}

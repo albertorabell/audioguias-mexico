@@ -1,0 +1,56 @@
+{
+  "id": "chi_25_casa_venado_colorada",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e128551d4843eb2b",
+      "texto": "Czerwony Dom i Dom Jelenia"
+    },
+    "frase_gancho": {
+      "hash": "6f893303c47d49e9",
+      "texto": "Dom, który wciąż nosi ślad swojego koloru, i drugi, z którego została tylko połowa."
+    },
+    "puente_narrativo": {
+      "hash": "d7d58e3809fffd90",
+      "texto": "Idź dalej do [Ślimaka](chi_27_el_caracol), okrągłej wieży po wschodniej stronie."
+    },
+    "guion_corto": {
+      "hash": "bd84eef619aa0c67",
+      "texto": "Stoisz przed Czerwonym Domem, jednym z najlepiej zachowanych budynków Chichén Itzá. W dziewiętnastym wieku wciąż było widać czerwoną farbę. Jego nazwa w języku maya to Chichanchob, którą INAH wiąże z małymi otworami. Wyryty napis nosi datę odpowiadającą rokowi osiemset sześćdziesiąty dziewiąty i wspomina o ceremoniach ognia odprawianych przez panów pod nadzorem króla. Obok stoi Dom Jelenia, bardzo zniszczony, który nazywa się tak od malowidła jelenia, którego już nie ma."
+    },
+    "guion_largo": {
+      "hash": "c91ee1c27e6dddbf",
+      "texto": "Dwa pobliskie budynki o bardzo różnych losach: jeden dobrze zachowany, drugi prawie zniknął.\n\nCzerwony Dom jest największym i najlepiej zachowanym z czterech budynków tej grupy. Jego nazwa pochodzi od czerwonego pasa widocznego w przedsionku, a w dziewiętnastym wieku wciąż było tam widać czerwoną farbę. W języku maya znany jest jako Chichanchob. INAH podaje, że może to oznaczać małe otwory, być może z powodu otworów w grzebieniu dachu.\n\nWewnątrz znajduje się tekst hieroglificzny z datą, którą przelicza się na rok osiemset sześćdziesiąty dziewiąty. Tekst mówi o ceremoniach ognia odprawianych przez panów pod nadzorem króla i jest to jedna z najstarszych dat w tym miejscu. Z tych samych hieroglifów wzięto inną dawną nazwę dla Akab Dzib, który zobaczysz dalej. Za domem INAH odrestaurował w dwa tysiące dziewiątym roku niewielkie boisko do gry w piłkę.\n\nObok znajduje się Dom Jelenia. Jest bardzo zniszczony i stoi tylko jego część. Nazwa pochodzi, jak się mówi, od malowidła jelenia, którego już nie ma. Jego architektura bardzo przypomina Chichanchob: platforma o zaokrąglonych narożnikach, prosta fasada i fryz bez dekoracji. Sugerowano, że prawdopodobnie był to zespół mieszkalny związany z Osuarium. To hipoteza.\n\nIdź teraz dalej do [Ślimaka](chi_27_el_caracol), okrągłej wieży na platformie."
+    },
+    "retos_observacion": {
+      "hash": "b64c3ff060b89ace",
+      "texto": [
+        "Poszukaj resztek czerwonej farby w przedsionku oraz pasa, który dał nazwę domowi",
+        "Przyjrzyj się otworom w grzebieniu dachu, które być może dały nazwę Chichanchob",
+        "Porównaj dobrze zachowany Czerwony Dom z Domem Jelenia, z którego została połowa"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ec4ab25cc2457b3",
+      "texto": {
+        "Nazwa w języku maya": "Chichanchob, którą INAH wiąże z „małymi otworami”",
+        "Wyryta data": "odpowiada rokowi 869",
+        "Czerwona farba": "wciąż widoczna w XIX wieku",
+        "Renowacja": "w 2009 roku INAH odrestaurował niewielkie boisko za domem",
+        "Dom Jelenia": "bardzo zniszczony; architektura podobna do Chichanchob",
+        "Proponowane przeznaczenie Domu Jelenia": "zespół mieszkalny prawdopodobnie związany z Osuarium (hipoteza)"
+      }
+    },
+    "faq_mito": {
+      "hash": "3a2a6cd3e6f1ff11",
+      "texto": {
+        "pregunta": "Mit: Czerwony Dom nazywa się tak, bo nadal jest pomalowany na czerwono.",
+        "respuesta": "Rzeczywistość: Nazwa pochodzi od czerwonego pasa w przedsionku. W XIX wieku widać było czerwoną farbę, ale dziś zostało jej bardzo niewiele."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "chi_36_casa_caracoles_tortuga",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3c97d858880aeb8b",
+      "texto": "Casa de los Caracoles i Platforma Żółwia"
+    },
+    "frase_gancho": {
+      "hash": "4aa2e6a7f230b634",
+      "texto": "Drzewo genealogiczne długie na około dwadzieścia metrów i platforma w kształcie żółwia."
+    },
+    "puente_narrativo": {
+      "hash": "3ffdd99fc99a5203",
+      "texto": "Przejdź na południowy plac, do [Galerii Małp](chi_38_galeria_monos), gdzie pojawia się władca zwany Dziesięć Jeleń."
+    },
+    "guion_corto": {
+      "hash": "fa2603d70430dfa8",
+      "texto": "Na zachodniej fasadzie Casa de los Caracoles widnieje scena długa na około dwadzieścia metrów, która wygląda jak drzewo genealogiczne. Postać na pół ludzka, na pół zwierzęca wyłania się z owocu, otoczona ślimakami, ptakami, kwiatami i roślinami. Bóstwo założycielskie wychodzi z łodygi, która rozmnaża się w kolejne postaci, a jedna z nich jest oznaczona glifem Dziewięć Kojot. Pośrodku północnego placu stoi Platforma Żółwia, zwrócona głową na wschód."
+    },
+    "guion_largo": {
+      "hash": "cfd91a9349eddbd8",
+      "texto": "Ten przystanek łączy dwie rzeczy: fasadę, która opowiada o rodowodzie, i platformę, która wyznacza środek.\n\nCasa de los Caracoles, czyli budowla pięć C pięć, jest częścią Kompleksu Fallusów. Jej nazwa pochodzi od ślimaków, które pojawiają się w dekoracji. Ma misterny fryz z postacią na pół ludzką, na pół zwierzęcą, która wyłania się z owocu, otoczona ślimakami, ptakami, kwiatami, roślinami i owocami. Fasada zawaliła się w gruzy, a instytucja Carnegie zostawiła ją nietkniętą, i to pomogło Peterowi Schmidtowi odbudować ją element po elemencie.\n\nWedług biuletynu INAH z roku dwa tysiące dwudziestego trzeciego na zachodniej fasadzie znajduje się scena długa na około dwadzieścia metrów, która przedstawia drzewo genealogiczne. Bóstwo założycielskie wyłania się z łodygi, a łodyga rozmnaża się w kolejne postaci. INAH proponuje, że jedna z nich, oznaczona glifem Dziewięć Kojot, mogłaby być założycielem, który kazał wykonać większość reliefów tej grupy. To propozycja, nie fakt.\n\nINAH wiąże to miejsce z rodem Cupul, jedną ze szlachetnych rodzin Chichén Itzá. Jego nazwa odnosi się do dzikiej jikamy, którą w języku maya nazywa się kup. Odzyskano też około piętnastu metrów bieżących elementów dekoracyjnych ołtarza, z wyrzeźbioną sceną wojenną, które spadły razem ze sklepieniem. Nie wyjaśniono dokładnie, z jakiej budowli pochodziły.\n\nTeraz Platforma Żółwia, budowla pięć C siedemnaście, pośrodku północnego placu. Jest niska: ma około jednego metra dwudziestu centymetrów wysokości, dziewięć metrów sześćdziesiąt trzy centymetry średnicy i dwanaście metrów osiemdziesiąt trzy centymetry długości. Ma dwie schody. Wyrzeźbiona głowa żółwia patrzy na wschód, w stronę Świątyni Serii Początkowej, a ogon wskazuje na zachód. Boczne mury schodów tworzą łapy, a żółw nosi wyrzeźbiony naszyjnik. W starszej podbudowie archeolodzy znaleźli sześciokątną kamienną skrzynię z piętnastoma niezużytymi krzemiennymi grotami. Mówi się, że Majowie widzieli w niej centrum wszechświata.\n\nW roku dwa tysiące siódmym odkryto obok innej budowli na północnym placu grobowiec zbiorowy i około siedem tysięcy pięćset paciorków z masy, które imitowały turkus.\n\nStąd ruszaj dalej do [Galerii Małp](chi_38_galeria_monos)."
+    },
+    "retos_observacion": {
+      "hash": "01940c47a2d046a9",
+      "texto": [
+        "Poszukaj długiej sceny na zachodniej fasadzie i prześledź wzrokiem postaci wychodzące z łodygi",
+        "Znajdź niską platformę w kształcie żółwia: głowa na wschód, ogon na zachód",
+        "Zwróć uwagę na boczne schody, które tworzą łapy żółwia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a22276c53190276e",
+      "texto": {
+        "Casa de los Caracoles": "budowla 5C5, część Kompleksu Fallusów",
+        "Scena na zachodniej fasadzie": "około 20 m, drzewo genealogiczne z bóstwem założycielskim",
+        "Glif": "Dziewięć Kojot, możliwy założyciel (INAH)",
+        "Ród": "Cupul",
+        "Platforma Żółwia (5C17)": "maksymalna wysokość 1,20 m, średnica 9,63 m, długość 12,83 m; dwie schody; głowa na wschód",
+        "Ofiara": "sześciokątna skrzynia z 15 niezużytymi krzemiennymi grotami",
+        "Grobowiec z 2007 roku": "około 7 500 paciorków z masy imitującej turkus"
+      }
+    },
+    "faq_mito": {
+      "hash": "c9f051630f30f82a",
+      "texto": {
+        "pregunta": "Mit: Casa de los Caracoles nazywa się tak od kolekcji muszli.",
+        "respuesta": "Rzeczywistość: Nazwa pochodzi od ślimaków w jej dekoracji: fryzu z postacią wyłaniającą się z owocu, otoczoną ślimakami, ptakami i roślinami."
+      }
+    }
+  }
+}

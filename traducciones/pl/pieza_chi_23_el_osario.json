@@ -1,0 +1,56 @@
+{
+  "id": "chi_23_el_osario",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e57e46b4e415af1c",
+      "texto": "Ossuarium i jego platformy"
+    },
+    "frase_gancho": {
+      "hash": "1cbb35eceb0f44f5",
+      "texto": "Piramida o dziewięciu kondygnacjach i z otworem na szczycie, który prowadzi w dół do jaskini."
+    },
+    "puente_narrativo": {
+      "hash": "ca47d89ab6f88925",
+      "texto": "Obejdź platformę dookoła i spójrz na piramidę z różnych stron. Gdy skończysz, przejdź do kolejnego przystanku swojej trasy."
+    },
+    "guion_corto": {
+      "hash": "b4b9fef89ff4f3b1",
+      "texto": "Ossuarium to piramida schodkowa, mniejsza od Zamku i bardzo do niego podobna, ze schodami po czterech stronach. Ma dziewięć kondygnacji i przekracza dziesięć metrów wysokości. Pośrodku znajduje się otwór, który prowadzi w dół do naturalnej jaskini, na głębokość około dziesięciu do dwunastu metrów. Pod koniec dziewiętnastego wieku Edward Thompson zbadał ją i znalazł szkielety oraz paciorki z jadeitu. Dlatego nazwał ją Grobowcem Wielkiego Kapłana. Dziś uważa się, że nie był to ani grób, ani pochówek kapłanów."
+    },
+    "guion_largo": {
+      "hash": "7bebd8932377388a",
+      "texto": "Ten budynek ma dwie nazwy i żadna nie jest ścisła. Nazywa się go Ossuarium od znalezionych tu kości, a Grobowcem Wielkiego Kapłana dlatego, że tak ochrzcił go jego badacz.\n\nZacznijmy od tego, co widać. To piramida schodkowa o dziewięciu kondygnacjach, wysoka na ponad dziesięć metrów, ze schodami po czterech stronach. Jest bardzo podobna do Zamku, choć mniejsza, dlatego niektórzy nazywają ją repliką. Reliefy we fryzie mają tematykę mitologiczną, a w narożnikach znajdują się maski boga deszczu, Chaaca. Schody mają balustrady z wężami.\n\nTo, co wyjątkowe, jest w środku. Otwór na szczycie prowadzi kanałem w dół do naturalnej jaskini. Opisy podają różną głębokość: od około dziesięciu do około dwunastu metrów. Pod koniec dziewiętnastego wieku Edward Thompson zszedł do tej jaskini. Znalazł szkielety i paciorki z jadeitu i uznał, że to grób wielkiego kapłana. Dziś archeolodzy uważają, że nie był to ani grób, ani pochówek kapłanów.\n\nW tysiąc dziewięćset trzydziestym szóstym roku J. C. Harrington, sporządzając plan kanału, odkrył fragment sklepienia wcześniejszej świątyni. Oznacza to, że Ossuarium również wzniesiono na starszej świątyni, tak jak Zamek i Świątynię Wojowników. Badanie radiowęglowe z roku dwa tysiące dziewiętnastego, autorstwa Saldañy i Brady’ego, datuje koniec wcześniejszej budowli oraz wzniesienie Ossuarium na początek ósmego wieku. Filar górnej świątyni nosi datę odpowiadającą rokowi dziewięćset dziewięćdziesiątemu ósmemu.\n\nPowtarza się często pewna symboliczna interpretacja: że jaskinia była wejściem do podziemnego świata, a dziewięć kondygnacji nawiązuje do jego dziewięciu poziomów. To interpretacja popularna. Majowie rzeczywiście wiązali jaskinie i cenotes z podziemnym światem, ale związek z dziewięcioma poziomami nie został udowodniony.\n\nZ tej platformy wychodzi droga prowadząca do Cenote Xtoloc. Gdy skończysz tutaj, przejdź do kolejnego przystanku swojej trasy."
+    },
+    "retos_observacion": {
+      "hash": "1a98a44a14b466e7",
+      "texto": [
+        "Policz kondygnacje piramidy: jest ich dziewięć",
+        "Poszukaj w narożnikach masek boga deszczu, Chaaca",
+        "Porównaj jej proporcje z proporcjami Zamku, który już znasz"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6ff3ac66d851e907",
+      "texto": {
+        "Wysokość": "ponad 10 m",
+        "Kondygnacje schodkowe": "9, ze schodami po czterech stronach",
+        "Otwór centralny": "prowadzi do naturalnej jaskini, na głębokość około 10-12 m",
+        "Eksploracja": "Edward Thompson, koniec XIX wieku; J. C. Harrington (1936) odkrył wcześniejszą świątynię",
+        "Data": "początek VIII wieku (datowanie radiowęglowe, 2019); filar górnej świątyni z datą odpowiadającą rokowi 998",
+        "Nazwy": "Ossuarium i Grobowiec Wielkiego Kapłana"
+      }
+    },
+    "faq_mito": {
+      "hash": "8faa303ff8b4a790",
+      "texto": {
+        "pregunta": "Mit: To grób wielkiego kapłana Majów.",
+        "respuesta": "Rzeczywistość: Tak nazwał go Thompson, ale dziś uważa się, że nie był to ani grób, ani pochówek kapłanów."
+      }
+    }
+  }
+}

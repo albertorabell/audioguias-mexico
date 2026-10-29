@@ -1,0 +1,56 @@
+{
+  "id": "chi_35_templo_falos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc78b15121f84caa",
+      "texto": "Pałac Fallusów"
+    },
+    "frase_gancho": {
+      "hash": "6a5d4dc68294a314",
+      "texto": "Labirynt komnat, korytarzy i dziedzińców, z wewnętrznymi schodami prowadzącymi na drugie piętro."
+    },
+    "puente_narrativo": {
+      "hash": "a04e633cfbbff075",
+      "texto": "Przejdź do [Domu Ślimaków](chi_36_casa_caracoles_tortuga), gdzie drzewo genealogiczne ma około dwudziestu metrów."
+    },
+    "guion_corto": {
+      "hash": "4948f3fd5554d993",
+      "texto": "To jest Pałac Fallusów, dwupiętrowy kompleks będący częścią Starego Chichén. To labirynt komnat, korytarzy i wewnętrznych dziedzińców, ze schodami prowadzącymi do dwóch pomieszczeń na drugim piętrze. Na jego ławach znajdują się reliefy z gwiazdami Wenus, użyte ponownie z innego budynku. Mówiło się, że inne reliefy opowiadają o pochodzeniu i życiu pewnej ważnej postaci. Kamienie, które spadły z pałacu, zostały później ponownie użyte w innym budynku."
+    },
+    "guion_largo": {
+      "hash": "4a91ce4a8af95625",
+      "texto": "Przy takiej nazwie można by oczekiwać efektownego opisu. Prawda jest taka, że to, co udokumentowano, ma bardziej architektoniczny charakter niż cokolwiek innego.\n\nArcheolog Peter Schmidt i Rocío González de la Mata opisują Dom Fallusów, czyli Kompleks Pałacowy Fallusów, jako zespół trzech budowli, które na planie Carnegie mają numery pięć C pięć, pięć C czternaście i pięć C piętnaście. Mieści labirynt komnat, korytarzy i wewnętrznych dziedzińców oraz schody prowadzące do dwóch pomieszczeń na drugim piętrze. Inne opracowanie, z dwa tysiące czternastego roku, opisuje go jako dwupiętrowy kompleks po południowej stronie północnego placu. Oba opisy umieszczają budynek w nieco różnych miejscach; zapewne dotyczą różnych części dużego zespołu.\n\nOpracowanie z dwa tysiące czternastego roku dodaje ciekawy szczegół: ławy pałacu zdobią reliefy z czteroramiennymi gwiazdami Wenus, które zostały użyte ponownie ze Świątyni Serii Początkowej. Innymi słowy, budowniczowie przetworzyli elementy z innego budynku.\n\nFasada ma tabliczki boga N w jego postaciach ślimaka i pająka. A Schmidt opisuje w innej pracy reliefy, które odczytano jako falliczne i związane z autoofiarą, a także panele na drugim piętrze. To krótkie opisy: nie wiadomo dokładnie, ile jest rzeźb, które dały nazwę temu miejscu, ani jak wyglądają.\n\nNotatka prasowa z dwa tysiące dwudziestego trzeciego roku głosi, że pałac opowiada o pochodzeniu i życiu pewnej ważnej postaci, z walkami, ofiarami i rytuałami. To odczytanie ogólne, bez poparcia specjalistów.\n\nPałac miał ciekawy los. Kiedy się zawalił, jego kamienie użyto ponownie w innym budynku, w budowli pięć C osiem, razem z kamieniami z Galerii Małp i z innej sąsiedniej budowli.\n\nINAH odrestaurował pałac podczas prac w dwa tysiące dwudziestym trzecim roku, przywracając elementy konstrukcji. Część tego, co widzisz, została ponownie ułożona.\n\nIdź dalej do [Domu Ślimaków](chi_36_casa_caracoles_tortuga)."
+    },
+    "retos_observacion": {
+      "hash": "456000a7aa8b9fc7",
+      "texto": [
+        "Przyjrzyj się dwóm piętrom pałacu i spróbuj wzrokiem prześledzić bieg wewnętrznych schodów",
+        "Poszukaj tabliczek na fasadzie i elementów przywróconych podczas restauracji",
+        "Porównaj jego wielkość ze Świątynią Serii Początkowej, którą widziałeś wcześniej"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3125872ca055a14d",
+      "texto": {
+        "Zespół": "Dom lub Kompleks Pałacowy Fallusów (budowle 5C5, 5C14 i 5C15)",
+        "Plan": "labirynt komnat, korytarzy i dziedzińców, z wewnętrznymi schodami do dwóch pomieszczeń na drugim piętrze",
+        "Ławy": "reliefy z gwiazdami Wenus użyte ponownie ze Świątyni Serii Początkowej",
+        "Fasada": "tabliczki boga N w postaci ślimaka i pająka",
+        "Ruina": "jego kamienie użyto ponownie w budowli 5C8",
+        "Restauracja": "przywrócenie elementów (INAH, 2023)"
+      }
+    },
+    "faq_mito": {
+      "hash": "137f4f3208e0bbfa",
+      "texto": {
+        "pregunta": "Mit: Pałac Fallusów był świątynią poświęconą jednemu rytuałowi płodności.",
+        "respuesta": "Rzeczywistość: To dwupiętrowy pałac z komnatami, dziedzińcami i schodami. Rzeźby, od których wzięła się nazwa, nie są dobrze znane."
+      }
+    }
+  }
+}

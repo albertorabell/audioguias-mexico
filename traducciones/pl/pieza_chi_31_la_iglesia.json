@@ -1,0 +1,57 @@
+{
+  "id": "chi_31_la_iglesia",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f731c9e645f7a9ce",
+      "texto": "Kościół"
+    },
+    "frase_gancho": {
+      "hash": "4b93a4804689435d",
+      "texto": "Świątynia z jednym pomieszczeniem, z trzema maskami Chaaca i czterema postaciami niosącymi niebo."
+    },
+    "puente_narrativo": {
+      "hash": "af0e04c2f847a9a7",
+      "texto": "Idź dalej na wschód i zatrzymaj się przy [Akab Dzib](chi_32_akab_dzib), domu ciemnego pisma."
+    },
+    "guion_corto": {
+      "hash": "67635864737aeca3",
+      "texto": "To jest Kościół, niewielka świątynia obok Budynku Zakonnic. Ma jedno sklepione pomieszczenie i jedne drzwi, a jej fasada zwrócona jest na zachód. Przypomina prostokątną kaplicę i stąd wzięła się jej nazwa. Jej fryz zdobią trzy maski Chaaca wykonane z kamiennej mozaiki, jedna pośrodku i po jednej w każdym narożniku. Po bokach znajdują się nisze z siedzącymi postaciami, które utożsamia się z czterema Bacabami, bogami podtrzymującymi niebo."
+    },
+    "guion_largo": {
+      "hash": "95c76c8338e30ccb",
+      "texto": "To najmniejszy budynek w tej grupie i jeden z najbogatiej zdobionych.\n\nKościół to niewielka budowla z jednym pomieszczeniem i jednymi drzwiami, podobna do prostokątnej kaplicy. Jego nazwa jest późniejsza i nie wiadomo z pewnością, skąd się wzięła. Stoi tuż na wschód od Budynku Zakonnic. Według INAH jest to budowla z fasadą ozdobioną motywami geometrycznymi i przedstawieniami bóstw, w stylu Puuc.\n\nBardziej szczegółowo: budynek ma prostokątny plan i jedno sklepione pomieszczenie. Jego fasada jest zwrócona na zachód, a wejście zamyka kamienny nadproże. Nad drzwiami biegną dwa pasy z meandrami: jeden prosty, ograniczony dwoma gzymsami, a drugi, nad fryzem, utworzony z ząbkowanych listew ułożonych w zygzak, które sprawiają wrażenie węża.\n\nFryz zdobią trzy maski Chaaca z kamiennej mozaiki, jedna pośrodku i po jednej w każdym narożniku, z zawiniętymi nosami. Po obu stronach środkowej maski znajduje się nisza z dwiema siedzącymi postaciami. Po stronie północnej widać postać ze skrzydłami i owalnym napierśnikiem oraz drugą, ze ślimakiem na plecach. Po stronie południowej jest postać z czymś w rodzaju muszli wokół ciała oraz druga, w skorupie żółwia. Utożsamia się je z czterema Bacabami, bogami podtrzymującymi niebo w czterech kierunkach, a niektórzy uważają, że są przebrani za kraba, ślimaka, pancernika i żółwia. To jedna z interpretacji, nie udowodniony fakt.\n\nNad budynkiem wznosi się grzebień dachowy ozdobiony kamiennymi mozaikami, w stylu Puuc. Kiedy go odkryto, zwrócił uwagę dobrym stanem zachowania i bogactwem ozdób.\n\nKarta INAH podaje dla całej grupy przybliżoną datę od sześciuset do ośmiuset naszej ery, choć inne opisy umieszczają ją w Klasyku Terminalnym. Te daty się nie zgadzają.\n\nNie są znane opublikowane wymiary ani rodzaj rytuałów odprawianych w środku. Rozsądnie jest powiedzieć, że była to świątynia lub kaplica o nieznanym przeznaczeniu.\n\nIdź teraz do [Akab Dzib](chi_32_akab_dzib), na wschód od Ślimaka."
+    },
+    "retos_observacion": {
+      "hash": "43d34f853ff59d41",
+      "texto": [
+        "Znajdź trzy maski Chaaca na fryzie: jedną pośrodku i po jednej w każdym narożniku",
+        "Wypatrz boczne nisze z siedzącymi postaciami",
+        "Przyjrzyj się pasowi listew w zygzak i zastanów się, czy przypomina ci węża"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de8be6f7848acbcc",
+      "texto": {
+        "Rozmiar": "niewielki, z jednym sklepionym pomieszczeniem i jednymi drzwiami",
+        "Fasada": "zwrócona na zachód",
+        "Fryz": "trzy maski Chaaca z kamiennej mozaiki",
+        "Nisze boczne": "po dwie siedzące postacie z każdej strony (utożsamiane z czterema Bacabami)",
+        "Styl": "Puuc",
+        "Lokalizacja": "tuż na wschód od Budynku Zakonnic",
+        "Data": "Klasyk Terminalny, lub 600-800 według karty INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "d831c92e8eac8a12",
+      "texto": {
+        "pregunta": "Mit: Nazywa się Kościół, ponieważ Majowie używali go jako kościoła.",
+        "respuesta": "Rzeczywistość: Nazwa jest późniejsza. To prekolumbijska świątynia z jednym pomieszczeniem, podobna do kaplicy, i nie wiadomo z pewnością, skąd dokładnie pochodzi ta nazwa."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "chi_32_akab_dzib",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d56b03a259b5f440",
+      "texto": "Akab Dzib"
+    },
+    "frase_gancho": {
+      "hash": "5b42bf3a629cd747",
+      "texto": "Dom tajemniczego pisma: pięćdziesiąt metrów długości i nadproże, którego nikt nie zapomina."
+    },
+    "puente_narrativo": {
+      "hash": "f549109391a8d021",
+      "texto": "Kiedy skończysz oglądać budynek, przejdź do kolejnego przystanku na swojej trasie. Stare Chichén, na południowy zachód stąd, zwiedza się osobno: tylko w piątki i soboty, po wcześniejszej rezerwacji i z przewodnikiem INAH."
+    },
+    "guion_corto": {
+      "hash": "7191c6faeddf380d",
+      "texto": "Akab Dzib znaczy dom tajemniczego lub mrocznego pisma. To budynek w stylu Puuc, wysoki na około sześć metrów, długi na pięćdziesiąt i szeroki na piętnaście, datowany na około roku osiemset sześćdziesiątego dziewiątego. Ma siedem drzwi w fasadzie zachodniej i cztery we wschodniej. W pomieszczeniu na południowym krańcu znajduje się nadproże z wyrzeźbionymi hieroglifami, od których wzięła się ta nazwa. Blisko sufitu, wewnątrz jednej z komór, zachował się namalowany ślad dłoni."
+    },
+    "guion_largo": {
+      "hash": "fd2f7a7f03f2c0e1",
+      "texto": "Nazwa mówi wszystko: Akab Dzib, czyli Akab Tzib, to dom tajemniczego pisma.\n\nBudynek stoi na wschód od Ślimaka. Jest w stylu Puuc, wysoki na około sześć metrów, długi na pięćdziesiąt i szeroki na piętnaście. Datuje się go na okolice roku osiemset sześćdziesiątego dziewiątego. W fasadzie zachodniej, tej długiej, jest siedem drzwi. W fasadzie wschodniej są cztery, przerwane wielkimi schodami prowadzącymi na dach. Przypuszcza się, że ta strona była frontem, ponieważ wychodzi na suchy cenote o stromych ścianach.\n\nNa południowym krańcu jest wejście do małego pomieszczenia. Po jego drugiej stronie drzwi mają nadproże z misternie rzeźbionymi glifami. To właśnie to tajemnicze pismo dało budynkowi nazwę. Pod nadprożem, na węgarze, znajduje się panel z siedzącą postacią otoczoną glifami. W jednej z komór, blisko sufitu, widać namalowany ślad dłoni.\n\nBudynek miał jeszcze inną dawną nazwę. Na podstawie hieroglifów z Czerwonego Domu odczytano ją jako Wakwak Puh Ak Na, co w dość swobodnym tłumaczeniu znaczy płaski dom z nadmiarem komór. Mówi się, że był to dom Yahawal Cho' K'ak', zarządcy Chichén Itzá z dynastii Kokom. Nie wiadomo, czy to on kazał go zbudować, czy zamieszkał w nim później.\n\nINAH zakończył renowację w dwa tysiące siódmym roku.\n\nKiedy skończysz, przejdź do kolejnego przystanku na swojej trasie. Stare Chichén, na południowy zachód stąd, zwiedza się osobno, z przewodnikiem INAH i tylko w piątki i soboty."
+    },
+    "retos_observacion": {
+      "hash": "a8214c3aa0d64751",
+      "texto": [
+        "Policz drzwi w długiej fasadzie: od strony zachodniej jest ich siedem",
+        "Znajdź schody po stronie wschodniej, które prowadzą na dach",
+        "Wypatrz, jeśli uda ci się go dostrzec, nadproże z hieroglifami na południowym krańcu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4201c25d1b38410c",
+      "texto": {
+        "Wymiary": "około 6 m wysokości, 50 m długości i 15 m szerokości",
+        "Data": "około roku 869",
+        "Styl": "Puuc",
+        "Drzwi": "7 w fasadzie zachodniej, 4 we wschodniej",
+        "Dawna nazwa": "Wakwak Puh Ak Na, „płaski dom z nadmiarem komór”",
+        "Renowacja": "INAH, 2007",
+        "Kod budowli": "4D1"
+      }
+    },
+    "faq_mito": {
+      "hash": "b04f59e330a40515",
+      "texto": {
+        "pregunta": "Mit: Nikt nie zdołał odczytać pisma z Akab Dzib, bo to tajny szyfr.",
+        "respuesta": "Rzeczywistość: Nazwa mówi o „tajemniczym piśmie”, ale jest to tekst hieroglificzny w języku Majów. Nie ma powodu sądzić, że jest nie do odczytania."
+      }
+    }
+  }
+}

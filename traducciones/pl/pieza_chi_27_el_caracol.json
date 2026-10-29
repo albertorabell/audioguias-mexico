@@ -1,0 +1,56 @@
+{
+  "id": "chi_27_el_caracol",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6dddd829991935e9",
+      "texto": "Ślimak"
+    },
+    "frase_gancho": {
+      "hash": "1855dae43d6d6ae4",
+      "texto": "Okrągła wieża z kręconymi schodami w środku: jedyny okrągły budynek w Chichén Itzá."
+    },
+    "puente_narrativo": {
+      "hash": "8b5248a870f086d2",
+      "texto": "Idź w stronę [Zakonnic](chi_29_las_monjas), wielkiego pałacu w stylu Puuc."
+    },
+    "guion_corto": {
+      "hash": "79c38490dd6839a8",
+      "texto": "To jedyna okrągła budowla w Chichén Itzá, wieża stojąca na wielkiej kwadratowej platformie. Nazywa się Ślimak od kręconych schodów, które ma w środku. Kamień z górnej platformy pozwala datować ją na około roku dziewięćset szóstego. Przypuszcza się, że był obserwatorium. Astronom Anthony Aveni i jego zespół znaleźli w budynku linie widzenia dla dwudziestu z dwudziestu dziewięciu zjawisk na niebie, które mogły interesować jego mieszkańców, ale część wieży przepadła, więc nie wszystko da się sprawdzić."
+    },
+    "guion_largo": {
+      "hash": "68f1c7954ed1c81f",
+      "texto": "Ślimak łamie geometrię Chichén Itzá. Prawie wszystko inne jest kwadratowe, schodkowe albo prostokątne. Tutaj stoi okrągła wieża.\n\nTo jedyna okrągła budowla na stanowisku. Wznosi się na wielkiej kwadratowej platformie. Hiszpanie nadali jej nazwę Ślimak od spiralnych schodów w środku. Stela z górnej platformy pozwala datować ją na około roku dziewięćset szóstego.\n\nPogląd, że był obserwatorium, jest najbardziej znany. Argument jest prosty: w płaskim krajobrazie Yucatán nie ma gór, które służyłyby jako punkt odniesienia, a wieża pozwalała patrzeć na niebo ponad roślinnością. Astronom Anthony Aveni badał orientację budynku od połowy lat siedemdziesiątych. Według reportażu z The New York Times z tysiąc dziewięćset osiemdziesiątego szóstego roku jego zespół znalazł linie widzenia ku położeniom Słońca w czasie przesileń, ku dwóm przejściom Słońca przez zenit między majem a sierpniem oraz ku skrajnym punktom Wenus. Doszli do wniosku, że spośród dwudziestu dziewięciu możliwych zjawisk astronomicznych budynek miał zrównania dla dwudziestu.\n\nWenus była ważna. Astronomowie Majów wiedzieli z obserwacji gołym okiem, że jej cykl trwa około pięćset osiemdziesiąt cztery dni, a pięć cykli odpowiada ośmiu latom słonecznym.\n\nWarto pamiętać o ograniczeniach. Część wieży, która stała na platformie, przepadła, więc niektóre obserwacje może nigdy nie zostaną potwierdzone. A te zrównania to wyniki jednego zespołu, a nie fakty przyjęte przez wszystkich. Mówimy o hipotezie, choć solidnej.\n\nBudynek ma też swoją historię badań. Alfred Maudslay narysował go i sfotografował w tysiąc osiemset osiemdziesiątym dziewiątym roku, a William Holmes odwiedził go w tysiąc osiemset dziewięćdziesiątym czwartym. Instytut Carnegie odnowił Ślimaka po tysiąc dziewięćset dwudziestym trzecim roku.\n\nIdź teraz do [Zakonnic](chi_29_las_monjas), budynku zupełnie innego, z fasadą pełną masek."
+    },
+    "retos_observacion": {
+      "hash": "cce356069a3334d6",
+      "texto": [
+        "Zwróć uwagę na okrągłą wieżę na kwadratowej platformie: to jedyna taka budowla na stanowisku",
+        "Przyjrzyj się niewielkim otworom w górnej części, które wiąże się ze zrównaniami",
+        "Wyobraź sobie górną część, która przepadła, i to, co mógł zobaczyć ten, kto się tam wspinał"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f169095e68d4f60b",
+      "texto": {
+        "Forma": "okrągła wieża na wielkiej kwadratowej platformie",
+        "Nazwa": "od spiralnych schodów w środku",
+        "Data": "około roku 906, na podstawie steli z górnej platformy",
+        "Proponowane zrównania (Aveni)": "20 z 29 możliwych zjawisk astronomicznych",
+        "Cykl Wenus": "około 584 dni; 5 cykli = 8 lat słonecznych",
+        "Badania": "Maudslay (1889), Holmes (1894), Aveni (lata siedemdziesiąte)"
+      }
+    },
+    "faq_mito": {
+      "hash": "532a8b4701bd38ae",
+      "texto": {
+        "pregunta": "Mit: Udowodniono, że Ślimak był oficjalnym obserwatorium astronomicznym.",
+        "respuesta": "Rzeczywistość: To dobrze zbadana hipoteza. Znaleziono linie widzenia ku 20 z 29 zjawisk, ale część wieży przepadła i nie wszystko da się sprawdzić."
+      }
+    }
+  }
+}

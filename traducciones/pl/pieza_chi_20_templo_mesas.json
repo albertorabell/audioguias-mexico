@@ -1,0 +1,56 @@
+{
+  "id": "chi_20_templo_mesas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1b9e78d71fe5518f",
+      "texto": "Świątynia Wielkich Stołów"
+    },
+    "frase_gancho": {
+      "hash": "351b4ce108ae3a38",
+      "texto": "Piramida o czterech tarasach, z pilastrami, które wciąż zachowały swoją farbę."
+    },
+    "puente_narrativo": {
+      "hash": "93ca4a279e253701",
+      "texto": "Obejrzyj świątynię z zewnątrz. Kiedy skończysz, przejdź do następnego przystanku na swojej trasie."
+    },
+    "guion_corto": {
+      "hash": "4d0afb88cfeaafb8",
+      "texto": "To jest Świątynia Wielkich Stołów, na północ od Świątyni Wojowników. Odkryto ją podczas wykopalisk z lat tysiąc dziewięćset dziewięćdziesiątego trzeciego i dziewięćdziesiątego czwartego, koordynowanych przez archeologa Petera Schmidta. Ma podstawę z czterech tarasów, a na szczycie niewielką świątynkę z jednym wejściem od strony zachodniej. Jej pilastry zachowały niemal w całości malowane wykończenie. Na końcach balustrad schodów widać dwa węże, pośrodku płaskorzeźby wojowników, a w północno-wschodnim narożniku stół podtrzymywany przez atlantów."
+    },
+    "guion_largo": {
+      "hash": "9bafe6b07128c633",
+      "texto": "Ta świątynia skrywa coś, czego w Chichén Itzá prawie się nie widzi: kolor.\n\nŚwiątynia Wielkich Stołów leży na północ od Świątyni Wojowników. Odkryto ją podczas wykopalisk z lat tysiąc dziewięćset dziewięćdziesiątego trzeciego i dziewięćdziesiątego czwartego, koordynowanych przez Petera Schmidta. To budowla piramidalna z podstawą z czterech tarasów i niewielką świątynką w górnej części. Jej główna fasada zwrócona jest na zachód i jest jedynym wejściem.\n\nNajbardziej godne uwagi są pilastry. Wciąż zachowały niemal w całości malowane wykończenie, czyli oryginalną farbę. Jak dotąd odsłonięto tylko dwie strony każdego pilastra. Natomiast na większości sąsiedniego placu pilastry Grupy Tysiąca Kolumn i Targu straciły prawie całą swoją polichromię.\n\nDekoracja obejmuje dwa węże na końcach balustrad schodów, płaskorzeźby wojowników pośrodku oraz stół podtrzymywany przez atlantów w północno-wschodnim narożniku. Stąd wzięła się nazwa. To ołtarze oparte na niewielkich męskich postaciach z uniesionymi ramionami. W pierwszym sklepieniu znaleziono malowidło przedstawiające węża.\n\nNie myl tej budowli ze Świątynią Stolików, którą inne badanie umieszcza w pobliżu Pałacu Rzeźbionych Kolumn.\n\nKiedy skończysz, przejdź do następnego przystanku na swojej trasie."
+    },
+    "retos_observacion": {
+      "hash": "02dd50adcec16306",
+      "texto": [
+        "Policz tarasy podstawy: są cztery",
+        "Wypatrz węże na końcach balustrad schodów, obok wejścia po stopniach",
+        "Sprawdź, czy dostrzegasz ślady farby na pilastrach"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bd8a76ef53f9f165",
+      "texto": {
+        "Lokalizacja": "na północ od Świątyni Wojowników",
+        "Wykopaliska": "1993-1994, koordynowane przez Petera Schmidta",
+        "Forma": "podstawa z czterech tarasów i niewielka świątynka; jedno wejście od strony zachodniej",
+        "Pilastry": "zachowały niemal w całości malowane wykończenie",
+        "Dekoracja": "dwa węże na balustradach schodów, wojownicy pośrodku, stół z atlantami w północno-wschodnim narożniku",
+        "Znalezisko w sklepieniu": "malowidło przedstawiające węża"
+      }
+    },
+    "faq_mito": {
+      "hash": "f990703cf60dbca1",
+      "texto": {
+        "pregunta": "Mit: Wszystkie budowle Chichén Itzá były z szarego kamienia, bez koloru.",
+        "respuesta": "Rzeczywistość: Była farba. W tej świątyni pilastry zachowały niemal w całości malowane wykończenie, co w tym miejscu zdarza się rzadko."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chi_04_subestructura_castillo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1ac227c526f6584b",
+      "texto": "Ukryta świątynia, tron jaguara i cenota pod Zamkiem"
+    },
+    "frase_gancho": {
+      "hash": "bf81af0d4d048aa7",
+      "texto": "Wewnątrz piramidy kryje się druga, z tronem czerwonego jaguara, a pod nią, według UNAM, jama z wodą."
+    },
+    "puente_narrativo": {
+      "hash": "49b1f21d9326a11b",
+      "texto": "Zostań jeszcze przed piramidą: to, o czym opowiada ten przystanek, znajduje się w jej wnętrzu i pod nią. Kiedy skończysz, przejdź do kolejnego przystanku swojej trasy."
+    },
+    "guion_corto": {
+      "hash": "263391c9c6d6c4d4",
+      "texto": "Ta piramida skrywa w sobie drugą piramidę. W tysiąc dziewięćset trzydziestym pierwszym roku archeolodzy zaczęli badać jej wnętrze, żeby dowieść, że Zamek wzniesiono na starszej świątyni. I ją znaleźli. W jej komorze stały Chac Mool z paznokciami, zębami i oczami z macicy perłowej oraz tron w kształcie jaguara, pomalowany na czerwono cynobrem, z wstawkami z jadeitu. Dziś to wnętrze jest zamknięte dla zwiedzających od około roku dwa tysiące szóstego. A to nie wszystko. W dwa tysiące piętnastym roku badacze z UNAM i INAH zgłosili, że dzięki technice zwanej tomografią elektryczną wykryli pod piramidą jamę z wodą, bez usunięcia choćby jednego kamienia."
+    },
+    "guion_largo": {
+      "hash": "c1dd9e878c89fd92",
+      "texto": "To, co widzisz, to tylko zewnętrzna warstwa. Wewnątrz Zamku jest starsza świątynia, a pod nim kryje się wodna zagadka.\n\nZacznijmy od wnętrza. W kwietniu tysiąc dziewięćset trzydziestego pierwszego roku archeolodzy zaczęli badać budowlę, żeby sprawdzić pewien pomysł: że ta piramida została zbudowana na innej. Mieli rację. Wewnątrz znajduje się wcześniejsza świątynia, szeroka na około trzydzieści trzy metry i wysoka na około siedemnaście, do podstawy jej świątyni. Jej data jest niepewna. Jedno z oszacowań umieszcza ją między rokiem sześćsetnym a osiemsetnym.\n\nW tej wewnętrznej piramidzie odkryto dwie komory. W kwietniu tysiąc dziewięćset trzydziestego piątego roku znaleziono Chac Mool, półleżącą postać, która trzyma naczynie na brzuchu. Oczy, paznokcie i zęby były inkrustowane macicą perłową. W sierpniu tysiąc dziewięćset trzydziestego szóstego roku znaleziono inną komorę, kilka metrów od pierwszej. Nazwano ją Komorą Ofiar. Były w niej dwa rzędy ludzkich kości i rzeźba czerwonego jaguara.\n\nTa rzeźba to Tron Czerwonego Jaguara. Późniejsze analizy metodą fluorescencji rentgenowskiej wykazały, że czerwona farba zawiera cynober, minerał rtęci. Sądzono, że plamy na skórze to krążki z krzemienia, ale okazało się, że są z jadeitu, odmiany jadeitu szlachetnego. Kły to muszle morskich ślimaków. Od dwa tysiące szóstego roku wnętrze jest zamknięte dla zwiedzających, a tron nie jest wystawiany.\n\nTeraz woda. Narodowy Uniwersytet Autonomiczny Meksyku i INAH zgłosiły w dwa tysiące piętnastym roku odkrycie pod piramidą. Zespół z Instytutu Geofizyki, kierowany przez Reného Cháveza, z inżynierem Andrésem Tejero i archeolożką Denisse Argote, użył techniki zwanej trójwymiarową tomografią oporności elektrycznej. Polega ona na wysyłaniu prądu w grunt i mierzeniu, jak on reaguje. Żeby nie uszkodzić dawnych posadzek, użyto dziewięćdziesięciu sześciu płaskich płyt, przyklejonych żelem medycznym. Wyniki opublikowano w czasopiśmie Scientific Reports.\n\nTo, co wykryto, to jama wypełniona słodką wodą. Według „Gazety UNAM” znajduje się około ośmiu metrów pod piramidą. Inne wiadomości z dwa tysiące piętnastego roku podawały większe liczby: około dwudziestu metrów głębokości i rozmiar dwadzieścia pięć na trzydzieści pięć. Te liczby się nie zgadzają, więc lepiej zostać przy tym, co podstawowe: istnieją przesłanki, że pod Zamkiem znajduje się zbiornik wody. Nikt go nie odkopał.\n\nBadacz Chávez wspomniał, że może istnieć system z wlotami i wylotami wody. Niektórzy archeolodzy uważają, że mógłby łączyć się z cenotami Xtoloc i Świętą. Nie zostało to jeszcze potwierdzone.\n\nDzięki podbudowie, jaguarowi i wodzie piramida zyskuje głębszy sens. To budowla, która wznosi się ku niebu, ale jednocześnie opiera się na wodzie podziemnego świata.\n\nKiedy skończysz tutaj, przejdź do kolejnego przystanku swojej trasy."
+    },
+    "retos_observacion": {
+      "hash": "acc04f90321bf734",
+      "texto": [
+        "Poszukaj w północno-wschodnim narożniku północnych schodów przejścia, które otwarto w latach trzydziestych, żeby zbadać wnętrze",
+        "Wyobraź sobie, wewnątrz piramidy, tron czerwonego jaguara z plamami z jadeitu i kłami z muszli",
+        "Pomyśl, że według UNAM pod ziemią, po której stąpasz, znajduje się jama z wodą"
+      ]
+    },
+    "especificaciones": {
+      "hash": "32412be0b5bfe96e",
+      "texto": {
+        "Substruktura": "wcześniejsza świątynia o szerokości około 33 m i wysokości około 17 m do podstawy świątyni; jej data jest niepewna",
+        "Eksploracja": "od kwietnia 1931",
+        "Chac Mool": "znaleziony w kwietniu 1935, z oczami, paznokciami i zębami z macicy perłowej",
+        "Tron Czerwonego Jaguara": "farba z cynobrem, plamy z jadeitu i kły z muszli",
+        "Badanie tomografią elektryczną": "UNAM i INAH, 2015; opublikowane w Scientific Reports",
+        "Dostęp": "wnętrze jest zamknięte dla zwiedzających od około 2006"
+      }
+    },
+    "faq_mito": {
+      "hash": "0fbd8b801250570d",
+      "texto": {
+        "pregunta": "Mit: Istnieje otwarty tunel, którym można zejść do cenoty pod Zamkiem.",
+        "respuesta": "Rzeczywistość: Jamę z wodą wykryto badaniami prowadzonymi z powierzchni i nikt jej nie odkopał. Wnętrze piramidy jest zamknięte dla zwiedzających."
+      }
+    }
+  }
+}

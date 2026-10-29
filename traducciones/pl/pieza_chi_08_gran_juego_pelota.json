@@ -1,0 +1,56 @@
+{
+  "id": "chi_08_gran_juego_pelota",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ef611bef583fdc40",
+      "texto": "Wielkie Boisko do Gry w Piłkę"
+    },
+    "frase_gancho": {
+      "hash": "ae1be7f22c00f74d",
+      "texto": "Największe znane boisko Mezoameryki: ponad sto sześćdziesiąt metrów długości."
+    },
+    "puente_narrativo": {
+      "hash": "c2d5568588337440",
+      "texto": "Podejdź do podstawy murów boiska, gdzie stoją ławeczki z reliefami. Gdy skończysz, przejdź do kolejnego przystanku na swojej trasie."
+    },
+    "guion_corto": {
+      "hash": "e2d5fed09dbc6b16",
+      "texto": "Stoisz na Wielkim Boisku do Gry w Piłkę, największym, jakie znamy w Mezoameryce. INAH opisuje je jako mające ponad sto sześćdziesiąt osiem metrów długości i siedemdziesiąt szerokości, choć inne pomiary podają nieco mniejsze wartości. To główne z trzynastu boisk znanych w Chichén Itzá, zbudowane około roku dziewięćsetnego. Na bocznych ścianach, mniej więcej osiem metrów nad ziemią, znajdują się kamienne pierścienie z dwoma splecionymi upierzonymi wężami. Przypominają obręcze do koszykówki, ale interpretuje się je raczej jako portale do podziemnego świata. Specjalistka Linda Schele podsumowała to tak: to nie był sport."
+    },
+    "guion_largo": {
+      "hash": "139ddbcc57aa6c00",
+      "texto": "Stoisz na największym boisku do gry w piłkę, jakie znamy w Mezoameryce. Rozumiesz dlaczego, gdy widzisz, jak daleko sięga.\n\nINAH opisuje je jako mające ponad sto sześćdziesiąt osiem metrów długości i siedemdziesiąt szerokości. Inny, bardziej techniczny opis podaje całkowitą długość stu pięćdziesięciu dwóch i pół metra oraz szerokość około siedemdziesięciu jeden metrów. Samo boisko ma około trzydziestu metrów szerokości, a każdy mur boczny około dziewięćdziesięciu sześciu i pół metra. Wymiary różnią się w zależności od tego, co się mierzy. Pewne jest jedno: jest ogromne.\n\nZbudowano je około roku dziewięćsetnego, w okresie Klasyku Terminalnego. Była to epoka, w której kilka miast Majów na północy przeszło od rządów jednego władcy do rady szlachty. To główne z trzynastu boisk do gry w piłkę, które udokumentowano w Chichén Itzá. Inskrypcja na okrągłym kamieniu podaje datę siedemnastego listopada osiemset sześćdziesiątego czwartego roku, według odczytania badaczki Ruth Krochock, a niektórzy uznali ją za datę poświęcenia boiska. Są jednak badania, według których boisko zbudowano około roku dziewięćsetnego, być może na miejscu wcześniejszego.\n\nZespół ma cztery wielkie budowle. Na wschodzie i na zachodzie stoją dwie długie platformy z ławeczkami, na których znajdują się reliefy. Na tyłach tych platform schody prowadzą do pięciu małych świątyń i do Górnej Świątyni Jaguarów. A na krańcach boiska stoją jeszcze dwie świątynie, Północna i Południowa.\n\nSpójrz na pierścienie. Znajdują się na bocznych murach, bardzo wysoko nad podłożem. INAH odnotowuje jeden pierścień na wysokości około ośmiu metrów. Wyrzeźbiono na nim dwie upierzone grzechotki, które splatają się wokół sześciu koncentrycznych kręgów. INAH przypomina, że dawniej sądzono, iż gracze próbowali przepchnąć kauczukową piłkę przez obręcz, a że ten obraz mógłby symbolizować portal do podziemnego świata oraz cykl śmierci i odrodzenia. Jeden rzeźbiony pierścień można dziś zobaczyć w Wielkim Muzeum Chichén Itzá, na terenie stanowiska archeologicznego.\n\nZa tym wszystkim kryje się ważna myśl. Specjalistka Linda Schele twierdziła, że gra w piłkę nie była sportem, lecz poważną sprawą, związaną z trwaniem państwa i kontaktem z innym światem. Dlatego reliefy na ławeczkach mówią o ofierze, a pierścienie o podziemnym świecie.\n\nJest jeszcze jeden element, który pomaga zrozumieć to miejsce. Archeolodzy odkopali odcinek około dziewięćdziesięciu metrów muru, który otaczał centrum ceremonialne, tuż między tym boiskiem a zachodnim wejściem dla pieszych. Jedna z hipotez głosi, że Boisko do Gry w Piłkę wzniesiono po tym murze i po Dolnej Świątyni Jaguarów.\n\nGdy skończysz, przejdź do kolejnego przystanku na swojej trasie. Ławeczki z reliefami znajdują się u podstawy murów, tuż przy ziemi."
+    },
+    "retos_observacion": {
+      "hash": "0a341eec1b3d84d1",
+      "texto": [
+        "Spójrz na boczne mury i wypatrz kamienne pierścienie, wiele metrów nad ziemią",
+        "Zmierz wzrokiem długość boiska od jednego końca do drugiego",
+        "Rozpoznaj dwie świątynie na krańcach, Północną i Południową, oraz boczną platformę z ławeczkami"
+      ]
+    },
+    "especificaciones": {
+      "hash": "54ec939de8bbf154",
+      "texto": {
+        "Długość i szerokość": "ponad 168 × 70 metrów według INAH; inny opis podaje około 152,5 × 70,75 metra",
+        "Epoka": "około roku 900, Klasyk Terminalny",
+        "Pierścienie": "około 8 metrów nad ziemią, z dwoma splecionymi upierzonymi wężami",
+        "Budowle": "dwie boczne platformy z ławeczkami, pięć małych świątyń, Górna Świątynia Jaguarów oraz świątynie Północna i Południowa",
+        "Udokumentowane boiska w Chichén Itzá": "13",
+        "Muzeum": "jeden rzeźbiony pierścień jest wystawiony w Wielkim Muzeum Chichén Itzá"
+      }
+    },
+    "faq_mito": {
+      "hash": "e8e01786bc275d1d",
+      "texto": {
+        "pregunta": "Mit: W grze w piłkę Majów grało się po to, by przepchnąć piłkę przez obręcz, jak w nowoczesnym sporcie.",
+        "respuesta": "Rzeczywistość: Pierścienie interpretuje się jako portale do podziemnego świata. Specjalistka Linda Schele twierdziła, że gra „nie była sportem”, lecz czymś związanym z państwem i innym światem."
+      }
+    }
+  }
+}

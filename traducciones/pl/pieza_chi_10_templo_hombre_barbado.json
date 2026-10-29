@@ -1,0 +1,56 @@
+{
+  "id": "chi_10_templo_hombre_barbado",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "00b0d8f77c65c680",
+      "texto": "Świątynie Północna i Południowa Boiska do Gry w Piłkę"
+    },
+    "frase_gancho": {
+      "hash": "fd380cf00287dea3",
+      "texto": "Na krańcach boiska stoją dwie świątynie: w jednej wyrzeźbiono brodatego mężczyznę, a druga ma długą galerię."
+    },
+    "puente_narrativo": {
+      "hash": "354a6317b719bef8",
+      "texto": "Spójrz teraz na wschodnią stronę boiska. Na południowym krańcu tej platformy stoi [Świątynia Jaguarów](chi_12_templo_jaguares) z malowidłami przedstawiającymi bitwy."
+    },
+    "guion_corto": {
+      "hash": "c7a1abf38b0722f8",
+      "texto": "Na krańcach boiska stoją dwie świątynie. Ta północna nazywa się Świątynią Brodatego Mężczyzny, od postaci z brodą wyrzeźbionej w jej wnętrzu. Ma tylko jedną komorę, mierzącą około ośmiu metrów na cztery. Jej reliefy ukazują ceremonię przed pustym tronem w kształcie jaguara. Ta południowa to długa sklepiona galeria o długości około dwudziestu czterech metrów. Tylko sześć pilastrów ma reliefy, z wojownikami stojącymi i bogato zdobionymi, a wśród gruzów znaleziono Chac Mool. Przypuszcza się, że w tych świątyniach odprawiano rytuały związane z grą, ale nie znamy wszystkich szczegółów."
+    },
+    "guion_largo": {
+      "hash": "74debd32c33bcdfa",
+      "texto": "Te dwie świątynie zamykają boisko na jego krańcach. Są mniej znane niż pierścienie czy panele, ale kryją bardzo cenne wizerunki.\n\nTa północna nazywa się Świątynią Brodatego Mężczyzny, od postaci z brodą wyrzeźbionej w jej wnętrzu. Wznosi się na kwadratowej podstawie, mającej około czternastu metrów ze wschodu na zachód i siedem i pół z północy na południe, i ma tylko jedną komorę, długą na około osiem metrów i szeroką na cztery. Ma misternie rzeźbione filary oraz reliefy z kwiatami, ptakami i drzewami.\n\nNajbardziej przyciąga uwagę to, co jest w środku. Reliefy wewnątrz ukazują ceremonię, w której główna postać siedzi lub stoi przed pustym tronem w kształcie jaguara. Według EnriqueUeli w tej świątyni znajduje się panel z ponad czterdziestoma postaciami w różnych scenach. To złożony obraz, który specjaliści wciąż badają.\n\nTa południowa jest zupełnie inna. To długa sklepiona galeria, mająca około dwudziestu czterech metrów długości i cztery i pół szerokości, wzniesiona na południowym krańcu boiska. Reliefy pojawiają się tylko na sześciu pilastrach i ukazują stojących wojowników, bogato zdobionych. Wśród gruzów znaleziono Chac Mool.\n\nDo czego służyły? Przypuszcza się, że z pewnością odprawiano w nich rytuały związane z grą. Ważne jest tu słowo „z pewnością”: nie ma dowodu, który by to potwierdzał. Można natomiast powiedzieć, że zamykały boisko na obu jego krańcach, a obrazy w środku mówią o ceremoniach, wojownikach i władzy.\n\nPowtarzana wśród przewodników opinia głosi, że Świątynia Północna ma szczególną akustykę, ale nie ma na to udokumentowanych dowodów.\n\nA teraz, gdy skończysz oglądać krańce boiska, zwróć uwagę na jego wschodnią stronę. Na południowym krańcu tej platformy stoi [Świątynia Jaguarów](chi_12_templo_jaguares) z malowidłami przedstawiającymi bitwy."
+    },
+    "retos_observacion": {
+      "hash": "8e81f3682a6b0918",
+      "texto": [
+        "Znajdź Świątynię Północną, czyli Świątynię Brodatego Mężczyzny, na północnym krańcu boiska, i jej jedyną komorę",
+        "Odszukaj Świątynię Południową, długą i niską galerię, na przeciwległym krańcu",
+        "Spójrz z oddali na filary północnej świątyni i wypatrz reliefy z kwiatami, ptakami i drzewami"
+      ]
+    },
+    "especificaciones": {
+      "hash": "67e7dbeb3fa227b2",
+      "texto": {
+        "Świątynia Północna (Brodatego Mężczyzny)": "jedna komora o wymiarach około 8,13 × 4 m, na podstawie o wymiarach około 14 × 7,3 m",
+        "Reliefy wewnętrzne": "ceremonia przed pustym tronem w kształcie jaguara; panel z ponad 40 postaciami",
+        "Świątynia Południowa": "sklepiona galeria o wymiarach około 24,3 × 4,4 m",
+        "Reliefy Świątyni Południowej": "stojący wojownicy na sześciu pilastrach; wśród gruzów znaleziono Chac Mool",
+        "Użytkowanie": "przypuszcza się, że odprawiano tu rytuały związane z grą",
+        "Badania": "González i in., 2017; Vela, Arqueología Mexicana"
+      }
+    },
+    "faq_mito": {
+      "hash": "c42a502b32a2cb7d",
+      "texto": {
+        "pregunta": "Mit: Świątynia Brodatego Mężczyzny ma szczególną akustykę, która wzmacnia głos z jednego końca na drugi.",
+        "respuesta": "Rzeczywistość: Nie ma na to udokumentowanych dowodów. Udokumentowane są jej jedyna komora, reliefy z kwiatami, ptakami i drzewami oraz brodata postać, od której wzięła nazwę."
+      }
+    }
+  }
+}

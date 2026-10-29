@@ -1,0 +1,57 @@
+{
+  "id": "chi_05_plataforma_venus",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18353759b58471de",
+      "texto": "Platforma Wenus"
+    },
+    "frase_gancho": {
+      "hash": "8d4d34dc5f31ef26",
+      "texto": "Platforma poświęcona planecie Wenus, kilka kroków od Zamku."
+    },
+    "puente_narrativo": {
+      "hash": "ab63f4a503e22021",
+      "texto": "Zostań przy niskiej platformie i rozejrzyj się dookoła: jesteś w samym sercu placu. Kiedy skończysz, przejdź do kolejnego przystanku swojej trasy."
+    },
+    "guion_corto": {
+      "hash": "6d8c7a104b80e113",
+      "texto": "Ta platforma leży na północ od Zamku, kilka kroków od piramidy, przy drodze do Świętego Cenote. Jest poświęcona planecie Wenus. Według tablicy INAH pierwotnie była pomalowana na czerwono, zielono, ochrowo, niebiesko i czarno, a pośrodku ma płaskorzeźbę człowieka-ptaka-węża, który jest interpretowany jako Kukulcán w swoim aspekcie gwiazdy porannej. Wewnątrz niej znaleziono duże rzeźbione stożki z kamienia i nikt nie wie, do czego służyły. Majowie bardzo uważnie śledzili ruchy Wenus i zapisywali je w kodeksach, takich jak Kodeks drezdeński."
+    },
+    "guion_largo": {
+      "hash": "6ab9759f32ccb9a9",
+      "texto": "Ten przystanek jest krótki, ale łączy się z ideą, która przewija się przez całe Chichén Itzá: Majowie czytali niebo.\n\nPlatforma Wenus leży na północ od Zamku, kilka kroków od piramidy, przy drodze do Świętego Cenote. Jest poświęcona planecie Wenus. Wewnątrz platformy znaleziono duże rzeźbione stożki z kamienia, a ich funkcja jest nieznana. To jedno z tych pytań, na które archeologia wciąż nie odpowiada.\n\nWedług tablicy INAH platforma pierwotnie była pomalowana na czerwono, zielono, ochrowo, niebiesko i czarno. Ma schody, a wśród jej płaskorzeźb jest centralna postać: człowiek-ptak-wąż. Tablica interpretuje go jako wizerunek Quetzalcóatla-Kukulcána w jego aspekcie gwiazdy porannej. W narożnikach pojawia się związanie lat obok planety Wenus. Tablica mówi też, że na wschodnich schodach znaleziono ofiarę oraz że platforma prawdopodobnie służyła jako scena ceremonii, rytuałów lub tańców. To są interpretacje: tablica nie podaje ani wymiarów, ani daty.\n\nAby zrozumieć, dlaczego Wenus miała znaczenie, warto przypomnieć sobie, jak Majowie patrzyli na niebo. Darzyli szczególną uwagą tę planetę, która pojawia się jako gwiazda poranna i jako gwiazda wieczorna. Kodeks drezdeński, jedna z nielicznych zachowanych ksiąg Majów, zawiera tablice do śledzenia jej cykli. To sposób, by zrozumieć, że niebo nie było tłem: było kalendarzem, który porządkował wojnę, rytuały i decyzje władców.\n\nStąd na północ biegnie prosta, kamienna droga, która ginie wśród roślinności i prowadzi do cenote: Sacbé numer jeden.\n\nKiedy skończysz patrzeć, przejdź do kolejnego przystanku swojej trasy."
+    },
+    "retos_observacion": {
+      "hash": "d4cd314182eb6543",
+      "texto": [
+        "Znajdź niską platformę na północ od Zamku, kilka kroków od piramidy",
+        "Poszukaj płaskorzeźb, które wciąż da się rozpoznać, takich jak centralna postać albo te w narożnikach, jeśli są widoczne",
+        "Spójrz na północ i wypatrz prostą drogę, która ginie wśród roślinności"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1752b5b24fa4e82d",
+      "texto": {
+        "Lokalizacja": "na północ od Zamku, kilka kroków od piramidy, w stronę Świętego Cenote",
+        "Dedykacja": "planecie Wenus",
+        "Oryginalne kolory": "czerwony, zielony, ochra, niebieski i czarny (tablica INAH)",
+        "Płaskorzeźba centralna": "człowiek-ptak-wąż, interpretowany jako Kukulcán w aspekcie gwiazdy porannej (tablica INAH)",
+        "Znaleziska": "duże rzeźbione stożki z kamienia wewnątrz platformy, o nieznanej funkcji; ofiara na wschodnich schodach",
+        "Możliwe zastosowanie": "scena ceremonii, rytuałów lub tańców",
+        "Odniesienie": "Kodeks drezdeński zawiera tablice Wenus"
+      }
+    },
+    "faq_mito": {
+      "hash": "f6f97bf0600d0da8",
+      "texto": {
+        "pregunta": "Mit: Ta platforma była potwierdzonym obserwatorium astronomicznym.",
+        "respuesta": "Rzeczywistość: Jest poświęcona Wenus, ale nie ma dowodów, że była obserwatorium. Udokumentowane są jej kamienne stożki o nieznanej funkcji oraz płaskorzeźby, które interpretuje się jako scenę ceremonii."
+      }
+    }
+  }
+}

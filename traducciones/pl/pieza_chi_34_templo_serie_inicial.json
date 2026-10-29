@@ -1,0 +1,57 @@
+{
+  "id": "chi_34_templo_serie_inicial",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e4c4238afd6a019e",
+      "texto": "Świątynia Serii Początkowej"
+    },
+    "frase_gancho": {
+      "hash": "58d1c3fd3f4f2df6",
+      "texto": "Wejście do Starego Chichén: trzypoziomowa świątynia z nadprożem datowanym na rok osiemset siedemdziesiąty ósmy."
+    },
+    "puente_narrativo": {
+      "hash": "9957d7b813e7aa17",
+      "texto": "Przejdź przez północny plac do [Świątyni Fallusów](chi_35_templo_falos), dwupiętrowego pałacu."
+    },
+    "guion_corto": {
+      "hash": "ce780e7a286833a9",
+      "texto": "Jesteś w Grupie Serii Początkowej, zwanej także Starym Chichén. To zespół mieszkalny i ceremonialny na południowy zachód od centrum Chichén Itzá, z około dwudziestoma pięcioma budowlami wokół dwóch placów, na platformie otoczonej murem. Świątynia, od której zespół bierze nazwę, to trzypoziomowa piramida z jedną schodnią. Jednym z jej najbardziej niezwykłych elementów jest nadproże z datą roku osiemset siedemdziesiątego ósmego, które prawdopodobnie przeniesiono z pierwotnego miejsca."
+    },
+    "guion_largo": {
+      "hash": "e8140b9f80f106e1",
+      "texto": "Stary Chichén to popularna nazwa miejsca, które przez dziesięciolecia trudno było odwiedzić.\n\nWedług biuletynu INAH z lutego dwa tysiące dwudziestego trzeciego roku Grupa Serii Początkowej leży na południowy zachód od centrum Chichén Itzá, zajmuje około czternastu tysięcy sześciuset pięciu metrów kwadratowych i obejmuje dwadzieścia pięć budowli ułożonych wokół dwóch placów, na wielkiej platformie otoczonej murem. Łączy obszary mieszkalne, administracyjne i religijne. Inne rachunki podają nieco odmienne liczby: dwadzieścia siedem budowli albo ponad dwadzieścia trzy. Warto zapamiętać obraz zespołu liczącego od dwudziestu do trzydziestu konstrukcji.\n\nData zmieniła to, co myślano o tym miejscu. INAH twierdzi, że zasiedlenie przypada na późny klasyk, między rokiem sześćsetnym a osiemset pięćdziesiątym. Wcześniej sądzono, że pochodzi dopiero z klasyku schyłkowego i z Wczesnego postklasyku, mniej więcej z lat od osiemset do tysiąc dwieście. Pałac Stiuków dostarczył najstarszych dowodów architektury w Chichén Itzá: modelowanego stiuku w kolorach.\n\nGłówna świątynia, budowla pięć C cztery, to trzypoziomowa piramida z jedną schodnią. Jej górna świątynia pochodzi z okresu Sotuta. Według INAH przednia schodnia znajduje się od zachodu i wiąże się z kamieniem ofiarnym; na niższym poziomie stoi Chac Mool, a dwaj atlanci służą jako węgary wejścia. Jej nadproże nosi datę odpowiadającą dniowi trzydziestego lipca osiemset siedemdziesiątego ósmego roku. Badanie techniczne z dwa tysiące czternastego roku mówi, że nadproże prawdopodobnie przeniesiono z pierwotnego miejsca i że wspomina ono o kilku kobietach i mężczyznach oraz odnosi się do bogów i rytuałów.\n\nEdward Thompson badał ten obszar około tysiąc osiemset dziewięćdziesiątego piątego roku, a Instytut Carnegie zainteresował się nim w tysiąc dziewięćset dwudziestym trzecim roku. Peter Schmidt kierował w latach dziewięćdziesiątych interwencją na dużą skalę.\n\nINAH otworzył Stary Chichén dla zwiedzających we wrześniu dwa tysiące dwudziestego trzeciego roku. Według INAH dziś można go zwiedzać w piątki i soboty, w dwóch turach: od dziewiątej do wpół do dwunastej oraz od dwunastej do wpół do trzeciej. Trzeba zarezerwować miejsce w kasie stanowiska archeologicznego i zawsze idziesz z pracownikami INAH i przewodnikiem. Grupy liczą do pięćdziesięciu osób, a zwiedzanie trwa około dwóch i pół godziny. Te zasady mogą się zmienić: potwierdź je przed wizytą.\n\nIdź teraz do [Świątyni Fallusów](chi_35_templo_falos)."
+    },
+    "retos_observacion": {
+      "hash": "f6f609f3572ee677",
+      "texto": [
+        "Przyjrzyj się trzypoziomowej piramidzie z jedną schodnią",
+        "Poszukaj Chac Moola na niższym poziomie oraz atlantów, którzy służą jako węgary",
+        "Zwróć uwagę na mur otaczający platformę zespołu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f43608b3284221c",
+      "texto": {
+        "Zespół": "Grupa Serii Początkowej (Stary Chichén), około 14 605 m², około 25 budowli wokół dwóch placów",
+        "Świątynia Serii Początkowej (5C4)": "trzypoziomowa piramida z jedną schodnią",
+        "Nadproże": "data 30 lipca 878; prawdopodobnie przeniesione",
+        "Zasiedlenie": "600-850 (Późny klasyk), według INAH",
+        "Badania": "Thompson (około 1895), Carnegie (1923), Schmidt (lata dziewięćdziesiąte)",
+        "Zwiedzanie": "piątek i sobota, od 9:00 do 11:30 i od 12:00 do 14:30, z rezerwacją w kasie stanowiska, z przewodnikiem i pracownikiem INAH; do 50 osób w grupie i około 2,5 godziny (INAH; potwierdź przed wizytą)",
+        "Otwarcie dla zwiedzających": "wrzesień 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "d949c73d58de3a80",
+      "texto": {
+        "pregunta": "Mit: Stary Chichén to odrębne miasto, starsze od Chichén Itzá.",
+        "respuesta": "Rzeczywistość: To popularna nazwa grupy budowli w obrębie Chichén Itzá. INAH umieszcza jej zasiedlenie już w późnym klasyku, przed okresem najlepiej znanym na tym stanowisku."
+      }
+    }
+  }
+}

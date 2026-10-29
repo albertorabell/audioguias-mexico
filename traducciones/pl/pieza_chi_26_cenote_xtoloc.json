@@ -1,0 +1,56 @@
+{
+  "id": "chi_26_cenote_xtoloc",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3d23ef01bc868fa3",
+      "texto": "Cenote Xtoloc"
+    },
+    "frase_gancho": {
+      "hash": "943c2d93b5a65133",
+      "texto": "Drugi cenote Chichén Itzá, który uważano za zwykłe źródło wody do picia, a który być może był czymś znacznie więcej."
+    },
+    "puente_narrativo": {
+      "hash": "a8d9e98ffb3e296f",
+      "texto": "Podejdź ostrożnie do krawędzi cenote. Kiedy skończysz, wróć ścieżką i ruszaj do następnego punktu swojej trasy."
+    },
+    "guion_corto": {
+      "hash": "fd84ee3acdce473f",
+      "texto": "To jest Cenote Xtoloc, drugi pod względem wielkości w Chichén Itzá. Jego nazwa pochodzi od słowa w języku Majów, które oznacza iguanę. Przez długi czas mówiono, że Święte Cenote było miejscem religijnym, a to było świeckie, to, które dostarczało wodę ludności. Dziś kilku badaczy twierdzi, że taki podział jest zbyt prosty. Badanie z dwa tysiące osiemnastego roku odkryło schody prowadzące od drogi do wody, platformy z kamiennego muru i trzy jaskinie w północno-zachodniej ścianie. Świątynia, która na nie spogląda, ma kolumny z postaciami wojowników."
+    },
+    "guion_largo": {
+      "hash": "0f57e8dfaa38f81a",
+      "texto": "Kiedy myśli się o cenote w Chichén Itzá, prawie zawsze myśli się o Świętym. To jest to drugie, a jego historia pomaga zrozumieć, jak zmieniają się poglądy.\n\nCenote Xtoloc jest drugim pod względem wielkości w tym miejscu. Jego nazwa pochodzi od słowa w języku Majów oznaczającego iguanę. Obok wznosi się Świątynia Xtoloc, z filarami rzeźbionymi w postacie ludzi, rośliny, ptaki i sceny mitologiczne. Jej główne wejście zwrócone jest na zachód, w linii z sacbé prowadzącym do Osario, a ołtarz wewnątrz ma płaskorzeźby roślin, ptaków i scen mitycznych.\n\nPrzez dziesięciolecia powtarzano pewną opinię: że Święte Cenote było miejscem rytuałów, a Xtoloc cenote świeckim, które dostarczało wodę na co dzień. Streszczenie przedstawione w dwa tysiące osiemnastym roku przez Cristinę Verdugo, Jeremy’ego Coltmana, Jamesa Brady’ego i Guillermo de Andę mówi, że to założenie stało się powtarzaną prawdą i że dlatego poświęcano mu niewiele uwagi. Na przykład świątynia nie pojawia się nawet na mapie Instytucji Carnegie, chociaż Ann Axtell Morris prowadziła tam wykopaliska w latach dwudziestych.\n\nKiedy projekt Wielki Wodonośnik Majów przejrzał wszystkie źródła wody w tym miejscu, odkrył schody prowadzące od sacbé do wody, platformy z kamiennego muru, które nadawały kształt przestrzeni, oraz trzy jaskinie w północno-zachodniej ścianie cenote. Inne streszczenie, autorstwa Briana Waldo, z dwa tysiące dziewiętnastego roku, mówi, że oddzielanie tego, co święte, od tego, co świeckie, to uproszczony pogląd, właściwy naszej kulturze. Autor twierdzi, że sacbé łączyły zbiorniki wodne z centrum miasta.\n\nSą to streszczenia konferencyjne, a nie opublikowane artykuły, więc stanowią trwający kierunek badań. Nie podają, jaka jest głębokość cenote ani jakie przedmioty znaleziono.\n\nWnioski są takie, że woda w Chichén Itzá była jednocześnie praktyczna i święta. Kiedy skończysz, wróć ścieżką i ruszaj do następnego punktu swojej trasy."
+    },
+    "retos_observacion": {
+      "hash": "bed325aec35d6819",
+      "texto": [
+        "Znajdź krawędź cenote i zwróć uwagę na roślinność zwisającą nad wodą",
+        "Wypatrz świątynię, która na nie spogląda, i jej filary z postaciami",
+        "Pomyśl o drodze, która prowadzi tutaj od Osario"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a36ffb04e66019c7",
+      "texto": {
+        "Rozmiar": "drugie pod względem wielkości cenote w Chichén Itzá",
+        "Nazwa": "z języka Majów, „iguana”",
+        "Świątynia Xtoloc": "filary z postaciami ludzi, roślinami i ptakami; główne wejście od zachodu",
+        "Odkrycia Wielkiego Wodonośnika Majów": "schody od sacbé, platformy z kamiennego muru, trzy jaskinie w północno-zachodniej ścianie",
+        "Wykopaliska w świątyni": "Ann Axtell Morris, lata dwudzieste",
+        "Głębokość i przedmioty": "brak opublikowanych danych"
+      }
+    },
+    "faq_mito": {
+      "hash": "ce9d8e8343da4b48",
+      "texto": {
+        "pregunta": "Mit: Cenote Xtoloc było tylko codzienną studnią z wodą i nie miało wartości rytualnej.",
+        "respuesta": "Rzeczywistość: To tradycyjny pogląd, który dziś kwestionuje kilku badaczy. Odkryto schody, platformy i jaskinie, które sugerują, że to miejsce również zostało zaaranżowane i otoczone troską."
+      }
+    }
+  }
+}

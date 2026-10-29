@@ -1,0 +1,56 @@
+{
+  "id": "chi_22_el_mercado",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "77f290ac9bd6716d",
+      "texto": "Targowisko"
+    },
+    "frase_gancho": {
+      "hash": "e9eca5738bff012c",
+      "texto": "Długi budynek z filarami, wężami na ławach i wojownikami depczącymi jeńców."
+    },
+    "puente_narrativo": {
+      "hash": "3e8d12812746f916",
+      "texto": "Idź dalej do [Kostnicy](chi_23_el_osario), piramidy z otworem na szczycie, który prowadzi w dół do jaskini."
+    },
+    "guion_corto": {
+      "hash": "d896f82fe0c03816",
+      "texto": "Nazywa się Targowisko, bo pierwsi badacze uznali, że handlowano tu. Dziś archeolodzy widzą w nim raczej budynek ceremonialny niż handlowy. Ma przednią platformę o wymiarach około osiemdziesięciu metrów na piętnaście, utworzoną z rzędu filarów, portyk ze sklepieniem i kwadratowy dziedziniec z kolumnami. Jego ławy zdobią węże pierzaste, a skarpa pokazuje procesję wojowników depczących jeńców. Pod posadzką dziedzińca znaleziono niewielką ofiarę z paciorków i małej główki z jadeitu."
+    },
+    "guion_largo": {
+      "hash": "6f3da82da251edca",
+      "texto": "Nazwa Targowisko jest dobrym przykładem pomysłu, który się utrzymał, choć specjaliści myślą dziś zupełnie inaczej.\n\nPierwsi badacze uznali, że ten budynek był targowiskiem, ze względu na długą galerię z kamienną ławą dookoła i na dziedziniec. Dziś archeolodzy uważają, że jego funkcja była bardziej ceremonialna niż handlowa. Nazwa wywodzi się więc ze starej interpretacji, a nie z potwierdzonego faktu.\n\nNajpełniejszy opis pochodzi od archeologa Alexandre’a Guidy Navarro, który pracował przy Wielkiej Niwelacji między dwa tysiące czwartym a dwa tysiące siódmym rokiem i który opiera się na planie Marquiny z tysiąc dziewięćset sześćdziesiątego czwartego roku. Front stanowi platforma o wymiarach około osiemdziesięciu metrów na piętnaście, utworzona z rzędu filarów. Za nią znajduje się przykryty sklepieniem portyk. Wejściem pośrodku muru południowego wchodzi się na kwadratowy dziedziniec otoczony kolumnami. Węgary tego wejścia zdobią po trzech wojowników z każdej strony.\n\nNajbardziej uderza dekoracja. Są tu dwie ławy z wężami pierzastymi. Na skarpie, czyli pochyłej ścianie, posuwa się procesja wojowników, którzy depczą jeńców. Pod posadzką dziedzińca Marquina znalazł skrzynię z kamiennego muru z ofiarą: paciorkami z zielonego kamienia i z muszli oraz małą główką z jadeitu.\n\nGuida Navarro proponuje pewną interpretację. Według niego ikonografia węży pierzastych tego budynku i Tzompantli nawiązuje do postaci, którą nazywa Kapitanem Wężem, a oba budynki miałyby upamiętniać jego intronizację na władcę w okresie Klasyku Terminalnego, między rokiem osiemsetnym a tysiąc pięćdziesiątym. To hipoteza jednego autora, a nie powszechna zgoda badaczy.\n\nJest też praktyczna uwaga: pilastry tego budynku, tak jak te w Tysiącu Kolumn, utraciły prawie całą swoją farbę. To, co widzisz dziś, to goły kamień.\n\nOpisy nie zgadzają się co do kształtu: jeden nazywa budynek kwadratowym, a inny określa go jako mający kształt litery T. Być może mówią o różnych częściach budowli.\n\nIdź teraz w stronę [Kostnicy](chi_23_el_osario)."
+    },
+    "retos_observacion": {
+      "hash": "e5af8b7c01a49a0f",
+      "texto": [
+        "Znajdź filary z przodu i oszacuj, ile osób mieściło się w tak długiej galerii",
+        "Sprawdź, czy dostrzegasz węże pierzaste na ławach",
+        "Wyobraź sobie procesję wojowników depczących jeńców na skarpie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ba35cb916ed77def",
+      "texto": {
+        "Platforma przednia": "około 80 × 15 m, z rzędem filarów",
+        "Elementy": "portyk ze sklepieniem i kwadratowy dziedziniec z kolumnami",
+        "Wejście na dziedziniec": "trzej wojownicy na każdym węgarze",
+        "Dekoracja": "dwie ławy z wężami pierzastymi i skarpa z procesją wojowników depczących jeńców",
+        "Ofiara pod dziedzińcem": "paciorki z zielonego kamienia i muszli, mała główka z jadeitu (Marquina, 1964)",
+        "Proponowana interpretacja (Guida Navarro)": "upamiętnia intronizację „Kapitana Węża”, około 800-1050"
+      }
+    },
+    "faq_mito": {
+      "hash": "a5721cd81e1cdb28",
+      "texto": {
+        "pregunta": "Mit: To było targowisko, na którym Majowie wymieniali swoje produkty.",
+        "respuesta": "Rzeczywistość: Tak nazwali je pierwsi badacze. Dziś archeolodzy uważają je za budynek raczej ceremonialny niż handlowy."
+      }
+    }
+  }
+}

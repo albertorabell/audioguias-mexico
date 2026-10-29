@@ -1,0 +1,57 @@
+{
+  "id": "chi_16_templo_guerreros",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cd6f64b01a908be4",
+      "texto": "Świątynia Wojowników i Kolumnada Północnego Zachodu"
+    },
+    "frase_gancho": {
+      "hash": "6d01b78e2c4d509d",
+      "texto": "Kolumny rzeźbione w postacie wojowników, Chac Mool na szczycie, a w środku jeszcze jedna, starsza świątynia."
+    },
+    "puente_narrativo": {
+      "hash": "cd9bfdc1b8314878",
+      "texto": "Idź dalej wzdłuż świątyni w stronę [Grupy Tysiąca Kolumn](chi_19_grupo_mil_columnas), największego lasu filarów na placu."
+    },
+    "guion_corto": {
+      "hash": "76b13d969224ffde",
+      "texto": "To jest Świątynia Wojowników. To wielka piramida schodkowa, a z przodu i po bokach ciągną się rzędy kolumn rzeźbionych w postacie wojowników; Kolumnada Północnego Zachodu jest częścią tego zespołu. Uważa się, że te kolumny podtrzymywały dachy galerii, których już nie ma. Na szczycie schodów stoi Chac Mool, półleżąca postać trzymająca naczynie. Archeolodzy porównują go ze Świątynią B w Tula, w środkowym Meksyku, a to podobieństwo przez dziesięciolecia podsycało ideę najazdu Tolteków. Dziś mówi się raczej o wpływach. Wewnątrz świątyni znajduje się inna, starsza, Świątynia Chac Mool, którą Instytut Carnegie badał wykopaliskowo między rokiem tysiąc dziewięćset dwadzieścia pięć a rokiem tysiąc dziewięćset dwadzieścia osiem."
+    },
+    "guion_largo": {
+      "hash": "9b21f07b27085ac7",
+      "texto": "Stoisz przed jedną z najsłynniejszych budowli Chichén Itzá, a zarazem jedną z tych, które wywołały najwięcej sporów.\n\nTo wielka piramida schodkowa, z rzędami kolumn rzeźbionych w postacie wojowników z przodu i po bokach, mająca około czterdziestu metrów z każdej strony i cztery poziomy. Na górze znajduje się świątynia z dwiema salami i portykiem wejściowym, którego nadproże wspiera się na dwóch kolumnach w kształcie gigantycznych grzechotników. Na szczycie, obok schodów, stoi Chac Mool, półleżąca postać trzymająca na brzuchu talerz albo naczynie.\n\nArcheolodzy porównują go ze Świątynią B w Tula, miastem w środkowym Meksyku, które przez długi czas uważano za stolicę Tolteków. Podobieństwo jest prawdziwe i dlatego sądzono, że Chichén Itzá zostało podbite. Większość dzisiejszych interpretacji widzi raczej dialog stylów, owoc kontaktu. Zauważ, że nie ma tu samego naśladownictwa: kolumny, węże i sale mieszają się z własną tradycją.\n\nData też jest przedmiotem sporu. Niektórzy umieszczają tę budowlę około roku tysiąc dwieście. Jednak chronologia Chichén Itzá wciąż jest korygowana i nie ma jednej daty przyjętej przez wszystkich.\n\nNajciekawsze jest to, co kryje się w środku. Ta piramida przykrywa inną, starszą, zwaną Świątynią Chac Mool. Instytut Carnegie badał ją wykopaliskowo i odrestaurował między rokiem tysiąc dziewięćset dwadzieścia pięć a rokiem tysiąc dziewięćset dwadzieścia osiem. Archeolog Earl Morris opublikował tę pracę w dwóch tomach. W jej wnętrzu zachowały się malowidła ze scenami bitewnymi. Ponieważ cała ta strefa jest zamknięta, nie możesz tam wejść, ale warto wiedzieć, że ona tam jest. To piramida wewnątrz innej piramidy, tak jak Zamek.\n\nWarto też wiedzieć, że budowlę poddano restauracji. Prace rozpoczęły się w roku tysiąc dziewięćset dwadzieścia pięć. To, co widzisz dziś, jest mieszaniną oryginalnego kamienia i kamienia ułożonego na nowo, więc nie wszystko wygląda dokładnie tak, jak zostawili to budowniczowie.\n\nTeraz przyjrzyj się spokojnie kolumnom. Przed świątynią i po jej bokach ciągną się rzędy kamiennych kolumn, a te z Kolumnady Północnego Zachodu, obok świątyni, niemal wszystkie zdobią postacie wojowników. Uważa się, że podtrzymywały dachy z drewna i kamienia, dziś nieistniejące, a pod nimi mieściły się otwarte galerie. Dlatego dziś widzisz je odkryte. Wiele postaci przedstawiono z profilu, w nakryciach głowy, z ozdobami i bronią. Jeśli znajdziesz wyraźny relief, zatrzymaj się i przyjrzyj mu się. O tej kolumnadzie znamy niewiele własnych danych: nie ma dobrze udokumentowanych wymiarów ani daty, a badanie techniczne z roku dwa tysiące szesnaście wspomina o niej tylko wśród pobliskich budowli ze znakami wojennymi.\n\nTeraz idź dalej wzdłuż świątyni w stronę [Grupy Tysiąca Kolumn](chi_19_grupo_mil_columnas). Tam kolumny nie tworzą już rzędu, lecz las."
+    },
+    "retos_observacion": {
+      "hash": "721a38f04107f8fe",
+      "texto": [
+        "Odszukaj na szczycie schodów Chac Mool, półleżącą postać trzymającą naczynie",
+        "Poszukaj dwóch kolumn w kształcie grzechotnika, które podtrzymują nadproże portyku",
+        "Przesuń wzrokiem po rzędach kolumn Kolumnady Północnego Zachodu i poszukaj najlepiej zachowanych wojowników"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6ab36c0e3d6d34a8",
+      "texto": {
+        "Forma": "wielka piramida schodkowa o czterech poziomach, z rzędami kolumn z wojownikami",
+        "Rozmiar": "około 40 metrów z każdej strony",
+        "Porównanie": "przypomina Świątynię B w Tula, w środkowym Meksyku",
+        "Podbudowa": "Świątynia Chac Mool, zbadana wykopaliskowo przez Instytut Carnegie w latach 1925-1928",
+        "Kolumnada Północnego Zachodu": "rzędy kolumn z wojownikami przedstawionymi z profilu, obok świątyni; uważa się, że podtrzymywały dachy galerii",
+        "Data": "niektórzy umieszczają ją około roku 1200 (chronologia wciąż jest przedmiotem dyskusji)",
+        "Dostęp": "nie można wejść na podbudowę ani do jej wnętrza"
+      }
+    },
+    "faq_mito": {
+      "hash": "9ab61d54962f38ee",
+      "texto": {
+        "pregunta": "Mit: Świątynia Wojowników dowodzi, że Toltekowie podbili Chichén Itzá.",
+        "respuesta": "Rzeczywistość: Podobieństwo do Świątyni B w Tula jest prawdziwe, ale większość dzisiejszych interpretacji mówi o wpływach i kontakcie, a nie o podboju."
+      }
+    }
+  }
+}

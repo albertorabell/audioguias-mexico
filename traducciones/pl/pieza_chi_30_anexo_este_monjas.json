@@ -1,0 +1,55 @@
+{
+  "id": "chi_30_anexo_este_monjas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5b336e81005050e0",
+      "texto": "Aneks Wschodni"
+    },
+    "frase_gancho": {
+      "hash": "ec2b597fa5308e55",
+      "texto": "Drzwi, które są paszczą gigantycznej maski deszczu."
+    },
+    "puente_narrativo": {
+      "hash": "e6097543bb17c89d",
+      "texto": "Przyjrzyj się maskom na fasadzie. Kiedy skończysz, przejdź do kolejnego przystanku na swojej trasie."
+    },
+    "guion_corto": {
+      "hash": "0cfb77ae9959f816",
+      "texto": "Aneks Wschodni jest częścią pierwotnego budynku Klasztoru Zakonnic. Jego fasadę pokrywają maski Chaaca, boga deszczu. Portal to ogromna maska Chaaca albo Witz, ducha góry, a drzwi stanowią jej usta. Wyżej biegnie rzeźbiony, falujący wąż. INAH twierdzi, że drzwi z inskrypcją przypominają styl Chenes. Jej inskrypcję datuje się w przybliżeniu na rok osiemset osiemdziesiąty."
+    },
+    "guion_largo": {
+      "hash": "c97dcb3632ee3317",
+      "texto": "To jedna z najbardziej spektakularnych fasad na stanowisku, a zarazem jedna z tych, które najtrudniej wyjaśnić z pewnością.\n\nWedług INAH Aneks jest częścią pierwotnej budowli Klasztoru Zakonnic. Jego fasada ma wiele masek Chaaca, boga deszczu, oraz drzwi z inskrypcją, które przypominają styl Chenes. Główny budynek składa się z trzech części, a Aneks Wschodni odpowiada skrzydłu wschodniemu.\n\nWiele opisów dodaje szczegółów. Główna fasada jest wyrzeźbiona jako ogromne oblicze Chaaca, albo Witz, czyli ducha zamieszkującego góry, a drzwi działają jak jego usta. Obie postacie wiążą się z deszczem. Na gzymsie widać falującego węża, którym może być Wąż Pierzasty. Opisuje się też komnatę wschodnią z drzwiami obramowanymi zakrzywionymi nosami Chaaca, z czterema maskami po każdej stronie, po dwie nałożone na siebie w każdym narożniku, oraz z grzebieniem z kratownicą i maskami.\n\nSzczegóły różnią się zależnie od tego, kto je opisuje. Warto zapamiętać to, co najważniejsze: maski Chaaca, portal w stylu Chenes i gzyms z wężem.\n\nInskrypcję hieroglificzną na nadprożu komnaty wschodniej datuje się w przybliżeniu na rok osiemset osiemdziesiąty, według rachuby katún. Epigrafik Hermann Beyer zarejestrował w roku tysiąc dziewięćset trzydziestym siódmym dekorację fasady Aneksu Wschodniego, choć nie podaje dat budowy. Style, które łączy ta budowla, czyli Puuc, Chenes i Río Bec, były powszechne w późnym klasyku w Yucatán.\n\nPopatrz spokojnie na powtarzające się maski. W regionie bez rzek prosić o wodę znaczyło prosić o życie.\n\nKiedy skończysz, przejdź do kolejnego przystanku na swojej trasie."
+    },
+    "retos_observacion": {
+      "hash": "3a9d4932a0b44167",
+      "texto": [
+        "Znajdź drzwi i spróbuj dostrzec wokół nich kształt ust oraz zakrzywionych nosów",
+        "Policz, ile razy powtarza się maska Chaaca na jednym odcinku fasady",
+        "Spójrz na gzyms i wypatrz falującego węża"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c1bba47855940429",
+      "texto": {
+        "Lokalizacja": "skrzydło wschodnie Klasztoru Zakonnic",
+        "Dekoracja": "wiele masek Chaaca; portal opisywany jako maska Chaaca lub Witz, z drzwiami jako ustami",
+        "Gzyms": "falujący wąż",
+        "Styl": "Chenes (INAH); Puuc, Chenes i Río Bec",
+        "Inskrypcja na nadprożu": "około roku 880 (w przybliżeniu)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0890c02d0e7da80",
+      "texto": {
+        "pregunta": "Mit: Maski na fasadzie przedstawiają różnych władców.",
+        "respuesta": "Rzeczywistość: INAH uznaje je za maski boga deszczu, Chaaca, powtarzane w dekoracji."
+      }
+    }
+  }
+}
