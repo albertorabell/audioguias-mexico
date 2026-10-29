@@ -16690,6 +16690,24 @@
           "provider": "azure"
         }
       },
+      "chap_06_morelos_iturbide": {
+        "corto": {
+          "hash": "1feb2dbd63cf9454",
+          "file": "pl/chap_06_morelos_iturbide_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 277344,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4fda3c42ebd02e94",
+          "file": "pl/chap_06_morelos_iturbide_largo.mp3",
+          "remote": true,
+          "seconds": 300,
+          "bytes": 1800720,
+          "provider": "azure"
+        }
+      },
       "chap_07_carruaje_juarez": {
         "corto": {
           "hash": "4f98d756bbdc8581",
@@ -16759,6 +16777,16 @@
           "remote": true,
           "seconds": 271,
           "bytes": 1625328,
+          "provider": "azure"
+        }
+      },
+      "chap_10_mural_madero": {
+        "corto": {
+          "hash": "c14b38b60570f3b8",
+          "file": "pl/chap_10_mural_madero_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 272448,
           "provider": "azure"
         }
       },
