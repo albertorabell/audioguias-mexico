@@ -113,3 +113,11 @@ test('direcciones y plurales', () => {
   assert.equal(contar('pl', 5, false), '5 dzieł');
   assert.equal(contar('fr', 1, false), '1 œuvre');
 });
+
+test('sitio sin publicar: la página dice «próximamente» y no lleva botón ni precio', () => {
+  const { html } = armarPagina({ sitio, manifiesto, salas, piezas, cfg: { ...cfg, proximamente: true } });
+  assert.ok(html.includes('Próximamente: esta audioguía'));
+  assert.ok(!html.includes('/?sitio='));
+  assert.ok(!html.includes('72 horas'));
+  assert.ok(!html.includes('gratis'));
+});

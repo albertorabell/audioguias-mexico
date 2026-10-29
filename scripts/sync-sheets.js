@@ -22,6 +22,7 @@ import { applyStoredTranslations } from './traducir-lib.mjs';
 import { splitPiece, writePrivate } from './privado-lib.mjs';
 import { linkIds, hasBrokenLink } from '../src/utils/pieceLinks.js';
 import { hayClave, leerPestana } from './google-sheets-lib.mjs';
+import { PAGINAS } from './seo-lib.mjs';
 import { cargarSitios, estaPublicado, CONTROL_ID as CONTROL_ID_PRECIOS } from './sitios-lib.mjs';
 import { aplicarDefiniciones, partirRutas, leerDefinicionesRutas, construirRutasSitio, manifiestoSitio, entradaSitio, mezclarSites, leerAntesDeIr, leerCombos, construirPrecios, aplicarPreciosASites } from './sitios-extra-lib.mjs';
 
@@ -216,6 +217,8 @@ const ROUTES = [
 // ============================================================================
 
 const DATA_DIR = path.resolve(process.cwd(), 'public/data');
+// Datos de sitios aún sin publicar que solo sirven para su página de Google («próximamente»). Fuera de public/: no se publican con la app.
+const SEO_DIR = path.resolve(process.cwd(), '.seo-data');
 const IMG_DIR = path.resolve(process.cwd(), 'public/images/pieces');
 const AUDIO_DIR = path.resolve(process.cwd(), 'public/audio');
 const AUDIO_MANIFEST = path.join(AUDIO_DIR, 'manifest.json');
@@ -729,7 +732,8 @@ export async function sync() {
   for (const s of sitiosCtl) {
     if (s.site_id === 'mna' || s.site_id === 'teotihuacan') continue;
     const publicado = estaPublicado(s);
-    if (!publicado && !PREVIEW) continue;
+    const soloSeo = !publicado && !PREVIEW && PAGINAS[s.site_id.toUpperCase()]?.proximamente === true;
+    if (!publicado && !PREVIEW && !soloSeo) continue;
     console.log(`🔄 Leyendo ${s.site_id}${publicado ? '' : ' (vista previa, sin publicar)'}…`);
     const sa = await leerPestanaNueva(s.site_id, 'SALAS', 'salas');
     const pi = await leerPestanaNueva(s.site_id, 'PIEZAS', 'piezas');
@@ -739,6 +743,7 @@ export async function sync() {
     extras.push({
       site: s,
       preview: !publicado,
+      soloSeo,
       rooms: buildRooms(sa.items, { zones: true }),
       pieces: buildPieces(pi.items, { zones: true }),
       rutasDefs: leerDefinicionesRutas(filasRutas),
@@ -894,8 +899,9 @@ export async function sync() {
   }
 
   const entradasSites = [];
+  const entradasSeo = [];
   for (const e of extras) {
-    const dir = path.join(DATA_DIR, e.site.site_id);
+    const dir = path.join(e.soloSeo ? SEO_DIR : DATA_DIR, e.site.site_id);
     fs.mkdirSync(dir, { recursive: true });
     const avisosRutas = {};
     const rutasSitio = construirRutasSitio(e.site.site_id, e.pieces, e.rooms, e.rutasDefs, e.rutasPorId, (kind, msg) => { (avisosRutas[kind] ||= []).push(msg); });
@@ -903,9 +909,16 @@ export async function sync() {
     write(path.join(dir, 'rooms.json'), e.rooms);
     write(path.join(dir, 'pieces.json'), e.pieces.map((piece) => splitPiece(piece).pub));
     write(path.join(dir, `${e.site.site_id}.json`), manifiestoSitio(e.site, rutasSitio, MAPAS_EN_VIVO[e.site.site_id], e.antesDeIr));
+    if (e.soloSeo) {
+      entradasSeo.push(entradaSitio(e.site, e.rooms, e.pieces, {}, { preview: true }));
+      console.log(`🔎 ${e.site.site_id}: solo para su página de Google (sin publicar en la app).`);
+      continue;
+    }
     entradasSites.push({ site: e.site, entry: e });
     console.log(`✅ ${e.site.site_id}${e.preview ? ' (vista previa)' : ''}: ${e.rooms.length} zonas, ${e.pieces.length} piezas y recorridos: ${rutasSitio.map((r) => `${r.name} (${r.stops.length})`).join(', ') || 'ninguno'}.`);
   }
+  if (entradasSeo.length) write(path.join(SEO_DIR, 'sites.json'), entradasSeo);
+  else fs.rmSync(SEO_DIR, { recursive: true, force: true });
   if (entradasSites.length) {
     const sitesPath = path.join(DATA_DIR, 'sites.json');
     const actual = fs.existsSync(sitesPath) ? JSON.parse(fs.readFileSync(sitesPath, 'utf-8')) : [];

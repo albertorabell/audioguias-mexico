@@ -9,21 +9,25 @@ const DIST = path.resolve(process.argv[2] || 'dist');
 const leer = (rel) => JSON.parse(fs.readFileSync(path.join(DIST, rel), 'utf-8'));
 const existe = (rel) => fs.existsSync(path.join(DIST, rel));
 
-const sitios = leer('data/sites.json');
+const SEO_DIR = path.resolve('.seo-data');
+// Sitios aún sin publicar en la app (solo «próximamente»): sus datos viven en .seo-data/, fuera de lo que se publica
+const seoSitios = fs.existsSync(path.join(SEO_DIR, 'sites.json')) ? JSON.parse(fs.readFileSync(path.join(SEO_DIR, 'sites.json'), 'utf-8')) : [];
+const sitios = [...leer('data/sites.json'), ...seoSitios.map((x) => ({ ...x, _seo: true }))];
 const hechas = [];
 
 for (const [id, cfg] of Object.entries(PAGINAS)) {
   const sitio = sitios.find((s) => String(s.id).toUpperCase() === id);
-  if (!sitio || (sitio.status && sitio.status !== 'active')) {
+  if (!sitio || (!sitio._seo && sitio.status && sitio.status !== 'active')) {
     console.log(`SEO: ${id} no está publicado, se salta`);
     continue;
   }
   let manifiesto, salas, piezas;
   try {
-  manifiesto = leer(sitio.path);
+  const leerDe = (rel) => (sitio._seo ? JSON.parse(fs.readFileSync(path.join(SEO_DIR, rel.replace(/^data\//, '')), 'utf-8')) : leer(rel));
+  manifiesto = leerDe(sitio.path);
   // Los sitios con datos propios traen sus rutas de zonas y piezas; el MNA usa los archivos de la raíz de data/
-  salas = leer(manifiesto.rooms_path || 'data/rooms.json');
-  piezas = leer(manifiesto.pieces_path || 'data/pieces.json');
+  salas = leerDe(manifiesto.rooms_path || 'data/rooms.json');
+  piezas = leerDe(manifiesto.pieces_path || 'data/pieces.json');
   } catch (e) {
     console.log(`SEO: ${id} sin datos (${e.code || e.message}), se salta`);
     continue;
