@@ -30,6 +30,23 @@ async function buscarTitulos(consulta) {
   return (j?.query?.search || []).map((x) => x.title);
 }
 
+async function miembros(cat) {
+  const j = await api({ action: 'query', list: 'categorymembers', cmtitle: cat, cmtype: 'file|subcat', cmlimit: '500' });
+  return j?.query?.categorymembers || [];
+}
+// Consulta "CAT:texto": busca categorías de Commons con ese texto y devuelve sus archivos (y los de sus subcategorías directas).
+async function titulosDeCategorias(texto) {
+  const j = await api({ action: 'query', list: 'search', srsearch: texto, srnamespace: '14', srlimit: '3' });
+  const salida = [];
+  for (const c of j?.query?.search || []) {
+    const ms = await miembros(c.title);
+    console.log(`  categoría ${c.title}: ${ms.length} elementos`);
+    for (const m of ms) if (m.ns === 6) salida.push(m.title);
+    for (const m of ms.filter((x) => x.ns === 14).slice(0, 25)) for (const f of await miembros(m.title)) if (f.ns === 6) salida.push(f.title);
+  }
+  return salida;
+}
+
 async function infos(titulos) {
   const salida = [];
   for (let i = 0; i < titulos.length; i += 40) {
@@ -77,24 +94,30 @@ async function main() {
       // Si todas las consultas empiezan con "File:" se toman tal cual (sin buscar) y se muestran todas.
       const exactas = qs.every((q) => /^File:/i.test(q));
       if (exactas) for (const q of qs) { const t = q.replace(/_/g, ' '); if (!vistos.has(t)) { vistos.add(t); titulos.push(t); } }
-      else for (const q of qs) for (const t of await buscarTitulos(q)) if (!vistos.has(t)) { vistos.add(t); titulos.push(t); }
-      const lista = buenas(await infos(titulos), exactas ? Math.max(max, titulos.length) : max);
+      else for (const q of qs) for (const t of (/^CAT:/i.test(q) ? await titulosDeCategorias(q.slice(4)) : await buscarTitulos(q))) if (!vistos.has(t)) { vistos.add(t); titulos.push(t); }
+      const porCat = qs.every((q) => /^CAT:/i.test(q));
+      const lista = buenas(await infos(titulos), exactas ? Math.max(max, titulos.length) : porCat ? 36 : max);
       manifiesto[id] = lista;
       if (!lista.length) { console.log(`::warning::${id}: sin candidatas con licencia abierta y 1200 px o más (${titulos.length} resultados)`); continue; }
       console.log(`${id}: ${titulos.length} resultados, ${lista.length} sirven`);
       const celdas = [];
       for (let n = 0; n < lista.length; n++) {
         const r = await pedir(lista[n].miniatura);
-        if (!r.ok) continue;
+        if (!r.ok) { celdas.push(null); continue; }
         const buf = await sharp(Buffer.from(await r.arrayBuffer())).rotate().resize(480, 360, { fit: 'cover' }).jpeg({ quality: 78 }).toBuffer();
         const rotulo = Buffer.from(`<svg width="480" height="360"><rect x="0" y="0" width="44" height="36" fill="#000a"/><text x="8" y="27" font-size="26" fill="#fff" font-family="sans-serif">${n + 1}</text></svg>`);
         celdas.push(await sharp(buf).composite([{ input: rotulo }]).jpeg({ quality: 78 }).toBuffer());
         await pausa(250);
       }
-      const cols = 3, filas = Math.ceil(celdas.length / cols);
-      await sharp({ create: { width: cols * 480, height: filas * 360, channels: 3, background: '#222' } })
-        .composite(celdas.map((input, k) => ({ input, left: (k % cols) * 480, top: Math.floor(k / cols) * 360 })))
-        .jpeg({ quality: 80 }).toFile(path.join(salida, `${id}.jpg`));
+      const PAG = 12, cols = 3;
+      for (let p0 = 0; p0 < celdas.length; p0 += PAG) {
+        const trozo = celdas.slice(p0, p0 + PAG).filter(Boolean);
+        if (!trozo.length) continue;
+        const filas = Math.ceil(trozo.length / cols);
+        await sharp({ create: { width: cols * 480, height: filas * 360, channels: 3, background: '#222' } })
+          .composite(trozo.map((input, k) => ({ input, left: (k % cols) * 480, top: Math.floor(k / cols) * 360 })))
+          .jpeg({ quality: 80 }).toFile(path.join(salida, celdas.length > PAG ? `${id}_p${p0 / PAG + 1}.jpg` : `${id}.jpg`));
+      }
       console.log(`${id}: ${lista.length} candidatas`);
     } catch (e) { console.log(`::warning::${id}: error ${e.message}`); }
   }
