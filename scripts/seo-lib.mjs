@@ -37,6 +37,22 @@ export const PAGINAS = {
     slugs: { es: 'centro-historico-ciudad-de-mexico', en: 'historic-centre-mexico-city', fr: 'centre-historique-mexico', pl: 'centrum-historyczne-miasta-meksyk' },
     nombres: { en: 'Historic Centre of Mexico City', fr: 'Centre historique de Mexico', pl: 'Centrum Historyczne miasta Meksyk' },
   },
+  CHICHEN_ITZA: {
+    articulo: 'la',
+    slugs: { es: 'zona-arqueologica-de-chichen-itza', en: 'chichen-itza-archaeological-zone', fr: 'zone-archeologique-de-chichen-itza', pl: 'strefa-archeologiczna-chichen-itza' },
+    nombres: { en: 'Chichén Itzá Archaeological Zone', fr: 'Zone archéologique de Chichén Itzá', pl: 'Strefa archeologiczna Chichén Itzá' },
+  },
+  TEMPLO_MAYOR_CATEDRAL: {
+    articulo: 'el',
+    slugs: { es: 'templo-mayor-y-catedral-metropolitana', en: 'templo-mayor-and-metropolitan-cathedral', fr: 'templo-mayor-et-cathedrale-metropolitaine', pl: 'templo-mayor-i-katedra-metropolitalna' },
+    nombres: { en: 'Templo Mayor and Metropolitan Cathedral', fr: 'Templo Mayor et cathédrale métropolitaine', pl: 'Templo Mayor i Katedra Metropolitalna' },
+  },
+  MUSEO_FRIDA_KAHLO: {
+    articulo: 'el',
+    proximamente: true, // aún no está publicado en la app: su página dice «próximamente» y no lleva botón
+    slugs: { es: 'museo-frida-kahlo-casa-azul', en: 'frida-kahlo-museum-blue-house', fr: 'musee-frida-kahlo-maison-bleue', pl: 'muzeum-fridy-kahlo-niebieski-dom' },
+    nombres: { en: 'Frida Kahlo Museum (The Blue House)', fr: 'Musée Frida Kahlo (La Maison Bleue)', pl: 'Muzeum Fridy Kahlo (Niebieski Dom)' },
+  },
 };
 
 const NBSP = ' ';
@@ -113,6 +129,7 @@ const T = {
     titulo: (n) => `${n}: audioguía y guía de visita`,
     h1: (n) => `${n}: audioguía para tu visita`,
     desc: (n, cuantas, rango, gratis) => `${n}: audioguía en tu celular con ${cuantas} explicadas${rango ? `, recorridos de ${rango}` : ''}${gratis ? `, ${gratis} gratis para probar` : ''} y uso sin internet.`,
+    pronto: 'Próximamente: esta audioguía estará disponible muy pronto.',
     abrir: 'Abrir la audioguía',
     precio: (p) => `Pase de 72 horas por ${p}, sin suscripción. `,
     gratis: (c) => `${c} para escuchar gratis, sin registro.`,
@@ -130,6 +147,7 @@ const T = {
     titulo: (n) => `${n}: audio guide and visitor guide`,
     h1: (n) => `${n}: audio guide for your visit`,
     desc: (n, cuantas, rango, gratis) => `${n}: audio guide on your phone with ${cuantas} explained${rango ? `, tours from ${rango}` : ''}${gratis ? `, ${gratis} free to try` : ''} and offline use.`,
+    pronto: 'Coming soon: this audio guide will be available shortly.',
     abrir: 'Open the audio guide',
     precio: (p) => `72-hour pass for ${p}, no subscription. `,
     gratis: (c) => `${c} to listen to for free, no sign-up.`,
@@ -147,6 +165,7 @@ const T = {
     titulo: (n) => `${n} : audioguide et guide de visite`,
     h1: (n) => `${n} : l’audioguide pour votre visite`,
     desc: (n, cuantas, rango, gratis) => `${n} : audioguide sur votre téléphone avec ${cuantas} expliquées${rango ? `, parcours de ${rango}` : ''}${gratis ? `, ${gratis} gratuites à essayer` : ''} et utilisation hors ligne.`,
+    pronto: 'Bientôt disponible : cet audioguide sera prêt très prochainement.',
     abrir: 'Ouvrir l’audioguide',
     precio: (p) => `Pass de 72 heures pour ${p}, sans abonnement. `,
     gratis: (c) => `${c} à écouter gratuitement, sans inscription.`,
@@ -164,6 +183,7 @@ const T = {
     titulo: (n) => `${n}: audioprzewodnik i poradnik zwiedzania`,
     h1: (n) => `${n}: audioprzewodnik na Twoją wizytę`,
     desc: (n, cuantas, rango, gratis) => `${n}: audioprzewodnik w telefonie, ${cuantas} objaśnionych${rango ? `, trasy od ${rango}` : ''}${gratis ? `, ${gratis} za darmo na próbę` : ''} i działanie bez internetu.`,
+    pronto: 'Wkrótce: ten audioprzewodnik będzie dostępny już niedługo.',
     abrir: 'Otwórz audioprzewodnik',
     precio: (p) => `Karnet na 72 godziny za ${p}, bez subskrypcji. `,
     gratis: (c) => `${c} do posłuchania za darmo, bez rejestracji.`,
@@ -237,7 +257,7 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
   const abrir = `/?sitio=${encodeURIComponent(sitio.id)}&idioma=${lang}`;
 
   const titulo = t.titulo(nombre);
-  const descripcion = recortar(t.desc(nombre, contar(lang, piezas.length, aireLibre), rango, gratis.length ? contar(lang, gratis.length, aireLibre) : ''));
+  const descripcion = recortar(t.desc(nombre, contar(lang, piezas.length, aireLibre), rango, gratis.length && !cfg.proximamente ? contar(lang, gratis.length, aireLibre) : ''));
 
   const alternativas = idiomas.map((l) => ({ l, href: `${DOMINIO}${direccion(cfg.slugs[l], l)}` }));
   const hreflang = [...alternativas.map((a) => `<link rel="alternate" hreflang="${a.l}" href="${a.href}">`), `<link rel="alternate" hreflang="x-default" href="${alternativas.find((a) => a.l === 'es')?.href || url}">`].join('\n');
@@ -304,7 +324,9 @@ export function armarPagina({ sitio, manifiesto = {}, salas = [], piezas = [], c
 
   const bloqueAntes = antes.map((a) => `<h3>${esc(a.titulo)}</h3>\n${textoEnHtml(a.texto)}`).join('\n');
 
-  const cta = () => `<p class="cta"><a class="boton" href="${esc(abrir)}">${esc(t.abrir)}</a></p>
+  const cta = () => cfg.proximamente
+    ? `<p class="nota"><strong>${esc(t.pronto)}</strong></p>`
+    : `<p class="cta"><a class="boton" href="${esc(abrir)}">${esc(t.abrir)}</a></p>
 <p class="nota">${precio ? esc(t.precio(precio)) : ''}${gratis.length ? esc(t.gratis(contar(lang, gratis.length, aireLibre))) : ''}</p>`;
 
   const enlacesOtras = otras.length
