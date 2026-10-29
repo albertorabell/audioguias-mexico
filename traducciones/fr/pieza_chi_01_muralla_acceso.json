@@ -1,0 +1,56 @@
+{
+  "id": "chi_01_muralla_acceso",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "835a9b8786305840",
+      "texto": "Le Grand Nivellement et le centre cérémoniel"
+    },
+    "frase_gancho": {
+      "hash": "7fe3d488e8494c49",
+      "texto": "Une esplanade artificielle, nivelée pierre par pierre, pour placer le centre de la ville sur un seul plan."
+    },
+    "puente_narrativo": {
+      "hash": "89169c7cd73c8990",
+      "texto": "Dirigez-vous vers le centre de l’esplanade et arrêtez-vous devant [le Château](chi_02_castillo_general), la grande pyramide qui domine la place."
+    },
+    "guion_corto": {
+      "hash": "728e5bfd6649227e",
+      "texto": "On dirait une plaine naturelle, mais ce n’en est pas une. L’esplanade que vous foulez s’appelle le Grand Nivellement. C’est une plateforme artificielle d’environ six cents mètres de long sur quatre cents de large et, selon un rapport technique de l’université de Californie à San Diego, c’est la plus grande construction de Chichén Itzá. Le terrain d’origine comportait de la roche et des dénivelés. Les bâtisseurs ont comblé, aplani et recouvert le sol de stuc et de sascab, une terre calcaire blanche. Les sols présentent une pente douce, d’à peine un pour cent, pour que l’eau de pluie s’écoule là où elle le devait. Sur ce grand théâtre se sont dressés le Château, le Jeu de balle et le temple des Guerriers."
+    },
+    "guion_largo": {
+      "hash": "bf3c2733ef4d63ab",
+      "texto": "Cela vaut la peine de vous arrêter un instant. Presque personne ne se rend compte que le sol que vous foulez est un ouvrage d’ingénierie.\n\nLe terrain naturel de cette partie du Yucatán est irrégulier, avec des roches qui affleurent et des creux. Les bâtisseurs ont nivelé le terrain pour porter les grands ensembles d’édifices, et le plus gros effort a été fait dans la zone du Château. Un rapport technique d’un projet de l’université de Californie à San Diego, de deux mille neuf, estime cet espace à environ six cents mètres sur quatre cents. Il l’appelle la plus grande construction de Chichén Itzá, et l’une des plus grandes plateformes du monde maya.\n\nCe fut un chantier mené par étapes : les chercheurs en proposent dix. Dans certaines, on a comblé avec une couche de terre et de pierres sur la roche naturelle, et dans d’autres, on a nivelé les affleurements avec du sascab. Les sols de stuc n’étaient pas blancs, comme on l’imagine souvent. À différentes étapes, on a utilisé du stuc jaune et du stuc rouge. Et tous les sols présentent une pente d’environ un pour cent. Entre le Château et la colonnade que vous verrez plus loin, le sol descend d’environ soixante-quinze centimètres sur une longueur d’environ soixante-dix-sept mètres. C’est une pente presque imperceptible, conçue pour que l’eau de pluie soit dirigée là où les bâtisseurs le voulaient.\n\nOn a aussi calculé la durée des travaux. Les plus grandes étapes de cette plateforme correspondent à ce que les archéologues appellent la phase Sotuta, entre les années huit cents et mille cinquante ou mille cent. Et l’ensemble du processus de construction aurait duré moins de cinq cents ans, et probablement pas plus de trois cents.\n\nCette esplanade a aussi eu un mur. C’était une muraille qui entourait le centre cérémoniel. Les archéologues ont fouillé une section d’environ quatre-vingt-dix mètres entre le Grand Jeu de balle et l’actuelle entrée piétonne ouest. C’était un mur haut et mince, sans parapet à l’intérieur, ce qui laisse penser que sa fonction allait au-delà de la défense. Plus tard, on y a ajouté un contrefort fait de pierres réutilisées provenant d’autres édifices, et cela, en effet, ils l’interprètent comme un renfort défensif.\n\nTout cela change ce que vous voyez. Les édifices ne reposent pas sur une plaine. Ils reposent sur une plateforme pensée, avec des pentes, des sols colorés et une limite construite. C’est le théâtre où se déroulait ce qu’il y avait de plus important dans la vie de la ville.\n\nMaintenant, dirigez-vous vers le centre. Devant vous se dresse [le Château](chi_02_castillo_general), l’édifice qui organise toute cette place."
+    },
+    "retos_observacion": {
+      "hash": "a7d7da0b43e0134a",
+      "texto": [
+        "Regardez le bord de l’esplanade et cherchez où commence le dénivelé avec le terrain naturel",
+        "Imaginez le sol recouvert de stuc jaune ou rouge, et non de l’herbe verte d’aujourd’hui",
+        "Marchez vers le centre de la place et cherchez la silhouette du Château"
+      ]
+    },
+    "especificaciones": {
+      "hash": "33412e54bcacba79",
+      "texto": {
+        "Nom": "le Grand Nivellement",
+        "Dimensions approximatives": "600 × 400 mètres (UC San Diego, 2009)",
+        "Étapes de construction proposées": "10",
+        "Pente des sols": "environ 1 %",
+        "Stuc des sols": "jaune et rouge, selon l’étape",
+        "Muraille fouillée": "environ 90 mètres entre le Grand Jeu de balle et l’entrée piétonne ouest"
+      }
+    },
+    "faq_mito": {
+      "hash": "3052c5f83760e118",
+      "texto": {
+        "pregunta": "Mythe : L’esplanade est une plaine naturelle recouverte d’herbe.",
+        "respuesta": "Réalité : C’est une plateforme artificielle, construite par étapes avec des remblais, des sols de stuc et une pente douce pour l’eau de pluie. L’herbe, elle, est d’aujourd’hui."
+      }
+    }
+  }
+}

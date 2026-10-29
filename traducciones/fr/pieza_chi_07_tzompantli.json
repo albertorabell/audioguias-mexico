@@ -1,0 +1,56 @@
+{
+  "id": "chi_07_tzompantli",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1b402fb72d217f3c",
+      "texto": "Le Tzompantli, le mur des crânes"
+    },
+    "frase_gancho": {
+      "hash": "19537684377b1b04",
+      "texto": "Un mur de crânes sculptés dans la pierre, et pas un crâne n’est identique à un autre."
+    },
+    "puente_narrativo": {
+      "hash": "01a3506df1ed7256",
+      "texto": "Avancez de quelques pas vers la plateforme voisine, la [Plateforme des Aigles et des Jaguars](chi_06_aguilas_jaguares), où les aigles tiennent des cœurs."
+    },
+    "guion_corto": {
+      "hash": "dfb61fc4c2bbe393",
+      "texto": "Tzompantli est un mot nahuatl que l’on traduit couramment par rangée de crânes. Cette plateforme en forme de T, d’environ cinquante-cinq mètres sur douze, a ses parois couvertes de crânes sculptés. On en estime le nombre à environ deux mille quatre cents, et ils diffèrent sensiblement les uns des autres. Les crânes apparaissent enfilés à la verticale, comme sur des poteaux, et non à l’horizontale, comme dans le centre du Mexique. Cela permet de distinguer cette version maya de celle des Mexicas. C’est le premier lieu connu de Mésoamérique doté d’un tzompantli sculpté dans la pierre. Ce que vous voyez a été reconstruit en mille neuf cent cinquante et un."
+    },
+    "guion_largo": {
+      "hash": "bf94a21f91844e39",
+      "texto": "C’est l’une des images les plus saisissantes de Chichén Itzá, et il convient de la regarder avec calme, sans oublier qu’il s’agit d’un monument religieux vieux de mille ans.\n\nD’abord, le mot. Tzompantli vient du nahuatl et se traduit couramment par rangée ou mur de crânes. Dans le centre du Mexique, les Mexicas plaçaient de vrais crânes sur des poteaux de bois. Ici, les bâtisseurs les ont sculptés dans la pierre. Chichén Itzá est le premier lieu connu de Mésoamérique doté d’un tzompantli de pierre, et l’idée de le rendre permanent a pu naître chez les Mayas de la période Classique terminal, entre les années huit cents et mille cent.\n\nLa plateforme a la forme d’un T. Elle mesure environ cinquante-cinq mètres sur douze, avec un escalier central d’environ six mètres et demi de large du côté est. Elle est orientée à environ dix-sept degrés à l’est par rapport au nord. Les parois comptent quatre rangées de crânes : celle du haut et celle du bas forment des moulures, et les autres couvrent les murs, qui reposent sur un talus incliné.\n\nCombien y a-t-il de crânes ? On en estime le nombre à environ deux mille quatre cents, bien que d’autres estimations donnent des chiffres bien inférieurs, de cinq cents ou de quelques centaines. Ce qui est sûr, c’est que les crânes diffèrent sensiblement les uns des autres. Peut-être ont-ils été réalisés par plusieurs artistes, ou peut-être représentent-ils des personnes précises. Ils apparaissent de profil, enfilés sur des poteaux verticaux. Les Mexicas, eux, les enfilaient à l’horizontale.\n\nDu côté est, près de l’escalier, se trouvent des figures masculines de profil, au nombre de vingt, qui avancent en procession. Entre elles alternent seize grands aigles, chacun tenant un cœur humain dans ses serres. Il reste encore des traces de peinture bleue et rouge. Les moulures qui encadrent les reliefs sont des serpents à sonnette : à plumes en haut et segmentés en bas. Ils pourraient évoquer le ciel et la terre.\n\nL’édifice a aussi une histoire de recherches. Eduard Seler l’a décrit en mille neuf cent neuf, et l’a appelé Mausolée Deux. José Erosa Peniche l’a fouillé en mille neuf cent vingt-sept, et Manuel Cirerol Sansores a poursuivi en mille neuf cent quarante. En mille neuf cent cinquante et un, Jorge Acosta et Ponciano Salazar l’ont reconstruit. À l’intérieur, ils ont trouvé deux crânes humains accompagnés d’offrandes de jade, de perles de coquillage et de miroirs à mosaïque de pyrite.\n\nUn autre détail mérite d’être signalé. À Tula, la ville du centre du Mexique à laquelle on compare habituellement Chichén Itzá, il existe une structure sans décor qui pourrait être contemporaine. Les spécialistes débattent encore de la nature des relations entre les deux villes, même si elles partageaient une manière de concevoir la guerre et l’art.\n\nRendez-vous maintenant à la plateforme voisine, la [Plateforme des Aigles et des Jaguars](chi_06_aguilas_jaguares). Vous y verrez de nouveau des aigles avec des cœurs, mais à une tout autre échelle."
+    },
+    "retos_observacion": {
+      "hash": "3151853ba5aac088",
+      "texto": [
+        "Remarquez que les crânes apparaissent de profil, et comparez-en deux ou trois : ils ne sont pas identiques",
+        "Repérez les aigles tenant des cœurs dans leurs serres, du côté est",
+        "Cherchez les serpents à sonnette qui encadrent les reliefs, à plumes en haut et segmentés en bas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ae5012650ebac817",
+      "texto": {
+        "Forme": "plateforme en T, d’environ 55 × 12 mètres",
+        "Crânes": "environ 2 400 (d’autres estimations en donnent moins)",
+        "Figures": "20 figures masculines de profil et 16 aigles avec des cœurs, du côté est",
+        "Époque": "Classique terminal, vers 800-1100",
+        "Exploration": "Seler (1909), Erosa Peniche (1927), Cirerol Sansores (1940)",
+        "Reconstruction": "Jorge Acosta et Ponciano Salazar, 1951"
+      }
+    },
+    "faq_mito": {
+      "hash": "a35b1fc3a11efe0b",
+      "texto": {
+        "pregunta": "Mythe : Les crânes du Tzompantli sont réels.",
+        "respuesta": "Réalité : Ce sont des reliefs sculptés dans la pierre. À l’intérieur de la plateforme, on a trouvé deux crânes humains accompagnés d’offrandes, mais ceux que vous voyez sur les parois sont des sculptures."
+      }
+    }
+  }
+}

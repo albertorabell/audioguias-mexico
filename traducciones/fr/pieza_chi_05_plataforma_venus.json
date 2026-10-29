@@ -1,0 +1,57 @@
+{
+  "id": "chi_05_plataforma_venus",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18353759b58471de",
+      "texto": "Plateforme de Vénus"
+    },
+    "frase_gancho": {
+      "hash": "8d4d34dc5f31ef26",
+      "texto": "Une plateforme dédiée à la planète Vénus, à quelques pas du Château."
+    },
+    "puente_narrativo": {
+      "hash": "ab63f4a503e22021",
+      "texto": "Restez près de la plateforme basse et regardez autour de vous : vous êtes au cœur de la place. Quand vous aurez terminé, passez à l’arrêt suivant de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "6d8c7a104b80e113",
+      "texto": "Cette plateforme se trouve au nord du Château, à quelques pas de la pyramide, sur le chemin du Cénote sacré. Elle est dédiée à la planète Vénus. Selon une plaque de l’INAH, elle était à l’origine peinte en rouge, vert, ocre, bleu et noir, et elle porte en son centre le relief d’un homme-oiseau-serpent que l’on interprète comme Kukulcán sous son aspect d’étoile du matin. À l’intérieur, on a trouvé de grands cônes de pierre sculptés, et personne ne sait à quoi ils servaient. Les Mayas suivaient les mouvements de Vénus avec beaucoup d’attention, et les consignaient dans des codex comme celui de Dresde."
+    },
+    "guion_largo": {
+      "hash": "6ab9759f32ccb9a9",
+      "texto": "Cet arrêt est court, mais il rejoint une idée qui traverse tout Chichén Itzá : les Mayas lisaient le ciel.\n\nLa Plateforme de Vénus se trouve au nord du Château, à quelques pas de la pyramide, sur le chemin du Cénote sacré. Elle est dédiée à la planète Vénus. À l’intérieur de la plateforme, on a trouvé de grands cônes de pierre sculptés, et on ignore leur fonction. C’est l’une de ces questions auxquelles l’archéologie n’a pas encore répondu.\n\nSelon une plaque de l’INAH, la plateforme était à l’origine peinte en rouge, vert, ocre, bleu et noir. Elle possède un escalier, et parmi ses reliefs figure une figure centrale : un homme-oiseau-serpent. La plaque l’interprète comme une image de Quetzalcóatl-Kukulcán sous son aspect d’étoile du matin. Aux angles apparaît le lien des années, à côté de la planète Vénus. Elle indique aussi qu’une offrande a été découverte dans l’escalier est, et que la plateforme a probablement servi de scène pour des cérémonies, des rites ou des danses. Ce sont des interprétations : la plaque ne donne ni dimensions ni date.\n\nPour comprendre pourquoi Vénus avait tant d’importance, il faut se rappeler comment les Mayas regardaient le ciel. Ils portaient une attention particulière à cette planète, qui apparaît comme étoile du matin et comme étoile du soir. Le Codex de Dresde, l’un des rares livres mayas qui nous soient parvenus, comprend des tables pour suivre ses cycles. C’est une façon de comprendre que le ciel n’était pas un simple décor : c’était un calendrier qui organisait la guerre, les rituels et les décisions des gouvernants.\n\nD’ici, vers le nord, part une chaussée droite en pierre qui se perd dans la végétation et mène au cénote : le Sacbé numéro un.\n\nQuand vous aurez fini de regarder, passez à l’arrêt suivant de votre parcours."
+    },
+    "retos_observacion": {
+      "hash": "d4cd314182eb6543",
+      "texto": [
+        "Repérez la plateforme basse au nord du Château, à quelques pas de la pyramide",
+        "Cherchez les reliefs encore visibles, comme la figure centrale ou ceux des angles, s’il y en a",
+        "Regardez vers le nord et repérez la chaussée droite qui se perd dans la végétation"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1752b5b24fa4e82d",
+      "texto": {
+        "Emplacement": "au nord du Château, à quelques pas de la pyramide, en direction du Cénote sacré",
+        "Dédicace": "à la planète Vénus",
+        "Couleurs d’origine": "rouge, vert, ocre, bleu et noir (plaque de l’INAH)",
+        "Relief central": "homme-oiseau-serpent, interprété comme Kukulcán sous son aspect d’étoile du matin (plaque de l’INAH)",
+        "Découvertes": "de grands cônes de pierre sculptés à l’intérieur de la plateforme, de fonction inconnue ; une offrande dans l’escalier est",
+        "Usage possible": "scène de cérémonies, de rites ou de danses",
+        "Référence": "le Codex de Dresde comprend des tables de Vénus"
+      }
+    },
+    "faq_mito": {
+      "hash": "f6f97bf0600d0da8",
+      "texto": {
+        "pregunta": "Mythe : Cette plateforme était un observatoire astronomique avéré.",
+        "respuesta": "Réalité : Elle est dédiée à Vénus, mais rien ne prouve qu’elle ait été un observatoire. Ce qui est documenté, ce sont ses cônes de pierre, de fonction inconnue, et des reliefs que l’on interprète comme une scène de cérémonies."
+      }
+    }
+  }
+}

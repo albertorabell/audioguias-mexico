@@ -1,0 +1,56 @@
+{
+  "id": "chi_19_grupo_mil_columnas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9d78d8ea0a3e8d37",
+      "texto": "La Grande Place des Mille Colonnes"
+    },
+    "frase_gancho": {
+      "hash": "3056d52a533c7607",
+      "texto": "Une forêt de piliers : plus de deux cent quarante dans une seule colonnade."
+    },
+    "puente_narrativo": {
+      "hash": "09ec4387a33f03a6",
+      "texto": "Parcourez tranquillement la forêt de colonnes, à l’ombre. Quand vous aurez terminé, passez à l’étape suivante de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "653793cca26b973e",
+      "texto": "Voici la place des Mille Colonnes. Le nom exagère, mais pas tant que cela. L’archéologue Peter Schmidt a compté, dans une étude de deux mille treize, deux cent quarante-trois colonnes et treize pilastres, sur cinq rangées, rien que dans la colonnade nord. Cette colonnade mesure quatre-vingt-neuf mètres d’est en ouest sur vingt-neuf du nord au sud, sur une plateforme basse. La place entière mesure environ vingt-quatre mille mètres carrés, un peu plus de deux hectares. Sur plusieurs colonnes, on conserve des reliefs de figures d’allure guerrière."
+    },
+    "guion_largo": {
+      "hash": "85cd0f81d819b54d",
+      "texto": "Devant vous s’ouvre l’une des places les plus étonnantes de Chichén Itzá, car son attrait ne tient pas aux pyramides, mais aux piliers.\n\nCommençons par le nom. Le nom dit mille colonnes, mais le chiffre n’est pas exact : c’est une manière de dire beaucoup. Voici ce que l’archéologue Peter Schmidt a, lui, bel et bien compté, dans une étude de deux mille treize. La colonnade nord, qu’il appelle structure deux D dix, s’élève sur une plateforme basse de moins d’un mètre soixante-dix de haut. Elle mesure quatre-vingt-neuf mètres sur vingt-neuf, compte deux escaliers, et elle comptait deux cent quarante-trois colonnes et treize pilastres, répartis sur cinq rangées.\n\nUne étude de González et de ses collaborateurs, de deux mille seize, estime la place entière à environ vingt-trois mille neuf cent quatre-vingt-onze mètres carrés, un peu plus de deux hectares. Elle la décrit comme une place fermée, à l’accès limité, entourée d’édifices dotés de galeries à plusieurs rangées de colonnes. La même étude situe dans cet ensemble un bain de vapeur et trois terrains de jeu de balle. Ce bain a sa propre étape dans les parcours les plus longs.\n\nSchmidt a retrouvé quatre colonnes sculptées. La partie décorée de chacune mesure entre deux mètres et demi et trois mètres, et les reliefs s’organisent en bandes horizontales, les unes au-dessus des autres. Leurs figures portent une tenue militaire. De là naît une proposition de Schmidt : elles pourraient représenter une garde spéciale ou un corps militaire, et non un groupe ethnique venu d’ailleurs. C’est une hypothèse. Pendant des années, on a parlé de Toltèques, et cette lecture propose autre chose.\n\nL’enregistrement de ces reliefs a été entrepris par les archéologues de l’Institut Carnegie, sous la direction de Sylvanus Morley. Le Projet archéologique Chichén Itzá les a documentés de nouveau entre mille neuf cent quatre-vingt-trois et deux mille.\n\nQuand vous aurez terminé, passez à l’étape suivante de votre parcours."
+    },
+    "retos_observacion": {
+      "hash": "15a626d9dfd66516",
+      "texto": [
+        "Marchez entre les colonnes et comptez une rangée : vous verrez combien il en faut pour soutenir un toit aussi long",
+        "Cherchez une colonne ornée de reliefs et repérez les bandes horizontales de figures",
+        "Imaginez le toit et l’ombre qu’il offrait à ceux qui se réunissaient ici"
+      ]
+    },
+    "especificaciones": {
+      "hash": "912aa735992d92eb",
+      "texto": {
+        "Colonnade nord": "89 × 29 m, sur une plateforme allant jusqu’à 1,70 m",
+        "Colonnes et pilastres": "243 colonnes et 13 pilastres sur cinq rangées",
+        "Place entière": "environ 23 991 m² (un peu plus de deux hectares)",
+        "Colonnes sculptées retrouvées par Schmidt": "quatre, avec une partie décorée de 2,50 à 3 m",
+        "Au sein de l’ensemble": "un bain de vapeur et trois terrains de jeu de balle",
+        "Études": "Schmidt, 2013 ; González et al., 2016"
+      }
+    },
+    "faq_mito": {
+      "hash": "327a20c445543ea0",
+      "texto": {
+        "pregunta": "Mythe : Il y a exactement mille colonnes.",
+        "respuesta": "Réalité : C’est un nom moderne. La colonnade nord comptait 243 colonnes et 13 pilastres, et d’autres descriptions parlent d’environ 200."
+      }
+    }
+  }
+}

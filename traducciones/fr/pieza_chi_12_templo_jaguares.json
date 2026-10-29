@@ -1,0 +1,56 @@
+{
+  "id": "chi_12_templo_jaguares",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0c6b3f3927b517dd",
+      "texto": "Temple des Jaguars"
+    },
+    "frase_gancho": {
+      "hash": "50da5f977047cf94",
+      "texto": "Un petit temple orné de peintures murales de batailles, et en dessous un autre temple, avec une procession de plus de cent figures."
+    },
+    "puente_narrativo": {
+      "hash": "6953c20041fbfbd8",
+      "texto": "Quand vous aurez fini de regarder les temples du terrain de jeu, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "d120546e59de0150",
+      "texto": "Il y a ici deux temples, l’un au-dessus de l’autre. Le Temple supérieur des Jaguars mesure seize mètres de haut. À l’intérieur, des peintures murales de batailles se déploient sous le regard de deux ancêtres : le Capitaine Serpent et le Capitaine Bouclier solaire, ou Disque solaire. En bas, au niveau de la place, le Temple inférieur est une petite chambre, longue d’un peu plus de neuf mètres. Il regarde vers l’est, vers le Temple des Guerriers. Son intérieur abrite une procession répartie sur six niveaux, dont cent onze figures debout ont survécu. Les chercheurs l’interprètent comme l’ascension d’un gouverneur."
+    },
+    "guion_largo": {
+      "hash": "4d99211b83ebe962",
+      "texto": "Ces deux temples, l’un sur l’autre, font partie de l’ensemble du Jeu de balle, et racontent une histoire de guerre et de pouvoir.\n\nCommençons par le haut. Selon une étude technique de deux mille dix-sept, le Temple supérieur des Jaguars mesure environ dix-sept mètres du nord au sud et environ onze de l’est à l’ouest, et sa hauteur totale est d’environ seize mètres. À l’intérieur sont conservées des peintures murales avec des scènes de batailles des Itzás. Les personnages principaux sont deux : le Capitaine Serpent et le Capitaine Disque solaire, ou Bouclier solaire, selon qui les nomme. Ce sont des noms modernes pour des figures que les spécialistes interprètent comme des ancêtres. Un linteau de bois est conservé à sa place d’origine.\n\nLa spécialiste Linda Schele a proposé une lecture. Selon elle, ce temple rappelle les guerres qui ont fondé l’empire des Itzás, et ses emblèmes unissent le jeu au Bouclier de silex et au Serpent de guerre. C’est une interprétation, mais elle montre combien, pour les anciens habitants, le jeu, la guerre et l’histoire étaient étroitement liés.\n\nBaissez maintenant les yeux. Au niveau de la place se trouve le Temple inférieur des Jaguars. C’est une petite chambre : environ neuf mètres et demi de long, trois de large et quatre et demi de haut. Sa façade regarde vers l’orient, vers le Temple des Guerriers. Dix figures y apparaissent.\n\nLe plus impressionnant se trouve à l’intérieur. Les murs et les voûtes sont couverts d’une procession organisée en six niveaux. Cent onze figures debout ont survécu. Les chercheurs interprètent la scène comme l’ascension d’un gouverneur. La figure centrale se trouverait au troisième niveau du mur occidental. Ils proposent aussi que l’ancêtre K'ak'upakal soit représenté sous les traits du Capitaine Bouclier solaire. Ce sont des hypothèses, et il est important de les entendre comme telles.\n\nIl existe un indice de plus sur la date. Dans le Grand Jeu de balle se trouve une pierre circulaire portant une date du Compte long, qui correspond au dix-sept novembre de l’an huit cent soixante-quatre. On l’a considérée comme la date de dédicace du terrain. Mais certains chercheurs pensent que le terrain a été construit vers l’an neuf cents, peut-être sur un autre plus ancien, et que le Temple inférieur a été ajouté ensuite, du côté oriental.\n\nSi vous vous approchez, vous verrez que le Temple inférieur est au ras du sol, et que ses peintures murales intérieures ne sont pas visibles de l’extérieur. La plupart des visiteurs ne les connaissent que par des photographies et des dessins.\n\nQuand vous aurez terminé, poursuivez avec la prochaine étape de votre parcours. Si vous allez vers le nord-est, vous verrez une chaussée rectiligne qui se perd dans la végétation : c’est le Sacbé numéro un, le chemin blanc qui mène au Cénote sacré."
+    },
+    "retos_observacion": {
+      "hash": "0ce19557ed54cadf",
+      "texto": [
+        "Cherchez le petit temple situé sur la plate-forme orientale du terrain de jeu : c’est le Temple supérieur des Jaguars",
+        "Repérez, au niveau de la place, la façade du Temple inférieur, qui regarde vers le Temple des Guerriers",
+        "Imaginez à l’intérieur du Temple inférieur une procession de plus de cent figures sur six niveaux"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c5a39157ff76c62f",
+      "texto": {
+        "Temple supérieur": "environ 17,1 × 11,1 mètres à la base et environ 16 mètres de hauteur totale",
+        "Peintures murales du Temple supérieur": "batailles des Itzás, avec deux ancêtres, le Capitaine Serpent et le Capitaine Bouclier solaire (ou Disque solaire)",
+        "Temple inférieur": "environ 9,46 × 3,06 mètres, 4,56 mètres de haut",
+        "Procession intérieure": "six niveaux ; 111 figures debout ont survécu",
+        "Façade du Temple inférieur": "dix figures",
+        "Étude": "González et al., 2017 ; Arqueología Mexicana (Velázquez Morlet)"
+      }
+    },
+    "faq_mito": {
+      "hash": "22f1e4a60ae353e8",
+      "texto": {
+        "pregunta": "Mythe : Les deux capitaines des peintures murales sont des personnages historiques portant ces noms.",
+        "respuesta": "Réalité : Ce sont des noms modernes que les spécialistes donnent à des figures qu’ils interprètent comme des ancêtres. On utilise même des noms différents : Disque solaire et Bouclier solaire."
+      }
+    }
+  }
+}

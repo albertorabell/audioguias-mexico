@@ -1,0 +1,56 @@
+{
+  "id": "chi_23_el_osario",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e57e46b4e415af1c",
+      "texto": "L’Ossuaire et ses plateformes"
+    },
+    "frase_gancho": {
+      "hash": "1cbb35eceb0f44f5",
+      "texto": "Une pyramide à neuf étages, percée à son sommet d’une ouverture qui descend jusqu’à une grotte."
+    },
+    "puente_narrativo": {
+      "hash": "ca47d89ab6f88925",
+      "texto": "Faites le tour de la plateforme et observez la pyramide sous différents angles. Quand vous aurez terminé, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "b4b9fef89ff4f3b1",
+      "texto": "L’Ossuaire est une pyramide à degrés, plus petite que le Château et très semblable à lui, avec des escaliers sur ses quatre côtés. Elle compte neuf étages et dépasse dix mètres de hauteur. Au centre s’ouvre une ouverture qui descend jusqu’à une grotte naturelle, à environ dix ou douze mètres de profondeur. À la fin du dix-neuvième siècle, Edward Thompson l’a explorée et y a trouvé des squelettes et des perles de jade. C’est pourquoi il l’a appelée Tombe du Grand Prêtre. Aujourd’hui, on pense qu’il ne s’agissait ni d’une tombe ni de la sépulture de prêtres."
+    },
+    "guion_largo": {
+      "hash": "7bebd8932377388a",
+      "texto": "Cet édifice porte deux noms, et aucun n’est exact. On l’appelle l’Ossuaire à cause des ossements qu’on y a trouvés, et Tombe du Grand Prêtre parce que c’est ainsi que son explorateur l’a baptisé.\n\nCommençons par ce que l’on voit. C’est une pyramide à degrés de neuf étages, haute de plus de dix mètres, avec des escaliers sur ses quatre côtés. Elle ressemble beaucoup au Château, en plus petite, et c’est pourquoi certains y voient une réplique. Les reliefs de la frise sont mythologiques, et aux angles se trouvent des masques du dieu de la pluie, Chaac. Les escaliers ont des balustrades ornées de serpents.\n\nCe qui fait sa singularité se trouve au centre. Une ouverture au sommet descend par un conduit jusqu’à une grotte naturelle. Les descriptions donnent des profondeurs différentes : entre une dizaine et une douzaine de mètres. À la fin du dix-neuvième siècle, Edward Thompson est descendu dans cette grotte. Il y a trouvé des squelettes et des perles de jade, et il en a conclu qu’il s’agissait de la tombe d’un grand prêtre. Aujourd’hui, les archéologues pensent qu’il ne s’agissait ni d’une tombe ni d’une sépulture de prêtres.\n\nEn mille neuf cent trente-six, J. C. Harrington, en cartographiant le conduit, a découvert une partie de la voûte d’un temple plus ancien. Autrement dit, l’Ossuaire s’est lui aussi élevé sur un temple plus vieux, tout comme le Château et le temple des Guerriers. Une étude au radiocarbone de deux mille dix-neuf, menée par Saldaña et Brady, situe la fin de la structure antérieure et la construction de l’Ossuaire au début du huitième siècle. Un pilier du temple supérieur porte une date qui correspond à l’an neuf cent quatre-vingt-dix-huit.\n\nUne lecture symbolique revient souvent : la grotte serait une porte d’entrée vers le monde souterrain, et les neuf étages feraient allusion à ses neuf niveaux. C’est une interprétation populaire. Les Mayas associaient bien les grottes et les cénotes au monde souterrain, mais le lien avec les neuf niveaux n’est pas démontré.\n\nDepuis cette plateforme part un chemin qui mène au cénote Xtoloc. Quand vous aurez terminé ici, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "retos_observacion": {
+      "hash": "1a98a44a14b466e7",
+      "texto": [
+        "Comptez les étages de la pyramide : il y en a neuf",
+        "Cherchez aux angles les masques du dieu de la pluie, Chaac",
+        "Comparez ses proportions avec celles du Château, que vous avez déjà vu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6ff3ac66d851e907",
+      "texto": {
+        "Hauteur": "plus de 10 m",
+        "Étages à degrés": "9, avec des escaliers sur les quatre côtés",
+        "Ouverture centrale": "descend jusqu’à une grotte naturelle, à environ 10-12 m",
+        "Exploration": "Edward Thompson, fin du XIXe siècle ; J. C. Harrington (1936) a découvert un temple antérieur",
+        "Date": "début du VIIIe siècle (radiocarbone, 2019) ; pilier du temple supérieur daté de l’an 998",
+        "Noms": "Ossuaire et Tombe du Grand Prêtre"
+      }
+    },
+    "faq_mito": {
+      "hash": "8faa303ff8b4a790",
+      "texto": {
+        "pregunta": "Mythe : C’est la tombe d’un grand prêtre maya.",
+        "respuesta": "Réalité : C’est ainsi que Thompson l’a baptisée, mais on pense aujourd’hui qu’il ne s’agissait ni d’une tombe ni d’une sépulture de prêtres."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "chi_36_casa_caracoles_tortuga",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3c97d858880aeb8b",
+      "texto": "La Maison des Escargots et la Plateforme de la Tortue"
+    },
+    "frase_gancho": {
+      "hash": "4aa2e6a7f230b634",
+      "texto": "Un arbre généalogique d’une vingtaine de mètres et une plateforme en forme de tortue."
+    },
+    "puente_narrativo": {
+      "hash": "3ffdd99fc99a5203",
+      "texto": "Rendez-vous sur la place sud, à la [Galerie des Singes](chi_38_galeria_monos), où apparaît un gouverneur nommé Dix Cerf."
+    },
+    "guion_corto": {
+      "hash": "fa2603d70430dfa8",
+      "texto": "La Maison des Escargots présente sur sa façade ouest une scène d’une vingtaine de mètres qui ressemble à un arbre généalogique. Une figure mi-humaine, mi-animale émerge d’un fruit, entourée d’escargots, d’oiseaux, de fleurs et de plantes. Une divinité fondatrice sort d’une tige qui se multiplie en d’autres figures, et l’une d’elles est identifiée par le glyphe Neuf Coyote. Au centre de la place nord se trouve la Plateforme de la Tortue, dont la tête est tournée vers l’est."
+    },
+    "guion_largo": {
+      "hash": "cfd91a9349eddbd8",
+      "texto": "Cette étape réunit deux choses : une façade qui raconte une lignée et une plateforme qui marque le centre.\n\nLa Maison des Escargots, la structure cinq C cinq, fait partie du complexe des Phallus. Son nom vient des escargots qui apparaissent dans son décor. Elle présente une frise élaborée représentant une figure mi-humaine, mi-animale qui émerge d’un fruit, entourée d’escargots, d’oiseaux, de fleurs, de plantes et de fruits. La façade s’était effondrée en un amas de gravats, et l’institution Carnegie l’a laissée intacte, ce qui a aidé Peter Schmidt à la reconstruire pièce par pièce.\n\nSelon le bulletin de l’INAH de deux mille vingt-trois, la façade ouest montre une scène d’une vingtaine de mètres qui représente un arbre généalogique. Une divinité fondatrice émerge d’une tige, et la tige se multiplie en d’autres figures. L’INAH propose que l’une d’elles, identifiée par le glyphe Neuf Coyote, pourrait être le fondateur qui fit réaliser la plupart des reliefs de l’ensemble. C’est une proposition, pas un fait.\n\nL’INAH relie ce lieu à la lignée Cupul, l’une des familles nobles de Chichén Itzá. Son nom renvoie à un jicama sauvage, que l’on appelle kup en maya. Les équipes ont aussi récupéré une quinzaine de mètres linéaires d’éléments décoratifs d’un autel, avec une scène de guerre sculptée, tombés en même temps qu’une voûte. On ne sait pas avec précision de quel édifice ils proviennent.\n\nVoyons maintenant la Plateforme de la Tortue, la structure cinq C dix-sept, au centre de la place nord. Elle est basse : elle mesure environ un mètre vingt de haut, neuf mètres soixante-trois de diamètre et douze mètres quatre-vingt-trois de long. Elle a deux escaliers. Une tête de tortue sculptée regarde vers l’est, vers le temple de la Série initiale, et la queue pointe vers l’ouest. Les murs latéraux des escaliers forment les pattes, et la tortue porte un collier sculpté. Dans une sous-structure antérieure, les fouilleurs ont trouvé une boîte hexagonale en pierre contenant quinze pointes de silex jamais utilisées. On dit que les Mayas la voyaient comme le centre de l’univers.\n\nEn deux mille sept, on a découvert, près d’une autre structure de la place nord, une tombe collective et environ sept mille cinq cents perles de pâte imitant la turquoise.\n\nD’ici, poursuivez vers la [Galerie des Singes](chi_38_galeria_monos)."
+    },
+    "retos_observacion": {
+      "hash": "01940c47a2d046a9",
+      "texto": [
+        "Cherchez la longue scène de la façade ouest et suivez du regard les figures qui sortent de la tige",
+        "Repérez la plateforme basse en forme de tortue : tête vers l’est, queue vers l’ouest",
+        "Observez les escaliers latéraux, qui forment les pattes de la tortue"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a22276c53190276e",
+      "texto": {
+        "Maison des Escargots": "structure 5C5, partie du complexe des Phallus",
+        "Scène de la façade ouest": "environ 20 m, arbre généalogique avec une divinité fondatrice",
+        "Glyphe": "Neuf Coyote, fondateur possible (INAH)",
+        "Lignée": "Cupul",
+        "Plateforme de la Tortue (5C17)": "hauteur maximale 1,20 m, diamètre 9,63 m, longueur 12,83 m ; deux escaliers ; tête à l’est",
+        "Offrande": "boîte hexagonale contenant 15 pointes de silex inutilisées",
+        "Tombe de 2007": "environ 7 500 perles de pâte imitant la turquoise"
+      }
+    },
+    "faq_mito": {
+      "hash": "c9f051630f30f82a",
+      "texto": {
+        "pregunta": "Mythe : La Maison des Escargots doit son nom à une collection de coquillages.",
+        "respuesta": "Réalité : Le nom vient des escargots de son décor : une frise avec une figure qui émerge d’un fruit, entourée d’escargots, d’oiseaux et de plantes."
+      }
+    }
+  }
+}

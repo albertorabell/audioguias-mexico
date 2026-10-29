@@ -1,0 +1,57 @@
+{
+  "id": "chi_16_templo_guerreros",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cd6f64b01a908be4",
+      "texto": "Temple des Guerriers et la Colonnade Nord-Ouest"
+    },
+    "frase_gancho": {
+      "hash": "6d01b78e2c4d509d",
+      "texto": "Des colonnes sculptées de guerriers, un Chac Mool tout en haut et, à l’intérieur, un autre temple plus ancien."
+    },
+    "puente_narrativo": {
+      "hash": "cd9bfdc1b8314878",
+      "texto": "Poursuivez le long du temple vers le [Groupe des Mille Colonnes](chi_19_grupo_mil_columnas), la plus grande forêt de piliers de la place."
+    },
+    "guion_corto": {
+      "hash": "76b13d969224ffde",
+      "texto": "Voici le Temple des Guerriers. C’est une grande pyramide à degrés, et sur sa façade comme sur ses côtés s’alignent des rangées de colonnes sculptées de guerriers ; la Colonnade Nord-Ouest fait partie de cet ensemble. On pense que ces colonnes soutenaient les toits de galeries qui n’existent plus. En haut de l’escalier se trouve un Chac Mool, la figure allongée qui tient un récipient. Les archéologues le comparent au temple B de Tula, dans le centre du Mexique, et cette ressemblance a nourri pendant des décennies l’idée d’une invasion toltèque. Aujourd’hui, on parle plutôt d’influence. À l’intérieur du temple se trouve un autre temple, plus ancien, le temple du Chac Mool, que l’Institut Carnegie a fouillé entre mille neuf cent vingt-cinq et mille neuf cent vingt-huit."
+    },
+    "guion_largo": {
+      "hash": "9b21f07b27085ac7",
+      "texto": "Vous vous trouvez devant l’un des édifices les plus célèbres de Chichén Itzá, et aussi l’un de ceux qui ont suscité le plus de débats.\n\nC’est une grande pyramide à degrés, avec des rangées de colonnes sculptées de guerriers sur la façade et sur les côtés, d’environ quarante mètres de côté et de quatre niveaux. Au sommet se trouve un temple de deux salles et un portique d’entrée, dont le linteau repose sur deux colonnes en forme de gigantesques serpents à sonnette. En haut, près de l’escalier, se dresse un Chac Mool, une figure allongée qui tient un plat ou un récipient sur le ventre.\n\nLes archéologues le comparent au temple B de Tula, la ville du centre du Mexique que l’on a longtemps considérée comme la capitale des Toltèques. La ressemblance est réelle, et c’est pourquoi on a pensé que Chichén Itzá avait été conquise. La plupart des interprétations actuelles y voient plutôt un dialogue de styles, né du contact. Remarquez qu’il n’y a pas ici que de l’imitation : les colonnes, les serpents et les salles se mêlent à une tradition propre.\n\nLa date est elle aussi débattue. Certains le situent vers l’an mille deux cents. Mais la chronologie de Chichén Itzá continue d’être ajustée, et il n’existe pas de date unique acceptée par tous.\n\nCe qu’il y a de plus intéressant se trouve à l’intérieur. Cette pyramide en recouvre une autre, plus ancienne, appelée le temple du Chac Mool. L’Institut Carnegie l’a fouillée et restaurée entre mille neuf cent vingt-cinq et mille neuf cent vingt-huit. L’archéologue Earl Morris a publié ce travail en deux volumes. À l’intérieur sont conservées des peintures murales qui représentent des scènes de bataille. Comme toute cette zone est fermée, vous ne pouvez pas y entrer, mais il est bon de savoir qu’elle est là. C’est une pyramide dans une autre pyramide, comme le Château.\n\nIl est bon aussi de savoir que l’édifice a été restauré. Les travaux ont commencé en mille neuf cent vingt-cinq. Ce que vous voyez aujourd’hui est un mélange de pierre d’origine et de pierre remise en place, si bien que tout n’est pas tel que les bâtisseurs l’avaient laissé.\n\nRegardez maintenant les colonnes avec calme. Devant le temple et sur ses côtés s’alignent des rangées de colonnes de pierre, et celles de la Colonnade Nord-Ouest, près du temple, portent presque toutes des figures de guerriers. On pense qu’elles soutenaient des toits de bois et de pierre, aujourd’hui disparus, avec des galeries ouvertes en dessous. C’est pourquoi vous les voyez aujourd’hui à découvert. Beaucoup de figures sont de profil, avec une coiffe, des parures et des armes. Si vous repérez un relief net, arrêtez-vous pour le regarder. De cette colonnade, on connaît peu de données propres : ses dimensions et sa date ne sont pas bien documentées, et une étude technique de deux mille seize ne la mentionne que parmi les constructions voisines qui portent des symboles guerriers.\n\nPoursuivez maintenant le long du temple vers le [Groupe des Mille Colonnes](chi_19_grupo_mil_columnas). Là, les colonnes ne forment plus une rangée, mais une forêt."
+    },
+    "retos_observacion": {
+      "hash": "721a38f04107f8fe",
+      "texto": [
+        "Repérez en haut de l’escalier le Chac Mool, la figure allongée qui tient un récipient",
+        "Cherchez les deux colonnes en forme de serpent à sonnette qui soutiennent le linteau du portique",
+        "Parcourez du regard les rangées de colonnes de la Colonnade Nord-Ouest et cherchez les guerriers les mieux conservés"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6ab36c0e3d6d34a8",
+      "texto": {
+        "Forme": "grande pyramide à degrés de quatre niveaux, avec des rangées de colonnes ornées de guerriers",
+        "Taille": "environ 40 mètres de côté",
+        "Comparaison": "ressemble au temple B de Tula, dans le centre du Mexique",
+        "Sous-structure": "le temple du Chac Mool, fouillé par l’Institut Carnegie entre 1925 et 1928",
+        "Colonnade Nord-Ouest": "rangées de colonnes ornées de guerriers de profil près du temple ; on pense qu’elles soutenaient des toits de galeries",
+        "Date": "certains le situent vers l’an 1200 (la chronologie reste débattue)",
+        "Accès": "il n’est pas possible de monter ni d’entrer dans la sous-structure"
+      }
+    },
+    "faq_mito": {
+      "hash": "9ab61d54962f38ee",
+      "texto": {
+        "pregunta": "Mythe : Le Temple des Guerriers prouve que les Toltèques ont conquis Chichén Itzá.",
+        "respuesta": "Réalité : La ressemblance avec le temple B de Tula est réelle, mais la plupart des interprétations actuelles parlent d’influence et de contact, et non de conquête."
+      }
+    }
+  }
+}

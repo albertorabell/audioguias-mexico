@@ -1,0 +1,56 @@
+{
+  "id": "chi_27_el_caracol",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6dddd829991935e9",
+      "texto": "L’Escargot"
+    },
+    "frase_gancho": {
+      "hash": "1855dae43d6d6ae4",
+      "texto": "Une tour ronde dotée d’un escalier en colimaçon à l’intérieur : le seul édifice circulaire de Chichén Itzá."
+    },
+    "puente_narrativo": {
+      "hash": "8b5248a870f086d2",
+      "texto": "Marchez vers [Les Nonnes](chi_29_las_monjas), un grand palais de style Puuc."
+    },
+    "guion_corto": {
+      "hash": "79c38490dd6839a8",
+      "texto": "Voici la seule structure ronde de Chichén Itzá, une tour dressée sur une grande plateforme carrée. On l’appelle l’Escargot à cause de l’escalier en colimaçon qu’elle abrite. Une pierre de la plateforme supérieure permet de la dater vers l’an neuf cent six. On propose d’y voir un observatoire. L’astronome Anthony Aveni et son équipe ont trouvé dans l’édifice des lignes de visée pour vingt des vingt-neuf événements du ciel qui ont pu intéresser ses habitants, mais une partie de la tour a disparu, si bien que tout ne peut pas être vérifié."
+    },
+    "guion_largo": {
+      "hash": "68f1c7954ed1c81f",
+      "texto": "L’Escargot rompt la géométrie de Chichén Itzá. Presque tout le reste est carré, à gradins ou rectangulaire. Ici, c’est une tour ronde.\n\nC’est la seule structure circulaire du site. Elle s’élève sur une grande plateforme carrée. Les Espagnols lui ont donné le nom d’Escargot à cause de l’escalier intérieur en spirale. Une stèle de la plateforme supérieure permet de la dater vers l’an neuf cent six.\n\nL’idée selon laquelle il s’agissait d’un observatoire est la plus répandue. L’argument est simple : dans le paysage plat du Yucatán, il n’y a pas de montagnes pour servir de repère, et une tour permettait de voir le ciel au-dessus de la végétation. L’astronome Anthony Aveni a étudié l’orientation de l’édifice à partir du milieu des années soixante-dix. Selon un reportage du New York Times de mille neuf cent quatre-vingt-six, son équipe a trouvé des lignes de visée vers les positions du Soleil aux solstices, vers les deux passages du Soleil au zénith entre mai et août, et vers les points extrêmes de Vénus. Elle a conclu que, sur vingt-neuf événements astronomiques possibles, l’édifice présentait des alignements pour vingt.\n\nVénus était importante. Les astronomes mayas savaient, par l’observation à l’œil nu, que son cycle dure environ cinq cent quatre-vingt-quatre jours, et que cinq cycles équivalent à huit années solaires.\n\nIl convient de rappeler les limites. Une partie de la tour qui se trouvait sur la plateforme a disparu, si bien que certaines observations ne pourront peut-être jamais être confirmées. Et ces alignements sont les résultats d’une équipe, non des faits acceptés par tous. Nous parlons d’une hypothèse, même si elle est solide.\n\nL’édifice a aussi son histoire d’exploration. Alfred Maudslay l’a dessiné et photographié en mille huit cent quatre-vingt-neuf, et William Holmes l’a visité en mille huit cent quatre-vingt-quatorze. L’Institut Carnegie a restauré l’Escargot après mille neuf cent vingt-trois.\n\nPoursuivez maintenant vers [Les Nonnes](chi_29_las_monjas), un édifice très différent, dont la façade est couverte de masques."
+    },
+    "retos_observacion": {
+      "hash": "cce356069a3334d6",
+      "texto": [
+        "Observez la tour ronde sur la plateforme carrée : c’est la seule du site",
+        "Remarquez les petites ouvertures de la partie haute que l’on associe aux alignements",
+        "Imaginez la partie supérieure qui a disparu et ce que pouvait voir celui qui y montait"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f169095e68d4f60b",
+      "texto": {
+        "Forme": "tour circulaire sur une grande plateforme carrée",
+        "Nom": "à cause de l’escalier intérieur en spirale",
+        "Date": "vers l’an 906, d’après une stèle de la plateforme supérieure",
+        "Alignements proposés (Aveni)": "20 événements astronomiques possibles sur 29",
+        "Cycle de Vénus": "environ 584 jours ; 5 cycles = 8 années solaires",
+        "Exploration": "Maudslay (1889), Holmes (1894), Aveni (années soixante-dix)"
+      }
+    },
+    "faq_mito": {
+      "hash": "532a8b4701bd38ae",
+      "texto": {
+        "pregunta": "Mythe : Il est démontré que l’Escargot était un observatoire astronomique officiel.",
+        "respuesta": "Réalité : C’est une hypothèse bien étudiée. On a trouvé des lignes de visée vers 20 événements sur 29, mais une partie de la tour a disparu et tout ne peut pas être vérifié."
+      }
+    }
+  }
+}

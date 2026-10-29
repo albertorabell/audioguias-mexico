@@ -1,0 +1,56 @@
+{
+  "id": "chi_10_templo_hombre_barbado",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "00b0d8f77c65c680",
+      "texto": "Les temples Nord et Sud du Jeu de balle"
+    },
+    "frase_gancho": {
+      "hash": "fd380cf00287dea3",
+      "texto": "Aux extrémités du terrain se dressent deux temples : l’un avec un homme barbu sculpté, l’autre avec une longue galerie."
+    },
+    "puente_narrativo": {
+      "hash": "354a6317b719bef8",
+      "texto": "Regardez maintenant le côté est du terrain. À l’extrémité sud de cette plateforme se trouve le [Temple des Jaguars](chi_12_templo_jaguares), orné de peintures murales de batailles."
+    },
+    "guion_corto": {
+      "hash": "c7a1abf38b0722f8",
+      "texto": "Aux extrémités du terrain se dressent deux temples. Celui du nord s’appelle le temple de l’Homme barbu, à cause d’une figure barbue sculptée à l’intérieur. Il n’a qu’une seule chambre, d’environ huit mètres sur quatre. Ses reliefs montrent une cérémonie devant un trône de jaguar vide. Celui du sud est une longue galerie voûtée d’environ vingt-quatre mètres. Seuls six pilastres portent des reliefs, avec des guerriers debout et richement parés, et l’on a trouvé un Chac Mool parmi les décombres. On pense que des rituels liés au jeu se déroulaient dans ces temples, mais on n’en connaît pas tous les détails."
+    },
+    "guion_largo": {
+      "hash": "74debd32c33bcdfa",
+      "texto": "Ces deux temples ferment le terrain à ses extrémités. Ils sont moins célèbres que les anneaux ou les panneaux, mais ils renferment des images très précieuses.\n\nCelui du nord s’appelle le temple de l’Homme barbu, à cause d’une figure barbue sculptée à l’intérieur. Il s’élève sur une base carrée, d’environ quatorze mètres d’est en ouest sur sept mètres et demi du nord au sud, et il n’a qu’une seule chambre, d’environ huit mètres de long sur quatre de large. Il présente des piliers finement sculptés et des reliefs de fleurs, d’oiseaux et d’arbres.\n\nCe qui attire le plus l’attention se trouve à l’intérieur. Les reliefs intérieurs montrent une cérémonie dans laquelle un personnage principal est assis ou debout devant un trône de jaguar vide. Selon Enrique Vela, ce temple abrite un panneau de plus de quarante figures réparties en différentes scènes. C’est une image complexe, que les spécialistes étudient encore.\n\nCelui du sud est très différent. C’est une longue galerie voûtée, d’environ vingt-quatre mètres de long sur quatre mètres et demi de large, élevée à l’extrémité sud du terrain. Les reliefs n’apparaissent que sur six pilastres, et ils montrent des guerriers debout, richement parés. On a trouvé un Chac Mool parmi les décombres.\n\nÀ quoi servaient-ils ? On pense que, sûrement, des rituels liés au jeu s’y déroulaient. Le mot important est « sûrement » : aucune preuve ne le confirme. Ce que l’on peut dire, en revanche, c’est qu’ils fermaient le terrain à ses deux extrémités, et que les images de l’intérieur parlent de cérémonies, de guerriers et de pouvoir.\n\nUne idée que les guides répètent volontiers est que le temple du Nord possède une acoustique particulière, mais aucune preuve documentée ne l’atteste.\n\nMaintenant, quand vous aurez fini de regarder les extrémités, portez votre regard sur le côté est du terrain. À l’extrémité sud de cette plateforme se trouve le [Temple des Jaguars](chi_12_templo_jaguares), orné de peintures murales de batailles."
+    },
+    "retos_observacion": {
+      "hash": "8e81f3682a6b0918",
+      "texto": [
+        "Cherchez le temple Nord, celui de l’Homme barbu, à l’extrémité nord du terrain, et sa chambre unique",
+        "Repérez le temple Sud, une galerie longue et basse, à l’extrémité opposée",
+        "Regardez de loin les piliers du temple nord et cherchez les reliefs de fleurs, d’oiseaux et d’arbres"
+      ]
+    },
+    "especificaciones": {
+      "hash": "67e7dbeb3fa227b2",
+      "texto": {
+        "Temple Nord (de l’Homme barbu)": "une seule chambre d’environ 8,13 × 4 m, sur une base d’environ 14 × 7,3 m",
+        "Reliefs intérieurs": "cérémonie devant un trône de jaguar vide ; un panneau de plus de 40 figures",
+        "Temple Sud": "galerie voûtée d’environ 24,3 × 4,4 m",
+        "Reliefs du temple Sud": "guerriers debout sur six pilastres ; un Chac Mool a été découvert parmi les décombres",
+        "Usage": "on pense que des rituels liés au jeu s’y déroulaient",
+        "Étude": "González et al., 2017 ; Vela, Arqueología Mexicana"
+      }
+    },
+    "faq_mito": {
+      "hash": "c42a502b32a2cb7d",
+      "texto": {
+        "pregunta": "Mythe : Le temple de l’Homme barbu possède une acoustique particulière qui amplifie la voix d’un bout à l’autre.",
+        "respuesta": "Réalité : Aucune preuve documentée ne l’atteste. Ce qui est documenté, c’est sa chambre unique, ses reliefs de fleurs, d’oiseaux et d’arbres, et la figure barbue qui lui donne son nom."
+      }
+    }
+  }
+}

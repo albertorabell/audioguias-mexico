@@ -1,0 +1,57 @@
+{
+  "id": "chi_34_templo_serie_inicial",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e4c4238afd6a019e",
+      "texto": "Temple de la Série initiale"
+    },
+    "frase_gancho": {
+      "hash": "58d1c3fd3f4f2df6",
+      "texto": "L’entrée du Vieux Chichén : un temple à trois niveaux avec un linteau daté de l’an huit cent soixante-dix-huit."
+    },
+    "puente_narrativo": {
+      "hash": "9957d7b813e7aa17",
+      "texto": "Parcourez la place nord jusqu’au [temple des Phallus](chi_35_templo_falos), un palais à deux étages."
+    },
+    "guion_corto": {
+      "hash": "ce780e7a286833a9",
+      "texto": "Vous êtes dans le Groupe de la Série initiale, aussi appelé Vieux Chichén. C’est un ensemble résidentiel et cérémoniel au sud-ouest du centre de Chichén Itzá, avec environ vingt-cinq structures autour de deux places, sur une plateforme entourée de murs. Le temple qui lui donne son nom est une pyramide à trois niveaux avec un seul escalier. Un linteau daté de l’an huit cent soixante-dix-huit, probablement déplacé de son emplacement d’origine, est l’une de ses pièces les plus remarquables."
+    },
+    "guion_largo": {
+      "hash": "e8140b9f80f106e1",
+      "texto": "Le Vieux Chichén est le nom courant d’un lieu qui, pendant des décennies, a été difficile à visiter.\n\nSelon un bulletin de l’INAH de février deux mille vingt-trois, le Groupe de la Série initiale se trouve au sud-ouest du centre de Chichén Itzá, couvre environ quatorze mille six cent cinq mètres carrés et comprend vingt-cinq structures organisées autour de deux places, sur une grande plateforme entourée de murs. Il mêle des zones résidentielles, administratives et religieuses. D’autres décomptes donnent des chiffres un peu différents : vingt-sept édifices, ou plus de vingt-trois. Mieux vaut retenir l’idée d’un ensemble de vingt à trente constructions.\n\nLa date a changé ce que l’on pensait de ce lieu. L’INAH indique que l’occupation se situe au Classique récent, entre les années six cents et huit cent cinquante. On croyait auparavant qu’il datait seulement du Classique terminal et du Postclassique ancien, vers les années huit cents à mille deux cents. Le Palais des Stucs a fourni les preuves les plus anciennes d’architecture à Chichén Itzá : du stuc modelé et coloré.\n\nLe temple principal, la structure cinq C quatre, est une pyramide à trois niveaux avec un seul escalier. Son temple supérieur date de l’époque Sotuta. Selon l’INAH, l’escalier frontal est à l’ouest et il est associé à une pierre de sacrifice ; au niveau inférieur se trouve un Chac Mool, et deux atlantes servent de jambages à l’entrée. Son linteau porte une date qui correspond au trente juillet huit cent soixante-dix-huit. Une étude technique de deux mille quatorze indique qu’il a probablement été déplacé de son emplacement d’origine, qu’il mentionne quelques femmes et hommes et qu’il évoque des dieux et des rituels.\n\nEdward Thompson a exploré cette zone vers mille huit cent quatre-vingt-quinze, et l’Institut Carnegie s’y est intéressé en mille neuf cent vingt-trois. Peter Schmidt a dirigé, dans les années quatre-vingt-dix, une intervention de grande ampleur.\n\nL’INAH a ouvert le Vieux Chichén au public en septembre deux mille vingt-trois. Selon l’INAH, on le visite aujourd’hui les vendredis et les samedis, en deux tours : de neuf heures à onze heures et demie, et de douze heures à deux heures et demie. Il faut réserver au guichet de la zone archéologique, et vous êtes toujours accompagné par du personnel de l’INAH et un guide. Les groupes comptent jusqu’à cinquante personnes et le parcours dure environ deux heures et demie. Ces règles peuvent changer : confirmez-les avant d’y aller.\n\nPoursuivez maintenant vers le [temple des Phallus](chi_35_templo_falos)."
+    },
+    "retos_observacion": {
+      "hash": "f6f609f3572ee677",
+      "texto": [
+        "Observez la pyramide à trois niveaux avec un seul escalier",
+        "Cherchez le Chac Mool au niveau inférieur et les atlantes qui servent de jambages",
+        "Remarquez le mur qui entoure la plateforme de l’ensemble"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f43608b3284221c",
+      "texto": {
+        "Ensemble": "Groupe de la Série initiale (Vieux Chichén), environ 14 605 m², environ 25 structures autour de deux places",
+        "Temple de la Série initiale (5C4)": "pyramide à trois niveaux avec un seul escalier",
+        "Linteau": "date du 30 juillet 878 ; probablement déplacé",
+        "Occupation": "600-850 (Classique récent), selon l’INAH",
+        "Exploration": "Thompson (vers 1895), Carnegie (1923), Schmidt (années 1990)",
+        "Visite": "vendredi et samedi, de 9 h 00 à 11 h 30 et de 12 h 00 à 14 h 30, sur réservation au guichet de la zone, avec guide et personnel de l’INAH ; jusqu’à 50 personnes par groupe et environ 2,5 heures (INAH ; à confirmer avant d’y aller)",
+        "Ouverture au public": "septembre 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "d949c73d58de3a80",
+      "texto": {
+        "pregunta": "Mythe : Le Vieux Chichén est une ville distincte, antérieure à Chichén Itzá.",
+        "respuesta": "Réalité : C’est le nom courant d’un groupe à l’intérieur de Chichén Itzá. L’INAH situe son occupation dès le Classique récent, avant la période la mieux connue du site."
+      }
+    }
+  }
+}

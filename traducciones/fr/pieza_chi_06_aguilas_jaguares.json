@@ -1,0 +1,56 @@
+{
+  "id": "chi_06_aguilas_jaguares",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b3effe4c5400637f",
+      "texto": "Plateforme des Aigles et des Jaguars"
+    },
+    "frase_gancho": {
+      "hash": "7997417a91bd05c0",
+      "texto": "Des aigles et des jaguars qui dévorent des cœurs humains, sur une plateforme dotée d’un escalier de chaque côté."
+    },
+    "puente_narrativo": {
+      "hash": "1658110b6c226dc8",
+      "texto": "Avancez vers le [Grand Jeu de balle](chi_08_gran_juego_pelota), l’immense terrain qui ferme ce côté de l’esplanade."
+    },
+    "guion_corto": {
+      "hash": "0bc6d550dd3ca405",
+      "texto": "Cette plateforme possède un escalier sur chacun de ses quatre côtés. Ses panneaux montrent des aigles et des jaguars en train de manger des cœurs humains. Elle combine des styles mayas et des traits du centre du Mexique, et c’est l’une des preuves que des traditions se sont mêlées à Chichén Itzá. Elle se trouve juste à l’est du Grand Jeu de balle, et l’une de ses sculptures est célèbre : le premier Chac Mool découvert par les archéologues provient de cette plateforme. Les aigles avec des cœurs apparaissent aussi sur le Tzompantli et dans le temple des Guerriers. C’est une image qui se répète sur les édifices les plus importants de cette place."
+    },
+    "guion_largo": {
+      "hash": "4e63205e3f364591",
+      "texto": "Après les crânes, voici maintenant les aigles et les jaguars. Deux animaux qui, en Mésoamérique, étaient associés au pouvoir et à la guerre.\n\nCette plateforme est carrée, avec un escalier sur chacun de ses quatre côtés. Elle mêle le style maya et le style du centre du Mexique. Les panneaux sculptés montrent des aigles et des jaguars qui dévorent des cœurs humains. Elle se trouve à l’est du Grand Jeu de balle, tout près du Tzompantli que vous venez de voir.\n\nUne lecture fréquente de cette image vient de la tradition du centre du Mexique. Là-bas, les aigles et les jaguars symbolisaient les guerriers d’élite, et les cœurs étaient une offrande destinée à nourrir le Soleil. C’est une interprétation, et non une affirmation sûre sur ce que l’on pensait à Chichén Itzá. Ce que l’on peut dire, en revanche, c’est que ces images se répètent sur d’autres édifices du site. Les aigles avec des cœurs apparaissent aussi sur le Tzompantli et sur les panneaux du temple des Guerriers.\n\nCette plateforme a une histoire particulière. Le premier Chac Mool découvert par les archéologues provient d’ici. Un Chac Mool est une figure de pierre allongée qui tient un récipient sur le ventre. Il y en a d’autres dans le temple des Guerriers et à l’intérieur du Château. Ils sont l’une des signatures visuelles de Chichén Itzá, et la science débat encore de ce qu’ils signifiaient exactement.\n\nObservez aussi comment cette plateforme forme un ensemble avec le Tzompantli. Une explication fréquente veut que, ensemble, ces édifices représentent une manière de comprendre la guerre et le sacrifice comme une part de l’ordre du monde. C’est une lecture plausible, mais il faut se rappeler qu’il s’agit de lectures modernes d’images vieilles de plus de mille ans. La seule certitude, c’est que les constructeurs ont voulu que le message se voie.\n\nSi vous avez le temps, faites le tour de la plateforme et comparez ses quatre côtés. Sur certains, les reliefs seront mieux conservés que sur d’autres.\n\nAvancez maintenant vers le [Grand Jeu de balle](chi_08_gran_juego_pelota). C’est le plus grand terrain connu de Mésoamérique, et là, une autre image violente vous attend : les panneaux de la décapitation."
+    },
+    "retos_observacion": {
+      "hash": "64df8bda76c8ff9e",
+      "texto": [
+        "Cherchez sur les panneaux les aigles et les jaguars qui tiennent un cœur entre leurs griffes ou leurs mâchoires",
+        "Comptez les escaliers : il y en a un sur chacun des quatre côtés",
+        "Comparez cette plateforme avec le Tzompantli que vous venez de voir et repérez les images qui se répètent"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3324311b6ba8a5d8",
+      "texto": {
+        "Forme": "plateforme avec un escalier sur chacun de ses quatre côtés",
+        "Reliefs": "aigles et jaguars qui dévorent des cœurs humains",
+        "Style": "combine des traits mayas et du centre du Mexique",
+        "Emplacement": "juste à l’est du Grand Jeu de balle",
+        "Donnée clé": "le premier Chac Mool découvert par des archéologues provient de cette plateforme",
+        "Image récurrente": "aigles avec des cœurs, présents aussi sur le Tzompantli et le temple des Guerriers"
+      }
+    },
+    "faq_mito": {
+      "hash": "db9dd5e7555b9b5b",
+      "texto": {
+        "pregunta": "Mythe : Les reliefs prouvent qu’il existait un ordre militaire des aigles et des jaguars.",
+        "respuesta": "Réalité : Il s’agit d’une interprétation moderne, tirée de la tradition du centre du Mexique. On ne sait pas avec certitude ce que ces images signifiaient pour les habitants de Chichén Itzá."
+      }
+    }
+  }
+}

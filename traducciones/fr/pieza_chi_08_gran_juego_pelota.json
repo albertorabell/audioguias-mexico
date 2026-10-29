@@ -1,0 +1,56 @@
+{
+  "id": "chi_08_gran_juego_pelota",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ef611bef583fdc40",
+      "texto": "Le Grand Jeu de balle"
+    },
+    "frase_gancho": {
+      "hash": "ae1be7f22c00f74d",
+      "texto": "Le plus grand terrain connu de Mésoamérique : plus de cent soixante mètres de long."
+    },
+    "puente_narrativo": {
+      "hash": "c2d5568588337440",
+      "texto": "Approchez-vous de la base des murs du terrain, là où se trouvent les banquettes ornées de reliefs. Quand vous aurez terminé, passez à la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "e2d5fed09dbc6b16",
+      "texto": "Vous êtes dans le Grand Jeu de balle, le plus grand que l’on connaisse en Mésoamérique. L’INAH le décrit avec plus de cent soixante-huit mètres de long sur soixante-dix de large, bien que d’autres mesures donnent des chiffres un peu inférieurs. C’est le principal des treize que l’on connaît à Chichén Itzá, et il a été construit vers l’an neuf cent. Sur les murs latéraux, à environ huit mètres de hauteur, se trouvent des anneaux de pierre ornés de deux serpents à plumes entrelacés. On dirait des paniers de basket-ball, mais on les interprète plutôt comme des portails vers le monde souterrain. La spécialiste Linda Schele l’a résumé ainsi : ce n’était pas un sport."
+    },
+    "guion_largo": {
+      "hash": "139ddbcc57aa6c00",
+      "texto": "Vous êtes sur le plus grand terrain de jeu de balle que l’on connaisse en Mésoamérique. On comprend pourquoi quand on voit jusqu’où il s’étend.\n\nL’INAH le décrit avec plus de cent soixante-huit mètres de long sur soixante-dix de large. Une autre description, plus technique, donne une longueur totale de cent cinquante-deux mètres et demi, et une largeur d’environ soixante et onze. Le terrain proprement dit mesure une trentaine de mètres de large, et chaque mur latéral, environ quatre-vingt-seize mètres et demi. Les mesures varient selon ce que l’on mesure. Ce qui est sûr, c’est qu’il est immense.\n\nIl a été construit vers l’an neuf cent, au Classique terminal. C’était une époque où plusieurs villes mayas du nord sont passées du pouvoir d’un seul gouvernant à un conseil de nobles. C’est le principal des treize jeux de balle documentés à Chichén Itzá. Une inscription sur une pierre circulaire donne la date du dix-sept novembre de l’an huit cent soixante-quatre, selon une lecture de la chercheuse Ruth Krochock, et certains y ont vu la dédicace du terrain. Pourtant, des études estiment que le terrain a été construit vers l’an neuf cent, peut-être sur un autre plus ancien.\n\nL’ensemble comprend quatre grandes structures. À l’est et à l’ouest se dressent deux longues plateformes dotées de banquettes, qui portent les reliefs. À l’arrière de ces plateformes, des escaliers montent vers cinq petits temples et vers le Temple supérieur des Jaguars. Et aux extrémités du terrain se trouvent deux autres temples, le Nord et le Sud.\n\nRegardez les anneaux. Ils sont sur les murs latéraux, très haut au-dessus du sol. L’INAH enregistre un anneau à environ huit mètres. Y sont sculptés deux serpents à sonnette à plumes qui s’entrelacent autour de six cercles concentriques. L’INAH rappelle que l’on a cru que les joueurs essayaient de faire passer la balle de caoutchouc par l’anneau, et que l’image pourrait symboliser un portail vers le monde souterrain et un cycle de mort et de renaissance. Un anneau sculpté est exposé aujourd’hui au Grand Musée de Chichén Itzá, dans l’enceinte de la zone archéologique.\n\nUne idée importante se cache derrière tout cela. La spécialiste Linda Schele soutenait que le jeu de balle n’était pas un sport, mais une affaire sérieuse, liée à la continuité de l’État et au contact avec l’autre monde. C’est pourquoi les reliefs des banquettes parlent de sacrifice, et les anneaux, du monde souterrain.\n\nIl reste une pièce de plus pour comprendre le lieu. Les archéologues ont fouillé une section d’environ quatre-vingt-dix mètres de la muraille qui entourait le centre cérémoniel, juste entre ce terrain et l’entrée piétonne ouest. Une hypothèse propose que le Jeu de balle ait été édifié après cette muraille et après le Temple inférieur des Jaguars.\n\nQuand vous aurez terminé, passez à la prochaine étape de votre parcours. Les banquettes ornées de reliefs se trouvent à la base des murs, au ras du sol."
+    },
+    "retos_observacion": {
+      "hash": "0a341eec1b3d84d1",
+      "texto": [
+        "Regardez vers les murs latéraux et repérez les anneaux de pierre, à de nombreux mètres au-dessus du sol",
+        "Mesurez du regard la longueur du terrain, d’une extrémité à l’autre",
+        "Repérez les deux temples des extrémités, le Nord et le Sud, ainsi que la plateforme latérale avec ses banquettes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "54ec939de8bbf154",
+      "texto": {
+        "Longueur et largeur": "plus de 168 × 70 mètres selon l’INAH ; une autre description donne environ 152,5 × 70,75 mètres",
+        "Époque": "vers l’an 900, Classique terminal",
+        "Anneaux": "à environ 8 mètres au-dessus du sol, avec deux serpents à plumes entrelacés",
+        "Structures": "deux plateformes latérales avec banquettes, cinq petits temples, le Temple supérieur des Jaguars et les temples Nord et Sud",
+        "Terrains documentés à Chichén Itzá": "13",
+        "Musée": "un anneau sculpté est exposé au Grand Musée de Chichén Itzá"
+      }
+    },
+    "faq_mito": {
+      "hash": "e8e01786bc275d1d",
+      "texto": {
+        "pregunta": "Mythe : Dans le jeu de balle maya, on jouait pour faire passer la balle dans l’anneau, comme dans un sport moderne.",
+        "respuesta": "Réalité : Les anneaux sont interprétés comme des portails vers le monde souterrain. La spécialiste Linda Schele soutenait que le jeu « n’était pas un sport », mais quelque chose de lié à l’État et à l’autre monde."
+      }
+    }
+  }
+}

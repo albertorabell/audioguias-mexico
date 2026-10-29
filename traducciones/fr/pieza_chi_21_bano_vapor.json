@@ -1,0 +1,60 @@
+{
+  "id": "chi_21_bano_vapor",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "31bb3efa0b8f36e9",
+      "texto": "Le bain de vapeur (temazcal)"
+    },
+    "frase_gancho": {
+      "hash": "250da0e0ff9176c4",
+      "texto": "Un bain de vapeur maya : une salle d’attente, un bain d’eau et une chambre chauffée avec des pierres."
+    },
+    "puente_narrativo": {
+      "hash": "1f86bb6cc3dd0b82",
+      "texto": "Regardez depuis l’extérieur l’entrée du bain et ses trois parties. Quand vous aurez terminé, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "5445090daa857d6d",
+      "texto": "Ceci est un bain de vapeur, qui s’appelle pibná en maya yucatèque et temazcal en nahuatl. Il comporte trois parties : une galerie d’attente, un bain d’eau et une chambre de vapeur chauffée avec des pierres. Il fonctionnait comme un petit sauna : on chauffait des pierres dans un foyer et on versait de l’eau dessus pour produire de la vapeur. Il se trouve dans le groupe des Mille Colonnes et c’est le seul bain de vapeur situé sur le Grand Nivellement. Les spécialistes pensent que ces bains ont pu avoir des usages rituels, curatifs ou de repos, et qu’ils servaient aux élites."
+    },
+    "guion_largo": {
+      "hash": "22758c04d2725d89",
+      "texto": "Un temazcal est un bain de vapeur. Le mot est d’origine nahuatl. En maya yucatèque, le bain de vapeur s’appelle pibná, et pib, selon le Diccionario Maya Cordemex, signifie bain d’eau chaude et de vapeur d’eau. Un article de deux mille quatorze, publié dans la revue Estudios de Cultura Maya, les décrit comme l’un des types d’édifice les plus singuliers et les moins étudiés de la civilisation maya.\n\nPour comprendre ce que vous voyez, il est utile de savoir comment il fonctionnait. Selon une étude d’Antonio Benavides et Heber Ojeda, publiée par l’INAH en deux mille quinze, ces bains partagent cinq traits : un foyer qui chauffe des pierres, sur lesquelles on verse de l’eau pour produire de la vapeur ; une petite chambre qui retient la vapeur ; des banquettes ; un canal ou une pente dans le sol qui évacue l’eau en excès ; et une entrée basse et étroite qui empêche la chaleur de s’échapper. Parfois, il y avait des niches dans les murs et de petites fenêtres pour réguler la température.\n\nLes bains de vapeur sont très anciens dans le monde maya. Le plus ancien que l’on connaisse est celui de Cuello, au Belize, vers l’an neuf cents avant notre ère. Beaucoup furent construits vers la fin de la période Classique, entre les années huit cent cinquante et mille. Aujourd’hui, on en connaît un peu plus de cinquante dans toute l’aire maya.\n\nCelui de Chichén Itzá comporte trois parties. D’abord, il y a une galerie d’attente. Ensuite, un bain d’eau. Et au bout, une chambre de vapeur, que l’on chauffait avec des pierres. C’est un ordre logique : on attend, on se lave le corps et l’on entre dans la chaleur. L’étude de Benavides et Ojeda cite deux bains à Chichén Itzá, avec les codes trois E trois et trois C quinze, et affirme que leur espace intérieur avoisine les quinze mètres carrés, ce qui correspond à la moyenne de ces édifices. Une différence curieuse : les foyers de Chichén Itzá se trouvent dans une très petite chambre, contrairement à d’autres cités, où le foyer est placé sur le mur opposé à l’entrée.\n\nÀ quoi servaient-ils ? Les études proposent plusieurs usages. L’un est curatif : dans les traditions qui se sont conservées, le bain de vapeur rend la chaleur au corps et aide à chasser les fièvres par la sueur. Un autre est rituel : sur un autre site, Acanmul, on a proposé qu’il servait à purifier l’élite. Il a pu aussi être un lieu de repos. Ces bains étaient aux mains des élites qui les firent construire et faisaient partie des zones civiques et cérémonielles : ce n’était pas un service destiné à tout le peuple. À l’époque coloniale, de plus, on interdit de les utiliser pour le culte de divinités non chrétiennes.\n\nLes études ne s’accordent pas tout à fait sur le nombre de bains à Chichén Itzá. Une étude de deux mille seize affirme que le bain de vapeur du groupe des Mille Colonnes est le seul qui existe sur le Grand Nivellement, et que son accès est réservé, en sortant de la place vers l’est. C’est pourquoi il vaut mieux ne pas avancer de nombre de bains sur le site.\n\nIl n’y a pas non plus de dates précises : Benavides les situe seulement dans des centres cérémoniels de la période Classique. C’est l’une des étapes pour lesquelles on dispose de le moins de données de tout le parcours, mais vous savez au moins ce que vous regardez : un petit sauna de pierre, fait pour la chaleur, l’eau et la purification.\n\nQuand vous aurez fini de regarder, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "retos_observacion": {
+      "hash": "2c157897c3f33aaa",
+      "texto": [
+        "Cherchez l’entrée du bain et la galerie d’attente",
+        "Imaginez la chambre de vapeur, petite et chauffée avec des pierres",
+        "Pensez à l’ordre : attente, eau, chaleur",
+        "Demandez-vous pourquoi ces bains avaient l’entrée basse et étroite : pour que la chaleur ne s’échappe pas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4561c8ab83ec514b",
+      "texto": {
+        "Parties": "galerie d’attente, bain d’eau et chambre de vapeur avec des pierres chaudes",
+        "Fonctionnement": "un foyer chauffait des pierres et on versait de l’eau dessus pour produire de la vapeur",
+        "Espace intérieur": "environ 15 m² (moyenne de ces bains, selon Benavides et Ojeda)",
+        "Emplacement": "groupe des Mille Colonnes (González et al., 2016)",
+        "Nom maya": "pibná (pluriel pibnaob)",
+        "Bains de vapeur connus dans l’aire maya": "un peu plus de 50",
+        "Le plus ancien connu": "Cuello, Belize, vers 900 av. J.-C.",
+        "Usages proposés": "rituel, curatif ou de repos, au service des élites",
+        "Dates à Chichén Itzá": "pas de donnée précise"
+      }
+    },
+    "faq_mito": {
+      "hash": "24233368d642b3f0",
+      "texto": {
+        "pregunta": "Mythe : Ces bains étaient des lieux de toilette pour tout le peuple.",
+        "respuesta": "Réalité : Les études les associent aux élites et à des usages rituels, curatifs ou de repos, et non à un usage quotidien de toute la population."
+      }
+    }
+  }
+}

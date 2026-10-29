@@ -1,0 +1,56 @@
+{
+  "id": "chi_04_subestructura_castillo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1ac227c526f6584b",
+      "texto": "Le temple caché, le trône du jaguar et le cénote sous le Château"
+    },
+    "frase_gancho": {
+      "hash": "bf81af0d4d048aa7",
+      "texto": "Dans la pyramide se cache une autre pyramide, avec un trône de jaguar rouge, et en dessous, selon l’UNAM, une cavité contenant de l’eau."
+    },
+    "puente_narrativo": {
+      "hash": "49b1f21d9326a11b",
+      "texto": "Restez devant la pyramide : ce que raconte cet arrêt se trouve à l’intérieur et au-dessous. Quand vous aurez terminé, passez à l’arrêt suivant de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "263391c9c6d6c4d4",
+      "texto": "Cette pyramide en cache une autre. En mille neuf cent trente et un, des archéologues ont commencé à explorer l’intérieur pour prouver que le Château s’était élevé sur un temple plus ancien. Et ils l’ont trouvé. Dans sa chambre se trouvaient un Chac Mool aux ongles, aux dents et aux yeux de nacre, et un trône en forme de jaguar peint en rouge au cinabre, avec des incrustations de jade. Aujourd’hui, cet intérieur est fermé au public depuis environ deux mille six. Et ce n’est pas tout. En deux mille quinze, des chercheurs de l’UNAM et de l’INAH ont signalé, grâce à une technique appelée tomographie électrique, une cavité contenant de l’eau sous la pyramide, sans extraire une seule pierre."
+    },
+    "guion_largo": {
+      "hash": "c1dd9e878c89fd92",
+      "texto": "Ce que vous voyez n’est que la couche extérieure. À l’intérieur du Château se trouve un temple plus ancien, et en dessous, une énigme d’eau.\n\nCommençons par l’intérieur. En avril mille neuf cent trente et un, des archéologues ont commencé à explorer l’édifice pour vérifier une idée : cette pyramide avait été construite sur une autre. Ils avaient raison. À l’intérieur se trouve un temple antérieur, d’environ trente-trois mètres de large et d’environ dix-sept de haut jusqu’à la base de son temple. Sa date est incertaine. Une estimation le situe entre les années six cents et huit cents.\n\nDans cette pyramide intérieure sont apparues deux chambres. En avril mille neuf cent trente-cinq, on y a trouvé un Chac Mool, une figure semi-allongée qui tient un récipient sur le ventre. Les yeux, les ongles et les dents étaient incrustés de nacre. En août mille neuf cent trente-six, on a trouvé une autre salle, à quelques mètres de la première. On l’a appelée la Chambre des Sacrifices. Elle contenait deux rangées d’ossements humains et une sculpture de jaguar rouge.\n\nCette sculpture est le Trône du Jaguar rouge. Des analyses ultérieures par fluorescence des rayons X ont détecté que la peinture rouge contient du cinabre, un minéral de mercure. On croyait que les taches de la peau étaient des disques de silex, mais il s’est avéré qu’elles étaient en jadéite, une variété de jade. Les crocs sont des coquilles d’escargot de mer. Depuis deux mille six, l’intérieur est fermé au public, et le trône n’est pas exposé.\n\nVoyons maintenant l’eau. L’Université nationale autonome du Mexique et l’INAH ont signalé en deux mille quinze une découverte sous la pyramide. Une équipe de l’Institut de géophysique, dirigée par René Chávez, avec l’ingénieur Andrés Tejero et l’archéologue Denisse Argote, a utilisé une technique appelée tomographie de résistivité électrique tridimensionnelle. Elle consiste à envoyer du courant dans le sol et à mesurer sa réponse. Pour ne pas abîmer les sols anciens, ils ont utilisé quatre-vingt-seize plaques plates, collées avec du gel médical. Les résultats ont été publiés dans la revue Scientific Reports.\n\nCe qu’ils ont détecté est une cavité remplie d’eau douce. Selon la Gazette de l’UNAM, elle se trouve à environ huit mètres sous la pyramide. D’autres informations de deux mille quinze ont donné des chiffres plus importants, d’environ vingt mètres de profondeur et une taille de vingt-cinq sur trente-cinq. Les chiffres ne concordent pas, aussi vaut-il mieux s’en tenir à l’essentiel : il y a des indices d’une masse d’eau sous le Château. Personne ne l’a fouillée.\n\nLe chercheur Chávez a mentionné qu’il pourrait y avoir un système avec des entrées et des sorties d’eau. Certains archéologues pensent qu’il pourrait être relié aux cénotes Xtoloc et Sacré. Cela n’a pas encore été prouvé.\n\nAvec la sous-structure, le jaguar et l’eau, la pyramide prend un sens plus profond. C’est un édifice qui monte vers le ciel, mais qui s’appuie aussi sur l’eau du monde souterrain.\n\nQuand vous aurez terminé ici, passez à l’arrêt suivant de votre parcours."
+    },
+    "retos_observacion": {
+      "hash": "acc04f90321bf734",
+      "texto": [
+        "Cherchez, à l’angle nord-est de l’escalier nord, le passage qui a été ouvert dans les années trente pour explorer l’intérieur",
+        "Imaginez, à l’intérieur de la pyramide, le trône de jaguar rouge avec ses taches de jade et ses crocs de coquillage",
+        "Songez que, selon l’UNAM, sous le sol que vous foulez se trouve une cavité contenant de l’eau"
+      ]
+    },
+    "especificaciones": {
+      "hash": "32412be0b5bfe96e",
+      "texto": {
+        "Sous-structure": "temple antérieur d’environ 33 m de large et d’environ 17 m de haut jusqu’à la base du temple ; sa date est incertaine",
+        "Exploration": "depuis avril 1931",
+        "Chac Mool": "découvert en avril 1935, avec des yeux, des ongles et des dents de nacre",
+        "Trône du Jaguar rouge": "peinture au cinabre, taches de jadéite et crocs de coquillage",
+        "Étude par tomographie électrique": "UNAM et INAH, 2015 ; publiée dans Scientific Reports",
+        "Accès": "l’intérieur est fermé au public depuis environ 2006"
+      }
+    },
+    "faq_mito": {
+      "hash": "0fbd8b801250570d",
+      "texto": {
+        "pregunta": "Mythe : Il existe un tunnel ouvert par lequel on peut descendre au cénote qui se trouve sous le Château.",
+        "respuesta": "Réalité : La cavité contenant de l’eau a été détectée par des études menées depuis la surface et personne ne l’a fouillée. L’intérieur de la pyramide est fermé au public."
+      }
+    }
+  }
+}

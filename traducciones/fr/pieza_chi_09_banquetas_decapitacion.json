@@ -1,0 +1,56 @@
+{
+  "id": "chi_09_banquetas_decapitacion",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fabb47fec5083adf",
+      "texto": "Les panneaux de la décapitation"
+    },
+    "frase_gancho": {
+      "hash": "e6da41f967a5b673",
+      "texto": "Six panneaux répètent la même scène : un joueur tenant la tête d’un autre, et six serpents de sang."
+    },
+    "puente_narrativo": {
+      "hash": "2be332556f9c70a3",
+      "texto": "Penchez-vous près des banquettes et parcourez les scènes du regard. Quand vous aurez terminé, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "fbf9d78e9b3ebee4",
+      "texto": "Penchez-vous près de la base des plateformes latérales. Sur les banquettes, une scène se répète six fois, trois de chaque côté. Ce sont deux équipes de joueurs avec leurs capitaines, et une grande balle de silex au centre, avec un crâne à l’intérieur. D’un côté de la scène, un joueur tient la tête coupée d’un autre, qui est agenouillé et saigne. Le sang jaillit sous la forme de six serpents, et une plante pousse entre eux. Les spécialistes ne s’accordent pas sur la question de savoir si le décapité était le vainqueur ou le perdant. Une spécialiste voit dans cette scène un arbre du monde. Les détails continuent d’être étudiés."
+    },
+    "guion_largo": {
+      "hash": "08c73639da6b2e35",
+      "texto": "Vous vous trouvez devant la scène la plus célèbre du Grand Jeu de balle. Elle se répète six fois, trois sur chaque plateforme latérale.\n\nSelon l’archéologue Adriana Velázquez Morlet, la scène montre un jeu cérémoniel entre deux équipes de six joueurs, auxquels s’ajoutent leurs capitaines. Au centre se trouve une grande balle de silex avec un crâne à l’intérieur. Ce crâne parle, et l’auteure l’identifie comme un way, un esprit compagnon, à cause de la mèche de cheveux qu’il porte sur la tête.\n\nD’un côté de la scène, un joueur tient la tête coupée d’un autre. De l’autre côté, le capitaine décapité apparaît agenouillé et en sang. De son cou jaillissent six serpents, et l’auteure les identifie à un type de serpent appelé wak kan, qui représenterait l’arbre du monde. Entre les serpents pousse une plante de courge, que Linda Schele a elle aussi lue comme un arbre du monde. Les autres joueurs observent la scène, et des volutes autour d’eux suggèrent qu’ils chantaient ou récitaient.\n\nUne question reste ouverte : qui est le décapité. Velázquez Morlet lit celui qui tient la tête comme le vainqueur et le décapité comme le vaincu. Mais les spécialistes ne s’accordent pas sur la question de savoir si le sacrifié était le gagnant ou le perdant du jeu, et aucune réponse n’est acceptée par tous.\n\nUn autre spécialiste, Enrique Vela, dit quelque chose de semblable : que les reliefs des banquettes montrent des scènes de sacrifice de joueurs.\n\nIl faut dire clairement qu’il s’agit d’une lecture, et que les détails de la scène continuent d’être étudiés. Ce que vous voyez est une image puissante : une scène de sacrifice associée à l’idée de renaissance, car du sang jaillit une plante. C’est pourquoi on parle souvent du jeu comme d’une façon de demander la fertilité et de maintenir l’ordre du monde.\n\nCette scène n’est pas la seule. Dans le Temple Nord, à l’extrémité du terrain, se trouve un autre panneau comptant plus de quarante figures. Et les anneaux que vous avez vus à l’étape précédente présentent des serpents entrelacés, comme ceux-ci.\n\nPrenez un moment pour regarder les détails. Vous verrez les visages de profil, les coiffures, les parures du cou, les plis des vêtements. Ce sont des reliefs réalisés avec beaucoup de soin, et on les lit encore bien que la pierre ait perdu sa peinture.\n\nQuand vous serez prêt, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "retos_observacion": {
+      "hash": "327146aa12ebd663",
+      "texto": [
+        "Cherchez la grande balle de silex au centre de la scène, avec le crâne à l’intérieur",
+        "Repérez les six serpents qui jaillissent du cou du capitaine agenouillé",
+        "Observez la plante qui pousse entre les serpents, symbole de renaissance"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e06dbf56dd289a7a",
+      "texto": {
+        "Scène": "se répète six fois, trois sur chaque plateforme latérale",
+        "Joueurs": "deux équipes de six, plus leurs capitaines",
+        "Élément central": "une grande balle de silex avec un crâne qui parle",
+        "Sang": "six serpents wak kan ; entre eux pousse une plante de courge",
+        "Lecture": "Adriana Velázquez Morlet",
+        "Interprétation": "il s’agit de la lecture d’une spécialiste et les détails continuent d’être étudiés"
+      }
+    },
+    "faq_mito": {
+      "hash": "c20655e7987bb040",
+      "texto": {
+        "pregunta": "Mythe : On sait avec certitude que le décapité des panneaux était le perdant du jeu.",
+        "respuesta": "Réalité : Les spécialistes ne s’accordent pas sur la question de savoir si le décapité était le vainqueur ou le perdant. La lecture de Velázquez Morlet voit le vainqueur tenant la tête du vaincu, mais les détails de la scène continuent d’être étudiés."
+      }
+    }
+  }
+}

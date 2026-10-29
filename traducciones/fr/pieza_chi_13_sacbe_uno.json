@@ -1,0 +1,56 @@
+{
+  "id": "chi_13_sacbe_uno",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b2a51451617dbeb9",
+      "texto": "Le Sacbé numéro 1"
+    },
+    "frase_gancho": {
+      "hash": "2969530dd5e5f238",
+      "texto": "Un chemin blanc de pierre, droit et surélevé, qui mène de la place au bord de l’eau sacrée."
+    },
+    "puente_narrativo": {
+      "hash": "b36faea0950c1878",
+      "texto": "Suivez la chaussée jusqu’au bout. Là, entre les arbres, se trouve le [Cenote sacré](chi_14_cenote_sagrado), le puits le plus célèbre de Chichén Itzá."
+    },
+    "guion_corto": {
+      "hash": "1b0bf67611f67142",
+      "texto": "Vous vous trouvez sur un sacbé, un mot maya qui signifie chemin blanc. C’est une chaussée surélevée en pierre calcaire, la plus grande et la plus élaborée du site : elle mesure environ deux cent soixante-dix mètres de long et neuf mètres de large en moyenne. D’autres mesures donnent environ trois cents mètres. Elle relie la place principale au Cenote sacré. Pendant que vous marchez, pensez à ceux qui l’ont parcourue : des prêtres, des gouvernants, et peut-être des visiteurs venus de terres lointaines, car les offrandes retrouvées dans le cenote comprennent de l’or, du cuivre et du jade qui ne proviennent pas du Yucatán."
+    },
+    "guion_largo": {
+      "hash": "d1059db2ffaeea2c",
+      "texto": "Un sacbé est un chemin, mais c’est aussi une idée. En maya, sacbé signifie chemin blanc. C’étaient des chaussées surélevées, en pierre, qui reliaient des groupes d’édifices.\n\nVoici le Sacbé numéro un, la chaussée la plus grande et la plus élaborée de Chichén Itzá. Il mesure environ deux cent soixante-dix mètres de long et neuf mètres de large en moyenne. D’autres mesures donnent environ trois cents mètres. La différence vient sûrement de la façon de mesurer, et mieux vaut retenir qu’il est long, droit et large.\n\nSa fonction était de relier. À une extrémité se trouve la grande place, avec le Castillo et le Jeu de balle. À l’autre, le Cenote sacré. Il est probable que des processions soient passées par ici. L’archéologie ne peut pas l’affirmer, mais la forme du chemin le suggère : droit, surélevé et dirigé vers une destination.\n\nEt cette destination explique beaucoup de choses. Le Cenote sacré a reçu des offrandes pendant des siècles. On y trouve de l’or, du cuivre et du jade. Aucun de ces matériaux n’existe à l’état naturel au Yucatán, si bien qu’ils sont arrivés d’autres régions d’Amérique centrale. Cela signifie que ce chemin est aussi relié à un monde bien plus vaste. Lorsque l’on dit que Chichén Itzá était un centre de pèlerinage, c’est l’un des indices.\n\nIl faut aussi se méfier d’une idée très répétée : que tout ce chemin était uniquement cérémoniel. Peut-être l’était-il en partie. Mais les sacbés reliaient aussi entre elles des zones de la cité. Les deux fonctions ne s’excluent pas.\n\nCe chemin est une bonne occasion de réfléchir à l’échelle du site. Depuis la place, on ne voit pas le cenote. Il faut parcourir quelques centaines de mètres, entre les arbres, pour y arriver. Cette distance fait partie de l’expérience : on quitte l’espace ouvert pour entrer dans un espace plus fermé.\n\nMarchez calmement jusqu’au bout. Là vous attend le [Cenote sacré](chi_14_cenote_sagrado), un puits naturel de soixante mètres de diamètre."
+    },
+    "retos_observacion": {
+      "hash": "f9eca1067d4b4565",
+      "texto": [
+        "Observez à quel point le chemin est droit et surélevé par rapport au terrain de chaque côté",
+        "Regardez la pierre du sol : c’est du calcaire, et c’est pourquoi le chemin est dit blanc",
+        "En avançant, remarquez comment l’espace se referme avec les arbres jusqu’à ce que le bord du cenote apparaisse"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e0232a33e69ff209",
+      "texto": {
+        "Nom": "sacbé, « chemin blanc » en maya",
+        "Longueur": "environ 270 mètres (d’autres mesures donnent environ 300)",
+        "Largeur": "environ 9 mètres en moyenne",
+        "Relie": "la place principale au Cenote sacré",
+        "Importance": "c’est la chaussée la plus grande et la plus élaborée de Chichén Itzá",
+        "Donnée associée": "les offrandes du cenote comprennent de l’or, du cuivre et du jade qui ne proviennent pas du Yucatán"
+      }
+    },
+    "faq_mito": {
+      "hash": "3e1675f174763f4b",
+      "texto": {
+        "pregunta": "Mythe : les sacbés n’étaient que des chemins pour les processions religieuses.",
+        "respuesta": "Réalité : il est probable qu’ils aient servi lors de rituels, mais ils reliaient aussi des zones du site. Les deux fonctions ne s’excluent pas."
+      }
+    }
+  }
+}

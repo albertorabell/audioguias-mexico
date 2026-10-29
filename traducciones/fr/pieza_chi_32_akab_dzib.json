@@ -1,0 +1,57 @@
+{
+  "id": "chi_32_akab_dzib",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d56b03a259b5f440",
+      "texto": "L’Akab Dzib"
+    },
+    "frase_gancho": {
+      "hash": "5b42bf3a629cd747",
+      "texto": "La maison de l’écriture mystérieuse : cinquante mètres de long et un linteau que personne n’oublie."
+    },
+    "puente_narrativo": {
+      "hash": "f549109391a8d021",
+      "texto": "Quand vous aurez fini de regarder l’édifice, poursuivez avec la prochaine étape de votre parcours. Le Vieux Chichén, au sud-ouest, se visite à part : uniquement le vendredi et le samedi, sur réservation et avec un guide de l’INAH."
+    },
+    "guion_corto": {
+      "hash": "7191c6faeddf380d",
+      "texto": "Akab Dzib signifie maison de l’écriture mystérieuse ou obscure. C’est un édifice de style Puuc, d’environ six mètres de haut, cinquante de long et quinze de large, daté de l’an huit cent soixante-neuf environ. Il possède sept portes sur la façade ouest et quatre sur la façade est. Dans une pièce à l’extrémité sud, un linteau orné de hiéroglyphes sculptés lui a donné son nom. Près du plafond, à l’intérieur d’une chambre, on conserve l’empreinte peinte d’une main."
+    },
+    "guion_largo": {
+      "hash": "fd2f7a7f03f2c0e1",
+      "texto": "Le nom dit tout : Akab Dzib, ou Akab Tzib, est la maison de l’écriture mystérieuse.\n\nL’édifice se trouve à l’est de l’Escargot. Il est de style Puuc, d’environ six mètres de haut, cinquante de long et quinze de large. Sa date avoisine l’an huit cent soixante-neuf. Sur la façade ouest, qui est la plus longue, il y a sept portes. Sur la façade est, il y en a quatre, interrompues par un grand escalier qui monte jusqu’au toit. On suggère que ce côté était la façade principale, parce qu’il donne sur un cénote à sec aux parois abruptes.\n\nÀ l’extrémité sud, une entrée mène à une petite pièce. De l’autre côté, une porte est surmontée d’un linteau orné de glyphes finement sculptés. C’est cette écriture mystérieuse qui lui donne son nom. Sous le linteau, sur le piédroit, se trouve un panneau représentant un personnage assis entouré de glyphes. Dans l’une des chambres, près du plafond, on voit une empreinte de main peinte.\n\nL’édifice a eu un autre nom ancien. À partir des hiéroglyphes de la Maison Rouge, on l’a lu Wakwak Puh Ak Na, ce qui signifie, avec une certaine liberté, la maison plate avec excès de chambres. On dit qu’il fut la maison de Yahawal Cho' K'ak', administrateur de Chichén Itzá de la dynastie Kokom. On ne sait pas clairement s’il l’a fait construire ou s’il l’a habitée par la suite.\n\nL’INAH a achevé une restauration en deux mille sept.\n\nQuand vous aurez terminé, poursuivez avec la prochaine étape de votre parcours. Le Vieux Chichén, au sud-ouest, se visite à part, avec un guide de l’INAH et uniquement le vendredi et le samedi."
+    },
+    "retos_observacion": {
+      "hash": "a8214c3aa0d64751",
+      "texto": [
+        "Comptez les portes de la façade longue : il y en a sept du côté ouest",
+        "Cherchez l’escalier du côté est qui monte jusqu’au toit",
+        "Repérez, si vous parvenez à le voir, le linteau orné de hiéroglyphes à l’extrémité sud"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4201c25d1b38410c",
+      "texto": {
+        "Dimensions": "environ 6 m de haut, 50 m de long et 15 m de large",
+        "Date": "vers l’an 869",
+        "Style": "Puuc",
+        "Portes": "7 sur la façade ouest, 4 sur la façade est",
+        "Ancien nom": "Wakwak Puh Ak Na, « maison plate avec excès de chambres »",
+        "Restauration": "INAH, 2007",
+        "Code de la structure": "4D1"
+      }
+    },
+    "faq_mito": {
+      "hash": "b04f59e330a40515",
+      "texto": {
+        "pregunta": "Mythe : Personne n’a pu lire l’écriture de l’Akab Dzib, car c’est un code secret.",
+        "respuesta": "Réalité : Le nom dit « écriture mystérieuse », mais il s’agit d’un texte hiéroglyphique maya. Rien ne permet de penser qu’il soit indéchiffrable."
+      }
+    }
+  }
+}

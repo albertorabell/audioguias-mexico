@@ -1,0 +1,56 @@
+{
+  "id": "chi_20_templo_mesas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1b9e78d71fe5518f",
+      "texto": "Temple des Grandes Tables"
+    },
+    "frase_gancho": {
+      "hash": "351b4ce108ae3a38",
+      "texto": "Une pyramide à quatre corps dont les pilastres conservent encore leur peinture."
+    },
+    "puente_narrativo": {
+      "hash": "93ca4a279e253701",
+      "texto": "Regardez le temple depuis l’extérieur. Lorsque vous aurez terminé, passez à la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "4d0afb88cfeaafb8",
+      "texto": "Voici le Temple des Grandes Tables, au nord du Temple des Guerriers. Il a été découvert lors des fouilles de mille neuf cent quatre-vingt-treize et quatre-vingt-quatorze, coordonnées par l’archéologue Peter Schmidt. Il comporte une base à quatre corps et un petit temple au sommet, avec une seule entrée, à l’ouest. Ses pilastres conservent presque entièrement leur finition peinte. Deux serpents ornent les extrémités des balustrades de l’escalier, des reliefs de guerriers occupent le centre, et une table soutenue par des atlantes se trouve à l’angle nord-est."
+    },
+    "guion_largo": {
+      "hash": "9bafe6b07128c633",
+      "texto": "Ce temple garde quelque chose que l’on ne voit presque jamais à Chichén Itzá : de la couleur.\n\nLe Temple des Grandes Tables se trouve au nord du Temple des Guerriers. Il a été découvert au cours des fouilles de mille neuf cent quatre-vingt-treize et quatre-vingt-quatorze, coordonnées par Peter Schmidt. C’est une construction pyramidale dotée d’une base à quatre corps et d’un petit temple dans la partie haute. Sa façade principale regarde vers l’ouest, et c’est le seul accès.\n\nCe qu’il y a de plus remarquable, ce sont ses pilastres. Ils conservent encore presque intégralement leur finition picturale, c’est-à-dire la peinture d’origine. Jusqu’à présent, seuls deux côtés de chaque pilastre ont été laissés visibles. Sur la plus grande partie de la place voisine, en revanche, les pilastres du Groupe des Mille Colonnes et du Marché ont perdu presque toute leur polychromie.\n\nLe décor comprend deux serpents aux extrémités des balustrades de l’escalier, des reliefs de guerriers au centre et une table soutenue par des atlantes à l’angle nord-est. C’est de là que vient le nom. Ce sont des autels posés sur de petites figures masculines, les bras levés. Dans la première voûte, on a trouvé une peinture murale représentant un serpent.\n\nNe confondez pas cet édifice avec le Temple des Petites Tables, que d’autres études situent près du Palais des Colonnes Sculptées.\n\nLorsque vous aurez terminé, passez à la prochaine étape de votre parcours."
+    },
+    "retos_observacion": {
+      "hash": "02dd50adcec16306",
+      "texto": [
+        "Comptez les corps de la base : il y en a quatre",
+        "Cherchez les serpents aux extrémités des balustrades, près de l’escalier",
+        "Regardez si vous distinguez des restes de peinture sur les pilastres"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bd8a76ef53f9f165",
+      "texto": {
+        "Emplacement": "au nord du Temple des Guerriers",
+        "Fouille": "1993-1994, coordonnée par Peter Schmidt",
+        "Forme": "base à quatre corps et petit temple ; un seul accès, à l’ouest",
+        "Pilastres": "conservent presque entièrement leur finition peinte",
+        "Décoration": "deux serpents sur les balustrades, guerriers au centre, table avec atlantes à l’angle nord-est",
+        "Découverte dans la voûte": "peinture murale représentant un serpent"
+      }
+    },
+    "faq_mito": {
+      "hash": "f990703cf60dbca1",
+      "texto": {
+        "pregunta": "Mythe : Tous les édifices de Chichén Itzá étaient en pierre grise, sans couleur.",
+        "respuesta": "Réalité : Il y avait de la peinture. Dans ce temple, les pilastres conservent presque entièrement leur finition peinte, ce qui est peu courant sur le site."
+      }
+    }
+  }
+}

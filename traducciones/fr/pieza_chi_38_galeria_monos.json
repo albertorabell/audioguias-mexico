@@ -1,0 +1,57 @@
+{
+  "id": "chi_38_galeria_monos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "abd897725ed4146e",
+      "texto": "La Galerie des Singes"
+    },
+    "frase_gancho": {
+      "hash": "a7bc72ae119bf235",
+      "texto": "Une galerie de trente-six mètres ornée de plus de soixante singes sculptés et d’oiseaux qui les attaquent."
+    },
+    "puente_narrativo": {
+      "hash": "7b2c809aa3a8afc3",
+      "texto": "La visite du Vieux Chichén s’achève ici. Quand vous aurez fini de regarder la galerie, retournez avec votre guide par le chemin d’entrée."
+    },
+    "guion_corto": {
+      "hash": "f32e69f40f82d29a",
+      "texto": "La Galerie des Singes, ou temple des Singes, se trouve du côté ouest de la place sud-ouest du Vieux Chichén. Elle mesure près de trente-six mètres de long sur cinq mètres et demi de large, et environ quatre mètres et demi de haut. Ses moulures portent plus de soixante singes en haut relief. La frise compte seize grands panneaux : six avec des seigneurs assis sur des bandes célestes, et dix avec des oiseaux qui attaquent des singes danseurs. L’un des seigneurs a été lu comme Dix Cerf."
+    },
+    "guion_largo": {
+      "hash": "93bd315f86679e93",
+      "texto": "Cette galerie explique son nom toute seule : il suffit de regarder la façade.\n\nSelon le rapport de Peter Schmidt et Rocío González de la Mata, de deux mille sept, la structure cinq C six se trouve du côté ouest de la place sud-ouest. Le Projet archéologique Chichén Itzá l’a fouillée et en partie restaurée entre mille neuf cent quatre-vingt-dix-neuf et deux mille cinq. Elle mesure près de trente-six mètres du nord au sud et cinq mètres quarante-cinq de large, avec une hauteur extérieure de quatre mètres et demi. Du côté est, ouvert sur la place, il y a neuf colonnes, et une seconde rangée de dix derrière. Karl Ruppert, en mille neuf cent cinquante-deux, n’en avait compté que huit.\n\nPour comprendre le nom, il suffit de voir ce qu’elle raconte. Plus de soixante singes en haut relief décorent les moulures. La frise compte seize grands panneaux. Sur six d’entre eux, des seigneurs importants sont assis sur des bandes célestes et tiennent des tiges qui se terminent en têtes de serpent. Leurs glyphes se lisent dix chien ou dix cerf, bien que les spécialistes laissent cette lecture assortie d’un point d’interrogation. Sur les dix autres panneaux, des figures d’hommes-oiseaux, peut-être déguisés, attaquent des singes qui dansent. Chaque angle porte deux masques superposés. Une étude de deux mille quatorze rapproche le seigneur du relief de Dix Cerf, l’occupant du rang le plus élevé du groupe.\n\nQuant à son usage, Schmidt et González de la Mata écartent l’explication la plus évidente. Les objets découverts ne correspondent ni à une maison, ni à un sanctuaire, ni à un poste militaire. Ils la comparent aux portiques de pèlerins de l’époque coloniale, des galeries où l’on logeait et où l’on travaillait, et proposent que le côté ouvert sur la place permettait de surveiller le travail depuis l’extérieur.\n\nLa galerie a connu une mauvaise fin. Les poutres de bois sont tombées et ont brûlé, et l’on juge probable que l’incendie ait été intentionnel. Ensuite, il y a eu une brève occupation. En surface, on a recueilli près de quatre mille cinq cents tessons, presque tous de la phase Sotuta.\n\nTout près, un chultún, c’est-à-dire une citerne creusée dans la roche, mesure environ cinq mètres de profondeur. Près du fond, six crânes sont apparus. On l’interprète comme un nettoyage précipité après un désastre.\n\nLa visite du Vieux Chichén s’achève ici. Retournez avec votre guide par le chemin d’entrée."
+    },
+    "retos_observacion": {
+      "hash": "5170575d86256d6e",
+      "texto": [
+        "Cherchez sur les moulures les singes en haut relief et comptez-en quelques-uns",
+        "Repérez la frise avec les oiseaux qui attaquent les singes et les seigneurs assis",
+        "Regardez les colonnes du côté ouvert sur la place : il y en a neuf"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c8060c9a73c89c9e",
+      "texto": {
+        "Structure": "5C6, côté ouest de la place sud-ouest",
+        "Dimensions": "près de 36 m de long, 5,45 m de large, 4,50 m de haut",
+        "Colonnes du côté est": "9, et une seconde rangée de 10",
+        "Frise": "16 panneaux ; 6 avec des seigneurs assis sur des bandes célestes et 10 avec des oiseaux attaquant des singes",
+        "Singes sur les moulures": "plus de 60",
+        "Travaux": "fouille et restauration partielle, 1999-2005",
+        "Personnage": "Dix Cerf (lecture avec point d’interrogation)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c259fa225bffe34a",
+      "texto": {
+        "pregunta": "Mythe : Les singes de la galerie étaient de vrais singes élevés dans le temple.",
+        "respuesta": "Réalité : Ce sont des reliefs. Plus de 60 singes décorent les moulures et la frise montre des oiseaux attaquant des singes danseurs."
+      }
+    }
+  }
+}

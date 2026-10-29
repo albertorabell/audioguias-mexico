@@ -1,0 +1,56 @@
+{
+  "id": "chi_26_cenote_xtoloc",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3d23ef01bc868fa3",
+      "texto": "Le cénote Xtoloc"
+    },
+    "frase_gancho": {
+      "hash": "943c2d93b5a65133",
+      "texto": "L’autre cénote de Chichén Itzá, que l’on a cru réservé à l’eau potable et qui fut peut-être bien davantage."
+    },
+    "puente_narrativo": {
+      "hash": "a8d9e98ffb3e296f",
+      "texto": "Penchez-vous avec précaution au bord du cénote. Quand vous aurez terminé, revenez par le chemin et poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "fd84ee3acdce473f",
+      "texto": "Voici le cénote Xtoloc, le deuxième plus grand de Chichén Itzá. Son nom vient d’un mot maya qui signifie iguane. Pendant longtemps, on a dit que le Cénote sacré était le cénote religieux et que celui-ci était le cénote profane, celui qui fournissait l’eau à la population. Aujourd’hui, plusieurs chercheurs affirment que cette séparation est trop simple. Une étude de deux mille dix-huit a trouvé des escaliers allant du chemin jusqu’à l’eau, des plateformes en maçonnerie et trois grottes dans la paroi Nord-Ouest. Le temple qui lui fait face possède des colonnes ornées de figures de guerriers."
+    },
+    "guion_largo": {
+      "hash": "0f57e8dfaa38f81a",
+      "texto": "Quand on pense aux cénotes de Chichén Itzá, on pense presque toujours au Cénote sacré. Celui-ci est l’autre, et son histoire aide à comprendre comment les idées changent.\n\nLe cénote Xtoloc est le deuxième plus grand du site. Son nom est tiré d’un mot maya qui désigne l’iguane. À côté s’élève le temple de Xtoloc, avec des pilastres sculptés de figures humaines, de plantes, d’oiseaux et de scènes mythologiques. Son entrée centrale regarde vers l’ouest, alignée avec le sacbé qui mène à l’Ossuaire, et l’autel intérieur présente des bas-reliefs de plantes, d’oiseaux et de scènes mythiques.\n\nPendant des décennies, une idée s’est répétée : le Cénote sacré était le lieu des rituels, et Xtoloc était le cénote profane, celui qui fournissait l’eau d’usage quotidien. Un résumé présenté en deux mille dix-huit par Cristina Verdugo, Jeremy Coltman, James Brady et Guillermo de Anda explique que cette supposition est devenue une vérité répétée, et que, pour cette raison, on lui a prêté peu d’attention. À titre d’exemple, le temple n’apparaît même pas sur la carte de l’Institution Carnegie, bien qu’Ann Axtell Morris y ait fouillé dans les années vingt.\n\nLorsque le projet Grand Aquifère Maya a passé en revue toutes les sources d’eau du site, il a trouvé des escaliers allant du sacbé jusqu’à l’eau, des plateformes en maçonnerie qui donnaient forme à l’espace et trois grottes dans la paroi Nord-Ouest du cénote. Un autre résumé, de Brian Waldo, datant de deux mille dix-neuf, affirme que séparer le sacré du profane est une idée simpliste, propre à notre culture. Il soutient que les sacbés reliaient les points d’eau au centre de la ville.\n\nCe sont des résumés de congrès, et non des articles publiés, si bien qu’il s’agit d’une piste de recherche en cours. Ils n’indiquent ni la profondeur du cénote ni quels objets ont été trouvés.\n\nLa leçon, c’est que l’eau de Chichén Itzá était à la fois pratique et sacrée. Quand vous aurez terminé, revenez par le chemin et poursuivez avec la prochaine étape de votre parcours."
+    },
+    "retos_observacion": {
+      "hash": "bed325aec35d6819",
+      "texto": [
+        "Cherchez le bord du cénote et observez la végétation qui pend au-dessus de l’eau",
+        "Repérez le temple qui lui fait face et ses pilastres ornés de figures",
+        "Pensez au chemin qui mène jusqu’ici depuis l’Ossuaire"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a36ffb04e66019c7",
+      "texto": {
+        "Taille": "deuxième plus grand cénote de Chichén Itzá",
+        "Nom": "du maya, « iguane »",
+        "Temple de Xtoloc": "pilastres avec des personnages, des plantes et des oiseaux ; entrée centrale à l’ouest",
+        "Découvertes du Grand Aquifère Maya": "escaliers depuis le sacbé, plateformes en maçonnerie, trois grottes dans la paroi Nord-Ouest",
+        "Fouille du temple": "Ann Axtell Morris, années vingt",
+        "Profondeur et objets": "aucune donnée publiée"
+      }
+    },
+    "faq_mito": {
+      "hash": "ce9d8e8343da4b48",
+      "texto": {
+        "pregunta": "Mythe : Le cénote Xtoloc n’était que le puits d’eau quotidien, sans aucune valeur rituelle.",
+        "respuesta": "Réalité : C’est une idée traditionnelle que plusieurs chercheurs remettent en question aujourd’hui. Ils ont trouvé des escaliers, des plateformes et des grottes qui suggèrent que le lieu a aussi été aménagé et entretenu de façon formelle."
+      }
+    }
+  }
+}

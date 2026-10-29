@@ -1,0 +1,56 @@
+{
+  "id": "chi_25_casa_venado_colorada",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e128551d4843eb2b",
+      "texto": "La Casa Colorada et la Casa del Venado"
+    },
+    "frase_gancho": {
+      "hash": "6f893303c47d49e9",
+      "texto": "Une maison qui conserve encore la trace de sa couleur, et une autre dont il ne reste que la moitié."
+    },
+    "puente_narrativo": {
+      "hash": "d7d58e3809fffd90",
+      "texto": "Poursuivez vers [El Caracol](chi_27_el_caracol), la tour ronde du côté est."
+    },
+    "guion_corto": {
+      "hash": "bd84eef619aa0c67",
+      "texto": "Vous voici devant la Casa Colorada, l’un des édifices les mieux conservés de Chichén Itzá. Au dix-neuvième siècle, on y voyait encore de la peinture rouge. Son nom maya est Chichanchob, que l’INAH rattache à de petits trous. Une inscription gravée porte une date qui correspond à l’année huit cent soixante-neuf, et mentionne des cérémonies du feu accomplies par les seigneurs sous la supervision du roi. À côté se trouve la Casa del Venado, très détériorée, qui doit son nom à une peinture de cerf qui n’existe plus."
+    },
+    "guion_largo": {
+      "hash": "c91ee1c27e6dddbf",
+      "texto": "Deux édifices voisins, aux destins très différents : l’un bien conservé et l’autre presque disparu.\n\nLa Casa Colorada est la plus grande et la mieux conservée des quatre édifices de cet ensemble. Son nom vient d’une bande rouge visible dans le vestibule, et au dix-neuvième siècle, on y voyait encore de la peinture rouge. En maya, on la connaît sous le nom de Chichanchob. L’INAH indique que ce nom pourrait signifier de petits trous, peut-être à cause des ouvertures que présente la crête du toit.\n\nÀ l’intérieur, un texte en hiéroglyphes porte une date qui se convertit en l’année huit cent soixante-neuf. Le texte parle de cérémonies du feu accomplies par les seigneurs sous la supervision du roi, et c’est l’une des dates les plus anciennes du site. C’est de ces mêmes hiéroglyphes qu’on a tiré un autre nom ancien pour l’Akab Dzib, que vous verrez plus loin. Derrière la maison, l’INAH a restauré en deux mille neuf un petit terrain de jeu de balle.\n\nÀ côté se trouve la Casa del Venado. Elle est très détériorée et seule une partie reste debout. Son nom vient, dit-on, d’une peinture de cerf qui n’existe plus. Son architecture ressemble beaucoup à celle de Chichanchob : une plateforme aux angles arrondis, une façade simple et une frise sans décoration. On a suggéré qu’il s’agissait probablement d’un ensemble résidentiel lié à l’Osario. C’est une hypothèse.\n\nPoursuivez maintenant vers [El Caracol](chi_27_el_caracol), une tour ronde élevée sur une plateforme."
+    },
+    "retos_observacion": {
+      "hash": "b64c3ff060b89ace",
+      "texto": [
+        "Cherchez les restes de peinture rouge dans le vestibule et la bande qui a donné son nom à la maison",
+        "Observez les ouvertures de la crête du toit, qui ont peut-être donné son nom à Chichanchob",
+        "Comparez la Casa Colorada, bien conservée, avec la Casa del Venado, dont il ne reste que la moitié"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ec4ab25cc2457b3",
+      "texto": {
+        "Nom maya": "Chichanchob, que l’INAH rattache à « de petits trous »",
+        "Date gravée": "correspond à l’année 869",
+        "Peinture rouge": "encore visible au XIXᵉ siècle",
+        "Restauration": "l’INAH a restauré en 2009 un petit terrain de jeu de balle derrière la maison",
+        "Casa del Venado": "très détériorée ; architecture proche de celle de Chichanchob",
+        "Usage proposé de la Casa del Venado": "ensemble résidentiel probablement lié à l’Osario (hypothèse)"
+      }
+    },
+    "faq_mito": {
+      "hash": "3a2a6cd3e6f1ff11",
+      "texto": {
+        "pregunta": "Mythe : La Casa Colorada s’appelle ainsi parce qu’elle est encore peinte en rouge.",
+        "respuesta": "Réalité : Le nom vient d’une bande rouge du vestibule. Au XIXᵉ siècle, de la peinture rouge était visible, mais il n’en reste aujourd’hui que très peu."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chi_02_castillo_general",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1bd1fd9856689c7d",
+      "texto": "Le Château (pyramide de Kukulcán)"
+    },
+    "frase_gancho": {
+      "hash": "53bb7013dd4d1a8b",
+      "texto": "Une pyramide de trente mètres qui mêle le calendrier, le ciel et l’eau cachée sous la terre."
+    },
+    "puente_narrativo": {
+      "hash": "9a6b239ee20123d4",
+      "texto": "Restez devant l’escalier nord, celui des têtes de serpent. Quand vous aurez fini de regarder, passez à l’étape suivante de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "2a2bff3292c10405",
+      "texto": "Vous êtes face au Château, le temple de Kukulcán, le Serpent à plumes. Il mesure environ vingt-quatre mètres de haut, et le temple du sommet en ajoute six autres. La base est un carré d’environ cinquante-cinq mètres de côté. Chacun des quatre escaliers compte à peu près quatre-vingt-onze marches. Si vous les additionnez, avec la plateforme du haut, vous obtenez trois cent soixante-cinq, comme les jours de l’année. Ce chiffre a fait penser à un calendrier de pierre, même si les spécialistes estiment que son lien avec les rituels compte plus que l’arithmétique. Depuis environ l’année deux mille six, l’INAH n’autorise plus à monter. Mais en faire le tour, c’est déjà une façon de le lire."
+    },
+    "guion_largo": {
+      "hash": "15b1351f42e928ea",
+      "texto": "Le Château est sans doute l’édifice le plus photographié du Mexique. Mais il convient de le regarder lentement, car chacune de ses mesures semble parler de temps et de cosmos.\n\nCommençons par les chiffres. Le corps de la pyramide mesure environ vingt-quatre mètres, et le temple du sommet en ajoute environ six, pour un total d’environ trente. La base est un carré de cinquante-cinq mètres trente centimètres. Chaque côté possède un escalier d’à peu près quatre-vingt-onze marches. Avec la plateforme supérieure comme dernière marche, le compte arrive à trois cent soixante-cinq. Le côté sud est très érodé, et c’est pourquoi ce chiffre est approximatif. Et même si ce nombre rappelle l’année solaire de trois cent soixante-cinq jours, il se rattache probablement surtout aux rituels.\n\nD’autres explications circulent beaucoup. On dit souvent que les neuf terrasses, coupées en deux par les escaliers, forment dix-huit sections, comme les dix-huit mois du calendrier solaire maya, et que chaque face compte cinquante-deux panneaux, comme les années du cycle de la roue calendaire. Ce sont des lectures très répétées, et il vaut la peine de les écouter comme des interprétations, non comme des données mesurées.\n\nIl y a un autre indice dans son orientation. La pyramide n’est pas alignée exactement sur les points cardinaux. Une explication propose que sa face principale pointe vers deux couchers de soleil, le vingt mai et le vingt-quatre juillet. Entre l’un et l’autre s’écoulent soixante-cinq et trois cents jours, des multiples de treize et de vingt, qui sont les nombres du calendrier rituel. Un autre temple, celui de Tulum, marque les mêmes dates, et la coïncidence des autres faces avec le zénith et le nadir est probablement fortuite.\n\nOn discute aussi de la date de sa construction. On parle des huitième au douzième siècles, et pour la dernière étape il y a deux estimations : entre l’an neuf cent et l’an mille, ou le onzième siècle. Il n’existe pas de date unique et sûre.\n\nSon histoire récente compte elle aussi. L’Institut Carnegie a demandé l’autorisation de travailler en mille neuf cent vingt-quatre et a commencé la restauration en mille neuf cent vingt-sept, avec des archéologues mexicains. Dans les années trente, pour entrer explorer l’intérieur, on a ouvert un passage à l’angle nord-est de l’escalier nord. Pendant des années, les touristes ont aussi pu monter. Vers deux mille six, après la chute mortelle d’une visiteuse, l’INAH a fermé la montée. Aujourd’hui, vous pouvez faire le tour de l’édifice, mais ni le gravir ni y entrer.\n\nEt il y a encore plus en dessous. Cette pyramide en renferme une autre, plus ancienne, et dessous se trouve une cavité remplie d’eau. Une partie de cette histoire est racontée à d’autres étapes du parcours.\n\nPour l’instant, restez ici un moment et regardez l’escalier nord, celui des têtes de serpent."
+    },
+    "retos_observacion": {
+      "hash": "814b6c43c5a59b61",
+      "texto": [
+        "Repérez les deux têtes de serpent en pierre au pied de l’escalier nord",
+        "Comptez les neuf corps à gradins : les escaliers les partagent en deux et forment dix-huit sections",
+        "Faites le tour de l’édifice et comparez le côté sud, plus érodé, avec la face nord"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5dc286df61145e29",
+      "texto": {
+        "Hauteur": "environ 24 m de soubassement plus 6 m pour le temple, environ 30 m au total",
+        "Base": "carrée, 55,3 m de côté",
+        "Marches": "environ 91 par côté ; avec la plateforme supérieure, elles totalisent 365 (approximatif)",
+        "Époque": "entre les VIIIe et XIIe siècles ; la dernière étape est estimée vers 900-1000 ou au XIe siècle",
+        "Restauration": "depuis 1927, avec l’Institut Carnegie et des archéologues mexicains",
+        "Accès": "depuis environ 2006, il est interdit de monter et d’entrer"
+      }
+    },
+    "faq_mito": {
+      "hash": "dafe28e71e1d6526",
+      "texto": {
+        "pregunta": "Mythe : On peut monter au sommet du Château et entrer dans son temple intérieur.",
+        "respuesta": "Réalité : Depuis environ 2006, l’INAH a fermé la montée et l’entrée de la pyramide. On peut en faire le tour et la regarder de près, mais pas y monter."
+      }
+    }
+  }
+}

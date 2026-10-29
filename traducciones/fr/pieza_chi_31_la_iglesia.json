@@ -1,0 +1,57 @@
+{
+  "id": "chi_31_la_iglesia",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f731c9e645f7a9ce",
+      "texto": "L’Église"
+    },
+    "frase_gancho": {
+      "hash": "4b93a4804689435d",
+      "texto": "Un temple d’une seule salle, orné de trois masques de Chaac et de quatre figures qui portent le ciel."
+    },
+    "puente_narrativo": {
+      "hash": "af0e04c2f847a9a7",
+      "texto": "Poursuivez vers l’est et arrêtez-vous à l’[Akab Dzib](chi_32_akab_dzib), la maison de l’écriture obscure."
+    },
+    "guion_corto": {
+      "hash": "67635864737aeca3",
+      "texto": "Voici l’Église, un petit temple voisin des Nonnes. Il compte une seule salle voûtée et une seule porte, avec sa façade tournée vers l’ouest. Il ressemble à une chapelle rectangulaire, d’où son nom. Sa frise présente trois masques de Chaac réalisés en mosaïque de pierre, un au centre et un à chaque angle. De part et d’autre, des niches abritent des figures assises, que l’on identifie aux quatre Bacabs, les dieux qui soutenaient le ciel."
+    },
+    "guion_largo": {
+      "hash": "95c76c8338e30ccb",
+      "texto": "C’est le plus petit édifice du groupe, et l’un des plus décorés.\n\nL’Église est une petite construction, d’une seule pièce et d’une seule porte, semblable à une chapelle rectangulaire. Son nom est postérieur, et l’on ne sait pas avec certitude d’où il vient. Elle se trouve juste à l’est des Nonnes. Selon l’INAH, c’est une construction dont la façade est décorée d’éléments géométriques et de représentations de divinités, dans le style Puuc.\n\nPlus en détail, l’édifice est de plan rectangulaire, avec une seule pièce voûtée. Sa façade regarde vers l’ouest, avec une entrée à linteau de pierre. Au-dessus de la porte, on voit deux bandes ornées de grecques : une simple, délimitée par deux moulures, et une autre, au-dessus de la frise, formée de barres dentelées en zigzag, qui donnent l’impression d’un serpent.\n\nLa frise présente trois masques de Chaac en mosaïque de pierre, un au centre et un à chaque angle, avec les nez enroulés. De chaque côté du masque central, une niche abrite deux figures assises. Du côté nord apparaissent une figure ailée portant un pectoral ovale, et une autre avec un escargot dans le dos. Du côté sud, une figure entourée d’une sorte de coquillage, et une autre coiffée d’une carapace de tortue. On les identifie aux quatre Bacabs, les dieux qui soutenaient le ciel aux quatre directions, et certains les considèrent comme déguisés en crabe, en escargot, en tatou et en tortue. C’est une interprétation, non un fait avéré.\n\nAu-dessus de l’édifice s’élève une crête décorée de mosaïques de pierre, dans le style Puuc. Lorsqu’elle fut découverte, elle attira l’attention par son bon état de conservation et par la richesse de ses ornements.\n\nLa fiche de l’INAH donne pour le groupe une date approximative de six cents à huit cents de notre ère, bien que d’autres descriptions le situent au Classique terminal. Les dates ne concordent pas.\n\nOn ne connaît ni dimensions publiées ni le type de rituels qui s’y déroulaient. Le plus prudent est de dire qu’il s’agissait d’un temple ou d’une chapelle d’usage inconnu.\n\nRendez-vous maintenant à l’[Akab Dzib](chi_32_akab_dzib), à l’est de l’Escargot."
+    },
+    "retos_observacion": {
+      "hash": "43d34f853ff59d41",
+      "texto": [
+        "Cherchez les trois masques de Chaac de la frise : un au centre et un à chaque angle",
+        "Repérez les niches latérales abritant des figures assises",
+        "Observez la bande de barres en zigzag et demandez-vous si elle vous fait penser à un serpent"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de8be6f7848acbcc",
+      "texto": {
+        "Taille": "petit, d’une seule salle voûtée et d’une porte",
+        "Façade": "tournée vers l’ouest",
+        "Frise": "trois masques de Chaac en mosaïque de pierre",
+        "Niches latérales": "deux figures assises de chaque côté (on les identifie aux quatre Bacabs)",
+        "Style": "Puuc",
+        "Emplacement": "juste à l’est des Nonnes",
+        "Date": "Classique terminal, ou 600-800 selon la fiche de l’INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "d831c92e8eac8a12",
+      "texto": {
+        "pregunta": "Mythe : On l’appelle l’Église parce que les Mayas l’utilisaient comme église.",
+        "respuesta": "Réalité : Le nom est postérieur. C’est un temple préhispanique d’une seule salle, semblable à une chapelle, et l’on ne connaît pas avec certitude l’origine exacte du nom."
+      }
+    }
+  }
+}

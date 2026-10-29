@@ -1,0 +1,56 @@
+{
+  "id": "chi_22_el_mercado",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "77f290ac9bd6716d",
+      "texto": "Le Marché"
+    },
+    "frase_gancho": {
+      "hash": "e9eca5738bff012c",
+      "texto": "Un long édifice à piliers, avec des serpents sur les banquettes et des guerriers qui piétinent des captifs."
+    },
+    "puente_narrativo": {
+      "hash": "3e8d12812746f916",
+      "texto": "Poursuivez vers l’[Ossuaire](chi_23_el_osario), une pyramide dont le sommet s’ouvre sur un puits qui descend jusqu’à une grotte."
+    },
+    "guion_corto": {
+      "hash": "d896f82fe0c03816",
+      "texto": "On l’appelle le Marché parce que les premiers explorateurs pensaient qu’on y faisait du commerce. Aujourd’hui, les archéologues y voient plutôt un édifice cérémoniel que commercial. Il possède une plateforme frontale d’environ quatre-vingts mètres sur quinze, faite d’une rangée de piliers, d’un portique voûté et d’une cour carrée à colonnes. Ses banquettes portent des serpents à plumes, et un talus montre une procession de guerriers qui piétinent des captifs. Sous le sol de la cour, on a découvert une petite offrande de perles et une minuscule tête en jadéite."
+    },
+    "guion_largo": {
+      "hash": "6f3da82da251edca",
+      "texto": "Le nom de Marché est un bon exemple d’une idée qui est restée, même si les spécialistes pensent aujourd’hui autre chose.\n\nLes premiers explorateurs ont cru que cet édifice était un marché, à cause de sa longue galerie bordée d’un banc de pierre et de sa cour. Aujourd’hui, les archéologues pensent que sa fonction était plus cérémonielle que commerciale. Le nom vient donc d’une ancienne interprétation, et non d’une vérification.\n\nLa description la plus complète est celle de l’archéologue Alexandre Guida Navarro, qui a travaillé à la Gran Nivelación entre deux mille quatre et deux mille sept, et qui suit le plan de Marquina de mille neuf cent soixante-quatre. La façade est une plateforme d’environ quatre-vingts mètres sur quinze, formée d’une rangée de piliers. Derrière se trouve un portique couvert d’une voûte. Par un accès au centre du mur sud, on arrive dans une cour carrée entourée de colonnes. Les montants de cette entrée portent trois guerriers de chaque côté.\n\nLa décoration est ce qu’il y a de plus frappant. Il y a deux banquettes ornées de serpents à plumes. Sur le talus, la paroi inclinée, avance une procession de guerriers qui piétinent des captifs. Sous le sol de la cour, Marquina a trouvé un coffre en maçonnerie contenant une offrande : des perles de pierre verte et de coquillage, et une petite tête en jadéite.\n\nGuida Navarro propose une lecture. Selon lui, l’iconographie des serpents à plumes de cet édifice et du Tzompantli évoque un personnage qu’il appelle Capitaine Serpent, et les deux édifices auraient commémoré son intronisation comme gouvernant durant le Classique terminal, entre les années huit cents et mille cinquante. C’est l’hypothèse d’un auteur, et non un consensus.\n\nVoici un détail pratique : les pilastres de cet édifice, comme ceux des Mille Colonnes, ont perdu presque toute leur peinture. Ce que vous voyez aujourd’hui, c’est la pierre nue.\n\nLes descriptions ne concordent pas sur la forme : l’une le dit carré et une autre, en forme de T. Elles parlent peut-être de parties différentes de l’édifice.\n\nMarchez maintenant vers l’[Ossuaire](chi_23_el_osario)."
+    },
+    "retos_observacion": {
+      "hash": "e5af8b7c01a49a0f",
+      "texto": [
+        "Cherchez les piliers de la façade et calculez combien de personnes pouvaient tenir dans une galerie aussi longue",
+        "Regardez si vous distinguez les serpents à plumes des banquettes",
+        "Imaginez la procession de guerriers qui piétinent des captifs, sur le talus"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ba35cb916ed77def",
+      "texto": {
+        "Plateforme frontale": "environ 80 × 15 m, avec une rangée de piliers",
+        "Éléments": "portique voûté et cour carrée à colonnes",
+        "Entrée de la cour": "trois guerriers sur chaque montant",
+        "Décoration": "deux banquettes ornées de serpents à plumes et un talus avec une procession de guerriers qui piétinent des captifs",
+        "Offrande sous la cour": "perles de pierre verte et de coquillage, petite tête en jadéite (Marquina, 1964)",
+        "Lecture proposée (Guida Navarro)": "commémore l’intronisation d’un « Capitaine Serpent », vers 800-1050"
+      }
+    },
+    "faq_mito": {
+      "hash": "a5721cd81e1cdb28",
+      "texto": {
+        "pregunta": "Mythe : C’était le marché où les Mayas échangeaient leurs produits.",
+        "respuesta": "Réalité : C’est le nom que lui ont donné les premiers explorateurs. Aujourd’hui, les archéologues le considèrent comme un édifice plus cérémoniel que commercial."
+      }
+    }
+  }
+}

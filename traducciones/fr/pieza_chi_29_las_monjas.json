@@ -1,0 +1,57 @@
+{
+  "id": "chi_29_las_monjas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e0d005c4ea4cde31",
+      "texto": "L’Édifice des Nonnes"
+    },
+    "frase_gancho": {
+      "hash": "475d498c34e10fd7",
+      "texto": "Un palais au nom de couvent, élevé en au moins six étapes."
+    },
+    "puente_narrativo": {
+      "hash": "19b16a457b1a7166",
+      "texto": "Faites le tour de l’édifice sans vous presser pour le voir sous ses différents côtés. Lorsque vous aurez terminé, poursuivez avec la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "6510c0af105d0a21",
+      "texto": "Voici l’Édifice des Nonnes. Les Espagnols lui ont donné ce nom, peut-être parce que ses nombreuses pièces leur rappelaient leurs couvents, mais c’était un palais de gouvernement. Il a connu au moins six étapes de construction, compte trois niveaux et combine les styles maya-toltèque et Puuc. Le deuxième étage présente de longues inscriptions sur les linteaux et des mosaïques de pierre de style Puuc tardif. Les textes mentionnent fréquemment le gouvernant K'ak'upakal."
+    },
+    "guion_largo": {
+      "hash": "43b39cc587248af1",
+      "texto": "Le nom est trompeur, et c’est pourquoi il convient de commencer par ce que cet édifice n’est pas. Les Nonnes n’ont jamais été un couvent. C’était un palais de gouvernement. Une explication probable du nom est que les bâtiments, avec tant de pièces, ont rappelé aux Espagnols leurs couvents. C’est une possibilité, pas un fait.\n\nL’INAH situe cet ensemble dans un groupe distinct de celui de la Place principale. Ici domine l’architecture Puuc et Chenes. Sur la grande place, en revanche, les édifices sont de style maya-toltèque. Cette différence aide à comprendre que Chichén Itzá a connu plusieurs traditions à la fois. Le groupe comprend la Maison des Nonnes, son Annexe, l’Église et un terrain de jeu de balle qui n’a pas été fouillé.\n\nL’édifice principal a connu au moins six étapes de construction, avec des changements dans la forme, la décoration et le style, ce qui témoigne d’une longue occupation. Il compte trois niveaux qui combinent les styles maya-toltèque et Puuc. Au deuxième étage, on trouve de longues inscriptions sur les linteaux, de la peinture murale et des mosaïques de pierre de style Puuc tardif. Selon certaines descriptions, le temple d’origine, déjà agrandi, mesure environ cinquante mètres sur vingt-trois, et le corps supérieur de l’édifice le plus récent, environ dix mètres.\n\nL’édifice regarde vers le nord et comporte trois parties : les Nonnes proprement dites, l’aile est et l’aile sud-est. Les textes hiéroglyphiques de cet ensemble mentionnent fréquemment le gouvernant K'ak'upakal. L’INAH évoque en outre des motifs de natte, un symbole de pouvoir, et un trône en forme de jaguar à deux têtes près de l’escalier principal.\n\nLes premiers dessins connus sont de Frederick Catherwood, de l’expédition de John Stephens, entre mille huit cent trente-neuf et mille huit cent quarante. Vinrent ensuite les photographies d’Alfred Maudslay. Maudslay a publié les linteaux de façon incomplète, et ils sont aujourd’hui très érodés.\n\nIl y a un désaccord sur les dates. Certains le situent dans le Classique terminal, et la fiche de l’INAH donne pour le groupe une date approximative allant de six cents à huit cents de notre ère. Une inscription de l’annexe est estimée vers l’an huit cent quatre-vingts. Ne retenez pas un seul chiffre.\n\nFaites le tour de l’édifice sans vous presser. Lorsque vous arriverez du côté est, observez les masques de l’Annexe Est."
+    },
+    "retos_observacion": {
+      "hash": "647e5425756f744b",
+      "texto": [
+        "Regardez la façade et cherchez les éléments géométriques et les masques du style Puuc",
+        "Comparez cet édifice avec le temple des Guerriers : ce sont deux traditions distinctes",
+        "Cherchez, près de l’escalier principal, le trône en forme de jaguar à deux têtes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78713fbcc8e9ae09",
+      "texto": {
+        "Style": "Puuc et Chenes (INAH) ; maya-toltèque et Puuc",
+        "Étapes": "au moins 6",
+        "Niveaux": "3",
+        "Orientation": "regarde vers le nord",
+        "Parties": "Les Nonnes, aile est (Annexe) et aile sud-est",
+        "Dimensions approximatives": "environ 50 × 23 m pour le temple d’origine déjà agrandi ; environ 10 m pour le corps supérieur de l’édifice récent",
+        "Premiers dessins": "Catherwood (1839-1840) ; photographies de Maudslay"
+      }
+    },
+    "faq_mito": {
+      "hash": "14cdfb3bb6535ab1",
+      "texto": {
+        "pregunta": "Mythe : Les Nonnes étaient un couvent de femmes mayas.",
+        "respuesta": "Réalité : C’est un nom que lui ont donné les Espagnols. Il s’agit d’un palais de gouvernement, avec des textes qui mentionnent un gouvernant."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chi_35_templo_falos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc78b15121f84caa",
+      "texto": "Le Palais des Phallus"
+    },
+    "frase_gancho": {
+      "hash": "6a5d4dc68294a314",
+      "texto": "Un labyrinthe de pièces, de couloirs et de patios, avec un escalier intérieur qui monte au deuxième étage."
+    },
+    "puente_narrativo": {
+      "hash": "a04e633cfbbff075",
+      "texto": "Traversez vers la [Maison des Escargots](chi_36_casa_caracoles_tortuga), où un arbre généalogique mesure environ vingt mètres."
+    },
+    "guion_corto": {
+      "hash": "4948f3fd5554d993",
+      "texto": "Voici le Palais des Phallus, un complexe de deux étages qui fait partie du Vieux Chichén. C’est un labyrinthe de pièces, de couloirs et de patios intérieurs, avec un escalier qui monte à deux salles du deuxième étage. Sur ses bancs, on trouve des reliefs d’étoiles de Vénus réutilisés d’un autre édifice. On a dit que d’autres reliefs racontent l’origine et la vie d’un personnage important. Les pierres tombées du palais ont été réutilisées plus tard dans un autre édifice."
+    },
+    "guion_largo": {
+      "hash": "4a91ce4a8af95625",
+      "texto": "Avec un tel nom, on s’attendrait à une description spectaculaire. La vérité, c’est que ce qui est documenté relève davantage de l’architecture que d’autre chose.\n\nL’archéologue Peter Schmidt et Rocío González de la Mata décrivent la Maison des Phallus, ou Complexe palatial des Phallus, comme un ensemble de trois structures, que le plan de la Carnegie numérote cinq C cinq, cinq C quatorze et cinq C quinze. Il contient un labyrinthe de pièces, de corridors et de patios intérieurs, et un escalier qui monte à deux salles du deuxième étage. Une autre étude, de deux mille quatorze, le décrit comme un complexe de deux étages du côté sud de la place nord. Les deux descriptions situent l’édifice à des endroits un peu différents ; elles se rapportent sans doute à des parties différentes d’un grand ensemble.\n\nL’étude de deux mille quatorze ajoute un détail curieux : les bancs du palais portent des reliefs d’étoiles de Vénus à quatre pointes, qui ont été réutilisés du Temple de la Série Initiale. Autrement dit, les bâtisseurs ont recyclé des pièces d’un autre édifice.\n\nLa façade présente des tablettes du dieu N sous ses aspects d’escargot et d’araignée. Et Schmidt décrit, dans un autre travail, des reliefs que l’on a lus comme phalliques et d’autosacrifice, ainsi que des panneaux au deuxième étage. Ce sont des descriptions brèves : on ne connaît pas avec précision le nombre ni la forme des sculptures qui donnent son nom au lieu.\n\nUne note journalistique de deux mille vingt-trois affirme que le palais raconte l’origine et la vie d’un personnage important, avec des luttes, des sacrifices et des rituels. C’est une lecture générale, sans fondement technique.\n\nLe palais a connu un destin curieux. Lorsqu’il s’est effondré, ses pierres ont été réutilisées dans un autre édifice, la structure cinq C huit, avec celles de la Galerie des Singes et celles d’une autre structure voisine.\n\nL’INAH a restauré le palais lors de l’intervention de deux mille vingt-trois, en réintégrant des éléments de construction. Une partie de ce que vous voyez a été remise en place.\n\nPoursuivez vers la [Maison des Escargots](chi_36_casa_caracoles_tortuga)."
+    },
+    "retos_observacion": {
+      "hash": "456000a7aa8b9fc7",
+      "texto": [
+        "Observez les deux étages du palais et essayez de suivre du regard le parcours de l’escalier intérieur",
+        "Cherchez les tablettes de la façade et les éléments réintégrés lors de la restauration",
+        "Comparez sa taille avec celle du Temple de la Série Initiale que vous avez vu auparavant"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3125872ca055a14d",
+      "texto": {
+        "Ensemble": "Maison ou Complexe palatial des Phallus (structures 5C5, 5C14 et 5C15)",
+        "Plan": "labyrinthe de pièces, de corridors et de patios, avec escalier intérieur menant à deux salles du deuxième étage",
+        "Bancs": "reliefs d’étoiles de Vénus réutilisés du Temple de la Série Initiale",
+        "Façade": "tablettes du dieu N sous l’aspect d’un escargot et d’une araignée",
+        "Ruine": "ses pierres ont été réutilisées dans la structure 5C8",
+        "Restauration": "réintégration d’éléments (INAH, 2023)"
+      }
+    },
+    "faq_mito": {
+      "hash": "137f4f3208e0bbfa",
+      "texto": {
+        "pregunta": "Mythe : Le Palais des Phallus était un temple dédié à un seul rituel de fertilité.",
+        "respuesta": "Réalité : C’est un palais de deux étages, avec des pièces, des patios et un escalier. On connaît mal les sculptures qui lui donnent son nom."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "chi_30_anexo_este_monjas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5b336e81005050e0",
+      "texto": "L’Annexe Est"
+    },
+    "frase_gancho": {
+      "hash": "ec2b597fa5308e55",
+      "texto": "Une porte qui est la bouche d’un gigantesque masque de la pluie."
+    },
+    "puente_narrativo": {
+      "hash": "e6097543bb17c89d",
+      "texto": "Observez les masques de la façade. Quand vous aurez terminé, passez à la prochaine étape de votre parcours."
+    },
+    "guion_corto": {
+      "hash": "0cfb77ae9959f816",
+      "texto": "L’Annexe Est fait partie de l’édifice original des Nonnes. Sa façade est couverte de masques de Chaac, le dieu de la pluie. Le portail est un énorme masque de Chaac, ou de Witz, l’esprit de la montagne, dont la porte forme la bouche. Au-dessus court un serpent ondulant sculpté. Selon l’INAH, une porte à inscription rappelle le style Chenes. On situe son inscription vers l’an huit cent quatre-vingt."
+    },
+    "guion_largo": {
+      "hash": "c97dcb3632ee3317",
+      "texto": "Voici l’une des façades les plus spectaculaires du site, et aussi l’une des plus difficiles à expliquer avec certitude.\n\nSelon l’INAH, l’Annexe fait partie de la construction originale des Nonnes. Sa façade présente de nombreux masques de Chaac, le dieu de la pluie, et une porte dotée d’une inscription qui rappelle le style Chenes. L’édifice principal comporte trois parties, et l’Annexe Est correspond à l’aile est.\n\nPlusieurs descriptions apportent des détails. La façade principale est sculptée comme un énorme visage de Chaac, ou de Witz, l’esprit qui habite les montagnes, et la porte fait office de bouche. Les deux figures ont un lien avec la pluie. Sur la corniche, on voit un serpent ondulant, qui pourrait être le Serpent à plumes. On décrit aussi la chambre est, avec la porte encadrée par les nez recourbés de Chaac, avec quatre masques de chaque côté, deux superposés à chaque angle, et une crête ornée de treillis et de masques.\n\nLes détails varient selon la personne qui les décrit. Ce qu’il convient de retenir, c’est l’essentiel : des masques de Chaac, un portail de style Chenes et une corniche ornée d’un serpent.\n\nL’inscription hiéroglyphique du linteau de la chambre est se situe vers l’an huit cent quatre-vingt, selon le décompte katún. L’épigraphiste Hermann Beyer a relevé en mille neuf cent trente-sept le décor de la façade de l’Annexe Est, mais il ne donne pas de dates de construction. Les styles que cette construction mêle, Puuc, Chenes et Río Bec, étaient courants au Classique récent à Yucatán.\n\nPrenez le temps de contempler la répétition des masques. Dans une région sans rivières, demander de l’eau, c’était demander la vie.\n\nQuand vous aurez terminé, passez à la prochaine étape de votre parcours."
+    },
+    "retos_observacion": {
+      "hash": "3a9d4932a0b44167",
+      "texto": [
+        "Cherchez la porte et essayez de distinguer, tout autour, la forme d’une bouche et de nez recourbés",
+        "Comptez combien de fois le masque de Chaac se répète sur un tronçon de la façade",
+        "Regardez la corniche et cherchez le serpent ondulant"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c1bba47855940429",
+      "texto": {
+        "Emplacement": "aile est des Nonnes",
+        "Décoration": "nombreux masques de Chaac ; portail décrit comme un masque de Chaac ou de Witz dont la porte forme la bouche",
+        "Corniche": "serpent ondulant",
+        "Style": "Chenes (INAH) ; Puuc, Chenes et Río Bec",
+        "Inscription du linteau": "vers l’an 880 (approximatif)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0890c02d0e7da80",
+      "texto": {
+        "pregunta": "Mythe : Les masques de la façade représentent différents dirigeants.",
+        "respuesta": "Réalité : L’INAH les identifie comme des masques du dieu de la pluie, Chaac, répétés dans le décor."
+      }
+    }
+  }
+}
