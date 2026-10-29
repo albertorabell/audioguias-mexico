@@ -1424,6 +1424,16 @@
           "provider": "azure"
         }
       },
+      "chi_00_vistazo": {
+        "corto": {
+          "hash": "25a195b4154e65f3",
+          "file": "en/chi_00_vistazo_corto.mp3",
+          "remote": false,
+          "seconds": 45,
+          "bytes": 270720,
+          "provider": "azure"
+        }
+      },
       "mna_s00_el_paraguas": {
         "corto": {
           "hash": "29b5f97b8851387e",
@@ -6661,6 +6671,24 @@
           "remote": true,
           "seconds": 103,
           "bytes": 615024,
+          "provider": "azure"
+        }
+      },
+      "chi_00_vistazo": {
+        "corto": {
+          "hash": "c9ed19ab5c1ece5d",
+          "file": "es/chi_00_vistazo_corto.mp3",
+          "remote": false,
+          "seconds": 42,
+          "bytes": 254880,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3643c59ca737e560",
+          "file": "es/chi_00_vistazo_largo.mp3",
+          "remote": false,
+          "seconds": 152,
+          "bytes": 914688,
           "provider": "azure"
         }
       },
