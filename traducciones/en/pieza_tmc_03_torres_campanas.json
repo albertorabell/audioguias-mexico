@@ -1,0 +1,56 @@
+{
+  "id": "tmc_03_torres_campanas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1f470ba4a2b3120b",
+      "texto": "The Towers and the Named Bells"
+    },
+    "frase_gancho": {
+      "hash": "8b952131b8a4622a",
+      "texto": "Thirty-five bells, and the oldest was cast in fifteen seventy-eight."
+    },
+    "puente_narrativo": {
+      "hash": "65a583829e791ee1",
+      "texto": "Take a few steps back and look at the whole Cathedral, from one tower to the other. When you are ready, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "e6f62f47198a2c46",
+      "texto": "Thirty-five bells hang from these two towers, and every one of them has a name. The oldest is Santa María de la Asunción, which everyone calls Doña María. It was cast in fifteen seventy-eight and weighs about seven metric tons. Another of the large ones is known as La Ronca. The towers were not finished at the same time as the rest of the façade. In the late eighteenth century, the Mexican architect José Damián Ortiz de Castro raised them, and their crowns are shaped like bells. The east tower holds twenty-three bells, and the west tower, eleven. If you happen to hear them, each one sounds different, because each one weighs differently."
+    },
+    "guion_largo": {
+      "hash": "a0a6c62efc84c146",
+      "texto": "Raise your eyes to the two towers. They look like twins, but they were built at different times, and they hide a treasure that is heard more than it is seen.\n\nThe base and the first level of the east tower date from the seventeenth century. The towers, as you see them now, were raised in the late eighteenth century by the Mexican architect José Damián Ortiz de Castro. He had won a competition to direct the work, and he died before seeing it finished. Manuel Tolsá, who arrived in Mexico City in seventeen ninety-one, carried on the work and brought it to completion. The crown of each tower imitates the shape of a bell, and it is made of tezontle, the reddish volcanic stone widely used in the city.\n\nInside the towers there are thirty-five bells. Twenty-three hang in the east tower, and eleven in the west. One more is in another part of the church, near the choir. The belfries have room for many more, but they were never filled. The reason usually given is that, while the Cathedral was being built, the urgent task was to close the roofs so that Mass could be celebrated, and the bells fell to second place.\n\nEach bell has its own name. The oldest is Santa María de la Asunción, which people know as Doña María. It was cast in fifteen seventy-eight, and it weighs about seven metric tons. It is said to have been in its tower since sixteen fifty-four. Another large bell is San José, nicknamed La Ronca, and it weighs a little over four metric tons. The largest is Santa María de Guadalupe, at around thirteen metric tons.\n\nThe bronze of each bell, its weight and its shape change the sound. That is why, when several ring at once, you do not hear a single tone, but an ensemble with deep and high voices. They are rung at certain moments of the day, and on special dates many ring together. Among those dates are mentioned Christmas, New Year’s Eve, Easter, and the Feast of the Assumption, on August fifteenth, which is the feast day of the Cathedral’s patron saint. If you happen to catch a peal, it is worth stopping for a few minutes.\n\nThere is also a curiosity of carpentry. The staircase of the bell tower is made of cedar, with steps that are joined together rather than nailed, and its posts are each a single piece. It has been preserved this way since the time the work was finished. Those who climb up get a wide view of the city and the plaza.\n\nAnd it is possible to climb. There are guided tours of the bell tower, which are booked at the entrance on the east side of the Cathedral, for a small fee. Hours and prices change, so it is best to ask the same day. If you prefer to stay below, it is enough to raise your eyes and count the openings where the bells hang.\n\nOne last detail. The Sun Stone was mounted on one of these towers until eighteen eighty-five. That stone has a history of its own, tied to this plaza. For now, take a few steps back and look at the whole Cathedral, from one tower to the other. When you are ready, continue to the next stop on your tour."
+    },
+    "retos_observacion": {
+      "hash": "745d211a3c6d758d",
+      "texto": [
+        "Count the towers and look high up for the openings where the bells hang",
+        "Look at the crown of each tower: it is shaped like a bell",
+        "If you are here at the time of a peal, listen for how many different tones you can pick out"
+      ]
+    },
+    "especificaciones": {
+      "hash": "288fdac5e96e6f5f",
+      "texto": {
+        "Total bells": "35 (23 in the east tower, 11 in the west, and one more elsewhere)",
+        "Santa María de la Asunción, Doña María": "cast in 1578, about 7 metric tons",
+        "San José, La Ronca": "a little over 4 metric tons",
+        "Towers": "Ortiz de Castro, 1787 to 1791, and Manuel Tolsá",
+        "Crown": "bell-shaped, in tezontle",
+        "Bell tower staircase": "cedar"
+      }
+    },
+    "faq_mito": {
+      "hash": "f3379d788e70aff9",
+      "texto": {
+        "pregunta": "Myth: The Cathedral’s towers were built together with the main façade.",
+        "respuesta": "Reality: The central part of the façade was completed in 1675, and the towers were raised in the late 18th century."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "tmc_05_sagrario",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fbbc0372b4bb2a9b",
+      "texto": "El Sagrario: A Retablo of Stone"
+    },
+    "frase_gancho": {
+      "hash": "a06640b6e96839e3",
+      "texto": "A church of its own, attached to the Cathedral, whose façade looks like an altarpiece carved in stone."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "When you are ready, continue to the next stop on your tour."
+    },
+    "guion_corto": {
+      "hash": "fcbcae763acb7000",
+      "texto": "Attached to the Cathedral stands another church, much smaller and much more ornate. It is the Metropolitan Sagrario. A sagrario is the place where the most sacred things of a church are kept, and over time this one became the parish church of the complex. It was designed by the architect Lorenzo Rodríguez, and its construction began in seventeen forty-nine. It is one of the great examples of New Spanish Baroque in the style known as Churrigueresque. Its main feature is the estipite, a support that grows narrower toward its base and covers the façade from top to bottom. From the street, every level of carved stone asks to be looked at slowly."
+    },
+    "guion_largo": {
+      "hash": "140eb2c6a2708b9e",
+      "texto": "Attached to the eastern side of the Cathedral stands the Metropolitan Sagrario. If the Cathedral is large and mixed in style, this building is compact and built around a single idea.\n\nThe word sagrario comes from the word for sacred. It is the place where the most venerated things of a church are kept, above all the sacrament of the Eucharist. In this case, documents and the garments of the clergy were also kept here. Over time, the Sagrario became the parish church of the Cathedral complex, the space where the sacraments were recorded and administered. It is not an ornament of the Cathedral, but a church with its own history.\n\nIts architect was Lorenzo Rodríguez. He was born in Guadix, in southern Spain, and trained with his father, who was the chief architect of the bishopric of that city. Later he worked in Cádiz, and then he came to the capital of New Spain. At first he worked as a carpenter at the Mint. Around seventeen forty-one he earned the rank of master in the architects’ guild. His most famous work is this Sagrario, whose construction began in seventeen forty-nine and lasted almost twenty years.\n\nThe result is one of the great monuments of New Spanish Baroque, in the style called Churrigueresque. Its main feature is the estipite. It is a support that grows narrower toward the bottom, unlike an ordinary column, and here it covers the main façade from top to bottom. Rodríguez knew this tradition from the Andalusia of his youth, but he took it further, with more detail and more relief. Between the estipites there are niches with statues of apostles and other figures.\n\nA historian of the period, the bachiller Juan de Viera, described the city in seventeen seventy-seven. He spoke of the marvelous estipites and the most beautiful statues of this façade, and added that many craftsmen copied this sculpture. That explains why the style traveled so far. It had great influence in the mining region of Guanajuato.\n\nNotice that not all of the ornamentation is the same. The historian Manuel González Galván observed that the main façade is filled with estipites, while the minor doorways use more sober pilasters, with fluting. That contrast makes the central part stand out even more. One of the reliefs on the doorways depicts the baptism of the Virgin, a subject that does not appear in the Gospels. A twin relief showing the baptism of Christ exists on the doorway on the eastern side.\n\nThe material also tells a story. The façade combines light-colored quarry stone with tezontle, a reddish volcanic rock. The quarry stone comes from Chiluca, a stone quarry that was widely used in the buildings of the city. The contrast between the two colors makes the reliefs stand out.\n\nThe ground has also left its mark. In nineteen thirty-three the buildings on the eastern side of the Cathedral were demolished, among them the old Seminary. The following year the underpinning of the Sagrario’s foundations began, and it was still underway in November of nineteen thirty-five. The earthquake of two thousand seventeen left damage throughout the Cathedral complex.\n\nIf you decide to go in, it is a church open for worship, so it is best to check the opening hours. From the street, looking is enough. When you are ready, continue to the next stop on your tour."
+    },
+    "retos_observacion": {
+      "hash": "6a7a957e4445d694",
+      "texto": [
+        "Count the estipites on the doorway: do you see how they grow narrower toward the bottom?",
+        "Look for the contrast between the light quarry stone and the reddish tezontle",
+        "Compare the main doorway with the more sober side doorways"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6a5dc5fa75196190",
+      "texto": {
+        "Architect": "Lorenzo Rodríguez",
+        "Start of construction": "1749, almost 20 years of construction",
+        "Style": "New Spanish Baroque, Churrigueresque",
+        "Materials": "quarry stone and tezontle",
+        "Foundation underpinning": "begun in 1934",
+        "Location": "eastern side of the Cathedral"
+      }
+    },
+    "faq_mito": {
+      "hash": "6115a82e8436d53f",
+      "texto": {
+        "pregunta": "Myth: The Sagrario is a chapel of the Cathedral.",
+        "respuesta": "Reality: It was the parish church of the cathedral complex, with its own history and its own building, designed by Lorenzo Rodríguez."
+      }
+    }
+  }
+}

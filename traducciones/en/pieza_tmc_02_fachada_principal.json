@@ -1,0 +1,56 @@
+{
+  "id": "tmc_02_fachada_principal",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "84e9a5f6638efbb8",
+      "texto": "The Main Façade of the Cathedral"
+    },
+    "frase_gancho": {
+      "hash": "56c89bfd0bc46464",
+      "texto": "Three portals, a marble relief, and three bronze virtues: the façade that was completed little by little over more than a century."
+    },
+    "puente_narrativo": {
+      "hash": "6c02446457e22da4",
+      "texto": "Raise your eyes to the sides of the façade, where the two towers rise with their bells."
+    },
+    "guion_corto": {
+      "hash": "67f8706270147144",
+      "texto": "The main façade of the Cathedral has three portals, and the one in the center is the largest. Above it is a marble relief of the Assumption of the Virgin, to whom the church is dedicated. On the side doors there are reliefs of Saint Peter receiving the keys, and of the ship of the Church. Higher up is a clock, and above it, three sculptures by Manuel Tolsá: Faith, Hope, and Charity. This façade does not belong to a single era. The central part was completed in sixteen seventy-five, and Tolsá crowned it more than a century later. Follow it from bottom to top and notice how the style and the tone of the stone change."
+    },
+    "guion_largo": {
+      "hash": "915575febea2b77a",
+      "texto": "You are standing in front of the façade that faces the Zócalo. Although it looks like a single work, it is the result of many hands.\n\nThe Cathedral is dedicated to the Assumption of Mary, and that is the image that crowns the central portal. It is a marble relief. On either side of that door are the figures of Saint Peter and Saint Paul. On the side portals there are other reliefs. One shows Saint Peter receiving the keys, and the other, the ship of the Church. There are three doors, with the one in the center the largest, and each works as a different reading of the same religious message.\n\nThe order in which the façade was built explains its changes of style. The central part was directed by the architect Cristóbal de Medina Vargas, and it was completed in sixteen seventy-five. It is a Baroque work, with many columns and a great deal of relief. More than a century later, in the late eighteenth century, the sculptor and architect Manuel Tolsá arrived and finished the building. Tolsá worked with Neoclassical ideas, more sober, which sought order and symmetry. That is why the Cathedral brings together features of the Renaissance, the Baroque, and Neoclassicism in a single view.\n\nAbove the main door there is a clock, and above it were placed three sculptures attributed to Tolsá. They are the three theological virtues: Faith, Hope, and Charity. During the earthquake of two thousand seventeen, Hope fell from a height of about forty-five meters. She was restored, with a new head carved in stone, and the three sculptures returned to their place in February of two thousand twenty-four. It is a reminder that this stone also needs constant care.\n\nTo get a sense of the scale, the Cathedral measures about one hundred twenty-eight meters long by about sixty wide, and about sixty-seven up to the top of the towers. Before this one there was another cathedral, a smaller one, which was begun in fifteen twenty-four.\n\nThere is something else worth looking at. The stone is not the same tone across the whole façade, which is natural in a work of so many stages. If you step back a little, as far as the center of the plaza, the façade reads better. You will see that the two towers frame it like a pair of parentheses.\n\nThis is the most visible façade, but not the only one. The Cathedral has four façades, with side portals on the east, west, and north sides. The north one is the oldest and the lowest. It is attributed to the sixteenth century and a more austere style.\n\nBefore going on, it is worth remembering that this is a church in use. If you decide to go in later, do so with respect, with shoulders and knees covered, and check the Mass schedule. Now look up. The towers have a history of their own, and their bells have names."
+    },
+    "retos_observacion": {
+      "hash": "2dd61c4b006c27f4",
+      "texto": [
+        "Find the marble relief of the Assumption above the central door",
+        "Look for the clock and the three figures above it",
+        "Compare the stone of the central part with that of the towers: do you notice differences in tone?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ddf87b9029fab64",
+      "texto": {
+        "Dedication": "Assumption of Mary",
+        "Central part of the façade": "completed in 1675, Cristóbal de Medina Vargas",
+        "Crowning and sculptures": "Manuel Tolsá, around 1813",
+        "Portals": "3 on the main façade",
+        "Approximate dimensions": "about 60 m wide, 128 m long, and 67 m up to the top of the towers",
+        "Location": "north side of the Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "da6ea111cf54871d",
+      "texto": {
+        "pregunta": "Myth: The Cathedral was built in a single style.",
+        "respuesta": "Reality: It brings together features of the Renaissance, the Baroque, and Neoclassicism because it was built between 1573 and 1813 by different architects."
+      }
+    }
+  }
+}

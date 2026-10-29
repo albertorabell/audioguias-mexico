@@ -1,0 +1,56 @@
+{
+  "id": "tmc_01_recinto_bajo_plaza",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "79af81581984d7b3",
+      "texto": "The Plaza and the Sacred Precinct of Tenochtitlan"
+    },
+    "frase_gancho": {
+      "hash": "ad729a7aeb7e4fdd",
+      "texto": "This entire downtown area is built on a lake city that had a precinct with as many as seventy-eight temples."
+    },
+    "puente_narrativo": {
+      "hash": "6366e5a1f836733b",
+      "texto": "Cross to the north side of the plaza, facing the Cathedral, and begin with its main façade."
+    },
+    "guion_corto": {
+      "hash": "2345b9c18b61a9f4",
+      "texto": "Everything you see around you is built on top of another city. According to tradition, the Mexica settled on a small island in Lake Texcoco around thirteen twenty-five. They won land from the water with landfill, wooden piles, canals, dikes, and bridges. At the center of Tenochtitlan there was a sacred precinct, and the chronicles say it came to have as many as seventy-eight temples. Today that city is covered over, but it did not disappear. This guide takes you through two of its layers. The first is the Metropolitan Cathedral, which the Spaniards began to build in the sixteenth century. The second is the Templo Mayor, which lay buried for centuries. We begin here, in the plaza, so that you know where you are standing."
+    },
+    "guion_largo": {
+      "hash": "06f3e2531575521b",
+      "texto": "This guide runs from the Spanish city to the Mexica city, and it helps to begin by understanding what lies beneath your feet.\n\nAccording to tradition, the Mexica settled on a small island in Lake Texcoco around thirteen twenty-five. The land was scarce, so they kept expanding it. With landfill, wooden piles, canals, dikes, and bridges, they won land from the lake until they reached about thirteen and a half square kilometers. That city was called México-Tenochtitlan. It had eleven rulers, and its fall came in fifteen twenty-one, after the war with the Spaniards and their Indigenous allies.\n\nAt the center of the city there was a set-apart space, the Sacred Precinct. There stood the Templo Mayor, which the Mexica called Huey Teocalli, the great house of the god. They considered it the navel of the universe. According to the chronicles from colonial New Spain, the precinct came to have as many as seventy-eight buildings, including temples, altars, platforms, schools, and ball courts. Not just anyone could enter. Priests, warriors, rulers, and students of the Calmécac, the school for the children of nobles, had permanent access. Ordinary people entered during the festivals.\n\nWhen the city fell, Hernán Cortés decided that the capital of New Spain would stand right there. The Spaniards tore down the Templo Mayor, and its stones were reused as foundations for viceregal buildings. That is a good way to see what happened. A new city was not raised in an empty place, but on top of another one that was still standing. The Cathedral in front of you is part of that story. It was built on a portion of the grounds of the old precinct, and that is why its soft ground and its foundations have caused so many problems.\n\nFor centuries, little was known about the Templo Mayor. There were isolated finds in seventeen ninety, and Manuel Gamio uncovered a corner of the building in nineteen thirteen. But the great discovery came in nineteen seventy-eight, when a circular stone appeared by chance. We will speak of it later.\n\nHere is how this tour is organized. First you will walk around the outside of the Cathedral, and then you will go in, if it is open. After that you will go to the archaeological zone of the Templo Mayor and its museum. The Cathedral is usually free to enter, although some areas ask for a fee or a donation. The archaeological zone and the museum share a single ticket, and it is wise to check the current days and hours before you go. If today you only want to see part of it, choose one of the shorter routes.\n\nNow look around. The Cathedral closes off the north side of the plaza. The ruins of the Templo Mayor cannot be seen from here: they lie behind the Cathedral, to the east, a few hundred meters away. That short distance crosses two worlds. Begin with the one you see in front of you, and take along the question of how many layers can fit in a single place."
+    },
+    "retos_observacion": {
+      "hash": "c402ee26ef0db43e",
+      "texto": [
+        "Find the Cathedral on the north side of the plaza and estimate how wide it is",
+        "Imagine the lake reaching all the way to where you are standing: the city was surrounded by water",
+        "Find the direction to the east in which the ruins of the Templo Mayor lie, behind the Cathedral"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a0bf74e217269cad",
+      "texto": {
+        "Founding according to tradition": "around 1325",
+        "Area reclaimed from the lake": "about 13.5 km²",
+        "Rulers of Tenochtitlan": "11",
+        "Fall of the city": "1521",
+        "Buildings in the Sacred Precinct according to the chronicles": "up to 78",
+        "Location": "Constitution Square, Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "8193d03a93403e36",
+      "texto": {
+        "pregunta": "Myth: The Spaniards built Mexico City on an empty site.",
+        "respuesta": "Reality: The capital of New Spain was built on top of Tenochtitlan, and the stones of the Templo Mayor were reused as foundations for viceregal buildings."
+      }
+    }
+  }
+}

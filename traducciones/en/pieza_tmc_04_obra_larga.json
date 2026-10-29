@@ -1,0 +1,56 @@
+{
+  "id": "tmc_04_obra_larga",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-29",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2d010ffa1ecaa778",
+      "texto": "Two Hundred Forty Years of Construction"
+    },
+    "frase_gancho": {
+      "hash": "57a692ea6663751a",
+      "texto": "A small first church, a plan signed by the king, and a cathedral that was finished in eighteen thirteen."
+    },
+    "puente_narrativo": {
+      "hash": "95f7be65697c1ca8",
+      "texto": "Continue to the side of the Cathedral and look for the smallest, most ornate building, right up against it."
+    },
+    "guion_corto": {
+      "hash": "c824aae4d16c2412",
+      "texto": "The Cathedral took about two hundred forty years to complete. Before it, there was a first, smaller church, begun in fifteen twenty-four, but it was considered uncomfortable and dark. In the middle of the sixteenth century, it was decided to build another, much larger one. A plan signed by King Philip the Second in fifteen sixty-nine was followed starting in fifteen seventy-three, with the design of Claudio de Arciniega. The new church could be used from the inside long before it was complete, because it was built in sections. The interior was closed in the seventeenth century, and the exterior was considered finished in eighteen thirteen."
+    },
+    "guion_largo": {
+      "hash": "42ca3fd8216e4afc",
+      "texto": "A cathedral like this one is not built all at once. This one took about two hundred forty years, and that is why it helps to understand its stages.\n\nFirst there was an earlier church. It was begun in fifteen twenty-four, shortly after the conquest, and stood a little south of where the current one is. It was a church with three naves, and over time it was considered uncomfortable, dark, and damp. In the middle of the sixteenth century, the city was already the capital of a viceroyalty and wanted a temple worthy of that status. So it was decided to build another, much larger one.\n\nThe plan that was followed was signed by King Philip the Second in fifteen sixty-nine. The formal work began in fifteen seventy-three. The design is attributed to Claudio de Arciniega, an architect who worked in New Spain. The old church was kept standing until it became possible to celebrate Mass in one part of the new one. That way, the city was never left without a cathedral while the other was being built.\n\nThe ground complicated everything from the start. The Cathedral stands on the soft, filled-in terrain of the ancient island. Below lie pre-Hispanic remains. As early as fifteen sixty-two, the foundation began to sink. It was rebuilt with a mass of stone set on stakes, and that work was considered complete in sixteen fifteen. Thousands of wooden piles were driven into that foundation.\n\nThe vaults were closed one after another beginning in fifteen eighty-one. The last one was closed on June twenty-second, sixteen sixty-seven, and that year is considered the end of the work on the interior. The towers and much of the exterior were still missing. A flood in sixteen twenty-nine forced the work to stop. Afterward, the architect Juan Gómez de Trasmonte continued it. The central part of the facade was finished by Cristóbal de Medina Vargas in sixteen seventy-five.\n\nIn the late eighteenth century, the towers were raised, under the direction of José Damián Ortiz de Castro. When he died, the sculptor and architect Manuel Tolsá took charge of finishing the exterior. He rebuilt the dome, added the balustrades, and sculpted figures. In eighteen thirteen, the work was declared complete. Nearly two and a half centuries had passed.\n\nThat is why this Cathedral seems like a visible summary of the styles of New Spain. The original plan has an air of the Renaissance, with its order and sobriety. In the interior and the central facade, the Baroque dominates. In the crowning elements and the dome, Neoclassicism appears, which preferred clean lines. There is no perfect unity, but there is a unity built over time.\n\nTo end this stop, think about what it means to build something that neither you nor your children will see finished. A project of that kind is carried out with patience and with faith. Further on, you will see how that patience is still necessary, because the ground never stops moving."
+    },
+    "retos_observacion": {
+      "hash": "366372509b33ce44",
+      "texto": [
+        "Look on the facade for the oldest and the most recent parts",
+        "Compare the sobriety of the overall floor plan with the ornament of the central portal",
+        "Imagine the site without a Cathedral, with the old church a little to the south"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9e57c6fb2bbf5194",
+      "texto": {
+        "First church": "begun in 1524",
+        "Plan signed by Philip II": "1569",
+        "Formal start of the current building": "1573",
+        "Last vault closed": "June 22, 1667",
+        "Central part of the facade": "1675",
+        "Exterior work completed": "1813"
+      }
+    },
+    "faq_mito": {
+      "hash": "f929265d356b3240",
+      "texto": {
+        "pregunta": "Myth: The Cathedral was built on top of the Templo Mayor.",
+        "respuesta": "Reality: The Cathedral occupies part of the former Sacred Precinct, but the Templo Mayor lay to the east, behind it, and was not discovered until the twentieth century."
+      }
+    }
+  }
+}
