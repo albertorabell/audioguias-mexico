@@ -163,6 +163,10 @@ export const Home: React.FC<HomeProps> = ({ sites, onSelectSite, isLoading = fal
               </li>
             ))}
           </ol>
+          <div className="mt-6 rounded-2xl border border-jade/40 bg-jade/10 p-4">
+            <p className="font-serif text-[1.0625rem] font-medium text-ink">{u.passBadgeTitle(PASS_HOURS, PASS_MAX_DEVICES)}</p>
+            <p className="mt-1 text-ui leading-relaxed text-ink-2">{u.passBadgeText}</p>
+          </div>
         </section>
 
         <div className="mt-10">

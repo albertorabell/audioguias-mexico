@@ -36,7 +36,7 @@ export const ui = defineGroup(
       PAsub: 'Etnografía',
     },
     home: {
-      subtitle: 'Escucha la historia de cada obra frente a su vitrina, sala por sala.',
+      subtitle: 'Escucha la historia de cada obra, templo o monumento justo donde estás.',
       venuesAria: 'Museos',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'sala', 'salas')} y ${plural(works, 'obra', 'obras')} explicadas`,
       enter: 'Entrar al museo',
@@ -44,12 +44,14 @@ export const ui = defineGroup(
       enterSite: 'Entrar al sitio',
       howTitle: 'Cómo funciona',
       howSteps: (free: number, hours: number, devices: number) => [
-        'Entra al museo y elige una sala, o sigue un recorrido ya armado.',
+        'Entra al museo o al sitio y elige una sala o una zona, o sigue un recorrido ya armado.',
         free > 0
-          ? `Frente a cada obra, escucha su historia. ${free} obras son gratis.`
-          : 'Frente a cada obra, escucha su historia.',
-        `Con el pase de ${hours} horas escuchas todo el museo, en hasta ${devices} teléfonos.`,
+          ? `En cada parada, escucha su historia. ${free} paradas son gratis.`
+          : 'En cada parada, escucha su historia.',
+        `Con el pase de ${hours} horas escuchas todo el sitio que elijas, en hasta ${devices} teléfonos.`,
       ],
+      passBadgeTitle: (hours: number, devices: number) => `Un pase de ${hours} horas, ${devices} teléfonos`,
+      passBadgeText: 'Ideal para ir en pareja o con amigos: activas el segundo teléfono con un código corto, sin trámites.',
     },
     museum: {
       startRoute: 'Empezar',
@@ -228,7 +230,7 @@ export const ui = defineGroup(
       PAsub: 'Ethnography',
     },
     home: {
-      subtitle: 'Hear the story of each work in front of its display case, room by room.',
+      subtitle: 'Hear the story of every work, temple or monument right where you stand.',
       venuesAria: 'Museums',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'room', 'rooms')} and ${plural(works, 'work', 'works')} explained`,
       enter: 'Enter the museum',
@@ -236,10 +238,12 @@ export const ui = defineGroup(
       enterSite: 'Enter the site',
       howTitle: 'How it works',
       howSteps: (free: number, hours: number, devices: number) => [
-        'Enter the museum and pick a room, or follow a ready-made tour.',
-        free > 0 ? `In front of each work, listen to its story. ${free} works are free.` : 'In front of each work, listen to its story.',
-        `With the ${hours}-hour pass you can hear the whole museum, on up to ${devices} phones.`,
+        'Enter a museum or a site and pick a room or a zone, or follow a ready-made tour.',
+        free > 0 ? `At each stop, listen to its story. ${free} stops are free.` : 'At each stop, listen to its story.',
+        `With the ${hours}-hour pass you can hear everything at the site you choose, on up to ${devices} phones.`,
       ],
+      passBadgeTitle: (hours: number, devices: number) => `One ${hours}-hour pass, ${devices} phones`,
+      passBadgeText: 'Ideal for couples or friends: activate the second phone with a short code, no hassle.',
     },
     museum: {
       startRoute: 'Start',
@@ -418,7 +422,7 @@ export const ui = defineGroup(
       PAsub: 'Ethnographie',
     },
     home: {
-      subtitle: 'Écoutez l’histoire de chaque œuvre devant sa vitrine, salle par salle.',
+      subtitle: 'Écoutez l’histoire de chaque œuvre, temple ou monument, là où vous vous trouvez.',
       venuesAria: 'Musées',
       venueStats: (rooms: number, works: number) => `${plural(rooms, 'salle', 'salles')} et ${plural(works, 'œuvre expliquée', 'œuvres expliquées')}`,
       enter: 'Entrer dans le musée',
@@ -426,12 +430,14 @@ export const ui = defineGroup(
       enterSite: 'Entrer sur le site',
       howTitle: 'Comment ça marche',
       howSteps: (free: number, hours: number, devices: number) => [
-        'Entrez dans le musée et choisissez une salle, ou suivez un parcours tout prêt.',
+        'Entrez dans un musée ou sur un site et choisissez une salle ou une zone, ou suivez un parcours tout prêt.',
         free > 0
-          ? `Devant chaque œuvre, écoutez son histoire. ${free} œuvres sont gratuites.`
-          : 'Devant chaque œuvre, écoutez son histoire.',
-        `Avec le pass de ${hours} heures, vous écoutez tout le musée, sur ${devices} téléphones maximum.`,
+          ? `À chaque étape, écoutez son histoire. ${free} étapes sont gratuites.`
+          : 'À chaque étape, écoutez son histoire.',
+        `Avec le pass de ${hours} heures, vous écoutez tout le site de votre choix, sur ${devices} téléphones maximum.`,
       ],
+      passBadgeTitle: (hours: number, devices: number) => `Un pass de ${hours} heures, ${devices} téléphones`,
+      passBadgeText: 'Idéal à deux ou entre amis : activez le second téléphone avec un court code, sans formalités.',
     },
     museum: {
       startRoute: 'Commencer',

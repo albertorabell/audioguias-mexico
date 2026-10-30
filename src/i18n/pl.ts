@@ -272,7 +272,7 @@ export const PL_GROUPS: Record<string, any> = {
     pass: { buy: 'Karnet', active: 'Karnet aktywny', activeTitle: 'Twój karnet jest aktywny', free: 'Wolny dostęp', freeTitle: 'Trwają testy: cała zawartość jest otwarta' },
     floors: { aria: 'Piętro', PB: 'Parter', PBsub: 'Archeologia', PA: 'Piętro', PAsub: 'Etnografia' },
     home: {
-      subtitle: 'Posłuchaj historii każdego dzieła przed jego gablotą, sala po sali.',
+      subtitle: 'Posłuchaj historii każdego dzieła, świątyni czy zabytku dokładnie tam, gdzie stoisz.',
       venuesAria: 'Muzea',
       venueStats: (r: number, w: number) => `${rooms(r)} i ${w} ${n(w, 'objaśnione dzieło', 'objaśnione dzieła', 'objaśnionych dzieł')}`,
       enter: 'Wejdź do muzeum',
@@ -280,12 +280,14 @@ export const PL_GROUPS: Record<string, any> = {
       enterSite: 'Wejdź na stanowisko',
       howTitle: 'Jak to działa',
       howSteps: (free: number, hours: number, devices: number) => [
-        'Wejdź do muzeum i wybierz salę albo gotową trasę.',
+        'Wejdź do muzeum lub na stanowisko i wybierz salę albo strefę, albo gotową trasę.',
         free > 0
-          ? `Przed każdym dziełem posłuchaj jego historii. Bezpłatnych dzieł: ${free}.`
-          : 'Przed każdym dziełem posłuchaj jego historii.',
-        `Z ${hours}-godzinnym karnetem słuchasz całego muzeum, na maksymalnie ${devices} telefonach.`,
+          ? `Na każdym przystanku posłuchaj jego historii. Bezpłatnych przystanków: ${free}.`
+          : 'Na każdym przystanku posłuchaj jego historii.',
+        `Z ${hours}-godzinnym karnetem słuchasz wszystkiego w wybranym miejscu, na maksymalnie ${devices} telefonach.`,
       ],
+      passBadgeTitle: (hours: number, devices: number) => `Jeden ${hours}-godzinny karnet, ${devices} telefony`,
+      passBadgeText: 'Idealny dla par i przyjaciół: drugi telefon aktywujesz krótkim kodem, bez formalności.',
     },
     museum: {
       startRoute: 'Start',
