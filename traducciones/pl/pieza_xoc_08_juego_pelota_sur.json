@@ -1,0 +1,55 @@
+{
+  "id": "xoc_08_juego_pelota_sur",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "36a3b24f383aff15",
+      "texto": "Południowe boisko do gry w piłkę"
+    },
+    "frase_gancho": {
+      "hash": "f515948db790b743",
+      "texto": "Największe boisko w mieście, z papugą ara, która dziś mieszka w innym muzeum."
+    },
+    "puente_narrativo": {
+      "hash": "f1240afc029a50a9",
+      "texto": "Kontynuuj swoją trasę: kilka kroków dalej jest inna przestrzeń, która opowiada, jak mierzono czas w mieście."
+    },
+    "guion_corto": {
+      "hash": "3976c02952663bbe",
+      "texto": "W kształcie wielkiej litery I to największe boisko do gry w piłkę w Xochicalco. Leży na najniższym tarasie i wciąż zachowuje dwa ze swoich znaczników. W tym miejscu znaleziono rzeźbę w kształcie ary, która dziś jest wystawiona w Narodowym Muzeum Antropologii. Medina Romero, dyrektor strefy, wyjaśnia, że Xochicalco miało trzy boiska i że to, największe i najłatwiej dostępne, mogło służyć ogółowi ludności. Gra w piłkę była sportem, ale też rytuałem. Grano gumową piłką, a boisko, ze skośnymi murami, było przestrzenią reguł, zakładów i ceremonii."
+    },
+    "guion_largo": {
+      "hash": "adf848bd94ba709d",
+      "texto": "Są miejsca rozpoznawane po kształcie. To ma kształt wielkiej litery I.\n\nPrzewodnik INAH wyjaśnia, że południowe boisko do gry w piłkę znajduje się na piątym tarasie, najniższym, i że zachowuje dwa znaczniki na miejscu. Znaczniki były kamieniami umieszczanymi w ścianach boiska. Na tym boisku znaleziono też rzeźbę ary. Dziś znajduje się w Narodowym Muzeum Antropologii.\n\nMedina Romero, dyrektor strefy, wskazuje, że Xochicalco miało trzy boiska zorientowane ku trzem z czterech stron świata. To południowe jest największe i najłatwiej dostępne i dlatego uważa się, że służyło ogółowi ludności. Hirth naliczył pięć: trzy na głównym wzgórzu i dwa na sąsiednich wzgórzach.\n\nW grę w piłkę grano pełną gumową piłką. Według opisów stanowiska gracze uderzali ją biodrami. Skośne mury boiska pomagały, aby piłka się odbijała i pozostawała w grze.\n\nGra w piłkę była czymś znacznie więcej niż sportem. W Mezoameryce miała stronę rytualną i polityczną. Mecze mogły być ceremoniami, a boiska miejscami spotkań wspólnoty.\n\nJeśli stoisz na boisku, zwróć uwagę na kształt. Wyobraź sobie dwie drużyny, ciężką piłkę, która wędruje tam i z powrotem, i publiczność po bokach. Dźwięk gumy uderzającej o kamień, krzyki, kurz.\n\nNie był to ukryty budynek. Było to boisko dla wszystkich."
+    },
+    "retos_observacion": {
+      "hash": "dcbe4b9ccafc76ad",
+      "texto": [
+        "Spójrz na kształt wielkiej litery I boiska",
+        "Poszukaj znaczników, które wciąż są na swoim miejscu",
+        "Wyobraź sobie, gdzie stali ludzie podczas gry"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b645859b673d00c",
+      "texto": {
+        "Kształt": "wielka litera I",
+        "Lokalizacja": "piąty taras, najniższy",
+        "Znaczniki": "dwa zachowane",
+        "Przedmiot znaleziony tutaj": "ara, dziś w Narodowym Muzeum Antropologii",
+        "Boiska w mieście": "trzy na głównym wzgórzu, według Hirtha i Mediny"
+      }
+    },
+    "faq_mito": {
+      "hash": "a9e6bbfb5b07592a",
+      "texto": {
+        "pregunta": "Mit: Gra w piłkę była tylko sportem.",
+        "respuesta": "Rzeczywistość: Była grą, ale też rytuałem i przestrzenią polityczną dla wspólnoty."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "xoc_05_plaza_estela_dos_glifos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "05467670e0464cb0",
+      "texto": "Plac Steli Dwóch Glifów"
+    },
+    "frase_gancho": {
+      "hash": "6ef5dfa286f1851b",
+      "texto": "Otwarty plac, na którym obserwowano wschód Słońca w czasie równonocy i przesileń."
+    },
+    "puente_narrativo": {
+      "hash": "03891ee7e0a571e2",
+      "texto": "Kontynuuj swoją trasę: to, co następuje, jest częścią miasta, które żyło z handlu i pracy."
+    },
+    "guion_corto": {
+      "hash": "9ba2d5b84ac82855",
+      "texto": "Wyobraź sobie ten plac o świcie, pełen ludzi. To szeroka przestrzeń publiczna, otoczona przez Bazy C i D oraz przez Wielką Piramidę od północy. Stała tu stela z dwoma glifami. Jeden to rok, dziesięć trzcina, a drugi to dzień, dziewięć oko gada. To, co widzisz na tym placu, to replika; oryginał był jedną z czterech stel znalezionych na stanowisku. INAH wyjaśnia, że plac służył do obserwowania wschodu Słońca w czasie równonocy i przesileń. Jest też częścią zespołu targowego. To znaczy, że w tym samym miejscu handlowano, świętowano i mierzono czas. Niektórzy mówią, że plac ma dobrą akustykę; jeśli powiesz coś głośno, przekonasz się, że dźwięk się odbija."
+    },
+    "guion_largo": {
+      "hash": "bd635cbae1cca7b8",
+      "texto": "Wyobraź sobie ten plac o świcie, z ludźmi stojącymi i patrzącymi na wschód. Tak sugeruje INAH: plac służył do obserwowania wschodu Słońca w czasie równonocy i przesileń.\n\nTo duża przestrzeń publiczna, ograniczona z trzech stron. Na zachodzie jest Baza D. Na wschodzie Baza C. A na północy wznosi się Wielka Piramida, o której wkrótce powiemy. Według INAH ten plac jest częścią zespołu targowego miasta.\n\nDlatego nazywa się Placem Steli Dwóch Glifów. Stela to wysoki kamień z reliefami. W tym przypadku nosiła dwa glify, czyli dwa znaki pisma. Jeden to rok, a drugi to dzień. Czyta się je jako rok dziesięć trzcina, dzień dziewięć oko gada.\n\nTo, co tu widzisz, to replika. Oryginalna stela była jedną z czterech znalezionych na stanowisku, według przewodnika INAH. Dyrektor strefy, Medina Romero, wiąże tę datę z piramidą: proponuje, że rok dziesięć i dzień dziewięć oko gada odpowiadają jej inauguracji. To propozycja, a nie ostateczny fakt.\n\nData pojawia się też w piśmie miasta. Specjaliści Christophe Helmke i Jesper Nielsen zwracają uwagę na dziewięć trzcina na Piramidzie Pierzastych Węży i wiążą je z ceremonią Nowego Ognia. W tym piśmie wciąż jest wiele do odczytania.\n\nJeszcze jeden szczegół: Medina wspomina, że ten plac ma dobrą akustykę. Jeśli powiesz coś na głos, zauważysz, jak dźwięk wypełnia przestrzeń. Wyobraź sobie ważne ogłoszenie wygłoszone tutaj, przed zgromadzonym miastem.\n\nZanim odejdziesz, zorientuj się względem Słońca. Spójrz tam, gdzie wschodzi. Takie miejsce służy do przeżywania kalendarza ciałem: czekania, patrzenia i wiedzenia, jaki jest dzień.\n\nAndrews i Glascock dodają inny fakt: na tym placu pojawiło się wiele grotów, i proponują, że gromadzono tu uzbrojonych wojowników do działań wojskowych. Plac łączy rzeczy, które w naszym życiu są oddzielone: targ, ceremonię, kalendarz i broń. W Xochicalco wszystko dzieliło ten sam grunt."
+    },
+    "retos_observacion": {
+      "hash": "df934e9cbc6f930c",
+      "texto": [
+        "Spójrz tam, gdzie wschodzi Słońce, i pomyśl, co można było stąd ogłaszać",
+        "Znajdź Bazy C i D oraz Wielką Piramidę, które ograniczają plac",
+        "Powiedz coś na głos i posłuchaj, jak brzmi przestrzeń"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4ed9544bd51fc8f1",
+      "texto": {
+        "Stela": "replika; oryginał był jedną z czterech znalezionych",
+        "Glify": "rok dziesięć trzcina i dzień dziewięć oko gada",
+        "Granice": "Baza D na zachodzie, Baza C na wschodzie, Wielka Piramida na północy",
+        "Użycie": "obserwowanie Słońca w czasie równonocy i przesileń"
+      }
+    },
+    "faq_mito": {
+      "hash": "82bcc4873039961f",
+      "texto": {
+        "pregunta": "Mit: Stela, którą widzisz, jest oryginałem.",
+        "respuesta": "Rzeczywistość: To replika. Oryginał jest zabezpieczony i liczy się jako jedna z czterech znalezionych stel."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "xoc_05_plaza_estela_dos_glifos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "05467670e0464cb0",
+      "texto": "Plaza of the Stela of the Two Glyphs"
+    },
+    "frase_gancho": {
+      "hash": "6ef5dfa286f1851b",
+      "texto": "An open plaza where people watched the Sun rise at the equinoxes and solstices."
+    },
+    "puente_narrativo": {
+      "hash": "03891ee7e0a571e2",
+      "texto": "Continue your route: what follows is part of the city that lived from trade and work."
+    },
+    "guion_corto": {
+      "hash": "9ba2d5b84ac82855",
+      "texto": "Imagine this plaza at dawn, full of people. It is a wide public space, surrounded by Bases C and D and by the Great Pyramid to the north. A stela with two glyphs stood here. One is a year, ten reed, and the other a day, nine reptile eye. What you see in this plaza is a replica; the original was one of the four stelae found at the site. The INAH explains that the plaza was used to watch the sunrise at the equinoxes and the solstices. It is also part of the market complex. That is, in the same place people traded, celebrated and measured time. Some say the plaza has good acoustics; if you speak loudly, you will find that the sound bounces."
+    },
+    "guion_largo": {
+      "hash": "bd635cbae1cca7b8",
+      "texto": "Imagine this plaza at dawn, with people standing and looking east. That is what the INAH suggests: the plaza was used to watch the sunrise at the equinoxes and the solstices.\n\nIt is a large public space, bounded on three sides. To the west is Base D. To the east, Base C. And to the north rises the Great Pyramid, which we will talk about soon. According to the INAH, this plaza is part of the city’s market complex.\n\nThat is why it is called the Plaza of the Stela of the Two Glyphs. A stela is a tall stone with reliefs. In this case it carried two glyphs, that is, two signs of writing. One is a year and the other a day. It reads as year ten reed, day nine reptile eye.\n\nWhat you see here is a replica. The original stela was one of the four found at the site, according to the INAH guide. The director of the zone, Medina Romero, links that date to the pyramid: he proposes that the year ten and the day nine reptile eye correspond to its inauguration. It is a proposal, not a closed fact.\n\nThe date also appears in the city’s writing. The specialists Christophe Helmke and Jesper Nielsen point out a nine reed on the Pyramid of the Feathered Serpents, and link it to a New Fire ceremony. There is still much to decipher in this writing.\n\nOne more detail: Medina mentions that this plaza has good acoustics. If you speak aloud, you will notice how the sound fills the space. Imagine an important announcement made here, before the assembled city.\n\nBefore you leave, get your bearings with respect to the Sun. Look toward where it rises. A place like this serves to live the calendar with the body: to wait, to watch and to know what day it is.\n\nAndrews and Glascock add another fact: many projectile points appeared in this plaza, and they propose that armed warriors were gathered here for military activities. The plaza brings together things that in our lives are separate: market, ceremony, calendar and weapons. In Xochicalco, everything shared the same ground."
+    },
+    "retos_observacion": {
+      "hash": "df934e9cbc6f930c",
+      "texto": [
+        "Look toward where the Sun rises and think about what could be announced from here",
+        "Find Bases C and D and the Great Pyramid that bound the plaza",
+        "Speak aloud and listen to how the space sounds"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4ed9544bd51fc8f1",
+      "texto": {
+        "Stela": "replica; the original was one of four found",
+        "Glyphs": "year ten reed and day nine reptile eye",
+        "Boundaries": "Base D to the west, Base C to the east, Great Pyramid to the north",
+        "Use": "watching the Sun at the equinoxes and solstices"
+      }
+    },
+    "faq_mito": {
+      "hash": "82bcc4873039961f",
+      "texto": {
+        "pregunta": "Myth: The stela you see is the original.",
+        "respuesta": "Reality: It is a replica. The original is safeguarded and counts as one of the four stelae found."
+      }
+    }
+  }
+}

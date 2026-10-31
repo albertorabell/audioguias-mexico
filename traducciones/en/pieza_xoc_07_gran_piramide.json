@@ -1,0 +1,54 @@
+{
+  "id": "xoc_07_gran_piramide",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dead4c0a601fbc15",
+      "texto": "The Great Pyramid"
+    },
+    "frase_gancho": {
+      "hash": "7f585051c87022e2",
+      "texto": "A building of three levels over one of four, perhaps dedicated to Tláloc."
+    },
+    "puente_narrativo": {
+      "hash": "e9fb329e876a5bab",
+      "texto": "Follow your route: what comes next tells what was at stake in this city."
+    },
+    "guion_corto": {
+      "hash": "da6b17663c7aa71a",
+      "texto": "If the Pyramid of the Feathered Serpents is the most famous, the Great Pyramid dominates the plaza below. It is north of the Stela Plaza and, according to the INAH guide, it has a base of three levels that supports a structure of four. Some think it was dedicated to Tláloc, god of rain. Kenneth Hirth explains that in the central plaza, at the foot of this building, dignitaries from nearby communities gathered for public ceremonies. It was the setting for meetings among those who governed. A city that depended on rain and on alliances with its neighbors needed a place like this: big, visible and known to all."
+    },
+    "guion_largo": {
+      "hash": "f644be5fde2317ec",
+      "texto": "There are buildings that can be seen from far away because they want to be seen. The Great Pyramid is one of them.\n\nThe INAH guide places it north of the Plaza of the Stela of the Two Glyphs. It explains that it has a base of three levels that supports a structure of four. It is a stepped pyramid, with terraces that keep rising.\n\nAlvarado León describes it as dedicated to the deity of storms and as the second largest structure by volume in the city. Medina Romero associates it with the cult of Tláloc, the god of rain. The INAH guide says it was possibly dedicated to him. The important word is possibly. There is no inscription that confirms it.\n\nKenneth Hirth offers another idea. In the central plaza, at the foot of the Great Pyramid, dignitaries from nearby communities gathered to take part in public ceremonies. In other words, it was not only a temple. It was a political stage.\n\nThink about what that means. A city that dominated a region needed allies and needed to show power. Summoning the neighboring chiefs to a great building, at the foot of a pyramid dedicated to a rain god, helped seal agreements and remind everyone who was in charge.\n\nIn a land of rain-fed crops, rain was life. Asking for it and giving thanks for it was a form of politics.\n\nAndrews and Glascock tell that at the summit an offering bundle appeared with ten large pieces of obsidian of special shapes. Nearby was a large knife that may have been used in sacrificial rituals. If you get closer, notice the stairs and the levels that shorten as they rise. It is a device that gives a sense of height and weight. Architecture speaks too.\n\nThere is also an open question. The Great Pyramid was excavated and consolidated, but it is far less known than the Pyramid of the Feathered Serpents. Perhaps it does not have such famous reliefs. But it was the one that first received whoever arrived at the plaza below, before climbing to [the Main Plaza](xoc_12_plaza_principal_accesos)."
+    },
+    "retos_observacion": {
+      "hash": "831461930595d7aa",
+      "texto": [
+        "Count the levels of the base and those of the structure above",
+        "See how it looks from the Stela Plaza",
+        "Imagine the dignitaries from other towns gathered at the foot of the building"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7e7a74fb9b627935",
+      "texto": {
+        "Location": "north of the Stela Plaza",
+        "Structure": "base of three levels and structure of four",
+        "Possible dedication": "Tláloc, god of rain",
+        "Use": "public ceremonies with dignitaries from other communities, according to Hirth"
+      }
+    },
+    "faq_mito": {
+      "hash": "69b9825372d069c3",
+      "texto": {
+        "pregunta": "Myth: The Great Pyramid is the Pyramid of the Feathered Serpents.",
+        "respuesta": "Reality: They are two different buildings. The one of the Serpents is on the Main Plaza; the Great Pyramid, on the middle level."
+      }
+    }
+  }
+}

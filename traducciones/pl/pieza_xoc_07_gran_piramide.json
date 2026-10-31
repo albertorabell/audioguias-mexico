@@ -1,0 +1,54 @@
+{
+  "id": "xoc_07_gran_piramide",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dead4c0a601fbc15",
+      "texto": "Wielka Piramida"
+    },
+    "frase_gancho": {
+      "hash": "7f585051c87022e2",
+      "texto": "Budowla o trzech kondygnacjach na podstawie czterech, być może poświęcona Tlálocowi."
+    },
+    "puente_narrativo": {
+      "hash": "e9fb329e876a5bab",
+      "texto": "Podążaj swoją trasą: to, co nadchodzi, opowiada, o co toczyła się gra w tym mieście."
+    },
+    "guion_corto": {
+      "hash": "da6b17663c7aa71a",
+      "texto": "Jeśli Piramida Pierzastych Węży jest najsłynniejsza, Wielka Piramida dominuje nad placem poniżej. Leży na północ od Placu Steli i według przewodnika INAH ma podstawę z trzech kondygnacji, która podtrzymuje konstrukcję z czterech. Niektórzy sądzą, że była poświęcona Tlálocowi, bogu deszczu. Kenneth Hirth wyjaśnia, że na centralnym placu, u stóp tej budowli, gromadzili się dostojnicy z pobliskich wspólnot na ceremonie publiczne. Była sceną spotkań tych, którzy rządzili. Miasto, które zależało od deszczu i od sojuszy z sąsiadami, potrzebowało takiego miejsca: wielkiego, widocznego i znanego wszystkim."
+    },
+    "guion_largo": {
+      "hash": "f644be5fde2317ec",
+      "texto": "Są budowle widoczne z daleka, bo chcą być widoczne. Wielka Piramida jest jedną z nich.\n\nPrzewodnik INAH umieszcza ją na północ od Placu Steli Dwóch Glifów. Wyjaśnia, że ma podstawę z trzech kondygnacji, która podtrzymuje konstrukcję z czterech. To piramida schodkowa, z tarasami, które się wznoszą.\n\nAlvarado León opisuje ją jako poświęconą bóstwu burz i jako drugą pod względem objętości budowlę miasta. Medina Romero wiąże ją z kultem Tláloca, boga deszczu. Przewodnik INAH mówi, że prawdopodobnie była mu poświęcona. Ważne jest słowo prawdopodobnie. Nie ma inskrypcji, która by to potwierdzała.\n\nKenneth Hirth przedstawia inną myśl. Na centralnym placu, u stóp Wielkiej Piramidy, gromadzili się dostojnicy z pobliskich wspólnot, aby uczestniczyć w ceremoniach publicznych. Innymi słowy, nie była tylko świątynią. Była sceną polityczną.\n\nPomyśl, co to znaczy. Miasto, które dominowało nad regionem, potrzebowało sojuszników i musiało pokazywać siłę. Zwołanie sąsiednich wodzów pod wielką budowlą, u stóp piramidy poświęconej bogu deszczu, pomagało przypieczętować umowy i przypomnieć, kto rządzi.\n\nW ziemi upraw zależnych od deszczu deszcz oznaczał życie. Proszenie o niego i dziękowanie za niego było formą polityki.\n\nAndrews i Glascock opowiadają, że na szczycie pojawił się węzeł ofiarny z dziesięcioma dużymi kawałkami obsydianu o szczególnych kształtach. Obok leżał duży nóż, który mógł służyć w rytuałach ofiarnych. Jeśli podejdziesz bliżej, zwróć uwagę na schody i na kondygnacje, które skracają się ku górze. To zabieg dający poczucie wysokości i ciężaru. Architektura też mówi.\n\nJest też otwarte pytanie. Wielką Piramidę wykopano i skonsolidowano, ale jest znacznie mniej znana niż Piramida Pierzastych Węży. Może nie ma tak słynnych reliefów. Ale to ona jako pierwsza przyjmowała tego, kto przybywał na plac poniżej, zanim wszedł na [Plac Główny](xoc_12_plaza_principal_accesos)."
+    },
+    "retos_observacion": {
+      "hash": "831461930595d7aa",
+      "texto": [
+        "Policz kondygnacje podstawy i te konstrukcji powyżej",
+        "Zobacz, jak wygląda z Placu Steli",
+        "Wyobraź sobie dostojników z innych wsi zgromadzonych u stóp budowli"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7e7a74fb9b627935",
+      "texto": {
+        "Lokalizacja": "na północ od Placu Steli",
+        "Konstrukcja": "podstawa z trzech kondygnacji i konstrukcja z czterech",
+        "Możliwe poświęcenie": "Tláloc, bóg deszczu",
+        "Użycie": "ceremonie publiczne z dostojnikami z innych wspólnot, według Hirtha"
+      }
+    },
+    "faq_mito": {
+      "hash": "69b9825372d069c3",
+      "texto": {
+        "pregunta": "Mit: Wielka Piramida to Piramida Pierzastych Węży.",
+        "respuesta": "Rzeczywistość: To dwie różne budowle. Piramida Węży stoi na Placu Głównym; Wielka Piramida, na poziomie pośrednim."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "xoc_08_juego_pelota_sur",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "36a3b24f383aff15",
+      "texto": "The South Ball Court"
+    },
+    "frase_gancho": {
+      "hash": "f515948db790b743",
+      "texto": "The largest court in the city, with a macaw that now lives in another museum."
+    },
+    "puente_narrativo": {
+      "hash": "f1240afc029a50a9",
+      "texto": "Continue your route: a few steps away there is another space that tells how time was measured in the city."
+    },
+    "guion_corto": {
+      "hash": "3976c02952663bbe",
+      "texto": "Shaped like a capital letter I, this is the largest ball court in Xochicalco. It sits on the lowest terrace and still keeps two of its markers. A sculpture shaped like a macaw was found at this spot, and it is now displayed in the National Museum of Anthropology. Medina Romero, director of the zone, explains that Xochicalco had three courts and that this one, the largest and easiest to reach, may have served the general population. The ball game was a sport, but also a ritual. It was played with a rubber ball, and the court, with its sloping walls, was a space of rules, bets and ceremony."
+    },
+    "guion_largo": {
+      "hash": "adf848bd94ba709d",
+      "texto": "There are places recognized by their shape. This one has the shape of a capital letter I.\n\nThe INAH guide explains that the south ball court is on the fifth terrace, the lowest, and that it keeps two markers in place. The markers were stones set into the walls of the court. In this court, a macaw sculpture was also found. Today it is in the National Museum of Anthropology.\n\nMedina Romero, director of the zone, indicates that Xochicalco had three courts oriented toward three of the four cardinal points. The south one is the largest and the easiest to reach, and that is why it is thought to have served the general population. Hirth counts five: three on the main hill and two more on neighboring hills.\n\nThe ball game was played with a solid rubber ball. According to the descriptions of the site, players struck it with their hips. The sloping walls of the court helped the ball rebound and stay in play.\n\nThe ball game was much more than a sport. In Mesoamerica it had a ritual side and a political side. Matches could be ceremonies, and courts, meeting places for the community.\n\nIf you are standing on the court, notice the shape. Imagine two teams, a heavy ball going back and forth, and spectators along the sides. The sound of rubber against stone, the shouting, the dust.\n\nIt was not a hidden building. It was a court for everyone."
+    },
+    "retos_observacion": {
+      "hash": "dcbe4b9ccafc76ad",
+      "texto": [
+        "Look at the capital-I shape of the court",
+        "Look for the markers that are still in place",
+        "Imagine where people were while the game was played"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b645859b673d00c",
+      "texto": {
+        "Shape": "capital letter I",
+        "Location": "fifth terrace, the lowest",
+        "Markers": "two preserved",
+        "Piece found here": "macaw, now in the National Museum of Anthropology",
+        "Courts of the city": "three on the main hill, according to Hirth and Medina"
+      }
+    },
+    "faq_mito": {
+      "hash": "a9e6bbfb5b07592a",
+      "texto": {
+        "pregunta": "Myth: The ball game was only a sport.",
+        "respuesta": "Reality: It was a game, but also a ritual and a political space for the community."
+      }
+    }
+  }
+}
