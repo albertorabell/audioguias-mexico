@@ -1,0 +1,53 @@
+{
+  "id": "xoc_26_templo_arquitectos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "914f5b01128cc0bd",
+      "texto": "Świątynia Architektów"
+    },
+    "frase_gancho": {
+      "hash": "4e475670f5712dc0",
+      "texto": "Dziedziniec, na którym pojawiły się narzędzia budowlane."
+    },
+    "puente_narrativo": {
+      "hash": "0d1efbba7db61079",
+      "texto": "Podążaj swoją trasą: kontynuuj przez przestrzenie pracy i władzy w mieście."
+    },
+    "guion_corto": {
+      "hash": "ee5c4f2b792e04eb",
+      "texto": "Ta budowla nazywa się Świątynią Architektów, także Zagłębionym Dziedzińcem. Według przewodnika INAH pojawiły się tam narzędzia budowlane: pionki, mieszadła i polerki. Pion to nić z ciężarkiem, służąca do sprawdzania, czy ściana jest pionowa. Polerka wygładza powierzchnię kamienia. INAH Lugares opisuje w zespole wschodnim prostokątny budynek z zagłębionym dziedzińcem, którym może być ten sam. Nowoczesne nazwy mówią więcej o tych, którzy je nadali, niż o tych, którzy budowali. Mimo to widok narzędzi budowlanych przypomina, że ktoś musiał zmierzyć, wypoziomować i wygładzić każdy kamień. To dobre miejsce, by pomyśleć o zawodach."
+    },
+    "guion_largo": {
+      "hash": "12bca65ed3488fc0",
+      "texto": "Nazwa brzmi jak tytuł, ale pochodzi od tego, co tu znaleziono.\n\nNazywa się Świątynią Architektów, a także Zagłębionym Dziedzińcem. Według przewodnika INAH w tym miejscu pojawiły się narzędzia budowlane: pionki, mieszadła i polerki.\n\nPion to nić z ciężarkiem na końcu. Służy do sprawdzania, czy mur jest prosty. Polerka to kamień, którym wygładza się powierzchnię innego.\n\nINAH Lugares wspomina w zespole wschodnim prostokątny budynek z zagłębionym dziedzińcem. Może to być ten sam.\n\nNowoczesne nazwy mówią więcej o tych, którzy je nadali, niż o tych, którzy budowali. Nikt nie wie, jak ten budynek nazywał się w mieście. Wiemy natomiast to, co sugeruje znalezisko: przechowywano tu lub używano narzędzi budowlanych.\n\nPomyśl o pracy kryjącej się za takim miastem. Ktoś musiał mierzyć, poziomować, ciąć i polerować każdy kamień oraz wytyczać tarasy na wzgórzu.\n\nGdy spojrzysz na zagłębiony dziedziniec, wyobraź sobie te narzędzia na podłodze. To sposób, by zobaczyć budowniczych, a nie tylko władców."
+    },
+    "retos_observacion": {
+      "hash": "5b60a2a6220bcbb5",
+      "texto": [
+        "Poszukaj zagłębionego dziedzińca",
+        "Wyobraź sobie, gdzie mogły być narzędzia",
+        "Pomyśl, ilu ludzi trzeba by, aby wznieść taką budowlę"
+      ]
+    },
+    "especificaciones": {
+      "hash": "779a73f4796f3331",
+      "texto": {
+        "Nazwy": "Świątynia Architektów i Zagłębiony Dziedziniec",
+        "Znalezisko": "pionki, mieszadła i polerki, według przewodnika INAH",
+        "Lokalizacja": "zespół wschodni"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c12928ab59318a5",
+      "texto": {
+        "pregunta": "Mit: Świątynia to zawsze miejsce tylko dla bogów.",
+        "respuesta": "Rzeczywistość: Współczesna nazwa pochodzi od znalezionych narzędzi budowlanych, a nie od udowodnionej funkcji religijnej."
+      }
+    }
+  }
+}

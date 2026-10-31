@@ -1,0 +1,52 @@
+{
+  "id": "xoc_25_rampa_animales",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3a56045fcf6104e3",
+      "texto": "La Rampe des Animaux"
+    },
+    "frase_gancho": {
+      "hash": "c0882d86c6316e79",
+      "texto": "Des dalles aux animaux gravés, entre le réel et le mythique."
+    },
+    "puente_narrativo": {
+      "hash": "72cabd1cd78791b8",
+      "texto": "Poursuivez votre itinéraire : continuez vers les espaces de l’ensemble est."
+    },
+    "guion_corto": {
+      "hash": "c1dd49bd20b1aab1",
+      "texto": "Cette rampe est formée de dalles aux animaux gravés. Selon le guide de l’INAH, elle compte deux cent soixante-dix dalles. México Desconocido en compte deux cent cinquante-cinq, et Medina Romero deux cent soixante et onze. Les chiffres ne concordent pas, nous dirons donc plus de deux cent cinquante. Medina Romero dit que beaucoup des espèces gravées existent encore. Hirth parle d’animaux mythiques. Une rampe est un chemin incliné, sans marches. Ici, la pierre a dessiné la faune de la région. Les os trouvés dans la ville disent quelque chose de semblable : jaguar et crocodile dans les zones hautes, cerf et chien à tous les niveaux. Cherchez un animal que vous connaissez et un autre qui ne vous dit rien."
+    },
+    "guion_largo": {
+      "hash": "dbab06b10933f6d1",
+      "texto": "Une rampe est un chemin incliné, sans marches. Celle-ci a quelque chose de spécial : elle est faite de dalles aux animaux gravés.\n\nSelon le guide de l’INAH, elle compte deux cent soixante-dix dalles. México Desconocido en compte deux cent cinquante-cinq. Medina Romero parle de deux cent soixante et onze, sur un total de plus de quatre cents dalles gravées trouvées sur le site. Les chiffres ne concordent pas. C’est pourquoi nous disons ici : plus de deux cent cinquante.\n\nMedina Romero ajoute que beaucoup des espèces gravées existent encore. C’est-à-dire que ceux qui les ont taillées regardaient leur environnement et le dessinaient dans la pierre. Kenneth Hirth parle, lui, d’animaux mythiques. Les deux descriptions peuvent être vraies à la fois : une rampe avec une faune réelle et une faune imaginée.\n\nL’INAH Lugares explique que la rampe se relie au terrain de jeu de balle de l’est. Cela suggère que le jeu et la rampe faisaient partie du même ensemble.\n\nLes restes d’animaux de la ville racontent quelque chose de semblable. Selon Eduardo Corona, le jaguar, le pécari, le chat sauvage et le crocodile de rivière apparaissent surtout dans les zones hautes, presque toujours transformés en ornements ou en offrandes. Le cerf, le chien et le puma apparaissent à tous les niveaux. Dans la partie basse, il y a des poissons-chats, des canards, des tortues et des loutres.\n\nCherchez un animal que vous connaissez et un autre qui ne vous dit rien. Songez que quelqu’un a choisi quels animaux mettre et dans quel ordre."
+    },
+    "retos_observacion": {
+      "hash": "17b89e4589d74581",
+      "texto": [
+        "Cherchez un animal que vous connaissez",
+        "Cherchez-en un que vous ne pouvez pas identifier",
+        "Demandez-vous pourquoi quelqu’un a choisi de graver des animaux sur le sol d’une rampe"
+      ]
+    },
+    "especificaciones": {
+      "hash": "187be9984d824804",
+      "texto": {
+        "Dalles gravées": "deux cent soixante-dix (INAH), deux cent cinquante-cinq (México Desconocido), deux cent soixante et onze sur plus de quatre cents (Medina Romero)",
+        "Liaison": "avec le terrain est, selon l’INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "ed6e47c9ab03776a",
+      "texto": {
+        "pregunta": "Mythe : Tous les animaux de la rampe sont mythiques.",
+        "respuesta": "Réalité : Medina Romero indique que beaucoup des espèces gravées existent encore. Hirth, lui, parle d’animaux mythiques."
+      }
+    }
+  }
+}

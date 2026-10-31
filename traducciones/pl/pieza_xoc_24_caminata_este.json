@@ -1,0 +1,53 @@
+{
+  "id": "xoc_24_caminata_este",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "bed06095b55b4554",
+      "texto": "Spacer: ku zespołowi wschodniemu"
+    },
+    "frase_gancho": {
+      "hash": "e42e817f8f630cb7",
+      "texto": "Odcinek ku rampie, zagłębionemu dziedzińcowi i trzem świątyniom."
+    },
+    "puente_narrativo": {
+      "hash": "19d88a5c8fc91082",
+      "texto": "Kontynuuj swoją trasę: idź dalej ku wschodniej części miasta."
+    },
+    "guion_corto": {
+      "hash": "6a73044044c7c784",
+      "texto": "Ten spacer prowadzi cię do zespołu wschodniego, wschodniej części miasta. Według INAH Lugares jest tam prostokątny budynek z zagłębionym dziedzińcem, dziedziniec z trzema platformami piramidalnymi i boisko do gry w piłkę. Jest też Rampa Zwierząt. Przewodnik INAH mówi o trzech świątyniach, rampie i Świątyni Architektów. Idąc, zwróć uwagę, jak zmienia się krajobraz. Według INAH Lugares miasto zajęło sześć niskich wzgórz, z tarasami i murami oporowymi. Pomyśl, że każda droga wznosi się, opada i obchodzi te wzgórza. To, co następuje, to kilka przystanków w tej strefie."
+    },
+    "guion_largo": {
+      "hash": "72ea43f860e389de",
+      "texto": "Ten spacer prowadzi cię do zespołu wschodniego, wschodniej części miasta.\n\nWedług INAH Lugares jest tam prostokątny budynek z zagłębionym dziedzińcem, dziedziniec z trzema platformami piramidalnymi i boisko do gry w piłkę. Jest też Rampa Zwierząt, która łączy się z tym boiskiem.\n\nPrzewodnik INAH mówi o trzech świątyniach, rampie i Świątyni Architektów, zwanej też Zagłębionym Dziedzińcem. To znaczy, że jest to zespół z kilkoma budynkami zgrupowanymi razem.\n\nIdąc, zwróć uwagę, jak zmienia się krajobraz. Według INAH Lugares miasto zajęło sześć niskich wzgórz, z tarasami i murami oporowymi. To znaczy, że każda droga wznosi się, opada i obchodzi wzgórza. Mur oporowy to taki, który podtrzymuje ziemię tarasu, aby się nie osuwała.\n\nUNESCO uważa, że Xochicalco miało trzy poziomy: niski, pośredni i wysoki. Według Hirtha miasto rosło bardzo szybko około roku sześćsetnego i przesiedliło od dziesięciu do piętnastu tysięcy ludzi.\n\nKolejne przystanki mają miejsce w tej strefie. Nie trzeba się spieszyć."
+    },
+    "retos_observacion": {
+      "hash": "8a81f85c8ad2a18f",
+      "texto": [
+        "Zwróć uwagę, jak zmienia się krajobraz",
+        "Policz, ile wzgórz możesz zobaczyć",
+        "Słuchaj, idąc, nie patrząc na ekran"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d0541de5c6f85f7",
+      "texto": {
+        "Cel": "zespół wschodni",
+        "Przestrzenie": "prostokątny budynek z zagłębionym dziedzińcem, dziedziniec z trzema platformami piramidalnymi, boisko i rampa, według INAH Lugares",
+        "Zajęte wzgórza": "sześć, według INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7957f59da6106b7",
+      "texto": {
+        "pregunta": "Mit: Xochicalco zajmuje jedno wzgórze.",
+        "respuesta": "Rzeczywistość: Według INAH Lugares zajęło sześć niskich wzgórz, z tarasami i murami."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "xoc_28_alzate_exploradores",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7911e2b7a418affa",
+      "texto": "The First Eyes: Alzate and the Explorers"
+    },
+    "frase_gancho": {
+      "hash": "cf2bf7263cb69cf1",
+      "texto": "An eighteenth-century scholar who drew what others did not dare to see."
+    },
+    "puente_narrativo": {
+      "hash": "2bca5b004f843ad8",
+      "texto": "Follow your route: now it is time to close the tour with what happened to the city."
+    },
+    "guion_corto": {
+      "hash": "da1ccab412c0c98f",
+      "texto": "There is a reason we know this building so well: someone drew it more than two hundred years ago. José Antonio Alzate visited Xochicalco in seventeen seventy-seven. He returned in seventeen eighty-four with a draftsman, Arana, to measure the building of the serpents. According to López Luján, a guaje tree had damaged the facade. He published his description in seventeen ninety-one. Much later, Peñafiel published the first texts of the site, in eighteen ninety. Batres carried out the first scientific excavation in nineteen oh nine. Each visit left a different image of the city. Today you see it thanks to those gazes."
+    },
+    "guion_largo": {
+      "hash": "f858b30f3e8feae8",
+      "texto": "We know about Xochicalco thanks, in part, to a curious man of the eighteenth century.\n\nJosé Antonio Alzate visited the site in seventeen seventy-seven. According to López Luján, on the twelfth of November he walked six kilometers from Tetlama with the mayor and two other men. At the summit he measured the height of the hill with a barometer. The slabs of the building of the serpents caught his attention, and he thought that, without pack animals, the people of Xochicalco must have known a great deal about mechanics. The mayor refused to enter an underground passage and said that he once saw an old man there who vanished while the hill trembled. Alzate left a manuscript of the visit.\n\nHe returned in seventeen eighty-four, this time with a draftsman named Arana, who measured the building of the serpents. A guaje tree had damaged the facade. He was told that remains of four causeways still survived that reached the building from the four directions. The engraver Agüera y Bustamante prepared the images. Alzate published his description in seventeen ninety-one, in the Gaceta de Literatura de México, according to El Tlacuache.\n\nSahagún already mentioned the place in the middle of the sixteenth century, according to Medina Romero. Humboldt never visited it. Peñafiel published the first texts in eighteen ninety, and Batres carried out the first scientific excavation in nineteen oh nine.\n\nMedina Romero also says that the owners of a nearby sugar hacienda destroyed a good part of the pyramid’s base.\n\nWhat you see today is the result of many gazes. Some drew, others measured, others excavated and others destroyed. None left the site the same.\n\nWhen you look at the facade, think that someone drew it with a tree growing on top of it, more than two centuries ago."
+    },
+    "retos_observacion": {
+      "hash": "976f963a7f990b74",
+      "texto": [
+        "Imagine the facade with a tree growing on top",
+        "Think about what you would have drawn",
+        "Look for where the underground passage that Alzate could not walk would have been"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d06d964ad1b1aa17",
+      "texto": {
+        "Alzate’s first visit": "seventeen seventy-seven",
+        "Second visit, with the draftsman Arana": "seventeen eighty-four",
+        "Alzate’s publication": "seventeen ninety-one",
+        "First texts published by Peñafiel": "eighteen ninety",
+        "First scientific excavation, Batres": "nineteen oh nine, according to the INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "149da8928bf519ac",
+      "texto": {
+        "pregunta": "Myth: Xochicalco has been known for only a few decades.",
+        "respuesta": "Reality: Alzate described it in the eighteenth century and Sahagún already mentioned it in the sixteenth."
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "xoc_25_rampa_animales",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3a56045fcf6104e3",
+      "texto": "Rampa Zwierząt"
+    },
+    "frase_gancho": {
+      "hash": "c0882d86c6316e79",
+      "texto": "Płyty z wyrytymi zwierzętami, między tym, co rzeczywiste, a tym, co mityczne."
+    },
+    "puente_narrativo": {
+      "hash": "72cabd1cd78791b8",
+      "texto": "Kontynuuj swoją trasę: idź dalej ku przestrzeniom zespołu wschodniego."
+    },
+    "guion_corto": {
+      "hash": "c1dd49bd20b1aab1",
+      "texto": "Ta rampa składa się z płyt z wyrytymi zwierzętami. Według przewodnika INAH ma dwieście siedemdziesiąt płyt. México Desconocido naliczył dwieście pięćdziesiąt pięć, a Medina Romero dwieście siedemdziesiąt jeden. Liczby się nie zgadzają, więc powiemy: ponad dwieście pięćdziesiąt. Medina Romero mówi, że wiele z wyrytych gatunków wciąż istnieje. Hirth mówi o zwierzętach mitycznych. Rampa to pochyła droga, bez stopni. Tu kamień narysował faunę regionu. Kości znalezione w mieście mówią coś podobnego: jaguar i krokodyl w strefach wysokich, jeleń i pies na wszystkich poziomach. Poszukaj zwierzęcia, które znasz, i drugiego, które nic ci nie mówi."
+    },
+    "guion_largo": {
+      "hash": "dbab06b10933f6d1",
+      "texto": "Rampa to pochyła droga, bez stopni. Ta ma coś szczególnego: jest zrobiona z płyt z wyrytymi zwierzętami.\n\nWedług przewodnika INAH ma dwieście siedemdziesiąt płyt. México Desconocido naliczył dwieście pięćdziesiąt pięć. Medina Romero mówi o dwustu siedemdziesięciu jeden, w łącznej liczbie ponad czterystu wyrytych płyt znalezionych na stanowisku. Liczby się nie zgadzają. Dlatego tu mówimy: ponad dwieście pięćdziesiąt.\n\nMedina Romero dodaje, że wiele z wyrytych gatunków wciąż istnieje. To znaczy, że ci, którzy je rzeźbili, patrzyli na swoje otoczenie i rysowali je w kamieniu. Kenneth Hirth mówi natomiast o zwierzętach mitycznych. Oba opisy mogą być prawdziwe jednocześnie: rampa z fauną rzeczywistą i wyobrażoną.\n\nINAH Lugares wyjaśnia, że rampa łączy się z wschodnim boiskiem do gry w piłkę. To sugeruje, że gra i rampa były częścią tego samego zespołu.\n\nSzczątki zwierząt z miasta opowiadają coś podobnego. Według Eduarda Corony jaguar, pekari, ryś rudy i krokodyl rzeczny pojawiają się głównie w strefach wysokich, prawie zawsze przerobione na ozdoby lub ofiary. Jeleń, pies i puma pojawiają się na wszystkich poziomach. W części niskiej są sumy, kaczki, żółwie i wydry.\n\nPoszukaj zwierzęcia, które znasz, i drugiego, które nic ci nie mówi. Pomyśl, że ktoś wybrał, jakie zwierzęta umieścić i w jakiej kolejności."
+    },
+    "retos_observacion": {
+      "hash": "17b89e4589d74581",
+      "texto": [
+        "Poszukaj zwierzęcia, które znasz",
+        "Poszukaj takiego, którego nie potrafisz rozpoznać",
+        "Zastanów się, dlaczego ktoś postanowił wyryć zwierzęta na podłożu rampy"
+      ]
+    },
+    "especificaciones": {
+      "hash": "187be9984d824804",
+      "texto": {
+        "Wyryte płyty": "dwieście siedemdziesiąt (INAH), dwieście pięćdziesiąt pięć (México Desconocido), dwieście siedemdziesiąt jeden z ponad czterystu (Medina Romero)",
+        "Połączenie": "z boiskiem wschodnim, według INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "ed6e47c9ab03776a",
+      "texto": {
+        "pregunta": "Mit: Wszystkie zwierzęta na rampie są mityczne.",
+        "respuesta": "Rzeczywistość: Medina Romero wskazuje, że wiele z wyrytych gatunków wciąż istnieje. Hirth natomiast mówi o zwierzętach mitycznych."
+      }
+    }
+  }
+}

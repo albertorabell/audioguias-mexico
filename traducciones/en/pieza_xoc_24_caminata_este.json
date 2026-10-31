@@ -1,0 +1,53 @@
+{
+  "id": "xoc_24_caminata_este",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "bed06095b55b4554",
+      "texto": "Walk: Toward the Eastern Complex"
+    },
+    "frase_gancho": {
+      "hash": "e42e817f8f630cb7",
+      "texto": "A stretch toward the ramp, the sunken courtyard and the three temples."
+    },
+    "puente_narrativo": {
+      "hash": "19d88a5c8fc91082",
+      "texto": "Continue your route: keep going toward the eastern part of the city."
+    },
+    "guion_corto": {
+      "hash": "6a73044044c7c784",
+      "texto": "This walk takes you to the eastern complex, the eastern part of the city. According to INAH Lugares, there is a rectangular building with a sunken courtyard, a courtyard with three pyramidal platforms and a ball court. The Ramp of the Animals is also there. The INAH guide speaks of three temples, the ramp and the Temple of the Architects. As you walk, notice how the landscape changes. According to INAH Lugares, the city occupied six low hills, with terraces and retaining walls. Think that every path climbs, descends and goes around those hills. What follows are several stops in that area."
+    },
+    "guion_largo": {
+      "hash": "72ea43f860e389de",
+      "texto": "This walk takes you to the eastern complex, the eastern part of the city.\n\nAccording to INAH Lugares, there is a rectangular building with a sunken courtyard, a courtyard with three pyramidal platforms and a ball court. The Ramp of the Animals is also there, connecting with that court.\n\nThe INAH guide speaks of three temples, the ramp and the Temple of the Architects, also called the Sunken Courtyard. That is, it is a complex with several buildings grouped together.\n\nAs you walk, notice how the landscape changes. According to INAH Lugares, the city occupied six low hills, with terraces and retaining walls. That means every path climbs, descends and goes around the hills. A retaining wall is one that holds up the earth of a terrace so that it does not slide.\n\nUNESCO considers that Xochicalco had three levels: a low one, a middle one and a high one. According to Hirth, the city grew very fast around the year six hundred and relocated between ten thousand and fifteen thousand people.\n\nThe next stops take place in that area. There is no need to hurry."
+    },
+    "retos_observacion": {
+      "hash": "8a81f85c8ad2a18f",
+      "texto": [
+        "Notice how the landscape changes",
+        "Count how many hills you can see",
+        "Listen as you walk, without looking at the screen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d0541de5c6f85f7",
+      "texto": {
+        "Destination": "eastern complex",
+        "Spaces": "rectangular building with sunken courtyard, courtyard with three pyramidal platforms, court and ramp, according to INAH Lugares",
+        "Hills occupied": "six, according to INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7957f59da6106b7",
+      "texto": {
+        "pregunta": "Myth: Xochicalco occupies a single hill.",
+        "respuesta": "Reality: According to INAH Lugares, it occupied six low hills, with terraces and walls."
+      }
+    }
+  }
+}

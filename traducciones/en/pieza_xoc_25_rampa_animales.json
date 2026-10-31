@@ -1,0 +1,52 @@
+{
+  "id": "xoc_25_rampa_animales",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3a56045fcf6104e3",
+      "texto": "The Ramp of the Animals"
+    },
+    "frase_gancho": {
+      "hash": "c0882d86c6316e79",
+      "texto": "Slabs with engraved animals, between the real and the mythical."
+    },
+    "puente_narrativo": {
+      "hash": "72cabd1cd78791b8",
+      "texto": "Continue your route: keep going toward the spaces of the eastern complex."
+    },
+    "guion_corto": {
+      "hash": "c1dd49bd20b1aab1",
+      "texto": "This ramp is made of slabs with engraved animals. According to the INAH guide, it has two hundred seventy slabs. México Desconocido counts two hundred fifty-five, and Medina Romero two hundred seventy-one. The figures do not agree, so we will say more than two hundred fifty. Medina Romero says that many of the engraved species still exist. Hirth speaks of mythical animals. A ramp is a sloping path, without steps. Here the stone drew the fauna of the region. The bones found in the city say something similar: jaguar and crocodile in the high areas, deer and dog on all levels. Look for an animal you know and another that does not ring a bell."
+    },
+    "guion_largo": {
+      "hash": "dbab06b10933f6d1",
+      "texto": "A ramp is a sloping path, without steps. This one has something special: it is made of slabs with engraved animals.\n\nAccording to the INAH guide, it has two hundred seventy slabs. México Desconocido counts two hundred fifty-five. Medina Romero speaks of two hundred seventy-one, within a total of more than four hundred engraved slabs found at the site. The figures do not agree. That is why here we say: more than two hundred fifty.\n\nMedina Romero adds that many of the engraved species still exist. That is, those who carved them looked at their surroundings and drew them in stone. Kenneth Hirth speaks, instead, of mythical animals. Both descriptions can be true at once: a ramp with real fauna and imagined fauna.\n\nINAH Lugares explains that the ramp connects with the east ball court. That suggests that the game and the ramp were part of the same complex.\n\nThe animal remains from the city tell something similar. According to Eduardo Corona, jaguar, peccary, bobcat and river crocodile appear mostly in the high areas, almost always turned into ornaments or offerings. Deer, dog and puma appear on all levels. In the lower part there are catfish, ducks, turtles and otters.\n\nLook for an animal you know and another that does not ring a bell. Think that someone chose which animals to put and in what order."
+    },
+    "retos_observacion": {
+      "hash": "17b89e4589d74581",
+      "texto": [
+        "Look for an animal you know",
+        "Look for one you cannot identify",
+        "Think about why someone chose to engrave animals on the floor of a ramp"
+      ]
+    },
+    "especificaciones": {
+      "hash": "187be9984d824804",
+      "texto": {
+        "Engraved slabs": "two hundred seventy (INAH), two hundred fifty-five (México Desconocido), two hundred seventy-one of more than four hundred (Medina Romero)",
+        "Connection": "with the east court, according to INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "ed6e47c9ab03776a",
+      "texto": {
+        "pregunta": "Myth: All the animals on the ramp are mythical.",
+        "respuesta": "Reality: Medina Romero indicates that many of the engraved species still exist. Hirth, on the other hand, speaks of mythical animals."
+      }
+    }
+  }
+}

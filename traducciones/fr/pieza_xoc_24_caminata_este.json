@@ -1,0 +1,53 @@
+{
+  "id": "xoc_24_caminata_este",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "bed06095b55b4554",
+      "texto": "Marche : vers l’ensemble est"
+    },
+    "frase_gancho": {
+      "hash": "e42e817f8f630cb7",
+      "texto": "Un trajet vers la rampe, la cour en contrebas et les trois temples."
+    },
+    "puente_narrativo": {
+      "hash": "19d88a5c8fc91082",
+      "texto": "Poursuivez votre itinéraire : continuez vers la partie orientale de la ville."
+    },
+    "guion_corto": {
+      "hash": "6a73044044c7c784",
+      "texto": "Cette marche vous mène à l’ensemble est, la partie orientale de la ville. Selon l’INAH Lugares, il y a là un édifice rectangulaire avec une cour en contrebas, une cour avec trois plateformes pyramidales et un terrain de jeu de balle. La Rampe des Animaux s’y trouve aussi. Le guide de l’INAH parle de trois temples, de la rampe et du Temple des Architectes. En marchant, remarquez comment le paysage change. Selon l’INAH Lugares, la ville occupa six collines basses, avec des terrasses et des murs de soutènement. Songez que chaque trajet monte, descend et contourne ces collines. Ce qui suit, ce sont plusieurs étapes dans cette zone."
+    },
+    "guion_largo": {
+      "hash": "72ea43f860e389de",
+      "texto": "Cette marche vous mène à l’ensemble est, la partie orientale de la ville.\n\nSelon l’INAH Lugares, il y a là un édifice rectangulaire avec une cour en contrebas, une cour avec trois plateformes pyramidales et un terrain de jeu de balle. La Rampe des Animaux s’y trouve aussi, reliée à ce terrain.\n\nLe guide de l’INAH parle de trois temples, de la rampe et du Temple des Architectes, aussi appelé Cour en contrebas. C’est-à-dire qu’il s’agit d’un ensemble de plusieurs édifices groupés.\n\nEn marchant, remarquez comment le paysage change. Selon l’INAH Lugares, la ville occupa six collines basses, avec des terrasses et des murs de soutènement. Cela signifie que chaque trajet monte, descend et contourne les collines. Un mur de soutènement est celui qui retient la terre d’une terrasse pour qu’elle ne glisse pas.\n\nL’UNESCO considère que Xochicalco eut trois niveaux : un bas, un intermédiaire et un haut. Selon Hirth, la ville grandit très vite vers l’an six cents et déplaça entre dix mille et quinze mille personnes.\n\nLes prochaines étapes se déroulent dans cette zone. Inutile de se presser."
+    },
+    "retos_observacion": {
+      "hash": "8a81f85c8ad2a18f",
+      "texto": [
+        "Remarquez comment le paysage change",
+        "Comptez combien de collines vous arrivez à voir",
+        "Écoutez en marchant, sans regarder l’écran"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d0541de5c6f85f7",
+      "texto": {
+        "Destination": "ensemble est",
+        "Espaces": "édifice rectangulaire avec cour en contrebas, cour avec trois plateformes pyramidales, terrain et rampe, selon l’INAH Lugares",
+        "Collines occupées": "six, selon l’INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7957f59da6106b7",
+      "texto": {
+        "pregunta": "Mythe : Xochicalco occupe une seule colline.",
+        "respuesta": "Réalité : Selon l’INAH Lugares, elle occupa six collines basses, avec des terrasses et des murs."
+      }
+    }
+  }
+}

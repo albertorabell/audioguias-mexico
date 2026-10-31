@@ -1,0 +1,55 @@
+{
+  "id": "xoc_28_alzate_exploradores",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7911e2b7a418affa",
+      "texto": "Les premiers regards : Alzate et les explorateurs"
+    },
+    "frase_gancho": {
+      "hash": "cf2bf7263cb69cf1",
+      "texto": "Un savant du dix-huitième siècle qui dessina ce que d’autres n’osèrent pas voir."
+    },
+    "puente_narrativo": {
+      "hash": "2bca5b004f843ad8",
+      "texto": "Suivez votre itinéraire : il convient maintenant de clore le parcours par ce qui est arrivé à la ville."
+    },
+    "guion_corto": {
+      "hash": "da1ccab412c0c98f",
+      "texto": "Il y a une raison pour laquelle nous connaissons si bien cet édifice : quelqu’un l’a dessiné il y a plus de deux cents ans. José Antonio Alzate visita Xochicalco en mille sept cent soixante-dix-sept. Il revint en mille sept cent quatre-vingt-quatre avec un dessinateur, Arana, pour mesurer l’édifice des serpents. Selon López Luján, un arbre de guaje avait abîmé la façade. Il publia sa description en mille sept cent quatre-vingt-onze. Bien plus tard, Peñafiel publia les premiers textes du site, en mille huit cent quatre-vingt-dix. Batres fit la première fouille scientifique en mille neuf cent neuf. Chaque visite laissa une image différente de la ville. Aujourd’hui, vous la voyez grâce à ces regards."
+    },
+    "guion_largo": {
+      "hash": "f858b30f3e8feae8",
+      "texto": "Nous savons des choses sur Xochicalco grâce, en partie, à un homme curieux du dix-huitième siècle.\n\nJosé Antonio Alzate visita le site en mille sept cent soixante-dix-sept. Selon López Luján, le douze novembre, il marcha six kilomètres depuis Tetlama avec le maire et deux autres hommes. Au sommet, il mesura la hauteur de la colline avec un baromètre. Les dalles de l’édifice des serpents retinrent son attention, et il pensa que, sans bêtes de somme, les habitants de Xochicalco devaient en savoir long sur la mécanique. Le maire refusa d’entrer dans un passage souterrain et raconta qu’il y avait vu un jour un vieillard qui disparut, tandis que la colline tremblait. Alzate laissa un manuscrit de la visite.\n\nIl revint en mille sept cent quatre-vingt-quatre, cette fois avec un dessinateur nommé Arana, qui mesura l’édifice des serpents. Un arbre de guaje avait abîmé la façade. On lui dit qu’il restait encore des vestiges de quatre chaussées qui arrivaient à l’édifice depuis les quatre directions. Le graveur Agüera y Bustamante prépara les images. Alzate publia sa description en mille sept cent quatre-vingt-onze, dans la Gaceta de Literatura de México, selon El Tlacuache.\n\nSahagún mentionnait déjà le lieu au milieu du seizième siècle, selon Medina Romero. Humboldt ne l’a jamais visité. Peñafiel publia les premiers textes en mille huit cent quatre-vingt-dix, et Batres fit la première fouille scientifique en mille neuf cent neuf.\n\nMedina Romero raconte aussi que les propriétaires d’une hacienda sucrière voisine détruisirent une bonne partie de la base de la pyramide.\n\nCe que vous voyez aujourd’hui est le résultat de nombreux regards. Certains ont dessiné, d’autres ont mesuré, d’autres ont fouillé et d’autres ont détruit. Aucun n’a laissé le site tel qu’il était.\n\nQuand vous regarderez la façade, songez que quelqu’un l’a dessinée avec un arbre qui poussait dessus, il y a plus de deux siècles."
+    },
+    "retos_observacion": {
+      "hash": "976f963a7f990b74",
+      "texto": [
+        "Imaginez la façade avec un arbre qui pousse dessus",
+        "Pensez à ce que vous auriez dessiné",
+        "Cherchez où se trouverait le passage souterrain qu’Alzate n’a pas pu parcourir"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d06d964ad1b1aa17",
+      "texto": {
+        "Première visite d’Alzate": "mille sept cent soixante-dix-sept",
+        "Seconde visite, avec le dessinateur Arana": "mille sept cent quatre-vingt-quatre",
+        "Publication d’Alzate": "mille sept cent quatre-vingt-onze",
+        "Premiers textes publiés par Peñafiel": "mille huit cent quatre-vingt-dix",
+        "Première fouille scientifique, Batres": "mille neuf cent neuf, selon l’INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "149da8928bf519ac",
+      "texto": {
+        "pregunta": "Mythe : Xochicalco n’est connu que depuis quelques décennies.",
+        "respuesta": "Réalité : Alzate l’a décrit au dix-huitième siècle et Sahagún le mentionnait déjà au seizième."
+      }
+    }
+  }
+}
