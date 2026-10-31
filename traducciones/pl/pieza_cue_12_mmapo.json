@@ -1,0 +1,54 @@
+{
+  "id": "cue_12_mmapo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b0ee601ce52788d9",
+      "texto": "MMAPO, Muzeum Sztuki Ludowej Morelos"
+    },
+    "frase_gancho": {
+      "hash": "f516ebdf14ca10dc",
+      "texto": "Chinelos naturalnej wielkości, garnki z Cuentepec, tekstylia z Hueyapan i figurki z Tlayacapan, wszystko kilka kroków od pałacu."
+    },
+    "puente_narrativo": {
+      "hash": "69be895d2d448fbf",
+      "texto": "Idź ulicą Hidalgo w stronę katedry, jeśli twoja trasa prowadzi dalej tamtędy."
+    },
+    "guion_corto": {
+      "hash": "0e4957ee5068a585",
+      "texto": "Przy ulicy Hidalgo, pod numerem dwieście trzydzieści dziewięć, znajduje się muzeum, którego część kolekcji jest pod gołym niebem. To Muzeum Sztuki Ludowej Morelos, znane jako MMAPO. Pokazuje rzemiosło ze wszystkich regionów Morelos. Jest ceramika z Cuentepec, tekstylia z Hueyapan i prace rzemieślników z Tlayacapan. Część tego, co wystawia, znajduje się na zewnątrz, więc możesz podejść do eksponatów. Wśród nich wyróżniają się chinelos naturalnej wielkości, tancerze karnawału w Morelos, w długiej tunice i ozdobnym kapeluszu. To muzeum, które opowiada o stanie poprzez ręce, które wytwarzają przedmioty z gliny, wełny i innych materiałów. Większość jego eksponatów jest na sprzedaż i często się zmienia."
+    },
+    "guion_largo": {
+      "hash": "87bb163e6aa6a64d",
+      "texto": "Pałac Cortésa opowiedział ci historię Morelos przez swoje kamienie i murale. MMAPO opowiada ją przez ręce tych, którzy codziennie wytwarzają przedmioty. Wejście znajduje się przy ulicy Hidalgo, pod numerem dwieście trzydzieści dziewięć, między pałacem a katedrą.\n\nPełna nazwa to Muzeum Sztuki Ludowej Morelos, a ci, którzy je znają, nazywają je MMAPO. Gromadzi rzemiosło ze wszystkich regionów stanu. Idea polega na zachowywaniu, wystawianiu i promowaniu pracy rzemieślników z Morelos oraz pomaganiu, by ten zawód był nadal uprawiany.\n\nTrzy wspólnoty pojawiają się zawsze, gdy mówi się o rzemiośle Morelos. Pierwszą jest Cuentepec, znane ze swoich garncarek, które pracują w glinie. Drugą jest Hueyapan, gdzie tka się wełnę: widziałeś już jej motki w muzeum pałacu. Trzecią jest Tlayacapan, którego praca rzemieślnicza jest również pokazywana w muzeum. Tlayacapan pojawia się ponadto na wystawie w pałacu o malacates, czyli przęślikach, którymi przędziono od czasów przedhiszpańskich.\n\nNajbardziej uderzającymi postaciami w MMAPO są chinelos. To tancerze karnawału w Morelos, a muzeum pokazuje ich w naturalnej wielkości. Noszą długą tunikę, maskę z brodą i wysoki kapelusz z ozdobami. Kiedy tańczą, robią krótkie podskoki w rytm orkiestry. Muzeum pozwala podejść do nich i zobaczyć, jak są zrobieni, szczegół po szczególe.\n\nWedług tradycji chinelo narodził się w dziewiętnastym wieku jako drwina mieszkańców wsi z właścicieli hacjend, dlatego jego strój przesadnie podkreśla elegancję panów. To wyjaśnienie często się powtarza, choć pochodzenie tańca wciąż jest dyskutowane. Jasne jest to, że dziś jest symbolem stanu i że każdy karnawał znów wypełnia go muzyką i kolorem.\n\nCechą MMAPO jest to, że wiele przedmiotów znajduje się pod gołym niebem. To zmienia doświadczenie. Zamiast zamkniętych gablot możesz oglądać eksponaty z bliska, w świetle dziennym.\n\nJest też sklep. Eksponaty często się zmieniają i prawie wszystkie są na sprzedaż, więc to, co widzisz dziś, jutro może już nie być. Jeśli coś kupisz, zapytaj osobę, która cię obsługuje, skąd to pochodzi i kto to zrobił. W sztuce ludowej imię osoby i nazwa wsi liczą się tak samo jak przedmiot.\n\nZanim wejdziesz, zatrzymaj się na ulicy. To muzeum leży między katedrą a Pałacem Cortésa, więc służy jako odpoczynek między dwoma dużymi przystankami. Tu rytm się zmienia: mniej dat, a więcej przedmiotów, które można obejść wzrokiem, jeden po drugim.\n\nTo muzeum jest żywą stroną Morelos: przedmioty to nie tylko przeszłość, wytwarza się je i sprzedaje dzisiaj.\n\nSłowo ludowy ma precyzyjne znaczenie. Nie znaczy tanie ani proste. Znaczy wykonane przez lud, technikami przekazywanymi z pokolenia na pokolenie. Między muralem Rivery a garnkiem z Cuentepec jest więcej związku, niż się wydaje: oba opowiadają o Morelos."
+    },
+    "retos_observacion": {
+      "hash": "7ff63b254d2d42f3",
+      "texto": [
+        "Poszukaj chinelos naturalnej wielkości i zwróć uwagę na tunikę, brodę i kapelusz",
+        "Znajdź przedmiot z gliny i przedmiot z wełny i zgadnij, z której wsi pochodzi każdy z nich",
+        "Zapytaj w sklepie, kto zrobił przedmiot, który przykuł twoją uwagę, i gdzie mieszka"
+      ]
+    },
+    "especificaciones": {
+      "hash": "df8961436876665c",
+      "texto": {
+        "Adres": "Hidalgo 239, centrum Cuernavaki",
+        "Kolekcja": "rzemiosło ze wszystkich regionów Morelos",
+        "Wspomniane wspólnoty": "Cuentepec, Hueyapan i Tlayacapan",
+        "Wyróżniające się postacie": "chinelos naturalnej wielkości"
+      }
+    },
+    "faq_mito": {
+      "hash": "8b9ba0385f2cef13",
+      "texto": {
+        "pregunta": "Mit: Sztuka ludowa to to samo co tanie rękodzieło z targu.",
+        "respuesta": "Rzeczywistość: To praca wykonana ręcznie dziedziczonymi technikami. MMAPO pokazuje ją jako sztukę, z nazwą jej wspólnoty."
+      }
+    }
+  }
+}

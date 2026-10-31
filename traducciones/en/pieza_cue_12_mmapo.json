@@ -1,0 +1,61 @@
+{
+  "id": "cue_12_mmapo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"La Venta\" para \"La Venta\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"La Venta\" para \"La Venta\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "b0ee601ce52788d9",
+      "texto": "MMAPO, the Morelos Museum of Folk Art"
+    },
+    "frase_gancho": {
+      "hash": "f516ebdf14ca10dc",
+      "texto": "Life-size chinelos, pots from Cuentepec, textiles from Hueyapan and figures from Tlayacapan, all a few steps from the palace."
+    },
+    "puente_narrativo": {
+      "hash": "69be895d2d448fbf",
+      "texto": "Walk along Hidalgo Street toward the Cathedral, if your route continues that way."
+    },
+    "guion_corto": {
+      "hash": "0e4957ee5068a585",
+      "texto": "On Hidalgo Street, number two hundred thirty-nine, there is a museum with part of its collection in the open air. It is the Morelos Museum of Folk Art, known as MMAPO. It shows crafts from every region of Morelos. There is pottery from Cuentepec, textiles from Hueyapan and work by artisans from Tlayacapan. Part of what it exhibits is outdoors, so you can get close to the pieces. Among them, the life-size chinelos stand out, the dancers of the Morelos carnival, with their long tunic and decorated hat. It is a museum that tells the story of the state through the hands that make objects of clay, wool and other materials. Most of its pieces are for sale and change often."
+    },
+    "guion_largo": {
+      "hash": "87bb163e6aa6a64d",
+      "texto": "The Palace of Cortés told you the history of Morelos through its stones and its murals. The MMAPO tells it through the hands of the people who make objects every day. The entrance is on Hidalgo Street, number two hundred thirty-nine, between the palace and the Cathedral.\n\nThe full name is Morelos Museum of Folk Art, and those who know it call it MMAPO. It gathers crafts from all the regions of the state. The idea is to preserve, exhibit and promote the work of the artisans of Morelos, and to help keep that trade alive.\n\nThree communities always come up when people speak of Morelos crafts. The first is Cuentepec, known for its potters, who work the clay. The second is Hueyapan, where wool is woven: you already saw its skeins in the palace museum. The third is Tlayacapan, whose craftwork is also shown in the museum. Tlayacapan also appears in an exhibition in the palace about malacates, the spindle whorls used for spinning since pre-Hispanic times.\n\nThe most striking figures at the MMAPO are the chinelos. They are the dancers of the Morelos carnival, and the museum shows them life-size. They wear a long tunic, a bearded mask and a tall hat with decorations. When they dance, they make short hops to the rhythm of a band. The museum lets you get close to them and see how they are made, detail by detail.\n\nAccording to tradition, the chinelo was born in the nineteenth century as a mockery by villagers of the hacienda owners, which is why its costume exaggerates the elegance of the bosses. It is an explanation that is often repeated, although the origins of the dance are still debated. What is clear is that today it is a symbol of the state and that every carnival fills it again with music and color.\n\nA feature of the MMAPO is that many objects are in the open air. That changes the experience. Instead of closed display cases, you can see the pieces up close, in daylight.\n\nThere is also a shop. The pieces change often and almost all are for sale, so what you see today may not be there tomorrow. If you buy something, ask the person helping you where it comes from and who made it. In folk art, the name of the person and of the village matter as much as the object.\n\nBefore going in, pause on the street. This museum sits between the cathedral and the Palace of Cortés, so it works as a rest between two big stops. Here the rhythm changes: fewer dates and more objects that you can take in with your eyes, one by one.\n\nThis museum is the living side of Morelos: the objects are not only the past, they are made and sold today.\n\nThe word folk has a precise meaning. It does not mean cheap or simple. It means made by the people, with techniques passed from generation to generation. Between Rivera’s mural and a pot from Cuentepec there is more of a connection than it seems: both tell Morelos."
+    },
+    "retos_observacion": {
+      "hash": "7ff63b254d2d42f3",
+      "texto": [
+        "Find the life-size chinelos and notice the tunic, the beard and the hat",
+        "Find a piece of clay and a piece of wool and guess which village each one comes from",
+        "Ask in the shop who made the piece that catches your eye and where they live"
+      ]
+    },
+    "especificaciones": {
+      "hash": "df8961436876665c",
+      "texto": {
+        "Address": "Hidalgo 239, downtown Cuernavaca",
+        "Collection": "crafts from every region of Morelos",
+        "Communities mentioned": "Cuentepec, Hueyapan and Tlayacapan",
+        "Featured figures": "life-size chinelos"
+      }
+    },
+    "faq_mito": {
+      "hash": "8b9ba0385f2cef13",
+      "texto": {
+        "pregunta": "Myth: Folk art is the same as cheap crafts from the market.",
+        "respuesta": "Reality: It is handmade work using inherited techniques. The MMAPO shows it as art, with the name of its community."
+      }
+    }
+  }
+}

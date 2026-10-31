@@ -1,0 +1,55 @@
+{
+  "id": "cue_11_galeria_oriente_torreon",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3333ea022ba736e8",
+      "texto": "The East Gallery and the Tower"
+    },
+    "frase_gancho": {
+      "hash": "0c24a7c791f228ce",
+      "texto": "A date engraved on the columns, a view of the volcanoes and a tower that went back in place five years after the earthquake."
+    },
+    "puente_narrativo": {
+      "hash": "f0c0b2ab5201462c",
+      "texto": "Follow your route: it may take you to Hidalgo Street or all the way to the Casa de Cantinflas."
+    },
+    "guion_corto": {
+      "hash": "756ca80c2aff865f",
+      "texto": "Fifteen thirty-five. That year is engraved on the columns of the east gallery, as the date the palace works were finished. Here, beneath the arches, the building offers its best view: the terrace opens toward the city and toward the volcanoes. It is the same corridor where Rivera’s mural is, and the restored triptych sits in its original place. From here you can also see the tower, the cylindrical tower on the northwest corner, about fifteen meters tall. The two thousand seventeen earthquake damaged it, and in two thousand twenty-two it went back in place with lighter materials, seventy percent lighter. It is the close of the upper part of the palace."
+    },
+    "guion_largo": {
+      "hash": "5eb4b18327b75faa",
+      "texto": "Numbers keep secrets. On the columns of the east gallery on the first floor there is a carved date: fifteen thirty-five. According to the INAH record, it marks the year the palace’s construction was finished. If you look closely, it is an old way of signing a building.\n\nThe gallery is what remains of the palace’s oldest core. According to a description by the museum, the first core, from the time of the encomienda, consisted of three large rooms and a terrace with arches that looked toward the volcanoes. Today you keep walking along that terrace. It is the same place where Diego Rivera painted in nineteen thirty, and where the restored triptych is on display again since the reopening of two thousand twenty-three.\n\nIt is worth pausing here and looking outward. The arched corridors are not just decoration. They let the air through, give shade and offer a view. Cortés chose Cuernavaca for its climate and its fertile lands, and from this terrace the choice makes sense.\n\nYou can also see the tower. It is a cylindrical tower on the northwest corner of the palace, about fifteen meters tall, added at the end of the nineteenth century. It is what gives the building its castle silhouette, and it is the most photographed element. The earthquake of the nineteenth of September, two thousand seventeen, damaged it. Five years later, in two thousand twenty-two, it was raised again. To make it safer, it was rebuilt with lighter materials and ended up seventy percent lighter. With that work, the architectural part of the restoration was concluded.\n\nThe director of the INBAL, Lucina Jiménez, said at the reopening that the building is one of the most important colonial structures in the country. She described it as a fortress that once yielded to nature. That idea sums up well what you have seen today: a palace that has fallen and risen again many times.\n\nRivera’s mural in this gallery also had difficult years. It was protected between nineteen ninety-three and nineteen ninety-five, and the restored triptych is on display again in its original place since the reopening.\n\nAt that ceremony, the director of the INAH, Diego Prieto, said the museum must represent all the peoples of Morelos. He also said those peoples must be heard in their own languages, songs and dances. He described it as a plural space that speaks of the community’s present. The gallery, with its view and its history, is a good place to think about that idea.\n\nBefore leaving the gallery, look up and to the sides. The stone, the arches and the date fifteen thirty-five have been there for almost five centuries. Rivera, Cortés, Morelos and Zapata each looked, in their own way, at this same view."
+    },
+    "retos_observacion": {
+      "hash": "6fdb56439b867288",
+      "texto": [
+        "Find the carved date on the columns of the east gallery",
+        "Look from the terrace toward the city and the volcanoes and think about why Cortés chose this place",
+        "Locate the cylindrical tower on the northwest corner and notice that it looks like stone, although it is lighter"
+      ]
+    },
+    "especificaciones": {
+      "hash": "64161448927c395d",
+      "texto": {
+        "Engraved date": "1535, marks the year construction was finished",
+        "Tower": "cylindrical, about 15 m, northwest corner, added in the late 19th century",
+        "Earthquake": "September 19, 2017",
+        "Museum closure": "five years and six months",
+        "Reopening": "March 30, 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "b56fb36f8c0a58d9",
+      "texto": {
+        "pregunta": "Myth: The tower is part of Cortés’s original construction.",
+        "respuesta": "Reality: It was added at the end of the nineteenth century. After the 2017 earthquake it was raised again with lighter materials."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "cue_14_capilla_abierta",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "44aa180a284221cd",
+      "texto": "Kaplica Otwarta, czyli Kaplica Indian"
+    },
+    "frase_gancho": {
+      "hash": "8e4f2d5664a98721",
+      "texto": "Kaplica bez ściany od frontu, aby tysiące ludzi mogły słuchać mszy pod gołym niebem."
+    },
+    "puente_narrativo": {
+      "hash": "2c678731f9e627c7",
+      "texto": "Podążaj swoją trasą: może cię zaprowadzić do nawy świątyni albo prosto do muralów męczenników."
+    },
+    "guion_corto": {
+      "hash": "7dced689ebc1fc4d",
+      "texto": "Wyobraź sobie kościół, w którym brakuje jednej ściany. Tak działa kaplica otwarta: ma dach i ołtarz, ale front jest otwarty na dziedziniec, aby mszę było widać z zewnątrz. Franciszkanie zbudowali ją, by nawracać ludność tubylczą, zbyt liczną, by zmieścić się w zamkniętej świątyni. Dlatego nazywa się ją także Kaplicą Indian. Źródła opisują ją jako przestronną i piękną oraz jako prawdopodobnie najstarszą, która wciąż stoi w Cuernavace. Wzniesiono ją po zburzeniu kaplicy San José de los Naturales w Mieście Meksyk. Stąd bierze się jej druga nazwa, Kaplica Otwarta San José. México Desconocido uważa ją za największą tego typu w Ameryce Łacińskiej."
+    },
+    "guion_largo": {
+      "hash": "123411dbebe785bc",
+      "texto": "Zamknięty kościół nie służy wszystkim. W szesnastym wieku bracia franciszkanie mieli przed sobą tysiące ludzi, którzy mówili w języku nahuatl i innych językach i którzy nie mieścili się w żadnej świątyni. Rozwiązaniem było odwrócenie architektury: zamiast wprowadzać ludzi do kościoła, wyniesiono mszę na dziedziniec.\n\nTo rozwiązanie nazywa się kaplicą otwartą. Ma prezbiterium, czyli przestrzeń ołtarza, przykryte i otwarte od frontu na dziedziniec. Kapłan odprawiał w środku, a tłum śledził mszę z zewnątrz. W Cuernavace ta kaplica jest znana jako Kaplica Otwarta, Kaplica Indian i Kaplica San José.\n\nNazwa San José ma swój powód. W Mieście Meksyk istniała słynna kaplica, San José de los Naturales, przeznaczona dla ludności tubylczej. Według historyka sztuki George’a Kublera ta w Cuernavace została wzniesiona po zburzeniu tamtej. Dlatego tę kaplicę można uważać za spadkobierczynię tamtej. Dokładna data tego dzieła nie jest dobrze ustalona.\n\nOpisy zgadzają się w jednej kwestii: to szeroka kaplica, dobrych rozmiarów, i prawdopodobnie najstarsza zachowana w mieście. Czasopismo México Desconocido idzie dalej i twierdzi, że jest najstarsza i największa tego typu w Ameryce Łacińskiej. Nie udało nam się potwierdzić tego twierdzenia innym źródłem, więc podajemy je jako opinię, a nie jako fakt.\n\nUNESCO wyjaśnia, że te klasztory szesnastego wieku miały kaplice otwarte o bardzo różnych rozwiązaniach. Niektóre to proste nisze. Inne, jak ta, to duże przestrzenie z arkadami. Cel był zawsze ten sam: aby ceremonia docierała do całej wspólnoty.\n\nAby wypełnić dziedziniec, bracia musieli sprawić, by ich zrozumiano. Nauczyli się języków tubylczych i posługiwali się obrazami, pieśniami i przedstawieniami. W dni świąteczne przychodzili ludzie z pobliskich wsi. Dziedziniec zamieniał się wtedy w wielki plac, a kaplica otwarta w jego scenę.\n\nTrzeba też powiedzieć, co oznacza nazwa Kaplica Indian. To nazwa z okresu wicekrólewskiego, która odnosi się do ludności tubylczej, do której była skierowana. Dziś używamy jej, by opisywać historię, a nie by kogokolwiek klasyfikować.\n\nPatrz na kaplicę jak na scenę. Nie ma drzwi, które zamykałyby ją od strony dziedzińca. Ta otwartość wyjaśnia jej funkcję: uroczystość mogło śledzić z zewnątrz wielu ludzi naraz.\n\nJak widziałeś na poprzednim przystanku, dziedziniec był istotną częścią zespołu. Zrozumieć tę kaplicę znaczy zrozumieć, że kościół tutaj zaczynał się na zewnątrz. Ściana bez drzwi może powiedzieć tyle samo co portal z reliefami.\n\nNa koniec spójrz, ile miejsca jest przed kaplicą. Tam stali ludzie. Ta esplanada pełniła rolę nawy kościoła, a niebo rolę sklepienia."
+    },
+    "retos_observacion": {
+      "hash": "fd287a1a5b7c4972",
+      "texto": [
+        "Poszukaj otwartego frontu kaplicy i oblicz, ilu ludzi mogło śledzić mszę z dziedzińca",
+        "Spójrz na dach i arkady i zwróć uwagę, która część jest przykryta, a która nie",
+        "Porównaj tę kaplicę z fasadą świątyni: którą twoim zdaniem zbudowano pierwszą?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d47326c72a09e58d",
+      "texto": {
+        "Typ": "franciszkańska kaplica otwarta z XVI wieku",
+        "Nazwy": "Kaplica Otwarta, Kaplica Indian i Kaplica San José",
+        "Źródło nazwy": "kaplica San José de los Naturales w Mieście Meksyk",
+        "Funkcja": "odprawianie mszy dla tłumów pod gołym niebem",
+        "Stan": "prawdopodobnie najstarsza, która wciąż stoi w Cuernavace"
+      }
+    },
+    "faq_mito": {
+      "hash": "3d21e49a22015f19",
+      "texto": {
+        "pregunta": "Mit: Kaplica Indian była tylko dla tubylców, a nie dla innych.",
+        "respuesta": "Rzeczywistość: Nazwa pochodzi z okresu wicekrólewskiego i wskazuje, do kogo była skierowana ewangelizacja, czyli do większościowej ludności tubylczej. Nie mówi, kto mógł wejść."
+      }
+    }
+  }
+}

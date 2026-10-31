@@ -1,0 +1,55 @@
+{
+  "id": "cue_11_galeria_oriente_torreon",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3333ea022ba736e8",
+      "texto": "La galerie est et la tour"
+    },
+    "frase_gancho": {
+      "hash": "0c24a7c791f228ce",
+      "texto": "Une date gravée sur les colonnes, une vue sur les volcans et une tour qui a repris sa place cinq ans après le séisme."
+    },
+    "puente_narrativo": {
+      "hash": "f0c0b2ab5201462c",
+      "texto": "Suivez votre itinéraire : il peut vous mener à la rue Hidalgo ou jusqu’à la Casa de Cantinflas."
+    },
+    "guion_corto": {
+      "hash": "756ca80c2aff865f",
+      "texto": "Mille cinq cent trente-cinq. Cette année est gravée sur les colonnes de la galerie est, comme date d’achèvement des travaux du palais. Ici, sous les arcs, l’édifice offre sa plus belle vue : la terrasse s’ouvre vers la ville et vers les volcans. C’est la même galerie où se trouve la fresque de Rivera, et le triptyque restauré occupe sa place d’origine. D’ici, on aperçoit aussi la tour, la tour cylindrique de l’angle nord-ouest, d’environ quinze mètres. Le séisme de deux mille dix-sept l’a endommagée, et en deux mille vingt-deux elle a repris sa place avec des matériaux plus légers, soixante-dix pour cent de poids en moins. C’est la clôture de la partie haute du palais."
+    },
+    "guion_largo": {
+      "hash": "5eb4b18327b75faa",
+      "texto": "Les chiffres gardent des secrets. Sur les colonnes de la galerie est du premier étage, il y a une date gravée : mille cinq cent trente-cinq. Selon la fiche de l’INAH, elle marque l’année où la construction du palais s’est achevée. Si vous y prêtez attention, c’est une façon ancienne de signer un édifice.\n\nLa galerie est ce qui reste du noyau le plus ancien du palais. Selon une description du musée, le premier noyau, de l’époque de l’encomienda, comprenait trois grandes salles et une terrasse à arcades qui regardait vers les volcans. Aujourd’hui, vous continuez de marcher sur cette terrasse. C’est le même endroit où Diego Rivera a peint en mille neuf cent trente, et où le triptyque restauré est de nouveau exposé depuis la réouverture de deux mille vingt-trois.\n\nIl convient de faire une pause ici et de regarder vers l’extérieur. Les galeries à arcades ne sont pas qu’un ornement. Elles laissent passer l’air, donnent de l’ombre et offrent une vue. Cortés a choisi Cuernavaca pour son climat et ses terres fertiles, et depuis cette terrasse on comprend ce choix.\n\nOn voit aussi la tour. C’est une tour cylindrique à l’angle nord-ouest du palais, d’environ quinze mètres, ajoutée à la fin du dix-neuvième siècle. C’est elle qui donne à l’édifice sa silhouette de château, et c’est l’élément le plus photographié. Le séisme du dix-neuf septembre deux mille dix-sept l’a endommagée. Cinq ans plus tard, en deux mille vingt-deux, elle a été relevée. Pour la rendre plus sûre, on l’a reconstruite avec des matériaux plus légers, et elle pèse soixante-dix pour cent de moins. Avec ces travaux s’est achevée la partie architecturale de la restauration.\n\nLa directrice de l’INBAL, Lucina Jiménez, a dit lors de la réouverture que l’édifice est l’une des constructions coloniales les plus importantes du pays. Elle l’a décrit comme une forteresse qui a un jour cédé devant la nature. Cette idée résume bien ce que vous avez vu aujourd’hui : un palais qui est tombé et s’est relevé bien des fois.\n\nLa fresque de Rivera de cette galerie a elle aussi connu des années difficiles. Elle a été protégée entre mille neuf cent quatre-vingt-treize et mille neuf cent quatre-vingt-quinze, et le triptyque restauré est de nouveau exposé à sa place d’origine depuis la réouverture.\n\nLors de cette cérémonie, le directeur de l’INAH, Diego Prieto, a dit que le musée doit représenter tous les peuples du Morelos. Il a dit aussi que ces peuples doivent se faire entendre dans leurs propres langues, chansons et danses. Il l’a décrit comme un espace pluriel qui parle du présent communautaire. La galerie, avec sa vue et son histoire, est un bon endroit pour réfléchir à cette idée.\n\nAvant de quitter la galerie, regardez vers le haut et sur les côtés. La pierre, les arcs et la date de mille cinq cent trente-cinq sont là depuis près de cinq siècles. Rivera, Cortés, Morelos et Zapata ont regardé, chacun à sa manière, cette même vue."
+    },
+    "retos_observacion": {
+      "hash": "6fdb56439b867288",
+      "texto": [
+        "Cherchez la date gravée sur les colonnes de la galerie est",
+        "Regardez depuis la terrasse vers la ville et les volcans et demandez-vous pourquoi Cortés a choisi cet endroit",
+        "Repérez la tour cylindrique de l’angle nord-ouest et remarquez qu’elle a l’air de pierre, alors qu’elle est plus légère"
+      ]
+    },
+    "especificaciones": {
+      "hash": "64161448927c395d",
+      "texto": {
+        "Date gravée": "1535, marque l’année où la construction s’est achevée",
+        "Tour": "cylindrique, d’environ 15 m, angle nord-ouest, ajoutée à la fin du XIXe siècle",
+        "Séisme": "19 septembre 2017",
+        "Fermeture du musée": "cinq ans et six mois",
+        "Réouverture": "30 mars 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "b56fb36f8c0a58d9",
+      "texto": {
+        "pregunta": "Mythe : La tour fait partie de la construction d’origine de Cortés.",
+        "respuesta": "Réalité : Elle a été ajoutée à la fin du dix-neuvième siècle. Après le séisme de 2017, elle a été relevée avec des matériaux plus légers."
+      }
+    }
+  }
+}

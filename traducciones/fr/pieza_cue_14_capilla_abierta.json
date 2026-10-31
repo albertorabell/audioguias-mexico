@@ -1,0 +1,55 @@
+{
+  "id": "cue_14_capilla_abierta",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "44aa180a284221cd",
+      "texto": "La chapelle ouverte, ou chapelle des Indiens"
+    },
+    "frase_gancho": {
+      "hash": "8e4f2d5664a98721",
+      "texto": "Une chapelle sans mur sur le devant pour que des milliers de personnes entendent la messe en plein air."
+    },
+    "puente_narrativo": {
+      "hash": "2c678731f9e627c7",
+      "texto": "Suivez votre itinéraire : il peut vous mener à la nef du temple ou directement aux fresques des martyrs."
+    },
+    "guion_corto": {
+      "hash": "7dced689ebc1fc4d",
+      "texto": "Imaginez une église dont il manque un mur. Voilà comment fonctionne la chapelle ouverte : elle a un toit et un autel, mais le devant est ouvert vers le parvis, pour que la messe se voie de l’extérieur. Les franciscains l’ont construite pour convertir la population indigène, trop nombreuse pour tenir dans un temple fermé. C’est pourquoi on l’appelle aussi chapelle des Indiens. Les sources la décrivent comme vaste et belle, et comme peut-être la plus ancienne encore debout à Cuernavaca. Elle fut élevée après la démolition de la chapelle de San José de los Naturales, à Mexico. De là vient son autre nom, chapelle ouverte de San José. México Desconocido la considère comme la plus grande de son type en Amérique latine."
+    },
+    "guion_largo": {
+      "hash": "123411dbebe785bc",
+      "texto": "Une église fermée ne sert pas à tout le monde. Au seizième siècle, les frères franciscains avaient devant eux des milliers de personnes qui parlaient nahuatl et d’autres langues, et qui ne tenaient dans aucun temple. La solution fut d’inverser l’architecture : au lieu de faire entrer les gens dans l’église, on sortit la messe sur le parvis.\n\nOn appelle cette solution une chapelle ouverte. Elle a un presbytère, c’est-à-dire l’espace de l’autel, couvert et ouvert sur le devant vers le parvis. Le prêtre officiait à l’intérieur et la foule suivait la messe depuis l’extérieur. À Cuernavaca, cette chapelle est connue sous les noms de chapelle ouverte, chapelle des Indiens et chapelle de San José.\n\nLe nom de San José a une raison. À Mexico, il existait une chapelle célèbre, celle de San José de los Naturales, destinée à la population indigène. Selon l’historien de l’art George Kubler, celle de Cuernavaca fut élevée après la démolition de celle-là. C’est pourquoi cette chapelle peut être vue comme l’héritière de l’autre. La date exacte de cette œuvre n’est pas bien établie.\n\nLes descriptions s’accordent sur un point : c’est une chapelle large, de bonne taille, et peut-être la plus ancienne conservée dans la ville. La revue México Desconocido va plus loin et affirme que c’est la plus ancienne et la plus grande de son type en Amérique latine. Nous n’avons pas pu vérifier cette affirmation auprès d’une autre source, c’est pourquoi nous la donnons comme une opinion et non comme un fait.\n\nL’UNESCO explique que ces monastères du seizième siècle avaient des chapelles ouvertes aux solutions très variées. Certaines sont de simples niches. D’autres, comme celle-ci, sont de grands espaces à arcs. Le but était toujours le même : que la cérémonie atteigne toute la communauté.\n\nPour remplir le parvis, les frères devaient se faire comprendre. Ils apprirent les langues indigènes et s’appuyèrent sur des images, des chants et des représentations. Les jours de fête, des gens venaient des villages voisins. Le parvis devenait alors une grande place, et la chapelle ouverte, sa scène.\n\nIl faut aussi dire ce que signifie le nom de chapelle des Indiens. C’est un nom de la période vice-royale qui renvoie à la population indigène à laquelle elle s’adressait. Aujourd’hui, nous l’utilisons pour décrire l’histoire, pas pour classer qui que ce soit.\n\nRegardez la chapelle comme une scène. Elle n’a pas de portes qui la ferment vers le parvis. Cette ouverture explique sa fonction : une célébration pouvait être suivie de l’extérieur par beaucoup de monde à la fois.\n\nComme vous l’avez vu à l’étape précédente, le parvis était une partie essentielle de l’ensemble. Comprendre cette chapelle, c’est comprendre que l’église, ici, commençait dehors. Un mur sans porte peut en dire autant qu’un portail à reliefs.\n\nEn terminant, regardez combien d’espace il y a devant la chapelle. C’est là que les gens se tenaient. Cette esplanade faisait office de nef de l’église, et le ciel faisait office de voûte."
+    },
+    "retos_observacion": {
+      "hash": "fd287a1a5b7c4972",
+      "texto": [
+        "Cherchez le devant ouvert de la chapelle et calculez combien de personnes pouvaient suivre la messe depuis le parvis",
+        "Regardez le toit et les arcs et remarquez quelle partie est couverte et laquelle ne l’est pas",
+        "Comparez cette chapelle avec la façade du temple : laquelle croyez-vous avoir été construite en premier ?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d47326c72a09e58d",
+      "texto": {
+        "Type": "chapelle ouverte franciscaine du XVIe siècle",
+        "Noms": "chapelle ouverte, chapelle des Indiens et chapelle de San José",
+        "Origine de son nom": "chapelle de San José de los Naturales, à Mexico",
+        "Fonction": "célébrer la messe pour des foules en plein air",
+        "État": "peut-être la plus ancienne encore debout à Cuernavaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "3d21e49a22015f19",
+      "texto": {
+        "pregunta": "Mythe : La chapelle des Indiens n’était que pour les indigènes et pas pour les autres.",
+        "respuesta": "Réalité : Le nom vient de la période vice-royale et indique à qui s’adressait l’évangélisation, c’est-à-dire à la population indigène majoritaire. Il ne dit pas qui pouvait entrer."
+      }
+    }
+  }
+}

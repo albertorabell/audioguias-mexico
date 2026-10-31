@@ -1,0 +1,56 @@
+{
+  "id": "cue_13_atrio_catedral",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0bb65925e1631a65",
+      "texto": "The Atrium and the Fortress Facade"
+    },
+    "frase_gancho": {
+      "hash": "589769ede5c9084d",
+      "texto": "A single tower, walls with battlements and a Franciscan convent that is now a World Heritage Site."
+    },
+    "puente_narrativo": {
+      "hash": "e82c854f8c8aa925",
+      "texto": "Enter the atrium and look for the open chapel, the oldest in the complex."
+    },
+    "guion_corto": {
+      "hash": "dd080fe6e345c2f4",
+      "texto": "This cathedral has only one tower, and it is not for lack of plans. It is a sixteenth-century Franciscan convent, and convents of that era looked more like a fortress than like a European cathedral. The Franciscan friars arrived in Cuernavaca in fifteen twenty-five, and the monastery was formally founded in fifteen twenty-nine. It was the fifth Franciscan foundation in Mexico, after those of the capital, Tlaxcala, Huejotzingo and Texcoco. It became a cathedral in eighteen ninety-one, when the diocese of Cuernavaca was created. In nineteen ninety-four UNESCO declared it a World Heritage Site, along with other monasteries on the slopes of Popocatépetl. The atrium, the great open space at the entrance, was the heart of the convent’s life."
+    },
+    "guion_largo": {
+      "hash": "cf0dc81ade47238a",
+      "texto": "The Franciscan friars arrived in Cuernavaca in fifteen twenty-five. According to chroniclers such as Motolinía and Mendieta, from that date they began to build a convent. Other documents set the formal founding of the monastery on the second of January, fifteen twenty-nine. According to Arqueología Mexicana, the work lasted until sometime between fifteen seventy-four and fifteen eighty-five. It was the fifth Franciscan foundation in Mexico, after those of Mexico City, Tlaxcala, Huejotzingo and Texcoco. It is believed that the construction was raised over a possible pre-Hispanic temple.\n\nThe building is called the Temple and Former Convent of the Assumption, and it is dedicated to the Assumption of Mary. Its look is sober, like a fortress, with thick walls and battlements. This was no whim: these convents served to protect the friars and, at the same time, to impress. They were also designed to evangelize many people at once, which is why they have an enormous atrium, open chapels and posa chapels.\n\nThe atrium is the open space in front of the temple. In sixteenth-century convents it was usually rectangular, surrounded by a wall, and it served to gather the community. The posa chapels were small chapels at the corners, where a pause was made during processions. In Cuernavaca, the corner posa chapels no longer survive. A good part of the atrium was also lost when Morelos Street was opened. Later, other chapels were built on it, such as those of Dolores, El Carmen and the Third Order. So what you see today is only part of the original atrium.\n\nUNESCO describes the common model of these monasteries: a church with a single nave and, to the south, the friars’ buildings around a cloister. The atrium was surrounded by posa chapels along a procession path. Its walls had small niches for the Way of the Cross, which is the route through the stations of the Passion of Christ. There were also water works that brought water from the mountain for the community’s use.\n\nThe tower has its own history. It was built partly in the seventeenth century and partly in the nineteenth. On the nineteenth of July, eighteen eighty-two, an earthquake destroyed its upper part, and the parish priest Vicente Salinas restored it in September of that same year.\n\nThe complex has been through many earthquakes. There was damage from the earthquakes of the fifteenth and twenty-first of June, nineteen ninety-nine, and from the one of the nineteenth of September, two thousand seventeen. The rebuilding of the building took place between two thousand seventeen and two thousand eighteen.\n\nThe Church made it a cathedral in eighteen ninety-one, when Pope Leo the Thirteenth created the diocese of Cuernavaca. Since nineteen ninety-four it has been part of the UNESCO World Heritage list. It is one of the first sixteenth-century monasteries on the slopes of Popocatépetl. That list includes fifteen monuments in Morelos, Puebla and Tlaxcala.\n\nBefore going in, stay a moment in the atrium. Today it is a place people pass through, but four centuries ago the whole community gathered here to hear Mass in the open air."
+    },
+    "retos_observacion": {
+      "hash": "675d58e708695000",
+      "texto": [
+        "Find the single tower on the facade and think about why the temple looks like a fort",
+        "Look at the atrium and try to imagine the posa chapels that no longer exist at the corners",
+        "Notice how many chapels there are within the complex and look for the oldest one"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fa0b9c9cf4eda831",
+      "texto": {
+        "Dedication": "Assumption of Mary",
+        "Arrival of the Franciscans": "1525; founding of the monastery, January 2, 1529",
+        "Cathedral": "since 1891, when the diocese of Cuernavaca was created",
+        "World Heritage Site": "since 1994",
+        "Tower": "built partly in the 17th century and partly in the 19th",
+        "Earthquake that destroyed the upper part of the tower": "July 19, 1882"
+      }
+    },
+    "faq_mito": {
+      "hash": "538a6ffa4e9ffd63",
+      "texto": {
+        "pregunta": "Myth: A cathedral is always built as a cathedral.",
+        "respuesta": "Reality: This one was a sixteenth-century Franciscan convent. It became a cathedral in eighteen ninety-one."
+      }
+    }
+  }
+}

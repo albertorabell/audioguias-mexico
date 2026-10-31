@@ -1,0 +1,56 @@
+{
+  "id": "cue_13_atrio_catedral",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0bb65925e1631a65",
+      "texto": "Le parvis et la façade de forteresse"
+    },
+    "frase_gancho": {
+      "hash": "589769ede5c9084d",
+      "texto": "Une seule tour, des murs à créneaux et un couvent franciscain qui est aujourd’hui patrimoine mondial."
+    },
+    "puente_narrativo": {
+      "hash": "e82c854f8c8aa925",
+      "texto": "Entrez dans le parvis et cherchez la chapelle ouverte, la plus ancienne de l’ensemble."
+    },
+    "guion_corto": {
+      "hash": "dd080fe6e345c2f4",
+      "texto": "Cette cathédrale n’a qu’une seule tour, et ce n’est pas faute de projets. C’est un couvent franciscain du seizième siècle, et les couvents de cette époque ressemblaient plus à une forteresse qu’à une cathédrale européenne. Les frères franciscains arrivèrent à Cuernavaca en mille cinq cent vingt-cinq, et le monastère fut fondé officiellement en mille cinq cent vingt-neuf. Ce fut la cinquième fondation franciscaine au Mexique, après celles de la capitale, de Tlaxcala, de Huejotzingo et de Texcoco. Il devint cathédrale en mille huit cent quatre-vingt-onze, quand le diocèse de Cuernavaca fut créé. En mille neuf cent quatre-vingt-quatorze, l’UNESCO l’a déclaré patrimoine mondial, avec d’autres monastères des flancs du Popocatépetl. Le parvis, le grand espace ouvert d’entrée, était le cœur de la vie du couvent."
+    },
+    "guion_largo": {
+      "hash": "cf0dc81ade47238a",
+      "texto": "Les frères franciscains arrivèrent à Cuernavaca en mille cinq cent vingt-cinq. Selon des chroniqueurs comme Motolinía et Mendieta, ils commencèrent à bâtir un couvent dès cette date. D’autres documents fixent la fondation officielle du monastère au deux janvier mille cinq cent vingt-neuf. Selon Arqueología Mexicana, les travaux se prolongèrent jusqu’à une date située entre mille cinq cent soixante-quatorze et mille cinq cent quatre-vingt-cinq. Ce fut la cinquième fondation franciscaine au Mexique, après celles de Mexico, de Tlaxcala, de Huejotzingo et de Texcoco. On croit que la construction a été élevée sur un possible temple préhispanique.\n\nL’édifice s’appelle Temple et ancien couvent de l’Assomption, et il est dédié à l’Assomption de Marie. Son aspect est sobre, de forteresse, avec des murs épais et des créneaux. Ce n’était pas un caprice : ces couvents servaient à protéger les frères et, en même temps, à impressionner. Ils furent aussi pensés pour évangéliser beaucoup de monde à la fois, et c’est pourquoi ils ont un immense parvis, des chapelles ouvertes et des chapelles posas.\n\nLe parvis est l’espace ouvert devant le temple. Dans les couvents du seizième siècle, il était en général rectangulaire, entouré d’un mur, et servait à rassembler la communauté. Les chapelles posas étaient de petites chapelles aux angles, où l’on faisait une pause pendant les processions. À Cuernavaca, les chapelles posas des angles ne se conservent plus. Une bonne partie du parvis fut aussi perdue quand on ouvrit la rue Morelos. Plus tard, on construisit sur lui d’autres chapelles, comme celles de Dolores, du Carmen et du Tiers-Ordre. Ce que vous voyez aujourd’hui n’est donc qu’une partie du parvis d’origine.\n\nL’UNESCO décrit le modèle commun de ces monastères : une église à nef unique et, au sud, les bâtiments des frères autour d’un cloître. Le parvis était entouré de chapelles posas le long d’un chemin de procession. Ses murs avaient de petites niches pour le chemin de croix, c’est-à-dire le parcours des stations de la Passion du Christ. Il y avait aussi des ouvrages hydrauliques qui amenaient l’eau de la montagne pour l’usage de la communauté.\n\nLa tour a sa propre histoire. Elle fut construite en partie au dix-septième siècle et en partie au dix-neuvième. Le dix-neuf juillet mille huit cent quatre-vingt-deux, un séisme détruisit sa partie haute, et le curé Vicente Salinas la restaura en septembre de la même année.\n\nL’ensemble a traversé de nombreux séismes. Il y eut des dégâts lors des séismes du quinze et du vingt et un juin mille neuf cent quatre-vingt-dix-neuf, et lors de celui du dix-neuf septembre deux mille dix-sept. La reconstruction de l’édifice se déroula entre deux mille dix-sept et deux mille dix-huit.\n\nL’Église en fit une cathédrale en mille huit cent quatre-vingt-onze, quand le pape Léon treize créa le diocèse de Cuernavaca. Depuis mille neuf cent quatre-vingt-quatorze, il fait partie de la liste du patrimoine mondial de l’UNESCO. C’est l’un des premiers monastères du seizième siècle sur les flancs du Popocatépetl. Cette liste comprend quinze monuments du Morelos, de Puebla et de Tlaxcala.\n\nAvant d’entrer, restez un instant sur le parvis. Aujourd’hui, c’est un lieu de passage, mais il y a quatre siècles, toute la communauté s’y rassemblait pour écouter la messe en plein air."
+    },
+    "retos_observacion": {
+      "hash": "675d58e708695000",
+      "texto": [
+        "Cherchez la tour unique de la façade et demandez-vous pourquoi le temple ressemble à un fort",
+        "Regardez le parvis et essayez d’imaginer les chapelles posas qui n’existent plus aux angles",
+        "Observez combien de chapelles il y a dans l’ensemble et cherchez la plus ancienne"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fa0b9c9cf4eda831",
+      "texto": {
+        "Dédicace": "Assomption de Marie",
+        "Arrivée des franciscains": "1525 ; fondation du monastère, 2 janvier 1529",
+        "Cathédrale": "depuis 1891, quand le diocèse de Cuernavaca a été créé",
+        "Patrimoine mondial": "depuis 1994",
+        "Tour": "construite en partie au XVIIe siècle et en partie au XIXe",
+        "Séisme qui a détruit la partie haute de la tour": "19 juillet 1882"
+      }
+    },
+    "faq_mito": {
+      "hash": "538a6ffa4e9ffd63",
+      "texto": {
+        "pregunta": "Mythe : Une cathédrale est toujours construite comme une cathédrale.",
+        "respuesta": "Réalité : Celle-ci fut un couvent franciscain du seizième siècle. Elle est devenue cathédrale en mille huit cent quatre-vingt-onze."
+      }
+    }
+  }
+}
