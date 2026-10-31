@@ -80,6 +80,7 @@ async function main() {
   fs.mkdirSync(DESTINO, { recursive: true });
   const sharp = plan ? null : (await import('sharp')).default;
   let ok = 0, saltadas = 0, mal = 0, sinFoto = 0;
+  const datosFotos = [];
   for (const f of datos) {
     const id = (f[c.id] || '').trim();
     if (!id) continue;
@@ -99,6 +100,7 @@ async function main() {
       if (hoja && hoja.replace(/\s+/g, '').toLowerCase() !== info.licencia.replace(/\s+/g, '').toLowerCase()) {
         console.log(`::warning::${id}: la hoja dice licencia "${hoja}" pero Commons dice "${info.licencia}". Corrige la hoja.`);
       }
+      datosFotos.push({ piece_id: id, image_filename: path.basename(img), foto_url: f[c.url], foto_autor: info.autor, foto_licencia: info.licencia, ancho: info.ancho, alto: info.alto });
       if (plan) { ok++; console.log(`${id}: OK ${info.licencia} ${info.ancho}x${info.alto} ← ${titulo}`); continue; }
       const r = await pedir(info.miniatura);
       if (!r.ok) { mal++; console.log(`::warning::${id}: no se pudo bajar (HTTP ${r.status})`); continue; }
@@ -110,6 +112,11 @@ async function main() {
     } catch (e) {
       mal++; console.log(`::warning::${id}: error ${e.message}`);
     }
+  }
+  if (datosFotos.length) {
+    const dirDatos = path.join(RAIZ, 'datos-fotos');
+    fs.mkdirSync(dirDatos, { recursive: true });
+    fs.writeFileSync(path.join(dirDatos, `${sitioId}.json`), JSON.stringify(datosFotos, null, 1));
   }
   console.log(`::notice::Fotos de ${sitioId}: ${ok} ${plan ? 'revisadas' : 'descargadas'}, ${saltadas} ya existían, ${sinFoto} sin foto, ${mal} con problema.`);
   if (mal) process.exitCode = 0; // los problemas se leen en las anotaciones; no frenan el resto

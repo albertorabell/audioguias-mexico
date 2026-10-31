@@ -94,7 +94,7 @@ jobs:
           git config user.name "fotos-bot"
           git config user.email "fotos-bot@users.noreply.github.com"
           git checkout -q -B "$rama"
-          git add public/images/pieces
+          git add public/images/pieces datos-fotos
           if git diff --cached --quiet; then
             echo "::notice::No hay fotos nuevas que guardar."
             exit 0
