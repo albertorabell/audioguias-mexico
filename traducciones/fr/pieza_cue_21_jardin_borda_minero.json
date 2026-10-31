@@ -1,0 +1,56 @@
+{
+  "id": "cue_21_jardin_borda_minero",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7812c0861cf93963",
+      "texto": "Le rêve d’un mineur : les jardins des Borda"
+    },
+    "frase_gancho": {
+      "hash": "50b62201383530f1",
+      "texto": "Un homme qui fit fortune avec l’argent de Taxco construisit ici des terrasses, des fontaines et un lac à la française."
+    },
+    "puente_narrativo": {
+      "hash": "98a5960d82dfe5d1",
+      "texto": "Si votre itinéraire continue, parcourez le jardin jusqu’à l’histoire des empereurs."
+    },
+    "guion_corto": {
+      "hash": "535b9f25adc44b4d",
+      "texto": "José de la Borda arriva en Nouvelle-Espagne en mille sept cent seize et fit une énorme fortune avec les mines d’argent de Taxco et de Zacatecas. Il acheta probablement ce terrain en mille sept cent soixante-trois, face à l’ancien monastère franciscain qui est aujourd’hui la cathédrale. Il mourut ici en mille sept cent soixante-dix-huit. Son fils Manuel, qui était prêtre et aimait aussi la botanique, transforma la maison en un jardin de fleurs et d’arbres fruitiers, achevé en mille sept cent quatre-vingt-trois. Il comporte des terrasses, des rampes, des fontaines, deux bassins et un lac artificiel, dans le style français. Près de la maison, on éleva une église dédiée à la Vierge de Guadalupe. Aujourd’hui, c’est un centre culturel, et son histoire comprend une face difficile : la richesse de Borda reposait sur l’exploitation du travail indigène."
+    },
+    "guion_largo": {
+      "hash": "eb80ec835380ade8",
+      "texto": "Ce jardin raconte la couche du repos : le lieu où venaient se retirer les riches et les puissants. Mais cette histoire commence par une fortune. José de la Borda naquit vers mille six cent quatre-vingt-dix-neuf ou mille sept cents, et les sources hésitent entre l’Espagne et la France. Il arriva en Nouvelle-Espagne en mille sept cent seize, à environ dix-sept ans. Il s’enrichit avec les mines de Taxco et de Zacatecas. À un moment, on le considéra comme l’homme le plus riche du Mexique, et l’on estime qu’il gagna environ quarante millions de pesos. Avec cet argent, il paya des ouvrages célèbres, comme l’église de Santa Prisca à Taxco et la Casa Borda à Mexico.\n\nIl eut aussi une vie avec des ombres. On lui reproche de s’être enrichi par l’exploitation cruelle du travail indigène. Dans ses dernières années, il souffrit d’un empoisonnement au mercure, un risque de l’exploitation de l’argent, et se retira à Cuernavaca, où vivait son fils Manuel, qui était prêtre.\n\nSelon une source, Borda acheta ce terrain en mille sept cent soixante-trois, face au couvent franciscain qui est aujourd’hui la cathédrale. Il mourut ici en mille sept cent soixante-dix-huit. Manuel hérita de la propriété. Les plantes l’intéressaient beaucoup, et il transforma le terrain en un jardin de fleurs et d’arbres fruitiers. Les travaux du jardin et du lac s’achevèrent en mille sept cent quatre-vingt-trois.\n\nLe dessin suit le style des jardins français : des terrasses à différents niveaux, des rampes, des escaliers et des fontaines. Il y a deux bassins et un système d’eau qui alimentait le lac et plusieurs fontaines. On mentionne aussi une fontaine baroque appelée Fuente Magna et un portique à grilles qui rappelle les jardins de l’Alhambra, à Grenade. Près de la maison, on construisit une église dédiée à la Vierge de Guadalupe.\n\nLa collection botanique commença au dix-huitième siècle. Elle réunit des plantes originaires de Mésoamérique et des plantes exotiques. Parmi les natives, on mentionne le copal, la flor de mayo et l’avocatier. Parmi les exotiques, il y a le manguier et le jacaranda. Le jardin abrite aussi des poissons, des oiseaux et des écureuils.\n\nAujourd’hui, ce lieu est un centre culturel avec des salles d’exposition, une librairie et un auditorium en plein air. Il est classé monument historique. Il convient de se promener sans hâte : tout, dans le jardin, est pensé pour regarder, se reposer et écouter l’eau.\n\nPour parcourir le jardin, suivez l’eau. Les terrasses descendent par niveaux, et chaque niveau a sa propre vue. Cherchez les escaliers et les rampes qui relient un niveau à un autre. Dans un jardin de style français, l’ordre compte : des allées droites, des fontaines alignées et des plantes disposées avec intention.\n\nUne autre façon de regarder est par espèces. La collection réunit des plantes natives et exotiques. Si vous voyez une flor de mayo, un avocatier ou un jacaranda, vous lisez déjà le croisement de deux mondes botaniques : ce qui poussait ici et ce qui est venu de loin.\n\nQuand vous vous assiérez près du lac, pensez aux deux faces de ce lieu. C’est un beau jardin, mais il a été payé avec des mines et le travail d’autrui. La beauté et l’histoire difficile vont de pair."
+    },
+    "retos_observacion": {
+      "hash": "9bf24ef1b00f242f",
+      "texto": [
+        "Cherchez les terrasses et les rampes et remarquez comment le jardin monte et descend par niveaux",
+        "Trouvez le lac et les fontaines et écoutez l’eau",
+        "Cherchez l’église de la Vierge de Guadalupe à côté de la maison et demandez pour qui elle a été construite"
+      ]
+    },
+    "especificaciones": {
+      "hash": "617e9a36bdd4d8ee",
+      "texto": {
+        "Fondateur": "José de la Borda, mineur d’argent de Taxco et de Zacatecas",
+        "Terrain": "acheté probablement en 1763",
+        "Mort de José de la Borda": "1778, à Cuernavaca",
+        "Travaux du jardin": "achevés par son fils Manuel en 1783",
+        "Style": "français, avec terrasses, rampes, fontaines, deux bassins et un lac artificiel",
+        "Usage actuel": "centre culturel"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e9677f07d405a31",
+      "texto": {
+        "pregunta": "Mythe : Le Jardin Borda a été construit par l’empereur Maximilien.",
+        "respuesta": "Réalité : La famille Borda l’a fait au dix-huitième siècle. Maximilien l’a choisi comme maison d’été en mille huit cent soixante-cinq."
+      }
+    }
+  }
+}

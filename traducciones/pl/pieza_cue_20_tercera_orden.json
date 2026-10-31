@@ -1,0 +1,55 @@
+{
+  "id": "cue_20_tercera_orden",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "832145101d58c960",
+      "texto": "Świątynia Trzeciego Zakonu"
+    },
+    "frase_gancho": {
+      "hash": "31c164751db15c80",
+      "texto": "Świątynia z osiemnastego wieku wzniesiona przez świeckiego zarządcę, z ranami świętego Franciszka na portalu."
+    },
+    "puente_narrativo": {
+      "hash": "24072a38a18279e1",
+      "texto": "Jeśli twoja trasa trwa dalej, idź w stronę Ogrodu Borda, który leży bardzo blisko zespołu."
+    },
+    "guion_corto": {
+      "hash": "dd8deb9c214c79c4",
+      "texto": "Wielu ludzi sądzi, że wszyscy franciszkanie byli braćmi zakonnymi. Tak nie jest. Trzeci Zakon zrzeszał świeckich, którzy chcieli żyć w duchu świętego Franciszka, nie wstępując do klasztoru. Tę świątynię zbudowano dla nich między tysiąc siedemset dwudziestym trzecim a tysiąc siedemset trzydziestym szóstym rokiem, z inicjatywy licenciado Enrique Jereza, świeckiego zarządcy zakonu franciszkańskiego. Znajduje się na północno-zachodnim krańcu krużganka klasztoru. Na jej portalu jest kamienny relief przedstawiający stygmatyzację świętego Franciszka, czyli moment, w którym według tradycji otrzymał rany Chrystusa. Ten relief bardzo przypomina drewniany z osiemnastego wieku, który przechowuje katedra."
+    },
+    "guion_largo": {
+      "hash": "8336cee27e031700",
+      "texto": "W tradycji franciszkańskiej są trzy zakony. Pierwszy Zakon to bracia. Drugi to siostry klaryski. Trzeci zrzeszał świeckich mężczyzn i kobiety, czyli ludzi, którzy nie byli ani kapłanami, ani zakonnikami, a chcieli żyć prosto i w modlitwie, nie porzucając codziennego życia. Byli to kupcy, rzemieślnicy i rodziny, które spotykały się we własnej świątyni.\n\nW Cuernavace ta świątynia powstała w osiemnastym wieku. Według badaczki Maríi Celii Fontany została wzniesiona między tysiąc siedemset dwudziestym trzecim a tysiąc siedemset trzydziestym szóstym rokiem, z inicjatywy licenciado Enrique Jereza, świeckiego zarządcy zakonu. Zarządca to osoba, która administrowała dobrami i dbała o wydatki. To, że zrobił to ktoś, kto nie był bratem zakonnym, wiele mówi o znaczeniu świeckich w tym zakonie.\n\nFontana umieszcza świątynię na północno-zachodnim krańcu krużganka klasztoru. Inne źródło mówi, że kaplica Trzeciego Zakonu, razem z kaplicami Dolores i El Carmen, została zbudowana później na dziedzińcu. Oba opisy nie zgadzają się do końca, więc kieruj się oznaczeniami na trasie, by tam dotrzeć.\n\nPortal ma kamienny relief przedstawiający stygmatyzację świętego Franciszka. Według tradycji w trzynastym wieku święty modlił się na górze i otrzymał w swoim ciele pięć ran Chrystusa. To rany dłoni, stóp i boku. To jeden z najważniejszych obrazów pobożności franciszkańskiej. W Cuernavace ten obraz pojawia się dwa razy: w kamieniu, na tym portalu, i w polichromowanym, złoconym drewnie, w reliefie w katedrze.\n\nFontana zauważa, że oba reliefy bardzo się do siebie podobają. Drewniany to przedmiot z osiemnastego wieku, anonimowego autora. Nie wiemy, który powstał pierwszy ani czy jeden zainspirował drugi. Ale zbieżność pokazuje, że w osiemnastym wieku wciąż powtarzano wzory, które znajdowały się w głównym klasztorze.\n\nData też ma znaczenie. Pierwsi franciszkanie przybyli do Cuernavaki w szesnastym wieku. Dwa wieki później byli już dorośli, którzy należeli do Trzeciego Zakonu i chcieli mieć własne miejsce. To dowód, że wiara franciszkańska wciąż żyła w mieście i że nie podtrzymywali jej już tylko bracia: podtrzymywała ją wspólnota.\n\nAby zobaczyć ten portal, stań naprzeciw niego i podnieś wzrok do reliefu. Zwróć uwagę na postawę świętego i na to, co jest wokół niego. Potem przypomnij sobie drewnianą wersję z muzeum i zapytaj siebie, które szczegóły się między nimi różnią.\n\nTa świątynia zamyka wizytę w katedrze prostą myślą. Tu nie było tylko braci ani tylko władców: były rodziny i rzemieślnicy, którzy postanowili wznieść własne miejsce modlitwy. Zespół religijny to nie tylko stary budynek. To wynik wieków ludzi, którzy się gromadzili, budowali i modlili w tym samym miejscu."
+    },
+    "retos_observacion": {
+      "hash": "81c3189416022e80",
+      "texto": [
+        "Poszukaj kamiennego reliefu na portalu i spróbuj dostrzec dłonie i stopy świętego Franciszka",
+        "Porównaj ten obraz z tym w muzeum, jeśli możesz go zobaczyć, i pomyśl, które cechy się powtarzają",
+        "Zapytaj przy wejściu, czy świątynia jest otwarta i o której godzinie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a877dd6b656a1367",
+      "texto": {
+        "Budowa": "między 1723 a 1736",
+        "Inicjator": "licenciado Enrique Jerez, świecki zarządca zakonu franciszkańskiego",
+        "Lokalizacja": "północno-zachodni kraniec krużganka, według Fontany",
+        "Szczegół portalu": "kamienny relief stygmatyzacji świętego Franciszka",
+        "Porównywalny relief": "polichromowane i złocone drewno z XVIII wieku, anonimowego autora"
+      }
+    },
+    "faq_mito": {
+      "hash": "39001c14ae248dc1",
+      "texto": {
+        "pregunta": "Mit: Trzeci Zakon był grupą braci zakonnych.",
+        "respuesta": "Rzeczywistość: Zrzeszał świeckich, mężczyzn i kobiety, którzy chcieli żyć w duchu świętego Franciszka, nie wstępując do klasztoru."
+      }
+    }
+  }
+}

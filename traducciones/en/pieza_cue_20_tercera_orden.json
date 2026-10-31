@@ -1,0 +1,55 @@
+{
+  "id": "cue_20_tercera_orden",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "832145101d58c960",
+      "texto": "The Temple of the Third Order"
+    },
+    "frase_gancho": {
+      "hash": "31c164751db15c80",
+      "texto": "An eighteenth-century temple raised by a lay steward, with the wounds of Saint Francis on the portal."
+    },
+    "puente_narrativo": {
+      "hash": "24072a38a18279e1",
+      "texto": "If your route continues, walk toward the Borda Garden, which is very close to the complex."
+    },
+    "guion_corto": {
+      "hash": "dd8deb9c214c79c4",
+      "texto": "Many people believe all Franciscans were friars. They were not. The Third Order brought together lay people who wanted to live by the spirit of Saint Francis without entering a convent. This temple was built for them between seventeen twenty-three and seventeen thirty-six, by the licenciado Enrique Jerez, a lay steward of the Franciscan order. It is at the northwest end of the convent’s cloister. On its portal there is a stone relief of the stigmatization of Saint Francis, that is, the moment when, according to tradition, he received the wounds of Christ. That relief closely resembles an eighteenth-century wooden one kept by the cathedral."
+    },
+    "guion_largo": {
+      "hash": "8336cee27e031700",
+      "texto": "In the Franciscan tradition there are three orders. The First Order is that of the friars. The Second is that of the Poor Clare nuns. The Third brought together lay men and women, that is, people who were neither priests nor religious, and who wanted to live with simplicity and prayer without leaving their daily lives. They were merchants, artisans and families who gathered in their own temple.\n\nIn Cuernavaca, that temple was built in the eighteenth century. According to the researcher María Celia Fontana, it was raised between seventeen twenty-three and seventeen thirty-six, on the initiative of the licenciado Enrique Jerez, a lay steward of the order. A steward was the person who managed the property and handled the expenses. That someone who was not a friar did this says a lot about the importance of lay people in this order.\n\nFontana places the temple at the northwest end of the convent’s cloister. Another source says that the chapel of the Third Order, together with those of Dolores and El Carmen, was built later on the atrium. The two descriptions do not fully agree, so follow the signs on the tour to get there.\n\nThe portal has a stone relief of the stigmatization of Saint Francis. According to tradition, in the thirteenth century the saint prayed on a mountain and received in his body the five wounds of Christ. They are those of the hands, the feet and the side. It is one of the most important images of Franciscan devotion. In Cuernavaca the image appears twice: in stone, on this portal, and in polychrome and gilded wood, in a relief in the cathedral.\n\nFontana observes that the two reliefs closely resemble each other. The wooden one is an eighteenth-century object, by an anonymous author. We do not know which was made first or whether one inspired the other. But the coincidence shows that in the eighteenth century the models found in the main convent were still being repeated.\n\nThe date matters too. The first Franciscans arrived in Cuernavaca in the sixteenth century. Two centuries later, there were already adults who belonged to the Third Order and wanted a place of their own. It is proof that Franciscan faith was still alive in the city, and that it was no longer sustained only by friars: it was sustained by a community.\n\nTo see this portal, stand in front of it and lift your eyes to the relief. Notice the saint’s posture and what is around him. Then recall the wooden version in the museum and ask yourself which details change between one and the other.\n\nThis temple closes the visit to the cathedral with a simple idea. Here there were not only friars or only rulers: there were families and artisans who decided to build a place of prayer of their own. A religious complex is not just an old building. It is the result of centuries of people who gathered, built and prayed in the same place."
+    },
+    "retos_observacion": {
+      "hash": "81c3189416022e80",
+      "texto": [
+        "Find the stone relief on the portal and try to see Saint Francis’s hands and feet",
+        "Compare that image with the one in the museum, if you can see it, and think about which features repeat",
+        "Ask at the entrance whether the temple is open and at what time"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a877dd6b656a1367",
+      "texto": {
+        "Construction": "between 1723 and 1736",
+        "Promoter": "licenciado Enrique Jerez, lay steward of the Franciscan order",
+        "Location": "northwest end of the cloister, according to Fontana",
+        "Portal detail": "stone relief of the stigmatization of Saint Francis",
+        "Comparable relief": "polychrome and gilded wood from the 18th century, by an anonymous author"
+      }
+    },
+    "faq_mito": {
+      "hash": "39001c14ae248dc1",
+      "texto": {
+        "pregunta": "Myth: The Third Order was a group of friars.",
+        "respuesta": "Reality: It brought together lay men and women who wanted to live by the spirit of Saint Francis without entering a convent."
+      }
+    }
+  }
+}

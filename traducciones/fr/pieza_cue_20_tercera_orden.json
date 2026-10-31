@@ -1,0 +1,55 @@
+{
+  "id": "cue_20_tercera_orden",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "832145101d58c960",
+      "texto": "Le temple du Tiers-Ordre"
+    },
+    "frase_gancho": {
+      "hash": "31c164751db15c80",
+      "texto": "Un temple du dix-huitième siècle élevé par un intendant laïc, avec les plaies de saint François sur le portail."
+    },
+    "puente_narrativo": {
+      "hash": "24072a38a18279e1",
+      "texto": "Si votre itinéraire continue, marchez vers le Jardin Borda, qui est tout près de l’ensemble."
+    },
+    "guion_corto": {
+      "hash": "dd8deb9c214c79c4",
+      "texto": "Beaucoup de gens croient que tous les franciscains étaient des frères. Ce n’est pas le cas. Le Tiers-Ordre rassemblait des laïcs qui voulaient vivre selon l’esprit de saint François sans entrer dans un couvent. Ce temple fut construit pour eux entre mille sept cent vingt-trois et mille sept cent trente-six, par le licenciado Enrique Jerez, intendant laïc de l’ordre franciscain. Il se trouve à l’extrémité nord-ouest du cloître du couvent. Sur son portail, il y a un relief de pierre représentant la stigmatisation de saint François, c’est-à-dire le moment où, selon la tradition, il reçut les plaies du Christ. Ce relief ressemble beaucoup à un relief de bois du dix-huitième siècle que conserve la cathédrale."
+    },
+    "guion_largo": {
+      "hash": "8336cee27e031700",
+      "texto": "Dans la tradition franciscaine, il y a trois ordres. Le Premier Ordre est celui des frères. Le Deuxième est celui des moniales clarisses. Le Troisième rassemblait des hommes et des femmes laïcs, c’est-à-dire qui n’étaient ni prêtres ni religieux, et qui voulaient vivre dans la simplicité et la prière sans quitter leur vie quotidienne. C’étaient des commerçants, des artisans et des familles qui se réunissaient dans leur propre temple.\n\nÀ Cuernavaca, ce temple fut construit au dix-huitième siècle. Selon la chercheuse María Celia Fontana, il fut élevé entre mille sept cent vingt-trois et mille sept cent trente-six, à l’initiative du licenciado Enrique Jerez, intendant laïc de l’ordre. Un intendant était la personne qui administrait les biens et s’occupait des dépenses. Que ce soit quelqu’un qui n’était pas frère qui l’ait fait en dit long sur l’importance des laïcs dans cet ordre.\n\nFontana situe le temple à l’extrémité nord-ouest du cloître du couvent. Une autre source dit que la chapelle du Tiers-Ordre, avec celles de Dolores et du Carmen, fut construite plus tard sur le parvis. Les deux descriptions ne coïncident pas tout à fait, suivez donc les indications du parcours pour y arriver.\n\nLe portail porte un relief de pierre représentant la stigmatisation de saint François. Selon la tradition, au treizième siècle, le saint pria sur une montagne et reçut dans son corps les cinq plaies du Christ. Ce sont celles des mains, des pieds et du côté. C’est l’une des images les plus importantes de la dévotion franciscaine. À Cuernavaca, l’image apparaît deux fois : en pierre, sur ce portail, et en bois polychrome et doré, dans un relief de la cathédrale.\n\nFontana observe que les deux reliefs se ressemblent beaucoup. Celui de bois est un objet du dix-huitième siècle, d’auteur anonyme. Nous ne savons pas lequel fut fait en premier ni si l’un a inspiré l’autre. Mais la coïncidence montre qu’au dix-huitième siècle on répétait encore les modèles qui se trouvaient dans le couvent principal.\n\nLa date compte aussi. Les premiers franciscains arrivèrent à Cuernavaca au seizième siècle. Deux siècles plus tard, il y avait déjà des adultes qui appartenaient au Tiers-Ordre et voulaient un lieu à eux. C’est la preuve que la foi franciscaine était toujours vivante dans la ville, et qu’elle n’était plus soutenue seulement par les frères : elle était soutenue par une communauté.\n\nPour voir ce portail, placez-vous face à lui et levez les yeux jusqu’au relief. Remarquez la posture du saint et ce qu’il y a autour de lui. Ensuite, rappelez-vous la version en bois du musée et demandez-vous quels détails changent de l’une à l’autre.\n\nCe temple clôt la visite de la cathédrale par une idée simple. Ici, il n’y eut pas que des frères ni que des gouvernants : il y eut des familles et des artisans qui décidèrent d’élever un lieu de prière à eux. Un ensemble religieux n’est pas seulement un vieux bâtiment. C’est le résultat de siècles de gens qui se sont rassemblés, ont construit et ont prié au même endroit."
+    },
+    "retos_observacion": {
+      "hash": "81c3189416022e80",
+      "texto": [
+        "Cherchez le relief de pierre du portail et essayez de voir les mains et les pieds de saint François",
+        "Comparez cette image avec celle du musée, si vous pouvez la voir, et réfléchissez aux traits qui se répètent",
+        "Demandez à l’entrée si le temple est ouvert et à quelle heure"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a877dd6b656a1367",
+      "texto": {
+        "Construction": "entre 1723 et 1736",
+        "Promoteur": "licenciado Enrique Jerez, intendant laïc de l’ordre franciscain",
+        "Emplacement": "extrémité nord-ouest du cloître, selon Fontana",
+        "Détail du portail": "relief de pierre de la stigmatisation de saint François",
+        "Relief comparable": "bois polychrome et doré du XVIIIe siècle, d’auteur anonyme"
+      }
+    },
+    "faq_mito": {
+      "hash": "39001c14ae248dc1",
+      "texto": {
+        "pregunta": "Mythe : Le Tiers-Ordre était un groupe de frères.",
+        "respuesta": "Réalité : Il rassemblait des laïcs, hommes et femmes, qui voulaient vivre selon l’esprit de saint François sans entrer dans un couvent."
+      }
+    }
+  }
+}
