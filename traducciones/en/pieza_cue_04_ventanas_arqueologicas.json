@@ -1,0 +1,54 @@
+{
+  "id": "cue_04_ventanas_arqueologicas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c6e2edf17984e41b",
+      "texto": "The Archaeological Windows and the Monoliths"
+    },
+    "frase_gancho": {
+      "hash": "a7c37d19822e087b",
+      "texto": "Beneath the Palace of Cortés lies a Tlahuica plaza with platforms, steps and circular structures."
+    },
+    "puente_narrativo": {
+      "hash": "1680ce1c942e210c",
+      "texto": "Continue through the museum to the Landscape Hall: from the Tlahuica plaza you move on to the nature of Morelos."
+    },
+    "guion_corto": {
+      "hash": "924ac6a4cede8ec3",
+      "texto": "There is a detail almost nobody notices: the palace is full of windows in the floor and in the walls. They are not for looking out, but for looking down. Through them you glimpse the remains of a pre-Hispanic plaza, with platforms, staircase frames, steps and circular structures of stone and stucco. Archaeologists distinguish four stages of Tlahuica construction, and these windows show the third. In front of the entrance, under the grass, you can find the plaza floor and a circular altar that barely rises above the lawn. On the west side of the palace there are three carved monoliths: the Eagle of Chapultepec, the Lizard of San Antón and the Chimalli. They are stones that came here from other places."
+    },
+    "guion_largo": {
+      "hash": "584f9f8af3bae7b6",
+      "texto": "Cuernavaca was called Cuauhnáhuac, a Nahuatl name usually translated as “near the trees.” When the Spaniards pronounced it, it ended up as Cuernavaca. But before the new name, there was the plaza. And that plaza did not disappear completely: it is still here, beneath and around the palace.\n\nBetween nineteen seventy-one and nineteen seventy-three, during the INAH restoration, the archaeologist Jorge Angulo Villaseñor directed excavations at this place. They found layers from the Tlahuica and Mexica periods, that is, from the two peoples who used the site before the Spaniards arrived. Since then, the museum has kept several archaeological windows.\n\nThe INAH explains that Tlahuica construction had four stages. What you see through the windows belongs to the third. There are platforms, staircase frames, steps and circular structures made of stone and stucco. Stucco is a lime mixture that was used to coat walls and floors. If you lean over calmly, imagine the space full of people: it was the main plaza of a center of government and tribute.\n\nIn front of the museum entrance, the excavations revealed the floor of the plaza. Today it is covered with grass, but you can make out a circular altar that barely rises above the lawn. It is easy to walk over it without noticing.\n\nThere are also three monoliths on the west side of the palace. The first is the Eagle of Chapultepec, the second is the Lizard of San Antón and the third is the Chimalli, which is also known as the Stone of Enchantments. Chimalli is the Nahuatl word for shield. In nineteen ninety-two, the Chimalli was moved to the pre-Hispanic plaza, where it is now displayed beside the remains.\n\nThe Tlahuica spoke Nahuatl and lived in lordships spread across what is now Morelos. Cuauhnáhuac was one of their centers. A tecpan was both palace and office: the ruler lived there and tribute was received there. Building the Palace of Cortés right on that spot was no coincidence, because the site was already a center of power.\n\nTo read these windows it helps to think like an archaeologist. Ancient constructions pile up like the pages of a book. The oldest stays at the bottom and the most recent on top. When the INAH speaks of four Tlahuica stages, most likely each one was built on top of the previous one. That is why the windows are so valuable: they let you see one page of the book without tearing it out.\n\nThe idea worth taking with you is simple. A colonial palace can look like a single work of the sixteenth century. But this one was built on a place that already had centuries of use. Looking down, through the windows, is a reminder that Cuernavaca has two histories stacked on each other. That is why it is worth leaning over slowly. What you see through the glass is not decoration. It is ground that other people walked on, before this building existed."
+    },
+    "retos_observacion": {
+      "hash": "0b68597c16ccd15e",
+      "texto": [
+        "Find the windows in the floor or in the walls and try to tell the platforms and steps apart",
+        "Find the circular altar that barely rises above the grass in front of the entrance",
+        "Locate the three monoliths on the west side and look for the one shaped like a shield"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7495d770f116598b",
+      "texto": {
+        "Pre-Hispanic plaza": "four stages of Tlahuica construction; the windows show the third",
+        "Visible remains": "platforms, staircase frames, steps and circular structures of stone and stucco",
+        "Monoliths on the west side": "Eagle of Chapultepec, Lizard of San Antón and Chimalli",
+        "Excavations": "1971 to 1973, directed by Jorge Angulo Villaseñor"
+      }
+    },
+    "faq_mito": {
+      "hash": "4ecaff91be1a3f89",
+      "texto": {
+        "pregunta": "Myth: The Palace of Cortés was built on empty ground.",
+        "respuesta": "Reality: It was built over the Tlahuica tecpan and plaza. The remains are still visible in the archaeological windows."
+      }
+    }
+  }
+}

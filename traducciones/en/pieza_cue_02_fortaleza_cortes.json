@@ -1,0 +1,56 @@
+{
+  "id": "cue_02_fortaleza_cortes",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92bf74aefba78ae3",
+      "texto": "Cortés’s Fortress"
+    },
+    "frase_gancho": {
+      "hash": "58c499f91578d5ef",
+      "texto": "A family home with thick walls and battlements, built over the Tlahuica seat of government."
+    },
+    "puente_narrativo": {
+      "hash": "1caca043206f2e4e",
+      "texto": "Go into the museum and follow your route inside the palace."
+    },
+    "guion_corto": {
+      "hash": "d5c5fcc854f89c68",
+      "texto": "Is this a house or a fortress? Both. Hernán Cortés ordered this building raised over the tecpan of Cuauhnáhuac, the government house where the Tlahuica gathered tribute, and he used materials from that destroyed structure. The walls are thick and the upper part has battlements, like those of a castle. In fifteen twenty-nine Cortés received the title of Marquis of the Valley of Oaxaca, and in fifteen thirty-one he settled here with his wife, Juana de Zúñiga. From the corridors you can see the volcanoes and the fertile lands that drew him to Cuernavaca. The INAH describes it as the first civil building raised in the Americas after the arrival of the Europeans."
+    },
+    "guion_largo": {
+      "hash": "c94d242589e2347e",
+      "texto": "Before this palace existed, there was another building here. The Tlahuica, the people who lived on these lands, had a tecpan at this spot, which was a government house where tribute was gathered. In the fifteenth century, the Mexica dominated the region and the site went on serving to collect tribute. When the Spaniards arrived, Hernán Cortés ordered that building destroyed and his own raised on top of it. Part of the materials came from the ruins.\n\nIt is said that Cortés chose Cuernavaca for the fertility of its land. In fifteen twenty-nine the king gave him the title of Marquis of the Valley of Oaxaca, with an enormous territory that included this area. It was the sixth of July, according to Wobeser. That lordship was not a single block: it had twenty-two towns spread across seven jurisdictions, and the largest was the Alcaldía Mayor of Cuernavaca, where its administrative center stood. It lasted until eighteen twenty-one. Some authors place the start of construction around fifteen twenty-six, and the main expansion between fifteen thirty-one and fifteen thirty-five. Cortés settled here in fifteen thirty-one with his second wife, Juana de Zúñiga.\n\nThe construction mixes Gothic and Mudéjar features, that is, from the Islamic tradition in Spain. The walls are thick, of stone from the region, and above there are battlements. They are not mere decoration: in those years, a conqueror might need to defend himself. The palace even had a weapons depot. But it was also a home. It is said that Cortés furnished it with twenty-one tapestries and a chapel with objects of gold and silver.\n\nHis son Martín Cortés, the second Marquis of the Valley, was born here. Cortés visited the palace often during the fifteen thirties. He left for Spain in fifteen forty, never returned to Mexico and died there in fifteen forty-seven. Juana de Zúñiga kept living in the palace until after her death.\n\nThere is a famous legend about Cortés in Cuernavaca: that he leaped a five-meter ravine on horseback to escape an attack. That story is not documented. What is on record is that Tlahuica warriors attacked the Spaniards in that era, near the place now called Callejón del Diablo.\n\nSomething worth keeping in mind is who actually built the work. The walls were not put up by Cortés with his own hands. They were put up by indigenous labor, as Diego Rivera shows in [the first section of the mural](cue_09_rivera_conquista), with the scene of the palace’s construction. We have no reliable figure for how many people worked on it, and so we are not going to invent one here.\n\nBetween nineteen seventy-one and nineteen seventy-three, the INAH restored the palace to give it back its sixteenth-century form. Even so, the building you see mixes eras, because it was repaired and expanded many times. Some parts date from Cortés’s time and others were added centuries later.\n\nThe INAH describes the palace as the first civil building raised in the Americas after the arrival of the Europeans. Walk through the building with that idea in mind: a family home, a fortress and a sign of power, all made of the same stone."
+    },
+    "retos_observacion": {
+      "hash": "486b4d803cb45bb1",
+      "texto": [
+        "Find the thick walls and the battlements on top: they were designed for defense",
+        "Look at the arches of the corridors and notice what you can see from them: the volcanoes and the city",
+        "Ask which part of the building is old and which part was added later: the palace changed many times"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a33f0926729aebf1",
+      "texto": {
+        "Builder": "Hernán Cortés, over the tecpan of Cuauhnáhuac",
+        "Start": "around 1526 according to some authors; expansion between 1531 and 1535",
+        "Style": "Gothic and Mudéjar",
+        "Material": "local stone on a pre-Hispanic base",
+        "Cortés": "Marquis of the Valley of Oaxaca since 1529",
+        "Wife": "Juana de Zúñiga"
+      }
+    },
+    "faq_mito": {
+      "hash": "2f4f7ce4bfb3d642",
+      "texto": {
+        "pregunta": "Myth: Cortés leaped a five-meter ravine on horseback at the Callejón del Diablo.",
+        "respuesta": "Reality: It is a legend with no documents to support it. What is documented is an attack by Tlahuica warriors in that area."
+      }
+    }
+  }
+}

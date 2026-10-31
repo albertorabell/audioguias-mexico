@@ -1,0 +1,55 @@
+{
+  "id": "cue_05_sala_paisaje",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6ff793b97e1fd30d",
+      "texto": "Landscape Hall: Mammoth, Obsidian and Caves"
+    },
+    "frase_gancho": {
+      "hash": "0dce834adf5b7ccf",
+      "texto": "A femur and tusks from a mammoth more than ten thousand years old recall who walked through Morelos before its peoples."
+    },
+    "puente_narrativo": {
+      "hash": "dadd4a7491026a80",
+      "texto": "Continue with the hall of the peoples of corn and stone and the Olmec hall."
+    },
+    "guion_corto": {
+      "hash": "0b5b4cdd7c075655",
+      "texto": "The bones that welcome you in this hall are more than ten thousand years old. They are a femur and tusks from a mammoth, an animal of the last ice age. The hall is called Landscape and tells what the ecosystems and geology of Morelos are like. There are fossils, pieces of obsidian, which is a volcanic glass used to make sharp edges, and basketry from the caves of El Gallo and La Chagüera. The museum estimates that the region has been inhabited for about sixty-three hundred years before the Common Era. But this hall goes further back: it shows that the territory already existed, with its nature, before the first person arrived. Morelos is a small state, but it brings together mountains, valleys and warm lowlands."
+    },
+    "guion_largo": {
+      "hash": "69a4dcd24ded888b",
+      "texto": "The museum of the Palace of Cortés changed its mind when it reopened in two thousand twenty-three. Before, it told history by eras and by famous figures. Now, according to those responsible for it, it tells who shaped the territory, from the first communities to today, without focusing on big dates or great figures. This hall is the best example of that idea, because it begins with the landscape.\n\nThe Landscape Hall speaks of the ecosystems and the geology of Morelos. It is a small state, but it has forests in the high areas of the north and warm lowlands toward the south. That variety of climates explains why there were so many ways of living here.\n\nWhat draws the most attention are the mammoth remains. There is a femur and tusks more than ten thousand years old. The mammoth is an extinct animal, a relative of the elephants, that lived in the last ice age. When people think of that time, almost nobody imagines these animals passing through what is now Morelos, but these remains show it.\n\nThere are also fossils and pieces of obsidian. Obsidian is volcanic glass. It breaks into very sharp flakes, which is why it was a valuable material for making knives and points since prehistory. That it appears in a hall about landscape is no accident: obsidian is born from volcanoes, and Morelos has volcanoes nearby.\n\nAnother part of the hall shows basketry from the caves of El Gallo and La Chagüera. Baskets are fragile objects. That they have survived so long shows that the caves preserved the materials well. That is why archaeologists are so interested in these sites: they keep things that are almost never preserved in the open air.\n\nAnother hall of the museum, Biodiversity, uses infographics to show the flora and fauna endemic to Morelos. Endemic means found only in one place. The two halls make a pair: one shows what lives in the territory today, and the other, what left its mark thousands of years ago. Fossils, for their part, are remains or traces of living things preserved in rock.\n\nThe museum is not yet complete. According to the INAH, the archaeology halls are still missing, as are those on the history of the sixteenth to the nineteenth century and on anthropology from the twentieth to the twenty-first century. An epilogue on the shared responsibility of caring for heritage is also missing. At the reopening in two thousand twenty-three, five permanent halls and three temporary exhibitions opened.\n\nIf you think about it, a museum like this does something textbooks do not. It puts in front of you a real bone, from an animal no one has seen alive, and lets you judge its size by eye.\n\nWhen you finish, hold on to one idea. Before the kings, the conquerors and the governors, there was a landscape that offered water, stone, plants and animals. Everything else was built on top of that."
+    },
+    "retos_observacion": {
+      "hash": "44d507b3f025bcf7",
+      "texto": [
+        "Find the mammoth femur and tusks and work out how big the animal that carried them was",
+        "Find the pieces of obsidian and notice how the material shines, much like glass",
+        "Look at the basketry from the caves and think about how long it stayed hidden"
+      ]
+    },
+    "especificaciones": {
+      "hash": "00b0bc25da3d68b0",
+      "texto": {
+        "Hall": "Landscape, on the ecosystems and geology of Morelos",
+        "Mammoth": "femur and tusks more than 10,000 years old",
+        "Other pieces": "fossils, obsidian and basketry from the El Gallo and La Chagüera caves",
+        "Settlement of the region": "for about 6,300 years before the Common Era, according to the museum",
+        "Museum reopened": "March 30, 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "f90d9c95e14f264c",
+      "texto": {
+        "pregunta": "Myth: Mammoths only lived in the cold lands of the north.",
+        "respuesta": "Reality: There are mammoth remains in Morelos, and the museum displays a femur and tusks more than ten thousand years old."
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "cue_09_rivera_conquista",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3b9081ba22c522bf",
+      "texto": "Rivera I: The Commission and the Conquest"
+    },
+    "frase_gancho": {
+      "hash": "989c8dab38127948",
+      "texto": "Twelve thousand dollars, eight and a half months of work in fresco, and a Conquest told from the side of those who suffered it."
+    },
+    "puente_narrativo": {
+      "hash": "8d238e2b9be8c633",
+      "texto": "Continue along the gallery to the second section of the mural: the conversion, the Inquisition and Zapata."
+    },
+    "guion_corto": {
+      "hash": "abbd6974476c0ebf",
+      "texto": "In October nineteen twenty-nine, the United States ambassador, Dwight Morrow, commissioned Diego Rivera to paint a mural for this corridor. He paid him twelve thousand dollars, which included the materials and his assistant’s salary. Rivera painted it in fresco between the second of January and the sixteenth of September, nineteen thirty. It covers three walls of the gallery: a band of color above and eleven grisailles, or paintings in shades of gray, below. It reads like a story in order. It begins with the battle between the Spaniards and the Mexica. It continues with the capture of Cuernavaca, the construction of this palace with indigenous labor and the arrival of the sugar mills. According to the INAH, Rivera tells the Conquest from the point of view of the exploited."
+    },
+    "guion_largo": {
+      "hash": "46195e1887985355",
+      "texto": "Imagine the scene. It is nineteen twenty-nine and Diego Rivera is the most famous painter in Mexico. He receives an offer from the United States ambassador, Dwight Morrow, which comes through William Spratling. They offer him twelve thousand dollars, more than the Mexican government had paid him until then. Rivera accepts on one condition: to choose the subject freely. Morrow has a rest house in Cuernavaca, and Rivera and Frida Kahlo stay there while the painter works.\n\nThe price was controversial. Rivera was a member of the Mexican Communist Party, and accepting a commission from the American ambassador cost him his expulsion from the party, according to the INAH. Some historians believe Morrow did it as a gesture of goodwill and others, that it was a diplomatic move. There is no single answer.\n\nRivera painted in fresco, between the second of January and the sixteenth of September, nineteen thirty. Fresco means painting on lime that is still wet, so each day only the piece of wall that can be finished is prepared. The work occupies the north, west and south walls of the arched gallery on this floor, and is divided into two bands. The upper one, in full color, takes up three quarters. The lower one, of eleven panels in shades of gray, is a kind of parallel commentary.\n\nThe first section is about the Conquest. In the color panels you will see a battle between Spanish soldiers, in metal armor, and Mexica warriors, in colorful costumes and spiked war clubs. Another scene shows the capture of Cuernavaca, with a guide disguised as a coyote. There is a scene of plunder and of branding enslaved indigenous people with a hot iron. Next comes the construction of Cortés’s fortified house, which is this very palace, and the tribute system. And then come the sugar mills, which changed the landscape of Morelos.\n\nIn the grisailles below, Rivera tells the same story at another rhythm. Here are Cortés’s landing at Chalchihueyecan, Malintzin and Aguilar as interpreters, the alliance with Xicoténcatl the Elder and the siege of Tenochtitlan with brigantines. To draw all this, Rivera consulted the Lienzo de Tlaxcala, the Matrícula de Tributos, the Florentine Codex and the Mendoza Codex.\n\nThe work is enormous: it covers about one hundred fifty square meters of wall. That is why it is best to look at it in two passes. First walk the corridor looking only at the band of color. Then lower your eyes to the grisailles, which resemble old engravings. The contrast between one and the other is part of Rivera’s idea.\n\nThere is something you will not see. In the mural there are no red stars, hammers or sickles, the symbols of socialism. Rivera did not make a party poster. He made a history narrated from below, from the exploited. That point of view is what keeps the mural interesting today.\n\nOne last detail: when Morrow’s wife asked for a copy of a fragment, Rivera began to develop portable murals, fresco paintings on panels that can be moved. It was an unforeseen consequence of this commission."
+    },
+    "retos_observacion": {
+      "hash": "b892ebaeb815e862",
+      "texto": [
+        "Find the battle scene and notice how Rivera tells the two sides apart by their clothes and weapons",
+        "Find the guide disguised as a coyote in the capture of Cuernavaca",
+        "Look for the initials D.R. and the date thirty in the grisailles at the south corner of the west wall"
+      ]
+    },
+    "especificaciones": {
+      "hash": "30f483bab1b2d224",
+      "texto": {
+        "Author": "Diego Rivera",
+        "Commission": "Dwight Morrow, United States ambassador, October 1929",
+        "Payment": "12,000 dollars, with materials and assistant included",
+        "Assistant": "Victor Arnautoff",
+        "Date": "January 2 to September 16, 1930",
+        "Technique": "fresco",
+        "Structure": "upper band of color and eleven grisailles below",
+        "Visual sources": "Lienzo de Tlaxcala, Matrícula de Tributos, Florentine Codex and Mendoza Codex"
+      }
+    },
+    "faq_mito": {
+      "hash": "6c8c26a3b114a155",
+      "texto": {
+        "pregunta": "Myth: Rivera painted this mural for the government of Morelos.",
+        "respuesta": "Reality: It was commissioned by the United States ambassador, Dwight Morrow, and Rivera accepted with total freedom over the subject."
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "cue_01_zapata_plaza_armas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7619071f5afec7aa",
+      "texto": "Zapata on Horseback, Now in the Center of Cuernavaca"
+    },
+    "frase_gancho": {
+      "hash": "0b04d7338c20725b",
+      "texto": "It weighs more than five tons and reached this plaza in August two thousand twenty-five, after two moves."
+    },
+    "puente_narrativo": {
+      "hash": "5144ce105b71054c",
+      "texto": "Cross over to the Palace of Cortés: your route continues there."
+    },
+    "guion_corto": {
+      "hash": "025e48ad423dcd01",
+      "texto": "More than five tons of bronze arrived in this plaza in August two thousand twenty-five. It is the equestrian monument to Emiliano Zapata, the work of the sculptors Carlos Kunte and Estela Ubando. For forty years it welcomed people entering Cuernavaca on the federal highway, and then it spent six years neglected beside an avenue intersection. Today it stands in the Plaza de Armas, in front of the Government Palace, in the heart of the Historic Center. Zapata was born in eighteen seventy-nine and led the peasants of the south who were asking for land for their villages. Morelos was his territory and his cause. Later on the tour you will see how Diego Rivera painted him, barely eleven years after his death. Here begins the story of a city made of layers of power, faith and rest."
+    },
+    "guion_largo": {
+      "hash": "082faa512f5621f3",
+      "texto": "To reach this plaza, the monument had to cross the city twice. It was installed in nineteen seventy-nine at the entrance to Cuernavaca, beside the federal highway, in the Buena Vista neighborhood. There it greeted people arriving from Mexico City. In two thousand nineteen it was moved to the so-called Paso Exprés, at the intersection with Vicente Guerrero Avenue, where it was left neglected. And in August two thousand twenty-five it was brought here, to the Historic Center.\n\nThe last move was a delicate operation. The sculpture was taken down on a Friday, the first of August, in the afternoon, and it was in place by the early hours of Tuesday, the fifth of August. The bronze figure weighs a little over five tons and measures about five and a half meters high by nine and a half long. Its pedestal is seven meters long, four wide and three high. Governor Margarita González Saravia pushed for the move. The government explained that this strengthens the identity and memory of Zapata in the state. It added that here visitors and tourists can appreciate it in the heart of the Historic Center.\n\nThe sculptors are Carlos Kunte and Estela Ubando. It is an equestrian monument, that is, with the rider mounted on his horse, as is customary to honor military leaders. Zapata was one of them, but his fame comes from something else: the land.\n\nEmiliano Zapata was born in Anenecuilco, Morelos, on the eighth of August, eighteen seventy-nine. In that era, the sugar haciendas had taken over much of the land belonging to the state’s villages. Zapata led the peasants who wanted to recover it. In nineteen eleven he proclaimed the Plan of Ayala, which called for returning their lands to the villages. His motto was Land and Liberty. He died in nineteen nineteen, in an ambush at the Chinameca hacienda, also in Morelos.\n\nThe plaza that now receives him is called Plaza de Armas General Emiliano Zapata Salazar. It was almost entirely remodeled in two thousand sixteen. Across from it is the Government Palace, and a few blocks away is the Palace of Cortés, where the visit continues.\n\nThere, Diego Rivera painted Zapata in nineteen thirty, only eleven years after his death. He did not dress him as a charro with silver ornaments, as he appears in many photographs. He painted him as a humble peasant, in a white cotton shirt and trousers and huaraches. Between the bronze sculpture and the mural there are almost a hundred years, but the message is similar: the hero is a person of the countryside.\n\nBefore moving on, compare the size of the rider with the people crossing the plaza. A sculpture this size asks for distance, and the open plaza gives it that. A monument is not only a work of art. It is also a decision about what a city remembers and where it wants to remember it.\n\nThis monument is a first sign of the layer of power: who rules, who remembers and what is celebrated in a city."
+    },
+    "retos_observacion": {
+      "hash": "eac309c8a6d6c1c4",
+      "texto": [
+        "Compare the size of the rider with the people crossing the plaza: the sculpture is about five and a half meters high",
+        "Notice the pedestal, which is seven meters long and three high",
+        "Find the Government Palace across the plaza, the building the monument is in dialogue with"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3f0ad3ab3815a11d",
+      "texto": {
+        "Work": "equestrian monument to Emiliano Zapata",
+        "Sculptors": "Carlos Kunte and Estela Ubando",
+        "Material": "bronze",
+        "Dimensions": "about 5.5 m high by 9.5 m long",
+        "Weight": "a little over 5 tons",
+        "Pedestal": "7 m long, 4 m wide and 3 m high",
+        "History": "installed in 1979, moved in 2019 and arrived at the Plaza de Armas in August 2025"
+      }
+    },
+    "faq_mito": {
+      "hash": "c2a3b07c59044d0e",
+      "texto": {
+        "pregunta": "Myth: Zapata died in Cuernavaca.",
+        "respuesta": "Reality: He died in an ambush at the Chinameca hacienda, Morelos, on the tenth of April, nineteen nineteen."
+      }
+    }
+  }
+}

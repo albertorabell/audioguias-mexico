@@ -1,0 +1,55 @@
+{
+  "id": "cue_08_cuexcomate",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2f8efde1b7f0dfa1",
+      "texto": "The Cuexcomate, the Clay Granary"
+    },
+    "frase_gancho": {
+      "hash": "7cad580475a9a61a",
+      "texto": "A great clay vessel for storing corn, standing in the open air on a first-floor terrace."
+    },
+    "puente_narrativo": {
+      "hash": "d36bba40646320cf",
+      "texto": "Leave the terrace and follow the route you chose."
+    },
+    "guion_corto": {
+      "hash": "6d63da5611d1d15a",
+      "texto": "Where do you keep corn so the rain does not wet it and the mice do not eat it? In Morelos, for generations, the answer was the cuexcomate. It is a traditional clay granary, shaped like a big pot, raised off the ground. Here, on an open-air terrace on the first floor, you can see one. The museum presents it inside the Bioculturality Hall, along with skeins of wool from Hueyapan. Both objects tell how nature became culture: clay, corn and wool, worked by hands of the region. It is architecture with no stone walls or arches, and yet it solved a problem that every farming people has."
+    },
+    "guion_largo": {
+      "hash": "b22159afade07b7c",
+      "texto": "The word cuexcomate comes from the Nahuatl cuexcomatl, and it names the traditional clay granary of Morelos and other regions of central Mexico. If you see one for the first time, it looks like a giant vessel. In reality it is a functional structure, designed to store corn and other grains.\n\nOn this first-floor terrace of the palace there is one. It is in the open air, while the museum presents it inside a hall, the Bioculturality Hall. There, aspects of the culture of Morelos are explained, such as the cuexcomate and the skeins of wool from Hueyapan. Bioculturality means the relationship between nature and culture: how a people uses what it has around it and turns it into tradition.\n\nTo understand the cuexcomate, think about the problem it solves. After the harvest, corn must last for months. If it gets damp, it rots. If rodents and insects find it, it is lost. A granary raised off the ground, made of clay and covered by a roof, prevents both. It is usually built with clay mixed with dry grass, raised on a stone base, and has an opening at the top for filling it.\n\nCorn has been the basis of life in these villages for more than three thousand years, as the halls on the ground floor tell. Storing it well means securing a family’s food for the year. That is why the cuexcomate is much more than a pretty object: it is part of the security of a peasant home.\n\nIt is worth comparing it with what Diego Rivera tells in the murals of this same palace. [The first section of the mural](cue_09_rivera_conquista) shows the sugar mills, which took a great deal of land. A cuexcomate represents the other face of the land: the one that feeds the villages.\n\nThe museum reopened in two thousand twenty-three with a clear idea: to speak of the people who gave shape to the territory and not only of the big dates. The cuexcomate fits that idea well. It has no famous author: it is the work of a shared tradition, passed from family to family.\n\nThe skeins of wool from Hueyapan, which accompany the cuexcomate in the hall, tell something similar. Hueyapan is a community in Morelos known for its textile work. The wool is spun and dyed by hand. Neither the clay nor the wool comes from factories: they come from the territory and from the skill of the people.\n\nNotice the shape. A cuexcomate is a clay granary, wide in the belly and narrow at the mouth, raised on a base so that dampness does not harm the grain. It is a simple solution that keeps corn for months.\n\nBefore moving on, look from this terrace toward the city. It is a good place to think that Cuernavaca, the one with colonial buildings and stone streets, is also surrounded by villages that live from the countryside. A clay granary represents them all."
+    },
+    "retos_observacion": {
+      "hash": "55c9f6fff02ef385",
+      "texto": [
+        "Walk around the cuexcomate and notice its big-pot shape: where do you think the corn is taken out?",
+        "Find the part that separates it from the ground and think about why it helps to raise the grain",
+        "From the terrace, look toward the city and think about the villages of Morelos that still live from corn"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b8ccce5fe54ab7ca",
+      "texto": {
+        "Object": "cuexcomate, traditional granary of Morelos",
+        "Word": "from the Nahuatl cuexcomatl",
+        "Material": "clay",
+        "Location": "open-air terrace on the palace’s first floor",
+        "Museum hall where it is presented": "Bioculturality, along with skeins of wool from Hueyapan"
+      }
+    },
+    "faq_mito": {
+      "hash": "7cc8fe99d7bcf0d4",
+      "texto": {
+        "pregunta": "Myth: The cuexcomate is a decorative vessel.",
+        "respuesta": "Reality: It is a granary. Its shape protects the corn from rain and from animals."
+      }
+    }
+  }
+}

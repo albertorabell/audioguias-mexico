@@ -1,0 +1,56 @@
+{
+  "id": "cue_03_palacio_que_fue_de_todo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3e15416d2cccd74f",
+      "texto": "A Palace That Was Everything"
+    },
+    "frase_gancho": {
+      "hash": "40a0ee031f1928cd",
+      "texto": "Factory, prison, barracks, an emperor’s residence and seat of government: the building changed its job again and again."
+    },
+    "puente_narrativo": {
+      "hash": "57d94e100397c65b",
+      "texto": "Look down at the museum floor: beneath it there is another story."
+    },
+    "guion_corto": {
+      "hash": "00cd20fb8c556882",
+      "texto": "Imagine this palace without a museum and without tourists, with soldiers in the corridors and prisoners in the rooms. That is how it was during the War of Independence. Among those held here were José María Morelos y Pavón and Ignacio López Rayón, two leaders of the insurgent movement. It was only one of the building’s many lives. The Cortés family gradually abandoned it and, between sixteen twenty-nine and seventeen forty-seven, it housed an iron foundry, a tannery and a textile workshop. Afterward it was barracks. In eighteen seventy-two it became the seat of the government of Morelos and remained so for about a century. On the ground floor, the State Congress Hall recalls that period and today hosts temporary exhibitions. Since nineteen seventy-four, it has been a museum."
+    },
+    "guion_largo": {
+      "hash": "5e212e4d6349632f",
+      "texto": "Few buildings in Cuernavaca have had so many jobs as this one. Let’s start at the beginning. After Cortés, the family gradually abandoned the palace. Between sixteen twenty-nine and seventeen forty-seven, the building was used as an iron foundry, a tannery and a textile workshop. In the middle of the eighteenth century, the authorities ordered it restored. Three architects took part, and it is believed that Gregorio Cayetano Durán directed most of the work. The INAH record mentions a carved inscription Durán left on the upper floor.\n\nAfterward the palace served as barracks and as a prison. During the War of Independence there were prisoners here, among them José María Morelos y Pavón and Ignacio López Rayón, two insurgent leaders.\n\nIn eighteen fifty-five, General Juan Álvarez set up a provisional government here. Between eighteen sixty-four and eighteen sixty-six some sources mention it as the summer residence of Emperor Maximilian. It is another episode that shows how the building followed the politics of the country: each government used it in its own way.\n\nIn eighteen seventy-two, the palace became the seat of the government of Morelos, and it remained so for about a century. Governor Francisco Leyva ordered an addition at the north end and a French-style staircase. At the end of the nineteenth century the cylindrical tower on the northwest corner was added, about fifteen meters tall. It was in those years that the building began to take on the castle-like look it is known for.\n\nIn nineteen thirty, when the palace was still the seat of the state government, Diego Rivera painted the great mural in the corridors of the upper floor. The building holds traces of every era: the pre-Hispanic base, the sixteenth-century walls, the eighteenth-century renovations and the nineteenth-century additions.\n\nBetween nineteen seventy-one and nineteen seventy-three, the INAH restored the palace and gave it back its sixteenth-century form. The archaeologist Jorge Angulo Villaseñor directed the excavations, which found layers from the Tlahuica and Mexica periods. In nineteen seventy-four it opened as a museum.\n\nThe earthquake of the nineteenth of September, two thousand seventeen, damaged the building. The museum was closed for five years and six months and reopened on the thirtieth of March, two thousand twenty-three, as the Regional Museum of the Peoples of Morelos. The director of the INAH, Diego Prieto, said the name Palace of Cortés should be kept because it is the most emblematic historic monument in Morelos.\n\nOne hall on the ground floor keeps that period in its name: the State Congress Hall, because the palace was the seat of the government of Morelos. Today it hosts temporary exhibitions, so what you see depends on the day. When the museum reopened, in two thousand twenty-three, it showed thirty human-shaped pieces from Mesoamerica and Oasisamerica, more than two thousand five hundred years old. According to the sources, this hall also holds canvases by the painter Salvador Tarazona, from nineteen thirty-eight, on the pre-Hispanic and revolutionary periods. They are painted on canvas and not on the wall, and that is how they differ from Rivera’s mural.\n\nAs you walk, try putting a label on each space: home, prison, office, museum. You will notice that almost none has just one. If you tour the building thinking of everything it was, every wall takes on another meaning. A conqueror’s house, a prison, a government palace and a museum: they are layers, just like the layers of earth the archaeologists found underneath."
+    },
+    "retos_observacion": {
+      "hash": "d2253232d12f0b62",
+      "texto": [
+        "Find the cylindrical tower on the corner and remember that it was added at the end of the nineteenth century",
+        "Look at the staircase: one part is French in style and was built in eighteen seventy-two",
+        "Count how many different uses the palace had, from factory to museum"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4639f4c94ca6974b",
+      "texto": {
+        "Abandonment by the Cortés family": "from 1629 to 1747, used as a foundry, tannery and textile workshop",
+        "Government of Morelos": "seat since 1872 for about a century",
+        "INAH restoration": "1971 to 1973",
+        "First museum": "1974",
+        "Closure after the 2017 earthquake": "five years and six months",
+        "Reopening": "March 30, 2023, as the Regional Museum of the Peoples of Morelos"
+      }
+    },
+    "faq_mito": {
+      "hash": "e63123d3c746c243",
+      "texto": {
+        "pregunta": "Myth: The Palace of Cortés was always Cortés’s home.",
+        "respuesta": "Reality: It was a home for only a few decades. Afterward it was used as a factory, barracks, prison, residence, seat of government and museum."
+      }
+    }
+  }
+}

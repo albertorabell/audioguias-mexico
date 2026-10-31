@@ -1,0 +1,55 @@
+{
+  "id": "cue_10_rivera_zapata",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9cd069570e1a213b",
+      "texto": "Rivera II: Conversion, Inquisition and Zapata"
+    },
+    "frase_gancho": {
+      "hash": "fa912fb48d887c65",
+      "texto": "A baptismal font shaped like a feathered serpent, hanged men and a peasant in a white shirt who closes the story."
+    },
+    "puente_narrativo": {
+      "hash": "eb070647fcd0ac56",
+      "texto": "Follow your route: it may take you to the east gallery and the tower, or toward the Cathedral."
+    },
+    "guion_corto": {
+      "hash": "f277202d606c02b8",
+      "texto": "A baptismal font carved as a feathered serpent. That is one of the strangest details in the second section of the mural. Here Rivera painted the forced conversion of indigenous communities, with the convent of the Asunción in the background and Fray Toribio de Benavente, Motolinía, teaching. Then comes the Inquisition under the Dominicans and, at the end, the peasant revolution led by Emiliano Zapata, with hanged men and a dead horse. Zapata appears as a peasant, in a white cotton shirt and trousers and huaraches. In the grisailles below there are scenes of Cuauhtémoc, of the silver mines and of the defenders of the Indians, such as Bartolomé de las Casas and Vasco de Quiroga."
+    },
+    "guion_largo": {
+      "hash": "56e24a597efc40ff",
+      "texto": "Here the story changes tone. The first section told of battles and forced labor. This one tells how a new faith was imposed and, at the end, how the system born from the Conquest came to an end.\n\nThe first scene is the forced conversion of indigenous communities. Rivera paints the convent of the Asunción, the same complex you know today as the Cathedral of Cuernavaca. There is Motolinía, the Franciscan who taught in the region. And there is a baptismal font carved in the shape of a feathered serpent. It is a detail that mixes two worlds: a Christian object in the form of a pre-Hispanic deity. To see the real building, you can visit [the atrium and facade of the Cathedral](cue_13_atrio_catedral).\n\nThe next scene is the Inquisition under the Dominicans. In a small painting above a doorway, toward the end of the corridor, Rivera shows the persecution and burning of indigenous people accused of heresy. At the start of the corridor he had painted an Aztec human sacrifice. Placing the two scenes face to face is a way of comparing the cruelty of two cultures, and it is one of the readings art historians make.\n\nThe last great scene is the revolution. Emiliano Zapata leads the peasants. There are hanged men and a dead horse. Zapata does not wear a charro suit with silver, as in many photographs. He wears a white cotton shirt and trousers and huaraches, like a peasant. For Rivera, the Revolution was liberation from colonial rule. Zapata also appears in a niche on a pillar, on the east face, and José María Morelos on the west face. Morelos’s face strongly recalls Rivera’s self-portraits.\n\nBelow, in the grisailles, there are scenes with no color but plenty of weight. Rivera painted the execution of Cuauhtémoc and Tetlepanquetzal, the destruction of indigenous temples and forced labor in the silver mines. There are also two figures of help: Bartolomé de las Casas, defender of the indigenous people, and Vasco de Quiroga, who introduced the loom. And there is Acualmeztli, who died in the Mixtón War in fifteen forty-two.\n\nThe Museum of Modern Art in New York holds another work by Rivera with Zapata as its subject. It describes him as a humble peasant and a tireless defender of landless laborers. It is a reading that helps explain why Rivera dressed him in country clothes and not in finery.\n\nThe mural has had an eventful life. In the nineteen nineties it was protected and restored with support from the National Conservation Center and private groups. After the two thousand seventeen earthquake and the museum’s reopening in two thousand twenty-three, it was opened to the public again.\n\nBefore moving on, turn back for a moment toward the start of the corridor. Rivera closed the circle: he began with a sacrifice and ended with an uprising. Between one and the other, four centuries of history."
+    },
+    "retos_observacion": {
+      "hash": "38a96fdb36343d24",
+      "texto": [
+        "Find the baptismal font shaped like a feathered serpent in the conversion scene",
+        "Find Zapata in the pillar niche and compare his clothes with those in the photographs you know",
+        "Find Morelos’s face in the other niche and ask whom it resembles"
+      ]
+    },
+    "especificaciones": {
+      "hash": "edd7ccfb0202062a",
+      "texto": {
+        "Second part of the mural": "forced conversion, Inquisition and peasant revolution",
+        "Niches in the pillars": "Zapata on the east face and Morelos on the west face",
+        "Grisailles": "Cuauhtémoc, destruction of temples, mines, Las Casas, Vasco de Quiroga and Acualmeztli",
+        "Signature": "D.R. 30 at the lower south corner of the west wall",
+        "Restoration": "protected in the 1990s, on view again since 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "5f98a354088d7720",
+      "texto": {
+        "pregunta": "Myth: The Zapata in the mural wears a charro suit with silver ornaments.",
+        "respuesta": "Reality: Rivera painted him as a peasant, in a white cotton shirt and trousers and huaraches."
+      }
+    }
+  }
+}

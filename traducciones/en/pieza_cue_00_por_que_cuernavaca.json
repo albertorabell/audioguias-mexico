@@ -1,0 +1,56 @@
+{
+  "id": "cue_00_por_que_cuernavaca",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae5f541ca4c8dfa9",
+      "texto": "Why Cuernavaca Exists Here"
+    },
+    "frase_gancho": {
+      "hash": "9aa2882648988595",
+      "texto": "A city between volcanoes and ravines, about fifteen hundred meters up, famous for its eternal spring."
+    },
+    "puente_narrativo": {
+      "hash": "3362898271083a97",
+      "texto": "Walk toward the equestrian monument to Zapata, right here in this same plaza."
+    },
+    "guion_corto": {
+      "hash": "155910f9aa1dba1c",
+      "texto": "Before we talk about monuments, let’s talk about the place. Cuernavaca is in Morelos, south of Mexico City, about fifteen hundred meters above sea level. That altitude gives it a mild climate, and that is why it is called the City of Eternal Spring, a nickname attributed to Baron Alexander von Humboldt. The city is also crossed by ravines, deep gorges formed by the erosion of volcanic material from the Chichinautzin mountains. Those ravines carry water, cool the air and, according to one source, made it harder to reach the Tlahuica citadel. Over time, the water and the climate made this valley a place of power, of faith and of rest. That is the idea behind this tour."
+    },
+    "guion_largo": {
+      "hash": "0ec3c5a6ff4fb3a8",
+      "texto": "Before we talk about monuments, let’s talk about the place, because almost everything you will see on this tour was born from it. Cuernavaca is the capital of Morelos and lies south of Mexico City. It sits about fifteen hundred meters above sea level. Its territory is split between two great regions of the country’s relief: the Trans-Mexican Volcanic Belt and the Sierra Madre del Sur, according to INEGI. Put simply, volcanoes and mountain ranges meet here, and the land rises and falls with every step.\n\nThe altitude also changes the climate. In the municipality, average temperatures run from twelve to twenty-four degrees Celsius, and the rains come mostly in summer. It does not have the extreme heat of the coast or the cold of the high mountains. That is why Cuernavaca is called the City of Eternal Spring. The nickname is attributed to Baron Alexander von Humboldt, the German scientist who was in the region in the early nineteenth century. It is an attribution repeated often in books and guides.\n\nWhat most sets the city apart cannot be seen from the street: the ravines. They are deep gorges that cross Cuernavaca and that, according to the government of Morelos, add up to about five hundred kilometers in length. They were formed by the erosion of volcanic material. That material came from the eruptions of the Chichinautzin mountains, to the north, over the last two or three million years. Rainwater and streams slowly cut through that rock until they left the channels that now run through the city.\n\nThe ravines serve several purposes. They carry water: almost the whole municipality belongs to the Apatlaco River sub-basin, which is part of the Balsas River basin. They also help regulate the climate, because the air that passes through them cools down, according to the state’s environmental authorities. And, according to one source, the Amanalco Ravine was a natural barrier that made it hard to reach the Tlahuica citadel from the north. When we get to the Palace of Cortés, we will come back to this idea.\n\nWith water, fertile soil and a mild climate, the region drew people long before the conquest. The Tlahuica were a Nahuatl-speaking people, settled in the region since the twelfth century. They made this place their provincial capital, Cuauhnáhuac, a Nahuatl name usually translated as “near the trees.” Over the years, the Spaniards pronounced it Cuernavaca. According to one source, the Tlahuica grew cotton, and that caught the interest of the Mexica. According to the Mendoza Codex, Cuauhnáhuac is among the places conquered by the Mexica. According to Maldonado Jiménez, it was the head of a province of sixteen towns. It paid tribute to the Mexica for about eighty years, from around fourteen thirty-eight until the arrival of the Spaniards. Hernán Cortés took the city in fifteen twenty-one.\n\nThe appeal did not end with the conquest. For a long time, powerful families from Mexico had rest houses in Cuernavaca, for weekends and vacations away from the capital. That habit is part of the city’s personality, and you will see it reappear several times on the tour.\n\nThat is why this audio guide speaks of three layers: power, faith and rest. Power, because first the Mexica and then Cortés wanted to control this valley. Faith, because the Franciscans built one of the first monasteries of the sixteenth century here. Rest, because over the centuries the city became a refuge for the rich and famous, from the Bordas to Cantinflas.\n\nNow lift your eyes and get your bearings. You are in the Plaza de Armas, in the heart of the Historic Center. Before you move, imagine a city without buildings: only hills, ravines, trees and water. That is the city the Tlahuica chose, and every stop that follows is a layer placed on top of it. When you are ready, walk toward the equestrian monument to Zapata, right here in this same plaza."
+    },
+    "retos_observacion": {
+      "hash": "e4c64790da73afbc",
+      "texto": [
+        "Look toward the horizon and find where the land rises and falls",
+        "Imagine the plaza without buildings, only hills, trees and water",
+        "Think about the name Cuauhnáhuac, near the trees, and count how many trees are around you"
+      ]
+    },
+    "especificaciones": {
+      "hash": "208d52b9b2c2cd9e",
+      "texto": {
+        "Capital": "Morelos",
+        "Altitude": "about 1,500 m above sea level",
+        "Relief": "Trans-Mexican Volcanic Belt and Sierra Madre del Sur",
+        "Average temperature in the municipality": "12 to 24 degrees Celsius",
+        "Basin": "Balsas River, Apatlaco River sub-basin",
+        "Ravines": "about 500 km in total length"
+      }
+    },
+    "faq_mito": {
+      "hash": "99a6a5b5ae66423d",
+      "texto": {
+        "pregunta": "Myth: Cuernavaca got its name from a cow’s horns.",
+        "respuesta": "Reality: The name comes from Cuauhnáhuac, a Nahuatl word usually translated as “near the trees.” The Spaniards pronounced it Cuernavaca."
+      }
+    }
+  }
+}
