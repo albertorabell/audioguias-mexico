@@ -1,0 +1,53 @@
+{
+  "id": "xoc_15_escritura",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5cea5ca5e3bd9004",
+      "texto": "The Writing of Xochicalco"
+    },
+    "frase_gancho": {
+      "hash": "049cb7abf835bd55",
+      "texto": "Signs set in a row that nobody yet reads completely."
+    },
+    "puente_narrativo": {
+      "hash": "bb4b1244f47c7694",
+      "texto": "Continue your route: keep getting to know the spaces of the Main Plaza."
+    },
+    "guion_corto": {
+      "hash": "6321edeb1b6b25da",
+      "texto": "Xochicalco had writing, and it is still not completely read. Helmke and Nielsen place it between the years six hundred eighty and one thousand, in the same era as that of Cacaxtla, Teotenango, El Cerrito and Acatlán. On the Pyramid of the Feathered Serpents there is a linear text, that is, signs set in a row. The first texts of the site were published in eighteen ninety, by Peñafiel. An encyclopedia also describes a mix of Nahua-type day signs inside Maya-style cartouches, with numerals resembling the Zapotec ones. That mix shows a city open to many regions. No reading is definitive. If you see signs on the building, think that you are in front of a writing system that is still waiting for whoever will decipher it."
+    },
+    "guion_largo": {
+      "hash": "653ff7b3e0c55a68",
+      "texto": "Writing is not exclusive to a single culture. In Xochicalco they wrote as well.\n\nHelmke and Nielsen, who have studied these signs, place the city’s hieroglyphic writing between the years six hundred eighty and one thousand. It was the Epiclassic era, and other cities of central Mexico also wrote: Cacaxtla, Teotenango, El Cerrito and Acatlán.\n\nOn the Pyramid of the Feathered Serpents there is a linear text, that is, signs set in a row. Among them appears the date nine reed, which those specialists link to the commemoration of a New Fire ceremony.\n\nThe first texts of Xochicalco were published in eighteen ninety, by Peñafiel. Later, Caso and Berlo worked on them. Even so, the writing is not deciphered.\n\nThe encyclopedia World History describes something curious. It says the day signs are of the Nahua type, that they are inside Maya-style cartouches and that the numbers resemble the Zapotec ones. It is a description from a single source, but it fits what is known of the city: a place open to many regions. There is another clue: Sáenz found in an offering chamber a slab with two Nahua glyphs and two Zapotec ones.\n\nThat is why this writing is hard to read. It does not belong completely to any known tradition. It mixes resources from several, and those who made it seemed to be creating a visual language of their own for a city of diverse people.\n\nAn undeciphered writing is not a silent writing. Dates and some signs can be recognized. What is missing is the syntax, that is, how the signs are ordered to form sentences.\n\nIf you look at the building, look for the rows of signs. Perhaps it is the closest thing we have to a voice of this city."
+    },
+    "retos_observacion": {
+      "hash": "0af2f9b756b2c135",
+      "texto": [
+        "Look for signs set in a row on the building",
+        "Compare their style with the Maya figures",
+        "Ask your guide which signs are dates"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a21d661326bd512f",
+      "texto": {
+        "Period of Epiclassic writing": "between six hundred eighty and one thousand",
+        "First published texts": "eighteen ninety, Peñafiel",
+        "Status": "not completely deciphered"
+      }
+    },
+    "faq_mito": {
+      "hash": "589ddc5ca137bfc9",
+      "texto": {
+        "pregunta": "Myth: The glyphs of Xochicalco can already be read as continuous text.",
+        "respuesta": "Reality: Dates and some signs are identified, but the writing is not deciphered."
+      }
+    }
+  }
+}

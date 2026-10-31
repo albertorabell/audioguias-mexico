@@ -1,0 +1,54 @@
+{
+  "id": "xoc_13_serpientes_emplumadas_1",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f0b607a11477ca63",
+      "texto": "The Pyramid of the Feathered Serpents"
+    },
+    "frase_gancho": {
+      "hash": "1acbfba69416f19a",
+      "texto": "Eight serpents and seated figures on a building made to be read."
+    },
+    "puente_narrativo": {
+      "hash": "4269f3585ec5ac98",
+      "texto": "Continue your route: what follows is also tied to the sky and to time."
+    },
+    "guion_corto": {
+      "hash": "4452483d9dee526c",
+      "texto": "This is the building that gives Xochicalco its fame. According to the INAH guide, it has two levels and eight feathered serpents, with shells and beads in the relief. The INAH also describes seated figures among the serpents, who may be priests, rulers or astronomers, and a cornice of shells. On the upper walls, warrior figures appear. Kenneth Hirth points out that some of the figures have a Maya style. Think of the relief as a page, not just as decoration. Hirth believes the city’s name alludes to this decoration. Xochicalco is usually translated as place of the house of flowers. The full interpretation remains under debate. Take your time to look at it calmly."
+    },
+    "guion_largo": {
+      "hash": "7351479f0cf307f0",
+      "texto": "Before I tell you anything, look. This building was made to be read.\n\nIt is the Pyramid of the Feathered Serpents. According to the INAH guide, it has two levels and eight feathered serpents, accompanied by shells and beads. Medina Romero, director of the site, specifies that there are two serpents on each of the four facades.\n\nAmong the serpents there are seated figures. According to the INAH, they may represent priests, rulers or astronomers. Above runs a cornice of shells and, on the upper walls, warrior figures appear.\n\nKenneth Hirth points out that some of those figures have a Maya style. The epigraphers Nielsen and Helmke add that the serpents seem to move in water, because of the shells that surround them. The seated figures could be authorities that they carry. The encyclopedia World History adds that on the upper frieze there are pairs of figures in Maya dress, separated by calendar signs.\n\nThe same encyclopedia says the relief was painted red, green, yellow, blue, black and white. Today you see it in stone. It helps to imagine it in color.\n\nThe name of the city seems to come from this decoration, according to Hirth. Xochicalco is usually translated as place of the house of flowers.\n\nA warning: this building was reconstructed. According to the INAH, the first scientific excavation was that of Batres, in nineteen oh nine. Medina Romero mentions that the owners of a nearby sugar hacienda destroyed a good part of the pyramid’s base. What you see includes restorations, and some studies have criticized the one done in that era.\n\nEven so, the message is still there. A feathered serpent wraps around a building and, among its waves, there are seated people. Power, religion and the sky blend in a single relief.\n\nLook slowly, one figure at a time."
+    },
+    "retos_observacion": {
+      "hash": "92752c01f604c29c",
+      "texto": [
+        "Count the serpents you can see",
+        "Look for the seated figures among them",
+        "Imagine the relief painted red, green, yellow, blue, black and white"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4d22bfe680be2a89",
+      "texto": {
+        "Levels": "two",
+        "Feathered serpents": "eight, according to the INAH and Medina Romero",
+        "First scientific excavation": "Batres, nineteen oh nine, according to the INAH",
+        "Original colors": "red, green, yellow, blue, black and white, according to World History"
+      }
+    },
+    "faq_mito": {
+      "hash": "2ecad3a2942a261a",
+      "texto": {
+        "pregunta": "Myth: The pyramid keeps all of its original color.",
+        "respuesta": "Reality: Today it is seen in stone. One source indicates the relief was painted in several colors."
+      }
+    }
+  }
+}

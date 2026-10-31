@@ -1,0 +1,54 @@
+{
+  "id": "xoc_17_acropolis",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cd41b8a194f98eaf",
+      "texto": "The Acropolis"
+    },
+    "frase_gancho": {
+      "hash": "68e05cacc5800d4e",
+      "texto": "The highest point, where the elite lived and administered."
+    },
+    "puente_narrativo": {
+      "hash": "5d530a08d8e11334",
+      "texto": "Continue your route: what follows has to do with power and the sky."
+    },
+    "guion_corto": {
+      "hash": "0ea8521552d71e91",
+      "texto": "You are at the point where, according to several sources, the elite of Xochicalco lived and governed. The INAH explains that the Acropolis sits on a six-meter platform, west of the Main Plaza. It has buildings around a central courtyard. Kenneth Hirth describes it as the ruler’s palace and the city’s administrative center. Medina Romero places it at the highest point of the site and mentions a temple-palace, workshops, storehouses and offices. To the south it is surrounded by a four-meter wall with bastions and moats. Think about how the city looks from here. The Main Plaza lies at your feet, to the east. Seeing and being seen were forms of power."
+    },
+    "guion_largo": {
+      "hash": "de5281fcec350174",
+      "texto": "Climbing changes the perspective. This is the Acropolis.\n\nAccording to the INAH, the Acropolis rises on a six-meter platform, west of the Main Plaza. It has several buildings arranged around a central courtyard. That form resembles that of the Palace.\n\nKenneth Hirth describes it as the ruler’s palace and the administrative center of Xochicalco. Medina Romero goes in the same direction: he says it is the highest point of the site and that there was a temple-palace, workshops, storehouses and administration areas.\n\nThe INAH guide mentions it among the constructions of the Main Plaza and identifies it as the rulers’ residence. Andrews and Glascock add that the Acropolis had the main palace, four large storage spaces and a temazcal. It is one of the two zones where the most weapons appeared, which suggests that the elite’s security was a priority.\n\nAlvarado León describes it as the largest complex by volume in the city. Lucet adds something uncommon in Mesoamerica: a second floor was added to its tallest structure. To the south, the Acropolis is defended by a four-meter wall with bastions and moats, according to Medina Romero. A bastion is a part of the wall that juts out to watch and defend. A moat is a ditch. This means the place where the rulers lived was also among the best protected.\n\nNow think about the view. From a high place you can see who arrives and who climbs. The Main Plaza lies at your feet, to the east.\n\nWhat we know for certain is modest: a platform, several buildings and a defended city. The rest is filled in with imagination and with care."
+    },
+    "retos_observacion": {
+      "hash": "7ad74e5c63ba51a6",
+      "texto": [
+        "Look east and locate the Main Plaza",
+        "Find the central courtyard",
+        "Imagine whom the person who lived here saw arriving"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f5bbfd4ee4caf7ee",
+      "texto": {
+        "Height of the platform": "six meters, according to the INAH",
+        "Location": "west of the Main Plaza",
+        "Use": "ruler’s palace and administrative center, according to Hirth",
+        "Defense": "four-meter wall with bastions and moats to the south, according to Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "32a8a38a48c09889",
+      "texto": {
+        "pregunta": "Myth: The Acropolis was a temple.",
+        "respuesta": "Reality: The sources describe it as the residence and administrative center of the rulers, with workshops and storehouses."
+      }
+    }
+  }
+}

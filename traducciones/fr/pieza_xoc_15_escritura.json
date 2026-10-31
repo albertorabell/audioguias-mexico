@@ -1,0 +1,53 @@
+{
+  "id": "xoc_15_escritura",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5cea5ca5e3bd9004",
+      "texto": "L’écriture de Xochicalco"
+    },
+    "frase_gancho": {
+      "hash": "049cb7abf835bd55",
+      "texto": "Des signes alignés en rangée que personne ne lit encore complètement."
+    },
+    "puente_narrativo": {
+      "hash": "bb4b1244f47c7694",
+      "texto": "Poursuivez votre itinéraire : continuez à découvrir les espaces de la Place principale."
+    },
+    "guion_corto": {
+      "hash": "6321edeb1b6b25da",
+      "texto": "Xochicalco a eu une écriture, et elle n’est toujours pas lue complètement. Helmke et Nielsen la situent entre les années six cent quatre-vingts et mille, à la même époque que celle de Cacaxtla, de Teotenango, d’El Cerrito et d’Acatlán. Sur la Pyramide des Serpents à plumes, il y a un texte linéaire, c’est-à-dire des signes alignés en rangée. Les premiers textes du site furent publiés en mille huit cent quatre-vingt-dix, par Peñafiel. Une encyclopédie décrit en outre un mélange de signes de jour de type nahua dans des cartouches de style maya, avec des numéraux semblables aux zapotèques. Ce mélange montre une ville ouverte à de nombreuses régions. Aucune lecture n’est définitive. Si vous voyez des signes sur l’édifice, songez que vous avez devant vous un système d’écriture qui attend encore celui qui le déchiffrera."
+    },
+    "guion_largo": {
+      "hash": "653ff7b3e0c55a68",
+      "texto": "L’écriture n’est pas l’exclusivité d’une seule culture. À Xochicalco aussi, on a écrit.\n\nHelmke et Nielsen, qui ont étudié ces signes, situent l’écriture hiéroglyphique de la ville entre les années six cent quatre-vingts et mille. C’était l’époque de l’Épiclassique, et d’autres villes du centre du Mexique écrivaient aussi : Cacaxtla, Teotenango, El Cerrito et Acatlán.\n\nSur la Pyramide des Serpents à plumes, il y a un texte linéaire, c’est-à-dire des signes alignés en rangée. Parmi eux apparaît la date neuf roseau, que ces spécialistes relient à la commémoration d’une cérémonie du feu nouveau.\n\nLes premiers textes de Xochicalco furent publiés en mille huit cent quatre-vingt-dix, par Peñafiel. Plus tard, Caso et Berlo y ont travaillé. Malgré cela, l’écriture n’est pas déchiffrée.\n\nL’encyclopédie World History décrit quelque chose de curieux. Elle dit que les signes de jour sont de type nahua, qu’ils sont dans des cartouches de style maya et que les nombres ressemblent aux zapotèques. C’est la description d’une seule source, mais elle s’accorde avec ce que l’on sait de la ville : un lieu ouvert à de nombreuses régions. Il y a un autre indice : Sáenz trouva dans une chambre d’offrandes une dalle avec deux glyphes nahuas et deux zapotèques.\n\nC’est pourquoi cette écriture est difficile à lire. Elle n’appartient entièrement à aucune tradition connue. Elle mêle des ressources de plusieurs, et ceux qui l’ont faite semblaient créer un langage visuel propre pour une ville de gens divers.\n\nUne écriture non déchiffrée n’est pas une écriture muette. On peut reconnaître des dates et quelques signes. Ce qui manque, c’est la syntaxe, c’est-à-dire la façon dont les signes s’ordonnent pour former des phrases.\n\nSi vous regardez l’édifice, cherchez les rangées de signes. C’est peut-être ce que nous avons de plus proche d’une voix de cette ville."
+    },
+    "retos_observacion": {
+      "hash": "0af2f9b756b2c135",
+      "texto": [
+        "Cherchez des signes alignés en rangée sur l’édifice",
+        "Comparez leur style avec les figures mayas",
+        "Demandez à votre guide quels signes sont des dates"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a21d661326bd512f",
+      "texto": {
+        "Période de l’écriture épiclassique": "entre six cent quatre-vingts et mille",
+        "Premiers textes publiés": "mille huit cent quatre-vingt-dix, Peñafiel",
+        "État": "non entièrement déchiffrée"
+      }
+    },
+    "faq_mito": {
+      "hash": "589ddc5ca137bfc9",
+      "texto": {
+        "pregunta": "Mythe : Les glyphes de Xochicalco se lisent déjà comme un texte suivi.",
+        "respuesta": "Réalité : On identifie des dates et quelques signes, mais l’écriture n’est pas déchiffrée."
+      }
+    }
+  }
+}

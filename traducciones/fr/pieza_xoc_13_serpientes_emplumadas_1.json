@@ -1,0 +1,54 @@
+{
+  "id": "xoc_13_serpientes_emplumadas_1",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f0b607a11477ca63",
+      "texto": "La Pyramide des Serpents à plumes"
+    },
+    "frase_gancho": {
+      "hash": "1acbfba69416f19a",
+      "texto": "Huit serpents et des figures assises sur un édifice fait pour être lu."
+    },
+    "puente_narrativo": {
+      "hash": "4269f3585ec5ac98",
+      "texto": "Poursuivez votre itinéraire : ce qui suit est lui aussi lié au ciel et au temps."
+    },
+    "guion_corto": {
+      "hash": "4452483d9dee526c",
+      "texto": "Voici l’édifice qui fait la renommée de Xochicalco. Selon le guide de l’INAH, il a deux corps et huit serpents à plumes, avec des coquillages et des perles dans le relief. L’INAH décrit en outre des figures assises entre les serpents, qui peuvent être des prêtres, des dirigeants ou des astronomes, et une corniche de coquillages. Sur les murs supérieurs apparaissent des figures de guerriers. Kenneth Hirth signale que certaines figures sont de style maya. Pensez au relief comme à une page, pas seulement comme à un ornement. Hirth croit que le nom de la ville fait allusion à ce décor. Xochicalco se traduit souvent par lieu de la maison des fleurs. L’interprétation complète reste débattue. Prenez votre temps pour le regarder calmement."
+    },
+    "guion_largo": {
+      "hash": "7351479f0cf307f0",
+      "texto": "Avant que je vous dise quoi que ce soit, regardez. Cet édifice est fait pour être lu.\n\nC’est la Pyramide des Serpents à plumes. Selon le guide de l’INAH, elle a deux corps et huit serpents à plumes, accompagnés de coquillages et de perles. Medina Romero, directeur du site, précise qu’il y a deux serpents sur chacune des quatre façades.\n\nEntre les serpents, il y a des figures assises. Selon l’INAH, elles peuvent représenter des prêtres, des dirigeants ou des astronomes. En haut court une corniche de coquillages et, sur les murs supérieurs, apparaissent des figures de guerriers.\n\nKenneth Hirth signale que certaines de ces figures sont de style maya. Les épigraphistes Nielsen et Helmke ajoutent que les serpents semblent se mouvoir dans l’eau, à cause des coquilles qui les entourent. Les figures assises pourraient être des autorités qu’ils transportent. L’encyclopédie World History ajoute que sur la frise supérieure il y a des couples de figures en tenue maya, séparées par des signes du calendrier.\n\nLa même encyclopédie raconte que le relief était peint en rouge, vert, jaune, bleu, noir et blanc. Aujourd’hui, vous le voyez en pierre. Il convient de l’imaginer en couleurs.\n\nLe nom de la ville semble venir de ce décor, selon Hirth. Xochicalco se traduit souvent par lieu de la maison des fleurs.\n\nUn avertissement : cet édifice a été reconstruit. Selon l’INAH, la première fouille scientifique fut celle de Batres, en mille neuf cent neuf. Medina Romero mentionne que les propriétaires d’une hacienda sucrière voisine détruisirent une bonne partie de la base de la pyramide. Ce que vous voyez comprend des restaurations, et certaines études ont critiqué celle qui fut faite à cette époque.\n\nMalgré tout, le message est toujours là. Un serpent à plumes entoure un édifice et, parmi ses ondes, il y a des personnes assises. Le pouvoir, la religion et le ciel se mêlent dans un même relief.\n\nRegardez lentement, une figure à la fois."
+    },
+    "retos_observacion": {
+      "hash": "92752c01f604c29c",
+      "texto": [
+        "Comptez les serpents que vous arrivez à voir",
+        "Cherchez les figures assises entre eux",
+        "Imaginez le relief peint en rouge, vert, jaune, bleu, noir et blanc"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4d22bfe680be2a89",
+      "texto": {
+        "Corps": "deux",
+        "Serpents à plumes": "huit, selon l’INAH et Medina Romero",
+        "Première fouille scientifique": "Batres, mille neuf cent neuf, selon l’INAH",
+        "Couleurs d’origine": "rouge, vert, jaune, bleu, noir et blanc, selon World History"
+      }
+    },
+    "faq_mito": {
+      "hash": "2ecad3a2942a261a",
+      "texto": {
+        "pregunta": "Mythe : La pyramide conserve toute sa couleur d’origine.",
+        "respuesta": "Réalité : Aujourd’hui, elle se voit en pierre. Une source indique que le relief était peint de plusieurs couleurs."
+      }
+    }
+  }
+}

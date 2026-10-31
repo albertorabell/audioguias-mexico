@@ -1,0 +1,54 @@
+{
+  "id": "xoc_17_acropolis",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cd41b8a194f98eaf",
+      "texto": "L’Acropole"
+    },
+    "frase_gancho": {
+      "hash": "68e05cacc5800d4e",
+      "texto": "Le point le plus haut, où vécut et administra l’élite."
+    },
+    "puente_narrativo": {
+      "hash": "5d530a08d8e11334",
+      "texto": "Poursuivez votre itinéraire : ce qui suit a à voir avec le pouvoir et avec le ciel."
+    },
+    "guion_corto": {
+      "hash": "0ea8521552d71e91",
+      "texto": "Vous êtes à l’endroit où, selon plusieurs sources, vivait et gouvernait l’élite de Xochicalco. L’INAH explique que l’Acropole se trouve sur une plateforme de six mètres, à l’ouest de la Place principale. Elle a des édifices autour d’une cour centrale. Kenneth Hirth la décrit comme le palais du dirigeant et le centre administratif de la ville. Medina Romero la situe au point le plus haut du site et mentionne un temple-palais, des ateliers, des entrepôts et des bureaux. Au sud, elle est entourée d’un mur de quatre mètres avec des bastions et des fossés. Pensez à la façon dont la ville se voit d’ici. La Place principale est à vos pieds, vers l’est. Voir et être vu étaient des formes de pouvoir."
+    },
+    "guion_largo": {
+      "hash": "de5281fcec350174",
+      "texto": "Monter change la perspective. Voici l’Acropole.\n\nSelon l’INAH, l’Acropole s’élève sur une plateforme de six mètres, à l’ouest de la Place principale. Elle a plusieurs édifices disposés autour d’une cour centrale. Cette forme ressemble à celle du Palais.\n\nKenneth Hirth la décrit comme le palais du dirigeant et le centre administratif de Xochicalco. Medina Romero va dans le même sens : il dit que c’est le point le plus haut du site et qu’il y avait là un temple-palais, des ateliers, des entrepôts et des zones d’administration.\n\nLe guide de l’INAH la mentionne parmi les constructions de la Place principale et la désigne comme la résidence des dirigeants. Andrews et Glascock ajoutent que l’Acropole avait le palais principal, quatre grands espaces de stockage et un temazcal. C’est l’une des deux zones où l’on a trouvé le plus d’armes, ce qui suggère que la sécurité de l’élite était une priorité.\n\nAlvarado León la décrit comme le complexe de plus grand volume de la ville. Lucet ajoute quelque chose de peu courant en Mésoamérique : à sa structure la plus haute, on a ajouté un second étage. Au sud, l’Acropole est défendue par un mur de quatre mètres avec des bastions et des fossés, selon Medina Romero. Un bastion est une partie du mur qui avance pour surveiller et défendre. Un fossé est une tranchée. Cela signifie que le lieu où vivaient les dirigeants était aussi l’un des mieux protégés.\n\nPensez maintenant à la vue. Depuis un lieu élevé, on voit qui arrive et qui monte. La Place principale est à vos pieds, vers l’est.\n\nCe que nous savons avec certitude est modeste : une plateforme, plusieurs édifices et une ville défendue. Le reste se complète avec de l’imagination et du soin."
+    },
+    "retos_observacion": {
+      "hash": "7ad74e5c63ba51a6",
+      "texto": [
+        "Regardez vers l’est et repérez la Place principale",
+        "Cherchez la cour centrale",
+        "Imaginez qui voyait arriver celui qui vivait ici"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f5bbfd4ee4caf7ee",
+      "texto": {
+        "Hauteur de la plateforme": "six mètres, selon l’INAH",
+        "Emplacement": "à l’ouest de la Place principale",
+        "Usage": "palais du dirigeant et centre administratif, selon Hirth",
+        "Défense": "mur de quatre mètres avec bastions et fossés au sud, selon Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "32a8a38a48c09889",
+      "texto": {
+        "pregunta": "Mythe : L’Acropole était un temple.",
+        "respuesta": "Réalité : Les sources la décrivent comme la résidence et le centre administratif des dirigeants, avec des ateliers et des entrepôts."
+      }
+    }
+  }
+}

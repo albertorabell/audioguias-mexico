@@ -1,0 +1,54 @@
+{
+  "id": "xoc_17_acropolis",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "cd41b8a194f98eaf",
+      "texto": "Akropol"
+    },
+    "frase_gancho": {
+      "hash": "68e05cacc5800d4e",
+      "texto": "Najwyższy punkt, w którym mieszkała i zarządzała elita."
+    },
+    "puente_narrativo": {
+      "hash": "5d530a08d8e11334",
+      "texto": "Kontynuuj swoją trasę: to, co następuje, dotyczy władzy i nieba."
+    },
+    "guion_corto": {
+      "hash": "0ea8521552d71e91",
+      "texto": "Jesteś w miejscu, w którym według kilku źródeł mieszkała i rządziła elita Xochicalco. INAH wyjaśnia, że Akropol leży na sześciometrowej platformie, na zachód od Placu Głównego. Ma budowle wokół centralnego dziedzińca. Kenneth Hirth opisuje go jako pałac władcy i centrum administracyjne miasta. Medina Romero umieszcza go w najwyższym punkcie stanowiska i wspomina o pałacu-świątyni, warsztatach, magazynach i biurach. Od południa otacza go czterometrowy mur z bastionami i fosami. Pomyśl, jak stąd wygląda miasto. Plac Główny leży u twoich stóp, na wschodzie. Widzieć i być widzianym to były formy władzy."
+    },
+    "guion_largo": {
+      "hash": "de5281fcec350174",
+      "texto": "Wspinaczka zmienia perspektywę. To jest Akropol.\n\nWedług INAH Akropol wznosi się na sześciometrowej platformie, na zachód od Placu Głównego. Ma kilka budowli rozmieszczonych wokół centralnego dziedzińca. Ta forma przypomina formę Pałacu.\n\nKenneth Hirth opisuje go jako pałac władcy i centrum administracyjne Xochicalco. Medina Romero idzie w tym samym kierunku: mówi, że to najwyższy punkt stanowiska i że znajdował się tam pałac-świątynia, warsztaty, magazyny i strefy administracji.\n\nPrzewodnik INAH wymienia go wśród budowli Placu Głównego i wskazuje jako rezydencję władców. Andrews i Glascock dodają, że Akropol miał główny pałac, cztery duże przestrzenie magazynowe i temazcal. To jedna z dwóch stref, w których pojawiło się najwięcej broni, co sugeruje, że bezpieczeństwo elity było priorytetem.\n\nAlvarado León opisuje go jako największy pod względem objętości zespół miasta. Lucet dodaje coś niezwykłego w Mezoameryce: do najwyższej budowli dodano drugie piętro. Od południa Akropol jest broniony czterometrowym murem z bastionami i fosami, według Mediny Romero. Bastion to część muru wystająca, by obserwować i bronić. Fosa to rów. To znaczy, że miejsce, w którym mieszkali władcy, było też jednym z najlepiej chronionych.\n\nTeraz pomyśl o widoku. Z wysokiego miejsca widać, kto przybywa, a kto się wspina. Plac Główny leży u twoich stóp, na wschodzie.\n\nTo, co wiemy z pewnością, jest skromne: platforma, kilka budowli i bronione miasto. Resztę uzupełnia się wyobraźnią i ostrożnością."
+    },
+    "retos_observacion": {
+      "hash": "7ad74e5c63ba51a6",
+      "texto": [
+        "Spójrz na wschód i zlokalizuj Plac Główny",
+        "Znajdź centralny dziedziniec",
+        "Wyobraź sobie, kogo widział nadchodzącego ten, kto tu mieszkał"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f5bbfd4ee4caf7ee",
+      "texto": {
+        "Wysokość platformy": "sześć metrów, według INAH",
+        "Lokalizacja": "na zachód od Placu Głównego",
+        "Użycie": "pałac władcy i centrum administracyjne, według Hirtha",
+        "Obrona": "czterometrowy mur z bastionami i fosami od południa, według Mediny Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "32a8a38a48c09889",
+      "texto": {
+        "pregunta": "Mit: Akropol był świątynią.",
+        "respuesta": "Rzeczywistość: Źródła opisują go jako rezydencję i centrum administracyjne władców, z warsztatami i magazynami."
+      }
+    }
+  }
+}

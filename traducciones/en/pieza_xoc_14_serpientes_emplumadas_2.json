@@ -1,0 +1,54 @@
+{
+  "id": "xoc_14_serpientes_emplumadas_2",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "db32b496c58d5733",
+      "texto": "The Calendar and the Eclipse"
+    },
+    "frase_gancho": {
+      "hash": "ef20fc78e750ad73",
+      "texto": "A relief that perhaps records an eclipse and the correction of a calendar."
+    },
+    "puente_narrativo": {
+      "hash": "2c29bb4010a0e4b6",
+      "texto": "Follow your route: the city’s writing has more to say about these dates."
+    },
+    "guion_corto": {
+      "hash": "67061bdf3c53ff07",
+      "texto": "This pyramid can also be read as a record of the sky. According to the INAH guide, on the west facade there is an image related to the adjustment of the calendar, next to the name and rank of a ruler. Another relief shows a jaw about to swallow a circle divided into four. Medina Romero interprets it as the Moon covering the Sun. He proposes an eclipse in the year seven hundred forty-three, although some date it to seven ninety. Florescano, on the other hand, sees a scene of conquest. None of this is settled. What is certain is that the building holds dates and signs of time. Look at the reliefs and decide what you see, knowing that specialists still argue."
+    },
+    "guion_largo": {
+      "hash": "a0b3912f38f7d232",
+      "texto": "A building can tell of an event in the sky. That is what some specialists propose about this pyramid.\n\nThe west facade, according to the INAH guide, has an image related to the adjustment of the calendar and also the name and rank of a ruler. Medina Romero places the calendar correction on the northwest panel, with a date accompanied by two hands.\n\nHirth also mentions a possible adjustment between two calendar systems. One counts two hundred sixty days and the other, three hundred sixty-five. Since they do not coincide, from time to time they had to be corrected.\n\nThere is also a relief with a jaw about to swallow a circle divided into four. According to the INAH guide, there is a reference to a solar eclipse in the year seven hundred forty-three. Medina Romero reads it as the Moon covering the Sun. That reading is an interpretation.\n\nThe proposed dates do not coincide. Medina Romero mentions the twenty-fifth of July, seven forty-three, with a partial eclipse. UNAM proposes the sixteenth of July, seven ninety, closer to a total one. The INAH guide speaks of a total eclipse. Other INAH notes point to internal discrepancies, and Florescano proposes that the relief narrates a conquest, not an eclipse.\n\nHelmke and Nielsen explain that the sign nine reptile eye appears twice on the north, east and south sides. They read it as nine reed, and it is crowned by lit braziers. It could refer to New Fire rituals. On the west facade there is also a year nine house. These readings are preliminary, because Xochicalco’s writing has not yet been deciphered.\n\nFor decades it was read that the panels were a list of towns that paid tribute to Xochicalco, from Coyoacán to Iguala, according to Hirth. Nielsen and Helmke propose another reading. The panels above show a row of seated figures with the same headdress and the same title, which they compare with that of the heart-devourer of Cacaxtla. They could be people of high rank.\n\nWhat matters is what we do know. The builders of this city left on their most carefully made building signs that have to do with the sky and with time. What exactly they say and what date they mark remains under discussion."
+    },
+    "retos_observacion": {
+      "hash": "ec17422e8b8a06b1",
+      "texto": [
+        "Look on the west facade for the image of the calendar adjustment",
+        "Identify the jaw and the circle divided into four",
+        "Decide whether you see an eclipse or a scene of conquest"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cb98c23e040f301e",
+      "texto": {
+        "West facade": "calendar adjustment and name and rank of the ruler, according to the INAH",
+        "Proposed eclipse": "twenty-fifth of July, seven hundred forty-three",
+        "UNAM alternative": "sixteenth of July, seven hundred ninety",
+        "Alternative reading": "conquest scene, according to Florescano"
+      }
+    },
+    "faq_mito": {
+      "hash": "978961b5ba5555af",
+      "texto": {
+        "pregunta": "Myth: It is known for certain that the relief shows an eclipse.",
+        "respuesta": "Reality: It is an interpretation. Other specialists propose a conquest scene and the proposed dates do not coincide."
+      }
+    }
+  }
+}
