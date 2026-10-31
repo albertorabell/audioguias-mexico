@@ -1,0 +1,55 @@
+{
+  "id": "cue_05_sala_paisaje",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6ff793b97e1fd30d",
+      "texto": "Sala Krajobraz: mamut, obsydian i jaskinie"
+    },
+    "frase_gancho": {
+      "hash": "0dce834adf5b7ccf",
+      "texto": "Kość udowa i kły mamuta liczące ponad dziesięć tysięcy lat przypominają, kto chodził po Morelos przed jego ludami."
+    },
+    "puente_narrativo": {
+      "hash": "dadd4a7491026a80",
+      "texto": "Idź dalej do sali ludów kukurydzy i kamienia oraz do sali Olmeków."
+    },
+    "guion_corto": {
+      "hash": "0b5b4cdd7c075655",
+      "texto": "Kości, które cię witają w tej sali, mają ponad dziesięć tysięcy lat. To kość udowa i kły mamuta, zwierzęcia ostatniej epoki lodowcowej. Sala nazywa się Krajobraz i opowiada, jakie są ekosystemy i geologia stanu Morelos. Są tu skamieniałości, kawałki obsydianu, czyli szkła wulkanicznego, z którego wyrabiano ostrza, oraz koszykarstwo z jaskiń El Gallo i La Chagüera. Muzeum szacuje, że region jest zamieszkany od około sześciu tysięcy trzystu lat przed naszą erą. Ale ta sala sięga jeszcze dalej: pokazuje, że terytorium już istniało, ze swoją przyrodą, zanim pojawił się pierwszy człowiek. Morelos to mały stan, ale łączy góry, doliny i ciepłe ziemie."
+    },
+    "guion_largo": {
+      "hash": "69a4dcd24ded888b",
+      "texto": "Muzeum w Pałacu Cortésa zmieniło zdanie, gdy ponownie otwarto je w dwa tysiące dwudziestym trzecim roku. Wcześniej opowiadało historię według epok i postaci. Teraz, według jego twórców, opowiada o tym, kto kształtował to terytorium, od pierwszych wspólnot po dzień dzisiejszy, nie koncentrując się na wielkich datach ani wielkich postaciach. Ta sala jest najlepszym przykładem tej idei, bo zaczyna od krajobrazu.\n\nSala Krajobraz opowiada o ekosystemach i geologii stanu Morelos. To mały stan, ale ma lasy w wysokich partiach na północy i ciepłe ziemie ku południowi. Ta różnorodność klimatów wyjaśnia, dlaczego istniało tu tyle sposobów życia.\n\nNajbardziej przyciągają uwagę szczątki mamuta. Jest kość udowa i kły liczące ponad dziesięć tysięcy lat. Mamut to wymarłe zwierzę, krewny słoni, które żyło w ostatniej epoce lodowcowej. Gdy myśli się o tamtych czasach, prawie nikt nie wyobraża sobie, że te zwierzęta przechodziły przez to, co dziś jest stanem Morelos, ale te szczątki to pokazują.\n\nSą też skamieniałości i kawałki obsydianu. Obsydian to szkło wulkaniczne. Łamie się na bardzo ostre odłamki, dlatego od prehistorii był cennym materiałem do wyrobu noży i grotów. To, że znajduje się w sali o krajobrazie, nie jest przypadkiem: obsydian rodzi się z wulkanów, a Morelos ma wulkany w pobliżu.\n\nInna część sali pokazuje koszykarstwo z jaskiń El Gallo i La Chagüera. Kosze to przedmioty kruche. To, że przetrwały tak długo, wskazuje, że jaskinie dobrze zachowały materiały. Dlatego archeologów tak interesują te miejsca: przechowują rzeczy, które na otwartym powietrzu prawie nigdy się nie zachowują.\n\nInna sala muzeum, Bioróżnorodność, pokazuje za pomocą infografik florę i faunę endemiczną dla Morelos. Endemiczny znaczy, że występuje tylko w jednym miejscu. Obie sale tworzą parę: jedna pokazuje, co żyje na tym terytorium dziś, a druga to, co zostawiło ślad tysiące lat temu. Skamieniałości zaś to szczątki lub ślady istot żywych zachowane w skale.\n\nMuzeum nie jest jeszcze kompletne. Według INAH brakuje sal archeologii, sal historii od szesnastego do dziewiętnastego wieku oraz sal antropologii od dwudziestego do dwudziestego pierwszego wieku. Brakuje też epilogu o wspólnej odpowiedzialności za dbanie o dziedzictwo. Podczas ponownego otwarcia w dwa tysiące dwudziestym trzecim roku otwarto pięć sal stałych i trzy wystawy czasowe.\n\nJeśli się zastanowić, takie muzeum robi coś, czego nie robią podręczniki. Stawia przed tobą prawdziwą kość zwierzęcia, którego nikt nie widział żywego, i pozwala ci ocenić jego wielkość na oko.\n\nNa koniec zabierz ze sobą jedną myśl. Zanim byli królowie, zdobywcy i gubernatorzy, istniał krajobraz, który oferował wodę, kamień, rośliny i zwierzęta. Wszystko inne zbudowano na tym."
+    },
+    "retos_observacion": {
+      "hash": "44d507b3f025bcf7",
+      "texto": [
+        "Poszukaj kości udowej i kłów mamuta i oblicz, jak duże było zwierzę, które je nosiło",
+        "Znajdź kawałki obsydianu i zwróć uwagę, jak błyszczy ten materiał, podobny do szkła",
+        "Spójrz na koszykarstwo z jaskiń i pomyśl, jak długo pozostawało schowane"
+      ]
+    },
+    "especificaciones": {
+      "hash": "00b0bc25da3d68b0",
+      "texto": {
+        "Sala": "Krajobraz, o ekosystemach i geologii stanu Morelos",
+        "Mamut": "kość udowa i kły liczące ponad 10 000 lat",
+        "Inne przedmioty": "skamieniałości, obsydian i koszykarstwo z jaskiń El Gallo i La Chagüera",
+        "Zasiedlenie regionu": "od około 6 300 lat przed naszą erą, według muzeum",
+        "Ponowne otwarcie muzeum": "30 marca 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "f90d9c95e14f264c",
+      "texto": {
+        "pregunta": "Mit: Mamuty żyły tylko w zimnych ziemiach północy.",
+        "respuesta": "Rzeczywistość: W Morelos są szczątki mamuta, a muzeum wystawia kość udową i kły liczące ponad dziesięć tysięcy lat."
+      }
+    }
+  }
+}

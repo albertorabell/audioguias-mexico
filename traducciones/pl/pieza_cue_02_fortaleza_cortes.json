@@ -1,0 +1,56 @@
+{
+  "id": "cue_02_fortaleza_cortes",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92bf74aefba78ae3",
+      "texto": "Twierdza Cortésa"
+    },
+    "frase_gancho": {
+      "hash": "58c499f91578d5ef",
+      "texto": "Dom rodzinny z grubymi murami i blankami, wzniesiony na siedzibie władz Tlahuica."
+    },
+    "puente_narrativo": {
+      "hash": "1caca043206f2e4e",
+      "texto": "Wejdź do muzeum i kontynuuj trasę wewnątrz pałacu."
+    },
+    "guion_corto": {
+      "hash": "d5c5fcc854f89c68",
+      "texto": "Czy to dom, czy twierdza? Jedno i drugie. Hernán Cortés kazał wznieść ten budynek na tecpanie Cuauhnáhuac, domu rządów, w którym Tlahuica zbierali daninę, i użył materiałów z tej zniszczonej budowli. Mury są grube, a w górnej części znajdują się blanki, jak w zamku. W tysiąc pięćset dwudziestym dziewiątym roku Cortés otrzymał tytuł markiza Doliny Oaxaca, a w tysiąc pięćset trzydziestym pierwszym roku osiadł tutaj ze swoją żoną, Juaną de Zúñigą. Z krużganków widać wulkany i urodzajne ziemie, które przyciągnęły go do Cuernavaki. INAH opisuje ten budynek jako pierwszą budowlę cywilną wzniesioną w Ameryce po przybyciu Europejczyków."
+    },
+    "guion_largo": {
+      "hash": "c94d242589e2347e",
+      "texto": "Zanim powstał ten pałac, stał tu inny budynek. Tlahuica, lud zamieszkujący te ziemie, mieli w tym miejscu tecpan, czyli dom rządów, w którym zbierano daninę. W piętnastym wieku Mexica zdominowali region, a miejsce nadal służyło do pobierania daniny. Gdy przybyli Hiszpanie, Hernán Cortés kazał zburzyć ten budynek i wznieść swój na jego miejscu. Część materiałów pochodziła z ruin.\n\nMówi się, że Cortés wybrał Cuernavacę ze względu na urodzajność jej ziem. W tysiąc pięćset dwudziestym dziewiątym roku król nadał mu tytuł markiza Doliny Oaxaca, wraz z ogromnym terytorium, które obejmowało tę okolicę. Było to szóstego lipca, według Wobesera. To władztwo nie było jednym blokiem: miało dwadzieścia dwa miasteczka rozłożone w siedmiu jurysdykcjach, a największą była Alcaldía Mayor de Cuernavaca, gdzie mieściło się jego centrum administracyjne. Przetrwało do tysiąc osiemset dwudziestego pierwszego roku. Niektórzy autorzy datują początek budowy na około tysiąc pięćset dwudziesty szósty rok, a główną rozbudowę na lata od tysiąc pięćset trzydziestego pierwszego do tysiąc pięćset trzydziestego piątego. Cortés osiadł tu w tysiąc pięćset trzydziestym pierwszym roku ze swoją drugą żoną, Juaną de Zúñigą.\n\nKonstrukcja łączy cechy gotyckie i mudejarskie, czyli wywodzące się z tradycji islamskiej w Hiszpanii. Mury są grube, z kamienia z regionu, a u góry znajdują się blanki. To nie zwykła ozdoba: w tamtych latach zdobywca mógł potrzebować się bronić. W pałacu był nawet skład broni. Ale był też domem. Opowiada się, że Cortés wyposażył go w dwadzieścia jeden gobelinów i kaplicę z przedmiotami ze złota i srebra.\n\nTutaj urodził się jego syn Martín Cortés, drugi markiz Doliny. Cortés często odwiedzał pałac w latach trzydziestych szesnastego wieku. W tysiąc pięćset czterdziestym roku wyjechał do Hiszpanii, nigdy nie wrócił do Meksyku i tam zmarł w tysiąc pięćset czterdziestym siódmym roku. Juana de Zúñiga mieszkała w pałacu aż do swojej śmierci.\n\nIstnieje słynna legenda o Cortésie w Cuernavace: że przeskoczył konno pięciometrowy wąwóz, aby uciec przed atakiem. Ta historia nie jest udokumentowana. Udokumentowane jest natomiast to, że wojownicy Tlahuica atakowali Hiszpanów w tamtym czasie, w pobliżu miejsca, które dziś nazywa się Callejón del Diablo.\n\nWarto pamiętać o tym, kto naprawdę wzniósł tę budowlę. Murów nie postawił Cortés własnymi rękami. Postawiła je rdzenna siła robocza, jak opowiada Diego Rivera w [pierwszej części muralu](cue_09_rivera_conquista), na scenie budowy pałacu. Nie mamy wiarygodnej liczby osób, które pracowały przy budowie, i dlatego nie będziemy jej tu zmyślać.\n\nW latach od tysiąc dziewięćset siedemdziesiątego pierwszego do tysiąc dziewięćset siedemdziesiątego trzeciego INAH odrestaurował pałac, aby przywrócić mu jego szesnastowieczną formę. Mimo to budynek, który widzisz, łączy różne epoki, ponieważ wiele razy go naprawiano i rozbudowywano. Niektóre części pochodzą z czasów Cortésa, a inne dodano wieki później.\n\nINAH opisuje pałac jako pierwszą budowlę cywilną wzniesioną w Ameryce po przybyciu Europejczyków. Zwiedzaj budynek z tą myślą: dom rodzinny, twierdza i znak władzy, wszystko zbudowane z tego samego kamienia."
+    },
+    "retos_observacion": {
+      "hash": "486b4d803cb45bb1",
+      "texto": [
+        "Poszukaj grubych murów i blanek w górnej części: zaprojektowano je do obrony",
+        "Spójrz na łuki krużganków i zwróć uwagę, co z nich widać: wulkany i miasto",
+        "Zapytaj, która część budynku jest stara, a która została dodana później: pałac wiele razy się zmieniał"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a33f0926729aebf1",
+      "texto": {
+        "Budowniczy": "Hernán Cortés, na tecpanie Cuauhnáhuac",
+        "Początek": "około 1526 według niektórych autorów; rozbudowa między 1531 a 1535",
+        "Styl": "gotycki i mudejarski",
+        "Materiał": "kamień z regionu na przedhiszpańskiej podstawie",
+        "Cortés": "markiz Doliny Oaxaca od 1529",
+        "Żona": "Juana de Zúñiga"
+      }
+    },
+    "faq_mito": {
+      "hash": "2f4f7ce4bfb3d642",
+      "texto": {
+        "pregunta": "Mit: Cortés przeskoczył konno pięciometrowy wąwóz w Callejón del Diablo.",
+        "respuesta": "Rzeczywistość: To legenda, której nie potwierdzają żadne dokumenty. Udokumentowany jest natomiast atak wojowników Tlahuica w tej okolicy."
+      }
+    }
+  }
+}

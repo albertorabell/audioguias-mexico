@@ -1,0 +1,56 @@
+{
+  "id": "cue_02_fortaleza_cortes",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92bf74aefba78ae3",
+      "texto": "La forteresse de Cortés"
+    },
+    "frase_gancho": {
+      "hash": "58c499f91578d5ef",
+      "texto": "Une maison de famille aux murs épais et aux créneaux, bâtie sur le centre de gouvernement des Tlahuicas."
+    },
+    "puente_narrativo": {
+      "hash": "1caca043206f2e4e",
+      "texto": "Entrez dans le musée et poursuivez votre itinéraire à l’intérieur du palais."
+    },
+    "guion_corto": {
+      "hash": "d5c5fcc854f89c68",
+      "texto": "Est-ce une maison ou une forteresse ? Les deux. Hernán Cortés fit élever cet édifice sur le tecpan de Cuauhnáhuac, la maison de gouvernement où les Tlahuicas rassemblaient le tribut, et il utilisa des matériaux de cette construction détruite. Les murs sont épais et la partie haute porte des créneaux, comme ceux d’un château. En mille cinq cent vingt-neuf, Cortés reçut le titre de marquis de la vallée d’Oaxaca, et en mille cinq cent trente et un il s’installa ici avec son épouse, Juana de Zúñiga. Depuis les galeries, on voit les volcans et les terres fertiles qui l’attirèrent à Cuernavaca. L’INAH le décrit comme le premier ouvrage civil élevé en Amérique après l’arrivée des Européens."
+    },
+    "guion_largo": {
+      "hash": "c94d242589e2347e",
+      "texto": "Avant que ce palais n’existe, il y avait ici un autre édifice. Les Tlahuicas, le peuple qui habitait ces terres, avaient à cet endroit un tecpan, c’est-à-dire une maison de gouvernement où l’on rassemblait le tribut. Au quinzième siècle, les Mexicas dominèrent la région et le site continua de servir à percevoir le tribut. Quand les Espagnols arrivèrent, Hernán Cortés fit détruire cet édifice et éleva le sien par-dessus. Une partie des matériaux provenait des ruines.\n\nOn dit que Cortés choisit Cuernavaca pour la fertilité de ses terres. En mille cinq cent vingt-neuf, le roi lui donna le titre de marquis de la vallée d’Oaxaca, avec un énorme territoire qui comprenait cette zone. C’était le six juillet, selon Wobeser. Cette seigneurie n’était pas un seul bloc : elle comptait vingt-deux villages répartis en sept juridictions, et la plus grande était l’Alcaldía Mayor de Cuernavaca, où se trouvait son centre administratif. Elle dura jusqu’en mille huit cent vingt et un. Certains auteurs situent le début des travaux vers mille cinq cent vingt-six, et l’agrandissement principal entre mille cinq cent trente et un et mille cinq cent trente-cinq. Cortés s’installa ici en mille cinq cent trente et un avec sa seconde épouse, Juana de Zúñiga.\n\nLa construction mêle des traits gothiques et mudéjars, c’est-à-dire de tradition islamique en Espagne. Les murs sont épais, en pierre de la région, et en haut il y a des créneaux. Ce n’est pas un simple ornement : à cette époque, un conquistador pouvait avoir besoin de se défendre. Le palais eut même un dépôt d’armes. Mais c’était aussi une maison. On raconte que Cortés l’aménagea avec vingt et une tapisseries et une chapelle ornée d’objets d’or et d’argent.\n\nC’est ici que naquit son fils Martín Cortés, deuxième marquis de la vallée. Cortés visita souvent le palais pendant la décennie de mille cinq cent trente. Il partit pour l’Espagne en mille cinq cent quarante, ne revint jamais au Mexique et y mourut en mille cinq cent quarante-sept. Juana de Zúñiga continua de vivre dans le palais jusqu’après sa mort.\n\nIl existe une célèbre légende sur Cortés à Cuernavaca : qu’il aurait sauté à cheval un ravin de cinq mètres pour échapper à une attaque. Cette histoire n’est pas documentée. Ce qui est attesté, c’est que des guerriers tlahuicas attaquèrent les Espagnols à cette époque, près de l’endroit qu’on appelle aujourd’hui Callejón del Diablo.\n\nIl convient de garder à l’esprit qui a réellement bâti l’ouvrage. Les murs n’ont pas été dressés par Cortés de ses propres mains. Ils ont été dressés par une main-d’œuvre indigène, comme le raconte Diego Rivera dans [le premier pan de la fresque](cue_09_rivera_conquista), avec la scène de la construction du palais. Nous n’avons aucun chiffre fiable sur le nombre de personnes qui ont travaillé à l’ouvrage, et c’est pourquoi nous n’allons pas en inventer un ici.\n\nEntre mille neuf cent soixante et onze et mille neuf cent soixante-treize, l’INAH a restauré le palais pour lui rendre sa forme du seizième siècle. Pourtant, l’édifice que vous voyez mêle les époques, parce qu’il a été réparé et agrandi de nombreuses fois. Certaines parties datent de l’époque de Cortés et d’autres furent ajoutées des siècles plus tard.\n\nL’INAH décrit le palais comme le premier ouvrage civil élevé en Amérique après l’arrivée des Européens. Parcourez l’édifice avec cette idée en tête : une maison de famille, une forteresse et un signe de pouvoir, le tout fait de la même pierre."
+    },
+    "retos_observacion": {
+      "hash": "486b4d803cb45bb1",
+      "texto": [
+        "Cherchez les murs épais et les créneaux de la partie haute : ils ont été pensés pour défendre",
+        "Regardez les arcs des galeries et remarquez ce qu’on voit depuis eux : les volcans et la ville",
+        "Demandez quelle partie de l’édifice est ancienne et laquelle a été ajoutée plus tard : le palais a changé de nombreuses fois"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a33f0926729aebf1",
+      "texto": {
+        "Constructeur": "Hernán Cortés, sur le tecpan de Cuauhnáhuac",
+        "Début": "vers 1526 selon certains auteurs ; agrandissement entre 1531 et 1535",
+        "Style": "gothique et mudéjar",
+        "Matériau": "pierre de la région sur une base préhispanique",
+        "Cortés": "marquis de la vallée d’Oaxaca depuis 1529",
+        "Épouse": "Juana de Zúñiga"
+      }
+    },
+    "faq_mito": {
+      "hash": "2f4f7ce4bfb3d642",
+      "texto": {
+        "pregunta": "Mythe : Cortés a sauté à cheval un ravin de cinq mètres au Callejón del Diablo.",
+        "respuesta": "Réalité : C’est une légende sans documents pour l’appuyer. Une attaque de guerriers tlahuicas dans cette zone, elle, est documentée."
+      }
+    }
+  }
+}

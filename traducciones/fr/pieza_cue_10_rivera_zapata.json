@@ -1,0 +1,55 @@
+{
+  "id": "cue_10_rivera_zapata",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9cd069570e1a213b",
+      "texto": "Rivera II : conversion, Inquisition et Zapata"
+    },
+    "frase_gancho": {
+      "hash": "fa912fb48d887c65",
+      "texto": "Des fonts baptismaux en forme de serpent à plumes, des pendus et un paysan en chemise blanche qui clôt l’histoire."
+    },
+    "puente_narrativo": {
+      "hash": "eb070647fcd0ac56",
+      "texto": "Suivez votre itinéraire : il peut vous mener à la galerie est et à la tour, ou vers la cathédrale."
+    },
+    "guion_corto": {
+      "hash": "f277202d606c02b8",
+      "texto": "Des fonts baptismaux sculptés en serpent à plumes. C’est l’un des détails les plus étranges du second pan de la fresque. Rivera a peint ici la conversion forcée des communautés indigènes, avec le couvent de l’Asunción au fond et frère Toribio de Benavente, Motolinía, qui enseigne. Vient ensuite l’Inquisition sous les dominicains et, à la fin, la révolution paysanne menée par Emiliano Zapata, avec des pendus et un cheval mort. Zapata apparaît en paysan, en chemise et pantalon de coton blanc et en huaraches. Dans les grisailles du bas, il y a des scènes de Cuauhtémoc, des mines d’argent et des défenseurs des Indiens, comme Bartolomé de las Casas et Vasco de Quiroga."
+    },
+    "guion_largo": {
+      "hash": "56e24a597efc40ff",
+      "texto": "Ici, l’histoire change de ton. Le premier pan racontait des batailles et du travail forcé. Celui-ci raconte comment une nouvelle foi a été imposée et, à la fin, comment s’est achevé le système né de la Conquête.\n\nLa première scène est la conversion forcée de communautés indigènes. Rivera peint le couvent de l’Asunción, qui est le même ensemble que vous connaissez aujourd’hui comme la cathédrale de Cuernavaca. Là se trouve Motolinía, le franciscain qui enseigna dans la région. Et il y a des fonts baptismaux sculptés en forme de serpent à plumes. C’est un détail qui mêle deux mondes : un objet chrétien à la forme d’une divinité préhispanique. Pour voir l’édifice réel, vous pouvez visiter [le parvis et la façade de la cathédrale](cue_13_atrio_catedral).\n\nLa scène suivante est l’Inquisition sous les dominicains. Dans une petite peinture au-dessus de l’embrasure d’une porte, vers la fin de la galerie, Rivera montre la persécution et le bûcher de personnes indigènes accusées d’hérésie. Au début de la galerie, il avait peint un sacrifice humain aztèque. Placer les deux scènes face à face est une façon de comparer la cruauté de deux cultures, et c’est l’une des lectures que font les historiens de l’art.\n\nLa dernière grande scène est la révolution. Emiliano Zapata mène les paysans. Il y a des pendus et un cheval mort. Zapata ne porte pas un costume de charro avec de l’argent, comme sur beaucoup de photographies. Il porte une chemise et un pantalon de coton blanc et des huaraches, comme un paysan. Pour Rivera, la Révolution était la libération de la domination coloniale. Zapata apparaît aussi dans une niche d’un pilier, sur la face est, et José María Morelos sur la face ouest. Le visage de Morelos rappelle beaucoup les autoportraits de Rivera.\n\nEn bas, dans les grisailles, il y a des scènes sans couleur mais pleines de poids. Rivera a peint l’exécution de Cuauhtémoc et de Tetlepanquetzal, la destruction des temples indigènes et le travail forcé dans les mines d’argent. Il y a aussi deux figures d’aide : Bartolomé de las Casas, défenseur des indigènes, et Vasco de Quiroga, qui introduisit le métier à tisser. Et il y a Acualmeztli, qui mourut dans la guerre du Mixtón en mille cinq cent quarante-deux.\n\nLe Museum of Modern Art de New York conserve une autre œuvre de Rivera ayant Zapata pour sujet. Il le décrit comme un paysan humble et un défenseur infatigable des journaliers sans terre. C’est une lecture qui aide à comprendre pourquoi Rivera l’a vêtu d’habits de campagne et non de tenue de gala.\n\nLa fresque a connu une vie accidentée. Dans les années quatre-vingt-dix, elle a été protégée et restaurée avec l’appui du Centre national de conservation et de groupes privés. Après le séisme de deux mille dix-sept et la réouverture du musée en deux mille vingt-trois, elle a de nouveau été ouverte au public.\n\nAvant de continuer, tournez-vous un instant vers le début de la galerie. Rivera a bouclé le cercle : il a commencé par un sacrifice et terminé par un soulèvement. Entre l’un et l’autre, quatre siècles d’histoire."
+    },
+    "retos_observacion": {
+      "hash": "38a96fdb36343d24",
+      "texto": [
+        "Cherchez les fonts baptismaux en forme de serpent à plumes dans la scène de la conversion",
+        "Trouvez Zapata dans la niche du pilier et comparez ses vêtements à ceux des photographies que vous connaissez",
+        "Cherchez le visage de Morelos dans l’autre niche et demandez-vous à qui il ressemble"
+      ]
+    },
+    "especificaciones": {
+      "hash": "edd7ccfb0202062a",
+      "texto": {
+        "Seconde partie de la fresque": "conversion forcée, Inquisition et révolution paysanne",
+        "Niches dans les piliers": "Zapata sur la face est et Morelos sur la face ouest",
+        "Grisailles": "Cuauhtémoc, destruction des temples, mines, Las Casas, Vasco de Quiroga et Acualmeztli",
+        "Signature": "D.R. 30 à l’angle inférieur sud du mur ouest",
+        "Restauration": "protégée dans les années 1990, de nouveau exposée depuis 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "5f98a354088d7720",
+      "texto": {
+        "pregunta": "Mythe : Le Zapata de la fresque porte un costume de charro orné d’argent.",
+        "respuesta": "Réalité : Rivera l’a peint en paysan, en chemise et pantalon de coton blanc et en huaraches."
+      }
+    }
+  }
+}

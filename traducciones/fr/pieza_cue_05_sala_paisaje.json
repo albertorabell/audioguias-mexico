@@ -1,0 +1,55 @@
+{
+  "id": "cue_05_sala_paisaje",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6ff793b97e1fd30d",
+      "texto": "Salle Paysage : mammouth, obsidienne et grottes"
+    },
+    "frase_gancho": {
+      "hash": "0dce834adf5b7ccf",
+      "texto": "Un fémur et des défenses de mammouth vieux de plus de dix mille ans rappellent qui parcourait le Morelos avant ses peuples."
+    },
+    "puente_narrativo": {
+      "hash": "dadd4a7491026a80",
+      "texto": "Continuez avec la salle des peuples du maïs et de la pierre et celle des Olmèques."
+    },
+    "guion_corto": {
+      "hash": "0b5b4cdd7c075655",
+      "texto": "Les ossements qui vous accueillent dans cette salle ont plus de dix mille ans. Ce sont un fémur et des défenses de mammouth, un animal de la dernière période glaciaire. La salle s’appelle Paysage et raconte ce que sont les écosystèmes et la géologie du Morelos. Il y a des fossiles, des pièces d’obsidienne, un verre volcanique avec lequel on fabriquait des tranchants, et de la vannerie des grottes d’El Gallo et de La Chagüera. Le musée estime que la région est habitée depuis environ six mille trois cents ans avant notre ère. Mais cette salle remonte plus loin : elle montre que le territoire existait déjà, avec sa nature, avant l’arrivée de la première personne. Le Morelos est un petit État, mais il réunit montagnes, vallées et terres chaudes."
+    },
+    "guion_largo": {
+      "hash": "69a4dcd24ded888b",
+      "texto": "Le musée du palais de Cortés a changé d’idée quand il a rouvert en deux mille vingt-trois. Auparavant, il racontait l’histoire par époques et par personnages. Maintenant, selon ses responsables, il raconte qui a façonné le territoire, des premières communautés jusqu’à aujourd’hui, sans se concentrer sur les grandes dates ni sur les grands personnages. Cette salle est la meilleure illustration de cette idée, car elle commence par le paysage.\n\nLa salle Paysage parle des écosystèmes et de la géologie du Morelos. C’est un petit État, mais il compte des forêts dans les zones hautes du nord et des terres chaudes vers le sud. Cette variété de climats explique pourquoi il y a eu tant de façons de vivre ici.\n\nCe qui attire le plus l’attention, ce sont les restes de mammouth. Il y a un fémur et des défenses de plus de dix mille ans. Le mammouth est un animal éteint, parent des éléphants, qui vécut pendant la dernière période glaciaire. Quand on pense à cette époque, presque personne n’imagine que ces animaux sont passés par ce qui est aujourd’hui le Morelos, mais ces restes le montrent.\n\nIl y a aussi des fossiles et des pièces d’obsidienne. L’obsidienne est du verre volcanique. Elle se brise en éclats très tranchants, ce qui en a fait un matériau précieux pour fabriquer des couteaux et des pointes depuis la préhistoire. Qu’on la trouve dans une salle sur le paysage n’a rien d’un hasard : l’obsidienne naît des volcans, et le Morelos a des volcans tout près.\n\nUne autre partie de la salle montre de la vannerie des grottes d’El Gallo et de La Chagüera. Les paniers sont des objets fragiles. Le fait qu’ils aient survécu si longtemps indique que les grottes ont bien conservé les matériaux. C’est pourquoi ces sites intéressent tant les archéologues : ils gardent des choses qui ne se conservent presque jamais à l’air libre.\n\nUne autre salle du musée, Biodiversité, montre à l’aide d’infographies la flore et la faune endémiques du Morelos. Endémique veut dire que l’on ne trouve cela qu’en un seul endroit. Les deux salles forment un couple : l’une montre ce qui vit aujourd’hui sur le territoire, et l’autre, ce qui a laissé sa trace il y a des milliers d’années. Les fossiles, eux, sont des restes ou des empreintes d’êtres vivants conservés dans la roche.\n\nLe musée n’est pas encore complet. Selon l’INAH, il manque les salles d’archéologie, celles d’histoire du seizième au dix-neuvième siècle et celles d’anthropologie du vingtième au vingt et unième siècle. Il manque aussi un épilogue sur la responsabilité partagée de prendre soin du patrimoine. À la réouverture de deux mille vingt-trois, cinq salles permanentes et trois expositions temporaires ont ouvert.\n\nSi l’on y réfléchit, un musée de ce genre fait quelque chose que ne font pas les manuels scolaires. Il met devant vous un véritable os, d’un animal que personne n’a vu vivant, et vous laisse estimer sa taille à l’œil.\n\nEn terminant, retenez une idée. Avant les rois, les conquistadors et les gouverneurs, il y avait un paysage qui offrait de l’eau, de la pierre, des plantes et des animaux. Tout le reste a été construit là-dessus."
+    },
+    "retos_observacion": {
+      "hash": "44d507b3f025bcf7",
+      "texto": [
+        "Cherchez le fémur et les défenses de mammouth et calculez la taille de l’animal qui les portait",
+        "Trouvez les pièces d’obsidienne et remarquez comment le matériau brille, comme du verre",
+        "Regardez la vannerie des grottes et songez au temps pendant lequel elle est restée gardée"
+      ]
+    },
+    "especificaciones": {
+      "hash": "00b0bc25da3d68b0",
+      "texto": {
+        "Salle": "Paysage, sur les écosystèmes et la géologie du Morelos",
+        "Mammouth": "fémur et défenses de plus de 10 000 ans",
+        "Autres pièces": "fossiles, obsidienne et vannerie des grottes d’El Gallo et de La Chagüera",
+        "Peuplement de la région": "depuis environ 6 300 ans avant notre ère, selon le musée",
+        "Musée rouvert": "30 mars 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "f90d9c95e14f264c",
+      "texto": {
+        "pregunta": "Mythe : Les mammouths n’ont vécu que dans les terres froides du nord.",
+        "respuesta": "Réalité : Il y a des restes de mammouth dans le Morelos, et le musée expose un fémur et des défenses de plus de dix mille ans."
+      }
+    }
+  }
+}

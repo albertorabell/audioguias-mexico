@@ -1,0 +1,54 @@
+{
+  "id": "cue_04_ventanas_arqueologicas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c6e2edf17984e41b",
+      "texto": "Les fenêtres archéologiques et les monolithes"
+    },
+    "frase_gancho": {
+      "hash": "a7c37d19822e087b",
+      "texto": "Sous le palais de Cortés subsiste une place tlahuica avec des plateformes, des marches et des structures circulaires."
+    },
+    "puente_narrativo": {
+      "hash": "1680ce1c942e210c",
+      "texto": "Poursuivez dans le musée vers la salle du paysage : de la place tlahuica, vous passez à la nature du Morelos."
+    },
+    "guion_corto": {
+      "hash": "924ac6a4cede8ec3",
+      "texto": "Il y a un détail que presque personne ne remarque : le palais est plein de fenêtres dans le sol et dans les murs. Elles ne servent pas à regarder dehors, mais à regarder en dessous. À travers elles, on aperçoit les vestiges d’une place préhispanique, avec des plateformes, des encadrements d’escaliers, des marches et des structures circulaires de pierre et de stuc. Les archéologues distinguent quatre étapes de construction tlahuica, et ces fenêtres laissent voir la troisième. Devant l’entrée, sous l’herbe, apparaissent le sol de la place et un autel circulaire qui dépasse à peine de la pelouse. Du côté ouest du palais, il y a trois monolithes sculptés : l’Aigle de Chapultepec, le Lézard de San Antón et le Chimalli. Ce sont des pierres venues ici d’autres lieux."
+    },
+    "guion_largo": {
+      "hash": "584f9f8af3bae7b6",
+      "texto": "Cuernavaca s’appelait Cuauhnáhuac, un nom nahuatl que l’on traduit souvent par « près des arbres ». Quand les Espagnols le prononcèrent, il finit par devenir Cuernavaca. Mais avant le nouveau nom, il y avait la place. Et cette place n’a pas complètement disparu : elle est encore ici, sous le palais et autour de lui.\n\nEntre mille neuf cent soixante et onze et mille neuf cent soixante-treize, pendant la restauration de l’INAH, l’archéologue Jorge Angulo Villaseñor dirigea des fouilles à cet endroit. On y trouva des couches des époques tlahuica et mexica, c’est-à-dire des deux peuples qui utilisèrent le site avant l’arrivée des Espagnols. Depuis, le musée conserve plusieurs fenêtres archéologiques.\n\nL’INAH explique que la construction tlahuica comporta quatre étapes. Ce que l’on voit par les fenêtres appartient à la troisième. Il y a des plateformes, des encadrements d’escaliers, des marches et des structures circulaires faites de pierre et de stuc. Le stuc est un mélange à base de chaux qui servait à recouvrir les murs et les sols. Si vous vous penchez calmement, imaginez l’espace plein de monde : c’était la place principale d’un centre de gouvernement et de tribut.\n\nDevant l’entrée du musée, les fouilles ont fait apparaître le sol de la place. Aujourd’hui, il est recouvert d’herbe, mais on distingue un autel circulaire qui dépasse à peine de la pelouse. Il est facile de passer dessus sans le remarquer.\n\nIl y a aussi trois monolithes du côté ouest du palais. Le premier est l’Aigle de Chapultepec, le deuxième est le Lézard de San Antón et le troisième est le Chimalli, que l’on connaît aussi sous le nom de Pierre des Enchantements. Chimalli est le mot nahuatl pour bouclier. En mille neuf cent quatre-vingt-douze, le Chimalli fut déplacé sur la place préhispanique, où il est maintenant exposé près des vestiges.\n\nLes Tlahuicas parlaient nahuatl et vivaient dans des seigneuries réparties dans ce qui est aujourd’hui le Morelos. Cuauhnáhuac était l’un de leurs centres. Un tecpan était à la fois palais et bureau : c’est là que vivait le dirigeant et que l’on recevait le tribut. Élever le palais de Cortés précisément à cet endroit n’était pas un hasard, car le site était déjà un centre de pouvoir.\n\nPour lire ces fenêtres, il convient de penser en archéologue. Les constructions anciennes se superposent comme les pages d’un livre. Le plus ancien reste en bas et le plus récent en haut. Quand l’INAH parle de quatre étapes tlahuicas, il est très probable que chacune ait été élevée sur la précédente. C’est pourquoi les fenêtres sont si précieuses : elles laissent voir une page du livre sans l’arracher.\n\nL’idée qu’il convient d’emporter est simple. Un palais colonial peut sembler une seule œuvre du seizième siècle. Mais celui-ci a été élevé sur un lieu qui avait déjà des siècles d’usage. Regarder vers le bas, par les fenêtres, c’est se rappeler que Cuernavaca a deux histoires superposées. C’est pourquoi il convient de se pencher lentement. Ce que vous voyez à travers la vitre n’est pas une décoration. C’est un sol que d’autres gens ont foulé, avant que cet édifice n’existe."
+    },
+    "retos_observacion": {
+      "hash": "0b68597c16ccd15e",
+      "texto": [
+        "Cherchez les fenêtres dans le sol ou dans les murs et essayez de distinguer les plateformes et les marches",
+        "Trouvez l’autel circulaire qui dépasse à peine de l’herbe devant l’entrée",
+        "Repérez les trois monolithes du côté ouest et cherchez celui qui a la forme d’un bouclier"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7495d770f116598b",
+      "texto": {
+        "Place préhispanique": "quatre étapes de construction tlahuica ; les fenêtres montrent la troisième",
+        "Vestiges visibles": "plateformes, encadrements d’escaliers, marches et structures circulaires de pierre et de stuc",
+        "Monolithes du côté ouest": "Aigle de Chapultepec, Lézard de San Antón et Chimalli",
+        "Fouilles": "1971 à 1973, dirigées par Jorge Angulo Villaseñor"
+      }
+    },
+    "faq_mito": {
+      "hash": "4ecaff91be1a3f89",
+      "texto": {
+        "pregunta": "Mythe : Le palais de Cortés a été construit sur un terrain vide.",
+        "respuesta": "Réalité : Il a été élevé sur le tecpan et la place des Tlahuicas. Les vestiges sont encore visibles dans les fenêtres archéologiques."
+      }
+    }
+  }
+}

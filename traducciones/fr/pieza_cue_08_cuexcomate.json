@@ -1,0 +1,55 @@
+{
+  "id": "cue_08_cuexcomate",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2f8efde1b7f0dfa1",
+      "texto": "Le cuexcomate, le grenier d’argile"
+    },
+    "frase_gancho": {
+      "hash": "7cad580475a9a61a",
+      "texto": "Un grand vase d’argile pour conserver le maïs, posé à l’air libre sur une terrasse du premier étage."
+    },
+    "puente_narrativo": {
+      "hash": "d36bba40646320cf",
+      "texto": "Quittez la terrasse et suivez l’itinéraire que vous avez choisi."
+    },
+    "guion_corto": {
+      "hash": "6d63da5611d1d15a",
+      "texto": "Où garde-t-on le maïs pour que la pluie ne le mouille pas et que les rats ne le mangent pas ? Dans le Morelos, pendant des générations, la réponse fut le cuexcomate. C’est un grenier traditionnel d’argile, en forme de grande marmite, qui s’élève au-dessus du sol. Ici, sur une terrasse à l’air libre du premier étage, vous pouvez en voir un. Le musée le présente dans la salle Bioculturalité, avec des écheveaux de laine de Hueyapan. Les deux objets racontent comment la nature est devenue culture : l’argile, le maïs et la laine, travaillés par des mains de la région. C’est une architecture sans murs de pierre ni arcs, et pourtant elle a résolu un problème que tous les peuples agricoles connaissent."
+    },
+    "guion_largo": {
+      "hash": "b22159afade07b7c",
+      "texto": "Le mot cuexcomate vient du nahuatl cuexcomatl, et il désigne le grenier traditionnel d’argile du Morelos et d’autres régions du centre du Mexique. Si vous en voyez un pour la première fois, il ressemble à un vase géant. En réalité, c’est une construction fonctionnelle, conçue pour stocker le maïs et d’autres grains.\n\nSur cette terrasse du premier étage du palais, il y en a un. Il est à l’air libre, alors que le musée le présente à l’intérieur d’une salle, celle de Bioculturalité. On y explique des aspects de la culture du Morelos, comme le cuexcomate et les écheveaux de laine de Hueyapan. Bioculturalité signifie la relation entre la nature et la culture : la manière dont un peuple utilise ce qu’il a autour de lui et le transforme en tradition.\n\nPour comprendre le cuexcomate, pensez au problème qu’il résout. Après la récolte, le maïs doit durer des mois. S’il s’humidifie, il pourrit. Si les rongeurs et les insectes le trouvent, il est perdu. Un grenier surélevé, fait d’argile et couvert d’un toit, évite ces deux dangers. Il est généralement construit avec de l’argile mélangée à de l’herbe sèche, élevé sur une base de pierre, et il a une ouverture en haut pour le remplir.\n\nLe maïs est la base de la vie dans ces villages depuis plus de trois mille ans, comme le racontent les salles du rez-de-chaussée. Bien le conserver, c’est assurer la nourriture d’une famille pour l’année. C’est pourquoi le cuexcomate est bien plus qu’un bel objet : il fait partie de la sécurité d’une maison paysanne.\n\nIl vaut la peine de le comparer avec ce que raconte Diego Rivera dans les fresques de ce même palais. [Le premier pan de la fresque](cue_09_rivera_conquista) montre les sucreries, qui ont pris beaucoup de terres. Un cuexcomate représente l’autre face de la terre : celle de la nourriture des villages.\n\nLe musée a rouvert en deux mille vingt-trois avec une idée claire : parler des gens qui ont donné forme au territoire et pas seulement des grandes dates. Le cuexcomate s’accorde bien avec cette idée. Il n’a pas d’auteur célèbre : c’est l’œuvre d’une tradition partagée, transmise de famille en famille.\n\nLes écheveaux de laine de Hueyapan, qui accompagnent le cuexcomate dans la salle, racontent quelque chose de semblable. Hueyapan est une communauté du Morelos connue pour son travail textile. La laine est filée et teinte à la main. Ni l’argile ni la laine ne viennent d’usines : elles viennent du territoire et de l’habileté des gens.\n\nRemarquez la forme. Un cuexcomate est un grenier d’argile, large de panse et étroit d’ouverture, qui s’élève sur une base pour que l’humidité n’abîme pas le grain. C’est une solution simple qui conserve le maïs pendant des mois.\n\nAvant de continuer, regardez depuis cette terrasse vers la ville. C’est un bon endroit pour penser que Cuernavaca, celle des bâtiments coloniaux et des rues de pierre, est aussi entourée de villages qui vivent de la campagne. Un grenier d’argile les représente tous."
+    },
+    "retos_observacion": {
+      "hash": "55c9f6fff02ef385",
+      "texto": [
+        "Faites le tour du cuexcomate et remarquez sa forme de grande marmite : par où pensez-vous qu’on sorte le maïs ?",
+        "Cherchez la partie qui le sépare du sol et demandez-vous pourquoi il convient de surélever le grain",
+        "Depuis la terrasse, regardez vers la ville et pensez aux villages du Morelos qui vivent encore du maïs"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b8ccce5fe54ab7ca",
+      "texto": {
+        "Objet": "cuexcomate, grenier traditionnel du Morelos",
+        "Mot": "du nahuatl cuexcomatl",
+        "Matériau": "argile",
+        "Emplacement": "terrasse à l’air libre au premier étage du palais",
+        "Salle du musée où il est présenté": "Bioculturalité, avec des écheveaux de laine de Hueyapan"
+      }
+    },
+    "faq_mito": {
+      "hash": "7cc8fe99d7bcf0d4",
+      "texto": {
+        "pregunta": "Mythe : Le cuexcomate est un vase décoratif.",
+        "respuesta": "Réalité : C’est un grenier. Sa forme sert à protéger le maïs de la pluie et des animaux."
+      }
+    }
+  }
+}
