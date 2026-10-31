@@ -1,0 +1,49 @@
+{
+  "id": "xoc_32_museo_arquitectura_vasijas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0eb2cca2b06c3ea4",
+      "texto": "Les édifices de l’intérieur : reliefs, vases et maquettes"
+    },
+    "frase_gancho": {
+      "hash": "ffeaaf45f1536480",
+      "texto": "Des pièces qui ont décoré la ville et des objets qui montrent comment l’on vivait."
+    },
+    "guion_corto": {
+      "hash": "55b4c0e059d36ca6",
+      "texto": "Cette salle montre ce qu’était la ville de l’intérieur. Le bâtiment a été conçu par l’architecte Rolando Dada y Lemus, et il a été inauguré en mille neuf cent quatre-vingt-seize. Il comporte six salles sur des thèmes comme l’architecture, la vie quotidienne, l’échange et la religion. Selon l’INAH, il y a des coupes d’architecture qui exposent des pièces sculpturales qui ont décoré les édifices. La décoration est riche et variée, et elle est associée surtout à la fertilité. Une autre source mentionne des vases élaborés et des maquettes de pyramides, certaines avec des pigments rouges. Ensemble, ils donnent une idée de l’aspect de cette ville : des édifices décorés, des objets d’usage quotidien et les gens qui les fabriquaient. En parcourant la salle, imaginez ces pièces remises sur leurs murs. Avant de sortir, cherchez celle qui vous fait le mieux imaginer la couleur qu’eut Xochicalco. Ainsi s’achève votre visite du musée."
+    },
+    "guion_largo": {
+      "hash": "378e56b38acaca06",
+      "texto": "Jusqu’ici, vous avez vu la ville de l’extérieur. Cette salle vous la montre de l’intérieur. Le musée a été conçu par l’architecte Rolando Dada y Lemus. Il fut achevé en mille neuf cent quatre-vingt-quatorze et inauguré en avril mille neuf cent quatre-vingt-seize. Selon le livre de l’INAH d’Alvarado León, ce fut le premier musée autosuffisant construit au monde. Chaque salle a un dôme avec des miroirs qui répartit la lumière du jour, et des cellules solaires couvrent les jours nuageux. L’eau de pluie est conservée pour les services, et les murs doubles ventilent le bâtiment. À l’extérieur, l’architecte l’a voulu discret pour qu’il ne concurrence pas la zone archéologique. Il compte six salles, et sa forme hexagonale permet d’en voir trois depuis un même point. Il expose plus de neuf cents pièces. Les noms des salles donnent une idée du parcours. Ce sont Les Dons de la Terre, Hommes guerriers et hommes prêtres, Xochicalco refuge des hommes, Mains créatrices, Les Rituels du jeu, et Espaces quotidiens et temps de convivialité.\n\nSelon l’INAH, la salle expose des coupes d’architecture avec des pièces sculpturales qui ont décoré les édifices de la ville. La décoration est riche et variée, et elle est associée surtout à la fertilité.\n\nUne autre source mentionne que le musée possède aussi des vases élaborés et des maquettes de pyramides, et que certaines pièces conservent des pigments rouges.\n\nPensez à ce que vous avez vu dehors : des murs, des terrasses et des reliefs en pierre nue. Ici, vous pouvez imaginer comment ils étaient autrefois. Une source raconte que les reliefs de la Pyramide des Serpents à plumes étaient peints en rouge, vert, jaune, bleu, noir et blanc.\n\nLes vases, eux, parlent des gens. Dans l’une des maisons fouillées par Webb et Hirth, il resta plus de cent vases quand la ville fut abandonnée. Ce sont les objets de tous les jours.\n\nAvant de sortir, cherchez la pièce qui vous fait le mieux imaginer la couleur qu’eut Xochicalco. Ainsi s’achève votre visite du musée."
+    },
+    "retos_observacion": {
+      "hash": "04e800ae8a4f5f61",
+      "texto": [
+        "Cherchez une pièce avec des restes de couleur",
+        "Comparez les maquettes avec la pyramide que vous avez vue dehors",
+        "Regardez les vases et pensez à qui les utilisait"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f9d79a5ae02287d7",
+      "texto": {
+        "Salle": "pièces sculpturales qui ont décoré les édifices, associées surtout à la fertilité, selon l’INAH",
+        "Autres pièces": "vases élaborés et maquettes de pyramides, selon Mesoweb",
+        "Pigments": "certaines pièces conservent du rouge"
+      }
+    },
+    "faq_mito": {
+      "hash": "2be0fbaab1971676",
+      "texto": {
+        "pregunta": "Mythe : Tout ce que l’on voit à Xochicalco est à son emplacement d’origine.",
+        "respuesta": "Réalité : Beaucoup de pièces sculptées sont exposées au musée, et d’autres sont au Musée national d'anthropologie."
+      }
+    }
+  }
+}

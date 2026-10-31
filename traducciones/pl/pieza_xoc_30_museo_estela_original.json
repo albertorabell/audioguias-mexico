@@ -1,0 +1,54 @@
+{
+  "id": "xoc_30_museo_estela_original",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2318589a1e1f2bff",
+      "texto": "Stela Dwóch Glifów, oryginał"
+    },
+    "frase_gancho": {
+      "hash": "f94c204101cb844a",
+      "texto": "Centralny eksponat muzeum: dwa znaki kalendarza wyryte w kamieniu."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "Kontynuuj w muzeum: następna sala pokazuje inne eksponaty ze stanowiska."
+    },
+    "guion_corto": {
+      "hash": "3fe3fc2ad6bca9b3",
+      "texto": "To centralny eksponat muzeum: oryginalna Stela Dwóch Glifów. Według INAH to monolit z wyrytymi dwoma glifami kalendarza, prawdopodobnie związanymi z ważnym wydarzeniem w historii Xochicalco. Jeden to rok, dziesięć trzcina, a drugi to dzień, dziewięć oko gada. Stela, którą widziałeś na placu, jest repliką. Medina Romero proponuje, że data odpowiada inauguracji Piramidy Pierzastych Węży. To propozycja, a nie ostateczny fakt. Spójrz na glify: to znaki czasu umieszczone w kamieniu, aby całe miasto pamiętało jeden dzień."
+    },
+    "guion_largo": {
+      "hash": "e7c003a06489c07a",
+      "texto": "Oto eksponat, który widziałeś na placu, ale ten jest oryginałem.\n\nWedług INAH Stela Dwóch Glifów jest centrum jednej z sal muzeum. To monolit z wyrytymi dwoma glifami kalendarza, prawdopodobnie związanymi z ważnym wydarzeniem w historii Xochicalco.\n\nJeden z glifów to rok, dziesięć trzcina. Drugi to dzień, dziewięć oko gada. Przewodnik INAH opowiada, że była to jedna z czterech stel znalezionych na stanowisku. Ta, którą widziałeś na [Placu Steli](xoc_05_plaza_estela_dos_glifos), jest repliką.\n\nMedina Romero proponuje, że ta data odpowiada inauguracji Piramidy Pierzastych Węży. To propozycja, a nie ostateczny fakt. To, co możesz zobaczyć, to to, co jest wyryte: dwa znaki, które posłużyły do utrwalenia chwili.\n\nZwróć uwagę na rzeźbienie. Stela to wysoki kamień z reliefami, pomyślany tak, by oglądało go wielu ludzi. Ktoś zdecydował, że ten dzień zasługuje, by pozostać w kamieniu."
+    },
+    "retos_observacion": {
+      "hash": "9850c246456eb565",
+      "texto": [
+        "Znajdź dwa glify na steli",
+        "Porównaj z repliką, którą widziałeś na placu",
+        "Pomyśl, który dzień swojego życia umieściłbyś w kamieniu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d870fcd1d47e4b64",
+      "texto": {
+        "Eksponat": "monolit z dwoma glifami kalendarza",
+        "Glify": "rok dziesięć trzcina i dzień dziewięć oko gada",
+        "Lokalizacja": "Muzeum Stanowiska Xochicalco, według INAH",
+        "Stele znalezione na stanowisku": "cztery, według przewodnika INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "ee4187cc7ac9d4d9",
+      "texto": {
+        "pregunta": "Mit: Stela na placu jest oryginałem.",
+        "respuesta": "Rzeczywistość: Ta na placu jest repliką. Oryginał znajduje się w Muzeum Stanowiska."
+      }
+    }
+  }
+}

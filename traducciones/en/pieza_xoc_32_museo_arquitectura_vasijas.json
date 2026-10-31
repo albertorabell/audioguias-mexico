@@ -1,0 +1,49 @@
+{
+  "id": "xoc_32_museo_arquitectura_vasijas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0eb2cca2b06c3ea4",
+      "texto": "The Buildings from Inside: Reliefs, Vessels and Models"
+    },
+    "frase_gancho": {
+      "hash": "ffeaaf45f1536480",
+      "texto": "Pieces that decorated the city and objects that show how people lived."
+    },
+    "guion_corto": {
+      "hash": "55b4c0e059d36ca6",
+      "texto": "This hall shows what the city was like on the inside. The building was designed by the architect Rolando Dada y Lemus, and it opened in nineteen ninety-six. It has six halls with themes such as architecture, daily life, exchange and religion. According to the INAH, there are architectural cross-sections that display sculptural pieces that decorated the buildings. The decoration is rich and varied, and is associated mostly with fertility. Another source mentions elaborate vessels and models of pyramids, some with red pigments. Together they give an idea of how this city looked: decorated buildings, everyday objects and the people who made them. As you walk through the hall, imagine those pieces back on their walls. Before leaving, look for the one that makes you imagine most the color Xochicalco once had. That ends your tour of the museum."
+    },
+    "guion_largo": {
+      "hash": "378e56b38acaca06",
+      "texto": "So far you have seen the city from outside. This hall shows it to you from inside. The museum was designed by the architect Rolando Dada y Lemus. It was finished in nineteen ninety-four and opened in April of nineteen ninety-six. According to Alvarado León’s INAH book, it was the first self-sustaining museum built in the world. Each hall has a dome with mirrors that spreads daylight, and solar cells cover the cloudy days. Rainwater is stored for the services, and the double walls ventilate the building. On the outside, the architect made it discreet so that it would not compete with the archaeological zone. It has six halls, and its hexagonal shape lets you see three from a single point. It displays more than nine hundred pieces. The names of the halls give an idea of the route. They are The Gifts of the Earth, Warrior Men and Priest Men, Xochicalco Shelter of Men, Creative Hands, The Rituals of the Game, and Everyday Spaces and Times of Togetherness.\n\nAccording to the INAH, the hall displays architectural cross-sections with sculptural pieces that decorated the city’s buildings. The decoration is rich and varied, and is associated mostly with fertility.\n\nAnother source mentions that the museum also has elaborate vessels and models of pyramids, and that some pieces preserve red pigments.\n\nThink about what you have seen outside: walls, terraces and reliefs in bare stone. Here you can imagine how they once were. One source says the reliefs of the Pyramid of the Feathered Serpents were painted red, green, yellow, blue, black and white.\n\nThe vessels, for their part, speak of the people. In one of the houses excavated by Webb and Hirth, more than a hundred vessels were left when the city was abandoned. They are the objects of every day.\n\nBefore leaving, look for the piece that makes you imagine most the color Xochicalco once had. That ends your tour of the museum."
+    },
+    "retos_observacion": {
+      "hash": "04e800ae8a4f5f61",
+      "texto": [
+        "Look for a piece with traces of color",
+        "Compare the models with the pyramid you saw outside",
+        "Look at the vessels and think about who used them"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f9d79a5ae02287d7",
+      "texto": {
+        "Hall": "sculptural pieces that decorated the buildings, associated mostly with fertility, according to the INAH",
+        "Other pieces": "elaborate vessels and models of pyramids, according to Mesoweb",
+        "Pigments": "some pieces preserve red"
+      }
+    },
+    "faq_mito": {
+      "hash": "2be0fbaab1971676",
+      "texto": {
+        "pregunta": "Myth: Everything seen at Xochicalco is in its original place.",
+        "respuesta": "Reality: Many sculpted pieces are displayed in the museum, and others are in the National Museum of Anthropology."
+      }
+    }
+  }
+}

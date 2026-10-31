@@ -1,0 +1,54 @@
+{
+  "id": "xoc_30_museo_estela_original",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2318589a1e1f2bff",
+      "texto": "The Stela of the Two Glyphs, the Original"
+    },
+    "frase_gancho": {
+      "hash": "f94c204101cb844a",
+      "texto": "The museum’s centerpiece: two calendar signs engraved in stone."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "Continue in the museum: the next hall shows other pieces from the site."
+    },
+    "guion_corto": {
+      "hash": "3fe3fc2ad6bca9b3",
+      "texto": "This is the museum’s centerpiece: the original Stela of the Two Glyphs. According to the INAH, it is a monolith engraved with two calendar glyphs, probably tied to an important event in the history of Xochicalco. One is a year, ten reed, and the other a day, nine reptile eye. The stela you saw in the plaza is a replica. Medina Romero proposes that the date corresponds to the inauguration of the Pyramid of the Feathered Serpents. It is a proposal, not a closed fact. Look at the glyphs: they are signs of time set in stone so that an entire city would remember one day."
+    },
+    "guion_largo": {
+      "hash": "e7c003a06489c07a",
+      "texto": "Here is the piece you saw in the plaza, but this one is the original.\n\nAccording to the INAH, the Stela of the Two Glyphs is the center of a museum hall. It is a monolith engraved with two calendar glyphs, probably tied to an important event in the history of Xochicalco.\n\nOne of the glyphs is a year, ten reed. The other is a day, nine reptile eye. The INAH guide says this was one of four stelae found at the site. The one you saw in the [Stela Plaza](xoc_05_plaza_estela_dos_glifos) is a replica.\n\nMedina Romero proposes that this date corresponds to the inauguration of the Pyramid of the Feathered Serpents. It is a proposal, not a closed fact. What you can see is what is engraved: two signs that served to fix a moment.\n\nNotice the carving. A stela is a tall stone with reliefs, made to be seen by many people. Someone decided that day deserved to remain in stone."
+    },
+    "retos_observacion": {
+      "hash": "9850c246456eb565",
+      "texto": [
+        "Find the two glyphs on the stela",
+        "Compare with the replica you saw in the plaza",
+        "Think about which day of your life you would put in stone"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d870fcd1d47e4b64",
+      "texto": {
+        "Piece": "monolith with two calendar glyphs",
+        "Glyphs": "year ten reed and day nine reptile eye",
+        "Location": "Xochicalco Site Museum, according to the INAH",
+        "Stelae found at the site": "four, according to the INAH guide"
+      }
+    },
+    "faq_mito": {
+      "hash": "ee4187cc7ac9d4d9",
+      "texto": {
+        "pregunta": "Myth: The stela in the plaza is the original.",
+        "respuesta": "Reality: The one in the plaza is a replica. The original is in the Site Museum."
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "xoc_29_fin_ciudad",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0f13fb8c4d2826b",
+      "texto": "Koniec miasta"
+    },
+    "frase_gancho": {
+      "hash": "204f2953895c0a04",
+      "texto": "Miasto, które przez wieki dominowało nad tymi wzgórzami i upadło nagle."
+    },
+    "guion_corto": {
+      "hash": "ca1c6d8b4e3e3349",
+      "texto": "Przez wieki Xochicalco dominowało nad tymi wzgórzami. Potem, w bardzo krótkim czasie, wszystko się skończyło. Webb i Hirth znaleźli ślady pożaru w ceremonialnym jądrze, zniszczone budowle i rzeźby oraz poćwiartowane ciała na posadzkach. Domy natomiast pozostały z naczyniami wciąż użytecznymi, jakby ich właściciele odeszli w pośpiechu. Specjaliści spierają się, dlaczego: wewnętrzny bunt, zerwanie sojuszu między miastami albo zewnętrzny podbój. Dziś miasto jest wpisane na Listę Światowego Dziedzictwa od tysiąc dziewięćset dziewięćdziesiątego dziewiątego roku. Zanim odejdziesz, spójrz na wzgórze po raz ostatni. To, co widzisz, to miasto zatrzymane w chwili swojego upadku."
+    },
+    "guion_largo": {
+      "hash": "d5cc3fe30c912228",
+      "texto": "Przez wieki Xochicalco dominowało nad tymi wzgórzami. Potem, w bardzo krótkim czasie, wszystko się skończyło.\n\nMiasto założono około roku sześćset siedemdziesiątego, na wzgórzu, które nigdy wcześniej nie było zamieszkane. Według Alvarado Leóna opuszczenie nastąpiło około roku tysiąc sześćdziesiątego piątego, jakieś czterysta lat później. Według INAH zostało splądrowane i opuszczone gwałtownie. Data jest przedmiotem sporu: Webb i Hirth umieszczają ją wcześniej, około roku dziewięćsetnego.\n\nBudowle płonęły. Webb i Hirth opisują pożary w ceremonialnym jądrze, zniszczone budowle i rzeźby oraz poćwiartowane ciała na posadzkach. To nie było ciche opuszczenie.\n\nAle domy opowiadają coś innego. W trzech mieszkaniach z warsztatami wykopanych w tysiąc dziewięćset dziewięćdziesiątym trzecim roku, a zwłaszcza w jednym z nich, pozostało ponad sto naczyń i ponad siedemdziesiąt narzędzi z mielonego kamienia. Ci, którzy tam mieszkali, odeszli w pośpiechu i zostawili przedmioty, które jeszcze służyły.\n\nDlaczego do tego doszło, nie ma zgody. Alvarado León, z Norberto Gonzálezem i Silvią Garzą, uważa, że około roku dziewięćsetnego władza przeszła w ręce dwóch przywódców, z powodu presji społecznej i niedoboru zasobów. Około tysiąc sześćdziesiątego piątego roku bunt zrodzony w centrum władzy miałby przynieść splądrowanie i spalenie budowli oraz symboli elity. Potem pojawiła się ceramika z Tula i od Matlatzinca, charakterystyczna dla tamtej epoki. Poza kilkoma skromnymi i znacznie późniejszymi budowlami nikt nie zajął miasta ponownie. Hirth uważa, że doszło do rozpadu konfederacji, która podtrzymywała miasto, albo do podboju z zewnątrz. Inne źródła mówią o powstaniu przeciwko elicie. Legenda opowiada, że pan Xochicalco żądał co roku szlachcica jako daniny, aż młody król Tepoztlán, Tepoztécatl, go zabił. Hirth widzi w tym pamięć o końcu miasta. To hipotezy, a nie fakty.\n\nMinęło kilka wieków, zanim inne ludy osiadły w regionie. Jedno ze źródeł mówi, że Tlahuica przybyli około roku tysiąc dwusetnego.\n\nDziś stanowisko jest chronione. Ogłoszono je strefą zabytków archeologicznych w tysiąc dziewięćset dziewięćdziesiątym czwartym roku, a UNESCO wpisało je na Listę Światowego Dziedzictwa w tysiąc dziewięćset dziewięćdziesiątym dziewiątym roku. Strefa obejmuje około siedmiuset siedmiu hektarów.\n\nZanim odejdziesz, spójrz na wzgórze po raz ostatni. Miasto, które przetrwało wieki, zostawiło kamienie, które wciąż opowiadają, jak była zorganizowana władza, jak mierzono czas i jak żyło się na wysokościach. To, co widzisz, to miasto zatrzymane w chwili swojego upadku."
+    },
+    "retos_observacion": {
+      "hash": "bfe1b1078ffc811f",
+      "texto": [
+        "Spójrz na wzgórze po raz ostatni",
+        "Pomyśl, jakie przedmioty zostawiłbyś, gdybyś odchodził w pośpiechu",
+        "Poszukaj śladów ognia, jeśli uda ci się je dostrzec"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bdeacc124e4b7e5b",
+      "texto": {
+        "Założenie": "około roku sześćset siedemdziesiątego",
+        "Opuszczenie": "około tysiąc sześćdziesiątego piątego, według Alvarado Leóna; Webb i Hirth umieszczają je około dziewięćsetnego",
+        "Dekret": "tysiąc dziewięćset dziewięćdziesiąty czwarty rok",
+        "Światowe Dziedzictwo": "tysiąc dziewięćset dziewięćdziesiąty dziewiąty rok",
+        "Powierzchnia": "około siedmiuset siedmiu hektarów"
+      }
+    },
+    "faq_mito": {
+      "hash": "9c202d058f9ebb22",
+      "texto": {
+        "pregunta": "Mit: Xochicalco opuszczano stopniowo.",
+        "respuesta": "Rzeczywistość: Ślady pożaru i domy z pozostawionymi przedmiotami sugerują gwałtowne odejście. Przyczyny wciąż są przedmiotem sporu."
+      }
+    }
+  }
+}

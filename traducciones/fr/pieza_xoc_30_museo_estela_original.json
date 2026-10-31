@@ -1,0 +1,54 @@
+{
+  "id": "xoc_30_museo_estela_original",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2318589a1e1f2bff",
+      "texto": "La Stèle des Deux Glyphes, l’originale"
+    },
+    "frase_gancho": {
+      "hash": "f94c204101cb844a",
+      "texto": "La pièce centrale du musée : deux signes de calendrier gravés dans la pierre."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "Poursuivez dans le musée : la salle suivante montre d’autres pièces du site."
+    },
+    "guion_corto": {
+      "hash": "3fe3fc2ad6bca9b3",
+      "texto": "Voici la pièce centrale du musée : la Stèle des Deux Glyphes originale. Selon l’INAH, c’est un monolithe gravé de deux glyphes de calendrier, probablement liés à un événement important de l’histoire de Xochicalco. L’un est une année, dix roseau, et l’autre un jour, neuf œil de reptile. La stèle que vous avez vue sur la place est une réplique. Medina Romero propose que la date corresponde à l’inauguration de la Pyramide des Serpents à plumes. C’est une proposition, pas un fait établi. Regardez les glyphes : ce sont des signes du temps posés dans la pierre pour qu’une ville entière se souvienne d’un jour."
+    },
+    "guion_largo": {
+      "hash": "e7c003a06489c07a",
+      "texto": "Voici la pièce que vous avez vue sur la place, mais celle-ci est l’originale.\n\nSelon l’INAH, la Stèle des Deux Glyphes est le centre d’une salle du musée. C’est un monolithe gravé de deux glyphes de calendrier, probablement liés à un événement important de l’histoire de Xochicalco.\n\nL’un des glyphes est une année, dix roseau. L’autre est un jour, neuf œil de reptile. Le guide de l’INAH raconte que ce fut l’une des quatre stèles trouvées sur le site. Celle que vous avez vue sur la [place de la Stèle](xoc_05_plaza_estela_dos_glifos) est une réplique.\n\nMedina Romero propose que cette date corresponde à l’inauguration de la Pyramide des Serpents à plumes. C’est une proposition, pas un fait établi. Ce que vous pouvez voir, c’est ce qui est gravé : deux signes qui servirent à fixer un moment.\n\nRemarquez la taille. Une stèle est une pierre haute portant des reliefs, pensée pour être vue par beaucoup de monde. Quelqu’un a décidé que ce jour méritait de rester dans la pierre."
+    },
+    "retos_observacion": {
+      "hash": "9850c246456eb565",
+      "texto": [
+        "Cherchez les deux glyphes sur la stèle",
+        "Comparez avec la réplique que vous avez vue sur la place",
+        "Pensez au jour de votre vie que vous graveriez dans la pierre"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d870fcd1d47e4b64",
+      "texto": {
+        "Pièce": "monolithe avec deux glyphes de calendrier",
+        "Glyphes": "année dix roseau et jour neuf œil de reptile",
+        "Emplacement": "Musée de site de Xochicalco, selon l’INAH",
+        "Stèles trouvées sur le site": "quatre, selon le guide de l’INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "ee4187cc7ac9d4d9",
+      "texto": {
+        "pregunta": "Mythe : La stèle de la place est l’originale.",
+        "respuesta": "Réalité : Celle de la place est une réplique. L’originale est au Musée de site."
+      }
+    }
+  }
+}

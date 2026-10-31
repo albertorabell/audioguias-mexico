@@ -1,0 +1,53 @@
+{
+  "id": "xoc_31_museo_marcadores_pelota",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f4a7dc33997c90ec",
+      "texto": "The Ball Court Markers"
+    },
+    "frase_gancho": {
+      "hash": "4bf3228a9d6eef01",
+      "texto": "Carved stones that stood on a court and can now be seen up close."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "Continue in the museum: the next hall shows other pieces from the site."
+    },
+    "guion_corto": {
+      "hash": "155633692377d67e",
+      "texto": "The markers from the east court are here. According to the INAH guide, they have bas-relief and are displayed in the Site Museum. A marker was a carved stone set into the wall of the ball court. Another source says some pieces in the museum preserve red pigments. Remember that the macaw sculpture from the south court is in the National Museum of Anthropology, not here. Notice how deep the carving is and whether any color remains. Without the museum, these stones would be just a fact in a guide; here you can see them up close and understand why the courts mattered so much."
+    },
+    "guion_largo": {
+      "hash": "968b4c2fc827a487",
+      "texto": "These stones stood on a court.\n\nAccording to the INAH guide, the markers from the east court have bas-relief and are displayed in the Site Museum. A bas-relief is a carved figure that stands out only slightly from the stone. A marker was a stone set into the wall of the ball court.\n\nAnother source says the museum displays carved ball game markers, one of them among its pieces, and that some pieces preserve red pigments.\n\nThere is a detail worth making clear. The macaw found at the south court is not here. According to the INAH guide, it is now in the National Museum of Anthropology.\n\nCompare these pieces with what you saw on the courts. The south court keeps two markers in place, the north one has them fallen and the ones from the east are here. Three courts, three fates.\n\nNotice how deep the carving is and whether any color remains. It is the best way to get closer to what was played out there."
+    },
+    "retos_observacion": {
+      "hash": "4ac83377a6618d7b",
+      "texto": [
+        "Look at the carving up close",
+        "Look for traces of red color",
+        "Compare with the court you saw outside"
+      ]
+    },
+    "especificaciones": {
+      "hash": "91245ea8dc5e6e3f",
+      "texto": {
+        "Piece": "markers from the east court, with bas-relief",
+        "Location": "Site Museum, according to the INAH guide",
+        "Macaw from the south court": "National Museum of Anthropology"
+      }
+    },
+    "faq_mito": {
+      "hash": "a8d4ccb5bf08898d",
+      "texto": {
+        "pregunta": "Myth: All the pieces from the ball courts are in the site museum.",
+        "respuesta": "Reality: The macaw from the south court is in the National Museum of Anthropology, and two markers remain on the south court."
+      }
+    }
+  }
+}
