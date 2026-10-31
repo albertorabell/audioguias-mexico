@@ -1,0 +1,55 @@
+{
+  "id": "cue_15_nave_sotocoro",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ad191ce723bf4626",
+      "texto": "The Nave and the Sotocoro"
+    },
+    "frase_gancho": {
+      "hash": "24b88a434157bbdd",
+      "texto": "A Christ of the Ascension instead of the crucified one, a door that grants pardon and a Gothic vault beneath the choir."
+    },
+    "puente_narrativo": {
+      "hash": "c1d662be085d50a3",
+      "texto": "Lift your eyes to the walls of the nave: that is where the murals of the martyrs of Japan are."
+    },
+    "guion_corto": {
+      "hash": "f63383ec40a170a8",
+      "texto": "Why isn’t the Christ in this cathedral crucified? Because here Jesus is shown at the Ascension, rising to heaven. That is how a guide to the cathedral describes it. The nave is wide and sober, like that of a sixteenth-century Franciscan convent. Under the choir is the sotocoro, the space covered by the upper gallery. According to México Desconocido, it has Gothic tracery and one of the oldest depictions of the Virgin of Guadalupe, a claim worth confirming. On the north facade is the Porciúncula Door. Franciscan tradition says that whoever crosses that door under the conditions set by the Church obtains the plenary indulgence called the Pardon of Assisi."
+    },
+    "guion_largo": {
+      "hash": "c8413a504e097b12",
+      "texto": "Most Catholic churches have a crucified Christ above the altar. This one does not. A guide to the temple says that the main image represents Jesus at the Ascension, rising to heaven.\n\nThe temple has a Latin cross plan, with a single nave, and it is oriented from east to west. Many Franciscan temples of the era are like this: simple, with a single nave, designed for preaching. The interior has the sobriety of a convent.\n\nIn the nineteenth century, the nave filled with neoclassical altarpieces that covered the walls. Later, in the renovation of the nineteen fifties, the high altar and the side altars were removed. That cleanup revealed something that had been hidden for centuries: the murals of the martyrs of Japan. We will talk about that in the next two stops.\n\nLater the main altarpiece was rescued and restored, in nineteen ninety-three. Before that, in nineteen ninety-two, several paintings in the cathedral were protected thanks to the Adopt a Work of Art program.\n\nFrom the center of the nave you can see why the mural is so long. It covers the walls from the sotocoro to the chancel arch, which is the great arch that separates the nave from the presbytery. It is about thirty meters of painting that accompanies whoever walks toward the altar.\n\nThe temple has also suffered earthquakes. After the two thousand seventeen quake, cracks were seen in the painted walls, and the plaster was protected. It is part of the life of a building that has stood for almost five centuries.\n\nBeneath the choir is the sotocoro. The word is literal: the part that lies under the choir. According to one of the sources, it has Gothic tracery, that is, stone ribs that form patterns on the ceiling. Look up and follow those lines calmly. The ribs do not only hold up the ceiling: they also order the gaze, which rises and then comes down again toward the altar.\n\nOn the north wall is the Porciúncula Door. The name comes from the small chapel of the Porciúncula, near Assisi, in Italy, where Saint Francis asked for a special pardon for those who repented. Tradition calls it the Pardon of Assisi. Whoever crosses a door like this one, on the days and under the conditions the Church sets, can obtain a plenary indulgence. The conditions and dates are defined by the Church.\n\nBefore moving on, lift your eyes and lower your voice. If Mass is being held, wait a moment outside or walk through the temple with respect. If you saw the atrium first, notice the change of light as you enter: from the open plaza you step into a shadier nave. Speaking softly helps you hear the echo of the place. It is an active place of worship, not just a museum room.\n\nStay a moment in the center of the nave. It is the best place to feel the scale of the temple and to look at the long walls that, as you will see right away, kept a thirty-meter painting."
+    },
+    "retos_observacion": {
+      "hash": "cea6c63e703b6a90",
+      "texto": [
+        "Find the main image of the temple and notice whether the Christ is rising to heaven or crucified",
+        "Look beneath the choir and try to see the stone patterns on the ceiling",
+        "Locate the north door, the Porciúncula, and ask what is requested when crossing it"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a5131c05b9aa6176",
+      "texto": {
+        "Plan": "Latin cross, a single nave, east-west orientation",
+        "Main altarpiece": "rescued and restored in 1993",
+        "Adopt a Work of Art program": "1992",
+        "North door": "Porciúncula, linked to the Pardon of Assisi",
+        "Sotocoro": "with Gothic tracery, according to México Desconocido"
+      }
+    },
+    "faq_mito": {
+      "hash": "0122afaaa25c8fb2",
+      "texto": {
+        "pregunta": "Myth: All churches have a crucified Christ above the altar.",
+        "respuesta": "Reality: In this one, Jesus is represented at the Ascension, according to a guide to the temple."
+      }
+    }
+  }
+}

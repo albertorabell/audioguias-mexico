@@ -1,0 +1,56 @@
+{
+  "id": "cue_19_museo_arte_sacro",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "92411ceaa71effe9",
+      "texto": "Le Musée d’art sacré"
+    },
+    "frase_gancho": {
+      "hash": "de9da99f60f9555b",
+      "texto": "Quatre-vingt-douze objets du seizième au vingtième siècle, réunis pour garder l’art religieux de tout le Morelos."
+    },
+    "puente_narrativo": {
+      "hash": "f060b867381c0573",
+      "texto": "Suivez votre itinéraire : il peut vous mener au temple du Tiers-Ordre ou au Jardin Borda."
+    },
+    "guion_corto": {
+      "hash": "ce5f45c66bec1202",
+      "texto": "Quatre-vingt-douze objets tiennent dans ce musée, qui est petit mais concentré. Il se trouve dans la cathédrale et a ouvert en deux mille dix-huit. Il réunit des peintures, des ornements et des sculptures du seizième au vingtième siècle, tout l’art religieux et vice-royal du Morelos. Il a été impulsé par le Conseil national Adoptez une œuvre d’art, avec le diocèse, l’INAH et l’INBA, et le gouvernement de l’État en a financé une bonne partie. Ce n’est pas la première tentative. En mille neuf cent onze, l’évêque Francisco Plancarte y Navarrete fonda un autre musée d’art sacré à Cuernavaca. La collection de la cathédrale comprend des peintures attribuées à Juan Correa, Juan de Miranda et Tomás de Sosa. Il y a aussi un relief de bois doré du dix-huitième siècle sur les stigmates de saint François."
+    },
+    "guion_largo": {
+      "hash": "ae0ad46a36bf7542",
+      "texto": "Les mots art sacré semblent lointains, mais ce qu’il y a ici est très proche : des objets que de vraies personnes ont utilisés pour prier, célébrer et se souvenir. Le Musée d’art sacré se trouve dans la cathédrale. Il a ouvert en deux mille dix-huit comme un espace digne pour garder l’art religieux et vice-royal du Morelos. L’art vice-royal est celui qui fut fait quand le Mexique était la Nouvelle-Espagne.\n\nC’est un petit musée, avec environ quatre-vingt-douze objets : des peintures, des ornements et des sculptures du seizième au vingtième siècle. Les ornements sont les tissus et les objets que les prêtres utilisent dans les cérémonies. Le chiffre peut changer avec le temps, mais il donne une idée de l’échelle : ce n’est pas une immense galerie, mais une sélection.\n\nL’ouvrage fut impulsé par le Conseil national Adoptez une œuvre d’art, une organisation qui avait déjà travaillé dans la cathédrale depuis les années mille neuf cent quatre-vingt-dix. Le diocèse de Cuernavaca y participa, avec l’INAH et l’INBA. Le gouverneur Graco Ramírez finança une grande partie du projet, selon le communiqué de presse de l’ouverture.\n\nCuernavaca avait déjà eu un musée de ce genre. En mille neuf cent onze, le deuxième évêque du diocèse, Francisco Plancarte y Navarrete, fonda un Musée d’art sacré. Une chercheuse, María Celia Fontana, ne précise pas s’il se trouvait dans la cathédrale. L’important est l’idée : depuis plus d’un siècle, le diocèse a voulu réunir et montrer ses trésors.\n\nQuel type d’œuvres garde la collection de la cathédrale ? Fontana mentionne des peintures attribuées à Juan Correa, Juan de Miranda et Tomás de Sosa, des artistes de la Nouvelle-Espagne. Il y a aussi un relief de bois polychrome et doré du dix-huitième siècle, d’auteur anonyme. Il représente la stigmatisation de saint François : le moment où, selon la tradition, le saint reçut dans son corps les plaies du Christ. Ce relief ressemble beaucoup à celui qui orne le portail du [temple du Tiers-Ordre](cue_20_tercera_orden). Nous ne pouvons pas assurer quelles pièces se trouvent aujourd’hui dans la salle ; il convient de le demander à l’entrée.\n\nEn mille neuf cent quatre-vingt-douze, plusieurs œuvres de la cathédrale furent restaurées avec le programme Adoptez une œuvre d’art, dirigé par Teresa Loera. Ces travaux préparèrent le terrain pour le musée.\n\nParmi les choses à regarder, remarquez comment on distingue un saint d’un autre. Chacun porte en général un objet qui l’identifie, comme une clé, une palme ou un livre. Ces attributs étaient le moyen de les reconnaître de loin.\n\nUne question aide à regarder ce type d’art : pour quoi a-t-il été fait ? Une peinture de saints pouvait enseigner des histoires à des personnes qui ne savaient pas lire. Un ornement servait lors d’une fête. Une sculpture était sortie en procession. Quand on y pense ainsi, l’art sacré cesse d’être un objet derrière une vitre et redevient une part de la vie d’un peuple."
+    },
+    "retos_observacion": {
+      "hash": "211bb5f498257ec2",
+      "texto": [
+        "Cherchez une peinture avec des saints et demandez-vous quelle histoire elle raconte",
+        "Trouvez un ornement et remarquez le tissu, la broderie ou la couleur",
+        "S’il y a un relief de bois doré, comparez la figure avec le portail du Tiers-Ordre"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8c72f331ae25dcb1",
+      "texto": {
+        "Ouverture": "2018",
+        "Collection": "92 objets du XVIe au XXe siècle, selon Lonely Planet",
+        "Type de pièces": "peintures, ornements et sculptures de l’art religieux et vice-royal du Morelos",
+        "Impulsion": "Conseil national Adoptez une œuvre d’art, diocèse, INAH et INBA",
+        "Musée antérieur": "1911, fondé par l’évêque Francisco Plancarte y Navarrete",
+        "Auteurs cités dans la collection de la cathédrale": "Juan Correa, Juan de Miranda et Tomás de Sosa"
+      }
+    },
+    "faq_mito": {
+      "hash": "916359c48251ed4d",
+      "texto": {
+        "pregunta": "Mythe : L’art sacré n’est que pour les croyants.",
+        "respuesta": "Réalité : On peut le regarder comme de l’histoire et comme de l’art. Il montre comment on peignait, brodait et sculptait en Nouvelle-Espagne."
+      }
+    }
+  }
+}

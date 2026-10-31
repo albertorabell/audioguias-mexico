@@ -1,0 +1,56 @@
+{
+  "id": "cue_16_martires_hallazgo",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3f5c9fde1d522692",
+      "texto": "The Martyrs of Japan I: The Discovery"
+    },
+    "frase_gancho": {
+      "hash": "e599545de6cf4dd0",
+      "texto": "A mural about thirty meters long that stayed covered in lime for generations and whose painter nobody remembers."
+    },
+    "puente_narrativo": {
+      "hash": "2fae5821ce7727ef",
+      "texto": "Follow your route: it may take you to read the mural calmly or to the Museum of Sacred Art."
+    },
+    "guion_corto": {
+      "hash": "f183e764b752d7a9",
+      "texto": "Someone was cleaning the walls of the cathedral when a fish appeared. That is what some versions of the discovery of this mural say; it had been covered with lime for generations. Under the layers of paint was an enormous scene, about thirty meters long by eight high, about the martyrs of Nagasaki and Saint Philip of Jesus. It appeared during a major renovation ordered by Bishop Sergio Méndez Arceo, in the late nineteen fifties. Nobody knows who painted it: it is attributed to an anonymous artist of the seventeenth or early eighteenth century. It tells a real episode, which took place in Japan in fifteen ninety-seven and had a great echo in Mexico."
+    },
+    "guion_largo": {
+      "hash": "8a71bad48fc35802",
+      "texto": "The story begins in Japan. On the eighteenth of January, fifteen ninety-seven, the ruler Taicósama issued a sentence in Osaka. It is the name Spanish texts use for Toyotomi Hideyoshi. The order: twenty-four Christians were to be crucified in Nagasaki. In the end there were twenty-six, among Franciscans, Jesuits and lay people. They were executed on the fifth of February of that year. One of them was Felipe de Jesús, a young Franciscan born in Mexico City, which is why his story mattered so much here. He is the first saint born in Mexico, and he was canonized in eighteen sixty-two.\n\nOne of the open questions is why this scene ended up painted in a convent in Cuernavaca. One hypothesis mentions Franciscans who passed through this convent on the way to their martyrdom, such as Pedro Bautista, Martín de la Ascensión, Francisco Blanco and Francisco de San Miguel. Another links the painting to the wreck of the galleon San Francisco in sixteen oh nine, off the coast of Japan. Then more than three hundred sailors from New Spain were rescued. Neither is proven.\n\nThe mural measures about thirty meters long and eight high. It covers the walls of the nave, between the sotocoro and the chancel arch, which is the great arch that separates the nave from the presbytery. Its author and its original title are unknown. Specialists date it between the middle of the seventeenth century and the early part of the next. Some link it to the period after sixteen twenty-eight, when the beatification of Felipe de Jesús was announced.\n\nThen came the lime. During the modernization of the interiors, between the eighteenth and nineteenth centuries, the walls were whitewashed and covered with neoclassical altarpieces. A researcher, María Elena Ota, links the whitewashing to the parish priest Vito Cruz Manjarrez, who was in office from eighteen sixty-seven to eighteen eighty.\n\nThe discovery has several versions. The renovation was ordered by Bishop Sergio Méndez Arceo and directed by Fray Gabriel Chávez de la Mora and the architect Ricardo de Robina. According to one author, the discovery was accidental. According to another, the Department of Colonial Monuments ordered the lime removed to look for paintings. A third says that fish could already be seen above the north door and that underneath there were thirteen layers of paint. And a fourth says a worker uncovered it while cleaning the walls left without altars. The sources give nineteen fifty-seven as the year of the discovery and nineteen fifty-nine for the restoration.\n\nIn that restoration the color was reintegrated, especially ochres and blues. The repainting was criticized, because it was done without authorization and with colors that were too intense. Later they were softened.\n\nPrecisely for that reason it is worth looking carefully. What you see is an old painting, but also the result of a twentieth-century restoration."
+    },
+    "retos_observacion": {
+      "hash": "2606b86ff4172481",
+      "texto": [
+        "Find the edge of the mural on the wall and try to imagine the nave covered in white lime",
+        "Think about the four versions of the discovery and decide which one seems most believable",
+        "Look for the ochre and blue colors that were repainted in the nineteen fifty-nine restoration"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c161f1c1d0358e46",
+      "texto": {
+        "Size": "about 30 m long by 8 m high",
+        "Location": "nave walls, from the sotocoro to the chancel arch",
+        "Author": "unknown",
+        "Date": "between the mid-17th century and the early 18th",
+        "Discovery": "1957, during a renovation by Bishop Sergio Méndez Arceo",
+        "Restoration": "1959, with color reintegration"
+      }
+    },
+    "faq_mito": {
+      "hash": "fb9ef3b3c064aaff",
+      "texto": {
+        "pregunta": "Myth: A Japanese artist painted the mural in Cuernavaca.",
+        "respuesta": "Reality: Who painted it is unknown. Its style resembles East Asian art, but nobody has proven that its author was Japanese."
+      }
+    }
+  }
+}

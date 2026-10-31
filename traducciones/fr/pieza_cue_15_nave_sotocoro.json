@@ -1,0 +1,55 @@
+{
+  "id": "cue_15_nave_sotocoro",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ad191ce723bf4626",
+      "texto": "La nef et le sotocoro"
+    },
+    "frase_gancho": {
+      "hash": "24b88a434157bbdd",
+      "texto": "Un Christ de l’Ascension au lieu du crucifié, une porte qui donne le pardon et une voûte gothique sous le chœur."
+    },
+    "puente_narrativo": {
+      "hash": "c1d662be085d50a3",
+      "texto": "Levez les yeux vers les murs de la nef : ce sont eux qui portent les peintures murales des martyrs du Japon."
+    },
+    "guion_corto": {
+      "hash": "f63383ec40a170a8",
+      "texto": "Pourquoi le Christ de cette cathédrale n’est-il pas crucifié ? Parce qu’ici Jésus est montré à l’Ascension, montant au ciel. C’est ainsi que le décrit un guide de la cathédrale. La nef est large et sobre, comme celle d’un couvent franciscain du seizième siècle. Sous le chœur se trouve le sotocoro, l’espace couvert par la tribune supérieure. Selon México Desconocido, il possède un réseau gothique et l’une des plus anciennes représentations de la Vierge de Guadalupe, une affirmation qu’il convient de vérifier. Sur la façade nord se trouve la porte de la Portioncule. La tradition franciscaine dit que celui qui franchit cette porte dans les conditions de l’Église obtient l’indulgence plénière appelée Pardon d’Assise."
+    },
+    "guion_largo": {
+      "hash": "c8413a504e097b12",
+      "texto": "La plupart des églises catholiques ont un Christ crucifié au-dessus de l’autel. Pas celle-ci. Un guide du temple raconte que l’image principale représente Jésus à l’Ascension, montant au ciel.\n\nLe plan du temple est en croix latine, avec une seule nef, et son orientation va de l’est à l’ouest. Beaucoup de temples franciscains de l’époque sont ainsi : simples, à nef unique, pensés pour prêcher. L’intérieur a la sobriété d’un couvent.\n\nAu dix-neuvième siècle, la nef s’est remplie de retables néoclassiques qui couvraient les murs. Plus tard, lors de la rénovation des années mille neuf cent cinquante, on a retiré le maître-autel et les autels latéraux. Ce nettoyage a laissé apparaître quelque chose qui était caché depuis des siècles : les peintures murales des martyrs du Japon. Nous en parlerons aux deux étapes suivantes.\n\nPlus tard, le retable principal fut sauvé et restauré, en mille neuf cent quatre-vingt-treize. Auparavant, en mille neuf cent quatre-vingt-douze, plusieurs peintures de la cathédrale avaient été protégées grâce au programme Adoptez une œuvre d’art.\n\nDepuis le centre de la nef, on comprend pourquoi la peinture murale est si longue. Elle couvre les murs depuis le sotocoro jusqu’à l’arc triomphal, qui est le grand arc séparant la nef du presbytère. Cela fait environ trente mètres de peinture qui accompagnent celui qui marche vers l’autel.\n\nLe temple a lui aussi subi des tremblements de terre. Après le séisme de deux mille dix-sept, des fissures sont apparues dans les murs peints, et l’enduit a été protégé. Cela fait partie de la vie d’un édifice qui tient debout depuis près de cinq siècles.\n\nSous le chœur se trouve le sotocoro. Le mot est littéral : la partie qui est sous le chœur. Selon l’une des sources, il possède un réseau gothique, c’est-à-dire des nervures de pierre qui dessinent des figures au plafond. Levez les yeux et suivez ces lignes calmement. Les nervures ne font pas que soutenir le plafond : elles ordonnent aussi le regard, qui monte puis redescend vers l’autel.\n\nSur le mur nord se trouve la porte de la Portioncule. Le nom vient de la petite chapelle de la Portioncule, près d’Assise, en Italie, où saint François demanda un pardon spécial pour ceux qui se repentiraient. La tradition l’appelle le Pardon d’Assise. Celui qui franchit une porte comme celle-ci, aux jours et dans les conditions que l’Église établit, peut obtenir une indulgence plénière. Les conditions et les dates sont définies par l’Église.\n\nAvant de continuer, levez les yeux et baissez la voix. S’il y a une messe, attendez un moment dehors ou parcourez le temple avec respect. Si vous avez d’abord vu le parvis, remarquez le changement de lumière en entrant : de la place ouverte, vous passez à une nef plus ombragée. Parler à voix basse aide à entendre l’écho du lieu. C’est un lieu de culte actif, pas seulement une salle de musée.\n\nRestez un moment au centre de la nef. C’est le meilleur endroit pour sentir l’échelle du temple et pour regarder les longs murs qui, comme vous allez le voir tout de suite, ont gardé une peinture de trente mètres."
+    },
+    "retos_observacion": {
+      "hash": "cea6c63e703b6a90",
+      "texto": [
+        "Cherchez l’image principale du temple et remarquez si le Christ monte au ciel ou s’il est crucifié",
+        "Regardez sous le chœur et essayez de voir les dessins de pierre au plafond",
+        "Repérez la porte nord, celle de la Portioncule, et demandez ce que l’on sollicite en la franchissant"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a5131c05b9aa6176",
+      "texto": {
+        "Plan": "croix latine, une seule nef, orientation est-ouest",
+        "Retable principal": "sauvé et restauré en 1993",
+        "Programme Adoptez une œuvre d’art": "1992",
+        "Porte nord": "Portioncule, liée au Pardon d’Assise",
+        "Sotocoro": "avec un réseau gothique, selon México Desconocido"
+      }
+    },
+    "faq_mito": {
+      "hash": "0122afaaa25c8fb2",
+      "texto": {
+        "pregunta": "Mythe : Toutes les églises ont un Christ crucifié au-dessus de l’autel.",
+        "respuesta": "Réalité : Dans celle-ci, Jésus est représenté à l’Ascension, selon un guide du temple."
+      }
+    }
+  }
+}

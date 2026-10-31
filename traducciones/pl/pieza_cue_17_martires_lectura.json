@@ -1,0 +1,56 @@
+{
+  "id": "cue_17_martires_lectura",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "56a5a05d0e657ad7",
+      "texto": "Męczennicy Japonii II: jak czytać mural"
+    },
+    "frase_gancho": {
+      "hash": "d19d0bcab8194094",
+      "texto": "Statki, ryby, wozy zaprzężone w woły i krzyże: dwie ściany, które czyta się jak podróż do Nagasaki."
+    },
+    "puente_narrativo": {
+      "hash": "7fa6d85275ba895f",
+      "texto": "Wyjdź z nawy i idź dalej do krużganka, w którym mieszkali bracia z klasztoru."
+    },
+    "guion_corto": {
+      "hash": "1527b5ae22697763",
+      "texto": "Tego muralu nie czyta się od razu: przemierza się go jak podróż. Na jednej ścianie jest morze, ryby i statki z uzbrojonymi ludźmi i braćmi, płynące do Nagasaki. W głębi lądu pojawiają się ukrzyżowane postacie i kaci z włóczniami. Na przeciwległej ścianie więźniowie posuwają się na wozach ciągniętych przez woły, po czterech, i są procesje konne przez Kioto, Osakę i Sakai. Kreska jest liniowa, z niewielkimi efektami światła i cienia i ograniczoną paletą, cechami przypominającymi sztukę Azji Wschodniej. Niektórzy porównują go do japońskich parawanów, inni się nie zgadzają. Jego autor jest nieznany: jedna hipoteza wskazuje na tubylczego brata albo na zakonnika znającego sztukę wschodnią."
+    },
+    "guion_largo": {
+      "hash": "669c570dbd4336a6",
+      "texto": "Żeby przeczytać ten mural, trzeba iść. To nie jedna scena, lecz trzydziestometrowa trasa podzielona na dwie ściany, a każda opowiada część podróży.\n\nNa jednej ze ścian pojawia się morze. Są ryby, statki, a na łodziach uzbrojeni ludzie i ludzie w habitach. Wszyscy płyną do Nagasaki. Dalej, już na lądzie, jest scena z ukrzyżowanymi postaciami i katami trzymającymi włócznie. To część męczeństwa, przedstawiona bez przesadnego dramatyzmu.\n\nNa przeciwległej ścianie opowieść cofa się o kilka dni. Pojawiają się więźniowie na wozach ciągniętych przez woły. Jest ciekawy szczegół: jadą po czterech, a nie po trzech, jak opowiadają inne relacje historyczne. Potem widać procesje konne przez trzy miasta: Kioto, Osakę i Sakai. Te miasta wyznaczają drogę, jaką według historii przebyli skazani, zanim dotarli do Nagasaki.\n\nTechnika zwraca uwagę. Rysunek jest liniowy, jest mało efektów światła i cienia, a paleta barw jest ograniczona. Te cechy przypominają sztukę Azji Wschodniej. Badacz Luis Islas porównał go do japońskich parawanów, tych dużych malowanych paneli. María Elena Ota się nie zgadza i mówi, że technika jest inna. Obie postawy zgadzają się co do podobieństwa stylu, nie co do pochodzenia.\n\nKto go namalował? Nie wiadomo. Według Xaviera Nogueza kilku autorów uważa, że namalowali go miejscowi artyści tubylczy. Orientalny klimat mógł pochodzić z tego, co wiedziano o Chińczykach przybywających na targ w Manili, a ogólna atmosfera nie odzwierciedla ówczesnej Japonii. To wciąż domysł. Niektórzy specjaliści porównują mural do kodeksów Techialoyan, choć Donald Robertson przyznaje, że ten jest jedyny w swoim rodzaju.\n\nJest też pytanie o datę. Specjaliści umieszczają go między połową siedemnastego wieku a początkiem następnego. Vetancurt opisał klasztor w tysiąc sześćset dziewięćdziesiątym siódmym roku i nie wspomina o muralach, co mogłoby wskazywać na późniejszą datę. Niektórzy wiążą go z rozbiciem galeonu San Francisco w tysiąc sześćset dziewiątym roku, gdy ponad trzystu marynarzy z Nowej Hiszpanii uratowano w pobliżu Onjuku, w Japonii. To powiązanie wyjaśniałoby, dlaczego malarz stąd znał krajobrazy po drugiej stronie Pacyfiku, ale to wciąż teoria.\n\nMural ucierpiał też od trzęsień ziemi. Po trzęsieniu z dziewiętnastego września dwa tysiące siedemnastego roku malowane ściany wykazały pęknięcia, a tynk zabezpieczono.\n\nAby przeczytać mural, nie próbuj zobaczyć wszystkiego naraz. Idź powoli i przechodź od sceny do sceny, jak ktoś przewracający strony długiej książki. Szukaj miejsc, gdzie zmienia się krajobraz: z morza do miasta i z miasta na wzgórze.\n\nPytanie pomaga zdecydować, na co patrzeć. Kto opowiada tę historię: malarze, bracia czy lud, który na nią patrzył? Dla kogoś, kto nie umiał czytać, taki obraz był sposobem zrozumienia wydarzenia bez słów.\n\nJeśli przejdziesz go od ściany do ściany, w końcu zrozumiesz trasę: podróż przez morze, miasta i wzgórze, na którym skończyli. Historia, która wydarzyła się w Japonii, została spokojnie namalowana w klasztorze w Morelos."
+    },
+    "retos_observacion": {
+      "hash": "dadf962633782f00",
+      "texto": [
+        "Podążaj wzrokiem za trasą statków i ryb na jednej ze ścian",
+        "Poszukaj wozów zaprzężonych w woły i policz, ilu więźniów jest na każdym",
+        "Porównaj kolory i linie muralu z wschodnim parawanem lub drzeworytem, który znasz"
+      ]
+    },
+    "especificaciones": {
+      "hash": "431b739f436883dc",
+      "texto": {
+        "Wymiary": "około 30 m długości na 8 m wysokości",
+        "Sceny": "morze, statki i ukrzyżowani; więźniowie na wozach; procesje konne przez Kioto, Osakę i Sakai",
+        "Styl": "rysunek liniowy, mało światła i cienia oraz ograniczona paleta, z cechami sztuki Azji Wschodniej",
+        "Autor": "nieznany",
+        "Data": "między połową XVII wieku a początkiem XVIII",
+        "Powiązane rozbicie statku": "galeon San Francisco, 1609, u wybrzeży Onjuku"
+      }
+    },
+    "faq_mito": {
+      "hash": "882446cfc986afbc",
+      "texto": {
+        "pregunta": "Mit: Mural jest kopią japońskiego parawanu.",
+        "respuesta": "Rzeczywistość: Niektórzy specjaliści zauważają podobieństwa do parawanów, ale inni mówią, że technika jest inna. Nikt nie udowodnił kopii."
+      }
+    }
+  }
+}

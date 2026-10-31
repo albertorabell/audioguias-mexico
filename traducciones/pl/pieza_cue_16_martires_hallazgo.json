@@ -1,0 +1,56 @@
+{
+  "id": "cue_16_martires_hallazgo",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3f5c9fde1d522692",
+      "texto": "Męczennicy Japonii I: odkrycie"
+    },
+    "frase_gancho": {
+      "hash": "e599545de6cf4dd0",
+      "texto": "Mural o długości około trzydziestu metrów, który przez pokolenia był pokryty wapnem i o którego malarzu nikt nie pamięta."
+    },
+    "puente_narrativo": {
+      "hash": "2fae5821ce7727ef",
+      "texto": "Podążaj swoją trasą: może cię zaprowadzić do spokojnego odczytania muralu albo do Muzeum Sztuki Sakralnej."
+    },
+    "guion_corto": {
+      "hash": "f183e764b752d7a9",
+      "texto": "Ktoś czyścił ściany katedry, gdy pojawiła się ryba. Tak opowiadają niektóre wersje odkrycia tego muralu, który od pokoleń był pokryty wapnem. Pod warstwami farby kryła się ogromna scena, o długości około trzydziestu metrów i wysokości ośmiu, o męczennikach z Nagasaki i świętym Felipe de Jesús. Pojawiła się podczas wielkiej renowacji zleconej przez biskupa Sergia Méndeza Arceo, pod koniec lat pięćdziesiątych dwudziestego wieku. Nikt nie wie, kto go namalował: przypisuje się go anonimowemu artyście z siedemnastego lub początku osiemnastego wieku. Opowiada prawdziwy epizod, który wydarzył się w Japonii w tysiąc pięćset dziewięćdziesiątym siódmym roku i miał wielki oddźwięk w Meksyku."
+    },
+    "guion_largo": {
+      "hash": "8a71bad48fc35802",
+      "texto": "Historia zaczyna się w Japonii. Osiemnastego stycznia tysiąc pięćset dziewięćdziesiątego siódmego roku władca Taicósama wydał w Osace wyrok. To nazwa, jaką hiszpańskie teksty nadają Toyotomiemu Hideyoshiemu. Rozkaz: dwudziestu czterech chrześcijan miało zostać ukrzyżowanych w Nagasaki. W końcu było ich dwudziestu sześciu, wśród franciszkanów, jezuitów i świeckich. Stracono ich piątego lutego tego roku. Jednym z nich był Felipe de Jesús, młody franciszkanin urodzony w Mieście Meksyk, i dlatego jego historia tak wiele znaczyła tutaj. Jest pierwszym świętym urodzonym w Meksyku i został kanonizowany w tysiąc osiemset sześćdziesiątym drugim roku.\n\nJednym z otwartych pytań jest to, dlaczego ta scena została namalowana w klasztorze w Cuernavace. Jedna hipoteza wspomina o franciszkanach, którzy przechodzili przez ten klasztor w drodze do swojego męczeństwa, takich jak Pedro Bautista, Martín de la Ascensión, Francisco Blanco i Francisco de San Miguel. Inna wiąże malowidło z rozbiciem galeonu San Francisco w tysiąc sześćset dziewiątym roku, u wybrzeży Japonii. Uratowano wtedy ponad trzystu marynarzy z Nowej Hiszpanii. Żadna z tych hipotez nie jest udowodniona.\n\nMural ma około trzydziestu metrów długości i osiem wysokości. Pokrywa ściany nawy, między podchórzem a łukiem tęczowym, czyli wielkim łukiem oddzielającym nawę od prezbiterium. Jego autor i pierwotny tytuł są nieznane. Specjaliści datują go między połowę siedemnastego wieku a początek następnego. Niektórzy wiążą go z okresem po tysiąc sześćset dwudziestym ósmym roku, gdy ogłoszono beatyfikację Felipe de Jesús.\n\nPotem przyszło wapno. Podczas modernizacji wnętrz, między osiemnastym a dziewiętnastym wiekiem, ściany pobielono i zakryto neoklasycznymi retabulami. Badaczka María Elena Ota wiąże bielenie z proboszczem Vito Cruzem Manjarrezem, który pełnił urząd od tysiąc osiemset sześćdziesiątego siódmego do tysiąc osiemset osiemdziesiątego roku.\n\nOdkrycie ma kilka wersji. Renowację zlecił biskup Sergio Méndez Arceo, a kierowali nią brat Gabriel Chávez de la Mora i architekt Ricardo de Robina. Według jednego autora odkrycie było przypadkowe. Według innego Departament Zabytków Kolonialnych nakazał usunąć wapno, aby szukać malowideł. Trzeci opowiada, że nad północną bramą widać było już ryby, a pod spodem znajdowało się trzynaście warstw farby. A czwarty mówi, że robotnik odsłonił je, czyszcząc ściany pozbawione ołtarzy. Źródła podają tysiąc dziewięćset pięćdziesiąty siódmy jako rok odkrycia i tysiąc dziewięćset pięćdziesiąty dziewiąty jako rok restauracji.\n\nPodczas tej restauracji przywrócono kolor, zwłaszcza ochry i błękity. Przemalowania krytykowano, bo wykonano je bez zezwolenia i w zbyt intensywnych kolorach. Później je złagodzono.\n\nWłaśnie dlatego warto patrzeć uważnie. To, co widzisz, to dawne malowidło, ale też wynik dwudziestowiecznej restauracji."
+    },
+    "retos_observacion": {
+      "hash": "2606b86ff4172481",
+      "texto": [
+        "Poszukaj na ścianie krawędzi muralu i spróbuj wyobrazić sobie nawę pokrytą białym wapnem",
+        "Pomyśl o czterech wersjach odkrycia i zdecyduj, która wydaje ci się najbardziej wiarygodna",
+        "Poszukaj kolorów ochry i błękitu, które przemalowano podczas restauracji w tysiąc dziewięćset pięćdziesiątym dziewiątym roku"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c161f1c1d0358e46",
+      "texto": {
+        "Rozmiar": "około 30 m długości na 8 m wysokości",
+        "Lokalizacja": "ściany nawy, od podchórza do łuku tęczowego",
+        "Autor": "nieznany",
+        "Data": "między połową XVII wieku a początkiem XVIII",
+        "Odkrycie": "1957, podczas renowacji biskupa Sergia Méndeza Arceo",
+        "Restauracja": "1959, z przywróceniem koloru"
+      }
+    },
+    "faq_mito": {
+      "hash": "fb9ef3b3c064aaff",
+      "texto": {
+        "pregunta": "Mit: Mural w Cuernavace namalował japoński artysta.",
+        "respuesta": "Rzeczywistość: Nie wiadomo, kto go namalował. Jego styl przypomina sztukę Azji Wschodniej, ale nikt nie udowodnił, że autor był Japończykiem."
+      }
+    }
+  }
+}
