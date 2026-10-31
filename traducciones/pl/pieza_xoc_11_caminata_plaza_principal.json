@@ -1,0 +1,54 @@
+{
+  "id": "xoc_11_caminata_plaza_principal",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1879863762ac4b65",
+      "texto": "Spacer: ku Placowi Głównemu"
+    },
+    "frase_gancho": {
+      "hash": "8e9e2edf5e168fda",
+      "texto": "Odcinek pod górę przez miasto zaprojektowane tak, by je bronić."
+    },
+    "puente_narrativo": {
+      "hash": "e10bd2bfa52eaab2",
+      "texto": "Kontynuuj swoją trasę: gdy dotrzesz na górę, miasto zmienia skalę."
+    },
+    "guion_corto": {
+      "hash": "5c70785ee1b71a54",
+      "texto": "Teraz trzeba się wspiąć. Ten spacer prowadzi z Pałacu na Plac Główny. Według INAH plac leży na sztucznym kopcu i dociera się do niego przez dwa bronione portyki. Przewodnik INAH dodaje, że to najlepiej zachowana część miasta i jednocześnie najtrudniej dostępna. Medina Romero wspomina, że na stanowisku są brukowane drogi o długości do stu siedemdziesięciu pięciu metrów. Idąc, nie musisz szukać niczego konkretnego. Zwróć uwagę, jak zmienia się teren pod twoimi stopami. Pomyśl, co znaczy dotrzeć do miejsca zaprojektowanego tak, by je bronić. Gdy będziesz na górze, powiemy o tym, co znajduje się na placu."
+    },
+    "guion_largo": {
+      "hash": "efde4016d0cc3ec8",
+      "texto": "Teraz trzeba się wspiąć. Ten spacer prowadzi z Pałacu na Plac Główny.\n\nAby zrozumieć drogę, pomaga przypomnieć sobie, jak zorganizowane jest miasto. UNESCO wyróżnia trzy poziomy: niski, pośredni i wysoki. Ty idziesz z pośredniego i zmierzasz ku najwyższemu.\n\nWedług INAH Plac Główny leży na sztucznym kopcu. Dociera się do niego przez dwa bronione portyki. To znaczy, że nie było to miejsce, do którego wchodziło się bez przeszkód.\n\nPrzewodnik INAH mówi, że to najlepiej zachowana część miasta i najtrudniej dostępna. Te dwie rzeczy być może idą w parze.\n\nMedina Romero zwraca uwagę, że na stanowisku są brukowane drogi o długości do stu siedemdziesięciu pięciu metrów. Wspomina też, że na południe od Akropolu znajduje się czterometrowy mur z bastionami i fosami.\n\nWspinając się, przestań szukać zabytków i zwróć uwagę na teren. Wzgórze przekształcone tarasami i murami odczuwa się inaczej niż otwarty plac.\n\nUNESCO uważa Xochicalco za wybitny przykład ufortyfikowanego miasta epiklasycznego. Poczujesz to w ciele, zanim zobaczysz to oczami.\n\nGdy dotrzesz na górę, odetchnij. To, co następuje, to najsłynniejsza część stanowiska."
+    },
+    "retos_observacion": {
+      "hash": "1116641122750212",
+      "texto": [
+        "Zwróć uwagę, jak zmienia się teren pod twoimi stopami",
+        "Policz, ile razy zmienia się poziom drogi",
+        "Poszukaj portyków, przez które wchodzi się na plac"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c2d65caad70383d0",
+      "texto": {
+        "Plac Główny": "na sztucznym kopcu",
+        "Wejścia": "dwa bronione portyki",
+        "Brukowane drogi": "do stu siedemdziesięciu pięciu metrów, według Mediny Romero",
+        "Poziomy miasta": "trzy, według UNESCO"
+      }
+    },
+    "faq_mito": {
+      "hash": "5407af077888d91a",
+      "texto": {
+        "pregunta": "Mit: Na najważniejszy plac wchodziło się swobodnie.",
+        "respuesta": "Rzeczywistość: Według INAH dociera się do niego przez dwa bronione portyki."
+      }
+    }
+  }
+}

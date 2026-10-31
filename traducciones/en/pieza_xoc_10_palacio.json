@@ -1,0 +1,53 @@
+{
+  "id": "xoc_10_palacio",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1d592daab735a069",
+      "texto": "The Palace"
+    },
+    "frase_gancho": {
+      "hash": "c20a3309c0baa591",
+      "texto": "Rooms, kitchens, workshops and storerooms around courtyards."
+    },
+    "puente_narrativo": {
+      "hash": "da470518487f8f15",
+      "texto": "Follow your route: now the city becomes higher and more enclosed."
+    },
+    "guion_corto": {
+      "hash": "f8ef89c8ed345c5f",
+      "texto": "A palace is not only luxury. According to the INAH, this complex on the middle level brings together rooms, kitchens, workshops, storerooms and a temazcal, all around courtyards. A temazcal is a steam bath for the body and for ceremonies. Medina Romero adds that this palace and the La Malinche complex form a residential complex south of the city. Notice the mix: cooking, storing, working and resting shared the same space. The word palace is a label from archaeologists, not a description of luxury. To see where the ruler lived, according to Hirth, you will have to climb to the Acropolis. Here, look at the courtyards and think about how many people could move among them on an ordinary day."
+    },
+    "guion_largo": {
+      "hash": "12838f31561d38ec",
+      "texto": "A palace is not always a place of luxury. In Xochicalco, the one the INAH calls the Palace has a more practical air.\n\nAccording to the INAH, the Palace is on the middle level of the city. It is a complex of rooms, kitchens, workshops, storerooms and a temazcal, organized around courtyards.\n\nA temazcal is a steam bath. It was used to cleanse the body and also in ceremonies. According to Andrews and Glascock, there were temazcales in the Acropolis and in the northern sector. That is why you will see one also in [the northern complex](xoc_20_agua_ritual_norte).\n\nMedina Romero mentions that this palace and the La Malinche complex form a residential complex south of the city.\n\nThink about that mix of spaces. Cooking, storing, working and resting were together, around one courtyard. It is rather a complex where people lived, cooked and worked.\n\nThis does not mean it was a palace like that of a European king. The word palace is a label from archaeologists. What the remains show are rooms, courtyards and work areas.\n\nTo understand where the rulers lived, you have to climb to [the Acropolis](xoc_17_acropolis). There stood, according to Hirth, the ruler’s palace and the city’s administrative center.\n\nFor now, take in the courtyards with your eyes and count how many rooms open onto each one."
+    },
+    "retos_observacion": {
+      "hash": "d28d7df187d93d6c",
+      "texto": [
+        "Count the courtyards you can see",
+        "Look for the spaces that could have been kitchens or storerooms",
+        "Imagine who worked and who slept in each room"
+      ]
+    },
+    "especificaciones": {
+      "hash": "53915e385e1adb62",
+      "texto": {
+        "Location": "middle level of the city",
+        "Spaces": "rooms, kitchens, workshops, storerooms and temazcal, around courtyards",
+        "Residential complex": "with La Malinche, south of the city, according to Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "8038cb5a5306af43",
+      "texto": {
+        "pregunta": "Myth: The Palace was the ruler’s house.",
+        "respuesta": "Reality: It is the name archaeologists give to a complex of rooms, kitchens, workshops and storerooms. The ruler’s residence is associated with the Acropolis."
+      }
+    }
+  }
+}

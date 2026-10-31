@@ -1,0 +1,53 @@
+{
+  "id": "xoc_10_palacio",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1d592daab735a069",
+      "texto": "Pałac"
+    },
+    "frase_gancho": {
+      "hash": "c20a3309c0baa591",
+      "texto": "Pokoje, kuchnie, warsztaty i magazyny wokół dziedzińców."
+    },
+    "puente_narrativo": {
+      "hash": "da470518487f8f15",
+      "texto": "Podążaj swoją trasą: teraz miasto staje się wyższe i bardziej zamknięte."
+    },
+    "guion_corto": {
+      "hash": "f8ef89c8ed345c5f",
+      "texto": "Pałac to nie tylko luksus. Według INAH ten zespół na poziomie pośrednim obejmuje pokoje, kuchnie, warsztaty, magazyny i temazcal, wszystko wokół dziedzińców. Temazcal to łaźnia parowa dla ciała i do ceremonii. Medina Romero dodaje, że ten pałac i zespół La Malinche tworzą kompleks mieszkalny na południu miasta. Zwróć uwagę na to połączenie: gotowanie, przechowywanie, praca i odpoczynek dzieliły tę samą przestrzeń. Słowo pałac to etykieta archeologów, a nie opis luksusu. Aby zobaczyć, gdzie mieszkał władca, według Hirtha, będziesz musiał wejść na Akropol. Tutaj patrz na dziedzińce i pomyśl, ilu ludzi mogło poruszać się między nimi w zwykły dzień."
+    },
+    "guion_largo": {
+      "hash": "12838f31561d38ec",
+      "texto": "Pałac nie zawsze jest miejscem luksusu. W Xochicalco ten, który INAH nazywa Pałacem, ma bardziej praktyczny charakter.\n\nWedług INAH Pałac znajduje się na pośrednim poziomie miasta. To zespół pokoi, kuchni, warsztatów, magazynów i temazcal, zorganizowany wokół dziedzińców.\n\nTemazcal to łaźnia parowa. Służyła do oczyszczania ciała, a także w ceremoniach. Według Andrewsa i Glascocka temazcal znajdowały się na Akropolu i w sektorze północnym. Dlatego zobaczysz jedno także w [zespole północnym](xoc_20_agua_ritual_norte).\n\nMedina Romero wspomina, że ten pałac i zespół La Malinche tworzą kompleks mieszkalny na południu miasta.\n\nPomyśl o tym połączeniu przestrzeni. Gotowanie, przechowywanie, praca i odpoczynek odbywały się razem, wokół jednego dziedzińca. To raczej zespół, w którym się mieszkało, gotowało i pracowało.\n\nNie znaczy to, że był pałacem jak pałac europejskiego króla. Słowo pałac to etykieta archeologów. To, co pokazują pozostałości, to pokoje, dziedzińce i strefy pracy.\n\nAby zrozumieć, gdzie mieszkali władcy, trzeba wejść na [Akropol](xoc_17_acropolis). Tam stał, według Hirtha, pałac władcy i centrum administracyjne miasta.\n\nNa razie obejdź dziedzińce wzrokiem i policz, ile pokoi otwiera się na każdy z nich."
+    },
+    "retos_observacion": {
+      "hash": "d28d7df187d93d6c",
+      "texto": [
+        "Policz dziedzińce, które możesz dostrzec",
+        "Poszukaj przestrzeni, które mogły być kuchniami lub magazynami",
+        "Wyobraź sobie, kto pracował, a kto spał w każdym pokoju"
+      ]
+    },
+    "especificaciones": {
+      "hash": "53915e385e1adb62",
+      "texto": {
+        "Lokalizacja": "pośredni poziom miasta",
+        "Przestrzenie": "pokoje, kuchnie, warsztaty, magazyny i temazcal, wokół dziedzińców",
+        "Kompleks mieszkalny": "z La Malinche, na południu miasta, według Mediny Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "8038cb5a5306af43",
+      "texto": {
+        "pregunta": "Mit: Pałac był domem władcy.",
+        "respuesta": "Rzeczywistość: To nazwa, jaką archeolodzy nadają zespołowi pokoi, kuchni, warsztatów i magazynów. Rezydencja władcy wiąże się z Akropolem."
+      }
+    }
+  }
+}

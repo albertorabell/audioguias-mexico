@@ -1,0 +1,53 @@
+{
+  "id": "xoc_10_palacio",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1d592daab735a069",
+      "texto": "Le Palais"
+    },
+    "frase_gancho": {
+      "hash": "c20a3309c0baa591",
+      "texto": "Des pièces, des cuisines, des ateliers et des entrepôts autour de cours."
+    },
+    "puente_narrativo": {
+      "hash": "da470518487f8f15",
+      "texto": "Suivez votre itinéraire : maintenant, la ville devient plus haute et plus fermée."
+    },
+    "guion_corto": {
+      "hash": "f8ef89c8ed345c5f",
+      "texto": "Un palais n’est pas seulement du luxe. Selon l’INAH, cet ensemble du niveau intermédiaire réunit des pièces, des cuisines, des ateliers, des entrepôts et un temazcal, le tout autour de cours. Un temazcal est un bain de vapeur pour le corps et pour les cérémonies. Medina Romero ajoute que ce palais et l’ensemble de La Malinche forment un complexe résidentiel au sud de la ville. Remarquez le mélange : cuisiner, stocker, travailler et se reposer partageaient le même espace. Le mot palais est une étiquette des archéologues, pas une description de luxe. Pour voir où vivait le dirigeant, selon Hirth, il vous faudra monter jusqu’à l’Acropole. Ici, regardez les cours et pensez au nombre de personnes qui pouvaient circuler entre elles un jour ordinaire."
+    },
+    "guion_largo": {
+      "hash": "12838f31561d38ec",
+      "texto": "Un palais n’est pas toujours un lieu de luxe. À Xochicalco, celui que l’INAH appelle le Palais a un air plus pratique.\n\nSelon l’INAH, le Palais se trouve au niveau intermédiaire de la ville. C’est un ensemble de pièces, de cuisines, d’ateliers, d’entrepôts et d’un temazcal, organisé autour de cours.\n\nUn temazcal est un bain de vapeur. On l’utilisait pour nettoyer le corps et aussi dans les cérémonies. Selon Andrews et Glascock, il y eut des temazcales dans l’Acropole et dans le secteur nord. C’est pourquoi vous en verrez aussi un dans [l’ensemble nord](xoc_20_agua_ritual_norte).\n\nMedina Romero mentionne que ce palais et l’ensemble de La Malinche forment un complexe résidentiel au sud de la ville.\n\nPensez à ce mélange d’espaces. Cuisiner, stocker, travailler et se reposer se faisaient ensemble, autour d’une même cour. C’est plutôt un ensemble où l’on vivait, cuisinait et travaillait.\n\nCela ne veut pas dire que c’était un palais comme celui d’un roi européen. Le mot palais est une étiquette des archéologues. Ce que montrent les vestiges, ce sont des pièces, des cours et des zones de travail.\n\nPour comprendre où vivaient les dirigeants, il faut monter à [l’Acropole](xoc_17_acropolis). C’est là que se trouvaient, selon Hirth, le palais du dirigeant et le centre administratif de la ville.\n\nPour l’instant, parcourez les cours du regard et cherchez combien de pièces s’ouvrent sur chacune."
+    },
+    "retos_observacion": {
+      "hash": "d28d7df187d93d6c",
+      "texto": [
+        "Comptez les cours que vous arrivez à voir",
+        "Cherchez les espaces qui ont pu être des cuisines ou des entrepôts",
+        "Imaginez qui travaillait et qui dormait dans chaque pièce"
+      ]
+    },
+    "especificaciones": {
+      "hash": "53915e385e1adb62",
+      "texto": {
+        "Emplacement": "niveau intermédiaire de la ville",
+        "Espaces": "pièces, cuisines, ateliers, entrepôts et temazcal, autour de cours",
+        "Complexe résidentiel": "avec La Malinche, au sud de la ville, selon Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "8038cb5a5306af43",
+      "texto": {
+        "pregunta": "Mythe : Le Palais était la maison du dirigeant.",
+        "respuesta": "Réalité : C’est le nom que les archéologues donnent à un ensemble de pièces, de cuisines, d’ateliers et d’entrepôts. La résidence du dirigeant est associée à l’Acropole."
+      }
+    }
+  }
+}

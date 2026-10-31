@@ -1,0 +1,54 @@
+{
+  "id": "xoc_12_plaza_principal_accesos",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "590916867dd76c70",
+      "texto": "La Place principale"
+    },
+    "frase_gancho": {
+      "hash": "787d3d0fabd17aa4",
+      "texto": "La partie la mieux protégée de la ville, où se concentrait le pouvoir."
+    },
+    "puente_narrativo": {
+      "hash": "0b62f0a1180a75e2",
+      "texto": "Poursuivez votre itinéraire : ce qui suit se trouve sur cette même place ou tout près."
+    },
+    "guion_corto": {
+      "hash": "f6ac845f5a845dff",
+      "texto": "Vous êtes arrivé à la partie qu’ils ont le plus protégée. Selon l’INAH, la Place principale est sur un monticule artificiel et l’on y entre par deux portiques défendus. Le guide la décrit comme la zone la mieux conservée et la plus difficile d’accès de Xochicalco. Ici se trouvent le Temple des Serpents à plumes, une Pyramide jumelle et des structures administratives. Il y a aussi le Temple des Stèles, qui gardait trois stèles aujourd’hui au Musée national d'anthropologie. À l’ouest se trouve l’Acropole, où vivait le dirigeant. Tout indique que le pouvoir se concentrait ici, et que ce noyau cérémoniel brûlerait à la fin de la ville. Regardez autour de vous et repérez l’édifice aux serpents sur ses murs."
+    },
+    "guion_largo": {
+      "hash": "357c95846ca66cd5",
+      "texto": "Vous êtes arrivé à la partie qu’ils ont le plus protégée.\n\nImaginez le parcours d’un visiteur de l’époque. Il a passé des accès défendus, il a monté des terrasses et laissé derrière lui le marché et les ateliers. Maintenant, il entre par l’un des deux portiques défendus qui, selon l’INAH, donnent accès à cette place. Elle est sur un monticule artificiel : la hauteur aussi est un message.\n\nLe guide de l’INAH décrit la Place principale comme la zone la mieux conservée et la plus difficile d’accès de Xochicalco. Plusieurs édifices s’y rassemblent. Le plus connu est le Temple des Serpents à plumes. Il y a aussi une Pyramide jumelle et des structures administratives. Dans la Pyramide jumelle, on a récupéré environ quatre cents pierres portant des restes de peinture murale, selon une étude de González Crespo et son équipe.\n\nIl y a aussi le Temple des Stèles. Selon Medina Romero, il gardait trois stèles qui se trouvent aujourd’hui au Musée national d'anthropologie, à Mexico. César Sáenz les fouilla en mille neuf cent soixante et un. Elles étaient fragmentées, et Sáenz conclut que les Xochicalcas eux-mêmes les détruisirent volontairement avant d’abandonner la ville. Selon Andrews et Glascock, dans ce centre du pouvoir vivaient environ mille personnes : des prêtres, l’élite du palais, des bureaucrates et des serviteurs. Une stèle est une pierre haute portant des reliefs. Hirth raconte que chacune nomme un dirigeant : Sept Œil de reptile, Sept Pluie et Quatre Mouvement. Ce sont les premiers noms de rois écrits dans le centre du Mexique et les premiers longs textes du Haut Plateau. Des empreintes de pieds gravées indiquent dans quel ordre les lire. Une autre source les décrit avec un masque de jaguar et de serpent, des bandes célestes et une image de Tláloc.\n\nÀ l’ouest se trouve l’Acropole. Selon Hirth, c’est là que se trouvaient le palais du dirigeant et le centre administratif de la ville. Hirth décrit aussi une place cérémonielle à l’est de l’Acropole.\n\nL’observatoire, une grotte sous les plateformes de cette zone, a sa propre étape. Aujourd’hui, on ne peut pas y entrer.\n\nTout indique que le pouvoir se concentrait ici. Et aussi, selon Webb et Hirth, c’est le noyau cérémoniel qui brûlerait à la fin de la ville. Gardez cette idée : nous y reviendrons plus loin.\n\nUne source indique que l’accès à la place peut être restreint. Confirmez en arrivant quelles parties vous pouvez parcourir. Avant de continuer, prenez un moment et regardez autour de vous, la nuque levée et sans hâte."
+    },
+    "retos_observacion": {
+      "hash": "f9522d040428af12",
+      "texto": [
+        "Repérez l’édifice aux serpents sur ses murs",
+        "Cherchez l’Acropole, à l’ouest",
+        "Remarquez les portiques par où l’on entre"
+      ]
+    },
+    "especificaciones": {
+      "hash": "300b98ed915506ac",
+      "texto": {
+        "Accès": "deux portiques défendus",
+        "État": "la partie la mieux conservée de la ville",
+        "Édifices": "Temple des Serpents à plumes, Pyramide jumelle, Temple des Stèles, structures administratives et Acropole",
+        "Stèles du temple": "trois, aujourd’hui au Musée national d'anthropologie"
+      }
+    },
+    "faq_mito": {
+      "hash": "08703b1657dfc0c2",
+      "texto": {
+        "pregunta": "Mythe : Les stèles sont toujours dans le Temple des Stèles.",
+        "respuesta": "Réalité : Les trois stèles du temple se trouvent aujourd’hui au Musée national d'anthropologie."
+      }
+    }
+  }
+}

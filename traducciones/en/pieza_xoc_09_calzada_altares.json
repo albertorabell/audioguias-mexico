@@ -1,0 +1,54 @@
+{
+  "id": "xoc_09_calzada_altares",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b712a1fadee7fa9d",
+      "texto": "The Causeway of the Twenty-One Altars"
+    },
+    "frase_gancho": {
+      "hash": "817befa50b031c72",
+      "texto": "A row of altars that looks like a calendar laid on the ground."
+    },
+    "puente_narrativo": {
+      "hash": "716df23a938eb74c",
+      "texto": "Continue your route: what follows shows how people lived and worked in the city."
+    },
+    "guion_corto": {
+      "hash": "8831acdbca4cc916",
+      "texto": "A causeway is a wide, raised road. This one has twenty-one altars along its sides. According to the INAH, they represent the months of the ceremonial year and, in one case, the days. México Desconocido describes twenty round altars and one square one, and suggests they served to count the two-hundred-sixty-day calendar. Count them as you advance. Both accounts agree that the altars had to do with the calendar. Walking among them was walking that calendar step by step. It is a proposal by specialists, not a closed fact, and that is why it is worth seeing them with your own eyes. Here, time was not only looked at. It was walked."
+    },
+    "guion_largo": {
+      "hash": "2045e493410cc203",
+      "texto": "Count with your eyes. Along this causeway there is a row of altars, twenty-one in all, according to the INAH.\n\nA causeway is a wide, raised road, made for walking in order. This one is part of the middle level of the city, and the altars line up along its sides.\n\nThe INAH explains that they represent the months of the ceremonial year and that, in one case, they represent days. That is, each altar occupies a place within a calendar.\n\nMéxico Desconocido gives more detail. It speaks of twenty round altars and one square one, in the sector it calls La Malinche, and says they perhaps served to calculate the two-hundred-sixty-day calendar. That ritual calendar was used throughout Mesoamerica.\n\nHow they were used is proposed by specialists, but it is not a closed fact. What we do know is that their number and their arrangement in a row invite thoughts of counts and cycles.\n\nPerhaps people walked the causeway in a ceremony, stopping at each altar. It is a possibility, not a proven fact.\n\nIf you walk among them, do it slowly. Each step brings you closer to the next altar and reminds you that in Xochicalco time had a shape and a place, and could be stepped on.\n\nThe city did not only measure time by looking at the sky. It also measured it with stones set in the ground."
+    },
+    "retos_observacion": {
+      "hash": "18b700af1a630f36",
+      "texto": [
+        "Count the altars as you walk",
+        "Walk slowly among them",
+        "Imagine what day or month each one would represent"
+      ]
+    },
+    "especificaciones": {
+      "hash": "577bbc8132554847",
+      "texto": {
+        "Number": "twenty-one altars, according to the INAH",
+        "Shapes": "twenty round and one square, according to México Desconocido",
+        "Possible use": "counting the two-hundred-sixty-day ritual calendar",
+        "Location": "middle level of the city"
+      }
+    },
+    "faq_mito": {
+      "hash": "311167ca88b1c159",
+      "texto": {
+        "pregunta": "Myth: It is known exactly how the altars were used.",
+        "respuesta": "Reality: No. Specialists propose that they represent months and days of the calendar, but there is no text that explains their use."
+      }
+    }
+  }
+}

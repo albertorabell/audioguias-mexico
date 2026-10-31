@@ -1,0 +1,54 @@
+{
+  "id": "xoc_12_plaza_principal_accesos",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "590916867dd76c70",
+      "texto": "Plac Główny"
+    },
+    "frase_gancho": {
+      "hash": "787d3d0fabd17aa4",
+      "texto": "Najlepiej chroniona część miasta, w której skupiała się władza."
+    },
+    "puente_narrativo": {
+      "hash": "0b62f0a1180a75e2",
+      "texto": "Kontynuuj swoją trasę: to, co następuje, znajduje się na tym samym placu lub bardzo blisko niego."
+    },
+    "guion_corto": {
+      "hash": "f6ac845f5a845dff",
+      "texto": "Dotarłeś do części, którą chroniono najbardziej. Według INAH Plac Główny leży na sztucznym kopcu, a wchodzi się na niego przez dwa bronione portyki. Przewodnik opisuje go jako najlepiej zachowaną i najtrudniej dostępną strefę Xochicalco. Znajdują się tu Świątynia Pierzastych Węży, Piramida Bliźniacza i budowle administracyjne. Także Świątynia Stel, która przechowywała trzy stele, dziś w Narodowym Muzeum Antropologii. Na zachodzie leży Akropol, gdzie mieszkał władca. Wszystko wskazuje, że tu skupiała się władza i że to ceremonialne jądro spłonie pod koniec miasta. Rozejrzyj się i znajdź budowlę z wężami na murach."
+    },
+    "guion_largo": {
+      "hash": "357c95846ca66cd5",
+      "texto": "Dotarłeś do części, którą chroniono najbardziej.\n\nWyobraź sobie drogę gościa z tamtych czasów. Minął bronione wejścia, wspiął się po tarasach i zostawił za sobą targ i warsztaty. Teraz wchodzi przez jeden z dwóch bronionych portyków, które według INAH dają dostęp do tego placu. Leży na sztucznym kopcu: wysokość też jest przesłaniem.\n\nPrzewodnik INAH opisuje Plac Główny jako najlepiej zachowaną i najtrudniej dostępną strefę Xochicalco. Skupia się tu kilka budowli. Najbardziej znana to Świątynia Pierzastych Węży. Jest też Piramida Bliźniacza i budowle administracyjne. W Piramidzie Bliźniaczej odzyskano około czterystu kamieni ze śladami malowideł ściennych, według badania González Crespo i jego zespołu.\n\nJest też Świątynia Stel. Według Mediny Romero przechowywała trzy stele, które dziś znajdują się w Narodowym Muzeum Antropologii w Mieście Meksyk. César Sáenz wykopał je w tysiąc dziewięćset sześćdziesiątym pierwszym roku. Były pofragmentowane, a Sáenz doszedł do wniosku, że mieszkańcy Xochicalco sami celowo je zniszczyli przed opuszczeniem miasta. Według Andrewsa i Glascocka w tym ośrodku władzy mieszkało około tysiąca osób: kapłani, elita pałacowa, urzędnicy i słudzy. Stela to wysoki kamień z reliefami. Hirth opowiada, że każda wymienia władcę: Siedem Oko Gada, Siedem Deszcz i Cztery Ruch. To pierwsze imiona królów zapisane w środkowym Meksyku i pierwsze długie teksty Wyżyny Centralnej. Wyryte ślady stóp wskazują, w jakiej kolejności je czytać. Inne źródło opisuje je z maską jaguara i węża, pasami niebieskimi i wizerunkiem Tláloca.\n\nNa zachodzie leży Akropol. Według Hirtha stał tam pałac władcy i centrum administracyjne miasta. Hirth opisuje też plac ceremonialny na wschód od Akropolu.\n\nObserwatorium, jaskinia pod platformami tej strefy, ma własny przystanek. Dziś nie można do niego wejść.\n\nWszystko wskazuje, że tu skupiała się władza. A także, według Webba i Hirtha, że to ceremonialne jądro spłonie pod koniec miasta. Zapamiętaj tę myśl: wrócimy do niej później.\n\nJedno ze źródeł wskazuje, że dostęp do placu może być ograniczony. Sprawdź po przybyciu, które części możesz zwiedzać. Zanim ruszysz dalej, poświęć chwilę i rozejrzyj się, z głową uniesioną do góry i bez pośpiechu."
+    },
+    "retos_observacion": {
+      "hash": "f9522d040428af12",
+      "texto": [
+        "Znajdź budowlę z wężami na murach",
+        "Poszukaj Akropolu, na zachodzie",
+        "Zwróć uwagę na portyki, przez które się wchodzi"
+      ]
+    },
+    "especificaciones": {
+      "hash": "300b98ed915506ac",
+      "texto": {
+        "Dostęp": "dwa bronione portyki",
+        "Stan": "najlepiej zachowana część miasta",
+        "Budowle": "Świątynia Pierzastych Węży, Piramida Bliźniacza, Świątynia Stel, budowle administracyjne i Akropol",
+        "Stele świątyni": "trzy, dziś w Narodowym Muzeum Antropologii"
+      }
+    },
+    "faq_mito": {
+      "hash": "08703b1657dfc0c2",
+      "texto": {
+        "pregunta": "Mit: Stele wciąż są w Świątyni Stel.",
+        "respuesta": "Rzeczywistość: Trzy stele ze świątyni są dziś w Narodowym Muzeum Antropologii."
+      }
+    }
+  }
+}

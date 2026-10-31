@@ -1,0 +1,54 @@
+{
+  "id": "xoc_09_calzada_altares",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b712a1fadee7fa9d",
+      "texto": "La chaussée des vingt et un autels"
+    },
+    "frase_gancho": {
+      "hash": "817befa50b031c72",
+      "texto": "Une rangée d’autels qui ressemble à un calendrier posé sur le sol."
+    },
+    "puente_narrativo": {
+      "hash": "716df23a938eb74c",
+      "texto": "Poursuivez votre itinéraire : ce qui suit montre comment l’on vivait et travaillait dans la ville."
+    },
+    "guion_corto": {
+      "hash": "8831acdbca4cc916",
+      "texto": "Une chaussée est un chemin large et surélevé. Celle-ci a de chaque côté vingt et un autels. Selon l’INAH, ils représentent les mois de l’année cérémonielle et, dans un cas, les jours. México Desconocido décrit vingt autels ronds et un carré, et suggère qu’ils servaient à compter le calendrier de deux cent soixante jours. Comptez-les en avançant. Les deux récits s’accordent pour dire que les autels avaient un rapport avec le calendrier. Marcher entre eux, c’était parcourir ce calendrier pas à pas. C’est une proposition des spécialistes, pas un fait établi, et c’est pourquoi il vaut la peine de les voir de vos propres yeux. Ici, le temps ne se regardait pas seulement. Il se marchait."
+    },
+    "guion_largo": {
+      "hash": "2045e493410cc203",
+      "texto": "Comptez du regard. Le long de cette chaussée, il y a une rangée d’autels, vingt et un en tout, selon l’INAH.\n\nUne chaussée est un chemin large et surélevé, fait pour marcher avec ordre. Celle-ci fait partie du niveau intermédiaire de la ville, et les autels s’alignent de chaque côté.\n\nL’INAH explique qu’ils représentent les mois de l’année cérémonielle et que, dans un cas, ils représentent des jours. C’est-à-dire que chaque autel occupe une place au sein d’un calendrier.\n\nMéxico Desconocido donne plus de détails. Il parle de vingt autels ronds et d’un carré, dans le secteur qu’il appelle La Malinche, et dit qu’ils servaient peut-être à calculer le calendrier de deux cent soixante jours. Ce calendrier rituel était utilisé dans toute la Mésoamérique.\n\nLa façon dont ils étaient utilisés est une proposition des spécialistes, mais ce n’est pas un fait établi. Ce que nous savons, c’est que leur nombre et leur disposition en rang invitent à penser à des décomptes et à des cycles.\n\nPeut-être les gens parcouraient-ils la chaussée lors d’une cérémonie, en s’arrêtant à chaque autel. C’est une possibilité, pas un fait prouvé.\n\nSi vous marchez entre eux, faites-le lentement. Chaque pas vous rapproche de l’autel suivant et vous rappelle qu’à Xochicalco le temps avait une forme et un lieu, et qu’on pouvait le fouler.\n\nLa ville ne mesurait pas seulement le temps en regardant le ciel. Elle le mesurait aussi avec des pierres posées sur le sol."
+    },
+    "retos_observacion": {
+      "hash": "18b700af1a630f36",
+      "texto": [
+        "Comptez les autels en marchant",
+        "Marchez lentement entre eux",
+        "Imaginez quel jour ou quel mois chacun représenterait"
+      ]
+    },
+    "especificaciones": {
+      "hash": "577bbc8132554847",
+      "texto": {
+        "Nombre": "vingt et un autels, selon l’INAH",
+        "Formes": "vingt ronds et un carré, selon México Desconocido",
+        "Usage possible": "compter le calendrier rituel de deux cent soixante jours",
+        "Emplacement": "niveau intermédiaire de la ville"
+      }
+    },
+    "faq_mito": {
+      "hash": "311167ca88b1c159",
+      "texto": {
+        "pregunta": "Mythe : On sait exactement comment les autels étaient utilisés.",
+        "respuesta": "Réalité : Non. Les spécialistes proposent qu’ils représentent des mois et des jours du calendrier, mais aucun texte n’explique leur usage."
+      }
+    }
+  }
+}

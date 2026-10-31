@@ -1,0 +1,54 @@
+{
+  "id": "xoc_09_calzada_altares",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b712a1fadee7fa9d",
+      "texto": "Droga dwudziestu jeden ołtarzy"
+    },
+    "frase_gancho": {
+      "hash": "817befa50b031c72",
+      "texto": "Rząd ołtarzy, który wygląda jak kalendarz położony na ziemi."
+    },
+    "puente_narrativo": {
+      "hash": "716df23a938eb74c",
+      "texto": "Kontynuuj swoją trasę: to, co następuje, pokazuje, jak żyło się i pracowało w mieście."
+    },
+    "guion_corto": {
+      "hash": "8831acdbca4cc916",
+      "texto": "Droga wyniesiona to szeroka, podwyższona droga. Ta ma po bokach dwadzieścia jeden ołtarzy. Według INAH przedstawiają miesiące roku ceremonialnego, a w jednym przypadku dni. México Desconocido opisuje dwadzieścia ołtarzy okrągłych i jeden kwadratowy i sugeruje, że służyły do liczenia kalendarza dwustu sześćdziesięciu dni. Policz je, idąc naprzód. Obie relacje zgadzają się, że ołtarze miały związek z kalendarzem. Przechodzenie między nimi oznaczało przemierzanie tego kalendarza krok po kroku. To propozycja specjalistów, a nie ostateczny fakt, i dlatego warto zobaczyć je na własne oczy. Tutaj czasu nie tylko się patrzyło. Czas się przechodziło."
+    },
+    "guion_largo": {
+      "hash": "2045e493410cc203",
+      "texto": "Licz wzrokiem. Wzdłuż tej drogi znajduje się rząd ołtarzy, razem dwadzieścia jeden, według INAH.\n\nDroga wyniesiona to szeroka, podwyższona droga, zrobiona po to, by iść po niej w porządku. Ta należy do pośredniego poziomu miasta, a ołtarze ustawiają się po jej bokach.\n\nINAH wyjaśnia, że przedstawiają miesiące roku ceremonialnego, a w jednym przypadku dni. Czyli każdy ołtarz zajmuje miejsce w kalendarzu.\n\nMéxico Desconocido podaje więcej szczegółów. Mówi o dwudziestu ołtarzach okrągłych i jednym kwadratowym, w sektorze, który nazywa La Malinche, i twierdzi, że może służyły do obliczania kalendarza dwustu sześćdziesięciu dni. Ten kalendarz rytualny był używany w całej Mezoameryce.\n\nSposób ich użycia proponują specjaliści, ale to nie jest ostateczny fakt. Wiemy natomiast, że ich liczba i ułożenie w rząd skłaniają do myślenia o rachubach i cyklach.\n\nByć może ludzie przechodzili drogą podczas ceremonii, zatrzymując się przy każdym ołtarzu. To możliwość, a nie udowodniony fakt.\n\nJeśli idziesz między nimi, rób to powoli. Każdy krok zbliża cię do następnego ołtarza i przypomina, że w Xochicalco czas miał kształt i miejsce i można było na niego stąpać.\n\nMiasto nie mierzyło czasu tylko przez patrzenie w niebo. Mierzyło go też kamieniami położonymi na ziemi."
+    },
+    "retos_observacion": {
+      "hash": "18b700af1a630f36",
+      "texto": [
+        "Policz ołtarze, idąc",
+        "Idź powoli między nimi",
+        "Wyobraź sobie, jaki dzień lub miesiąc przedstawiałby każdy z nich"
+      ]
+    },
+    "especificaciones": {
+      "hash": "577bbc8132554847",
+      "texto": {
+        "Liczba": "dwadzieścia jeden ołtarzy, według INAH",
+        "Kształty": "dwadzieścia okrągłych i jeden kwadratowy, według México Desconocido",
+        "Możliwe użycie": "liczenie kalendarza rytualnego dwustu sześćdziesięciu dni",
+        "Lokalizacja": "pośredni poziom miasta"
+      }
+    },
+    "faq_mito": {
+      "hash": "311167ca88b1c159",
+      "texto": {
+        "pregunta": "Mit: Wiadomo dokładnie, jak używano ołtarzy.",
+        "respuesta": "Rzeczywistość: Nie. Specjaliści proponują, że przedstawiają miesiące i dni kalendarza, ale nie ma tekstu, który wyjaśniałby ich użycie."
+      }
+    }
+  }
+}
