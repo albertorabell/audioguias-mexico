@@ -1,0 +1,55 @@
+{
+  "id": "xoc_02_ciudad_en_cerros",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a85b947a2b8957cb",
+      "texto": "A City on the Hills"
+    },
+    "frase_gancho": {
+      "hash": "c993dbd43b575f5a",
+      "texto": "Terraces, walls and moats to support and defend an entire city."
+    },
+    "puente_narrativo": {
+      "hash": "6a44071928698bda",
+      "texto": "Follow your route: the entrance road tells you how passage into this city was controlled."
+    },
+    "guion_corto": {
+      "hash": "05b6b4758304001d",
+      "texto": "The city of Xochicalco does not sit on a single hill. Archaeologists speak of three modified hills joined with terraces, and of six lower ones around them where people also lived. To turn those slopes into a city, rock had to be cut, gaps filled and retaining walls raised. The open spaces were connected by stairs, terraces and ramps along a north-south axis. UNESCO distinguishes three levels: below, a residential zone surrounded by walls; in the middle, the market and the largest ball court; above, the temples around the Main Plaza. That order is no accident. Whoever climbed was passing from daily life to power and the sacred."
+    },
+    "guion_largo": {
+      "hash": "6a161554bee29906",
+      "texto": "Look at the city as a set of steps. Xochicalco was raised in a region of difficult access, on a series of natural hills, and that was part of its defense.\n\nAccording to the INAH, the city was founded in the second half of the seventh century on several hills. There was also occupation on six lower hills in the surroundings. Kenneth Hirth explains that the core was formed by three modified hills connected with terraces.\n\nTo achieve this, a great feat of engineering was carried out. A conservation study describes that the hill was remodeled by cutting and filling. The terraces and retaining walls created flat spaces for plazas and houses. Stairs, ramps and terraces join them along a main north-south axis.\n\nUNESCO divides the city into three levels. On the low level there was a residential zone, surrounded by walls with defended entrances. On the middle level were a market complex and the largest ball court. On the high level the temples are grouped around the Main Plaza.\n\nDefense was also written into the landscape. The director of the zone, Medina Romero, mentions a wall four meters high, with bastions and moats, on the south side. Other descriptions speak of ramps, moats, bastions and forts. A city like this was not designed for strolling. It was designed to resist.\n\nAn old fact: Antonio Alzate, who visited the site in seventeen seventy-seven, estimated the main hill at about one hundred seven meters high. It is a measurement from more than two centuries ago, but it shows how much the mass impressed him.\n\nMost of the houses on the slopes remain unexcavated. That means what you see is only part of the city. Beneath many terraces there may be more history.\n\nAs you walk, notice two things: the walls that hold up the ground and the way the stairs join one level to another. That is Xochicalco: a city built by hand, stone upon stone, on difficult hills."
+    },
+    "retos_observacion": {
+      "hash": "da6d404d59f6fd5d",
+      "texto": [
+        "Find a retaining wall and notice how it holds up the slope",
+        "Count how many levels you can make out from where you are",
+        "Think about who climbed and who stayed below"
+      ]
+    },
+    "especificaciones": {
+      "hash": "72702a2920097db4",
+      "texto": {
+        "Location": "on a series of natural hills",
+        "Core hills": "three modified, according to Hirth",
+        "Levels": "low, middle and high, according to UNESCO",
+        "South wall": "four meters high, with bastions and moats",
+        "Protected area": "707 ha"
+      }
+    },
+    "faq_mito": {
+      "hash": "8357c29445281361",
+      "texto": {
+        "pregunta": "Myth: Xochicalco was built on a single hill.",
+        "respuesta": "Reality: It was raised on several modified hills joined with terraces, and people also lived on lower hills around it."
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "xoc_04_caminata_hacia_estela",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc9339435def9ede",
+      "texto": "Walk: Toward the Stela Plaza"
+    },
+    "frase_gancho": {
+      "hash": "0b4389cf20a171db",
+      "texto": "A short stretch to listen to while you climb."
+    },
+    "puente_narrativo": {
+      "hash": "e1bc41dd1e4b1aa2",
+      "texto": "You have reached the Plaza of the Stela of the Two Glyphs."
+    },
+    "guion_corto": {
+      "hash": "5dbc30445fd16020",
+      "texto": "Follow the signs toward the Plaza of the Stela of the Two Glyphs. As you walk, look at the terraces and stone walls around you. Kenneth Hirth says that people lived on large terraces and platforms on the slopes, and that the houses spread toward the valley floor. The paved causeways connected the sectors of the city. They were not decoration: they carried people, goods and news from one neighborhood to another. If the path climbs, think that whoever lived here climbed it every day. When you reach a wide plaza, with a stela at the center, you are where you needed to be."
+    },
+    "guion_largo": {
+      "hash": "52fb60cfc7ea80ec",
+      "texto": "This is a walk. There is no need to stop. Follow the signs toward the Plaza of the Stela of the Two Glyphs and let the audio keep you company.\n\nAs you move forward, look at the terraces and stone walls around you. Kenneth Hirth explains that people lived on large terraces and platforms on the slopes, and that the houses spread toward the valley floor. What you see as landscape was a neighborhood.\n\nThe paved causeways connected the sectors of the city. They were not an ornament. They carried people, goods and news from one neighborhood to another.\n\nIf the path climbs, think that whoever lived here climbed it every day, with a load or without one. In a city of hills, walking was part of the work.\n\nWhen you reach a wide plaza, with a stela at the center, you are already at the next audio."
+    },
+    "retos_observacion": {
+      "hash": "91f8e944fdb03547",
+      "texto": [
+        "Notice the walls that hold up the terraces",
+        "Look at how many directions the path has",
+        "Walk slowly and look at the landscape"
+      ]
+    },
+    "especificaciones": {
+      "hash": "da789b4af3f8c1ed",
+      "texto": {
+        "Type": "walk, no fixed stop",
+        "Theme": "terraces, causeways and neighborhoods of the city"
+      }
+    }
+  }
+}

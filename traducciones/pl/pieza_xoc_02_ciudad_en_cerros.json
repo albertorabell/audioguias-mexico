@@ -1,0 +1,55 @@
+{
+  "id": "xoc_02_ciudad_en_cerros",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a85b947a2b8957cb",
+      "texto": "Miasto na wzgórzach"
+    },
+    "frase_gancho": {
+      "hash": "c993dbd43b575f5a",
+      "texto": "Tarasy, mury i fosy, by utrzymać i obronić całe miasto."
+    },
+    "puente_narrativo": {
+      "hash": "6a44071928698bda",
+      "texto": "Podążaj swoją trasą: droga wejściowa mówi ci, jak kontrolowano wstęp do tego miasta."
+    },
+    "guion_corto": {
+      "hash": "05b6b4758304001d",
+      "texto": "Miasto Xochicalco nie leży na jednym wzgórzu. Archeolodzy mówią o trzech przekształconych wzgórzach połączonych tarasami i o sześciu niższych wokół, na których również mieszkali ludzie. Aby zamienić te zbocza w miasto, trzeba było przecinać skałę, wypełniać zagłębienia i wznosić mury oporowe. Otwarte przestrzenie łączyły schody, tarasy i rampy wzdłuż osi północ-południe. UNESCO wyróżnia trzy poziomy: na dole strefa mieszkalna otoczona murami; pośrodku targ i największe boisko do gry w piłkę; na górze świątynie wokół Placu Głównego. Ten porządek nie jest przypadkowy. Kto wchodził wyżej, przechodził od codziennego życia do władzy i sacrum."
+    },
+    "guion_largo": {
+      "hash": "6a161554bee29906",
+      "texto": "Patrz na miasto jak na zespół stopni. Xochicalco wzniesiono w regionie trudnym do dotarcia, na serii naturalnych wzgórz, i to była część jego obrony.\n\nWedług INAH miasto założono w drugiej połowie siódmego wieku na kilku wzgórzach. Zajęto też sześć niższych wzgórz w okolicy. Kenneth Hirth wyjaśnia, że jądro tworzyły trzy przekształcone wzgórza połączone tarasami.\n\nAby to osiągnąć, wykonano wielkie dzieło inżynierii. Badanie konserwatorskie opisuje, że wzgórze przekształcono przez wycinanie i wypełnianie. Tarasy i mury oporowe stworzyły płaskie przestrzenie na place i domy. Schody, rampy i tarasy łączą je wzdłuż głównej osi północ-południe.\n\nUNESCO dzieli miasto na trzy poziomy. Na niskim poziomie była strefa mieszkalna, otoczona murami z bronionymi wejściami. Na poziomie pośrednim znajdowały się zespół targowy i największe boisko do gry w piłkę. Na poziomie wysokim świątynie grupują się wokół Placu Głównego.\n\nObrona była też zapisana w krajobrazie. Dyrektor strefy, Medina Romero, wspomina o murze o wysokości czterech metrów, z bastionami i fosami, po stronie południowej. Inne opisy mówią o rampach, fosach, bastionach i fortach. Takiego miasta nie projektowano do spacerów. Projektowano je do przetrwania.\n\nStara informacja: Antonio Alzate, który odwiedził stanowisko w tysiąc siedemset siedemdziesiątym siódmym roku, ocenił główne wzgórze na około sto siedem metrów wysokości. To pomiar sprzed ponad dwóch wieków, ale pokazuje, jak bardzo masa go zaimponowała.\n\nWiększość domów na zboczach wciąż nie jest wykopana. To znaczy, że to, co widzisz, to tylko część miasta. Pod wieloma tarasami może kryć się więcej historii.\n\nIdąc, zwróć uwagę na dwie rzeczy: mury, które podtrzymują grunt, i sposób, w jaki schody łączą jeden poziom z drugim. Oto Xochicalco: miasto zbudowane ręką, kamień na kamieniu, na trudnych wzgórzach."
+    },
+    "retos_observacion": {
+      "hash": "da6d404d59f6fd5d",
+      "texto": [
+        "Znajdź mur oporowy i zwróć uwagę, jak podtrzymuje zbocze",
+        "Policz, ile poziomów dostrzegasz z miejsca, w którym stoisz",
+        "Pomyśl o tym, kto wchodził wyżej, a kto zostawał na dole"
+      ]
+    },
+    "especificaciones": {
+      "hash": "72702a2920097db4",
+      "texto": {
+        "Lokalizacja": "na serii naturalnych wzgórz",
+        "Wzgórza jądra": "trzy przekształcone, według Hirtha",
+        "Poziomy": "niski, pośredni i wysoki, według UNESCO",
+        "Mur południowy": "cztery metry wysokości, z bastionami i fosami",
+        "Obszar chroniony": "707 ha"
+      }
+    },
+    "faq_mito": {
+      "hash": "8357c29445281361",
+      "texto": {
+        "pregunta": "Mit: Xochicalco zbudowano na jednym wzgórzu.",
+        "respuesta": "Rzeczywistość: Wzniesiono je na kilku przekształconych wzgórzach połączonych tarasami, a ludzie mieszkali też na niższych wzgórzach wokół."
+      }
+    }
+  }
+}

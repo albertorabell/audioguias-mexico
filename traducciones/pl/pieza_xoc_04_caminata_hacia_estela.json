@@ -1,0 +1,45 @@
+{
+  "id": "xoc_04_caminata_hacia_estela",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc9339435def9ede",
+      "texto": "Spacer: ku Placowi Steli"
+    },
+    "frase_gancho": {
+      "hash": "0b4389cf20a171db",
+      "texto": "Krótki odcinek, którego można słuchać podczas wspinaczki."
+    },
+    "puente_narrativo": {
+      "hash": "e1bc41dd1e4b1aa2",
+      "texto": "Dotarłeś do Placu Steli Dwóch Glifów."
+    },
+    "guion_corto": {
+      "hash": "5dbc30445fd16020",
+      "texto": "Podążaj za oznaczeniami ku Placowi Steli Dwóch Glifów. Idąc, patrz na tarasy i kamienne mury wokół ciebie. Kenneth Hirth mówi, że ludzie mieszkali na wielkich tarasach i platformach na zboczach, a domy rozciągały się ku dnu doliny. Brukowane drogi łączyły sektory miasta. Nie były ozdobą: niosły ludzi, towary i wieści z jednej dzielnicy do drugiej. Jeśli droga się wznosi, pomyśl, że kto tu mieszkał, wchodził nią codziennie. Gdy dotrzesz do szerokiego placu, ze stelą pośrodku, będziesz tam, gdzie trzeba."
+    },
+    "guion_largo": {
+      "hash": "52fb60cfc7ea80ec",
+      "texto": "To jest spacer. Nie trzeba się zatrzymywać. Podążaj za oznaczeniami ku Placowi Steli Dwóch Glifów i pozwól, by audio ci towarzyszyło.\n\nIdąc naprzód, patrz na tarasy i kamienne mury wokół ciebie. Kenneth Hirth wyjaśnia, że ludzie mieszkali na wielkich tarasach i platformach na zboczach, a domy rozciągały się ku dnu doliny. To, co widzisz jako krajobraz, było dzielnicą.\n\nBrukowane drogi łączyły sektory miasta. Nie były ozdobą. Niosły ludzi, towary i wieści z jednej dzielnicy do drugiej.\n\nJeśli droga się wznosi, pomyśl, że kto tu mieszkał, wchodził nią codziennie, z ładunkiem lub bez. W mieście na wzgórzach chodzenie było częścią pracy.\n\nGdy dotrzesz do szerokiego placu, ze stelą pośrodku, będziesz już przy następnym nagraniu."
+    },
+    "retos_observacion": {
+      "hash": "91f8e944fdb03547",
+      "texto": [
+        "Zwróć uwagę na mury, które podtrzymują tarasy",
+        "Zobacz, ile kierunków ma droga",
+        "Idź powoli i patrz na krajobraz"
+      ]
+    },
+    "especificaciones": {
+      "hash": "da789b4af3f8c1ed",
+      "texto": {
+        "Rodzaj": "spacer, bez stałego przystanku",
+        "Temat": "tarasy, drogi i dzielnice miasta"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "xoc_01_que_fue_xochicalco",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e42f2bf317f24449",
+      "texto": "What Xochicalco Was"
+    },
+    "frase_gancho": {
+      "hash": "60ec8a071d07f611",
+      "texto": "A city built on high ground, in a world that had been left without a center."
+    },
+    "puente_narrativo": {
+      "hash": "3acce04c947a1bf5",
+      "texto": "Begin your tour: what follows explains why this city sits on a hill."
+    },
+    "guion_corto": {
+      "hash": "8f35262005a2e036",
+      "texto": "Before you take a step, imagine the world around this hill. Teotihuacán, the great city of central Mexico, had fallen. So had Palenque and Tikal, in the Maya world. According to UNESCO, the societies that came afterward became more militaristic and built their cities on high ground that was easy to defend. Xochicalco is one of the best surviving examples, made of terraces, retaining walls and ramps. Kenneth Hirth estimates that it came to gather between ten thousand and fifteen thousand people. Its name is usually translated as place of the house of flowers. A city with a gentle name, built to defend itself. That tension will stay with you throughout the tour."
+    },
+    "guion_largo": {
+      "hash": "b6946b87c9591a95",
+      "texto": "Before you take a step, imagine the world around this hill. Teotihuacán, the great city of central Mexico, had fallen. Palenque and Tikal, in the Maya world, had fallen too.\n\nUNESCO explains what came after. The societies of that time became more militaristic, and their cities were usually built on high ground that was easy to defend. Xochicalco is a very well-preserved example of that kind of city, made of terraces, retaining walls and ramps.\n\nAccording to the INAH, it was founded in the second half of the seventh century. It occupied six low hills and transformed them with terraces and walls. Kenneth Hirth maintains that the city grew very fast and relocated between ten thousand and fifteen thousand people.\n\nIt was a city of mixtures. Its reliefs combine designs from central Mexico with figures in the Maya style. One source describes that time as an era of cultural eclecticism, when cultures crossed paths and influenced one another.\n\nIt was also a city of rivalries. Medina Romero, the director of the site, says that Xochicalco competed with other cities of its time, such as Teotenango, Cacaxtla, El Tajín and La Quemada. It was founded around the year six hundred seventy and abandoned around ten sixty-five, according to Alvarado León.\n\nOn this tour you will climb through three levels. The low one, with defended entrances. The middle one, where the market, the workshops and the houses were. And the high one, where power was concentrated. Along the way you will see how time was measured with the sky, what the city’s writing said and how it all ended, suddenly, amid fires.\n\nXochicalco is usually translated as place of the house of flowers. A city with such a gentle name, built to defend itself. That tension will stay with you from beginning to end."
+    },
+    "retos_observacion": {
+      "hash": "ba3ffad921953bba",
+      "texto": [
+        "Find, from where you are, the hills the city occupied",
+        "Notice how the land rises in terraces",
+        "Imagine what it would be like to arrive here on foot twelve hundred years ago"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0282a8b4ec5c6215",
+      "texto": {
+        "Period": "Epiclassic, between the years six hundred fifty and nine hundred, according to UNESCO",
+        "Founding": "second half of the seventh century, according to the INAH",
+        "Population": "between ten thousand and fifteen thousand people, according to Hirth",
+        "Levels of the city": "three",
+        "Protected area": "about seven hundred seven hectares"
+      }
+    },
+    "faq_mito": {
+      "hash": "f99e14b8583c117c",
+      "texto": {
+        "pregunta": "Myth: Xochicalco is an isolated pyramid.",
+        "respuesta": "Reality: It is a complete city, of terraces, plazas, workshops and houses, that occupied six low hills."
+      }
+    }
+  }
+}

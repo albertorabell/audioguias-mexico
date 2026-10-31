@@ -1,0 +1,45 @@
+{
+  "id": "xoc_04_caminata_hacia_estela",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc9339435def9ede",
+      "texto": "Marche : vers la place de la Stèle"
+    },
+    "frase_gancho": {
+      "hash": "0b4389cf20a171db",
+      "texto": "Un court trajet à écouter pendant que vous montez."
+    },
+    "puente_narrativo": {
+      "hash": "e1bc41dd1e4b1aa2",
+      "texto": "Vous êtes arrivé à la place de la Stèle des Deux Glyphes."
+    },
+    "guion_corto": {
+      "hash": "5dbc30445fd16020",
+      "texto": "Suivez les panneaux vers la place de la Stèle des Deux Glyphes. En marchant, regardez les terrasses et les murs de pierre qui vous entourent. Kenneth Hirth raconte que les gens vivaient sur de grandes terrasses et plateformes des pentes, et que les maisons s’étendaient vers le fond de la vallée. Les chaussées pavées reliaient les secteurs de la ville. Ce n’étaient pas des ornements : elles portaient des gens, des marchandises et des nouvelles d’un quartier à l’autre. Si le chemin monte, songez que celui qui vivait ici le montait chaque jour. Quand vous arriverez sur une vaste place, avec une stèle au centre, vous serez là où il fallait."
+    },
+    "guion_largo": {
+      "hash": "52fb60cfc7ea80ec",
+      "texto": "Ceci est une marche. Inutile de s’arrêter. Suivez les panneaux vers la place de la Stèle des Deux Glyphes et laissez l’audio vous accompagner.\n\nEn avançant, regardez les terrasses et les murs de pierre qui vous entourent. Kenneth Hirth explique que les gens vivaient sur de grandes terrasses et plateformes des pentes, et que les maisons s’étendaient vers le fond de la vallée. Ce que vous voyez comme paysage fut un quartier.\n\nLes chaussées pavées reliaient les secteurs de la ville. Elles n’étaient pas un ornement. Elles portaient des gens, des marchandises et des nouvelles d’un quartier à l’autre.\n\nSi le chemin monte, songez que celui qui vivait ici le montait chaque jour, chargé ou non. Dans une ville de collines, marcher faisait partie du travail.\n\nQuand vous arriverez sur une vaste place, avec une stèle au centre, vous serez déjà au prochain audio."
+    },
+    "retos_observacion": {
+      "hash": "91f8e944fdb03547",
+      "texto": [
+        "Remarquez les murs qui soutiennent les terrasses",
+        "Regardez combien de directions a le chemin",
+        "Marchez lentement et regardez le paysage"
+      ]
+    },
+    "especificaciones": {
+      "hash": "da789b4af3f8c1ed",
+      "texto": {
+        "Type": "marche, sans arrêt fixe",
+        "Thème": "terrasses, chaussées et quartiers de la ville"
+      }
+    }
+  }
+}

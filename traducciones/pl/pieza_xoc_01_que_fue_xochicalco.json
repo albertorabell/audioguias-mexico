@@ -1,0 +1,55 @@
+{
+  "id": "xoc_01_que_fue_xochicalco",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e42f2bf317f24449",
+      "texto": "Czym było Xochicalco"
+    },
+    "frase_gancho": {
+      "hash": "60ec8a071d07f611",
+      "texto": "Miasto zbudowane na wysokościach, w świecie, który stracił swoje centrum."
+    },
+    "puente_narrativo": {
+      "hash": "3acce04c947a1bf5",
+      "texto": "Rozpocznij wycieczkę: to, co następuje, wyjaśnia, dlaczego to miasto leży na wzgórzu."
+    },
+    "guion_corto": {
+      "hash": "8f35262005a2e036",
+      "texto": "Zanim zrobisz krok, wyobraź sobie świat wokół tego wzgórza. Teotihuacán, wielkie miasto środkowego Meksyku, upadło. Podobnie Palenque i Tikal, w świecie Majów. Według UNESCO społeczeństwa, które nastały potem, stały się bardziej militarystyczne i budowały swoje miasta na wysokościach łatwych do obrony. Xochicalco to jeden z najlepszych zachowanych przykładów, zbudowany z tarasów, murów oporowych i ramp. Kenneth Hirth szacuje, że skupiało od dziesięciu do piętnastu tysięcy ludzi. Jego nazwę zwykle tłumaczy się jako miejsce domu kwiatów. Miasto o łagodnej nazwie, zbudowane, by się bronić. To napięcie będzie ci towarzyszyć przez całą wycieczkę."
+    },
+    "guion_largo": {
+      "hash": "b6946b87c9591a95",
+      "texto": "Zanim zrobisz krok, wyobraź sobie świat wokół tego wzgórza. Teotihuacán, wielkie miasto środkowego Meksyku, upadło. Upadły też Palenque i Tikal, w świecie Majów.\n\nUNESCO wyjaśnia, co nastąpiło potem. Społeczeństwa tamtego czasu stały się bardziej militarystyczne, a ich miasta zwykle wznoszono na wysokościach łatwych do obrony. Xochicalco to bardzo dobrze zachowany przykład takiego miasta, zbudowanego z tarasów, murów oporowych i ramp.\n\nWedług INAH zostało założone w drugiej połowie siódmego wieku. Zajęło sześć niskich wzgórz i przekształciło je tarasami i murami. Kenneth Hirth twierdzi, że miasto rosło bardzo szybko i przesiedliło od dziesięciu do piętnastu tysięcy ludzi.\n\nByło miastem mieszanek. Jego reliefy łączą wzory ze środkowego Meksyku z postaciami w stylu Majów. Jedno ze źródeł opisuje ten czas jako epokę eklektyzmu kulturowego, gdy kultury się krzyżowały i wzajemnie na siebie wpływały.\n\nByło też miastem rywalizacji. Medina Romero, dyrektor stanowiska, mówi, że Xochicalco rywalizowało z innymi miastami swojej epoki, takimi jak Teotenango, Cacaxtla, El Tajín i La Quemada. Założono je około roku sześćset siedemdziesiątego, a opuszczono około tysiąc sześćdziesiątego piątego, według Alvarado Leóna.\n\nNa tej wycieczce wejdziesz przez trzy poziomy. Niski, z bronionymi wejściami. Pośredni, gdzie były targ, warsztaty i domy. I wysoki, gdzie skupiała się władza. Po drodze zobaczysz, jak mierzono czas za pomocą nieba, co mówiło pismo tego miasta i jak to wszystko się skończyło, nagle, wśród pożarów.\n\nXochicalco zwykle tłumaczy się jako miejsce domu kwiatów. Miasto o tak łagodnej nazwie, zbudowane, by się bronić. To napięcie będzie ci towarzyszyć od początku do końca."
+    },
+    "retos_observacion": {
+      "hash": "ba3ffad921953bba",
+      "texto": [
+        "Poszukaj, z miejsca, w którym stoisz, wzgórz, które zajęło miasto",
+        "Zwróć uwagę, jak teren wznosi się tarasami",
+        "Wyobraź sobie, jak by to było dotrzeć tu pieszo tysiąc dwieście lat temu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0282a8b4ec5c6215",
+      "texto": {
+        "Okres": "epiklasyczny, między rokiem sześćset pięćdziesiątym a dziewięćsetnym, według UNESCO",
+        "Założenie": "druga połowa siódmego wieku, według INAH",
+        "Ludność": "od dziesięciu do piętnastu tysięcy osób, według Hirtha",
+        "Poziomy miasta": "trzy",
+        "Obszar chroniony": "około siedmiuset siedmiu hektarów"
+      }
+    },
+    "faq_mito": {
+      "hash": "f99e14b8583c117c",
+      "texto": {
+        "pregunta": "Mit: Xochicalco to odizolowana piramida.",
+        "respuesta": "Rzeczywistość: To pełne miasto, z tarasów, placów, warsztatów i domów, które zajmowało sześć niskich wzgórz."
+      }
+    }
+  }
+}

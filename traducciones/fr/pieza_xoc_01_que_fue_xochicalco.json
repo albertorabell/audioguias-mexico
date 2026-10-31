@@ -1,0 +1,55 @@
+{
+  "id": "xoc_01_que_fue_xochicalco",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e42f2bf317f24449",
+      "texto": "Ce qu’était Xochicalco"
+    },
+    "frase_gancho": {
+      "hash": "60ec8a071d07f611",
+      "texto": "Une ville construite en hauteur, dans un monde qui s’était retrouvé sans centre."
+    },
+    "puente_narrativo": {
+      "hash": "3acce04c947a1bf5",
+      "texto": "Commencez votre parcours : ce qui suit explique pourquoi cette ville se trouve sur une colline."
+    },
+    "guion_corto": {
+      "hash": "8f35262005a2e036",
+      "texto": "Avant de faire un pas, imaginez le monde qui entoure cette colline. Teotihuacán, la grande ville du centre du Mexique, était tombée. Palenque et Tikal aussi, dans le monde maya. Selon l’UNESCO, les sociétés qui suivirent devinrent plus militaristes et bâtirent leurs villes sur des hauteurs faciles à défendre. Xochicalco est l’un des meilleurs exemples conservés, fait de terrasses, de murs de soutènement et de rampes. Kenneth Hirth estime qu’elle en vint à rassembler entre dix mille et quinze mille personnes. Son nom se traduit souvent par lieu de la maison des fleurs. Une ville au nom doux, faite pour se défendre. Cette tension vous accompagnera tout au long du parcours."
+    },
+    "guion_largo": {
+      "hash": "b6946b87c9591a95",
+      "texto": "Avant de faire un pas, imaginez le monde qui entoure cette colline. Teotihuacán, la grande ville du centre du Mexique, était tombée. Palenque et Tikal, dans le monde maya, étaient tombées elles aussi.\n\nL’UNESCO explique ce qui suivit. Les sociétés de cette époque devinrent plus militaristes, et leurs villes s’élevaient généralement sur des hauteurs faciles à défendre. Xochicalco est un exemple très bien conservé de ce type de ville, faite de terrasses, de murs de soutènement et de rampes.\n\nSelon l’INAH, elle fut fondée dans la seconde moitié du septième siècle. Elle occupa six collines basses et les transforma avec des terrasses et des murs. Kenneth Hirth soutient que la ville grandit très vite et déplaça entre dix mille et quinze mille personnes.\n\nC’était une ville de mélanges. Ses reliefs combinent des motifs du centre du Mexique avec des figures de style maya. Une source décrit cette époque comme un temps d’éclectisme culturel, où les cultures se croisaient et s’influençaient mutuellement.\n\nC’était aussi une ville de rivalités. Medina Romero, directeur du site, raconte que Xochicalco rivalisa avec d’autres villes de son époque, comme Teotenango, Cacaxtla, El Tajín et La Quemada. Elle fut fondée vers l’an six cent soixante-dix et abandonnée vers mille soixante-cinq, selon Alvarado León.\n\nDans ce parcours, vous allez monter par trois niveaux. Le bas, avec des entrées défendues. Le niveau intermédiaire, où se trouvaient le marché, les ateliers et les maisons. Et le haut, où se concentrait le pouvoir. En chemin, vous verrez comment on mesurait le temps avec le ciel, ce que disait l’écriture de la ville et comment tout s’est terminé, d’un coup, dans les incendies.\n\nXochicalco se traduit souvent par lieu de la maison des fleurs. Une ville au nom si doux, faite pour se défendre. Cette tension vous accompagnera du début à la fin."
+    },
+    "retos_observacion": {
+      "hash": "ba3ffad921953bba",
+      "texto": [
+        "Cherchez, depuis l’endroit où vous êtes, les collines que la ville a occupées",
+        "Remarquez comment le terrain monte en terrasses",
+        "Imaginez ce que c’était d’arriver ici à pied il y a mille deux cents ans"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0282a8b4ec5c6215",
+      "texto": {
+        "Période": "Épiclassique, entre les années six cent cinquante et neuf cents, selon l’UNESCO",
+        "Fondation": "seconde moitié du septième siècle, selon l’INAH",
+        "Population": "entre dix mille et quinze mille personnes, selon Hirth",
+        "Niveaux de la ville": "trois",
+        "Superficie protégée": "environ sept cent sept hectares"
+      }
+    },
+    "faq_mito": {
+      "hash": "f99e14b8583c117c",
+      "texto": {
+        "pregunta": "Mythe : Xochicalco est une pyramide isolée.",
+        "respuesta": "Réalité : C’est une ville complète, de terrasses, de places, d’ateliers et de maisons, qui occupa six collines basses."
+      }
+    }
+  }
+}

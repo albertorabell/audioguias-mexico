@@ -1,0 +1,54 @@
+{
+  "id": "xoc_03_camino_entrada",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "90f92b10ca0bb62e",
+      "texto": "Le chemin d’entrée"
+    },
+    "frase_gancho": {
+      "hash": "c390c1e92a49ce10",
+      "texto": "Un chemin de pierre qui menait déjà à la ville quand elle était vivante."
+    },
+    "puente_narrativo": {
+      "hash": "d86ad220eec5e1cf",
+      "texto": "Suivez votre itinéraire : vous savez déjà comment la ville se défendait ; il s’agit maintenant de la parcourir."
+    },
+    "guion_corto": {
+      "hash": "ac25caa0724faaeb",
+      "texto": "Selon le guide de l’INAH, l’ensemble principal d’accès comprend des systèmes de contrôle d’entrée et une place carrée. Il comprend aussi le dernier tronçon du chemin préhispanique qui sortait de la ville. Autrement dit, il était déjà pensé pour recevoir et surveiller ceux qui arrivaient. Une ville aux entrées défendues ne laissait pas passer n’importe qui. Cette chaussée se relie aussi au jeu de balle sud, situé sur la terrasse la plus basse. D’autres auteurs décrivent un chemin droit du côté sud, qui monte depuis le fond de la vallée jusqu’à la ville. Ce que vous foulez fait partie d’un itinéraire que des habitants parcouraient il y a plus de mille ans pour entrer, commercer, jouer et rendre des comptes."
+    },
+    "guion_largo": {
+      "hash": "a5a11f79728eec5f",
+      "texto": "Un chemin est une façon de dire qui peut entrer. À Xochicalco, il n’en va pas autrement.\n\nSelon le guide officiel de l’INAH, l’ensemble principal d’accès comprend des systèmes de contrôle d’entrée et une place carrée. Il comprend aussi le dernier tronçon du chemin préhispanique qui sortait de la ville.\n\nD’autres sources ajoutent que le chemin d’accès était droit et arrivait par le côté sud, depuis le fond de la vallée. Cette chaussée se relie aussi au jeu de balle sud, le plus grand de la ville, situé sur la terrasse la plus basse.\n\nL’UNESCO et l’INAH mentionnent que le niveau bas de la ville était entouré de murs aux entrées défendues. Cela veut dire qu’arriver à Xochicalco ne consistait pas simplement à franchir une porte. C’était passer par des points de surveillance.\n\nLes chaussées avaient un autre usage. Le directeur de la zone, Medina Romero, explique que les chaussées pavées reliaient des secteurs de la ville et pouvaient mesurer environ cent soixante-quinze mètres. Elles étaient l’épine dorsale par où circulaient les gens.\n\nAvant de continuer, remarquez le sol. Les chemins des villes anciennes étaient pavés de pierre, et ce travail raconte une histoire d’organisation. Déplacer autant de pierre demandait des gens, du temps et quelqu’un pour l’ordonner.\n\nArrêtez-vous un instant et pensez à ceux qui entraient par ici. Des marchands d’autres peuples, des gens qui portaient de l’obsidienne, des joueurs qui venaient au jeu de balle, des envoyés de communautés voisines. Et aussi des armées, quand la ville était déjà menacée.\n\nAujourd’hui, ce chemin ne vous mène qu’à un seul endroit : au cœur d’une ville fortifiée. La suite, c’est de monter et de le découvrir."
+    },
+    "retos_observacion": {
+      "hash": "9b9ea4d4f99587ee",
+      "texto": [
+        "Regardez le chemin et remarquez comment il est construit",
+        "Cherchez les points où l’on contrôlait le passage, si on arrive à les distinguer",
+        "Pensez à qui aurait traversé ce chemin il y a plus de mille ans"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2f88961c233ee36a",
+      "texto": {
+        "Accès": "ensemble principal, avec place carrée",
+        "Chemin": "dernier tronçon du chemin préhispanique",
+        "Chaussées pavées": "jusqu’à environ 175 m, selon l’INAH",
+        "Liaison": "avec le jeu de balle sud"
+      }
+    },
+    "faq_mito": {
+      "hash": "c5e937cd2bce8e3d",
+      "texto": {
+        "pregunta": "Mythe : Les chaussées de Xochicalco sont des chemins modernes.",
+        "respuesta": "Réalité : L’INAH décrit des chaussées pavées qui reliaient déjà des secteurs de la ville il y a plus de mille ans."
+      }
+    }
+  }
+}

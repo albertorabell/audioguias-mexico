@@ -1,0 +1,54 @@
+{
+  "id": "xoc_03_camino_entrada",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "90f92b10ca0bb62e",
+      "texto": "The Entrance Road"
+    },
+    "frase_gancho": {
+      "hash": "c390c1e92a49ce10",
+      "texto": "A stone road that already led to the city when it was alive."
+    },
+    "puente_narrativo": {
+      "hash": "d86ad220eec5e1cf",
+      "texto": "Follow your route: you already know how the city defended itself; now it is a matter of walking it."
+    },
+    "guion_corto": {
+      "hash": "ac25caa0724faaeb",
+      "texto": "According to the INAH guide, the main access complex includes entry control systems and a square plaza. It also includes the last stretch of the pre-Hispanic road that left the city. In other words, it was already designed to receive and watch whoever arrived. A city with defended entrances did not let just anyone in. That causeway also connects with the south ball court, which sits on the lowest terrace. Other authors describe a straight road on the south side, climbing from the valley floor up to the city. What you are walking on is part of a route that inhabitants traveled more than a thousand years ago to enter, trade, play and answer for themselves."
+    },
+    "guion_largo": {
+      "hash": "a5a11f79728eec5f",
+      "texto": "A road is a way of saying who may enter. In Xochicalco it is no exception.\n\nAccording to the official INAH guide, the main access complex includes entry control systems and a square plaza. It also includes the last stretch of the pre-Hispanic road that left the city.\n\nOther sources add that the access road was straight and arrived from the south side, from the valley floor. That causeway also connects with the south ball court, the largest in the city, which sits on the lowest terrace.\n\nUNESCO and the INAH mention that the low level of the city was surrounded by walls with defended entrances. That means that arriving at Xochicalco was not simply crossing a gate. It was passing through points of surveillance.\n\nThe causeways had another use. The director of the zone, Medina Romero, explains that the paved causeways connected sectors of the city and could measure about one hundred seventy-five meters. They were the backbone along which people moved.\n\nBefore going on, notice the ground. The roads of ancient cities were paved with stone, and that work tells a story of organization. Moving so much stone required people, time and someone to command it.\n\nStop a moment and think about who came in this way. Merchants from other towns, people carrying obsidian, players coming to the court, envoys from neighboring communities. And also armies, when the city was already under threat.\n\nToday this road takes you to only one place: the heart of a fortified city. What follows is to climb and discover it."
+    },
+    "retos_observacion": {
+      "hash": "9b9ea4d4f99587ee",
+      "texto": [
+        "Look at the road and notice how it is built",
+        "Look for the points where passage was controlled, if you can make them out",
+        "Think about who would have crossed this road more than a thousand years ago"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2f88961c233ee36a",
+      "texto": {
+        "Access": "main complex, with a square plaza",
+        "Road": "last stretch of the pre-Hispanic road",
+        "Paved causeways": "up to about 175 m, according to the INAH",
+        "Connection": "with the south ball court"
+      }
+    },
+    "faq_mito": {
+      "hash": "c5e937cd2bce8e3d",
+      "texto": {
+        "pregunta": "Myth: The causeways of Xochicalco are modern roads.",
+        "respuesta": "Reality: The INAH describes paved causeways that already connected sectors of the city more than a thousand years ago."
+      }
+    }
+  }
+}
