@@ -1,0 +1,53 @@
+{
+  "id": "xoc_23_otras_canchas",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3d801a35963b0b8f",
+      "texto": "Les deux autres terrains de jeu de balle"
+    },
+    "frase_gancho": {
+      "hash": "733c1e2b93a4cb57",
+      "texto": "Un terrain aux marqueurs tombés et un autre dont les marqueurs sont aujourd’hui au musée."
+    },
+    "puente_narrativo": {
+      "hash": "f1a4fb145d300f85",
+      "texto": "Poursuivez votre itinéraire : continuez à parcourir la ville."
+    },
+    "guion_corto": {
+      "hash": "f8cf6e8fb5043588",
+      "texto": "Vous connaissez déjà le terrain sud, le plus grand et le plus facile d’accès. Les deux autres racontent une autre histoire. Selon le guide de l’INAH, le terrain nord a les structures latérales les plus hautes, et ses marqueurs sont tombés dans le couloir central. Le terrain est, relié à la Rampe des Animaux, a des marqueurs à bas-relief qui sont aujourd’hui exposés au Musée de site. Un marqueur est une pierre taillée que l’on plaçait dans le mur du terrain. Medina Romero explique que les trois terrains regardent vers trois des quatre points cardinaux. Comparez-les : chacun a sa propre hauteur, son propre état et son propre destin."
+    },
+    "guion_largo": {
+      "hash": "e09c2932277ef2ab",
+      "texto": "Vous connaissez déjà le terrain sud, le plus grand et le plus facile d’accès. Les deux autres racontent des histoires différentes.\n\nSelon le guide de l’INAH, le terrain nord se trouve sur la troisième terrasse et a les structures latérales les plus hautes des trois. Ses marqueurs, qui étaient des pierres taillées placées dans le mur, sont tombés dans le couloir central.\n\nLe terrain est, selon le même guide, se trouve aussi sur la troisième terrasse. Ses marqueurs ont un bas-relief, c’est-à-dire des figures taillées qui dépassent peu de la pierre, et ils sont aujourd’hui exposés au Musée de site. Selon l’INAH, la Rampe des Animaux se relie à ce terrain. Cela suggère que le jeu et la rampe faisaient partie du même ensemble.\n\nMedina Romero explique que la colline principale eut trois terrains, orientés vers trois des quatre points cardinaux. Celui du sud était le plus grand et le plus facile d’accès. Hirth en compte cinq : trois sur la colline et deux autres sur des collines voisines.\n\nSelon Andrews et Glascock, le secteur du terrain nord était un espace très restreint à l’élite dirigeante. Le terrain est, en revanche, a un escalier proéminent orienté vers l’est, ce qui suggère un accès plus public. Trois terrains sur une même colline disent l’importance du jeu pour les gens de Xochicalco, comme dans bien des villes de Mésoamérique.\n\nSi vous êtes debout sur l’un d’eux, remarquez la hauteur des structures latérales et comparez-la à ce que vous avez vu sur le terrain sud. Chacun a sa propre hauteur, son propre état et son propre destin."
+    },
+    "retos_observacion": {
+      "hash": "dbccec1f191a730b",
+      "texto": [
+        "Comparez la hauteur des murs avec le terrain sud",
+        "Cherchez les marqueurs tombés dans le couloir",
+        "Demandez au musée à propos des marqueurs à bas-relief"
+      ]
+    },
+    "especificaciones": {
+      "hash": "77c32fe4a97b8191",
+      "texto": {
+        "Terrain nord": "troisième terrasse, structures latérales plus hautes, marqueurs tombés",
+        "Terrain est": "troisième terrasse, marqueurs à bas-relief au Musée de site",
+        "Orientation": "vers trois des quatre points cardinaux, selon Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "5c3ba22e47883a92",
+      "texto": {
+        "pregunta": "Mythe : Tous les terrains de Xochicalco sont identiques.",
+        "respuesta": "Réalité : Chacun a une hauteur, un état de conservation et un destin de ses pièces différents."
+      }
+    }
+  }
+}

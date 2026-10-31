@@ -1,0 +1,54 @@
+{
+  "id": "xoc_20_agua_ritual_norte",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "af521cbba637d651",
+      "texto": "Water, Steam and Color: The Northern Complex"
+    },
+    "frase_gancho": {
+      "hash": "f08d9eae7fd4fd56",
+      "texto": "Where a city on high ground solved the questions of water, the body and ritual."
+    },
+    "puente_narrativo": {
+      "hash": "9286c56fe98c55d4",
+      "texto": "Continue your route: what follows shows other spaces of the city."
+    },
+    "guion_corto": {
+      "hash": "2aa5f680642ae22c",
+      "texto": "A city of between ten thousand and fifteen thousand people, on top of a hill, had to solve the problem of water. According to the INAH, north of the plaza there is a cistern, part of the water system. México Desconocido describes it as a rainwater cistern, with drainage. The INAH guide includes here a temazcal, a steam bath with a ceremonial purpose, and the Hall of the Polychrome Altar, which helps to understand how the roofs were built. Polychrome means painted in several colors. According to Andrews and Glascock, there were temazcales in the Acropolis and in this northern sector. Confirm with site staff which is which. Here people lived, worked and prayed."
+    },
+    "guion_largo": {
+      "hash": "e922cbbb9d244cde",
+      "texto": "A city on high ground faces a problem you do not see in photographs: water.\n\nAccording to Hirth, between ten thousand and fifteen thousand people came to live in Xochicalco. All of them needed to drink, cook and work. The INAH mentions a cistern north of the plaza, part of the city’s water system. México Desconocido describes it as a rainwater cistern, with drainage. That is, there was a way to collect rain and to let out the excess.\n\nVery near, according to the INAH guide, was the temazcal. A temazcal is a steam bath. The guide says it had a ceremonial purpose, that is, it served to cleanse the body and also for ceremonies. According to Andrews and Glascock, there were temazcales in two places. One was in the Acropolis and the other in this northern sector, next to the ball court. In that same sector they mention a large dam. If you see a small room with benches built against the walls, it may be it.\n\nThe third space is the Hall of the Polychrome Altar. Polychrome means painted in several colors. According to the INAH guide, this hall helps to understand how the roofs of the city were built. One source says the reliefs of the Pyramid of the Feathered Serpents were painted red, green, yellow, blue, black and white. Imagine color here too.\n\nWater, steam and color. Three things that in our lives are separate and that here shared one corner of the city.\n\nWhen you walk through this complex, do not look for great monuments. Look for the traces of daily life: where water was stored, where the body was cleansed and where people prayed."
+    },
+    "retos_observacion": {
+      "hash": "8f158c8520384e56",
+      "texto": [
+        "Look for the cistern and notice which way the ground slopes down",
+        "Look for a small room with benches built against the walls",
+        "Imagine color on the walls of the hall"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5aaf1bfebcd7af84",
+      "texto": {
+        "Cistern": "north of the plaza, for rainwater and with drainage",
+        "Temazcal": "steam bath with a ceremonial purpose, according to the INAH guide",
+        "Hall of the Polychrome Altar": "helps to understand how the roofs were built",
+        "Temazcales": "one in the Acropolis and another in the northern sector, next to the court, according to Andrews and Glascock"
+      }
+    },
+    "faq_mito": {
+      "hash": "13dd9c942bf1ccad",
+      "texto": {
+        "pregunta": "Myth: A temazcal was just a bath.",
+        "respuesta": "Reality: According to the INAH guide, the one at Xochicalco had a ceremonial purpose."
+      }
+    }
+  }
+}

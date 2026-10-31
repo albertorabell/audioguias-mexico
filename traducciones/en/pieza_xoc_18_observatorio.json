@@ -1,0 +1,54 @@
+{
+  "id": "xoc_18_observatorio",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e9a5f1066b768558",
+      "texto": "The Light Shaft: The Observatory"
+    },
+    "frase_gancho": {
+      "hash": "7a24a77f38289380",
+      "texto": "A cave in the mountain where the Sun enters on precise days of the year."
+    },
+    "puente_narrativo": {
+      "hash": "c7b6f7d6c16df78d",
+      "texto": "Follow your route: what comes next also has to do with the sky, water or time."
+    },
+    "guion_corto": {
+      "hash": "6fe1de4a5f0ca185",
+      "texto": "Beneath this area there is a cave turned into an observatory. According to the INAH, it was first a quarry and then the hollow was put to use. It has a shaft through which a ray of Sun comes down from the end of April to the middle of August, about one hundred five days. The Sun passes through the zenith on the fourteenth of May. Medina Romero proposes that the rest of the two hundred sixty days relates to the ritual calendar. Today it cannot be entered, and reports from June two thousand twenty-six confirm it. But you can imagine it: a city that let the Sun into the mountain to measure time. Confirm at the entrance whether anything has changed."
+    },
+    "guion_largo": {
+      "hash": "9aaee5399cab641f",
+      "texto": "Beneath this part of the hill there is a hollow. You will not see it from here, but it is there.\n\nAccording to the INAH, the caves beneath the north platform were first used as a quarry. Stone for building came out of there. Later, someone took advantage of that emptiness and turned it into an observatory.\n\nThe cave has a shaft, an inclined chimney that rises to the surface. One source gives it a height of eight meters seventy centimeters and a hexagonal top, and says the interior was covered with stucco painted black, yellow and red.\n\nThe extraordinary thing happens with the Sun. Morante, Garza and Valencia measured it for years. Direct rays enter from the end of April until the middle of August, around midday. The Sun passes through the zenith on the fourteenth of May. According to El Tlacuache, on that day the Sun projects onto the floor for about forty-five minutes. The entry of light is distributed symmetrically around the summer solstice: fifty-two days before, on the day of the solstice and fifty-two days after.\n\nRubén Morante López, who has studied the site for about thirty years, explains that the movement of the Sun was followed in two places. One was the zenith, from this cave. The other was the horizon, with Popocatépetl and Cerro Jumil as references. Added together, those days make one hundred five, exactly what two hundred sixty lacks to reach three hundred sixty-five. For Morante, Garza and Valencia, the two Mesoamerican calendars are marked in a single place.\n\nFor a while it was believed this cave was just another quarry, like eight others around the hill. But its vault and its hexagonal shaft, with an inclination calculated precisely, led to the thought that it was used to count time. According to Alvarado León, almost all studies agree on something. The cave served to observe twice a year the passage of the Sun through the zenith, and to measure the tropical year or mark the beginning of summer. What it was for is debated. Medina Romero proposes that the other two hundred sixty days relate to the ritual calendar. An INAH note says it helped correct the calendar. CyArk sees it as a way of following the Sun’s path toward the Tropic of Cancer.\n\nThe people of Xochicalco did not enter where one enters today, but through a cave a few meters from the North Ball Court. Inside there was a room twenty-eight by ten meters, with three pillars carved in the rock. At the back is an oval chamber six meters wide, the Chamber of the Astronomers, from which a second shaft rises. In nearby sectors, ceramic disks fifty-four centimeters wide, with holes, were found. Placed on the rim of the shaft, they let light pass in small circles that move across the floor.\n\nToday you cannot enter. The observatory is closed to the public, and reports from June two thousand twenty-six confirm it. Confirm at the entrance whether anything has changed.\n\nBut the idea can be imagined without going down. A city that, to measure time, did not only look at the sky. It let it into the mountain."
+    },
+    "retos_observacion": {
+      "hash": "cc57f3f3fcded96a",
+      "texto": [
+        "Look at the terrain where the observatory is located",
+        "Imagine a ray of Sun falling into a dark cave",
+        "Ask at the entrance whether the observatory is still closed"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a6f245b1c2960428",
+      "texto": {
+        "Type": "cave excavated at the base of a pyramidal structure",
+        "Sunlight": "from the thirtieth of April to the thirteenth of August, about one hundred five days, according to the INAH",
+        "Maximum": "fourteenth or fifteenth of May",
+        "Status": "closed to the public, according to Diario de Morelos, June two thousand twenty-six"
+      }
+    },
+    "faq_mito": {
+      "hash": "63925042c78cc092",
+      "texto": {
+        "pregunta": "Myth: You can enter the observatory and see the ray of Sun.",
+        "respuesta": "Reality: It has been closed to the public for years. Confirm the current status at the entrance."
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "xoc_23_otras_canchas",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3d801a35963b0b8f",
+      "texto": "Dwa pozostałe boiska do gry w piłkę"
+    },
+    "frase_gancho": {
+      "hash": "733c1e2b93a4cb57",
+      "texto": "Jedno boisko z upadłymi znacznikami i drugie, którego znaczniki są dziś w muzeum."
+    },
+    "puente_narrativo": {
+      "hash": "f1a4fb145d300f85",
+      "texto": "Kontynuuj swoją trasę: zwiedzaj dalej miasto."
+    },
+    "guion_corto": {
+      "hash": "f8cf6e8fb5043588",
+      "texto": "Znasz już boisko południowe, największe i najłatwiej dostępne. Pozostałe dwa opowiadają inną historię. Według przewodnika INAH boisko północne ma najwyższe konstrukcje boczne, a jego znaczniki spadły na środkowy pas. Boisko wschodnie, połączone z Rampą Zwierząt, ma znaczniki z płaskorzeźbą, które dziś są wystawione w Muzeum Stanowiska. Znacznik to rzeźbiony kamień, który umieszczano w murze boiska. Medina Romero wyjaśnia, że trzy boiska są zwrócone ku trzem z czterech stron świata. Porównaj je: każde ma własną wysokość, własny stan i własny los."
+    },
+    "guion_largo": {
+      "hash": "e09c2932277ef2ab",
+      "texto": "Znasz już boisko południowe, największe i najłatwiej dostępne. Pozostałe dwa opowiadają inne historie.\n\nWedług przewodnika INAH boisko północne leży na trzecim tarasie i ma najwyższe konstrukcje boczne z całej trójki. Jego znaczniki, które były rzeźbionymi kamieniami umieszczonymi w murze, spadły na środkowy pas.\n\nBoisko wschodnie, według tego samego przewodnika, również leży na trzecim tarasie. Jego znaczniki mają płaskorzeźbę, czyli rzeźbione postacie, które tylko nieznacznie wystają z kamienia, i dziś są wystawione w Muzeum Stanowiska. Według INAH Rampa Zwierząt łączy się z tym boiskiem. To sugeruje, że gra i rampa były częścią tego samego zespołu.\n\nMedina Romero wyjaśnia, że główne wzgórze miało trzy boiska, zorientowane ku trzem z czterech stron świata. Południowe było największe i najłatwiej dostępne. Hirth naliczył pięć: trzy na wzgórzu i dwa na sąsiednich wzgórzach.\n\nWedług Andrewsa i Glascocka sektor boiska północnego był przestrzenią bardzo ograniczoną dla rządzącej elity. Boisko wschodnie natomiast ma wyraźne schody zwrócone na wschód, co sugeruje bardziej publiczny dostęp. Trzy boiska na jednym wzgórzu mówią o tym, jak ważna była gra dla mieszkańców Xochicalco, tak jak w wielu miastach Mezoameryki.\n\nJeśli stoisz na jednym z nich, zwróć uwagę na wysokość konstrukcji bocznych i porównaj ją z tym, co widziałeś na boisku południowym. Każde ma własną wysokość, własny stan i własny los."
+    },
+    "retos_observacion": {
+      "hash": "dbccec1f191a730b",
+      "texto": [
+        "Porównaj wysokość murów z boiskiem południowym",
+        "Poszukaj upadłych znaczników na pasie",
+        "Zapytaj w muzeum o znaczniki z płaskorzeźbą"
+      ]
+    },
+    "especificaciones": {
+      "hash": "77c32fe4a97b8191",
+      "texto": {
+        "Boisko północne": "trzeci taras, wyższe konstrukcje boczne, upadłe znaczniki",
+        "Boisko wschodnie": "trzeci taras, znaczniki z płaskorzeźbą w Muzeum Stanowiska",
+        "Orientacja": "ku trzem z czterech stron świata, według Mediny Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "5c3ba22e47883a92",
+      "texto": {
+        "pregunta": "Mit: Wszystkie boiska w Xochicalco są takie same.",
+        "respuesta": "Rzeczywistość: Każde ma inną wysokość, stan zachowania i los swoich elementów."
+      }
+    }
+  }
+}

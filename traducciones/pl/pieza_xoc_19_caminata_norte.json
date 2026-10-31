@@ -1,0 +1,53 @@
+{
+  "id": "xoc_19_caminata_norte",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18d839e7b882fc73",
+      "texto": "Spacer: ku zespołowi północnemu"
+    },
+    "frase_gancho": {
+      "hash": "a1a7dc86d8c04756",
+      "texto": "Krótki odcinek ku cysternie, polichromowanemu ołtarzowi i temazcal."
+    },
+    "puente_narrativo": {
+      "hash": "928a7098704ed970",
+      "texto": "Kontynuuj swoją trasę: idź dalej przez miasto."
+    },
+    "guion_corto": {
+      "hash": "54b79d2b212cac48",
+      "texto": "Teraz oddalasz się od placu ku północy. Ten spacer prowadzi do zespołu północnego, gdzie INAH umieszcza cysternę, polichromowany ołtarz i temazcal. INAH wspomina o cysternie na północ od placu, części systemu wodnego. Idąc, pomyśl o prostym pytaniu: skąd miasto zbudowane na wzgórzu brało wodę? Temazcal to łaźnia parowa. Ten w zespole północnym miał według INAH cel ceremonialny. Cysterna zbierała wodę deszczową, według México Desconocido, i miała odpływ. Nie trzeba się spieszyć. Zwróć uwagę na teren: woda zawsze spływa w dół. To, co następuje, wyjaśnia te prace dokładniej."
+    },
+    "guion_largo": {
+      "hash": "05a1d05df39cb154",
+      "texto": "Teraz oddalasz się od placu ku północy.\n\nTen spacer prowadzi do zespołu północnego. Według INAH znajdują się tam cysterna, sala z polichromowanym ołtarzem i temazcal.\n\nObserwatorium, które zostawiasz za sobą, znajduje się według INAH w jaskiniach pod platformą północną. Najpierw były kamieniołomem, a potem obserwatorium. To znaczy, że ta część miasta była wydrążona od środka i zbudowana na zewnątrz.\n\nINAH wspomina o cysternie na północ od placu, części systemu wodnego. México Desconocido opisuje ją jako cysternę na wodę deszczową z odpływem.\n\nIdąc, pomyśl o prostym pytaniu: skąd miasto zbudowane na wzgórzu brało wodę? Odpowiedź kryje się w pracach, których prawie nie widać.\n\nTemazcal to łaźnia parowa. Według przewodnika INAH ten w zespole północnym miał cel ceremonialny. Inne źródła umieszczają go w innych zespołach i wciąż nie ma zgody co do jego dokładnego położenia.\n\nNie trzeba się spieszyć. Spacery są pomyślane tak, by słuchać ich w ruchu, nie patrząc na ekran. Następny przystanek opowie ci więcej o wodzie."
+    },
+    "retos_observacion": {
+      "hash": "8e5c80effe7c3947",
+      "texto": [
+        "Zwróć uwagę, w którą stronę opada teren",
+        "Poszukaj cysterny, zanim dotrzesz",
+        "Słuchaj, idąc, nie patrząc na ekran"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6107c586ab2a117d",
+      "texto": {
+        "Cel": "zespół północny",
+        "Przestrzenie": "cysterna, polichromowany ołtarz i temazcal, według INAH",
+        "Obserwatorium": "w jaskiniach pod platformą północną, według INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "950bea6f8afb80d4",
+      "texto": {
+        "pregunta": "Mit: Obserwatorium znajduje się na szczycie piramidy.",
+        "respuesta": "Rzeczywistość: To jaskinia wykuta u podstawy; szyb światła wychodzi u góry."
+      }
+    }
+  }
+}

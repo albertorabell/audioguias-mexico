@@ -1,0 +1,54 @@
+{
+  "id": "xoc_20_agua_ritual_norte",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "af521cbba637d651",
+      "texto": "Eau, vapeur et couleur : l’ensemble nord"
+    },
+    "frase_gancho": {
+      "hash": "f08d9eae7fd4fd56",
+      "texto": "Là où une ville en hauteur résolvait la question de l’eau, du corps et du rite."
+    },
+    "puente_narrativo": {
+      "hash": "9286c56fe98c55d4",
+      "texto": "Poursuivez votre itinéraire : ce qui suit montre d’autres espaces de la ville."
+    },
+    "guion_corto": {
+      "hash": "2aa5f680642ae22c",
+      "texto": "Une ville de dix à quinze mille personnes, en haut d’une colline, devait résoudre la question de l’eau. Selon l’INAH, au nord de la place, il y a une citerne, partie du système d’eau. México Desconocido la décrit comme une citerne d’eau de pluie, avec drainage. Le guide de l’INAH inclut ici un temazcal, un bain de vapeur à fin cérémonielle, et la Salle de l’Autel polychrome, qui aide à comprendre comment se construisaient les toits. Polychrome veut dire peint de plusieurs couleurs. Selon Andrews et Glascock, il y eut des temazcales dans l’Acropole et dans ce secteur nord. Confirmez auprès du personnel du site lequel est lequel. Ici, on vivait, on travaillait et l’on priait."
+    },
+    "guion_largo": {
+      "hash": "e922cbbb9d244cde",
+      "texto": "Une ville en hauteur affronte un problème que l’on ne voit pas sur les photos : l’eau.\n\nSelon Hirth, entre dix mille et quinze mille personnes en vinrent à vivre à Xochicalco. Toutes avaient besoin de boire, de cuisiner et de travailler. L’INAH mentionne une citerne au nord de la place, partie du système d’eau de la ville. México Desconocido la décrit comme une citerne d’eau de pluie, avec drainage. C’est-à-dire qu’il y avait un moyen de recueillir la pluie et d’évacuer le trop-plein.\n\nTout près, selon le guide de l’INAH, se trouvait le temazcal. Un temazcal est un bain de vapeur. Le guide dit qu’il eut une fin cérémonielle, c’est-à-dire qu’il servait à purifier le corps et aussi pour des cérémonies. Selon Andrews et Glascock, il y eut des temazcales en deux endroits. L’un se trouvait dans l’Acropole et l’autre dans ce secteur nord, à côté du terrain de jeu de balle. Dans ce même secteur, ils mentionnent un grand barrage. Si vous voyez une petite pièce avec des bancs adossés aux murs, ce peut être lui.\n\nLe troisième espace est la Salle de l’Autel polychrome. Polychrome veut dire peint de plusieurs couleurs. Selon le guide de l’INAH, cette salle aide à comprendre comment se construisaient les toits de la ville. Une source raconte que les reliefs de la Pyramide des Serpents à plumes étaient peints en rouge, vert, jaune, bleu, noir et blanc. Imaginez de la couleur ici aussi.\n\nEau, vapeur et couleur. Trois choses qui, dans nos vies, sont séparées et qui ici partageaient un même coin de la ville.\n\nQuand vous parcourrez cet ensemble, ne cherchez pas de grands monuments. Cherchez les traces de la vie quotidienne : où l’on gardait l’eau, où l’on purifiait le corps et où l’on priait."
+    },
+    "retos_observacion": {
+      "hash": "8f158c8520384e56",
+      "texto": [
+        "Cherchez la citerne et remarquez vers où le terrain descend",
+        "Cherchez une petite pièce avec des bancs adossés aux murs",
+        "Imaginez de la couleur sur les murs de la salle"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5aaf1bfebcd7af84",
+      "texto": {
+        "Citerne": "au nord de la place, d’eau de pluie et avec drainage",
+        "Temazcal": "bain de vapeur à fin cérémonielle, selon le guide de l’INAH",
+        "Salle de l’Autel polychrome": "aide à comprendre comment se construisaient les toits",
+        "Temazcales": "un dans l’Acropole et un autre dans le secteur nord, à côté du terrain, selon Andrews et Glascock"
+      }
+    },
+    "faq_mito": {
+      "hash": "13dd9c942bf1ccad",
+      "texto": {
+        "pregunta": "Mythe : Un temazcal n’était qu’un bain.",
+        "respuesta": "Réalité : Selon le guide de l’INAH, celui de Xochicalco eut une fin cérémonielle."
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "xoc_19_caminata_norte",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18d839e7b882fc73",
+      "texto": "Walk: Toward the Northern Complex"
+    },
+    "frase_gancho": {
+      "hash": "a1a7dc86d8c04756",
+      "texto": "A short stretch toward the cistern, the polychrome altar and the temazcal."
+    },
+    "puente_narrativo": {
+      "hash": "928a7098704ed970",
+      "texto": "Continue your route: keep moving through the city."
+    },
+    "guion_corto": {
+      "hash": "54b79d2b212cac48",
+      "texto": "Now you move away from the plaza toward the north. This walk leads to the northern complex, where the INAH places a cistern, a polychrome altar and a temazcal. The INAH mentions a cistern north of the plaza, part of the water system. As you walk, think about a simple question: where did a city built on a hill get its water? A temazcal is a steam bath. The one in the northern complex had, according to the INAH, a ceremonial purpose. The cistern collected rainwater, according to México Desconocido, and had drainage. There is no need to hurry. Notice the terrain: water always flows downhill. What follows explains those works in more detail."
+    },
+    "guion_largo": {
+      "hash": "05a1d05df39cb154",
+      "texto": "Now you move away from the plaza toward the north.\n\nThis walk leads to the northern complex. According to the INAH, there is a cistern, a hall with a polychrome altar and a temazcal there.\n\nThe observatory you leave behind is, according to the INAH, in caves beneath the north platform. First they were a quarry and then an observatory. That is, this part of the city was dug out on the inside and built on the outside.\n\nThe INAH mentions a cistern north of the plaza, part of the water system. México Desconocido describes it as a rainwater cistern with drainage.\n\nAs you walk, think about a simple question: where did a city built on a hill get its water? The answer is in the works that can hardly be seen.\n\nA temazcal is a steam bath. According to the INAH guide, the one in the northern complex had a ceremonial purpose. Other sources place it in other complexes, and there is still no agreement on its exact location.\n\nThere is no need to hurry. The walks are designed to be listened to while you move, without looking at the screen. The next stop tells you more about water."
+    },
+    "retos_observacion": {
+      "hash": "8e5c80effe7c3947",
+      "texto": [
+        "Notice which way the ground slopes down",
+        "Look for the cistern before you arrive",
+        "Listen as you walk, without looking at the screen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6107c586ab2a117d",
+      "texto": {
+        "Destination": "northern complex",
+        "Spaces": "cistern, polychrome altar and temazcal, according to the INAH",
+        "Observatory": "in caves beneath the north platform, according to the INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "950bea6f8afb80d4",
+      "texto": {
+        "pregunta": "Myth: The observatory is at the top of the pyramid.",
+        "respuesta": "Reality: It is a cave excavated at the base; the light shaft comes out above."
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "xoc_19_caminata_norte",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18d839e7b882fc73",
+      "texto": "Marche : vers l’ensemble nord"
+    },
+    "frase_gancho": {
+      "hash": "a1a7dc86d8c04756",
+      "texto": "Un court trajet vers la citerne, l’autel polychrome et le temazcal."
+    },
+    "puente_narrativo": {
+      "hash": "928a7098704ed970",
+      "texto": "Poursuivez votre itinéraire : continuez d’avancer dans la ville."
+    },
+    "guion_corto": {
+      "hash": "54b79d2b212cac48",
+      "texto": "Maintenant, vous vous éloignez de la place vers le nord. Cette marche mène à l’ensemble nord, où l’INAH situe une citerne, un autel polychrome et un temazcal. L’INAH mentionne une citerne au nord de la place, partie du système d’eau. Pendant que vous marchez, pensez à une question simple : d’où une ville construite sur une colline tirait-elle son eau ? Un temazcal est un bain de vapeur. Celui de l’ensemble nord eut, selon l’INAH, une fin cérémonielle. La citerne recueillait l’eau de pluie, selon México Desconocido, et avait un drainage. Inutile de se presser. Remarquez le terrain : l’eau descend toujours. La suite explique ces ouvrages plus en détail."
+    },
+    "guion_largo": {
+      "hash": "05a1d05df39cb154",
+      "texto": "Maintenant, vous vous éloignez de la place vers le nord.\n\nCette marche mène à l’ensemble nord. Selon l’INAH, il s’y trouve une citerne, une salle avec un autel polychrome et un temazcal.\n\nL’observatoire que vous laissez derrière vous se trouve, selon l’INAH, dans des grottes sous la plateforme nord. Ce furent d’abord une carrière, puis un observatoire. C’est-à-dire que cette partie de la ville était creusée de l’intérieur et construite à l’extérieur.\n\nL’INAH mentionne une citerne au nord de la place, partie du système d’eau. México Desconocido la décrit comme une citerne d’eau de pluie avec drainage.\n\nEn marchant, pensez à une question simple : d’où une ville construite sur une colline tirait-elle son eau ? La réponse se trouve dans les ouvrages que l’on ne voit presque pas.\n\nUn temazcal est un bain de vapeur. Selon le guide de l’INAH, celui de l’ensemble nord eut une fin cérémonielle. D’autres sources le situent dans d’autres ensembles, et il n’y a toujours pas d’accord sur son emplacement exact.\n\nInutile de se presser. Les marches sont pensées pour être écoutées en avançant, sans regarder l’écran. La prochaine étape vous en dit plus sur l’eau."
+    },
+    "retos_observacion": {
+      "hash": "8e5c80effe7c3947",
+      "texto": [
+        "Remarquez vers où le terrain descend",
+        "Cherchez la citerne avant d’arriver",
+        "Écoutez en marchant, sans regarder l’écran"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6107c586ab2a117d",
+      "texto": {
+        "Destination": "ensemble nord",
+        "Espaces": "citerne, autel polychrome et temazcal, selon l’INAH",
+        "Observatoire": "dans des grottes sous la plateforme nord, selon l’INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "950bea6f8afb80d4",
+      "texto": {
+        "pregunta": "Mythe : L’observatoire est au sommet de la pyramide.",
+        "respuesta": "Réalité : C’est une grotte creusée à la base ; le puits de lumière débouche en haut."
+      }
+    }
+  }
+}

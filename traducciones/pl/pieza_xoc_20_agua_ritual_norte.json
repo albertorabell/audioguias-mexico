@@ -1,0 +1,54 @@
+{
+  "id": "xoc_20_agua_ritual_norte",
+  "tipo": "pieza",
+  "idioma": "pl",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "af521cbba637d651",
+      "texto": "Woda, para i kolor: zespół północny"
+    },
+    "frase_gancho": {
+      "hash": "f08d9eae7fd4fd56",
+      "texto": "Tam, gdzie miasto na wysokościach rozwiązywało sprawę wody, ciała i rytuału."
+    },
+    "puente_narrativo": {
+      "hash": "9286c56fe98c55d4",
+      "texto": "Kontynuuj swoją trasę: to, co następuje, pokazuje inne przestrzenie miasta."
+    },
+    "guion_corto": {
+      "hash": "2aa5f680642ae22c",
+      "texto": "Miasto liczące od dziesięciu do piętnastu tysięcy ludzi, na szczycie wzgórza, musiało rozwiązać sprawę wody. Według INAH na północ od placu jest cysterna, część systemu wodnego. México Desconocido opisuje ją jako cysternę na wodę deszczową, z odpływem. Przewodnik INAH obejmuje tu temazcal, łaźnię parową o celu ceremonialnym, oraz Salę Ołtarza Polichromowanego, która pomaga zrozumieć, jak budowano dachy. Polichromowany znaczy pomalowany w kilku kolorach. Według Andrewsa i Glascocka temazcal były na Akropolu i w tym sektorze północnym. Zapytaj personel stanowiska, który jest który. Tutaj się mieszkało, pracowało i modliło."
+    },
+    "guion_largo": {
+      "hash": "e922cbbb9d244cde",
+      "texto": "Miasto na wysokościach staje przed problemem, którego nie widać na zdjęciach: wodą.\n\nWedług Hirtha w Xochicalco zamieszkało od dziesięciu do piętnastu tysięcy ludzi. Wszyscy potrzebowali pić, gotować i pracować. INAH wspomina o cysternie na północ od placu, części systemu wodnego miasta. México Desconocido opisuje ją jako cysternę na wodę deszczową, z odpływem. To znaczy, że istniał sposób zbierania deszczu i odprowadzania nadmiaru.\n\nBardzo blisko, według przewodnika INAH, znajdował się temazcal. Temazcal to łaźnia parowa. Przewodnik mówi, że miał cel ceremonialny, czyli służył do oczyszczania ciała, a także do ceremonii. Według Andrewsa i Glascocka temazcal były w dwóch miejscach. Jedno na Akropolu, a drugie w tym sektorze północnym, obok boiska do gry w piłkę. W tym samym sektorze wspominają dużą zaporę. Jeśli zobaczysz mały pokój z ławami przy ścianach, to może być on.\n\nTrzecia przestrzeń to Sala Ołtarza Polichromowanego. Polichromowany znaczy pomalowany w kilku kolorach. Według przewodnika INAH ta sala pomaga zrozumieć, jak budowano dachy miasta. Jedno ze źródeł mówi, że reliefy Piramidy Pierzastych Węży były pomalowane na czerwono, zielono, żółto, niebiesko, czarno i biało. Wyobraź sobie kolor także tutaj.\n\nWoda, para i kolor. Trzy rzeczy, które w naszym życiu są rozdzielone, a tutaj dzieliły jeden zakątek miasta.\n\nGdy będziesz zwiedzać ten zespół, nie szukaj wielkich zabytków. Szukaj śladów codziennego życia: gdzie przechowywano wodę, gdzie oczyszczano ciało i gdzie się modlono."
+    },
+    "retos_observacion": {
+      "hash": "8f158c8520384e56",
+      "texto": [
+        "Poszukaj cysterny i zwróć uwagę, w którą stronę opada teren",
+        "Poszukaj małego pokoju z ławami przy ścianach",
+        "Wyobraź sobie kolor na ścianach sali"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5aaf1bfebcd7af84",
+      "texto": {
+        "Cysterna": "na północ od placu, na wodę deszczową i z odpływem",
+        "Temazcal": "łaźnia parowa o celu ceremonialnym, według przewodnika INAH",
+        "Sala Ołtarza Polichromowanego": "pomaga zrozumieć, jak budowano dachy",
+        "Dwa temazcal": "jeden na Akropolu i drugi w sektorze północnym, obok boiska, według Andrewsa i Glascocka"
+      }
+    },
+    "faq_mito": {
+      "hash": "13dd9c942bf1ccad",
+      "texto": {
+        "pregunta": "Mit: Temazcal był tylko łaźnią.",
+        "respuesta": "Rzeczywistość: Według przewodnika INAH ten w Xochicalco miał cel ceremonialny."
+      }
+    }
+  }
+}

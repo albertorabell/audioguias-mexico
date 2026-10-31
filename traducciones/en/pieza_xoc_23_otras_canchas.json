@@ -1,0 +1,53 @@
+{
+  "id": "xoc_23_otras_canchas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-10-31",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3d801a35963b0b8f",
+      "texto": "The Other Two Ball Courts"
+    },
+    "frase_gancho": {
+      "hash": "733c1e2b93a4cb57",
+      "texto": "One court with its markers fallen and another whose markers are now in the museum."
+    },
+    "puente_narrativo": {
+      "hash": "f1a4fb145d300f85",
+      "texto": "Continue your route: keep exploring the city."
+    },
+    "guion_corto": {
+      "hash": "f8cf6e8fb5043588",
+      "texto": "You already know the south court, the largest and easiest to reach. The other two tell another story. According to the INAH guide, the north court has the tallest side structures, and its markers fell into the central alley. The east court, connected with the Ramp of the Animals, has markers with bas-relief that are now displayed in the Site Museum. A marker is a carved stone that was set into the wall of the court. Medina Romero explains that the three courts face three of the four cardinal points. Compare them: each one has its own height, its own condition and its own fate."
+    },
+    "guion_largo": {
+      "hash": "e09c2932277ef2ab",
+      "texto": "You already know the south court, the largest and easiest to reach. The other two tell different stories.\n\nAccording to the INAH guide, the north court is on the third terrace and has the tallest side structures of the three. Its markers, which were carved stones set into the wall, fell into the central alley.\n\nThe east court, according to the same guide, is also on the third terrace. Its markers have bas-relief, that is, carved figures that stand out only slightly from the stone, and they are now displayed in the Site Museum. According to the INAH, the Ramp of the Animals connects with this court. That suggests that the game and the ramp were part of the same complex.\n\nMedina Romero explains that the main hill had three courts, oriented toward three of the four cardinal points. The south one was the largest and easiest to reach. Hirth counts five: three on the hill and two more on neighboring hills.\n\nAccording to Andrews and Glascock, the sector of the north court was a space highly restricted to the ruling elite. The east court, on the other hand, has a prominent stairway facing east, which suggests more public access. Three courts on one hill speak to how important the game was for the people of Xochicalco, as it was in many cities of Mesoamerica.\n\nIf you are standing at one of them, notice the height of the side structures and compare it with what you saw at the south court. Each has its own height, its own condition and its own fate."
+    },
+    "retos_observacion": {
+      "hash": "dbccec1f191a730b",
+      "texto": [
+        "Compare the height of the walls with the south court",
+        "Look for the fallen markers in the alley",
+        "Ask at the museum about the bas-relief markers"
+      ]
+    },
+    "especificaciones": {
+      "hash": "77c32fe4a97b8191",
+      "texto": {
+        "North court": "third terrace, taller side structures, fallen markers",
+        "East court": "third terrace, markers with bas-relief in the Site Museum",
+        "Orientation": "toward three of the four cardinal points, according to Medina Romero"
+      }
+    },
+    "faq_mito": {
+      "hash": "5c3ba22e47883a92",
+      "texto": {
+        "pregunta": "Myth: All the ball courts at Xochicalco are the same.",
+        "respuesta": "Reality: Each has a different height, state of preservation and fate for its pieces."
+      }
+    }
+  }
+}
