@@ -53,9 +53,12 @@ async function infos(titulos) {
   return salida;
 }
 
-function buenas(lista, max) {
-  return lista
-    .filter((x) => /^image\/(jpeg|png)/.test(x.mime) && licenciaPermitida(x.licencia) && x.ancho >= 1200)
+function buenas(lista, max, exactas = false) {
+  const r = lista
+    .filter((x) => /^image\/(jpeg|png)/.test(x.mime) && licenciaPermitida(x.licencia) && x.ancho >= (exactas ? 300 : 1200));
+  // Con títulos exactos se respeta el orden pedido y no se descarta por el nombre.
+  if (exactas) return r.slice(0, max);
+  return r
     .filter((x) => !/(logo|map|mapa|plano|escudo|coat|flag|bandera_de|diagram|sello|stamp|poster|cartel)/i.test(x.titulo))
     .sort((a, b) => b.ancho * b.alto - a.ancho * a.alto)
     .slice(0, max);
@@ -78,7 +81,8 @@ async function main() {
       const exactas = qs.every((q) => /^File:/i.test(q));
       if (exactas) for (const q of qs) { const t = q.replace(/_/g, ' '); if (!vistos.has(t)) { vistos.add(t); titulos.push(t); } }
       else for (const q of qs) for (const t of await buscarTitulos(q)) if (!vistos.has(t)) { vistos.add(t); titulos.push(t); }
-      const lista = buenas(await infos(titulos), exactas ? Math.max(max, titulos.length) : max);
+      let lista = buenas(await infos(titulos), exactas ? Math.max(max, titulos.length) : max, exactas);
+      if (exactas) lista = titulos.map((t) => lista.find((x) => x.titulo.replace(/_/g, ' ') === t)).filter(Boolean).concat(lista.filter((x) => !titulos.includes(x.titulo)));
       manifiesto[id] = lista;
       if (!lista.length) { console.log(`::warning::${id}: sin candidatas con licencia abierta y 1200 px o más (${titulos.length} resultados)`); continue; }
       console.log(`${id}: ${titulos.length} resultados, ${lista.length} sirven`);
