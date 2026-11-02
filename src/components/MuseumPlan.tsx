@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Plus, Minus, LocateFixed, Maximize2, ChevronRight } from 'lucide-react';
+import { Plus, Minus, LocateFixed, Maximize2, ChevronRight, Lock } from 'lucide-react';
 import { Room, PieceData } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
 import { ActiveTour } from './RoutesScreen';
@@ -12,10 +12,10 @@ type Lang = 'es' | 'en' | 'fr' | 'pl';
 type Mode = 'follow' | 'overview' | 'room' | 'free';
 
 const L: Record<Lang, Record<string, string>> = {
-  es: { all: 'Ver todo', center: 'Centrar en mí', zin: 'Acercar', zout: 'Alejar', next: 'Siguiente parada', arrived: 'Llegué', steps: 'pasos', hint: 'Toca una sala para ver sus piezas. Pellizca para acercar y arrastra para mover.', openRoom: 'Abrir sala', pieces: 'piezas', roomWord: 'Sala', upperNote: 'Aún no recorremos este piso: las salas 12 a 21 se ubican en el plano cuando las verifiquemos en sitio.', upperRooms: 'Salas de la planta alta', courtyard: 'Patio central', pond: 'Estanque', umbrella: 'El Paraguas', lobby: 'Vestíbulo · taquilla', entrance: 'Entrada principal', temporary: 'Exposiciones temporales', ballgame: 'Juego de pelota', auditorium: 'Auditorio', cloakroom: 'Guardarropa', shop: 'Tienda', aria: 'Plano del Museo Nacional de Antropología', upperAria: 'Plano de la planta alta', here: 'Estás aquí', hold: 'Aproximado: la posición exacta de cada pieza se confirma en sitio.' },
-  en: { all: 'Show all', center: 'Center on me', zin: 'Zoom in', zout: 'Zoom out', next: 'Next stop', arrived: "I'm here", steps: 'steps', hint: 'Tap a room to see its pieces. Pinch to zoom and drag to move.', openRoom: 'Open room', pieces: 'pieces', roomWord: 'Room', upperNote: 'We have not walked this floor yet: rooms 12 to 21 are placed on the plan once verified on site.', upperRooms: 'Upper floor rooms', courtyard: 'Central courtyard', pond: 'Pond', umbrella: 'The Umbrella', lobby: 'Lobby · tickets', entrance: 'Main entrance', temporary: 'Temporary exhibitions', ballgame: 'Ball court', auditorium: 'Auditorium', cloakroom: 'Cloakroom', shop: 'Shop', aria: 'Plan of the National Museum of Anthropology', upperAria: 'Upper floor plan', here: 'You are here', hold: 'Approximate: each piece position is confirmed on site.' },
-  fr: { all: 'Tout voir', center: 'Me centrer', zin: 'Zoomer', zout: 'Dézoomer', next: 'Prochain arrêt', arrived: 'Je suis arrivé', steps: 'pas', hint: 'Touchez une salle pour voir ses pièces. Pincez pour zoomer, glissez pour déplacer.', openRoom: 'Ouvrir la salle', pieces: 'pièces', roomWord: 'Salle', upperNote: "Nous n'avons pas encore parcouru cet étage : les salles 12 à 21 seront placées après vérification sur place.", upperRooms: "Salles de l'étage", courtyard: 'Patio central', pond: 'Bassin', umbrella: 'Le Parapluie', lobby: 'Hall · billetterie', entrance: 'Entrée principale', temporary: 'Expositions temporaires', ballgame: 'Jeu de balle', auditorium: 'Auditorium', cloakroom: 'Vestiaire', shop: 'Boutique', aria: "Plan du Musée national d'anthropologie", upperAria: "Plan de l'étage", here: 'Vous êtes ici', hold: 'Approximatif : la position exacte de chaque pièce est confirmée sur place.' },
-  pl: { all: 'Pokaż całość', center: 'Wyśrodkuj', zin: 'Przybliż', zout: 'Oddal', next: 'Następny przystanek', arrived: 'Jestem na miejscu', steps: 'kroków', hint: 'Dotknij sali, aby zobaczyć eksponaty. Szczypnij, aby przybliżyć, i przeciągnij, aby przesunąć.', openRoom: 'Otwórz salę', pieces: 'eksponatów', roomWord: 'Sala', upperNote: 'Nie przeszliśmy jeszcze tego piętra: sale 12–21 trafią na plan po sprawdzeniu na miejscu.', upperRooms: 'Sale na piętrze', courtyard: 'Dziedziniec', pond: 'Staw', umbrella: 'Parasol', lobby: 'Hol · kasa', entrance: 'Wejście główne', temporary: 'Wystawy czasowe', ballgame: 'Boisko do gry w piłkę', auditorium: 'Audytorium', cloakroom: 'Szatnia', shop: 'Sklep', aria: 'Plan Narodowego Muzeum Antropologii', upperAria: 'Plan piętra', here: 'Jesteś tutaj', hold: 'Orientacyjnie: dokładne położenie każdego eksponatu potwierdzamy na miejscu.' },
+  es: { all: 'Ver todo', center: 'Centrar en mí', zin: 'Acercar', zout: 'Alejar', next: 'Siguiente parada', arrived: 'Llegué', steps: 'pasos', hint: 'Toca una sala para ver sus piezas. Pellizca para acercar y arrastra para mover.', openRoom: 'Abrir sala', pieces: 'piezas', roomWord: 'Sala', upperNote: 'Aún no recorremos este piso: las salas 12 a 21 se ubican en el plano cuando las verifiquemos en sitio.', upperRooms: 'Salas de la planta alta', courtyard: 'Patio central', pond: 'Estanque', umbrella: 'El Paraguas', lobby: 'Vestíbulo · taquilla', entrance: 'Entrada principal', temporary: 'Exposiciones temporales', ballgame: 'Juego de pelota', auditorium: 'Auditorio', cloakroom: 'Guardarropa', shop: 'Tienda', aria: 'Plano del Museo Nacional de Antropología', upperAria: 'Plano de la planta alta', here: 'Estás aquí', hold: 'Aproximado: la posición exacta de cada pieza se confirma en sitio.', locked: 'Pieza con el pase', moreLocked: 'más con el pase', unlock: 'Desbloquear con el pase' },
+  en: { all: 'Show all', center: 'Center on me', zin: 'Zoom in', zout: 'Zoom out', next: 'Next stop', arrived: "I'm here", steps: 'steps', hint: 'Tap a room to see its pieces. Pinch to zoom and drag to move.', openRoom: 'Open room', pieces: 'pieces', roomWord: 'Room', upperNote: 'We have not walked this floor yet: rooms 12 to 21 are placed on the plan once verified on site.', upperRooms: 'Upper floor rooms', courtyard: 'Central courtyard', pond: 'Pond', umbrella: 'The Umbrella', lobby: 'Lobby · tickets', entrance: 'Main entrance', temporary: 'Temporary exhibitions', ballgame: 'Ball court', auditorium: 'Auditorium', cloakroom: 'Cloakroom', shop: 'Shop', aria: 'Plan of the National Museum of Anthropology', upperAria: 'Upper floor plan', here: 'You are here', hold: 'Approximate: each piece position is confirmed on site.', locked: 'Piece with the pass', moreLocked: 'more with the pass', unlock: 'Unlock with the pass' },
+  fr: { all: 'Tout voir', center: 'Me centrer', zin: 'Zoomer', zout: 'Dézoomer', next: 'Prochain arrêt', arrived: 'Je suis arrivé', steps: 'pas', hint: 'Touchez une salle pour voir ses pièces. Pincez pour zoomer, glissez pour déplacer.', openRoom: 'Ouvrir la salle', pieces: 'pièces', roomWord: 'Salle', upperNote: "Nous n'avons pas encore parcouru cet étage : les salles 12 à 21 seront placées après vérification sur place.", upperRooms: "Salles de l'étage", courtyard: 'Patio central', pond: 'Bassin', umbrella: 'Le Parapluie', lobby: 'Hall · billetterie', entrance: 'Entrée principale', temporary: 'Expositions temporaires', ballgame: 'Jeu de balle', auditorium: 'Auditorium', cloakroom: 'Vestiaire', shop: 'Boutique', aria: "Plan du Musée national d'anthropologie", upperAria: "Plan de l'étage", here: 'Vous êtes ici', hold: 'Approximatif : la position exacte de chaque pièce est confirmée sur place.', locked: 'Pièce avec le pass', moreLocked: 'de plus avec le pass', unlock: 'Débloquer avec le pass' },
+  pl: { all: 'Pokaż całość', center: 'Wyśrodkuj', zin: 'Przybliż', zout: 'Oddal', next: 'Następny przystanek', arrived: 'Jestem na miejscu', steps: 'kroków', hint: 'Dotknij sali, aby zobaczyć eksponaty. Szczypnij, aby przybliżyć, i przeciągnij, aby przesunąć.', openRoom: 'Otwórz salę', pieces: 'eksponatów', roomWord: 'Sala', upperNote: 'Nie przeszliśmy jeszcze tego piętra: sale 12–21 trafią na plan po sprawdzeniu na miejscu.', upperRooms: 'Sale na piętrze', courtyard: 'Dziedziniec', pond: 'Staw', umbrella: 'Parasol', lobby: 'Hol · kasa', entrance: 'Wejście główne', temporary: 'Wystawy czasowe', ballgame: 'Boisko do gry w piłkę', auditorium: 'Audytorium', cloakroom: 'Szatnia', shop: 'Sklep', aria: 'Plan Narodowego Muzeum Antropologii', upperAria: 'Plan piętra', here: 'Jesteś tutaj', hold: 'Orientacyjnie: dokładne położenie każdego eksponatu potwierdzamy na miejscu.', locked: 'Eksponat z karnetem', moreLocked: 'więcej z karnetem', unlock: 'Odblokuj karnetem' },
 };
 
 const MPU = 0.09; // metros por unidad del dibujo (aproximado)
@@ -34,11 +34,14 @@ interface Props {
   onSelectRoom: (room: Room) => void;
   onOpenPiece?: (pieceId: string) => void;
   onOpenStop?: (index: number) => void;
+  /** Sin pase solo se ven las piezas gratis: el resto no muestra nombre ni texto. */
+  hasPass?: boolean;
+  onOpenPaywall?: () => void;
 }
 
 const roomNum = (r: Room) => parseInt(String(r.numero_oficial ?? r.room_id.match(/\d+/)?.[0] ?? '-1'), 10);
 
-export const MuseumPlan: React.FC<Props> = ({ rooms, pieces, floor, hereRoomId, herePieceId, tour, onSelectRoom, onOpenPiece, onOpenStop }) => {
+export const MuseumPlan: React.FC<Props> = ({ rooms, pieces, floor, hereRoomId, herePieceId, tour, onSelectRoom, onOpenPiece, onOpenStop, hasPass = false, onOpenPaywall }) => {
   const { currentLanguage } = useLanguage();
   const lang = (['es', 'en', 'fr', 'pl'].includes(currentLanguage) ? currentLanguage : 'es') as Lang;
   const t = L[lang];
@@ -114,6 +117,7 @@ export const MuseumPlan: React.FC<Props> = ({ rooms, pieces, floor, hereRoomId, 
     return { pos, zoneOf, byZone };
   }, [pieces, zoneOfRoom]);
 
+  const open = (p: PieceData) => hasPass || p.is_free;
   const pieceById = useMemo(() => new Map(pieces.map((p) => [p.piece_id, p])), [pieces]);
   const stopId = (s: { piece_id?: string; id?: string; poi_id?: string }) => s.piece_id || s.id || s.poi_id || '';
   const stops = useMemo(() => {
@@ -285,13 +289,16 @@ export const MuseumPlan: React.FC<Props> = ({ rooms, pieces, floor, hereRoomId, 
   const nextStop = tour && floor === 'PB' ? tour.route.stops[tour.index + 1] : undefined;
   const nextId = nextStop ? stopId(nextStop) : '';
   const nextPiece = nextId ? pieceById.get(nextId) : undefined;
+  const nextOpen = nextPiece ? open(nextPiece) : true;
   const curId = tour ? stopId(tour.route.stops[tour.index] || {}) : '';
   const steps = nextId && curId && pos.has(nextId) && pos.has(curId)
     ? Math.max(3, Math.round((segPts(curId, nextId).reduce((s, p, i, a) => (i ? s + Math.hypot(p[0] - a[i - 1][0], p[1] - a[i - 1][1]) : 0), 0) * MPU) / STEP))
     : null;
 
   const selRoom = sel !== null ? roomByNum.get(sel) : undefined;
-  const selList = sel !== null ? byZone.get(sel) || [] : [];
+  const selAll = sel !== null ? byZone.get(sel) || [] : [];
+  const selList = selAll.filter(open);
+  const selLocked = selAll.length - selList.length;
   const upperRooms = rooms.filter((r) => r.piso === 'PA');
 
   const ink = { fill: 'var(--c-ink)' };
@@ -360,7 +367,7 @@ export const MuseumPlan: React.FC<Props> = ({ rooms, pieces, floor, hereRoomId, 
               })}
               {/* todas las piezas como puntos; al acercarse llevan su número de recorrido en la sala */}
               {Array.from(byZone.entries()).flatMap(([z, list]) => list.map((p, i) => {
-                if (stopIndex.has(p.piece_id)) return null;
+                if (stopIndex.has(p.piece_id) || !open(p)) return null;
                 const [x, y] = pos.get(p.piece_id)!;
                 return (
                   <g key={p.piece_id} style={{ cursor: 'pointer' }} onClick={() => onOpenPiece?.(p.piece_id)}>
@@ -455,7 +462,7 @@ export const MuseumPlan: React.FC<Props> = ({ rooms, pieces, floor, hereRoomId, 
               <span className="font-serif text-[2rem] leading-none text-ink tabular-nums">{sel}</span>
               <div className="min-w-0 flex-1">
                 <p className="font-serif text-h3 text-ink leading-tight">{selRoom.nombre_oficial}</p>
-                <p className="text-cap text-ink-3">{selList.length} {t.pieces}</p>
+                <p className="text-cap text-ink-3">{selAll.length} {t.pieces}</p>
               </div>
               <button type="button" id="btn-plan-open-room" onClick={() => onSelectRoom(selRoom)} className="min-h-11 px-3 rounded-full border border-jade/40 text-ui font-semibold text-jade-ink cursor-pointer active:bg-raised">{t.openRoom}</button>
             </div>
@@ -469,18 +476,27 @@ export const MuseumPlan: React.FC<Props> = ({ rooms, pieces, floor, hereRoomId, 
                   </button>
                 </li>
               ))}
+              {selLocked > 0 && (
+                <li>
+                  <button type="button" onClick={() => onOpenPaywall?.()} className="w-full min-h-12 flex items-center gap-3 py-2 text-left border-b border-line cursor-pointer active:bg-raised">
+                    <Lock className="w-5 h-5 shrink-0 text-ink-3" />
+                    <span className="flex-1 min-w-0 text-ui font-semibold text-ink-2">+{selLocked} {t.moreLocked}</span>
+                    <span className="text-cap font-semibold text-jade-ink">{t.unlock}</span>
+                  </button>
+                </li>
+              )}
             </ul>
             <p className="mt-2 text-cap text-ink-3">{t.hold}</p>
           </>
         ) : nextPiece ? (
           <>
             <p className="text-cap text-ink-3">{t.next}</p>
-            <p className="font-serif text-h3 text-ink leading-tight mt-0.5">{nextPiece.titulo}</p>
+            <p className="font-serif text-h3 text-ink leading-tight mt-0.5">{nextOpen ? nextPiece.titulo : t.locked}</p>
             <div className="mt-3 flex items-center gap-3 rounded-2xl bg-bg px-3 py-2.5">
               {steps !== null && <span className="font-serif text-[1.375rem] leading-none text-jade-ink tabular-nums whitespace-nowrap">≈ {steps} {t.steps}</span>}
               <span className="text-cap text-ink-2 line-clamp-3">
                 {zoneOf.get(nextId) !== undefined && zoneOf.get(nextId) !== zoneOf.get(curId) ? `${t.roomWord} ${zoneOf.get(nextId)}. ` : ''}
-                {nextPiece.puente_narrativo}
+                {nextOpen ? nextPiece.puente_narrativo : ''}
               </span>
             </div>
             <button type="button" onClick={() => tour && onOpenStop?.(tour.index + 1)} className="mt-3 w-full min-h-12 rounded-2xl bg-jade text-on-jade text-ui font-bold cursor-pointer active:opacity-90">{t.arrived}</button>

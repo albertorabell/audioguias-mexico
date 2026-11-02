@@ -127,7 +127,7 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
         {!showLive && (<>
         {hasPlan ? (
           <div className="mt-4">
-            <MuseumPlan rooms={rooms} pieces={pieces} floor={floor} hereRoomId={hereRoomId} herePieceId={herePieceId} tour={tour} onSelectRoom={onSelectRoom} onOpenPiece={onOpenPiece} onOpenStop={onOpenStop} />
+            <MuseumPlan rooms={rooms} pieces={pieces} floor={floor} hereRoomId={hereRoomId} herePieceId={herePieceId} tour={tour} onSelectRoom={onSelectRoom} onOpenPiece={onOpenPiece} onOpenStop={onOpenStop} hasPass={hasPass} onOpenPaywall={onOpenPaywall} />
           </div>
         ) : (<>
         <div className="mt-4">
