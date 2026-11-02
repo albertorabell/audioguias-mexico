@@ -761,6 +761,9 @@ export default function App() {
           liveMap={liveMap}
           hasScheme={!isZones || !!manifest?.zone_map}
           onOpenPiece={openPieceInRoom}
+          siteId={selectedSite?.id}
+          herePieceId={currentPiece?.piece_id || null}
+          onOpenStop={(i) => activeTour && openTourStop(activeTour.route, i)}
         />
       );
     } else {
