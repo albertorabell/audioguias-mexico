@@ -303,7 +303,7 @@ export const MuseumPlan: React.FC<Props> = ({ rooms, pieces, floor, hereRoomId, 
   })();
 
   return (
-    <div>
+    <div id="floor-plan">
       <div ref={wrapRef} className="relative h-[62vh] min-h-[380px] rounded-[20px] bg-surface border border-line overflow-hidden">
         <svg
           ref={svgRef}
@@ -457,7 +457,7 @@ export const MuseumPlan: React.FC<Props> = ({ rooms, pieces, floor, hereRoomId, 
                 <p className="font-serif text-h3 text-ink leading-tight">{selRoom.nombre_oficial}</p>
                 <p className="text-cap text-ink-3">{selList.length} {t.pieces}</p>
               </div>
-              <button type="button" onClick={() => onSelectRoom(selRoom)} className="min-h-11 px-3 rounded-full border border-jade/40 text-ui font-semibold text-jade-ink cursor-pointer active:bg-raised">{t.openRoom}</button>
+              <button type="button" id="btn-plan-open-room" onClick={() => onSelectRoom(selRoom)} className="min-h-11 px-3 rounded-full border border-jade/40 text-ui font-semibold text-jade-ink cursor-pointer active:bg-raised">{t.openRoom}</button>
             </div>
             <ul className="mt-2">
               {selList.map((p, i) => (

@@ -516,7 +516,9 @@ test('mapa: muestra las salas del piso y al tocar una se abre la sala', async ({
   await page.locator('#dock-tab-mapa').click();
   await page.locator('#map-view-scheme').click();
   await expect(page.locator('#floor-plan')).toBeVisible();
-  await page.locator('#floor-plan button', { hasText: 'Mexica' }).click();
+  // Plano nuevo: tocar la sala la acerca y abajo aparece su lista con «Abrir sala»
+  await page.locator('#floor-plan [aria-label*="Mexica"]').click();
+  await page.locator('#btn-plan-open-room').click();
   await expect(page.locator('#btn-start-room')).toBeVisible();
 });
 
