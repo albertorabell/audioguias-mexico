@@ -359,6 +359,11 @@ await sesion({
       await page.waitForTimeout(900);
       await shot('03-zona-alcazar');
     });
+    await paso('04-parada', async () => {
+      await page.locator('#floor-plan svg g[aria-label]').first().click({ force: true });
+      await page.waitForTimeout(700);
+      await shot('04-parada');
+    });
   },
 });
 

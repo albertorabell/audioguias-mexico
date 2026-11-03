@@ -183,8 +183,7 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
     animate([v[0] + v[2] / 2 - w / 2, v[1] + v[3] / 2 - h / 2, w, h], 250);
   };
 
-  const near = vb[2] <= 190;
-  const dot = near ? 7 : 4.6;
+  const near = vb[2] <= 150;
   const pinsHere = pinList.filter(([id, p]) => p.floor === floor && pieceById.has(id));
 
   const nextStop = tour ? tour.route.stops[tour.index + 1] : undefined;
@@ -209,6 +208,7 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
       )}
       <div ref={wrapRef} className="relative h-[62vh] min-h-[380px] rounded-[20px] bg-surface border border-line overflow-hidden">
         <svg ref={svgRef} viewBox={vb.join(' ')} role="group" aria-label={plan.aria[lang]} className="w-full h-full block select-none" style={{ touchAction: 'none', cursor: 'grab' }}>
+          <rect x={-400} y={-400} width={1400} height={1800} fill="#f8f8f8" className="dark:[filter:invert(0.9)_hue-rotate(180deg)]" pointerEvents="none" />
           <image href={fl.img} x={0} y={0} width={fl.size[0]} height={fl.size[1]} className="dark:[filter:invert(0.9)_hue-rotate(180deg)]" pointerEvents="none" />
           {/* camino de la ruta activa (solo entre paradas consecutivas de esta planta) */}
           {stops.slice(0, -1).map((s, k) => {
@@ -218,15 +218,21 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
             const done = s.i < curIdx;
             return <line key={s.id + nx.id} x1={a.at[0]} y1={a.at[1]} x2={b.at[0]} y2={b.at[1]} stroke={done ? 'var(--c-ink-3)' : 'var(--c-jade)'} strokeWidth={done ? 2 : 2.6} strokeLinecap="round" strokeDasharray={done ? undefined : '5 5'} opacity={done ? 0.7 : s.i === curIdx ? 1 : 0.55} />;
           })}
-          {/* todas las paradas como puntos */}
+          {/* todas las paradas como puntos numerados (número de la visita completa) */}
           {pinsHere.map(([id, p]) => {
             if (stopIndex.has(id)) return null;
             const pc = pieceById.get(id)!;
             const on = sel === id;
+            const n = pc.orden_sugerido;
+            const r = on ? 8.6 : 7;
             return (
               <g key={id} style={{ cursor: 'pointer' }} onClick={() => setSel(id)} aria-label={open(pc) ? pc.titulo : t.locked}>
-                <circle cx={p.at[0]} cy={p.at[1]} r={on ? dot + 2 : dot} fill="var(--c-ink-3)" opacity={on ? 1 : 0.7} stroke={on ? 'var(--c-jade)' : 'var(--c-surface)'} strokeWidth={on ? 2.2 : 1.2} strokeDasharray={p.approx ? '2 1.6' : undefined} />
-                <circle cx={p.at[0]} cy={p.at[1]} r={11} fill="transparent" />
+                <circle cx={p.at[0]} cy={p.at[1]} r={r} fill="var(--c-ink-2)" opacity={on ? 1 : 0.85} stroke={on ? 'var(--c-jade)' : 'var(--c-surface)'} strokeWidth={on ? 2.2 : 1.4} strokeDasharray={p.approx ? '2 1.6' : undefined} />
+                {n ? <text x={p.at[0]} y={p.at[1] + 2.8} textAnchor="middle" fontSize={n > 9 ? 7 : 8} fontWeight={700} fill="var(--c-bg)" pointerEvents="none">{n}</text> : null}
+                {(near || on) && open(pc) && (
+                  <text x={p.at[0]} y={p.at[1] - r - 3} textAnchor="middle" fontSize={7.5} fontWeight={600} fill="var(--c-ink)" stroke="var(--c-surface)" strokeWidth={2.4} paintOrder="stroke" pointerEvents="none">{pc.titulo.length > 26 ? `${pc.titulo.slice(0, 25)}…` : pc.titulo}</text>
+                )}
+                <circle cx={p.at[0]} cy={p.at[1]} r={12} fill="transparent" />
               </g>
             );
           })}
