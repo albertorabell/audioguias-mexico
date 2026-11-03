@@ -4,8 +4,9 @@ import { Room, PieceData } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
 import { ActiveTour } from './RoutesScreen';
 import {
-  FIXED, PA_BLOCKS, PA_VIEW, PB_ROOMS, PB_VIEW, PHYS, PaBase, PbBase, SHORT_ES, WAYPOINTS, ZONES, baseLabels, roomFill,
+  PA_BLOCKS, PA_VIEW, PB_ROOMS, PB_VIEW, PaBase, PbBase, SHORT_ES, baseLabels, roomFill,
 } from '../config/mnaPlan';
+import { computePlan, legPoints } from '../config/mnaGeo';
 
 type VB = [number, number, number, number];
 type Lang = 'es' | 'en' | 'fr' | 'pl';
@@ -64,58 +65,7 @@ export const MuseumPlan: React.FC<Props> = ({ rooms, pieces, floor, hereRoomId, 
   const zoneOfRoom = useMemo(() => new Map(rooms.map((r) => [r.room_id, roomNum(r)])), [rooms]);
 
   // Zona y punto de cada pieza de la planta baja
-  const { pos, zoneOf, byZone } = useMemo(() => {
-    const pos = new Map<string, [number, number]>();
-    const zoneOf = new Map<string, number>();
-    const byZone = new Map<number, PieceData[]>();
-    const groups = new Map<number, { p: PieceData; k: string }[]>();
-    for (const p of pieces) {
-      if (p.piso !== 'PB') continue;
-      const f = FIXED[p.piece_id];
-      const z = f ? f.zone : zoneOfRoom.get(p.room_id);
-      if (z === undefined || z < 0 || z > 11) continue;
-      zoneOf.set(p.piece_id, z);
-      if (f) {
-        pos.set(p.piece_id, f.at);
-        byZone.set(z, [...(byZone.get(z) || []), p]);
-      } else {
-        const g = groups.get(z) || [];
-        g.push({ p, k: p.piece_id.replace(/^mna_s\d+_/, '') });
-        groups.set(z, g);
-      }
-    }
-    for (const [z, list] of groups) {
-      const room = PB_ROOMS.find((r) => r.num === z);
-      if (!room) continue;
-      const order = PHYS[z] || [];
-      list.sort((a, b) => {
-        const ia = order.indexOf(a.k), ib = order.indexOf(b.k);
-        return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.p.orden_sugerido - b.p.orden_sugerido;
-      });
-      const [x0, y0, x1, y1] = room.rect;
-      const iw = x1 - x0 - 40, ih = y1 - y0 - 40, n = list.length;
-      const vert = room.flow === 'up' || room.flow === 'down';
-      const along = vert ? ih : iw, across = vert ? iw : ih;
-      const perp = Math.max(1, Math.min(n, Math.round(Math.sqrt((n * across) / along))));
-      const lines = Math.ceil(n / perp);
-      list.forEach((q, i) => {
-        const ln = Math.floor(i / perp);
-        let k = i % perp;
-        const inLine = Math.min(perp, n - ln * perp);
-        if (ln % 2) k = inLine - 1 - k;
-        const a = lines > 1 ? ln / (lines - 1) : 0.5;
-        const b = inLine > 1 ? k / (inLine - 1) : 0.5;
-        let fx: number, fy: number;
-        if (room.flow === 'up') { fy = 1 - a; fx = b; }
-        else if (room.flow === 'down') { fy = a; fx = b; }
-        else if (room.flow === 'left') { fx = 1 - a; fy = b; }
-        else { fx = a; fy = b; }
-        pos.set(q.p.piece_id, [x0 + 20 + iw * fx, y0 + 20 + ih * fy]);
-        byZone.set(z, [...(byZone.get(z) || []), q.p]);
-      });
-    }
-    return { pos, zoneOf, byZone };
-  }, [pieces, zoneOfRoom]);
+  const { pos, zoneOf, byZone } = useMemo(() => computePlan(pieces, zoneOfRoom), [pieces, zoneOfRoom]);
 
   const open = (p: PieceData) => hasPass || p.is_free;
   const pieceById = useMemo(() => new Map(pieces.map((p) => [p.piece_id, p])), [pieces]);
@@ -127,21 +77,7 @@ export const MuseumPlan: React.FC<Props> = ({ rooms, pieces, floor, hereRoomId, 
   const stopIndex = useMemo(() => new Map(stops.map((s) => [s.id, s.i])), [stops]);
   const curIdx = tour ? tour.index : -1;
 
-  const segPts = useCallback((a: string, b: string) => {
-    const za = zoneOf.get(a)!, zb = zoneOf.get(b)!;
-    const pts: [number, number][] = [pos.get(a)!];
-    if (za !== zb) {
-      const ia = ZONES.indexOf(za), ib = ZONES.indexOf(zb);
-      const step = ib > ia ? 1 : -1;
-      for (let k = ia; k !== ib; k += step) {
-        const key = step > 0 ? `${ZONES[k]}-${ZONES[k + 1]}` : `${ZONES[k - 1]}-${ZONES[k]}`;
-        const w = WAYPOINTS[key] || [];
-        pts.push(...(step > 0 ? w : [...w].reverse()));
-      }
-    }
-    pts.push(pos.get(b)!);
-    return pts;
-  }, [pos, zoneOf]);
+  const segPts = useCallback((x: string, y: string) => legPoints(pos.get(x)!, zoneOf.get(x)!, pos.get(y)!, zoneOf.get(y)!), [pos, zoneOf]);
 
   // Dónde está la persona: la pieza abierta, o el centro de su sala
   const here = useMemo<{ at: [number, number]; zone: number } | null>(() => {
