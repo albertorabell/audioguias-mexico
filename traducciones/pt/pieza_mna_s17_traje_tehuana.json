@@ -1,0 +1,61 @@
+{
+  "id": "mna_s17_traje_tehuana",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Zapoteca\" para \"Zapoteca / Zapotecas\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"zapoteco\" para \"zapoteco\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "61eebf67f33ef45c",
+      "texto": "Traje de Gala e Resplendor de Tehuana"
+    },
+    "frase_gancho": {
+      "hash": "7c30bdea2773630b",
+      "texto": "Flores de seda sobre veludo e uma renda que ilumina o rosto."
+    },
+    "puente_narrativo": {
+      "hash": "28b7cc6a417e1ead",
+      "texto": "Das flores do Istmo passamos ao vermelho da serra. Procure um huipil longo, de um vermelho intenso, com faixas de desenhos geométricos tecidos e borlas coloridas."
+    },
+    "guion_corto": {
+      "hash": "d98862041377642c",
+      "texto": "Este é o traje de gala das mulheres zapotecas do Istmo de Tehuantepec, em Oaxaca. Consiste em um huipil curto e uma saia ampla de veludo, ou de tecido acetinado, cobertos por enormes flores bordadas à mão com fio de seda: rosas, tulipas e amores-perfeitos. A saia termina em um babado de renda engomada. Para as festas mais importantes, as mulheres colocam o resplendor, um toucado de renda branca que contorna o rosto como uma auréola. Completam o traje colares de moedas de ouro e joias de filigrana. É uma roupa de muito trabalho e muito orgulho. No Istmo, as mulheres têm fama de fortes, de serem donas do comércio e da festa."
+    },
+    "guion_largo": {
+      "hash": "fa420fc3b301bbfe",
+      "texto": "Poucos trajes no mundo chamam tanto a atenção quanto este. Flores enormes sobre veludo escuro, colares de ouro, uma renda branca que emoldura o rosto como uma auréola. É o traje de gala da tehuana, a mulher zapoteca do Istmo de Tehuantepec, e tornou-se um dos símbolos mais reconhecíveis do México.\n\nPrimeiro, o contexto. Os zapotecas do Istmo chamam a si mesmos de binnizá, que significa «gente das nuvens». E os zapotecas do vale, os de Monte Albán, adoravam [Cocijo](mna_s07_urna_cocijo), o deus da chuva, como você viu na sala de Oaxaca lá embaixo. Uma gente das nuvens, um deus da chuva: a água sempre esteve no centro da sua maneira de ver o mundo.\n\nAgora, o bordado. As flores do traje são bordadas à mão, com seda, sobre veludo ou cetim. São rosas, tulipas e amores-perfeitos, flores que chegaram ao México com os espanhóis e que aqui se tornaram parte de uma tradição própria. Pensa-se que o gosto por essas flores bordadas se consolidou a partir do século dezenove, quando se combinaram tecidos europeus com o talento local. O resultado é enorme: cada flor pode medir dezenas de centímetros.\n\nUma lenda conta que o resplendor nasceu da renda de uma roupa de batismo, chegada pelo mar, que uma mulher colocou na cabeça. Seja ou não verdadeira, a história mostra como o Istmo faz seu tudo o que chega. Quando numa festa toca La Sandunga, a célebre canção do Istmo, as mulheres a dançam com este traje.\n\nDepois, o resplendor. É um toucado de renda branca engomada que se coloca ao redor do rosto, como se fosse uma moldura ou um sol. Usa-se nas festas mais importantes, como as velas, que são grandes celebrações comunitárias do Istmo com música, dança e comida. Imagine dezenas de mulheres com resplendor dançando juntas: deve parecer um campo de sóis.\n\nAs joias também contam. Os colares de moedas de ouro, chamados de gargantilhas, e as correntes de filigrana são herança de família. No Istmo, o ouro é uma forma de poupança e de orgulho. Uma mulher que exibe suas joias mostra a sua fortuna e a de sua linhagem.\n\nA tehuana tem fama de independente. É conhecida por cuidar do comércio, dos mercados e da economia da casa, e por ter um lugar muito forte dentro da família. Essa imagem de mulher segura de si ficou famosa em todo o país. Frida Kahlo, que admirava essa força, adotou o traje de tehuana como parte de sua imagem, e o levou a retratos e fotografias que deram a volta ao mundo.\n\nEm Juchitán e outros povoados do Istmo, os muxes, pessoas cuja identidade de gênero tem um lugar reconhecido na cultura zapoteca, também vestem este traje e fazem parte das velas.\n\nQuando você olhar o traje, não pense em uma fantasia. Pense em horas de bordado, em tradição de gerações e em uma forma de dizer «aqui estou». O Istmo de Tehuantepec é um lugar de ventos, de calor, de música e de festas, e esta roupa é a sua maneira de mostrá-lo."
+    },
+    "retos_observacion": {
+      "hash": "66648c2efd5306a0",
+      "texto": [
+        "Procure as flores bordadas: quantas cores diferentes elas têm?",
+        "Observe a renda branca que forma o resplendor ao redor do rosto",
+        "Repare nas joias de ouro e no babado da saia"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7a464828bf1c9298",
+      "texto": {
+        "Povo": "Zapoteca (Binnizá)",
+        "Região": "Istmo de Tehuantepec, Oaxaca",
+        "Técnica/Material": "Veludo bordado à mão com seda, renda plissada, goma e ourivesaria de ouro",
+        "Função": "Indumentária de gala para velas patronais, mordomias e celebrações identitárias"
+      }
+    },
+    "faq_mito": {
+      "hash": "65b8f47dd401bff1",
+      "texto": {
+        "pregunta": "Mito: O traje de tehuana é uma fantasia de festa que ninguém mais usa.",
+        "respuesta": "Realidade: É uma roupa de gala que muitas mulheres do Istmo continuam usando nas velas e em outras festas. Cada bordado é um trabalho manual de muitas horas."
+      }
+    }
+  }
+}

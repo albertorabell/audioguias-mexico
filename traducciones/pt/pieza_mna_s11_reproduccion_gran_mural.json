@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_reproduccion_gran_mural",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0f68d17c40f5a56b",
+      "texto": "Reprodução da arte rupestre do Gran Mural"
+    },
+    "frase_gancho": {
+      "hash": "05d786020a564c7e",
+      "texto": "Figuras pintadas há milhares de anos em cânions aonde quase ninguém chega."
+    },
+    "puente_narrativo": {
+      "hash": "8f0f35272094ed11",
+      "texto": "Das paredes pintadas passamos ao interior das cavernas do deserto. Procure uma cena que recria cavernas secas do norte, onde o ar seco conservou cestos, sandálias e fardos funerários."
+    },
+    "guion_corto": {
+      "hash": "7b7f68960c105a21",
+      "texto": "Esta é uma reprodução das pinturas rupestres da Sierra de San Francisco, em Baja California Sur. Lá, em cânions de difícil acesso, há centenas de abrigos de rocha com pinturas, e a UNESCO declarou o conjunto Patrimônio Mundial em 1993. O estilo se chama Gran Mural: silhuetas grandes de pessoas e de animais, sobretudo veados, pintadas em vermelho, preto, branco e amarelo. Algumas figuras humanas passam dos dois metros, e muitas foram pintadas umas sobre as outras. Foram feitas por grupos de caçadores-coletores, que se relacionam com os antepassados dos cochimís. Para ver os originais é preciso uma autorização do INAH, um guia e, às vezes, vários dias de caminhada. Esta reprodução permite espiar esse mundo sem sair da Cidade do México."
+    },
+    "guion_largo": {
+      "hash": "9331c7e41a5c68b0",
+      "texto": "Quanto mede um veado pintado há milhares de anos? Na Sierra de San Francisco, entre dois e três metros de comprimento. Os pintores daquela região não faziam figuras pequenas. Trabalhavam sobre as paredes e os tetos de abrigos de rocha, e algumas de suas figuras humanas ultrapassam os dois metros de altura. Elas são conhecidas como Gran Mural.\n\nEssa serra fica no centro da península de Baja California, no município de Mulegé. Está dentro da Reserva da Biosfera El Vizcaíno. Os cânions são secos e profundos. Chegar a alguns abrigos exige desde uma caminhada de uma hora até vários dias a pé ou com mulas. A UNESCO explica que as pinturas estão muito bem conservadas graças ao clima seco e à dificuldade de acesso. Hoje elas são visitadas com reserva, com autorização do INAH e com um guia autorizado.\n\nRepare em como elas foram feitas. As figuras são silhuetas preenchidas com faixas, listras e outros desenhos geométricos. As pessoas costumam aparecer de frente e com os braços erguidos, e os veados e outros animais, de perfil. Entre os animais há carneiros selvagens, coelhos, aves, peixes e tartarugas. Em alguns painéis, flechas ou lanças atravessam os corpos de pessoas e de animais.\n\nAs cores saíram da terra. O vermelho e o amarelo eram obtidos de óxidos de ferro, o branco, de gesso, e o preto, segundo as análises, de manganês. Tudo era moído e misturado com água e com algum aglutinante vegetal que ainda está sendo estudado. Os especialistas pensam que a tinta era aplicada com pincéis feitos de folhas de agave, e que, para alcançar os tetos, eram montados andaimes de troncos.\n\nMuitas figuras estão sobrepostas. Uma pintura nova era feita sobre outra mais antiga, e na Cueva Pintada já foram contadas até sete camadas. Pensa-se que repintar não era um descuido, mas parte de rituais nos quais se lembravam antepassados e personagens míticos.\n\nQuem as pintou e quando? Elas são atribuídas aos antepassados dos cochimís, um povo de caçadores, coletores e pescadores que os missionários jesuítas conheceram no século dezoito. Segundo os relatos recolhidos, os cochimís diziam não saber quem as havia feito e falavam de uma raça antiga de gigantes. As datas também são discutidas. A UNESCO fala de algo entre o ano cem antes de Cristo e o ano 1300 da nossa era. Estudos mais recentes apontam idades de vários milhares de anos, até cerca de sete mil e quinhentos.\n\nOs missionários foram os primeiros a descrevê-las, mas o mundo só as conheceu muito depois. Em 1962, o escritor de romances policiais Erle Stanley Gardner publicou fotografias de várias cavernas em uma revista, e o arqueólogo Clement Meighan as estudou. Nos anos setenta, o fotógrafo Harry Crosby percorreu a serra em lombo de mula, e a ele se atribui o nome Gran Mural. O INAH pesquisa ali desde 1981. Entre 1994 e 1996, junto com o Instituto Getty de Conservação, estudou como as pinturas da Cueva del Ratón se deterioram.\n\nNesta mesma sala você viu uma laje com gravuras de outros caçadores do deserto, e um fardo que a secura conservou. Estas pinturas mostram outra maneira de deixar uma marca: não golpeando a pedra, mas cobrindo-a de cor. Uma reprodução não substitui o original, mas tem uma vantagem: aqui você pode ficar o tempo que quiser, sem caminhada nem autorizações. Escolha uma figura e pergunte-se o que quis dizer quem a pintou."
+    },
+    "retos_observacion": {
+      "hash": "7c6b3f21caa03314",
+      "texto": [
+        "Procure as figuras humanas e repare na posição dos braços delas",
+        "Encontre um animal, talvez um veado, e veja se ele aparece de frente ou de perfil",
+        "Repare se algumas figuras estão pintadas por cima de outras e conte as cores"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f8e0e446a977c0f",
+      "texto": {
+        "Cultura": "Tradição Gran Mural (antepassados dos povos cochimís)",
+        "Período": "Entre o século I a.C. e 1300 d.C. (com datações que sugerem raízes ainda mais antigas)",
+        "Material": "Reprodução museográfica em escala de abrigo rochoso pintado com óxidos minerais",
+        "Procedência original": "Sierra de San Francisco, Mulegé, Baja California Sur"
+      }
+    },
+    "faq_mito": {
+      "hash": "1b0539ca64a6d9a9",
+      "texto": {
+        "pregunta": "Mito: Esta pintura é o original, trazido de uma caverna de Baja California.",
+        "respuesta": "Realidade: É uma reprodução. Os originais continuam nos abrigos de rocha da Sierra de San Francisco."
+      }
+    }
+  }
+}

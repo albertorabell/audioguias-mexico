@@ -1,0 +1,58 @@
+{
+  "id": "mna_s13_vitral_goeritz",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "b1d4593cd9406146",
+      "texto": "Vitral de Carlos Mérida e biombos de Mathias Goeritz"
+    },
+    "frase_gancho": {
+      "hash": "cd0efc8b8beccf0e",
+      "texto": "Dois artistas do século vinte olham a serra wixárika (huichol) com olhos modernos."
+    },
+    "puente_narrativo": {
+      "hash": "f979f35bb01afa36",
+      "texto": "Passamos dos wixárikas aos seus vizinhos, os coras, e à sua Semana Santa. Procure uma máscara feroz, pintada e com chifres ou traços de animal, feita para uma dança da serra."
+    },
+    "guion_corto": {
+      "hash": "b915c99296263e35",
+      "texto": "Nesta sala há duas obras feitas para o museu por artistas modernos do século vinte, e não por artesãos wixárikas. A primeira é um vitral de Carlos Mérida, pintor nascido na Guatemala e radicado no México, intitulado «O mundo mágico dos wixárikas». Embora o chamemos de vitral, ele não é de vidro: é feito com placas de acrílico coloridas montadas em uma moldura de madeira. A segunda são os biombos de Mathias Goeritz, um artista de origem alemã: painéis tecidos com corda de ixtle, cujos desenhos lembram os símbolos da serra. Ambos se inspiraram na maneira de ver o mundo desses povos e a traduziram para a linguagem da arte abstrata."
+    },
+    "guion_largo": {
+      "hash": "f106a8b9c877e49c",
+      "texto": "Nesta sala, entre vitrines cheias de objetos feitos por mãos wixárikas, há algo diferente: obras de arte moderna. Não foram feitas por artesãos da serra, mas por dois artistas do século vinte que quiseram dialogar com esse mundo. Uma é um vitral. A outra, um conjunto de biombos tecidos. As duas foram pensadas para este lugar.\n\nO museu foi inaugurado em 1964, e por trás dele havia uma ideia muito mexicana: que os edifícios, as vitrines e as paredes trabalhassem juntos com a arte de sua época. Por isso, ao longo do percurso você verá murais de pintores como [Rufino Tamayo](mna_s00_mural_tamayo), na entrada, ou [Leonora Carrington](mna_s19_mural_carrington), com os maias de hoje. Aqui, coube a um guatemalteco e a um alemão.\n\nCarlos Mérida nasceu na Guatemala em 1891 e viveu muitos anos no México. Foi um dos pioneiros da arte abstrata na América Latina, e se inspirou nos desenhos dos têxteis e da arte indígena: formas geométricas, cores intensas, ritmos que se repetem. Seu vitral se intitula «O mundo mágico dos wixárikas».\n\nEmbora o chamemos de vitral, ele não é de vidro. É feito com placas de acrílico coloridas, montadas em uma moldura de madeira. Quando a luz atravessa essas placas, a cor se acende, como em uma janela de igreja. É um modo de dizer que um mundo em que tudo é visão, cor e luz, como o wixárika, também cabe em uma linguagem moderna.\n\nMathias Goeritz, de origem alemã, chegou ao México em 1949. Foi escultor, arquiteto e escritor, e talvez sua obra mais famosa sejam as Torres de Satélite, que ele fez junto com o arquiteto Luis Barragán. Para esta sala, fez biombos: painéis de têxtil tecidos com corda de ixtle, cujos desenhos lembram símbolos wixárikas.\n\nA corda de ixtle já soa familiar para você. É a mesma fibra de agave com a qual os habitantes da Caverna de La Candelaria teciam suas mantas, e você a verá de novo na Sala dos Povos Otopames. Goeritz pegou um material humilde e o transformou em uma parede de arte.\n\nQue símbolos eles lembram? Nos quadros de lã e na roupa bordada que você acabou de ver estão o veado, o milho, o peyote, o sol e as plumas. Os artistas não copiaram esses desenhos: eles os reinterpretaram. Onde um artesão wixárika vê uma oração, o artista moderno vê também uma forma.\n\nHá quem veja nessas obras uma homenagem, e há quem se pergunte o que acontece quando a arte moderna toma emprestados símbolos que, para seus criadores, são sagrados. A pergunta continua em aberto, e por isso é interessante: esta sala deixa você olhar para os wixárikas, e também olhar como outros os olharam.\n\nAntes de seguir, aproxime-se do vitral e olhe a cor contra a luz; depois, vá até os biombos e observe a trama. Dois materiais modestos, acrílico e corda, e duas maneiras de sonhar a serra. E cabe a você decidir: de qual você prefere, a cor que se acende ou a trama que se toca com os olhos?"
+    },
+    "retos_observacion": {
+      "hash": "98a4f648aaf1af1e",
+      "texto": [
+        "Olhe o vitral contra a luz e procure as cores que mais brilham",
+        "Aproxime-se dos biombos e observe a trama da corda",
+        "Compare os símbolos dos biombos com os do traje bordado: quais se parecem?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f56d91caa7bbfa59",
+      "texto": {
+        "Autores": "Carlos Mérida (vitral) e Mathias Goeritz (biombos)",
+        "Obra": "«O mundo mágico dos wixárikas» (vitral)",
+        "Técnica": "Placas de acrílico coloridas em moldura de madeira (vitral); corda de ixtle tecida (biombos)",
+        "Sala": "Gran Nayar"
+      }
+    },
+    "faq_mito": {
+      "hash": "71ee3a500c80a5c4",
+      "texto": {
+        "pregunta": "Mito: Tudo o que está exposto no museu foi feito pelos povos antigos ou por seus descendentes.",
+        "respuesta": "Realidade: O museu também reúne obras de artistas modernos, como o vitral de Carlos Mérida ou os murais de Rufino Tamayo, feitas para dialogar com as culturas que ele apresenta."
+      }
+    }
+  }
+}

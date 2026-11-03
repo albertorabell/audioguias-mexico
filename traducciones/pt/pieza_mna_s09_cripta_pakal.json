@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_cripta_pakal",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "730dfe8e3fb73576",
+      "texto": "Cripta e Sarcófago de Pakal (recreação)"
+    },
+    "frase_gancho": {
+      "hash": "2133d447b64bc0bf",
+      "texto": "O túmulo de um rei, recriado em tamanho real sob uma luz vermelha."
+    },
+    "puente_narrativo": {
+      "hash": "30bd9a1a6f4a2b66",
+      "texto": "Sob esse sarcófago apareceu outro rosto, feito de cal e não de pedra verde. Procure uma cabeça de estuque, de perfil alongado, com três botões de flor no penteado."
+    },
+    "guion_corto": {
+      "hash": "d9d796afb01aadb4",
+      "texto": "Você está diante de um túmulo, mas não é o verdadeiro. É uma recreação em tamanho real da câmara funerária de Pakal, no Templo das Inscrições de Palenque, o lugar onde foi encontrada a [máscara](mna_s09_mascara_pakal) que você acaba de ver. Uma luz vermelha cai sobre a laje entalhada e sobre o sarcófago de pedra. Na laje, o rei aparece no momento de morrer: desce pelo tronco de uma árvore sagrada rumo às fauces do Monstro da Terra, a entrada para o mundo inferior. Interpreta-se como o passo anterior ao renascimento. Nas paredes há figuras de estuque: são os Nove Senhores da Noite. Pakal foi sepultado no ano 683, e seu esqueleto estava coberto de cinábrio, um pigmento vermelho."
+    },
+    "guion_largo": {
+      "hash": "27f736700e5bbe32",
+      "texto": "[A máscara de jade](mna_s09_mascara_pakal) não apareceu em uma vitrine. Apareceu em um lugar, e este é esse lugar, reconstruído em seu tamanho real. O que você tem à frente é uma recreação: a cripta verdadeira continua em Palenque, a mais de vinte metros de profundidade, no coração do Templo das Inscrições, e hoje já não é permitido descer até ela. Aqui você tem a única maneira de espiar sem viajar até Chiapas.\n\nPense no que fizeram os construtores. Ergueram uma pirâmide de nove níveis e, dentro dela, deixaram uma escada escondida que desce até a câmara do rei. Pensa-se que Pakal mandou preparar este túmulo quando ainda vivia, e que seu filho e sucessor, Kan Bahlam, terminou a pirâmide que o cobre. O rei desenhou a própria viagem, e sua família a fechou com toneladas de pedra.\n\nOlhe a grande laje que cobre o sarcófago. Ela pesa várias toneladas, e seu relevo se lê em três níveis. Embaixo, o rei cai rumo às fauces abertas do Monstro da Terra, a porta do mundo inferior. No centro cresce uma árvore sagrada, em forma de cruz, que une os mundos. E no alto, pousada na copa, há uma ave do céu. Pakal não está deitado: está descendo, e a imagem é interpretada como o começo de seu renascimento.\n\nEssa cena é tão famosa que deu origem a uma teoria curiosa: há quem tenha acreditado ver nela um astronauta pilotando seu foguete. Não é. O que parece uma nave é o corpo do rei sobre as fauces da terra, e o que parecem tubos são parte da árvore e do monstro. Não há astronautas, mas uma ideia maia muito bela: um rei que morre para renascer, como a semente do milho que é enterrada e volta a brotar.\n\nObserve também as laterais do sarcófago original. Ali foi entalhada uma fileira de personagens que se pensa serem antepassados do rei, e de cada um deles brota uma árvore carregada de frutos. Pakal não chegava sozinho ao outro mundo: era recebido por sua linhagem.\n\nAgora olhe as paredes, onde há figuras de estuque. São nove senhores de pé, os Nove Senhores da Noite, que, segundo se pensa, vigiavam o sono do rei. O número nove não é casual: nove eram os níveis da pirâmide que cobre o túmulo e, na tradição maia, nove os andares do mundo inferior. Pakal descia por uma pirâmide que repetia, em pedra, o caminho que o esperava.\n\nHá mais um detalhe. Do túmulo original sai um tubo de pedra que sobe junto à escada até o templo. Pensa-se que servia para que o espírito do rei pudesse se comunicar com o mundo dos vivos. Um túmulo selado, mas com um fio para o alto.\n\nE há a cor. O esqueleto de Pakal estava coberto de cinábrio, um pigmento vermelho que os maias associavam ao sangue e ao amanhecer. A luz vermelha desta sala lembra essa cor e ajuda você a imaginar a câmara fechada, por mais de mil e duzentos anos, até que em 1952 o arqueólogo Alberto Ruz Lhuillier abriu a porta.\n\nAntes de seguir, mais uma surpresa desse túmulo. Sob o sarcófago, entre vasilhas de cerâmica, Ruz encontrou [duas cabeças de estuque](mna_s09_cabeza_pakal). Uma delas você vai conhecer agora."
+    },
+    "retos_observacion": {
+      "hash": "dc81d267036164d3",
+      "texto": [
+        "Procure na laje o rei que cai rumo às fauces do Monstro da Terra",
+        "Observe as figuras de estuque das paredes: são os Nove Senhores da Noite",
+        "Veja como muda o aspecto da pedra sob a luz vermelha"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e8fc8aaa81a9b96a",
+      "texto": {
+        "Cultura": "Maia, Palenque",
+        "Período": "Original do Clássico Tardio (600-900 d.C.); recreação museográfica",
+        "Material": "Recreação em escala real de uma câmara de pedra calcária com laje e sarcófago",
+        "Procedência": "Templo das Inscrições, Palenque, Chiapas",
+        "Dimensões": "Escala 1:1"
+      }
+    },
+    "faq_mito": {
+      "hash": "6d4f1f4df549aed2",
+      "texto": {
+        "pregunta": "Mito: O túmulo de Pakal que você vê aqui é o original, trazido de Palenque.",
+        "respuesta": "Realidade: É uma recreação em tamanho real. A cripta verdadeira continua dentro do Templo das Inscrições, em Palenque."
+      }
+    }
+  }
+}

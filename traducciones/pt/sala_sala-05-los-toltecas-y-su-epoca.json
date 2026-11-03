@@ -1,0 +1,29 @@
+{
+  "id": "sala-05-los-toltecas-y-su-epoca",
+  "tipo": "sala",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "nombre_oficial": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ],
+    "introduccion_narrativa": [
+      "el glosario pide \"Muro das Serpentes\" para \"Muro de Serpientes\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "0340ee1278b070e6",
+      "texto": "Os Toltecas e sua Época"
+    },
+    "frase_gancho": {
+      "hash": "7a82c65ae56983ad",
+      "texto": "Depois da cidade dos deuses, chega a dos guerreiros."
+    },
+    "introduccion_narrativa": {
+      "hash": "e2811fb2b8404915",
+      "texto": "Quando Teotihuacán se apagou, o vale se encheu de cidades que queriam ocupar o seu lugar. Esta sala começa nesses séculos de reacomodação, entre os anos setecentos e novecentos, com vestígios de lugares como Xochicalco, Cacaxtla e Teotenango, e chega a Tula, a capital dos toltecas, que dominou o centro do México até cerca de mil cento e cinquenta. Para os mexicas, os toltecas foram os sábios e os artistas por excelência: a palavra “tolteca” chegou a significar artesão. Aqui você vai ver guerreiros gigantes que sustentavam um teto, um muro de serpentes, animais que marcham como um exército e a lenda de um rei-sacerdote, Quetzalcóatl, que perdeu sua cidade e virou estrela."
+    }
+  }
+}

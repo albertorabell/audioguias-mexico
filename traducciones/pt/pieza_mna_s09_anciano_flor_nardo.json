@@ -1,0 +1,65 @@
+{
+  "id": "mna_s09_anciano_flor_nardo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece",
+      "el glosario pide \"Lacandona\" para \"Lacandón / Lacandones\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Lacandona\" para \"Lacandón / Lacandones\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "8c7ea3ca2f0f75e3",
+      "texto": "Ancião na Flor de Nardo (Jaina)"
+    },
+    "frase_gancho": {
+      "hash": "e8352075bac28f45",
+      "texto": "Um velho de barro surge entre pétalas, como se nascesse de novo."
+    },
+    "puente_narrativo": {
+      "hash": "d62b2cd8a1dfdce7",
+      "texto": "De uma figura diminuta passamos a uma pintura de grande formato. Procure um mural dedicado ao mundo maia, obra de Rina Lazo, a mesma artista que copiou as pinturas de Bonampak."
+    },
+    "guion_corto": {
+      "hash": "99e90bc529f339bf",
+      "texto": "Esta figura de barro vem de Jaina, a ilha de Campeche onde os maias enterravam seus mortos. Mostra um ancião rodeado de pétalas, como se brotasse de uma flor aberta. Foi feita no período Clássico Tardio, entre os anos seiscentos e novecentos. Os especialistas propõem que a flor é um lírio-d’água. Outros a relacionam com o nardo, a flor da qual, segundo um mito dos lacandonas, nasceram os deuses. Já se disse que o ancião é um deus, ou um morto que volta a nascer, mas ninguém sabe com certeza. O que se entende é a ideia de fundo: uma flor que se abre é um começo. Por isso estas figuras acompanhavam os mortos."
+    },
+    "guion_largo": {
+      "hash": "3774a54b5ab58d75",
+      "texto": "Há figuras que se entendem pelo rosto e outras que se entendem pelo que as rodeia. Esta é das segundas. As pétalas não são um adorno. São o lugar de onde o ancião parece sair, como se a flor o protegesse.\n\nComecemos pela flor, que tem dois nomes. Para uns é um lírio-d’água, ou nenúfar, uma planta que flutua em lagoas e pântanos. Sua flor se abre com a luz do dia e se fecha à noite. Os maias a relacionavam com a água e com o submundo, e por isso se propôs que simboliza a renovação depois da morte. Nos estudos sobre Jaina, o mais comum é falar de lírios.\n\nPara outros, a flor é um nardo. Essa ideia vem de um mito dos lacandonas, um povo maia que vive na selva de Chiapas. Segundo o estudioso Boremanse, que recolheu o relato, os deuses nasceram quando se abriu uma flor de nardo, e não tiveram mãe. Um estudo do INAH acrescenta que um deles, Mensabak, distribui as chuvas. Mas esse relato foi contado e escrito em tempos modernos, mais de mil anos depois destas figuras. É uma pista, não uma prova.\n\nEsta não é uma peça isolada. Em 1975, um estudo de Miller revisou umas trezentas figuras de Jaina e as classificou em três tipos. Um deles reúne justamente as figuras que saem de uma flor de caule longo. E quem é o ancião? Já se propôs que é uma divindade. Também, que é uma pessoa em seu “outro nascimento”, ou seja, o morto que renasce no além. Entre os especialistas não há acordo, e tampouco há um nome seguro para ele.\n\nHá outras figuras de flor em que o personagem é jovem, de cabeça alongada como uma espiga de milho. Museus dos Estados Unidos as identificam com o deus do milho. É o mesmo deus em que se transformou o rei [Pakal](mna_s09_mascara_pakal) com sua máscara de jade. Em outras, como esta, o personagem é velho. Já se pensou que jovens e velhos mostram as idades de uma mesma vida, e que a flor as une.\n\nLembre-se da [cabeça de estuque de Pakal](mna_s09_cabeza_pakal). Três botões de flor rodeiam seu penteado, e para os maias as flores eram beleza, coisa sagrada e broto do milho. Também se propôs que eles imaginavam um paraíso cheio de flores, música e perfume, onde viviam antepassados e deuses. Uma figura que nasce de uma flor, colocada junto a um morto, se encaixaria nessa esperança.\n\nJaina é uma ilha pequena, mas calcula-se que guarde dezenas de milhares de túmulos. Apenas uma parte mínima foi escavada. Como o senhor sentado de Jaina que você viu antes, esta peça foi feita para acompanhar alguém. Em figuras como esta, o habitual é que os braços se cruzem sobre o corpo. Algumas das figuras de flor são apitos, então talvez o som também fizesse parte da despedida.\n\nAntes de seguir, veja como as pétalas o envolvem. Pense em uma flor de água que se fecha à noite e se abre de dia. Quem a colocou em um túmulo talvez esperasse o mesmo para o seu morto: uma manhã diferente."
+    },
+    "retos_observacion": {
+      "hash": "d0ce6ca35dee1837",
+      "texto": [
+        "Procure as pétalas que rodeiam o ancião e conte quantas você consegue ver",
+        "Repare no rosto: que sinais de idade você encontra?",
+        "Olhe onde repousam seus braços e suas mãos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2500a905f19566b5",
+      "texto": {
+        "Cultura": "Maia (estilo Jaina)",
+        "Período": "Clássico Tardio (cerca de 600-900 d.C.)",
+        "Material": "Barro modelado",
+        "Procedência": "Ilha de Jaina, Campeche"
+      }
+    },
+    "faq_mito": {
+      "hash": "9ef2a013cee79d4b",
+      "texto": {
+        "pregunta": "Mito: Para os maias, a morte era um fim sem retorno.",
+        "respuesta": "Realidade: Em muitas imagens funerárias aparece a ideia de renascer, como o milho que brota ou a flor que se abre. Figuras como esta, encontradas nos túmulos de Jaina, costumam ser lidas assim."
+      }
+    }
+  }
+}

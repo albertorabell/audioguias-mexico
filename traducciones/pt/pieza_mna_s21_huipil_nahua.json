@@ -1,0 +1,54 @@
+{
+  "id": "mna_s21_huipil_nahua",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9282282e0e0c25bf",
+      "texto": "Huipil tradicional Nahua da Huasteca Hidalguense"
+    },
+    "frase_gancho": {
+      "hash": "a81ad48062fca264",
+      "texto": "Um huipil branco onde florescem pássaros, milho e estrelas de quatro pontas."
+    },
+    "puente_narrativo": {
+      "hash": "9f1df60cccb244fb",
+      "texto": "Do tecido passamos ao papel. Procure uma lâmina marrom, coberta de pequenas cenas de festas, casamentos e trabalho no campo, desenhadas em tinta preta."
+    },
+    "guion_corto": {
+      "hash": "99c328b7d912a360",
+      "texto": "Este huipil é das mulheres nahuas da Huasteca, no estado de Hidalgo. É uma peça de corte reto, de algodão branco, com um decote quadrado. Está coberta de bordados em ponto cruz, com fios de cores muito vivas: vermelho-carmim, rosa-mexicano, laranja, verde e azul-turquesa. Repare nos desenhos: flores do campo, pássaros, trepadeiras, plantas de milho e estrelas de quatro pontas. Para as mulheres nahuas, bordar é uma maneira de desenhar o mundo que as rodeia: a milpa, o monte e os animais que vivem nele. Esta peça é usada em casamentos, em batizados e no Xantolo, a festa dos mortos."
+    },
+    "guion_largo": {
+      "hash": "5cc3726444e6d2a4",
+      "texto": "Se você chegou até aqui, percorreu quase todo o museu, e chegou a hora de cumprimentar os descendentes dos mexicas. Os nahuas são o povo indígena mais numeroso do país: calcula-se que mais de um milhão e meio de pessoas falem náuatle. Eles não vivem em um só lugar: há comunidades nahuas na Huasteca, na Serra Norte de Puebla, em Guerrero, em Morelos, no Estado do México, em Veracruz e até nas periferias da Cidade do México.\n\nSem perceber, você já fala um pouco do idioma deles. Chapulín, guajolote, tianguis, petate, mecate e papalote vêm do náuatle, e papalote significa «borboleta». Na primeira sala do andar de cima, você viu que chocolate, tomate e aguacate também vêm de lá. Cada vez que você pede um guajolote no mercado, está usando uma palavra que já se dizia no mercado de Tlatelolco.\n\nMuitos nahuas chamam a si mesmos de macehuales. Em tempos mexicas, a palavra designava a gente comum, em contraste com a nobreza, e foi explicada como «os merecidos»: aqueles que existem porque os deuses fizeram penitência por eles. É a história do Quinto Sol, que você viu na [Pedra do Sol](mna_s06_piedra_sol). Quando uma mulher nahua se apresenta como macehual, ela recorda, sem dizer, essa história de sacrifício e de gratidão.\n\nOlhe o huipil com calma. A forma dele é simples, mas o bordado a transforma. O ponto cruz permite desenhar com grande precisão, porque cada cruz é como um pequeno ponto de cor em uma imagem, parecido com os pixels de uma tela. Com milhares de cruzes formam-se flores, pássaros e plantas. As meninas aprendem observando suas mães e avós, e com os anos desenvolvem seus próprios desenhos.\n\nOs desenhos têm uma linguagem. Entre as flores, talvez você encontre a de cempasúchil, a mesma do [arco do Xantolo](mna_s18_altar_xantolo). Há plantas de milho, que são a base da vida. E há estrelas de quatro pontas, que podem ser relacionadas com os quatro rumos, a mesma ideia que você viu na flor de quatro pétalas do [quechquémitl teenek](mna_s18_dhubem_huasteco) e nos quatro postes da casa maia. Uma peça de tecido branco guarda assim uma maneira de ordenar o universo.\n\nEsta é a mesma região huasteca onde você viu o quechquémitl teenek. Os nahuas e os teenek são vizinhos: compartilham o ponto cruz, as cores intensas e festas como o Xantolo. O que muda é a peça: aqui, um huipil, e lá, um quechquémitl. Também mudam suas línguas, que vêm de famílias distintas, uma da família do náuatle e outra da família maia. Dois povos, dois idiomas, uma mesma paisagem.\n\nEssas peças são feitas em casa, ao longo de muitos meses, entre as tarefas diárias. São estreadas nas festas importantes e, às vezes, são herdadas. Quando uma mulher veste seu huipil bordado para um casamento ou um batizado, ela não apenas se veste: leva consigo a sua história e a de sua família.\n\nÉ a última das peças de vestuário do percurso, e resume tudo o que você viu: fio, memória e orgulho. Do tear de cintura da primeira sala do andar de cima ao huipil nahua daqui, há um mesmo gesto: transformar um tecido em uma maneira de dizer quem você é."
+    },
+    "retos_observacion": {
+      "hash": "d64accbab837f3ad",
+      "texto": [
+        "Procure as estrelas de quatro pontas entre as flores",
+        "Encontre uma planta de milho e um pássaro bordados",
+        "Conte quantas cores diferentes tem o bordado"
+      ]
+    },
+    "especificaciones": {
+      "hash": "23d6732009778991",
+      "texto": {
+        "Povo": "Nahua (Macehual)",
+        "Região": "Huasteca Hidalguense (Huejutla de Reyes, Atlapexco)",
+        "Técnica/Material": "Manta de algodão bordada à mão em ponto cruz com linha multicolorida",
+        "Função": "Vestimenta cotidiana de gala, celebrações agrícolas e festividade do Xantolo"
+      }
+    },
+    "faq_mito": {
+      "hash": "f04cff40c24b7428",
+      "texto": {
+        "pregunta": "Mito: Os nahuas são um povo do passado, que desapareceu com os mexicas.",
+        "respuesta": "Realidade: Hoje são o povo indígena mais numeroso do México: mais de um milhão e meio de pessoas falam náuatle."
+      }
+    }
+  }
+}

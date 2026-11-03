@@ -1,0 +1,54 @@
+{
+  "id": "mna_s19_gaban_chamula",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9356512f2e48245a",
+      "texto": "Chuj / Gabão tradicional de lã de San Juan Chamula"
+    },
+    "frase_gancho": {
+      "hash": "8fda965be39f51c4",
+      "texto": "Lã preta, grossa como feltro, para se abrigar na neblina dos Altos de Chiapas."
+    },
+    "puente_narrativo": {
+      "hash": "c20cc94703ec4fac",
+      "texto": "Da lã dos Altos passamos à pintura. Procure um mural pequeno, de ar fantástico, assinado por Leonora Carrington, a pintora que viajou a esses mesmos Altos de Chiapas."
+    },
+    "guion_corto": {
+      "hash": "841a4b4bcbc682db",
+      "texto": "Este gabão de lã preta, que em tzotzil se chama chuj, é a roupa dos homens de San Juan Chamula, um povoado dos Altos de Chiapas, a mais de dois mil metros de altitude. É uma túnica curta, sem mangas, com uma abertura para a cabeça e outras nas laterais para passar os braços. As mulheres tosquiam as ovelhas, lavam a lã, fiam com fuso e tecem em tear de cintura. O resultado é um tecido tão grosso e denso que protege do frio e da chuva da serra. Repare nos fios soltos que pendem na parte de baixo e balançam enquanto se caminha. Para os chamulas, esta peça é muito mais que um agasalho: diz quem você é e a que comunidade pertence."
+    },
+    "guion_largo": {
+      "hash": "bfa68398608a8b76",
+      "texto": "Se você desceu para ver [Pakal](mna_s09_mascara_pakal), Chaac e a [Rainha de Uxmal](mna_s09_reina_uxmal), talvez tenha ficado com a ideia de que os maias são um mistério do passado. Esta sala diz o contrário. Segundo os censos, mais de dois milhões de pessoas falam hoje alguma língua maia no México, e nosso percurso por elas começa na montanha, com o tzotzil dos Altos de Chiapas.\n\nSan Juan Chamula é um povoado conhecido pela força de seus costumes. Em sua igreja não há bancos: o chão é coberto de agulhas de pinheiro, as famílias acendem centenas de velas e reza-se em tzotzil. O padroeiro é São João Batista, que é representado com um cordeiro, e diz-se que daí vem o respeito pelas ovelhas, que são criadas para serem tosquiadas e não para serem comidas. Assim, cada gabão é feito com a lã de um animal respeitado.\n\nHá um dado que surpreende: antes da chegada dos espanhóis não havia ovelhas na América. Os maias teciam algodão, que não se dá nas terras frias, e a lã chegou com os europeus no século dezesseis. Os tzotziles a adotaram e a fizeram tão sua que hoje parece parte da paisagem. O que não mudou foi o tear de cintura, o mesmo que aparece em algumas imagens antigas da deusa Ixchel, de quem falamos na Sala dos povos indígenas.\n\nQuando o tecido sai do tear, é solto e leve. Então é fervido e golpeado para que as fibras se enredem entre si e a lã se torne feltro. Esse tratamento se chama pisoar, e é o que dá ao gabão sua espessura. Além disso, a lã tem uma virtude que o algodão não tem: continua aquecendo mesmo molhada, algo muito valioso numa serra onde as madrugadas de inverno podem gelar.\n\nCada povoado tzotzil se reconhece por sua roupa, e dentro do povoado, a roupa diz quem você é. Em muitos povoados dos Altos, servir à comunidade é um cargo que se reveza, quase sempre por um ano e sem salário, e quem o ocupa usa insígnias próprias, como fitas, bastões ou certo tipo de gabão. Diz-se que os mais densos e escuros correspondem às autoridades tradicionais, como os mordomos. Ao vê-los passar, todos sabem quem tem a responsabilidade.\n\nRepare também no que falta: não há tintas. As cores da lã, preto, branco ou marrom-escuro, são as da própria ovelha. A roupa, então, tem a cor das coisas da montanha: as sombras do bosque, as nuvens baixas, a terra molhada.\n\nNesta mesma sala há outro olhar sobre Chiapas: o grande mural “O mundo mágico dos maias”, da pintora surrealista [Leonora Carrington](mna_s19_mural_carrington), do início dos anos sessenta. Ela viajou a Chiapas e pintou curandeiros, animais e montanhas sagradas a partir de relatos da região. Não é uma fotografia, mas um sonho, e vale a pena olhá-lo com calma.\n\nUma única peça guarda assim o trabalho das mulheres, o respeito por um animal, a autoridade de um povoado e o orgulho de uma língua. Quando você seguir pela sala, procure quantas vezes volta esse fio: fazer, cuidar e compartilhar."
+    },
+    "retos_observacion": {
+      "hash": "e08f76bcd6959581",
+      "texto": [
+        "Procure os fios soltos que pendem da borda inferior",
+        "Repare na abertura para a cabeça e nas dos braços",
+        "Imagine o peso desta lã molhada pela chuva da serra"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c91e614de9d46d45",
+      "texto": {
+        "Povo": "Maia tzotzil",
+        "Região": "Os Altos de Chiapas (San Juan Chamula)",
+        "Técnica/Material": "Lã de ovelha preta fiada e tecida à mão, borlas de fio de lã",
+        "Função": "Indumentária masculina de gala, hierarquia de cargos e agasalho de montanha"
+      }
+    },
+    "faq_mito": {
+      "hash": "040f9491bc571896",
+      "texto": {
+        "pregunta": "Mito: Os maias desapareceram há séculos.",
+        "respuesta": "Realidade: Mais de dois milhões de pessoas falam hoje alguma língua maia no México, e se vestem, tecem e celebram como seus avós."
+      }
+    }
+  }
+}

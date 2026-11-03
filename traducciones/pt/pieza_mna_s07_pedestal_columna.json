@@ -1,0 +1,59 @@
+{
+  "id": "mna_s07_pedestal_columna",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "7a54563590a8cc4e",
+      "texto": "Suporte de cerâmica em forma de coluna vertebral"
+    },
+    "frase_gancho": {
+      "hash": "eb977b145880b6ac",
+      "texto": "Parece um osso, mas é barro pintado: vértebra após vértebra, com uma exatidão surpreendente."
+    },
+    "puente_narrativo": {
+      "hash": "2c127249c9ba4879",
+      "texto": "Com os ossos dos antepassados termina a nossa viagem por Oaxaca. Descemos agora às selvas quentes da costa do Golfo, a terra dos olmecas. Procure uma cabeça de pedra gigante, com capacete e rosto sério."
+    },
+    "guion_corto": {
+      "hash": "e28c7b90a60c6817",
+      "texto": "Parece um pedaço de esqueleto, mas é feito de barro. É uma coluna vertebral humana modelada vértebra por vértebra, com tanta fidelidade que os especialistas a consideram anatomicamente correta. Foi feita pelos zapotecas e vem de Monte Albán, em Oaxaca. Tem cerca de dois mil anos e conserva restos de pintura laranja, vermelha e branca. Pensa-se que era um suporte, ou seja, uma base para sustentar outros objetos, embora não saibamos quais. Sua forma fala de uma ideia muito zapoteca: os ossos dos antepassados importavam. Os zapotecas enterravam seus mortos sob os pisos de suas casas e os tratavam como parte da família. Esta peça leva esse laço até um objeto de barro."
+    },
+    "guion_largo": {
+      "hash": "082feb3ddccbc6de",
+      "texto": "Pense no que faz uma coluna vertebral: sustenta o corpo inteiro. Há cerca de dois mil anos, alguém modelou uma em barro para que sustentasse outras coisas. Pelo que se sabe, esse era o seu trabalho: servir de suporte. Mas uma base com esta forma diz muito mais do que qualquer base lisa.\n\nA peça mede quarenta e três centímetros de altura e foi modelada com um realismo anatômico pouco comum. Cada vértebra se distingue das demais, empilhadas umas sobre as outras como num esqueleto de verdade. Restam vestígios de pigmento laranja, vermelho e branco, de modo que o barro não tinha a aparência de hoje: teve cor. Os catálogos não dizem em que parte de Monte Albán ela apareceu. Os especialistas a interpretam como um símbolo do vínculo entre os vivos e os mortos. Ela mostra a importância que os zapotecas davam aos ossos.\n\nVem de Monte Albán, a cidade zapoteca com a qual começou esta sala, a [dos Danzantes](mna_s07_danzante_montealban). Nessa montanha aplanada conhecem-se duzentas e quarenta e nove tumbas, segundo o INAH, feitas para as pessoas mais importantes de cada família. Mas a maioria das pessoas não tinha uma tumba formal. Repousava em diferentes cantos da própria moradia, sob os pisos, em covas escavadas dentro das casas.\n\nIsso muda a maneira de pensar a morte. Os mortos não estavam longe: dormiam sob os pés de quem continuava vivendo. Às vezes o cômodo que ficava em cima de uma tumba servia de altar, e ali se deixavam oferendas com regularidade. Uma casa zapoteca era ao mesmo tempo um lar e um lugar de memória.\n\nOs ossos tinham o seu próprio peso. Em 2009, arqueólogos do Museu Field de Chicago escavaram uma casa simples em um sítio chamado Fortaleza de Mitla, em Oaxaca. Encontraram uma tumba da qual faltava um osso da coxa. Alguém o havia retirado entre vinte e cinco e cem anos depois da morte, tinha voltado a selar a tumba e tinha deixado uma nova oferenda. Em entalhes de algumas fachadas aparecem chefes que carregam ossos da coxa em seus rituais. Os arqueólogos pensam que esse osso representava uma linha de autoridade que vinha de um antepassado fundador.\n\nTalvez quem levava um osso reivindicasse o cargo que seu antepassado havia tido. Os mixtecas pensavam algo parecido, como você viu com o crânio coberto de turquesa da Tumba 7. E reabriram uma tumba zapoteca para enterrar o seu próprio senhor. Em Oaxaca, os ossos eram memória, família e poder.\n\nNo início do percurso, na sala do povoamento da América, você viu outro osso trabalhado por mãos humanas. Era o [sacro de Tequixquiac](mna_s02_sacro_tequixquiac), o osso onde termina a coluna. Aquele foi talhado há mais de doze mil anos para dele tirar um rosto. Este foi copiado em barro para sustentar algo. Nos dois casos, o osso importa.\n\nNão sabemos o que sustentava nem em que cerimônia foi usado. Ainda assim, uma coluna vertebral de barro tem algo de lembrete. Sob a pele de cada pessoa há uma estrutura que a mantém de pé. A memória dos antepassados fazia o mesmo com a família."
+    },
+    "retos_observacion": {
+      "hash": "abf9e4a5f61b4941",
+      "texto": [
+        "Conte as vértebras, uma sobre a outra",
+        "Procure os restos de pintura laranja, vermelha ou branca sobre o barro",
+        "Observe as extremidades: que parte poderia sustentar outro objeto?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e8f57937fc44439",
+      "texto": {
+        "Cultura": "Zapoteca",
+        "Período": "Pré-clássico Tardio (Monte Albán II, por volta de 200 a.C.-100 d.C.)",
+        "Material": "Barro modelado com pigmentos laranja, vermelho e branco",
+        "Procedência": "Monte Albán, Oaxaca",
+        "Dimensões": "43 cm de altura x 15 cm de largura"
+      }
+    },
+    "faq_mito": {
+      "hash": "c16966418aa3c879",
+      "texto": {
+        "pregunta": "Mito: Os zapotecas enterravam seus mortos longe das casas, em cemitérios à parte.",
+        "respuesta": "Realidade: A maioria repousava dentro das moradias, sob os pisos, e os mortos continuavam fazendo parte da família."
+      }
+    }
+  }
+}

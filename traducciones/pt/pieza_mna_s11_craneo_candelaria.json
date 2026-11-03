@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_craneo_candelaria",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dd30a42ac1b7f28d",
+      "texto": "Crânio com toucado da Cueva de la Candelaria"
+    },
+    "frase_gancho": {
+      "hash": "aaa3d13c2c9e719f",
+      "texto": "Um crânio de mil anos atrás que ainda conserva seu toucado de cordões vermelhos."
+    },
+    "puente_narrativo": {
+      "hash": "d7288c7788d8e1f6",
+      "texto": "Das cavernas do deserto passamos a um povo agricultor da fronteira. Procure um copo pequeno e cilíndrico, decorado com faixas de cores vivas: vermelho, amarelo e azul-turquesa."
+    },
+    "guion_corto": {
+      "hash": "a8c25e5161e10814",
+      "texto": "Este crânio pertenceu a um homem adulto, de entre trinta e seis e cinquenta e cinco anos, que viveu por volta do ano mil da nossa era. Vem da Cueva de la Candelaria, no sudoeste de Coahuila, o mesmo sítio do fardo funerário. Tem uma forma alongada, que os especialistas chamam de dolicocéfala. Ainda conserva seu toucado, com cordões tingidos de vermelho, que podem ter indicado seu posto ou sua autoridade. Entre o cabelo e as fibras apareceram restos de moscas e seus ovinhos, sinal de que o corpo ficou exposto em uma cerimônia antes do enterro. E seus dentes, desgastados por comer sementes duras, contam que, quando criança, ele passou fome."
+    },
+    "guion_largo": {
+      "hash": "16b8e3073c6632a4",
+      "texto": "Às vezes, um objeto conta sua história com detalhes muito pequenos, e este crânio é um deles. Os cientistas que o estudaram o leram como quem lê um livro: a idade, a comida, os rituais, até os insetos que visitaram o corpo.\n\nComecemos pelo lugar. A Cueva de la Candelaria fica no sudoeste de Coahuila, no deserto, dentro de uma região conhecida como Aridoamérica. É uma caverna de rocha calcária à qual se entrava por um poço vertical de uns nove metros de profundidade, que levava a várias câmaras com centenas de objetos. Era conhecida desde 1838, mas a grande exploração foi em 1953 e 1954. Então foram recuperados restos de cento e dezessete pessoas, homens, mulheres e crianças, depositados com ordem ao longo de gerações.\n\nVocê já conheceu o fardo: uma dessas pessoas, parcialmente mumificada pela secura, dobrada e envolta em mantas tecidas. Junto com os restos apareceram colares de concha e sementes, orelheiras, têxteis decorados, pontas de projétil com seu cabo e até uma bolsa de rede. Este crânio vem do mesmo cemitério.\n\nPertencia a um homem de entre trinta e seis e cinquenta e cinco anos, que viveu por volta do ano mil, segundo a datação por radiocarbono. Essa técnica mede quanto carbono radioativo resta em um osso ou em uma fibra; como esse carbono se perde em um ritmo conhecido, permite calcular há quanto tempo a pessoa morreu. Seu crânio é longo e estreito. Sobre o cabelo ainda se conservam uns cordões tingidos de vermelho, que formavam seu toucado. Pensou-se que a cor e o arranjo indicavam sua posição social, talvez um chefe ou um personagem respeitado.\n\nAgora vêm os detalhes de cientista. No cabelo e nas fibras foram encontrados restos de moscas e seus ovinhos. Isso quer dizer que o corpo não foi enterrado de imediato: ficou exposto, ao ar livre, durante um rito funerário, antes de ser envolvido e levado à caverna. Um detalhe minúsculo revelou toda uma cerimônia.\n\nOs dentes dizem mais. Alguns têm marcas de hipoplasia do esmalte, linhas que se formam quando uma criança cresce com fome ou com doença. Isso sugere que, pequeno, ele atravessou épocas de escassez, talvez sazonal, como é normal no deserto. E o desgaste dos molares indica que ele comia alimentos duros, como sementes. É a vida de um caçador e coletor escrita em sua boca.\n\nA caverna foi usada durante séculos, desde o ano novecentos até por volta do mil seiscentos, e sua história não terminou. Em 2025, o INAH resgatou os restos de pelo menos dezessete pessoas em outra caverna da mesma região de Coahuila, que havia sido saqueada. Por isso as cavernas são protegidas: quando alguém leva um osso ou um tecido, perde-se justamente essa informação tão pequena, e tão grande.\n\nOlhe de novo o toucado. Quem o colocou naquele dia sabia que ele ficaria com a pessoa. Mil anos depois, continua aí, e ainda nos conta como viveu alguém que não deixou escrita."
+    },
+    "retos_observacion": {
+      "hash": "bb8ed52d7bbc4381",
+      "texto": [
+        "Procure os cordões tingidos de vermelho do toucado",
+        "Repare na forma alongada do crânio",
+        "Observe os dentes: que sinais de desgaste você vê?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "abe52a6265106c73",
+      "texto": {
+        "Cultura": "Caçadores-coletores do norte (Aridoamérica)",
+        "Período": "Por volta do ano 1000 d.C. (a caverna foi ocupada entre 900 e 1600 d.C.)",
+        "Material": "Restos ósseos e fibras vegetais tingidas",
+        "Procedência": "Cueva de la Candelaria, sudoeste de Coahuila"
+      }
+    },
+    "faq_mito": {
+      "hash": "c8aab6b0a619f595",
+      "texto": {
+        "pregunta": "Mito: Estas cavernas só guardavam ossos sem história.",
+        "respuesta": "Realidade: Os especialistas leem neles a idade, a dieta, as doenças e até os ritos funerários de cada pessoa."
+      }
+    }
+  }
+}

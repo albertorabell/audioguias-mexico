@@ -1,0 +1,26 @@
+{
+  "id": "sala-03-preclasico-altiplano-central",
+  "tipo": "sala",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "4ee9c3f18d8f0b31",
+      "texto": "Pré-clássico no Altiplano Central"
+    },
+    "frase_gancho": {
+      "hash": "ab0af0fdd68865fb",
+      "texto": "Aqui a semente se torna aldeia."
+    },
+    "introduccion_narrativa": {
+      "hash": "c2c699d1650eab50",
+      "texto": "Acaba o tempo dos caçadores e começa o dos vizinhos. A semente com a qual se encerrou a sala anterior já germinou: agora há casas de barro e palha, milpas, cachorros, cerâmica e festas. São mais de dois mil anos, desde 2500 antes de Cristo até os primeiros séculos da nossa era, nos quais as aldeias do Altiplano Central se tornam povoados e, no fim, a primeira grande cidade do vale. Você verá o cemitério-aldeia de Tlatilco, os ecos distantes dos olmecas e a maquete de Cuicuilco, sepultada por um vulcão. Entre figurinhas de mulheres, animais da água e deuses antigos, aqui se escreve o prólogo de tudo o que vem depois."
+    }
+  }
+}

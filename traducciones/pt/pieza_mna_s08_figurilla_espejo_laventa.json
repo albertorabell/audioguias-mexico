@@ -1,0 +1,62 @@
+{
+  "id": "mna_s08_figurilla_espejo_laventa",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "cacb3d7021933463",
+      "texto": "Figura feminina de La Venta com espelho de magnetita"
+    },
+    "frase_gancho": {
+      "hash": "be24c26739aa0cad",
+      "texto": "Uma mulher minúscula, de pedra verde, com um disco brilhante sobre o peito."
+    },
+    "puente_narrativo": {
+      "hash": "d83b9a4010f96e3e",
+      "texto": "De La Venta, no sul do Golfo, subimos para a Huasteca, no norte. Procure uma escultura de pedra de uma mulher em pé, com as mãos apoiadas no ventre e um grande toucado em forma de leque."
+    },
+    "guion_corto": {
+      "hash": "651c68217bdbde0e",
+      "texto": "Esta figura sentada mede cerca de oito centímetros e, ainda assim, saiu de uma tumba de La Venta, a grande capital olmeca de Tabasco. É uma mulher entalhada em pedra verde, com os dedos, os pés e o penteado trabalhados com naturalismo. Sobre o peito, ela traz um disco polido de minério de ferro que serve de espelho. Para os olmecas, esses espelhos eram insígnias de posição social e ferramentas para enxergar o oculto. Uma camada de cinábrio, um pigmento vermelho, cobria a tumba e ainda tinge a figura. Acredita-se que ela possa representar a pessoa enterrada. Há mais de dois mil e seiscentos anos, alguém a deixou ali para sempre."
+    },
+    "guion_largo": {
+      "hash": "e9c3f1cd4481cb64",
+      "texto": "Um espelho que não servia para se pentear. Assim começa esta história. A figura sentada que você tem diante de si é muito pequena, mas diz mais do que parece. Ela saiu de La Venta, a capital olmeca que sucedeu San Lorenzo, construída sobre uma ilha em meio a pântanos, em Tabasco.\n\nApareceu no Complexo A, uma área sagrada de acesso restrito, dentro de uma câmara feita com trinta e oito colunas de basalto. Ela é conhecida como Tumba A. Foi encontrada em 1942 pelos arqueólogos Matthew Stirling e Philip Drucker. Lá dentro havia dois fardos funerários, figuras de jade e espelhos de minério de ferro. Uma grossa camada de cinábrio, um mineral vermelho usado como pigmento, cobria o sepultamento. Parte desse vermelho ficou grudada na figura.\n\nRepare em como ela foi feita. Os dedos das mãos e dos pés se distinguem um por um, e o rosto e o cabelo estão trabalhados com realismo. Na mesma tumba apareceu uma figura em pé, de jade azul, muito mais estilizada. Os olmecas sabiam esculpir com naturalismo quando queriam, como no [Lutador](mna_s08_luchador_olmeca) olmeca. Para os seres sobrenaturais, usavam formas abstratas.\n\nO título desta peça fala de magnetita, um mineral de ferro. Outros catálogos mencionam hematita ou pirita. São minerais diferentes, mas todos contêm ferro, e os olmecas os poliam até que refletissem a luz. Esses espelhos podiam ser planos ou côncavos, e alguns mediam até dez centímetros. Placas polidas desse tipo também aparecem em San José Mogote, o povoado dos vales de Oaxaca que mencionamos junto aos [Danzantes](mna_s07_danzante_montealban). Um estudo indicou que o minério vinha de fontes a cerca de trinta quilômetros de distância. O título não erra por completo ao falar de magnetita. Em outra oferenda de La Venta, de 1943, um espelho de magnetita estava entre machados verdes dispostos em cruz. O especialista Michael Coe viu nessa cruz uma árvore do mundo.\n\nNão eram espelhos de toucador. Os especialistas os consideram emblemas de um cargo elevado e ferramentas de adivinhação. Neles, o jogo de luz importava tanto quanto o reflexo. Alguns pesquisadores propõem que serviam para espiar o Outro Mundo durante os ritos dos xamãs. E já foram chamados de condutos de forças sobrenaturais.\n\nEssa ideia volta a aparecer séculos depois. Na sala dos toltecas, você viu o espelho que se levava às costas. Os mexicas chamaram de Tezcatlipoca, «Espelho Fumegante», um de seus deuses maiores. Os olmecas o levavam sobre o peito, muito antes.\n\nNa mesma tumba havia um espelho de tamanho normal, feito de hematita. Por isso, alguns especialistas pensam que a figurinha pode ser um retrato da pessoa enterrada. Se for assim, alguém quis que sua imagem, sentada e com seu espelho, a acompanhasse para sempre.\n\nComo as dezesseis figuras da [Oferenda 4](mna_s08_ofrenda4_laventa), esta mulher terminou debaixo da terra, na escuridão. Hoje a vemos à luz. Aproxime-se do disco do peito e pense que, há mais de dois mil e seiscentos anos, nesse brilho alguém talvez acreditasse espiar outro mundo."
+    },
+    "retos_observacion": {
+      "hash": "08f254b0e9b50920",
+      "texto": [
+        "Procure o disco brilhante que ela leva sobre o peito",
+        "Repare nos dedos das mãos e dos pés",
+        "Olhe a superfície da pedra: você vê vestígios de cor vermelha?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eb7f532147e1f126",
+      "texto": {
+        "Cultura": "Olmeca",
+        "Período": "Pré-clássico Médio (900-600 a.C.)",
+        "Material": "Jadeíta verde-azulada com espelho peitoral de minério de ferro (magnetita/hematita) e vestígios de cinábrio vermelho",
+        "Procedência": "La Venta, Tabasco (Tumba A, Montículo A-2)",
+        "Dimensões": "8 cm de altura x 4 cm de largura"
+      }
+    },
+    "faq_mito": {
+      "hash": "ac22e05134d96fd9",
+      "texto": {
+        "pregunta": "Mito: Os espelhos dos povos antigos serviam para se arrumar, como os de hoje.",
+        "respuesta": "Realidade: Eram insígnias de posição social e ferramentas rituais para enxergar o oculto; os olmecas os faziam com minérios de ferro polidos."
+      }
+    }
+  }
+}

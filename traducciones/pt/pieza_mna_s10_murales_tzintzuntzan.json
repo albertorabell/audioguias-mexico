@@ -1,0 +1,54 @@
+{
+  "id": "mna_s10_murales_tzintzuntzan",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6597b1a8b2581a14",
+      "texto": "Murais sobre o Ocidente de Covarrubias e O’Higgins"
+    },
+    "frase_gancho": {
+      "hash": "416757a373c8b662",
+      "texto": "Duas pinturas do século vinte situam você no Ocidente: um mapa e uma cidade."
+    },
+    "puente_narrativo": {
+      "hash": "563443ec3a1341ad",
+      "texto": "Do Ocidente seguimos para o norte, rumo ao deserto, onde começa outra maneira de viver. Procure uma laje de pedra com espirais, linhas onduladas e pegadas de veado, gravadas por caçadores."
+    },
+    "guion_corto": {
+      "hash": "b053a855b2248117",
+      "texto": "Nas paredes desta sala há duas pinturas feitas para o museu por volta da sua inauguração, em 1964. Uma é um mapa da costa do Ocidente, de Luis Covarrubias, o pintor que fez mapas para muitas salas. A outra se intitula “Apogeu de Tzintzuntzan” e é de Pablo O’Higgins, um pintor nascido nos Estados Unidos que se tornou mexicano. Tzintzuntzan foi a capital dos purépechas, que você conheceu na [maquete da yácata](mna_s10_yacata_tzintzuntzan). O museu encomendou murais assim por uma razão educativa. Um mapa ajuda você a situar as culturas, e uma pintura convida você a imaginar como elas viviam. Não são obras antigas, e sim do século vinte, e também fazem parte da história do museu."
+    },
+    "guion_largo": {
+      "hash": "acbe40f661643bab",
+      "texto": "O museu foi inaugurado em 17 de setembro de 1964 com uma ideia clara: que as paredes também ensinassem. Para a abertura de 1964, foram encomendados murais a vários pintores para as diferentes salas, com uma finalidade didática. O catálogo registra mais de vinte obras, de artistas como [Rufino Tamayo](mna_s00_mural_tamayo), José Chávez Morado, Alfredo Zalce, [Leonora Carrington](mna_s19_mural_carrington) e Carlos Mérida. A esta sala couberam duas.\n\nO primeiro é um mapa da costa do Ocidente, obra de Luis Covarrubias. Não o confunda com Miguel Covarrubias, o artista que batizou as [Mulheres Bonitas](mna_s03_mujeres_bonitas) de Tlatilco. Miguel morreu em 1957, sete anos antes de o museu abrir. Luis é o autor dos mapas que há em muitas salas, arqueológicas e etnográficas. Seus mapas têm um discurso didático: mostram a cultura e a sua geografia. Uma tese da UNAM de 2021 estuda a obra mural dele neste museu.\n\nUm mapa parece um enfeite simples, mas faz um grande trabalho. Antes de olhar as vitrines, ele diz onde você está: uma região de costas, vulcões e lagos que hoje Colima, Jalisco, Nayarit, Michoacán e Guerrero compartilham. Faça um teste. Localize Michoacán, onde esteve Tzintzuntzan, e depois passe ao mural e pense que aquele pequeno ponto do mapa foi uma capital.\n\nO segundo mural se intitula “Apogeu de Tzintzuntzan” e é de Pablo O’Higgins. Apogeu quer dizer o ponto mais alto, o melhor momento. Tzintzuntzan, às margens do lago de Pátzcuaro, foi a capital dos purépechas, e a [maquete da yácata](mna_s10_yacata_tzintzuntzan) mostrou a você o seu edifício mais característico. O’Higgins nasceu em Salt Lake City, em Utah, em 1904, e na juventude foi viver no México. Foi ajudante de Diego Rivera, fundador da Oficina de Gráfica Popular, e em 1961 recebeu a nacionalidade mexicana. Sua obra tratou com frequência de trabalhadores e de comunidades indígenas, de modo que o tema lhe caía bem.\n\nQuais cenas este mural inclui, você descobrirá olhando para ele. O que uma maquete de pedra não pode dar, uma pintura dá: cor, paisagem e movimento. Se você o olhar depois da yácata, ele ajuda a imaginar a cidade viva, e não só as suas pedras.\n\nO’Higgins pintou mais para o museu. O mesmo catálogo menciona “A Serra Tarahumara”, para a sala do Noroeste. Menciona também “[Casamento purépecha](mna_s14_mural_ohiggins_boda_purepecha)”, para a sala dos purépechas de hoje, no andar superior. É curioso: um pintor nascido em Utah retratou povos de Michoacán e de Chihuahua.\n\nEsta sala também guarda arte mais recente. O acervo pictórico vinculado à sala inclui ainda obras como “Cratera B”, uma pintura do artista Vicente Rojo, e uma obra recente de Manuel Felguérez. Entre figuras de há dois mil anos, há pintura do nosso tempo.\n\nO museu quis dar contexto às peças com pintura, para que nenhuma ficasse sozinha. Hoje os murais também contam como se imaginava o passado em meados do século vinte. Antes de seguir, pense no que você viu nesta sala. As vitrines deram a você objetos. Estas pinturas dão o lugar e a época. Juntos, eles se entendem melhor."
+    },
+    "retos_observacion": {
+      "hash": "f51e50f5b4a88562",
+      "texto": [
+        "Procure no mapa a linha da costa do Pacífico e acompanhe-a com o olhar",
+        "Tente localizar no mapa a região de alguma peça que você já viu",
+        "No mural de Tzintzuntzan, procure algum edifício que lembre a yácata"
+      ]
+    },
+    "especificaciones": {
+      "hash": "43b43d14421c481e",
+      "texto": {
+        "Autores": "Luis Covarrubias (“Mapa da Costa do Ocidente”) e Pablo O’Higgins (“Apogeu de Tzintzuntzan”)",
+        "Ano": "por volta de 1964",
+        "Localização original": "Sala do Ocidente",
+        "Tema": "geografia do Ocidente (mapa) e a cidade purépecha de Tzintzuntzan em seu apogeu"
+      }
+    },
+    "faq_mito": {
+      "hash": "a72e3f31ecc627d5",
+      "texto": {
+        "pregunta": "Mito: Os murais das salas são pinturas antigas, da mesma época que as peças.",
+        "respuesta": "Realidade: São obras do século vinte, pintadas por volta de 1964 para o museu, com o objetivo de ajudar a entender cada sala."
+      }
+    }
+  }
+}

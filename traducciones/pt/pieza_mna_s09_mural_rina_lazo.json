@@ -1,0 +1,57 @@
+{
+  "id": "mna_s09_mural_rina_lazo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "e2f3b9d3c1e86ec1",
+      "texto": "Mural «Com paixão pelos maias», de Rina Lazo"
+    },
+    "frase_gancho": {
+      "hash": "2f11c6417c79719a",
+      "texto": "Uma pintora guatemalteca que copiou Bonampak e pintou para este museu."
+    },
+    "puente_narrativo": {
+      "hash": "3e26440c038a1805",
+      "texto": "Com este mural termina o mundo maia e entramos na Sala de Ocidente. Ela começa por uma de suas peças mais antigas: uma vasilha cinza com uma alça em forma de estribo."
+    },
+    "guion_corto": {
+      "hash": "7412252dca2e6978",
+      "texto": "Rina Lazo nasceu na Guatemala em 1923 e chegou ao México em 1947 com uma bolsa para estudar pintura. Aqui foi assistente de Diego Rivera e se tornou uma das últimas grandes muralistas do país. Sua vida ficou ligada ao mundo maia. Você já viu as cópias dos murais de Bonampak, que ela pintou para este mesmo museu. Além daquela proeza no jardim externo, Rina Lazo criou para o museu o mural transportável «Venerável Avô Milho» (conhecido também em exposições do local como «Com paixão pelos maias»). O título diz muito sobre ela: durante décadas, pintou os maias com admiração. Olhe esta obra pensando nas cópias de Bonampak. Uma é uma réplica fiel de um original antigo. A outra é o olhar próprio de uma artista do século vinte."
+    },
+    "guion_largo": {
+      "hash": "dca1d93ae6a78312",
+      "texto": "Se você percorreu o [templo de Bonampak](mna_s09_templo_bonampak), já conhece a mão de Rina Lazo. Este mural é outra obra dela, e por trás dele há uma vida que vale a pena contar.\n\nRina Lazo nasceu na Guatemala em 1923. Em 1947, chegou ao México com uma bolsa e entrou na La Esmeralda, a escola de pintura, escultura e gravura. Poucos meses depois, já trabalhava na equipe de Diego Rivera. Sua primeira colaboração foi «Sonho de uma tarde dominical na Alameda Central». Mais tarde, ajudou no Cárcamo do rio Lerma, em Chapultepec, e nos mosaicos do estádio da Cidade Universitária. Ela dizia que sua verdadeira escola tinha sido o ateliê de Rivera.\n\nO museu lhe deu uma tarefa muito diferente de pintar um mural próprio: copiar. Em 1964, o arquiteto Pedro Ramírez Vázquez encomendou a ela uma réplica das pinturas maias de Bonampak. Foi realizada para a abertura do museu em 1964. Conta-se que ela viajou à selva de Chiapas para copiar as figuras uma por uma, antes que o tempo continuasse a apagá-las.\n\nOs maias foram seu tema por toda a vida. Já em 1954 ela havia pintado «Terra fértil», seu primeiro afresco, com lembranças de Tikal e da fertilidade da terra guatemalteca. Doou-o a um museu da Universidade de San Carlos, em seu país. Em 1997, pintou «Realidade e sonho no mundo maia» junto com seu marido, o pintor Arturo García Bustos. Ele também pintou para este museu, e mais adiante você verá o trabalho dele nas salas de etnografia.\n\nAgora, a obra que você tem diante de si. A Gaceta de Museos do INAH a menciona como «Com paixão pelos maias», entre as pinturas de grande formato que chegaram ao museu. Quais cenas ela contém é algo que você descobrirá ao observá-la. O título fala de paixão, e a vida dela o confirma: desde «Terra fértil», em 1954, até «Xibalbá», sua última grande obra, passaram-se mais de sessenta anos pintando os maias.\n\nHá ainda outra obra dela muito citada para esta sala, «Venerável Avô Milho». Descreve-se como uma grande tela de mais de dezenove metros. Suas cenas se inspiram no Popol Vuh, o livro sagrado dos maias, como a criação das pessoas. Não é certo se é esta mesma pintura com outro título ou uma obra distinta. A legenda do museu esclarecerá isso.\n\nNos últimos anos, trabalhou em «Xibalbá, o submundo dos maias», um mural inspirado nas cavernas de Cobán, na Guatemala. Foi exibido no Palácio de Belas Artes em 2022. Lazo morreu em novembro de 2019, aos noventa e seis anos. Xibalbá é o submundo do Popol Vuh. Ali os gêmeos jogaram bola com os senhores da morte, como você viu no [marcador de Chinkultic](mna_s09_disco_chinkultic).\n\nUma pintora nascida na Guatemala foi, por mais de meio século, uma das vozes mais constantes da arte maia no México. Antes de seguir, compare as cores deste mural com o azul de Bonampak. São duas obras da mesma mão, e um mesmo carinho por um povo que continua vivo."
+    },
+    "retos_observacion": {
+      "hash": "3249900e3f86a03d",
+      "texto": [
+        "Procure a legenda e leia o título e o ano da obra",
+        "Compare as cores deste mural com as do templo de Bonampak: há azuis parecidos?",
+        "Conte as pessoas, os animais e as plantas que aparecem: quais predominam?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "68754f31e7ffd8c6",
+      "texto": {
+        "Autora": "Rina Lazo (1923-2019)",
+        "Obras no MNA": "Réplica em afresco dos murais de Bonampak (1964) e mural em têmpera sobre linho «Venerável Avô Milho / Com paixão pelos maias» (1995-1996, 2,70 x 19,00 m)",
+        "Sala": "Maia"
+      }
+    },
+    "faq_mito": {
+      "hash": "ab93a51922a24795",
+      "texto": {
+        "pregunta": "Mito: As pinturas de Bonampak que se veem no museu são as originais.",
+        "respuesta": "Realidade: São cópias feitas por Rina Lazo. Os originais continuam nas paredes do templo, na selva de Chiapas."
+      }
+    }
+  }
+}

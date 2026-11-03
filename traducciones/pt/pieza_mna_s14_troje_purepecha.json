@@ -1,0 +1,54 @@
+{
+  "id": "mna_s14_troje_purepecha",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2292e610323104bd",
+      "texto": "A troje tradicional purépecha"
+    },
+    "frase_gancho": {
+      "hash": "ce708ef46cc163d1",
+      "texto": "Uma casa de pinho que se monta como um quebra-cabeça, sem um único prego."
+    },
+    "puente_narrativo": {
+      "hash": "ad03b32e0c2e8ec8",
+      "texto": "Da casa passamos à festa. Procure uma máscara de madeira pintada de rosa, com um sorriso quase sem dentes, rugas marcadas e uma cabeleira branca."
+    },
+    "guion_corto": {
+      "hash": "95ab4131033baa25",
+      "texto": "Esta casa de madeira é uma troje, a moradia tradicional da serra purépecha, em Michoacán. É feita com grossas tábuas de pinho, unidas por encaixes de madeira, sem um único prego. Tem um telhado alto, de quatro águas, feito de tabuinhas chamadas tejamanil. Repare que ela tem dois níveis. Embaixo fica o cômodo principal, onde se vive, se dorme e se guarda o altar da família. Em cima, no sótão, guardam-se as espigas da colheita, secas e protegidas da umidade. A troje é casa e celeiro ao mesmo tempo, e mostra como o bosque de pinheiros se transforma no lar de uma família inteira."
+    },
+    "guion_largo": {
+      "hash": "b7d887b73a2cad0e",
+      "texto": "Se na primeira sala do andar de cima você viu uma casa de varas e barro, aqui tem a outra grande solução: a casa de madeira. Cada região usa o que a sua paisagem oferece. Na serra de Michoacán, o que abunda são os pinheiros, e os purépechas aprenderam a trabalhá-los com uma habilidade notável. A troje é o resultado.\n\nÉ preciso olhá-la com calma. As tábuas são cortadas à mão e unidas por meio de entalhes e espigas: cada peça se encaixa em outra, como num quebra-cabeça de madeira, e o peso da estrutura mantém tudo no lugar. Não é preciso nem um prego. Essa técnica permite desmontar uma troje e voltar a montá-la em outro lugar, e é a razão de esta ter podido ser instalada dentro do museu. Muitas trojes continuam de pé depois de décadas, porque a madeira de pinho, bem cortada e bem cuidada, resiste.\n\nDiz-se que a troje desta sala foi montada aqui com carpinteiros da própria região, como outras casas do andar superior. Essa foi a ideia do museu nos anos sessenta: que não fossem cópias feitas por outros, mas casas erguidas por quem sabe como se fazem. Assim, a madeira que você vê guarda a mão de seus construtores.\n\nA palavra «troje» significa, em espanhol, celeiro, e já diz para que servia a parte de cima. Muitas trojes têm também um corredor na frente, com vigas e colunas de madeira entalhada, onde se trabalha, se conversa e se secam as sementes.\n\nRepare que ela tem dois níveis. Embaixo se vive, e em cima, no sótão, guarda-se o milho. Em algumas regiões do centro, o milho se guarda em cuescomates de barro; aqui se guarda na madeira, e no alto, onde o ar circula e a umidade não chega. Cada região tem a sua maneira de proteger o mesmo tesouro.\n\nSe você pudesse entrar, veria também o altar da família: imagens de santos, flores, velas. Para muitas famílias purépechas, a casa é também um pequeno templo. Ali nascem os filhos e ali se vela os mortos, e o espaço guarda essa continuidade de vidas, assim como o fogão a lenha guardava a da casa de pau a pique.\n\nA região onde está esta troje é um lugar de vulcões. Em mil novecentos e quarenta e três, num campo de milho da serra, perto do povoado de Angahuan, nasceu de repente um vulcão, o Paricutín. Ele cresceu durante nove anos e soterrou povoados inteiros sob a lava e a cinza. Sua cinza chegou a cair até na Cidade do México. Do povoado de San Juan Parangaricutiro só restou a torre da igreja. As pessoas da região o viram nascer e ainda hoje contam essa história.\n\nE aqui a madeira continua sendo uma especialidade. Em Paracho, um povoado do planalto, fazem-se violões há séculos, e suas oficinas são famosas no mundo. É como se o pinho da serra tivesse encontrado muitas maneiras de se tornar arte: uma casa, um instrumento, uma máscara. Na próxima peça você vai ver outra."
+    },
+    "retos_observacion": {
+      "hash": "1e4b30e8e317cad5",
+      "texto": [
+        "Procure as uniões de madeira nos cantos: você vê algum prego?",
+        "Encontre o sótão onde se guardava o milho",
+        "Observe o telhado de tabuinhas de quatro águas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0fc53bbc6f3c097f",
+      "texto": {
+        "Povo indígena": "Purépecha (P'urhépecha)",
+        "Região": "Planalto Purépecha e Serra de Michoacán",
+        "Técnica/Material": "Madeira de pinho encaixada com caixa e espiga, tejamanil e base de pedra",
+        "Função": "Moradia tradicional, celeiro sagrado, altar familiar e espaço ritual"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e4df01437fa2195",
+      "texto": {
+        "pregunta": "Mito: As casas tradicionais indígenas eram todas de barro e palha.",
+        "respuesta": "Realidade: Cada região usa o que tem. Na serra purépecha, constroem-se com tábuas de pinho, encaixadas sem pregos, e com dois níveis: casa embaixo, celeiro em cima."
+      }
+    }
+  }
+}

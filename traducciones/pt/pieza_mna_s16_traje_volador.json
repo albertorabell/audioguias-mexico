@@ -1,0 +1,54 @@
+{
+  "id": "mna_s16_traje_volador",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "99041fc5b978d128",
+      "texto": "Traje cerimonial do Dançarino Voador"
+    },
+    "frase_gancho": {
+      "hash": "31d754af6f18fe35",
+      "texto": "Quatro homens que descem do céu girando, amarrados a um poste."
+    },
+    "puente_narrativo": {
+      "hash": "c389db649a26c410",
+      "texto": "Dos voos passamos às mãos que cortam papel. Procure umas silhuetas humanas recortadas em um papel de cor marrom ou creme, de textura rugosa."
+    },
+    "guion_corto": {
+      "hash": "015b3efb422233e3",
+      "texto": "Este traje é o que vestem os voladores (voadores), que se lançam do alto de um poste de mais de trinta metros. É um traje vistoso: calça vermelha com franjas douradas, lenços triangulares cruzados sobre o peito, bordados de flores, espelhos que refletem o sol e um gorro cônico enfeitado com penas e flores. No ritual participam cinco pessoas. Quatro são os voladores, que representam os quatro rumos do mundo, e o quinto é o caporal, que toca uma flauta e um tamborzinho no alto do poste. Os voladores se lançam amarrados pelos pés e giram em círculos até tocar o chão. É um rito muito antigo, reconhecido como patrimônio da humanidade."
+    },
+    "guion_largo": {
+      "hash": "94e75c1aa0c11472",
+      "texto": "Imagine um tronco de mais de trinta metros, sem galhos, fincado em uma praça. Na ponta, um pequeno quadro quadrado. E sobre esse quadro, cinco homens vestidos de vermelho, prontos para algo que parece impossível. Este é o ritual dos voladores (voadores), uma cerimônia totonaca e nahua que se realiza em Papantla e na serra de Puebla, entre outros lugares, e o traje que você vê é o que se veste para o voo.\n\nPrimeiro, a árvore. Conta-se que, antes do ritual, a comunidade escolhe uma árvore na mata e pede permissão à montanha para cortá-la. Faz-se uma cerimônia, e o tronco é transportado com respeito até a praça. Talvez por isso, para os participantes, o poste não seja um simples pau: é uma árvore sagrada que une a terra com o céu.\n\nDepois, os personagens. Quatro voladores e um caporal. O caporal sobe até a ponta, senta-se na plataforma e toca uma flauta e um tamborzinho enquanto os outros quatro se lançam. Os quatro voladores são os quatro rumos do mundo, e o caporal, no centro, é o quinto: o eixo. Os voladores vão amarrados pelos pés com cordas enroladas no poste e, ao se lançarem, descem girando em círculos cada vez maiores.\n\nE agora, os números. Cada volador dá treze voltas antes de tocar o chão. Quatro voladores vezes treze voltas somam cinquenta e dois, que é justamente o número de anos de um ciclo do calendário mesoamericano, o que você viu na [Pedra do Sol](mna_s06_piedra_sol). Interpreta-se como uma maneira de recordar esse ciclo, embora nem todos os especialistas concordem com essa leitura.\n\nO traje é uma festa de cor. A calça vermelha, com franjas douradas, lembra o Sol. Os lenços cruzados levam espelhos e bordados de flores, e refletem a luz enquanto os dançarinos giram. O gorro cônico, com penas e flores, faz pensar em uma ave. Quem desce com os braços estendidos e com esses adornos se transforma, em certo sentido, em um pássaro.\n\nAcredita-se que o ritual seja antigo, e os cronistas o descreveram pouco depois da conquista. Nos relevos e nas figuras antigas da costa do Golfo há personagens com traços de ave que foram relacionados a ele. Teve de se adaptar aos séculos e, mesmo assim, continua vivo. Em dois mil e nove, a UNESCO o inscreveu na lista do patrimônio cultural imaterial da humanidade.\n\nO risco é real: não há rede, e os voladores se preparam durante anos. Por isso o ritual começa com orações e com oferendas, e termina com alívio e festa.\n\nHoje os voladores podem ser vistos em Papantla, em Cuetzalan e também na Cidade do México, onde costumam se apresentar na esplanada do museu. Alguns o veem como um espetáculo; para outros, é uma oração no ar. O que é certo é que cada voo lembra que um povo pode conservar uma cerimônia durante séculos, mesmo quando o mundo muda ao seu redor."
+    },
+    "retos_observacion": {
+      "hash": "5c152a8521ab64d1",
+      "texto": [
+        "Procure os espelhos e os bordados dos lenços cruzados sobre o peito",
+        "Observe a calça vermelha com franjas douradas",
+        "Repare no gorro cônico: que penas e flores ele leva?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "082591921c4764c8",
+      "texto": {
+        "Povo": "Totonaca / Nahua",
+        "Região": "Serra Norte de Puebla e Totonacapan (Papantla / Cuetzalan)",
+        "Técnica/Material": "Veludo/cetim vermelho, franja de canutilho dourado, espelhos, penas e bordado",
+        "Função": "Indumentária sagrada para o ritual cosmogônico dos Voladores (invocação da chuva)"
+      }
+    },
+    "faq_mito": {
+      "hash": "d571f45066a32a68",
+      "texto": {
+        "pregunta": "Mito: A Dança dos Voladores é um espetáculo turístico inventado há poucos anos.",
+        "respuesta": "Realidade: É um ritual muito antigo, com raízes anteriores à conquista. Em dois mil e nove, a UNESCO o reconheceu como patrimônio cultural imaterial da humanidade."
+      }
+    }
+  }
+}

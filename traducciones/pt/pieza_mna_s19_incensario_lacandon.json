@@ -1,0 +1,68 @@
+{
+  "id": "mna_s19_incensario_lacandon",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "frase_gancho": [
+      "el glosario pide \"Lacandona\" para \"Lacandón / Lacandones\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Lacandona\" para \"Lacandón / Lacandones\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Otomí\" para \"Otomí\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece",
+      "el glosario pide \"Lacandona\" para \"Lacandón / Lacandones\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "7ece604c02b3dc42",
+      "texto": "Defumador e incensário de barro lacandona"
+    },
+    "frase_gancho": {
+      "hash": "444c34560d5227c4",
+      "texto": "Um rosto de barro por onde os lacandonas falam com seus deuses."
+    },
+    "puente_narrativo": {
+      "hash": "7cd6546e0bd2c152",
+      "texto": "Da selva viajamos para o norte, até a península de Yucatán. Procure um vestido branco de três peças, bordado com grandes flores coloridas e arrematado com renda."
+    },
+    "guion_corto": {
+      "hash": "68bdaf0ea74f4363",
+      "texto": "Este recipiente de barro é um incensário dos lacandonas, que se chamam a si mesmos hach winik, «os homens verdadeiros», e vivem na selva de Chiapas. Foi modelado à mão, sem torno, e na frente traz o rosto de uma divindade, com sobrancelhas marcadas, olhos redondos e faixas pintadas de branco e vermelho. Dentro dele se queima copal e se colocam oferendas de comida. A fumaça perfumada sobe ao céu e funciona como uma mensagem: assim os lacandonas agradecem o sustento, pedem saúde para suas famílias e falam com Hachakyum, seu deus criador. Para eles, um incensário não é um simples utensílio. É uma presença que recebe a oferenda e escuta."
+    },
+    "guion_largo": {
+      "hash": "08599aacb402f3a3",
+      "texto": "“Lacandona” é o nome que as pessoas de fora lhes deram; eles se chamam hach winik, «os homens verdadeiros». Sua língua se parece muito com o maia de Yucatán, embora eles vivam a muitos quilômetros de lá, na selva do oriente de Chiapas, uma das maiores que restam ao México. São um povo pequeno, de cerca de mil pessoas, distribuídas em comunidades como Nahá, Metzabok e Lacanjá Chansayab.\n\nPara eles, os deuses têm casa própria: a casa dos deuses, uma construção simples de madeira e palma, afastada das moradias. Ali se guardam os incensários, que são muito mais do que recipientes. Nas cerimônias de renovação, oferecem-se a eles comida e bebida, como a convidados: massa de milho e balché, uma bebida fermentada que se prepara com a casca de uma árvore e mel. Diz-se que cada incensário ganha vida ao ser consagrado e que, com os anos, envelhece.\n\nO copal é a voz da cerimônia. É a resina de uma árvore e, em várias línguas maias, é chamado de pom. Você já o viu no [oratório otomi](mna_s15_oratorio_familiar) e no [altar de Xantolo](mna_s18_altar_xantolo): em todo o México, a fumaça do copal é uma ponte para o sagrado. Entre os maias, ela é antiquíssima, e se pensa que os templos que você viu lá embaixo se enchiam desta mesma fumaça há mais de mil anos.\n\nOs lugares também contam. Yaxchilán, a cidade do [lintel](mna_s09_dintel26_yaxchilan) que você viu na sala maia lá de baixo, é para os lacandonas uma morada de seus deuses e, segundo se conta, durante muito tempo eles viajaram até lá para queimar copal. Dessa relação nasce uma curiosa anedota: as pinturas de Bonampak se tornaram conhecidas do mundo em mil novecentos e quarenta e seis, e se conta que um guia lacandona levou até elas um fotógrafo estadunidense.\n\nOlhe o rosto com calma. As sobrancelhas grossas, os olhos redondos e a boca aberta lhe dão um ar vigilante, como se o barro olhasse para quem o olha. Se você se aproximar, notará faixas geométricas pintadas e o desgaste das mãos que o seguraram. Um incensário assim não se faz com pressa: exige seu ritual, sua oração e seu tempo.\n\nOs anciãos lacandonas contam que, enquanto houver cerimônias e os incensários forem renovados, o céu continuará em seu lugar, e que, se o ritual fosse esquecido, o mundo poderia acabar. É uma forma muito poderosa de dizer algo simples: a tradição sustenta o universo. Também ajuda a entender por que um povo tão pequeno tem cuidado tanto de suas cerimônias.\n\nHoje a selva muda depressa, com estradas, pecuária e turismo, e cuidar das cerimônias é parte de cuidar de um modo de viver. Por isso um objeto como este vale tanto: não é só uma bela peça de barro, mas um testemunho de como um povo conversa com o seu mundo.\n\nDo frio dos Altos ao calor da selva há apenas um dia de caminho, mas mudam o agasalho, a comida e os deuses. O que permanece é o gesto de agradecer, de dar algo em troca do que se recebe, com fumaça, com comida ou com palavras."
+    },
+    "retos_observacion": {
+      "hash": "9848240008cd84cf",
+      "texto": [
+        "Procure o rosto modelado na frente: sobrancelhas, olhos e boca",
+        "Observe as faixas pintadas de branco e de vermelho",
+        "Imagine a fumaça do copal saindo pela abertura"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5721a975d41b0b0e",
+      "texto": {
+        "Povo": "Lacandona (Hach Winik)",
+        "Região": "Selva Lacandona (Nahá, Mensäbäk e Frontera Corozal, Chiapas)",
+        "Técnica/Material": "Argila modelada à mão, pintura vegetal (achiote) e resina de copal",
+        "Função": "Vasilha sagrada para a queima ritual de copal e para o alimento oferecido às divindades"
+      }
+    },
+    "faq_mito": {
+      "hash": "19f99fd8eee844e1",
+      "texto": {
+        "pregunta": "Mito: Os antigos maias foram embora e suas cerimônias se perderam.",
+        "respuesta": "Realidade: Os lacandonas, um povo da selva de Chiapas, continuam queimando copal em incensários de barro para falar com seus deuses."
+      }
+    }
+  }
+}

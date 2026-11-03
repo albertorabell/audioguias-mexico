@@ -1,0 +1,59 @@
+{
+  "id": "mna_s06_chapulin",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3e3b225252844a7b",
+      "texto": "Gafanhoto de Chapultepec"
+    },
+    "frase_gancho": {
+      "hash": "65e7cebc83ef39e3",
+      "texto": "Um gafanhoto de pedra vermelha que dá nome ao bosque onde fica o museu."
+    },
+    "puente_narrativo": {
+      "hash": "732f92f463fbce05",
+      "texto": "Do bosque passamos à cidade, e da cidade à sua praça mais movimentada. Procure uma maquete com centenas de figuras de barro: é um dia de mercado em Tlatelolco, a cidade gêmea de Tenochtitlan."
+    },
+    "guion_corto": {
+      "hash": "cc1a3ad318da48b4",
+      "texto": "Este gafanhoto de pedra dá nome ao bosque onde fica o museu. Chapultepec significa «no morro do gafanhoto», e esta escultura é o seu glifo: o nome do lugar escrito com uma imagem. É uma obra mexica do Pós-clássico Tardio, talhada e polida em uma pedra de cor vermelho intenso, e foi encontrada em Chapultepec. Olhe as patas traseiras, dobradas sobre o corpo, como se o inseto estivesse prestes a saltar, e a superfície polida, que brilha sob a luz. Para os mexicas, Chapultepec era um lugar muito importante: ali brotavam nascentes que davam água à cidade, ali eles talharam retratos de seus governantes e ali viveram antes de fundar Tenochtitlan."
+    },
+    "guion_largo": {
+      "hash": "389d2db391ea4b51",
+      "texto": "Há lugares que carregam o nome desenhado. Chapultepec é um deles. A palavra vem do náuatle e se forma com três peças: chapolin, o gafanhoto, o saltador; tepetl, o morro; e uma terminação, c, que quer dizer «em». Juntas dizem «no morro do gafanhoto». E este gafanhoto de pedra é essa palavra transformada em escultura.\n\nOlhe como ele foi feito. É uma peça pequena, talhada e polida em uma pedra de cor vermelho intenso, e o escultor cuidou dos detalhes: as patas traseiras estão dobradas sobre o corpo, prontas para o salto, como se o inseto só estivesse esperando que você parasse de olhar para ele. Repare também nas asas, dobradas sobre o dorso, e nos olhos, que se projetam da cabeça. Os mexicas observavam com atenção os animais, e aqui isso se nota.\n\nO mais curioso é que ninguém tem certeza de que pedra é essa. Alguns a chamam de cornalina, uma variedade vermelha de calcedônia, uma pedra semipreciosa muito dura. Um viajante do século dezenove, que a viu em uma coleção particular, achou que era mármore vermelho, e um gravador da época, que era uma rocha silícea. A peça continua guardando esse pequeno mistério.\n\nElá também teve uma vida própria nos séculos seguintes. Os registros históricos do século dezenove indicam que ela apareceu durante as obras do Castelo de Chapultepec e fez parte da coleção do conde do Peñasco antes de entrar no antigo Museu Nacional. Um arqueólogo contemporâneo, Leonardo López Luján, suspeita que ela saiu de um grande tanque que há perto do morro, conhecido como os Banhos de Moctezuma.\n\nPor que Chapultepec importava tanto? Porque ali brotavam nascentes de água doce que, por um aqueduto, chegavam a Tenochtitlan, uma cidade cercada de água salobra. Nas rochas do morro os mexicas talharam retratos de seus governantes, e uma lenda falava de uma caverna, Cincalco, a «casa do milho», que se imaginava como uma entrada para o mundo subterrâneo. Chapultepec era ao mesmo tempo fonte de água, lugar de reis e porta de outro mundo.\n\nE foi também um lugar da sua história. Segundo as crônicas, antes de fundar Tenochtitlan os mexicas se estabeleceram por um tempo em Chapultepec durante a sua migração. Não se deram bem: seus vizinhos os atacaram e eles tiveram que fugir até que, por fim, encontraram uma ilhota no lago. Ou seja: o bosque onde você está agora foi, para eles, um lugar de esperança e de derrota.\n\nOs gafanhotos, além disso, não eram apenas um símbolo: também eram comidos, assim como hoje em Oaxaca, torrados e com limão. E não é por acaso que a palavra «chapulín» continue viva no espanhol do México: é uma das muitas que vêm do náuatle, junto com tomate, abacate e chocolate.\n\nO nome é tão antigo que os espanhóis o conservaram: o Castelo de Chapultepec, que foi erguido séculos depois, ainda o leva. Quando sair do museu, caminhe um pouco pelo bosque e escute o seu nome. Agora você sabe que ele quer dizer «no morro do gafanhoto», e que há cerca de quinhentos anos alguém o escreveu em pedra."
+    },
+    "retos_observacion": {
+      "hash": "8e0aabfc5584d43d",
+      "texto": [
+        "Procure as patas traseiras dobradas sobre o corpo",
+        "Repare na cor vermelho intenso e no polimento da pedra",
+        "Pense no nome do bosque onde fica o museu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e86bf9addc0a3596",
+      "texto": {
+        "Cultura": "Mexica",
+        "Período": "Pós-clássico Tardio (1325-1521 d.C.)",
+        "Material": "Pedra vulcânica vermelha e cornalina, talhada e brunida",
+        "Procedência": "Bosque de Chapultepec, Cidade do México",
+        "Dimensões": "19 cm de altura x 47 cm de comprimento"
+      }
+    },
+    "faq_mito": {
+      "hash": "d64c811c146221fa",
+      "texto": {
+        "pregunta": "Mito: Esta escultura é apenas um enfeite em forma de inseto.",
+        "respuesta": "Realidade: É o glifo de Chapultepec, o nome do lugar escrito com uma imagem. Significa «no morro do gafanhoto»."
+      }
+    }
+  }
+}

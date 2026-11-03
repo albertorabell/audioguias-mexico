@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_maquetas_alta_vista_quemada",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7fc320d38532edfa",
+      "texto": "Maquetes de Alta Vista e La Quemada"
+    },
+    "frase_gancho": {
+      "hash": "1353aa0b936cd85c",
+      "texto": "Dois sítios da fronteira norte, reduzidos a escala para que você os entenda num relance."
+    },
+    "puente_narrativo": {
+      "hash": "b8dfa79c22ba8e7d",
+      "texto": "Das cidades dos agricultores passamos à arte de outros povos do norte, os caçadores da Baixa Califórnia. Procure uma grande parede com figuras de pessoas e de animais pintadas sobre a rocha, sobretudo em vermelho e preto."
+    },
+    "guion_corto": {
+      "hash": "8874285e2f9a1b7a",
+      "texto": "Duas maquetes reúnem em miniatura dois lugares da fronteira norte da Mesoamérica, os dois em Zacatecas. Alta Vista, em Chalchihuites, é um centro cerimonial quase sobre o Trópico de Câncer. As esquinas de seus edifícios apontam para os quatro rumos, e uma de suas salas tem vinte e oito colunas. La Quemada se ergue sobre um morro, com terraços, uma muralha, uma sala de colunas, uma pirâmide e um jogo de bola. Foi habitada entre os anos trezentos e mil e duzentos da nossa era. Em suas ruínas há marcas de fogo, e ainda não se sabe com certeza o que aconteceu. Vistos juntos, os dois sítios lembram que, no limite do deserto, também houve praças, templos e gente que olhava para o céu."
+    },
+    "guion_largo": {
+      "hash": "d5ed9dfb53e13843",
+      "texto": "Uma maquete oferece o que nenhuma vitrine pode: deixa você ver um lugar inteiro de cima. Com Alta Vista e La Quemada isso ajuda muito, porque são sítios que se entendem pelo seu traçado. Importa onde estão as praças, para onde olham os edifícios e como se sobe de um terraço a outro. Com as duas maquetes à sua frente, você pode comparar duas maneiras de viver no limite da Mesoamérica.\n\nComecemos por Alta Vista, na serra de Chalchihuites. Manuel Gamio a explorou em 1908, e a partir de 1971 o arqueólogo Charles Kelley dirigiu ali escavações durante anos. Seu centro cerimonial foi erguido por volta do século cinco. Alguns estudos propõem que foi fundado por sacerdotes ligados a Teotihuacán, embora isso continue sendo uma proposta. As esquinas de suas praças e edifícios apontam para os quatro pontos cardeais, algo pouco comum na Mesoamérica. Além disso, o lugar parece escolhido com cuidado, porque forma uma triangulação com três morros chamados Picacho Pelón, Chapín e Pedregoso.\n\nEntre suas construções há uma sala com vinte e oito colunas, em quatro fileiras de sete. Ela foi interpretada como um calendário, pelos vinte e oito dias de um ciclo da Lua. Em outro ponto do sítio há um longo corredor de muros de adobe, chamado de labirinto. Diz-se que no equinócio os primeiros raios do Sol entram por ele. Ainda hoje muita gente chega a Alta Vista a cada primavera para receber o Sol.\n\nNa sala das colunas apareceu uma oferenda com restos de pessoas sacrificadas. Entre seus objetos havia quatro taças com uma águia e uma serpente. Elas são decoradas com a mesma técnica do [vaso tubular de Alta Vista](mna_s11_vaso_chalchihuites) que você viu no começo desta sala. Segundo o museu de sítio, a águia é o Sol que vence a serpente para controlar as chuvas e garantir a colheita. Em um lugar tão próximo do deserto, a chuva era tudo.\n\nLa Quemada é outra história. Fica a uns cinquenta quilômetros ao sul da cidade de Zacatecas, sobre um morro de onde se domina o vale de Malpaso. Foi ocupada entre os anos trezentos e mil e duzentos, e foi um dos centros de maior peso de sua região. Seus construtores usaram lajes de riolito, uma rocha vulcânica, coladas com barro, e adaptaram o morro com terraços.\n\nPercorra suas partes com o olhar. Há uma sala de colunas de uns quarenta metros por trinta e uma pirâmide votiva de mais de dez metros de altura. Há também um jogo de bola e uma calçada larga que parte da praça. Ao norte corre uma muralha de uns oitocentos metros, que alguns especialistas relacionam com a defesa do lugar. E há o fogo: em vários pontos existem marcas de incêndio, e por isso se fala de um final violento. Mas os arqueólogos não conseguiram precisar o que aconteceu.\n\nHá séculos, além disso, acreditou-se que La Quemada era Chicomóztoc, o lugar das sete cavernas de onde, segundo a tradição, partiram os povos nahuas. Você já conhece esse nome, porque ele apareceu no início desta sala. Em 1615, o frei Juan de Torquemada situou o sítio nessa rota migratória. Em 1780, o jesuíta Francisco Javier Clavijero o identificou com Chicomóztoc. Hoje os arqueólogos tratam essa ideia como uma especulação antiga. Mesmo assim, ela mostra o quanto o sítio chamava a atenção de quem o via em ruínas.\n\nObserve as duas maquetes e compare. Alta Vista parece pensada para seguir o Sol, e La Quemada, para dominar um vale. Uma fala de calendários e de chuva, e a outra, de poder e de fogo. As duas podem ser visitadas hoje, em Zacatecas, e de lá se entende melhor por que a Mesoamérica não terminava numa linha."
+    },
+    "retos_observacion": {
+      "hash": "476edf7cb9f20a02",
+      "texto": [
+        "Procure as plataformas e as praças em cada maquete",
+        "Compare as duas: qual parece erguida sobre um morro, com terraços e muralha?",
+        "Encontre os edifícios com fileiras de colunas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4341012d4371c749",
+      "texto": {
+        "Cultura": "Cultura Chalchihuites (Alta Vista) e centro regional do vale de Malpaso (La Quemada)",
+        "Período": "Alta Vista, centro cerimonial desde aproximadamente o século V d.C.; La Quemada, ocupada entre 300 e 1200 d.C.",
+        "Procedência": "Alta Vista, Chalchihuites, e La Quemada, Villanueva, Zacatecas",
+        "Tipo": "Maquetes museográficas"
+      }
+    },
+    "faq_mito": {
+      "hash": "3a4a2621462a7bd2",
+      "texto": {
+        "pregunta": "Mito: Ao norte do deserto só houve acampamentos de nômades, sem praças nem templos.",
+        "respuesta": "Realidade: Em Zacatecas houve sítios como Alta Vista e La Quemada, com praças, templos e salas de colunas, e em La Quemada também um jogo de bola."
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "mna_s19_solar_maya",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "1bb414022a10bbae",
+      "texto": "Recriação do Quintal e da Casa Tradicional Maia"
+    },
+    "frase_gancho": {
+      "hash": "ebb21d14f1f4808b",
+      "texto": "Uma casa de palma e uma horta onde cabe o mundo maia."
+    },
+    "puente_narrativo": {
+      "hash": "c33a3ba88d5bf821",
+      "texto": "Da casa e do quintal passamos a uma pintura mural. Procure o mural assinado por Rafael Coronel, cujo título fala do mundo espiritual dos maias da península de Yucatán."
+    },
+    "guion_corto": {
+      "hash": "2dce2db588495f2c",
+      "texto": "Esta é uma casa maia de Yucatán, reconstruída em tamanho real. Observe a forma dela: planta oval, com os cantos arredondados, paredes de varas e barro, e um teto de palma muito alto, que deixa o ar correr e mantém o interior fresco. Lá dentro há redes, um comal, um metate e um pequeno altar da família. Mas a casa não se entende sem o quintal, o terreno que a rodeia: ali crescem árvores frutíferas, hortaliças e plantas medicinais, há colmeias de uma abelha sem ferrão, e tudo é cercado por um muro baixo de pedra chamado albarrada. Para a família maia, casa e quintal formam uma só unidade: ali se vive, se come, se cura e se reza."
+    },
+    "guion_largo": {
+      "hash": "815101fea7291755",
+      "texto": "Esta casa não é uma maquete: segundo se conta, foi erguida no museu por construtores maias vindos de Yucatán, com os materiais e as técnicas de sempre, quando as salas de etnografia foram montadas, no início dos anos sessenta. Por isso, ao entrar, você quase sente o cheiro da palha seca e da madeira. É uma casa feita por quem sabe viver nela.\n\nA forma oval tem uma razão prática. Sem cantos, o vento contorna a casa em vez de empurrá-la, e dizem que ela resiste melhor aos furacões da península. O teto de palma se mantém em bom estado graças à fumaça do fogão, que afasta os insetos. E o calor escapa pelo alto, de modo que lá dentro faz fresco. É um exemplo de arquitetura que se adapta ao clima sem precisar de aparelhos.\n\nTambém há um significado. Os quatro postes principais sustentam o teto, e já se interpretou que lembram os quatro bacabes, os seres que, segundo o mito maia, sustentavam os quatro cantos do céu. Talvez você se lembre da ideia dos quatro rumos na flor do quechquémitl huasteco: aqui ela aparece de novo, agora em forma de casa. Viver dentro dela é viver dentro de um pequeno universo ordenado.\n\nOlhe a rede. A palavra original, hamaca, vem do taíno, a língua das ilhas do Caribe, e é uma das muitas que o espanhol tomou da América. Dormir nela afasta do chão, da umidade e dos escorpiões, e de dia ela é recolhida para deixar o espaço livre. A casa maia muda de uso ao longo das horas: à noite é dormitório, e de dia é cozinha, oficina e lugar de visitas.\n\nVamos sair para o quintal. Ele é a despensa e a farmácia da família. Há árvores frutíferas, hortaliças e ervas curativas, e entre elas a chaya, uma folha verde que se cozinha como o espinafre. Também há galinhas e porcos, um poço e muros de pedra sem argamassa, as albarradas, que marcam os limites e protegem do vento. Tudo se aproveita, e o que sobra volta à terra.\n\nE há as abelhas. Os maias criam há séculos uma abelha sem ferrão, que na língua deles se chama Xunaan Kab, «a senhora abelha». Ela vive em troncos ocos, e seu mel, escasso e de sabor intenso, é usado como alimento e como remédio. Hoje há famílias que continuam cuidando dela para que não se perca, e com ela cuidam também de uma maneira de conviver com o mato.\n\nConta-se que no quintal e na milpa vivem os aluxes, seres pequenos que cuidam do campo, aos quais às vezes se deixa uma cuia de atole para mantê-los contentes. E por trás de tudo está a milpa, o campo de milho, feijão e abóbora que você viu na primeira sala do andar de cima. Sem ela, a casa e o quintal não se sustentariam.\n\nQuando a chuva demora, celebra-se o Cha Chaak, uma cerimônia para pedi-la. É feita no campo, com um altar de ramos, pães de milho e bebidas rituais, e é dirigida por um especialista que reza em língua maia. O deus a quem se fala é Chaac, o mesmo do [mascarão de Kabah](mna_s09_mascaron_chaac) que você viu embaixo, parente de [Cocijo](mna_s07_urna_cocijo) e de Tláloc. É a prova mais clara de que o mundo maia não ficou nas pedras: continua pedindo água, com respeito, para que a milpa cresça."
+    },
+    "retos_observacion": {
+      "hash": "60c78f055882c290",
+      "texto": [
+        "Observe a forma oval da casa e o teto de palma",
+        "Procure a rede, o comal e o metate dentro da casa",
+        "Observe o muro baixo de pedra que cerca o quintal"
+      ]
+    },
+    "especificaciones": {
+      "hash": "14b4e176c85d1b73",
+      "texto": {
+        "Povo": "Maia Iucateque",
+        "Região": "Península de Yucatán (Campeche, Yucatán e Quintana Roo)",
+        "Técnica/Material": "Arquitetura vernácula (madeira dura, pau a pique, palma de huano, henequém)",
+        "Função": "Recriação da moradia tradicional e espaço biocultural do quintal familiar"
+      }
+    },
+    "faq_mito": {
+      "hash": "751e19273568d57c",
+      "texto": {
+        "pregunta": "Mito: A casa maia é um refúgio primitivo.",
+        "respuesta": "Realidade: Sua forma oval, seu teto alto e seu quintal com horta são pensados para o calor, o vento e a vida de toda uma família."
+      }
+    }
+  }
+}

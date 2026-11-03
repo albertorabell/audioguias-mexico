@@ -1,0 +1,54 @@
+{
+  "id": "mna_s01_entierro_dolni_vestonice",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "da694b2d48cffc28",
+      "texto": "Recriação do sepultamento de Dolní Věstonice"
+    },
+    "frase_gancho": {
+      "hash": "6320a9e2d606d0d4",
+      "texto": "Três jovens sepultados juntos sobre terra vermelha, há dezenas de milhares de anos."
+    },
+    "puente_narrativo": {
+      "hash": "98e1c9c337b09ecf",
+      "texto": "De um túmulo passamos aos crânios: os ossos também contam histórias. Procure o mural de crânios desta sala e compare suas formas, seus dentes e as marcas de costumes de povos muito diferentes."
+    },
+    "guion_corto": {
+      "hash": "12aca6e878b6f5a6",
+      "texto": "Três jovens descansam juntos sobre terra tingida de vermelho. Alguém os colocou assim há mais de vinte e cinco mil anos, no Paleolítico Superior. É a recriação em tamanho real de um sepultamento de Dolní Věstonice, na Morávia, ao sul da atual República Tcheca. Eram pessoas da nossa espécie, Homo sapiens, que viviam da caça e da coleta. Tinham entre dezesseis e vinte anos, aproximadamente, e foram sepultados ao mesmo tempo, sem sinais de morte violenta. Os corpos trazem ocre vermelho e adornos feitos com dentes perfurados. Os especialistas veem nesses detalhes uma das provas mais antigas na Europa de pensamento simbólico e de rituais para se despedir dos mortos."
+    },
+    "guion_largo": {
+      "hash": "b6d8e7a958dc3800",
+      "texto": "Quando você pensa na pré-história, talvez imagine pessoas que apenas tentavam sobreviver. Este sepultamento conta outra coisa: que há mais de vinte e cinco mil anos, numa aldeia de caçadores de mamute, alguém dedicou tempo a se despedir com cuidado de três jovens.\n\nO que você vê é uma recriação em tamanho real de um túmulo encontrado em 1986 em Dolní Věstonice, na Morávia, ao sul da atual República Tcheca. Foi feita com réplicas dos esqueletos, com ferramentas de pedra e com dentes de animais, sobre um leito de terra com ocre vermelho. Os três corpos jazem estendidos, um ao lado do outro, e foram enterrados ao mesmo tempo; não se encontraram sinais de morte violenta. Quem os sepultou vivia da caça de mamutes, e em acampamentos da região foram erguidas cabanas com ossos desse animal. Na próxima sala você verá os caçadores que perseguiram esse mesmo gigante na América.\n\nObserve como estão posicionados. Um deles está de bruços. Outro apoia a mão em direção à pelve do jovem do centro, que, segundo os estudos, foi colocado primeiro. E sobre as cabeças foi espalhado ocre vermelho, um pigmento natural feito de óxido de ferro. Em muitas culturas, o vermelho era associado ao sangue e à vida. Algo parecido você verá na Sala Maia, onde o corpo do rei [Pakal](mna_s09_mascara_pakal) estava coberto de cinábrio, outro pó vermelho.\n\nO jovem do centro guarda um segredo que foi descoberto com o passar dos anos. Tinha uma malformação nos ossos desde o nascimento, que lhe curvava as pernas. Mesmo assim chegou a ser jovem, e os especialistas pensam que seu grupo deve ter cuidado dele. É uma das provas mais antigas de que, já naquela época, os humanos se ocupavam de quem precisava de ajuda.\n\nHá ainda um dado curioso. Durante muito tempo acreditou-se que o jovem do centro era uma mulher. Em 2016, uma análise de DNA indicou que os três eram homens, e que possivelmente eram parentes. A ciência às vezes corrige o que parecia evidente.\n\nOs corpos traziam adornos feitos com dentes perfurados de animais, que provavelmente eram costurados na roupa ou no toucado. Imagine o trabalho de perfurar um dente com ferramentas de pedra, e pense na importância que esses três jovens tinham para quem se despediu deles. Para os especialistas, o ocre e os adornos estão entre as provas mais antigas na Europa de pensamento simbólico: a ideia de que um objeto pode significar algo além de seu uso.\n\nO sítio é famoso por outro motivo. Em Dolní Věstonice foi encontrada uma figurinha de barro cozido de uma mulher, a «Vênus de Dolní Věstonice», uma das cerâmicas mais antigas que se conhecem. Ou seja: aqueles caçadores cozinhavam barro muito antes de existirem as aldeias agrícolas que você verá na Sala do Pré-clássico.\n\nOlhe esta cena como uma lembrança. Muito antes das cidades e dos deuses, já havia pessoas que se despediam dos seus com cuidado. E esse costume, mais do que qualquer pirâmide, nos faz reconhecer uns aos outros."
+    },
+    "retos_observacion": {
+      "hash": "09402a7ee0cbf420",
+      "texto": [
+        "Conte os corpos e observe como estão posicionados",
+        "Procure o ocre vermelho sobre a terra e sobre os corpos",
+        "Encontre os adornos feitos com dentes e as ferramentas de pedra"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9f47e68a8c77408f",
+      "texto": {
+        "Cultura": "Homo sapiens, caçadores-coletores do Paleolítico Superior europeu (Gravetiano)",
+        "Período": "Cerca de 26 000 a 27 000 anos antes do presente",
+        "Material": "Recriação museográfica em diorama em escala 1:1 com réplicas dos três esqueletos, pigmento ocre e colares de dentes perfurados",
+        "Procedência original": "Dolní Věstonice, Morávia, República Tcheca"
+      }
+    },
+    "faq_mito": {
+      "hash": "e4ab880b6703b50d",
+      "texto": {
+        "pregunta": "Mito: Os humanos da pré-história enterravam seus mortos sem cerimônia, em simples covas.",
+        "respuesta": "Realidade: Este sepultamento múltiplo, com ocre vermelho e adornos de dentes, mostra rituais funerários no Paleolítico Superior."
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "mna_s09_palacio_hochob",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f696ddc923bd2153",
+      "texto": "Réplica do Palácio de Hochob"
+    },
+    "frase_gancho": {
+      "hash": "13ebf3d95ab98896",
+      "texto": "Uma porta que imita a boca aberta do monstro da terra."
+    },
+    "puente_narrativo": {
+      "hash": "ced7ad0e799c63aa",
+      "texto": "Da fachada de pedra voltamos às figuras pequenas de Jaina. Procure um ancião de barro cercado de pétalas, como se brotasse de uma flor aberta."
+    },
+    "guion_corto": {
+      "hash": "ff9f39353b025000",
+      "texto": "Esta fachada reproduz o Palácio de Hochob, no estado de Campeche. Hochob pertence à região dos Chenes, nome que em maia quer dizer «poços», porque ali quase não há rios e a água é guardada em poços e cisternas. A porta central é a boca aberta do monstro da terra: para entrar no edifício era preciso passar por suas fauces. O resto da fachada era coberto por um mosaico de pedras cortadas que formavam máscaras de narizes longos, como as de Chaac, o deus da chuva. É um edifício do período Clássico Tardio, feito para impressionar. No museu você o vê de frente, mas imagine o edifício rodeado de mata baixa."
+    },
+    "guion_largo": {
+      "hash": "18a44e6817e80f02",
+      "texto": "Poucas fachadas pedem tanta coragem para serem atravessadas: a porta deste edifício é uma boca. Olhe os dentes talhados na pedra ao redor do vão e, acima, o rosto de uma criatura monstruosa. Os maias a entendiam como o monstro da terra, de onde nascem o milho, a água e a vida, e que ao mesmo tempo era um limiar para o mundo inferior. Entrar no palácio era, literalmente, entrar na terra.\n\nA ideia não é exclusiva dos maias. Os mexicas representavam a terra como [Tlaltecuhtli](mna_s06_tlaltecuhtli), um monstro agachado de fauces abertas, que você viu na Sala Mexica. Nos dois mundos, a terra devora os mortos e também dá o milho. Pensa-se que atravessar essa boca era uma maneira de dizer que o edifício era um lugar entre o mundo dos vivos e o dos deuses.\n\nIsto é uma reprodução da Estrutura dois de Hochob. O original fica em Campeche, na região dos Chenes. Chen, em maia iucateque, significa «poço», e os Chenes são «os poços»: uma terra de mata baixa, sem rios, onde as pessoas dependiam de poços e de cisternas subterrâneas, chamadas chultunes, para guardar a chuva. Você já viu isso no [Mascarão de Chaac](mna_s09_mascaron_chaac): quando a água escasseia, o deus da chuva cobre as fachadas.\n\nRepare na técnica. A fachada era revestida com um mosaico: muitas pedras cortadas sob medida, encaixadas uma a uma para formar rostos, serpentes e símbolos. As mais fáceis de reconhecer são as máscaras de nariz longo e enrolado, as do deus Chaac, que ladeiam a entrada. É a mesma estética do mascarão de Kabah, mas aqui não é uma peça isolada: é uma parede inteira.\n\nO estilo dos Chenes tem vizinhos e parentes. Com o estilo Río Bec, compartilha a ideia de fachadas como máscaras gigantes e, com o estilo Puuc, de Uxmal e de Kabah, o gosto pelos mosaicos de pedra. É como se toda uma região tivesse combinado transformar seus edifícios em rostos.\n\nChama-se palácio, embora no mundo maia a fronteira entre um palácio e um templo fosse tênue: o poder e o sagrado andavam de mãos dadas. Quem governava falava com os deuses, e as fachadas lembravam isso a todos que se aproximavam.\n\nUm detalhe para quando você viajar: a maioria das pessoas pensa em Chichén Itzá ou em Palenque, mas Campeche guarda cidades enormes que quase ninguém visita, como Calakmul, de onde vem a [Estela cinquenta e um](mna_s09_estela51_calakmul). Esta fachada é um convite para ir procurá-las.\n\nE um truque de museu: lembre-se de que muitas peças desta sala, como as estelas, os lintéis e os mascarões, não ficavam soltas em uma vitrine. Faziam parte de edifícios como este, cobertos de cor. Devolva-as, com a imaginação, ao seu lugar.\n\nOlhe mais uma vez os dentes e a testa do monstro, e repare em como, de longe, ele se parece com um rosto. Cruze o limiar com o olhar, mas respeite o monstro: aqui, a terra deixa você passar."
+    },
+    "retos_observacion": {
+      "hash": "a9f1e60866c72e2c",
+      "texto": [
+        "Procure a porta que parece uma boca e repare em seus dentes",
+        "Encontre as máscaras de nariz longo que ladeiam a entrada",
+        "Observe como as pedras pequenas formam um mosaico"
+      ]
+    },
+    "especificaciones": {
+      "hash": "66cbc0d19923c1f1",
+      "texto": {
+        "Cultura": "Maia (estilo Chenes)",
+        "Período": "Clássico Tardio",
+        "Material": "Réplica de uma fachada de pedra",
+        "Procedência": "Hochob, Campeche (o original)"
+      }
+    },
+    "faq_mito": {
+      "hash": "de7e37c7098d980e",
+      "texto": {
+        "pregunta": "Mito: As fachadas maias eram de pedra lisa e cinza, sem adornos.",
+        "respuesta": "Realidade: Muitos edifícios maias eram cobertos de mosaicos de pedra que formavam rostos e símbolos, e eram pintados de cores."
+      }
+    }
+  }
+}

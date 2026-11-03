@@ -1,0 +1,58 @@
+{
+  "id": "mna_s20_mascara_chapayeka",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6106535299f73dcf",
+      "texto": "Máscara de Chapayeka / Fariseu da Semana Santa Yaqui"
+    },
+    "frase_gancho": {
+      "hash": "c0e497e44c13a5f1",
+      "texto": "Orelhas enormes e nariz comprido: a máscara dos fariseus da Semana Santa yaqui."
+    },
+    "puente_narrativo": {
+      "hash": "6b6a6b6a61eb1665",
+      "texto": "Da máscara passamos à música da serra. Procure um violino de madeira feito à mão, ao lado de um pequeno tambor com duas peles."
+    },
+    "guion_corto": {
+      "hash": "b436ce2590224680",
+      "texto": "Esta máscara de couro, com orelhas enormes e nariz comprido, é a de um chapayeka, também chamado fariseu, personagem central da Semana Santa do povo yaqui, ou yoeme, de Sonora. Está pintada com linhas geométricas e cruzes em vermelho, branco e preto, e da parte de cima pendem mechas de crina ou de lã. Os homens que a usam cumprem uma promessa, uma manda, durante a Quaresma, e se vestem com um cobertor, um cinto de cascos e uma espada de madeira. Representam os perseguidores de Cristo e as forças do mal. No Sábado de Aleluia, ao fim da Semana Santa, o mal é derrotado: os dançarinos tiram as máscaras e as jogam no fogo. É um teatro sagrado em que todo o povo participa."
+    },
+    "guion_largo": {
+      "hash": "aedfdea4e19cfbcf",
+      "texto": "Os yaquis chamam a si mesmos de yoeme, «o povo». Vivem no sul de Sonora, junto ao rio Yaqui, e sua língua pertence à mesma grande família do náuatle. Não são o mesmo povo, é claro, mas seus idiomas compartilham uma origem remotíssima. Talvez você se lembre de que os mexicas contavam que tinham vindo do norte, de Aztlán: aqui, no norte, continuam vivas línguas irmãs da sua.\n\nNo século dezessete chegaram à região missionários jesuítas e, com eles, o calendário cristão. Os yaquis não o receberam sem mais: misturaram-no com suas ideias sobre o monte, a água e os antepassados, e criaram uma Semana Santa que não se parece com nenhuma outra. Esta máscara faz parte dessa mistura.\n\nDurante quarenta dias, a Quaresma transforma todo o povo em palco. Os fariseus percorrem as ruas e o templo e, segundo se conta, enquanto estão com a máscara permanecem em silêncio e se comunicam por gestos e pelo ruído de seus cintos. Colocar a máscara é deixar de ser você mesmo. Por isso ela é tratada com respeito e não como uma fantasia de carnaval.\n\nDepois vem o desfecho. No Sábado de Aleluia, entre sinos e flores, segundo se conta, os fariseus perdem a batalha, tiram as máscaras e as atiram em uma fogueira. Como muitas máscaras terminam no fogo, a cada ano é preciso fazer outras novas. Por isso é interessante ter uma aqui: o normal é que esses objetos desapareçam ao cumprir sua função.\n\nOutros dançarinos yaquis têm seu lugar nas festas. Os pascolas dançam e fazem rir, e o dançarino do cervo imita os movimentos do animal, desde que bebe água no monte até que cai caçado. Nas pernas amarram os tenábaris, as fiadas de casulos com pedrinhas que você já viu desenhadas na [bailarina de Tlatilco](mna_s03_bailarina_cascabeles). O cervo, que apareceu nas pegadas do [petróglifo do deserto](mna_s11_petroglifo_desierto) e nos quadros wixárikas, é no norte um animal sagrado.\n\nNa sala dos toltecas você viu um guerreiro que levava um coiote como elmo para tomar sua força. Aqui a ideia é diferente: quem põe a máscara carrega o papel do mal para que a comunidade possa derrotá-lo. É uma das formas mais antigas de teatro, e ainda é representada a cada ano.\n\nA história dos yaquis também é de resistência. Durante séculos defenderam seu território e a água do rio, e no século dezenove e no início do vinte houve guerras e deportações. Segundo os historiadores, milhares de yaquis foram enviados para longe de sua terra, entre outros destinos para as fazendas de henequém de Yucatán, onde você viu [o terno](mna_s19_terno_yucateco). Que a festa sobreviva é uma forma de voltar para casa.\n\nQuando você olhar a máscara, imagine o som dos cascos do cinto batendo no chão, um ritmo que anuncia o fariseu. Por trás deste objeto de couro há um ensinamento: a comunidade se renova a cada ano ao lembrar que o mal existe e que, unida, pode vencê-lo."
+    },
+    "retos_observacion": {
+      "hash": "369cc4a85825f51b",
+      "texto": [
+        "Procure as orelhas enormes e o nariz alongado",
+        "Observe as cruzes e as linhas pintadas em vermelho, branco e preto",
+        "Imagine o ruído dos cascos do cinto ao caminhar"
+      ]
+    },
+    "especificaciones": {
+      "hash": "79f7178ced2adb9f",
+      "texto": {
+        "Povo": "Yaqui (Yoeme)",
+        "Região": "Vale do Rio Yaqui (Sonora)",
+        "Técnica/Material": "Couro de bode empalhado, madeira de chivato, cabelo natural e pigmentos",
+        "Função": "Parafernália ritual de mascaramento para a Quaresma e a Semana Santa yaqui"
+      }
+    },
+    "faq_mito": {
+      "hash": "98420d32404736e5",
+      "texto": {
+        "pregunta": "Mito: A máscara do chapayeka é uma fantasia de carnaval.",
+        "respuesta": "Realidade: Ela faz parte de uma promessa religiosa da Quaresma yaqui, e no fim da Semana Santa muitas máscaras são queimadas."
+      }
+    }
+  }
+}

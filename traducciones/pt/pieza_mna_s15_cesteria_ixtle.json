@@ -1,0 +1,54 @@
+{
+  "id": "mna_s15_cesteria_ixtle",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "bedd207ed41e7614",
+      "texto": "Utensílios e Cestaria de Ixtle de Maguey"
+    },
+    "frase_gancho": {
+      "hash": "27cf21104df6fdc3",
+      "texto": "Do maguey saem fio, corda, bolsa e agulha."
+    },
+    "puente_narrativo": {
+      "hash": "dfa2b3b4190c905b",
+      "texto": "Do trabalho das mãos passamos à oração. Procure um altar escalonado com cruzes vestidas com tecidos bordados, flores, velas e um incensário de barro."
+    },
+    "guion_corto": {
+      "hash": "c4778b1789260869",
+      "texto": "Estes objetos são feitos com ixtle, a fibra do maguey, a planta mais importante do altiplano. Para extraí-la, raspam-se as folhas grossas até separar os fios, que depois são lavados, secos e trançados. Você verá ayates, que são mantas de carga; bolsas de fibra, cordas, escovas e outros utensílios de uso diário. Os otomis do Vale do Mezquital, uma região seca e de pouca chuva, fizeram do maguey quase tudo: teto, comida, bebida, remédio e roupa. O ixtle é duro, mas flexível, e com ele se fazem desde cordas para carregar peso até mantas macias. Estes objetos mostram como, com paciência, é possível viver de uma única planta."
+    },
+    "guion_largo": {
+      "hash": "af99d523fc32e7a1",
+      "texto": "Imagine que você pudesse escolher apenas uma planta para sobreviver. Muitos povos do altiplano escolheriam o maguey. E não é exagero: do maguey saem fibra para fazer cordas, bolsas e roupas; o aguamiel, um suco doce que se bebe puro ou se deixa fermentar para transformá-lo em pulque; a larva que se come; a folha carnuda que serve de teto; e até uma agulha com linha, porque o espinho da ponta se arranca com um fio preso.\n\nAqui o que você vê é a fibra, o ixtle. É a mesma que você já viu nos [fardos da caverna de Candelaria](mna_s11_fardo_candelaria) e na cabeleira da [máscara dos Viejitos (Velhinhos)](mna_s14_mascara_viejitos). Ela é obtida raspando as folhas até que restem os fios. É um trabalho duro, feito à mão e que se aprende desde menina. Depois a fibra é lavada, seca ao sol e fiada com um fuso de barro.\n\nOs otomis do Vale do Mezquital vivem em uma região seca, de mezquites e magueyes. O nome «Mezquital» vem de uma palavra náuatle para o mezquite. Em um lugar onde chove pouco, o maguey resiste à seca e dá de comer, de beber e de vestir. Essa capacidade de aproveitar tudo é o que costuma ser chamado de sabedoria ecológica: viver bem sem esgotar o que nos rodeia.\n\nOlhe o ayate, essa espécie de manta de rede. Serve para carregar milho, lenha, frutas e também bebês. É levado às costas, preso por um mecapal, uma faixa que se apoia na testa. É o sistema que os carregadores do México antigo, os tlamemes, usavam. Sem animais de carga nem rodas, o comércio de longa distância, tanto em Teotihuacán como em Paquimé, era feito a pé, por gente que levava a carga assim, nas costas e presa pela testa.\n\nE o ayate tem uma fama especial. Segundo a tradição, a tilma de Juan Diego, onde se diz que apareceu a imagem da Virgem de Guadalupe, era feita de fibra de maguey. É uma maneira de lembrar que este material tão humilde esteve presente nos momentos mais importantes da história do país.\n\nO maguey tinha também sua deusa. Os mexicas veneravam Mayahuel, a deusa do maguey, e acreditavam que seus filhos, os Quatrocentos Coelhos, eram deuses do pulque, que presidiam a embriaguez e a festa. Era uma bebida sagrada que nem todos podiam tomar. Hoje o pulque continua vivo em muitos lugares do altiplano, ainda que já sem essas regras.\n\nPor isso estes objetos, tão simples, são uma lição. Cordas, escovas, mantas: nada do que você vê foi feito em uma fábrica. Tudo saiu de uma planta, do trabalho de umas mãos e de um conhecimento antigo. Hoje o ixtle volta a ser valorizado: fazem-se bolsas, buchas e escovas de fibra como alternativa ao plástico. Se você pensar bem, é o melhor exemplo de aproveitamento da natureza que você vai encontrar em todo o museu."
+    },
+    "retos_observacion": {
+      "hash": "27209f6d0158508f",
+      "texto": [
+        "Procure o ayate, a manta de rede, e os mecapales que o sustentavam",
+        "Compare os fios de ixtle: quais são mais grossos e quais são mais finos?",
+        "Observe as escovas e as cordas: você sabe para que serve cada uma?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c49c13e32c1fdd54",
+      "texto": {
+        "Povo": "Otomí (Hñähñu)",
+        "Região": "Vale do Mezquital, Hidalgo e Estado do México",
+        "Técnica/Material": "Fibra de maguey (ixtle) desfibrada, fiada em fuso e tecida em tear de cintura",
+        "Função": "Ferramentas de carga agrícola, cestaria, recipientes e vestimenta camponesa"
+      }
+    },
+    "faq_mito": {
+      "hash": "7e1dce3cdd271ca8",
+      "texto": {
+        "pregunta": "Mito: O maguey serve apenas para fazer pulque ou tequila.",
+        "respuesta": "Realidade: Ele dá fibra para cordas, bolsas e roupas, comida, bebida, remédio, tetos e até agulha e linha. Os otomis do Mezquital vivem desse conhecimento."
+      }
+    }
+  }
+}

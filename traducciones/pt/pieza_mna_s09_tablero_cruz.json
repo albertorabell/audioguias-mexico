@@ -1,0 +1,54 @@
+{
+  "id": "mna_s09_tablero_cruz",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7e147b0d606407e2",
+      "texto": "Tablero da Cruz de Palenque"
+    },
+    "frase_gancho": {
+      "hash": "739924d51876e119",
+      "texto": "Um menino e um rei adulto, o mesmo homem, aos lados de uma cruz sagrada."
+    },
+    "puente_narrativo": {
+      "hash": "95c9142a818ddf57",
+      "texto": "De Palenque passamos ao palácio de outro reino, às margens do rio Usumacinta. Procure um relevo de pedra com duas figuras frente a frente: um rei e uma rainha que lhe entrega um capacete de jaguar."
+    },
+    "guion_corto": {
+      "hash": "333aab32547f6b0c",
+      "texto": "Um menino de seis anos e um rei adulto aparecem na mesma pedra, e são o mesmo homem: Kan Bahlam, filho e sucessor de [Pakal](mna_s09_mascara_pakal). É um grande tablero de pedra calcária do Grupo das Cruzes de Palenque, uma obra maia do Clássico Tardio, esculpida por volta do ano 692. Os especialistas leem nela dois momentos de sua vida: quando criança, ao ser apresentado como herdeiro, um fato do ano 641, e quando adulto, ao receber o poder, no ano 684. No centro, ergue-se uma planta sagrada em forma de cruz. Nas laterais, colunas de glifos contam quem ele foi e por que lhe cabia governar. É um argumento político esculpido em pedra."
+    },
+    "guion_largo": {
+      "hash": "c3b90339d9f90549",
+      "texto": "Imagine que seu pai, o rei mais famoso da cidade, acaba de morrer, e que agora cabe a você governar. Como convencer a todos de que você tem esse direito? Kan Bahlam, o filho de [Pakal](mna_s09_mascara_pakal), fez isso com uma pedra: mandou esculpir este tablero e o colocou no lugar mais sagrado de um templo.\n\nÉ uma obra maia do Clássico Tardio, esculpida por volta do ano 692 em pedra calcária. Vem de Palenque, em Chiapas, do Grupo das Cruzes, um conjunto de três templos: o da Cruz, o do Sol e o da Cruz Folhada. Cada um guardava em seu santuário interior um grande tablero como este, com uma cena e um texto que eram lidos como uma única mensagem.\n\nOlhe para os personagens. O rei aparece duas vezes: quando criança, com seis anos, e quando adulto. Segundo a leitura dos especialistas, a cena do menino lembra o ano 641, quando ele foi apresentado como herdeiro; a do adulto, o ano 684, quando recebeu as insígnias do poder, poucos meses depois da morte de seu pai. Entre um momento e outro se passaram quarenta e três anos, e a pedra os reúne em uma única imagem, como se tudo estivesse decidido desde o princípio.\n\nEntre as duas figuras ergue-se uma planta sagrada em forma de cruz. Para os maias, não era um símbolo cristão: era o eixo do mundo, uma árvore ou uma planta de milho que unia o mundo subterrâneo, a terra e o céu. Elas foram esculpidas muito antes da chegada dos espanhóis, e por isso a chamamos de “cruz” apenas por sua forma.\n\nNas laterais correm os textos, colunas inteiras de glifos. Essa é a parte mais importante, embora a mais difícil de ver. Contam que, segundo a tradição de Palenque, os deuses protetores da cidade haviam nascido em tempos míticos, e que o rei era seu herdeiro na terra. Assim, a história pessoal de Kan Bahlam se unia à dos deuses de sua cidade, e seu direito de governar parecia tão antigo quanto o universo.\n\nPense nisso como um cartaz político, mas esculpido para durar. Os governantes de hoje usam discursos, anúncios e redes sociais; Kan Bahlam usou calcário, escultores e vários anos de trabalho. E funcionou: mais de mil trezentos anos depois, seu nome chegou até você.\n\nSe você vem da [cripta de Pakal](mna_s09_cripta_pakal), já conhece o pai: o rei cujo rosto era coberto pelo jade. Aqui você conhece o filho, aquele que herdou a cidade e governou até o ano 702. Nesses anos, ele levantou este conjunto de templos para deixar claro que a dinastia continuava de pé. Uma tumba para o pai e três templos para o filho: a história de uma família, contada em dois tipos de pedra.\n\nAntes de seguir adiante, compare as duas figuras do rei. O que muda no corpo, no toucado e na postura do menino e do adulto? Nesta pedra o tempo não passa: o menino e o rei são um só."
+    },
+    "retos_observacion": {
+      "hash": "f033df1db6d94a2a",
+      "texto": [
+        "Procure os dois retratos do rei: um quando criança e outro quando adulto",
+        "Encontre a planta sagrada em forma de cruz que está entre eles",
+        "Olhe as colunas de glifos das laterais: são o texto que explica a cena"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a01539b997eb1885",
+      "texto": {
+        "Cultura": "Maia, Palenque",
+        "Período": "Clássico Tardio (por volta de 692 d.C.)",
+        "Material": "Pedra calcária, baixo-relevo em várias lajes",
+        "Procedência": "Grupo das Cruzes, Palenque, Chiapas"
+      }
+    },
+    "faq_mito": {
+      "hash": "1e7546d953929576",
+      "texto": {
+        "pregunta": "Mito: A cruz do tablero é um símbolo cristão que chegou com os espanhóis.",
+        "respuesta": "Realidade: É uma planta ou árvore sagrada maia em forma de cruz, esculpida por volta do ano 692, muito antes da chegada dos espanhóis."
+      }
+    }
+  }
+}

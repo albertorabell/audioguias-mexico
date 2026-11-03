@@ -1,0 +1,61 @@
+{
+  "id": "mna_s09_templo_bonampak",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Lacandona\" para \"Lacandón / Lacandones\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "75c499a708488961",
+      "texto": "Réplica do Templo das Pinturas de Bonampak"
+    },
+    "frase_gancho": {
+      "hash": "f6384b0de01ca966",
+      "texto": "Três cômodos pintados que contam uma festa, uma batalha e um triunfo."
+    },
+    "puente_narrativo": {
+      "hash": "d8a34d37e83e129e",
+      "texto": "Dos murais passamos a uma fachada de pedra. Procure uma porta emoldurada por grandes mosaicos, que parece a boca aberta de um rosto monstruoso."
+    },
+    "guion_corto": {
+      "hash": "7f2b39ee6018ae57",
+      "texto": "Este templo é uma réplica do Templo das Pinturas de Bonampak, na selva de Chiapas. Dentro há cópias dos murais que os maias pintaram ali por volta do ano setecentos e noventa. São três cômodos, e interpreta-se que cada um conta uma parte de uma mesma história: uma cerimônia com músicos e nobres, uma batalha com captura de prisioneiros e, no final, a festa do triunfo, com dança e oferendas de sangue. Repare nas cores, sobretudo no azul maia, tão vivo que parece recém-pintado. As cópias que você vê são obra da pintora Rina Lazo. Os originais continuam na selva, e é por isso que esta réplica nos permite espiar por uma janela até eles."
+    },
+    "guion_largo": {
+      "hash": "0d24c1a7a7e7df73",
+      "texto": "Os maias pintavam quase tudo, mas quase tudo se perdeu: a umidade da selva levou embora as cores. Bonampak é a grande exceção. Seus murais se conservaram tão bem que, quando se tornaram conhecidos em 1946, pareciam de outro mundo: cenas com dezenas de personagens, trajes, instrumentos e um azul que havia resistido a mais de mil e duzentos anos. O nome, Bonampak, quer dizer algo como “muros pintados”, e foi dado pela gente moderna, não pelos maias.\n\nO que você vê aqui é uma reprodução. Os originais continuam na selva de Chiapas, relativamente perto de Yaxchilán, a cidade do [lintel](mna_s09_dintel26_yaxchilan) que você viu há pouco. Eles não podem viajar, porque estão pintados nas paredes de um edifício que não pode ser movido. Por isso o museu levantou um templo e o encheu de cópias, para que você sinta como é entrar nesses cômodos.\n\nCada cômodo é um capítulo. No primeiro, segundo se interpreta, apresenta-se à corte um menino, o herdeiro; há músicos com tambores, chocalhos e trombetas, e nobres vestidos com peles de onça. No segundo há uma batalha, com guerreiros que atacam e prisioneiros capturados, alguns com as mãos sangrando. No terceiro celebra-se o triunfo, com uma dança de personagens de enormes toucados e uma cerimônia em que os nobres oferecem o próprio sangue.\n\nOs murais têm também textos com hieróglifos, escritos junto às figuras, que dizem quem é quem e, às vezes, quando ocorreu cada cena. Por isso foram tão estudados: não são um conto imaginário, e sim um acontecimento de um reino com nome próprio. É, mais uma vez, a escrita maia a serviço da história, como no Lintel vinte e seis de Yaxchilán.\n\nO azul maia merece uma linha à parte. Era fabricado com anil, uma planta, e com um mineral argiloso, e a mistura era aquecida. O resultado é um pigmento que resiste ao sol, à umidade e até aos ácidos. Os cientistas o estudam hoje porque, mil anos depois, continua azul.\n\nAs cópias são obra de uma pintora, Rina Lazo, e isso também é uma história. Lazo nasceu na Guatemala e se formou no México com Diego Rivera. Conta-se que passou uma longa temporada na selva para copiar os murais originais, e que esse trabalho a uniu para sempre a este mundo. Nesta mesma sala há também uma pintura dela, “[Com paixão pelos maias](mna_s09_mural_rina_lazo)”.\n\nEstas pinturas mudaram a imagem que se tinha dos maias. Durante décadas, muitos os imaginaram como um povo pacífico de astrônomos e sacerdotes. Bonampak mostrou algo mais completo: guerra, prisioneiros e sacrifícios, mas também música, dança e festa. Eram pessoas inteiras, que rezavam, lutavam, dançavam e celebravam.\n\nLembre-se da [cabeça de estuque de Pakal](mna_s09_cabeza_pakal) e do [friso de Los Placeres](mna_s09_friso_placeres): sob o pó e os séculos, tudo isso esteve pintado de vermelho, azul e amarelo. Bonampak é o mais perto que estamos de ver aquela cor original. Entre com calma e percorra as cenas como se estivesse passando as páginas de um livro. Mais acima, com os lacandonas, você saberá como elas vieram à luz do mundo pela primeira vez."
+    },
+    "retos_observacion": {
+      "hash": "a509be4e32da0047",
+      "texto": [
+        "Procure o azul maia nas pinturas",
+        "Repare nos hieróglifos que acompanham os personagens",
+        "Observe os toucados e as peles de onça dos personagens"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ba945b7ecbc4fc8",
+      "texto": {
+        "Cultura": "Maia",
+        "Período": "Clássico Tardio (murais originais, por volta de 790 d.C.)",
+        "Material": "Réplica do templo com cópias dos murais",
+        "Procedência": "Bonampak, Chiapas (o original)"
+      }
+    },
+    "faq_mito": {
+      "hash": "37f55d311664383b",
+      "texto": {
+        "pregunta": "Mito: Os maias foram um povo pacífico, de astrônomos e sacerdotes.",
+        "respuesta": "Realidade: Os murais de Bonampak mostram batalhas, prisioneiros e sacrifícios, junto com música e festa: uma sociedade complexa, com guerra e com celebração."
+      }
+    }
+  }
+}

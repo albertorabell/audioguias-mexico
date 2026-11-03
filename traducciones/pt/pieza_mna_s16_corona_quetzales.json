@@ -1,0 +1,54 @@
+{
+  "id": "mna_s16_corona_quetzales",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "809fa76a7706410c",
+      "texto": "Coroa monumental da Dança dos Quetzais"
+    },
+    "frase_gancho": {
+      "hash": "85a9c3651f1ea939",
+      "texto": "Uma coroa de raios coloridos que gira como um sol."
+    },
+    "puente_narrativo": {
+      "hash": "0e5e1afcaebff5ce",
+      "texto": "Da dança que gira passamos à que voa. Procure um traje vermelho com franjas douradas, lenços cruzados sobre o peito, espelhos e um chapéu cônico cheio de flores e plumas."
+    },
+    "guion_corto": {
+      "hash": "08e3130dc565de12",
+      "texto": "Esta coroa gigante, com mais de um metro de diâmetro, é usada na Dança dos Quetzais, que se dança na serra norte de Puebla, sobretudo entre os nahuas e os totonacas. Ela é feita sobre uma armação de varas de caniço, coberta de papel colorido, fitas, espelhos e plumas. Ao dançar, os dançarinos inclinam o corpo e giram, e a coroa se move como um grande sol de cores. Repare nos raios que saem do centro, nas borlas e nas fitas que caem pelas costas. A música fica por conta de uma flauta de caniço e de um tamborzinho. É uma dança para pedir boas colheitas e agradecer ao Sol, e uma das mais espetaculares do país."
+    },
+    "guion_largo": {
+      "hash": "5e4785ce46ae8049",
+      "texto": "Há trajes que se vestem, e trajes que se carregam. A coroa dos quetzais é deste último tipo. Ela mede mais de um metro, e para dançar com ela é preciso ter bom equilíbrio, um pescoço firme e muito treinamento. Não é um adorno para exibir, mas um instrumento de dança: só ganha vida quando alguém o move.\n\nSeu nome vem de uma ave. O quetzal vive nas selvas nubladas do sul do México e da América Central, e suas plumas longas e de um verde iridescente valiam mais do que o ouro. Com elas se fez o [cocar](mna_s06_penacho_moctezuma) que você viu na Sala Mexica, e delas vem o nome de Quetzalcóatl, a «serpente emplumada». Hoje os adornos da dança não são feitos necessariamente com plumas de quetzal, mas com plumas de outras aves e com papel colorido, mas o nome e a ideia continuam.\n\nO papel e a pluma fazem parte de uma longa tradição. No México antigo, os amantecas eram os artesãos que trabalhavam a plumária, e colavam uma a uma as plumas sobre bases de fibra para criar escudos, leques e trajes que pareciam feitos de luz. Os adornos desta dança, com seus raios coloridos, seguem esse ofício, embora com materiais modernos: papel de seda, fitas, espelhinhos.\n\nA coroa representa o Sol. Os raios saem do centro, e quando os dançarinos se inclinam e giram, o disco inteiro se move como um sol que desce e sobe. É um gesto que você já conhece: o Sol como deus central, desde a [Pedra do Sol](mna_s06_piedra_sol) da Sala Mexica até a cerimônia dos wixárikas. Aqui ele não é pintado nem esculpido: é dançado.\n\nFazer uma coroa leva semanas: monta-se o aro de caniço, colam-se os raios, costuram-se as borlas e penduram-se as fitas. Com o uso ela se desgasta, e de tempos em tempos é renovada. Cada dançarino costuma fazer ou encomendar a sua.\n\nA música é simples e hipnótica. Uma flauta de caniço, chamada pito, e um tamborzinho marcam os passos. Os dançarinos avançam em fileiras, se cruzam, giram e se inclinam, sempre no ritmo. Vê-los juntos, com as coroas girando todas ao mesmo tempo, é uma experiência quase vertiginosa. Dança-se nas festas patronais da serra, como a de Cuetzalan, cujo nome costuma ser explicado como «lugar de quetzais».\n\nMuita gente dança por uma promessa, ou seja, para agradecer um favor ou para cumprir com a sua comunidade. A coroa é preparada com meses de antecedência, e às vezes é herdada. Para o dançarino, colocá-la é um ato de compromisso. Carrega-se muito mais do que peso: carrega-se uma história de família.\n\nNa Sala de Oaxaca você verá outra dança de plumas, a [Dança da Pluma](mna_s17_atuendo_danza_pluma), com outro adorno semicircular e outra história. É como se cada região tivesse encontrado a sua maneira de pôr o céu na cabeça. Aqui, na serra de Puebla, essa maneira é um sol de papel e plumas que gira entre a neblina."
+    },
+    "retos_observacion": {
+      "hash": "afcfdedeb2f89ac1",
+      "texto": [
+        "Conte os raios que saem do centro da coroa",
+        "Procure os espelhos, as borlas e as fitas coloridas",
+        "Imagine como a coroa gira quando o dançarino se inclina"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b7f1442145e67f77",
+      "texto": {
+        "Povo": "Nahua / Totonaca",
+        "Região": "Serra Norte de Puebla (Cuetzalan del Progreso)",
+        "Técnica/Material": "Caniço (cana), papel de seda e papel metalizado, fitas de cetim e plumas",
+        "Função": "Parafernália de mascaramento e adorno de cabeça ritual para a Dança dos Quetzais"
+      }
+    },
+    "faq_mito": {
+      "hash": "c019f7abccde7f63",
+      "texto": {
+        "pregunta": "Mito: Os adornos da Dança dos Quetzais são feitos somente com plumas de quetzal.",
+        "respuesta": "Realidade: Hoje são feitos com plumas de várias aves e com papel colorido, fitas e espelhos. O quetzal vive longe, nas selvas do sul, e o nome lembra uma tradição muito antiga."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_piedra_arzobispado",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4a54ed08e0272ffa",
+      "texto": "Pedra do Ex-Arcebispado"
+    },
+    "frase_gancho": {
+      "hash": "c284fe419ae715d3",
+      "texto": "Um cilindro de pedra que dormiu quase quinhentos anos sob o centro da cidade."
+    },
+    "puente_narrativo": {
+      "hash": "7576a0617769d562",
+      "texto": "Do cilindro dos cativos passamos a outro recipiente de oferendas, agora em forma de animal. Caminhe até o jaguar de pedra que vem a seguir: em suas costas há uma cavidade feita para receber corações."
+    },
+    "guion_corto": {
+      "hash": "ed48957fc0baee37",
+      "texto": "Onze cenas de conquista dão a volta neste cilindro de pedra. Em todas se repete a mesma imagem: um governante, com as insígnias de um deus, segura pelos cabelos um guerreiro vencido, e junto a cada vencido aparece o glifo de seu povo. É a Pedra do Ex-Arcebispado, uma obra mexica descoberta em 1988, durante obras na rua de Moneda, no centro da Cidade do México. Alguns especialistas a relacionam com Motecuhzoma Ilhuicamina, o tlatoani que governou antes de Tízoc. Na face superior há um disco solar com um rosto no centro. Acredita-se que servia para combates rituais e para receber oferendas de sangue e de corações."
+    },
+    "guion_largo": {
+      "hash": "124b068dc4a791ad",
+      "texto": "Às vezes a arqueologia não começa com uma expedição, mas com uma vala. Em 1988, durante as obras de fundação de um velho edifício da rua de Moneda, no Centro Histórico da Cidade do México, os trabalhadores toparam com uma grande pedra redonda. Ela estava em seu lugar, a pouca distância do Templo Mayor, no sítio onde os mexicas a haviam colocado quase quinhentos anos antes.\n\nO edifício era o antigo Palácio do Arcebispado, e por isso a peça leva esse nome, embora não tenha nada de colonial. Seu terreno fazia parte do Recinto Sagrado de Tenochtitlan, o coração cerimonial da capital mexica. Durante séculos, a cidade moderna cresceu sobre um monumento que ninguém sabia que estava ali.\n\nÉ um cilindro largo e baixo, de basalto, com mais de dois metros de diâmetro. Se você caminhar ao redor dele, verá onze cenas quase idênticas, separadas por uma barra que repete o mesmo motivo. Em cada uma, um governante segura pelos cabelos um guerreiro vencido. Segurar alguém pelos cabelos era o gesto da vitória total. Junto a cada cativo há um glifo, o nome de seu povo; segundo alguns estudos, entre eles aparecem povos do vale do México, como Chalco ou Xochimilco.\n\nO governante usa as insígnias de um deus. Os estudos iconográficos identificam seus trajes com os de Xiuhtecuhtli, o deus do fogo; outros especialistas o interpretam como Tezcatlipoca. Não importa tanto qual deles: o rei não se apresenta como um homem qualquer, mas como um deus que subjuga seus inimigos.\n\nE quem é o rei? Alguns pesquisadores acreditam que seja Motecuhzoma Ilhuicamina, o quinto tlatoani, que governou de 1440 a 1469. Se for assim, esta pedra é anterior à de Tízoc, a que você acabou de ver. As duas compartilham a mesma ideia: uma lista de vitórias que também era uma mesa de oferendas.\n\nSe você pudesse espiar a face superior, veria um disco solar. Na cavidade central há um rosto humano, o do Sol, e ao redor, bordas com os símbolos do sacrifício: caveiras, ossos cruzados, corações, mãos e facas. Acredita-se que a pedra servia como temalácatl, uma plataforma para o combate ritual, e como cuauhxicalli, um recipiente para os corações e o sangue oferecidos ao Sol.\n\nEsses ritos se relacionam com Tlacaxipehualiztli, a festa da primavera dedicada a [Xipe Tótec](mna_s04_xipe_totec), o deus da pele que você viu na Sala de Teotihuacán. Em náuatle, o nome da festa quer dizer algo como «o esfolamento de pessoas». É uma palavra dura, e convém entendê-la em seu contexto: para os mexicas, essa festa fazia parte da renovação da terra.\n\nHá uma coincidência curiosa. A [Pedra de Tízoc](mna_s06_tizoc) apareceu em 1791, durante obras na Plaza Mayor; a do Arcebispado, em 1988, também durante obras, a poucas ruas dali. Quase duzentos anos separam os dois achados, e em ambos os casos a cidade moderna tropeçou no passado enquanto cavava.\n\nQuando você se afastar, pense nisto: sob as ruas por onde você caminha continua havendo mais peças à espera. A cidade, hoje, ainda as procura."
+    },
+    "retos_observacion": {
+      "hash": "9b03c3251789471f",
+      "texto": [
+        "Conte as cenas de conquista que cercam o cilindro",
+        "Procure o governante que segura um guerreiro pelos cabelos",
+        "Olhe as bordas: há caveiras, corações, mãos e facas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9db9be30d0a4084e",
+      "texto": {
+        "Cultura": "Mexica",
+        "Período": "Pós-clássico Tardio (por volta de 1440-1469 d.C., reinado de Motecuhzoma Ilhuicamina)",
+        "Material": "Basalto esculpido em alto-relevo (11 cenas de conquista)",
+        "Procedência": "Antigo Palácio do Arcebispado, rua de Moneda 4, Centro Histórico, Cidade do México (encontrada em 1988)",
+        "Dimensões": "72 cm de altura x 224 cm de diâmetro"
+      }
+    },
+    "faq_mito": {
+      "hash": "463f7db54f9b057c",
+      "texto": {
+        "pregunta": "Mito: A Pedra do Ex-Arcebispado é outro calendário asteca, como a Pedra do Sol.",
+        "respuesta": "Realidade: Não é um calendário. É um monumento de conquista: suas onze cenas mostram vitórias de um governante mexica."
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "mna_s07_urna_cozobi",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Zapoteca\" para \"Zapoteca / Zapotecas\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Zapoteca\" para \"Zapoteca / Zapotecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "05494408d5743fa4",
+      "texto": "Urna funerária do deus Pitao Cozobi"
+    },
+    "frase_gancho": {
+      "hash": "b613a674cbc276d4",
+      "texto": "Um deus cujo toucado é feito de espigas de milho."
+    },
+    "puente_narrativo": {
+      "hash": "36fc3faf1b9e1d1d",
+      "texto": "Peças como esta não foram feitas para serem exibidas, mas para guardar tumbas. Entre agora em uma tumba reconstruída em tamanho real, com seus murais e sua porta de pedra."
+    },
+    "guion_corto": {
+      "hash": "5484770524f51968",
+      "texto": "Repare no que sai do toucado dele: espigas de milho, uma ao lado da outra. É Pitao Cozobi, o deus zapoteco do milho, das colheitas e do sustento. Esta urna é do período Clássico, entre os anos duzentos e oitocentos da nossa era, e se relaciona com Monte Albán, nos Vales Centrais de Oaxaca. Foi modelada à mão em argila cinza, com apliques e linhas incisas, e ainda conserva restos de pintura sobre estuque. A figura usa orelheiras e um peitoral. Como a de [Cocijo](mna_s07_urna_cocijo), ela não foi feita para guardar cinzas: urnas assim eram colocadas nas tumbas da nobreza, como guardiãs dos mortos."
+    },
+    "guion_largo": {
+      "hash": "860dc0f57b4dc16a",
+      "texto": "Alguns deuses se reconhecem pelas roupas. Este, pela coroa de milho. Do toucado desta figura sentada brotam espigas, uma ao lado da outra, como se a planta crescesse sobre a cabeça dele. Você não precisa ler nenhuma legenda para saber do que se trata: é o deus do milho.\n\nChamava-se Pitao Cozobi, e os zapotecas o veneravam como deus do milho, das colheitas e do sustento. A companheira dele, segundo as fontes coloniais, era Xonaxi Cozobi. Essas mesmas fontes, que o INAH reúne, contam que se oferecia a ele as primeiras espigas tenras do ano: um sacerdote sacrificava uma perua, borrifava o sangue sobre as espigas e depois tudo era cozido em uma refeição compartilhada. Ou seja: antes de comer a colheita, agradecia-se a ele.\n\nPense na dupla que formam [Cocijo](mna_s07_urna_cocijo) e Cozobi. Há pouco você viu o deus da chuva; aqui está o deus do milho. Um traz a água e o outro a transforma em alimento. Para um povo de agricultores, os dois eram duas metades da mesma pergunta: haverá comida este ano?\n\nMonte Albán, a capital dos zapotecas, foi erguida sobre uma montanha aplanada e viveu seu maior esplendor no período a que pertence esta urna. Era uma cidade que dependia do milho, como todas.\n\nVeja como ela foi feita. A figura foi modelada à mão com argila cinza, e o artista acrescentou peças de barro para dar relevo, traçou linhas com uma ferramenta e cobriu o conjunto com estuque pintado. Ainda restam vestígios dessa cor. No corpo distinguem-se as orelheiras e um peitoral, os mesmos adornos das pessoas importantes.\n\nEstas figuras se chamam urnas, mas, como no caso de Cocijo, o nome engana. Elas não foram feitas para guardar cinzas. Eram colocadas em nichos, antecâmaras e fachadas das tumbas da nobreza, e se pensa que eram guardiãs que ajudavam os mortos a pedir aos deuses uma boa colheita. Muitas vezes os deuses aparecem como sacerdotes que os representam, vestidos com os atributos do deus.\n\nEsta urna se relaciona estreitamente com o contexto funerário da [Tumba 104](mna_s07_tumba_104) de Monte Albán, a que você vai ver reproduzida a seguir. Os especialistas não chegam a um acordo sobre qual personagem divino ocupava o nicho sobre a porta dessa tumba, mas concordam quanto ao que ele fazia: guardar e comunicar.\n\nComo sabemos hoje quem é quem? Alfonso Caso e Ignacio Bernal estudaram centenas de urnas de Oaxaca e, para dar nome a elas, usaram os vocabulários que os frades escreveram no século dezesseis, como o de frei Juan de Córdova, com palavras zapotecas da época. É um trabalho de detetive: cruzar um toucado com um nome antigo.\n\nO milho continua sustentando a vida dos povos de Oaxaca. Quando você subir às salas de etnografia, repare em como a milpa organiza o ano, a comida e as festas. Aqui, uma figura de barro com espigas na cabeça leva mais de mil anos lembrando você de onde vem o que você come."
+    },
+    "retos_observacion": {
+      "hash": "a1edcf071f62a409",
+      "texto": [
+        "Procure as espigas de milho que saem do toucado",
+        "Repare nas orelheiras e no peitoral",
+        "Encontre os restos de pintura sobre o estuque"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7050c8980adc8c05",
+      "texto": {
+        "Cultura": "Zapoteca",
+        "Período": "Clássico (Monte Albán III, 200-800 d.C.)",
+        "Material": "Argila cinza modelada à mão com aplicações em pastilhagem e restos de pigmento vermelho",
+        "Procedência": "Monte Albán, Vales Centrais, Oaxaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "dff7b59ba763bc03",
+      "texto": {
+        "pregunta": "Mito: As urnas zapotecas serviam para guardar as cinzas dos mortos.",
+        "respuesta": "Realidade: Elas não foram feitas para guardar cinzas. Eram colocadas em nichos e fachadas das tumbas, e se pensa que protegiam os mortos."
+      }
+    }
+  }
+}

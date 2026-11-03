@@ -1,0 +1,55 @@
+{
+  "id": "mna_s06_maqueta_tlatelolco",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0d3bb7b94cf5c69",
+      "texto": "Maquete e mural do Mercado de Tlatelolco"
+    },
+    "frase_gancho": {
+      "hash": "d20efd8086600cb3",
+      "texto": "Centenas de figuras em um dia de mercado, antes de os espanhóis chegarem."
+    },
+    "puente_narrativo": {
+      "hash": "0e570058ee5d39fd",
+      "texto": "Neste mercado vendiam-se plumas de quetzal, que valiam mais que o ouro. Procure agora um enorme cocar feito com elas, cuja história inclui uma viagem à Europa e uma discussão que dura séculos."
+    },
+    "guion_corto": {
+      "hash": "6ec6354ae53b2bd8",
+      "texto": "É dia de mercado em Tlatelolco, e a praça está cheia. O que você vê é uma maquete moderna com centenas de figuras de barro: nobres, camponeses, artesãos, caçadores e comerciantes de longa distância. Há barracas de comida, cerâmica, joias, ferramentas e animais vivos. Tlatelolco era a cidade gêmea de Tenochtitlan, e seu mercado deixou os espanhóis admirados. Ali não havia moedas como as de hoje: comprava-se por troca, e também com sementes de cacau, com mantas de algodão e com plumas cheias de pó de ouro. A maquete é uma recriação museográfica do Pós-clássico Tardio, feita a partir do que contaram os cronistas do século dezesseis."
+    },
+    "guion_largo": {
+      "hash": "82cae8c1b3ae46c5",
+      "texto": "Feche os olhos por um momento e imagine o barulho: vozes que oferecem mercadorias, a pechincha, o ranger dos petates, o murmúrio de milhares de pessoas. Essa praça existiu. Ficava em Tlatelolco, a cidade gêmea de Tenochtitlan, e foi um dos maiores mercados que os espanhóis viram quando chegaram.\n\nO que você tem à sua frente não é uma peça antiga, mas uma recriação moderna. Ela é formada por centenas de figuras modeladas à mão e se apoia no que contaram as testemunhas do século dezesseis. Hernán Cortés descreveu a praça em suas cartas e falou de dezenas de milhares de pessoas. Bernal Díaz del Castillo, um de seus soldados, conta que alguns companheiros tinham estado em Constantinopla e em Roma, e que nenhum tinha visto uma praça tão grande, tão ordenada e tão cheia de gente. O frei Bernardino de Sahagún, além disso, recolheu a voz dos próprios Mexica, que lhe descreveram os vendedores de cada produto e como eles anunciavam sua mercadoria. Assim, a maquete não se apoia apenas em olhares estrangeiros.\n\nE, de fato, não era uma desordem. O mercado era organizado por seções, e cada produto tinha seu lugar: tecidos e mantas, cerâmica, ervas medicinais, cacau, peles, joias, plumas e animais vivos. Segundo Cortés, havia até uma casa onde alguns juízes resolviam as disputas que surgiam entre compradores e vendedores. Um mercado grande precisa de regras, e este as tinha.\n\nRepare em como se pagava. Não havia moedas como as de hoje. Fazia-se troca, e também se usavam como dinheiro as sementes de cacau, as mantas de algodão e uns pequenos canudos de pluma recheados de pó de ouro. Imagine comprar sua comida com grãos de cacau: a mesma semente com a qual se preparava a bebida dos nobres servia para pagar os tamales.\n\nEntre as barracas misturam-se os pochtecas, os comerciantes de longa distância. Saíam de Tlatelolco carregando suas mercadorias durante semanas, atravessavam terras distantes e voltavam com produtos de luxo: turquesas, ouro, cacau, peles de onça e plumas de quetzal. Pensa-se que, às vezes, também faziam o papel de olhos do império: viajavam, observavam e contavam o que havia em cada lugar.\n\nTlatelolco teve sua própria história. Foi fundada quando um grupo de Mexica se separou de Tenochtitlan, e durante décadas teve seu próprio governante. Em 1473 perdeu sua independência para a cidade irmã, mas conservou o mais valioso: seu mercado, que continuou sendo o centro do comércio.\n\nEssa mesma praça foi o cenário do fim. Em 13 de agosto de 1521, a última resistência dos Mexica contra os espanhóis e seus aliados caiu em Tlatelolco. Um lugar de troca e de abundância foi também o último lugar de uma cidade que se defendia.\n\nAntes de seguir, procure uma cena e dê um nome a ela. Quem compra? Quem vende? O que essa mulher leva na mão? Este museu é feito de pedra, mas também de gente que pechinchava, que se cumprimentava e que voltava para casa com a cesta cheia."
+    },
+    "retos_observacion": {
+      "hash": "94734307c90e9a26",
+      "texto": [
+        "Procure as barracas de comida e de cerâmica entre as figuras",
+        "Encontre as barracas de animais vivos, de joias e de ferramentas",
+        "Olhe o mural ao fundo: ele completa a cena da praça"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b854d87dd4c2262b",
+      "texto": {
+        "Cultura": "Mexica-tlatelolca (recriação museográfica)",
+        "Período": "Representa o Pós-clássico Tardio; maquete moderna",
+        "Material": "Figuras modeladas à mão; mural de fundo",
+        "Procedência": "Recriação do mercado de Tlatelolco, cidade gêmea de México-Tenochtitlan",
+        "Dimensões": "Maquete em escala"
+      }
+    },
+    "faq_mito": {
+      "hash": "1a0bec2f9b9975b5",
+      "texto": {
+        "pregunta": "Mito: Os Mexica pagavam no mercado com moedas de ouro e prata.",
+        "respuesta": "Realidade: Não usavam moedas. Faziam troca e empregavam como dinheiro sementes de cacau, mantas de algodão e plumas recheadas de pó de ouro."
+      }
+    }
+  }
+}

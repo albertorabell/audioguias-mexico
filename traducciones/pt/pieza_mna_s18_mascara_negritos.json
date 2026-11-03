@@ -1,0 +1,58 @@
+{
+  "id": "mna_s18_mascara_negritos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Olmeca\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6276b08451db3e8b",
+      "texto": "Máscara de madeira e coroa da Dança dos Negritos"
+    },
+    "frase_gancho": {
+      "hash": "5c926111887f141f",
+      "texto": "Uma máscara negra e sorridente que lembra aqueles que chegaram do outro lado do mar."
+    },
+    "puente_narrativo": {
+      "hash": "1d7c474eec538a71",
+      "texto": "Da máscara da dança passamos ao penteado de festa das mulheres huastecas. Procure um toucado feito com meadas de lã coloridas, que contorna a cabeça como uma coroa."
+    },
+    "guion_corto": {
+      "hash": "8c83cc7ed6e562df",
+      "texto": "Esta máscara de madeira entalhada, pintada de preto brilhante e de traços sorridentes, é usada na Dança dos Negritos, que é dançada entre os totonacas e os nahuas de Veracruz e da serra de Puebla. Tem sobrancelhas marcadas, bigode e olhos abertos para enxergar. O dançarino usa ainda um chapéu de palha forrado de tecido e coberto de fitas coloridas. A dança é uma espécie de teatro: uma história que se dança ao som de violino e sapateado, na qual, segundo a tradição, um trabalhador africano é picado por uma serpente e curado com cantos e música. É uma lembrança de que, no Golfo, houve população de origem africana desde a época colonial."
+    },
+    "guion_largo": {
+      "hash": "5dd2ec672634a0d9",
+      "texto": "Esta máscara sorri, e tem motivos para isso: a Dança dos Negritos é uma festa. Mas por trás do sorriso há uma história de séculos, que fala de como se encontraram e se misturaram os povos que hoje chamamos de México. E é uma boa maneira de encerrar uma sala que falou de huastecos, totonacas e nahuas.\n\nComecemos pelo contexto. O porto de Veracruz foi a principal porta de entrada de africanos escravizados na Nova Espanha. Muitos trabalharam nos engenhos de cana, nas fazendas de gado e nos portos do Golfo. Alguns fugiram e formaram comunidades livres. Uma das mais famosas foi a de Yanga, um líder africano que fundou, no início do século dezessete, um povoado considerado um dos primeiros povoados livres de africanos na América. Hoje ele leva o seu nome.\n\nCom essa história em mente, você entende melhor a dança. Os dançarinos, homens que vestem roupa escura, lenços estampados, chapéus enfeitados com fitas e máscaras negras sorridentes, representam trabalhadores africanos das fazendas. A tradição oral conta que um jovem foi picado por uma serpente enquanto trabalhava no mato, e que sua mãe e os peões cantaram e sapatearam ao redor do animal para salvar a vida dele. Essa história é encenada com música de violino e violão e com muito sapateado.\n\nHá outras versões. Algumas a interpretam como uma zombaria dos patrões, feita pelos trabalhadores por meio da festa. Outras, como uma lembrança da dor e da resistência dos escravizados. E em alguns povoados a dança é feita para pedir boas colheitas ou para curar. O certo é que não existe uma única resposta, e que a dança adquiriu o sentido que cada comunidade lhe deu.\n\nOlhe a máscara. A madeira macia é entalhada, envernizada em preto brilhante, e nela se pintam olhos, sobrancelhas e bigode. Os traços sorridentes a tornam amável, quase travessa: não há raiva nesse rosto, há um sorriso que convida a se aproximar. E o chapéu, coberto de fitas que caem pelas costas, lhe dá um ar de festa. É um bom exemplo de como a arte popular transforma histórias duras em espetáculos de cor.\n\nHoje se discute como olhar essas máscaras. Para alguns, são uma homenagem à presença africana, e para outros, uma imagem que deve ser repensada com mais cuidado. Em todo caso, elas nos lembram algo importante: que a história do México inclui muita gente que, por muito tempo, esteve ausente dos livros. Há pouco, em Oaxaca, você viu os [diablos da Costa Chica](mna_s17_mascara_diablos_costa), uma dança afrodescendente; aqui, outra. São duas marcas de um mesmo fio.\n\nCom esta máscara, nossa passagem pelo Golfo está quase no fim, uma região que começou com os olmecas, nas salas lá de baixo, e chega até a música dos violinos. Passou muito tempo entre uma e outra, mas há um fio comum: a gente que vive aqui sempre soube transformar o que chega do mar e do mato em cultura própria. Ainda falta um toucado, o das mulheres teenek."
+    },
+    "retos_observacion": {
+      "hash": "8ac13112b87c401e",
+      "texto": [
+        "Procure o bigode, as sobrancelhas e os olhos da máscara",
+        "Observe o chapéu de palha forrado e as fitas que caem",
+        "Imagine o sapateado que acompanha a dança"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2e1ebfd7dc52510c",
+      "texto": {
+        "Povo": "Totonaca / Nahua",
+        "Região": "Totonacapan (Veracruz e Sierra Norte de Puebla)",
+        "Técnica/Material": "Madeira de cedro/tzompantle entalhada, esmalte, veludo, espelhos e cetim",
+        "Função": "Parafernália ritual de mascaramento para a Dança dos Negritos (teatro de cura)"
+      }
+    },
+    "faq_mito": {
+      "hash": "e04e71469f149c1a",
+      "texto": {
+        "pregunta": "Mito: No México não houve população africana em tempos coloniais.",
+        "respuesta": "Realidade: Veracruz foi o principal porto de entrada de africanos escravizados na Nova Espanha, e sua marca está em danças, músicas e comunidades."
+      }
+    }
+  }
+}

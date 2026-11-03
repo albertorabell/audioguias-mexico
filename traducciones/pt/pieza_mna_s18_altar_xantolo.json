@@ -1,0 +1,58 @@
+{
+  "id": "mna_s18_altar_xantolo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Otomí\" para \"Otomí\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f1c0bfe25faf4c67",
+      "texto": "O Arco do Altar de Xantolo / Festa das Almas"
+    },
+    "frase_gancho": {
+      "hash": "cca20453f289f248",
+      "texto": "Um arco de flores amarelas para que as almas encontrem o caminho de casa."
+    },
+    "puente_narrativo": {
+      "hash": "3e2e6b9fdb9a71f7",
+      "texto": "Da festa dos mortos passamos para a roupa branca dos totonacas. Procure um traje de manta branca, com um lenço vermelho amarrado no pescoço e um chapéu de palma."
+    },
+    "guion_corto": {
+      "hash": "12735bf8954a97c2",
+      "texto": "Esta é a reconstrução de um altar de Xantolo, a festa dos mortos na Huasteca, em San Luis Potosí, Hidalgo e Veracruz. O que mais chama a atenção é o grande arco feito com varas flexíveis e coberto de flores de cempasúchil, de um amarelo intenso, e de folhagem verde. Acredita-se que seja a porta por onde as almas voltam para visitar a família. Debaixo do arco põe-se a mesa com comida: tamales grandes, pão, chocolate, frutas e velas, além de copal que perfuma o ar. Tudo é preparado com cuidado, porque os mortos voltam, e os vivos os recebem com o que eles mais gostavam. O Xantolo mistura crenças antigas com o calendário católico e dura vários dias."
+    },
+    "guion_largo": {
+      "hash": "4f61700d7ba49a8d",
+      "texto": "“Xantolo” vem da palavra “santos”. É o nome que se dá, na Huasteca, à festa de Todos os Santos e do Dia de Finados, que se celebra no fim de outubro e no início de novembro. Em todo o México se coloca oferenda para os mortos, mas cada região tem o seu estilo. Aqui o estilo é um arco de flores, um banquete e um grande movimento de gente.\n\nComecemos pelo arco. Ele é feito de varas flexíveis, dobradas em forma de porta, e coberto de flores de cempasúchil e de folhagem verde. Acredita-se que seja o limiar por onde os mortos voltam para casa. A flor tem a sua história: seu nome em náuatle, cempoalxóchitl, costuma ser explicado como “flor de vinte”. Sua cor amarela intensa e seu cheiro forte, dizem, ajudam as almas a encontrar o caminho. Você já viu [Xochipilli](mna_s06_xochipilli), o “príncipe das flores”, na Sala Mexica; aqui as flores continuam sendo uma linguagem com os deuses e com os mortos.\n\nA mesa. Debaixo do arco, a família coloca o que o falecido gostava: tamales, chocolate, pão, frutas, às vezes aguardente ou café. Na Huasteca há um tamal enorme, que às vezes chega a medir mais de um metro, o zacahuil. Não é só um prato: é uma forma de dizer que quem partiu continua fazendo parte da mesa. O copal, essa fumaça perfumada que você viu no [oratório otomi](mna_s15_oratorio_familiar), ajuda a convidar as almas.\n\nO caminho dos mortos é antigo. No mundo Mexica, os falecidos iam para o Mictlán, uma longa viagem de vários anos, com a ajuda de um cachorro, como o que você viu nas [figuras de Colima](mna_s10_perros_colima). Hoje essas ideias se misturam com o calendário católico e com a visita anual das almas. A festa cai nas datas de Todos os Santos, mas parece mais antiga, e acredita-se que, em tempos pré-hispânicos, fosse celebrada em outras épocas do ano.\n\nNa Huasteca, o Xantolo não é só a oferenda. Há grupos de dançarinos com máscaras, que percorrem os povoados ao som de violino e de violão. Os fantasiados representam os mortos e os vivos, e se movem entre risos e zombarias. É uma maneira de fazer as pazes com a morte, e de lembrar que a festa é também dos vivos.\n\nA morte aqui não é um fim, mas uma visita. As crianças chegam primeiro, na noite do dia trinta e um, e os adultos depois. Cada família limpa a casa, prepara a comida e espera. Quando a festa termina, as almas voltam para o seu mundo, e a família fica com a sensação de ter estado junta de novo. Talvez por isso a celebração, além de triste, seja profundamente agradecida.\n\nHá uma última informação. No ano dois mil e oito, a UNESCO reconheceu a festa indígena dedicada aos mortos no México como patrimônio cultural imaterial da humanidade. É um reconhecimento a uma tradição que une povos tão distintos como os purépechas do lago de Pátzcuaro, os huastecos e os povos nahuas da serra. Cada um coloca o seu arco, as suas flores e a sua comida, mas todos celebram a mesma coisa: voltar a se ver."
+    },
+    "retos_observacion": {
+      "hash": "fdd4fb58601aeadd",
+      "texto": [
+        "Procure as flores amarelas que cobrem o arco",
+        "Encontre a mesa da oferenda: que alimentos você reconhece?",
+        "Imagine o cheiro do copal e das flores entrando na sala"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ed1aa9c2c17ea7ee",
+      "texto": {
+        "Povo": "Téenek e Nahua da Huasteca",
+        "Região": "Huasteca potosina, veracruzana e hidalguense (Tempoal, Huejutla)",
+        "Técnica/Material": "Varas de otate, folha de palma, cempasúchil, cera entalhada, copal, pão e madeira",
+        "Função": "Altar cerimonial e instalação sagrada para a festa do Xantolo (Dia dos Mortos)"
+      }
+    },
+    "faq_mito": {
+      "hash": "842d80a36224dbf1",
+      "texto": {
+        "pregunta": "Mito: O Dia dos Mortos é uma festa triste, de luto.",
+        "respuesta": "Realidade: É uma visita: as famílias recebem seus mortos com flores, comida e música. A tristeza e a alegria se misturam."
+      }
+    }
+  }
+}

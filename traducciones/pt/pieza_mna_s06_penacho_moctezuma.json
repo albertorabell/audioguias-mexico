@@ -1,0 +1,58 @@
+{
+  "id": "mna_s06_penacho_moctezuma",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "d2bf05e579828168",
+      "texto": "Réplica do Cocar de Plumas de Quetzal / Penacho de Moctezuma"
+    },
+    "frase_gancho": {
+      "hash": "0a087d34e4aeeed1",
+      "texto": "Uma coroa de plumas de quetzal que cruzou o oceano e não voltou."
+    },
+    "puente_narrativo": {
+      "hash": "ca73b971e0b43ff4",
+      "texto": "Da coroa de um rei passamos ao símbolo de todo um país: um disco de pedra de mais de três metros e meio que se chama “calendário asteca”, embora não fosse um calendário."
+    },
+    "guion_corto": {
+      "hash": "851db8381f8ff1de",
+      "texto": "O que você vê é uma réplica, feita em 1940 pelo mestre plumário Francisco Hilario. O original, do século dezesseis, está conservado no Museu de Etnologia de Viena. Este cocar mede pouco mais de um metro de altura e um metro e três quartos de largura. Tem mais de quatrocentas plumas de quetzal na borda externa, combinadas com plumas azuis de cotinga, vermelhas de colhereiro-rosado e detalhes de ouro. Os Mexica o chamavam de quetzalapanecáyotl e o consideravam uma insígnia suprema de poder, não uma coroa comum. E, embora seja chamado de “o penacho de Moctezuma”, ninguém conseguiu demonstrar que esse rei o tenha usado."
+    },
+    "guion_largo": {
+      "hash": "29cd5cfae90920a2",
+      "texto": "Comecemos por um esclarecimento: o que você vê é uma cópia, embora muito honrosa. Foi feita com plumas autênticas e com técnicas antigas, e a sua história é melhor que a de muitas peças originais. Por trás dela há um artesão do século vinte, Francisco Hilario, que retomou um ofício antigo que a conquista quase apagou.\n\nO ofício se chamava amantecáyotl, a arte de trabalhar plumas. Os amantecas viviam em um bairro especial de Tenochtitlan, Amantlan, e serviam diretamente ao tlatoani e à nobreza. Faziam escudos, mantos, leques e estandartes com plumas coladas uma por uma sobre uma armação de varetas e redes de algodão. Na Mesoamérica, as plumas finas eram mais apreciadas que o ouro, e um cocar como este não era apenas um adorno: era uma declaração de poder.\n\nConte a borda externa. Há mais de quatrocentas plumas longas de quetzal. Um quetzal macho tem apenas duas plumas longas na cauda, de modo que foram necessárias centenas de aves para completar esta peça. E essas aves não vivem no vale do México. Vivem nas florestas de neblina do sul, em Chiapas e na Guatemala. As plumas chegavam a Tenochtitlan como tributo ou por comércio, o mesmo caminho do cacau do Soconusco e da cerâmica plumbate que você viu na Sala dos toltecas. Este penacho é um mapa do império feito de plumas: verde do quetzal, azul da cotinga da selva, vermelho do colhereiro-rosado das costas.\n\nO original viajou. É provável que tenha feito parte dos objetos enviados à Europa depois da conquista. Uma antiga lista das coleções do castelo de Ambras, na Áustria, de 1596, parece mencioná-lo como um “chapéu mourisco”: ninguém na Europa sabia o que era. Hoje está em Viena, e é uma das peças mais conhecidas da arte antiga da América.\n\nAgora vem a parte interessante: o nome. “Penacho de Moctezuma” é um rótulo popular. Não há nenhum documento antigo que diga que esse tlatoani o usou. Alguns especialistas chegam a duvidar que fosse uma coroa para a cabeça; pensam que pode ter sido uma insígnia ritual ou um estandarte. Não sabemos com certeza. Mas o nome se tornou tão grande que é difícil mudá-lo.\n\nO México há décadas pede que o original volte, ainda que por um tempo. A Áustria respondeu que ele está frágil demais para viajar. O debate segue aberto, e esta réplica de Francisco Hilario ocupa o seu lugar na sala. Hilario trabalhou com plumas de quetzal do sul e conseguiu uma cópia tão fiel que, para muitas pessoas, é o único penacho que conhecem.\n\nE talvez aí esteja a lição. Um amanteca do século vinte voltou a fazer o que faziam os de quinhentos anos atrás: reunir plumas de selvas distantes e transformá-las em luz. A conquista cortou a corrente; ele a atou de novo. Quando você olhar para ela, pense nas duas mãos que estão por trás: a de quem a imaginou há cinco séculos e a de quem a refez em 1940."
+    },
+    "retos_observacion": {
+      "hash": "862a6c408ce048db",
+      "texto": [
+        "Procure a borda externa de plumas longas de quetzal: você consegue calcular quantas são?",
+        "Repare nas cores: verde, azul e vermelho. De que aves vêm?",
+        "Procure os detalhes de ouro que brilham entre as plumas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "49b6352b65364f0b",
+      "texto": {
+        "Cultura": "Mexica",
+        "Período": "Pós-clássico Tardio (1325-1521 d.C.); réplica elaborada no século XX",
+        "Material": "Plumas de quetzal, cotinga azul, colhereiro-rosado e águia, sobre uma armação de varetas e rede de fibra têxtil, com aplicações de lâminas de ouro",
+        "Procedência": "Tenochtitlan, Bacia do México (o exemplar pré-hispânico original está conservado no Weltmuseum de Viena, Áustria)"
+      }
+    },
+    "faq_mito": {
+      "hash": "031e28a59a677535",
+      "texto": {
+        "pregunta": "Mito: O que você vê é o penacho original de Moctezuma.",
+        "respuesta": "Realidade: É uma réplica feita em 1940 por Francisco Hilario. O original, do século dezesseis, está em Viena, e não há provas de que Moctezuma o tenha usado."
+      }
+    }
+  }
+}

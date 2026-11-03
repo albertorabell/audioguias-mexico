@@ -1,0 +1,58 @@
+{
+  "id": "mna_s17_barro_negro",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Otomí\" para \"Otomí\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "4e3284425c6a4829",
+      "texto": "Cantil e vasilhas de Barro Negro de San Bartolo Coyotepec"
+    },
+    "frase_gancho": {
+      "hash": "12d5b91c76fba4e4",
+      "texto": "Barro que se torna negro brilhante graças à fumaça e à paciência."
+    },
+    "puente_narrativo": {
+      "hash": "de575be8b35714e1",
+      "texto": "Da cerâmica passamos à festa. Procure uma máscara com chifres de animal, crinas e barbas, junto a uma mandíbula de burro usada como instrumento."
+    },
+    "guion_corto": {
+      "hash": "6880944c9e45bddf",
+      "texto": "Estas vasilhas de barro negro vêm de San Bartolo Coyotepec, um povo zapoteco dos Vales Centrais de Oaxaca. São feitas à mão, sem torno, e esfregadas com um quartzo muito liso até que a superfície brilhe. Sua cor preta não é tinta nem esmalte: ela é obtida cozendo as peças em um forno fechado, com pouco oxigênio, onde a fumaça escurece o barro. Repare no contraste entre as áreas polidas, que brilham como metal, e o fundo mais fosco. Algumas peças trazem vazados em forma de flores, feitos com muita paciência. Em Oaxaca, essas vasilhas foram usadas para guardar água e mezcal, para oferendas e para festas. São um exemplo de como o fogo e a fumaça podem se transformar em arte."
+    },
+    "guion_largo": {
+      "hash": "f17856e9da7ecdc5",
+      "texto": "Se uma vasilha pudesse parecer metal, seriam estas. Seu preto é tão profundo e seu brilho tão uniforme que é difícil acreditar que sejam de barro. E, no entanto, são, e o que lhes dá esse acabamento não é tinta nem esmalte, mas fogo, fumaça e muita paciência.\n\nOs ceramistas de San Bartolo Coyotepec trabalham o barro à mão, sem torno, com uma técnica que consiste em modelar a peça em duas metades, uni-las e ajustá-las. Depois deixam a peça secar, brunem com um quartzo liso, esfregando uma e outra vez até que a superfície fique como um espelho, e por fim a cozinham. Todo o processo exige cuidado, porque uma rachadura pode arruinar dias de trabalho.\n\nA chave está na queima. As peças são colocadas em um forno fechado, no qual quase não entra ar. Nesse ambiente, chamado redutor, a fumaça penetra nos poros do barro e o ferro da argila reage. O resultado é o preto. Se o forno recebesse mais ar, as peças sairiam avermelhadas. Ou seja: a cor é obtida pela falta de oxigênio, não por acrescentar algo.\n\nEsse preto tem antecedentes. Na sala de Oaxaca, lá embaixo, você viu urnas e vasilhas de barro cinza, da época de Monte Albán. Pensa-se que a tradição do barro escuro no vale vem dessa época e que, ao longo dos séculos, foi mudando. O acabamento muito brilhante é mais recente: costuma-se atribuí-lo a Dona Rosa Real, uma ceramista de San Bartolo Coyotepec que, em meados do século vinte, popularizou a brunidura com quartzo.\n\nUma boa peça se reconhece pelo som: ao batê-la suavemente, soa quase como um sino. Se há uma rachadura, o som se apaga. É um teste simples que os ceramistas fazem desde sempre.\n\nObserve os vazados, esses cortes em forma de flores ou de rosáceas. São feitos com faca, antes de cozer a peça, e parecem bordados no barro. É um trabalho delicado, porque o barro úmido quebra com facilidade. Algumas peças são tão decorativas que se pensa que sejam apenas de enfeite, mas muitas foram usadas para guardar água, mezcal ou alimentos.\n\nE falando de mezcal: o mesmo agave que você viu na sala otomi, o que dá o ixtle e o pulque, dá em Oaxaca essa bebida. Ela é feita com diversos tipos de agave e foi servida durante séculos em cuias, copinhos de barro e vasilhas como estas. É outra maneira de ver como uma mesma planta pode encher de vida uma região inteira.\n\nHá um ensinamento discreto. Em um mundo que valoriza a pressa, o barro negro obriga a ir devagar. Não há atalhos para esse brilho: cada peça leva horas de brunidura, um forno que é preciso vigiar e a incerteza de ver, ao abri-lo, se deu certo. Por isso cada vasilha é também um ato de confiança."
+    },
+    "retos_observacion": {
+      "hash": "d705449b9b1e1a40",
+      "texto": [
+        "Compare as áreas brilhantes com as áreas foscas",
+        "Procure os vazados em forma de flores",
+        "Imagine o forno fechado e a fumaça que tingiu cada vasilha"
+      ]
+    },
+    "especificaciones": {
+      "hash": "29132d856b298421",
+      "texto": {
+        "Povo": "Zapoteco (Ben ’Zaa)",
+        "Região": "San Bartolo Coyotepec, Vales Centrais de Oaxaca",
+        "Técnica/Material": "Argila negra modelada, brunida com quartzo e cozida em forno fechado redutor",
+        "Função": "Vasilha para água e mezcal, recipientes de oferenda e artesanato cerimonial"
+      }
+    },
+    "faq_mito": {
+      "hash": "52d0ca82a2c620b6",
+      "texto": {
+        "pregunta": "Mito: O barro negro é barro pintado de preto.",
+        "respuesta": "Realidade: Sua cor nasce da queima: sem oxigênio, a fumaça e o ferro da argila o escurecem. O brilho é obtido esfregando o barro com um quartzo."
+      }
+    }
+  }
+}

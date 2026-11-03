@@ -1,0 +1,61 @@
+{
+  "id": "mna_s15_oratorio_familiar",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Otomí\" para \"Otomí\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "e3fd782d0de2dacc",
+      "texto": "O Oratório e Altar Familiar Otomí"
+    },
+    "frase_gancho": {
+      "hash": "d3eedc116c526570",
+      "texto": "Um pequeno templo familiar onde convivem os santos, os cerros e os antepassados."
+    },
+    "puente_narrativo": {
+      "hash": "16d9138fa638fbf4",
+      "texto": "Do oratório da família passamos à paisagem. Procure duas pinturas grandes que se olham de frente: uma de terra seca, com agaves e nopais, e outra verde, com milharais e céu de tempestade."
+    },
+    "guion_corto": {
+      "hash": "54f964fc172fe1ef",
+      "texto": "Esta é a reconstrução de um oratório familiar otomi, uma capela pequena dentro do terreno de uma família, feita de adobe e madeira. No interior há um altar escalonado com imagens de santos, cruzes vestidas com tecidos bordados, velas, flores e incensários de barro onde se queima copal. Ali a família reza, celebra o seu santo padroeiro e pede pelas colheitas e pelos seus. O oratório mistura a fé católica com a antiga veneração aos cerros, à água e aos antepassados. Para muitas famílias, é o centro de sua vida espiritual, um lugar para estar juntos e para lembrar aqueles que já não estão."
+    },
+    "guion_largo": {
+      "hash": "958a47dd5b50e53e",
+      "texto": "Muitas famílias do altiplano têm, no terreno da casa, uma pequena capela própria. Chama-se oratório. Não é uma igreja grande nem um templo público: é um lugar íntimo, onde se reza em família, se guardam os santos e se faz a festa. E dentro do museu foi erguido um, para que você veja como ele é por dentro.\n\nComece pelo altar, que sobe em degraus. Nos degraus se colocam imagens de santos, cruzes, velas, flores e o copal. As cruzes costumam ser vestidas com tecidos bordados, como se fossem pessoas. É um detalhe bonito: as cruzes são cuidadas como um membro da família. Às vezes são vestidas com pequenos quechquémitl, como os que você acabou de ver.\n\nO copal merece uma pausa. É a resina de uma árvore que, ao queimar, produz uma fumaça branca e perfumada. É usado há milhares de anos: já em Teotihuacán era oferecido aos deuses, e os maias e os mexicas o queimavam em seus templos. A fumaça sobe ao céu e leva as orações. Aqui continua fazendo o mesmo, mas diante de cruzes e santos.\n\nA palavra para isso é sincretismo: a mistura de duas religiões. As famílias otomis são católicas, mas não deixaram de honrar os cerros, as águas e os antepassados, que, segundo sua tradição, protegem as casas e as colheitas. Para elas não há contradição. O santo e o cerro convivem, como convivem o espanhol e a língua própria na conversa diária.\n\nAté a cruz tem dupla vida. Na Mesoamérica, antes da chegada dos espanhóis, já existiam figuras em forma de cruz que representavam a árvore do mundo e os quatro rumos. Alguns estudiosos pensam que isso ajudou a cruz cristã a ser aceita e reinterpretada. Assim, uma cruz de um oratório pode dizer, ao mesmo tempo, «Cristo» e «o centro do universo».\n\nHá datas importantes. No dia do santo da família, preparam-se comida e música. E em novembro, para os mortos, coloca-se a oferenda com flores de cempasúchil, pão, velas e comida. Você verá um altar completo desse tipo na Sala das Huastecas e Totonacas. Os falecidos voltam a cada ano, e o oratório é parte do lugar onde são recebidos.\n\nO cuidado da festa costuma ser repartido por meio de cargos ou mordomias: a cada ano uma família ou uma pessoa se responsabiliza pelo santo, pela comida e pela música, e assim a festa passa de mão em mão. Com os oratórios acontece algo parecido; são herdados, e seu cuidado passa de pais para filhos.\n\nTenha em mente que este não é um museu de coisas passadas. Os oratórios familiares continuam em uso. Cada vez que uma família faz uma festa, reúne quem vive longe, como aqueles que migraram para as cidades. O oratório é, no fundo, um ponto de reencontro, um lugar que diz «aqui começamos»."
+    },
+    "retos_observacion": {
+      "hash": "a144de43f3b16aeb",
+      "texto": [
+        "Conte os degraus do altar e procure as imagens em cada um",
+        "Observe as cruzes vestidas com tecidos bordados",
+        "Procure o incensário de barro onde se queima o copal"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7b3ad9ec90adc13a",
+      "texto": {
+        "Povo": "Otomí (Hñähñu)",
+        "Região": "Vale do Mezquital (Hidalgo) e Semideserto de Querétaro",
+        "Técnica/Material": "Arquitetura de adobe/madeira, ceras entalhadas, barro, papel picado e têxteis",
+        "Função": "Espaço sagrado doméstico para o culto às almas e ritos agrícolas"
+      }
+    },
+    "faq_mito": {
+      "hash": "0b42db53cd5e8bed",
+      "texto": {
+        "pregunta": "Mito: A religião dos povos indígenas de hoje é somente católica, sem tradições próprias.",
+        "respuesta": "Realidade: Mistura a fé católica com a antiga veneração aos cerros, à água e aos antepassados, e as duas convivem sem problema."
+      }
+    }
+  }
+}

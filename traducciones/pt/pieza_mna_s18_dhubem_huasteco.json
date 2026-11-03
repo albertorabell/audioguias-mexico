@@ -1,0 +1,58 @@
+{
+  "id": "mna_s18_dhubem_huasteco",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Otomí\" para \"Otomí\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6c9de8326fa39a63",
+      "texto": "Dhúbem / Quechquémitl tradicional Huasteco"
+    },
+    "frase_gancho": {
+      "hash": "b211d306773398c5",
+      "texto": "Um quechquémitl onde floresce uma estrela de quatro pétalas."
+    },
+    "puente_narrativo": {
+      "hash": "45c0df63c08f9a5f",
+      "texto": "Da peça passamos à festa que enche de flores a região. Procure um grande arco de varas coberto de flores amarelas e uma mesa com pão, tamales, chocolate e velas."
+    },
+    "guion_corto": {
+      "hash": "1d7752e018086d2f",
+      "texto": "Este quechquémitl, que na língua teenek se chama dhúbem, é a peça de gala das mulheres huastecas de San Luis Potosí e Veracruz. É feito com dois panos de manta branca de algodão unidos em forma de losango, e coberto de bordados em ponto cruz com lã de cores intensas: magenta, laranja, verde, amarelo e azul. Repare no desenho do centro: uma flor de quatro pétalas, que é interpretada como a estrela da manhã, os quatro rumos do mundo e a árvore da vida. As mulheres o usam nas festas, nos casamentos e no Xantolo, a celebração dos mortos. É uma peça que fala de continuidade: a flor que elas bordam hoje já era bordada há séculos."
+    },
+    "guion_largo": {
+      "hash": "be2362d71ff80f6b",
+      "texto": "Se você percorreu as salas com atenção, já conhece algumas peças dos huastecos. Na sala da Costa do Golfo, você viu a escultura do [Adolescente de Tamuín](mna_s08_adolescente_huasteco), esculpido há mais de mil anos por seus antepassados. Aqui você os vê vivos: os teenek, que continuam habitando a Huasteca, em San Luis Potosí, Veracruz e Hidalgo. E o quechquémitl que você tem diante de si é uma de suas peças mais bonitas.\n\nAntes de falar de bordados, uma surpresa linguística. A língua teenek pertence à família maia, assim como o maia de Yucatán e as línguas de Chiapas. Mas os huastecos vivem a centenas de quilômetros dos maias, na costa do Golfo. Os linguistas calculam que suas línguas se separaram há cerca de três mil anos. É como se, em um tempo muito remoto, um pedaço da família maia tivesse viajado para o norte e ficado por lá. Hoje, segundo os censos, mais de cem mil pessoas falam teenek.\n\nAgora, a peça. O quechquémitl, como o otomi que você já conhece, é formado por dois panos unidos para criar um losango. Mas o estilo teenek é inconfundível: manta de algodão branco e bordado em ponto cruz com lã de cores intensas. Os vermelhos, rosas, laranjas e verdes brilham sobre o fundo claro com uma alegria que se reconhece de longe.\n\nO centro do desenho é uma flor de quatro pétalas. Costuma-se relacioná-la com a árvore da vida, com os quatro rumos do universo e com a estrela da manhã. Quatro rumos, quatro pétalas, uma cruz: a mesma ideia que você viu nos quatro voladores (Voadores), na cruz do [oratório otomi](mna_s15_oratorio_familiar) e nas direções do mundo maia. Aparece em lugares diferentes, com outros nomes, mas com uma intenção parecida.\n\nAs mulheres teenek completam o traje com um adorno de estame de cores, entrelaçado ao cabelo, que pode ser visto como uma coroa. Pensa-se que simbolize a fertilidade e a abundância. No conjunto, a mulher teenek de gala parece caminhar vestida de jardim: flores bordadas, flores de lã, cores que não se parecem com as de nenhum outro canto do país.\n\nA música também é da região. O huapango huasteco, com violino, jarana e guitarra quinta, e aquela voz que de repente sobe até um falsete, é um dos sons mais reconhecíveis do México. Nos bailes de festa, as mulheres exibem estes quechquémitls enquanto os dançarinos sapateiam sobre tablados de madeira, que fazem ressoar com os pés. A roupa e o som formam um só conjunto.\n\nOlhe o bordado de perto. Cada ponto é uma pequena cruz, e o tecido vai sendo coberto cruz após cruz até formar os desenhos. É um trabalho feito com paciência e com o olhar fixo. Entre um ponto e outro, a mulher teenek pensa nas flores que sua avó bordou. A peça é uma ponte entre gerações, e a flor de quatro pétalas, sua assinatura."
+    },
+    "retos_observacion": {
+      "hash": "0b675f2017ada446",
+      "texto": [
+        "Procure a flor de quatro pétalas no centro do bordado",
+        "Conte quantas cores diferentes de lã você consegue distinguir",
+        "Repare no ponto cruz: você consegue seguir uma fileira de pontos?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cdd240689e425af9",
+      "texto": {
+        "Povo": "Téenek (Huasteco)",
+        "Região": "Huasteca Potosina e Veracruzana (Tancanhuitz, Tantoyuca)",
+        "Técnica/Material": "Algodão tecido em tear de cintura, bordado em ponto cruz e estame",
+        "Função": "Indumentária cerimonial de gala, hierarquia comunitária e proteção identitária"
+      }
+    },
+    "faq_mito": {
+      "hash": "3691bae8759a2733",
+      "texto": {
+        "pregunta": "Mito: Os huastecos são um povo sem relação com os maias.",
+        "respuesta": "Realidade: Sua língua, o teenek, pertence à família maia, embora vivam longe dos maias do sul. As línguas se separaram há cerca de três mil anos."
+      }
+    }
+  }
+}

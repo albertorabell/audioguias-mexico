@@ -1,0 +1,54 @@
+{
+  "id": "mna_s20_atuendo_danza_venado",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "441b8af2455f9bf4",
+      "texto": "Traje da Dança do Veado yaqui"
+    },
+    "frase_gancho": {
+      "hash": "b38794fc827a3d4c",
+      "texto": "Com uma cabeça de veado e alguns chocalhos, um homem yaqui se torna animal."
+    },
+    "puente_narrativo": {
+      "hash": "1c148ada216bc27a",
+      "texto": "Deixamos o noroeste e voltamos ao centro do país, com os nahuas da Huasteca. Procure um vestido branco de algodão coberto de flores e pássaros bordados em vermelho, rosa e laranja."
+    },
+    "guion_corto": {
+      "hash": "48820dc34da445d1",
+      "texto": "Este é o traje do dançarino do veado, dança praticada pelo povo yaqui e também pelos mayos, em Sonora e Sinaloa. Em língua yaqui, o veado se chama maaso. Sobre a cabeça, o dançarino leva a de um veado, enfeitada com fitas ou lenços coloridos que fazem as vezes de flores. Nas mãos, segura dois chocalhos feitos de cabaças, que marcam o ritmo. No cinto, pendem cascos de veado que soam ao se mover, e nos tornozelos se amarram fieiras de casulos de borboleta chamadas tenábaris. Os cantadores acompanham com raspadores e um tambor de água. Durante a dança, o homem imita o animal: fica alerta, se assusta, foge e se defende. Para os yaquis, o veado é um ser sagrado."
+    },
+    "guion_largo": {
+      "hash": "86b17595475d8cde",
+      "texto": "Maaso é a palavra yaqui para veado. Também é o nome de uma das danças mais importantes do povo yaqui, ou yoeme. Dançam-na também seus vizinhos, os mayos, que se chamam a si mesmos yoreme. Nela, um homem se transforma: deixa simbolicamente a sua condição humana e se transfigura em veado. É uma dança que só os homens dançam.\n\nTudo começa pela cabeça. O dançarino amarra uma cabeça de veado, com seus chifres, e a enfeita com fitas ou lenços coloridos que representam flores. As flores são muito importantes no mundo yaqui, e por isso o animal do monte aparece coberto delas.\n\nO resto do corpo fica quase descoberto. O peito vai nu e da cintura pende um tecido. Um cinto de couro sustenta fileiras de cascos de veado que soam a cada passo. Do pescoço pende um rosário com cruzes. O dançarino usa também um colar de madrepérola ou de concha que representa o universo do mar. Os pés vão descalços e envoltos em tenábaris, essas fieiras de casulos de borboleta que você já viu desenhadas na [dançarina de Tlatilco](mna_s03_bailarina_cascabeles). Em cada mão leva um chocalho feito de uma cabaça, que em yaqui se chama áyam. Com eles marca seus movimentos. Cascos, casulos e cabaças transformam o próprio dançarino em um instrumento.\n\nA música vem à parte. Os cantadores do veado entoam canções em uma forma muito antiga da língua yaqui. Suas letras falam da natureza: animais, plantas e céu. Para se acompanhar, raspam umas varas estriadas e tocam um tambor de água, que é uma cabaça grande posta sobre uma bandeja com água.\n\nO que o dançarino faz é mímica. Segundo os estudiosos, representa as etapas da vida do veado. Fica alerta, olha ao longe, se agita, se assusta, foge e se defende. Um pintor do Arizona que conheceu a dança deixou escrita uma imagem. Ao começar a noite, o dançarino é um filhote de veado, e durante a noite cresce até ser um veado adulto.\n\nO veado não dança sozinho. Acompanha-o o pascola, o personagem que faz rir e que já mencionamos junto à máscara do [chapayeka](mna_s20_mascara_chapayeka). Ele usa uma máscara de coiote ou de bode, um cinto com guizos metálicos e dança ao som de violino ou de harpa. Enquanto o pascola faz brincadeiras, o veado representa algo mais solene: a relação entre as pessoas e o mundo do monte. Entre os yaquis, veado e pascola são considerados as duas danças mais representativas.\n\nO veado já apareceu no seu percurso: nas pegadas do [petroglifo do deserto](mna_s11_petroglifo_desierto) e nos quadros wixárikas. No noroeste, essa ideia de um animal sagrado ganha corpo e se dança.\n\nOs estudiosos consideram que a dança tem origem pré-hispânica, em parte por seus instrumentos. Raspadores, chocalhos e um tambor de água não vieram da Europa. Mesmo assim, não é uma peça de museu: continua sendo dançada hoje nas festas yaquis e mayos. Para muitos, que siga viva é também uma forma de resistência, em um povo que defendeu seu território durante séculos."
+    },
+    "retos_observacion": {
+      "hash": "88ac6952de6363a8",
+      "texto": [
+        "Procure a cabeça de veado e as fitas coloridas que a enfeitam",
+        "Repare nos chocalhos de cabaça que o dançarino leva nas mãos",
+        "Encontre o cinto de cascos e as fieiras de casulos para os tornozelos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "44c01c2a5b2ac5fb",
+      "texto": {
+        "Cultura": "Yaqui (yoeme) e mayo (yoreme)",
+        "Período": "Tradição viva, considerada de origem pré-hispânica",
+        "Material": "Cabeça de veado, fitas, tecido, couro com cascos de veado, cabaças e casulos de borboleta",
+        "Procedência": "Sonora e Sinaloa"
+      }
+    },
+    "faq_mito": {
+      "hash": "2accc4d7de68f07a",
+      "texto": {
+        "pregunta": "Mito: O dançarino do veado se fantasia de animal só para divertir.",
+        "respuesta": "Realidade: Para os yaquis e os mayos é uma cerimônia: o dançarino representa um animal sagrado, e os cantos falam da natureza."
+      }
+    }
+  }
+}

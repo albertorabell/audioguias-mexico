@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_figurillas_tapas_san_miguel",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a5a1d6e2e05f26f3",
+      "texto": "Figurinhas de San Miguel de Allende"
+    },
+    "frase_gancho": {
+      "hash": "3d5cb05e8f3bd975",
+      "texto": "Três figuras de barro das quais se sabe mais pela região do que por elas mesmas."
+    },
+    "puente_narrativo": {
+      "hash": "0db9c414c35e842a",
+      "texto": "Passamos das figuras para os lugares onde viviam os povos do norte. Procure umas maquetes de antigos sítios do norte, com plataformas e praças: são Alta Vista, em Chalchihuites, e La Quemada, em Zacatecas."
+    },
+    "guion_corto": {
+      "hash": "90c9fac96cf56392",
+      "texto": "Três figuras humanas de barro, muito estilizadas, vêm da região de San Miguel de Allende, em Guanajuato. Por sua forma oca e em forma de sino, funcionavam como tampas ou arremates cerimoniais, e cada uma traz um grande adorno de cabeça semicircular, com perfurações e restos de cinabre ou pigmento vermelho. Pertencem às tradições agrícolas do Bajío de Guanajuato do período Clássico e Epiclássico. O que conhecemos bem é o entorno. San Miguel fica no Bajío, uma terra de passagem entre o Ocidente, o Altiplano e o norte. Muito perto fica Cañada de la Virgen, um centro Otomí que teve seu maior auge por volta dos anos seiscentos a novecentos. Estas figuras são um convite a olhar com calma e a continuar perguntando."
+    },
+    "guion_largo": {
+      "hash": "0b6a07664b75d261",
+      "texto": "Nem todas as peças de um museu chegam com sua história completa, e estas três figuras são das que ainda pedem perguntas. O que se tem é uma descrição: figuras humanas de barro, estilizadas, que serviam como tampas ou cobertas. Cada uma leva na cabeça um grande adorno de forma semicircular, com perfurações, e talvez conserve restos de pintura vermelha. Além disso, sua data e sua cultura exata não estão confirmadas, e convém não inventá-las.\n\nO que sabemos é onde fica sua região. San Miguel de Allende está no Bajío, na bacia do rio Laja, uma terra plana e fértil que serviu de cruzamento entre o Ocidente, o Altiplano Central e os desertos do norte. Nos tempos de que fala esta sala, o Bajío estava na borda da Mesoamérica: mais além começavam as terras de caçadores e coletores.\n\nA poucos quilômetros da cidade fica Cañada de la Virgen, uma das zonas arqueológicas mais importantes da região. Os estudos indicam que foi erguida por povos otomis. Teve três etapas de construção entre os anos quinhentos e quarenta e mil e cinquenta, e seu maior auge chegou no Epiclássico, por volta dos anos seiscentos a novecentos. Foi uma época em que muitas sociedades do centro do México se reorganizaram após a queda de Teotihuacán.\n\nO sítio tem pirâmides de mais de quinze metros, um pátio rebaixado e um templo com um mural pintado de vermelho e preto. Seus edifícios seguem o percurso do Sol e dos astros. Por ali passavam também as mercadorias: apareceram materiais de ambas as costas, do Ocidente e da Bacia do México, entre eles obsidiana, turquesa, jade e concha. São os mesmos materiais que você viu em Paquimé. O Bajío e o norte estavam conectados por caminhos de intercâmbio.\n\nEm setembro de 2022, um decreto declarou Cañada de la Virgen Zona de Monumentos Arqueológicos, a de número quarenta e nove do país e a primeira declaratória federal em dez anos. Abrange setecentos e vinte e dois hectares, com montículos, plataformas e oficinas que ainda não foram exploradas.\n\nAs três figuras vêm desse sítio? Não podemos afirmar. Por isso um objeto sem contexto é uma peça pela metade: sabemos como ele é, mas não com quem estava nem o que fazia.\n\nOs grandes adornos de cabeça, em compensação, não são raros na arte antiga. Em Tlatilco, as [Mulheres Bonitas](mna_s03_mujeres_bonitas) exibem penteados de tranças e adornos de cabeça, e no [casal de Ixtlán](mna_s10_pareja_ixtlan) o homem usa um capacete cônico. Talvez esses adornos também dissessem quem era cada figura ou que papel tinha, mas isso, por ora, é apenas uma pergunta.\n\nE Guanajuato já tinha um longo passado. Muito antes de Cañada de la Virgen floresceu Chupícuaro, a cultura da figura feminina policromada que você viu na Sala de Occidente. Antes de continuar, olhe as três figuras uma por uma. Elas se parecem? O que muda no adorno de cabeça? Quando uma peça se cala, olhar devagar é a melhor maneira de escutá-la."
+    },
+    "retos_observacion": {
+      "hash": "cdf5a733373f3dd3",
+      "texto": [
+        "Conte as figuras do grupo e compare-as entre si",
+        "Observe o adorno de cabeça que cada figura leva sobre a cabeça",
+        "Procure os orifícios do adorno e qualquer resto de pintura vermelha"
+      ]
+    },
+    "especificaciones": {
+      "hash": "81d0a1efe6d970fe",
+      "texto": {
+        "Cultura": "Tradição do Bajío (bacia do rio Laja)",
+        "Período": "Clássico a Epiclássico (por volta de 400-900 d.C.)",
+        "Material": "Barro modelado com adorno de cabeça vazado e restos de pigmento vermelho",
+        "Procedência": "Região de San Miguel de Allende, Guanajuato"
+      }
+    },
+    "faq_mito": {
+      "hash": "b9fb575c1de03f49",
+      "texto": {
+        "pregunta": "Mito: Em Guanajuato não houve grandes assentamentos antes da chegada dos espanhóis.",
+        "respuesta": "Realidade: Houve centros como Cañada de la Virgen e El Cóporo, com pirâmides, pátios e observação do Sol, além de aldeias agrícolas muito mais antigas como Chupícuaro."
+      }
+    }
+  }
+}

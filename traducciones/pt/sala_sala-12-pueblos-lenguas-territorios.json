@@ -1,0 +1,26 @@
+{
+  "id": "sala-12-pueblos-lenguas-territorios",
+  "tipo": "sala",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "22c951004cfba555",
+      "texto": "Povos, línguas e territórios"
+    },
+    "frase_gancho": {
+      "hash": "c71bad0a14f655dd",
+      "texto": "Onde vivem os povos indígenas e em quantas línguas eles falam."
+    },
+    "introduccion_narrativa": {
+      "hash": "a691ce06649e729c",
+      "texto": "Você sobe ao Andar Superior e o museu muda de tempo verbal. Lá embaixo, tudo foi: pirâmides, tumbas, cidades que já não existem. Aqui, tudo é. O Andar Superior é percorrido por temas, não por regiões, e esta é a primeira sala: a dos lugares e das línguas. Você verá um grande mapa que reúne os povos indígenas do México, uma casa com seu quintal e sua milpa, um mural que imagina o mundo mágico dos maias e uma pintura de Xalitla, Guerrero, que conta a vida de um povo em Papel Amate. Repare em uma coisa: cada povo fala a sua língua, vive no seu território e conta à sua maneira onde está pisando."
+    }
+  }
+}

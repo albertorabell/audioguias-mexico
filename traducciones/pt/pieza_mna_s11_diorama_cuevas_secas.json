@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_diorama_cuevas_secas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b9828b67a5839486",
+      "texto": "Diorama das Cavernas Secas do deserto"
+    },
+    "frase_gancho": {
+      "hash": "a2b50dc6c671deaa",
+      "texto": "Abrigos de rocha onde a secura conservou cestos, sandálias e mantas de séculos."
+    },
+    "puente_narrativo": {
+      "hash": "2b3ee50683da5086",
+      "texto": "Com esta caverna termina o percurso pela arqueologia. Suba ao Andar Superior, onde os povos que você conheceu nas vitrines continuam vivos. Procure um grande mapa do México com as cores das línguas indígenas que são faladas hoje."
+    },
+    "guion_corto": {
+      "hash": "439423cde22e4526",
+      "texto": "Aqui são recriadas as cavernas secas do deserto do norte, abrigos de rocha onde quase não entra umidade. Essa secura detém a decomposição, e por isso nelas se conservaram coisas que em quase qualquer outro lugar se perdem: cordas, esteiras, redes, cestos, sandálias e mortos envoltos em mantas. As de Coahuila são as mais conhecidas. Na Caverna da Candelaria, de onde vem o fardo que você viu, gerações de caçadores-coletores enterraram os seus. Algo parecido aconteceu nas cavernas de Ocampo, em Tamaulipas, onde foram guardadas plantas cultivadas muito antigas. Essas cavernas nos devolvem o que o tempo apaga primeiro: o que os povos do deserto faziam com fibras e com as mãos."
+    },
+    "guion_largo": {
+      "hash": "9454249153af1d06",
+      "texto": "Imagine uma caverna onde quase nada apodrece. Não entra a umidade que faz crescer os fungos, e as fibras, a pele e as penas secam em vez de se desfazer. O que alguém deixou ali há séculos pode continuar ali hoje. No deserto do norte do México há cavernas assim, e os arqueólogos as chamam de cavernas secas. A cena que você tem diante de si leva você a esse mundo.\n\nA mais famosa é a Caverna da Candelaria, no Vale das Delícias, em Coahuila. Você já conhece o fardo e o crânio dela. O INAH a explorou em 1953 e 1954, em seu primeiro projeto formal no norte árido do país. Segundo o arqueólogo Luis Aveleyra, ela nunca foi a casa de ninguém, mas sim um enorme depósito de mortos. Entre seus objetos apareceram sandálias, bolsas e redes de fibra, cordas, cestos, colares e orelheiras.\n\nAs análises do INAH identificaram as plantas de cada peça. As esteiras são de sotol e as sandálias, de lechuguilla. Há também uma rede de pescador e um colar feito com vértebras de serpente, unidas com fibras vegetais e cabelo humano. Cada objeto mostra que esses caçadores sabiam qual planta servia para cada coisa.\n\nA Candelaria não está sozinha. Em Coahuila há outras cavernas funerárias, como La Paila, com mortos envoltos e amarrados do mesmo modo que os da Candelaria. Em 1838 se deu notícia de outra na Serra de Mojada, com numerosos corpos. Tudo indica um costume difundido no deserto: devolver os mortos à rocha, ao abrigo do sol e da chuva.\n\nMais a leste, em Ocampo, Tamaulipas, há outras cavernas secas. Em 1954 elas foram exploradas pelo arqueólogo Richard MacNeish. O ar seco guardou ali objetos de fibra, panelas e restos de milho, feijão e abóbora. Essas plantas ajudaram a entender como começou a agricultura na Mesoamérica. As cavernas secas guardam mortos, mas também guardam comida.\n\nO que sai dessas cavernas não é luxuoso, e aí está o seu valor. Sandálias gastas, redes, bolsas e cestos são objetos de pessoas que não construíram cidades. Por eles sabemos que teciam sem tear, que torciam cordas finas e que escolhiam cada planta para um uso. Sem as cavernas secas, esses povos seriam quase só pontas de flecha e ossos.\n\nHoje essas fibras frágeis precisam de cuidados. O que saiu da Candelaria foi repartido entre o Museu Nacional de Antropologia e o Museu Regional de La Laguna, em Torreón. Um projeto do INAH, ativo desde 2013, estuda de quais plantas as peças são feitas e como foram tecidas. Quando falta um pedaço, ele é reposto com fio de papel japonês tingido, para que se note e possa ser retirado. As peças se revezam na vitrine para que não se deteriorem por estarem sempre expostas.\n\nSeu maior inimigo, porém, não tem sido o tempo. Muitos fardos da Candelaria já estavam abertos quando os arqueólogos chegaram, e um estudo menciona que alguns foram queimados como combustível. Cada caverna saqueada perde para sempre o que contava. Antes de deixar o andar térreo, pense que o mais frágil também pode sobreviver, se alguém o proteger."
+    },
+    "retos_observacion": {
+      "hash": "844d9a16da2e511c",
+      "texto": [
+        "Procure objetos feitos com fibras, como cordas, esteiras, cestos ou sandálias",
+        "Se você vir fardos envoltos e amarrados, compare-os com o fardo da Candelaria",
+        "Observe a rocha da caverna e pense por que o ar seco conserva tanto"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eb75de1e3c403d4d",
+      "texto": {
+        "Cultura": "Caçadores-coletores do deserto (Aridoamérica)",
+        "Período": "Por volta de 900-1600 d.C. (complexo Caverna da Candelaria e Cuatro Ciénegas)",
+        "Material": "Recriação museográfica em diorama com têxteis de fibra de iuca, cestaria e fardos mortuários",
+        "Procedência": "Cavernas secas de Coahuila e do norte do México"
+      }
+    },
+    "faq_mito": {
+      "hash": "d786ad95de9c9868",
+      "texto": {
+        "pregunta": "Mito: Os caçadores-coletores do deserto viviam dentro das cavernas.",
+        "respuesta": "Realidade: A Caverna da Candelaria foi usada somente como cemitério, não como moradia."
+      }
+    }
+  }
+}
