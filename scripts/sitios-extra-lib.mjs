@@ -18,8 +18,8 @@ export function leerDefinicionesRutas(filas) {
     if (!key || !o.nombre) continue;
     const minutos = Number(String(o.minutos).replace(',', '.')) || 0;
     const def = { key, id: `ruta-${key.replace(/[^a-z0-9]+/g, '-')}`, name: o.nombre, duration: o.duracion, estimated_minutes: minutos, description: o.descripcion };
-    // grupo = cómo se agrupa en la app: tiempo | tema | completo (vacío = sin agrupar)
-    if (['tiempo', 'tema', 'completo'].includes(String(o.grupo || '').toLowerCase())) def.group = String(o.grupo).toLowerCase();
+    // grupo = cómo se agrupa en la app: tiempo | tema | completo | alta (planta alta; va al final) (vacío = sin agrupar)
+    if (['tiempo', 'tema', 'completo', 'alta'].includes(String(o.grupo || '').toLowerCase())) def.group = String(o.grupo).toLowerCase();
     // principal = SI: es el recorrido que arranca el botón «Empezar recorrido» de la portada
     if (/^(si|sí|true|verdadero|1|x)$/i.test(String(o.principal || ''))) def.principal = true;
     for (const l of ['en', 'fr', 'pl']) {

@@ -1,11 +1,11 @@
 import React from 'react';
+import { getAssetUrl } from '../utils/urlHelper';
 
 /**
  * Plano de la planta baja y alta del Museo Nacional de Antropología.
- * Dibujo propio (no es una imagen de nadie) hecho a partir de la distribución real del museo:
- * Mexica arriba, salas 1 a 5 en el ala derecha, 7 a 11 en la izquierda, patio central con estanque,
- * Paraguas, vestíbulo con Media Luna y la entrada principal abajo.
- * Las coordenadas son del dibujo (no son metros). Las posiciones de las piezas dentro de cada sala
+ * Los muros salen de dos planos vectoriales (public/plano/mna-pb.svg y mna-pa.svg): son el edificio real, sin rótulos,
+ * iconos ni pines de nadie. Encima van nuestras salas tocables, las piezas y la ruta.
+ * Las coordenadas son las de esos dibujos (960 de ancho). Las posiciones de las piezas dentro de cada sala
  * son aproximadas: siguen el orden en que se ven al caminar y se corrigen sala por sala en sitio.
  */
 
@@ -21,46 +21,52 @@ export interface PlanRoom {
 /** Zonas que se recorren en orden: 0 exteriores, 0.5 vestíbulo, 0.7 patio central y luego las salas 1 a 11. */
 export const ZONES = [0, 0.5, 0.7, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
-export const PB_VIEW: [number, number, number, number] = [20, 190, 930, 1720];
+/** Dibujo de planta baja: 960 x 1770. Planta alta: 960 x 1739. */
+export const PB_SIZE: [number, number] = [960, 1770];
+export const PA_SIZE: [number, number] = [960, 1739];
+export const PB_VIEW: [number, number, number, number] = [50, 100, 870, 1670];
+export const PA_VIEW: [number, number, number, number] = [60, 240, 900, 1500];
+export const PB_IMG = getAssetUrl('plano/mna-pb.svg');
+export const PA_IMG = getAssetUrl('plano/mna-pa.svg');
 
 export const PB_ROOMS: PlanRoom[] = [
-  { num: 6, rect: [305, 290, 567, 555], flow: 'left', hue: 20, side: 'inside' },
-  { num: 5, rect: [600, 500, 760, 720], flow: 'up', hue: 45, side: 'east' },
-  { num: 4, rect: [600, 720, 760, 890], flow: 'up', hue: 160, side: 'east' },
-  { num: 3, rect: [600, 890, 760, 1030], flow: 'up', hue: 200, side: 'east' },
-  { num: 2, rect: [600, 1030, 760, 1105], flow: 'up', hue: 280, side: 'east' },
-  { num: 1, rect: [600, 1105, 760, 1220], flow: 'up', hue: 330, side: 'east' },
-  { num: 7, rect: [118, 335, 272, 560], flow: 'down', hue: 20, side: 'west' },
-  { num: 8, rect: [118, 560, 272, 775], flow: 'down', hue: 150, side: 'west' },
-  { num: 9, rect: [118, 775, 272, 1010], flow: 'down', hue: 95, side: 'west' },
-  { num: 10, rect: [118, 1107, 272, 1220], flow: 'right', hue: 260, side: 'west' },
-  { num: 11, rect: [118, 1220, 272, 1330], flow: 'right', hue: 210, side: 'west' },
+  { num: 6, rect: [335, 190, 583, 452], flow: 'left', hue: 20, side: 'inside' },
+  { num: 5, rect: [615, 400, 768, 555], flow: 'up', hue: 45, side: 'east' },
+  { num: 4, rect: [615, 555, 768, 768], flow: 'up', hue: 160, side: 'east' },
+  { num: 3, rect: [615, 768, 768, 875], flow: 'up', hue: 200, side: 'east' },
+  { num: 2, rect: [615, 875, 768, 975], flow: 'up', hue: 280, side: 'east' },
+  { num: 1, rect: [585, 975, 768, 1080], flow: 'up', hue: 330, side: 'east' },
+  { num: 7, rect: [150, 240, 305, 400], flow: 'down', hue: 20, side: 'west' },
+  { num: 8, rect: [150, 400, 305, 610], flow: 'down', hue: 150, side: 'west' },
+  { num: 9, rect: [150, 660, 305, 885], flow: 'down', hue: 95, side: 'west' },
+  { num: 10, rect: [150, 975, 335, 1080], flow: 'right', hue: 260, side: 'west' },
+  { num: 11, rect: [150, 1080, 335, 1187], flow: 'right', hue: 210, side: 'west' },
 ];
 
 /** Piezas que no están dentro de una sala numerada: zona y punto en el plano. */
 export const FIXED: Record<string, { zone: number; at: [number, number] }> = {
-  mna_s00_monolito_tlaloc: { zone: 0, at: [350, 1800] },
-  mna_s00_fachada_celosia: { zone: 0, at: [435, 1735] },
-  mna_s00_mural_tamayo: { zone: 0.5, at: [675, 1688] },
-  mna_s00_el_paraguas: { zone: 0.7, at: [435, 1228] },
-  mna_s00_espejo_caracol: { zone: 0.7, at: [435, 830] },
+  mna_s00_monolito_tlaloc: { zone: 0, at: [375, 1690] },
+  mna_s00_fachada_celosia: { zone: 0, at: [460, 1525] },
+  mna_s00_mural_tamayo: { zone: 0.5, at: [545, 1440] },
+  mna_s00_el_paraguas: { zone: 0.7, at: [460, 1095] },
+  mna_s00_espejo_caracol: { zone: 0.7, at: [460, 740] },
 };
 
 /** Puntos por donde se camina al pasar de una zona a la siguiente. */
 export const WAYPOINTS: Record<string, [number, number][]> = {
-  '0-0.5': [[435, 1712], [435, 1650]],
-  '0.5-0.7': [[435, 1480], [435, 1330]],
-  '0.7-1': [[560, 1160], [600, 1160]],
-  '1-2': [[680, 1105]],
-  '2-3': [[680, 1030]],
-  '3-4': [[680, 890]],
-  '4-5': [[680, 720]],
-  '5-6': [[650, 505], [585, 515], [567, 522]],
-  '6-7': [[305, 540], [288, 572], [272, 548]],
-  '7-8': [[195, 560]],
-  '8-9': [[195, 775]],
-  '9-10': [[195, 1010], [195, 1107]],
-  '10-11': [[195, 1220]],
+  '0-0.5': [[460, 1650], [460, 1560]],
+  '0.5-0.7': [[460, 1380], [460, 1230]],
+  '0.7-1': [[540, 1075], [600, 1030]],
+  '1-2': [[650, 975]],
+  '2-3': [[650, 875]],
+  '3-4': [[650, 768]],
+  '4-5': [[650, 555]],
+  '5-6': [[650, 430], [583, 425]],
+  '6-7': [[345, 440], [320, 420], [300, 360]],
+  '7-8': [[230, 400]],
+  '8-9': [[230, 610], [230, 660]],
+  '9-10': [[230, 885], [230, 975]],
+  '10-11': [[230, 1080]],
 };
 
 /** Orden en que se ven las piezas al caminar cada sala (de las fotos del 31 de octubre; salas 10 y 11 por confirmar). */
@@ -81,68 +87,43 @@ export const SHORT_ES: Record<number, string> = {
   6: 'Mexica', 7: 'Oaxaca', 8: 'Costa del Golfo', 9: 'Maya', 10: 'Occidente', 11: 'Norte',
 };
 
-/** Bloques de la planta alta según el plano del museo. Nuestras salas 12 a 21 se acomodan aquí cuando se recorran en sitio. */
+/** Bloques de la planta alta según los cinco temas de la guía del museo. */
 export interface UpperBlock {
   id: string;
   rect: [number, number, number, number];
+  poly?: string;
   hue: number;
   title: Record<'es' | 'en' | 'fr' | 'pl', string>;
 }
 export const PA_BLOCKS: UpperBlock[] = [
-  { id: 'identidades', rect: [68, 335, 263, 640], hue: 20, title: { es: 'Identidades, historias…', en: 'Identities, histories…', fr: 'Identités, histoires…', pl: 'Tożsamości, historie…' } },
-  { id: 'fiestas', rect: [68, 640, 263, 1000], hue: 320, title: { es: 'Fiestas y rituales', en: 'Festivals and rituals', fr: 'Fêtes et rituels', pl: 'Święta i rytuały' } },
-  { id: 'textiles', rect: [68, 1000, 263, 1330], hue: 260, title: { es: 'Textiles', en: 'Textiles', fr: 'Textiles', pl: 'Tekstylia' } },
-  { id: 'comidas', rect: [523, 500, 718, 1000], hue: 45, title: { es: 'Comidas, producción y consumo', en: 'Food, production and consumption', fr: 'Alimentation, production et consommation', pl: 'Żywność, produkcja i konsumpcja' } },
-  { id: 'pueblos', rect: [523, 1000, 718, 1330], hue: 160, title: { es: 'Pueblos, lenguas y territorios', en: 'Peoples, languages and territories', fr: 'Peuples, langues et territoires', pl: 'Ludy, języki i terytoria' } },
+  { id: 'identidades', rect: [100, 272, 303, 543], hue: 20, title: { es: 'Identidades, historias y resistencias', en: 'Identities, histories and resistance', fr: 'Identités, histoires et résistances', pl: 'Tożsamości, historie i opór' } },
+  { id: 'fiestas', rect: [100, 543, 303, 864], hue: 320, title: { es: 'Fiestas y rituales', en: 'Festivals and rituals', fr: 'Fêtes et rituels', pl: 'Święta i rytuały' } },
+  { id: 'textiles', rect: [100, 864, 303, 1310], poly: '100,864 303,864 303,1310 184,1310 184,1080 100,1080', hue: 260, title: { es: 'Textiles', en: 'Textiles', fr: 'Textiles', pl: 'Tekstylia' } },
+  { id: 'comidas', rect: [575, 445, 776, 999], hue: 45, title: { es: 'Comidas, producción y consumo', en: 'Food, production and consumption', fr: 'Alimentation, production et consommation', pl: 'Żywność, produkcja i konsumpcja' } },
+  { id: 'pueblos', rect: [575, 999, 776, 1310], hue: 160, title: { es: 'Pueblos, lenguas y territorios', en: 'Peoples, languages and territories', fr: 'Peuples, langues et territoires', pl: 'Ludy, języki i terytoria' } },
 ];
 
-const tone = (h: number, pct = 20) => `color-mix(in oklab, hsl(${h} 60% 50%) ${pct}%, var(--c-surface))`;
-export const roomFill = (h: number, here: boolean) => tone(h, here ? 48 : 20);
+const tone = (h: number, pct = 20) => `color-mix(in oklab, hsl(${h} 60% 50%) ${pct}%, transparent)`;
+export const roomFill = (h: number, here: boolean) => tone(h, here ? 48 : 22);
 
-const W = 'var(--c-ink-2)';
-const T = { fill: 'var(--c-ink-3)', fontWeight: 600 } as const;
-
-/** Fondo de la planta baja: plaza, vestíbulo, patio, estanque, Paraguas, servicios. Se dibuja una sola vez. */
+/** Fondo de la planta baja: el plano vectorial de muros. Se dibuja una sola vez. En modo oscuro se invierte. */
 export const PbBase: React.FC = React.memo(() => (
-  <g>
-    <rect x={303} y={1712} width={267} height={190} rx={6} fill="var(--c-raised)" opacity={0.7} />
-    <text x={436} y={1865} textAnchor="middle" fontSize={17} {...T}>Reforma</text>
-    <rect x={112} y={1437} width={788} height={275} rx={10} fill="var(--c-surface)" stroke={W} strokeWidth={4} />
-    <rect x={278} y={556} width={318} height={882} fill="var(--c-raised)" opacity={0.6} />
-    <rect x={373} y={688} width={125} height={255} rx={6} fill="color-mix(in oklab, #3b82f6 28%, var(--c-surface))" stroke="#3b82f6" strokeWidth={2.5} />
-    <rect x={415} y={500} width={46} height={265} fill="var(--c-surface)" stroke={W} strokeWidth={3} />
-    <circle cx={435} cy={1228} r={34} fill="var(--c-surface)" stroke={W} strokeWidth={4} />
-    <circle cx={435} cy={1228} r={48} fill="none" stroke="#3b82f6" strokeWidth={2} strokeDasharray="4 5" />
-    <path d="M375 1500 A62 62 0 0 0 500 1500" fill="none" stroke={W} strokeWidth={3} strokeDasharray="2 5" />
-    {[[600, 1220, 760, 1330], [600, 340, 683, 480], [570, 1600, 898, 1712], [180, 1500, 303, 1548], [180, 1575, 303, 1648]].map(([x0, y0, x1, y1]) => (
-      <rect key={`${x0}-${y0}`} x={x0} y={y0} width={x1 - x0} height={y1 - y0} rx={6} fill="var(--c-bg)" stroke={W} strokeWidth={2.5} />
-    ))}
-    {[[257, 1045], [290, 1175], [580, 1175]].map(([x, y]) => (
-      <g key={`s${x}`}>
-        <rect x={x - 15} y={y - 12} width={30} height={24} rx={6} fill="var(--c-surface)" stroke={W} strokeWidth={1.5} />
-        <text x={x} y={y + 5} textAnchor="middle" fontSize={14} fontWeight={700} fill="var(--c-ink)">↕</text>
-      </g>
-    ))}
-    {[[270, 1698], [695, 1640]].map(([x, y]) => (
-      <g key={`w${x}`}>
-        <rect x={x - 15} y={y - 12} width={30} height={24} rx={6} fill="var(--c-surface)" stroke={W} strokeWidth={1.5} />
-        <text x={x} y={y + 5} textAnchor="middle" fontSize={12} fontWeight={700} fill="var(--c-ink)">WC</text>
-      </g>
-    ))}
-    {[418, 436, 454].map((x) => <rect key={x} x={x - 8} y={1706} width={16} height={8} fill="var(--c-jade)" />)}
-  </g>
+  <image href={PB_IMG} x={0} y={0} width={PB_SIZE[0]} height={PB_SIZE[1]} className="dark:[filter:invert(0.9)_hue-rotate(180deg)]" pointerEvents="none" />
+));
+export const PaBase: React.FC = React.memo(() => (
+  <image href={PA_IMG} x={0} y={0} width={PA_SIZE[0]} height={PA_SIZE[1]} className="dark:[filter:invert(0.9)_hue-rotate(180deg)]" pointerEvents="none" />
 ));
 
 /** Rótulos del fondo (se traducen aparte). */
 export const baseLabels = (t: Record<string, string>) => [
-  { x: 436, y: 1000, s: t.courtyard, size: 21, bold: true },
-  { x: 436, y: 830, s: t.pond, size: 19 },
-  { x: 435, y: 1290, s: t.umbrella, size: 19 },
-  { x: 436, y: 1595, s: t.lobby, size: 16 },
-  { x: 436, y: 1675, s: t.entrance, size: 18, bold: true },
-  { x: 700, y: 1285, s: t.temporary, size: 14 },
-  { x: 641, y: 415, s: t.ballgame, size: 13 },
-  { x: 735, y: 1664, s: t.auditorium, size: 14 },
-  { x: 241, y: 1530, s: t.cloakroom, size: 13 },
-  { x: 241, y: 1616, s: t.shop, size: 13 },
+  { x: 460, y: 940, s: t.courtyard, size: 21, bold: true },
+  { x: 460, y: 690, s: t.pond, size: 17 },
+  { x: 460, y: 1172, s: t.umbrella, size: 18 },
+  { x: 460, y: 1462, s: t.lobby, size: 15 },
+  { x: 460, y: 1700, s: t.entrance, size: 19, bold: true },
+  { x: 676, y: 1138, s: t.temporary, size: 14 },
+  { x: 654, y: 318, s: t.ballgame, size: 13 },
+  { x: 790, y: 1420, s: t.auditorium, size: 15 },
+  { x: 242, y: 1340, s: t.cloakroom, size: 13 },
+  { x: 242, y: 1475, s: t.shop, size: 13 },
 ];

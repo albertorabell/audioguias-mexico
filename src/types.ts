@@ -194,7 +194,7 @@ export interface SiteRoute {
   description: string;
   stops: RouteStop[];
   /** tiempo = según cuánto tengas; tema = por interés; completo = ver todo (varias visitas). */
-  group?: 'tiempo' | 'tema' | 'completo';
+  group?: 'tiempo' | 'tema' | 'completo' | 'alta';
   /** El recorrido que arranca el botón «Empezar recorrido» de la portada (columna `principal` de la pestaña RUTAS). */
   principal?: boolean;
   is_custom?: boolean;

@@ -400,6 +400,7 @@ export const PL_GROUPS: Record<string, any> = {
       groupTiempo: 'Według czasu',
       groupTema: 'Według tematu',
       groupCompleto: 'Żeby zobaczyć wszystko',
+      groupAlta: 'Piętro (etnografia)',
       timeNote: 'Czasy obejmują krótkie audio, oglądanie każdego dzieła i przejścia między salami. Pełne audio trwa dłużej.',
     },
     map: {

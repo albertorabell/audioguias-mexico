@@ -64,6 +64,7 @@ export const RoutesScreen: React.FC<RoutesScreenProps> = ({
       { key: 'tiempo', title: u.routes.groupTiempo, test: (r) => !r.group || r.group === 'tiempo' },
       { key: 'tema', title: u.routes.groupTema, test: (r) => r.group === 'tema' },
       { key: 'completo', title: u.routes.groupCompleto, test: (r) => r.group === 'completo' },
+      { key: 'alta', title: u.routes.groupAlta, test: (r) => r.group === 'alta' },
     ];
     return defs.map((d) => ({ key: d.key, title: d.title, routes: list.filter(d.test) })).filter((x) => x.routes.length > 0);
     // eslint-disable-next-line react-hooks/exhaustive-deps
