@@ -141,7 +141,15 @@ jobs:
 
       - name: Volver a traer los textos del Google Sheets (el paso de guardar los deja como estaban en el repositorio)
         if: ${{ inputs.modo == 'lote-recoger' || (inputs.modo == 'lote-enviar' && inputs.generar) }}
-        run: node scripts/sync-sheets.js
+        run: |
+          # Google limita las lecturas por minuto: con 11 sitios, una segunda sincronización pegada a la primera da error 429. Se espera y se reintenta.
+          sleep 75
+          for intento in 1 2 3 4; do
+            if node scripts/sync-sheets.js; then exit 0; fi
+            echo "Intento $intento falló (probable límite de lecturas de Google); espero 90 s"
+            sleep 90
+          done
+          exit 1
 
       - name: Esperar el lote y recoger las traducciones
         if: ${{ inputs.modo == 'lote-recoger' || (inputs.modo == 'lote-enviar' && inputs.generar) }}
