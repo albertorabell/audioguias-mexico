@@ -1,0 +1,589 @@
+{
+  "id": "msgbatch_01NUGKSjk6EGDUpb9ywNmgE4",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "creado": "2026-11-03T06:54:58.973Z",
+  "estimado_usd": 0.769,
+  "unidades": [
+    {
+      "custom_id": "pieza_chi_00_vistazo",
+      "tipo": "pieza",
+      "id": "chi_00_vistazo",
+      "huellas": {
+        "titulo": "3b0bff030db10d27",
+        "frase_gancho": "5e1b57cf61aa438b",
+        "puente_narrativo": "8d8b49e3baf8b546",
+        "guion_corto": "aa4d1c9935dd8b5e",
+        "guion_largo": "9713ff64ba37524e",
+        "retos_observacion": "6b7b5e61e0c3a70e",
+        "especificaciones": "31971c4db987001c",
+        "faq_mito": "ab6c68e0c235e559"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_01_muralla_acceso",
+      "tipo": "pieza",
+      "id": "chi_01_muralla_acceso",
+      "huellas": {
+        "titulo": "835a9b8786305840",
+        "frase_gancho": "7fe3d488e8494c49",
+        "puente_narrativo": "89169c7cd73c8990",
+        "guion_corto": "728e5bfd6649227e",
+        "guion_largo": "bf3c2733ef4d63ab",
+        "retos_observacion": "a7d7da0b43e0134a",
+        "especificaciones": "33412e54bcacba79",
+        "faq_mito": "3052c5f83760e118"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_02_castillo_general",
+      "tipo": "pieza",
+      "id": "chi_02_castillo_general",
+      "huellas": {
+        "titulo": "1bd1fd9856689c7d",
+        "frase_gancho": "53bb7013dd4d1a8b",
+        "puente_narrativo": "9a6b239ee20123d4",
+        "guion_corto": "2a2bff3292c10405",
+        "guion_largo": "15b1351f42e928ea",
+        "retos_observacion": "814b6c43c5a59b61",
+        "especificaciones": "5dc286df61145e29",
+        "faq_mito": "dafe28e71e1d6526"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_03_equinoccio_acustica",
+      "tipo": "pieza",
+      "id": "chi_03_equinoccio_acustica",
+      "huellas": {
+        "titulo": "544f559577dfb49e",
+        "frase_gancho": "d6ee7e666c11297c",
+        "puente_narrativo": "3af23a6afb12ecfa",
+        "guion_corto": "07b815dff791f9eb",
+        "guion_largo": "7c4e778231b2e00a",
+        "retos_observacion": "8265d6a5d3e34cfe",
+        "especificaciones": "064c62ca325479b1",
+        "faq_mito": "feb182b9756c1d67"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_04_subestructura_castillo",
+      "tipo": "pieza",
+      "id": "chi_04_subestructura_castillo",
+      "huellas": {
+        "titulo": "1ac227c526f6584b",
+        "frase_gancho": "bf81af0d4d048aa7",
+        "puente_narrativo": "49b1f21d9326a11b",
+        "guion_corto": "263391c9c6d6c4d4",
+        "guion_largo": "c1dd9e878c89fd92",
+        "retos_observacion": "acc04f90321bf734",
+        "especificaciones": "32412be0b5bfe96e",
+        "faq_mito": "0fbd8b801250570d"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_07_tzompantli",
+      "tipo": "pieza",
+      "id": "chi_07_tzompantli",
+      "huellas": {
+        "titulo": "1b402fb72d217f3c",
+        "frase_gancho": "19537684377b1b04",
+        "puente_narrativo": "01a3506df1ed7256",
+        "guion_corto": "dfb61fc4c2bbe393",
+        "guion_largo": "bf94a21f91844e39",
+        "retos_observacion": "3151853ba5aac088",
+        "especificaciones": "ae5012650ebac817",
+        "faq_mito": "a35b1fc3a11efe0b"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_06_aguilas_jaguares",
+      "tipo": "pieza",
+      "id": "chi_06_aguilas_jaguares",
+      "huellas": {
+        "titulo": "b3effe4c5400637f",
+        "frase_gancho": "7997417a91bd05c0",
+        "puente_narrativo": "1658110b6c226dc8",
+        "guion_corto": "0bc6d550dd3ca405",
+        "guion_largo": "4e63205e3f364591",
+        "retos_observacion": "64df8bda76c8ff9e",
+        "especificaciones": "3324311b6ba8a5d8",
+        "faq_mito": "db9dd5e7555b9b5b"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_08_gran_juego_pelota",
+      "tipo": "pieza",
+      "id": "chi_08_gran_juego_pelota",
+      "huellas": {
+        "titulo": "ef611bef583fdc40",
+        "frase_gancho": "ae1be7f22c00f74d",
+        "puente_narrativo": "c2d5568588337440",
+        "guion_corto": "e2d5fed09dbc6b16",
+        "guion_largo": "139ddbcc57aa6c00",
+        "retos_observacion": "0a341eec1b3d84d1",
+        "especificaciones": "54ec939de8bbf154",
+        "faq_mito": "e8e01786bc275d1d"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_09_banquetas_decapitacion",
+      "tipo": "pieza",
+      "id": "chi_09_banquetas_decapitacion",
+      "huellas": {
+        "titulo": "fabb47fec5083adf",
+        "frase_gancho": "e6da41f967a5b673",
+        "puente_narrativo": "2be332556f9c70a3",
+        "guion_corto": "fbf9d78e9b3ebee4",
+        "guion_largo": "08c73639da6b2e35",
+        "retos_observacion": "327146aa12ebd663",
+        "especificaciones": "e06dbf56dd289a7a",
+        "faq_mito": "c20655e7987bb040"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_10_templo_hombre_barbado",
+      "tipo": "pieza",
+      "id": "chi_10_templo_hombre_barbado",
+      "huellas": {
+        "titulo": "00b0d8f77c65c680",
+        "frase_gancho": "fd380cf00287dea3",
+        "puente_narrativo": "354a6317b719bef8",
+        "guion_corto": "c7a1abf38b0722f8",
+        "guion_largo": "74debd32c33bcdfa",
+        "retos_observacion": "8e81f3682a6b0918",
+        "especificaciones": "67e7dbeb3fa227b2",
+        "faq_mito": "c42a502b32a2cb7d"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_12_templo_jaguares",
+      "tipo": "pieza",
+      "id": "chi_12_templo_jaguares",
+      "huellas": {
+        "titulo": "0c6b3f3927b517dd",
+        "frase_gancho": "50da5f977047cf94",
+        "puente_narrativo": "6953c20041fbfbd8",
+        "guion_corto": "d120546e59de0150",
+        "guion_largo": "4d99211b83ebe962",
+        "retos_observacion": "0ce19557ed54cadf",
+        "especificaciones": "c5a39157ff76c62f",
+        "faq_mito": "22f1e4a60ae353e8"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_05_plataforma_venus",
+      "tipo": "pieza",
+      "id": "chi_05_plataforma_venus",
+      "huellas": {
+        "titulo": "18353759b58471de",
+        "frase_gancho": "8d4d34dc5f31ef26",
+        "puente_narrativo": "ab63f4a503e22021",
+        "guion_corto": "6d8c7a104b80e113",
+        "guion_largo": "6ab9759f32ccb9a9",
+        "retos_observacion": "d4cd314182eb6543",
+        "especificaciones": "1752b5b24fa4e82d",
+        "faq_mito": "f6f97bf0600d0da8"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_13_sacbe_uno",
+      "tipo": "pieza",
+      "id": "chi_13_sacbe_uno",
+      "huellas": {
+        "titulo": "b2a51451617dbeb9",
+        "frase_gancho": "2969530dd5e5f238",
+        "puente_narrativo": "b36faea0950c1878",
+        "guion_corto": "1b0bf67611f67142",
+        "guion_largo": "d1059db2ffaeea2c",
+        "retos_observacion": "f9eca1067d4b4565",
+        "especificaciones": "e0232a33e69ff209",
+        "faq_mito": "3e1675f174763f4b"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_14_cenote_sagrado",
+      "tipo": "pieza",
+      "id": "chi_14_cenote_sagrado",
+      "huellas": {
+        "titulo": "2e1a11bdf7134302",
+        "frase_gancho": "fff0e3b277b7af2d",
+        "puente_narrativo": "94569c1a60960f94",
+        "guion_corto": "45ecbe7456a60709",
+        "guion_largo": "67b9c3db8da34093",
+        "retos_observacion": "06959ee5065843ec",
+        "especificaciones": "9eaa12bde83e82ef",
+        "faq_mito": "1df925db81bbf6c3"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_16_templo_guerreros",
+      "tipo": "pieza",
+      "id": "chi_16_templo_guerreros",
+      "huellas": {
+        "titulo": "cd6f64b01a908be4",
+        "frase_gancho": "6d01b78e2c4d509d",
+        "puente_narrativo": "cd9bfdc1b8314878",
+        "guion_corto": "76b13d969224ffde",
+        "guion_largo": "9b21f07b27085ac7",
+        "retos_observacion": "721a38f04107f8fe",
+        "especificaciones": "6ab36c0e3d6d34a8",
+        "faq_mito": "9ab61d54962f38ee"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_19_grupo_mil_columnas",
+      "tipo": "pieza",
+      "id": "chi_19_grupo_mil_columnas",
+      "huellas": {
+        "titulo": "9d78d8ea0a3e8d37",
+        "frase_gancho": "3056d52a533c7607",
+        "puente_narrativo": "09ec4387a33f03a6",
+        "guion_corto": "653793cca26b973e",
+        "guion_largo": "85cd0f81d819b54d",
+        "retos_observacion": "15a626d9dfd66516",
+        "especificaciones": "912aa735992d92eb",
+        "faq_mito": "327a20c445543ea0"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_20_templo_mesas",
+      "tipo": "pieza",
+      "id": "chi_20_templo_mesas",
+      "huellas": {
+        "titulo": "1b9e78d71fe5518f",
+        "frase_gancho": "351b4ce108ae3a38",
+        "puente_narrativo": "93ca4a279e253701",
+        "guion_corto": "4d0afb88cfeaafb8",
+        "guion_largo": "9bafe6b07128c633",
+        "retos_observacion": "02dd50adcec16306",
+        "especificaciones": "bd8a76ef53f9f165",
+        "faq_mito": "f990703cf60dbca1"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_21_bano_vapor",
+      "tipo": "pieza",
+      "id": "chi_21_bano_vapor",
+      "huellas": {
+        "titulo": "31bb3efa0b8f36e9",
+        "frase_gancho": "250da0e0ff9176c4",
+        "puente_narrativo": "1f86bb6cc3dd0b82",
+        "guion_corto": "5445090daa857d6d",
+        "guion_largo": "22758c04d2725d89",
+        "retos_observacion": "2c157897c3f33aaa",
+        "especificaciones": "4561c8ab83ec514b",
+        "faq_mito": "24233368d642b3f0"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_22_el_mercado",
+      "tipo": "pieza",
+      "id": "chi_22_el_mercado",
+      "huellas": {
+        "titulo": "77f290ac9bd6716d",
+        "frase_gancho": "e9eca5738bff012c",
+        "puente_narrativo": "3e8d12812746f916",
+        "guion_corto": "d896f82fe0c03816",
+        "guion_largo": "6f3da82da251edca",
+        "retos_observacion": "e5af8b7c01a49a0f",
+        "especificaciones": "ba35cb916ed77def",
+        "faq_mito": "a5721cd81e1cdb28"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_23_el_osario",
+      "tipo": "pieza",
+      "id": "chi_23_el_osario",
+      "huellas": {
+        "titulo": "e57e46b4e415af1c",
+        "frase_gancho": "1cbb35eceb0f44f5",
+        "puente_narrativo": "ca47d89ab6f88925",
+        "guion_corto": "b4b9fef89ff4f3b1",
+        "guion_largo": "7bebd8932377388a",
+        "retos_observacion": "1a98a44a14b466e7",
+        "especificaciones": "6ff3ac66d851e907",
+        "faq_mito": "8faa303ff8b4a790"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_26_cenote_xtoloc",
+      "tipo": "pieza",
+      "id": "chi_26_cenote_xtoloc",
+      "huellas": {
+        "titulo": "3d23ef01bc868fa3",
+        "frase_gancho": "943c2d93b5a65133",
+        "puente_narrativo": "a8d9e98ffb3e296f",
+        "guion_corto": "fd84ee3acdce473f",
+        "guion_largo": "0f57e8dfaa38f81a",
+        "retos_observacion": "bed325aec35d6819",
+        "especificaciones": "a36ffb04e66019c7",
+        "faq_mito": "ce9d8e8343da4b48"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_25_casa_venado_colorada",
+      "tipo": "pieza",
+      "id": "chi_25_casa_venado_colorada",
+      "huellas": {
+        "titulo": "e128551d4843eb2b",
+        "frase_gancho": "6f893303c47d49e9",
+        "puente_narrativo": "d7d58e3809fffd90",
+        "guion_corto": "bd84eef619aa0c67",
+        "guion_largo": "c91ee1c27e6dddbf",
+        "retos_observacion": "b64c3ff060b89ace",
+        "especificaciones": "8ec4ab25cc2457b3",
+        "faq_mito": "3a2a6cd3e6f1ff11"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_27_el_caracol",
+      "tipo": "pieza",
+      "id": "chi_27_el_caracol",
+      "huellas": {
+        "titulo": "6dddd829991935e9",
+        "frase_gancho": "1855dae43d6d6ae4",
+        "puente_narrativo": "8b5248a870f086d2",
+        "guion_corto": "79c38490dd6839a8",
+        "guion_largo": "68f1c7954ed1c81f",
+        "retos_observacion": "cce356069a3334d6",
+        "especificaciones": "f169095e68d4f60b",
+        "faq_mito": "532a8b4701bd38ae"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_29_las_monjas",
+      "tipo": "pieza",
+      "id": "chi_29_las_monjas",
+      "huellas": {
+        "titulo": "e0d005c4ea4cde31",
+        "frase_gancho": "475d498c34e10fd7",
+        "puente_narrativo": "19b16a457b1a7166",
+        "guion_corto": "6510c0af105d0a21",
+        "guion_largo": "43b39cc587248af1",
+        "retos_observacion": "647e5425756f744b",
+        "especificaciones": "78713fbcc8e9ae09",
+        "faq_mito": "14cdfb3bb6535ab1"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_30_anexo_este_monjas",
+      "tipo": "pieza",
+      "id": "chi_30_anexo_este_monjas",
+      "huellas": {
+        "titulo": "5b336e81005050e0",
+        "frase_gancho": "ec2b597fa5308e55",
+        "puente_narrativo": "e6097543bb17c89d",
+        "guion_corto": "0cfb77ae9959f816",
+        "guion_largo": "c97dcb3632ee3317",
+        "retos_observacion": "3a9d4932a0b44167",
+        "especificaciones": "c1bba47855940429",
+        "faq_mito": "c0890c02d0e7da80"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_31_la_iglesia",
+      "tipo": "pieza",
+      "id": "chi_31_la_iglesia",
+      "huellas": {
+        "titulo": "f731c9e645f7a9ce",
+        "frase_gancho": "4b93a4804689435d",
+        "puente_narrativo": "af0e04c2f847a9a7",
+        "guion_corto": "67635864737aeca3",
+        "guion_largo": "95c76c8338e30ccb",
+        "retos_observacion": "43d34f853ff59d41",
+        "especificaciones": "de8be6f7848acbcc",
+        "faq_mito": "d831c92e8eac8a12"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_32_akab_dzib",
+      "tipo": "pieza",
+      "id": "chi_32_akab_dzib",
+      "huellas": {
+        "titulo": "d56b03a259b5f440",
+        "frase_gancho": "5b42bf3a629cd747",
+        "puente_narrativo": "f549109391a8d021",
+        "guion_corto": "7191c6faeddf380d",
+        "guion_largo": "fd2f7a7f03f2c0e1",
+        "retos_observacion": "a8214c3aa0d64751",
+        "especificaciones": "4201c25d1b38410c",
+        "faq_mito": "b04f59e330a40515"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_34_templo_serie_inicial",
+      "tipo": "pieza",
+      "id": "chi_34_templo_serie_inicial",
+      "huellas": {
+        "titulo": "e4c4238afd6a019e",
+        "frase_gancho": "58d1c3fd3f4f2df6",
+        "puente_narrativo": "9957d7b813e7aa17",
+        "guion_corto": "ce780e7a286833a9",
+        "guion_largo": "e8140b9f80f106e1",
+        "retos_observacion": "f6f609f3572ee677",
+        "especificaciones": "0f43608b3284221c",
+        "faq_mito": "d949c73d58de3a80"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_35_templo_falos",
+      "tipo": "pieza",
+      "id": "chi_35_templo_falos",
+      "huellas": {
+        "titulo": "fc78b15121f84caa",
+        "frase_gancho": "6a5d4dc68294a314",
+        "puente_narrativo": "a04e633cfbbff075",
+        "guion_corto": "4948f3fd5554d993",
+        "guion_largo": "4a91ce4a8af95625",
+        "retos_observacion": "456000a7aa8b9fc7",
+        "especificaciones": "3125872ca055a14d",
+        "faq_mito": "137f4f3208e0bbfa"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_36_casa_caracoles_tortuga",
+      "tipo": "pieza",
+      "id": "chi_36_casa_caracoles_tortuga",
+      "huellas": {
+        "titulo": "3c97d858880aeb8b",
+        "frase_gancho": "4aa2e6a7f230b634",
+        "puente_narrativo": "3ffdd99fc99a5203",
+        "guion_corto": "fa2603d70430dfa8",
+        "guion_largo": "cfd91a9349eddbd8",
+        "retos_observacion": "01940c47a2d046a9",
+        "especificaciones": "a22276c53190276e",
+        "faq_mito": "c9f051630f30f82a"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_38_galeria_monos",
+      "tipo": "pieza",
+      "id": "chi_38_galeria_monos",
+      "huellas": {
+        "titulo": "abd897725ed4146e",
+        "frase_gancho": "a7bc72ae119bf235",
+        "puente_narrativo": "7b2c809aa3a8afc3",
+        "guion_corto": "f32e69f40f82d29a",
+        "guion_largo": "93bd315f86679e93",
+        "retos_observacion": "5170575d86256d6e",
+        "especificaciones": "c8060c9a73c89c9e",
+        "faq_mito": "c259fa225bffe34a"
+      }
+    },
+    {
+      "custom_id": "pieza_chi_39_final_memoria",
+      "tipo": "pieza",
+      "id": "chi_39_final_memoria",
+      "huellas": {
+        "titulo": "0ecee9076e3fd397",
+        "frase_gancho": "56c76f2e1d20d638",
+        "puente_narrativo": "8f44808bd217e255",
+        "guion_corto": "ecef37086bff969a",
+        "guion_largo": "3023abbc0e80a253",
+        "retos_observacion": "8c8e85427e5a2160",
+        "especificaciones": "4413e33c0de2215a",
+        "faq_mito": "b71e92300d0f0761"
+      }
+    },
+    {
+      "custom_id": "sala_chi-00-introduccion",
+      "tipo": "sala",
+      "id": "chi-00-introduccion",
+      "huellas": {
+        "nombre_oficial": "3b0bff030db10d27",
+        "frase_gancho": "dea21b23097f28f9",
+        "introduccion_narrativa": "a89ac633258c7bd6"
+      }
+    },
+    {
+      "custom_id": "sala_chi-01-castillo-centro",
+      "tipo": "sala",
+      "id": "chi-01-castillo-centro",
+      "huellas": {
+        "nombre_oficial": "0a9e948d73c1aa0f",
+        "frase_gancho": "242ac4fa4f7ce489",
+        "introduccion_narrativa": "ac0ec7dd38643680"
+      }
+    },
+    {
+      "custom_id": "sala_chi-02-juego-pelota",
+      "tipo": "sala",
+      "id": "chi-02-juego-pelota",
+      "huellas": {
+        "nombre_oficial": "74cdea3bc9be7019",
+        "frase_gancho": "e5485d45c4084031",
+        "introduccion_narrativa": "a59a91d53f2d97ae"
+      }
+    },
+    {
+      "custom_id": "sala_chi-03-cenote-sagrado",
+      "tipo": "sala",
+      "id": "chi-03-cenote-sagrado",
+      "huellas": {
+        "nombre_oficial": "9da429d8027ec26c",
+        "frase_gancho": "9cf6ea89c78d99e1",
+        "introduccion_narrativa": "f75f03f4e7aca219"
+      }
+    },
+    {
+      "custom_id": "sala_chi-04-mil-columnas",
+      "tipo": "sala",
+      "id": "chi-04-mil-columnas",
+      "huellas": {
+        "nombre_oficial": "b6acfc936fcfd1dc",
+        "frase_gancho": "eb4392a9b768f09b",
+        "introduccion_narrativa": "ae67767e955954e8"
+      }
+    },
+    {
+      "custom_id": "sala_chi-05-grupo-osario",
+      "tipo": "sala",
+      "id": "chi-05-grupo-osario",
+      "huellas": {
+        "nombre_oficial": "5a43323475a5b22e",
+        "frase_gancho": "a25d70d73e1bf535",
+        "introduccion_narrativa": "a060250aed18bac5"
+      }
+    },
+    {
+      "custom_id": "sala_chi-06-casa-colorada-caracol",
+      "tipo": "sala",
+      "id": "chi-06-casa-colorada-caracol",
+      "huellas": {
+        "nombre_oficial": "6876e70a02a9da83",
+        "frase_gancho": "d098e2e98a97fa86",
+        "introduccion_narrativa": "6a1659e7dce2caba"
+      }
+    },
+    {
+      "custom_id": "sala_chi-07-monjas",
+      "tipo": "sala",
+      "id": "chi-07-monjas",
+      "huellas": {
+        "nombre_oficial": "ef9bc5b22891c163",
+        "frase_gancho": "f527eda156c47217",
+        "introduccion_narrativa": "f02305f0807c1858"
+      }
+    },
+    {
+      "custom_id": "sala_chi-08-chichen-viejo",
+      "tipo": "sala",
+      "id": "chi-08-chichen-viejo",
+      "huellas": {
+        "nombre_oficial": "180b6439a3cbf623",
+        "frase_gancho": "7638f7688b49334e",
+        "introduccion_narrativa": "7abc541a7e9ae4bf"
+      }
+    },
+    {
+      "custom_id": "sala_chi-09-cierre",
+      "tipo": "sala",
+      "id": "chi-09-cierre",
+      "huellas": {
+        "nombre_oficial": "41ff2fad56b5d305",
+        "frase_gancho": "c2a2c47bbf4f2b81",
+        "introduccion_narrativa": "054b60f79a6db7b9"
+      }
+    }
+  ]
+}
