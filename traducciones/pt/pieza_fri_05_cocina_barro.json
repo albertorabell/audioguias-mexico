@@ -1,0 +1,54 @@
+{
+  "id": "fri_05_cocina_barro",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "89f2ec9c84065314",
+      "texto": "A cozinha: um fogão a lenha"
+    },
+    "frase_gancho": {
+      "hash": "bb3e618ae3787f2f",
+      "texto": "Frida queria uma cozinha como a de uma antiga fazenda, com utensílios de madeira e de barro."
+    },
+    "puente_narrativo": {
+      "hash": "0a3137f3ae8d0945",
+      "texto": "A visita continua pela casa: siga para a próxima parada do seu roteiro."
+    },
+    "guion_corto": {
+      "hash": "12422eea9bd54f19",
+      "texto": "A cozinha da Casa Azul parece saída de outro século, e foi de propósito. Frida queria que ela se parecesse e funcionasse como o fogão de uma antiga fazenda, com utensílios de madeira e de barro. Há panelas e caçarolas penduradas nas paredes, azulejos de Talavera e um fogão a lenha que ela e Diego preferiram ao fogão a gás que já existia. Um de seus pratos favoritos era o mole poblano, e, segundo Frida, Lupe Marín, que tinha sido esposa de Diego antes de Frida, a ensinou a prepará-lo. Na parede, pequenas canecas de barro formam os nomes de Frida e Diego. Aqui se cozinhava e se vivia."
+    },
+    "guion_largo": {
+      "hash": "5a969c502c1ca22b",
+      "texto": "Entre com calma nesta cozinha, porque cada parede tem algo para olhar. Das paredes pendem panelas de barro, caçarolas e colheres de madeira. O fogão está revestido de azulejos de Talavera, com desenhos amarelos e azuis. Há uma mesa que, segundo se conta, era usada pelos empregados da casa.\n\nO museu explica a ideia. Frida queria uma cozinha que se parecesse e funcionasse como o fogão de uma antiga fazenda colonial. Por isso há utensílios de madeira e de barro, e por isso a cozinha se afasta do moderno. Naqueles anos, os fogões a gás já existiam, mas Frida e Diego preferiram o fogão a lenha. Queriam que os guisados tivessem o sabor da cozinha tradicional.\n\nNesta cozinha se preparavam pratos de todo tipo, de origem pré-hispânica, colonial e popular. Um dos favoritos de Frida era o mole poblano. Segundo Frida, Lupe Marín, que tinha sido esposa de Diego antes de Frida, a havia ensinado a preparar moles.\n\nOlhe a parede com atenção. Com pequenas canecas de barro se formam os nomes de Frida e Diego, e entre eles há duas pombas. É um detalhe que pode passar despercebido. Parece a maneira como alguém assina uma carta de amor, mas, em vez de tinta, usa barro e pregos.\n\nNesta cozinha, Frida recebia muita gente e organizava refeições. Por isso a cozinha não é um cômodo de serviço escondido. É o centro da casa. Aqui se misturavam os guisados e as conversas que depois continuavam na sala de jantar.\n\nPara Frida, a comida era outra forma de afirmar o mexicano. Assim como as máscaras da sala de jantar ou os vestidos de tehuana, o mole poblano era uma maneira de dizer de onde ela vinha.\n\nHá muitas peças que vale a pena olhar de perto. Entre as panelas e caçarolas veem-se metates, vasilhas para pulque e molcajetes. O metate é uma pedra para moer o milho, e o molcajete serve para moer pimentas e especiarias. Os azulejos de Talavera são de cerâmica de Puebla, esmaltada e pintada à mão.\n\nO fogão a lenha dá um calor uniforme e um sabor defumado aos guisados, e por isso muitas cozinheiras ainda o preferem. O metate é usado há séculos na Mesoamérica. Estas coisas não são raridades de museu. São ferramentas de uma cozinha que continua viva em muitas casas do México.\n\nAntes de seguir, tente imaginar a fumaça do fogão, as caçarolas fervendo e Frida dando instruções."
+    },
+    "retos_observacion": {
+      "hash": "ffa8ba622af3b654",
+      "texto": [
+        "Procure as pequenas canecas de barro que formam os nomes de Frida e Diego, com as duas pombas",
+        "Repare nos azulejos de Talavera do fogão, em amarelo e azul",
+        "Conte quantas panelas, caçarolas e utensílios de madeira estão pendurados nas paredes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ab28db492bccb34e",
+      "texto": {
+        "Espaço": "cozinha do andar térreo",
+        "Elemento central": "fogão a lenha com azulejos de Talavera",
+        "Utensílios": "panelas e caçarolas de barro, colheres de madeira",
+        "Prato favorito de Frida": "mole poblano"
+      }
+    },
+    "faq_mito": {
+      "hash": "b7e9508b9d7d7263",
+      "texto": {
+        "pregunta": "Mito: Como era artista, Frida não cozinhava nem se interessava pela cozinha.",
+        "respuesta": "Realidade: Ela se importava tanto que projetou a cozinha como um fogão tradicional. A própria Frida contava que Lupe Marín, que tinha sido esposa de Diego antes de Frida, a ensinou a preparar moles."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "fri_00_fachada_azul",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8228df08ee07bd98",
+      "texto": "A Casa Azul vista da rua Londres"
+    },
+    "frase_gancho": {
+      "hash": "f32f859282a44981",
+      "texto": "Pintada de azul por fora e por dentro: foi assim que Carlos Pellicer descreveu esta casa em mil novecentos e cinquenta e cinco."
+    },
+    "puente_narrativo": {
+      "hash": "edd1689016d5ab6b",
+      "texto": "Entre na casa: a visita começa lá dentro, com os quadros e os objetos de Frida."
+    },
+    "guion_corto": {
+      "hash": "1b504df7bded2cdc",
+      "texto": "Esta esquina de Coyoacán viu Frida Kahlo nascer e também a viu morrer. Seu pai, Guillermo Kahlo, um fotógrafo nascido na Alemanha, levantou a casa em mil novecentos e quatro, com os cômodos ao redor de um pátio central. Frida nasceu aqui em seis de julho de mil novecentos e sete, embora preferisse dizer que foi em mil novecentos e dez. Anos depois, Diego Rivera salvou a propriedade pagando as dívidas da família. O poeta Carlos Pellicer a descreveu em mil novecentos e cinquenta e cinco como uma casa pintada de azul, por fora e por dentro. Antes de cruzar a entrada, repare nessa cor. Ela faz parte do modo como Frida e Diego decidiram viver."
+    },
+    "guion_largo": {
+      "hash": "892ac154ffc21efe",
+      "texto": "A casa tem mais de um século. Guillermo Kahlo a construiu em mil novecentos e quatro, na esquina das ruas Londres e Allende. Era um fotógrafo nascido na Alemanha que tinha chegado ao México em mil oitocentos e noventa. Levantou uma casa do seu tempo, com um pátio no centro e os cômodos ao redor, ao estilo da segunda metade do século dezenove. Hoje ela tem cerca de oitocentos metros quadrados construídos, em um terreno de mil e duzentos.\n\nAqui Frida nasceu, em seis de julho de mil novecentos e sete. Ela dizia que tinha nascido em mil novecentos e dez, o ano em que começou a Revolução Mexicana, porque queria se ver como filha daquela época. Aos seis anos, adoeceu de poliomielite, e essa doença deixou sua perna direita mais fina e curta. Depois do acidente de ônibus de mil novecentos e vinte e cinco, voltou a esta casa para se recuperar. Dos seus quarenta e sete anos de vida, viveu aqui trinta e seis.\n\nA propriedade esteve a ponto de se perder. No início dos anos trinta, Diego Rivera pagou as hipotecas e as dívidas que Guillermo Kahlo tinha deixado, e assim resgatou a casa.\n\nEm mil novecentos e trinta e sete, vieram morar aqui Leon Trótski, um revolucionário russo que fugia de Stálin, e sua esposa, Natália Sedova. Para protegê-los, algumas paredes foram fechadas com tijolos e se comprou o terreno vizinho, de mil e quarenta metros quadrados. Ali se plantou o que hoje é o jardim. Os Trótski viveram na casa até mil novecentos e trinta e nove.\n\nO azul é a primeira coisa que qualquer pessoa nota. O poeta Carlos Pellicer, amigo de Frida e de Diego, escreveu em novembro de mil novecentos e cinquenta e cinco que a casa estava pintada de azul, por fora e por dentro, e que parecia guardar um pouco de céu.\n\nQuando Frida morreu, em mil novecentos e cinquenta e quatro, Diego quis que a casa fosse um museu para todos os mexicanos. Em mil novecentos e cinquenta e sete, criou um fideicomisso com o Banco do México para cuidar dela e pediu a Pellicer que preparasse a museografia. A Casa Azul abriu ao público em mil novecentos e cinquenta e oito, quatro anos depois da morte de Frida.\n\nA visita percorre a casa por dentro, como um percurso de vida: as salas de pintura, o ateliê e os quartos, e a sala onde se mostra parte do guarda-roupa de Frida. Dependendo do roteiro que você escolher, também passará pela sala de jantar, pela cozinha e pelo jardim. O ateliê foi encomendado por Diego em mil novecentos e quarenta e seis ao arquiteto Juan O’Gorman.\n\nAo entrar, você verá em um muro azul um nicho com uma frase. Ela diz que Frida e Diego viveram nesta casa de mil novecentos e vinte e nove a mil novecentos e cinquenta e quatro. Embaixo há pequenas esculturas pré-hispânicas. É uma das primeiras coisas que você verá ao cruzar a entrada, e resume bem o que vem a seguir.\n\nHoje, o museu é cuidado pelo Fideicomisso dos Museus Diego Rivera e Frida Kahlo, do Banco do México. Carlos Pellicer foi seu primeiro diretor.\n\nAntes de entrar, olhe a esquina, a cor e o portão. Cada cômodo que vem a seguir guarda uma parte da história que você acabou de ouvir."
+    },
+    "retos_observacion": {
+      "hash": "161a2da9831c1223",
+      "texto": [
+        "Olhe a cor dos muros a partir da calçada. Pellicer a descreveu em mil novecentos e cinquenta e cinco como azul por fora e por dentro",
+        "Repare que a casa parece simples vista da rua. Ela foi feita ao redor de um pátio, e o mais interessante fica para dentro",
+        "Antes de cruzar a entrada, pense que aqui Frida nasceu, viveu quase toda a sua vida e morreu"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4d00cf81f820d23f",
+      "texto": {
+        "Construção": "1904, por Guillermo Kahlo",
+        "Área atual": "cerca de 800 m² construídos em um terreno de 1 200 m²",
+        "Jardim": "terreno vizinho de 1 040 m², comprado em 1937",
+        "Ateliê": "construído em 1946 por Juan O’Gorman",
+        "Museu": "abre em 1958, com museografia de Carlos Pellicer",
+        "Endereço": "Rua Londres, 247, bairro Del Carmen, Coyoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "7987b00110b1d6bf",
+      "texto": {
+        "pregunta": "Mito: Frida Kahlo nasceu em mil novecentos e dez, junto com a Revolução Mexicana.",
+        "respuesta": "Realidade: Ela nasceu em seis de julho de mil novecentos e sete, nesta casa. Foi ela quem mudou o ano para mil novecentos e dez, para se apresentar como filha da Revolução."
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "fri_04_comedor_mexicano",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6b49529913196bf0",
+      "texto": "A sala de jantar: arte popular para usar"
+    },
+    "frase_gancho": {
+      "hash": "039b24c556b3b7f0",
+      "texto": "Aqui se sentaram Trótski, Breton e Eisenstein, cercados de máscaras, barro e vidro soprado."
+    },
+    "puente_narrativo": {
+      "hash": "2bc3f18392edd311",
+      "texto": "Da sala de jantar, dê uma espiada na cozinha, onde se cozinhava sobre um fogão a lenha."
+    },
+    "guion_corto": {
+      "hash": "05bae9fa87152233",
+      "texto": "Olhe os aparadores amarelos e a mesa comprida. Na sala de jantar da Casa Azul, Frida e Diego não colocaram móveis de luxo. Colocaram arte popular mexicana. Há louça de Puebla, de Oaxaca, de Michoacán e do Estado do México, vidro soprado, máscaras e um Judas em forma de esqueleto de toureiro. Mas aquilo não era decoração. Eles colecionaram essas peças e também as usaram. Frida colocava toalhas de mesa de diferentes regiões do país. Por esta mesa passaram visitantes como André Breton, Tina Modotti, Leon Trótski e Serguei Eisenstein. Aqui se entende que, para eles, o México não era um enfeite. Era a vida diária. Olhe com calma cada canto do cômodo."
+    },
+    "guion_largo": {
+      "hash": "e73367196bebce49",
+      "texto": "Esta sala de jantar é um dos cômodos mais alegres da casa. A primeira coisa que se nota é o amarelo dos aparadores, esses móveis com prateleiras onde se guardam pratos e copos. Nas paredes há pinturas populares do século dezenove, com naturezas-mortas e cenas da vida cotidiana. Sobre a mesa e nas estantes se acumulam barro, vidro e papelão.\n\nO museu conta que Frida e Diego se casaram em mil novecentos e vinte e nove e, desde então, colecionaram arte popular mexicana. Com o tempo, reuniram máscaras, figuras de cartonaria e peças de barro. Na sala de jantar há um Judas em forma de esqueleto de toureiro e uma figura de cavalo em duas patas. Há também um prato azul de vidro soprado, em forma de concha. A louça vem de diferentes regiões. A lista inclui Puebla, Oaxaca, Michoacán e o Estado do México, além de vidro de Carretones e de Guadalajara.\n\nO importante é que esses objetos eram usados. Frida colocava toalhas de mesa de diferentes regiões do país, e a mesa era preparada como para receber gente. As peças não ficavam atrás de um vidro. Faziam parte das refeições de todos os dias. Para eles, a arte popular era uma forma de viver, não uma coleção para olhar de longe.\n\nDecorar assim também era uma postura. Pintar a casa de azul, enchê-la de barro e de cartonaria, comer em louça de Oaxaca. Cada decisão colocava o mexicano no centro.\n\nE a esta sala de jantar chegavam pessoas de muitas partes do mundo. O museu menciona André Breton, o poeta francês que impulsionou o surrealismo. Menciona também a fotógrafa Tina Modotti e o diretor de cinema russo Serguei Eisenstein. Menciona Leon Trótski, que viveu na casa com a esposa de mil novecentos e trinta e sete a mil novecentos e trinta e nove. É fácil imaginar longas conversas ao redor desta mesa.\n\nA arte popular é aquela que artesãs e artesãos fazem em suas oficinas, quase sempre para ser usada na vida diária. Uma jarra, um prato, uma máscara ou uma figura de papelão podem ser obras de grande qualidade. Frida e Diego sabiam disso, e por isso os colocaram no centro de sua casa.\n\nOlhe agora para cima, para as estantes. Você verá cores muito fortes, brinquedos, figuras de animais e objetos que parecem pequenos, mas cada um vem de uma oficina e de uma pessoa. Juntos, formam uma espécie de mapa do país."
+    },
+    "retos_observacion": {
+      "hash": "b42572f9de953890",
+      "texto": [
+        "Procure os aparadores amarelos e conte quantos tipos de louça você consegue distinguir",
+        "Encontre o Judas em forma de esqueleto de toureiro e a figura de cavalo em duas patas",
+        "Imagine Trótski, Breton, Modotti e Eisenstein sentados a esta mesma mesa"
+      ]
+    },
+    "especificaciones": {
+      "hash": "628f0f25f7e0ee00",
+      "texto": {
+        "Espaço": "sala de jantar do andar térreo",
+        "Coleção": "arte popular de Puebla, Oaxaca, Michoacán e Estado do México; vidro soprado e cartonaria",
+        "Visitantes mencionados pelo museu": "André Breton, Tina Modotti, Leon Trótski, Serguei Eisenstein"
+      }
+    },
+    "faq_mito": {
+      "hash": "214f7a38c7c86c52",
+      "texto": {
+        "pregunta": "Mito: As peças de arte popular da casa eram apenas para decorar e não eram usadas.",
+        "respuesta": "Realidade: Frida e Diego as colecionaram e as usavam na vida diária. Frida colocava toalhas de mesa de diferentes regiões para receber seus convidados."
+      }
+    }
+  }
+}

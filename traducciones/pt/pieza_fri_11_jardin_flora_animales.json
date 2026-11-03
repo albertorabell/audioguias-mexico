@@ -1,0 +1,54 @@
+{
+  "id": "fri_11_jardin_flora_animales",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "12eb388f42cd7dc9",
+      "texto": "O jardim da Casa Azul"
+    },
+    "frase_gancho": {
+      "hash": "09335901cd8da388",
+      "texto": "Um terreno de mil e quarenta metros quadrados que foi comprado em mil novecentos e trinta e sete para proteger Trotsky."
+    },
+    "puente_narrativo": {
+      "hash": "2c16efd55d1a08be",
+      "texto": "Caminhe pelas trilhas do jardim até a pirâmide vermelha."
+    },
+    "guion_corto": {
+      "hash": "031c481a55bf50de",
+      "texto": "O jardim não fazia parte da casa original. Foi feito em mil novecentos e trinta e sete. Naquele ano, comprou-se o terreno vizinho, de mil e quarenta metros quadrados, e levantaram-se muros para proteger Leon Trotsky, que fugia de Stalin. Hoje há cactos, plantas subtropicais, árvores, fontes e esculturas mesoamericanas. Neste jardim também viveram os animais de Frida. Havia cães xoloitzcuintles, macacos-aranha e papagaios, e ela os pintou em vários quadros. Hoje o jardim é um lugar para descansar, com arte em cada canto e muita sombra para você parar um pouco. Caminhe devagar pelas trilhas de pedra e olhe as esculturas entre as plantas."
+    },
+    "guion_largo": {
+      "hash": "ef1487e521e456f4",
+      "texto": "Este jardim é, na verdade, um terreno que a casa não tinha. Quando Guillermo Kahlo construiu a Casa Azul, em mil novecentos e quatro, existia apenas o pátio central. Em mil novecentos e trinta e sete, Leon Trotsky e sua esposa, Natalia Sedova, chegaram para viver aqui. Para protegê-los da perseguição de Stalin, algumas paredes foram fechadas e comprou-se o terreno vizinho, de mil e quarenta metros quadrados. Ali foi plantado o jardim.\n\nPor isso este espaço tem uma origem política. É o resultado de uma decisão para cuidar de uma pessoa. Com o tempo, tornou-se um lugar para viver, como todo o resto da casa.\n\nOlhe ao redor. Há cactos, plantas subtropicais, árvores, trilhas de pedra e fontes. Em vários cantos foram colocadas esculturas pré-hispânicas das culturas de Mesoamérica. O museu menciona uma escultura de basalto de Chicomecóatl, uma deusa do milho e dos mantimentos, instalada no jardim. Era a maneira de Diego mostrar as peças ao ar livre, como parte da vida e não como objetos de vitrine.\n\nEste jardim também foi o lar de muitos animais. Na vida de Frida houve macacos-aranha, cães xoloitzcuintles, que são cães mexicanos sem pelo, e papagaios. Eles aparecem em seus autorretratos. Um de seus macacos, Fulang-Chang, a acompanha no quadro Fulang-Chang e eu. E um veado jovem chamado Granizo é o protagonista do quadro O veado ferido, no qual ele tem o rosto de Frida. Não eram símbolos inventados. Eram os animais com os quais ela vivia.\n\nO jardim também muda com as épocas do ano e com as exposições. Às vezes se instala uma oferenda para o Dia dos Mortos, com velas e flores de cempasúchil. Se você for nessa temporada, é outra forma de ver a casa.\n\nAparecem esculturas do artista mexicano Mardonio Magaña, que o museu menciona em vários cantos da casa. Um jardim de museu muda com as estações, e por isso não parece igual em todos os meses.\n\nO xoloitzcuintle é um cão sem pelo que já existia no México pré-hispânico. Os macacos-aranha vivem naturalmente nas selvas do México e da América Central, e os papagaios também. Talvez ter esses animais fosse uma maneira de aproximar a natureza e a tradição mexicana da vida diária.\n\nCaminhe devagar. Repare nas trilhas de pedra, nas cores do muro azul e no verde das plantas. É o lugar onde a casa se abre para fora e deixa de ser apenas um museu."
+    },
+    "retos_observacion": {
+      "hash": "9ccb94187b86156d",
+      "texto": [
+        "Procure os cactos e as plantas subtropicais entre as trilhas de pedra",
+        "Repare nas esculturas pré-hispânicas colocadas entre as plantas, como a de Chicomecóatl",
+        "Imagine os xoloitzcuintles, os macacos-aranha e o veado Granizo percorrendo estas trilhas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "20d1bb8f205ba3c1",
+      "texto": {
+        "Terreno do jardim": "1 040 m², comprado em 1937",
+        "Elementos": "cactos, plantas mexicanas, fontes e esculturas mesoamericanas",
+        "Escultura mencionada pelo museu": "Chicomecóatl, de basalto",
+        "Animais de Frida": "xoloitzcuintles, macacos-aranha, papagaios e um veado chamado Granizo"
+      }
+    },
+    "faq_mito": {
+      "hash": "c2ab7e8355700ba3",
+      "texto": {
+        "pregunta": "Mito: Os animais dos autorretratos de Frida eram símbolos inventados que ela nunca teve por perto.",
+        "respuesta": "Realidade: Eram seus animais de estimação. Frida teve macacos-aranha, cães xoloitzcuintles e papagaios, e eles viviam na casa e no jardim."
+      }
+    }
+  }
+}

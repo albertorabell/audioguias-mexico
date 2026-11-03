@@ -1,0 +1,55 @@
+{
+  "id": "fri_09_recamara_dia_espejo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4a7760b98213ca6b",
+      "texto": "O quarto de dia: o espelho sobre a cama"
+    },
+    "frase_gancho": {
+      "hash": "fa427f8e65553349",
+      "texto": "Sua mãe pendurou um espelho sobre a cama para que Frida pudesse se pintar enquanto não conseguia se mover."
+    },
+    "puente_narrativo": {
+      "hash": "04f00442f0dd4b1e",
+      "texto": "Segue-se o quarto de noite, ao lado, onde há borboletas emolduradas e uma urna sobre uma penteadeira."
+    },
+    "guion_corto": {
+      "hash": "5319df7c1a68510b",
+      "texto": "Olhe para cima. Sobre esta cama, sua mãe mandou colocar um espelho depois do acidente de ônibus de setembro de mil novecentos e vinte e cinco. Frida passou então uns nove meses sem conseguir se mover, e começou a pintar nessa convalescença. O espelho lhe permitia se ver. Assim nasceram seus primeiros autorretratos. É uma das histórias mais conhecidas de sua vida, e esta é a cama onde tudo aconteceu. No quarto também há uma máscara de seu rosto, que Diego mandou fazer depois da morte dela. Ao pé da cama há fotografias de Lenin, de Mao e de outros personagens que Frida admirava. Frida passava o dia aqui por causa do repouso."
+    },
+    "guion_largo": {
+      "hash": "da2d1cf77cb9395c",
+      "texto": "Este é o quarto de dia. Frida passava aqui muitas horas por causa de seus períodos de repouso. Você verá uma cama com um espelho em cima e, sobre a colcha, uma máscara de seu rosto. É um quarto pequeno. Ainda assim, foi aqui que a pintora começou.\n\nNo dia dezessete de setembro de mil novecentos e vinte e cinco, Frida viajava em um ônibus que colidiu com um bonde elétrico. Tinha dezoito anos. Uma barra de metal atravessou sua pelve. Ela fraturou a coluna em três lugares, a perna direita em onze, a clavícula e outros ossos. Passou um mês no hospital e depois voltou para a Casa Azul. Ficou imóvel, com um colete de gesso, durante meses. O museu fala de uns nove meses de repouso. No início, ela queria ser médica. Tinha entrado na Escola Nacional Preparatória, onde foi uma das poucas mulheres de sua geração.\n\nDurante essa convalescença, sua família buscou formas de ajudá-la. Sua mãe mandou fazer um cavalete especial, para que ela pudesse pintar deitada. Seu pai lhe emprestou suas tintas a óleo. E sua mãe colocou um grande espelho sobre a cama, para que ela pudesse se ver. Frida explicou isso anos depois. Pintava autorretratos porque passava muito tempo sozinha e porque era o tema que melhor conhecia.\n\nOlhe agora a máscara que está sobre a colcha. Depois da morte de Frida, Diego mandou fazer uma máscara de seu rosto e a colocou neste quarto. É uma imagem quieta, que contrasta com o espelho, que sempre devolve a imagem de quem olha para ele.\n\nAo pé da cama há fotografias de personagens que Frida admirava. Segundo o museu, estão ali Lenin e Mao Tse Tung, junto com outros dirigentes comunistas. Era o que Frida queria ver ao acordar.\n\nNo ônibus daquele dia estava também seu namorado, Alejandro Gómez Arias. A ele ela deu depois seu primeiro autorretrato, o de mil novecentos e vinte e seis. Neste quarto há ainda uma fotografia de Frida pintando. Assim, a imagem do espelho se completa com o retrato da própria pintora trabalhando.\n\nOlhe o quarto como uma cápsula do tempo. Aqui se misturam uma cama, um espelho, uma máscara e retratos de pessoas que Frida admirava. Nessa mistura está o jeito de ser da casa. O íntimo, o político e o artístico convivem no mesmo quarto.\n\nHá uma cena que resume este quarto. Uma jovem de dezoito anos, deitada, com o corpo quebrado, olha seu rosto em um espelho e começa a pintá-lo. Dali saem mais de cinquenta autorretratos. Aqui tudo começou."
+    },
+    "retos_observacion": {
+      "hash": "505bac60164edef3",
+      "texto": [
+        "Olhe o espelho sobre a cama e pense que Frida via a si mesma a partir dessa posição",
+        "Procure a máscara que está sobre a colcha, feita por ordem de Diego depois da morte dela",
+        "Repare nas fotografias emolduradas ao pé da cama e encontre Lenin e Mao"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e8b45b8319b74b0",
+      "texto": {
+        "Espaço": "quarto de dia, andar superior",
+        "Elemento-chave": "cama com espelho colocado por sua mãe após o acidente de 1925",
+        "Máscara": "do rosto de Frida, feita por ordem de Diego Rivera depois da morte dela",
+        "Data do acidente": "17 de setembro de 1925",
+        "Repouso após o acidente": "uns nove meses, segundo o museu"
+      }
+    },
+    "faq_mito": {
+      "hash": "f0e4340994bde534",
+      "texto": {
+        "pregunta": "Mito: Frida colocou o espelho sobre a cama para poder se pintar.",
+        "respuesta": "Realidade: O espelho foi ideia de sua mãe, que também mandou fazer um cavalete para pintar deitada. Frida aproveitou esse espelho para pintar seus primeiros autorretratos."
+      }
+    }
+  }
+}

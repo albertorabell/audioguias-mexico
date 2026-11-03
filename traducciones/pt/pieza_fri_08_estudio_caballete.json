@@ -1,0 +1,54 @@
+{
+  "id": "fri_08_estudio_caballete",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "27d778d22f52e3c0",
+      "texto": "O estúdio de Frida"
+    },
+    "frase_gancho": {
+      "hash": "8dfd4b5c4fd9cc4a",
+      "texto": "Um cavalete presenteado por Nelson Rockefeller, pensado para pintar de uma cadeira de rodas."
+    },
+    "puente_narrativo": {
+      "hash": "e0266b625565bfb8",
+      "texto": "Passe do estúdio para o quarto de dia, onde há uma cama com um espelho em cima."
+    },
+    "guion_corto": {
+      "hash": "068be53a3678f498",
+      "texto": "O estúdio de Frida é um cômodo iluminado e organizado. Foi construído pelo arquiteto Juan O’Gorman em mil novecentos e quarenta e seis, por encomenda de Diego Rivera, e não fazia parte da casa original. Aqui está o cavalete dela, um presente do empresário Nelson Rockefeller, com mecanismos para subir e descer a tela quando Frida pintava de sua cadeira de rodas. Também estão aqui seus pincéis, suas tintas e seus livros de poesia, arte, geografia, biologia e medicina. Se você olhar bem, vai descobrir frascos de verniz e de perfume que ela reutilizava como recipientes de tinta. É um espaço feito para trabalhar. É um cômodo onde se trabalhou de verdade."
+    },
+    "guion_largo": {
+      "hash": "8043355b1d5ee220",
+      "texto": "Este é o cômodo mais iluminado da casa. Ele não existia quando Guillermo Kahlo construiu a Casa Azul. Em mil novecentos e quarenta e seis, Diego Rivera pediu ao arquiteto Juan O’Gorman que construísse um estúdio para Frida. O’Gorman usou pedra vulcânica, basalto, a mesma que os antigos mexicanos usaram em suas pirâmides, e deu a ele um projeto simples e funcional. Depois, Frida e Diego o decoraram com mosaicos nos tetos, caracóis nas paredes e jarros embutidos que servem de ninho para pombas.\n\nOlhe o cavalete. É um presente de Nelson Rockefeller, um empresário estadunidense. Tem mecanismos que permitiam ajustar a altura da tela quando Frida pintava de sua cadeira de rodas. A cadeira de rodas dela também foi conservada. O estúdio foi pensado para o corpo dela, e não o contrário.\n\nNas mesas e nas prateleiras você verá seus pincéis e suas tintas. Frida reutilizava frascos de verniz e de perfume como recipientes para suas cores. Misturava o cotidiano com o trabalho do ateliê. Esse hábito de aproveitar o que havia à mão aparece em toda a casa.\n\nAs estantes guardavam livros de poesia, de arte, de geografia, de biologia e de medicina. A medicina não era um tema distante para ela. Quis estudar para ser médica, e a vida lhe deu décadas de hospitais. Os livros de anatomia e de biologia ajudam a entender por que seus quadros mostram órgãos, ossos e fetos com tanta precisão. Há também algumas peças pré-hispânicas e arquivos de papelão que Frida decorou. Nas lombadas veem-se cartões de um jogo popular mexicano.\n\nFrida pintava aqui, mas não só na tela. Sabe-se que também pintou em cadernos, nas margens dos livros, em suas roupas e em seus coletes ortopédicos. Tudo servia de superfície.\n\nJuan O’Gorman foi arquiteto, pintor e amigo de Diego. Também projetou as casas que Diego e Frida tiveram em San Ángel. No estúdio da Casa Azul conservam-se ainda as paletas dela, suas tintas e os espelhos que usava para fazer seus autorretratos. Com esses objetos, o cômodo continua sendo um ateliê.\n\nFrida lia muito: também havia livros de história, literatura e filosofia. Uma pintora que entende de anatomia, de política e de poesia não se limita a pintar o que vê. Pinta o que pensa.\n\nOlhe também as janelas e a luz, que mudam ao longo do dia. Um estúdio de pintor precisa de boa luz natural, e este foi projetado para isso.\n\nEnquanto percorre o estúdio, tente ver os detalhes. Um jarro, um pincel, um livro aberto. Aqui não há uma cena preparada. Há um ateliê que foi usado todos os dias, até os últimos meses de sua vida."
+    },
+    "retos_observacion": {
+      "hash": "112c4226d8a2c54a",
+      "texto": [
+        "Procure o cavalete e observe os mecanismos que permitiam ajustar a altura da tela",
+        "Encontre a cadeira de rodas e imagine Frida diante do cavalete",
+        "Olhe os frascos de verniz e de perfume que Frida reutilizava como recipientes para suas tintas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b8fe1f7352bdcb0e",
+      "texto": {
+        "Construção": "1946, por Juan O’Gorman, por encomenda de Diego Rivera",
+        "Material": "basalto, pedra vulcânica",
+        "Objetos": "cavalete de Nelson Rockefeller, cadeira de rodas, pincéis, tintas e livros",
+        "Decoração": "mosaicos no teto, caracóis nas paredes e jarros como ninhos de pombas"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e6d0b55f62a36b2",
+      "texto": {
+        "pregunta": "Mito: Quando Frida passou a usar cadeira de rodas, parou de pintar.",
+        "respuesta": "Realidade: Ela não parou de pintar. Seu cavalete tinha mecanismos para ajustar a altura da tela enquanto ela trabalhava da cadeira de rodas, e continuou pintando até o último ano de sua vida."
+      }
+    }
+  }
+}

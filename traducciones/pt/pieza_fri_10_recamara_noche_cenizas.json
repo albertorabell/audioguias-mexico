@@ -1,0 +1,55 @@
+{
+  "id": "fri_10_recamara_noche_cenizas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "816ef170dfc45b3b",
+      "texto": "O quarto de dormir e as cinzas de Frida"
+    },
+    "frase_gancho": {
+      "hash": "34bee29ddcb02f37",
+      "texto": "Uma urna pré-hispânica em forma de sapo guarda suas cinzas sobre uma penteadeira."
+    },
+    "puente_narrativo": {
+      "hash": "479447b6b5422348",
+      "texto": "Respire um momento antes de sair dos quartos e siga para a próxima parada do seu roteiro."
+    },
+    "guion_corto": {
+      "hash": "8934f49f812a1b21",
+      "texto": "No quarto de dormir, Frida descansava quando o dia terminava. Há borboletas emolduradas, um presente do escultor Isamu Noguchi, um retrato de Frida feito pelo fotógrafo Nickolas Muray e objetos de papel machê que ela e Diego apreciavam. Sobre uma penteadeira está uma urna pré-hispânica em forma de sapo. Dentro estão as cinzas de Frida, que morreu nesta casa em treze de julho de mil novecentos e cinquenta e quatro, aos quarenta e sete anos. Seu corpo foi velado no Palácio de Belas Artes e depois foi cremado. Suas cinzas hoje são guardadas na casa onde ela nasceu. Olhe primeiro a urna e depois as borboletas."
+    },
+    "guion_largo": {
+      "hash": "8bcf76f317d7966c",
+      "texto": "O quarto de dormir tem algo diferente do resto da casa. É um cômodo quieto, cheio de objetos pequenos. O museu fala de uma coleção de borboletas emolduradas, um presente do escultor Isamu Noguchi, e de um retrato fotográfico de Frida feito por Nickolas Muray. Também há brinquedos e objetos de papel machê, que Frida e Diego apreciavam muito. Alguns guias mencionam ainda bonecas, que Frida colecionava.\n\nSobre uma penteadeira repousa uma urna pré-hispânica em forma de sapo. Dentro estão as cinzas de Frida. O museu a descreve como uma urna sobre uma penteadeira que funciona como altar. Não é um túmulo, nem um monumento. É um objeto de barro de um povo antigo, colocado na casa onde ela viveu.\n\nFrida morreu em treze de julho de mil novecentos e cinquenta e quatro, por volta das seis da manhã, aos quarenta e sete anos. A causa oficial foi uma embolia pulmonar. Onze dias antes, em dois de julho, ela havia participado de uma marcha de protesto em cadeira de rodas.\n\nSeu corpo foi velado no Palácio de Belas Artes. O caixão foi coberto com a bandeira do Partido Comunista Mexicano. Esse gesto causou um escândalo político, e o diretor do Instituto Nacional de Belas Artes, Andrés Iduarte, foi demitido por permiti-lo. No dia seguinte houve um funeral no Panteón Civil de Dolores, e seu corpo foi cremado.\n\nHoje suas cinzas são guardadas na casa onde ela nasceu. Por isso muitas pessoas entram aqui com uma mistura de curiosidade e respeito.\n\nA urna em forma de sapo tem outra leitura possível. Diz-se que Frida chamava Diego de seu sapo-rã. E, para várias culturas do México antigo, os sapos e as rãs estavam associados à água e à chuva. São leituras possíveis, não uma explicação que o museu dê para a urna.\n\nDiego morreu em mil novecentos e cinquenta e sete, três anos depois de Frida, no mesmo ano em que criou o fideicomisso que cuida da casa. Alguns guias falam ainda de mais de quarenta bonecas neste quarto, embora o número possa mudar conforme a forma de exibi-las.\n\nTodo ano, no Dia dos Mortos, a Casa Azul monta uma oferenda dedicada a Frida. É uma maneira de lembrá-la com flores, velas e objetos, segundo a tradição mexicana. Se você visitar o museu nessas datas, talvez a veja.\n\nFique um momento em silêncio, sem procurar mais nada. Esta é a casa onde Frida começou e terminou sua história."
+    },
+    "retos_observacion": {
+      "hash": "a7d4e04fed600565",
+      "texto": [
+        "Procure sobre a penteadeira a urna pré-hispânica em forma de sapo, que contém as cinzas de Frida",
+        "Olhe as borboletas emolduradas e lembre-se de que foram um presente de Isamu Noguchi",
+        "Encontre o retrato fotográfico de Frida feito por Nickolas Muray"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e2e2494855a7e674",
+      "texto": {
+        "Espaço": "quarto de dormir, Andar Superior",
+        "Urna": "peça pré-hispânica em forma de sapo, sobre uma penteadeira",
+        "Coleção": "borboletas emolduradas, presente de Isamu Noguchi; retrato de Frida por Nickolas Muray; brinquedos e objetos de papel machê",
+        "Falecimento": "13 de julho de 1954, aos 47 anos",
+        "Funeral": "velório no Palácio de Belas Artes; funeral no Panteón Civil de Dolores"
+      }
+    },
+    "faq_mito": {
+      "hash": "ab755b149753625e",
+      "texto": {
+        "pregunta": "Mito: Frida Kahlo está enterrada na Rotonda das Pessoas Ilustres ou em um cemitério.",
+        "respuesta": "Realidade: Ela foi cremada depois de seu funeral no Panteón Civil de Dolores. Suas cinzas são guardadas em uma urna pré-hispânica na Casa Azul."
+      }
+    }
+  }
+}

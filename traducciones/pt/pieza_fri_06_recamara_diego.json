@@ -1,0 +1,54 @@
+{
+  "id": "fri_06_recamara_diego",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "256da2c7a1777709",
+      "texto": "O quarto de Diego"
+    },
+    "frase_gancho": {
+      "hash": "37ff5e2a86f01353",
+      "texto": "Um quarto pequeno que Frida preparou para um homem de um metro e noventa."
+    },
+    "puente_narrativo": {
+      "hash": "1f413a10fc88c5d8",
+      "texto": "Saindo do quarto de Diego, pegue a escada de pedra que sobe até o ateliê. Nas paredes, há pequenos quadros de folha de metal."
+    },
+    "guion_corto": {
+      "hash": "96a5d784c6bab616",
+      "texto": "Este quarto é pequeno e simples, e Frida o preparou para Diego. Ele tinha um metro e noventa de altura e, durante o dia, gostava de aproveitar a luz da casa e do jardim. Aqui se conservam suas roupas de manta, seus chapéus e suas bengalas de Apizaco. Há também pinturas de Mariano Silva Vandeira. Frida e Diego se casaram em mil novecentos e vinte e nove, se divorciaram em mil novecentos e trinta e nove e voltaram a se casar em mil novecentos e quarenta. Nunca viveram como um casal convencional. Cada um tinha seu espaço, e este quarto mostra isso. É um quarto simples, e por isso diz muito. Olhe o cabideiro e a luz que entra no quarto."
+    },
+    "guion_largo": {
+      "hash": "f92c6b5f0d196591",
+      "texto": "Diferente da sala de jantar, aqui quase não há nada que surpreenda. Há uma cama simples, um cabideiro com chapéus, roupas e alguns objetos pessoais. Mas é justamente isso que é interessante. É o quarto onde dormia um dos pintores mais importantes do México, e é de uma simplicidade que surpreende.\n\nO museu conta que Frida preparou este quarto para que Diego dormisse. Ele tinha um metro e noventa de altura. Durante o dia, Diego aproveitava a luz da casa e do jardim. Conservam-se suas roupas de manta, seus chapéus e suas bengalas de Apizaco. Também há uma caixa de madeira laqueada de Michoacán, uma foto de Frida e pinturas de Mariano Silva Vandeira, entre elas Eva no paraíso.\n\nPara entender a história deste quarto, é preciso conhecer a vida do casal. Eles se casaram em mil novecentos e vinte e nove. Diego era mais de vinte anos mais velho que Frida e já era famoso. Divorciaram-se em mil novecentos e trinta e nove e voltaram a se casar em oito de dezembro de mil novecentos e quarenta. Mesmo assim, nunca viveram como um casal convencional. Em San Ángel, tinham duas casas distintas, ligadas por uma ponte. Na Casa Azul, cada um tinha seu próprio espaço.\n\nDiego também colecionava arte pré-hispânica, e dessa paixão nasceu o Museo Anahuacalli. Você o verá com mais detalhes junto à pirâmide do jardim.\n\nDiego Rivera nasceu em Guanajuato em mil oitocentos e oitenta e seis e morreu em vinte e quatro de novembro de mil novecentos e cinquenta e sete, três anos depois de Frida. Pintou grandes murais em edifícios públicos, como o Palácio Nacional, na Cidade do México. Sua arte cobria paredes enormes. Aqui, em contraste, ele dorme numa cama simples.\n\nEsse contraste faz parte do encanto do quarto. Um homem muito grande, de ideias grandes, com um espaço pequeno e tranquilo na casa da mulher que amava.\n\nOlhe o cabideiro outra vez. Quando uma pessoa morre, as coisas que ficam falam do seu jeito de viver. Aqui há chapéus, bengalas e um quarto aberto à luz. É o retrato de um homem grande que não precisava de muito para se sentir em casa."
+    },
+    "retos_observacion": {
+      "hash": "385c471d9892aeb9",
+      "texto": [
+        "Repare no tamanho da cama e lembre-se de que Diego tinha um metro e noventa de altura",
+        "Procure o cabideiro com seus chapéus, as roupas de manta e as bengalas de Apizaco",
+        "Olhe a luz que entra no quarto e pense no que o museu diz: durante o dia, Diego aproveitava a luz da casa e do jardim"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c2cec2fbfae03fec",
+      "texto": {
+        "Espaço": "quarto de Diego, andar térreo",
+        "Objetos": "roupas de manta, chapéus e bengalas de Apizaco, caixa de madeira laqueada de Michoacán",
+        "Pinturas": "obras de Mariano Silva Vandeira",
+        "Casamento": "1929; divórcio: 1939; segundo casamento: 8 de dezembro de 1940"
+      }
+    },
+    "faq_mito": {
+      "hash": "2584c00d58f4b5df",
+      "texto": {
+        "pregunta": "Mito: Diego Rivera e Frida Kahlo dividiam o mesmo quarto a vida toda.",
+        "respuesta": "Realidade: Sempre tiveram espaços separados. Em San Ángel viviam em duas casas ligadas por uma ponte, e na Casa Azul Frida preparou este quarto para Diego."
+      }
+    }
+  }
+}
