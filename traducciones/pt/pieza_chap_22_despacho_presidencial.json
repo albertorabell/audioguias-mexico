@@ -1,0 +1,62 @@
+{
+  "id": "chap_22_despacho_presidencial",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "107ddb46a2147314",
+      "texto": "Gabinete do Presidente, telefone e elevadores"
+    },
+    "frase_gancho": {
+      "hash": "f16c02b0c5300575",
+      "texto": "Deste castelo foi feita a primeira transmissão telefônica experimental do México, e um presidente exibiu aqui dois elevadores."
+    },
+    "puente_narrativo": {
+      "hash": "72d036445534dc65",
+      "texto": "Continue pelo percurso até sair para o jardim interno do Alcázar. Ali esperam por você corredores leves, com colunas de ferro e ar livre."
+    },
+    "guion_corto": {
+      "hash": "27be743aa7850d61",
+      "texto": "A lista telefônica da Cidade do México, no fim do século dezenove, tinha apenas oito folhas. No país inteiro havia mais de cinco mil aparelhos. Mesmo assim, em dezesseis de setembro de mil oitocentos e setenta e oito, foi feita neste castelo a primeira transmissão telefônica experimental do México. A voz do presidente Porfirio Díaz foi ouvida ao mesmo tempo aqui e no Palácio Nacional. Díaz também exibiu modernidade com dois elevadores, um elétrico e outro hidráulico. E seu gabinete era, segundo o museu, um lugar de leitura, com livros de história e de leis. Telégrafo, telefone e estudo conviviam na residência do presidente."
+    },
+    "guion_largo": {
+      "hash": "b88dedd3106bf020",
+      "texto": "Este gabinete mudou de uso várias vezes. Segundo as legendas do museu, por volta de mil oitocentos e sessenta e seis foi o estúdio de Carlota, no tempo da residência de Maximiliano. Em mil oitocentos e setenta e sete, quando o castelo abrigou o Observatório Nacional, serviu como departamento meteorológico. Em mil novecentos e seis aparece como o salão verde da residência de Díaz. O que você vê é mais uma camada de uma longa história. A imperatriz você pode conhecer em seu [quarto](chap_18_recamara_carlota).\n\nPorfirio Díaz chegou à presidência depois de uma vida militar, mas sua formação começou nas salas de aula. Cursou o ensino médio no Seminário Tridentino de sua Oaxaca natal e estudou Direito nessa mesma cidade. A legenda do gabinete conta que ele reuniu uma biblioteca. Havia obras de história e de jurisprudência, além de textos que exaltavam a paz e o progresso de seu governo. O museu destaca que ele sempre encontrou momentos para a leitura e o estudo. É um matiz útil para olhar um personagem que costuma ser lembrado sobretudo por suas campanhas e por seus longos anos no poder.\n\nO segundo fio desta história é a comunicação. Em mil oitocentos e setenta e oito, o Observatório Nacional foi instalado no castelo. Um de seus cômodos recebeu instalações telegráficas que ligavam o presidente ao restante do país. Nesse mesmo ano aconteceu a primeira transmissão telefônica experimental no México, entre este edifício e o Palácio Nacional. A legenda ressalta que haviam se passado apenas dois anos desde a invenção do telefone nos Estados Unidos. Outra legenda lembra que, em mil novecentos e seis, uma sala vizinha se chamava, justamente, a sala do telefone.\n\nO terceiro símbolo de modernidade são os elevadores. O museu explica que Díaz ostentou modernidade com dois deles. Um era elétrico, fabricado na França, com cabine de aço e vidro, e ligava as cozinhas aos dois andares de quartos e salões. O outro era hidráulico. Desde mil oitocentos e noventa e seis, ligou a base do morro ao primeiro andar e ao jardim do Alcázar. A novidade não começou com Díaz. A legenda da escada interna, aberta durante a presidência de Manuel González, menciona um elevador elétrico exclusivo do presidente e de sua família.\n\nCom tanta técnica, poderia se pensar que aqui se governava todos os dias, mas as fontes do museu contam outra coisa. A família presidencial vivia a maior parte do ano na rua La Cadena, hoje Venustiano Carranza. Díaz despachava no Palácio Nacional e frequentava o castelo sobretudo no verão, quando era adaptado para bailes e recepções.\n\nDepois de Díaz, outros presidentes usaram o Alcázar. A legenda do Salão de Acordos menciona Manuel González em mil oitocentos e oitenta e dois. Também Abelardo Rodríguez em mil novecentos e trinta e dois. A etapa termina com Lázaro Cárdenas. Ele transferiu sua residência oficial para Los Pinos e entregou o castelo ao povo mexicano em mil novecentos e trinta e nove. O Museu Nacional de História abriu suas portas em mil novecentos e quarenta e quatro.\n\nPara seguir o rastro da época, a [Escada dos Leões](chap_13_escalera_leones) nasceu quando o terraço foi ampliado para o observatório. Depois, Díaz impulsionou sua transformação. E os [vitrais](chap_14_vitrales_emplomados), encomendados em Paris por volta de mil novecentos, mostram o gosto do presidente por exibir o que havia de mais novo em seu tempo."
+    },
+    "retos_observacion": {
+      "hash": "4cc23dd159cbff74",
+      "texto": [
+        "Repare na luz e nas janelas do aposento: aqui funcionou o estúdio de Carlota e depois os escritórios do observatório",
+        "Se você vir estantes com livros, pense na biblioteca de história e de leis que Díaz reuniu",
+        "Se houver à vista algum acesso, placa ou legenda sobre o antigo elevador, leia-o e pense em como a vida mudou no morro"
+      ]
+    },
+    "especificaciones": {
+      "hash": "18680783289b8569",
+      "texto": {
+        "Espaço": "Gabinete do Presidente, Andar Superior do Alcázar",
+        "Usos anteriores segundo o museu": "Estúdio de Carlota (1866) e departamento meteorológico do observatório (1877)",
+        "Primeira transmissão telefônica experimental no México": "16 de setembro de 1878, entre El Castillo e o Palácio Nacional",
+        "Elevador hidráulico": "desde 1896, do pé do morro ao primeiro andar e ao jardim do Alcázar",
+        "Elevador elétrico": "fabricado na França, com cabine de aço e vidro"
+      }
+    },
+    "faq_mito": {
+      "hash": "59e48156304143e9",
+      "texto": {
+        "pregunta": "Mito: Porfirio Díaz governava o México todos os dias a partir deste gabinete do Castelo de Chapultepec.",
+        "respuesta": "Realidade: Segundo as legendas do museu, a família presidencial vivia a maior parte do ano na rua La Cadena, hoje Venustiano Carranza, e Díaz despachava no Palácio Nacional; o castelo era usado sobretudo no verão para bailes e recepções."
+      }
+    }
+  }
+}

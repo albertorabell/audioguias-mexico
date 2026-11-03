@@ -1,0 +1,59 @@
+{
+  "id": "chap_25_terraza_ninos_heroes",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "aa4dfea33dbed2f7",
+      "texto": "Terraço e memória dos Meninos Heróis"
+    },
+    "frase_gancho": {
+      "hash": "50a141a01cdacfee",
+      "texto": "Todo dia treze de setembro, seis nomes são lembrados; os historiadores separam o que está documentado do que a lenda acrescentou."
+    },
+    "puente_narrativo": {
+      "hash": "c2471779be950390",
+      "texto": "Caminhe agora até o mirante do lado leste do Alcázar. Dali encerraremos a visita, com a cidade e o traçado do Paseo de la Reforma à sua frente."
+    },
+    "guion_corto": {
+      "hash": "9463a46f4ef6a019",
+      "texto": "Oitocentos e trinta e dois defensores contra mais de sete mil atacantes. São os números apresentados por um instituto de história do governo do México para o dia treze de setembro de mil oitocentos e quarenta e sete. Depois de dois dias de bombardeio, o general Nicolás Bravo ordenou que cerca de cem cadetes saíssem do castelo, porque os reforços não chegavam. Cerca de metade ficou para combater. Desse grupo, seis nomes são lembrados: Juan de la Barrera, Juan Escutia, Agustín Melgar, Fernando Montes de Oca, Vicente Suárez e Francisco Márquez. O sacrifício deles está documentado em arquivos. Alguns detalhes da lenda, por outro lado, continuam sendo discutidos entre os historiadores."
+    },
+    "guion_largo": {
+      "hash": "e79e1dae5030542b",
+      "texto": "Na manhã do dia treze de setembro de mil oitocentos e quarenta e sete, o castelo já estava havia dois dias sob bombardeio. Segundo o Instituto Nacional de Estudos Históricos das Revoluções do México, às seis horas o general Nicolás Bravo mandou os cadetes saírem. Ele havia pedido ajuda ao general Santa Anna uma vez após a outra, e a ajuda não chegava. A única força que acudiu foi o Batalhão de San Blas, que tentou deter o avanço ao pé da primeira rampa. Quase todos os seus homens morreram, inclusive seu chefe, Felipe Santiago Xicoténcatl, às nove e meia. Você pode ampliar o contexto da guerra na parada da [intervenção de mil oitocentos e quarenta e sete](chap_08_intervencion_1847).\n\nEntre os que ficaram estavam os seis jovens cujos nomes a tradição recorda. Segundo os historiadores, Francisco Márquez e Vicente Suárez tinham por volta de catorze anos. Agustín Melgar e Fernando Montes de Oca, dezoito. Juan de la Barrera, dezenove, e Juan Escutia, vinte. As idades variam de uma fonte para outra, e o próprio instituto aponta que são aproximadas.\n\nConvém separar o que está documentado do que é discutido. O instituto afirma que há respaldo documental para vários fatos. São as solicitações dos cadetes, as ordens de retirada e a morte de Xicoténcatl e de seis cadetes. Ele se apoia em arquivos e em um discurso de mil oitocentos e cinquenta e um do general Joaquín Rangel. Em contrapartida, a imagem de Juan Escutia envolto na bandeira tem sido questionada. O historiador Alejandro Rosas sustenta que Escutia morreu baleado junto com Márquez e Montes de Oca quando tentavam fugir em direção ao Jardim Botânico. Salvador Rueda Smithers, historiador do Museu Nacional de História, situa a origem da lenda no tenente Margarito Zuazo. Zuazo combateu em Molino del Rey cinco dias antes.\n\nHá outro nome que conecta este lugar ao restante do percurso. Miguel Miramón ingressou no Colégio Militar em mil oitocentos e quarenta e seis. Combateu em Molino del Rey e na defesa de Chapultepec, foi ferido no rosto e feito prisioneiro no dia treze de setembro. Ele é contado entre os defensores daquele dia, embora não entre os seis. Com os anos, foi presidente da República, em mil oitocentos e cinquenta e nove. No dia dezenove de junho de mil oitocentos e sessenta e sete, foi fuzilado no Cerro de las Campanas. Acompanharam-no [Maximiliano](chap_20_recamara_maximiliano) e Tomás Mejía.\n\nA memória posterior também tem a sua história. Segundo Rosas, um século depois da batalha, seis crânios foram encontrados em escavações ao pé do morro. Foram atribuídos aos seis jovens sem comprovação científica nem documental. Com o respaldo do INAH e do presidente Miguel Alemán, os restos foram depositados no Altar da Pátria. Este foi inaugurado em mil novecentos e cinquenta e dois. Isso não diminui o valor do que aconteceu naquele dia, mas ajuda a entender como se formou a memória oficial.\n\nRosas insiste em um último ponto: todos os que caíram naquela defesa devem ser lembrados, não apenas seis. Conhecer a discussão dos historiadores e respeitar os jovens que ficaram não se contradizem. As duas coisas ajudam a imaginar melhor aquela manhã no alto do morro."
+    },
+    "retos_observacion": {
+      "hash": "27d2ed938ab758f9",
+      "texto": [
+        "Repare na altura do morro e nas encostas que cercam os terraços, por onde chegaram os atacantes",
+        "Se você encontrar placas ou inscrições comemorativas nesta área, leia os nomes que aparecem",
+        "Procure ver para onde se domina o vale daqui: por isso o lugar era estratégico"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d2173308dd08462f",
+      "texto": {
+        "Data": "13 de setembro de 1847",
+        "Chefe da defesa": "general Nicolás Bravo",
+        "Defensores e atacantes": "832 mexicanos contra mais de 7 000 estadunidenses, segundo o INEHRM",
+        "Batalhão de San Blas": "seu chefe, Felipe Santiago Xicoténcatl, morreu nesse dia",
+        "Seis nomes da tradição": "Juan de la Barrera, Juan Escutia, Agustín Melgar, Fernando Montes de Oca, Vicente Suárez e Francisco Márquez"
+      }
+    },
+    "faq_mito": {
+      "hash": "388c1913ebe0c840",
+      "texto": {
+        "pregunta": "Mito: Juan Escutia se lançou no vazio envolto na bandeira para que ela não caísse em mãos inimigas.",
+        "respuesta": "Realidade: O historiador Alejandro Rosas sustenta que Escutia morreu baleado enquanto tentava fugir, e Salvador Rueda Smithers, do Museu Nacional de História, situa a origem da imagem no feito do tenente Margarito Zuazo em Molino del Rey; o que está documentado é a morte de seis cadetes naquele dia."
+      }
+    }
+  }
+}

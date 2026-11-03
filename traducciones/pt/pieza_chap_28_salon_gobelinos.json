@@ -1,0 +1,56 @@
+{
+  "id": "chap_28_salon_gobelinos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5246c8622a6c01fd",
+      "texto": "O Salão dos Gobelinos"
+    },
+    "frase_gancho": {
+      "hash": "09ceebeb2c461b0a",
+      "texto": "Um conjunto de aveleira e tapeçarias que Napoleão III presenteou a Maximiliano, e quatro retratos de dois casais de monarcas."
+    },
+    "puente_narrativo": {
+      "hash": "411fd8fa951161ca",
+      "texto": "Siga para o Quarto de Carlota, a imperatriz que governou quando o marido estava longe."
+    },
+    "guion_corto": {
+      "hash": "a582dd68048f1934",
+      "texto": "Esta sala se chama Salão dos Gobelinos, e a legenda a intitula Nostalgia pela Europa. Ela abriga um conjunto de assentos de madeira de aveleira, de estilo Luís Quinze, com estofado de Aubusson com as fábulas de La Fontaine, presente pessoal de Napoleão Terceiro a Maximiliano. Nas paredes estão pendurados quatro retratos pintados por Albert Graefle em mil oitocentos e sessenta e cinco, e há dois pianos, um francês e outro inglês."
+    },
+    "guion_largo": {
+      "hash": "f3cd2ce0bd404558",
+      "texto": "Quando Maximiliano e Carlota se instalaram em Chapultepec, trouxeram para o México um pedaço da Europa. A legenda desta sala diz isso em seu título: Nostalgia pela Europa.\n\nO mais valioso é um conjunto de assentos de madeira de aveleira, de estilo Luís Quinze, com estofado de Aubusson. No estofado aparecem as fábulas de Jean de La Fontaine, o autor francês das rãs, das raposas e dos corvos. Não foi uma compra: foi um presente pessoal do imperador Napoleão Terceiro a Maximiliano.\n\nOlhe agora para as paredes. Há quatro retratos pintados por Albert Graefle em mil oitocentos e sessenta e cinco: Maximiliano, Carlota, Napoleão Terceiro e sua esposa, Eugênia de Montijo. Os monarcas franceses foram os tutores políticos do casal imperial. São dois casais na mesma parede: o que governava o México e o que o havia colocado no trono.\n\nNa sala há ainda dois pianos, um francês e outro inglês, que pertenceram pessoalmente a Maximiliano e a Carlota.\n\nEste cômodo nem sempre foi um salão. A legenda traz um quadro, Este espaço em outros tempos, que enumera seus usos. Em mil oitocentos e sessenta e seis eram alojamentos de empregados e guarda-roupa. Em mil oitocentos e setenta e sete foi o quarto do diretor do observatório. Em mil oitocentos e oitenta e dois, com o presidente Manuel González, foi o quarto da governanta. E em mil novecentos e seis, com Porfirio Díaz, transformou-se na Sala Baixa. Quatro épocas, quatro ofícios, e um conjunto de aveleira que hoje os reúne.\n\nNão o confunda com o vizinho [Salão dos Embaixadores](chap_17_salon_embajadores), que conta outra história. A próxima parada é o [quarto de Carlota](chap_18_recamara_carlota), a imperatriz que viajou à Europa para pedir ajuda quando o Império desmoronava."
+    },
+    "retos_observacion": {
+      "hash": "bc21a04080b9faba",
+      "texto": [
+        "Procure os quatro retratos de Albert Graefle e reconheça os dois casais de monarcas",
+        "Localize os dois pianos, um francês e outro inglês",
+        "Observe o estofado dos assentos: são cenas das fábulas de La Fontaine"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1ab09abec71f2720",
+      "texto": {
+        "Nome na legenda": "Salão dos Gobelinos (Nostalgia pela Europa)",
+        "Retratos": "Albert Graefle, 1865 (Maximiliano, Carlota, Napoleão III e Eugênia de Montijo)",
+        "Pianos": "um francês e outro inglês",
+        "Assentos": "madeira de aveleira, estilo Luís XV, estofado de Aubusson com fábulas de La Fontaine",
+        "Origem": "presente pessoal de Napoleão III a Maximiliano",
+        "Usos anteriores": "1866 guarda-roupa e empregados; 1877 diretor do observatório; 1882 governanta; 1906 Sala Baixa"
+      }
+    },
+    "faq_mito": {
+      "hash": "19aa53acaa4f7c55",
+      "texto": {
+        "pregunta": "Mito: Os móveis deste salão foram comprados por Maximiliano para impressionar os embaixadores.",
+        "respuesta": "Realidade: O conjunto de aveleira com estofado de Aubusson foi um presente pessoal de Napoleão III a Maximiliano. O Salão dos Embaixadores é outra sala, da época de Porfirio Díaz."
+      }
+    }
+  }
+}

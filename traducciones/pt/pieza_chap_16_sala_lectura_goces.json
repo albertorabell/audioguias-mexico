@@ -1,0 +1,59 @@
+{
+  "id": "chap_16_sala_lectura_goces",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "c3af75998b97aa20",
+      "texto": "Sala de Leitura e Salão de Jogos"
+    },
+    "frase_gancho": {
+      "hash": "9817d7d29f811f67",
+      "texto": "Tapeçarias francesas mostram piões e bilboquês, e a Sala de Leitura foi antes uma sala de bilhar."
+    },
+    "puente_narrativo": {
+      "hash": "c6da8431408543e9",
+      "texto": "Siga para o Salão de Embaixadores, a sala das recepções diplomáticas do Alcázar."
+    },
+    "guion_corto": {
+      "hash": "e5ad5e299aeaa0f1",
+      "texto": "Em tapeçarias feitas na França aparecem um pião, um bilboquê, um badminton e uns pinos de boliche. Segundo a legenda do Salão de Jogos, Napoleão Terceiro os presenteou a Maximiliano no aniversário dele, em seis de julho. Ali, diz o museu, os governantes jogavam boliche, bilhar, cartas e xadrez com seus convidados. A Sala de Leitura lembra outra faceta: Maximiliano chamou seu palácio de Miravalle e lia e escrevia decretos e correspondência em suas terraços. Os registros que o museu cita mostram, no entanto, outro uso para esse cômodo. Foi sala de bilhar em mil oitocentos e oitenta e dois, em mil novecentos e seis e em mil novecentos e trinta e dois."
+    },
+    "guion_largo": {
+      "hash": "7bfa1347b3ea548a",
+      "texto": "É fácil imaginar Maximiliano lendo neste cômodo, mas os registros contam outra coisa. O museu cita listas de ocupação do edifício. Em mil oitocentos e setenta e sete, a sala de leitura aparece como quarto do segundo astrônomo. Em mil oitocentos e oitenta e dois, mil novecentos e seis e mil novecentos e trinta e dois, como sala de bilhar. São os anos do observatório que você viu na [Escadaria dos Leões](chap_13_escalera_leones). O que o museu conta, sim, é que Maximiliano lia e escrevia nas terraços de seu palácio. Ali despachava decretos e correspondência. Ao palácio, deu o nome de Miravalle.\n\nO nome Miravalle diz tudo: um lugar para contemplar o vale. A legenda lembra também o lema da família Habsburgo, em latim: Austria est imperare orbi universo. Quer dizer que cabe à Áustria governar o mundo inteiro. O site oficial dos Habsburgo adverte que essa leitura é posterior. Frederico Terceiro, o imperador do século quinze que usava as cinco vogais como divisa, nunca explicou o significado delas. Foram propostas mais de trezentas interpretações.\n\nAs tapeçarias do Salão de Jogos são mais leves. Segundo o museu, foram feitas na França e Napoleão Terceiro as deu de presente a Maximiliano no aniversário dele, em seis de julho. Representam jogos como o pião, o bilboquê, o badminton e os pinos de boliche. O museu fala também de outra sala com tapeçarias de Aubusson, baseadas nas fábulas de Jean de La Fontaine, presente do mesmo Napoleão Terceiro. É o Salão dos Gobelinos.\n\nOs registros do museu mostram como o uso das salas mudava. Em mil oitocentos e oitenta e dois, um salão aparece como sala de tresilho, um jogo de cartas. Em mil novecentos e seis, como pequeno salão de jogos, e em mil novecentos e trinta e dois, como sala de jogo. Segundo o museu, os governantes jogavam boliche, bilhar, cartas e xadrez com seus convidados.\n\nEssa vida de lazer teve seu lado moderno sob Porfirio Díaz. O museu conta que Díaz instalou no castelo elevadores e uma pista de boliche. E em agosto de mil oitocentos e noventa e seis recebeu ali os enviados dos irmãos Lumière, que lhe apresentaram o cinematógrafo. Segundo um artigo da Revista da Universidade, compareceu um grupo reduzido de umas vinte pessoas próximas à família dele. A sessão começou cedo e, a pedido do público, se prolongou até uma da manhã. O artigo não esclarece em que salão foi. Díaz e os seus aceitaram ser filmados. Em uma segunda sessão, em vinte e cinco de agosto, foram projetadas as que o artigo descreve como os primeiros filmes rodados no México.\n\nDo aniversário de Maximiliano resta outro vestígio. Segundo a Revista Bicentenário, o banquete de seu aniversário começou às seis da tarde. Foi em seis de julho de mil oitocentos e sessenta e cinco. A revista não esclarece em que residência foi celebrado. Assim se cruzam os presentes de Napoleão Terceiro, as festas do Império e os jogos de salão.\n\nMais adiante, o [Salão de Embaixadores](chap_17_salon_embajadores) mostra o lado mais formal da casa."
+    },
+    "retos_observacion": {
+      "hash": "49ef68730774c12d",
+      "texto": [
+        "Procure nas tapeçarias um pião, um bilboquê, um badminton e uns pinos de boliche, os jogos que o museu menciona",
+        "Observe a luz da sala e imagine escrever decretos aqui ou em um terraço",
+        "Compare o tamanho deste espaço com o de uma sala de jantar: cabe um grupo grande ou um grupo íntimo?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bf15c968ad3ac598",
+      "texto": {
+        "Palácio": "Miravalle, nome dado por Maximiliano, segundo o MNH",
+        "Tapeçarias": "feitas na França; presente de Napoleão III a Maximiliano no aniversário dele, em 6 de julho",
+        "Jogos representados": "pião, bilboquê, badminton e pinos de boliche",
+        "Usos antigos registrados pelo MNH": "quarto do segundo astrônomo (1877); sala de bilhar (1882, 1906 e 1932); sala de tresilho (1882)",
+        "Localização": "Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "064b24ca5cd741a0",
+      "texto": {
+        "pregunta": "Mito: A Sala de Leitura sempre foi a biblioteca particular de Maximiliano.",
+        "respuesta": "Realidade: Segundo os registros que o Museu Nacional de História cita, em 1877 era o quarto do segundo astrônomo e em 1882, 1906 e 1932 aparece como sala de bilhar; de Maximiliano sabe-se que lia e escrevia nos terraços de seu palácio."
+      }
+    }
+  }
+}

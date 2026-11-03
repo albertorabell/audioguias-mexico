@@ -1,0 +1,62 @@
+{
+  "id": "chap_24_caballero_alto",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2f75f1f51c4efe5a",
+      "texto": "O Caballero Alto, torreão e primeiro observatório"
+    },
+    "frase_gancho": {
+      "hash": "daf1ed1e5f285cb3",
+      "texto": "Parece uma torre medieval, mas foi erguida na década de mil oitocentos e quarenta e chegou a ser o primeiro Observatório Astronômico Nacional."
+    },
+    "puente_narrativo": {
+      "hash": "ce931520fe8a4a8b",
+      "texto": "Continue o percurso em direção aos terraços do castelo. Ali o morro desce rumo ao bosque e se lembra a defesa de setembro de mil oitocentos e quarenta e sete."
+    },
+    "guion_corto": {
+      "hash": "ab56b933935ba35a",
+      "texto": "Parece uma torre medieval, mas tem menos de duzentos anos de idade. O Caballero Alto foi erguido na parte mais alta do morro. Foi nas obras iniciadas em mil oitocentos e quarenta e um, quando o edifício estava sendo adaptado como Colégio Militar. Ele deu ao conjunto um aspecto de fortaleza, e daí surgiu o nome de castelo. Décadas depois teve outra vida. Em mil oitocentos e setenta e oito recebeu uma cúpula e o telescópio principal do primeiro Observatório Astronômico Nacional. Os astrônomos trabalharam aqui até mil oitocentos e oitenta e três. Naquele ano se mudaram para Tacubaya, e o castelo pôde voltar a ser uma escola militar."
+    },
+    "guion_largo": {
+      "hash": "f69056f45b717a56",
+      "texto": "O ponto onde se ergue esta torre já tinha história antes de existir o castelo. Segundo um cartaz do museu, no topo houve antes um templo pré-hispânico. No século dezesseis foi construída uma capela dedicada a São Miguel Arcanjo, que foi demolida no século dezoito. Depois veio o torreão. O mesmo cartaz o data por volta de mil oitocentos e quarenta e dois. Diz que ele fica a cerca de quarenta e cinco metros acima do nível da Cidade do México.\n\nEssa altura explica sua função original. Desde Chapultepec se domina a Bacia do México, e um boletim do INAH lembra que o morro sempre foi um ponto estratégico para campanhas militares. Quando o edifício foi adaptado para o Colégio Militar, o torreão completou a imagem de fortaleza. Sobre a defesa do castelo em mil oitocentos e quarenta e sete falam a parada da [intervenção](chap_08_intervencion_1847) e a [terraço dos Niños Héroes](chap_25_terraza_ninos_heroes).\n\nA segunda vida da torre começou com uma pergunta científica. Em mil oitocentos e setenta e quatro, um trânsito de Vênus levou uma comissão mexicana até o Japão. Ao voltar, seus membros informaram que o trânsito seguinte, o de mil oitocentos e oitenta e dois, seria visto do México. Isso impulsionou a criação de um observatório. No dia dezoito de dezembro de mil oitocentos e setenta e seis, o ministro de Fomento Vicente Riva Palacio deu uma incumbência. O engenheiro Ángel Anguiano devia reconstruí-lo no castelo. Essa data é considerada a fundacional do Observatório Astronômico Nacional.\n\nAs obras começaram em mil oitocentos e setenta e sete. Sobre o Caballero Alto foi erguida uma cúpula, que segundo o cartaz era de metal e vidro e durou até o início do século vinte. No dia cinco de maio de mil oitocentos e setenta e oito houve uma inauguração solene. O historiador da astronomia Felipe Valle menciona que o edifício chegou a ter agência telegráfica e biblioteca. Os primeiros instrumentos incluíam um telescópio zenital, um pequeno altazimute e um pêndulo sideral, segundo um artigo da Revista de la Universidad de México. Para subir até esse andar, ampliou-se o terraço e abriu-se um acesso, origem da [Escalera de los Leones](chap_13_escalera_leones).\n\nOs astrônomos ficaram pouco tempo. Em mil oitocentos e oitenta e um, Anguiano viajou à Europa para conseguir instrumentos e conhecer observatórios. Pouco depois do trânsito de Vênus de mil oitocentos e oitenta e dois, o observatório se mudou para o antigo Palácio do Arcebispado, em Tacubaya. O Museu Nacional de História indica o motivo oficial: que o castelo voltasse a ser Colégio Militar. Valle acrescenta que Anguiano pediu ajuda a Porfirio Díaz para adiar a mudança até depois do trânsito.\n\nAssim, uma torre pensada para vigiar o vale serviu depois para estudar o céu. Hoje a torre é um símbolo do castelo. Sua história, porém, é a de várias instituições que se revezaram no morro: escola militar, observatório, residência presidencial e museu. Se você vem do [jardim](chap_23_jardin_alcazar) ou do [gabinete de Díaz](chap_22_despacho_presidencial), lembre-se de que todas essas épocas compartilham o mesmo morro."
+    },
+    "retos_observacion": {
+      "hash": "d62e8c304b97fdb9",
+      "texto": [
+        "Levante o olhar para o remate do torreão e procure a silhueta cilíndrica que dá ao castelo aspecto de fortaleza",
+        "Compare seus muros com o estilo de palácio do Alcázar: são obras de épocas distintas",
+        "Olhe para o horizonte de onde você estiver e calcule quanto do vale se dominava desde o ponto mais alto do morro"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2625759213b59caa",
+      "texto": {
+        "Nome": "Caballero Alto, torreão do Castelo de Chapultepec",
+        "Construção": "obras iniciadas em 1841; o cartaz do museu o data por volta de 1842, como parte do Colégio Militar",
+        "Altura": "parte mais alta do promontório, cerca de 45 m acima do nível da Cidade do México",
+        "Observatório": "encomendado em 18 de dezembro de 1876, inaugurado em 5 de maio de 1878",
+        "Transferência do observatório para Tacubaya": "1883"
+      }
+    },
+    "faq_mito": {
+      "hash": "72210ac36231c515",
+      "texto": {
+        "pregunta": "Mito: O Caballero Alto é uma torre medieval ou vice-reinal, muito mais antiga que o resto do palácio.",
+        "respuesta": "Realidade: Segundo o Museu Nacional de História, foi erguido nas obras iniciadas em mil oitocentos e quarenta e um para o Colégio Militar, e o cartaz do Alcázar o data por volta de mil oitocentos e quarenta e dois; seu aspecto de fortaleza deu origem ao nome de castelo."
+      }
+    }
+  }
+}

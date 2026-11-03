@@ -1,0 +1,63 @@
+{
+  "id": "chap_13_escalera_leones",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6a7e9f78e88d8bf8",
+      "texto": "A Escada dos Leões"
+    },
+    "frase_gancho": {
+      "hash": "7d5ad72a0abcc7b8",
+      "texto": "Uma escadaria de mármore que não se abriu para uma corte, mas para chegar a um observatório."
+    },
+    "puente_narrativo": {
+      "hash": "4c00cef1930ffc24",
+      "texto": "O percurso continua rumo à Galeria dos Vitrais de Chumbo, onde cinco deusas de vidro filtram a luz do dia."
+    },
+    "guion_corto": {
+      "hash": "b785a48931937cce",
+      "texto": "Em mil oitocentos e setenta e oito abriu-se um acesso ao andar superior do Alcázar, e não foi para uma festa. Foi para que os cientistas chegassem ao Observatório Astronômico, Meteorológico e Magnético Nacional, que funcionava no castelo. Mais tarde, por iniciativa de Porfirio Díaz, construiu-se uma escada de mármore branco com corrimão de latão. Por volta de mil novecentos e quinze, sob Venustiano Carranza, ela foi remodelada e receberam lugar as esculturas de leões que lhe dão nome, segundo o museu. Ou seja, uma escadaria com ar imperial que se abriu onze anos depois do fuzilamento de Maximiliano. Sua origem é científica, e suas mãos, republicanas. Cada época deixou aqui sua camada."
+    },
+    "guion_largo": {
+      "hash": "ce122e6a67c92044",
+      "texto": "Muita gente imagina esta escadaria como parte do sonho de Maximiliano e Carlota. A data diz outra coisa. Segundo o Museu Nacional de História, o acesso se abriu em mil oitocentos e setenta e oito, onze anos depois do fuzilamento do imperador. A razão foi científica: no castelo funcionava então o Observatório Astronômico Nacional.\n\nO observatório foi fundado por decreto presidencial em dezoito de dezembro de mil oitocentos e setenta e seis. Seu primeiro diretor foi o engenheiro Ángel Anguiano, e os trabalhos formais em Chapultepec começaram em cinco de maio de mil oitocentos e setenta e oito. Um artigo da Revista da Universidade do México registra o que contou o astrônomo Joaquín Gallo. O presidente Porfirio Díaz queria mapas mais exatos do país. Para isso era preciso um ponto de referência que permitisse calcular a longitude de povoados e cidades. O museu acrescenta que, naqueles anos, a torre do [Cavaleiro Alto](chap_24_caballero_alto) ganhou uma cúpula.\n\nEm mil oitocentos e oitenta e três o observatório se mudou para o antigo Palácio do Arcebispado, em Tacubaya. Os astrônomos foram embora, o castelo voltou a ser sede do Colégio Militar e Díaz o usou como residência de verão. A escada, em compensação, ficou. Segundo o museu, foi Díaz quem mandou reconstruí-la em mármore branco, com corrimão de latão.\n\nNão é a única escada do Alcázar. O museu conta que outra, interna, foi aberta durante o governo de Manuel González, entre mil oitocentos e oitenta e mil oitocentos e oitenta e quatro. Ela unia os aposentos da família presidencial com os salões de recepção e a sala de jantar. Tinha um elevador elétrico de uso exclusivo dessa família. Os criados usavam outras escadarias. Um palácio também é um mapa de quem pode subir por onde.\n\nOs leões chegaram depois. Segundo o museu, por volta de mil novecentos e quinze a escada foi remodelada, durante o governo de Venustiano Carranza. Então foram colocadas as esculturas que lhe deram o nome. A Revolução deixou assim sua marca num castelo pensado para vice-reis, imperadores e presidentes. Em mil novecentos e dezesseis, o próprio Carranza ordenou demolir um edifício porfiriano para dar mais visibilidade ao Alcázar.\n\nUm estudo de conservação do INAH descreve, nesta escada, um vitral com o Escudo Nacional no centro. Dos lados há dois glifos de Chapultepec: uma colina, um gafanhoto no topo e água na base. É a forma antiga de escrever o nome do lugar, que se traduz como colina do gafanhoto. Segundo esse estudo, em mil novecentos e quarenta e um Francisco Goitia propôs fechar o vão com vidros simples. O motivo era o orçamento. Em mil novecentos e quarenta e três foram colocados vidros bisotados incolores.\n\nCada época deixou aqui uma camada: o observatório, o mármore de Díaz, os leões da Revolução e os vidros dos anos quarenta. Mais adiante, a [Galeria dos Vitrais de Chumbo](chap_14_vitrales_emplomados) mostra outra forma de trabalhar com a luz, muito diferente da do telescópio."
+    },
+    "retos_observacion": {
+      "hash": "6df92d19d968c298",
+      "texto": [
+        "Compare os dois leões de mármore e procure o que os torna parecidos ou diferentes",
+        "Repare no corrimão, que segundo o museu é de latão, e compare-o com o mármore branco dos degraus",
+        "Se você vir um vitral no fechamento da escada, procure o glifo de Chapultepec: uma colina com um gafanhoto no topo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "615130e47621d863",
+      "texto": {
+        "Abertura do acesso": "1878, para o Observatório Astronômico, Meteorológico e Magnético Nacional",
+        "Reconstrução": "mármore branco e corrimão de latão, por iniciativa de Porfirio Díaz",
+        "Leões": "colocados por volta de 1915 sob Venustiano Carranza, segundo o MNH",
+        "Escada interna": "aberta no governo de Manuel González (1880-1884), com elevador elétrico para a família presidencial",
+        "Vitral": "Escudo Nacional e dois glifos de Chapultepec, segundo estudo do INAH",
+        "Localização": "Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "c10f0fa812051c24",
+      "texto": {
+        "pregunta": "Mito: A Escada dos Leões faz parte do palácio que Maximiliano e Carlota projetaram para sua corte.",
+        "respuesta": "Realidade: Segundo o Museu Nacional de História, o acesso se abriu em 1878, onze anos depois do fuzilamento de Maximiliano, para subir ao Observatório Astronômico Nacional; o mármore é da época de Díaz e os leões foram colocados por volta de 1915."
+      }
+    }
+  }
+}

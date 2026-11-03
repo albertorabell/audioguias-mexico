@@ -1,0 +1,59 @@
+{
+  "id": "chap_03_patio_canones",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "e9cbfe4de364e985",
+      "texto": "O Pátio dos Canhões e o Antigo Colégio Militar"
+    },
+    "frase_gancho": {
+      "hash": "7c8edf0fd411512c",
+      "texto": "A esplanada onde adolescentes de treze a dezenove anos enfrentaram um bombardeio de artilharia."
+    },
+    "puente_narrativo": {
+      "hash": "2dde7b42255ab23f",
+      "texto": "Dirija-se à porta de entrada do edifício ocidental, ao fundo do pátio: você passará para o interior do Museu Nacional de História, onde o percurso começa nas salas do encontro entre o mundo indígena e a Espanha."
+    },
+    "guion_corto": {
+      "hash": "e79a0f8b8d523c6c",
+      "texto": "Você está no antigo pátio de armas do Colégio Militar. Ao seu redor, sobre reparos de madeira e ferro, repousam canhões históricos de bronze que apontam para o horizonte, enquanto a fachada sóbria de dois níveis mostra a ala onde os cadetes estudavam e dormiam no século dezenove. Este espaço aberto foi o coração da resistência mexicana em doze e treze de setembro de mil oitocentos e quarenta e sete, quando o exército dos Estados Unidos bombardeou o morro por mais de um dia inteiro antes de lançar o assalto final, corpo a corpo, pelas encostas."
+    },
+    "guion_largo": {
+      "hash": "3f57df6a27005b86",
+      "texto": "Para entender o que aconteceu neste pátio, é preciso imaginar o amanhecer de doze de setembro de mil oitocentos e quarenta e sete. As tropas estadunidenses, comandadas pelo general Winfield Scott, sabiam que Chapultepec era a última chave militar antes de entrar nas portas da Cidade do México. A partir das baterias instaladas no Molino del Rey e no sul do bosque, abriram fogo contínuo de artilharia contra estes mesmos muros. Dentro do recinto havia apenas uns oitocentos soldados mexicanos, apoiados pelo batalhão de San Blas e por cerca de cinquenta jovens cadetes que se recusaram a evacuar a sua escola, apesar da ordem do diretor, o general Nicolás Bravo, para que partissem com suas famílias. Muitos deles eram quase crianças: Francisco Márquez tinha apenas treze anos. Na manhã seguinte, quando cessou o canhoneio e as colunas invasoras escalaram o morro com escadas de mão em meio à fumaça da pólvora, este pátio e os [terraços superiores](chap_25_terraza_ninos_heroes) se transformaram em um campo de combate desesperado, de baioneta calada. Décadas depois daquela batalha, em mil novecentos e trinta e nove, o presidente Lázaro Cárdenas decretou que El Castillo deixasse de ser a casa dos governantes para ser entregue ao povo como sede do Museu Nacional de História, cujas salas ficam logo atrás da porta que está à sua frente."
+    },
+    "retos_observacion": {
+      "hash": "bcfc900c3ebab971",
+      "texto": [
+        "Aproxime-se dos canhões do pátio e procure as gravações e os escudos fundidos no bronze",
+        "Observe a simetria sóbria e militar dos arcos e das sacadas do edifício do Colégio",
+        "Debruce-se no parapeito do pátio para entender a vantagem visual que esta esplanada oferecia sobre o vale"
+      ]
+    },
+    "especificaciones": {
+      "hash": "55ace62d522e97f5",
+      "texto": {
+        "Período": "Século XIX (etapa do Colégio Militar, 1841-1847 e 1883-1913)",
+        "Batalha histórica": "12 e 13 de setembro de 1847",
+        "Decreto como Museu Nacional de História": "3 de fevereiro de 1939 (presidente Lázaro Cárdenas)",
+        "Inauguração do museu": "27 de setembro de 1944",
+        "Elementos de destaque": "Peças de artilharia de bronze e fachada neoclássica militar"
+      }
+    },
+    "faq_mito": {
+      "hash": "63e8a5681ad7a1d5",
+      "texto": {
+        "pregunta": "Mito: Lázaro Cárdenas viveu no Castelo de Chapultepec durante todo o seu mandato, antes de transformá-lo em museu.",
+        "respuesta": "Realidade: Cárdenas se recusou a morar no castelo por considerá-lo um símbolo monárquico e imperial, distante do povo; transferiu a residência oficial para Los Pinos e transformou todo o edifício em museu público."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "chap_12_sala_carruajes",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2ea081b1178ddcdb",
+      "texto": "A Sala de Carruagens do Alcázar"
+    },
+    "frase_gancho": {
+      "hash": "80f057a99988f61c",
+      "texto": "Uma carruagem barroca feita em Milão e um coche de uso diário que trocou de brasões quando o governo mudou."
+    },
+    "puente_narrativo": {
+      "hash": "d9073dedd52a5abd",
+      "texto": "Siga o percurso rumo à Escadaria dos Leões, onde uma escadaria de ar imperial esconde uma origem científica."
+    },
+    "guion_corto": {
+      "hash": "f5cc41e47d99bea9",
+      "texto": "Antes de ser a entrada do Alcázar, este espaço serviu de cocheira do castelo, segundo o museu. Hoje reúne carruagens de dois governos distintos. A carruagem de gala de Maximiliano e Carlota saiu por volta de mil oitocentos e sessenta e quatro da casa Cesare Scala, em Milão. É de estilo barroco, com molduras de prata e bronze, crianças e anjos esculpidos, brasões imperiais e um lema em espanhol: Equidade na justiça. Nesta sala o museu apresenta também a carruagem que Maximiliano e Carlota usavam diariamente. Depois ela foi utilizada por Benito Juárez, e os brasões do Império deram lugar às armas da República. É um mesmo coche com duas histórias."
+    },
+    "guion_largo": {
+      "hash": "ac5560762e61ea5f",
+      "texto": "Os planos do vice-rei Bernardo de Gálvez, de mil setecentos e oitenta e cinco, já incluíam uma cocheira no andar térreo do palácio. O palácio nunca foi concluído, e o edifício teve muitas vidas. Segundo o museu, este salão serviu depois como cocheira do castelo, e hoje é a entrada do Alcázar. É um bom começo para o andar dos imperadores: onde antes se guardavam coches, agora se guardam coches, mas de outra classe.\n\nA peça mais ostentosa é a carruagem de gala de Maximiliano e Carlota. O museu a atribui à casa Cesare Scala, de Milão, e a data por volta de mil oitocentos e sessenta e quatro. Seu estilo é barroco. Tem molduras de prata e bronze, esculturas de crianças e anjos, brasões imperiais e um lema em espanhol, Equidade na justiça. Uma carruagem de gala não é feita para chegar rápido a um lugar. É feita para que a vejam passar.\n\nMaximiliano de Habsburgo chegou ao castelo em doze de junho de mil oitocentos e sessenta e quatro. Governou com o apoio do exército francês de Napoleão Terceiro. Seu reinado terminou em mil oitocentos e sessenta e sete. Foi fuzilado no Cerro de las Campanas, em Querétaro, junto com os generais Miguel Miramón e Tomás Mejía. Essa etapa é chamada de Segundo Império, porque antes o México já havia tido um primeiro, o de [Agustín de Iturbide](chap_06_morelos_iturbide).\n\nNa mesma sala há outra história, mais republicana. O museu explica que a carruagem de uso diário de Maximiliano e Carlota passou depois a Benito Juárez. Para isso, os brasões imperiais foram substituídos pelas armas da República. O objeto era o mesmo, mas a mensagem mudou. O museu menciona ainda uma caleça. Nela, diz, Juárez entrou na Cidade do México em quinze de julho de mil oitocentos e sessenta e sete, vinte e seis dias depois do fuzilamento. A caleça foi fabricada em Paris e decorada com o Escudo Nacional e motivos pré-hispânicos. É um bom momento para lembrar a [carruagem de Juárez](chap_07_carruaje_juarez) de uma parada anterior.\n\nVale a pena reparar no contraste. De um lado, uma carruagem com molduras de prata, anjos e brasões; do outro, veículos que mudaram de dono apenas com a troca de um emblema. São duas maneiras de dizer quem manda: com ornamento ou com símbolos nacionais.\n\nPor trás destes objetos está também a história do museu. Em mil novecentos e trinta e nove, o presidente Lázaro Cárdenas decretou que o castelo se tornasse museu. Manuel Ávila Camacho o inaugurou em vinte e sete de setembro de mil novecentos e quarenta e quatro. Hoje reúne mais de sessenta e cinco mil objetos, entre pinturas, mobiliário, roupas, documentos e carruagens.\n\nAo subir ao Alcázar, leve com você esta ideia. Um objeto de governo raramente é só um objeto: carrega brasões, lemas e emblemas que mudam quando o poder muda, e por isso podem ser lidos como um documento."
+    },
+    "retos_observacion": {
+      "hash": "573235bb5f6bdaf7",
+      "texto": [
+        "Procure na carruagem de gala as molduras de prata e bronze e as figuras de crianças e anjos",
+        "Encontre o lema em espanhol, Equidade na justiça, e os brasões imperiais",
+        "Compare a carruagem de uso diário com a carruagem de gala e repare qual leva mais adornos e qual emblema exibe"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8dda3689baf17655",
+      "texto": {
+        "Época": "Segundo Império, por volta de 1864",
+        "Ateliê da carruagem de gala": "casa Cesare Scala, Milão",
+        "Estilo e materiais": "barroco, com molduras de prata e bronze",
+        "Lema": "Equidade na justiça",
+        "Informação-chave": "a carruagem de uso diário de Maximiliano e Carlota foi usada depois por Benito Juárez, com armas republicanas",
+        "Localização": "Salão de Carruagens, entrada do Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "e319dbbd98f47c9e",
+      "texto": {
+        "pregunta": "Mito: As carruagens do imperador Maximiliano foram destruídas ou deixadas sem uso quando o Império caiu.",
+        "respuesta": "Realidade: Segundo o Museu Nacional de História, a carruagem que Maximiliano e Carlota usavam diariamente passou a Benito Juárez, e seus brasões imperiais foram substituídos pelas armas da República."
+      }
+    }
+  }
+}

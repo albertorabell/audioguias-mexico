@@ -1,0 +1,57 @@
+{
+  "id": "chap_27_estandarte_hidalgo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f341b68cd75663da",
+      "texto": "O Estandarte de Guadalupe e as Relíquias de Hidalgo"
+    },
+    "frase_gancho": {
+      "hash": "5facb397c8c952ed",
+      "texto": "Um padre que tocava violino, uma tela retirada de um santuário e um pau: assim nasceu o estandarte da Independência."
+    },
+    "puente_narrativo": {
+      "hash": "ed751b336ffff191",
+      "texto": "Siga para a próxima parada, onde a guerra que começou com essa tela continua com dois homens que se enfrentaram: José María Morelos e Agustín de Iturbide."
+    },
+    "guion_corto": {
+      "hash": "94af4d86fd7c564b",
+      "texto": "Hidalgo tinha cinquenta e sete anos quando se levantou em armas. Era um padre acadêmico e um violinista notável, que tocava nos saraus de sua casa. Saiu de Dolores às onze da manhã e chegou ao santuário de Atotonilco às cinco e meia da tarde. Ali, segundo declarou o capelão, um rancheiro pediu uma imagem a uma das beatas e a colocou em um pau. Essa tela da Virgem de Guadalupe é o estandarte da Independência."
+    },
+    "guion_largo": {
+      "hash": "e65a9939fbdddc82",
+      "texto": "Miguel Hidalgo tinha cinquenta e sete anos quando se levantou em armas. Não era um guerreiro. Era um padre acadêmico, conhecido em Dolores por sua cultura e por seu violino: tocava nos saraus que aconteciam em sua casa. Essa é a pessoa cujos rastros esta sala guarda.\n\nNa madrugada do dia dezesseis de setembro de mil oitocentos e dez, o sino de Dolores chamou o povo. No começo se reuniram oitenta homens com espadas e lanças. As legendas da sala contam que, em poucas horas, já eram seiscentos. A coluna saiu de Dolores às onze da manhã, almoçou e descansou na fazenda da Erre, e chegou ao santuário de Atotonilco às cinco e meia da tarde.\n\nEm Atotonilco aconteceu algo que mudou a insurreição. Alguém retirou do santuário uma tela da Virgem de Guadalupe e a ergueu no alto. Mas ninguém sabe com certeza quem a retirou. Ignacio Allende, em seu julgamento, declarou que não soube por ordem de quem a tela foi retirada. O capelão de Atotonilco declarou que foi um rancheiro quem pediu uma imagem a uma das beatas do santuário e a colocou em um pau. Assim nasceu o estandarte: não de um plano, mas de um gesto improvisado que se tornou símbolo.\n\nO estandarte seguiu seu caminho com os insurgentes. Foi capturado pelo exército de Félix María Calleja em San Jerónimo Aculco. Em mil oitocentos e cinquenta e três, uma inscrição foi gravada em seu verso. Hoje está exposto sobre um pedestal de madeira entalhada, feito em mil novecentos e onze.\n\nEm volta do estandarte estão as relíquias. Em todo o museu se conserva apenas meia centena de objetos de Hidalgo, resgatados em grande parte por volta de mil novecentos e dez, quando se celebrou o Centenário. A legenda que os apresenta se intitula O pudor da história. Entre eles há peças íntimas: a pia batismal em que ele foi batizado, o confessionário da paróquia de Dolores, a veste que usava para administrar os sacramentos e um relicário com a Virgem das Dores.\n\nEsta é a outra face do homem que você já viu duas vezes no [retábulo de O’Gorman](chap_04_retablo_independencia). Ali ele é um símbolo em um muro; aqui é uma pessoa, com seu violino, seu confessionário e sua pia batismal. A guerra que começou com essa tela continuou com outros líderes. O próximo é [Morelos](chap_06_morelos_iturbide), que tinha sido aluno de Hidalgo."
+    },
+    "retos_observacion": {
+      "hash": "b35c7e8187a953aa",
+      "texto": [
+        "Procure o estandarte da Virgem de Guadalupe e observe o pedestal de madeira entalhada que o sustenta",
+        "Localize o confessionário da paróquia de Dolores e a pia batismal",
+        "Procure o relicário com a Virgem das Dores e a veste que ele usava para administrar os sacramentos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b4e7e40a2c7c6a6c",
+      "texto": {
+        "Objeto": "Estandarte de Guadalupe de Miguel Hidalgo",
+        "Local onde foi retirado": "santuário de Atotonilco, 16 de setembro de 1810",
+        "Saída de Dolores": "11h00; chegada a Atotonilco: 17h30",
+        "Captura": "San Jerónimo Aculco, por Calleja",
+        "Inscrição no verso": "1853",
+        "Pedestal": "madeira entalhada, 1911",
+        "Relíquias": "pia batismal, confessionário de Dolores, veste sacramental, relicário com a Virgem das Dores"
+      }
+    },
+    "faq_mito": {
+      "hash": "844663168a3d225a",
+      "texto": {
+        "pregunta": "Mito: Hidalgo preparou o estandarte com antecedência.",
+        "respuesta": "Realidade: Allende declarou em seu julgamento que não soube por ordem de quem a tela foi retirada, e o capelão de Atotonilco disse que um rancheiro pediu uma imagem a uma beata e a colocou em um pau."
+      }
+    }
+  }
+}

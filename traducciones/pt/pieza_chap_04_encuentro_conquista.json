@@ -1,0 +1,54 @@
+{
+  "id": "chap_04_encuentro_conquista",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "478bfdd9e731deee",
+      "texto": "Dois Mundos e o Tzompantli de Tecoaque"
+    },
+    "frase_gancho": {
+      "hash": "c9e86832374112c3",
+      "texto": "Doze crânios perfurados em mil quinhentos e vinte e um que confirmam as crônicas mais cruas da Conquista."
+    },
+    "puente_narrativo": {
+      "hash": "2b223e60afd5db89",
+      "texto": "Siga para o próximo salão, onde o estrondo da guerra dá lugar a três séculos de navios carregados de prata, sedas de Manila e fazendas vice-reais."
+    },
+    "guion_corto": {
+      "hash": "5532a0891bb67dc3",
+      "texto": "Ao cruzar a porta do antigo Colégio Militar, você entra nas primeiras salas do Museu Nacional de História, dedicadas ao choque entre dois mundos que tinham vivido separados por um oceano até o final do século quinze. Entre armaduras de ferro, espadas castelhanas e relevos pré-hispânicos, pare diante da vitrine mais impressionante do salão: o tzompantli, ou altar de crânios, proveniente de Tecoaque, Tlaxcala. Ali você verá alinhados doze crânios reais perfurados nas têmporas no ano de mil quinhentos e vinte e um: cinco pertencem a soldados espanhóis da caravana de Juan de Yuste e sete a guerreiros indígenas cempoaltecas que marchavam como aliados de Hernán Cortés."
+    },
+    "guion_largo": {
+      "hash": "88e53afaa19ebbcd",
+      "texto": "Para entender esta sala, é preciso olhar para os dois lados sem lendas cor-de-rosa nem negras, tal como mostram as peças diante de você. Do lado mesoamericano, não existia um único país unido, mas um mosaico de senhorios, ou altépetl, autônomos; os mexicas dominavam pelas armas grande parte do território, cobrando tributos e capturando guerreiros para o sacrifício, o que semeou um profundo rancor entre os povos submetidos, que logo se aliariam aos recém-chegados. Do outro lado do Atlântico vinham homens endurecidos por séculos de guerra contra o islã na Reconquista de Granada e sobreviventes de uma Europa golpeada pela fome e pelas epidemias, onde uma em cada três crianças morria antes de completar um ano de vida. Quando, no ano ce-ácatl de mil quinhentos e dezenove, chegaram aos ouvidos de Moctezuma Xocoyotzin as notícias de que umas torres, ou pequenos cerros, flutuavam no mar, o tlatoani acreditou que se cumpriam os oito presságios sobre o regresso de Quetzalcóatl. Mas a guerra que estourou em mil quinhentos e vinte e um foi implacável para ambos os lados: quando os acolhuas de Tecoaque capturaram uma caravana espanhola que ia de Veracruz rumo a Tenochtitlan, sacrificaram os prisioneiros e montaram suas cabeças neste tzompantli, descoberto pelos arqueólogos em maio de mil novecentos e noventa e três, antes que Cortés enviasse Gonzalo de Sandoval para arrasar o povoado em vingança."
+    },
+    "retos_observacion": {
+      "hash": "45271f30ff5dac4b",
+      "texto": [
+        "Aproxime-se da vitrine do Tzompantli de Tecoaque e conte os doze crânios perfurados lateralmente para atravessar a trave de madeira",
+        "Observe as armas de aço, os elmos e as couraças europeias que contrastam com as esculturas de pedra mesoamericanas",
+        "Procure as legendas que explicam o significado de altépetl (água-monte) e os oito presságios de Moctezuma"
+      ]
+    },
+    "especificaciones": {
+      "hash": "785c6f120c4eb30e",
+      "texto": {
+        "Peça central": "Tzompantli («muro de crânios») proveniente de Tecoaque (antiga Zultepec), Tlaxcala",
+        "Data dos restos": "Início de 1521 (descobertos em maio de 1993)",
+        "Composição do achado": "12 crânios (5 de espanhóis da companhia de Juan de Yuste e 7 de indígenas cempoaltecas aliados)",
+        "Localização": "Salas 1 e 2 (Dois continentes isolados / Às vésperas do contato), Andar térreo MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "3e98c041d6edf348",
+      "texto": {
+        "pregunta": "Mito: Em 1519 existia uma única nação mexicana unida e todos os povos indígenas defenderam juntos Moctezuma contra os espanhóis.",
+        "respuesta": "Realidade: Mesoamérica estava dividida em senhorios, ou altépetl, independentes; o severo sistema de tributos e guerras de captura imposto pelos mexicas fez com que cempoaltecas, tlaxcaltecas e outros povos vissem nos espanhóis uma oportunidade de se libertar de Tenochtitlan."
+      }
+    }
+  }
+}

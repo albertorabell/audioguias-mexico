@@ -1,0 +1,56 @@
+{
+  "id": "chap_04_retablo_independencia",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d561a85b4adfde87",
+      "texto": "Retábulo da Independência, de Juan O’Gorman"
+    },
+    "frase_gancho": {
+      "hash": "3379f0a76f80b7a8",
+      "texto": "Conte quantas vezes Miguel Hidalgo aparece neste mural: o pintor decidiu retratá-lo duas vezes."
+    },
+    "puente_narrativo": {
+      "hash": "4fde3c8e684f446e",
+      "texto": "Siga o percurso por esta sala. A próxima parada guarda o estandarte e as relíquias de Miguel Hidalgo, o homem com quem a guerra começou."
+    },
+    "guion_corto": {
+      "hash": "0eece65c8fb869cc",
+      "texto": "Hidalgo aparece duas vezes neste mural. Jovem, com o estandarte da Virgem de Guadalupe, e mais velho, com uma tocha e o decreto de Guadalajara. Assim Juan O’Gorman conta a Independência. É um afresco de quatro metros e quarenta de altura por quinze metros e sessenta e nove de comprimento. Ele o pintou entre mil novecentos e sessenta e mil novecentos e sessenta e um. Lê-se da esquerda para a direita, em quatro atos: a desigualdade da Nova Espanha, os precursores das ideias, o movimento insurgente e o Congresso de Chilpancingo, encabeçado por Morelos. No alto, a lua em uma extremidade e o sol nascente na outra marcam a passagem da noite colonial para a autonomia."
+    },
+    "guion_largo": {
+      "hash": "7b88b978f3409b09",
+      "texto": "Este mural tem uma história que começa com outro pintor. Segundo estudos publicados na revista Educação Química e na Gazeta de Museus do INAH, a encomenda foi feita primeiro a Diego Rivera. Rivera chegou a buscar retratos para seus personagens. Morreu em mil novecentos e cinquenta e sete, antes que a obra avançasse, e o projeto passou para Juan O’Gorman.\n\nO’Gorman trabalhou em afresco sobre uma parede curva. Nessa técnica, o pigmento se fixa quando a cal do reboco úmido endurece. Por isso, a cada dia só se pode pintar a parte que consegue ficar fresca. A Gazeta de Museus conta que, com luz rasante, ainda se distinguem essas jornadas de trabalho. Antes de pintar, o artista fez muitos desenhos de estudo e decalques numerados e quadriculados que transferia para a parede, porque um afresco não admite correções.\n\nO museu descreve a obra em quatro atos. No primeiro aparece a desigualdade da Nova Espanha. No segundo, sob um edifício neoclássico que simboliza o pensamento enciclopedista, estão os precursores das ideias. O terceiro mostra o movimento insurgente, com Hidalgo retratado duas vezes. O quarto apresenta o Congresso de Chilpancingo, encabeçado por José María Morelos. Se você procurar bem, há paisagens reais: a cidade de Guanajuato, a igreja de Dolores e a Alhóndiga de Granaditas.\n\nUm estudo da revista Educação Química conta cerca de trezentas figuras em três planos de profundidade, e dentre elas cerca de oitenta estão identificadas. Entre as mulheres aparecem Josefa Ortiz de Domínguez, Gertrudis Bocanegra, Mariana Rodríguez del Toro e Leona Vicario. Em primeiro plano, o mesmo estudo reconhece dez grupos indígenas. Nem todos os rostos são retratos fiéis: por falta de imagens, O’Gorman teve de imaginar alguns, e o historiador Mariano Cruz Pérez aponta o caso de José María Jiménez.\n\nHá outro dado curioso, que vem de um boletim do INAH de dois mil e vinte e cinco. O’Gorman pesquisava antes de cada projeto, e nos três murais que o museu guarda aparecem objetos do acervo, como armas e bandeiras. O historiador Salvador Rueda Smithers afirmou: Dom Juan O’Gorman escreveu história nos murais. Ou seja, o mural não só ilustra a história; também dialoga com as peças do museu.\n\nConvém olhar a obra com olhar crítico. Um artigo acadêmico a descreve como um documento visual muito difundido, reproduzido em livros didáticos. Lembre-se de que ela expressa uma leitura liberal da história: a luz contra a escuridão, o povo contra o absolutismo. É a visão de um artista de mil novecentos e sessenta, não um registro neutro. E isso a torna interessante: ela diz a você como se contava a Independência no século vinte.\n\nAs fontes também não coincidem totalmente quanto ao período que ela abrange. O museu cita uma legenda da própria obra que fala de uma história entre mil setecentos e noventa e cinco e mil oitocentos e treze. Outros estudos a contam desde mil setecentos e oitenta e quatro até mil oitocentos e catorze.\n\nNo final da parede, o mural se detém em Morelos e seu Congresso. Ali termina o pincel de O’Gorman, mas a guerra continuou. Para conhecer o homem com quem tudo começou, a próxima parada guarda seu [estandarte e suas relíquias](chap_27_estandarte_hidalgo). Depois vêm [Morelos e Iturbide](chap_06_morelos_iturbide), dois homens que se enfrentaram e cujos caminhos se cruzaram."
+    },
+    "retos_observacion": {
+      "hash": "adaffbe319bc3fdb",
+      "texto": [
+        "Conte as duas vezes em que Miguel Hidalgo aparece e compare como o autor o pintou",
+        "Procure a paisagem do céu: a lua em uma extremidade e o sol nascente na outra",
+        "Localize o edifício neoclássico do segundo ato, que representa a cultura e o pensamento enciclopedista"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cad2cd24552e4c89",
+      "texto": {
+        "Autor": "Juan O’Gorman",
+        "Data": "1960 a 1961",
+        "Técnica": "afresco sobre reboco",
+        "Dimensões": "4,40 m de altura por 15,69 m de largura",
+        "Estrutura": "quatro atos, da desigualdade vice-reinal ao Congresso de Chilpancingo",
+        "Localização": "Sala 6, A guerra de Independência, Museu Nacional de História"
+      }
+    },
+    "faq_mito": {
+      "hash": "b558d742ee31a8cc",
+      "texto": {
+        "pregunta": "Mito: Todos os rostos do mural são retratos fiéis dos personagens históricos.",
+        "respuesta": "Realidade: Entre cerca de trezentas figuras há retratos documentados e também rostos imaginados por falta de imagens. O’Gorman pesquisava antes de cada projeto, e o mural inclui objetos do acervo do museu."
+      }
+    }
+  }
+}

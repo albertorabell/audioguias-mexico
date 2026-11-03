@@ -1,0 +1,55 @@
+{
+  "id": "chap_23_jardin_alcazar",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f21edc01e541b6db",
+      "texto": "Jardim do Alcázar"
+    },
+    "frase_gancho": {
+      "hash": "c035e123c0b6b0b7",
+      "texto": "Maximiliano dizia que a felicidade era construir castelos com terraços ajardinados, e este jardim íntimo nasceu dessa ideia."
+    },
+    "puente_narrativo": {
+      "hash": "364745cc532e5f44",
+      "texto": "Siga o percurso até o ponto mais alto do morro, onde se ergue o torreão do Cavaleiro Alto."
+    },
+    "guion_corto": {
+      "hash": "29fcd6e89058d10c",
+      "texto": "Construir castelos com terraços ajardinados. Assim Maximiliano de Habsburgo definia a felicidade, segundo uma cartela do museu. Apaixonado por botânica, ele transformou este espaço em um jardim íntimo, cercado de corredores com tetos leves sobre finas colunas de ferro. Aqui ele ouvia e ditava sua correspondência. O jardim se abria para a vista do bosque de Chapultepec, como nos palácios europeus. No corredor norte, Santiago Rebull pintou as Bacantes. São figuras de estilo pompeiano que tocam pandeiro, dançam ao lado de uma leoa ou seguram ramos de videira. E no terraço sul está a Fonte do Gafanhoto, obra do escultor Luis Albarrán. Entre pintura, ferro e plantas, o jardim foi pensado para ler, escrever e descansar."
+    },
+    "guion_largo": {
+      "hash": "2652f4509932ebcf",
+      "texto": "Quando Maximiliano e Carlota chegaram a Chapultepec, escolheram os aposentos do térreo que davam para o leste. Por isso mandaram construir um terraço panorâmico diante deles, de onde se viam a Cidade do México, o lago de Texcoco e os vulcões. O jardim que você percorre é outra peça dessa ideia. Um artigo da UNAM o descreve como um jardim de estilo clássico no terraço superior do castelo. Segundo esse texto, o próprio Maximiliano o projetou. Quem o executou foram o arquiteto austríaco Julius Hofmann e o jardineiro imperial Wilhelm Knechtel.\n\nAs obras de adaptação do edifício como palácio ficaram a cargo de Ramón Rodríguez Arangoity, arquiteto mexicano e ex-aluno do Colégio Militar. Segundo o museu, incluíram um pórtico central, uma loggia com colunas de ferro e um novo desenho de jardins. Ou seja, o ferro e as plantas foram pensados juntos.\n\nO nome de Knechtel aparece em várias histórias do castelo. O Museu Nacional de História conta que esse botânico austríaco redesenhou os jardins. Também lembra palavras de Carlota: o resultado se devia mais à mão de Max. É uma pista útil para quem imagina que a imperatriz foi a jardineira do castelo.\n\nMaximiliano tinha razões pessoais para dedicar tempo ao jardim. Segundo a cartela do jardim, ele era apaixonado por botânica. Além disso, usava o corredor para ditar e ouvir sua correspondência. Para seguir essa pista, visite a [sala de leitura](chap_16_sala_lectura_goces). O museu a relaciona com seu palácio de Miramar e com a ideia de ler e escrever nos terraços.\n\nO corredor norte guarda uma história de duas épocas. Santiago Rebull, pintor favorito da corte, fez ali quatro Bacantes em mil oitocentos e sessenta e cinco. Quase trinta anos depois, em mil oitocentos e noventa e quatro, com Porfirio Díaz na presidência, voltou para pintar mais duas. Rebull tinha então sessenta e cinco anos. As pinturas imitam o estilo pompeiano e foram feitas a óleo sobre uma base brilhante de cal e pó de mármore. Um mesmo pintor trabalhou assim para o império e para o porfiriato, com quase três décadas de intervalo.\n\nCom o passar do tempo, o jardim e seus arredores mudaram de função. Em mil oitocentos e setenta e oito, o terraço foi ampliado para o observatório e se abriu um acesso ao andar superior. Depois, por iniciativa de Díaz, esse acesso se transformou na [Escadaria dos Leões](chap_13_escalera_leones), de mármore branco e corrimão de latão. O museu explica que, por volta de mil novecentos e quinze, por instruções de Venustiano Carranza, ela foi reformada de novo. Os [vitrais da galeria](chap_14_vitrales_emplomados), feitos em Paris por volta de mil e novecentos, completam a leitura de como cada época deixou sua marca.\n\nUma última ideia sobre a paisagem. A cartela explica que o jardim se integrava visualmente ao bosque, como acontecia nos palácios europeus. Do alto, além disso, domina-se a bacia do México, com a Serra Nevada ao leste. Por isso este lugar não é apenas um jardim: é uma forma de colocar a paisagem inteira dentro do palácio."
+    },
+    "retos_observacion": {
+      "hash": "945efeb904bc3394",
+      "texto": [
+        "Repare nos corredores com tetos leves sustentados por finas colunas de ferro",
+        "Procure no corredor norte as pinturas de estilo pompeiano com figuras que dançam, tocam pandeiro ou seguram ramos de videira",
+        "Localize a Fonte do Gafanhoto no terraço sul e veja como o jardim se abre para o bosque"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a9bfeb7bc84c95a2",
+      "texto": {
+        "Época": "Segundo Império, 1864-1867",
+        "Projeto": "Maximiliano de Habsburgo; execução atribuída a Julius Hofmann e ao jardineiro Wilhelm Knechtel",
+        "Bacantes do corredor norte": "Santiago Rebull, 1865 e 1894",
+        "Fonte do Gafanhoto": "Luis Albarrán, terraço sul",
+        "Localização": "jardim interno do Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "cd46a51647312b80",
+      "texto": {
+        "pregunta": "Mito: O jardim do Alcázar foi um capricho da imperatriz Carlota.",
+        "respuesta": "Realidade: O Museu Nacional de História cita a própria Carlota, que escreveu que o resultado se devia mais à mão de Max; a cartela o descreve como apaixonado por botânica e um artigo da UNAM atribui o projeto a Maximiliano."
+      }
+    }
+  }
+}

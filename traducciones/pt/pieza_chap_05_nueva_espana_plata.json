@@ -1,0 +1,55 @@
+{
+  "id": "chap_05_nueva_espana_plata",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a28105ad7c5d082d",
+      "texto": "O Reino da Nova Espanha: Prata, Galeões e Marfins"
+    },
+    "frase_gancho": {
+      "hash": "0a796012b1c98d73",
+      "texto": "A prata mexicana que pagou a batalha de Trafalgar e as cem lojas onde se vendia canela do Ceilão e seda de Manila."
+    },
+    "puente_narrativo": {
+      "hash": "915392e641f9f178",
+      "texto": "Continue avançando até o fim das salas vice-reais: ao dobrar o corredor, abrir-se-á diante de você o gigantesco mural côncavo em que Juan O’Gorman pintou a explosão da Independência."
+    },
+    "guion_corto": {
+      "hash": "31d2c1bdc0e7a2a7",
+      "texto": "Estas salas desdobram o esplendor material e as profundas contradições dos trezentos anos do vice-reinado da Nova Espanha. À sua volta brilham baús de laca asiática, Cristos e figuras entalhadas em marfim filipino, tibores de porcelana, biombos pintados a óleo com vistas do Tepeyac, objetos de prata lavrada e quadros de castas. Todo esse universo nasceu quando a terra americana do milho, do cacau, da baunilha e da cochonilha se fundiu com o trigo, o gado, a cana-de-açúcar e o arado trazidos da Europa, transformando a Cidade do México no centro comercial que unia a Europa à Ásia."
+    },
+    "guion_largo": {
+      "hash": "c3dcc9437a62ecd4",
+      "texto": "Poucas vezes paramos para pensar que, no século dezoito, a moeda usada pelos comerciantes na China e a prata que financiava os exércitos da Europa saíam das entranhas do México. Tudo começou em mil quinhentos e vinte e oito, quando foi fundada Taxco, a primeira mina americana explorada com técnicas europeias, seguida muito em breve pelas gigantescas veias de Zacatecas, em mil quinhentos e quarenta e seis, e de Guanajuato, em mil quinhentos e cinquenta e quatro, unidas pelo Camino Real de Tierra Adentro. A prata da Nova Espanha foi tão poderosa que financiou desde a Guerra dos Trinta Anos, no século dezessete, até os navios espanhóis e franceses que lutaram na batalha de Trafalgar em mil oitocentos e cinco, e até mesmo os subsídios ingleses para derrotar Napoleão Bonaparte. Em troca dessa prata, das pérolas da Baixa Califórnia e do corante vermelho da cochonilha, o Galeão de Manila enchia a capital de tesouros. Por volta do ano mil oitocentos e quatro, existiam na Cidade do México cerca de cento e sete pulperías, as lojas de secos e molhados e de produtos importados da época, onde você podia comprar vinho de La Rioja, azeitonas de Sevilha, canela do Ceilão, cacau de Caracas, cravo das Filipinas, xales de Manila, leques com varetas de tartaruga e até os primeiros lenços de algodão que mais tarde usaria [José María Morelos](chap_06_morelos_iturbide). Mas essa riqueza repousava sobre uma ferida humana: além do trabalho indígena nas fazendas, durante três séculos foram trazidos da África cerca de duzentos e cinquenta mil escravizados, tratados como mercadorias, cuja rebeldia e mestiçagem prepararam o terreno para a revolução de Independência que você verá na próxima sala."
+    },
+    "retos_observacion": {
+      "hash": "997ac149671a1558",
+      "texto": [
+        "Observe as delicadas esculturas religiosas entalhadas em presas de marfim e as caixas de laca trazidas no Galeão de Manila",
+        "Procure as pinturas e os biombos vice-reais que retratam o santuário do Tepeyac e a vida cotidiana da capital",
+        "Repare nos objetos de prata lavrada, ferro forjado e cerâmica de Puebla e Guanajuato que eram exportados para três continentes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "08cbd7618a7ae398",
+      "texto": {
+        "Período": "Vice-reinado da Nova Espanha (1521-1821)",
+        "Marcos da mineração": "Taxco (1528), Zacatecas (1546) e Guanajuato (1554)",
+        "Comércio urbano": "Cerca de 107 pulperías registradas na Cidade do México por volta de 1804",
+        "Demografia forçada": "Aproximadamente 250 000 escravizados africanos introduzidos ao longo de três séculos",
+        "Localização": "Salas 3 a 6 (O Reino da Nova Espanha), Andar Térreo MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "c41b406a4d225f0f",
+      "texto": {
+        "pregunta": "Mito: Durante o vice-reinado, a Nova Espanha só negociava com a Espanha e vivia isolada do resto do mundo.",
+        "respuesta": "Realidade: A Nova Espanha foi a ponte do primeiro comércio global: sua prata circulava como moeda na China e financiou guerras europeias como Trafalgar (1805), enquanto à Cidade do México chegavam sedas da Ásia, canela do Ceilão, cacau de Caracas e marfins das Filipinas."
+      }
+    }
+  }
+}

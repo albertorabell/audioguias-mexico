@@ -1,0 +1,59 @@
+{
+  "id": "chap_01_rampa",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "d9f43da925a1471b",
+      "texto": "Chapultepec: o morro do gafanhoto e suas nascentes"
+    },
+    "frase_gancho": {
+      "hash": "9604ddc6f2cdd70d",
+      "texto": "Antes de ser castelo, este morro foi uma fonte de água doce que manteve viva a capital mexica."
+    },
+    "puente_narrativo": {
+      "hash": "405a650038748245",
+      "texto": "Siga o caminho até o alto do morro. Logo você chegará à entrada principal de El Castillo, onde começa a história do edifício."
+    },
+    "guion_corto": {
+      "hash": "ceeae5ec271316a8",
+      "texto": "Chapultepec vem do náuatle chapulin, que quer dizer gafanhoto, e tepetl, que quer dizer morro. A letra c final indica lugar, então o nome significa no morro do gafanhoto. Aqui vivia gente há uns três mil anos, na margem do antigo lago de Texcoco. Os mexicas o consideraram um lugar sagrado e estratégico desde a fundação de Tenochtitlan, no ano de mil trezentos e vinte e cinco. A razão era prática: deste morro brotavam nascentes de água doce, e a água do lago não podia ser bebida. Um aqueduto levava esse tesouro até a capital. Enquanto você sobe, lembre-se de que está caminhando por uma montanha de água, muito antes de existir um palácio."
+    },
+    "guion_largo": {
+      "hash": "5849bab9a26294c8",
+      "texto": "Esta subida atravessa várias camadas de história, e a mais antiga não tem muros. É a água.\n\nHá cerâmica e sepultamentos do período Pré-clássico, entre o ano dois mil e quinhentos antes de Cristo e o ano duzentos depois de Cristo. Eles mostram que aqui houve povoadores há uns três mil anos. Eles escolheram a margem do antigo lago de Texcoco, junto a um morro que dominava a paisagem.\n\nOs mexicas conheceram o lugar durante sua longa migração. Pararam aqui por um tempo, até que os chalcas e os xochimilcas os expulsaram. Quando fundaram Tenochtitlan, voltaram a olhar para cá. O Museu Nacional de História explica que Chapultepec foi considerado um lugar sagrado e estratégico por suas nascentes. Uma pesquisa da UNAM lembra o detalhe que explica tudo: a água do lago de Texcoco não era potável. Sem essas nascentes, a capital mexica teria passado sede.\n\nPor isso foram construídos aquedutos, e as fontes não coincidem totalmente quanto às datas. Um estudo do INAH conta que os texcocanos levaram água à cidade no ano de mil quatrocentos e sessenta e seis. Foi por ordem de Nezahualcóyotl, durante o governo de Moctezuma Ilhuicamina. Outras notícias do INAH falam de um primeiro canal simples, de caniço, pedras e lodo, por volta de mil quatrocentos e dezoito. O que está claro é a função: levar água doce a uma cidade construída sobre o lago.\n\nO morro também serviu para deixar memória. O INAH informa que os governantes mexicas mandaram esculpir sua efígie nas rochas vizinhas. Um texto do Instituto de Pesquisas Históricas da UNAM acrescenta que várias dessas imagens foram destruídas com o passar dos séculos.\n\nA água também foi uma arma. Durante o cerco de Tenochtitlan, as tropas espanholas comandadas por Cristóbal de Olid destruíram o primeiro aqueduto de Chapultepec. Anos depois, em mil quinhentos e trinta, uma cédula real do imperador Carlos Quinto entregou o bosque à Cidade do México. As árvores de tronco grosso que crescem ao pé do morro são ahuehuetes, palavra náuatle que significa velho da água. Uma carta do vice-rei Antonio de Mendoza, de mil quinhentos e trinta e sete, já fala deles. A tradição atribui a Nezahualcóyotl o plantio dos mais antigos.\n\nO topo demorou a receber um palácio. Segundo o museu, uma explosão de pólvora destruiu, em mil setecentos e oitenta e quatro, a casa de veraneio de um vice-rei. Ela ficava no sopé do morro. Um ano depois, Bernardo de Gálvez começou a obra de um novo palácio no alto. Essa é a origem de El Castillo que você vai visitar.\n\nDesde então, estas encostas viram passar cadetes, imperadores e presidentes. Na batalha de mil oitocentos e quarenta e sete, o batalhão de San Blas foi o único reforço dos defensores. Segundo o Instituto Nacional de Estudos Históricos das Revoluções do México, ele só conseguiu subir até a primeira rampa.\n\nPortanto, antes de chegar à porta, fique com esta ideia: o morro foi primeiro uma nascente, depois um bosque protegido e, muito mais tarde, um palácio. Agora espera por você [a entrada principal do recinto](chap_02_fachada_puerta)."
+    },
+    "retos_observacion": {
+      "hash": "d2fe29701143e71d",
+      "texto": [
+        "Procure entre as árvores do bosque algum ahuehuete, que se reconhece pelo tronco grosso e pelos galhos caídos",
+        "Observe como o caminho sobe e veja quanto bosque fica aos seus pés",
+        "Olhe para o horizonte e imagine o vale com o lago de Texcoco, que hoje já não se vê"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e5520fd6148063d",
+      "texto": {
+        "Nome": "Chapultepec, do náuatle chapulin (gafanhoto) e tepetl (morro): no morro do gafanhoto",
+        "Ocupação antiga": "cerâmica e sepultamentos do Pré-clássico, do ano 2500 antes de Cristo ao 200 depois de Cristo",
+        "Importância mexica": "lugar sagrado e estratégico por suas nascentes, desde a fundação de Tenochtitlan em 1325",
+        "Bosque da cidade": "cédula real de Carlos V, 1530",
+        "Dado-chave": "em 1785 o vice-rei Bernardo de Gálvez iniciou o palácio do topo"
+      }
+    },
+    "faq_mito": {
+      "hash": "bc68ce1c15e2ac94",
+      "texto": {
+        "pregunta": "Mito: O Castelo de Chapultepec foi construído pelo imperador Maximiliano.",
+        "respuesta": "Realidade: A obra começou em 1785, com o vice-rei Bernardo de Gálvez. Maximiliano e Carlota o habitaram de 1864 a 1867 e o transformaram em palácio."
+      }
+    }
+  }
+}

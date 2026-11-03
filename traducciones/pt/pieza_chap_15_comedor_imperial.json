@@ -1,0 +1,57 @@
+{
+  "id": "chap_15_comedor_imperial",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "068bf1f9d1350eff",
+      "texto": "O Salão de Jantar e o Salão de Chá"
+    },
+    "frase_gancho": {
+      "hash": "c9407e44d5401eff",
+      "texto": "Diz-se que Maximiliano encomendou cerca de cinco mil peças de prata para a sua mesa; aqui se conta o que foi feito delas."
+    },
+    "puente_narrativo": {
+      "hash": "480948573b816506",
+      "texto": "Siga em direção à Sala de Leitura e ao Salão de Jogos, onde o palácio deixava o protocolo de lado para jogar e conversar."
+    },
+    "guion_corto": {
+      "hash": "0a4a1ce1df04a93c",
+      "texto": "Cerca de cinco mil peças de prata, diz-se, encomendou Maximiliano à casa francesa Christofle para servir a sua mesa. O museu conserva pouco mais de duzentas. A historiadora María Hernández Ramírez explica que a chamada prata Christofle é, na realidade, uma liga de alpaca. Neste salão de jantar, segundo o museu, essa prata imperial é exibida junto a cristais de Porfirio Díaz. A lareira e os aparadores, de cedro, mogno, metal e mármore, foram feitos por Pedro Téllez Toledo por ordem de Díaz. O escultor Epitacio Calvo decorou o salão. Atrás deste salão, segundo o museu, um monta-cargas subia os alimentos da cozinha do porão. É uma mesa onde o Império e o Porfiriato compartilham o serviço. E o vizinho Salão de Chá mudou cinco vezes de uso: de quarto de empregados a boudoir de Carmen Romero Rubio."
+    },
+    "guion_largo": {
+      "hash": "7653b561af308943",
+      "texto": "Quando se fala da mesa de Maximiliano, o que primeiro chama a atenção é o número. Diz-se que o imperador encomendou à casa Christofle, da França, uma baixela de cerca de cinco mil peças. A historiadora María Hernández Ramírez, do museu, adverte que não está confirmado que todas tenham chegado ao México. O acervo conserva pouco mais de duzentas, com dois monogramas: as letras MIM sob uma coroa, que significam Maximiliano Imperador do México, e um M coroado e rodeado de ramos vegetais.\n\nHá um dado que surpreende. A chamada prata Christofle é, na realidade, uma liga de alpaca. A pesquisadora cita uma análise segundo a qual a prata formava uma parte mínima da superfície. Sua história no México também é longa: foi transferida do Palácio Nacional em mil oitocentos e setenta e nove e exibida em Chapultepec em mil novecentos e quarenta e quatro.\n\nA cozinha da corte era europeia, mas com ingredientes do país, segundo um artigo da Revista Bicentenario. À frente estava o húngaro Josef Tüdös, com uma equipe de quatro cozinheiros, dois confeiteiros, seis ajudantes de cozinha, um padeiro e um inspetor. Num jantar de gala em Guanajuato foram servidos sopa de tartaruga, geleias de Morelia e tortas de nozes de Saltillo. Foi em vinte e três de setembro de mil oitocentos e sessenta e quatro. O cardápio estava escrito em francês. O mesmo artigo assinala que os banquetes de protocolo eram realizados sobretudo no Palácio Imperial, hoje Palácio Nacional.\n\nO salão de jantar que você vê tem sobretudo a marca do Porfiriato. Segundo o museu, a lareira e os aparadores são de cedro, mogno, metal e mármore. Foram feitos por Pedro Téllez Toledo por ordem de Porfirio Díaz, e o escultor Epitacio Calvo decorou o salão. Os móveis levam o monograma da República Mexicana. Os registros citados pelo museu anotam este espaço como quarto do segundo astrônomo em mil oitocentos e setenta e sete. Em mil oitocentos e oitenta e dois já aparece como sala de jantar. São os mesmos anos do observatório da [Escadaria dos Leões](chap_13_escalera_leones).\n\nAtrás do salão de jantar, o trabalho era enorme. O museu conta que um monta-cargas e uma escada levavam os alimentos da cozinha do porão até a copa, onde trabalhavam dezenas de criados. Enquanto na mesa se brindava, embaixo se corria.\n\nO Salão de Chá é dedicado a Carlota. O museu lembra que ela recebia damas das famílias mais notáveis do México e fundou casas de beneficência. Quando Maximiliano viajava, ela presidia conselhos e concedia audiências. Quando a situação se agravou, recorreu às cortes europeias e ao papa Pio Nono, sem sucesso. Sua história continua no [quarto de Carlota](chap_18_recamara_carlota).\n\nA legenda deste salão traz um quadro sobre o que foi este espaço em outros tempos, e a lista é longa. Em mil oitocentos e sessenta e seis, com Maximiliano, eram quartos de empregados. Em mil oitocentos e setenta e sete foi o quarto do diretor do Observatório Astronômico. Em mil oitocentos e oitenta e dois foi o quarto do presidente Manuel González. Em mil novecentos e seis, o boudoir, ou salão privado, de Carmen Romero Rubio, esposa de Porfirio Díaz. E em mil novecentos e trinta e dois, uma sala do presidente Abelardo Rodríguez. As salas mudam de nome a cada época, e o nome atual é uma forma de contá-las.\n\nUma última cena da mesa imperial. Em dezenove de julho de mil oitocentos e sessenta e cinco houve um banquete em honra do visconde de Sotomayor, enviado do rei de Portugal. Segundo a Revista Bicentenario, destacaram-se as alcachofras à portuguesa, o pudim de Berlim e a torta de codorna à Buenavista. Prata de um imperador deposto e móveis de um presidente que governou por décadas: esse contraste é o que esta sala lhe conta hoje."
+    },
+    "retos_observacion": {
+      "hash": "63a2812e1fcb45a5",
+      "texto": [
+        "Procure nos móveis o monograma da República Mexicana",
+        "Observe os materiais da lareira e dos aparadores, e distinga a madeira do metal e do mármore",
+        "Se houver peças de prata Christofle à vista, procure o monograma MIM ou o M coroado"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d04989c41018342c",
+      "texto": {
+        "Lareira e aparadores": "Pedro Téllez Toledo, por encomenda de Porfirio Díaz",
+        "Decoração do salão": "escultor Epitacio Calvo",
+        "Materiais": "cedro, mogno, metal e mármore",
+        "Prata de serviço": "Christofle (França), monogramas MIM e M coroado",
+        "Registro de uso": "sala de jantar em 1882, segundo o Museu Nacional de História",
+        "Dado-chave": "a prata Christofle é uma liga de alpaca",
+        "Salão de Chá, usos anteriores": "1866 quartos de empregados; 1877 quarto do diretor do Observatório; 1882 quarto de dormir; 1906 boudoir de Carmen Romero Rubio; 1932 sala"
+      }
+    },
+    "faq_mito": {
+      "hash": "f1352cc6bb7724d7",
+      "texto": {
+        "pregunta": "Mito: Este salão de jantar se conserva tal como o conheceram Maximiliano e Carlota.",
+        "respuesta": "Realidade: Segundo o Museu Nacional de História, a lareira e os aparadores foram feitos por Pedro Téllez Toledo por ordem de Porfirio Díaz e o salão foi decorado pelo escultor Epitacio Calvo; da época do Império, exibe-se a prata Christofle."
+      }
+    }
+  }
+}

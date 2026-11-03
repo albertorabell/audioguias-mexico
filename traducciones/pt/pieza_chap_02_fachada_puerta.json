@@ -1,0 +1,56 @@
+{
+  "id": "chap_02_fachada_puerta",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a1635e04078536c3",
+      "texto": "A entrada do Castelo e sua origem vice-reinal"
+    },
+    "frase_gancho": {
+      "hash": "525275c3f40a2f5b",
+      "texto": "Dizia-se que o vice-rei que mandou erguer este edifício queria se tornar rei; os documentos contam outra história."
+    },
+    "puente_narrativo": {
+      "hash": "3712d97d74d58f8c",
+      "texto": "Siga para o espaço aberto onde estudaram e viveram os cadetes do Colégio Militar. Ali o espera o Pátio dos Canhões."
+    },
+    "guion_corto": {
+      "hash": "31b793ac0193eac3",
+      "texto": "Há quem tenha afirmado que o vice-rei Bernardo de Gálvez mandou erguer este edifício como fortaleza, para se proclamar rei da Nova Espanha. É uma história antiga, e um estudo da UNAM a descarta: não há documentos que mostrem que Gálvez pretendesse a coroa. O que está documentado é outra coisa. As obras começaram em mil setecentos e oitenta e cinco, a cargo dos engenheiros Francisco Bambitelli e, depois, Manuel Agustín Mascaró. Gálvez morreu em mil setecentos e oitenta e seis, e, segundo o museu, a obra ficou inacabada. Quando a Coroa mandou leiloar o terreno, ninguém se interessou. Aquele retiro campestre do século dezoito teria depois muitas vidas: colégio militar, palácio imperial, residência presidencial e museu."
+    },
+    "guion_largo": {
+      "hash": "ccef97c094013df0",
+      "texto": "Bernardo de Gálvez nasceu em mil setecentos e quarenta e seis, em Macharaviaya, na Espanha. Antes de chegar ao México, já era conhecido como militar: comandou o cerco de Pensacola, na Flórida, que terminou em maio de mil setecentos e oitenta e um com uma vitória espanhola. Em mil setecentos e oitenta e cinco, mudou-se para a Nova Espanha para suceder a seu pai, Matías de Gálvez, como vice-rei.\n\nA ideia de um palácio no alto de Chapultepec era anterior à sua chegada. Segundo o Museu Nacional de História, depois da explosão de um paiol de pólvora próximo, os arquitetos propuseram um novo palácio no alto. Foi por ordem de Matías de Gálvez. Um estudo do INAH registra que as plantas foram apresentadas em vinte e nove de maio de mil setecentos e oitenta e quatro. Com Bernardo, em mil setecentos e oitenta e cinco, começou a construção. O INAH o descreve como um retiro campestre, não como uma fortaleza.\n\nEntão veio a doença. Um artigo da UNAM sobre o seu governo conta que os sintomas aparecem desde julho de mil setecentos e oitenta e seis. Em outubro, já estava gravemente enfermo e foi levado para Tacubaya. Ali morreu em trinta de novembro daquele ano, aos quarenta anos. Seus funerais foram multitudinários, e o corpo ficou exposto por três dias diante de um povo que, segundo as crônicas, gostava muito dele.\n\nDali nasceram os rumores. Alguns disseram que ele tinha sido envenenado, até mesmo por ordem do rei Carlos Terceiro, para impedir que tomasse o reino. Outros sustentavam que ele havia construído este edifício como fortaleza para se coroar. O autor do estudo rejeita ambas as versões. A doença durou pelo menos quatro meses, e um veneno lento teria sido notado pelos médicos. Além disso, não existem documentos que sugiram que Gálvez pretendesse a coroa. É um bom exemplo de como a morte repentina de um personagem querido pode se encher de lendas.\n\nSem o vice-rei, o palácio perdeu seu impulsionador. A Coroa suspendeu as obras e mandou leiloar o terreno, mas o leilão fracassou porque ninguém se interessou. Depois, os ministros da Real Fazenda venderam os vidros, as portas e as janelas. Em mil oitocentos e seis, a Câmara Municipal da Cidade do México adquiriu o imóvel.\n\nO nome de Castelo veio muito depois. Em mil oitocentos e trinta e três, decidiu-se transformar o palácio em sede do Colégio Militar. Em mil oitocentos e quarenta e um, começou a reconstrução. Então foi erguido um torreão, o Cavaleiro Alto, que deu ao edifício aspecto de fortaleza e levou a chamá-lo de Castelo. Mais adiante você verá o [Cavaleiro Alto](chap_24_caballero_alto).\n\nA entrada também mudou com as épocas. Na planta de mil setecentos e oitenta e cinco aparece uma entrada principal. Com Maximiliano, o arquiteto Ramón Rodríguez Arangoity adaptou o edifício como palácio, entre mil oitocentos e sessenta e quatro e mil oitocentos e sessenta e sete. Foram acrescentadas arcadas e sacadas na fachada sul. Também se construiu um pórtico central de cinco arcos de meio-ponto. Em mil oitocentos e oitenta e três, quando o Colégio Militar voltou ao Castelo, Porfirio Díaz o usou como residência de verão. Por isso a fachada é uma soma de épocas, mais do que o resultado de um único projeto.\n\nSe você ficar com uma só ideia, que seja esta: o edifício que um vice-rei começou como retiro campestre acabou sendo escola, palácio e museu."
+    },
+    "retos_observacion": {
+      "hash": "6493575589db9f2f",
+      "texto": [
+        "Conte quantos tipos diferentes de aberturas você vê na fachada: portas, janelas, sacadas ou arcos",
+        "Compare os muros sólidos com as partes mais leves e decoradas, e pergunte-se qual parece mais antiga",
+        "Procure no alto o torreão do Castelo, que chegou com a reconstrução de mil oitocentos e quarenta e um"
+      ]
+    },
+    "especificaciones": {
+      "hash": "12bba7d7c8bf6e2e",
+      "texto": {
+        "Início da obra": "1785, vice-rei Bernardo de Gálvez",
+        "Engenheiros": "Francisco Bambitelli e, depois, Manuel Agustín Mascaró",
+        "Uso original": "retiro campestre vice-reinal",
+        "Compra pela Câmara Municipal da Cidade do México": "1806",
+        "Colégio Militar": "decidido em 1833, reconstrução a partir de 1841, com o torreão Cavaleiro Alto",
+        "Pórtico central de cinco arcos de meio-ponto": "época de Maximiliano, 1864 a 1867"
+      }
+    },
+    "faq_mito": {
+      "hash": "d64a889e4b371292",
+      "texto": {
+        "pregunta": "Mito: O edifício se chama castelo porque foi construído para um rei europeu.",
+        "respuesta": "Realidade: Foi iniciado por um vice-rei em 1785 como palácio de recreio. O nome veio depois: o torreão Cavaleiro Alto, construído na reconstrução de 1841 para o Colégio Militar, deu-lhe aspecto de fortaleza."
+      }
+    }
+  }
+}
