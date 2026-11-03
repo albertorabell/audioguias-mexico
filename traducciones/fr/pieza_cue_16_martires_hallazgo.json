@@ -1,0 +1,56 @@
+{
+  "id": "cue_16_martires_hallazgo",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3f5c9fde1d522692",
+      "texto": "Les martyrs du Japon I : la découverte"
+    },
+    "frase_gancho": {
+      "hash": "e599545de6cf4dd0",
+      "texto": "Une peinture murale d’environ trente mètres, restée recouverte de chaux pendant des générations, et dont personne ne se rappelle qui l’a peinte."
+    },
+    "puente_narrativo": {
+      "hash": "2fae5821ce7727ef",
+      "texto": "Suivez votre parcours : il peut vous conduire à lire la peinture murale tranquillement ou au Musée d’art sacré."
+    },
+    "guion_corto": {
+      "hash": "f183e764b752d7a9",
+      "texto": "Quelqu’un nettoyait les murs de la cathédrale quand un poisson est apparu. C’est ce que racontent certaines versions de la découverte de cette peinture murale, qui était recouverte de chaux depuis des générations. Sous les couches de peinture, il y avait une scène immense, d’environ trente mètres de long sur huit de haut, consacrée aux martyrs de Nagasaki et à saint Philippe de Jésus. Elle est apparue lors d’une grande rénovation ordonnée par l’évêque Sergio Méndez Arceo, à la fin des années cinquante. Personne ne sait qui l’a peinte : on l’attribue à un artiste anonyme du dix-septième siècle ou du début du dix-huitième. Elle raconte un épisode réel, survenu au Japon en mille cinq cent quatre-vingt-dix-sept, qui eut un grand écho au Mexique."
+    },
+    "guion_largo": {
+      "hash": "8a71bad48fc35802",
+      "texto": "L’histoire commence au Japon. Le dix-huit janvier mille cinq cent quatre-vingt-dix-sept, le gouverneur Taicósama prononça une sentence à Osaka. C’est le nom que les textes espagnols donnent à Toyotomi Hideyoshi. L’ordre : vingt-quatre chrétiens devaient être crucifiés à Nagasaki. Au final, ils furent vingt-six, parmi des franciscains, des jésuites et des laïcs. Ils furent exécutés le cinq février de cette année-là. L’un d’eux était Philippe de Jésus, un jeune franciscain né à Mexico, et c’est pourquoi son histoire a tant compté ici. C’est le premier saint né au Mexique, et il fut canonisé en mille huit cent soixante-deux.\n\nL’une des questions restées ouvertes est de savoir pourquoi cette scène a fini peinte dans un couvent de Cuernavaca. Une hypothèse évoque des franciscains passés par ce couvent en route vers leur martyre, comme Pedro Bautista, Martín de la Ascensión, Francisco Blanco et Francisco de San Miguel. Une autre rapproche la peinture du naufrage du galion San Francisco en mille six cent neuf, au large des côtes du Japon. Plus de trois cents marins de la Nouvelle-Espagne furent alors secourus. Aucune des deux hypothèses n’est prouvée.\n\nLa peinture murale mesure environ trente mètres de long et huit de haut. Elle couvre les murs de la nef, entre le sous-chœur et l’arc triomphal, qui est le grand arc séparant la nef du sanctuaire. Son auteur et son titre d’origine sont inconnus. Les spécialistes la datent entre le milieu du dix-septième siècle et le début du siècle suivant. Certains la rattachent à la période postérieure à mille six cent vingt-huit, lorsque la béatification de Philippe de Jésus fut annoncée.\n\nPuis vint la chaux. Lors de la modernisation des intérieurs, entre le dix-huitième et le dix-neuvième siècle, les murs furent blanchis et recouverts de retables néoclassiques. Une chercheuse, María Elena Ota, relie le chaulage au curé Vito Cruz Manjarrez, qui fut en poste de mille huit cent soixante-sept à mille huit cent quatre-vingts.\n\nLa découverte connaît plusieurs versions. La rénovation fut ordonnée par l’évêque Sergio Méndez Arceo et dirigée par frère Gabriel Chávez de la Mora et l’architecte Ricardo de Robina. Selon un auteur, la découverte fut accidentelle. Selon un autre, le Département des monuments coloniaux fit retirer la chaux pour chercher des peintures. Un troisième raconte qu’on voyait déjà des poissons au-dessus de la porte nord et qu’en dessous il y avait treize couches de peinture. Et un quatrième affirme qu’un ouvrier l’a dégagée en nettoyant les murs laissés sans autels. Les sources donnent mille neuf cent cinquante-sept comme année de la découverte et mille neuf cent cinquante-neuf pour la restauration.\n\nLors de cette restauration, la couleur fut réintégrée, surtout des ocres et des bleus. Les repeints furent critiqués, parce qu’ils avaient été faits sans autorisation et avec des couleurs trop intenses. Ils furent ensuite atténués.\n\nC’est précisément pour cela qu’il convient de regarder avec attention. Ce que vous voyez est une peinture ancienne, mais aussi le résultat d’une restauration du vingtième siècle."
+    },
+    "retos_observacion": {
+      "hash": "2606b86ff4172481",
+      "texto": [
+        "Cherchez sur le mur le bord de la peinture murale et essayez d’imaginer la nef recouverte de chaux blanche",
+        "Pensez aux quatre versions de la découverte et décidez laquelle vous semble la plus crédible",
+        "Cherchez les couleurs ocres et bleues qui ont été repeintes lors de la restauration de mille neuf cent cinquante-neuf"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c161f1c1d0358e46",
+      "texto": {
+        "Tamaño": "environ 30 m de long sur 8 m de haut",
+        "Ubicación": "murs de la nef, du sous-chœur à l’arc triomphal",
+        "Autor": "inconnu",
+        "Fecha": "entre le milieu du XVIIe siècle et le début du XVIIIe",
+        "Hallazgo": "1957, lors d’une rénovation ordonnée par l’évêque Sergio Méndez Arceo",
+        "Restauración": "1959, avec réintégration de la couleur"
+      }
+    },
+    "faq_mito": {
+      "hash": "fb9ef3b3c064aaff",
+      "texto": {
+        "pregunta": "Mythe : Un artiste japonais a peint la peinture murale à Cuernavaca.",
+        "respuesta": "Réalité : On ignore qui l’a peinte. Son style ressemble à l’art de l’Asie orientale, mais personne n’a prouvé que son auteur était japonais."
+      }
+    }
+  }
+}

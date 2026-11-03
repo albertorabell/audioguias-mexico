@@ -1,0 +1,55 @@
+{
+  "id": "cue_14_capilla_abierta",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "44aa180a284221cd",
+      "texto": "La Chapelle ouverte, ou Chapelle des Indiens"
+    },
+    "frase_gancho": {
+      "hash": "8e4f2d5664a98721",
+      "texto": "Une chapelle sans mur sur le devant, pour que des milliers de personnes puissent assister à la messe en plein air."
+    },
+    "puente_narrativo": {
+      "hash": "2c678731f9e627c7",
+      "texto": "Suivez votre parcours : il peut vous mener à la nef du temple ou directement aux peintures murales des martyrs."
+    },
+    "guion_corto": {
+      "hash": "7dced689ebc1fc4d",
+      "texto": "Imaginez une église dont il manque un mur. Voilà comment fonctionne la chapelle ouverte : elle a un toit et un autel, mais le devant est ouvert sur l’atrium, afin que la messe soit visible de l’extérieur. Les franciscains l’ont construite pour convertir la population autochtone, trop nombreuse pour tenir dans un temple fermé. C’est pourquoi on l’appelle aussi la Chapelle des Indiens. Les sources la décrivent comme vaste et belle, et comme possiblement la plus ancienne encore debout à Cuernavaca. Elle fut édifiée après la démolition de la chapelle de San José de los Naturales, à Mexico. D’où son autre nom, la Chapelle ouverte de Saint-Joseph. México Desconocido la considère comme la plus grande de son genre en Amérique latine."
+    },
+    "guion_largo": {
+      "hash": "123411dbebe785bc",
+      "texto": "Une église fermée ne convient pas à tout le monde. Au seizième siècle, les frères franciscains avaient devant eux des milliers de personnes qui parlaient nahuatl et d’autres langues, et qui ne tenaient dans aucun temple. La solution fut d’inverser l’architecture : au lieu de faire entrer les gens dans l’église, on fit sortir la messe dans l’atrium.\n\nCette solution s’appelle une chapelle ouverte. Elle comporte un presbytère, c’est-à-dire l’espace de l’autel, couvert et ouvert sur le devant vers l’atrium. Le prêtre officiait à l’intérieur et la foule suivait la messe depuis l’extérieur. À Cuernavaca, cette chapelle est connue sous les noms de Chapelle ouverte, Chapelle des Indiens et Chapelle de Saint-Joseph.\n\nLe nom de Saint-Joseph a une raison d’être. À Mexico existait une chapelle célèbre, celle de San José de los Naturales, destinée à la population autochtone. Selon l’historien de l’art George Kubler, celle de Cuernavaca fut édifiée après la démolition de celle-là. On peut donc voir cette chapelle comme son héritière. La date exacte de cette construction n’est pas bien établie.\n\nLes descriptions s’accordent sur un point : c’est une chapelle large, de belle taille, et possiblement la plus ancienne conservée dans la ville. La revue México Desconocido va plus loin et affirme qu’elle est la plus ancienne et la plus grande de son genre en Amérique latine. Nous n’avons pas pu vérifier cette affirmation auprès d’une autre source, c’est pourquoi nous la présentons comme une opinion et non comme une donnée établie.\n\nL’UNESCO explique que ces monastères du seizième siècle avaient des chapelles ouvertes aux solutions très variées. Certaines sont de simples niches. D’autres, comme celle-ci, sont de grands espaces à arcades. Le but était toujours le même : que la cérémonie atteigne toute la communauté.\n\nPour remplir l’atrium, les frères devaient se faire comprendre. Ils apprirent des langues autochtones et s’appuyèrent sur des images, des chants et des représentations. Les jours de fête, des gens des villages voisins arrivaient. L’atrium devenait alors une grande place, et la chapelle ouverte, sa scène.\n\nIl faut aussi dire ce que signifie le nom de Chapelle des Indiens. C’est un nom de l’époque vice-royale qui renvoie à la population autochtone à laquelle elle était destinée. Aujourd’hui, nous l’employons pour décrire l’histoire, et non pour classer qui que ce soit.\n\nRegardez la chapelle comme une scène. Aucune porte ne la ferme du côté de l’atrium. Cette ouverture explique sa fonction : une célébration pouvait être suivie de l’extérieur par beaucoup de gens à la fois.\n\nComme vous l’avez vu à l’étape précédente, l’atrium faisait partie essentielle de l’ensemble. Comprendre cette chapelle, c’est comprendre qu’ici, l’église commençait dehors. Un mur sans porte peut en dire autant qu’un portail sculpté de reliefs.\n\nPour finir, regardez quelle étendue d’espace il y a devant la chapelle. C’est là que les gens se tenaient. Cette esplanade faisait office de nef, et le ciel, de voûte."
+    },
+    "retos_observacion": {
+      "hash": "fd287a1a5b7c4972",
+      "texto": [
+        "Cherchez le devant ouvert de la chapelle et estimez combien de personnes pourraient suivre la messe depuis l’atrium",
+        "Regardez le toit et les arcs, et repérez quelle partie est couverte et laquelle ne l’est pas",
+        "Comparez cette chapelle avec la façade du temple : laquelle, selon vous, a été construite en premier ?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d47326c72a09e58d",
+      "texto": {
+        "Type": "chapelle ouverte franciscaine du XVIe siècle",
+        "Noms": "Chapelle ouverte, Chapelle des Indiens et Chapelle de Saint-Joseph",
+        "Origine de son nom": "chapelle de San José de los Naturales, à Mexico",
+        "Fonction": "célébrer la messe pour des foules en plein air",
+        "État": "possiblement la plus ancienne encore debout à Cuernavaca"
+      }
+    },
+    "faq_mito": {
+      "hash": "3d21e49a22015f19",
+      "texto": {
+        "pregunta": "Mythe : La Chapelle des Indiens était réservée aux autochtones et non aux autres.",
+        "respuesta": "Réalité : Ce nom vient de l’époque vice-royale et désigne le public visé par l’évangélisation, c’est-à-dire la population autochtone, majoritaire. Il ne dit pas qui pouvait entrer."
+      }
+    }
+  }
+}

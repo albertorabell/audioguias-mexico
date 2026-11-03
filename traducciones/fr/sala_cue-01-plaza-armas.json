@@ -1,0 +1,22 @@
+{
+  "id": "cue-01-plaza-armas",
+  "tipo": "sala",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "8cd1698c125cc795",
+      "texto": "La Plaza de Armas"
+    },
+    "frase_gancho": {
+      "hash": "6de6c4ed9f66f0a2",
+      "texto": "Un Zapata de bronze qui a changé deux fois d’emplacement et qui regarde aujourd’hui le Palais du Gouvernement."
+    },
+    "introduccion_narrativa": {
+      "hash": "96b4ab4e32a66820",
+      "texto": "Vous commencez au centre de la ville, sur la Plaza de Armas Général Emiliano Zapata Salazar. Devant vous se dresse le Palais du Gouvernement, et tout près se trouve le Palais de Cortés, la forteresse que Hernán Cortés fit élever au seizième siècle. Depuis août deux mille vingt-cinq, la place possède en outre un monument équestre à Emiliano Zapata, le chef paysan qui fit de Morelos son territoire. Vous commencez par une introduction à la géographie de la ville. C’est un bon endroit pour comprendre où vous vous trouvez avant d’entrer dans les musées."
+    }
+  }
+}

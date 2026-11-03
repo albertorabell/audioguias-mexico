@@ -1,0 +1,56 @@
+{
+  "id": "cue_18_claustro",
+  "tipo": "pieza",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7a756d3b94c18e61",
+      "texto": "Le cloître et les frères du couvent"
+    },
+    "frase_gancho": {
+      "hash": "b448e6b8b7b11b28",
+      "texto": "Des orangers, un immense verger et les frères qui apprirent le nahuatl : la vie quotidienne du couvent franciscain."
+    },
+    "puente_narrativo": {
+      "hash": "261da6bdc4326367",
+      "texto": "Passez du cloître aux salles du Musée d’art sacré."
+    },
+    "guion_corto": {
+      "hash": "6749cf55dc9bdb8d",
+      "texto": "Un frère dominicain arrivé à Cuernavaca en mille cinq cent quatre-vingt-cinq a décrit le couvent : il comprend une église, un cloître, des dortoirs et un verger. Un chroniqueur du dix-septième siècle a ajouté que la cour était ornée d’orangers et que le verger était très grand. Le cloître est la cour centrale entourée de galeries, et c’est là que se déroulait la vie des frères. Au seizième siècle, des figures comme frère Toribio de Benavente, Motolinía, Agustín de la Coruña et Hernando de Leyva ont vécu ici. Francisco Cimbrón et Hernando de Leyva sont enterrés dans le couvent. Aujourd’hui, les galeries du cloître abritent une grande collection d’art baroque, surtout de la peinture, répartie dans plusieurs salles."
+    },
+    "guion_largo": {
+      "hash": "e65cf6c64544dd9e",
+      "texto": "Un cloître est une cour entourée de galeries couvertes. Dans un couvent, c’était le centre de la vie quotidienne : les frères le traversaient pour aller à l’église, au réfectoire et aux dortoirs. À Cuernavaca, cette cour a changé d’usage, mais elle conserve son sens.\n\nPlusieurs personnes ont laissé des descriptions du couvent. Un frère dominicain, le père Ponce, arrivé en mille cinq cent quatre-vingt-cinq, a écrit que l’édifice était terminé et qu’il comprenait une église, un cloître, des dortoirs et un verger. Au dix-septième siècle, le chroniqueur Vetancurt a décrit la cour ornée d’orangers et un très grand verger. Il a aussi écrit que le vestibule d’entrée, la portería, mesurait plus de cinquante vares de long.\n\nAu seizième siècle, des frères qui allaient devenir très connus ont vécu ici. Frère Toribio de Benavente, que les autochtones appelèrent Motolinía, ce qui veut dire le pauvre, fut l’un des premiers franciscains à arriver au Mexique. Il écrivit une histoire des peuples de la Nouvelle-Espagne. Agustín de la Coruña et Hernando de Leyva y séjournèrent aussi. Deux frères sont enterrés dans le couvent : Francisco Cimbrón, de la province de la Conception, et Hernando de Leyva, de la province de Burgos.\n\nLe couvent ne faisait pas qu’abriter des personnes. Avec le temps, le cloître est devenu un espace de collection. Dans les galeries, on trouve une grande quantité d’art baroque, surtout de la peinture, répartie dans plusieurs salles. Une chercheuse, María Celia Fontana, a étudié cette collection. On y trouve des œuvres attribuées à Juan Correa, Juan de Miranda et Tomás de Sosa.\n\nLe cloître a connu d’autres changements. Lorsque le diocèse fut créé en mille huit cent quatre-vingt-onze, l’ancien couvent devint cathédrale. En mille neuf cent onze, l’évêque Francisco Plancarte y Navarrete fonda un Musée d’art sacré à Cuernavaca. En mille neuf cent quatre-vingt-neuf, l’ingénieur Juan Dubernard a catalogué les biens mobiliers de la cathédrale. Et en mille neuf cent quatre-vingt-douze, le programme Adopte une œuvre d’art a restauré plusieurs pièces clés. Du vingt-six au trente octobre deux mille deux, l’exposition Trésors artistiques de la cathédrale de Cuernavaca a été présentée dans le cloître haut.\n\nPour le parcourir, pensez à ce qu’était une journée dans un couvent : prière, repas, étude et travail. Les galeries couvertes protégeaient du soleil et de la pluie, et c’est pourquoi la cour faisait office de salle commune pour tous.\n\nSi vous trouvez des œuvres accompagnées de leur cartel, lisez-le en entier. Les noms de Correa, de Miranda et de Sosa apparaissent dans les études sur cette collection, mais toutes les attributions ne sont pas sûres. Les pièces changent de place avec le temps, et les salles ouvertes peuvent aussi changer.\n\nSi le cloître est ouvert lors de votre visite, prêtez attention à son silence. Les frères le parcouraient en priant et en étudiant. Celui qui y vient aujourd’hui le parcourt autrement, la tête levée pour voir les plafonds et les arcs, d’un pas plus lent. C’est maintenant à vous de le parcourir en regardant."
+    },
+    "retos_observacion": {
+      "hash": "587c7480160f7d06",
+      "texto": [
+        "Marchez le long d’une galerie et essayez d’imaginer les frères traversant la cour",
+        "Cherchez les orangers ou les arbres de la cour et pensez au verger décrit par Vetancurt",
+        "Regardez les peintures des galeries et repérez celles qui ont un thème religieux baroque"
+      ]
+    },
+    "especificaciones": {
+      "hash": "464d14133bab7145",
+      "texto": {
+        "Description du père Ponce": "1585",
+        "Chronique de Vetancurt": "XVIIe siècle, avec orangers et verger",
+        "Frères du XVIe siècle": "Motolinía, Agustín de la Coruña et Hernando de Leyva",
+        "Sépultures": "Francisco Cimbrón et Hernando de Leyva",
+        "Premier Musée d’art sacré": "1911, par l’évêque Francisco Plancarte y Navarrete",
+        "Catalogue des biens mobiliers": "1989, par Juan Dubernard"
+      }
+    },
+    "faq_mito": {
+      "hash": "121a6d51871af167",
+      "texto": {
+        "pregunta": "Mythe : Motolinía était un surnom moqueur.",
+        "respuesta": "Réalité : C’était un nom nahuatl que les autochtones lui donnèrent et qui veut dire le pauvre, en raison de sa vie humble."
+      }
+    }
+  }
+}

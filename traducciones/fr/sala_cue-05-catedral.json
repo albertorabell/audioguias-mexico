@@ -1,0 +1,22 @@
+{
+  "id": "cue-05-catedral",
+  "tipo": "sala",
+  "idioma": "fr",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "5c56f43416ebe779",
+      "texto": "La cathédrale de l’Assomption"
+    },
+    "frase_gancho": {
+      "hash": "36d1a800b6efcd3d",
+      "texto": "Un couvent franciscain du seizième siècle, aujourd’hui cathédrale et patrimoine mondial de l’humanité."
+    },
+    "introduccion_narrativa": {
+      "hash": "7522e990d27f852c",
+      "texto": "Vous entrez dans un ancien couvent franciscain fondé dans la première moitié du seizième siècle. Depuis mille huit cent quatre-vingt-onze, il est cathédrale, et depuis mille neuf cent quatre-vingt-quatorze, il fait partie des premiers monastères du seizième siècle sur les flancs du Popocatépetl, déclarés patrimoine mondial de l’humanité. Ici vit la couche de la foi. L’ensemble comprend le parvis, la chapelle ouverte, la nef avec ses peintures murales, le cloître, le musée et l’église du Tiers-Ordre."
+    }
+  }
+}
