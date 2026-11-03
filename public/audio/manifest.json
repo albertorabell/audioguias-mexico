@@ -2072,6 +2072,24 @@
           "provider": "azure"
         }
       },
+      "mna_s11_diorama_cuevas_secas": {
+        "corto": {
+          "hash": "685a9ffc52765529",
+          "file": "de/mna_s11_diorama_cuevas_secas_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 275472,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a009bccfc735b759",
+          "file": "de/mna_s11_diorama_cuevas_secas_largo.mp3",
+          "remote": true,
+          "seconds": 212,
+          "bytes": 1273392,
+          "provider": "azure"
+        }
+      },
       "mna_s11_efigie_paquime": {
         "corto": {
           "hash": "3273b7146ae8cc1d",
