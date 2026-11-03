@@ -14,7 +14,7 @@ export const common = defineGroup(
     premium: 'Premium',
     museumName: 'Museo Nacional de Antropología',
     roomWord: 'Sala',
-    languageNames: { es: 'español', en: 'inglés', fr: 'francés', pl: 'polaco', de: 'alemán', ru: 'ruso', ja: 'japonés' } as Record<SupportedLanguage, string>,
+    languageNames: { es: 'español', en: 'inglés', fr: 'francés', pl: 'polaco', de: 'alemán', pt: 'portugués', ru: 'ruso', ja: 'japonés' } as Record<SupportedLanguage, string>,
   },
   {
     appName: 'Audioguía Xolo',
@@ -28,7 +28,7 @@ export const common = defineGroup(
     premium: 'Premium',
     museumName: 'National Museum of Anthropology',
     roomWord: 'Room',
-    languageNames: { es: 'Spanish', en: 'English', fr: 'French', pl: 'Polish', de: 'German', ru: 'Russian', ja: 'Japanese' } as Record<SupportedLanguage, string>,
+    languageNames: { es: 'Spanish', en: 'English', fr: 'French', pl: 'Polish', de: 'German', pt: 'Portuguese', ru: 'Russian', ja: 'Japanese' } as Record<SupportedLanguage, string>,
   },
   {
     appName: 'Audioguía Xolo',
@@ -42,6 +42,6 @@ export const common = defineGroup(
     premium: 'Premium',
     museumName: 'Musée national d’anthropologie',
     roomWord: 'Salle',
-    languageNames: { es: 'espagnol', en: 'anglais', fr: 'français', pl: 'polonais', de: 'allemand', ru: 'russe', ja: 'japonais' } as Record<SupportedLanguage, string>,
+    languageNames: { es: 'espagnol', en: 'anglais', fr: 'français', pl: 'polonais', de: 'allemand', pt: 'portugais', ru: 'russe', ja: 'japonais' } as Record<SupportedLanguage, string>,
   }
 );

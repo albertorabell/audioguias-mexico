@@ -19,6 +19,7 @@ import { ui } from './groups/ui';
 import { intro } from './groups/intro';
 import { PL_GROUPS } from './pl';
 import { DE_GROUPS } from './de';
+import { PT_GROUPS } from './pt';
 import { SITE_OVERRIDES, SiteKind } from './sitio';
 import { getCurrentSiteKind, getCurrentSiteName } from './runtime';
 
@@ -79,7 +80,7 @@ function baseStrings(lang: SupportedLanguage, kind: SiteKind): Strings {
   if (cache[key]) return cache[key]!;
   const out: any = {};
   for (const [name, g] of Object.entries(groups) as [string, any][]) {
-    out[name] = lang === 'es' ? g.es : mergeGroup(g.es, g[lang] ?? (lang === 'pl' ? PL_GROUPS[name] : lang === 'de' ? DE_GROUPS[name] : undefined));
+    out[name] = lang === 'es' ? g.es : mergeGroup(g.es, g[lang] ?? (lang === 'pl' ? PL_GROUPS[name] : lang === 'de' ? DE_GROUPS[name] : lang === 'pt' ? PT_GROUPS[name] : undefined));
   }
   if (kind === 'site') {
     // Palabras de sitio arqueológico: primero las del español y encima las del idioma (si las hay)
