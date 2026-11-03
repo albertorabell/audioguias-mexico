@@ -1,0 +1,56 @@
+{
+  "id": "chap_30_salon_malaquitas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "012eb64d0a3c2501",
+      "texto": "O Salão de Malaquitas: pedra verde da Rússia"
+    },
+    "frase_gancho": {
+      "hash": "fc021eb2ca43a276",
+      "texto": "O museu guarda as maiores peças de malaquita que existem fora da Rússia, e elas estão nesta sala."
+    },
+    "puente_narrativo": {
+      "hash": "ce931520fe8a4a8b",
+      "texto": "Continue o percurso até o Salão de Malaquitas, no andar de cima do Alcázar, onde uma pedra verde viajou da Rússia por ordem de Porfirio Díaz."
+    },
+    "guion_corto": {
+      "hash": "1dea80b418aaba93",
+      "texto": "Esta sala guarda as maiores peças de malaquita que existem fora da Rússia, segundo o próprio Museu Nacional de História. São quatro obras de grande formato, e uma delas é uma porta. A malaquita é uma pedra verde com anéis e veios, e era tão difícil de trabalhar que se tornou símbolo de riqueza. As peças chegaram ao México por ordem de Porfirio Díaz, que queria enfeitar com elas um salão do Palácio Nacional. Hoje estão aqui, no andar superior do Alcázar, que foi a casa de verão do presidente durante o porfiriato. Antes de seguir, repare no verde: parece uma única superfície, mas os desenhos da pedra são montados com paciência."
+    },
+    "guion_largo": {
+      "hash": "13e42ecdcdca5183",
+      "texto": "Há uma sala do Castelo onde o verde manda. É o Salão de Malaquitas, no andar superior do Alcázar. O museu sustenta que aqui estão as maiores peças de malaquita que existem fora da Rússia. Esse dado ajuda a entender por que esta sala chama tanto a atenção, e por que muitos visitantes ficam mais tempo do que pensavam.\n\nA malaquita é um mineral de cobre de cor verde. Seu traço mais reconhecível são os anéis e as faixas que formam desenhos parecidos com os veios da madeira. Em blocos grandes quase não se encontra. Por isso, os objetos grandes de malaquita eram feitos de outra maneira, com mais paciência e mais ofício.\n\nA técnica mais conhecida é o mosaico russo. Consiste em cortar lâminas finíssimas de pedra e colá-las sobre uma base, cuidando para que os desenhos de uma peça continuem na seguinte. De longe, o resultado parece um único bloco. De perto, descobrem-se as emendas, e então se entende o trabalho que isso custava. Uma peça assim podia levar muito tempo para ficar pronta.\n\nConvém dizer com cuidado. As fontes públicas do museu não detalham como foi feita cada peça desta sala. O mosaico é a forma habitual de trabalhar a malaquita em grande formato. Ainda assim, o museu dedicou uma palestra inteira à sua origem, ao seu contexto, à sua fabricação e à sua atribuição. É sinal de que ainda há muito por estudar.\n\nO que o museu conta é a história da chegada delas. As peças foram trazidas da Rússia para o México por ordem de Porfirio Díaz. Ele as queria para enfeitar uma das salas do Palácio Nacional. Depois passaram a fazer parte do acervo do museu, e hoje têm uma sala própria. Uma das obras é uma porta, e ao todo são quatro obras monumentais.\n\nO contexto ajuda a ler o gesto. Durante o porfiriato, buscava-se mostrar um país moderno e refinado. Isso se notava nos móveis, nos cristais e nos objetos trazidos da Europa. Esta parte do Alcázar foi ambientada como a casa de verão de Porfirio Díaz e de sua esposa, Carmen Romero Rubio. Foi entre mil oitocentos e oitenta e três e mil novecentos e dez. Como você viu no [salão de jantar imperial](chap_15_comedor_imperial), o castelo guardava os luxos de duas épocas diferentes, a do Império e a do porfiriato.\n\nUma malaquita russa no México fala também de um mundo conectado. Há um mineral extraído longe, um ofício de oficina que exigia enorme paciência e um governo que queria se exibir. Três histórias diferentes se encontram em uma mesma porta.\n\nPare e olhe. Veja como os desenhos mudam de um lado para o outro e procure as linhas onde uma lâmina se une a outra. Repare também no brilho do polimento, que dá profundidade ao verde. Se você se aproximar com calma, a pedra deixa de ser um fundo e se torna o tema da sala."
+    },
+    "retos_observacion": {
+      "hash": "b8fe3bc0474e2b4a",
+      "texto": [
+        "Procure os anéis e as faixas que desenham a pedra, parecidos com os veios da madeira",
+        "Encontre as linhas onde uma lâmina se une à seguinte",
+        "Localize a porta de malaquita e veja como os desenhos continuam de um lado para o outro"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a1705ac6e2493f74",
+      "texto": {
+        "Sala": "Salão de Malaquitas, andar superior do Alcázar",
+        "Material": "Malaquita, mineral de cobre de cor verde",
+        "Origem": "Rússia, segundo o museu",
+        "Obras": "Quatro obras monumentais, entre elas uma porta",
+        "Encomenda": "Por ordem de Porfirio Díaz, para um salão do Palácio Nacional",
+        "Dado do museu": "As maiores peças de malaquita fora da Rússia"
+      }
+    },
+    "faq_mito": {
+      "hash": "538694adc7744ca2",
+      "texto": {
+        "pregunta": "Mito: As peças de malaquita desta sala são feitas de um único bloco de pedra.",
+        "respuesta": "Realidade: Em grande formato, a malaquita quase sempre é trabalhada com lâminas finas coladas sobre uma base, na técnica chamada mosaico russo. As fontes do museu não detalham como foi feita cada peça desta sala."
+      }
+    }
+  }
+}

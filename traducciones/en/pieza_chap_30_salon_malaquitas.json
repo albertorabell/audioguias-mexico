@@ -1,0 +1,56 @@
+{
+  "id": "chap_30_salon_malaquitas",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "012eb64d0a3c2501",
+      "texto": "The Malachite Hall: Green Stone from Russia"
+    },
+    "frase_gancho": {
+      "hash": "fc021eb2ca43a276",
+      "texto": "The museum holds the largest malachite pieces that exist outside Russia, and they are in this room."
+    },
+    "puente_narrativo": {
+      "hash": "ce931520fe8a4a8b",
+      "texto": "Continue the tour to the Malachite Hall, on the upper floor of the Alcázar, where a green stone traveled from Russia by order of Porfirio Díaz."
+    },
+    "guion_corto": {
+      "hash": "1dea80b418aaba93",
+      "texto": "This room holds the largest malachite pieces that exist outside Russia, according to the National Museum of History itself. There are four large-scale works, and one of them is a door. Malachite is a green stone with rings and veins, and it was so hard to work that it became a symbol of wealth. The pieces came to Mexico by order of Porfirio Díaz, who wanted them to adorn a room in the National Palace. Today they are here, on the upper floor of the Alcázar, which was the president’s summer home during the Porfiriato. Before moving on, look at the green: it seems like a single surface, but the patterns of the stone are assembled with patience."
+    },
+    "guion_largo": {
+      "hash": "13e42ecdcdca5183",
+      "texto": "There is a room in the Castle where green rules. It is the Malachite Hall, on the upper floor of the Alcázar. The museum maintains that the largest malachite pieces that exist outside Russia are here. That fact helps explain why this room draws so much attention, and why many visitors linger longer than they expected.\n\nMalachite is a green copper mineral. Its most recognizable feature is the rings and bands that form patterns similar to the grain of wood. It is almost never found in large blocks. That is why large malachite objects were made in another way, with more patience and more craft.\n\nThe best-known technique is Russian mosaic. It consists of cutting very thin slabs of stone and gluing them onto a base, taking care that the patterns of one piece continue into the next. From a distance, the result looks like a single block. Up close, you can find the joins, and then you understand how much work it took. A piece like this could take a long time to finish.\n\nThis should be said with care. The museum’s public sources do not detail how each piece in this room was made. Mosaic is the usual way of working malachite on a large scale. Even so, the museum has devoted an entire talk to its origin, its context, its manufacture and its attribution. It is a sign that much remains to be studied.\n\nWhat the museum does tell is the story of their arrival. The pieces were brought from Russia to Mexico by order of Porfirio Díaz. He wanted them to adorn one of the rooms of the National Palace. They later became part of the museum’s collection, and today they have a room of their own. One of the works is a door, and in all there are four monumental works.\n\nThe context helps in reading the gesture. During the Porfiriato, the aim was to show a modern, refined country. This could be seen in the furniture, the glassware and the objects brought from Europe. This part of the Alcázar was furnished as the summer home of Porfirio Díaz and his wife, Carmen Romero Rubio. That was between eighteen eighty-three and nineteen ten. As you saw in the [imperial dining room](chap_15_comedor_imperial), the castle held the luxuries of two different eras, that of the Empire and that of the Porfiriato.\n\nA Russian malachite in Mexico also speaks of a connected world. There is a mineral extracted far away, a workshop craft that demanded enormous patience and a government that wanted to show off. Three different stories come together in a single door.\n\nStop and look. Notice how the patterns change from one side to the other, and look for the lines where one slab meets another. Notice also the shine of the polish, which gives depth to the green. If you come close and take your time, the stone stops being a background and becomes the subject of the room."
+    },
+    "retos_observacion": {
+      "hash": "b8fe3bc0474e2b4a",
+      "texto": [
+        "Look for the rings and bands that mark the stone, like the grain of wood",
+        "Find the lines where one slab joins the next",
+        "Locate the malachite door and see how the patterns continue from one side to the other"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a1705ac6e2493f74",
+      "texto": {
+        "Room": "Malachite Hall, upper floor of the Alcázar",
+        "Material": "Malachite, a green copper mineral",
+        "Origin": "Russia, according to the museum",
+        "Works": "Four monumental works, including a door",
+        "Commission": "By order of Porfirio Díaz, for a room in the National Palace",
+        "Museum fact": "The largest malachite pieces outside Russia"
+      }
+    },
+    "faq_mito": {
+      "hash": "538694adc7744ca2",
+      "texto": {
+        "pregunta": "Myth: The malachite pieces in this room are made from a single block of stone.",
+        "respuesta": "Reality: On a large scale, malachite is almost always worked with thin slabs glued onto a base, in the technique called Russian mosaic. The museum’s sources do not detail how each piece in this room was made."
+      }
+    }
+  }
+}
