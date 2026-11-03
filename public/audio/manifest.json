@@ -2,6 +2,330 @@
   "version": 1,
   "items": {
     "de": {
+      "fri_00_fachada_azul": {
+        "corto": {
+          "hash": "991759847153dad9",
+          "file": "de/fri_00_fachada_azul_corto.mp3",
+          "remote": false,
+          "seconds": 45,
+          "bytes": 267840,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "597c142656b291cd",
+          "file": "de/fri_00_fachada_azul_largo.mp3",
+          "remote": false,
+          "seconds": 202,
+          "bytes": 1209168,
+          "provider": "azure"
+        }
+      },
+      "fri_01_primeras_salas_retratos": {
+        "corto": {
+          "hash": "8d831f78b9a61135",
+          "file": "de/fri_01_primeras_salas_retratos_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 266976,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "37a5655b5d7623d0",
+          "file": "de/fri_01_primeras_salas_retratos_largo.mp3",
+          "remote": true,
+          "seconds": 171,
+          "bytes": 1026288,
+          "provider": "azure"
+        }
+      },
+      "fri_02_viva_la_vida": {
+        "corto": {
+          "hash": "cef81a9e121ca38f",
+          "file": "de/fri_02_viva_la_vida_corto.mp3",
+          "remote": false,
+          "seconds": 41,
+          "bytes": 248400,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5864057ce6759b84",
+          "file": "de/fri_02_viva_la_vida_largo.mp3",
+          "remote": false,
+          "seconds": 177,
+          "bytes": 1063440,
+          "provider": "azure"
+        }
+      },
+      "fri_03_marxismo_muletas": {
+        "corto": {
+          "hash": "65d492f4bb8364b1",
+          "file": "de/fri_03_marxismo_muletas_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 243072,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4c40318b0d00bf28",
+          "file": "de/fri_03_marxismo_muletas_largo.mp3",
+          "remote": true,
+          "seconds": 174,
+          "bytes": 1044720,
+          "provider": "azure"
+        }
+      },
+      "fri_04_comedor_mexicano": {
+        "corto": {
+          "hash": "6dac26a632eed8f6",
+          "file": "de/fri_04_comedor_mexicano_corto.mp3",
+          "remote": true,
+          "seconds": 52,
+          "bytes": 309600,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "0bed65305403b8a5",
+          "file": "de/fri_04_comedor_mexicano_largo.mp3",
+          "remote": true,
+          "seconds": 164,
+          "bytes": 983376,
+          "provider": "azure"
+        }
+      },
+      "fri_05_cocina_barro": {
+        "corto": {
+          "hash": "8d3d263c673998a5",
+          "file": "de/fri_05_cocina_barro_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 252288,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "8b2d811e0ef911c2",
+          "file": "de/fri_05_cocina_barro_largo.mp3",
+          "remote": true,
+          "seconds": 165,
+          "bytes": 987552,
+          "provider": "azure"
+        }
+      },
+      "fri_06_recamara_diego": {
+        "corto": {
+          "hash": "52e022173cb89436",
+          "file": "de/fri_06_recamara_diego_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 279936,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "e59275aafc3872d1",
+          "file": "de/fri_06_recamara_diego_largo.mp3",
+          "remote": true,
+          "seconds": 148,
+          "bytes": 887184,
+          "provider": "azure"
+        }
+      },
+      "fri_07_escalera_exvotos": {
+        "corto": {
+          "hash": "7e1c10f2d4cf0878",
+          "file": "de/fri_07_escalera_exvotos_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 253728,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7aac0a8055448fbb",
+          "file": "de/fri_07_escalera_exvotos_largo.mp3",
+          "remote": true,
+          "seconds": 196,
+          "bytes": 1176624,
+          "provider": "azure"
+        }
+      },
+      "fri_08_estudio_caballete": {
+        "corto": {
+          "hash": "2781d3b6cda979de",
+          "file": "de/fri_08_estudio_caballete_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 270144,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ec964dc608fbc248",
+          "file": "de/fri_08_estudio_caballete_largo.mp3",
+          "remote": true,
+          "seconds": 186,
+          "bytes": 1117296,
+          "provider": "azure"
+        }
+      },
+      "fri_09_recamara_dia_espejo": {
+        "corto": {
+          "hash": "3fa6ebd48505234b",
+          "file": "de/fri_09_recamara_dia_espejo_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 273168,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "da3dbbf26a474d78",
+          "file": "de/fri_09_recamara_dia_espejo_largo.mp3",
+          "remote": true,
+          "seconds": 176,
+          "bytes": 1053360,
+          "provider": "azure"
+        }
+      },
+      "fri_10_recamara_noche_cenizas": {
+        "corto": {
+          "hash": "e7dbad25b3b5a1d5",
+          "file": "de/fri_10_recamara_noche_cenizas_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 261216,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7e1e8207b08702d1",
+          "file": "de/fri_10_recamara_noche_cenizas_largo.mp3",
+          "remote": true,
+          "seconds": 168,
+          "bytes": 1007712,
+          "provider": "azure"
+        }
+      },
+      "fri_11_jardin_flora_animales": {
+        "corto": {
+          "hash": "284b91a8b6f4edd4",
+          "file": "de/fri_11_jardin_flora_animales_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 266544,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b4b14f501b551e07",
+          "file": "de/fri_11_jardin_flora_animales_largo.mp3",
+          "remote": true,
+          "seconds": 161,
+          "bytes": 966672,
+          "provider": "azure"
+        }
+      },
+      "fri_12_piramide_jardin": {
+        "corto": {
+          "hash": "dbdb4b7d214b7abf",
+          "file": "de/fri_12_piramide_jardin_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 274752,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a3df5f14a233d309",
+          "file": "de/fri_12_piramide_jardin_largo.mp3",
+          "remote": true,
+          "seconds": 162,
+          "bytes": 972000,
+          "provider": "azure"
+        }
+      },
+      "fri_13_secreto_banos_2004": {
+        "corto": {
+          "hash": "88c3b22a2e34b9a0",
+          "file": "de/fri_13_secreto_banos_2004_corto.mp3",
+          "remote": true,
+          "seconds": 49,
+          "bytes": 294048,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d66e013b495b6cbe",
+          "file": "de/fri_13_secreto_banos_2004_largo.mp3",
+          "remote": true,
+          "seconds": 182,
+          "bytes": 1092816,
+          "provider": "azure"
+        }
+      },
+      "fri_14_corses_pintados": {
+        "corto": {
+          "hash": "a94b2f7ea20d06b0",
+          "file": "de/fri_14_corses_pintados_corto.mp3",
+          "remote": true,
+          "seconds": 47,
+          "bytes": 283392,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "d9f8e7627cfbd9ec",
+          "file": "de/fri_14_corses_pintados_largo.mp3",
+          "remote": true,
+          "seconds": 170,
+          "bytes": 1020240,
+          "provider": "azure"
+        }
+      },
+      "fri_15_protesis_bota_roja": {
+        "corto": {
+          "hash": "038da5c01663f992",
+          "file": "de/fri_15_protesis_bota_roja_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 270432,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "a49fa5a233db0f58",
+          "file": "de/fri_15_protesis_bota_roja_largo.mp3",
+          "remote": true,
+          "seconds": 176,
+          "bytes": 1053792,
+          "provider": "azure"
+        }
+      },
+      "fri_16_trajes_tehuana": {
+        "corto": {
+          "hash": "08fa452ed6d0d87a",
+          "file": "de/fri_16_trajes_tehuana_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 254016,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "7fe4e94c480b06c6",
+          "file": "de/fri_16_trajes_tehuana_largo.mp3",
+          "remote": true,
+          "seconds": 178,
+          "bytes": 1070352,
+          "provider": "azure"
+        }
+      },
+      "fri_17_cierre_legado": {
+        "corto": {
+          "hash": "5c95d993b77754ed",
+          "file": "de/fri_17_cierre_legado_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 250128,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5047d1a37f46303a",
+          "file": "de/fri_17_cierre_legado_largo.mp3",
+          "remote": true,
+          "seconds": 181,
+          "bytes": 1084176,
+          "provider": "azure"
+        }
+      },
       "mna_s00_el_paraguas": {
         "corto": {
           "hash": "a28fc2235fb44835",
