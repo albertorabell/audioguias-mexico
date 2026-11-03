@@ -322,6 +322,7 @@ await sesion({
       await page.locator('#sites-grid-section [role=button]', { hasText: 'Castillo de Chapultepec' }).first().click();
       await page.waitForTimeout(700);
       await page.locator('#dock-tab-mapa').click();
+      await page.locator('#map-view-live').click(); // con plano propio, el plano es lo primero que se ve
       await page.locator('#live-map canvas').first().waitFor({ timeout: 15000 });
       await page.waitForTimeout(3000);
       await shot('01-mapa');
@@ -330,6 +331,33 @@ await sesion({
       await page.locator('#btn-locate').click();
       await page.waitForTimeout(3500);
       await shot('02-posicion');
+    });
+  },
+});
+
+// Chapultepec: plano del Castillo (planta baja, planta alta y una zona)
+await sesion({
+  nombre: 'l-chap-plano',
+  pasos: async ({ page, shot, paso }) => {
+    await paso('01-planta-baja', async () => {
+      await page.goto(base + '/?preview');
+      await page.waitForLoadState('networkidle').catch(() => {});
+      await page.locator('#sites-grid-section [role=button]', { hasText: 'Castillo de Chapultepec' }).first().click();
+      await page.waitForTimeout(700);
+      await page.locator('#dock-tab-mapa').click();
+      await page.waitForTimeout(1500);
+      await shot('01-planta-baja');
+    });
+    await paso('02-planta-alta', async () => {
+      await page.locator('#plan-floor-PA').click();
+      await page.waitForTimeout(900);
+      await shot('02-planta-alta');
+    });
+    await paso('03-zona-alcazar', async () => {
+      await page.locator('#plan-floor-PB').click();
+      await page.getByRole('button', { name: 'El Alcázar' }).first().click();
+      await page.waitForTimeout(900);
+      await shot('03-zona-alcazar');
     });
   },
 });
