@@ -1,0 +1,62 @@
+{
+  "id": "tmc_01_recinto_bajo_plaza",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece",
+      "el glosario pide \"Neuspanien\" para \"Nueva España\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "79af81581984d7b3",
+      "texto": "Der Platz und der Heilige Bezirk von Tenochtitlan"
+    },
+    "frase_gancho": {
+      "hash": "ad729a7aeb7e4fdd",
+      "texto": "Dieses ganze Gebiet im Zentrum steht auf einer Stadt am See, die einen Bezirk mit bis zu achtundsiebzig Tempeln besaß."
+    },
+    "puente_narrativo": {
+      "hash": "6366e5a1f836733b",
+      "texto": "Geh hinüber zur Nordseite des Platzes, vor die Kathedrale, und beginne mit ihrer Hauptfassade."
+    },
+    "guion_corto": {
+      "hash": "2345b9c18b61a9f4",
+      "texto": "Alles, was du um dich herum siehst, steht auf einer anderen Stadt. Der Überlieferung nach ließen sich die Mexica um das Jahr 1325 auf einer kleinen Insel im Texcoco-See nieder. Sie gewannen dem Wasser Land ab, mit Aufschüttungen, Pfählen, Kanälen, Dämmen und Brücken. Im Zentrum von Tenochtitlan lag ein heiliger Bezirk, und den Chroniken zufolge besaß er bis zu achtundsiebzig Tempel. Heute ist diese Stadt überbaut, aber sie ist nicht verschwunden. Dieser Guide führt dich durch zwei ihrer Schichten. Die erste ist die Kathedrale von Mexiko-Stadt, deren Bau die Spanier im sechzehnten Jahrhundert begannen. Die zweite ist der Templo Mayor, der jahrhundertelang verschüttet blieb. Wir beginnen hier auf dem Platz, damit du weißt, wo du stehst."
+    },
+    "guion_largo": {
+      "hash": "06f3e2531575521b",
+      "texto": "Dieser Guide führt von der spanischen Stadt zur Stadt der Mexica, und es lohnt sich, zunächst zu verstehen, was unter deinen Füßen liegt.\n\nDer Überlieferung nach ließen sich die Mexica um das Jahr 1325 auf einer kleinen Insel im Texcoco-See nieder. Das Land war knapp, und deshalb erweiterten sie es nach und nach. Mit Aufschüttungen, Holzpfählen, Kanälen, Dämmen und Brücken gewannen sie dem See Land ab, bis es etwa dreizehneinhalb Quadratkilometer waren. Diese Stadt hieß México-Tenochtitlan. Sie hatte elf Herrscher, und ihr Untergang kam 1521, nach dem Krieg gegen die Spanier und ihre indigenen Verbündeten.\n\nIm Zentrum der Stadt gab es einen abgesonderten Bereich, den Heiligen Bezirk. Dort stand der Templo Mayor, den die Mexica Huey Teocalli nannten, das große Haus des Gottes. Sie hielten ihn für den Nabel des Universums. Den Chroniken aus der Zeit Neuspaniens zufolge umfasste der Bezirk bis zu achtundsiebzig Bauwerke, darunter Tempel, Altäre, Plattformen, Schulen und Ballspielplätze. Nicht jeder durfte eintreten. Dauerhaften Zutritt hatten die Priester, die Krieger, die Herrscher und die Schüler des Calmécac, der Schule für die Söhne der Adligen. Das einfache Volk kam während der Feste hinein.\n\nAls die Stadt gefallen war, entschied Hernán Cortés, dass genau dort die Hauptstadt Neuspaniens entstehen sollte. Die Spanier rissen den Templo Mayor nieder, und seine Steine wurden als Fundamente vizekönigszeitlicher Gebäude wiederverwendet. Das ist eine gute Art, zu sehen, was geschah. Es entstand nicht eine neue Stadt an einem leeren Ort, sondern auf einer anderen, die noch stand. Die Kathedrale, die du vor dir hast, gehört zu dieser Geschichte. Sie wurde auf einem Teil des Geländes des alten Bezirks errichtet, und deshalb haben ihr weicher Untergrund und ihr Fundament so viele Probleme bereitet.\n\nVom Templo Mayor wusste man jahrhundertelang wenig. Im Jahr 1790 gab es vereinzelte Funde, und Manuel Gamio entdeckte 1913 eine Ecke des Gebäudes. Aber die große Entdeckung kam 1978, als zufällig ein kreisrunder Stein zum Vorschein kam. Von ihm sprechen wir später.\n\nSo ist dieser Rundgang aufgebaut. Zuerst gehst du außen um die Kathedrale herum und trittst dann ein, falls sie geöffnet ist. Danach geht es zur archäologischen Zone des Templo Mayor und zu seinem Museum. Der Eintritt in die Kathedrale ist in der Regel frei, doch manche Bereiche verlangen eine Gebühr oder eine Spende. Für die archäologische Zone und das Museum gibt es ein gemeinsames Ticket, und es empfiehlt sich, vor dem Besuch die aktuellen Öffnungstage und Öffnungszeiten zu prüfen. Wenn du heute nur einen Teil sehen möchtest, wähle eine der kürzeren Routen.\n\nSieh dich nun um. Die Kathedrale schließt die Nordseite des Platzes ab. Die Ruinen des Templo Mayor sind von hier aus nicht zu sehen: Sie liegen hinter der Kathedrale, in Richtung Osten, einige hundert Meter entfernt. Diese kurze Strecke durchquert zwei Welten. Beginne mit der, die du vor dir siehst, und nimm die Frage mit, wie viele Schichten an einem einzigen Ort Platz haben."
+    },
+    "retos_observacion": {
+      "hash": "c402ee26ef0db43e",
+      "texto": [
+        "Suche die Kathedrale auf der Nordseite des Platzes und schätze, wie breit sie ist",
+        "Stell dir vor, der See reichte bis dorthin, wo du stehst: Die Stadt war von Wasser umgeben",
+        "Finde im Osten die Richtung, in der hinter der Kathedrale die Ruinen des Templo Mayor liegen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a0bf74e217269cad",
+      "texto": {
+        "Gründung der Überlieferung nach": "um 1325",
+        "Dem See abgewonnene Fläche": "etwa 13,5 km²",
+        "Herrscher von Tenochtitlan": "11",
+        "Untergang der Stadt": "1521",
+        "Bauwerke des Heiligen Bezirks laut den Chroniken": "bis zu 78",
+        "Standort": "Plaza de la Constitución, Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "8193d03a93403e36",
+      "texto": {
+        "pregunta": "Mythos: Die Spanier bauten Mexiko-Stadt an einem leeren Ort.",
+        "respuesta": "Realität: Die Hauptstadt Neuspaniens entstand auf Tenochtitlan, und die Steine des Templo Mayor wurden als Fundamente vizekönigszeitlicher Gebäude wiederverwendet."
+      }
+    }
+  }
+}

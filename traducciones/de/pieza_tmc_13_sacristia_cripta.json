@@ -1,0 +1,60 @@
+{
+  "id": "tmc_13_sacristia_cripta",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Neuspanien\" para \"Nueva España\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "1fa89b4b488419e3",
+      "texto": "Die Sperrbereiche: Sakristei und Krypta der Erzbischöfe"
+    },
+    "frase_gancho": {
+      "hash": "4ef71167f0c9b52a",
+      "texto": "Fünfundsiebzig Krypten, einundvierzig davon belegt, und eine Sakristei mit Werken zweier großer Maler der Vizekönigszeit."
+    },
+    "puente_narrativo": {
+      "hash": "775b72d14d19c740",
+      "texto": "Geh durch das Kirchenschiff zurück zum Ausgang. Bevor du gehst, bleibt noch ein Thema: der Boden, der die gesamte Kathedrale trägt."
+    },
+    "guion_corto": {
+      "hash": "4d604042952ee7ca",
+      "texto": "Neben dem Chorhaupt der Kathedrale liegen zwei Räume, die nicht immer zu besichtigen sind. Der eine ist die Hauptsakristei, in der die Gegenstände des Gottesdienstes aufbewahrt werden und in der Ende des siebzehnten Jahrhunderts die Maler Cristóbal de Villalpando und Juan Correa arbeiteten. Der andere ist die Krypta der Erzbischöfe unter dem Chorhaupt, mit fünfundsiebzig Krypten, von denen einundvierzig belegt sind. Dort ruhen Bruder Juan de Zumárraga, der erste Bischof von Mexiko, und Kardinal Ernesto Corripio Ahumada, der zweitausendacht starb. Der Zugang zu diesen Bereichen ist begrenzt und erfolgt im Rahmen geführter Besuche. Frag am Informationsstand der Kathedrale nach."
+    },
+    "guion_largo": {
+      "hash": "4de87852595aafb7",
+      "texto": "Diese Station ist für alle, die die Kathedrale jenseits der goldenen Altäre sehen möchten. Neben dem Chorhaupt gibt es Sperrbereiche, die nicht immer geöffnet sind. Wenn du sie heute verschlossen vorfindest, hör dir diese Station vom Kirchenschiff aus an und denk daran, was sich hinter diesen Türen befindet.\n\nBeginnen wir mit der Hauptsakristei. Eine Sakristei ist der Ort, an dem die Gegenstände des Gottesdienstes aufbewahrt werden und an dem sich die Geistlichen auf die Zeremonien vorbereiten. In der Sakristei dieser Kathedrale gibt es Werke von zwei der bedeutendsten Maler Neuspaniens, Cristóbal de Villalpando und Juan Correa, aus dem späten siebzehnten Jahrhundert. Neben ihr liegt der Kapitelsaal, der Ort, an dem sich das Domkapitel versammelte, also die Gruppe von Domherren, die die Kathedrale leitete. Der Stil dieser Säle ist vom Herrera-Stil geprägt, einem nüchternen spanischen Stil, der im Kontrast zum Barock der Altäre steht.\n\nZum Schatz der Kathedrale gehören außer Gemälden auch liturgische Stoffe und Gewänder, die allerdings nicht immer ausgestellt werden.\n\nSteigen wir nun hinab in die Krypta. Die Krypta der Erzbischöfe liegt unter dem Chorhaupt, am nördlichen Ende des Gotteshauses. Ihr Bau begann zwischen neunzehnhundertachtunddreißig und neunzehnhundertneununddreißig und wurde neunzehnhundertzweiundvierzig abgeschlossen. Das heißt, sie ist viel jünger als das Gebäude.\n\nDort ruhen Bischöfe und Erzbischöfe aus der Geschichte der Erzdiözese. Der älteste ist Bruder Juan de Zumárraga, der erste Bischof von Mexiko, der von vierzehnhundertachtundsechzig bis fünfzehnhundertachtundvierzig lebte. Er hat eine Gedenkstätte, die ihn mit der Geschichte der Jungfrau von Guadalupe verbindet. Der zuletzt Beigesetzte ist Kardinal Ernesto Corripio Ahumada, der von neunzehnhundertzwölf bis zweitausendacht lebte. Ebenfalls hier liegen die sterblichen Überreste von Juan de Palafox y Mendoza, Bischof von Mexiko und von Puebla, und von Francisco de Aguiar y Seijas, dem Beichtvater von Schwester Juana Inés de la Cruz.\n\nDer Raum hat fünfundsiebzig Krypten, von denen einundvierzig belegt sind. Außerdem gibt es vier Verwesungskammern, die Teil der früheren Bestattungsabläufe waren. Die Kirche akzeptierte die Feuerbestattung nicht, deshalb wurden die Leichname eine Zeit lang auf dem Friedhof beigesetzt, und danach brachte man die Gebeine in die Krypten.\n\nDie Zugangstür hat eine kuriose Geschichte. Sie besteht aus Marmor und trägt das Wappen der Könige. Früher war sie die Grabplatte des Erzbischofs Juan de Mañozca y Zamora, und sie bewahrt eine Biografie in lateinischer Sprache. Der Eingang der Krypta ist also ein wiederverwendetes Grab.\n\nUm diese Bereiche zu besuchen, ist der Zugang begrenzt, und es gibt geführte Besuche. Frag am Informationsstand der Kathedrale nach, denn Öffnungszeiten und Gebühren ändern sich. Für einige Bereiche, wie den Chor, die Sakristei, die Krypta und die Türme, wird eine Spende oder eine Gebühr erbeten.\n\nWenn du hinausgehst, denk an den Kontrast. Oben das Gold des Altars der Könige. Unten die Stille der Gräber. Und unter allem der weiche Untergrund, der beide trägt und von dem wir gleich sprechen werden."
+    },
+    "retos_observacion": {
+      "hash": "4438ea91a14e47da",
+      "texto": [
+        "Frag am Informationsstand nach, ob es Besuche der Sakristei oder der Krypta gibt",
+        "Wenn du in die Krypta gelangst, suche die Marmortür mit dem Wappen und ihrer lateinischen Inschrift",
+        "Vergleiche die Nüchternheit der Sakristei mit den goldenen Altären des Kirchenschiffs"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a1b4893f7eeafd97",
+      "texto": {
+        "Maler in der Hauptsakristei": "Cristóbal de Villalpando und Juan Correa, Ende des 17. Jahrhunderts",
+        "Krypten": "75, davon belegt: 41",
+        "Verwesungskammern": "4",
+        "Bau der heutigen Krypta": "von 1938 oder 1939 bis 1942",
+        "Bruder Juan de Zumárraga": "1468 bis 1548",
+        "Kardinal Ernesto Corripio Ahumada": "1912 bis 2008"
+      }
+    },
+    "faq_mito": {
+      "hash": "83779f3e92636fea",
+      "texto": {
+        "pregunta": "Mythos: Die Krypta der Kathedrale birgt die sterblichen Überreste aller Vizekönige.",
+        "respuesta": "Realität: Die Krypta der Erzbischöfe beherbergt die sterblichen Überreste von Bischöfen und Erzbischöfen der Erzdiözese; die sterblichen Überreste von Iturbide befinden sich in der Kapelle des heiligen Felipe de Jesús."
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "tmc_27_sala_3_tributo",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Olmeken\" para \"Olmeca / Olmecas\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Olmeken\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "de7c0ebcce50c657",
+      "texto": "Saal drei: Tribut und Handel"
+    },
+    "frase_gancho": {
+      "hash": "21eacfa29d5a2494",
+      "texto": "Ein Imperium, das Tribut einforderte, und Händler, die weit reisten."
+    },
+    "puente_narrativo": {
+      "hash": "ef06fdfe87d006b2",
+      "texto": "Betritt Saal vier, der Huitzilopochtli gewidmet ist, wo die Stücke von der Südseite des Tempels ausgestellt sind."
+    },
+    "guion_corto": {
+      "hash": "0fa082c558c08b1f",
+      "texto": "Saal drei erklärt, wie Tenochtitlan reich wurde. Die Herrschaft der Mexica über andere Völker dehnte sich zwischen eintausendvierhundertdreißig und eintausendfünfhundertneunzehn aus, und von diesen Völkern kam Tribut in die Stadt. Der Saal erzählt auch von den Pochtecas, den Händlern, die in ferne Regionen reisten. Unter den Objekten befindet sich eine olmekische Maske, die viel älter ist als die Mexica und die sie als wertvolles Stück aufbewahrten, woran man ihr Interesse an der Vergangenheit erkennt. Es ist der Saal, der hilft zu verstehen, warum im Templo Mayor Objekte von so vielen verschiedenen Orten auftauchen. Er zeigt auch, warum die Stadt weitreichende Handelswege brauchte."
+    },
+    "guion_largo": {
+      "hash": "00f73c9cdc4a2efb",
+      "texto": "In Saal drei weitet sich der Blick vom Tempel auf das Imperium. Sein Thema sind Tribut und Handel, also die Frage, wie der Reichtum nach Tenochtitlan gelangte.\n\nDie Herrschaft der Mexica über andere Völker dehnte sich zwischen eintausendvierhundertdreißig und eintausendfünfhundertneunzehn aus. In diesen fast neun Jahrzehnten wurde die Stadt zum Zentrum eines sehr weiten Gebiets. Von den beherrschten Völkern erhielt man Tribut, also Güter, die regelmäßig an Tenochtitlan abgeliefert werden mussten.\n\nDas hilft, den Templo Mayor zu verstehen. Hinter jeder Opfergabe stand ein Netz aus Wegen, Märkten und Tributpflichtigen, das sie möglich machte. Wenn du ein Stück betrachtest, denke auch an den Weg, den es bis hierher zurückgelegt hat. Ein so großes Bauwerk mit so vielfältigen Opfergaben konnte sich nur mit Ressourcen erhalten, die aus der Ferne kamen. Dieser Saal bietet den Zusammenhang, um darüber nachzudenken, woher die Objekte stammen könnten, die du im vorherigen Saal gesehen hast.\n\nDer Saal erzählt auch von den Pochtecas. Das waren die Händler der Mexica, die in ferne Regionen reisten, um Handel zu treiben und Produkte zu beschaffen. Die Pochtecas spielten eine wichtige Rolle, denn sie brachten nicht nur Waren mit, sondern auch Neuigkeiten über die Orte, durch die sie gekommen waren. Diese Informationen waren wertvoll für eine Stadt mit Interessen in einem so großen Gebiet. Die Händler waren auch die Augen der Stadt in der Ferne. Ihre Arbeit verband den Handel mit Information und mit Macht.\n\nUnter den Objekten des Saals befindet sich eine olmekische Maske. Die Olmeken lebten viele Jahrhunderte vor den Mexica, in der Region am Golf von Mexiko. Dass ein olmekisches Stück im Templo Mayor auftaucht, ist eine sehr interessante Tatsache. Sie bedeutet, dass die Mexica Objekte aus viel älteren Kulturen aufbewahrten oder beschafften und ihnen Wert beimaßen.\n\nDenke darüber nach, was das über sie als Gesellschaft verrät. Sie sahen sich nicht als ein Volk ohne Vergangenheit. Sie bewahrten sehr alte Stücke auf und vergruben sie auch. Das erzählt uns, wie sie die Zeit und das Erbe anderer Völker verstanden.\n\nDieser Saal verändert auch das Bild, das wir vom Templo Mayor als einem rein rituellen Ort haben könnten. Er war zudem ein politisches und wirtschaftliches Zentrum, in dem die Macht der Stadt gegenüber den beherrschten Völkern zur Schau gestellt wurde.\n\nWenn du die Vitrinen in Ruhe betrachtest, frage dich, woher jedes Objekt wohl stammte. Achte auf die Vielfalt der Materialien und Formen und auf die Schilder, die sie begleiten. Die Objekte kommen von verschiedenen Orten und zeigen unterschiedliche Stile. Diese Mischung ist ein Hinweis auf die Austauschnetze, die das Leben der Hauptstadt trugen. Keine Stadt dieser Größe konnte allein von dem leben, was ihre Insel hervorbrachte.\n\nWenn du diesen Saal verlässt, gehe in aller Ruhe weiter zum nächsten. Dort erwartet dich der wichtigste Gott der Stadt: Huitzilopochtli."
+    },
+    "retos_observacion": {
+      "hash": "5994c2bff30b947a",
+      "texto": [
+        "Suche die olmekische Maske und überlege, wie viele Jahrhunderte zwischen den Olmeken und den Mexica liegen",
+        "Beobachte die Vielfalt der Materialien in den Vitrinen",
+        "Bestimme das Material von zwei Objekten und frage dich, aus welcher Region sie stammen könnten"
+      ]
+    },
+    "especificaciones": {
+      "hash": "34a01ad3b1658235",
+      "texto": {
+        "Saal": "3, Tribut und Handel",
+        "Herrschaft der Mexica": "von 1430 bis 1519",
+        "Händler": "Pochtecas",
+        "Hervorgehobenes Objekt": "olmekische Maske"
+      }
+    },
+    "faq_mito": {
+      "hash": "b13891c69822b14f",
+      "texto": {
+        "pregunta": "Mythos: Der Templo Mayor war nur ein religiöses Zentrum.",
+        "respuesta": "Realität: Er war auch ein politisches und wirtschaftliches Zentrum, getragen vom Tribut der beherrschten Völker und vom Handel."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "tmc_06_piedras_1790",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Nationalpalast\" para \"Palacio Nacional\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "fc8571f404f14433",
+      "texto": "Die Steine von siebzehnhundertneunzig"
+    },
+    "frase_gancho": {
+      "hash": "53e720e22dbbbb60",
+      "texto": "In nur einem Jahr kamen auf diesem Platz die Coatlicue und der Sonnenstein zum Vorschein, und der zweite landete schließlich an einem Turm der Kathedrale."
+    },
+    "puente_narrativo": {
+      "hash": "1ff1f8faa20d6dca",
+      "texto": "Geh jetzt weiter zur Kathedrale und betritt das Hauptschiff."
+    },
+    "guion_corto": {
+      "hash": "8610dd492ffd4aa3",
+      "texto": "Im Jahr siebzehnhundertneunzig stießen Arbeiter, die auf diesem Platz einen Graben für einen Kanal aushoben, auf zwei große Steine der Mexica. Der erste kam am dreizehnten August zum Vorschein und ist die Coatlicue, eine Skulptur aus Andesit, zweieinhalb Meter hoch. Der zweite wurde am siebzehnten Dezember gefunden und ist der Sonnenstein. Die Coatlicue brachte man zur Universität, und dort wurde sie wieder vergraben. Der Sonnenstein wurde an einem der Türme dieser Kathedrale angebracht, wo er bis achtzehnhundertfünfundachtzig blieb. Heute befinden sich beide im Nationalmuseum für Anthropologie. Diese Funde waren die ersten Vorboten der versunkenen Stadt."
+    },
+    "guion_largo": {
+      "hash": "391a5d8c1918542a",
+      "texto": "Im Jahr siebzehnhundertneunzig wurde dieser Platz neu gepflastert, und es wurden Wasserbauarbeiten ausgeführt. In jenem Jahr gab die Erde zwei gewaltige Steine zurück, die fast drei Jahrhunderte lang vergraben gelegen hatten.\n\nDer erste war die Coatlicue. Sie kam am dreizehnten August zum Vorschein, als man einen Graben für einen Kanal aushob, in der Nähe des heutigen Nationalpalasts. Es ist eine Skulptur aus Andesit, vollplastisch gearbeitet und etwa zweieinhalb Meter hoch. Sie ist vorn und hinten symmetrisch, und jeder Teil ist mit Reliefs bedeckt. Man identifiziert sie mit der Göttin Coatlicue, deren Name „die mit dem Rock aus Schlangen“ bedeutet. Ihre Identifizierung ist bis heute umstritten, und manche Forscherinnen haben vorgeschlagen, dass sie andere Gestalten darstellt, etwa die Sterne, die Tzitzimime genannt werden.\n\nDie Menschen jener Zeit wussten nicht, was sie mit ihr anfangen sollten. Man brachte sie zur Universität, um sie zu bewahren und zu erforschen. Doch einige Geistliche fürchteten, die Indigenen könnten sie erneut verehren, und ließen sie in einem Hof noch einmal vergraben. Achtzehnhundertdrei wurde sie ausgegraben, damit Alexander von Humboldt sie zeichnen konnte, und noch einmal achtzehnhundertdreiundzwanzig, um einen Abguss anzufertigen. Dort blieb sie, bis das erste Nationalmuseum gegründet wurde.\n\nDer zweite Stein kam am siebzehnten Dezember siebzehnhundertneunzig ans Licht, nahe beim ersten. Es ist der Sonnenstein, auch Aztekischer Kalender genannt. Er ist eine riesige Skulptur aus Basalt. In der Mitte befindet sich ein Gesicht, umgeben von den Zeichen der zwanzig Tage des Kalenders mit zweihundertsechzig Tagen. Fast ein Jahrhundert lang hielt man ihn für einen Kalender, weil Antonio de León y Gama ihn so deutete, der ihn gleich danach untersuchte. Heute nimmt man an, dass er ein Opferaltar war, ein Cuauhxicalli, was „Gefäß der Adler“ bedeutet. Es heißt, Moctezuma der Zweite habe ihn wenige Jahre vor der Eroberung geweiht.\n\nJetzt kommt die Angabe, die den Bezug zur Kathedrale herstellt. Nach seiner Entdeckung wurde der Sonnenstein an einem der Türme dieses Gotteshauses angebracht. Er war bis achtzehnhundertfünfundachtzig in die Mauer des Glockenturms eingelassen, als er ins Nationalmuseum gebracht wurde. Ein Katalog von achtzehnhundertzweiundachtzig verzeichnet ihn noch immer neben einem der Türme. Das heißt, fast ein Jahrhundert lang gingen die Menschen über diesen Platz und sahen, an die Kathedrale gefügt, eines der bezeichnendsten Werke der Mexica-Kultur. Eine klare Erklärung dafür, was es war, gab es nicht.\n\nDiese Funde haben einen besonderen Platz in der Geschichte der mexikanischen Archäologie. Sie waren die ersten Hinweise darauf, dass die Stadt Tenochtitlan noch dort unten lag. Das Museum des Templo Mayor erzählt tatsächlich die Geschichte der Forschung seit siebzehnhundertneunzig. So verbinden sich der Platz, die Kathedrale und die archäologische Zone.\n\nHeute befinden sich sowohl die Coatlicue als auch der Sonnenstein im Nationalmuseum für Anthropologie in Chapultepec. Sie gehören nicht zu diesem Rundgang, aber es lohnt sich, sie dort kennenzulernen.\n\nStell dir, während du hier stehst, die Szene vor. Ein Graben, eine Gruppe von Arbeitern, ein Hieb mit der Spitzhacke, und plötzlich ein Gesicht aus Stein. Die Stadt, die vergessen schien, tauchte unangekündigt wieder auf, und die Behörden von damals wussten nicht, ob sie sie zeigen, erforschen oder verbergen sollten. Dieser Zweifel begleitet die Funde bis heute."
+    },
+    "retos_observacion": {
+      "hash": "d0de566e044714e8",
+      "texto": [
+        "Suche den Nationalpalast: In seiner Nähe kam die Coatlicue zum Vorschein",
+        "Sieh dir die Türme der Kathedrale an und stell dir einen großen runden Stein vor, der in einen von ihnen eingelassen ist",
+        "Suche die Stelle, an der heute in der Mitte des Platzes der Fahnenmast steht"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8dbad0296172f1af",
+      "texto": {
+        "Coatlicue": "gefunden am 13. August 1790, Andesit, etwa 2,52 m hoch",
+        "Sonnenstein": "gefunden am 17. Dezember 1790, Basalt",
+        "Sonnenstein am Turm der Kathedrale": "bis 1885",
+        "Heute vorgeschlagene Funktion des Sonnensteins": "Cuauhxicalli, Opferaltar",
+        "Heutiger Standort beider": "Nationalmuseum für Anthropologie",
+        "Fundort": "Plaza de la Constitución, Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "af2c8cb7afd1974e",
+      "texto": {
+        "pregunta": "Mythos: Der Sonnenstein ist der Kalender, den die Mexica jeden Tag benutzten.",
+        "respuesta": "Realität: Obwohl er die zwanzig Tage des 260-Tage-Kalenders zeigt, wird er heute als Opferaltar gedeutet, als Cuauhxicalli, und nicht als Kalender für den täglichen Gebrauch."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "tmc_11_capillas_veneno",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "832c184ecb17da30",
+      "texto": "Die Seitenkapellen und der Señor del Veneno"
+    },
+    "frase_gancho": {
+      "hash": "32ed46a0fe420af1",
+      "texto": "Sechzehn Kapellen, vierzehn davon geöffnet, und ein Christus aus Maisrohrpaste, der seit Jahrhunderten verehrt wird."
+    },
+    "puente_narrativo": {
+      "hash": "8c835d5c9e5385eb",
+      "texto": "Suche unter den Kapellen die von San Felipe de Jesús, in der die sterblichen Überreste von Agustín de Iturbide ruhen."
+    },
+    "guion_corto": {
+      "hash": "e8cac4bffec00841",
+      "texto": "Seitlich der Schiffe öffnen sich die Seitenkapellen. Die Kathedrale hat sechzehn, vierzehn davon sind für die Öffentlichkeit zugänglich. Jede ist einem Heiligen oder einem Patrozinium gewidmet und wurde in der Vizekönigszeit von einem Orden oder einer Bruderschaft gestiftet. Darunter finden sich die Kapellen der Reliquien, der Engel, des heiligen Petrus und von San Felipe de Jesús. Eines der meistverehrten Bildnisse ist der Señor del Veneno, ein gekreuzigter Christus aus Maisrohrpaste, aus dem achtzehnten Jahrhundert. Er stammt aus dem Dominikanernoviziat von Porta Coeli. Ein weiteres ist der Señor del Cacao."
+    },
+    "guion_largo": {
+      "hash": "95f34d1b5f81801c",
+      "texto": "Geh durch eines der Seitenschiffe, und du wirst eine Abfolge von Kapellen sehen, jede mit ihrem Altar, ihrem Retabel und ihrer eigenen Atmosphäre. Dies ist einer der reichsten Orte der Kathedrale, denn jede Kapelle funktioniert wie eine kleine Kirche innerhalb der großen.\n\nDie Kathedrale hat sechzehn Kapellen, von denen vierzehn für Besucher geöffnet sind. Sie tragen den Namen ihres Heiligen oder ihres Patroziniums. Darunter finden sich die Kapellen der Reliquien, der Engel, des heiligen Petrus und des heiligen Josef. Ebenso gibt es die Kapellen Unserer Lieben Frau von Guadalupe, von San Felipe de Jesús, der Schmerzen und der Einsamkeit. Die Namen und die Reihenfolge können sich je nach Bauarbeiten und den Einschränkungen des Tages ändern.\n\nDer Grund für so viele Kapellen liegt in der Art, wie das Gebäude errichtet wurde. Jede wurde von einem Orden, einer Zunft oder einer Bruderschaft gestiftet, die den Altar bezahlte und sich dafür einen Raum für ihren Kult und manchmal auch für ihre Bestattungen vorbehielt. Deshalb haben die Kapellen unterschiedliche Stile. Manche sind schlicht, andere über und über mit Gold geschmückt, je nach Epoche und dem Vermögen dessen, der sie in Auftrag gab.\n\nIn diesem Ensemble gibt es Bildnisse, die die Menschen bis heute aufsuchen. Eines ist der Señor del Veneno, auch Schwarzer Christus genannt. Es ist eine Skulptur eines gekreuzigten Christus, gefertigt aus Maisrohrpaste, einer Technik aus Neuspanien, die leichte Figuren ermöglichte. Laut dem INAH stammt sie aus dem achtzehnten Jahrhundert und kommt aus dem Dominikanernoviziat von Porta Coeli in Mexiko-Stadt. Im zwanzigsten Jahrhundert gelangte sie in die Kathedrale, etwa in den zwanziger oder dreißiger Jahren.\n\nEs ist eines der meistbesuchten Bildnisse der Kathedrale. Diese Verehrung ist Teil des heutigen Lebens der Kirche und kein Schmuck für Touristen.\n\nEin weiteres bekanntes Bildnis ist der Señor del Cacao, der mit der Kapelle des heiligen Josef in Verbindung gebracht wird. In der Kolonialzeit legte man ihm Opfergaben aus Kakao nieder, der damals ein kostbarer Samen war und auch als Zahlungsmittel diente. Das erinnert daran, dass die Opfergaben von dem abhingen, was die Menschen zur Hand hatten, und dass sich der Kult mit der Wirtschaft vermischte.\n\nDie Kapellen bewahren außerdem Retabel, Gemälde und Skulpturen aus verschiedenen Epochen. Hervorzuheben sind die Kapelle der Reliquien, die der Engel und die des heiligen Petrus. Wenn du Zeit hast, tritt in die geöffneten Kapellen ein und verweile eine Weile in einer von ihnen. Du wirst merken, wie sich die Atmosphäre verändert, wenn du vom weiten, feierlichen Hauptschiff in einen intimeren Raum wechselst.\n\nEine weitere verdient einen eigenen Halt. Es ist die Kapelle von San Felipe de Jesús, die die Urne mit den sterblichen Überresten von Agustín de Iturbide birgt. Von ihr sprechen wir gleich.\n\nWenn du die Kapellen besuchst, denk daran, dass einige wegen Restaurierungen, Messen oder Feierlichkeiten geschlossen sind. Dies ist kein Museum, sondern eine Kirche in Gebrauch, und manche Räume öffnen nur zu bestimmten Zeiten. Wenn du eine geschlossen vorfindest, schau durch das Gitter und geh weiter."
+    },
+    "retos_observacion": {
+      "hash": "a4136e89936b2bd7",
+      "texto": [
+        "Zähle, wie viele Kapellen du auf einer Seite des Schiffs siehst",
+        "Suche in einer Kapelle den Namen des Heiligen oder das Patrozinium im oberen Teil des Retabels",
+        "Beobachte, ob Menschen vor einem verehrten Bildnis beten"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d6c8a3b101ac4ee",
+      "texto": {
+        "Kapellen": "16, für die Öffentlichkeit geöffnet: 14",
+        "Señor del Veneno": "Christus aus Maisrohrpaste, 18. Jahrhundert",
+        "Herkunft": "Dominikanernoviziat von Porta Coeli",
+        "Ankunft in der Kathedrale": "20. Jahrhundert",
+        "Señor del Cacao": "mit der Kapelle des heiligen Josef verbunden",
+        "Stiftung": "Orden und Bruderschaften"
+      }
+    },
+    "faq_mito": {
+      "hash": "2b25b9689c6abfb2",
+      "texto": {
+        "pregunta": "Mythos: Der Señor del Veneno ist eine vorspanische Skulptur.",
+        "respuesta": "Realität: Er ist ein gekreuzigter Christus aus dem 18. Jahrhundert, gefertigt aus Maisrohrpaste, und stammt aus dem Dominikanernoviziat von Porta Coeli."
+      }
+    }
+  }
+}

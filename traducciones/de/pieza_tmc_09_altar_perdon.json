@@ -1,0 +1,60 @@
+{
+  "id": "tmc_09_altar_perdon",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Neuspanien\" para \"Nueva España\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "782654ea8c0c37cb",
+      "texto": "Der Altar des Verzeihens und der Brand von neunzehnhundertsiebenundsechzig"
+    },
+    "frase_gancho": {
+      "hash": "db43fc34e45a49da",
+      "texto": "Ein Barockretabel, das in einer einzigen Nacht beinahe verloren ging, und zwei Legenden über seinen Namen."
+    },
+    "puente_narrativo": {
+      "hash": "1a4f9690905fd1d1",
+      "texto": "Geh weiter zum Kopfende der Kirche, wo der Hauptaltar steht und dahinter der Altar der Könige."
+    },
+    "guion_corto": {
+      "hash": "906179d79ce4c361",
+      "texto": "Hinter dem Chor, mit Blick zum Eingang, erhebt sich der Altar des Verzeihens. Es ist ein Barockretabel, das Jerónimo de Balbás zugeschrieben wird und aus der ersten Hälfte des achtzehnten Jahrhunderts stammt. Am siebzehnten Januar neunzehnhundertsiebenundsechzig verursachte ein Kurzschluss genau an diesem Altar einen Brand. Er zerstörte etwa achtzig Prozent des Werks und beschädigte auch das Chorgestühl und weitere Stücke. Zum Namen erzählt man sich zwei Legenden. Die eine besagt, dass hier die von der Inquisition Verurteilten um Verzeihung baten. Die andere, dass ein inhaftierter Maler hier ein Bild der Jungfrau Maria malte. Für keine der beiden gibt es einen endgültigen Beweis."
+    },
+    "guion_largo": {
+      "hash": "7c44499394097739",
+      "texto": "Du stehst vor dem Altar des Verzeihens, einem der beiden großen Retabelwerke der Kathedrale. Er befindet sich im Trascoro, also auf der Rückseite des Chors, auf der Seite, die zum Eingang zeigt.\n\nEs ist ein Werk des neuspanischen Barocks, das Jerónimo de Balbás zugeschrieben wird, demselben Meister, der den Altar der Könige schuf. Es entstand in der ersten Hälfte des achtzehnten Jahrhunderts. Ein Retabel ist ein Aufbau aus geschnitztem und vergoldetem Holz, der Bilder, Gemälde und Skulpturen trägt. Dieses hier wurde mit Estípites errichtet, den Stützen, die sich nach unten verjüngen und die in der Architektur Neuspaniens zu jener Zeit eine Neuheit waren.\n\nFür seinen Namen gibt es zwei Erklärungen, und keine ist gesichert. Eine Legende besagt, dass die von der Inquisition Verurteilten vor diesem Altar um Verzeihung baten, bevor sie ihre Strafe erhielten. Die andere erzählt, dass der Maler Simón Pereyns, der auf Anordnung des Heiligen Offiziums inhaftiert war, versprach, ein Bild der Jungfrau Maria zu malen, wenn man ihn freiließe, und dass dieses Gemälde hier aufgestellt wurde. Wie bei vielen Geschichten der Kathedrale stammen sie aus der Überlieferung und nicht aus einem Dokument, das sich hätte belegen lassen.\n\nDas Wichtigste an diesem Altar ist, was ihm im Jahr neunzehnhundertsiebenundsechzig widerfuhr. Am siebzehnten Januar verursachte ein Kurzschluss einen Brand. Er zerstörte etwa achtzig Prozent dieses Altars und den größten Teil des Chorgestühls, das unmittelbar davor stand. Er beschädigte außerdem den oberen Teil des Altars der Könige, verbrannte ein Gemälde der Himmelfahrt Mariens und in Mitleidenschaft gezogen wurden auch die Orgeln. Ebenso wurden Gemälde vizekönigszeitlicher Künstler beschädigt, darunter eine Jungfrau des Verzeihens von Simón Pereyns.\n\nNach dem Brand begann eine lange Rettungsarbeit. Laut den Dokumenten des INAH gab es Konservierungsarbeiten im Jahr neunzehnhundertsechsundsiebzig und einen weiteren Eingriff zwischen zweitausendsieben und zweitausendacht. Das bedeutet, dass das, was du heute siehst, nicht in allen Teilen gleich alt ist. Einige Teile überstanden das Feuer, andere wurden danach restauriert.\n\nDieser Altar ist ein guter Zugang, um zu verstehen, wie religiöses Kulturerbe bewahrt wird. Es geht nicht nur ums Reparieren. Zuerst muss entschieden werden, was gerettet wird, was ersetzt wird und was als Zeugnis des Schadens bleibt. In diesem Fall gehört das Feuer ebenso zur Geschichte des Werks wie seine Errichtung.\n\nAuch lohnt es sich, den Altar des Verzeihens wegen dessen zu betrachten, was er vom Barock zeigt. Die Estípites, das Blattgold und die Bilder füllen den Raum, als hätte der Künstler gefürchtet, eine Lücke leer zu lassen. Vergleiche ihn mit der Schlichtheit der Gewölbe über dir: Der Kontrast rührt daher, dass das Gebäude und die Altäre in unterschiedlichen Epochen mit unterschiedlichem Geschmack entstanden.\n\nWenn du mit dem Betrachten dieses Altars fertig bist, geh weiter in den hinteren Teil der Kirche. Dort steht der Hauptaltar und dahinter das größte und berühmteste Werk von Balbás: der Altar der Könige."
+    },
+    "retos_observacion": {
+      "hash": "1eb612a091a1d061",
+      "texto": [
+        "Sieh dir die Estípites des Retabels aus der Nähe an und vergleiche sie mit denen des Sagrario",
+        "Suche dunklere und hellere Stellen im vergoldeten Holz",
+        "Beobachte, wie viel Fläche das Retabel einnimmt und wie viele Bilder darin Platz finden"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5dab2f95f924078f",
+      "texto": {
+        "Autor": "Jerónimo de Balbás zugeschrieben",
+        "Fecha": "erste Hälfte des 18. Jahrhunderts",
+        "Incendio": "17. Januar 1967, durch einen Kurzschluss",
+        "Daño al altar": "etwa 80 Prozent",
+        "Restauraciones documentadas": "1976 und von 2007 bis 2008",
+        "Ubicación": "Trascoro, hinter dem Chor"
+      }
+    },
+    "faq_mito": {
+      "hash": "bdf2cbf0affe86c7",
+      "texto": {
+        "pregunta": "Mythos: Der Altar des Verzeihens überstand den Brand von 1967 unbeschädigt.",
+        "respuesta": "Realität: Das Feuer zerstörte etwa 80 Prozent des Altars, und nicht alles, was man heute sieht, ist gleich alt, weil es Restaurierungen gab."
+      }
+    }
+  }
+}

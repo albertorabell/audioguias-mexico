@@ -1,0 +1,58 @@
+{
+  "id": "tmc_17_dos_santuarios",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Adlerkrieger\" para \"Guerrero Águila\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3c57190d976b777d",
+      "texto": "Tláloc und Huitzilopochtli: zwei Berge in einer Pyramide"
+    },
+    "frase_gancho": {
+      "hash": "78fddda6872c5565",
+      "texto": "Eine Hälfte für den Regen, die andere für den Krieg, vereint im selben Bauwerk."
+    },
+    "puente_narrativo": {
+      "hash": "30bf70687bd72e0b",
+      "texto": "Folge dem Steg weiter. Wenn du bereit bist, geht es mit der nächsten Station deines Rundgangs weiter."
+    },
+    "guion_corto": {
+      "hash": "9765a9829ec357a3",
+      "texto": "Oben auf der Pyramide standen zwei Heiligtümer. Im Norden lag das des Tláloc, des Gottes des Regens und der Fruchtbarkeit, und im Süden das des Huitzilopochtli, des Gottes des Krieges und der Sonne. Für die Mexica war jede Seite ein heiliger Berg: Die Seite des Tláloc stand für den Tonacatépetl, den Berg der Lebensmittel, und die des Huitzilopochtli für den Coatépetl, den Schlangenberg. So vereinte man in einem einzigen Bauwerk und in einem einzigen Blick das Wasser, das Leben schenkt, und den Krieg, der das Reich trug. Jede Seite hatte ihre eigene Treppe und ihre eigene Atmosphäre. Die beiden Hälften ergänzten sich und brauchten einander."
+    },
+    "guion_largo": {
+      "hash": "09372f63661f2c5a",
+      "texto": "Eine der interessantesten Ideen des Templo Mayor ist, dass er kein Tempel für nur einen Gott war. Es waren zwei Bauwerke in einem, und jede Hälfte hatte ihre eigene Bedeutung.\n\nIm oberen Teil der Pyramide gab es zwei Heiligtümer, eines neben dem anderen. Das auf der Nordseite war Tláloc geweiht, dem Gott des Regens, der Blitze und der Fruchtbarkeit. Das auf der Südseite war Huitzilopochtli geweiht, dem Gott des Krieges und der Sonne, dem Schutzherrn der Mexica. Jedes Heiligtum hatte seine eigene Treppe, sodass die Pyramide mit zwei Eingängen nach Westen zu sehen war.\n\nJede Seite war außerdem ein heiliger Berg. Die Hälfte des Tláloc stand für den Tonacatépetl, den Berg der Lebensmittel, in dem Samen und Wasser aufbewahrt wurden. Die Hälfte des Huitzilopochtli stand für den Coatépetl, den Schlangenberg, auf dem der Mythos zufolge der Gott geboren worden war. Das Bauwerk war also ein doppelter Berg, aus Stein erbaut.\n\nDiese Verbindung ergibt viel Sinn, wenn du bedenkst, wie die Mexica lebten. Ihre Stadt lag in einem See, und sie brauchten Wasser für die Landwirtschaft, daher war Tláloc unverzichtbar. Aber ihre politische Macht hing vom Krieg und vom Tribut der eroberten Völker ab, daher war Huitzilopochtli genauso wichtig. Der Templo Mayor stellte die beiden zusammen und sagte gewissermaßen, dass das Leben der Stadt auf beiden Dingen beruhte.\n\nDie beiden Seiten unterschieden sich auch durch das, was man in ihnen gefunden hat. Auf der Seite des Tláloc sind ein Chac Mool und Farbreste erhalten. Auf der Seite des Huitzilopochtli fand man vor seinem Heiligtum den Opferstein. Diese Details prägten den Charakter jedes Raumes. Wer die Südtreppe hinaufstieg, betrat nicht dieselbe Welt wie jemand, der die Nordtreppe hinaufstieg.\n\nDieser Unterschied wird sich auch im Museum zeigen. Dort gibt es für jeden Gott einen Saal, mit den Opfergaben, die auf jeder Seite gefunden wurden. Im Saal des Tláloc fällt ein blau bemaltes Gefäß auf, und im Saal des Huitzilopochtli eine Skulptur eines Adlerkriegers und der Monolith der Coyolxauhqui. Dort kannst du vergleichen, was jede Hälfte barg.\n\nWenn du die Ruinen betrachtest, versuche, die beiden Hälften in Gedanken zu trennen. Du wirst sehen, dass die Nordbasis und die Südbasis unterschiedliche Treppen haben und dass jede ihre eigene Geschichte von Opfergaben hatte. Das wird dir helfen, dich im Folgenden zu orientieren, denn die wichtigsten Funde des Gebiets liegen auf der einen oder der anderen Seite dieser Teilung.\n\nDiese Idee der Dualität, von zwei Kräften, die einander brauchen, taucht an vielen Stellen des mexicanischen Denkens auf: Wasser und Feuer, Regen und Krieg, Leben und Tod. Der Templo Mayor hat sie in Stein gesetzt, im Zentrum der Stadt."
+    },
+    "retos_observacion": {
+      "hash": "dfa9ef5a572db6e7",
+      "texto": [
+        "Unterscheide in den Ruinen die Nordseite des Tláloc und die Südseite des Huitzilopochtli",
+        "Suche die beiden Treppen der Pyramide",
+        "Vergleiche, wie viele Überreste von jedem Heiligtum erhalten sind"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c38347b8eef379d8",
+      "texto": {
+        "Nordheiligtum": "Tláloc, Gott des Regens, der Tonacatépetl",
+        "Südheiligtum": "Huitzilopochtli, Gott des Krieges und der Sonne, der Coatépetl",
+        "Eingang": "nach Westen",
+        "Treppen": "2"
+      }
+    },
+    "faq_mito": {
+      "hash": "3a35efacdf431816",
+      "texto": {
+        "pregunta": "Mythos: Der Templo Mayor war nur Huitzilopochtli geweiht.",
+        "respuesta": "Realität: Er war ein Doppeltempel, geweiht Tláloc und Huitzilopochtli."
+      }
+    }
+  }
+}

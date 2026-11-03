@@ -1,0 +1,54 @@
+{
+  "id": "tmc_30_sala_5_tlaloc",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a1f526c4afb496d8",
+      "texto": "Saal fünf: Tláloc, der blaue Topf und die Opfergabe einundvierzig"
+    },
+    "frase_gancho": {
+      "hash": "97b0c32e1ceb4642",
+      "texto": "Ein blauer Topf, eine nummerierte Opfergabe und die Helfer des Regens."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "Wenn du bereit bist, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "guion_corto": {
+      "hash": "77e42eda85862196",
+      "texto": "Saal fünf entspricht der Nordseite des Tempels, der Seite von Tláloc. Hier findest du einen blau bemalten Topf, die Opfergabe einundvierzig und Darstellungen der Tlaloque, der Helfer des Regens. Diese Seite des Tempels war mit dem Wasser und mit der Fruchtbarkeit verbunden und ergänzte die Südseite, die Seite des Krieges. Der Saal lädt dazu ein, darüber nachzudenken, was der Regen für eine Stadt in einem See bedeutete, und warum die Mexica ihn in die Mitte ihres Haupttempels stellten. Es ist ein ruhigerer Saal als der vorherige, und man durchquert ihn am besten ohne Eile und betrachtet jede Vitrine für sich."
+    },
+    "guion_largo": {
+      "hash": "d108448206a627d5",
+      "texto": "Du gelangst jetzt auf die andere Seite des Tempels. Saal fünf ist Tláloc gewidmet, dem Gott des Regens, und dem, was im Heiligtum auf der Nordseite gefunden wurde.\n\nErinnere dich an das, was du in der archäologischen Zone an der Station der beiden Heiligtümer gesehen hast. Die Pyramide hatte zwei Heiligtümer: im Süden Huitzilopochtli, im Norden Tláloc. Jedes war ein heiliger Berg, und jedes verlangte andere Opfergaben. Dieser Saal ist das Spiegelbild des vorherigen: Statt um Krieg und Sonne geht es hier um das Wasser, die Fruchtbarkeit und die Nahrungsmittel.\n\nEines der wichtigsten Objekte ist ein blau bemalter Topf. Es ist ein zeremonielles Stück. Die Farbe Blau wird gewöhnlich mit dem Wasser in Verbindung gebracht, und sie gehört zu den Merkmalen, an denen man diesen Gott erkennt. Wenn du den Saal betrittst, achte darauf, wie diese Farbe die Stimmung im Vergleich zum vorherigen Saal verändert.\n\nDer Saal zeigt außerdem die Opfergabe einundvierzig. Die Archäologen nummerieren die Opfergaben des Templo Mayor, und diese hier ist eine von denen, die auf der Seite von Tláloc gefunden wurden. Insgesamt wurden mehr als hundert Opfergaben entdeckt, wie du in Saal eins gesehen hast. Jede hat ihre eigene Nummer und ihre eigene Liste von Objekten, und deshalb lassen sie sich eine nach der anderen untersuchen. Diese Ordnung ist Teil der Arbeit der Archäologen, die festhalten, wo sich jedes Stück befand, bevor sie es bewegen.\n\nAußerdem gibt es Darstellungen der Tlaloque. Der Überlieferung nach waren sie die Helfer von Tláloc, zuständig für den Regen. Man stellte sie sich als kleine Wesen vor, die das Wasser aus Gefäßen ausgossen. Im Saal kannst du nach ihren Figuren suchen und darauf achten, wie sie dargestellt wurden. Die Texttafeln im Saal erzählen dir mehr über jede einzelne, und es lohnt sich, sie in Ruhe zu lesen.\n\nDenke darüber nach, warum Tláloc im Zentrum der Stadt stand. Tenochtitlan lag auf einer Insel, umgeben von Seen, und hing vom Regen und vom Wasserstand ab. Eine Dürre oder eine Überschwemmung konnten katastrophal sein. Den Gott des Regens im Haupttempel zu haben, war eine Möglichkeit, diese Abhängigkeit anzuerkennen.\n\nEin Hinweis, um besser hinzuschauen: Vergleiche diesen Saal mit dem vorherigen. Dort gab es einen Adlerkrieger, eine Feuerschlange und Figuren von Göttern des Feuers und des Todes. Hier richtet sich die Aufmerksamkeit auf das Wasser und auf die Erde, die Früchte trägt. Die beiden Säle zusammen erzählen von der Dualität des Tempels.\n\nBevor du gehst, kehre noch einmal kurz zum blauen Topf zurück und vergleiche ihn mit dem, was du von der Seite von Huitzilopochtli gesehen hast. Dieser Vergleich hilft dir, die beiden Seiten des Tempels zu erkennen. Wenn du hinausgehst, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "retos_observacion": {
+      "hash": "e4f4199af694339a",
+      "texto": [
+        "Suche den blau bemalten Topf",
+        "Finde die Opfergabe mit der Nummer 41",
+        "Entdecke die Figuren der Tlaloque, der Helfer des Regens"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e315b2c96057d85d",
+      "texto": {
+        "Saal": "5, Tláloc",
+        "Seite des Tempels": "Nord",
+        "Objekte": "blauer Topf, Opfergabe 41, Tlaloque",
+        "Opfergaben insgesamt im Templo Mayor": "mehr als 100"
+      }
+    },
+    "faq_mito": {
+      "hash": "9489e1408c53c9e4",
+      "texto": {
+        "pregunta": "Mythos: Tláloc war im Templo Mayor ein zweitrangiger Gott.",
+        "respuesta": "Realität: Er teilte sich die Spitze der Pyramide mit Huitzilopochtli; jeder hatte sein eigenes Heiligtum."
+      }
+    }
+  }
+}

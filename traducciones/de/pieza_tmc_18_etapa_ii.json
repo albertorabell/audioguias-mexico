@@ -1,0 +1,54 @@
+{
+  "id": "tmc_18_etapa_ii",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "42fadf862f85f2d5",
+      "texto": "Die Etappe II: die ältesten erhaltenen Heiligtümer"
+    },
+    "frase_gancho": {
+      "hash": "4e67437e95cc95aa",
+      "texto": "Der kleine Tempel des Tláloc bewahrt noch immer Farbreste."
+    },
+    "puente_narrativo": {
+      "hash": "d6eec3db67b18743",
+      "texto": "Schau zum Fuß der Treppe auf der Südseite und suche die Stelle, an der der große Stein der Coyolxauhqui gefunden wurde."
+    },
+    "guion_corto": {
+      "hash": "92a863ec2afa39cb",
+      "texto": "Die Etappe II ist der älteste Teil des Tempels, der vollständig zu sehen ist. Sie bewahrt zwei kleine Heiligtümer auf einer Plattform. Im Süden hat das Heiligtum des Huitzilopochtli an seinem Eingang einen Opferstein, und unter dem Boden fanden sich Urnen mit Resten von Verbrennungen. Im Norden bewahrt das Heiligtum des Tláloc einen Chac Mool und Reste von Wandmalerei. Sie stammt aus der Zeit um tausenddreihundertneunzig, blieb geschützt, weil andere Etappen sie überdeckten, und ist deshalb heute besser erhalten als die jüngeren. Diese Heiligtümer zu sehen heißt, einen Blick auf einen frühen Moment von Tenochtitlan zu werfen, als der Tempel noch klein war."
+    },
+    "guion_largo": {
+      "hash": "3f34190a0486a6ed",
+      "texto": "Du stehst vor dem ältesten Teil des Templo Mayor, der in gutem Zustand erhalten ist. Er heißt Etappe II und ist ein Juwel, um zu verstehen, wie die Heiligtümer der Mexica aussahen, bevor das Reich wuchs.\n\nEs handelt sich um eine Plattform mit zwei kleinen Heiligtümern darauf, eines auf der Südseite und eines auf der Nordseite. Sie sind bescheidener als die der späteren Etappen, haben aber einen Vorteil: Sie blieben erhalten, weil größere Bauten sie überdeckten. Diese Etappe wird um tausenddreihundertneunzig datiert, ein ungefähres Datum.\n\nAuf der Südseite liegt das Heiligtum des Huitzilopochtli. An seinem Eingang befindet sich ein Opferstein, ein Block, auf dem rituelle Opfergaben dargebracht wurden. Unter dem Boden des Heiligtums fand man Urnen mit Resten verbrannter Knochen, die Teil der Opfergaben sind. Später, im Verlauf des Museumsbesuchs, wirst du sehen, dass die Opfergaben dieses Tempels zu den wichtigsten Informationsquellen über das Ritual der Mexica gehören.\n\nAuf der Nordseite liegt das Heiligtum des Tláloc. Dort steht ein Chac Mool, eine zurückgelehnte Figur, die ein Gefäß auf dem Bauch hält. Außerdem sind an den Wänden Reste von Wandmalerei erhalten, und das ist selten, denn Farbe geht mit der Zeit meist verloren.\n\nAchte auf die Abmessungen. Diese Heiligtümer sind bescheiden in der Größe, viel kleiner als die der späteren Etappen. Im Lauf der Zeit machten die späteren Etappen das Gebäude größer, behielten aber dieselbe Logik zweier Heiligtümer bei, eines im Norden und eines im Süden. Diese Idee änderte sich in der gesamten Geschichte des Tempels nicht, wohl aber seine Größe und seine Ausschmückung.\n\nAuch das, was man nicht sieht, ist einen Blick wert. Diese Etappe liegt im Inneren der späteren Pyramide. Was du heute siehst, ist ein kleines Fenster in die Vergangenheit, denn die späteren Etappen haben sie überdeckt. Deshalb wird sie mit Dächern und Stegen geschützt.\n\nWenn du Zeit hast, geh näher an die Geländer heran und betrachte den Boden des Heiligtums. Du kannst dir die Opfergaben vorstellen, die dort niedergelegt wurden und die du im Museum in Vitrinen sehen wirst. Viele Objekte dieser Art befinden sich jetzt im Museum, das wir später besuchen werden.\n\nEin weiteres Detail hilft, diesen Ort zu lesen. Die beiden Hälften der Etappe II sind nicht gleich. Die Seite des Tláloc bewahrt Figuren und Malerei, während die des Huitzilopochtli sich durch den Opferstein und die Urnen auszeichnet. Das bestätigt, dass schon in der frühesten Etappe jedes Heiligtum seinen eigenen Charakter und seine eigene Art von Opfergaben hatte. Wenn du beide Seiten in Ruhe vergleichst, beginnst du zu erkennen, wie der Kult oben auf der Pyramide organisiert war.\n\nDie Etappe II erinnert uns an etwas Wichtiges. Vor dem Reich und den großen Pyramiden war dieser Tempel klein, und sein Wachstum begleitete den Aufstieg von Tenochtitlan."
+    },
+    "retos_observacion": {
+      "hash": "5673df87ba264e70",
+      "texto": [
+        "Suche den Opferstein am Eingang des südlichen Heiligtums",
+        "Finde den Chac Mool im nördlichen Heiligtum",
+        "Achte darauf, ob du Reste von Wandmalerei an den Wänden siehst"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f42edfb409b0240",
+      "texto": {
+        "Etappe II": "um 1390",
+        "Südliches Heiligtum": "Huitzilopochtli, Opferstein und Urnen mit Resten von Verbrennungen",
+        "Nördliches Heiligtum": "Tláloc, Chac Mool und Reste von Wandmalerei",
+        "Schutz": "Dächer und Stege"
+      }
+    },
+    "faq_mito": {
+      "hash": "d8945338268bbea4",
+      "texto": {
+        "pregunta": "Mythos: Die Heiligtümer der Etappe II wurden vollständig rekonstruiert.",
+        "respuesta": "Realität: Sie sind erhalten, weil sie von späteren Etappen überdeckt wurden; heute werden sie mit Dächern geschützt."
+      }
+    }
+  }
+}

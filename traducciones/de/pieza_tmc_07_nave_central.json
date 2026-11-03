@@ -1,0 +1,57 @@
+{
+  "id": "tmc_07_nave_central",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8b135bfca9215da1",
+      "texto": "Das Hauptschiff und seine einundfünfzig Gewölbe"
+    },
+    "frase_gancho": {
+      "hash": "a630e145bfa4429b",
+      "texto": "Fünf Schiffe, vierzig Säulen und ein Boden, der nicht ganz eben ist."
+    },
+    "puente_narrativo": {
+      "hash": "6d0aa78644adfd61",
+      "texto": "Geh durch das Hauptschiff bis zur Mitte des Gotteshauses. Wenn du bereit bist, fahre mit der nächsten Station deines Rundgangs fort."
+    },
+    "guion_corto": {
+      "hash": "46e1938e5efca4ea",
+      "texto": "Fünf Schiffe, einundfünfzig Gewölbe, vierundsiebzig Bögen und vierzig Säulen. Das sind die Zahlen dieses Innenraums. Die Gewölbe wurden ab fünfzehnhunderteinundachtzig nach und nach geschlossen, das letzte im Jahr sechzehnhundertsiebenundsechzig. Deshalb hat der Raum klare Proportionen und eine nüchterne Ausstrahlung, noch bevor sich die Altäre mit Gold füllten. Das Hauptschiff ist das breiteste und das höchste. Durch es gehst du auf den Chor, die Orgeln und den Hauptaltar zu. Geh langsam und achte auf den Boden, denn er ist nicht ganz eben. Der Untergrund unter der Kathedrale ist seit Jahrhunderten in Bewegung, und das Gebäude zeigt es."
+    },
+    "guion_largo": {
+      "hash": "edc554e076b03db1",
+      "texto": "Du hast gerade eine der größten Kirchen Amerikas betreten. Bevor du nach Altären und Kapellen suchst, lohnt es sich zu verstehen, wie dieser Raum aufgebaut ist.\n\nDie Kathedrale hat fünf Schiffe und ein Querschiff, also den Querraum, der die Kirche durchschneidet. Der Innenraum zählt einundfünfzig Gewölbe, vierundsiebzig Bögen, vierzig Säulen und etwa einhundertfünfzig Fenster. Das sind runde Zahlen, die helfen, sich die Größe vorzustellen. Schon auf den ersten Blick sieht man, dass das Hauptschiff das breiteste und das höchste ist und dass die Seitenschiffe es wie niedrigere Gänge begleiten.\n\nDiese Anordnung folgt einer Logik. Das Hauptschiff führt vom Eingang zum Altar, und auf seinem Weg begegnen dir die Elemente, die das Gotteshaus gliedern. Zuerst erscheint der Chor mit dem hölzernen Chorgestühl und den beiden großen Orgeln. Danach der Altar der Vergebung und das Querschiff. Ganz hinten, im Altarraum, liegt die Hauptkapelle mit dem Königsaltar. Die Seitenschiffe führen zu den Kapellen, jede einem Heiligen gewidmet und von einem Orden, einer Zunft oder einer Bruderschaft gestiftet.\n\nDer Bau dieses Raums dauerte Jahrzehnte. Die Gewölbe wurden ab fünfzehnhunderteinundachtzig nach und nach geschlossen, und das letzte wurde am zweiundzwanzigsten Juni sechzehnhundertsiebenundsechzig geschlossen. Dieses Jahr gilt als das Ende der Arbeiten am Innenraum. Damals wurde das Gotteshaus geweiht. Das Ergebnis siehst du in der Nüchternheit der Linien. Der ursprüngliche Entwurf hat einen Hauch von Renaissance, und seine Ordnung steht im Kontrast zu den barocken Altären, die später hinzukamen.\n\nJetzt schau nach oben und folge den Gewölben mit dem Blick. Denk daran, dass das Gotteshaus etwa einhundertfünfzig Fenster hat und dass das Licht, das auf das Schiff fällt, von ihnen abhängt.\n\nSenke dann den Blick auf den Boden und geh vorsichtig. Der Boden der Kathedrale ist nicht vollkommen waagerecht. Diese Kirche steht auf dem weichen Untergrund eines ehemaligen Sees und senkt sich seit ihrem Bau ungleichmäßig. An einer Stelle des Gebäudes betrug der größte Höhenunterschied mehr als zwei Meter, und er wurde durch einen späteren Eingriff verringert. Etwas später, an einer anderen Station, wirst du sehen, wie das Gebäude wieder aufgerichtet wurde. Fürs Erste genügt es zu bemerken, dass der Boden eine Art Landkarte des Untergrunds ist.\n\nNoch eine letzte Beobachtung. Trotz der Größe wirkt der Raum nicht leer. Er ist erfüllt von der Gegenwart der Altäre, der Gitter, der Bänke der Gläubigen und der Seitenkapellen, und alles folgt einer Ordnung. Wenn du auf eine Messe triffst, verändert sich die Atmosphäre vollkommen. Man hört die Orgel oder den Gesang, und der Raum füllt sich mit einem Sinn, den man in der Stille nicht wahrnimmt. Respektiere dieses Ritual: Sprich leise, verzichte auf den Blitz und störe nicht diejenigen, die beten.\n\nWenn du bereit bist, geh durch das Schiff weiter zur Mitte des Gotteshauses."
+    },
+    "retos_observacion": {
+      "hash": "46dae89079775f10",
+      "texto": [
+        "Zähle, wie viele Säulen du in einer einzigen Reihe des Hauptschiffs erkennst",
+        "Schau nach oben und folge der Linie eines Gewölbes bis dahin, wo es sich schließt",
+        "Geh langsam und suche eine Stelle im Boden, an der man ein Gefälle bemerkt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2f950365bb6f4480",
+      "texto": {
+        "Schiffe": "5, dazu ein Querschiff",
+        "Gewölbe": "51",
+        "Bögen": "74",
+        "Säulen": "40",
+        "Fenster": "etwa 150",
+        "Zuletzt geschlossenes Gewölbe": "22. Juni 1667",
+        "Standort": "Innenraum der Kathedrale von Mexiko-Stadt"
+      }
+    },
+    "faq_mito": {
+      "hash": "97510d9485f40686",
+      "texto": {
+        "pregunta": "Mythos: Der Innenraum der Kathedrale war schon immer so golden wie heute.",
+        "respuesta": "Realität: Der ursprüngliche Entwurf ist nüchtern und von der Renaissance beeinflusst, und die goldenen Barockaltäre kamen im 17. und 18. Jahrhundert hinzu."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "tmc_29_coyolxauhqui_monolito",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0ef9a1a1d2021d98",
+      "texto": "Der Monolith der Coyolxauhqui im Museum"
+    },
+    "frase_gancho": {
+      "hash": "1b8d051e0750b142",
+      "texto": "Der originale Stein, den du dort gesehen hast, wo er gefunden wurde, jetzt aus der Nähe."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "Wenn du so weit bist, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "guion_corto": {
+      "hash": "cabe5ad9013f0d1d",
+      "texto": "Vor dir steht der Monolith der Coyolxauhqui, die Steinscheibe, die am einundzwanzigsten Februar neunzehnhundertachtundsiebzig am Fuß der Südtreppe gefunden wurde. Sie misst drei Meter fünfundzwanzig im Durchmesser und wiegt laut INAH fast acht Tonnen. Die Figur ist eine zerstückelte Frau, deren Kopf vom Körper getrennt ist. Ihr Name bedeutet „die mit der Gesichtsbemalung aus Schellen“. Dem Mythos zufolge ist sie die Schwester von Huitzilopochtli, der sie besiegt hat. Achte auf die abgetrennten Arme und Beine sowie auf die Details der Kleidung und des Schmucks. Dieses Stück genießt man am besten, wenn man einmal ganz um es herumgeht."
+    },
+    "guion_largo": {
+      "hash": "6907468e569d4ac5",
+      "texto": "Dies ist das wichtigste Stück des Museums und wahrscheinlich dasjenige, das die Öffentlichkeit am besten kennt. Es ist der Monolith der Coyolxauhqui, die Scheibe, die neunzehnhundertachtundsiebzig zum Vorschein kam und das gesamte Projekt ins Leben gerufen hat.\n\nZuerst die Zahlen, laut INAH. Die Scheibe misst drei Meter fünfundzwanzig im Durchmesser und wiegt fast acht Tonnen. Das heißt, es ist ein gewaltiger Stein, und ein solches Stück zu bewegen, war für das Team, das es geborgen hat, eine beachtliche Aufgabe. Gefunden wurde sie am einundzwanzigsten Februar neunzehnhundertachtundsiebzig, am Fuß der Südtreppe des Tempels, dort, wo du vorhin warst.\n\nNun zur Szene. Die gemeißelte Figur ist eine Frau, und ihr Körper ist zerstückelt: Kopf, Arme und Beine erscheinen vom Rumpf getrennt, aber innerhalb des Kreises angeordnet. Es ist eine Komposition, die den Blick zwingt, jeden Teil einzeln abzufahren, bis sich der Körper vervollständigt. Das Relief ist sehr sorgfältig gearbeitet, und das sieht man am Schmuck, an den Details der Kleidung und an den Formen des Körpers.\n\nDer Name bedeutet laut INAH „die mit der Gesichtsbemalung aus Schellen“. In der Überlieferung der Mexica ist Coyolxauhqui die Schwester von Huitzilopochtli. Als er geboren wurde, führte sie ihre Brüder, die Centzonhuitznahua, in einem Angriff gegen ihre Mutter an. Huitzilopochtli trat bewaffnet hervor, besiegte sie, und ihr Körper stürzte den Hang des Coatépetl hinab.\n\nDeshalb lag der Stein am Fuß der Treppe des Heiligtums. Die Szene auf dem Stein wiederholte am Boden, was der Mythos auf dem Berg erzählte. Wer sie sah, verstand die Botschaft ohne Worte: Der Gott triumphiert über seine Feinde.\n\nEs gibt noch etwas, das man wissen sollte. Der Saal acht des Museums, der letzte, zeigt Fragmente einer anderen Coyolxauhqui, ebenfalls monumental, die von den Spaniern zerstört wurde. Dieses andere Stück ist nicht vollständig erhalten, und das sagt alles. Das macht den Monolithen, der vor dir steht, noch wertvoller, denn er wurde vor der Zerstörung bewahrt.\n\nAchte auch darauf, wie das Stück präsentiert wird. Im Museum kannst du es von vorn betrachten. Im Tempel dagegen lag es am Fuß der Treppe, sichtbar für jeden, der sich dem Heiligtum näherte. Stell dir vor, wie es dort im Tageslicht gewirkt haben muss. Wenn du dich an Tlaltecuhtli erinnerst, der noch Farbreste bewahrt, wirst du verstehen, dass diese Skulpturen bemalt gewesen sein können und dass man sie sich am besten farbenprächtig vorstellt.\n\nNimm dir die Zeit, einmal herumzugehen und sie von verschiedenen Seiten zu betrachten. Suche zuerst den Kopf, dann die Arme und die Beine und zuletzt den Schmuck. Dieses Stück verdient ein paar Minuten Aufmerksamkeit, denn es vereint in einem einzigen Objekt den Mythos, die Archäologie und die Geschichte der Stadt. Ohne sie wärst du heute wahrscheinlich nicht in diesem Museum, und das Zentrum der Stadt sähe anders aus."
+    },
+    "retos_observacion": {
+      "hash": "73bef5ae695cdbd9",
+      "texto": [
+        "Suche den vom Körper getrennten Kopf innerhalb des Kreises",
+        "Beobachte die abgetrennten Arme und Beine und wie sie auf der Scheibe angeordnet sind",
+        "Vergleiche die Scheibe mit dem Ort an der Südtreppe, an dem du sie im Ausgrabungsgelände gesehen hast"
+      ]
+    },
+    "especificaciones": {
+      "hash": "89501281611a612a",
+      "texto": {
+        "Funddatum": "21. Februar 1978",
+        "Durchmesser": "3,25 m laut INAH",
+        "Gewicht": "fast 8 Tonnen",
+        "Name": "die mit der Gesichtsbemalung aus Schellen",
+        "Fundort": "Fuß der Südtreppe",
+        "Saal": "4"
+      }
+    },
+    "faq_mito": {
+      "hash": "57254f34ad9d8a71",
+      "texto": {
+        "pregunta": "Mythos: Dieser Monolith ist der einzige der Coyolxauhqui, der je existiert hat.",
+        "respuesta": "Realität: Saal 8 zeigt Fragmente einer anderen monumentalen Coyolxauhqui, die von den Spaniern zerstört wurde."
+      }
+    }
+  }
+}

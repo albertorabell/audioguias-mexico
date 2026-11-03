@@ -1,0 +1,26 @@
+{
+  "id": "tmc-05-cierre",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Historisches Zentrum\" para \"Centro Histórico\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "e207c1e6563177ec",
+      "texto": "Zwei Städte, ein und derselbe Boden"
+    },
+    "frase_gancho": {
+      "hash": "996160274ff4e81d",
+      "texto": "Zum Abschluss: eine Mauer aus Schädeln unter der Straße und ein Blick auf das, was die Kathedrale und den Templo Mayor verbindet."
+    },
+    "introduccion_narrativa": {
+      "hash": "6f6a175eb1d988e8",
+      "texto": "Zwei letzte Stationen, schon außerhalb des Museums. Die erste liegt nur eine Straße entfernt, in der Calle Guatemala: der Huei Tzompantli, die große Mauer aus Schädeln, die 2015 unter einem Kolonialgebäude zum Vorschein kam. Die zweite ist der Platz, an dem die Kathedrale und der Templo Mayor nur wenige Meter voneinander entfernt stehen, in der Zeit gewissermaßen übereinander: Der Tempel der Mexica wurde niedergerissen, und seine Steine dienten für das Gebäude aus der Vizekönigszeit. Diese letzte Station bringt die beiden Welten zusammen und lässt dich mit einer Frage für den Rest des Historischen Zentrums zurück."
+    }
+  }
+}

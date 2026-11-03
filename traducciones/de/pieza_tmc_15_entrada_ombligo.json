@@ -1,0 +1,56 @@
+{
+  "id": "tmc_15_entrada_ombligo",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a565290328a4d04b",
+      "texto": "Der Huey Teocalli: der Nabel des Mexica-Universums"
+    },
+    "frase_gancho": {
+      "hash": "d999fae1472507c8",
+      "texto": "Hier lag das Zentrum der Welt der Mexica, und heute siehst du es von einem Steg aus."
+    },
+    "puente_narrativo": {
+      "hash": "6f4040200719f5aa",
+      "texto": "Folge dem Steg in aller Ruhe. Wenn du so weit bist, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "guion_corto": {
+      "hash": "62051446462ba074",
+      "texto": "Du befindest dich an dem Ort, an dem die Mexica das Zentrum ihrer Welt errichteten. Sie nannten ihn Huey Teocalli, den großen Tempel, und sahen in ihm den Nabel des Universums. Es war eine doppelte Pyramide mit zwei Heiligtümern auf der Spitze, eines für Huitzilopochtli und eines für Tláloc. In ihrer letzten Bauphase maß sie etwa achtzig Meter pro Seite und rund fünfundvierzig Meter in der Höhe. Was du heute siehst, ist die Basis, denn der Rest ging nach der Eroberung verloren. Während du über den Steg gehst, denk daran, dass dies das Zentrum einer ganzen Stadt war und dass sie zu einem großen Teil noch immer unter deinen Füßen liegt. Die Kathedrale und der Zócalo wurden über dieser Stadt errichtet, und die Ausgrabungen haben nach und nach freigelegt, was darunter übrig geblieben war."
+    },
+    "guion_largo": {
+      "hash": "9debfffc51e13022",
+      "texto": "Du befindest dich in der archäologischen Zone des Templo Mayor. Bevor du dir Stein für Stein ansiehst, was hier zu sehen ist, lohnt es sich, dich zu orientieren, denn was du vor dir hast, ist nur ein kleiner Teil von etwas viel Größerem.\n\nDie Mexica nannten dieses Bauwerk Huey Teocalli, was „großer Tempel“ bedeutet. Es stand im Herzen des heiligen Bezirks von Tenochtitlan, der Stadt, die sie auf einer Insel im See gegründet hatten. Für sie war dieser Ort der Nabel des Universums, der Punkt, an dem sich der Himmel, die Erde und die Welt der Toten trafen. Er war nicht einfach nur ein wichtiger Tempel. Er war die Achse ihres Weltverständnisses.\n\nAuch die Form des Gebäudes hatte eine Bedeutung. Es war eine Pyramide mit zwei Treppen und zwei Heiligtümern auf der Spitze. Auf der Nordseite stand das von Tláloc, dem Gott des Regens, und auf der Südseite das von Huitzilopochtli, dem Gott des Krieges und der Sonne. In ihrer letzten Bauphase maß die Pyramide etwa achtzig Meter pro Seite und rund fünfundvierzig Meter in der Höhe, und sie durchlief sieben Bauphasen. Das sind Richtwerte, denn erhalten ist die Basis mehrerer Bauphasen.\n\nDer heilige Bezirk umfasste ringsum weitere Bauwerke. Es gab Tempel, Priesterhäuser, Ballspielplätze und Plattformen. Bei den Ausgrabungen wurden Reste mehrerer davon gefunden, etwa die Roten Tempel und das Haus der Adler, die wir später noch besuchen werden. Sicher ist, dass der Bereich, den du heute durchquerst, nur ein Teil dieser Anlage ist und dass der Rest noch unter den Straßen und den umliegenden Gebäuden liegt.\n\nDie Eroberung veränderte alles. Nach 1521 zerstörten die Spanier die Tempel und verwendeten ihre Steine für den Bau der neuen Stadt. Auf diesem Gelände entstanden Häuser, die Kathedrale und der Platz. Jahrhundertelang sah niemand diese Ruinen, und nur einige vereinzelte Funde erinnerten daran, dass darunter etwas lag. Einer davon war der von 1790, als auf dem Platz große Skulpturen der Mexica zum Vorschein kamen, und über ihn sprechen wir im Museum.\n\nDie systematischen Ausgrabungen kamen viel später. In den Jahren 1913 und 1914 legte der Archäologe Manuel Gamio einen Teil der Südwestecke des Gebäudes frei. Doch die große Erforschung begann 1978, als der große Stein der Coyolxauhqui zum Vorschein kam. Dieser Fund führte zum Proyecto Templo Mayor, das von 1978 bis 1982 lief und mehr als 7 000 Objekte barg. Darüber sprechen wir noch.\n\nFolge auf deinem Rundgang den Stegen. Sie sind so angelegt, dass du die Ruinen sehen kannst, ohne sie zu betreten. Du wirst bemerken, dass die Schichten wie Schnitte aussehen: Jede Bauphase des Tempels wurde über der vorherigen errichtet, sodass manche Teile begraben blieben und andere sichtbar gelassen wurden.\n\nSchau jetzt nach oben und nach Westen. Dort siehst du die Kathedrale, nur wenige Meter entfernt. Es ist schwer, einen anderen Ort zu finden, an dem zwei so verschiedene Welten so nah beieinander liegen. Der Tempel der Mexica war das Zentrum einer Stadt, und die Kathedrale war das Zentrum einer anderen, die über der ersten errichtet wurde.\n\nZu Beginn des Besuchs versuch nicht, alles auf einmal zu verstehen. Sieh dir zuerst die Gesamtform der Ruinen an. Danach sehen wir an den nächsten Stationen, wie der Tempel gewachsen ist, was sich in jedem Heiligtum befand und welche Opfergaben hier vergraben wurden."
+    },
+    "retos_observacion": {
+      "hash": "8158d388e0f90a9a",
+      "texto": [
+        "Finde die Basis der Pyramide und erkenne die beiden Treppen",
+        "Suche vom Steg aus die Stelle, von der aus man die Kathedrale sieht",
+        "Beobachte die Schnitte in den Wänden, an denen man die Schichten verschiedener Bauphasen erkennt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e34d71cc7f6c3c90",
+      "texto": {
+        "Mexica-Name": "Huey Teocalli, großer Tempel",
+        "Ungefähre Maße der Pyramide": "etwa 80 m pro Seite und etwa 45 m hoch",
+        "Bauphasen": "7",
+        "Heiligtümer": "Tláloc im Norden, Huitzilopochtli im Süden",
+        "Ausgrabungen von Gamio": "1913 bis 1914",
+        "Proyecto Templo Mayor": "1978 bis 1982"
+      }
+    },
+    "faq_mito": {
+      "hash": "fdb2068e98620c36",
+      "texto": {
+        "pregunta": "Mythos: Der Templo Mayor ist fast vollständig erhalten.",
+        "respuesta": "Realität: Was du siehst, sind die Basen mehrerer Bauphasen, denn die Spanier zerstörten die Tempel nach 1521."
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "tmc-02-catedral-interior",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "nombre_oficial": {
+      "hash": "c3d4a174d2b422f8",
+      "texto": "Das Innere der Kathedrale"
+    },
+    "frase_gancho": {
+      "hash": "30670f3cc6968f75",
+      "texto": "Ein lebendiges Gebäude, das langsam einsinkt und fünf Jahrhunderte Kunst bewahrt."
+    },
+    "introduccion_narrativa": {
+      "hash": "0a724d9f2790ecb0",
+      "texto": "Du betrittst die Kathedrale. Du siehst das Hauptschiff, den Chor mit seinen Orgeln, den Altar des Verzeihens und den Altar der Könige, die Seitenkapellen, die Kapelle von San Felipe de Jesús mit den sterblichen Überresten Iturbides, die Sakristei mit der Krypta und schließlich den Boden und die Senkung, die das Gebäude beschädigt hat. Es sind acht Stationen. Die Reihenfolge der Kapellen kann sich je nach Bauarbeiten und Zugangsbeschränkungen des Tages ändern."
+    }
+  }
+}

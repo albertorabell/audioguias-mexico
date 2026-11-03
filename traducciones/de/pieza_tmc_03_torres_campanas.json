@@ -1,0 +1,56 @@
+{
+  "id": "tmc_03_torres_campanas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1f470ba4a2b3120b",
+      "texto": "Die Türme und die Glocken mit Namen"
+    },
+    "frase_gancho": {
+      "hash": "8b952131b8a4622a",
+      "texto": "Fünfunddreißig Glocken, und die älteste wurde fünfzehnhundertachtundsiebzig gegossen."
+    },
+    "puente_narrativo": {
+      "hash": "65a583829e791ee1",
+      "texto": "Geh ein paar Schritte zurück und betrachte die ganze Kathedrale, von einem Turm zum anderen. Wenn du so weit bist, geht es weiter mit der nächsten Station deines Rundgangs."
+    },
+    "guion_corto": {
+      "hash": "e6f62f47198a2c46",
+      "texto": "Fünfunddreißig Glocken hängen in diesen beiden Türmen, und alle haben einen Namen. Die älteste ist Santa María de la Asunción, die alle Doña María nennen. Sie wurde fünfzehnhundertachtundsiebzig gegossen und wiegt etwa sieben Tonnen. Eine andere der großen Glocken ist als La Ronca bekannt. Die Türme wurden nicht gleichzeitig mit dem Rest der Fassade fertiggestellt. Ende des achtzehnten Jahrhunderts errichtete sie der mexikanische Architekt José Damián Ortiz de Castro, und ihr Abschluss hat die Form einer Glocke. Im Ostturm hängen dreiundzwanzig Glocken, im Westturm elf. Wenn du das Glück hast, sie zu hören: Jede klingt anders, denn jede wiegt anders."
+    },
+    "guion_largo": {
+      "hash": "a0a6c62efc84c146",
+      "texto": "Richte deinen Blick auf die beiden Türme. Sie wirken wie Zwillinge, doch sie entstanden zu unterschiedlichen Zeiten und bergen einen Schatz, den man eher hört als sieht.\n\nDer Sockel und das erste Geschoss des Ostturms stammen aus dem siebzehnten Jahrhundert. Die Türme, wie du sie heute siehst, errichtete Ende des achtzehnten Jahrhunderts der mexikanische Architekt José Damián Ortiz de Castro. Er hatte einen Wettbewerb um die Leitung des Baus gewonnen und starb, bevor er ihn vollendet sah. Manuel Tolsá, der siebzehnhunderteinundneunzig in Mexiko-Stadt eintraf, setzte die Arbeit fort und brachte sie zum Abschluss. Der Abschluss jedes Turms ahmt die Form einer Glocke nach und besteht aus Tezontle, dem rötlichen Vulkangestein, das in der Stadt vielfach verwendet wird.\n\nIn den Türmen hängen fünfunddreißig Glocken. Im östlichen hängen dreiundzwanzig, im westlichen elf. Eine weitere befindet sich an anderer Stelle der Kirche, in der Nähe des Chors. Die Glockenstuben bieten Platz für viele weitere, doch sie wurden nie gefüllt. Man erzählt, der Grund sei gewesen, dass es während des Baus am dringendsten war, die Dächer zu schließen, um Messe feiern zu können, und die Glocken dadurch in den Hintergrund rückten.\n\nJede Glocke hat ihren Namen. Die älteste ist Santa María de la Asunción, die die Leute als Doña María kennen. Sie wurde fünfzehnhundertachtundsiebzig gegossen und wiegt etwa sieben Tonnen. Es heißt, sie hänge seit sechzehnhundertvierundfünfzig in ihrem Turm. Eine weitere große Glocke ist San José, die man La Ronca nennt und die etwas mehr als vier Tonnen wiegt. Die größte ist Santa María de Guadalupe mit etwa dreizehn Tonnen.\n\nDie Bronze jeder Glocke, ihr Gewicht und ihre Form verändern den Klang. Wenn mehrere gleichzeitig läuten, hört man deshalb nicht einen einzelnen Ton, sondern ein Ensemble mit tiefen und hohen Stimmen. Sie läuten zu bestimmten Zeiten des Tages, und an besonderen Festtagen erklingen viele gemeinsam. Genannt werden dabei Weihnachten, der Jahreswechsel, Ostern und das Fest Mariä Himmelfahrt am fünfzehnten August, das Fest der Schutzpatronin der Kathedrale. Wenn du zufällig ein Glockengeläut erlebst, lohnt es sich, ein paar Minuten innezuhalten.\n\nEs gibt auch eine Besonderheit aus der Zimmermannskunst. Die Treppe des Glockenturms ist aus Zedernholz, mit Stufen, die zusammengesteckt und nicht genagelt sind, und ihre Pfosten bestehen aus einem einzigen Stück. So ist sie seit der Zeit erhalten, in der der Bau abgeschlossen wurde. Wer hinaufsteigt, hat einen weiten Blick über die Stadt und den Platz.\n\nUnd man kann hinaufsteigen. Es gibt geführte Rundgänge zum Glockenturm, die man am Eingang an der Ostseite der Kathedrale gegen eine kleine Gebühr buchen kann. Zeiten und Preise ändern sich, deshalb fragst du am besten am selben Tag nach. Wenn du lieber unten bleibst, genügt es, den Blick zu heben und die Öffnungen zu zählen, in denen die Glocken hängen.\n\nZum Schluss noch ein Detail. In einem dieser Türme war bis achtzehnhundertfünfundachtzig der Sonnenstein angebracht. Dieser Stein hat eine eigene Geschichte, die mit diesem Platz verbunden ist. Für jetzt geh ein paar Schritte zurück und betrachte die ganze Kathedrale, von einem Turm zum anderen. Wenn du so weit bist, geht es weiter mit der nächsten Station deines Rundgangs."
+    },
+    "retos_observacion": {
+      "hash": "745d211a3c6d758d",
+      "texto": [
+        "Zähle die Türme und suche oben die Öffnungen, in denen die Glocken hängen",
+        "Achte auf den Abschluss jedes Turms: Er hat die Form einer Glocke",
+        "Wenn gerade ein Glockengeläut erklingt, höre darauf, wie viele verschiedene Töne du unterscheiden kannst"
+      ]
+    },
+    "especificaciones": {
+      "hash": "288fdac5e96e6f5f",
+      "texto": {
+        "Glocken insgesamt": "35 (23 im Ostturm, 11 im Westturm und eine weitere an anderer Stelle)",
+        "Santa María de la Asunción, Doña María": "gegossen 1578, etwa 7 Tonnen",
+        "San José, La Ronca": "etwas mehr als 4 Tonnen",
+        "Türme": "Ortiz de Castro, 1787 bis 1791, und Manuel Tolsá",
+        "Turmabschluss": "Glockenform, aus Tezontle",
+        "Treppe des Glockenturms": "Zedernholz"
+      }
+    },
+    "faq_mito": {
+      "hash": "f3379d788e70aff9",
+      "texto": {
+        "pregunta": "Mythos: Die Türme der Kathedrale wurden zusammen mit der Hauptfassade errichtet.",
+        "respuesta": "Realität: Der Mittelteil der Fassade wurde 1675 fertiggestellt, und die Türme wurden Ende des 18. Jahrhunderts errichtet."
+      }
+    }
+  }
+}

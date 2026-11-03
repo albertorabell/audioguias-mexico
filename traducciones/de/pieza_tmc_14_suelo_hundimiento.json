@@ -1,0 +1,56 @@
+{
+  "id": "tmc_14_suelo_hundimiento",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ec17cb68d8cb0345",
+      "texto": "Der Boden, der absackt: die Korrektur der Kathedrale"
+    },
+    "frase_gancho": {
+      "hash": "69ebd04fb7ea400b",
+      "texto": "Viertausendzweihundertzwanzig Kubikmeter Ton wurden entnommen, um ein Gebäude aus Stein wieder aufzurichten."
+    },
+    "puente_narrativo": {
+      "hash": "827553e3a09718a9",
+      "texto": "Verlass die Kathedrale in aller Ruhe. Wenn du weiter zum Templo Mayor gehst, nimm die Ostseite in Richtung der Calle Seminario, wo die archäologische Zone beginnt."
+    },
+    "guion_corto": {
+      "hash": "0f7449d3232fa859",
+      "texto": "Diese Kathedrale sackt ab, seit sie gebaut wurde, und zwar ungleichmäßig. Sie steht auf dem weichen Untergrund eines ehemaligen Sees. Um neunzehnhundertneunundachtzig war der Verfall alarmierend, und die Ingenieure entschieden sich für eine Technik namens kontrollierte Untergrabung. Dabei wird nach und nach Ton aus tiefen Schichten entnommen, achtzehn bis zwanzig Meter unter der Erde, damit der Boden unter den höher gelegenen Bereichen absinkt und sich das Gebäude aufrichtet. Die Arbeiten begannen im Jahr neunzehnhundertdreiundneunzig und förderten rund viertausendzweihundertzwanzig Kubikmeter Ton zutage. Das Ziel war nicht, die perfekte Senkrechte wiederzugewinnen, sondern ungefähr die Hälfte der Verformung rückgängig zu machen."
+    },
+    "guion_largo": {
+      "hash": "2fbb748e026aae57",
+      "texto": "Bevor du die Kathedrale verlässt, lohnt es sich, das Problem zu verstehen, das sie in ihrer ganzen Geschichte am meisten beschäftigt hat: der Boden. Dieses schwere, riesige Gebäude aus Stein steht auf einem Untergrund, der nicht fest ist.\n\nDie Kathedrale wurde in einer Ecke der ehemaligen Insel Tenochtitlan errichtet, auf dem weichen, feuchten Grund eines Sees, der aufgeschüttet wurde. Darunter liegen Tonschichten, die sich durch das Gewicht und mit der Zeit zusammenpressen. Außerdem ist der Untergrund nicht gleichmäßig: Unter manchen Bereichen liegen vorspanische Überreste, alte Fundamente und unterschiedliche Aufschüttungen. Deshalb sackt die Kathedrale nicht gleichmäßig ab. Manche Teile sinken stärker als andere, und das führt zu Neigungen und Rissen.\n\nDas Problem zeigte sich schon beim Bau. Bereits im Jahr fünfzehnhundertzweiundsechzig begann das Fundament abzusinken, und es wurde mit einer Steinschüttung auf Pfählen neu angelegt, die im Jahr sechzehnhundertfünfzehn als abgeschlossen galt. In den folgenden Jahrhunderten wurde es mehrmals verstärkt. Man schätzt, dass das Gebäude samt seinen Fundamenten einhundertsiebenundzwanzigtausend Tonnen wiegt.\n\nUm neunzehnhundertneunundachtzig war der Verfall alarmierend geworden. Die Fachleute suchten nach einer Lösung, die das Denkmal nicht beschädigen würde. Sie entschieden sich für eine Technik namens kontrollierte Untergrabung. Sie funktioniert anders, als man erwarten würde: Der Boden wird nicht verstärkt, sondern ihm wird ein wenig Ton entnommen. Man legt tiefe Schächte an, die Lumbreras genannt werden, und entnimmt von dort aus kleine Mengen Ton aus Schichten, die achtzehn bis zwanzig Meter unter der Erde liegen. Wenn der Ton entfernt wird, senkt sich das Erdreich unter den höher gelegenen Bereichen des Gebäudes ein wenig, und das Ganze richtet sich auf.\n\nDie Arbeiten begannen im Jahr neunzehnhundertdreiundneunzig. Die Hauptphase dauerte von neunzehnhundertdreiundneunzig bis neunzehnhundertachtundneunzig, mit zweiunddreißig Lumbreras von zwanzig Metern Tiefe, und die Arbeiten zogen sich bis Anfang zweitausenddrei hin. Insgesamt wurden rund viertausendzweihundertzwanzig Kubikmeter Ton entnommen.\n\nDas Ziel war nicht, ein vollkommen senkrechtes Gebäude zurückzugewinnen. Das Ziel war, ungefähr die Hälfte der angesammelten Verformung rückgängig zu machen. Der größte Höhenunterschied betrug mehr als zwei Meter und wurde um gut achtzig Zentimeter verringert, also um etwa ein Drittel. In Zahlen ist das ein bescheidenes Ergebnis, für die Stabilität aber ein wichtiges.\n\nDank dieser Arbeit verschwand die Kathedrale im Jahr zweitausend von der Liste der am stärksten gefährdeten Denkmäler des World Monuments Fund. Das heißt nicht, dass das Problem verschwunden ist. Eine Studie der UNAM warnt, dass das Absacken nicht aufgehört hat und dass das Gebäudeensemble mit Instrumenten überwacht wird, die jede Bewegung messen.\n\nDie Böden im Inneren der Kathedrale sind uneben. Das ist kein Mangel des Baus, sondern die Spur einer Stadt, die sich weiter auf einem See setzt.\n\nDas alles hat eine gewisse Ironie. Auch die Mexica bauten auf einem See. Der Templo Mayor wurde in Etappen errichtet, jede über der vorherigen, und seine Ruinen liegen nur wenige Schritte von hier entfernt."
+    },
+    "retos_observacion": {
+      "hash": "ddb14b720ec66acb",
+      "texto": [
+        "Sieh dir eine Säule des Kirchenschiffs an und achte darauf, ob sie dir gerade oder geneigt erscheint",
+        "Geh über den Boden und suche Abschnitte, in denen du ein leichtes Gefälle bemerkst",
+        "Merk dir den Namen der Technik: kontrollierte Untergrabung"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b8dbc8374ac426b",
+      "texto": {
+        "Beginn der Probleme mit dem Fundament": "1562",
+        "Steinschüttung auf Pfählen abgeschlossen": "1615",
+        "Alarmierender Verfall": "um 1989",
+        "Kontrollierte Untergrabung": "seit 1993",
+        "Entnommener Ton": "rund 4 220 m³",
+        "Tiefe der Entnahme": "zwischen 18 und 20 m"
+      }
+    },
+    "faq_mito": {
+      "hash": "41465c46cebcb0f3",
+      "texto": {
+        "pregunta": "Mythos: Die Kathedrale steht kurz vor dem Einsturz, weil sie absackt.",
+        "respuesta": "Realität: Sie sackt seit ihrem Bau ungleichmäßig ab, doch seit 1993 wurde sie mit kontrollierter Untergrabung korrigiert und wird heute mit Instrumenten überwacht; das Absacken ist nicht verschwunden."
+      }
+    }
+  }
+}

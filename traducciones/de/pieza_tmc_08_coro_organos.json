@@ -1,0 +1,60 @@
+{
+  "id": "tmc_08_coro_organos",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Neuspanien\" para \"Nueva España\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "409d8a6d001014ee",
+      "texto": "Der Chor, das Chorgestühl und die zwei Orgeln"
+    },
+    "frase_gancho": {
+      "hash": "6ddfe9292d7c2574",
+      "texto": "Ein Tempel im Tempel, mit geschnitztem Chorgestühl und zwei monumentalen Orgeln."
+    },
+    "puente_narrativo": {
+      "hash": "3e700836d33c4c21",
+      "texto": "Geh weiter zur Seite des Altars der Vergebung, auf der Rückseite des Chors."
+    },
+    "guion_corto": {
+      "hash": "22ef2aad20fca309",
+      "texto": "Mitten im Hauptschiff liegt ein weiterer Raum, umgeben von Gittern und geschnitztem Holz: der Chor. Hier saßen die Domherren, um zu beten und zu singen. Das Chorgestühl ist ein Werk von Juan de Rojas vom Ende des siebzehnten Jahrhunderts, und seine Sitze tragen geschnitzte Reliefs. Darüber erheben sich die zwei großen Orgeln aus der Vizekönigszeit, deren Fassaden etwa neun Meter breit und elf Meter hoch sind. In dieser Kathedrale wurde Agustín de Iturbide am einundzwanzigsten Juli achtzehnhundertzweiundzwanzig zum Kaiser gekrönt, in der Hauptkapelle, neben dem Altar. Im Jahr neunzehnhundertsiebenundsechzig beschädigte ein Brand den größten Teil dieses Chorgestühls und traf auch die Orgeln, und danach gab es Restaurierungen."
+    },
+    "guion_largo": {
+      "hash": "59de813442ed413c",
+      "texto": "Du stehst in der Mitte des Gotteshauses, dort, wo sich einer der besonderen Räume einer alten Kathedrale erhebt: der Chor. In den Kathedralen Neuspaniens stand der Chor mitten im Schiff, von Gittern abgeschlossen, und hier versammelten sich die Domherren, um mehrmals am Tag zu beten und das Stundengebet zu singen.\n\nDer auffälligste Teil ist das Chorgestühl, die Gesamtheit der geschnitzten Holzsitze. Juan de Rojas schuf es zwischen sechzehnhundertsechsundneunzig und sechzehnhundertsiebenundneunzig, aus einem Holz namens Tapincerán, und es hat neunundfünfzig Reliefs. Jeder Sitz zeigte Szenen und Figuren und wurde je nach Rang desjenigen benutzt, der ihn einnahm. Es ist eine Art von Werk, die Bildhauerei, Tischlerhandwerk und Liturgie in einem einzigen Möbel vereint.\n\nÜber dem Chorgestühl erheben sich die zwei Orgeln. Sie sind gewaltig: Ihre Fassaden sind laut INAH etwa neun Meter breit und elf Meter hoch, und sie wurden im achtzehnten Jahrhundert gebaut. Die heutigen Orgeln werden José Nassarre zugeschrieben und auf die Zeit zwischen siebzehnhundertvierunddreißig und siebzehnhundertsechsunddreißig datiert. Zuvor gab es eine ältere Orgel vom Ende des siebzehnten Jahrhunderts. Mit diesen Instrumenten erklang der Gottesdienst der bedeutendsten Kathedrale des Vizekönigreichs.\n\nIn dieser Kathedrale ereignete sich auch ein politischer Moment. Agustín de Iturbide wurde am einundzwanzigsten Juli achtzehnhundertzweiundzwanzig zum Kaiser von Mexiko gekrönt. Die Zeremonie fand nicht im Chor statt, sondern in der Hauptkapelle, neben dem Altar, wo die Throne aufgestellt wurden. Er kam gerade von der Vollendung der Unabhängigkeit im Jahr zuvor. Iturbide regierte nur wenige Monate und dankte achtzehnhundertdreiundzwanzig ab. Seine sterblichen Überreste ruhen in einer anderen Kapelle der Kathedrale.\n\nAm siebzehnten Januar neunzehnhundertsiebenundsechzig verursachte ein Kurzschluss einen Brand, der im Altar der Vergebung ausbrach, direkt hinter dem Chor. Das Feuer beschädigte den größten Teil des Chorgestühls, denn von seinen neunundneunzig Sitzen gingen fünfundsiebzig verloren. Auch die Orgeln wurden in Mitleidenschaft gezogen. Danach folgten Restaurierungsarbeiten, mit Eingriffen im Jahr neunzehnhundertsechsundsiebzig und zwischen zweitausendsieben und zweitausendacht.\n\nAuch das Gitter, das den Chor abschließt, hat seine Geschichte. Es wurde siebzehnhundertzweiundzwanzig in Macau im Süden Chinas gefertigt und siebzehnhundertdreißig in der Kathedrale aufgestellt. Es zeigt, dass diese Kathedrale Stücke besaß, die weit entfernt entstanden waren.\n\nFür den Eintritt in den Chor wird üblicherweise um eine Spende gebeten, und manchmal ist er wegen Feierlichkeiten geschlossen. Wenn du nicht hineinkannst, lässt er sich auch vom Schiff aus durch die Gitter gut betrachten, und die Orgeln sind von jedem Punkt der Vierung aus gut zu sehen.\n\nDenk daran, wie viel Klang an diesem Ort vorübergezogen ist. Jahrhundertelang war der Chor die Stimme der Kathedrale. Hinter ihm, in Richtung Altar, steht ein Werk, das ebenfalls unter dem Brand gelitten hat und einen sehr vielsagenden Namen trägt: der Altar der Vergebung."
+    },
+    "retos_observacion": {
+      "hash": "a7a86f624e98a67d",
+      "texto": [
+        "Schau nach oben und vergleiche die Fassaden der beiden Orgeln",
+        "Suche am Chorgestühl die geschnitzten Reliefs an den Rückenlehnen",
+        "Finde das Chorgitter und achte darauf, wie es den Raum abschließt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c0bc73d810ef3d93",
+      "texto": {
+        "Chorgestühl": "Juan de Rojas, 1696 bis 1697, Tapincerán-Holz",
+        "Reliefs des Chorgestühls": "59",
+        "Orgeln": "José Nassarre, 1734 bis 1736",
+        "Fassaden der Orgeln": "etwa 9 m breit und 11 m hoch",
+        "Krönung Iturbides": "21. Juli 1822, in der Hauptkapelle",
+        "Brand": "17. Januar 1967"
+      }
+    },
+    "faq_mito": {
+      "hash": "b943cf0983a443de",
+      "texto": {
+        "pregunta": "Mythos: Der Chor der Kathedrale ist 1967 vollständig verbrannt und existiert nicht mehr.",
+        "respuesta": "Realität: Der Brand zerstörte einen großen Teil des Chorgestühls und beschädigte die Orgeln, aber der Chor und die Orgeln wurden in mehreren Etappen restauriert."
+      }
+    }
+  }
+}
