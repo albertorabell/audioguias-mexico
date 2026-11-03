@@ -13953,6 +13953,510 @@
           "bytes": 1051920,
           "provider": "azure"
         }
+      },
+      "xoc_01_que_fue_xochicalco": {
+        "corto": {
+          "hash": "7920d14d1ae07524",
+          "file": "en/xoc_01_que_fue_xochicalco_corto.mp3",
+          "remote": false,
+          "seconds": 44,
+          "bytes": 262656,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c86f8c4e547251c1",
+          "file": "en/xoc_01_que_fue_xochicalco_largo.mp3",
+          "remote": false,
+          "seconds": 117,
+          "bytes": 699408,
+          "provider": "azure"
+        }
+      },
+      "xoc_02_ciudad_en_cerros": {
+        "corto": {
+          "hash": "f728de77f0302605",
+          "file": "en/xoc_02_ciudad_en_cerros_corto.mp3",
+          "remote": false,
+          "seconds": 43,
+          "bytes": 256176,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "32da539fe13e29cb",
+          "file": "en/xoc_02_ciudad_en_cerros_largo.mp3",
+          "remote": false,
+          "seconds": 124,
+          "bytes": 746064,
+          "provider": "azure"
+        }
+      },
+      "xoc_03_camino_entrada": {
+        "corto": {
+          "hash": "0aefd5b07325af3f",
+          "file": "en/xoc_03_camino_entrada_corto.mp3",
+          "remote": false,
+          "seconds": 41,
+          "bytes": 248688,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5913bab439bf50c8",
+          "file": "en/xoc_03_camino_entrada_largo.mp3",
+          "remote": false,
+          "seconds": 98,
+          "bytes": 588672,
+          "provider": "azure"
+        }
+      },
+      "xoc_04_caminata_hacia_estela": {
+        "corto": {
+          "hash": "db7fe5877390e9f9",
+          "file": "en/xoc_04_caminata_hacia_estela_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 214416,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "db13b09f48d8ea49",
+          "file": "en/xoc_04_caminata_hacia_estela_largo.mp3",
+          "remote": true,
+          "seconds": 50,
+          "bytes": 300384,
+          "provider": "azure"
+        }
+      },
+      "xoc_05_plaza_estela_dos_glifos": {
+        "corto": {
+          "hash": "f1a8420696ee8b15",
+          "file": "en/xoc_05_plaza_estela_dos_glifos_corto.mp3",
+          "remote": false,
+          "seconds": 45,
+          "bytes": 267552,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "f99319128fcb5027",
+          "file": "en/xoc_05_plaza_estela_dos_glifos_largo.mp3",
+          "remote": false,
+          "seconds": 131,
+          "bytes": 787824,
+          "provider": "azure"
+        }
+      },
+      "xoc_06_mercado_obsidiana": {
+        "corto": {
+          "hash": "32fcc23cd86133e2",
+          "file": "en/xoc_06_mercado_obsidiana_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 263952,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3c7b559c898ccb03",
+          "file": "en/xoc_06_mercado_obsidiana_largo.mp3",
+          "remote": true,
+          "seconds": 121,
+          "bytes": 723168,
+          "provider": "azure"
+        }
+      },
+      "xoc_07_gran_piramide": {
+        "corto": {
+          "hash": "be30584d9aaa6974",
+          "file": "en/xoc_07_gran_piramide_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 228096,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "44bdc0f98d49c1bc",
+          "file": "en/xoc_07_gran_piramide_largo.mp3",
+          "remote": true,
+          "seconds": 125,
+          "bytes": 752976,
+          "provider": "azure"
+        }
+      },
+      "xoc_08_juego_pelota_sur": {
+        "corto": {
+          "hash": "7bb99f7aca217a50",
+          "file": "en/xoc_08_juego_pelota_sur_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 221472,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3b251f7f9e42adda",
+          "file": "en/xoc_08_juego_pelota_sur_largo.mp3",
+          "remote": true,
+          "seconds": 88,
+          "bytes": 525744,
+          "provider": "azure"
+        }
+      },
+      "xoc_09_calzada_altares": {
+        "corto": {
+          "hash": "59eab3fe5d8ea3dc",
+          "file": "en/xoc_09_calzada_altares_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 262800,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ce1a8391128408bf",
+          "file": "en/xoc_09_calzada_altares_largo.mp3",
+          "remote": true,
+          "seconds": 84,
+          "bytes": 506304,
+          "provider": "azure"
+        }
+      },
+      "xoc_10_palacio": {
+        "corto": {
+          "hash": "7f65111f59ca44d0",
+          "file": "en/xoc_10_palacio_corto.mp3",
+          "remote": true,
+          "seconds": 46,
+          "bytes": 275040,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "c85e45590feb92c5",
+          "file": "en/xoc_10_palacio_largo.mp3",
+          "remote": true,
+          "seconds": 86,
+          "bytes": 514944,
+          "provider": "azure"
+        }
+      },
+      "xoc_11_caminata_plaza_principal": {
+        "corto": {
+          "hash": "471a7ace1f93c47a",
+          "file": "en/xoc_11_caminata_plaza_principal_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 248112,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4f142ea6b1647ee9",
+          "file": "en/xoc_11_caminata_plaza_principal_largo.mp3",
+          "remote": true,
+          "seconds": 79,
+          "bytes": 474192,
+          "provider": "azure"
+        }
+      },
+      "xoc_12_plaza_principal_accesos": {
+        "corto": {
+          "hash": "248ca9e2cc7e6904",
+          "file": "en/xoc_12_plaza_principal_accesos_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 250848,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4cba8cb5a4ce8366",
+          "file": "en/xoc_12_plaza_principal_accesos_largo.mp3",
+          "remote": true,
+          "seconds": 154,
+          "bytes": 925344,
+          "provider": "azure"
+        }
+      },
+      "xoc_13_serpientes_emplumadas_1": {
+        "corto": {
+          "hash": "fd8ad5972fc3eaa3",
+          "file": "en/xoc_13_serpientes_emplumadas_1_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 270000,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ac8de0d49bb59d9b",
+          "file": "en/xoc_13_serpientes_emplumadas_1_largo.mp3",
+          "remote": true,
+          "seconds": 120,
+          "bytes": 719712,
+          "provider": "azure"
+        }
+      },
+      "xoc_14_serpientes_emplumadas_2": {
+        "corto": {
+          "hash": "471e2cede49def01",
+          "file": "en/xoc_14_serpientes_emplumadas_2_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 256608,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "cf30b71bb781ade2",
+          "file": "en/xoc_14_serpientes_emplumadas_2_largo.mp3",
+          "remote": true,
+          "seconds": 142,
+          "bytes": 852336,
+          "provider": "azure"
+        }
+      },
+      "xoc_15_escritura": {
+        "corto": {
+          "hash": "b4313b5d48cd3d5a",
+          "file": "en/xoc_15_escritura_corto.mp3",
+          "remote": true,
+          "seconds": 48,
+          "bytes": 286272,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "3abf336a2f7f04da",
+          "file": "en/xoc_15_escritura_largo.mp3",
+          "remote": true,
+          "seconds": 109,
+          "bytes": 656640,
+          "provider": "azure"
+        }
+      },
+      "xoc_17_acropolis": {
+        "corto": {
+          "hash": "b24b2656d036ff82",
+          "file": "en/xoc_17_acropolis_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 262080,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "aeee3b0ca27f3758",
+          "file": "en/xoc_17_acropolis_largo.mp3",
+          "remote": true,
+          "seconds": 104,
+          "bytes": 626256,
+          "provider": "azure"
+        }
+      },
+      "xoc_18_observatorio": {
+        "corto": {
+          "hash": "2ef62a0dcd293957",
+          "file": "en/xoc_18_observatorio_corto.mp3",
+          "remote": true,
+          "seconds": 40,
+          "bytes": 238464,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ce54e638704fef2a",
+          "file": "en/xoc_18_observatorio_largo.mp3",
+          "remote": true,
+          "seconds": 193,
+          "bytes": 1156608,
+          "provider": "azure"
+        }
+      },
+      "xoc_19_caminata_norte": {
+        "corto": {
+          "hash": "83b4ac7c61210571",
+          "file": "en/xoc_19_caminata_norte_corto.mp3",
+          "remote": true,
+          "seconds": 44,
+          "bytes": 266976,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "5c0be9f466f541a5",
+          "file": "en/xoc_19_caminata_norte_largo.mp3",
+          "remote": true,
+          "seconds": 72,
+          "bytes": 433008,
+          "provider": "azure"
+        }
+      },
+      "xoc_20_agua_ritual_norte": {
+        "corto": {
+          "hash": "b66a77d969963997",
+          "file": "en/xoc_20_agua_ritual_norte_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 256752,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "b8424eb648303816",
+          "file": "en/xoc_20_agua_ritual_norte_largo.mp3",
+          "remote": true,
+          "seconds": 104,
+          "bytes": 621216,
+          "provider": "azure"
+        }
+      },
+      "xoc_23_otras_canchas": {
+        "corto": {
+          "hash": "94df49a12da26ca4",
+          "file": "en/xoc_23_otras_canchas_corto.mp3",
+          "remote": true,
+          "seconds": 37,
+          "bytes": 221472,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "eb1c0f52a350d959",
+          "file": "en/xoc_23_otras_canchas_largo.mp3",
+          "remote": true,
+          "seconds": 91,
+          "bytes": 543024,
+          "provider": "azure"
+        }
+      },
+      "xoc_24_caminata_este": {
+        "corto": {
+          "hash": "bc561756c63243ff",
+          "file": "en/xoc_24_caminata_este_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 247824,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "4a808cd079818326",
+          "file": "en/xoc_24_caminata_este_largo.mp3",
+          "remote": true,
+          "seconds": 70,
+          "bytes": 421632,
+          "provider": "azure"
+        }
+      },
+      "xoc_25_rampa_animales": {
+        "corto": {
+          "hash": "39aa530d2e460c3e",
+          "file": "en/xoc_25_rampa_animales_corto.mp3",
+          "remote": true,
+          "seconds": 45,
+          "bytes": 269280,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "76aae7634a164f04",
+          "file": "en/xoc_25_rampa_animales_largo.mp3",
+          "remote": true,
+          "seconds": 90,
+          "bytes": 538416,
+          "provider": "azure"
+        }
+      },
+      "xoc_26_templo_arquitectos": {
+        "corto": {
+          "hash": "d7bfee8dc3d5928a",
+          "file": "en/xoc_26_templo_arquitectos_corto.mp3",
+          "remote": true,
+          "seconds": 41,
+          "bytes": 248256,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "6fc05c7a365e5c36",
+          "file": "en/xoc_26_templo_arquitectos_largo.mp3",
+          "remote": true,
+          "seconds": 66,
+          "bytes": 396144,
+          "provider": "azure"
+        }
+      },
+      "xoc_28_alzate_exploradores": {
+        "corto": {
+          "hash": "3f6f96c00cefff6b",
+          "file": "en/xoc_28_alzate_exploradores_corto.mp3",
+          "remote": true,
+          "seconds": 42,
+          "bytes": 252288,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "37669f9cf796a80e",
+          "file": "en/xoc_28_alzate_exploradores_largo.mp3",
+          "remote": true,
+          "seconds": 111,
+          "bytes": 668304,
+          "provider": "azure"
+        }
+      },
+      "xoc_29_fin_ciudad": {
+        "corto": {
+          "hash": "8c2439d861f4ea50",
+          "file": "en/xoc_29_fin_ciudad_corto.mp3",
+          "remote": true,
+          "seconds": 43,
+          "bytes": 258192,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "01c2bc2bc8c62ade",
+          "file": "en/xoc_29_fin_ciudad_largo.mp3",
+          "remote": true,
+          "seconds": 161,
+          "bytes": 968688,
+          "provider": "azure"
+        }
+      },
+      "xoc_30_museo_estela_original": {
+        "corto": {
+          "hash": "009cb7076776ae42",
+          "file": "en/xoc_30_museo_estela_original_corto.mp3",
+          "remote": true,
+          "seconds": 38,
+          "bytes": 228816,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "2446436671522112",
+          "file": "en/xoc_30_museo_estela_original_largo.mp3",
+          "remote": true,
+          "seconds": 59,
+          "bytes": 352224,
+          "provider": "azure"
+        }
+      },
+      "xoc_31_museo_marcadores_pelota": {
+        "corto": {
+          "hash": "6a4035fccd57a4d3",
+          "file": "en/xoc_31_museo_marcadores_pelota_corto.mp3",
+          "remote": true,
+          "seconds": 36,
+          "bytes": 215856,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "058b205dabea3a53",
+          "file": "en/xoc_31_museo_marcadores_pelota_largo.mp3",
+          "remote": true,
+          "seconds": 59,
+          "bytes": 355536,
+          "provider": "azure"
+        }
+      },
+      "xoc_32_museo_arquitectura_vasijas": {
+        "corto": {
+          "hash": "a2fc9173266d40c6",
+          "file": "en/xoc_32_museo_arquitectura_vasijas_corto.mp3",
+          "remote": true,
+          "seconds": 56,
+          "bytes": 336528,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "ec3cf9cfa424d8e4",
+          "file": "en/xoc_32_museo_arquitectura_vasijas_largo.mp3",
+          "remote": true,
+          "seconds": 125,
+          "bytes": 750528,
+          "provider": "azure"
+        }
       }
     },
     "es": {
