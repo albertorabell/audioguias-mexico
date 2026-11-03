@@ -9,7 +9,7 @@ import {
 import { computePlan, legPoints } from '../config/mnaGeo';
 
 type VB = [number, number, number, number];
-type Lang = 'es' | 'en' | 'fr' | 'pl';
+type Lang = 'es' | 'en' | 'fr' | 'pl' | 'de';
 type Mode = 'follow' | 'overview' | 'room' | 'free';
 
 const L: Record<Lang, Record<string, string>> = {
@@ -17,6 +17,7 @@ const L: Record<Lang, Record<string, string>> = {
   en: { all: 'Show all', center: 'Center on me', zin: 'Zoom in', zout: 'Zoom out', next: 'Next stop', arrived: "I'm here", steps: 'steps', hint: 'Tap a room to see its pieces. Pinch to zoom and drag to move.', openRoom: 'Open room', pieces: 'pieces', roomWord: 'Room', upperNote: 'The upper floor is organized into five themes. Tap one on the plan to see what it covers and enter its room.', upperRooms: 'Upper floor rooms', courtyard: 'Central courtyard', pond: 'Pond', umbrella: 'The Umbrella', lobby: 'Lobby · tickets', entrance: 'Main entrance', temporary: 'Temporary exhibitions', ballgame: 'Ball court', auditorium: 'Auditorium', cloakroom: 'Cloakroom', shop: 'Shop', aria: 'Plan of the National Museum of Anthropology', upperAria: 'Upper floor plan', here: 'You are here', hold: 'Approximate: each piece position is confirmed on site.', locked: 'Piece with the pass', moreLocked: 'more with the pass', unlock: 'Unlock with the pass' },
   fr: { all: 'Tout voir', center: 'Me centrer', zin: 'Zoomer', zout: 'Dézoomer', next: 'Prochain arrêt', arrived: 'Je suis arrivé', steps: 'pas', hint: 'Touchez une salle pour voir ses pièces. Pincez pour zoomer, glissez pour déplacer.', openRoom: 'Ouvrir la salle', pieces: 'pièces', roomWord: 'Salle', upperNote: "L'étage est organisé en cinq thèmes. Touchez-en un sur le plan pour voir de quoi il s'agit et entrer dans sa salle.", upperRooms: "Salles de l'étage", courtyard: 'Patio central', pond: 'Bassin', umbrella: 'Le Parapluie', lobby: 'Hall · billetterie', entrance: 'Entrée principale', temporary: 'Expositions temporaires', ballgame: 'Jeu de balle', auditorium: 'Auditorium', cloakroom: 'Vestiaire', shop: 'Boutique', aria: "Plan du Musée national d'anthropologie", upperAria: "Plan de l'étage", here: 'Vous êtes ici', hold: 'Approximatif : la position exacte de chaque pièce est confirmée sur place.', locked: 'Pièce avec le pass', moreLocked: 'de plus avec le pass', unlock: 'Débloquer avec le pass' },
   pl: { all: 'Pokaż całość', center: 'Wyśrodkuj', zin: 'Przybliż', zout: 'Oddal', next: 'Następny przystanek', arrived: 'Jestem na miejscu', steps: 'kroków', hint: 'Dotknij sali, aby zobaczyć eksponaty. Szczypnij, aby przybliżyć, i przeciągnij, aby przesunąć.', openRoom: 'Otwórz salę', pieces: 'eksponatów', roomWord: 'Sala', upperNote: 'Piętro dzieli się na pięć tematów. Dotknij jednego na planie, aby zobaczyć, o czym jest, i wejść do jego sali.', upperRooms: 'Sale na piętrze', courtyard: 'Dziedziniec', pond: 'Staw', umbrella: 'Parasol', lobby: 'Hol · kasa', entrance: 'Wejście główne', temporary: 'Wystawy czasowe', ballgame: 'Boisko do gry w piłkę', auditorium: 'Audytorium', cloakroom: 'Szatnia', shop: 'Sklep', aria: 'Plan Narodowego Muzeum Antropologii', upperAria: 'Plan piętra', here: 'Jesteś tutaj', hold: 'Orientacyjnie: dokładne położenie każdego eksponatu potwierdzamy na miejscu.', locked: 'Eksponat z karnetem', moreLocked: 'więcej z karnetem', unlock: 'Odblokuj karnetem' },
+  de: { all: 'Alles zeigen', center: 'Auf mich zentrieren', zin: 'Vergrößern', zout: 'Verkleinern', next: 'Nächste Station', arrived: 'Ich bin da', steps: 'Schritte', hint: 'Tippe auf einen Saal, um seine Werke zu sehen. Zum Zoomen zusammenziehen, zum Verschieben ziehen.', openRoom: 'Saal öffnen', pieces: 'Werke', roomWord: 'Saal', upperNote: 'Das Obergeschoss ist in fünf Themen gegliedert. Tippe im Plan auf eines, um zu sehen, worum es geht, und betritt seinen Saal.', upperRooms: 'Säle im Obergeschoss', courtyard: 'Zentraler Innenhof', pond: 'Teich', umbrella: 'Der Schirm', lobby: 'Eingangshalle · Kasse', entrance: 'Haupteingang', temporary: 'Wechselausstellungen', ballgame: 'Ballspielplatz', auditorium: 'Auditorium', cloakroom: 'Garderobe', shop: 'Shop', aria: 'Plan des Nationalmuseums für Anthropologie', upperAria: 'Plan des Obergeschosses', here: 'Du bist hier', hold: 'Ungefähre Angaben: Die genaue Position jedes Werks bestätigen wir vor Ort.', locked: 'Werk mit Pass', moreLocked: 'weitere mit Pass', unlock: 'Mit Pass freischalten' },
 };
 
 const MPU = 0.09; // metros por unidad del dibujo (aproximado)
@@ -44,7 +45,7 @@ const roomNum = (r: Room) => parseInt(String(r.numero_oficial ?? r.room_id.match
 
 export const MuseumPlan: React.FC<Props> = ({ rooms, pieces, floor, hereRoomId, herePieceId, tour, onSelectRoom, onOpenPiece, onOpenStop, hasPass = false, onOpenPaywall }) => {
   const { currentLanguage } = useLanguage();
-  const lang = (['es', 'en', 'fr', 'pl'].includes(currentLanguage) ? currentLanguage : 'es') as Lang;
+  const lang = (['es', 'en', 'fr', 'pl', 'de'].includes(currentLanguage) ? currentLanguage : 'es') as Lang;
   const t = L[lang];
   const wrapRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);

@@ -93,14 +93,14 @@ export interface UpperBlock {
   rect: [number, number, number, number];
   poly?: string;
   hue: number;
-  title: Record<'es' | 'en' | 'fr' | 'pl', string>;
+  title: Record<'es' | 'en' | 'fr' | 'pl' | 'de', string>;
 }
 export const PA_BLOCKS: UpperBlock[] = [
-  { id: 'identidades', rect: [100, 272, 303, 543], hue: 20, title: { es: 'Identidades, historias y resistencias', en: 'Identities, histories and resistance', fr: 'Identités, histoires et résistances', pl: 'Tożsamości, historie i opór' } },
-  { id: 'fiestas', rect: [100, 543, 303, 864], hue: 320, title: { es: 'Fiestas y rituales', en: 'Festivals and rituals', fr: 'Fêtes et rituels', pl: 'Święta i rytuały' } },
-  { id: 'textiles', rect: [100, 864, 303, 1310], poly: '100,864 303,864 303,1310 184,1310 184,1080 100,1080', hue: 260, title: { es: 'Textiles', en: 'Textiles', fr: 'Textiles', pl: 'Tekstylia' } },
-  { id: 'comidas', rect: [575, 445, 776, 999], hue: 45, title: { es: 'Comidas, producción y consumo', en: 'Food, production and consumption', fr: 'Alimentation, production et consommation', pl: 'Żywność, produkcja i konsumpcja' } },
-  { id: 'pueblos', rect: [575, 999, 776, 1310], hue: 160, title: { es: 'Pueblos, lenguas y territorios', en: 'Peoples, languages and territories', fr: 'Peuples, langues et territoires', pl: 'Ludy, języki i terytoria' } },
+  { id: 'identidades', rect: [100, 272, 303, 543], hue: 20, title: { es: 'Identidades, historias y resistencias', en: 'Identities, histories and resistance', fr: 'Identités, histoires et résistances', pl: 'Tożsamości, historie i opór', de: 'Identitäten, Geschichten und Widerstand' } },
+  { id: 'fiestas', rect: [100, 543, 303, 864], hue: 320, title: { es: 'Fiestas y rituales', en: 'Festivals and rituals', fr: 'Fêtes et rituels', pl: 'Święta i rytuały', de: 'Feste und Rituale' } },
+  { id: 'textiles', rect: [100, 864, 303, 1310], poly: '100,864 303,864 303,1310 184,1310 184,1080 100,1080', hue: 260, title: { es: 'Textiles', en: 'Textiles', fr: 'Textiles', pl: 'Tekstylia', de: 'Textilien' } },
+  { id: 'comidas', rect: [575, 445, 776, 999], hue: 45, title: { es: 'Comidas, producción y consumo', en: 'Food, production and consumption', fr: 'Alimentation, production et consommation', pl: 'Żywność, produkcja i konsumpcja', de: 'Ernährung, Produktion und Konsum' } },
+  { id: 'pueblos', rect: [575, 999, 776, 1310], hue: 160, title: { es: 'Pueblos, lenguas y territorios', en: 'Peoples, languages and territories', fr: 'Peuples, langues et territoires', pl: 'Ludy, języki i terytoria', de: 'Völker, Sprachen und Territorien' } },
 ];
 
 const tone = (h: number, pct = 20) => `color-mix(in oklab, hsl(${h} 60% 50%) ${pct}%, transparent)`;

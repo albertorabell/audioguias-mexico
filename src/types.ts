@@ -148,12 +148,12 @@ export interface PieceBase {
 
 /** Traducciones opcionales (columnas del Sheets con sufijo de idioma, p. ej. guion_corto_en). */
 export type TranslatedPieceFields = {
-  [K in `${'titulo' | 'frase_gancho' | 'puente_narrativo' | 'como_llegar' | 'guion_corto' | 'guion_largo' | 'avance'}_${'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]?: string;
+  [K in `${'titulo' | 'frase_gancho' | 'puente_narrativo' | 'como_llegar' | 'guion_corto' | 'guion_largo' | 'avance'}_${'es' | 'en' | 'fr' | 'pl' | 'de' | 'ru' | 'ja'}`]?: string;
 };
 
 /** Traducciones opcionales de salas. El sufijo _es guarda el original cuando la app muestra otro idioma. */
 export type TranslatedRoomFields = {
-  [K in `${'nombre_oficial' | 'frase_gancho' | 'introduccion_narrativa' | 'etiqueta'}_${'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja'}`]?: string;
+  [K in `${'nombre_oficial' | 'frase_gancho' | 'introduccion_narrativa' | 'etiqueta'}_${'es' | 'en' | 'fr' | 'pl' | 'de' | 'ru' | 'ja'}`]?: string;
 };
 
 export type Piece = PieceBase & TranslatedPieceFields;
@@ -165,7 +165,7 @@ export interface PieceAudioFile {
   seconds?: number;
 }
 
-export type PieceAudio = Partial<Record<'es' | 'en' | 'fr' | 'pl' | 'ru' | 'ja', Partial<Record<'corto' | 'largo', PieceAudioFile>>>>;
+export type PieceAudio = Partial<Record<'es' | 'en' | 'fr' | 'pl' | 'de' | 'ru' | 'ja', Partial<Record<'corto' | 'largo', PieceAudioFile>>>>;
 
 export type PieceData = Piece;
 

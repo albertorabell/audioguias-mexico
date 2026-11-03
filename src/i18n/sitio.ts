@@ -265,4 +265,6 @@ const pl_ = {
   piece: { defaultTitle: 'Przystanek w Teotihuacán' },
 };
 
-export const SITE_OVERRIDES: Partial<Record<SupportedLanguage, any>> = { es, en, fr, pl: pl_ };
+import { DE_SITE } from './de';
+
+export const SITE_OVERRIDES: Partial<Record<SupportedLanguage, any>> = { es, en, fr, pl: pl_, de: DE_SITE };
