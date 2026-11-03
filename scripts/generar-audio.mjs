@@ -77,10 +77,13 @@ const AZURE_DEFAULT_VOICES = {
   en: SINGLE_VOICE,
   fr: SINGLE_VOICE,
   pl: SINGLE_VOICE,
+  de: SINGLE_VOICE,
+  pt: SINGLE_VOICE,
+  it: SINGLE_VOICE,
   ru: SINGLE_VOICE,
   ja: SINGLE_VOICE,
 };
-const AZURE_LOCALES = { es: 'es-MX', en: 'en-US', fr: 'fr-FR', pl: 'pl-PL', ru: 'ru-RU', ja: 'ja-JP' };
+const AZURE_LOCALES = { es: 'es-MX', en: 'en-US', fr: 'fr-FR', pl: 'pl-PL', de: 'de-DE', pt: 'pt-BR', it: 'it-IT', ru: 'ru-RU', ja: 'ja-JP' };
 
 const xmlEscape = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 

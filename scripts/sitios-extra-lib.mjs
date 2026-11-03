@@ -22,7 +22,7 @@ export function leerDefinicionesRutas(filas) {
     if (['tiempo', 'tema', 'completo', 'alta'].includes(String(o.grupo || '').toLowerCase())) def.group = String(o.grupo).toLowerCase();
     // principal = SI: es el recorrido que arranca el botón «Empezar recorrido» de la portada
     if (/^(si|sí|true|verdadero|1|x)$/i.test(String(o.principal || ''))) def.principal = true;
-    for (const l of ['en', 'fr', 'pl']) {
+    for (const l of ['en', 'fr', 'pl', 'de', 'pt', 'it']) {
       if (o[`nombre_${l}`]) def[`name_${l}`] = o[`nombre_${l}`];
       if (o[`descripcion_${l}`]) def[`description_${l}`] = o[`descripcion_${l}`];
     }
@@ -84,7 +84,7 @@ export function leerAntesDeIr(filas) {
       item.link = o.enlace;
       if (o.enlace_texto) item.link_label = o.enlace_texto;
     }
-    for (const l of ['en', 'fr', 'pl']) {
+    for (const l of ['en', 'fr', 'pl', 'de', 'pt', 'it']) {
       if (o[`titulo_${l}`]) item[`title_${l}`] = o[`titulo_${l}`];
       if (o[`texto_${l}`]) item[`text_${l}`] = o[`texto_${l}`];
       if (o[`enlace_texto_${l}`]) item[`link_label_${l}`] = o[`enlace_texto_${l}`];
@@ -134,7 +134,7 @@ export function entradaSitio(sitio, salas, piezas, previa = {}, { preview = fals
     description: sitio.descripcion || previa.description || '',
     // Presentación larga del sitio (columna `introduccion` de CONTROL; párrafos separados por una línea en blanco)
     intro: sitio.introduccion || previa.intro || '',
-    ...Object.fromEntries(['en', 'fr', 'pl'].map((l) => [`intro_${l}`, sitio[`introduccion_${l}`] || previa[`intro_${l}`] || '']).filter(([, v]) => v)),
+    ...Object.fromEntries(['en', 'fr', 'pl', 'de', 'pt', 'it'].map((l) => [`intro_${l}`, sitio[`introduccion_${l}`] || previa[`intro_${l}`] || '']).filter(([, v]) => v)),
     highlights_count: piezas.length,
     total_stops: salas.length,
   };
@@ -217,7 +217,7 @@ export function leerCombos(filas, avisar = () => {}) {
     if (!mxn) { avisar(`PASE_COMBINADO: «${id}» no tiene precio_mxn; no se vende.`); return; }
     const sitios = quitarAcentos(o.sitios).toLowerCase().trim() === 'todos' ? 'todos' : o.sitios.split(/[,;]/).map((x) => x.trim().toLowerCase()).filter(Boolean);
     const nombre = { es: o.nombre || id };
-    for (const l of ['en', 'fr', 'pl']) if (o[`nombre_${l}`]) nombre[l] = o[`nombre_${l}`];
+    for (const l of ['en', 'fr', 'pl', 'de', 'pt', 'it']) if (o[`nombre_${l}`]) nombre[l] = o[`nombre_${l}`];
     out.push({ id, nombre, sitios, mxn, usd: monto(o.precio_usd) });
   });
   return out;

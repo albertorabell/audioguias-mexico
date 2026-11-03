@@ -19,9 +19,9 @@ export const PIECE_FIELDS = ['titulo', 'frase_gancho', 'puente_narrativo', 'como
 export const ROOM_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narrativa'];
 
 // Idiomas que ya tienen glosario y reglas. Los demás se agregan cuando existan.
-export const LANG_NAMES = { en: 'English (US)', fr: 'French (France)', pl: 'Polish (Poland)' };
+export const LANG_NAMES = { en: 'English (US)', fr: 'French (France)', pl: 'Polish (Poland)', de: 'German (Germany)', pt: 'Portuguese (Brazil)', it: 'Italian (Italy)' };
 // Columna del glosario con la decisión de cada idioma
-const GLOSSARY_COLUMNS = { en: 'ingles_propuesto', fr: 'frances_propuesto', pl: 'polaco_propuesto' };
+const GLOSSARY_COLUMNS = { en: 'ingles_propuesto', fr: 'frances_propuesto', pl: 'polaco_propuesto', de: 'aleman_propuesto', pt: 'portugues_propuesto', it: 'italiano_propuesto' };
 const TRANSLATE_LANGS = Object.keys(LANG_NAMES);
 
 const TRANSLATIONS_DIR = 'traducciones';
@@ -224,11 +224,85 @@ Nahuatl, Maya and other native words and etymologies:
 - Native words (Nahuatl, Maya, Zapotec, etc.) and the explanations of what they mean appear in the source on purpose, for example Tlamanaliztli, «ofrenda», or Mictlantecuhtli, «señor del Mictlán». Keep every native word exactly as written, with the same spelling and without adding apostrophes or accents, and translate only the meaning given next to it (between « » or between commas).
 - Never replace a native word with a translation or with a different spelling, and never invent or "improve" an etymology. If the source hedges (se piensa, se cuenta, suele traducirse), keep that hedging in the translation.`;
 
+// Alemán, portugués de Brasil e italiano: mismas reglas que el inglés, con lo propio de cada idioma
+const LOCALE_RULES = {
+  de: {
+    labels: 'Cultura = Kultur; Periodo = Epoche; Material = Material; Procedencia = Herkunft; Medidas = Maße; Región = Region; Técnica/Material = Technik/Material; Función = Funktion; Pueblo = Volk; Pueblo Indígena = Indigenes Volk; Autor/Cultura = Autor/Kultur; Año = Jahr; Ubicación = Standort; Antigüedad = Alter',
+    mito: '"Mythos:" and "Realität:"',
+    hall: '"Saal X"',
+    eras: '"d.C." becomes "n. Chr." and "a.C." becomes "v. Chr.", placed after the year or range as in the source (for example "1250-1521 d.C." becomes "1250-1521 n. Chr.")',
+    numbers: 'Write years without separators (1521); write other large numbers with a no-break space as the thousands separator (10 000) and a decimal comma (3,16 m).',
+    people: 'Use the standard German forms of people and culture names, never the Spanish plural or ending: "die Maya", "die Nahua", "ein toltekischer Herrscher", "olmekische Kunst", "die Zapoteken", "die Mixteken", "die Totonaken", "die Teotihuacán-Kultur". Proper names that the glossary marks KEEP stay as written.',
+    places: 'Places: the country is "Mexiko", the city is "Mexiko-Stadt", the state is "Bundesstaat México" (as in the glossary), the gulf is "Golf von Mexiko". Inside names the glossary marks KEEP (such as "México-Tenochtitlan") keep the accent.',
+    quotes: 'Use German quotation marks („ “) and the typographic apostrophe (’), never straight quotes.',
+    extra: 'Use the informal register only where the source addresses the visitor directly with "tú": translate it as "du" (lowercase). German compound nouns follow normal German spelling; glossary names marked KEEP take their normal German declension, but their spelling never changes.',
+  },
+  pt: {
+    labels: 'Cultura = Cultura; Periodo = Período; Material = Material; Procedencia = Procedência; Medidas = Dimensões; Región = Região; Técnica/Material = Técnica/Material; Función = Função; Pueblo = Povo; Pueblo Indígena = Povo indígena; Autor/Cultura = Autor/Cultura; Año = Ano; Ubicación = Localização; Antigüedad = Antiguidade',
+    mito: '"Mito:" and "Realidade:"',
+    hall: '"Sala X"',
+    eras: '"d.C." stays "d.C." and "a.C." stays "a.C.", placed after the year or range as in the source',
+    numbers: 'Write years without separators (1521); write other large numbers with a no-break space as the thousands separator (10 000) and a decimal comma (3,16 m).',
+    people: 'Use the standard Brazilian Portuguese forms of people and culture names with lowercase common nouns and adjectives: "os maias", "os nahuas", "um governante tolteca", "a arte olmeca", "os zapotecas", "os mixtecas", "os totonacas", "a cultura teotihuacana". Proper names that the glossary marks KEEP stay as written.',
+    places: 'Places: the country is "México", the city is "Cidade do México", the state is "estado do México", the gulf is "Golfo do México". Inside names the glossary marks KEEP (such as "México-Tenochtitlan") keep the accent.',
+    quotes: 'Use typographic quotation marks (“ ”) and the typographic apostrophe (’), never straight quotes.',
+    extra: 'Write Brazilian Portuguese (not European): "você" where the source addresses the visitor with "tú", and Brazilian vocabulary and spelling (for example "equipe", "ônibus", "celular").',
+  },
+  it: {
+    labels: 'Cultura = Cultura; Periodo = Periodo; Material = Materiale; Procedencia = Provenienza; Medidas = Dimensioni; Región = Regione; Técnica/Material = Tecnica/Materiale; Función = Funzione; Pueblo = Popolo; Pueblo Indígena = Popolo indigeno; Autor/Cultura = Autore/Cultura; Año = Anno; Ubicación = Ubicazione; Antigüedad = Antichità',
+    mito: '"Mito:" and "Realtà:"',
+    hall: '"Sala X"',
+    eras: '"d.C." stays "d.C." and "a.C." stays "a.C.", placed after the year or range as in the source',
+    numbers: 'Write years without separators (1521); write other large numbers with a no-break space as the thousands separator (10 000) and a decimal comma (3,16 m).',
+    people: 'Use the standard Italian forms of people and culture names: "i Maya" (invariable), "i Nahua", "un sovrano tolteco", "l’arte olmeca", "gli Zapotechi", "i Mixtechi", "i Totonachi", "la cultura teotihuacana". Proper names that the glossary marks KEEP stay as written.',
+    places: 'Places: the country is "Messico", the city is "Città del Messico", the state is "Stato del Messico", the gulf is "Golfo del Messico". Inside names the glossary marks KEEP (such as "México-Tenochtitlan") keep the accent.',
+    quotes: 'Use Italian quotation marks (« ») and the typographic apostrophe (’), never straight quotes.',
+    extra: 'Address the visitor with the informal "tu" wherever the source uses "tú".',
+  },
+};
+
+function buildLocalePrompt(lang) {
+  const c = LOCALE_RULES[lang];
+  const name = LANG_NAMES[lang];
+  const short = name.split(' ')[0];
+  return `You are a professional translator for a museum audio-guide app about the National Museum of Anthropology (MNA) in Mexico City. You translate from Mexican Spanish into natural, polished ${name} for curious visitors who will listen to the text through headphones while standing in front of each work.
+
+You receive a JSON object. Translate every value and return ONE JSON object with exactly the same keys, in the same order, and nothing else: no commentary, no code fences.
+
+Keep the shapes identical:
+- Keep the JSON keys of the object exactly as they are: never translate or rename them (for example "titulo" stays "titulo"). Only the values are translated, and the labels inside "especificaciones" as described below.
+- A string stays a string.
+- An array stays an array with the same number of items, in the same order.
+- "especificaciones" is an object: keep the same number of entries, in the same order. Translate both the labels (keys) and the values. Use these fixed labels: ${c.labels}. Translate any other label plainly.
+- "faq_mito" is an object with the keys "pregunta" and "respuesta". Keep those two keys exactly as they are and translate only the values. The Spanish values begin with "Mito:" and "Realidad:"; write ${c.mito}.
+
+Spoken scripts ("guion_corto" and "guion_largo"):
+- They are read aloud by a text-to-speech voice. Write flowing spoken prose: no lists, no markdown, no emojis, no parenthetical asides (except glossary terms that the glossary shows with parentheses).
+- Same sentences, same information, same order. Do not add, explain, summarize or omit anything.
+- Keep years and dates as digits when the source uses digits. If the source writes a number in words, write it in words. ${c.numbers}
+- Keep metric units. Never convert to miles, feet or pounds.
+
+All texts:
+- Translate meaning faithfully, with the tone of the source: evocative but accurate. Do not invent facts.
+- Never leave Spanish words in the ${short} text, except proper names covered by the glossary.
+- The glossary in the user message is mandatory: names marked KEEP stay exactly as written (keep their accents); the others use the ${short} given.
+- A glossary ${short} term shown with a parenthetical, such as "Voladores (…)", gets the parenthetical only the first time it appears within the text you are translating; afterwards use the term without it.
+- "Sala X" (a hall of the museum) becomes ${c.hall}.
+- Follow the capitalization of the source for glossary terms where ${short} allows it: a lowercase concept stays lowercase, while a capitalized name stays capitalized.
+- Eras: ${c.eras}.
+- If the source spells a glossary name slightly differently from the glossary (for example "Nahui Olin" and the glossary says "Nahui Ollin"), use the glossary spelling.
+- ${c.people}
+- ${c.places}
+- ${c.quotes}
+- ${c.extra}` + LINK_AND_NAME_RULES;
+}
+
 export function buildSystemPrompt(lang) {
   const name = LANG_NAMES[lang];
   if (!name) throw new Error(`Todavía no hay reglas ni glosario para el idioma "${lang}".`);
   if (lang === 'fr') return buildFrenchSystemPrompt() + LINK_AND_NAME_RULES;
   if (lang === 'pl') return buildPolishSystemPrompt() + LINK_AND_NAME_RULES;
+  if (LOCALE_RULES[lang]) return buildLocalePrompt(lang);
   return `You are a professional translator for a museum audio-guide app about the National Museum of Anthropology (MNA) in Mexico City. You translate from Mexican Spanish into natural, polished ${name} for curious visitors who are not specialists.
 
 You receive a JSON object. Translate every value and return ONE JSON object with exactly the same keys, in the same order, and nothing else: no commentary, no code fences.
@@ -323,10 +397,15 @@ const words = (s) => (String(s).toLowerCase().match(/\p{L}+/gu) || []);
 // El francés comparte "de", "la", "en", "un", "que", "se", "y": para ese idioma solo cuentan las palabras que NO existen en francés
 const ES_ONLY_STOPWORDS = new Set(['el', 'los', 'las', 'del', 'una', 'con', 'por', 'para', 'su', 'sus', 'al', 'como', 'más', 'pero', 'esta', 'este', 'estos', 'estas', 'fue', 'son', 'han', 'sido', 'también', 'donde']);
 
+// Portugués e italiano comparten muchas palabras con el español (una, con, por, para, esta...): solo cuentan las que no existen allí
+const ES_ONLY_PT_IT = new Set(['el', 'los', 'las', 'sus', 'más', 'fue', 'han', 'sido', 'también', 'donde', 'está', 'cuando', 'porque', 'hacia', 'muy', 'hasta', 'estos', 'estas']);
+// En alemán "es" es una palabra normal
+const ES_STOPWORDS_DE = new Set([...ES_STOPWORDS].filter((x) => x !== 'es'));
+
 function spanishRatio(text, lang = 'en') {
   const w = words(text);
   if (!w.length) return 0;
-  const set = lang === 'fr' || lang === 'pl' ? ES_ONLY_STOPWORDS : ES_STOPWORDS;
+  const set = lang === 'fr' || lang === 'pl' ? ES_ONLY_STOPWORDS : lang === 'pt' || lang === 'it' ? ES_ONLY_PT_IT : lang === 'de' ? ES_STOPWORDS_DE : ES_STOPWORDS;
   // Solo cuentan las palabras escritas en minúscula: "El Tajín" o "El Zapotal" son nombres propios, no español sin traducir
   const lower = (String(text).match(/\p{L}+/gu) || []).filter((x) => x === x.toLowerCase());
   const hits = lower.filter((x) => set.has(x)).length;
@@ -392,7 +471,7 @@ export function validateTranslation(source, out, glossaryEntries = [], { fake = 
     }
 
     // En francés los miles llevan espacio y los decimales coma: se comparan solo los dígitos
-    const flat = lang === 'fr' || lang === 'pl' ? (t) => t.replace(/(?<=\d)[\s\u00a0\u202f.,](?=\d)/g, '') : (t) => t;
+    const flat = ['fr', 'pl', 'de', 'pt', 'it'].includes(lang) ? (t) => t.replace(/(?<=\d)[\s\u00a0\u202f.,](?=\d)/g, '') : (t) => t;
     const digitsIn = (sText.match(/\d[\d.,]*/g) || []).map((d) => d.replace(/[.,]+$/, ''));
     const oFlat = flat(oText);
     const lost = [...new Set(digitsIn)].filter((d) => !oFlat.includes(flat(d)));
@@ -435,7 +514,7 @@ export function estimateUnit(fields, glossaryEntries, lang, prices = DEFAULT_PRI
   const inTok = (chars + promptChars) / 3.2;
   // Medido en la prueba real (5 piezas): el inglés sale a ~0.5 tokens por carácter del español.
   // El francés (20 % más) y el polaco (60 % más, el polaco gasta más tokens por letra) NO están medidos: son suposiciones hasta tener una corrida real.
-  const outTok = chars * (lang === 'pl' ? 0.8 : lang === 'fr' ? 0.6 : 0.5);
+  const outTok = chars * (lang === 'pl' ? 0.8 : lang === 'de' ? 0.7 : lang === 'fr' || lang === 'pt' || lang === 'it' ? 0.6 : 0.5);
   // Margen 1.28: en la corrida real de 56 unidades el costo salió 16 % arriba de lo estimado con 1.1
   return { chars, usd: ((inTok * prices.input + outTok * prices.output) / 1e6) * 1.28 };
 }

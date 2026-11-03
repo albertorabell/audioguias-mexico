@@ -225,7 +225,7 @@ const AUDIO_MANIFEST = path.join(AUDIO_DIR, 'manifest.json');
 
 // Idiomas con columnas opcionales de traducción (p. ej. guion_corto_en). Si la columna no existe o la celda va vacía,
 // la app muestra el texto en español. No se inventa ninguna traducción.
-const TRANSLATION_LANGS = ['en', 'fr', 'pl', 'ru', 'ja'];
+const TRANSLATION_LANGS = ['en', 'fr', 'pl', 'de', 'pt', 'it', 'ru', 'ja'];
 const PIECE_TEXT_FIELDS = ['titulo', 'frase_gancho', 'puente_narrativo', 'como_llegar', 'guion_corto', 'guion_largo'];
 const ROOM_TEXT_FIELDS = ['nombre_oficial', 'frase_gancho', 'introduccion_narrativa', 'etiqueta'];
 

@@ -15,7 +15,7 @@ on:
       idioma:
         description: 'Idioma al que se traduce'
         type: choice
-        options: [en, fr, pl]
+        options: [en, fr, pl, de, pt, it]
         default: en
       sitio:
         description: 'Qué se traduce: el id de la hoja CONTROL (mna, teotihuacan, chapultepec…) o todo'

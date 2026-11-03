@@ -5,7 +5,7 @@ import crypto from 'node:crypto';
 import { stripLinks } from '../src/utils/pieceLinks.js';
 
 export const MODES = ['corto', 'largo'];
-export const AUDIO_LANGS = ['es', 'en', 'fr', 'pl', 'ru', 'ja'];
+export const AUDIO_LANGS = ['es', 'en', 'fr', 'pl', 'de', 'pt', 'it', 'ru', 'ja'];
 
 /** Texto que se lee en voz alta: el guion de la pieza en ese idioma y modo. */
 export function scriptFor(piece, lang, mode) {
