@@ -1,0 +1,57 @@
+{
+  "id": "mna_s01_mural_tzompantli",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Pleistozän\" para \"Pleistoceno\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "36da67c15df26ad9",
+      "texto": "Mural del Tzompantli de la Diversidad Humana"
+    },
+    "frase_gancho": {
+      "hash": "b6e12565428f6f31",
+      "texto": "Schädel, die lehren, den menschlichen Körper wie eine Geschichte zu lesen."
+    },
+    "puente_narrativo": {
+      "hash": "0db8f5c835317cd2",
+      "texto": "Jetzt beginnt die Reise wirklich: Geh weiter in Saal 2 und sieh, wie die ersten Bewohner nach Amerika kamen, den Spuren der großen Tiere des Pleistozäns folgend."
+    },
+    "guion_corto": {
+      "hash": "3a1fe1be5689a526",
+      "texto": "Hier siehst du Schädel, und sie sind kein makabrer Schmuck: Sie sind eine Möglichkeit, den menschlichen Körper wie ein Buch zu lesen. Achte darauf, dass nicht alle dieselbe Form haben. Im alten Mexiko formten manche Gemeinschaften den Kopf der Babys mit Brettchen und Binden, um ihm eine längliche Form zu geben, die ein Zeichen von Schönheit oder der Zugehörigkeit zu einer Gruppe war. Man feilte sich auch die Zähne, und manchmal setzte man Steine wie Jade ein. Doch das Wichtige liegt in dem, was sich nicht verändert: Unter all diesen Unterschieden gehört jeder Schädel zur selben Art. Das ist die Lehre dieses Saals: von außen sehr verschieden, von innen fast gleich."
+    },
+    "guion_largo": {
+      "hash": "55503ac24c113538",
+      "texto": "Um diese Ecke des Saals zu verstehen, sollte man wissen, was ein Tzompantli ist. Es war ein Holzgerüst, auf dem die Mexica die Schädel Geopferter aufspießten, als Gabe an die Götter und als Warnung vor ihrer Macht. Vor wenigen Jahren entdeckten Archäologen ein monumentales Exemplar neben dem Templo Mayor. Hier nähert sich das Museum diesem Bild mit der entgegengesetzten Absicht: Es will die Götter nicht durch den Tod ehren, sondern zeigen, wie sehr wir uns ähneln und wie sich dennoch jedes Volk in den Körper eingeschrieben hat.\n\nEin Satz fasst die physische Anthropologie zusammen: Der Körper ist auch Geschichte. An den Knochen lässt sich erkennen, ob ein Mensch ein Mann oder eine Frau war, wie viele Jahre er gelebt hat, wovon er sich ernährt hat, welche Krankheiten er erlitten hat und sogar, ob er als Mädchen Hunger litt, denn der Zahnschmelz bewahrt diese Spuren. Und manchmal auch, wie jemand gesehen werden wollte. Dieser letzte Teil ist der faszinierendste. In vielen mesoamerikanischen Kulturen, vor allem bei den Maya, wurde den Babys in den ersten Lebenswochen, wenn der Knochen noch weich ist, der Kopf mit Brettchen umschnürt, damit sich die Stirn verlängerte. Es war keine Strafe: Es war ein Schönheitsideal, und manchmal ein Zeichen von Adel. Wenn du das Profil von [Pakal](mna_s09_mascara_pakal) im Maya-Saal betrachtest, mit der Nase, die geradlinig in die Stirn überzugehen scheint, dann siehst du genau diesen Kanon vor dir.\n\nMit den Zähnen verhielt es sich ähnlich. Manche feilten sie zu dekorativen Formen, andere setzten sich kleine Scheiben aus Jade oder Pyrit in die Schneidezähne ein. Stell dir vor, mit einem leuchtend grünen Stein zu lächeln: Es war ein Zeichen von Rang und Identität. Und es gibt auch Schädel mit Trepanationen, mit Steinwerkzeugen geöffneten Löchern; bei manchen ist der Knochen verheilt, was bedeutet, dass der Patient die Operation überlebte.\n\nAll das steht neben einem Gedanken, der der tragende Pfeiler des Museums ist. Im neunzehnten und in einem großen Teil des zwanzigsten Jahrhunderts gab es Menschen, die die Menschheit in „Rassen“ einteilten und in Hierarchien ordneten, wobei sie ausgerechnet Schädelmaße als Vorwand benutzten. Heute weiß die Wissenschaft es besser: Unsere Art entstand vor etwa zweihunderttausend oder dreihunderttausend Jahren in Afrika, breitete sich über den ganzen Planeten aus und erwarb Unterschiede in Hautfarbe, Haarform oder Körpergröße als Antwort auf Sonne, Kälte und die Ernährung des jeweiligen Ortes. Die genetische Vielfalt innerhalb eines einzigen Volkes ist meist größer als die zwischen einem Volk und einem anderen. Einfach gesagt: Wir sind eine einzige Familie.\n\nStell es dir wie einen einzigen Faden vor: [Lucy](mna_s01_lucy_afarensis) ist der Anfang, die [drei Jugendlichen der Bestattung](mna_s01_entierro_dolni_vestonice), die du gerade gesehen hast, sind Menschen wie du, und diese Schädel sind die Vielfalt, die danach kam. Wenn du hier fertig bist, nimm diesen Blick mit. In jedem Saal wirst du Körper sehen, die geformt, geschmückt und bemalt wurden. Die Olmeken, mit Babygesichtern. Die Maya, mit verlängerten Stirnen. Die Menschen von Teotihuacán, mit Masken aus Stein. Oben, in den Sälen der Ethnografie, gibt es lebende Menschen, die sich noch heute mit Bändern, Federn und Stoffen schmücken. Der menschliche Körper war immer eine Leinwand, und es liegt an dir, ihn zu lesen."
+    },
+    "retos_observacion": {
+      "hash": "8a06b585982f1ea3",
+      "texto": [
+        "Vergleiche die Form der Schädel: Manche haben eine verlängerte Stirn durch die absichtliche Verformung",
+        "Suche die gefeilten Zähne oder die mit Löchern zum Einsetzen von Steinen",
+        "Finde einen Schädel mit einer verheilten Trepanation"
+      ]
+    },
+    "especificaciones": {
+      "hash": "eaaa071942bde5dd",
+      "texto": {
+        "Kultur": "Museografische Schau über die biologische Vielfalt des Homo sapiens",
+        "Epoche": "Gegenwart (ständige museografische Installation)",
+        "Herkunft": "Saal Einführung in die Anthropologie, Nationalmuseum für Anthropologie, Mexiko-Stadt"
+      }
+    },
+    "faq_mito": {
+      "hash": "5f7c595c5ed02c5a",
+      "texto": {
+        "pregunta": "Mythos: Die Schädel in diesem Saal sind Kriegstrophäen der Azteken.",
+        "respuesta": "Realität: Sie sind aus wissenschaftlichen Gründen hier, um zu zeigen, wie der menschliche Körper variiert und welche Bräuche der Körpermodifikation es gab; es sind keine Trophäen."
+      }
+    }
+  }
+}

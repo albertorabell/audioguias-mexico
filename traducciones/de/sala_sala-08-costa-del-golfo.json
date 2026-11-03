@@ -1,0 +1,26 @@
+{
+  "id": "sala-08-costa-del-golfo",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "e3f7d6c668afeb18",
+      "texto": "Kulturen der Golfküste"
+    },
+    "frase_gancho": {
+      "hash": "50dc408342617904",
+      "texto": "Urwälder, Flüsse und Kautschuk: die Küste, an der die erste große Kultur entstand."
+    },
+    "introduccion_narrativa": {
+      "hash": "44a3ac37f511c71a",
+      "texto": "Du verlässt die Täler von Oaxaca und steigst hinab in die Hitze und die Feuchtigkeit der Golfküste. Hier entstand vor mehr als dreitausend Jahren die erste große Kultur Mesoamerikas: die der Olmeken, des Volkes des Kautschuks, mit ihren kolossalen Köpfen und ihren Jadearbeiten. Danach kamen die Städte von Veracruz, leidenschaftlich dem Ballspiel verschrieben, mit ihren lächelnden Gesichtchen und ihren Göttinnen aus Ton, und im Norden die Huaxteken, Bildhauer der Fruchtbarkeit. In diesem Saal leben Jade, Kautschuk, Ton und Stein nebeneinander, und dreitausend Jahre einer regenreichen, fruchtbaren und großzügigen Region. Wir beginnen mit einem Gesicht, das uns seit mehr als dreitausend Jahren anblickt."
+    }
+  }
+}

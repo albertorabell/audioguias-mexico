@@ -1,0 +1,61 @@
+{
+  "id": "mna_s00_el_paraguas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Der Schirm\" para \"El Paraguas\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "474bba9aa82a6ceb",
+      "texto": "Der Schirm und der umgekehrte Brunnen"
+    },
+    "frase_gancho": {
+      "hash": "901002b574e27f6f",
+      "texto": "Ein Schirm aus Bronze, unter dem das Wasser zum Wasserfall wird."
+    },
+    "puente_narrativo": {
+      "hash": "21b72f2c32d768d3",
+      "texto": "Folge dem Murmeln des Wassers bis ans hintere Ende des Hofes, vor dem Mexica-Saal. Dort hält das Museum an einem Teich mit Pflanzen inne, einem Stückchen des alten Sees."
+    },
+    "guion_corto": {
+      "hash": "67262e007f22f403",
+      "texto": "Du stehst unter dem Schirm: einem riesigen Dach von rund viertausendvierhundert Quadratmetern, das auf einer einzigen Säule zu schweben scheint, eine technische Meisterleistung im Jahr 1964. Aus der Mitte fällt ein Wasservorhang, der den Hof erfrischt; deshalb nennt man ihn einen umgekehrten Brunnen. Sieh dir den Pfeiler an: Er ist mit Bronze überzogen und trägt ein Relief der Brüder José und Tomás Chávez Morado mit dem Titel „Bild Mexikos“. Jede Seite erzählt einen Teil unserer Geschichte: den indigenen Ursprung, die Eroberung und die Vermischung der Kulturen, den Kampf um die Unabhängigkeit und das moderne Mexiko. Er ist das Herz des Hofes: Alle Säle gruppieren sich um ihn, und er ist der beste Ort, um eine Minute innezuhalten, dem Wasser zu lauschen und dich zu orientieren."
+    },
+    "guion_largo": {
+      "hash": "1c406944e149c152",
+      "texto": "Für die alten Völker Mesoamerikas war das Zentrum einer Stadt nicht einfach ein Punkt auf der Karte: Es war die Achse der Welt, der Ort, an dem sich Himmel, Erde und Unterwelt berührten. Ramírez Vázquez griff diesen Gedanken auf und gab dem Museum eine Mitte, die alles ordnet. Die Säle öffnen sich rund um den Hof wie die Zimmer eines Hauses, und in der Mitte errichtete er ein Bauwerk, das es in keiner vorspanischen Stadt gab: ein riesiges Dach auf einer einzigen Säule.\n\nDie technische Herausforderung war enorm. Das Dach misst vierundfünfzig mal zweiundachtzig Meter und ist so konzipiert, dass der Hof frei von Stützen bleibt, sodass Luft und Licht weiter hereinkommen, während der Regen die Besucher nicht nass macht. Dieses Gefühl von Leichtigkeit, obwohl so viele Tonnen darauf lasten, gehört zu seiner Magie. Außerdem neigt sich das Dach sanft zur Mitte hin, damit das Regenwasser zur Säule hin abfließt, statt sich zu sammeln. Und der umgekehrte Brunnen ist ein Ingenieurskniff mit eingebauter Schönheit: Statt vom Himmel fällt das Wasser aus der Mitte des Daches und bildet einen kreisförmigen Vorhang, der dem Hof seinen Klang gibt.\n\nDer eigentliche Schatz aber ist die Säule. Die Brüder José und Tomás Chávez Morado haben sie mit Bronze überzogen, mit einem großen Relief, das die Geschichte Mexikos zusammenfasst und den Namen „Bild Mexikos“ trägt. Geh um sie herum, denn jede Seite liest sich wie ein Kapitel. Auf der einen Seite liegt die indigene Welt, mit ihren Göttern und der Gründung von Tenochtitlan. Auf einer anderen die Ankunft der Europäer und die Vermischung der Kulturen. Auf der dritten Seite stehen die Kämpfe um die Unabhängigkeit, und auf der vierten das moderne Mexiko, mit der Wissenschaft und dem Streben nach Frieden.\n\nDenk jetzt darüber nach, was das bedeutet. Dieses Relief ist eine moderne Fassung dessen, was die Völker taten, denen du drinnen begegnen wirst: ihre Welt in Stein und in Symbolen zu erzählen, damit niemand vergisst, wer er ist. Die Mexica taten es im [Teocalli](mna_s06_teocalli_guerra_sagrada) und im [Stein des Tízoc](mna_s06_tizoc); die Maya an den Türstürzen von Yaxchilán; die Zapoteken auf der Stele der [Tänzer](mna_s07_danzante_montealban). Hier ist die Sprache die Bronze, doch die Absicht ist dieselbe.\n\nEin interessantes Detail: Obwohl wir ihn heute als Symbol des Museums sehen, war der Schirm ein Wagnis. Ein Dach dieser Größe, getragen von nur einer Säule, war für seine Zeit eine technische Meisterleistung. Und beachte ein herrliches Paradox: Das Gebäude, das den Zivilisationen gewidmet ist, die weder den Bogen noch das Eisen kannten, zeigt hier erstmals eine Konstruktion, die nur mit dem Stahl und dem Beton des zwanzigsten Jahrhunderts möglich war. Das Alte und das Moderne reichen sich absichtlich die Hand.\n\nBevor du weitergehst, stell dich in die Mitte, atme durch und lausche dem Wasser. Dieser Vorhang aus Klang ist der perfekte Übergang: In wenigen Schritten betrittst du eine Geschichte von Tausenden von Jahren."
+    },
+    "retos_observacion": {
+      "hash": "8650fbe345e55a00",
+      "texto": [
+        "Geh um die Säule herum und lies die vier Seiten des Bronzereliefs wie vier Kapitel",
+        "Suche in der Bronze den Adler, den Jaguar, die Karavellen und das Atom",
+        "Schließe einen Moment die Augen und lausche dem Wasservorhang, der aus der Mitte des Daches fällt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bcd8b54b0741d9de",
+      "texto": {
+        "Kultur": "Moderne mexikanische Architektur: Pedro Ramírez Vázquez und Félix Candela (Tragwerk); Bronzerelief „Bild Mexikos“ von José und Tomás Chávez Morado mit historischem Konzept von Jaime Torres Bodet",
+        "Epoche": "Eröffnet am 17. September 1964",
+        "Material": "Dach aus Aluminium und Stahl, getragen von 80 Spannkabeln und einer 11 m hohen Betonsäule mit Bronzeverkleidung",
+        "Maße": "82 x 54 m (4 428 m²)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c7752b1ca95e3679",
+      "texto": {
+        "pregunta": "Mythos: Der Schirm ist nur ein Dach mit Brunnen, damit du nicht nass wirst.",
+        "respuesta": "Realität: Seine Säule ist ein Kunstwerk: ein Bronzerelief, das die Geschichte Mexikos auf vier Seiten zusammenfasst."
+      }
+    }
+  }
+}

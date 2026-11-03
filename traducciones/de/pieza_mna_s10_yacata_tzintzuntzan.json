@@ -1,0 +1,58 @@
+{
+  "id": "mna_s10_yacata_tzintzuntzan",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "723880c21191c370",
+      "texto": "Architekturmodell einer Purépecha-Yácata"
+    },
+    "frase_gancho": {
+      "hash": "7f668d0c44410f79",
+      "texto": "Das heilige Bauwerk der Purépecha: ein Rechteck, verbunden mit einem Kreis."
+    },
+    "puente_narrativo": {
+      "hash": "dd0245427fba361d",
+      "texto": "Auf dem Zeremonialplatz von Ihuatzio, einer weiteren Purépecha-Stadt, stand eine Figur, die du aus anderen Sälen bereits kennst. Suche einen zurückgelehnten Mann aus grauem Stein, mit zur Seite gedrehtem Kopf und einem Gefäß auf dem Bauch."
+    },
+    "guion_corto": {
+      "hash": "b6a3a72a837ba1df",
+      "texto": "Dieses Modell, etwa fünfundsechzig Zentimeter hoch, bildet die Yácatas nach, die heiligen Bauwerke der Purépecha, des Volkes, das Michoacán beherrschte, bevor die Spanier kamen. Anders als die Pyramiden anderer Regionen verbindet eine Yácata einen rechteckigen Baukörper mit einem halbkreisförmigen, und von oben gesehen erinnert sie an ein Schlüsselloch oder an den Buchstaben T. Sie hat gestufte Baukörper und eine breite Zugangsrampe. Ganz oben erhob sich ein Tempel mit Strohdach, in dem das Feuer zu Ehren von Curicaueri brannte, dem Gott des Feuers und der Sonne. Das Modell soll dir helfen, die Anlage von Tzintzuntzan zu verstehen, der Hauptstadt am Ufer des Sees von Pátzcuaro."
+    },
+    "guion_largo": {
+      "hash": "2fefe7f0cc3d9df6",
+      "texto": "Tzintzuntzan bedeutet „Ort der Kolibris“. Das ist ein schöner Name für eine Stadt, die die Hauptstadt eines Reiches war. Sie lag am Ufer des Sees von Pátzcuaro, in Michoacán, und von dort aus regierte der Cazonci, der König der Purépecha.\n\nDie Purépecha bildeten etwa im vierzehnten Jahrhundert einen der mächtigsten Staaten Mesoamerikas. Ihr großer Rivale war das Reich der Mexica, das versuchte, sie zu erobern, und scheiterte: Den Überlieferungen zufolge besiegten die Heere der Purépecha die Mexica Ende des fünfzehnten Jahrhunderts. Deshalb siehst du hier eine Kultur, die nie von Tenochtitlan unterworfen wurde und ihre Unabhängigkeit bis zur Ankunft der Spanier bewahrte.\n\nSie sprachen Purépecha, eine Sprache, für die man in Mexiko keine klaren Verwandten kennt. Während fast alle Nachbarvölker Sprachen sprachen, die untereinander verwandt waren, sprachen sie etwas anderes. Das ist ein weiteres Zeichen ihres eigenen Charakters.\n\nNun zur Yácata. Sie wurde aus Vulkangestein ohne Mörtel gebaut und mit flachen Steinplatten verkleidet, die Xanamus heißen. In Tzintzuntzan stehen fünf Yácatas nebeneinander auf einer riesigen Plattform von mehr als vierhundert Metern Länge, gegenüber dem See. Stell dir alle fünf vor, mit ihren Strohtempeln oben und dem Rauch der heiligen Feuer über dem Wasser.\n\nDieses Feuer stand im Mittelpunkt. Curicaueri, der Hauptgott, bedeutet etwa „das große Feuer“. Oben auf jeder Yácata wurde ein Feuer am Brennen gehalten, und Brennholz dorthin zu tragen war eine religiöse Handlung. Das Feuer durfte nicht erlöschen. Die Purépecha sahen sich selbst als Hüter eines heiligen Feuers.\n\nWir wissen viel über sie durch einen Text aus dem sechzehnten Jahrhundert, die Relación de Michoacán, die ein Mönch mit Hilfe purépechischer Adliger niederschrieb, die ihm ihre Geschichte, ihre Götter und ihre Könige erzählten. Sie ist eine der reichhaltigsten Quellen über ein indigenes Volk jener Zeit und voller Erzählungen, etwa über den Helden Tariácuri, der sein Volk einte.\n\nWarum diese Form, ein Rechteck mit einem Halbkreis? Es gibt mehrere Ideen. Eine besagt, dass sie das Irdische, das Rechteck, mit dem Himmlischen verbindet, dem Kreis der Sonne. Eine andere, dass sie die Pyramide mit der runden Form der Tempel für den Windgott verbindet. Wir wissen es nicht sicher, und vielleicht fasziniert die Yácata gerade deshalb bis heute jeden, der sie sieht.\n\nDie Spanier nannten sie Tarasken, ein Name, den sie sich selbst nicht gegeben hatten; heute heißen sie Purépecha. Und sie sind ein lebendiges Volk: In Michoacán wird weiterhin Purépecha gesprochen, und unter den Ethnografiesälen im Obergeschoss gibt es einen, der ihren Nachfahren gewidmet ist.\n\nTzintzuntzan veränderte sich mit der Eroberung. Man nimmt an, dass viele Steine der alten Bauten in Kolonialbauten wiederverwendet wurden, etwa in den Klöstern, die die Mönche errichteten. Ein Teil der Stadt blieb buchstäblich im Inneren einer anderen erhalten.\n\nHeute kann man die Yácatas von Tzintzuntzan besuchen, im zwanzigsten Jahrhundert restauriert, am Ufer des Sees. Dieses Modell erlaubt dir, sie auf einen Blick zu sehen, vollständig, wie ein Vogel über dem Wasser."
+    },
+    "retos_observacion": {
+      "hash": "59f52993ac30505a",
+      "texto": [
+        "Suche den rechteckigen und den halbkreisförmigen Baukörper",
+        "Finde die Rampe, über die man hinaufstieg",
+        "Stell dir oben den Strohtempel vor, mit brennendem Feuer"
+      ]
+    },
+    "especificaciones": {
+      "hash": "15783f297bd5cea4",
+      "texto": {
+        "Kultur": "Tarasken / Purépecha",
+        "Epoche": "Späte Postklassik (1200-1521 n. Chr.)",
+        "Material": "Maßstabsmodell aus Ton (die originalen Yácatas hatten einen Steinkern und Platten aus Vulkangestein)",
+        "Herkunft": "Tzintzuntzan und Ihuatzio, Becken von Pátzcuaro, Michoacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "34c2040a75de8114",
+      "texto": {
+        "pregunta": "Mythos: Alle mesoamerikanischen Pyramiden hatten dieselbe Form, quadratisch und gestuft.",
+        "respuesta": "Realität: Jede Region hatte ihre eigene Form. In Michoacán verbinden die Yácatas einen rechteckigen Baukörper mit einem halbkreisförmigen, und in Teuchitlán, Jalisco, gab es kreisförmige Pyramiden."
+      }
+    }
+  }
+}

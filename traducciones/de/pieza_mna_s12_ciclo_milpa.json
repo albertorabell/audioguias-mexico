@@ -1,0 +1,58 @@
+{
+  "id": "mna_s12_ciclo_milpa",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Olmeken\" para \"Olmeca / Olmecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6e14abaf576ae936",
+      "texto": "Das traditionelle Haus und der heilige Zyklus der indigenen Milpa"
+    },
+    "frase_gancho": {
+      "hash": "412a74dd665d6a3e",
+      "texto": "Ein Haus aus Stangen und Lehm, in dem der Mais das Leben ordnet."
+    },
+    "puente_narrativo": {
+      "hash": "b2aed25581473bf9",
+      "texto": "Vom Haus und der Milpa gehen wir zu den Stoffen über. Suche eine lange Vitrine mit bestickten Blusen und Kleidungsstücken mit Rauten und Blumen sowie einen Webstuhl, an dem ein Gürtelband an einem Stab befestigt ist."
+    },
+    "guion_corto": {
+      "hash": "3319b12a7a615419",
+      "texto": "Dieses traditionelle Haus ist aus dem gebaut, was der Ort hergibt: Wände aus Stangen und Lehm, die man Lehmflechtwerk nennt, und ein Strohdach. In der Mitte liegt eine Feuerstelle aus drei Steinen, mit einem Comal aus Ton für die Tortillas, und in der Nähe stehen der Metate und die Krüge. Dieser Saal zeigt auch den Zyklus der Milpa. Die Milpa ist nicht einfach ein Maisfeld: Dort wachsen Mais, Bohne, Kürbis, Chili und die essbaren Wildkräuter, die Quelites heißen, gemeinsam heran. Jede Pflanze hilft den anderen. Für viele Völker bilden Haus und Milpa den Mittelpunkt des Lebens: Man ernährt sich von ihnen, pflegt sie und feiert sie mit Zeremonien."
+    },
+    "guion_largo": {
+      "hash": "875f3e9464ea983b",
+      "texto": "Bevor wir von Zeremonien sprechen, müssen wir das Haus betreten. Es hat keine Nägel, keinen Zement und keine Ziegel. Die Wände bestehen aus zusammengebundenen Stangen, die mit Lehm verkleidet sind, dem Lehmflechtwerk, und das Dach ist aus Stroh. Alles stammt aus der Umgebung, und fast alles lässt sich mit dem reparieren, was ringsum zu finden ist. Viele Häuser errichten die ganze Familie und die Nachbarn gemeinsam, in einer Gemeinschaftsarbeit, die in Oaxaca tequio heißt.\n\nIn der Mitte liegt die Feuerstelle. Es sind drei Steine, die den Comal tragen, auf dem die Tortillas gebacken werden. Die alten Maya glaubten, wie Texte und Monumente belegen, dass bei der Erschaffung der Welt drei Steine wie die einer Feuerstelle aufgestellt wurden: So begann alles. Im Haus sind diese drei Steine ebenfalls ein Mittelpunkt, ein Ort, an dem die Familie zusammenkommt, kocht und sich wärmt.\n\nNun zur Milpa. Sie ist ein System von Pflanzen, die einander helfen. Der Mais wächst hoch und dient der Bohne als Stütze, die an seinem Stängel emporklettert. Die Bohne gibt der Erde Nährstoffe zurück. Der Kürbis bedeckt mit seinen Blättern den Boden, bewahrt die Feuchtigkeit und hält das Unkraut zurück. Zu diesem Dreiklang kommen noch der Chili und die Quelites hinzu. Es ist eine Erfindung aus Tausenden von Jahren, die an sehr vielen Orten bis heute genutzt wird.\n\nUnd der Mais hat eine erstaunliche Geschichte. Er wurde aus einem wilden Gras namens Teocintle gezüchtet, wahrscheinlich im Becken des Río Balsas, vor etwa neuntausend Jahren. Es ist dieselbe Region, aus der, wie du gesehen hast, das Kupfer der Purépecha und der Stein von Mezcala stammten. Aus diesem Gras mit harten Körnern entstanden Hunderte von Sorten: blaue, rote, schwarze, gelbe, für jede Höhenlage und jedes Klima.\n\nDeshalb ist der Mais mehr als Nahrung. Die Maya des Popol Vuh glaubten, dass die Menschen aus Maisteig geschaffen wurden, nachdem die ersten Versuche aus Holz gescheitert waren. Dieses Echo hast du im Maiskönig auf dem [Fries von Los Placeres](mna_s09_friso_placeres) gesehen und im Spross am olmekischen Beil. Für den, der ihn sät, bewahrt jeder Maiskolben diese Erinnerung.\n\nMit der Milpa kommt ein Kalender. In vielen Völkern bittet man vor der Aussaat die Erde mit einer Zeremonie um Erlaubnis. Um den Regen bittet man, wenn er kommt, oder dankt dafür, auf den Bergen und in den Höhlen. Mit den ersten jungen Maiskolben wird gefeiert. Und mit der Ernte, gegen Ende Oktober und Anfang November, wird das Opfergabenaltar-Mahl für die Toten vorbereitet. In den nächsten Sälen wirst du mehrere dieser Riten sehen.\n\nNoch eine letzte praktische Angabe. Der Mais wird nicht einfach so gegessen. Er wird mit Kalk gekocht, in einem Verfahren namens Nixtamalisierung, das ihn leichter verdaulich macht und seine Nährstoffe besser nutzbar macht. Es wurde in Mesoamerika vor sehr langer Zeit erfunden und macht die Tortilla erst möglich. In manchen Regionen des Zentrums wird der Mais in Cuescomates aufbewahrt, Getreidespeichern aus Lehm in der Form eines riesigen Topfes, mit Strohdach. Ein Haus, eine Feuerstelle und eine Milpa: alles, was ein Leben braucht."
+    },
+    "retos_observacion": {
+      "hash": "959e1857de793fb3",
+      "texto": [
+        "Suche die Feuerstelle aus drei Steinen und den Comal",
+        "Finde den Metate und die Krüge neben der Feuerstelle",
+        "Achte darauf, wie das Dach ohne Nägel festgebunden ist"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e44c4a607ce6b80a",
+      "texto": {
+        "Indigenes Volk": "Multiethnisch (Nahua, Maya, Zapoteken, Mixteken und andere)",
+        "Region": "Mesoamerika und landwirtschaftliche Regionen Mexikos",
+        "Technik/Material": "Volkstümliche Architektur (Lehmflechtwerk, Stroh, Holz) und originales Hausgerät",
+        "Funktion": "Nachbildung des häuslichen Raums und des rituellen Fest- und Anbauzyklus des Maises"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7b80072501d106d",
+      "texto": {
+        "pregunta": "Mythos: Die Milpa ist nur ein Maisfeld.",
+        "respuesta": "Realität: Sie ist ein System aus mehreren Pflanzen, die einander helfen: Der Mais stützt die Bohne, die Bohne nährt die Erde und der Kürbis bedeckt sie."
+      }
+    }
+  }
+}

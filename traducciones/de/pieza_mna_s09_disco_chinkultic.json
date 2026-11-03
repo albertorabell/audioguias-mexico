@@ -1,0 +1,59 @@
+{
+  "id": "mna_s09_disco_chinkultic",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Lange Zählung\" para \"Cuenta Larga\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "8aa68f8148a5c495",
+      "texto": "Ballspielmarker von Chinkultic"
+    },
+    "frase_gancho": {
+      "hash": "631f9bc60f63f64b",
+      "texto": "Ein Ballspieler mitten in der Bewegung, mit dem genauen Datum ringsum eingraviert."
+    },
+    "puente_narrativo": {
+      "hash": "8b82f6f3fa64dad2",
+      "texto": "Vom Spiel gehen wir zur Fassade eines Tempels über. Suche einen langen Fries von mehr als acht Metern, mit einem König, dessen Gesicht von Federn eingerahmt ist, und zwei Alten an den Seiten."
+    },
+    "guion_corto": {
+      "hash": "7f7dea46b3480df8",
+      "texto": "Diese Scheibe aus Kalkstein, mit einem Durchmesser von etwa sechsundfünfzig Zentimetern, ist ein Ballspielmarker. Sie wurde in La Esperanza gefunden, nahe Chinkultic, in Chiapas. In der Mitte stößt ein Spieler, der auf einem Knie ruht, mit der Hüfte einen Kautschukball an. Er trägt einen Schurz aus Hirschleder und ein schützendes Joch. Achte auf den Ball: In ihm ist ein Kopf herausgearbeitet, ein Verweis auf den Mythos des Popol Vuh, in dem die Heldenzwillinge mit den Herren des Todes Ball spielen. Ringsum stehen Glyphen mit einem Datum in der Langen Zählung der Maya, das dem Jahr 591 entspricht. Es ist ein Spiel, ein Mythos und ein Kalender in einem einzigen Stein."
+    },
+    "guion_largo": {
+      "hash": "d5ab082577ddc1e5",
+      "texto": "In Teotihuacán hast du einen Ballspielmarker gesehen; an der Golfküste Joche und Palmen. Hier siehst du nun endlich das vollständige Spiel, mit dem Spieler in Aktion. Und mit einem Datum, das wir lesen können.\n\nBeginnen wir mit dem Datum. Die Maya zählten die Tage mit einem System namens Lange Zählung, das einen einzigartigen Tag mit einer Reihe von fünf Zahlen festlegt. Hier erscheint eine Reihe: neun, sieben, siebzehn, zwölf, vierzehn. Nach der am häufigsten verwendeten Berechnung entspricht sie dem 21. Mai des Jahres 591. Es ist eines der genauesten Daten der Maya-Kunst jener Zeit. Und da die Lange Zählung etwa im Jahr dreitausendeinhundertvierzehn vor Christus beginnt, entstand dieser Stein rund dreitausendsiebenhundert Jahre nach diesem symbolischen Anfang.\n\nNun der Spieler. Er befindet sich in einer fast tänzerischen Pose: ein Knie am Boden, der Oberkörper gedreht, der Arm ausgestreckt. Er trägt das Joch, das du im Saal der Golfküste lose gesehen hast, dazu einen Schurz aus Leder. Hier siehst du es im Gebrauch, auch wenn man annimmt, dass das Joch zum eigentlichen Spielen leichter war. Am linken Arm scheint er eine Tafel mit Glyphen zu tragen. Manche identifizieren ihn anhand einer Haarsträhne auf der Stirn mit einem der Heldenzwillinge des Popol Vuh.\n\nUnd der Ball. In ihm befindet sich ein Gesicht. Erinnerst du dich an das, was ich dir in Oaxaca über die Riesenfledermaus Camazotz erzählt habe? Im Popol Vuh schneidet diese Fledermaus einem der Zwillinge, Hunahpú, den Kopf ab, und die Herren des Todes benutzen ihn als Ball auf ihrem Spielfeld. Der andere Zwilling schafft es mit List, ihn zurückzugewinnen. Viele denken, dass dieses Gesicht im Ball an diese Stelle erinnert. Der Popol Vuh wurde im sechzehnten Jahrhundert niedergeschrieben, aber seine Geschichten sind viel älter, und hier scheinen sie bereits gegenwärtig zu sein.\n\nAuch der Herkunftsort ist erwähnenswert. Chinkultic liegt bei den farbigen Seen von Montebello, in Chiapas, nahe der Grenze zu Guatemala, in einer Region aus Hügeln und blauen Gewässern. Diese Scheibe tauchte nicht in der Hauptstadt auf, sondern in einer nahen Siedlung, La Esperanza. Das ist ein Zeichen dafür, dass das Ballspiel und seine Mythologie bis in die entlegensten Winkel der Region reichten.\n\nHinter alledem steht eine Idee: Das Spielfeld war ein Portal zur Unterwelt. Die Spieler spielten gegen den Tod. Wenn der Ball von einer Seite zur anderen flog, durchquerte die Sonne den Himmel und versank in der Nacht, um wieder aufzugehen. Ein Spiel, wie das Joch von der Golfküste, das die Welt in Gang hielt.\n\nEine Anmerkung zu einer berühmten „Prophezeiung“. Es hieß, die Maya hätten das Ende der Welt für Dezember des Jahres zweitausendzwölf angekündigt. Das stimmt nicht. Dieses Datum schloss einen großen Zyklus der Langen Zählung ab und eröffnete einen neuen, wie der Kilometerzähler eines Autos, wenn er wieder auf null springt. Kein Maya-Text spricht von einem Weltende an diesem Datum.\n\nMarker wie dieser wurden auf dem Spielfeld platziert, entlang seiner Achse. Heute ist das Spielfeld verschwunden, und es ist der Marker, der uns erzählt, wer gespielt hat und wann."
+    },
+    "retos_observacion": {
+      "hash": "9ab6f9b05a61ff03",
+      "texto": [
+        "Achte auf die Haltung des Spielers: Auf welchem Knie ruht er?",
+        "Suche das Joch und den Schurz, die er trägt",
+        "Betrachte das Gesicht, das im Ball erscheint"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1fdc3c77416375a5",
+      "texto": {
+        "Kultur": "Maya",
+        "Epoche": "Frühe Klassik (591 n. Chr.)",
+        "Material": "Kalkstein",
+        "Herkunft": "La Esperanza, Chinkultic, Chiapas",
+        "Maße": "56 cm Durchmesser x 12,5 cm Dicke"
+      }
+    },
+    "faq_mito": {
+      "hash": "9b079b6c03d4b5b8",
+      "texto": {
+        "pregunta": "Mythos: Die Maya haben das Ende der Welt für Dezember zweitausendzwölf vorhergesagt.",
+        "respuesta": "Realität: Dieses Datum schloss einen großen Zyklus ihres Kalenders ab und eröffnete einen neuen. Kein Maya-Text kündigt das Ende der Welt an."
+      }
+    }
+  }
+}

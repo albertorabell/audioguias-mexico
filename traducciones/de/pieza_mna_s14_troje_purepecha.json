@@ -1,0 +1,54 @@
+{
+  "id": "mna_s14_troje_purepecha",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2292e610323104bd",
+      "texto": "Die traditionelle Troje der Purépecha"
+    },
+    "frase_gancho": {
+      "hash": "ce708ef46cc163d1",
+      "texto": "Ein Haus aus Kiefernholz, das wie ein Puzzle zusammengesteckt wird, ohne einen einzigen Nagel."
+    },
+    "puente_narrativo": {
+      "hash": "ad03b32e0c2e8ec8",
+      "texto": "Vom Haus gehen wir zum Fest über. Such nach einer rosa bemalten Holzmaske mit einem fast zahnlosen Lächeln, ausgeprägten Falten und weißem Haar."
+    },
+    "guion_corto": {
+      "hash": "95ab4131033baa25",
+      "texto": "Dieses Holzhaus ist eine Troje, die traditionelle Behausung im Bergland der Purépecha in Michoacán. Es besteht aus dicken Kiefernbohlen, die mit Holzverbindungen zusammengefügt sind, ohne einen einzigen Nagel. Es hat ein hohes Walmdach aus kleinen Holzschindeln. Achte darauf, dass das Haus zwei Ebenen hat. Unten liegt der Hauptraum, in dem man lebt, schläft und den Altar der Familie aufbewahrt. Oben, im Dachboden, lagert man die Maiskolben der Ernte, trocken und vor Feuchtigkeit geschützt. Die Troje ist zugleich Wohnhaus und Speicher und zeigt, wie der Kiefernwald zum Zuhause einer ganzen Familie wird."
+    },
+    "guion_largo": {
+      "hash": "b7d887b73a2cad0e",
+      "texto": "Wenn du im ersten Saal oben ein Haus aus Ruten und Lehm gesehen hast, dann findest du hier die andere große Lösung: das Haus aus Holz. Jede Region nutzt, was ihre Landschaft ihr gibt. Im Bergland von Michoacán gibt es vor allem Kiefern, und die Purépecha haben gelernt, sie mit bemerkenswertem Geschick zu bearbeiten. Die Troje ist das Ergebnis.\n\nMan muss sie in Ruhe betrachten. Die Bohlen werden von Hand zugeschnitten und durch Kerben und Zapfen verbunden: Jedes Teil greift in ein anderes, wie bei einem Puzzle aus Holz, und das Gewicht der Konstruktion hält alles an seinem Platz. Nicht einmal ein Nagel ist nötig. Diese Technik erlaubt es, eine Troje abzubauen und an einem anderen Ort wieder aufzubauen, und deshalb konnte diese hier im Museum aufgestellt werden. Viele Trojen stehen nach Jahrzehnten noch, denn das Kiefernholz hält, wenn es gut zugeschnitten und gut gepflegt ist.\n\nMan sagt, die Troje in diesem Saal sei hier mit Zimmerleuten aus der Region selbst aufgebaut worden, wie andere Häuser im Obergeschoss. Das war die Idee des Museums in den sechziger Jahren: keine Kopien, die andere angefertigt haben, sondern Häuser, errichtet von Menschen, die wissen, wie man sie baut. So bewahrt das Holz, das du siehst, die Handschrift seiner Erbauer.\n\nDas Wort „Troje“ bedeutet auf Spanisch Speicher, und es verrät schon, wozu der obere Teil diente. Viele Trojen haben außerdem vorn einen Gang mit Balken und Säulen aus geschnitztem Holz, wo man arbeitet, sich unterhält und die Saatkörner trocknet.\n\nAchte darauf, dass das Haus zwei Ebenen hat. Unten wird gewohnt, und oben, im Dachboden, wird der Mais aufbewahrt. In manchen Regionen im Zentrum wird der Mais in Cuescomates aus Lehm gelagert; hier lagert er in Holz, und zwar oben, wo die Luft zirkuliert und die Feuchtigkeit nicht hinkommt. Jede Region hat ihre eigene Art, denselben Schatz zu schützen.\n\nWenn du eintreten könntest, würdest du außerdem den Altar der Familie sehen: Heiligenbilder, Blumen, Kerzen. Für viele Purépecha-Familien ist das Haus auch ein kleiner Tempel. Hier werden die Kinder geboren, und hier hält man Totenwache, und der Raum bewahrt diese Kontinuität der Leben, so wie die Feuerstelle sie im Lehmflechthaus bewahrte.\n\nDie Region, in der diese Troje steht, ist ein Land der Vulkane. Im Jahr neunzehnhundertdreiundvierzig entstand plötzlich auf einem Maisfeld im Bergland, nahe dem Dorf Angahuan, ein Vulkan, der Paricutín. Er wuchs neun Jahre lang und begrub ganze Dörfer unter Lava und Asche. Seine Asche fiel sogar bis nach Mexiko-Stadt. Vom Dorf San Juan Parangaricutiro blieb nur der Turm seiner Kirche übrig. Die Menschen der Gegend haben ihn entstehen sehen und erzählen noch heute davon.\n\nUnd hier bleibt das Holz eine Spezialität. In Paracho, einem Dorf auf der Hochebene, werden seit Jahrhunderten Gitarren gebaut, und die Werkstätten sind weltberühmt. Es ist, als hätte die Kiefer des Berglands viele Wege gefunden, zur Kunst zu werden: ein Haus, ein Instrument, eine Maske. Im nächsten Stück wirst du eine weitere sehen."
+    },
+    "retos_observacion": {
+      "hash": "1e4b30e8e317cad5",
+      "texto": [
+        "Such die Holzverbindungen an den Ecken: Siehst du irgendwo einen Nagel?",
+        "Finde den Dachboden, auf dem der Mais aufbewahrt wurde",
+        "Achte auf das Walmdach aus kleinen Holzschindeln"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0fc53bbc6f3c097f",
+      "texto": {
+        "Indigenes Volk": "Purépecha (P'urhépecha)",
+        "Region": "Hochebene der Purépecha und Bergland von Michoacán",
+        "Technik/Material": "Kiefernholz mit Schlitz-und-Zapfen-Verbindungen, Holzschindeln und Steinsockel",
+        "Funktion": "Traditionelle Behausung, heiliger Speicher, Familienaltar und Ritualraum"
+      }
+    },
+    "faq_mito": {
+      "hash": "5e4df01437fa2195",
+      "texto": {
+        "pregunta": "Mythos: Die traditionellen indigenen Häuser bestanden alle aus Lehm und Stroh.",
+        "respuesta": "Realität: Jede Region nutzt, was sie hat. Im Bergland der Purépecha baut man mit Kiefernbohlen, die ohne Nägel zusammengefügt werden, und mit zwei Ebenen: unten das Wohnhaus, oben der Speicher."
+      }
+    }
+  }
+}

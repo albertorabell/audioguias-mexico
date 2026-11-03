@@ -1,0 +1,61 @@
+{
+  "id": "mna_s10_tumba_tiro",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "especificaciones": [
+      "el glosario pide \"Schachtgräber\" para \"Tumbas de Tiro\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "c9cb77d10938eab8",
+      "texto": "Nachbildung eines Schachtgrabs mit Grabbeigaben"
+    },
+    "frase_gancho": {
+      "hash": "6113a3dc10a7baec",
+      "texto": "Ein tiefer Schacht und eine Kammer voller Figuren: So bestattete man im Westen Mexikos."
+    },
+    "puente_narrativo": {
+      "hash": "95d266ea1d4fcdd6",
+      "texto": "In den Gräbern gab es Gefährten und Wächter. Suche zuerst die Hunde aus rotem Ton, rund und glänzend, mit dickem Körper und aufmerksam gespitzten Ohren."
+    },
+    "guion_corto": {
+      "hash": "1ca95d7a9fb7139b",
+      "texto": "Du stehst vor der Rekonstruktion eines Schachtgrabs, der Bestattungsform, die vor etwa zweitausend Jahren in Jalisco, Nayarit und Colima üblich war. Die Idee ist einfach: Man grub einen senkrechten Schacht, mehrere Meter tief, und an seinem Grund öffnete man eine oder mehrere Kammern. Dort legte man die Verstorbenen nieder, begleitet von Tonfiguren, Gefäßen mit Speisen und Schmuck. Anders als im Hochland errichtete man hier keine großen Pyramiden: Die Monumentalität lag unter der Erde. Achte auf den Kontrast zwischen dem engen, senkrechten Schacht und der weiten, gewölbten Kammer. Und auf die Figuren ringsum: Krieger, Musiker, Paare. Es ist eine ganze Welt, die begraben wurde, um die Toten zu begleiten."
+    },
+    "guion_largo": {
+      "hash": "a59781f3c59cea55",
+      "texto": "Vergleiche drei Arten, den Tod zu denken. In Palenque wurde der König [Pakal](mna_s09_mascara_pakal) im Inneren einer Pyramide bestattet, am Ende einer Treppe. In Monte Albán in einer Steinkammer mit Malereien, wie der [Tumba 104](mna_s07_tumba_104). Und hier, im Westen, in einem Schacht unter der Erde. Drei Regionen, drei Architekturen des Todes und ein gemeinsamer Wunsch: dass der Verstorbene Gesellschaft hatte und eine gute Reise.\n\nManche Fachleute sehen in der Form dieser Gräber, mit ihrem senkrechten Schacht und ihrer runden Kammer, ein Bild des weiblichen Körpers: Der Tote kehrte in den Schoß der Erde zurück, um wiedergeboren zu werden. Das ist eine Deutung, aber sie passt zu anderen Vorstellungen, die du schon gesehen hast, etwa dass Bestatten ein Säen ist.\n\nEtwas ist noch überraschender: Die Gräber wurden mehrfach benutzt. Man öffnete den Schacht erneut, schob die Überreste der Früheren beiseite und bettete die neuen Verstorbenen hinein. Das Grab war über Generationen hinweg das Haus einer Familie, nicht nur einer einzelnen Person. Deshalb nimmt man an, dass wir in der Kammer nicht einen einzelnen Augenblick sehen, sondern das angesammelte Gedächtnis einer Abstammungslinie.\n\nNeben den Verstorbenen ließ man auch Schalen mit Mais, Bohnen und Kürbiskernen zurück, dazu Schmuck aus Meeresschnecken. Es waren echte Opfergaben: Man glaubte, der Tote müsse essen und sich in seiner neuen Welt gut präsentieren. Ein Grab war zugleich Vorratskammer, Schmuckkästchen und Bühne.\n\nDas Außergewöhnlichste an diesen Gräbern ist, was sie enthielten. Tausende Tonfiguren, gemacht, um begraben zu werden, die zeigen, wie man lebte: Krieger mit Helm, Musiker mit Schneckenhörnern, Paare, Frauen, die ihre Kinder tragen, Heilkundige, Hunde und sogar Häuser mit ihren Familien darin sowie Festmähler. Dank ihnen kennen wir das Alltagsleben des Westens besser als das vieler Kulturen mit großen Pyramiden.\n\nAuch kreisförmige Bauten hat man gefunden. In Teuchitlán, Jalisco, entdeckte man eine Gruppe runder Pyramiden, die Guachimontones genannt werden, etwas ganz anderes als die quadratischen Pyramiden im Rest des Landes. Man nimmt an, dass einige Tonmodelle aus dem Westen, mit einem kleinen runden Hof und Figuren, die zu tanzen scheinen, genau die Rituale zeigen, die dort stattfanden.\n\nDiese Gräber wurden jahrzehntelang geplündert. Die Plünderer öffneten die Schächte, holten die Figuren heraus und verkauften sie an Sammler; deshalb gibt es so viele Stücke aus dem Westen in Museen auf der ganzen Welt, ohne dass wir wissen, aus welchem Grab sie stammen. Ein Stück ohne Zusammenhang verliert fast seine ganze Geschichte, und deshalb ist diese Rekonstruktion so wertvoll: Sie erlaubt dir, dir vorzustellen, wie sie angeordnet waren.\n\nEinige Schächte erreichen eine Tiefe von sechzehn Metern. Sie mit Werkzeugen aus Stein und Holz in weichem Vulkangestein auszuheben, war eine enorme Arbeit. Das tat man nur für jemanden, der sehr bedeutend war.\n\nWenn du dich über die Rekonstruktion beugst, denk daran: Was du siehst, liegt nicht oben, sondern unten. Das wahre Monument des Westens ist ein Hohlraum unter der Erde, gefüllt mit Menschen aus Ton."
+    },
+    "retos_observacion": {
+      "hash": "57e123dd1ff9fd75",
+      "texto": [
+        "Sieh dir den senkrechten Schacht und die seitliche Kammer an: Wie sind sie miteinander verbunden?",
+        "Zähle, wie viele verschiedene Arten von Figuren du in den Grabbeigaben finden kannst",
+        "Vergleiche die Größe des Schachts mit deiner eigenen Körpergröße"
+      ]
+    },
+    "especificaciones": {
+      "hash": "03734b94fb91085a",
+      "texto": {
+        "Kultur": "Schachtgrab-Tradition (verbunden mit den Kulturen von Nayarit, Colima und Jalisco)",
+        "Epoche": "Klassik (200 v. Chr.-600 n. Chr.)",
+        "Material": "Museale Nachbildung mit menschlichen Skeletten, Tongefäßen, hohlen und massiven Figuren, Mahlsteinen aus Stein, Meeresschnecken und Muschelschmuck; die ursprünglichen Kammern wurden in Vulkantuff oder harten Tuffboden gegraben",
+        "Herkunft": "Nachbildung auf der Grundlage archäologischer Fundzusammenhänge aus Nayarit, Colima und Jalisco"
+      }
+    },
+    "faq_mito": {
+      "hash": "bf86c6acc19a37f2",
+      "texto": {
+        "pregunta": "Mythos: Alle Kulturen Mesoamerikas bestatteten ihre Könige in Pyramiden.",
+        "respuesta": "Realität: Im Westen bestattete man in tiefen Schächten mit seitlichen Kammern: Ihre Monumentalität lag unter der Erde."
+      }
+    }
+  }
+}

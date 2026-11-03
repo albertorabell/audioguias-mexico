@@ -1,0 +1,58 @@
+{
+  "id": "mna_s16_traje_volador",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Immaterielles Kulturerbe\" para \"Patrimonio Cultural Inmaterial\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "99041fc5b978d128",
+      "texto": "Zeremonialtracht des Volador-Tänzers"
+    },
+    "frase_gancho": {
+      "hash": "31d754af6f18fe35",
+      "texto": "Vier Männer, an einen Pfahl gebunden, schweben drehend vom Himmel herab."
+    },
+    "puente_narrativo": {
+      "hash": "c389db649a26c410",
+      "texto": "Von den Flügen kommen wir zu den Händen, die Papier schneiden. Suche nach menschlichen Silhouetten, ausgeschnitten aus braunem oder cremefarbenem Papier mit rauer Textur."
+    },
+    "guion_corto": {
+      "hash": "015b3efb422233e3",
+      "texto": "Dieses Gewand tragen die Voladores (Flieger), die sich von der Spitze eines Pfahls von mehr als dreißig Metern Höhe stürzen. Es ist eine prächtige Tracht: eine rote Hose mit goldenen Fransen, dreieckige Tücher, die über der Brust gekreuzt sind, Blumenstickereien, Spiegel, die die Sonne zurückwerfen, und eine kegelförmige Mütze, geschmückt mit Federn und Blumen. Am Ritual nehmen fünf Personen teil. Vier sind die Voladores, die die vier Himmelsrichtungen der Welt darstellen, und der fünfte ist der Anführer, der oben auf dem Pfahl eine Flöte und eine kleine Trommel spielt. Die Voladores lassen sich an den Füßen festgebunden fallen und drehen sich in Kreisen, bis sie den Boden berühren. Es ist ein sehr alter Ritus, der als Erbe der Menschheit anerkannt ist."
+    },
+    "guion_largo": {
+      "hash": "94e75c1aa0c11472",
+      "texto": "Stell dir einen Stamm von mehr als dreißig Metern vor, ohne Äste, aufgerichtet auf einem Platz. An der Spitze ein kleiner viereckiger Rahmen. Und auf diesem Rahmen fünf Männer in Rot, bereit für etwas, das unmöglich scheint. Das ist das Ritual der Voladores (Flieger), eine Zeremonie der Totonaken und der Nahua, die unter anderem in Papantla und im Bergland von Puebla stattfindet, und die Tracht, die du siehst, ist die, die man für den Flug anlegt.\n\nZuerst der Baum. Man erzählt, dass die Gemeinschaft vor dem Ritual im Wald einen Baum auswählt und den Berg um Erlaubnis bittet, ihn zu fällen. Es wird eine Zeremonie abgehalten, und der Stamm wird mit Respekt zum Platz gebracht. Vielleicht ist der Pfahl deshalb für die Teilnehmenden kein einfacher Stock: Er ist ein heiliger Baum, der die Erde mit dem Himmel verbindet.\n\nDann die Figuren. Vier Voladores und ein Anführer. Der Anführer steigt bis zur Spitze hinauf, setzt sich auf die Plattform und spielt eine Flöte und eine kleine Trommel, während sich die anderen vier hinabstürzen. Die vier Voladores sind die vier Himmelsrichtungen der Welt, und der Anführer in der Mitte ist die fünfte: die Achse. Die Voladores sind an den Füßen mit Seilen festgebunden, die um den Pfahl gewickelt sind, und wenn sie sich fallen lassen, steigen sie drehend hinab, in immer größeren Kreisen.\n\nUnd nun die Zahlen. Jeder Volador dreht sich dreizehn Mal, bevor er den Boden berührt. Vier Voladores mal dreizehn Umdrehungen ergeben zweiundfünfzig, und das ist genau die Zahl der Jahre eines Zyklus des mesoamerikanischen Kalenders, den du am [Sonnenstein](mna_s06_piedra_sol) gesehen hast. Man deutet es als eine Art, sich an diesen Zyklus zu erinnern, auch wenn nicht alle Fachleute dieser Lesart zustimmen.\n\nDie Tracht ist ein Fest der Farben. Die rote Hose mit den goldenen Fransen erinnert an die Sonne. Die gekreuzten Tücher tragen Spiegel und Blumenstickereien und werfen das Licht zurück, während die Tänzer sich drehen. Die kegelförmige Mütze mit Federn und Blumen lässt an einen Vogel denken. Wer mit ausgebreiteten Armen und diesem Schmuck herabkommt, wird gewissermaßen zu einem Vogel.\n\nMan glaubt, dass das Ritual alt ist, und die Chronisten beschrieben es kurz nach der Eroberung. In den Reliefs und den alten Figuren der Golfküste gibt es Gestalten mit Vogelzügen, die mit ihm in Verbindung gebracht wurden. Es musste sich den Jahrhunderten anpassen, und doch lebt es weiter. Im Jahr zweitausendneun nahm die UNESCO es in die Liste des immateriellen Kulturerbes der Menschheit auf.\n\nDas Risiko ist real: Es gibt kein Netz, und die Voladores bereiten sich jahrelang vor. Deshalb beginnt das Ritual mit Gebeten und Opfergaben und endet mit Erleichterung und einem Fest.\n\nHeute kann man die Voladores in Papantla, in Cuetzalan und auch in Mexiko-Stadt sehen, wo sie gewöhnlich auf dem Vorplatz des Museums auftreten. Manche sehen darin ein Spektakel, für andere ist es ein Gebet in der Luft. Sicher ist jedenfalls, dass jeder Flug daran erinnert, dass ein Volk eine Zeremonie über Jahrhunderte bewahren kann, auch wenn sich die Welt um es herum verändert."
+    },
+    "retos_observacion": {
+      "hash": "5c152a8521ab64d1",
+      "texto": [
+        "Suche die Spiegel und die Stickereien auf den Tüchern, die über der Brust gekreuzt sind",
+        "Betrachte die rote Hose mit den goldenen Fransen",
+        "Achte auf die kegelförmige Mütze: Welche Federn und Blumen trägt sie?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "082591921c4764c8",
+      "texto": {
+        "Volk": "Totonaken / Nahua",
+        "Region": "Nördliches Bergland von Puebla und Totonacapan (Papantla / Cuetzalan)",
+        "Technik/Material": "Roter Samt/Satin, goldene Röhrchenfransen, Spiegel, Federn und Stickerei",
+        "Funktion": "Heilige Kleidung für das kosmogonische Ritual der Voladores (Anrufung des Regens)"
+      }
+    },
+    "faq_mito": {
+      "hash": "d571f45066a32a68",
+      "texto": {
+        "pregunta": "Mythos: Der Tanz der Voladores ist eine Touristenattraktion, die erst vor wenigen Jahren erfunden wurde.",
+        "respuesta": "Realität: Es ist ein sehr altes Ritual mit Wurzeln, die vor die Eroberung zurückreichen. Im Jahr zweitausendneun erkannte die UNESCO es als immaterielles Kulturerbe der Menschheit an."
+      }
+    }
+  }
+}

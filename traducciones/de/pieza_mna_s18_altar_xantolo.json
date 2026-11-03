@@ -1,0 +1,54 @@
+{
+  "id": "mna_s18_altar_xantolo",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f1c0bfe25faf4c67",
+      "texto": "Der Bogen des Xantolo-Altars / Fest der Seelen"
+    },
+    "frase_gancho": {
+      "hash": "cca20453f289f248",
+      "texto": "Ein Bogen aus gelben Blumen, damit die Seelen den Weg nach Hause finden."
+    },
+    "puente_narrativo": {
+      "hash": "3e2e6b9fdb9a71f7",
+      "texto": "Vom Fest der Toten gehen wir zur weißen Kleidung der Totonaken über. Such einen Anzug aus weißem Baumwollstoff mit einem roten Tuch um den Hals und einem Palmhut."
+    },
+    "guion_corto": {
+      "hash": "12735bf8954a97c2",
+      "texto": "Dies ist die Rekonstruktion eines Xantolo-Altars. Der Xantolo ist das Fest der Toten in der Huasteca, in San Luis Potosí, Hidalgo und Veracruz. Am auffälligsten ist der große Bogen aus biegsamen Stäben, bedeckt mit intensiv gelben Cempasúchil-Blüten und grünem Laub. Man glaubt, dass er die Tür ist, durch die die Seelen zurückkehren, um ihre Familie zu besuchen. Unter dem Bogen wird der Tisch mit Speisen gedeckt: große Tamales, Brot, Schokolade, Obst und Kerzen, dazu Copal, der die Luft mit Duft erfüllt. Alles wird mit Sorgfalt vorbereitet, denn die Toten kehren zurück, und die Lebenden empfangen sie mit dem, was sie am liebsten mochten. Der Xantolo verbindet alte Glaubensvorstellungen mit dem katholischen Kalender und dauert mehrere Tage."
+    },
+    "guion_largo": {
+      "hash": "4f61700d7ba49a8d",
+      "texto": "„Xantolo“ leitet sich vom Wort für „Heilige“ ab. So nennt man in der Huasteca das Fest zu Allerheiligen und Allerseelen, das Ende Oktober und Anfang November gefeiert wird. In ganz Mexiko stellt man den Toten eine Opfergabe auf, doch jede Region hat dafür ihren eigenen Stil. Hier besteht der Stil aus einem Blumenbogen, einem Festmahl und einem großen Kommen und Gehen von Menschen.\n\nBeginnen wir mit dem Bogen. Er ist aus biegsamen Stäben gemacht, die zu einer Tür gebogen sind, und mit Cempasúchil-Blüten und grünem Laub bedeckt. Man glaubt, dass er die Schwelle ist, über die die Toten nach Hause zurückkehren. Die Blume hat ihre eigene Geschichte: Ihr Name auf Nahuatl, cempoalxóchitl, wird üblicherweise als „Blume der Zwanzig“ erklärt. Ihre intensiv gelbe Farbe und ihr starker Duft helfen den Seelen, so heißt es, den Weg zu finden. Du hast [Xochipilli](mna_s06_xochipilli), den „Prinzen der Blumen“, schon im Saal Mexica gesehen; auch hier bleiben die Blumen eine Sprache, mit der man zu den Göttern und zu den Toten spricht.\n\nDer Tisch. Unter dem Bogen stellt die Familie das auf, was der Verstorbene gern mochte: Tamales, Schokolade, Brot, Früchte, manchmal Branntwein oder Kaffee. In der Huasteca gibt es einen riesigen Tamal, der manchmal mehr als einen Meter lang wird, den zacahuil. Er ist nicht nur ein Gericht: Er ist eine Art zu sagen, dass derjenige, der gegangen ist, weiterhin zum Tisch gehört. Der Copal, jener duftende Rauch, den du im [Otomí-Oratorium](mna_s15_oratorio_familiar) wahrgenommen hast, hilft dabei, die Seelen einzuladen.\n\nDer Weg der Toten ist alt. In der Welt der Mexica gingen die Verstorbenen nach Mictlán, auf eine lange Reise von mehreren Jahren, mit Hilfe eines Hundes, wie du ihn bei den [Figuren aus Colima](mna_s10_perros_colima) gesehen hast. Heute vermischen sich diese Vorstellungen mit dem katholischen Kalender und mit dem jährlichen Besuch der Seelen. Das Fest fällt auf die Tage von Allerheiligen, wirkt aber älter, und man glaubt, dass es in vorspanischer Zeit zu anderen Zeiten im Jahr gefeiert wurde.\n\nIn der Huasteca ist der Xantolo nicht nur die Opfergabe. Es gibt Gruppen maskierter Tänzer, die unter Violinen- und Gitarrenmusik durch die Dörfer ziehen. Die Verkleideten stellen die Toten und die Lebenden dar und bewegen sich zwischen Gelächter und Spott. Es ist eine Art, mit dem Tod Frieden zu schließen, und eine Erinnerung daran, dass das Fest auch den Lebenden gehört.\n\nDer Tod ist hier kein Ende, sondern ein Besuch. Die Kinder kommen zuerst, in der Nacht zum einunddreißigsten, und die Erwachsenen danach. Jede Familie putzt das Haus, bereitet das Essen zu und wartet. Wenn das Fest zu Ende geht, kehren die Seelen in ihre Welt zurück, und der Familie bleibt das Gefühl, wieder beieinander gewesen zu sein. Vielleicht ist das Fest deshalb nicht nur traurig, sondern auch zutiefst dankbar.\n\nZum Schluss noch eine Information. Im Jahr zweitausendacht erkannte die UNESCO das indigene Fest für die Toten in Mexiko als immaterielles Kulturerbe der Menschheit an. Es ist eine Anerkennung für eine Tradition, die so unterschiedliche Völker verbindet wie die Purépecha vom See Pátzcuaro, die Huasteken und die Nahua der Sierra. Jedes Volk stellt seinen Bogen, seine Blumen und seine Speisen auf, doch alle feiern dasselbe: sich wiederzusehen."
+    },
+    "retos_observacion": {
+      "hash": "fdd4fb58601aeadd",
+      "texto": [
+        "Such die gelben Blumen, die den Bogen bedecken",
+        "Finde den Tisch mit der Opfergabe: Welche Speisen erkennst du?",
+        "Stell dir vor, wie der Duft von Copal und Blumen in den Saal strömt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ed1aa9c2c17ea7ee",
+      "texto": {
+        "Volk": "Téenek und Nahua der Huasteca",
+        "Región": "Huasteca in San Luis Potosí, Veracruz und Hidalgo (Tempoal, Huejutla)",
+        "Technik/Material": "Otate-Rohrstäbe, Palmblätter, Cempasúchil-Blüten, verziertes Wachs, Copal, Brot und Holz",
+        "Funktion": "Zeremonialaltar und heilige Installation für das Fest des Xantolo (Tag der Toten)"
+      }
+    },
+    "faq_mito": {
+      "hash": "842d80a36224dbf1",
+      "texto": {
+        "pregunta": "Mythos: Der Tag der Toten ist ein trauriges Fest der Trauer.",
+        "respuesta": "Realität: Er ist ein Besuch: Die Familien empfangen ihre Toten mit Blumen, Essen und Musik. Traurigkeit und Freude vermischen sich."
+      }
+    }
+  }
+}

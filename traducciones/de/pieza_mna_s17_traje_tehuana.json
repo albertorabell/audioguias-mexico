@@ -1,0 +1,58 @@
+{
+  "id": "mna_s17_traje_tehuana",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Zapoteken\" para \"Zapoteca / Zapotecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "61eebf67f33ef45c",
+      "texto": "Festtracht und Strahlenkranz der Tehuana"
+    },
+    "frase_gancho": {
+      "hash": "7c30bdea2773630b",
+      "texto": "Seidenblumen auf Samt und eine Spitze, die das Gesicht erstrahlen lässt."
+    },
+    "puente_narrativo": {
+      "hash": "28b7cc6a417e1ead",
+      "texto": "Von den Blumen des Isthmus gehen wir zum Rot der Sierra über. Suche einen langen Huipil in intensivem Rot, mit Streifen aus gewebten geometrischen Mustern und bunten Quasten."
+    },
+    "guion_corto": {
+      "hash": "d98862041377642c",
+      "texto": "Dies ist die Festtracht der zapotekischen Frauen des Isthmus von Tehuantepec in Oaxaca. Sie besteht aus einem kurzen Huipil und einem weiten Rock aus Samt oder Satinstoff, bedeckt von riesigen, von Hand mit Seidenfaden gestickten Blumen: Rosen, Tulpen und Stiefmütterchen. Der Rock endet in einem Volant aus gestärkter Spitze. Zu den wichtigsten Festen setzen die Frauen den Strahlenkranz auf, einen Kopfschmuck aus weißer Spitze, der das Gesicht wie eine Aureole umgibt. Vervollständigt wird die Tracht durch Halsketten aus Goldmünzen und Schmuck aus Filigran. Es ist Kleidung voller Arbeit und voller Stolz. Im Isthmus gelten die Frauen als stark, als Herrinnen des Handels und des Festes."
+    },
+    "guion_largo": {
+      "hash": "fa420fc3b301bbfe",
+      "texto": "Nur wenige Trachten der Welt ziehen so viele Blicke auf sich wie diese. Riesige Blumen auf dunklem Samt, Halsketten aus Gold, eine weiße Spitze, die das Gesicht wie eine Aureole einrahmt. Es ist die Festtracht der Tehuana, der zapotekischen Frau des Isthmus von Tehuantepec, und sie ist zu einem der bekanntesten Symbole Mexikos geworden.\n\nZuerst der Zusammenhang. Die Zapoteken des Isthmus nennen sich selbst binnizá, was „Volk der Wolken“ bedeutet. Und die Zapoteken im Tal, die von Monte Albán, verehrten [Cocijo](mna_s07_urna_cocijo), den Regengott, wie du im Saal Oaxaca unten gesehen hast. Ein Volk der Wolken, ein Gott des Regens: Das Wasser stand immer im Mittelpunkt ihrer Sicht auf die Welt.\n\nNun zur Stickerei. Die Blumen der Tracht werden von Hand mit Seide auf Samt oder Satin gestickt. Es sind Rosen, Tulpen und Stiefmütterchen, Blumen, die mit den Spaniern nach Mexiko kamen und hier Teil einer eigenen Tradition wurden. Man nimmt an, dass sich die Vorliebe für diese gestickten Blumen ab dem neunzehnten Jahrhundert festigte, als europäische Stoffe mit dem Können vor Ort verbunden wurden. Das Ergebnis ist gewaltig: Jede Blume kann mehrere Dutzend Zentimeter groß sein.\n\nEine Legende erzählt, der Strahlenkranz sei aus der Spitze eines Taufkleids entstanden, das übers Meer gekommen war und das sich eine Frau auf den Kopf setzte. Ob sie nun stimmt oder nicht, die Geschichte zeigt, wie der Isthmus sich alles zu eigen macht, was zu ihm kommt. Wenn auf einem Fest La Sandunga erklingt, das berühmte Lied des Isthmus, tanzen die Frauen es in dieser Tracht.\n\nDann der Strahlenkranz. Es ist ein Kopfschmuck aus gestärkter weißer Spitze, der rund um das Gesicht getragen wird, wie ein Rahmen oder eine Sonne. Er wird zu den wichtigsten Festen getragen, etwa zu den Kerzenfesten, großen Gemeinschaftsfeiern des Isthmus mit Musik, Tanz und Essen. Stell dir Dutzende Frauen mit Strahlenkranz vor, die gemeinsam tanzen: Es muss aussehen wie ein Feld voller Sonnen.\n\nAuch der Schmuck erzählt etwas. Die Halsketten aus Goldmünzen, die man Choker nennt, und die Ketten aus Filigran sind Familienerbe. Im Isthmus ist Gold eine Form des Sparens und des Stolzes. Eine Frau, die ihren Schmuck trägt, zeigt ihr Vermögen und das ihrer Familienlinie.\n\nDie Tehuana gilt als unabhängig. Sie ist dafür bekannt, den Handel, die Märkte und die Wirtschaft des Hauses zu lenken und einen sehr starken Platz in der Familie zu haben. Dieses Bild einer selbstbewussten Frau wurde im ganzen Land berühmt. Frida Kahlo, die diese Stärke bewunderte, machte die Tehuana-Tracht zu einem Teil ihres Bildes und trug sie in Porträts und auf Fotografien, die um die Welt gingen.\n\nIn Juchitán und anderen Orten des Isthmus tragen auch die Muxes, Menschen, deren Geschlechtsidentität einen anerkannten Platz in der zapotekischen Kultur hat, diese Tracht und sind Teil der Kerzenfeste.\n\nWenn du die Tracht siehst, denke nicht an ein Kostüm. Denke an Stunden des Stickens, an die Tradition von Generationen und an eine Art zu sagen: „Hier bin ich.“ Der Isthmus von Tehuantepec ist ein Ort der Winde, der Hitze, der Musik und der Feste, und diese Kleidung ist seine Art, das zu zeigen."
+    },
+    "retos_observacion": {
+      "hash": "66648c2efd5306a0",
+      "texto": [
+        "Suche die gestickten Blumen: Wie viele verschiedene Farben haben sie?",
+        "Betrachte die weiße Spitze, die den Strahlenkranz um das Gesicht bildet",
+        "Achte auf den Goldschmuck und auf den Volant des Rocks"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7a464828bf1c9298",
+      "texto": {
+        "Volk": "Zapotekisch (Binnizá)",
+        "Region": "Isthmus von Tehuantepec, Oaxaca",
+        "Technik/Material": "Samt, von Hand mit Seide bestickt, plissierte Spitze, Stärke und Goldschmiedekunst",
+        "Funktion": "Festkleidung für die Kerzenfeste zu Ehren der Schutzpatrone, für religiöse Festämter und für identitätsstiftende Feiern"
+      }
+    },
+    "faq_mito": {
+      "hash": "65b8f47dd401bff1",
+      "texto": {
+        "pregunta": "Mythos: Die Tehuana-Tracht ist ein Festkostüm, das niemand mehr trägt.",
+        "respuesta": "Realität: Es ist Festkleidung, die viele Frauen des Isthmus weiterhin bei den Kerzenfesten und anderen Feiern tragen. Jede Stickerei ist Handarbeit von vielen Stunden."
+      }
+    }
+  }
+}

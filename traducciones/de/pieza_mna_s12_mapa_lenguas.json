@@ -1,0 +1,54 @@
+{
+  "id": "mna_s12_mapa_lenguas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "97f3f1598e3ede65",
+      "texto": "Großes Wandbild und ethnolinguistische Karte Mexikos"
+    },
+    "frase_gancho": {
+      "hash": "93b79ac4d2c66bf7",
+      "texto": "Eine Karte, auf der die Sprachen Mexikos lebendig sind."
+    },
+    "puente_narrativo": {
+      "hash": "e35eec2715acb07a",
+      "texto": "Wir gehen von den Wörtern zu den Orten über, an denen sie gesprochen werden. Such ein Haus mit Wänden aus Ruten und Lehm und einem Strohdach, mit einer Feuerstelle aus drei Steinen in der Mitte."
+    },
+    "guion_corto": {
+      "hash": "5c1ea5e24ef11fd1",
+      "texto": "Diese große Karte zeigt, wo die indigenen Völker Mexikos heute leben und welche Sprache jedes von ihnen spricht. Insgesamt sind es achtundsechzig Völker mit ihren Sprachen, gegliedert in elf Sprachfamilien. Mehr als sieben Millionen Menschen sprechen eine indigene Sprache. Achte darauf, wie sie sich über das Land verteilen: Es gibt Sprachen der Wüste, des Gebirges, des Urwalds und der Küste, und der Süden, vor allem Oaxaca, ist voller Farben. Die ethnografische Kartografie dieses Saals, die der Maler Luis Covarrubias zur Eröffnung im Jahr neunzehnhundertvierundsechzig begonnen hat und die heute von aktualisierten audiovisuellen Medien begleitet wird, zeigt diese Lebendigkeit. Hier gibt es nicht nur ein Mexiko: Es gibt viele, und alle werden gesprochen."
+    },
+    "guion_largo": {
+      "hash": "bdfa05056d394d5f",
+      "texto": "Im Erdgeschoss stand fast alles, was du gesehen hast, in der Vergangenheit. Hier gehst du nach oben, und das Museum wechselt die Zeitform. Die Säle oben wurden in den Sechzigerjahren eingerichtet, nach Expeditionen durch das ganze Land, um die indigenen Völker kennenzulernen, ihre Gegenstände zu sammeln und in manchen Fällen ihre eigenen Gemeinschaften einzuladen, ihre Häuser im Museum selbst zu bauen. Die Idee war, die Menschen von heute zu zeigen und nicht eine Vergangenheit wie auf einer Postkarte.\n\nUnd die Menschen von heute sprechen viel. Achtundsechzig Völker mit achtundsechzig Sprachen, gegliedert in elf Sprachfamilien und in mehr als dreihundertsechzig Varianten. Das sind keine Dialekte ein und derselben Sprache: Es sind Sprachen, die so verschieden voneinander sind wie Spanisch und Ungarisch, die nicht miteinander verwandt sind. Nahuatl und Maya zum Beispiel stammen aus Familien, die sich in nichts ähneln. Es ist eine der größten Sprachenvielfalten Amerikas.\n\nSuche auf der Karte die Völker, die du schon kennst. Die Nahua, Nachkommen der Mexica, bilden die größte Gruppe. Die Maya leben weiterhin auf der Halbinsel Yucatán und in Chiapas, und ihre Sprachen zählen zusammen mehr als zwei Millionen Sprecher. Die Zapoteken und Mixteken leben in Oaxaca, wo du Monte Albán gesehen hast. Die Purépecha leben in Michoacán. Und die Huasteken, die eine Sprache aus dem Maya-Sprachstamm sprechen, genannt teenek, leben weiterhin an der Golfküste, weit entfernt von ihren Verwandten im Süden.\n\nViele Wörter, die du täglich benutzt, stammen aus diesen Sprachen. Schokolade, Tomate, Avocado, Kojote und Kreide gehen auf Nahuatl-Wörter zurück. „Cuate“, was wir sagen, wenn wir „Freund“ meinen, kommt von einem Nahuatl-Wort, das „Zwilling“ bedeutet. Und auch das Wort „Mexiko“ ist Nahuatl; nach einer weit verbreiteten Erklärung bedeutet es „im Nabel des Mondes“, doch die Fachleute streiten noch immer über seinen genauen Ursprung.\n\nNicht alles ist Grund zum Feiern: Viele Sprachen haben immer weniger Sprecher, weil über Generationen hinweg gelehrt wurde, sie zu sprechen sei ein Hindernis. Manche stehen kurz vor dem Verschwinden. Heute bringen viele Gemeinschaften sie in Schulen bei und nutzen sie im Radio und in den sozialen Netzwerken. Die Vereinten Nationen haben den Zeitraum von zweitausendzweiundzwanzig bis zweitausendzweiunddreißig zur Internationalen Dekade der indigenen Sprachen erklärt.\n\nNoch eine Angabe, die du in Ruhe betrachten solltest. Die Karte wurde in den Sechzigerjahren gemalt und ist aktualisiert worden, doch jede Sprachkarte greift zu kurz: Die Menschen ziehen um, wandern in die Städte, reisen. Es gibt Mixtekisch-Sprecher in Mexiko-Stadt und Zapotekisch-Sprecher in Kalifornien. Die Sprachen bleiben nicht mehr dort, wo sie entstanden sind.\n\nDarum ist diese Karte kein Museumsstück im Sinne der Stücke unten. Sie verändert sich, genau wie die Menschen, die sie bewohnen. In den nächsten Sälen wirst du sehen, wie jedes Volk mit seiner Sprache, seinem Essen, seiner Kleidung und seinen Festen eine eigene Art entwickelt, mexikanisch zu sein. Wie viele dieser Sprachen hast du schon einmal sprechen hören?"
+    },
+    "retos_observacion": {
+      "hash": "c5198251c44fabb5",
+      "texto": [
+        "Suche das Gebiet, in dem Nahuatl gesprochen wird, die Sprache der Mexica",
+        "Finde die Halbinsel Yucatán, wo die Maya-Völker leben",
+        "Achte auf den Süden: Wie viele verschiedene Farben siehst du in Oaxaca?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f1755217096522cc",
+      "texto": {
+        "Indigenes Volk": "Plurinational (68 ethnolinguistische Gruppen und 11 Sprachfamilien)",
+        "Region": "Gebiet der Mexikanischen Republik",
+        "Historische Urheberschaft und Museografie": "Originalkartografie von Luis Covarrubias (1964) und aktualisierte interaktive Infografik (INAH/INALI)",
+        "Saal": "Indigene Völker"
+      }
+    },
+    "faq_mito": {
+      "hash": "253d75a8d4059edf",
+      "texto": {
+        "pregunta": "Mythos: Die indigenen Sprachen sind einfache Dialekte ein und derselben Sprache.",
+        "respuesta": "Realität: Es sind verschiedene Sprachen aus Familien, die nicht miteinander verwandt sind. In Mexiko werden achtundsechzig indigene Sprachen mit mehr als dreihundert Varianten gesprochen."
+      }
+    }
+  }
+}

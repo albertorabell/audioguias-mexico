@@ -1,0 +1,61 @@
+{
+  "id": "mna_s09_tablero_cruz",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Späte Klassik\" para \"Clásico Tardío\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Späte Klassik\" para \"Clásico Tardío\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "7e147b0d606407e2",
+      "texto": "Tafel des Kreuzes von Palenque"
+    },
+    "frase_gancho": {
+      "hash": "739924d51876e119",
+      "texto": "Ein Kind und ein erwachsener König, ein und derselbe Mann, zu beiden Seiten eines heiligen Kreuzes."
+    },
+    "puente_narrativo": {
+      "hash": "95c9142a818ddf57",
+      "texto": "Von Palenque gehen wir weiter zum Palast eines anderen Reiches am Ufer des Flusses Usumacinta. Suche ein Steinrelief mit zwei Figuren, die sich gegenüberstehen: ein König und eine Königin, die ihm einen Jaguarhelm überreicht."
+    },
+    "guion_corto": {
+      "hash": "333aab32547f6b0c",
+      "texto": "Ein sechsjähriges Kind und ein erwachsener König erscheinen auf demselben Stein, und beide sind derselbe Mann: Kan Bahlam, Sohn und Nachfolger von [Pakal](mna_s09_mascara_pakal). Es ist eine große Kalksteintafel aus der Gruppe der Kreuze von Palenque, ein Werk der Maya aus der Späten Klassik, gemeißelt um das Jahr 692. Die Fachleute lesen darin zwei Momente seines Lebens: als Kind, als er als Thronerbe vorgestellt wurde, ein Ereignis des Jahres 641, und als Erwachsener, als er die Macht übernahm, im Jahr 684. In der Mitte erhebt sich eine heilige Pflanze in Form eines Kreuzes. An den Seiten erzählen Säulen aus Hieroglyphen, wer er war und warum er an der Reihe war zu herrschen. Es ist ein politisches Argument, in Stein gemeißelt."
+    },
+    "guion_largo": {
+      "hash": "c3b90339d9f90549",
+      "texto": "Stell dir vor, dein Vater, der berühmteste König der Stadt, ist gerade gestorben, und nun bist du an der Reihe zu herrschen. Wie überzeugst du alle davon, dass du das Recht dazu hast? Kan Bahlam, der Sohn von [Pakal](mna_s09_mascara_pakal), tat es mit einem Stein: Er ließ diese Tafel meißeln und an den heiligsten Ort eines Tempels setzen.\n\nEs ist ein Werk der Maya aus der Späten Klassik, um das Jahr 692 in Kalkstein gemeißelt. Es stammt aus Palenque in Chiapas, aus der Gruppe der Kreuze, einer Anlage aus drei Tempeln: dem Tempel des Kreuzes, dem Tempel der Sonne und dem Tempel des Blattkreuzes. Jeder bewahrte in seinem inneren Heiligtum eine große Tafel wie diese auf, mit einer Szene und einem Text, die als eine einzige Botschaft gelesen wurden.\n\nSieh dir die Figuren an. Der König erscheint zweimal: als Kind, mit sechs Jahren, und als Erwachsener. Nach der Lesart der Fachleute erinnert die Szene mit dem Kind an das Jahr 641, als er als Thronerbe vorgestellt wurde; die mit dem Erwachsenen an das Jahr 684, als er die Insignien der Macht erhielt, wenige Monate nach dem Tod seines Vaters. Zwischen dem einen und dem anderen Moment liegen dreiundvierzig Jahre, und der Stein fügt sie in einem einzigen Bild zusammen, als wäre von Anfang an alles entschieden gewesen.\n\nZwischen den beiden Figuren erhebt sich eine heilige Pflanze in Form eines Kreuzes. Für die Maya war sie kein christliches Symbol: Sie war die Achse der Welt, ein Baum oder eine Maispflanze, die die Unterwelt, die Erde und den Himmel verband. Diese Darstellungen entstanden lange, bevor die Spanier kamen, und deshalb nennen wir sie nur wegen ihrer Form „Kreuz“.\n\nAn den Seiten verlaufen die Texte, ganze Säulen aus Hieroglyphen. Das ist der wichtigste Teil, auch wenn er am schwersten zu erkennen ist. Sie berichten, dass nach der Überlieferung von Palenque die Schutzgötter der Stadt in mythischen Zeiten geboren worden waren und dass der König ihr Erbe auf der Erde war. So verband sich die persönliche Geschichte von Kan Bahlam mit der der Götter seiner Stadt, und sein Herrschaftsanspruch schien so alt wie das Universum.\n\nDenk es dir als politisches Plakat, aber gemacht, um zu überdauern. Die Regierenden von heute nutzen Reden, Anzeigen und soziale Netzwerke; Kan Bahlam nutzte Kalkstein, Bildhauer und mehrere Jahre Arbeit. Und es hat funktioniert: Mehr als eintausenddreihundert Jahre später ist sein Name bis zu dir gelangt.\n\nWenn du aus der [Krypta von Pakal](mna_s09_cripta_pakal) kommst, kennst du schon den Vater: den König, dessen Gesicht von Jade bedeckt war. Hier lernst du den Sohn kennen, der die Stadt erbte und bis zum Jahr 702 regierte. In diesen Jahren ließ er diese Tempelgruppe errichten, um klarzumachen, dass die Dynastie fortbestand. Ein Grab für den Vater und drei Tempel für den Sohn: die Geschichte einer Familie, erzählt in zwei Arten von Stein.\n\nBevor du weitergehst, vergleiche die beiden Gestalten des Königs. Was verändert sich beim Kind und beim Erwachsenen an Körper, Kopfschmuck und Haltung? Auf diesem Stein vergeht keine Zeit: Das Kind und der König sind ein und derselbe."
+    },
+    "retos_observacion": {
+      "hash": "f033df1db6d94a2a",
+      "texto": [
+        "Suche die beiden Porträts des Königs: eines als Kind und eines als Erwachsener",
+        "Finde die heilige Pflanze in Kreuzform, die zwischen ihnen steht",
+        "Sieh dir die Säulen aus Hieroglyphen an den Seiten an: Sie sind der Text, der die Szene erklärt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a01539b997eb1885",
+      "texto": {
+        "Kultur": "Maya, Palenque",
+        "Epoche": "Späte Klassik (um 692 n. Chr.)",
+        "Material": "Kalkstein, Flachrelief auf mehreren Platten",
+        "Herkunft": "Gruppe der Kreuze, Palenque, Chiapas"
+      }
+    },
+    "faq_mito": {
+      "hash": "1e7546d953929576",
+      "texto": {
+        "pregunta": "Mythos: Das Kreuz auf der Tafel ist ein christliches Symbol, das mit den Spaniern kam.",
+        "respuesta": "Realität: Es ist eine heilige Pflanze oder ein heiliger Baum der Maya in Kreuzform, um das Jahr 692 gemeißelt, lange bevor die Spanier kamen."
+      }
+    }
+  }
+}

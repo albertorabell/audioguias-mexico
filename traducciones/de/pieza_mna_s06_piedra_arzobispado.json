@@ -1,0 +1,59 @@
+{
+  "id": "mna_s06_piedra_arzobispado",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Historisches Zentrum\" para \"Centro Histórico\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "4a54ed08e0272ffa",
+      "texto": "Stein des ehemaligen Erzbischofspalasts"
+    },
+    "frase_gancho": {
+      "hash": "c284fe419ae715d3",
+      "texto": "Ein Steinzylinder, der fast fünfhundert Jahre unter dem Stadtzentrum schlief."
+    },
+    "puente_narrativo": {
+      "hash": "7576a0617769d562",
+      "texto": "Vom Zylinder der Gefangenen gehen wir zu einem weiteren Gefäß für Opfergaben über, diesmal in Tierform. Geh zum steinernen Jaguar, der als Nächstes folgt: In seinem Rücken ist eine Mulde, die dafür gemacht wurde, Herzen aufzunehmen."
+    },
+    "guion_corto": {
+      "hash": "ed48957fc0baee37",
+      "texto": "Elf Eroberungsszenen laufen um diesen Steinzylinder herum. In allen wiederholt sich dasselbe Bild: Ein Herrscher mit den Insignien eines Gottes packt einen besiegten Krieger an den Haaren, und neben jedem Besiegten erscheint das Glyphenzeichen seines Volkes. Es ist der Stein des ehemaligen Erzbischofspalasts, ein Werk der Mexica, das 1988 bei Bauarbeiten in der Calle de Moneda im Zentrum von Mexiko-Stadt entdeckt wurde. Manche Fachleute bringen ihn mit Motecuhzoma Ilhuicamina in Verbindung, dem tlatoani, der vor Tízoc regierte. Auf der Oberseite befindet sich eine Sonnenscheibe mit einem Gesicht in der Mitte. Man nimmt an, dass er für rituelle Kämpfe diente und dazu, Opfergaben aus Blut und Herzen aufzunehmen."
+    },
+    "guion_largo": {
+      "hash": "124b068dc4a791ad",
+      "texto": "Manchmal beginnt die Archäologie nicht mit einer Expedition, sondern mit einem Graben. 1988, bei Fundamentarbeiten an einem alten Gebäude in der Calle de Moneda im Historischen Zentrum von Mexiko-Stadt, stießen die Arbeiter auf einen großen runden Stein. Er lag an seinem ursprünglichen Platz, nicht weit vom Templo Mayor entfernt, genau dort, wo die Mexica ihn fast fünfhundert Jahre zuvor aufgestellt hatten.\n\nDas Gebäude war der ehemalige Erzbischofspalast, und deshalb trägt das Stück diesen Namen, obwohl es nichts Koloniales an sich hat. Sein Grundstück gehörte zum Heiligen Bezirk von Tenochtitlan, dem zeremoniellen Herzen der Hauptstadt der Mexica. Jahrhundertelang wuchs die moderne Stadt über einem Monument, von dem niemand wusste, dass es dort lag.\n\nEs ist ein breiter, niedriger Zylinder aus Basalt mit einem Durchmesser von mehr als zwei Metern. Wenn du um ihn herumgehst, siehst du elf fast identische Szenen, getrennt durch einen Balken, der immer dasselbe Motiv wiederholt. In jeder Szene packt ein Herrscher einen besiegten Krieger an den Haaren. Jemanden an den Haaren zu fassen, war die Geste des vollständigen Sieges. Neben jedem Gefangenen steht ein Glyphenzeichen, der Name seines Volkes; einigen Studien zufolge tauchen darunter Völker aus dem Tal von México auf, etwa Chalco oder Xochimilco.\n\nDer Herrscher trägt die Insignien eines Gottes. Ikonografische Studien identifizieren seine Gewandung mit der von Xiuhtecuhtli, dem Feuergott; andere Fachleute deuten ihn als Tezcatlipoca. Es kommt gar nicht so sehr darauf an, welcher von beiden es ist: Der König zeigt sich nicht als gewöhnlicher Mensch, sondern als ein Gott, der seine Feinde unterwirft.\n\nUnd wer ist der König? Einige Forscher glauben, dass es Motecuhzoma Ilhuicamina ist, der fünfte tlatoani, der von 1440 bis 1469 regierte. Wenn das stimmt, ist dieser Stein älter als der Stein des Tízoc, den du gerade gesehen hast. Beide teilen dieselbe Idee: eine Liste von Siegen, die zugleich ein Opfertisch war.\n\nKönntest du einen Blick auf die Oberseite werfen, würdest du eine Sonnenscheibe sehen. In der mittleren Vertiefung befindet sich ein menschliches Gesicht, das der Sonne, und ringsum verlaufen Ränder mit den Symbolen des Opfers: Totenschädel, gekreuzte Knochen, Herzen, Hände und Messer. Man nimmt an, dass der Stein als temalácatl diente, als Plattform für den rituellen Kampf, und als cuauhxicalli, als Gefäß für die Herzen und das Blut, die der Sonne dargebracht wurden.\n\nDiese Riten stehen im Zusammenhang mit Tlacaxipehualiztli, dem Frühlingsfest, das [Xipe Tótec](mna_s04_xipe_totec) gewidmet war, dem Gott der Haut, den du im Saal von Teotihuacán gesehen hast. Auf Nahuatl bedeutet der Name des Festes so etwas wie «das Häuten von Menschen». Es ist ein hartes Wort, und man sollte es in seinem Zusammenhang verstehen: Für die Mexica war dieses Fest Teil der Erneuerung der Erde.\n\nEs gibt einen kuriosen Zufall. Der [Stein des Tízoc](mna_s06_tizoc) tauchte 1791 bei Bauarbeiten an der Plaza Mayor auf; der Stein des Erzbischofspalasts 1988, ebenfalls bei Bauarbeiten, nur wenige Straßen entfernt. Fast zweihundert Jahre liegen zwischen den beiden Funden, und in beiden Fällen stolperte die moderne Stadt beim Graben über die Vergangenheit.\n\nWenn du dich entfernst, denke daran: Unter den Straßen, auf denen du gehst, warten noch weitere Stücke. Die Stadt sucht sie auch heute noch."
+    },
+    "retos_observacion": {
+      "hash": "9b03c3251789471f",
+      "texto": [
+        "Zähle die Eroberungsszenen, die den Zylinder umgeben",
+        "Suche den Herrscher, der einen Krieger an den Haaren packt",
+        "Sieh dir die Ränder an: Dort gibt es Totenschädel, Herzen, Hände und Messer"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9db9be30d0a4084e",
+      "texto": {
+        "Kultur": "Mexica",
+        "Epoche": "Späte Postklassik (um 1440-1469 n. Chr., Herrschaft von Motecuhzoma Ilhuicamina)",
+        "Material": "Basalt, in Hochrelief gearbeitet (11 Eroberungsszenen)",
+        "Herkunft": "Ehemaliger Erzbischofspalast, Calle de Moneda 4, Historisches Zentrum, Mexiko-Stadt (1988 gefunden)",
+        "Maße": "72 cm Höhe x 224 cm Durchmesser"
+      }
+    },
+    "faq_mito": {
+      "hash": "463f7db54f9b057c",
+      "texto": {
+        "pregunta": "Mythos: Der Stein des ehemaligen Erzbischofspalasts ist ein weiterer aztekischer Kalender, wie der Sonnenstein.",
+        "respuesta": "Realität: Er ist kein Kalender. Er ist ein Eroberungsmonument: Seine elf Szenen zeigen Siege eines Herrschers der Mexica."
+      }
+    }
+  }
+}

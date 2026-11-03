@@ -1,0 +1,54 @@
+{
+  "id": "mna_s11_craneo_candelaria",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dd30a42ac1b7f28d",
+      "texto": "Schädel mit Kopfschmuck aus der Cueva de la Candelaria"
+    },
+    "frase_gancho": {
+      "hash": "aaa3d13c2c9e719f",
+      "texto": "Ein tausend Jahre alter Schädel, der seinen Kopfschmuck aus roten Schnüren noch immer bewahrt."
+    },
+    "puente_narrativo": {
+      "hash": "d7288c7788d8e1f6",
+      "texto": "Von den Höhlen der Wüste gelangen wir zu einem Bauernvolk an der Grenze. Such nach einem kleinen, zylindrischen Gefäß, verziert mit Bändern in leuchtenden Farben: Rot, Gelb und Türkisblau."
+    },
+    "guion_corto": {
+      "hash": "a8c25e5161e10814",
+      "texto": "Dieser Schädel gehörte einem erwachsenen Mann im Alter zwischen sechsunddreißig und fünfundfünfzig Jahren, der um das Jahr tausend unserer Zeitrechnung lebte. Er stammt aus der Cueva de la Candelaria im Südwesten von Coahuila, derselben Fundstätte wie das Totenbündel. Er hat eine langgestreckte Form, die Fachleute dolichozephal nennen. Noch immer trägt er seinen Kopfschmuck mit rot gefärbten Schnüren, die seinen Rang oder seine Autorität angezeigt haben könnten. Zwischen dem Haar und den Fasern fanden sich Reste von Fliegen und ihre Eier, ein Zeichen dafür, dass der Körper vor der Bestattung bei einer Zeremonie aufgebahrt war. Und seine Zähne, abgenutzt vom Kauen harter Samen, erzählen, dass er als Kind Hunger litt."
+    },
+    "guion_largo": {
+      "hash": "16b8e3073c6632a4",
+      "texto": "Manchmal erzählt ein Objekt seine Geschichte in ganz kleinen Details, und dieser Schädel gehört dazu. Die Wissenschaftler, die ihn untersucht haben, lasen in ihm wie in einem Buch: das Alter, die Nahrung, die Rituale, sogar die Insekten, die den Körper besuchten.\n\nBeginnen wir mit dem Ort. Die Cueva de la Candelaria liegt im Südwesten von Coahuila, in der Wüste, in einer Region, die als Aridoamerika bekannt ist. Es ist eine Höhle aus Kalkstein, in die man durch einen senkrechten Schacht von etwa neun Metern Tiefe gelangte, der zu mehreren Kammern mit Hunderten von Objekten führte. Sie war seit 1838 bekannt, doch die große Erforschung fand 1953 und 1954 statt. Damals wurden die Überreste von hundertsiebzehn Menschen geborgen, Männern, Frauen und Kindern, die über Generationen hinweg geordnet niedergelegt worden waren.\n\nDas Totenbündel hast du bereits kennengelernt: einer dieser Menschen, durch die Trockenheit teilweise mumifiziert, zusammengekauert und in gewebte Decken gehüllt. Zusammen mit den Überresten kamen Ketten aus Muscheln und Samen, Ohrschmuck, verzierte Textilien, Geschossspitzen mit ihrem Schaft und sogar eine Netztasche zum Vorschein. Dieser Schädel stammt aus demselben Friedhof.\n\nEr gehörte einem Mann zwischen sechsunddreißig und fünfundfünfzig Jahren, der nach der Radiokarbondatierung um das Jahr tausend lebte. Diese Methode misst, wie viel radioaktiver Kohlenstoff in einem Knochen oder einer Faser verbleibt; da dieser Kohlenstoff in bekanntem Tempo abnimmt, lässt sich berechnen, wie lange der Tod der Person zurückliegt. Sein Schädel ist lang und schmal. Auf dem Haar sind noch immer einige rot gefärbte Schnüre erhalten, die seinen Kopfschmuck bildeten. Man hat vermutet, dass die Farbe und die Anordnung seine gesellschaftliche Stellung anzeigten, vielleicht ein Anführer oder eine angesehene Persönlichkeit.\n\nJetzt kommen die Details der Wissenschaftler. Im Haar und in den Fasern fanden sich Reste von Fliegen und ihre Eier. Das bedeutet, dass der Körper nicht sofort begraben wurde: Er war während eines Totenrituals an der Luft aufgebahrt, bevor man ihn einhüllte und in die Höhle brachte. Ein winziges Detail enthüllte eine ganze Zeremonie.\n\nDie Zähne verraten noch mehr. Einige zeigen Spuren von Schmelzhypoplasie, Linien, die entstehen, wenn ein Kind mit Hunger oder Krankheit aufwächst. Das legt nahe, dass er in der Kindheit Zeiten des Mangels durchlebte, vielleicht saisonal bedingt, wie es in der Wüste üblich ist. Und die Abnutzung der Backenzähne zeigt, dass er harte Nahrung aß, etwa Samen. Es ist das Leben eines Jägers und Sammlers, geschrieben in seinen Mund.\n\nDie Höhle wurde über Jahrhunderte genutzt, vom Jahr neunhundert bis etwa sechzehnhundert, und ihre Geschichte ist noch nicht zu Ende. Im Jahr 2025 barg das INAH die Überreste von mindestens siebzehn Menschen in einer anderen Höhle derselben Region in Coahuila, die geplündert worden war. Deshalb werden Höhlen geschützt: Wenn jemand einen Knochen oder ein Gewebe mitnimmt, geht genau diese so kleine und zugleich so große Information verloren.\n\nSieh dir den Kopfschmuck noch einmal an. Wer ihn an jenem Tag aufsetzte, wusste, dass der Mann ihn behalten würde. Tausend Jahre später ist er noch da und erzählt uns weiter, wie jemand lebte, der keine Schrift hinterließ."
+    },
+    "retos_observacion": {
+      "hash": "bb8ed52d7bbc4381",
+      "texto": [
+        "Such die rot gefärbten Schnüre des Kopfschmucks",
+        "Achte auf die langgestreckte Form des Schädels",
+        "Betrachte die Zähne: Welche Abnutzungsspuren siehst du?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "abe52a6265106c73",
+      "texto": {
+        "Kultur": "Jäger und Sammler des Nordens (Aridoamerika)",
+        "Epoche": "Um das Jahr 1000 n. Chr. (die Höhle wurde zwischen 900 und 1600 n. Chr. genutzt)",
+        "Material": "Knochenreste und gefärbte Pflanzenfasern",
+        "Herkunft": "Cueva de la Candelaria, Südwesten von Coahuila"
+      }
+    },
+    "faq_mito": {
+      "hash": "c8aab6b0a619f595",
+      "texto": {
+        "pregunta": "Mythos: Diese Höhlen bargen nur Knochen ohne Geschichte.",
+        "respuesta": "Realität: Fachleute lesen in ihnen das Alter, die Ernährung, die Krankheiten und sogar die Totenrituale jedes einzelnen Menschen."
+      }
+    }
+  }
+}

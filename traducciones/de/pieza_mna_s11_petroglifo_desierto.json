@@ -1,0 +1,58 @@
+{
+  "id": "mna_s11_petroglifo_desierto",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Coahuila\" para \"Coahuila\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "d75191878d531d35",
+      "texto": "Petroglyphe und zeremonieller Schaber von Jägern und Sammlern"
+    },
+    "frase_gancho": {
+      "hash": "92ad8d93a2d33580",
+      "texto": "Ein Stein aus der Wüste, in den jemand Spiralen und Hirschspuren geritzt hat."
+    },
+    "puente_narrativo": {
+      "hash": "01df5397aec68e34",
+      "texto": "Dieselben Völker, die den Fels bearbeiteten, bestatteten ihre Toten in sehr trockenen Höhlen. Halte Ausschau nach einem fast einen Meter hohen Bündel, eingehüllt in gewebte Decken und mit Schnüren verschnürt."
+    },
+    "guion_corto": {
+      "hash": "5fdc131d91f72ed8",
+      "texto": "Diese Steinplatte, etwa fünfundvierzig Zentimeter hoch, stammt aus dem Norden Mexikos und trägt Gravuren von Jägern und Sammlern der Wüste. Man sieht Spiralen, Wellenlinien und Hirschspuren. Sie entstanden, indem man mit einem härteren Stein auf den Fels schlug, bis die dunkle Schicht an der Oberfläche abgetragen war und die helle Farbe darunter sichtbar wurde. Daneben liegt ein Schaber aus Feuerstein, ein Werkzeug, um Felle zu reinigen und Holz und Knochen zu bearbeiten. Niemand weiß sicher, was die Zeichnungen bedeuten; man vermutet, dass sie Wege, Wasserquellen oder heilige Orte markiert haben könnten. Die Völker, die sie schufen, errichteten keine Städte, aber sie kannten die Wüste Handbreit für Handbreit."
+    },
+    "guion_largo": {
+      "hash": "3a201d0c624104cb",
+      "texto": "Bis hierher hast du Pyramiden, Paläste und Gräber gesehen. Aber auch in Mexiko gab es Völker ohne Städte. Über Jahrtausende lebten in den Wüsten des Nordens kleine Gruppen, die mit den Jahreszeiten zogen: In einer Zeit gingen sie dorthin, wo die Kaktusfeigen reiften, in einer anderen zu den Mesquitebäumen, in wieder einer anderen zu den Quellen und zu den Jagdgründen. Sie säten kaum. Ihr Zuhause war das gesamte Land.\n\nDie Mexica nannten die Völker des Nordens Chichimeken, manchmal verächtlich, als wären es Menschen ohne Kultur. Und doch stammten die Mexica nach ihren eigenen Überlieferungen von dort: aus Aztlán im Norden und aus Chicomóztoc, dem „Ort der sieben Höhlen“. Das ist ein merkwürdiger Widerspruch: Sie verachteten diejenigen, von denen sie selbst abzustammen glaubten.\n\nUm in der Wüste zu leben, muss man unglaublich viel wissen: welche Pflanze man isst und welche heilt, wie lange das Wasser in einer Schlucht reicht, wo die Hirsche entlangziehen. Dieses Wissen wurde nicht aufgeschrieben, sondern im Gehen weitergegeben. Stell dir vor, all das ohne Bücher zu lernen: Jeder Großvater war eine Bibliothek. Vielleicht war deshalb jede Gravur so wichtig: Sie war einer der wenigen Orte, an dem etwas von diesem Wissen bleiben konnte.\n\nWas bedeuten die Zeichnungen? Es wurden verschiedene Deutungen vorgeschlagen: Karten von Wegen und Quellen, Markierungen für den Wechsel der Jahreszeiten, Zeichen für das Territorium, Spuren von Zeremonien. Spiralen und Wellenlinien wiederholen sich in der Felskunst auf der halben Welt, und in Mexiko erscheinen sie von den Bergen Coahuilas bis zu denen im Nordwesten. Die Hirschspuren erzählen von der Jagd, aber auch von einem Tier, das für manche Völker des Nordens heilig war. Du wirst es im Obergeschoss wiedersehen, wenn wir zu den Wixárika kommen, auch Huicholen genannt.\n\nDer Schaber aus Feuerstein erinnert dich an eine erstaunliche Kontinuität. Feuerstein bricht in Klingen mit sehr scharfen Kanten, und mit dieser Schneide entfernte man das Fett von einem Hirschfell, um es geschmeidig zu machen. Die ersten Bewohner Amerikas, die aus dem Saal der Besiedlung, bearbeiteten den Stein auf ähnliche Weise. Im Norden dauerte diese Lebensweise Jahrtausende, bis zur Ankunft der Spanier.\n\nUnd es war eine Lebensweise, die sich nur sehr schwer erobern ließ. Als die Spanier Mitte des sechzehnten Jahrhunderts in Zacatecas Silber fanden, verteidigten die nomadischen Völker des Nordens ihr Gebiet etwa vierzig Jahre lang, im sogenannten Chichimekenkrieg. Es war einer der längsten Widerstände gegen die Eroberung, zum Teil, weil es weder einen König noch eine Hauptstadt gab, die man einnehmen konnte. Um ein solches Volk zu besiegen, muss man jede einzelne Familie besiegen.\n\nDas ist die Lehre dieser Platte. Ohne Städte, ohne Metalle und ohne Pyramiden verstanden diese Völker eine Landschaft zu lesen, die anderen leer erschien. Und jemand nahm sich die Mühe, stundenlang auf den Stein zu schlagen, um etwas darin zu hinterlassen, das ihn überdauern würde. Was würdest du in einen Fels ritzen, wenn du wüsstest, dass jemand es in tausend Jahren betrachten wird?"
+    },
+    "retos_observacion": {
+      "hash": "4c05e30bba0292a4",
+      "texto": [
+        "Such die Spiralen und die Wellenlinien",
+        "Finde die Hirschspuren",
+        "Sieh dir die Schneide des Feuersteinschabers an"
+      ]
+    },
+    "especificaciones": {
+      "hash": "116883fc2deb1167",
+      "texto": {
+        "Kultur": "Aridoamerika / Tradition der Wüstenkulturen (Gran Chichimeca)",
+        "Epoche": "Lithische Stufe bis Postklassik (8000 v. Chr.-1500 n. Chr.)",
+        "Material": "Vulkangestein (Basalt); Feuerstein und Flint, durch Schlag und Retusche bearbeitet",
+        "Herkunft": "Wüsten und Gebirge im Norden Mexikos (Coahuila, Durango, Chihuahua, Sonora und Baja California)"
+      }
+    },
+    "faq_mito": {
+      "hash": "533d401806162a0a",
+      "texto": {
+        "pregunta": "Mythos: Die Wüstenvölker waren einfache Nomaden ohne Wissen und ohne Kultur.",
+        "respuesta": "Realität: Sie kannten die Wüste wie niemand sonst: welche Pflanzen man essen kann, wo es Wasser gab und wo das Wild entlangzog. Sie hinterließen Gravuren im Stein und leisteten den Spaniern etwa vierzig Jahre lang Widerstand."
+      }
+    }
+  }
+}

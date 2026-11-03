@@ -1,0 +1,62 @@
+{
+  "id": "mna_s02_puntas_clovis",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Pleistozän\" para \"Pleistoceno\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Lithische Stufe\" para \"Etapa Lítica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "7eeb62f7380079ec",
+      "texto": "Gekehlte Projektilspitzen vom Typ Clovis und Lerma"
+    },
+    "frase_gancho": {
+      "hash": "c18d415a68bcf643",
+      "texto": "Eine Schneide aus Stein, die veränderte, wie man Riesen jagte."
+    },
+    "puente_narrativo": {
+      "hash": "e863c8aeacce430f",
+      "texto": "Wir verlassen die nomadischen Jäger und kommen zum ersten Dorf. Geh weiter in den Saal der Präklassik, wo Ton den Stein ersetzt und Häuser, Figurinen und Feste auftauchen."
+    },
+    "guion_corto": {
+      "hash": "4a42c514cbb39616",
+      "texto": "Diese Steinspitzen wirken klein, doch mit ihnen jagte man die Riesen des Pleistozäns. Die berühmtesten sind die Clovis-Spitzen, mit einer Rille an der Basis, der Kannelierung, in die der hölzerne Schaft eingepasst wurde. Die Folsom-Spitzen sind kleiner und haben eine längere Rille; und die Lerma-Spitzen haben die Form eines Blattes. Sie alle wurden hergestellt, indem man den Stein mit Geduld und viel Wissen schlug und drückte: Jede Spitze ist das Werk mehrerer Stunden, und ein Fehler am Ende kann alles zunichtemachen. Dass man sie auf dem ganzen Kontinent findet, zeigt etwas Wichtiges: Die ersten Amerikaner teilten Techniken und legten enorme Entfernungen zurück, von Kanada bis in den Süden Mexikos."
+    },
+    "guion_largo": {
+      "hash": "708940b9851badff",
+      "texto": "Wenn du schon einmal versucht hast, einen Stein zu spalten, um eine scharfe Kante zu gewinnen, weißt du, dass das nicht leicht ist. Stell dir nun vor, du willst damit eine symmetrische, dünne und auf beiden Seiten geschärfte Spitze herstellen. Das ist das Können, das hinter diesen Stücken steckt. Der Vorgang begann mit einem Block aus Feuerstein, Silex oder Obsidian. Zuerst wurden mit Schlägen eines anderen Steins große Abschläge entfernt. Danach drückte man mit einem Knochen oder einem Hirschgeweih auf den Rand, um dünne Abschläge nacheinander abzulösen, bis die Spitze ihre endgültige Form hatte. Es war Arbeit für Hände und Kopf: Ein Fehler am Ende konnte stundenlange Mühe zunichtemachen.\n\nDer schwierigste Teil einer Clovis-Spitze ist genau ihr charakteristischstes Merkmal: die Kannelierung. Mit einem gezielten Schlag von der Basis aus löste man einen langen Abschlag entlang des Stücks, sodass eine Art Rinne entstand. Viele Menschen fragen sich, wozu das gut war. Die Antwort ist praktisch: Die Rinne machte die Basis dünner und erlaubte es, die Spitze gut am Ende eines Schafts zu befestigen, festgebunden mit Sehnen und Harz. Viele Spitzen zerbrachen bei diesem letzten Schlag, und wer ihn schaffte, war ohne Zweifel ein sehr geschickter Spezialist.\n\nDie Folsom-Spitzen, kleiner und mit einer Rille, die fast die ganze Fläche einnimmt, werden mit der Jagd auf den Urzeitbison in Verbindung gebracht, ein wendigeres Tier. Und die Lerma-Spitzen mit ihrer Blattform stammen aus etwas späteren Zeiten. Mit der Zeit änderte sich die Größe der Beute, und auch die Spitze änderte sich.\n\nDiese Spitzen steckten in Lanzen oder in Wurfspeeren, die man mit einer Speerschleuder abschleuderte, auch atlatl genannt, einem Hebel, der dem Arm viel mehr Kraft verlieh. Bogen und Pfeil gab es in diesen Ländern noch nicht; sie kamen erst Tausende von Jahren später. Deshalb war die Denkweise bei der Jagd eine andere: Man musste sich sehr nah heranwagen, und die Arbeit in der Gruppe war lebenswichtig.\n\nDie Namen haben ihre Geschichte. Clovis stammt von einem Ort in New Mexico, wo 1932 die ersten Spitzen auftauchten. Folsom stammt von einem anderen Ort, ebenfalls in New Mexico, wo ein Cowboy namens George McJunkin, der in Texas in die Sklaverei geboren worden war, 1908 riesige Knochen bemerkte. Mit der Zeit bewies sein Fund, dass Menschen ausgestorbene Bisons gejagt hatten. Ein Mann ohne wissenschaftlichen Titel veränderte, ohne es zu wissen, die Geschichte der amerikanischen Archäologie.\n\nDer Stein selbst reist ebenfalls mit uns. Obsidian, dieses schwarze vulkanische Glas, wurde schon für diese Spitzen verwendet, und Jahrhunderte später sollte er zum Rohstoff für die Klingen von Teotihuacán werden, für die Waffen der Mexica und sogar für ein Gefäß in Form eines Affen, das du im Saal Mexica sehen wirst. Dasselbe Gestein, das zur Jagd auf Mammuts diente, wurde am Ende zu Schmuck.\n\nUnd hier schließt sich die Geschichte dieses Saals. Als das Klima wärmer wurde und die großen Tiere verschwanden, waren diese Spitzen nicht mehr das wichtigste Werkzeug. Die Gruppen lernten, von Samen zu leben, zu beobachten, wie sie wuchsen, und sie aufzubewahren. Nach und nach entstand eine neue Lebensweise, mit einer Erfindung, die mächtiger war als jede Spitze: das Säen."
+    },
+    "retos_observacion": {
+      "hash": "122a0d0d999d3fa1",
+      "texto": [
+        "Suche die Rille an der Basis, in die der hölzerne Schaft eingepasst wurde",
+        "Vergleiche die Größe der Spitzen: Welche ist die kleinste, und welche hat die Form eines Blattes?",
+        "Achte auf die kleinen Nachbearbeitungen, die den Rand wie eine Säge aussehen lassen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "058114406ca37131",
+      "texto": {
+        "Kultur": "Vorackerbauliche Jäger und Sammler der Lithischen Stufe",
+        "Epoche": "Unteres Cenolithikum (9500-7000 v. Chr.)",
+        "Material": "Feuerstein, Silex und Obsidian, durch Schlag und Druck abgeschlagen",
+        "Herkunft": "Norden Mexikos, Durango und Becken von México (Santa Isabel Iztapan)",
+        "Maße": "Clovis-Spitze: 8,2 × 2,0 × 1,0 cm; Lerma-Spitzen: 4,5 bis 7,0 cm Länge"
+      }
+    },
+    "faq_mito": {
+      "hash": "36dd448a500b64f0",
+      "texto": {
+        "pregunta": "Mythos: Die Clovis-Spitzen waren Pfeilspitzen, die mit einem Bogen abgeschossen wurden.",
+        "respuesta": "Realität: Es waren Lanzen- oder Wurfspeerspitzen, die mit Speerschleudern geschleudert wurden; Bogen und Pfeil kamen erst Tausende von Jahren später in diese Länder."
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "mna_s14_mascara_viejitos",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Alter Feuergott\" para \"Dios Viejo del Fuego\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "1905c71b80a3be35",
+      "texto": "Maske des Tanzes der Viejitos (Alte Männlein)"
+    },
+    "frase_gancho": {
+      "hash": "8a939a21223f797a",
+      "texto": "Ein lächelnder Greis, der mit der Energie eines Jungen tanzt."
+    },
+    "puente_narrativo": {
+      "hash": "2989924aa7c9fa1b",
+      "texto": "Wir gehen vom Fest zur Arbeit mit Feuer über. Such nach großen Gefäßen aus rötlichem Kupfer, deren Oberfläche mit kleinen runden Markierungen bedeckt ist, als wären sie gepunktet."
+    },
+    "guion_corto": {
+      "hash": "29c63f371a46f720",
+      "texto": "Diese Maske aus Holz, rosa bemalt, stellt einen lächelnden alten Mann dar. Sie hat glühende Wangen, tiefe Falten, nur wenige Zähne und ein weißes Haar aus Ixtle-Faser. Sie stammt aus der Region des Pátzcuaro-Sees und gehört zum Tanz der Viejitos, einem der bekanntesten Tänze Mexikos. Getanzt wird er von jungen Männern, die als Greise verkleidet sind und sich auf Stöcke stützen. Zuerst gehen sie gebückt und unbeholfen, als fiele ihnen jeder Schritt schwer, und plötzlich überraschen sie das Publikum mit schnellem, kraftvollem Stampfen. Der Tanz spielt mit dem Lachen, dem Respekt vor den Älteren und der Energie, die auch mit den Jahren lebendig bleibt."
+    },
+    "guion_largo": {
+      "hash": "4d02b53d8457ae29",
+      "texto": "Eine Maske kann Angst machen, wie die des Cora-Juden, oder sie kann zum Lachen bringen. Diese hier bringt zum Lachen. Sie stellt einen alten Mann mit geröteten Wangen dar, mit fast zahnlosem Mund, tiefen Falten und einem weißen Haar aus Ixtle-Faser. Es sieht aus, als hätte er gerade einen Witz erzählt. Und mit ihr beginnt einer der berühmtesten Tänze Mexikos.\n\nDie Viejitos werden vor allem in der Region des Pátzcuaro-Sees getanzt, in Orten wie auf der Insel Jarácuaro. Die Tänzer, junge Männer, verkleiden sich als Greise: Maske, Strohhut mit bunten Bändern, die auf die Schultern fallen, und Stock. Der Stock hilft, Müdigkeit vorzutäuschen, auch wenn er später dazu dient, den Rhythmus auf dem Boden zu schlagen. Sie beginnen gebückt, mit schüchternen Schritten, als täte ihnen alles weh. Und plötzlich, ohne Vorwarnung, richten sie sich auf und stampfen mit einer Energie, die nicht die eines Alten ist. Das Publikum bricht in Gelächter und Applaus aus. Die Überraschung ist das Herz des Tanzes.\n\nWarum über das Alter lachen? Es gibt mehrere Deutungen. Eine besagt, dass es eine Hommage ist: Die Alten sind die Weisesten, und man begegnet ihnen mit Humor, weil man sie liebt. Eine andere, dass sie die Vorstellung ausdrückt, dass das Leben mit den Jahren nicht endet. Manche bringen den Tanz sogar mit der alten Verehrung eines alten Feuergottes in Verbindung, wie dem [Huehuetéotl](mna_s04_huehueteotl), den du in Teotihuacán gesehen hast, auch wenn dieser Zusammenhang umstritten ist. Sicher ist jedenfalls, dass der Tanz gefällt.\n\nSieh dir die Maske genau an. Sie ist aus leichtem Holz geschnitzt, meist aus Avocadoholz, und in rosigen Tönen bemalt. Das Haar aus Ixtle ist dieselbe Agavenfaser, aus der die Bündel von Candelaria gewebt wurden und aus der man Säcke und Seile macht. Die Materialien des Festes sind die des Alltags.\n\nMusik begleitet den Tanz. Es ist Saitenmusik, mit Gitarren und Geigen, in Rhythmen, die zum Tanzen einladen. Viele Purépecha-Dörfer haben außerdem die Pirekua, einen traditionellen Gesang in ihrer Sprache, den die UNESCO im Jahr zweitausendzehn als immaterielles Kulturerbe der Menschheit anerkannt hat. Diese Musik und dieser Tanz sind Teil dessen, was diese Region so unverwechselbar macht.\n\nDie Region des Pátzcuaro-Sees ist auch für ein anderes Fest berühmt: die Nacht der Toten, in der die Familien auf den Friedhöfen wachen, mit Kerzen und Blumen, und die Insel Janitzio sich mit Licht füllt. Im Saal der Huasteken und Totonaken wirst du einen [Totenaltar](mna_s18_altar_xantolo) sehen und verstehen, wie diese Opfergabe vorbereitet wird.\n\nDer Tanz der Viejitos wurde im Laufe des zwanzigsten Jahrhunderts im ganzen Land berühmt und wird heute auf Bühnen, bei Wettbewerben und auf Festen getanzt. Aber vor allem bleibt er etwas, das zu seiner Gemeinschaft gehört. Wer die Maske aufsetzt, wird für eine Weile ein anderer. Und der alte Mann, der tanzt, ist in Wirklichkeit ein junger Bursche, der sein Dorf zum Lachen bringen will. Vielleicht ist genau diese Mischung das Beste an dem Tanz: ein liebevoller Spott über das Alter und eine Erinnerung daran, dass die Kraft nicht ganz verschwindet."
+    },
+    "retos_observacion": {
+      "hash": "14300d4c0b6fed83",
+      "texto": [
+        "Achte auf die rosigen Wangen, das Lächeln und die Falten",
+        "Berühre mit den Augen das weiße Haar aus Ixtle-Faser",
+        "Such die Augenöffnungen: Wie sieht der Tänzer?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e535b3f1e8cf35f1",
+      "texto": {
+        "Indigenes Volk": "Purépecha (P'urhépecha)",
+        "Region": "Ufer und Inseln des Pátzcuaro-Sees (Jarácuaro, Michoacán)",
+        "Technik/Material": "Geschnitztes Avocado-/Eschenholz, Emailfarbe, Ixtle und Wachs",
+        "Funktion": "Rituelle Maskierungsausstattung für den Tanz beim Patronatsfest"
+      }
+    },
+    "faq_mito": {
+      "hash": "52afa2ff75143449",
+      "texto": {
+        "pregunta": "Mythos: Den Tanz der Viejitos tanzen echte alte Menschen.",
+        "respuesta": "Realität: Ihn tanzen junge Männer, die als Greise verkleidet sind. Der Reiz liegt in der Überraschung: Sie beginnen gebückt und stampfen plötzlich kraftvoll."
+      }
+    }
+  }
+}

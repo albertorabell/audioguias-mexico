@@ -1,0 +1,59 @@
+{
+  "id": "mna_s06_maqueta_tlatelolco",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Späte Postklassik\" para \"Posclásico Tardío\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "c0d3bb7b94cf5c69",
+      "texto": "Modell und Wandbild des Marktes von Tlatelolco"
+    },
+    "frase_gancho": {
+      "hash": "d20efd8086600cb3",
+      "texto": "Hunderte Figuren an einem Markttag, bevor die Spanier kamen."
+    },
+    "puente_narrativo": {
+      "hash": "0e570058ee5d39fd",
+      "texto": "Auf diesem Markt wurden Quetzalfedern verkauft, die mehr wert waren als Gold. Such jetzt einen gewaltigen Kopfschmuck, der aus ihnen gefertigt wurde. Zu seiner Geschichte gehören eine Reise nach Europa und ein Streit, der seit Jahrhunderten andauert."
+    },
+    "guion_corto": {
+      "hash": "6ec6354ae53b2bd8",
+      "texto": "In Tlatelolco ist Markttag, und der Platz ist voller Menschen. Was du siehst, ist ein modernes Modell mit Hunderten von Tonfiguren: Adlige, Bauern, Handwerker, Jäger und Fernhändler. Es gibt Stände mit Essen, Keramik, Schmuck und Werkzeugen sowie mit lebenden Tieren. Tlatelolco war die Zwillingsstadt von Tenochtitlan, und sein Markt versetzte die Spanier in Staunen. Münzen wie die heutigen gab es dort nicht: Man kaufte im Tauschhandel, aber auch mit Kakaobohnen, mit Baumwolldecken und mit Federkielen, die mit Goldstaub gefüllt waren. Das Modell ist eine museale Rekonstruktion der Späten Postklassik, angefertigt nach dem, was die Chronisten des sechzehnten Jahrhunderts berichteten."
+    },
+    "guion_largo": {
+      "hash": "82cae8c1b3ae46c5",
+      "texto": "Schließ einen Moment die Augen und stell dir den Lärm vor: Stimmen, die Waren anpreisen, das Feilschen, das Knistern der Binsenmatten, das Gemurmel von Tausenden von Menschen. Diesen Platz gab es wirklich. Er lag in Tlatelolco, der Zwillingsstadt von Tenochtitlan, und war einer der größten Märkte, die die Spanier bei ihrer Ankunft zu Gesicht bekamen.\n\nWas du vor dir hast, ist kein antikes Stück, sondern eine moderne Rekonstruktion. Sie besteht aus Hunderten von Figuren, die von Hand modelliert wurden, und stützt sich auf das, was die Zeugen des sechzehnten Jahrhunderts berichteten. Hernán Cortés beschrieb den Platz in seinen Briefen und sprach von Zehntausenden von Menschen. Bernal Díaz del Castillo, einer seiner Soldaten, erzählt, dass einige Gefährten in Konstantinopel und in Rom gewesen waren und dass keiner von ihnen je einen so großen, so geordneten und so belebten Platz gesehen hatte. Der Franziskaner Bernardino de Sahagún wiederum hielt die Stimme der Mexica selbst fest, die ihm die Verkäufer jedes Produkts beschrieben und wie sie ihre Ware ausriefen. So stützt sich das Modell nicht allein auf fremde Blicke.\n\nUnd tatsächlich herrschte hier keine Unordnung. Der Markt war in Bereiche gegliedert, und jedes Produkt hatte seinen Platz: Stoffe und Decken, Keramik, Heilkräuter, Kakao, Felle, Schmuck, Federn und lebende Tiere. Laut Cortés gab es sogar ein Haus, in dem Richter die Streitigkeiten zwischen Käufern und Verkäufern beilegten. Ein großer Markt braucht Regeln, und dieser hatte sie.\n\nAchte darauf, wie bezahlt wurde. Münzen wie die heutigen gab es nicht. Man tauschte, und als Geld dienten auch Kakaobohnen, Baumwolldecken und kleine Federkiele, die mit Goldstaub gefüllt waren. Stell dir vor, du würdest dein Essen mit Kakaobohnen bezahlen: Dieselbe Bohne, aus der das Getränk der Adligen zubereitet wurde, diente dazu, die Tamales zu bezahlen.\n\nZwischen den Ständen mischen sich die Pochtecas, die Fernhändler. Sie brachen von Tlatelolco auf und trugen ihre Waren wochenlang, durchquerten ferne Länder und kehrten mit Luxusgütern zurück: Türkisen, Gold, Kakao, Jaguarfellen und Quetzalfedern. Man nimmt an, dass sie manchmal auch als Augen des Reiches dienten: Sie reisten, beobachteten und berichteten, was es an jedem Ort gab.\n\nTlatelolco hatte seine eigene Geschichte. Es wurde gegründet, als sich eine Gruppe von Mexica von Tenochtitlan trennte, und über Jahrzehnte hatte es einen eigenen Herrscher. Im Jahr 1473 verlor es seine Unabhängigkeit an die Schwesterstadt, bewahrte aber das Wertvollste: seinen Markt, der weiterhin das Zentrum des Handels blieb.\n\nEben dieser Platz wurde zum Schauplatz des Endes. Am 13. August 1521 fiel in Tlatelolco der letzte Widerstand der Mexica gegen die Spanier und ihre Verbündeten. Ein Ort des Austauschs und des Überflusses war zugleich der letzte Ort einer Stadt, die sich verteidigte.\n\nBevor du weitergehst, such dir eine Szene aus und gib ihr einen Namen. Wer kauft? Wer verkauft? Was hält diese Frau in der Hand? Dieses Museum besteht aus Stein, aber auch aus Menschen, die feilschten, die sich grüßten und die mit vollem Korb nach Hause zurückkehrten."
+    },
+    "retos_observacion": {
+      "hash": "94734307c90e9a26",
+      "texto": [
+        "Such zwischen den Figuren die Stände mit Essen und Keramik",
+        "Finde die Stände mit lebenden Tieren, mit Schmuck und mit Werkzeugen",
+        "Sieh dir das Wandbild im Hintergrund an: Vervollständige die Szene des Platzes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b854d87dd4c2262b",
+      "texto": {
+        "Kultur": "Mexica-Tlatelolca (museale Rekonstruktion)",
+        "Epoche": "Stellt die Späte Postklassik dar; modernes Modell",
+        "Material": "Von Hand modellierte Figuren; Wandbild im Hintergrund",
+        "Herkunft": "Rekonstruktion des Marktes von Tlatelolco, der Zwillingsstadt von México-Tenochtitlan",
+        "Maße": "Modell im Maßstab"
+      }
+    },
+    "faq_mito": {
+      "hash": "1a0bec2f9b9975b5",
+      "texto": {
+        "pregunta": "Mythos: Die Mexica bezahlten auf dem Markt mit Gold- und Silbermünzen.",
+        "respuesta": "Realität: Sie verwendeten keine Münzen. Sie tauschten und nutzten als Geld Kakaobohnen, Baumwolldecken und Federkiele, die mit Goldstaub gefüllt waren."
+      }
+    }
+  }
+}

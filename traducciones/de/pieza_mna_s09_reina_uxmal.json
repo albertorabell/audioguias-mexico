@@ -1,0 +1,55 @@
+{
+  "id": "mna_s09_reina_uxmal",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d7d3866ea3a54a33",
+      "texto": "Königin von Uxmal"
+    },
+    "frase_gancho": {
+      "hash": "c3cef2e86c824f37",
+      "texto": "Das ist keine Königin, sondern ein junger Mann, der aus dem Rachen einer Schlange hervortritt."
+    },
+    "puente_narrativo": {
+      "hash": "b5ad585261322676",
+      "texto": "Nicht weit von Uxmal, in Kabah, war ein Tempel mit steinernen Gesichtern bedeckt. Suche nach einer riesigen Maske mit einer langen Nase, die sich nach oben einrollt."
+    },
+    "guion_corto": {
+      "hash": "c3ba848ae64a8e76",
+      "texto": "Diese Skulptur aus Kalkstein, etwa achtzig Zentimeter hoch, stammt aus Uxmal in Yucatán. Sie heißt „Königin von Uxmal“, doch heute nimmt man an, dass sie keine Frau darstellt: Es ist ein junger Adliger oder Eingeweihter, der aus dem weit geöffneten Rachen einer Schlange hervortritt. Sieh dir sein Gesicht an: gerunzelte Stirn, ovale Augen und nach unten gezogene Lippen, ein strenger Ausdruck. Auf der linken Wange trägt er ein Zeichen in Form einer Schlange mit gebogenem Unterkiefer, vielleicht eine rituelle Narbenzeichnung. Über der Stirn sitzt ein Stirnband aus Perlen. Der Rachen, der ihn umgibt, ist eine Pforte: der Übergang von der Welt der Götter in die der Menschen. Es ist ein Bild der Wiedergeburt und zugleich ein falscher Spitzname, der berühmt wurde."
+    },
+    "guion_largo": {
+      "hash": "8be95e92026a8cc2",
+      "texto": "Wie kommt eine Skulptur zu einem falschen Namen? Diese hier heißt schon seit langer Zeit „Königin von Uxmal“, und sie ist keine Königin. Wer sie zum ersten Mal sah, so fein gearbeitet, mit dem Stirnband über der Stirn, hielt sie wohl für eine Frau. Der Spitzname blieb haften, und hier ist er noch immer. Heute nimmt man an, dass es ein junger Mann ist, ein Adliger oder ein Eingeweihter, und dass nicht sein Geschlecht wichtig ist, sondern das, was er tut: aus dem Rachen einer Schlange hervortreten.\n\nDieses Bild hast du schon einmal gesehen, in anderer Form. Im Saal der Tolteken hat der [Kojotenkrieger](mna_s05_guerrero_coyote) ein menschliches Gesicht, das aus dem Rachen des Tieres hervorkommt. Hier ist es eine Schlange. Für die Maya waren die geöffneten Kiefer der Schlange oder des Erdungeheuers eine Pforte: zwischen der Unterwelt und der Oberfläche, zwischen den Ahnen und den Lebenden. Aus ihnen herauszutreten bedeutete, neu geboren zu werden oder als jemand mit heiliger Macht anerkannt zu werden.\n\nSieh dir nun den Gesichtsausdruck an. Die Stirn ist gerunzelt, die Mundwinkel senken sich, und der Blick ist hart. Da ist kein Lächeln wie bei den kleinen Gesichtern vom Golf. Da ist Ernst, der Ernst eines Menschen, der eine wichtige Zeremonie durchläuft. Und auf der linken Wange erscheint ein kleines Zeichen: der Kopf einer fantastischen Schlange im Profil, mit einem Unterkiefer, der wie ein Haken gebogen ist. Es kann eine Narbenzeichnung sein, eine absichtlich zugefügte Narbe, oder eine Tätowierung; etwas, das wie beim [Jugendlichen von Tamuín](mna_s08_adolescente_huasteco) die Haut in eine beschriebene Seite verwandelt.\n\nDieses Gesicht stammt von einem ganz besonderen Bauwerk. Es wurde in der Pyramide des Wahrsagers in Uxmal gefunden, einer der berühmtesten Pyramiden Mexikos. Sie ist eine eigentümliche Pyramide: Ihre Ecken sind abgerundet, sodass sie wie ein riesiger Tropfen aus Stein aussieht. Und es gibt eine Legende über sie: Man sagt, sie sei in einer einzigen Nacht von einem Zwerg erbaut worden, der aus einem Ei geboren wurde und den König der Stadt herausgefordert hatte. Das ist natürlich nur eine Legende. Die Wirklichkeit ist eine andere: Die Pyramide entstand nicht auf einmal, sondern in mehreren Etappen, eine über der anderen, wie eine Matrjoschka. Diese Skulptur gehörte zu einer der inneren Fassaden, die später verborgen blieben.\n\nDer Stil von Uxmal heißt Puuc. Man erkennt ihn an Fassaden, die wie Mosaike aus Stein wirken, in denen Hunderte präzise zugeschnittene Teile Figuren, Gesichter und Mäander bilden. Es ist eine geometrische, elegante und sehr geordnete Kunst. Gleich wirst du ein weiteres Beispiel sehen, in der [Maske von Kabah](mna_s09_mascaron_chaac).\n\nNoch eine Anekdote zum Namen: Er ist kein Einzelfall. Als Besucher durch die Ruinen der Maya zogen, tauften sie die Gebäude auf Namen, die ihnen gerade einfielen: „Haus des Wahrsagers“, „Palast des Gouverneurs“, „Nonnenviereck“. Keiner dieser Namen stammt von den Maya. Mönche, Reisende und Entdecker vergangener Jahrhunderte gaben sie, und sie blieben. Die wahren Namen gingen fast alle verloren.\n\nWenn du also das nächste Mal an einer Ruine eine Tafel mit einem schönen Namen siehst, frage dich, wie viel von diesem Namen alt ist und wie viel wir selbst hinzugefügt haben."
+    },
+    "retos_observacion": {
+      "hash": "8ca0897a56a4fe0a",
+      "texto": [
+        "Sieh dir das Gesicht an: Welchen Ausdruck hat es?",
+        "Suche das schlangenförmige Zeichen auf der linken Wange",
+        "Betrachte das Stirnband aus Perlen über der Stirn"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a5a50e1668ce346c",
+      "texto": {
+        "Kultur": "Maya",
+        "Epoche": "Späte Klassik (600-900 n. Chr.)",
+        "Material": "Kalkstein",
+        "Herkunft": "Uxmal, Yucatán (Unterbau der Pyramide des Wahrsagers)",
+        "Maße": "80 cm Höhe x 24 cm Breite x 99 cm Dicke"
+      }
+    },
+    "faq_mito": {
+      "hash": "051c6013c91771a4",
+      "texto": {
+        "pregunta": "Mythos: Die „Königin von Uxmal“ ist das Porträt einer Maya-Königin.",
+        "respuesta": "Realität: Der Name ist ein alter Spitzname. Heute nimmt man an, dass die Skulptur einen jungen Adligen darstellt, der aus dem Rachen einer Schlange hervortritt."
+      }
+    }
+  }
+}

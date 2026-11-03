@@ -1,0 +1,29 @@
+{
+  "id": "sala-03-preclasico-altiplano-central",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "nombre_oficial": [
+      "el glosario pide \"Zentrales Hochland\" para \"Altiplano Central\" y no aparece"
+    ],
+    "introduccion_narrativa": [
+      "el glosario pide \"Zentrales Hochland\" para \"Altiplano Central\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "4ee9c3f18d8f0b31",
+      "texto": "Präklassik im Zentralen Hochland"
+    },
+    "frase_gancho": {
+      "hash": "ab0af0fdd68865fb",
+      "texto": "Hier wird aus dem Samenkorn ein Dorf."
+    },
+    "introduccion_narrativa": {
+      "hash": "c2c699d1650eab50",
+      "texto": "Die Zeit der Jäger geht zu Ende, und die Zeit der Dorfgemeinschaften beginnt. Das Samenkorn, mit dem der vorige Saal schloss, ist bereits aufgegangen: Jetzt gibt es Häuser aus Lehm und Stroh, Maisfelder, Hunde, Keramik und Feste. Es sind mehr als zweitausend Jahre, von 2500 vor Christus bis in die ersten Jahrhunderte unserer Zeitrechnung, in denen sich die Dörfer des Zentralen Hochlands zu Städten entwickeln und am Ende zur ersten großen Stadt des Tals werden. Du siehst das Dorf-Gräberfeld von Tlatilco, die fernen Echos der Olmeken und das Modell von Cuicuilco, das ein Vulkan unter sich begraben hat. Zwischen Figurinen von Frauen, Wassertieren und uralten Göttern wird hier der Prolog zu allem geschrieben, was noch kommt."
+    }
+  }
+}

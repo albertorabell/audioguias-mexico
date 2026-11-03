@@ -1,0 +1,61 @@
+{
+  "id": "mna_s00_espejo_caracol",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Der Schirm\" para \"El Paraguas\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Zentraler Innenhof\" para \"Patio Central\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "fdf2b1be432b9130",
+      "texto": "Der Wasserspiegel und die Bronzeschnecke"
+    },
+    "frase_gancho": {
+      "hash": "006aeabf44355693",
+      "texto": "Ein Stück des antiken Sees mitten im Innenhof."
+    },
+    "puente_narrativo": {
+      "hash": "518a990d8c038f5a",
+      "texto": "Mit dem Wasser im Rücken ist es Zeit, den Rundgang der Reihe nach zu beginnen. Geh zu Saal 1: Vor den Göttern und den Städten steht eine größere Frage: Wer sind wir, und woher kommen wir?"
+    },
+    "guion_corto": {
+      "hash": "713922e6085caa0f",
+      "texto": "Vor dem Eingang zum Saal Mexica verwandelt sich der Innenhof in einen Teich. Es ist ein Wasserspiegel mit Wasserpflanzen, eine kleine Erinnerung an den Texcoco-See, das Wasser, auf dem Tenochtitlan erbaut wurde, die Stadt, die du gleich kennenlernen wirst. In der Mitte steht eine Bronzeskulptur in Form einer Meeresschnecke mit dem Titel „Sonne des Windes“, ein Werk von Íker Larrauri. Für die alten Mexikaner war die aufgeschnittene Schnecke das Emblem von Ehécatl, dem Gott des Windes, und Schneckentrompeten erklangen bei Zeremonien und im Krieg. Beug dich über das Wasser: Es spiegelt den Himmel, den Schirm und die Mauern des Museums. Nutze es als Pause, bevor du weitergehst."
+    },
+    "guion_largo": {
+      "hash": "8c1566c46a389c96",
+      "texto": "Heute ist es schwer vorstellbar, aber Mexiko-Stadt entstand mitten in einem See. Als die Mexica 1325 Tenochtitlan auf einer kleinen Insel gründeten, war das Tal voller Wasser: miteinander verbundene Seen, Kanäle, schwimmende Chinampas, auf denen Mais und Blumen angebaut wurden. Die Spanier legten das System über Jahrhunderte trocken, und heute liegt das Wasser unter dem Asphalt. Nur einige Reste haben überlebt, etwa die Kanäle von Xochimilco im Süden der Stadt, wo man noch immer auf Chinampas anbaut. Dieser Teich ist eine Erinnerung daran.\n\nUnd es ist kein Zufall, dass er genau hier liegt. Das Museum steht in Chapultepec, und am Hügel von Chapultepec sprudelten die Quellen, die über einen Aquädukt Süßwasser nach Tenochtitlan brachten, denn das Wasser des Sees war brackig. Wer in der Hauptstadt der Mexica Wasser trank, trank zu einem guten Teil aus diesem Wald.\n\nHalte einen Moment bei der Zeitskala inne, denn dieser See begann nicht erst mit den Mexica. Später, im Saal der Besiedlung Amerikas, wirst du sehen, wie ein Mammut vor etwa elftausend Jahren im Schlamm an einem seiner Ufer stecken blieb. Im Saal der Präklassik zeigt ein Modell das Dorf Cuicuilco, am Rand desselben Tals. Und im Saal Mexica wirst du sehen, wie das Leben einer ganzen Stadt vom Wasser abhing. Der See war die Bühne der ganzen Geschichte, die du gleich durchwandern wirst.\n\nJetzt sieh dir die Bronzeschnecke an, ein Werk von Íker Larrauri, dem Künstler und Museografen, der viele der Wandbilder und Dioramen des Museums geschaffen hat. Die Meeresschnecke hatte in Mesoamerika eine enorme Bedeutung. Man blies sie wie eine Trompete, um die Krieger zu rufen, um Rituale anzukündigen und um den Sonnenaufgang zu begrüßen. Eine im Schnitt aufgeschnittene Schnecke, mit sichtbarer Spirale, war außerdem das Emblem von Ehécatl-Quetzalcóatl, dem Gott des Windes, der die Wege kehrte, damit der Regen kommen konnte. Darum ist die Schnecke hier, neben dem Wasser, eine Art Warnzeichen: Der Wind kommt vor dem Regen. Später lernst du Tecciztécatl kennen, den Gott des Mondes, dessen Name „der mit der Schnecke“ bedeutet.\n\nNimm dir ein paar Sekunden vor der stillen Oberfläche. Das Museum spiegelt sich darin, dort unten schweben die Schatten des Schirms, und in der Ferne ahnt man den Eingang zum Saal Mexica. Ramírez Vázquez wollte, dass diese Spiegelung kein Schmuck sei, sondern eine Einladung, das Gebäude so zu betrachten, wie man eine Stadt im Wasser betrachtete: mit dem Gefühl, dass unter dem, was du siehst, eine weitere Schicht der Geschichte liegt.\n\nUnd noch eine Einladung: Wenn du den Saal Mexica betrittst, versuche dich an diesen Teich zu erinnern. Du wirst sehen, dass der Templo Mayor auf einer von Wasser umgebenen Insel stand, dass seine Dämme auf dem See schwammen und dass die Götter des Regens und des Windes, Tláloc und Ehécatl, einen eigenen Tempel hatten. Was du drinnen sehen wirst, begann hier draußen. Sogar der Krieg wurde bei den Mexica mit einem Wort aus dem Wasser ausgedrückt: „atl-tlachinolli“, Wasser und Feuer zusammen. Im Saal Mexica wirst du es in Stein gemeißelt sehen."
+    },
+    "retos_observacion": {
+      "hash": "afb32f80af497b72",
+      "texto": [
+        "Suche die Bronzeschnecke in der Mitte des Teichs und folge ihrer Spirale mit dem Blick",
+        "Beobachte die Wasserpflanzen, die im Teich wachsen",
+        "Beug dich über das Wasser und finde die Spiegelung des Schirms"
+      ]
+    },
+    "especificaciones": {
+      "hash": "752ed53b5d4c7abe",
+      "texto": {
+        "Kultur": "Moderne mexikanische Integration der bildenden Künste: Pedro Ramírez Vázquez (Entwurf des Teichs) und Íker Larrauri (Skulptur „Sonne des Windes“)",
+        "Epoche": "Eingeweiht am 17. September 1964",
+        "Material": "Mit Stein verkleidetes Becken mit Seeflora (Rohrkolben, Papyrus und Seerosen), Gasbrenner in gestufter Mäanderform und Bronzeskulptur",
+        "Standort": "Östliches Ende des Zentralen Innenhofs, vor dem Saal Mexica"
+      }
+    },
+    "faq_mito": {
+      "hash": "115f5e59e6a82112",
+      "texto": {
+        "pregunta": "Mythos: Der Teich im Innenhof ist nur ein dekoratives Becken.",
+        "respuesta": "Realität: Er erinnert an den Texcoco-See, die Wasserlandschaft, auf der Tenochtitlan gegründet wurde."
+      }
+    }
+  }
+}

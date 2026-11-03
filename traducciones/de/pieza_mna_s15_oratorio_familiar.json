@@ -1,0 +1,54 @@
+{
+  "id": "mna_s15_oratorio_familiar",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e3fd782d0de2dacc",
+      "texto": "Das Oratorium und der Familienaltar der Otomí"
+    },
+    "frase_gancho": {
+      "hash": "d3eedc116c526570",
+      "texto": "Ein kleiner Familientempel, in dem Heilige, Berge und Ahnen nebeneinander zu Hause sind."
+    },
+    "puente_narrativo": {
+      "hash": "16d9138fa638fbf4",
+      "texto": "Vom Oratorium der Familie gehen wir weiter zur Landschaft. Suche zwei große Gemälde, die einander gegenüberhängen: eines mit trockener Erde, Agaven und Nopalkakteen, das andere grün, mit Maisfeldern und Gewitterhimmel."
+    },
+    "guion_corto": {
+      "hash": "54f964fc172fe1ef",
+      "texto": "Hier siehst du die Rekonstruktion eines Familienoratoriums der Otomí, einer kleinen Kapelle auf dem Grundstück einer Familie, gebaut aus Lehmziegeln und Holz. Im Inneren steht ein Stufenaltar mit Heiligenbildern, mit bestickten Stoffen bekleideten Kreuzen, Kerzen, Blumen und Räuchergefäßen aus Ton, in denen Copal verbrannt wird. Hier betet die Familie, feiert ihren Schutzheiligen und bittet um gute Ernten und um das Wohl der Ihren. Das Oratorium verbindet den katholischen Glauben mit der alten Verehrung der Berge, des Wassers und der Ahnen. Für viele Familien ist es der Mittelpunkt ihres geistlichen Lebens, ein Ort, um zusammen zu sein und sich an jene zu erinnern, die nicht mehr da sind."
+    },
+    "guion_largo": {
+      "hash": "958a47dd5b50e53e",
+      "texto": "Viele Familien im Hochland haben auf dem Grundstück ihres Hauses eine kleine eigene Kapelle. Sie heißt Oratorium. Es ist keine große Kirche und kein öffentlicher Tempel: Es ist ein vertrauter Ort, an dem man im Kreis der Familie betet, die Heiligen aufbewahrt und das Fest feiert. Und hier im Museum wurde eines errichtet, damit du sehen kannst, wie es von innen aussieht.\n\nBeginne beim Altar, der in Stufen aufsteigt. Auf den Stufen stehen Heiligenbilder, Kreuze, Kerzen, Blumen und der Copal. Die Kreuze werden oft mit bestickten Stoffen bekleidet, als wären sie Menschen. Das ist ein schönes Detail: Die Kreuze werden gepflegt wie ein Mitglied der Familie. Manchmal bekommen sie kleine Quechquémitl angezogen, wie du sie eben gesehen hast.\n\nDer Copal verdient eine kleine Pause. Er ist das Harz eines Baumes, das beim Verbrennen einen weißen, wohlriechenden Rauch gibt. Er wird seit Jahrtausenden verwendet: Schon in Teotihuacán wurde er den Göttern geopfert, und die Maya und die Mexica verbrannten ihn in ihren Tempeln. Der Rauch steigt zum Himmel auf und trägt die Gebete mit sich. Hier tut er noch immer dasselbe, nur vor Kreuzen und Heiligen.\n\nDas Wort dafür lautet Synkretismus: die Vermischung zweier Religionen. Die Familien der Otomí sind katholisch, aber sie haben nie aufgehört, die Berge, die Gewässer und die Ahnen zu ehren, die nach ihrer Überlieferung die Häuser und die Ernten beschützen. Für sie gibt es darin keinen Widerspruch. Der Heilige und der Berg leben nebeneinander, so wie Spanisch und die eigene Sprache im Alltagsgespräch nebeneinander leben.\n\nSogar das Kreuz führt ein Doppelleben. In Mesoamerika gab es schon vor der Ankunft der Spanier kreuzförmige Figuren, die den Weltenbaum und die vier Himmelsrichtungen darstellten. Einige Forscher meinen, das habe dazu beigetragen, dass das christliche Kreuz angenommen und neu gedeutet wurde. So kann ein Kreuz in einem Oratorium zugleich „Christus“ und „der Mittelpunkt des Universums“ bedeuten.\n\nEs gibt wichtige Daten. Am Tag des Heiligen der Familie werden Essen und Musik vorbereitet. Und im November, für die Verstorbenen, wird die Opfergabe mit Cempasúchil-Blumen, Brot, Kerzen und Speisen aufgebaut. Einen vollständigen Altar dieser Art wirst du im Saal der Huasteken und Totonaken sehen. Die Verstorbenen kehren jedes Jahr zurück, und das Oratorium ist Teil des Ortes, an dem sie empfangen werden.\n\nDie Sorge für das Fest wird meist über Ämter oder Festpatenschaften verteilt: Jedes Jahr übernimmt eine Familie oder eine Person die Verantwortung für den Heiligen, für das Essen und für die Musik, und so geht das Fest von Hand zu Hand. Mit den Oratorien verhält es sich ähnlich; sie werden vererbt, und die Sorge für sie geht von den Eltern auf die Kinder über.\n\nBedenke, dass dies kein Museum vergangener Dinge ist. Die Familienoratorien sind weiterhin in Gebrauch. Jedes Mal, wenn eine Familie ein Fest feiert, versammelt sie jene, die weit weg leben, etwa die, die in die Städte gezogen sind. Das Oratorium ist im Grunde ein Ort des Wiedersehens, ein Ort, der sagt: „Hier haben wir angefangen.“"
+    },
+    "retos_observacion": {
+      "hash": "a144de43f3b16aeb",
+      "texto": [
+        "Zähle die Stufen des Altars und suche die Bilder auf jeder Stufe",
+        "Achte auf die Kreuze, die mit bestickten Stoffen bekleidet sind",
+        "Suche das Räuchergefäß aus Ton, in dem der Copal verbrannt wird"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7b3ad9ec90adc13a",
+      "texto": {
+        "Volk": "Otomí (Hñähñu)",
+        "Region": "Mezquital-Tal (Hidalgo) und Halbwüste von Querétaro",
+        "Technik/Material": "Architektur aus Lehmziegeln und Holz, verzierte Wachsarbeiten, Ton, ausgeschnittenes Buntpapier und Textilien",
+        "Funktion": "Häuslicher heiliger Raum für die Verehrung der Seelen der Verstorbenen und für landwirtschaftliche Riten"
+      }
+    },
+    "faq_mito": {
+      "hash": "0b42db53cd5e8bed",
+      "texto": {
+        "pregunta": "Mythos: Die Religion der heutigen indigenen Völker ist nur katholisch, ohne eigene Traditionen.",
+        "respuesta": "Realität: Sie verbindet den katholischen Glauben mit der alten Verehrung der Berge, des Wassers und der Ahnen, und beides besteht problemlos nebeneinander."
+      }
+    }
+  }
+}

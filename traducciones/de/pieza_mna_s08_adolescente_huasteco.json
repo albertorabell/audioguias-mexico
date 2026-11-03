@@ -1,0 +1,59 @@
+{
+  "id": "mna_s08_adolescente_huasteco",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2059d3b514ca4506",
+      "texto": "Skulptur des huastekischen Jugendlichen von Tamuín"
+    },
+    "frase_gancho": {
+      "hash": "87de2e3353d196ab",
+      "texto": "Ein junger Mann aus Stein, mit Mais bedeckt, der ein Kind auf dem Rücken trägt."
+    },
+    "puente_narrativo": {
+      "hash": "4066bce1cd9b3364",
+      "texto": "Vom jungen Mais aus steigen wir in den Norden von Veracruz hinauf, wohin auch das Reich der Mexica gelangte. Suche eine Stele aus Stein mit einem stehenden Gott, der einen hohen, kegelförmigen Kopfschmuck und eine Maske über dem Mund trägt."
+    },
+    "guion_corto": {
+      "hash": "959a89e2bc13e15c",
+      "texto": "Dieser junge Mann aus Stein, mehr als einen Meter hoch, stammt aus Tamuín in San Luis Potosí und ist eine der berühmtesten Skulpturen der Huasteken. Er steht aufrecht, schlank und nackt, den Körper gerade, den Kopf kahl geschoren. Seine linke Hälfte ist glatt, die rechte ist mit eingravierten Zeichnungen bedeckt: Maispflanzen und Maiskolben sowie Köpfe des Windgottes. Es wirkt wie eine Tätowierung oder eine rituelle Bemalung, zu Stein geworden. Auf dem Rücken trägt er ein kleines Kind. Ist es die aufgehende Sonne? Ist es der junge Mais? Ist es eine Gottheit? Niemand weiß es sicher. Was wir sehen, ist ein Körper, der wie ein bestelltes Feld aussieht."
+    },
+    "guion_largo": {
+      "hash": "e6fbdca68401d891",
+      "texto": "Sieh dir diesen Körper genau an: Er ist eine beschriebene Seite. Was wie ein schlichter nackter junger Mann aussieht, ist in Wirklichkeit ein Körper voller Botschaften, und wer sie zu lesen versteht, sieht den ganzen Kreislauf des Mais.\n\nBeginne mit der Teilung. Die linke Seite ist glatt und poliert, fast ohne Verzierung. Die rechte Seite, der Arm, das Bein und der Rücken sind mit Zeichnungen bedeckt, die in den Stein eingraviert sind. Sie wirken wie Tätowierungen, Ziernarben oder rituelle Körperbemalung. Erinnere dich an den Einführungssaal: der Körper als Leinwand, etwas, das die Völker Mesoamerikas auf vielfältigste Weise bis zum Äußersten trieben. Hier hat sich der Bildhauer entschieden, beide Zustände zugleich zu zeigen: den ungeschmückten Körper und den bereits mit Symbolen bekleideten Körper.\n\nDie Zeichnungen zeigen Maispflanzen, Maiskolben, Himmelssymbole und Köpfe des Windgottes. Das heißt, dieser junge Mann trägt das Feld auf der Haut. Man hat gedeutet, dass er selbst der Mais ist: schlank, aufrecht und zart, wie eine Pflanze, die hervorsprießt. Für die Huasteken, die in einer Region mit reichlichen Regenfällen vom Maisfeld lebten, war jedes Pflänzchen ein Leben, und der menschliche Körper und die Pflanze waren fast dasselbe.\n\nUnd da ist das Kind, das er auf dem Rücken trägt. Wer ist es? Es wurden mehrere Ideen vorgeschlagen. Vielleicht die neugeborene Sonne, vielleicht der junge Mais, vielleicht eine Gottheit. Manche Fachleute bringen es mit dem Windgott in Verbindung, mit Ehécatl-Quetzalcóatl, der die Wege fegte, damit der Regen kam, und dessen Emblem, die aufgeschnittene Schnecke, du im Teich im Innenhof gesehen hast. Manche sehen hier den Gott selbst, jung, wie er den Morgen eines neuen Zeitalters trägt. Es gibt keine einzige Antwort.\n\nNun eine erstaunliche Tatsache. Die Huasteken sprechen teenek, eine Sprache, die zur Familie der Maya-Sprachen gehört, obwohl sie mehr als tausend Kilometer von den Maya im Süden entfernt leben, mit vielen anderen Völkern dazwischen. Die Sprachwissenschaftler vermuten, dass sich vor vielen Jahrhunderten eine Maya sprechende Gruppe vom Rest löste und im Norden des Golfs blieb, wo sie ihre Sprache bewahrte und ihre eigene Kunst entwickelte. Wenn du darüber nachdenkst, ist es eine gewaltige Reise: eine Sprache, die durch die Geschichte Mesoamerikas zog, ohne verloren zu gehen.\n\nDie Huasteken waren große Bildhauer. Ihre Steinfiguren sind meist frontal dargestellt, mit hohem Kopfschmuck und feierlichen Gesten, manchmal nackt und mit Fruchtbarkeitssymbolen. Diese hier gehört zu den feinsten: das Gleichgewicht zwischen dem glatten und dem eingravierten Teil und die Zartheit der Umrisse stellen sie unter die Meisterwerke des Museums.\n\nBevor wir weitergehen, sieh dir noch einmal die Einzelheiten an. Das Gesicht ist gelassen, die Arme ruhen auf Brust und Bauch, und der gebogene Ohrschmuck hängt wie kleine Haken herab. Er ist ein junger Mann, aber auch eine Pflanze, ein Tag und ein Gott. Und alles hat in einem einzigen Stein Platz.\n\nEine letzte Einzelheit: Man nimmt an, dass diese Skulptur Teil eines zeremoniellen Raums war und kein Schmuckstück, sondern ein Bild für den Fruchtbarkeitskult. Vor ihr bat man vielleicht um Regen und eine gute Ernte. Heute bittet man um etwas Einfacheres: dass du einen Moment innehältst, um sie anzusehen."
+    },
+    "retos_observacion": {
+      "hash": "d140d22e0e50e090",
+      "texto": [
+        "Vergleiche die glatte linke Hälfte mit der eingravierten rechten",
+        "Suche die Maispflanzen und Maiskolben auf der rechten Seite",
+        "Achte auf das Kind, das er auf dem Rücken trägt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bed288d1421034ba",
+      "texto": {
+        "Kultur": "Huasteca",
+        "Epoche": "Frühe Postklassik (900-1200 n. Chr.)",
+        "Material": "Feinkörniger Sandstein",
+        "Herkunft": "Fundstätte Consuelo, Tamuín, San Luis Potosí",
+        "Maße": "145 cm hoch x 41 cm breit x 17,8 cm tief"
+      }
+    },
+    "faq_mito": {
+      "hash": "9a6f82206ad91b41",
+      "texto": {
+        "pregunta": "Mythos: Die Huasteken waren ein Maya-Volk, wie die Völker im nächsten Saal.",
+        "respuesta": "Realität: Sie sprechen eine Sprache aus der Familie der Maya-Sprachen, doch ihre Kultur, ihre Kunst und ihre Geschichte entwickelten sich getrennt, weit entfernt von den Maya im Süden."
+      }
+    }
+  }
+}
