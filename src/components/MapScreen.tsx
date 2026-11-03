@@ -6,6 +6,9 @@ import { TopBar } from './ui/TopBar';
 import { PassButton } from './ui/HeaderControls';
 import { FloorPlan } from './FloorPlan';
 import { MuseumPlan } from './MuseumPlan';
+import { SitePlanView } from './SitePlanView';
+import { getSitePlan } from '../config/sitePlan';
+import '../config/plans/chapultepec';
 import { FloorSwitch } from './MuseumScreen';
 import { ActiveTour } from './RoutesScreen';
 import { ErrorBoundary } from './ErrorBoundary';
@@ -61,7 +64,8 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
   }, [tour, roomOfPiece]);
 
   const scheme = hasScheme ?? !!zoneMap;
-  const hasPlan = !zoneMap && (siteId || '').toLowerCase() === 'mna';
+  const sitePlan = getSitePlan(siteId);
+  const hasPlan = !zoneMap && ((siteId || '').toLowerCase() === 'mna' || !!sitePlan);
   // Si hay mapa real (OpenStreetMap) se abre primero; el esquema queda en la otra pestaña. En el MNA el plano del museo es lo principal.
   const [view, setView] = useState<'live' | 'scheme'>(hasPlan ? 'scheme' : 'live');
   // Sin esquema (Centro Histórico) solo hay mapa real
@@ -113,8 +117,8 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
             {missingCoords && <p className="mt-3 px-1 text-cap text-ink-3">{u.map.noCoords}</p>}
           </ErrorBoundary>
         )}
-        {!showLive && !zoneMap && countPB > 0 && countPA > 0 && <FloorSwitch floor={floor} onChange={onFloorChange} countPB={countPB} countPA={countPA} />}
-        {!zoneMap && hereRoom && hereRoom.piso !== floor && (
+        {!showLive && !zoneMap && !sitePlan && countPB > 0 && countPA > 0 && <FloorSwitch floor={floor} onChange={onFloorChange} countPB={countPB} countPA={countPA} />}
+        {!zoneMap && !sitePlan && hereRoom && hereRoom.piso !== floor && (
           <button
             type="button"
             onClick={() => onFloorChange(hereRoom.piso)}
@@ -125,7 +129,11 @@ export const MapScreen: React.FC<MapScreenProps> = ({ rooms, pieces, floor, onFl
           </button>
         )}
         {!showLive && (<>
-        {hasPlan ? (
+        {hasPlan && sitePlan ? (
+          <div className="mt-4">
+            <SitePlanView plan={sitePlan} pieces={pieces} floor={floor} onFloorChange={onFloorChange} herePieceId={herePieceId} tour={tour} hasPass={hasPass} onOpenPaywall={onOpenPaywall} onOpenPiece={onOpenPiece} onOpenStop={onOpenStop} />
+          </div>
+        ) : hasPlan ? (
           <div className="mt-4">
             <MuseumPlan rooms={rooms} pieces={pieces} floor={floor} hereRoomId={hereRoomId} herePieceId={herePieceId} tour={tour} onSelectRoom={onSelectRoom} onOpenPiece={onOpenPiece} onOpenStop={onOpenStop} hasPass={hasPass} onOpenPaywall={onOpenPaywall} />
           </div>
