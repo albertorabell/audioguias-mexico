@@ -1,0 +1,52 @@
+{
+  "id": "tmc_33_dos_ciudades_un_suelo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f38709486341dda6",
+      "texto": "Duas cidades em um só solo"
+    },
+    "frase_gancho": {
+      "hash": "19628bfd938714aa",
+      "texto": "De mil novecentos e treze a dois mil e quinze, a cidade nunca terminou de ser descoberta."
+    },
+    "puente_narrativo": {
+      "hash": "c796504652a996d4",
+      "texto": "Fique um pouco na praça, com a Catedral à frente e as ruínas a poucos passos."
+    },
+    "guion_corto": {
+      "hash": "0790e38670b6d1ff",
+      "texto": "Esta visita termina onde começou: em um mesmo solo com duas cidades. Embaixo esteve Tenochtitlan, com seu templo, e por cima se ergueram a Catedral e a cidade vice-reinal. Em mil novecentos e treze e mil novecentos e catorze, Manuel Gamio descobriu uma parte do templo. Em mil novecentos e setenta e oito apareceu Coyolxauhqui. Em dois mil e seis, Tlaltecuhtli. Em dois mil e quinze, o Huei Tzompantli. Cada achado mostrou que o centro da cidade ainda guarda muito, e que ainda falta descobrir. São quatro momentos que mudaram o que se sabia sobre este lugar. A Catedral, por sua vez, precisou ser corrigida para não afundar mais, e as duas histórias compartilham o mesmo terreno."
+    },
+    "guion_largo": {
+      "hash": "5116f5df6474d958",
+      "texto": "Você percorreu uma Catedral e um templo, e as duas histórias levaram você a um mesmo solo. Esta última parada é para olhar o conjunto com calma.\n\nComecemos pelo princípio. Antes da conquista, os mexicas ergueram aqui seu templo principal, o Huey Teocalli. Era o centro do mundo deles. Depois de mil quinhentos e vinte e um, os espanhóis destruíram os templos e usaram suas pedras para construir a nova cidade. Uma dessas construções foi a Catedral, que foi sendo erguida ao longo de séculos, desde a época vice-reinal. Suas abóbadas foram fechadas entre mil quinhentos e oitenta e um e mil seiscentos e sessenta e sete.\n\nPassaram-se séculos em que o templo esteve enterrado. Os primeiros indícios do que havia embaixo apareceram em mil setecentos e noventa, com esculturas mexicas encontradas na praça. Depois, entre mil novecentos e treze e mil novecentos e catorze, o arqueólogo Manuel Gamio descobriu uma parte do templo. Era o começo de algo que ainda não terminou, e que mudou a maneira de ver o centro da cidade.\n\nEm mil novecentos e setenta e oito, trabalhadores da Luz e Força encontraram o monolito de Coyolxauhqui, e começou o Projeto Templo Mayor. Em dois mil e seis apareceu Tlaltecuhtli, que hoje recebe os visitantes no vestíbulo. Em dois mil e quinze, o Programa de Arqueologia Urbana encontrou o Huei Tzompantli, na rua Guatemala. Cada descoberta mudou o que se sabia. O próximo achado vai continuar mudando, porque a exploração não terminou.\n\nEnquanto isso, a Catedral também tem sua história com o solo. O terreno mole sob ela afundou de maneira desigual desde a construção. Desde mil novecentos e noventa e três, isso vem sendo corrigido com uma técnica chamada subescavação controlada, que consiste em retirar argila aos poucos. É outra forma de conviver com o que existe debaixo da cidade. O afundamento e os achados são duas faces do mesmo terreno.\n\nHá uma ideia que une tudo isso. Os mexicas construíram seu templo em camadas, cada uma sobre a anterior. A cidade de hoje fez o mesmo: uma camada colonial sobre a mexica, e outra moderna sobre a colonial. Você caminha sobre a última. Cada camada deixou marcas, e os arqueólogos as leem com paciência, uma por uma.\n\nSe lhe sobrar tempo, sente-se alguns minutos na praça. Olhe para a Catedral, ao norte da praça, e lembre-se de que, a poucos passos para o leste, estão as ruínas do Templo Mayor. São duas formas de entender o mundo, e nenhuma apagou totalmente a outra. Uma está de pé, a outra está aberta abaixo do nível da rua.\n\nObrigado por percorrer este lugar. Se você voltar outro dia, vai notar coisas que antes passaram despercebidas. Sempre há algo novo para ver no solo desta cidade. E se você passar pela Catedral, lembre-se de que o próprio edifício continua em movimento, monitorado com instrumentos."
+    },
+    "retos_observacion": {
+      "hash": "8be81b594ed21583",
+      "texto": [
+        "Olhe a Catedral da praça e localize para onde ficam as ruínas do Templo Mayor, a leste",
+        "Procure a diferença de nível entre a rua e as ruínas",
+        "Lembre-se dos 4 achados fundamentais: 1913, 1978, 2006 e 2015"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8f8fbe0c19b5a9f3",
+      "texto": {
+        "Achados": "1790, esculturas na praça",
+        "Catedral": "subescavação controlada desde 1993"
+      }
+    },
+    "faq_mito": {
+      "hash": "aa581f112f47b823",
+      "texto": {
+        "pregunta": "Mito: Já foi descoberto tudo o que havia embaixo do centro.",
+        "respuesta": "Realidade: Os achados de 1978, 2006 e 2015 mostram que a exploração continua; não se sabe o que aparecerá depois."
+      }
+    }
+  }
+}

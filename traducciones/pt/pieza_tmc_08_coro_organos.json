@@ -1,0 +1,56 @@
+{
+  "id": "tmc_08_coro_organos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "409d8a6d001014ee",
+      "texto": "O coro, o cadeiral e os dois órgãos"
+    },
+    "frase_gancho": {
+      "hash": "6ddfe9292d7c2574",
+      "texto": "Um templo dentro do templo, com cadeiral entalhado e dois órgãos monumentais."
+    },
+    "puente_narrativo": {
+      "hash": "3e700836d33c4c21",
+      "texto": "Siga para o lado do Altar do Perdão, na parte de trás do coro."
+    },
+    "guion_corto": {
+      "hash": "22ef2aad20fca309",
+      "texto": "No centro da nave central há outro espaço, cercado por grades e por madeira entalhada: o coro. Ali se sentavam os cônegos para rezar e cantar. O cadeiral é obra de Juan de Rojas, do final do século dezessete, e seus assentos têm relevos entalhados. Acima deles estão os dois grandes órgãos do período vice-reinal, cujas fachadas medem cerca de nove metros de largura por onze de altura. Nesta Catedral, Agustín de Iturbide foi coroado imperador, em vinte e um de julho de mil oitocentos e vinte e dois, na capela-mor, junto ao altar. Em mil novecentos e sessenta e sete, um incêndio danificou a maior parte deste cadeiral e afetou os órgãos, e depois houve restaurações."
+    },
+    "guion_largo": {
+      "hash": "59de813442ed413c",
+      "texto": "Você está no centro do templo, onde se levanta um dos espaços mais especiais de uma catedral antiga: o coro. Nas catedrais da Nova Espanha, o coro ficava no meio da nave, fechado por grades, e ali se reuniam os cônegos para rezar e cantar o ofício várias vezes ao dia.\n\nA parte mais marcante é o cadeiral, o conjunto de assentos de madeira entalhada. Foi feito por Juan de Rojas entre mil seiscentos e noventa e seis e mil seiscentos e noventa e sete, com uma madeira chamada tapincerán, e tem cinquenta e nove relevos. Cada assento mostrava cenas e figuras, e era usado de acordo com a posição de quem o ocupava. É um tipo de obra que reúne escultura, carpintaria e liturgia no mesmo móvel.\n\nSobre o cadeiral erguem-se os dois órgãos. São enormes: suas fachadas medem cerca de nove metros de largura por onze de altura, segundo o INAH, e foram construídas no século dezoito. Os atuais são atribuídos a José Nassarre e datados entre mil setecentos e trinta e quatro e mil setecentos e trinta e seis. Antes houve um órgão anterior, do final do século dezessete. Com esses instrumentos soava o culto da catedral mais importante do vice-reino.\n\nNesta Catedral aconteceu também um momento político. Agustín de Iturbide foi coroado imperador do México em vinte e um de julho de mil oitocentos e vinte e dois. A cerimônia não foi no coro, mas na capela-mor, junto ao altar, onde foram colocados os tronos. Ele vinha de consumar a independência no ano anterior. Iturbide governou poucos meses e abdicou em mil oitocentos e vinte e três. Seus restos descansam em outra capela da Catedral.\n\nEm dezessete de janeiro de mil novecentos e sessenta e sete, um curto-circuito provocou um incêndio que começou no Altar do Perdão, logo atrás do coro. O fogo danificou a maior parte do cadeiral, pois se perderam setenta e cinco de seus noventa e nove assentos. Também afetou os órgãos. Depois houve trabalhos de restauração, com intervenções em mil novecentos e setenta e seis e entre dois mil e sete e dois mil e oito.\n\nA grade que fecha o coro também tem história. Foi feita em Macau, no sul da China, em mil setecentos e vinte e dois, e foi colocada na Catedral em mil setecentos e trinta. Mostra que esta catedral teve peças feitas muito longe.\n\nO coro costuma pedir uma doação para entrar, e às vezes está fechado por celebrações. Se você não puder entrar, também se aprecia muito bem da nave, através das grades, e os órgãos se veem bem de qualquer ponto do cruzeiro.\n\nPense em quanto som já passou por este lugar. Durante séculos, o coro foi a voz da Catedral. Atrás dele, em direção ao altar, há uma peça que também sofreu com o incêndio e que tem um nome muito sugestivo: o Altar do Perdão."
+    },
+    "retos_observacion": {
+      "hash": "a7a86f624e98a67d",
+      "texto": [
+        "Olhe para o alto e compare as fachadas dos dois órgãos",
+        "Procure no cadeiral os relevos entalhados nos encostos",
+        "Localize a grade do coro e observe como ela fecha o espaço"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c0bc73d810ef3d93",
+      "texto": {
+        "Cadeiral": "Juan de Rojas, 1696 a 1697, madeira de tapincerán",
+        "Relevos do cadeiral": "59",
+        "Órgãos": "José Nassarre, 1734 a 1736",
+        "Fachadas dos órgãos": "cerca de 9 m de largura por 11 m de altura",
+        "Coroação de Iturbide": "21 de julho de 1822, na capela-mor",
+        "Incêndio": "17 de janeiro de 1967"
+      }
+    },
+    "faq_mito": {
+      "hash": "b943cf0983a443de",
+      "texto": {
+        "pregunta": "Mito: O coro da Catedral foi completamente destruído pelo fogo em 1967 e já não existe.",
+        "respuesta": "Realidade: O incêndio destruiu grande parte do cadeiral e afetou os órgãos, mas o coro e os órgãos foram restaurados em várias etapas."
+      }
+    }
+  }
+}

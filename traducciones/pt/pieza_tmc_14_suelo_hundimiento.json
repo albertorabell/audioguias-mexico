@@ -1,0 +1,56 @@
+{
+  "id": "tmc_14_suelo_hundimiento",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ec17cb68d8cb0345",
+      "texto": "O solo que afunda: a correção da Catedral"
+    },
+    "frase_gancho": {
+      "hash": "69ebd04fb7ea400b",
+      "texto": "Quatro mil duzentos e vinte metros cúbicos de argila retirados para endireitar um edifício de pedra."
+    },
+    "puente_narrativo": {
+      "hash": "827553e3a09718a9",
+      "texto": "Saia da Catedral com calma. Se você seguir em direção ao Templo Mayor, vá pelo lado leste, em direção à rua Seminario, onde começa a zona arqueológica."
+    },
+    "guion_corto": {
+      "hash": "0f7449d3232fa859",
+      "texto": "Esta Catedral afunda desde que foi construída, e afunda de forma desigual. Ela está sobre o terreno mole de um antigo lago. Por volta de mil novecentos e oitenta e nove, a deterioração era alarmante, e os engenheiros escolheram uma técnica chamada subescavação controlada. Ela consiste em retirar aos poucos a argila de camadas profundas, entre dezoito e vinte metros abaixo da terra, para que o solo desça sob as zonas mais altas e o edifício se endireite. Os trabalhos começaram em mil novecentos e noventa e três e retiraram cerca de quatro mil duzentos e vinte metros cúbicos de argila. A meta não era voltar à verticalidade perfeita, mas recuperar mais ou menos a metade da deformação."
+    },
+    "guion_largo": {
+      "hash": "2fbb748e026aae57",
+      "texto": "Antes de deixar a Catedral, convém entender o problema que mais a preocupou em toda a sua história: o solo. Este edifício de pedra, pesado e enorme, está sobre um terreno que não é firme.\n\nA Catedral foi erguida no canto da antiga ilha de Tenochtitlan, sobre o fundo mole e úmido de um lago que foi aterrado. Embaixo há camadas de argila que se comprimem com o peso e com o passar do tempo. Além disso, o subsolo não é uniforme: sob certas zonas há vestígios pré-hispânicos, alicerces antigos e aterros diferentes. Por isso a Catedral não afunda de maneira uniforme. Algumas partes descem mais que outras, e isso produz inclinações e rachaduras.\n\nO problema foi percebido desde a construção. Já em mil quinhentos e sessenta e dois, a fundação começou a afundar, e foi refeita com um enrocamento sobre estacas, que foi dado por concluído em mil seiscentos e quinze. Nos séculos seguintes, foi reforçada várias vezes. Calcula-se que o edifício, com seus alicerces, pese cento e vinte e sete mil toneladas.\n\nPor volta de mil novecentos e oitenta e nove, a deterioração havia se tornado alarmante. Os especialistas buscaram uma solução que não danificasse o monumento. Escolheram uma técnica chamada subescavação controlada. Ela funciona ao contrário do que se esperaria: não se reforça o solo, e sim se tira dele um pouco de argila. Fazem-se poços profundos, chamados lumbreras, e a partir deles são extraídas pequenas quantidades de argila em camadas que estão entre dezoito e vinte metros abaixo da terra. Ao retirá-la, o terreno desce um pouco sob as zonas mais altas do edifício, e o conjunto se endireita.\n\nOs trabalhos começaram em mil novecentos e noventa e três. A etapa principal foi de mil novecentos e noventa e três a mil novecentos e noventa e oito, com trinta e duas lumbreras de vinte metros, e os trabalhos se prolongaram até o início de dois mil e três. No total, foram retirados cerca de quatro mil duzentos e vinte metros cúbicos de argila.\n\nA meta não era voltar a um edifício perfeitamente vertical. O objetivo era recuperar mais ou menos a metade da deformação acumulada. O desnível máximo era de mais de dois metros e foi reduzido em pouco mais de oitenta centímetros, cerca de um terço. É um resultado modesto em números, mas importante em estabilidade.\n\nGraças a esse trabalho, a Catedral saiu da lista de monumentos em maior risco do World Monuments Fund, no ano dois mil. Isso não significa que o problema desapareceu. Um estudo da UNAM adverte que o afundamento não parou, e que o conjunto é monitorado com instrumentos que medem cada movimento.\n\nOs pisos interiores da Catedral são irregulares. Não é um defeito da obra, mas a marca de uma cidade que continua se assentando sobre um lago.\n\nHá uma ironia em tudo isso. Os mexicas também construíram sobre um lago. O Templo Mayor foi erguido por etapas, cada uma sobre a anterior, e suas ruínas estão a poucos passos daqui."
+    },
+    "retos_observacion": {
+      "hash": "ddb14b720ec66acb",
+      "texto": [
+        "Olhe uma coluna da nave e veja se ela lhe parece reta ou inclinada",
+        "Caminhe pelo piso e procure trechos em que você note uma leve inclinação",
+        "Lembre o nome da técnica: subescavação controlada"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b8dbc8374ac426b",
+      "texto": {
+        "Início dos problemas de fundação": "1562",
+        "Enrocamento sobre estacas concluído": "1615",
+        "Deterioração alarmante": "por volta de 1989",
+        "Subescavação controlada": "desde 1993",
+        "Argila retirada": "cerca de 4 220 m³",
+        "Profundidade da extração": "entre 18 e 20 m"
+      }
+    },
+    "faq_mito": {
+      "hash": "41465c46cebcb0f3",
+      "texto": {
+        "pregunta": "Mito: A Catedral está prestes a cair porque afunda.",
+        "respuesta": "Realidade: Ela afunda de forma desigual desde a sua construção, mas desde 1993 foi corrigida com subescavação controlada e hoje é monitorada com instrumentos; o afundamento não desapareceu."
+      }
+    }
+  }
+}

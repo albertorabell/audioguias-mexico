@@ -1,0 +1,56 @@
+{
+  "id": "tmc_15_entrada_ombligo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a565290328a4d04b",
+      "texto": "O Huey Teocalli: o umbigo do universo mexica"
+    },
+    "frase_gancho": {
+      "hash": "d999fae1472507c8",
+      "texto": "Aqui ficava o centro do mundo mexica, e hoje você o vê de uma passarela."
+    },
+    "puente_narrativo": {
+      "hash": "6f4040200719f5aa",
+      "texto": "Siga a passarela com calma. Quando estiver pronto, continue para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "62051446462ba074",
+      "texto": "Você está no lugar onde os mexicas puseram o centro do seu mundo. Eles o chamavam de Huey Teocalli, o templo grande, e o imaginavam como o umbigo do universo. Era uma pirâmide dupla, com dois santuários no alto, um para Huitzilopochtli e outro para Tláloc. Em sua última etapa, media cerca de oitenta metros de lado e cerca de quarenta e cinco de altura. O que você vê hoje é a base, porque o resto se perdeu depois da conquista. Enquanto percorre a passarela, tenha presente que isto foi o centro de uma cidade inteira e que ela continua, em grande parte, sob os seus pés. A Catedral e o Zócalo foram erguidos sobre esta cidade, e as escavações foram revelando o que ficou embaixo."
+    },
+    "guion_largo": {
+      "hash": "9debfffc51e13022",
+      "texto": "Você está na zona arqueológica do Templo Mayor. Antes de olhar pedra por pedra, convém se situar, porque o que você vê é apenas uma pequena parte de algo muito maior.\n\nOs mexicas chamavam este edifício de Huey Teocalli, que quer dizer templo grande. Ele ficava no coração do recinto sagrado de Tenochtitlan, a cidade que fundaram em uma ilha do lago. Para eles, aquele lugar era o umbigo do universo, o ponto onde se encontravam o céu, a terra e o mundo dos mortos. Não era apenas um templo importante. Era o eixo de como entendiam o mundo.\n\nA forma do edifício também dizia algo. Era uma pirâmide com duas escadarias e dois santuários no alto. Ao lado norte ficava o de Tláloc, deus da chuva, e ao sul o de Huitzilopochtli, deus da guerra e do Sol. Em sua última etapa, a pirâmide media cerca de oitenta metros de lado e cerca de quarenta e cinco de altura, e teve sete etapas de construção. São cifras de referência, porque o que se conserva é a base de várias etapas.\n\nO recinto sagrado tinha mais edifícios ao redor. Havia templos, casas de sacerdotes, jogos de bola e plataformas. As escavações encontraram restos de vários deles, como os Templos Vermelhos e a Casa das Águias, que visitaremos mais adiante. O que está claro é que a área que você percorre hoje é apenas uma parte desse conjunto, e que o resto continua sob as ruas e os edifícios do entorno.\n\nA conquista mudou tudo. Depois de mil quinhentos e vinte e um, os espanhóis destruíram os templos e usaram suas pedras para construir a nova cidade. Sobre este terreno foram erguidas casas, a Catedral e a praça. Durante séculos, ninguém viu estas ruínas, e apenas alguns achados isolados lembravam que embaixo havia algo. Um deles foi o de mil setecentos e noventa, quando apareceram grandes esculturas mexicas na praça, e falaremos dele no museu.\n\nAs escavações formais vieram muito depois. Em mil novecentos e treze e mil novecentos e catorze, o arqueólogo Manuel Gamio descobriu uma parte do canto sudoeste do edifício. Mas a grande exploração começou em mil novecentos e setenta e oito, quando apareceu a grande pedra de Coyolxauhqui. Esse achado deu origem ao Projeto Templo Mayor, de mil novecentos e setenta e oito a mil novecentos e oitenta e dois, que recuperou mais de sete mil objetos. Falaremos dele mais tarde.\n\nPara percorrer a área, siga as passarelas. Elas foram pensadas para que você veja as ruínas sem pisar nelas. Você verá que as camadas aparecem como cortes: cada etapa do templo foi construída sobre a anterior, de modo que algumas partes ficaram enterradas e outras foram deixadas à vista.\n\nOlhe agora para cima e para o oeste. Ali se vê a Catedral, a poucos metros. É difícil encontrar outro lugar onde dois mundos tão distintos estejam tão perto. O templo mexica foi o centro de uma cidade, e a Catedral foi o centro de outra, erguida sobre a primeira.\n\nPara começar a visita, não tente entender tudo de uma vez. Olhe primeiro a forma geral das ruínas. Depois, nas próximas paradas, veremos como o templo cresceu, o que havia em cada santuário e que oferendas foram enterradas aqui."
+    },
+    "retos_observacion": {
+      "hash": "8158d388e0f90a9a",
+      "texto": [
+        "Localize a base da pirâmide e distinga as duas escadarias",
+        "Procure, da passarela, onde se vê a Catedral",
+        "Observe os cortes nas paredes onde se percebem camadas de diferentes etapas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e34d71cc7f6c3c90",
+      "texto": {
+        "Nome mexica": "Huey Teocalli, templo grande",
+        "Dimensões aproximadas da pirâmide": "cerca de 80 m de lado e cerca de 45 m de altura",
+        "Etapas de construção": "7",
+        "Santuários": "Tláloc ao norte, Huitzilopochtli ao sul",
+        "Escavações de Gamio": "1913 a 1914",
+        "Projeto Templo Mayor": "1978 a 1982"
+      }
+    },
+    "faq_mito": {
+      "hash": "fdb2068e98620c36",
+      "texto": {
+        "pregunta": "Mito: O Templo Mayor se conserva quase completo.",
+        "respuesta": "Realidade: O que você vê são bases de várias etapas, porque os espanhóis destruíram os templos depois de 1521."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "tmc_16_siete_etapas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d6872db1a6cf04c8",
+      "texto": "Sete etapas: um templo que cresceu sobre si mesmo"
+    },
+    "frase_gancho": {
+      "hash": "dea1a931c72f0f9f",
+      "texto": "Cada vez que um novo tlatoani governava, o templo ficava maior."
+    },
+    "puente_narrativo": {
+      "hash": "3c1ad9813c90dd00",
+      "texto": "Siga pela passarela em direção ao lado sul da pirâmide, onde se veem os muros das etapas mais antigas."
+    },
+    "guion_corto": {
+      "hash": "e5a8163a3c4835eb",
+      "texto": "O Templo Mayor não foi construído de uma só vez. Foi ampliado por etapas, e cada uma cobria a anterior como as camadas de uma cebola. Houve sete etapas, desde os primeiros anos de Tenochtitlan até a conquista. A mais antiga que se vê é a Etapa II, de por volta de mil trezentos e noventa. Depois vieram ampliações com Itzcóatl, Moctezuma Ilhuicamina, Axayácatl e Ahuízotl. Cada governante queria um templo maior que o de seu antecessor, e por isso a pirâmide foi crescendo com o poder de Tenochtitlan. Hoje as etapas se veem como camadas nos cortes das escavações, e algumas conservaram oferendas enterradas dentro."
+    },
+    "guion_largo": {
+      "hash": "74f7961a04327650",
+      "texto": "Se você olhar a pirâmide com atenção, vai notar que ela não é uma única construção. É um conjunto de camadas, uma dentro da outra, e entender isso é a chave de todo o sítio.\n\nOs mexicas tinham o costume de ampliar seus templos de tempos em tempos. Em vez de derrubar o edifício anterior, cobriam-no com um maior, de modo que o velho ficava dentro, como uma matriosca. Contam-se sete etapas, desde os primeiros templos de Tenochtitlan até os últimos anos antes da conquista. Os arqueólogos as numeram com algarismos romanos.\n\nAs datas são aproximadas, sobretudo as mais antigas. A Etapa II situa-se por volta de mil trezentos e noventa. A Etapa III é atribuída a Itzcóatl, que governou de mil quatrocentos e vinte e seis a mil quatrocentos e quarenta. A Etapa IV está relacionada a Moctezuma Ilhuicamina, e sua ampliação, a IV b, a Axayácatl, de mil quatrocentos e sessenta e nove a mil quatrocentos e oitenta e um. A Etapa VI corresponde a Ahuízotl, entre mil quatrocentos e oitenta e seis e mil quinhentos e dois. A Etapa VII, a última, vai até a conquista, em mil quinhentos e vinte e um.\n\nA razão desse costume tem a ver com o poder político. Quando um tlatoani, ou seja, um governante, chegava ao trono, uma das formas de mostrar sua força era ampliar o templo principal. Cada etapa era maior e mais rica que a anterior. Ao mesmo tempo, o templo funcionava como um arquivo de pedra, porque cada camada guardava o que havia sido enterrado dentro dela.\n\nCada ampliação vinha acompanhada de oferendas. Antes de cobrir um templo, enterravam-se objetos dentro da nova construção. Por isso os arqueólogos encontraram mais de cem oferendas nesta área, segundo o museu. Elas se dividem em três tipos: de preenchimento, de cista e de caixa. Cada camada guardava assim um conjunto de objetos que foi deixado ali de propósito.\n\nAs etapas mais tardias, a VI e a VII, são as que mais foram destruídas. Os espanhóis usaram aquelas pedras para construir a nova cidade, e por isso quase não resta nada dos níveis mais altos. Já as etapas mais antigas se conservaram melhor porque ficaram enterradas, protegidas pelas novas camadas.\n\nPor isso hoje se pode ver, numa mesma parede, o muro de uma etapa tapado pelo de outra. Se você encontrar um trecho onde se distinguem dois tipos de pedra, ou dois níveis de degraus, está vendo a fronteira entre duas etapas.\n\nPense no que isso significa. Para os mexicas, o templo era um edifício vivo, que crescia com a cidade e com cada novo governante. Para os arqueólogos, esse costume foi uma sorte, porque conservou os edifícios antigos dentro dos novos.\n\nA seguir vamos olhar os dois santuários que coroavam a pirâmide, porque a diferença entre eles explica muito do pensamento mexica."
+    },
+    "retos_observacion": {
+      "hash": "56ea466d3f3f00c3",
+      "texto": [
+        "Procure um corte onde se distingam duas camadas de construção",
+        "Observe se você vê pedra de dois tipos ou degraus em níveis diferentes no mesmo muro",
+        "Conte as etapas que você conseguir distinguir da passarela"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6f713e2069019443",
+      "texto": {
+        "Etapas de construção": "7",
+        "Etapa II": "por volta de 1390",
+        "Etapa III": "Itzcóatl, 1426 a 1440",
+        "Etapa IV b": "Axayácatl, 1469 a 1481",
+        "Etapa VI": "Ahuízotl, 1486 a 1502",
+        "Etapa VII": "até 1521"
+      }
+    },
+    "faq_mito": {
+      "hash": "8e9db4aae7399bb3",
+      "texto": {
+        "pregunta": "Mito: O templo foi construído de uma só vez.",
+        "respuesta": "Realidade: Foi ampliado sete vezes; cada governante cobria o templo anterior com um maior."
+      }
+    }
+  }
+}

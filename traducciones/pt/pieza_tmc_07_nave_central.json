@@ -1,0 +1,57 @@
+{
+  "id": "tmc_07_nave_central",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8b135bfca9215da1",
+      "texto": "A nave central e suas cinquenta e uma abóbadas"
+    },
+    "frase_gancho": {
+      "hash": "a630e145bfa4429b",
+      "texto": "Cinco naves, quarenta colunas e um piso que não é totalmente plano."
+    },
+    "puente_narrativo": {
+      "hash": "6d0aa78644adfd61",
+      "texto": "Avance pela nave central até o centro do templo. Quando estiver pronto, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "46e1938e5efca4ea",
+      "texto": "Cinco naves, cinquenta e uma abóbadas, setenta e quatro arcos e quarenta colunas. Essas são as contas deste interior. As abóbadas foram sendo fechadas a partir de mil quinhentos e oitenta e um, e a última, em mil seiscentos e sessenta e sete. Por isso o espaço tem proporções claras e um ar sóbrio, antes que os altares se enchessem de ouro. A nave central é a mais larga e a mais alta. Por ela você avança até o coro, os órgãos e o altar-mor. Ande devagar e repare no piso, porque ele não é totalmente plano. O solo sob a Catedral se move há séculos, e o edifício mostra isso."
+    },
+    "guion_largo": {
+      "hash": "edc554e076b03db1",
+      "texto": "Você acaba de entrar em uma das maiores igrejas da América. Antes de procurar altares e capelas, vale a pena entender como este espaço foi feito.\n\nA Catedral tem cinco naves e um transepto, ou seja, o espaço transversal que cruza a igreja. O interior soma cinquenta e uma abóbadas, setenta e quatro arcos, quarenta colunas e cerca de cento e cinquenta janelas. São cifras redondas, que ajudam a imaginar a escala. O que se vê a olho nu é que a nave central é a mais larga e a mais alta, e que as laterais a acompanham como corredores mais baixos.\n\nEssa disposição tem uma lógica. A nave central leva da entrada ao altar, e em seu caminho estão os elementos que organizam o templo. Primeiro aparece o coro, com o cadeiral de madeira e os dois grandes órgãos. Depois, o Altar do Perdão e o transepto. Ao fundo, na cabeceira, está a Capela-Mor com o Altar dos Reis. As naves laterais dão acesso às capelas, cada uma dedicada a um santo e patrocinada por uma ordem religiosa, uma corporação de ofício ou uma confraria.\n\nA construção deste espaço levou décadas. As abóbadas foram sendo fechadas a partir de mil quinhentos e oitenta e um, e a última foi fechada em vinte e dois de junho de mil seiscentos e sessenta e sete. Esse ano é considerado o fim da obra do interior. Foi então que o templo foi dedicado. Você pode ver o resultado na sobriedade das linhas. O desenho original tem um ar renascentista, e sua ordem contrasta com os altares barrocos que foram acrescentados depois.\n\nAgora olhe para cima e percorra as abóbadas com o olhar. Lembre-se de que o templo tem cerca de cento e cinquenta janelas, e que delas depende a luz que cai sobre a nave.\n\nDepois, baixe o olhar para o piso e ande com cuidado. O chão da Catedral não é perfeitamente horizontal. Esta igreja está sobre o terreno mole do que foi um lago, e desde a sua construção afunda de maneira desigual. Em algum ponto do edifício, o desnível máximo chegou a ser de mais de dois metros, e foi reduzido por uma intervenção posterior. Mais adiante, em outra parada, você verá como ele foi endireitado. Por ora, basta notar que o piso é uma espécie de mapa do solo.\n\nUma última observação. Apesar do tamanho, o espaço não parece vazio. Ele está ocupado pela presença dos altares, das grades, dos bancos dos fiéis e das capelas laterais, e tudo mantém uma ordem. Se você coincidir com uma missa, o ambiente muda por completo. Ouve-se o órgão, ou o canto, e o espaço se enche de um sentido que não se percebe quando está em silêncio. Respeite esse ritual: fale em voz baixa, evite o flash e não interrompa quem está rezando.\n\nQuando estiver pronto, siga pela nave em direção ao centro do templo."
+    },
+    "retos_observacion": {
+      "hash": "46dae89079775f10",
+      "texto": [
+        "Conte quantas colunas você consegue distinguir em uma única fileira da nave central",
+        "Olhe para cima e siga a linha de uma abóbada até onde ela se fecha",
+        "Ande devagar e procure algum trecho do piso onde se note uma inclinação"
+      ]
+    },
+    "especificaciones": {
+      "hash": "2f950365bb6f4480",
+      "texto": {
+        "Naves": "5, mais um transepto",
+        "Abóbadas": "51",
+        "Arcos": "74",
+        "Colunas": "40",
+        "Janelas": "cerca de 150",
+        "Última abóbada fechada": "22 de junho de 1667",
+        "Localização": "interior da Catedral Metropolitana"
+      }
+    },
+    "faq_mito": {
+      "hash": "97510d9485f40686",
+      "texto": {
+        "pregunta": "Mito: O interior da Catedral sempre foi tão dourado quanto hoje.",
+        "respuesta": "Realidade: O projeto original é sóbrio, de influência renascentista, e os altares barrocos dourados foram acrescentados durante os séculos XVII e XVIII."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "tmc_25_sala_1_antecedentes",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d65b72e47e60637d",
+      "texto": "Sala um: antecedentes e descobertas desde mil setecentos e noventa"
+    },
+    "frase_gancho": {
+      "hash": "2f29ce8d060a1843",
+      "texto": "Dois séculos de descobertas, de um achado na praça às escavações modernas."
+    },
+    "puente_narrativo": {
+      "hash": "c24757a6737cba82",
+      "texto": "Segue para a Sala dois, onde estão expostas as oferendas do santuário de Huitzilopochtli."
+    },
+    "guion_corto": {
+      "hash": "e0d388d0d0804442",
+      "texto": "A Sala um conta como o Templo Mayor foi sendo descoberto. Começa com os achados que ocorreram desde mil setecentos e noventa, quando apareceram esculturas mexicas na praça, e segue até as escavações do século vinte. Também explica o que são as oferendas. Foram encontradas mais de cem, de três tipos: de preenchimento, de cista e de caixa. Cada tipo está relacionado à maneira de depositar os objetos. A sala menciona ainda o trabalho do Programa de Arqueologia Urbana em mil novecentos e noventa e um. É um bom ponto para entender de onde vem o que você verá depois, e como se chegou a conhecê-lo."
+    },
+    "guion_largo": {
+      "hash": "927f9242f15b7373",
+      "texto": "A Sala um se chama Antecedentes. É uma sala de introdução, pensada para explicar como e por que conhecemos hoje o Templo Mayor. Muitas pessoas passam rápido por ela para chegar às peças grandes, mas vale a pena parar, porque ela dá as chaves para ler todo o resto.\n\nComeça com os achados que se produziram desde mil setecentos e noventa. Naquele ano apareceram grandes esculturas mexicas na praça. Mais adiante, na última sala do museu, você verá uma oferenda colonial desse mesmo ano.\n\nDali a sala avança para as escavações do século vinte. Manuel Gamio trabalhou neste lugar entre mil novecentos e treze e mil novecentos e catorze. Mais tarde, em mil novecentos e setenta e oito, a descoberta da Coyolxauhqui deu origem ao Projeto Templo Mayor. São os episódios que você viu na zona arqueológica, agora contados com objetos e explicações. Entre uma descoberta e outra passou muito tempo, e essa distância ajuda a entender por que o Templo Mayor só é conhecido em detalhe há algumas décadas.\n\nOutro tema central da sala são as oferendas. Uma oferenda é um conjunto de objetos que se enterrava como parte de um ritual. No Templo Mayor foram encontradas mais de cem. Elas se classificam em três tipos: de preenchimento, de cista e de caixa, segundo a maneira de depositá-las. Não se preocupe em memorizar os nomes. O importante é que cada oferenda tinha uma localização e um sentido, e que os arqueólogos as registraram uma por uma.\n\nA sala menciona também o trabalho do Programa de Arqueologia Urbana, que em mil novecentos e noventa e um realizou explorações no centro da cidade. Esse programa existe porque, numa cidade viva, qualquer obra pode esbarrar em vestígios antigos, e alguém precisa examiná-los a tempo. Esse programa é o mesmo que, anos mais tarde, exploraria o Huei Tzompantli, do qual já falamos.\n\nEsta sala ajuda a mudar a forma de olhar. Os objetos que você verá nas próximas salas saíram de escavações ordenadas, com registro de onde e como estavam. Essa informação faz parte do seu valor, porque um objeto sem contexto diz muito menos. Por isso os arqueólogos anotam cada detalhe do lugar onde uma peça aparece.\n\nSe for com calma, repare nas plantas ou fotografias que houver na sala. Se mostrarem a zona antes da escavação, compare-as com o que você acabou de percorrer. É uma maneira de lembrar que a cidade de hoje continua vivendo sobre a antiga.\n\nAo terminar esta sala, você terá uma ideia clara de como o templo foi descoberto, de quanto tempo a cidade demorou para ver o que tinha embaixo e de por que cada oferenda importa. Com isso, você estará pronto para entrar de vez no mundo ritual. A próxima sala trata do ritual e do sacrifício, e começa pelas oferendas do santuário de Huitzilopochtli."
+    },
+    "retos_observacion": {
+      "hash": "8931829a12769bed",
+      "texto": [
+        "Repare nas plantas ou fotografias das escavações, se houver, e compare-as com a zona que você acabou de percorrer",
+        "Identifique os três tipos de oferenda: de preenchimento, de cista e de caixa",
+        "Repare na data 1790 e pense em quanto tempo se passou até as escavações modernas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d9d136ac22d0d5bd",
+      "texto": {
+        "Sala": "1, Antecedentes",
+        "Achados desde": "1790",
+        "Oferendas encontradas": "mais de 100",
+        "Tipos de oferenda": "preenchimento, cista e caixa",
+        "Programa de Arqueologia Urbana": "1991"
+      }
+    },
+    "faq_mito": {
+      "hash": "b5f7b6828d1d5852",
+      "texto": {
+        "pregunta": "Mito: Todas as oferendas do Templo Mayor são iguais.",
+        "respuesta": "Realidade: Foram encontradas mais de 100 e são classificadas em 3 tipos: de preenchimento, de cista e de caixa."
+      }
+    }
+  }
+}

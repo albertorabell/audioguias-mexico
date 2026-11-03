@@ -1,0 +1,54 @@
+{
+  "id": "tmc_30_sala_5_tlaloc",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a1f526c4afb496d8",
+      "texto": "Sala cinco: Tláloc, a olla azul e a oferenda quarenta e um"
+    },
+    "frase_gancho": {
+      "hash": "97b0c32e1ceb4642",
+      "texto": "Uma olla azul, uma oferenda numerada e os ajudantes da chuva."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "Quando estiver pronto, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "77e42eda85862196",
+      "texto": "A Sala cinco corresponde ao lado norte do templo, o de Tláloc. Reúne uma panela pintada de azul, a oferenda quarenta e um e representações dos tlaloque, os ajudantes da chuva. Este lado do templo estava relacionado à água e à fertilidade, e completava o lado sul, o da guerra. A sala convida a pensar no que a chuva significava para uma cidade num lago, e no motivo pelo qual os mexicas a colocaram no centro de seu templo principal. É uma sala mais serena que a anterior, e convém percorrê-la sem pressa, olhando cada vitrine separadamente."
+    },
+    "guion_largo": {
+      "hash": "d108448206a627d5",
+      "texto": "Você passa agora para o outro lado do templo. A Sala cinco é dedicada a Tláloc, o deus da chuva, e ao que foi encontrado no santuário do lado norte.\n\nLembre-se do que você viu na zona arqueológica, na parada dos dois santuários. A pirâmide tinha dois santuários: ao sul, Huitzilopochtli, e ao norte, Tláloc. Cada um era uma montanha sagrada, e cada um pedia oferendas diferentes. Esta sala é o espelho da anterior: em vez de guerra e Sol, o tema é a água, a fertilidade e os mantimentos.\n\nUm dos objetos principais é uma panela pintada de azul. É uma peça cerimonial. A cor azul costuma ser associada à água, e é um dos traços que ajudam a reconhecer este deus. Ao entrar na sala, repare em como essa cor muda o ambiente em relação à anterior.\n\nA sala exibe também a oferenda quarenta e um. Os arqueólogos numeram as oferendas do Templo Mayor, e esta é uma das que foram encontradas no lado de Tláloc. Mais de cem oferendas foram encontradas no total, como você viu na Sala um. Cada uma tem seu próprio número e sua própria lista de objetos, e por isso podem ser estudadas uma por uma. Essa ordem faz parte do trabalho dos arqueólogos, que registram onde estava cada coisa antes de movê-la.\n\nHá ainda representações dos tlaloque. Segundo a tradição, eram os ajudantes de Tláloc, os encarregados da chuva. Eram imaginados como pequenos seres que despejavam a água de vasilhas. Na sala, você pode procurar suas figuras e reparar em como foram representadas. Os cartazes da sala vão lhe dizer mais sobre cada uma, e vale a pena lê-los com calma.\n\nPense no motivo de Tláloc estar no centro da cidade. Tenochtitlan ficava numa ilha, rodeada de lagos, e dependia da chuva e dos níveis da água. Uma seca ou uma inundação podiam ser catastróficas. Ter o deus da chuva no templo principal era uma forma de reconhecer essa dependência.\n\nUma dica para olhar melhor: compare esta sala com a anterior. Lá havia um Guerreiro Águia, uma serpente de fogo e figuras de deuses do fogo e da morte. Aqui a atenção se volta para a água e para a terra que dá frutos. As duas salas, juntas, contam a dualidade do templo.\n\nAntes de sair, volte por um momento à panela azul e compare-a com o que você viu do lado de Huitzilopochtli. Essa comparação ajuda você a ver os dois lados do templo. Ao sair, siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "e4f4199af694339a",
+      "texto": [
+        "Procure a panela pintada de azul",
+        "Localize a oferenda marcada com o número 41",
+        "Encontre as figuras dos tlaloque, os ajudantes da chuva"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e315b2c96057d85d",
+      "texto": {
+        "Sala": "5, Tláloc",
+        "Lado do templo": "norte",
+        "Objetos": "panela azul, oferenda 41, tlaloque",
+        "Total de oferendas no Templo Mayor": "mais de 100"
+      }
+    },
+    "faq_mito": {
+      "hash": "9489e1408c53c9e4",
+      "texto": {
+        "pregunta": "Mito: Tláloc era um deus secundário no Templo Mayor.",
+        "respuesta": "Realidade: Ele compartilhava o topo da pirâmide com Huitzilopochtli; cada um tinha seu próprio santuário."
+      }
+    }
+  }
+}

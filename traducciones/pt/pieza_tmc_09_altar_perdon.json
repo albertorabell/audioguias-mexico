@@ -1,0 +1,56 @@
+{
+  "id": "tmc_09_altar_perdon",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "782654ea8c0c37cb",
+      "texto": "O Altar do Perdão e o incêndio de mil novecentos e sessenta e sete"
+    },
+    "frase_gancho": {
+      "hash": "db43fc34e45a49da",
+      "texto": "Um retábulo barroco que quase se perdeu numa noite, e duas lendas sobre o seu nome."
+    },
+    "puente_narrativo": {
+      "hash": "1a4f9690905fd1d1",
+      "texto": "Siga para a cabeceira do templo, onde fica o altar-mor e, atrás dele, o Altar dos Reis."
+    },
+    "guion_corto": {
+      "hash": "906179d79ce4c361",
+      "texto": "Atrás do coro, voltado para a entrada, ergue-se o Altar do Perdão. É um retábulo barroco atribuído a Jerónimo de Balbás, da primeira metade do século dezoito. No dia dezessete de janeiro de mil novecentos e sessenta e sete, um curto-circuito provocou um incêndio justamente neste altar. Destruiu cerca de oitenta por cento da obra, e também danificou o cadeiral do coro e outras peças. Sobre o nome, contam-se duas lendas. Uma diz que aqui pediam perdão os condenados pela Inquisição. A outra, que um pintor preso pintou aqui uma imagem da Virgem. Nenhuma das duas tem uma prova definitiva."
+    },
+    "guion_largo": {
+      "hash": "7c44499394097739",
+      "texto": "Você está diante do Altar do Perdão, uma das duas grandes obras de retábulo da Catedral. Ele fica no contracoro, ou seja, na parte de trás do coro, do lado que olha para a entrada.\n\nÉ uma obra do barroco da Nova Espanha atribuída a Jerónimo de Balbás, o mesmo mestre que fez o Altar dos Reis. Foi feito na primeira metade do século dezoito. Um retábulo é uma estrutura de madeira entalhada e dourada que sustenta imagens, pinturas e esculturas. Este foi construído com estípites, os suportes que se afinam para baixo, que foram uma novidade na arquitetura da Nova Espanha naquela época.\n\nO nome tem duas explicações, e nenhuma é segura. Uma lenda diz que, diante deste altar, os condenados pela Inquisição pediam perdão antes de receber o castigo. A outra conta que o pintor Simón Pereyns, que estava preso por ordem do Santo Ofício, prometeu pintar uma imagem da Virgem se o libertassem, e que essa pintura foi colocada aqui. Como acontece com muitas histórias da Catedral, elas vêm da tradição, não de um documento que se tenha podido comprovar.\n\nO mais importante deste altar é o que lhe aconteceu em mil novecentos e sessenta e sete. No dia dezessete de janeiro, um curto-circuito provocou um incêndio. Destruiu cerca de oitenta por cento deste altar e a maior parte do cadeiral do coro, que estava bem à frente. Também danificou a parte alta do Altar dos Reis, queimou uma pintura da Assunção da Virgem e afetou os órgãos. Também foram danificadas pinturas de artistas do período vice-reinal, entre elas uma Virgem do Perdão de Simón Pereyns.\n\nDepois do incêndio começou uma longa tarefa de resgate. Segundo os documentos do INAH, houve trabalhos de conservação em mil novecentos e setenta e seis e outra intervenção entre dois mil e sete e dois mil e oito. Isso significa que o que você vê hoje não tem a mesma idade em todas as suas partes. Algumas partes sobreviveram ao fogo, e outras foram restauradas depois.\n\nEste altar é uma boa porta de entrada para entender como se conserva o patrimônio religioso. Não se trata só de reparar. Primeiro é preciso decidir o que se salva, o que se repõe e o que se deixa como testemunho do dano. Neste caso, o fogo faz parte da história da obra, assim como a sua construção.\n\nTambém vale a pena olhar o Altar do Perdão pelo que ele mostra do barroco. Os estípites, as folhas douradas e as imagens enchem o espaço, como se o artista temesse deixar um vazio. Compare-o com a sobriedade das abóbadas lá em cima: o contraste se deve ao fato de que o edifício e os altares foram feitos em épocas diferentes, com gostos diferentes.\n\nQuando terminar de olhar este altar, caminhe até o fundo do templo. Ali está o altar-mor e, atrás dele, a maior e mais famosa obra de Balbás: o Altar dos Reis."
+    },
+    "retos_observacion": {
+      "hash": "1eb612a091a1d061",
+      "texto": [
+        "Olhe de perto os estípites do retábulo e compare-os com os do Sacrário",
+        "Procure zonas mais escuras e mais claras na madeira dourada",
+        "Observe quanto espaço o retábulo cobre e quantas imagens cabem nele"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5dab2f95f924078f",
+      "texto": {
+        "Autor": "atribuído a Jerónimo de Balbás",
+        "Data": "primeira metade do século XVIII",
+        "Incêndio": "17 de janeiro de 1967, por um curto-circuito",
+        "Dano ao altar": "cerca de 80 por cento",
+        "Restaurações documentadas": "1976 e de 2007 a 2008",
+        "Localização": "contracoro, atrás do coro"
+      }
+    },
+    "faq_mito": {
+      "hash": "bdf2cbf0affe86c7",
+      "texto": {
+        "pregunta": "Mito: O Altar do Perdão se salvou do incêndio de 1967 sem danos.",
+        "respuesta": "Realidade: O fogo destruiu cerca de 80 por cento do altar, e nem tudo o que se vê hoje tem a mesma idade, porque houve restaurações."
+      }
+    }
+  }
+}

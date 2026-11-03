@@ -1,0 +1,56 @@
+{
+  "id": "tmc_19_coyolxauhqui_escalinata",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6019a260a5fee5e3",
+      "texto": "Ao pé da escadaria: onde Coyolxauhqui apareceu"
+    },
+    "frase_gancho": {
+      "hash": "06a78e1c2f83621f",
+      "texto": "Uma pedra de quase oito toneladas mudou o rumo da arqueologia na cidade."
+    },
+    "puente_narrativo": {
+      "hash": "30bf70687bd72e0b",
+      "texto": "Siga pela passarela. Quando estiver pronto, continue para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "376900069cf18c17",
+      "texto": "Diante de você, ao pé da escadaria sul, apareceu uma pedra que mudou a história deste lugar. No dia vinte e um de fevereiro de mil novecentos e setenta e oito, trabalhadores da companhia de Luz y Fuerza encontraram um disco de pedra com uma figura feminina desmembrada. É Coyolxauhqui, e mede três metros e vinte e cinco de diâmetro, segundo o INAH. Pesa quase oito toneladas e ficou enterrada por séculos sob a cidade. Segundo o mito, Huitzilopochtli a venceu no Coatépetl e o corpo dela rolou pela encosta. Por isso a pedra estava aqui, ao pé do santuário do deus. O original está hoje no museu, a poucos passos."
+    },
+    "guion_largo": {
+      "hash": "541d2e17154d7f2c",
+      "texto": "Você está em um dos pontos mais importantes da zona arqueológica. Aqui, ao pé da escadaria do lado sul, foi encontrada a peça que deu início a tudo o que você vê.\n\nNo dia vinte e um de fevereiro de mil novecentos e setenta e oito, trabalhadores da companhia de Luz y Fuerza faziam uma obra neste terreno quando toparam com um grande disco de pedra. Estava entalhado com uma figura feminina cujo corpo aparecia cortado em pedaços. Menciona-se o engenheiro Felipe Curcó Bellet em relação ao aviso. O que está claro é que o achado foi casual e que sua importância foi compreendida logo.\n\nA figura é Coyolxauhqui. Seu nome, segundo o INAH, se traduz como a que tem pintura facial de guizos. O disco mede três metros e vinte e cinco de diâmetro e pesa quase oito toneladas. Mais adiante, no museu, você verá o original com calma e notará quanto detalhe tem o relevo.\n\nPara entender por que estava aqui, é preciso lembrar o mito. Segundo a tradição Mexica, Coyolxauhqui era irmã de Huitzilopochtli. Quando ele nasceu no monte Coatépetl, ela e seus irmãos, os Centzonhuitznahua, quiseram atacar a mãe, Coatlicue. Huitzilopochtli nasceu armado, venceu a irmã e o corpo dela caiu rolando pela encosta. A pedra representa esse momento: o corpo desmembrado ao pé da montanha.\n\nPor isso este lugar faz sentido. O santuário de Huitzilopochtli era o Coatépetl, e ao pé da sua escadaria foi colocada a cena da vitória. A pedra mostrava a cena do mito bem ao pé do monte sagrado, de modo que o edifício e o relato se explicavam mutuamente. Era uma forma de contar a história sem palavras a quem passasse pela praça.\n\nO achado teve consequências enormes. Depois de ver o disco, decidiu-se explorar toda a zona, e foi criado o Proyecto Templo Mayor, que trabalhou de mil novecentos e setenta e oito a mil novecentos e oitenta e dois. O projeto recuperou mais de sete mil objetos, que hoje fazem parte do museu.\n\nÉ interessante que a cidade moderna tenha demorado tanto para ver o que havia debaixo dela. Manuel Gamio já havia encontrado uma parte do templo entre mil novecentos e treze e mil novecentos e catorze. Mas só em mil novecentos e setenta e oito esta zona foi explorada de forma ampla. Entre um achado e outro passaram-se mais de sessenta anos, e nesse tempo a cidade continuou crescendo por cima.\n\nQuando for ao museu, procure a sala dedicada a Huitzilopochtli. Ali está a pedra original. Aqui, por outro lado, você pode ver o lugar onde ela estava. Cada visita tem seu valor: o museu mostra a peça de perto, e a zona mostra o entorno que lhe dava sentido. Se puder, faça os dois percursos com calma e compare o que vê."
+    },
+    "retos_observacion": {
+      "hash": "afaa768e4f0d73e9",
+      "texto": [
+        "Procure o pé da escadaria do lado sul, onde a pedra foi encontrada",
+        "Observe a relação entre a escadaria e o ponto onde o disco apareceu",
+        "Lembre-se do nome: Coyolxauhqui"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9f4a07bb39cddae3",
+      "texto": {
+        "Achado": "21 de fevereiro de 1978, por trabalhadores da Luz y Fuerza",
+        "Diâmetro do disco": "3,25 m segundo o INAH",
+        "Peso": "quase 8 toneladas",
+        "Proyecto Templo Mayor": "1978 a 1982",
+        "Objetos recuperados": "mais de 7 000",
+        "Localização do original": "Museo del Templo Mayor"
+      }
+    },
+    "faq_mito": {
+      "hash": "a5fc69517f64416b",
+      "texto": {
+        "pregunta": "Mito: Coyolxauhqui foi encontrada em uma escavação arqueológica planejada.",
+        "respuesta": "Realidade: Apareceu por acaso durante uma obra da Luz y Fuerza, e dali nasceu o Proyecto Templo Mayor."
+      }
+    }
+  }
+}

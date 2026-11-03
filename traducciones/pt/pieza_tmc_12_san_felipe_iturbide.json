@@ -1,0 +1,54 @@
+{
+  "id": "tmc_12_san_felipe_iturbide",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9239a9e5e3793ff2",
+      "texto": "São Felipe de Jesus e a urna de Iturbide"
+    },
+    "frase_gancho": {
+      "hash": "331c7819a966c979",
+      "texto": "A capela do primeiro santo mexicano guarda os restos de um imperador que governou por poucos meses."
+    },
+    "puente_narrativo": {
+      "hash": "2ddb0ce9d521c859",
+      "texto": "Volte à nave principal. Quando estiver pronto, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "d7e5a2f5252a1248",
+      "texto": "Nesta capela, coincidem um santo e um imperador. São Felipe de Jesus nasceu na Cidade do México e é considerado o primeiro santo mexicano. Morreu mártir em Nagasaki, no Japão, em mil quinhentos e noventa e sete. Na mesma capela, uma urna de mogno com vidros guarda os restos de Agustín de Iturbide. Ele consumou a independência e foi coroado imperador nesta Catedral, no dia vinte e um de julho de mil oitocentos e vinte e dois. Foi executado em mil oitocentos e vinte e quatro, e seus restos chegaram aqui em mil oitocentos e trinta e oito."
+    },
+    "guion_largo": {
+      "hash": "2fcf6a0c6a500332",
+      "texto": "Esta capela reúne duas histórias que parecem muito distantes. Uma é religiosa, a outra é política, e as duas passam pela Cidade do México.\n\nA capela é dedicada a São Felipe de Jesus, que nasceu nesta cidade e é considerado o primeiro santo mexicano. Foi um jovem frade franciscano que viajou para as Filipinas e, na volta, naufragou na costa do Japão. Ali foi preso e morreu crucificado em Nagasaki, em mil quinhentos e noventa e sete, junto com outros cristãos. A Igreja o canonizou no século dezenove. A capela é dedicada a ele e guarda uma escultura sua.\n\nNesta mesma capela, desde mil oitocentos e trinta e oito, está a urna com os restos de Agustín de Iturbide. É de mogno, tem vidros transparentes e se encontra aqui de forma permanente. Junto a ela costuma haver uma faixa com o brasão do Primeiro Império Mexicano e réplicas de documentos da época. Na Catedral guarda-se também o coração de outro presidente da época, Anastasio Bustamante.\n\nIturbide é uma figura difícil de resumir. Nasceu em Valladolid, hoje Morelia, em mil setecentos e oitenta e três. Liderou a consumação da independência. Entrou em triunfo na Cidade do México no dia vinte e sete de setembro de mil oitocentos e vinte e um. Em maio de mil oitocentos e vinte e dois, o Congresso o proclamou imperador, e no dia vinte e um de julho daquele ano foi coroado nesta Catedral. Governou por cerca de dez meses. Abdicou diante das rebeliões e da falta de recursos, exilou-se, e em mil oitocentos e vinte e quatro voltou ao México. O Congresso o havia declarado traidor, e ele foi executado no dia dezenove de julho daquele ano em Padilla, Tamaulipas, aos quarenta anos.\n\nDurante catorze anos seus restos descansaram em uma cova modesta naquele povoado. Em mil oitocentos e trinta e oito, o presidente Antonio López de Santa Anna decretou que ele fosse declarado herói da pátria e que seus restos fossem trasladados para a capital. Chegaram à Catedral nesse mesmo ano, e foi celebrada uma missa de réquiem. Desde então estão nesta capela.\n\nAs opiniões sobre Iturbide mudam conforme quem conta a história. Para uns, foi o homem que conseguiu a independência pactuando com os insurgentes, e para outros, um militar que quis se coroar. Aqui, nesta capela, o que se vê é a marca material dessa discussão: uma urna, uma bandeira e alguns documentos.\n\nSe você quer seguir essa história, lembre-se de que a coroação aconteceu na capela-mor, junto ao altar. Esse gesto, uma cerimônia religiosa para legitimar um governante, mostrava até que ponto a Catedral era o centro do poder, assim como foi durante o vice-reinado.\n\nAntes de sair, olhe com atenção a escultura de São Felipe de Jesus. Pense no que esta capela reúne: um santo da Cidade do México que morreu no Japão, um imperador que morreu em Tamaulipas e uma capela que os junta. Poucas capelas da cidade conseguem contar uma história tão longa em tão poucos metros."
+    },
+    "retos_observacion": {
+      "hash": "b2c1db0ec3dccd50",
+      "texto": [
+        "Procure a urna de mogno com vidros e a faixa com o brasão do Primeiro Império",
+        "Localize a escultura de São Felipe de Jesus e observe sua postura",
+        "Olhe a abóbada da capela e compare-a com as das naves"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d99686ad5457e58",
+      "texto": {
+        "São Felipe de Jesus": "nascido na Cidade do México, morto em Nagasaki em 1597, primeiro santo mexicano",
+        "Iturbide": "coroado em 21 de julho de 1822, executado em 19 de julho de 1824",
+        "Restos de Iturbide na Catedral": "desde 1838",
+        "Urna": "mogno com vidros"
+      }
+    },
+    "faq_mito": {
+      "hash": "21b8ea46b0a0762a",
+      "texto": {
+        "pregunta": "Mito: Iturbide está enterrado na Rotunda das Pessoas Ilustres.",
+        "respuesta": "Realidade: Seus restos se encontram em uma urna da capela de São Felipe de Jesus, na Catedral Metropolitana, desde 1838."
+      }
+    }
+  }
+}

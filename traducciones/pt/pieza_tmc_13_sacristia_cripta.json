@@ -1,0 +1,56 @@
+{
+  "id": "tmc_13_sacristia_cripta",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1fa89b4b488419e3",
+      "texto": "As áreas reservadas: sacristia e Cripta dos Arcebispos"
+    },
+    "frase_gancho": {
+      "hash": "4ef71167f0c9b52a",
+      "texto": "Setenta e cinco criptas, quarenta e uma ocupadas, e uma sacristia com obras de dois grandes pintores do período vice-reinal."
+    },
+    "puente_narrativo": {
+      "hash": "775b72d14d19c740",
+      "texto": "Volte pela nave em direção à saída. Antes de ir, resta um tema: o solo que sustenta toda a Catedral."
+    },
+    "guion_corto": {
+      "hash": "4d604042952ee7ca",
+      "texto": "Junto à cabeceira da Catedral há dois espaços que nem sempre podem ser visitados. Um é a Sacristia Maior, onde se guardam os objetos do culto e onde, no final do século dezessete, trabalharam os pintores Cristóbal de Villalpando e Juan Correa. O outro é a Cripta dos Arcebispos, sob a cabeceira, com setenta e cinco criptas, das quais quarenta e uma estão ocupadas. Ali descansam frei Juan de Zumárraga, o primeiro bispo do México, e o cardeal Ernesto Corripio Ahumada, falecido em dois mil e oito. O acesso a essas áreas é limitado e é feito com visitas guiadas. Pergunte no balcão de atendimento da Catedral."
+    },
+    "guion_largo": {
+      "hash": "4de87852595aafb7",
+      "texto": "Esta parada é para quem quer ver a Catedral além dos altares dourados. Junto à cabeceira há espaços reservados que nem sempre estão abertos. Se hoje você os encontrar fechados, escute esta parada da nave e pense no que existe por trás dessas portas.\n\nComecemos pela Sacristia Maior. Uma sacristia é o lugar onde se guardam os objetos do culto e onde os clérigos se preparam para as cerimônias. Na sacristia desta Catedral há obras de dois dos pintores mais importantes da Nova Espanha, Cristóbal de Villalpando e Juan Correa, do final do século dezessete. Junto a ela fica a Sala Capitular, o lugar onde se reunia o cabido, isto é, o grupo de cônegos que dirigia a Catedral. O estilo dessas salas é herreriano, um estilo espanhol sóbrio, que contrasta com o barroco dos altares.\n\nO tesouro da Catedral inclui também tecidos e ornamentos litúrgicos, além de pinturas, embora nem sempre sejam exibidos.\n\nDescamos agora à cripta. A Cripta dos Arcebispos fica sob a cabeceira, na extremidade norte do templo. Sua construção começou entre mil novecentos e trinta e oito e mil novecentos e trinta e nove, e terminou em mil novecentos e quarenta e dois. Ou seja, é muito mais recente que o edifício.\n\nAli descansam bispos e arcebispos da história da arquidiocese. O mais antigo é frei Juan de Zumárraga, primeiro bispo do México, que viveu de mil quatrocentos e sessenta e oito a mil quinhentos e quarenta e oito. Há um memorial que o relaciona com a história da Virgem de Guadalupe. O último sepultado é o cardeal Ernesto Corripio Ahumada, que viveu de mil novecentos e doze a dois mil e oito. Também há restos de Juan de Palafox y Mendoza, bispo do México e de Puebla, e de Francisco de Aguiar y Seijas, confessor de sóror Juana Inés de la Cruz.\n\nO espaço tem setenta e cinco criptas, e quarenta e uma estão ocupadas. Há também quatro apodrecedouros, parte dos antigos processos funerários. A Igreja não aceitava a cremação, então os corpos eram colocados no cemitério por um tempo, e depois os ossos eram levados para as criptas.\n\nA porta de acesso tem uma história curiosa. É de mármore e leva o brasão dos reis. Antes foi a lápide do arcebispo Juan de Mañozca y Zamora, e conserva uma biografia em latim. A entrada da cripta é, portanto, um túmulo reaproveitado.\n\nPara visitar essas áreas, o acesso é limitado e há visitas guiadas. Pergunte no balcão de atendimento da Catedral, porque os horários e as taxas mudam. Algumas áreas, como o coro, a sacristia, a cripta e as torres, pedem uma doação ou uma taxa.\n\nAo sair, pense no contraste. Em cima, o ouro do Altar dos Reis. Embaixo, o silêncio dos sepulcros. E sob tudo isso, o terreno mole que sustenta os dois, e do qual falaremos em seguida."
+    },
+    "retos_observacion": {
+      "hash": "4438ea91a14e47da",
+      "texto": [
+        "Pergunte no balcão de atendimento se há visitas à sacristia ou à cripta",
+        "Se conseguir entrar na cripta, procure a porta de mármore com o brasão e sua inscrição em latim",
+        "Compare a sobriedade da sacristia com os altares dourados da nave"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a1b4893f7eeafd97",
+      "texto": {
+        "Pintores na Sacristia Maior": "Cristóbal de Villalpando e Juan Correa, final do século XVII",
+        "Criptas": "75, ocupadas 41",
+        "Apodrecedouros": "4",
+        "Construção da cripta atual": "de 1938 ou 1939 a 1942",
+        "Frei Juan de Zumárraga": "1468 a 1548",
+        "Cardeal Ernesto Corripio Ahumada": "1912 a 2008"
+      }
+    },
+    "faq_mito": {
+      "hash": "83779f3e92636fea",
+      "texto": {
+        "pregunta": "Mito: A cripta da Catedral guarda os restos de todos os vice-reis.",
+        "respuesta": "Realidade: A Cripta dos Arcebispos abriga restos de bispos e arcebispos da arquidiocese; os restos de Iturbide estão na capela de São Felipe de Jesus."
+      }
+    }
+  }
+}

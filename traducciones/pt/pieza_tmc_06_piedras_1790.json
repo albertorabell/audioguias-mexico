@@ -1,0 +1,56 @@
+{
+  "id": "tmc_06_piedras_1790",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc8571f404f14433",
+      "texto": "As pedras de mil setecentos e noventa"
+    },
+    "frase_gancho": {
+      "hash": "53e720e22dbbbb60",
+      "texto": "Em um único ano apareceram nesta praça a Coatlicue e a Pedra do Sol, e a segunda acabou colada a uma torre da Catedral."
+    },
+    "puente_narrativo": {
+      "hash": "1ff1f8faa20d6dca",
+      "texto": "Siga agora para a Catedral e entre na nave central."
+    },
+    "guion_corto": {
+      "hash": "8610dd492ffd4aa3",
+      "texto": "Em mil setecentos e noventa, uns operários que abriam uma vala para um canal nesta praça se depararam com duas grandes pedras mexicas. A primeira apareceu em treze de agosto e é a Coatlicue, uma escultura de andesito de dois metros e meio de altura. A segunda surgiu em dezessete de dezembro e é a Pedra do Sol. A Coatlicue foi levada para a universidade e ali voltou a ser enterrada. A Pedra do Sol foi montada em uma das torres desta Catedral, onde ficou até mil oitocentos e oitenta e cinco. Hoje as duas estão no Museu Nacional de Antropologia. Esses achados foram os primeiros avisos da cidade enterrada."
+    },
+    "guion_largo": {
+      "hash": "391a5d8c1918542a",
+      "texto": "Em mil setecentos e noventa, esta praça estava sendo calçada e faziam-se obras de água. Naquele ano, a terra devolveu duas pedras enormes que estavam enterradas havia quase três séculos.\n\nA primeira foi a Coatlicue. Apareceu em treze de agosto, ao se escavar uma vala para um canal, perto do que hoje é o Palácio Nacional. É uma escultura de andesito, talhada em vulto redondo, com cerca de dois metros e meio de altura. É simétrica pela frente e por trás, e cada parte está coberta de relevos. Ela é identificada com a deusa Coatlicue, cujo nome significa a da saia de serpentes. Sua identificação ainda é discutida, e há estudiosas que propuseram que ela representa outras figuras, como as estrelas chamadas tzitzimime.\n\nOs homens da época não sabiam o que fazer com ela. Foi levada para a universidade para ser conservada e estudada. Mas alguns religiosos temeram que os indígenas voltassem a venerá-la e mandaram enterrá-la outra vez em um pátio. Foi desenterrada em mil oitocentos e três para que Alexander von Humboldt pudesse desenhá-la, e outra vez em mil oitocentos e vinte e três, para tirar um molde. Permaneceu ali até a fundação do primeiro Museu Nacional.\n\nA segunda pedra veio à luz em dezessete de dezembro de mil setecentos e noventa, perto da primeira. É a Pedra do Sol, também chamada de Calendário Asteca. É uma enorme escultura de basalto. No centro há um rosto rodeado por signos dos vinte dias do calendário de duzentos e sessenta dias. Durante quase um século acreditou-se que era um calendário, porque assim a interpretou Antonio de León y Gama, que a estudou logo em seguida. Hoje se pensa que foi um altar de sacrifícios, um cuauhxicalli, que quer dizer vaso das águias. Diz-se que foi dedicada por Moctezuma Segundo poucos anos antes da conquista.\n\nAqui vem o dado que se conecta com a Catedral. Depois de aparecer, a Pedra do Sol foi montada em uma das torres deste templo. Ficou embutida na parede do campanário até mil oitocentos e oitenta e cinco, quando foi transferida para o Museu Nacional. Um catálogo de mil oitocentos e oitenta e dois ainda a situa junto a uma das torres. Ou seja, durante quase um século as pessoas passaram por esta praça e viram, colada à Catedral, uma das obras mais representativas da cultura mexica. Não havia uma explicação clara do que era.\n\nEsses achados têm um lugar especial na história da arqueologia mexicana. Foram os primeiros avisos de que a cidade de Tenochtitlan continuava ali embaixo. O Museu do Templo Mayor, aliás, conta a história da pesquisa desde mil setecentos e noventa. Assim se unem a praça, a Catedral e a zona arqueológica.\n\nHoje, tanto a Coatlicue quanto a Pedra do Sol estão no Museu Nacional de Antropologia, em Chapultepec. Não fazem parte deste percurso, mas vale a pena conhecê-las lá.\n\nEnquanto você está aqui, imagine a cena. Uma vala, um grupo de operários, uma pancada de picareta e, de repente, um rosto de pedra. A cidade que parecia esquecida reaparecia sem avisar, e as autoridades de então não souberam se deviam exibi-la, estudá-la ou escondê-la. Essa dúvida acompanha os achados até hoje."
+    },
+    "retos_observacion": {
+      "hash": "d0de566e044714e8",
+      "texto": [
+        "Localize o Palácio Nacional: a Coatlicue apareceu perto dele",
+        "Olhe para as torres da Catedral e imagine uma grande pedra circular embutida em uma delas",
+        "Procure o lugar onde hoje se ergue o mastro da bandeira, no centro da praça"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8dbad0296172f1af",
+      "texto": {
+        "Coatlicue": "encontrada em 13 de agosto de 1790, andesito, cerca de 2,52 m de altura",
+        "Pedra do Sol": "encontrada em 17 de dezembro de 1790, basalto",
+        "Pedra do Sol na torre da Catedral": "até 1885",
+        "Função proposta hoje para a Pedra do Sol": "cuauhxicalli, altar de sacrifícios",
+        "Localização atual de ambas": "Museu Nacional de Antropologia",
+        "Localização do achado": "praça da Constituição, Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "af2c8cb7afd1974e",
+      "texto": {
+        "pregunta": "Mito: A Pedra do Sol é o calendário que os mexicas usavam todos os dias.",
+        "respuesta": "Realidade: Embora mostre os vinte dias do calendário de 260 dias, hoje ela é interpretada como um altar de sacrifícios, um cuauhxicalli, e não como um calendário de uso diário."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "tmc_03_torres_campanas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1f470ba4a2b3120b",
+      "texto": "As torres e os sinos com nome"
+    },
+    "frase_gancho": {
+      "hash": "8b952131b8a4622a",
+      "texto": "Trinta e cinco sinos, e o mais antigo foi fundido em mil quinhentos e setenta e oito."
+    },
+    "puente_narrativo": {
+      "hash": "65a583829e791ee1",
+      "texto": "Dê alguns passos para trás e veja a Catedral inteira, de uma torre à outra. Quando estiver pronto, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "e6f62f47198a2c46",
+      "texto": "Trinta e cinco sinos pendem destas duas torres, e todos têm nome. O mais antigo é Santa María de la Asunción, a quem todos chamam Doña María. Foi fundido em mil quinhentos e setenta e oito e pesa cerca de sete toneladas. Outro dos grandes é conhecido como La Ronca. As torres não foram concluídas ao mesmo tempo que o resto da fachada. No final do século dezoito, o arquiteto mexicano José Damián Ortiz de Castro as ergueu, e o remate delas tem forma de sino. Na torre leste há vinte e três sinos, e na oeste, onze. Se você tiver a sorte de ouvi-los, cada um soa diferente, porque cada um pesa de maneira diferente."
+    },
+    "guion_largo": {
+      "hash": "a0a6c62efc84c146",
+      "texto": "Levante o olhar para as duas torres. Parecem gêmeas, mas foram feitas em momentos diferentes e guardam um tesouro que se ouve mais do que se vê.\n\nA base e o primeiro corpo da torre leste são do século dezessete. As torres, tal como você as vê, foram erguidas no final do século dezoito pelo arquiteto mexicano José Damián Ortiz de Castro. Ele havia vencido um concurso para dirigir a obra, e morreu antes de vê-la concluída. Manuel Tolsá, que chegou à Cidade do México em mil setecentos e noventa e um, continuou o trabalho e o finalizou. O remate de cada torre imita a forma de um sino, e é feito de tezontle, a pedra vulcânica avermelhada muito usada na cidade.\n\nDentro das torres há trinta e cinco sinos. Na torre leste pendem vinte e três, e na oeste, onze. Há mais um em outra parte do templo, perto do coro. Os campanários têm espaço para muitos outros, mas nunca foram preenchidos. A razão que se conta é que, enquanto a catedral era construída, o urgente era fechar os telhados para poder celebrar a missa, e os sinos ficaram em segundo plano.\n\nCada sino tem o seu nome. O mais antigo é Santa María de la Asunción, que o povo conhece como Doña María. Foi fundido em mil quinhentos e setenta e oito, e pesa cerca de sete toneladas. Diz-se que está em sua torre desde mil seiscentos e cinquenta e quatro. Outro sino grande é San José, a quem apelidam de La Ronca, e pesa pouco mais de quatro toneladas. O maior é Santa María de Guadalupe, de cerca de treze toneladas.\n\nO bronze de cada sino, seu peso e sua forma alteram o som. Por isso, quando vários soam ao mesmo tempo, não se ouve um único tom, mas um conjunto com vozes graves e agudas. Eles são tocados em certos momentos do dia, e em datas especiais muitos soam juntos. Entre elas, menciona-se o Natal, o fim de ano, a Páscoa e a festa da Assunção, em quinze de agosto, que é a festa da padroeira da Catedral. Se você coincidir com um repique, vale a pena parar por alguns minutos.\n\nHá também uma curiosidade de carpintaria. A escada do campanário é de cedro, com degraus encaixados e não pregados, e seus postes são de uma peça só. Ela se conserva assim desde a época em que a obra foi concluída. Quem sobe tem uma vista ampla da cidade e da praça.\n\nE é possível subir. Há visitas guiadas ao campanário, que se contratam na entrada do lado leste da Catedral, mediante uma pequena taxa. Os horários e os preços mudam, então convém perguntar no mesmo dia. Se você preferir ficar embaixo, basta levantar o olhar e contar os vãos onde pendem os sinos.\n\nUm último detalhe. Em uma destas torres esteve montada a Pedra do Sol até mil oitocentos e oitenta e cinco. Essa pedra tem uma história própria, ligada a esta praça. Por ora, dê alguns passos para trás e veja a Catedral inteira, de uma torre à outra. Quando estiver pronto, siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "745d211a3c6d758d",
+      "texto": [
+        "Conte as torres e procure no alto os vãos onde pendem os sinos",
+        "Repare no remate de cada torre: tem forma de sino",
+        "Se você estiver na hora de um repique, escute quantos tons diferentes consegue distinguir"
+      ]
+    },
+    "especificaciones": {
+      "hash": "288fdac5e96e6f5f",
+      "texto": {
+        "Sinos no total": "35 (23 na torre leste, 11 na oeste e mais um em outra parte)",
+        "Santa María de la Asunción, Doña María": "fundido em 1578, cerca de 7 toneladas",
+        "San José, La Ronca": "pouco mais de 4 toneladas",
+        "Torres": "Ortiz de Castro, 1787 a 1791, e Manuel Tolsá",
+        "Remate": "forma de sino, em tezontle",
+        "Escada do campanário": "cedro"
+      }
+    },
+    "faq_mito": {
+      "hash": "f3379d788e70aff9",
+      "texto": {
+        "pregunta": "Mito: As torres da Catedral foram feitas junto com a fachada principal.",
+        "respuesta": "Realidade: A parte central da fachada foi concluída em 1675, e as torres foram erguidas no final do século XVIII."
+      }
+    }
+  }
+}

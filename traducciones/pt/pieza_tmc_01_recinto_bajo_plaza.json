@@ -1,0 +1,56 @@
+{
+  "id": "tmc_01_recinto_bajo_plaza",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "79af81581984d7b3",
+      "texto": "A praça e o Recinto Sagrado de Tenochtitlan"
+    },
+    "frase_gancho": {
+      "hash": "ad729a7aeb7e4fdd",
+      "texto": "Toda esta região do Centro foi erguida sobre uma cidade lacustre que teve um recinto com até setenta e oito templos."
+    },
+    "puente_narrativo": {
+      "hash": "6366e5a1f836733b",
+      "texto": "Atravesse para o lado norte da praça, diante da Catedral, e comece pela fachada principal."
+    },
+    "guion_corto": {
+      "hash": "2345b9c18b61a9f4",
+      "texto": "Tudo o que você vê ao seu redor foi erguido sobre outra cidade. Segundo a tradição, os Mexica se estabeleceram em uma ilhota do lago de Texcoco por volta de mil trezentos e vinte e cinco. Ganharam terreno da água com aterros, estacas, canais, diques e pontes. No centro de Tenochtitlan havia um recinto sagrado, e as crônicas dizem que ele chegou a ter até setenta e oito templos. Hoje essa cidade está coberta, mas não desapareceu. Este guia leva você por duas de suas camadas. A primeira é a Catedral Metropolitana, que os espanhóis começaram a construir no século dezesseis. A segunda é o Templo Mayor, que ficou enterrado durante séculos. Começamos aqui, na praça, para que você saiba onde está."
+    },
+    "guion_largo": {
+      "hash": "06f3e2531575521b",
+      "texto": "Este guia vai da cidade espanhola à cidade mexica, e convém começar entendendo o que há debaixo dos seus pés.\n\nSegundo a tradição, os Mexica se estabeleceram em uma ilhota do lago de Texcoco por volta de mil trezentos e vinte e cinco. O terreno era pouco, e por isso foram ampliando-o. Com aterros, estacas de madeira, canais, diques e pontes, ganharam terra do lago até alcançar cerca de treze quilômetros quadrados e meio. Essa cidade se chamou México-Tenochtitlan. Teve onze governantes, e sua queda chegou em mil quinhentos e vinte e um, depois da guerra com os espanhóis e seus aliados indígenas.\n\nNo centro da cidade havia um espaço reservado, o Recinto Sagrado. Ali ficava o Templo Mayor, que os Mexica chamavam de Huey Teocalli, a casa grande do deus. Eles o consideravam o umbigo do universo. Segundo as crônicas da Nova Espanha, o recinto chegou a ter até setenta e oito edifícios, entre templos, altares, plataformas, escolas e quadras do jogo de bola. Nem todos podiam entrar. Tinham acesso permanente os sacerdotes, os guerreiros, os governantes e os estudantes do Calmécac, a escola dos filhos dos nobres. As pessoas comuns entravam durante as festas.\n\nQuando a cidade caiu, Hernán Cortés decidiu que ali mesmo ficaria a capital da Nova Espanha. Os espanhóis derrubaram o Templo Mayor, e suas pedras foram reaproveitadas como alicerces de edifícios do vice-reinado. Essa é uma boa maneira de ver o que aconteceu. Não se levantou uma cidade nova em um lugar vazio, e sim sobre outra que ainda estava de pé. A Catedral que você tem diante de si faz parte dessa história. Foi construída em uma parte dos terrenos do antigo recinto, e por isso seu solo mole e sua fundação deram tantos problemas.\n\nDo Templo Mayor se soube pouco durante séculos. Houve achados isolados em mil setecentos e noventa, e Manuel Gamio descobriu uma esquina do edifício em mil novecentos e treze. Mas a grande descoberta chegou em mil novecentos e setenta e oito, quando apareceu por acaso uma pedra circular. Falaremos dela mais adiante.\n\nAssim está organizado este percurso. Primeiro você contornará a Catedral por fora e depois entrará, se estiver aberta. Em seguida irá à zona arqueológica do Templo Mayor e ao seu museu. A Catedral costuma ter entrada gratuita, embora algumas áreas peçam uma taxa ou uma doação. A zona arqueológica e o museu têm um único ingresso, e convém consultar os dias e horários em vigor antes de ir. Se hoje você quer apenas uma parte, escolha uma das rotas mais curtas.\n\nAgora olhe ao redor. A Catedral fecha o lado norte da praça. As ruínas do Templo Mayor não se veem daqui: ficam atrás da Catedral, em direção ao leste, a algumas centenas de metros. Essa curta distância atravessa dois mundos. Comece pelo que você vê de frente, e leve consigo a pergunta de quantas camadas cabem em um mesmo lugar."
+    },
+    "retos_observacion": {
+      "hash": "c402ee26ef0db43e",
+      "texto": [
+        "Procure a Catedral no lado norte da praça e calcule quanto ela mede de largura",
+        "Imagine o lago chegando até onde você está: a cidade era rodeada de água",
+        "Localize, em direção ao leste, o rumo em que ficam as ruínas do Templo Mayor, atrás da Catedral"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a0bf74e217269cad",
+      "texto": {
+        "Fundação segundo a tradição": "por volta de 1325",
+        "Superfície ganha do lago": "cerca de 13,5 km²",
+        "Governantes de Tenochtitlan": "11",
+        "Queda da cidade": "1521",
+        "Edifícios do Recinto Sagrado segundo as crônicas": "até 78",
+        "Localização": "praça da Constituição, Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "8193d03a93403e36",
+      "texto": {
+        "pregunta": "Mito: Os espanhóis construíram a Cidade do México em um lugar vazio.",
+        "respuesta": "Realidade: A capital da Nova Espanha foi erguida sobre Tenochtitlan, e as pedras do Templo Mayor foram reaproveitadas como alicerces de edifícios do vice-reinado."
+      }
+    }
+  }
+}

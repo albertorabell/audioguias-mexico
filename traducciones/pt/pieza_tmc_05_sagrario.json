@@ -1,0 +1,56 @@
+{
+  "id": "tmc_05_sagrario",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fbbc0372b4bb2a9b",
+      "texto": "O Sagrário: um retábulo de pedra"
+    },
+    "frase_gancho": {
+      "hash": "a06640b6e96839e3",
+      "texto": "Uma igreja à parte, colada à Catedral, cuja fachada parece um retábulo entalhado em pedra."
+    },
+    "puente_narrativo": {
+      "hash": "c8e8a240c1211e5d",
+      "texto": "Quando estiver pronto, siga para a próxima parada do seu percurso."
+    },
+    "guion_corto": {
+      "hash": "fcbcae763acb7000",
+      "texto": "Colado à Catedral há outro templo, muito menor e muito mais ornamentado. É o Sagrário Metropolitano. Um sacrário é o lugar onde se guarda o que há de mais sagrado em uma igreja, e com o tempo este se tornou a paróquia do conjunto. Foi projetado pelo arquiteto Lorenzo Rodríguez, e sua construção começou em mil setecentos e quarenta e nove. É um dos grandes exemplos do barroco novo-hispânico no estilo chamado churrigueresco. Seu traço principal é o estípite, um suporte que se afina em direção à base e cobre a fachada de cima a baixo. Da rua, cada nível de pedra entalhada pede para ser contemplado devagar."
+    },
+    "guion_largo": {
+      "hash": "140eb2c6a2708b9e",
+      "texto": "Colado ao lado leste da Catedral está o Sagrário Metropolitano. Se a Catedral é grande e variada, este edifício é compacto e de uma só ideia.\n\nA palavra sacrário vem do sagrado. É o lugar onde se guarda o que há de mais venerado em uma igreja, sobretudo o sacramento da Eucaristia. Neste caso, também foram guardados documentos e as vestes dos clérigos. Com o tempo, o Sagrário passou a ser a igreja paroquial do conjunto da Catedral, o espaço onde se mantinham o registro e a administração dos sacramentos. Não é um adorno da Catedral, mas uma igreja com sua própria história.\n\nSeu arquiteto foi Lorenzo Rodríguez. Nasceu em Guadix, no sul da Espanha, e se formou com o pai, que era o arquiteto principal do bispado dessa cidade. Depois trabalhou em Cádiz e, mais tarde, chegou à capital da Nova Espanha. No início trabalhou como carpinteiro na Casa da Moeda. Por volta de mil setecentos e quarenta e um obteve o grau de mestre na corporação dos arquitetos. Sua obra mais famosa é este Sagrário, cuja construção começou em mil setecentos e quarenta e nove e durou quase vinte anos.\n\nO resultado é um dos grandes monumentos do barroco novo-hispânico, no estilo que se chama churrigueresco. Seu traço principal é o estípite. É um suporte que se afina para baixo, ao contrário de uma coluna comum, e que aqui cobre a fachada principal de cima a baixo. Rodríguez conheceu essa tradição na Andaluzia de sua juventude, mas a levou mais longe, com mais detalhe e mais relevo. Entre os estípites há nichos com estátuas de apóstolos e de outras figuras.\n\nUm historiador da época, o bacharel Juan de Viera, descreveu a cidade em mil setecentos e setenta e sete. Falou dos maravilhosos estípites e das belíssimas estátuas desta fachada, e acrescentou que muitos artífices copiaram essa escultura. Isso explica por que o estilo viajou tão longe. Teve grande influência na região mineira de Guanajuato.\n\nPerceba que nem toda a ornamentação é igual. O historiador Manuel González Galván observou que a fachada principal está repleta de estípites, enquanto as portadas menores usam pilastras mais sóbrias, com estrias. Esse contraste faz com que a parte central se destaque ainda mais. Um dos relevos das portadas representa o batismo da Virgem, um tema que não aparece nos evangelhos. Existe um relevo gêmeo com o batismo de Cristo na portada do lado leste.\n\nO material também conta uma história. A fachada combina pedra de cantaria de cor clara com tezontle, uma rocha vulcânica avermelhada. A pedra de cantaria vem de Chiluca, uma jazida de pedra muito usada nos edifícios da cidade. O contraste entre as duas cores faz com que os relevos sobressaiam.\n\nO solo também deixou sua marca. Em mil novecentos e trinta e três foram demolidos os edifícios do lado leste da Catedral, entre eles o antigo Seminário. No ano seguinte começou a recalçadura das fundações do Sagrário, que continuava em novembro de mil novecentos e trinta e cinco. O sismo de dois mil e dezessete deixou danos em todo o conjunto da Catedral.\n\nSe decidir entrar, é um templo aberto ao culto, então convém consultar os horários. Da rua, a leitura já é suficiente. Quando estiver pronto, siga para a próxima parada do seu percurso."
+    },
+    "retos_observacion": {
+      "hash": "6a7a957e4445d694",
+      "texto": [
+        "Conte os estípites da portada: você percebe como eles se afinam para baixo?",
+        "Procure o contraste entre a pedra de cantaria clara e o tezontle avermelhado",
+        "Compare a portada principal com as portadas laterais, mais sóbrias"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6a5dc5fa75196190",
+      "texto": {
+        "Arquiteto": "Lorenzo Rodríguez",
+        "Início da obra": "1749, quase 20 anos de construção",
+        "Estilo": "barroco novo-hispânico, churrigueresco",
+        "Materiais": "pedra de cantaria e tezontle",
+        "Recalçadura das fundações": "iniciada em 1934",
+        "Localização": "lado leste da Catedral"
+      }
+    },
+    "faq_mito": {
+      "hash": "6115a82e8436d53f",
+      "texto": {
+        "pregunta": "Mito: O Sagrário é uma capela da Catedral.",
+        "respuesta": "Realidade: Foi a igreja paroquial do conjunto da catedral, com sua própria história e seu próprio edifício, projetado por Lorenzo Rodríguez."
+      }
+    }
+  }
+}

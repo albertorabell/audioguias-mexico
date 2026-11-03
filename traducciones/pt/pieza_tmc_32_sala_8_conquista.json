@@ -1,0 +1,59 @@
+{
+  "id": "tmc_32_sala_8_conquista",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Templo Mayor\" para \"Templo Mayor\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "47d3f3a8a67bf6e1",
+      "texto": "Sala oito: a conquista e a oferenda colonial de mil setecentos e noventa"
+    },
+    "frase_gancho": {
+      "hash": "a867d7649a511eed",
+      "texto": "Quando o templo caiu, a cidade nova se ergueu por cima e deixou a sua própria oferenda."
+    },
+    "puente_narrativo": {
+      "hash": "9c5d7b89c3cfc29e",
+      "texto": "Saia do museu e caminhe para o poente pela rua Guatemala, até o número vinte e quatro."
+    },
+    "guion_corto": {
+      "hash": "17f96668d522a408",
+      "texto": "A Sala oito conta o que aconteceu quando os espanhóis chegaram. Ela percorre a conquista, entre mil quinhentos e dezenove e mil quinhentos e vinte e um. Mostra fragmentos de outra Coyolxauhqui de grande tamanho, que foi destruída pelos espanhóis. Também apresenta objetos relacionados ao Galeão de Manila, com referência ao ano mil quinhentos e setenta e cinco, e uma oferenda colonial de mil setecentos e noventa. Essa oferenda foi feita para a Capela das Almas e foi localizada em seis de novembro de mil novecentos e noventa e seis. É a sala que une a cidade mexica à cidade vice-reinal. Vale a pena vê-la com calma, porque ela encerra o percurso do museu."
+    },
+    "guion_largo": {
+      "hash": "b44ddd0c6b88e157",
+      "texto": "Você chega à última sala do museu, e é a que conta o que aconteceu depois. Seu tema é a arqueologia histórica, ou seja, os vestígios da época colonial que foram encontrados junto aos mexicas.\n\nA sala começa com a conquista. O processo ocorreu entre mil quinhentos e dezenove e mil quinhentos e vinte e um. Foram anos de guerra, de alianças e, no final, da queda de Tenochtitlan, a cidade que você está pisando hoje. O que importa aqui é o que aconteceu com os templos: os espanhóis os destruíram, e sobre eles foi crescendo a cidade nova. Essa transformação foi profunda e muito rápida, se comparada aos séculos que o templo levou para ser construído.\n\nEssa destruição deixa uma marca na sala. Ali estão expostos fragmentos de outra grande figura da deusa, que foi destruída pelos espanhóis. Se você ainda tem fresco na memória o monólito original que viu há pouco, esta peça se torna muito eloquente. O que você tem diante de si é uma peça quebrada, e o seu estado conta a história do que se perdeu.\n\nDepois, a sala passa a outros objetos da época vice-reinal. Entre eles há peças relacionadas ao Galeão de Manila, o navio que ligava as Filipinas à Nova Espanha. O museu menciona o ano mil quinhentos e setenta e cinco. É um lembrete de que a cidade, já convertida em capital vice-reinal, fazia parte de uma rede de comércio que atravessava o oceano. A sala permite ver essa conexão por meio de objetos concretos.\n\nHá também uma oferenda colonial, do ano mil setecentos e noventa. Ela foi feita para a Capela das Almas e foi localizada em seis de novembro de mil novecentos e noventa e seis. É uma oferenda diferente das dos mexicas, porque pertence à tradição cristã, mas compartilha a ideia de enterrar objetos com uma intenção. É uma ponte entre dois mundos. Olhá-la de perto ajuda a entender que, sob a praça, não há uma única época, mas várias, empilhadas.\n\nA data, mil setecentos e noventa, já apareceu nesta visita. Foi o ano em que se encontraram esculturas mexicas na praça, segundo a Sala um. Que as duas coisas coincidam no ano é apenas uma coincidência de datas, mas convida a pensar no que acontecia na cidade naquele momento. Assim, a última sala se conecta com a primeira.\n\nAntes de sair, pense no que você percorreu. Você começou com o templo maior dos mexicas e termina com objetos de uma cidade vice-reinal. Em um mesmo lugar, sob a mesma praça, convivem camadas de mais de cinco séculos. É isso que torna este lugar tão especial.\n\nQuando você sair do museu, vai voltar à rua. A última parada desta visita convida você a olhar o conjunto: o templo, a Catedral e o solo que os une."
+    },
+    "retos_observacion": {
+      "hash": "b879de7e77285faa",
+      "texto": [
+        "Procure os fragmentos da Coyolxauhqui monumental destruída",
+        "Localize os objetos relacionados ao Galeão de Manila",
+        "Encontre a oferenda colonial de 1790 e compare-a com as oferendas mexicas da Sala 2"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bcfabae1544c0e4e",
+      "texto": {
+        "Sala": "8, Arqueologia histórica",
+        "Conquista": "de 1519 a 1521",
+        "Galeão de Manila": "referência ao ano 1575",
+        "Oferenda colonial": "1790, para a Capela das Almas",
+        "Localizada": "6 de novembro de 1996"
+      }
+    },
+    "faq_mito": {
+      "hash": "4883f8b14c28d64b",
+      "texto": {
+        "pregunta": "Mito: Só foram encontrados vestígios mexicas no Templo Mayor.",
+        "respuesta": "Realidade: A Sala 8 mostra vestígios da época vice-reinal, como uma oferenda colonial de 1790."
+      }
+    }
+  }
+}

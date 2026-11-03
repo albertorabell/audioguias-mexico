@@ -1,0 +1,56 @@
+{
+  "id": "tmc_11_capillas_veneno",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "832c184ecb17da30",
+      "texto": "As capelas laterais e o Senhor do Veneno"
+    },
+    "frase_gancho": {
+      "hash": "32ed46a0fe420af1",
+      "texto": "Dezesseis capelas, catorze abertas, e um Cristo de cana de milho que é venerado há séculos."
+    },
+    "puente_narrativo": {
+      "hash": "8c835d5c9e5385eb",
+      "texto": "Entre as capelas, procure a de São Felipe de Jesus, onde descansam os restos de Agustín de Iturbide."
+    },
+    "guion_corto": {
+      "hash": "e8cac4bffec00841",
+      "texto": "Dos lados das naves abrem-se as capelas laterais. A Catedral tem dezesseis, e catorze estão abertas ao público. Cada uma é dedicada a um santo ou a uma invocação e, na época vice-reinal, foi patrocinada por uma ordem religiosa ou por uma confraria. Entre elas há capelas das Relíquias, dos Anjos, de São Pedro e de São Felipe de Jesus. Uma das imagens mais veneradas é o Senhor do Veneno, um Cristo crucificado feito de pasta de cana de milho, do século dezoito. Vem do noviciado dominicano de Porta Coeli. Outra é o Senhor do Cacau."
+    },
+    "guion_largo": {
+      "hash": "95f34d1b5f81801c",
+      "texto": "Caminhe por uma das naves laterais e você verá uma sucessão de capelas, cada uma com seu altar, seu retábulo e seu ambiente. Este é um dos lugares mais ricos da Catedral, porque cada capela funciona como uma igreja pequena dentro da grande.\n\nA Catedral tem dezesseis capelas, das quais catorze estão abertas aos visitantes. Elas recebem o nome de seu santo ou de sua invocação. Entre elas aparecem as capelas das Relíquias, dos Anjos, de São Pedro e de São José. Também estão as de Nossa Senhora de Guadalupe, de São Felipe de Jesus, das Dores e da Soledade. Os nomes e a ordem podem variar conforme as obras e as restrições do dia.\n\nA razão de tantas capelas está na maneira como o edifício foi construído. Cada uma foi patrocinada por uma ordem religiosa, um grêmio ou uma confraria, que pagava o altar e, em troca, reservava para si um espaço para o seu culto e, às vezes, para os seus sepultamentos. Por isso as capelas têm estilos diferentes. Algumas são sóbrias e outras cheias de ouro, conforme a época e o dinheiro de quem as encomendou.\n\nNesse conjunto há imagens que as pessoas continuam visitando. Uma é o Senhor do Veneno, também chamado Cristo Negro. É uma escultura de um Cristo crucificado, feita em pasta de cana de milho, uma técnica da Nova Espanha que permitia figuras leves. Segundo o INAH, é do século dezoito e vem do noviciado dominicano de Porta Coeli, na Cidade do México. Passou para a Catedral no século vinte, por volta das décadas de vinte ou trinta.\n\nÉ uma das imagens mais visitadas da Catedral. Essa devoção faz parte da vida atual do templo, não é um enfeite para turistas.\n\nOutra imagem conhecida é a do Senhor do Cacau, que se associa à capela de São José. Na época colonial, deixavam-se para ele oferendas de cacau, que então era uma semente valiosa e também se usava como moeda. É um lembrete de que as oferendas dependiam do que as pessoas tinham à mão, e de que o culto se misturava com a economia.\n\nAs capelas também guardam retábulos, pinturas e esculturas de diferentes épocas. Destacam-se a capela das Relíquias, a dos Anjos e a de São Pedro. Se você tiver tempo, entre nas que estiverem abertas e fique um pouco em alguma delas. Você verá como o ambiente muda ao passar da nave principal, ampla e solene, para um espaço mais íntimo.\n\nHá mais uma que merece uma parada à parte. É a capela de São Felipe de Jesus, que guarda a urna com os restos de Agustín de Iturbide. Falaremos dela em seguida.\n\nAo percorrer as capelas, lembre-se de que algumas estão fechadas por restauração, por missas ou por celebrações. Não é um museu, e sim um templo em uso, e alguns espaços só abrem em certos horários. Se encontrar uma fechada, olhe pela grade e siga em frente."
+    },
+    "retos_observacion": {
+      "hash": "a4136e89936b2bd7",
+      "texto": [
+        "Conte quantas capelas você vê de um único lado da nave",
+        "Procure em alguma capela o nome do santo ou da invocação na parte alta do retábulo",
+        "Observe se há pessoas rezando diante de alguma imagem venerada"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d6c8a3b101ac4ee",
+      "texto": {
+        "Capelas": "16, abertas ao público: 14",
+        "Senhor do Veneno": "Cristo de pasta de cana de milho, século XVIII",
+        "Procedência": "noviciado dominicano de Porta Coeli",
+        "Chegada à Catedral": "século XX",
+        "Senhor do Cacau": "associado à capela de São José",
+        "Patrocínio": "ordens religiosas e confrarias"
+      }
+    },
+    "faq_mito": {
+      "hash": "2b25b9689c6abfb2",
+      "texto": {
+        "pregunta": "Mito: O Senhor do Veneno é uma escultura pré-hispânica.",
+        "respuesta": "Realidade: É um Cristo crucificado do século XVIII, feito em pasta de cana de milho, que vem do noviciado dominicano de Porta Coeli."
+      }
+    }
+  }
+}

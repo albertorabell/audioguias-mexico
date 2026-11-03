@@ -1,0 +1,56 @@
+{
+  "id": "tmc_04_obra_larga",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2d010ffa1ecaa778",
+      "texto": "Duzentos e quarenta anos de obra"
+    },
+    "frase_gancho": {
+      "hash": "57a692ea6663751a",
+      "texto": "Uma primeira igreja pequena, uma planta assinada pelo rei e uma catedral que foi concluída em mil oitocentos e treze."
+    },
+    "puente_narrativo": {
+      "hash": "95f7be65697c1ca8",
+      "texto": "Siga em direção ao lado da Catedral e procure o edifício mais pequeno e mais ornamentado, colado a ela."
+    },
+    "guion_corto": {
+      "hash": "c824aae4d16c2412",
+      "texto": "A Catedral levou cerca de duzentos e quarenta anos para ser concluída. Antes houve uma primeira igreja, mais pequena, que foi iniciada em mil quinhentos e vinte e quatro, mas foi considerada incômoda e escura. Em meados do século dezesseis, decidiu-se levantar outra, muito maior. Uma planta assinada pelo rei Filipe Segundo em mil quinhentos e sessenta e nove foi seguida a partir de mil quinhentos e setenta e três, com o traçado de Claudio de Arciniega. A igreja nova pôde ser usada por dentro muito antes de estar completa, porque foi sendo construída por partes. O interior foi fechado no século dezessete, e o exterior foi dado por concluído em mil oitocentos e treze."
+    },
+    "guion_largo": {
+      "hash": "42ca3fd8216e4afc",
+      "texto": "Uma catedral como esta não se constrói de uma só vez. Esta levou cerca de duzentos e quarenta anos, e por isso convém entender as suas etapas.\n\nPrimeiro houve uma igreja anterior. Foi iniciada em mil quinhentos e vinte e quatro, pouco depois da conquista, e ficava um pouco ao sul de onde está a atual. Era uma igreja de três naves e, com o tempo, foi considerada incômoda, escura e úmida. Em meados do século dezesseis, a cidade já era a capital de um vice-reinado e queria um templo à altura. Por isso decidiu-se construir outro, muito maior.\n\nA planta que foi seguida foi assinada pelo rei Filipe Segundo em mil quinhentos e sessenta e nove. Os trabalhos formais começaram em mil quinhentos e setenta e três. O traçado é atribuído a Claudio de Arciniega, um arquiteto que trabalhou na Nova Espanha. A igreja velha se manteve de pé até que fosse possível celebrar missa em uma parte da nova. Assim, a cidade nunca ficou sem catedral enquanto a outra era construída.\n\nO solo complicou tudo desde o princípio. A Catedral está sobre o terreno mole e aterrado da antiga ilha. Embaixo há vestígios pré-hispânicos. Já em mil quinhentos e sessenta e dois a fundação começou a afundar. Foi refeita com uma massa de pedra sobre estacas, e esse trabalho foi dado por concluído em mil seiscentos e quinze. Nessa fundação foram cravadas milhares de estacas de madeira.\n\nAs abóbadas foram sendo fechadas a partir de mil quinhentos e oitenta e um. A última foi fechada em vinte e dois de junho de mil seiscentos e sessenta e sete, e considera-se que nesse ano termina a obra do interior. Ainda faltavam as torres e boa parte do exterior. Uma inundação em mil seiscentos e vinte e nove obrigou a interromper o trabalho. Depois, o arquiteto Juan Gómez de Trasmonte o continuou. A parte central da fachada foi concluída por Cristóbal de Medina Vargas em mil seiscentos e setenta e cinco.\n\nNo final do século dezoito foram levantadas as torres, sob a direção de José Damián Ortiz de Castro. Quando ele morreu, o escultor e arquiteto Manuel Tolsá encarregou-se de terminar o exterior. Refez a cúpula, colocou as balaustradas e esculpiu figuras. Em mil oitocentos e treze, a obra foi dada por concluída. Haviam se passado cerca de dois séculos e meio.\n\nPor isso esta Catedral parece um resumo visível dos estilos da Nova Espanha. O plano original tem um ar de Renascimento, com sua ordem e sua sobriedade. No interior e na fachada central domina o barroco. No coroamento e na cúpula aparece o neoclassicismo, que preferia as linhas limpas. Não há uma unidade perfeita, mas sim uma unidade construída com tempo.\n\nPara terminar esta parada, pense no que significa construir algo que nem você nem seus filhos verão terminado. Nesse tipo de projeto trabalha-se com paciência e com fé. Mais adiante você verá como essa paciência continua sendo necessária, porque o solo não para de se mexer."
+    },
+    "retos_observacion": {
+      "hash": "366372509b33ce44",
+      "texto": [
+        "Procure na fachada as partes mais antigas e as mais recentes",
+        "Compare a sobriedade da planta geral com o adorno da portada central",
+        "Imagine o terreno sem Catedral, com a igreja velha um pouco ao sul"
+      ]
+    },
+    "especificaciones": {
+      "hash": "9e57c6fb2bbf5194",
+      "texto": {
+        "Primera iglesia": "iniciada em 1524",
+        "Plano firmado por Felipe II": "1569",
+        "Inicio formal de la obra actual": "1573",
+        "Última bóveda cerrada": "22 de junho de 1667",
+        "Parte central de la fachada": "1675",
+        "Obra exterior concluida": "1813"
+      }
+    },
+    "faq_mito": {
+      "hash": "f929265d356b3240",
+      "texto": {
+        "pregunta": "Mito: A Catedral foi construída em cima do Templo Mayor.",
+        "respuesta": "Realidade: A Catedral ocupa uma parte do antigo Recinto Sagrado, mas o Templo Mayor ficou a leste, atrás dela, e só foi descoberto no século XX."
+      }
+    }
+  }
+}

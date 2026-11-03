@@ -1,0 +1,53 @@
+{
+  "id": "tmc_20_muro_craneos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "aae241fa71eb47a5",
+      "texto": "O Altar Tzompantli e o muro de crânios"
+    },
+    "frase_gancho": {
+      "hash": "179284e2773e2a04",
+      "texto": "Crânios de pedra diante do santuário de Huitzilopochtli."
+    },
+    "puente_narrativo": {
+      "hash": "796764b3c2506ae9",
+      "texto": "Continue pela passarela em direção aos Templos Vermelhos e à Casa das Águias."
+    },
+    "guion_corto": {
+      "hash": "6aa5f6d177a2f57a",
+      "texto": "Diante do santuário de Huitzilopochtli foi encontrada, em mil novecentos e oitenta, uma plataforma decorada com fileiras de crânios talhados em pedra. Ela é conhecida como Altar Tzompantli. Um tzompantli era uma estrutura onde os mexicas exibiam crânios de pessoas sacrificadas, e as crônicas contam que havia vários no recinto sagrado. Este altar não guarda crânios reais em seus muros, mas sua representação em pedra, e evocava o sacrifício e a guerra. É um dos pontos imperdíveis da visita, junto com a Casa das Águias e os Templos Vermelhos."
+    },
+    "guion_largo": {
+      "hash": "f396022218e0f523",
+      "texto": "Olhe a plataforma que está à sua frente. Ela é decorada com fileiras de pequenas caveiras de pedra, e é uma das imagens mais reconhecíveis do Templo Mayor.\n\nEla é conhecida como Altar Tzompantli ou muro de crânios. Foi encontrada em mil novecentos e oitenta, diante do santuário de Huitzilopochtli. É um dos pontos imperdíveis da visita, junto com a Casa das Águias, os Templos Vermelhos e a Etapa II.\n\nA palavra tzompantli vem do náuatle e se relaciona com a ideia de fileira de crânios. Era uma estrutura onde os mexicas exibiam as cabeças de pessoas sacrificadas. As crônicas espanholas falam de vários tzompantli em Tenochtitlan, e a arqueologia confirmou pelo menos um de grande tamanho. Frei Bernardino de Sahagún, por exemplo, menciona várias estruturas desse tipo no recinto sagrado.\n\nÉ importante distinguir entre o altar que você vê aqui e um tzompantli real. Neste altar, as caveiras são esculturas de pedra, talhadas uma ao lado da outra, e decoram os muros da plataforma. Não são crânios de verdade. Funcionava como uma representação simbólica, e sua localização diante do santuário de Huitzilopochtli o conecta com o tema da guerra e do sacrifício.\n\nPor que o sacrifício importava tanto para os mexicas? Segundo essa visão, os deuses haviam dado seu sangue para criar a vida. Os humanos deviam devolvê-lo para manter a ordem do universo. Essa é a explicação que costuma ser dada, embora os especialistas a discutam e a matizem. É uma ideia difícil, que convém entender dentro de seu contexto, e você verá o tema em várias salas do museu.\n\nSe você observar com atenção, notará que as caveiras de pedra estão dispostas em fileiras e que cada uma tem traços parecidos, mas não idênticos. O efeito visual é o de uma parede cheia de olhos e dentes. É uma maneira de lembrar a quem se aproximava que aquele lugar era dedicado à guerra.\n\nMais adiante falaremos de um tzompantli muito maior, descoberto em dois mil e quinze a poucos metros daqui, em uma rua próxima. Esse sim tinha crânios reais.\n\nPor ora, repare na localização do altar. Ele está diante do santuário de Huitzilopochtli, no eixo da pirâmide, e por isso é visto como parte do mesmo conjunto. Tudo nesta zona segue uma ordem, e o altar ajuda a situar o santuário do sul em meio às ruínas. Se você já distinguiu as duas metades da pirâmide, este é um bom ponto de referência para não se perder ao caminhar. Daqui, a próxima parada leva você a outros edifícios do recinto, menores, mas igualmente interessantes, que completam a ideia de um conjunto sagrado."
+    },
+    "retos_observacion": {
+      "hash": "6832dfe1d2ff5ad0",
+      "texto": [
+        "Conte quantas fileiras de caveiras você consegue distinguir na plataforma",
+        "Repare que os crânios são de pedra talhada, não reais",
+        "Localize o altar em relação ao santuário de Huitzilopochtli"
+      ]
+    },
+    "especificaciones": {
+      "hash": "dd67613a03002092",
+      "texto": {
+        "Descobrimento": "1980",
+        "Localização": "diante do santuário de Huitzilopochtli",
+        "Material": "pedra com crânios talhados"
+      }
+    },
+    "faq_mito": {
+      "hash": "f5cb51b9c0ec002f",
+      "texto": {
+        "pregunta": "Mito: O Altar Tzompantli é feito com crânios humanos reais.",
+        "respuesta": "Realidade: As caveiras deste altar são esculturas de pedra; os crânios reais apareceram no Huei Tzompantli, descoberto em 2015."
+      }
+    }
+  }
+}
