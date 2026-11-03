@@ -20,7 +20,7 @@ export const DE_GROUPS: Record<string, any> = {
     premium: 'Premium',
     museumName: 'Nationalmuseum für Anthropologie',
     roomWord: 'Saal',
-    languageNames: { es: 'Spanisch', en: 'Englisch', fr: 'Französisch', pl: 'Polnisch', de: 'Deutsch', pt: 'Portugiesisch', ru: 'Russisch', ja: 'Japanisch' },
+    languageNames: { es: 'Spanisch', en: 'Englisch', fr: 'Französisch', pl: 'Polnisch', de: 'Deutsch', pt: 'Portugiesisch', it: 'Italienisch', ru: 'Russisch', ja: 'Japanisch' },
   },
   chrome: {
     nav: {

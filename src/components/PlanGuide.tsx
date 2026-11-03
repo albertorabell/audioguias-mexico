@@ -5,7 +5,7 @@ import { useLanguage } from '../utils/LanguageContext';
 import { PB_IMG, PB_ROOMS, PB_SIZE } from '../config/mnaPlan';
 import { ENTRANCE, ENTRANCE_ZONE, computePlan, legPoints, stepsOf } from '../config/mnaGeo';
 
-type Lang = 'es' | 'en' | 'fr' | 'pl' | 'de' | 'pt';
+type Lang = 'es' | 'en' | 'fr' | 'pl' | 'de' | 'pt' | 'it';
 export type PlanGeo = ReturnType<typeof computePlan>;
 
 const T: Record<Lang, Record<string, string>> = {
@@ -15,6 +15,7 @@ const T: Record<Lang, Record<string, string>> = {
   pl: { arrive: 'Jak tu dojść', next: 'Jak dojść do następnego', entrance: 'Od głównego wejścia', steps: 'kroków', room: 'Sala', same: 'W tej samej sali', front: 'prosto przed siebie', right: 'po prawej', left: 'po lewej', back: 'za tobą, zawróć', east: 'prawe skrzydło muzeum (po wejściu, po prawej)', west: 'lewe skrzydło muzeum (po wejściu, po lewej)', far: 'w głębi muzeum, za dziedzińcem', z0: 'na zewnątrz, na placu', z05: 'w holu', z07: 'na dziedzińcu', approx: 'Orientacyjnie' },
   de: { arrive: 'So kommst du hierher', next: 'So kommst du zum nächsten', entrance: 'Vom Haupteingang', steps: 'Schritte', room: 'Saal', same: 'Im selben Saal', front: 'geradeaus', right: 'rechts von dir', left: 'links von dir', back: 'hinter dir, dreh dich um', east: 'rechter Flügel des Museums (beim Eintreten rechts)', west: 'linker Flügel des Museums (beim Eintreten links)', far: 'im hinteren Teil des Museums, hinter dem Innenhof', z0: 'draußen, auf dem Vorplatz', z05: 'in der Eingangshalle', z07: 'im zentralen Innenhof', approx: 'Ungefähr' },
   pt: { arrive: 'Como chegar aqui', next: 'Como chegar à próxima', entrance: 'Da entrada principal', steps: 'passos', room: 'Sala', same: 'Na mesma sala', front: 'em frente', right: 'à sua direita', left: 'à sua esquerda', back: 'atrás de você, vire-se', east: 'ala direita do museu (ao entrar, à sua direita)', west: 'ala esquerda do museu (ao entrar, à sua esquerda)', far: 'no fundo do museu, depois do pátio', z0: 'do lado de fora, na esplanada', z05: 'no saguão', z07: 'no pátio central', approx: 'Aproximado' },
+  it: { arrive: 'Come arrivare qui', next: 'Come arrivare alla prossima', entrance: 'Dall’ingresso principale', steps: 'passi', room: 'Sala', same: 'Nella stessa sala', front: 'dritto davanti a te', right: 'alla tua destra', left: 'alla tua sinistra', back: 'dietro di te, girati', east: 'ala destra del museo (entrando, alla tua destra)', west: 'ala sinistra del museo (entrando, alla tua sinistra)', far: 'in fondo al museo, oltre il patio', z0: 'fuori, sulla spianata', z05: 'nell’atrio', z07: 'nel patio centrale', approx: 'Approssimativo' },
 };
 
 const HEAD: Record<string, [number, number]> = { up: [0, -1], down: [0, 1], left: [-1, 0], right: [1, 0] };
@@ -41,7 +42,7 @@ interface Props {
 /** Tarjeta "cómo llegar": mini-mapa recortado con el camino y una frase corta (sala, lado del museo y pasos). */
 export const PlanGuide: React.FC<Props> = ({ id, kind, geo, rooms, fromId, toId }) => {
   const { currentLanguage } = useLanguage();
-  const lang = (['es', 'en', 'fr', 'pl', 'de', 'pt'].includes(currentLanguage) ? currentLanguage : 'es') as Lang;
+  const lang = (['es', 'en', 'fr', 'pl', 'de', 'pt', 'it'].includes(currentLanguage) ? currentLanguage : 'es') as Lang;
   const t = T[lang];
 
   const data = useMemo(() => {
