@@ -1,0 +1,26 @@
+{
+  "id": "cdmx-01-bellas-artes",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Historisches Zentrum\" para \"Centro Histórico\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "b6dfefbfa5983409",
+      "texto": "Bellas Artes und die Alameda"
+    },
+    "frase_gancho": {
+      "hash": "81b1bfc2e9b3304f",
+      "texto": "Ein Palast aus weißem Marmor und die Alameda, die Promenade, auf der die Stadt spazieren ging."
+    },
+    "introduccion_narrativa": {
+      "hash": "65a681cfd6f70b8c",
+      "texto": "Der Rundgang beginnt im Westen des Historischen Zentrums, wo sich die Stadt zu einem Park öffnet. Die Alameda Central wurde Ende des sechzehnten Jahrhunderts auf Initiative des Vizekönigs Luis de Velasco angelegt, damit die Bewohner eine Promenade mit Bäumen und Brunnen hatten. Lange danach entstand neben ihr der Palacio de Bellas Artes, eröffnet im Jahr neunzehnhundertvierunddreißig. In diesem Bereich wirst du sieben Stationen besuchen: den Palast und sein Museum, den Park und seine Brunnen, das Hemiciclo a Juárez, das Museo Mural Diego Rivera und den Palacio Postal."
+    }
+  }
+}

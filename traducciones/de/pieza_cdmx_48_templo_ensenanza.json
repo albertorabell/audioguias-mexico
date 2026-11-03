@@ -1,0 +1,70 @@
+{
+  "id": "cdmx_48_templo_ensenanza",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Neuspanien\" para \"Nueva España\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Neuspanien\" para \"Nueva España\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Neuspanien\" para \"Nueva España\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "de63cb6607344e3b",
+      "texto": "Templo de la Enseñanza, die Mädchenschule Neuspaniens"
+    },
+    "frase_gancho": {
+      "hash": "d9aa1917a450452b",
+      "texto": "Über der Tür sitzt ein sternförmiges Fenster, und darin zeigt sich die Jungfrau von Pilar."
+    },
+    "puente_narrativo": {
+      "hash": "e697dc790e84dc31",
+      "texto": "Geh ein paar Schritte weiter, in derselben Straße Donceles, bis zum [Museo de la Caricatura](cdmx_49_museo_caricatura) im ehemaligen Colegio de Cristo."
+    },
+    "como_llegar": {
+      "hash": "a47a8e1fa4f733a0",
+      "texto": "Geh weiter auf der Donceles, der Straße, in die Justo Sierra übergeht, wenn sie die República de Argentina kreuzt, bis zum [Templo de la Enseñanza](cdmx_48_templo_ensenanza)."
+    },
+    "guion_corto": {
+      "hash": "21b8cb2dc3d44207",
+      "texto": "Über dem Eingangsportal sitzt ein Fenster in Form eines sich trichterförmig weitenden Sterns. Es erhellt den Chor und rahmt das Bild der Jungfrau von Pilar ein. Es ist ein Detail von Francisco Guerrero y Torres, dem Architekten, der 1772 mit dem Bau dieses Tempels beauftragt wurde. Hier bestanden ein Kloster und eine Schule der Compañía de María, bekannt als La Enseñanza, gegründet von Mutter María Ignacia Azlor. Sie war eine der berühmtesten Mädchenschulen Neuspaniens. Von der ursprünglichen, viel größeren Anlage hat nur der Tempel überlebt, eines der letzten großen Gebäude seines Stils in der Stadt, heute die Pfarrkirche Nuestra Señora del Pilar."
+    },
+    "guion_largo": {
+      "hash": "91476849d9fe82cf",
+      "texto": "Sieh dir das Hauptportal genau an. Der Bogen ist niedrig, und der zentrale Stein, der Schlussstein, sitzt tiefer als üblich. Darüber erhellt das Fenster in Form eines sich trichterförmig weitenden Sterns den Chor. Und in der Mitte der Fassade steht eine Alabasterskulptur der Jungfrau von Pilar. Diese Anrufung war die Herzensandacht der Gründerin und gibt dem Tempel seinen Namen.\n\nDie Geschichte beginnt mit María Ignacia Azlor. Sie war die Tochter eines Gouverneurs von Texas und Coahuila und wollte sich der Bildung von Mädchen widmen. Sie reiste nach Spanien, um sich der Compañía de María anzuschließen, einem Orden, der sich dem Unterrichten verschrieben hat. Sie wollte die Bildung von Mädchen aller Gesellschaftsschichten voranbringen. Ihr Kloster und ihre Schule wurden in der Straße errichtet, die damals Cordobanes hieß und heute Donceles ist.\n\nMutter María Ignacia starb, bevor sie den Tempel sehen konnte. 1772 wurde die Kirche bei Francisco Guerrero y Torres in Auftrag gegeben, einem großen Architekten des achtzehnten Jahrhunderts. Er ist derselbe, der auch die Capilla del Pocito und den [Palacio de Iturbide](cdmx_18_palacio_iturbide) schuf, den du schon kennst. Er arbeitete hier von 1772 bis 1778. Das verortet den Tempel am Ende der Vizekönigszeit, etwa vier Jahrzehnte vor der Unabhängigkeit. Das Kloster und die Schule werden Ignacio Castera zugeschrieben, um 1805.\n\nWenn der Tempel geöffnet ist und du dich entscheidest, respektvoll einzutreten, birgt seine Bauweise einen Kniff. Ein Bogen mit drei Lappen trägt den hohen Chor und ermöglicht ein Kirchenschiff ohne Säulen, sodass nichts den Blick zum Altar versperrt. Auch die Fenster des zentralen Gewölbes haben drei Lappen, etwas, das im mexikanischen Barock als einzigartig gilt.\n\nIm Inneren sticht der Hauptaltar hervor, der als eines der besten Werke von Guerrero y Torres gilt. Im Gewölbe befindet sich ein Fresko der Erscheinung der Jungfrau von Pilar vor dem Apostel Jakobus. Gemälde von Andrés López begleiten den Altaraufsatz. Zugang und Führungen ändern sich, also erkundige dich nach den aktuellen Öffnungszeiten.\n\nZum Schluss noch ein menschliches Detail. Mexiko-Stadt erinnert sich, dass im zwanzigsten Jahrhundert die spanische Gemeinschaft, die wegen des Bürgerkriegs ins Exil gegangen war, eine besondere Verehrung für diesen Tempel hatte. Sie kam jedes Jahr am zwölften Oktober, dem Tag der Jungfrau von Pilar.\n\nMit den Reformgesetzen verlor die Anlage ihren Charakter als Schule und Kloster. Heute ist der Tempel die Pfarrkirche Nuestra Señora del Pilar und das, was von einer viel größeren Anlage übrig ist, wahrscheinlich eines der letzten Gebäude seiner Art.\n\nDenk darüber nach, was diese Schule bedeutete, ein Ort, geschaffen, um Mädchen zu bilden. Sie war eine der berühmtesten Neuspaniens. Nur wenige Schritte entfernt liegt eine weitere Schule aus der Vizekönigszeit, die von Cristo, die heute ein Karikaturenmuseum beherbergt. Zwischen beiden erzählt die Straße Donceles die Geschichte der Bildung in der Stadt."
+    },
+    "retos_observacion": {
+      "hash": "e6b7718cf00c993a",
+      "texto": [
+        "Such das sternförmige Fenster über dem Hauptportal",
+        "Finde die Skulptur der Jungfrau von Pilar an der Fassade",
+        "Achte auf den niedrigen Bogen des Eingangsportals"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e050a53a7ec7ee87",
+      "texto": {
+        "Epoche": "Tempel 1772 in Auftrag gegeben; Bauzeit 1772 bis 1778",
+        "Architekt": "Francisco Guerrero y Torres; Kloster und Schule Ignacio Castera zugeschrieben (1805)",
+        "Stil": "neuspanischer Spätbarock",
+        "Standort": "Donceles 102, Historisches Zentrum",
+        "Gründerin": "María Ignacia Azlor, Compañía de María",
+        "Schlüsselmerkmal": "säulenloses Kirchenschiff dank des Chors auf einem dreilappigen Bogen"
+      }
+    },
+    "faq_mito": {
+      "hash": "4835b7386d721684",
+      "texto": {
+        "pregunta": "Mythos: La Enseñanza wäre wegen ihres alten Aussehens eine der ersten Kirchen der Stadt.",
+        "respuesta": "Realität: Ihr Tempel wurde 1772 in Auftrag gegeben und bis 1778 gebaut, am Ende der Vizekönigszeit."
+      }
+    }
+  }
+}

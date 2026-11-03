@@ -1,0 +1,63 @@
+{
+  "id": "cdmx_32_gran_hotel",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Nordwesten\" para \"Noroeste\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "0bcdd469b1c4920f",
+      "texto": "Gran Hotel Mexiko-Stadt: vom französischen Kaufhaus zum Hotel mit Buntglasdecke"
+    },
+    "frase_gancho": {
+      "hash": "82524e4c34f396b2",
+      "texto": "Bevor dieses Gebäude Gäste empfing, verkaufte es Hüte, Stoffe und Anzüge, die aus Europa importiert wurden."
+    },
+    "puente_narrativo": {
+      "hash": "eca0b029f636493b",
+      "texto": "Geh zurück zur Plaza und weiter zu ihrer Nordwestecke, wo die Straße Monte de Piedad an der Kathedrale entlangführt."
+    },
+    "como_llegar": {
+      "hash": "0a260dfda73070b3",
+      "texto": "Geh weiter auf dem Gehweg unter den Arkaden, bis du die Avenida Dieciséis de Septiembre erreichst, wo das Gran Hotel liegt."
+    },
+    "guion_corto": {
+      "hash": "0bd8f6307805ac52",
+      "texto": "Heute ist es ein Hotel, aber entstanden ist es als Kaufhaus. Eröffnet wurde es im Jahr achtzehnhundertneunundneunzig unter dem Namen Centro Mercantil, und Präsident Porfirio Díaz leitete die Zeremonie. Ein französischer Einwanderer, Sebastien Robert, ließ es bauen, um Kleidung, Stoffe und Hüte zu verkaufen, die aus Europa herbeigeschafft wurden. Mehrere Jahrzehnte lang war es ein Kaufhaus. Im Jahr neunzehnhundertachtundsechzig öffnete es als Hotel, rechtzeitig für die Besucher der Olympischen Spiele. Sein Juwel befindet sich im Inneren: eine Decke aus farbigem Glas in der Eingangshalle, die dem französischen Künstler Jacques Gruber zugeschrieben wird. Von der Straße aus kannst du die Fassade an der Avenida Dieciséis de Septiembre sehen."
+    },
+    "guion_largo": {
+      "hash": "145081a88cad08d3",
+      "texto": "Die großen Kaufhäuser kamen zur Zeit von Porfirio Díaz in die Hauptstadt, und dieses war eines der ersten. Es hieß El Centro Mercantil und öffnete im letzten Jahr des neunzehnten Jahrhunderts seine Türen, wobei Präsident Díaz die Eröffnung übernahm. Es verkaufte Waren, die aus Europa importiert wurden. Die Bauarbeiten dauerten mehrere Jahre.\n\nDie große Originaltreppe wurde in den Sechzigerjahren abgerissen. Vom ursprünglichen Ensemble stechen die Buntglasdecke und die schmiedeeisernen Aufzüge hervor.\n\nDie Buntglasdecke hat das Gebäude berühmt gemacht. Es ist eine Überdachung aus farbigem Glas über der Eingangshalle, im Jugendstil, und sie wird Jacques Gruber zugeschrieben, einem Künstler aus Frankreich. Gruber war Dekorateur und Glasmaler und gehörte seit ihrer Gründung im Jahr neunzehnhunderteins dem Leitungskomitee der Schule von Nancy an. Er schuf auch die Kuppel des Kaufhauses Galeries Lafayette in Paris, im Jahr neunzehnhundertelf. Deshalb wird ihm die Buntglasdecke der Eingangshalle zugeschrieben, die zu Beginn des zwanzigsten Jahrhunderts fertiggestellt wurde, als das Gebäude bereits als Kaufhaus in Betrieb war. Wenn die Eingangshalle für die Öffentlichkeit geöffnet ist, lohnt es sich, ein paar Minuten innezuhalten und darauf zu achten, wie das Licht durch das Glas fällt und die Farben im Lauf des Tages verändert.\n\nDas Kaufhaus stellte den Betrieb im Jahr neunzehnhundertachtundfünfzig ein. Zehn Jahre später öffnete das Gebäude als Hotel. Seine Gäste waren diejenigen, die zu den Olympischen Spielen in Mexiko kamen. Im selben Jahr erlebte diese Plaza die Ereignisse der Studentenbewegung, von denen wir erzählen, wenn wir über die [Erinnerung des Zócalo](cdmx_26_zocalo_memoria) sprechen. Zwischen zweitausenddrei und zweitausendfünf wurde das Gebäude umgebaut und erhielt den Namen Gran Hotel Mexiko-Stadt.\n\nStell dir die Eingangshalle zur Zeit des Kaufhauses vor: Kunden, die hereinkommen, um Stoffe, Hüte und Anzüge zu kaufen, die aus Europa eintrafen, unter einem farbigen Licht, das von hoch oben herabfiel. Es war eine Stadt, die auf die andere Seite des Ozeans blickte, um sich einzukleiden und um einzukaufen.\n\nVon außen ist der Stil eklektisch, und im Inneren fällt der Jugendstil auf. Sieh dir jetzt in Ruhe die Fassade und die Eingangstüren an. Die Eingangshalle gehört zum Hotelbetrieb. Wenn du sie sehen möchtest, achte also auf die Regeln des Ortes und erkundige dich, was geöffnet ist. Von der Straße aus hast du bereits das Wesentliche: ein Gebäude, das von der Moderne des Porfiriats erzählt, vom Handel mit Europa und vom Wandel der Nutzung von einem Jahrhundert zum nächsten.\n\nGeh zum Abschluss ein paar Schritte zur Arkade des Portal de Mercaderes und vergleiche: dort der Handel der vizekönigszeitlichen Jahrhunderte, hier der Handel der Moderne unter Porfirio Díaz. Noch eine letzte Einzelheit: Die Hüte, Stoffe und Anzüge, die das erste Kaufhaus importierte, erzählen von einer Stadt, die Ende des neunzehnten Jahrhunderts europäische Mode kaufte. Heute sind diese Waren nicht mehr da, aber das Gebäude bewahrt die Spur jenes Handels."
+    },
+    "retos_observacion": {
+      "hash": "f240aa2cc99db008",
+      "texto": [
+        "Zähle vom Gehweg aus die Stockwerke des Gebäudes",
+        "Suche den Namen des Hotels über dem Eingang",
+        "Vergleiche seine Fassade mit der Arkade des Portal de Mercaderes, die du gerade durchquert hast: Welche Epochen erkennst du?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e819d6b08753344a",
+      "texto": {
+        "Epoche": "Centro Mercantil eröffnet 1899, Hotel seit 1968",
+        "Gründer": "Sebastien Robert, französischer Einwanderer",
+        "Stil": "eklektische Fassade, Innenraum im Jugendstil",
+        "Buntglasdecke": "Jacques Gruber zugeschrieben",
+        "Standort": "Avenida 16 de Septiembre 82, Südwestecke des Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "cf16c18cfa82d9ac",
+      "texto": {
+        "pregunta": "Mythos: Dieses Gebäude war schon immer ein Hotel.",
+        "respuesta": "Realität: Es entstand 1899 als Kaufhaus, das Centro Mercantil; das Kaufhaus schloss 1958 und öffnete 1968 als Hotel."
+      }
+    }
+  }
+}

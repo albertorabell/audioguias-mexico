@@ -1,0 +1,26 @@
+{
+  "id": "cdmx-03-madero",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Historisches Zentrum\" para \"Centro Histórico\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "a4533b24dac78a4c",
+      "texto": "Calle Madero"
+    },
+    "frase_gancho": {
+      "hash": "dac8a85b82cd9c18",
+      "texto": "Eine Fußgängerstraße, in der Paläste, Kirchen, Juweliere und alteingesessene Konditoreien nebeneinander bestehen."
+    },
+    "introduccion_narrativa": {
+      "hash": "be82ef3628969d19",
+      "texto": "Dies ist die meistbegangene Straße des Historischen Zentrums. Man kannte sie als San Francisco und als Plateros, und heute trägt sie den Namen Madero. Auf wenigen Häuserblocks gehst du vom Casa de los Azulejos zum ehemaligen Franziskanerkloster, von einem Palast aus dem achtzehnten Jahrhundert zu einer Jesuitenkirche und von dort zu Geschäften, die seit Jahrzehnten geöffnet sind. Es sind elf Stationen, und mehrere davon kannst du auch von innen besichtigen. Lass dir Zeit: Den Rhythmus dieser Gegend bestimmen die Fassaden."
+    }
+  }
+}

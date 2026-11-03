@@ -1,0 +1,63 @@
+{
+  "id": "cdmx_30_antiguo_ayuntamiento",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "ae1da1f921671d09",
+      "texto": "Altes Rathaus: das Haus der Stadtregierung"
+    },
+    "frase_gancho": {
+      "hash": "73d0f327051768b7",
+      "texto": "Hier tagte jahrhundertelang die Regierung der Stadt, und im Jahr sechzehnhundertzweiundneunzig setzte eine Menschenmenge sie in Brand."
+    },
+    "puente_narrativo": {
+      "hash": "f03c786251d6d028",
+      "texto": "Geh weiter in den Westen des Platzes, bis zu den Bögen der Kaufmannsarkaden, wo seit Jahrhunderten der Handel das Erdgeschoss einnimmt."
+    },
+    "como_llegar": {
+      "hash": "08e79ee7f9deeae1",
+      "texto": "Überquere den Platz zu seiner Südseite, wo das Alte Rathaus steht, um die Geschichte der Stadtregierung weiterzuverfolgen."
+    },
+    "guion_corto": {
+      "hash": "0aa9df9dce669b3d",
+      "texto": "Eine wütende Menge, aufgebracht über den Maismangel, setzte im Jahr sechzehnhundertzweiundneunzig die Ratshäuser dieses Platzes in Brand. Hier saß die Regierung der Stadt, und deshalb stand sie im Mittelpunkt des Zorns. Das Gebäude wurde in den folgenden Jahren wieder aufgebaut und erhielt im zwanzigsten Jahrhundert neue Stockwerke. Heute gehört es weiterhin zur Regierung der Hauptstadt. Neben ihm erhebt sich ein weiteres Gebäude, das errichtet wurde, um es zu ergänzen. Im Inneren bewahrt der Ratssaal eine Ausstattung von achtzehnhundertdreiundneunzig und eine Decke mit Ölmalerei. Zusammen bringen die beiden Gebäude Jahrhunderte städtischer Geschichte mit."
+    },
+    "guion_largo": {
+      "hash": "cd6b4e6bfd61b671",
+      "texto": "Stadtrat ist die alte Bezeichnung für die Regierung einer Stadt. Und die Hauptstadt Neuspaniens brauchte sehr früh ein eigenes Haus. Ein königlicher Erlass von fünfzehnhundertsiebenundzwanzig wies auf diesem Platz Grundstücke für das Rathaus, das Gefängnis, die Metzgerei und die Läden zu.\n\nDas ursprüngliche Gebäude wurde vom Feuer gezeichnet. Am achten Juni sechzehnhundertzweiundneunzig löste eine Maiskrise einen Aufstand aus. Die Menge setzte den Vizekönigspalast, das Rathaus und Hunderte hölzerner Marktstände auf dem Platz in Brand. Die Ratshäuser wurden in den folgenden Jahren wieder aufgebaut. Zu Beginn des achtzehnten Jahrhunderts standen sie erneut, im Barockstil der Iberischen Halbinsel.\n\nDie oberen Stockwerke sind jünger. Sie wurden erst im zwanzigsten Jahrhundert hinzugefügt. Das dritte Stockwerk kam neunzehnhundertzehn dazu, zur Hundertjahrfeier der Unabhängigkeit, das vierte neunzehnhundertvierunddreißig. Vom ursprünglichen Bau sind nur die Fundamente und einige Mauern erhalten.\n\nIm Inneren fällt der Ratssaal auf, der achtzehnhundertdreiundneunzig im Jugendstil ausgestattet wurde. Er besitzt ein Podium mit einhundertneunzehn Stühlen aus geschnitztem Holz und, an der Decke, ein Ölgemälde von Francisco Parra, das das Vaterland allegorisch darstellt. In diesem Saal werden die Schlüssel der Stadt an angesehene Gäste überreicht. Neben ihm versammelt der Vizekönigssaal Porträts der zweiundsechzig Vizekönige von Neuspanien. Im zweiten Stockwerk widmet sich die Galerie Agora den Kämpfen der Stadtbewohner um ihre Rechte. Wenn du das Gebäude von innen kennenlernen möchtest, informiere dich über die aktuellen Angaben, denn der Zutritt kann bei offiziellen Veranstaltungen eingeschränkt sein.\n\nDas Gebäude nebenan ist sein Bruder. Die Regierung von Mexiko-Stadt wurde zwischen neunzehnhunderteinundvierzig und neunzehnhundertachtundvierzig gebaut. Sie steht auf dem Grundstück der früheren Blumenarkaden, und ein großer Teil ihres Entwurfs sollte das Alte Rathaus ergänzen. Während der Bauarbeiten kamen Überreste eines Hauses zum Vorschein, das mit Doña Marina in Verbindung gebracht wird, sowie ein Spielfeld für das Ballspiel. Das Erdbeben von neunzehnhundertfünfundachtzig beschädigte es schwer, wie wir erwähnten, als wir von der [Erinnerung des Zócalo](cdmx_26_zocalo_memoria) sprachen.\n\nEine kuriose Tatsache: Die Regierung der Hauptstadt hieß von fünfzehnhundertneunzehn bis neunzehnhundertachtundzwanzig Stadtrat. Das sind fast vier Jahrhunderte mit demselben Namen.\n\nWenn du in Ruhe ankommst, lass den Blick über die beiden Fassaden von Ecke zu Ecke wandern und achte darauf, wie das neue Gebäude das alte begleiten will.\n\nSo erzählt dieser Platz die Geschichte der Macht in Schichten. Im Osten liegt der Palast der Nationalregierung, im Norden die Kathedrale und hier, auf der Südseite, das Haus der Stadtregierung. Während das Land sein Regime wechselte, bewahrte sich die Stadt einen eigenen Ort, um zusammenzukommen und zu entscheiden. Dieser Brauch, sich vom Platz aus selbst zu regieren, lebt in diesen Gebäuden weiter."
+    },
+    "retos_observacion": {
+      "hash": "b4cc6b22630cdca7",
+      "texto": [
+        "Zähle die Stockwerke des Alten Rathauses: Die obersten wurden im zwanzigsten Jahrhundert hinzugefügt",
+        "Suche das Nachbargebäude der Stadtregierung und vergleiche die beiden Fassaden",
+        "Finde die Südseite des Platzes und denke daran, dass dort seit dem sechzehnten Jahrhundert das Ratshaus stand"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f3c0bf98e71a5c5e",
+      "texto": {
+        "Epoche": "Ursprung im 16. Jahrhundert, Wiederaufbau nach dem Aufstand von 1692",
+        "Stil": "Barock der Iberischen Halbinsel mit Umbauten des 20. Jahrhunderts",
+        "Ratssaal": "1893 im Jugendstil ausgestattet",
+        "Nachbargebäude": "Regierung von Mexiko-Stadt, 1941 bis 1948",
+        "Standort": "Verfassungsplatz 2, Südseite des Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "9bf9e5f63b85b476",
+      "texto": {
+        "pregunta": "Mythos: Hernán Cortés ließ das Gebäude errichten, das du heute siehst.",
+        "respuesta": "Realität: Das Ratshaus geht auf das 16. Jahrhundert zurück, doch das heutige Gebäude ist das Ergebnis von Wiederaufbauten nach dem Brand von 1692 und von Umbauten im 20. Jahrhundert."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_44_templo_santo_domingo",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "29fe076e61b78755",
+      "texto": "Kirche Santo Domingo und das ehemalige Zollamt"
+    },
+    "frase_gancho": {
+      "hash": "af40932c5d72c27b",
+      "texto": "Dies ist die dritte Kirche der Dominikaner auf diesem Grundstück, und die Überschwemmungen der Stadt auf dem See prägten ihre Geschichte."
+    },
+    "puente_narrativo": {
+      "hash": "0297b4ccc15bb766",
+      "texto": "Geh weiter zur Straße República de Brasil, gegenüber dem Platz, wo der [Palast der Inquisition](cdmx_45_inquisicion) steht."
+    },
+    "como_llegar": {
+      "hash": "f500d6bb9b4c0457",
+      "texto": "Geh zur Nordseite des Platzes, wo der Turm mit den Azulejos auf die [Kirche Santo Domingo](cdmx_44_templo_santo_domingo) hinweist."
+    },
+    "guion_corto": {
+      "hash": "8e05d6e90d0de60b",
+      "texto": "Dies ist die dritte Kirche, die die Dominikaner auf diesem Grundstück errichten, und die auf dem See erbaute Stadt hatte viel damit zu tun. Die Brüder kamen im Jahr fünfzehnhundertsechsundzwanzig nach Mexiko. Ihr erstes Gotteshaus war klein, und Überschwemmungen beschädigten es. Im Jahr siebzehnhundertsechzehn traf eine weitere Überschwemmung die zweite Kirche, und im folgenden Jahr begann der Bau der dritten, die du jetzt vor dir hast. Sie ist barock, mit einem Turm, dessen oberstes Geschoss mit Azulejos bedeckt ist, und sie birgt einen Hauptaltar von Manuel Tolsá. Vom riesigen Kloster, das sie umgab, verschwand ein großer Teil, als die Leandro-Valle-Straße angelegt wurde. Was du siehst, ist das, was Wasser, Zeit und die Reform stehen ließen."
+    },
+    "guion_largo": {
+      "hash": "14a5958777b132f5",
+      "texto": "Die Dominikaner kamen im Jahr fünfzehnhundertsechsundzwanzig nach Neuspanien und begannen schon bald, hier zu bauen. Ihr erstes Gotteshaus, um fünfzehnhundertsiebenundzwanzig, war klein und schlicht. Dieser Teil der Stadt war sumpfiges Gelände an einem Kanal des Sees. Überschwemmungen beschädigten immer wieder, was errichtet wurde, und Kloster und Kirche wurden wegen des schwachen Bodens mehrmals wiederaufgebaut.\n\nDie zweite Kirche wurde um fünfzehnhundertneunzig geweiht. Im Jahr siebzehnhundertsechzehn beschädigte sie eine Überschwemmung so stark, dass der Gottesdienst ausgesetzt werden musste. Im folgenden Jahr begann der Bau der dritten Kirche, die du vor dir hast. Sie wurde siebzehnhundertsechsunddreißig gesegnet und im Januar siebzehnhundertfünfundfünfzig geweiht. Seitdem sieht die Kirche fast so aus wie heute.\n\nSchau dir die Fassade an. Sie ist barock. Der Turm endet in einem pyramidenförmigen Prisma, das mit Azulejos bedeckt ist. Die Bögen auf der linken Seite sind nicht original. Sie wurden im zwanzigsten Jahrhundert hinzugefügt, um den Durchgang zur Leandro-Valle-Straße zu kaschieren und das Ensemble mit dem Platz in Einklang zu bringen.\n\nWenn die Kirche für den Gottesdienst geöffnet ist und du respektvoll hineinschauen möchtest: Der Innenraum hat den Grundriss eines lateinischen Kreuzes. Der Hauptaltar ist ein klassizistisches Werk von Manuel Tolsá, demselben Künstler, der das „Pferdchen“ und den Palacio de Minería geschaffen hat. In den Querhausarmen stehen vergoldete Altäre aus dem achtzehnten Jahrhundert. Das älteste Bildwerk der Kirche ist der Christus des Noviziats aus dem sechzehnten Jahrhundert, gefertigt aus einer Paste aus Maisrohr. Einer Legende zufolge schenkten zwei Engel ihn den Dominikanern, doch das ist nur Überlieferung.\n\nIn der Kirche ruhen die sterblichen Überreste von Pedro de Moctezuma Tlacahuepantzin, einem Sohn von Moctezuma Xocoyotzin.\n\nDas Wasser prägte die Geschichte dieses Ortes so sehr, dass daraus eine Verehrung entstand. Nach einer schweren Überschwemmung ernannte der Stadtrat Santo Domingo zum Schutzheiligen der Gewässer und der Stadt. Das war am einunddreißigsten Juli sechzehnhundertdreißig.\n\nDas Kloster dagegen überstand die politischen Umwälzungen nicht. Mitte des neunzehnten Jahrhunderts wurde im Zuge der Reform der kirchliche Besitz beschlagnahmt. Als die Leandro-Valle-Straße angelegt wurde, wurden ein großer Teil des Klosters und mehrere Kapellen zerstört. Mexiko-Stadt weist darauf hin, dass der Hof der Generäle, wie er genannt wird, im Kulturzentrum des Zeitgenössischen Mexiko an dieser Straße erhalten geblieben ist.\n\nAn der Ostseite des Platzes steht das ehemalige Zollamt. Das Königliche Zollamt von Mexiko wurde fünfzehnhundertvierundsiebzig gegründet, um das Steuersystem des spanischen Reiches zu stützen. Sein Gebäude an diesem Platz wurde im achtzehnten Jahrhundert errichtet und erweitert. Im Jahr neunzehnhunderteinundzwanzig ging es in die Hände des Bildungsministeriums über. Heute gehört es zum Komplex des [Lebendigen Museums des Muralismus](cdmx_46_museo_vivo_muralismo). So erzählen auf einem einzigen Platz eine Kirche, ein Gerichtshof und ein Zollamt, wie Glaube, Justiz und Geld organisiert waren."
+    },
+    "retos_observacion": {
+      "hash": "7bd01f36bffa5646",
+      "texto": [
+        "Finde den Turm, dessen oberstes Geschoss mit Azulejos bedeckt ist",
+        "Suche die Bögen auf der linken Seite der Kirche, die nicht original sind",
+        "Erkenne das schlichte Gebäude des ehemaligen Zollamts an der Ostseite des Platzes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07b5d3a53b2eb89c",
+      "texto": {
+        "Epoche": "dritte Kirche, 1717 begonnen, 1736 gesegnet und im Januar 1755 geweiht",
+        "Autor": "Hauptaltar von Manuel Tolsá",
+        "Stil": "Barock, Grundriss in Form eines lateinischen Kreuzes",
+        "Standort": "Nordseite des Platzes Santo Domingo",
+        "Wichtiger Hinweis": "vom großen Dominikanerkloster sind nur die Kirche und einige Räume erhalten",
+        "Ehemaliges Zollamt": "1574 gegründetes Königliches Zollamt; heute Teil des Komplexes des Bildungsministeriums"
+      }
+    },
+    "faq_mito": {
+      "hash": "ed13b4732489b7c0",
+      "texto": {
+        "pregunta": "Mythos: Die Kirche Santo Domingo ist dieselbe, die die Dominikaner bei ihrer Ankunft im sechzehnten Jahrhundert errichteten.",
+        "respuesta": "Realität: Sie ist die dritte Kirche an diesem Ort; die vorherige wurde 1716 von einer Überschwemmung getroffen, und die heutige wurde im folgenden Jahr begonnen."
+      }
+    }
+  }
+}
