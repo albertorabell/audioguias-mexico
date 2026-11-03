@@ -1,4 +1,4 @@
-export type SupportedLanguage = 'es' | 'en' | 'fr' | 'pl' | 'de' | 'ru' | 'ja';
+export type SupportedLanguage = 'es' | 'en' | 'fr' | 'pl' | 'de' | 'pt' | 'ru' | 'ja';
 
 export interface LanguageOption {
   code: SupportedLanguage;
@@ -25,6 +25,7 @@ const ALL_LANGUAGES: LanguageOption[] = [
   { code: 'fr', label: 'Français', flag: '🇫🇷', isActive: true },
   { code: 'pl', label: 'Polski', flag: '🇵🇱', isActive: true },
   { code: 'de', label: 'Deutsch', flag: '🇩🇪', isActive: true },
+  { code: 'pt', label: 'Português', flag: '🇧🇷', isActive: true },
   { code: 'ru', label: 'Русский', flag: '🇷🇺', isActive: false, comingSoon: true },
   { code: 'ja', label: '日本語', flag: '🇯🇵', isActive: false, comingSoon: true },
 ];
@@ -67,6 +68,7 @@ export const SPEECH_LOCALE: Record<SupportedLanguage, string> = {
   fr: 'fr-FR',
   pl: 'pl-PL',
   de: 'de-DE',
+  pt: 'pt-BR',
   ru: 'ru-RU',
   ja: 'ja-JP',
 };

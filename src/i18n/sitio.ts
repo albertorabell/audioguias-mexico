@@ -266,5 +266,6 @@ const pl_ = {
 };
 
 import { DE_SITE } from './de';
+import { PT_SITE } from './pt';
 
-export const SITE_OVERRIDES: Partial<Record<SupportedLanguage, any>> = { es, en, fr, pl: pl_, de: DE_SITE };
+export const SITE_OVERRIDES: Partial<Record<SupportedLanguage, any>> = { es, en, fr, pl: pl_, de: DE_SITE, pt: PT_SITE };
