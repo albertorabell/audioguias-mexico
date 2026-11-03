@@ -1,0 +1,54 @@
+{
+  "id": "chap_09_batalla_puebla_orozco",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "953a19591bafcff6",
+      "texto": "Der 5. Mai und das Juárez-Wandbild (Orozco)"
+    },
+    "frase_gancho": {
+      "hash": "ce4cad8d63fb8d2b",
+      "texto": "Vom Triumph Zaragozas im Regen von Puebla bis zum mumifizierten Leichnam Maximilians, gemalt von José Clemente Orozco."
+    },
+    "puente_narrativo": {
+      "hash": "164a7587ffc571be",
+      "texto": "Geh weiter zur nächsten Station, der Kutsche von Benito Juárez, die während der Jahre des Krieges gegen das Kaiserreich das Land durchquerte, bis die Republik zurückkehrte."
+    },
+    "guion_corto": {
+      "hash": "4b7c1f6a9c4b4f4a",
+      "texto": "In diesem Bereich der Säle des neunzehnten Jahrhunderts stehen sich drei grundlegende Werke gegenüber, die vom Kampf um die Souveränität Mexikos erzählen: das Ölporträt des Generals Ignacio Zaragoza, gemalt im Jahr achtzehnhunderteinundsechzig, das große Panoramagemälde der Schlacht von Puebla vom fünften Mai achtzehnhundertzweiundsechzig, geschaffen vom katalanischen Maler José Cusachs, und hoch oben an der Wand das eindrucksvolle Fresko „Die Reform und der Fall des Kaiserreichs“, im Jahr neunzehnhundertachtundvierzig von José Clemente Orozco gemalt, in dem das riesige, unerschütterliche Gesicht von Benito Juárez den ganzen Raum beherrscht."
+    },
+    "guion_largo": {
+      "hash": "913a4f21087787fb",
+      "texto": "Die Geschichte, die diese Wände erzählen, begann im Jahr achtzehnhunderteinundsechzig, als die Regierung von [Benito Juárez](chap_07_carruaje_juarez), nach Jahren des Bürgerkriegs von Geldmangel erdrückt, die Zahlung der Auslandsschulden vorübergehend aussetzen musste. England, Spanien und Frankreich schickten ihre Kriegsflotten nach Veracruz; doch während Spanier und Engländer bereit waren, in den Präliminarien von La Soledad zu verhandeln, und abzogen, entschied sich der französische Kaiser Napoleon der Dritte, das Land zu besetzen, um die Vereinigten Staaten zu bremsen und sich der Reichtümer Mexikos zu bemächtigen. Am fünften Mai achtzehnhundertzweiundsechzig warf der Graf von Lorencez die Armee, die damals als die beste der Welt galt, gegen die Forts von Puebla. Sieh dir das Gemälde von José Cusachs genau an: Zwischen den Blättern der Agaven und dem Pulverdampf zwingen die mexikanischen Soldaten und die indigenen Zacapoaxtla die berühmten französischen Zuaven in ihren roten Hosen zum Rückzug. Der Held jenes Tages, der junge General Ignacio Zaragoza, geboren im Jahr achtzehnhundertneunundzwanzig in Texas, der sich nach dem Gebietsverlust von achtzehnhundertsiebenundvierzig dafür entschieden hatte, Mexikaner zu bleiben, erlebte das Ende des Krieges nicht mehr: Kaum vier Monate nach seinem Sieg starb er im Alter von dreiunddreißig Jahren an Typhus. Fünf Jahre später siegte die Republik endgültig, und José Clemente Orozco fasste diesen Ausgang mit brutaler Wucht in dem Wandbild zusammen, das du vor dir hast: Oben leuchtet das steinerne Gesicht von Juárez, flankiert von der Fahne des Bataillons der Obersten Gewalten und einem Soldaten mit der Nummer siebenundfünfzig auf dem Käppi, zu Ehren der Verfassung; unten hingegen, wie in einer düsteren Unterwelt, wird der mumifizierte Körper von [Maximilian](chap_20_recamara_maximiliano) von den gespenstischen Gestalten der Bischöfe, Generäle und Adligen getragen, die ihn auf den Thron gebracht haben."
+    },
+    "retos_observacion": {
+      "hash": "25a2cb414bd1b234",
+      "texto": [
+        "Betrachte auf dem Gemälde von José Cusachs den Nahkampf zwischen den französischen Zuaven in roten Hosen und den mexikanischen Truppen zwischen den Agaven",
+        "Bleib vor dem Porträt von Ignacio Zaragoza mit seiner runden Brille stehen, das nur wenige Monate vor seinem Sieg in Puebla gemalt wurde",
+        "Hebe den Blick zum Wandbild von Orozco und suche die Zahl 57 auf der Militärmütze des Soldaten mit der Fackel sowie den mumifizierten Körper von Maximilian im unteren Streifen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78d89ae901ee30cc",
+      "texto": {
+        "Hauptwerke": "Wandbild „Die Reform und der Fall des Kaiserreichs“ von José Clemente Orozco (Fresko, 1948); „Schlacht von Puebla, 5. Mai 1862“ von José Cusachs (Öl auf Leinwand, 1903); Porträt von Ignacio Zaragoza, signiert von Tejada (Öl, 1861)",
+        "Mexikanische Befehlshaber am 5. Mai": "Ignacio Zaragoza, Miguel Negrete, Felipe Berriozábal, Francisco Lamadrid und Porfirio Díaz",
+        "Französischer Befehlshaber": "Charles F. Latrille, Graf von Lorencez",
+        "Standort": "Saal der Reform und des Zweiten Kaiserreichs, MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "06202b533ecc51c3",
+      "texto": {
+        "pregunta": "Mythos: Nach der verlorenen Schlacht von Puebla am 5. Mai 1862 ergab sich das französische Heer und kehrte sofort nach Europa zurück.",
+        "respuesta": "Realität: Der Sieg vom 5. Mai hielt das Vordringen der Invasoren ein ganzes Jahr lang auf, doch Napoleon III. schickte dreißigtausend weitere Soldaten; 1863 belagerten die Franzosen Puebla zweiundsiebzig Tage lang, bis sie es einnahmen und nach Mexiko-Stadt vorrückten, um das Kaiserreich Maximilians zu errichten."
+      }
+    }
+  }
+}

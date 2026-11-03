@@ -1,0 +1,59 @@
+{
+  "id": "chap_16_sala_lectura_goces",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "c3af75998b97aa20",
+      "texto": "Lesesaal und Spielsalon"
+    },
+    "frase_gancho": {
+      "hash": "9817d7d29f811f67",
+      "texto": "Französische Wandteppiche zeigen Kreisel und Fangbecherspiele, und der Lesesaal war früher ein Billardsaal."
+    },
+    "puente_narrativo": {
+      "hash": "c6da8431408543e9",
+      "texto": "Geh weiter zum Botschaftersalon, dem Saal der diplomatischen Empfänge im Alcázar."
+    },
+    "guion_corto": {
+      "hash": "e5ad5e299aeaa0f1",
+      "texto": "Auf Wandteppichen, die in Frankreich gefertigt wurden, erscheinen ein Kreisel, ein Fangbecherspiel, ein Badminton und Kegel. Laut der Texttafel des Spielsalons schenkte Napoleon der Dritte sie Maximilian zum Geburtstag, am sechsten Juli. Dort, so sagt das Museum, spielten die Herrscher mit ihren Gästen Kegeln, Billard, Karten und Schach. Der Lesesaal erinnert an eine andere Seite: Maximilian nannte seinen Palast Miravalle und las und schrieb auf dessen Terrassen Dekrete und Korrespondenz. Die Aufzeichnungen, die das Museum anführt, zeigen allerdings eine andere Nutzung für diesen Raum. Er war ein Billardsaal, und zwar im Jahr achtzehnhundertzweiundachtzig, im Jahr neunzehnhundertsechs und im Jahr neunzehnhundertzweiunddreißig."
+    },
+    "guion_largo": {
+      "hash": "7bfa1347b3ea548a",
+      "texto": "Man kann sich Maximilian leicht beim Lesen in diesem Raum vorstellen, doch die Aufzeichnungen erzählen etwas anderes. Das Museum zitiert Belegungslisten des Gebäudes. Im Jahr achtzehnhundertsiebenundsiebzig erscheint der Lesesaal als Zimmer des zweiten Astronomen. In den Jahren achtzehnhundertzweiundachtzig, neunzehnhundertsechs und neunzehnhundertzweiunddreißig erscheint er als Billardsaal. Das sind die Jahre des Observatoriums, das du auf der [Löwentreppe](chap_13_escalera_leones) gesehen hast. Was das Museum dagegen bestätigt, ist, dass Maximilian auf den Terrassen seines Palastes las und schrieb. Dort erledigte er Dekrete und Korrespondenz. Den Palast nannte er Miravalle.\n\nDer Name Miravalle sagt alles: ein Ort, um das Tal zu betrachten. Die Texttafel erinnert außerdem an den Familienspruch der Habsburger auf Latein: Austria est imperare orbi universo. Das heißt, dass es Österreich zukommt, die ganze Welt zu regieren. Die offizielle Website der Habsburger weist darauf hin, dass diese Deutung später entstanden ist. Friedrich der Dritte, der Kaiser des fünfzehnten Jahrhunderts, der die fünf Vokale als Wahlspruch benutzte, erklärte ihre Bedeutung nie. Es wurden mehr als dreihundert Deutungen vorgeschlagen.\n\nDie Wandteppiche des Spielsalons sind leichter im Ton. Laut dem Museum wurden sie in Frankreich gefertigt, und Napoleon der Dritte schenkte sie Maximilian zum Geburtstag, am sechsten Juli. Sie stellen Spiele dar wie den Kreisel, das Fangbecherspiel, das Badminton und das Kegeln. Das Museum spricht auch von einem weiteren Saal mit Wandteppichen aus Aubusson, die auf den Fabeln von Jean de La Fontaine beruhen und ebenfalls ein Geschenk von Napoleon dem Dritten waren. Es ist der Gobelinsalon.\n\nDie Aufzeichnungen des Museums zeigen, wie sich die Nutzung der Säle veränderte. Im Jahr achtzehnhundertzweiundachtzig erscheint ein Salon als Tresillo-Saal, nach einem Kartenspiel. Im Jahr neunzehnhundertsechs erscheint er als kleiner Spielsalon und im Jahr neunzehnhundertzweiunddreißig als Spielsaal. Laut dem Museum spielten die Herrscher mit ihren Gästen Kegeln, Billard, Karten und Schach.\n\nDieses Leben der Muße hatte unter Porfirio Díaz auch eine moderne Seite. Das Museum berichtet, dass Díaz im Schloss Aufzüge und eine Kegelbahn einbauen ließ. Und im August achtzehnhundertsechsundneunzig empfing er dort die Gesandten der Brüder Lumière, die ihm den Kinematografen vorführten. Laut einem Artikel der Zeitschrift der Universität nahm eine kleine Gruppe von etwa zwanzig Personen aus dem engen Umfeld seiner Familie teil. Die Vorführung begann früh und zog sich auf Wunsch des Publikums bis ein Uhr nachts hin. Der Artikel nennt nicht, in welchem Salon sie stattfand. Díaz und die Seinen willigten ein, gefilmt zu werden. In einer zweiten Vorführung, am fünfundzwanzigsten August, wurden die Filme gezeigt, die der Artikel als die ersten in Mexiko gedrehten Filme beschreibt.\n\nVon Maximilians Geburtstag bleibt noch eine weitere Spur. Laut der Zeitschrift Bicentenario begann das Bankett zu seinem Geburtstag um sechs Uhr abends. Es war am sechsten Juli achtzehnhundertfünfundsechzig. Die Zeitschrift nennt nicht, in welcher Residenz es gefeiert wurde. So kreuzen sich die Geschenke von Napoleon dem Dritten, die Feste des Kaiserreichs und die Gesellschaftsspiele.\n\nWeiter vorn zeigt der [Botschaftersalon](chap_17_salon_embajadores) die förmlichere Seite des Hauses."
+    },
+    "retos_observacion": {
+      "hash": "49ef68730774c12d",
+      "texto": [
+        "Suche auf den Wandteppichen einen Kreisel, ein Fangbecherspiel, ein Badminton und Kegel, die Spiele, die das Museum erwähnt",
+        "Achte auf das Licht im Saal und stell dir vor, hier oder auf einer Terrasse Dekrete zu schreiben",
+        "Vergleiche die Größe dieses Raums mit der eines Speisesaals: Hat hier eine große Gruppe Platz oder eher eine kleine, vertraute Runde?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bf15c968ad3ac598",
+      "texto": {
+        "Palast": "Miravalle, ein von Maximilian vergebener Name, laut MNH",
+        "Wandteppiche": "in Frankreich gefertigt; Geschenk von Napoleon III. an Maximilian zum Geburtstag, am 6. Juli",
+        "Dargestellte Spiele": "Kreisel, Fangbecherspiel, Badminton und Kegel",
+        "Vom MNH verzeichnete frühere Nutzungen": "Zimmer des zweiten Astronomen (1877); Billardsaal (1882, 1906 und 1932); Tresillo-Saal (1882)",
+        "Standort": "Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "064b24ca5cd741a0",
+      "texto": {
+        "pregunta": "Mythos: Der Lesesaal war immer Maximilians private Bibliothek.",
+        "respuesta": "Realität: Laut den Aufzeichnungen, die das Nationalmuseum für Geschichte anführt, war er 1877 das Zimmer des zweiten Astronomen und erscheint 1882, 1906 und 1932 als Billardsaal; von Maximilian weiß man, dass er auf den Terrassen seines Palastes las und schrieb."
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "chap_04_encuentro_conquista",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Nationalmuseum für Geschichte\" para \"Museo Nacional de Historia\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "478bfdd9e731deee",
+      "texto": "Zwei Welten und der Tzompantli von Tecoaque"
+    },
+    "frase_gancho": {
+      "hash": "c9e86832374112c3",
+      "texto": "Zwölf durchbohrte Schädel aus dem Jahr fünfzehnhunderteinundzwanzig, die die schonungslosesten Chroniken der Eroberung bestätigen."
+    },
+    "puente_narrativo": {
+      "hash": "2b223e60afd5db89",
+      "texto": "Geh weiter zum nächsten Saal, wo der Lärm des Krieges drei Jahrhunderten weicht, in denen Schiffe mit Silber und Seide aus Manila beladen waren und die Landgüter der Vizekönigszeit entstanden."
+    },
+    "guion_corto": {
+      "hash": "5532a0891bb67dc3",
+      "texto": "Wenn du die Tür des ehemaligen Militärkollegs durchquerst, betrittst du die ersten Säle des Nationalmuseums für Geschichte. Sie sind dem Zusammenprall zweier Welten gewidmet, die bis Ende des fünfzehnten Jahrhunderts durch einen Ozean voneinander getrennt gelebt hatten. Zwischen eisernen Rüstungen, kastilischen Schwertern und vorspanischen Reliefs bleib vor der erschütterndsten Vitrine des Saals stehen: dem tzompantli, dem Schädelaltar aus Tecoaque in Tlaxcala. Dort siehst du zwölf echte Schädel aufgereiht, an den Schläfen durchbohrt im Jahr fünfzehnhunderteinundzwanzig: Fünf gehören zu spanischen Soldaten aus der Karawane von Juan de Yuste und sieben zu indigenen Kriegern aus Cempoala, den Cempoalteken, die als Verbündete von Hernán Cortés unterwegs waren."
+    },
+    "guion_largo": {
+      "hash": "88e53afaa19ebbcd",
+      "texto": "Um diesen Saal zu verstehen, muss man beide Seiten ohne rosarote und ohne schwarze Legenden betrachten, genau so, wie es die Stücke vor dir zeigen. Auf mesoamerikanischer Seite gab es kein einziges geeintes Land, sondern ein Mosaik aus autonomen Herrschaftsgebieten, den altépetl. Die Mexica beherrschten mit Waffengewalt einen großen Teil des Gebiets, erhoben Tribute und nahmen Krieger für das Opfer gefangen. Das säte tiefen Groll unter den unterworfenen Völkern, die sich bald mit den Neuankömmlingen verbünden sollten. Von der anderen Seite des Atlantiks kamen Männer, die durch Jahrhunderte des Krieges gegen den Islam in der Reconquista von Granada abgehärtet waren, und Überlebende eines von Hunger und Seuchen heimgesuchten Europas, wo eines von drei Kindern starb, bevor es ein Jahr alt wurde. Als im Jahr ce-ácatl, fünfzehnhundertneunzehn, Moctezuma Xocoyotzin die Nachricht zu Ohren kam, dass Türme oder kleine Berge auf dem Meer schwämmen, glaubte der tlatoani, dass sich die acht Vorzeichen über die Rückkehr von Quetzalcóatl erfüllten. Doch der Krieg, der im Jahr fünfzehnhunderteinundzwanzig ausbrach, war für beide Seiten unerbittlich. Als die Acolhua von Tecoaque eine spanische Karawane gefangen nahmen, die von Veracruz nach Tenochtitlan unterwegs war, opferten sie die Gefangenen und steckten ihre Köpfe auf diesen tzompantli, den Archäologen im Mai neunzehnhundertdreiundneunzig entdeckten. Danach schickte Cortés Gonzalo de Sandoval, um das Dorf aus Rache dem Erdboden gleichzumachen."
+    },
+    "retos_observacion": {
+      "hash": "45271f30ff5dac4b",
+      "texto": [
+        "Tritt an die Vitrine des Tzompantli von Tecoaque heran und zähle die zwölf Schädel, die seitlich durchbohrt wurden, damit der hölzerne Querbalken hindurchgeführt werden konnte",
+        "Betrachte die europäischen Waffen aus Stahl, die Helme und die Brustpanzer, die sich von den mesoamerikanischen Steinskulpturen abheben",
+        "Suche die Texttafeln, die die Bedeutung von altépetl (Wasser-Berg) und die acht Vorzeichen Moctezumas erklären"
+      ]
+    },
+    "especificaciones": {
+      "hash": "785c6f120c4eb30e",
+      "texto": {
+        "Zentrales Stück": "Tzompantli („Schädelwand“) aus Tecoaque (dem früheren Zultepec), Tlaxcala",
+        "Datierung der Überreste": "Anfang 1521 (im Mai 1993 entdeckt)",
+        "Zusammensetzung des Fundes": "12 Schädel (5 von Spaniern aus der Kompanie von Juan de Yuste und 7 von verbündeten indigenen Cempoalteken)",
+        "Standort": "Säle 1 und 2 (Zwei isolierte Kontinente / Am Vorabend des Kontakts), Erdgeschoss des Nationalmuseums für Geschichte"
+      }
+    },
+    "faq_mito": {
+      "hash": "3e98c041d6edf348",
+      "texto": {
+        "pregunta": "Mythos: Im Jahr 1519 gab es eine einzige vereinte mexikanische Nation, und alle indigenen Völker verteidigten Moctezuma gemeinsam gegen die Spanier.",
+        "respuesta": "Realität: Mesoamerika war in unabhängige Herrschaftsgebiete, die altépetl, aufgeteilt. Das strenge Tributsystem und die Gefangennahmekriege der Mexica führten dazu, dass die Cempoalteken, die Tlaxcalteken und andere Völker in den Spaniern eine Gelegenheit sahen, sich von Tenochtitlan zu befreien."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "chap_17_salon_embajadores",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5bcc9bda2318d2a5",
+      "texto": "Botschaftersalon"
+    },
+    "frase_gancho": {
+      "hash": "049a0c9979c65a3a",
+      "texto": "Ein französischer Teppich, in den die Ansicht von El Castillo selbst eingewebt war, schmückte den Salon, in dem Porfirio Díaz Diplomaten empfing."
+    },
+    "puente_narrativo": {
+      "hash": "8b299b373439964b",
+      "texto": "Geh weiter in den Gobelinsalon, den Nachbarsaal, in dem ein Geschenk Napoleons III. an Maximilian eine andere Geschichte erzählt."
+    },
+    "guion_corto": {
+      "hash": "8c323626d8db469c",
+      "texto": "Dieser Salon hat viele Male seine Bestimmung gewechselt. Das Nationalmuseum für Geschichte führt für jeden Raum eine Zeitleiste. Im Jahr achtzehnhundertsechsundsechzig war dies der Salon Charlottes und ein Billardsaal. Im Jahr achtzehnhundertzweiundachtzig, unter Präsident Manuel González, diente er als Festsaal. Für neunzehnhundertsechs erscheint er bereits als der große Salon von Porfirio Díaz. Der Name, den er heute trägt, stammt von seiner Funktion in jener Zeit: ausländische Diplomaten zu empfangen. Die Ausstattung im französischen Stil geht auf Epitacio Calvo zurück. Die Möbel folgen dem Geschmack Ludwigs des Sechzehnten, und der Teppich des Hauses Aubusson zeigt eine Ansicht von El Castillo."
+    },
+    "guion_largo": {
+      "hash": "cf4dfdce6a907cdc",
+      "texto": "Museen zeigen ihre Salons oft, als wären sie schon immer so gewesen. Dieser nicht. Die Zeitleiste, die die Säle des Alcázar begleitet, verzeichnet für diesen Raum eine Reihe von Nutzungen, die kaum jemand erraten würde. Im Jahr achtzehnhundertsechsundsechzig lebten hier noch Maximilian und Charlotte. Für dieses Jahr spricht das Verzeichnis vom Salon der Kaiserin und von einem Billardsaal. Im Jahr achtzehnhundertsiebenundsiebzig erscheinen die Abteilung und die Leitung des Meteorologischen Dienstes. Es waren die Jahre des ersten Nationalen Astronomischen Observatoriums. Es wurde achtzehnhundertachtundsiebzig in El Castillo eingerichtet und zog achtzehnhundertdreiundachtzig nach Tacubaya um. Im Jahr achtzehnhundertzweiundachtzig, während der Regierung von Manuel González, gab es einen Festsaal mit einem Anbau.\n\nErst unter Porfirio Díaz wurde der Ort zum großen Salon. Das Museum erklärt, Díaz habe den künstlerischen und technischen Fortschritt Mexikos zeigen wollen, und dieser Wunsch ist im ganzen Alcázar spürbar. Er ließ Aufzüge einbauen und machte den benachbarten Wald zu einem öffentlichen Park. Außerdem bestellte er in Paris die Glasfenster der [Bleiglasgalerie](chap_14_vitrales_emplomados), die um neunzehnhundert entstanden. Ein Salon zum Empfang ausländischer Diplomaten passte zu diesem Vorhaben.\n\nDie Ausstattung ist laut Wandtext im französischen Stil gehalten und verbindet barocke und neoklassizistische Elemente. Ihr Urheber ist Epitacio Calvo. Die Möbel folgen dem Stil Ludwigs des Sechzehnten. Dieser Stil trägt den Namen eines französischen Königs des achtzehnten Jahrhunderts und ist an geraderen, nüchterneren Linien als denen des Barocks zu erkennen. Das Museum weist darauf hin, dass sowohl die Möbel als auch der Teppich in Frankreich gefertigt wurden. Es war der europäische Geschmack, den die Oberschicht der Zeit übernahm.\n\nDer Teppich verdient einen eigenen Blick. Er stammt aus dem Haus Aubusson, seit Jahrhunderten berühmt für seine Wandteppiche, und zeigt eine Ansicht von El Castillo selbst. Das Gebäude ist also in sich selbst dargestellt, wie in einem gewebten Spiegel.\n\nStell dir Díaz besser nicht vor, wie er das ganze Jahr hier wohnt. Laut Museum lebte seine Familie den größten Teil des Jahres in einem Haus in der Straße La Cadena, heute Venustiano Carranza. El Castillo diente im Sommer für Bälle und Empfänge. Bei diesen Gelegenheiten empfing man die Welt. Die Räume der Familie waren durch eine innere Treppe verbunden, die unter Manuel González geöffnet wurde. Außerdem gab es einen elektrischen Aufzug, der allein dem Präsidenten und den Seinen vorbehalten war. Die [Löwentreppe](chap_13_escalera_leones) hingegen blieb den Gästen überlassen.\n\nDanach kamen weitere Veränderungen. Im Jahr neunzehnhundertneununddreißig übergab Präsident Lázaro Cárdenas El Castillo dem Volk. Das Nationalmuseum für Geschichte öffnete neunzehnhundertvierundvierzig seine Türen. Heute gehen hier statt Botschaftern Besucher mit Kopfhörern vorbei, wie du einer bist. Wenn du einen Moment bleibst, denk darüber nach, wie viele Versionen dieses Raums zwischen dem einen und dem anderen Datum Platz haben: Kaiserinnensalon, Billardsaal, Festsaal und Empfangssalon."
+    },
+    "retos_observacion": {
+      "hash": "2ad6eb1fe801ec71",
+      "texto": [
+        "Suche auf dem Teppich die Ansicht von El Castillo selbst",
+        "Achte auf die Beine und Rückenlehnen der Möbel: Der Stil Ludwigs XVI. bevorzugt gerade Linien",
+        "Suche den Wandtext, der den Namen des Dekorateurs nennt, Epitacio Calvo"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e1b8acc0b9ffeaf",
+      "texto": {
+        "Epoche": "Porfiriat; das Museum verzeichnet den Raum 1906 als großen Salon",
+        "Dekoration": "französischer Stil mit barocken und neoklassizistischen Elementen, von Epitacio Calvo",
+        "Möblierung": "Stil Ludwigs XVI., in Frankreich gefertigt",
+        "Teppich": "Haus Aubusson, Frankreich, mit einer Ansicht von El Castillo",
+        "Funktion": "Empfang ausländischer Diplomaten während der Präsidentschaft von Porfirio Díaz"
+      }
+    },
+    "faq_mito": {
+      "hash": "1376eab2f35e9a3d",
+      "texto": {
+        "pregunta": "Mythos: Dies ist der Salon, in dem Maximilian und Charlotte die Botschafter des Kaiserreichs empfingen.",
+        "respuesta": "Realität: Laut dem Nationalmuseum für Geschichte empfing der Salon ausländische Diplomaten während der Präsidentschaft von Porfirio Díaz, und die Zeitleiste des Museums verzeichnet diesen Raum im Jahr achtzehnhundertsechsundsechzig als Salon Charlottes und Billardsaal."
+      }
+    }
+  }
+}

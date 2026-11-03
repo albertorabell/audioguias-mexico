@@ -1,0 +1,55 @@
+{
+  "id": "chap_18_recamara_carlota",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b684f52114147af1",
+      "texto": "Charlottes Schlafzimmer"
+    },
+    "frase_gancho": {
+      "hash": "4161408d79597900",
+      "texto": "Die französischen Möbel in diesem Schlafzimmer hielt man für Charlottes Möbel, doch das Museum erzählt eine andere Geschichte."
+    },
+    "puente_narrativo": {
+      "hash": "dfa5ddeee1eceb1c",
+      "texto": "Geh weiter zum Waschkabinett, wo das Badewasser auf dem Maultier oder auf dem Karren von den Quellen des Hügels herbeigebracht wurde."
+    },
+    "guion_corto": {
+      "hash": "c7ed139f0d34231f",
+      "texto": "Ein Irrtum in bester Absicht prägt dieses Schlafzimmer. Präsident Manuel González erwarb eine französische Schlafzimmergarnitur im Boulle-Stil, weil er glaubte, sie habe Charlotte gehört. Das Museum zeigt sie heute als falsche Zuschreibung. Das Messingbett dagegen ist das von Maximilian und blieb nach seinem Tod in El Castillo. Charlotte kam im Juni achtzehnhundertvierundsechzig in die Hauptstadt, mit dreiundzwanzig Jahren. Sie gründete Wohltätigkeitseinrichtungen und leitete den Ministerrat, wenn ihr Mann abwesend war. Achtzehnhundertsechsundsechzig reiste sie nach Europa, um um eine Hilfe zu bitten, die nie kam, und sie kehrte nicht mehr nach Mexiko zurück."
+    },
+    "guion_largo": {
+      "hash": "b02f8c8fab32e62b",
+      "texto": "Dieses Schlafzimmer trägt Charlottes Namen, doch seine Geschichte ist verworren. Laut dem Museum erwarb Präsident Manuel González ein französisches Schlafzimmer im Boulle-Stil. Dieser Name geht auf einen Kunsttischler des siebzehnten Jahrhunderts zurück, der für den Hof Ludwigs des Vierzehnten arbeitete und Einlegearbeiten aus Messing in Mode brachte. González glaubte, diese Möbel hätten Charlotte gehört, doch das war nicht so. Mit der Zeit wechselte der Raum mehrmals seine Bestimmung. Die Zeitleiste des Museums verzeichnet ihn im Jahr achtzehnhundertzweiundachtzig als Schlafzimmer. Im Jahr neunzehnhundertsechs erscheint er unter Porfirio Díaz als blaues Schlafzimmer. Im Jahr neunzehnhundertzweiunddreißig figuriert er bereits als Charlottes Schlafzimmer.\n\nWas geschah dann mit den echten Möbeln? Maximilian besaß drei Residenzen: den Kaiserpalast, der heute der Nationalpalast ist, Chapultepec und die Quinta Borda in Cuernavaca. Alle waren voll mit Wandteppichen, Teppichen, Geschirr und europäischem Zierrat, der sehr teuer erworben worden war. Ende achtzehnhundertsechsundsechzig, als er Mexiko-Stadt verließ, ordnete Maximilian an, seine Paläste auszuräumen. Das Messingbett gehörte zu dem, was in El Castillo zurückblieb.\n\nUm die Frau zu verstehen, die diesem Raum ihren Namen gibt, muss man zu ihrer Jugend zurückkehren. Marie Charlotte Amélie, Prinzessin von Belgien, heiratete Maximilian mit siebzehn Jahren. Sie war die Tochter König Leopolds von Belgien und eine Cousine Victorias, der Herrscherin von England. Sie studierte katholische Religion, Wissenschaft, Kunst und Politik, und vor der Reise wiederholte sie die Geschichte Mexikos. Das Museum berichtet, dass ihre Neugier auf die Bräuche des Landes einige ihrer mexikanischen Hofdamen verärgerte. Sie kam im Juni achtzehnhundertvierundsechzig in die Hauptstadt, mit dreiundzwanzig Jahren.\n\nIn Chapultepec bestand ihr Leben zu einem großen Teil aus Arbeit. Sie gründete Wohltätigkeitseinrichtungen für die bedürftigen Schichten. Wenn Maximilian unterwegs war, leitete sie Beratungen und empfing Minister und Botschafter. Laut National Geographic hielt sie außerdem sonntags öffentliche Audienzen ab und suchte einen Mittelweg zwischen Konservativen und Liberalen, auch wenn sie am Ende beide Lager vor den Kopf stieß.\n\nAchtzehnhundertsechsundsechzig verließ sie Mexiko, um in Europa um Unterstützung zu bitten. Sie traf Napoleon den Dritten, der sich weigerte, das Unternehmen weiter zu stützen, und Papst Pius den Neunten, der es ebenfalls nicht unterstützte. Daraufhin zerbrach ihre seelische Gesundheit. Sie glaubte, man wolle sie vergiften, und misstraute fast allen. Eine Zeit lang war sie im Schloss Miramar eingeschlossen und danach im Schloss Bouchout bei Brüssel. Dort starb sie am neunzehnten Januar neunzehnhundertsiebenundzwanzig, mit sechsundachtzig Jahren, nach etwa sechzig Jahren der Abgeschiedenheit.\n\nUnterdessen wurde Maximilian achtzehnhundertsiebenundsechzig in Querétaro erschossen, als sie bereits in Europa war. Um mehr über den Mann zu erfahren, dessen Entscheidungen sie auf diese Reise führten, besuche weiter vorn die Station [Maximilian in Chapultepec](chap_20_recamara_maximiliano). Und für die Politik, die das Kaiserreich umgab, denk an die [Kutsche von Juárez](chap_07_carruaje_juarez), den Präsidenten, dessen Regierung das Kaiserreich nie anerkannte."
+    },
+    "retos_observacion": {
+      "hash": "41ba52913e2e679f",
+      "texto": [
+        "Such das Messingbett: Das Museum bringt es mit Maximilian in Verbindung",
+        "Achte auf die Messingeinlagen der Möbel im Boulle-Stil",
+        "Such auf der Texttafel die Zeitleiste, die von achtzehnhundertsechsundsechzig bis neunzehnhundertzweiunddreißig reicht"
+      ]
+    },
+    "especificaciones": {
+      "hash": "dcb060b7b56d3481",
+      "texto": {
+        "Person": "Charlotte von Belgien, Ehefrau Maximilians; kam im Juni 1864 in die Hauptstadt",
+        "Mobiliar": "französisches Schlafzimmer im Boulle-Stil, erworben von Manuel González, der glaubte, es habe Charlotte gehört",
+        "Bett": "aus Messing, mit Maximilian in Verbindung gebracht",
+        "Museumsregister": "blaues Schlafzimmer im Jahr 1906 und Charlottes Schlafzimmer im Jahr 1932",
+        "Standort": "Alcázar, Erdgeschoss"
+      }
+    },
+    "faq_mito": {
+      "hash": "75e991612651b21b",
+      "texto": {
+        "pregunta": "Mythos: Charlotte sei wahnsinnig geworden, weil man ihr in Mexiko einen Tee mit Toloache oder mit halluzinogenen Pilzen gegeben habe.",
+        "respuesta": "Realität: Diese Erklärung ist nie bewiesen worden. Ihre Krise brach achtzehnhundertsechsundsechzig in Europa aus, nachdem Napoleon der Dritte und Papst Pius der Neunte sie abgewiesen hatten, und für ihre Psychose gibt es bis heute keine gesicherte medizinische Erklärung. Die Idee mit dem Pilz wurde neunzehnhundertsiebenundachtzig vom Schriftsteller Fernando del Paso angeregt."
+      }
+    }
+  }
+}

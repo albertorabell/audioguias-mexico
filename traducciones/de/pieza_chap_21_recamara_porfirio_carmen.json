@@ -1,0 +1,56 @@
+{
+  "id": "chap_21_recamara_porfirio_carmen",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "81a31a50bf386b90",
+      "texto": "Schlafzimmer von Porfirio Díaz und Carmen Romero Rubio"
+    },
+    "frase_gancho": {
+      "hash": "08bb0cde6f491f53",
+      "texto": "Porfirio Díaz wohnte nicht das ganze Jahr in El Castillo: Er nutzte es im Sommer, für Bälle und Empfänge."
+    },
+    "puente_narrativo": {
+      "hash": "fa52be94894a1563",
+      "texto": "Geh weiter zum Präsidentenbüro, dem Arbeitszimmer, in dem Díaz seine Bibliothek hatte."
+    },
+    "guion_corto": {
+      "hash": "5ac80c9b423f73a3",
+      "texto": "Noch vor Sonnenaufgang war der Präsident bereits auf den Beinen. Laut dem Museum stand Porfirio Díaz in aller Frühe auf, machte Gymnastik und schwamm. Aber hier verbrachte er vor allem den Sommer: Seine Familie lebte den größten Teil des Jahres im Haus Nummer acht in der Straße La Cadena, heute Venustiano Carranza. El Castillo wurde für Bälle und Empfänge hergerichtet. Die Schlafzimmer des Ehepaars, das von Díaz und das von Carmen Romero Rubio, wurden aus Frankreich importiert. Sie war siebzehn Jahre alt, als sie ihn heiratete, er war einundfünfzig, im November achtzehnhunderteinundachtzig. Das Museum beschreibt Carmens Schlafzimmer als eine Mischung aus Schlichtheit und Eleganz."
+    },
+    "guion_largo": {
+      "hash": "973c05d2fbed00f4",
+      "texto": "Wenn du dir Präsident Díaz das ganze Jahr über in El Castillo eingerichtet vorstellst, sollte man das Bild korrigieren. Sein alltägliches Zuhause lag in der Straße La Cadena, im Zentrum. Dort lebte seine Familie den größten Teil des Jahres. Seine Minister empfing er im Nationalpalast. El Castillo war der Ort für den Sommer: Es wurde für Bälle und Empfänge hergerichtet. Sein Tagesablauf begann laut dem Museum in aller Frühe mit Gymnastik und Schwimmen, und in anderen Zeiten gehörte auch die Jagd in Querétaro, Michoacán und Jalisco dazu.\n\nDie Frau, die diesem Leben einen anderen Ton gab, ist Carmen Romero Rubio. Sie wurde achtzehnhundertvierundsechzig geboren, mitten im Krieg gegen die französische Intervention, und ihr Taufpate war Sebastián Lerdo de Tejada. Ihre Familie gehörte einer politischen Strömung an, die der von Díaz entgegengesetzt war. Dennoch heirateten die beiden im November achtzehnhunderteinundachtzig. Díaz war Witwer, einundfünfzig Jahre alt und Minister für Wirtschaftsförderung. Sie war siebzehn. Die standesamtliche Trauung fand am fünften November statt und die kirchliche zwei Tage später, im Oratorium des Erzbischofs Pelagio Antonio de Labastida. Eine Abschlussarbeit der UNAM weist darauf hin, dass die Zeremonie als Geste des guten Willens gegenüber der Kirche dargestellt wurde.\n\nDas Museum beschreibt Carmen als gebildet, elegant, zurückhaltend und fromm. Es sagt, sie habe die Akzeptanz von Kreisen gewonnen, die der Regierung nicht wohlgesinnt waren, und das öffentliche Ansehen von Díaz verbessert, ohne sich in die Politik einzumischen. Manchmal heißt es, sie habe ihm Englisch beigebracht. Dieselbe Abschlussarbeit fand etwas Bescheideneres heraus. Einige Englischstunden, die Doktor Eduardo Liceaga vor der Hochzeit organisiert hatte, werden als fruchtlos beschrieben. Sie fanden im Frühling achtzehnhunderteinundachtzig statt.\n\nDie Schlafzimmer des Ehepaars wurden laut dem Museum aus Frankreich importiert. Das von Carmen verbindet Schlichtheit und Eleganz, ein Spiegel des europäischen Geschmacks, den die Oberschichten der Zeit übernahmen. Die Räume des Paares lagen im Obergeschoss. Eine Innentreppe, die während der Regierung von Manuel González geöffnet wurde, verband sie mit den Empfangsräumen und dem Speisezimmer. Es gab außerdem einen elektrischen Aufzug, ausschließlich für den Präsidenten und seine Familie bestimmt, der die beiden Stockwerke und das Untergeschoss miteinander verband. Die [Löwentreppe](chap_13_escalera_leones) hingegen war für die Gäste gedacht.\n\nDas Haus füllte sich mit Menschen. Carmen und Díaz hatten keine Kinder, aber sie lebten mit Luz, Porfirio und Amada, seinen Kindern, und mit einigen seiner sechzehn Enkel zusammen. Von Díaz’ Vorliebe, den Fortschritt des Landes zu zeigen, bleiben außerdem die Glasfenster der [Galerie der Bleiverglasungen](chap_14_vitrales_emplomados), die um neunzehnhundert in Paris in Auftrag gegeben wurden.\n\nDiese Welt ging bald zu Ende. Díaz trat am fünfundzwanzigsten Mai neunzehnhundertelf zurück. Am einunddreißigsten verließ er mit seiner Familie Veracruz auf dem Dampfer Ypiranga, und das Schiff erreichte Frankreich am zwanzigsten Juni. Er starb am zweiten Juli neunzehnhundertfünfzehn in Paris, und das Paar blieb bis dahin verbunden. Carmen kehrte nach Mexiko zurück und starb neunzehnhundertvierundvierzig in der Hauptstadt."
+    },
+    "retos_observacion": {
+      "hash": "d305610faa5bbc1b",
+      "texto": [
+        "Suche die Texttafel, die das Haus in der Straße La Cadena erwähnt",
+        "Achte auf den Kontrast zwischen der Schlichtheit und der Eleganz, die das Museum Carmens Schlafzimmer zuschreibt",
+        "Suche nach einem Hinweis auf die Innentreppe oder den elektrischen Aufzug der Präsidentenfamilie"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07063aa551ea6ebb",
+      "texto": {
+        "Personen": "Porfirio Díaz und Carmen Romero Rubio, verheiratet seit November 1881",
+        "Nutzung von El Castillo": "Sommerhaus der Präsidentenfamilie, hergerichtet für Bälle und Empfänge",
+        "Üblicher Wohnsitz": "Haus Nummer 8 in der Straße La Cadena, heute Venustiano Carranza",
+        "Schlafzimmer": "aus Frankreich importiert, schlicht und elegant",
+        "Aufzug": "elektrisch, ausschließlich für den Präsidenten und seine Familie bestimmt",
+        "Standort": "Alcázar, Obergeschoss"
+      }
+    },
+    "faq_mito": {
+      "hash": "50a9cf6a000f80e9",
+      "texto": {
+        "pregunta": "Mythos: Porfirio Díaz wohnte während seiner gesamten Regierungszeit im Schloss Chapultepec.",
+        "respuesta": "Realität: Laut dem Nationalmuseum für Geschichte lebte die Präsidentenfamilie den größten Teil des Jahres im Haus Nummer acht in der Straße La Cadena, heute Venustiano Carranza, und nutzte El Castillo im Sommer, hergerichtet für Bälle und Empfänge."
+      }
+    }
+  }
+}

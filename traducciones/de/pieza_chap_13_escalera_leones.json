@@ -1,0 +1,63 @@
+{
+  "id": "chap_13_escalera_leones",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6a7e9f78e88d8bf8",
+      "texto": "Die Löwentreppe"
+    },
+    "frase_gancho": {
+      "hash": "7d5ad72a0abcc7b8",
+      "texto": "Eine Marmortreppe, die sich nicht für einen Hof öffnete, sondern um zu einem Observatorium zu führen."
+    },
+    "puente_narrativo": {
+      "hash": "4c00cef1930ffc24",
+      "texto": "Der Rundgang führt weiter zur Galerie der Bleiglasfenster, wo fünf Göttinnen aus Glas das Tageslicht filtern."
+    },
+    "guion_corto": {
+      "hash": "b785a48931937cce",
+      "texto": "Im Jahr achtzehnhundertachtundsiebzig wurde ein Zugang zum Obergeschoss des Alcázar geöffnet, und das nicht für ein Fest. Er sollte den Wissenschaftlern den Weg zum Nationalen Astronomischen, Meteorologischen und Magnetischen Observatorium ermöglichen, das im Schloss untergebracht war. Später ließ Porfirio Díaz eine Treppe aus weißem Marmor mit Handläufen aus Messing bauen. Um neunzehnhundertfünfzehn, unter Venustiano Carranza, wurde sie umgebaut, und es wurden die Löwenskulpturen aufgestellt, die ihr den Namen geben, so das Museum. Es ist also eine Treppe mit imperialem Anstrich, die elf Jahre nach der Erschießung Maximilians geöffnet wurde. Ihr Ursprung ist wissenschaftlich, ihre Hände sind republikanisch. Jede Epoche hat hier ihre Schicht hinterlassen."
+    },
+    "guion_largo": {
+      "hash": "ce122e6a67c92044",
+      "texto": "Viele stellen sich diese Treppe als Teil des Traums von Maximilian und Charlotte vor. Das Datum sagt etwas anderes. Laut dem Nationalmuseum für Geschichte wurde der Zugang im Jahr achtzehnhundertachtundsiebzig geöffnet, elf Jahre nach der Erschießung des Kaisers. Der Grund war wissenschaftlich: Im Schloss war damals das Nationale Astronomische Observatorium untergebracht.\n\nDas Observatorium wurde per Präsidialdekret am achtzehnten Dezember achtzehnhundertsechsundsiebzig gegründet. Sein erster Direktor war der Ingenieur Ángel Anguiano, und die offizielle Arbeit in Chapultepec begann am fünften Mai achtzehnhundertachtundsiebzig. Ein Artikel der Zeitschrift der Universität von Mexiko gibt wieder, was der Astronom Joaquín Gallo erzählte. Präsident Porfirio Díaz wollte genauere Karten des Landes. Dafür brauchte es einen Referenzpunkt, mit dem sich die Längengrade von Dörfern und Städten berechnen ließen. Das Museum fügt hinzu, dass der Turm des [Hohen Kavaliers](chap_24_caballero_alto) in jenen Jahren eine Kuppel erhielt.\n\nIm Jahr achtzehnhundertdreiundachtzig zog das Observatorium in den ehemaligen Erzbischöflichen Palast in Tacubaya um. Die Astronomen gingen, das Schloss wurde wieder Sitz der Militärakademie, und Díaz nutzte es als Sommerresidenz. Die Treppe dagegen blieb. Laut dem Museum war es Díaz, der sie in weißem Marmor und mit Handläufen aus Messing wiederaufbauen ließ.\n\nEs ist nicht die einzige Treppe des Alcázar. Das Museum berichtet, dass eine weitere, im Inneren gelegene, während der Regierung von Manuel González zwischen achtzehnhundertachtzig und achtzehnhundertvierundachtzig eröffnet wurde. Sie verband die Wohnräume der Präsidentenfamilie mit den Empfangssälen und dem Speisezimmer. Sie hatte einen elektrischen Aufzug, der allein dieser Familie vorbehalten war. Das Dienstpersonal benutzte andere Treppen. Ein Palast ist auch eine Landkarte dessen, wer wo hinaufgehen darf.\n\nDie Löwen kamen später. Laut dem Museum wurde die Treppe um neunzehnhundertfünfzehn umgebaut, während der Regierung von Venustiano Carranza. Damals wurden die Skulpturen aufgestellt, die ihr den Namen gaben. So hinterließ die Revolution ihre Spur in einem Schloss, das für Vizekönige, Kaiser und Präsidenten gedacht war. Im Jahr neunzehnhundertsechzehn ordnete derselbe Carranza den Abriss eines Gebäudes aus der Zeit des Porfiriats an, um dem Alcázar mehr Sichtbarkeit zu geben.\n\nEine Konservierungsstudie des INAH beschreibt an dieser Treppe ein Buntglasfenster mit dem Nationalwappen in der Mitte. An den Seiten befinden sich zwei Glyphen von Chapultepec: ein Hügel, ein Grashüpfer auf dem Gipfel und Wasser an der Basis. Es ist die alte Schreibweise des Ortsnamens, der als Hügel des Grashüpfers übersetzt wird. Laut dieser Studie schlug Francisco Goitia im Jahr neunzehnhunderteinundvierzig vor, die Öffnung mit einfachen Scheiben zu verschließen. Der Grund war das Budget. Im Jahr neunzehnhundertdreiundvierzig wurden farblose, facettierte Gläser eingesetzt.\n\nJede Epoche hat hier eine Schicht hinterlassen: das Observatorium, den Marmor von Díaz, die Löwen der Revolution und die Gläser der vierziger Jahre. Weiter vorn zeigt die [Galerie der Bleiglasfenster](chap_14_vitrales_emplomados) eine andere Art, mit dem Licht zu arbeiten, ganz anders als die des Teleskops."
+    },
+    "retos_observacion": {
+      "hash": "6df92d19d968c298",
+      "texto": [
+        "Vergleiche die beiden Marmorlöwen und achte darauf, was sie ähnlich oder unterschiedlich macht",
+        "Achte auf den Handlauf, der laut dem Museum aus Messing ist, und vergleiche ihn mit dem weißen Marmor der Stufen",
+        "Wenn du am oberen Ende der Treppe ein Buntglasfenster siehst, such die Glyphe von Chapultepec: ein Hügel mit einem Grashüpfer auf dem Gipfel"
+      ]
+    },
+    "especificaciones": {
+      "hash": "615130e47621d863",
+      "texto": {
+        "Öffnung des Zugangs": "1878, für das Nationale Astronomische, Meteorologische und Magnetische Observatorium",
+        "Wiederaufbau": "weißer Marmor und Handläufe aus Messing, auf Initiative von Porfirio Díaz",
+        "Löwen": "um 1915 unter Venustiano Carranza aufgestellt, laut Nationalmuseum für Geschichte",
+        "Innentreppe": "während der Regierung von Manuel González (1880-1884) eröffnet, mit elektrischem Aufzug für die Präsidentenfamilie",
+        "Buntglasfenster": "Nationalwappen und zwei Glyphen von Chapultepec, laut INAH-Studie",
+        "Standort": "Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "c10f0fa812051c24",
+      "texto": {
+        "pregunta": "Mythos: Die Löwentreppe ist Teil des Palastes, den Maximilian und Charlotte für ihren Hof entworfen haben.",
+        "respuesta": "Realität: Laut dem Nationalmuseum für Geschichte wurde der Zugang 1878, elf Jahre nach der Erschießung Maximilians, geöffnet, um zum Nationalen Astronomischen Observatorium hinaufzugelangen; der Marmor stammt aus der Zeit von Díaz, und die Löwen wurden um 1915 aufgestellt."
+      }
+    }
+  }
+}

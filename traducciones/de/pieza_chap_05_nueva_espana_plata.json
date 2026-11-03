@@ -1,0 +1,55 @@
+{
+  "id": "chap_05_nueva_espana_plata",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a28105ad7c5d082d",
+      "texto": "Das Königreich Neuspanien: Silber, Galeonen und Elfenbein"
+    },
+    "frase_gancho": {
+      "hash": "0a796012b1c98d73",
+      "texto": "Das mexikanische Silber, das die Schlacht von Trafalgar bezahlte, und die hundert Läden, in denen Zimt aus Ceylon und Seide aus Manila verkauft wurden."
+    },
+    "puente_narrativo": {
+      "hash": "915392e641f9f178",
+      "texto": "Geh weiter bis ans Ende der vizeköniglichen Säle: Wenn du um die Ecke des Korridors biegst, öffnet sich vor dir das gewaltige konkave Wandbild, in dem Juan O’Gorman den Ausbruch der Unabhängigkeit gemalt hat."
+    },
+    "guion_corto": {
+      "hash": "31d2c1bdc0e7a2a7",
+      "texto": "Diese Säle entfalten den materiellen Glanz und die tiefen Widersprüche der dreihundert Jahre des Vizekönigreichs Neuspanien. Um dich herum glänzen Truhen aus asiatischem Lack, aus philippinischem Elfenbein geschnitzte Christusfiguren und andere Figuren, Porzellanvasen, mit Ölfarbe bemalte Paravents mit Ansichten des Tepeyac, Gegenstände aus getriebenem Silber und Kastengemälde. Dieses ganze Universum entstand, als sich das amerikanische Land des Maises, des Kakaos, der Vanille und der Cochenille mit dem Weizen, dem Vieh, dem Zuckerrohr und dem Pflug verband, die aus Europa herbeigebracht wurden, und so Mexiko-Stadt zu dem Handelszentrum machte, das Europa mit Asien verband."
+    },
+    "guion_largo": {
+      "hash": "c3dcc9437a62ecd4",
+      "texto": "Selten halten wir inne und bedenken, dass im achtzehnten Jahrhundert die Münzen, die die Händler in China benutzten, und das Silber, das die Heere Europas finanzierte, aus dem Innersten Mexikos stammten. Alles begann im Jahr fünfzehnhundertachtundzwanzig, als Taxco gegründet wurde, das erste amerikanische Bergwerk, das mit europäischen Techniken ausgebeutet wurde. Sehr bald folgten die gewaltigen Silberadern von Zacatecas im Jahr fünfzehnhundertsechsundvierzig und von Guanajuato im Jahr fünfzehnhundertvierundfünfzig, verbunden durch den Königsweg ins Landesinnere. Das neuspanische Silber war so mächtig, dass es alles finanzierte, vom Dreißigjährigen Krieg im siebzehnten Jahrhundert bis zu den spanischen und französischen Schiffen, die in der Schlacht von Trafalgar im Jahr achtzehnhundertfünf kämpften, und sogar die englischen Subsidien zur Niederwerfung Napoleon Bonapartes. Im Tausch gegen dieses Silber, gegen die Perlen von Baja California und gegen den roten Farbstoff der Cochenille füllte die Manila-Galeone die Hauptstadt mit Schätzen. Um das Jahr achtzehnhundertvier gab es in Mexiko-Stadt etwa einhundertsieben Gemischtwarenläden, Lebensmittel- und Kolonialwarenhandlungen der damaligen Zeit, in denen du Wein aus La Rioja, Oliven aus Sevilla, Zimt aus Ceylon, Kakao aus Caracas, Nelken von den Philippinen, Manila-Tücher, Fächer mit Stäben aus Schildpatt und sogar die ersten Baumwolltücher kaufen konntest, die später [José María Morelos](chap_06_morelos_iturbide) tragen sollte. Doch dieser Reichtum ruhte auf einer menschlichen Wunde: Neben der indigenen Arbeit auf den Haciendas wurden im Lauf von drei Jahrhunderten etwa zweihundertfünfzigtausend Sklaven aus Afrika herbeigebracht, die wie Handelsware behandelt wurden. Ihre Auflehnung und die Vermischung der Bevölkerung bereiteten den Boden für die Revolution der Unabhängigkeit, die du im nächsten Saal sehen wirst."
+    },
+    "retos_observacion": {
+      "hash": "997ac149671a1558",
+      "texto": [
+        "Betrachte die zarten religiösen Skulpturen, die aus Elefantenstoßzähnen geschnitzt wurden, und die Lackkästchen, die mit der Manila-Galeone herbeigebracht wurden",
+        "Suche die vizeköniglichen Gemälde und Paravents, die das Heiligtum des Tepeyac und das Alltagsleben der Hauptstadt darstellen",
+        "Achte auf die Gegenstände aus getriebenem Silber, Schmiedeeisen und Keramik aus Puebla und Guanajuato, die auf drei Kontinente exportiert wurden"
+      ]
+    },
+    "especificaciones": {
+      "hash": "08cbd7618a7ae398",
+      "texto": {
+        "Epoche": "Vizekönigreich Neuspanien (1521-1821)",
+        "Bergbau-Meilensteine": "Taxco (1528), Zacatecas (1546) und Guanajuato (1554)",
+        "Städtischer Handel": "Etwa 107 verzeichnete Gemischtwarenläden in Mexiko-Stadt um 1804",
+        "Erzwungene Demografie": "Ungefähr 250 000 afrikanische Sklaven, die im Lauf von drei Jahrhunderten eingeführt wurden",
+        "Standort": "Säle 3 bis 6 (Das Königreich Neuspanien), Erdgeschoss MNH"
+      }
+    },
+    "faq_mito": {
+      "hash": "c41b406a4d225f0f",
+      "texto": {
+        "pregunta": "Mythos: Während des Vizekönigreichs handelte Neuspanien nur mit Spanien und war vom Rest der Welt abgeschottet.",
+        "respuesta": "Realität: Neuspanien war die Brücke des ersten globalen Handels: Sein Silber kursierte in China als Münzgeld und finanzierte europäische Kriege wie Trafalgar (1805), während nach Mexiko-Stadt Seide aus Asien, Zimt aus Ceylon, Kakao aus Caracas und Elfenbeinarbeiten von den Philippinen gelangten."
+      }
+    }
+  }
+}

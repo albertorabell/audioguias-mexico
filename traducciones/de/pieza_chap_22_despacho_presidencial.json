@@ -1,0 +1,65 @@
+{
+  "id": "chap_22_despacho_presidencial",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "107ddb46a2147314",
+      "texto": "Büro des Präsidenten, Telefon und Aufzüge"
+    },
+    "frase_gancho": {
+      "hash": "f16c02b0c5300575",
+      "texto": "Von diesem Schloss aus fand die erste experimentelle Telefonübertragung Mexikos statt, und ein Präsident prahlte hier mit zwei Aufzügen."
+    },
+    "puente_narrativo": {
+      "hash": "72d036445534dc65",
+      "texto": "Folge dem Rundgang weiter, bis du in den Innengarten des Alcázar hinaustrittst. Dort erwarten dich leichte Korridore mit Eisensäulen und frischer Luft."
+    },
+    "guion_corto": {
+      "hash": "27be743aa7850d61",
+      "texto": "Das Telefonbuch von Mexiko-Stadt hatte Ende des neunzehnten Jahrhunderts gerade einmal acht Seiten. Im ganzen Land gab es mehr als fünftausend Apparate. Trotzdem fand am sechzehnten September achtzehnhundertachtundsiebzig in diesem Schloss die erste experimentelle Telefonübertragung Mexikos statt. Die Stimme von Präsident Porfirio Díaz war gleichzeitig hier und im Nationalpalast zu hören. Díaz zeigte seine Modernität auch mit zwei Aufzügen, einem elektrischen und einem hydraulischen. Und sein Büro war laut Museum ein Ort des Lesens, mit Büchern über Geschichte und über Recht. Telegraf, Telefon und Studium existierten nebeneinander in der Residenz des Präsidenten."
+    },
+    "guion_largo": {
+      "hash": "b88dedd3106bf020",
+      "texto": "Dieses Büro hat mehrfach seine Nutzung gewechselt. Laut den Texttafeln des Museums war es um achtzehnhundertsechsundsechzig das Arbeitszimmer von Carlota, zur Zeit der Residenz Maximilians. Im Jahr achtzehnhundertsiebenundsiebzig, als das Schloss das Nationalobservatorium beherbergte, diente es als meteorologische Abteilung. Für das Jahr neunzehnhundertsechs erscheint es als der grüne Salon der Residenz von Díaz. Was du siehst, ist eine weitere Schicht einer langen Geschichte. Die Kaiserin kannst du in ihrem [Schlafgemach](chap_18_recamara_carlota) kennenlernen.\n\nPorfirio Díaz kam nach einem Leben als Soldat ins Präsidentenamt, doch seine Ausbildung begann in den Klassenzimmern. Er besuchte das Gymnasium am Tridentinischen Priesterseminar seiner Heimatstadt Oaxaca und studierte in derselben Stadt Rechtswissenschaft. Die Texttafel des Büros erzählt, dass er eine Bibliothek zusammentrug. Es gab Werke über Geschichte und Rechtswissenschaft, dazu Schriften, die den Frieden und den Fortschritt seiner Regierung rühmten. Das Museum hebt hervor, dass er immer Momente für Lektüre und Studium fand. Das ist eine nützliche Nuance, um eine Persönlichkeit zu betrachten, an die man sich meist vor allem wegen ihrer Feldzüge und ihrer langen Jahre an der Macht erinnert.\n\nDer zweite Faden dieser Geschichte ist die Kommunikation. Im Jahr achtzehnhundertachtundsiebzig wurde das Nationalobservatorium im Schloss eingerichtet. Einer seiner Räume erhielt Telegrafenanlagen, die den Präsidenten mit dem Rest des Landes verbanden. Im selben Jahr fand die erste experimentelle Telefonübertragung in Mexiko statt, zwischen diesem Gebäude und dem Nationalpalast. Die Texttafel betont, dass seit der Erfindung des Telefons in den Vereinigten Staaten erst zwei Jahre vergangen waren. Eine andere Texttafel erinnert daran, dass im Jahr neunzehnhundertsechs ein Nachbarsaal ausgerechnet Telefonsaal hieß.\n\nDas dritte Symbol der Modernität sind die Aufzüge. Das Museum erklärt, dass Díaz seine Modernität mit zweien zur Schau stellte. Einer war elektrisch, in Frankreich gefertigt, mit einer Kabine aus Stahl und Glas, und verband die Küchen mit den beiden Geschossen der Wohnräume und Salons. Der andere war hydraulisch. Seit achtzehnhundertsechsundneunzig verband er den Fuß des Hügels mit dem ersten Stock und mit dem Garten des Alcázar. Die Neuerung begann nicht erst mit Díaz. Die Texttafel der Innentreppe, die unter Präsident Manuel González geöffnet wurde, erwähnt einen elektrischen Aufzug, der ausschließlich dem Präsidenten und seiner Familie vorbehalten war.\n\nBei so viel Technik könnte man meinen, hier sei jeden Tag regiert worden, doch die Quellen des Museums erzählen etwas anderes. Die Präsidentenfamilie lebte den größten Teil des Jahres in der Straße La Cadena, der heutigen Venustiano Carranza. Díaz arbeitete im Nationalpalast und besuchte das Schloss vor allem im Sommer, wenn es für Bälle und Empfänge hergerichtet wurde.\n\nNach Díaz nutzten weitere Präsidenten den Alcázar. Die Texttafel des Sitzungssaals erwähnt Manuel González im Jahr achtzehnhundertzweiundachtzig. Ebenso Abelardo Rodríguez im Jahr neunzehnhundertzweiunddreißig. Diese Etappe endet mit Lázaro Cárdenas. Er verlegte seinen Amtssitz nach Los Pinos und übergab das Schloss im Jahr neunzehnhundertneununddreißig dem Volk von Mexiko. Das Nationalmuseum für Geschichte öffnete im Jahr neunzehnhundertvierundvierzig seine Türen.\n\nWenn du der Spur dieser Epoche weiter folgen willst: Die [Löwentreppe](chap_13_escalera_leones) entstand, als die Terrasse für das Observatorium erweitert wurde. Danach trieb Díaz ihre Umgestaltung voran. Und die [Bleiglasfenster](chap_14_vitrales_emplomados), um neunzehnhundert in Paris in Auftrag gegeben, zeigen die Vorliebe des Präsidenten, mit dem Neuesten seiner Zeit zu glänzen."
+    },
+    "retos_observacion": {
+      "hash": "4cc23dd159cbff74",
+      "texto": [
+        "Achte auf das Licht und die Fenster des Raums: Hier befanden sich zuerst das Arbeitszimmer von Carlota und danach die Büros des Observatoriums",
+        "Wenn du Bücherregale oder Bücherborde siehst, denk an die Bibliothek über Geschichte und Recht, die Díaz zusammentrug",
+        "Wenn ein Zugang, ein Schild oder eine Texttafel zum früheren Aufzug zu sehen ist, lies sie und überlege, wie sich das Leben auf dem Hügel verändert hat"
+      ]
+    },
+    "especificaciones": {
+      "hash": "18680783289b8569",
+      "texto": {
+        "Raum": "Büro des Präsidenten, Obergeschoss des Alcázar",
+        "Frühere Nutzungen laut Museum": "Arbeitszimmer von Carlota (1866) und meteorologische Abteilung des Observatoriums (1877)",
+        "Erste experimentelle Telefonübertragung in Mexiko": "16. September 1878, zwischen dem Schloss und dem Nationalpalast",
+        "Hydraulischer Aufzug": "seit 1896, vom Fuß des Hügels zum ersten Stock und zum Garten des Alcázar",
+        "Elektrischer Aufzug": "in Frankreich gefertigt, mit Kabine aus Stahl und Glas"
+      }
+    },
+    "faq_mito": {
+      "hash": "59e48156304143e9",
+      "texto": {
+        "pregunta": "Mythos: Porfirio Díaz regierte Mexiko jeden Tag von diesem Büro im Schloss Chapultepec aus.",
+        "respuesta": "Realität: Laut den Texttafeln des Museums lebte die Präsidentenfamilie den größten Teil des Jahres in der Straße La Cadena, der heutigen Venustiano Carranza, und Díaz arbeitete im Nationalpalast; das Schloss wurde vor allem im Sommer für Bälle und Empfänge genutzt."
+      }
+    }
+  }
+}

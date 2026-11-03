@@ -1,0 +1,60 @@
+{
+  "id": "chap_12_sala_carruajes",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "2ea081b1178ddcdb",
+      "texto": "Der Kutschensaal des Alcázar"
+    },
+    "frase_gancho": {
+      "hash": "80f057a99988f61c",
+      "texto": "Eine barocke Prunkkutsche aus Mailand und ein Alltagswagen, der mit dem Regierungswechsel das Wappen wechselte."
+    },
+    "puente_narrativo": {
+      "hash": "d9073dedd52a5abd",
+      "texto": "Folge dem Rundgang zur Löwentreppe, wo eine Freitreppe mit kaiserlicher Anmutung einen wissenschaftlichen Ursprung verbirgt."
+    },
+    "guion_corto": {
+      "hash": "f5cc41e47d99bea9",
+      "texto": "Bevor dieser Raum zum Eingang des Alcázar wurde, diente er laut Museum als Remise des Schlosses. Heute vereint er Kutschen aus zwei verschiedenen Regierungen. Die Prunkkutsche von Maximilian und Charlotte stammt von etwa achtzehnhundertvierundsechzig aus dem Haus Cesare Scala in Mailand. Sie ist im Barockstil gehalten, mit Zierleisten aus Silber und Bronze, geschnitzten Kindern und Engeln, kaiserlichen Wappen und einem spanischen Motto: Gerechtigkeit in der Rechtsprechung. In diesem Saal zeigt das Museum auch die Kutsche, die Maximilian und Charlotte täglich benutzten. Später fuhr Benito Juárez darin, und die Wappen des Kaiserreichs wichen den Wappen der Republik. Es ist ein und derselbe Wagen mit zwei Geschichten."
+    },
+    "guion_largo": {
+      "hash": "ac5560762e61ea5f",
+      "texto": "Die Pläne des Vizekönigs Bernardo de Gálvez aus dem Jahr siebzehnhundertfünfundachtzig sahen im Erdgeschoss des Palastes bereits eine Remise vor. Der Palast wurde nie fertiggestellt, und das Gebäude hatte viele Leben. Laut Museum diente dieser Saal später als Remise des Schlosses, und heute ist er der Zugang zum Alcázar. Das ist ein guter Anfang für die Etage der Kaiser: Wo früher Wagen standen, stehen jetzt Wagen, aber von anderer Art.\n\nDas prunkvollste Stück ist die Prunkkutsche von Maximilian und Charlotte. Das Museum schreibt sie dem Haus Cesare Scala aus Mailand zu und datiert sie auf etwa achtzehnhundertvierundsechzig. Ihr Stil ist barock. Sie hat Zierleisten aus Silber und Bronze, Skulpturen von Kindern und Engeln, kaiserliche Wappen und ein spanisches Motto, Gerechtigkeit in der Rechtsprechung. Eine Prunkkutsche ist nicht dafür gemacht, schnell irgendwohin zu gelangen. Sie ist dafür gemacht, dass man sie vorbeifahren sieht.\n\nMaximilian von Habsburg kam am zwölften Juni achtzehnhundertvierundsechzig im Schloss an. Er regierte mit der Unterstützung des französischen Heeres von Napoleon dem Dritten. Seine Herrschaft endete achtzehnhundertsiebenundsechzig. Er wurde auf dem Cerro de las Campanas in Querétaro erschossen, zusammen mit den Generälen Miguel Miramón und Tomás Mejía. Diese Phase nennt man das Zweite Kaiserreich, denn zuvor hatte Mexiko bereits ein erstes erlebt, das von [Agustín de Iturbide](chap_06_morelos_iturbide).\n\nIm selben Saal gibt es eine weitere, eher republikanische Geschichte. Das Museum erklärt, dass die Kutsche, die Maximilian und Charlotte täglich benutzten, später an Benito Juárez überging. Dafür wurden die kaiserlichen Wappen durch die Wappen der Republik ersetzt. Das Objekt blieb dasselbe, aber die Botschaft änderte sich. Das Museum erwähnt außerdem eine Kalesche. In ihr, so heißt es, zog Juárez am fünfzehnten Juli achtzehnhundertsiebenundsechzig in Mexiko-Stadt ein, sechsundzwanzig Tage nach der Erschießung. Die Kalesche wurde in Paris gefertigt und mit dem Nationalwappen und prähispanischen Motiven geschmückt. Jetzt ist ein guter Moment, sich an die [Kutsche von Juárez](chap_07_carruaje_juarez) von einer früheren Station zu erinnern.\n\nEs lohnt sich, auf den Kontrast zu achten. Auf der einen Seite eine Kutsche mit Zierleisten aus Silber, mit Engeln und Wappen; auf der anderen Fahrzeuge, die den Besitzer wechselten, indem man lediglich ein Emblem änderte. Es sind zwei Arten zu sagen, wer herrscht: mit Zierrat oder mit nationalen Symbolen.\n\nHinter diesen Objekten steht auch die Geschichte des Museums. Im Jahr neunzehnhundertneununddreißig verfügte Präsident Lázaro Cárdenas, dass das Schloss zu einem Museum werden sollte. Manuel Ávila Camacho eröffnete es am siebenundzwanzigsten September neunzehnhundertvierundvierzig. Heute vereint es mehr als fünfundsechzigtausend Objekte, darunter Gemälde, Mobiliar, Kleidung, Dokumente und Kutschen.\n\nWenn du hinauf zum Alcázar gehst, nimm diesen Gedanken mit. Ein Objekt der Regierung ist selten nur ein Objekt: Es trägt Wappen, Mottos und Embleme, die sich ändern, wenn die Macht wechselt, und deshalb kann man es wie ein Dokument lesen."
+    },
+    "retos_observacion": {
+      "hash": "573235bb5f6bdaf7",
+      "texto": [
+        "Suche an der Prunkkutsche die Zierleisten aus Silber und Bronze und die Figuren von Kindern und Engeln",
+        "Finde das spanische Motto, Gerechtigkeit in der Rechtsprechung, und die kaiserlichen Wappen",
+        "Vergleiche die Alltagskutsche mit der Prunkkutsche und achte darauf, welche mehr Schmuck trägt und welches Emblem sie zeigt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8dda3689baf17655",
+      "texto": {
+        "Epoche": "Zweites Kaiserreich, um 1864",
+        "Werkstatt der Prunkkutsche": "Haus Cesare Scala, Mailand",
+        "Stil und Materialien": "Barock, mit Zierleisten aus Silber und Bronze",
+        "Motto": "Gerechtigkeit in der Rechtsprechung",
+        "Kerninformation": "die Alltagskutsche von Maximilian und Charlotte wurde später von Benito Juárez benutzt, mit republikanischen Wappen",
+        "Standort": "Kutschensaal, Eingang zum Alcázar"
+      }
+    },
+    "faq_mito": {
+      "hash": "e319dbbd98f47c9e",
+      "texto": {
+        "pregunta": "Mythos: Die Kutschen von Kaiser Maximilian wurden zerstört oder blieben ungenutzt, als das Kaiserreich fiel.",
+        "respuesta": "Realität: Laut dem Nationalmuseum für Geschichte ging die Kutsche, die Maximilian und Charlotte täglich benutzten, an Benito Juárez über, und ihre kaiserlichen Wappen wurden durch die Wappen der Republik ersetzt."
+      }
+    }
+  }
+}

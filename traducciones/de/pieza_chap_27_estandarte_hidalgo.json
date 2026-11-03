@@ -1,0 +1,57 @@
+{
+  "id": "chap_27_estandarte_hidalgo",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f341b68cd75663da",
+      "texto": "Die Standarte von Guadalupe und die Reliquien von Hidalgo"
+    },
+    "frase_gancho": {
+      "hash": "5facb397c8c952ed",
+      "texto": "Ein Priester, der Geige spielte, eine in einem Heiligtum abgenommene Leinwand und ein Stock: So entstand die Standarte der Unabhängigkeit."
+    },
+    "puente_narrativo": {
+      "hash": "ed751b336ffff191",
+      "texto": "Geh weiter zur nächsten Station, an der der Krieg, der mit dieser Leinwand begann, mit zwei Männern weitergeht, die einander gegenüberstanden: José María Morelos und Agustín de Iturbide."
+    },
+    "guion_corto": {
+      "hash": "94af4d86fd7c564b",
+      "texto": "Hidalgo war siebenundfünfzig Jahre alt, als er zu den Waffen griff. Er war ein gelehrter Priester und ein bemerkenswerter Geiger, der bei den Abendgesellschaften in seinem Haus spielte. Er brach um elf Uhr morgens aus Dolores auf und erreichte das Heiligtum von Atotonilco um halb sechs am Nachmittag. Dort bat, wie der Kaplan aussagte, ein Rancher eine der frommen Frauen um ein Bild und befestigte es an einem Stock. Diese Leinwand der Jungfrau von Guadalupe ist die Standarte der Unabhängigkeit."
+    },
+    "guion_largo": {
+      "hash": "e65a9939fbdddc82",
+      "texto": "Miguel Hidalgo war siebenundfünfzig Jahre alt, als er zu den Waffen griff. Er war kein Krieger. Er war ein gelehrter Priester, in Dolores bekannt für seine Bildung und für seine Geige: Er spielte bei den Abendgesellschaften, die in seinem Haus stattfanden. Von dieser Person bewahrt dieser Saal die Spuren.\n\nIn der Frühe des sechzehnten September achtzehnhundertzehn rief die Glocke von Dolores die Menschen zusammen. Zunächst versammelten sich achtzig Männer mit Schwertern und Lanzen. Die Texttafeln im Saal berichten, dass es nach wenigen Stunden schon sechshundert waren. Die Kolonne verließ Dolores um elf Uhr morgens, aß und ruhte sich auf dem Landgut de la Erre aus und erreichte das Heiligtum von Atotonilco um halb sechs am Nachmittag.\n\nIn Atotonilco geschah etwas, das den Aufstand veränderte. Jemand nahm im Heiligtum eine Leinwand der Jungfrau von Guadalupe herunter und hob sie in die Höhe. Doch niemand weiß mit Sicherheit, wer sie nahm. Ignacio Allende erklärte in seinem Prozess, er wisse nicht, auf wessen Anordnung die Leinwand genommen wurde. Der Kaplan von Atotonilco sagte aus, es sei ein Rancher gewesen, der eine der frommen Frauen des Heiligtums um ein Bild bat und es an einem Stock befestigte. So entstand die Standarte: nicht aus einem Plan, sondern aus einer improvisierten Geste, die zum Symbol wurde.\n\nDie Standarte zog mit den Aufständischen weiter. Sie wurde vom Heer von Félix María Calleja in San Jerónimo Aculco erbeutet. Im Jahr achtzehnhundertdreiundfünfzig wurde auf ihrer Rückseite eine Inschrift angebracht. Heute ist sie auf einem Sockel aus geschnitztem Holz ausgestellt, der im Jahr neunzehnhundertelf gefertigt wurde.\n\nRund um die Standarte liegen die Reliquien. Im ganzen Museum werden nur rund fünfzig Gegenstände von Hidalgo aufbewahrt, die größtenteils um neunzehnhundertzehn gerettet wurden, als die Hundertjahrfeier begangen wurde. Die Texttafel, die sie vorstellt, trägt den Titel „Die Scham der Geschichte“. Darunter sind sehr persönliche Stücke: das Taufbecken, in dem er getauft wurde, der Beichtstuhl der Pfarrkirche von Dolores, das Gewand, das er zur Spendung der Sakramente trug, und ein Reliquiar mit der Jungfrau der Schmerzen.\n\nDas ist die andere Seite des Mannes, den du schon zweimal im [Wandbild von O’Gorman](chap_04_retablo_independencia) gesehen hast. Dort ist er ein Symbol an einer Wand; hier ist er ein Mensch, mit seiner Geige, seinem Beichtstuhl und seinem Taufbecken. Der Krieg, der mit dieser Leinwand begann, ging mit anderen Anführern weiter. Der nächste ist [Morelos](chap_06_morelos_iturbide), der ein Schüler von Hidalgo gewesen war."
+    },
+    "retos_observacion": {
+      "hash": "b35c7e8187a953aa",
+      "texto": [
+        "Suche die Standarte der Jungfrau von Guadalupe und achte auf den Sockel aus geschnitztem Holz, der sie trägt",
+        "Finde den Beichtstuhl der Pfarrkirche von Dolores und das Taufbecken",
+        "Suche das Reliquiar mit der Jungfrau der Schmerzen und das Gewand, das er zur Spendung der Sakramente trug"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b4e7e40a2c7c6a6c",
+      "texto": {
+        "Objekt": "Standarte von Guadalupe von Miguel Hidalgo",
+        "Ort der Entnahme": "Heiligtum von Atotonilco, 16. September 1810",
+        "Aufbruch aus Dolores": "11:00 Uhr; Ankunft in Atotonilco: 17:30 Uhr",
+        "Gefangennahme": "San Jerónimo Aculco, durch Calleja",
+        "Inschrift auf der Rückseite": "1853",
+        "Sockel": "geschnitztes Holz, 1911",
+        "Reliquien": "Taufbecken, Beichtstuhl von Dolores, Sakramentsgewand, Reliquiar mit der Jungfrau der Schmerzen"
+      }
+    },
+    "faq_mito": {
+      "hash": "844663168a3d225a",
+      "texto": {
+        "pregunta": "Mythos: Hidalgo bereitete die Standarte im Voraus vor.",
+        "respuesta": "Realität: Allende erklärte in seinem Prozess, er wisse nicht, auf wessen Anordnung die Leinwand genommen wurde, und der Kaplan von Atotonilco sagte, ein Rancher habe eine fromme Frau um ein Bild gebeten und es an einen Stock gesteckt."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "chap_28_salon_gobelinos",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5246c8622a6c01fd",
+      "texto": "Der Gobelinsalon"
+    },
+    "frase_gancho": {
+      "hash": "09ceebeb2c461b0a",
+      "texto": "Eine Sitzgarnitur aus Haselnussholz und Wandteppichen, die Napoleon III. Maximilian schenkte, und vier Porträts zweier Herrscherpaare."
+    },
+    "puente_narrativo": {
+      "hash": "411fd8fa951161ca",
+      "texto": "Weiter geht es zu Charlottes Schlafgemach, der Kaiserin, die regierte, als ihr Mann fern war."
+    },
+    "guion_corto": {
+      "hash": "a582dd68048f1934",
+      "texto": "Dieser Saal heißt Gobelinsalon, und auf der Wandtafel trägt er den Titel Sehnsucht nach Europa. Er enthält eine Sitzgarnitur aus Haselnussholz im Stil Ludwigs des Fünfzehnten, mit Aubusson-Bezügen mit den Fabeln von La Fontaine, ein persönliches Geschenk von Napoleon dem Dritten an Maximilian. An den Wänden hängen vier Porträts, die Albert Graefle im Jahr achtzehnhundertfünfundsechzig gemalt hat, und es stehen zwei Klaviere im Raum, ein französisches und ein englisches."
+    },
+    "guion_largo": {
+      "hash": "f3cd2ce0bd404558",
+      "texto": "Als Maximilian und Charlotte sich in Chapultepec niederließen, brachten sie ein Stück Europa nach Mexiko. Die Wandtafel dieses Saals sagt es schon im Titel: Sehnsucht nach Europa.\n\nDas Wertvollste ist eine Sitzgarnitur aus Haselnussholz im Stil Ludwigs des Fünfzehnten, mit Aubusson-Bezügen. Auf den Bezügen erscheinen die Fabeln von Jean de La Fontaine, dem französischen Autor der Frösche, der Füchse und der Raben. Es war kein Kauf: Es war ein persönliches Geschenk von Kaiser Napoleon dem Dritten an Maximilian.\n\nSieh dir jetzt die Wände an. Dort hängen vier Porträts, die Albert Graefle im Jahr achtzehnhundertfünfundsechzig gemalt hat: Maximilian, Charlotte, Napoleon der Dritte und seine Frau, Eugenie de Montijo. Die französischen Monarchen waren die politischen Mentoren des Kaiserpaares. Es sind zwei Paare an derselben Wand: das Paar, das Mexiko regierte, und das Paar, das es auf den Thron gebracht hatte.\n\nIm Saal stehen außerdem zwei Klaviere, ein französisches und ein englisches, die persönlich Maximilian und Charlotte gehörten.\n\nDieser Raum war nicht immer ein Salon. Die Wandtafel enthält einen Kasten mit dem Titel Dieser Raum in früheren Zeiten, der seine Nutzungen aufzählt. Im Jahr achtzehnhundertsechsundsechzig waren es Zimmer für Angestellte und eine Garderobe. Im Jahr achtzehnhundertsiebenundsiebzig war es das Zimmer des Direktors des Observatoriums. Im Jahr achtzehnhundertzweiundachtzig, unter Präsident Manuel González, war es das Zimmer der Haushälterin. Und im Jahr neunzehnhundertsechs, unter Porfirio Díaz, wurde es zum Unteren Saal. Vier Epochen, vier Bestimmungen und eine Sitzgarnitur aus Haselnussholz, die sie heute vereint.\n\nVerwechsle ihn nicht mit dem benachbarten [Botschaftersalon](chap_17_salon_embajadores), der eine andere Geschichte erzählt. Die nächste Station ist das [Schlafgemach Charlottes](chap_18_recamara_carlota), der Kaiserin, die nach Europa reiste, um um Hilfe zu bitten, als das Kaiserreich zusammenbrach."
+    },
+    "retos_observacion": {
+      "hash": "bc21a04080b9faba",
+      "texto": [
+        "Suche die vier Porträts von Albert Graefle und erkenne die beiden Herrscherpaare",
+        "Finde die beiden Klaviere, ein französisches und ein englisches",
+        "Betrachte die Bezüge der Sitzmöbel: Sie zeigen Szenen aus den Fabeln von La Fontaine"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1ab09abec71f2720",
+      "texto": {
+        "Name auf der Wandtafel": "Gobelinsalon (Sehnsucht nach Europa)",
+        "Porträts": "Albert Graefle, 1865 (Maximilian, Charlotte, Napoleon III. und Eugenie de Montijo)",
+        "Klaviere": "ein französisches und ein englisches",
+        "Sitzmöbel": "Haselnussholz, Stil Ludwigs XV., Aubusson-Bezüge mit Fabeln von La Fontaine",
+        "Ursprung": "persönliches Geschenk von Napoleon III. an Maximilian",
+        "Frühere Nutzungen": "1866 Garderobe und Angestellte; 1877 Direktor des Observatoriums; 1882 Haushälterin; 1906 Unterer Saal"
+      }
+    },
+    "faq_mito": {
+      "hash": "19aa53acaa4f7c55",
+      "texto": {
+        "pregunta": "Mythos: Die Möbel dieses Salons kaufte Maximilian, um die Botschafter zu beeindrucken.",
+        "respuesta": "Realität: Die Sitzgarnitur aus Haselnussholz mit Aubusson-Bezügen war ein persönliches Geschenk von Napoleon III. an Maximilian. Der Botschaftersalon ist ein anderer Saal, aus der Zeit von Porfirio Díaz."
+      }
+    }
+  }
+}

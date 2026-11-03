@@ -1,0 +1,62 @@
+{
+  "id": "chap_03_patio_canones",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Nationalmuseum für Geschichte\" para \"Museo Nacional de Historia\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "e9cbfe4de364e985",
+      "texto": "Der Hof der Kanonen und die ehemalige Militärakademie"
+    },
+    "frase_gancho": {
+      "hash": "7c8edf0fd411512c",
+      "texto": "Der Platz, auf dem Jugendliche zwischen dreizehn und neunzehn Jahren einem Artilleriebeschuss standhielten."
+    },
+    "puente_narrativo": {
+      "hash": "2dde7b42255ab23f",
+      "texto": "Geh auf die Eingangstür des westlichen Gebäudes am Ende des Hofes zu: Du betrittst damit das Nationalmuseum für Geschichte, dessen Rundgang in den Sälen über die Begegnung zwischen der indigenen Welt und Spanien beginnt."
+    },
+    "guion_corto": {
+      "hash": "e79a0f8b8d523c6c",
+      "texto": "Du befindest dich auf dem ehemaligen Exerzierplatz der Militärakademie. Um dich herum ruhen auf Lafetten aus Holz und Eisen historische Kanonen aus Bronze, die zum Horizont gerichtet sind, während dir die schlichte zweigeschossige Fassade den Flügel zeigt, in dem im neunzehnten Jahrhundert die Kadetten lernten und schliefen. Dieser offene Platz war am zwölften und dreizehnten September achtzehnhundertsiebenundvierzig das Herz des mexikanischen Widerstands, als das Heer der Vereinigten Staaten den Hügel mehr als einen ganzen Tag lang beschoss, bevor es den letzten Angriff im Nahkampf an den Hängen startete."
+    },
+    "guion_largo": {
+      "hash": "3f57df6a27005b86",
+      "texto": "Um zu verstehen, was sich auf diesem Hof ereignete, muss man sich den Morgen des zwölften September achtzehnhundertsiebenundvierzig vorstellen. Die amerikanischen Truppen unter dem Befehl von General Winfield Scott wussten, dass Chapultepec der letzte militärische Schlüssel war, bevor man die Stadttore von Mexiko-Stadt erreichte. Von den Batterien aus, die in Molino del Rey und im Süden des Waldes aufgestellt waren, eröffneten sie ein ununterbrochenes Artilleriefeuer auf genau diese Mauern. Im Inneren der Anlage standen kaum achthundert mexikanische Soldaten, unterstützt vom Bataillon San Blas und etwa fünfzig jungen Kadetten, die sich weigerten, ihre Schule zu räumen, obwohl der Direktor, General Nicolás Bravo, ihnen befohlen hatte, zu ihren Familien zu gehen. Viele von ihnen waren fast noch Kinder: Francisco Márquez war erst dreizehn Jahre alt. Am nächsten Morgen, als das Kanonenfeuer verstummte und die angreifenden Kolonnen mit Sturmleitern im Pulverrauch den Hügel erklommen, wurden dieser Hof und die [oberen Terrassen](chap_25_terraza_ninos_heroes) zu einem verzweifelten Kampfplatz mit aufgepflanztem Bajonett. Jahrzehnte nach jener Schlacht, im Jahr 1939, verfügte Präsident Lázaro Cárdenas, dass El Castillo nicht länger der Wohnsitz der Regierenden sein, sondern als Sitz des Nationalmuseums für Geschichte dem Volk übergeben werden sollte. Dessen Säle liegen direkt hinter der Tür, die du vor dir hast."
+    },
+    "retos_observacion": {
+      "hash": "bcfc900c3ebab971",
+      "texto": [
+        "Tritt an die Kanonen des Hofes heran und suche die Gravuren und Wappen, die in die Bronze gegossen sind",
+        "Betrachte die schlichte, militärische Symmetrie der Bögen und Balkone des Akademiegebäudes",
+        "Lehne dich an die Brüstung des Hofes und erkenne, welchen Vorteil dieser Platz mit seinem Blick über das Tal bot"
+      ]
+    },
+    "especificaciones": {
+      "hash": "55ace62d522e97f5",
+      "texto": {
+        "Epoche": "19. Jahrhundert (Zeit der Militärakademie, 1841-1847 und 1883-1913)",
+        "Historische Schlacht": "12. und 13. September 1847",
+        "Dekret zur Einrichtung als Nationalmuseum für Geschichte": "3. Februar 1939 (Präsident Lázaro Cárdenas)",
+        "Eröffnung des Museums": "27. September 1944",
+        "Besondere Elemente": "Artilleriegeschütze aus Bronze und neoklassizistische Militärfassade"
+      }
+    },
+    "faq_mito": {
+      "hash": "63e8a5681ad7a1d5",
+      "texto": {
+        "pregunta": "Mythos: Lázaro Cárdenas lebte während seiner gesamten Amtszeit im Schloss Chapultepec, bevor er es zum Museum machte.",
+        "respuesta": "Realität: Cárdenas weigerte sich, im Schloss zu wohnen, weil er es für ein monarchisches und kaiserliches Symbol hielt, das dem Volk fern war; er verlegte die offizielle Residenz nach Los Pinos und machte das gesamte Gebäude zu einem öffentlichen Museum."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chap-02-museo-historia",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "ffbfbecd1ac16f2f",
+      "texto": "Museum für Geschichte (ehemalige Militärakademie)"
+    },
+    "frase_gancho": {
+      "hash": "d97128f016e6c65d",
+      "texto": "Ein Gebäude, das einst Militärschule, Observatorium und Residenz war, erzählt heute als Nationalmuseum für Geschichte die Geschichte Mexikos."
+    },
+    "introduccion_narrativa": {
+      "hash": "77af98a7d4cd4c49",
+      "texto": "Bevor dieser Teil des Gebäudes ein Museum wurde, war er eine Schule. Nach den Bauarbeiten, die achtzehnhunderteinundvierzig begonnen hatten, wurde das Schloss als Militärakademie hergerichtet. Es war der Schauplatz der Verteidigung vom dreizehnten September achtzehnhundertsiebenundvierzig, die schwere Schäden am Gebäude hinterließ. Die Akademie blieb nicht für immer dort. Laut dem Historiker Michael Drewes ließ General Miramón achtzehnhundertachtundfünfzig die Schüler verlegen. Die Schule kehrte um achtzehnhundertzweiundachtzig zurück. Das Nationalmuseum für Geschichte ergänzt eine Angabe. Im Jahr achtzehnhundertdreiundachtzig zog das Observatorium nach Tacubaya um, damit das Schloss wieder Militärakademie sein konnte. Die Zeit als Museum begann mit Präsident Lázaro Cárdenas, der seinen Amtssitz nach Los Pinos verlegte. Am dritten Februar neunzehnhundertneununddreißig wurde es zum Nationalmuseum für Geschichte erklärt. Eröffnet wurde es am siebenundzwanzigsten September neunzehnhundertvierundvierzig."
+    }
+  }
+}
