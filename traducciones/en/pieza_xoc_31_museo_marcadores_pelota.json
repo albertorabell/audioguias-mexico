@@ -1,0 +1,53 @@
+{
+  "id": "xoc_31_museo_marcadores_pelota",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f4a7dc33997c90ec",
+      "texto": "The Ballcourt Markers"
+    },
+    "frase_gancho": {
+      "hash": "4bf3228a9d6eef01",
+      "texto": "Carved stones that once stood on a court, and that you can now see up close."
+    },
+    "puente_narrativo": {
+      "hash": "1cc4cf8309c13993",
+      "texto": "The visit continues in the museum: the next hall displays other pieces from the site."
+    },
+    "guion_corto": {
+      "hash": "155633692377d67e",
+      "texto": "The markers from the east court are here. According to the INAH guide, they have bas-relief carving and are displayed in the Site Museum. A marker was a carved stone set into the wall of the ballcourt. Another source says that some pieces in the museum still preserve red pigments. Remember that the macaw sculpture from the south court is in the National Museum of Anthropology, not here. Notice how deep the carving is and whether any color remains. Without the museum, these stones would be just a line in a guide; here you can see them up close and understand why the courts mattered so much."
+    },
+    "guion_largo": {
+      "hash": "968b4c2fc827a487",
+      "texto": "These stones once stood on a court.\n\nAccording to the INAH guide, the markers from the east court have bas-relief carving and are displayed in the Site Museum. A bas-relief is a carved figure that rises only slightly from the stone. A marker was a stone set into the wall of the ballcourt.\n\nAnother source says that the museum displays carved ballcourt markers, one of them among its pieces, and that some pieces preserve red pigments.\n\nThere is one detail worth making clear. The macaw that was found in the south court is not here. According to the INAH guide, today it is in the National Museum of Anthropology.\n\nCompare these pieces with what you saw on the courts. The south court keeps two markers in place, the north court has them fallen, and those from the east court are here. Three courts, three fates.\n\nNotice how deep the carving is and whether any color remains. It is the best way to get closer to what was played out there."
+    },
+    "retos_observacion": {
+      "hash": "4ac83377a6618d7b",
+      "texto": [
+        "Look closely at the carving",
+        "Look for traces of red color",
+        "Compare with the court you saw outside"
+      ]
+    },
+    "especificaciones": {
+      "hash": "91245ea8dc5e6e3f",
+      "texto": {
+        "Piece": "markers from the east court, with bas-relief",
+        "Location": "Site Museum, according to the INAH guide",
+        "Macaw from the south court": "National Museum of Anthropology"
+      }
+    },
+    "faq_mito": {
+      "hash": "a8d4ccb5bf08898d",
+      "texto": {
+        "pregunta": "Myth: All the pieces from the courts are in the site museum.",
+        "respuesta": "Reality: The macaw from the south court is in the National Museum of Anthropology, and two markers remain in the south court."
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "xoc_29_fin_ciudad",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c0f13fb8c4d2826b",
+      "texto": "The End of the City"
+    },
+    "frase_gancho": {
+      "hash": "204f2953895c0a04",
+      "texto": "A city that dominated these hills for centuries and fell all at once."
+    },
+    "guion_corto": {
+      "hash": "ca1c6d8b4e3e3349",
+      "texto": "For centuries, Xochicalco dominated these hills. Then, in a very short time, it all came to an end. Webb and Hirth found traces of fire in the ceremonial core, destroyed buildings and sculptures, and dismembered bodies lying on the floors. The houses, by contrast, were left with vessels still in usable condition, as if their owners had left in a hurry. Specialists debate why: an internal revolt, the breakup of the alliance between cities, or an outside conquest. Today the city has been a World Heritage Site since nineteen ninety-nine. Before you leave, look at the hill one last time. What you see is a city frozen in the moment of its fall."
+    },
+    "guion_largo": {
+      "hash": "d5cc3fe30c912228",
+      "texto": "For centuries, Xochicalco dominated these hills. Then, in a very short time, it all came to an end.\n\nThe city was founded around the year six hundred seventy, on a hill that had never been inhabited before. According to Alvarado León, the abandonment came around the year one thousand sixty-five, some four hundred years later. According to the INAH, it was sacked and abruptly abandoned. The date is disputed: Webb and Hirth place it earlier, around the year nine hundred.\n\nThe buildings burned. Webb and Hirth describe fires in the ceremonial core, destroyed buildings and sculptures, and dismembered bodies lying on the floors. It was not a silent abandonment.\n\nBut the houses tell a different story. In three dwellings with workshops excavated in nineteen ninety-three, and in one in particular, more than a hundred vessels and more than seventy ground-stone tools were left behind. Those who lived there left in a hurry and abandoned objects that were still useful.\n\nWhy it happened is something on which there is no agreement. Alvarado León, together with Norberto González and Silvia Garza, proposes that around the year nine hundred power passed to two leaders, because of social pressure and scarce resources. Around one thousand sixty-five, a revolt born at the heart of power would have brought the sacking and burning of the buildings and symbols of the elite. Afterward, pottery from Tula and from the Matlatzinca appeared, typical of that period. Apart from some modest, much later constructions, no one occupied the city again. Hirth proposes the breakup of the confederation that sustained the city, or a conquest from outside. Other sources speak of an uprising against the elite. A legend tells that the lord of Xochicalco demanded a noble every year as tribute, until the young king of Tepoztlán, Tepoztécatl, killed him. Hirth sees in this the memory of the end of the city. These are hypotheses, not facts.\n\nSeveral centuries passed before other peoples settled in the region. One source says that the Tlahuica arrived around the year twelve hundred.\n\nToday the site is protected. It was decreed an archaeological monuments zone in nineteen ninety-four, and UNESCO declared it a World Heritage Site in nineteen ninety-nine. The zone covers some seven hundred seven hectares.\n\nBefore you leave, look at the hill one last time. A city that lasted for centuries left behind stones that still tell how power was organized, how time was measured, and how people lived high above. What you see is a city frozen in the moment of its fall."
+    },
+    "retos_observacion": {
+      "hash": "bfe1b1078ffc811f",
+      "texto": [
+        "Look at the hill one last time",
+        "Think about which objects you would leave behind if you had to go in a hurry",
+        "Look for traces of fire, if they can be seen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bdeacc124e4b7e5b",
+      "texto": {
+        "Founding": "around the year six hundred seventy",
+        "Abandonment": "around one thousand sixty-five, according to Alvarado León; Webb and Hirth place it around nine hundred",
+        "Decree": "nineteen ninety-four",
+        "World Heritage Site": "nineteen ninety-nine",
+        "Area": "some seven hundred seven hectares"
+      }
+    },
+    "faq_mito": {
+      "hash": "9c202d058f9ebb22",
+      "texto": {
+        "pregunta": "Myth: Xochicalco was abandoned little by little.",
+        "respuesta": "Reality: The traces of fire and the houses with objects left behind suggest an abrupt departure. The causes are still debated."
+      }
+    }
+  }
+}

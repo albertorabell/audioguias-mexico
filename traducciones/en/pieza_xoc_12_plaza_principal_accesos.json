@@ -1,0 +1,54 @@
+{
+  "id": "xoc_12_plaza_principal_accesos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "590916867dd76c70",
+      "texto": "The Main Plaza"
+    },
+    "frase_gancho": {
+      "hash": "787d3d0fabd17aa4",
+      "texto": "The best-protected part of the city, where power was concentrated."
+    },
+    "puente_narrativo": {
+      "hash": "0b62f0a1180a75e2",
+      "texto": "Continue on your route: what comes next is in this same plaza or very close to it."
+    },
+    "guion_corto": {
+      "hash": "f6ac845f5a845dff",
+      "texto": "You have reached the part they protected most. According to the INAH, the Main Plaza sits on an artificial mound and is entered through two defended portals. The guide describes it as the best-preserved and hardest-to-reach area of Xochicalco. Here are the Temple of the Feathered Serpents, a Twin Pyramid, and administrative structures. There is also the Temple of the Stelae, which held three stelae now in the National Museum of Anthropology. To the west is the Acropolis, where the ruler lived. Everything suggests that power was concentrated here, and that this ceremonial core would burn at the end of the city. Look around and find the building with serpents on its walls."
+    },
+    "guion_largo": {
+      "hash": "357c95846ca66cd5",
+      "texto": "You have reached the part they protected most.\n\nImagine the journey of a visitor in those days. They have passed defended entrances, climbed up terraces, and left behind the market and the workshops. Now they enter through one of the two defended portals that, according to the INAH, give access to this plaza. It stands on an artificial mound: height is also a message.\n\nThe INAH guide describes the Main Plaza as the best-preserved and hardest-to-reach area of Xochicalco. Several buildings come together here. The best known is the Temple of the Feathered Serpents. There is also a Twin Pyramid and administrative structures. In the Twin Pyramid, about four hundred stones with traces of mural painting were recovered, according to a study by González Crespo and his team.\n\nThere is also the Temple of the Stelae. According to Medina Romero, it held three stelae that are now in the National Museum of Anthropology, in Mexico City. César Sáenz excavated them in nineteen sixty-one. They were fragmented, and Sáenz concluded that the people of Xochicalco themselves destroyed them on purpose before abandoning the city. According to Andrews and Glascock, about a thousand people lived in this center of power: priests, the palace elite, bureaucrats, and servants. A stela is a tall stone with reliefs. Hirth reports that each one names a ruler: Seven Reptile Eye, Seven Rain, and Four Movement. They are the first names of kings written in central Mexico and the first long texts of the Altiplano. Carved footprints indicate the order in which to read them. Another source describes them with a jaguar and serpent mask, celestial bands, and an image of Tláloc.\n\nTo the west lies the Acropolis. According to Hirth, the ruler’s palace and the administrative center of the city stood there. Hirth also describes a ceremonial plaza to the east of the Acropolis.\n\nThe observatory, a cave beneath the platforms of this area, has its own stop. Today it cannot be entered.\n\nEverything suggests that power was concentrated here. And also, according to Webb and Hirth, it is the ceremonial core that would burn at the end of the city. Keep that idea in mind: later on we will return to it.\n\nOne source indicates that access to the plaza may be restricted. Confirm on arrival which parts you can walk through. Before moving on, take a moment and look around, with your neck tilted upward and without hurry."
+    },
+    "retos_observacion": {
+      "hash": "f9522d040428af12",
+      "texto": [
+        "Find the building with serpents on its walls",
+        "Look for the Acropolis, to the west",
+        "Notice the portals through which you enter"
+      ]
+    },
+    "especificaciones": {
+      "hash": "300b98ed915506ac",
+      "texto": {
+        "Access": "two defended portals",
+        "Condition": "the best-preserved part of the city",
+        "Buildings": "Temple of the Feathered Serpents, Twin Pyramid, Temple of the Stelae, administrative structures, and Acropolis",
+        "Stelae of the temple": "three, now in the National Museum of Anthropology"
+      }
+    },
+    "faq_mito": {
+      "hash": "08703b1657dfc0c2",
+      "texto": {
+        "pregunta": "Myth: The stelae are still in the Temple of the Stelae.",
+        "respuesta": "Reality: The three stelae from the temple are now in the National Museum of Anthropology."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "xoc_06_mercado_obsidiana",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2a9f70325ec0ac9d",
+      "texto": "The Market and the Obsidian Workshops"
+    },
+    "frase_gancho": {
+      "hash": "e44e99ed1988cc7a",
+      "texto": "A city that made its living by making, selling, and carrying goods far afield."
+    },
+    "puente_narrativo": {
+      "hash": "c0b8b7bedc2afe45",
+      "texto": "Follow your route: now it is worth looking at one of the largest buildings in the city."
+    },
+    "guion_corto": {
+      "hash": "6d2633f305c2b7c8",
+      "texto": "How many people live off what they sell? In Xochicalco, a great many. Archaeologists excavated five workshops that made obsidian blades: four inside houses and one in a market area, where the artisans sold what they made. Obsidian is a volcanic glass that breaks into very sharp edges, and it was used to make blades and tools. The raw material came from far away, from sources in Michoacán and Hidalgo more than two hundred kilometers away. So this city was not only a center of power. It was a place of crafts and trade, connected to routes that crossed Mesoamerica. The wealth of Xochicalco was not only in its temples. It was in the hands that made and sold."
+    },
+    "guion_largo": {
+      "hash": "08e0c7d5da9cc155",
+      "texto": "When we think of an ancient city, we imagine temples, but there were markets too. And Xochicalco had one.\n\nObsidian is a black volcanic glass that breaks into very sharp edges. It was used to make blades, knives, and points. Here they did not quarry it from the hill. Chemical analyses of the pieces show that almost all of it came from two sources: Ucareo, in Michoacán, and Zacualtipán, in Hidalgo. Both are more than two hundred kilometers from this plaza.\n\nA project led by Kenneth Hirth excavated five blade workshops in common areas of the city. Four were houses, where the family lived and worked in the same space. The fifth was a market area, where the artisans sold what they made. According to Andrews and Glascock, those workshops produced most of the blades used in the city and its surroundings.\n\nThe process had a curious detail. The stone did not arrive at the workshops raw. Small cores arrived, already partly worked, and Hirth proposes that they were brought by merchants who went from town to town, covering long distances. At home, the artisan struck off the blades one by one. When the core lost its striking surface, he renewed it and carried on.\n\nThere is another surprising fact. Archaeologists compared those blades with the ones found in the elite buildings, and they are identical in technique and in form. Andrews and Glascock conclude that the rulers did not directly control this craft. They probably bought their blades at the central market, like everyone else.\n\nNow imagine this plaza on market day. People arriving from other towns, merchants offering their goods, artisans showing off freshly made blades. The noise of the plaza, mixed with the echo you already noticed.\n\nA fortified city did not live on war alone. It lived on exchange. And that exchange also helps explain why its art blends styles from so many regions."
+    },
+    "retos_observacion": {
+      "hash": "b33dc89f11b28aec",
+      "texto": [
+        "Imagine the market stalls in this plaza",
+        "Look for the small altar, if you can make it out",
+        "Think about which obsidian objects you would use every day"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0d713ff46083b4d8",
+      "texto": {
+        "Material": "obsidian, volcanic glass",
+        "Producto": "blades and tools",
+        "Origen": "Ucareo, Michoacán, and Zacualtipán, Hidalgo, more than two hundred kilometers away",
+        "Talleres excavados": "five, four in houses and one in a market area",
+        "Fuente": "Andrews and Glascock, Arqueología 61"
+      }
+    },
+    "faq_mito": {
+      "hash": "e0920c41e2e80053",
+      "texto": {
+        "pregunta": "Myth: Xochicalco was only a ceremonial city.",
+        "respuesta": "Reality: It was also a center of trade and workshops, with houses that were both a dwelling and a workplace."
+      }
+    }
+  }
+}

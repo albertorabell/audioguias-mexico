@@ -1,0 +1,53 @@
+{
+  "id": "xoc_24_caminata_este",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "bed06095b55b4554",
+      "texto": "Walk: Toward the East Complex"
+    },
+    "frase_gancho": {
+      "hash": "e42e817f8f630cb7",
+      "texto": "A route toward the ramp, the sunken patio, and the three temples."
+    },
+    "puente_narrativo": {
+      "hash": "19d88a5c8fc91082",
+      "texto": "Continue your route: head toward the eastern zone of the city."
+    },
+    "guion_corto": {
+      "hash": "6a73044044c7c784",
+      "texto": "This walk takes you to the east complex, the eastern part of the city. According to INAH Lugares, there is a rectangular building with a sunken patio, a patio with three pyramidal platforms, and a ball court. There is also the Rampa de los Animales. The INAH guide mentions three temples, the ramp, and the Templo de los Arquitectos. As you walk, notice how the landscape changes. According to INAH Lugares, the city occupied six low hills, with terraces and retaining walls. Keep in mind that every path climbs, descends, and winds around those hills. What follows are several stops in that zone."
+    },
+    "guion_largo": {
+      "hash": "72ea43f860e389de",
+      "texto": "This walk takes you to the east complex, the eastern part of the city.\n\nAccording to INAH Lugares, there is a rectangular building with a sunken patio, a patio with three pyramidal platforms, and a ball court. There is also the Rampa de los Animales, which connects to that court.\n\nThe INAH guide mentions three temples, the ramp, and the Templo de los Arquitectos, also called the Sunken Patio. In other words, this is a complex made up of several buildings grouped together.\n\nAs you walk, notice how the landscape changes. According to INAH Lugares, the city occupied six low hills, with terraces and retaining walls. That means every path climbs, descends, and winds around the hills. A retaining wall is one that holds the earth of a terrace in place so that it does not slide.\n\nUNESCO considers that Xochicalco had three levels: a low one, an intermediate one, and a high one. According to Hirth, the city grew very quickly around the year six hundred and relocated between ten thousand and fifteen thousand people.\n\nThe next stops take place in that zone. There is no need to hurry."
+    },
+    "retos_observacion": {
+      "hash": "8a81f85c8ad2a18f",
+      "texto": [
+        "Notice how the landscape changes",
+        "Count how many hills you can see",
+        "Listen as you walk, without looking at the screen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5d0541de5c6f85f7",
+      "texto": {
+        "Destination": "east complex",
+        "Spaces": "rectangular building with a sunken patio, patio with three pyramidal platforms, ball court, and ramp, according to INAH Lugares",
+        "Hills occupied": "six, according to INAH Lugares"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7957f59da6106b7",
+      "texto": {
+        "pregunta": "Myth: Xochicalco occupies a single hill.",
+        "respuesta": "Reality: According to INAH Lugares, it occupied six low hills, with terraces and walls."
+      }
+    }
+  }
+}

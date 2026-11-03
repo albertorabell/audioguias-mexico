@@ -1,0 +1,53 @@
+{
+  "id": "xoc_26_templo_arquitectos",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "914f5b01128cc0bd",
+      "texto": "The Temple of the Architects"
+    },
+    "frase_gancho": {
+      "hash": "4e475670f5712dc0",
+      "texto": "A courtyard where construction tools were found."
+    },
+    "puente_narrativo": {
+      "hash": "0d1efbba7db61079",
+      "texto": "Follow your route: continue through the city’s spaces of work and power."
+    },
+    "guion_corto": {
+      "hash": "ee5c4f2b792e04eb",
+      "texto": "This building is called the Temple of the Architects, also the Sunken Patio. According to the INAH guide, construction tools were found here: plumb bobs, mixers and polishers. A plumb bob is a string with a weight that is used to check that a wall is vertical. A polisher smooths the surface of stone. INAH Lugares describes a rectangular building with a sunken patio in the east complex, which may be this very one. Modern names say more about those who gave them than about those who built. Even so, seeing construction tools here is a reminder that someone had to measure, level and polish every stone. It is a good place to think about the trades."
+    },
+    "guion_largo": {
+      "hash": "12bca65ed3488fc0",
+      "texto": "The name sounds like a title, but it comes from what was found here.\n\nIt is called the Temple of the Architects, and also the Sunken Patio. According to the INAH guide, construction tools were found in this place: plumb bobs, mixers and polishers.\n\nA plumb bob is a string with a weight at the end. It is used to check that a wall is straight. A polisher is a stone used to smooth the surface of another.\n\nINAH Lugares mentions, in the east complex, a rectangular building with a sunken patio. It may be the same one.\n\nModern names say more about those who gave them than about those who built. No one knows what this building was called in the city. What we do know is what the find suggests: construction tools were kept or used here.\n\nThink about the work behind a city like this. Someone had to measure, level, cut and polish every stone, and lay out terraces on a hill.\n\nWhen you look at the sunken patio, imagine those tools on the floor. It is a way of seeing the builders, and not only the rulers."
+    },
+    "retos_observacion": {
+      "hash": "5b60a2a6220bcbb5",
+      "texto": [
+        "Find the sunken patio",
+        "Imagine where the tools might have been",
+        "Think about how many people it would take to raise a building like this"
+      ]
+    },
+    "especificaciones": {
+      "hash": "779a73f4796f3331",
+      "texto": {
+        "Names": "Temple of the Architects and Sunken Patio",
+        "Find": "plumb bobs, mixers and polishers, according to the INAH guide",
+        "Location": "east complex"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c12928ab59318a5",
+      "texto": {
+        "pregunta": "Myth: A temple is always a place only for gods.",
+        "respuesta": "Reality: The modern name comes from the construction tools that were found, not from a proven religious function."
+      }
+    }
+  }
+}

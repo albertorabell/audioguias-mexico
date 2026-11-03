@@ -1,0 +1,54 @@
+{
+  "id": "xoc_11_caminata_plaza_principal",
+  "tipo": "pieza",
+  "idioma": "en",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1879863762ac4b65",
+      "texto": "Walk: Toward the Main Plaza"
+    },
+    "frase_gancho": {
+      "hash": "8e9e2edf5e168fda",
+      "texto": "An uphill route through a city designed to be defended."
+    },
+    "puente_narrativo": {
+      "hash": "e10bd2bfa52eaab2",
+      "texto": "Continue your route: once you reach the top, the city changes in scale."
+    },
+    "guion_corto": {
+      "hash": "5c70785ee1b71a54",
+      "texto": "Now it’s time to climb. This walk leads from the Palace to the Main Plaza. According to the INAH, the plaza sits on an artificial mound and is reached through two defended porticoes. The INAH guide adds that it is the best-preserved part of the city and also the hardest to reach. Medina Romero mentions that the site has paved causeways of up to one hundred seventy-five meters. As you walk, there is no need to look for anything in particular. Notice how the terrain changes beneath your feet. Think about what it means to arrive at a place that was designed to be defended. When you reach the top, we will talk about what is in the plaza."
+    },
+    "guion_largo": {
+      "hash": "efde4016d0cc3ec8",
+      "texto": "Now it’s time to climb. This walk leads from the Palace to the Main Plaza.\n\nTo understand the path, it helps to remember how the city is organized. UNESCO distinguishes three levels: a low one, an intermediate one, and a high one. You are coming from the intermediate level and heading to the highest.\n\nAccording to the INAH, the Main Plaza sits on an artificial mound. It is reached through two defended porticoes. In other words, it was not a place one simply walked into.\n\nThe INAH guide says it is the best-preserved part of the city and the hardest to reach. Those two things may go together.\n\nMedina Romero points out that the site has paved causeways of up to one hundred seventy-five meters in length. He also mentions that south of the Acropolis there is a four-meter wall with bastions and moats.\n\nAs you climb, stop looking for monuments and pay attention to the terrain. A hill reshaped with terraces and walls feels different from an open plaza.\n\nUNESCO considers Xochicalco a supreme example of a fortified city of the Epiclassic. You will feel it in your body before you see it with your eyes.\n\nWhen you reach the top, take a breath. What comes next is the most famous part of the site."
+    },
+    "retos_observacion": {
+      "hash": "1116641122750212",
+      "texto": [
+        "Notice how the terrain changes beneath your feet",
+        "Count the times the level of the path changes",
+        "Look for the porticoes through which you enter the plaza"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c2d65caad70383d0",
+      "texto": {
+        "Main Plaza": "on an artificial mound",
+        "Access points": "two defended porticoes",
+        "Paved causeways": "up to one hundred seventy-five meters, according to Medina Romero",
+        "Levels of the city": "three, according to UNESCO"
+      }
+    },
+    "faq_mito": {
+      "hash": "5407af077888d91a",
+      "texto": {
+        "pregunta": "Myth: The most important plaza could be entered freely.",
+        "respuesta": "Reality: According to the INAH, it is reached through two defended porticoes."
+      }
+    }
+  }
+}
