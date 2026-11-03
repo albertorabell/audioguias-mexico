@@ -3,7 +3,7 @@ import { Plus, Minus, LocateFixed, Maximize2, ChevronRight, Lock } from 'lucide-
 import { PieceData } from '../types';
 import { useLanguage } from '../utils/LanguageContext';
 import { ActiveTour } from './RoutesScreen';
-import { PLAN_UI, PlanFloor, PlanLang, Rect, SitePlan } from '../config/sitePlan';
+import { PLAN_UI, PlanFloor, PlanLang, PlanPin, Rect, SitePlan } from '../config/sitePlan';
 
 type Mode = 'follow' | 'overview' | 'area' | 'free';
 
@@ -42,8 +42,9 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
   const [sel, setSel] = useState<string | null>(null);
 
   const pieceById = useMemo(() => new Map(pieces.map((p) => [p.piece_id, p])), [pieces]);
+  const pinList = useMemo<[string, PlanPin][]>(() => Object.keys(plan.pins).map((k): [string, PlanPin] => [k, plan.pins[k]]), [plan]);
   const open = (p: PieceData) => hasPass || p.is_free;
-  const floorsAvailable = (['PB', 'PA'] as PlanFloor[]).filter((f) => plan.floors[f] && Object.entries(plan.pins).some(([id, p]) => p.floor === f && pieceById.has(id)));
+  const floorsAvailable = (['PB', 'PA'] as PlanFloor[]).filter((f) => plan.floors[f] && pinList.some(([id, p]) => p.floor === f && pieceById.has(id)));
 
   // paradas del recorrido activo con su posición
   const stops = useMemo(() => {
@@ -184,7 +185,7 @@ export const SitePlanView: React.FC<Props> = ({ plan, pieces, floor, onFloorChan
 
   const near = vb[2] <= 190;
   const dot = near ? 7 : 4.6;
-  const pinsHere = Object.entries(plan.pins).filter(([id, p]) => p.floor === floor && pieceById.has(id));
+  const pinsHere = pinList.filter(([id, p]) => p.floor === floor && pieceById.has(id));
 
   const nextStop = tour ? tour.route.stops[tour.index + 1] : undefined;
   const nextId = nextStop ? stopId(nextStop) : '';
