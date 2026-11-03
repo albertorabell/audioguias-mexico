@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_17_calle_madero",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "22ffe56348470578",
+      "texto": "Rua de Madero: San Francisco, Plateros e um nome de 1914"
+    },
+    "frase_gancho": {
+      "hash": "c0df6cac65fcd83e",
+      "texto": "Uma rua que foi de San Francisco, depois de Plateros, e que desde mil novecentos e catorze leva o nome de Madero."
+    },
+    "puente_narrativo": {
+      "hash": "ca8e83faa3ac4dc9",
+      "texto": "Siga por Madero até o número dezessete, onde o [Palácio de Iturbide](cdmx_18_palacio_iturbide) espera por você."
+    },
+    "como_llegar": {
+      "hash": "52b9b73c044c7165",
+      "texto": "Volte à rua de Madero e siga em direção ao Zócalo; começa o trecho de pedestres da [rua de Madero](cdmx_17_calle_madero)."
+    },
+    "guion_corto": {
+      "hash": "d0c0022d0429b3ae",
+      "texto": "No dia vinte e sete de setembro de mil oitocentos e vinte e um, um arco do triunfo esperava Agustín de Iturbide perto da extremidade oeste desta rua. Naquele tempo, ela se chamava rua de San Francisco, por causa do convento que você acabou de deixar para trás. Mais tarde foi a rua de Plateros, e desde dezembro de mil novecentos e catorze leva o nome de Francisco I. Madero. Hoje é uma rua de pedestres e chega até o Zócalo. Cada fachada deste trecho guarda uma história diferente: palácios de condes, um templo que foi dos jesuítas, lojas de todas as épocas. Caminhe por ela sem pressa e olhe na altura média, onde os edifícios mostram suas sacadas e suas portadas."
+    },
+    "guion_largo": {
+      "hash": "d2e0ad1b16885d4e",
+      "texto": "Esta rua já teve três nomes. O primeiro foi rua de San Francisco, por causa do convento franciscano que você acabou de visitar. O segundo, rua de Plateros, porque foi nela que se estabeleceram os prateiros. Durante muito tempo, as pessoas a conheceram assim. O cronista Juan Becerra Acosta lembra que, por trechos, o mais próximo do Eixo Central era San Francisco, o seguinte era La Profesa, por causa do templo, e o último, em direção ao Zócalo, era Plateros.\n\nO terceiro nome é o atual. No dia oito de dezembro de mil novecentos e catorze, quando Francisco Villa entrou no centro da cidade, a placa de Plateros foi retirada e colocaram a de Madero. A historiadora Karem Celso, do Museu Nacional da Revolução, conta que Villa escreveu primeiro Maderito e depois se corrigiu. Francisco I. Madero tinha sido presidente do México e foi assassinado em mil novecentos e treze. O nome da rua é uma homenagem a ele.\n\nEsta também foi uma rua de entradas triunfais. No dia vinte e sete de setembro de mil oitocentos e vinte e um, o Exército Trigarante entrou na capital, encabeçado por Agustín de Iturbide. Na entrada oeste da rua de San Francisco, a Câmara Municipal havia erguido um arco do triunfo, construído às pressas. Ali, o presidente da Câmara Municipal entregou a Iturbide as chaves da cidade, e Iturbide as devolveu. Dali o cortejo seguiu para o Palácio Imperial, hoje Palácio Nacional. Uma lenda conta que Iturbide quis passar por esta rua para que La Güera Rodríguez o visse, ela que morava perto de La Profesa.\n\nCaminhe com o olhar na altura média e você verá o Centro Histórico como um livro de camadas. Em poucos passos se sucedem edifícios do vice-reino, do Porfiriato e do século vinte. Mais adiante esperam por você o Palácio de Iturbide e o templo de La Profesa. Todos ficam a poucas arcadas de distância, e cada um explica algo diferente da cidade.\n\nHá um detalhe que muita gente deixa passar. Na esquina de Madero com Motolinía há um mascarão de pedra em forma de cabeça de leão. A tradição diz que ele marca a altura que a água alcançou na inundação de mil seiscentos e vinte e nove, e a revista Km Cero, do Fideicomisso do Centro Histórico, conta assim. Quando chegar a essa esquina, procure-o na fachada. Aquela inundação, conhecida como o dilúvio de São Mateus, manteve a cidade debaixo d’água durante anos.\n\nHoje a rua é de pedestres, e por isso você pode caminhar pelo meio sem desviar de carros. Ela liga a região do Eixo Central à praça principal do país, e é percorrida todos os dias por muitíssimas pessoas, de modo que convém ter paciência nos horários de grande movimento.\n\nNesse trecho, você passará do antigo mundo dos conventos à praça principal do país. Leve com calma. Cada esquina oferece uma pausa diferente: uma portada, uma sacada, uma porta de madeira. E lembre-se de que quase tudo o que você verá já foi olhado antes por soldados, imperadores e gente comum que ia comprar prata."
+    },
+    "retos_observacion": {
+      "hash": "5af3cb649296cf33",
+      "texto": [
+        "Procure na altura média as sacadas e as portadas dos edifícios, e compare quais parecem mais antigas",
+        "Encontre uma placa com o nome Francisco I. Madero e lembre-se dos dois nomes anteriores da rua",
+        "Olhe para trás e procure a silhueta da Torre Latino-Americana no fim do trecho"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ee1580ad70581b0e",
+      "texto": {
+        "Nomes": "Rua de San Francisco, depois Plateros, Madero desde dezembro de 1914",
+        "Trecho": "Do Eixo Central à Praça da Constituição",
+        "Fato-chave": "Entrada do Exército Trigarante na capital, 27 de setembro de 1821",
+        "Localização": "Av. Francisco I. Madero, Centro Histórico",
+        "Uso atual": "Rua de pedestres"
+      }
+    },
+    "faq_mito": {
+      "hash": "df6e1daa80a58ac0",
+      "texto": {
+        "pregunta": "Mito: A rua se chama Madero porque por aqui entrou triunfante Francisco I. Madero em mil novecentos e onze.",
+        "respuesta": "Realidade: Madero entrou na capital no dia sete de junho de mil novecentos e onze, rumo ao Zócalo pelo Passeio da Reforma. A rua recebeu seu nome no dia oito de dezembro de mil novecentos e catorze, quando ele já havia sido assassinado."
+      }
+    }
+  }
+}

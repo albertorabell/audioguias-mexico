@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_39_culturas_mundo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ea7428c2733554af",
+      "texto": "Museu Nacional das Culturas do Mundo, antiga Casa da Moeda"
+    },
+    "frase_gancho": {
+      "hash": "ee83d0f5840604a6",
+      "texto": "Aqui se cunhou a moeda da Nova Espanha, depois houve um museu imperial e hoje há um museu com culturas do mundo inteiro."
+    },
+    "puente_narrativo": {
+      "hash": "284946adf56458b4",
+      "texto": "Volte alguns passos pela rua Moneda, em direção à Catedral, até a esquina com Licenciado Primo de Verdad. Ali fica a [Casa da Primeira Imprensa da América](cdmx_40_primera_imprenta)."
+    },
+    "como_llegar": {
+      "hash": "b20b057ef9097865",
+      "texto": "Siga pela rua Moneda até o número treze. Ali, a antiga casa onde se cunhava a moeda é hoje o [Museu Nacional das Culturas do Mundo](cdmx_39_culturas_mundo)."
+    },
+    "guion_corto": {
+      "hash": "ce76c9a9f938db69",
+      "texto": "Mil setecentos e trinta e um foi o ano em que começou a construção deste edifício como Real Casa da Moeda. Terminou em mil setecentos e trinta e quatro. A cunhagem passou para outro edifício em mil oitocentos e quarenta e sete. Em mil oitocentos e sessenta e cinco, o imperador Maximiliano ordenou instalar aqui um museu público de história natural, arqueologia e história. Na época de Benito Juárez, o edifício abrigou também a Suprema Corte de Justiça. Desde dezembro de mil novecentos e sessenta e cinco é o Museu Nacional das Culturas, hoje chamado das Culturas do Mundo, com coleções da Ásia, do Mediterrâneo e de outras regiões."
+    },
+    "guion_largo": {
+      "hash": "a9e7e6f5e2d6e315",
+      "texto": "Antes que este edifício existisse, o terreno já tinha fama. Segundo o cronista Antonio de León y Gama, aqui esteve a Casa Denegrida, o segundo palácio de Moctezuma. O INAH a menciona também como a casa negra de Moctezuma. Uma Real Cédula de mil quinhentos e vinte e nove concedeu o terreno a Hernán Cortés. Mais tarde, Martín Cortés vendeu os terrenos herdados de seu pai ao rei Filipe Segundo, e o local abrigou depois a Casa da Moeda.\n\nO edifício que você vê hoje é posterior. As obras começaram em dezesseis de abril de mil setecentos e trinta e um, e em dezesseis de dezembro de mil setecentos e trinta e quatro o edifício e seus instrumentos de cunhagem estavam concluídos. O projeto é atribuído a Nicolás Peinado de Valenzuela, e a obra foi dirigida pelo engenheiro Luis Díez Navarro. Depois da Independência, abriram-se casas da moeda em outras cidades. Em mil oitocentos e quarenta e sete, a cunhagem passou para a Casa do Apartado.\n\nEntão chegou uma segunda vida. Maximiliano de Habsburgo governou o Segundo Império Mexicano entre mil oitocentos e sessenta e quatro e mil oitocentos e sessenta e sete. Em mil oitocentos e sessenta e cinco, por ordem dele, estabeleceu-se aqui o Museu Público de História Natural, Arqueologia e História. Sua inauguração oficial foi em seis de julho de mil oitocentos e sessenta e seis. O mesmo edifício abrigou também a Suprema Corte de Justiça na época de Benito Juárez.\n\nAs coleções nacionais saíram daqui por etapas. Em mil novecentos e nove, a seção de história natural foi transferida para outro lugar, e mais tarde ficou conhecida como Museu do Chopo. Em mil novecentos e trinta e oito, o edifício foi sede da Escola Nacional de Antropologia e História. Em mil novecentos e sessenta e quatro, inaugurou-se o Museu Nacional de Antropologia em Chapultepec, e para lá foram as coleções.\n\nCom o edifício vazio, projetou-se um museu dedicado às culturas do mundo. Eusebio Dávalos Hurtado e sua equipe desenvolveram o conceito entre mil novecentos e sessenta e três e mil novecentos e sessenta e quatro, e o museu abriu em dezembro de mil novecentos e sessenta e cinco. A biblioteca foi inaugurada nesse mesmo ano e, desde mil novecentos e noventa, leva o nome de Pedro Bosch Gimpera, um arqueólogo catalão exilado no México.\n\nHoje o museu tem três galerias: a Internacional, a Mediterrânea e a Chinesa. Suas salas abordam, entre outras, China, Coreia, Japão, Egito, Mesopotâmia e o povo sami, do norte da Europa, que está na exposição permanente desde a abertura. Conta ainda com uma fototeca e um arquivo histórico. Para o visitante, é uma oportunidade de sair por um momento da história do México e olhá-la de fora.\n\nEste edifício resume o Centro Histórico. Teve um terreno com lenda Mexica, uma casa da moeda vice-reinal, um museu do Segundo Império e uma sede de justiça. Hoje é um museu para ver o mundo. Se você decidir entrar, consulte os horários e as tarifas vigentes. Da rua, você pode percorrer sua fachada, que faz parte da [rua Moneda](cdmx_37_calle_moneda) junto com as outras paradas."
+    },
+    "retos_observacion": {
+      "hash": "90f2f7ce71ae4a21",
+      "texto": [
+        "Procure o número treze da rua Moneda na entrada do edifício",
+        "Conte os níveis da fachada da antiga Casa da Moeda",
+        "Compare o aspecto dela com o do museu anterior do roteiro, o antigo palácio dos arcebispos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8f7f728d7cd4b18c",
+      "texto": {
+        "Época": "construído entre 1731 e 1734",
+        "Projeto": "Nicolás Peinado de Valenzuela; direção da obra: Luis Díez Navarro",
+        "Usos": "Real Casa da Moeda; museu público desde 1865, por decreto de Maximiliano; sede da Suprema Corte na época de Juárez",
+        "Museu atual": "Museu Nacional das Culturas do Mundo, do INAH, aberto em dezembro de 1965",
+        "Localização": "Moneda 13, Centro Histórico",
+        "Informação-chave": "a cunhagem passou para a Casa do Apartado em 1847"
+      }
+    },
+    "faq_mito": {
+      "hash": "3a9300de487e1cca",
+      "texto": {
+        "pregunta": "Mito: O Museu Nacional de Antropologia nasceu no Bosque de Chapultepec.",
+        "respuesta": "Realidade: As coleções nacionais estiveram neste edifício da rua Moneda desde o século dezenove, e em mil novecentos e sessenta e quatro passaram para o Museu Nacional de Antropologia, em Chapultepec."
+      }
+    }
+  }
+}

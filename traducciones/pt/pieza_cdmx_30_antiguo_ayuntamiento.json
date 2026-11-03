@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_30_antiguo_ayuntamiento",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae1da1f921671d09",
+      "texto": "Antigo Palácio do Ayuntamiento: a casa do governo da cidade"
+    },
+    "frase_gancho": {
+      "hash": "73d0f327051768b7",
+      "texto": "Aqui se reuniu durante séculos o governo da cidade, e em mil seiscentos e noventa e dois uma multidão o incendiou."
+    },
+    "puente_narrativo": {
+      "hash": "f03c786251d6d028",
+      "texto": "Siga para o poente da praça, até os arcos do Portal de Mercaderes, onde o comércio ocupa o térreo há séculos."
+    },
+    "como_llegar": {
+      "hash": "08e79ee7f9deeae1",
+      "texto": "Atravesse a praça até o lado sul, onde fica o Antigo Palácio do Ayuntamiento, para seguir com a história do governo da cidade."
+    },
+    "guion_corto": {
+      "hash": "0aa9df9dce669b3d",
+      "texto": "Uma multidão irritada com a escassez de milho ateou fogo, em mil seiscentos e noventa e dois, às casas do cabildo desta praça. Era a sede do governo da cidade, e por isso ficou no centro da revolta. O edifício foi reconstruído nos anos seguintes e, já no século vinte, recebeu novos andares. Hoje continua fazendo parte do governo da capital. Ao lado dele se ergue outro edifício, construído para complementá-lo. Por dentro, o Salão de Cabildos conserva uma decoração de mil oitocentos e noventa e três e um teto pintado a óleo. Juntos, os dois edifícios somam séculos de história municipal."
+    },
+    "guion_largo": {
+      "hash": "cd6b4e6bfd61b671",
+      "texto": "Ayuntamiento é o nome antigo do governo de uma cidade. E a capital da Nova Espanha precisou de uma casa própria desde muito cedo. Uma cédula real de mil quinhentos e vinte e sete destinou terrenos nesta praça para as casas consistoriais, a cadeia, o açougue e as lojas.\n\nO edifício original ficou marcado pelo fogo. No dia oito de junho de mil seiscentos e noventa e dois, uma crise de milho provocou um motim. A multidão incendiou o palácio vice-real, a casa do Ayuntamiento e centenas de barracas de madeira da praça. As casas do cabildo foram reconstruídas nos anos seguintes. No início do século dezoito, estavam erguidas de novo, em estilo barroco peninsular.\n\nOs andares superiores são mais recentes. Foram acrescentados já no século vinte. O terceiro andar chegou em mil novecentos e dez, pelo Centenário da Independência, e o quarto em mil novecentos e trinta e quatro. Da construção original só se conservam as fundações e alguns muros.\n\nPor dentro, destaca-se o Salão de Cabildos, decorado em mil oitocentos e noventa e três em estilo art nouveau. Tem um estrado com cento e dezenove cadeiras de madeira entalhada e, no teto, uma pintura a óleo de Francisco Parra que representa alegoricamente a Pátria. Nesse salão se faz a entrega das chaves da cidade a visitantes ilustres. Ao lado dele, o Salão de Vice-Reis reúne retratos dos sessenta e dois vice-reis da Nova Espanha. No segundo andar, a Galeria Ágora trata das lutas dos habitantes da cidade por seus direitos. Se você quiser conhecê-lo por dentro, consulte as informações atualizadas, porque o acesso pode ser limitado durante atos oficiais.\n\nO edifício ao lado é seu irmão. O Governo da Cidade do México foi construído entre mil novecentos e quarenta e um e mil novecentos e quarenta e oito. Ocupa o terreno do antigo Portal de las Flores, e grande parte do seu projeto buscou complementar o Antigo Ayuntamiento. Durante as obras, apareceram restos de uma casa associada a dona Marina e uma quadra de jogo de bola. O terremoto de mil novecentos e oitenta e cinco o danificou gravemente, como lembramos ao falar da [memória do Zócalo](cdmx_26_zocalo_memoria).\n\nUma curiosidade: o governo da capital se chamou Ayuntamiento de mil quinhentos e dezenove a mil novecentos e vinte e oito. São quase quatro séculos com o mesmo nome.\n\nSe você chegar com calma, percorra com o olhar as duas fachadas, de esquina a esquina, e perceba como o edifício novo procura acompanhar o antigo.\n\nAssim, esta praça conta a história do poder em camadas. A leste está o palácio do governo nacional, ao norte a Catedral e aqui, no lado sul, a casa do governo da cidade. Enquanto o país mudava de regime, a cidade conservou um lugar próprio para se reunir e decidir. Esse uso, o de governar-se a partir da praça, continua vivo nestes edifícios."
+    },
+    "retos_observacion": {
+      "hash": "b4cc6b22630cdca7",
+      "texto": [
+        "Conte os andares do Antigo Ayuntamiento: os últimos foram acrescentados no século vinte",
+        "Procure o edifício vizinho do Governo da Cidade e compare as duas fachadas",
+        "Localize o lado sul da praça e lembre que ali se erguia a casa do cabildo desde o século dezesseis"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f3c0bf98e71a5c5e",
+      "texto": {
+        "Época": "origem no século XVI, reconstrução após o motim de 1692",
+        "Estilo": "barroco peninsular com reformas do século XX",
+        "Salão de Cabildos": "decorado em 1893 em estilo art nouveau",
+        "Edifício vizinho": "Governo da Cidade do México, 1941 a 1948",
+        "Localização": "Plaza de la Constitución 2, lado sul do Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "9bf9e5f63b85b476",
+      "texto": {
+        "pregunta": "Mito: Hernán Cortés mandou construir o edifício que você vê hoje.",
+        "respuesta": "Realidade: A casa do cabildo remonta ao século XVI, mas o edifício atual é resultado de reconstruções posteriores ao incêndio de 1692 e de reformas do século XX."
+      }
+    }
+  }
+}

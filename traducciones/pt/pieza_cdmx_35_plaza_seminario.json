@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_35_plaza_seminario",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8b4e81a9b8de5806",
+      "texto": "Praça do Seminário, também chamada Praça Manuel Gamio"
+    },
+    "frase_gancho": {
+      "hash": "c83c165e5d71a241",
+      "texto": "Esta praça tem dois nomes: um lembra um seminário do século dezessete e o outro, o arqueólogo que encontrou aqui uma esquina do Templo Mayor."
+    },
+    "puente_narrativo": {
+      "hash": "787fcc1b0a74619a",
+      "texto": "Siga até a rua República de Guatemala, atrás da Catedral, onde esperam você o [Huei Tzompantli e a Casa das Ajaracas](cdmx_36_tzompantli_ajaracas). Uma mesma rua reúne um altar de crânios mexica e uma casa vice-reinal."
+    },
+    "como_llegar": {
+      "hash": "f4c9f1fe2e908762",
+      "texto": "Caminhe alguns passos até a praça que se abre junto à entrada do museu. É a [Praça do Seminário](cdmx_35_plaza_seminario), e é ali que a história se debruça sobre a rua."
+    },
+    "guion_corto": {
+      "hash": "7ba996aca68ed28a",
+      "texto": "Por que esta praça tem dois nomes? Oficialmente, é a Praça Manuel Gamio. Também é conhecida como Praça do Seminário, por causa do Seminário Conciliar de São Paulo, que foi erguido aqui em mil seiscentos e oitenta e nove. Gamio foi o arqueólogo que, em mil novecentos e treze, descobriu aqui uma esquina do Templo Mayor. Antes, acreditava-se que o templo estava sob a Catedral. A demolição do seminário foi ordenada em mil oitocentos e sessenta e um, embora ele só tenha desaparecido por completo em mil novecentos e vinte e oito. A praça ganhou seu aspecto atual com a zona arqueológica, em mil novecentos e setenta e oito. Foi completada com uma fonte que inclui uma maquete de Tenochtitlan."
+    },
+    "guion_largo": {
+      "hash": "d1ed940824c491c6",
+      "texto": "Imagine o que há debaixo desta praça. Você está no lado leste da Catedral, em frente à Pracinha do Marquês, dentro do que foi o recinto sagrado de Tenochtitlan. Hoje a praça serve de entrada para o museu do [Templo Mayor](cdmx_34_templo_mayor), mas antes foi casa de um soldado, sala de aula universitária, seminário, hotel e até cantina.\n\nO nome oficial lembra Manuel Gamio, arqueólogo e antropólogo, pioneiro da antropologia no México. Em mil novecentos e treze, Gamio descobriu neste lugar uma esquina do Templo Mayor. Até então, acreditava-se que o templo estava sob a Catedral. A descoberta mostrou que parte do recinto sagrado ficava justamente aqui. Passaram-se sessenta e cinco anos até que o aparecimento da Coyolxauhqui, em mil novecentos e setenta e oito, impulsionasse a escavação em grande escala.\n\nDepois da queda de Tenochtitlan, esta zona entrou no traçado da nova cidade. Entre mil quinhentos e vinte e um e mil quinhentos e vinte e dois, por instrução de Hernán Cortés, o mestre de obras Alonso García Bravo traçou a quadrícula da capital, e esta praça fica perto de onde foi feito esse primeiro plano. Com o tempo, o terreno foi casa de um soldado espanhol chamado Pedro González Trujillo. Também abrigou a primeira cátedra da Real e Pontifícia Universidade, estabelecida em mil quinhentos e cinquenta e um.\n\nO nome mais conhecido, Praça do Seminário, vem do Seminário Conciliar de São Paulo, de mil seiscentos e oitenta e nove, onde se formavam sacerdotes. Em mil oitocentos e sessenta e um, ordenou-se sua demolição, embora o edifício só tenha desaparecido por completo em mil novecentos e vinte e oito. Depois, o terreno foi usado como hotel e como farmácia. A rua vizinha ainda conserva o nome de Seminário. Aqui funcionou também uma cantina chamada O Nível, que teve a licença número um.\n\nDebaixo da praça, a arqueologia continua encontrando peças do quebra-cabeça. Em dois mil e treze, foram recuperados restos dos aposentos que os sacerdotes mexica ocupavam, perto do templo de Tezcatlipoca. É um lembrete de que o recinto não era feito só de pirâmides: também havia lugares onde viviam aqueles que serviam aos deuses.\n\nA praça ganhou seu aspecto atual quando se formou a zona arqueológica, em mil novecentos e setenta e oito. Foi completada, no fim daquela década, com uma fonte que inclui uma maquete de Tenochtitlan. Ela ajuda a imaginar a cidade que existiu antes da Catedral.\n\nFaça a conta das descobertas nesta zona. Em mil setecentos e noventa, apareceu na praça principal a Coatlicue e, meses depois, a Pedra do Sol. Depois vieram mil novecentos e treze, com Gamio, e mil novecentos e setenta e oito, com a Coyolxauhqui. Em dois mil e seis, apareceu o monólito de Tlaltecuhtli. Em dois mil e treze, os aposentos dos sacerdotes e, em dois mil e quinze, o Huei Tzompantli. Seis datas em poucos quarteirões.\n\nSe você juntar tudo, aqui se sobrepõem quatro camadas de tempo. São o recinto mexica, a cidade vice-reinal com sua universidade e seu seminário, a escavação do século vinte e a praça de hoje. É a história da capital contada em um único espaço. A poucos passos estão a [Catedral Metropolitana](cdmx_27_catedral) e a entrada do museu do Templo Mayor."
+    },
+    "retos_observacion": {
+      "hash": "7414e76023acb886",
+      "texto": [
+        "Procure a fonte da praça e veja se ela inclui uma maquete de Tenochtitlan",
+        "Localize a rua vizinha que conserva o nome de Seminário",
+        "Encontre as torres da Catedral e lembre-se de que a praça fica no lado leste dela"
+      ]
+    },
+    "especificaciones": {
+      "hash": "dc1a8143de5a5661",
+      "texto": {
+        "Nome oficial": "Praça Manuel Gamio",
+        "Outros nomes": "Praça do Seminário, Praça do Templo Mayor",
+        "Localização": "lado leste da Catedral, em frente à Pracinha do Marquês",
+        "Dado-chave": "em 1913, Manuel Gamio descobriu aqui uma esquina do Templo Mayor",
+        "Seminário Conciliar de São Paulo": "1689; demolição ordenada em 1861; desaparece em 1928",
+        "Forma atual": "1978, com fonte e maquete de Tenochtitlan no final dessa década"
+      }
+    },
+    "faq_mito": {
+      "hash": "4bd5348c1ddfa79c",
+      "texto": {
+        "pregunta": "Mito: O Templo Mayor sempre esteve debaixo da Catedral, e por isso ninguém podia escavá-lo.",
+        "respuesta": "Realidade: Durante muito tempo se acreditou nisso, mas em mil novecentos e treze Manuel Gamio descobriu uma esquina do templo nesta praça, e o recinto sagrado se estendia junto à Catedral."
+      }
+    }
+  }
+}

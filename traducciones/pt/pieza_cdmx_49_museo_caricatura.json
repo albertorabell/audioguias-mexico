@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_49_museo_caricatura",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b6e30066fcb78fba",
+      "texto": "Museu da Caricatura e o antigo Colégio de Cristo"
+    },
+    "frase_gancho": {
+      "hash": "501fa40bb9ce114d",
+      "texto": "Dentro de um museu de caricaturas há um muro vice-reinal com a cabeça de um crocodilo mexica talhada em pedra."
+    },
+    "puente_narrativo": {
+      "hash": "b9f1be6ccfdd69cf",
+      "texto": "Siga pela Donceles em direção ao Eje Central, até onde começam os sebos da [rua Donceles](cdmx_50_donceles)."
+    },
+    "como_llegar": {
+      "hash": "e697dc790e84dc31",
+      "texto": "Siga alguns passos pela mesma rua Donceles até o [Museu da Caricatura](cdmx_49_museo_caricatura), no antigo Colégio de Cristo."
+    },
+    "guion_corto": {
+      "hash": "f1f2c703b2befc78",
+      "texto": "Um museu de caricaturas com um crocodilo mexica dentro? Quase. Este edifício foi o Colégio de Cristo e conserva uma janela arqueológica com vestígios vice-reinais e mexicas. Entre eles há um baixo-relevo com a cabeça de um cipactli, um crocodilo. Ele está em um muro vice-reinal feito com pedras talhadas de bairros mexicas. O colégio nasceu por vontade testamentária de Cristóbal de Vargas Valadez. O edifício foi declarado monumento histórico em mil novecentos e trinta e um. Depois dos sismos de mil novecentos e oitenta e cinco, foi restaurado. No dia dezenove de março de mil novecentos e oitenta e sete, o Museu da Caricatura foi inaugurado aqui, e desde então a caricatura mexicana tem casa própria no Centro."
+    },
+    "guion_largo": {
+      "hash": "c10d1d93cde08102",
+      "texto": "Comecemos pela fachada. Ela é barroca mexicana e pertence ao que foi o Colégio de Cristo. Esta escola nasceu por vontade de Cristóbal de Vargas Valadez, que determinou em seu testamento que se fundasse um colégio em sua propriedade. O Instituto Nacional de Antropologia e História (INAH) registra que o vice-rei compareceu à inauguração em mil seiscentos e trinta e oito, e que a escola fechou em mil setecentos e setenta e quatro por falta de recursos. O edifício atual é do século dezoito. O imóvel foi declarado monumento histórico no dia nove de fevereiro de mil novecentos e trinta e um.\n\nO mais surpreendente está dentro do museu. Ele conserva duas janelas arqueológicas, aberturas que deixam ver vestígios das diferentes épocas do local. O Programa de Arqueologia Urbana do Instituto registra uma primeira janela de dois metros e seis centímetros de largura por três metros e quarenta e cinco centímetros de comprimento. Ela mostra muros, pisos e drenagens vice-reinais, e uma fundação mexica com duas etapas de construção.\n\nEssas duas etapas mexicas poderiam ser contemporâneas das etapas seis e sete do Templo Mayor. Essas etapas correspondem aos anos mil quatrocentos e oitenta e seis a mil quinhentos e dezenove. Você pode recordar essa pirâmide na parada do [Templo Mayor](cdmx_34_templo_mayor). Aqui, em um muro vice-reinal, aparece algo ainda mais raro. Um baixo-relevo com a cabeça de um cipactli, que significa crocodilo em náuatle. Os construtores vice-reinais levantaram o muro com silhares talhados que vinham dos bairros mexicas. Ou seja, o muro reaproveita pedras que haviam pertencido à cidade mexica.\n\nPassemos ao museu. Depois dos sismos de mil novecentos e oitenta e cinco, a Sociedade Mexicana de Caricaturistas precisava de um lugar novo. O edifício foi restaurado para exposições, e o museu foi inaugurado no dia dezenove de março de mil novecentos e oitenta e sete, com a supervisão de David Carrillo e Pedro Sol. Já havia existido uma tentativa anterior. Em mil novecentos e sessenta e dois, o Clube de Jornalistas apresentou uma exposição de José Guadalupe Posada.\n\nSe você decidir entrar, o museu é dedicado à caricatura mexicana. Sua mostra permanente percorre a caricatura política e social desde o século dezenove, com obras de diferentes autores. As peças expostas mudam com o tempo, mas o tema é claro. A caricatura tem sido uma forma de comentar o poder com humor, e às vezes com dureza. O horário e a contribuição para entrar mudam, então consulte a informação vigente.\n\nHá uma ideia que une estas camadas. Em um mesmo edifício cabem uma fundação mexica, um colégio vice-reinal e um museu de caricaturas. Cada época usou o mesmo terreno para algo diferente, e cada uma deixou marca visível nos muros. Essa é a lição de muitas ruas do Centro.\n\nSe você gosta de caricatura, lembre-se do [Museu do Estanquillo](cdmx_20_estanquillo), que você visitou na rua Madero."
+    },
+    "retos_observacion": {
+      "hash": "928032c7386e45fb",
+      "texto": [
+        "Procure a fachada barroca do antigo Colégio de Cristo na rua Donceles",
+        "Localize o número noventa e nove da rua",
+        "Compare os muros de pedra deste edifício com os do Templo do Ensino"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d66cdff492ad5e6f",
+      "texto": {
+        "Época": "colégio vice-reinal; edifício atual do século XVIII; declarado monumento histórico em 9 de fevereiro de 1931 (INAH)",
+        "Estilo": "barroco mexicano",
+        "Museu": "inaugurado em 19 de março de 1987",
+        "Localização": "Donceles 99, Centro Histórico",
+        "Janela arqueológica": "2,06 por 3,45 metros, com vestígios vice-reinais e fundação mexica",
+        "Informação-chave": "baixo-relevo de um cipactli (crocodilo) em um muro vice-reinal"
+      }
+    },
+    "faq_mito": {
+      "hash": "dc8e28f402be3b1b",
+      "texto": {
+        "pregunta": "Mito: No Centro Histórico, o que é mexica só se encontra no Templo Mayor.",
+        "respuesta": "Realidade: Sob este edifício há vestígios de fundação mexica de duas etapas e um cipactli talhado em um muro vice-reinal, de acordo com o Programa de Arqueologia Urbana do INAH."
+      }
+    }
+  }
+}

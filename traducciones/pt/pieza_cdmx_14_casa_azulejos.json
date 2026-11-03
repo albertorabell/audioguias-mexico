@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_14_casa_azulejos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4b32fbec7de191fb",
+      "texto": "Casa de los Azulejos: o palácio que se vestiu de Puebla"
+    },
+    "frase_gancho": {
+      "hash": "039046f637e182cf",
+      "texto": "Uma casa vice-reinal vestida de azulejos de Puebla, que foi palácio de condes, clube da elite e restaurante."
+    },
+    "puente_narrativo": {
+      "hash": "babe28bff7205673",
+      "texto": "Pegue o beco da Condesa, que corre junto à casa, até a avenida Cinco de Mayo; a um passo do Eje Central, o [Edifício do Banco de México](cdmx_15_banco_mexico) espera por você."
+    },
+    "como_llegar": {
+      "hash": "45da8f48c482ce6e",
+      "texto": "Siga pela rua Madero em direção ao leste, a poucos passos, até a Casa de los Azulejos."
+    },
+    "guion_corto": {
+      "hash": "051b7056c66cc052",
+      "texto": "O que faz uma casa coberta de louça poblana em plena rua Madero? É a Casa de los Azulejos, antigo palácio dos condes do Valle de Orizaba. Suas paredes vestem azulejos azuis e brancos de Puebla, uma moda que na Nova Espanha se espalhou durante o século dezoito. Com os anos, foi clube da elite e sede da Casa del Obrero Mundial. No final da segunda década do século vinte, os irmãos Sanborn abriram aqui o seu restaurante. A fachada completa pode ser apreciada da rua, sem pagar nada. Percorra-a com o olhar, de baixo para cima, e repare como o azul e o branco cobrem quase toda a parede."
+    },
+    "guion_largo": {
+      "hash": "598ba0a7be5eb6d3",
+      "texto": "Esta casa teve tantas vidas que é difícil decidir por qual começar. Comecemos pela mais antiga. No século dezesseis, o terreno tinha duas casas separadas por um beco. Com o tempo, o terreno passou aos condes do Valle de Orizaba, uma família nobre da Nova Espanha. O beco vizinho ainda se chama da Condesa, e por isso este edifício também é conhecido como o palácio dos condes. Esse beco liga a rua Madero à avenida Cinco de Mayo.\n\nO nome vem da fachada. Os azulejos azuis e brancos chegaram de Puebla, uma cidade famosa por sua louça. No início do século dezoito, os azulejos se tornaram uma moda dominante na Nova Espanha. Cobriam paredes de igrejas e de casas, e este palácio é um dos exemplos mais citados. Aqui o azul de Puebla veste um palácio inteiro, e por isso ele também é chamado de Palácio Azul.\n\nEm mil novecentos e quatro, quando a avenida Cinco de Mayo foi alargada, levantou-se uma nova fachada voltada para essa rua. É um lembrete de que o Centro Histórico nunca ficou parado. O edifício teve banhos a vapor, abrigou o Jockey Club, um clube exclusivo da elite da capital, e foi sede da Casa del Obrero Mundial, uma organização de trabalhadores. Poucos edifícios passam da nobreza à elite e daí ao movimento operário.\n\nDepois chegaram os irmãos Walter e Frank Sanborn, originários da Califórnia. Eles já tinham aberto uma drogaria com fonte de refrigerantes em outra rua do Centro e, alguns anos depois, expandiram-se para esta casa, no final da segunda década do século vinte. A reforma durou dois anos e incluiu um teto de vitrais sobre o pátio, que se tornou salão de refeições. Esse pátio tem corredores altos sobre colunas delgadas, uma fonte barroca e um mural de pavões. Na escada se conserva um friso de azulejos, como um eco da fachada.\n\nDentro há também uma obra que interessa a quem ama o muralismo. Em mil novecentos e vinte e cinco, José Clemente Orozco pintou aqui o mural Omnisciencia, na escada do restaurante. É uma das peças mais destacadas do lugar.\n\nPara ver o pátio, a escada e o mural, você teria que entrar no restaurante, um negócio aberto ao público. Não é necessário para esta parada. O restaurante abre todos os dias, desde muito cedo até a madrugada, então você pode voltar quando quiser sentar-se um pouco. A fachada, que é a parte mais célebre, pode ser apreciada por inteiro da rua. Reserve um momento para olhar as duas faces da esquina, a da rua Madero e a do beco, e notar como a louça poblana envolve o edifício.\n\nBem perto desponta a [Torre Latinoamericana](cdmx_13_torre_latinoamericana), que fala do século vinte. Este palácio, por sua vez, guarda a memória da cidade vice-reinal. Na próxima parada passamos do azulejo ao mármore, no edifício onde hoje se conta a história do dinheiro."
+    },
+    "retos_observacion": {
+      "hash": "77f7f626e07537c3",
+      "texto": [
+        "Conte os tons que você vê nos azulejos da fachada e repare em quanto da parede eles cobrem",
+        "Localize o beco da Condesa, que corre junto à casa",
+        "Procure a silhueta da Torre Latinoamericana e compare-a com esta casa de poucos andares"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1d87d5f8738b9a35",
+      "texto": {
+        "Época": "Palácio vice-reinal com azulejos poblanos; nova fachada voltada para a Cinco de Mayo em 1904",
+        "Propietarios históricos": "Condes do Valle de Orizaba",
+        "Estilo": "Barroco novo-hispânico com azulejos de Puebla",
+        "Localização": "Av. Francisco I. Madero 4, junto ao Callejón de la Condesa",
+        "Dato clave": "Mural Omnisciencia, de José Clemente Orozco, 1925"
+      }
+    },
+    "faq_mito": {
+      "hash": "fb47065c967cf326",
+      "texto": {
+        "pregunta": "Mito: Um conde advertiu seu filho esbanjador de que ele nunca chegaria longe nem faria uma casa de azulejos, e o jovem cobriu a fachada de azulejos para contrariá-lo.",
+        "respuesta": "Realidade: É uma lenda popular, repetida em notas jornalísticas, sem documento que a respalde. O que está comprovado é que o palácio pertenceu aos condes do Valle de Orizaba e que seus azulejos são de Puebla."
+      }
+    }
+  }
+}

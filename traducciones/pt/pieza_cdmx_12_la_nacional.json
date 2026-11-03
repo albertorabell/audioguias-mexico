@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_12_la_nacional",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "8ce4492e09e7f374",
+      "texto": "Edifício La Nacional, arranha-céu de 1932"
+    },
+    "frase_gancho": {
+      "hash": "02cc5cd419ab277e",
+      "texto": "Em mil novecentos e trinta e dois, treze andares bastavam para que esta esquina fosse considerada um arranha-céu."
+    },
+    "puente_narrativo": {
+      "hash": "4062fe95af090198",
+      "texto": "Siga pelo Eje Central em direção à rua Madero, onde a Torre Latinoamericana se ergue na esquina."
+    },
+    "como_llegar": {
+      "hash": "5c95c4e5ac54d72c",
+      "texto": "Caminhe até o Eje Central Lázaro Cárdenas e siga por ele em direção à Avenida Juárez, onde o edifício La Nacional espera por você."
+    },
+    "guion_corto": {
+      "hash": "532c8ccb4de26853",
+      "texto": "O nome não é um apelido. É o de uma seguradora, a Compañía Nacional de Seguros. Este edifício foi construído entre mil novecentos e vinte e nove e mil novecentos e trinta e dois. O arquiteto foi Manuel Ortiz Monasterio, diretor naqueles anos da Escuela Nacional de Arquitectura. Tem treze andares e mais de cinquenta metros, e em sua época foi considerado um arranha-céu, embora outras torres o tenham superado na mesma década. Seu estilo é o art déco. Para sustentá-lo sobre o solo mole do antigo lago, Bernardo Calderón projetou cem estacas de fundação. Você está na esquina da Avenida Juárez com o Eje Central, em frente ao Palácio de Belas Artes."
+    },
+    "guion_largo": {
+      "hash": "62f4833bbf200dd3",
+      "texto": "Esta esquina conta uma história da cidade que crescia para o alto. Aqui se cruzam o Eje Central, a avenida Juárez, que leva à Alameda Central, e o corredor da rua Madero. É um dos cruzamentos mais importantes do Centro Histórico.\n\nEm mil novecentos e vinte e nove começou a obra de La Nacional. Ela foi concluída em mil novecentos e trinta e dois. Naquela época, o Eje Central ainda era a rua San Juan de Letrán, e a cidade se preparava para mudar de escala. O edifício chegou antes das grandes avenidas e dos edifícios altos que viriam depois.\n\nO projeto foi do arquiteto Manuel Ortiz Monasterio, que dirigia a Escuela Nacional de Arquitectura. Bernardo Calderón projetou as cem estacas que sustentam o edifício. O número importa, porque aqui o subsolo é o fundo do antigo lago, mole e propenso a afundar. Construir alto não era apenas uma questão de estética.\n\nTem treze andares e mais de cinquenta metros. Hoje pode parecer um edifício de tamanho médio entre tantos outros mais altos. Em sua época, chamou a atenção. Foi o mais alto de seu tempo, embora outros edifícios da mesma década o tenham superado. Por isso se fala dele como o começo de uma corrida pelas alturas.\n\nSeu estilo é o art déco, uma corrente dos anos vinte e trinta que buscava linhas limpas, simetria e um ar de modernidade. Essa decoração se destaca no vestíbulo, na portada de acesso e no corrimão da escada, embora, para vê-los, seja preciso entrar.\n\nLa Nacional passou pelos terremotos que sacudiram a cidade. É um dos poucos edifícios de certa altura desta zona que sobreviveram aos sismos da capital. Em dois mil e doze, quando completava oitenta anos, sofreu um dano leve.\n\nEm mil novecentos e quarenta e nove, foi acrescentado um anexo, conhecido como La Nacional Dos.\n\nSe você procura o endereço, é Eje Central Lázaro Cárdenas, número onze. Pare na calçada, conte os treze andares e compare-os com os edifícios ao seu redor. Assim você entenderá por que, em mil novecentos e trinta e dois, este edifício chamava tanto a atenção, e por que hoje é preciso levantar o olhar para apreciá-lo.\n\nQuem percorre esta esquina costuma olhar para o Palácio de Belas Artes. Convém levantar também o olhar para La Nacional, porque ela conta como a cidade começou a subir. O edifício dialoga, além disso, com o que você viu antes. Está bem em frente ao [Palácio de Belas Artes](cdmx_01_bellas_artes), e a poucos passos fica a [Alameda Central](cdmx_03_alameda). Olhe agora pelo Eje Central em direção à rua Madero. Ali desponta a Torre Latinoamericana, que chegou vinte e quatro anos depois.\n\nA comparação vale a pena. Em La Nacional, os andares se contam em dezenas. Na Torre, que você verá em seguida, a conta passa de quarenta. Entre uma e outra há uma diferença de altura, e também de engenharia. A Latino foi projetada tomando como referência um grande sismo."
+    },
+    "retos_observacion": {
+      "hash": "1fdd0e2f755519c4",
+      "texto": [
+        "Olhe para o Palácio de Belas Artes, que fica em frente a este edifício, e compare o estilo dele com o de La Nacional",
+        "Conte os andares de La Nacional a partir da esquina e compare-os com os dos edifícios vizinhos",
+        "Procure o anexo de La Nacional Dos, ao lado do edifício original"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0521e1e688431808",
+      "texto": {
+        "Época": "Construído de 1929 a 1932; anexo de 1949",
+        "Arquiteto": "Manuel Ortiz Monasterio",
+        "Fundação": "Cem estacas projetadas por Bernardo Calderón",
+        "Estilo": "Art déco",
+        "Localização": "Esquina do Eje Central com a Avenida Juárez, em frente ao Palácio de Belas Artes",
+        "Dado-chave": "Treze andares e mais de cinquenta metros"
+      }
+    },
+    "faq_mito": {
+      "hash": "db0cb00241176b53",
+      "texto": {
+        "pregunta": "Mito: A Torre Latinoamericana foi o primeiro arranha-céu da Cidade do México.",
+        "respuesta": "Realidade: La Nacional, concluída em 1932, já era considerada um arranha-céu em sua época, vinte e quatro anos antes da Torre."
+      }
+    }
+  }
+}

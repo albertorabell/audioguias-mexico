@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_43_plaza_santo_domingo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ae632bd997c52faf",
+      "texto": "Praça de Santo Domingo e os escrivães dos portais"
+    },
+    "frase_gancho": {
+      "hash": "96bdc3a09f05522b",
+      "texto": "Sob estes portais, desde o século dezenove, os escrivães redigiram cartas e trâmites para quem não sabia escrever."
+    },
+    "puente_narrativo": {
+      "hash": "f500d6bb9b4c0457",
+      "texto": "Caminhe até o lado norte da praça, onde a torre com azulejos anuncia o [Templo de Santo Domingo](cdmx_44_templo_santo_domingo)."
+    },
+    "como_llegar": {
+      "hash": "fb665259b4c47993",
+      "texto": "Siga até a [Praça de Santo Domingo](cdmx_43_plaza_santo_domingo), onde o percurso continua entre portais, templos e escolas."
+    },
+    "guion_corto": {
+      "hash": "9cb082db2cff0823",
+      "texto": "Sob estes portais, há mais de um século, um homem com pena, tinteiro e papel escrevia as cartas dos outros. Eram chamados de evangelistas. Eram escrivães que redigiam cartas e trâmites para quem não sabia ler nem escrever, e mais tarde passaram a trabalhar com máquina de escrever. A praça onde se instalaram é ainda mais antiga. Os freis dominicanos a traçaram para dar visibilidade e esplendor à sua igreja, e desde meados do século dezesseis ela tem as dimensões que você conhece hoje. Com os anos, vieram se somar um tribunal da Inquisição, uma alfândega e uma fonte com uma heroína da Independência. Nesta praça convivem a fé, a lei e a papelada de vários séculos de cidade."
+    },
+    "guion_largo": {
+      "hash": "3921416fc9d9e7ad",
+      "texto": "Antes de existir esta praça, o que havia aqui? Ninguém sabe com certeza. O catálogo de monumentos históricos do Instituto Nacional de Antropologia e História (INAH) registra uma ideia. Acredita-se que aqui esteve a casa de Cuauhtémoc, o último governante Mexica, e que por isso o terreno ficou livre quando a cidade foi repartida. É uma suposição, não um fato comprovado. Dela nasce outra história, a do tesouro que Cuauhtémoc teria escondido nos tanques de seus jardins. É uma lenda, sem evidência documental, e como lenda convém escutá-la.\n\nO que está documentado é o trabalho dos dominicanos. Foram eles que criaram a praça para dar visibilidade e esplendor à sua igreja. Ela existe com suas dimensões atuais, de uns cinquenta metros por cento e cinquenta, desde meados do século dezesseis. Em uma planta de mil setecentos e noventa e três, já aparece com o nome de Pracinha de Santo Domingo. Os edifícios que a rodeiam, por outro lado, são mais jovens. Templo, tribunal e alfândega foram erguidos ou reconstruídos durante o século dezoito.\n\nEssa mistura de poderes se nota em cada lado. Ao norte está o templo dos dominicanos. A leste, a antiga Alfândega, que hoje faz parte do conjunto da Secretaria de Educação Pública. E diante da praça está o edifício do Santo Ofício. O arquiteto Pedro de Arrieta o construiu entre mil setecentos e trinta e dois e mil setecentos e trinta e seis. A Cidade do México lembra que esta praça esteve ligada ao Tribunal da Inquisição e que aqui se leram sentenças em autos de fé, cerimônias públicas nas quais se davam a conhecer as decisões do Santo Ofício. É uma parte dura da história do lugar, e convém contá-la com sobriedade.\n\nA praça também servia para a recepção. Quando um vice-rei chegava à capital, levantavam-se dois arcos do triunfo para recebê-lo. Um ficava na Praça do Empedradillo, junto à Catedral. O outro, aqui, em Santo Domingo.\n\nAgora olhe a fonte do centro. Sobre ela está a estátua de Josefa Ortiz de Domínguez, uma das figuras da epopeia da Independência. Foi colocada em mil oitocentos e noventa, e é obra do escultor italiano Enrico Alciati, o mesmo do Anjo da Independência, na Reforma. A fonte, por outro lado, parece mais antiga. Acredita-se que foi projetada no fim do século dezoito, com o arquiteto Ignacio Castera.\n\nE há os portais do lado oeste, com partes que datam do século dezessete. No século dezenove, sob esses arcos instalaram-se os evangelistas. Redigiam cartas e trâmites para quem não sabia ler ou escrever, primeiro à mão e depois à máquina. Com o tempo, a zona se transformou em bairro de gráficas, e ainda hoje a praça é associada aos documentos. Esse ofício conta como era a vida quando saber escrever não estava ao alcance de todos.\n\nUm último detalhe. A praça do lado norte também é conhecida como Praça Vinte e Três de Maio. O nome lembra o Dia do Estudante e o movimento estudantil de mil novecentos e vinte e nove, que levou à autonomia universitária. Durante séculos, esta praça esteve rodeada de escolas e colégios, e a poucos passos você continuará encontrando alguns muito importantes."
+    },
+    "retos_observacion": {
+      "hash": "2b33ca6a113f400c",
+      "texto": [
+        "Conte os arcos do portal do lado oeste",
+        "Procure a estátua da mulher no centro da fonte",
+        "Localize a torre com azulejos no lado norte da praça"
+      ]
+    },
+    "especificaciones": {
+      "hash": "45d402a37ef9c519",
+      "texto": {
+        "Época": "traçada por volta de meados do século XVI; edifícios atuais do século XVIII",
+        "Localização": "rua República de Brasil, Centro Histórico",
+        "Dimensões": "cerca de 50 por 150 metros (catálogo do INAH)",
+        "Estátua": "Josefa Ortiz de Domínguez, de Enrico Alciati, colocada em 1890",
+        "Dado-chave": "sede dos escrivães ou evangelistas desde o século XIX",
+        "Proteção": "Monumento Histórico, catálogo do INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "a6c8aa834cf9a52a",
+      "texto": {
+        "pregunta": "Mito: Nos tanques do jardim de Cuauhtémoc, sob esta praça, há um tesouro escondido.",
+        "respuesta": "Realidade: Apenas se acredita, sem prova, que aqui esteve a casa de Cuauhtémoc; a história do tesouro é um boato e uma lenda, sem evidência documental."
+      }
+    }
+  }
+}

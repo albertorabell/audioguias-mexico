@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_21_dulceria_celaya",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "11e1e60aed5d27a7",
+      "texto": "Dulcería de Celaya: doces desde mil oitocentos e setenta e quatro"
+    },
+    "frase_gancho": {
+      "hash": "35e03e2b5ec8a1fe",
+      "texto": "Por que uma doceria da capital leva o nome de uma cidade de Guanajuato? A resposta está na cajeta."
+    },
+    "puente_narrativo": {
+      "hash": "c8ebf60ba9497789",
+      "texto": "Siga em direção à rua Tacuba e procure, junto ao cruzamento com a Isabel la Católica, o café que abriu em mil novecentos e doze."
+    },
+    "como_llegar": {
+      "hash": "8fd51d63437bdc53",
+      "texto": "Suba um quarteirão pela Isabel la Católica até a avenida Cinco de Mayo, vire para o poente e procure, na direção da rua Motolinia, uma doceria com mais de um século de história."
+    },
+    "guion_corto": {
+      "hash": "7ec0e7f88625e18a",
+      "texto": "Por que uma doceria da capital se chama como uma cidade de Guanajuato? Porque Celaya é famosa por seus doces, sobretudo por sua cajeta, e a família Guízar quis render homenagem a essa cidade. A loja abriu em mil oitocentos e setenta e quatro, na antiga rua Plateros, hoje Madero. Por volta do ano mil novecentos mudou-se para a Cinco de Mayo. Aqui, uma placa do governo da cidade diz algo preciso. A marquise da loja é a mais antiga que existe na cidade. Procure esse letreiro sobre a entrada e repare que ele fala da marquise, não dos doces."
+    },
+    "guion_largo": {
+      "hash": "1b12c53aec4f474d",
+      "texto": "Esta doceria começou com uma pergunta de comerciantes: onde estava a melhor cajeta do país. A história da casa diz que a família Guízar a procurou e a encontrou em Celaya, Guanajuato. Por isso a loja, aberta em mil oitocentos e setenta e quatro, leva o nome dessa cidade.\n\nSeu primeiro endereço foi na antiga rua Plateros, hoje Madero, a mesma por onde você acaba de caminhar. Ali funcionou por uns vinte e seis anos. Por volta do ano mil novecentos mudou-se para este imóvel da avenida Cinco de Mayo, onde continua. Foi quando essa rua estava sendo urbanizada, no início do século vinte. Quando a Casa Boker foi inaugurada, e você a verá mais adiante, a loja já tinha mais de duas décadas de vida.\n\nOs doces têm sua própria história. Muitas receitas vêm da confeitaria dos conventos da Nova Espanha. As religiosas elaboravam doces que os confeiteiros foram conservando e passando de geração em geração. A produção continua sendo feita de maneira tradicional. Nas vitrines há jamoncillos, merengues, cocadas, turrones, pepitorias, príncipes de nogueira, suspiros e frutas cristalizadas. É uma forma de ver como a cozinha dos conventos acabou na vida cotidiana da cidade.\n\nAgora, o dado que você pode comprovar com seus próprios olhos. Na loja há uma placa colocada pelo Governo da Cidade do México. Ela diz, textualmente, que a marquise desta loja, fundada em mil oitocentos e setenta e quatro, é a mais antiga que existe na cidade. Repare na precisão. A placa fala da marquise, esse elemento que cobre a entrada e traz o letreiro. Não afirma que seja o negócio mais antigo da capital. É um bom exemplo de como convém ler as placas com atenção.\n\nA decoração interior conserva o ar da época porfiriana. As vitrines, a decoração e o letreiro da fachada guardam o aspecto dos tempos dos fundadores. Você pode espiar da entrada; entrar ou comprar é uma decisão pessoal e não faz parte do percurso.\n\nA casa se orgulha, além disso, de ter permanecido aberta desde sua fundação, inclusive durante a Revolução. É uma tradição familiar que hoje chega à quinta geração.\n\nEsta parada se conecta com outras do dia. A rua Madero, onde nasceu o negócio, é a que você acaba de percorrer. O Café de Tacuba, sua próxima parada, é outro exemplo de um comércio que completou mais de cem anos. E a Casa Boker, mais adiante, conta o outro lado do comércio porfiriano, o da loja de ferragens e das importações.\n\nAntes de seguir, olhe para cima. Nestas ruas, os andares altos dos edifícios costumam conservar detalhes que os letreiros de baixo escondem. Uma doceria assim lembra que o Centro Histórico não guarda apenas igrejas e palácios. Também guarda ofícios e receitas que se herdam de uma família para outra."
+    },
+    "retos_observacion": {
+      "hash": "9b09622de6f93ea0",
+      "texto": [
+        "Localize a placa do governo da cidade que fala da marquise mais antiga",
+        "Procure o letreiro e a marquise sobre a entrada e compare-os com os das lojas vizinhas",
+        "Olhe para os andares altos do edifício e compare sua fachada com a dos imóveis da calçada em frente"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a3007e5278e97eb4",
+      "texto": {
+        "Fundação": "1874",
+        "Fundadores": "família Guízar",
+        "Primeira sede": "rua Plateros, hoje Madero; desde cerca de 1900 na Cinco de Mayo",
+        "Localização": "avenida Cinco de Mayo 39, Centro Histórico",
+        "Placa do governo da cidade": "a marquise é a mais antiga que existe na cidade",
+        "Dado-chave": "o nome rende homenagem a Celaya, Guanajuato, por sua cajeta"
+      }
+    },
+    "faq_mito": {
+      "hash": "4e498f48c4eda66f",
+      "texto": {
+        "pregunta": "Mito: A Dulcería de Celaya é oficialmente a doceria mais antiga da cidade.",
+        "respuesta": "Realidade: A placa da loja afirma algo mais restrito: que sua marquise, de uma loja fundada em mil oitocentos e setenta e quatro, é a mais antiga que existe na cidade. Que seja o negócio mais antigo não está provado pela placa."
+      }
+    }
+  }
+}

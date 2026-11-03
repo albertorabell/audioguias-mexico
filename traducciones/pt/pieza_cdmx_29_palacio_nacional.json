@@ -1,0 +1,64 @@
+{
+  "id": "cdmx_29_palacio_nacional",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "6f992028ab1b6a47",
+      "texto": "Palácio Nacional: sede do poder sobre as casas de Moctezuma"
+    },
+    "frase_gancho": {
+      "hash": "83420dbcd6e830ce",
+      "texto": "Este edifício ocupa todo o lado leste da praça e guarda séculos de poder, de fogo e de murais."
+    },
+    "puente_narrativo": {
+      "hash": "08e79ee7f9deeae1",
+      "texto": "Atravesse a praça em direção ao lado sul, onde fica o Antigo Palácio do Ayuntamiento, para continuar com a história do governo da cidade."
+    },
+    "como_llegar": {
+      "hash": "6954dddec98a1b75",
+      "texto": "Atravesse até o lado leste da praça, onde o Palácio Nacional ocupa toda a frente, e vá até a sacada central."
+    },
+    "guion_corto": {
+      "hash": "e3d099008ae237a6",
+      "texto": "Todo dia quinze de setembro, uma sacada deste edifício se torna uma das mais conhecidas do país. Sobre ela, em um nicho, pende o Sino de Dolores. Foi fundido em mil setecentos e sessenta e oito e chegou à capital em mil oitocentos e noventa e seis. Mas o edifício é muito mais antigo que essa cerimônia. Hernán Cortés começou o primeiro palácio sobre as ruínas das casas de Moctezuma Segundo, e desde então aqui está a sede do poder: primeiro os vice-reis, depois os presidentes. Ele ocupa todo o lado leste da praça, e por dentro guarda os murais de Diego Rivera."
+    },
+    "guion_largo": {
+      "hash": "9678d700ecc5f804",
+      "texto": "Antes de ser palácio de governo, este terreno já era sede do poder. Hernán Cortés iniciou o primeiro edifício sobre as ruínas do tecpan calli, as casas reais de Moctezuma Segundo. Durante o vice-reinado, foi residência do vice-rei e sede das principais autoridades. Foi castigado por inundações e incêndios. O mais lembrado foi o do motim do milho de mil seiscentos e noventa e dois, que queimou o palácio vice-reinal. Ele foi reconstruído, e o pátio principal que existe hoje data do fim do século dezessete.\n\nCom a Independência, continuou sendo a sede do governo nacional. Entre mil oitocentos e vinte e dois e mil oitocentos e oitenta e quatro, os presidentes viveram aqui. A exceção foi Maximiliano, que habitou o Castelo de Chapultepec. Durante a ocupação estadunidense, em catorze de setembro de mil oitocentos e quarenta e sete, a bandeira dos Estados Unidos foi hasteada neste edifício. A capital foi desocupada em doze de junho de mil oitocentos e quarenta e oito. Em mil novecentos e vinte e seis, a fachada foi renovada e se acrescentou um andar, e essa é a forma geral que você vê hoje.\n\nO sino lá em cima tem sua própria história. Traz gravado o nome San Joseph e o vinte e dois de julho do ano de sua fundição. Em mil oitocentos e noventa e seis, por ordem de Porfirio Díaz, foi trazido da paróquia de Dolores. Chegou à capital em catorze de setembro, em um carro alegórico puxado por seis cavalos. Na noite seguinte, Díaz o fez soar enquanto a bandeira era hasteada. Desde então ele é tocado todo dia quinze de setembro. A tradição conta que foi Miguel Hidalgo quem o repicou em Dolores em mil oitocentos e dez.\n\nEste palácio também aparece na história recente da praça. Seus alto-falantes deram aos estudantes cinco minutos para deixar a praça. Era madrugada do dia vinte e oito de agosto de mil novecentos e sessenta e oito. Contei isso ao falar da [memória do Zócalo](cdmx_26_zocalo_memoria).\n\nSe decidir entrar, faça isso sabendo que o acesso ao interior muda com frequência e costuma exigir registro prévio, então consulte a informação vigente. O mais conhecido são os murais de Diego Rivera na escadaria principal, a Epopeia do povo mexicano. Ele os pintou em afresco entre mil novecentos e vinte e nove e mil novecentos e trinta e cinco, em forma de tríptico. Um muro é dedicado ao mundo pré-hispânico, com cenas da vida cotidiana dos mexicas. Outro percorre a história desde a Conquista, com as invasões do século dezenove. O terceiro mostra o México de sua época e seus conflitos. Nele, Rivera incluiu Karl Marx e Frida Kahlo com um grupo de escolares.\n\nRivera continuou pintando depois nos corredores do Andar Superior. Trabalhou ali durante os anos quarenta e, em mil novecentos e cinquenta e um, concluiu onze painéis sobre as culturas mesoamericanas e a chegada dos espanhóis a Veracruz.\n\nQuem faz o percurso interior também encontra o Recinto Parlamentar. Ele recria o salão de sessões da Câmara dos Deputados, destruído por um incêndio em mil oitocentos e setenta e dois. Nesse salão foi redigida a Constituição de mil oitocentos e cinquenta e sete. E há janelas arqueológicas que deixam ver vestígios do primeiro palácio e materiais das casas de Moctezuma.\n\nUm dado para encerrar: o Centro Histórico, com este edifício em seu coração, é Patrimônio Mundial da UNESCO desde mil novecentos e oitenta e sete. Olhe outra vez a sacada central e o sino. Dali, a cada ano, uma cerimônia une a lembrança de mil oitocentos e dez com esta praça."
+    },
+    "retos_observacion": {
+      "hash": "0320b8db4d968919",
+      "texto": [
+        "Procure a sacada central e, logo acima, o nicho onde pende o Sino de Dolores",
+        "Conte os níveis da fachada e lembre que um deles foi acrescentado na renovação de mil novecentos e vinte e seis",
+        "Percorra o edifício de ponta a ponta com o olhar: ele ocupa todo o lado leste da praça"
+      ]
+    },
+    "especificaciones": {
+      "hash": "162a2968ad86b94a",
+      "texto": {
+        "Época": "séculos XVI a XX",
+        "Origen": "primeiro edifício de Hernán Cortés sobre as casas de Moctezuma II",
+        "Murales": "Diego Rivera, Epopeia do povo mexicano, escadaria principal, 1929 a 1935",
+        "Reforma": "em 1926 a fachada foi renovada e se acrescentou um andar",
+        "Localização": "lado leste do Zócalo",
+        "Patrimonio": "Centro Histórico, UNESCO 1987"
+      }
+    },
+    "faq_mito": {
+      "hash": "37016274cc85e599",
+      "texto": {
+        "pregunta": "Mito: O Grito de Independência é dado na noite de quinze de setembro porque é o aniversário de Porfirio Díaz.",
+        "respuesta": "Realidade: É uma explicação muito repetida, mas não é a razão: a celebração da noite do dia quinze já era feita décadas antes de Díaz chegar ao poder. Sua contribuição foi trazer o Sino de Dolores para esta sacada em 1896."
+      }
+    }
+  }
+}

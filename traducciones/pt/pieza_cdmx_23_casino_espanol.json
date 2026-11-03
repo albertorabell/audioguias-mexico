@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_23_casino_espanol",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "50693d85b506f09d",
+      "texto": "Cassino Espanhol: uma casa erguida sobre um antigo hospital"
+    },
+    "frase_gancho": {
+      "hash": "ea8c01325d0701fc",
+      "texto": "A rua Isabel, a Católica recebeu esse nome em mil novecentos e dez, e esta casa espanhola já a esperava desde mil novecentos e cinco."
+    },
+    "puente_narrativo": {
+      "hash": "70c1a806614a7c57",
+      "texto": "Siga pela Isabel, a Católica em direção à avenida Dezesseis de Setembro, onde fica a Casa Boker, um edifício de estrutura metálica que abrigou uma histórica loja de ferragens."
+    },
+    "como_llegar": {
+      "hash": "b71a8a4e38de51ed",
+      "texto": "Volte à Isabel, a Católica e desça rumo ao sul, cruzando a Madero, até o número vinte e nove, onde um clube espanhol ergueu sua casa em mil novecentos e cinco."
+    },
+    "guion_corto": {
+      "hash": "6e2259471a510290",
+      "texto": "A rua Isabel, a Católica nem sempre se chamou assim. O Cassino Espanhol comprou aqui o terreno em mil oitocentos e noventa e cinco. Naquela época, a rua se chamava do Espírito Santo, por causa de um antigo hospital que existiu no local. O nome atual chegou em mil novecentos e dez, durante as festas do Centenário da Independência. O clube foi fundado em mil oitocentos e sessenta e três. Estreou esta sede em dezembro de mil novecentos e cinco, obra do arquiteto catalão Emilio González del Campo. Repare na fachada de estilo eclético, com motivos que vão do árabe ao plateresco. Antes de ter casa própria, o clube passou por vários palácios."
+    },
+    "guion_largo": {
+      "hash": "57976993d459acb4",
+      "texto": "O Cassino Espanhol nasceu em mil oitocentos e sessenta e três como uma associação civil da comunidade espanhola no México. Era um lugar de encontro para espanhóis e seus descendentes e, durante décadas, não teve casa própria. Primeiro ocupou o Palácio dos Condes de Santiago de Calimaya, que hoje é o Museu da Cidade do México. Entre mil oitocentos e sessenta e nove e mil oitocentos e oitenta e três esteve no palácio dos condes de San Mateo de Valparaíso. Um clube que mudava de palácio é uma boa imagem de como se movimentava a vida social do Centro no século dezenove.\n\nEm mil oitocentos e noventa e cinco, o clube comprou um terreno na então rua do Espírito Santo. Ali havia existido o Hospital do Espírito Santo e Nossa Senhora dos Remédios. Foi fundado, no início do século dezessete, pelo casal formado por Alonso Rodríguez del Vado e Ana de Saldívar. Por volta de mil oitocentos e vinte estava prestes a fechar e, pouco depois, o edifício foi vendido e demolido para dar lugar ao cassino.\n\nA obra começou em mil oitocentos e noventa e nove, com o arquiteto Emilio González del Campo, de origem catalã. Terminou em mil novecentos e cinco. Em dezembro daquele ano, foi inaugurado com uma assembleia no salão principal, hoje chamado Salão dos Reis. O próprio clube descreve o edifício como a fase mais madura do ecletismo na arquitetura. Na fachada e nos interiores misturam-se motivos que vão do árabe ao plateresco.\n\nDepois vem o dado que dá título a esta parada. Em mil novecentos e dez, durante as festas do Centenário da Independência, o presidente Porfirio Díaz visitou esse mesmo salão. Naquele ano, a Câmara Municipal mudou o nome de várias ruas, incluindo a que leva a este edifício, para homenagear Isabel, a Católica. Ou seja, a rua por onde você caminha adotou seu nome atual quando o cassino já estava aqui havia cinco anos.\n\nO edifício não ficou parado. Entre mil novecentos e trinta e nove e mil novecentos e cinquenta e um, construiu-se uma segunda estrutura na parte de trás. Ela acrescentou um grande salão, refeitório, bar, boliche, salas de jogos e auditório. Mais tarde, em dois mil e três, instalou-se um vitral do artista mexicano Kischi Hentschel. Ele presta homenagem à Constituição espanhola de mil novecentos e setenta e oito. Entre os elementos mais destacados do edifício está também o vitral que cobre a cúpula do pátio interno.\n\nA biblioteca tem sua própria história. Começou em mil oitocentos e sessenta e sete com uns quatrocentos e quarenta e seis volumes. Foi reinaugurada em mil novecentos e noventa e seis com o nome de Carlos Prieto e hoje reúne uns quatorze mil volumes. Está aberta ao público em dias úteis. O edifício também abriga um restaurante de cozinha ibérica. Se você pensa em entrar, consulte antes os horários e as condições de acesso, porque é um clube com atividades próprias.\n\nEsta parada também ajuda você a entender a geografia das comunidades estrangeiras no Centro. Os espanhóis tiveram seu cassino. Perto, na esquina da Dezesseis de Setembro, a família alemã Boker deixou sua marca com sua loja de ferragens. Ambas as casas foram erguidas nos anos em que o Porfiriato abria a capital ao comércio e ao investimento de fora.\n\nPara olhar da rua, procure o contraste entre a sobriedade do muro e os detalhes de pedra e de ferro forjado. Não é preciso entrar para perceber o cuidado desta fachada. Foi uma época em que os clubes sociais também eram uma forma de se apresentar à cidade."
+    },
+    "retos_observacion": {
+      "hash": "9fe1b1f38b2bc6af",
+      "texto": [
+        "Procure na fachada os motivos decorativos que misturam o árabe e o plateresco",
+        "Localize a placa da rua e lembre que este nome é de mil novecentos e dez",
+        "Conte quantos níveis tem a frente do edifício e compare com os vizinhos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fa8eb66c32b539de",
+      "texto": {
+        "Fundação do clube": "1863",
+        "Edifício atual": "obra iniciada em 1899 e concluída em 1905",
+        "Arquiteto": "Emilio González del Campo",
+        "Estilo": "eclético, com motivos do árabe ao plateresco",
+        "Localização": "Isabel, a Católica, nº 29, Centro Histórico",
+        "Dado-chave": "foi erguido onde esteve o Hospital do Espírito Santo"
+      }
+    },
+    "faq_mito": {
+      "hash": "5b1c66321cedbefe",
+      "texto": {
+        "pregunta": "Mito: O Cassino Espanhol fica em um palácio vice-reinal.",
+        "respuesta": "Realidade: O edifício atual é eclético e foi concluído em mil novecentos e cinco, sobre o terreno de um antigo hospital; os palácios vice-reinais que o clube usou antes eram outros, como o de Calimaya."
+      }
+    }
+  }
+}

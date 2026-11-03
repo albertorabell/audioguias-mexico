@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_48_templo_ensenanza",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "de63cb6607344e3b",
+      "texto": "Templo de la Enseñanza, a escola de meninas da Nova Espanha"
+    },
+    "frase_gancho": {
+      "hash": "d9aa1917a450452b",
+      "texto": "Sobre a porta há uma janela em forma de estrela, e nela se debruça a Virgem do Pilar."
+    },
+    "puente_narrativo": {
+      "hash": "e697dc790e84dc31",
+      "texto": "Siga alguns passos pela mesma rua Donceles até o [Museu da Caricatura](cdmx_49_museo_caricatura), no antigo Colégio de Cristo."
+    },
+    "como_llegar": {
+      "hash": "a47a8e1fa4f733a0",
+      "texto": "Siga por Donceles, a rua em que se transforma a Justo Sierra ao cruzar a República de Argentina, até o [Templo da Enseñanza](cdmx_48_templo_ensenanza)."
+    },
+    "guion_corto": {
+      "hash": "21b8cb2dc3d44207",
+      "texto": "Sobre a porta de entrada há uma janela em forma de estrela abocinada. Ela ilumina o coro e emoldura a imagem da Virgem do Pilar. É um detalhe de Francisco Guerrero y Torres, o arquiteto a quem foi encomendado este templo em mil setecentos e setenta e dois. Aqui funcionou um convento e colégio da Companhia de Maria, conhecido como La Enseñanza, fundado pela madre María Ignacia Azlor. Foi uma das escolas para meninas mais renomadas da Nova Espanha. Do conjunto original, muito maior, hoje sobrevive o templo, um dos últimos grandes edifícios de seu estilo na cidade, hoje paróquia de Nossa Senhora do Pilar."
+    },
+    "guion_largo": {
+      "hash": "91476849d9fe82cf",
+      "texto": "Repare na porta principal. O arco é baixo, e a pedra central, a chave, fica mais abaixo do normal. Acima, a janela em forma de estrela abocinada ilumina o coro. E no centro da fachada há uma escultura de alabastro da Virgem do Pilar. Essa invocação era a devoção da fundadora, e dá nome ao templo.\n\nA história começa com María Ignacia Azlor. Era filha de um governador do Texas e de Coahuila, e quis se dedicar ao ensino das meninas. Viajou para a Espanha para se unir à Companhia de Maria, uma ordem dedicada a ensinar. Queria impulsionar a educação de meninas de todas as classes sociais. Seu convento e colégio foram erguidos na rua que então se chamava Cordobanes, e que hoje é Donceles.\n\nA madre María Ignacia morreu antes de ver o templo. Em mil setecentos e setenta e dois, a igreja foi encomendada a Francisco Guerrero y Torres, grande arquiteto do século dezoito. É o mesmo da Capela do Pocito e do [Palácio de Iturbide](cdmx_18_palacio_iturbide), que você já conhece. Trabalhou aqui de mil setecentos e setenta e dois a mil setecentos e setenta e oito. Isso situa o templo no final do período vice-reinal, cerca de quatro décadas antes da Independência. O convento e o colégio são atribuídos a Ignacio Castera, por volta de mil oitocentos e cinco.\n\nSe o templo estiver aberto e você decidir entrar com respeito, sua construção tem um truque. Um arco com três lóbulos sustenta o coro alto e permite uma nave sem colunas, de modo que nada atrapalha a vista para o altar. As janelas da abóbada central também têm três lóbulos, algo considerado singular no barroco mexicano.\n\nPor dentro, destaca-se o retábulo-mor, considerado uma das melhores obras de Guerrero y Torres. Na abóbada há um afresco da aparição da Virgem do Pilar ao apóstolo Santiago. Telas de Andrés López acompanham o retábulo. O acesso e as visitas guiadas mudam, então consulte os horários vigentes.\n\nHá um último detalhe humano. A Cidade do México lembra que, no século vinte, a comunidade espanhola exilada pela guerra civil teve uma devoção especial por este templo. Ela acudia a cada doze de outubro, dia da Virgem do Pilar.\n\nCom as Leis da Reforma, o conjunto perdeu seu caráter de colégio e convento. Hoje o templo é paróquia de Nossa Senhora do Pilar, e é o que resta de um conjunto muito mais amplo, provavelmente um dos últimos edifícios de seu tipo.\n\nPense no que significava esta escola, um lugar criado para educar meninas. Foi uma das mais renomadas da Nova Espanha. A poucos passos fica outro colégio vice-reinal, o de Cristo, que hoje abriga um museu de caricaturas. Entre os dois, a rua Donceles conta a história da educação na cidade."
+    },
+    "retos_observacion": {
+      "hash": "e6b7718cf00c993a",
+      "texto": [
+        "Procure a janela em forma de estrela sobre a porta principal",
+        "Localize a escultura da Virgem do Pilar na fachada",
+        "Repare no arco baixo da porta de entrada"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e050a53a7ec7ee87",
+      "texto": {
+        "Época": "templo encomendado em 1772; obra de 1772 a 1778",
+        "Arquiteto": "Francisco Guerrero y Torres; convento e colégio atribuídos a Ignacio Castera (1805)",
+        "Estilo": "barroco tardio da Nova Espanha",
+        "Localização": "Donceles 102, Centro Histórico",
+        "Fundadora": "María Ignacia Azlor, Companhia de Maria",
+        "Dado-chave": "nave sem colunas graças ao coro sobre arco trilobado"
+      }
+    },
+    "faq_mito": {
+      "hash": "4835b7386d721684",
+      "texto": {
+        "pregunta": "Mito: La Enseñanza, por seu aspecto antigo, seria uma das primeiras igrejas da cidade.",
+        "respuesta": "Realidade: Seu templo foi encomendado em 1772 e trabalhado até 1778, no final do período vice-reinal."
+      }
+    }
+  }
+}

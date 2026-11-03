@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_32_gran_hotel",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0bcdd469b1c4920f",
+      "texto": "Grande Hotel Cidade do México: de loja francesa a hotel com vitral"
+    },
+    "frase_gancho": {
+      "hash": "82524e4c34f396b2",
+      "texto": "Antes de receber hóspedes, este edifício vendeu chapéus, tecidos e ternos importados da Europa."
+    },
+    "puente_narrativo": {
+      "hash": "eca0b029f636493b",
+      "texto": "Volte em direção à praça e siga até a esquina noroeste, onde a rua Monte de Piedad contorna a Catedral."
+    },
+    "como_llegar": {
+      "hash": "0a260dfda73070b3",
+      "texto": "Continue pela calçada, sob os arcos, até chegar à avenida Dezesseis de Setembro, onde fica o Grande Hotel."
+    },
+    "guion_corto": {
+      "hash": "0bd8f6307805ac52",
+      "texto": "Hoje é um hotel, mas nasceu como loja de departamentos. Foi inaugurado em mil oitocentos e noventa e nove com o nome de Centro Mercantil, e o presidente Porfirio Díaz presidiu a cerimônia. Um imigrante francês, Sebastien Robert, mandou construí-lo para vender roupas, tecidos e chapéus trazidos da Europa. Funcionou como loja durante várias décadas. Em mil novecentos e sessenta e oito abriu como hotel, a tempo de receber os visitantes dos Jogos Olímpicos. Sua joia está lá dentro: um teto de vidro colorido no saguão, que se atribui ao artista francês Jacques Gruber. Da rua, você pode ver a fachada, sobre a avenida Dezesseis de Setembro."
+    },
+    "guion_largo": {
+      "hash": "145081a88cad08d3",
+      "texto": "As grandes lojas de departamentos chegaram à capital nos tempos de Porfirio Díaz, e esta foi uma das primeiras. Chamou-se O Centro Mercantil e abriu suas portas no último ano do século dezenove, com o presidente Díaz encarregado da inauguração. Vendia mercadorias importadas da Europa. As obras levaram vários anos.\n\nSua grande escada original foi demolida nos anos sessenta. Do conjunto original, destacam-se o vitral e os elevadores de ferro forjado.\n\nO vitral é o que tornou o edifício famoso. É uma cobertura de vidro colorido sobre o saguão, em estilo art nouveau, e é atribuído a Jacques Gruber, um artista da França. Gruber foi decorador e pintor sobre vidro, e fez parte do comitê diretor da Escola de Nancy desde a sua criação, em mil novecentos e um. Também fez a cúpula das lojas Galeries Lafayette, em Paris, em mil novecentos e onze. Por isso se atribui a ele o vitral do saguão, que foi concluído no início do século vinte, quando o edifício já funcionava como loja. Se o saguão estiver aberto ao público, vale a pena você parar alguns minutos e reparar em como a luz atravessa o vidro e muda as cores ao longo do dia.\n\nA loja deixou de funcionar em mil novecentos e cinquenta e oito. Dez anos depois, o edifício abriu como hotel. Seu público era formado por quem chegava para os Jogos Olímpicos do México. Nesse mesmo ano, esta praça viveu os acontecimentos do movimento estudantil que contamos ao falar da [memória do Zócalo](cdmx_26_zocalo_memoria). Entre dois mil e três e dois mil e cinco, o edifício foi reformado e passou a se chamar Grande Hotel Cidade do México.\n\nImagine o saguão nos tempos da loja: clientes entrando para comprar tecidos, chapéus e ternos que chegavam da Europa, sob uma luz colorida que caía do alto. Era uma cidade que olhava para o outro lado do oceano para se vestir e para comprar.\n\nPor fora, o estilo é eclético, e é por dentro que o art nouveau se destaca. Olhe agora com calma a fachada e as portas de entrada. O saguão é de uso do hotel; por isso, se quiser vê-lo, respeite as regras do local e consulte o que está aberto. Da rua, você já tem o essencial: um edifício que conta a modernidade do Porfiriato, o comércio com a Europa e a mudança de uso de um século para outro.\n\nPara terminar, caminhe alguns passos até a arcada do Portal dos Mercadores e compare: lá, o comércio dos séculos do vice-reinado, e aqui, o da modernidade porfiriana. Um último detalhe: os chapéus, os tecidos e os ternos importados da loja inicial falam de uma cidade que comprava moda europeia no fim do século dezenove. Hoje essas mercadorias já não estão aqui, mas o edifício conserva a marca daquele comércio."
+    },
+    "retos_observacion": {
+      "hash": "f240aa2cc99db008",
+      "texto": [
+        "Conte os andares do edifício a partir da calçada",
+        "Procure o nome do hotel sobre a entrada",
+        "Compare a fachada dele com a arcada do Portal dos Mercadores, que você acabou de percorrer: que épocas você distingue?"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e819d6b08753344a",
+      "texto": {
+        "Época": "Centro Mercantil aberto em 1899, hotel desde 1968",
+        "Fundador": "Sebastien Robert, imigrante francês",
+        "Estilo": "fachada eclética, interior art nouveau",
+        "Vitral": "atribuído a Jacques Gruber",
+        "Localização": "avenida 16 de Setembro 82, esquina sudoeste do Zócalo"
+      }
+    },
+    "faq_mito": {
+      "hash": "cf16c18cfa82d9ac",
+      "texto": {
+        "pregunta": "Mito: Este edifício sempre foi um hotel.",
+        "respuesta": "Realidade: Nasceu em 1899 como loja de departamentos, o Centro Mercantil; a loja fechou em 1958 e abriu como hotel em 1968."
+      }
+    }
+  }
+}

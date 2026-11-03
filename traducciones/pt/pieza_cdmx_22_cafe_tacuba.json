@@ -1,0 +1,64 @@
+{
+  "id": "cdmx_22_cafe_tacuba",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "0fe323f1aad21c77",
+      "texto": "Café de Tacuba: a casarão e o negócio de Papá Nicho"
+    },
+    "frase_gancho": {
+      "hash": "fb67ae5b4535bfed",
+      "texto": "Papá Nicho abriu este café em mil novecentos e doze, mas o casarão que o abriga é mais antigo que o negócio por séculos."
+    },
+    "puente_narrativo": {
+      "hash": "b71a8a4e38de51ed",
+      "texto": "Volte à rua Isabel la Católica e desça em direção ao sul, cruzando a rua Madero, até o número vinte e nove, onde um clube espanhol construiu sua sede em mil novecentos e cinco."
+    },
+    "como_llegar": {
+      "hash": "c8ebf60ba9497789",
+      "texto": "Siga em direção à rua de Tacuba e procure, junto ao cruzamento com a rua Isabel la Católica, o café que abriu em mil novecentos e doze."
+    },
+    "guion_corto": {
+      "hash": "4ffd3e62d9cfc437",
+      "texto": "Papá Nicho era o apelido de Dionisio Mollinedo, um tabasquenho que abriu este lugar em mil novecentos e doze, em plena Revolução. Uma placa na entrada lembra sua fundação e o chama de um dos restaurantes mais antigos. Mas o negócio é mais jovem que o edifício. O casarão é do século dezessete, e sua parte dos fundos pertenceu a um hospital para mulheres. Antes de ser restaurante, funcionou como leiteria. Hoje tem seis salões com talavera e vitrais, mas da rua basta ler a placa e olhar a fachada. Aqui se celebrou, em mil novecentos e vinte e dois, o banquete de casamento de Diego Rivera e Guadalupe Marín."
+    },
+    "guion_largo": {
+      "hash": "681260745fcdbfa9",
+      "texto": "Comecemos pelo nome. Dionisio Mollinedo, natural de Tabasco, chegou à capital e abriu este negócio em mil novecentos e doze. Muitos o conheciam como Papá Nicho. Sua esposa, Josefina García, lembrada como Pepita, transformava em pratos as receitas regionais que ele foi recolhendo em mercados e cenadurías. Esse casal é a origem da casa. A placa junto à entrada resume: um dos restaurantes mais antigos, fundado em mil novecentos e doze por Dionisio Mollinedo.\n\nAgora repare na diferença entre o negócio e o edifício. Esta foi uma das casas palacianas do Centro, construída no século dezessete. Sua parte dos fundos fez parte do Hospital del Divino Salvador, um hospital para mulheres. Ou seja, o café ocupa um lugar com uma longa história. Ela não começou com a leiteria que funcionou aqui antes do restaurante.\n\nÉ preciso deixar uma coisa clara, porque costuma gerar confusão. O café não funciona há séculos. O que tem séculos é o casarão. O negócio de Mollinedo abriu quando a Revolução tinha apenas dois anos, e tomou o nome da rua onde está: Tacuba.\n\nSe algum dia você decidir entrar, já sabe que é um restaurante e que se entra para consumir. Tem seis salões com talavera e vitrais. Nas paredes há réplicas de pinturas que decoram o Castelo de Chapultepec, e também um retrato de José de la Borda. Tudo isso fica lá dentro. Da rua você tem a fachada, a placa e a história que estamos contando.\n\nAlgumas anedotas com data acompanham esta casa. Em mil novecentos e vinte e dois celebrou-se aqui o banquete de casamento do pintor Diego Rivera e Guadalupe Marín. Nos anos vinte e trinta foi ponto de encontro de escritores, políticos, atores e intelectuais. E no dia vinte e cinco de junho de mil novecentos e trinta e seis foi assassinado aqui Manlio Fabio Altamirano, governador eleito de Veracruz. Ele jantava com a esposa. É um episódio da violência política daqueles anos, e aqui o deixamos naquilo que está documentado.\n\nTodo dia treze de dezembro, pelo aniversário do lugar, tocadores de realejo entoam as mañanitas. E costuma-se dizer que todos os presidentes do México já comeram aqui, uma frase muito repetida, mas que ninguém pode comprovar.\n\nEsta parada também serve para você olhar a rua. Nesta mesma rua de Tacuba ficaram duas paradas anteriores do seu percurso. São o [Museu Nacional de Arte](cdmx_10_munal) e o [Palácio de Mineração](cdmx_11_palacio_mineria). Um café que abriu em pleno século vinte convive com edifícios de séculos anteriores. Essa mistura é justamente o que torna o Centro especial: não há uma única época, há camadas.\n\nPara o próximo trecho, você volta à rua Isabel la Católica. Nessa rua esperam por você dois edifícios de por volta de mil novecentos. São o Casino Español e, depois, a Casa Boker, ligada a uma família alemã."
+    },
+    "retos_observacion": {
+      "hash": "fa220942a578f1b2",
+      "texto": [
+        "Procure a placa junto à entrada que lembra a fundação do café em mil novecentos e doze",
+        "Repare na fachada do casarão e tente imaginar que ele é anterior ao negócio por vários séculos",
+        "Leia a placa da rua para confirmar que você está em Tacuba, perto do cruzamento com a rua Isabel la Católica"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e977fc248bc6c134",
+      "texto": {
+        "Negócio fundado": "1912, por Dionisio Mollinedo",
+        "Edifício": "casarão do século XVII; sua parte dos fundos pertenceu ao Hospital del Divino Salvador",
+        "Uso anterior": "leiteria",
+        "Localização": "rua de Tacuba 28, a oeste da rua Isabel la Católica",
+        "Dado-chave": "banquete de casamento de Diego Rivera e Guadalupe Marín em 1922",
+        "Interior": "seis salões com talavera e vitrais"
+      }
+    },
+    "faq_mito": {
+      "hash": "1705a6ddf279e1a0",
+      "texto": {
+        "pregunta": "Mito: O Café de Tacuba funciona como café há vários séculos.",
+        "respuesta": "Realidade: O negócio abriu em mil novecentos e doze, como lembra a placa do lugar; o que vem do século dezessete é o casarão que o abriga."
+      }
+    }
+  }
+}

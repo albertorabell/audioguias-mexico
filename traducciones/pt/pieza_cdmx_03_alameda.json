@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_03_alameda",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ded8d6b770c24687",
+      "texto": "Alameda Central: o parque público mais antigo da América"
+    },
+    "frase_gancho": {
+      "hash": "8055c200ccf0e994",
+      "texto": "Chama-se Alameda por causa de uns álamos que não sobreviveram, e o vice-rei a ordenou em mil quinhentos e noventa e dois."
+    },
+    "puente_narrativo": {
+      "hash": "dcaa4fd3ebd2729b",
+      "texto": "Siga pelas alamedas para o interior do parque. Entre as árvores aparecem as primeiras fontes, e cada uma traz a sua própria história."
+    },
+    "como_llegar": {
+      "hash": "75e35678e350f2b0",
+      "texto": "Saia do palácio e atravesse em direção à Alameda Central, o parque que se estende diante da esplanada. Siga suas alamedas para a próxima parada."
+    },
+    "guion_corto": {
+      "hash": "ca64f4b129c16667",
+      "texto": "Alameda vem de álamo, mas os álamos não ficaram. As primeiras árvores foram substituídas por freixos e salgueiros, e o nome sobreviveu. Em janeiro de mil quinhentos e noventa e dois, o vice-rei Luis de Velasco pediu ao Cabildo que construísse um parque diante da igreja da Santa Veracruz. Ele é considerado o parque público mais antigo da América. Era um passeio para os moradores, mas também um lugar de contrastes, porque junto ao seu lado oeste funcionou a fogueira da Inquisição. Com o tempo, encheu-se de fontes, esculturas e lampiões. Hoje é um espaço aberto a todos e o eixo desta primeira zona do percurso."
+    },
+    "guion_largo": {
+      "hash": "cc3e48b3ef4396fe",
+      "texto": "Imagine este lugar no final do século dezesseis. Você está nos arredores da cidade, na direção oeste. A zona tinha sido um mercado a oeste da antiga Tenochtitlan. Em janeiro de mil quinhentos e noventa e dois, o vice-rei Luis de Velasco pediu ao Cabildo um parque junto à igreja da Santa Veracruz, para a recreação dos moradores. É o primeiro parque público da Nova Espanha.\n\nO traçado original foi quadrado, e foi executado pelo mestre de obras Cristóbal Carballo. Plantaram-se álamos, mas com o tempo eles foram substituídos por freixos e salgueiros. O nome ficou pela lembrança daquelas primeiras árvores.\n\nNem tudo era passeio. Junto ao lado oeste funcionou a fogueira da Santa Inquisição, onde eram executados os condenados por heresia durante o auge desse tribunal. É uma das razões pelas quais a Alameda sempre foi um lugar de contrastes.\n\nNa segunda metade do século dezoito, o parque dobrou de tamanho ao incorporar as pequenas praças laterais, e desde então é retangular. Nessa época, durante os governos dos vice-reis Bucareli e Revillagigedo, foram colocadas fontes com esculturas de temas mitológicos. Mais tarde, em mil oitocentos e vinte e um, o Exército Trigarante descansou aqui.\n\nO século dezenove mudou a paisagem. As esculturas do período vice-reinal foram substituídas por obras novas, várias delas feitas na França, que você conhecerá na próxima parada. Primeiro houve lampiões de terebintina, depois bicos de gás, e em mil oitocentos e noventa e dois chegou a luz elétrica. Em mil novecentos e cinco, instalou-se neste jardim o Quiosque Mourisco, que hoje está no bairro de Santa María la Ribera. Em seu lugar foi erguido, anos depois, o [Hemiciclo a Juárez](cdmx_05_hemiciclo_juarez).\n\nO século vinte também deixou sua marca. Em fevereiro de mil novecentos e sessenta e oito, o cantor espanhol Raphael deu um concerto neste parque. Entre mil novecentos e setenta e três e mil novecentos e oitenta e três, foram trocados o sistema de irrigação e a drenagem. Além disso, as calçadas foram pavimentadas e as fontes, reparadas. Nesses anos, várias esculturas de mármore foram substituídas por réplicas.\n\nEm mil novecentos e quarenta e sete, Diego Rivera pintou um mural que tem esta Alameda como cenário. Chama-se Sonho de uma tarde dominical na Alameda Central, e você o conhecerá no [Museu Mural Diego Rivera](cdmx_06_museo_mural_rivera).\n\nA última grande intervenção foi em dois mil e doze, como parte do plano de manejo do Centro Histórico. O pavimento danificado foi substituído por mármore e os jardins foram replantados. Hoje o parque é um lugar de passagem e de descanso, com fontes, bancos e esculturas, a poucos passos do [Palácio de Belas Artes](cdmx_01_bellas_artes). É, além disso, a espinha dorsal deste trecho do percurso.\n\nEnquanto caminha por suas alamedas, pense que você percorre um parque que há mais de quatro séculos vai mudando de forma, de árvores e de adornos. Cada geração deixou nele alguma coisa: um traçado, uma fonte, um lampião, um banco. E, no entanto, ele conserva a ideia com que nasceu, a de um lugar para que os moradores passeiem e se encontrem."
+    },
+    "retos_observacion": {
+      "hash": "2c0ca2d7284492d7",
+      "texto": [
+        "Olhe o piso das alamedas: desde a reabilitação de dois mil e doze, ele é de mármore",
+        "Conte as fontes com esculturas que encontrar pelo caminho",
+        "Procure o Hemiciclo a Juárez na borda do parque que dá para a avenida Juárez"
+      ]
+    },
+    "especificaciones": {
+      "hash": "b0d75770eeed2b69",
+      "texto": {
+        "Época": "fundada por ordem do vice-rei em 1592",
+        "Fundador": "vice-rei Luis de Velasco",
+        "Estilo": "parque do período vice-reinal transformado nos séculos XVIII e XIX",
+        "Localização": "Av. Juárez, entre Eje Central e Dr. Mora",
+        "Dado-chave": "é considerado o parque público mais antigo da América"
+      }
+    },
+    "faq_mito": {
+      "hash": "e6dcca7759eeca00",
+      "texto": {
+        "pregunta": "Mito: Em 1846, as fontes da Alameda foram enchidas de aguardente para celebrar o triunfo de Santa Anna.",
+        "respuesta": "Realidade: É uma lenda que se conta sobre o parque, não um fato comprovado."
+      }
+    }
+  }
+}

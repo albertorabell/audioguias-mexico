@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_13_torre_latinoamericana",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "53dc25c0e946d745",
+      "texto": "Torre Latino-Americana, a Latino"
+    },
+    "frase_gancho": {
+      "hash": "d2e0d28495fc0c09",
+      "texto": "Uma torre de aço erguida sobre o solo mole do antigo lago, que continua de pé depois de três grandes terremotos."
+    },
+    "puente_narrativo": {
+      "hash": "45da8f48c482ce6e",
+      "texto": "Siga pela rua Madero em direção ao leste, a poucos passos, até a Casa dos Azulejos."
+    },
+    "como_llegar": {
+      "hash": "4062fe95af090198",
+      "texto": "Siga pelo Eixo Central em direção à rua Madero, onde a Torre Latino-Americana se ergue na esquina."
+    },
+    "guion_corto": {
+      "hash": "f64660ee460bca30",
+      "texto": "Trezentos e sessenta e um. É o número de estacas de concreto que sustentam a Torre Latino-Americana. Elas chegam até uma camada de areia dura, a trinta e três metros de profundidade. Aqui o solo é o do antigo lago, mole e instável. A torre foi inaugurada em trinta de abril de mil novecentos e cinquenta e seis, com estrutura de aço. No projeto participaram o engenheiro Leonardo Zeevaert e o arquiteto Augusto H. Álvarez. Seu projeto tomou como referência o terremoto de mil novecentos e onze. Em mil novecentos e cinquenta e sete, um forte tremor a pôs à prova. Depois vieram os de mil novecentos e oitenta e cinco e dois mil e dezessete."
+    },
+    "guion_largo": {
+      "hash": "728ec7a3ddb91dcc",
+      "texto": "A história da Latino começa mais de vinte e cinco anos antes de sua abertura. Em mil novecentos e trinta, a companhia A Latino-Americana de Seguros adquiriu este terreno, na esquina da Madero com San Juan de Letrán. Uma parte dele havia pertencido ao convento de São Francisco, que você conhecerá em breve, e, antes disso, à casa das feras de Moctezuma. Este solo guardou mais de uma história. A obra começou em mil novecentos e quarenta e oito e se prolongou até mil novecentos e cinquenta e seis.\n\nA inauguração foi em trinta de abril daquele ano, o mesmo em que a companhia, fundada em mil novecentos e seis, completava cinquenta anos. A torre mede mais de cento e oitenta metros e tem quarenta e quatro andares. Durante anos foi o edifício mais alto da cidade.\n\nA grande dificuldade era o solo. O centro da cidade repousa sobre o terreno mole do antigo lago. Em mil novecentos e quarenta e nove foram feitos estudos do subsolo. Depois, cravaram-se trezentas e sessenta e uma estacas de concreto até alcançar a areia dura, a trinta e três metros. Sobre elas foi construída uma laje de fundação, a treze metros e meio de profundidade. Por cima, ergueu-se uma estrutura de aço com lajes de concreto. Subir tão alto sobre um solo assim exigia muito estudo antes de colocar a primeira viga, e essa preparação explica boa parte de sua fama.\n\nO engenheiro Leonardo Zeevaert foi fundamental nesse projeto, e seu irmão Adolfo dirigiu a obra. Os arquitetos Augusto H. Álvarez e Alfonso González Paullada participaram do projeto do edifício. Tomou-se como referência o terremoto de magnitude sete vírgula um de mil novecentos e onze, o mais recente dos fortes que se conheciam então.\n\nA prova chegou logo. Em vinte e oito de julho de mil novecentos e cinquenta e sete, um ano depois da abertura, um terremoto de magnitude próxima a sete vírgula nove sacudiu a capital. A torre ficou de pé, enquanto outros edifícios da cidade sofreram danos. No saguão, uma placa lembra o prêmio que o Instituto Americano da Construção em Aço lhe entregou por resistir aos tremores.\n\nDepois veio o dezenove de setembro de mil novecentos e oitenta e cinco, com enormes danos no centro da cidade. A torre continuou de pé. E de novo em dois mil e dezessete, outro terremoto de magnitude sete vírgula um.\n\nA Latino também serve para entender a cidade. Hoje abriga escritórios, museus e um mirante pago no alto. Se você decidir subir, consulte os horários vigentes. Desta esquina, você pode contemplá-la sem pagar.\n\nPense na relação dela com A Nacional, que você acabou de ver. Vinte e quatro anos separam as duas obras. Entre elas se conta uma parte da história dos arranha-céus na capital. A Nacional anunciou a mudança, e a Latino a transformou em símbolo da cidade."
+    },
+    "retos_observacion": {
+      "hash": "b9fbea154c1aadbf",
+      "texto": [
+        "Levante o olhar e procure as antenas que coroam a torre",
+        "Compare a altura dela com a dos edifícios vizinhos da rua Madero",
+        "Olhe para A Nacional, na esquina da avenida Juárez, e compare as duas alturas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "d754fb04810b0883",
+      "texto": {
+        "Época": "Construída de 1948 a 1956; inaugurada em 30 de abril de 1956",
+        "Engenharia": "Leonardo Zeevaert",
+        "Arquitetura": "Augusto H. Álvarez",
+        "Estrutura": "Estrutura de aço e 361 estacas de concreto",
+        "Localização": "Eixo Central Lázaro Cárdenas, na esquina com Francisco I. Madero",
+        "Dado-chave": "Resistiu aos terremotos de 1957, 1985 e 2017"
+      }
+    },
+    "faq_mito": {
+      "hash": "29467f101fcf7b62",
+      "texto": {
+        "pregunta": "Mito: A Torre Latino-Americana foi o primeiro arranha-céu da Cidade do México.",
+        "respuesta": "Realidade: A Nacional, concluída em 1932, já era considerada um arranha-céu em sua época; a Latino foi, durante anos, o edifício mais alto."
+      }
+    }
+  }
+}

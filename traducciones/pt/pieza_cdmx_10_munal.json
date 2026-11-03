@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_10_munal",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7beed5333bc22561",
+      "texto": "MUNAL, do noviciado jesuíta ao palácio de Comunicações"
+    },
+    "frase_gancho": {
+      "hash": "b9a8853951906358",
+      "texto": "Um mesmo terreno foi noviciado jesuíta, hospital e palácio de Comunicações antes de se tornar museu de arte mexicana."
+    },
+    "puente_narrativo": {
+      "hash": "845282a5c8dd1b21",
+      "texto": "O próximo museu divide o edifício com este: o Museu do Telégrafo ocupa uma seção do antigo Palácio de Comunicações."
+    },
+    "como_llegar": {
+      "hash": "3eb62ba8e3ce97ca",
+      "texto": "Atravesse a rua Tacuba em direção ao Museu Nacional de Arte, o MUNAL, o edifício em frente que olha para esta praça."
+    },
+    "guion_corto": {
+      "hash": "5f934dbcfe26f5bd",
+      "texto": "Em 1626, os jesuítas inauguraram neste terreno um noviciado. Com o tempo o local foi hospital, até que, no início do século vinte, foi demolido para dar lugar a um palácio. Quem o projetou foi o arquiteto italiano Silvio Contri, e as obras duraram de 1904 a 1911. Era a sede da Secretaria de Comunicações e Obras Públicas. Sua arquitetura é eclética, com ar de Renascimento italiano e de classicismo francês. Aldrabas, molduras de janelas, vitrais e lustres foram finalizados em Florença. Depois de servir como escritórios e arquivo, desde 1982 aqui vive o Museu Nacional de Arte, com obra mexicana de quatro séculos."
+    },
+    "guion_largo": {
+      "hash": "106cc60686c6c8b3",
+      "texto": "Este edifício tem várias vidas sobrepostas, e a mais antiga é religiosa. Em 1626 foi inaugurado aqui um noviciado da Companhia de Jesus. Em 1767 os jesuítas foram expulsos. O imóvel passou para outras instituições e chegou a ser o Hospital de San Andrés.\n\nNa capela do hospital esteve o corpo embalsamado do arquiduque Maximiliano de Habsburgo. Foi depois de seu fuzilamento e antes de seus restos viajarem para a Europa. É um episódio pouco conhecido deste lugar.\n\nNo início do século vinte, em pleno Porfiriato, o edifício anterior foi demolido. Em 1904 começou a construção de um palácio para a Secretaria de Comunicações e Obras Públicas, e as obras terminaram em 1911. O projeto foi do arquiteto italiano Silvio Contri. Trabalharam mão de obra mexicana e artesãos italianos, e peças como aldrabas, molduras de janelas, vitrais emoldurados em chumbo, móveis e lustres foram finalizadas em Florença.\n\nSeu estilo é eclético. Mistura ideias do Renascimento italiano e do classicismo francês, com toques neobarrocos. O palácio queria mostrar a modernização do país. No segundo andar havia um salão de recepções onde Porfirio Díaz fazia declarações públicas e recebia visitantes estrangeiros.\n\nO palácio foi inaugurado em 1912, já nos anos da Revolução, com Francisco I. Madero na presidência. A Secretaria deixou o edifício em meados do século vinte. Mais tarde o ocupou o Arquivo Geral da Nação, até que se mudou para o antigo Palácio de Lecumberri e o imóvel ficou livre.\n\nEntão a Secretaria de Educação Pública restaurou o edifício e o entregou ao Instituto Nacional de Belas Artes. O Museu Nacional de Arte abriu suas portas em 23 de julho de 1982. Em 1999 fechou para uma grande transformação do imóvel, e reabriu no ano dois mil.\n\nSe você decidir entrar, saiba que a entrada é paga, e que convém consultar os horários vigentes. O museu conserva arte mexicana desde meados do século dezesseis até 1954. Seu percurso se organiza em três grandes momentos. São a época vice-reinal, o século posterior à Independência e o período que vai da Revolução a meados do século vinte.\n\nMas não é preciso entrar para entender o lugar. Da rua você pode percorrer a fachada e reparar em como os materiais se combinam. A praça do Caballito, que você deixou para trás, foi antes o jardim deste palácio. E numa seção do edifício vive também o [Museu do Telégrafo](cdmx_08_museo_telegrafo), aonde você chegará em seguida. A história das comunicações e a da arte compartilham assim o mesmo palácio.\n\nObserve a distância no tempo entre este palácio e o de Minería, que você acaba de ver. Contri terminou sua obra por volta de 1911. Tolsá concluiu a sua em 1813, quase um século antes. São dois edifícios feitos para funções distintas: formar engenheiros e administrar as comunicações do país."
+    },
+    "retos_observacion": {
+      "hash": "6d4c8e5a6dd3a494",
+      "texto": [
+        "Conte os níveis da fachada e procure as molduras das janelas, parte dos elementos que foram trabalhados em Florença",
+        "Compare o aspecto deste palácio eclético com o pórtico de colunas do Palácio de Minería",
+        "Localize da praça o Caballito e lembre que este espaço foi antes o jardim do palácio de Comunicações"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6d704153a79d6144",
+      "texto": {
+        "Época": "Obras de 1904 a 1911; palácio inaugurado em 1912; museu inaugurado em 23 de julho de 1982",
+        "Arquiteto": "Silvio Contri",
+        "Estilo": "Eclético, com Renascimento italiano e classicismo francês",
+        "Localização": "Tacuba 8, Centro Histórico",
+        "Uso original": "Secretaria de Comunicações e Obras Públicas",
+        "Coleção": "Arte mexicana da segunda metade do século XVI a 1954"
+      }
+    },
+    "faq_mito": {
+      "hash": "9e36cf337d8822d0",
+      "texto": {
+        "pregunta": "Mito: O MUNAL é um palácio vice-reinal.",
+        "respuesta": "Realidade: O edifício atual é porfiriano, construído de 1904 a 1911 por Silvio Contri; o vice-reinal foi o noviciado jesuíta e o hospital que ocupavam antes o terreno."
+      }
+    }
+  }
+}

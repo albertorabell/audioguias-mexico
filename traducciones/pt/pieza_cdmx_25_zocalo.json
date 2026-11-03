@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_25_zocalo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0be09e00cdadd1bc",
+      "texto": "Zócalo: a praça que leva o nome de uma base sem monumento"
+    },
+    "frase_gancho": {
+      "hash": "0195248b2e9f4404",
+      "texto": "Esta praça leva o nome de uma base de pedra que nunca chegou a sustentar nenhum monumento."
+    },
+    "puente_narrativo": {
+      "hash": "02ab666f13961fab",
+      "texto": "Caminhe devagar até o centro da praça e fique aqui um instante, porque a história recente também passou por este lugar."
+    },
+    "como_llegar": {
+      "hash": "6aa832cf785ae3c7",
+      "texto": "Siga pela avenida Dieciséis de Septiembre em direção ao leste, até desembocar na grande praça do Zócalo."
+    },
+    "guion_corto": {
+      "hash": "85502b555541c9f4",
+      "texto": "Chama-se Praça da Constituição, mas quase ninguém a chama assim. Todos dizem Zócalo, uma palavra que significa base ou pedestal. O apelido nasceu em mil oitocentos e quarenta e três, quando se colocou aqui a pedra fundamental de um monumento à Independência. A coluna nunca foi erguida. Só restou a base, e com os anos as pessoas começaram a chamar de zócalo toda a praça. O costume se estendeu depois às praças principais de muitas cidades do México. Sob os seus pés ficava o recinto sagrado de Tenochtitlan. Ao seu redor você tem a Catedral, o Palácio Nacional e os edifícios do governo da cidade. Dê uma volta lenta para se orientar."
+    },
+    "guion_largo": {
+      "hash": "29bf7613d2640096",
+      "texto": "Antes de ser praça, este lugar foi o coração cerimonial de Tenochtitlan. Frei Bernardino de Sahagún falou de setenta e oito edifícios dentro do recinto sagrado, e os arqueólogos localizaram e exploraram vinte e quatro. Após a queda da cidade em mil quinhentos e vinte e um, o terreno se transformou na Praça Maior da Nova Espanha.\n\nDurante o vice-reinado, a praça foi sobretudo um mercado. Encheu-se de barracas de madeira, e em mil seiscentos e noventa e dois uma crise de milho terminou em um motim. Os amotinados incendiaram o palácio do vice-rei, a casa da Câmara Municipal e duzentas e oitenta barracas de madeira. Anos mais tarde foi construído o Parián, um grande mercado no lado sudoeste, inaugurado em mil setecentos e três. No dia vinte e sete de junho de mil oitocentos e quarenta e três, Santa Anna ordenou demoli-lo.\n\nA praça também trouxe o passado à luz. Por volta de mil setecentos e oitenta e nove, o vice-rei conde de Revillagigedo mandou rebaixar o piso, cobrir o canal e retirar a forca e o pelourinho. Com essas obras apareceram duas grandes esculturas mexicas, a Coatlicue e a Pedra do Sol. A Pedra do Sol apareceu em dezembro de mil setecentos e noventa. O vice-rei a entregou aos responsáveis pela Catedral, com a condição de conservá-la e expô-la em um lugar público. Ela ficou montada em uma torre da Catedral até mil oitocentos e oitenta e cinco, quando passou para o Museu Nacional.\n\nO nome e os monumentos mudaram várias vezes. Em setembro de mil oitocentos e doze, jurou-se na capital a Constituição de Cádiz, e a praça passou a se chamar Praça da Constituição. Em mil oitocentos e três havia sido inaugurada aqui uma estátua equestre de bronze do rei Carlos Quarto, obra de Manuel Tolsá. Em mil oitocentos e vinte e quatro, foi transferida para o pátio da Universidade.\n\nDepois veio a base que dá nome à praça. Foi Santa Anna quem impulsionou um monumento à Independência. Escolheu-se o projeto do arquiteto Lorenzo de la Hidalga, embora a Academia de San Carlos tivesse favorecido outro. No dia dezesseis de setembro foi colocada uma pedra fundamental de mármore branco, com uma caixa de zinco que guardava documentos, medalhas e moedas. Chegaram a construir a fundação e a base, e a obra não avançou mais. Essa base, o zócalo, acabou dando seu nome a toda a praça. Em dois mil e dezessete, durante a reabilitação da praça, o INAH documentou seus restos, voltou a cobri-los e os sinalizou com placas.\n\nUma curiosidade: a Real Academia Española define zócalo também como a praça principal de uma cidade, sobretudo a da Cidade do México.\n\nHoje o Centro Histórico, com esta praça em seu centro, é Patrimônio Mundial da UNESCO desde mil novecentos e oitenta e sete. É uma praça viva, quase sempre ocupada por alguma atividade, então pode ser que você a encontre com palcos, grades ou barracas. Isso não muda o essencial: daqui se veem, ao mesmo tempo, as camadas da cidade, a mexica, a do vice-reinado e a republicana. Na próxima parada, sem sair deste lugar, falaremos do que esta praça viveu em tempos mais recentes."
+    },
+    "retos_observacion": {
+      "hash": "e87c59fe36b09c1d",
+      "texto": [
+        "Dê uma volta completa e nomeie os edifícios que cercam a praça: a Catedral, o Palácio Nacional e o Antigo Ayuntamiento",
+        "Localize o mastro da bandeira no centro e calcule quanto espaço aberto você tem ao redor",
+        "Se o piso estiver livre, procure ao norte do mastro as placas que sinalizam os restos da base de mil oitocentos e quarenta e três"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f9c99863a0a34c1",
+      "texto": {
+        "Época": "recinto sagrado mexica, Praça Maior do vice-reinado e praça republicana",
+        "Nome oficial": "Praça da Constituição, desde 1812",
+        "Origem do nome popular": "base do monumento à Independência, pedra fundamental em 16 de setembro de 1843",
+        "Localização": "centro do Centro Histórico, cercada pela Catedral, pelo Palácio Nacional e pelo Antigo Ayuntamiento",
+        "Patrimônio": "Centro Histórico inscrito na lista da UNESCO em 1987"
+      }
+    },
+    "faq_mito": {
+      "hash": "710703dad0c978b9",
+      "texto": {
+        "pregunta": "Mito: Zócalo é o nome oficial da praça.",
+        "respuesta": "Realidade: O nome oficial é Praça da Constituição. Zócalo vem da base de um monumento à Independência cuja pedra fundamental foi colocada em 1843 e que nunca foi concluído."
+      }
+    }
+  }
+}

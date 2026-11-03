@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_31_portal_mercaderes",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9b7ebce867f5cbbf",
+      "texto": "Portal dos Mercadores: os arcos do comércio junto ao Zócalo"
+    },
+    "frase_gancho": {
+      "hash": "3fbc52518485ac1a",
+      "texto": "Sob estes arcos se vende desde os primeiros anos da cidade vice-reinal, embora as fachadas sejam bem mais recentes."
+    },
+    "puente_narrativo": {
+      "hash": "0a260dfda73070b3",
+      "texto": "Siga pela calçada, sob os arcos, até chegar à avenida Dezesseis de Setembro, onde fica o Grande Hotel."
+    },
+    "como_llegar": {
+      "hash": "f03c786251d6d028",
+      "texto": "Siga para o lado oeste da praça, até os arcos do Portal dos Mercadores, onde o comércio ocupa o térreo há séculos."
+    },
+    "guion_corto": {
+      "hash": "bd131a35469e8889",
+      "texto": "Por que uma praça tem arcos? Aqui a resposta é prática: para vender sob um teto. Em mil quinhentos e vinte e quatro, o conselho da cidade aprovou que os donos dos terrenos construíssem portais. Eles podiam alugá-los a comerciantes. As arcadas começaram a ser erguidas em mil quinhentos e vinte e sete. Em mil quinhentos e trinta e dois já havia lojas de panos. Os arcos que você vê hoje não são aqueles: as fachadas foram refeitas nos anos cinquenta do século vinte, em estilo neocolonial, com tezontle avermelhado e cantaria cinza. Mas a vocação continua a mesma, porque sob estes arcos ainda há joalherias e comércios. Este trecho pode ser percorrido livremente, pela calçada e sem pressa."
+    },
+    "guion_largo": {
+      "hash": "ef36e77e745d950b",
+      "texto": "Um portal é uma galeria com arcos que protege do sol e da chuva. Aqui os portais eram alugados a comerciantes. Talvez servissem também contra as inundações, algo que a cidade conhecia bem. As arcadas foram iniciadas em mil quinhentos e vinte e sete, sob a direção de Melchor Dávila, e terminadas por volta de mil quinhentos e vinte e nove.\n\nO negócio chegou cedo. Com o tempo, os panos dominaram quase toda a arcada. Depois da Independência, o nome de Portal dos Mercadores tornou-se comum. Em mil seiscentos e setenta e três, uma parte foi cedida aos agostinianos para uso comercial. Por isso esse trecho ficou conhecido como Portal dos Agostinianos. No século dezoito já se vendia quase de tudo. Até os nomes das ruas falam daquele comércio: a que hoje é a Dezesseis de Setembro se chamava Tlapaleros, e a que hoje é Madero, Prateiros.\n\nA arcada cresceu durante séculos sem um plano prévio e só recebeu ordem em mil setecentos e cinquenta e quatro. Foi refeita mais de uma vez, e cada época deixou sua marca nos arcos, nas lojas e nos nomes das ruas vizinhas.\n\nEnquanto você caminha sob os arcos, imagine o barulho dos pregões e o movimento das mercadorias: tecidos, panos e objetos de todo tipo que mudavam de mãos diariamente.\n\nPerto daqui esteve o Parián, um grande mercado no lado sudoeste da praça. Foi construído entre mil seiscentos e noventa e cinco e mil setecentos e três. Foi saqueado em mil oitocentos e vinte e oito e demolido por ordem de Santa Anna em mil oitocentos e quarenta e três. O portal sobreviveu a muitas coisas: terremotos, inundações, levantes militares e motins populares.\n\nEm meados do século dezenove, abriu-se a rua dos Prateiros, que hoje você conhece como Madero, e ela partiu o portal em dois. O trecho norte acabou se perdendo. Em mil oitocentos e noventa e cinco, partes do portal foram demolidas por seu mau estado, ele foi renovado e a praça foi limpa de barracas. Mais tarde, em meados do século vinte, as fachadas foram refeitas em estilo neocolonial, com tezontle, a pedra vulcânica vermelha, e cantaria. O que você vê é uma mistura: uma arcada com raízes do século dezesseis e fachadas do vinte.\n\nHá também uma história de fé. Um acontecimento considerado milagroso deu origem a uma devoção popular. É a de um Cristo da Paciência, conhecido como o Santo Ecce Homo do Portal.\n\nE a vida comercial continua. Há joalherias e lojas, entre elas uma chapelaria com mais de um século de história. Os comércios conservam a vocação que a arcada teve desde os seus primeiros anos. Se você percorreu a [rua Madero](cdmx_17_calle_madero) no primeiro dia, aqui você fecha o círculo: aquela rua de prateiros e esta arcada de mercadores formavam, séculos atrás, parte de um mesmo mundo de lojas ao redor da praça."
+    },
+    "retos_observacion": {
+      "hash": "f6dfc3ff1878c252",
+      "texto": [
+        "Caminhe sob a arcada e perceba como o teto protege você do sol e da chuva, assim como protegia os mercadores",
+        "Procure o contraste entre o tezontle avermelhado e a cantaria cinza nas fachadas",
+        "Localize onde a arcada termina, junto à avenida Dezesseis de Setembro"
+      ]
+    },
+    "especificaciones": {
+      "hash": "13c4735567aa84c1",
+      "texto": {
+        "Época": "ordenança de 1524, arcadas de 1527 a 1529",
+        "Construtor inicial": "Melchor Dávila, 1527",
+        "Fachadas atuais": "refeitas nos anos cinquenta do século XX, estilo neocolonial",
+        "Nome antigo de um trecho": "Portal dos Agostinianos, desde 1673",
+        "Localização": "lado oeste do Zócalo, até a avenida 16 de Setembro"
+      }
+    },
+    "faq_mito": {
+      "hash": "57dd0762d4837353",
+      "texto": {
+        "pregunta": "Mito: Estes arcos são os mesmos que foram construídos no século XVI.",
+        "respuesta": "Realidade: O portal foi refeito várias vezes; houve demolições parciais em 1895, a abertura da rua dos Prateiros o dividiu no século XIX e as fachadas atuais datam dos anos cinquenta do século XX."
+      }
+    }
+  }
+}

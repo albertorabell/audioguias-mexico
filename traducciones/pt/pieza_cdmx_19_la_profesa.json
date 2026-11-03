@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_19_la_profesa",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "18991febd2f16657",
+      "texto": "La Profesa: jesuítas, filipenses e uma conspiração discutida"
+    },
+    "frase_gancho": {
+      "hash": "80a430ddf17fb439",
+      "texto": "Um templo que foi casa de jesuítas, depois oratório filipense, e ao qual se atribui uma conspiração que os historiadores discutem."
+    },
+    "puente_narrativo": {
+      "hash": "f081927ef70da3a1",
+      "texto": "Caminhe alguns passos até a esquina vizinha, onde o [Museu do Estanquillo](cdmx_20_estanquillo) espera por você."
+    },
+    "como_llegar": {
+      "hash": "a99a21cf3ca279e8",
+      "texto": "Siga pela rua Madero em direção ao Zócalo até a esquina com a rua Isabel la Católica, onde fica o templo de [La Profesa](cdmx_19_la_profesa)."
+    },
+    "guion_corto": {
+      "hash": "9e248e9a36d2096f",
+      "texto": "La Profesa vem de casa professa, o nome da residência dos jesuítas que existiu neste lugar. O primeiro templo foi inaugurado em mil seiscentos e dez. O que você vê hoje é obra do arquiteto Pedro de Arrieta, erguido entre mil setecentos e catorze e mil setecentos e vinte. Os jesuítas foram expulsos em mil setecentos e sessenta e sete. Então o templo passou à Congregação do Oratório de São Filipe Néri, e por isso seu nome oficial é oratório. Por dentro, o mestre Manuel Tolsá o renovou em estilo neoclássico no início do século dezenove. Uma tradição diz que aqui se conspirou em mil oitocentos e vinte contra a Constituição de Cádiz. Os historiadores discutem o quanto há de verdade nisso."
+    },
+    "guion_largo": {
+      "hash": "9880ef4e65dca0c1",
+      "texto": "Para entender o nome, é preciso começar pelos jesuítas. A Companhia de Jesus chegou à Cidade do México no final do século dezesseis e estabeleceu aqui uma casa professa. Era a residência de sacerdotes que, além dos votos habituais, faziam um quarto voto de obediência especial ao Papa. Daí vem o nome popular de La Profesa. O primeiro templo foi inaugurado neste lugar em mil seiscentos e dez.\n\nO edifício que você vê é posterior. O templo anterior havia se deteriorado, e por isso foi erguido um novo. Quem o projetou e construiu foi o arquiteto Pedro de Arrieta. Ele começou a trabalhar no projeto em mil setecentos e catorze, e a obra ficou pronta em mil setecentos e vinte, com a dedicação uma semana depois.\n\nEm mil setecentos e sessenta e sete, a Coroa espanhola expulsou os jesuítas de seus domínios. O edifício passou então à Congregação do Oratório de São Filipe Néri, cujos membros são conhecidos como filipenses. Por isso o nome oficial é oratório de São Filipe Néri. No início do século dezenove, os padres filipenses encarregaram Manuel Tolsá de renovar o interior em estilo neoclássico, com um novo altar-mor.\n\nLa Profesa é famosa por uma conspiração. A tradição conta que, em mil oitocentos e vinte, reuniu-se aqui um grupo de partidários do absolutismo. Eles rejeitavam a Constituição de Cádiz, restabelecida naquele ano. Teriam planejado uma independência que conservasse seus privilégios, e Agustín de Iturbide teria servido a esse plano. Assim, este templo se liga à história do palácio de Iturbide, que você acabou de ver.\n\nAqui é preciso ter cuidado. Os historiadores chamam essa conspiração de suposta, quase mítica. A abundante documentação da época não confirma nem nega de maneira categórica que ela tenha existido. Alguns pensam que as reuniões nunca aconteceram. Outros, que tiveram sucesso e por isso não deixaram rastros. O historiador Jaime del Arenal sustenta, na revista Historia Mexicana, que o Plano de Iguala foi um projeto distinto. Não seria obra desse grupo. Em resumo, o que se sabe é pouco. E o que se conta como certo, que La Profesa decidiu a Independência, é uma tese que vários historiadores questionam.\n\nO templo foi declarado monumento nacional em mil novecentos e trinta e dois e abriga uma importante pinacoteca de arte vice-reinal. Sofreu danos no terremoto de setembro de dois mil e dezessete, por isso convém verificar se está aberto antes de se aproximar. Se decidir entrar, faça-o em horário de culto e com o respeito que um lugar de oração pede.\n\nDa rua você pode ver sua portada barroca sobre a rua Isabel la Católica e sua silhueta entre edifícios mais recentes. É um bom exemplo de como o Centro Histórico reúne séculos distintos numa mesma esquina.\n\nA um passo daqui, o Museu do Estanquillo ocupa outro edifício com história própria, que contaremos a você na próxima parada."
+    },
+    "retos_observacion": {
+      "hash": "a6abaeef5afb03e6",
+      "texto": [
+        "Procure a portada barroca do templo na rua Isabel la Católica",
+        "Localize a esquina onde se cruzam Madero e Isabel la Católica",
+        "Compare a altura do templo com os edifícios comerciais que o cercam"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3d371c02e9e90dd7",
+      "texto": {
+        "Época": "Primeiro templo de 1610; edifício atual construído entre 1714 e 1720",
+        "Autor": "Pedro de Arrieta (edifício); Manuel Tolsá (interior neoclássico)",
+        "Estilo": "Barroco, com interior neoclássico",
+        "Localização": "Isabel la Católica 21, esquina com Madero",
+        "Dado-chave": "Após a expulsão dos jesuítas em 1767, passou ao Oratório de São Filipe Néri"
+      }
+    },
+    "faq_mito": {
+      "hash": "1e98a05f7999199f",
+      "texto": {
+        "pregunta": "Mito: Em La Profesa foi tramada a Independência do México para conservar privilégios, e dali saiu o plano de Iturbide.",
+        "respuesta": "Realidade: A chamada Conspiração de La Profesa é uma tradição. Os historiadores a consideram suposta, porque a documentação da época não confirma nem nega que tenha existido, e há quem sustente que o Plano de Iguala não foi obra desse grupo."
+      }
+    }
+  }
+}

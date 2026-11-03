@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_42_palacio_autonomia",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "85ee471721763756",
+      "texto": "Palácio da Autonomia Universitária"
+    },
+    "frase_gancho": {
+      "hash": "0e26312021aa71d8",
+      "texto": "Neste edifício foi declarada a autonomia da universidade em mil novecentos e vinte e nove, sobre terrenos que foram convento e espaço sagrado mexica."
+    },
+    "puente_narrativo": {
+      "hash": "fb665259b4c47993",
+      "texto": "Siga em direção à [Praça de Santo Domingo](cdmx_43_plaza_santo_domingo), onde o percurso continua entre arcadas, templos e escolas."
+    },
+    "como_llegar": {
+      "hash": "1d56f61e478bd9c7",
+      "texto": "Siga alguns passos pela mesma rua até o [Palácio da Autonomia Universitária](cdmx_42_palacio_autonomia), no número dois, que pertenceu ao mesmo conjunto conventual."
+    },
+    "guion_corto": {
+      "hash": "48484bc6a7821275",
+      "texto": "Parece um edifício escolar do início do século vinte, mas conserva restos de um convento do século dezessete. Parte do terreno fazia parte do espaço sagrado de Tenochtitlan. Depois, esteve aqui o convento de Santa Teresa a Antiga, das carmelitas descalças. Após as Leis da Reforma, o terreno passou para o governo e foi quartel e cortiço. Na época porfiriana, foi construído o edifício atual, de estilo eclético, e em mil novecentos e dez foi instalada a Escola Nacional do Professor. Em mil novecentos e vinte e nove foi declarada aqui a autonomia da Universidade Nacional. Hoje funciona como museu universitário e tem três janelas arqueológicas, abertas pelo Programa de Arqueologia Urbana do INAH."
+    },
+    "guion_largo": {
+      "hash": "3837f861d214647b",
+      "texto": "Este edifício tem três vidas sobrepostas. A mais antiga pertence à cidade mexica, pois parte deste terreno ficava dentro do espaço sagrado de Tenochtitlan. Hoje é o Museu da Autonomia Universitária, e sua história é percorrida de baixo para cima: primeiro o solo mexica, depois o convento e, por fim, a universidade. Após a Conquista, o terreno passou para Juan Luis de Rivera, vereador da Câmara Municipal e tesoureiro da Casa da Moeda. Depois, tornou-se parte do convento de Santa Teresa a Antiga.\n\nO convento foi estabelecido no início do século dezessete, e o INAH indica a data de mil seiscentos e quinze. Ali viveram carmelitas descalças. Na atual rua Licenciado Verdad ainda se conserva a igreja do convento, hoje [Ex Teresa Arte Actual](cdmx_41_ex_teresa). Durante a Guerra da Reforma, a Igreja perdeu a propriedade, e o conjunto foi quartel e depois cortiço.\n\nNa época de Porfirio Díaz, o governo federal adquiriu o terreno para instalar uma escola normal de professores, e foi erguido o edifício atual, de estilo eclético. Em mil novecentos e dez foi instalada a Escola Nacional do Professor, parte da Universidade Nacional do México. Nesse mesmo ano foi inaugurada a Universidade Nacional, antecessora direta da UNAM.\n\nDepois vem o episódio que dá nome ao palácio. Em maio de mil novecentos e vinte e nove, os estudantes declararam greve. Protestavam contra mudanças nos exames da Escola de Direito e no plano da Preparatória. O presidente interino Emilio Portes Gil promulgou a Lei Orgânica da universidade em dez de julho daquele ano. Ignacio García Téllez foi designado reitor em onze de julho. Foi uma greve de estudantes que terminou em uma lei. A autonomia foi declarada no primeiro andar deste edifício.\n\nMais tarde, o imóvel abrigou outras escolas universitárias. Estiveram aqui a Escola de Iniciação Universitária, a de Comércio e Administração, a de Odontologia e a de Enfermagem. Também a Preparatória número dois, que continuou aqui até mil novecentos e setenta e oito.\n\nEntre mil novecentos e noventa e oito e dois mil, o Programa de Arqueologia Urbana do INAH deixou três janelas arqueológicas. A segunda e a terceira mostram restos do antigo convento de Santa Teresa a Antiga. A terceira funciona como jardim arqueológico. Conserva dois pórticos, uma escadaria com azulejos de fins do século dezessete e início do dezoito, e os restos de um tanque circular.\n\nHoje o edifício é o Museu da Autonomia Universitária. Exibe documentos da autonomia, tem um salão dedicado à odontologia mexicana, uma sala arqueológica e outra para exposições temporárias. Consulte os horários vigentes e as visitas guiadas antes de ir.\n\nAqui o Centro Histórico se torna uma lição de camadas. Um recinto sagrado mexica, um convento barroco, uma escola porfiriana e uma universidade autônoma compartilham o mesmo solo. Pense nessa sequência ao seguir em direção à [Praça de Santo Domingo](cdmx_43_plaza_santo_domingo)."
+    },
+    "retos_observacion": {
+      "hash": "305157d87d8929e9",
+      "texto": [
+        "Procure a entrada do museu, no número dois da rua Primo de Verdad",
+        "Observe o estilo da fachada, do início do século vinte, e compare-o com o templo próximo",
+        "Identifique algum letreiro ou placa que mencione a autonomia universitária"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0b33e89f5be0329f",
+      "texto": {
+        "Época": "convento do século XVII; edifício atual da época porfiriana",
+        "Estilo": "eclético",
+        "Uso atual": "Museu da Autonomia Universitária, UNAM",
+        "Fato-chave": "em 1929 foi declarada aqui a autonomia da Universidade Nacional",
+        "Janelas arqueológicas": "três, do Programa de Arqueologia Urbana, entre 1998 e 2000",
+        "Localização": "Licenciado Primo de Verdad 2, Centro Histórico"
+      }
+    },
+    "faq_mito": {
+      "hash": "d7b05104222f4b68",
+      "texto": {
+        "pregunta": "Mito: A universidade nacional foi autônoma desde a sua fundação.",
+        "respuesta": "Realidade: A Universidade Nacional foi inaugurada em mil novecentos e dez e a autonomia chegou em mil novecentos e vinte e nove, quando a Lei Orgânica foi promulgada em dez de julho, após uma greve estudantil."
+      }
+    }
+  }
+}

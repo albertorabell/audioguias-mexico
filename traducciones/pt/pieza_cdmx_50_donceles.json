@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_50_donceles",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d0c2156672443700",
+      "texto": "Rua Donceles e seus sebos, encerramento do percurso"
+    },
+    "frase_gancho": {
+      "hash": "d742f95c4709d22e",
+      "texto": "Ninguém sabe ao certo por que esta rua se chama Donceles, mas todos sabem que aqui se venderam livros por gerações."
+    },
+    "puente_narrativo": {
+      "hash": "8ab9e0718d513c92",
+      "texto": "Aqui termina o percurso. Siga por Donceles até o Eje Central e, se ainda tiver fôlego, volte com calma em direção ao [Belas Artes](cdmx_01_bellas_artes), onde tudo começou."
+    },
+    "como_llegar": {
+      "hash": "b9f1be6ccfdd69cf",
+      "texto": "Siga por Donceles em direção ao Eje Central, até onde começam os sebos da [rua Donceles](cdmx_50_donceles)."
+    },
+    "guion_corto": {
+      "hash": "5f10366b6e654bb7",
+      "texto": "Donceles. Por que se chama assim? Ninguém sabe ao certo. Uma versão diz que o nome vem dos jovens nobres, os donceles, que passeavam por aqui enquanto as damas os observavam das sacadas. Outra conta que esta foi uma das primeiras ruas traçadas na cidade, por volta de mil quinhentos e vinte e quatro. A rua teve outros nomes, como Canoa e Cordobanes. E em mil novecentos e sessenta e oito abriu-se, no número setenta e nove, a Librería Selecta, o primeiro sebo desta rua. Desde então, e com o passar do tempo, Donceles tornou-se sinônimo de livros usados. Hoje convivem aqui livrarias, teatros, edifícios históricos e muita memória da cidade, e por isso este é um bom final para o percurso."
+    },
+    "guion_largo": {
+      "hash": "28f43e8aae9e9343",
+      "texto": "Antes de nos despedirmos, dedique alguns minutos a esta rua. Parece uma rua qualquer, mas guarda várias camadas da cidade.\n\nComecemos pelo nome. Donceles vem de doncel, que no espanhol antigo é um jovem nobre que ainda não foi armado cavaleiro. Também podia ser um pajem da corte. Contam-se duas versões. Uma diz que era uma das primeiras ruas traçadas na Nova Espanha, por volta de mil quinhentos e vinte e quatro. Ali, segundo a lenda, os jovens nobres construíram casas elegantes. Outra conta que os rapazes endinheirados passeavam para que as damas os admirassem das sacadas. São versões, não fatos comprovados.\n\nO que consta, sim, é que a rua se dividia em quatro trechos, com nomes diferentes. Chamaram-se Puerta Falsa de San Andrés, Canoa, Donceles e Cordobanes. Na rua chamada Cordobanes ficava o convento e colégio da Companhia de Maria, que você acabou de conhecer no [Templo de la Enseñanza](cdmx_48_templo_ensenanza). Hoje a rua vai do Eje Central até República de Argentina, onde se transforma em Justo Sierra e chega a [San Ildefonso](cdmx_47_san_ildefonso).\n\nNo século vinte, Donceles teve muita vida pública. Ali funcionou a Câmara dos Deputados, que hoje é a Assembleia Legislativa. Também estiveram aqui a livraria Porrúa, o Colégio Nacional e teatros populares como o Fru Fru. O romancista Carlos Fuentes situou nesta rua o seu personagem do romance Aura.\n\nE continua de pé o Teatro de la Ciudad Esperanza Iris, no número trinta e seis. Foi financiado pela própria cantora, conhecida como a Rainha da Opereta, e projetado pelos arquitetos Federico Mariscal e Ignacio Capetillo y Servín. Abriu em vinte e cinco de maio de mil novecentos e dezoito, com a presença do presidente Venustiano Carranza. Um incêndio quase o destruiu em mil novecentos e oitenta e quatro, e ele reabriu em mil novecentos e noventa e nove.\n\nE há, claro, os livros. Nos anos trinta, o livreiro Nicolás López Casillas comprava livros usados em grandes lotes. Revendia-os nos fins de semana em Tepito e La Lagunilla. Sua família abriu em mil novecentos e sessenta e oito a Librería Selecta, no número setenta e nove de Donceles. Foi o primeiro sebo da rua e, com o tempo, a família abriu outros. O lugar já serviu de cenário para o cinema. Um exemplo é O beco dos milagres, filme de Jorge Fons de mil novecentos e noventa e cinco.\n\nOutra livraria famosa é La Regia, no número quarenta e oito. Ela se gaba de ter mais de um milhão de exemplares. Não é uma cifra auditada, mas dá uma ideia do tamanho desse mundo de papel.\n\nTambém é preciso dizer que a rua muda. Alguns livreiros contam que no último ano fecharam cerca de cinco livrarias. Atribuem esses fechamentos ao aumento dos aluguéis, à pandemia, ao comércio pela internet e à queda no número de visitantes. Os livreiros que continuam abertos procuram se adaptar com catálogos especializados e vendas on-line.\n\nE agora, olhe para trás. Você começou este percurso diante do [Palácio de Belas Artes](cdmx_01_bellas_artes) e atravessou a Alameda. Seguiu por Madero até o [Zócalo](cdmx_25_zocalo). Espiou o mundo mexica no [Templo Mayor](cdmx_34_templo_mayor), percorreu Moneda e Santo Domingo, e terminou entre colégios, museus e livros. Em dois dias, você caminhou por muitos séculos da cidade. Obrigado por percorrê-la conosco."
+    },
+    "retos_observacion": {
+      "hash": "8bb694ef007bc83d",
+      "texto": [
+        "Conte quantas livrarias com livros do lado de fora você consegue ver em um quarteirão",
+        "Procure o número setenta e nove da rua, onde ficou o primeiro sebo",
+        "Ao se aproximar do Eje Central, procure a fachada do Teatro de la Ciudad Esperanza Iris, no número trinta e seis"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fd337569964fca06",
+      "texto": {
+        "Época": "traçada por volta de 1524, segundo a tradição; nomes antigos Canoa, Cordobanes e Puerta Falsa de San Andrés",
+        "Localização": "do Eje Central a República de Argentina, onde continua como Justo Sierra",
+        "Dado-chave": "primeiro sebo, Librería Selecta, Donceles 79, em 1968",
+        "Livraria citada": "La Regia, Donceles 48, com mais de um milhão de exemplares, segundo a imprensa",
+        "Edifícios": "Teatro de la Ciudad Esperanza Iris (Donceles 36, inaugurado em 25 de maio de 1918), antiga Câmara dos Deputados",
+        "Literatura": "Aura, de Carlos Fuentes"
+      }
+    },
+    "faq_mito": {
+      "hash": "9001a56bc71c001f",
+      "texto": {
+        "pregunta": "Mito: A rua se chama Donceles por causa das donzelas que moravam aqui.",
+        "respuesta": "Realidade: Doncel é um jovem nobre que ainda não era cavaleiro. A origem do nome é incerta e há apenas versões: uma diz que os jovens passeavam para serem vistos das sacadas."
+      }
+    }
+  }
+}

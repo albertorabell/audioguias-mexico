@@ -1,0 +1,67 @@
+{
+  "id": "cdmx_11_palacio_mineria",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"El Castillo\" para \"El Castillo\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "ddd5ffea7c5fed05",
+      "texto": "Palácio de Mineração, a grande obra de Tolsá"
+    },
+    "frase_gancho": {
+      "hash": "a540c99e57fd99d1",
+      "texto": "Foi erguido para formar engenheiros de minas, e o INAH o chama de o exemplo mais destacado do neoclássico no México."
+    },
+    "puente_narrativo": {
+      "hash": "3eb62ba8e3ce97ca",
+      "texto": "Atravesse a rua de Tacuba em direção ao Museu Nacional de Arte, o MUNAL, o edifício em frente que olha para esta praça."
+    },
+    "como_llegar": {
+      "hash": "adc1cf509d0f1616",
+      "texto": "Atravesse a rua de Tacuba em direção ao Palácio de Mineração, o edifício neoclássico de colunas que fica em frente, voltado para esta praça."
+    },
+    "guion_corto": {
+      "hash": "d1e3ae1983841102",
+      "texto": "Para que se constrói um palácio dedicado às pedras? Para ensinar mineração, uma atividade que era a base da economia da Nova Espanha. Este edifício foi a sede do Real Seminário de Mineração. Foi projetado e dirigido por Manuel Tolsá, e as obras duraram de mil setecentos e noventa e sete até mil oitocentos e treze. Olhe o pórtico central, com colunas dóricas e um frontão triangular. É a imagem do estilo neoclássico, que busca ordem, simetria e sobriedade. O INAH o considera o exemplo mais destacado desse estilo no México. Hoje está sob os cuidados da UNAM, que o abre para conferências, cursos e atividades culturais."
+    },
+    "guion_largo": {
+      "hash": "6c935029fd1c9cfb",
+      "texto": "O Palácio de Mineração nasceu de uma ideia prática. A mineração era o sustento econômico da Nova Espanha, e eram necessárias pessoas preparadas para dirigi-la. Por isso, no final do século dezoito foi fundado o Real Seminário de Mineração, ligado ao Tribunal de Mineração. Em mil setecentos e noventa e três foi comprado o terreno onde você está hoje.\n\nAs obras começaram em vinte e dois de março de mil setecentos e noventa e sete, sob a direção de Manuel Tolsá. Foram dadas por concluídas em três de abril de mil oitocentos e treze. Foram quase dezesseis anos de trabalho. Tolsá tinha nascido em Valência e se formou como escultor, mas na Nova Espanha trabalhou também como arquiteto.\n\nO edifício tem três níveis e três fachadas em torno de um pátio central. Seus muros são de pedra, e também é de pedra sua escada em forma de U. Na fachada principal se destaca o pórtico central, com colunas dóricas. No andar superior há uma capela dedicada à Virgem de Guadalupe, com pinturas de Rafael Ximeno y Planes, com quem Tolsá colaborou.\n\nMas a história deste palácio não foi tranquila. Mal terminado, começou a afundar, pela fragilidade do terreno do antigo lago. Em mil oitocentos e treze, Fausto de Elhuyar, diretor do Colégio, emitiu um relatório sobre as rachaduras. Nesse mesmo ano o próprio Tolsá reconheceu que a escada tinha afundado mais de sessenta centímetros. Houve reparos. Em mil oitocentos e trinta chegou-se a propor demolir o edifício, mas entre esse ano e mil oitocentos e quarenta e dois o arquiteto francês Antonio Villard o reconstruiu sem mudar sua forma.\n\nPor tudo isso, hoje o palácio pode ser visto como uma obra de muitas mãos. Ainda assim, conserva a forma que Tolsá lhe deu.\n\nHouve também um episódio imperial. Por volta de mil oitocentos e sessenta e cinco pensou-se neste palácio como residência para Maximiliano de Habsburgo, mas o imperador escolheu o Castelo de Chapultepec. Desde mil oitocentos e sessenta e sete e até mil novecentos e cinquenta e quatro o edifício abrigou a Escola Especial de Engenheiros, até que a faculdade se mudou para a Cidade Universitária. Em mil novecentos e trinta e um foi declarado Monumento Histórico.\n\nEntre suas salas de aula aconteceu uma história científica. Andrés Manuel del Río ensinava mineralogia aqui desde mil setecentos e noventa e cinco. Em mil oitocentos e um analisou um mineral de Zimapán, o chamado chumbo pardo, e propôs para o novo elemento o nome de eritrônio, pela cor vermelha de seus sais. Mais tarde um químico francês concluiu que se tratava de cromo, e del Río aceitou o resultado. Anos depois, em mil oitocentos e trinta, o sueco Nils Sefström encontrou o elemento e o chamou de vanádio. A história da ciência reconhece hoje o trabalho de del Río.\n\nNo vestíbulo são conservados quatro meteoritos que caíram em território mexicano. E hoje o palácio segue vivo, com conferências, cursos e a Feira Internacional do Livro do Palácio de Mineração.\n\nEste trecho é percorrido livremente a partir da rua. Algumas visitas guiadas ao interior são pagas e têm horários que mudam, por isso convém consultá-los antes.\n\nTolsá também aparece na história de outros lugares que você verá. Participou da etapa final da [Catedral Metropolitana](cdmx_27_catedral). E o Caballito dele você já viu na praça."
+    },
+    "retos_observacion": {
+      "hash": "3597f1a51d2a4f14",
+      "texto": [
+        "Conte as colunas do pórtico central e procure o frontão triangular que as arremata",
+        "Confira a simetria da fachada: trace com o olhar uma linha que a divida em duas metades iguais",
+        "Localize daqui El Caballito, obra do mesmo autor deste palácio"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ec507f99340d8f6c",
+      "texto": {
+        "Época": "Obras de 22 de março de 1797 a 3 de abril de 1813",
+        "Arquitecto": "Manuel Tolsá",
+        "Estilo": "Neoclássico",
+        "Uso original": "Real Seminário de Mineração",
+        "Localização": "Rua de Tacuba, em frente à Praça Manuel Tolsá",
+        "Estatus": "Monumento Histórico declarado em 9 de fevereiro de 1931"
+      }
+    },
+    "faq_mito": {
+      "hash": "e5e07e58fbb2c44f",
+      "texto": {
+        "pregunta": "Mito: O Palácio de Mineração foi feito para o imperador Maximiliano.",
+        "respuesta": "Realidade: Foi construído entre 1797 e 1813 para o Real Seminário de Mineração; por volta de 1865 foi considerado como residência imperial, mas Maximiliano escolheu o Castelo de Chapultepec."
+      }
+    }
+  }
+}

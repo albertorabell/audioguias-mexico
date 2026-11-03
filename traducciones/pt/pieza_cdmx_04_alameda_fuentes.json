@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_04_alameda_fuentes",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "c7ca97acaa946faa",
+      "texto": "Fontes da Alameda: mitologia a céu aberto"
+    },
+    "frase_gancho": {
+      "hash": "81fd9554df017a46",
+      "texto": "Netuno, Vênus e as Danaides são obra de escultores franceses do século dezenove, e hoje enfeitam um parque da Cidade do México."
+    },
+    "puente_narrativo": {
+      "hash": "8d76e9a0c25016af",
+      "texto": "Siga em direção à borda sul do parque, a que dá para a avenida Juárez. Ali espera por você um monumento de mármore com colunas."
+    },
+    "como_llegar": {
+      "hash": "dcaa4fd3ebd2729b",
+      "texto": "Siga os caminhos em direção ao interior do parque. Entre as árvores aparecem as primeiras fontes, e cada uma traz a sua própria história."
+    },
+    "guion_corto": {
+      "hash": "659f98b46d9d4969",
+      "texto": "Procure o deus romano do mar. É a fonte de Netuno, obra do escultor francês Dubray e fundida pela casa Val d’Osne. Está na Alameda desde mil oitocentos e oitenta e nove. Não está sozinha. Pelos caminhos há fontes com Vênus, com Mercúrio, com as Danaides e com uma figura da Primavera, várias delas de escultores franceses. À fonte das Danaides, as pessoas chamam As Comadres ou As Aguadeiras. Também há um monumento a Beethoven, presente da colônia alemã em mil novecentos e vinte e um. Entre uma peça e outra, a Alameda se transforma num museu de escultura ao ar livre."
+    },
+    "guion_largo": {
+      "hash": "112263562f93bebf",
+      "texto": "Se você percorrer a Alameda com calma, verá que quase toda fonte tem um autor com nome e sobrenome. Várias peças mudaram de lugar com as reformas, então talvez você as encontre em lugares diferentes dos que imagina.\n\nComecemos por Netuno. É o deus romano do mar, e esta fonte é obra do escultor francês Dubray. Foi fundida pela casa Val d’Osne, uma fundição francesa. Está na Alameda desde mil oitocentos e oitenta e nove, ou seja, faz mais de um século e um quarto que preside o parque. Repare em como a figura domina o centro da fonte.\n\nA fonte de Vênus e Zéfiros é do escultor francês Mathurin Moreau. A das Danaides, de Albert Carrier-Belleuse, é conhecida entre os moradores como As Comadres ou As Aguadeiras. As Danaides são figuras da mitologia grega: as filhas do rei Dânao, condenadas no mundo subterrâneo a encher um recipiente quebrado. Por isso aparecem carregando água, e por isso a figura se encaixa tão bem numa fonte. Os Zéfiros, por sua vez, são os ventos suaves do poente, e acompanham Vênus em sua fonte.\n\nA fonte da Primavera é obra de Louis Sauvageau e mostra uma mulher que leva um cântaro. A fonte de Mercúrio, o mensageiro dos deuses romanos, se inspira na obra do mestre renascentista Giambologna. E a fonte das Américas, de Hubert Lavigne, mostra uma mulher sobre um pedestal de prato duplo, rodeado de bancos circulares.\n\nHá também monumentos de outro tipo. Um é o de Beethoven, um presente da colônia alemã em mil novecentos e vinte e um. Outro é uma réplica de Malgré tout, que em francês significa apesar de tudo. É uma obra de mil oitocentos e noventa e oito do escultor mexicano Jesús F. Contreras.\n\nAs peças deste parque tiveram uma vida difícil. Entre mil novecentos e setenta e três e mil novecentos e oitenta e três foram reparadas fontes, e várias esculturas de mármore foram substituídas por réplicas. Em dois mil e doze houve outra reabilitação. Por isso, o que você vê hoje é uma mistura de originais, restaurações e cópias, e vale a pena prestar atenção aos detalhes de cada uma.\n\nTudo isso tem uma razão de ser. No século dezenove, as esculturas vice-reais do parque foram substituídas por obras novas, e várias foram encomendadas à França. Por isso percorrer a Alameda é também espiar os gostos de uma época, a das fontes europeias nos jardins públicos das capitais. E como cada peça tem a sua história, não é preciso vê-las todas. Basta você se deter em duas ou três, e já terá visto o essencial.\n\nEm breve você chegará ao Hemiciclo a Juárez, outra obra de mármore de origem italiana, já do século vinte. Mas antes, fique um momento entre as fontes e pense em quantas mãos e países participaram de um único parque da capital."
+    },
+    "retos_observacion": {
+      "hash": "0b268df5d0bfcc70",
+      "texto": [
+        "Procure a fonte de Netuno, o deus romano do mar",
+        "Encontre uma fonte com uma mulher sobre um pedestal de prato duplo, rodeada de bancos circulares: é a fonte das Américas",
+        "Localize o monumento a Beethoven e repare no seu pedestal"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f89abf594595100c",
+      "texto": {
+        "Época": "fontes do século XIX; Beethoven, 1921",
+        "Autores": "Dubray, Mathurin Moreau, Albert Carrier-Belleuse, Louis Sauvageau, Hubert Lavigne",
+        "Estilo": "escultura europeia oitocentista",
+        "Localização": "caminhos interiores da Alameda Central",
+        "Dado-chave": "Netuno está na Alameda desde 1889"
+      }
+    },
+    "faq_mito": {
+      "hash": "b326dfc2d519b616",
+      "texto": {
+        "pregunta": "Mito: A fonte de Vênus foi um presente de Maximiliano e Carlota.",
+        "respuesta": "Realidade: Conta-se que foi doada em 1886, mas Maximiliano foi fuzilado em 1867, então essa data não pode ser verdadeira. O certo é que a fonte é obra do escultor francês Mathurin Moreau."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_26_zocalo_memoria",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "2e9bb63d71fc9543",
+      "texto": "O Zócalo como praça da memória: Grito, protestos e 1968"
+    },
+    "frase_gancho": {
+      "hash": "8665cc986bde78c5",
+      "texto": "Esta praça serviu para festejar, para protestar e para recordar, e cada geração a enxerga de forma diferente."
+    },
+    "puente_narrativo": {
+      "hash": "46c7aa396dbe8979",
+      "texto": "Caminhe até o lado norte da praça, onde se ergue a fachada da Catedral, a próxima parada."
+    },
+    "como_llegar": {
+      "hash": "02ab666f13961fab",
+      "texto": "Caminhe devagar até o centro da praça e fique aí por um momento, porque a história recente também passou por este lugar."
+    },
+    "guion_corto": {
+      "hash": "86e4f0105c2ea8ff",
+      "texto": "Na tarde de vinte e sete de agosto de mil novecentos e sessenta e oito, esta praça se encheu de estudantes e de gente que os acompanhava. Os sinos da Catedral tocaram. Era um comício do movimento estudantil. De madrugada, o Exército entrou e desocupou o Zócalo. Mais de um mês depois, em dois de outubro, aconteceu o massacre de Tlatelolco. Não foi aqui, e sim na Praça das Três Culturas. A praça sempre foi um palco compartilhado. Todo dia quinze de setembro ela se enche para o Grito da Independência, e em outras datas recebe marchas e celebrações muito diferentes. Por isso se diz que o Zócalo é um lugar de memória."
+    },
+    "guion_largo": {
+      "hash": "b82a3b2db549ac2b",
+      "texto": "O Zócalo não é apenas um espaço aberto. É o lugar onde muita gente se reúne para celebrar, para reclamar e para recordar, e por isso as memórias que ele guarda nem sempre coincidem. Aqui eu conto algumas delas, com fatos documentados e sem tomar partido.\n\nComecemos por uma festa. As celebrações da Independência eram feitas em espaços fechados até mil oitocentos e oitenta e seis. Naquele ano, propôs-se fazê-las a partir da sacada do Palácio Nacional. Porfirio Díaz presidiu o ato. Em mil oitocentos e noventa e seis, o Sino de Dolores chegou à capital, e desde então faz parte da cerimônia. Todo dia quinze de setembro a praça se enche para o Grito.\n\nAgora, mil novecientos e sessenta e oito. Foi o ano do movimento estudantil, e o Zócalo viveu dois dias decisivos. Em vinte e sete de agosto, uma marcha saiu do Museu Nacional de Antropologia e chegou a esta praça. As estimativas de participantes vão de cerca de trinta mil pessoas a centenas de milhares, e não há um número que todos aceitem. No comício, foi colocada uma bandeira rubro-negra, símbolo das greves, e os sinos da Catedral repicaram a todo o vigor. Entre três mil e cinco mil estudantes ficaram para acampar na praça.\n\nDe madrugada, já em vinte e oito de agosto, dos alto-falantes do Palácio Nacional foi dado um prazo de cinco minutos para deixar a praça. Depois o Exército entrou com veículos blindados e soldados, e desocupou o Zócalo. Os estudantes saíram pela rua Madero cantando o hino nacional.\n\nEm primeiro de setembro, em seu informe de governo, o presidente Gustavo Díaz Ordaz falou da atitude do governo. Disse que tinha sido tolerante até excessos criticáveis. Cinco semanas depois, em dois de outubro, aconteceu o que muitas pessoas associam àquele ano: o massacre de Tlatelolco. Aqui convém ser claro. Naquele dia o comício foi em Tlatelolco, não no Zócalo. Os números de vítimas continuam em discussão. A versão oficial falou de trinta mortos, a embaixada dos Estados Unidos relatou entre cento e cinquenta e duzentos, e alguns relatos chegam a trezentos e cinquenta.\n\nA praça também guarda a memória de outros golpes. O terremoto de mil novecientos e oitenta e cinco danificou gravemente o edifício do Governo da Cidade. Por dentro ainda se veem reforços de aço.\n\nQuem caminha hoje por aqui pisa em um lugar onde se misturam as lembranças de festas, de lutos e de reivindicações, e todas fazem parte da mesma história da cidade.\n\nE a praça continua em uso. Recebe shows, feiras, comícios e marchas de causas muito diversas, e por isso às vezes você a encontra com palcos, grades ou tablados. Pense nisso enquanto olha ao seu redor: o mesmo piso já sustentou festas, greves, desfiles e silêncios. Recordar o que aconteceu aqui não é tomar partido. É entender por que cada geração enxerga esta praça de outra maneira."
+    },
+    "retos_observacion": {
+      "hash": "c7d35ee73ed512b9",
+      "texto": [
+        "Procure a sacada central do Palácio Nacional, de onde se dá o Grito todo dia quinze de setembro",
+        "Localize, no lado oeste da praça, a entrada da rua Madero, por onde os estudantes saíram na madrugada de vinte e oito de agosto",
+        "Levante o olhar para as torres da Catedral, onde ficavam os sinos que tocaram naquela tarde"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0aeab27729f1a73f",
+      "texto": {
+        "Época": "séculos dezenove a vinte e um",
+        "Lugar": "Praça da Constituição, Centro Histórico",
+        "Hechos de 1968 en la plaza": "marcha e comício de 27 de agosto, desocupação pelo Exército em 28 de agosto",
+        "Tlatelolco": "2 de outubro de 1968, na Praça das Três Culturas, não no Zócalo",
+        "Tradición del Grito": "o Sino de Dolores chegou à capital em 1896"
+      }
+    },
+    "faq_mito": {
+      "hash": "00db5e0d722822d0",
+      "texto": {
+        "pregunta": "Mito: O massacre de dois de outubro de mil novecientos e sessenta e oito aconteceu no Zócalo.",
+        "respuesta": "Realidade: Aconteceu na Praça das Três Culturas, em Tlatelolco. Os fatos do Zócalo em 1968 foram o comício de vinte e sete de agosto e a desocupação de vinte e oito."
+      }
+    }
+  }
+}

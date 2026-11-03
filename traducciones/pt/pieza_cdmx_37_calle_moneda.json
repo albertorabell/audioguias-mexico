@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_37_calle_moneda",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "dc5fd4a8e328b316",
+      "texto": "Rua da Moeda: o quarteirão dos museus"
+    },
+    "frase_gancho": {
+      "hash": "3a6e927c7e2f85ba",
+      "texto": "Ao lado do Palácio Nacional, uma única rua reúne um palácio de arcebispos, uma casa da moeda, uma imprensa e vários conventos."
+    },
+    "puente_narrativo": {
+      "hash": "4617ef355a9a3503",
+      "texto": "Siga pela Rua da Moeda até o número quatro, onde um antigo palácio de arcebispos guarda hoje arte. É o [Museu de Arte da SHCP](cdmx_38_museo_shcp)."
+    },
+    "como_llegar": {
+      "hash": "7e43f3d2b22e2c4e",
+      "texto": "Siga em direção à [rua da Moeda](cdmx_37_calle_moneda), ao lado do [Palácio Nacional](cdmx_29_palacio_nacional). Ali começa um quarteirão de museus e edifícios da época do vice-reino, com muitas camadas de história."
+    },
+    "guion_corto": {
+      "hash": "1d4d0dd373c5f4d1",
+      "texto": "Uma rua que se chama como o dinheiro. A rua da Moeda deve seu nome à Real Casa da Moeda, o edifício onde se cunhava a moeda da Nova Espanha. Mas este quarteirão, que nasce entre a Catedral e o Palácio Nacional, guarda muito mais do que moedas. Houve aqui um palácio de arcebispos, e a poucos passos se instalou a primeira imprensa da América. Perto há um convento onde Sóror Juana passou alguns meses. Hoje vários desses edifícios são museus, e vamos visitá-los um por um. O trecho é curto, mas cada número esconde uma história diferente. Esta rua é a porta de entrada de um pequeno bairro de história."
+    },
+    "guion_largo": {
+      "hash": "fa327954c4eae698",
+      "texto": "A Moeda é uma dessas ruas curtas com muita memória. Ela nasce entre a Catedral e o Palácio Nacional, na esquina com a Seminário, e avança em direção ao leste. Nessa primeira esquina funcionou a primeira universidade da América, e depois uma cantina. Seu nome vem da Real Casa da Moeda, que hoje é o [Museu Nacional das Culturas do Mundo](cdmx_39_culturas_mundo). A história desse edifício e do seu terreno nós contamos na parada dele.\n\nVeja como os poderes do vice-reino conviviam aqui. Ao lado está o [Palácio Nacional](cdmx_29_palacio_nacional), sede do governo. No número quatro ficava o palácio dos arcebispos, hoje [Museu de Arte da SHCP](cdmx_38_museo_shcp). E no número treze, a casa onde se cunhava a moeda. A Igreja, o governo e o dinheiro ocuparam edifícios vizinhos, no mesmo quarteirão.\n\nA poucos passos, na esquina com a Primo de Verdad, instalou-se a primeira imprensa da América. Sua prensa chegou em mil quinhentos e trinta e nove, impulsionada por frei Juan de Zumárraga e pelo vice-rei Antonio de Mendoza. Quando você chegar à [Casa da Primeira Imprensa da América](cdmx_40_primera_imprenta), verá por que uma placa traz outra data.\n\nMuito perto começam os conventos. O de Santa Teresa, a Antiga, das carmelitas descalças, hoje se divide entre o [Ex Teresa Arte Atual](cdmx_41_ex_teresa) e o [Palácio da Autonomia](cdmx_42_palacio_autonomia). Sóror Juana Inés de la Cruz ingressou entre as carmelitas em mil seiscentos e sessenta e sete. Saiu poucos meses depois, por problemas de saúde.\n\nA ordem das paradas tem um pequeno vaivém. Primeiro você verá o número quatro, depois o treze, que fica mais a leste, e então voltará alguns passos até a esquina da Primo de Verdad, onde se agrupam a imprensa e os conventos. É meio quarteirão, e vale a pena pelo que cada edifício conta. Enquanto você avança, a história vai do mundo mexica ao vice-reino e dali à república: primeiro o terreno de Moctezuma, depois os arcebispos e a imprensa, e por fim os museus de hoje.\n\nPerto da esquina com a Correio Mor há dois casarões barrocos, um em frente ao outro, que formam as Casas do Morgadio de Guerrero. São um lembrete de que esta rua não teve apenas igrejas e escritórios, mas também as casas de famílias poderosas.\n\nA pouca distância, na rua da Academia, fica o Museu José Luis Cuevas. Ele não tem parada própria neste percurso, mas vale a pena mencioná-lo. Ocupa o antigo convento de Santa Inês e abriu como museu em mil novecentos e noventa e dois. O convento foi reconstruído no fim do século dezoito, em boa parte sob a direção de Manuel Tolsá. Reúne cerca de mil oitocentas e sessenta obras, sobretudo de pintores e ilustradores latino-americanos.\n\nEsta rua ensina a olhar o Centro por camadas. Cada fachada já foi palácio, convento, escritório ou escola. Quase todas repetem a mesma lição: a cidade muda de uso, mas o solo conserva a memória. Antes de seguir, localize o número quatro da Moeda, que é o seu próximo destino."
+    },
+    "retos_observacion": {
+      "hash": "60fd3508c8d52dc7",
+      "texto": [
+        "Procure o número quatro da Moeda, a entrada do antigo palácio dos arcebispos",
+        "Encontre o número treze, o edifício da antiga Casa da Moeda",
+        "Localize a esquina com a Primo de Verdad e a placa que lembra a primeira imprensa da América"
+      ]
+    },
+    "especificaciones": {
+      "hash": "44ac57f5dd908f7b",
+      "texto": {
+        "Localização": "rua da Moeda, ao lado do Palácio Nacional",
+        "Origem do nome": "a Real Casa da Moeda",
+        "Casa da Moeda": "edifício construído entre 1731 e 1734",
+        "Moeda 4": "Museu de Arte da SHCP, antigo Palácio do Arcebispado",
+        "Moeda 13": "Museu Nacional das Culturas do Mundo",
+        "Por perto": "Primeira Imprensa, Ex Teresa, Palácio da Autonomia e Museu José Luis Cuevas"
+      }
+    },
+    "faq_mito": {
+      "hash": "1bdfaf973703a71c",
+      "texto": {
+        "pregunta": "Mito: O edifício da Casa da Moeda é do tempo de Hernán Cortés.",
+        "respuesta": "Realidade: O terreno tem uma história que remonta à Conquista, mas o edifício atual foi construído entre mil setecentos e trinta e um e mil setecentos e trinta e quatro."
+      }
+    }
+  }
+}

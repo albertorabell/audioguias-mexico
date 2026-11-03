@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_16_san_francisco_gante",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1757e6c5a283ed24",
+      "texto": "San Francisco e rua de Gante: o convento que foi se fragmentando"
+    },
+    "frase_gancho": {
+      "hash": "016bca116f36665a",
+      "texto": "De um único convento franciscano restaram um templo, uma capela, uma rua e a memória de um frade mestre."
+    },
+    "puente_narrativo": {
+      "hash": "52b9b73c044c7165",
+      "texto": "Volte à rua de Madero e siga em direção ao Zócalo; começa o trecho de pedestres da [rua de Madero](cdmx_17_calle_madero)."
+    },
+    "como_llegar": {
+      "hash": "140c303f49b083a9",
+      "texto": "Siga até a esquina do Eje Central com Madero, onde o templo de [San Francisco](cdmx_16_san_francisco_gante) guarda uma história mais antiga que a do banco."
+    },
+    "guion_corto": {
+      "hash": "a7f8a83afae66316",
+      "texto": "Houve um tempo em que esta igreja, a rua de Gante e vários edifícios vizinhos pertenciam a um único convento. Era o de San Francisco, onde se instalaram a partir de mil quinhentos e vinte e cinco os primeiros franciscanos, chegados em mil quinhentos e vinte e quatro. Com a Reforma, em meados do século dezenove, o convento foi dividido em lotes e abriu-se a rua de Gante. O que você vê é o que restou: o templo, reconstruído no início do século dezoito, e a capela de Balvanera com sua portada barroca. Se caminhar por Gante, você encontrará a estátua de frei Pedro de Gante, o frade flamengo que ensinou indígenas a ler, cantar e trabalhar."
+    },
+    "guion_largo": {
+      "hash": "81604d9fb99f66a6",
+      "texto": "Antes de ser uma igreja com uma rua ao lado, isto foi um projeto de evangelização. O frade flamengo Pedro de Gante chegou à Nova Espanha em mil quinhentos e vinte e três, junto com outros dois frades flamengos. Um ano depois, em mil quinhentos e vinte e quatro, desembarcou em Veracruz o grupo de doze franciscanos chefiado por frei Martín de Valencia. Hernán Cortés lhes deu terreno na cidade.\n\nA historiadora Josefina Muriel explica que o primeiro convento ficou em outro ponto da cidade, na rua de Tacuba, em terrenos do antigo recinto do Templo Mayor. Os frades o ocuparam desde meados de junho de mil quinhentos e vinte e quatro. No fim de maio de mil quinhentos e vinte e cinco, mudaram-se para cá, para um local que tinha sido a casa de feras de Moctezuma. Um documento de dois de junho daquele ano já fala de San Francisco el Nuevo.\n\nFrei Pedro de Gante dirigiu uma escola neste convento, a de San José de los Naturales. Ensinava crianças e adultos a ler, escrever, cantar e tocar instrumentos. Depois acrescentou ofícios como pintura, ferraria, carpintaria, alvenaria e alfaiataria. Publicou-se um catecismo em náuatle em mil quinhentos e vinte e oito. Ele morreu na Cidade do México em dezenove de abril de mil quinhentos e setenta e dois. O historiador Joaquín García Icazbalceta chamou sua obra de um centro completo de civilização.\n\nO templo que você vê hoje não é o daqueles tempos. É o terceiro que existiu neste lugar e foi construído entre mil setecentos e dez e mil setecentos e dezesseis. A capela de Balvanera, ao lado dele, tem uma fachada de mil setecentos e sessenta e seis.\n\nA Reforma mudou tudo. Em dezesseis de setembro de mil oitocentos e cinquenta e seis, o presidente Ignacio Comonfort decretou a supressão do convento e a abertura da rua de la Independencia, hoje Dieciséis de Septiembre, o que levou à demolição de partes do conjunto. Os franciscanos saíram definitivamente em vinte e oito de dezembro de mil oitocentos e sessenta. Em mil oitocentos e sessenta e um, o conjunto foi dividido em nove lotes. Então se abriu a rua de Gante e várias capelas foram demolidas. O templo serviu depois de estábulo e depósito do Circo Chiarini, e mais tarde de culto protestante.\n\nDaquele conjunto sobrevivem partes dispersas. Conservam-se três capelas, um claustro, o átrio e o templo original. Sobre o antigo claustro encontra-se hoje o Templo Metodista de la Santísima Trinidad. O resto dos terrenos foi vendido a particulares e repartido em parcelas.\n\nNa rua de Gante há um monumento a frei Pedro de Gante. Foi inaugurado em mil novecentos e setenta e seis, como presente da Bélgica, terra natal do frade.\n\nEsta parada explica o nome da rua pela qual você seguirá. Madero se chamou primeiro rua de San Francisco, por causa deste convento. Quando caminhar pelo primeiro trecho dela, lembre-se de que muito do que você vê foi antes propriedade de frades."
+    },
+    "retos_observacion": {
+      "hash": "bd738c90adf01446",
+      "texto": [
+        "Localize a portada barroca da capela de Balvanera na rua de Madero",
+        "Compare a simplicidade do templo com os edifícios altos que o rodeiam",
+        "Caminhe até a rua de Gante e procure a estátua do frade com a placa da Bélgica"
+      ]
+    },
+    "especificaciones": {
+      "hash": "392e860106389c88",
+      "texto": {
+        "Época": "Convento desde 1525; templo atual construído entre 1710 e 1716",
+        "Orden": "Franciscanos",
+        "Estilo": "Barroco; portada da capela de Balvanera de 1766",
+        "Localização": "Av. Francisco I. Madero 7, a leste do Eje Central; rua de Gante ao lado",
+        "Dado-chave": "Monumento a frei Pedro de Gante, inaugurado em 1976, presente da Bélgica"
+      }
+    },
+    "faq_mito": {
+      "hash": "e200371a454cc724",
+      "texto": {
+        "pregunta": "Mito: Frei Pedro de Gante, o mestre deste convento, era filho do imperador Maximiliano I.",
+        "respuesta": "Realidade: Algumas versões o relacionam a imperadores como Carlos Quinto ou Maximiliano Primeiro, mas são tradições sem provas. Nem sequer o ano de seu nascimento é certo: os historiadores o situam entre 1480 e 1486."
+      }
+    }
+  }
+}

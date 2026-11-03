@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_44_templo_santo_domingo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "29fe076e61b78755",
+      "texto": "Templo de Santo Domingo e a Antiga Alfândega"
+    },
+    "frase_gancho": {
+      "hash": "af40932c5d72c27b",
+      "texto": "Esta é a terceira igreja dos dominicanos neste terreno, e as inundações da cidade sobre o lago pesaram em sua história."
+    },
+    "puente_narrativo": {
+      "hash": "0297b4ccc15bb766",
+      "texto": "Siga para a rua República de Brasil, em frente à praça, onde fica o [Palácio da Inquisição](cdmx_45_inquisicion)."
+    },
+    "como_llegar": {
+      "hash": "f500d6bb9b4c0457",
+      "texto": "Caminhe até o lado norte da praça, onde a torre com azulejos anuncia o [Templo de Santo Domingo](cdmx_44_templo_santo_domingo)."
+    },
+    "guion_corto": {
+      "hash": "8e05d6e90d0de60b",
+      "texto": "Esta é a terceira igreja que os dominicanos erguem neste terreno, e a cidade construída sobre o lago teve muito a ver com isso. Os frades chegaram ao México em mil quinhentos e vinte e seis. Seu primeiro templo foi pequeno e as inundações o danificaram. Em mil setecentos e dezesseis, outra inundação afetou a segunda igreja, e no ano seguinte começou a terceira, a que você tem diante de si. Ela é barroca, com uma torre cujo último corpo é coberto de azulejos, e guarda um retábulo-mor de Manuel Tolsá. Do enorme convento que a rodeava, boa parte desapareceu quando se abriu a rua Leandro Valle. O que você vê é o que a água, o tempo e a Reforma deixaram de pé."
+    },
+    "guion_largo": {
+      "hash": "14a5958777b132f5",
+      "texto": "Os dominicanos chegaram à Nova Espanha em mil quinhentos e vinte e seis, e muito cedo começaram a construir aqui. Seu primeiro templo, por volta de mil quinhentos e vinte e sete, foi pequeno e simples. Esta parte da cidade era um terreno pantanoso junto a um canal do lago. As inundações danificaram uma e outra vez o que se erguia, e o convento e a igreja foram reconstruídos várias vezes por causa da fragilidade do solo.\n\nA segunda igreja foi consagrada por volta de mil quinhentos e noventa. Em mil setecentos e dezesseis, uma inundação a danificou tanto que foi preciso suspender o culto. No ano seguinte começou a terceira igreja, que é a que você vê. Ela foi benzida em mil setecentos e trinta e seis, e em janeiro de mil setecentos e cinquenta e cinco foi consagrada. Desde então o templo se parece quase com o que você vê hoje.\n\nOlhe a fachada. Ela é barroca. A torre termina em um prisma piramidal coberto de azulejos. Os arcos do lado esquerdo não são originais. Foram acrescentados no século vinte, para disfarçar a passagem para a rua Leandro Valle e harmonizar o conjunto com a praça.\n\nSe o templo estiver aberto ao culto, e você quiser espiar com respeito, o interior tem planta em cruz latina. O retábulo-mor é uma obra neoclássica de Manuel Tolsá, o mesmo artista do Cavalinho e do Palácio de Mineração. Nos braços do transepto há retábulos dourados do século dezoito. A imagem mais antiga do templo é o Cristo do Noviciado, do século dezesseis, feito com pasta de cana de milho. Uma lenda diz que dois anjos o deram de presente aos dominicanos, mas isso é apenas tradição.\n\nNo templo descansam os restos de Pedro de Moctezuma Tlacahuepantzin, filho de Moctezuma Xocoyotzin.\n\nA água marcou tanto a história deste lugar que deu origem a uma devoção. Depois de uma grave inundação, o conselho da cidade nomeou Santo Domingo padroeiro das águas e da cidade. Foi em trinta e um de julho de mil seiscentos e trinta.\n\nO convento, por sua vez, não resistiu às mudanças políticas. Em meados do século dezenove, com a Reforma, os bens religiosos foram confiscados. Quando se abriu a rua Leandro Valle, destruíram-se boa parte do mosteiro e várias capelas. A Cidade do México assinala que o pátio chamado dos Generais sobrevive dentro do Centro Cultural do México Contemporâneo, sobre essa rua.\n\nNo lado leste da praça fica a antiga Alfândega. A Real Alfândega do México foi fundada em mil quinhentos e setenta e quatro, para sustentar o sistema fiscal do império espanhol. Seu edifício junto a esta praça foi construído e ampliado no século dezoito. Em mil novecentos e vinte e um passou às mãos da Secretaria de Educação Pública. Hoje faz parte do conjunto do [Museu Vivo do Muralismo](cdmx_46_museo_vivo_muralismo). Assim, em uma só praça, um templo, um tribunal e uma alfândega contam como se organizavam a fé, a justiça e o dinheiro."
+    },
+    "retos_observacion": {
+      "hash": "7bd01f36bffa5646",
+      "texto": [
+        "Localize a torre com o último corpo coberto de azulejos",
+        "Procure os arcos do lado esquerdo do templo, que não são originais",
+        "Identifique o edifício sóbrio da antiga Alfândega no lado leste da praça"
+      ]
+    },
+    "especificaciones": {
+      "hash": "07b5d3a53b2eb89c",
+      "texto": {
+        "Época": "terceira igreja iniciada em 1717, benzida em 1736 e consagrada em janeiro de 1755",
+        "Autor": "retábulo-mor de Manuel Tolsá",
+        "Estilo": "barroco, planta em cruz latina",
+        "Localização": "lado norte da Praça de Santo Domingo",
+        "Dado-chave": "do grande convento dominicano só sobrevivem o templo e alguns espaços",
+        "Antiga Alfândega": "Real Alfândega fundada em 1574; hoje parte do conjunto da SEP"
+      }
+    },
+    "faq_mito": {
+      "hash": "ed13b4732489b7c0",
+      "texto": {
+        "pregunta": "Mito: O templo de Santo Domingo é o mesmo que os dominicanos construíram quando chegaram, no século dezesseis.",
+        "respuesta": "Realidade: É a terceira igreja do lugar; a anterior sofreu uma inundação em 1716 e a atual foi iniciada no ano seguinte."
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "cdmx_02_bellas_artes_museo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5ede0d98df8e2613",
+      "texto": "Museu do Palácio de Belas Artes: berço dos museus de arte"
+    },
+    "frase_gancho": {
+      "hash": "d286d8db1a9902ad",
+      "texto": "Aqui vivem dezessete murais de sete artistas, entre eles a segunda versão de um mural que foi destruído em Nova York."
+    },
+    "puente_narrativo": {
+      "hash": "75e35678e350f2b0",
+      "texto": "Saia do palácio e atravesse em direção à Alameda Central, o parque que se estende diante da esplanada. Siga seus caminhos até a próxima parada."
+    },
+    "como_llegar": {
+      "hash": "4151fe65286163ae",
+      "texto": "Caminhe até a entrada do palácio. A próxima parada conta o que ele guarda por dentro, e você pode ouvi-la mesmo que decida não entrar."
+    },
+    "guion_corto": {
+      "hash": "681e671286e6153f",
+      "texto": "Há aqui um mural que Diego Rivera pintou pela segunda vez. A primeira versão estava no Rockefeller Center, em Nova York, e foi removida a cinzel em mil novecentos e trinta e quatro. Rivera recriou a obra no México, com o título O homem controlador do universo, e hoje ela é exibida neste palácio. É uma das peças do primeiro museu de arte do México. Hoje ele reúne dezessete murais permanentes de sete artistas mexicanos, realizados entre mil novecentos e vinte e oito e mil novecentos e sessenta e três. A entrada no museu é paga, então ouça esta peça como um convite. Se decidir entrar, consulte os horários em vigor."
+    },
+    "guion_largo": {
+      "hash": "4641789469f49971",
+      "texto": "Este museu é quase tão antigo quanto o palácio que o abriga. Abriu em vinte e nove de novembro de mil novecentos e trinta e quatro, dois meses depois da inauguração do edifício. Naquele tempo se chamava Museu de Artes Plásticas, e foi o primeiro museu de arte do México. Hoje ele é considerado a origem do sistema de museus de arte do país.\n\nSua coleção original era muito diferente do que se vê agora. Incluía obras desde o século dezesseis até os murais que Diego Rivera e José Clemente Orozco pintaram em mil novecentos e trinta e quatro. Tinha também salas de escultura mesoamericana, de gravura mexicana e um museu de arte popular com a coleção de Roberto Montenegro. O acervo foi formado com coleções do governo, aquisições, doações, legados e o patrimônio da antiga Academia de San Carlos.\n\nCom o passar dos anos, esse acervo foi sendo repartido. As obras excedentes alimentaram outros museus do sistema. Entre eles estão o Museu de Arte Moderna, a Pinacoteca Vice-Real e o Museu Nacional de San Carlos. Também está o Museu Nacional de Arte, o Munal, que fica a poucas quadras daqui e que vamos visitar. Quando foi criado o Instituto Nacional de Belas Artes, Fernando Gamboa, Julio Castellanos e Julio Prieto transformaram o projeto no Museu Nacional de Artes Plásticas. Desde mil novecentos e sessenta e oito, chama-se Museu do Palácio de Belas Artes.\n\nHoje o museu é conhecido sobretudo por seus murais. Exibe de forma permanente dezessete obras de sete artistas mexicanos, realizadas entre mil novecentos e vinte e oito e mil novecentos e sessenta e três. Muitas peças do acervo histórico já não estão neste edifício. Entre os murais estão A eterna luta da humanidade por um mundo melhor, também chamado Katharsis, de José Clemente Orozco, de mil novecentos e trinta e quatro. Está A nova democracia, de David Alfaro Siqueiros, de mil novecentos e quarenta e cinco, e há obras de Rufino Tamayo. Está também Libertação, de González Camarena, de mil novecentos e sessenta e três.\n\nAlguns murais chegaram depois. Como parte de um programa de conservação, foram transferidas para este museu obras de Manuel Rodríguez Lozano e de Roberto Montenegro. Chegaram também outros murais de Rivera.\n\nA história mais conhecida é a de Rivera. Em mil novecentos e trinta e dois, ele recebeu a encomenda de pintar um mural no Rockefeller Center, em Nova York. A obra provocou uma polêmica por seu conteúdo político. Foi removida da parede a cinzel em mil novecentos e trinta e quatro. Rivera a recriou no México com o título O homem controlador do universo, e hoje ela é exibida neste palácio.\n\nVocê verá que Rivera reaparece em outras paradas. Muito em breve você o encontrará na Alameda, com um mural que tem este mesmo parque como cenário. No [Museu Mural Diego Rivera](cdmx_06_museo_mural_rivera) você poderá saber mais sobre essa obra.\n\nO museu oferece visitas guiadas, e sua programação inclui oficinas e concertos. A entrada é paga. Se decidir entrar, consulte os horários e as condições em vigor antes de vir. E se preferir não entrar, você não perde o essencial. A fachada, a esplanada e os Pégasos podem ser apreciados gratuitamente da rua, e a parada anterior contou a história deles."
+    },
+    "retos_observacion": {
+      "hash": "b3819cb30f1d99cd",
+      "texto": [
+        "Localize a entrada principal do palácio, por onde se acessa o museu se você decidir entrar",
+        "Percorra com o olhar a fachada de mármore e procure o ponto mais alto do edifício",
+        "Escolha o Pégaso mais próximo de você e observe para onde ele estende as asas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "668766425e4d29af",
+      "texto": {
+        "Época": "inaugurado em 29 de novembro de 1934",
+        "Nome atual": "Museu do Palácio de Belas Artes, desde 1968",
+        "Coleção": "17 murais permanentes de sete artistas mexicanos, de 1928 a 1963",
+        "Localização": "Av. Juárez, esquina com o Eje Central Lázaro Cárdenas",
+        "Dado-chave": "foi o primeiro museu de arte do México"
+      }
+    },
+    "faq_mito": {
+      "hash": "a4e20d546b656635",
+      "texto": {
+        "pregunta": "Mito: O mural de Rivera que se vê no Palácio de Belas Artes é o mesmo que ele pintou no Rockefeller Center.",
+        "respuesta": "Realidade: O de Nova York foi removido a cinzel em 1934; Rivera pintou uma nova versão, intitulada O homem controlador do universo, que é exibida neste palácio."
+      }
+    }
+  }
+}

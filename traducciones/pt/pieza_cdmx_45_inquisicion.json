@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_45_inquisicion",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3b85ee8220e99e76",
+      "texto": "Palácio da Inquisição e Museu da Medicina Mexicana"
+    },
+    "frase_gancho": {
+      "hash": "12ffa21ce2b06d65",
+      "texto": "Durante oitenta e quatro anos, aqui funcionou o tribunal do Santo Ofício; depois, gerações de médicos aprenderam entre estas paredes."
+    },
+    "puente_narrativo": {
+      "hash": "3a5e937adaf94510",
+      "texto": "Siga em direção à rua República de Argentina, onde fica a entrada do [Museu Vivo do Muralismo](cdmx_46_museo_vivo_muralismo), no edifício da Secretaria de Educação Pública."
+    },
+    "como_llegar": {
+      "hash": "0297b4ccc15bb766",
+      "texto": "Siga em direção à rua República de Brasil, em frente à praça, onde fica o [Palácio da Inquisição](cdmx_45_inquisicion)."
+    },
+    "guion_corto": {
+      "hash": "2a9a9418da1f0d70",
+      "texto": "Oitenta e quatro anos. Esse foi o tempo em que este edifício serviu como sede do Tribunal do Santo Ofício. O arquiteto Pedro de Arrieta o levantou entre mil setecentos e trinta e dois e mil setecentos e trinta e seis. Por dentro havia salas de audiências, prisão e aposentos para os inquisidores. Em mil oitocentos e vinte o tribunal foi abolido em definitivo, e o palácio mudou de rumo. Em mil oitocentos e cinquenta e quatro, a Escola de Medicina o ocupou e ensinou aqui por mais de um século. Hoje é o Museu da Medicina Mexicana. Poucas fachadas do Centro contam, em um único edifício, como mudaram o medo, a lei e a ciência."
+    },
+    "guion_largo": {
+      "hash": "c772193877a93713",
+      "texto": "Este edifício tem duas vidas quase opostas, e as duas são verdadeiras. Primeiro foi a sede de um tribunal. Depois foi uma escola onde se estudava como curar.\n\nA Inquisição chegou à Nova Espanha em mil quinhentos e setenta e um. Seu nome completo era Tribunal do Santo Ofício. Ela vigiava a fé e julgava delitos como a heresia e a blasfêmia. Este palácio foi construído para o tribunal. As obras começaram em dezembro de mil setecentos e trinta e dois e terminaram em mil setecentos e trinta e seis. Uma placa da Direção de Monumentos Coloniais, colocada em mil novecentos e sessenta e três, repete esses anos.\n\nQuem dirigiu a obra foi Pedro de Arrieta, mestre-maior das obras do Santo Ofício. Ele também trabalhou na Catedral e em La Profesa. Morreu pouco depois de terminar este palácio. O edifício tinha então dois andares, e o terceiro foi acrescentado no século dezenove. Seu pátio tem colunas dóricas toscanas e arcos com molduras.\n\nPor dentro havia salas de audiências, câmaras secretas, alojamento para inquisidores e uma prisão. O tribunal funcionou neste edifício por oitenta e quatro anos. As Cortes de Cádiz o suprimiram em mil oitocentos e treze, ele foi restabelecido em mil oitocentos e catorze e ficou abolido em definitivo em mil oitocentos e vinte.\n\nEntão começou uma época de abandono. Em mil oitocentos e trinta e oito, o palácio foi a leilão público e ninguém o comprou. Depois veio uma reviravolta inesperada. A Escola de Medicina ocupava o antigo convento de São Hipólito. Um governo de Santa Anna o tomou como quartel em mil oitocentos e cinquenta e três, e a escola precisou de outro lugar. O Seminário Conciliar vendeu a ela o pátio principal deste edifício. Em mil oitocentos e cinquenta e quatro, a escola se instalou aqui.\n\nPor mais de cem anos, estas paredes viram passar gerações de estudantes de medicina. Em meados da década de mil novecentos e cinquenta, a faculdade se mudou para a Cidade Universitária. O edifício fechou em mil novecentos e cinquenta e seis. Planejou-se um museu histórico da medicina. Em mil novecentos e oitenta foi inaugurado o Museu da Medicina Mexicana, da Universidade.\n\nSe você decidir entrar, o museu é dedicado à história da medicina no México. Suas coleções tratam de temas como anatomia, botica, herbolária, medicina pré-hispânica, modelos de cera, embriologia e cirurgia reconstrutiva. A Faculdade de Medicina acrescentou uma sala de oftalmologia em dois mil e doze. Algumas salas incluem material anatômico e embriológico, algo que convém saber de antemão. As exposições mudam e os horários também, então consulte as informações vigentes antes de vir.\n\nDa rua, a fachada já conta alguma coisa. Tem três níveis, e o último é a ampliação do século dezenove. O templo dos dominicanos e este palácio foram vizinhos durante séculos. Hoje um continua sendo igreja, e o outro conta como a medicina mudou no México."
+    },
+    "retos_observacion": {
+      "hash": "8494edf6d7609b9d",
+      "texto": [
+        "Conte os níveis da fachada; o último foi acrescentado no século XIX",
+        "Procure ver se há uma placa na fachada que lembre sua história",
+        "Compare este edifício com a torre do templo de Santo Domingo, na praça"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0aff5a2846e2d8bc",
+      "texto": {
+        "Época": "construído de dezembro de 1732 a 1736",
+        "Arquiteto": "Pedro de Arrieta",
+        "Uso original": "sede do Tribunal do Santo Ofício, abolido em definitivo em 1820",
+        "Escola de Medicina": "1854 a meados da década de 1950",
+        "Museu": "Museu da Medicina Mexicana (UNAM), inaugurado em 1980",
+        "Localização": "República de Brasil 33, Centro Histórico"
+      }
+    },
+    "faq_mito": {
+      "hash": "e16adf29a2067d8e",
+      "texto": {
+        "pregunta": "Mito: Este palácio é o edifício original da Inquisição, do século dezesseis.",
+        "respuesta": "Realidade: O tribunal funcionava na Nova Espanha desde 1571, mas este palácio foi construído entre dezembro de 1732 e 1736."
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "cdmx_38_museo_shcp",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e0d2c97a3a1aca51",
+      "texto": "Museu de Arte da SHCP: de palácio arquiepiscopal a museu"
+    },
+    "frase_gancho": {
+      "hash": "f34938ff81740ec8",
+      "texto": "Foi casa de arcebispos, depois repartição da Fazenda, e hoje abriga arte que artistas mexicanos entregaram em troca de impostos."
+    },
+    "puente_narrativo": {
+      "hash": "b20b057ef9097865",
+      "texto": "Siga pela rua Moneda em direção ao número treze. Ali, a antiga casa onde se cunhava a moeda é hoje o [Museu Nacional das Culturas do Mundo](cdmx_39_culturas_mundo)."
+    },
+    "como_llegar": {
+      "hash": "4617ef355a9a3503",
+      "texto": "Siga pela rua Moneda até o número quatro, onde um antigo palácio de arcebispos guarda hoje arte. É o [Museu de Arte da SHCP](cdmx_38_museo_shcp)."
+    },
+    "guion_corto": {
+      "hash": "7619fd042d95b1f2",
+      "texto": "Os artistas do México podem pagar impostos com a própria obra. Parte dessas peças está guardada neste edifício da rua Moneda. É o antigo Palácio do Arcebispado. Ele já funcionava como sede arquiepiscopal por volta de 1530, embora a construção atual seja sobretudo do século dezoito. Conta-se que frei Juan de Zumárraga mandou erguê-lo sobre um templo dedicado a Tezcatlipoca e que morreu antes de se mudar. No século dezenove foi nacionalizado e, depois, abrigou repartições federais da Fazenda. Hoje é um museu cujo acervo nasceu desse pagamento em espécie. Assim, um mesmo edifício une o poder da Igreja vice-reinal com as contas públicas do México moderno."
+    },
+    "guion_largo": {
+      "hash": "0027404680ecd161",
+      "texto": "Esta fachada guarda duas perguntas. A primeira é quem viveu aqui. A segunda, por que há arte moderna em um edifício de arcebispos. A resposta a ambas começa no século dezesseis, quando frei Juan de Zumárraga, primeiro bispo do México, procurou onde erguer sua residência.\n\nPor volta de 1530, o palácio já funcionava como sede arquiepiscopal. A tradição o situa sobre um templo dedicado a Tezcatlipoca, e Zumárraga morreu antes de se mudar. Em meados do século dezoito, o edifício foi reconstruído por completo, sob o arcebispo Juan Antonio Vizarrón y Eguiarreta. José Miguel de Rivera Sarabia acrescentou a fachada. Em 1771, Alonso Núñez de Haro ampliou o conjunto com uma casa vizinha.\n\nPelo palácio passaram uns trinta e três bispos. Foi nacionalizado em 1859 e vendido em 1861. Um bispo viveu aqui por pouco tempo durante o Segundo Império de Maximiliano, mas o abandonou em 1867. Depois, instalaram-se repartições federais de contabilidade, tesouraria, pensões e folha de pagamento, com suas prensas de impressão. O edifício passou da mitra ao guichê de impostos.\n\nAbaixo há outra camada. Depois do terremoto de 1985, a restauração deixou à mostra parte de uma plataforma antiga e vários objetos mexicas. Esses vestígios são associados ao templo de Tezcatlipoca, um dos mais importantes de Tenochtitlan. Por volta de 1994, já restaurado, o edifício foi destinado a abrigar a coleção de arte da Secretaria da Fazenda.\n\nAgora, a segunda pergunta. O México tem um programa que permite aos artistas pagar impostos com suas próprias obras. Assim foi se formando uma coleção de pintura, escultura, gravura, metalurgia artística, moedas, mobiliário e objetos ornamentais. David Alfaro Siqueiros foi um grande defensor do programa. Entre os artistas da coleção estão Juan Correa, Rufino Tamayo, Federico Cantú, Antonio Ruiz, Adolfo Best Maugard e Raúl Anguiano.\n\nQuem decidir entrar encontrará arte mexicana de diferentes épocas dentro de um edifício que também faz parte da visita. Aqui convivem um palácio vice-reinal, restos de um templo mexica e uma coleção formada no século vinte. Também têm obra no acervo Francisco Toledo, Vicente Rojo, Juan Soriano e Leonora Carrington, entre outros. Essa lista mostra como a arte mexicana e o Estado se encontraram neste programa. Consulte os horários e as condições de ingresso vigentes antes de ir.\n\nDaqui, a rua Moneda se transforma em uma leitura da cidade. Ao lado fica o [Palácio Nacional](cdmx_29_palacio_nacional), sede do governo. A Igreja e a moeda ocuparam edifícios vizinhos, no mesmo quarteirão, e hoje os dois são museus. E foi Zumárraga, o mesmo que procurou residência aqui, quem impulsionou a primeira imprensa da América, que você verá na [Casa da Primeira Imprensa](cdmx_40_primera_imprenta). Um mesmo edifício mudou muitas vezes de dono e de uso: residência de bispos, repartição de governo, sítio arqueológico e museu."
+    },
+    "retos_observacion": {
+      "hash": "ff26f6f6d7df84b8",
+      "texto": [
+        "Procure o número quatro da rua Moneda na entrada do museu",
+        "Observe o pórtico e as janelas da fachada vice-reinal do antigo palácio",
+        "Compare este edifício com os da calçada em frente e conte quantos andares cada um tem"
+      ]
+    },
+    "especificaciones": {
+      "hash": "854afeeb00b65a64",
+      "texto": {
+        "Época": "sede arquiepiscopal desde por volta de 1530; reconstruído em meados do século XVIII",
+        "Arquitetura": "fachada acrescentada por José Miguel de Rivera Sarabia",
+        "Uso atual": "Museu de Arte da SHCP, com coleção formada por pagamento de impostos em espécie",
+        "Localização": "Moneda 4, Centro Histórico",
+        "Dado-chave": "a restauração após o terremoto de 1985 deixou à mostra parte de uma plataforma mexica",
+        "Museu": "abriu por volta de 1994"
+      }
+    },
+    "faq_mito": {
+      "hash": "ef67745539a33d99",
+      "texto": {
+        "pregunta": "Mito: Este edifício conserva sua aparência do século dezesseis, dos tempos de Zumárraga.",
+        "respuesta": "Realidade: O palácio foi reconstruído por completo em meados do século dezoito."
+      }
+    }
+  }
+}
