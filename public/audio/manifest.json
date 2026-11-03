@@ -16306,6 +16306,24 @@
           "provider": "azure"
         }
       },
+      "mna_s04_templo_quetzalcoatl": {
+        "corto": {
+          "hash": "c008ee7751f07e6e",
+          "file": "fr/mna_s04_templo_quetzalcoatl_corto.mp3",
+          "remote": true,
+          "seconds": 34,
+          "bytes": 205056,
+          "provider": "azure"
+        },
+        "largo": {
+          "hash": "47c1fc43e43d8cd8",
+          "file": "fr/mna_s04_templo_quetzalcoatl_largo.mp3",
+          "remote": true,
+          "seconds": 191,
+          "bytes": 1145232,
+          "provider": "azure"
+        }
+      },
       "mna_s04_xipe_totec": {
         "corto": {
           "hash": "7887e612b51d4ebc",
