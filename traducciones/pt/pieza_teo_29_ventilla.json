@@ -1,0 +1,55 @@
+{
+  "id": "teo_29_ventilla",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "ebb30a8e0178f2c4",
+      "texto": "La Ventilla: o bairro dos artesãos e o marcador"
+    },
+    "frase_gancho": {
+      "hash": "9daa21ed9653414c",
+      "texto": "Um pátio com quarenta e dois glifos pintados no piso."
+    },
+    "puente_narrativo": {
+      "hash": "c3b630ac2311b5a2",
+      "texto": "Antes de encerrarmos nosso percurso pelos bairros, vamos olhar para o poente do vale, onde uma comunidade vinda de Oaxaca viveu durante quatro séculos sem esquecer sua língua nem seus túmulos."
+    },
+    "guion_corto": {
+      "hash": "8911da31c37a03e2",
+      "texto": "Você está em La Ventilla, um bairro ao sudoeste do centro da cidade. Aqui fica o Conjunto dos Glifos. Seu pátio tem trinta e seis signos pintados no piso e mais seis em muros próximos. Perto dali viviam artesãos. Daqui vem também o Marcador de La Ventilla, que você verá no museu. Um bairro assim mostra que a cidade era muito bem organizada, com zonas para morar, trabalhar e se reunir."
+    },
+    "guion_largo": {
+      "hash": "f7b21c563d255891",
+      "texto": "La Ventilla fica ao sudoeste do centro cívico. Suas grandes escavações começaram em mil novecentos e noventa e dois. O Conjunto dos Glifos mede cerca de sessenta por setenta metros. Seu pátio tem trinta e seis glifos pintados no piso e outros seis em muros contíguos, quarenta e dois no total. Um autor os data entre os anos trezentos e cinquenta e quatrocentos e cinquenta, e reconhece dezesseis como possíveis nomes de lugares. É uma leitura de um autor, não um consenso geral. Perto dali há uma praça pública em forma de T, com mais de um hectare e meio. Foi proposto que ela serviu para o jogo de bola, mas isso não é seguro. Há também o Conjunto dos Artesãos, onde cada família tinha entre três e seis cômodos. As primeiras construções do bairro são do ano cem da nossa era. Elas já seguiam a orientação da cidade, treze graus a leste do norte. Sob o pátio dos glifos apareceu o braseiro tipo teatro mais antigo que se conhece. E daqui vem o Marcador de La Ventilla, encontrado em mil novecientos e sessenta e dois. Um bairro assim permite imaginar a cidade como a vivia a gente comum: ruas ordenadas, vizinhos com ofício e lugares para se encontrar."
+    },
+    "retos_observacion": {
+      "hash": "05b6c93098a3e079",
+      "texto": [
+        "Localize, ao atravessar de volta em direção à área de estacionamentos das Portas 1 e 2, a planície sudoeste onde foi escavado o bairro de La Ventilla",
+        "Observe na foto da sua tela o Marcador de La Ventilla, de peças encaixáveis, que se conecta com o mural que você viu em Tepantitla",
+        "Veja o desenho em cruz dos tabuleiros de patolli gravados nos pisos de estuque do bairro"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a27b31f8415f5d8c",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (por volta de 200-550 d.C.)",
+        "Natureza do sítio": "Bairro multifuncional de artesãos lapidários, templos de vizinhança e o Conjunto dos Glifos",
+        "Achados principais": "Marcador de Jogo de Bola em andesito (1962-1963, hoje no MNA), Praça dos Glifos e 174 sepultamentos em La Ventilla B",
+        "Localização": "600 m a sudoeste da Ciudadela"
+      }
+    },
+    "faq_mito": {
+      "hash": "988c6baf860afdd4",
+      "texto": {
+        "pregunta": "Mito: Em Teotihuacán não se praticava o jogo de bola porque não existem quadras de alvenaria.",
+        "respuesta": "Realidade: A descoberta do marcador desmontável de La Ventilla e dos murais de Tepantitla demonstrou que se jogava em praças abertas, usando postes portáteis e bastões."
+      }
+    }
+  }
+}

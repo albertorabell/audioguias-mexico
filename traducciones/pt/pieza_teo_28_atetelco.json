@@ -1,0 +1,59 @@
+{
+  "id": "teo_28_atetelco",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Tolteca\" para \"Tolteca / Toltecas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "985ec9a9b2f2453d",
+      "texto": "Atetelco: coiotes e pumas guerreiros"
+    },
+    "frase_gancho": {
+      "hash": "f2248d4b77b914ec",
+      "texto": "Um desfile de coiotes e jaguares que caminham em direção à porta."
+    },
+    "puente_narrativo": {
+      "hash": "f65f72623a1c3f4c",
+      "texto": "Ao sair de Atetelco, enquanto você volta para a entrada sul, vamos ouvir as histórias de dois bairros vizinhos que completam o mapa humano da cidade: os artesãos de La Ventilla e os zapotecas de Oaxaca."
+    },
+    "guion_corto": {
+      "hash": "3ce958cfadd82b32",
+      "texto": "Atetelco significa no muro de pedra junto à água. É um conjunto de moradias com pátios decorados. No Pátio Branco, um mural mostra uma procissão de coiotes e jaguares que caminham um atrás do outro em direção à porta central. O Pátio Vermelho tem um altar de cores vivas e adornos que se relacionam com a atividade militar. Repare nos animais e você verá que cada um tem detalhes próprios. O coiote e o jaguar não têm o mesmo focinho nem a mesma cauda."
+    },
+    "guion_largo": {
+      "hash": "841288dfd9d917cd",
+      "texto": "O Pátio Branco tem três templos das primeiras etapas da cidade, datados entre os anos trezentos e quatrocentos. No Pórtico 2 do Templo Oriental, os muros mostram uma procissão de coiotes e jaguares. Em alguns murais, um jaguar vai à frente do coiote. Em outros, o coiote vai primeiro e o jaguar o segue. Todos se dirigem para a porta central. Os coiotes estão desenhados com linhas vermelhas finas. Têm tufos longos nos cotovelos e uma faixa de pequenas plumas triangulares nas costas. Seu toucado é uma diadema com plumas longas. Os jaguares têm o corpo coberto como que por uma rede. Seu focinho é mais curto, suas presas são mais curvas e a língua parece partida em duas. Cada mural é emoldurado por uma borda de linhas finas. Mais acima fica o Pátio Vermelho, com recintos sobre bases de pirâmide e um altar de cores vivas. Sua decoração se relaciona com a atividade militar. O que exatamente significava a procissão, não sabemos. Mas você pode comparar os dois animais e descobrir como os artistas os distinguiam."
+    },
+    "retos_observacion": {
+      "hash": "4753b1f1921cc09d",
+      "texto": [
+        "Entre nos pórticos do Pátio Branco e observe a rede de losangos na parte alta, com guerreiros e coiotes dentro de cada casa",
+        "Passe ao Pátio Vermelho (dos Canídeos) e procure, na parte baixa dos muros, a fileira de coiotes e pumas com penachos verdes",
+        "Identifique, diante do focinho dos animais, o coração humano trilobulado do qual caem três gotas de sangue, e veja no centro do pátio o pequeno altar em talude e painel"
+      ]
+    },
+    "especificaciones": {
+      "hash": "84fea297416b3d11",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico Tardio (murais por volta de 350-550 d.C.)",
+        "Espaços principais": "Pátio Branco (3 pórticos com rede de losangos) e Pátio Pintado ou dos Canídeos (procissão de coiotes e pumas e altar central)",
+        "Temática": "Ordens militares de coiotes, pumas e águias e rituais de sacrifício",
+        "Localização": "Extremo sudoeste (1,5 km a sudoeste da Pirâmide do Sol)"
+      }
+    },
+    "faq_mito": {
+      "hash": "5617ebaf631c238e",
+      "texto": {
+        "pregunta": "Mito: Teotihuacán foi uma cidade pacífica, sem exército nem sacrifícios humanos, e a guerra ritual foi uma invenção posterior dos toltecas e mexicas.",
+        "respuesta": "Realidade: Os murais de Atetelco demonstram que, desde o século IV, existiam em Teotihuacán ordens militares de guerreiros coiote, puma e águia ligadas ao sacrifício de corações."
+      }
+    }
+  }
+}

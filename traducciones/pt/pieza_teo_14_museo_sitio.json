@@ -1,0 +1,54 @@
+{
+  "id": "teo_14_museo_sitio",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "66afd054cdceee21",
+      "texto": "Museu da Cultura Teotihuacán (Museu de Sítio)"
+    },
+    "frase_gancho": {
+      "hash": "992317afa0c39a86",
+      "texto": "Uma pausa para ver a cidade em miniatura e os objetos que a tornaram possível."
+    },
+    "puente_narrativo": {
+      "hash": "b28c0335c8ea3857",
+      "texto": "Ao sair do museu, volte à Calçada dos Mortos e caminhe para o norte: depois de passar pela Pirâmide do Sol, à sua direita e sob uma cobertura protetora, espera por você o maior felino pintado que se conserva na Calçada."
+    },
+    "guion_corto": {
+      "hash": "1fa7bda7cc585e10",
+      "texto": "Este museu oferece uma pausa no meio do percurso. Se houver uma maquete da área, veja como a Calçada organiza os edifícios. Procure também objetos de obsidiana, um vidro vulcânico que Teotihuacán trabalhou e levou muito longe. Se você vir cerâmica alaranjada, lembre-se de que muitas vasilhas chegaram de Puebla. Olhe os rostos e as oferendas. Eles dão rosto às pessoas que construíram tudo isto. Reserve alguns minutos de sombra e descanso."
+    },
+    "guion_largo": {
+      "hash": "2226e1a3d4cef37e",
+      "texto": "Este museu é uma boa pausa no meio do percurso. Antes de olhar as vitrines, respire e situe-se. Se você encontrar uma maquete da área, aproveite. De cima, vê-se como a Calçada dos Mortos organiza os conjuntos e as praças. Repare também no rio San Juan, que segue a quadrícula da cidade. Nas vitrines, procure alguns objetos que você já conhece do caminho. A obsidiana, um vidro vulcânico, era trabalhada aqui e levada até lugares muito distantes. Teotihuacán a obtinha de Pachuca. Se você vir vasilhas de cor alaranjada, lembre-se de que essa cerâmica era feita em Puebla, a chamada Laranja Fina. E se houver braseiros de barro do tipo teatro, observe suas figuras e seus adornos. Eram peças para queimar oferendas. Não se preocupe em lembrar todos os nomes. Basta observar as mãos que trabalharam cada objeto. Por trás de cada peça houve um artesão, uma família e um bairro. Antes de seguir, beba água e descanse um pouco. Quando você sair, as pirâmides lhe parecerão mais próximas, porque você terá visto coisas feitas pelas mesmas pessoas."
+    },
+    "retos_observacion": {
+      "hash": "05c47c98f2c8a9c2",
+      "texto": [
+        "Pare diante da grande maquete central e alinhe o olhar com a janela panorâmica do fundo, que emoldura a Pirâmide do Sol",
+        "Procure nas vitrines os sepultamentos originais do Templo da Serpente Emplumada, com seus colares de mandíbulas e conchas",
+        "Encontre um incensário do tipo teatro decorado com borboletas e um vaso cilíndrico de três suportes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3df0cbfa8227a399",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Função": "Museu arqueológico de sítio",
+        "Localização": "Lado sul da Pirâmide do Sol (acesso em direção ao Portão 2 / Jardim Botânico)",
+        "Peças-chave": "Maquete monumental com janela panorâmica para o Sol, sepultamentos da Ciudadela, incensários do tipo teatro, lítica em obsidiana e escultura arquitetônica"
+      }
+    },
+    "faq_mito": {
+      "hash": "f0e0089295546707",
+      "texto": {
+        "pregunta": "Mito: Todas as peças importantes encontradas em Teotihuacán foram levadas para a Cidade do México.",
+        "respuesta": "Realidade: Este museu de sítio guarda mais de seiscentas peças originais de primeira ordem, encontradas nas escavações recentes das pirâmides e dos bairros."
+      }
+    }
+  }
+}

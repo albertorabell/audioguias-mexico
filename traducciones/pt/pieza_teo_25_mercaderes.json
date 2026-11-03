@@ -1,0 +1,63 @@
+{
+  "id": "teo_25_mercaderes",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "frase_gancho": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "edf9025557a15291",
+      "texto": "Bairro dos Mercadores: as casas redondas"
+    },
+    "frase_gancho": {
+      "hash": "250cea649c48b854",
+      "texto": "Casas redondas de adobe, com vasilhas da costa e de terras maias."
+    },
+    "puente_narrativo": {
+      "hash": "dd81bd60ef1139bc",
+      "texto": "Do leste nos deslocamos para o circuito do poente e sudoeste, perto das Portas Um e Dois, para entrar nas casas onde viviam as famílias de Teotihuacán e admirar os murais de Tetitla e Atetelco."
+    },
+    "guion_corto": {
+      "hash": "f2f7c05f85ca8066",
+      "texto": "Este é o chamado Bairro dos Mercadores, no leste da cidade. Suas estruturas eram circulares, de adobe, diferentes das casas retangulares de outras zonas. Foram encontrados objetos da costa do Golfo, de Puebla e vasilhas de estilo maia. As análises de ossos indicam que muita gente vinha de fora. Por isso se pensa em comerciantes e viajantes, embora o nome seja uma hipótese. Era um lugar onde se cruzavam objetos e costumes de muitas regiões."
+    },
+    "guion_largo": {
+      "hash": "85c5f3b45bfe1577",
+      "texto": "O bairro fica na periferia leste da cidade. Destacam-se suas estruturas circulares de adobe, diferentes das construções retangulares do resto de Teotihuacán. Os vínculos com a costa do Golfo, em Veracruz, são fortes. Apareceram além disso objetos de Puebla e vasilhas maias de várias cores. As análises de isótopos de estrôncio nos ossos indicam que muita gente havia chegado de outras regiões. A arqueóloga Evelyn Rattray estudou o lugar e publicou seus resultados em mil novecentos e oitenta e oito e mil novecentos e noventa e nove. Ela também seguiu o rastro da cerâmica chamada Laranja Fina. Vinha de Ixcaquixtla, em Puebla, segundo análises de ativação neutrônica. Havia até moldes em forma de cogumelo. Com esses dados, pensou-se em um bairro de comerciantes. Mas é preciso ser prudente. Os objetos viajam por muitos motivos, e não sabemos com certeza a que se dedicava cada família. As mesmas rotas que traziam vasilhas e materiais podem ter trazido também ideias e gente. É uma possibilidade, pois os objetos por si sós não contam toda a história. O certo é que Teotihuacán tinha vizinhos de muitas partes."
+    },
+    "retos_observacion": {
+      "hash": "412563b4f83e824e",
+      "texto": [
+        "Olhe para o setor oriental do vale, em direção ao leito do rio San Juan, onde se estabelecia este enclave comercial",
+        "Compare na sua tela a planta circular com rampa destas moradias diante dos muros retos de toda a cidade",
+        "Pense na rota de oito a dez dias a pé para trazer fardos de algodão e cacau da costa de Veracruz até este vale"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3b22ddb348e40914",
+      "texto": {
+        "Cultura": "Teotihuacán, em convivência com grupos da costa do Golfo e da área maia",
+        "Período": "Clássico (por volta de 250-550 d.C.)",
+        "Arquitetura": "Mais de 20 estruturas circulares de adobe e alvenaria (aprox. 9 m de diâmetro)",
+        "Cerâmica de origem externa": "12 a 18 % do total",
+        "Escavação": "Evelyn Rattray",
+        "Localização": "Setor nordeste, junto ao rio San Juan"
+      }
+    },
+    "faq_mito": {
+      "hash": "b40ce5ba8d82745d",
+      "texto": {
+        "pregunta": "Mito: Em Teotihuacán era proibido construir fora do desenho quadrado de talude e painel.",
+        "respuesta": "Realidade: No Bairro dos Mercadores, os comerciantes originários da costa do Golfo construíram moradias e armazéns circulares seguindo a tradição de sua terra natal."
+      }
+    }
+  }
+}

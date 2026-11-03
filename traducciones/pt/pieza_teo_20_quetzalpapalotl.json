@@ -1,0 +1,59 @@
+{
+  "id": "teo_20_quetzalpapalotl",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3843da50bd1f1e57",
+      "texto": "Palácio de Quetzalpapálotl"
+    },
+    "frase_gancho": {
+      "hash": "92779c27def36a42",
+      "texto": "Um pátio de pilares entalhados onde os olhos tiveram pupilas de obsidiana, e talvez não sejam borboletas."
+    },
+    "puente_narrativo": {
+      "hash": "d8259fbb5edd47b2",
+      "texto": "Se você está seguindo o percurso completo, atravesse o corredor do fundo em direção aos pátios vizinhos, onde os jaguares fazem soar conchas; se está no percurso expresso, ao sair do palácio você pode ouvir as duas paradas finais, sobre a queda e o legado da cidade."
+    },
+    "guion_corto": {
+      "hash": "21c0e3a15eaa1fb6",
+      "texto": "Dirija-se à esquina sudoeste da Praça da Lua e entre pela escadaria neste conjunto coberto. Você está dentro do Palácio de Quetzalpapálotl, um dos conjuntos mais bem conservados de Teotihuacán. Avance até o pátio central, cercado por quatro pórticos sustentados por pilares quadrados de pedra entalhada. Aproxime-se de um dos pilares e observe o baixo-relevo: as plumas e a cabeça aparecem de perfil, e o peito, de frente. Quando foi descoberto, em mil novecentos e sessenta e dois, pensou-se que fosse um quetzal com corpo de borboleta. Daí o seu nome em náuatle: quetzalli, pena preciosa, e papálotl, borboleta."
+    },
+    "guion_largo": {
+      "hash": "9a15235092242e19",
+      "texto": "Repare agora nos círculos dos pilares. Hoje parecem vazios, mas em um deles quatro círculos conservaram incrustações de obsidiana negra polida, e em um olho ainda resta a sua. Os pilares também eram entalhados e incrustados com mica. Quando a luz entrava no pátio, a pedra devia brilhar e devolver o olhar a quem passava.\n\nE aqui há uma reviravolta. O nome de borboleta vem de como as imagens foram lidas quando foram descobertas, em mil novecentos e sessenta e dois. Hoje alguns estudiosos propõem que as criaturas não são quetzais-borboleta, e sim corujas, símbolo de guerreiros, sacerdotes e da elite teotihuacán. É uma interpretação, e o nome ficou por costume.\n\nAlguns motivos destes pilares, como uma faixa em zigue-zague, aparecem também em murais de Tepantitla, Tetitla, Techinantitla e do Palácio dos Jaguares. Isso sugere que os diferentes conjuntos da cidade compartilhavam uma mesma linguagem de imagens.\n\nEmbaixo de onde você pisa há outro edifício. O Templo das Conchas Emplumadas, de por volta do ano duzentos, ficou completamente enterrado sob este palácio e foi encontrado intacto. Seus pilares trazem conchas com plumas, e sua base mostra aves pintadas, provavelmente araras-verdes.\n\nPara que servia este palácio? Costuma-se chamá-lo de casa de sacerdotes, mas alguns pesquisadores sugerem que pode ter sido um lugar de reunião. Talvez tenha estado ligado a um novo movimento político ou a um novo governante. Eram os séculos quatro a seis, quando a influência de Teotihuacán chegava até cidades maias como Tikal. É uma hipótese.\n\nO arqueólogo Jorge Acosta escavou e reconstruiu este conjunto nos anos sessenta, e publicou seu estudo sobre o palácio em mil novecentos e sessenta e quatro. Em dois mil e nove, um projeto de conservação removeu o cimento antigo e restaurou o palácio com cal, argila e areia. Hoje ele se lê como o que foi: uma construção de cal com pigmento, e não de cimento."
+    },
+    "retos_observacion": {
+      "hash": "5df62bb3b62143d6",
+      "texto": [
+        "Observe de perto um pilar do pátio para distinguir como o perfil de ave quetzal se funde com o peito de borboleta",
+        "Procure nas órbitas dos olhos dos relevos os discos negros e brilhantes de obsidiana polida",
+        "Olhe as gregas vermelhas e brancas das paredes interiores e as ameias escalonadas que coroam o teto do pátio"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d14a80916ea3473",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico Tardio (por volta de 450-550 d.C.)",
+        "Elementos destacados": "Pátio dos Pilares com baixos-relevos de Quetzalpapálotl, olhos de obsidiana, murais com gregas e ameias do signo do ano",
+        "Restauração": "Jorge R. Acosta (1962-1964)",
+        "Procedência": "Esquina sudoeste da Praça da Lua"
+      }
+    },
+    "faq_mito": {
+      "hash": "10b50277aaae3e98",
+      "texto": {
+        "pregunta": "Mito: Os tetos de madeira e as ameias do Palácio de Quetzalpapálotl se mantiveram de pé desde a época pré-hispânica.",
+        "respuesta": "Realidade: Os pilares de pedra e os muros baixos estavam sepultados sob o próprio desabamento; o arqueólogo Jorge Acosta restituiu as coberturas planas nos anos sessenta, seguindo os restos originais encontrados no piso."
+      }
+    }
+  }
+}

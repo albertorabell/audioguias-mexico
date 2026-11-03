@@ -1,0 +1,55 @@
+{
+  "id": "teo_13_conjunto_sol",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "195d3efba3bb58de",
+      "texto": "Conjunto do Sol: a casa dos sacerdotes e o jaguar azul"
+    },
+    "frase_gancho": {
+      "hash": "515e0bdb9f98bff3",
+      "texto": "Um deus descendo do céu e um jaguar abraçando uma planta nas paredes do palácio do Sol."
+    },
+    "puente_narrativo": {
+      "hash": "899063eebaf7dcca",
+      "texto": "Contorne agora a Pirâmide do Sol em direção ao lado sul e siga a trilha que leva ao Museu da Cultura Teotihuacana: lá você verá a cidade inteira em escala e as oferendas que as pirâmides guardavam."
+    },
+    "guion_corto": {
+      "hash": "0aa64feb87aa094f",
+      "texto": "Você está junto ao Conjunto ou Palácio do Sol. Seus pórticos e cômodos tiveram muitos murais. No Pátio Três aparece um personagem vestido de arara que desce de uma árvore. Há também um jaguar com corpo de rede que abraça uma planta de agave. Alguns pesquisadores acreditam que eles contam a descida do sol ao mundo da água. É uma interpretação, não um fato. Os murais que você vê agora são conhecidos por estudos de outros especialistas."
+    },
+    "guion_largo": {
+      "hash": "7928ce3c93e0ecec",
+      "texto": "O Pátio Três do Palácio do Sol teve uma série de murais que foram muito estudados. No lado poente, veem-se cenas do chamado Deus Borboleta Pássaro. Ele aparece vestido de arara, descendo de uma árvore sobrenatural e rodeado de signos da água. Em outras paredes há um jaguar reticulado, com o corpo coberto como por uma rede, que abraça uma planta de agave. Também aparecem personagens que se relacionam com o deus da chuva. Pelo menos dezesseis murais foram descritos neste pátio. A pesquisadora Paulinyi propõe que os murais contam a descida do sol ao mundo da água, em uma grande festa. Outros pesquisadores não concordam. Alguns veem o deus como uma figura parecida com Sete Arara, um personagem do mundo maia. Outros veem o personagem central como a Grande Deusa. Ela mesma apresenta sua leitura como hipótese. Os murais são datados, com dúvidas, entre os anos trezentos e cinquenta e quinhentos e cinquenta. O que fica claro é que quem vivia aqui cercava sua casa de imagens da água, dos felinos e das aves. Quando olhar os muros, pense que essas imagens eram uma linguagem que seus vizinhos sabiam ler."
+    },
+    "retos_observacion": {
+      "hash": "dcb2c64786fd677b",
+      "texto": [
+        "Localize no lado norte da esplanada os três pequenos adoratórios e os muros baixos do Conjunto do Sol",
+        "Observe como o palácio tinha acesso direto e privilegiado ao lado da Pirâmide do Sol",
+        "Veja na imagem da sua tela o traço azul-turquesa do jaguar abraçando os três galhos do agave"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78df0899050e0885",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico Tardio (fase Xolalpan, por volta de 450-550 d.C.)",
+        "Localização": "Flanco norte da Praça da Pirâmide do Sol",
+        "Achados": "Mais de 30 murais (entre eles o Jaguar Azul com agave e borboletas) e altíssima concentração de cerâmica cerimonial",
+        "Guarda atual dos murais": "Museu de Murais Beatriz de la Fuente e MNA"
+      }
+    },
+    "faq_mito": {
+      "hash": "347a861544b49ce9",
+      "texto": {
+        "pregunta": "Mito: Todos os murais descobertos em Teotihuacán continuam colados nos muros ao ar livre.",
+        "respuesta": "Realidade: Muitos dos murais mais delicados, como o do Jaguar Azul deste palácio, foram removidos por restauradores para protegê-los do sol e da chuva, e estão em museus do sítio e da Cidade do México."
+      }
+    }
+  }
+}

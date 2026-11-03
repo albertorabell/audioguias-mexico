@@ -1,0 +1,58 @@
+{
+  "id": "teo_23_museo_murales",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "1b5c94a616703b3a",
+      "texto": "Museu de Murais de Teotihuacán «Beatriz de la Fuente»"
+    },
+    "frase_gancho": {
+      "hash": "cd3ebc0198c81564",
+      "texto": "Aqui você vê as cores de uma cidade que hoje parece cinzenta."
+    },
+    "puente_narrativo": {
+      "hash": "f80a6ed26fc1b057",
+      "texto": "Ao sair do museu, siga o circuito externo em direção ao leste, atrás da Pirâmide do Sol: entraremos em Tepantitla para ver, em sua parede original, o mural mais famoso da cidade."
+    },
+    "guion_corto": {
+      "hash": "287ef1300d3bd8e8",
+      "texto": "Você entra no Museu de Murais de Teotihuacán, que leva o nome da pesquisadora Beatriz de la Fuente. Lá fora você vê pedra e terra. Aqui você pode imaginar uma cidade pintada de cores. Os murais mostravam deuses, animais, plantas e procissões. Numa cidade sem escrita longa como a dos maias, as imagens eram uma forma de contar o mundo. Reserve um tempo para cada sala."
+    },
+    "guion_largo": {
+      "hash": "101efe05804b3b0f",
+      "texto": "O Museu de Murais de Teotihuacán leva o nome de Beatriz de la Fuente, a pesquisadora que coordenou o estudo da pintura mural pré-hispânica. Sua obra sobre Teotihuacán, publicada em mil novecentos e noventa e cinco, é uma referência para quem estuda essas pinturas. Aqui estão guardados fragmentos de murais que saíram de conjuntos da cidade. Eles ajudam a imaginar como Teotihuacán era vista quando seus muros estavam pintados. Para fazer um mural, cobria-se o muro com uma camada de estuque de cal. Depois ele era alisado e pintado com cores minerais. Enquanto você percorre as salas, procure as figuras que já viu pelo caminho: felinos com rede, aves, plantas de agave, procissões de coiotes e jaguares. Se você as encontrar, lembre onde estava quando as vimos. Não é preciso lembrar cada símbolo. Basta perceber a variedade. Havia cenas de deuses, de animais e de gente, e cada uma tinha seu lugar em um edifício. Uma cidade sem textos longos em estelas, como os maias, usava imagens para transmitir ideias. Por isso esses murais são tão valiosos para quem quer entender Teotihuacán."
+    },
+    "retos_observacion": {
+      "hash": "7a0bedad740f3aaa",
+      "texto": [
+        "Observe os alisadores ou desempenadeiras de pedra com que os artesãos brunham o estuque fresco",
+        "Procure os painéis originais do Conjunto do Sol, nos quais o corpo das borboletas é uma mão humana com jade",
+        "Identifique as vírgulas da palavra, essas volutas que brotam diante da boca dos sacerdotes, cheias de flores e gotas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f26159bfe02585df",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Função": "Museu especializado em pintura mural pré-hispânica (inaugurado em 2001)",
+        "Localização": "Exterior norte, junto ao Portão 3",
+        "Exposição": "9 salas temáticas com murais originais do Conjunto do Sol, Techinantitla, Tetitla, Atetelco e La Ventilla"
+      }
+    },
+    "faq_mito": {
+      "hash": "1f6237ddd7a9f9cc",
+      "texto": {
+        "pregunta": "Mito: As pirâmides e os templos de Teotihuacán originalmente tinham aparência de pedra cinza e tezontle vermelho nu.",
+        "respuesta": "Realidade: Toda a arquitetura da cidade era recoberta de estuque branco e pintada com intensas cores minerais, principalmente o vermelho de hematita."
+      }
+    }
+  }
+}

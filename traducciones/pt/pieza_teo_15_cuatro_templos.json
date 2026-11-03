@@ -1,0 +1,55 @@
+{
+  "id": "teo_15_cuatro_templos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "51d07dcb1a9c6d06",
+      "texto": "Pátio dos Quatro Pequenos Templos"
+    },
+    "frase_gancho": {
+      "hash": "272f77e8780410f7",
+      "texto": "Um pátio com quatro pequenos templos, aberto para a avenida."
+    },
+    "puente_narrativo": {
+      "hash": "8d257ba8f4b89a33",
+      "texto": "Vire agora o olhar para o lado oposto da avenida, atrás dos muros orientais: ali se esconde o gigantesco palácio onde quatro senhores governavam ao mesmo tempo."
+    },
+    "guion_corto": {
+      "hash": "0353978682e540fe",
+      "texto": "Você está diante do Pátio dos Quatro Pequenos Templos. Uma escadaria sobe da Calçada até uma plataforma elevada. O pátio é cercado por quatro pequenas bases de templo. Pensa-se que tenha sido uma residência importante. Que sua entrada olhasse para a avenida talvez não tenha sido por acaso. Muitas casas da cidade, ao contrário, se fechavam para a rua. Aqui parece que se queria ser visto."
+    },
+    "guion_largo": {
+      "hash": "e23acfdf9cec2681",
+      "texto": "Olhe para a calçada da esquerda da Calçada dos Mortos, em direção à Lua. Uma larga escadaria sobe até uma plataforma elevada. É o Pátio dos Quatro Pequenos Templos. O nome vem de quatro pequenas bases de templo ao redor de um espaço central. Muitas casas de Teotihuacán tinham muros cegos voltados para a rua. Já este conjunto parece se abrir para a avenida. Essa posição o torna muito visível para quem caminha pela Calçada. Pensa-se que seus moradores eram pessoas importantes, embora não se saiba com certeza quem eram. Os quatro templos ao redor de um centro lembram uma ideia que aparece em muitas culturas da Mesoamérica: quatro rumos e um centro. É uma leitura possível, não um fato comprovado. Também foram encontrados restos de pintura mural em conjuntos como este, com personagens e adornos. Isso nos diz que a casa era decorada com esmero. Daqui, as pessoas que moravam no alto podiam ver as procissões passarem. Talvez fosse uma forma de participar da vida da cidade. O certo é que vê-lo de baixo diz muito a você: quem tinha uma casa assim queria ser visto."
+    },
+    "retos_observacion": {
+      "hash": "f6b53ba801e81426",
+      "texto": [
+        "Localize, na calçada oeste da Calçada dos Mortos, a grande escadaria com balaustradas que dá acesso direto à plataforma",
+        "Se você subir ao conjunto, identifique as quatro pequenas bases de templo que cercam o altar central",
+        "Procure, ao pé dos muros, as canaletas de pedra lavrada que escoavam a água do pátio para a avenida"
+      ]
+    },
+    "especificaciones": {
+      "hash": "aa66c28c913f5270",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (por volta de 250-550 d.C.)",
+        "Estrutura": "Conjunto elevado com escadaria monumental voltada para a Calçada, pátio em quincunce (4 templos e altar central) e salas com pórticos",
+        "Função": "Residência sacerdotal e controle cerimonial",
+        "Procedência": "Lado oeste da Calçada dos Mortos, entre o Sol e a Lua"
+      }
+    },
+    "faq_mito": {
+      "hash": "fbb469423ee3f78d",
+      "texto": {
+        "pregunta": "Mito: Todas as moradias de Teotihuacán eram recintos fechados, sem vista para as avenidas principais.",
+        "respuesta": "Realidade: Os palácios sacerdotais do centro, como este conjunto, tinham escadarias e pórticos monumentais abertos diretamente para a Calçada dos Mortos."
+      }
+    }
+  }
+}

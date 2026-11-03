@@ -1,0 +1,55 @@
+{
+  "id": "teo_06_rio_san_juan",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3ed240c5adcc2759",
+      "texto": "O rio que girou noventa graus"
+    },
+    "frase_gancho": {
+      "hash": "4f05f39398175e9a",
+      "texto": "Os teotihuacán não adaptaram sua cidade ao rio: moveram o rio para que seguisse o seu plano."
+    },
+    "puente_narrativo": {
+      "hash": "1387c55af4930b2b",
+      "texto": "Ao terminar de atravessar a ponte, comece a subir o primeiro trecho de escadarias rumo ao norte para sentir como a Calçada dos Mortos brinca com seus olhos e seus ouvidos."
+    },
+    "guion_corto": {
+      "hash": "0712e7ce71457273",
+      "texto": "Ao atravessar o rio San Juan, você está diante de uma obra de engenharia. Seu leito natural não se encaixava no plano da cidade, então foi desviado e canalizado. Segundo um estudo com laser aéreo, por cerca de três quilômetros ele segue a orientação da cidade. Provavelmente isso foi feito no século dois. A água servia para drenar e para controlar as chuvas fortes. Os construtores queriam uma cidade ordenada, e a paisagem teve de obedecer."
+    },
+    "guion_largo": {
+      "hash": "b7977d2889ad15ba",
+      "texto": "O rio San Juan atravessa o centro de Teotihuacán, e não corre como um rio natural. Seu leito original cortava o espaço onde foram planejados a Ciudadela e o Grande Conjunto. Por isso foi desviado. Segundo um estudo, isso provavelmente ocorreu no século dois da nossa era. É uma data provável, não segura. O canal passava sob a plataforma norte da Ciudadela e levava água a um poço em sua praça central. Depois corria para o oeste, contornava o Grande Conjunto e seguia junto à Avenida Oeste. Calcula-se que cerca de três quilômetros de leito foram ajustados à malha da cidade. Um estudo com mapeamento aéreo a laser, dirigido por Nawa Sugiyama, confirmou algo mais. O San Juan segue a orientação da cidade por cerca de três quilômetros pelo centro. Outro rio, o San Lorenzo, tem uma orientação diferente e percorre quatro vírgula nove quilômetros. Também foi alterado. Este sistema ajudava a drenar a água e a controlar as inundações. Alguns autores pensam que talvez fosse possível navegar em certas épocas do ano, mas é uma hipótese. Enquanto atravessa, pense que o rio que você vê não é um acidente. Foi uma decisão dos construtores."
+    },
+    "retos_observacion": {
+      "hash": "448364b11b03f9bf",
+      "texto": [
+        "Debruce-se na ponte, olhando para o leste e para o oeste, e observe o traçado completamente reto do leito",
+        "Procure nas paredes do canal os restos dos antigos muros de contenção de pedra",
+        "Olhe para o sul e para o norte e note como o rio divide a avenida em dois mundos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8d4699dec98f6933",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico Inicial (por volta de 150-250 d.C.)",
+        "Obra": "Desvio artificial em ângulo de 90° de cerca de 3 km do leito do rio San Juan",
+        "Funções": "Controle de inundações, coletor geral da drenagem urbana, irrigação agrícola e eixo cósmico leste-oeste",
+        "Procedência": "Cruzamento do rio San Juan com a Calçada dos Mortos"
+      }
+    },
+    "faq_mito": {
+      "hash": "fd03b2d74ff52dd9",
+      "texto": {
+        "pregunta": "Mito: O rio San Juan sempre correu em linha reta cruzando a Calçada.",
+        "respuesta": "Realidade: Seu leito original atravessava o vale na diagonal; os teotihuacán o desviaram à mão em ângulo reto para integrá-lo à sua malha urbana."
+      }
+    }
+  }
+}

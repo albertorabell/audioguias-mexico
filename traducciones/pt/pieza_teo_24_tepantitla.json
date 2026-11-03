@@ -1,0 +1,55 @@
+{
+  "id": "teo_24_tepantitla",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b931ba0b00e1d3bf",
+      "texto": "Tepantitla: o mural do Tlalocan"
+    },
+    "frase_gancho": {
+      "hash": "d2fe5ad51792ea29",
+      "texto": "Um paraíso de água onde as pessoas nadam e jogam bola, e entre as flores também há sacrifício."
+    },
+    "puente_narrativo": {
+      "hash": "31bb785d24f573ae",
+      "texto": "A pouca distância, rumo ao nordeste, perto do leito do rio San Juan, estendia-se o bairro onde os comerciantes forasteiros construíram casas redondas."
+    },
+    "guion_corto": {
+      "hash": "fbba2aa5840a452f",
+      "texto": "No setor leste da cidade fica Tepantitla, uma residência de elite. Entre até o Pórtico Dois do pátio principal e pare diante da parede protegida: você está diante do mural mais famoso e debatido de Teotihuacán. No alto domina uma figura de frente, com um toucado de ave e água que flui de suas mãos, e sobre ela cresce uma árvore cheia de borboletas. Embaixo, uma montanha dá origem a nascentes e rios onde muitas figurinhas humanas nadam, mergulham e jogam bola."
+    },
+    "guion_largo": {
+      "hash": "247627a984798287",
+      "texto": "Em mil novecentos e quarenta e dois, o arqueólogo Alfonso Caso chamou este mural de Tlalocan: o paraíso do deus da chuva, para onde, segundo fontes do século dezesseis, iam os que morriam afogados ou atingidos por um raio. A maioria dos autores aceitou essa leitura durante décadas. Caso também identificava a figura do alto com Tláloc.\n\nObserve com calma a cena de baixo. Uma montanha sagrada dá origem a nascentes e riachos que chegam a uma fonte de água com peixes, plantas aquáticas e um animal parecido com uma rã. Há pessoas que nadam, outras que mergulham e uma que resgata alguém que está se afogando. Entre elas aparecem borboletas por toda parte.\n\nNo alto, a grande figura de frente também tem o seu debate. Hoje muitos a chamam de Grande Deusa, mas isso é uma proposta e não um fato. Peter Furst propôs em mil novecentos e setenta e quatro que era uma divindade feminina, e Esther Pasztory a relacionou com a vegetação e a fertilidade. Karl Taube a chamou de Mulher-Aranha. Outros estudiosos acreditam que poderia ser um governante, ou uma figura de gênero misto.\n\nE há mais. A pesquisadora María Teresa Uriarte propôs que o tema central do mural é o jogo de bola. Há partidas entre jogadores de corpo pintado que disputam a bola com bastões, entre dois marcadores portáteis. Se você procurar com atenção, também aparece uma cabeça cortada junto aos jogadores e um personagem que entoa um hino de morte.\n\nPara a pesquisadora Nadia Giral, os sacrifícios humanos se repetem por todo o mural. Ela diz que as decapitações, o jogo ritual e os sacrifícios não combinam com um paraíso apenas feliz. Uma faixa decorativa emoldura a cena com rostos de Tláloc e vasilhas com o símbolo do ano e a flor do nenúfar: a água rodeia tudo. Qual dessas leituras é a correta, ninguém sabe ainda."
+    },
+    "retos_observacion": {
+      "hash": "a38b6d96dcecd5cb",
+      "texto": [
+        "Localize na parte alta do mural a Grande Deusa de frente e a árvore de galhos trançados que nasce sobre o toucado dela",
+        "Procure no registro inferior os pequenos personagens com bastões de madeira junto ao poste marcador do jogo de bola",
+        "Encontre as volutas cheias de flores e borboletas que saem da boca das figuras como símbolo do canto"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ccbd065cbed30ef1",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico Tardio (por volta de 400-550 d.C.)",
+        "Técnica": "Pintura a fresco sobre estuque de cal",
+        "Localização": "Pórtico 2 de Tepantitla, 500 m a leste da Pirâmide do Sol",
+        "Estudos-chave": "Alfonso Caso (1942), Esther Pasztory e María Teresa Uriarte (UNAM)"
+      }
+    },
+    "faq_mito": {
+      "hash": "0564d0c2198476ee",
+      "texto": {
+        "pregunta": "Mito: O mural de Tepantitla retrata unicamente um paraíso pacífico de descanso eterno.",
+        "respuesta": "Realidade: Embora Alfonso Caso o tenha chamado de Tlalocan, os estudos iconográficos modernos identificaram nele rituais agrícolas, variantes do jogo de bola com bastão e cenas de sacrifício humano."
+      }
+    }
+  }
+}

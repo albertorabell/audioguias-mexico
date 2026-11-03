@@ -1,0 +1,57 @@
+{
+  "id": "teo_00_vistazo",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "30985fc7fcc29f13",
+      "texto": "Teotihuacán num relance"
+    },
+    "frase_gancho": {
+      "hash": "a4e9ec31641e2db7",
+      "texto": "Uma cidade traçada com régua e com céu, há cerca de dois mil anos."
+    },
+    "puente_narrativo": {
+      "hash": "764cb13bf3c2379a",
+      "texto": "Dirija-se ao extremo sul da avenida: ali espera por você a Ciudadela, um pátio rebaixado tão grande que nele cabia uma multidão inteira."
+    },
+    "guion_corto": {
+      "hash": "81b2d03851a104e7",
+      "texto": "Pare um momento e olhe o horizonte. Ao norte, uma montanha vulcânica domina a paisagem: é o Cerro Gordo. À sua frente se estende uma cidade que chegou a ter cerca de cem mil habitantes em uns vinte quilômetros quadrados, a maior de Mesoamérica. Repare nos muros que o cercam: quase todos combinam uma base inclinada, o talude, com uma moldura retangular por cima, o painel. Esse desenho se repete ao longo de vários quilômetros sobre o seu eixo central, a Calçada dos Mortos. O nome original se perdeu; Teotihuacán foi o nome dado pelos mexicas séculos depois e costuma ser traduzido como «o lugar onde nasceram os deuses»."
+    },
+    "guion_largo": {
+      "hash": "257dbd6a0a670d96",
+      "texto": "Quase nenhum nome que você vai ouvir hoje pertenceu a quem levantou estas pedras. Teotihuacán é o nome que os mexicas deram séculos depois, quando a cidade já estava vazia. Os mexicas também batizaram a avenida central de Calçada dos Mortos, porque acreditaram que os montículos de seus lados eram túmulos de reis antigos. Não eram: são templos e palácios. Nas inscrições maias, a cidade aparece com outro nome, Puh, que significa Lugar dos Juncos. Como a chamavam seus próprios habitantes continua sendo um mistério.\n\nPor que uma cidade dessa escala cresceu aqui? Porque o vale tinha quase tudo. Havia nascentes, terra fértil e barro para construir. Bem perto ficavam as minas de obsidiana de Pachuca, o vidro vulcânico com o qual se faziam as melhores lâminas e pontas de flecha de Mesoamérica. Essa obsidiana era vendida até Monte Albán e Tikal, e o Estado vigiava sua produção e seu comércio. Alguns pesquisadores pensam que também chegaram famílias deslocadas pelas erupções vulcânicas do sul da bacia do México. A ordem exata desses acontecimentos ainda é discutida.\n\nOs urbanistas traçaram a cidade como uma grade gigante. A Calçada dos Mortos corre de sul a norte, e duas grandes avenidas a cruzam em ângulo reto. Mas, se você levasse uma bússola, notaria algo estranho: toda a cidade está girada cerca de quinze graus a leste do norte verdadeiro. A parte central segue a orientação da Pirâmide do Sol. Sua fachada olha para onde o Sol se põe no fim de abril e em meados de agosto. Entre essas datas contam-se duzentos e sessenta dias, a contagem do calendário ritual.\n\nA história que você vai percorrer tem quatro grandes momentos. Entre os séculos um e dois, levantam-se as pirâmides do Sol e da Lua. Por volta do ano duzentos, constrói-se a Ciudadela com o seu grande templo. A partir do século quatro chega o apogeu: calcula-se que havia cerca de dois mil conjuntos habitacionais, cada um com dezenas de pessoas. Havia ainda bairros de artesãos e gente vinda de Oaxaca, Veracruz e da região maia.\n\nO quarto momento é o final. Por volta do ano quinhentos e cinquenta, um incêndio arrasou os edifícios da elite ao longo da Calçada. Não há vestígios de uma invasão estrangeira. Entre as explicações mencionam-se secas, fome e revoltas internas. A cidade não desapareceu de um dia para o outro: foi se esvaziando aos poucos. Quase tudo o que hoje sabemos foi reconstruído pelos arqueólogos ao longo de mais de um século, e ainda restam perguntas em aberto.\n\nEste guia avança de sul a norte, assim como a Calçada. Algumas paradas mostram o que você tem à vista. Outras funcionam como raios X: contam o que está oculto sob os seus pés, como túneis e oferendas seladas."
+    },
+    "retos_observacion": {
+      "hash": "07d3ef9630cfe51e",
+      "texto": [
+        "Localize ao norte a silhueta do Cerro Gordo, a montanha que dá origem ao traçado da cidade",
+        "Identifique em qualquer estrutura próxima o talude (muro inclinado embaixo) e o painel (moldura retangular em cima)",
+        "Olhe ao longo da Calçada dos Mortos para dimensionar seu traçado reto"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4664b3e8bd377e7c",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (1-650 d.C.)",
+        "Superfície": "cerca de 20 km²",
+        "Altitude": "cerca de 2 300 m acima do nível do mar",
+        "Calçada dos Mortos": "mais de 5 km de comprimento e de 40 a 50 m de largura",
+        "População estimada": "de 80 000 a 200 000 habitantes",
+        "Procedência": "Vale de Teotihuacán, Estado do México"
+      }
+    },
+    "faq_mito": {
+      "hash": "08e264f25c0c4394",
+      "texto": {
+        "pregunta": "Mito: A Calçada dos Mortos era um cemitério de reis.",
+        "respuesta": "Realidade: O nome foi dado pelos mexicas por uma crença equivocada. Os edifícios que a ladeiam eram templos e residências da elite."
+      }
+    }
+  }
+}

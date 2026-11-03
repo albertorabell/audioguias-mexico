@@ -1,0 +1,56 @@
+{
+  "id": "teo_05_gran_conjunto",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3615a13ce81972b4",
+      "texto": "O Gran Conjunto: o mercado da cidade"
+    },
+    "frase_gancho": {
+      "hash": "b8064a9fc661ddc0",
+      "texto": "Uma praça enorme diante do santuário fechado: mercado da cidade ou armazém do Estado?"
+    },
+    "puente_narrativo": {
+      "hash": "5d0fa31c22875808",
+      "texto": "Siga pela Calçada dos Mortos rumo ao norte e pare ao cruzar a ponte sobre o leito arborizado: esse rio foi desviado à mão para obedecer ao plano da cidade."
+    },
+    "guion_corto": {
+      "hash": "19bbf18ac902fc29",
+      "texto": "Ao sair da Ciudadela em direção à Calçada dos Mortos, olhe para o lado poente, na direção da Porta Um. Toda essa enorme esplanada que hoje é ocupada pelos jardins de acesso, pelas bilheterias e pelas plataformas laterais formava o Gran Conjunto. Note o contraste: enquanto a Ciudadela que você acabou de deixar para trás é um pátio rebaixado e fechado, este conjunto é a maior praça da cidade e fica bem diante dela, do outro lado da Calçada. O arqueólogo René Millon, autor do grande mapa de Teotihuacán, propôs que aqui pode ter existido o mercado central da metrópole."
+    },
+    "guion_largo": {
+      "hash": "9f38eb6d56d98f9e",
+      "texto": "Sobre este lugar há um debate aberto, e vale a pena que você o conheça. René Millon propôs que nesta praça funcionava o mercado central de Teotihuacán. A razão é lógica: é a maior praça da cidade e fica diante da Ciudadela, do outro lado da Calçada. Millon também interpretou como comerciantes algumas figuras dos murais.\n\nMas a arqueóloga Linda Manzanilla, da UNAM, vê outra coisa. Ela apresenta evidências de que o Gran Conjunto foi, antes, um centro de redistribuição de bens fabricados pelos artesãos. Além disso, ela assinala que nunca se encontrou uma prova clara de um mercado na cidade. As mesmas imagens dos murais, diz ela, representariam sacerdotes e não comerciantes. Nenhuma das duas leituras está resolvida.\n\nO que sabemos é o que circulava por esta cidade. Calcula-se que viviam cerca de cem mil pessoas em uns dois mil conjuntos habitacionais. A obsidiana de Pachuca saía daqui rumo a Monte Albán e a Tikal. A mica dourada chegava de Oaxaca, o jade da Guatemala, e as conchas das costas do Golfo e do Caribe. E tudo viajava nos ombros de carregadores, porque na Mesoamérica não havia animais de tração nem carros com rodas.\n\nSeja mercado ou centro de redistribuição, este lugar cumpria uma função que nenhum templo cumpria: por aqui passava a vida econômica da cidade. Do outro lado da Calçada, a Ciudadela era um recinto com uma única entrada pública e um enorme peso ritual. Uma leitura possível é que a cidade mostrava duas faces do poder frente a frente: o poder sagrado, fechado e cerimonial, e o poder dos bens e do trabalho.\n\nVocê está em uma das zonas mais importantes do plano de Millon. A partir deste ponto considera-se o centro da cidade, e a partir daqui se organizam os quatro quadrantes."
+    },
+    "retos_observacion": {
+      "hash": "5dafcce088a355b7",
+      "texto": [
+        "Compare, da Calçada, as duas grandes praças frente a frente: a Ciudadela (rebaixada e fechada a leste) e o Gran Conjunto (aberto a oeste)",
+        "Observe as plataformas alongadas e os alicerces de cômodos que contornam a esplanada",
+        "Imagine o cruzamento das grandes avenidas que dividiam aqui a cidade em quatro quadrantes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6cc9bd28d0da327c",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (por volta de 150-600 d.C.)",
+        "Superfície": "mais de 14 hectares",
+        "Estrutura": "Esplanada aberta emoldurada por duas plataformas em U e armazéns circulares",
+        "Hipótese principal": "Mercado central e sede administrativa (René Millon)",
+        "Procedência": "Diante da Ciudadela, lado poente da Calçada dos Mortos"
+      }
+    },
+    "faq_mito": {
+      "hash": "1a5f0eef095c0fea",
+      "texto": {
+        "pregunta": "Mito: Teotihuacán era unicamente um centro cerimonial habitado por sacerdotes.",
+        "respuesta": "Realidade: Foi uma metrópole comercial e manufatureira; o Gran Conjunto concentrava a troca de mercadorias de toda a Mesoamérica."
+      }
+    }
+  }
+}

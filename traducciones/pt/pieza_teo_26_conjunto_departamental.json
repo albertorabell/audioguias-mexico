@@ -1,0 +1,57 @@
+{
+  "id": "teo_26_conjunto_departamental",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4fe88105d0bcefc7",
+      "texto": "Assim se vivia: Zacuala e Yayahuala"
+    },
+    "frase_gancho": {
+      "hash": "974ff9609e9e0ded",
+      "texto": "Muros sem janelas voltados para a rua e a vida girando para dentro."
+    },
+    "puente_narrativo": {
+      "hash": "004fd9b40928edf8",
+      "texto": "Caminhe alguns metros até o conjunto vizinho de Tetitla: entraremos sob os seus tetos para ver de perto o esplendor das paredes pintadas de uma casa rica."
+    },
+    "guion_corto": {
+      "hash": "defa77c9e8535176",
+      "texto": "Você está diante de Zacuala e Yayahuala, dois dos maiores conjuntos de moradia da cidade. Eram como quarteirões amuralhados, com muros sem janelas voltados para a rua. Em Teotihuacán havia cerca de dois mil conjuntos assim. Em cada um viviam famílias numerosas, de sessenta a cem pessoas segundo um cálculo. Os mortos eram enterrados dentro da própria casa. Os muros dizem isso a você: a vida de cada família estava voltada para dentro."
+    },
+    "guion_largo": {
+      "hash": "1eaab402ff48100e",
+      "texto": "Zacuala e Yayahuala estão entre os maiores conjuntos de moradia de Teotihuacán. Olhe para os seus altos muros externos. Voltadas para a rua, estas casas tinham muros cegos e poucas entradas. A vida acontecia para dentro, em pátios e cômodos. O arqueólogo Michael Smith calcula que Teotihuacán teve cerca de dois mil conjuntos assim. Em cada um viviam entre sessenta e cem pessoas. Em geral, cada unidade de moradia dentro do conjunto tinha entre cinco e dez habitantes. Pense no que isso significa. Em uma única cidade havia milhares de pequenas comunidades, cada uma com a sua própria organização. Os conjuntos costumavam ter uma ou duas áreas de sepultamento. Isso quer dizer que os mortos eram enterrados dentro da própria casa. Os avós permaneciam no lugar onde a família vivia. Os arqueólogos usam essa informação para saber como era a vida diária. Os conjuntos variavam muito de tamanho e de adornos. Tetitla, que fica bem perto, tem murais muito conhecidos. Somente ao comparar as casas, a cidade se entende como um conjunto de famílias e não como uma lista de monumentos."
+    },
+    "retos_observacion": {
+      "hash": "54c3a8271a8f1df0",
+      "texto": [
+        "Percorra por fora os altos muros perimetrais de Zacuala ou Yayahuala e confirme que eles não têm absolutamente nenhuma janela voltada para a rua",
+        "Localize a larga escadaria de acesso a oeste de Yayahuala ou o vestíbulo com colunas de Zacuala",
+        "Observe no interior como os pátios abertos com altar central davam luz, ar e água da chuva aos cômodos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7572794739938d0c",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (por volta de 250-600 d.C.)",
+        "Tipologia": "Conjuntos de apartamentos multifamiliares (mais de 2 000 em toda a cidade)",
+        "Zacuala": "aprox. 4 000 m² com 13 pátios com pórticos",
+        "Yayahuala": "quarteirão de 70 x 70 m com 3 templos",
+        "Escavação": "Laurette Séjourné (1955-1961)",
+        "Localização": "Circuito Sudoeste"
+      }
+    },
+    "faq_mito": {
+      "hash": "07a598e60ae359e2",
+      "texto": {
+        "pregunta": "Mito: As pessoas comuns de Teotihuacán viviam em choças precárias de palha fora da cidade e os mortos iam para um cemitério.",
+        "respuesta": "Realidade: A grande maioria da população morava em sólidos conjuntos de apartamentos de pedra e estuque com drenagem pluvial, e enterrava os seus mortos debaixo dos pisos dos próprios cômodos."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "teo_09_piso_mica",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "5f215a62fe41b4e4",
+      "texto": "Complexo da Calçada dos Mortos e o Piso de Mica"
+    },
+    "frase_gancho": {
+      "hash": "bef5c0a75d0a3ef0",
+      "texto": "Um piso coberto de mica que chegou de muito longe."
+    },
+    "puente_narrativo": {
+      "hash": "a36c9b8ac5daff06",
+      "texto": "Siga para o norte: a avenida se abre de repente diante da montanha artificial mais colossal da cidade, a Pirâmide do Sol."
+    },
+    "guion_corto": {
+      "hash": "c6617f5a78802f59",
+      "texto": "Aqui perto, no chamado Grupo Viking, apareceu um piso com camadas de mica, um mineral brilhante. A mica não existe no vale de Teotihuacán. Acredita-se que tenha vindo de Oaxaca, da região de Ejutla. Trazê-la exigiu muito esforço, então deve ter sido um material muito valioso. Ainda se discute para que era usada. Imagine um cômodo com o piso brilhando como um espelho."
+    },
+    "guion_largo": {
+      "hash": "63504e30dbb7a516",
+      "texto": "Neste setor apareceu uma das descobertas mais famosas de Teotihuacán. No chamado Grupo Viking, os arqueólogos encontraram um piso com camadas de mica. A mica é um mineral em lâminas, brilhante e resistente. Ela não se encontra no vale de Teotihuacán. As análises apontam para uma fonte em Oaxaca, na região de Ejutla. Isso significa que alguém a trouxe de muito longe. A pesquisadora Linda Manzanilla informa que em Xalla foram registrados cerca de trinta e sete quilos de mica. Ela também foi encontrada em outros edifícios importantes, e por isso se pensa que era valiosa. Para que servia exatamente, continua em discussão. Alguns pensam que seu brilho imitava o reflexo do sol ou da água. Outros a veem como um material de prestígio, que mostrava o poder de quem conseguia obtê-la. Nenhuma dessas ideias está confirmada. Enquanto você percorre estes pátios, pense que sob eles ainda pode haver mais surpresas. Cada nova descoberta corrige um pouco do que acreditávamos saber."
+    },
+    "retos_observacion": {
+      "hash": "8e33077e232f60cf",
+      "texto": [
+        "Observe os conjuntos de pátios e plataformas escalonadas que ladeiam os dois lados deste trecho da Calçada",
+        "Procure nos pisos de pedra as canaletas e os registros do sistema de drenagem pluvial teotihuacano",
+        "Note os grossos pisos de concreto pré-hispânico feito de cal, areia e cascalho vulcânico triturado"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e233d93d8d42c6b9",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (por volta de 250-550 d.C.)",
+        "Localização": "Trecho central da Calçada dos Mortos (Conjunto Plaza Oeste e Grupo Viking)",
+        "Descoberta de destaque": "Câmara com piso de duas camadas de placas de mica importada de Oaxaca (aprox. 30 m²)",
+        "Exploração": "Pedro Sánchez (1906) e Sigvald Linné / Fundação Viking (1942)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c7a4add4d7dd2f5f",
+      "texto": {
+        "pregunta": "Mito: O Piso de Mica tinha uma função tecnológica ou industrial desconhecida.",
+        "respuesta": "Realidade: A mica era um mineral sagrado e de altíssimo luxo, importado de Oaxaca pela elite teotihuacana para consagrar espaços rituais e decorar muros e vestimentas."
+      }
+    }
+  }
+}

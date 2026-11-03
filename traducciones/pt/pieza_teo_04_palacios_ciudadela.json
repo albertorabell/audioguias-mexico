@@ -1,0 +1,55 @@
+{
+  "id": "teo_04_palacios_ciudadela",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a89b8d317f24072b",
+      "texto": "Palácios Norte e Sul da Ciudadela"
+    },
+    "frase_gancho": {
+      "hash": "8c054af18224bd4e",
+      "texto": "Dois grandes conjuntos de pátios nos lados de um templo, e tudo indica que ali viviam pessoas muito importantes."
+    },
+    "puente_narrativo": {
+      "hash": "7fe3825e8210b2a9",
+      "texto": "Volte até a entrada da Ciudadela e olhe a imensa esplanada aberta do outro lado da avenida: passaremos do palácio fechado para o grande mercado da metrópole."
+    },
+    "guion_corto": {
+      "hash": "8ec98c97cb26e3e9",
+      "texto": "Olhe para os dois lados do Templo da Serpente Emplumada. Ali há grandes conjuntos de pátios e cômodos, como apartamentos, que se acredita terem sido residências da elite. A Ciudadela é um quadrado enorme com quinze pequenas pirâmides e uma praça central. Imagine as pessoas mais poderosas vivendo junto ao templo mais sagrado. É provável que o fogo do século seis também os tenha danificado."
+    },
+    "guion_largo": {
+      "hash": "73b11ce4c65f8246",
+      "texto": "A Ciudadela é uma grande esplanada quadrada cercada de pequenas pirâmides, quinze no total. No centro está o Templo da Serpente Emplumada. Em cada lado desse templo se estendem conjuntos densos de cômodos e pátios, parecidos com apartamentos. Os especialistas acreditam que foram residências da elite. É uma dedução, pois não se sabe com certeza quem vivia ali. Repare na localização. Nem mesmo o maior palácio fica longe do templo. Quem vivia aqui tinha ao seu lado o lugar mais importante do culto. As escavações de Manuel Gamio, entre mil novecentos e dezessete e mil novecentos e vinte e dois, trouxeram à luz esta parte da Ciudadela. Mais tarde, outros arqueólogos continuaram explorando-a. A Ciudadela também ficava perto da Calzada e do grande espaço aberto do Gran Conjunto. Por isso se pensa que era um ponto central da vida política e religiosa. É provável que o incêndio de meados do século seis também tenha danificado estes edifícios, como a muitos da elite, mas isso não está comprovado aqui. Se você olhar com calma, poderá imaginar como teria sido viver bem ao lado da serpente emplumada."
+    },
+    "retos_observacion": {
+      "hash": "243b8866db9a4ccd",
+      "texto": [
+        "Localize as duas plataformas elevadas à esquerda (Norte) e à direita (Sul) do Templo da Serpente Emplumada",
+        "Se a passagem lateral estiver aberta, suba os degraus do flanco norte para ver os alicerces dos pátios e cômodos",
+        "Note a diferença de altura de onde os governantes vigiavam o pátio rebaixado"
+      ]
+    },
+    "especificaciones": {
+      "hash": "fbc2876aec8805d5",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (por volta de 200-550 d.C.)",
+        "Capacidade estimada": "cerca de 50 pessoas por palácio",
+        "Escavação": "Ana María Jarquín e Enrique Martínez Vargas (INAH)",
+        "Procedência": "A Ciudadela, flancos norte e sul do Templo da Serpente Emplumada"
+      }
+    },
+    "faq_mito": {
+      "hash": "f091f166a3af1ee4",
+      "texto": {
+        "pregunta": "Mito: Os palácios da Ciudadela eram residências familiares com grandes cozinhas e depósitos.",
+        "respuesta": "Realidade: Quase não foram encontrados utensílios de cozinha; funcionavam como recintos cerimoniais e administrativos onde a elite recebia alimentos já preparados."
+      }
+    }
+  }
+}

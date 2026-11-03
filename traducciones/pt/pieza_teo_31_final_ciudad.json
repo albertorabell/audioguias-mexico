@@ -1,0 +1,54 @@
+{
+  "id": "teo_31_final_ciudad",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e2914c7686a232e1",
+      "texto": "O fim de Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "02bd1aaa113e8b45",
+      "texto": "A cidade ardeu, mas ninguém sabe com certeza por quê."
+    },
+    "puente_narrativo": {
+      "hash": "2757ce6b50929179",
+      "texto": "Enquanto você dá os últimos passos em direção à saída, ouça nosso epílogo: o que aconteceu quando os Mexica encontraram estas ruínas vazias e como os arqueólogos as devolveram à luz."
+    },
+    "guion_corto": {
+      "hash": "dcac2ef29f5ce616",
+      "texto": "Por volta do ano quinhentos e cinquenta, alguns dos edifícios mais importantes da Calçada foram saqueados e queimados. O fogo atingiu sobretudo as construções da elite. Não há sinais de um exército estrangeiro. Os especialistas pensam em uma revolta interna ou em uma crise de seca e fome. Ainda se discute quanto tempo durou esse fim e como ele foi. O que você vê hoje é o que restou de uma cidade que tinha sido enorme."
+    },
+    "guion_largo": {
+      "hash": "78e4f3c64e20287f",
+      "texto": "Por volta do ano quinhentos e cinquenta da nossa era, Teotihuacán sofreu um golpe forte. Monumentos importantes foram saqueados e queimados. O fogo se concentrou em construções da classe governante ao longo da Calçada dos Mortos. Em palácios como Xalla, as esculturas foram quebradas. As datas dos incêndios, medidas com estudos de magnetismo, apontam para meados do século seis. Os pesquisadores não encontraram sinais de uma invasão estrangeira. Por isso, propõem-se várias explicações. Uma é uma revolta interna, de gente que atacou quem mandava. Outra é uma crise de clima e de alimentos. Nos anos quinhentos e trinta e cinco e quinhentos e trinta e seis, houve eventos climáticos fortes em muitas partes do mundo. Alguns os ligam a uma possível erupção do vulcão Ilopango. Em Teotihuacán, os ossos de crianças do século seis mostram desnutrição. Uma seca longa pode ter agravado o problema. Alguns acrescentam que outros centros, como Xochicalco, começaram a crescer, embora isso seja apenas uma possibilidade. Nenhuma dessas ideias está resolvida. Talvez tenha havido várias causas ao mesmo tempo. Xalla, um desses palácios, ocupa cerca de cinquenta e cinco mil metros quadrados, com vinte e nove edifícios e oito praças. Boa parte do dano se concentra em estruturas como essa. É possível que quem quebrou as esculturas soubesse bem o que destruía, porque mirou os símbolos do poder. É uma ideia, não um fato. Uma cidade de cerca de cem mil pessoas não se esvazia em uma semana. Quantos anos durou o fim, ainda se investiga. Parece que o poder central se enfraqueceu muito. A cidade deixou de ter a força que tinha tido. Quando você olhar para estes edifícios, lembre-se de que foram erguidos ao longo de séculos, e de que o seu fim foi um processo, não um único dia."
+    },
+    "retos_observacion": {
+      "hash": "1e55bdcb896388b5",
+      "texto": [
+        "Olhe uma última vez a longa linha de templos e palácios da Calçada dos Mortos: todos eles arderam simultaneamente por volta do ano 550 d.C.",
+        "Imagine o contraste entre o centro cerimonial em chamas e os dois mil conjuntos dos bairros periféricos que permaneceram de pé",
+        "Pense em como as ideias, os deuses e a arte de Teotihuacán sobreviveram viajando para Xochicalco, Cacaxtla e o mundo Mexica"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f67c2f282bc871c9",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Data do grande incêndio": "Por volta de 550 d.C. (± 20 anos, datado por arqueomagnetismo e carbono 14)",
+        "Causas convergentes": "Megasseca do século VI, crise alimentar, ruptura das rotas comerciais e levante interno contra a elite",
+        "Cidades receptoras da diáspora": "Cacaxtla, Xochicalco, Cantona, Teotenango e El Tajín"
+      }
+    },
+    "faq_mito": {
+      "hash": "32130bd7f521dabf",
+      "texto": {
+        "pregunta": "Mito: Teotihuacán foi destruída de uma só vez por uma invasão de povos Chichimeca do norte.",
+        "respuesta": "Realidade: Os vestígios de fogo e de destruição seletiva, concentrados exclusivamente nos edifícios de governo da Calçada dos Mortos, indicam uma revolta interna desencadeada após anos de seca e crise social."
+      }
+    }
+  }
+}

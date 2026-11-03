@@ -1,0 +1,62 @@
+{
+  "id": "teo_21_jaguares",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"El Caracol\" para \"El Caracol\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "fc74b535fb871648",
+      "texto": "Palácio dos Jaguares"
+    },
+    "frase_gancho": {
+      "hash": "4e1f3c73ddf683f9",
+      "texto": "Um jaguar que sopra uma concha coberta de plumas."
+    },
+    "puente_narrativo": {
+      "hash": "9d28eeec92c5a12f",
+      "texto": "Neste mesmo conjunto, uma escadaria desce por baixo do piso do palácio até o templo subterrâneo que os construtores enterraram intacto."
+    },
+    "guion_corto": {
+      "hash": "f7de04f9863fe097",
+      "texto": "Este é o Pátio dos Jaguares, ao lado do Palácio de Quetzalpapálotl. Em seus muros há pinturas de felinos com uma grande concha na boca, como se a soprassem. Da concha saem plumas, e na moldura aparece um rosto que poderia ser de Tláloc, deus da chuva. Outros felinos têm o corpo coberto como por uma rede. Ainda se discute o que isso significa. Repare em quantos detalhes há em um único muro."
+    },
+    "guion_largo": {
+      "hash": "0b37c656ce22f799",
+      "texto": "Os pórticos deste pátio conservam duas pinturas. Em uma, felinos com ricos adornos caminham em procissão. Levam na boca um instrumento feito de uma grande concha com plumas. O corpo é alongado e vermelho-escuro, e traz um toucado de cinco plumas longas. Sobre o lombo corre uma fileira de conchas. Sob uma pata caem três gotas vermelhas. A moldura tem um toucado de plumas e um rosto que poderia ser Tláloc dentro de uma estrela. Na outra pintura há pequenos jaguares de corpo verde com uma rede azul. Têm o olho redondo, uma presa longa e curva, e um penacho de plumas verdes. Duas mãos humanas os acompanham. Os estudiosos não concordam sobre o que isso significa. Alguns pensam que a concha chamava para a guerra. Outros a ligam à chuva e à água, pela presença de Tláloc. Também se propôs que a estrela seja Vênus. São ideias, não certezas. Quem vivia aqui, também não se sabe. O que você pode fazer é olhar com calma e ver quantos detalhes cabem em um único muro."
+    },
+    "retos_observacion": {
+      "hash": "0b75af980d348e72",
+      "texto": [
+        "Aproxime-se dos muros dos pórticos do pátio e localize o jaguar avermelhado com penacho verde segurando a concha marinha",
+        "Identifique, diante da concha, a voluta do som e as gotas de líquido que caem da trombeta",
+        "Procure, nas faixas decorativas e nos aposentos laterais, os rostos de Tláloc dentro de estrelas de cinco pontas e os felinos cobertos com rede azul"
+      ]
+    },
+    "especificaciones": {
+      "hash": "37ed4013cedce97d",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico Tardio (fase Xolalpan, por volta de 450-550 d.C.)",
+        "Técnica": "Pintura mural a fresco sobre estuque com hematita, ocre, verde malaquita e azul",
+        "Motivos principais": "Jaguares tocando conchas emplumadas, felinos reticulados e estrelas de Vênus com Tláloc",
+        "Localização": "Contíguo ao lado oeste do Palácio de Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "cdce351d3062d6cc",
+      "texto": {
+        "pregunta": "Mito: Os jaguares na arte teotihuacana representavam unicamente a guerra e a destruição.",
+        "respuesta": "Realidade: Em Teotihuacán o jaguar estava intimamente ligado às cavernas, à noite e ao trovão; por isso aqui ele aparece tocando uma concha marinha para invocar a chuva."
+      }
+    }
+  }
+}

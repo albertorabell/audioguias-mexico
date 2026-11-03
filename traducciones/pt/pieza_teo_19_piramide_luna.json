@@ -1,0 +1,56 @@
+{
+  "id": "teo_19_piramide_luna",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f374cc1285da90c8",
+      "texto": "Pirâmide da Lua"
+    },
+    "frase_gancho": {
+      "hash": "5856f87de45c4164",
+      "texto": "Sete pirâmides, uma dentro da outra, e sob elas pumas, águias e pessoas enterradas como oferenda."
+    },
+    "puente_narrativo": {
+      "hash": "4e8601e061438f71",
+      "texto": "Caminhe agora até o canto esquerdo da praça, a sudoeste da pirâmide: desceremos alguns degraus para entrar no palácio mais bem conservado de Teotihuacán."
+    },
+    "guion_corto": {
+      "hash": "d5713cf44e13509a",
+      "texto": "Pare diante da escadaria da Pirâmide da Lua e observe sua silhueta contra o céu. Embora meça quarenta e três metros de altura, uns vinte metros a menos que a Pirâmide do Sol, os dois cumes estão quase na mesma altitude, porque aqui o terreno do vale é mais elevado. Repare nos taludes inclinados do edifício e compare-os com as encostas do Cerro Gordo que desponta atrás: os construtores parecem ter buscado fazer da pirâmide um eco da montanha. E se você olhar os cortes de sua fachada frontal, perceberá que não é um único edifício, mas vários sobrepostos."
+    },
+    "guion_largo": {
+      "hash": "36e1aee8b4f70c5a",
+      "texto": "Ao contrário da Pirâmide do Sol, que foi erguida em uma única grande etapa, a Pirâmide da Lua cresceu durante séculos, como um ser vivo. A partir do fim dos anos noventa, os arqueólogos Rubén Cabrera e Saburo Sugiyama escavaram túneis até o seu coração. Descobriram que dentro há seis pirâmides anteriores, uma cobrindo a outra, até chegar à sétima, a que você vê hoje. A partir do quarto edifício, cada ampliação foi consagrada com sepultamentos e oferendas. E as ampliações não eram pequenas: o edifício quatro foi nove vezes maior que o três.\n\nO primeiro desses achados apareceu na construção do edifício quatro, na primeira metade do século três. Era um homem de entre quarenta e cinquenta anos, sentado, com as mãos atadas às costas. A análise de seus ossos indica que ele passou a infância longe de Teotihuacán. Eram dezenas os animais que o acompanhavam: dois pumas e um lobo em jaulas de madeira, nove águias-reais, um falcão, uma coruja e cobras-cascavel. Havia também esculturas de pedra verde, figuras de obsidiana e oito vasilhas com o rosto de Tláloc. A postura de seus braços e pernas é idêntica à dos sacrificados sob o Templo da Serpente Emplumada. Eram mais ou menos da mesma época, o que sugere um mesmo ritual.\n\nPor volta do ano trezentos, o edifício cinco foi consagrado com quatro homens jovens, atados, e com crânios de lobos e pumas. Um deles trazia um colar de peças de concha em forma de mandíbulas. Mais tarde, ao erguer o edifício seis, enterraram os crânios de cerca de dezoito pessoas decapitadas, quase todas homens jovens, sem nenhuma oferenda. As análises indicam que a maioria era de estrangeiros.\n\nO túmulo mais enigmático marca o fechamento do edifício cinco. Eram três homens de entre quarenta e sessenta anos, sentados de pernas cruzadas, com orelheiras e pingentes de jadeíta de estilo maia. Com eles havia uma águia-real, pumas e serpentes. As análises sugerem que dois cresceram na mesma região. O terceiro vinha de outra diferente, talvez da costa do Golfo ou das terras baixas maias. O jade provavelmente vem da Guatemala. Os arqueólogos discutem se foi um sepultamento de honra ou um sacrifício.\n\nO que queriam dizer com tudo isso? Uma leitura muito difundida propõe que alimentavam simbolicamente a montanha sagrada com o que tinham de mais valioso: animais poderosos, pessoas vindas de longe e pedras verdes trazidas de grandes distâncias. Em troca, esperavam que nunca faltasse água no vale. É uma interpretação, mas explica por que cada nova camada da pirâmide exigia uma oferenda mais espetacular que a anterior.\n\nAinda falta caminho para você percorrer. Se tiver água, aproveite para beber um pouco antes de seguir."
+    },
+    "retos_observacion": {
+      "hash": "0a964e669c007ca5",
+      "texto": [
+        "Compare o ângulo de inclinação dos lados da pirâmide com a encosta natural do Cerro Gordo atrás dela",
+        "Observe na Plataforma Adossada da frente como despontam os muros e taludes das etapas construtivas anteriores",
+        "Note como, daqui, se domina visualmente toda a linha reta da Calçada dos Mortos rumo ao sul"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7531bf368e897ff4",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (7 etapas construtivas entre 100 e 450 d.C.)",
+        "Dimensões": "43 m de altura x 150 m (leste-oeste) x 130 m (norte-sul)",
+        "Achados": "Seis subestruturas internas e os Sepultamentos 2 a 6 com dignitários, cativos e animais em jaulas",
+        "Escavação interior": "Rubén Cabrera e Saburo Sugiyama (1998-2004)",
+        "Procedência": "Extremidade norte da Calçada dos Mortos"
+      }
+    },
+    "faq_mito": {
+      "hash": "413c8a2c5017064c",
+      "texto": {
+        "pregunta": "Mito: A Pirâmide da Lua é mais baixa porque era menos importante que a do Sol.",
+        "respuesta": "Realidade: Por estar construída sobre uma elevação natural ao norte do vale, seu topo fica praticamente na mesma altitude que o do Sol, e suas sete etapas construtivas guardam as oferendas de Estado mais ricas da cidade."
+      }
+    }
+  }
+}

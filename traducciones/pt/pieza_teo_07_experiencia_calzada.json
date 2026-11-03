@@ -1,0 +1,56 @@
+{
+  "id": "teo_07_experiencia_calzada",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a9996968b2314ebe",
+      "texto": "Caminhar pela Calçada dos Mortos"
+    },
+    "frase_gancho": {
+      "hash": "51f4aa454344ea50",
+      "texto": "Uma avenida de quarenta metros de largura que foi o eixo de toda a cidade."
+    },
+    "puente_narrativo": {
+      "hash": "27a45275081936d6",
+      "texto": "Se você seguir o percurso completo, aproxime-se dos edifícios do lado esquerdo para descobrir templos enterrados uns dentro dos outros; se estiver no percurso expresso, continue em direção ao norte: a avenida se abre de repente diante da Pirâmide do Sol."
+    },
+    "guion_corto": {
+      "hash": "fc4c7f94a404343f",
+      "texto": "Você está na Calçada dos Mortos, o eixo de Teotihuacán. Ela mede cerca de quarenta metros de largura. Os mexicas a chamaram de Micaohtli, e por isso se pensou que ali havia tumbas. A maioria dos pesquisadores já descartou essa ideia, porque quase não há sepultamentos nela. Uma rua transversal divide a cidade em quatro zonas. Caminhe devagar e repare como os edifícios aparecem e desaparecem à sua passagem."
+    },
+    "guion_largo": {
+      "hash": "8be26eea44610eaa",
+      "texto": "A Calçada dos Mortos é o eixo principal de Teotihuacán. Sua largura é de cerca de quarenta metros. Sobre o seu comprimento há desacordo entre as fontes. Algumas falam de uns três quilômetros, outras de entre dois e quatro. Os mexicas a chamaram de Micaohtli, que se traduz como caminho dos mortos. Pensava-se que, em seus lados, havia tumbas de reis. Quase não se encontraram tais sepultamentos, de modo que a maioria dos pesquisadores abandonou essa ideia. Mesmo assim, o nome ficou. Em vários pontos a avenida é interrompida para formar pátios junto a edifícios enormes. Uma avenida transversal cruza a Calçada e divide a cidade em quatro quadrantes. Esse plano segue uma quadrícula que quase todos os edifícios respeitam. Enquanto você caminha, repare na sensação de avançar e parar. Os muros e as praças obrigam você a mudar de ritmo. Não sabemos se os construtores buscavam um efeito em quem caminhava. Mas você pode notá-lo. Se quiser, bata uma palma e escute. Não há certeza de que o som fizesse parte do projeto, mas é sempre divertido experimentar."
+    },
+    "retos_observacion": {
+      "hash": "edeb8c1896d5d0c5",
+      "texto": [
+        "Pare bem ao pé de um dos muros transversais e perceba como a vista do fundo da Calçada fica temporariamente oculta",
+        "Dê uma palma seca diante dos muros em talude e painel para ouvir o rebote acústico",
+        "Procure rente ao chão as aberturas quadradas de pedra por onde escoava a água da chuva de cada praça"
+      ]
+    },
+    "especificaciones": {
+      "hash": "98783113022c6ad8",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (traçada formalmente por volta de 150-250 d.C.)",
+        "Comprimento total": "mais de 5 km (cerca de 2 km exploráveis na zona monumental)",
+        "Largura": "40 a 50 m",
+        "Projeto": "Eixo norte-sul seccionado por praças escalonadas com drenagem pluvial",
+        "Procedência": "Eixo central de Teotihuacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "b9ecc995b6557228",
+      "texto": {
+        "pregunta": "Mito: A Calçada dos Mortos é uma avenida plana pensada para o trânsito rápido.",
+        "respuesta": "Realidade: Ela é dividida por muros e desníveis que regulavam a água da chuva e criavam um percurso ritual de subida e descida em direção ao norte."
+      }
+    }
+  }
+}

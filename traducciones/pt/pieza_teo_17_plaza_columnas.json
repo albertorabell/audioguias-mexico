@@ -1,0 +1,58 @@
+{
+  "id": "teo_17_plaza_columnas",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "faq_mito": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "62b3b5e88d9d0695",
+      "texto": "Praça das Colunas: a embaixada maia"
+    },
+    "frase_gancho": {
+      "hash": "7db6c1ec0cb127ab",
+      "texto": "Aqui foram enterrados ossos, vasilhas e pinturas de terras distantes, e tudo de propósito."
+    },
+    "puente_narrativo": {
+      "hash": "e4519f6dfab5e34e",
+      "texto": "Avance os últimos metros em direção ao norte: diante de você se abre o grande teatro cerimonial da Praça da Lua."
+    },
+    "guion_corto": {
+      "hash": "c8754ffa3f4a92bc",
+      "texto": "Você está na Praça das Colunas, um grande conjunto de praças e templos junto à Calçada. Aqui uma equipe dirigida por Saburo Sugiyama encontrou oferendas enormes. Em uma delas havia mais de dois mil quatrocentos e quarenta restos humanos. Em outra, milhares de ossos de animais e pedaços de pintura mural de estilo maia. Tudo foi enterrado de forma intencional. O que isso significa continua em discussão. Pense que, sob estes pisos, há depósitos que foram fechados há séculos."
+    },
+    "guion_largo": {
+      "hash": "4e663feb14ffdf5b",
+      "texto": "Os pesquisadores encontraram aqui oferendas muito grandes, enterradas com cuidado dentro dos edifícios. A chamada Oferenda A um guardava mais de dois mil quatrocentos e quarenta restos humanos. Alguns dentes estavam limados ou tinham incrustações de metal, e pelo menos três crânios mostravam deformação craniana. A Oferenda D um continha cerca de três mil e quinhentos ossos, quase todos de animais, e cerca de dez mil fragmentos de cerâmica. Também havia cal e gesso com imagens de estilo maia. Apareceram ainda mais de mil fragmentos de pintura mural de estilo maia, que provavelmente foram derrubados de propósito. Em outra oferenda havia pedras marinhas e o esqueleto de um macaco-aranha. Os arqueólogos pensam que tudo isso fez parte de grandes festas, talvez para fazer alianças com outros povos. Isso é uma interpretação, não um fato comprovado. Há outro tema em debate. Os textos maias dizem que um homem chamado Siyaj Kak chegou a Tikal em janeiro do ano trezentos e setenta e oito. Muitos o ligavam a Teotihuacán. Estes achados fazem com que alguns especialistas vejam relações mais complexas do que uma simples conquista. Enquanto caminha, imagine sob os seus pés esses depósitos fechados."
+    },
+    "retos_observacion": {
+      "hash": "297ae6927a9c1ea3",
+      "texto": [
+        "Observe os montículos e plataformas do lado oeste da Calçada dos Mortos, logo antes de desembocar na Praça da Lua",
+        "Note a vizinhança imediata deles com os grandes recintos do poder do norte (Xalla a leste e a Lua ao norte)",
+        "Veja na tela do seu app os fragmentos de glifos e figuras de estilo maia recuperados nestas escavações"
+      ]
+    },
+    "especificaciones": {
+      "hash": "484096401c2c0119",
+      "texto": {
+        "Cultura": "Teotihuacán em interação com a elite maia do Clássico Inicial",
+        "Período": "Clássico (apogeu diplomático entre 300 e 450 d.C.)",
+        "Achados": "Mais de 500 fragmentos de murais de estilo maia, cerâmica de Petén e resíduos de banquetes com cacau",
+        "Localização": "Flanco ocidental da Calçada dos Mortos, contíguo à Praça da Lua"
+      }
+    },
+    "faq_mito": {
+      "hash": "a027e54003c349ae",
+      "texto": {
+        "pregunta": "Mito: Os maias e os teotihuacanos viveram em épocas diferentes e não tiveram contato direto.",
+        "respuesta": "Realidade: Coexistiram durante o período Clássico; nobres maias viveram neste setor de Teotihuacán e o Estado teotihuacano interveio diretamente em cidades maias como Tikal e Copán no século IV."
+      }
+    }
+  }
+}

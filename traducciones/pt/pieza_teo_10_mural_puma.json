@@ -1,0 +1,55 @@
+{
+  "id": "teo_10_mural_puma",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "28930d61b92dac2a",
+      "texto": "O Mural do Puma"
+    },
+    "frase_gancho": {
+      "hash": "3b9348d32913ae8f",
+      "texto": "Um felino pintado caminha por um muro e nos lembra que a cidade tinha cor."
+    },
+    "puente_narrativo": {
+      "hash": "b71e932c51cb5148",
+      "texto": "Siga para o norte, rumo à Pirâmide da Lua: no percurso completo visitaremos os palácios de governo do caminho, e nos demais iremos direto à grande Praça da Lua."
+    },
+    "guion_corto": {
+      "hash": "a3c94e50012e925d",
+      "texto": "Diante de você está o Mural do Puma. É uma pintura que sobrevive no lugar onde foi feita, junto à Calçada. Mostra um felino de perfil, com uma moldura de faixas coloridas. Hoje você vê as ruínas em tons de cinza, mas a cidade esteve coberta de estuque e pintada. Os felinos aparecem em outros murais de Teotihuacán. Por isso se pensa que eram símbolos importantes. Aproxime-se e observe com calma o traçado das linhas."
+    },
+    "guion_largo": {
+      "hash": "0ef96b43f39e9990",
+      "texto": "Esta pintura se chama Mural do Puma. Está em seu lugar original, junto à Calçada, protegida por uma cobertura. Mostra um felino de perfil, com as garras estendidas, e uma moldura de faixas coloridas. Aproveite para imaginar a Calçada completa. Hoje vemos as ruínas em tons de pedra, mas os edifícios estiveram cobertos de estuque e decorados com pinturas. Os felinos aparecem uma e outra vez nos murais de Teotihuacán. Há jaguares reticulados e procissões de coiotes e jaguares, como as de Atetelco. Por isso se pensa que eram figuras muito importantes. Alguns os relacionam com o poder e com ordens guerreiras. É uma interpretação e não há consenso. Repare na moldura. As faixas ao redor do animal parecem representar correntes de água, mas essa leitura também é uma hipótese. O que você pode ver, sim, é a mão do pintor. Os murais eram feitos com paciência, camada por camada. Olhe o contorno do felino, suas linhas, suas cores. Quem o pintou sabia muito bem o que fazia e conhecia as regras com que se pintava em sua cidade."
+    },
+    "retos_observacion": {
+      "hash": "0c86d7a75568ba87",
+      "texto": [
+        "Localize dentro do painel a silhueta completa do felino de perfil: suas quatro patas com garras, a longa cauda curva e as fauces entreabertas",
+        "Observe as faixas onduladas vermelhas e azuis que emolduram o animal por cima e por baixo",
+        "Repare na espessura da camada branca de estuque de cal sobre a qual os artistas aplicaram os pigmentos há mil e quinhentos anos"
+      ]
+    },
+    "especificaciones": {
+      "hash": "13b2cd37b5718298",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (por volta de 400-550 d.C.)",
+        "Técnica": "Pintura mural a fresco sobre estuque de cal com pigmentos minerais (hematita, ocre e azul)",
+        "Dimensões do mural": "mais de 2 m de comprimento",
+        "Localização": "Lado leste da Calçada dos Mortos, logo ao sul da Praça do Sol"
+      }
+    },
+    "faq_mito": {
+      "hash": "4eafc417259c98cf",
+      "texto": {
+        "pregunta": "Mito: O Mural do Puma é uma cópia moderna colocada para os turistas.",
+        "respuesta": "Realidade: É um mural teotihuacano original, conservado in situ; a cobertura foi colocada para proteger seus pigmentos da chuva e do sol."
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "teo_32_despues",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "retos_observacion": [
+      "el glosario pide \"Maia\" para \"Mayas\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f25f5dd61ba3ae47",
+      "texto": "Teotihuacán depois de Teotihuacán"
+    },
+    "frase_gancho": {
+      "hash": "7178e6cb66815842",
+      "texto": "Quando os mexicas chegaram, a cidade já era uma ruína sagrada."
+    },
+    "puente_narrativo": {
+      "hash": "95db2801dcc6a3e1",
+      "texto": "Aqui termina o seu percurso por Teotihuacán. Quando você visitar o Museu Nacional de Antropologia na Cidade do México, procure a Sala de Teotihuacán: ali esperam por você, cara a cara, os colossos de pedra e os murais que saíram desta terra."
+    },
+    "guion_corto": {
+      "hash": "7523d26a426d0a15",
+      "texto": "Séculos depois da sua queda, os mexicas encontraram estas ruínas e as respeitaram. Foram eles que lhe deram o nome de Teotihuacán. Acreditavam que aqui os deuses tinham criado a era presente, o Quinto Sol. Moctezuma vinha em peregrinação. Diziam também que gigantes haviam levantado as pirâmides. Hoje sabemos que quem as fez foram pessoas como você e como eu, numa cidade com milhares de famílias. Grande parte da cidade ainda continua sem ser escavada. Assim, este lugar continuou sendo importante muito depois do seu apogeu."
+    },
+    "guion_largo": {
+      "hash": "38dd363dd2c22003",
+      "texto": "Para os mexicas, Teotihuacán era um lugar sagrado. Segundo os seus relatos, aqui os deuses se sacrificaram para que existisse o Sol da nossa era. O mito de Tecciztécatl e Nanahuatzin, que se lançaram ao fogo, é registrado por fontes do século dezesseis. Os mexicas pensavam que gigantes haviam construído as pirâmides. Hoje sabemos que não foi assim. Foram pessoas de carne e osso, com ferramentas de pedra e muita organização. A história das escavações também é longa. No século dezessete, Carlos de Sigüenza y Góngora já visitou as ruínas. Em mil novecentos e cinco, Leopoldo Batres explorou a Pirâmide do Sol e a restaurou para o Centenário de mil novecentos e dez. Entre mil novecentos e dezessete e mil novecentos e vinte e dois, Manuel Gamio trabalhou na Ciudadela. Em mil novecentos e trinta e dois, Sigvald Linné escavou casas da cidade. Entre mil novecentos e sessenta e mil novecentos e sessenta e cinco, o INAH realizou grandes obras com Jorge Acosta. Em mil novecentos e setenta e um, descobriu-se a caverna sob a Pirâmide do Sol. Entre mil novecentos e oitenta e mil novecentos e oitenta e dois, escavou-se e restaurou-se a Pirâmide da Serpente Emplumada e a Calçada. A equipe de René Millon elaborou um mapa de toda a cidade. Graças a esse mapa, sabemos que havia cerca de dois mil conjuntos de moradia. Mas grande parte da cidade continua sem ser escavada. A Pirâmide do Sol foi uma das mais restauradas. Nessa restauração, retirou-se parte das fachadas originais, até dez metros em alguns lados, segundo uma fonte. Por isso convém perguntar sempre o que é original e o que foi reconstruído. A cada ano surgem dados novos, e por isso o que hoje contamos a você pode mudar amanhã."
+    },
+    "retos_observacion": {
+      "hash": "6f5fef485912801a",
+      "texto": [
+        "Olhe para os campos de agaves, nopais e casas que rodeiam o perímetro da zona arqueológica: sob todo esse solo continuam enterrados 90 % da antiga cidade",
+        "Lembre-se dos três nomes que esta metrópole já teve: Ho Noom Witz para os maias, Teotihuacán para os mexicas e o seu nome original, ainda desconhecido",
+        "Quando visitar o Museu Nacional de Antropologia em Chapultepec, conecte este percurso com o monólito de Chalchiuhtlicue, o Disco da Morte e o Marcador de La Ventilla"
+      ]
+    },
+    "especificaciones": {
+      "hash": "cd0389b0e362eeb2",
+      "texto": {
+        "Cultura": "Recepção Mexica (Pós-clássico Tardio) e história da arqueologia mexicana (séculos XX e XXI)",
+        "Marcos de exploração": "Leopoldo Batres (1905-1910), Manuel Gamio (1917-1922), Projeto Teotihuacán INAH / Jorge Acosta e Ignacio Bernal (1962-1964), Mapa de René Millon (1962-1970) e projetos contemporâneos (Cabrera, Sugiyama, Manzanilla, Gómez Chávez, Ortega)"
+      }
+    },
+    "faq_mito": {
+      "hash": "1cf6fe9b63af0ccb",
+      "texto": {
+        "pregunta": "Mito: Toda a cidade de Teotihuacán já foi desenterrada.",
+        "respuesta": "Realidade: A zona arqueológica aberta ao público abrange apenas o núcleo cerimonial; mais de oitenta e cinco por cento dos conjuntos habitacionais da antiga cidade permanecem ainda debaixo da terra."
+      }
+    }
+  }
+}

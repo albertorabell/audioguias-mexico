@@ -1,0 +1,57 @@
+{
+  "id": "teo_12_tunel_sol",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "69fcf2aec6942eb5",
+      "texto": "A caverna sob a Pirâmide do Sol"
+    },
+    "frase_gancho": {
+      "hash": "927db213e73348d7",
+      "texto": "Sob a Pirâmide do Sol há um túnel que ninguém esperava."
+    },
+    "puente_narrativo": {
+      "hash": "ad5946b33df6e53c",
+      "texto": "Volte agora o olhar para os edifícios baixos do lado esquerdo desta praça: ali viviam os sacerdotes que cuidavam da pirâmide, cercados de jaguares pintados de azul."
+    },
+    "guion_corto": {
+      "hash": "811539f0f1afb570",
+      "texto": "Sob a Pirâmide do Sol há um túnel e uma câmara. Foram descobertos em mil novecentos e setenta e um. O túnel mede cerca de cento e três metros, e se desce por um poço de cerca de seis metros e meio. Hoje está fechado ao público. Um estudo recente acredita que foi feito pelo povo de Teotihuacán, e não pela natureza. Para que servia, ainda se discute. Enquanto você está aqui, pense no que há logo abaixo."
+    },
+    "guion_largo": {
+      "hash": "24b51e6e0c6c1088",
+      "texto": "Sob a Pirâmide do Sol há um túnel que foi descoberto em mil novecentos e setenta e um. Entra-se por um poço vertical de cerca de seis metros e meio. Depois segue uma passagem de cerca de cento e três metros até uma câmara sob o centro da pirâmide. Durante anos se pensou que era uma caverna natural de origem vulcânica. O arqueólogo Saburo Sugiyama e sua equipe, em dois mil e nove, propuseram que os teotihuacanos a fizeram ou a modificaram à mão. Essa ideia muda o significado. Significa que alguém decidiu cavar sob o lugar onde depois ergueu a pirâmide. Foram encontradas oferendas no túnel, mas há opiniões diferentes sobre quando ele foi selado. Algumas fontes dizem que foi há cerca de mil e oitocentos anos, outras o datam entre duzentos e duzentos e cinquenta antes da nossa era. Essa diferença continua sem solução. Uma hipótese diz que a caverna representava a origem mítica do mundo, um lugar de onde brotavam a água e a vida. É uma ideia de especialistas, não um fato. Hoje você não pode descer, mas pode imaginar que sob os seus pés há um caminho escuro de mais de cem metros."
+    },
+    "retos_observacion": {
+      "hash": "345fab1fd1004e5c",
+      "texto": [
+        "Olhe para o pé da escadaria central, junto à Plataforma Adosada: ali se encontra selado o poço de descida de 6,5 metros",
+        "Trace com o olhar uma linha desde esse ponto até o eixo vertical do topo da pirâmide, onde termina a câmara de quatro pétalas",
+        "Observe nas imagens do seu app a planta em forma de trevo ou de flor de quatro lóbulos do túnel"
+      ]
+    },
+    "especificaciones": {
+      "hash": "83781b3da743dae7",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico Inicial (século I-II d.C.)",
+        "Comprimento": "103 m",
+        "Profundidade": "6,5 m",
+        "Fechamento antigo": "17 muros transversais de tezontle e barro",
+        "Achados": "Descoberto em 1971 (Jorge Acosta / René Millon); depósitos escavados em 2008-2011 (Sugiyama e Sarabia)",
+        "Acesso": "Fechado ao público"
+      }
+    },
+    "faq_mito": {
+      "hash": "1dd06005b1c32e15",
+      "texto": {
+        "pregunta": "Mito: A caverna sob a Pirâmide do Sol é uma gruta natural intacta.",
+        "respuesta": "Realidade: Estudos geológicos recentes indicam que ela foi escavada e modelada em forma de flor de quatro pétalas pelos próprios teotihuacanos, para sacralizar o terreno antes de erguer a pirâmide."
+      }
+    }
+  }
+}

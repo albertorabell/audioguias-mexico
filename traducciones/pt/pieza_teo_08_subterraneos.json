@@ -1,0 +1,56 @@
+{
+  "id": "teo_08_subterraneos",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "7c169ed336585ece",
+      "texto": "Edifícios Sobrepostos, Os Subterrâneos"
+    },
+    "frase_gancho": {
+      "hash": "b767eec7248bf412",
+      "texto": "Nesta cidade, construía-se um edifício novo sobre outro velho."
+    },
+    "puente_narrativo": {
+      "hash": "e8834ab8d1a331aa",
+      "texto": "Alguns passos adiante, neste mesmo trecho da avenida, as residências da elite escondiam sob o piso lâminas brilhantes trazidas de Oaxaca."
+    },
+    "guion_corto": {
+      "hash": "e23a6cdfb3bd672a",
+      "texto": "Você está diante de um lugar onde um edifício repousa sobre outro mais antigo. Em Teotihuacán era comum construir sobre o que já existia. Preenchia-se tudo e levantava-se de novo. O Templo da Serpente Emplumada é um exemplo, pois por volta do ano trezentos e cinquenta acrescentou-se uma plataforma diante de sua fachada. O Palácio de Quetzalpapálotl foi erguido sobre o Templo das Conchas Emplumadas. Assim, os edifícios guardaram camadas de história. Ver uma dessas camadas é como abrir um livro antigo."
+    },
+    "guion_largo": {
+      "hash": "b65af377ec971848",
+      "texto": "Em Teotihuacán, uma construção nova raramente apagava a anterior. Muitas vezes preenchia-se o espaço e edificava-se por cima. Isso deixou edifícios inteiros guardados dentro de outros. No setor que você tem à frente, chamado Edifícios Sobrepostos, é possível ver como um edifício se apoia sobre outro mais antigo. Algumas galerias inferiores costumam estar fechadas por conservação, mas, a partir dos desníveis, dá para notar a diferença. Há outros exemplos conhecidos. O Templo da Serpente Emplumada ficou oculto, em parte, por uma plataforma acrescentada por volta do ano trezentos e cinquenta. Assim, sua fachada com esculturas foi protegida. O Palácio de Quetzalpapálotl foi construído sobre o Templo das Conchas Emplumadas. Graças a esse sepultamento, o templo mais antigo se salvou. Os arqueólogos aproveitam essas camadas. Cada uma conta uma etapa distinta da cidade. Há uma pergunta que ainda se discute. Por que se cobria um edifício em vez de demoli-lo? Alguns pensam que enterrar um templo era um ato ritual. É uma hipótese. Cada edifício novo guarda dentro de si a lembrança do anterior. Enquanto você olha, imagine quantas versões deste lugar já existiram sob os seus pés."
+    },
+    "retos_observacion": {
+      "hash": "dd2b7d3a0995afdd",
+      "texto": [
+        "Aproxime-se dos cortes e desníveis do lado oeste da Calçada para distinguir como os muros superiores se apoiam sobre estruturas mais antigas",
+        "Localize as escadas e o acesso às galerias subterrâneas escavadas no início do século XX",
+        "Observe, nas fotos da sua tela, os entrelaçados vermelhos e brancos de estilo veracruzano que estão preservados no nível inferior"
+      ]
+    },
+    "especificaciones": {
+      "hash": "70607d9b8b40de1b",
+      "texto": {
+        "Cultura": "Teotihuacán, com influência da costa do Golfo",
+        "Período": "Clássico Inicial (etapas inferiores por volta de 150-250 d.C.)",
+        "Sobreposição": "de 4 a 6 níveis construtivos",
+        "Elemento de destaque": "Plataforma da Voluta Entrelaçada",
+        "Exploração inicial": "Leopoldo Batres (1909)",
+        "Procedência": "Lado oeste da Calçada dos Mortos"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0b8c41f1a51f50f",
+      "texto": {
+        "pregunta": "Mito: Os teotihuacanos demoliam os edifícios antigos quando saíam de moda.",
+        "respuesta": "Realidade: Eles os preenchiam com cuidado com pedra e terra para usá-los como alicerce, o que permitiu que os templos inferiores conservassem seu estuque e sua pintura."
+      }
+    }
+  }
+}

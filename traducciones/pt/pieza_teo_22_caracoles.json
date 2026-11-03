@@ -1,0 +1,55 @@
+{
+  "id": "teo_22_caracoles",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "a265bb2c77b543e4",
+      "texto": "Templo das Conchas Emplumadas"
+    },
+    "frase_gancho": {
+      "hash": "bd074d1c17b04a60",
+      "texto": "Um templo que ficou enterrado sob um palácio e, por isso, conserva suas cores."
+    },
+    "puente_narrativo": {
+      "hash": "e6e840586c7dfb93",
+      "texto": "Ao terminar este percurso subterrâneo, saia da zona da Lua pela vizinha Porta Três para entrar no Museu de Murais Teotihuacán “Beatriz de la Fuente”."
+    },
+    "guion_corto": {
+      "hash": "fc1062339933eb9d",
+      "texto": "Sob o Palácio de Quetzalpapálotl está outro edifício mais antigo, o Templo das Conchas Emplumadas. Cobriram-no com o palácio, e isso o protegeu. Foi redescoberto no início dos anos sessenta por Jorge Acosta. É datado entre os anos duzentos e trezentos da nossa era. Seu nome vem das conchas com plumas que enfeitam suas pilastras. O lado bom de ter ficado enterrado é que suas cores se conservaram."
+    },
+    "guion_largo": {
+      "hash": "ba974b21b89e6f29",
+      "texto": "Sob o Palácio de Quetzalpapálotl está outro edifício mais antigo. É o Templo das Conchas Emplumadas. Os teotihuacanos não o derrubaram, mas o cobriram. Isso o protegeu do tempo. O arqueólogo Jorge Acosta o redescobriu nos anos sessenta, por volta de mil novecentos e sessenta e dois. É datado entre os anos duzentos e trezentos da nossa era. Seu nome vem das conchas com plumas que se veem em suas pilastras. Em língua náuatle, uma trombeta de concha se chama tecciztli. Essa palavra lembra Tecciztécatl, um deus dos relatos mexicas que se lançou ao fogo para se transformar em lua. Os mexicas o contaram séculos depois, mas já não sabemos se os teotihuacanos pensavam do mesmo modo. É uma conexão que fazemos nós. Segundo descrições do lugar, na plataforma se conservam cores originais. Veem-se aves verdes que se enfrentam de duas em duas, com jorros de água saindo de seus bicos. Essa pintura se conservou porque o templo ficou sepultado. Se você descer à galeria, ou se debruçar a partir dos degraus, imagine as pessoas do século três. Elas viam essa fachada com cores recém-pintadas."
+    },
+    "retos_observacion": {
+      "hash": "c53793287611aaee",
+      "texto": [
+        "Localize, dentro do circuito do conjunto, a descida para as galerias subterrâneas abaixo do nível do Palácio de Quetzalpapálotl",
+        "Identifique nas pilastras de pedra as conchas marinhas entalhadas com plumas, flores de quatro pétalas e bocal de trombeta",
+        "Observe os restos de pintura verde, azul, vermelha e amarela das aves que vertem jorros de água pelo bico"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a86d259bf4d5270a",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico Inicial (por volta de 200-300 d.C.)",
+        "Elementos destacados": "Pilastras com baixos-relevos de trombetas de concha emplumada, murais de aves vertendo água e subestrutura dos Discos Vermelhos",
+        "Exploração": "Jorge R. Acosta (1960-1964)",
+        "Localização": "Subsolo do Palácio de Quetzalpapálotl"
+      }
+    },
+    "faq_mito": {
+      "hash": "ee93b99b031f61af",
+      "texto": {
+        "pregunta": "Mito: O Templo das Conchas Emplumadas foi construído originalmente como uma câmara subterrânea.",
+        "respuesta": "Realidade: Foi um templo a céu aberto durante o século III; ficou sob a terra séculos depois, quando os próprios teotihuacanos o aterraram para edificar em cima o Palácio de Quetzalpapálotl."
+      }
+    }
+  }
+}

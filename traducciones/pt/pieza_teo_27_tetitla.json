@@ -1,0 +1,55 @@
+{
+  "id": "teo_27_tetitla",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "b3ba7fd7b44ff8a8",
+      "texto": "Tetitla: o homem-jaguar e as mãos de jade"
+    },
+    "frase_gancho": {
+      "hash": "e9ef71502f9125c2",
+      "texto": "A casa das paredes pintadas: jaguares, águias vermelhas, deusas de jade e, quem sabe, comerciantes de conchas."
+    },
+    "puente_narrativo": {
+      "hash": "6075601965b56790",
+      "texto": "Siga a trilha por mais alguns minutos em direção ao poente até o conjunto de Atetelco: ali passaremos da riqueza familiar ao santuário das ordens guerreiras."
+    },
+    "guion_corto": {
+      "hash": "e44af23c6f82eb3d",
+      "texto": "Você está agora em Tetitla, um dos maiores conjuntos residenciais de Teotihuacán. Conhecem-se ali cerca de trinta e oito murais, a maioria ainda no lugar onde foram pintados. Caminhe por seus pórticos e procure os felinos alaranjados, as águias vermelhas de asas abertas, as conchas marinhas e as pinturas que os especialistas chamam de Deusas de Jade. Os arqueólogos distinguem aqui cinco etapas de construção, e as pinturas não são todas da mesma época."
+    },
+    "guion_largo": {
+      "hash": "5b139d6603341a58",
+      "texto": "Pare primeiro nos pórticos das águias. O Pórtico Vinte e Cinco é conhecido como o das Águias Vermelhas, e sua faixa de plumas era originalmente de um preto intenso, que hoje se perdeu. Perto dali, o Pórtico Treze mostra felinos alaranjados, e o Pórtico Onze, as Deusas de Jade. Em outros cômodos, um personagem vestido de jaguar caminha em direção a um templo, e aparecem conchas marinhas, aves e figuras que parecem mergulhar.\n\nEssas paredes têm uma história. A casa começou a ser construída entre os anos duzentos e trezentos da nossa era e continuou crescendo até os últimos séculos da cidade. Os arqueólogos distinguem cinco etapas de construção. As pinturas que você vê não são todas da mesma época. Algumas propostas as situam em um intervalo de dois séculos e meio, e ainda se discute quando cada uma foi pintada.\n\nOs murais passaram por muita coisa. Nos anos quarenta, um proprietário particular retirou pinturas antes que o INAH desapropriasse o terreno, em mil novecentos e quarenta e quatro. Um fragmento do jaguar ajoelhado está hoje em Dumbarton Oaks, nos Estados Unidos. Depois, os murais ficaram expostos por cerca de sessenta anos, e hoje restam intervenções de conservação pendentes.\n\nQuem vivia aqui? É uma das perguntas em aberto. Séjourné pensou que era um centro religioso, porque havia pouca cerâmica de uso doméstico. Jorge Angulo propôs que era uma residência, um palácio ou até um centro de governo. Outros pesquisadores sustentam que seus habitantes eram comerciantes especializados em trazer conchas marinhas da área maia. Essa ideia se apoia nos motivos de conchas e mergulhadores dos murais, na cerâmica e nas oferendas. É uma hipótese, não um fato comprovado.\n\nE uma última coisa. Em uma das escavações, em dois mil e oito, apareceram fragmentos de pintura mural sob um piso de cimento. É um sinal de que ainda há pintura enterrada nesta casa."
+    },
+    "retos_observacion": {
+      "hash": "5bd19734d8c00c16",
+      "texto": [
+        "Percorra os pórticos até encontrar os felinos ou homens-jaguar de perfil, com um joelho apoiado no chão diante de um templo",
+        "Procure o mural da divindade verde de braços abertos, de cujas mãos caem cascatas de contas de jade e conchas",
+        "Identifique em outros muros as águias pintadas de frente, com as asas estendidas, e as faixas decorativas com estrelas de Vênus"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a59cbe2db86c4055",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (murais visíveis por volta de 400-550 d.C.; 5 etapas construtivas sobrepostas)",
+        "Dimensões": "Quadra quadrada de cerca de 70 x 70 m (4 900 m²)",
+        "Murais in situ": "Homem-jaguar ajoelhado, Deusa das mãos com jade, águias reais, mergulhadores coletores de conchas e glifos de Vênus",
+        "Localização": "Circuito Sudoeste, ao lado de Zacuala"
+      }
+    },
+    "faq_mito": {
+      "hash": "f5c14317a35a64eb",
+      "texto": {
+        "pregunta": "Mito: Só as grandes pirâmides da Calçada dos Mortos tinham decoração artística.",
+        "respuesta": "Realidade: Conjuntos residenciais de bairro como Tetitla conservam mais de cem murais originais pintados a fresco em seus pátios, corredores e cômodos privados."
+      }
+    }
+  }
+}

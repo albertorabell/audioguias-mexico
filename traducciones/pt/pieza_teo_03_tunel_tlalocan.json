@@ -1,0 +1,57 @@
+{
+  "id": "teo_03_tunel_tlalocan",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "904dc9cb558da2ea",
+      "texto": "O túnel Tlalocan sob a Ciudadela"
+    },
+    "frase_gancho": {
+      "hash": "4172d403325eb274",
+      "texto": "Sob os seus pés, um túnel lacrado guardava cerca de cinquenta mil objetos e mercúrio líquido."
+    },
+    "puente_narrativo": {
+      "hash": "1d48126f4c3139a6",
+      "texto": "Levante o olhar para as duas plataformas altas que ladeiam o templo ao norte e ao sul: ali vivia o círculo mais exclusivo dos sacerdotes."
+    },
+    "guion_corto": {
+      "hash": "b40579be6300bb44",
+      "texto": "Desça de novo até a esplanada e olhe para o piso bem em frente à escadaria da Plataforma Adosada. O acesso ao subsolo está fechado ao público por conservação, mas você está parado sobre um dos achados mais importantes da arqueologia recente. No ano dois mil e três, chuvas intensas abriram um buraco neste lugar. Ao se debruçarem sobre ele, os arqueólogos Sergio Gómez e Julie Gazola descobriram um túnel artificial, de cerca de cem metros de comprimento, que chega até o ponto que fica sob o Templo da Serpente Emplumada."
+    },
+    "guion_largo": {
+      "hash": "e5bda1bf52666d63",
+      "texto": "Este túnel não foi abandonado: foi fechado de propósito. Os teotihuacanos o preencheram e o lacraram há cerca de mil e oitocentos anos, e por isso nenhum saqueador chegou ao fundo. Uma fonte do INAH sugere até uma data anterior, de modo que o momento exato segue em estudo. O conduto tem teto em abóbada, cerca de dois metros e meio de altura e quatro de largura. Em alguns trechos restam apenas vinte e cinco centímetros livres. Por isso, em dois mil e dez, foi enviado um robô de quatro rodas, Tlaloque Uno, com câmeras e luz próprias, para ver o que havia lá dentro.\n\nAs escavações começaram em dois mil e nove. Desde então, foram retiradas cerca de novecentas e setenta toneladas de terra e pedra, com pelo menos vinte e cinco trabalhadores por turno. Perto do final, em um espaço de cerca de quatro por oito metros, apareceu a maior oferenda: fala-se em cerca de cinquenta mil objetos. Há mais de quatro mil de madeira, osso e pelo de grandes felinos. Há mais de quinze mil sementes, caracóis do Golfo do México e do Caribe, jade da Guatemala, discos de pirita e bolas de borracha. Também há quatro figuras humanas de pedra verde, de cerca de sessenta centímetros. Estas oferendas são datadas entre os anos cento e cinquenta e duzentos depois de Cristo.\n\nAtrás dessa oferenda foram detectadas três câmaras. Em uma delas apareceu mercúrio líquido em grandes quantidades, junto com espelhos de pirita e esferas metálicas. O arqueólogo Sergio Gómez propõe que o mercúrio possa ter simbolizado um rio ou um lago do mundo subterrâneo. O projeto se chama Tlalocan, Caminho sob a terra, porque o túnel é interpretado como uma representação desse mundo subterrâneo.\n\nA pergunta que todos fazem é o que há no final. Gómez disse que espera encontrar uma tumba real. Ela ainda não foi encontrada, e não sabemos se existe. Se aparecesse, seria a primeira tumba de um governante em Teotihuacán. Ajudaria a responder a uma enorme dúvida: como esta cidade era governada. Enquanto isso, cada punhado de terra que sai do túnel é estudado no laboratório."
+    },
+    "retos_observacion": {
+      "hash": "790d40b876ca633e",
+      "texto": [
+        "Localize o piso da praça em frente à escadaria da Plataforma Adosada: ali se abriu o buraco em 2003",
+        "Trace com o olhar uma linha reta dos seus pés até o centro do Templo da Serpente Emplumada para acompanhar o percurso subterrâneo de 103 metros",
+        "Observe na sua tela as imagens das esculturas de pedra verde e das esferas de pirita encontradas na câmara final"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f806ac363e297a4b",
+      "texto": {
+        "Cultura": "Teotihuacana",
+        "Período": "Clássico Inicial (clausurado por volta de 250 d.C.)",
+        "Comprimento": "103 m",
+        "Profundidade": "14 a 18 m",
+        "Achados": "mais de 100 000 objetos, mercúrio líquido, esferas de pirita e 4 esculturas de pedra verde",
+        "Exploração": "Projeto Tlalocan, dirigido por Sergio Gómez Chávez (INAH)",
+        "Acesso": "Fechado ao público"
+      }
+    },
+    "faq_mito": {
+      "hash": "4c2fc5f6617246c3",
+      "texto": {
+        "pregunta": "Mito: O túnel sob a Ciudadela era uma caverna natural que desabou com o tempo.",
+        "respuesta": "Realidade: Ele foi escavado à mão na rocha vulcânica pelos teotihuacanos e lacrado deliberadamente com dezoito muros de pedra por volta do ano 250 d.C."
+      }
+    }
+  }
+}

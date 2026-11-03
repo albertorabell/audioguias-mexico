@@ -1,0 +1,56 @@
+{
+  "id": "teo_02_templo_serpiente",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "158a3fb6368f096b",
+      "texto": "Templo da Serpente Emplumada"
+    },
+    "frase_gancho": {
+      "hash": "bb40581ff6cbb46e",
+      "texto": "Mais de cento e trinta pessoas foram enterradas sob os alicerces para consagrar este templo."
+    },
+    "puente_narrativo": {
+      "hash": "180667a4dfea84f3",
+      "texto": "Se você está seguindo o roteiro completo, fique diante desta escadaria para espiar, com raios X, o túnel selado sob os seus pés; se está no roteiro expresso, saia da Ciudadela em direção à Calçada dos Mortos e caminhe rumo ao norte."
+    },
+    "guion_corto": {
+      "hash": "5ae5a129b00fbdfd",
+      "texto": "Quando você se aproxima de frente deste edifício, a primeira coisa que vê é uma estrutura lisa e cinza chamada Plataforma Adossada. Suba seus degraus e espie o corredor estreito que se abre atrás: ali aparece, oculta durante séculos, a fachada esculpida mais espetacular de Teotihuacán. Você está diante do Templo da Serpente Emplumada, erguido por volta do ano duzentos. Dos seus painéis sobressaem enormes cabeças de pedra que antes foram pintadas de vermelho, verde, azul e amarelo. Algumas são serpentes emplumadas que emergem de uma flor; as outras, com dois anéis na testa e sem mandíbula inferior, representam, segundo muitos especialistas, um toucado sagrado da origem do tempo."
+    },
+    "guion_largo": {
+      "hash": "4bba0f56ac744fec",
+      "texto": "Esta fachada foi feita para ser lida. Duas criaturas se alternam ao longo dos painéis e da escadaria. A primeira é a Serpente Emplumada. Sua cabeça em vulto brota de uma corola de pétalas e está cercada de caracóis e conchas, como se nadasse nas águas primordiais da criação. A segunda desconcertou os arqueólogos durante décadas. Pelos dois anéis que leva na testa, pensou-se que era Tláloc, o deus da chuva. Hoje, muitos especialistas a interpretam como o toucado de Cipactli, o crocodilo monstruoso da Terra e símbolo do primeiro dia do calendário. Segundo essa leitura, a serpente carrega no lombo o começo do tempo.\n\nCalcula-se que entre trezentas e quatrocentas dessas cabeças, de cerca de um metro de altura, decoravam o edifício. E todas foram pintadas. Imagine esta parede inteira, brilhante, vista da praça cheia de gente.\n\nAs datas não são exatas: os estudos situam a obra entre os anos cento e cinquenta e duzentos e cinquenta. Mas o mais impactante estava sob o piso. Antes de levantar o templo, por volta do ano duzentos, enterraram aqui dezenas de pessoas. Os arqueólogos Rubén Cabrera e Saburo Sugiyama encontraram os restos de cento e trinta e sete, dispostos com grande ordem e com as mãos amarradas às costas. Somando as áreas que não foram escavadas, calcula-se que tenham sido entre duzentas e duzentas e sessenta.\n\nQuem eram elas? As análises do oxigênio em seus ossos e dentes trouxeram uma surpresa. Vinham de várias regiões da Mesoamérica, mas a maioria havia vivido em Teotihuacán durante anos. Não eram simples cativos recém-chegados. Uma hipótese propõe que eram estrangeiros a serviço do governante, talvez guardas de elite, porque levavam trajes e oferendas muito parecidos e muito ricos. É uma hipótese, não uma certeza. Outras ideias propõem que eram servidores de um fundador de dinastia, ou que estavam dedicados à Serpente Emplumada ou ao próprio edifício. Junto com eles foi enterrado um tesouro: fala-se de cerca de cem mil objetos preciosos.\n\nMais uma coisa sobre a história deste edifício. Uns cem anos depois de sua construção, por volta do ano trezentos e cinquenta, a fachada foi encoberta pela Plataforma Adossada que você acabou de subir. Discute-se o porquê. Uma leitura fala de uma mudança no governo interno da cidade; outra, de um sepultamento ritual respeitoso. Os lados que não foram cobertos foram danificados em uma data desconhecida, e por isso a parte oculta é a que melhor se conservou.\n\nEntre mil novecentos e dezessete e mil novecentos e vinte e dois, o arqueólogo Manuel Gamio abriu o corredor em que você está em pé. Devolveu à luz uma fachada que ninguém via havia mais de mil e quinhentos anos."
+    },
+    "retos_observacion": {
+      "hash": "cffc59d3095db4b0",
+      "texto": [
+        "Suba a Plataforma Adossada e espie o corredor dos fundos para ver de frente os corpos escalonados originais",
+        "Distinga as duas cabeças: a Serpente Emplumada cercada de pétalas e o toucado escamoso de Cipactli, com dois anéis e sem mandíbula inferior",
+        "Procure nos taludes e nos intercolúnios os relevos de caracóis e conchas marinhas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "750d48419595a14e",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico Inicial (por volta de 200 d.C.; fechado por volta de 350 d.C.)",
+        "Material": "Pedra vulcânica entalhada, estuque e pintura mural",
+        "Estrutura": "Sete corpos originais em talude-painel com 366 cabeças de pedra",
+        "Descoberta": "Liberado por Manuel Gamio (1917-1922); sepultamentos escavados nos anos oitenta",
+        "Procedência": "Ciudadela, Teotihuacán"
+      }
+    },
+    "faq_mito": {
+      "hash": "24ae0f14d4a7a0b6",
+      "texto": {
+        "pregunta": "Mito: As cabeças com anéis na testa representam o deus da chuva, Tláloc.",
+        "respuesta": "Realidade: Estudos iconográficos recentes demonstram que elas representam Cipactli, o jacaré ou monstro da Terra e signo do primeiro dia do calendário ritual."
+      }
+    }
+  }
+}

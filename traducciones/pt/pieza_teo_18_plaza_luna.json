@@ -1,0 +1,55 @@
+{
+  "id": "teo_18_plaza_luna",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "9af37ca9ed2ff2e4",
+      "texto": "Praça da Lua e os treze altares"
+    },
+    "frase_gancho": {
+      "hash": "781a3cf91868679d",
+      "texto": "Uma grande praça onde ainda se descobrem fossas, pedras verdes e segredos sob o piso."
+    },
+    "puente_narrativo": {
+      "hash": "02ce4775c5fd0d0e",
+      "texto": "Atravesse agora a esplanada e aproxime-se do pé da grande pirâmide ao fundo para descobrir os seis edifícios e as oferendas que ela esconde em suas entranhas."
+    },
+    "guion_corto": {
+      "hash": "5aac4ce286c8bd39",
+      "texto": "Você chegou à Praça da Lua, no final da Calçada. Muitos contam doze bases ao redor e um altar no centro, treze no total. Desde dois mil e quinze, o INAH escava a Estrutura A. Encontrou fossas profundas, perfurações nos pisos e pedras verdes colocadas em pé. Os especialistas acreditam que tinham um uso ritual, mas isso ainda não está confirmado."
+    },
+    "guion_largo": {
+      "hash": "99da29875b24d155",
+      "texto": "Esta é a Praça da Lua, ao norte da Calçada. Muitos autores contam doze bases ao redor e um altar central. São treze no total, um número importante no calendário mesoamericano. É preciso tomar essa leitura com cuidado. O dado mais novo está sob o piso. Desde dois mil e quinze, o INAH escava a chamada Estrutura A, dirigida por Verónica Ortega Cabrera. Essa estrutura foi reconstruída entre mil novecentos e sessenta e dois e sessenta e quatro. Naquela época, o subsolo não foi explorado. Agora foram encontradas fossas e perfurações nos pisos, dentro da estrutura e na praça. Algumas fossas medem cerca de dois metros por dois e meio, com três metros de profundidade. Continham monólitos de pedra verde colocados em pé, alguns com mais de meia tonelada. As fossas pequenas guardavam seixos e fragmentos de concha. Ainda não se sabe para que serviam. Os especialistas pensam em um uso ritual da praça e da Pirâmide da Lua, mas isso não está confirmado. Prepara-se uma planta para ver se os buracos formam um padrão. Perto desta zona foi encontrada a grande escultura de Chalchiuhtlicue, que mede mais de três metros e pesa cerca de vinte toneladas. Em mil oitocentos e noventa, ela foi levada à Cidade do México de trem e em uma carroça puxada por mulas. Hoje você a verá no Museu Nacional de Antropologia."
+    },
+    "retos_observacion": {
+      "hash": "d8cd689413d55f98",
+      "texto": [
+        "Conte, a partir do centro da esplanada, as doze bases que o cercam e some a Estrutura A central para completar os treze níveis celestes",
+        "Alinhe seu olhar da Estrutura A em direção à Pirâmide da Lua para ver como ela enquadra exatamente o cume do Cerro Gordo",
+        "Observe, nos cantos da plataforma central, as saídas dos antigos canais rituais"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e91f73f7d6659e6a",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico (por volta de 100-550 d.C.)",
+        "Design": "Praça fechada flanqueada por 12 bases em talude-painel e um altar central (Estrutura A)",
+        "Achados principais": "Escultura monumental de Chalchiuhtlicue, estatuetas de jadeíta e sistema hidráulico ritual com seixos rolados (Verónica Ortega, INAH)",
+        "Procedência": "Extremo norte da Calçada dos Mortos"
+      }
+    },
+    "faq_mito": {
+      "hash": "2465153319b54016",
+      "texto": {
+        "pregunta": "Mito: A Praça da Lua era simplesmente uma esplanada vazia para reunir pessoas.",
+        "respuesta": "Realidade: Funcionava como um cosmograma de treze altares com canais hidráulicos e pedras de rio que transformavam o piso em uma paisagem aquática ritual."
+      }
+    }
+  }
+}

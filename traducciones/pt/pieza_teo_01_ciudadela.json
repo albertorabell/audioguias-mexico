@@ -1,0 +1,56 @@
+{
+  "id": "teo_01_ciudadela",
+  "tipo": "pieza",
+  "idioma": "pt",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "0fbe72e51926396f",
+      "texto": "A Ciudadela e a Grande Praça"
+    },
+    "frase_gancho": {
+      "hash": "67aebe3fa7b44986",
+      "texto": "Os espanhóis acharam que era uma fortaleza. Era o coração do poder."
+    },
+    "puente_narrativo": {
+      "hash": "151433b2866849d4",
+      "texto": "Atravesse a grande esplanada em direção ao edifício do fundo, a leste: atrás da plataforma cinzenta que o cobre, espera por você a fachada mais sagrada da cidade."
+    },
+    "guion_corto": {
+      "hash": "70a4727ffdb75508",
+      "texto": "Suba na plataforma de entrada e olhe para esta esplanada monumental. Quando os espanhóis viram este recinto fechado por altos muros de quatrocentos metros de cada lado, acharam que era um quartel militar e o chamaram de La Ciudadela. Na verdade, você está diante do coração político e cerimonial de Teotihuacán. Olhe para o pátio rebaixado: é tão vasto que podia reunir uma enorme multidão. Ao redor, sobre as plataformas que o cercam, erguem-se quinze pequenas pirâmides, e ao fundo domina o Templo da Serpente Emplumada."
+    },
+    "guion_largo": {
+      "hash": "acb29bdf7aac8331",
+      "texto": "A palavra Ciudadela foi inventada pelos espanhóis, que viram altos muros e pensaram em um forte. Mas repare em como este lugar foi construído. São quatro plataformas unidas que cercam uma praça imensa, e há uma única entrada pública, no lado oeste. Isso não serve para se defender de um exército. Serve para controlar quem entra e quando. Os arqueólogos acreditam que o recinto podia permanecer fechado quase todos os dias e abrir apenas para cerimônias especiais.\n\nAo redor da praça alinham-se quinze templos pequenos, embutidos nas bordas das plataformas: quatro a oeste, quatro ao norte, quatro ao sul e três a leste. E a leste, de frente para quem entra, domina o Templo da Serpente Emplumada. É o terceiro maior edifício de toda a cidade, depois das pirâmides do Sol e da Lua. Todo o conjunto foi construído entre os anos cento e cinquenta e duzentos e cinquenta da nossa era. Uma obra assim exigiu um Estado capaz de organizar milhares de trabalhadores e de reunir materiais de todo o vale.\n\nImagine este pátio em um dia de festa. Calculou-se que a praça pôde receber dezenas de milhares de pessoas, embora isso seja uma estimativa de capacidade e não um dado comprovado. Lá de baixo, as plataformas laterais encerram você: a paisagem do vale desaparece e toda a atenção se volta para os sacerdotes no alto dos embasamentos e para o templo do fundo. Era um cenário concebido para que qualquer pessoa sentisse o peso do Estado e do cosmos.\n\nAlguns pesquisadores propõem que a praça chegou a ser inundada de forma ritual, como um espelho de água cercado de templos. As marcas de água que apareceram no túnel que corre sob o recinto sugerem isso. É uma hipótese, mas combina com a importância da água em toda a cidade.\n\nSob estas plataformas há também construções mais antigas. Antes de erguer a Ciudadela, os construtores arrasaram uma estrutura anterior que se parece com uma quadra de jogo de bola. Teotihuacán refez a si mesma mais de uma vez, e aqui você pode ver isso: cada plataforma esconde etapas anteriores que ainda estão sendo estudadas.\n\nPor volta do ano trezentos e cinquenta ocorreu uma mudança profunda. A fachada do Templo da Serpente Emplumada ficou oculta atrás de uma grande plataforma, a Plataforma Adosada, que você subirá na próxima parada. Alguns estudiosos interpretam isso como uma mudança no governo da cidade. Outros acham que foi um sepultamento ritual feito com respeito. Muito depois, em uma data que não conhecemos, alguém danificou as esculturas dos lados que ficaram descobertos.\n\nVocê está a mais de dois mil metros acima do nível do mar e quase sempre sem sombra. Antes de seguir para a Calçada dos Mortos, tome alguns goles de água."
+    },
+    "retos_observacion": {
+      "hash": "3d8ce3cf397b5af5",
+      "texto": [
+        "Percorra o pátio com o olhar e conte as pequenas pirâmides sobre as plataformas: são quinze no total",
+        "Localize o altar quadrado no centro da esplanada, com suas quatro escadarias",
+        "Olhe para o leste, no fundo do pátio, onde se ergue o edifício principal de duas fachadas"
+      ]
+    },
+    "especificaciones": {
+      "hash": "caaffef9ee616a0a",
+      "texto": {
+        "Cultura": "Teotihuacán",
+        "Período": "Clássico Inicial (por volta de 150-250 d.C.)",
+        "Dimensões": "cerca de 400 m de cada lado",
+        "Embasamentos": "15 pirâmides menores sobre 4 plataformas",
+        "Função": "sede do poder político e religioso",
+        "Procedência": "Teotihuacán, Estado do México (extremo sul da Calçada dos Mortos)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c5bd19317f163227",
+      "texto": {
+        "pregunta": "Mito: A Ciudadela foi uma fortaleza militar.",
+        "respuesta": "Realidade: O nome foi dado pelos espanhóis por engano. Era o centro político e cerimonial da cidade, com palácios, um templo principal e um grande pátio para multidões."
+      }
+    }
+  }
+}
