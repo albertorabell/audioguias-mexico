@@ -1,0 +1,60 @@
+{
+  "id": "chi_25_casa_venado_colorada",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "e128551d4843eb2b",
+      "texto": "Die Casa Colorada und die Casa del Venado"
+    },
+    "frase_gancho": {
+      "hash": "6f893303c47d49e9",
+      "texto": "Ein Haus, das noch die Spur seiner Farbe bewahrt, und ein anderes, von dem nur die Hälfte übrig ist."
+    },
+    "puente_narrativo": {
+      "hash": "d7d58e3809fffd90",
+      "texto": "Geh weiter zu [El Caracol](chi_27_el_caracol), dem runden Turm auf der Ostseite."
+    },
+    "guion_corto": {
+      "hash": "bd84eef619aa0c67",
+      "texto": "Du stehst vor der Casa Colorada, einem der am besten erhaltenen Gebäude von Chichén Itzá. Im neunzehnten Jahrhundert war noch rote Farbe zu sehen. Ihr Maya-Name lautet Chichanchob, den das INAH mit kleinen Löchern in Verbindung bringt. Eine eingemeißelte Inschrift trägt ein Datum, das dem Jahr achthundertneunundsechzig entspricht, und erwähnt Feuerzeremonien, die von den Herren unter der Aufsicht des Königs abgehalten wurden. Daneben liegt die stark verfallene Casa del Venado, die ihren Namen von einem Gemälde eines Hirschs hat, das es nicht mehr gibt."
+    },
+    "guion_largo": {
+      "hash": "c91ee1c27e6dddbf",
+      "texto": "Zwei benachbarte Gebäude mit sehr unterschiedlichem Schicksal: das eine gut erhalten, das andere fast verschwunden.\n\nDie Casa Colorada ist das größte und am besten erhaltene der vier Gebäude dieser Gruppe. Ihr Name stammt von einem roten Streifen, der im Vestibül zu sehen ist, und im neunzehnten Jahrhundert war noch rote Farbe sichtbar. Auf Maya ist sie als Chichanchob bekannt. Das INAH sagt, es könnte kleine Löcher bedeuten, vielleicht wegen der Öffnungen im Dachkamm.\n\nIm Inneren befindet sich ein Hieroglyphentext mit einem Datum, das sich in das Jahr achthundertneunundsechzig umrechnen lässt. Der Text berichtet von Feuerzeremonien, die von den Herren unter der Aufsicht des Königs durchgeführt wurden, und ist eines der ältesten Daten der Stätte. Aus denselben Hieroglyphen wurde ein weiterer alter Name für das Akab Dzib abgeleitet, das du später sehen wirst. Hinter dem Haus restaurierte das INAH im Jahr zweitausendneun einen kleinen Ballspielplatz.\n\nNeben ihr steht die Casa del Venado. Sie ist stark verfallen, und nur ein Teil steht noch aufrecht. Der Name geht, wie es heißt, auf ein Gemälde eines Hirschs zurück, das es nicht mehr gibt. Ihre Architektur ähnelt der von Chichanchob sehr: eine Plattform mit abgerundeten Ecken, eine schlichte Fassade und ein Fries ohne Verzierung. Es wurde vermutet, dass es sich wahrscheinlich um einen Wohnkomplex handelte, der mit dem Osario verbunden war. Das ist eine Hypothese.\n\nGeh nun weiter zu [El Caracol](chi_27_el_caracol), einem runden Turm auf einer Plattform."
+    },
+    "retos_observacion": {
+      "hash": "b64c3ff060b89ace",
+      "texto": [
+        "Suche die Reste roter Farbe im Vestibül und den Streifen, der dem Haus seinen Namen gibt",
+        "Beobachte die Öffnungen im Dachkamm, die Chichanchob vielleicht seinen Namen gaben",
+        "Vergleiche die gut erhaltene Casa Colorada mit der Casa del Venado, von der nur die Hälfte übrig ist"
+      ]
+    },
+    "especificaciones": {
+      "hash": "8ec4ab25cc2457b3",
+      "texto": {
+        "Maya-Name": "Chichanchob, das das INAH mit „kleinen Löchern“ in Verbindung bringt",
+        "Eingemeißeltes Datum": "entspricht dem Jahr 869",
+        "Rote Farbe": "im 19. Jahrhundert noch sichtbar",
+        "Restaurierung": "Das INAH restaurierte 2009 einen kleinen Ballspielplatz hinter dem Haus",
+        "Casa del Venado": "stark verfallen; Architektur ähnlich der von Chichanchob",
+        "Vorgeschlagene Nutzung der Casa del Venado": "Wohnkomplex, wahrscheinlich mit dem Osario verbunden (Hypothese)"
+      }
+    },
+    "faq_mito": {
+      "hash": "3a2a6cd3e6f1ff11",
+      "texto": {
+        "pregunta": "Mythos: Die Casa Colorada heißt so, weil sie noch immer rot bemalt ist.",
+        "respuesta": "Realität: Der Name stammt von einem roten Streifen im Vestibül. Im 19. Jahrhundert war noch rote Farbe sichtbar, doch heute ist nur noch sehr wenig davon übrig."
+      }
+    }
+  }
+}

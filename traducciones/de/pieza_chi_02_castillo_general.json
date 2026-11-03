@@ -1,0 +1,60 @@
+{
+  "id": "chi_02_castillo_general",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "1bd1fd9856689c7d",
+      "texto": "El Castillo (Kukulcán-Pyramide)"
+    },
+    "frase_gancho": {
+      "hash": "53bb7013dd4d1a8b",
+      "texto": "Eine dreißig Meter hohe Pyramide, die Kalender, Himmel und das unter der Erde verborgene Wasser miteinander verbindet."
+    },
+    "puente_narrativo": {
+      "hash": "9a6b239ee20123d4",
+      "texto": "Bleib vor der Nordtreppe stehen, der mit den Schlangenköpfen. Wenn du fertig geschaut hast, geh weiter zur nächsten Station deiner Route."
+    },
+    "guion_corto": {
+      "hash": "2a2bff3292c10405",
+      "texto": "Du stehst vor El Castillo, dem Tempel von Kukulcán, der gefiederten Schlange. Er ist etwa vierundzwanzig Meter hoch, und der Tempel obenauf misst noch einmal sechs. Die Basis ist ein Quadrat von etwa fünfundfünfzig Metern Seitenlänge. Jede der vier Treppen hat ungefähr einundneunzig Stufen. Zählst du sie zusammen, mit der Plattform oben, kommst du auf dreihundertfünfundsechzig, genau wie die Tage des Jahres. Diese Zahl hat Menschen an einen Kalender aus Stein denken lassen, auch wenn Fachleute meinen, dass ihr Bezug zu den Ritualen wichtiger ist als die Arithmetik. Seit etwa dem Jahr zweitausendsechs erlaubt das INAH den Aufstieg nicht mehr. Aber ihn zu umrunden ist schon eine Art, ihn zu lesen."
+    },
+    "guion_largo": {
+      "hash": "15b1351f42e928ea",
+      "texto": "El Castillo ist wahrscheinlich das am häufigsten fotografierte Bauwerk Mexikos. Aber man sollte es in Ruhe betrachten, denn jedes seiner Maße scheint von Zeit und Kosmos zu sprechen.\n\nBeginnen wir mit den Zahlen. Der Pyramidenkörper misst etwa vierundzwanzig Meter, und der Tempel auf dem Gipfel fügt etwa sechs hinzu, insgesamt also etwa dreißig. Die Basis ist ein Quadrat von fünfundfünfzig Metern und dreißig Zentimetern. Jede Seite hat eine Treppe mit ungefähr einundneunzig Stufen. Zählt man die obere Plattform als letzte Stufe, ergibt die Rechnung dreihundertfünfundsechzig. Die Südseite ist stark erodiert, deshalb ist die Zahl nur ungefähr. Und obwohl die Zahl an das Sonnenjahr mit dreihundertfünfundsechzig Tagen erinnert, hängt sie wahrscheinlich vor allem mit Ritualen zusammen.\n\nWeitere Erklärungen sind weit verbreitet. Man sagt häufig, die neun Terrassen, von den Treppen in zwei Hälften geteilt, ergäben achtzehn Abschnitte, wie die achtzehn Monate des Sonnenkalenders der Maya, und jede Seite habe zweiundfünfzig Paneele, wie die Jahre des Zyklus des Kalenderrads. Das sind sehr oft wiederholte Deutungen, und es lohnt sich, sie als Interpretationen zu hören, nicht als gemessene Daten.\n\nEinen weiteren Hinweis gibt seine Ausrichtung. Die Pyramide ist nicht genau nach den Himmelsrichtungen ausgerichtet. Eine Erklärung schlägt vor, dass ihre Hauptseite auf zwei Sonnenuntergänge zeigt, den zwanzigsten Mai und den vierundzwanzigsten Juli. Zwischen dem einen und dem anderen vergehen fünfundsechzig und dreihundert Tage, Vielfache von dreizehn und zwanzig, den Zahlen des rituellen Kalenders. Ein anderer Tempel, der von Tulum, markiert dieselben Daten, und die Übereinstimmung der übrigen Seiten mit Zenit und Nadir ist wahrscheinlich Zufall.\n\nAuch wann sie gebaut wurde, ist umstritten. Man spricht vom achten bis zum zwölften Jahrhundert, und für die letzte Bauphase gibt es zwei Schätzungen: zwischen dem Jahr neunhundert und tausend oder das elfte Jahrhundert. Ein einziges sicheres Datum gibt es nicht.\n\nAuch ihre jüngere Geschichte erzählt etwas. Das Carnegie-Institut bat im Jahr neunzehnhundertvierundzwanzig um eine Arbeitserlaubnis und begann die Restaurierung im Jahr neunzehnhundertsiebenundzwanzig, gemeinsam mit mexikanischen Archäologen. In den dreißiger Jahren wurde, um das Innere zu erkunden, an der Nordostecke der Nordtreppe ein Durchgang geöffnet. Jahrelang konnten auch Touristen hinaufsteigen. Um das Jahr zweitausendsechs, nach dem tödlichen Sturz einer Besucherin, sperrte das INAH den Aufstieg. Heute kannst du das Gebäude umrunden, aber weder besteigen noch betreten.\n\nUnd darunter liegt noch mehr. Diese Pyramide umschließt eine ältere Pyramide, und darunter befindet sich eine wassergefüllte Höhle. Ein Teil dieser Geschichte wird an anderen Stationen der Route erzählt.\n\nBleib jetzt noch einen Moment hier und schau auf die Nordtreppe, die mit den Schlangenköpfen."
+    },
+    "retos_observacion": {
+      "hash": "814b6c43c5a59b61",
+      "texto": [
+        "Suche die beiden steinernen Schlangenköpfe am Fuß der Nordtreppe",
+        "Zähle die neun Stufenkörper: Die Treppen teilen sie in der Mitte und ergeben achtzehn Abschnitte",
+        "Umrunde das Gebäude und vergleiche die stärker erodierte Südseite mit der Nordseite"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5dc286df61145e29",
+      "texto": {
+        "Höhe": "etwa 24 m Unterbau plus 6 m Tempel, insgesamt etwa 30 m",
+        "Basis": "quadratisch, 55,3 m Seitenlänge",
+        "Stufen": "etwa 91 pro Seite; mit der oberen Plattform insgesamt 365 (ungefähr)",
+        "Epoche": "zwischen dem 8. und 12. Jahrhundert; die letzte Bauphase wird auf etwa 900-1000 oder auf das 11. Jahrhundert geschätzt",
+        "Restaurierung": "seit 1927, mit dem Carnegie-Institut und mexikanischen Archäologen",
+        "Zugang": "seit etwa 2006 ist weder Aufstieg noch Betreten erlaubt"
+      }
+    },
+    "faq_mito": {
+      "hash": "dafe28e71e1d6526",
+      "texto": {
+        "pregunta": "Mythos: Man kann auf die Spitze von El Castillo steigen und seinen inneren Tempel betreten.",
+        "respuesta": "Realität: Seit etwa 2006 hat das INAH den Aufstieg und den Zugang zur Pyramide gesperrt. Man kann sie umrunden und aus der Nähe betrachten, aber nicht besteigen."
+      }
+    }
+  }
+}

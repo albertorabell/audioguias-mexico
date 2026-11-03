@@ -1,0 +1,66 @@
+{
+  "id": "chi_03_equinoccio_acustica",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Nordwesten\" para \"Noroeste\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Nordwesten\" para \"Noroeste\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Nordwesten\" para \"Noroeste\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "544f559577dfb49e",
+      "texto": "Der Abstieg Kukulcáns und das Echo des Quetzals"
+    },
+    "frase_gancho": {
+      "hash": "d6ee7e666c11297c",
+      "texto": "Licht, das eine Schlange auf die Treppe zeichnet, und ein Klatschen, das wie der Ruf eines Vogels zurückkehrt."
+    },
+    "puente_narrativo": {
+      "hash": "3af23a6afb12ecfa",
+      "texto": "Bleib an der Ecke der Freitreppe stehen, dort hörst du das Echo am besten. Wenn du fertig bist, geh weiter zur nächsten Station deiner Tour."
+    },
+    "guion_corto": {
+      "hash": "07b815dff791f9eb",
+      "texto": "Sieh dir die schräge Kante an, die die Stufen begleitet, die Treppenwange. Um die Tagundnachtgleichen im Frühling und im Herbst trifft die Sonne am späten Nachmittag die Nordwestecke der Pyramide und wirft dreieckige Schatten auf diese Treppenwange. Mit der Bewegung der Sonne sieht es aus, als würde eine Schlange die Treppe hinabgleiten. Man erzählt, es seien sieben Dreiecke, und Tausende Menschen kommen, um es zu sehen. Niemand weiß sicher, ob die Baumeister das absichtlich so entworfen haben, denn der Effekt ist rund um diese Termine mehrere Wochen lang zu sehen. Mach jetzt einen Versuch: Klatsche kräftig in die Hände, direkt vor der Freitreppe. Das Echo, das zurückkehrt, klingt wie der Ruf eines Quetzals."
+    },
+    "guion_largo": {
+      "hash": "7c4e778231b2e00a",
+      "texto": "Diese Freitreppe birgt zwei Phänomene, eines des Lichts und eines des Klangs. Beide haben El Castillo berühmt gemacht.\n\nDas erste ist das des Lichts. Um die Tagundnachtgleichen im März und im September trifft die Sonne am späten Nachmittag die Nordwestecke der Pyramide. Die Ecken der Terrassen werfen dreieckige Schatten auf die nordwestliche Treppenwange, die schräge Kante, die die Treppe begleitet. Während die Sonne sinkt, wandern die Schatten und erwecken den Eindruck einer Schlange, die sich von oben bis zum Steinkopf am Fuß der Treppe herabwindet. Man sagt häufig, es seien sieben Dreiecke, und zur Tagundnachtgleiche im Frühling versammeln sich Tausende Menschen, um es zu sehen.\n\nAber es gibt eine Frage, die die Fachleute offenlassen. Man weiß nicht, ob das Phänomen absichtlich entworfen wurde. Der Effekt ist rund um jede Tagundnachtgleiche mehrere Wochen lang zu sehen, nicht nur an einem genauen Tag. Das macht es schwierig zu behaupten, die Baumeister hätten ihn gezielt gesucht, auch wenn die gefiederte Schlange, die die Treppe krönt, und die Steinköpfe am Fuß das Bild sehr natürlich erscheinen lassen.\n\nDas zweite Phänomen ist der Klang. Stell dich vor die Freitreppe und klatsche einmal kurz und trocken in die Hände. Was zurückkommt, ist kein gewöhnliches Echo. Es ist ein kurzes Zirpen, das in der Tonhöhe absinkt, ähnlich dem Ruf des Quetzals, des grünen Vogels, der mit Kukulcán verbunden wird. Das hat der Akustikingenieur David Lubman seit neunzehnhundertachtundneunzig untersucht. Sein Vorschlag lautet, dass der Klang von der Form der Treppe herrührt: Jede Stufe wirft ein kleines Echo zurück, und die Summe aller klingt wie ein absinkender Ton. Einige Forschende glauben, dass die Baumeister diesen Effekt absichtlich angestrebt haben. Das ist eine Hypothese, keine bewiesene Tatsache.\n\nEs lohnt sich, es in Ruhe auszuprobieren. Wenn viele Menschen da sind, kann der Hintergrundlärm den Effekt überdecken. Ist es still, hörst du ihn deutlich. Es ist eine der wenigen Gelegenheiten, bei denen eine Pyramide antwortet, wenn du mit ihr sprichst.\n\nBeide Versuche haben etwas gemeinsam. Zur Tagundnachtgleiche verwandelt sich die Treppe in eine Schlange, die hinabsteigt. Mit dem Klatschen singt die Treppe wie der Vogel, der dieser Schlange seine Federn gibt. Ob beabsichtigt oder nicht, das Bauwerk zeigt eine Verbindung zwischen Licht, Klang und dem Gott, der darin wohnt.\n\nDie Pyramide birgt noch mehr. Unter diesen Steinen liegt ein weiterer Tempel und, laut jüngeren Studien, ein wassergefüllter Hohlraum. Wenn du hier fertig bist, geh weiter zur nächsten Station deiner Tour."
+    },
+    "retos_observacion": {
+      "hash": "8265d6a5d3e34cfe",
+      "texto": [
+        "Stell dich vor die nördliche Freitreppe, klatsche kräftig und trocken in die Hände und lausche dem Echo, das zurückkehrt",
+        "Folge mit dem Blick der Treppenwange, der schrägen Kante der Treppe, bis zum steinernen Schlangenkopf",
+        "Stell dir vor, wie die Schatten der Terrassen am Abend auf die Treppenwange fallen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "064c62ca325479b1",
+      "texto": {
+        "Lichtphänomen": "dreieckige Schatten auf der nordwestlichen Treppenwange, rund um die Tagundnachtgleichen (März und September), am späten Nachmittag",
+        "Anzahl der Dreiecke": "man sagt häufig, sieben",
+        "Dauer": "der Effekt ist rund um jede Tagundnachtgleiche mehrere Wochen lang zu sehen",
+        "Klangphänomen": "das Klatschen kehrt als Zirpen zurück, das in der Tonhöhe absinkt, ähnlich dem Quetzal",
+        "Untersuchung": "David Lubman, seit 1998",
+        "Absicht": "man weiß nicht sicher, ob es absichtlich entworfen wurde"
+      }
+    },
+    "faq_mito": {
+      "hash": "feb182b9756c1d67",
+      "texto": {
+        "pregunta": "Mythos: Der Effekt der Schlange ist nur am genauen Tag der Tagundnachtgleiche zu sehen.",
+        "respuesta": "Realität: Er ist rund um jede Tagundnachtgleiche mehrere Wochen lang zu sehen, und die Fachleute wissen nicht sicher, ob die Baumeister ihn absichtlich entworfen haben."
+      }
+    }
+  }
+}

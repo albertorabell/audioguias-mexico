@@ -1,0 +1,60 @@
+{
+  "id": "chi_39_final_memoria",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Heiliger Cenote\" para \"Cenote Sagrado\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "0ecee9076e3fd397",
+      "texto": "Verlassen, wiederentdeckt und erinnert"
+    },
+    "frase_gancho": {
+      "hash": "56c76f2e1d20d638",
+      "texto": "Eine Stadt, die ihre Macht verlor, aber nie ganz in Vergessenheit geriet."
+    },
+    "puente_narrativo": {
+      "hash": "8f44808bd217e255",
+      "texto": "Das ist das Ende des Rundgangs. Danke, dass du Chichén Itzá durchwandert hast. Und wenn du weitergehen möchtest, kehre mit anderen Augen zu [El Castillo](chi_02_castillo_general) zurück."
+    },
+    "guion_corto": {
+      "hash": "ecef37086bff969a",
+      "texto": "Um das Jahr elfhundert hatte Chichén Itzá seine Rolle als regionales Zentrum bereits verloren. Dennoch wurde die Stadt vielleicht nie ganz verlassen: Als die Spanier kamen, lebten dort oder in der Nähe noch Menschen. Im Jahr fünfzehnhundertzweiunddreißig versuchte Francisco de Montejo der Jüngere, sie zu seiner Hauptstadt zu machen, und im Jahr fünfzehnhundertvierunddreißig verließ er sie nach einer Belagerung bei Nacht. Im Jahr fünfzehnhundertachtundachtzig war sie ein Landgut zur Viehzucht. Seit neunzehnhundertachtundachtzig ist sie Welterbe."
+    },
+    "guion_largo": {
+      "hash": "3023abbc0e80a253",
+      "texto": "Wir wollen mit einer Frage schließen: Was ist mit Chichén Itzá geschehen?\n\nUm das Jahr elfhundert war die Stadt als regionales Zentrum bereits im Niedergang, noch bevor Mayapán aufstieg. Die Tätigkeit der Eliten endete, doch die Stadt war vielleicht nicht leer. Als die Spanier kamen, gab es am Ort oder in einer nahen Siedlung noch Bevölkerung. Außerdem vollzogen Maya-Pilger während der Eroberung noch Rituale am Heiligen Cenote, an El Castillo und im Ossarium.\n\nZum Untergang gibt es eine Geschichte, die in kolonialzeitlichen Quellen auftaucht: die von Hunac Ceel und dem Krieg mit Mayapán. Doch die Archäologie stellt sie infrage, denn Mayapán hätte eine noch aktive Stadt nicht plündern können. Die Ursache des Niedergangs ist weiterhin ungeklärt.\n\nDie Anwesenheit der Spanier war kurz. Francisco de Montejo erhielt im Jahr fünfzehnhundertsechsundzwanzig die Erlaubnis, Yucatán zu erobern. Im Jahr fünfzehnhundertzweiunddreißig wollte sein Sohn, Francisco de Montejo der Jüngere, Chichén Itzá zu seiner Hauptstadt machen und taufte sie in Ciudad Real um. Die Maya belagerten die Spanier. Nachdem Montejo bei einem gescheiterten Angriff einhundertfünfzig Soldaten verloren hatte, verließ er die Stadt im Jahr fünfzehnhundertvierunddreißig bei Nacht. Im Jahr fünfzehnhundertachtundachtzig war der Ort ein Landgut für die Viehzucht. Diego de Landa, der Mönch, besuchte sie im sechzehnten Jahrhundert und war von ihrer Größe beeindruckt.\n\nWiederentdeckt wurde sie von der modernen Welt. Das Buch von John Lloyd Stephens, illustriert von Frederick Catherwood, aus dem Jahr achtzehnhundertdreiundvierzig machte sie berühmt. Désiré Charnay fotografierte sie um achtzehnhundertsechzig. Im Jahr achtzehnhundertvierundneunzig kaufte Edward Thompson das Landgut, und zwischen neunzehnhundertvier und neunzehnhundertzehn baggerte er den Heiligen Cenote aus. Im Jahr neunzehnhundertdreiundzwanzig kam das Carnegie-Institut. Im Jahr neunzehnhundertsechsundzwanzig beschlagnahmte die mexikanische Regierung Thompsons Landgut, und der Oberste Gerichtshof entschied Jahre später zu ihren Gunsten; die Datierungen schwanken zwischen neunzehnhundertvierundvierzig und fünfundvierzig. Ein Teil der Objekte kehrte in den Jahren neunzehnhundertsiebzig und zweitausendacht nach Mexiko zurück.\n\nIm Jahr neunzehnhundertachtundachtzig erklärte die UNESCO sie zum Welterbe. Im Jahr zweitausendsieben wurde El Castillo zu einem der neuen sieben Weltwunder gewählt, in einer Abstimmung mit kommerzieller Förderung, deren Methode kritisiert wurde.\n\nDeshalb ist Chichén Itzá nicht bloß eine Ruine: Es ist ein Ort mit Gedächtnis, der weiterhin Menschen aus der Region empfing, auch als er keine Hauptstadt mehr war.\n\nDanke, dass ihr mit uns gewandert seid."
+    },
+    "retos_observacion": {
+      "hash": "8c8e85427e5a2160",
+      "texto": [
+        "Sieh dir zum letzten Mal El Castillo an und frage dich, welcher Teil dessen, was du gesehen hast, original ist und welcher restauriert wurde",
+        "Denke darüber nach, wie viele verschiedene Menschen sie erkundet, gezeichnet und erforscht haben",
+        "Erinnere dich an ein Detail, das dich überrascht hat, und teile es mit jemandem"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4413e33c0de2215a",
+      "texto": {
+        "Niedergang": "um das Jahr 1100, als regionales Zentrum",
+        "Eroberung": "Montejo, Schreiben von 1526; Versuch einer Hauptstadtgründung 1532; Abzug 1534",
+        "Landgut zur Viehzucht": "bereits 1588",
+        "Wiederentdeckung": "Stephens und Catherwood (Buch von 1843), Charnay (um 1860), Thompson (1894), Carnegie (1923)",
+        "Welterbe": "UNESCO, 1988",
+        "Neue sieben Weltwunder": "2007 (Methode kritisiert)"
+      }
+    },
+    "faq_mito": {
+      "hash": "b71e92300d0f0761",
+      "texto": {
+        "pregunta": "Mythos: Chichén Itzá wurde plötzlich verlassen und blieb leer, bis die Entdecker kamen.",
+        "respuesta": "Realität: Die Tätigkeit der Eliten endete um 1100, doch die Stadt wurde vielleicht nie ganz verlassen: Als die Spanier kamen, gab es dort Bevölkerung, und es wurden weiterhin Rituale vollzogen."
+      }
+    }
+  }
+}

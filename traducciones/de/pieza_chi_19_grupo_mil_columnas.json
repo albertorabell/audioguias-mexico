@@ -1,0 +1,63 @@
+{
+  "id": "chi_19_grupo_mil_columnas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "9d78d8ea0a3e8d37",
+      "texto": "Der Platz der Tausend Säulen"
+    },
+    "frase_gancho": {
+      "hash": "3056d52a533c7607",
+      "texto": "Ein Wald aus Pfeilern: mehr als zweihundertvierzig in einer einzigen Säulenhalle."
+    },
+    "puente_narrativo": {
+      "hash": "09ec4387a33f03a6",
+      "texto": "Geh in Ruhe durch den Säulenwald, im Schatten. Wenn du fertig bist, mach mit dem nächsten Halt deiner Tour weiter."
+    },
+    "guion_corto": {
+      "hash": "653793cca26b973e",
+      "texto": "Das ist der Platz der Tausend Säulen. Der Name übertreibt, aber nicht sehr. Der Archäologe Peter Schmidt zählte in einer Studie aus dem Jahr zweitausenddreizehn zweihundertdreiundvierzig Säulen und dreizehn Pilaster in fünf Reihen, allein in der Nordkolonnade. Diese Kolonnade misst neunundachtzig Meter von Ost nach West und neunundzwanzig von Nord nach Süd und steht auf einer niedrigen Plattform. Der gesamte Platz umfasst etwa vierundzwanzigtausend Quadratmeter, knapp über zwei Hektar. An mehreren Säulen sind Reliefs von Figuren erhalten, die wie Krieger aussehen."
+    },
+    "guion_largo": {
+      "hash": "85cd0f81d819b54d",
+      "texto": "Vor dir öffnet sich einer der seltsamsten Plätze von Chichén Itzá, denn seine Anziehungskraft liegt nicht in den Pyramiden, sondern in den Pfeilern.\n\nBeginnen wir mit dem Namen. Der Name spricht von tausend Säulen, aber die Zahl ist nicht genau: Es ist eine Art zu sagen, dass es viele sind. Was der Archäologe Peter Schmidt in einer Studie aus dem Jahr zweitausenddreizehn tatsächlich gezählt hat, ist Folgendes. Die Nordkolonnade, die er Struktur zwei D zehn nennt, erhebt sich auf einer niedrigen Plattform, die weniger als einen Meter siebzig hoch ist. Sie misst neunundachtzig mal neunundzwanzig Meter, hat zwei Treppen, und in ihr standen zweihundertdreiundvierzig Säulen und dreizehn Pilaster, verteilt auf fünf Reihen.\n\nEine Studie von González und seinen Mitarbeitern aus dem Jahr zweitausendsechzehn beziffert den gesamten Platz auf etwa dreiundzwanzigtausendneunhunderteinundneunzig Quadratmeter, knapp über zwei Hektar. Sie beschreibt ihn als einen geschlossenen Platz mit eingeschränktem Zugang, umgeben von Gebäuden mit Galerien aus mehreren Säulenreihen. Dieselbe Studie verortet in dieser Gruppe ein Dampfbad und drei Spielfelder für das Ballspiel. Dieses Dampfbad hat auf den längeren Rundgängen seinen eigenen Halt.\n\nSchmidt barg vier verzierte Säulen. Der dekorierte Teil jeder Säule misst zwischen zweieinhalb und drei Metern, und die Reliefs sind in waagerechten Streifen angeordnet, einer über dem anderen. Ihre Figuren tragen Militärkleidung. Daraus entsteht ein Vorschlag von Schmidt: Sie könnten eine besondere Garde oder eine Militäreinheit darstellen und nicht eine von außen gekommene ethnische Gruppe. Das ist eine Hypothese. Jahrelang war von Tolteken die Rede, und diese Lesart schlägt etwas anderes vor.\n\nMit der Erfassung dieser Reliefs begannen die Archäologen des Carnegie-Instituts unter Sylvanus Morley. Das Archäologische Projekt Chichén Itzá dokumentierte sie zwischen neunzehnhundertdreiundachtzig und zweitausend noch einmal.\n\nWenn du fertig bist, mach mit dem nächsten Halt deiner Tour weiter."
+    },
+    "retos_observacion": {
+      "hash": "15a626d9dfd66516",
+      "texto": [
+        "Geh zwischen den Säulen hindurch und zähl eine Reihe: Du wirst sehen, wie viele nötig sind, um ein so langes Dach zu tragen",
+        "Such eine Säule mit Reliefs und finde die waagerechten Streifen mit Figuren",
+        "Stell dir das Dach vor und den Schatten, den es denen spendete, die sich hier versammelten"
+      ]
+    },
+    "especificaciones": {
+      "hash": "912aa735992d92eb",
+      "texto": {
+        "Nordkolonnade": "89 × 29 m, auf einer Plattform von bis zu 1,70 m",
+        "Säulen und Pilaster": "243 Säulen und 13 Pilaster in fünf Reihen",
+        "Gesamter Platz": "etwa 23 991 m² (knapp über zwei Hektar)",
+        "Von Schmidt geborgene verzierte Säulen": "vier, mit 2,50 bis 3 m dekoriertem Teil",
+        "Innerhalb der Gruppe": "ein Dampfbad und drei Spielfelder für das Ballspiel",
+        "Studien": "Schmidt, 2013; González et al., 2016"
+      }
+    },
+    "faq_mito": {
+      "hash": "327a20c445543ea0",
+      "texto": {
+        "pregunta": "Mythos: Es gibt genau tausend Säulen.",
+        "respuesta": "Realität: Es ist ein moderner Name. Die Nordkolonnade hatte 243 Säulen und 13 Pilaster, und andere Beschreibungen sprechen von etwa 200."
+      }
+    }
+  }
+}

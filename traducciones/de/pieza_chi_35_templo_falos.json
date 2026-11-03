@@ -1,0 +1,56 @@
+{
+  "id": "chi_35_templo_falos",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "fc78b15121f84caa",
+      "texto": "Der Palast der Phalli"
+    },
+    "frase_gancho": {
+      "hash": "6a5d4dc68294a314",
+      "texto": "Ein Labyrinth aus Räumen, Gängen und Höfen, mit einer Innentreppe, die in das zweite Geschoss hinaufführt."
+    },
+    "puente_narrativo": {
+      "hash": "a04e633cfbbff075",
+      "texto": "Geh hinüber zum [Haus der Schnecken](chi_36_casa_caracoles_tortuga), wo ein Stammbaum etwa zwanzig Meter misst."
+    },
+    "guion_corto": {
+      "hash": "4948f3fd5554d993",
+      "texto": "Dies ist der Palast der Phalli, ein zweigeschossiger Komplex, der zu Alt-Chichén gehört. Er ist ein Labyrinth aus Räumen, Gängen und Innenhöfen, mit einer Treppe, die zu zwei Zimmern im zweiten Geschoss hinaufführt. Auf seinen Bänken finden sich Reliefs von Venussternen, die von einem anderen Gebäude wiederverwendet wurden. Man hat gesagt, dass andere Reliefs den Ursprung und das Leben einer bedeutenden Persönlichkeit erzählen. Die herabgestürzten Steine des Palastes wurden später in einem anderen Gebäude wiederverwendet."
+    },
+    "guion_largo": {
+      "hash": "4a91ce4a8af95625",
+      "texto": "Bei diesem Namen würde man eine eindrucksvolle Beschreibung erwarten. Die Wahrheit ist, dass das Dokumentierte eher architektonischer Natur ist.\n\nDer Archäologe Peter Schmidt und Rocío González de la Mata beschreiben das Haus der Phalli, oder den Palastkomplex der Phalli, als eine Gruppe von drei Bauwerken, die der Plan der Carnegie-Institution als fünf C fünf, fünf C vierzehn und fünf C fünfzehn nummeriert. Er enthält ein Labyrinth aus Räumen, Korridoren und Innenhöfen sowie eine Treppe, die zu zwei Zimmern im zweiten Geschoss hinaufführt. Eine andere Studie aus dem Jahr zweitausendvierzehn beschreibt ihn als einen zweigeschossigen Komplex an der Südseite des Nordplatzes. Die beiden Beschreibungen verorten das Gebäude an etwas unterschiedlichen Stellen; vermutlich beziehen sie sich auf verschiedene Teile einer großen Anlage.\n\nDie Studie aus dem Jahr zweitausendvierzehn fügt ein kurioses Detail hinzu: Die Bänke des Palastes tragen Reliefs von vierzackigen Venussternen, die aus dem Tempel der Initialserie wiederverwendet wurden. Das heißt, die Baumeister haben Teile eines anderen Gebäudes recycelt.\n\nDie Fassade trägt Täfelchen des Gottes N in seinen Erscheinungsformen als Schnecke und als Spinne. Und Schmidt beschreibt in einer anderen Arbeit Reliefs, die als phallisch und als Darstellungen von Selbstopfer gedeutet wurden, dazu Paneele im zweiten Geschoss. Es sind knappe Beschreibungen: Weder die Zahl noch die Form der Skulpturen, die dem Ort seinen Namen geben, ist genau bekannt.\n\nEine Zeitungsnotiz aus dem Jahr zweitausenddreiundzwanzig besagt, der Palast erzähle den Ursprung und das Leben einer bedeutenden Persönlichkeit, mit Kämpfen, Opfern und Ritualen. Das ist eine allgemeine Deutung ohne fachliche Grundlage.\n\nDer Palast hatte ein eigentümliches Schicksal. Als er einstürzte, wurden seine Steine in einem anderen Gebäude wiederverwendet, dem Bauwerk fünf C acht, zusammen mit denen der Galerie der Affen und denen eines weiteren benachbarten Bauwerks.\n\nDas INAH restaurierte den Palast bei der Maßnahme von zweitausenddreiundzwanzig und fügte dabei Bauelemente wieder ein. Ein Teil dessen, was du siehst, wurde erneut an seinen Platz gesetzt.\n\nGeh weiter zum [Haus der Schnecken](chi_36_casa_caracoles_tortuga)."
+    },
+    "retos_observacion": {
+      "hash": "456000a7aa8b9fc7",
+      "texto": [
+        "Betrachte die beiden Geschosse des Palastes und versuche, mit dem Blick dem Verlauf der Innentreppe zu folgen",
+        "Suche die Täfelchen an der Fassade und die bei der Restaurierung wieder eingefügten Elemente",
+        "Vergleiche seine Größe mit der des Tempels der Initialserie, den du zuvor gesehen hast"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3125872ca055a14d",
+      "texto": {
+        "Anlage": "Haus oder Palastkomplex der Phalli (Bauwerke 5C5, 5C14 und 5C15)",
+        "Grundriss": "Labyrinth aus Räumen, Korridoren und Höfen, mit Innentreppe zu zwei Zimmern im zweiten Geschoss",
+        "Bänke": "Reliefs von Venussternen, wiederverwendet aus dem Tempel der Initialserie",
+        "Fassade": "Täfelchen des Gottes N in Gestalt von Schnecke und Spinne",
+        "Verfall": "seine Steine wurden im Bauwerk 5C8 wiederverwendet",
+        "Restaurierung": "Wiedereinfügung von Elementen (INAH, 2023)"
+      }
+    },
+    "faq_mito": {
+      "hash": "137f4f3208e0bbfa",
+      "texto": {
+        "pregunta": "Mythos: Der Palast der Phalli war ein Tempel, der einem einzigen Fruchtbarkeitsritual gewidmet war.",
+        "respuesta": "Realität: Er ist ein zweigeschossiger Palast mit Räumen, Höfen und einer Treppe. Die Skulpturen, die ihm den Namen geben, sind nicht gut bekannt."
+      }
+    }
+  }
+}

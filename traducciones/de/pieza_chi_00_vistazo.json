@@ -1,0 +1,60 @@
+{
+  "id": "chi_00_vistazo",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3b0bff030db10d27",
+      "texto": "Chichén Itzá auf einen Blick"
+    },
+    "frase_gancho": {
+      "hash": "5e1b57cf61aa438b",
+      "texto": "Eine Stadt, erbaut an natürlichen Wasserbrunnen, in einem Land ohne Flüsse."
+    },
+    "puente_narrativo": {
+      "hash": "8d8b49e3baf8b546",
+      "texto": "Folge dem baumbestandenen Eingangspfad, bis sich der große Platz öffnet. Dort geht es mit der nächsten Station deines Rundgangs weiter."
+    },
+    "guion_corto": {
+      "hash": "aa4d1c9935dd8b5e",
+      "texto": "Du gehst auf eine der berühmtesten Städte der Maya-Welt zu, und alles beginnt mit einer Frage: Wie gründet man eine Hauptstadt dort, wo es keine Flüsse gibt? Im Norden von Yucatán saugt der Kalkstein den Regen auf wie ein Schwamm, und das Wasser fließt unter der Erde. Nur dort kommt es zum Vorschein, wo die Decke einer Höhle eingestürzt ist: bei den Cenoten. Daher kommt der Name. Chichén Itzá bedeutet auf Maya: an der Mündung des Brunnens der Itzá. Itzá wird meist als Wasserzauberer übersetzt, auch wenn diese Übersetzung umstritten ist. Die Stadt entwickelte sich vor allem zwischen den Jahren siebenhundertfünfzig und eintausendeinhundert, und seit neunzehnhundertachtundachtzig ist sie UNESCO-Welterbe. In wenigen Schritten trittst du aus den Bäumen und siehst den großen Platz."
+    },
+    "guion_largo": {
+      "hash": "9713ff64ba37524e",
+      "texto": "Fast alles, was du heute sehen wirst, erklärt sich durch zwei Dinge: das Wasser, das unter der Erde verborgen liegt, und das Zusammentreffen verschiedener Traditionen Mesoamerikas.\n\nBeginnen wir mit dem Wasser. In diesem Teil von Yucatán gibt es an der Oberfläche keinen einzigen Fluss. Der Regen versickert im Kalkstein und fließt durch unterirdische Höhlen. Die Cenoten sind die Orte, an denen die Decke dieser Höhlen eingestürzt ist und das Wasser freigelegt hat. El Castillo, das bekannteste Bauwerk, liegt am Schnittpunkt zweier gedachter Linien, die vier Cenoten verbinden: Die eine führt vom Heiligen Cenote im Norden zum Xtoloc im Süden, die andere vom Holtún im Westen zum Kanjuyum im Osten. So stellt es das Projekt Großer Maya-Aquifer dar. Deshalb ist Chichén Itzá, bevor es eine Stadt aus Stein ist, eine Stadt der Brunnen.\n\nDer Name sagt es schon. Chi bedeutet Mund oder Rand, und ch'een bedeutet Brunnen. Itzá ist der Name der Gruppe, die der Stadt ihre Identität gibt. Eine der vorgeschlagenen Übersetzungen verbindet es mit itz, das Zauberer bedeutet, und ha, das Wasser bedeutet: daher die Wasserzauberer. Aber das ist nicht die einzige Lesart. Man erzählt, die Menschen der Region hätten die Itzá diejenigen genannt, die unsere Sprache nur halb sprechen. Und die Bücher des Chilam Balam erwähnen ältere Namen für diesen Ort, etwa Uuc Yabnal, was als sieben große Häuser übersetzt wurde.\n\nZu ihrer Geschichte unterteilen die Archäologen sie gewöhnlich so: Die zentrale Anlage entstand zwischen den Jahren siebenhundertfünfzig und neunhundert, und die Stadt erhielt ihre endgültige Gestalt nach dem Jahr neunhundert. Das erste Hieroglyphendatum der Stätte entspricht dem Jahr achthundertzweiunddreißig unserer Zeitrechnung. Das letzte bekannte befindet sich im Tempel des Beinhauses und entspricht dem Jahr neunhundertachtundneunzig. Um das Jahr eintausendeinhundert hatte Chichén Itzá als regionales Zentrum bereits an Bedeutung verloren.\n\nEs gibt eine Debatte, die man kennen sollte. Lange Zeit glaubte man, dass Bauwerke in einem Stil, der dem Zentralmexikos ähnelt, wie der Tempel der Krieger, die Spur einer Invasion aus Tula seien. Heute sprechen die meisten Deutungen eher von Einfluss und Kontakt zwischen den Regionen, nicht von einer Eroberung. Diesen Dialog der Stile wirst du auf dem ganzen Rundgang sehen.\n\nEin praktischer Hinweis. Das INAH hat den Aufstieg und den Zugang zu vielen der Monumente gesperrt. Du kannst sie umrunden und aus der Nähe betrachten, aber nicht auf sie hinaufsteigen und ihre Kammern nicht betreten. Deshalb erzählen dir einige Stationen, was sich im Inneren befindet, und du stellst es dir von außen vor.\n\nFolge jetzt dem Pfad. Wenn du aus den Bäumen trittst, liegt vor dir der große Platz, die künstliche Plattform, auf der sich das Zeremonialzentrum erhebt."
+    },
+    "retos_observacion": {
+      "hash": "6b7b5e61e0c3a70e",
+      "texto": [
+        "Achte auf den weißen, porösen Kalkstein im Boden und in den Mauern, denselben, der das Regenwasser aufsaugt",
+        "Betrachte die Vegetation: Es ist niedriger Dschungel, ohne Flüsse oder Seen in Sicht",
+        "Wenn du aus den Bäumen trittst, such die pyramidenförmige Silhouette von El Castillo in der Mitte des großen Platzes"
+      ]
+    },
+    "especificaciones": {
+      "hash": "31971c4db987001c",
+      "texto": {
+        "Name": "„an der Mündung des Brunnens der Itzá“",
+        "Hauptentwicklung": "ungefähr zwischen den Jahren 750 und 1100 unserer Zeitrechnung",
+        "Hieroglyphische Daten": "von 832 (das älteste) bis 998 (im Beinhaus)",
+        "Cenoten": "Heiliger Cenote, Xtoloc, Kanjuyum und Holtún",
+        "UNESCO-Erklärung": "Welterbe seit 1988",
+        "Zugang": "das INAH erlaubt es nicht, die meisten Monumente zu besteigen oder zu betreten"
+      }
+    },
+    "faq_mito": {
+      "hash": "ab6c68e0c235e559",
+      "texto": {
+        "pregunta": "Mythos: Die Tolteken aus Zentralmexiko eroberten Chichén Itzá und bauten die Hälfte der Stadt.",
+        "respuesta": "Realität: Die meisten heutigen Deutungen sprechen von Einfluss und kulturellem Kontakt zwischen dem Maya-Gebiet und Zentralmexiko, nicht von einer Eroberung."
+      }
+    }
+  }
+}

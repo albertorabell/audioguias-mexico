@@ -1,0 +1,70 @@
+{
+  "id": "chi_13_sacbe_uno",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Heiliger Cenote\" para \"Cenote Sagrado\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Heiliger Cenote\" para \"Cenote Sagrado\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Heiliger Cenote\" para \"Cenote Sagrado\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Heiliger Cenote\" para \"Cenote Sagrado\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "b2a51451617dbeb9",
+      "texto": "Der Sacbé Nummer 1"
+    },
+    "frase_gancho": {
+      "hash": "2969530dd5e5f238",
+      "texto": "Ein weißer Weg aus Stein, gerade und erhöht, der vom Platz zum Rand des heiligen Wassers führt."
+    },
+    "puente_narrativo": {
+      "hash": "b36faea0950c1878",
+      "texto": "Folge dem Dammweg bis zum Ende. Dort, zwischen den Bäumen, liegt der [Heilige Cenote](chi_14_cenote_sagrado), der berühmteste Brunnen von Chichén Itzá."
+    },
+    "guion_corto": {
+      "hash": "1b0bf67611f67142",
+      "texto": "Du stehst auf einem Sacbé, einem Wort der Maya, das weißer Weg bedeutet. Es ist ein erhöhter Dammweg aus Kalkstein, der größte und am aufwendigsten gestaltete der Stätte: Er ist etwa zweihundertsiebzig Meter lang und im Durchschnitt neun Meter breit. Andere Messungen kommen auf etwa dreihundert Meter. Er verbindet den Hauptplatz mit dem Heiligen Cenote. Während du gehst, denk darüber nach, wer ihn beschritten hat: Priester, Herrscher und vielleicht Besucher aus fernen Ländern, denn zu den Opfergaben, die im Cenote gefunden wurden, gehören Gold, Kupfer und Jade, die nicht aus Yucatán stammen."
+    },
+    "guion_largo": {
+      "hash": "d1059db2ffaeea2c",
+      "texto": "Ein Sacbé ist ein Weg, aber auch eine Idee. Auf Maya bedeutet Sacbé weißer Weg. Es waren erhöhte Dammwege aus Stein, die Gebäudegruppen miteinander verbanden.\n\nDies ist der Sacbé Nummer eins, der größte und am aufwendigsten gestaltete Dammweg von Chichén Itzá. Er ist etwa zweihundertsiebzig Meter lang und im Durchschnitt neun Meter breit. Andere Messungen kommen auf etwa dreihundert Meter. Der Unterschied rührt sicherlich daher, wie gemessen wird, und es genügt, sich zu merken, dass er lang, gerade und breit ist.\n\nSeine Funktion war es, zu verbinden. An einem Ende liegt der große Platz mit El Castillo und dem Ballspielplatz. Am anderen der Heilige Cenote. Wahrscheinlich zogen hier Prozessionen entlang. Die Archäologie kann das nicht mit Sicherheit sagen, aber die Form des Weges legt es nahe: gerade, erhöht und auf ein Ziel ausgerichtet.\n\nUnd dieses Ziel erklärt viel. Der Heilige Cenote empfing über Jahrhunderte Opfergaben. Darunter sind Gold, Kupfer und Jade. Keines dieser Materialien kommt in Yucatán natürlich vor, daher gelangten sie aus anderen Regionen Mittelamerikas hierher. Das bedeutet, dass dieser Weg auch mit einer viel größeren Welt verbindet. Wenn es heißt, Chichén Itzá sei ein Pilgerzentrum gewesen, ist dies einer der Hinweise.\n\nAußerdem sollte man bei einer oft wiederholten Vorstellung vorsichtig sein: dass dieser ganze Weg nur zeremoniell gewesen sei. Vielleicht war er es zum Teil. Aber die Sacbés verbanden auch Bereiche der Stadt untereinander. Die beiden Funktionen schließen sich nicht aus.\n\nDieser Weg ist eine gute Gelegenheit, über die Größe der Stätte nachzudenken. Vom Platz aus sieht man den Cenote nicht. Man muss einige hundert Meter zwischen Bäumen zurücklegen, um ihn zu erreichen. Diese Entfernung gehört zum Erlebnis: Man verlässt den offenen Raum und betritt einen geschlosseneren.\n\nGeh in Ruhe bis zum Ende. Dort erwartet dich der [Heilige Cenote](chi_14_cenote_sagrado), ein natürlicher Brunnen von sechzig Metern Durchmesser."
+    },
+    "retos_observacion": {
+      "hash": "f9eca1067d4b4565",
+      "texto": [
+        "Beobachte, wie gerade und erhöht der Weg im Verhältnis zum Gelände an den Seiten ist",
+        "Sieh dir den Stein am Boden an: Er ist Kalkstein, und deshalb heißt der Weg weiß",
+        "Achte beim Vorangehen darauf, wie sich der Raum durch die Bäume schließt, bis der Rand des Cenote erscheint"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e0232a33e69ff209",
+      "texto": {
+        "Name": "Sacbé, „weißer Weg“ auf Maya",
+        "Länge": "etwa 270 Meter (andere Messungen kommen auf etwa 300)",
+        "Breite": "etwa 9 Meter im Durchschnitt",
+        "Verbindet": "den Hauptplatz mit dem Heiligen Cenote",
+        "Bedeutung": "ist der größte und am aufwendigsten gestaltete Dammweg von Chichén Itzá",
+        "Zugehörige Angabe": "die Opfergaben des Cenote umfassen Gold, Kupfer und Jade, die nicht aus Yucatán stammen"
+      }
+    },
+    "faq_mito": {
+      "hash": "3e1675f174763f4b",
+      "texto": {
+        "pregunta": "Mythos: Die Sacbés waren nur Wege für religiöse Prozessionen.",
+        "respuesta": "Realität: Wahrscheinlich wurden sie bei Ritualen genutzt, aber sie verbanden auch Bereiche der Stätte. Die beiden Funktionen schließen sich nicht aus."
+      }
+    }
+  }
+}

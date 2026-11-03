@@ -1,0 +1,64 @@
+{
+  "id": "chi_34_templo_serie_inicial",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Frühe Postklassik\" para \"Posclásico Temprano\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Späte Klassik\" para \"Clásico Tardío\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "e4c4238afd6a019e",
+      "texto": "Tempel der Initialserie"
+    },
+    "frase_gancho": {
+      "hash": "58d1c3fd3f4f2df6",
+      "texto": "Der Eingang zu Alt-Chichén: ein dreistufiger Tempel mit einem Türsturz, der auf das Jahr achthundertachtundsiebzig datiert ist."
+    },
+    "puente_narrativo": {
+      "hash": "9957d7b813e7aa17",
+      "texto": "Geh über die Nordplaza bis zum [Tempel der Phalli](chi_35_templo_falos), einem zweistöckigen Palast."
+    },
+    "guion_corto": {
+      "hash": "ce780e7a286833a9",
+      "texto": "Du stehst in der Gruppe der Initialserie, die auch Alt-Chichén genannt wird. Es ist ein Wohn- und Zeremonialkomplex südwestlich des Zentrums von Chichén Itzá, mit rund fünfundzwanzig Bauwerken rings um zwei Plätze auf einer ummauerten Plattform. Der Tempel, der der Gruppe ihren Namen gibt, ist eine Pyramide mit drei Stufenkörpern und nur einer Treppe. Ein Türsturz mit einem Datum aus dem Jahr achthundertachtundsiebzig, der wahrscheinlich von seinem ursprünglichen Platz versetzt wurde, gehört zu seinen bemerkenswertesten Stücken."
+    },
+    "guion_largo": {
+      "hash": "e8140b9f80f106e1",
+      "texto": "Alt-Chichén ist der gebräuchliche Name eines Ortes, der jahrzehntelang nur schwer zu besuchen war.\n\nLaut einer Mitteilung des INAH vom Februar zweitausenddreiundzwanzig liegt die Gruppe der Initialserie südwestlich des Zentrums von Chichén Itzá, bedeckt etwa vierzehntausendsechshundertfünf Quadratmeter und umfasst fünfundzwanzig Bauwerke, die rings um zwei Plätze auf einer großen ummauerten Plattform angeordnet sind. Hier mischen sich Wohn-, Verwaltungs- und religiöse Bereiche. Andere Zählungen nennen etwas abweichende Zahlen: siebenundzwanzig Bauten oder mehr als dreiundzwanzig. Am besten merkt man sich die Vorstellung eines Komplexes mit zwanzig bis dreißig Bauwerken.\n\nDas Datum veränderte, was man über diesen Ort dachte. Das INAH sagt, die Besiedlung falle in die Späte Klassik, zwischen die Jahre sechshundert und achthundertfünfzig. Früher glaubte man, er stamme erst aus der Endklassik und der frühen Postklassik, etwa aus den Jahren achthundert bis zwölfhundert. Der Palast der Stuckaturen lieferte die ältesten Belege für Architektur in Chichén Itzá: farbig modellierten Stuck.\n\nDer Haupttempel, die Struktur fünf C vier, ist eine Pyramide mit drei Stufenkörpern und nur einer Treppe. Ihr oberer Tempel stammt aus der Sotuta-Zeit. Laut INAH liegt die Frontaltreppe im Westen und wird mit einem Opferstein in Verbindung gebracht; auf der unteren Ebene befindet sich ein Chac Mool, und zwei Atlanten dienen als Türpfosten des Eingangs. Der Türsturz trägt ein Datum, das dem dreißigsten Juli achthundertachtundsiebzig entspricht. Eine technische Studie aus dem Jahr zweitausendvierzehn besagt, dass er wahrscheinlich von seinem ursprünglichen Ort versetzt wurde und dass er einige Frauen und Männer erwähnt und sich auf Götter und Rituale bezieht.\n\nEdward Thompson erkundete diese Zone um achtzehnhundertfünfundneunzig, und das Carnegie-Institut interessierte sich im Jahr neunzehnhundertdreiundzwanzig dafür. Peter Schmidt leitete in den Neunzigerjahren eine groß angelegte Maßnahme.\n\nDas INAH öffnete Alt-Chichén im September zweitausenddreiundzwanzig für die Öffentlichkeit. Laut INAH kann man es heute freitags und samstags besuchen, in zwei Durchgängen: von neun bis halb zwölf und von zwölf bis halb drei. Man muss an der Kasse der archäologischen Zone reservieren, und du gehst immer mit Personal des INAH und einem Guide. Die Gruppen umfassen bis zu fünfzig Personen, und der Rundgang dauert etwa zweieinhalb Stunden. Diese Regeln können sich ändern: Bestätige sie, bevor du hingehst.\n\nGeh nun weiter zum [Tempel der Phalli](chi_35_templo_falos)."
+    },
+    "retos_observacion": {
+      "hash": "f6f609f3572ee677",
+      "texto": [
+        "Betrachte die Pyramide mit drei Stufenkörpern und nur einer Treppe",
+        "Suche den Chac Mool auf der unteren Ebene und die Atlanten, die als Türpfosten dienen",
+        "Achte auf die Mauer, die die Plattform des Komplexes umgibt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "0f43608b3284221c",
+      "texto": {
+        "Ensemble": "Gruppe der Initialserie (Alt-Chichén), rund 14 605 m², etwa 25 Bauwerke rings um zwei Plätze",
+        "Tempel der Initialserie (5C4)": "Pyramide mit drei Stufenkörpern und nur einer Treppe",
+        "Türsturz": "Datum: 30. Juli 878; wahrscheinlich versetzt",
+        "Besiedlung": "600-850 (Späte Klassik), laut INAH",
+        "Erforschung": "Thompson (um 1895), Carnegie (1923), Schmidt (Neunzigerjahre)",
+        "Besuch": "freitags und samstags, von 9:00 bis 11:30 und von 12:00 bis 14:30 Uhr, mit Reservierung an der Kasse der Zone, mit Guide und INAH; bis zu 50 Personen pro Gruppe und etwa 2,5 Stunden (INAH; vor dem Besuch bestätigen)",
+        "Öffnung für die Öffentlichkeit": "September 2023"
+      }
+    },
+    "faq_mito": {
+      "hash": "d949c73d58de3a80",
+      "texto": {
+        "pregunta": "Mythos: Alt-Chichén ist eine eigene Stadt, die älter ist als Chichén Itzá.",
+        "respuesta": "Realität: Es ist der gebräuchliche Name einer Gruppe innerhalb von Chichén Itzá. Das INAH setzt ihre Besiedlung ab der Späten Klassik an, vor der besser bekannten Epoche der Stätte."
+      }
+    }
+  }
+}

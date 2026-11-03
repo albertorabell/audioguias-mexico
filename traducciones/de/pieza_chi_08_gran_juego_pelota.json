@@ -1,0 +1,71 @@
+{
+  "id": "chi_08_gran_juego_pelota",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Großer Ballspielplatz\" para \"Gran Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "frase_gancho": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Großer Ballspielplatz\" para \"Gran Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "faq_mito": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "ef611bef583fdc40",
+      "texto": "Der Große Ballspielplatz"
+    },
+    "frase_gancho": {
+      "hash": "ae1be7f22c00f74d",
+      "texto": "Der größte bekannte Ballspielplatz Mesoamerikas: mehr als einhundertsechzig Meter lang."
+    },
+    "puente_narrativo": {
+      "hash": "c2d5568588337440",
+      "texto": "Geh zum Fuß der Spielfeldmauern, wo die Bänke mit Reliefs stehen. Wenn du fertig bist, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "guion_corto": {
+      "hash": "e2d5fed09dbc6b16",
+      "texto": "Du stehst auf dem Großen Ballspielplatz, dem größten, den man in Mesoamerika kennt. Das INAH beschreibt ihn mit mehr als einhundertachtundsechzig Metern Länge und siebzig Metern Breite, auch wenn andere Messungen etwas geringere Werte ergeben. Er ist der wichtigste der dreizehn Ballspielplätze, die man in Chichén Itzá kennt, und wurde um das Jahr neunhundert erbaut. An den Seitenwänden befinden sich in etwa acht Metern Höhe Steinringe mit zwei ineinander verschlungenen gefiederten Schlangen. Sie sehen aus wie Basketballkörbe, werden aber eher als Portale zur Unterwelt gedeutet. Die Fachfrau Linda Schele fasste es so zusammen: Es war kein Sport."
+    },
+    "guion_largo": {
+      "hash": "139ddbcc57aa6c00",
+      "texto": "Du stehst auf dem größten Ballspielfeld, das man in Mesoamerika kennt. Warum das so ist, versteht man, wenn du siehst, wie weit es reicht.\n\nDas INAH beschreibt es mit mehr als einhundertachtundsechzig Metern Länge und siebzig Metern Breite. Eine andere, technischere Beschreibung nennt eine Gesamtlänge von einhundertzweiundfünfzigeinhalb Metern und eine Breite von etwa einundsiebzig Metern. Das eigentliche Spielfeld ist etwa dreißig Meter breit, und jede Seitenmauer misst etwa sechsundneunzigeinhalb Meter. Die Maße schwanken, je nachdem, was man misst. Sicher ist: Es ist riesig.\n\nErbaut wurde es um das Jahr neunhundert, in der Terminalen Klassik. Das war eine Zeit, in der mehrere Maya-Städte im Norden von der Herrschaft eines einzelnen Herrschers zu einem Rat von Adligen übergingen. Es ist der wichtigste der dreizehn Ballspielplätze, die in Chichén Itzá dokumentiert wurden. Eine Inschrift auf einem runden Stein nennt als Datum den siebzehnten November des Jahres achthundertvierundsechzig, nach einer Lesart der Forscherin Ruth Krochock, und manche haben sie als Weihung des Spielfelds verstanden. Dennoch gibt es Studien, die annehmen, dass das Spielfeld um das Jahr neunhundert erbaut wurde, vielleicht über einem früheren.\n\nDie Anlage besteht aus vier großen Bauwerken. Im Osten und im Westen liegen zwei lange Plattformen mit Bänken, die die Reliefs tragen. Auf der Rückseite dieser Plattformen führen Treppen zu fünf kleinen Tempeln und zum Oberen Jaguartempel. Und an den Enden des Spielfelds stehen zwei weitere Tempel, der Nordtempel und der Südtempel.\n\nSieh dir die Ringe an. Sie befinden sich an den Seitenmauern, weit über dem Boden. Das INAH verzeichnet einen Ring in etwa acht Metern Höhe. In ihn sind zwei gefiederte Klapperschlangen eingemeißelt, die sich um sechs konzentrische Kreise verschlingen. Das INAH erinnert daran, dass man glaubte, die Spieler hätten versucht, den Kautschukball durch den Ring zu bringen, und dass das Bild ein Portal zur Unterwelt und einen Kreislauf von Tod und Wiedergeburt symbolisieren könnte. Ein geschnitzter Ring ist heute im Großen Museum von Chichén Itzá ausgestellt, innerhalb der archäologischen Zone.\n\nHinter alldem steht ein wichtiger Gedanke. Die Fachfrau Linda Schele vertrat die Ansicht, das Ballspiel sei kein Sport gewesen, sondern eine ernste Angelegenheit, verbunden mit dem Fortbestand des Staates und dem Kontakt zur anderen Welt. Deshalb sprechen die Reliefs der Bänke vom Opfer und die Ringe von der Unterwelt.\n\nEin weiteres Teil fehlt noch, um diesen Ort zu verstehen. Die Archäologen haben einen etwa neunzig Meter langen Abschnitt der Mauer ausgegraben, die das Zeremonialzentrum umgab, genau zwischen diesem Spielfeld und dem westlichen Fußgängereingang. Eine Hypothese besagt, dass der Ballspielplatz nach dieser Mauer und nach dem Unteren Jaguartempel errichtet wurde.\n\nWenn du fertig bist, geh weiter zur nächsten Station deines Rundgangs. Die Bänke mit Reliefs befinden sich am Fuß der Mauern, auf Bodenhöhe."
+    },
+    "retos_observacion": {
+      "hash": "0a341eec1b3d84d1",
+      "texto": [
+        "Schau zu den Seitenmauern hinauf und finde die Steinringe, viele Meter über dem Boden",
+        "Schätze mit den Augen die Länge des Spielfelds von einem Ende zum anderen ab",
+        "Erkenne die beiden Tempel an den Enden, den Nordtempel und den Südtempel, sowie die seitliche Plattform mit den Bänken"
+      ]
+    },
+    "especificaciones": {
+      "hash": "54ec939de8bbf154",
+      "texto": {
+        "Länge und Breite": "mehr als 168 × 70 Meter nach Angaben des INAH; eine andere Beschreibung nennt etwa 152,5 × 70,75 Meter",
+        "Zeit": "um das Jahr 900, Terminale Klassik",
+        "Ringe": "in etwa 8 Metern Höhe über dem Boden, mit zwei ineinander verschlungenen gefiederten Schlangen",
+        "Bauwerke": "zwei seitliche Plattformen mit Bänken, fünf kleine Tempel, der Obere Jaguartempel sowie der Nordtempel und der Südtempel",
+        "In Chichén Itzá dokumentierte Spielfelder": "13",
+        "Museum": "ein geschnitzter Ring ist im Großen Museum von Chichén Itzá ausgestellt"
+      }
+    },
+    "faq_mito": {
+      "hash": "e8e01786bc275d1d",
+      "texto": {
+        "pregunta": "Mythos: Beim Ballspiel der Maya ging es darum, den Ball wie bei einem modernen Sport durch den Ring zu bringen.",
+        "respuesta": "Realität: Die Ringe werden als Portale zur Unterwelt gedeutet. Die Fachfrau Linda Schele vertrat die Ansicht, das Spiel sei „kein Sport“ gewesen, sondern etwas, das mit dem Staat und der anderen Welt verbunden war."
+      }
+    }
+  }
+}

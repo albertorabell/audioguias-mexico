@@ -1,0 +1,60 @@
+{
+  "id": "chi_22_el_mercado",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Klassik\" para \"Clásico\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "77f290ac9bd6716d",
+      "texto": "Der Markt"
+    },
+    "frase_gancho": {
+      "hash": "e9eca5738bff012c",
+      "texto": "Ein langes Gebäude mit Pfeilern, mit Schlangen auf den Bänken und Kriegern, die auf Gefangene treten."
+    },
+    "puente_narrativo": {
+      "hash": "3e8d12812746f916",
+      "texto": "Geh weiter zum [Beinhaus](chi_23_el_osario), einer Pyramide mit einer Öffnung auf der Spitze, die hinunter in eine Höhle führt."
+    },
+    "guion_corto": {
+      "hash": "d896f82fe0c03816",
+      "texto": "Er heißt der Markt, weil die ersten Forscher glaubten, hier sei Handel getrieben worden. Heute sehen die Archäologen in ihm eher ein zeremonielles als ein kommerzielles Gebäude. Es hat eine vordere Plattform von etwa achtzig mal fünfzehn Metern, errichtet mit einer Reihe von Pfeilern, eine gewölbte Vorhalle und einen quadratischen Hof mit Säulen. Seine Bänke zeigen gefiederte Schlangen, und eine Böschung stellt eine Prozession von Kriegern dar, die auf Gefangene treten. Unter dem Boden des Hofes fand man eine kleine Opfergabe aus Perlen und einem winzigen Kopf aus Jadeit."
+    },
+    "guion_largo": {
+      "hash": "6f3da82da251edca",
+      "texto": "Der Name Markt ist ein gutes Beispiel für eine Idee, die haften geblieben ist, obwohl die Fachleute heute etwas anderes denken.\n\nDie ersten Forscher hielten dieses Gebäude für einen Markt, wegen seiner langen Galerie mit einer steinernen Bank ringsum und wegen seines Hofes. Heute denken die Archäologen, dass seine Funktion eher zeremoniell als kommerziell war. Der Name stammt also aus einer alten Deutung, nicht aus einem Nachweis.\n\nDie vollständigste Beschreibung stammt vom Archäologen Alexandre Guida Navarro, der zwischen zweitausendvier und zweitausendsieben an der Großen Nivellierung gearbeitet hat und dem Plan von Marquina aus dem Jahr neunzehnhundertvierundsechzig folgt. Die Front ist eine Plattform von etwa achtzig mal fünfzehn Metern, gebildet aus einer Reihe von Pfeilern. Dahinter liegt eine überdachte Vorhalle mit Gewölbe. Durch einen Zugang in der Mitte der Südmauer gelangt man in einen quadratischen Hof, der von Säulen umgeben ist. Die Pfosten dieses Eingangs tragen auf jeder Seite drei Krieger.\n\nDer Schmuck ist das Auffälligste. Es gibt zwei Bänke mit gefiederten Schlangen. Auf der Böschung, der geneigten Wand, zieht eine Prozession von Kriegern voran, die Gefangene zertreten. Unter dem Boden des Hofes fand Marquina einen Kasten aus Mauerwerk mit einer Opfergabe: Perlen aus grünem Stein und aus Muschel und einen kleinen Kopf aus Jadeit.\n\nGuida Navarro schlägt eine Lesart vor. Ihm zufolge verweist die Ikonographie der gefiederten Schlangen an diesem Gebäude und am Tzompantli auf eine Persönlichkeit, die er Schlangenkapitän nennt, und beide Gebäude hätten seine Einsetzung als Herrscher während der Endklassik gefeiert, zwischen den Jahren achthundert und tausendfünfzig. Das ist die Hypothese eines einzelnen Autors, kein Konsens.\n\nEs gibt noch eine praktische Information: Die Pfeiler dieses Gebäudes haben, wie die der Tausend Säulen, fast ihre gesamte Bemalung verloren. Was du heute siehst, ist nackter Stein.\n\nDie Beschreibungen stimmen in der Form nicht überein: Die eine nennt es quadratisch, eine andere T-förmig. Vielleicht sprechen sie von verschiedenen Teilen des Gebäudes.\n\nGeh nun weiter zum [Beinhaus](chi_23_el_osario)."
+    },
+    "retos_observacion": {
+      "hash": "e5af8b7c01a49a0f",
+      "texto": [
+        "Suche die Pfeiler an der Front und schätze, wie viele Menschen in eine so lange Galerie passten",
+        "Schau, ob du die gefiederten Schlangen auf den Bänken erkennst",
+        "Stell dir die Prozession der Krieger vor, die auf Gefangene treten, auf der Böschung"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ba35cb916ed77def",
+      "texto": {
+        "Vordere Plattform": "etwa 80 × 15 m, mit einer Reihe von Pfeilern",
+        "Elemente": "Vorhalle mit Gewölbe und quadratischer Hof mit Säulen",
+        "Eingang zum Hof": "drei Krieger an jedem Pfosten",
+        "Dekoration": "zwei Bänke mit gefiederten Schlangen und eine Böschung mit einer Prozession von Kriegern, die auf Gefangene treten",
+        "Opfergabe unter dem Hof": "Perlen aus grünem Stein und Muschel, kleiner Kopf aus Jadeit (Marquina, 1964)",
+        "Vorgeschlagene Lesart (Guida Navarro)": "erinnert an die Einsetzung eines „Schlangenkapitäns“, um 800-1050"
+      }
+    },
+    "faq_mito": {
+      "hash": "a5721cd81e1cdb28",
+      "texto": {
+        "pregunta": "Mythos: Es war der Markt, auf dem die Maya ihre Waren tauschten.",
+        "respuesta": "Realität: So haben es die ersten Forscher genannt. Heute halten die Archäologen es eher für ein zeremonielles als für ein kommerzielles Gebäude."
+      }
+    }
+  }
+}

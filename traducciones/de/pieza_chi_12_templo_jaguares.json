@@ -1,0 +1,63 @@
+{
+  "id": "chi_12_templo_jaguares",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Lange Zählung\" para \"Cuenta Larga\" y no aparece",
+      "el glosario pide \"Heiliger Cenote\" para \"Cenote Sagrado\" y no aparece",
+      "el glosario pide \"Großer Ballspielplatz\" para \"Gran Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "0c6b3f3927b517dd",
+      "texto": "Tempel der Jaguare"
+    },
+    "frase_gancho": {
+      "hash": "50da5f977047cf94",
+      "texto": "Ein kleiner Tempel mit Schlachtenmalereien und darunter ein weiterer mit einer Prozession von mehr als hundert Figuren."
+    },
+    "puente_narrativo": {
+      "hash": "6953c20041fbfbd8",
+      "texto": "Wenn du die Tempel am Ballspielplatz genug betrachtet hast, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "guion_corto": {
+      "hash": "d120546e59de0150",
+      "texto": "Hier stehen zwei Tempel, einer über dem anderen. Der Obere Tempel der Jaguare ist sechzehn Meter hoch. In seinem Inneren zeigen Wandmalereien Schlachten, unter dem Blick zweier Vorfahren: des Hauptmanns Schlange und des Hauptmanns Sonnenschild, auch Sonnenscheibe genannt. Unten, auf Höhe des Platzes, ist der Untere Tempel eine kleine Kammer von knapp über neun Metern Länge. Er blickt nach Osten, zum Tempel der Krieger. In seinem Inneren findet sich eine Prozession auf sechs Ebenen, von der einhundertelf stehende Figuren erhalten sind. Die Forschenden deuten sie als den Aufstieg eines Herrschers."
+    },
+    "guion_largo": {
+      "hash": "4d99211b83ebe962",
+      "texto": "Diese beiden Tempel, einer über dem anderen, gehören zum Komplex des Ballspielplatzes und erzählen eine Geschichte von Krieg und Macht.\n\nBeginnen wir oben. Laut einer technischen Untersuchung aus dem Jahr zweitausendsiebzehn misst der Obere Tempel der Jaguare etwa siebzehn Meter von Nord nach Süd und etwa elf Meter von Ost nach West, seine Gesamthöhe beträgt etwa sechzehn Meter. In seinem Inneren sind Wandmalereien mit Schlachtszenen der Itzá erhalten. Die Hauptfiguren sind zwei: der Hauptmann Schlange und der Hauptmann Sonnenscheibe, oder Sonnenschild, je nachdem, wer sie benennt. Es sind moderne Namen für Figuren, die die Fachleute als Vorfahren deuten. Ein Türsturz aus Holz ist an seiner ursprünglichen Stelle erhalten.\n\nDie Fachfrau Linda Schele hat eine Lesart vorgeschlagen. Ihr zufolge erinnert dieser Tempel an die Kriege, die das Reich der Itzá begründeten, und seine Embleme verbinden das Spiel mit dem Feuersteinschild und der Kriegsschlange. Das ist eine Deutung, aber sie zeigt, wie eng für die Menschen von damals Spiel, Krieg und Geschichte miteinander verbunden waren.\n\nSenke nun den Blick. Auf Höhe des Platzes liegt der Untere Tempel der Jaguare. Er ist eine kleine Kammer: etwa neuneinhalb Meter lang, drei Meter breit und viereinhalb Meter hoch. Seine Fassade blickt nach Osten, zum Tempel der Krieger. Auf ihr erscheinen zehn Figuren.\n\nDas Eindrucksvollste befindet sich im Inneren. Die Wände und die Gewölbe sind von einer Prozession bedeckt, die in sechs Ebenen angeordnet ist. Einhundertelf stehende Figuren sind erhalten. Die Forschenden deuten die Szene als den Aufstieg eines Herrschers. Die zentrale Figur befände sich auf der dritten Ebene der Westwand. Außerdem wird vorgeschlagen, dass der Vorfahr K'ak'upakal als Hauptmann Sonnenschild dargestellt ist. Das sind Hypothesen, und es ist wichtig, sie auch so zu hören.\n\nEs gibt noch einen weiteren Hinweis zur Datierung. Im Großen Ballspielplatz liegt ein kreisrunder Stein mit einem Datum der Langen Zählung, das dem siebzehnten November des Jahres 864 entspricht. Man hat es als Weihung des Spielfelds verstanden. Doch manche Forschende glauben, dass das Spielfeld um das Jahr 900 gebaut wurde, vielleicht über einem früheren, und dass der Untere Tempel erst später an der Ostseite hinzugefügt wurde.\n\nWenn du näher herantrittst, wirst du sehen, dass der Untere Tempel ebenerdig liegt und seine Wandmalereien im Inneren von außen nicht zu sehen sind. Die meisten Besucher kennen sie von Fotografien und Zeichnungen.\n\nWenn du fertig bist, geh weiter zur nächsten Station deines Rundgangs. Wenn du dich nach Nordosten wendest, siehst du einen geraden Damm, der sich in der Vegetation verliert: Es ist der Sacbé Nummer eins, der weiße Weg, der zum Heiligen Cenote führt."
+    },
+    "retos_observacion": {
+      "hash": "0ce19557ed54cadf",
+      "texto": [
+        "Suche den kleinen Tempel auf der östlichen Plattform des Spielfelds: Es ist der Obere Tempel der Jaguare",
+        "Finde auf Höhe des Platzes die Fassade des Unteren Tempels, die zum Tempel der Krieger blickt",
+        "Stell dir im Unteren Tempel eine Prozession von mehr als hundert Figuren auf sechs Ebenen vor"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c5a39157ff76c62f",
+      "texto": {
+        "Oberer Tempel": "etwa 17,1 × 11,1 Meter Grundfläche und etwa 16 Meter Gesamthöhe",
+        "Wandmalereien des Oberen Tempels": "Schlachten der Itzá, mit zwei Vorfahren, dem Hauptmann Schlange und dem Hauptmann Sonnenschild (oder Sonnenscheibe)",
+        "Unterer Tempel": "etwa 9,46 × 3,06 Meter, 4,56 Meter hoch",
+        "Prozession im Inneren": "sechs Ebenen; 111 stehende Figuren sind erhalten",
+        "Fassade des Unteren Tempels": "zehn Figuren",
+        "Studie": "González et al., 2017; Arqueología Mexicana (Velázquez Morlet)"
+      }
+    },
+    "faq_mito": {
+      "hash": "22f1e4a60ae353e8",
+      "texto": {
+        "pregunta": "Mythos: Die beiden Hauptleute der Wandmalereien sind historische Persönlichkeiten mit diesen Namen.",
+        "respuesta": "Realität: Es sind moderne Namen, die Fachleute Figuren geben, die sie als Vorfahren deuten. Es werden sogar unterschiedliche Namen verwendet: Sonnenscheibe und Sonnenschild."
+      }
+    }
+  }
+}

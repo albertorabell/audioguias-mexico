@@ -1,0 +1,62 @@
+{
+  "id": "chi_29_las_monjas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Klassik\" para \"Clásico\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "e0d005c4ea4cde31",
+      "texto": "Das Gebäude Las Monjas"
+    },
+    "frase_gancho": {
+      "hash": "475d498c34e10fd7",
+      "texto": "Ein Palast mit dem Namen eines Klosters, errichtet in mindestens sechs Bauphasen."
+    },
+    "puente_narrativo": {
+      "hash": "19b16a457b1a7166",
+      "texto": "Geh in Ruhe um das Gebäude herum, um es von seinen verschiedenen Seiten zu betrachten. Wenn du fertig bist, mach weiter mit der nächsten Station deines Rundgangs."
+    },
+    "guion_corto": {
+      "hash": "6510c0af105d0a21",
+      "texto": "Dies ist das Gebäude Las Monjas. Die Spanier gaben ihm diesen Namen, vielleicht weil die vielen Räume sie an ihre Klöster erinnerten, doch es war ein Regierungspalast. Es hatte mindestens sechs Bauphasen, besitzt drei Ebenen und verbindet den Maya-Tolteken-Stil mit dem Puuc-Stil. Das zweite Geschoss hat lange Inschriften auf den Türstürzen und Steinmosaike im späten Puuc-Stil. Die Texte erwähnen häufig den Herrscher K'ak'upakal."
+    },
+    "guion_largo": {
+      "hash": "43b39cc587248af1",
+      "texto": "Der Name täuscht, und deshalb beginnen wir am besten damit, was es nicht ist. Las Monjas war kein Kloster. Es war ein Regierungspalast. Eine wahrscheinliche Erklärung für den Namen ist, dass die Gebäude mit ihren vielen Räumen die Spanier an ihre Klöster erinnerten. Das ist eine Möglichkeit, keine Tatsache.\n\nDas INAH ordnet diese Anlage einer anderen Gruppe zu als der des Hauptplatzes. Hier herrscht die Puuc- und Chenes-Architektur vor. Auf dem großen Platz hingegen sind die Gebäude im Maya-Tolteken-Stil gehalten. Dieser Unterschied hilft zu verstehen, dass Chichén Itzá mehrere Traditionen zugleich hatte. Zur Gruppe gehören das Haus der Nonnen, sein Anbau, die Kirche und ein Ballspielplatz, der nicht ausgegraben wurde.\n\nDas Hauptgebäude hatte mindestens sechs Bauphasen, mit Veränderungen in Form, Dekoration und Stil, was auf eine lange Nutzung hindeutet. Es hat drei Ebenen, die den Maya-Tolteken-Stil und den Puuc-Stil verbinden. Im zweiten Geschoss gibt es lange Inschriften auf den Türstürzen, Wandmalereien und Steinmosaike im späten Puuc-Stil. Nach manchen Beschreibungen misst der ursprüngliche, bereits erweiterte Tempel etwa fünfzig mal dreiundzwanzig Meter, und der hohe Baukörper des jüngeren Gebäudes etwa zehn Meter.\n\nDas Gebäude blickt nach Norden und besteht aus drei Teilen: Las Monjas im engeren Sinn, dem Ostflügel und dem Südostflügel. Die Hieroglyphentexte dieser Anlage erwähnen häufig den Herrscher K'ak'upakal. Das INAH spricht außerdem von Mustern in Form von Flechtmatten, einem Symbol der Macht, und von einem Thron in Gestalt eines zweiköpfigen Jaguars neben der Haupttreppe.\n\nDie ersten bekannten Zeichnungen stammen von Frederick Catherwood, aus der Expedition von John Stephens, zwischen achtzehnhundertneununddreißig und achtzehnhundertvierzig. Danach kamen die Fotografien von Alfred Maudslay. Maudslay veröffentlichte die Türstürze nur unvollständig, und heute sind sie stark verwittert.\n\nBei den Datierungen gibt es Uneinigkeit. Manche ordnen es der Endklassik zu, und das Datenblatt des INAH nennt für die Gruppe ein ungefähres Datum von sechshundert bis achthundert unserer Zeitrechnung. Eine Inschrift des Anbaus wird auf etwa das Jahr achthundertachtzig geschätzt. Leg dich nicht auf eine einzige Zahl fest.\n\nGeh in Ruhe um das Gebäude herum. Wenn du die Ostseite erreichst, achte auf die Masken des Ostanbaus."
+    },
+    "retos_observacion": {
+      "hash": "647e5425756f744b",
+      "texto": [
+        "Betrachte die Fassade und suche die geometrischen Elemente und die Masken im Puuc-Stil",
+        "Vergleiche dieses Gebäude mit dem Tempel der Krieger: Es sind zwei verschiedene Traditionen",
+        "Suche neben der Haupttreppe den Thron in Gestalt eines zweiköpfigen Jaguars"
+      ]
+    },
+    "especificaciones": {
+      "hash": "78713fbcc8e9ae09",
+      "texto": {
+        "Stil": "Puuc und Chenes (INAH); Maya-Tolteken-Stil und Puuc",
+        "Bauphasen": "mindestens 6",
+        "Ebenen": "3",
+        "Ausrichtung": "blickt nach Norden",
+        "Teile": "Las Monjas, Ostflügel (Anbau) und Südostflügel",
+        "Ungefähre Maße": "etwa 50 × 23 m der ursprüngliche, bereits erweiterte Tempel; etwa 10 m der hohe Baukörper des jüngeren Gebäudes",
+        "Erste Zeichnungen": "Catherwood (1839-1840); Fotografien von Maudslay"
+      }
+    },
+    "faq_mito": {
+      "hash": "14cdfb3bb6535ab1",
+      "texto": {
+        "pregunta": "Mythos: Las Monjas war ein Kloster für Maya-Frauen.",
+        "respuesta": "Realität: Der Name stammt von den Spaniern. Es handelt sich um einen Regierungspalast, mit Texten, die einen Herrscher erwähnen."
+      }
+    }
+  }
+}

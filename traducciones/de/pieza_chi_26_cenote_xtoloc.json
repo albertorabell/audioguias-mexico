@@ -1,0 +1,68 @@
+{
+  "id": "chi_26_cenote_xtoloc",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Nordwesten\" para \"Noroeste\" y no aparece",
+      "el glosario pide \"Heiliger Cenote\" para \"Cenote Sagrado\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Nordwesten\" para \"Noroeste\" y no aparece",
+      "el glosario pide \"Heiliger Cenote\" para \"Cenote Sagrado\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Nordwesten\" para \"Noroeste\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "3d23ef01bc868fa3",
+      "texto": "Der Cenote Xtoloc"
+    },
+    "frase_gancho": {
+      "hash": "943c2d93b5a65133",
+      "texto": "Der andere Cenote von Chichén Itzá, der lange nur für eine Trinkwasserquelle gehalten wurde und vielleicht weit mehr war."
+    },
+    "puente_narrativo": {
+      "hash": "a8d9e98ffb3e296f",
+      "texto": "Beuge dich vorsichtig über den Rand des Cenote. Wenn du fertig bist, geh den Weg zurück und setze deinen Rundgang mit der nächsten Station fort."
+    },
+    "guion_corto": {
+      "hash": "fd84ee3acdce473f",
+      "texto": "Das ist der Cenote Xtoloc, der zweitgrößte von Chichén Itzá. Sein Name stammt von einem Maya-Wort, das Leguan bedeutet. Lange hieß es, der Heilige Cenote sei der religiöse und dieser hier der profane, der die Bevölkerung mit Wasser versorgte. Heute sagen mehrere Forschende, diese Trennung sei zu einfach. Eine Studie aus dem Jahr zweitausendachtzehn fand Treppen vom Weg bis zum Wasser, Plattformen aus Mauerwerk und drei Höhlen in der Nordwestwand. Der Tempel, der auf ihn blickt, hat Säulen mit Kriegerfiguren."
+    },
+    "guion_largo": {
+      "hash": "0f57e8dfaa38f81a",
+      "texto": "Wenn man an die Cenotes von Chichén Itzá denkt, denkt man fast immer an den Heiligen. Dies hier ist der andere, und seine Geschichte hilft zu verstehen, wie sich Vorstellungen verändern.\n\nDer Cenote Xtoloc ist der zweitgrößte der Stätte. Sein Name stammt von einem Maya-Wort für Leguan. Neben ihm erhebt sich der Tempel von Xtoloc, mit Pfeilern, in die menschliche Figuren, Pflanzen, Vögel und mythologische Szenen gemeißelt sind. Sein mittlerer Eingang blickt nach Westen, ausgerichtet auf den sacbé, der zum Ossuarium führt, und der Altar im Inneren trägt Flachreliefs mit Pflanzen, Vögeln und mythischen Szenen.\n\nJahrzehntelang wurde eine Vorstellung wiederholt: Der Heilige Cenote sei der Ort der Rituale gewesen, und Xtoloc der profane Cenote, der Wasser für den täglichen Gebrauch lieferte. Eine Zusammenfassung, die zweitausendachtzehn von Cristina Verdugo, Jeremy Coltman, James Brady und Guillermo de Anda vorgestellt wurde, sagt, diese Annahme sei zu einer oft wiederholten Wahrheit geworden, und deshalb habe man ihm wenig Aufmerksamkeit geschenkt. Als Beispiel: Der Tempel erscheint nicht einmal auf der Karte der Carnegie Institution, obwohl Ann Axtell Morris dort in den Zwanzigerjahren grub.\n\nAls das Projekt Großer Maya-Aquifer alle Wasserquellen der Stätte überprüfte, fand es Treppen vom sacbé bis zum Wasser, Plattformen aus Mauerwerk, die dem Raum Gestalt gaben, und drei Höhlen in der Nordwestwand des Cenote. Eine weitere Zusammenfassung von Brian Waldo aus dem Jahr zweitausendneunzehn sagt, die Trennung von Heiligem und Profanem sei eine simplifizierende Vorstellung, die unserer eigenen Kultur entspringe. Er argumentiert, dass die sacbés die Gewässer mit dem Zentrum der Stadt verbanden.\n\nDas sind Kongresszusammenfassungen, keine veröffentlichten Artikel, also eine laufende Forschungslinie. Sie sagen weder, wie tief der Cenote ist, noch, welche Objekte gefunden wurden.\n\nDie Lehre daraus ist, dass das Wasser von Chichén Itzá zugleich praktisch und heilig war. Wenn du fertig bist, geh den Weg zurück und setze deinen Rundgang mit der nächsten Station fort."
+    },
+    "retos_observacion": {
+      "hash": "bed325aec35d6819",
+      "texto": [
+        "Suche den Rand des Cenote und achte auf die Vegetation, die über dem Wasser hängt",
+        "Finde den Tempel, der auf ihn blickt, und seine Pfeiler mit Figuren",
+        "Denk an den Weg, der von dem Ossuarium bis hierher führt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a36ffb04e66019c7",
+      "texto": {
+        "Größe": "zweitgrößter Cenote von Chichén Itzá",
+        "Name": "aus dem Maya, „Leguan“",
+        "Tempel von Xtoloc": "Pfeiler mit Menschen, Pflanzen und Vögeln; mittlerer Eingang nach Westen",
+        "Funde des Großen Maya-Aquifers": "Treppen vom sacbé, Plattformen aus Mauerwerk, drei Höhlen in der Nordwestwand",
+        "Ausgrabung am Tempel": "Ann Axtell Morris, Zwanzigerjahre",
+        "Tiefe und Objekte": "keine veröffentlichten Daten"
+      }
+    },
+    "faq_mito": {
+      "hash": "ce9d8e8343da4b48",
+      "texto": {
+        "pregunta": "Mythos: Der Cenote Xtoloc war nur die alltägliche Wasserstelle und hatte keinen rituellen Wert.",
+        "respuesta": "Realität: Das ist eine traditionelle Vorstellung, die mehrere Forschende heute infrage stellen. Sie fanden Treppen, Plattformen und Höhlen, die nahelegen, dass der Ort auch gestaltet und gepflegt wurde."
+      }
+    }
+  }
+}

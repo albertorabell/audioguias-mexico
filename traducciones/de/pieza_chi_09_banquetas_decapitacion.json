@@ -1,0 +1,62 @@
+{
+  "id": "chi_09_banquetas_decapitacion",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Großer Ballspielplatz\" para \"Gran Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "fabb47fec5083adf",
+      "texto": "Die Paneele der Enthauptung"
+    },
+    "frase_gancho": {
+      "hash": "e6da41f967a5b673",
+      "texto": "Sechs Paneele wiederholen dieselbe Szene: einen Spieler mit dem Kopf eines anderen und sechs Blutschlangen."
+    },
+    "puente_narrativo": {
+      "hash": "2be332556f9c70a3",
+      "texto": "Geh neben den Bänken in die Hocke und lass den Blick über die Szenen wandern. Wenn du fertig bist, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "guion_corto": {
+      "hash": "fbf9d78e9b3ebee4",
+      "texto": "Geh am Fuß der seitlichen Plattformen in die Hocke. An den Bänken siehst du eine Szene, die sich sechsmal wiederholt, dreimal auf jeder Seite. Es sind zwei Mannschaften von Spielern mit ihren Kapitänen, und in der Mitte ein großer Ball aus Feuerstein, in dem ein Totenschädel steckt. Auf einer Seite der Szene hält ein Spieler den abgeschlagenen Kopf eines anderen, der kniet und blutet. Das Blut tritt als sechs Schlangen aus, und zwischen ihnen wächst eine Pflanze. Die Fachleute sind sich nicht einig, ob der Enthauptete der Sieger oder der Verlierer war. Eine Fachfrau sieht in der Szene einen Weltenbaum. Die Einzelheiten werden weiter erforscht."
+    },
+    "guion_largo": {
+      "hash": "08c73639da6b2e35",
+      "texto": "Du stehst vor der berühmtesten Szene des Großen Ballspielplatzes. Sie wiederholt sich sechsmal, dreimal auf jeder seitlichen Plattform.\n\nNach der Archäologin Adriana Velázquez Morlet zeigt die Szene ein zeremonielles Spiel zwischen zwei Mannschaften mit je sechs Spielern, dazu ihre Kapitäne. In der Mitte befindet sich ein großer Ball aus Feuerstein, in dem ein Totenschädel steckt. Dieser Schädel spricht, und die Autorin identifiziert ihn anhand der Haarsträhne auf seinem Kopf als einen way, einen Begleitgeist.\n\nAuf einer Seite der Szene hält ein Spieler den abgeschlagenen Kopf eines anderen. Auf der anderen Seite erscheint der enthauptete Kapitän kniend und blutend. Aus seinem Hals treten sechs Schlangen hervor, und die Autorin identifiziert sie als eine Schlangenart namens wak kan, die den Weltenbaum darstellen würde. Zwischen den Schlangen wächst eine Kürbispflanze, die auch Linda Schele als Weltenbaum las. Die übrigen Spieler beobachten die Szene, und Schriftbänder um sie herum deuten darauf hin, dass sie sangen oder rezitierten.\n\nEine Frage bleibt offen: Wer ist der Enthauptete? Velázquez Morlet liest den Spieler, der den Kopf hält, als Sieger und den Enthaupteten als Besiegten. Doch die Fachleute sind sich nicht einig, ob der Geopferte der Sieger oder der Verlierer des Spiels war, und es gibt keine Antwort, die alle akzeptieren.\n\nEin anderer Fachmann, Enrique Vela, sagt etwas Ähnliches: dass die Reliefs der Bänke Szenen der Opferung von Spielern zeigen.\n\nMan muss deutlich sagen, dass dies eine Lesart ist und dass die Einzelheiten der Szene weiter erforscht werden. Was du siehst, ist ein kraftvolles Bild: eine Opferszene, verbunden mit dem Gedanken der Wiedergeburt, denn aus dem Blut sprießt eine Pflanze. Deshalb spricht man beim Spiel häufig von einer Form, um Fruchtbarkeit zu bitten und die Ordnung der Welt zu bewahren.\n\nDiese Szene war nicht die einzige. Im Nordtempel, am Ende des Spielfelds, gibt es ein weiteres Paneel mit mehr als vierzig Figuren. Und die Ringe, die du an der vorherigen Station gesehen hast, tragen verschlungene Schlangen, so wie diese hier.\n\nNimm dir einen Moment Zeit, um die Einzelheiten zu betrachten. Du wirst die Gesichter im Profil sehen, den Kopfschmuck, den Halsschmuck, die Falten der Kleidung. Es sind sehr sorgfältig gearbeitete Reliefs, und sie lassen sich noch immer lesen, obwohl der Stein seine Farbe verloren hat.\n\nWenn du bereit bist, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "retos_observacion": {
+      "hash": "327146aa12ebd663",
+      "texto": [
+        "Suche den großen Ball aus Feuerstein in der Mitte der Szene, mit dem Totenschädel darin",
+        "Finde die sechs Schlangen, die aus dem Hals des knienden Kapitäns hervortreten",
+        "Achte auf die Pflanze, die zwischen den Schlangen wächst, ein Symbol der Wiedergeburt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "e06dbf56dd289a7a",
+      "texto": {
+        "Szene": "wiederholt sich sechsmal, dreimal auf jeder seitlichen Plattform",
+        "Spieler": "zwei Mannschaften zu je sechs, dazu ihre Kapitäne",
+        "Zentrales Element": "ein großer Ball aus Feuerstein mit einem sprechenden Totenschädel",
+        "Blut": "sechs wak-kan-Schlangen; zwischen ihnen wächst eine Kürbispflanze",
+        "Lesart": "Adriana Velázquez Morlet",
+        "Deutung": "ist die Lesart einer Fachfrau, und die Einzelheiten werden weiter erforscht"
+      }
+    },
+    "faq_mito": {
+      "hash": "c20655e7987bb040",
+      "texto": {
+        "pregunta": "Mythos: Man weiß sicher, dass der Enthauptete auf den Paneelen der Verlierer des Spiels war.",
+        "respuesta": "Realität: Die Fachleute sind sich nicht einig, ob der Enthauptete der Sieger oder der Verlierer war. Die Lesart von Velázquez Morlet sieht den Sieger, der den Kopf des Besiegten hält, doch die Einzelheiten der Szene werden weiter erforscht."
+      }
+    }
+  }
+}

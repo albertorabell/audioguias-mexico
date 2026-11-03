@@ -1,0 +1,57 @@
+{
+  "id": "chi_38_galeria_monos",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "abd897725ed4146e",
+      "texto": "Die Galerie der Affen"
+    },
+    "frase_gancho": {
+      "hash": "a7bc72ae119bf235",
+      "texto": "Eine Galerie von sechsunddreißig Metern Länge mit mehr als sechzig gemeißelten Affen und Vögeln, die sie angreifen."
+    },
+    "puente_narrativo": {
+      "hash": "7b2c809aa3a8afc3",
+      "texto": "Hier endet der Besuch in Alt-Chichén. Wenn du die Galerie zu Ende betrachtet hast, geh mit deinem Guide auf dem Eingangsweg zurück."
+    },
+    "guion_corto": {
+      "hash": "f32e69f40f82d29a",
+      "texto": "Die Galerie der Affen, oder Tempel der Affen, liegt auf der Westseite des südwestlichen Platzes von Alt-Chichén. Sie ist fast sechsunddreißig Meter lang, fünfeinhalb Meter breit und etwa viereinhalb Meter hoch. Ihre Gesimse tragen mehr als sechzig Affen in Hochrelief. Der Fries besteht aus sechzehn großen Paneelen: sechs mit Herrschern, die auf Himmelsbändern sitzen, und zehn mit Vögeln, die tanzende Affen angreifen. Einer der Herrscher wurde als Zehn Hirsch gelesen."
+    },
+    "guion_largo": {
+      "hash": "93bd315f86679e93",
+      "texto": "Diese Galerie erklärt ihren Namen von selbst: Ein Blick auf die Fassade genügt.\n\nLaut dem Bericht von Peter Schmidt und Rocío González de la Mata aus dem Jahr zweitausendsieben liegt das Bauwerk fünf C sechs auf der Westseite des südwestlichen Platzes. Das Archäologische Projekt Chichén Itzá grub es zwischen neunzehnhundertneunundneunzig und zweitausendfünf aus und restaurierte es teilweise. Es ist fast sechsunddreißig Meter lang von Norden nach Süden und fünf Meter fünfundvierzig breit, bei einer Außenhöhe von viereinhalb Metern. Auf der Ostseite, die sich zum Platz hin öffnet, stehen neun Säulen und dahinter eine zweite Reihe von zehn. Karl Ruppert hatte neunzehnhundertzweiundfünfzig nur acht gezählt.\n\nUm den Namen zu verstehen, genügt es, zu sehen, was die Galerie erzählt. Mehr als sechzig Affen in Hochrelief schmücken die Gesimse. Der Fries hat sechzehn große Paneele. Auf sechs davon sitzen hochrangige Herren auf Himmelsbändern und halten Stängel, die in Schlangenköpfen enden. Ihre Glyphen lesen sich als Zehn Hund oder Zehn Hirsch, doch die Fachleute versehen die Lesung mit einem Fragezeichen. Auf den anderen zehn Paneelen greifen Vogelmenschen, vielleicht verkleidet, tanzende Affen an. Jede Ecke hat zwei übereinandergesetzte Masken. Eine Studie aus dem Jahr zweitausendvierzehn bringt den Herrn auf dem Relief mit Zehn Hirsch in Verbindung, dem ranghöchsten Bewohner der Gruppe.\n\nZu ihrer Nutzung schließen Schmidt und González de la Mata das Naheliegendste aus. Die gefundenen Objekte passen weder zu einem Wohnhaus noch zu einem Heiligtum noch zu einem Militärposten. Sie vergleichen die Galerie mit den Pilgerarkaden der Kolonialzeit, Galerien, in denen man untergebracht war und arbeitete, und schlagen vor, dass die zum Platz hin offene Seite es erlaubte, die Arbeit von außen zu beaufsichtigen.\n\nDie Galerie nahm ein schlimmes Ende. Die Holzbalken stürzten ein und verbrannten, und es gilt als wahrscheinlich, dass das Feuer absichtlich gelegt wurde. Danach gab es eine kurze Besiedlung. An der Oberfläche wurden fast viertausendfünfhundert Scherben aufgesammelt, fast alle aus der Sotuta-Phase.\n\nIn der Nähe hat ein Chultún, also eine in den Fels gehauene Zisterne, eine Tiefe von etwa fünf Metern. Nahe dem Grund fanden sich sechs Schädel. Man deutet das als hastige Räumung nach einer Katastrophe.\n\nHier endet der Besuch in Alt-Chichén. Geh mit deinem Guide auf dem Eingangsweg zurück."
+    },
+    "retos_observacion": {
+      "hash": "5170575d86256d6e",
+      "texto": [
+        "Suche an den Gesimsen die Affen in Hochrelief und zähle einige",
+        "Finde den Fries mit den Vögeln, die die Affen angreifen, und den sitzenden Herrschern",
+        "Sieh dir die Säulen auf der zum Platz hin offenen Seite an: Es sind neun"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c8060c9a73c89c9e",
+      "texto": {
+        "Bauwerk": "5C6, Westseite des südwestlichen Platzes",
+        "Abmessungen": "fast 36 m lang, 5,45 m breit, 4,50 m hoch",
+        "Säulen auf der Ostseite": "9 und dahinter eine zweite Reihe von 10",
+        "Fries": "16 Paneele; 6 mit auf Himmelsbändern sitzenden Herrschern und 10 mit Vögeln, die Affen angreifen",
+        "Affen an den Gesimsen": "mehr als 60",
+        "Arbeiten": "Ausgrabung und teilweise Restaurierung, 1999-2005",
+        "Figur": "Zehn Hirsch (Lesung mit Fragezeichen)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c259fa225bffe34a",
+      "texto": {
+        "pregunta": "Mythos: Die Affen der Galerie waren echte Affen, die im Tempel gehalten wurden.",
+        "respuesta": "Realität: Es sind Reliefs. Mehr als 60 Affen schmücken die Gesimse, und der Fries zeigt Vögel, die tanzende Affen angreifen."
+      }
+    }
+  }
+}

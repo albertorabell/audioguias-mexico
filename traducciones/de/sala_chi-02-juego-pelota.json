@@ -1,0 +1,35 @@
+{
+  "id": "chi-02-juego-pelota",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "nombre_oficial": [
+      "el glosario pide \"Großer Ballspielplatz\" para \"Gran Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "frase_gancho": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece"
+    ],
+    "introduccion_narrativa": [
+      "el glosario pide \"Großer Ballspielplatz\" para \"Gran Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "74cdea3bc9be7019",
+      "texto": "Der Komplex des Großen Ballspielplatzes"
+    },
+    "frase_gancho": {
+      "hash": "e5485d45c4084031",
+      "texto": "Der größte und eindrucksvollste Spielplatz ganz Mesoamerikas."
+    },
+    "introduccion_narrativa": {
+      "hash": "a59a91d53f2d97ae",
+      "texto": "Im Nordwesten der Plaza liegt der Große Ballspielplatz, der größte, der in Mesoamerika bekannt ist. Es gibt vier Stationen. Zuerst das Spielfeld mit seinen Steinringen in großer Höhe, die als Portale zur Unterwelt gedeutet werden. Dann die Paneele der Bankette mit einer Enthauptungsszene, die sich sechsmal wiederholt. Danach der Nord- und der Südtempel an den Enden des Spielfelds und schließlich der Jaguartempel mit seinen zwei Ebenen, die übereinanderliegen. Mehr als ein Sport scheint dieser Ort eine rituelle Bedeutung gehabt zu haben, und die Einzelheiten werden weiterhin erforscht."
+    }
+  }
+}

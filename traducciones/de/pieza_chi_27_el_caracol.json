@@ -1,0 +1,56 @@
+{
+  "id": "chi_27_el_caracol",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6dddd829991935e9",
+      "texto": "El Caracol"
+    },
+    "frase_gancho": {
+      "hash": "1855dae43d6d6ae4",
+      "texto": "Ein runder Turm mit einer Wendeltreppe im Inneren: das einzige kreisförmige Gebäude von Chichén Itzá."
+    },
+    "puente_narrativo": {
+      "hash": "8b5248a870f086d2",
+      "texto": "Geh weiter zu [Las Monjas](chi_29_las_monjas), einem großen Palast im Puuc-Stil."
+    },
+    "guion_corto": {
+      "hash": "79c38490dd6839a8",
+      "texto": "Dies ist das einzige runde Bauwerk von Chichén Itzá, ein Turm auf einer großen quadratischen Plattform. Er heißt El Caracol wegen der Wendeltreppe in seinem Inneren. Ein Stein der oberen Plattform erlaubt es, ihn auf etwa das Jahr neunhundertsechs zu datieren. Es wird vermutet, dass er ein Observatorium war. Der Astronom Anthony Aveni und sein Team fanden im Gebäude Sichtlinien zu zwanzig von neunundzwanzig Himmelsereignissen, die für seine Bewohner von Interesse gewesen sein könnten. Doch ein Teil des Turms ging verloren, sodass sich nicht alles überprüfen lässt."
+    },
+    "guion_largo": {
+      "hash": "68f1c7954ed1c81f",
+      "texto": "El Caracol durchbricht die Geometrie von Chichén Itzá. Fast alles andere ist quadratisch, gestuft oder rechteckig. Hier aber steht ein runder Turm.\n\nEs ist das einzige kreisförmige Bauwerk der Stätte. Er erhebt sich auf einer großen quadratischen Plattform. Die Spanier gaben ihm den Namen El Caracol wegen der spiralförmigen Treppe im Inneren. Eine Stele der oberen Plattform erlaubt es, ihn auf etwa das Jahr neunhundertsechs zu datieren.\n\nDie Vorstellung, dass er ein Observatorium war, ist die bekannteste. Das Argument ist einfach: In der flachen Landschaft von Yucatán gibt es keine Berge, die als Orientierungspunkte dienen könnten, und ein Turm ermöglichte den Blick zum Himmel über die Vegetation hinweg. Der Astronom Anthony Aveni untersuchte die Ausrichtung des Gebäudes seit Mitte der Siebzigerjahre. Laut einem Bericht der New York Times von neunzehnhundertsechsundachtzig fand sein Team Sichtlinien zu den Positionen der Sonne bei den Sonnenwenden, zu den beiden Zenitdurchgängen der Sonne zwischen Mai und August und zu den Extrempunkten der Venus. Das Team kam zu dem Schluss, dass das Gebäude von neunundzwanzig möglichen astronomischen Ereignissen für zwanzig Ausrichtungen besaß.\n\nDie Venus war wichtig. Die Astronomen der Maya wussten aus der Beobachtung mit bloßem Auge, dass ihr Zyklus etwa fünfhundertvierundachtzig Tage dauert und dass fünf Zyklen acht Sonnenjahren entsprechen.\n\nMan sollte die Grenzen im Blick behalten. Ein Teil des Turms, der auf der Plattform stand, ging verloren, sodass sich manche Beobachtungen vielleicht nie bestätigen lassen. Und diese Ausrichtungen sind Ergebnisse eines Teams, keine allgemein anerkannten Tatsachen. Wir sprechen von einer Hypothese, wenn auch von einer soliden.\n\nDas Gebäude hat auch seine eigene Erforschungsgeschichte. Alfred Maudslay zeichnete und fotografierte es im Jahr achtzehnhundertneunundachtzig, und William Holmes besuchte es achtzehnhundertvierundneunzig. Das Carnegie-Institut restaurierte El Caracol nach neunzehnhundertdreiundzwanzig.\n\nGeh jetzt weiter zu [Las Monjas](chi_29_las_monjas), einem ganz anderen Gebäude mit einer Fassade voller Masken."
+    },
+    "retos_observacion": {
+      "hash": "cce356069a3334d6",
+      "texto": [
+        "Betrachte den runden Turm auf der quadratischen Plattform: Er ist der einzige an dieser Stätte",
+        "Achte auf die kleinen Öffnungen im oberen Teil, die mit den Ausrichtungen in Verbindung gebracht werden",
+        "Stell dir den verlorenen oberen Teil vor und was man sehen konnte, wenn man hinaufstieg"
+      ]
+    },
+    "especificaciones": {
+      "hash": "f169095e68d4f60b",
+      "texto": {
+        "Form": "kreisförmiger Turm auf einer großen quadratischen Plattform",
+        "Name": "wegen der spiralförmigen Treppe im Inneren",
+        "Datum": "um das Jahr 906, anhand einer Stele der oberen Plattform",
+        "Vorgeschlagene Ausrichtungen (Aveni)": "20 von 29 möglichen astronomischen Ereignissen",
+        "Venuszyklus": "etwa 584 Tage; 5 Zyklen = 8 Sonnenjahre",
+        "Erforschung": "Maudslay (1889), Holmes (1894), Aveni (Siebzigerjahre)"
+      }
+    },
+    "faq_mito": {
+      "hash": "532a8b4701bd38ae",
+      "texto": {
+        "pregunta": "Mythos: Es ist erwiesen, dass El Caracol ein offizielles astronomisches Observatorium war.",
+        "respuesta": "Realität: Es ist eine gut untersuchte Hypothese. Man fand Sichtlinien zu 20 von 29 Ereignissen, doch ein Teil des Turms ging verloren, und nicht alles lässt sich überprüfen."
+      }
+    }
+  }
+}

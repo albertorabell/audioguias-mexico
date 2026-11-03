@@ -1,0 +1,66 @@
+{
+  "id": "chi_20_templo_mesas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Tempel der Krieger\" para \"Templo de los Guerreros\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Tempel der Krieger\" para \"Templo de los Guerreros\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Tempel der Krieger\" para \"Templo de los Guerreros\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "1b9e78d71fe5518f",
+      "texto": "Tempel der Großen Tische"
+    },
+    "frase_gancho": {
+      "hash": "351b4ce108ae3a38",
+      "texto": "Eine Pyramide mit vier Stufenkörpern und Pfeilern, die noch ihre Bemalung bewahren."
+    },
+    "puente_narrativo": {
+      "hash": "93ca4a279e253701",
+      "texto": "Betrachte den Tempel von außen. Wenn du fertig bist, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "guion_corto": {
+      "hash": "4d0afb88cfeaafb8",
+      "texto": "Dies ist der Tempel der Großen Tische, nördlich des Tempels der Krieger. Er wurde bei den Grabungen der Jahre 1993 und 1994 entdeckt, die der Archäologe Peter Schmidt koordinierte. Er hat einen Unterbau aus vier Stufenkörpern und oben einen kleinen Tempelaufbau mit nur einem Eingang, der nach Westen weist. Die Pfeiler haben ihre bemalte Oberfläche fast vollständig bewahrt. An den Enden der Treppenwangen liegen zwei Schlangen, in der Mitte Reliefs von Kriegern, und an der Nordostecke steht ein Tisch, der von Atlanten getragen wird."
+    },
+    "guion_largo": {
+      "hash": "9bafe6b07128c633",
+      "texto": "Dieser Tempel bewahrt etwas, das man in Chichén Itzá kaum noch sieht: Farbe.\n\nDer Tempel der Großen Tische liegt nördlich des Tempels der Krieger. Er wurde bei den Grabungen der Jahre 1993 und 1994 entdeckt, die Peter Schmidt koordinierte. Es ist ein pyramidenförmiger Bau mit einem Unterbau aus vier Stufenkörpern und einem kleinen Tempelaufbau im oberen Teil. Seine Hauptfassade blickt nach Westen, und sie ist der einzige Zugang.\n\nAm bemerkenswertesten sind seine Pfeiler. Sie haben ihre bemalte Oberfläche, also die ursprüngliche Farbfassung, fast vollständig bewahrt. Bisher wurden nur zwei Seiten jedes Pfeilers freigelegt. Auf dem größten Teil des benachbarten Platzes dagegen haben die Pfeiler der Gruppe der Tausend Säulen und des Marktes fast ihre gesamte Mehrfarbigkeit verloren.\n\nZum Schmuck gehören zwei Schlangen an den Enden der Treppenwangen, Reliefs von Kriegern in der Mitte und ein Tisch, der an der Nordostecke von Atlanten getragen wird. Daher kommt der Name. Es sind Altäre, die auf kleinen männlichen Figuren ruhen, deren Arme erhoben sind. Im ersten Gewölbe wurde ein Wandbild mit einer Schlange gefunden.\n\nVerwechsle dieses Gebäude nicht mit dem Tempel der kleinen Tische, den eine andere Studie in der Nähe des Palasts der gemeißelten Säulen verortet.\n\nWenn du fertig bist, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "retos_observacion": {
+      "hash": "02dd50adcec16306",
+      "texto": [
+        "Zähle die Stufenkörper des Unterbaus: Es sind vier",
+        "Suche die Schlangen an den Enden der Treppenwangen, neben der Treppe",
+        "Achte darauf, ob du Farbreste auf den Pfeilern erkennst"
+      ]
+    },
+    "especificaciones": {
+      "hash": "bd8a76ef53f9f165",
+      "texto": {
+        "Standort": "nördlich des Tempels der Krieger",
+        "Grabung": "1993-1994, koordiniert von Peter Schmidt",
+        "Form": "Unterbau aus vier Stufenkörpern und kleiner Tempelaufbau; nur ein Zugang, nach Westen",
+        "Pfeiler": "haben ihre bemalte Oberfläche fast vollständig bewahrt",
+        "Schmuck": "zwei Schlangen an den Treppenwangen, Krieger in der Mitte, Tisch mit Atlanten an der Nordostecke",
+        "Fund im Gewölbe": "Wandbild mit einer Schlange"
+      }
+    },
+    "faq_mito": {
+      "hash": "f990703cf60dbca1",
+      "texto": {
+        "pregunta": "Mythos: Alle Gebäude von Chichén Itzá waren aus grauem Stein, ohne Farbe.",
+        "respuesta": "Realität: Es gab Bemalung. Bei diesem Tempel haben die Pfeiler ihre bemalte Oberfläche fast vollständig bewahrt, was an dieser Stätte selten ist."
+      }
+    }
+  }
+}

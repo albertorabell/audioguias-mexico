@@ -1,0 +1,57 @@
+{
+  "id": "chi_32_akab_dzib",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "d56b03a259b5f440",
+      "texto": "El Akab Dzib"
+    },
+    "frase_gancho": {
+      "hash": "5b42bf3a629cd747",
+      "texto": "Das Haus der geheimnisvollen Schrift: fünfzig Meter lang und ein Türsturz, den niemand vergisst."
+    },
+    "puente_narrativo": {
+      "hash": "f549109391a8d021",
+      "texto": "Wenn du das Gebäude zu Ende betrachtet hast, geh weiter zur nächsten Station deines Rundgangs. Alt-Chichén im Südwesten wird gesondert besichtigt: nur freitags und samstags, mit Reservierung und einem Führer des INAH."
+    },
+    "guion_corto": {
+      "hash": "7191c6faeddf380d",
+      "texto": "Akab Dzib bedeutet Haus der geheimnisvollen oder dunklen Schrift. Es ist ein Gebäude im Puuc-Stil, etwa sechs Meter hoch, fünfzig Meter lang und fünfzehn Meter breit, datiert auf etwa das Jahr achthundertneunundsechzig. Es hat sieben Türen an der Westfassade und vier an der Ostfassade. In einem Raum am Südende befindet sich ein Türsturz mit eingemeißelten Hieroglyphen, die dem Gebäude seinen Namen gaben. Nahe der Decke, in einer Kammer, ist der gemalte Abdruck einer Hand erhalten."
+    },
+    "guion_largo": {
+      "hash": "fd2f7a7f03f2c0e1",
+      "texto": "Der Name sagt alles: Akab Dzib, oder Akab Tzib, ist das Haus der geheimnisvollen Schrift.\n\nDas Gebäude liegt östlich von El Caracol. Es ist im Puuc-Stil erbaut, etwa sechs Meter hoch, fünfzig Meter lang und fünfzehn Meter breit. Seine Datierung liegt um das Jahr achthundertneunundsechzig. In der Westfassade, der langen Seite, befinden sich sieben Türen. In der Ostfassade sind es vier, unterbrochen von einer großen Treppe, die zum Dach hinaufführt. Man nimmt an, dass diese Seite die Vorderseite war, weil sie zu einem trockenen Cenote mit steilen Wänden hin liegt.\n\nAm Südende gibt es einen Eingang zu einem kleinen Raum. Auf der anderen Seite hat eine Tür einen Türsturz mit fein eingemeißelten Glyphen. Das ist die geheimnisvolle Schrift, die dem Gebäude seinen Namen gibt. Unter dem Türsturz, am Türpfosten, befindet sich eine Tafel mit einer sitzenden Figur, umgeben von Glyphen. In einer der Kammern, nahe der Decke, ist ein gemalter Handabdruck zu sehen.\n\nDas Gebäude trug früher noch einen anderen Namen. Anhand der Hieroglyphen des Hauses Casa Colorada hat man ihn als Wakwak Puh Ak Na gelesen, was sinngemäß das flache Haus mit zu vielen Kammern bedeutet. Es heißt, es sei das Haus von Yahawal Cho’ K’ak’ gewesen, einem Verwalter von Chichén Itzá aus der Dynastie der Kokom. Es ist unklar, ob er es errichten ließ oder ob er es später bewohnte.\n\nDas INAH schloss 2007 eine Restaurierung ab.\n\nWenn du fertig bist, geh weiter zur nächsten Station deines Rundgangs. Alt-Chichén im Südwesten wird gesondert besichtigt, mit einem Führer des INAH und nur freitags und samstags."
+    },
+    "retos_observacion": {
+      "hash": "a8214c3aa0d64751",
+      "texto": [
+        "Zähle die Türen der langen Fassade: Auf der Westseite sind es sieben",
+        "Suche die Treppe auf der Ostseite, die zum Dach hinaufführt",
+        "Finde, falls er zu sehen ist, den Türsturz mit Hieroglyphen am Südende"
+      ]
+    },
+    "especificaciones": {
+      "hash": "4201c25d1b38410c",
+      "texto": {
+        "Abmessungen": "etwa 6 m hoch, 50 m lang und 15 m breit",
+        "Datierung": "um das Jahr 869",
+        "Stil": "Puuc",
+        "Türen": "7 an der Westfassade, 4 an der Ostfassade",
+        "Früherer Name": "Wakwak Puh Ak Na, „flaches Haus mit zu vielen Kammern“",
+        "Restaurierung": "INAH, 2007",
+        "Strukturcode": "4D1"
+      }
+    },
+    "faq_mito": {
+      "hash": "b04f59e330a40515",
+      "texto": {
+        "pregunta": "Mythos: Niemand hat die Schrift des Akab Dzib lesen können, weil sie ein Geheimcode ist.",
+        "respuesta": "Realität: Der Name besagt „geheimnisvolle Schrift“, doch es handelt sich um einen Maya-Hieroglyphentext. Es gibt keinen Grund anzunehmen, er sei nicht entzifferbar."
+      }
+    }
+  }
+}

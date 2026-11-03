@@ -1,0 +1,56 @@
+{
+  "id": "chi_04_subestructura_castillo",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "1ac227c526f6584b",
+      "texto": "Der verborgene Tempel, der Jaguarthron und der Cenote unter El Castillo"
+    },
+    "frase_gancho": {
+      "hash": "bf81af0d4d048aa7",
+      "texto": "In der Pyramide steckt eine weitere, mit einem Thron in Gestalt eines roten Jaguars, und darunter liegt laut UNAM ein wassergefüllter Hohlraum."
+    },
+    "puente_narrativo": {
+      "hash": "49b1f21d9326a11b",
+      "texto": "Bleib vor der Pyramide stehen: Was diese Station erzählt, befindet sich in ihr und unter ihr. Wenn du fertig bist, geh weiter zur nächsten Station deiner Tour."
+    },
+    "guion_corto": {
+      "hash": "263391c9c6d6c4d4",
+      "texto": "Diese Pyramide birgt eine weitere Pyramide. Im Jahr neunzehnhunderteinunddreißig begannen Archäologen, das Innere zu erkunden, um zu beweisen, dass El Castillo über einem älteren Tempel errichtet worden war. Und sie fanden ihn. In seiner Kammer standen ein Chac Mool mit Nägeln, Zähnen und Augen aus Perlmutt und ein Thron in Gestalt eines Jaguars, mit Zinnober rot bemalt und mit Jadeeinlagen. Heute ist dieses Innere seit etwa zweitausendsechs für die Öffentlichkeit geschlossen. Und es gibt noch mehr. Im Jahr zweitausendfünfzehn meldeten Forschende der UNAM und des INAH mit einer Technik namens elektrische Tomografie einen wassergefüllten Hohlraum unter der Pyramide, ohne auch nur einen Stein auszugraben."
+    },
+    "guion_largo": {
+      "hash": "c1dd9e878c89fd92",
+      "texto": "Was du siehst, ist nur die äußere Schicht. In El Castillo steckt ein älterer Tempel, und darunter verbirgt sich ein Rätsel aus Wasser.\n\nBeginnen wir im Inneren. Im April neunzehnhunderteinunddreißig begannen Archäologen, das Bauwerk zu erkunden, um eine Vermutung zu überprüfen: dass diese Pyramide über einer anderen errichtet worden war. Sie hatten recht. Im Inneren liegt ein früherer Tempel, etwa dreiunddreißig Meter breit und etwa siebzehn Meter hoch bis zur Basis seines Tempels. Seine Datierung ist unsicher. Eine Schätzung setzt ihn zwischen die Jahre sechshundert und achthundert.\n\nIn dieser inneren Pyramide kamen zwei Kammern zum Vorschein. Im April neunzehnhundertfünfunddreißig fand man einen Chac Mool, eine zurückgelehnte Figur, die auf dem Bauch ein Gefäß hält. Augen, Nägel und Zähne waren mit Perlmutt eingelegt. Im August neunzehnhundertsechsunddreißig fand man einen weiteren Raum, nur wenige Meter von dem ersten entfernt. Er wurde die Kammer der Opferungen genannt. Dort lagen zwei Reihen menschlicher Knochen und die Skulptur eines roten Jaguars.\n\nDiese Skulptur ist der Thron des Roten Jaguars. Spätere Analysen mit Röntgenfluoreszenz ergaben, dass die rote Farbe Zinnober enthält, ein Quecksilbermineral. Man glaubte, die Flecken im Fell seien Scheiben aus Feuerstein, doch sie erwiesen sich als Jadeit, eine Jadeart. Die Eckzähne sind Schalen von Meeresschnecken. Seit zweitausendsechs ist das Innere für die Öffentlichkeit geschlossen, und der Thron wird nicht ausgestellt.\n\nNun zum Wasser. Die Nationale Autonome Universität von Mexiko und das INAH meldeten im Jahr zweitausendfünfzehn einen Fund unter der Pyramide. Ein Team des Instituts für Geophysik, geleitet von René Chávez, mit dem Ingenieur Andrés Tejero und der Archäologin Denisse Argote, setzte eine Technik namens dreidimensionale elektrische Widerstandstomografie ein. Dabei wird Strom in den Boden geleitet und gemessen, wie dieser reagiert. Um die alten Böden nicht zu beschädigen, verwendeten sie sechsundneunzig flache Platten, die mit medizinischem Gel aufgeklebt wurden. Die Ergebnisse wurden in der Fachzeitschrift Scientific Reports veröffentlicht.\n\nWas sie entdeckten, ist ein mit Süßwasser gefüllter Hohlraum. Laut der Gaceta de la UNAM liegt er etwa acht Meter unter der Pyramide. Andere Meldungen aus dem Jahr zweitausendfünfzehn nannten größere Zahlen, etwa zwanzig Meter Tiefe und eine Größe von fünfundzwanzig mal fünfunddreißig. Die Angaben stimmen nicht überein, deshalb hält man sich besser an das Grundlegende: Es gibt Hinweise auf ein Gewässer unter El Castillo. Niemand hat es ausgegraben.\n\nDer Forscher Chávez erwähnte, es könnte ein System mit Wasserzu- und -abflüssen geben. Manche Archäologen halten es für möglich, dass es mit dem Cenote Xtoloc und dem Heiligen Cenote verbunden sein könnte. Das ist bisher nicht bestätigt.\n\nMit dem Unterbau, dem Jaguar und dem Wasser gewinnt die Pyramide eine tiefere Bedeutung. Sie ist ein Bauwerk, das zum Himmel aufsteigt, sich aber zugleich auf das Wasser der Unterwelt stützt.\n\nWenn du hier fertig bist, geh weiter zur nächsten Station deiner Tour."
+    },
+    "retos_observacion": {
+      "hash": "acc04f90321bf734",
+      "texto": [
+        "Suche an der nordöstlichen Ecke der Nordtreppe den Durchgang, der in den Dreißigerjahren geöffnet wurde, um das Innere zu erkunden",
+        "Stell dir im Inneren der Pyramide den Thron des roten Jaguars mit Jadeflecken und Eckzähnen aus Muschelschalen vor",
+        "Denk daran, dass sich laut UNAM unter dem Boden, auf dem du stehst, ein wassergefüllter Hohlraum befindet"
+      ]
+    },
+    "especificaciones": {
+      "hash": "32412be0b5bfe96e",
+      "texto": {
+        "Unterbau": "früherer Tempel, etwa 33 m breit und etwa 17 m hoch bis zur Basis des Tempels; seine Datierung ist unsicher",
+        "Erkundung": "seit April 1931",
+        "Chac Mool": "im April 1935 gefunden, mit Augen, Nägeln und Zähnen aus Perlmutt",
+        "Thron des Roten Jaguars": "Bemalung mit Zinnober, Flecken aus Jadeit und Eckzähne aus Muschelschalen",
+        "Studie mit elektrischer Tomografie": "UNAM und INAH, 2015; veröffentlicht in Scientific Reports",
+        "Zugang": "das Innere ist seit etwa 2006 für die Öffentlichkeit geschlossen"
+      }
+    },
+    "faq_mito": {
+      "hash": "0fbd8b801250570d",
+      "texto": {
+        "pregunta": "Mythos: Es gibt einen offenen Tunnel, durch den man zum Cenote unter El Castillo hinabsteigen kann.",
+        "respuesta": "Realität: Der wassergefüllte Hohlraum wurde durch Untersuchungen von der Oberfläche aus entdeckt, und niemand hat ihn ausgegraben. Das Innere der Pyramide ist für die Öffentlichkeit geschlossen."
+      }
+    }
+  }
+}

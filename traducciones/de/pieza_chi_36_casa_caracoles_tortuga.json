@@ -1,0 +1,57 @@
+{
+  "id": "chi_36_casa_caracoles_tortuga",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "3c97d858880aeb8b",
+      "texto": "Das Haus der Schnecken und die Schildkrötenplattform"
+    },
+    "frase_gancho": {
+      "hash": "4aa2e6a7f230b634",
+      "texto": "Ein Stammbaum von etwa zwanzig Metern und eine Plattform in Form einer Schildkröte."
+    },
+    "puente_narrativo": {
+      "hash": "3ffdd99fc99a5203",
+      "texto": "Geh weiter zum Südplatz, zur [Galerie der Affen](chi_38_galeria_monos), wo ein Herrscher namens Zehn Hirsch erscheint."
+    },
+    "guion_corto": {
+      "hash": "fa2603d70430dfa8",
+      "texto": "Das Haus der Schnecken zeigt an seiner Westfassade eine Szene von etwa zwanzig Metern, die wie ein Stammbaum wirkt. Eine halb menschliche, halb tierische Gestalt tritt aus einer Frucht hervor, umgeben von Schnecken, Vögeln, Blumen und Pflanzen. Eine Gründergottheit entspringt einem Stängel, der sich in weitere Gestalten vervielfacht, und eine von ihnen wird mit dem Glyphen Neun Kojote identifiziert. Mitten auf dem Nordplatz steht die Schildkrötenplattform, ihr Kopf zeigt nach Osten."
+    },
+    "guion_largo": {
+      "hash": "cfd91a9349eddbd8",
+      "texto": "Dieser Halt vereint zwei Dinge: eine Fassade, die eine Abstammungslinie erzählt, und eine Plattform, die die Mitte markiert.\n\nDas Haus der Schnecken, das Bauwerk fünf C fünf, gehört zum Komplex der Phalli. Sein Name stammt von den Schnecken, die in seiner Dekoration erscheinen. Es besitzt einen kunstvollen Fries mit einer halb menschlichen, halb tierischen Gestalt, die aus einer Frucht hervortritt, umgeben von Schnecken, Vögeln, Blumen, Pflanzen und Früchten. Die Fassade war als Schutt eingestürzt, und die Carnegie-Institution ließ ihn unberührt, was Peter Schmidt dabei half, sie Stück für Stück zu rekonstruieren.\n\nLaut dem Bulletin des INAH von zweitausenddreiundzwanzig befindet sich an der Westfassade eine Szene von etwa zwanzig Metern, die einen Stammbaum zeigt. Eine Gründergottheit tritt aus einem Stängel hervor, und der Stängel vervielfacht sich in weitere Gestalten. Das INAH schlägt vor, dass eine von ihnen, die mit dem Glyphen Neun Kojote identifiziert wird, der Gründer sein könnte, der die meisten Reliefs der Gruppe in Auftrag gab. Das ist ein Vorschlag, keine Tatsache.\n\nDas INAH bringt diesen Ort mit der Linie der Cupul in Verbindung, einer der Adelsfamilien von Chichén Itzá. Ihr Name bezieht sich auf eine wilde Jicama, die auf Maya kup heißt. Außerdem bargen sie etwa fünfzehn laufende Meter Dekorationselemente eines Altars mit einer eingemeißelten Kriegsszene, die zusammen mit einem Gewölbe herabgestürzt waren. Aus welchem Gebäude sie genau stammen, ist nicht geklärt.\n\nNun zur Schildkrötenplattform, dem Bauwerk fünf C siebzehn, mitten auf dem Nordplatz. Sie ist niedrig: Sie misst etwa einen Meter zwanzig in der Höhe, neun Meter dreiundsechzig im Durchmesser und zwölf Meter dreiundachtzig in der Länge. Sie hat zwei Treppen. Ein gemeißelter Schildkrötenkopf blickt nach Osten, zum Tempel der Initialserie, und der Schwanz zeigt nach Westen. Die Seitenmauern der Treppen bilden die Beine, und die Schildkröte trägt eine eingemeißelte Halskette. In einem älteren Unterbau fanden die Ausgräber einen sechseckigen Steinkasten mit fünfzehn unbenutzten Feuersteinspitzen. Man sagt, die Maya hätten sie als Mittelpunkt des Universums betrachtet.\n\nIm Jahr zweitausendsieben wurden neben einem anderen Bauwerk des Nordplatzes ein Gemeinschaftsgrab und etwa siebentausendfünfhundert Perlen aus einer Paste gefunden, die Türkis nachahmten.\n\nVon hier aus geh weiter zur [Galerie der Affen](chi_38_galeria_monos)."
+    },
+    "retos_observacion": {
+      "hash": "01940c47a2d046a9",
+      "texto": [
+        "Suche die lange Szene an der Westfassade und folge mit dem Blick den Gestalten, die aus dem Stängel hervorgehen",
+        "Finde die niedrige Plattform in Form einer Schildkröte: Kopf nach Osten, Schwanz nach Westen",
+        "Achte auf die seitlichen Treppen, die die Beine der Schildkröte bilden"
+      ]
+    },
+    "especificaciones": {
+      "hash": "a22276c53190276e",
+      "texto": {
+        "Haus der Schnecken": "Bauwerk 5C5, Teil des Komplexes der Phalli",
+        "Szene an der Westfassade": "etwa 20 m, Stammbaum mit einer Gründergottheit",
+        "Glyphe": "Neun Kojote, möglicher Gründer (INAH)",
+        "Abstammungslinie": "Cupul",
+        "Schildkrötenplattform (5C17)": "maximale Höhe 1,20 m, Durchmesser 9,63 m, Länge 12,83 m; zwei Treppen; Kopf nach Osten",
+        "Opfergabe": "sechseckiger Kasten mit 15 unbenutzten Feuersteinspitzen",
+        "Grab von 2007": "etwa 7 500 Perlen aus Paste, die Türkis nachahmen"
+      }
+    },
+    "faq_mito": {
+      "hash": "c9f051630f30f82a",
+      "texto": {
+        "pregunta": "Mythos: Das Haus der Schnecken heißt so wegen einer Sammlung von Muscheln.",
+        "respuesta": "Realität: Der Name stammt von den Schnecken in seiner Dekoration: einem Fries mit einer Gestalt, die aus einer Frucht hervortritt, umgeben von Schnecken, Vögeln und Pflanzen."
+      }
+    }
+  }
+}

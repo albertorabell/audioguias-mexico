@@ -1,0 +1,61 @@
+{
+  "id": "chi_10_templo_hombre_barbado",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "00b0d8f77c65c680",
+      "texto": "Die Nord- und Südtempel des Ballspielplatzes"
+    },
+    "frase_gancho": {
+      "hash": "fd380cf00287dea3",
+      "texto": "An den Enden des Spielfelds stehen zwei Tempel: einer mit einem eingemeißelten bärtigen Mann, der andere mit einer langen Galerie."
+    },
+    "puente_narrativo": {
+      "hash": "354a6317b719bef8",
+      "texto": "Sieh dir jetzt die Ostseite des Spielfelds an. Am Südende dieser Plattform liegt der [Tempel der Jaguare](chi_12_templo_jaguares) mit Wandmalereien von Schlachten."
+    },
+    "guion_corto": {
+      "hash": "c7a1abf38b0722f8",
+      "texto": "An den Enden des Spielfelds stehen zwei Tempel. Der nördliche heißt Tempel des bärtigen Mannes, nach einer Figur mit Bart, die in seinem Inneren eingemeißelt ist. Er hat nur eine einzige Kammer von etwa acht mal vier Metern. Seine Reliefs zeigen eine Zeremonie vor einem leeren Jaguarthron. Der südliche ist eine lange Galerie mit Gewölbe von etwa vierundzwanzig Metern Länge. Nur sechs Pilaster tragen Reliefs, mit stehenden, reich geschmückten Kriegern, und im Schutt wurde ein Chac Mool gefunden. Man nimmt an, dass in diesen Tempeln Rituale stattfanden, die mit dem Spiel verbunden waren, doch nicht alle Einzelheiten sind bekannt."
+    },
+    "guion_largo": {
+      "hash": "74debd32c33bcdfa",
+      "texto": "Diese beiden Tempel schließen das Spielfeld an seinen Enden ab. Sie sind weniger berühmt als die Ringe oder die Reliefplatten, bewahren aber sehr wertvolle Bilder.\n\nDer nördliche heißt Tempel des bärtigen Mannes, nach einer Figur mit Bart, die in seinem Inneren eingemeißelt ist. Er erhebt sich auf einer quadratischen Basis von etwa vierzehn Metern von Ost nach West und siebeneinhalb Metern von Nord nach Süd und hat nur eine einzige Kammer von etwa acht Metern Länge und vier Metern Breite. Er besitzt fein gearbeitete Pfeiler und Reliefs mit Blumen, Vögeln und Bäumen.\n\nDas Auffälligste befindet sich im Inneren. Die Reliefs im Inneren zeigen eine Zeremonie, bei der eine Hauptfigur sitzend oder stehend vor einem leeren Jaguarthron zu sehen ist. Laut Enrique Vela gibt es in diesem Tempel eine Platte mit mehr als vierzig Figuren in verschiedenen Szenen. Es ist ein vielschichtiges Bild, das die Fachleute noch immer erforschen.\n\nDer südliche ist ganz anders. Er ist eine lange Galerie mit Gewölbe, etwa vierundzwanzig Meter lang und viereinhalb Meter breit, errichtet am Südende des Spielfelds. Die Reliefs finden sich nur an sechs Pilastern und zeigen stehende, reich geschmückte Krieger. Im Schutt wurde ein Chac Mool gefunden.\n\nWozu dienten sie? Man nimmt an, dass in ihnen sicherlich Rituale stattfanden, die mit dem Spiel verbunden waren. Das wichtige Wort ist sicherlich: Einen Beweis dafür gibt es nicht. Sagen lässt sich dagegen, dass sie das Spielfeld an beiden Enden abschlossen und dass die Bilder im Inneren von Zeremonien, von Kriegern und von Macht erzählen.\n\nEine Behauptung, die unter Führerinnen und Führern immer wieder zu hören ist, lautet, der Nordtempel habe eine besondere Akustik, doch dafür gibt es keine dokumentierten Belege.\n\nWenn du jetzt mit dem Betrachten der Enden fertig bist, richte deinen Blick auf die Ostseite des Spielfelds. Am Südende dieser Plattform liegt der [Tempel der Jaguare](chi_12_templo_jaguares) mit Wandmalereien von Schlachten."
+    },
+    "retos_observacion": {
+      "hash": "8e81f3682a6b0918",
+      "texto": [
+        "Suche den Nordtempel, den Tempel des bärtigen Mannes, am Nordende des Spielfelds und seine einzige Kammer",
+        "Finde den Südtempel, eine lange, niedrige Galerie, am gegenüberliegenden Ende",
+        "Betrachte aus der Ferne die Pfeiler des Nordtempels und suche die Reliefs mit Blumen, Vögeln und Bäumen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "67e7dbeb3fa227b2",
+      "texto": {
+        "Nordtempel (des bärtigen Mannes)": "eine einzige Kammer von etwa 8,13 × 4 m, auf einer Basis von etwa 14 × 7,3 m",
+        "Reliefs im Inneren": "Zeremonie vor einem leeren Jaguarthron; eine Platte mit mehr als 40 Figuren",
+        "Südtempel": "Galerie mit Gewölbe von etwa 24,3 × 4,4 m",
+        "Reliefs des Südtempels": "stehende Krieger auf sechs Pilastern; im Schutt wurde ein Chac Mool gefunden",
+        "Nutzung": "man nimmt an, dass hier mit dem Spiel verbundene Rituale stattfanden",
+        "Studie": "González et al., 2017; Vela, Arqueología Mexicana"
+      }
+    },
+    "faq_mito": {
+      "hash": "c42a502b32a2cb7d",
+      "texto": {
+        "pregunta": "Mythos: Der Tempel des bärtigen Mannes hat eine besondere Akustik, die die Stimme von einer Seite zur anderen verstärkt.",
+        "respuesta": "Realität: Dafür gibt es keine dokumentierten Belege. Dokumentiert sind seine einzige Kammer, seine Reliefs mit Blumen, Vögeln und Bäumen sowie die bärtige Figur, die ihm seinen Namen gibt."
+      }
+    }
+  }
+}

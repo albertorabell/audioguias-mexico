@@ -1,0 +1,71 @@
+{
+  "id": "chi_16_templo_guerreros",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "titulo": [
+      "el glosario pide \"Nordwesten\" para \"Noroeste\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Tolteken\" para \"Tolteca / Toltecas\" y no aparece",
+      "el glosario pide \"Nordwesten\" para \"Noroeste\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Nordwesten\" para \"Noroeste\" y no aparece"
+    ],
+    "retos_observacion": [
+      "el glosario pide \"Nordwesten\" para \"Noroeste\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "cd6f64b01a908be4",
+      "texto": "Tempel der Krieger und Nordwest-Kolonnade"
+    },
+    "frase_gancho": {
+      "hash": "6d01b78e2c4d509d",
+      "texto": "Säulen mit eingemeißelten Kriegern, oben ein Chac Mool und im Inneren ein weiterer, noch älterer Tempel."
+    },
+    "puente_narrativo": {
+      "hash": "cd9bfdc1b8314878",
+      "texto": "Geh am Tempel entlang weiter zur [Gruppe der Tausend Säulen](chi_19_grupo_mil_columnas), dem größten Pfeilerwald der Plaza."
+    },
+    "guion_corto": {
+      "hash": "76b13d969224ffde",
+      "texto": "Das ist der Tempel der Krieger. Es ist eine große Stufenpyramide, und an der Vorderseite und an den Seiten stehen Reihen von Säulen, in die Krieger eingemeißelt sind; die Nordwest-Kolonnade gehört zu diesem Ensemble. Man nimmt an, dass diese Säulen die Dächer von Galerien trugen, die es nicht mehr gibt. Oben an der Treppe liegt ein Chac Mool, die zurückgelehnte Figur, die ein Gefäß hält. Archäologen vergleichen ihn mit dem Tempel B von Tula im Zentrum Mexikos, und diese Ähnlichkeit nährte jahrzehntelang die Vorstellung einer toltekischen Invasion. Heute spricht man eher von Einfluss. Im Inneren des Tempels liegt ein weiterer, älterer, der Tempel des Chac Mool, den das Carnegie-Institut zwischen neunzehnhundertfünfundzwanzig und neunzehnhundertachtundzwanzig ausgegraben hat."
+    },
+    "guion_largo": {
+      "hash": "9b21f07b27085ac7",
+      "texto": "Du stehst vor einem der berühmtesten Bauwerke von Chichén Itzá, und auch vor einem derjenigen, die die meisten Debatten ausgelöst haben.\n\nEs ist eine große Stufenpyramide mit Reihen von Säulen, in die Krieger eingemeißelt sind, an der Vorderseite und an den Flanken, etwa vierzig Meter pro Seite und mit vier Ebenen. Oben befindet sich ein Tempel mit zwei Räumen und einem Eingangsportikus, dessen Türsturz auf zwei Säulen in Gestalt riesiger Klapperschlangen ruht. Auf der Spitze, neben der Treppe, liegt ein Chac Mool, eine zurückgelehnte Figur, die auf dem Bauch eine Platte oder ein Gefäß hält.\n\nArchäologen vergleichen ihn mit dem Tempel B von Tula, der Stadt im Zentrum Mexikos, die lange Zeit als Hauptstadt der Tolteken galt. Die Ähnlichkeit ist real, und deshalb dachte man, Chichén Itzá sei erobert worden. Die meisten heutigen Deutungen sehen eher einen Dialog der Stile, das Ergebnis von Kontakt. Achte darauf, dass es hier nicht bloß Nachahmung gibt: Die Säulen, die Schlangen und die Hallen vermischen sich mit einer eigenen Tradition.\n\nAuch die Datierung ist umstritten. Manche setzen ihn um das Jahr zwölfhundert an. Doch die Chronologie von Chichén Itzá wird weiter angepasst, und es gibt kein Datum, das alle akzeptieren.\n\nDas Interessanteste liegt im Inneren. Diese Pyramide überdeckt eine andere, ältere, die Tempel des Chac Mool genannt wird. Das Carnegie-Institut grub sie aus und restaurierte sie zwischen neunzehnhundertfünfundzwanzig und neunzehnhundertachtundzwanzig. Der Archäologe Earl Morris veröffentlichte die Arbeit in zwei Bänden. In ihrem Inneren sind Wandbilder mit Schlachtszenen erhalten. Da dieser ganze Bereich geschlossen ist, kannst du nicht hineingehen, aber es ist gut zu wissen, dass er da ist. Es ist eine Pyramide in einer Pyramide, wie El Castillo.\n\nEbenso ist es gut zu wissen, dass das Bauwerk restauriert wurde. Die Arbeiten begannen neunzehnhundertfünfundzwanzig. Was du heute siehst, ist eine Mischung aus originalem und wieder versetztem Stein, sodass nicht alles so ist, wie die Erbauer es hinterlassen haben.\n\nSieh dir jetzt in Ruhe die Säulen an. Vor und neben dem Tempel stehen Reihen von Steinsäulen, und die der Nordwest-Kolonnade, neben dem Tempel, tragen fast alle Figuren von Kriegern. Man nimmt an, dass sie Dächer aus Holz und Stein trugen, die heute verschwunden sind, mit offenen Galerien darunter. Deshalb siehst du sie heute unbedeckt. Viele Figuren sind im Profil dargestellt, mit Kopfschmuck, Zierrat und Waffen. Wenn du ein deutliches Relief findest, bleib stehen und betrachte es. Von dieser Kolonnade kennt man nur wenige eigene Daten: Es gibt keine gut dokumentierten Maße und kein gesichertes Datum, und eine technische Studie aus dem Jahr zweitausendsechzehn erwähnt sie nur unter den nahe gelegenen Bauten, die Kriegssymbole tragen.\n\nGeh nun am Tempel entlang weiter zur [Gruppe der Tausend Säulen](chi_19_grupo_mil_columnas). Dort sind die Säulen keine Reihe mehr, sondern ein Wald."
+    },
+    "retos_observacion": {
+      "hash": "721a38f04107f8fe",
+      "texto": [
+        "Suche oben an der Treppe den Chac Mool, die zurückgelehnte Figur, die ein Gefäß hält",
+        "Finde die beiden Säulen in Form einer Klapperschlange, die den Türsturz des Portikus tragen",
+        "Lass den Blick über die Säulenreihen der Nordwest-Kolonnade wandern und suche die am besten erhaltenen Krieger"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6ab36c0e3d6d34a8",
+      "texto": {
+        "Form": "große Stufenpyramide mit vier Ebenen und Reihen von Säulen mit Kriegern",
+        "Größe": "etwa 40 Meter pro Seite",
+        "Vergleich": "ähnelt dem Tempel B von Tula im Zentrum Mexikos",
+        "Unterbau": "der Tempel des Chac Mool, vom Carnegie-Institut zwischen 1925 und 1928 ausgegraben",
+        "Nordwest-Kolonnade": "Reihen von Säulen mit Kriegern im Profil neben dem Tempel; man nimmt an, dass sie Galeriedächer trugen",
+        "Datierung": "manche setzen ihn um das Jahr 1200 an (die Chronologie ist weiterhin umstritten)",
+        "Zugang": "der Unterbau darf weder bestiegen noch betreten werden"
+      }
+    },
+    "faq_mito": {
+      "hash": "9ab61d54962f38ee",
+      "texto": {
+        "pregunta": "Mythos: Der Tempel der Krieger beweist, dass die Tolteken Chichén Itzá erobert haben.",
+        "respuesta": "Realität: Die Ähnlichkeit mit dem Tempel B von Tula ist real, doch die meisten heutigen Deutungen sprechen von Einfluss und Kontakt, nicht von einer Eroberung."
+      }
+    }
+  }
+}

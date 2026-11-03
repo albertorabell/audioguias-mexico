@@ -1,0 +1,64 @@
+{
+  "id": "chi_31_la_iglesia",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Klassik\" para \"Clásico\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Klassik\" para \"Clásico\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "f731c9e645f7a9ce",
+      "texto": "La Iglesia"
+    },
+    "frase_gancho": {
+      "hash": "4b93a4804689435d",
+      "texto": "Ein Tempel mit nur einem Saal, drei Chaac-Masken und vier Figuren, die den Himmel tragen."
+    },
+    "puente_narrativo": {
+      "hash": "af0e04c2f847a9a7",
+      "texto": "Geh weiter nach Osten und halte beim [Akab Dzib](chi_32_akab_dzib) an, dem Haus der dunklen Schrift."
+    },
+    "guion_corto": {
+      "hash": "67635864737aeca3",
+      "texto": "Dies ist La Iglesia, ein kleiner Tempel neben Las Monjas. Er hat nur einen gewölbten Saal und nur eine Tür, seine Fassade blickt nach Westen. Er wirkt wie eine rechteckige Kapelle, daher auch sein Name. Sein Fries zeigt drei Chaac-Masken aus Steinmosaik, eine in der Mitte und eine an jeder Ecke. Seitlich liegen Nischen mit sitzenden Figuren, die mit den vier Bacabes gleichgesetzt werden, den Göttern, die den Himmel trugen."
+    },
+    "guion_largo": {
+      "hash": "95c76c8338e30ccb",
+      "texto": "Es ist das kleinste Gebäude der Gruppe und eines der am reichsten verzierten.\n\nLa Iglesia ist ein kleiner Bau mit nur einem Raum und nur einer Tür, ähnlich einer rechteckigen Kapelle. Ihr Name stammt aus späterer Zeit, und man weiß nicht sicher, woher er kommt. Sie liegt direkt östlich von Las Monjas. Nach Angaben des INAH ist es ein Bau mit einer Fassade, die mit geometrischen Elementen und Darstellungen von Gottheiten geschmückt ist, im Puuc-Stil.\n\nGenauer betrachtet hat das Gebäude einen rechteckigen Grundriss mit einem einzigen gewölbten Saal. Seine Fassade blickt nach Westen, mit einem Eingang, der von einem Steinsturz überspannt wird. Über der Tür verlaufen zwei Bänder mit Mäandermustern: ein einfaches, von zwei Profilleisten eingefasst, und ein weiteres oberhalb des Frieses, das aus gezackten Leisten im Zickzack besteht und den Eindruck einer Schlange erweckt.\n\nDer Fries zeigt drei Chaac-Masken in Steinmosaik, eine in der Mitte und je eine an den Ecken, mit eingerollten Nasen. Zu beiden Seiten der mittleren Maske liegt eine Nische mit zwei sitzenden Figuren. Auf der Nordseite erscheinen eine geflügelte Figur mit ovalem Brustschmuck und eine weitere mit einer Schnecke auf dem Rücken. Auf der Südseite sieht man eine Figur mit einer Art Muschel um den Körper und eine weitere mit einem Schildkrötenpanzer. Sie werden mit den vier Bacabes gleichgesetzt, den Göttern, die den Himmel in den vier Himmelsrichtungen trugen, und manche halten sie für verkleidet als Krabbe, Schnecke, Gürteltier und Schildkröte. Das ist eine Deutung, keine gesicherte Tatsache.\n\nÜber dem Gebäude erhebt sich ein Dachkamm, der mit Steinmosaiken verziert ist, im Puuc-Stil. Als der Bau entdeckt wurde, fiel er durch seinen guten Erhaltungszustand und den Reichtum seines Schmucks auf.\n\nDas Datenblatt des INAH nennt für die Gruppe ein ungefähres Datum von sechshundert bis achthundert unserer Zeitrechnung, andere Beschreibungen ordnen sie dagegen der Endklassik zu. Die Daten stimmen nicht überein.\n\nVeröffentlichte Maße sind nicht bekannt, ebenso wenig die Art der Rituale, die im Inneren stattfanden. Am vorsichtigsten sagt man, es war ein Tempel oder eine Kapelle unbekannter Nutzung.\n\nGeh nun weiter zum [Akab Dzib](chi_32_akab_dzib), östlich von El Caracol."
+    },
+    "retos_observacion": {
+      "hash": "43d34f853ff59d41",
+      "texto": [
+        "Suche die drei Chaac-Masken im Fries: eine in der Mitte und eine an jeder Ecke",
+        "Finde die seitlichen Nischen mit den sitzenden Figuren",
+        "Betrachte den Streifen mit den Zickzack-Leisten und überlege, ob er dir wie eine Schlange vorkommt"
+      ]
+    },
+    "especificaciones": {
+      "hash": "de8be6f7848acbcc",
+      "texto": {
+        "Größe": "klein, mit nur einem gewölbten Saal und einer Tür",
+        "Fassade": "blickt nach Westen",
+        "Fries": "drei Chaac-Masken in Steinmosaik",
+        "Seitliche Nischen": "zwei sitzende Figuren auf jeder Seite (werden mit den vier Bacabes gleichgesetzt)",
+        "Stil": "Puuc",
+        "Standort": "direkt östlich von Las Monjas",
+        "Datierung": "Endklassik, oder 600-800 laut Datenblatt des INAH"
+      }
+    },
+    "faq_mito": {
+      "hash": "d831c92e8eac8a12",
+      "texto": {
+        "pregunta": "Mythos: Sie heißt La Iglesia, weil die Maya sie als Kirche nutzten.",
+        "respuesta": "Realität: Der Name stammt aus späterer Zeit. Es ist ein vorspanischer Tempel mit nur einem Saal, ähnlich einer Kapelle, und der genaue Ursprung des Namens ist nicht sicher bekannt."
+      }
+    }
+  }
+}

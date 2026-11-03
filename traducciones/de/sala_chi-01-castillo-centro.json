@@ -1,0 +1,26 @@
+{
+  "id": "chi-01-castillo-centro",
+  "tipo": "sala",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "introduccion_narrativa": [
+      "el glosario pide \"Gefiederte Schlange\" para \"Serpiente Emplumada\" y no aparece"
+    ]
+  },
+  "campos": {
+    "nombre_oficial": {
+      "hash": "0a9e948d73c1aa0f",
+      "texto": "El Castillo und das Herz der Plaza"
+    },
+    "frase_gancho": {
+      "hash": "242ac4fa4f7ce489",
+      "texto": "Ein Kalender aus Stein zwischen Himmel und Unterwelt."
+    },
+    "introduccion_narrativa": {
+      "hash": "ac0ec7dd38643680",
+      "texto": "Du stehst auf der Gran Nivelación, einer riesigen künstlichen Plattform, auf der sich die berühmtesten Bauwerke der Stadt erheben. In diesem Bereich gibt es sechs Stationen rund um El Castillo, den Tempel des Kukulcán, der Gefiederten Schlange. Du siehst die Pyramide und ihr Schattenspiel zur Tagundnachtgleiche, den älteren Tempel in ihrem Inneren, die Venusplattform und den Tzompantli mit seinen geschnitzten Schädeln. Außerdem siehst du die Plattform der Adler und Jaguare, auf der Bilder von Krieg und Opfer ein zentraler Teil dessen sind, was erzählt wird. Was man weiß und was umstritten ist, steht bei jeder Station nebeneinander."
+    }
+  }
+}

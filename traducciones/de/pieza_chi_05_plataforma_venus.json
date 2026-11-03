@@ -1,0 +1,64 @@
+{
+  "id": "chi_05_plataforma_venus",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_corto": [
+      "el glosario pide \"Heiliger Cenote\" para \"Cenote Sagrado\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Heiliger Cenote\" para \"Cenote Sagrado\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "18353759b58471de",
+      "texto": "Venusplattform"
+    },
+    "frase_gancho": {
+      "hash": "8d4d34dc5f31ef26",
+      "texto": "Eine dem Planeten Venus gewidmete Plattform, nur wenige Schritte von El Castillo entfernt."
+    },
+    "puente_narrativo": {
+      "hash": "ab63f4a503e22021",
+      "texto": "Bleib bei der niedrigen Plattform stehen und sieh dich um: Du befindest dich im Herzen der Plaza. Wenn du fertig bist, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "guion_corto": {
+      "hash": "6d8c7a104b80e113",
+      "texto": "Diese Plattform liegt nördlich von El Castillo, nur wenige Schritte von der Pyramide entfernt, auf dem Weg zum Heiligen Cenote. Sie ist dem Planeten Venus gewidmet. Laut einer Tafel des INAH war sie ursprünglich rot, grün, ocker, blau und schwarz bemalt, und in der Mitte trägt sie das Relief eines Vogel-Schlangen-Menschen, der als Kukulcán in seiner Gestalt als Morgenstern gedeutet wird. In ihrem Inneren fand man große, behauene Steinkegel, und niemand weiß, wozu sie dienten. Die Maya verfolgten die Bewegungen der Venus mit großer Aufmerksamkeit und hielten sie in Codices wie dem Dresdner Codex fest."
+    },
+    "guion_largo": {
+      "hash": "6ab9759f32ccb9a9",
+      "texto": "Diese Station ist kurz, doch sie knüpft an einen Gedanken an, der sich durch ganz Chichén Itzá zieht: Die Maya lasen den Himmel.\n\nDie Venusplattform liegt nördlich von El Castillo, nur wenige Schritte von der Pyramide entfernt, auf dem Weg zum Heiligen Cenote. Sie ist dem Planeten Venus gewidmet. Im Inneren der Plattform fand man große, behauene Steinkegel, und ihre Funktion ist unbekannt. Es ist eine jener Fragen, auf die die Archäologie noch keine Antwort hat.\n\nLaut einer Tafel des INAH war die Plattform ursprünglich rot, grün, ocker, blau und schwarz bemalt. Sie hat eine Treppe, und unter ihren Reliefs findet sich eine zentrale Figur: ein Vogel-Schlangen-Mensch. Die Tafel deutet ihn als Darstellung von Quetzalcóatl-Kukulcán in seiner Gestalt als Morgenstern. An den Ecken erscheint das Jahresband zusammen mit dem Planeten Venus. Außerdem heißt es dort, dass auf der Osttreppe eine Opfergabe gefunden wurde und dass die Plattform wahrscheinlich als Schauplatz für Zeremonien, Riten oder Tänze diente. Das sind Deutungen: Die Tafel nennt weder Maße noch ein Datum.\n\nUm zu verstehen, warum Venus so wichtig war, lohnt es sich, daran zu erinnern, wie die Maya den Himmel betrachteten. Sie widmeten diesem Planeten besondere Aufmerksamkeit, der als Morgenstern und als Abendstern erscheint. Der Dresdner Codex, eines der wenigen erhaltenen Bücher der Maya, enthält Tafeln, um seine Zyklen zu verfolgen. Das zeigt, dass der Himmel kein bloßer Hintergrund war: Er war ein Kalender, der Krieg, Rituale und die Entscheidungen der Herrscher ordnete.\n\nVon hier aus führt nach Norden ein gerader Steindamm, der sich in der Vegetation verliert und zum Cenote führt: der Sacbé Nummer eins.\n\nWenn du fertig mit dem Schauen bist, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "retos_observacion": {
+      "hash": "d4cd314182eb6543",
+      "texto": [
+        "Finde die niedrige Plattform nördlich von El Castillo, nur wenige Schritte von der Pyramide entfernt",
+        "Suche die Reliefs, die noch zu erkennen sind, etwa die zentrale Figur oder die an den Ecken, falls vorhanden",
+        "Blick nach Norden und suche den geraden Damm, der sich in der Vegetation verliert"
+      ]
+    },
+    "especificaciones": {
+      "hash": "1752b5b24fa4e82d",
+      "texto": {
+        "Standort": "nördlich von El Castillo, nur wenige Schritte von der Pyramide entfernt, in Richtung Heiliger Cenote",
+        "Widmung": "dem Planeten Venus",
+        "Ursprüngliche Farben": "rot, grün, ocker, blau und schwarz (Tafel des INAH)",
+        "Zentrales Relief": "Vogel-Schlangen-Mensch, gedeutet als Kukulcán in seiner Gestalt als Morgenstern (Tafel des INAH)",
+        "Funde": "große, behauene Steinkegel im Inneren der Plattform, von unbekannter Funktion; eine Opfergabe auf der Osttreppe",
+        "Mögliche Nutzung": "Schauplatz für Zeremonien, Riten oder Tänze",
+        "Verweis": "der Dresdner Codex enthält Venustafeln"
+      }
+    },
+    "faq_mito": {
+      "hash": "f6f97bf0600d0da8",
+      "texto": {
+        "pregunta": "Mythos: Diese Plattform war ein nachgewiesenes astronomisches Observatorium.",
+        "respuesta": "Realität: Sie ist der Venus gewidmet, doch es gibt keine Belege dafür, dass sie ein Observatorium war. Dokumentiert sind ihre Steinkegel von unbekannter Funktion und Reliefs, die als Schauplatz für Zeremonien gedeutet werden."
+      }
+    }
+  }
+}

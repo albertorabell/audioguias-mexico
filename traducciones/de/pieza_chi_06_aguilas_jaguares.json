@@ -1,0 +1,75 @@
+{
+  "id": "chi_06_aguilas_jaguares",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "puente_narrativo": [
+      "el glosario pide \"Großer Ballspielplatz\" para \"Gran Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "guion_corto": [
+      "el glosario pide \"Großer Ballspielplatz\" para \"Gran Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "guion_largo": [
+      "el glosario pide \"Großer Ballspielplatz\" para \"Gran Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ],
+    "especificaciones": [
+      "el glosario pide \"Großer Ballspielplatz\" para \"Gran Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspielplatz\" para \"Juego de Pelota\" y no aparece",
+      "el glosario pide \"Ballspiel\" para \"juego de pelota\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "b3effe4c5400637f",
+      "texto": "Plattform der Adler und Jaguare"
+    },
+    "frase_gancho": {
+      "hash": "7997417a91bd05c0",
+      "texto": "Adler und Jaguare, die menschliche Herzen verschlingen, auf einer Plattform mit je einer Treppe an jeder Seite."
+    },
+    "puente_narrativo": {
+      "hash": "1658110b6c226dc8",
+      "texto": "Geh weiter zum [Großen Ballspielplatz](chi_08_gran_juego_pelota), dem riesigen Spielfeld, das diese Seite der Esplanade abschließt."
+    },
+    "guion_corto": {
+      "hash": "0bc6d550dd3ca405",
+      "texto": "Diese Plattform hat an jeder ihrer vier Seiten eine Treppe. Ihre Paneele zeigen Adler und Jaguare, die menschliche Herzen fressen. Sie verbindet Stilelemente der Maya mit Zügen aus Zentralmexiko und ist einer der Belege dafür, dass sich in Chichén Itzá Traditionen vermischten. Sie liegt unmittelbar östlich des Großen Ballspielplatzes, und eine ihrer Skulpturen ist berühmt: Der erste Chac Mool, den Archäologen entdeckten, stammt von dieser Plattform. Die Adler mit Herzen erscheinen auch am Tzompantli und am Tempel der Krieger. Es ist ein Bild, das sich an den wichtigsten Bauten dieses Platzes wiederholt."
+    },
+    "guion_largo": {
+      "hash": "4e63205e3f364591",
+      "texto": "Nach den Schädeln kommen nun die Adler und die Jaguare. Zwei Tiere, die in Mesoamerika mit Macht und mit Krieg verbunden wurden.\n\nDiese Plattform ist quadratisch, mit einer Treppe an jeder ihrer vier Seiten. Sie vereint den Stil der Maya mit dem Stil Zentralmexikos. Die geschnitzten Paneele zeigen Adler und Jaguare, die menschliche Herzen verschlingen. Sie liegt östlich des Großen Ballspielplatzes, ganz in der Nähe des Tzompantli, das du gerade gesehen hast.\n\nEine verbreitete Deutung dieses Bildes stammt aus der Tradition Zentralmexikos. Dort symbolisierten Adler und Jaguare die Elitekrieger, und die Herzen waren eine Opfergabe, um die Sonne zu nähren. Das ist eine Interpretation und keine gesicherte Aussage darüber, was man in Chichén Itzá dachte. Sicher lässt sich sagen, dass sich diese Bilder an anderen Bauten des Ortes wiederholen. Die Adler mit Herzen erscheinen auch am Tzompantli und auf den Paneelen des Tempels der Krieger.\n\nDiese Plattform hat eine besondere Geschichte. Der erste Chac Mool, den Archäologen entdeckten, stammt von hier. Ein Chac Mool ist eine zurückgelehnte Steinfigur, die auf dem Bauch ein Gefäß hält. Weitere gibt es am Tempel der Krieger und im Inneren von El Castillo. Sie gehören zu den visuellen Markenzeichen von Chichén Itzá, und die Wissenschaft diskutiert bis heute, was sie genau bedeuteten.\n\nBeachte auch, wie diese Plattform zusammen mit dem Tzompantli ein Ensemble bildet. Eine verbreitete Erklärung lautet, dass diese Bauten gemeinsam eine Sichtweise darstellen, die Krieg und Opfer als Teil der Ordnung der Welt begreift. Das ist eine plausible Deutung, doch man muss bedenken, dass es moderne Lesarten von Bildern sind, die mehr als tausend Jahre alt sind. Sicher ist nur, dass die Erbauer wollten, dass die Botschaft gesehen wird.\n\nWenn du Zeit hast, geh um die Plattform herum und vergleiche ihre vier Seiten. Auf manchen sind die Reliefs besser erhalten als auf anderen.\n\nGeh nun weiter zum [Großen Ballspielplatz](chi_08_gran_juego_pelota). Er ist das größte bekannte Spielfeld Mesoamerikas, und dort erwartet dich ein weiteres gewalttätiges Bild: die Paneele der Enthauptung."
+    },
+    "retos_observacion": {
+      "hash": "64df8bda76c8ff9e",
+      "texto": [
+        "Suche auf den Paneelen die Adler und Jaguare mit einem Herzen zwischen den Klauen oder im Maul",
+        "Zähle die Treppen: Es gibt eine an jeder der vier Seiten",
+        "Vergleiche diese Plattform mit dem Tzompantli, das du gerade gesehen hast, und achte darauf, welche Bilder sich wiederholen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "3324311b6ba8a5d8",
+      "texto": {
+        "Form": "Plattform mit einer Treppe an jeder ihrer vier Seiten",
+        "Reliefs": "Adler und Jaguare, die menschliche Herzen verschlingen",
+        "Stil": "verbindet Züge der Maya und Zentralmexikos",
+        "Standort": "unmittelbar östlich des Großen Ballspielplatzes",
+        "Wichtige Information": "Von dieser Plattform stammt der erste von Archäologen entdeckte Chac Mool",
+        "Wiederkehrendes Bild": "Adler mit Herzen, auch am Tzompantli und am Tempel der Krieger"
+      }
+    },
+    "faq_mito": {
+      "hash": "db9dd5e7555b9b5b",
+      "texto": {
+        "pregunta": "Mythos: Die Reliefs beweisen, dass es einen Militärorden der Adler und Jaguare gab.",
+        "respuesta": "Realität: Das ist eine moderne Interpretation, die der Tradition Zentralmexikos entnommen ist. Man weiß nicht sicher, was diese Bilder für die Bewohner von Chichén Itzá bedeuteten."
+      }
+    }
+  }
+}

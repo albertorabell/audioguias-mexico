@@ -1,0 +1,59 @@
+{
+  "id": "chi_30_anexo_este_monjas",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Späte Klassik\" para \"Clásico Tardío\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "5b336e81005050e0",
+      "texto": "Der Ostanbau"
+    },
+    "frase_gancho": {
+      "hash": "ec2b597fa5308e55",
+      "texto": "Eine Tür, die der Mund einer gigantischen Regenmaske ist."
+    },
+    "puente_narrativo": {
+      "hash": "e6097543bb17c89d",
+      "texto": "Achte auf die Masken an der Fassade. Wenn du fertig bist, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "guion_corto": {
+      "hash": "0cfb77ae9959f816",
+      "texto": "Der Ostanbau gehört zum ursprünglichen Gebäude von Las Monjas. Seine Fassade ist von Masken des Chaac bedeckt, des Regengottes. Das Portal ist eine riesige Maske des Chaac oder des Witz, des Geistes des Berges, mit der Tür als Mund. Oben verläuft eine gewellte, in Stein gehauene Schlange. Laut INAH erinnert eine Tür mit Inschrift an den Chenes-Stil. Ihre Inschrift wird auf das Jahr achthundertachtzig datiert."
+    },
+    "guion_largo": {
+      "hash": "c97dcb3632ee3317",
+      "texto": "Dies ist eine der spektakulärsten Fassaden der Stätte und zugleich eine der am schwersten mit Sicherheit zu deutenden.\n\nLaut INAH gehört der Anbau zum ursprünglichen Bau von Las Monjas. Seine Fassade zeigt viele Masken des Chaac, des Regengottes, und eine Tür mit einer Inschrift, die an den Chenes-Stil erinnert. Das Hauptgebäude besteht aus drei Teilen, und der Ostanbau entspricht dem Ostflügel.\n\nMehrere Beschreibungen liefern weitere Einzelheiten. Die Hauptfassade ist als riesiges Gesicht des Chaac oder des Witz gestaltet, jenes Geistes, der in den Bergen wohnt, und die Tür dient als sein Mund. Beide Gestalten haben mit dem Regen zu tun. Am Gesims verläuft eine gewellte Schlange, die die Gefiederte Schlange sein könnte. Beschrieben wird auch die Ostkammer mit einer Tür, die von gebogenen Nasen des Chaac eingerahmt ist, mit vier Masken auf jeder Seite, zwei übereinandergesetzten an jeder Ecke, und einem Dachkamm mit Gitterwerk und Masken.\n\nDie Einzelheiten unterscheiden sich, je nachdem, wer sie beschreibt. Merken sollte man sich das Wesentliche: Masken des Chaac, ein Portal im Chenes-Stil und ein Gesims mit Schlange.\n\nDie Hieroglypheninschrift am Türsturz der Ostkammer wird nach der Katun-Zählung auf das Jahr achthundertachtzig datiert. Der Epigraphiker Hermann Beyer dokumentierte im Jahr neunzehnhundertsiebenunddreißig die Dekoration der Fassade des Ostanbaus, nennt aber keine Bauzeiten. Die Stile, die dieses Bauwerk vereint, Puuc, Chenes und Río Bec, waren in der Späten Klassik in Yucatán verbreitet.\n\nBetrachte in Ruhe die Wiederholung der Masken. In einer Region ohne Flüsse hieß Wasser zu erbitten, Leben zu erbitten.\n\nWenn du fertig bist, geh weiter zur nächsten Station deines Rundgangs."
+    },
+    "retos_observacion": {
+      "hash": "3a9d4932a0b44167",
+      "texto": [
+        "Suche die Tür und versuche, um sie herum die Form eines Mundes und gebogener Nasen zu erkennen",
+        "Zähle, wie oft sich die Maske des Chaac in einem Abschnitt der Fassade wiederholt",
+        "Betrachte das Gesims und suche die gewellte Schlange"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c1bba47855940429",
+      "texto": {
+        "Standort": "Ostflügel von Las Monjas",
+        "Dekoration": "viele Masken des Chaac; Portal, das als Maske des Chaac oder des Witz mit der Tür als Mund beschrieben wurde",
+        "Gesims": "gewellte Schlange",
+        "Stil": "Chenes (INAH); Puuc, Chenes und Río Bec",
+        "Inschrift am Türsturz": "um das Jahr 880 (ungefähr)"
+      }
+    },
+    "faq_mito": {
+      "hash": "c0890c02d0e7da80",
+      "texto": {
+        "pregunta": "Mythos: Die Masken der Fassade stellen verschiedene Herrscher dar.",
+        "respuesta": "Realität: Das INAH identifiziert sie als Masken des Regengottes Chaac, die in der Dekoration wiederholt werden."
+      }
+    }
+  }
+}

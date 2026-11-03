@@ -1,0 +1,56 @@
+{
+  "id": "chi_23_el_osario",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "e57e46b4e415af1c",
+      "texto": "Das Ossuarium und seine Plattformen"
+    },
+    "frase_gancho": {
+      "hash": "1cbb35eceb0f44f5",
+      "texto": "Eine Pyramide mit neun Stufen und einer Öffnung auf der Spitze, die hinab bis in eine Höhle führt."
+    },
+    "puente_narrativo": {
+      "hash": "ca47d89ab6f88925",
+      "texto": "Geh um die Plattform herum und betrachte die Pyramide aus verschiedenen Blickwinkeln. Wenn du fertig bist, geht es weiter zur nächsten Station deines Rundgangs."
+    },
+    "guion_corto": {
+      "hash": "b4b9fef89ff4f3b1",
+      "texto": "Das Ossuarium ist eine Stufenpyramide, kleiner als El Castillo und ihm sehr ähnlich, mit Treppen auf allen vier Seiten. Sie hat neun Stufen und ist mehr als zehn Meter hoch. In der Mitte befindet sich eine Öffnung, die in eine natürliche Höhle hinabführt, etwa zehn bis zwölf Meter tief. Ende des neunzehnten Jahrhunderts erkundete Edward Thompson sie und fand Skelette und Jadeperlen. Deshalb nannte er sie Grab des Hohepriesters. Heute geht man davon aus, dass es weder ein Grab noch eine Bestattung von Priestern war."
+    },
+    "guion_largo": {
+      "hash": "7bebd8932377388a",
+      "texto": "Dieses Gebäude hat zwei Namen, und keiner ist zutreffend. Man nennt es Ossuarium wegen der Knochen, die man dort fand, und Grab des Hohepriesters, weil sein Erforscher es so getauft hat.\n\nBeginnen wir mit dem, was man sieht. Es ist eine Stufenpyramide mit neun Stufen, mehr als zehn Meter hoch, mit Treppen auf allen vier Seiten. Sie ähnelt El Castillo sehr, ist aber kleiner, und deshalb nennt manch einer sie eine Replik. Die Reliefs des Frieses sind mythologisch, und an den Ecken sitzen Masken des Regengottes Chaac. Die Treppen haben Balustraden mit Schlangen.\n\nDas Besondere liegt in der Mitte. Eine Öffnung auf der Spitze führt durch einen Schacht hinab in eine natürliche Höhle. Die Beschreibungen nennen unterschiedliche Tiefen: zwischen etwa zehn und etwa zwölf Metern. Ende des neunzehnten Jahrhunderts stieg Edward Thompson in diese Höhle hinab. Er fand Skelette und Jadeperlen und schloss daraus, dass es das Grab eines Hohepriesters sei. Heute glauben die Archäologen, dass es weder ein Grab noch eine Bestattung von Priestern war.\n\nIm Jahr neunzehnhundertsechsunddreißig fand J. C. Harrington bei der Kartierung des Schachts einen Teil des Gewölbes eines älteren Tempels. Das heißt, auch das Ossuarium wurde über einem älteren Tempel errichtet, genau wie El Castillo und der Tempel der Krieger. Eine Radiokarbonstudie von zweitausendneunzehn, von Saldaña und Brady, datiert das Ende des früheren Bauwerks und den Bau des Ossuariums auf den Beginn des achten Jahrhunderts. Ein Pfeiler des oberen Tempels trägt ein Datum, das dem Jahr neunhundertachtundneunzig entspricht.\n\nEs gibt eine symbolische Deutung, die oft wiederholt wird: dass die Höhle ein Eingang zur Unterwelt war und dass die neun Stufen auf deren neun Ebenen anspielen. Das ist eine verbreitete Deutung. Die Maya brachten Höhlen und Cenotes zwar tatsächlich mit der Unterwelt in Verbindung, aber der Zusammenhang mit den neun Ebenen ist nicht belegt.\n\nVon dieser Plattform führt ein Weg zum Cenote Xtoloc. Wenn du hier fertig bist, geht es weiter zur nächsten Station deines Rundgangs."
+    },
+    "retos_observacion": {
+      "hash": "1a98a44a14b466e7",
+      "texto": [
+        "Zähle die Stufen der Pyramide: Es sind neun",
+        "Suche an den Ecken die Masken des Regengottes Chaac",
+        "Vergleiche ihre Proportionen mit denen von El Castillo, das du schon gesehen hast"
+      ]
+    },
+    "especificaciones": {
+      "hash": "6ff3ac66d851e907",
+      "texto": {
+        "Höhe": "mehr als 10 m",
+        "Stufen": "9, mit Treppen auf allen vier Seiten",
+        "Zentrale Öffnung": "führt in eine natürliche Höhle hinab, etwa 10-12 m tief",
+        "Erforschung": "Edward Thompson, Ende des 19. Jahrhunderts; J. C. Harrington (1936) entdeckte einen älteren Tempel",
+        "Datierung": "Beginn des 8. Jahrhunderts (Radiokarbon, 2019); Pfeiler des oberen Tempels mit Datum des Jahres 998",
+        "Namen": "Ossuarium und Grab des Hohepriesters"
+      }
+    },
+    "faq_mito": {
+      "hash": "8faa303ff8b4a790",
+      "texto": {
+        "pregunta": "Mythos: Es ist das Grab eines großen Maya-Priesters.",
+        "respuesta": "Realität: So hat Thompson es getauft, aber heute geht man davon aus, dass es weder ein Grab noch eine Bestattung von Priestern war."
+      }
+    }
+  }
+}
