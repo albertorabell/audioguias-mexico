@@ -1,0 +1,53 @@
+{
+  "id": "fri_04_comedor_mexicano",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "6b49529913196bf0",
+      "texto": "Das Esszimmer: Volkskunst zum Gebrauchen"
+    },
+    "frase_gancho": {
+      "hash": "039b24c556b3b7f0",
+      "texto": "Hier saßen Trotzki, Breton und Eisenstein, umgeben von Masken, Ton und geblasenem Glas."
+    },
+    "puente_narrativo": {
+      "hash": "2bc3f18392edd311",
+      "texto": "Wirf vom Esszimmer aus einen Blick in die Küche, wo auf einer Holzfeuerstelle gekocht wurde."
+    },
+    "guion_corto": {
+      "hash": "05bae9fa87152233",
+      "texto": "Sieh dir die gelben Geschirrschränke und den langen Tisch an. Im Esszimmer der Casa Azul (Blaues Haus) stellten Frida und Diego keine Luxusmöbel auf. Sie stellten mexikanische Volkskunst auf. Es gibt Keramik aus Puebla, aus Oaxaca, aus Michoacán und aus dem Bundesstaat México, geblasenes Glas, Masken und eine Judasfigur in Gestalt eines Stierkämpferskeletts. Aber das war keine Dekoration. Sie sammelten diese Stücke und benutzten sie auch. Frida deckte den Tisch mit Tischdecken aus verschiedenen Regionen des Landes. An diesem Tisch saßen Besucher wie André Breton, Tina Modotti, Leo Trotzki und Sergei Eisenstein. Hier versteht man, dass Mexiko für sie kein Schmuckstück war. Es war das tägliche Leben. Lass dir Zeit und sieh dir jede Ecke des Raums in Ruhe an."
+    },
+    "guion_largo": {
+      "hash": "e73367196bebce49",
+      "texto": "Dieses Esszimmer gehört zu den fröhlichsten Räumen des Hauses. Das Erste, was auffällt, ist das Gelb der Geschirrschränke, jener Möbel mit Regalbrettern, in denen Teller und Gläser aufbewahrt werden. An den Wänden hängen volkstümliche Gemälde aus dem neunzehnten Jahrhundert, mit Stillleben und Szenen aus dem Alltag. Auf dem Tisch und in den Regalen sammeln sich Ton, Glas und Pappe.\n\nDas Museum berichtet, dass Frida und Diego im Jahr neunzehnhundertneunundzwanzig heirateten und von da an mexikanische Volkskunst sammelten. Mit der Zeit trugen sie Masken, Pappmaché-Figuren und Stücke aus Ton zusammen. Im Esszimmer gibt es eine Judasfigur in Gestalt eines Stierkämpferskeletts und eine Pferdefigur auf zwei Beinen. Außerdem gibt es einen blauen Teller aus geblasenem Glas in Muschelform. Die Keramik stammt aus verschiedenen Regionen. Die Aufzählung umfasst Puebla, Oaxaca, Michoacán und den Bundesstaat México, dazu Glas aus Carretones und aus Guadalajara.\n\nWichtig ist, dass diese Gegenstände benutzt wurden. Frida deckte den Tisch mit Tischdecken aus verschiedenen Regionen des Landes, und der Tisch wurde so hergerichtet, als erwartete man Gäste. Die Stücke standen nicht hinter Glas. Sie gehörten zu den Mahlzeiten jedes Tages. Für die beiden war die Volkskunst eine Art zu leben, keine Sammlung, die man aus der Ferne betrachtet.\n\nSo einzurichten war auch eine Haltung. Das Haus blau zu streichen, es mit Ton und Pappmaché zu füllen, von Keramik aus Oaxaca zu essen. Jede Entscheidung stellte das Mexikanische in den Mittelpunkt.\n\nUnd in dieses Esszimmer kamen Menschen aus vielen Teilen der Welt. Das Museum erwähnt André Breton, den französischen Dichter, der den Surrealismus vorantrieb. Es erwähnt auch die Fotografin Tina Modotti und den russischen Filmregisseur Sergei Eisenstein. Es erwähnt Leo Trotzki, der mit seiner Frau von neunzehnhundertsiebenunddreißig bis neunzehnhundertneununddreißig im Haus lebte. Man kann sich leicht lange Gespräche rund um diesen Tisch vorstellen.\n\nVolkskunst ist jene Kunst, die Kunsthandwerkerinnen und Kunsthandwerker in ihren Werkstätten herstellen, fast immer für den Gebrauch im täglichen Leben. Ein Krug, ein Teller, eine Maske oder eine Figur aus Pappe können Werke von hoher Qualität sein. Frida und Diego wussten das, und deshalb stellten sie diese Stücke in den Mittelpunkt ihres Hauses.\n\nSchau jetzt nach oben, zu den Regalen. Du wirst sehr kräftige Farben sehen, Spielzeug, Tierfiguren und Gegenstände, die klein wirken, aber jeder einzelne stammt aus einer Werkstatt und von einem Menschen. Gemeinsam bilden sie eine Art Landkarte des Landes."
+    },
+    "retos_observacion": {
+      "hash": "b42572f9de953890",
+      "texto": [
+        "Suche die gelben Geschirrschränke und zähle, wie viele Arten von Keramik du unterscheiden kannst",
+        "Finde die Judasfigur in Gestalt eines Stierkämpferskeletts und die Pferdefigur auf zwei Beinen",
+        "Stell dir vor, wie Trotzki, Breton, Modotti und Eisenstein an genau diesem Tisch sitzen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "628f0f25f7e0ee00",
+      "texto": {
+        "Raum": "Esszimmer im Erdgeschoss",
+        "Sammlung": "Volkskunst aus Puebla, Oaxaca, Michoacán und dem Bundesstaat México; geblasenes Glas und Pappmaché",
+        "Besucher, die das Museum erwähnt": "André Breton, Tina Modotti, Leo Trotzki, Sergei Eisenstein"
+      }
+    },
+    "faq_mito": {
+      "hash": "214f7a38c7c86c52",
+      "texto": {
+        "pregunta": "Mythos: Die Volkskunststücke des Hauses dienten nur der Dekoration und wurden nicht benutzt.",
+        "respuesta": "Realität: Frida und Diego sammelten sie und benutzten sie im täglichen Leben. Frida deckte den Tisch mit Tischdecken aus verschiedenen Regionen, um ihre Gäste zu empfangen."
+      }
+    }
+  }
+}

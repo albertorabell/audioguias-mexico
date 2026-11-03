@@ -1,0 +1,54 @@
+{
+  "id": "fri_06_recamara_diego",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "256da2c7a1777709",
+      "texto": "Diegos Schlafzimmer"
+    },
+    "frase_gancho": {
+      "hash": "37ff5e2a86f01353",
+      "texto": "Ein kleines Zimmer, das Frida für einen Mann von einem Meter neunzig vorbereitete."
+    },
+    "puente_narrativo": {
+      "hash": "1f413a10fc88c5d8",
+      "texto": "Nimm von Diegos Zimmer aus die Steintreppe, die hinauf zum Atelier führt. An den Wänden hängen kleine Bilder auf Blech."
+    },
+    "guion_corto": {
+      "hash": "96a5d784c6bab616",
+      "texto": "Dieses Zimmer ist klein und schlicht, und Frida richtete es für Diego her. Er war einen Meter neunzig groß, und tagsüber genoss er gern das Licht des Hauses und des Gartens. Hier werden seine Kleidung aus Baumwollstoff, seine Hüte und seine Spazierstöcke aus Apizaco aufbewahrt. Es gibt auch Gemälde von Mariano Silva Vandeira. Frida und Diego heirateten 1929, ließen sich 1939 scheiden und heirateten 1940 erneut. Sie lebten nie wie ein konventionelles Paar. Jeder hatte seinen eigenen Raum, und dieses Zimmer zeigt es. Es ist ein schlichtes Zimmer, und gerade deshalb sagt es so viel. Sieh dir die Garderobe an und das Licht, das in das Zimmer fällt."
+    },
+    "guion_largo": {
+      "hash": "f92c6b5f0d196591",
+      "texto": "Anders als im Speisezimmer gibt es hier kaum etwas, das überrascht. Es gibt ein schlichtes Bett, eine Garderobe mit Hüten, Kleidung und einigen persönlichen Gegenständen. Aber genau das ist das Interessante. Es ist das Zimmer, in dem einer der bedeutendsten Maler Mexikos schlief, und es ist von einer Schlichtheit, die überrascht.\n\nDas Museum erzählt, dass Frida dieses Zimmer vorbereitete, damit Diego darin schlafen konnte. Er war einen Meter neunzig groß. Tagsüber genoss Diego das Licht des Hauses und des Gartens. Erhalten sind seine Kleidung aus Baumwollstoff, seine Hüte und seine Spazierstöcke aus Apizaco. Außerdem gibt es eine lackierte Holzkiste aus Michoacán, ein Foto von Frida und Gemälde von Mariano Silva Vandeira, darunter Eva im Paradies.\n\nUm die Geschichte dieses Schlafzimmers zu verstehen, muss man das Leben des Paares kennen. Sie heirateten 1929. Diego war mehr als zwanzig Jahre älter als Frida und bereits berühmt. Sie ließen sich 1939 scheiden und heirateten am 8. Dezember 1940 erneut. Trotzdem lebten sie nie wie ein konventionelles Paar. In San Ángel hatten sie zwei verschiedene Häuser, die durch eine Brücke verbunden waren. In der Casa Azul (Blaues Haus) hatte jeder seinen eigenen Raum.\n\nDiego sammelte auch präkolumbische Kunst, und aus dieser Leidenschaft entstand das Museo Anahuacalli. Du wirst es ausführlicher bei der Pyramide im Garten kennenlernen.\n\nDiego Rivera wurde 1886 in Guanajuato geboren und starb am 24. November 1957, drei Jahre nach Frida. Er malte große Wandbilder in öffentlichen Gebäuden, etwa im Nationalpalast in Mexiko-Stadt. Seine Kunst füllte riesige Wände. Hier dagegen schläft er in einem schlichten Bett.\n\nDieser Kontrast gehört zum Zauber des Zimmers. Ein sehr großer Mann mit großen Ideen, in einem kleinen, ruhigen Raum im Haus der Frau, die er liebte.\n\nSieh dir die Garderobe noch einmal an. Wenn ein Mensch stirbt, erzählen die Dinge, die bleiben, von seiner Art zu leben. Hier gibt es Hüte, Spazierstöcke und ein Zimmer, das sich dem Licht öffnet. Es ist das Porträt eines großen Mannes, der nicht viel brauchte, um sich zu Hause zu fühlen."
+    },
+    "retos_observacion": {
+      "hash": "385c471d9892aeb9",
+      "texto": [
+        "Achte auf die Größe des Bettes und erinnere dich daran, dass Diego einen Meter neunzig groß war",
+        "Suche die Garderobe mit ihren Hüten, der Kleidung aus Baumwollstoff und den Spazierstöcken aus Apizaco",
+        "Sieh dir das Licht an, das in das Zimmer fällt, und denk an das, was das Museum sagt: Tagsüber genoss Diego das Licht des Hauses und des Gartens"
+      ]
+    },
+    "especificaciones": {
+      "hash": "c2cec2fbfae03fec",
+      "texto": {
+        "Raum": "Diegos Schlafzimmer, Erdgeschoss",
+        "Objekte": "Kleidung aus Baumwollstoff, Hüte und Spazierstöcke aus Apizaco, lackierte Holzkiste aus Michoacán",
+        "Gemälde": "Werke von Mariano Silva Vandeira",
+        "Ehe": "1929; Scheidung: 1939; zweite Heirat: 8. Dezember 1940"
+      }
+    },
+    "faq_mito": {
+      "hash": "2584c00d58f4b5df",
+      "texto": {
+        "pregunta": "Mythos: Diego Rivera und Frida Kahlo teilten ihr ganzes Leben lang dasselbe Schlafzimmer.",
+        "respuesta": "Realität: Sie hatten immer getrennte Räume. In San Ángel lebten sie in zwei Häusern, die durch eine Brücke verbunden waren, und in der Casa Azul richtete Frida dieses Zimmer für Diego her."
+      }
+    }
+  }
+}

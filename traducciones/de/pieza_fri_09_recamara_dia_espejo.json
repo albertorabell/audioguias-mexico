@@ -1,0 +1,55 @@
+{
+  "id": "fri_09_recamara_dia_espejo",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "4a7760b98213ca6b",
+      "texto": "Das Tagesschlafzimmer: der Spiegel über dem Bett"
+    },
+    "frase_gancho": {
+      "hash": "fa427f8e65553349",
+      "texto": "Ihre Mutter hängte einen Spiegel über das Bett, damit Frida sich malen konnte, während sie sich nicht bewegen durfte."
+    },
+    "puente_narrativo": {
+      "hash": "04f00442f0dd4b1e",
+      "texto": "Weiter geht es zum Nachtschlafzimmer nebenan, wo gerahmte Schmetterlinge und eine Urne auf einer Frisierkommode zu sehen sind."
+    },
+    "guion_corto": {
+      "hash": "5319df7c1a68510b",
+      "texto": "Schau nach oben. Über diesem Bett ließ ihre Mutter nach dem Busunfall im September neunzehnhundertfünfundzwanzig einen Spiegel anbringen. Frida konnte sich danach etwa neun Monate lang nicht bewegen, und in dieser Genesungszeit begann sie zu malen. Der Spiegel erlaubte ihr, sich selbst zu sehen. So entstanden ihre ersten Selbstporträts. Es ist eine der bekanntesten Geschichten aus ihrem Leben, und dies ist das Bett, auf dem sie sich zugetragen hat. Im Schlafzimmer steht auch eine Maske ihres Gesichts, die Diego nach ihrem Tod anfertigen ließ. Am Fußende des Bettes hängen Fotografien von Lenin, von Mao und von anderen Persönlichkeiten, die Frida bewunderte. Frida verbrachte den Tag wegen ihrer Ruhezeiten hier."
+    },
+    "guion_largo": {
+      "hash": "da2d1cf77cb9395c",
+      "texto": "Dies ist das Tagesschlafzimmer. Frida verbrachte hier viele Stunden, wenn sie sich schonen musste. Du siehst ein Bett mit einem Spiegel darüber und, auf der Tagesdecke, eine Maske ihres Gesichts. Es ist ein kleiner Raum. Und doch begann hier die Malerin.\n\nAm siebzehnten September neunzehnhundertfünfundzwanzig saß Frida in einem Bus, der mit einer elektrischen Straßenbahn zusammenstieß. Sie war achtzehn Jahre alt. Eine Metallstange durchbohrte ihr Becken. Sie brach sich die Wirbelsäule an drei Stellen, das rechte Bein an elf Stellen, das Schlüsselbein und weitere Knochen. Einen Monat lag sie im Krankenhaus und kehrte danach in die Casa Azul (Blaues Haus) zurück. Monatelang lag sie in einem Gipskorsett reglos da. Das Museum spricht von etwa neun Monaten Ruhe. Anfangs wollte sie Ärztin werden. Sie hatte die Nationale Vorbereitungsschule besucht, wo sie eine der wenigen Frauen ihres Jahrgangs war.\n\nWährend dieser Genesungszeit suchte ihre Familie nach Wegen, ihr zu helfen. Ihre Mutter ließ eine besondere Staffelei anfertigen, damit Frida im Liegen malen konnte. Ihr Vater lieh ihr seine Ölfarben. Und ihre Mutter brachte einen großen Spiegel über dem Bett an, damit Frida sich sehen konnte. Frida erklärte es Jahre später. Sie malte Selbstporträts, weil sie viel Zeit allein verbrachte und weil sie das Thema war, das sie am besten kannte.\n\nSchau jetzt auf die Maske auf der Tagesdecke. Nach Fridas Tod ließ Diego eine Maske ihres Gesichts anfertigen und stellte sie in dieses Schlafzimmer. Sie ist ein stilles Bild, das im Gegensatz zum Spiegel steht, der jeden zurückwirft, der hineinschaut.\n\nAm Fußende des Bettes hängen Fotografien von Persönlichkeiten, die Frida bewunderte. Laut dem Museum sind dort Lenin und Mao Tse Tung zu sehen, zusammen mit anderen kommunistischen Anführern. Das wollte Frida sehen, wenn sie aufwachte.\n\nIm Bus an jenem Tag saß auch ihr Freund Alejandro Gómez Arias. Ihm schenkte sie später ihr erstes Selbstporträt, das von neunzehnhundertsechsundzwanzig. In diesem Schlafzimmer hängt außerdem eine Fotografie, die Frida beim Malen zeigt. So vervollständigt sich das Bild des Spiegels mit dem Porträt der Malerin bei der Arbeit.\n\nBetrachte das Schlafzimmer wie eine Zeitkapsel. Hier kommen ein Bett, ein Spiegel, eine Maske und Porträts von Menschen zusammen, die Frida bewunderte. In dieser Mischung liegt das Wesen des Hauses. Das Intime, das Politische und das Künstlerische leben im selben Raum beieinander.\n\nEine Szene fasst diesen Raum zusammen. Eine junge Frau von achtzehn Jahren liegt mit gebrochenem Körper da, betrachtet ihr Gesicht in einem Spiegel und beginnt, es zu malen. Daraus entstehen mehr als fünfzig Selbstporträts. Hier hat alles begonnen."
+    },
+    "retos_observacion": {
+      "hash": "505bac60164edef3",
+      "texto": [
+        "Schau auf den Spiegel über dem Bett und stell dir vor, dass Frida sich selbst aus dieser Lage sah",
+        "Suche die Maske auf der Tagesdecke, die auf Diegos Anordnung nach seinem Tod gefertigt wurde",
+        "Achte auf die gerahmten Fotografien am Fußende des Bettes und finde Lenin und Mao"
+      ]
+    },
+    "especificaciones": {
+      "hash": "5e8b45b8319b74b0",
+      "texto": {
+        "Raum": "Tagesschlafzimmer, Obergeschoss",
+        "Schlüsselelement": "Bett mit Spiegel, den ihre Mutter nach dem Unfall von 1925 anbringen ließ",
+        "Maske": "des Gesichts von Frida, auf Anordnung von Diego Rivera nach ihrem Tod angefertigt",
+        "Datum des Unfalls": "17. September 1925",
+        "Ruhezeit nach dem Unfall": "etwa neun Monate, laut dem Museum"
+      }
+    },
+    "faq_mito": {
+      "hash": "f0e4340994bde534",
+      "texto": {
+        "pregunta": "Mythos: Frida brachte den Spiegel über dem Bett an, um sich malen zu können.",
+        "respuesta": "Realität: Der Spiegel war die Idee ihrer Mutter, die auch eine Staffelei anfertigen ließ, damit Frida im Liegen malen konnte. Frida nutzte diesen Spiegel, um ihre ersten Selbstporträts zu malen."
+      }
+    }
+  }
+}

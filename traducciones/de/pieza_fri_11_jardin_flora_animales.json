@@ -1,0 +1,59 @@
+{
+  "id": "fri_11_jardin_flora_animales",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {
+    "guion_largo": [
+      "el glosario pide \"Mesoamerika\" para \"Mesoamérica\" y no aparece",
+      "el glosario pide \"Zentraler Innenhof\" para \"Patio Central\" y no aparece"
+    ]
+  },
+  "campos": {
+    "titulo": {
+      "hash": "12eb388f42cd7dc9",
+      "texto": "Der Garten der Casa Azul (Blaues Haus)"
+    },
+    "frase_gancho": {
+      "hash": "09335901cd8da388",
+      "texto": "Ein Grundstück von tausendvierzig Quadratmetern, das neunzehnhundertsiebenunddreißig gekauft wurde, um Trotzki zu schützen."
+    },
+    "puente_narrativo": {
+      "hash": "2c16efd55d1a08be",
+      "texto": "Geh über die Gartenwege bis zur roten Pyramide."
+    },
+    "guion_corto": {
+      "hash": "031c481a55bf50de",
+      "texto": "Der Garten gehörte nicht zum ursprünglichen Haus. Er entstand neunzehnhundertsiebenunddreißig. Damals wurde das Nachbargrundstück von tausendvierzig Quadratmetern gekauft, und man zog Mauern hoch, um Leo Trotzki zu schützen, der vor Stalin floh. Heute gibt es hier Kakteen, subtropische Pflanzen, Bäume, Brunnen und mesoamerikanische Skulpturen. In diesem Garten lebten auch Fridas Tiere. Es gab Xoloitzcuintle-Hunde, Klammeraffen und Papageien, und sie malte sie in mehreren Bildern. Heute ist der Garten ein Ort zum Ausruhen, mit Kunst in jeder Ecke und viel Schatten, in dem man eine Weile verweilen kann. Geh langsam über die Steinwege und betrachte die Skulpturen zwischen den Pflanzen."
+    },
+    "guion_largo": {
+      "hash": "ef1487e521e456f4",
+      "texto": "Dieser Garten ist in Wirklichkeit ein Grundstück, das zum Haus ursprünglich nicht gehörte. Als Guillermo Kahlo die Casa Azul neunzehnhundertvier baute, gab es nur den zentralen Innenhof. Neunzehnhundertsiebenunddreißig zogen Leo Trotzki und seine Frau Natalja Sedowa hier ein. Um sie vor der Verfolgung durch Stalin zu schützen, wurden einige Wände geschlossen und das Nachbargrundstück von tausendvierzig Quadratmetern gekauft. Dort wurde der Garten angelegt.\n\nDeshalb hat dieser Raum einen politischen Ursprung. Er ist das Ergebnis einer Entscheidung, einen Menschen zu schützen. Mit der Zeit wurde er zu einem Ort zum Leben, wie alles andere im Haus.\n\nSieh dich um. Es gibt Kakteen, subtropische Pflanzen, Bäume, Steinwege und Brunnen. An mehreren Stellen wurden präkolumbische Skulpturen der Kulturen Mesoamerikas aufgestellt. Das Museum erwähnt eine Basaltskulptur der Chicomecóatl, einer Göttin des Mais und der Nahrungsmittel, die im Garten steht. So zeigte Diego seine Stücke gern im Freien, als Teil des Lebens und nicht als Objekte hinter Glas.\n\nDieser Garten war auch das Zuhause vieler Tiere. In Fridas Leben gab es Klammeraffen, Xoloitzcuintle-Hunde, das sind haarlose mexikanische Hunde, und Papageien. Sie erscheinen in ihren Selbstbildnissen. Einer ihrer Affen, Fulang-Chang, begleitet sie im Bild Fulang-Chang und ich. Und ein junger Hirsch namens Granizo ist die Hauptfigur des Bildes Der verwundete Hirsch, in dem er das Gesicht von Frida trägt. Das waren keine erfundenen Symbole. Es waren die Tiere, mit denen sie lebte.\n\nDer Garten verändert sich auch mit den Jahreszeiten und mit den Ausstellungen. Manchmal wird ein Altar mit Gaben für den Tag der Toten aufgebaut, mit Kerzen und Cempasúchil-Blumen. Wenn du in dieser Zeit kommst, siehst du das Haus noch einmal anders.\n\nEs sind Skulpturen des mexikanischen Künstlers Mardonio Magaña zu sehen, die das Museum an mehreren Stellen des Hauses erwähnt. Ein Museumsgarten verändert sich mit den Jahreszeiten, und deshalb sieht er nicht in jedem Monat gleich aus.\n\nDer Xoloitzcuintle ist ein haarloser Hund, den es schon im präkolumbischen Mexiko gab. Klammeraffen leben natürlicherweise in den Urwäldern Mexikos und Mittelamerikas, und Papageien ebenso. Vielleicht war es eine Möglichkeit, die Natur und die mexikanische Tradition in den Alltag zu holen, diese Tiere zu halten.\n\nGeh langsam. Achte auf die Steinwege, auf die Farben der blauen Mauer und auf das Grün der Pflanzen. Hier öffnet sich das Haus nach außen und ist nicht mehr nur ein Museum."
+    },
+    "retos_observacion": {
+      "hash": "9ccb94187b86156d",
+      "texto": [
+        "Suche die Kakteen und die subtropischen Pflanzen zwischen den Steinwegen",
+        "Achte auf die präkolumbischen Skulpturen zwischen den Pflanzen, wie die der Chicomecóatl",
+        "Stell dir vor, wie die Xoloitzcuintle-Hunde, die Klammeraffen und der Hirsch Granizo diese Wege entlanglaufen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "20d1bb8f205ba3c1",
+      "texto": {
+        "Gartengelände": "1040 m², gekauft 1937",
+        "Elemente": "Kakteen, mexikanische Pflanzen, Brunnen und mesoamerikanische Skulpturen",
+        "Vom Museum erwähnte Skulptur": "Chicomecóatl, aus Basalt",
+        "Fridas Tiere": "Xoloitzcuintle-Hunde, Klammeraffen, Papageien und ein Hirsch namens Granizo"
+      }
+    },
+    "faq_mito": {
+      "hash": "c2ab7e8355700ba3",
+      "texto": {
+        "pregunta": "Mythos: Die Tiere in Fridas Selbstbildnissen waren erfundene Symbole, die sie nie um sich hatte.",
+        "respuesta": "Realität: Es waren ihre Haustiere. Frida hatte Klammeraffen, Xoloitzcuintle-Hunde und Papageien, und sie lebten im Haus und im Garten."
+      }
+    }
+  }
+}

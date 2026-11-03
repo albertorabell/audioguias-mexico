@@ -1,0 +1,54 @@
+{
+  "id": "fri_05_cocina_barro",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "89f2ec9c84065314",
+      "texto": "Die Küche: eine Feuerstelle mit Holzfeuer"
+    },
+    "frase_gancho": {
+      "hash": "bb3e618ae3787f2f",
+      "texto": "Frida wünschte sich eine Küche wie auf einer alten Hacienda, mit Küchengeräten aus Holz und Ton."
+    },
+    "puente_narrativo": {
+      "hash": "0a3137f3ae8d0945",
+      "texto": "Der Besuch im Haus geht weiter: Folge der nächsten Station deiner Route."
+    },
+    "guion_corto": {
+      "hash": "12422eea9bd54f19",
+      "texto": "Die Küche der Casa Azul (Blaues Haus) wirkt, als stammte sie aus einem anderen Jahrhundert, und das war Absicht. Frida wollte, dass sie wie die Feuerstelle einer alten Hacienda aussah und auch so funktionierte, mit Küchengeräten aus Holz und Ton. An den Wänden hängen Töpfe und Kasserollen, es gibt Talavera-Fliesen und eine Feuerstelle, die sie und Diego dem Gasherd vorzogen, den es damals schon gab. Eines ihrer Lieblingsgerichte war der Mole poblano, und laut Frida brachte Lupe Marín, die vor Frida mit Diego verheiratet gewesen war, ihr bei, ihn zuzubereiten. An der Wand bilden kleine Tonkrüge die Namen von Frida und Diego. Hier wurde gekocht und hier wurde gelebt."
+    },
+    "guion_largo": {
+      "hash": "5a969c502c1ca22b",
+      "texto": "Betritt diese Küche in aller Ruhe, denn jede Wand hat etwas zu zeigen. An den Wänden hängen Tontöpfe, Kasserollen und Holzlöffel. Die Feuerstelle ist mit Talavera-Fliesen verkleidet, die gelbe und blaue Muster tragen. Es gibt einen Tisch, den, wie man erzählt, die Angestellten des Hauses benutzten.\n\nDas Museum erklärt die Idee dahinter. Frida wollte eine Küche, die wie die Feuerstelle einer alten Kolonial-Hacienda aussah und auch so funktionierte. Deshalb gibt es Küchengeräte aus Holz und Ton, und deshalb entfernt sich die Küche vom Modernen. In jenen Jahren gab es schon Gasherde, aber Frida und Diego zogen die Feuerstelle mit Holzfeuer vor. Sie wollten, dass die Gerichte den Geschmack der traditionellen Küche hatten.\n\nIn dieser Küche wurden Gerichte aller Art zubereitet, präkolumbischen, kolonialen und volkstümlichen Ursprungs. Eines von Fridas Lieblingsgerichten war der Mole poblano. Laut Frida hatte Lupe Marín, die vor Frida mit Diego verheiratet gewesen war, ihr beigebracht, Moles zuzubereiten.\n\nSchau dir die Wand aufmerksam an. Mit kleinen Tonkrügen sind die Namen von Frida und Diego gebildet, und zwischen ihnen sitzen zwei Tauben. Das ist ein Detail, das man leicht übersieht. Es erinnert daran, wie jemand einen Liebesbrief unterschreibt, nur dass man statt Tinte Ton und Nägel verwendet.\n\nIn dieser Küche empfing Frida viele Menschen und richtete Essen aus. Deshalb ist die Küche kein versteckter Dienstbotenraum. Sie ist der Mittelpunkt des Hauses. Hier vermischten sich die Gerichte und die Gespräche, die danach im Esszimmer weitergingen.\n\nFür Frida war das Essen eine weitere Möglichkeit, das Mexikanische zu bekräftigen. Wie die Masken im Esszimmer oder die Tehuana-Kleider war der Mole poblano eine Art zu sagen, woher man kam.\n\nViele Stücke lohnen einen genaueren Blick. Zwischen den Töpfen und Kasserollen sieht man Metates, Gefäße für Pulque und Molcajetes. Der Metate ist ein Stein zum Mahlen von Mais, und der Molcajete dient zum Zerstoßen von Chilis und Gewürzen. Die Talavera-Fliesen sind Keramik aus Puebla, glasiert und von Hand bemalt.\n\nDie Feuerstelle mit Holzfeuer gibt eine gleichmäßige Wärme und den Gerichten einen rauchigen Geschmack, und deshalb bevorzugen sie viele Köchinnen noch heute. Der Metate wird in Mesoamerika seit Jahrhunderten benutzt. Diese Dinge sind keine Museumsraritäten. Es sind Werkzeuge einer Küche, die in vielen Häusern Mexikos lebendig geblieben ist.\n\nBevor du weitergehst, versuch dir den Rauch der Feuerstelle vorzustellen, die kochenden Kasserollen und Frida, wie sie Anweisungen gibt."
+    },
+    "retos_observacion": {
+      "hash": "ffa8ba622af3b654",
+      "texto": [
+        "Suche die kleinen Tonkrüge, die die Namen von Frida und Diego bilden, mit den zwei Tauben",
+        "Achte auf die Talavera-Fliesen der Feuerstelle in Gelb und Blau",
+        "Zähle, wie viele Töpfe, Kasserollen und Küchengeräte aus Holz an den Wänden hängen"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ab28db492bccb34e",
+      "texto": {
+        "Raum": "Küche im Erdgeschoss",
+        "Zentrales Element": "Feuerstelle mit Holzfeuer und Talavera-Fliesen",
+        "Küchengeräte": "Töpfe und Kasserollen aus Ton, Holzlöffel",
+        "Fridas Lieblingsgericht": "Mole poblano"
+      }
+    },
+    "faq_mito": {
+      "hash": "b7e9508b9d7d7263",
+      "texto": {
+        "pregunta": "Mythos: Da Frida Künstlerin war, kochte sie nicht und interessierte sich nicht für die Küche.",
+        "respuesta": "Realität: Die Küche war ihr so wichtig, dass sie sie wie eine traditionelle Feuerstelle gestaltete. Sie selbst erzählte, dass Lupe Marín, die vor Frida mit Diego verheiratet gewesen war, ihr beibrachte, Moles zuzubereiten."
+      }
+    }
+  }
+}

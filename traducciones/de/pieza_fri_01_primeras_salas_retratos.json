@@ -1,0 +1,54 @@
+{
+  "id": "fri_01_primeras_salas_retratos",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "12fb34f9f0d6aacb",
+      "texto": "Meine Familie und das Porträt ihres Vaters"
+    },
+    "frase_gancho": {
+      "hash": "deeb9297eeac821b",
+      "texto": "Ein gemalter Stammbaum mit Eltern, Großeltern, Schwestern, Neffen und Nichten und einem unbekannten Baby."
+    },
+    "puente_narrativo": {
+      "hash": "c2a8779e86be6f80",
+      "texto": "Geh weiter durch die Malereisäle bis zu einem Stillleben mit Wassermelonen, einem der letzten großen Bilder, die Frida gemalt hat."
+    },
+    "guion_corto": {
+      "hash": "fa50a9b4070b113b",
+      "texto": "In diesen Sälen, die einst das Wohnzimmer der Familie waren, ist Frida von ihren Leuten umgeben. Das Bild Meine Familie von 1949 ist ein Stammbaum. Zu sehen sind die Malerin, ihre Eltern, ihre Großeltern, ihre Schwestern, zwei Neffen beziehungsweise Nichten und ein unbekanntes Baby. In der Nähe hängt das Porträt ihres Vaters, Guillermo Kahlo, eines Fotografen, der Gebäude fotografierte und auch sich selbst porträtierte. Frida malte das Bild nach einem dieser Selbstporträts. Und noch weiter zurück in der Zeit liegt ihr erstes Selbstporträt von 1926, das sie als Geschenk für ihren damaligen Freund anfertigte. Hier beginnt man zu verstehen, woher ihre Art zu schauen kam."
+    },
+    "guion_largo": {
+      "hash": "7ebd529623d353ad",
+      "texto": "Die ersten Säle des Hauses wurden als Galerie neu eingerichtet. Früher waren sie das Wohnzimmer der Familie, mit einem Kamin aus Vulkangestein, den Diego Rivera entworfen hatte. Heute hängen hier Gemälde von Frida und von Diego sowie Fotografien von Fridas Vater. Wenn du bei den Porträts beginnst, verstehst du, woher alles andere kommt.\n\nDas Bild Meine Familie stammt von 1949. Es ist ein gemalter Stammbaum. Laut dem Museum sind Frida, ihre Eltern, ihre Großeltern, ihre Schwestern, zwei Neffen beziehungsweise Nichten und ein unbekanntes Baby zu sehen. Sie malte es viele Jahre, nachdem sie die Kindheit hinter sich gelassen hatte, und doch erzählt es noch immer, wer in ihrem Haus lebte. Für Frida war die Familie der Ort, an dem die Geschichte begann.\n\nIhr Vater, Guillermo Kahlo, wurde 1872 geboren und kam 1890 nach Mexiko. Er war Fotograf und fotografierte Gebäude seiner Zeit. Er litt an Epilepsie. Auch sich selbst fotografierte er viele Male. Jahre später nahm Frida eines dieser Selbstporträts und machte daraus das Bild Porträt meines Vaters Guillermo Kahlo. Das Museum stellt den Kindern, die den Saal besuchen, eine einfache Frage: Schau auf den Hintergrund und überlege, was Frida dort gemalt hat.\n\nVon ihrem Vater lernte sie mehr als nur das Schauen. Er brachte ihr bei, die Kamera zu benutzen. Frida wuchs zwischen Negativen, Familienfotos und Porträts auf, und daher kommt die Gewohnheit, sich selbst mit Abstand zu betrachten. Ihre Mutter, Matilde Calderón, stammte aus Oaxaca.\n\nIn ihrer Jugend lernte Frida außerdem bei Fernando Fernández, einem Kupferstecher und Freund ihres Vaters, und arbeitete bei ihm als Lehrling. Daher kommt ihre feine Hand für die Zeichnung, die in jedem Detail ihrer Bilder zu erkennen ist.\n\nDas älteste Stück des Saals ist das Selbstporträt mit Samtkleid von 1926. Es ist Fridas erstes Selbstporträt. Sie schuf es als Geschenk für ihren Freund Alejandro Gómez Arias, und es erinnert an den Stil der italienischen Renaissance, vor allem an den von Botticelli. Achte auf den langen Hals und die Haltung. Es ist eine junge Frida, die noch ausprobiert, wie sie sich zeigen möchte.\n\nDas Haus bewahrt auch Werke auf, die Frida unvollendet ließ, wie Frida und der Kaiserschnitt von 1931. Es handelt von der Mutterschaft, die sie nie erlebte. Es ist nicht immer zu sehen, denn die Säle verändern sich mit den Ausstellungen.\n\nBleib einen Moment vor den Porträts stehen. Hier gibt es noch keinen Schmerz und keine Politik. Hier gibt es eine Familie, eine Malerin, die gerade erst beginnt, und das Haus, in dem alles geschah."
+    },
+    "retos_observacion": {
+      "hash": "d8f5d4f051c63814",
+      "texto": [
+        "Suche in Meine Familie die Körper der Großeltern, der Eltern und der Schwestern und finde das Baby, das das Museum unbekannt nennt",
+        "Vergleiche das Porträt ihres Vaters mit dem Gedanken, dass er auch Gebäude fotografierte und sich selbst aufnahm",
+        "Betrachte Hals und Haltung im Selbstporträt mit Samtkleid und suche die Ähnlichkeit mit der Malerei der Renaissance"
+      ]
+    },
+    "especificaciones": {
+      "hash": "7572ba4279de7651",
+      "texto": {
+        "Meine Familie": "1949, Stammbaum",
+        "Porträt meines Vaters Guillermo Kahlo": "gemalt nach einem fotografischen Selbstporträt ihres Vaters",
+        "Selbstporträt mit Samtkleid": "1926, ihr erstes Selbstporträt",
+        "Frida und der Kaiserschnitt": "1931, unvollendet, Öl auf Leinwand, 620 mal 730 mm, laut Google Arts and Culture"
+      }
+    },
+    "faq_mito": {
+      "hash": "9cd78df271e15105",
+      "texto": {
+        "pregunta": "Mythos: Frida lernte das Malen an einer Akademie, mit Diego Rivera als Lehrer.",
+        "respuesta": "Realität: Sie brachte sich das meiste selbst bei. Von ihrem Vater lernte sie das fotografische Auge, und von Fernando Fernández, einem Kupferstecher und Freund der Familie, das feine Zeichnen."
+      }
+    }
+  }
+}

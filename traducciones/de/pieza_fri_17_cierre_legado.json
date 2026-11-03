@@ -1,0 +1,55 @@
+{
+  "id": "fri_17_cierre_legado",
+  "tipo": "pieza",
+  "idioma": "de",
+  "modelo": "claude-sonnet-5-5",
+  "fecha": "2026-11-03",
+  "avisos": {},
+  "campos": {
+    "titulo": {
+      "hash": "f1398eaafb93fc5b",
+      "texto": "Von Coyoacán in die Welt"
+    },
+    "frase_gancho": {
+      "hash": "0fa2068c43996e61",
+      "texto": "Zu Lebzeiten hatte Frida in Mexiko nur eine einzige Einzelausstellung. Sie kam im Krankenwagen und legte sich in ihr Bett."
+    },
+    "puente_narrativo": {
+      "hash": "e9b453a70ebf50c5",
+      "texto": "Hier endet der Rundgang. Bevor du gehst, bleib noch einen Moment im Innenhof."
+    },
+    "guion_corto": {
+      "hash": "024207dd862b675f",
+      "texto": "Heute bilden sich Schlangen, um dieses Haus zu betreten. Doch zu Fridas Lebzeiten war das anders. Ihre einzige Einzelausstellung in Mexiko fand im April neunzehnhundertdreiundfünfzig in der Galerie für zeitgenössische Kunst von Lola Álvarez Bravo statt. Die Ärzte hatten ihr Bettruhe verordnet. Frida kam im Krankenwagen, und ihr Bett mit vier Pfosten wurde in die Galerie gebracht, damit sie die Gäste empfangen konnte. Ihr Ruhm wuchs erst lange nach ihrem Tod. In den siebziger und achtziger Jahren erschienen Bücher und Ausstellungen, und neunzehnhundertvierundachtzig erklärte Mexiko ihr Werk zum Kulturerbe. Diese Offenheit war es, die so viele Menschen berührte."
+    },
+    "guion_largo": {
+      "hash": "8150078e1b9ef787",
+      "texto": "Du bist am Ende des Besuchs. Es lohnt sich, zurückzublicken und sich eine Frage zu stellen. Wie wurde eine Frau, die zu Lebzeiten in Mexiko nur eine einzige Einzelausstellung hatte, auf der ganzen Welt bekannt?\n\nBeginnen wir mit dieser Ausstellung. Sie fand im April neunzehnhundertdreiundfünfzig in der Galerie für zeitgenössische Kunst statt und wurde von der Fotografin Lola Álvarez Bravo organisiert. Frida hatte ärztliche Anweisung, im Bett zu bleiben. Trotzdem wollte sie bei ihrer eigenen Eröffnung dabei sein. Sie kam im Krankenwagen, auf einer Trage, und ihr Bett mit vier Pfosten wurde in die Galerie gebracht. Dort empfing sie die Gäste, im Liegen.\n\nEs war ihre einzige Einzelausstellung in Mexiko zu Lebzeiten. In jenen Jahren kannten viele sie als die Frau von Diego Rivera, einem bereits sehr berühmten Wandmaler. Ihre Bilder waren klein und persönlich, ganz anders als die großen öffentlichen Wandbilder.\n\nDie Jahre vergingen. Frida starb neunzehnhundertvierundfünfzig. Neunzehnhundertachtundfünfzig wurde die Casa Azul (Blaues Haus) auf Initiative von Diego als Museum eröffnet. Ihr Werk brauchte lange, bis es ein breites Publikum erreichte.\n\nAb Ende der siebziger Jahre änderte sich alles. Ihr Werk wurde wiederentdeckt. Zwischen neunzehnhundertsechsundsiebzig und neunzehnhundertsiebenundsiebzig erschienen die ersten Bücher über sie. Neunzehnhundertachtundsiebzig wurden die ersten Retrospektiven organisiert. Neunzehnhundertdreiundachtzig veröffentlichte die Schriftstellerin Hayden Herrera eine Biografie, Frida, die viele Leserinnen und Leser erreichte. Neunzehnhundertvierundachtzig erklärte Mexiko ihr Werk zum Kulturerbe und verbot, es außer Landes zu bringen.\n\nViele Leser und vor allem viele Leserinnen fanden in ihrem Werk etwas, das in der Kunstgeschichte selten ist. Eine Frau, die sich selbst malte, mit ihrem Körper, ihrem Schmerz, ihrem Liebeskummer, ihrer Politik und ihrem Stolz auf Mexiko. Frida malte weniger als zweihundert Bilder, die meisten davon klein, und viele sind Selbstporträts. Diese Offenheit war es, die so viele Menschen berührte.\n\nHeute stehen viele Menschen Schlange, um hineinzukommen. Doch wenn du durch das Haus gehst, ist der Eindruck nicht der eines Denkmals. Es ist der eines Hauses. Es gibt ein Atelier, ein Bett mit einem Spiegel und eine Urne auf einer Frisierkommode. Fridas Geschichte versteht man hier, in den kleinen Zimmern, besser als in jedem Porträt.\n\nDas Museum erinnert an einen Satz über diesen Ort. Seit der Eröffnung bleibt die Atmosphäre des Hauses so, als würde Frida noch darin wohnen. Das ist ein guter Abschied. Der Besuch endet nicht mit einem berühmten Gemälde, sondern mit dem Gedanken, dass hier ein Mensch gelebt hat.\n\nWenn du hinausgehst, sieh dir noch einmal die blauen Mauern des Innenhofs an. Du weißt jetzt, was sie bewahren."
+    },
+    "retos_observacion": {
+      "hash": "5fff3accc0ebe05f",
+      "texto": [
+        "Sieh dir zum letzten Mal die blauen Mauern des Innenhofs an und geh noch einmal durch, was du in jedem Zimmer gesehen hast",
+        "Erinnere dich an die Szene im April neunzehnhundertdreiundfünfzig, mit dem Bett mit vier Pfosten mitten in einer Galerie",
+        "Überlege, welcher Teil des Hauses dir am meisten über Frida erzählt hat"
+      ]
+    },
+    "especificaciones": {
+      "hash": "ae8d98c2bdf49e0b",
+      "texto": {
+        "Einzige Einzelausstellung in Mexiko zu Lebzeiten": "April 1953, Galerie für zeitgenössische Kunst, organisiert von Lola Álvarez Bravo",
+        "Erste Retrospektiven": "1978",
+        "Biografie von Hayden Herrera": "1983",
+        "Zum Kulturerbe Mexikos erklärtes Werk": "1984",
+        "Werk": "weniger als 200 Gemälde, fast alle klein"
+      }
+    },
+    "faq_mito": {
+      "hash": "25d7004d3d4832df",
+      "texto": {
+        "pregunta": "Mythos: Frida Kahlo war berühmter als Diego Rivera, solange die beiden lebten.",
+        "respuesta": "Realität: Zu Lebzeiten war Diego der Bekanntere. Fridas Ruhm wuchs ab Ende der siebziger Jahre, mit Büchern, Ausstellungen und ihrer Biografie von neunzehnhundertdreiundachtzig."
+      }
+    }
+  }
+}
